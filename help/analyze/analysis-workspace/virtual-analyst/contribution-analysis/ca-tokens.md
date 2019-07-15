@@ -5,7 +5,7 @@ seo-title: 기여도 분석 개요
 title: 기여도 분석 개요
 uuid: 2 BD 295 B 0-C 5 CE -4443-86 AF -024 EFD 20 C 021
 translation-type: tm+mt
-source-git-commit: 1b8cfad731646523844aa420b38137a929383462
+source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 1b8cfad731646523844aa420b38137a929383462
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>기여도 분석에 대한 액세스를 어떻게 제한합니까?</b> </p> </td> 
-   <td colname="col2"> <p>기본적으로 관리자만 기여도 분석 실행을 액세스할 수 있지만 관리자는 [관리 콘솔] (https://helpx.adobe.com/enterprise/using/user-groups.html)에서 권한 그룹을 만들어 다른 사용자에게 액세스 권한을 부여할 수 있습니다. 합법적인 이유가 있고 액세스를 남용하지 않는 것으로 신뢰받는 사용자에게만 기여도 분석을 사용할 수 있는 권한을 부여해야 합니다. </p> <p>이 권한을 "기여도 분석"이라고 하며, <span class="ignoretag"><span class="uicontrol">분석</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹 편집</span> &gt; <span class="uicontrol">모든 보고서 액세스 권한 편집</span> &gt; <span class="uicontrol">보고서 세트 도구 사용자 지정</span> &gt; <span class="uicontrol">도구 및 보고서</span></span>에 있습니다. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. 정당한 이유가 있는 사용자에게만 기여도 분석을 사용할 수 있는 권한을 부여하고 액세스 권한을 남용하지 않도록 신뢰해야 합니다. </p> <p>이 권한을 "기여도 분석"이라고 하며, <span class="ignoretag"><span class="uicontrol">분석</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹 편집</span> &gt; <span class="uicontrol">모든 보고서 액세스 권한 편집</span> &gt; <span class="uicontrol">보고서 세트 도구 사용자 지정</span> &gt; <span class="uicontrol">도구 및 보고서</span></span>에 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>한 달에 얼마나 많은 토큰을 받을 수 있고, 얼마나 많은 토큰을 현재 달에 사용했는지 어떻게 알 수 있습니까?</b> </p> </td> 
