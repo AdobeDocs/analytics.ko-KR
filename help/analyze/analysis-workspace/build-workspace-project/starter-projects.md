@@ -5,7 +5,7 @@ seo-title: 템플릿
 title: 템플릿
 uuid: D 6 D 1 B 745-A 684-41 C 1-879 B -9 F 9 A 9503 FE 00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
 [YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) 의 분석 작업 공간에서 표준 템플릿 (2:46)
 
 다음은 사용 가능한 템플릿과 각 템플릿이 응답하는 데 도움이 되는 질문입니다.
-
-### 광고
-
-* **Seach 엔진**: 이 템플릿은 광고 트렌드, 광고 플랫폼 합계, 키워드 등을 분류합니다. **참고:** 이 템플릿 프로젝트를 표시하려면 선택한 보고서 세트가 Advertising Cloud에 대해 활성화되어 있어야 합니다.
-
-## 상거래
-
-* **Autonomy: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 기여도 분석으로 전자 상거래 전환을 분류하며 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다.
 
 ### 미디어
 
