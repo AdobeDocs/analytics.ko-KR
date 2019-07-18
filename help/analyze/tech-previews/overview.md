@@ -4,7 +4,7 @@ seo-title: Labs for Adobe Analytics
 description: Adobe Analytics 용 프로토타입 프로젝트 미리 보기
 seo-description: Adobe Analytics 용 프로토타입 미리 보기
 translation-type: tm+mt
-source-git-commit: caea9c6fe37292212e6fccb5cf99770fa9a60d06
+source-git-commit: 20bb6b39530c57679463691e7507353aff2d106e
 
 ---
 
@@ -67,7 +67,7 @@ Labs에 액세스하려면:
 
 ## 추가 정보
 
-* Labs는 현재 제한된 수의 고객에 대한 빠른 액세스를 위해 출시되었으나 향후 널리 출시될 예정입니다.
+* Labs는 현재 제한된 수의 고객을 조기 이용하면서 출시되지만 향후 널리 출시될 예정입니다.
 
 * 랩 내의 일부 프로토타입은 분석 기능이 되므로 다른 프로토타입은 그렇지 않을 수 있습니다. 피드백을 통해 의사 결정을 내릴 수 있으므로 프로토타입을 검토하여 Adobe가 얼마나 중요한 고객인지 알 수 있습니다.
 
