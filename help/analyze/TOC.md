@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: 분석 분석 가이드
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -324,8 +324,8 @@ source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
    + [예약 관리자](ad-hoc-analysis/c-schedule.md)
    + [테이블 빌더](ad-hoc-analysis/c-tablebuilder.md)
    + [시간](ad-hoc-analysis/c-time.md)
-+ Analytics Labs {#tech-previews}
-   + [Labs](tech-previews/overview.md)
++ Technology Previews {#tech-previews}
+   + [기술 미리 보기 개요](tech-previews/overview.md)
 + Analytics 보고 API {#analytics-reporting-api}
    + [Analytics 보고 API 개요](c-reporting-api/c-reporting-api.md)
    + [Analytics 보고 API 비교](c-reporting-api/api-comparison.md)
