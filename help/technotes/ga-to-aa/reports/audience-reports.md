@@ -20,7 +20,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 고유 방문자의 라인 그래프를 획득하려면:
 
 1. 왼쪽에 있는 시각화 아이콘을 클릭하고 선 시각화를 빈 자유 형식 테이블 위의 작업 영역으로 드래그합니다.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled &#39;Drop a Metric here&#39;.
+2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
 3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) 기존 날짜 차원 헤더 상단에서
 
 See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
@@ -66,7 +66,7 @@ Google Analytics의 대상자 보고서에는 대상 설정이 필요합니다. 
 
 언어 보고서를 만들려면:
 
-1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
@@ -78,12 +78,12 @@ See the [Language](../../../components/c-variables/dimensionslist/reports-langua
 지리적 위치 보고서를 만들려면:
 
 1. 왼쪽에 있는 시각화 아이콘을 클릭하고 맵 시각화를 빈 자유 형식 테이블 위의 작업 영역으로 드래그합니다.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled &#39;Add Metric&#39;.
+2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled 'Add Metric'.
 3. 작성을 클릭합니다.
 
 지도 외에 표를 원하는 경우:
 
-1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
@@ -94,7 +94,7 @@ See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geo
 
 새 방문 횟수 및 재방문 보고서를 만들려면:
 
-1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;. **첫 번째 방문은** 세그먼트이고 작업 영역은 일반적으로 차원을 사용하여 행을 나타냅니다.
+1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled 'Drop a Dimension here'. **첫 번째 방문은** 세그먼트이고 작업 영역은 일반적으로 차원을 사용하여 행을 나타냅니다.
 2. **재방문 세그먼트를** 찾아 세그먼트 행 머리글의 상단에서 드래그합니다. 이렇게 하면 세그먼트를 처음 방문 시 차원과 같은 차원으로 추가하므로 간단한 비교를 할 수 있습니다.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
@@ -108,7 +108,7 @@ See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geo
 
 The frequency &amp; recency report is approximately equal to the **Visit Number** dimension in Analysis Workspace.
 
-1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
@@ -117,7 +117,7 @@ See the [Visit Number](../../../components/c-variables/dimensionslist/reports-vi
 
 The engagement report is approximately equal to the **Time Spent per Visit - Bucketed** dimension.
 
-1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
@@ -132,7 +132,7 @@ See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/re
 * **화면 색상** 기본 차원은 분석 작업 공간에서 **색상 깊이** 차원으로 사용할 수 있습니다.
 * **Flash 버전** 기본 차원은 Adobe Analytics에서 사용할 수 없지만 필요한 경우 evar에 의해 데이터를 수집할 수 있습니다.
 
-1. 구성 요소 메뉴에서 위에 언급된 원하는 차원을 찾아&#39;여기에서 차원 놓기&#39;레이블이 지정된 큰 자유형 테이블 영역으로 드래그합니다.
+1. 구성 요소 메뉴에서 위에 언급된 원하는 차원을 찾아'여기에서 차원 놓기'레이블이 지정된 큰 자유형 테이블 영역으로 드래그합니다.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 해당 차원에 대한 자세한 내용은 구성 요소 사용자 안내서의 다음 페이지를 참조하십시오.
@@ -146,16 +146,16 @@ See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/re
 
 The network report is approximately equal to the **Domain** dimension.
 
-1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
 
 ## 모바일 - 개요
 
-The mobile overview report is approximately equal to the **Mobile Device Type** dimension. &#39; 기타&#39;값은 데스크톱 트래픽과 같습니다.
+The mobile overview report is approximately equal to the **Mobile Device Type** dimension. ' 기타'값은 데스크톱 트래픽과 같습니다.
 
-1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
@@ -164,7 +164,7 @@ See the [Mobile Device Type](../../../components/c-variables/dimensionslist/repo
 
 The mobile devices report is approximately equal to the **Mobile Device** dimension.
 
-1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
@@ -183,5 +183,5 @@ See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-d
 
 1. 왼쪽의 시각화 아이콘을 클릭하고 흐름 시각화 기능을 자유 형식 테이블 위의 작업 영역으로 드래그합니다.
 2. **페이지** 차원을 찾은 다음 화살표 아이콘을 클릭하여 페이지 값을 표시합니다. 차원 값은 노란색으로 표시됩니다.
-3. 원하는 페이지 값을 찾아 가운데에 있는&#39;차원 또는 항목&#39;레이블이 지정된 공간으로 드래그합니다.
+3. 원하는 페이지 값을 찾아 가운데에 있는'차원 또는 항목'레이블이 지정된 공간으로 드래그합니다.
 4. 이 흐름 보고서는 대화형입니다. 다음 또는 이전 페이지로 흐름을 확장하려면 아무 값이나 클릭합니다. 마우스 오른쪽 단추를 클릭하여 열을 확장하거나 축소합니다. 동일한 흐름 보고서 내에서 다른 차원을 사용할 수도 있습니다.
