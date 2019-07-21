@@ -26,7 +26,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 방문자가 마케팅 이메일에 있는 링크를 클릭하고 집 컴퓨터에서 사이트를 방문합니다. 이 방문자는 과거에 사이트를 7번 더 방문했습니다. | 1 | - | 1 | 1 | 8 |
 | 2-8 | 사이트에서 7개의 페이지를 더 방문합니다. | 1 | - | 1 | 2-8 | 8 |
-| 9 | 집 컴퓨터를 인증합니다. | 1 | CID1 | CID1 | 9 <br>This is CID1&#39;s first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
+| 9 | 집 컴퓨터를 인증합니다. | 1 | CID1 | CID1 | 9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
 | 10 | 한 페이지를 더 방문합니다. | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | 사무실 랩톱에서 사이트를 엽니다. 이 방문자는 이 장치를 사용하기 전에는 여러분의 사이트를 방문한 적이 없습니다. | 2 | - | 2 | 1 | 1 |
 | 12 | 랩톱을 인증합니다. | 2 | CID1 | CID1 | 1 | 9 |
