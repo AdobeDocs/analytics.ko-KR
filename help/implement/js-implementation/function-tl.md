@@ -30,11 +30,11 @@ File downloads and exit links can be automatically tracked based on parameters s
 
 **this**
 
-첫 번째 인수는 항상 this(기본값)나 true로 설정해야 합니다. 이 인수는 클릭되는 개체를 참조하며, &quot;this&quot;로 설정되면 링크의 HREF 속성을 참조합니다.
+첫 번째 인수는 항상 this(기본값)나 true로 설정해야 합니다. 이 인수는 클릭되는 개체를 참조하며, "this"로 설정되면 링크의 HREF 속성을 참조합니다.
 
-HREF 속성이 없는 개체에 대한 링크 추적을 구현하는 경우 항상 이 인수를 &quot;this.&quot; 로 설정해야 합니다.
+HREF 속성이 없는 개체에 대한 링크 추적을 구현하는 경우 항상 이 인수를 "this." 로 설정해야 합니다.
 
-보통 링크를 클릭하면 방문자가 현재 페이지를 나가기 때문에 500ms 지연을 사용하여 사용자가 페이지를 떠나기 전에 이미지 요청이 Adobe로 전송되도록 합니다. 이러한 지연은 페이지를 나갈 때만 필요하지만 일반적으로 s.tl() 함수를 호출할 때도 존재합니다. 지연을 사용하지 않으려면 s.tl() 함수를 호출할 때 키워드 &#39;true&#39;를 첫 번째 매개 변수로 전달하십시오.
+보통 링크를 클릭하면 방문자가 현재 페이지를 나가기 때문에 500ms 지연을 사용하여 사용자가 페이지를 떠나기 전에 이미지 요청이 Adobe로 전송되도록 합니다. 이러한 지연은 페이지를 나갈 때만 필요하지만 일반적으로 s.tl() 함수를 호출할 때도 존재합니다. 지연을 사용하지 않으려면 s.tl() 함수를 호출할 때 키워드 'true'를 첫 번째 매개 변수로 전달하십시오.
 
 **linkType**
 
@@ -44,9 +44,9 @@ linkType에는 캡처할 링크의 유형에 따라, 세 가지 가능한 값이
 
 | 유형 | linkType 값 |
 |--- |--- |
-| 파일 다운로드 | &#39;d&#39; |
-| 종료 링크 | &#39;e&#39; |
-| 사용자 지정 링크 | &#39;o&#39; |
+| 파일 다운로드 | 'd' |
+| 종료 링크 | 'e' |
+| 사용자 지정 링크 | 'o' |
 
 **linkName**
 
@@ -141,7 +141,7 @@ function(){if(confirm('Proceed?'))document.location=...});return false">Click He
 
 >[!NOTE]
 >
->링크 이름 매개 변수가 정의되지 않은 경우 링크의 URL (&quot;this&quot; 개체에서 결정됨) 이 링크 이름으로 사용됩니다.
+>링크 이름 매개 변수가 정의되지 않은 경우 링크의 URL ("this" 개체에서 결정됨) 이 링크 이름으로 사용됩니다.
 
 [!DNL Analytics] 변수는 사용자 지정 링크 코드의 일부로 정의할 수 있습니다.
 
@@ -250,7 +250,7 @@ JavaScript H.25.4(2013년 2월 발표)에서는, `useForcedLinkTracking`이 활�
 
 * `<A>``<AREA>` 태그가 표시됩니다.
 * 태그에 `HREF` 특성이 반드시 있어야 함.
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * `TARGET` 속성을 설정하면 안 됩니다. `TARGET` 또는 현재 창 `_self`(, `_top`또는의 `window.name`값) 를 참조해야 합니다.
 
 ## 이미지 요청을 사용한 링크 추적 {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -263,7 +263,7 @@ link_img.xml
 
  -->
 
-이미지 요청은 &quot;pe&quot; 매개 변수를 다음과 같이 이미지 요청 src 매개 변수에 추가하여 하드 코딩됩니다.
+이미지 요청은 "pe" 매개 변수를 다음과 같이 이미지 요청 src 매개 변수에 추가하여 하드 코딩됩니다.
 
 ```
 pe=[type]
