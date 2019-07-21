@@ -1,0 +1,140 @@
+---
+description: 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 작용을 세부적으로 파악할 수 있습니다.
+seo-description: 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 작용을 세부적으로 파악할 수 있습니다.
+seo-title: 트래픽 소스 보고서
+solution: Analytics
+title: 트래픽 소스 보고서
+topic: Ad Hoc Analysis
+uuid: 246 AFBDC -9 F 7 B -4956-A 44 A-B 7 AAD 948 F 392
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# 트래픽 소스 보고서
+
+트래픽 소스 보고서로 방문자와 웹 사이트의 상호 작용을 세부적으로 파악할 수 있습니다.
+
+## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+
+트래픽 소스 보고서로 방문자와 웹 사이트의 상호 작용을 세부적으로 파악할 수 있습니다.
+
+트래픽 소스 보고서는 다음과 같이 활용할 수 있습니다.
+
+*  방문자 행동의 주요 측면 분석
+*  트래픽 패턴 모니터링 및 이해
+*  인기 있는 사이트 컨텐츠 판별
+*  측정 가능한 기준으로 방문자 분류
+
+**공통 지속성**
+
+[!UICONTROL 트래픽 소스]에서는 덮어쓰기 또는 방문 종료 중 먼저 발생하는 시점까지 모든 보고서 값이 지속되고 크레딧을 받습니다. 이전에는 키워드와 참조 도메인만 지속되었습니다. 예를 들어 방문자가 Google에서 "DVD"를 검색하여 사이트에 방문해서 $100만큼 구입하면 보고에서는 $100를 "DVD" 키워드와 Google 검색 엔진에 할당합니다. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+
+## 검색 키워드 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
+
+[모두], [유료] 및 [자연어] 검색에 사용하는 키워드 분류를 표시합니다.
+
+<!-- 
+
+c_reports_search_keyword.xml
+
+ -->
+
+** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+
+** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+
+** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+
+## 검색 엔진 {#concept_351CDE4F5FC44371B6B657064E125134}
+
+방문자가 [모두], [유료] 및 [자연어] 검색에 사용하는 검색 엔진을 표시합니다.
+
+<!-- 
+
+c_reports_search_engines.xml
+
+ -->
+
+** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+
+** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+
+** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+
+## 참조 도메인 {#concept_804614DF21C14C9FB542451B30F92788}
+
+<!-- 
+
+c_reports_ref_domains.xml
+
+ -->
+
+사이트의 성공 지표에 가장 큰 영향을 미친 고객을 유도한 참조 도메인을 보여줍니다. 레퍼러는 도메인과 URL의 두 가지 주요 카테고리로 분류됩니다. 도메인은 도메인 이름을 의미하며 쿼리 문자열 또는 서브디렉토리가 연결되지 않은 기본 도메인으로 나타납니다. URL에는 기본 도메인 이름과 쿼리 문자열 또는 서브디렉토리가 포함됩니다.
+
+## 최초 참조 도메인 {#concept_EB18251DF70343169B46BB59543A579A}
+
+<!-- 
+
+c_reports_original_ref_domains.xml
+
+ -->
+
+사이트로 고객을 유도한 원래 레퍼러를 보여줍니다. 고객은 특정 사이트를 여러 번 방문할 수 있으며 방문할 때마다 레퍼러가 다를 수도 있습니다. 이 보고서는 방문자가 사이트에 처음 방문 시 참조한 방법을 보여줍니다. 이는 방문자들이 같은 레퍼러를 계속해서 사용하고 있는지 여부를 확인하고 고객이 사이트를 참조하는 패턴을 보는 데 도움이 됩니다. 최초 레퍼러에서 발생한 방문자 수를 보거나 각각의 최초 레퍼러가 생성하고 있던 매출액을 확인할 수 있습니다. 레퍼러 보고서는 방문자가 사이트를 방문할 때마다 채워질 수 있으며 방문자가 방문이 만료되기 전에 한 세션에서 여러 번 사이트를 방문하는 경우에도 해당됩니다.
+
+## 레퍼러 {#concept_40CF9C2D10B94E82819BC65A232F05C3}
+
+방문자가 사이트에 오기 전에 있었던 도메인 또는 URL, 방문자가 웹 사이트를 검색하는 데 사용한 방법 및 이러한 참조 위치에서 이루어진 사이트 방문 횟수를 보여줍니다.
+
+<!-- 
+
+c_reports_referrers.xml
+
+ -->
+
+예를 들어 방문자가 사이트 A에서 링크를 클릭하여 특정 사이트에 도달하는 경우 사이트 A가 도메인의 일부로 정의되어 있지 않으면 사이트 A가 레퍼러입니다. Marketing Reports &amp; Analytics 구현 시 구현 컨설턴트가 웹 사이트의 일부인 도메인과 URL을 정의할 수 있도록 도와줄 수 있습니다. (이러한 변경은 구현 후 수행할 수 있습니다.)
+
+정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다. 예를 들어, 웹 페이지 A와 웹 페이지 B는 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않습니다. 이 경우, 웹 페이지 C는 레퍼러로 간주됩니다.
+
+See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) in the [!DNL Admin Console] help for more information.
+
+>[!NOTE]
+>
+>Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. 예를 들어 [!DNL https://mail.yahoo.com]에서 오는 모든 것은 프로토콜이 [!DNL https://]://이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
+
+## 레퍼러 유형 {#concept_689E42D8F96C450DA41C7167C7388198}
+
+방문할 때마다 방문자의 조회 사이트를 추적하여 기록하면 방문자가 방문하는 동안 사이트에 관해 어떻게 검색하는지 알 수 있습니다.
+
+<!-- 
+
+c_reports_ref_types.xml
+
+ -->
+
+아래 목록은 다양한 유형의 레퍼러를 정의합니다.
+
+* *다른 웹 사이트 레퍼러는 방문자가 다른 웹 사이트(사이트의 일부로 정의되지 않은)의 페이지에 있는 링크를 클릭하고 사용자 웹 사이트에 도달할 때 기록됩니다.*
+* *검색 엔진 레퍼러는 방문자가 검색 엔진을 사용하여 사이트에 액세스할 때 기록됩니다.*
+* *입력/책갈피 표시* 레퍼러가 기록됩니다.
+
+   * 방문자가 비브라우저 링크를 통해 사용자의 사이트에 들어가는 경우(예: 이메일에서).
+   * 방문자가 브라우저에 바로 사용자의 사이트 URL을 입력하는 경우.
+   * 방문자가 개인 하드 드라이브에서 HTML 링크를 클릭하는 경우.
+   * 방문자가 브라우저 책갈피를 선택하여 사용자의 사이트에 액세스하는 경우.
+
+**정의**
+
+이 보고서를 실행할 때 다음과 같은 라인 항목이 표시될 수 있습니다.
+
+**사이트 내부**: 이러한 항목은 내부 URL 필터에서 태그가 지정된 항목입니다. 이러한 항목은 레퍼러 인스턴스로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
+
+** Java 스크립트 없음** JavaScript가 없으므로 유형을 식별할 수 없습니다 (알 수 없음). 즉, JavaScript 지원이 가능한 것으로 보고하지 않는 브라우저 클라이언트에서 레퍼러 정보가 제공되지 않은 경우입니다. 이 경우는 '레퍼러 인스턴스 수'로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
+
+**USENET(뉴스그룹)**: 레퍼러의 URL이 [!DNL news://]://로 시작하는 경우를 의미합니다. 따라서 참조 링크는 웹 페이지가 아닌 Usenet 뉴스그룹에 게시되었습니다.
+
+>[!NOTE]
+>
+>Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). 이를 통해 [!UICONTROL 레퍼러 유형] 보고서에서 사용자 사이트 내 및 JavaScript 없음 라인 항목의 발생을 줄이거나 방지할 수 있습니다.
+
