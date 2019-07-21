@@ -33,9 +33,9 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 2. 오른쪽 상단의 9 개 사각형 아이콘을 클릭한 다음 컬러 분석 로고를 클릭합니다.
 3. 위쪽 탐색 모음에서 작업 영역을 클릭합니다.
-4. &#39; 새 프로젝트 만들기&#39;버튼을 클릭합니다.
-5. 모달 팝업에서&#39;빈 프로젝트&#39;가 선택되어 있는지 확인한 다음 만들기를 클릭합니다.
-6. 왼쪽에는 차원, 지표, 세그먼트 및 날짜 범위가 표시됩니다. 페이지 차원 (주황색) 를 찾아&#39;여기에 차원 놓기&#39;레이블이 지정된 캔버스로 드래그합니다.
+4. ' 새 프로젝트 만들기'버튼을 클릭합니다.
+5. 모달 팝업에서'빈 프로젝트'가 선택되어 있는지 확인한 다음 만들기를 클릭합니다.
+6. 왼쪽에는 차원, 지표, 세그먼트 및 날짜 범위가 표시됩니다. 페이지 차원 (주황색) 를 찾아'여기에 차원 놓기'레이블이 지정된 캔버스로 드래그합니다.
 7. 이 달의 최상위 페이지를 보여주는 보고서를 볼 수 있습니다. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
 8. Google Analytics의 표에는 일반적으로 7-8 개의 지표가 포함됩니다. 바운스 비율 지표 (컬러 녹색) 를 찾아 발생 지표 머리글 옆에 드래그합니다. 발생 횟수 옆에 있는 바운스 비율 지표를 드래그하면 두 지표 모두 나란히 표시됩니다.
 9. 기존 지표 헤더 옆에 있는 지표를 드래그하여 여러 지표를 나란히 배치할 수 있습니다. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
@@ -46,8 +46,8 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 프로젝트 템플릿에 액세스하여 컨텐츠 소비 템플릿 (Google Analytics의 모든 페이지 보고서와 유사) 를 만듭니다.
 
-1. &#39; 새 프로젝트 만들기&#39;버튼을 클릭합니다.
-2. 모든 템플릿 아래에 나열된&#39;콘텐츠 소비 (웹)&#39; 아이콘을 찾아 두 번 클릭합니다.
+1. ' 새 프로젝트 만들기'버튼을 클릭합니다.
+2. 모든 템플릿 아래에 나열된'콘텐츠 소비 (웹)' 아이콘을 찾아 두 번 클릭합니다.
 3. 미리 만들어진 각 시각화 탐색: 시작 페이지 흐름, 상위 페이지 테이블, 종료 페이지 흐름, 시작 사이트 섹션 흐름 및 최상위 사이트 섹션 테이블.
 
    ![템플릿 선택](../assets/content_consumption_template.png)
@@ -56,7 +56,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 분석 작업 공간은 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 어떤 효과가 있는지 보기 위해 구성 요소를 프로젝트로 과도하게 드래그하는 데에는 불합리한 영향이 없습니다. 차원 및 지표 조합을 작업 영역 프로젝트로 드래그하여 사용할 수 있는 항목을 확인합니다.
 
-실수로 잘못된 구성 요소를 작업 영역 프로젝트로 드래그하거나 단계로 돌아가려면 Ctrl + Z (Windows) 또는 Cmd + Z (Mac) 를 눌러 마지막으로 수행한 작업을 실행 취소합니다. You can also start with a clean slate by clicking *[!UICONTROL Project] &gt; [!UICONTROL New]* in the upper left menu.
+실수로 잘못된 구성 요소를 작업 영역 프로젝트로 드래그하거나 단계로 돌아가려면 Ctrl + Z (Windows) 또는 Cmd + Z (Mac) 를 눌러 마지막으로 수행한 작업을 실행 취소합니다. You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
 
 Adobe는 마우스 오른쪽 단추 클릭 컨텍스트 메뉴의 분석 작업 공간에 많은 기능을 추가했습니다. 대부분의 시각화 및 구성 요소를 마우스 오른쪽 단추로 클릭하여 보다 세부적인 분석 및 상호 작용을 수행할 수 있습니다. 작업 영역에서 구성 요소를 마우스 오른쪽 단추로 클릭하면 사용할 수 있는 옵션이 표시됩니다.
 
