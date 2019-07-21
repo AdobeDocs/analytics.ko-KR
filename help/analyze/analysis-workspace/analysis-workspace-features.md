@@ -25,7 +25,7 @@ Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 �
 
 >[!NOTE]
 >
->See [What&#39;s New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +53,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project&#39;s table of contents. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 옵션인 &quot;패널 링크 가져 오기&quot; 및 &quot;시각화 링크 가져오기&quot;가 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 옵션인 "패널 링크 가져 오기" 및 "시각화 링크 가져오기"가 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
 
 1. 텍스트 시각화를 프로젝트 내의 맥락이 필요한 시각화 또는 테이블 옆으로 드래그합니다.
 1. 예를 들어 목차로 텍스트 상자를 채운 다음 패널이나 시각화에 연결할 항목(예: 성공 지표)을 강조 표시합니다.
@@ -97,7 +97,7 @@ See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync
 
 ![](assets/trend-selection.png)
 
-이제 트렌드 선택이 아래 테이블에 **연결** 되므로 테이블에서 다른 행을 선택하면 트렌드 차트에 해당 행이 반영됩니다.
+이제 트렌드 선택이 아래 테이블에 **연결**&#x200B;되므로 테이블에서 다른 행을 선택하면 트렌드 차트에 해당 행이 반영됩니다.
 
 ![](assets/trend-selection2.png)
 
