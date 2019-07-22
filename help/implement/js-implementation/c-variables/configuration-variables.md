@@ -9,7 +9,7 @@ title: 구성 변수
 topic: 개발자 및 구현
 uuid: A 19484 B 6-E 350-4 C 12-B 4 D 6-A 31 C 79 A 42 DB 0
 translation-type: tm+mt
-source-git-commit: 696e7ed6dc6648cf523bc81e6cd40c7a06115484
+source-git-commit: 72f2b06f53c6a3c1cae965a1a9b030b0123bfca1
 
 ---
 
@@ -667,11 +667,13 @@ If *`trackDownloadLinks`* is 'true,' *`linkDownloadFileTypes`* is used to determ
 
 **예** {#section_BE2FA1873EBD4C5CA95E98B922B10280}
 
-```js
+```
+js
 s.trackDownloadLinks=true 
 ```
 
-```js
+```
+js
 s.trackDownloadLinks=false
 ```
 
@@ -702,17 +704,20 @@ trackExternalLinks.xml
 
 *`trackExternalLinks`변수는 'true' 또는 'false'입니다.*
 
-```js
+```
+js
 s.trackExternalLinks=true|false
 ```
 
 **예** {#section_EF18DB05884240F5B5062631E68E10A7}
 
-```js
+```
+js
 s.trackExternalLinks=true 
 ```
 
-```js
+```
+js
 s.trackExternalLinks=false
 ```
 
@@ -741,7 +746,8 @@ If *`trackInlineStats`* is 'true,' data about the page and link clicked are stor
 
 **구문 및 가능한 값** {#section_46B2C1DD0D104A01A9C239929420CD90}
 
-```js
+```
+js
 s.trackInlineStats=true|false
 ```
 
