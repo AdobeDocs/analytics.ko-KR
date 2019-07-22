@@ -5,7 +5,7 @@ seo-title: 템플릿
 title: 템플릿
 uuid: D 6 D 1 B 745-A 684-41 C 1-879 B -9 F 9 A 9503 FE 00
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ---
 
@@ -93,9 +93,21 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 다음은 사용 가능한 템플릿과 각 템플릿이 응답하는 데 도움이 되는 질문입니다.
 
+### 광고
+
+>[!IMPORTANT]
+>
+>광고 템플릿은 보고서 세트가 Advertising Cloud에 대해 활성화된 경우에만 사용할 수 있습니다.
+
+* **검색 엔진**: 이 템플릿은 광고 트렌드, 광고 플랫폼, 키워드, 계정, 캠페인 등을 분류합니다.
+
+### 상거래
+
+* **Autonomy: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 기여도 분석으로 전자 상거래 전환을 분류하며 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### 미디어
 
-* **컨텐츠 소비**: 어떤 콘텐츠가 가장 많이 소비되고 있으며 사용자가 참여합니까?
+* **오디오 소비량**: 어떤 콘텐츠가 가장 많이 소비되고 있으며 사용자가 참여합니까?
 * **최근 - 빈도 - 충성도**: 충성도 높은 독자는 누구입니까?
 
 ### 모바일
