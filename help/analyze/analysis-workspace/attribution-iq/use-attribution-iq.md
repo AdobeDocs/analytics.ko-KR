@@ -18,11 +18,11 @@ Analysis Workspace에서 속성 IQ를 사용하면 지원되는 속성 모델을
 
 Analysis Workspace 자유 형식 테이블은 대부분의 지표에서 사용할 수 있는 속성 모델을 지원합니다. 속성 모델은 [열 설정]의 자유 형식 테이블 열 지표에서 설정할 수 있습니다.
 
-1. 자유 형식 테이블 열 옆의 [설정](기어) 아이콘을 클릭합니다.
+1. 자유 형식 테이블 열 옆의 설정 (기어) 아이콘을 클릭합니다.
 
    ![](assets/Column_Settings.png)
 
-1. **[!UICONTROL 데이터 설정에서]**&#x200B;기본값이 아닌 속성 모델 **[!UICONTROL 사용을 선택합니다]**. 다른 속성 모델에 대한 자세한 내용은 [속성 IQ 개요](../../../analyze/analysis-workspace/attribution-iq/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871)를 참조하십시오.
+1. **[!UICONTROL 데이터 설정에서]**&#x200B;기본값이 아닌 속성 모델 **[!UICONTROL 사용을 선택합니다]**. 다른 속성 모델에 대한 자세한 내용은 [속성 IQ 개요](../../../analyze/analysis-workspace/attribution-iq/attribution.md#section_4B9E7F83AE0B451A992397E55C3F5871) 를 참조하십시오.
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -53,7 +53,7 @@ If you’d like to quickly and easily compare one attribution model to another, 
 
    ![](assets/attribution_panel2.png)
 
-1. 비교하려는 [속성 모델](../../../analyze/analysis-workspace/attribution-iq/attribution.md) 및 [전환 확인 기간](../../../analyze/analysis-workspace/attribution-iq/attribution.md)을 선택합니다.
+1. 비교하려는 [속성 모델](../../../analyze/analysis-workspace/attribution-iq/attribution.md) 및 [전환 확인 기간](../../../analyze/analysis-workspace/attribution-iq/attribution.md) 을 선택합니다.
 
    속성 패널은 마케팅 채널(또는 기타 차원)이 함께 작동하는 방식을 보다 잘 이해할 수 있도록 다양한 데이터 및 시각화 세트를 반환합니다.
 

@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 # 날짜 형식 지정
 
-Excel의 [서식] &gt; [셀](Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
+Excel의 [서식] &gt; [셀] (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
 
 [차원을](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) 행 레이블 그리드에 추가한 후 **[!UICONTROL 형식을 클릭합니다]**.
 

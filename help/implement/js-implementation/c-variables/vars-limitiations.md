@@ -34,7 +34,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | charSet | 웹 페이지의 문자 집합을 UTF-8로 변환합니다. |
 | colorDepth | 화면의 각 픽셀에 색상을 표시하는 데 사용된 비트 수를 표시합니다. |
 | connectionType | (Microsoft Internet Explorer에서)브라우저가 LAN 또는 모뎀 연결에 대해 구성되어 있는지 여부를 나타냅니다. |
-| cookieDomainPeriods | 페이지 URL 중 도메인에서 점의 수를 판단하여 [!DNL Analytics][!UICONTROL 방문자 ID](s_vi) 쿠키가 설정되는 도메인을 결정합니다. For `www.mysite.com`, *`cookieDomainPeriods`* should be "2." For `www.mysite.co.jp`, *`cookieDomainPeriods`* should be "3." |
+| cookieDomainPeriods | 페이지 URL 중 도메인에서 점의 수를 판단하여 [!DNL Analytics] [!UICONTROL 방문자 ID] (s_vi) 쿠키가 설정되는 도메인을 결정합니다. For `www.mysite.com`, *`cookieDomainPeriods`* should be "2." For `www.mysite.co.jp`, *`cookieDomainPeriods`* should be "3." |
 | cookieLifetime | 쿠키의 수명을 결정할 때 JavaScript와 [!DNL Analytics] 서버 모두에서 사용됩니다. |
 | cookiesEnabled | 자사 세션 쿠키를 JavaScript가 설정할 수 있는지 여부를 가리킵니다. |
 | currencyCode | 매출이 [!DNL Analytics] 데이터베이스에 들어갈 때 매출에 적용할 전환율을 결정합니다. [!DNL Analytics] 데이터베이스는 모든 금액을 선택한 통화로 저장합니다. If that currency is the same as that specified in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied. |
@@ -44,7 +44,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | dynamicAccountMatch | DOM 개체를 사용하여 *`dynamicAccountList`* 의 모든 규칙이 적용되는 URL 섹션을 검색합니다. This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' |
 | dynamicAccountSelection | 각 페이지의 URL을 기반으로 보고서 세트를 동적으로 선택할 수 있도록 해줍니다. |
 | dynamicVariablePrefix | 동적으로 채워야 하는 변수에 배포 시 플래그가 지정될 수 있도록 해줍니다. 쿠키, 요청 헤더 및 이미지 쿼리 문자열 매개 변수는 동적으로 채울 수 있습니다. |
-| eVarN | [!DNL Analytics][!UICONTROL 전환 모듈] 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다. eVar를 방문자에 대한 값으로 설정하면 [!DNL Analytics]는 값이 만료되기 전까지 해당 값을 기억합니다. eVar 값이 활성일 때 방문자가 발견하는 성공 이벤트는 eVar 값으로 카운트됩니다. |
+| eVarN | [!DNL Analytics] [!UICONTROL 전환 모듈] 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다. eVar를 방문자에 대한 값으로 설정하면 [!DNL Analytics]는 값이 만료되기 전까지 해당 값을 기억합니다. eVar 값이 활성일 때 방문자가 발견하는 성공 이벤트는 eVar 값으로 카운트됩니다. |
 | events | 일반적인 장바구니 성공 이벤트와 사용자 지정 성공 이벤트를 기록합니다. |
 | fpCookieDomainPeriods | 페이지의 도메인에서 점의 수를 판단하여 [!DNL Analytics]방문자 ID[!UICONTROL (s_vi) 쿠키가 아닌 ] 쿠키가 설정되는 도메인을 결정합니다. |
 | hierN | 사이트의 계층에서 페이지 위치를 결정합니다. 이 변수는 사이트 구조의 수준이 4 이상인 사이트에 가장 유용합니다. |
@@ -72,7 +72,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | pageUrl | 페이지의 URL이 [!DNL Analytics]에 보고할 URL과 다른 경우가 드물게 나타납니다. To accommodate these situations, [!DNL Analytics] offers the *`pageURL`* variable, which overrides the actual URL of the page. |
 | plugins | Netscape 및 Mozilla 기반 브라우저에서 브라우저에 설치된 플러그인을 나열합니다. |
 | products | 구매 수량 및 구매 가격뿐만 아니라 제품 및 제품 카테고리를 추적하는 데에도 사용됩니다. the *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니다. Optionally, the *`products`* variable can track custom numeric and currency events, as well as [!UICONTROL Merchandising] eVars. |
-| propN | [!DNL Analytics][!UICONTROL 트래픽 모듈] 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다. [!UICONTROL props]는 경로 지정 보고서용으로 또는 상관 관계 보고서에서 카운터(페이지 보기가 전송되는 횟수 계산)로 사용할 수 있습니다. |
+| propN | [!DNL Analytics] [!UICONTROL 트래픽 모듈] 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다. [!UICONTROL props]는 경로 지정 보고서용으로 또는 상관 관계 보고서에서 카운터(페이지 보기가 전송되는 횟수 계산)로 사용할 수 있습니다. |
 | purchaseID | [!DNL Analytics]에서 한 주문이 여러 번 카운트되지 않도록 하는 데 사용됩니다. Whenever the purchase event is used on your site, you should use the *`purchaseID`* variable. |
 | referrer | 유실된 레퍼러 정보를 복원합니다. |
 | resolution | 웹 페이지를 보는 방문자의 모니터 해상도를 표시합니다. |
@@ -83,7 +83,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | trackingServer | 자사 쿠키 구현에서 이미지 요청 및 쿠키를 쓰는 도메인을 지정하는 경우에만 사용됩니다. 비보안 페이지에 사용됩니다.  |
 | trackingServerSecure | 자사 쿠키 구현에서 이미지 요청 및 쿠키를 쓰는 도메인을 지정하는 경우에만 사용됩니다. 보안 페이지에 사용됩니다.  |
 | trackInlineStats | 방문자 클릭 맵 데이터를 모으는지 여부를 결정합니다. |
-| transactionID | 오프라인 데이터를 온라인 거래(예: 온라인으로 생성된 리드나 구매)에 연결합니다. Adobe에 전송된 각 고유 *`transactionID`*&#x200B;는 해당 거래에 대한 오프라인 정보의 [!UICONTROL 데이터 소스] 업로드를 준비하면서 기록됩니다. [데이터 소스 안내서](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)를 참조하십시오. |
+| transactionID | 오프라인 데이터를 온라인 거래(예: 온라인으로 생성된 리드나 구매)에 연결합니다. Adobe에 전송된 각 고유 *`transactionID`*&#x200B;는 해당 거래에 대한 오프라인 정보의 [!UICONTROL 데이터 소스] 업로드를 준비하면서 기록됩니다. [데이터 소스 안내서](https://marketing.adobe.com/resources/help/en_US/sc/datasources/) 를 참조하십시오. |
 | s_usePlugins | 만약 *`s_doPlugins`* 함수를 사용할 수 있고 유용한 코드가 들어 있으면 [!UICONTROL s_ useplugins] 를'true'로 설정해야 합니다. [!UICONTROL Useplugins] 가'true'이면 이 함수는 *`s_doPlugins`* 각 이미지 요청에 앞서 호출됩니다. |
 | visitorID | Visitors may be identified by the *`visitorID`* tag, or by IP address/User Agent. The *`visitorID`* may be up to 100 alphanumeric characters and must not contain a hyphen. |
 | visitorNamespace | If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. 이 변수는 쿠키가 설정된 도메인을 식별하는 데 사용됩니다. if *`visitorNamespace`* 가 변경되면 [!DNL Analytics]에 보고된 모든 방문자가 새 방문자가 되는 수가 있습니다. 요컨대, Adobe 컨설턴트의 승인 없이 이 변수를 바꾸지 마십시오. |
