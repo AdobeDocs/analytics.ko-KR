@@ -44,23 +44,22 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP 로그인 제한 적용</span> </td> 
-   <td colname="col2"> <p>특정 IP 주소 또는 IP 주소 범위에 대한 보고서 액세스를 제한합니다. </p> <p>IP 주소 필터 목록에서 최대 100개의 항목을 추가할 수 있으며 각 항목은 특정 주소 또는 주소 범위일 수 있습니다. </p> <p>  IP 주소 필터 목록에 하나 이상의 항목이 있을 때까지 <span class="wintitle">IP 로그인 제한 적용</span>은 시행되지 않습니다. </p> <p> <span class="uicontrol"> 허용되는 IP 주소</span>: IP 주소 범위를 지정하려면 대괄호로 범위를 묶습니다 (예: <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> <p>실패한 로그인은 기록되며 <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">사용 및 액세스 로그</a>에서 볼 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>특정 IP 주소 또는 IP 주소 범위에 대한 보고서 액세스를 제한합니다. </p> <p>IP 주소 필터 목록에서 최대 100개의 항목을 추가할 수 있으며 각 항목은 특정 주소 또는 주소 범위일 수 있습니다. </p> <p>  IP 주소 필터 목록에 하나 이상의 항목이 있을 때까지 <span class="wintitle">IP 로그인 제한 적용</span>은 시행되지 않습니다. </p> <p> <span class="uicontrol"> 허용되는 IP 주소</span>: IP 주소 범위를 지정하려면 대괄호로 범위를 묶습니다 (예:
+   <code> 
+    192.168.10.[20-240]
+   </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+   <code>
+    192.168.[10-14].*
+   </code>) </p> <p>실패한 로그인은 기록되며 <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">사용 및 액세스 로그</a>에서 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 이메일 도메인 제한 적용</span> </td> 
    <td colname="col2"> <p>Analytics가 책갈피, 다운로드 가능한 보고서 및 경고를 보내는 이메일 주소 및 도메인을 필터링합니다. </p> <p>이메일 필터 목록은 최대 100개의 항목을 지원하며, 각 항목은 이메일 주소 또는 전체 이메일 도메인일 수 있습니다. </p> <p>예약된 보고서에 승인되지 않은 이메일 대상이 있는 경우 Analytics는 해당 문제에 대한 이메일 알림 및 이 보고서의 예약을 취소할 수 있는 링크를 보냅니다. </p> <p> <span class="wintitle"> 허가한 이메일 도메인 필터</span> 목록에 하나 이상의 항목이 있을 때까지 <span class="wintitle">이메일 도메인 제한 적용</span>은 시행되지 않습니다. </p> <p> <span class="uicontrol"> 허용되는 이메일 주소 및 도메인</span>: IP 주소 범위를 지정하려면 대괄호로 범위를 묶습니다 (예: <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> </td> 
+     192.168.10.[20-240]
+   </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+   <code>
+     192.168.[10-14].*
+   </code>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 암호 복구 알림</span> </td> 

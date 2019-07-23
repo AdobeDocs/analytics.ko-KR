@@ -78,7 +78,7 @@ t_dashboard_add.xml
 1. Click **[!UICONTROL Add Dashboard]**.
 1. 대시보드 이름을 입력합니다.
 1. **[!UICONTROL 3 x 2]** 또는 **[!UICONTROL 2 x 2]** 를 클릭하여 대시보드 페이지에서 원하는 reportlet의 수를 지정합니다.
-1.  대시보드 페이지 레이아웃을 구성합니다. 
+1. 대시보드 페이지 레이아웃을 구성합니다. 
 
    * **[!UICONTROL 페이지 추가]**: 대시보드에 빈 페이지를 추가하고 컨텐츠를 드래그하여 reportlet을 만듭니다.
    * **[!UICONTROL 용지]**: 가로, 세로 및 A4와 같이 종이 크기를 지정할 수 있도록 해줍니다.

@@ -64,7 +64,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. 규칙이 여러 개면 세미콜론으로 구분하십시오.
 
-##  기본 보고서 세트 {#section_0360D724929348B0B211708B5BA15647}
+## 기본 보고서 세트 {#section_0360D724929348B0B211708B5BA15647}
 
 `s_account` 이 변수는 먼저 설정할 수 있으며 지정된 문자열을 찾을 수 없는 경우 기본값으로 작동합니다. 아래는 한 예입니다.
 

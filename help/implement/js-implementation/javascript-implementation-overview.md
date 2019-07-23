@@ -50,8 +50,7 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [Dy
     <draft-comment> 
      <p><code>VisitorAPI.js</code>에서 파일 시작 부분에 방문자 ID 초기화 코드를 추가합니다. </p> 
      <code class="syntax javascript">var visitor = Visitor. getinstance ("INSERT-MCORG-ID-HERE"); visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // s. trackingserver visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE" 와 동일함; //same as s. trackingserversecure/* = = do not alter anything below this line = = </code>
-  
-     <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
+      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (필수) 회사가 Adobe Experience Cloud에 대한 프로비저닝을 받으면 이 Adobe Experience Cloud 조직 ID가 관리자에게 전송됩니다. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code> - (필수) Analytics 추적 서버. </li> 
       <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE"</code> - (ssl이 활성화되어 있을 경우 필수) Analytics 보안 추적 서버. </li> 
