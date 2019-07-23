@@ -303,7 +303,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [매출 ](c-variables/c-metrics/metrics-revenue.md)
       + [검색 결과](c-variables/c-metrics/metrics-searches.md)
       + [단일 액세스](c-variables/c-metrics/metrics-single-access.md)
-      + [체류 시간](c-variables/c-metrics/metrics-time-spent.md)을 참조하십시오
+      + [체류 시간](c-variables/c-metrics/metrics-time-spent.md)
       + [합계](c-variables/c-metrics/metrics-total.md)
       + [고유 방문자 수](c-variables/c-metrics/metrics-unique-visitors.md)
       + [판매량](c-variables/c-metrics/metrics-units.md)
@@ -331,7 +331,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [마케팅 채널 처리 규칙 만들기](c-marketing-channels/t-rules.md)
    + [마케팅 채널 처리 규칙 - 정의](c-marketing-channels/r-channel-rule-definitions.md)
    + [FAQ 및 예제](c-marketing-channels/c-faq.md)
-   + [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](c-marketing-channels/t-template.md)을 참조하십시오
+   + [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](c-marketing-channels/t-template.md)
    + [마케팅 채널에서의 분류](c-marketing-channels/classifictions-mchannel.md)
    + [방문자 참여 만료](c-marketing-channels/visitor-engagement.md)
    + [마케팅 채널 보고서에 사용된 지표](c-marketing-channels/c-overview-metrics.md)
@@ -341,4 +341,4 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [보고서 액세스 권한](c-marketing-channels/c-channel-report-access.md)
    + [사용자 그룹 액세스 권한 구성](c-marketing-channels/t-user-groups.md)
    + [제한적인 관리 권한 부여](c-marketing-channels/t-admin-rights.md)
-   + [마케팅 채널 보고서 실행](c-marketing-channels/t-reports-sc.md)을 참조하십시오
+   + [마케팅 채널 보고서 실행](c-marketing-channels/t-reports-sc.md)

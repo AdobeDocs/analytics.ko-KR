@@ -146,7 +146,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [사용자 관리 개요](user-management2/c-user-management/users.md)
       + [사용자 계정 추가](user-management2/c-user-management/t-add-user-account.md)
       + [사용자 및 그룹 권한 변경](user-management2/c-user-management/permissions-changes.md)
-      + [사용자 계정 항목 양도](user-management2/c-user-management/t-transfer-user-accout-privileges.md)를 참조하십시오
+      + [사용자 계정 항목 양도](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [사용자를 그룹에 추가](user-management2/c-user-management/t-add-user-to-group.md)
       + [Ad Hoc Analysis 사용자 관리](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + User groups {#user-groups}

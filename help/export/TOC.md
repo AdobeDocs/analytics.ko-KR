@@ -44,7 +44,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [방문자 식별](analytics-data-feed/c-df-contents/datafeeds-visid.md)
       + [데이터 열 정의](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [데이터 열 참조](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)를 참조하십시오
+      + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [히트 출처 조회](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
       + [이전 열과 이후 열](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
       + [특수 문자](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)

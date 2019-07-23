@@ -99,7 +99,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [JavaScript 구현 개요](js-implementation/javascript-implementation-overview.md)
    + [페이지 코드 및 글로벌 구성 예](js-implementation/appmeasure-mjs-pagecode.md)
    + JavaScript용 AppMeasurement {#appmeasurement-js}
-      + [AppMeasurement for JavaScript 정보](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)에 추가했습니다
+      + [AppMeasurement for JavaScript 정보](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
       + [JavaScript용 AppMeasurement로의 마이그레이션](js-implementation/c-appmeasurement-js/appmeasure-mjs-migrate.md)
       + [Appmeasurement 플러그인 지원](js-implementation/c-appmeasurement-js/plugins-support.md)
    + [가속 모바일 페이지](js-implementation/accelerated-mobile-pages.md)
@@ -164,7 +164,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [getTimeParting](js-implementation/plugins/gettimeparting.md)
       + [getValOnce](js-implementation/plugins/getvalonce.md)
       + [getVisitNum](js-implementation/plugins/getvisitnum.md)
-      + [getVisitStart](js-implementation/plugins/getvisitstart.md)가 있어야 합니다
+      + [getVisitStart](js-implementation/plugins/getvisitstart.md)
       + [hitGovernor](js-implementation/plugins/hitgovernor.md)
       + [통합 모듈](js-implementation/plugins/integrate.md)
       + [내부 트래픽](js-implementation/plugins/internal-traffic.md)
