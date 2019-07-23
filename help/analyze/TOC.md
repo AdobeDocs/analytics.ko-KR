@@ -263,7 +263,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [AEM Sites 및 Activity Map 통합](activity-map/aem-sites-integration.md)
    + [브라우저 확장 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [지식 리소스](activity-map/activitymap-info-resources.md)
-+ Reports &amp; Analytics {#reports-analytics}
++ Reports and Analytics {#reports-analytics}
    + [보고 및 분석 시작하기](reports-analytics/getting-started.md)
    + [Adobe Analytics - 주요 개념](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
