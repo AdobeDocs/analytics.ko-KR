@@ -7,18 +7,26 @@ title: 데이터 요청 예약
 topic: Report Builder
 uuid: F 6 D 8 C 90 F-E 185-4 D 60-8035-F 20 F 74 BFCD 89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# 데이터 요청 예약
+# 통합 문서 예약
 
-정의하는 시간 및 파일 형식에 따라 보고서를 전송하도록 예약할 수 있습니다.
+통합 문서를 예약하고, 고급 배달 옵션을 지정하고, 수신자를 지정하고, 예약 내역을 볼 수 있습니다. 고급 배달 옵션을 사용하여 특정 시간에 또는 간격으로 전송할 통합 문서를 구성할 수 있습니다. 통합 문서를 보낼 파일 형식을 지정할 수도 있습니다.
 
-**데이터 요청을 예약하는 방법**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. 파일 크기 제한은 한 번의 보고서 업로드에 대해 5MB입니다.
 
-1. 보고서를 생성하여 저장합니다.
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Reports &amp; Analytics 도움말에서 [보고서 예약 및 배포](/help/analyze/reports-analytics/scheduling.md)를 참조하십시오.)
+
+>[!NOTE]
+>
+>통합 문서를 예약하려면 Excel 2007 또는 호환성 팩이 설치되어 있어야 합니다. 리포트 빌더 라이선스당 최대 10 개의 예약된 통합 문서를 보유할 수 있습니다. 그렇지만 다른 라이센스에서 공제하여 이 수를 늘릴 수 있습니다. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. 예약된 (또는 통합 문서 라이브러리에 업로드) 28 개월 이상 수정 (업데이트, 교체) 되지 않은 통합 문서가 삭제됩니다.
+
+**통합 문서를 예약하려면**
+
+1. 통합 문서를 생성하고 저장합니다.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    [!UICONTROL 예약된 보고서] 탭에 남은 작업의 수는 물론 생성한 모든 작업이 요약됩니다.
@@ -29,7 +37,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 1. [!UICONTROL 기본 예약 마법사]에서 다음 옵션을 구성합니다. 
 
-* **보고서 선택**: 보고서 이름. 새로운 예약된 보고서의 경우 이 필드에는 활성 상태의 통합 문서 이름이 입력되어 있습니다.
+* **보고서 선택**: 통합 문서의 이름입니다. 새 예약된 통합 문서의 경우 이 필드는 활성 상태의 통합 문서 이름으로 채워집니다.
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>수신인: 이메일 </p> </td> 
-   <td colname="col2"> <p>보고서의 이메일 수신자. </p> </td> 
+   <td colname="col2"> <p>통합 문서의 이메일 수신자입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>수신인: 게시 목록 </p> </td> 
@@ -73,7 +81,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>예약 </p> </td> 
-   <td colname="col2"> <p> 보고서를 보낼 시기를 지정할 수 있습니다. (즉시, 시간별, 일별, 주별, 월별 및 연도별.) </p> </td> 
+   <td colname="col2"> <p> 통합 문서를 보낼 시기를 지정할 수 있습니다. (즉시, 시간별, 일별, 주별, 월별 및 연도별.) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>전달 시간 </p> </td> 
-   <td colname="col2"> <p>보고서를 즉시 또는 나중에 전달하도록 예약할 수 있습니다. 시각은 컴퓨터에 지정된 시간대를 기준으로 합니다. </p> </td> 
+   <td colname="col2"> <p>통합 문서를 즉시 예약하거나 나중에 사용할 수 있도록 예약할 수 있습니다. 시각은 컴퓨터에 지정된 시간대를 기준으로 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>되풀이 패턴 </p> </td> 
-   <td colname="col2"> <p>선택 사항을 기반으로 보고서를 전송합니다. </p> </td> 
+   <td colname="col2"> <p>선택한 내용에 따라 통합 문서를 전송합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>되풀이 범위 </p> </td> 
-   <td colname="col2"> <p>보고서 수신을 시작 및 중단할 시기를 지정할 수 있습니다. </p> <p> <p>참고: 현재 기간(주, 월, 분기 또는 년도)의 첫째 날에 보고서를 예약하면 그 첫째 날에 대해서만 데이터를 반환합니다. </p> </p> </td> 
+   <td colname="col2"> <p>통합 문서 수신을 시작 및 중지할 시기를 지정할 수 있습니다. </p> <p> <p>참고: 현재 기간 (주, 월, 분기 또는 년도) 의 첫 번째 날에 통합 문서를 예약하면 첫 날 데이터만 반환됩니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>파일 옵션</b> 탭 </p> </td> 
@@ -118,7 +126,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>게시 목록 </p> </td> 
-   <td colname="col2"> <p> 예약된 보고서를 여러 게시 목록에 전송하면 보고서는 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다. </p> </td> 
+   <td colname="col2"> <p> 예약된 통합 문서를 여러 게시 목록에 전송하면 통합 문서가 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>파일 내용 언어 </p> </td> 
@@ -146,4 +154,5 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 1. **[!UICONTROL 확인을]**&#x200B;클릭한 다음 **[!UICONTROL 종료를]**&#x200B;클릭합니다.
 
-   Report Builder가 [예약된 작업 관리자](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31)에 예약된 보고서를 표시합니다.
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
