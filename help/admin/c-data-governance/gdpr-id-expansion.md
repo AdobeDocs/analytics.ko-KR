@@ -5,7 +5,7 @@ seo-title: ID 확장
 title: ID 확장
 uuid: 2672 d 17 d-c 957-4 e 08-8 dd 9-16 d 54 bf 2 be 18
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
 
 ---
 
