@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: D 9091 EAE -005 A -43 C 2-B 419-980 B 795 BC 2 A 9
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
 
 ---
 
@@ -55,66 +55,65 @@ hitGovernor 플러그인을 구현하려면 다음을 수행하십시오.
 
    ```
     s.registerPostTrackCallback(function(){ 
-       
-<b> s.governor();</b> 
-   });
+    s.governor();
+   }); 
    ```
 
-   Below the doPlugins section of your AppMeasurement file, include the plugin code contained in [Plugin Source Code](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), below.
+   AppMeasurement 파일의 doPlugins 섹션 아래에 [플러그인 소스 코드](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)에 포함된 플러그인 코드를 포함합니다.
 
-   The hit limit threshold, hit timing threshold, and traffic exclusion time frames can all be overridden by setting these variables, outside of the plugin itself and preferably with your other configuration variables:
+   히트 한계 임계값, 히트 타이밍 임계값 및 트래픽 제외 기간은 플러그인 자체 외부의 다음 변수를 다른 구성 변수와 함께 설정하여 모두 재정의할 수 있습니다.
 
 <table id="table_9959A40F5F0B40B39DB86E21D03E25FD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Syntax </th> 
-   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col1" class="entry"> 변수 </th> 
+   <th colname="col2" class="entry"> 구문 </th> 
+   <th colname="col3" class="entry"> 설명 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Hit Limit Threshold </p> </td> 
+   <td colname="col1"> <p>히트 한계 임계값 </p> </td> 
    <td colname="col2"> <p> <code> s.hl = 60; </code> </p> </td> 
-   <td colname="col3"> <p>The total number of hits that should not be exceeded during a given timeframe. </p> </td> 
+   <td colname="col3"> <p>제공된 시간 동안 초과하지 않아야 하는 총 히트 수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hit Time Threshold </p> </td> 
+   <td colname="col1"> <p>히트 시간 임계값 </p> </td> 
    <td colname="col2"> <p> <code> s.ht = 10; </code> </p> </td> 
-   <td colname="col3"> <p>The window, in seconds, for when hits are recorded. This number is divided by six to determine the rolling timing windows. </p> </td> 
+   <td colname="col3"> <p>히트가 기록되는 창(초)입니다. 이 수를 6으로 나누어 롤링 시간 창을 결정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exclusion Threshold </p> </td> 
+   <td colname="col1"> <p>제외 임계값 </p> </td> 
    <td colname="col2"> <p> <code> s.he = 60; </code> </p> </td> 
-   <td colname="col3"> <p>Number of days that the exclusion cookie is set for that visitor. </p> </td> 
+   <td colname="col3"> <p>해당 방문자에 대해 제외 쿠키가 설정된 일 수입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-   >[!NOTE]
-   >
-   >Your implementation might use a different object name than the default analytics "s" object. If so, please update the object name accordingly.
+>[!NOTE]
+>
+>구현에서 기본 Analytics "s" 개체와 다른 개체 이름을 사용할 수 있습니다. 그런 경우 개체 이름을 적절하게 업데이트하십시오.
 
-1. Configure processing rules.
+1. 처리 규칙을 구성합니다.
 
-   This plugin records flagged exceptions as context data in a link tracking image request. As such, processing rules must be configured to assign track those flagged exceptions into appropriate variables like those below.
+   이 플러그인은 플래그가 지정된 예외를 링크 추적 이미지 요청의 컨텍스트 데이터로 기록합니다. 따라서, 아래와 같은 해당 변수에 그러한 플래그가 지정된 예외를 추적하도록 처리 규칙을 구성해야 합니다.
 
    ![](assets/hitgov-config.png)
 
-1. (Optional) Include the traffic-blocking code in doPlugins.
+1. (선택 사항) doPlugins에 트래픽 차단 코드를 포함합니다.
 
-   After traffic has been identified as an exception, any subsequent hits from that visitor can be blocked entirely by including this code within the `doPlugins` function:
+   트래픽이 예외로 식별되면 `doPlugins` 함수 내에 이 코드를 포함하여 해당 방문자의 모든 후속 히트를 완전히 차단할 수 있습니다.
 
    ```
    //Check for hit governor flag 
          if(s.Util.cookieRead('s_hg')==9)s.abort=true;
    ```
 
-   If this code is not included, traffic from that visitor will be flagged but not blocked. 
+   이 코드가 포함되지 않은 경우 해당 방문자의 트래픽은 플래그가 지정되지만, 차단되지는 않습니다.
 
-## Plugin Source Code {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## 플러그인 소스 코드 {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
-This code should be added below the doPlugins section of your AppMeasurement library.
+이 코드는 AppMeasurement 라이브러리의 doPlugins 섹션 아래에 추가해야 합니다.
 
 ```
 //Hit Governor (Version 0.1 BETA, 11-13-17) 
@@ -133,6 +132,5 @@ s.governor=new Function("",""
 +"',contextData.exceptionFlag';s.contextData['exceptionFlag']='true';" 
 +"s.tl(this,'o','exceptionFlag');}ha[0]++;s.Util.cookieWrite('s_hc',h" 
 +"a.join('|'));"); 
-
 ```
 
