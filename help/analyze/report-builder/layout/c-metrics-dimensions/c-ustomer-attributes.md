@@ -5,7 +5,7 @@ seo-title: 고객 속성
 title: 고객 속성
 uuid: a 8340 b 83-d 7 ba -46 fe-bb 20-b 546 cdf 375 b 8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
 
-사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)을 참조하십시오.
+사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
 * VisAttr을 지표로 구성하는 경우 "차원"과 지표 모두로 노출됩니다.
 
