@@ -9,22 +9,17 @@ title: 변수 개요
 topic: 개발자 및 구현
 uuid: 067 D 0135-572 A -4 A 44-AF 9 E -445 D 3 C 4 E 9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
 # 변수 개요
 
-Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션은 AppMeasurement에서 지원되는 변수를 나열합니다.
+Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션에는 Appmeasurement가 지원하는 변수가 나열됩니다.
 
-각 변수가 분석 보고서에 어떻게 표시되는지 보려면 [변수 - 보고서에서 변수의 쓰임](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions)을 참조하십시오.
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## 변수를 설정하는 방법 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
