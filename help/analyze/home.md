@@ -4,7 +4,7 @@ seo-title: 분석 분석 도움말
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 이 안내서는 Adobe Analytics에서 사용할 수 있는 모든 분석 도구를 제공합니다. 가장 먼저, 분석 작업 공간인 분석 작업 공간에 대한 철저한 설명서를 제공합니다.
 
-## 키 분석 아티클
+## 주요 분석 도구 문서
 
 * [Analysis Workspace 시작하기](analysis-workspace/home.md)
 * [리포트 빌더 시작하기](report-builder/home.md)
