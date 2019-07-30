@@ -8,7 +8,7 @@ title: 보고서 및 보고서 세트
 topic: 개발자 및 구현
 uuid: 288203 F 6-CD 13-4 E 01-9950-2 C 7 E 5 CFB 8 A 17
 translation-type: tm+mt
-source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
+source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
 
@@ -43,8 +43,8 @@ Adobe Analytics를 구현한 후에 *Analytics 보고서*&#x200B;를 실행할 �
 
 <p class="head"> <b>참고 항목</b> </p>
 
-* [Analysis Workspace 도움말](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Reports and Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) 도움말
+* [Analysis Workspace 도움말](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [보고 및 분석](/help/analyze/reports-analytics/overview/report-overview.md)
 * [실시간 보고서](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 도움말
 * [데이터 추출](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
@@ -53,8 +53,8 @@ Adobe Analytics를 구현한 후에 *Analytics 보고서*&#x200B;를 실행할 �
 * [Analytics 제품 비교 및 요구 사항](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [보고서 설명](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
 * [대시보드 및 Reportlet](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
-* [책갈피](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html)
-* [가상 보고서 세트](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
-* [예외 검색](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html)
-* [기여도 분석](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+* [책갈피](/help/analyze/reports-analytics/bookmarks.md)
+* [가상 보고서 세트](/help/components/vrs/vrs-about.md)
+* [예외 검색](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+* [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 
