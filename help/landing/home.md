@@ -4,14 +4,14 @@ seo-title: Adobe Analytics 기술 설명서 및 자체 도움말 사용자 안�
 description: Analytics 사용자 가이드 및 리소스
 seo-description: Adobe Analytics 기술 문서, 릴리스 노트 및 자가 도움말 사용자 안내서의 전체 목록입니다.
 translation-type: tm+mt
-source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
 # Adobe Analytics 설명서
 
-[![분석](assets/analyze_50px.png)](/help/analyze/home.md)도구[분석 안내서](/help/analyze/home.md) - Adobe Analytics에서 사용할 수 있는 모든 분석 도구를 제공합니다. 가장 먼저, 분석 작업 공간인 분석 작업 공간에 대한 철저한 설명서를 제공합니다.
+[![도구](assets/analyze_50px.png)](/help/analyze/home.md)-[분석 도구 안내서](/help/analyze/home.md) - Adobe Analytics에서 사용할 수 있는 모든 분석 도구를 제공합니다. 가장 먼저, 분석 작업 공간인 분석 작업 공간에 대한 철저한 설명서를 제공합니다.
 
 [![관리자](assets/admin_50px.png)](/help/admin/home.md)관리[안내서](/help/admin/home.md) - 보고서 세트 구성, 데이터 거버넌스, 서버 호출 사용 등을 위한 관리 작업
 
