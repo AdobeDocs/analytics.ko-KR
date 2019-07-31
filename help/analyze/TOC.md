@@ -16,11 +16,11 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [분석 작업 공간 도움말](analysis-workspace/home.md)
    + [Analysis Workspace 기능](analysis-workspace/analysis-workspace-features.md)
    + [분석 작업 공간 사용 사례](analysis-workspace/freeform-analysis-examples-use-cases.md)
-   + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오
+   + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
    + Build a Workspace project {#build-workspace-project}
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [작업 공간 프로젝트 만들기](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)을 참조하십시오
+      + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + Column and row settings {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -286,7 +286,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [북마크 관리자](reports-analytics/bookmarks.md)
    + [현재 데이터](reports-analytics/current-data.md)
    + [대시보드 및 Reportlet](reports-analytics/dashboard.md)
-   + [대시보드 관리자](reports-analytics/dashboard-manage.md)를 참조하십시오
+   + [대시보드 관리자](reports-analytics/dashboard-manage.md)
    + [데이터 추출](reports-analytics/data-extract.md)
    + [지표](reports-analytics/metrics.md)
    + [타겟](reports-analytics/targets.md)
