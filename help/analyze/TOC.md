@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: 분석 분석 가이드
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [분석 작업 공간 도움말](analysis-workspace/home.md)
    + [Analysis Workspace 기능](analysis-workspace/analysis-workspace-features.md)
    + [분석 작업 공간 사용 사례](analysis-workspace/freeform-analysis-examples-use-cases.md)
-   + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
+   + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오
    + Build a Workspace project {#build-workspace-project}
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [작업 공간 프로젝트 만들기](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)을 참조하십시오
       + Column and row settings {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -213,9 +213,9 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [요청을 만들고 편집하기 위한 오프라인 모드](report-builder/manage-requests/offline-mode.md)
    + [리포트 빌더 옵션](report-builder/options.md)
    + [보고서 요청 예약](report-builder/schedule-report-requests.md)
-   + [데이터 요청 예약](report-builder/t-schedule-a-data-request.md)
+   + [통합 문서 예약](report-builder/t-schedule-a-data-request.md)
    + [예약된 작업 관리자](report-builder/r-arb-scheduled-reports.md)
-   + 통합 문서 라이브러리{#workbook-library}
+   + 통합 문서 라이브러리{#workbook-library}를 참조하십시오 
       + [통합 문서 업로드](report-builder/workbook-library/t-upload-a-workbook.md)
       + [통합 문서 다운로드](report-builder/workbook-library/t-download-a-workbook.md)
       + [통합 문서 잠금/잠금 해제](report-builder/workbook-library/protect-wb.md)
@@ -225,7 +225,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [제한 사항 및 사양](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Power BI로 수동으로 데이터 가져오기](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [게시된 에셋을 Power BI 데스크탑으로 가져오기](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [모범 사례](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [우수 사례](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 통합 문제 해결](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI 용 Adobe Analytics 컨텐츠 팩](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [리포트 빌더 문제 해결 및 우수 사례](report-builder/troubleshoot.md)
@@ -263,7 +263,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [AEM Sites 및 Activity Map 통합](activity-map/aem-sites-integration.md)
    + [브라우저 확장 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [지식 리소스](activity-map/activitymap-info-resources.md)
-+ Reports and Analytics {#reports-analytics}
++ Reports &amp; Analytics {#reports-analytics}
    + [보고 및 분석 시작하기](reports-analytics/getting-started.md)
    + [Adobe Analytics - 주요 개념](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
@@ -286,7 +286,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [북마크 관리자](reports-analytics/bookmarks.md)
    + [현재 데이터](reports-analytics/current-data.md)
    + [대시보드 및 Reportlet](reports-analytics/dashboard.md)
-   + [대시보드 관리자](reports-analytics/dashboard-manage.md)
+   + [대시보드 관리자](reports-analytics/dashboard-manage.md)를 참조하십시오
    + [데이터 추출](reports-analytics/data-extract.md)
    + [지표](reports-analytics/metrics.md)
    + [타겟](reports-analytics/targets.md)
