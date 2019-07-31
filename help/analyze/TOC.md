@@ -215,7 +215,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [보고서 요청 예약](report-builder/schedule-report-requests.md)
    + [통합 문서 예약](report-builder/t-schedule-a-data-request.md)
    + [예약된 작업 관리자](report-builder/r-arb-scheduled-reports.md)
-   + 통합 문서 라이브러리{#workbook-library}를 참조하십시오 
+   + 통합 문서 라이브러리{#workbook-library}
       + [통합 문서 업로드](report-builder/workbook-library/t-upload-a-workbook.md)
       + [통합 문서 다운로드](report-builder/workbook-library/t-download-a-workbook.md)
       + [통합 문서 잠금/잠금 해제](report-builder/workbook-library/protect-wb.md)
@@ -263,7 +263,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [AEM Sites 및 Activity Map 통합](activity-map/aem-sites-integration.md)
    + [브라우저 확장 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [지식 리소스](activity-map/activitymap-info-resources.md)
-+ Reports &amp; Analytics {#reports-analytics}
++ Reports and Analytics {#reports-analytics}
    + [보고 및 분석 시작하기](reports-analytics/getting-started.md)
    + [Adobe Analytics - 주요 개념](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
