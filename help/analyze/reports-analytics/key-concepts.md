@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - 주요 개념
 title: Adobe Analytics - 주요 개념
 uuid: EF 5701 C 5-2 D 3 E -4847-851 F -9312 D 55 DB 1 A 8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 
 ---
 
@@ -14,119 +14,42 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 
-## Adobe Analytics - key concepts {#concept_AC30B00A424E4A8492A4CA7B4E7D998C}
+## Analytics tools {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
-이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
-
-## Analytics products {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
-
-<!-- 
-
-analytics_products.xml
-
- -->
-
-<table id="table_5F47895B01CE42E98C2C89508377E1E8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 제품 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-   <th colname="col3" class="entry"> 설명서 링크 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Reports &amp; Analytics(이전 SiteCatalyst) </td> 
-   <td colname="col2"> <p>호스팅되는 구독 기반의 실시간 웹 사이트 보고 및 분석 솔루션입니다. Analytics 패키지의 초급자 도구입니다. </p> <p>액세스 위치: <a href="https://sc.omniture.com/login/" format="https" scope="external">https://sc.omniture.com/login/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/sc/user/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Connectors (이전 Genesis) </td> 
-   <td colname="col2"> 타사 애플리케이션의 추적 데이터를 Analytics로 가져와서 하나의 중앙 위치에서 종단 간 가시성을 제공합니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works" format="https" scope="external"> https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Warehouse </td> 
-   <td colname="col2"> 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터입니다. 히트 수준은 아닙니다. </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report Builder </td> 
-   <td colname="col2"> Excel 워크시트 내 보고 및 분석 데이터에서 사용자 지정된 요청을 만드는 기능을 제공하는 Microsoft Excel의 추가 기능. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/arb/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Ad Hoc Analysis(이전 Discover) </td> 
-   <td colname="col2"> Reports &amp; Analytics보다 더 많은 보고서 유연성을 제공합니다. 실시간 방문자 정보를 제한 없이 활용하여 가치가 높은 고객 세그먼트를 식별할 수 있도록 돕기 때문에 데이터를 심층 분석하여 고객을 더 깊고 정확하고 종합적인 방식으로 이해할 수 있습니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dsc/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/dsc/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 다이내믹 태그 관리(DTM) </td> 
-   <td colname="col2"> 도메인 수에 관계없이 모든 사이트의 분석, 타겟 및 기타 태그를 관리할 수 있도록 도와줍니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dtm/dtm_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/dtm/dtm_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Adobe Mobile Services </td> 
-   <td colname="col2"> <p>Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. </p> <p>액세스 위치: <a href="https://mobilemarketing.adobe.com/" format="https" scope="external">https://mobilemarketing.adobe.com/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/mobile/</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Workbench (이전 Insight) </td> 
-   <td colname="col2">여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. <p><i>Analytics Premium의 일부만 해당.</i> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/insight/client/" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/insight/client/</a> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 제품 | 설명 | 설명서 링크 |
+|--- |--- |--- |
+| Analysis Workspace | 강력한 맞춤형 분석 프로젝트를 구축하고 통찰력을 확보할 수 있는 브라우저 솔루션입니다. 보고 및 분석보다 더 많은 보고서 유연성 제공 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Reports &amp; Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션 Analytics 패키지의 초급자 도구입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
+| Report Builder | Adobe Analytics 데이터에서 사용자 지정된 요청을 작성하고 Microsoft Excel를 사용하여 시각화할 수 있는 Excel 추가 기능입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
+| Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석을 위한 Java 기반 도구입니다. 2019 년 3 분기 사용이 종료됩니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [https://marketing.adobe.com/resources/help/ko_KR/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터입니다. 히트 수준은 아닙니다. | [https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
+| Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다.  액세스 위치: https://mobilemarketing.adobe.com/ | [https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Adobe Exchange 데이터 커넥터 (이전 Genesis) | 타사 애플리케이션의 추적 데이터를 Analytics로 가져와 한 곳에서 전체적인 성능을 확인할 수 있습니다. | [https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
+| 다이내믹 태그 관리(DTM) | 도메인 수에 관계없이 모든 사이트의 분석, 타겟 및 기타 태그를 관리할 수 있도록 도와줍니다. | [https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Adobe Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능 | [https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
-<!-- 
+Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html)를 클릭하십시오.
 
-key_terminology.xml
+| 용어 | 설명 | 설명서 링크 |
+|--- |--- |--- |
+| Prop (사용자 지정 트래픽) | 페이지별 사이트 트래픽 활동을 추적하는 데 사용되는 차원입니다. Prop은 페이지 간에 지속되지 않습니다. 트래픽 변수의 주요 응용: <ul><li>간단한 계산으로 특정 값의'가장 인기 있는'찾기</li><li>사용자가 사이트를 통해 이동하는 방법에 대한 가시성 </li></ul><br>트래픽 변수의 예: 페이지 이름, 사이트 섹션, 브라우저</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| Evar (사용자 지정 전환) | 사용자가 지정한 기간 동안 지속되는 차원입니다. 만료 옵션은 이벤트 만료, 방문 만료 또는 특정일 만료를 포함하며, 해당 변수에 대해 수행하게 될 분석 유형에 의해 파생되어야 합니다.<br>Evar와 prop의 주요 차이점:</br><ul><li>Prop는 지속성을 제거하므로 종종 경로 분석에 사용됩니다.</li><li>Evar는 종종 전환 분석에 사용됩니다.</li></ul><br>전환 변수의 예: 내부 검색어, 내부 프로모션, 외부 캠페인(s.campaign)</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| 이벤트/지표 (s. events) | 방문자가 사이트에서 수행하기 위해 필요한 주요 동작을 측정하는 지표입니다. 카운터, 숫자 및 통화, 이렇게 세 가지 유형의 이벤트가 있습니다. 이벤트는 전환 변수(eVar) 보고서에 추가될 때 가장 유용합니다. eVar에서는 발생한 일에 대한 정성인 정보를 제공하고 이벤트에서는 발생한 일에 대한 정량적 정보를 제공합니다. <br>Evar와 이벤트 간의 주요 차이점:</br><ul><li>Evar에 누가 어떤 영향을 받았는지, 무엇을 또는 어떤 영향을 받는지 알려줍니다.</li><li>이벤트는 발생한 전환 수를 측정합니다.</li></ul><br>전환 이벤트의 예: 주문 수, 애플리케이션 시작, 리드, 매출.</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
+| 구성 요소 | 프로젝트에 드래그하여 놓을 수 있는 차원, 지표, 세그먼트 및 시간 세부기간 (날짜 범위) 입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
+| 차원 | Evar, prop, 분류 및 표준 Adobe가 수집한 값 모음입니다. | [https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
+| 지표 | 구현된 이벤트 및 계산된 지표 모음입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
+| 계산된 지표 | 구현을 통해 캡처한 기존 지표에서 사용자 지정 지표를 추출하는 기능. | [https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
+| 세그먼트 | 강력하고 집중된 대상 세그먼트를 빌드, 관리, 공유하고 Analytics 보고서에 적용하는 기능입니다. 세그먼트는 Analytics 제품들 간에 공유되고 Experience Cloud에서도 공유할 수 있습니다. | [https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
+| 시간 (날짜 범위) | Analytics에서 다시 사용할 수 있는 사용자 지정 날짜 범위를 임의 기간으로 필터링하고 사용자 지정 날짜 범위를 만듭니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
+| 시각화 | 프로젝트에서 데이터를 생동감 있게 표현할 수 있는 풍부한 시각적 요소 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| 조정 | 프로젝트 또는 가상 보고서 세트에서 액세스할 수 있는 구성 요소를 제한하는 기능. | [VRS curationproject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[curationcomparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
- -->
 
-Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](https://marketing.adobe.com/resources/help/en_US/reference/glossary.html)를 클릭하십시오.
 
-<table id="table_84ACDB415EE74A13B1BAD5D03626C7B1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 용어 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-   <th colname="col3" class="entry"> 설명서 링크 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 보고서 세트 </td> 
-   <td colname="col2">Analytics 보고에서 가장 기본적인 수준의 세그멘테이션 - 각 보고서 세트는 보고 필요 사항을 위한 하나의 사이트로 간주되는 데이터 세트를 나타냅니다. 보고서 세트는 일반적으로 개발/QA(내부 테스트 사이트) 및 프로덕션(공공 사이트)으로 분류됩니다. <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external"> 가상 보고서 세트</a>를 사용하면 보고서 세트에 세그먼트를 적용하고 해당 조합을 기준으로 새로운 보기(가상 보고서 세트)를 만들어 특정 세그먼트를 기준으로 사용자에 대한 데이터 액세스 권한을 제한할 수 있습니다. 가상 보고서 세트는 기본 보고서 세트처럼 액세스할 수 있습니다. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suite_gloss.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/report_suite_gloss.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 글로벌 보고서 세트 </td> 
-   <td colname="col2"> 한 보고서 세트에 있는 모든 속성의 보기입니다. 전역 세트를 만들기 위해 개별 보고서 세트 외에 '전역' 보고서 세트에 이미지 요청을 보내는 다중 세트 태깅이 구현됩니다. </td> 
-   <td colname="col3">전역 보고서 세트: <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/rollup_report_suite.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/rollup_report_suite.html</a> </p> <p>다중 세트 태깅: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/multisuite_tagging.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/multisuite_tagging.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 세그멘테이션 </td> 
-   <td colname="col2"> 강력하고 집중된 대상 세그먼트를 빌드, 관리, 공유하고 Analytics 보고서에 적용하는 기능입니다. 세그먼트는 Analytics 제품들 간에 공유되고 Experience Cloud에서도 공유할 수 있습니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/seg_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 관리 도구 </td> 
-   <td colname="col2"> 관리자가 도구 및 변수의 설정을 관리하고 고급 도구 기능에 액세스할 수 있는 Analytics 영역입니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/admin.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/admin.html</a> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
-
-<!-- 
-
-key_reports.xml
-
- -->
+## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
 <table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
  <thead> 
