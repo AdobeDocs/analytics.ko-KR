@@ -8,12 +8,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: 191c2add5b6762181ff669fddea3e4aa559a5044
 
 ---
 
 
-# Adobe Analytics Plug-In Code{#adobe-analytics-plug-in-code}
+# Adobe Analytics Plug-In Code {#adobe-analytics-plug-in-code}
 
 JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 줄을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
 
