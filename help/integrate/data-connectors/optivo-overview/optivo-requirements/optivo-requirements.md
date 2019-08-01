@@ -1,0 +1,37 @@
+---
+description: '데이터 커넥터 통합을 시작하기 전에 다음 요구 사항을 완료하십시오. '
+seo-description: '데이터 커넥터 통합을 시작하기 전에 다음 요구 사항을 완료하십시오. '
+seo-title: 활성화하기 전에
+title: 활성화하기 전에
+uuid: 45275635-A 80 D -46 C 2-B 9 AD -985 DF 5737 BF 2
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+
+---
+
+
+# Before You Activate{#before-you-activate}
+
+데이터 커넥터 통합을 시작하기 전에 다음 요구 사항을 완료하십시오.
+
+## Adobe Analytics Requirements {#section-960e70fd2eae4a1cb88a2e4b53a97313}
+
+* **보고서 세트 특정:** 이 통합은 보고서 세트별로 다릅니다. 통합을 활성화하기 전에 원하는 보고서 세트를 선택했는지 확인합니다.
+* **사용 가능하고 구성된 Adobe Analytics 변수:** 이 통합을 사용하려면 사용자 지정 이벤트와 사용자 지정 Evar가 필요합니다. [Adobe Analytics 통합 변수를 참조하십시오](../../optivo-overview/optivo-requirements/optivo-variables.md#concept-8ebd2bde4a1c4b0aad2987e050ffbbfc).
+
+* **공인 담당자:** 이 통합의 활성화로 인해 회사는 Adobe, Inc. 또는 Adobe의 신뢰할 수 있는 파트너 중 한 사람과 서비스 계약에 따라 요금을 발생시키게 될 수 있습니다. 이 통합을 활성화함으로써 귀하는 귀사의 공인 대리인임을 나타냅니다. 또한, 귀하의 회사는 위에 명시된 서비스 계약에 명시된 요금을 지불하는 것에 동의합니다.
+* **메시지 ID:** 통합을 위해서는 Adobe Analytics 변수 (evar) 내에서 "메시지 ID" 를 캡처하여 저장해야 합니다. 이러한 ID는 발송한 메일을 식별하기 위해 필요합니다. 설정 프로세스의 일부로 마법사에서 메시지가 표시되었을 때 이러한 용도로 Evar를 식별해야 합니다.
+* ** [!DNL ~Partner~]:** The integration requires that we capture and store a " [!DNL ~Partner~]" within a Adobe Analytics variable (eVar). This ID is an encoded or numeric representation of an email address from the [!DNL ~Partner~] system. This " [!DNL ~Partner~]" is associated with downstream visitor behavior on the site (cart abandons, purchases, etc.) [!DNL ~파트너~] 시스템으로 가져와 리마케팅용으로 활용할 수 있습니다. 설정 프로세스의 일부로 마법사에서 메시지가 표시되었을 때 이러한 용도로 Evar를 식별해야 합니다.
+* **게시물 클릭 시간:** 설정 프로세스의 일부로, 이 통합을 사용하려면 게시물 클릭 동작 시간에 해당하는 Evar에 할당이 필요합니다. This is needed to transmit information about a recipient action to [!DNL ~Partner~] after the recipient clicked a link in a mailing.
+
+* **게시물 클릭 제품:** 설정 프로세스의 일부로, 이 통합을 사용하려면 게시물 클릭 작업과 연관된 제공된 제품에 해당하는 Evar에 대한 할당이 필요합니다. This is needed to transmit information about a recipient action to [!DNL ~Partner~] after the recipient clicked a link in a mailing.
+
+* **게시물의 클릭 유형을 클릭합니다.** 설정 프로세스의 일부로, 이 통합을 사용하려면 게시물 클릭 동작의 유형에 해당하는 Evar에 대한 할당이 필요합니다. This is needed to transmit information about a recipient action to [!DNL ~Partner~] after the recipient clicked a link in a mailing.
+
+* **개인 정보 보호 규정 준수:** 수신자나 방문자 ID 추적을 활성화함으로써 이 기능은 사이트 방문자의 개인 식별 정보를 추적할 수 있다는 점을 이해해야 합니다. 여기에는 사이트 방문자에게 통지하고 동의한 것과 같이 귀하의 조직에서 적절한 절차의 구현을 요구하는 개인정보 보호 관련 사항이 있습니다.
+
+## Section Title {#section-370f12579a224d509545cba1c28adb22}
+
