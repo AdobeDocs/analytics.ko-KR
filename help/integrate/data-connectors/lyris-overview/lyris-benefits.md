@@ -1,0 +1,35 @@
+---
+description: Lyris와 Adobe 마케팅 보고 및 분석의 주요 이점에 대해 설명합니다.
+seo-description: Lyris와 Adobe 마케팅 보고 및 분석의 주요 이점에 대해 설명합니다.
+seo-title: 주요 이점 및 기능
+solution: Analytics
+title: 주요 이점 및 기능
+uuid: 0 def 5067-902 c -4 f 48-97 fb -2 f 727741 d 34 a
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+
+---
+
+
+# Key Benefits and Features{#key-benefits-and-features}
+
+Lyris와 Adobe 마케팅 보고 및 분석의 주요 이점에 대해 설명합니다.
+
+Lyris와 Adobe Analytics의 통합으로 다음과 같은 주요 이점이 있습니다.
+
+* 이메일 마케팅 및 분석 데이터를 하나의 리포팅 인터페이스에 통합
+* 전환율 및 매출 및 사이트 성공에 대한 기여도에 따라 이메일 캠페인 최적화
+* 주요 방문자의 재마케팅 및 동적 마케팅 세그먼트를 기반으로 시장 분야 재마케팅
+
+**동적 마케팅 세그먼트**
+
+이메일 통합은 동적 마케팅 세그먼트를 지원하므로 비즈니스를 추진하는 데 도움이 됩니다. 이 통합은 다음과 같은 마케팅 세그먼트를 제공합니다.
+
+* **장바구니 포기 프로필**: 장바구니 작성을 망설이지 않는 사용자를 위해 특별히 고안된 세부 조정을 통해 방문자를 고객으로 전환
+* **구매 프로필**: 방문자 구매 패턴에 의해 타깃팅된 캠페인을 통해 반복 주문 및 평균 주문 가격 증가
+* **제품/컨텐츠 보기 행동 프로파일**: 제품 뷰 및 컨텐츠 액세스 프로파일링을 기반으로 마케팅 세그먼트를 통해 잠재 고객에게 도달
+* Customers can also create and schedule **custom re-marketing segments** specific to the needs of their users.
+
