@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - 주요 개념
 title: Adobe Analytics - 주요 개념
 uuid: EF 5701 C 5-2 D 3 E -4847-851 F -9312 D 55 DB 1 A 8
 translation-type: tm+mt
-source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
+source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
 
 ---
 
@@ -19,15 +19,15 @@ source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 | 제품 | 설명 | 설명서 링크 |
 |--- |--- |--- |
 | Analysis Workspace | 강력한 맞춤형 분석 프로젝트를 구축하고 통찰력을 확보할 수 있는 브라우저 솔루션입니다. 보고 및 분석보다 더 많은 보고서 유연성 제공 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
-| Reports &amp; Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션 Analytics 패키지의 초급자 도구입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
-| Report Builder | Adobe Analytics 데이터에서 사용자 지정된 요청을 작성하고 Microsoft Excel를 사용하여 시각화할 수 있는 Excel 추가 기능입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석을 위한 Java 기반 도구입니다. 2019 년 3 분기 사용이 종료됩니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [https://marketing.adobe.com/resources/help/ko_KR/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
-| Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터입니다. 히트 수준은 아닙니다. | [https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
-| Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다.  액세스 위치: https://mobilemarketing.adobe.com/ | [https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
-| Adobe Exchange 데이터 커넥터 (이전 Genesis) | 타사 애플리케이션의 추적 데이터를 Analytics로 가져와 한 곳에서 전체적인 성능을 확인할 수 있습니다. | [https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
-| 다이내믹 태그 관리(DTM) | 도메인 수에 관계없이 모든 사이트의 분석, 타겟 및 기타 태그를 관리할 수 있도록 도와줍니다. | [https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
-| Adobe Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능 | [https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
+| Reports &amp; Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션 Analytics 패키지의 초급자 도구입니다. | [보고 및 분석 홈](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
+| Report Builder | Adobe Analytics 데이터에서 사용자 지정된 요청을 작성하고 Microsoft Excel를 사용하여 시각화할 수 있는 Excel 추가 기능입니다. | [리포트 빌더 홈](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
+| Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석을 위한 Java 기반 도구입니다. 2019 년 3 분기 사용이 종료됩니다. | [애드혹 분석 홈](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [데이터 워크벤치 클라이언트](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터입니다. 히트 수준은 아닙니다. | [데이터 웨어하우스 홈](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
+| Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. | [Mobile Services 홈](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Adobe Exchange 데이터 커넥터 (이전 Genesis) | 타사 애플리케이션의 추적 데이터를 Analytics로 가져와 한 곳에서 전체적인 성능을 확인할 수 있습니다. | [데이터 커넥터 홈](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
+| 다이내믹 태그 관리(DTM) | 도메인 수에 관계없이 모든 사이트의 분석, 타겟 및 기타 태그를 관리할 수 있도록 도와줍니다. | [DTM 홈](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Adobe Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능 | [Adobe Launch 홈](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -35,19 +35,17 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 
 | 용어 | 설명 | 설명서 링크 |
 |--- |--- |--- |
-| Prop (사용자 지정 트래픽) | 페이지별 사이트 트래픽 활동을 추적하는 데 사용되는 차원입니다. Prop은 페이지 간에 지속되지 않습니다. 트래픽 변수의 주요 응용: <ul><li>간단한 계산으로 특정 값의'가장 인기 있는'찾기</li><li>사용자가 사이트를 통해 이동하는 방법에 대한 가시성 </li></ul><br>트래픽 변수의 예: 페이지 이름, 사이트 섹션, 브라우저</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
-| Evar (사용자 지정 전환) | 사용자가 지정한 기간 동안 지속되는 차원입니다. 만료 옵션은 이벤트 만료, 방문 만료 또는 특정일 만료를 포함하며, 해당 변수에 대해 수행하게 될 분석 유형에 의해 파생되어야 합니다.<br>Evar와 prop의 주요 차이점:</br><ul><li>Prop는 지속성을 제거하므로 종종 경로 분석에 사용됩니다.</li><li>Evar는 종종 전환 분석에 사용됩니다.</li></ul><br>전환 변수의 예: 내부 검색어, 내부 프로모션, 외부 캠페인(s.campaign)</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
-| 이벤트/지표 (s. events) | 방문자가 사이트에서 수행하기 위해 필요한 주요 동작을 측정하는 지표입니다. 카운터, 숫자 및 통화, 이렇게 세 가지 유형의 이벤트가 있습니다. 이벤트는 전환 변수(eVar) 보고서에 추가될 때 가장 유용합니다. eVar에서는 발생한 일에 대한 정성인 정보를 제공하고 이벤트에서는 발생한 일에 대한 정량적 정보를 제공합니다. <br>Evar와 이벤트 간의 주요 차이점:</br><ul><li>Evar에 누가 어떤 영향을 받았는지, 무엇을 또는 어떤 영향을 받는지 알려줍니다.</li><li>이벤트는 발생한 전환 수를 측정합니다.</li></ul><br>전환 이벤트의 예: 주문 수, 애플리케이션 시작, 리드, 매출.</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
-| 구성 요소 | 프로젝트에 드래그하여 놓을 수 있는 차원, 지표, 세그먼트 및 시간 세부기간 (날짜 범위) 입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
-| 차원 | Evar, prop, 분류 및 표준 Adobe가 수집한 값 모음입니다. | [https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
-| 지표 | 구현된 이벤트 및 계산된 지표 모음입니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
-| 계산된 지표 | 구현을 통해 캡처한 기존 지표에서 사용자 지정 지표를 추출하는 기능. | [https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
-| 세그먼트 | 강력하고 집중된 대상 세그먼트를 빌드, 관리, 공유하고 Analytics 보고서에 적용하는 기능입니다. 세그먼트는 Analytics 제품들 간에 공유되고 Experience Cloud에서도 공유할 수 있습니다. | [https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
-| 시간 (날짜 범위) | Analytics에서 다시 사용할 수 있는 사용자 지정 날짜 범위를 임의 기간으로 필터링하고 사용자 지정 날짜 범위를 만듭니다. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
-| 시각화 | 프로젝트에서 데이터를 생동감 있게 표현할 수 있는 풍부한 시각적 요소 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| Prop (사용자 지정 트래픽) | 페이지별 사이트 트래픽 활동을 추적하는 데 사용되는 차원입니다. Prop은 페이지 간에 지속되지 않습니다. 트래픽 변수의 주요 응용: <ul><li>간단한 계산으로 특정 값의'가장 인기 있는'찾기</li><li>사용자가 사이트를 통해 이동하는 방법에 대한 가시성 </li></ul><br>트래픽 변수의 예: 페이지 이름, 사이트 섹션, 브라우저</br> | [Prop](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| Evar (사용자 지정 전환) | 사용자가 지정한 기간 동안 지속되는 차원입니다. 만료 옵션은 이벤트 만료, 방문 만료 또는 특정일 만료를 포함하며, 해당 변수에 대해 수행하게 될 분석 유형에 의해 파생되어야 합니다.<br>Evar와 prop의 주요 차이점:</br><ul><li>Prop는 지속성을 제거하므로 종종 경로 분석에 사용됩니다.</li><li>Evar는 종종 전환 분석에 사용됩니다.</li></ul><br>전환 변수의 예: 내부 검색어, 내부 프로모션, 외부 캠페인(s.campaign)</br> | [eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| 이벤트/지표 (s. events) | 방문자가 사이트에서 수행하기 위해 필요한 주요 동작을 측정하는 지표입니다. 카운터, 숫자 및 통화, 이렇게 세 가지 유형의 이벤트가 있습니다. 이벤트는 전환 변수(eVar) 보고서에 추가될 때 가장 유용합니다. eVar에서는 발생한 일에 대한 정성인 정보를 제공하고 이벤트에서는 발생한 일에 대한 정량적 정보를 제공합니다. <br>Evar와 이벤트 간의 주요 차이점:</br><ul><li>Evar에 누가 어떤 영향을 받았는지, 무엇을 또는 어떤 영향을 받는지 알려줍니다.</li><li>이벤트는 발생한 전환 수를 측정합니다.</li></ul><br>전환 이벤트의 예: 주문 수, 애플리케이션 시작, 리드, 매출.</br> | [이벤트](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
+| 구성 요소 | 프로젝트에 드래그하여 놓을 수 있는 차원, 지표, 세그먼트 및 시간 세부기간 (날짜 범위) 입니다. | [구성 요소](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
+| 차원 | Evar, prop, 분류 및 표준 Adobe가 수집한 값 모음입니다. | [차원](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
+| 지표 | 구현된 이벤트 및 계산된 지표 모음입니다. | [지표](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
+| 계산된 지표 | 구현을 통해 캡처한 기존 지표에서 사용자 지정 지표를 추출하는 기능. | [계산된 지표](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
+| 세그먼트 | 강력하고 집중된 대상 세그먼트를 빌드, 관리, 공유하고 Analytics 보고서에 적용하는 기능입니다. 세그먼트는 Analytics 제품들 간에 공유되고 Experience Cloud에서도 공유할 수 있습니다. | [세그멘테이션](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
+| 시간 (날짜 범위) | Analytics에서 다시 사용할 수 있는 사용자 지정 날짜 범위를 임의 기간으로 필터링하고 사용자 지정 날짜 범위를 만듭니다. | [데이터 범위](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
+| 시각화 | 프로젝트에서 데이터를 생동감 있게 표현할 수 있는 풍부한 시각적 요소 | [시각화](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | 조정 | 프로젝트 또는 가상 보고서 세트에서 액세스할 수 있는 구성 요소를 제한하는 기능. | [VRS curationproject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[curationcomparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
-
-
 
 ## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
@@ -148,12 +146,6 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
-<!-- 
-
-key_metrics.xml
-
- -->
-
 | 지표 이름 | 정의 | 설명서 링크 |
 |---|---|---|
 | 전체 지표 목록 | Adobe Analytics에 있는 모든 지표의 정의입니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) |
@@ -165,12 +157,6 @@ key_metrics.xml
 
 ## 가져오기 옵션 {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
-<!-- 
-
-import_options.xml
-
- -->
-
 | 옵션 | 설명 | 설명서 링크 |
 |---|---|---|
 | 분류 가져오기 | 브라우저나 FTP 업로드를 통해 캡처된 차원을 기준으로 메타데이터를 가져오십시오. 규칙 빌더와 비교되는 수동 방식입니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
@@ -180,11 +166,6 @@ import_options.xml
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-<!-- 
-
-export_options.xml
-
- -->
 
 <table id="table_99867D82082D4756872FC3ABD83A33A1"> 
  <thead> 
@@ -229,12 +210,6 @@ export_options.xml
 </table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
-
-<!-- 
-
-data_collection_and_validation.xml
-
- -->
 
 <table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
  <thead> 
