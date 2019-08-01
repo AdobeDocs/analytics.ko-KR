@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: a3310ec57ce4c68539f07e0d294c8175742c49dc
 
 ---
 
@@ -17,11 +17,30 @@ source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
 
 Adobe 데이터 커넥터 구성 마법사를 사용하여 통합을 설정합니다.
 
-1. Start [Data Connectors](http://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html) and click **[!UICONTROL + Add New]** to [add a new integration](http://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html?f=t_add_integration).
+1. [데이터 커넥터를](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) 시작하고 **[!UICONTROL + 새로]** 추가를 클릭하여 새 통합을 [추가합니다](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
 1. **[!UICONTROL [표시]** ] 목록에서 **[!UICONTROL 이름별로]** 선택하고 [!DNL ~파트너~] 통합을 빈 플러그인 슬롯으로 끕니다.
 1. 다음 표의 정보를 사용하여 통합 마법사를 완료합니다.
 
-   #### Title
-   |  |  |
-   |---|---|
-
+| 필드 | 설명 |
+|--- |--- |
+| 보고서 세트 | 이 통합에서 데이터를 받는 보고서 세트입니다. |
+| 통합 이름 | 보고서 세트의 활성 통합 목록에 데이터 커넥터가 표시되는 통합 이름을 지정합니다. |
+| 통합 UUID | Dreammail 통합 UUID를 지정합니다. |
+| 클라이언트 이름 | Dreammail 클라이언트 이름을 지정합니다. |
+| 사이트 이름 | Dreammail 사이트 이름을 지정합니다. |
+| 바운스백 | 배달 문제로 인해 수신자에게 배달되지 않은 이메일 메시지 수입니다. |
+| 배달됨 | 성공적인 메시지 배달 수. |
+| 배달 오류 | 메시지 배달이 실패했습니다. |
+| HTML 열기 | 이메일 메시지를 연 방문자 수. |
+| Invalids | 잘못된 이메일 주소 수. |
+| 캠페인 | 마케팅 캠페인 ID. |
+| Alongs | 클릭한 이벤트를 통해 이메일 메시지를 클릭한 방문자 수를 확인할 수 있습니다. |
+| Email eVar | Dreammail 시스템의 이메일 주소입니다. 이 "이메일 Evar" 는 사이트의 다운스트림 방문자 행동과 관련되어 있습니다 (장바구니 포기, 구매 등). Dreammail 시스템으로 가져와 재마케팅용으로 활용할 수 있습니다. |
+| 스포트라이트 이벤트 | 이벤트를 다시 마케팅 세그먼트로 내보낼 수 있는 이벤트. |
+| 스포트라이트 구매 | 이벤트를 다시 마케팅 세그먼트로 내보낼 수 있는 이벤트. |
+| 스포트라이트 값 | 재마케팅 세그먼트에서 내보낼 수 있는 매출 이벤트입니다. |
+| Totalclick | 클릭한 이벤트를 통해 이메일 메시지를 클릭한 방문자 수를 확인할 수 있습니다. |
+| 세그먼트 | 이 통합은 파트너 세그먼트 섹션에 표시된 파트너 정의 세그먼트를 만듭니다. 또한, 통합에 포함할 기존 보고서 세트 수준 세그먼트를 선택할 수 있습니다. |
+| 액세스 요청 | 권장 액세스 권한을 활성화합니다. |
+| 데이터 수집 | Select **JavaScript Plug-in** if you want to use the s_code.js plug-in as the collection model for this integration (see ). Select **Automated Solution** if you want to use an automated collection model for this integration, then specify the unique identifiers used for this integration. 이 옵션을 선택하는 경우 이 통합에 사용되는 고유 식별자를 지정합니다.<ul><li>메시지 ID 쿼리 문자열 매개 변수: 이 값은 이메일 파트너가 랜딩 페이지 URL를 추가하는 메시지 ID를 나타냅니다.</li><li>수신자 ID 쿼리 문자열 매개 변수: 이 값은 이메일 파트너가 랜딩 페이지 URL에 추가하는 수신자 ID를 나타냅니다.</li></ul> |
+| 대시보드 및 책갈피 생성 | 통합에 대한 대시보드와 책갈피를 자동으로 생성합니다. |
