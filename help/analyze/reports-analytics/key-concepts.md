@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - 주요 개념
 title: Adobe Analytics - 주요 개념
 uuid: EF 5701 C 5-2 D 3 E -4847-851 F -9312 D 55 DB 1 A 8
 translation-type: tm+mt
-source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
+source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 
 ---
 
@@ -47,218 +47,72 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | 시각화 | 프로젝트에서 데이터를 생동감 있게 표현할 수 있는 풍부한 시각적 요소 | [시각화](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | 조정 | 프로젝트 또는 가상 보고서 세트에서 액세스할 수 있는 구성 요소를 제한하는 기능. | [VRS curationproject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[curationcomparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
-<table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 보고서 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-   <th colname="col3" class="entry"> 설명서 링크 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 전체 보고서 목록 </td> 
-   <td colname="col2"> Adobe Analytics에서 사용 가능한 모든 보고서의 정의입니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_descriptions.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 사용자 지정 트래픽(Prop) </td> 
-   <td colname="col2">페이지별 사이트 트래픽 활동을 추적하는 데 사용됩니다. Prop은 페이지 간에 지속되지 않습니다. 트래픽 변수의 주요 응용: 
-    <ul id="ul_A935EC5271684B9599F683C7B31400ED"> 
-     <li id="li_58E0596050A34ACC821916EA61E946EF">페이지 보기 횟수, 방문 수, 방문자 수 또는 인스턴스 수와 연관지을 수 있는 값 캡처. </li> 
-     <li id="li_2B4C557AAD0544BE8204C0D7CE587175">특정 값의 '가장 빈도가 높음' 찾기. </li> 
-     <li id="li_7FA62BE657F047459DF439BFB9F332F5">사용자가 특정 사이트까지 이동하는 경로 보기. </li> 
-    </ul> <p>트래픽 변수의 예: 페이지 이름, 사이트 섹션, 브라우저. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/traffic_var.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 사용자 지정 전환(eVar) </td> 
-   <td colname="col2">전환 이벤트에 대해 보고하는 데 사용되고 사용자가 지정한 기간 동안 지속됩니다. 만료 옵션은 이벤트 만료, 방문 만료 또는 특정일 만료를 포함하며, 해당 변수에 대해 수행하게 될 분석 유형에 의해 파생되어야 합니다. <p>전환 변수와 트래픽 변수 간의 주요 차이점: </p> 
-    <ul id="ul_B0A7482A81B94C5F86C06E5507DB393D"> 
-     <li id="li_272E414520AA4603AE5EC397B0F93630"> 사용자 지정 트래픽 변수는 전환이 아니라 트래픽 지표에 연결되어 있습니다. 이 변수들은 종종 경로 분석에 사용됩니다. </li> 
-     <li id="li_EBBF9A35C64845FE9683540DFA89E7E9">사용자 지정 전환 변수는 트래픽과 전환에 연결할 수 있으며 종종 전환 분석에 사용됩니다. </li> 
-    </ul> <p>전환 변수의 예: 내부 검색어, 내부 프로모션, 외부 캠페인(s.campaign). </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/conversion_var_admin.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 성공 이벤트(s.events) </td> 
-   <td colname="col2"> <p>방문자들이 사이트에서 취하기를 바라는 주요 동작을 측정합니다. </p> <p>카운터, 숫자 및 통화, 이렇게 세 가지 유형의 이벤트가 있습니다. 이벤트는 전환 변수(eVar) 보고서에 추가될 때 가장 유용합니다. eVar에서는 발생한 일에 대한 정성인 정보를 제공하고 이벤트에서는 발생한 일에 대한 정량적 정보를 제공합니다. </p> <p>전환 변수와 사용자 지정 이벤트 간의 주요 차이점: </p> 
-    <ul id="ul_2B95D7437DE444DD9618DBFE6A8612D1"> 
-     <li id="li_5951858853334EFA931A5BC57E5C933F">전환 변수는 영향을 받은 사람, 사항 또는 항목에 대해 알려 줍니다. </li> 
-     <li id="li_339755C842714E0DB8DB4DFAA43AB4F7"> 사용자 지정 이벤트는 전환이 발생하는 방식을 측정합니다. </li> 
-    </ul> <p>전환 이벤트의 예: 주문 수, 애플리케이션 시작, 리드, 매출. </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/success_event.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 사이트 지표 </td> 
-   <td colname="col2"> 고유 방문자, 주문, 매출 등과 같은 웹 사이트에 대한 정량적 정보를 표시합니다. 각 지표는 항목 기반의 다른 보고서에서 대체될 수 있습니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_site_metrics.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_site_metrics.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 사이트 컨텐츠 </td> 
-   <td colname="col2"> 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_site_content.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_site_content.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 </td> 
-   <td colname="col2"> 모바일 장치나 태블릿에서 액세스한 웹 사이트에 대한 정보를 표시합니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_mobile.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_mobile.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 앱 </td> 
-   <td colname="col2"> <p>모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다. </p> <p>또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다. </p> <p>인터페이스 액세스 위치: </p> <p><a href="https://mobilemarketing.adobe.com" format="https" scope="external"> https://mobilemarketing.adobe.com</a> </p> </td> 
-   <td colname="col3"> <p>Adobe Mobile Services: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/mobile/</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 경로 보고서 </td> 
-   <td colname="col2"> 웹 사이트 페이지에 액세스하는 순서에 대한 정보를 표시합니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_paths.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 제품 </td> 
-   <td colname="col2"> 개별 제품 및 제품 그룹(카테고리)이 매출액 또는 체크아웃 횟수와 같은 다양한 전환 지표에 기여하는 정도를 알 수 있습니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_products.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_products.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 방문자 유지 </td> 
-   <td colname="col2"> 사이트로 돌아오는 방문자의 수와 돌아오는 빈도와 같은, 고객 충성도에 대한 정보를 표시합니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_retention.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_visitor_retention.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 방문자 프로필 </td> 
-   <td colname="col2"> 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 프로필 범주에 속하는 고객의 구매 패턴을 보여주는 보고서입니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_profile.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_visitor_profile.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 마케팅 채널 </td> 
-   <td colname="col2">사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. <p>이것은 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다(캠페인이나 트래픽 소스보다 선호됨). </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/mchannel/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/mchannel/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 사용자 지정 보고서, 보고서 링크, 책갈피 및 대시보드 </td> 
-   <td colname="col2"> Analytics 인터페이스에서 작업을 저장하거나 다른 사람과 공유하는 방법입니다. </td> 
-   <td colname="col3">사용자 지정 보고서: <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_custom.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/reports_custom.html</a> </p> <p>보고서 링크: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_share_link.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/sc/user/t_reports_share_link.html</a> </p> <p>책갈피 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/bookmarks.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/sc/user/bookmarks.html</a> </p> <p>대시보드 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/sc/user/dashboard.html</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 보고서 | 설명 | 설명서 링크 |
+|--- |--- |--- |
+| 전체 차원/보고서 목록 | Adobe Analytics에서 사용 가능한 모든 차원/보고서에 대한 정의입니다. | [차원](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) |
+| Advertising Analytics | Adobe Analytics 내에서 모든 Google 및 Bing 유료 검색 데이터를 나란히 분석할 수 있습니다. 통합을 통해 생성된 차원에는 광고 플랫폼, 키워드, 일치 유형 등이 포함됩니다. 작성된 지표는 AMO 노출 횟수, AMO 클릭 수, AMO 비용, 평균 위치 및 평균 품질 점수. | [Advertising Analytics](https://docs.adobe.com/help/en/analytics/integration/advertising-analytics/overview.html) |
+| Audience Analytics | AAM에서 사용자의 고객 멤버십으로 인바운드 분석 히트 수 향상 인구 통계 정보 (예: 성별 또는 수입 수준), 사이코그래픽 정보 (예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터 등의 AAM 대상 데이터를 Analytics 워크플로우에 통합할 수 있습니다. 이 통합을 통해 만들어진 차원은 대상 ID와 대상 이름입니다. | [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html) |
+| 속성 IQ | 고객 여정 전반에 걸쳐 의미 있는 참여가 발생하는 방식을 파악하고 고객의 타깃팅 결과로 이어지는 변곡점을 지능적으로 식별하며 마케팅 이니셔티브를 효과적으로 최적화할 수 있습니다. 모델은 첫 번째, 마지막, 선형, 기여도, J 모양, 역 J 모양, U 모양, 동일한 터치, 사용자 정의 및 시간 감소를 포함합니다. | [속성 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) |
+| 예외 항목 탐지 | 이전 데이터에 관해 주어진 지표가 변경된 방법을 결정하는 통계적 방법입니다. 분석 작업 공간의 모든 트렌드 시각화에 대해 기본적으로 광고가 켜져 있습니다. | [예외 검색](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 기여도 분석 | 액세스할 수 있는 모든 단일 지표와 차원에 대한 자동화된 분석을 실행하여 발생하는 예외 항목의 "이유" 를 탐색합니다. | [기여도 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| 집단 분석 | 집단은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 사용자의 보유 및 이탈 분석 시 집단 분석 보좌관. | [집단 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) |
+| 고객 경로 보고서 | 사용자가 사이트 또는 앱을 통해 사용하는 경로에 대한 정보를 표시합니다. prop, evar 및 이벤트는 분석 작업 공간의 이 분석에서 사용할 수 있습니다. | [분석 작업 공간 폴아웃 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[작업 공간 폴보고](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[및 분석 경로 지정](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
+| 마케팅 채널 | 사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. 이것은 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다(캠페인이나 트래픽 소스보다 선호됨). | [마케팅 채널](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
+| 모바일 | 모바일 장치나 태블릿에서 액세스한 웹 사이트에 대한 정보를 표시합니다. | [모바일 보고서 | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
+| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  Access the interface [here](https://mobilemarketing.adobe.com). | [Adobe Mobile 서비스](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 제품 | 개별 제품 및 제품 그룹(카테고리)이 매출액 또는 체크아웃 횟수와 같은 다양한 전환 지표에 기여하는 정도를 알 수 있습니다. | [제품 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| 세그먼트 비교 | 액세스 권한이 있는 모든 지표와 차원에 대한 자동화된 분석을 통해 세그먼트 간에 통계적으로 가장 중요한 차이점을 검색합니다. | [세그먼트 비교](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
+| 사이트 컨텐츠 보고서 | 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다. | [사이트 컨텐츠 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
+| 사이트 지표 보고서 | 고유 방문자, 주문, 매출 등과 같은 웹 사이트에 대한 정량적 정보를 표시합니다. 각 지표는 항목 기반의 다른 보고서에서 대체될 수 있습니다. | [사이트 지표 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
+| 방문자 프로필 | 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 프로필 범주에 속하는 고객의 구매 패턴을 보여주는 보고서입니다. | [방문자 프로필](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-profile.html) |
+| 방문자 유지 | 사이트로 돌아오는 방문자의 수와 돌아오는 빈도와 같은, 고객 충성도에 대한 정보를 표시합니다. | [방문자 유지](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
+| 프로젝트 링크, 공유 및 예약 | Analytics 인터페이스에서 작업을 저장하거나 다른 사람과 공유하는 방법입니다. | [파일 보내기 및 예약](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
+
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
 | 지표 이름 | 정의 | 설명서 링크 |
 |---|---|---|
-| 전체 지표 목록 | Adobe Analytics에 있는 모든 지표의 정의입니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) |
-| 고유 방문자 수 | 지정된 기간 동안 복제되지 않는 웹 사이트 방문자의 수입니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_unique_visitors.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_unique_visitors.html) |
-| 방문 횟수 | 중단 없는 일련의 페이지 보기입니다. 방문은 사람이 먼저 사이트에서 페이지를 볼 때 시작되고 활동이 없는 상태로 30분이 경과하면 끝납니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_visit.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) |
-| 페이지 보기 횟수 | 방문자가 웹 사이트의 페이지를 보면 페이지 보기가 발생합니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_page_view.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_page_view.html) |
-| 인스턴스 | 변수가 정의된 횟수입니다. Adobe Analytics에서 변수 내 값을 볼 때마다 해당의 각 보고서에서 인스턴스가 하나씩 증가합니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_instance.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_instance.html) |
-| 계산된 지표 | 기존 지표에서 생성할 수 있는 사용자 지정 지표입니다. 예를 들어, 매출과 방문 수가 있을 경우, 방문당 평균 매출이나, 방문 수로 나눈 매출(매출/방문 수)에 대한 사용자 지정 지표를 생성할 수 있습니다. | [https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) |
+| 전체 지표 목록 | Adobe Analytics에 있는 모든 지표의 정의입니다. | [지표 개요](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
+| 고유 방문자 수 | 지정된 기간 동안 복제되지 않는 웹 사이트 방문자의 수입니다. | [고유 방문자 수](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html) |
+| 방문 횟수 | 중단 없는 일련의 페이지 보기입니다. 방문은 사람이 먼저 사이트에서 페이지를 볼 때 시작되고 활동이 없는 상태로 30분이 경과하면 끝납니다. | [방문 횟수](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) |
+| 페이지 보기 횟수 | 방문자가 웹 사이트의 페이지를 보면 페이지 보기가 발생합니다. | [페이지 보기 횟수](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html) |
+| 인스턴스 | 변수가 정의된 횟수입니다. Adobe Analytics에서 변수 내 값을 볼 때마다 해당의 각 보고서에서 인스턴스가 하나씩 증가합니다. | [인스턴스](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-instance.html) |
+| 발생 | 변수가 정의되거나 지속된 횟수입니다. | [발생](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html) |
 
 ## 가져오기 옵션 {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
 | 옵션 | 설명 | 설명서 링크 |
 |---|---|---|
-| 분류 가져오기 | 브라우저나 FTP 업로드를 통해 캡처된 차원을 기준으로 메타데이터를 가져오십시오. 규칙 빌더와 비교되는 수동 방식입니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
-| 규칙 빌더 | 사용자 정의된 규칙을 기반으로 차원의 메타데이터 분류를 자동으로 생성합니다. | [https://marketing.adobe.com/resources/help/ko_KR/reference/classification_rule_builder.html](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
-| 데이터 소스 | 오프라인 지표를 차원을 기준으로 하거나 일별로 Analytics에 가져옵니다. | [https://marketing.adobe.com/resources/help/ko_KR/sc/datasources/datasrc_home.html](https://marketing.adobe.com/resources/help/en_US/sc/datasources/datasrc_home.html) |
-| Data Connectors | [제품](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B)을 참조하십시오. |  |
+| 분류 가져오기 | 브라우저나 FTP 업로드를 통해 캡처된 차원을 기준으로 메타데이터를 가져오십시오. 규칙 빌더와 비교되는 수동 방식입니다. | [분류 가져오기](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
+| 규칙 빌더 | 사용자 정의된 규칙을 기반으로 차원의 메타데이터 분류를 자동으로 생성합니다. | [분류 규칙 빌더](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
+| 고객 속성 | Adobe Analytics 및 Adobe Target에서 사용하기 위해 Experience Cloud에 업로드된 CRM 데이터. | [고객 속성](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
+| 데이터 소스 | 차원 또는 일별로 Analytics에 대한 오프라인 지표 또는 분석 | [데이터 소스](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
+| Adobe Exchange 데이터 커넥터 | [Adobe Analytics 도구를 참조하십시오](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| 기본 통합 | 고객 분석 및 광고 분석 | " 주요 보고서 "섹션을 참조하십시오. |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
+| 옵션 | 설명 |  |
+|--- |--- |--- |
+| UI 다운로드 및 일정 관리 | 분석 작업 공간에서 CSV 또는 PDF로 데이터 내보내기 | [PDF 또는 CSV 파일 다운로드](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Report Builder | 분석 도구를 참조하십시오. | - |
+| Analytics API | 사용자만의 Analytics 데이터에 대해 사용자 지정된 쿼리를 생성합니다. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
+| Data Warehouse | 분석 도구를 참조하십시오. | - |
+| Analytics 데이터 피드 | Analytics 외부에서 데이터를 얻는 가장 세분화된 방식입니다. Analytics 외부에서 히트 수준 피드를 설정합니다. | [Analytics 데이터 피드](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html) |
 
-<table id="table_99867D82082D4756872FC3ABD83A33A1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 옵션 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-   <th colname="col3" class="entry"> </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 인터페이스 보고서 다운로드 </td> 
-   <td colname="col2"> Analytics에서 데이터를 내보내는 가장 간단한 방법입니다. </td> 
-   <td colname="col3">https://microsite.omniture.com/t2/help/ko_KR/survey/index.html#Downloading_a_Report_Using_ <p>Basic_Options </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Warehouse </td> 
-   <td colname="col2"><a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local">제품</a>을 참조하십시오. </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report Builder </td> 
-   <td colname="col2"><a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local">제품</a>을 참조하십시오. </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Analytics API </td> 
-   <td colname="col2"> 사용자만의 Analytics 데이터에 대해 사용자 지정된 쿼리를 생성합니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/developer/documentation" format="https" scope="external"> https://marketing.adobe.com/developer/documentation</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 클릭스트림 데이터 피드 </td> 
-   <td colname="col2"> Analytics 외부에서 데이터를 얻는 가장 세분화된 방식입니다. Analytics 외부에서 히트 수준 피드를 설정합니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html" format="https" scope="external">https://marketing.adobe.com/resources/help/ko_KR/sc/clickstream/datafeeds_reference.html</a>에 추가했습니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 예약 데이터 </td> 
-   <td colname="col2"> 대부분의 Adobe Analytics 내보내기 옵션에는 데이터 및 보고를 이메일이나 FTP 사이트로 전송하는 일정을 예약할 수 있도록 해주는 기능이 있습니다. </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
 
-<table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 방법/리소스 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-   <th colname="col3" class="entry"> 설명서 링크 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 개발자 리소스 </td> 
-   <td colname="col2"> 모든 사용 가능한 플랫폼(웹, 모바일 앱, 동영상, 플래시 등)에 걸쳐서 Analytics 데이터를 수집하는 데 사용할 수 있는 라이브러리에 대해 대략적으로 설명하는 설명서입니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/developer.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 구현 안내서 </td> 
-   <td colname="col2"> 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/sc/implement/index.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> App Measurement(s_code) </td> 
-   <td colname="col2"> 전역 변수 관리 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html#" format="html" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/sc/implement/appmeasure_mjs.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 앱 SDK </td> 
-   <td colname="col2"> 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. </td> 
-   <td colname="col3">iOS: <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=requirements" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/?f=requirements</a> </p> <p>Android: </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/mobile/android/requirements.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Dynamic Tag Management (DTM) </td> 
-   <td colname="col2"><a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local">제품</a>을 참조하십시오. </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> VISTA </td> 
-   <td colname="col2"> 보고서 변수를 채우는 서버측 접근 방식입니다. VISTA는 방문자 세그멘테이션 규칙을 사용하여 모든 온라인 데이터의 실시간 세그멘테이션을 생성합니다. 이러한 규칙을 사용하면 사이트에 복잡한 논리를 구현하지 않고도 원하는 방법대로 거의 제한 없이 데이터를 수정 또는 세그먼트화할 수 있습니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/VISTA.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 처리 규칙 </td> 
-   <td colname="col2"> 관리 도구 섹션을 통해 보고 기능으로 전송되어 데이터 수집을 단순화하고 컨텐츠를 관리하는 방식입니다. 처리 규칙은 다음에 대한 인터페이스를 제공하여 변수를 설정, 수정 및 복사함으로써 IT 그룹 및 웹 개발자와의 상호 작용을 단순화하는 데 도움이 됩니다. </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/processing_rules.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 디버거 옵션 </td> 
-   <td colname="col2"> 구현의 유효성을 확인하는 데 도움이 될 수 있는 디버거 및 패킷 스니퍼에는 몇 가지가 있습니다. Adobe에서 선호하는 디버거는 Charles입니다. 기타 디버거로는 Adobe Debugger, HTTPFox, Firebug, Omnibug, Fiddler 및 HTTPWatch가 있습니다. </td> 
-   <td colname="col3">Adobe Debugger: <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger.html</a> </p> <p>Charles: </p> <p><a href="https://www.charlesproxy.com/" format="http" scope="external"> https://www.charlesproxy.com/</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 방법/리소스 | 설명 | 설명서 링크 |
+|--- |--- |--- |
+| 개발자 리소스 | 모든 사용 가능한 플랫폼(웹, 모바일 앱, 동영상, 플래시 등)에 걸쳐서 Analytics 데이터를 수집하는 데 사용할 수 있는 라이브러리에 대해 대략적으로 설명하는 설명서입니다. | [개발자 문서](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](https://docs.adobe.com/content/help/en/analytics/implementation/home.html) |
+| App Measurement(s_code) | 전역 변수 관리 | [AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
+| 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
+| DTM 및 Adobe Launch | 분석 도구를 참조하십시오. |  |
+| VISTA | 데이터를 수집하면서 데이터를 변경하거나 세그먼트화하는 서버측 로직을 적용할 수 있습니다. | [VISTA 규칙](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) |
+| 처리 규칙 | 수집된 데이터를 수정하기 위해 Analytics UI에서 변수를 설정, 수정 및 복사하는 기능. | [처리 규칙](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
+| 디버거 옵션 | Adobe Experience Cloud 디버거를 포함하여 구현을 확인하는 데 도움이 되는 디버거 및 패킷 스니퍼를 몇 개 사용할 수 있습니다. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
+| 데이터 삽입 API | 데이터 삽입 API는 서버측 데이터 수집 및 Experience Cloud 서버에 제출하기 위한 메커니즘을 제공합니다. 서버측 데이터 수집은 각 웹 페이지에서 JavaScript 비콘을 사용하여 방문자 데이터를 Experience Cloud 서버로 전송하는 대신 웹 브라우저 요청과 웹 서버 응답을 기반으로 데이터를 수집합니다. | [POST를 사용한 Adobe Analytics 데이터 삽입 API 구현 단계](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
