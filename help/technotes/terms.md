@@ -2,7 +2,7 @@
 title: Adobe Analytics에서 사용되는 용어
 description: Adobe Analytics에 대한 용어집을 참조하십시오.
 translation-type: tm+mt
-source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
+source-git-commit: a11a31d49dcfc3202f963ce25fbccd82ce8988f9
 
 ---
 
@@ -34,6 +34,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **클릭스트림 데이터 피드:** 데이터 피드를 참조하십시오.
 * **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. See [What is Cohort Analysis?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 를 참조하십시오.
 * **컬렉션 서버:** 데이터 수집 서버를 참조하십시오.
+* **컨텍스트 데이터 변수:** 처리 규칙에서만 사용되는 임시 변수. 처리 규칙이 전환 또는 트래픽 변수에 복사하지 않으면 컨텍스트 데이터 변수 값이 영구적으로 손실됩니다. 구현 구현 안내서에서 [컨텍스트 데이터 변수를](../implement/js-implementation/c-variables/context-data-variables.md) 참조하십시오.
 * **전환 변수:** 동등하게 Evar로 알려져 있습니다. 사용자 지정 값을 저장하고 값이 만료될 때까지 변수 값을 유지합니다. See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **상관 관계:** 더 이상 용어로 사용되지 않습니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 사용자 [분석 안내서에서 차원](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 분류를 참조하십시오.
 * **현재 데이터:** 아직 처리되지 않은 최근 수집된 데이터를 포함하도록 허용하는 일부 보고서의 옵션. 분석 사용 안내서에서 [현재 데이터를](../analyze/reports-analytics/current-data.md) 참조하십시오.
@@ -97,6 +98,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **서버 호출:** 대개 과금 컨텍스트에 사용되는 이미지 요청이나 히트의 대체 이름입니다.
 * **단일 액세스:** 하나의 고유 값만 차원에 있는 방문. 고유 값이 여러 개 없는 경우 방문에 여러 개의 히트가 있을 수 있습니다. 구성 요소 사용자 안내서의 [단일 액세스를](../components/c-variables/c-metrics/metrics-single-access.md) 참조하십시오. 바운스도 참조하십시오.
 * **Sitecatalyst:** 더 이상 용어로 사용되지 않습니다. Adobe Analytics의 이전 제품 이름입니다.
+* **솔루션 디자인 문서:** 솔루션 디자인 참조 또는 SDR 이라고도 합니다. 사용자 지정 변수가 사용되는 방식을 대략적으로 설명하는 조직에서 유지 관리하는 내부 문서와 이들을 채우는 데 사용되는 논리입니다. 구현 [구현 안내서에서 솔루션 디자인 문서](../implement/prepare/solution-design.md) 만들기를 참조하십시오.
 * **하위 관계:** 더 이상 용어로 사용되지 않습니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 하위 관계는 전환 변수를 분류하는 기능을 부여했습니다. 사용자 [분석 안내서에서 차원](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 분류를 참조하십시오.
 * **성공 이벤트:** 사용자가 수행한 추적된 작업입니다. 조직은 추적할 이벤트를 결정하고 추적하는 데 사용하는 성공 이벤트 변수를 결정합니다. 구성 요소 사용자 안내서의 사용자 [지정 이벤트를](../components/c-variables/c-metrics/metrics-custom.md) 참조하십시오.
 * **지원되는 사용자:** 고객 지원 담당자를 참조하십시오.
