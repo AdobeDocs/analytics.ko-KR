@@ -13,7 +13,7 @@ source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
 ---
 
 
-#  통합 구성{#configure-the-integration}
+# 통합 구성{#configure-the-integration}
 
 데이터 커넥터 통합 마법사는 데이터 커넥터 통합 프로세스를 단계별로 안내합니다.
 
