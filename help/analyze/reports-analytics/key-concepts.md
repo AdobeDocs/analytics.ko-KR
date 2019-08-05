@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - 주요 개념
 title: Adobe Analytics - 주요 개념
 uuid: EF 5701 C 5-2 D 3 E -4847-851 F -9312 D 55 DB 1 A 8
 translation-type: tm+mt
-source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
+source-git-commit: 998699eb14d40b955cb6ae73ecf1940c8aed15ab
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | 시각화 | 프로젝트에서 데이터를 생동감 있게 표현할 수 있는 풍부한 시각적 요소 | [시각화](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | 조정 | 프로젝트 또는 가상 보고서 세트에서 액세스할 수 있는 구성 요소를 제한하는 기능. | [VRS curationproject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[curationcomparison](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## 주요 보고서
 
 | 보고서 | 설명 | 설명서 링크 |
 |--- |--- |--- |
@@ -55,20 +55,19 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | Advertising Analytics | Adobe Analytics 내에서 모든 Google 및 Bing 유료 검색 데이터를 나란히 분석할 수 있습니다. 통합을 통해 생성된 차원에는 광고 플랫폼, 키워드, 일치 유형 등이 포함됩니다. 작성된 지표는 AMO 노출 횟수, AMO 클릭 수, AMO 비용, 평균 위치 및 평균 품질 점수. | [Advertising Analytics](https://docs.adobe.com/help/en/analytics/integration/advertising-analytics/overview.html) |
 | Audience Analytics | AAM에서 사용자의 고객 멤버십으로 인바운드 분석 히트 수 향상 인구 통계 정보 (예: 성별 또는 수입 수준), 사이코그래픽 정보 (예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터 등의 AAM 대상 데이터를 Analytics 워크플로우에 통합할 수 있습니다. 이 통합을 통해 만들어진 차원은 대상 ID와 대상 이름입니다. | [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | 속성 IQ | 고객 여정 전반에 걸쳐 의미 있는 참여가 발생하는 방식을 파악하고 고객의 타깃팅 결과로 이어지는 변곡점을 지능적으로 식별하며 마케팅 이니셔티브를 효과적으로 최적화할 수 있습니다. 모델은 첫 번째, 마지막, 선형, 기여도, J 모양, 역 J 모양, U 모양, 동일한 터치, 사용자 정의 및 시간 감소를 포함합니다. | [속성 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) |
-| 예외 항목 탐지 | 이전 데이터에 관해 주어진 지표가 변경된 방법을 결정하는 통계적 방법입니다. 분석 작업 공간의 모든 트렌드 시각화에 대해 기본적으로 광고가 켜져 있습니다. | [예외 검색](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 예외 항목 탐지 | 이전 데이터에 관해 주어진 지표가 변경된 방법을 결정하는 통계적 방법입니다. 분석 작업 공간의 모든 트렌드 시각화에 대해 기본적으로 광고가 켜져 있습니다. | [예외 항목 탐지](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | 기여도 분석 | 액세스할 수 있는 모든 단일 지표와 차원에 대한 자동화된 분석을 실행하여 발생하는 예외 항목의 "이유" 를 탐색합니다. | [기여도 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | 집단 분석 | 집단은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 사용자의 보유 및 이탈 분석 시 집단 분석 보좌관. | [집단 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) |
 | 고객 경로 보고서 | 사용자가 사이트 또는 앱을 통해 사용하는 경로에 대한 정보를 표시합니다. prop, evar 및 이벤트는 분석 작업 공간의 이 분석에서 사용할 수 있습니다. | [분석 작업 공간 폴아웃 분석](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[작업 공간 폴보고](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[및 분석 경로 지정](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
 | 마케팅 채널 | 사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. 이것은 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다(캠페인이나 트래픽 소스보다 선호됨). | [마케팅 채널](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
 | 모바일 | 모바일 장치나 태블릿에서 액세스한 웹 사이트에 대한 정보를 표시합니다. | [모바일 보고서 | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
-| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  Access the interface [here](https://mobilemarketing.adobe.com). | [Adobe Mobile 서비스](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 제품 | 개별 제품 및 제품 그룹(카테고리)이 매출액 또는 체크아웃 횟수와 같은 다양한 전환 지표에 기여하는 정도를 알 수 있습니다. | [제품 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  여기에서 인터페이스에 [](https://mobilemarketing.adobe.com)액세스하십시오. | [Adobe Mobile 서비스](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 제품 | 개별 제품 및 제품 그룹(카테고리)이 매출액 또는 체크아웃 횟수와 같은 다양한 전환 지표에 기여하는 정도를 알 수 있습니다. | [제품 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
 | 세그먼트 비교 | 액세스 권한이 있는 모든 지표와 차원에 대한 자동화된 분석을 통해 세그먼트 간에 통계적으로 가장 중요한 차이점을 검색합니다. | [세그먼트 비교](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
 | 사이트 컨텐츠 보고서 | 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다. | [사이트 컨텐츠 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
 | 사이트 지표 보고서 | 고유 방문자, 주문, 매출 등과 같은 웹 사이트에 대한 정량적 정보를 표시합니다. 각 지표는 항목 기반의 다른 보고서에서 대체될 수 있습니다. | [사이트 지표 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
 | 방문자 프로필 | 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 프로필 범주에 속하는 고객의 구매 패턴을 보여주는 보고서입니다. | [방문자 프로필](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-profile.html) |
 | 방문자 유지 | 사이트로 돌아오는 방문자의 수와 돌아오는 빈도와 같은, 고객 충성도에 대한 정보를 표시합니다. | [방문자 유지](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
 | 프로젝트 링크, 공유 및 예약 | Analytics 인터페이스에서 작업을 저장하거나 다른 사람과 공유하는 방법입니다. | [파일 보내기 및 예약](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
-
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
@@ -88,18 +87,18 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | 분류 가져오기 | 브라우저나 FTP 업로드를 통해 캡처된 차원을 기준으로 메타데이터를 가져오십시오. 규칙 빌더와 비교되는 수동 방식입니다. | [분류 가져오기](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
 | 규칙 빌더 | 사용자 정의된 규칙을 기반으로 차원의 메타데이터 분류를 자동으로 생성합니다. | [분류 규칙 빌더](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
 | 고객 속성 | Adobe Analytics 및 Adobe Target에서 사용하기 위해 Experience Cloud에 업로드된 CRM 데이터. | [고객 속성](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
-| 데이터 소스 | 차원 또는 일별로 Analytics에 대한 오프라인 지표 또는 분석 | [데이터 소스](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
+| Data Sources | 차원 또는 일별로 Analytics에 대한 오프라인 지표 또는 분석 | [Data Sources](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
 | Adobe Exchange 데이터 커넥터 | [Adobe Analytics 도구를 참조하십시오](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
 | 기본 통합 | 고객 분석 및 광고 분석 | " 주요 보고서 "섹션을 참조하십시오. |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-| 옵션 | 설명 |  |
-|--- |--- |--- |
-| UI 다운로드 및 일정 관리 | 분석 작업 공간에서 CSV 또는 PDF로 데이터 내보내기 | [PDF 또는 CSV 파일 다운로드](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
-| Report Builder | 분석 도구를 참조하십시오. | - |
+| 옵션 | 설명 | 설명서 링크 |
+|---|---|---|
+| UI 다운로드 및 일정 관리 | 분석 작업 공간에서 CSV 또는 PDF로 데이터 내보내기 | [PDF 또는 CSV 파일 다운로드](/help/analyze/analysis-workspace/curate-share/download-send.md) |
+| Report Builder | 분석 도구를 참조하십시오. |
 | Analytics API | 사용자만의 Analytics 데이터에 대해 사용자 지정된 쿼리를 생성합니다. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| Data Warehouse | 분석 도구를 참조하십시오. | - |
+| Data Warehouse | 분석 도구를 참조하십시오. |  |
 | Analytics 데이터 피드 | Analytics 외부에서 데이터를 얻는 가장 세분화된 방식입니다. Analytics 외부에서 히트 수준 피드를 설정합니다. | [Analytics 데이터 피드](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html) |
 
 
