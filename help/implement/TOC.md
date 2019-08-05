@@ -1,9 +1,9 @@
 ---
-product: analytics
+product: Analytics
 audience: 최종 사용자
 user-guide-title: Analytics 구현 안내서
-user-guide-url: /content/help/en/analytics/implementation/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/ko-KR/analytics/implementation/home.html
+translation-type: ht
 source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 ---
@@ -12,8 +12,8 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 # Analytics 구현 안내서 {#implementation}
 
 + [Analytics 구현 도움말](home.md)
-+ AppMeasurement Release Notes {#appmeasurement-release-notes}
-   + [Appmeasurement 릴리스 노트](appmeasurement-release-notes/appmeasurement-release-notes.md)
++ AppMeasurement 릴리스 정보 {#appmeasurement-release-notes}
+   + [AppMeasurement 릴리스 정보](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [JavaScript용 AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [JavaScript H 코드- 이전](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
@@ -31,13 +31,13 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [PHP](appmeasurement-release-notes/c-release-notes-php.md)
 + Analytics 구현 {#analytics-implementation}
    + [구현 로드맵](c-implementation/implementation.md)
-   + [인기 있는 구현 링크](c-implementation/popular-implementation-links.md)
+   + [많이 사용하는 구현 링크](c-implementation/popular-implementation-links.md)
    + [릴리스 노트](c-implementation/rn.md)
 + Analytics 기본 사항 {#analytics-basics}
    + [경고](analytics-terminology-basics/ref-alerts.md)
    + [Analytics 코드](analytics-terminology-basics/ref-analytics-code.md)
    + [분류](analytics-terminology-basics/ref-classifications.md)
-   + [전환 변수 (Evar)](analytics-terminology-basics/ref-conversion-variables-evar.md)
+   + [전환 변수(eVar)](analytics-terminology-basics/ref-conversion-variables-evar.md)
    + [데이터 수집](analytics-terminology-basics/data-collection-overview.md)
    + [코드 관리자](analytics-terminology-basics/code-manager.md)
    + [데이터 레이어](analytics-terminology-basics/ref-data-layer.md)
@@ -47,39 +47,39 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [처리 규칙](analytics-terminology-basics/ref-processing-rules.md)
    + [보고서 및 보고서 세트](analytics-terminology-basics/ref-reports-report-suites.md)
    + [세그먼트](analytics-terminology-basics/ref-segments.md)
-   + Traffic props and conversion eVars {#traffic-props-evars}
-      + [Prop 및 evar 개요](analytics-terminology-basics/c-props-evars/props-evars.md)
+   + 트래픽 prop 및 전환 eVar {#traffic-props-evars}
+      + [prop 및 eVar 개요](analytics-terminology-basics/c-props-evars/props-evars.md)
       + [Prop과 eVar 비교](analytics-terminology-basics/c-props-evars/props-vs-evars.md)
-      + [prop를 카운터로 사용](analytics-terminology-basics/c-props-evars/props-counter.md)
-      + [컨텐츠 계층 계산](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
-      + [사전 정의된 이벤트란 무엇입니까?](analytics-terminology-basics/c-props-evars/event-predefined.md)
+      + [prop을 카운터로 사용](analytics-terminology-basics/c-props-evars/props-counter.md)
+      + [콘텐츠 계층 계산](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
+      + [사전 정의된 이벤트란?](analytics-terminology-basics/c-props-evars/event-predefined.md)
       + [자세한 제품 보기 페이지](analytics-terminology-basics/c-props-evars/prodview-page.md)
-      + [사용자 지정 이벤트란 무엇입니까?](analytics-terminology-basics/c-props-evars/event-custom.md)
+      + [사용자 지정 이벤트란?](analytics-terminology-basics/c-props-evars/event-custom.md)
       + [해시 충돌](analytics-terminology-basics/c-props-evars/hash-collisions.md)
 + [Analytics 구현에 대한 FAQ](faq.md)
-+ Prepare to implement {#prepare}
++ 구현 준비 {#prepare}
    + [솔루션 디자인 문서 만들기](prepare/solution-design.md)
-   + [데이터 레이어 만들기](prepare/data-layer.md)
-   + [구현 메서드 선택](c-implementation-methods/choose-implementation-method.md)
+   + [데이터 계층 만들기](prepare/data-layer.md)
+   + [구현 방법 선택](c-implementation-methods/choose-implementation-method.md)
 + [Analytics 구현 시작하기](c-get-started-implementation/t-analytics-implementation-get-started.md)
-+ Implement Analytics with Adobe Experience Platform Launch {#implement-with-launch}
++ Adobe Experience Platform Launch를 사용하여 Analytics 구현 {#implement-with-launch}
    + [Experience Platform Launch에서 Analytics 속성 만들기](implement-with-launch/create-analytics-property.md)
    + [개발 환경에 구현 배포](implement-with-launch/deploy-dev.md)
    + [개발 구현 유효성 검사 및 프로덕션에 게시](implement-with-launch/validate-publish-prod.md)
-+ Implement Analytics with DTM {#implement-analytics-with-dtm}
-   + [다이내믹 태그 관리 구현 개요](c-implement-with-dtm/dtm-implementation-overview.md)
++ DTM을 사용하여 Analytics 구현 {#implement-analytics-with-dtm}
+   + [Dynamic Tag Management 구현 개요](c-implement-with-dtm/dtm-implementation-overview.md)
    + [웹 속성 만들기](c-implement-with-dtm/t-create-web-property.md)
    + [호스팅 옵션 구성](c-implement-with-dtm/t-configure-hosting.md)
-   + Headers and footers {#headers-footers}
+   + 머리글 및 바닥글 {#headers-footers}
       + [머리글 및 바닥글 코드 추가](c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)
       + [머리글 및 바닥글 코드 확인](c-implement-with-dtm/c-headers-footers/t-verify-header-footer.md)
-   + Adobe Analytics tool {#analytics-tool}
+   + Adobe Analytics 도구 {#analytics-tool}
       + [Adobe Analytics 도구 추가](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
       + [일반](c-implement-with-dtm/c-aa-tool/general-settings-analytics.md)
       + [라이브러리 관리](c-implement-with-dtm/c-aa-tool/library-management.md)
       + [핵심 AppMeasurement 코드 삽입](c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md)
       + [전역 변수](c-implement-with-dtm/c-aa-tool/global-variables.md)
-      + [페이지 뷰 및 컨텐츠](c-implement-with-dtm/c-aa-tool/pageviews-content.md)
+      + [페이지 보기 및 콘텐츠](c-implement-with-dtm/c-aa-tool/pageviews-content.md)
       + [링크 추적](c-implement-with-dtm/c-aa-tool/link-tracking.md)
       + [레퍼러 및 캠페인](c-implement-with-dtm/c-aa-tool/referrers-campaigns.md)
       + [쿠키](c-implement-with-dtm/c-aa-tool/cookies-analytics.md)
@@ -91,7 +91,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [새 규칙 만들기](c-implement-with-dtm/c-rules/t-rules-create.md)
       + [이벤트 기반 규칙 조건 만들기](c-implement-with-dtm/c-rules/t-rules-event-conditions.md)
       + [페이지 로드 규칙 조건 만들기](c-implement-with-dtm/c-rules/t-rules-page-conditions.md)
-      + [직접 호출 규칙 조건을 만듭니다](c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)
+      + [직접 호출 규칙 조건 만들기](c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)
       + [조건이 트리거되는 작업 설정](c-implement-with-dtm/c-rules/t-rules-actions.md)
       + [Akamai 호스팅을 위한 게시되지 않은 규칙 테스트](c-implement-with-dtm/c-rules/t-test-rules-akamai.md)
       + [라이브러리 다운로드 또는 FTP에 대한 규칙 테스트](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
@@ -99,12 +99,12 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [JavaScript 구현 개요](js-implementation/javascript-implementation-overview.md)
    + [페이지 코드 및 글로벌 구성 예](js-implementation/appmeasure-mjs-pagecode.md)
    + JavaScript용 AppMeasurement {#appmeasurement-js}
-      + [AppMeasurement for JavaScript 정보](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
+      + [JavaScript용 AppMeasurement 정보](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
       + [JavaScript용 AppMeasurement로의 마이그레이션](js-implementation/c-appmeasurement-js/appmeasure-mjs-migrate.md)
-      + [Appmeasurement 플러그인 지원](js-implementation/c-appmeasurement-js/plugins-support.md)
+      + [AppMeasurement 플러그인 지원](js-implementation/c-appmeasurement-js/plugins-support.md)
    + [가속 모바일 페이지](js-implementation/accelerated-mobile-pages.md)
    + [Facebook 인스턴트 아티클](js-implementation/analytics-facebook-instant-articles.md)
-   + Additional web and mobile measurement libraries {#additional-libraries}
+   + 추가적인 웹 및 모바일 측정 라이브러리 {#additional-libraries}
       + [추가 라이브러리 개요](js-implementation/c-additional-libraries/libraries.md)
       + [HTML 이미지 태그를 사용하여 Analytics 구현](js-implementation/c-additional-libraries/implscwojs.md)
       + [JavaScript 지침 없이 구현](js-implementation/c-additional-libraries/otherreq.md)
@@ -112,16 +112,16 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [모바일 네트워크 프로토콜](js-implementation/c-additional-libraries/network-protocols.md)
       + [모바일 프로토콜 네트워크 게이트웨이](js-implementation/c-additional-libraries/how-beacon-reaches-adobe.md)
       + [모바일 프로토콜에 대한 페이지 태깅](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
-      + [모바일 프로토콜을 사용하는 장치에 대한 보고서](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
+      + [모바일 프로토콜을 사용한 장치 보고서](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
       + [모바일 프로토콜에서의 사용자 지정 링크 측정](js-implementation/c-additional-libraries/mobile-link-tracking.md)
-   + Variables for Analytics implementation and reporting {#variables-analytics-reporting}
+   + Analytics 구현 및 보고용 변수 {#variables-analytics-reporting}
       + [변수 개요](js-implementation/c-variables/sc-variables.md)
       + [구성 변수](js-implementation/c-variables/configuration-variables.md)
       + [컨텍스트 데이터 변수](js-implementation/c-variables/context-data-variables.md)
-      + [동적 변수](js-implementation/c-variables/dynvars-overview.md)
+      + [다이내믹 변수](js-implementation/c-variables/dynvars-overview.md)
       + [페이지 변수](js-implementation/c-variables/page-variables.md)
-      + [추가 Evar 및 이벤트](js-implementation/c-variables/evars-events.md)
-      + [변수 및 제한 사항](js-implementation/c-variables/vars-limitiations.md)
+      + [추가 eVar 및 이벤트](js-implementation/c-variables/evars-events.md)
+      + [변수와 제한 사항](js-implementation/c-variables/vars-limitiations.md)
       + [잘못된 JavaScript 문자](js-implementation/c-variables/vars-restrictions.md)
    + [s.t() 함수 - 페이지 추적](js-implementation/function-t.md)
    + [s.tl() 함수 - 링크 추적](js-implementation/function-tl.md)
@@ -132,24 +132,24 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Util.cookieWrite](js-implementation/util-cookiewrite.md)
    + [Util.getQueryParam](js-implementation/util-getqueryparam.md)
    + [오프라인 추적](js-implementation/offline-tracking.md)
-   + Data collection {#data-collection}
+   + 데이터 수집 {#data-collection}
       + [데이터 수집 쿼리 매개 변수](js-implementation/data-collection/query-parameters.md)
       + [데이터 수집 HTTP 헤더](js-implementation/data-collection/http-headers.md)
       + [변수 무시](js-implementation/data-collection/var-overrides.md)
-      + [보고서 세트 ID - 동적 계정](js-implementation/data-collection/dynamic-accounts.md)
+      + [보고서 세트 ID - 다이내믹 계정](js-implementation/data-collection/dynamic-accounts.md)
       + [일반적인 오류](js-implementation/data-collection/common-errors.md)
       + [양식 요소에서 데이터 수집](js-implementation/data-collection/data-elements.md)
       + [다양한 구현 유형 추적](js-implementation/data-collection/impl-tupes.md)
-      + [구현 지침](js-implementation/data-collection/impl-guideliens.md)
+      + [구현 안내서](js-implementation/data-collection/impl-guideliens.md)
       + [구현 예](js-implementation/data-collection/impl-examples.md)
       + [AJAX-Track 리치 미디어 애플리케이션](js-implementation/data-collection/impl-media-ajax.md)
-      + [AJAX로 구현](js-implementation/data-collection/impl-ajax.md)
+      + [AJAX를 사용하여 구현](js-implementation/data-collection/impl-ajax.md)
       + [외부 이메일 추적](js-implementation/data-collection/email-external.md)
       + [Adobe 옵트아웃 구현](js-implementation/data-collection/opt-out.md)
       + [옵트아웃 링크 추가](js-implementation/data-collection/opt-out-link.md)
-   + Implementation plug-ins {#plugins}
+   + 구현 플러그인 {#plugins}
       + [구현 플러그인 사용](js-implementation/plugins/impl-plugins.md)
-      + [Doplugins 함수로 플러그인 호출](js-implementation/plugins/plugins-calling.md)
+      + [doPlugins 함수를 사용하여 플러그인 호출](js-implementation/plugins/plugins-calling.md)
       + [s.abort flag](js-implementation/plugins/abort.md)
       + [appendList](js-implementation/plugins/appendlist.md)
       + [doPlugins 함수](js-implementation/plugins/function-doplugins.md)
@@ -166,77 +166,77 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [getVisitNum](js-implementation/plugins/getvisitnum.md)
       + [getVisitStart](js-implementation/plugins/getvisitstart.md)
       + [hitGovernor](js-implementation/plugins/hitgovernor.md)
-      + [통합 모듈](js-implementation/plugins/integrate.md)
+      + [모듈 통합](js-implementation/plugins/integrate.md)
       + [내부 트래픽](js-implementation/plugins/internal-traffic.md)
       + [performanceTiming](js-implementation/plugins/performancetiming.md)
       + [trackTNT](js-implementation/plugins/tracktnt.md)
    + 경로 지정 {#pathing}
       + [경로 지정 개요](js-implementation/c-pathing/pathing.md)
-      + [Prop에 대한 경로 지정 활성화](js-implementation/c-pathing/pathing-prop.md)
-      + [캠페인 또는 추적 코드별 경로 지정](js-implementation/c-pathing/pathing-campaign.md)
-      + [경로 지정이 기록되지 않는 이유](js-implementation/c-pathing/pathing-troubleshooting.md)
+      + [prop에 대한 경로 지정 활성화](js-implementation/c-pathing/pathing-prop.md)
+      + [캠페인 또는 추적 코드에 의한 경로 지정](js-implementation/c-pathing/pathing-campaign.md)
+      + [경로 지정이 기록되지 않을 수 있는 원인](js-implementation/c-pathing/pathing-troubleshooting.md)
       + [섹션에서 섹션으로 이동](js-implementation/c-pathing/pathing-section.md)
       + [페이지 템플릿에서 페이지 템플릿으로 이동](js-implementation/c-pathing/pathing-pagetempalte.md)
-      + [사용자 유형별 세그먼트 경로](js-implementation/c-pathing/pathing-segments.md)
+      + [사용자 유형별 경로 세그먼트화](js-implementation/c-pathing/pathing-segments.md)
    + [구매 이벤트](js-implementation/event-purchase.md)
-   + [이벤트 정리 개요](js-implementation/event-serialization.md)
-   + Unique visitors {#unique-visitors}
-      + [고유 방문자 식별](js-implementation/c-unique-visitors/visid-overview.md)
+   + [이벤트 일련화 개요](js-implementation/event-serialization.md)
+   + 고유 방문자 수 {#unique-visitors}
+      + [고유 방문자 수 식별](js-implementation/c-unique-visitors/visid-overview.md)
       + [사용자 지정 방문자 ID](js-implementation/c-unique-visitors/visid-custom.md)
       + [ID 서비스](js-implementation/c-unique-visitors/visid-service.md)
       + [Analytics 방문자 ID](js-implementation/c-unique-visitors/visid-analytics.md)
-      + [폴백 ID 메서드](js-implementation/c-unique-visitors/visid-fallback.md)
+      + [대체 ID 방법](js-implementation/c-unique-visitors/visid-fallback.md)
       + [모바일 장치 식별](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Marketing Cloud 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
-   + Cross-device visitor identification {#cross-device-visitor-id}
+   + [Marketing Cloud 핵심 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcloud/?f=core_services)
+   + 크로스 장치 방문자 식별 {#cross-device-visitor-id}
       + [여러 장치에서 사용자 연결](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [장치 간 방문자 식별의 데이터 영향](js-implementation/xdevice-visid/xdevice-data.md)
+      + [크로스 장치 방문자 식별의 데이터 영향](js-implementation/xdevice-visid/xdevice-data.md)
       + [방문 예](js-implementation/xdevice-visid/visit-example.md)
       + [방문자 수](js-implementation/xdevice-visid/visitors.md)
       + [방문 횟수](js-implementation/xdevice-visid/visits.md)
       + [세그먼트 만들기](js-implementation/xdevice-visid/segments.md)
       + [지리 특성 데이터](js-implementation/xdevice-visid/geo-data.md)
-      + [기여도 분석 및 지속성](js-implementation/xdevice-visid/variable-persistence.md)
+      + [속성 및 지속성](js-implementation/xdevice-visid/variable-persistence.md)
    + [방문자 마이그레이션](js-implementation/visitor-migration.md)
    + [타임스탬프 옵션 사용](js-implementation/timestamps-overview.md)
    + [리디렉션 및 별칭](js-implementation/redirects-overview.md)
-+ Testing and validation {#testing-and-validation}
-   + Testing and validation process {#testing-and-validation-process}
++ 테스트 및 유효성 검사 {#testing-and-validation}
+   + 테스트 및 유효성 검사 프로세스 {#testing-and-validation-process}
       + [테스트 및 유효성 검사 개요](impl-testing/impl-validation/impl-validation.md)
-      + [디버거에서 s_ account 변수 식별](impl-testing/impl-validation/impl-testing-account.md)
+      + [디버거에서 s_account 변수 식별](impl-testing/impl-validation/impl-testing-account.md)
       + [JavaScript JS 파일](impl-testing/impl-validation/impl-js-file.md)
       + [코드 수정](impl-testing/impl-validation/impl-code-updates.md)
-      + [변수 및 값](impl-testing/impl-validation/impl-var-values.md)
-      + [사용자 지정 변수 입니다. ](impl-testing/impl-validation/impl-custom-vars.md)
+      + [변수와 값](impl-testing/impl-validation/impl-var-values.md)
+      + [사용자 지정 변수](impl-testing/impl-validation/impl-custom-vars.md)
       + [구현 수락](impl-testing/impl-validation/impl-acceptance.md)
-      + [데이터 정확도 검증](impl-testing/impl-validation/impl-data-accuracy.md)
-   + [Experience Cloud Debugger](impl-testing/debugger.md)
+      + [데이터 정확도 유효성 검사](impl-testing/impl-validation/impl-data-accuracy.md)
+   + [Experience Cloud 디버거](impl-testing/debugger.md)
    + [패킷 분석기](impl-testing/packet-monitor.md)
-   + Implementation troubleshooting {#implementation-troubleshooting}
+   + 구현 문제 해결 {#implementation-troubleshooting}
       + [일반적인 구현 실수](impl-testing/impl-troubleshooting/impl-troubleshooting.md)
       + [헤드 태그에 Analytics 코드 넣기](impl-testing/impl-troubleshooting/impl-head-tag.md)
       + [s.linkTrackVars 및 s.linkTrackEvents 사용](impl-testing/impl-troubleshooting/link-track-vars-events.md)
-      + [제품 변수의 일반적인 실수](impl-testing/impl-troubleshooting/products-troubleshooting.md)
-      + [Pagetype 변수 잘못 설정](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
-      + [변수 값에 공백 사용](impl-testing/impl-troubleshooting/impl-whitespace.md)
+      + [Products 변수에서의 일반적인 실수](impl-testing/impl-troubleshooting/products-troubleshooting.md)
+      + [잘못된 PageType 변수 설정](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
+      + [변수 값에서의 공백 사용](impl-testing/impl-troubleshooting/impl-whitespace.md)
       + [따옴표 사용](impl-testing/impl-troubleshooting/impl-quotes.md)
       + [Analytics 코드 바꾸기](impl-testing/impl-troubleshooting/impl-update-code.md)
       + [일반적인 구문 실수](impl-testing/impl-troubleshooting/impl-syntax-troubleshooting.md)
    + [취약성 스캐너](impl-testing/vulnerability-scanner.md)
-   + Optimize your implementation {#optimize-implementation}
+   + 구현 최적화 {#optimize-implementation}
       + [최적화 개요](impl-testing/c-optimize/impl-optimization.md)
       + [페이지 이름 지정](impl-testing/c-optimize/page-naming.md)
       + [페이지 이름 지정 전략](impl-testing/c-optimize/page-naming-strategies.md)
       + [변수 길이](impl-testing/c-optimize/var-length.md)
       + [HTML 코드 조각](impl-testing/c-optimize/impl-html-snippet.md)
       + [Javascript 라이브러리 파일](impl-testing/c-optimize/impl-js-library.md)
-      + [캐싱 지시문](impl-testing/c-optimize/caching-directives.md)
+      + [캐시 지시](impl-testing/c-optimize/caching-directives.md)
       + [표](impl-testing/c-optimize/tables.md)
       + [파일 압축](impl-testing/c-optimize/impl-compression.md)
       + [보안 페이지](impl-testing/c-optimize/secure-pages.md)
-      + [컨텐츠 전달 서비스/네트워크](impl-testing/c-optimize/cdn.md)
-      + [JavaScript 파일 위치 및 동의](impl-testing/c-optimize/impl-js-hosting.md)
+      + [콘텐츠 게재 서비스/네트워크](impl-testing/c-optimize/cdn.md)
+      + [JavaScript 파일 위치 및 동시 실행](impl-testing/c-optimize/impl-js-hosting.md)
       + [대등 접속](impl-testing/c-optimize/peering.md)
-   + [변수 매핑 보고서](impl-testing/report-variable-mapping.md)
+   + [보고서-변수 매핑](impl-testing/report-variable-mapping.md)
    + [변수-보고서 매핑](impl-testing/var-report-mapping.md)
-+ [Digital Assistant에 대한 분석 구현](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [Analytics for Digital Assistants 구현](c-analytics-digital-assistants/digital-assistants-white-paper.md)
