@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 애드혹 분석 개요
+seo-title: Ad Hoc Analysis 개요
 solution: Analytics
-title: 애드혹 분석 개요
+title: Ad Hoc Analysis 개요
 topic: Ad Hoc Analysis
 uuid: 49836551-9162-4 dc 4-b 1 d 4-5 c 3 d 0 f 549 dcd
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 4f79b86172219d8f28299eeb1c444045bed2c931
 
 ---
 
 
-# Ad Hoc Analysis overview{#ad-hoc-analysis-overview}
+# Ad Hoc Analysis 개요{#ad-hoc-analysis-overview}
 
 Ad Hoc Analysis은 실시간 방문자 정보를 제한 없이 활용하여 가치가 높은 고객 세그먼트를 식별할 수 있도록 돕기 때문에 데이터를 심층 분석하여 고객을 더 깊고 정확하고 종합적인 방식으로 이해할 수 있습니다.
 
@@ -21,6 +21,6 @@ Ad Hoc Analysis은 실시간 방문자 정보를 제한 없이 활용하여 가�
 
 ## 새롭고 인기 있는 주제
 
-* 이제 애드혹 분석 프로젝트를 분석 작업 공간 프로젝트로 원활하게 변환할 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/aha2aw/" format="https" scope="external">여기</a>를 클릭하여 방법을 알아보십시오.
-* <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html" format="https" scope="external">애드혹 분석 및 Analysis Workspace</a>의 섹션 확인: Analysis Workspace는 Ad Hoc Analysis 기능 대부분을 브라우저 작업 영역에 제공합니다. 두 제품의 일부 용어와 기능은 같지만, 분석에 대한 몇 가지 새로운 용어와 접근 방식이 Analysis Workspace에 도입되었습니다.
-* <a href="../../analyze/ad-hoc-analysis/c-administration.md#concept_C607CDE3472F431F8BFBA894DA6FA1FE" format="dita" scope="local"> 관리</a>: 사용자를 구성하고 데이터 샘플링에 대해 알아보십시오.
+* 이제 애드혹 분석 프로젝트를 분석 작업 공간 프로젝트로 원활하게 변환할 수 있습니다. [애드혹 분석 프로젝트 변환기 개요로](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) 이동하여 어떻게 확인하십시오!
+* [애드혹 분석 및 Analysis Workspace](/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md)의 섹션 확인: Analysis Workspace는 Ad Hoc Analysis 기능 대부분을 브라우저 작업 영역에 제공합니다. 두 제품의 일부 용어와 기능은 같지만, 분석에 대한 몇 가지 새로운 용어와 접근 방식이 Analysis Workspace에 도입되었습니다.
+* [관리](/help/analyze/ad-hoc-analysis/c-administration.md): 사용자 및 샘플 데이터를 구성하는 방법을 알아봅니다.
