@@ -1,18 +1,18 @@
 ---
 description: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터를 모두 하나의 보고서 세트에 결합하십시오.
 seo-description: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터를 모두 하나의 보고서 세트에 결합하십시오.
-seo-title: 타임스탬프 옵션
+seo-title: 타임스탬프 선택 사항
 solution: Analytics
-title: 타임스탬프 옵션
+title: 타임스탬프 선택 사항
 topic: 관리 도구
 uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 ---
 
 
-# 타임스탬프 옵션
+# 타임스탬프 선택 사항
 
 타임스탬프가 지정된 데이터와 지정되지 않은 데이터를 모두 하나의 보고서 세트에 결합하십시오.
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 타임스탬프가 지정된 데이터를 모바일 앱에서 전역 보고서 세트로 보낼 수 있습니다.
 * 새 보고서 세트를 만들지 않고도 오프라인 추적을 사용하도록 앱을 업그레이드할 수 있습니다.
 
-보고서 세트에서 타임스탬프를 사용할 때 우수 사례가 필요하면 [타임스탬프 옵션 사용](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview)을 참조하십시오.
+보고서 세트에서 타임스탬프를 사용할 때 우수 사례가 필요하면 [타임스탬프 옵션 사용](/help/implement/js-implementation/timestamps-overview.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다.
+>타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다. 즉, 방문/세션이 92 일 동안 "열려 있는 상태" 가 되는 반면 (히트 시간에서) 이전 히트 이후 30 분이 아닌 추가 히트가 있을 수 있습니다. 여러 가지 요인 (세그멘테이션, 할당, 만료 등) 이후 순서가 잘못된 "이전" 히트가 "알 수 없음" 결과를 낳게 됩니다. 이러한 히트가 보고에 포함될지 여부를 영향을 받습니다.
 
 ## 새 보고서 세트 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
