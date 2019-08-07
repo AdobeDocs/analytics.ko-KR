@@ -5,7 +5,7 @@ seo-title: 액세스 및 삭제 요청 제출
 title: 액세스 및 삭제 요청 제출
 uuid: D 006 CD 5 C-E 3 CD -4385-8683-ACAF 73 CB 681 B
 translation-type: tm+mt
-source-git-commit: 9bc170ed53f4ebbe212878f884cd77350bd1d620
+source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 9bc170ed53f4ebbe212878f884cd77350bd1d620
 
 ## 요청 제출 {#section_F70F4D91B7FF4242876338A66D2125C3}
 
-[GDPR UI 포털](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md) 또는 [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)를 통해 GDPR 액세스 및 삭제 요청을 제출할 수 있습니다.
+[GDPR UI 포털](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) 또는 [GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html)를 통해 GDPR 액세스 및 삭제 요청을 제출할 수 있습니다.
 
 >[!NOTE]
 >
