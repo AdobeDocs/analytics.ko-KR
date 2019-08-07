@@ -8,7 +8,7 @@ title: JavaScript 구현 개요
 topic: 개발자 및 구현
 uuid: bb 661 d 8 c-faf 9-4454-ac 3 c -0 c 1 a 4 c 0 a 9336
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 883eb12c6c0f9b566dd485227d19cee16d9cfadc
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 Analytics를 사용하기 시작하려면 보고에 표시할 보고서 세트로 데이터를 보내야 합니다.
 
-The easiest and recommended way to send data to [!DNL Analytics] is by using [Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md). 그러나 경우에 따라 이전 JavaScript 메서드를 사용하여 Analytics를 구현할 수 있습니다.
+The easiest and recommended way to send data to [!DNL Analytics] is by using [Launch](/help/implement/implement-with-launch/create-analytics-property.md). 그러나 경우에 따라 이전 JavaScript 메서드를 사용하여 Analytics를 구현할 수 있습니다.
 
 >[!NOTE]
 >
->이 섹션에서는 Analytics를 구현하는 기존 방법을 설명합니다. 모든 Analytics 고객은 Experience Cloud 태그를 배포하는 표준 방법인 [다이내믹 태그 관리](https://marketing.adobe.com/resources/help/en_US/dtm/)에 액세스할 수 있습니다.
+>이 섹션에서는 Analytics를 구현하는 기존 방법을 설명합니다. All Analytics customers have access to [Launch](/help/implement/implement-with-launch/create-analytics-property.md), which is the standard method to deploy Experience Cloud tags.
 
 ## 구현 절차 {#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -29,75 +29,15 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [Dy
 
 다음은 기초 Analytics 구현 단계입니다.
 
-<table id="table_1683413EA0E34DBC9291832647B68E96"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> 단계 </th> 
-   <th colname="col1" class="entry"> 작업 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
-   <td colname="col1"> 방문자 ID 서비스에서 JavaScript용 AppMeasurement를 다운로드하십시오.  </td> 
-   <td colname="col2"> <p>다운로드는 <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=code_manager_admin" format="http" scope="external">Code Manager</a>에서 제공됩니다 . </p> <p>이 다운로드 ZIP에는 여러 파일이 포함되어 있습니다. <code> AppMeasurement.js</code> 및 <code>VisitorAPI.js</code>는 Analytics를 구현할 때 관련된 파일입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
-   <td colname="col1"> ID 서비스를 설정합니다. </td> 
-   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
-    <draft-comment> 
-     <p><code>VisitorAPI.js</code>에서 파일 시작 부분에 방문자 ID 초기화 코드를 추가합니다. </p> 
-     <code class="syntax javascript">var visitor = Visitor. getinstance ("INSERT-MCORG-ID-HERE"); visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // s. trackingserver visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE" 와 동일함; //same as s. trackingserversecure/* = = do not alter anything below this line = = </code>
-      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
-      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (필수) 회사가 Adobe Experience Cloud에 대한 프로비저닝을 받으면 이 Adobe Experience Cloud 조직 ID가 관리자에게 전송됩니다. </li> 
-      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code> - (필수) Analytics 추적 서버. </li> 
-      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE"</code> - (ssl이 활성화되어 있을 경우 필수) Analytics 보안 추적 서버. </li> 
-     </ul> 
-    </draft-comment> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
-   <td colname="col1"> <code>AppMeasurement.js</code>를 업데이트합니다 . </td> 
-   <td colname="col2"> <p><a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local">AppMeasurement.js 코드 예제</a>를 복사해서 <code>AppMeasurement.js</code> 파일 앞부분에 붙여넣습니다. 최소한 다음 변수를 업데이트하십시오. </p> 
-    <ul id="ul_62FA640BD2604E589650A92158272615"> 
-     <li id="li_54E56B483B3A416EA27D7B540D60E39F"> <code> s.account="INSERT-RSID-HERE" </code> </li> 
-     <li id="li_00A958289BB045379B436F13287E03D5"> <code> s.trackingServer="INSERT-TRACKING-SERVER-HERE" </code> </li> 
-     <li id="li_C0779ADF780440ED876236AEB1FB5DCC"> <code> s.visitorNamespace = "INSERT-NAMESPACE-HERE" </code> </li> 
-     <li id="li_93072B656C134D8C89195B7F2D7D8F05"> <code> s.visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE") </code> </li> 
-    </ul> <p> See <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"> Correctly populate the trackingServer and trackingServerSecure variable </a> or contact Client Care if you are unsure about any of these values. 이 변수들이 올바로 설정되지 않으면, 구현해도 데이터가 수집되지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> <code>AppMeasurement.js</code>와 <code>VisitorAPI.js</code>를 호스팅합니다 . </td> 
-   <td colname="col2"> <p>코어 JavaScript 파일은 사이트의 모든 페이지에서 액세스할 수 있는 웹 서버에 호스팅되어야 합니다. 다음 단계에서 이 파일에 대한 경로가 필요합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
-   <td colname="col1"> 모든 사이트 페이지에서 <code>AppMeasurement.js</code> 및 <code>VisitorAPI.js</code>를 참조하십시오. </td> 
-   <td colname="col2"> <p> 각 페이지의 <code>&lt;head&gt;</code> 또는 &lt;body&gt; 태그에 다음 코드 행을 추가하여 방문자 ID 서비스를 포함하십시오. <code>VisitorAPI.js</code>는 <code>AppMeasurement.js</code> 앞에 포함되어야 합니다. </p> 
-    <code class="syntax html">&lt; script language = "javascript" type = "text/javascript" src = "https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js" &gt; &lt;/script &gt; </code>
-  <p> 다음 코드 행을 각 페이지의 <code>&lt;head&gt;</code> 또는 <code>&lt;body&gt;</code> 태그에 추가하여 JavaScript용 AppMeasurement를 포함합니다. </p> 
-    <code class="syntax html">&lt; script language = "javascript" type = "text/javascript" src = "https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js" &gt; &lt;/script &gt; </code>
-  </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step6_icon.png" id="image_1C4293CA98F04EE2ADA69EAB95BDE8B1" /> </td> 
-   <td colname="col1"> 페이지 코드를 업데이트하고 배포합니다. </td> 
-   <td colname="col2"> <p><a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_042412C29CC249E298F19B2BC2F43CE7" format="dita" scope="local">예제 페이지 코드</a>를 복사해서 추적하려는 각 페이지의 <code>&lt;body&gt;</code> 태그를 연 바로 다음에 붙여넣습니다. 최소한 다음 변수를 업데이트하십시오. </p> 
-    <ul id="ul_29200A6E8DA14386BDA242AD8B270FEB"> 
-     <li id="li_FB24D2CB9241401A83BD13EE342A7810"> <code> var s=s_gi("INSERT-RSID-HERE") </code> </li> 
-     <li id="li_463A35BA06CC4618B4AF17CD7E83AED5"> <code> s.pageName="INSERT-NAME-HERE" // 예: s.pageName=document.title </code> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step7_icon.png" id="image_A423CBF386AF4E5986E8CBB6E31CD3E5" /> </td> 
-   <td colname="col1"> DigitalPulse Debugger를 사용하여 데이터가 전송되었는지 확인합니다. </td> 
-   <td colname="col2"> <p>Add the <a href="../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2" format="dita" scope="local">Adobe Debugger</a> 북마클릿을 설치합니다. 설치가 끝나면 페이지 코드를 배포한 페이지를 불러온 다음 디버거를 엽니다. 디버거가 전송된 수집 데이터에 대한 정보를 표시합니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 작업 | 설명 |
+|--- |--- |
+| 1. JavaScript 용 appmeasurement 및 ID 서비스를 다운로드합니다. | Experience Cloud를 통해 Analytics에 로그인합니다. 다운로드 파일은 Analytics &gt; 관리 &gt; 코드 관리자에서 사용할 수 있습니다. 이 다운로드 ZIP에는 여러 파일이 포함되어 있습니다.  AppMeasurement.js 및 VisitorAPI.js는 Analytics를 구현할 때 관련된 파일입니다. |
+| 2. ID 서비스를 설정합니다. (이전에 방문자 ID 서비스) | Analytics에 대한 ID 서비스 [설정을 참조하십시오.](https://docs.adobe.com/content/help/en/id-service/using/home.html) |
+| 업데이트 `AppMeasurement.js`. | Copy the [example AppMeasurement.js code](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_4351543F2D6049218E18B48769D471E2) and paste it at the beginning of your `AppMeasurement.js` file. 최소한 다음 변수를 업데이트하십시오.<ul><li>s.account="INSERT-RSID-HERE"</li><li>s.trackingServer="INSERT-TRACKING-SERVER-HERE"</li><li>s.visitorNamespace = "INSERT-NAMESPACE-HERE"</li><li>s.visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE")</li></ul><br>Trackingserver [및 trackingserversecure 변수](https://helpx.adobe.com/analytics/kb/determining-data-center.html) 올바로 채우기를 참조하거나 클라이언트 지원 센터에 문의하십시오. 이 변수들이 올바로 설정되지 않으면, 구현해도 데이터가 수집되지 않습니다.</br> |
+| 3. 호스트 `AppMeasurement.js` 및 `VisitorAPI.js`. | 코어 JavaScript 파일은 사이트의 모든 페이지에서 액세스할 수 있는 웹 서버에 호스팅되어야 합니다. 다음 단계에서 이 파일에 대한 경로가 필요합니다. |
+| 4. Reference `AppMeasurement.js` and `VisitorAPI.js`  on all site pages. | <ul><li>Include the Visitor ID Service by adding the following line of code in the `head` or `body` tag on each page. `VisitorAPI.js``AppMeasurement.js`다음에 포함되어야 합니다.`script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"`</li><li>Include AppMeasurement for JavaScript by adding the following line of code in the `head` or `body` tag on each page: `script language="JavaScript" type="text/javascript"  src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"`</li></ul> |
+| 5. 페이지 코드를 업데이트 및 배포합니다. | [예제 페이지 코드를](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7) 복사하여 추적할 각 페이지의 열기 `body` 태그 바로 뒤에 붙여넣습니다. 최소한 다음 변수를 업데이트하십시오.<ul><li>var s=s_gi("INSERT-RSID-HERE")</li><li>s. pagename = "INSERT-NAME-HERE" (예: s. pagename = document. title)</li></ul> |
+| 6. Experience Cloud 디버거를 사용하여 데이터가 전송되고 있는지 확인합니다. | [Experience Cloud 디버거를 설치합니다](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html#concept_B26FFE005EDD4E0FACB3117AE3E95AA2). 설치가 끝나면 페이지 코드를 배포한 페이지를 불러온 다음 디버거를 엽니다. 디버거가 전송된 수집 데이터에 대한 정보를 표시합니다. |
 
 ## 캐시 {#section_4E2D1D962DF046418134C43CFC49AD4A}
 
