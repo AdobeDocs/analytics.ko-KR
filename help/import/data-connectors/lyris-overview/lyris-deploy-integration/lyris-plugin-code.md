@@ -1,0 +1,48 @@
+---
+description: Adobe Analytics와 함께 사용할 수 있는 Lyris 플러그인 코드를 보여줍니다.
+seo-description: Adobe Analytics와 함께 사용할 수 있는 Lyris 플러그인 코드를 보여줍니다.
+seo-title: 쿼리 문자열 매개 변수 플러그인 코드
+solution: Analytics
+title: 쿼리 문자열 매개 변수 플러그인 코드
+uuid: 4543 DCFD-FF 53-49 D 5-A 413-723848470053
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+
+---
+
+
+# 쿼리 문자열 매개 변수 플러그인 코드{#query-string-param-plug-in-code}
+
+Adobe Analytics와 함께 사용할 수 있는 Lyris 플러그인 코드를 보여줍니다.
+
+>[!NOTE]
+>
+>아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 evar를 예약했는지 확인하십시오. 예약한 Evar를 알고 있으면 evarn를 관련 evar로 바꿉니다. E.g. Evar 10.
+
+```
+/* 
+  * Plugin: getQueryParam 2.3 
+  */ 
+s.getQueryParam=new Function("p","d","u","" 
++"var s=this,v='',i,t;d=d?d:'';u=u?u:(s.pageURL?s.pageURL:s.wd.locati" 
++"on);if(u=='f')u=s.gtfs().location;while(p){i=p.indexOf(',');i=i<0?p" 
++".length:i;t=s.p_gpv(p.substring(0,i),u+'');if(t){t=t.indexOf('#')>-" 
++"1?t.substring(0,t.indexOf('#')):t;}if(t)v+=v?d+t:t;p=p.substring(i=" 
++"=p.length?i:i+1)}return v"); 
+s.p_gpv=new Function("k","u","" 
++"var s=this,v='',i=u.indexOf('?'),q;if(k&&i>-1){q=u.substring(i+1);v" 
++"=s.pt(q,'&','p_gvf',k)}return v"); 
+s.p_gvf=new Function("t","k","" 
++"if(t){var s=this,i=t.indexOf('='),p=i<0?t:t.substring(0,i),v=i<0?'T" 
++"rue':t.substring(i+1);if(p.toLowerCase()==k.toLowerCase())return s." 
++"epa(v)}return ''"); 
+ 
+/*in the s_doPlugins function - Replace N with actual eVar number*/ 
+s.eVarN=s.getQueryParam("<insert Lyris QS Param>");  
+//places query param value from Message ID in eVarN variable s.eVarN=s.getQueryParam("<insert Lyris QS Param>");  
+//places query param value from Recepient ID in eVarN variable 
+```
+
