@@ -1,0 +1,32 @@
+---
+description: Adobe Marketing Cloud 내에서 contactlab 통합 설정 보기
+seo-description: Adobe Marketing Cloud 내에서 contactlab 통합 설정 보기
+seo-title: 통합 확인
+solution: Analytics
+title: 통합 확인
+uuid: 9 D 0 FF 3 AC -1517-4 EAD-BE 81-7 A 683 D 77758 F
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+
+---
+
+
+# 통합 확인{#verifying-the-integration}
+
+Adobe Marketing Cloud 내에서 contactlab 통합 설정 보기
+
+1. 통합 활동 로그를 봅니다.
+   1. Adobe Marketing Cloud에서 **[!UICONTROL 지원]** &gt; **[!UICONTROL 통합 활동 로그를]**&#x200B;탐색합니다.
+
+      ![](assets/integration_activity_log.png)
+
+   1. **[!UICONTROL 분류 데이터]**, 성공적으로 가져온 **[!UICONTROL 지표 데이터]**, 성공적으로 내보낸 **[!UICONTROL 지표 데이터와 같은 항목을 찾습니다]**. 이러한 항목은 성공적으로 배포한 날로부터 1 일 이내에 나타납니다.
+1. Adobe Analytics 내에서 보고 데이터를 봅니다.
+   1. **[!UICONTROL 사용자 지정 전환]** &gt; **[!UICONTROL 사용자 지정 전환 1-10]** &gt; **[!UICONTROL 메시지 ID 보고서로 이동합니다]**.
+
+      ![](assets/reporting.png)
+
+   1. Contactlab 보고를 찾습니다. 이 데이터는 성공적으로 배포한 후 24-48 시간 내에 나타납니다.
