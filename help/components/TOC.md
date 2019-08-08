@@ -3,8 +3,8 @@ product: Analytics
 audience: 최종 사용자
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/ko-KR/analytics/components/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+translation-type: tm+mt
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -63,6 +63,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [참조: 고급 함수](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [지표 호환성](c-calcmetrics/cm-compatibility.md)
       + [계산된 지표: 역할 기반 권한](c-calcmetrics/cm-role-based-rights.md)
+      + [계산된 지표 합계](c-calcmetrics/cm-totals.md)
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
    + [가상 보고서 세트 구성 요소 큐레이션](vrs/vrs-components.md)
