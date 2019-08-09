@@ -5,7 +5,7 @@ seo-title: 레이블 지정 예
 title: 레이블 지정 예
 uuid: A 9 A 5 B 937-DBDE -4 F 0 F-A 171-005 EF 4 C 79 DF 9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
 
 ---
 
@@ -22,33 +22,33 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 <!-- Meike, I converted html tables for fix elusive validation error. Bob -->
 
-| 레이블 | I2<br>id-persondel<br>-personacc<br>-person | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Variable Name<br>(Namespace) | MyProp1<br>(user) | Visitor ID<br>(AAID) | MyEvar1 | MyEvar2 | MyEvar3<br>(xyz) |
+| 레이블 | I2<br>id-persondel<br>-personacc<br>-person | i 2<br>id-devicedel<br>-deviceacc<br>-all | i 2<br>del-personacc<br>-person | i 2<br>del-devicedel<br>-personacc<br>-all | i 2<br>id-devicedel<br>-deviceacc<br>-all |
+|---|---|---|---|---|---|
+| 변수 이름<br>(네임스페이스) | myprop 1<br>(사용자) | 방문자 ID<br>(aaid) | MyEvar1 | MyEvar2 | Myevar 3<br>(xyz) |
 | 히트 데이터 | Mary | 77 | A | M | X |
-| Mary | 88 | B | N | Y |
-| Mary | 99 | C | O | Z |
-| John | 77 | D | P | W |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | Z |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C | O | Z |
+|  | John | 77 | D | P | W |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
+|  | Alice | 66 | A | N | Z |
 
 
 ## 샘플 액세스 요청 {#section_BDA817FD2415420DAAC835825484BA9D}
 
 액세스 요청을 제출하면 요약 파일에 아래 표에 표시된 값이 포함됩니다. 요청은 장치 파일만 반환하거나 개인 파일만 반환할 수 있습니다(즉, 각각에 대해 하나). 개인 ID가 사용되고 expandIds가 true인 경우에만 두 개의 요약 파일이 반환됩니다.
 
-| API 값 | 반환된 파일 유형 | 요약 액세스 파일의 데이터 |
-|--- |--- |--- |
+| API 값 | API 값 | 반환된 파일 유형 | <br>요약 액세스 파일의 데이터 </br> | <br>요약 액세스 파일의 데이터</br> | <br>요약 액세스 파일의 데이터</br> | <br>요약 액세스 파일의 데이터</br> | <br>요약 액세스 파일의 데이터</br> |
+|--- |--- |--- |---|---|---|---|---|
 | 네임스페이스/ID | expandIDs |  | MyProp1 | 방문자 ID | MyEvar1 | MyEvar2 | MyEvar3 |
 | AAID=77 | false | 장치 | 변수 없음 | 77 | 변수 없음 | M, P | X, W |
-| AAID=77 | true | 장치 | 77 | M, P | X, W |
+| AAID=77 | true | 장치 | 변수 없음 | 77 | 변수 없음 | M, P | X, W |
 | user=Mary | false | 사람 | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | 사람 | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| 장치 | 없음 | 77, 88 | 없음 | N, P | U, W |
+| user=Mary | true | 장치 | 없음 | 77, 88 | 없음 | N, P | U, W |
 | user=Mary AAID=66 | true | 사람 | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| 장치 | 없음 | 66, 77, 88 | 없음 | N, P | U, W, Z |
+| user=Mary AAID=66 | true | 장치 | 없음 | 66, 77, 88 | 없음 | N, P | U, W, Z |
 | xyz=X | false | 장치 | 없음 | 55, 77 | 없음 | M, R | X |
 | xyz=X | true | 장치 | 없음 | 55, 77 | 없음 | M, P, R | W, X |
 
@@ -58,8 +58,8 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 
 삭제 요청에 표의 첫 번째 행에 있는 API 값을 사용하면 히트 표가 다음과 비슷하게 업데이트됩니다.
 
-| aaid = 77 expandids 값은 문제가 되지 않습니다. |
-|--- |
+| AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> |
+|---|---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | Mary | 42 | A | GDPR-7398 | GDPR-9152 |
 | Mary | 88 | B | N | Y |
@@ -74,8 +74,8 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 >
 >AAID = 77 및 DEL-DEVICE 레이블이 있는 행의 셀만 영향을 받습니다.
 
-| user = Mary expandids = false |
-|--- |
+| user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> |
+|--- |---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
 | GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
@@ -90,8 +90,8 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 >
 >user=Mary 및 DEL-PERSON 레이블이 있는 행의 셀만 영향을 받습니다. 또한 연습에서 A_ID를 포함하는 변수는 prop 또는 eVar이고 해당 교체 값은 "GDPR-"로 시작하는 문자열이며, 그 뒤에는 숫자 값을 임의의 다른 숫자 값으로 대체하지 않고 임의의 숫자(GUID)가 옵니다.
 
-| user=Mary expandIDs=true |
-|--- |
+| user=Mary<br>expandIDs=true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> |
+|--- |---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
 | GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
