@@ -8,7 +8,7 @@ title: JavaScript용 AppMeasurement
 topic: 개발자 및 구현
 uuid: 1440013 D-D 266-4 DCE -9807-8 B 9 ADAC 73315
 translation-type: tm+mt
-source-git-commit: 12f8d0017acfad36f3445cd31a629725dd737686
+source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
 
 ---
 
@@ -24,6 +24,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## 버전 2.16.0
+
+릴리스 날짜: **2019년 8월 8일**
+
+| 기능 | 설명 |
+| -----------| ---------- |
+| 종료 링크에 대한 `sendBeacon` 지원 | [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 이를 통해 종료 링크 추적 기능이 개선되고 트래픽이 증가할 수 있습니다. `SendBeacon` 페이지 컨텍스트에서는 실행되지만 브라우저의 컨텍스트에서는 실행되지 않습니다. 즉, 페이지가 언로드되는 `sendBeacon`경우 요청이 계속 완료됩니다. 종료 링크 요청이 완료될 가능성이 훨씬 더 높기 때문에 종료 링크에 매우 유용합니다. |
+| ECID/fid 값 | 이제 OptIn 설정이 변경되더라도 ECID/fid 값이 첫 번째 히트에 캐시됩니다. |
+| DIL 9.3 | 대상 관리 모듈의 DIL 9.3 업데이트 |
+| 스크롤 도달 추적 | s.ActivityMap.trackScrollReach에 스위치를 노출하여 스크롤 도달 추적을 켜거나 끕니다. |
+| 방문자 ID 서비스 4.4.0 | 방문자 ID 서비스 4.4.0을 사용하도록 AppMeasurement를 업그레이드했습니다. |
 
 ## 버전 2.15.0
 
@@ -346,7 +358,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 **알려진 문제**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. 다른 브라우저에 표시될 때 올바른 동작은 `//fast.<subdomain>.demdex.net/dest5.html`.
+방문자 API/ [!DNL AppMeasurement][!DNL Audience Manager] 모듈 통합에는 IE 6-9에서 수행되는 두 가지 대상 게시 iframe 요청이 있습니다. `//fast.<subdomain>.demdex.net/dest5.html` `//fast.<subdomain>.demdex.net/dest4.html`And. 다른 브라우저에 표시될 때 올바른 동작은 `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## 버전 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
