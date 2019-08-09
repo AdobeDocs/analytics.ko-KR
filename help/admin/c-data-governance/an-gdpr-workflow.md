@@ -5,7 +5,7 @@ seo-title: Adobe Analytics GDPR 워크플로우
 title: Adobe Analytics GDPR 워크플로우
 uuid: F 24 E 8 BE 3-8 B 5 C -409 B-AD 6 B -770198 AE 2549
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
@@ -49,7 +49,16 @@ Adobe Analytics 및 GDPR 준비를 시작합니다. 이 워크플로우에서는
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" /> 보고서 세트의 GDPR 설정을 보고 관리합니다. </p> </td> 
-   <td colname="col3"> <p>Follow the instructions in <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> View Report Suite's Data Governance Settings</a>. </p> </td> 
+   <td colname="col3"> <p>보고서 세트 데이터 <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> 거버넌스 설정의 지침을 따릅니다</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+| 작업 설명 | 지침 및 추가 정보에 대한 링크 |
+|--- |--- |
+| **1 단계**: GDPR 관련 데이터를 포함할 수 있는 보고서 세트가 Experience Cloud (또는 IMS) 조직에 매핑되는지 확인하십시오. GDPR 요청은 Experience Cloud 조직을 사용하여 제출되며, 해당 조직에서 요구하는 모든 보고서 세트에 적용됩니다. 보고서 세트가 로그인 회사의 일부인 경우에도 해당 조직에 매핑되지 않은 보고서 세트에는 요청이 적용되지 않습니다. | [조직에 보고서 세트 매핑](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)을 참조하십시오. |
+| **2**&#x200B;단계 데이터 유지 정책을 설정합니다. | Adobe에서 GDPR 데이터 액세스/삭제 요청을 처리하려면 데이터 보존 정책이 적용되어 있어야 합니다.  자세한 내용은 이 [Analytics 데이터 유지 FAQ](/help/technotes/data-retention.md)를 참조하십시오. |
+| **3 단계**: Dule/GDPR 레이블, Adobe Analytics ID, 네임스페이스 및 ID 확장에 익숙해집니다. | 다음 설명서 세트에서 이러한 주제를 읽어 보십시오.<ul><li>[Analytics 변수의 GDPR 레이블](/help/admin/c-data-governance/gdpr-labels.md)</li><li>[레이블 지정 우수 사례](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)</li></ul> |
+| **4 단계**: 보고서 세트의 각 변수에 ID, 민감도 및 데이터 거버넌스 레이블을 할당합니다. 참고: 새 보고서 세트를 작성할 때마다 또는 기존 보고서 세트 내에서 새 변수를 활성화하는 경우 레이블 지정을 검토해야 합니다. 또한, 새로운 솔루션 통합이 활성화된 경우 레이블 지정이 필요할 수 있는 새로운 변수를 노출할 수 있으므로 레이블 지정을 검토해야 할 수 있습니다. 모바일 앱 또는 웹 사이트를 재구현하면 기존 변수가 사용되는 방식이 변경될 수 있으며, 이로 인해 레이블 업데이트가 필요할 수도 있습니다. | [레이블 보고서 세트 데이터의 지침을 따릅니다](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-setup-reportsuite.html#concept_FAA948AD8CEA4BC38CB482EAF3648731). |
+| **5 단계**: Adobe GDPR API에 연결하고 액세스 및 삭제 요청을 제출합니다. | Adobe Analytics 고객의 경우 [Adobe Experience Cloud GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html)를 호출하여 고객 데이터 액세스 및 삭제에 대한 개별 GDPR 요청을 제출할 수 있습니다.  [레이블 지정 우수 사례](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E) 섹션에 설명된 대로 Analytics 식별자를 해당 네임스페이스 ID(데이터 소스 ID)와 함께 요청에 제출할 수 있습니다. |
+| **6 단계**: 보고서 세트의 GDPR 설정을 보고 관리할 수 있습니다. | 보고서 세트 데이터 [거버넌스 설정의 지침을 따릅니다](/help/admin/c-data-governance/gdpr-view-settings.md). |
