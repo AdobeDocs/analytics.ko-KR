@@ -2,7 +2,7 @@
 title: 데이터 웨어하우스의 구성 요소 지원
 description: 데이터 웨어하우스에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ### 차원이 지원되는 차원
 
-* Experience Cloud 방문자 ID:
-* IP:
-* 페이지 URL:
-* 구매 ID:
+* Experience Cloud 방문자 ID: Experience Cloud ID 서비스 (ECID) 를 사용하는 구현의 경우, 두 개의 연결된 64 비트 숫자로 구성된 128 비트 숫자가 19 자리로 채워집니다.
+* 페이지 URL: 히트가 발생한 페이지 URL.
+* 구매 ID: Purchaseid 변수를 사용하여 설정한 구매에 대한 고유 식별자.
 * 방문자 ID: 방문자의 고유 식별자를 제공합니다. 이 값은 데이터 피드의 연결된 값 `visid_high` 및 `visid_low` 열과 동일합니다. 자세한 내용은 데이터 피드 아래의 [데이터 열 참조를](../analytics-data-feed/c-df-contents/datafeeds-reference.md) 참조하십시오.
 
 ### 지표는
@@ -59,7 +58,7 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 * 모든 검색 페이지 등급
 * 계층 변수
 * 조회 유형
-* 페이지를 찾을 수 없음 (세그먼트만)
+* 페이지를 찾을 수 없음 (차원으로 사용 가능) 세그멘테이션에 지원되지 않음)
 * 유료 검색
 * 단일 페이지 방문 횟수
 * 옵트아웃 이유 추적 중
