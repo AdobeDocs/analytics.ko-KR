@@ -9,7 +9,7 @@ title: 데이터 열 참조
 topic: Reports & Analytics
 uuid: 9042 A 274-7124-4323-8 CD 6-5 C 84 AB 3 EEF 6 D
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | ef_id | Adobe Advertising Cloud 통합에 사용되는 ef_id입니다. | varchar(255) |
 | evar1-evar250 | 사용자 지정 변수 1-250입니다. 각 조직은 eVar을 다르게 사용합니다. 조직이 각 eVar을 채우는 방법에 대한 자세한 정보는 조직별 솔루션 설계 문서를 참조하십시오. | varchar(255) |
 | event_list | 히트로 트리거된 이벤트를 나타내는 숫자 ID들을 쉼표로 구분한 목록입니다. 기본 이벤트와 사용자 지정 이벤트 1-1000을 모두 포함합니다. event.tsv 조회를 사용합니다. | text |
-| exclude_hit | 히트가 보고에서 제외됨을 나타내는 플래그입니다. visit_ num 열은 제외된 히트에 대해 증가하지 않습니다.<br>1: 사용되지 않음. 스크랩된 기능의 일부<br>2: 사용되지 않음. 스크랩된 기능의 일부<br>3: 더 이상 사용되지 않습니다. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as page_url, pagename, page_event, or event_list<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. 대체 계정별 제외.<br>9: 사용되지 않음. 스크랩된 기능의 일부<br>10: 잘못된 통화 코드<br>11: 타임스탬프가 타임스탬프 전용 보고서 세트에 없거나 타임스탬프에 타임스탬프가 아닌 보고서 세트<br>12에 타임스탬프가 들어 있는 경우: 사용되지 않음. 스크랩된 기능의 일부<br>13: 사용되지 않음. 스크랩된 기능의 일부<br>14: Analytics 히트<br>15와 일치하지 않는 타겟 히트: 현재 사용되지 않습니다.<br>16: Analytics 히트 수와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
+| exclude_hit | 히트가 보고에서 제외됨을 나타내는 플래그입니다. visit_ num 열은 제외된 히트에 대해 증가하지 않습니다.<br>1: 사용되지 않음. 스크랩된 기능의 일부<br>2: 사용되지 않음. 스크랩된 기능의 일부<br>3: 더 이상 사용되지 않습니다. 사용자 에이전트 제외<br>4: IP 주소<br>5에 기반한 제외: page_ url, pagename, page_ event 또는 event_ list<br>6와 같이 중요 히트 정보가 누락됩니다. JavaScript가 히트<br>7를 올바로 처리하지 못했습니다. VISTA 규칙<br>8 에서와 같이 계정별 제외: 사용되지 않음. 대체 계정별 제외.<br>9: 사용되지 않음. 스크랩된 기능의 일부<br>10: 잘못된 통화 코드<br>11: 타임스탬프가 타임스탬프 전용 보고서 세트에 없거나 타임스탬프에 타임스탬프가 아닌 보고서 세트<br>12에 타임스탬프가 들어 있는 경우: 사용되지 않음. 스크랩된 기능의 일부<br>13: 사용되지 않음. 스크랩된 기능의 일부<br>14: Analytics 히트<br>15와 일치하지 않는 타겟 히트: 현재 사용되지 않습니다.<br>16: Analytics 히트 수와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
 | first_hit_page_url | 방문자의 첫 번째 URL입니다. | varchar(255) |
 | first_hit_pagename | 원래 시작 페이지 차원에 사용되는 변수입니다. 방문자의 원래 시작 페이지 이름입니다. | varchar(100) |
 | first_hit_ref_domain | 최초 참조 도메인 차원에 사용되는 변수입니다. first_hit_referrer를 기반으로 합니다. 방문자의 첫 번째 참조 도메인입니다. | varchar(100) |
@@ -119,14 +119,14 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobiledayssincefirstuse | 앱을 처음 실행한 이후 경과일 수입니다. | varchar(255) |
 | mobiledayssincelastupgrade | 컨텍스트 데이터 변수 a. dayssincelastupgrade에서 수집되었습니다. 이전 세션 이후 경과된 일 수입니다. | varchar(255) |
 | mobiledayssincelastuse | 앱을 마지막으로 실행한 이후 경과일 수입니다. | varchar(255) |
-| mobiledeeplinkid | Collected from the context data variable a.<span>deeplink</span>.id. 획득 보고서에 모바일 획득 링크의 식별자로 사용됩니다. | varchar(255) |
+| mobiledeeplinkid | 컨텍스트 데이터 변수 a.<span>deeplink</span>. id에서 수집됩니다. 획득 보고서에 모바일 획득 링크의 식별자로 사용됩니다. | varchar(255) |
 | mobiledevice | 모바일 장치 이름입니다. iOS에서는 쉼표로 구분된 2자리 문자열로 저장됩니다. 첫 번째 숫자는 장치 생성을 나타내고 두 번째 숫자는 장치 제품군을 나타냅니다. | varchar(255) |
 | mobilehourofday | 앱을 시작한 날의 시간을 정의합니다. 24시간 숫자 형식을 따릅니다. | varchar(255) |
 | mobileinstalldate | 모바일 설치 날짜입니다. 사용자가 모바일 앱을 처음으로 여는 날짜를 제공합니다. | varchar(255) |
 | mobilelaunchessincelastupgrade | 컨텍스트 데이터 변수 a. launchessinceupgrade에서 수집되었습니다. 마지막 업그레이드한 이후의 시작 횟수를 보고합니다. | varchar(255) |
 | mobilelaunchnumber | 모바일 앱을 시작할 때마다 1씩 증가합니다. | varchar(255) |
 | mobileltv | 더 이상 사용되지 않습니다. trackLifetimeValue 메서드로 채워집니다. | varchar(255) |
-| Mobilemessagebuttonname | Collected from the context data variable a.<span>message</span>.button.id. In-App 메시지에 사용되어 메시지를 닫은 단추를 식별합니다. | varchar(100) |
+| Mobilemessagebuttonname | 컨텍스트 데이터 변수 a.<span>message</span>. button. id에서 수집됩니다. In-App 메시지에 사용되어 메시지를 닫은 단추를 식별합니다. | varchar(100) |
 | mobilemessageid | 인앱 메시지 ID | varchar(255) |
 | mobilemessageonline | 인앱 메시지 온라인 | varchar(255) |
 | mobilemessagepushoptin | 컨텍스트 데이터 변수 a. push. optin에서 수집되었습니다. 사용자가 푸시 메시지를 옵트인할 때 "true" 로 설정합니다. 그렇지 않으면 값이 "false" 입니다. | varchar(255) |
@@ -135,7 +135,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobileosversion | Mobile Services 운영 체제 버전 | varchar(255) |
 | mobileplaceaccuracy | 컨텍스트 데이터 변수 a. loc. acc에서 수집됩니다. 수집 시 GPS의 정확도를 미터 단위로 나타냅니다. | varchar(255) |
 | mobileplacecategory | 컨텍스트 데이터 변수 a. loc. category에서 수집됨. 특정 장소의 카테고리에 대해 설명합니다. | varchar(255) |
-| mobileplaceid | Collected from the context data variable a.<span>loc</span>.id. 주어진 관심 영역에 대한 식별자입니다. | varchar(255) |
+| mobileplaceid | 컨텍스트 데이터 변수 a.<span>loc</span>. id에서 수집됩니다. 주어진 관심 영역에 대한 식별자입니다. | varchar(255) |
 | Mobilerelaunchcampaigncontent | Mobile Services 시작 컨텐츠 | varchar(255) |
 | mobilerelaunchcampaignmedium | Mobile Services 시작 매체 | varchar(255) |
 | mobilerelaunchcampaignsource | Mobile Services 시작 소스 | varchar(255) |
@@ -277,3 +277,109 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | weekly_visitor | 히트가 새 주별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | yearly_visitor | 히트가 새 연별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | zip | 우편 번호 차원을 채우는 데 사용됩니다. | varchar(50) |
+
+## 빈 열
+
+다음 열 목록은 사용하지 않으며 데이터를 포함하지 않습니다.
+
+* mobileacquisitionclicks
+* mobileactioninapptime
+* mobileactiontotaltime
+* mobileappperformanceaffectedusers
+* mobileappperformanceappid<span>.</span>app-perf-app-name
+* mobileappperformanceappid<span>.</span>app-perf-platform
+* mobileappperformancecrashes
+* mobileappperformancecrashid<span>.</span>app-perf-crash-name
+* mobileappperformanceloads
+* Mobileappstoreavgrating
+* mobileappstoredownloads
+* mobileappstoreinapprevenue
+* Mobileappstoreinappro
+* mobileappstoreobjectid<span>.</span>app-store-user
+* mobileappstoreobjectid<span>.</span>application-name
+* mobileappstoreobjectid<span>.</span>application-version
+* mobileappstoreobjectid<span>.</span>appstore-name
+* mobileappstoreobjectid<span>.</span>category-name
+* mobileappstoreobjectid<span>.</span>country-name
+* mobileappstoreobjectid<span>.</span>장치 제조업체
+* mobileappstoreobjectid<span>.</span>device-name
+* mobileappstoreobjectid<span>.</span>in-app-name
+* mobileappstoreobjectid<span>.</span>platform-name-version
+* mobileappstoreobjectid<span>.</span>rank-category-type
+* mobileappstoreobjectid<span>.</span>region-name
+* mobileappstoreobjectid<span>.</span>review-comment
+* mobileappstoreobjectid<span>.</span>review-title
+* mobileappstoreoneoffrevenue
+* mobileappstoreoneoffroyalty
+* mobileappstorepurchases
+* mobileappstorerank
+* mobileappstorerankdivisor
+* mobileappstorerating
+* mobileappstoreratingdivisor
+* mobileavgprevsessionlength
+* mobilecrashes
+* mobilecrashrate
+* mobiledailyengage 사용자
+* Mobiledeeplinkid<span>.</span>이름
+* mobileinstalls
+* mobilelaunches
+* mobileltvtotal
+* mobilemessageclicks
+* mobilemessageid<span>.</span>dest
+* mobilemessageid<span>.</span>이름
+* mobilemessageid<span>.</span>유형
+* Mobilemessageimpressions
+* Mobilemessagepushpayloadid<span><span>.</span></span>이름
+* Mobilemessageviews
+* Mobilemonthlyengagement 사용자
+* mobileplacedwelltime
+* mobileplaceentry
+* mobileplaceexit
+* mobileprevsessionlength
+* Mobilerelaunchcampaigntrackingcode<span><span>를 참조하십시오.</span></span>이름
+* mobileupgrades
+* socialaveragesentiment
+* socialaveragesentiment (더 이상 사용되지 않음)
+* socialfbstories
+* socialfbstorytellers
+* socialinteractioncount
+* sociallikeadds
+* sociallink
+* sociallink (더 이상 사용되지 않음)
+* socialmentions
+* socialpageviews
+* socialpostviews
+* socialproperty
+* Socialproperty (더 이상 사용되지 않음)
+* socialpubcomments
+* socialpubposts
+* socialpubrecommends
+* socialpubsubscribers
+* socialterm
+* socialtermslist
+* Socialtermslist (더 이상 사용되지 않음)
+* socialtotalsentiment
+* sourceid
+* videoauthorized
+* videoaverageminuteaudience
+* videochaptercomplete
+* videochapterstart
+* videochaptertime
+* videopause
+* videopausecount
+* videopausetime
+* videoplay
+* videoprogress10
+* videoprogress25
+* videoprogress50
+* videoprogress75
+* videoprogress96
+* videoqoebitrateaverage
+* videoqoebitratechange
+* videoqoebuffer
+* videoqoedropbeforestart
+* videoqoedroppedframes
+* videoqoeerror
+* videoresume
+* videototaltime
+* Videouniquetimeplayed
