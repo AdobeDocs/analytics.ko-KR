@@ -1,16 +1,16 @@
 ---
 description: 보고서 시간 처리는 데이터를 비파괴적이고 소급 방식으로 처리할 수 있는 가상 보고서 세트 설정입니다.
 seo-description: 보고서 시간 처리는 데이터를 비파괴적이고 소급 방식으로 처리할 수 있는 가상 보고서 세트 설정입니다.
-seo-title: 보고서 시간 처리
-title: 보고서 시간 처리
+seo-title: 보고서 처리 시간
+title: 보고서 처리 시간
 uuid: 1 a 1 d 82 ea -8 c 93-43 cc -8689-cdcf 59 c 309 b 1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1e8d5af54ab22311e1c3967979c8bdc982a66d5b
 
 ---
 
 
-# 보고서 시간 처리
+# 보고서 처리 시간
 
 보고서 시간 처리는 데이터를 비파괴적이고 소급 방식으로 처리할 수 있는 가상 보고서 세트 설정입니다.
 
@@ -84,7 +84,7 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
    <td colname="col2"> <p> 현재 지원되지 않습니다. 향후 지원 계획이 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AMO 예약 지표/차원 </p> </td> 
+   <td colname="col1"> <p> Advertising Cloud 예약된 지표/차원에 대한 분석 </p> </td> 
    <td colname="col2"> <p> 현재 지원되지 않습니다. 향후 지원 계획이 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -170,19 +170,19 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 바운스 수/바운스 비율 </p> </td> 
-   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회가 따르지 않는 배경 조회는 바운스로 간주되지 않고 바운스 비율에 기여하지 않습니다. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회가 따르지 않는 배경 조회는 바운스로 간주되지 않고 바운스 비율에 기여하지 않습니다. 자세한 내용은 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 컨텍스트 인식 Sessionization</a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 방문 당 초 단위 체류 시간 </p> </td> 
-   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회수가 포함된 방문만 이 지표에 기여합니다. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회수가 포함된 방문만 이 지표에 기여합니다. 자세한 내용은 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 컨텍스트 인식 Sessionization</a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 방문 당 체류 시간 </p> </td> 
-   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회수가 포함된 방문만 이 지표에 기여합니다. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회수가 포함된 방문만 이 지표에 기여합니다. 자세한 내용은 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 컨텍스트 인식 Sessionization</a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 시작 </p> </td> 
-   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회수가 포함된 방문의 항목만 고려됩니다. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col1"> <p> 항목 </p> </td> 
+   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회수가 포함된 방문의 항목만 고려됩니다. 자세한 내용은 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 컨텍스트 인식 Sessionization</a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 비머천다이징 eVar/예약된 eVar </p> </td> 
@@ -194,7 +194,7 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 시작 및 종료 차원 </p> </td> 
-   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회가 발생한 방문의 시작 및 종료만 이 차원에 표시됩니다. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> '배경 조회 수로 새로운 방문이 시작되지 않도록 차단'을 활성화하면 전경 조회가 발생한 방문의 시작 및 종료만 이 차원에 표시됩니다. 자세한 내용은 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 컨텍스트 인식 Sessionization</a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 조회 유형 </p> </td> 
