@@ -8,7 +8,7 @@ title: 보트 규칙 업로드
 topic: 관리 도구
 uuid: BD 70 C 199-5817-437 E -980 D -6 D 8 F 95 D 82 F 2 C
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -17,20 +17,11 @@ source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
 
 보트 규칙 일괄 가져오기를 수행하기 위해 규칙을 정의하는 CSV 파일을 업로드할 수 있습니다.
 
-다음 열을 나타난 순서대로 포함하는 CSV 파일을 만듭니다.
+표시된 순서대로 다음 열을 포함하는 CSV 파일을 만듭니다.
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> 보트 이름</code> </p> </td> 
-   <td colname="col2"> <p> <code> IP 시작 </code> </p> </td> 
-   <td colname="col3"> <p> <code> IP 끝 </code> </p> </td> 
-   <td colname="col4"> <p> <code> 에이전트 일치 규칙(포함 또는 다음으로 시작)</code> </p> </td> 
-   <td colname="col5"> <p> <code> 에이전트 포함(100자 제한)</code> </p> </td> 
-   <td colname="col6"> <p> <code> 에이전트 제외(255자 제한)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 열 1 | 열 2 | 열 3 | 열 4 | 열 5 |
+|---|---|---|---|---|
+| 보트 이름 | IP 시작 | IP 끝 | 에이전트 일치 규칙<br>(`contains` 또는 `starts with`) | Agent Exclude<br>(255 char limit) |
 
 세 가지 유형의 보트 규칙을 정의할 수 있습니다.
 
