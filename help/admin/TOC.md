@@ -3,8 +3,8 @@ product: Analytics
 audience: 관리
 user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/ko-KR/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [보트 규칙 업로드](admin/bot-rules/t-upload-bot-rules.md)
       + [사용자 지정 보트 규칙 만들기](admin/bot-rules/t-create-bot-rules.md)
    + [코드 관리자](admin/code-manager-admin.md)
-   + 전환 변수 {#conversion-variables}
+   + Conversion variables {#conversion-variables}
       + [전환 변수(eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [전환 변수 편집](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [전환 분류](admin/conversion-var-admin/conversion-classifications.md)
@@ -41,9 +41,9 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [로그](admin/logs.md)
    + [마케팅 채널](admin/marketing-channels-admin.md)
    + [메뉴 사용자 지정](admin/customize-menus.md)
-   + [지표 가시성](admin/metric-visibility.md)
+   + [지표 수준](admin/metric-visibility.md)
    + [모바일 관리](admin/mobile-management.md)
-   + 유료 검색 탐지 {#paid-search-detection}
+   + Paid search detection {#paid-search-detection}
       + [유료 검색 탐지 개요](admin/paid-search-detection/paid-search-detection.md)
       + [유료 검색 탐지 구성](admin/paid-search-detection/t-paid-search-detection.md)
    + [게시 목록](admin/publishing-list.md)
@@ -97,7 +97,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [트래픽 분류](admin/c-traffic-variables/traffic-classifications.md)
    + 고유 방문자 변수 {#unique-visitor-variable}
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [활용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
    + [Experience Cloud Admin Console 도움말](admin-console/home.md)
