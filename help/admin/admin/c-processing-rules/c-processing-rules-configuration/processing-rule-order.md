@@ -8,7 +8,7 @@ title: 처리 순서
 topic: 관리 도구
 uuid: CEA 01 D 13-DFD 5-40 F 7-8 B 2 F-B 6 E 2 FE 8354 DF
 translation-type: tm+mt
-source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
 | 동적 변수 조회 | HTTP 헤더 또는 기타 변수에서 정보를 가져와서 변수를 동적으로 채웁니다. For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | AppMeasurement에서 사용된 함수 및 플러그인은 브라우저 또는 클라이언트 응용 프로그램에서 실행됩니다. |
 | Dynamic Tag Management | Dynamic Tag Management에 정의된 규칙은 정의대로 실행됩니다. |
-| 보트 규칙 | [보트 규칙](../../../../admin/admin/bot-rules/bot-rules.md)을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. |
+| 보트 규칙 | [보트 규칙](../../../../admin/admin/bot-removal/bot-rules.md)을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. |
 
 ## 처리 규칙 이후
 
