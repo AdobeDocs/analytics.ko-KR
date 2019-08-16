@@ -1,7 +1,7 @@
 ---
 title: 기술 노트 홈
 translation-type: tm+mt
-source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -20,11 +20,7 @@ source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
 
 ## 주요 분석 리소스
 
-* [시작하기](https://helpx.adobe.com/analytics/get-started.html)
-* [비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [연락처 지원](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [고객 지원 센터에 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [분석 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
