@@ -4,7 +4,7 @@ seo-title: Analytics 구성 요소 도움말
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,15 +13,21 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![배너](../../assets/doc_banner_components.png)
 
-분석 구성 요소를 사용하면 고객 여정 분석을 세부적으로 조정하고 강화할 수 있습니다. 구성 요소의 예에는 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고가 포함됩니다.
+분석 구성 요소를 사용하면 데이터 분석을 세부적으로 조정하고 강화할 수 있습니다. 구성 요소는 다음과 같습니다.
+
+* **세그멘테이션:** 데이터 하위 집합에 집중
+* **계산된 지표:** 간단한 공식을 사용하여 지표를 결합하거나 통계 분석을 위해 고급 함수를 사용합니다.
+* **가상 보고서 세트:** 보고서 세트를 기반으로 데이터의 가상 저장소를 만듭니다. 보다 향상된 사용자 경험을 위해 데이터를 정리하거나 세분화할 수 있습니다. 일부 기능은 가상 보고서 세트에서만 사용할 수 있습니다.
+* **경고:** 시간 초과 또는 임계값 미만의 알림을 받을 수 있습니다.
+* **분류:** 차원을 재구성하고 그룹화하여 통찰력을 얻을 수 있습니다.
+* **변수:** 보고에서 사용할 수 있는 모든 차원 및 지표에 대한 참조 안내서입니다.
+* **실시간 보고:** 보고서 및 트렌드를 확인할 수 있습니다.
+* **마케팅 채널:** 방문자가 사이트에 도달하는 방식을 파악하고 가장 성공적인 채널을 파악합니다.
 
 ## 주요 분석 구성 요소 문서
 
 * [차원 참조](c-variables/dimensionslist/reports-descriptions.md)
 * [지표 참조](c-variables/c-metrics/metricslist.md)
-* [계산된 지표](c-calcmetrics/cm-overview.md)
-* [세그멘테이션](c-segmentation/seg-home.md)
-* [마케팅 채널](c-marketing-channels/c-overview.md)
 
 ## 기타 분석 사용자 가이드
 
@@ -29,11 +35,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ## 주요 분석 리소스
 
-* [시작하기](https://helpx.adobe.com/analytics/get-started.html)
-* [비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [연락처 지원](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [고객 지원 센터에 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [분석 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
