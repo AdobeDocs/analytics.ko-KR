@@ -4,7 +4,7 @@ seo-title: Analytics 통합 도움말
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,13 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![배너](../../assets/doc_banner_integrate.png)
 
-이 가이드는 Audience Manager, Advertising Cloud 또는 Target와 같은 다른 Adobe Experience Cloud 솔루션과의 통합을 구성하는 데 도움이 됩니다.
+Audience Manager, Advertising Cloud 또는 Target와 같은 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다. 이러한 서비스에는 다음이 포함됩니다.
+
+* **고객 분석:** Adobe Audience Manager를 Adobe Analytics와 통합합니다.
+* **광고 분석:** 유료 검색 데이터를 Adobe Analytics 데이터와 나란히 볼 수 있습니다.
+* **Target 용 Analytics:** A 4 T는 Adobe Analytics와 Adobe Target를 통합합니다.
+* **Adobe Campaign 보고:** Adobe Analytics와 Adobe Campaign 통합
+* **AEM 자산 보고:** Adobe Experience Manager에서 제공되는 자산에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
 
 ## 주요 분석 통합 문서
 
@@ -26,11 +32,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ## 주요 분석 리소스
 
-* [시작하기](https://helpx.adobe.com/analytics/get-started.html)
-* [비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 학습 및 지원](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [연락처 지원](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [고객 지원 센터에 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [분석 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
