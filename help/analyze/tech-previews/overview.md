@@ -4,7 +4,7 @@ seo-title: Labs for Adobe Analytics
 description: Adobe Analytics 용 프로토타입 프로젝트 미리 보기
 seo-description: Adobe Analytics 용 프로토타입 미리 보기
 translation-type: tm+mt
-source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
 
 # Labs 사용 안내서
 
-참고: Labs는 현재 제한된 수의 고객을 조기 이용하면서 출시되지만 향후 널리 출시될 예정입니다.
+>[!NOTE] Labs는 현재 제한된 수의 고객을 조기 이용하면서 출시되지만 향후 널리 출시될 예정입니다.
 
 Labs를 사용하면 초기 단계의 아이디어를 신속하게 프로토타이핑할 수 있습니다. 고객과의 긴밀한 관계를 통해 신속하게 개발을 가속화하는 툴과 프로세스를 결합합니다. 이를 통해 사용자는 신생 기술을 활용하여 중요한 인사이트를 발견하고 향후 기능 개발과 우선 순위에 영향을 미칠 수 있습니다. Labs를 사용하면 분석 혁신을 신속하게 이용하고 비즈니스 활용 사례와 데이터의 컨텍스트 내에서 예정된 기능을 평가할 수 있습니다.
 
@@ -30,20 +30,19 @@ Labs에 액세스하려면:
 
 1. **Labs** 탭을 클릭합니다.
 
-
 ## 프로토타입 평가
 
 프로토타입을 실행하고 평가하는 방법은 다음과 같습니다.
 
-1. On the Labs screen, click the **Launch** button of the prototype you want to see. 프로토타입을 실행하면 프로토타입 환경의 왼쪽 상단에 해당 이름이 표시됩니다.
+1. Labs 화면에서 보려는 프로토타입의 **시작** 버튼을 클릭합니다. 프로토타입을 실행하면 프로토타입 환경의 왼쪽 상단에 해당 이름이 표시됩니다.
 
    ![프로토타입 이름](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Watch a video that highlights the prototype by clicking on **Watch Video** in the upper right of the screen. Click the **Close** button when the video is completed.
+1. 화면의 오른쪽 상단에 있는 **View Video** 를 클릭하면 프로토타입을 강조 표시하는 비디오를 시청할 수 있습니다. 비디오가 완료되면 **[닫기** ] 단추를 클릭합니다.
 
    ![미리 보기 옵션](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. 프로토타입을 사용한 작업 Protype 환경에서 작업할 때:
+1. 프로토타입을 사용한 작업 프로토타입 환경에서 작업할 때:
 
 * 프로토타입 환경 내에서 만들어진 프로젝트는 저장하거나 공유할 수 없습니다.
 
@@ -55,13 +54,13 @@ Labs에 액세스하려면:
 
 ## 피드백 남기기
 
-1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
+1. 프로토타입을 사용할 때 언제든지 메시지 상자에 피드백 **제공하려면 피드백** 지정 버튼을 클릭합니다.
 
    ![feedback_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
 1. **전송을** 클릭하여 피드백을 전송합니다.
 
-1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. 프로토타입 프로젝트에서 변경한 내용은 프로토타입 환경을 종료하면 손실됩니다.
+1. 다른 프로토타입을 시도하거나 프로토타입 환경을 종료하려면 화면 오른쪽 상단에 있는 프로토타입 **남기기** 버튼을 클릭하고 프로토타입용 짧은 설문 조사를 완료합니다. 프로토타입 프로젝트에서 변경한 내용은 프로토타입 환경을 종료하면 손실됩니다.
 
    ![새 피드백 상자](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
@@ -71,4 +70,3 @@ Labs에 액세스하려면:
 
 * 랩 내의 일부 프로토타입은 분석 기능이 되므로 다른 프로토타입은 그렇지 않을 수 있습니다. 피드백을 통해 의사 결정을 내릴 수 있으므로 프로토타입을 검토하여 Adobe가 얼마나 중요한 고객인지 알 수 있습니다.
 * Labs는 모든 SKU 자격에 사용할 수 있습니다.
-
