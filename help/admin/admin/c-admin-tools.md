@@ -5,7 +5,7 @@ seo-title: 관리 도구
 title: 관리 도구
 uuid: 6961 E 956-14 EA -4367-BDBD-EB 0 BCC 456 AAE
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]**
 
->[!IMPORTANT]
->
->동일한 브라우저에서 여러 개의 관리자 탭을 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어, 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
+>[!IMPORTANT] 동일한 브라우저에서 여러 개의 관리자 탭을 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어, 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
 
 + [청구](billing-admin.md)
 + [보트 규칙 개요](bot-removal/bot-rules.md)
