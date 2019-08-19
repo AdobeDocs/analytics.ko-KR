@@ -2,15 +2,15 @@
 cloud: experience-cloud
 product: adobe Analytics
 solution-title: Analytics
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics-icon -24. png
+solution-hub-url: https://helpx.adobe.com/kr/support/analytics.html
+solution-image: assets/analytics-icon-24.png
 getting-started-title: 시작하기
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
+getting-started-url: https://helpx.adobe.com/kr/analytics/get-started.html
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75404414b7733df6899dc6dae2c7ca154e787a31
 
 ---
@@ -28,4 +28,4 @@ metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 �
 | getting-started-url | Helpx 시작 페이지로 연결되는 링크 |
 | tutorials-url | 비디오 튜토리얼 — Helpx 튜토리얼 또는 KT 튜토리얼 링크 |
 | mini-toc-levels | 오른쪽 레일에 나타나는 제목 수준 개수를 결정합니다. 기본값은 2입니다. |
-| git-repo | 내부용 마스터 PO의 위치를 지정합니다. |
+| git-repo | 내부용 마스터 리포지토리의 위치 지정 |
