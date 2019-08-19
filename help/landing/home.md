@@ -3,7 +3,7 @@ title: Adobe Analytics 기술 설명서 안내서
 seo-title: Adobe Analytics 기술 설명서 및 자조 사용 안내서의 전체 목록
 description: Analytics 사용 안내서 및 리소스
 seo-description: Adobe Analytics 기술 문서, 릴리스 노트 및 자조 사용 안내서의 전체 목록입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
@@ -25,15 +25,15 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 [![통합](assets/integrate_50px.png)](/help/integrate/home.md) [통합 안내서](/help/integrate/home.md) – Audience Manager, Advertising Cloud 또는 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)®[Media Analytics 안내서](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - 오디오 또는 비디오 소스에 대한 분석을 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) [Media Analytics 안내서](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) – 오디오 또는 비디오 소스에서 Analytics를 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)®[데이터 워크벤치 가이드](https://marketing.adobe.com/resources/help/en_US/insight/) - Data Workbench 클라이언트, 설치, 데이터 세트 구성 등
+[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/ko_KR/insight/) [Data Workbench 안내서](https://marketing.adobe.com/resources/help/ko_KR/insight/) – Data Workbench 클라이언트, 설치, 데이터 세트 구성 등
 
 [![TechNote](assets/technotes_50px.png)](../technotes/home.md) [Analytics TechNote](../technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
 | 새 항목 및 중요 항목 | 주요 Analytics 리소스 |
 | --- | --- |
-| <ul><li>[지역 데이터 수집](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube 채널](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[분석 자습서 및 비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[직접 교육 및 가상 교실](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원 센터에 문의](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[지역 데이터 수집](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)</li><li> [Adobe Analytics Youtube 채널](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics 자습서 및 비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[실습 교육 및 가상 수업](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원에 문의](https://helpx.adobe.com/kr/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
