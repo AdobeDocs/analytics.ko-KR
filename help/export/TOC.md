@@ -3,7 +3,7 @@ product: Analytics
 audience: 최종 사용자
 user-guide-title: Analytics 내보내기 안내서
 user-guide-url: /content/help/ko-KR/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
@@ -61,7 +61,7 @@ source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
    + [지표로 정렬합니까](data-warehouse/sorting-by-metric.md)
    + [반복 요청 예약](data-warehouse/dw-schedule-recurring.md)
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
-   + [데이터 웨어하우스에서 지원되는 구성 요소](data-warehouse/component-support.md)
+   + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
    + [차원이 Data Warehouse 세그먼트와 호환되지 않음](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Data Warehouse 우수 사례](data-warehouse/data-warehouse-bp.md)
 + FTP 및 SFTP {#ftp-and-sftp}
