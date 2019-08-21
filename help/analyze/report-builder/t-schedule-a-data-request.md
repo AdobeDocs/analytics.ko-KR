@@ -7,7 +7,7 @@ title: 데이터 요청 예약
 topic: Report Builder
 uuid: F 6 D 8 C 90 F-E 185-4 D 60-8035-F 20 F 74 BFCD 89
 translation-type: tm+mt
-source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
+source-git-commit: ed8cfa41a2495c884f1096ea54624820bf3a9e07
 
 ---
 
@@ -35,7 +35,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 > * **보고서 세트 지연** (데이터 수집의 지연) 는 예약된 일부 통합 문서를 지연될 수도 있습니다.
 
 
-**통합 문서를 예약하려면**
+## 통합 문서 예약
 
 1. 통합 문서를 생성하고 저장합니다.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
@@ -48,120 +48,36 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 1. [!UICONTROL 기본 예약 마법사]에서 다음 옵션을 구성합니다. 
 
-* **보고서 선택**: 통합 문서의 이름입니다. 새 예약된 통합 문서의 경우 이 필드는 활성 상태의 통합 문서 이름으로 채워집니다.
+| 필드 | 설명 |
+|--- |--- |
+| 보고서 선택 | 통합 문서의 이름입니다. 새로운 예약된 보고서의 경우 이 필드에는 활성 상태의 통합 문서 이름이 입력되어 있습니다. |
+| 선택 | 보고서 선택 페이지를 표시합니다. 서버(이전에 예약한 통합 문서가 저장된 곳)나 로컬 시스템에서 보고서를 선택할 수 있습니다. 로컬 드라이브에서 .xls 형식의 통합 문서를 선택하면 시스템이 파일을 .xlsx로 전환합니다. 이러한 전환 작업의 일부로서 파일은 Excel에서 열려서 활성화됩니다. 예약된 보고서에 대해 선택한 통합 문서의 파일 이름이 현재 Excel에 열려 있는 통합 문서와 동일하면 시스템은 이전에 업로드 한 파일 대신 로컬 파일을 선택합니다. 예약 저장소에서 보고서를 선택하면 통합 문서의 복사본이 서버에 만들어지고 파일 이름이 1로 업데이트됩니다. 새로 만든 예약된 보고서는 복사된 통합 문서를 사용합니다. |
+| 사용자 지정 | 날짜 형식을 사용자 지정할 수 있습니다. |
+| 받는 사람 | 사용할 수 있을 경우 Outlook 주소록을 표시합니다. |
+| 수신인: 이메일 | 통합 문서의 이메일 수신자입니다. |
+| 수신인: 게시 목록 | 이 회사용의 사용 가능한 배포 목록의 목록을 표시합니다. |
+| Power BI | 자세한 내용은 [Microsoft Power BI에 통합 문서 게시](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)를 참조하십시오. |
+| 제목 | 사용자 정의 설명. |
+| 예약 | 통합 문서를 보낼 시기를 지정할 수 있습니다. (즉시, 시간별, 일별, 주별, 월별 및 연도별.) |
 
-<table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 필드 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>보고서 선택 </p> </td> 
-   <td colname="col2"> <p>보고서 이름. 새로운 예약된 보고서의 경우 이 필드에는 활성 상태의 통합 문서 이름이 입력되어 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>선택 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">보고서 선택</span> 페이지를 표시합니다. 서버(이전에 예약한 통합 문서가 저장된 곳)나 로컬 시스템에서 보고서를 선택할 수 있습니다. 로컬 드라이브에서 <span class="filepath">.xls</span> 형식의 통합 문서를 선택하면 시스템이 파일을 <span class="filepath">.xlsx</span>로 전환합니다. 이러한 전환 작업의 일부로서 파일은 Excel에서 열려서 활성화됩니다. 예약된 보고서에 대해 선택한 통합 문서의 파일 이름이 현재 Excel에 열려 있는 통합 문서와 동일하면 시스템은 이전에 업로드 한 파일 대신 로컬 파일을 선택합니다. 예약 저장소에서 보고서를 선택하면 통합 문서의 복사본이 서버에 만들어지고 파일 이름이 1로 업데이트됩니다. 새로 만든 예약된 보고서는 복사된 통합 문서를 사용합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>사용자 지정 </p> </td> 
-   <td colname="col2"> <p>날짜 형식을 사용자 지정할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>받는 사람 </p> </td> 
-   <td colname="col2"> <p>사용할 수 있을 경우 Outlook 주소록을 표시합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>수신인: 이메일 </p> </td> 
-   <td colname="col2"> <p>통합 문서의 이메일 수신자입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>수신인: 게시 목록 </p> </td> 
-   <td colname="col2"> <p>이 회사용의 사용 가능한 배포 목록의 목록을 표시합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Power BI </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local">Microsoft Power BI에 통합 문서 게시</a>를 참조하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>제목 </p> </td> 
-   <td colname="col2"> <p>사용자 정의 설명. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>예약 </p> </td> 
-   <td colname="col2"> <p> 통합 문서를 보낼 시기를 지정할 수 있습니다. (즉시, 시간별, 일별, 주별, 월별 및 연도별.) </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## 고급 배달 옵션
 
 1. **[!UICONTROL 고급 배달 옵션을]** 클릭하여 파일 및 게시 옵션을 구성합니다.
 
-<table id="table_1BA8A5600DE94A33B83B096E69CE15F3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 필드 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>예약</b> 탭 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>전달 시간 </p> </td> 
-   <td colname="col2"> <p>통합 문서를 즉시 예약하거나 나중에 사용할 수 있도록 예약할 수 있습니다. 시각은 컴퓨터에 지정된 시간대를 기준으로 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>되풀이 패턴 </p> </td> 
-   <td colname="col2"> <p>선택한 내용에 따라 통합 문서를 전송합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>되풀이 범위 </p> </td> 
-   <td colname="col2"> <p>통합 문서 수신을 시작 및 중지할 시기를 지정할 수 있습니다. </p> <p> <p>참고: 현재 기간 (주, 월, 분기 또는 년도) 의 첫 번째 날에 통합 문서를 예약하면 첫 날 데이터만 반환됩니다. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>파일 옵션</b> 탭 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>파일 형식 </p> </td> 
-   <td colname="col2"> <p>전달 형식을 Excel 2007(<span class="filepath">.xlsx</span>) 또는 2003 (<span class="filepath">.xls</span>), <span class="filepath">.pdf</span>,<span class="filepath"> .csv,</span> <span class="filepath">.mht</span>,<span class="filepath"> .txt</span> 및<span class="filepath"> .xml</span> 중에서 선택할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 파일 대상 </p> </td> 
-   <td colname="col2"> <p> 이메일 또는 FTP를 지정합니다. 페이지의 선택 사항은 선택 내용에 따라 달라집니다. FTP의 경우 호스트를 외부에서 사용할 수 있도록 해야 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>게시 목록 </p> </td> 
-   <td colname="col2"> <p> 예약된 통합 문서를 여러 게시 목록에 전송하면 통합 문서가 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>파일 내용 언어 </p> </td> 
-   <td colname="col2"> <p>첨부 설명에 사용할 언어를 지정합니다. 한국어, 중국어(간체 또는 번체), 독일어, 프랑스어, 일본어, 브라질 포르투갈어 또는 스페인어를 선택할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>게시 옵션</b> 탭 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Power BI에 게시 </p> </td> 
-   <td colname="col2"> 
-    <ul id="ul_40697E4FB2CE4F34B857FBF153D6D6D5"> 
-     <li id="li_023E4750814D415EBC899269C9EA5D46"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local"> Power BI에 통합 문서 게시</a> </li> 
-     <li id="li_9B684BE22AF94ABC903405EE83951A80"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_E48148793E794169B766C73995897B9F" format="dita" scope="local"> 모든 Report Builder 요청을 Power BI 데이터 세트로 게시</a> </li> 
-     <li id="li_7B0BD285BC1749D1B2C65759CA97877B"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_6F8422B90D3F4F7EB5D4C97BFFA807AD" format="dita" scope="local"> 형식이 지정된 표를 모두 Power BI 데이터 세트로 게시</a> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>이 Power BI 보고서를 다음과 같이 레이블 지정 </p> </td> 
-   <td colname="col2"> <p>레이블 지정 세부 사항 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 필드 | 설명 |
+|--- |--- |
+| **예약 탭** |  |
+| 전달 시간 | 통합 문서를 즉시 예약하거나 나중에 사용할 수 있도록 예약할 수 있습니다. 시각은 컴퓨터에 지정된 시간대를 기준으로 합니다. |
+| 되풀이 패턴 | 선택한 내용에 따라 통합 문서를 전송합니다. |
+| 되풀이 범위 | 통합 문서 수신을 시작 및 중지할 시기를 지정할 수 있습니다. 참고: 현재 기간 (주, 월, 분기 또는 년도) 의 첫 번째 날에 통합 문서를 예약하면 첫 날 데이터만 반환됩니다. |
+| **파일 옵션 탭** |  |
+| 파일 형식 | 전달 형식을 Excel 2007(.xlsx) 또는 2003 (.xls), .pdf, .csv, .mht, .txt 및 .xml 중에서 선택할 수 있습니다. |
+| 파일 대상 | 이메일 또는 FTP를 지정합니다. 페이지의 선택 사항은 선택 내용에 따라 달라집니다. FTP의 경우 호스트를 외부에서 사용할 수 있도록 해야 합니다. |
+| 게시 목록 | 예약된 통합 문서를 여러 게시 목록에 전송하면 통합 문서가 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다. |
+| 파일 내용 언어 | 첨부 설명에 사용할 언어를 지정합니다. 한국어, 중국어(간체 또는 번체), 독일어, 프랑스어, 일본어, 브라질 포르투갈어 또는 스페인어를 선택할 수 있습니다. |
+| **게시 옵션 탭** |  |
+| Power BI에 게시 | <ul><li>Power BI에 통합 문서 게시</li><li>모든 Report Builder 요청을 Power BI 데이터 세트로 게시</li><li>형식이 지정된 표를 모두 Power BI 데이터 세트로 게시</li></ul> |
+| 이 Power BI 보고서를 다음과 같이 레이블 지정 | 레이블 지정 세부 사항 |
 
 1. **[!UICONTROL 확인을]**&#x200B;클릭한 다음 **[!UICONTROL 종료를]**&#x200B;클릭합니다.
 
