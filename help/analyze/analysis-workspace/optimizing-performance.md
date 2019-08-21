@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 작업 영역 성능 최적화
-title: 작업 영역 성능 최적화
+seo-title: 분석 작업 공간 성능 최적화
+title: 분석 작업 공간 성능 최적화
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
+source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
 
 
-# 작업 영역 성능 최적화
+# 분석 작업 공간 성능 최적화
 
 특정 요소는 Analysis Workspace 내에 있는 프로젝트의 성능에 영향을 줄 수 있습니다. 최적의 방법으로 프로젝트를 계획 및 작성할 수 있도록 프로젝트 작성을 시작하기 전에 그러한 기여자가 무엇인지 알아두는 것이 중요합니다. 다음은 프로젝트 최적화에 대한 성과 및 우수 사례에 영향을 주는 요소 목록입니다. Analysis Workspace 성능은 Adobe의 최우선 순위 중 하나이며 매일 지속적으로 개선되고 있습니다.
 
@@ -23,9 +23,9 @@ source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
 * 세그먼트에서 사용되는 차원 내 고유한 차원 항목의 수(예: Page에 10개의 고유 항목이 있는 Page = 'A'는 Page에 100000개의 고유 항목이 있는 Page = 'A'보다 빠릅니다.)
 * 사용된 다양한 차원의 수(예: Page = 'Home' 및 Page = 'Search results'는 eVar 1 = 'red' 및 eVar 2 = 'blue'보다 빠릅니다.))
 * 많은 OR 연산자(AND 대신)
-* 범위가 다양한 중첩 컨테이너(예: Visitor 내의 히트)
+* 범위에 따라 달라지는 중첩 컨테이너 (예: "방문자의" 내부의 "방문" 내부의 "히트")
 
-### 우수 사례
+**논리 복잡성을 위한 모범 사례**
 
 일부 복잡성 요소를 방지할 수 없으면 세그먼트의 복잡성을 줄이는 기회에 대해 생각해보십시오. 일반적으로 세그먼트 기준을 더 특정적으로 만들수록 더 좋아집니다. 예:
 
@@ -39,7 +39,7 @@ source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
 
 프로젝트 전체에서 요청한 데이터 범위는 Analysis Workspace 성능에 영향을 줍니다.
 
-### 우수 사례
+**데이터 범위 우수 사례**
 
 가능하면 필요 이상의 데이터를 가져오지 마십시오.
 
@@ -51,7 +51,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 한 프로젝트에 포함된 그래프 시각화 수는 Analysis Workspace의 전체 응답성에 영향을 줍니다.
 
-### 우수 사례
+**시각화 우수 사례**
 
 프로젝트의 시각화 수를 줄입니다. Analysis Workspace는 추가한 각 비주얼에 대한 수많은 처리를 화면에 표시하지 않고 수행하므로, 필요한 경우 보고서 소비자에게 가장 중요한 시각화에 우선 순위를 두고 지원 비주얼을 별도의 세부 프로젝트로 구분합니다.
 
@@ -66,7 +66,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 * 자유 형식 테이블의 행에 적용된 필터
 * 포함된 지표 수, 특히 세그먼트를 사용하는 계산된 지표 수
 
-### 우수 사례
+**시각화 복잡성을 위한 모범 사례**
 
 프로젝트가 원하는 대로 빠르게 로드되지 않은 경우, 가능하면 일부 세그먼트를 eVar 및 필터로 바꿔 보십시오.
 
@@ -76,11 +76,11 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 한 패널에는 여러 가지 시각화가 포함될 수 있으므로 패널 수는 분석 작업 공간의 전체 응답성에 영향을 줄 수 있습니다.
 
-### 우수 사례
+**패널 수 우수 사례**
 
 프로젝트 하나에 모든 것을 추가하려고 하지 말고, 이해 당사자의 특정 목적이나 그룹을 지원하는 고유한 프로젝트를 만드십시오. 태그를 사용하여 프로젝트를 주요 테마로 구성하고 관련 프로젝트를 이해 당사자 그룹과 공유합니다.
 
-더 많은 프로젝트 구성이 필요한 경우 프로젝트에 대한 [직접 연결](https://www.youtube.com/watch?v=6IOEewflG2U)을 선택할 수도 있습니다. 이해 당사자가 필요한 것을 쉽게 찾을 수 있도록 프로젝트의 내부 색인을 만드십시오. 또한 Adobe는 Analysis Workspace에 더 많은 구성 옵션을 제공하기 위해 노력하고 있습니다.
+더 많은 프로젝트 구성이 필요한 경우 프로젝트에 대한 [직접 연결](https://www.youtube.com/watch?v=6IOEewflG2U)을 선택할 수도 있습니다. 이해 당사자가 필요한 것을 쉽게 찾을 수 있도록 프로젝트의 내부 색인을 만드십시오.
 
 작업 공간 하나에 많은 패널이 필요한 경우 저장 및 공유하기 전에 패널을 축소하십시오. 프로젝트가 로드되면 Analysis Workspace는 확장된 패널에 대한 내용만 로드합니다. 축소된 패널은 사용자가 확장할 때까지 로드되지 않습니다. 이 방법은 다음과 같은 두 가지 점에서 도움이 됩니다.
 
@@ -91,6 +91,14 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 보고서 세트 크기가 영향력이 큰 요인으로 보일 수 있지만, 실제로는 Adobe의 데이터 처리 방법으로 인해 프로젝트 성능에 미치는 영향은 미미합니다.
 
-## Analysis Workspace를 동시에 처리하는 사람 수
+## 분석 작업 공간에 동시에 액세스하는 사용자 수
 
-분석 작업 공간이나 특정 프로젝트를 동시에 액세스하는 사람들의 수는 분석 작업 공간 성능에 실질적인 영향을 주지 않습니다.
+분석 작업 공간이나 특정 프로젝트를 동시에 액세스하는 사용자의 수는 사용자가 다른 보고서 세트에 액세스하는 경우 분석 작업 공간 성능에 실질적인 영향을 주지 않습니다. 동시 사용자가 동일한 보고서 세트에 액세스하는 경우 성능이 영향을 받습니다.
+
+## 일반적인 오류 주소 지정
+
+| 오류 메시지 | 이 문제가 발생하는 이유는 무엇입니까? |
+|---|---|
+| `The report suite is experiencing unusually heavy reporting. Please try again later.` | 조직에서 특정 보고서 세트에 대해 너무 많은 동시 요청을 실행하려고 합니다. 이 오류에 대한 작성자는 API 요청, 예약된 프로젝트, 예약된 보고서, 예약된 경고 및 보고 요청을 만드는 동시 사용자입니다. 보고서 세트에 대한 요청과 일정은 하루 종일 더 고르게 전파되는 것이 좋습니다. |
+| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe에서 해결해야 하는 문제가 해결되었습니다. 고객 지원 요청을 통해 오류 코드를 제출하는 것이 좋습니다. |
+| `The request is too complex.` | 보고 요청이 너무 커서 실행할 수 없습니다. 이 오류에 대한 작성자는 요청의 크기, 세그먼트 또는 검색 필터에서 일치하는 항목 너무 많은 항목, 너무 많은 지표, 호환되지 않는 차원 및 지표 조합 등으로 인해 시간 초과됩니다. 요청을 간소화하는 것이 좋습니다. |
