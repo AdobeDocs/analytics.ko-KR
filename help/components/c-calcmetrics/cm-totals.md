@@ -4,7 +4,7 @@ seo-title: 계산된 지표 합계
 description: Analytics 도구의 계산된 지표 합계가 어떻게 다른지 알아보기
 seo-description: 계산된 지표 합계를 계산하는 방법
 translation-type: tm+mt
-source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
+source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
 
 분석 작업 공간에서 특정 상황에서 계산된 지표를 합산하여 합계를 표시합니다.
 
-* [정적 행이](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 있을 때 현재 각 열 옵션에서 값을 합산하여 합계 **[!UICONTROL 계산]** (기본값) 이 선택되어 있습니다.
+* 자유 형식 테이블에 [정적 행이](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 있을 때 현재 *[!UICONTROL 각 열]* 옵션에서 값을 합산하여 합계 계산 (기본값) 이 선택되어 있습니다.
 * In the [Donut Visualization](/help/analyze/analysis-workspace/visualizations/donut.md).
 * 의 요약 [변경 사항 시각화에서](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)
