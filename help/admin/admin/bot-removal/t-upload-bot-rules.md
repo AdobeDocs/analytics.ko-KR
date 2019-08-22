@@ -8,7 +8,7 @@ title: 보트 규칙 업로드
 topic: 관리 도구
 uuid: BD 70 C 199-5817-437 E -980 D -6 D 8 F 95 D 82 F 2 C
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 표시된 순서대로 다음 열을 포함하는 CSV 파일을 만듭니다.
 
 | 열 1 | 열 2 | 열 3 | 열 4 | 열 5 |
-|---|---|---|---|---|
-| 보트 이름 | IP 시작 | IP 끝 | 에이전트 일치 규칙<br>(`contains` 또는 `starts with`) | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+| 보트 이름 | IP 시작 | IP 끝 | Agent Match Rule<br>(contains or starts with)</br> | 에이전트 제외<br>(255 자 제한)</br> |
 
 세 가지 유형의 보트 규칙을 정의할 수 있습니다.
 
