@@ -5,7 +5,7 @@ seo-title: 분석 작업 공간 성능 최적화
 title: 분석 작업 공간 성능 최적화
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -95,7 +95,9 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 분석 작업 공간이나 특정 프로젝트를 동시에 액세스하는 사용자의 수는 사용자가 다른 보고서 세트에 액세스하는 경우 분석 작업 공간 성능에 실질적인 영향을 주지 않습니다. 동시 사용자가 동일한 보고서 세트에 액세스하는 경우 성능이 영향을 받습니다.
 
-## 일반적인 오류 주소 지정
+## 분석 작업 공간의 일반적인 오류 메시지
+
+분석 작업 공간과 상호 작용할 때 오류가 발생할 수 있습니다. 오류는 다음과 같은 여러 가지 이유로 발생할 수 있습니다.
 
 | 오류 메시지 | 이 문제가 발생하는 이유는 무엇입니까? |
 |---|---|
