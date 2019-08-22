@@ -5,14 +5,14 @@ seo-title: 기여도 지표
 title: 기여도 지표
 uuid: 7 cb 191 be-bc 4 e -46 ef -8 a 20-ccba 5355 e 253
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc0adf08d2b68c314c38f0484addbff567147e88
 
 ---
 
 
 # 기여도 지표
 
-다음은 간단한 사용 사례입니다. 컨텐츠 소유자이며 주문이 들어 있는 방문에 기여한 (참여) 페이지를 확인할 수 있습니다. 방법은 다음과 같습니다.
+다음은 간단한 사용 사례입니다. 컨텐츠 소유자이며 주문이 들어 있는 방문에 기여한 (즉, 참여) 페이지가 기여한 페이지를 확인하려고 합니다. 방법은 다음과 같습니다.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 1. 계산된 지표 빌더에서 새 지표를 만듭니다.
 1. 성공 이벤트 "Orders" 를 정의 캔버스로 드래그합니다.
-1. Change the [attribution model](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. **[!UICONTROL 방문]** 룩백을 선택합니다. 정의 모양은 다음과 같아야 합니다.
+1. 해당 이벤트의 [기여도 모델을](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) 설정 톱니바퀴 **[!UICONTROL 아래의 기여도로]** **[!UICONTROL 변경합니다]** . **[!UICONTROL 방문]** 룩백을 선택합니다. 정의 모양은 다음과 같아야 합니다.
 
    ![](assets/participation.png)
 
