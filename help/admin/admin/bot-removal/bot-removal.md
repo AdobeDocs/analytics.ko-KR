@@ -4,7 +4,7 @@ seo-title: Adobe Analytics의 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 seo-description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ Experience Cloud 방문자 ID를 차원으로 사용하고 보트 세그먼트�
 
 ## 4 단계: 이 목록을 고객 속성으로 다시 Adobe에 전달
 
-데이터 웨어하우스 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 나타납니다. 다음 Ecid를 복사하여 두 개의 열, ECID 및 보트 플래그가 있는 빈 CSV 파일에 붙여 넣습니다.
+데이터 웨어하우스 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 나타납니다. 다음 Ecid를 복사하여 두 개의 열, ECID 및 보트 플래그가 있는 빈. csv 파일에 붙여 넣습니다.
 
-
+![](assets/bot-csv-4.png)
 
 첫 번째 열 헤더가 위에서 새로 선언된 ID에 제공한 이름과 일치하는지 확인하십시오. 이. csv 파일을 고객 속성 가져오기 파일로 사용한 다음 [이 블로그 게시물에 설명된 대로 고객 속성에 보고서 세트를 구독합니다](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ## 5 단계: 새 고객 속성을 활용하는 세그먼트 만들기
 
 데이터 세트가 처리 작업 공간에 처리되고 통합되면, 새로운 "보트 플래그" 고객 속성 차원을 활용하는 하나 이상의 세그먼트를 만듭니다.
+
