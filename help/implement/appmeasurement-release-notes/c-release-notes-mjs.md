@@ -2,13 +2,13 @@
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 seo-description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 seo-title: JavaScript용 AppMeasurement
-solution: 분석
+solution: Analytics
 subtopic: 릴리스 노트
 title: JavaScript용 AppMeasurement
 topic: 개발자 및 구현
 uuid: 1440013 D-D 266-4 DCE -9807-8 B 9 ADAC 73315
 translation-type: tm+mt
-source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
+source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
 
 ---
 
@@ -24,6 +24,15 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## 버전 2.17.0
+
+릴리스 날짜: **201년 8월 23일**
+
+| 기능/수정 | 설명 |
+| -----------| ---------- |
+| Baidu 지원 추가 | Baidu 쿼리 문자열 순서 변경 지원을 추가했습니다. |
+| 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는 | 옵트인을 기다리는 동안 큐에 있었던 히트에 오래된 방문자 값이 발생하던 문제를 수정했습니다. |
 
 ## 버전 2.16.0
 
