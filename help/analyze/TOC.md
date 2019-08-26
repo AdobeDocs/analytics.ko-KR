@@ -3,7 +3,7 @@ product: Analytics
 audience: 최종 사용자
 user-guide-title: Analytics 분석 안내서
 user-guide-url: /content/help/ko-KR/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
@@ -113,7 +113,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
          + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [FAQ](analysis-workspace/faq.md)
    + [관리 요구 사항](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [분석 작업 공간 성능 최적화](analysis-workspace/optimizing-performance.md)
+   + [Analysis Workspace 성능 최적화](analysis-workspace/optimizing-performance.md)
    + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 제한 사항](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
