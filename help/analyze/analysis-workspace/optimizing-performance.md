@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 분석 작업 공간 성능 최적화
-title: 분석 작업 공간 성능 최적화
+seo-title: Analysis Workspace 성능 최적화
+title: Analysis Workspace 성능 최적화
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
+source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
 
 ---
 
 
-# 분석 작업 공간 성능 최적화
+# Analysis Workspace 성능 최적화
 
 특정 요소는 Analysis Workspace 내에 있는 프로젝트의 성능에 영향을 줄 수 있습니다. 최적의 방법으로 프로젝트를 계획 및 작성할 수 있도록 프로젝트 작성을 시작하기 전에 그러한 기여자가 무엇인지 알아두는 것이 중요합니다. 다음은 프로젝트 최적화에 대한 성과 및 우수 사례에 영향을 주는 요소 목록입니다. Analysis Workspace 성능은 Adobe의 최우선 순위 중 하나이며 매일 지속적으로 개선되고 있습니다.
 
@@ -104,3 +104,6 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | 조직에서 특정 보고서 세트에 대해 너무 많은 동시 요청을 실행하려고 합니다. 이 오류에 대한 작성자는 API 요청, 예약된 프로젝트, 예약된 보고서, 예약된 경고 및 보고 요청을 만드는 동시 사용자입니다. 보고서 세트에 대한 요청과 일정은 하루 종일 더 고르게 전파되는 것이 좋습니다. |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe에서 해결해야 하는 문제가 해결되었습니다. 고객 지원 요청을 통해 오류 코드를 제출하는 것이 좋습니다. |
 | `The request is too complex.` | 보고 요청이 너무 커서 실행할 수 없습니다. 이 오류에 대한 작성자는 요청의 크기, 세그먼트 또는 검색 필터에서 일치하는 항목 너무 많은 항목, 너무 많은 지표, 호환되지 않는 차원 및 지표 조합 등으로 인해 시간 초과됩니다. 요청을 간소화하는 것이 좋습니다. |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | 검색 텍스트 기준을 좁히고 요청을 다시 시도하는 것이 좋습니다. |
+| `This dimension does not currently support non-default attribution models.` | 표에서 차원과 [기여도 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)의 차원을 바꾸는 것이 좋습니다. |
+| `Your request failed as a result of too many columns or pre-configured rows.` | 일부 열 또는 행을 제거하거나 별도의 시각화로 분할하는 것이 좋습니다. |
