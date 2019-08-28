@@ -5,12 +5,12 @@ seo-title: 세그먼트
 title: 세그먼트
 uuid: 677 F 6030-5 B 3 E -4 DFA-BB 79-9 F 27 F 3382 FB 1
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
 
 ---
 
 
-# 세그먼트{#topic_DC2917A2E8FD4B62816572F3F6EDA58A}를 참조하십시오 
+# 세그먼트 {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
 ## Segment rail {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
@@ -20,7 +20,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 [YouTube의 분석 작업 공간에서 세그먼트 사용](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
 
-## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
+## 세그먼트 만들기 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
 구성 요소 유형(차원, 차원 항목, 이벤트, 지표, 세그먼트, 세그먼트 템플릿, 날짜 범위)을 패널 위쪽에 세그먼트 드롭 영역으로 드래그하여 인스턴스 세그먼트를 생성할 수 있습니다.
 
@@ -49,35 +49,9 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 자유 형식 프로젝트에 세그먼트를 적용하는 몇 가지 다른 방법이 있습니다.
 
-<table id="table_45B3839D70674430AF3AC5AA3134F825"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 작업 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>선택 항목에서 세그먼트 만들기 </p> </td> 
-   <td colname="col2"> <p>인라인 세그먼트를 만듭니다. 행을 선택하고, 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 인라인 세그먼트를 만듭니다. 이 세그먼트는 열려 있는 프로젝트에만 적용되며, Analytics 세그먼트로 저장되지는 않습니다. </p> <p> 
-     <ol id="ol_1D1E661387354EBF992CC150915F642E"> 
-      <li id="li_B96666FD426F4AEE8EAB61B2C00A07FB">행을 선택합니다. </li> 
-      <li id="li_C2245B3EA81F4FAC88A33647922535AF">선택 항목을 마우스 오른쪽 단추로 클릭합니다. </li> 
-      <li id="li_AB4F8988B9A84920ABA06A91094625F6"><span class="uicontrol">선택 항목에서 세그먼트 만들기</span>를 클릭합니다. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> 구성 요소</span> &gt; <span class="uicontrol">새 세그먼트</span> </td> 
-   <td colname="col2"> <p><span class="wintitle">세그먼트 빌더</span>를 표시합니다. 세그멘테이션에 대한 자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external">세그먼트 작성</a>을 참조하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="ignoretag"><span class="uicontrol"> 공유</span> &gt; <span class="uicontrol">프로젝트 공유</span></span>또는 </p> <p> <span class="ignoretag"><span class="uicontrol">공유</span> &gt; <span class="uicontrol">프로젝트 데이터 조정</span></span> </p> </td> 
-   <td colname="col2"> <p>In <a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Curate &amp; Share</a>, segments that you apply to the project are available in shared analysis for the recipient. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>세그먼트를 차원으로 사용 </p> </td> 
-   <td colname="col2"> <p>비디오: <a href="https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39" format="https" scope="external">Analysis Workspace에서 세그먼트를 차원으로 사용</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 작업 | 설명 |
+|--- |--- |
+| 선택 항목에서 세그먼트 만들기 | 인라인 세그먼트를 만듭니다. 행을 선택하고, 선택 항목을 마우스 오른쪽 단추로 클릭한 다음 인라인 세그먼트를 만듭니다. 이 세그먼트는 열려 있는 프로젝트에만 적용되며, Analytics 세그먼트로 저장되지는 않습니다. 1. 행을 선택합니다. 2. 선택 항목을 마우스 오른쪽 단추로 클릭합니다. 3. Click *Create segment from selection*. |
+| 구성 요소 &gt; 새 세그먼트 | 세그먼트 빌더를 표시합니다. See [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about segmentation. |
+| 공유 &gt; 프로젝트 공유 또는 공유 &gt; 프로젝트 데이터 조정 | In [Curate and Share](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient. |
+| 세그먼트를 차원으로 사용 | 비디오: [Analysis Workspace에서 세그먼트를 차원으로 사용](https://www.youtube.com/watch?v=WmSdReKTWto&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=39) |
