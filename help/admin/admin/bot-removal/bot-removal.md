@@ -4,14 +4,14 @@ seo-title: Adobe Analytics의 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 seo-description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 translation-type: tm+mt
-source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
+source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 
 ---
 
 
 # Adobe Analytics의 보트 제거
 
-Adobe Analytics 에서는 보고에서 보트 트래픽을 제거할 수 있는 세 가지 기본 옵션이 있습니다.
+Adobe Analytics 에서는 보고에서 보트 트래픽을 제거할 수 있는 여러 옵션이 있습니다.
 
 1. Adobe Analytics의 기본 보트 필터링 방법은 IAB 보트 목록을 [기반으로 하는 보트 규칙을](/help/admin/admin/bot-removal/bot-rules.md) 만드는 것입니다. 이 목록은 매월 업데이트되며 Cdns 및 주요 인터넷 속성을 비롯한 다양한 소스의 목록을 컴파일합니다. 여기에는 즐겨찾기를 모두 포함한 수천 개의 알려진 보트가 포함됩니다. Google, Bing, Mozilla 등 이 목록은 보트 필터링에 대한 대부분의 사용 사례와 요구 사항을 다룹니다.
 
@@ -25,7 +25,7 @@ Adobe Analytics 에서는 보고에서 보트 트래픽을 제거할 수 있는 
 
 스크린샷 여기
 
-다음은 데이터 요소를 통해 이 ID를 캡처할 수 있는 방법에 대한 스크린샷입니다. Adobe mcorg ID를 데이터 요소에 정확하게 채워야 합니다.
+데이터 요소를 통해 이 ID를 캡처할 수 있는 방법은 다음과 같습니다. Adobe ecorg ID를 데이터 요소에 정확하게 입력해야 합니다.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
