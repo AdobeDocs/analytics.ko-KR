@@ -3,7 +3,7 @@ product: Analytics
 audience: 관리
 user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/ko-KR/analytics/admin/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
 
 ---
