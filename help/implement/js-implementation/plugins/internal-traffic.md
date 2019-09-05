@@ -4,7 +4,7 @@ description: 내부 트래픽 플러그인은 내부 네트워크에서 온 방�
 seo-description: Internal Traffic Plugin
 seo-title: Internal Traffic Plugin
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
 
@@ -30,23 +30,24 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 1. 인트라넷 픽셀 추가: 인트라넷에 액세스하려는 파일 유형을 추가할 수 있습니다. 1 x 1 투명 픽셀이 권장됩니다. 내부 네트워크에서 광범위하게 액세스할 수 있는 인트라넷 위치에 배치해야 합니다.
 1. Evar 구성: Evar를 대상 보고서 세트 내에 추가해야 합니다. " 방문 "과" 원래 값 (처음) "의 할당이 있어야 합니다.
 1. 내부 URL 정의: Appmeasurement 구성 변수 내에서 doplugins가 인스턴스화되는 전 픽셀 또는 다른 파일에 대한 내부 URL 변수 (s. inturl) 를 트래픽 확인에 사용할 수 있습니다. 예: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”.
+1. Doplugins를 수정하고 evar를 설정합니다. 그런 다음 1 단계에서 정의된 Evar를 사용하여 appmeasurement 라이브러리 코드의 doplugins 섹션 내에 이 코드 행을 포함시켜 플러그인을 초기화할 수 있습니다. `s.eVarXX = s.intCheck();`
+변수 값은 «내부» 또는 «외부» 로 설정됩니다.
 1. 플러그인 소스 코드를 추가합니다. Appmeasurement 파일의 doplugins 섹션 아래에 플러그인 코드를 포함시킵니다.
 
 ## 플러그인 소스 코드
 
 Appmeasurement 라이브러리의 doplugins 섹션 아래에 이 코드를 추가합니다.
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
-## Other Notes
+## 기타 참고 사항
 
-* Always test plug-in installations to ensure that data collection happens as expected before deploying them in a production environment.
-* Your implementation might be using a different object name than the default Adobe Analytics "s" object. If so, please update the object name accordingly.
-* If you employ a Tag Management System, please follow its steps to update doPlugins and the other custom plugins.
-
+* 프로덕션 환경에 배포하기 전에 항상 플러그인 설치를 테스트하여 데이터 수집이 예상대로 이루어지도록 하십시오.
+* 구현에서 기본 Adobe Analytics "s" 개체 이외의 다른 개체 이름을 사용할 수 있습니다. 그런 경우 개체 이름을 적절하게 업데이트하십시오.
+* 태그 관리 시스템을 사용하는 경우 해당 단계에 따라 Doplugins 및 기타 사용자 정의 플러그인을 업데이트하십시오.
