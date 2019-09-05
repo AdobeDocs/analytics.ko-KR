@@ -5,7 +5,7 @@ seo-title: Analytics 변수의 GDPR 레이블
 title: Analytics 변수의 GDPR 레이블
 uuid: A 37 A 1278-7 A 0 D -4 E 14-AE 35-43 BC 460 E 7 D 12
 translation-type: tm+mt
-source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
+source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
 
 ---
 
@@ -244,7 +244,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
 
 다른 예로는 가끔 eVar1을 통해 전송되는 CRM ID와 가끔 prop7을 통해 전송되는 CRM ID가 있을 수 있습니다. 그런 경우 eVar1의 값(있는 경우)을 eVar3에 복사하는 처리 규칙이 있습니다. 그렇지 않으면 prop7의 값을 eVar3로 복사합니다. 이 시나리오에서는 eVar3에 항상 CRM ID가 포함되므로 eVar3에만 ID-PERSON 레이블이 필요합니다.
 
-> [!WARNING] " Visitorid "및" customvisitorid "네임스페이스는 Analytics 기존 추적 쿠키 및 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 지정 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
+> [!CAUTION] " Visitorid "및" customvisitorid "네임스페이스는 Analytics 기존 추적 쿠키 및 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 지정 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
 
 ## 변수 유형 및 변수 유형이 지원하는 GDPR/DULE 레이블 {#section_CE7C3EDE1344466A98BC45E394B40762}
 
