@@ -4,7 +4,7 @@ seo-title: Adobe Analytics의 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 seo-description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ---
 
@@ -15,7 +15,14 @@ Adobe Analytics 에서는 보고에서 보트 트래픽을 제거할 수 있는 
 
 ## 보트 규칙 사용
 
-Adobe Analytics의 기본 보트 필터링 방법은 IAB 보트 목록을 [기반으로 하는 보트 규칙을](/help/admin/admin/bot-removal/bot-rules.md) 만드는 것입니다. 이 목록은 매월 업데이트되며 Cdns 및 주요 인터넷 속성을 비롯한 다양한 소스의 목록을 컴파일합니다. 여기에는 즐겨찾기를 모두 포함한 수천 개의 알려진 보트가 포함됩니다. Google, Bing, Mozilla 등 이 목록은 보트 필터링에 대한 대부분의 사용 사례와 요구 사항을 다룹니다.
+표준 보트 필터링 방법 및 사용자 지정 보트 필터링 방법 모두 다음 위치에서 !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]지원됩니다.
+
+| 규칙 유형 | 설명 |
+|--- |--- |
+| 표준 IAB 보트 규칙 | ' IAB 보트 필터링 규칙 활성화'를 선택하면 [IAB (](https://www.iab.com/) International Advertising Bureau's International Advertising Bureau's International Spiders &amp; Bots List) 를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
+| 사용자 지정 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 사용자 지정 보트 규칙을 정의하고 추가할 수 있습니다. |
+
+자세한 내용은 [보트 규칙 개요를](/help/admin/admin/bot-removal/bot-rules.md)참조하십시오.
 
 ## `hitGovernor` 구현 플러그인 사용
 
@@ -27,11 +34,11 @@ Adobe Analytics의 기본 보트 필터링 방법은 IAB 보트 목록을 [기�
 
 ### 1 단계: 방문자의 Experience Cloud ID를 새로운 선언된 ID로 전달
 
-시작하려면 [대상 핵심 서비스에서 새로 선언된 ID를 만들어야](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)합니다. 방문자의 Experience Cloud ID를 이 새로운 선언된 ID로 전달해야 합니다. 이 ID는 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)를 사용하여 빠르고 쉽게 수행할 수 있습니다. 선언된 ID에 대해 "ecid" 이름을 사용합니다.
+먼저 [People 코어 서비스에서 새로 선언된 ID를 만들어야](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)합니다. 방문자의 Experience Cloud ID를 이 새로운 선언된 ID로 전달해야 합니다. 이 ID는 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)를 사용하여 빠르고 쉽게 수행할 수 있습니다. 선언된 ID에 대해 "ecid" 이름을 사용합니다.
 
-스크린샷 여기
+![](assets/bot-cust-attr-setup.png)
 
-데이터 요소를 통해 이 ID를 캡처할 수 있는 방법은 다음과 같습니다. Adobe ecorg ID를 데이터 요소에 정확하게 입력해야 합니다.
+데이터 요소를 통해 이 ID를 캡처할 수 있는 방법은 다음과 같습니다. Experience Cloud orgid를 데이터 요소에 정확하게 채워야 합니다.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -53,15 +60,18 @@ Experience Cloud 방문자 ID를 차원으로 사용하고 보트 세그먼트�
 
 ### 4 단계: 이 목록을 고객 속성으로 다시 Adobe에 전달
 
-데이터 웨어하우스 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 나타납니다. 다음 Ecid를 복사하여 두 개의 열, ECID 및 보트 플래그가 있는 빈. csv 파일에 붙여 넣습니다.
+데이터 웨어하우스 보고서가 도착하면 내역 데이터에서 필터링해야 하는 ECID 목록이 나타납니다. 이러한 Ecid를 복사하여 두 개의 열, ECID 및 보트 플래그가 있는 빈. csv 파일에 붙여 넣습니다.
+
+* **ECID**: 이 열 헤더가 위에서 새로 선언된 ID에 제공한 이름과 일치하는지 확인하십시오.
+* **보트 플래그**: 이것을 고객 속성 스키마 차원으로 추가합니다.
+
+이. csv 파일을 고객 속성 가져오기 파일로 사용한 다음 [이 블로그 게시물에 설명된 대로 고객 속성에 보고서 세트를 구독합니다](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](assets/bot-csv-4.png)
 
-첫 번째 열 헤더가 위에서 새로 선언된 ID에 제공한 이름과 일치하는지 확인하십시오. 이. csv 파일을 고객 속성 가져오기 파일로 사용한 다음 [이 블로그 게시물에 설명된 대로 고객 속성에 보고서 세트를 구독합니다](https://theblog.adobe.com/link-digital-behavior-customers).
-
 ### 5 단계: 새 고객 속성을 활용하는 세그먼트 만들기
 
-데이터 세트가 처리 작업 공간에 처리되고 통합되면, 새로운 "보트 플래그" 고객 속성 차원을 활용하는 하나 이상의 세그먼트를 만듭니다.
+데이터 세트가 처리 작업 공간에 처리되고 통합되면, 새로운 "보트 플래그" 고객 속성 차원과 !![UICONTROL Exclude] 컨테이너를 활용하는 하나 이상의 세그먼트를 만듭니다.
 
 ![](assets/bot-filter-seg2.png)
 
@@ -76,4 +86,3 @@ Experience Cloud 방문자 ID를 차원으로 사용하고 보트 세그먼트�
 ### 7 단계: 정기적으로 2, 3 및 4 단계를 반복합니다.
 
 정기적으로 분석을 예약하기 전에 새 보트를 식별하고 필터링하도록 적어도 하나의 월별 미리 알림을 설정합니다.
-
