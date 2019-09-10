@@ -3,8 +3,8 @@ product: Analytics
 audience: 최종 사용자
 user-guide-title: Analytics 분석 안내서
 user-guide-url: /content/help/ko-KR/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+translation-type: tm+mt
+source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
 
 ---
 
@@ -326,6 +326,8 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
    + [시간](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 개요](tech-previews/overview.md)
++ 점진적 웹 앱 {#pwa}
+   + [점진적 웹 앱](pwa/pwa.md)
 + Analytics 보고 API {#analytics-reporting-api}
    + [Analytics 보고 API 개요](c-reporting-api/c-reporting-api.md)
    + [Analytics 보고 API 비교](c-reporting-api/api-comparison.md)
