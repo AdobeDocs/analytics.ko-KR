@@ -4,7 +4,7 @@ seo-title: 계산된 지표 합계
 description: Analytics 도구의 계산된 지표 합계가 어떻게 다른지 알아보기
 seo-description: 계산된 지표 합계를 계산하는 방법
 translation-type: tm+mt
-source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
+source-git-commit: 658925799c530b46ff7b56d5d0685af6d9fef1b8
 
 ---
 
@@ -28,13 +28,14 @@ source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 * 포함하려는 지표의 전체 버전을 포함하는 계산된 지표를 만듭니다.
 * 예약할 수 있는 데이터 추출 보고서를 만듭니다.
-* Reportbuilder 내에서 데이터 요청을 만듭니다.
-* 분석 작업 공간을 사용합니다 (아래 참조).
+* Create a data request within [!DNL ReportBuilder].
+* 사용 [!DNL Analysis Workspace] (아래 참조).
 
 ## 계산된 지표 합계 [!DNL Analysis Workspace]
 
-분석 작업 공간에서 특정 상황에서 계산된 지표를 합산하여 합계를 표시합니다.
+분석 작업 공간에서 데이터를 볼 때 대부분의 경우 계산된 지표 합계가 표시됩니다. 경우에 따라 보고서 행이 혼합된 형식 (예: 소수 및 통화) 일 때와 같이 합계를 제공하는 것은 불가능합니다.
 
-* 자유 형식 테이블에 [정적 행이](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 있을 때 현재 *[!UICONTROL 각 열]* 옵션에서 값을 합산하여 합계 계산 (기본값) 이 선택되어 있습니다.
-* In the [Donut Visualization](/help/analyze/analysis-workspace/visualizations/donut.md).
-* 의 요약 [변경 사항 시각화에서](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)
+합계가 표시되면, 종종 서버측에서 계산됩니다. 즉, 합계는 방문 횟수 또는 방문자 수와 같은 중복 중복 지표를 제거합니다. 특정 상황에서 계산된 지표는 테이블의 행에서 합계를 계산하여 클라이언트측에서 생성되므로 합계는 방문 횟수 또는 방문자 수와 같은 지표가 중복되지 않습니다. 다음과 같은 상황이 발생합니다.
+
+* [정적 행이](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 자유 형식 테이블에 사용되고 **[!UICONTROL [현재 행]** 합] 옵션 (기본값) 이 선택된 경우.
+* [도넛 시각화에서](/help/analyze/analysis-workspace/visualizations/donut.md)숫자가 최대 100%까지 증가합니다.
