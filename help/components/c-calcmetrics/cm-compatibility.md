@@ -5,7 +5,7 @@ seo-title: 지표 호환성
 title: 지표 호환성
 uuid: F 2706 E 2 B-C 0 CC -4 AF 2-BCB 4-1318796 E 9845
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> 현재 데이터 </td> 
-   <td colname="col2"> <p>[! 현재 데이터 포함] 옵션Dnl Analytics] 를 사용하여 최신 [! DNL Analytics] 데이터를 참조하십시오. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external"> 현재 데이터에</a>는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다. </p> <p>현재 데이터는 곱셈, 나눗셈, 덧셈 및 뺄셈을 포함하는 계산된 지표들만 지원합니다. 현재 데이터는 세그먼트나 함수를 포함하는 고급 계산 지표를 지원하지 않습니다. </p> </td> 
+   <td colname="col2"> <p>[분석] 메뉴의 [현재 데이터 포함] 옵션을 사용하면 일반적으로 데이터가 모두 처리되고 완료되기 전에 최신 분석 데이터를 볼 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external"> 현재 데이터에</a>는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다. </p> <p>현재 데이터는 곱셈, 나눗셈, 덧셈 및 뺄셈을 포함하는 계산된 지표들만 지원합니다. 현재 데이터는 세그먼트나 함수를 포함하는 고급 계산 지표를 지원하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 완전히 처리된 데이터 </td> 
