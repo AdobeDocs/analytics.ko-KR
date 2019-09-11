@@ -2,12 +2,14 @@
 title: 크로스 디바이스 분석 FAQ
 description: 장치 간 분석에 대한 FAQ
 translation-type: tm+mt
-source-git-commit: c104fbda3dc4a6be6b596c60c6e1973407d94f80
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # FAQ
+
+> [!NOTE] 크로스 디바이스 분석 문서는 기능이 추가로 개발됨에 따라 변경될 수 있습니다. 업데이트를 정기적으로 확인할 수 있습니다.
 
 **CDA를 사용하여 어떻게 한 장치 유형에서 다른 장치 유형으로 이동하는지 확인할 수 있습니까?**
 
