@@ -4,7 +4,7 @@ seo-title: Adobe Analytics의 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 seo-description: Adobe Analytics에서 보트를 제거하는 3 가지 방법
 translation-type: tm+mt
-source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
+source-git-commit: 711d58d139abcff344e43e1484f0ba2f2d3407cf
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Analytics 에서는 보고에서 보트 트래픽을 제거할 수 있는 
 
 ## 보트 규칙 사용
 
-표준 보트 필터링 방법 및 사용자 지정 보트 필터링 방법 모두 다음 위치에서 !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]지원됩니다.
+표준 및 사용자 지정 보트 필터링 방법은 모두 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; 설정 **[!UICONTROL 편집]** &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 보트 규칙으로 지원됩니다]**.
 
 | 규칙 유형 | 설명 |
 |--- |--- |
