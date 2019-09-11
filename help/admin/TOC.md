@@ -3,8 +3,8 @@ product: Analytics
 audience: 관리
 user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/ko-KR/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
+translation-type: tm+mt
+source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
    + 보트 제거 {#bot-removal}
       + [보트 제거](admin/bot-removal/bot-removal.md)
       + [보트 규칙 개요](admin/bot-removal/bot-rules.md)
-      + [보트 규칙 업로드](admin/bot-removal/t-upload-bot-rules.md)
-      + [사용자 지정 보트 규칙 만들기](admin/bot-removal/t-create-bot-rules.md)
    + [코드 관리자](admin/code-manager-admin.md)
    + 전환 변수 {#conversion-variables}
       + [전환 변수(eVar)](admin/conversion-var-admin/conversion-var-admin.md)
