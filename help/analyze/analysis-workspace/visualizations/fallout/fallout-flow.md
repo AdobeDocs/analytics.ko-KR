@@ -5,7 +5,7 @@ seo-title: 폴아웃 개요
 title: 폴아웃 개요
 uuid: 2 D 98899 E-E 401-4 D 7 A -8 AF 0-DE 0002 F 84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
@@ -44,7 +44,7 @@ Workspace 패널에 적용된 세그먼트는 Reports &amp; Analytics 및 Ad Hoc
 
 그런 다음 Workspace 패널 수준에서 세그먼트를 적용하는 경우 세그먼트는 다음과 같이 폴아웃과 결합합니다.
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 반대로 Reports &amp; Analytics와 Ad Hoc Analysis에서 세그먼트를 계산할 때에는 세그먼트가 다음과 같은 방식으로 결합됩니다.
 
