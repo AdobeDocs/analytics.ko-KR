@@ -3,7 +3,7 @@ product: Analytics
 audience: 최종 사용자
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/ko-KR/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
@@ -78,9 +78,9 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
 + Cross-Device Analytics {#cda}
-   + [크로스 디바이스 분석 개요](cda/cda-home.md)
-   + [장치 간 분석 설정](cda/cda-setup.md)
-   + [크로스 디바이스 분석 FAQ](cda/cda-faq.md)
+   + [Cross-Device Analytics 개요](cda/cda-home.md)
+   + [Cross-Device Analytics 설정](cda/cda-setup.md)
+   + [Cross-Device Analytics FAQ](cda/cda-faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)
    + [경고 빌더](c-alerts/alert-builder.md)
