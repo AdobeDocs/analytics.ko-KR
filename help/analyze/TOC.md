@@ -3,7 +3,7 @@ product: Analytics
 audience: 최종 사용자
 user-guide-title: Analytics 분석 안내서
 user-guide-url: /content/help/ko-KR/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
 
 ---
