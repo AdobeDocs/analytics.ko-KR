@@ -1,20 +1,20 @@
 ---
-description: 방문자 수, 고객 충성도 및 방문자 특성과 같은 방문자 정보를 표시합니다.
-seo-description: 방문자 수, 고객 충성도 및 방문자 특성과 같은 방문자 정보를 표시합니다.
+description: 방문자 수, 고객 충성도, 방문자 특성 등 방문자와 관련된 정보를 표시합니다.
+seo-description: 방문자 수, 고객 충성도, 방문자 특성 등 방문자와 관련된 정보를 표시합니다.
 seo-title: 방문자 보고서
 solution: Analytics
 title: 방문자 보고서
 topic: Ad Hoc Analysis
-uuid: 3 E 9 B 41 D 1-D 6 FF -47 A 8-AA 6 B -829 DF 1040 C 34
+uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
 # 방문자 보고서
 
-방문자 수, 고객 충성도 및 방문자 특성과 같은 방문자 정보를 표시합니다.
+방문자 수, 고객 충성도, 방문자 특성 등 방문자와 관련된 정보를 표시합니다.
 
 ## 재방문 주기 {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -65,7 +65,7 @@ c_reports_visit_number.xml
 
 >[!NOTE]
 >
->동일한 방문자가 동일한 기간에 웹 사이트를 여러 번 방문하는 경우 방문할 때마다 지정된 각 방문 번호가 증가합니다.
+>동일한 방문자가 동일한 기간 동안 웹 사이트를 여러 번 방문하는 경우 각 방문에 대해 지정된 각 방문 번호가 증가합니다.
 
 이 보고서는 방문자들이 수행한 모든 히트에서 Adobe로 전달된 방문자 ID 데이터를 기반으로 합니다. 이 데이터가 수신되면, Adobe는 이것을 이전 방문자 ID 데이터와 비교하여 히트가 다음 중 어디에 해당하는지 판단합니다.
 
@@ -75,7 +75,7 @@ c_reports_visit_number.xml
 
 >[!NOTE]
 >
->각 Analytics 방문자 ID는 Adobe 서버의 방문자 프로필과 연관되어 있습니다. 방문자 프로필은 모든 방문자 ID 쿠키 만료와 관계없이 비활성 기간 13달 후 삭제됩니다.
+>각각의 Analytics 방문자 ID는 Adobe 서버의 방문자 프로필과 연결됩니다. 방문자 프로필은 모든 방문자 ID 쿠키 만료와 관계없이 비활성 기간 13달 후 삭제됩니다.
 
 ## 고객 충성도 {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -96,7 +96,7 @@ c_reports_customerloyalty.xml
 
 >[!NOTE]
 >
->이 지표를 사용할 때에는 방문 (또는 방문자) 에 구매가 포함되었는지 여부에 상관없이 모든 사용자 방문 (또는 모든 방문자) 이 이 보고서에 표현됩니다.
+>이러한 지표를 사용할 때 방문(또는 방문자)에 구매가 포함되었는지 여부에 관계없이 모든 사용자 방문(또는 모든 방문자)이 이 이 보고서에 표시됩니다.
 
 충성도 상태는 구매 이벤트가 발생한 방문이 끝난 후에 변경됩니다. 예를 들어 새 고객(1회 구입)이 구매한 다음 동일한 방문 내에서 해당 구매 후 뉴스레터에 등록합니다. 다음 방문 시까지 방문자의 고객 충성도 상태가 변경되지 않으므로 뉴스레터 등록 이벤트는 여전히 새 고객의 상호 작용으로 간주됩니다.
 
@@ -110,13 +110,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL 언어]**: 방문자의 선호 언어를 표시하고 기본 브라우저 언어를 캡처하며 사이트 방문자가 가장 많이 사용하는 언어를 표시합니다.
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. 이 보고서는 [!UICONTROL 전체 도메인] 보고서와 다릅니다. 전체 도메인 보고서는 전체 ISP 도메인을 등록하지만, 이 보고서는 보조 도메인을 표시합니다.
+**[!UICONTROL 도메인]**: 방문자가 사이트를 액세스하기 위해 사용하는 조직과 ISP가 나열됩니다. 이 보고서는 [!UICONTROL 전체 도메인] 보고서와 다릅니다. 전체 도메인 보고서는 전체 ISP 도메인을 등록하지만, 이 보고서는 보조 도메인을 표시합니다.
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. 상업(.com), 네트워크(.net), 교육(.edu), 정부(.gov) 및 조직(.org)으로 끝나는 도메인은 주로 미국 소재이며 나머지 도메인과 별도로 나열됩니다.
+**[!UICONTROL 최상위 수준 도메인]**: 방문 기점의 도메인을 근거로 방문자의 지역을 확인하고 이러한 국가에서 온 방문자 수를 표시합니다. 상업(.com), 네트워크(.net), 교육(.edu), 정부(.gov) 및 조직(.org)으로 끝나는 도메인은 주로 미국 소재이며 나머지 도메인과 별도로 나열됩니다.
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+**[!UICONTROL 방문자 ZIP/우편 번호]**: 구매 성공 지표에 가장 큰 영향을 미친 고객이 생성한 우편 번호를 보여줍니다.
 
 ## 지리 특성 {#concept_7C1B930F90F945B49205D3855CAE1813}
 
