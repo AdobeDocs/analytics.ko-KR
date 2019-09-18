@@ -5,9 +5,9 @@ seo-title: IP 주소별 제외
 solution: Analytics
 title: IP 주소별 제외
 topic: 관리 도구
-uuid: 1 ED 6105 F-E 7 C 5-4 C 4 F-B 8 F 4-E 5 F 66 D 0824 BB
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 보고서에서 내부 웹 사이트 활동, 사이트 테스트 및 직원 사용과 같은 특정 IP 주소의 데이터를 제거할 수 있습니다. IP 주소 데이터를 제외하여 데이터를 제외하면 보고서 정확도가 향상됩니다. 또한 보고서 데이터를 왜곡할 수 있는 서비스 거부나 기타 악의적인 이벤트의 데이터를 제거할 수 있습니다. 방화벽을 사용하여 제외를 구성할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL IP 별로 제외]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL IP별 제외]**
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>IP 주소로 제외된 히트는 [서버 호출로](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)청구됩니다.
 
 ## 쿠키별 제외 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 >[!NOTE]
 >
->컴퓨터별 제외는 다음 경우에만 작동합니다.
+>다음 경우에만 컴퓨터별 제외가 작동합니다.
 >
 >* 동일한 워크스테이션에서 웹 사이트에 액세스합니다.
 >* 사용 중인 브라우저에서 쿠키가 활성화되어 있습니다.
