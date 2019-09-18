@@ -5,9 +5,9 @@ seo-title: 순차적 세그먼트 작성
 solution: Analytics
 title: 순차적 세그먼트 작성
 topic: 세그먼트
-uuid: 7 fb 9 f 1 c 7-a 738-416 a-aaa 2-d 77 e 40 fa 7 e 61
+uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
+source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 | 결과... | 시퀀스 |
 |--- |--- |
-| matches | A BA then<br>(a different visit) ba<br>then d then b |
+| 일치 | A,<br>BA, (다른 방문에서)<br>BA, D, B |
 | 일치하지 않음 | B 다음에 A |
 
 ## '시퀀스 이전에만' 및 '시퀀스 이후에만' {#section_736E255C8CFF43C2A2CAAA6D312ED574}
@@ -72,14 +72,14 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 | 결과... | 시퀀스 |
 |--- |--- |
-| matches | A 다음에 B |
-| 일치하지 않음 | A then c then b (b because not within 1 page of a)<br>**참고:** 차원 제한을 풀면 "a then b" 및 "a then c then b" 가 모두 일치합니다. |
+| 일치 | A 다음에 B |
+| 일치하지 않음 | <br> A와 C, B(B가 A의 1페이지 이내이기 때문)****&#x200B;참고: 치수 제한을 해제하면 "A then B" 및 "A then C then B" 모두 일치합니다. |
 
-## 간단한 페이지 보기 시퀀스
+## 단순 페이지 보기 시퀀스
 
 하나의 페이지를 본 다음 다른 페이지를 본 방문자를 식별합니다. 히트 수준 데이터는 이 시퀀스를 이전, 과거 또는 중간 방문 세션이나 시간 또는 그 사이에 일어나는 페이지 보기 수에 관계없이 필터링합니다.
 
-****&#x200B;예: 방문자가 페이지 A를 본 다음 같은 방문이나 다른 방문에서 페이지 B를 보았습니다.
+**예**:방문자가 페이지 A를 본 다음, 같은 방문이나 다른 방문에서 페이지 B를 보았습니다.
 
 **사용 사례**
 
@@ -98,7 +98,7 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 캠페인에서 벗어났으나 다른 세션에서 페이지 보기 시퀀스로 복귀한 방문자를 식별합니다.
 
-****&#x200B;예: 방문자가 한 번의 방문으로 페이지 A를 본 다음 다른 방문에서 페이지 B를 보았습니다.
+**예**:방문자는 한 번의 방문에서 페이지 A를 본 다음 다른 방문에서 페이지 B를 보았습니다.
 
 **사용 사례**
 
@@ -117,7 +117,7 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 확인되지 않은 방문 횟수에서 2개의 페이지를 열람했으나 별도의 방문에서 또 다른 페이지를 열람한 방문자를 식별합니다.
 
-****&#x200B;예: 방문자는 하나 이상의 방문에서 페이지 A와 페이지 B를 차례로 방문하고 별도의 방문으로 페이지 C를 방문합니다.
+**예**:방문자는 페이지 A를 방문한 다음 하나 이상의 방문에서 페이지 B를 방문한 다음 별도의 방문에서 페이지 C를 방문했습니다.
 
 **사용 사례**
 
@@ -130,7 +130,7 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 1. 왼쪽 창에서 2개의 페이지 차원을 최상위 [!UICONTROL 방문자] 컨테이너 내에 놓습니다.
 1. 사이에 THEN 연산자를 추가합니다.
-1. **[!UICONTROL 옵션]** &gt; **[!UICONTROL 컨테이너]** 추가를 클릭하고 방문자 수준 아래에 [!UICONTROL 방문] 컨테이너를 [!UICONTROL 추가하고] [!UICONTROL THEN] 연산자를 사용하여 시퀀스를 지정합니다.
+1. Click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container]** and add a [!UICONTROL Visit] container underneath the [!UICONTROL Visitor] level and sequenced using the [!UICONTROL THEN] operator.
 
 ![](assets/mixed_level_checkpoints.png)
 
@@ -157,11 +157,11 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 ![](assets/aggregate_checkpoints2.png)
 
-## 순차적 세그먼트에 "중첩"
+## 순차적 세그먼트의 "중첩"
 
 [!UICONTROL 방문]과 [!UICONTROL 히트] 수준 모두에 체크포인트를 배치함으로써 세그먼트가 특정 방문 및 특정 히트 내에 요구 사항을 충족하도록 제한할 수 있습니다. 
 
-****&#x200B;예: 방문자는 같은 방문에서 페이지 A를 방문하고 페이지 B를 방문했습니다. 새로운 방문에서는 방문자가 페이지 C로 이동했습니다.
+**예**:방문자는 같은 방문에서 페이지 A를 방문한 다음 페이지 B를 방문했습니다. 새로운 방문에서는 방문자가 페이지 C로 이동했습니다.
 
 **이 세그먼트 만들기**
 
@@ -179,17 +179,17 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 예:
 
-* **페이지 제외**. 세그먼트 규칙을 사용하여 특정 페이지(예: *`Home Page`*) 보고서에서 페이지가 "홈 페이지" 와 같은 히트 규칙을 만든 다음 제외합니다. 이 규칙은 자동으로 홈 페이지를 제외한 모든 값을 포함합니다.
+* **페이지 제외**. 세그먼트 규칙을 사용하여 특정 페이지(예: *`Home Page`*) from a report, create a Hit rule where the page equals "Home Page," and then exclude it. 이 규칙은 자동으로 홈 페이지를 제외한 모든 값을 포함합니다.
 * **참조 도메인 제외**. Google.com의 참조 도메인만 포함하고 나머지는 모두 제외하는 규칙을 사용합니다.
 * **비구매자 파악**. 주문이 0보다 큰 경우를 파악하고 해당 [!UICONTROL 방문자]를 제외합니다.
 
-[!UICONTROL 제외] 연산자를 사용하여 방문자가 특정 방문 또는 히트를 수행하지 않는 시퀀스를 식별할 수 있습니다. [!UICONTROL 제외 체크포인트]는 또한  [논리 그룹을](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112)참조하십시오.
+[!UICONTROL 제외] 연산자를 사용하여 방문자가 특정 방문 또는 히트를 수행하지 않는 시퀀스를 식별할 수 있습니다. [!UICONTROL 제외 체크포인트]는 또한  [Logic Group](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-### 체크포인트 사이 제외
+### 체크포인트 간 제외
 
 체크포인트가 다른 2개의 체크포인트 사이에 분명히 발생하지 않는 곳에서 방문자를 세그먼트화하는 논리를 적용합니다.
 
-****&#x200B;예: 페이지 A를 방문하고 페이지 C를 방문했지만 페이지 B를 방문하지 않은 방문자.
+**예**:페이지 A를 방문하고 페이지 C를 방문했지만 페이지 B를 방문하지 않은 방문자.
 
 **사용 사례**
 
@@ -200,19 +200,19 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 **이 세그먼트 만들기**
 
-단순, 혼합 수준 또는 중첩 순차적 세그먼트와 같은 세그먼트를 만든 다음 컨테이너 요소에 대해 [!UICONTROL EXCLUDE] 연산자를 설정합니다. 아래 예는 집계 세그먼트로서, 여기에서는 3개의 [!UICONTROL 히트] 컨테이너를 캔버스로 드래그하고 [!UICONTROL THEN] 연산자를 지정하여 컨테이너 논리를 연결한 다음 중간 페이지 보기 컨테이너를 제외함으로써, 시퀀스에서 페이지 A로부터 페이지 C로 이동한 방문자만 포함하게 됩니다.
+단순, 혼합 수준 또는 중첩된 순차적 세그먼트에 대해 원하는 대로 세그먼트를 만든 다음 컨테이너 [!UICONTROL 요소에 대해] EXCLUDE 연산자를 설정합니다. 아래 예는 집계 세그먼트로서, 여기에서는 3개의 [!UICONTROL 히트] 컨테이너를 캔버스로 드래그하고 [!UICONTROL THEN] 연산자를 지정하여 컨테이너 논리를 연결한 다음 중간 페이지 보기 컨테이너를 제외함으로써, 시퀀스에서 페이지 A로부터 페이지 C로 이동한 방문자만 포함하게 됩니다.
 
 ![](assets/exclude_between_checkpoints.png)
 
-### 시퀀스 시작 부분에서 제외
+### 시퀀스 시작 시 제외
 
 제외 체크포인트가 순차적 세그먼트의 시작 부분에 있는 경우, 제외된 페이지 보기가 제외되지 않은 첫 번째 히트보다 먼저 발생하지 않았음을 알 수 있습니다.
 
-****&#x200B;예: 방문자가 페이지 B가 아니라 페이지 A를 방문했습니다.
+**예**:방문자는 페이지 B가 아니라 페이지 A를 방문했습니다.
 
 **사용 사례**
 
-다음은 이러한 유형의 세그먼트를 사용할 수 있는 방법의 예입니다.
+다음은 이 유형의 세그먼트를 사용할 수 있는 방법의 사용 사례입니다.
 
 * 페이지 A는 방문하고 페이지 B는 방문하지 않은 방문자
 * 한 식당에서는 기본 랜딩 페이지를 피하고 주문 페이지로 직접 이동하는 단골 사용자를 확인하려고 합니다.
@@ -227,7 +227,7 @@ source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 제외 체크포인트가 시퀀스 끝에 있으면 체크포인트가, 제외되지 않은 마지막 체크포인트와 방문자 시퀀스의 끝 사이에서 발생하지 않았음을 알 수 있습니다.
 
-****&#x200B;예: 방문자는 페이지 A를 방문한 다음 현재 또는 다음 방문에서 페이지 B를 방문하지 않았습니다.
+**예**:방문자는 페이지 A를 방문한 다음 현재 또는 이후 방문에서 페이지 B를 방문하지 않았습니다.
 
 **사용 사례**
 
@@ -244,38 +244,35 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 논리 그룹 컨테이너
 
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). [!UICONTROL 논리 그룹] 컨테이너는 그룹화된 체크포인트 사이에 순서 지정 없이 *여러 개의 체크포인트를 그룹으로**처리하도록* 설계되었습니다. 즉, 해당 그룹 내의 체크포인트 순서는 신경 쓰지 않습니다. 예를 들어 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 중첩할 수 없습니다. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+논리 그룹 컨테이너는 조건을 단일 순차적 세그먼트 체크포인트로 그룹화해야 합니다. 비순차적 컨테이너(히트, 방문, 방문자)는 전체 시퀀스 내에 조건을 충족해야 하는 것이 아니므로 THEN 연산자에 인접한 경우 비직관적인 결과를 생성합니다. 특수 논리 그룹 컨테이너는 이전 순차적 체크포인트 후 다음 순차적 체크포인트 전에 해당 조건을 충족하기 위해 순차적 세그먼테이션에서만 사용할 수 있습니다. 논리 그룹 체크포인트 자체 내의 조건은 임의의 순서대로 충족될 수 있습니다.
 
-| 표준 컨테이너 계층 |
-|---|
-| ![](assets/nesting_container.png) |
-| [!UICONTROL 방문자] 컨테이너 내에서 [!UICONTROL 방문] 및 [!UICONTROL 히트] 컨테이너는 히트, 방문 횟수, 방문자를 기준으로 세그먼트를 추출하도록 시퀀스에 중첩됩니다. |
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). 반면 논리 그룹 [!UICONTROL 컨테이너는] 그룹화된 체크포인트 간의 순서 *없이*&#x200B;여러 체크포인트를 그룹으로 *처리하도록* 디자인되었습니다. 다시 말해, 우리는 그 그룹 내의 체크포인트 순서에 대해 신경쓰지 않습니다. 예를 들어 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 중첩할 수 없습니다. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
->[!UICONTROL 논리 그룹은] 순차적 세그먼트에서만 정의할 수 있습니다. 즉 [!UICONTROL , THEN] 연산자가 표현식 내에 사용됨을 의미합니다.
+>A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
 
-| 논리 컨테이너 비표준 계층 |
-|---|
-| ![](assets/logic_group_hierarchy.png) |
-| [!UICONTROL 논리 그룹] 컨테이너 외부에서 표준 컨테이너 계층도 필요합니다. 하지만 [!UICONTROL 논리 그룹] 컨테이너 안에서는 체크포인트에 순서 또는 계층 설정이 필요 없습니다. 이러한 체크포인트는 방문자가 순서에 관계없이 충족하면 됩니다. |
+| 컨테이너 계층 | 일러스트레이션 | 정의 |
+|---|---|---|
+| 표준 컨테이너 계층 | ![](assets/nesting_container.png) | [!UICONTROL 방문자] 컨테이너 내에서 [!UICONTROL 방문] 및 [!UICONTROL 히트] 컨테이너는 히트, 방문 횟수, 방문자를 기준으로 세그먼트를 추출하도록 시퀀스에 중첩됩니다. |
+| 논리 컨테이너 계층 | ![](assets/logic_group_hierarchy.png) | [!UICONTROL 논리 그룹] 컨테이너 외부에서 표준 컨테이너 계층도 필요합니다. 하지만 [!UICONTROL 논리 그룹] 컨테이너 안에서는 체크포인트에 순서 또는 계층 설정이 필요 없습니다. 이러한 체크포인트는 방문자가 순서에 관계없이 충족하면 됩니다. |
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-다른 컨테이너와 마찬가지로 [!UICONTROL 논리 그룹] 컨테이너도 [!UICONTROL 세그먼트 빌더에서 여러 방법으로 작성할]수 있습니다. 다음은 [!UICONTROL 논리 그룹] 컨테이너 중첩에 선호되는 방법입니다. 
+다른 컨테이너와 마찬가지로 [!UICONTROL 논리] 그룹 컨테이너도 세그먼트 빌더 내에서 여러 방법으로 작성할 수 [!UICONTROL 있습니다]. 다음은 [!UICONTROL 논리 그룹] 컨테이너 중첩에 선호되는 방법입니다. 
 
 1. 왼쪽 창에서 차원, 이벤트 또는 세그먼트를 드래그합니다.
 1. 상단 컨테이너를 [!UICONTROL 방문자] 컨테이너로 변경합니다.
 1. 기본으로 삽입된 [!UICONTROL AND] 또는 [!UICONTROL OR] 연산자를 THEN 연산자로 바꿉니다.
-1. [!UICONTROL 히트] 컨테이너 (차원, 이벤트 또는 항목) 를 선택하고 **[!UICONTROL 옵션]** &gt; 선택에서 컨테이너 **[!UICONTROL 추가를 클릭합니다]**.
+1. Select the [!UICONTROL Hit] containers (the Dimension, Event, or Item) and click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container from selection]**.
 1. 컨테이너 아이콘을 클릭하고 **[!UICONTROL 논리 그룹을 선택합니다]**.  ![](assets/logic_group_checkpoints.png)
 1. 이제 [!UICONTROL 계층]에 상관 없이 [!UICONTROL 히트]를 논리 그룹 컨테이너 내에 설정할 수 있습니다.
 
-### 임의 순서의 논리 그룹 체크포인트
+### 임의의 순서대로 논리 그룹 체크포인트
 
-[!UICONTROL 논리 그룹]을 사용하면 해당 그룹 내에 시퀀스 외부에 있는 조건을 충족할 수 있습니다. [!UICONTROL 방문] 또는 [!UICONTROL 히트] 컨테이너가 일반적인 계층에 관계없이 발생하는 세그먼트를 만들 수 있습니다.****
+[!UICONTROL 논리 그룹]을 사용하면 해당 그룹 내에 시퀀스 외부에 있는 조건을 충족할 수 있습니다. [!UICONTROL 방문] 또는 [!UICONTROL 히트] 컨테이너가 일반적인 계층에 관계없이 발생하는 세그먼트를 만들 수 있습니다.
 
-****&#x200B;예: 페이지 A를 방문한 다음 순서에 관계없이 페이지 B와 페이지 C를 방문한 방문자.
+**예**:페이지 A를 방문한 다음 순서에 관계없이 페이지 B와 페이지 C를 방문한 방문자.
 
 **이 세그먼트 만들기**
 
@@ -283,11 +280,11 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 ![](assets/logic_group_any_order2.png)
 
-### 논리 그룹 첫 일치
+### 논리 그룹 첫 번째 일치
 
 [!UICONTROL 논리 그룹]을 사용하면 해당 그룹 내에 시퀀스 외부에 있는 조건을 충족할 수 있습니다. 이처럼 순서가 없는 최초 일치 세그먼트에서는 먼저 페이지 B 또는 페이지 C의 페이지 보기가 된 다음 필요한 페이지 A 보기가 되도록 [!UICONTROL 논리 그룹] 규칙이 정해집니다.
 
-****&#x200B;예: 페이지 B 나 페이지 C를 방문한 다음 페이지 A를 방문한 방문자.
+**예**:페이지 B나 페이지 C를 방문한 다음 페이지 A를 방문한 방문자.
 
 **이 세그먼트 만들기**
 
@@ -295,11 +292,11 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 ![](assets/logic_group_1st_match.png)
 
-### 논리 그룹 제외 및
+### 논리 그룹 제외 AND
 
 여러 페이지 보기를 합계하여 다른 페이지가 확실히 누락된 상태에서 반드시 히트해야 하는 페이지를 정의하는 [!UICONTROL 논리 그룹]을 사용하여 세그먼트를 작성합니다. ****
 
-****&#x200B;예: 방문자는 페이지 A를 방문한 다음 페이지 B 나 C를 확실히 방문하지 않았으나 페이지 D를 히트했습니다.
+**예**:방문자가 페이지 A를 방문한 다음 페이지 B나 C를 명시적으로 방문하지 않고 페이지 D를 히트했습니다.
 
 **이 세그먼트 만들기**
 
@@ -313,7 +310,7 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 여러 페이지 보기를 합계하여 다른 페이지가 확실히 누락된 상태에서 반드시 히트해야 하는 페이지를 정의하는 [!UICONTROL 논리 그룹]을 사용하여 세그먼트를 작성합니다.
 
-****&#x200B;예: 페이지 A를 방문했지만 페이지 A 앞에 페이지 B 나 페이지 C를 방문하지 않은 방문자
+**예**:페이지 A를 방문했지만 페이지 A 이전에 페이지 B나 페이지 C를 방문하지 않은 방문자.
 
 **이 세그먼트 만들기**
 
@@ -325,7 +322,7 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 ![](assets/logic_exclude_or.png)
 
-## 시간 초과 및 후 세그먼트 작성
+## 시간 내 및 시간 후 세그먼트 작성
 
 각 컨테이너의 헤더에 포함된 [!UICONTROL Within] 및 [!UICONTROL After] 연산자를 사용하여 시간, 이벤트 및 카운트를 정의합니다.
 
@@ -343,8 +340,8 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 | 연산자 | 설명 |
 |--- |--- |
-| AFTER | After 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다. After 값 설정 시에는 세그먼트가 적용될 때 시간 한도가 시작됩니다. 예를 들어 페이지 A를 방문하고 하루가 지날 때까지 돌아와 페이지 B를 방문하지는 않는 방문자를 파악하기 위해 After 연산자를 컨테이너에 설정한 경우 방문자가 페이지 A를 떠날 때 해당 날이 시작됩니다. 방문자가 세그먼트에 포함되려면 페이지 A를 나간 후 페이지 B를 보기 위해 최소 1440 분 (하루) 이 지나야 합니다. |
-| WITHIN | Within 연산자는 두 체크포인트 사이의 시간에 대한 최대 한도 지정에 사용됩니다. 예를 들어 페이지 A를 방문한 다음 하루 내에 페이지 B를 방문하도록 돌아온 방문자를 파악하기 위해 Within 연산자를 컨테이너에 설정한 경우 방문자가 페이지 A를 떠날 때 해당 날이 시작됩니다. 세그먼트에 포함하려면 방문자는 페이지 B를 열기 전에 최대 하루의 시간을 갖게 됩니다. 방문자가 세그먼트에 포함되려면 페이지 B를 보기 위해 페이지 A를 나간 후 최대 1440 분 (하루) 내에 페이지 B를 방문해야 합니다. |
+| AFTER | After 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다. After 값 설정 시에는 세그먼트가 적용될 때 시간 한도가 시작됩니다. 예를 들어 After 연산자가 페이지 A를 방문하지만 하루 후 페이지 B를 방문하지 않는 방문자를 식별하기 위해 컨테이너에 설정된 경우 방문자가 페이지 A를 떠날 때 그 날이 시작됩니다. 방문자가 세그먼트에 포함되려면 페이지 A를 나간 후 페이지 B를 보기 위해 최소 1440분(하루)이 경과해야 합니다. |
+| WITHIN | Within 연산자는 두 체크포인트 사이의 시간에 대한 최대 한도 지정에 사용됩니다. 예를 들어 Within 연산자가 페이지 A를 방문하고 하루 이내에 페이지 B를 방문하기 위해 돌아온 방문자를 식별하기 위해 컨테이너에 설정된 경우 방문자가 페이지 A를 떠날 때 그 날이 시작됩니다.세그먼트에 포함되려면 방문자가 페이지 B를 열기 전에 최대 하루 시간을 갖습니다.  방문자가 세그먼트에 포함되려면 페이지 B를 보기 위해 페이지 A를 나간 후 최대 1440분(하루) 내에 페이지 B를 방문해야 합니다. |
 | AFTER/WITHIN | After 및 Within 연산자를 모두 사용할 때는 두 연산자가 모두 순차적이 아니라 나란히 시작하고 끝난다는 사실을 이해하는 것이 중요합니다.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. 두 조건 모두 첫 번째 페이지 히트에서만 적용됩니다. |
 
 ### After 연산자 사용
@@ -352,22 +349,22 @@ Within sequential segmentation, it is required that containers are ordered stric
 * Time After를 사용하면 연도, 월, 일, 시간 및 분별로 추적하여 방문을 일치시킬 수 있습니다.
 * Time After는 세밀한 세부기간을 정의할 수 있는 유일한 수준인 [!UICONTROL 히트] 컨테이너에서만 적용됩니다.
 
-****&#x200B;예: 페이지 A를 방문하고 2 주 후에야 페이지 B를 방문한 방문자. ****
+**예**:페이지 A를 방문한 다음 2주 후에만 페이지 B를 방문했습니다.***
 
 ![](assets/time_between_after_operator.png)
 
-**세그먼트 만들기**: 이 세그먼트는 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 2 개의 히트] 컨테이너와 함께 추가하여 만듭니다. 그런 다음 [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열어서 주 수를 설정할 수 있습니다.
+**세그먼트 만들기**:이 세그먼트는 두 개의 히트 컨테이너와 [!UICONTROL 함께] 방문자 컨테이너를 추가하여 [!UICONTROL 만듭니다] . 그런 다음 [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열어서 주 수를 설정할 수 있습니다.
 
 ![](assets/after_operator.png)
 
-**matches**
+**일치**
 
 "After 2 weeks"로 설정되었을 때 페이지 A 히트가 2019년 6월 1일 00:01에 발생하면, 페이지 B에 대한 다음 히트가 2019년 6월 15일 00:01(14일 후) 전에 발생하는 한 일치합니다. 
 
 | 히트 A | 히트 B | 일치 |
 |--- |--- |--- |
-| **A** 히트: 2019년 6월 1일 00:01 | **B** 히트: 2019년 6월 15일 00:01 | **일치:** 이 시간 제한은 2019 년 6 월 1 일 이후 (2 주) 이기 때문에 일치합니다. |
-| **A** 히트: 2019년 6월 1일 00:01 | **B** 히트: 2019 년 6 월 8 일 00:01 B 히트: 2019 년 6 월 15 일 00:01 | **일치하지 않음:** 페이지 B에 대한 첫 번째 히트는 2 주 후 요구하는 제한과 상충하기 때문에 일치하지 않습니다. |
+| **A** 히트: 2019년 6월 1일 00:01 | **B** 히트: 2019년 6월 15일 00:01 | **** 일치:이 시간 제한은 2019년 6월 1일 이후(2주)이므로 일치합니다. |
+| **A** 히트: 2019년 6월 1일 00:01 | **B** 히트:2019년 6월 8일 00:01 B 히트:2019년 6월 15일 00:01 | **** 일치하지 않음:페이지 B의 첫 번째 히트가 2주 후에 요구하는 제한과 충돌하므로 일치하지 않습니다. |
 
 ### Within 연산자 사용
 
@@ -378,15 +375,15 @@ Within sequential segmentation, it is required that containers are ordered stric
 >
 >"within" 절, THEN 문 사이에 "1개 이내의 검색 키워드 인스턴스", "1개 이내의 eVar 47 인스턴스" 등을 추가할 수 있습니다. 이 경우 측정 기준의 한 개 인스턴스 이내로 세그먼트를 제한합니다.
 
-****&#x200B;예: 페이지 A를 방문하고 5 분 내에 페이지 B를 방문한 방문자.
+**예**:방문자는 페이지 A를 방문한 다음 5분 이내에 페이지 B를 방문했습니다.
 
 ![](assets/time_between_within_operator.png)
 
-**세그먼트 만들기**: 이 세그먼트는 [!UICONTROL 방문자] 컨테이너를 추가한 다음 [!UICONTROL 2 개의 히트] 컨테이너와 함께 드래그하여 만듭니다. [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열고 간격: 히트, 페이지 보기, 방문, 분, 시간, 일, 주, 월, 분기 또는 년을 설정합니다.
+**세그먼트**&#x200B;만들기:이 세그먼트는 방문자 컨테이너를 추가한 [!UICONTROL 다음] 두 개의 히트 컨테이너와 함께 드래그하여 [!UICONTROL 만듭니다] . [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열고 간격: 히트, 페이지 보기, 방문, 분, 시간, 일, 주, 월, 분기 또는 년을 설정합니다.
 
 ![](assets/within_operator.png)
 
-**matches**
+**일치**
 
 시간 제한 내에 일치가 일어나야 합니다. 표현식 의 경우 방문자의 페이지 A 히트가 00:01에 일어나면 그 뒤의 페이지 B 히트는 그것이 00:06 또는 그 전(00:01을 포함하여 5분 후)에 일어나는 한 일치합니다. 같은 분(00:01) 내의 히트도 일치합니다.
 
@@ -394,15 +391,15 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 [!UICONTROL Within] 및 [!UICONTROL After]를 사용하여 세그먼트의 양 끝에서 최대 및 최소 종점을 제공합니다.
 
-****&#x200B;예: 페이지 A를 방문하고 2 주 후, 단 1 개월 내에 페이지 B를 방문한 방문자.
+**예**:페이지 A를 방문한 다음 2주 후 1개월 내에 페이지 B를 방문했습니다.
 
 ![](assets/time_between_using_both_operators.png)
 
-**세그먼트 만들기**: 방문자 컨테이너 내에서 [!UICONTROL 2 개의 히트] 컨테이너를 시퀀스 지정하여 [!UICONTROL 세그먼트를] 만듭니다. 그런 다음 [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 설정합니다.
+**세그먼트 만들기**:방문자 컨테이너 내에 두 개의 [!UICONTROL 히트] 컨테이너를 시퀀스 지정하여 세그먼트를 [!UICONTROL 만듭니다] . 그런 다음 [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 설정합니다.
 
 ![](assets/within_after_together.png)
 
-**matches**
+**일치**
 
 2019년 6월 1일에 페이지 A를 히트하고 2019년 6월 15일 이후, 그리고 2019년 7월 1일 *이전*&#x200B;에 돌아오는 모든 방문자가 세그먼트에 포함됩니다. [시간 간격 제외](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)와 비교해 보십시오.
 
