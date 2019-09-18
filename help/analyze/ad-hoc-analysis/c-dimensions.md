@@ -1,13 +1,13 @@
 ---
 description: 차원은 보고서에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 원본 보고서 유형 지표의 상관 관계를 보여주거나 하위 관계를 보여 주거나 이 지표의 분류인 숫자가 아닌 값 및 날짜입니다.
 seo-description: 차원은 보고서에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 원본 보고서 유형 지표의 상관 관계를 보여주거나 하위 관계를 보여 주거나 이 지표의 분류인 숫자가 아닌 값 및 날짜입니다.
-seo-title: 측정기준
+seo-title: 차원
 solution: Analytics
 title: 차원
 topic: Ad Hoc Analysis
-uuid: A 843 D 3 AE -093 B -438 E -89 A 9-73312 A 2 EA 6 F 2
+uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -26,9 +26,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 일, 주, 월 등
 * 충성도
 * 모니터 해상도
-* 사용자 지정 eVar 및 s.prop 값
+* 사용자 정의 eVar 및 s.prop 값
 
-** [!UICONTROL 차원 창**]
+**[!UICONTROL 차원]창**
 
 [!UICONTROL 차원] 창에는 Marketing Reports &amp; Analytics 구현의 모든 제품 차원이 나열 및 구성됩니다. 원하는 차원 항목을 기반으로 보고서를 작성할 수 있습니다. 이제 차원을 다른 차원으로 세분화하는 방식으로 거의 모든 것을 분석 및 비교할 수 있습니다.
 
