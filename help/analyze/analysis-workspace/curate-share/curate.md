@@ -5,10 +5,10 @@ seo-description: 조정 기능을 사용하여 프로젝트를 공유하기 전�
 seo-title: 조정/공유 개요
 solution: Analytics
 title: 조정/공유 개요
-topic: Reports & Analytics
-uuid: 267 E 9678-95 A 1-4195-8 BA 4-E 8 A 53 C 28 EA 0 D
+topic: Reports and Analytics
+uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
@@ -27,16 +27,16 @@ source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
 
 1. 프로젝트를 생성하고 조정하는 권한을 지정하십시오.
 
-   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기/조정]** 권한이 활성화된 [그룹](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)이나 **모든 보고서 액세스]사용자 그룹에 사용자를 추가해야 합니다.[!UICONTROL ** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [프로젝트를 만들고 저장한](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 다음 **[!UICONTROL 공유]** &gt; 프로젝트 데이터 **[!UICONTROL 조정을 클릭합니다]**.
+1. [프로젝트를 만들고 저장한](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 다음 공유 **[!UICONTROL &gt; 프로젝트 데이터]** 조정을 **[!UICONTROL 클릭합니다]**.
 1. 공유하려는 구성 요소를 왼쪽의 드래그 가능한 구성 요소 스택에서 **[!UICONTROL 조정된 구성 요소]필드로 드래그합니다.**
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >구성 요소 조정은 프로젝트를 공유하는 데 필요하지 않습니다. 모든 사용 가능한 기본 구성 요소나 선택한 구성 요소와 프로젝트를 공유할 수 있습니다. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 일단 프로젝트에서 구성 요소를 조정하면, 해당 프로젝트에 기타 구성 요소를 더 이상 사용할 수 없습니다.
+   >프로젝트 공유에 구성 요소 조정은 필요하지 않습니다. 모든 사용 가능한 기본 구성 요소나 선택한 구성 요소와 프로젝트를 공유할 수 있습니다. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 일단 프로젝트에서 구성 요소를 조정하면, 해당 프로젝트에 기타 구성 요소를 더 이상 사용할 수 없습니다.
 
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
@@ -55,13 +55,13 @@ source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
 
    >[!IMPORTANT]
    >
-   >이 설정은 지속되지 않으며 공유 시 단일한 동작입니다.
+   >이 설정은 지속되지 않습니다. 이는 공유 시 하나의 동작입니다.
 
 1. 선택적으로 이 페이지를 수신자의 랜딩 페이지로 설정할 수 있습니다.
 
    >[!IMPORTANT]
    >
-   >이 설정은 지속되지 않으며 공유 시 단일한 동작입니다.
+   >이 설정은 지속되지 않습니다. 이는 공유 시 하나의 동작입니다.
 
 1. **[!UICONTROL 공유를 클릭합니다]**.
 
