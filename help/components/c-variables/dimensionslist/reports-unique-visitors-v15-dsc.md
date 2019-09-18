@@ -5,9 +5,9 @@ seo-title: 고유 방문자 수
 solution: Analytics
 title: 고유 방문자 수
 topic: 보고서
-uuid: e 70 e 1 a 14-b 3 b 9-4 d 1 a-a 8 a 5-a 247 a 443 c 752
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -129,7 +129,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-** [!UICONTROL 고유 방문자 보고서]가 *`Page`*.**
+**[!UICONTROL 고유 방문자 보고서]분류 기준&#x200B;*`Page`*.**
 
 [!UICONTROL 고유 방문자 보고서]에 대해 페이지를 선택할 수 있습니다. 다음 보고서에서는 방문자가 아래와 같은 날짜에 페이지 A를 방문합니다.
 
@@ -166,7 +166,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 기간 기반 고유 방문자(트렌드) {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
-시간별, 일일, 주별, 월별, 분기별 및 연간 [!UICONTROL 고유 방문자 보고서] (트렌드)를 실행할 수 있습니다.
+시간별, 일일, 주별, 월별, 분기별 및 연간 [!UICONTROL 고유 방문자 보고서](트렌드)를 실행할 수 있습니다.
 
 기간 기반 고유 방문자는 지정한 기간의 첫 번째 방문에서만 계산됩니다. 예를 들어, 시간대별 고유 방문자는 지정된 시간의 첫 방문만 계산합니다. 일일 고유 방문자는 지정한 날의 첫 번째 방문만 계산합니다.
 
@@ -174,7 +174,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 날짜 </th> 
-   <th colname="col2" class="entry"> 주간 고유 방문자 </th> 
+   <th colname="col2" class="entry"> 주간 고유 방문자 수 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -207,7 +207,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 날짜 </th> 
-   <th colname="col2" class="entry"> 일일 고유 방문자 </th> 
+   <th colname="col2" class="entry"> 일일 고유 방문자 수 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -240,7 +240,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 날짜 </th> 
-   <th colname="col2" class="entry"> 주간 고유 방문자 </th> 
+   <th colname="col2" class="entry"> 주간 고유 방문자 수 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -263,7 +263,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 세그멘테이션을 사용하여 이전 날짜 대신 나중 날짜가 포함되도록 날짜 범위를 변경할 수 있습니다. 예를 들어, 날짜 범위가 여전히 1월 2일에서 1월 3일까지라고 가정합니다(위 표에 표시). 페이지 = C인 세그먼트를 적용하면 1월 2일은 세그먼트에 들어가지 않으며 주간 고유 방문자의 첫 번째 히트는 1월 3일이 됩니다. 대신 페이지 = D인 세그먼트를 적용하면 1월 2일과 1월 3일이 모두 제외됩니다. 결과가 주별 고유 보고서에 표시되지 않으며 합계에서 제외됩니다.
 
-** 기간 기반 고유 방문자 보고서**
+**기간 기반 고유 방문자 보고서 **
 
 이러한 보고서는 특정 페이지, prop 및 특성(예: 페이지 = A)을 사용합니다.
 
@@ -275,7 +275,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 날짜 </th> 
-   <th colname="col2" class="entry"> 주간 고유 방문자 </th> 
+   <th colname="col2" class="entry"> 주간 고유 방문자 수 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -420,7 +420,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-한 특성을 다른 특성으로 분류하는 경우(예: *`page`* By *`eVar`*), Analytics는 기간 및 페이지의 각 고유 인스턴스 (또는 상관 관계가 있는 특성) 에 대해 기간 기반 고유 방문자를 할당합니다.
+한 특성을 다른 특성으로 분류하는 경우(예: *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 페이지 A를 eVar T, U로 분류하면, 페이지 A를 1월 1일에 봤기 때문에 1월 2일이 제외됩니다. 주간 고유 방문자에 대해 다음 보고서가 표시됩니다.
 
@@ -428,7 +428,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> eVar </th> 
-   <th colname="col2" class="entry"> 주간 고유 방문자 </th> 
+   <th colname="col2" class="entry"> 주간 고유 방문자 수 </th> 
   </tr> 
  </thead>
  <tbody> 
