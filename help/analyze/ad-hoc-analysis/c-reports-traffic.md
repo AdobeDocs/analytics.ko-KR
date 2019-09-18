@@ -5,9 +5,9 @@ seo-title: 트래픽 소스 보고서
 solution: Analytics
 title: 트래픽 소스 보고서
 topic: Ad Hoc Analysis
-uuid: 246 AFBDC -9 F 7 B -4956-A 44 A-B 7 AAD 948 F 392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 작용을 세부적으로 파악할 수 있습니다.
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## 트래픽 소스 보고서 {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 작용을 세부적으로 파악할 수 있습니다.
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+**[!UICONTROL 검색 키워드 - 모두]**: 사이트를 찾는 데 사용한 각 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+**[!UICONTROL 검색 키워드 - 유료]**: 사이트를 찾는 데 사용한 각 유료 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+**[!UICONTROL 검색 키워드 - 자연어]**: 사이트를 찾는 데 사용한 각 자연어 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
 
 ## 검색 엔진 {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+**[!UICONTROL 검색 엔진 - 모두]**: 사람들이 웹 페이지를 찾기 위해 사용하는 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+**[!UICONTROL 검색 엔진 - 유료]**: 사람들이 웹 페이지를 찾기 위해 사용하는 유료 키워드 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+**[!UICONTROL 검색 엔진 - 자연어]**: 사람들이 웹 페이지를 찾기 위해 사용하는 자연어 키워드 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
 
 ## 참조 도메인 {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,9 +130,9 @@ c_reports_ref_types.xml
 
 **사이트 내부**: 이러한 항목은 내부 URL 필터에서 태그가 지정된 항목입니다. 이러한 항목은 레퍼러 인스턴스로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
 
-** Java 스크립트 없음** JavaScript가 없으므로 유형을 식별할 수 없습니다 (알 수 없음). 즉, JavaScript 지원이 가능한 것으로 보고하지 않는 브라우저 클라이언트에서 레퍼러 정보가 제공되지 않은 경우입니다. 이 경우는 '레퍼러 인스턴스 수'로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
+** Java 스크립트 없음**:JavaScript가 없으므로 유형을 식별할 수 없습니다(알 수 없음). 즉, JavaScript 지원이 가능한 것으로 보고하지 않는 브라우저 클라이언트에서 레퍼러 정보가 제공되지 않은 경우입니다. 이 경우는 '레퍼러 인스턴스 수'로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
 
-**USENET(뉴스그룹)**: 레퍼러의 URL이 [!DNL news://]://로 시작하는 경우를 의미합니다. 따라서 참조 링크는 웹 페이지가 아닌 Usenet 뉴스그룹에 게시되었습니다.
+**USENET(뉴스그룹)**: 레퍼러의 URL이 `news://`://로 시작하는 경우를 의미합니다. 따라서 참조 링크는 웹 페이지가 아닌 Usenet 뉴스그룹에 게시되었습니다.
 
 >[!NOTE]
 >
