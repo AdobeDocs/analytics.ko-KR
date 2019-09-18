@@ -7,7 +7,7 @@ title: 순차적 세그먼트 작성
 topic: 세그먼트
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 논리 그룹 컨테이너
 
-논리 그룹 컨테이너는 조건을 단일 순차적 세그먼트 체크포인트로 그룹화해야 합니다. 비순차적 컨테이너(히트, 방문, 방문자)는 전체 시퀀스 내에 조건을 충족해야 하는 것이 아니므로 THEN 연산자에 인접한 경우 비직관적인 결과를 생성합니다. 특수 논리 그룹 컨테이너는 이전 순차적 체크포인트 후 다음 순차적 체크포인트 전에 해당 조건을 충족하기 위해 순차적 세그먼테이션에서만 사용할 수 있습니다. 논리 그룹 체크포인트 자체 내의 조건은 임의의 순서대로 충족될 수 있습니다.
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). 반면 논리 그룹 [!UICONTROL 컨테이너는] 그룹화된 체크포인트 간의 순서 *없이*&#x200B;여러 체크포인트를 그룹으로 *처리하도록* 디자인되었습니다. 다시 말해, 우리는 그 그룹 내의 체크포인트 순서에 대해 신경쓰지 않습니다. 예를 들어 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 중첩할 수 없습니다. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+논리 그룹 컨테이너는 조건을 단일 순차적 세그먼트 체크포인트로 그룹화해야 합니다. 특수 논리 그룹 컨테이너는 이전 순차적 체크포인트 후 다음 순차적 체크포인트 전에 해당 조건을 충족하기 위해 순차적 세그먼테이션에서만 사용할 수 있습니다. 논리 그룹 체크포인트 자체 내의 조건은 임의의 순서대로 충족될 수 있습니다. 반대로 순차적 컨테이너(히트, 방문, 방문자)는 전체 시퀀스 내에 조건을 충족해야 하는 것이 아니므로 THEN 연산자와 함께 사용할 경우 직관적이지 않은 결과가 생성됩니다.
+논리 [!UICONTROL 그룹] 컨테이너는 *여러 체크포인트를 그룹화된 체크포인트 간 순서*&#x200B;없이 그룹으로 *처리하도록* 디자인되었습니다. 다시 말해, 우리는 그 그룹 내의 체크포인트 순서에 대해 신경쓰지 않습니다. 예를 들어 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 중첩할 수 없습니다. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,19 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | 표준 컨테이너 계층 | ![](assets/nesting_container.png) | [!UICONTROL 방문자] 컨테이너 내에서 [!UICONTROL 방문] 및 [!UICONTROL 히트] 컨테이너는 히트, 방문 횟수, 방문자를 기준으로 세그먼트를 추출하도록 시퀀스에 중첩됩니다. |
 | 논리 컨테이너 계층 | ![](assets/logic_group_hierarchy.png) | [!UICONTROL 논리 그룹] 컨테이너 외부에서 표준 컨테이너 계층도 필요합니다. 하지만 [!UICONTROL 논리 그룹] 컨테이너 안에서는 체크포인트에 순서 또는 계층 설정이 필요 없습니다. 이러한 체크포인트는 방문자가 순서에 관계없이 충족하면 됩니다. |
+
+논리 그룹은 어렵다고 보일 수 있습니다. 다음은 이러한 그룹을 사용하는 방법에 대한 우수 사례입니다.
+
+**논리 그룹 또는 히트/방문 컨테이너?**
+순차적 체크포인트를 그룹화하려면 "컨테이너"가 논리 그룹입니다. 그러나 순차적 체크포인트는 단일 히트 또는 방문 범위 내에서 발생해야 하는 경우 '히트' 또는 '방문' 컨테이너가 필요합니다. (물론, 하나의 히트가 둘 이상의 체크포인트를 크레딧할 수 있는 순차적 체크포인트 그룹에 대해 '히트'는 적합하지 않습니다.)
+
+**논리 그룹은 순차적 세그먼트 작성을 단순화합니까?**
+네, 가능합니다. 이 질문에 답하려고 한다고 가정해 봅시다.방문자가 페이지 A 다음에 페이지 B, C 또는 D를 보았습니까? 논리 그룹 컨테이너 없이 이 세그먼트를 만들 수 있지만 복잡하고 힘든 작업입니다.방문자 컨테이너 [페이지 A 후 페이지 B 후 페이지 C] , 페이지 D 또는 방문자 컨테이너 [페이지 A, 페이지 B, 페이지 C] 또는 방문자 컨테이너 [페이지 A, 페이지 C] , 페이지 B 다음 페이지 B d [또는 방문자] [] [페이지 그런 다음 페이지 C 그런 다음 페이지 D 방문자 B 페이지 방문자 또는 방문자 컨테이너 페이지 그런 다음 페이지 D 그런 다음 페이지 D 그런 다음 페이지 B 페이지 C 그런 다음 방문자 페이지 C 또는 방문자 컨테이너 페이지 A그런 다음 페이지 D페이지 그런 다음 페이지 B]
+
+논리 그룹 컨테이너는 다음과 같이 세그먼트를 대폭 단순화합니다.
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +288,15 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 **이 세그먼트 만들기**
 
-페이지 B와 C는 바깥쪽 [!UICONTROL 방문자] 컨테이너 내의 [!UICONTROL 논리 그룹] 컨테이너에 중첩되어 있습니다. 그런 다음 A에 대한 [!UICONTROL 히트] 컨테이너 뒤에 [!UICONTROL AND] 연산자로 식별된 B와 C를 포함한 [!UICONTROL 논리 그룹] 컨테이너가 옵니다. [!UICONTROL 논리 그룹] 내에 있기 때문에 시퀀스가 정의되지 않고 페이지 B나 C를 히트하면 인수가 참이 됩니다. 
+페이지 B와 C는 바깥쪽 [!UICONTROL 방문자] 컨테이너 내의 [!UICONTROL 논리 그룹] 컨테이너에 중첩되어 있습니다. 그런 다음 A에 대한 [!UICONTROL 히트] 컨테이너 뒤에 [!UICONTROL AND] 연산자로 식별된 B와 C를 포함한 [!UICONTROL 논리 그룹] 컨테이너가 옵니다. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**다른 예**:페이지 B 또는 페이지 C를 방문한 다음 페이지 A를 방문한 방문자:
+
+![](assets/logic_group_any_order3.png)
+
+세그먼트는 논리 그룹의 체크포인트(B 또는 C) 중 하나를 임대할 때 일치해야 합니다. 또한 논리 그룹 조건은 동일한 히트에서 또는 여러 히트에서 &#x200B; 충족될 수 있습니다.
 
 ### 논리 그룹 첫 번째 일치
 
