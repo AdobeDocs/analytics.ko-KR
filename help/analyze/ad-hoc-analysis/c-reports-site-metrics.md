@@ -5,9 +5,9 @@ seo-title: 사이트 지표 보고서
 solution: Analytics
 title: 사이트 지표 보고서
 topic: Ad Hoc Analysis
-uuid: 0730747 a -216 f -4 a 58-b 62 b-a 9812968 cde 5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 방문자가 특정 페이지를 본 횟수, 특정 페이지에서 발생한 총 구매 횟수, 온 시간 및 유사한 수량 데이터와 같이, 웹 사이트에 대한 수량적 정보를 제공합니다. 이러한 보고서 각각은 다른 항목 기반 보고서에 배치할 수 있는 지표입니다.
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## 사이트 지표 보고서 {#concept_0639CA16551749A693F49ADED4842CCE}
 
 방문자가 특정 페이지를 본 횟수, 특정 페이지에서 발생한 총 구매 횟수, 온 시간 및 유사한 수량 데이터와 같이, 웹 사이트에 대한 수량적 정보를 제공합니다. 이러한 보고서 각각은 다른 항목 기반 보고서에 배치할 수 있는 지표입니다.
 
@@ -92,7 +92,7 @@ c_reports_time_spent_per_visit.xml
 
 ## 구매 보고서 {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-매출, 주문 및 판매량에 대한 요약 데이터를 표시합니다. You can also view the [!DNL Purchase Conversion Funnel] report.
+매출, 주문 및 판매량에 대한 요약 데이터를 표시합니다. 보고서를 볼 수도 [!DNL Purchase Conversion Funnel] 있습니다.
 
 <!-- 
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **매출**: 선택한 기간 동안의 총수익을 볼 수 있습니다. 3월 매출, 전주 구매 또는 당일 매출을 예로 들 수 있습니다.
 * **주문**: 지정된 기간 동안의 웹 사이트 주문 수량을 표시합니다. 주문에는 여러 제품이 포함될 수 있습니다.
 * **판매량**: 지정된 기간 동안 주문된 총 판매량을 보여줍니다.
-* ** 구매 전환 단계**: 소매 설정에서처럼 특정 순서로 발생하는 전환 이벤트를 사이트에 표시하는 데 이상적입니다. 단계 보고서는 주문, 매출 및 판매량은 물론 전환 프로세스의 각 단계에 대한 전환 지표를 보여줍니다. 
+* ** 구매 전환 단계**:소매 설정과 같이 특정 순서로 발생하는 전환 이벤트를 사이트에 표시하는 데 이상적입니다. 단계 보고서는 주문, 매출 및 판매량은 물론 전환 프로세스의 각 단계에 대한 전환 지표를 보여줍니다. 
 
 ## 장바구니 보고서 {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. 이러한 보고서에서 채널을 세분하고 각 채널의 상세 정보를 표시할 수 있습니다. AdLens를 사용하는 경우에는 Marketing Reports &amp; Analytics 채널 보고서에 분류가 표시됩니다.
+**[!UICONTROL 첫 번째 또는 마지막 접촉 채널 보고서]**: 특정 첫 번째 접촉 또는 마지막 접촉 채널에 대한 데이터를 알려주는 지표를 표시합니다. 이러한 보고서에서 채널을 세분하고 각 채널의 상세 정보를 표시할 수 있습니다. AdLens를 사용하는 경우에는 Marketing Reports &amp; Analytics 채널 보고서에 분류가 표시됩니다.
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. 채널 상세 보고서에서 개요 보고서의 채널 상세 정보 값을 면밀하게 검토할 수 있습니다.
+**[!UICONTROL 첫 번째 또는 마지막 접촉 채널 상세 보고서]**: 규칙을 구성할 때 ‘채널의 값을 다음으로 설정’ 옵션에서 사용자가 설정한 채널 값을 기준으로 페이지 이름, 레퍼러 등의 상세 정보를 표시합니다.  채널 상세 보고서에서 개요 보고서의 채널 상세 정보 값을 면밀하게 검토할 수 있습니다.
 
 마케팅 보고 및 분석에서 마케팅 채널을 구성하는 자세한 방법은 [마케팅 채널 도움말](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)을 참조하십시오.
