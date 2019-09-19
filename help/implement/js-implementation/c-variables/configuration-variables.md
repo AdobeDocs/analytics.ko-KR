@@ -9,7 +9,7 @@ title: 구성 변수
 topic: 개발자 및 구현
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -381,6 +381,8 @@ Adobe [!DNL Customer Care]에서는 보고서 세트에 대한 기본 통화 설
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * 통화 이벤트는 비통화 목적으로는 사용하면 안 됩니다. 통화가 아닌 임의의 또는 동적인 값을 계산해야 하는 경우에는 [!UICONTROL 숫자] 이벤트 유형을 사용하십시오.
 * When the *`currencyCode`* 변수가 비어 있으면, 전환이 적용되지 않습니다.
+
+자세한 내용은 통화 [코드를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
