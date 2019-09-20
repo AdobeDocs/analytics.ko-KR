@@ -6,12 +6,12 @@ seo-title: 웹 사이트의 데이터 수집 코드 업데이트
 solution: Analytics
 title: 웹 사이트의 데이터 수집 코드 업데이트
 topic: Data connectors
-uuid: A 97 D 1 B 62-F 883-48 B 1-9516-4 F 889 E 701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,7 +22,7 @@ DFA용 Genesis 통합은 DFA Floodlight 구성 ID(dfa_SPOTID)를 활용하여 DF
 
 >[!NOTE]
 >
->Google DFA의 최근 릴리스에서 용어 스포트라이트가 Floodlight로 변경되었습니다. JavaScript 매개 변수 `dfa_SPOTID`는 Spotlight 용어를 기반으로 명명되었지만 두 버전에 모두 사용됩니다.
+>최근 Google DFA 릴리스에서 스포트라이트를 Floodlight로 변경했습니다. JavaScript 매개 변수 `dfa_SPOTID`는 Spotlight 용어를 기반으로 명명되었지만 두 버전에 모두 사용됩니다.
 
 웹 사이트에서 DFA 통합을 활성화하려면 다음을 추가하여 JavaScript 데이터 수집 코드를 업데이트해야 합니다.
 
@@ -31,7 +31,7 @@ DFA용 Genesis 통합은 DFA Floodlight 구성 ID(dfa_SPOTID)를 활용하여 DF
 
 ## DFA에 대한 통합 모듈 {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-DFA 통합은 핵심 JavaScript 데이터 수집 코드(`s_code.js`)에 기능을 추가하는 Adobe Marketing Cloud 통합 모듈을 사용합니다. 통합 모듈은 [코드 관리자에서 Javascript 용 appmeasurement 코드를 다운로드할 때.zip 파일의 일부로 제공됩니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). 추가 도움이 필요한 경우 Adobe 컨설턴트에게 문의하십시오.
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). 통합 모듈은 코드 관리자에서 JavaScript용 AppMeasurement 코드를 다운로드할 때 .zip 파일의 일부로 [제공됩니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). 추가 도움이 필요한 경우에만 Adobe 컨설턴트에게 문의하십시오.
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
@@ -101,5 +101,5 @@ DFA 통합 설정 블록은 DFA 통합에 필요한 변수를 설정합니다. �
 
 >[!CAUTION]
 >
->불필요한 DFA 쿼리를 제거하기 위해 플러그인이 사용하는 메커니즘 중 하나는 도메인 기반 방문 쿠키입니다. 여러 도메인을 포괄하는 통합 보고서 세트는 방문자가 DFA의 영향을 받는 뷰스루 또는 클릭스루 이후 도메인을 교차하면 클릭스루 및 뷰스루 데이터를 늘립니다.
+>플러그인이 불필요한 DFA 쿼리를 제거하기 위해 사용하는 메커니즘 중 하나는 도메인 기반 방문 쿠키입니다. 여러 도메인을 포괄하는 통합 보고서 세트는 방문자가 DFA의 영향을 받는 뷰스루 또는 클릭스루 이후 도메인을 교차하면 클릭스루 및 뷰스루 데이터를 늘립니다.
 
