@@ -2,13 +2,13 @@
 description: iOS에 대한 누적 릴리스 노트입니다.
 seo-description: iOS에 대한 누적 릴리스 노트입니다.
 seo-title: iOS
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 릴리스 노트
 title: iOS
 topic: 개발자 및 구현
-uuid: CC 98 F 8 F 2-F 619-4 B 31-ABF 9-E 43 F 4 DEAC 64 F
+uuid: cc98f8f2-f619-4b31-abf9-e43f4dec64f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ iOS에 대한 누적 릴리스 노트입니다.
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
 
 모바일 라이브러리 다운로드는 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 및 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios)에서 사용할 수 있습니다.
 
@@ -29,7 +29,7 @@ iOS에 대한 누적 릴리스 노트입니다.
 
 ## 버전 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
-[!DNL iOS] SDK 버전 4.13.4 (2017 년 2 월 16 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_657D643E874D47C099F2F43519C9C1C7"> 
  <thead> 
@@ -52,7 +52,7 @@ iOS에 대한 누적 릴리스 노트입니다.
 
 ## 버전 4.13.3 {#section_39618D2B29F942FCBF37E4F5507AA131}
 
-[!DNL iOS] SDK 버전 4.13.3 (2017 년 1 월 19 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_341D35BF18714139A95CA5491899185D"> 
  <thead> 
@@ -79,7 +79,7 @@ iOS에 대한 누적 릴리스 노트입니다.
 
 ## 버전 4.13.2 {#section_CB0DFFDB38FE4D14A84423DF40BF8FD3}
 
-[!DNL iOS] SDK 버전 4.13.2 (2016 년 11 월 10 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AA26B14D271948FFBA44D4D06E3B71AA"> 
  <thead> 
@@ -91,7 +91,7 @@ iOS에 대한 누적 릴리스 노트입니다.
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 방문자 ID 서비스 </p> </td> 
-   <td colname="2"> <p> <code>adobe_mc</code> 매개 변수에 타임스탬프 및 Marketing Cloud 조직 ID가 추가되었습니다. </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 구성 </p> </td> 
@@ -110,7 +110,7 @@ iOS에 대한 누적 릴리스 노트입니다.
 
 ## 버전 4.13.1 {#section_18C8A7166EFD4E67AC0F7C06DFBBFE6A}
 
-[!DNL iOS] SDK 버전 4.13.1 (2016 년 10 월 20 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_5B67A6B8B79D4783BA8DCDA7C2ACA765"> 
  <thead> 
@@ -138,7 +138,7 @@ iOS에 대한 누적 릴리스 노트입니다.
 
 ## 버전 4.13.0 {#section_F72A3357994E4887A9F3967F0FBFFCDD}
 
-[!DNL iOS] SDK 버전 4.13.0 (2016 년 9 월 15 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.13.0 (Sep 15, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_FD6156E58FF54BA2BEED7398BC780C46"> 
  <thead> 
@@ -279,14 +279,14 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>앱 충돌 추적 </p> </td> 
-   <td colname="2"> <p><span class="keyword"> iOS</span> SDK 버전 4.8.6 에는 잘못된 충돌이 보고되지 않도록 하는 중요한 변경 사항이 포함되어 있습니다. 버전 4.8.6으로 업데이트할 것을 강력히 권장합니다. </p> </td> 
+   <td colname="2"> <p>The <span class="keyword"> iOS</span> SDK version 4.8.6 contains critical changes that prevent false crashes from being reported. 버전 4.8.6으로 업데이트할 것을 강력히 권장합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 버전 4.8.5 {#section_F42EB64F91024748893E89575F2E4487}
 
-[!DNL iOS] SDK 버전 4.8.5 (2016 년 2 월 18 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.8.5 (February 18, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AB225AF04A374421BDD8A972506ACD06"> 
  <thead> 
@@ -298,14 +298,14 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>옵트아웃 및 개인 정보 설정 </p> </td> 
-   <td colname="2"> <p><span class="keyword"> iOS</span> SDK 4.8.5 부터 시작하여 <code> setprivacystatus</code> 메서드를 통해 설정된 개인 정보 설정은 <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span>및 <span class="keyword"> Audience Manager의 활동에 영향을</span>줍니다. </p> </td> 
+   <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> SDK 4.8.5, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span>, and <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 버전 4.8.0 {#section_2CF142C8C2D24B529559DAF76F851BBF}
 
-[!DNL iOS] SDK 버전 4.8.0 (2015 년 11 월 2 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_9DB41F070D66498FACF1A9C135603C7A"> 
  <thead> 
@@ -316,7 +316,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> 새로운 Marketing Cloud 방문자 ID 서비스 메서드 </td> 
+   <td colname="1"> 새로운 Experience Cloud 방문자 ID 서비스 메서드 </td> 
    <td colname="2"> <p>다음과 같은 새로운 메서드를 추가했습니다. </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -345,7 +345,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
 ## 버전 4.7.0 {#section_B37B1CAF065346E9A2073A06AB7AFEC2}
 
-[!DNL iOS] SDK 버전 4.7.0 (2015 년 10 월 15 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.7.0 (October 15, 2015) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_3CCA327B859B498D828B2E056A075BEC"> 
  <thead> 
@@ -404,7 +404,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
 ## 버전 4.6 {#section_D091872501DA49C1A18CDC33C84B8256}
 
-[!DNL iOS] SDK 버전 4.6 (2015 년 9 월 17 일) 에는 다음 변경 내용이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_084C27B1A75A4A2EB84822242E37ED35"> 
  <thead> 
@@ -415,7 +415,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> Analytics</span> 세그먼트에 대한 푸시 메시지 </p> </td> 
+   <td colname="1"> <p>Push Messaging to <span class="keyword"> Analytics</span> Segments </p> </td> 
    <td colname="2"> <p> <span class="keyword"> Adobe Mobile Services</span> 및 <span class="keyword">Adobe Mobile</span> SDK를 사용하면 푸시 메시지를 <span class="keyword">Analytics</span> 세그먼트에 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 연 결과로서 앱을 연 사용자를 쉽게 보고할 수도 있습니다. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -444,7 +444,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
 ## 버전 4.5 {#section_53DFAF8CFD614F69B3168014EF84DE9F}
 
-[!DNL iOS] SDK 버전 4.5 에는 다음 변경 사항이 포함되어 있습니다.
+The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_A69D0B8DA45348B8A5D6A014126F97C2"> 
  <thead> 
@@ -456,7 +456,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS 확장</span> </p> </td> 
-   <td colname="2"> <p><span class="keyword"> iOS</span> SDK 버전 4.5 부터 새로운 <span class="keyword"> iOS</span> 확장 기능을 사용하면 Apple Watch Apps, Today Widgets, Photo Editing 위젯 및 기타 <span class="keyword"> 모든 iOS</span> 확장 앱의 사용 데이터를 수집할 수 있습니다. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple에서는 Watch 앱이 포함 앱과 통신(요청을 포함 앱에 보낸 다음, 응답을 받음)할 수 있도록 해주는 API 세트를 제공합니다. </p> <p>Watch 앱의 사전으로서 추적 데이터를 포함 앱에 전송한 다음, 포함 앱에서 추적 메서드를 호출하여 데이터를 전송할 수 있지만, 이 해결 방법에는 제한이 있습니다. </p> <p>대부분의 경우, 사용자가 Watch 앱을 사용할 때 포함 앱은 배경에서 실행되며 <code>TrackActionInBackground</code>, <code>TrackLocation</code> 및 <code>TrackBeacon</code>을 호출해야만 안전합니다. 다른 추적 메서드를 호출하면 라이프사이클 데이터가 방해되므로, 이 세 메서드만 사용하여 Watch 앱의 데이터를 전송해야 합니다. </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
+   <td colname="2"> <p>Starting in <span class="keyword"> iOS</span> SDK version 4.5, a new <span class="keyword"> iOS</span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS</span> extension apps. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple에서는 Watch 앱이 포함 앱과 통신(요청을 포함 앱에 보낸 다음, 응답을 받음)할 수 있도록 해주는 API 세트를 제공합니다. </p> <p>Watch 앱의 사전으로서 추적 데이터를 포함 앱에 전송한 다음, 포함 앱에서 추적 메서드를 호출하여 데이터를 전송할 수 있지만, 이 해결 방법에는 제한이 있습니다. </p> <p>대부분의 경우, 사용자가 Watch 앱을 사용할 때 포함 앱은 배경에서 실행되며 <code>TrackActionInBackground</code>, <code>TrackLocation</code> 및 <code>TrackBeacon</code>을 호출해야만 안전합니다. 다른 추적 메서드를 호출하면 라이프사이클 데이터가 방해되므로, 이 세 메서드만 사용하여 Watch 앱의 데이터를 전송해야 합니다. </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -486,7 +486,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
 릴리스 날짜: **2014년 11월 24일**
 
-* 새로운 기능 - Adobe Marketing Cloud ID 통합
+* 새로운 기능 - Adobe Experience Cloud ID 통합
 * 명확성을 위해 디버그 로그가 개선됨
 
 ## 버전 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -547,7 +547,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
 릴리스 날짜: **2013년 9월 27일**
 
-[!DNL iOS]Marketing Cloud 솔루션용 SDK 4.x는 현재 다음과 같은 새로운 기능을 제공합니다.
+[!DNL iOS] Experience Cloud 솔루션용 SDK 4.x는 이제 다음과 같은 새로운 기능을 제공합니다.
 
 * 현저한 성능 개선 모든 처리가 백그라운드 스레드에서 수행되고 SDK는 완전히 스레드 안전 상태입니다.
 * 지리적 위치 및 관심 영역
@@ -600,7 +600,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
 릴리스 날짜: **2013년 3월 21일**
 
-* `ADMS_Measurement.visitorID` 기본값이 기본값으로 미리 채워집니다.
+* `ADMS_Measurement.visitorID` 이제 기본값으로 미리 채워집니다.
 
 ## 버전 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
@@ -741,7 +741,7 @@ The following release notes apply to the 2.x version of [!DNL AppMeasurement] fo
 릴리스 날짜: **2011년 11월**
 
 * Added support for [!DNL iOS] 5.
-* [!DNL AppMeasurement] for [!DNL iOS] been updated to no longer use the deprecated UDID value as the default value for visitorid. 애플리케이션에서 사용자 지정 visitorID를 설정하는 경우(예: `s.visitorID = @12345`) 이러한 변경의 영향을 받지 않습니다. 사용자 지정 visitorID를 설정하지 않은 경우 visitorID 값으로 UDID를 사용하는 대신 초기 실행 시 임의의 visitorID가 생성되어 사용자 기본 키에 저장됩니다. This key is used by [!DNL AppMeasurement] from that point forward. 또한 이 키는 표준 애플리케이션 백업 프로세스 시 저장되고 복원됩니다.
+* [!DNL AppMeasurement] for [!DNL iOS] 이 더 이상 visitorID의 기본값으로 사용되지 않도록 업데이트되었습니다. 애플리케이션에서 사용자 지정 visitorID를 설정하는 경우(예: `s.visitorID = @12345`) 이러한 변경의 영향을 받지 않습니다. 사용자 지정 visitorID를 설정하지 않은 경우 visitorID 값으로 UDID를 사용하는 대신 초기 실행 시 임의의 visitorID가 생성되어 사용자 기본 키에 저장됩니다. This key is used by [!DNL AppMeasurement] from that point forward. 또한 이 키는 표준 애플리케이션 백업 프로세스 시 저장되고 복원됩니다.
 
 * Updated calls from the [!DNL iOS] Best Practices plug-in that are not associated with a page view to send hits using trackLink. 이러한 히트가 "애플리케이션 이름/버전" 이름의 기본값으로 페이지 뷰를 기록하는 것을 방지할 수 있습니다.
 
