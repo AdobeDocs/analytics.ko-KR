@@ -1,13 +1,13 @@
 ---
 description: 조건으로 트리거할 작업을 설정합니다.
-keywords: 다이내믹 태그 관리; 규칙; 규칙 만들기; 새 규칙; Javascript/타사 태그; 조건에 대한 작업 설정; 새 스크립트 추가; 비순차적 Javascript; 순차적 Javascript; 비순차적 HTML
+keywords: 다이내믹 태그 관리;규칙;만들기 규칙;새 규칙;javascript/타사 태그;조건에 대한 작업 설정;새 스크립트 추가;비순차적 javascript;순차적 javascript;비순차적 html
 seo-description: 조건으로 트리거할 작업을 설정합니다.
 seo-title: 조건이 트리거되는 작업 설정
-solution: Marketing Cloud, Analytics, Target, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Target,다이내믹 태그 관리
 title: 조건이 트리거되는 작업 설정
-uuid: 2 E 892 F 0 B -7261-41 EE-B 849-6 E 3054 A 38 DE 0
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **조건이 트리거되는 작업 설정**
 
-1. **[!UICONTROL JavaScript/타사 태그를]** 클릭하여 새 스크립트를 규칙에 추가합니다.
+1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
 
    ![](assets/scripts-actions.png)
 
