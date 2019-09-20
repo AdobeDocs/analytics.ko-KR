@@ -7,7 +7,7 @@ title: 순차적 세그먼트 작성
 topic: 세그먼트
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
@@ -262,9 +262,17 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 순차적 체크포인트를 그룹화하려면 "컨테이너"가 논리 그룹입니다. 그러나 순차적 체크포인트는 단일 히트 또는 방문 범위 내에서 발생해야 하는 경우 '히트' 또는 '방문' 컨테이너가 필요합니다. (물론, 하나의 히트가 둘 이상의 체크포인트를 크레딧할 수 있는 순차적 체크포인트 그룹에 대해 '히트'는 적합하지 않습니다.)
 
 **논리 그룹은 순차적 세그먼트 작성을 단순화합니까?**
-네, 가능합니다. 이 질문에 답하려고 한다고 가정해 봅시다.방문자가 페이지 A 다음에 페이지 B, C 또는 D를 보았습니까? 논리 그룹 컨테이너 없이 이 세그먼트를 만들 수 있지만 복잡하고 힘든 작업입니다.방문자 컨테이너 [페이지 A 후 페이지 B 후 페이지 C] , 페이지 D 또는 방문자 컨테이너 [페이지 A, 페이지 B, 페이지 C] 또는 방문자 컨테이너 [페이지 A, 페이지 C] , 페이지 B 다음 페이지 B d [또는 방문자] [] [페이지 그런 다음 페이지 C 그런 다음 페이지 D 방문자 B 페이지 방문자 또는 방문자 컨테이너 페이지 그런 다음 페이지 D 그런 다음 페이지 D 그런 다음 페이지 B 페이지 C 그런 다음 방문자 페이지 C 또는 방문자 컨테이너 페이지 A그런 다음 페이지 D페이지 그런 다음 페이지 B]
+네, 가능합니다. 이 질문에 답하려고 한다고 가정해 봅시다.방문자가 **페이지 B, 페이지 C, 페이지 D를 페이지 A 다음에 보았습니까?**
 
-논리 그룹 컨테이너는 다음과 같이 세그먼트를 대폭 단순화합니다.
+논리 그룹 컨테이너 없이 이 세그먼트를 만들 수 있지만 복잡하고 힘든 작업입니다.
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+논리 그룹 컨테이너는 다음과 같이 이 세그먼트를 작성하는 것이 매우 간단합니다.
 
 ![](assets/logic-grp-example.png)
 
