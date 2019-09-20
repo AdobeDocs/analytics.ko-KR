@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 릴리스 노트
 title: BlackBerry
 topic: 개발자 및 구현
-uuid: 1 E 4 E 037 F -2 A 8 B -4051-9327-C 9949 EFFF 7 B 7
+uuid: 1e4e037f-2a8b-4051-9327-c9949efff7b7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
 
 ## 버전 4.0.0 {#section_5E6C3CEF56FB4A95B2F43DBEC956A784}
 
 릴리스 날짜: **2013년 11월 4일**
 
-BlackBerry 10용 4.x 버전의 초기 릴리스입니다. [Blackberry 10용 Marketing Cloud - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics)를 참조하십시오.
+BlackBerry 10용 4.x 버전의 초기 릴리스입니다. See [Experience Cloud for Blackberry 10 - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics).
 
 ## 버전 1.3 {#section_990A8910DE304E29BAD9EC770B72BB97}
 
