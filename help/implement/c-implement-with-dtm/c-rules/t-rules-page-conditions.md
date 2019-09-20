@@ -1,13 +1,13 @@
 ---
 description: 규칙이 트리거되는 페이지를 결정하는 규칙을 만듭니다.
-keywords: 다이내믹 태그 관리; 규칙; 규칙 만들기; 새 규칙; 페이지 로드 규칙
+keywords: 다이내믹 태그 관리;규칙;만들기 규칙;새 규칙;페이지 로드 규칙
 seo-description: 규칙이 트리거되는 페이지를 결정하는 규칙을 만듭니다.
 seo-title: 페이지 로드 규칙 조건 만들기
-solution: Marketing Cloud, Analytics, Target, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Target,다이내믹 태그 관리
 title: 페이지 로드 규칙 조건 만들기
-uuid: 30 A 6 C 69 F -56 E 7-414 E -9636-64 C 262 E 7 CCD 4
+uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
