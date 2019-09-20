@@ -1,13 +1,13 @@
 ---
 description: 조건은 언제 이벤트 기반 규칙이 트리거되는지 결정합니다.
-keywords: 다이내믹 태그 관리; 규칙; 규칙 만들기; 새 규칙; 이벤트 기반 규칙; 링크 활성화 지연; 이벤트 핸들러를 요소에 직접 적용버블링; 이벤트 버블링
+keywords: 다이내믹 태그 관리;규칙;만들기 규칙;새 규칙;이벤트 기반 규칙;지연 링크 활성화;이벤트 핸들러를 요소에 직접 적용;버블링;이벤트 버블링
 seo-description: 조건은 언제 이벤트 기반 규칙이 트리거되는지 결정합니다.
 seo-title: 이벤트 기반 규칙 조건 만들기
-solution: Marketing Cloud, Analytics, Target, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Target,다이내믹 태그 관리
 title: 이벤트 기반 규칙 조건 만들기
-uuid: A 847391 C -5 AEC -4 D 64-8 A 35-388587731598
+uuid: a847391c-5aec-4d64-8a35-38858731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
