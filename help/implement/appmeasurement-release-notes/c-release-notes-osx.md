@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Mac OS X
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 릴리스 노트
 title: Mac OS X
 topic: 개발자 및 구현
-uuid: D 5 E 46 C 86-2 D 00-4 A 18-8 EEE-DCAF 082761 AF
+uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->이러한 SDK는 일몰 상태였고 더 이상 Adobe에서 지원하거나 배포하지 않습니다.
+>이러한 SDK는 선셋이었는데 더 이상 Adobe에서 지원하거나 배포하지 않습니다.
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -61,7 +61,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 릴리스 날짜: **2013년 3월 21일**
 
-* `ADMS_Measurement.visitorID` 기본값이 기본값으로 미리 채워집니다.
+* `ADMS_Measurement.visitorID` 이제 기본값으로 미리 채워집니다.
 
 ## 버전 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
