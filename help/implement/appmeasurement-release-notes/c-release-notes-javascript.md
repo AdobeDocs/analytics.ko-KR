@@ -1,14 +1,14 @@
 ---
 description: 이전 JavaScript H 코드에 대한 누적 릴리스 노트입니다.
 seo-description: 이전 JavaScript H 코드에 대한 누적 릴리스 노트입니다.
-seo-title: JavaScript H 코드 - 이전
+seo-title: JavaScript H 코드- 이전
 solution: Analytics
 subtopic: 릴리스 노트
-title: JavaScript H 코드 - 이전
+title: JavaScript H 코드- 이전
 topic: 개발자 및 구현
-uuid: 4586 B 250-0 F 1 B -45 B 8-829 C -18 DC 1201956 F
+uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -126,7 +126,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 릴리스 날짜: **2014년 5월 22일**
 
-* [Marketing Cloud 방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)에 대한 지원
+* Experience Cloud [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)지원
 * [타겟 통합을 위한 Analytics](https://marketing.adobe.com/resources/help/en_US/target/a4t/)를 지원합니다.
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -176,7 +176,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
    * 태그에 `HREF` 특성이 반드시 있어야 함
    * The `HREF` can't start with `#`, `about:`, or `javascript:`
 
-   * `TARGET` 속성을 설정하면 안 됩니다. `TARGET` 또는 현재 창 ( `_self`, `_top`또는) 를 참조해야 `window.name`합니다.
+   * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`)
 
 ## H.25.3 {#section_FA6A6F9F5D64455DA5A54C007081341A}
 
@@ -273,25 +273,22 @@ Firefox 및 Internet Explorer는 추적 링크 호출을 실행하고 새 페이
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>이 플래그는 WebKit 브라우저에 대한 강제 링크 추적을 비활성화하는 데 사용됩니다. 강제 추적 링크는 WebKit 브라우저 기본값에 의해 비활성화되며 다른 브라우저에 의해 무시됩니다. </p> <p> <b>기본값</b> </p> <p> <code> true </code> </p> <p> <b>예</b> </p> 
-    <code class="syntax javascript">s. useforcedlinktracking &amp; amp; nbsp; = &amp; amp; nbsp; false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p><code>s.tl</code>로 전달된 <code>doneAction</code>을 수행하기 전에 완료할 수 있도록 추적을 기다리는 최대 밀리초 수입니다. 이 값은 최대 대기 시간을 지정합니다. 이 시간 초과 전에 추적 링크 호출이 완료되면 <code>doneAction</code>이 즉시 실행됩니다. 추적 링크 호출이 완료되지 않고 있다는 것을 안 경우 이 시간 초과를 늘려야 할 수도 있습니다. </p> <p> <b>기본값</b> </p> <p>250 </p> <p> <b>예</b> </p> 
-    <code class="syntax javascript">s. forcedlinktrackingtimeout &amp; amp; nbsp; = &amp; amp; nbsp; 500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink(<code>s.tl </code>) </td> 
    <td colname="col2"> <p>종료, 다운로드 및 사용자 지정 링크를 추적합니다. 추적 링크 호출이 WebKit 브라우저에서 완료된 후에 실행할 탐색 작업을 지정할 수 있도록 옵션 매개 변수를 제공합니다. </p> <p> <b>구문</b> </p> 
-    <code class="syntax javascript">s. tl (linkobject, linktype, linkname, variableoverrides, doneaction) </code>
-  <p> <b>doneAction</b>: (선택적) 링크 추적 호출이 전송되거나 시간 초과된 후에 취할 조치를 지정합니다(<code>s.forcedLinkTrackingTimeout</code>에 의해 지정된 값 기준 ). <code>doneAction</code>은 문자열 'navigate'가 될 수 있으며, 이는 메서드가 <code>document.location</code>을 <code>linkObject</code>의 <code>href</code> 특성으로 설정하는 원인이 됩니다 . 또한, <code>doneAction</code>은 고급 사용자 지정을 허용하는 함수가 될 수 있습니다. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>예</b> </p> 
-    <code class="syntax javascript">&lt; a &amp; amp; nbsp; href = "..." &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null,' navigate '); Return &amp; amp; nbsp; false " &gt; 클릭 및 amp; nbsp; 여기 &lt;/a &gt; </code><code class="syntax javascript">
- 
- 
- &lt; a &amp; amp; nbsp; href = " #" &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null, function () {if (' proceed (' continue? ')))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>: (선택적) 링크 추적 호출이 전송되거나 시간 초과된 후에 취할 조치를 지정합니다(<code>s.forcedLinkTrackingTimeout</code>에 의해 지정된 값 기준 ). <code>doneAction</code>은 문자열 'navigate'가 될 수 있으며, 이는 메서드가 <code>document.location</code>을 <code>linkObject</code>의 <code>href</code> 특성으로 설정하는 원인이 됩니다 . 또한, <code>doneAction</code>은 고급 사용자 지정을 허용하는 함수가 될 수 있습니다. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>예</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> <code class="syntax javascript">&lt;a&amp;nbsp;href="#"&amp;nbsp;nsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Continue?'))document.location=..});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +299,7 @@ Firefox 및 Internet Explorer는 추적 링크 호출을 실행하고 새 페이
 
 이 업데이트는 모든 고객에게 권장됩니다.
 
-* 페이지가 Google Chrome Prerender를 사용하여 사전 렌더링되는 시점을 탐지하기 위한 기능이 향상되었습니다([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. [!DNL JavaScript] 이제 라이브러리가 사용자가 해당 사전 렌더링된 페이지에 대한 서버 호출을 보내기 전에 사이트를 방문합니다.
+* 페이지가 Google Chrome Prerender를 사용하여 사전 렌더링되는 시점을 탐지하기 위한 기능이 향상되었습니다([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
 * 다른 라이브러리와 유사한 타임스탬프 데이터를 사용자 지정하려는 고객을 위해 라이브러리에 `timestamp`[!DNL JavaScript] 변수를 추가했습니다.[!DNL AppMeasurement]
 
 ```js
@@ -337,13 +334,13 @@ Firefox 및 Internet Explorer는 추적 링크 호출을 실행하고 새 페이
 
 릴리스 날짜: **2011년 11월**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* 지원을 위한 내부 업데이트 [!DNL Adobe Tag Manager].
 
 ## H.23.9 {#section_3834625A639A47428683E08A472359C7}
 
 릴리스 날짜: **2011년 11월**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* 지원을 위한 내부 업데이트 [!DNL Adobe Tag Manager].
 
 ## H.23.8 {#section_FF3CEEAB6C6744D6B5EE314A0B5841CA}
 
