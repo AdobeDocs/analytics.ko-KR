@@ -1,13 +1,13 @@
 ---
 description: Adobe Analytics에서 다이내믹 태그 관리를 배포하는 데 사용되는 쿠키 전역 설정에 대한 필드 설명입니다.
-keywords: 다이내믹 태그 관리; 쿠키; 방문자 ID; 방문자 네임스페이스; 도메인 기간; FP 도메인 기간; 거래 ID; 쿠키 라이프타임
+keywords: 다이내믹 태그 관리;쿠키;방문자 ID;방문자 네임스페이스;도메인 기간;fp 도메인 기간;거래 ID;쿠키 라이프타임
 seo-description: Adobe Analytics에서 다이내믹 태그 관리를 배포하는 데 사용되는 쿠키 전역 설정에 대한 필드 설명입니다.
 seo-title: 쿠키
-solution: Marketing Cloud, 분석, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,다이내믹 태그 관리
 title: 쿠키
-uuid: 9 c 81 ecbb -0 f 02-4 c 1 a-a 5 a 5-426 cdea 57 f 38
+uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
-**[!UICONTROL *`Property`*]** &gt;** [! Uicontrol ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Cookies]**
 
@@ -42,7 +42,7 @@ Edit Tool]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> FP 도메인 점 수 </td> 
-   <td colname="col2"> <p>the <span class="term"> Fpcookiedomainperiods</span> 변수는 구현에서 타사 2 o 7. net 또는 omtrdc. net 도메인을 사용하는 경우에도 기본적으로 퍼스트 파티 쿠키인 JavaScript 설정 쿠키 (<code> s_ sq</code>, <code> s_ cc</code>, <span class="filepath"> plug-ins)</span> <span class="filepath"> 에 사용됩니다</span> . </p> <p><a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s. fpcookiedomainperiods</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>s.fpCookieDomainPeriods <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> 를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 거래 ID </td> 
