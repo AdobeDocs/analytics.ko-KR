@@ -1,12 +1,12 @@
 ---
-description: 'Analytics 전체에서 AAM 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음을 포함합니다. '
-seo-description: 'Analytics 전체에서 AAM 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음을 포함합니다. '
+description: 'Analytics 전체에서 AAM 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다. '
+seo-description: 'Analytics 전체에서 AAM 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다. '
 seo-title: Analytics에서 대상 데이터 사용
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
-uuid: 203925 FB-F 070-441 C -813 A -43099 CB 9 B 2 B 9
+uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -73,7 +73,7 @@ AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해
 
 Analytics에서 수집한 동작 정보와 함께 Analytics [세그먼트 빌더](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)에서 대상 차원을 통합할 수 있습니다.
 
-1. **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 세그먼트로]** 이동합니다.
+1. Go to  **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** .
 1. **[!UICONTROL 추가]를 클릭하여 새 세그먼트를 만듭니다.**
 1. 세그먼트에 이름을 지정한 후 [!UICONTROL 대상 이름] 차원을 정의 패널로 드래그합니다.
 1. (선택 사항): 세그먼트에 다른 기준을 추가합니다.
