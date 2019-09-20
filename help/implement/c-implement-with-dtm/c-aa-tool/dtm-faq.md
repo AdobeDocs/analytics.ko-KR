@@ -1,13 +1,13 @@
 ---
 description: Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. 자동 구성 방법은 AppMeasurement 코드를 알아서 관리해줍니다.
-keywords: 다이내믹 태그 관리; Plugins; 스테이징; 현재 설정에 대한 효과; 개정 내역; 잠재적 위험보고서 세트 ID; 통화 코드; 추적 서버; SSL 추적 서버; 사용자 지정 코드; 라이브러리 관리
+keywords: 다이내믹 태그 관리;플러그인;스테이징;현재 설정에 대한 효과;개정 내역;잠재적 함정;보고서 세트 ID;통화 코드;추적 서버;SSL 추적 서버;사용자 지정 코드;라이브러리 관리
 seo-description: Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. 자동 구성 방법은 AppMeasurement 코드를 알아서 관리해줍니다.
 seo-title: Adobe Analytics 도구에 대한 FAQ
-solution: Marketing Cloud, Analytics, Target, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Target,다이내믹 태그 관리
 title: Adobe Analytics 도구에 대한 FAQ
-uuid: 8 FCEF 893-E 305-4 A 95-A 033-9066 A 56 B 09 CD
+uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. The automatic co
  <tbody> 
   <tr> 
    <td colname="col1"> <p> DTM을 통해 Adobe Analytics를 구현할 때 플러그인을 어디에 추가해야 합니까? </p> </td> 
-   <td colname="col2"> <p> DTM을 사용하여 <code>s_code</code>를 수동으로 호스팅하는 경우 일반적인 Adobe Analytics 구현의 경우처럼 호스팅된 <code>s_code</code>와 동일한 편집기에 플러그인을 추가할 수 있습니다. </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. 두 가지 구현 방법의 효과는 같습니다. </p> </td> 
+   <td colname="col2"> <p> DTM을 사용하여 <code>s_code</code>를 수동으로 호스팅하는 경우 일반적인 Adobe Analytics 구현의 경우처럼 호스팅된 <code>s_code</code>와 동일한 편집기에 플러그인을 추가할 수 있습니다. </p> <p>그러나 도구 설정의 페이지 코드 사용자 지정 섹션 내에 플러그인을 <span class="term"> 편집기에</span> 배치하는 옵션도 있습니다. 두 가지 구현 방법의 효과는 같습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>새 버전의 도구에서 구성을 변경할 경우 프로덕션에 게시하기 전에 스테이징에서 도구를 테스트할 수 있습니까? </p> </td> 
@@ -58,5 +58,5 @@ See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool
 * 보고서 세트 ID를 도구에 올바르게 입력해야 합니다.
 * 도구의 보고서 세트 ID가 [!DNL AppMeasurement] 코드의 ID와 일치해야 합니다.
 * 현재 코드, 문자 세트, 추적 서버 및 SSL 추적 서버 구성 필드가 지원되는 값으로 올바르게 설정되어야 합니다.
-* Custom code is defined in [!DNL Library Management].
+* 사용자 지정 코드는 에 정의되어 [!DNL Library Management]있습니다.
 
