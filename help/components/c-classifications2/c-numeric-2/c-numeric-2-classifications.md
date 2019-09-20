@@ -1,21 +1,21 @@
 ---
-description: Numeric 2 분류는 가져오기를 통해 Adobe Marketing Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
-seo-description: Numeric 2 분류는 가져오기를 통해 Adobe Marketing Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
-seo-title: Numeric 2 분류 개요
+description: Numeric 2 분류는 가져오기를 통해 Adobe Experience Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
+seo-description: Numeric 2 분류는 가져오기를 통해 Adobe Experience Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
+seo-title: 숫자 2 분류 개요
 solution: Analytics
 subtopic: 분류
-title: Numeric 2 분류 개요
+title: 숫자 2 분류 개요
 topic: 관리 도구
-uuid: CBEA 7 CD 1-3 A 92-4 E 9 D-B 671-646 E 9 Add 1 EE 6
+uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Numeric 2 분류 개요
+# 숫자 2 분류 개요
 
-Numeric 2 분류는 가져오기를 통해 Adobe Marketing Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
+Numeric 2 분류는 가져오기를 통해 Adobe Experience Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
 
 >[!IMPORTANT]
 >
@@ -23,13 +23,13 @@ Numeric 2 분류는 가져오기를 통해 Adobe Marketing Cloud에 가져올 �
 
 >[!NOTE]
 >
->2018 년 5 월 10 일 Analytics 유지 관리 릴리스에서는 Adobe가 날짜 지원 및 숫자 분류의 기능을 제한하기 시작했습니다. 이러한 분류 유형은 관리 및 분류 가져오기 인터페이스에서 제거되었습니다. 날짜 사용 및 숫자 분류를 새로 추가할 수 없습니다. 기존 분류는 여전히 표준 분류 워크플로우를 통해 관리(업로드, 삭제)할 수 있으며 보고에서 계속 사용할 수 있습니다.
+>2018년 5월 10일 Analytics 유지 관리 릴리스에서는 Adobe가 날짜 활성화 및 숫자 분류의 기능을 제한하기 시작했습니다. 이러한 분류 유형은 관리 및 분류 가져오기 인터페이스에서 제거되었습니다. 날짜 사용 및 숫자 분류를 새로 추가할 수 없습니다. 기존 분류는 여전히 표준 분류 워크플로우를 통해 관리(업로드, 삭제)할 수 있으며 보고에서 계속 사용할 수 있습니다.
 
 숫자 2 분류를 사용하는 일반적인 방법은 여러 항목에 대해 시간이 경과함에 따라 변하는 숫자 변수(예: 판매된 상품 비용)용으로 사용하는 것입니다. 관리 기능을 통해 [!UICONTROL 전환 분류] 페이지에서 분류를 만든 다음 가져오기를 사용하여 파일을 내보내고 편집을 한 다음 파일을 다시 Adobe로 가져올 수 있습니다. 데이터를 가져온 후, 계산된 지표를 만들 때 숫자 분류를 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->분석 작업 공간 및 애드혹 분석은 Numeric 2 분류를 지원하지 않습니다.
+>분석 작업 공간과 애드혹 분석은 Numeric 2 분류를 지원하지 않습니다.
 
 다음 표는 분류 유형 간의 차이점을 나타냅니다.
 
