@@ -2,13 +2,13 @@
 description: PhoneGap에 대한 누적 릴리스 노트입니다.
 seo-description: PhoneGap에 대한 누적 릴리스 노트입니다.
 seo-title: PhoneGap
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 릴리스 노트
 title: PhoneGap
 topic: 개발자 및 구현
-uuid: 430 F 5 E 71-909 E -4841-B 8 FB -2895 B 01736 AD
+uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
