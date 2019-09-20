@@ -1,13 +1,13 @@
 ---
 description: Adobe Analytics에서 다이내믹 태그 관리를 배포할 때 레퍼러 및 캠페인 옵션에 대한 다이내믹 태그 관리의 필드 설명입니다.
-keywords: 다이내믹 태그 관리; referrers; 캠페인; referrer override; 캠페인 변수; 쿼리 매개 변수
+keywords: 다이내믹 태그 관리;레퍼러;캠페인;레퍼러 재정의;캠페인 변수;쿼리 매개 변수
 seo-description: Adobe Analytics에서 다이내믹 태그 관리를 배포할 때 레퍼러 및 캠페인 옵션에 대한 다이내믹 태그 관리의 필드 설명입니다.
 seo-title: 레퍼러 및 캠페인
-solution: Marketing Cloud, 분석, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,다이내믹 태그 관리
 title: 레퍼러 및 캠페인
-uuid: 56580206-a 382-4993-9 bba-a 488 da 65 cf 89
+uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: e271cf73e7fd31d8893ed57112f2f3bb7821fbdd
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e271cf73e7fd31d8893ed57112f2f3bb7821fbdd
 
 Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
 
-**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png)**[!UICONTROL 편집 도구]** &gt; **[!UICONTROL 레퍼러 및 캠페인]**
+**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) 편집 **[!UICONTROL 도구]** &gt; **[!UICONTROL 레퍼러 및 캠페인]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4"> 
  <thead> 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> 레퍼러 무시 </td> 
-   <td colname="col2"> <p>set the value set in the <span class="varname"> s. referrer</span> 변수 - 일반적으로 브라우저의 레퍼러가 채웁니다. </p> <p>[페이지 변수] (/help/implement/js-implementation/c-variables/page-variables. md) 를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>[페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인 </td> 
-   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>[페이지 변수] (/help/implement/js-implementation/c-variables/page-variables. md) 를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>[페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
