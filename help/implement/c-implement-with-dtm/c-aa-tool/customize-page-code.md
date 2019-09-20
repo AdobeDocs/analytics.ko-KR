@@ -1,13 +1,13 @@
 ---
 description: Analytics를 배포할 때 다이내믹 태그 관리의 필드 설명을 사용하여 페이지 코드를 사용자 지정합니다.
-keywords: 다이내믹 태그 관리; 페이지 코드 사용자 지정; 편집기 열기; 실행
+keywords: 다이내믹 태그 관리;페이지 코드 사용자 지정;열기 편집기;실행
 seo-description: Analytics를 배포할 때 다이내믹 태그 관리의 필드 설명을 사용하여 페이지 코드를 사용자 지정합니다.
 seo-title: 페이지 코드 사용자 지정
-solution: Marketing Cloud, Analytics, Target, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Target,다이내믹 태그 관리
 title: 페이지 코드 사용자 지정
-uuid: B 7 CAD 069-3 EB 8-4388-B 0 B 0-34 F 54001 E 05 F
+uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -18,7 +18,7 @@ Analytics를 배포할 때 다이내믹 태그 관리의 필드 설명을 사용
 
 Analytics 도구와 동시에 코드가 실행되도록 플러그인을 추가합니다. Analytics 플러그인에 대한 자세한 내용은 [구현 플러그인](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL *`Property`*]** &gt;** [! Uicontrol ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
 
