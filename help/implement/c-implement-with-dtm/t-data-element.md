@@ -1,13 +1,13 @@
 ---
 description: 다이내믹 태그 관리에서 데이터 요소를 만듭니다.
-keywords: 다이내믹 태그 관리; 데이터 요소; 새 데이터 요소 만들기; name; type; 기본값; 소문자 값 강제 적용; 이 값은
+keywords: 다이내믹 태그 관리;데이터 요소;새 데이터 요소 만들기;이름;유형;기본값;강제 소문자 값;다음에 대해 이 값 기억
 seo-description: 다이내믹 태그 관리에서 데이터 요소를 만듭니다.
 seo-title: 데이터 요소 만들기
-solution: Marketing Cloud, Analytics, Target, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Target,다이내믹 태그 관리
 title: 데이터 요소 만들기
-uuid: Eacd 5 c 60-6197-4129-A 9 E 1-A 39 E 9 A 58 B 38 A
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
