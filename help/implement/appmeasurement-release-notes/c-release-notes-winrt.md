@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: WinRT for Windows 8
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 릴리스 노트
 title: WinRT for Windows 8
 topic: 개발자 및 구현
-uuid: CEC 19 d 63-114 c -4 ef 6-a 55 e-db 6 aad 4 e 948 b
+uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 릴리스 날짜: **2013년 3월 21일**
 
-* `ADMS_Measurement.visitorID` 기본값이 기본값으로 미리 채워집니다.
+* `ADMS_Measurement.visitorID` 이제 기본값으로 미리 채워집니다.
 * 장치 정보 검색 문제를 해결했습니다.
 
 ## 버전 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
@@ -69,14 +69,14 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 릴리스 날짜: **2012년 11월**
 
 * 이제 C#, C++ 및 HTML5/WinJS 플랫폼에 대해 화면 해상도가 정확히 수집됩니다.
-* `ADMS_Churn` class is now internal. 응용 프로그램 라이프사이클 추적에 대한 우수 사례를 사용하려면 다음 호출을 사용하십시오.
+* `ADMS_Churn` 이제 클래스가 내부입니다. 응용 프로그램 라이프사이클 추적에 대한 우수 사례를 사용하려면 다음 호출을 사용하십시오.
 
    ```
    public void ADMS_Measurement.StartSession(); 
    public void ADMS_Measurement.StopSession();
    ```
 
-* `public double maxSessionLength` 이전 사용자 세션에 대한 최대 세션 길이를 설정할 수 있도록 변수를에 `ADMS_Measurement` 추가했습니다. 등록된 세션 길이가 최대값을 초과할 경우 최대 세션 길이가 전송됩니다. Default `maxSessionLength` is 3600 (seconds).
+* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. 등록된 세션 길이가 최대값을 초과할 경우 최대 세션 길이가 전송됩니다. Default `maxSessionLength` is 3600 (seconds).
 * 앱 시작이 새 세션으로 간주하기 전 앱이 시작되는 사이 경과해야 하는 시간(초)을 지정할 수 있게 해주는 `lifecycleSessionTimeout` 구성 변수가 추가되었습니다.
 * 라이프사이클 지표에 새로운 이전 세션 길이 지표가 추가되었습니다.
 * 명확성을 위해 TrackingHelper를 업데이트했습니다.
