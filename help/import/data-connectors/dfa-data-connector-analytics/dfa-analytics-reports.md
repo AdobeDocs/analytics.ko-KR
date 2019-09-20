@@ -6,12 +6,12 @@ seo-title: DFA 데이터를 사용하는 Analytics Reports
 solution: Analytics
 title: DFA 데이터를 사용하는 Analytics Reports
 topic: Data connectors
-uuid: A 4 FE 4 A 6 C-F 4 A 4-431 D-BCE 9-9 eedbcafedd 6
+uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafedd6
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -36,12 +36,12 @@ DFA 및 Adobe® 수집 서버가 통신할 수 있으면 보고 및 분석에서
 
 DFA 보고서를 생성하려면:
 
-1. Adobe Marketing Cloud에 로그인합니다.
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고 및 분석으로 이동합니다]**. DFA 통합을 설치한 보고서 세트를 선택했는지 확인합니다.
+1. Adobe Experience Cloud에 로그인합니다.
+1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. DFA 통합을 설치한 보고서 세트를 선택했는지 확인합니다.
 
 1. 왼쪽 탐색에서 DFA 클릭스루 데이터를 캡처하는 전환 변수를 선택한 다음 원하는 DFA 보고서를 선택합니다.
 1. **[!UICONTROL 지표 추가를 클릭합니다]**. 이 경우 [지표 선택기] 대화 상자가 열립니다.
-1. **[!UICONTROL 사용 가능한 지표]** 목록에서 노출 횟수 및 클릭 지표를 확인하고 **[!UICONTROL 적용을 클릭합니다]**.
+1. Check the Impressions and Clicks metrics in the **[!UICONTROL Available Metrics]** list and click **[!UICONTROL Apply]**.
 
    결과 보고서에 노출 횟수, 클릭 수 및 수익 데이터가 표시되므로 DFA 서비스가 최저 수익으로 변환되는 방식을 볼 수 있습니다.
 예를 들어, DFA 광고 이름 보고서는 현재 DFA 광고 캠페인의 특정 배너 광고에 사용된 노출 횟수, 클릭 수 및 수익 데이터를 직접 표시합니다.
