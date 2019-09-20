@@ -2,11 +2,11 @@
 description: Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입니다.
 seo-description: Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입니다.
 seo-title: FAQ
-solution: Marketing Cloud
+solution: Experience Cloud
 title: FAQ
-uuid: 9 dfc 8 f 19-f 9 b 2-4 c 2 e-bff 9-3 d 91 cfe 01 bca
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -47,7 +47,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Audience Manager에서 Analytics 대상을 만들려면 어떻게 합니까?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> AAM <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> 에서 분석 대상 구성을 참조하십시오 </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Analytics 대상을 만들고 저장한 후 선택한 보고서 세트에 데이터가 나타날 때까지 얼마나 걸립니까?</b> </p> </td> 
@@ -58,7 +58,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
    <td colname="col2"> <p><span class="uicontrol">세그먼트 매핑</span>에서 <span class="uicontrol">자동으로 모든 현재 및 향후 세그먼트 매핑</span> 옵션을 선택하면 세그먼트의 대상 매핑 섹션에서 Analytics 대상이 사라집니다 . </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>이를 방지하려면 자동 옵션 대신 <span class="uicontrol">수동으로 세그먼트 매핑</span>을 선택하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q: 이렇게 하면 Analytics에서 AAM의 모든 정보가 제공됩니까?</b> </p> </td> 
+   <td colname="col1"> <p> <b>Q:이렇게 하면 Analytics에서 AAM의 모든 정보가 제공됩니까?</b> </p> </td> 
    <td colname="col2"> <p>아니요, Audience Manager 대상 지원 중 또는 후에 그리고 세그먼트 자격 조건 중/후에 사이트를 방문한 사람과 관련된 데이터만 제공합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Q: 기존 쿠키 대상과 Analytics에서 어떻게 다릅니까?</b> </p> </td> 
-   <td colname="col2"> <p>세그먼트는 동일한 히트에서 실시간으로 유효하고 반환됩니다. </p> <p>친숙한 이름이 자동으로 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>세그먼트는 동일한 히트에서 실시간으로 자격을 부여받고 반환됩니다. </p> <p>친숙한 이름이 자동으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 일부 보고서 세트에 개인 데이터가 있고 일부 데이터 세트에는 없는 경우 어떻게 합니까?</b> </p> </td> 
@@ -101,7 +101,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: 내 Analytics 보고서에서 "대상 제한 도달" 이 표시되는 이유는 무엇입니까? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>Q:내 Analytics 보고서에 "대상자 제한에 도달함"이 표시되는 이유는 무엇입니까? (참고:이 값은 데이터 웨어하우스에서 대상 ID = -1 및 "::max_audiences_exceeded::"로 표시됩니다.)</b> </p> </td> 
    <td colname="col2"> <p>기본적으로 AAM에 대한 Audience Analytics 통합은 방문자가 대상인 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 한 번의 히트에서 150개 이상의 AAM 세그먼트에 속하면 <b>가장 최근에 자격을 갖춘 150개의 세그먼트</b>가 Analytics로 전송되고 나머지 목록은 잘립니다. </p> <p>세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics에 전송되고, 대상 이름 차원에 "대상 제한에 도달했습니다."로 표시되고 대상 ID 차원에 "-1"로 표시됩니다. </p> <p>방문자가 특정 히트에서 150개 이상의 세그먼트에 대해 자격을 얻는 것은 거의 불가능하지만, 가끔 발생할 수 있습니다. 보고서에 "대상 제한에 도달했습니다."가 표시되면 다음 두 가지 옵션을 사용할 수 있습니다. </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>옵션 1</b>: 통합을 기본 상태로 계속 작업하면서 특정 방문자에 대해 가장 최근에 자격을 얻은 150개의 세그먼트를 전송합니다. </li> 
@@ -125,12 +125,12 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Analytics 관리자의 SSF에 대한 특정 보고서 세트를 켤 수 없는 이유는 무엇입니까?</b> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 조직에 매핑된 제품만 활성화할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 조직에 매핑된 세트만 활성화할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+이 항목에 대한 자세한 FAQ는 서버측 [전달 FAQ를 참조하십시오](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
 
 ## 일반 FAQ {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: AAM의 "대상"과 Analytics의 "세그먼트"의 차이점은 무엇입니까?</b> </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Analytics 및 Audience Manager의 세그먼트를 이해합니다 </a>. </p> <p>AAM 대상이 전송되어 Analytics에서 사용할 "차원" 구성 요소로 공유됩니다. 세그먼트 빌더에서는 세그먼트로 표시되지 않지만, 세그먼트를 만들 수 있는 차원으로 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>자세한 내용은 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 대상이 전송되어 Analytics에서 사용할 "차원" 구성 요소로 공유됩니다. 세그먼트 빌더에서는 세그먼트로 표시되지 않지만, 세그먼트를 만들 수 있는 차원으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 고객 특성과 AAM에서 통합된 고객 데이터의 차이점은 무엇입니까?</b> </p> </td> 
