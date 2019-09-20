@@ -1,17 +1,17 @@
 ---
 description: AAM(Adobe Audience Manager)은 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주의 경우 이러한 대상 프로필은 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의할 수 있도록 지원합니다.
 seo-description: AAM(Adobe Audience Manager)은 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주의 경우 이러한 대상 프로필은 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의할 수 있도록 지원합니다.
-seo-title: 대상 분석 개요
-solution: Marketing Cloud
-title: 대상 분석 개요
-uuid: 86 EF 9391-DD 6 A -495 F-A 10 E-E 98 BC 069 DDE 4
+seo-title: Audience Analytics 개요
+solution: Experience Cloud
+title: Audience Analytics 개요
+uuid: 86ef9391-dd6a-49 파섹
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 대상 분석 개요
+# Audience Analytics 개요
 
 AAM(Adobe Audience Manager)은 퍼스트 파티, 세컨드 파티/파트너 및 서드 파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주의 경우 이러한 대상 프로필은 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의할 수 있도록 지원합니다.
 
@@ -45,8 +45,8 @@ AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문�
 
 * Audience Manager와 Adobe Analytics의 고객입니다.
 * Audience Manager 관리자입니다.
-* Identity Service v 1.5 이상을 사용하고 있습니다.
+* Identity Service v1.5 이상을 사용하고 있습니다.
 * AAM 및 Adobe Analytics 보고서 세트는 ](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)동일한 Experience Cloud 조직에에 매핑[됩니다.
-* [서버측 전달을](/help/admin/admin/c-server-side-forwarding/ssf.md) 사용하고 [대상 관리 모듈](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (DIL 코드 없음) - appmeasurement 1.5 이상을 구현했습니다.
+* You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 
-These prerequisites are described in the [Audience Analytics Workflow](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83).
+이러한 전제 조건은 대상 분석 [워크플로우에 설명되어 있습니다](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83).
