@@ -1,22 +1,22 @@
 ---
-description: 직접 호출 규칙 조건을 만듭니다.
-keywords: 다이내믹 태그 관리; 규칙; 규칙 만들기; 새 규칙; 직접 호출 규칙
-seo-description: 직접 호출 규칙 조건을 만듭니다.
+description: 직접 호출 규칙 조건 만들기.
+keywords: 다이내믹 태그 관리;규칙;만들기 규칙;새 규칙;직접 호출 규칙
+seo-description: 직접 호출 규칙 조건 만들기.
 seo-title: 직접 호출 규칙 조건 만들기
-solution: Marketing Cloud, Analytics, Target, 다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Target,다이내믹 태그 관리
 title: 직접 호출 규칙 조건 만들기
-uuid: BAB 0 E 058-A 5 B 8-4039-8333-5 E 8 F 3 D 06 ADE 4
+uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # 직접 호출 규칙 조건 만들기
 
-직접 호출 규칙 조건을 만듭니다.
+직접 호출 규칙 조건 만들기.
 
-1. **[!UICONTROL 조건]** 대화 상자에서 직접 호출에 전달될 문자열을 `_satellite.track()` 따옴표 없이 지정합니다.
+1. In the **[!UICONTROL Conditions]** dialog, specify the string that will be passed to `_satellite.track()` in your direct call, without quotes.
 
    ![](assets/conditions-direct-call.png)
 
