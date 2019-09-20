@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 릴리스 노트
 title: Flash-Flex
 topic: 개발자 및 구현
-uuid: 2 EE 7 FB 92-9 B 62-44 D 4-BD 93-6 DFF 26764 B 7 F
+uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Flash에 대한 누적 릴리스 노트입니다. ActionScript를 사용하는 F
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
 
 <!-- 
 
@@ -60,13 +60,13 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-영향을 받는 버전은 모든 플랫폼의  [!DNL AppMeasurement] 모든 플랫폼의 Flash 버전 4.0 및 이전 버전
+영향을 받는 버전은 모든 플랫폼의  모든 플랫폼에서 [!DNL AppMeasurement] Flash 버전 4.0 이하 버전.
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. 기존 AS2 기반 프로젝트의 데이터 수집은 계속 지원됩니다. 그렇지만 고객은 구현을 AS3로 업그레이드하고 [!DNL AppMeasurement] for Flash의 최신 보안 기능을 통합하는 것이 좋습니다.
 
-[!DNL AppMeasurement] 이 문제로 영향을 받는 Flash 고객의 경우 [!DNL Analytics] 콘솔에서 [다운로드할 수 있는 업데이트된 라이브러리를 사용하여 프로젝트를 다시 빌드해야 합니다...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN -121780)
+[!DNL AppMeasurement] 이 문제로 영향을 받는 Flash 고객의 경우 콘솔 자세히.... [!DNL Analytics] (AN-121780)에서 다운로드할 수 있는 업데이트된 라이브러리를 사용하여 프로젝트를 [](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) 다시 구성해야 합니다.
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -74,7 +74,7 @@ s.debugTracking = false; // set to false or remove line
 
 * 방문자 API 1.5.3 포함.
 
-## 2015년 9월 17일 {#section_319911C0F080452981F8C8BEA2880463}
+## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
 버전 4.0 - 업데이트:
 
@@ -132,25 +132,25 @@ s.debugTracking = false; // set to false or remove line
 
 릴리스 날짜: **2014년 4월 17일**
 
-* [Marketing Cloud 방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)에 대한 지원
+* Experience Cloud [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)지원
 
 ## 버전 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
 릴리스 날짜: **2014년 3월 13일**
 
-* [!UICONTROL 하트비트] 비디오 추적에 대한 여러 버그 수정.
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## 버전 3.7.2 {#section_D6DCE5FE846A45F1A2CED237E8AAEFE9}
 
 릴리스 날짜: **2014년 2월 6일**
 
-* [!UICONTROL 하트비트] 비디오 추적에 대한 여러 버그 수정.
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## 버전 3.7.1 {#section_DC79F108AB5E42189A8EC7D87697AE0B}
 
 릴리스 날짜: **2013년 11월 14일**
 
-* [!UICONTROL 하트비트] 비디오 추적에 대한 여러 버그 수정.
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## 버전 3.7 {#section_7239878DCD724FD0B9BC900821A4DA96}
 
@@ -202,7 +202,7 @@ s.debugTracking = false; // set to false or remove line
 
 릴리스 날짜: **2012년 11월 8일**
 
-* Internal updates for [!DNL Audience Manager] integration.
+* 통합을 위한 내부 [!DNL Audience Manager] 업데이트
 
 ## 버전 3.5.1 {#section_F6345AC9F4994D6F97BBCF399B02BB21}
 
