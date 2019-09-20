@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 처리 규칙
 title: 처리 규칙 팁과 트릭
 topic: 관리 도구
-uuid: E 3 A 9 FF 8 A-B 81 A -41 C 9-9 F 61-E 40 CB 4 BF 7 D 99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
@@ -39,7 +39,7 @@ dev 보고서 세트에 처리 규칙을 구성하여 올바르게 작동하는�
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-처리 순서를 고려하는 것 또한 중요합니다. 다음 예에서는 페이지 이름이 없을 경우 이전 페이지 이름 사용자 지정 evar가 URL로 설정되어 나타납니다. 그러나 URL은 처리 규칙이 적용된 후 페이지 이름에 배치되므로, 이 경우 페이지 이름이 페이지에 설정되지 않으면 비어 있습니다.
+처리 순서를 고려하는 것 또한 중요합니다. 다음 예에서는 페이지 이름이 없을 경우 이전 페이지 이름 사용자 지정 eVar가 URL로 설정되는 것으로 나타납니다. 그러나 URL은 처리 규칙이 적용된 후 페이지 이름에 배치되므로, 이 경우 페이지 이름이 페이지에 설정되지 않으면 비어 있습니다.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
