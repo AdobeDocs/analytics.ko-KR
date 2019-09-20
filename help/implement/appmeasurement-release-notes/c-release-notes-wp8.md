@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Windows Phone 8
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 릴리스 노트
 title: Windows Phone 8
 topic: 개발자 및 구현
-uuid: 7378969 A-D 219-42 BF -9750-141 ACC 9 E 4 B 7 D
+uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 >[!NOTE]
 >
->[!DNL Windows] Phone 8 SDK는 [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK로 대체됩니다. 이 SDK에 대한 추가 개발 예정은 없습니다.
+>The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. 이 SDK에 대한 추가 개발 예정은 없습니다.
 
 ## 버전 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 릴리스 날짜: **2013년 2월 26일**
 
-* `ADMS_Measurement.visitorID` 기본값이 기본값으로 미리 채워집니다.
+* `ADMS_Measurement.visitorID` 이제 기본값으로 미리 채워집니다.
 * 캐시에서 자동 응답이 종종 수행되던 문제를 해결했습니다.
 
 ## 버전 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
