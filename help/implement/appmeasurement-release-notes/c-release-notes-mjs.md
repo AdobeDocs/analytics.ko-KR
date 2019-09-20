@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 릴리스 노트
 title: JavaScript용 AppMeasurement
 topic: 개발자 및 구현
-uuid: 1440013 D-D 266-4 DCE -9807-8 B 9 ADAC 73315
+uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -31,8 +31,8 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 기능/수정 | 설명 |
 | -----------| ---------- |
-| Baidu 지원 추가 | Baidu 쿼리 문자열 순서 변경 지원을 추가했습니다. |
-| 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는 | 옵트인을 기다리는 동안 큐에 있었던 히트에 오래된 방문자 값이 발생하던 문제를 수정했습니다. |
+| Baidu 지원 추가됨 | Baidu 쿼리 문자열 순서 조정 지원이 추가되었습니다. |
+| 변수 이름이 아니라, 필터링된 보고서의 머리글로 잘못 표시하는 | 옵트인을 기다리는 동안 대기 중인 히트에 오래된 방문자 값이 발생하는 문제를 수정했습니다. |
 
 ## 버전 2.16.0
 
@@ -40,7 +40,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 종료 링크에 대한 `sendBeacon` 지원 | [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 이를 통해 종료 링크 추적 기능이 개선되고 트래픽이 증가할 수 있습니다. `SendBeacon` 페이지 컨텍스트에서는 실행되지만 브라우저의 컨텍스트에서는 실행되지 않습니다. 즉, 페이지가 언로드되는 `sendBeacon`경우 요청이 계속 완료됩니다. 종료 링크 요청이 완료될 가능성이 훨씬 더 높기 때문에 종료 링크에 매우 유용합니다. |
+| 종료 링크에 대한 `sendBeacon` 지원 | [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 이를 통해 종료 링크 추적 기능이 개선되고 트래픽이 증가할 수 있습니다. `SendBeacon` 은 페이지의 컨텍스트에서 실행되지 않고 브라우저의 컨텍스트에서 실행됩니다. 즉, 페이지를 언로드해도 요청이 `sendBeacon`계속 완료됩니다. 이 기능은 종료 링크에 매우 유용합니다. 종료 링크 요청이 훨씬 더 완료될 가능성이 커지기 때문입니다. |
 | ECID/fid 값 | 이제 OptIn 설정이 변경되더라도 ECID/fid 값이 첫 번째 히트에 캐시됩니다. |
 | DIL 9.3 | 대상 관리 모듈의 DIL 9.3 업데이트 |
 | 스크롤 도달 추적 | s.ActivityMap.trackScrollReach에 스위치를 노출하여 스크롤 도달 추적을 켜거나 끕니다. |
@@ -50,8 +50,8 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 릴리스 날짜: **2019년 7월 15일**
 
-* Activity Map 확장에 activitymap 스크롤 도달 추적을 추가했습니다 (AN -172949).
-* Appmeasurement에 DIL 9.2 추가 (AN -182472)
+* ActivityMap 스크롤 도달 추적을 Activity Map 확장(AN-172949)에 추가했습니다.
+* AppMeasurement에 DIL 9.2를 추가했습니다(AN-182472).
 
 ## 버전 2.14.0
 
@@ -64,7 +64,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 릴리스 날짜: **2019년 4월 10일**
 
-Clearvars에서 보고된 많은 문제를 수정했습니다. 추적기가 준비되기 전에 히트를 보낼 때 문제가 발생합니다. 추적기가 준비되면 라이브러리에서 이미 삭제 또는 변경된 변수를 설정할 수 있습니다. (AN-176931, AN-176629, DTM-12758).
+clearVars와 관련하여 보고된 많은 문제를 해결합니다. 이 문제는 추적기가 준비되기 전에 히트가 전송될 때 발생합니다. 추적기가 준비되면 라이브러리는 이미 지워졌거나 변경된 변수를 설정할 수 있습니다. (AN-176931, AN-176629, DTM-12758).
 
 ## 버전 2.12.0
 
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * 대상 관리 모듈이 DIL 9.1로 업데이트되었습니다. (AN-175255)
 * GTM 보안 정책이 Activity Map 모듈을 허용하지 않습니다. (AN-174679)
-* Identity Service가 옵트인에서 승인되지 않은 경우 옵트아웃을 준수하도록 appmeasurement가 개선되었습니다. (AN-175259)
+* ID 서비스가 옵트인에서 승인되지 않은 경우 옵트아웃을 수락하도록 AppMeasurement를 개선했습니다. (AN-175259)
 
 ## 버전 2.11.0
 
@@ -88,9 +88,9 @@ Release Date: **09/20/2018**
 
 This release ensures that the [!DNL AppMeasurement] library submits cookies correctly for all connection types.
 
-* [!DNL AppMeasurement] 게시물 중에 쿠키 전송을 차단합니다. (AN-165538)
+* [!DNL AppMeasurement] POST 도중 쿠키 전송을 차단합니다. (AN-165538)
 * XDomainRequest에 대한 지원을 삭제합니다. (AN-165733)
-* [!DNL AppMeasurement] 기본 쿠키 라이프타임을 5 년에서 2 년으로 줄일 수 있습니다. (AN-158572)
+* Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
 * Remove the Media Module from the Code Manager ( [!DNL AppMeasurement]) (AN-166590)
 
 ## 버전 2.9.0 {#section_E973B8A628F348AA9A1A1599CFE37DB9}
@@ -111,7 +111,7 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 * Update [!DNL AppMeasurement] to use the updated visitor interface for requesting IDs. (AN-151483)
 * 링크 추적이 해제되면 링크 추적 쿠키가 계속 기록됩니다. (AN-156332)
-* [!DNL AppMeasurement] 기본 쿠키 라이프타임을 5 년에서 2 년으로 줄일 수 있습니다. (AN-158572)
+* Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
 
 ## 버전 2.8.1 {#section_6C1C4091F2EE4C90B6F3D7EE783DD884}
 
@@ -177,7 +177,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * [!DNL dil.js] 최신 버전 포함(AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * 방문자 API 2.1.0이 다시 포함되었습니다. (AN-140873)
-* `mcorgid` 매개 변수가 추가되었습니다. (AN-139586)
+* Added `mcorgid` parameter. (AN-139586)
 * cp (customerPerspective) 매개 변수가 추가되었습니다. (AN-140897)
 
 ## 버전 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -241,7 +241,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 >[!NOTE]
 >
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Marketing Cloud ID service.
+>Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## 버전 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
@@ -251,7 +251,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Marketing Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Marketing Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
 
 ## 버전 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
@@ -259,7 +259,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 * 방문자 API 1.6.0 포함
 * Fixed an issue causing [!DNL AppMeasurement] to call the wrong obfuscated method in the Visitor API. (AN-126006)
-* [!DNL JavaScript] 오류가 발생하는 문제를 수정했습니다. " 속성은 v 에서만 유효합니다. image ". (AN-124009)
+* Fixed an issue causing the [!DNL JavaScript] error: "Attribute only valid on v:image". (AN-124009)
 
 <!-- 
 
@@ -288,7 +288,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 릴리스 날짜: **2016년 4월 21일**
 
-* [!DNL AppMeasurement][!DNL Activity Map] 모듈은 [!DNL AppMeasurement] 표준 모듈에 통합되었으므로 [!DNL .js] 하나의 파일만 참조할 수 있습니다. [!DNL Activity Map] 또한 추적이 기본적으로 활성화됩니다. (AN-112689)
+* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Additionally, [!DNL Activity Map] tracking is activated by default. (AN-112689)
 
 * Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
 
@@ -336,7 +336,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 릴리스 날짜: **2015년 6월 18일**
 
 * *`getCustomerIDs`* 메서드를 사용하여 고객 ID와 인증된 상태를 수집하고 데이터 수집 요청으로 해당 ID를 전송하는 방문자 API 1.5에 대한 지원.
-* **[!UICONTROL Audiencemanagement]** 모듈 (DIL 6.1) 에서 복제 대상 iframe의 생성을 수정했습니다.
+* Fixed the creation of duplicate destinationing iframe in **[!UICONTROL AudienceManagement]** module (DIL 6.1)
 * 릴리스 1.4.5에 설명된 알려진 문제를 해결했습니다.
 
 ## 버전 1.4.5 {#section_FA2E94DF78614ACE9944660E14EF3A75}
@@ -353,11 +353,11 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 확장</span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> iOS </span> SDK 버전 4.5 부터 새로운 <span class="keyword"> iOS </span> 확장 기능을 사용하면 Apple Watch Apps, Today Widgets, Photo Editing 위젯 및 기타 <span class="keyword"> 모든 iOS </span> 확장 앱의 사용 데이터를 수집할 수 있습니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">iOS 확장 구현</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">iOS 확장 구현</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android Wearable 확장</span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Android </span> SDK 버전 4.5 부터 새로운 <span class="keyword"> Android </span> 확장 기능을 사용하면 <span class="keyword"> Android </span> Wearable 앱의 데이터를 수집할 수 있습니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Android Wearable 확장</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Android Wearable 확장</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +367,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 **알려진 문제**
 
-방문자 API/ [!DNL AppMeasurement][!DNL Audience Manager] 모듈 통합에는 IE 6-9에서 수행되는 두 가지 대상 게시 iframe 요청이 있습니다. `//fast.<subdomain>.demdex.net/dest5.html` `//fast.<subdomain>.demdex.net/dest4.html`And. 다른 브라우저에 표시될 때 올바른 동작은 `//fast.<subdomain>.demdex.net/dest5.html`.
+방문자 API/ [!DNL AppMeasurement] 모듈 [!DNL Audience Manager] 통합에는 IE6-9에서 수행되는 두 개의 대상 게시 iFrame 요청이 있습니다. `//fast.<subdomain>.demdex.net/dest5.html` 및 `//fast.<subdomain>.demdex.net/dest4.html`Adobe 다른 브라우저에 표시될 때 올바른 동작은 `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## 버전 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
@@ -432,7 +432,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Marketing Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
 
 ## 버전 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -445,7 +445,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 >[!NOTE]
 >
->H-Code는 추가 evar 및 이벤트를 지원하지 않습니다.
+>H-Code는 추가 eVar 및 이벤트를 지원하지 않습니다.
 
 [!DNL JavaScript]
 
@@ -460,13 +460,13 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 릴리스 날짜: **2014년 5월 22일**
 
-* [!DNL AppMeasurement] 함수의 경우 [!DNL JavaScript]`s_gi` H 코드를 사용하여 만든 인스턴스를 올바르게 찾지 `s_gi`못했습니다. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* [!DNL AppMeasurement] for [!DNL JavaScript] function was not correctly find instances created using H code `s_gi` `s_gi` Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
 ## 버전 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
 릴리스 날짜: **2014년 4월 17일**
 
-* [Marketing Cloud 방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)에 대한 지원
+* Experience Cloud [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)지원
 
 ## 버전 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
 
@@ -497,7 +497,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 릴리스 날짜: **2013년 11월 14일**
 
 * [하트비트 비디오 측정](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)에 대한 지원이 추가되었습니다.
-* [!DNL VisitorAPI.js][](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)가 추가되었습니다.
+* [!DNL VisitorAPI.js] 가 방문자 ID 서비스 지원에 [추가되었습니다](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
 
 ## 버전 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
