@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/ko-KR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
+source-git-commit: 61f82f3957037df7c609987edbc9ecd7d3a2325f
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
       + [모바일 프로토콜에서의 사용자 지정 링크 측정](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + Analytics 구현 및 보고용 변수 {#variables-analytics-reporting}
       + [변수 개요](js-implementation/c-variables/sc-variables.md)
-      + [구성 변수 목록](js-implementation/c-variables/configuration-variables.md)
+      + [Configuration variables list](js-implementation/c-variables/configuration-variables.md)
       + 구성 변수 {#config-var}
          + [s.account](js-implementation/c-variables/config-vars/s-account.md)
       + [컨텍스트 데이터 변수](js-implementation/c-variables/context-data-variables.md)
