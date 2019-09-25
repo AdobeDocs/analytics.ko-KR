@@ -1,7 +1,7 @@
 ---
 description: AppMeasurement.js에서 설정된 구성 변수.
 keywords: Analytics 구현
-seo-description: Adobe Analytics용 AppMeasurement.js에 설정된 구성 변수
+seo-description: Configuration variables set in AppMeasurement.js for Adobe Analytics
 seo-title: 구성 변수
 solution: Analytics
 subtopic: 변수
@@ -9,7 +9,7 @@ title: 구성 변수
 topic: 개발자 및 구현
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
+source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
 
 ---
 
@@ -30,68 +30,8 @@ Not all of these variables appear in the code by default when you generate code 
 
 >[!NOTE]
 >
->[!DNL AppMeasurement] 를 사용하려면 모든 구성 변수가 추적 함수에 대한 초기 호출 전에 설정되어야 `t()`합니다. 구성 변수가 호출 후에 설정되면 `t()`예기치 않은 결과가 발생할 수 있습니다. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] 를 사용하려면 모든 구성 변수가 추적 함수에 대한 초기 호출 전에 설정되어야 `t()`합니다. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
-## s.account {#concept_685A5C832A6C40619ACB5920925785DC}
-
- 변수는 데이터를 저장 및 보고하는 보고서 세트를 결정합니다.
-
-If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. 보고서 세트 ID는 Adobe에 의해 결정됩니다.
-
-**매개 변수**
-
-| 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
-|--- |--- |--- |--- |
-| 40바이트 | URL 경로에서 | N/A | N/A |
-
-Each report suite ID must match the value created in the [!DNL Admin Console]. 각 보고서 세트 ID는 40바이트 이하여야 하지만 모든 보고서 세트의 집계 정보(쉼표로 구분된 목록 전체)에는 제한이 없습니다.
-
-보고서 세트는 보고에서 세그먼테이션의 가장 기본적인 수준입니다. 계약에서 허용하는 만큼 많은 보고서 세트를 설정할 수 있습니다. 각 보고서 세트는 Adobe의 수집 서버에서 채워지는 전용 테이블을 참조하십시오. 보고서 세트는 JavaScript 코드의 `s_account`변수로 식별됩니다. 
-
-[!DNL Analytics] 내에서, 보고서의 왼쪽 상단에 있는 사이트 드롭다운 상자에는 현재 보고서 세트가 표시됩니다. 각 보고서 세트에는 보고서 세트 ID라는 고유 식별자가 있습니다. 변수 `s_account` 변수에는 데이터가 전송되는 하나 이상의 보고서 세트 ID가 포함되어 있습니다. [!DNL Analytics] 사용자에게 보이지 않는 보고서 세트 ID 값은 사용하기 전에 Adobe에서 제공 또는 승인 받아야 합니다. Every report suite ID has an associated "friendly name" that can be changed in the report suites section of the [!DNL Admin Console].
-
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). HTML 페이지에서 `s_account` 변수를 선언할 수 있습니다. 이 방법은 값이 페이지에서 페이지로 변경될 `s_account` 수 있는 일반적인 방법입니다. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
-
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 경우에 따라 의 값이 112.2o7.net 이전의 도메인에 `s_account` 표시됩니다. 경로의 값은 대상 보고서 세트를 결정하는 유일한 값입니다. 아래의 굵은 텍스트는 데이터를 전송 받는 보고서 세트가 디버거에 나타난 모습을 표시합니다. 자세한 내용은 [DigitalPulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
-
-```js
-https://mycompany.112.207.net/b/ss/ 
-<b>mycompanycom,mycompanysection</b>/1/H.1-pdv-2/s21553246810948?[AQB]
-```
-
-**구문 및 가능한 값** {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
-
-보고서 세트 ID는 40바이트 길이 이하의 ASCII 영숫자 문자열입니다. 영숫자가 아닌 문자 중에서는 하이픈만 허용됩니다. 공백, 마침표, 쉼표 및 기타 구두점은 허용되지 않습니다. The `s_account` 에는 여러 보고서 세트가 포함될 수 있으며 이 모든 세트가 해당 페이지로부터 데이터를 받습니다.
-
-```js
-var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
-```
-
-의 모든 값은 Adobe가 제공하거나 승인해야 `s_account` 합니다.
-
-**예** {#section_16580A9101B64560A58C7745397FB42F}
-
-```js
-var s_account="mycompanycom"
-```
-
-```js
-var s_account="mycompanycom,mycompanysection"
-```
-
-**Analytics**&#x200B;의 변수 구성 {#section_7DFB2CCF02F045AFB1AD4F376638393B}
-
-각 보고서 세트 ID와 연결된 친숙한 이름은 Adobe [!DNL Customer Care]에서 변경할 수 있습니다. 친숙한 이름은 [!DNL Analytics] 상단의 화면 왼쪽 섹션에 있는 사이트 드롭다운 상자에서 확인할 수 있습니다.
-
-**함정, 질문 및 팁** {#section_BFFDA5C0AF31442494B0E02F0925CF93}
-
-* If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
-* When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.
-* If [!UICONTROL s.dynamicAccountSelection] is set to *True* the URL is used to determine the destination report suite. [!DNL DigitalPulse Debugger]를 사용하여 수신처 보고서 세트를 결정하십시오.
-
-* 일부 경우에, [!DNL VISTA]를 사용하여 수신처 보고서 세트를 변경할 수 있습니다. 자사 쿠키를 사용하거나 사이트에 활성 보고서 세트가 20개 이상 있는 경우, [!DNL VISTA]를 사용하여 데이터를 다시 전송하거나 다른 보고서 세트에 복사하는 것이 좋습니다.
-
-* Always declare `s_account` inside the JS file or just before it is included.
 
 ## s.dynamicAccountSelection {#concept_FAD499DB357148DB8BD74F08093D3E35}
 
@@ -133,22 +73,22 @@ s.dynamicAccountSelection=false
 
 **함정, 질문 및 팁** {#section_62F0B0895BC84A05840AEEED0643DE60}
 
-* JavaScript용 AppMeasurement에서는 동적 계정 [선택이 지원되지 않습니다](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* Dynamic account selection is not supported by AppMeasurement for JavaScript.[](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)
 * 각 페이지의 데이터를 받는 보고서 세트를 결정하려면 항상 [!DNL DigitalPulse Debugger]를 사용하십시오.
 
 ## s.dynamicAccountList {#concept_19715BA0AD4D41748E0C4A4A6B71AB51}
 
-[!DNL AppMeasurement] for JavaScript는 데이터를 전송하는 보고서 세트를 동적으로 선택할 수 있습니다.  변수에는 대상 보고서 세트를 결정하는 데 사용할 규칙이 포함됩니다.
+[!DNL AppMeasurement] for JavaScript can dynamically select a report suite to which it sends data.  변수에는 대상 보고서 세트를 결정하는 데 사용할 규칙이 포함됩니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | N/A | N/A | N/A | "" |
 
-이 변수는 및 *`dynamicAccountSelection`* 변수를 *`dynamicAccountMatch`* 참조하십시오. 의 규칙은 'true'로 *`dynamicAccountList`* 설정되어 있고, 에 지정된 URL의 섹션에 적용되는 *`dynamicAccountSelection`* 경우에 적용됩니다 *`dynamicAccountMatch`*.
+이 변수는 및 *`dynamicAccountSelection`* 변수를 *`dynamicAccountMatch`* 참조하십시오. The rules in  are applied if  is set to 'true,' and they apply to the section of the URL specified in .*`dynamicAccountList`**`dynamicAccountSelection`**`dynamicAccountMatch`*
 
-의 규칙이 페이지의 URL과 *`dynamicAccountList`* 일치하지 않으면 에서 식별된 보고서 세트가 `s_account` 사용됩니다. 이 변수에 나열된 규칙은 왼쪽에서 오른쪽 순서로 적용됩니다. 페이지 URL이 두 개 이상의 규칙에 일치하는 경우, 가장 왼쪽 규칙이 보고서 세트를 결정하는 데 사용됩니다. 그 결과, 더 일반적인 규칙이 목록의 오른쪽으로 이동합니다.
+If none of the rules in  matches the URL of the page, the report suite identified in  is used. *`dynamicAccountList`*`s_account` 이 변수에 나열된 규칙은 왼쪽에서 오른쪽 순서로 적용됩니다. 페이지 URL이 두 개 이상의 규칙에 일치하는 경우, 가장 왼쪽 규칙이 보고서 세트를 결정하는 데 사용됩니다. 그 결과, 더 일반적인 규칙이 목록의 오른쪽으로 이동합니다.
 
-다음 예에서 페이지 URL은 `www.mycompany.com/path1/?prod_id=12345` true로 `dynamicAccountSelection` 설정되고 *다음으로 설정됩니다* `s_account` . `mysuitecom.`
+In the following examples, the page URL is  and  is set to true and  is set to `www.mycompany.com/path1/?prod_id=12345``dynamicAccountSelection`**`s_account``mysuitecom.`
 
 | DynamicAccountList 값 | DynamicAccountMatch 값 | 데이터를 받는 보고서 세트 |
 |---|---|---|
@@ -187,22 +127,22 @@ s.dynamicAccountList="ms1,ms2=site1.com;ms1,ms3=site3.com"
 
 **함정, 질문 및 팁** {#section_3E10534FCC05457AB67147BB480C8BB3}
 
-* JavaScript용 AppMeasurement에서는 동적 계정 [선택이 지원되지 않습니다](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* Dynamic account selection is not supported by AppMeasurement for JavaScript.[](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)
 * 페이지 URL이 여러 규칙을 만족하는 경우, 왼쪽 끝에 있는 규칙이 사용됩니다.
 * 만족하는 규칙이 없을 경우에는 기본 보고서 세트가 사용됩니다.
 * 페이지가 누군가의 하드 드라이브에 저장되거나 웹 기반 번역 엔진을 통해 번역되는 경우(Google의 번역된 페이지)에는, 동적 계정 선택 기능이 작동하지 않습니다. 더 정밀한 추적을 수행하려면, `s_account` 변수 서버측을 채우십시오.
 * The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
 
-* 동적 계정 선택을 사용할 때는 새 도메인을 얻을 *`dynamicAccountList`* 때마다 반드시 업데이트해야 합니다.
+* When using dynamic account selection, be sure to update  every time you obtain a new domain.*`dynamicAccountList`*
 * 대상 보고서 세트를 식별할 때 [!DNL DigitalPulse Debugger]를 사용하십시오. The `dynamicAccountSelection` variable always overrides the value of `s_account`.
 
 ## s.dynamicAccountMatch {#concept_718171E602214CCC9905C749708BBE52}
 
-이 변수는 DOM 개체를 사용하여 의 모든 규칙이 적용되는 URL의 섹션을 검색합니다.
+The  variable uses the DOM object to retrieve the section of the URL to which all rules in  are applied.
 
 This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' 기본값이 [!DNL window.location.host]이므로, 이 값은 [!UICONTROL 동적 계정 선택] 기능이 작동하는 데 필요하지 않습니다. For additional information, see [dynamicAccountList](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51).
 
-에 있는 규칙은 의 값에 `dynamicAccountList` 적용됩니다 `dynamicAccountMatch`. 에 `dynamicAccountMatch` (기본값)만 [!DNL window.location.host] 포함된 경우 의 규칙은 페이지의 도메인에만 `dynamicAccountList` 적용됩니다.
+The rules found in  are applied to the value of . `dynamicAccountList``dynamicAccountMatch` If  only contains  (default), the rules in  apply only to the domain of the page.`dynamicAccountMatch`[!DNL window.location.host]`dynamicAccountList`
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
@@ -241,7 +181,7 @@ s.dynamicAccountMatch=window.location.host+window.location.pathname
 
 **함정, 질문 및 팁** {#section_EF9B2977BC21497D8C5EEB9BAD731E17}
 
-* JavaScript용 AppMeasurement에서는 동적 계정 [선택이 지원되지 않습니다](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* Dynamic account selection is not supported by AppMeasurement for JavaScript.[](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)
 * When pages are saved to a hard drive, [!DNL window.location.host] is empty, causing those page views to be sent to the default report suite (in `s_account`).
 
 * 페이지가 Google과 같은 웹 기반 번역 엔진을 통해 번역되는 경우, [!UICONTROL 동적 계정 선택] 기능이 설계대로 작동하지 않습니다. 더 정밀한 추적을 수행하려면, [!UICONTROL s_account ]변수 서버측을 채우십시오.
@@ -315,7 +255,7 @@ If a site has different web encodings on different pages, or a single JavaScript
 
 마찬가지로 공백인 charSet 매개 변수는 데이터 변환 프로세스를 무시하고 128-255 범위의 모든 문자를 1바이트로 저장합니다. 이러한 문자는 2바이트 보고서 세트에서 올바로 표시되지 않는데, 그 이유는 해당 문자의 1바이트 코드가 유효한 UTF-8이 아니기 때문입니다. 따라서 charSet 매개 변수는 항상 2바이트 보고서 세트와 함께 사용해야 합니다. 또한 웹 페이지 인코딩에 적합한 값을 사용해야 합니다.
 
-If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. 그러나 페이지의 변수에 비ASCII 문자가 포함되어 있으면 *`charSet`* 변수를 채워야 합니다.
+If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. However, if the variables on your pages contain non-ASCII characters, the *`charSet`* variable must be populated.
 
 **매개 변수**
 
@@ -351,7 +291,7 @@ s.charSet="SJIS"
 
 사이트에서 방문자가 여러 통화로 구매할 수 있는 경우, *`currencyCode`* 변수를 사용하여 매출이 적절한 통화로 저장되었는지 확인해야 합니다. For example, if the base currency for your report suite is USD, and you sell an item for 40 Euros, you should populate the *`currencyCode`* with "EUR" on the HTML page. 데이터 수집에서는 데이터를 받자마자 현재 전환율을 사용하여 40유로를 해당 USD로 전환합니다.
 
-여러 통화로 판매하는 경우에는 JavaScript 파일 대신 HTML 페이지에서 *`currencyCode`* 변수를 채우는 것이 좋습니다. Adobe에서 사용하는 전환율 대신 사용자의 전환율을 사용하려면 보고서 세트의 기본 통화와 같도록 *`currencyCode`* 설정합니다. 그런 다음 모든 매출을 [!DNL Analytics]로 보내기 전에 전환합니다.
+여러 통화로 판매하는 경우에는 JavaScript 파일 대신 HTML 페이지에서 *`currencyCode`* 변수를 채우는 것이 좋습니다. If you want to use your own conversion rates rather than the conversion rates used by Adobe, set the  to equal the base currency of your report suite. *`currencyCode`* 그런 다음 모든 매출을 [!DNL Analytics]로 보내기 전에 전환합니다.
 
 통화 전환은 매출과 모든 통화 이벤트 모두에 적용됩니다. 이러한 이벤트들은 세금이나 배송과 같이, 매출과 유사한 값들을 합하는 데 사용되는 이벤트입니다. 매출 및 통화 이벤트는 제품 문자열에서 지정됩니다. 제품에 대한 자세한 내용은 [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE).
 
@@ -579,7 +519,7 @@ s_mc.doPlugins=s_mc_doPlugins;
 
 **함정, 질문 및 팁** {#section_0C7FB61CF0C946EF8A7D1B686D36E6ED}
 
-* 개체 이름을 변경(s에서 s_mc으로 변경하는 등)하는 유일한 이유는 컨텐츠를 다른 고객과 공유하거나 다른 고객의 컨텐츠를 가져오는 경우입니다. 이름 바꾸기 *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
+* 개체 이름을 변경(s에서 s_mc으로 변경하는 등)하는 유일한 이유는 컨텐츠를 다른 고객과 공유하거나 다른 고객의 컨텐츠를 가져오는 경우입니다. Renaming the *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
 
 * 예기치 않게 다른 Adobe 고객의 컨텐츠를 가져오기 시작하고 *`s_doPlugins`* 기능을 덮어쓰는 경우 개체 이름을 변경하지 않고 간단하게 *`s_doPlugins`* 함수의 이름을 변경할 수 있습니다. 같은 페이지에서 다른 JavaScript 파일이 아닌 다른 개체 이름을 사용하는 것이 최고의 솔루션일 경우에는 그렇게 할 필요가 없습니다.
 
@@ -603,7 +543,7 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 
 ## s.trackDownLoadLinks {#concept_0A7AEAB3172A4BEA8B2E8B1A3A8F596C}
 
-사이트에서 다운로드 가능한 파일에 대한 링크를 추적하려면 'true'로 설정합니다.
+Set  to 'true' if you would like to track links to downloadable files on your site.
 
 'true' *`trackDownloadLinks`* 이면 다운로드 가능한 파일인 링크를 확인하는 데 *`linkDownloadFileTypes`* 사용됩니다.
 
@@ -882,15 +822,15 @@ s.linkLeaveQueryString=true
 
  변수는 사용자 지정, 종료 및 다운로드 링크와 함께 전송되는, 쉼표로 구분되는 변수 목록입니다.
 
-If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. 다른 변수와 연결된 인스턴스 또는 페이지 보기가 부풀려지지 않도록 링크 추적에 사용되는 링크의 *`linkTrackVars`* onClick *`linkTrackEvents`*  이벤트에 채우는 것이 좋습니다.
+If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating  and  in the onClick event of a link that is used for link tracking.*`linkTrackVars`**`linkTrackEvents`*
 
-링크 데이터(사용자 지정, 종료 및 다운로드 링크)와 함께 보내야 하는 모든 변수는 *`linkTrackVars`*. 이 *`linkTrackEvents`* 사용될 경우 "events"를 *`linkTrackVars`* 포함해야 합니다.
+링크 데이터(사용자 지정, 종료 및 다운로드 링크)와 함께 보내야 하는 모든 변수는 *`linkTrackVars`*. If  is used,  should contain "events."*`linkTrackEvents`**`linkTrackVars`*
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | N/A | N/A | 임의 | "없음" |
 
-When *`linkTrackVars`*, do not use the 's.' prefix for variables. 예를 들어 "s.prop1" *`linkTrackVars`* 로 채우는 대신 "prop1"로 채워야 합니다. 다음 예는 *`linkTrackVars`* 사용해야 하는 방법을 보여줍니다.
+When *`linkTrackVars`*, do not use the 's.' prefix for variables. For example, instead of populating  with "s.prop1," you should populate it with "prop1." *`linkTrackVars`* The following example illustrates how  should be used.*`linkTrackVars`*
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -913,7 +853,7 @@ The *`linkTrackVars`* variable is a case-sensitive, comma-separated list of vari
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-The *`linkTrackVars`* 변수에는 전송된 변수만 포함될 수 있습니다. [!DNL Analytics]즉, 다음과 같습니다. *`events`**`campaign`*, *`purchaseID`*, *`products`* eVar1-75 [!UICONTROL ,]prop1-75 [!UICONTROL , hightroom1-5]er-51, er-51,,,,,,,, 및 구를 *`channel`**`server`**`state`**`zip`**`pageType`*&#x200B;사용합니다.
+The  variable may contain only variables that are sent to , namely: , , , , eVar1-75, prop1-75, hier1-5, , , , , and .*`linkTrackVars`*[!DNL Analytics]*`events`**`campaign`**`purchaseID`**`products`**`channel`**`server`**`state`**`zip`**`pageType`*
 
 **예** {#section_546BAAC7373A41BF8583B280EAAB607C}
 
@@ -953,9 +893,9 @@ s.t() // both event1 and event2 are recorded
 
 [!DNL help.php]에 연결된 첫 번째 링크를 보면 이벤트 변수가 링크를 누르기 전에 설정되었던 값을 유지함을 알 수 있습니다. 이렇게 되면 사용자 지정 링크로 event1을 보낼 수 있습니다. 두 번째 예인 [!DNL test.php]에 연결된 링크에서는 event2가 *`linkTrackEvents`*.
 
-혼동 및 잠재적 문제를 방지하려면 링크 추적에 사용되는 링크의 *`linkTrackVars`* onClick *`linkTrackEvents`* 이벤트를 작성하고  입력하는 것이 좋습니다.
+To avoid confusion and potential problems, Adobe recommends populating  and  in the onClick event of a link that is used for link tracking.*`linkTrackVars`**`linkTrackEvents`*
 
-The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. 이 변수는 "events"가 *`linkTrackVars`* 포함된 경우에만 고려됩니다.
+The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. This variable is only considered if  contains "events."*`linkTrackVars`*
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
@@ -987,7 +927,7 @@ s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 
 **함정, 질문 및 팁** {#section_DBB68BECC9D44380816113DB2566C38C}
 
-* JavaScript 파일은 "events" 변수를 포함하는 *`linkTrackEvents`* 경우에만 *`linkTrackVars`* 사용합니다. "events"는 정의된 *`linkTrackVars`* 경우에만 포함되어야 *`linkTrackEvents`* 합니다.
+* The JavaScript file only uses  if  contains the "events" variable. *`linkTrackEvents`**`linkTrackVars`* "events" should be included in  only when  is defined.*`linkTrackVars`**`linkTrackEvents`*
 
 * 페이지에서 이벤트가 실행되어 *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
 
@@ -995,19 +935,19 @@ s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 
 ## s.linkExternalFilters {#concept_92A59169DCE443EBAE81A373B27BB6DD}
 
-사이트에 외부 사이트에 대한 링크가 많이 포함되어 있고 일부 종료 링크를 추적하지 않으려는 경우 를 사용하여 특정 종료 링크의 하위 세트에 대해 보고합니다.
+If your site contains many links to external sites, and you do not want to track all exit links, use  to report on a specific subset of exit links.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | N/A | N/A | 경로 &gt; 시작 및 종료 &gt; 종료 링크 | "" |
 
-The 변수는 *`linkExternalFilters`* *`linkInternalFilters`* 링크가 종료 링크인지 여부를 확인하는 데 함께 사용되는 선택 변수입니다. 종료 링크는 방문자를 사이트 외부로 보내는 링크로 정의됩니다. 종료 링크의 대상 창이 팝업과 기존 창 중 어느 것인지는 종료 링크 보고서에 링크가 표시되는지 여부에 영향을 주지 않습니다. 종료 링크는 *`trackExternalLinks`* is set to 'true.' 필터는 대/소문자를 구분하지 *`linkExternalFilters`* *`linkInternalFilters`* 않습니다.
+The  variable is an optional variable used in conjunction with  to determine whether a link is an exit link. *`linkExternalFilters`**`linkInternalFilters`* 종료 링크는 방문자를 사이트 외부로 보내는 링크로 정의됩니다. 종료 링크의 대상 창이 팝업과 기존 창 중 어느 것인지는 종료 링크 보고서에 링크가 표시되는지 여부에 영향을 주지 않습니다. 종료 링크는 *`trackExternalLinks`* is set to 'true.' The filters in  and  are case insensitive.*`linkExternalFilters`**`linkInternalFilters`*
 
 >[!NOTE]
 >
->사용하지 않으려면 *`linkExternalFilters`*&#x200B;삭제하거나 ""로 설정하십시오.
+>If you don't want to use , delete it or set it to "".*`linkExternalFilters`*
 
-필터 목록은 기본적으로 의 목록을 *`linkExternalFilters`* 포함하며 모든 링크의 도메인 및 경로에 *`linkInternalFilters`* 적용됩니다. 'true'로 *`linkLeaveQueryString`* 설정하면 필터가 전체 URL(도메인, 경로 및 쿼리 문자열)에 적용됩니다. 이러한 필터는 href 값에 상대 경로를 사용한 경우라도 항상 URL의 절대 경로에 적용됩니다.
+The filters list in  and  apply to the domain and path of any link by default. *`linkExternalFilters`**`linkInternalFilters`* 'true'로 *`linkLeaveQueryString`* 설정하면 필터가 전체 URL(도메인, 경로 및 쿼리 문자열)에 적용됩니다. 이러한 필터는 href 값에 상대 경로를 사용한 경우라도 항상 URL의 절대 경로에 적용됩니다.
 
 대부분의 회사는 *`linkInternalFilters`* 가 종료 링크를 충분히 제어할 수 있도록 해주므로 *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
 
@@ -1052,9 +992,9 @@ s.linkExternalFilters=""
 
 **함정, 질문 및 팁** {#section_8B40E6F539E3473B934A8DB7C5086D73}
 
-* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. 내부 링크가 종료 링크가 되도록 *`linkInternalFilters`* 강제하기 위해 이 변수를 대신 사용하지 마십시오.
+* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of  to force internal links to become exit links.*`linkInternalFilters`*
 
-* 링크의 쿼리 문자열에 *`linkExternalFilters`* 적용해야 하는 경우 *`linkLeaveQueryString`* 이 'true'로 설정되어 있는지 확인하십시오. See [linkLeaveQueryString](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_118C280E29394DB5A16DBBF41EB4D742) before setting to `"true"`.
+* If  should be applied to the query string of a link, make sure  is set to 'true.' *`linkExternalFilters`**`linkLeaveQueryString`* See [linkLeaveQueryString](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_118C280E29394DB5A16DBBF41EB4D742) before setting to `"true"`.
 
 * To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.
 
