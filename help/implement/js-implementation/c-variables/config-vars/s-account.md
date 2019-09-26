@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 4a6bac589d1d6d6caaf34dc5363c60bbfbb952d5
+source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 ---
 
@@ -30,7 +30,7 @@ Each report suite ID must match the value created in the [!DNL Admin Console]. �
 
 The `s_account` variable is normally declared inside the JavaScript file (s_code.js). HTML 페이지에서 `s_account` 변수를 선언할 수 있습니다. 이 방법은 값이 페이지에서 페이지로 변경될 `s_account` 수 있는 일반적인 방법입니다. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 경우에 따라 의 값이 112.2o7.net 이전의 도메인에 `s_account` 표시됩니다. 경로의 값은 대상 보고서 세트를 결정하는 유일한 값입니다. 아래의 굵은 텍스트는 데이터를 전송 받는 보고서 세트가 디버거에 나타난 모습을 표시합니다. 자세한 내용은 [DigitalPulse Debugger](/help/implement/impl-testing/debugger.md).
+Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 경우에 따라 의 값이 112.2o7.net 이전의 도메인에 `s_account` 표시됩니다. 경로의 값은 대상 보고서 세트를 결정하는 유일한 값입니다. 아래의 굵은 텍스트는 데이터를 전송 받는 보고서 세트가 디버거에 나타난 모습을 표시합니다. 자세한 내용은 [DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
