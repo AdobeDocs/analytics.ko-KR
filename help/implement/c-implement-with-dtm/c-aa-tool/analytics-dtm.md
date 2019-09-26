@@ -1,14 +1,14 @@
 ---
-description: Adobe Analytics 도구를 만들고 페이지 코드를 자동 또는 수동으로 구성하여 다이내믹 태그 관리를 사용하여 Adobe Analytics를 배포합니다. 대부분의 사용자에게는 자동 방법이 권장됩니다.
-keywords: Analytics 구현; 구현 방법; 다이내믹 태그 관리; DTM; Analytics 도구; 속성; 도구 유형; 도구 이름; 구성 방법; Analytics Premium; Evar; 이벤트
-seo-description: Adobe Analytics 도구를 만들고 페이지 코드를 자동 또는 수동으로 구성하여 다이내믹 태그 관리를 사용하여 Adobe Analytics를 배포합니다. 대부분의 사용자에게는 자동 방법이 권장됩니다.
+description: Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. 대부분의 사용자에게는 자동 방법이 권장됩니다.
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
+seo-description: Deploy Adobe Analytics using Dynamic Tag Management by creating the Adobe Analytics tool and configuring the page code either automatically or manually. 대부분의 사용자에게는 자동 방법이 권장됩니다.
 seo-title: Adobe Analytics 도구 추가
 solution: Analytics
 title: Adobe Analytics 도구 추가
 topic: 개발자 및 구현
-uuid: 1 C 54331 E-DE 03-4 F 44-8002-A 19723 C 585 B 0
+uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
@@ -19,11 +19,11 @@ Adobe Analytics 도구를 만들고 페이지 코드를 자동 또는 수동으�
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>For improved visitor tracking, we strongly recommend that you enable Identity Service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 
 ## Adobe Analytics 도구 추가 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL 개요]** &gt; 도구 **[!UICONTROL 추가]** &gt; **[!UICONTROL Adobe Analytics]** 를 클릭합니다.
+1. Click  **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Overview]** &gt; **[!UICONTROL Add a Tool]** &gt; **[!UICONTROL Adobe Analytics]** .
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -50,11 +50,11 @@ Adobe Analytics 도구를 만들고 페이지 코드를 자동 또는 수동으�
    <td colname="col2"> <p> <b>자동</b>(권장): 다이내믹 태그 관리를 사용해 구성을 관리합니다. This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>계정이 연결되면 다이내믹 태그 관리에서 <span class="keyword">Adobe Analytics</span> 보고서 세트 ID 및 이름을 도구 구성 인터페이스로 가져오므로 사용자 오류가 발생할 가능성은 감소하면서 도구 배포 속도가 빨라집니다. </p> <p> <p>참고: <span class="wintitle">Adobe Analytics Premium</span> 고객은 <span class="keyword">자동</span>옵션을 선택해야 합니다. 아래 <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">Adobe Analytics Premium 활성화</a>를 참조하십시오. </p> </p> <p>자동 구성에 해당하는 필드 입력: </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>: (기본값) <span class="keyword">Experience Cloud</span> Single Sign-On을 사용합니다. Experience Cloud ID와 암호를 지정합니다. </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>웹 서비스</b>: 웹 서비스 사용자 이름과 공유 암호를 지정합니다. </p> <p>공유 암호 자격 증명은 <span class="uicontrol">관리 도구</span> &gt; <span class="uicontrol">회사 설정</span> &gt; <a href="https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html" format="html" scope="external">웹 서비스</a>에 있습니다. </p> <p>개발자인 경우 웹 서비스 자격 증명을 획득하는 데 도움이 필요하면 <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">엔터프라이즈 API에 대한 웹 서비스 액세스 권한 얻기</a>를 참조하십시오. </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>웹 서비스</b>: 웹 서비스 사용자 이름과 공유 암호를 지정합니다. </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>개발자인 경우 웹 서비스 자격 증명을 획득하는 데 도움이 필요하면 <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">엔터프라이즈 API에 대한 웹 서비스 액세스 권한 얻기</a>를 참조하십시오. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>수동</b>: 수동으로 [! DNL appmeasurement] 코드. <span class="keyword"></span>관리 도구<span class="keyword"> &gt; </span>코드 관리자<span class="ignoretag"><span class="uicontrol">에서 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 코드를 다운로드할 수 있습니다. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>수동 구성에 해당하는 필드 입력: </p> 
+   <td colname="col2"> <p> <b>수동</b>:[!DNL AppMeasurement] 코드를 수동으로 관리합니다. <span class="keyword"></span>관리 도구<span class="keyword"> &gt; </span>코드 관리자<span class="ignoretag"><span class="uicontrol">에서 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 코드를 다운로드할 수 있습니다. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>수동 구성에 해당하는 필드 입력: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>프로덕션 계정 ID: </b>(필수) 데이터 수집에 사용할 프로덕션 계정입니다. Analytics에서 사용할 보고서 세트 ID입니다. 다이내믹 태그 관리는 프로덕션 및 스테이징 환경에서 올바른 계정을 자동으로 설치합니다. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>스테이징 계정 ID: </b>(필수) 개발 또는 테스트 환경에서 사용합니다. Analytics에서 사용할 보고서 세트 ID입니다. 스테이징 계정은 테스트 데이터를 프로덕션과 구별합니다. </p> </li> 
@@ -92,7 +92,7 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>자동 구성 활성화 </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>이 옵션을 사용하면 다이내믹 태그 관리에서 <span class="keyword">Adobe Analytics</span> 계정의 구성을 자동으로 검색합니다. </p> <p>최신 [! DNL appmeasurement] 코드가 사용되고 새 버전이 사용 가능하게 됨에 따라 업그레이드 알림이 선택됩니다. 이전 [! DNL appmeasurement] 버전 (예: 호환성 이유) 를 참조하십시오. 최대 5개의 이전 버전이 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>이 옵션을 사용하면 다이내믹 태그 관리에서 <span class="keyword">Adobe Analytics</span> 계정의 구성을 자동으로 검색합니다. </p> <p>사용 가능한 최신 [!DNL AppMeasurement] 코드가 사용되고 새 버전이 사용 가능하게 되면 선택할 수 있는 업그레이드 알림이 표시됩니다. You can also roll back to previous [!DNL AppMeasurement] versions as necessary, such as for compatibility reasons. 최대 5개의 이전 버전이 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>자격 증명 업데이트 </p> </td> 
