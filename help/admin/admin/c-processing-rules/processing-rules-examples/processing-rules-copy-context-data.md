@@ -1,19 +1,19 @@
 ---
 description: 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 props 및 eVars로 이동합니다.
 seo-description: 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 props 및 eVars로 이동합니다.
-seo-title: Evar에 컨텍스트 데이터 변수 복사
+seo-title: eVar에 컨텍스트 데이터 변수 복사
 solution: Analytics
 subtopic: 처리 규칙
-title: Evar에 컨텍스트 데이터 변수 복사
+title: eVar에 컨텍스트 데이터 변수 복사
 topic: 관리 도구
-uuid: 1 Beaec 4 C -71 E 9-49 CE-B 154-78408 CC 532 A 3
+uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Evar에 컨텍스트 데이터 변수 복사
+# eVar에 컨텍스트 데이터 변수 복사
 
 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 props 및 eVars로 이동합니다.
 
@@ -38,4 +38,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/set-context-data.png)
 
-구현 도움말에서 [컨텍스트 데이터 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)를 참조하십시오.
+구현 도움말에서 [컨텍스트 데이터 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)를 참조하십시오.
