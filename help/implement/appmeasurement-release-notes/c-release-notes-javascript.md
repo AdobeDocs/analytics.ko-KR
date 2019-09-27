@@ -8,7 +8,7 @@ title: JavaScript H 코드- 이전
 topic: 개발자 및 구현
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -126,7 +126,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 릴리스 날짜: **2014년 5월 22일**
 
-* Experience Cloud [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)지원
+* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 * [타겟 통합을 위한 Analytics](https://marketing.adobe.com/resources/help/en_US/target/a4t/)를 지원합니다.
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -151,7 +151,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 릴리스 날짜: **2013년 4월 29일**
 
-* `useForcedLinkTracking`사용자 지정 링크 코드를 사용하여 수동으로 링크 추적[에 설명된 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) 옵션이 Firefox 20+에 적용됩니다(이전에는 WebKit 브라우저에만 이 옵션이 적용되었음).
+* `useForcedLinkTracking`사용자 지정 링크 코드를 사용하여 수동으로 링크 추적[에 설명된 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) 옵션이 Firefox 20+에 적용됩니다(이전에는 WebKit 브라우저에만 이 옵션이 적용되었음).
 
 * 이미지 개체 ID 생성은 이제 인스턴스 간에 고유하게 변경되어 두 개 이상의 인스턴스가 동일한 페이지에 있어도 충돌이 발생하지 않습니다.
 
@@ -187,7 +187,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 * `escape` 및 `encodeURIComponent`가 함께 사용되어 인코딩된 문자열에 대한 URL 디코딩 처리가 수정되었습니다.
 
 * WebKit 브라우저에서 첫 번째 서버를 페이지가 시간 초과되었을 때 요청할 경우 링크 추적을 실패하는 문제를 수정했습니다.
-* 새로운 대체 방문자 식별 메서드가 추가되었습니다. [고유한 방문자 식별](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)을 참조하십시오.
+* 새로운 대체 방문자 식별 메서드가 추가되었습니다. [고유한 방문자 식별](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)을 참조하십시오.
 * `abort` 내에서 설정할 수 있는 새로운 `doPlugins` 플래그가 추가되었습니다. 이 플래그를 true로 설정하면 [!DNL AppMeasurement] 라이브러리가 해당 추적 호출을 계속할 수 없습니다. abort 플래그가 모든 추적 호출로 재설정되므로, 추적 호출 또한 무시해야 할 경우 우 플래그를 `doPlugins` 내에서 다시 설정해야 합니다.
 
 ```js
