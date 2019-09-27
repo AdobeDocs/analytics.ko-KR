@@ -3,14 +3,14 @@ description: Reports & Analytics의 보고서 메뉴에 대한 개요.
 seo-description: Reports & Analytics의 보고서 메뉴에 대한 개요.
 seo-title: 보고서 메뉴
 title: 보고서 메뉴
-uuid: 562 CB 6 BF -9396-42 A 3-ADF 4-9651 AF 8341 CB
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 보고서 메뉴{#reports-menu}의 설명을 참조하십시오
+# 보고서 메뉴{#reports-menu}
 
 Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
@@ -27,9 +27,9 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 보고서는 계층적 열 보기를 사용하여 표시됩니다. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Esc 키를 눌러 현재 보고서를 변경하지 않고 메뉴를 닫거나, Enter 키를 눌러 선택한 보고서를 로드합니다.
 
-![](assets/reports-landing.png){width = "672 px"}
+![](assets/reports-landing.png){width="672px"}
 
-개별 보고서에 대한 자세한 내용은 [보고서 설명](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions)을 참조하십시오.
+개별 보고서에 대한 자세한 내용은 [보고서 설명](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)을 참조하십시오.
 
 ## 보고서 검색 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 >[!NOTE]
 >
->prop, evar 및 이벤트 번호별로 보고서 목록을 검색할 수도 있습니다. 검색 창에서 prop, eVar 또는 이벤트 번호를 입력합니다.
+>prop, eVar 및 이벤트 번호별로 보고서 목록을 검색할 수도 있습니다. 검색 창에서 prop, eVar 또는 이벤트 번호를 입력합니다.
 
 ## 탐색 개요 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -99,7 +99,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 책갈피...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">보고서에 책갈피를 <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> 지정할</a> 수 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 대시보드</span>... </td> 
@@ -122,4 +122,4 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 ## 모든 보고서 메뉴 사용자 지정 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-관리자는 보고서 메뉴 내에 포함된 보고서를 변경할 수 있습니다. 관리 도움말에서 [메뉴 사용자 지정](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)을 참조하십시오.
+관리자는 보고서 메뉴 내에 포함된 보고서를 변경할 수 있습니다. 관리 도움말에서 [메뉴 사용자 지정](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)을 참조하십시오.
