@@ -4,10 +4,10 @@ seo-description: 지표는 보고서의 기반으로, 데이터 관계를 보고
 seo-title: 지표
 solution: Analytics
 title: 지표
-topic: Reports & Analytics
-uuid: AE 2021 EB -8 B 26-4 A 98-B 7 A 0-CE 36 BCA 46753
+topic: Reports and Analytics
+uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)는 지표를 결합하여 만들어집니다.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics).
+For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
 
 ## 기본 보고서 지표 선택 {#task_9537A607288A4450AE07EC7C070B47C6}
 
