@@ -1,14 +1,14 @@
 ---
 description: 사용 가능한 측정 라이브러리 나열
-keywords: Analytics 구현; 수집; 데이터; 컬렉션
+keywords: Analytics 구현;수집;데이터;수집
 seo-description: 사용 가능한 측정 라이브러리 나열
 seo-title: 추가 라이브러리 개요
 solution: Analytics
 title: 추가 라이브러리 개요
 topic: 개발자 및 구현
-uuid: 1 EC 291 F 6-073 F -49 D 1-B 6 AB -044 B 1069 DB 4 E
+uuid: 1ec291f6-07 파섹
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 사용 가능한 측정 라이브러리 나열
 
-다음 테이블은 모든 가용 플랫폼에서 분석 데이터 수집에 사용할 수 있는 라이브러리를 설명합니다. 자세한 정보는 [분석에서의 데이터 수집](https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc)을 참조하십시오.
+다음 테이블은 모든 가용 플랫폼에서 분석 데이터 수집에 사용할 수 있는 라이브러리를 설명합니다. 자세한 정보는 [분석에서의 데이터 수집](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html)을 참조하십시오.
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
@@ -38,7 +38,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
      <li id="li_4F0A3CC0E5CD4F5AAEECF60A3D81C737"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/php/oms_sc_appmeasure_php.pdf" format="http" scope="external"> PHP AppMeasurement</a> </li> 
      <li id="li_D2431479035F45F4AB4CE0AF11B4C89C"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/java/oms_sc_appmeasure_java.pdf" format="http" scope="external"> Java AppMeasurement</a> </li> 
      <li id="li_74B5B70A2E7349EE9FB9721442D0C845"> <a href="https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api" format="https" scope="external"> 데이터 삽입 API</a> </li> 
-     <li id="li_45F309B87FFC40DF9EF0F263C3FB416A"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" format="http" scope="external"> 데이터 소스</a> </li> 
+     <li id="li_45F309B87FFC40DF9EF0F263C3FB416A"> <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" format="http" scope="external"> Data Sources</a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
