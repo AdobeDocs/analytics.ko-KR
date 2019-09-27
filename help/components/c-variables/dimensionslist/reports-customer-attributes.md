@@ -6,7 +6,7 @@ solution: Experience Cloud, Analytics
 title: 고객 속성
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -15,14 +15,14 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 사용자 특성에 대한 Analytics FAQ 및 사용자 특성 보고서 실행 방법.
 
-**[!UICONTROL 보고서]** &gt; **[!UICONTROL 방문자 프로필]** &gt; **[!UICONTROL 고객 속성]**
+**[!UICONTROL Reports &gt; Visitor Profile &gt; Customer Attributes]**********
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후 Reports &amp; Analytics에서 사용자 특성 보고서를 실행할 수 있습니다.
 
 * [Analytics의 사용자 특성 및 보고 지표](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [FAQ - Analytics의 사용자 특성](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-사용자 특성 데이터 업로드에 대한 자세한 내용은 Experience Cloud 도움말의 [사용자 특성](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=attributes)을 참조하십시오.
+사용자 특성 데이터 업로드에 대한 자세한 내용은 Experience Cloud 도움말의 [사용자 특성](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)을 참조하십시오.
 
 ## Analytics의 사용자 특성 및 보고 지표 {#section_EF343662146B460A882D3DF772ADD86D}
 
@@ -60,7 +60,7 @@ Because metrics are sums in a report table, you should [create a calculated metr
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
      <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">ID 서비스로 고객 ID를 설정하지 않은 경우 고객 레코드는 Adobe Analytics에서만 사용할 수 있습니다. 실시간 타깃팅을 위해 고객 레코드를 사용하려면 ID 서비스를 사용해야 합니다. </li> 
      <li id="li_228358684E474A298E39578D427BF932">ID 서비스를 사용하여 고객 ID를 설정하면 ID를 Experience Cloud와 동기화하는 데 걸리는 시간이 줄어듭니다. Prop 또는 eVar에 고객 ID를 입력하면 일괄로 발생하는 백엔드 서버 동기화를 통해 고객 ID가 Experience Cloud로 전송됩니다. ID 서비스는 고객 ID를 Experience Cloud와 즉시 동기화합니다. </li> 
-     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> prop 또는 eVar 대신 ID 서비스를 사용하면 다른 용도로 해당 prop 또는 eVar를 사용할 수 있습니다. </li> 
+     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Using the Identity Service instead of a prop or eVar frees up that prop or eVar for other uses. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
