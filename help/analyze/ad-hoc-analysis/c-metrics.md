@@ -3,9 +3,9 @@ description: '지표는 보기 수, 클릭스루 횟수, 재로드 횟수, 평�
 seo-description: '지표는 보기 수, 클릭스루 횟수, 재로드 횟수, 평균 체류 시간, 날짜, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량적 정보입니다. 지표와 관련 데이터는 보고서 열에 표시됩니다. '
 seo-title: 지표
 title: 지표
-uuid: AB 9 D 8 A 45-0297-4757-B 0 F 0-D 8 B 0 E 0 DB 8 D 67
+uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * **전환**: 웹 사이트의 성공 이벤트에 대한 데이터를 보여줍니다. 성공 이벤트에는 구매, 다운로드 또는 웹 사이트에서 사용자가 수행하기를 원하는 기타 작업이 포함될 수 있습니다.
 * **계산됨**: 다른 지표를 결합하여 만들어진 사용자 지정 가능한 지표. 예를 들어 매출액에서 키워드 비용과 상품 비용을 빼는 지표를 만들어 순 매출액을 얻을 수 있습니다. 그런 다음 이 금액을 총 주문 수로 나누어 주문당 평균 순 매출액을 얻을 수 있습니다.
 
-[](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics)에서 지표 사용 방법에 대한 자세한 내용은 *분석 참조 자료*&#x200B;의 [!DNL Experience Cloud]지표 정의를 참조하십시오.
+[](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)에서 지표 사용 방법에 대한 자세한 내용은 *분석 참조 자료*&#x200B;의 [!DNL Experience Cloud]지표 정의를 참조하십시오.
 
 [!UICONTROL 지표 구성] 도구를 사용하여 지표에 대한 새 폴더를 만들 수 있습니다. 그런 다음 원하는 대로 지표를 그룹화할 수 있습니다. 구성기를 사용하면 드래그 앤 드롭을 사용하여 사용자 지정 폴더에 기존의 지표를 복사할 수 있습니다.
 
@@ -44,7 +44,7 @@ t_organize_metrics.xml
 
    )
 1. Click **[!UICONTROL Organize Metrics]**.
-1. **[!UICONTROL [새로 만들기]** ] 를 클릭하여 폴더를 만듭니다.
+1. Click **[!UICONTROL New]** to create a folder.
 1. 다른 폴더에서 지표를 선택한 다음 선택 사항을 새 폴더로 드래그합니다.
 1. **[!UICONTROL 확인을 클릭합니다]**.
 
