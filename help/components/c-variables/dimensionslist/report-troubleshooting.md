@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있도록 해주는 유연한 보고 인터페이스를 제공합니다. 대부분의 보고서가 매우 신속히 생성되므로 시간이 초과되거나 성공적으로 생성되지 않는 보고서가 발생할 수 있습니다. 이 섹션에서는 보고서 생성 실패를 방지하는 데 도움이 되기 위해 보고서 생성 속도에 영향을 주는 많은 요인에 대해 설명하고 있습니다. 이 정보를 이해하면 보고서를 더 성공적으로 생성할 수 있도록 구성하는 데 도움이 됩니다.
-keywords: 우수 사례; 실패; 제한 시간; 문제 해결; 느리게
+keywords: best practices;failure;timeout;troubleshooting;slow
 seo-description: Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있도록 해주는 유연한 보고 인터페이스를 제공합니다. 대부분의 보고서가 매우 신속히 생성되므로 시간이 초과되거나 성공적으로 생성되지 않는 보고서가 발생할 수 있습니다. 이 섹션에서는 보고서 생성 실패를 방지하는 데 도움이 되기 위해 보고서 생성 속도에 영향을 주는 많은 요인에 대해 설명하고 있습니다. 이 정보를 이해하면 보고서를 더 성공적으로 생성할 수 있도록 구성하는 데 도움이 됩니다.
 seo-title: 보고 우수 사례 및 문제 해결
 solution: Analytics
 title: 보고 우수 사례 및 문제 해결
 topic: 보고서
-uuid: D 4 EEF 0 A 3-1 D 26-4460-8 A 2 B -962001 C 9 F 846
+uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 0d4e5bfc0f45b7b3ed9b89df25bcef0730a011d9
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,10 +17,10 @@ source-git-commit: 0d4e5bfc0f45b7b3ed9b89df25bcef0730a011d9
 
 Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있도록 해주는 유연한 보고 인터페이스를 제공합니다. 대부분의 보고서가 매우 신속히 생성되므로 시간이 초과되거나 성공적으로 생성되지 않는 보고서가 발생할 수 있습니다. 이 섹션에서는 보고서 생성 실패를 방지하는 데 도움이 되기 위해 보고서 생성 속도에 영향을 주는 많은 요인에 대해 설명하고 있습니다. 이 정보를 이해하면 보고서를 더 성공적으로 생성할 수 있도록 구성하는 데 도움이 됩니다.
 
->[!NOte]
->이러한 권장 사항은 보고 및 분석, 애드혹 분석 및 리포트 빌더에 적용됩니다.
->They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/?f=data_warehouse_bp). 다른
->[Adobe Analytics 보고 API에 대한 우수 사례를](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) 사용할 수 있습니다.
+>[!Note]
+>These recommendations apply to Reports &amp; Analytics, Ad Hoc Analysis, and Report Builder.
+>They do not apply to Analysis Workspace, which has its own set of best practices. [](/help/analyze/analysis-workspace/optimizing-performance.md) They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). 추가 세트
+>[adobe Analytics 보고 API에 대한 우수 사례를](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) 사용할 수 있습니다.
 
 ## 보고서 시간 초과 및 요청 큐 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
