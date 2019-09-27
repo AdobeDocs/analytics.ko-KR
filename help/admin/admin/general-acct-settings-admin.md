@@ -5,9 +5,9 @@ seo-title: 일반 계정 설정
 solution: Analytics
 title: 일반 계정 설정
 topic: 관리 도구
-uuid: c 1 ab 5 c 34-2 c 41-4 d 12-a 706-0 e 760 dff 8 a 95
+uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 관리 기능의 일반 계정 설정 보고서 세트에 대한 필드 설명입니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정]** 편집 &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 일반 계정 설정]**
+**[!UICONTROL Analytics]** 관리 **[!UICONTROL &gt;]** 보고서 세트 **[!UICONTROL &gt;]** 설정 편집 **[!UICONTROL &gt; 일반]** **** **[!UICONTROL &gt; 일반 계정 설정]**
 
 이러한 설정에는 이름 및 시간대와 같은 기본 보고서 세트 기능의 편집 옵션도 포함되어 있습니다.
 
@@ -50,15 +50,15 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle">IP 주소의 마지막 옥텟을 0으로 바꿉니다.</span> </td> 
-   <td colname="col2"> <p>IP 필터링 전에 마지막 옥텟 제거가 완료됩니다. 따라서 마지막 옥텟은 0으로 대체되고, IP 제외 규칙은 끝에 0이 있는 IP 주소와 일치하도록 업데이트해야 합니다. 일치 *는 0과 일치해야 합니다. </p> <p>이 옵션을 선택하는 것은 IP 주소가 처리되기 전에 변경되었음을 의미합니다. 예를 들어, IP 주소 134.123.567.780은 134.123.567.0으로 변경됩니다. 지리 특성 데이터는 전체 IP 주소를 사용할 때만큼 정확하지는 않습니다. 특히 도시 정확도는 국가 또는 지역 정확도보다 더 큰 영향을 미칠 것입니다. 전체 IP 주소는 봇 규칙과 VISTA 규칙에 사용할 수 없으므로 두 규칙 모두 영향을 받습니다. 또한, 마케팅 채널 규칙과 보고서 세트 처리 규칙을 포함하여 IP 기반의 모든 처리 규칙도 이 설정의 영향을 받습니다. </p> <p>참고: 이 설정은 2019년 1월 이후 런던 데이터 센터에서 생성된 새 보고서 세트에 대해 기본적으로 활성화되어 있지만, 그러한 보고서 세트의 설정이 Admin Console에 나열된 템플릿에서 복사된 경우에만 가능합니다. 다른 보고서 세트와 중복되는 설정이 있는 보고서 세트는 선택한 보고서 세트에서 모든 설정을 상속합니다. </p></td> 
+   <td colname="col2"> <p>IP 필터링 전에 마지막 옥텟 제거가 완료됩니다. 따라서 마지막 옥텟은 0으로 대체되고, IP 제외 규칙은 끝에 0이 있는 IP 주소와 일치하도록 업데이트해야 합니다. 일치 *는 0과 일치해야 합니다. </p> <p>이 옵션을 선택하는 것은 IP 주소가 처리되기 전에 변경되었음을 의미합니다. 예를 들어, IP 주소 134.123.567.780은 134.123.567.0으로 변경됩니다. 지리 특성 데이터는 전체 IP 주소를 사용할 때만큼 정확하지는 않습니다. 특히, 도시의 정확성은 국가 또는 지역의 정확성보다 더 많은 영향을 받을 것입니다. 전체 IP 주소는 봇 규칙과 VISTA 규칙에 사용할 수 없으므로 두 규칙 모두 영향을 받습니다. 또한, 마케팅 채널 규칙과 보고서 세트 처리 규칙을 포함하여 IP 기반의 모든 처리 규칙도 이 설정의 영향을 받습니다. </p> <p>참고: 이 설정은 2019년 1월 이후 런던 데이터 센터에서 생성된 새 보고서 세트에 대해 기본적으로 활성화되어 있지만, 그러한 보고서 세트의 설정이 Admin Console에 나열된 템플릿에서 복사된 경우에만 가능합니다. 다른 보고서 세트와 중복되는 설정이 있는 보고서 세트는 선택한 보고서 세트에서 모든 설정을 상속합니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 유사 IP 탐지</span> </td> 
-   <td colname="col2"> <p>IP 주소가 인식할 수 없는 문자열로 바뀌어 결국 Adobe 데이터 저장소에서 제거됩니다. 유사 IP 탐지가 활성화되면 원래 IP 주소는 영구적으로 손실됩니다. </p> <p>참고: IP 주소는 Data Warehouse를 포함하여 Analytics의 모든 곳에서 난독화되었습니다. 하지만 Target의 IP 설정은 별도로 제어되므로 이 설정은 Target에 영향을 주지 않습니다. </p> <p>IP 난독화가 활성화되어 있으면 IP 주소가 난독화되기 전에 IP 제외가 발생하므로 고객은 IP 난독화를 활성화할 때 아무것도 변경할 필요가 없습니다. </p> <p><span class="uicontrol">비활성화됨</span>을 선택하면 데이터에 IP 주소가 남습니다. </p> <p><span class="uicontrol">IP 주소 난독화</span>를 선택하면 IP가 해시된 값(예: 234abc6493872038)으로 변경됩니다. </p> <p><span class="uicontrol">IP 주소 제거</span>를 선택하면 지역 조회 후 데이터에서 IP 주소가 x.x.x.x로 변경됩니다. </p> <p>참고: 이 설정은 사용자 지정 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 보트 규칙</a> 또는<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP 제외에 대한 변경이 필요할</a>수 있습니다. </p> </td> 
+   <td colname="col2"> <p>IP 주소가 인식할 수 없는 문자열로 바뀌어 결국 Adobe 데이터 저장소에서 제거됩니다. 유사 IP 탐지가 활성화되면 원래 IP 주소는 영구적으로 손실됩니다. </p> <p>참고: IP 주소는 Data Warehouse를 포함하여 Analytics의 모든 곳에서 난독화되었습니다. 하지만 Target의 IP 설정은 별도로 제어되므로 이 설정은 Target에 영향을 주지 않습니다. </p> <p>IP 난독화가 활성화되어 있으면 IP 주소가 난독화되기 전에 IP 제외가 발생하므로 고객은 IP 난독화를 활성화할 때 아무것도 변경할 필요가 없습니다. </p> <p><span class="uicontrol">비활성화됨</span>을 선택하면 데이터에 IP 주소가 남습니다. </p> <p><span class="uicontrol">IP 주소 난독화</span>를 선택하면 IP가 해시된 값(예: 234abc6493872038)으로 변경됩니다. </p> <p><span class="uicontrol">IP 주소 제거</span>를 선택하면 지역 조회 후 데이터에서 IP 주소가 x.x.x.x로 변경됩니다. </p> <p>참고:이 설정을 사용하려면 사용자 지정 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 보트 규칙</a> 또는<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP 제외를</a>변경해야 할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 거래 ID 스토리지</span> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external">거래 ID</a> 데이터 소스를 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external">거래 ID</a> 데이터 소스를 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Ad Hoc Analysis 활성화</span> </td> 
