@@ -5,9 +5,9 @@ seo-title: 다른 보고서 유형 실행
 solution: Analytics
 title: 다른 보고서 유형 실행
 topic: 보고서, Reports & Analytics
-uuid: F 59 AB 2 A 1-E 916-46 E 8-BB 5 B-E 6361 BA 00 DDA
+uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -27,7 +27,7 @@ t_reports_ranked.xml
 
  -->
 
-1. [!UICONTROL 페이지 보고서] ( **[!UICONTROL 보고서]** &gt; **[!UICONTROL 사이트 컨텐츠]** &gt; **[!UICONTROL 페이지]**) 와 같은 보고서를 생성합니다.
+1. Generate a report, such as a [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**).
 1. 보고서 헤더에서 **[!UICONTROL 등급]을 클릭합니다.**
 1. 보고서의 등급을 지정하려면 테이블의 열 제목을 클릭합니다.
 
@@ -47,8 +47,8 @@ t_reports_trended.xml
 
 **트렌드 보고서를 실행하려면**
 
-1. **[!UICONTROL 보고서]** &gt; **[!UICONTROL 사이트 컨텐츠]** &gt; **[!UICONTROL 페이지와 같은 전환 또는 트래픽 보고서를 실행합니다]**.
-1. **[!UICONTROL 보고서 유형에서]****[!UICONTROL 트렌드를 클릭합니다.]**
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
 
 ## 전환 단계 보고서 실행 {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
 
-설명은 [전환 보고서](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion)를 참조하십시오.
+설명은 [전환 보고서](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html)를 참조하십시오.
 
 ## 폴아웃 보고서 실행 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -76,8 +76,8 @@ t_reports_fallout.xml
 
 Analysis Workspace에서 새 [폴아웃 분석](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) 패널을 확인하십시오!
 
-1. [!UICONTROL Adobe Analytics]에서 **[!UICONTROL 보고서]** &gt; **[!UICONTROL 경로]** &gt; **[!UICONTROL 페이지]** &gt; **[!UICONTROL 폴아웃을 클릭합니다]**.
-1. [!UICONTROL 폴아웃 보고서] 페이지에서 폴아웃 보고서 빌더 **[!UICONTROL 시작을 클릭합니다]**.
+1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Fallout]**.
+1. On the [!UICONTROL Fallout Report] page, click **[!UICONTROL Launch the Fallout Report Builder]**.
 
    ![단계 결과](assets/fallout_add_items.png)
 
@@ -88,7 +88,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://marketing.adobe.com/reso
 
 >[!MORE_LIKE_THIS]
 >
->* [폴아웃 보고서 설명](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_fallout)
+>* [폴아웃 보고서 설명](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
 
 ## 페이지 흐름 보고서 실행 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -103,7 +103,7 @@ t_reports_page_flow.xml
 
 Analysis Workspace에서 새 [흐름 시각화](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)를 확인하십시오!
 
-[경로](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_paths) 보고서를 실행합니다.
+[경로](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) 보고서를 실행합니다.
 
 For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
 
@@ -129,7 +129,7 @@ t_reports_funnel.xml
 
  -->
 
-1. **[!UICONTROL 보고서]** &gt; **[!UICONTROL 제품]** &gt; [제품 전환 단계를 클릭합니다](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
+1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## 마케팅 채널 보고서 실행 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -155,7 +155,7 @@ t_anomaly_view.xml
 
 Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) 기능을 확인하십시오!
 
-**[!UICONTROL 보고서]** &gt; **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 예외 항목 탐지]** .
+**[!UICONTROL 보고서]** &gt; **[!UICONTROL 사이트]** 지표 **[!UICONTROL &gt;]** 예외 항목 탐지.
 
 >[!NOTE]
 >
@@ -184,9 +184,9 @@ Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https:/
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">편차 비율 값(차트의 왼쪽)은 다음과 같이 계산됩니다. 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">상한과 예상 값이 동일하면, 편차 비율은 100%입니다. </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">그 외의 경우 편차 비율은 ((실제 값 - 상한 값)/(상한 값 - 예상 값)) * 100 입니다. </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">하한과 예상 값이 동일하면 편차 비율은 -100% 입니다. </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">그 외의 경우 편차 비율은 ((하한 값 - 실제 값)/(예상 값 - 하한 값)) * -100 입니다. </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">그렇지 않으면 편차 비율은 ((실제 값 - 상한 값) / (상한 값 - 예상 값)) * 100입니다. </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">하한과 예상 값이 같은 경우, 편차 비율은 -100%입니다. </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">그렇지 않으면 편차 비율은 ((하한 값 - 실제 값) / (예상 값 - 하한 값)) * -100입니다. </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">추가 정보</a>. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60"><span class="uicontrol">지표 편집</span>을 클릭하면 예외 항목을 탐지할 지표를 선택하거나 선택 취소할 수 있습니다. </li> 
@@ -222,7 +222,7 @@ t_anomaly_config.xml
 
 각 보고서 세트에 대해 독립적으로 예외 항목 탐지를 설정할 수 있습니다.
 
-1. **[!UICONTROL Analytics &gt; 보고서 &gt; 사이트 지표 &gt; 예외 항목 탐지로]** 이동합니다.
+1. Navigate to  **[!UICONTROL Analytics &gt; Reports &gt; Site Metrics &gt; Anomaly Detection]** .
 1. 일일 예외 항목 탐지를 추적할 보고서 세트를 선택합니다. 보고서 세트 목록을 표시하려면, 보고서 세트 선택기 드롭다운 메뉴를 클릭합니다.
 1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
 
@@ -243,7 +243,7 @@ t_anomaly_config.xml
 
    세그먼트 만들기나 관리에 대한 자세한 내용은 [분석 세그멘테이션 안내서](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)를 참조하십시오. 1. (선택 사항) 보고서를 즐겨찾기 또는 책갈피로 추가합니다.
 1. (선택 사항) 보기 기간의 종료 날짜를 변경합니다. 기본값은 어제입니다.
-1. 이제 보고서 해석을 시작할 수 있습니다. [예외 항목 탐지 차트 보기를](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)참조하십시오.
+1. 이제 보고서 해석을 시작할 수 있습니다. [예외 항목 탐지 차트](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)보기를 참조하십시오.
 
 ## 실시간 보고서 실행 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -261,7 +261,7 @@ reports_realtime.xml
 
 실시간 보고서 구성에 대한 자세한 내용은 [Analytics 참조 안내서](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration)를 참조하십시오.
 
-1. **[!UICONTROL 개요]** 보고서 및 그 구성 요소를 살펴보십시오. ![](assets/rtr_overview_report.png)
+1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -270,7 +270,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 세트 선택</strong></td> 
-   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=t_realtime_admin" format="http" scope="external">실시간 보고서 구성</a>을 참조하십시오 . </td> 
+   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">실시간 보고서 구성</a>을 참조하십시오 . </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 간 전환</strong></td> 
