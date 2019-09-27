@@ -5,9 +5,9 @@ seo-title: 보트
 solution: Analytics
 title: 보트
 topic: 보고서
-uuid: 9909 CE 3 B -41 A 4-4 CE 8-AFE 9-02 CB 46 F 31 D 64
+uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,5 +20,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!MORE_LIKE_THIS]
 >
->* [보트 규칙](https://marketing.adobe.com/resources/help/en_US/admin/index.html?f=c_bot_rules)
+>* [보트 규칙](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
