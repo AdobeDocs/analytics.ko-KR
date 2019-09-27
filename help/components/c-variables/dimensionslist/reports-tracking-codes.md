@@ -5,9 +5,9 @@ seo-title: 추적 코드
 solution: Analytics
 title: 추적 코드
 topic: 보고서
-uuid: C 893 D 592-10 FD -4 B 40-84 B 3-8 C 8949 A 67 B 25
+uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
 
-* 이 보고서는 모든 [목록 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var)로도 분류할 수 있습니다.
+* 이 보고서는 모든 [목록 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)로도 분류할 수 있습니다.
 * 페이지 보기, 방문, 및 고유 방문자를 지표로 사용할 수 있습니다.
 * 이 보고서는 세그먼트를 사용할 수 있습니다.
 
