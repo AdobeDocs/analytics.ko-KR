@@ -6,9 +6,9 @@ seo-title: 전환 변수(eVar)
 solution: Analytics
 title: 전환 변수(eVar)
 topic: 관리 도구
-uuid: 1 eed 0 cb 1-0735-4142-be 21-43 f 264216 b 50
+uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -29,7 +29,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 
 >[!NOTE]
 >
->단일 값만 이미지 요청의 Evar에 저장할 수 있습니다. eVar 값에 여러 값을 사용할 수 있는 경우 [목록 변수(list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)를 구현하는 것이 좋습니다.
+>Only a single value can be stored in an eVar in an image request. eVar 값에 여러 값을 사용할 수 있는 경우 [목록 변수(list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)를 구현하는 것이 좋습니다.
 
 ## 전환 변수 - 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -49,11 +49,11 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">유형</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>변수 값 유형은 다음과 같습니다. </p> <p> <b>텍스트 문자열</b>:</span> 사이트에서 사용되는 텍스트 값을 캡처합니다. 이것은 eVar의 가장 흔한 유형으로, 기본 설정입니다. 이것은 다른 변수와 유사하게 작동하며, 변수 내 값은 정적 텍스트 문자열입니다. 이것은 내부 캠페인 또는 내부 검색 키워드와 같은 것을 추적할 경우 권장되는 설정입니다. </p> <p> <b>카운터</b>:</span> 성공 이벤트 전에 작업이 발생한 횟수를 카운트합니다. 예를 들어 eVar를 사용하여 사이트에서 내부 검색을 추적하는 경우 이 값을 <span class="uicontrol">텍스트 문자열</span>로 설정하면 검색어 사용을 추적할 수 있습니다. 사용된 검색어에 관계없이 검색 횟수를 카운트하려면 이 값을 <span class="uicontrol">카운터</span>로 설정합니다. 예를 들어 카운터 eVar를 사용하여 어떤 사람이 구매를 하기 전에 내부 검색을 사용한 횟수를 추적할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>변수 값 유형은 다음과 같습니다. </p> <p> <b></b> Text String: Captures text values used on your site. </span> 이것은 eVar의 가장 흔한 유형으로, 기본 설정입니다. 이것은 다른 변수와 유사하게 작동하며, 변수 내 값은 정적 텍스트 문자열입니다. 이것은 내부 캠페인 또는 내부 검색 키워드와 같은 것을 추적할 경우 권장되는 설정입니다. </p> <p> <b></b> 카운터</span>:성공 이벤트 전에 작업이 발생하는 횟수를 카운트합니다. 예를 들어 eVar를 사용하여 사이트에서 내부 검색을 추적하는 경우 이 값을 <span class="uicontrol">텍스트 문자열</span>로 설정하면 검색어 사용을 추적할 수 있습니다. 사용된 검색어에 관계없이 검색 횟수를 카운트하려면 이 값을 <span class="uicontrol">카운터</span>로 설정합니다. 예를 들어 카운터 eVar를 사용하여 어떤 사람이 구매를 하기 전에 내부 검색을 사용한 횟수를 추적할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 할당 </span> </p> </td> 
-   <td colname="col2"> <p>변수가 이벤트 이전에 여러 개의 값을 받을 경우 Analytics가 성공 이벤트에 대한 크레딧을 할당하는 방법을 결정합니다. 지원되는 값은 다음과 같습니다. </p> <p> <b></b>가장 최근: 마지막 Evar 값은 해당 evar가 만료될 때까지 성공 이벤트에 대한 크레딧을 항상 받습니다. </p> <p> <b>원래 값</b>: 첫 번째 Evar는 해당 evar가 만료될 때까지 성공 이벤트에 대한 크레딧을 항상 받습니다. </p> <p> <b> 선형</b>: 모든 Evar 값에 균일하게 성공 이벤트를 할당합니다. 선형 할당은 단일 방문 내에만 값을 정확하게 분배하므로 선형 할당은 방문의 eVar 만료와 함께 사용합니다. </p> <p>참고: 할당을 선형으로 또는 반대로 전환하면 내역 데이터가 표시되지 않습니다. 보고 인터페이스에서 할당 유형을 혼합하면 보고서에 데이터가 잘못 명시될 수 있습니다. 예를 들어 선형 할당은 다양한 eVar 값으로 매출액을 나눌 수 있습니다. 다시 가장 최근 할당으로 변경하면 해당 매출액의 100%가 가장 최근의 단일 값과 연결됩니다. 이러한 연결로 인해 사용자들은 잘못된 결론을 내릴 수 있습니다. </p> <p>보고 시 혼란의 가능성을 피하기 위해 Analytics는 인터페이스에서 내역 데이터를 사용할 수 없게 합니다. 내역 데이터에 액세스하기 위해 간단히 eVar 할당 설정을 변경해서는 안 되지만, 지정된 eVar를 다시 초기 할당 설정으로 변경하기로 결정하면 이 데이터를 볼 수 있습니다. 이미 기록 중인 데이터에 대해 새 할당 설정을 원할 때는 이미 상당한 양의 내역 데이터가 누적된 eVar의 할당 설정을 변경하는 것보다, 새 eVar를 사용하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p>변수가 이벤트 이전에 여러 개의 값을 받을 경우 Analytics가 성공 이벤트에 대한 크레딧을 할당하는 방법을 결정합니다. 지원되는 값은 다음과 같습니다. </p> <p> <b>최근</b>:마지막 eVar 값은 해당 eVar가 만료될 때까지 성공 이벤트에 대한 크레딧을 항상 받습니다. </p> <p> <b>Original Value</b>: The first eVar always receives credit for success events until that eVar expires. </p> <p> <b> Linear</b>:Allocates success events equally across all eVar values. 선형 할당은 단일 방문 내에만 값을 정확하게 분배하므로 선형 할당은 방문의 eVar 만료와 함께 사용합니다. </p> <p>참고: 할당을 선형으로 또는 반대로 전환하면 내역 데이터가 표시되지 않습니다. 보고 인터페이스에서 할당 유형을 혼합하면 보고서에 데이터가 잘못 명시될 수 있습니다. 예를 들어 선형 할당은 다양한 eVar 값으로 매출액을 나눌 수 있습니다. 다시 가장 최근 할당으로 변경하면 해당 매출액의 100%가 가장 최근의 단일 값과 연결됩니다. 이러한 연결로 인해 사용자들은 잘못된 결론을 내릴 수 있습니다. </p> <p>보고 시 혼란의 가능성을 피하기 위해 Analytics는 인터페이스에서 내역 데이터를 사용할 수 없게 합니다. 내역 데이터에 액세스하기 위해 간단히 eVar 할당 설정을 변경해서는 안 되지만, 지정된 eVar를 다시 초기 할당 설정으로 변경하기로 결정하면 이 데이터를 볼 수 있습니다. 이미 기록 중인 데이터에 대해 새 할당 설정을 원할 때는 이미 상당한 양의 내역 데이터가 누적된 eVar의 할당 설정을 변경하는 것보다, 새 eVar를 사용하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 다음 날짜 이후에 만료</span> </p> </td> 
@@ -76,12 +76,12 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">월 만료: eVar이 월요일 오전 7시 15분부터 31일 후에 만료됩니다. </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>특정 전환 이벤트.</b> 특정 이벤트가 지정된 후 실행되는 다른 전환 이벤트가 eVar과 연결됩니다. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>절대 안 함.</b> 이 <span class="varname"> Visitorid</span> 쿠키가 그대로 유지되므로 evar와 이벤트 간에 시간이 경과할 수 있습니다. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>절대 안 함.</b> 이 <span class="varname"> visitorID</span> cookie is intact, any amount of time can pass between eVar and event. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 상태</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>eVar 상태를 정의합니다. </p> <p><b>비활성화됨:</b> Evar를 비활성화합니다. </span> 전환 변수 목록에서 eVar를 제거합니다. </p> <p> <b>하위 관계 없음</b>:</span> 하위 관계로 Evar를 분류할 수 없습니다. </p> <p> <b>기본 하위 관계</b>: </span>전체 하위 관계가 있는 보고서 (예: 제품 또는 캠페인) 로 Evar를 분류할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>eVar 상태를 정의합니다. </p> <p><b></b> 비활성화됨</span>:eVar를 비활성화합니다. 전환 변수 목록에서 eVar를 제거합니다. </p> <p> <b></b> 하위 관계 없음</span>:하위 관계로 eVar를 분류할 수 없습니다. </p> <p> <b>Basic Subrelations</b>: </span>Lets you break down an eVar by any report with full subrelations (for example, Products or Campaign). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 재설정</span> </p> </td> 
@@ -89,7 +89,7 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> Evar 값을 제품에 연결합니다. 참고: [제품 구문]을 선택한 경우 [머천다이징 바인딩 이벤트] 섹션이 비활성화되므로 선택하여 편집할 수 있습니다. 이 구문에는 [바인딩 이벤트]를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 결합 이벤트가 발생하는 경우에만 Evar를 제품과 연관시킵니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=var_merchandising" format="http" scope="external">머천다이징 변수</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>Products Syntax</b>:</span> Associates the eVar value to a product. 참고: [제품 구문]을 선택한 경우 [머천다이징 바인딩 이벤트] 섹션이 비활성화되므로 선택하여 편집할 수 있습니다. 이 구문에는 [바인딩 이벤트]를 적용할 수 없습니다. </p> </p> <p> <b>Conversion Variable Syntax</b>:</span> Associates the eVar with a product only if a Binding Event occurs. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">머천다이징 변수</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p>(eVar만) </p> </td> 
