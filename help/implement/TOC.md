@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/ko-KR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -211,7 +211,7 @@ source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
       + [Analytics 방문자 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [대체 ID 방법](js-implementation/c-unique-visitors/visid-fallback.md)
       + [모바일 장치 식별](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Experience Cloud 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
+   + [Experience Cloud 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + 크로스 장치 방문자 식별 {#cross-device-visitor-id}
       + [여러 장치에서 사용자 연결](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [크로스 장치 방문자 식별의 데이터 영향](js-implementation/xdevice-visid/xdevice-data.md)
