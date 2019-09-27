@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 처리 규칙
 title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
 topic: 관리 도구
-uuid: 4 a 6018 EB -03 e 2-4 ec 8-874 b-e 48 bf 716 e 103
+uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/add-context-variable.png)
 
-The following rule definition expands on the [Copy a Context Data Variable to an eVar](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) rule to also set an event on every hit that contains a specific context data variable:
+The following rule definition expands on the Copy a Context Data Variable to an eVar rule to also set an event on every hit that contains a specific context data variable:[](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)
 
 | 규칙 세트 | 값 |
 |---|---|
@@ -38,4 +38,4 @@ The following rule definition expands on the [Copy a Context Data Variable to an
 
 ![](assets/processing_rule_set_event.png)
 
-구현 도움말에서 [컨텍스트 데이터 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)를 참조하십시오.
+구현 도움말에서 [컨텍스트 데이터 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)를 참조하십시오.
