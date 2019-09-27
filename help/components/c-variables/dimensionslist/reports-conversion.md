@@ -1,13 +1,13 @@
 ---
 description: 고객 활동을 간편하고 정확하게 세부적으로 분석할 수 있습니다. 캠페인 관리, 영업 주기, 고객 폴아웃 및 고객 전환과 같은 지표로 전자 상거래, 영업 소스, 광고 효과, 고객 충성도 등을 측정할 수 있습니다.
 seo-description: 고객 활동을 간편하고 정확하게 세부적으로 분석할 수 있습니다. 캠페인 관리, 영업 주기, 고객 폴아웃 및 고객 전환과 같은 지표로 전자 상거래, 영업 소스, 광고 효과, 고객 충성도 등을 측정할 수 있습니다.
-seo-title: 변환
+seo-title: 전환
 solution: Analytics
-title: 변환
+title: 전환
 topic: 보고서
-uuid: 457 D 3033-6562-4 FBA -8 C 2 E -0 E 7 A 9 BE 44 BFD
+uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * [!UICONTROL 사용자 지정 전환] 보고서는 eVar(전환 변수)를 기반으로 합니다.
 * 전환 변수는 페이지 보기를 넘어서까지 지속될 수 있으며 지정한 만료 기간 내의 지표와 연결할 수 있습니다.
-* 보고서의 기본 지표는 매출입니다. 기본 지표를 변경하려면 [기본 보고서 지표 선택](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default)을 참조하십시오.
+* 보고서의 기본 지표는 매출입니다. 기본 지표를 변경하려면 [기본 보고서 지표 선택](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)을 참조하십시오.
 * 이러한 보고서를 트렌드 및 등급 형식 모두로 보십시오.
 * 이러한 보고서에서 분류를 사용하여 라인 항목을 통합하고 이름을 변경할 수 있습니다.
 * 기본 하위 관계가 활성화된 경우는 이러한 보고서를 다음에 따라 분류할 수 있습니다.
