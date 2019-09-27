@@ -1,14 +1,14 @@
 ---
 description: 웹 사이트 방문 수가 Adobe Analytics에서 보고서가 되는 방식에 대해 알아봅니다.
-keywords: Analytics 구현; 데이터 수집
+keywords: Analytics 구현;데이터 수집
 seo-description: 웹 사이트 방문 수가 Adobe Analytics에서 보고서가 되는 방식에 대해 알아봅니다.
 seo-title: 데이터 수집
 solution: Analytics
 title: 데이터 수집
 topic: 개발자 및 구현
-uuid: D 0 D 6098 D -113 E -4 CF 5-BB 89-E 435 F 7 B 6 B 1 AF
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -61,7 +61,7 @@ Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개
 
    >[!NOTE]
    >
-   >각 이미지 요청에는 브라우저 캐싱을 방지하고 브라우저를 통해 후속 이미지 요청이 수행되었는지 확인하는 난수 문자열이 들어 있습니다.
+   >Each image request contains a random number string to prevent browser caching and ensure that subsequent image requests are made by the browser.
 
 1. Adobe에서 투명한 픽셀 이미지를 반환합니다.
 
@@ -69,11 +69,11 @@ Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개
 
    이 코드는 추가 정보(예: 운영 체제, 브라우저 종류, 브라우저 가로 및 세로, IP 주소 및 브라우저 언어)를 자동으로 수집합니다.
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. Adobe 서버는 웹 분석 데이터를 *`report suites`* (데이터 저장소)에 저장합니다.
 
    ![](assets/how-data-is-collected-5.png)
 
-   [보고서 세트](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin)는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다.
+   [보고서 세트](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다.
 
 1. 보고서 세트 데이터는 웹 브라우저에서 액세스할 수 있는 보고서를 채웁니다.
 
@@ -91,11 +91,11 @@ Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개
 * [데이터 요소 만들기](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
-* [데이터 소스](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
+* [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html)
 * [Analytics 데이터 피드](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
 
 >[!MORE_LIKE_THIS]
 >       
->* [Experience Cloud Debugger](/help/implement/impl-testing/debugger.md)
+>* [Experience Cloud 디버거](/help/implement/impl-testing/debugger.md)
 
