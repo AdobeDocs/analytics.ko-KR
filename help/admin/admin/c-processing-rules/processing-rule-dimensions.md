@@ -1,19 +1,19 @@
 ---
 description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
 seo-description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
-seo-title: 처리 규칙에 사용할 수 있는 차원
+seo-title: 처리 규칙에 사용 가능한 차원
 solution: Analytics
 subtopic: 처리 규칙
-title: 처리 규칙에 사용할 수 있는 차원
+title: 처리 규칙에 사용 가능한 차원
 topic: 관리 도구
-uuid: ba 73 ab 59-a 8 cf -491 c -8757-5 fb 03 d 6 b 0745
+uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 처리 규칙에 사용할 수 있는 차원
+# 처리 규칙에 사용 가능한 차원
 
 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
 
@@ -41,7 +41,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 </p> </td> 
-   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고서에 표시될 수 있도록 보고 변수로 복사되어야 합니다. 컨텍스트 데이터 변수는 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Evar에 컨텍스트 데이터 변수 복사 </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> 컨텍스트 데이터 변수</a> </p> </td> 
+   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고서에 표시될 수 있도록 보고 변수로 복사되어야 합니다. 컨텍스트 데이터 변수는 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 컨텍스트 데이터 변수</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
