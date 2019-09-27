@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 처리 규칙
 title: 처리 순서
 topic: 관리 도구
-uuid: CEA 01 D 13-DFD 5-40 F 7-8 B 2 F-B 6 E 2 FE 8354 DF
+uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -36,8 +36,8 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 |--- |--- |
 | VISTA가 추가한 데이터 | 처리 규칙은 VISTA 이전에 적용됩니다. |
 | 방문 페이지 번호 | 일반적인 규칙으로, 처리 규칙은 현재 히트에만 포함된 데이터를 인식합니다. 방문 페이지 번호는 처리 규칙이 적용된 후 컴파일됩니다. |
-| 클린 URL이 설정되지 않은 경우 페이지 이름으로 추가됩니다. | 처리 규칙 및 VISTA가 적용된 후, 설정된 페이지 이름이 없는 경우 클린 URL이 페이지 이름으로 추가됩니다. 이는 처리 규칙이 적용된 후 발생하므로 페이지 이름이 비어 있는지 확인하기 위해 조건을 추가하는 것이 좋습니다.  사이트 컨텐츠 &gt; 페이지 보고서를 실행하고 페이지 이름에 https:// 값이 표시되는 경우 페이지 이름이 비어 있고 URL 이 사용되는 것입니다. 빈 페이지 이름을 테스트하거나, 페이지 이름 또는 페이지 URL이 특정 값을 포함하고 있는지 확인하는 테스트를 위해 조건을 설정할 수 있습니다. 그런 다음 필요에 따라 페이지 이름을 설정할 수 있습니다. |
-| 마케팅 채널 처리 규칙 | 처리 규칙을 사용하여 [마케팅 채널 처리 규칙](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_rules)으로 처리할 데이터를 준비할 수 있습니다. |
+| 클린 URL이 설정되지 않은 경우 페이지 이름으로 추가됩니다. | 처리 규칙 및 VISTA가 적용된 후, 설정된 페이지 이름이 없는 경우 클린 URL이 페이지 이름으로 추가됩니다. 이는 처리 규칙이 적용된 후 발생하므로 페이지 이름이 비어 있는지 확인하기 위해 조건을 추가하는 것이 좋습니다.  If you run the  Site Content &gt;  Pages Report and you see  https:// values for page names, it is likely the page name is blank and the URL is being used.  빈 페이지 이름을 테스트하거나, 페이지 이름 또는 페이지 URL이 특정 값을 포함하고 있는지 확인하는 테스트를 위해 조건을 설정할 수 있습니다. 그런 다음 필요에 따라 페이지 이름을 설정할 수 있습니다. |
+| 마케팅 채널 처리 규칙 | 처리 규칙을 사용하여 [마케팅 채널 처리 규칙](https://marketing.adobe.com/resources/help/en_US/mchannel/c_rules.html)으로 처리할 데이터를 준비할 수 있습니다. |
 | GEO 조회 | 여기에는 방문자 주 및 방문자 ZIP/우편 번호 값이 포함됩니다. |
 | eVar 지속성 | 이전 히트에 포함된 evar는 규칙 처리 중에 각 히트에 지속되지 않습니다. 처리되는 현재 히트에서 설정된 eVar만 사용할 수 있습니다. |
 
