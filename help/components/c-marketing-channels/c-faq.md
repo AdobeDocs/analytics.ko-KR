@@ -5,10 +5,10 @@ seo-title: FAQ 및 예제
 solution: Analytics
 subtopic: 마케팅 채널
 title: FAQ 및 예제
-topic: Reports & Analytics
-uuid: 1 c 63 a 1 b 5-a 191-4855-aa 65-fac 19 ab 1037 a
+topic: Reports and Analytics
+uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [이메일](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
 * [직접](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 
-자세한 내용은 [마케팅 채널 처리 규칙](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) [!UICONTROL 만들기를] 참조하십시오.
+자세한 내용은 [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 ## FAQ {#section_E490CEAF0E76422C91D34D8A80A0C573}
 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 **질문**: 내 추적 코드가 패턴을 따르지 않으며, 제휴 채널에 대해 지정해야 하는 코드가 수천 개나 있습니다.
 
 *  제거 프로세스를 사용하십시오. 이메일 및 제휴 채널에서 동일한 쿼리 문자열 매개 변수를 사용하지만 몇 개의 이메일 추적 코드만 있는 경우에는 email을 정의하는 규칙 세트에 이메일 추적 코드를 지정할 수 있습니다. 그런 다음 *`affiliates.`*
-* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. ch 쿼리 매개 변수가 *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
+* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. ch 쿼리 매개 변수가 *`eml`*. 포함된 항목이 없으면 *`eml`*&#x200B;산하 조직입니다.
 
 **질문**: 참조 도메인에 예상보다 많은 데이터가 있습니다.
 
@@ -57,19 +57,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 *  규칙은 순서대로 처리됩니다. 특정 기준이 일치하지 않으면 히트가 다음 세 가지 카테고리 중 하나에 속하게 됩니다.
 
-1. 레퍼러 없음 (직접 방문).
+1. 레퍼러 없음(직접 방문).
 
 2. 방문의 첫 번째 페이지에서 내부 레퍼러.
 
-3. 페이지의 결함 처리
+3. 페이지의 처리 결함.
 
 다음 세 가지 가능성에 대한 채널이 있는지 확인합니다. 예를 들어 다음과 같은 규칙을 만듭니다.
 
-1. **[!UICONTROL 레퍼러]** , **[!UICONTROL 존재하지]** 않음 및 방문의 **[!UICONTROL 첫 페이지임.]** ([직접 방문](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) 참조)
+1. **[!UICONTROL 레퍼러가]** 존재하지 **[!UICONTROL 않고]** 방문의 첫 번째 **[!UICONTROL 페이지입니다]**. ([직접 방문](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) 참조)
 
-2. **[!UICONTROL 레퍼러는 내부 URL 필터를]** 일치시키고 방문의 첫 **[!UICONTROL 페이지임]**. ([내부 방문](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) 참조)
+2. **[!UICONTROL 레퍼러는 내부 URL 필터와]** 일치하고 **[!UICONTROL 방문의 첫 번째 페이지입니다]**. ([내부 방문](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) 참조)
 
-3. **[!UICONTROL 레퍼러]** 및 **[!UICONTROL 존재함]** 및 **[!UICONTROL 레퍼러가 내부 URL 필터와 일치하지]**&#x200B;않습니다.
+3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
 끝으로, [식별된 채널 없음](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)에 설명된 대로, 나머지 히트를 캡처하는 *다른* 채널을 만듭니다.
 
@@ -83,7 +83,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->채널 식별된 없음으로 분류할 수 있는 채널 트래픽이 여전히 있을 수 있습니다. 예: 방문자가 사이트를 방문하고 페이지를 책갈피로 지정한 다음 책갈피를 통해 동일한 방문 내에서 페이지로 다시 돌아옵니다. 방문의 첫 페이지가 아니므로 참조 도메인이 없기 때문에 직접 채널이나 기타 채널로 이동하지 않습니다.
+>식별된 채널 없음 카테고리로 분류될 수 있는 일부 채널 트래픽이 여전히 있을 수 있습니다. 예: 방문자가 사이트를 방문하고 페이지를 책갈피로 지정한 다음 책갈피를 통해 동일한 방문 내에서 페이지로 다시 돌아옵니다. 방문의 첫 페이지가 아니므로 참조 도메인이 없기 때문에 직접 채널이나 기타 채널로 이동하지 않습니다.
 
 ## 유료 검색 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -93,7 +93,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/example_paid_search.png)
 
-자세한 내용은 관리의 [유료 검색 감지](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)를 참조하십시오.
+자세한 내용은 관리의 [유료 검색 감지](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)를 참조하십시오.
 
 ## 자연어 검색 {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -105,7 +105,7 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 ![](assets/example_natural_search.png)
 
-자세한 내용은 관리의 [유료 검색 감지](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)를 참조하십시오.
+자세한 내용은 관리의 [유료 검색 감지](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)를 참조하십시오.
 
 ## 제휴 {#section_8D142C7074CD4DEC87DF55B691107622}
 
