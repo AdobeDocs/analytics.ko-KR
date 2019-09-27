@@ -5,9 +5,9 @@ seo-title: 페이지를 찾을 수 없음
 solution: Analytics
 title: 페이지를 찾을 수 없음
 topic: 보고서
-uuid: A 1 F 5 F 3 D 1-1 C 4 E -486 C -8913-24 DA 573 AD 015
+uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **속성**
 
-* 이 보고서는 웹 사이트에 구현된 [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagetype) 변수에서 직접 데이터를 참조합니다.
+* 이 보고서는 웹 사이트에 구현된 [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagetype.html) 변수에서 직접 데이터를 참조합니다.
 * 이 보고서는 트렌드 및 등급 형식 모두로 볼 수 있습니다.
 * 확대경 아이콘을 클릭하면 특정 페이지에 대한 최상위 레퍼러가 표시됩니다.
 
