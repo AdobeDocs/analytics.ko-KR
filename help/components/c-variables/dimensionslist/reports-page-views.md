@@ -5,9 +5,9 @@ seo-title: 페이지 보기 횟수
 solution: Analytics
 title: 페이지 보기 횟수
 topic: 보고서
-uuid: C 78260 c 6-9 AD 4-4 B 85-84 FD -763627392 E 44
+uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,8 +20,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **보고서 속성**
 
-* 이 보고서는 사이트에서 [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_the_s.t()function) 함수가 호출된 횟수를 참조합니다.
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linktracking) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* 이 보고서는 사이트에서 [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) 함수가 호출된 횟수를 참조합니다.
+* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
 
 * 사용자가 페이지를 새로 고치거나 뒤로 단추를 누를 때마다 이미지 요청이 전송되므로 이러한 작업도 이 보고서에 포함됩니다.
 * 시간별 분류는 보고서 세트의 시간대를 따릅니다.
