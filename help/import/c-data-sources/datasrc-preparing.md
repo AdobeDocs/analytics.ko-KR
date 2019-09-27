@@ -1,14 +1,14 @@
 ---
 description: 데이터 소스 사용을 준비할 수 있는 절차
 seo-description: 데이터 소스 사용을 준비할 수 있는 절차
-seo-title: 데이터 소스 사용 준비
+seo-title: Data Sources 사용 준비
 solution: Analytics
-subtopic: Data Sources
-title: 데이터 소스 사용 준비
+subtopic: ' 데이터 소스'
+title: Data Sources 사용 준비
 topic: 개발자 및 구현
-uuid: 876 EA 069-574 B -4 E 23-93 B 7-E 3828 BFD 90 F 5
+uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -29,11 +29,11 @@ It is important to understand the metrics or measurements that are contained in 
 
 데이터 소스 데이터에 대한 적절한 지표-이벤트 매핑을 결정했으면 해당 연결 데이터 소스 지표에 적절한 설명 이름으로 이벤트 이름을 변경하십시오.
 
-관리 도구 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event)를 참조하십시오.
+관리 도구 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)를 참조하십시오.
 
 >[!NOTE]
 >
->Data Sources 데이터에 새로운 빈 이벤트를 사용하는 것이 좋지만, 드물게 기존 이벤트를 사용하는 것이 적절할 수 있습니다.
+>Data Sources 데이터에서 빈 이벤트를 새로 사용하는 것이 좋지만, 드물게 기존 이벤트를 사용하는 것이 적절할 수 있습니다.
 
 ## 데이터 차원 식별 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -41,7 +41,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 예를 들어 데이터 소스 지표가 광고 노출 횟수를 측정하는 경우 데이터 차원은 캠페인 추적 코드일 가능성이 높습니다. 오프라인 매출을 측정하는 경우 제품 코드(또는 SKU)를 데이터 차원으로 사용할 수 있습니다.
 
-여러 데이터 차원을 지표에 정의할 수 있지만, 각 지표는 연결된 데이터 차원 각각에 대해 관련된 값 또는 값 조합을 제공해야 합니다. 예를 들어 오프라인 판매 지표를 가져와서 *`Product`* 데이터 *`Partner`* 차원, 오프라인 판매 지표는 제품 및 파트너의 각 조합에 대해 관련이 있어야 합니다 (예: 총 매출).
+여러 데이터 차원을 지표에 정의할 수 있지만, 각 지표는 연결된 데이터 차원 각각에 대해 관련된 값 또는 값 조합을 제공해야 합니다. 예를 들어 오프라인 판매 지표를 가져와서 *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. 데이터 소스에서 데이터 차원을 수신할 eVar를 선택한 후에는 적절하게 이름을 지정하십시오. 
 
-Analytics 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event)를 참조하십시오.
+Analytics 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)를 참조하십시오.
 
 ## 캠페인 추적 코드 {#section_468222796FF449ABAA90D88EB3264CB1}
 
