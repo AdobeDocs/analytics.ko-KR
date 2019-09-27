@@ -4,10 +4,10 @@ seo-description: 보고서 항목 또는 세그먼트가 다른 보고서와 관
 seo-title: 분류
 solution: Analytics
 title: 분류
-topic: Reports & Analytics
-uuid: a 49 fa 18 b-f 518-4 d 1 a-a 4 db -793451 b 427 cc
+topic: Reports and Analytics
+uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 일례는 [연령 그룹]이라는 사용자 지정 트래픽 보고서입니다. 이 보고서에서는 설문 조사를 통해 사이트 방문자의 연령을 수집했습니다. 이 보고서를 통해 사이트에서 가장 많은 트래픽을 발생시키는 연령 그룹을 확인할 수 있습니다. 그러나 방문자 연령과 같이 수집하기 어려운 경우 페이지 보기 이상의 정보가 필요할 수 있으므로 방문자들이 사용하는 검색 엔진 , 키워드 또는 지리적 위치에 대한 분류 보고서를 생성할 수 있습니다. 연령 그룹과 검색 엔진에 대해 상관 관계를 맺는다고 가정하겠습니다. 
 
-만약에 *`Referrer Type`*&#x200B;에 대한 데이터 포인트가 *`Inside Your Site`*&#x200B;표시될 수 있습니다. 이 값은 내부 URL 필터 목록에 있는 레퍼러 페이지를 나타냅니다. 관리 참조에서 [내부 URL 필터](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter)를 확인하십시오.
+만약에 *`Referrer Type`*, you might see a data point for *`Inside Your Site`*. 이 값은 내부 URL 필터 목록에 있는 레퍼러 페이지를 나타냅니다. 관리 참조에서 [내부 URL 필터](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter.html)를 확인하십시오.
 
 Analytics 변수(eVar 또는 prop)는 다른 변수로 분류할 수 있습니다. 보고서 테이블의 **[!UICONTROL 분류 기준]메뉴는 표준 Analytics 보고 메뉴와 일치하여 선택 사항을 일관되게 유지합니다.**
 
@@ -32,7 +32,7 @@ t_reports_breakdown.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고서]** &gt; **[!UICONTROL 사이트 컨텐츠]** &gt; **[!UICONTROL 페이지와 같은 보고서를 엽니다]**.
+1. Open report, such as **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**.
 1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
 
    **[!UICONTROL 분류 기준]아이콘이 보이지 않을 경우 이 기능은 사용할 수 없으며 또는 활성화되지 않습니다.**
