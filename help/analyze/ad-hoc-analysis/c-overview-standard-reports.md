@@ -5,9 +5,9 @@ seo-title: 보고서 개요
 solution: Analytics
 title: 보고서 개요
 topic: Ad Hoc Analysis
-uuid: 36722 DCD -5 DC 9-4047-8 A 17-16 DE 876193 BF
+uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 표준 보고서에는 웹 사이트 및 방문자 활동 데이터, 트래픽 패턴, 참조 데이터, 광고 캠페인, 방문자 유지, 제품 데이터 등이 표시됩니다. 보고서를 실행한 다음 도구에 액세스하여 세그먼트, 지표 및 보고서 비교를 구성할 수 있습니다.
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## 보고서 개요 {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 표준 보고서에는 웹 사이트 및 방문자 활동 데이터, 트래픽 패턴, 참조 데이터, 광고 캠페인, 방문자 유지, 제품 데이터 등이 표시됩니다. 보고서를 실행한 다음 도구에 액세스하여 세그먼트, 지표 및 보고서 비교를 구성할 수 있습니다.
 
@@ -51,7 +51,7 @@ Marketing Reports &amp; Analytics을 사용하는 경우에는 익숙한 보고�
 *  인기 있는 사이트 컨텐츠 판별
 *  측정 가능한 기준으로 방문자 분류
 
-## 캠페인{#concept_A407CDF1D4AA49BAB396A1666E67FC87}에 추가되었습니다 
+## 캠페인 {#concept_A407CDF1D4AA49BAB396A1666E67FC87}
 
 광고 노력의 효과에 대한 정보를 표시합니다. 어떤 종류의 광고가 가장 많은 트래픽을 유발하며 어떤 직원이 이러한 노력을 담당했는지 확인할 수 있습니다.
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-이 보고서는 보통 사용자 지정되며 따라서 분석가마다 다릅니다. See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin) in the [!DNL Admin Console] help for more information.
+이 보고서는 보통 사용자 지정되며 따라서 분석가마다 다릅니다. See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) in the [!DNL Admin Console] help for more information.
 
 ## 통계적 계산 {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -82,7 +82,7 @@ c_Statistical_Calculation_ad_hoc.xml
 1. **[!UICONTROL 설정을 선택합니다]**.
 1. **[!UICONTROL 기본 통계를 선택합니다]**.
 
-**[!UICONTROL 통계 계산에서 0를 무시합니다]**. 0을 무시하고 다른 지표를 추가해도 이미 계산된 평균이 변경되지 않게 하려면 이 옵션을 선택하십시오. 모든 통계가 이 설정의 영향을 받습니다(합계에는 영향이 없는 경우에도).
+**[!UICONTROL 통계 계산에서]** 0을 무시합니다. 0을 무시하고 다른 지표를 추가해도 이미 계산된 평균이 변경되지 않게 하려면 이 옵션을 선택하십시오. 모든 통계가 이 설정의 영향을 받습니다(합계에는 영향이 없는 경우에도).
 
 | 계산 | 설명 |
 |--- |--- |
@@ -104,7 +104,7 @@ Mean 함수는 Microsoft Excel의 데이터 열과 유사하게 계산됩니다.
   <tr> 
    <th colname="col1" align="center" class="entry"> 날짜 </th> 
    <th colname="col2" align="center" class="entry"> 단일 방문 수 </th> 
-   <th colname="col3" align="center" class="entry"> 시작 </th> 
+   <th colname="col3" align="center" class="entry"> 항목 </th> 
    <th colname="col4" align="center" class="entry"> 바운스 비율 </th> 
    <th colname="col5" align="center" class="entry"> </th> 
   </tr>
@@ -160,4 +160,4 @@ c_groups.xml
 
  -->
 
-**[!UICONTROL 도구]** &gt; **[!UICONTROL 그룹 관리자를 클릭합니다]**.
+Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
