@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 릴리스 노트
 title: Windows Silverlight, NET, IIS, XBOX
 topic: 개발자 및 구현
-uuid: 15 C 20 BCA -4886-4 D 57-9957-FE 99743851 EA
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,17 +17,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->이러한 SDK는 일몰 상태였고 더 이상 Adobe에서 지원하거나 배포하지 않습니다.
+>These SDKs have been sunset and are no longer supported or distributed by Adobe.
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+>To find the current library version, turn on debug logging.
 
 ## 버전 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 릴리스 날짜: **2014년 8월**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Removed support for the . [!DNL Microsoft Silverlight Analytics Framework] Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
 
 * 예정된 기능을 지원하기 위한 내부 변경입니다.
 
@@ -43,7 +43,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * Adobe 데이터 수집 서버의 페이지 URL 필드 확장을 지원할 수 있도록 255바이트보다 긴 URL을 전송하는 지원이 추가되었습니다. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 따라서 브라우저가 잘리는 경우 긴 URL이 다른 데이터보다 우선하는 경우를 방지하면서도 긴 URL을 여전히 캡처할 수 있습니다.
 
-* 새로운 대체 방문자 식별 메서드가 추가되었습니다. [고유한 방문자 식별](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)을 참조하십시오.
+* 새로운 대체 방문자 식별 메서드가 추가되었습니다. [고유한 방문자 식별](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)을 참조하십시오.
 * `abort` 내에서 설정할 수 있는 새로운 `doPlugins` 플래그가 추가되었습니다. 이 플래그를 true로 설정하면 [!DNL AppMeasurement] 라이브러리가 해당 추적 호출을 계속할 수 없습니다. abort 플래그가 모든 추적 호출로 재설정되므로, 추적 호출 또한 무시해야 할 경우 우 플래그를 `doPlugins` 내에서 다시 설정해야 합니다.
 
    ```js
