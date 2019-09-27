@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: 개발자 및 구현
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -39,7 +39,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 방문자 API 1.6.0 포함
 
-## 2016년 5월 19일 {#section_061305CFC1E040E69E3CDF4078C17AE4}
+## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
 ** 4.0.1 - 업데이트**
 
@@ -60,13 +60,13 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-영향을 받는 버전은 모든 플랫폼의  모든 플랫폼에서 [!DNL AppMeasurement] Flash 버전 4.0 이하 버전.
+영향을 받는 버전은 모든 플랫폼의   for Flash version 4.0 and earlier on all platforms.[!DNL AppMeasurement]
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. 기존 AS2 기반 프로젝트의 데이터 수집은 계속 지원됩니다. 그렇지만 고객은 구현을 AS3로 업그레이드하고 [!DNL AppMeasurement] for Flash의 최신 보안 기능을 통합하는 것이 좋습니다.
 
-[!DNL AppMeasurement] 이 문제로 영향을 받는 Flash 고객의 경우 콘솔 자세히.... [!DNL Analytics] (AN-121780)에서 다운로드할 수 있는 업데이트된 라이브러리를 사용하여 프로젝트를 [](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) 다시 구성해야 합니다.
+[!DNL AppMeasurement] for Flash customers affected by this issue must rebuild projects with the updated library available for download from the [!DNL Analytics] Console [More…](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -82,11 +82,11 @@ s.debugTracking = false; // set to false or remove line
 
 ## 2015년 8월 20일 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
 
-버전 4.0 - 업데이트:
+Version 4.0 - Update:
 
 * 방문자 API 1.5.1 포함.
 
-## 2015년 6월 18일 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
 버전 4.0 - 업데이트
 
@@ -132,7 +132,7 @@ s.debugTracking = false; // set to false or remove line
 
 릴리스 날짜: **2014년 4월 17일**
 
-* Experience Cloud [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)지원
+* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 
 ## 버전 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
@@ -157,7 +157,7 @@ s.debugTracking = false; // set to false or remove line
 릴리스 날짜: **2013년 10월 17일**
 
 * [하트비트 비디오 추적](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/) 지원
-* [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)를 지원하기 위해 VisitorAPI.swc가 포함되었습니다.
+* [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)를 지원하기 위해 VisitorAPI.swc가 포함되었습니다.
 * ActionScript 3이 있는 Flash player 9에 대한 지원이 삭제되었습니다. ActionScript 3용 최소 Flash Player 버전은 10입니다.
 
 ## 버전 3.6.2 {#section_57FB21568BDD48F7882F00AD630E6CE8}
@@ -184,7 +184,7 @@ s.debugTracking = false; // set to false or remove line
 
 * Adobe 데이터 수집 서버의 페이지 URL 필드 확장을 지원할 수 있도록 255바이트보다 긴 URL을 전송하는 지원이 추가되었습니다. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 따라서 브라우저가 잘리는 경우 긴 URL이 다른 데이터보다 우선하는 경우를 방지하면서도 긴 URL을 여전히 캡처할 수 있습니다.
 
-* 새로운 대체 방문자 식별 메서드가 추가되었습니다. [고유한 방문자 식별](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)을 참조하십시오.
+* 새로운 대체 방문자 식별 메서드가 추가되었습니다. [고유한 방문자 식별](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)을 참조하십시오.
 * `abort` 내에서 설정할 수 있는 새로운 `doPlugins` 플래그가 추가되었습니다. 이 플래그를 true로 설정하면 [!DNL AppMeasurement] 라이브러리가 해당 추적 호출을 계속할 수 없습니다. abort 플래그가 모든 추적 호출로 재설정되므로, 추적 호출 또한 무시해야 할 경우 우 플래그를 `doPlugins` 내에서 다시 설정해야 합니다.
 
    ```js
@@ -202,7 +202,7 @@ s.debugTracking = false; // set to false or remove line
 
 릴리스 날짜: **2012년 11월 8일**
 
-* 통합을 위한 내부 [!DNL Audience Manager] 업데이트
+* Internal updates for  integration.[!DNL Audience Manager]
 
 ## 버전 3.5.1 {#section_F6345AC9F4994D6F97BBCF399B02BB21}
 
