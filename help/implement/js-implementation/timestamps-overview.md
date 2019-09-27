@@ -6,9 +6,9 @@ seo-title: 타임스탬프 옵션 사용
 solution: Analytics
 title: 타임스탬프 옵션 사용
 topic: 개발자 및 구현
-uuid: 956 AAA 16-6 FFA -4 B 63-B 022-A 659 F 5143 E 00
+uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->글로벌 보고서 세트에서 결합이 적절하도록 각 구성 요소 데이터 세트에 대한 디자인을 신중하게 계획합니다.
+>각 구성 요소 데이터 세트에 대한 디자인을 신중하게 계획하여 글로벌 보고서 세트에서 조합이 적절합니다.
 
 ## 타임스탬프를 적용하는 우수 사례 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -74,7 +74,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/timestamp_v_non8.png)
 
-* [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
+* [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
 
 * 웹 브라우저(타임스탬프가 지정되지 않은 라이브 데이터)를 여는 앱(타임스탬프가 지정된 오프라인 데이터)으로 구성된 하이브리드 앱에서는 타임스탬프를 사용하지 말아야 합니다. 그렇게 하면 세션에 대한 보고가 부정확해집니다.
 
