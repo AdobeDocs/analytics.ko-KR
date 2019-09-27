@@ -5,9 +5,9 @@ seo-title: 게시 목록 무시 허용
 solution: Analytics
 title: 게시 목록 무시 허용
 topic: Report Builder
-uuid: F 2 CC 9878-AB 54-4 C 6 F -8 A 88-3 F 3 B 579955 E 3
+uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 게시 목록은 Analytics 관리 도구에서 설정합니다.
 
-분석 참조 [게시 목록 관리자](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=publishing_list)를 참조하십시오.
+분석 참조 [게시 목록 관리자](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html)를 참조하십시오.
 
 이 기능을 활성화하려면 [!UICONTROL 요청 마법사: 1단계] 창으로 이동합니다.
 
