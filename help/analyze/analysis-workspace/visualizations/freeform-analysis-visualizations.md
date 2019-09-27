@@ -5,10 +5,10 @@ seo-description: Analysis Workspace에서 시각화 및 시각화 설정에 대�
 seo-title: 시각화 개요
 solution: Analytics
 title: 시각화 개요
-topic: Reports & Analytics
-uuid: 318 dea 64-6277-4 ec 3-ad 48-4 dfcb 7 a 54555
+topic: Reports and Analytics
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 Analysis Workspace에서 시각화 및 시각화 설정에 대해 알아봅니다.
 
-[YouTube의 분석 작업 공간에서 시각화 유형](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Visualization Types in Analysis Workspace on YouTube (2:57)](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -33,7 +33,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 
 >[!IMPORTANT]
 >
->시각화 설정은 시각화에 따라 다릅니다. 모든 설정이 모든 시각화에 적용되는 것은 아닙니다. 또한 일부 고급 설정은 [히스토그램 설정](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)과 같은 특정 시각화에 대해서&#x200B;**만** 표시됩니다.
+>시각화 설정에 따라 시각화가 표시됩니다. 모든 설정이 모든 시각화에 적용되는 것은 아닙니다. 또한 일부 고급 설정은 [히스토그램 설정](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)과 같은 특정 시각화에 대해서&#x200B;**만** 표시됩니다.
 
 ![](assets/visualization_settings.png)
 
@@ -67,11 +67,11 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
   </tr> 
   <tr> 
    <td colname="col1"> <p>표준화 </p> </td> 
-   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> 표준화를 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. See  Normalization.<a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"></a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이중 축 표시 </p> </td> 
-   <td colname="col2"> <p>두 지표가 있는 경우에만 적용됩니다. 왼쪽 (한 지표에 대해) 에 Y 축이 있고 오른쪽 (다른 지표에 대해) 에 Y 축이 있을 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>두 개의 지표가 있는 경우에만 적용됩니다. 한 지표의 경우 왼쪽(한 지표의 경우)과 오른쪽(다른 지표의 경우)에 y축을 지정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>예외 항목 표시 </p> </td> 
