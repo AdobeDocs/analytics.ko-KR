@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics에서 가속 모바일 페이지(AMP) 프로젝트를 구현하십시오.
-keywords: Analytics 구현; amp; amp-analytics; Adobeanalytics 템플릿; Adobeanalytics_ nativeconfig 템플릿; 클릭 추적; 방문자 부풀림; ID 서비스
+keywords: Analytics 구현;amp;amp-analytics;adobeanalytics 템플릿;adobeanalytics_nativeConfig 템플릿;클릭 추적;방문자 인플레이션;id 서비스
 seo-description: Adobe Analytics에서 가속 모바일 페이지(AMP) 프로젝트를 구현하십시오.
 seo-title: 가속 모바일 페이지
 solution: Analytics
 title: 가속 모바일 페이지
 topic: 개발자 및 구현
-uuid: C 86 E 4 A 80-7191-4 EE 7-AB 20-787730026 C 4 B
+uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -50,9 +50,9 @@ AMP에서는 참여하는 기술 파트너 및 게시자의 다양한 CDN(conten
 
 ## "adobeanalytics" 템플릿에서 amp-analytics 태그 사용 {#section_2E4EBF4EF623440D95DE98E78C47244E}
 
-`"adobeanalytics"`추적 템플릿은 `amp-analytics` 태그를 활용하여 추적 요청을 직접 구성합니다. Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). 선택기를 지정하여 특정 요소 ID나 클래스에 적용되도록 클릭 이벤트를 사용자 지정할 수 있습니다. Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
+The `"adobeanalytics"`tracking template utilizes the `amp-analytics` tag to construct a tracking request directly. Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). 선택기를 지정하여 특정 요소 ID나 클래스에 적용되도록 클릭 이벤트를 사용자 지정할 수 있습니다. Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
 
-In the following code example, there are two triggers defined: `pageLoad` and `click`. The `pageLoad` trigger will fire when the document becomes visible and will include the `pageName` variable as defined in the `vars section`. The second trigger `click` will fire when a button is clicked. `eVar 1` 값으로 이 이벤트에 대해 설정됩니다 `button clicked`.
+In the following code example, there are two triggers defined: `pageLoad` and `click`. The `pageLoad` trigger will fire when the document becomes visible and will include the `pageName` variable as defined in the `vars section`. The second trigger `click` will fire when a button is clicked. `eVar 1` 값이 있는 이 이벤트에 대해 설정됩니다 `button clicked`.
 
 ```
   <amp-analytics type="adobeanalytics"> 
@@ -85,21 +85,21 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
   </amp-analytics> 
 ```
 
-`click` 트리거에서 선택기를 지정하여 특정 DOM 요소를 클릭할 때마다 (이 경우 모든 단추) `buttonClick` 요청이 실행되고 이 히트를 스테이지 이외의 이벤트 (예: `trackLink` 호출) 로 표시하도록 자동으로 설정됩니다.
+In the `click` trigger, you can specify a selector to ensure that whenever the specific DOM element is clicked (in this case, any button), the `buttonClick` request is fired and will be automatically set to denote this hit as a non-stage event (i.e. `trackLink` call).
 
 또한, `amp-analytics`에서는 AMP에서 인식하는 데이터 값을 제공할 수 있도록 많은 수의 변수 대체를 지원합니다. [amp-analytics 변수 설명서](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)를 방문하면 이 모든 사항과 더 자세한 내용을 알 수 있습니다.
 
-임의의 기술 또는 DOM 변수(예: 브라우저, 화면 크기, 장치, 레퍼러 등)를 통합하려는 경우 이 변수는 자동으로 생성되지 않으므로 명시적으로 요청에 추가해야 합니다. 추적에 사용되는 각각의 사용 가능한 쿼리 문자열 매개 변수에 대한 설명서는 [여기](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=query_parameters)에 있습니다.
+임의의 기술 또는 DOM 변수(예: 브라우저, 화면 크기, 장치, 레퍼러 등)를 통합하려는 경우 이 변수는 자동으로 생성되지 않으므로 명시적으로 요청에 추가해야 합니다. 추적에 사용되는 각각의 사용 가능한 쿼리 문자열 매개 변수에 대한 설명서는 [여기](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html)에 있습니다.
 
 amp-analytics로 만들어진 히트를 검사하면 각 요청에서 Adobe가 `vid` 쿼리 매개 변수를 포함한 것을 볼 수 있습니다. Adobe에서는 기본 제공 AMP 함수를 기반으로 `vid`를 설정하여 `adobe_amp_id`라는 이름의 사용자 지정 Analytics 쿠키 ID를 설정했습니다. 이 ID는 다른 곳(예: [!DNL Adobe Analytics])에서 `s_vi cookie`로 설정되는 다른 ID와는 별개의 ID로서, 히트를 전송받는 보고서 세트에서 새로운 방문자 수를 생성합니다.
 
-다음과 같이 몇 가지 알아야 할 사항이 있습니다. 위에 설명한 것처럼 amp-analytics 태그를 사용할 때, 방문자는 일반적인 추적과는 관련이 없으며, AMP는 컨텐츠 제공 네트워크(CDN)에서 로드될 수 있으므로 방문자가 이 AMP를 보는 각 CDN에 대해 고유 방문자가 생깁니다(이 때문에 앞에서 방문자 인플레이션이 언급되었습니다). For this reason, Adobe recommends that if you use the `"adobeanalytics"` template for `amp-analytics`, you put your data into a separate report suite specific to AMP. [!DNL Experience Cloud] 또한 ID 서비스 (이전, *`visitor ID service`*) 는 이 방법으로 지원되지 않으므로 비즈니스에 [!DNL Experience Cloud] 추가 통합이 필요하거나 향후 제공될 경우에는 옵션이 아닐 것입니다.
+다음과 같이 몇 가지 알아야 할 사항이 있습니다. 위에 설명한 것처럼 amp-analytics 태그를 사용할 때, 방문자는 일반적인 추적과는 관련이 없으며, AMP는 컨텐츠 제공 네트워크(CDN)에서 로드될 수 있으므로 방문자가 이 AMP를 보는 각 CDN에 대해 고유 방문자가 생깁니다(이 때문에 앞에서 방문자 인플레이션이 언급되었습니다). For this reason, Adobe recommends that if you use the `"adobeanalytics"` template for `amp-analytics`, you put your data into a separate report suite specific to AMP. Also, the [!DNL Experience Cloud] ID service (formerly, *`visitor ID service`*) is not supported using this method, so if your business requires additional [!DNL Experience Cloud] integrations, or will in the future, this is probably not the option for you.
 
 Finally, and perhaps most importantly, this `amp-analytics` solution requires that the tracking server you specify in the `vars` section matches the tracking server on your main site, so that your existing privacy policy controls are respected. 그렇지 않으면, AMP 전용으로 별도의 개인정보 보호정책을 만들어야 합니다.
 
 ## "adobeanalytics_nativeConfig" 템플릿에서 amp-analytics 태그 사용 {#section_3556B68304A4492991F439885727E9FF}
 
-`"adobeanalytics_nativeConfig"` 태그는 일반적인 웹 페이지에서 사용하는 동일한 태깅 방법론을 사용하므로 구현하기가 쉽습니다. 이를 수행하려면 다음을 `amp-analytics` 태그에 추가하십시오.
+The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it will use the same tagging methodology you use on your normal web pages. 이를 수행하려면 다음을 `amp-analytics` 태그에 추가하십시오.
 
 ```
 <amp-analytics type="adobeanalytics_nativeConfig"> 
@@ -179,7 +179,7 @@ To reiterate, if your organization is not yet using the [!DNL Experience Cloud] 
 
 ## 요약 {#section_4D8ED26084F249738A5C2BC66B933A07}
 
-If you need click tracking and don't mind visitors being counted as entirely new visitors separate from your site, use the `"adobeanalytics"` tracking template, with our recommendation that you put the data into a *`separate report suite`*. [!DNL Experience Cloud] ID 서비스가 필요한 경우 방문자가 방문하거나 인플레이션이 부풀려지는 것을 원하지 않으며, 페이지 로드 시 Analytics만 실행하면 됩니다. `"adobeanalytics_nativeConfig"` 이 솔루션을 사용하는 것이 좋습니다.
+If you need click tracking and don't mind visitors being counted as entirely new visitors separate from your site, use the `"adobeanalytics"` tracking template, with our recommendation that you put the data into a *`separate report suite`*. If you need the [!DNL Experience Cloud] ID service, do not want visitor or visit inflation, and are okay with only firing Analytics on page load, we recommend using the `"adobeanalytics_nativeConfig"` solution.
 
 Adobe Analytics에서는 Google 및 게시자와 파트너 관계를 맺어 업계 선두의 분석 기능을 매우 빠른 사용자 환경에서 모바일 웹의 게시자에게 제공하게 되어 기쁘게 생각합니다. 현재 이 두 가지 솔루션에서 수익이 발생하고 있음에도 불구하고 Adobe에서는 고객들의 더욱 진화하고 있는 분석 요구에 답하기 위한 최상의 장기적 솔루션을 만드는 데 전념하고 있습니다.
 
@@ -211,7 +211,7 @@ AMP 프로젝트는 빠르게 움직이고 있으며 빈번하게 변경되므�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID 서비스란 무엇입니까? 이 서비스가 필요한 이유는 무엇입니까?  </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> ID 서비스 </a> (이전 <span class="term"> 방문자 ID 서비스 </span>) 는 <span class="keyword"> Experience Cloud </span> 코어 서비스를 활성화하고 다른 Adobe <span class="keyword"> Experience Cloud </span> 솔루션 간의 통합을 허용합니다. <span class="keyword">Adobe Audience Manager</span>나 <span class="keyword">Adobe Target</span>과의 통합 사항이 있을 경우 이 서비스를 사용할 수 있습니다. 이 서비스는 예정된 많은 <span class="keyword">Adobe Analytics</span> 기능의 기반이기도 합니다. ID 서비스 지원이 필요하거나 향후에 필요한 경우 <code>iframeMessage</code> 솔루션을 사용하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p>ID <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 서비스(이전 </a> 방문자 ID 서비스) <span class="term"> 를 사용하면 </span>Experience Cloud <span class="keyword"> 핵심 서비스를 사용할 수 있으며 서로 다른 Adobe Experience Cloud 솔루션 간의 통합을 </span> <span class="keyword"> </span> 수행할 수 있습니다. <span class="keyword">Adobe Audience Manager</span>나 <span class="keyword">Adobe Target</span>과의 통합 사항이 있을 경우 이 서비스를 사용할 수 있습니다. 이 서비스는 예정된 많은 <span class="keyword">Adobe Analytics</span> 기능의 기반이기도 합니다. ID 서비스 지원이 필요하거나 향후에 필요한 경우 <code>iframeMessage</code> 솔루션을 사용하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>"adobeanalytics_nativeConfig"</code> 템플릿의 경우 어디에서 유틸리티 페이지를 호스트해야 합니까? </p> </td> 
