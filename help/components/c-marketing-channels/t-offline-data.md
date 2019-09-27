@@ -5,10 +5,10 @@ seo-title: 오프라인 데이터 추가
 solution: Analytics
 subtopic: 마케팅 채널
 title: 오프라인 데이터 추가
-topic: Reports & Analytics
-uuid: bbf 4661 a-b 6 b 1-4 a 89-a 3 cf-ae 8 dd 785 d 37 d
+topic: Reports and Analytics
+uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **마케팅 채널 보고서에 데이터 소스 통합**
 
-[데이터 소스의 데이터](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_faq)를 마케팅 채널 보고서에 통합하려면 다음에 유의하십시오.
+[데이터 소스의 데이터](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html)를 마케팅 채널 보고서에 통합하려면 다음에 유의하십시오.
 
-* [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID)와 함께 분석 보고서로 전달된 표준 히트는 정상적으로 마케팅 채널 처리 규칙을 통해 처리됩니다.
+* [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html)와 함께 분석 보고서로 전달된 표준 히트는 정상적으로 마케팅 채널 처리 규칙을 통해 처리됩니다.
 * 분석으로 전달되는 모든 `transactionID` 데이터 소스는 표준 히트를 처리한 것과 같은 마케팅 채널에 자동으로 연결됩니다.
 * 다른 모든 데이터 소스 데이터는 마케팅 채널 처리 규칙을 통하지 않습니다.
 
@@ -35,11 +35,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **오프라인 데이터 추가**
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 데이터 소스를 클릭합니다]**.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
 1. 데이터 소스 페이지에서 **[!UICONTROL 만들기]를 클릭합니다.**
-1. **[!UICONTROL 1. Select Category]**, select **[!UICONTROL Offline Channel Data]**.
-1. **[!UICONTROL 2. Select Type]**, select **[!UICONTROL Offline Channel Data]**.
-1. **[!UICONTROL 활성화를 클릭합니다.]**
+1. Under **[!UICONTROL 1. Select Category]**, select **[!UICONTROL Offline Channel Data]**.
+1. Under **[!UICONTROL 2. Select Type]**, select **[!UICONTROL Offline Channel Data]**.
+1. Click **[!UICONTROL Activate.]**
 1. 데이터 소스 활성화 마법사가 표시하는 메시지에 따라 오프라인 지표를 보고 지표에 매핑합니다.
 1. 템플릿 파일을 편집기(예: Excel)로 다운로드해서 편집합니다.
 
