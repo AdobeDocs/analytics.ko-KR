@@ -1,63 +1,63 @@
 ---
-description: 애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품에서 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자를 위한 Java 기반 유저 인터페이스를 제공하여, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
-seo-description: 애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품에서 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자를 위한 Java 기반 유저 인터페이스를 제공하여, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
+description: 애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용 Java 기반 사용자 인터페이스를 제공하며, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
+seo-description: 애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용 Java 기반 사용자 인터페이스를 제공하며, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
 seo-title: 세그먼트 작성
 solution: Analytics
 title: 세그먼트 작성
 topic: Ad Hoc Analysis
-uuid: E 14 FB 777-900 A -4700-8 DC 7-56 A 45 C 678 D 29
+uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
 # 세그먼트 작성
 
-애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품에서 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자를 위한 Java 기반 유저 인터페이스를 제공하여, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
+애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용 Java 기반 사용자 인터페이스를 제공하며, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
 
-Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 관리 [워크플로우](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_workflow)를 설정하는 데 사용되는 [세그먼트 관리자](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_manage)와 같은 새로운 기능 업그레이드가 포함됩니다. 또한 [세그먼트 빌더](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build)에서 세그먼트를 작성하고 저장하거나 Ad Hoc Analysis 콘솔에서 [폴아웃 보고서로부터 세그먼트를 생성](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=t_seg_fallout)한 다음, 새 세그먼트나 확장된 세그먼트를 일반적인 액세스 및 애플리케이션용의 대상 라이브러리에 저장할 수 있습니다. ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 관리 [워크플로우](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)를 설정하는 데 사용되는 [세그먼트 관리자](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html)와 같은 새로운 기능 업그레이드가 포함됩니다. 또한 [세그먼트 빌더](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)에서 세그먼트를 작성하고 저장하거나 Ad Hoc Analysis 콘솔에서 [폴아웃 보고서로부터 세그먼트를 생성](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html)한 다음, 새 세그먼트나 확장된 세그먼트를 일반적인 액세스 및 애플리케이션용의 대상 라이브러리에 저장할 수 있습니다. ![](assets/seg__overview_ad_hoc.png)
 
 ## Ad Hoc Analysis에서의 통합 세그멘테이션 {#section_5FA03A06DE054448AD519CE30C39E294}
 
-애드혹 분석 기능을 포함하는 통합 세그멘테이션 환경에서 세그먼트를 작성하고 관리하는 방법에 대한 정보 및 지침은 [통합 세그멘테이션](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=index) 설명서를 참조하십시오.
+애드혹 분석 기능을 포함하는 통합 세그멘테이션 환경에서 세그먼트를 작성하고 관리하는 방법에 대한 정보 및 지침은 [통합 세그멘테이션](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) 설명서를 참조하십시오.
 
 * [새로운 기능](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
-* [세그먼트 정의 변경](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_definition)
+* [세그먼트 정의 변경](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
 * [기존 세그먼트에 발생한 결과](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [기존 세그먼트 폴더에 발생한 결과](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
 * [히트 컨테이너란? 페이지 보기 컨테이너와 다른 점](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
 * [세그먼트를 사용하고 만들고 관리하는 데 필요한 권한](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [... 이 있는 중복 세그먼트는 어떻게 해야 합니까?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [...가 있는 중복 세그먼트로 어떻게 해야 합니까?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
 * [권장되는 세그먼트 정리 방법](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
 * [이 세그먼트를 삭제할 수 없는 이유](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
 * [기존 세그먼트에 발생하는 결과에 대한 자세한 내용](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## 기능 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* [세그먼트는 모든 보고서 세트에 범용입니다. ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_overview) 이전에는 세그먼트가 보고서 세트별로 달랐습니다. 
-* [세그먼트 관리자](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_manage)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_workflow)를 설정할 수 있습니다.
+* [세그먼트는 모든 보고서 세트에 범용입니다. ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html) 이전에는 세그먼트가 보고서 세트별로 달랐습니다. 
+* [세그먼트 관리자](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)를 설정할 수 있습니다.
 
-* [세그먼트 빌더](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build_ui)가 세그먼트 생성을 간소화하도록 업데이트되었습니다.
-* [세그먼트를 태그 지정](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_tag)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
+* [세그먼트 빌더](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html)가 세그먼트 생성을 간소화하도록 업데이트되었습니다.
+* [세그먼트를 태그 지정](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
 
-* Ad Hoc Analysis 외부에서 [순차적 세그먼트](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_sequential)를 만들 수 있습니다.
+* Ad Hoc Analysis 외부에서 [순차적 세그먼트](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html)를 만들 수 있습니다.
 * 
 
 >[!NOTE]
 >
->애드혹 분석에서는 세그먼트에 날짜 범위를 추가할 수 없습니다. 이 기능은 Analysis Workspace에서 사용할 수 있습니다. Ad Hoc Analysis에서 [시퀀스 이전에만]/[시퀀스 이후에만]을 사용할 수도 있습니다.
+>애드혹 분석에서는 날짜 범위를 세그먼트에 추가할 수 없습니다. 이 기능은 Analysis Workspace에서 사용할 수 있습니다. Ad Hoc Analysis에서 [시퀀스 이전에만]/[시퀀스 이후에만]을 사용할 수도 있습니다.
 
 ## 기존 세그먼트에 발생한 결과 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 기존 세그먼트는 Analytics 세그먼테이션 도입 이전과 마찬가지로 계속 사용할 수 있습니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. 
 
-이전에 미리 정의된 대부분의 세트 세그먼트는 [세그먼트 템플릿](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates)으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 세그먼트 템플릿은 공통 대상을 갖는 사용자 지정 세그먼트를 빠르게 작성하는 데 사용됩니다. 세그먼트 템플릿을 보고서에 직접 적용할 수는 없지만 사용자 지정 세그먼트로 쉽게 저장할 수 있습니다.
+이전에 미리 정의된 대부분의 세트 세그먼트는 [세그먼트 템플릿](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html)으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 세그먼트 템플릿은 공통 대상을 갖는 사용자 지정 세그먼트를 빠르게 작성하는 데 사용됩니다. 세그먼트 템플릿을 보고서에 직접 적용할 수는 없지만 사용자 지정 세그먼트로 쉽게 저장할 수 있습니다.
 
 ## 기존 세그먼트 폴더에 발생한 결과 {#section_FB04DCF775694E69B761DCA53F301C30}
 
-세그먼트 관리자는 Ad Hoc Analysis의 폴더 대신 [태그](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_tag)를 사용합니다. 폴더 이름은 자동으로 태그로 변환되고 해당 태그는 해당 세그먼트에 적용됩니다.
+세그먼트 관리자는 Ad Hoc Analysis의 폴더 대신 [태그](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)를 사용합니다. 폴더 이름은 자동으로 태그로 변환되고 해당 태그는 해당 세그먼트에 적용됩니다.
 
 ## 세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
@@ -73,7 +73,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
 
 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
-관리자는 세그먼트를 편집하고, 그룹과 [세그먼트를 공유](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=t_seg_share)하고, 조직의 세그먼트에 액세스할 [권한을 설정](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_rights)할 수 있습니다.
+관리자는 세그먼트를 편집하고, 그룹과 [세그먼트를 공유](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html)하고, 조직의 세그먼트에 액세스할 [권한을 설정](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html)할 수 있습니다.
 
 ## 이름은 같지만 정의는 다른 중복 세그먼트가 있는 경우 어떻게 해야 합니까? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -88,11 +88,11 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
 * 보유한 세그먼트를 검토합니다.
 * 적용 가능한 경우 세그먼트 라이브러리에 추가합니다.
 * 표준 세그먼트를 승인합니다.
-* 세그먼트에 모범 사례에 따라 태깅합니다.
+* Tag segments according to 모범 사례에 따라 태깅합니다.
 
 ## 이 세그먼트를 삭제할 수 없는 이유 {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
-세그먼트가 [Experience Cloud로 게시된 경우](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_publish_audience_segment) 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
+세그먼트가 [Experience Cloud로 게시된 경우](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html) 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
 
 ## 기존 세그먼트에 발생하는 결과에 대한 자세한 내용 {#section_83ACAB256F394DCD8B424D8920BDD853}
 
@@ -117,7 +117,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">유료 검색을 통한 방문 수 </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">방문자 ID를 갖는 방문 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>이러한 세그먼트는 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates" format="http" scope="external"> 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다.</a> </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 세그먼트는 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다.</a> </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud(Suite) 세그먼트: 
@@ -130,7 +130,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">이전 방문 횟수가 5회 이상인 방문* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Facebook에서 찾아온 방문* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> 이러한 세그먼트 대부분(별표*가 표시된 세그먼트 제외)은 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates" format="http" scope="external"> 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. </a> 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다. </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
+   <td colname="col2"> <p> 이러한 세그먼트 대부분(별표*가 표시된 세그먼트 제외)은 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. </a> 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다. </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">관리 세그먼트 <p>("전역" 세그먼트라고도 함) </p> </td> 
