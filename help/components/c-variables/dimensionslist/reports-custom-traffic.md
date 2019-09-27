@@ -5,9 +5,9 @@ seo-title: 사용자 지정 트래픽
 solution: Analytics
 title: 사용자 지정 트래픽
 topic: 보고서
-uuid: 627 E 8 F 34-E 8 F 7-4 F 79-919 B-F 6237 F 85685 D
+uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,15 +18,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 사용자 지정 트래픽 보고서 속성 {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
-* 사용자 지정 트래픽 보고서는 전적으로 [prop](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_propn)(트래픽 변수)에 따라 결정됩니다.
-* 보고서의 기본 지표는 페이지 보기 횟수입니다(또는 버전 15의 인스턴스). 버전 14 페이지 보기 횟수와 버전 15 인스턴스는 변수가 정의된 총 시간을 계산한다는 점에서 동일합니다. 버전 15 페이지 보기 횟수는  *`s.t()`* 이미지 요청 ( *`s.tl()`* 요청 제외).
+* 사용자 지정 트래픽 보고서는 전적으로 [prop](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html)(트래픽 변수)에 따라 결정됩니다.
+* 보고서의 기본 지표는 페이지 보기 횟수입니다(또는 버전 15의 인스턴스). 버전 14 페이지 보기 횟수와 버전 15 인스턴스는 변수가 정의된 총 시간을 계산한다는 점에서 동일합니다. 버전 15 페이지 보기 횟수는  이미지 *`s.t()`* 요청( *`s.tl()`* 요청 제외).
 
 * 경로가 조직의 계약에 포함되어 있고 지원되는 사용자에 의해 요청되는 경우 경로가 활성화될 수 있습니다. 트래픽 변수에 대해 경로가 활성화되면 다음 지표를 사용할 수 있습니다.
 * 
 
    * 평균 페이지 깊이
    * 평균 체류 시간
-   * 시작
+   * 항목
    * 종료
    * 다시 로드
    * 단일 액세스
