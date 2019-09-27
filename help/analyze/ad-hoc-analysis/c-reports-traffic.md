@@ -7,7 +7,7 @@ title: 트래픽 소스 보고서
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ c_reports_referrers.xml
 
 정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다. 예를 들어, 웹 페이지 A와 웹 페이지 B는 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않습니다. 이 경우, 웹 페이지 C는 레퍼러로 간주됩니다.
 
-See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) in the [!DNL Admin Console] help for more information.
+See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
 
 >[!NOTE]
 >
