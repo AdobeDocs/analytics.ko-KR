@@ -3,9 +3,9 @@ description: 사용자를 구성하고 데이터 샘플링에 대해 알 수 있
 seo-description: 사용자를 구성하고 데이터 샘플링에 대해 알 수 있습니다.
 seo-title: 관리
 title: 관리
-uuid: 12 F 90223-139 F -4 A 8 D-BFD 3-5 CD 9 AF 7489 D 2
+uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -38,19 +38,19 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리를 클릭합니다]**.
+1. 에 [!DNL Experience Cloud]로그인합니다.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
    회사에서 사용자 라이센스를 구입한 경우 [!UICONTROL Ad Hoc Analysis 라이센스 사용자] 그룹이 [!UICONTROL 그룹 이름] 열에 나타납니다. 사용자 로그인에 대한 사용 가능한 라이센스 수도 표시됩니다.
 
-1. ****&#x200B;편집을 클릭합니다.
+1. Click **[!UICONTROL Edit]**.
 1. [!UICONTROL 사용자 로그인 지정]**에서 그룹에 추가할 사용자를 선택하고[!UICONTROL 추가]를 클릭합니다.**
 1. Click **[!UICONTROL Save Group]**.
 
    라이선스 시스템은 그룹에 추가되는 사용자 수를 제한하지 않습니다. 구입한 사용자 라이센스 수는 동시 사용을 제한합니다.
 
-## 사용자 세션 관리{#task_868C3DD9CB3F45D19B98EEF60F5E0B32}
+## 사용자 세션 관리 {#task_868C3DD9CB3F45D19B98EEF60F5E0B32}
 
 관리자가 사용자의 세션을 종료할 수 있는 방법을 설명하는 단계입니다. 이 기능은 종료된 사용자가 다시 로그인하는 것을 막지 않습니다.
 
@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리를]**&#x200B;클릭한 다음 사용자 **[!UICONTROL 관리를 클릭합니다]**.
+1. Click Adobe Analytics &gt; Admin &gt; User Management, then click Manage Users.****************
 1. 사용자를 찾은 다음 **[!UICONTROL 종료]를 클릭합니다.**
 
    [!UICONTROL 활성 Ad Hoc Analysis 세션] 페이지에서, 유휴 상태였던 사용자가 목록의 맨 위에 가장 오래 표시됩니다.
@@ -85,8 +85,8 @@ t_permissions.xml
 
  -->
 
-1. **[!UICONTROL Experience Cloud에 로그인합니다]**.
-1. **[!UICONTROL Adobe Analytics &gt; 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; 그룹 **[!UICONTROL 편집을]**&#x200B;클릭합니다.
+1. Log in to the **[!UICONTROL Experience Cloud]**.
+1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
 1. Click **[!UICONTROL All Report Access]**.
 1. [!UICONTROL 사용 가능한 사용자]**에서 사용자를 선택한 다음[!UICONTROL 추가]를 클릭합니다.**
 1. Click **[!UICONTROL Save Group]**.
@@ -101,8 +101,8 @@ t_permission_groups.xml
 
  -->
 
-1. **[!UICONTROL Experience Cloud에 로그인합니다]**.
-1. **[!UICONTROL Adobe Analytics &gt; 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; 그룹 **[!UICONTROL 편집을]**&#x200B;클릭합니다.
+1. Log in to the **[!UICONTROL Experience Cloud]**.
+1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
 1. 액세스를 허용할 비관리 사용자에 대해 Ad Hoc Analysis이 활성화된 보고서 세트를 포함하는 권한 그룹을 만듭니다.
 
    사용자가 사용할 수 있는 보고서 세트는 새 프로젝트를 만들 때 [!UICONTROL 보고서 클라우드] 메뉴에 표시됩니다.
@@ -119,10 +119,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis에서는 HTTP를 사용하여 서버와 통신합니다. 이것은 다른 HTTP 트래픽과 동일한 프록시 정책을 따릅니다.
 
-1. In the [!DNL Windows Control Panel], launch the [!UICONTROL Java Control Panel].
+1. 에서 [!DNL Windows Control Panel]Java [!UICONTROL 제어판을 시작합니다].
 1. **일반** 탭에서 **[!UICONTROL 네트워크 설정을 클릭합니다]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
-1. **[!UICONTROL 확인을]**&#x200B;클릭한 다음 Java 제어판에서 **[!UICONTROL 확인을]** 클릭합니다.
+1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
 
 ## 데이터 샘플링 방식 {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
@@ -154,6 +154,6 @@ c_overview_data_sampling.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [사용자 ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [그룹 ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [사용자 ](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
+>* [그룹 ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
 
