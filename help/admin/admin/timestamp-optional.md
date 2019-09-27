@@ -5,9 +5,9 @@ seo-title: 타임스탬프 선택 사항
 solution: Analytics
 title: 타임스탬프 선택 사항
 topic: 관리 도구
-uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 번호/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 번호/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
 >[!NOTE]
 >
->타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다. 즉, 방문/세션이 92 일 동안 "열려 있는 상태" 가 되는 반면 (히트 시간에서) 이전 히트 이후 30 분이 아닌 추가 히트가 있을 수 있습니다. 여러 가지 요인 (세그멘테이션, 할당, 만료 등) 이후 순서가 잘못된 "이전" 히트가 "알 수 없음" 결과를 낳게 됩니다. 이러한 히트가 보고에 포함될지 여부를 영향을 받습니다.
+>타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다. 즉, 방문/세션이 92일 동안 "열려 있음"으로 표시되고, 이전 히트(히트 시간) 이후 30분이 아닌 추가 히트는 여전히 동일한 방문/세션에 포함될 수 있습니다. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not.
 
 ## 새 보고서 세트 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
