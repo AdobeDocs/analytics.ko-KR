@@ -8,7 +8,7 @@ title: Android
 topic: 개발자 및 구현
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -418,7 +418,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2014년 11월 24일**
 
-* 새로운 기능 - Adobe Experience Cloud ID 통합
+* New - Adobe Experience Cloud ID integration
 * 명확성을 위해 디버그 로그가 개선됨
 * 인앱 메시지를 확인할 때 발생할 수 있는 충돌이 해결됨
 
@@ -597,7 +597,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2012년 10월**
 
-* [Google Play 캠페인 추적](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer) 지원이 추가되었습니다.
+* [Google Play 캠페인 추적](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html) 지원이 추가되었습니다.
 
 ## 버전 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
@@ -609,7 +609,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2012년 8월**
 
-* 이제 컨텍스트 재정의 매개 변수가 `Hashmap<String, Object>` (이전의 `Hashmap<String, String>`)로 전송됩니다.
+* Context override parameters are now sent in as `Hashmap<String, Object>` (they were formerly `Hashmap<String, String>`).
 
 ## 버전 3.0 {#section_2955C0AF3A23476B8CF06C469DE3284C}
 
