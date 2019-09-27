@@ -1,15 +1,15 @@
 ---
 description: 컨텍스트 데이터 변수를 사용하여 처리 규칙으로 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
-keywords: Analytics 구현; Contextdata; s. contextdata
+keywords: Analytics Implementation;contextdata;s.contextdata
 seo-description: 컨텍스트 데이터 변수를 사용하여 처리 규칙으로 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
 seo-title: 컨텍스트 데이터 변수
 solution: Analytics
 subtopic: 변수
 title: 컨텍스트 데이터 변수
 topic: 개발자 및 구현
-uuid: 4 B 215803-99 D 4-46 F 2-B 3 C 1-E 78558987764
+uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,14 +22,16 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 >[!NOTE]
 >
->컨텍스트 데이터 변수는 대/소문자를 구분하지 않습니다. 예를 들어 다음 2 개의 변수는 사실상 동일합니다. &gt;
+>Context data variables are not case sensitive. For example, the following 2 variables are effectively identical: &gt;
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->```>
+>
+```>
 >and 
 >
->```>
+>
+```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 
@@ -37,7 +39,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 컨텍스트 데이터를 사용하면 다른 보고서 세트 구성을 지원하기 위해 코드를 업데이트하는 것이 방지됩니다.
 
-예를 들어 *`s.contextData`* 변수:
+예를 들어 *`s.contextData`* variable:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -68,7 +70,7 @@ s.contextData['myco.rsid'] = 'value'
    <td colname="col2"> <p>회사 이름, 사이트 이름 또는 유사한 값을 변수 앞에 붙여 보고서 세트에서 이름이 고유하게 하는 것이 좋습니다. </p> <p>컨텍스트 데이터 변수는 기타 JavaScript 변수와 유사한 이름으로 지정될 수 있습니다. 네임스페이스 <code>a.*</code>는 컨텍스트 변수 이름에서 Adobe 제품이 사용하도록 예약되어 있음을 알아두십시오. 예를 들어 iOS용 AppMeasurement 라이브러리는 <code>a.InstallEvent</code>를 사용하여 애플리케이션 설치를 측정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Internet Explorer의 URL 제한 </p> </td> 
+   <td colname="col1"> <p>URL Limits for Internet Explorer </p> </td> 
    <td colname="col2"> <p>Internet Explorer 6 및 7의 경우 URL이 2000바이트에서 잘리는 오래된 URL 제한이 있을 수 있습니다. <span class="keyword">DigitalPulse</span> Debugger를 사용하여 URL 문자열 크기를 결정할 수 있습니다. </p> <p>AppMeasurement(2014년 9월)의 최신 업데이트가 있으면 Internet Explorer 8+에 HTTP POST가 사용되어 URL이 잘리는 문제가 해결됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +92,7 @@ s.tl(true,"o","Link Name");
 
 ## 예 {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possible ways to replace implementation of the *`s.pageName`* variable, assuming that processing rules are set up correctly for each:
+Possible ways to replace implementation of the  variable, assuming that processing rules are set up correctly for each:*`s.pageName`*
 
 ```
 s.contextData['page'] = "Home Page" 
@@ -106,4 +108,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-예가 필요하면, Analytics 참조에서 [컨텍스트 데이터 변수를 eVar에 복사](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules_copy_context_data)를 참조하십시오.
+예가 필요하면, Analytics 참조에서 [컨텍스트 데이터 변수를 eVar에 복사](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html)를 참조하십시오.
