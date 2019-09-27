@@ -8,7 +8,7 @@ title: JavaScript용 AppMeasurement
 topic: 개발자 및 구현
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -40,7 +40,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 종료 링크에 대한 `sendBeacon` 지원 | [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 이를 통해 종료 링크 추적 기능이 개선되고 트래픽이 증가할 수 있습니다. `SendBeacon` 은 페이지의 컨텍스트에서 실행되지 않고 브라우저의 컨텍스트에서 실행됩니다. 즉, 페이지를 언로드해도 요청이 `sendBeacon`계속 완료됩니다. 이 기능은 종료 링크에 매우 유용합니다. 종료 링크 요청이 훨씬 더 완료될 가능성이 커지기 때문입니다. |
+| 종료 링크에 대한 `sendBeacon` 지원 | [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 이를 통해 종료 링크 추적 기능이 개선되고 트래픽이 증가할 수 있습니다. `SendBeacon` doesn't execute in the context of a page but in the context of the browser. 즉, 페이지를 언로드해도 요청이 `sendBeacon`계속 완료됩니다. 이 기능은 종료 링크에 매우 유용합니다. 종료 링크 요청이 훨씬 더 완료될 가능성이 커지기 때문입니다. |
 | ECID/fid 값 | 이제 OptIn 설정이 변경되더라도 ECID/fid 값이 첫 번째 히트에 캐시됩니다. |
 | DIL 9.3 | 대상 관리 모듈의 DIL 9.3 업데이트 |
 | 스크롤 도달 추적 | s.ActivityMap.trackScrollReach에 스위치를 노출하여 스크롤 도달 추적을 켜거나 끕니다. |
@@ -177,7 +177,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * [!DNL dil.js] 최신 버전 포함(AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * 방문자 API 2.1.0이 다시 포함되었습니다. (AN-140873)
-* Added `mcorgid` parameter. (AN-139586)
+* 매개 변수가 `mcorgid` 추가되었습니다. (AN-139586)
 * cp (customerPerspective) 매개 변수가 추가되었습니다. (AN-140897)
 
 ## 버전 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -353,11 +353,11 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 확장</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">iOS 확장 구현</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 확장 구현</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android Wearable 확장</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Android Wearable 확장</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android Wearable 확장</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## 버전 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,7 +441,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * 플러그인으로서 제거된 브라우저 플러그인(`p` 쿼리 매개 변수) 추적이 버전 15에서 더 이상 보고되지 않습니다.
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-[추가 eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events)(76 - 250) 및 이벤트(101-1000)에 대한 지원을 추가했습니다.
+[추가 eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)(76 - 250) 및 이벤트(101-1000)에 대한 지원을 추가했습니다.
 
 >[!NOTE]
 >
@@ -497,7 +497,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 릴리스 날짜: **2013년 11월 14일**
 
 * [하트비트 비디오 측정](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)에 대한 지원이 추가되었습니다.
-* [!DNL VisitorAPI.js] 가 방문자 ID 서비스 지원에 [추가되었습니다](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
+* [!DNL VisitorAPI.js] 가 방문자 ID 서비스 지원에 [추가되었습니다](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html).
 
 ## 버전 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * 쿼리 매개 변수 가져오기, 쿠키 읽기 및 쓰기, 고급 링크 추적 수행과 같은 기본 지원을 제공합니다.
 * 모바일 사이트에서 사용할 수 있을 만큼 작고 빠르고 데스크톱 웹에서 사용할 수 있을 만큼 강력하므로, 모든 웹 환경에서 단일 라이브러리를 사용할 수 있습니다.
 
- 구현 안내서의 [Javascript용 AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs)를 참조하십시오.[!DNL Analytics]
+ 구현 안내서의 [Javascript용 AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html)를 참조하십시오.[!DNL Analytics]
 
 >[!NOTE]
 >
->일부 플러그인은 이 새 버전에서 지원되지 않습니다. 자세한 내용은 [플러그인 지원](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support)을 참조하십시오
+>Some plug-ins are not supported in this new version. 자세한 내용은 [플러그인 지원](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)을 참조하십시오
