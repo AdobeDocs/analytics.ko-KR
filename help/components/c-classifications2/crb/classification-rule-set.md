@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 분류
 title: 분류 규칙 세트
 topic: 관리 도구
-uuid: c 4 d 7 b 77 c-fa 98-44 be -955 f -9 aee 7 f 73480 b
+uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
 
-## Classification rule sets {#concept_CD3D510F5070486584F3BB535AE41524}
+## 분류 규칙 세트 {#concept_CD3D510F5070486584F3BB535AE41524}
 
 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
 
@@ -58,7 +58,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#task_86F216DFD2534FA181E64ABDF306782B}
+## 분류 규칙 세트 만들기 {#task_86F216DFD2534FA181E64ABDF306782B}
 
 <!-- 
 
@@ -70,11 +70,11 @@ t_classification_rule_set.xml
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-   (분류 추가에 대한 자세한 내용은 관리 도구 도움말의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications)를 참조하십시오.)
+   (분류 추가에 대한 자세한 내용은 관리 도구 도움말의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)를 참조하십시오.)
 
    변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 [!UICONTROL 새 규칙 세트] 패널에 표시됩니다.
 
-   **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 트래픽]** &gt; **[!UICONTROL 트래픽 분류]** (또는 **[!UICONTROL 전환]** &gt; **[!UICONTROL 전환 분류]**) 에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 **[!UICONTROL 분류 추가를 클릭합니다]**.
+   You can create classifications on a variable in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**). 그런 다음, 변수를 선택하고 **[!UICONTROL 분류 추가를 클릭합니다]**.
 
 1. To create the rule set, click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Add Rule Set]**.
 
