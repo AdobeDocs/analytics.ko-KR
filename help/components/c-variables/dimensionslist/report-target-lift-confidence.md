@@ -4,9 +4,9 @@ seo-description: 이전에 Target Classic에서 수행한 동일한 방법으로
 seo-title: Target 상승도 및 신뢰도
 solution: Analytics
 title: Target 상승도 및 신뢰도
-uuid: 00276 cd 2-2 e 0 d -4 a 25-ae 8 a-d 9 f 4 b 30 dd 8 ba
+uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고서]** &gt; **[!UICONTROL 모든 보고서]** 보기 &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL 타겟]** &gt; **[!UICONTROL 타겟 활동]** 분석
+**[!UICONTROL Analytics]** 보고서 **[!UICONTROL 보기 &gt; 모든 보고서]** **** 보기 **[!UICONTROL Adobe Target &gt; Target]** Analytics &gt; Target Analytics &gt; Target Activities모든 보고서 **** **** 보기
 
-Adobe Target 설명서에는 [상승도](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_estimating_lift_in_revenue) 및 [신뢰도](https://marketing.adobe.com/resources/help/en_US/rec/?f=c_Confidence_Level_and_Confidence_Interval)에 대한 추가 정보가 들어 있습니다.
+Adobe Target 설명서에는 [상승도](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) 및 [신뢰도](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html)에 대한 추가 정보가 들어 있습니다.
 
 상승도 및 신뢰도를 계산하려면:
 
