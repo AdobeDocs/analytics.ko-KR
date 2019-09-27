@@ -1,18 +1,18 @@
 ---
 description: 보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
 seo-description: 보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
-seo-title: 보고서 개요 사용자 지정
+seo-title: 보고서 사용자 지정 개요
 solution: Analytics
-title: 보고서 개요 사용자 지정
-topic: Reports & Analytics
-uuid: 37 D 221 B 7-50 FD -4425-B 2 BA-F 40911 B 72 A 2 F
+title: 보고서 사용자 지정 개요
+topic: Reports and Analytics
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 보고서 개요 사용자 지정
+# 보고서 사용자 지정 개요
 
 보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
 
@@ -31,14 +31,14 @@ t_reports_custom.xml
 **사용자 지정 보고서를 만들려면**
 
 1. 보고서를 실행하고 필요에 따라 구성합니다.
-1. **[!UICONTROL 자세히]** &gt; 사용자 지정 보고서 **[!UICONTROL 만들기를]**&#x200B;클릭합니다.
+1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Create Custom Report]**.
 1. 보고서 이름을 지정한 다음 **[!UICONTROL 저장을 클릭합니다.]**
 
      기존 보고서 이름과 동일하지 않도록 확인합니다.
 
 >[!MORE_LIKE_THIS]
 >
->* [메뉴 사용자 지정](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [메뉴 사용자 지정](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## 날짜 또는 날짜 범위 선택 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -140,11 +140,11 @@ t_reports_select_page.xml
 
  -->
 
-1. [!UICONTROL 페이지 보기 보고서] ( **[!UICONTROL 보고서]** &gt; **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 페이지 보기]**) 와 같은 보고서를 생성합니다.
+1. Generate a report, such as a [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Page Views]**).
 1. **선택한 페이지** 링크를 클릭합니다.
 1. [!UICONTROL 페이지 선택]에서 표시할 페이지를 선택합니다.
 1. 페이지를 찾습니다.
-1. **[!UICONTROL 확인을 클릭합니다.]**
+1. Click **[!UICONTROL OK.]**
 
 ## 보고서 세트 비교 {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -158,7 +158,7 @@ t_reports_compare_suites.xml
 
 그래픽 표시 외에 보고서 표는 백분율 비교를 제공합니다. 다음 보고서는 비교하며 실행할 수 있습니다.
 
-* 사이트 컨텐츠
+* 사이트 콘텐츠
 * 모바일
 * 트래픽 소스
 * 캠페인
@@ -167,7 +167,7 @@ t_reports_compare_suites.xml
 * 방문자 프로필
 * 사용자 지정 전환
 * 사용자 지정 트래픽
-* 목표
+* Target
 * 설문 조사
 
 **보고서 세트를 비교하려면**
@@ -175,7 +175,7 @@ t_reports_compare_suites.xml
 1. 보고서를 비교할 수 있도록 해주는 보고서를 생성합니다.
 1. **사이트에 비교** 링크를 클릭합니다.
 1. 보고서 세트를 찾습니다.
-1. **[!UICONTROL 확인을 클릭합니다.]**
+1. Click **[!UICONTROL OK.]**
 
 ## 보고서 세부기간 지정 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
@@ -191,7 +191,7 @@ t_reports_granularity.xml
 
 **보고서 세부기간을 지정하려면**
 
-1. **[!UICONTROL 사이트 컨텐츠]** &gt; **[!UICONTROL 페이지와 같은 트렌드 보고서를 생성합니다.]**
+1. Generate a trended report, such as **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages.]**
 1. **보기 방법** 링크를 클릭한 다음 세부기간을 클릭합니다.
 
 ## 요일 보고서 실행 {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
