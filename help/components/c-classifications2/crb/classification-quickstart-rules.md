@@ -8,7 +8,7 @@ title: 분류 규칙
 topic: 관리 도구
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -64,7 +64,7 @@ about_classification_rules.xml
 
 ## 규칙에 관한 중요한 정보 {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **정규 표현식**:도움말은 분류 규칙의 [정규 표현식에서 사용할 수 있습니다](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
 
@@ -72,7 +72,7 @@ about_classification_rules.xml
 
    규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. 자세한 내용은 [규칙 우선 순위 정보](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. See [규칙 우선 순위 정보](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -159,7 +159,7 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 | 정규 표현식 | 문자열 또는 일치 결과 | 해당 일치 그룹 |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601 `$1`:em `$2`:6월 판매 `$3`:20130601년 |
-| 구문 작성 중 | `^` = 행() = 그룹 문자를 시작하고 괄호 안의 일치하는 문자를 추출할 수 있습니다.  `(.+)` = 한 개 캡처( . ) 문자 및 ( + ) 더 이상 \ = 문자열의 시작.  `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
+| 구문 작성 중 | `^` = 행() = 그룹 문자를 시작하고 괄호 안의 일치하는 문자를 추출할 수 있습니다.  `(.+)` = captures one ( . ) 문자 및 ( + ) 더 이상 \ = 문자열의 시작.  `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
 
 정규 표현식의 문자가 무엇을 의미하는지에 대한 자세한 내용은 [정규 표현식 - 참조 테이블](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)을 참조하십시오.
 
