@@ -3,12 +3,12 @@ description: 마케팅 채널에 사용자 그룹 액세스 권한을 구성합�
 seo-description: 마케팅 채널에 사용자 그룹 액세스 권한을 구성합니다.
 seo-title: 사용자 그룹 액세스 권한 구성
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 사용자 그룹 액세스 권한 구성
-topic: Reports & Analytics
-uuid: B 85661 AF -5 E 33-4 A 92-A 756-3589 AFB 2 F 457
+topic: Reports and Analytics
+uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,10 +17,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 마케팅 채널에 사용자 그룹 액세스 권한을 구성합니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리를 클릭합니다]**.
-1. **[!UICONTROL 사용자]** [!UICONTROL 관리] 홈 페이지에서 그룹을 클릭합니다.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
 
-   자세한 내용은 *관리 도움말*&#x200B;의 [사용자 관리](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management)를 참조하십시오.
+   자세한 내용은 *관리 도움말*&#x200B;의 [사용자 관리](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html)를 참조하십시오.
 
 1. 사용자 지정 그룹 이름을 클릭하거나 **새 사용자 그룹 추가**&#x200B;를 클릭하여 사용자 그룹을 만듭니다.
 1. 보고서 액세스에서 **모든 액세스 권한** 또는 **[!UICONTROL 액세스 권한 없음을 활성화하십시오]**.
