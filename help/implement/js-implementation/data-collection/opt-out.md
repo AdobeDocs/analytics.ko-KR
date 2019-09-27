@@ -6,9 +6,9 @@ seo-title: Adobe 옵트아웃 구현
 solution: Analytics
 title: Adobe 옵트아웃 구현
 topic: 개발자 및 구현
-uuid: FC 3 A 411 C -8476-409 D -99 DE -05 B 34 ACE 5019
+uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -34,7 +34,7 @@ Adobe는 Adobe 제품 또는 서비스에 의한 브라우징 정보 수집을 �
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* 자사 쿠키가 포함된 Adobe Analytics 제품을 구현하는 경우 웹 사이트 방문자에 [대한 사용자 지정 옵트아웃 링크를](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) 직접 개발해야 합니다.
-* 고객은 브라우저의 쿠키 설정을 사용하여 옵트아웃을 활성화할 수 있습니다. [브라우저 쿠키에 대한 개인 정보 설정 활성화](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings)를 참조하십시오.
+* 자사 쿠키로 Adobe Analytics 제품을 구현하는 경우 웹 사이트 방문자를 위한 자체 사용자 지정 옵트아웃 링크를 [](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) 개발해야 합니다.
+* 고객은 브라우저의 쿠키 설정을 사용하여 옵트아웃을 활성화할 수 있습니다. [브라우저 쿠키에 대한 개인 정보 설정 활성화](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html)를 참조하십시오.
 
 선택한 옵트아웃 메커니즘에 관계없이 Adobe는 옵트아웃 메커니즘의 가용성을 귀하의 개인정보 보호정책에 자세히 설명하거나 법에 의해 요구되는 방법 또는 최신 우수 사례에 따라 권장되는 방법으로 설명할 것을 권장합니다.
