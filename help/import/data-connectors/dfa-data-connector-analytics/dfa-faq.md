@@ -6,12 +6,9 @@ seo-title: FAQ
 solution: Analytics
 title: FAQ
 topic: Data connectors
-uuid: 59 d 187 e 9-1 ec 1-4 cf 3-8831-b 981 f 87 c 9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 >[!NOTE]
 >
->CSID는 통합의 버전 2.0에서 사용되지 않으므로 CSID 협상 프로세스가 적용되지 않습니다.
+>CSID는 통합 버전 2.0에서 사용되지 않으므로 CSID 협상 프로세스가 적용되지 않습니다.
 
 ## 통합 버전 2.0을 사용하는 데 내 DFA 광고에 대한 비용 지표가 표시되지 않습니다. 이유가 무엇입니까? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,7 +45,8 @@ clicktrackers라고 하는 클릭 데이터만 기록하는 몇 가지 광고가
 
 먼저, 문제가 있는 광고에 (a) 불일치가 표시된 동일한 보고서 세트에 대해 Adobe 코드 태그가 지정되고 (b) *`clickThroughParam`* 쿼리 문자열 매개 변수가 포함된 랜딩 페이지 URL이 있는지 확인합니다.
 
-둘째, 성공적인 DFA 통합 [확인 단계를 통해 작업 통합을 수행했는지](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6)확인합니다. 랜딩 페이지에서 Adobe 히트를 통해 DFA 추적 코드가 도착한 것이 보이면 클릭스루가 DFA 캠페인 보고서에 표시되는 것을 볼 수 있습니다. 도착했는지 모를 경우 랜딩 페이지의 *`s.account`* 변수와 보고 및 분석에서 본 보고서 세트 간에 보고서 세트가 일치하는지 확인합니다. 이들이 일치하면 뷰스루 eVar 보고서에서 추적 코드가 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX 형식인지 확인합니다.
+두 번째, 성공적인 DFA 통합 확인의 단계를 수행하여 작업 [통합이 있는지 확인합니다](../dfa-data-connector-analytics/dfa-integration.md). 랜딩 페이지에서 Adobe 히트를 통해 DFA 추적 코드가 도착한 것이 보이면 클릭스루가 DFA 캠페인 보고서에 표시되는 것을 볼 수 있습니다. 도착했는지 모를 경우 랜딩 페이지의 *`s.account`* 변수와 보고 및 분석에서 본 보고서 세트 간에 보고서 세트가 일치하는지 확인합니다. 이들이 일치하면 뷰스루 eVar 보고서에서 추적 코드가 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX 형식인지 확인합니다.
 
 이들은 DFA에서 원시 데이터를 다이제스트하는 DFA VISTA 규칙 오류를 나타냅니다. 이 문제는 Adobe 계정 담당자를 통해 지원 티켓을 열어서 해결할 수 있습니다.
-위의 해결 방법들이 문제를 설명하는 것이 아니라면 [지표 불일치를](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) 조정하여 다른 가능성을 탐색합니다.
+
+위의 어떤 해결 방법으로도 문제가 설명되지 않으면 [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) to explore other possibilities.
