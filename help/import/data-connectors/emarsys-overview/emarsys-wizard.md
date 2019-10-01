@@ -4,11 +4,8 @@ seo-description: 데이터 커넥터 통합 마법사는 데이터 커넥터 통
 seo-title: 데이터 커넥터 통합 마법사 실행
 title: 데이터 커넥터 통합 마법사 실행
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -29,4 +26,4 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 1. emarsys **[!UICONTROL xpress 데이터 커넥터 통합]** 페이지에서 텍스트를 검토한 다음, 통합과 관련된 비용을 수락하는 확인란을 선택한 다음 다음을 **[!UICONTROL 클릭합니다]**.
 
    이 페이지는 자세한 정보에 대한 유용한 링크와 함께 통합 개요를 제공합니다. 이 통합과 관련된 Adobe 및 emarsys 비용이 있습니다. 두 조직에 적합한 영업 담당자에게 연락하여 요금 구성을 확인합니다.
-1. 데이터 커넥터 [통합 마법사](https://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html)를 완료합니다.
+1. 데이터 커넥터 통합 마법사를 완료합니다.
