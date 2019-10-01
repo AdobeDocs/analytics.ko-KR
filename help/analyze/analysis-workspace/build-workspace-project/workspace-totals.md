@@ -1,19 +1,19 @@
 ---
-description: 작업 공간 합계를 계산하는 방법.
+description: How Workspace totals are calculated.
 seo-description: 작업 공간 총계가 계산되는 방법을 알아봅니다.
-seo-title: 작업 공간 합계를 계산하는 방법.
-title: 작업 영역 합계
+seo-title: How Workspace totals are calculated.
+title: Workspace totals
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: b2e76715a2bab0931b1ddf8c612c29eea530ce6c
 
 ---
 
 
 # 작업 영역 합계
 
-자유 형식 테이블에서, 총 행이 각 분류 수준에 나타나고 두 개의 합계를 표시할 수 있습니다.
+In Freeform tables, a total row appears at each breakdown level and can show two totals:
 
-* **[!UICONTROL 총계]** (회색 '아웃' 수) - 이 합계는 수집된 모든 히트를 나타내며 경우에 따라 '보고서 세트 합계'라고도 합니다. 세그먼트가 패널 수준 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다.
+* **[!UICONTROL Grand Total]** (gray 'out of' number) - this total represents all hits that have been collected, sometimes referred to as 'report suite total'. 세그먼트가 패널 수준 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다.
 * **[!UICONTROL 테이블 합계]** (검정 번호) - 이 합계는 일반적으로 총계 또는 하위 [!UICONTROL 집합과 같습니다]. [없음 포함] 옵션을 포함하여 자유 형식 테이블 내에 적용된 테이블 [!UICONTROL 필터를 반영합니다] .
 
 ![](assets/total-row.png)
@@ -33,10 +33,6 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
 
 ![](assets/static-rows.png)
 
-## 내보낸 합계
-
-데이터를 자유 형식 테이블에서 복사하여 붙여넣거나 CSV를 통해 다운로드하는 경우, 총 행은 테이블 [!UICONTROL 총계만 반영합니다] .
-
 ## FAQ
 
 | 질문 | 답변 |
@@ -45,4 +41,5 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
 | 지정되지 않음( **[!UICONTROL 없음)]** 설정이 합계에 어떤 영향을 줍니까? | 지정되지 **[!UICONTROL 않음(없음)]** 설정이 선택 취소되면 없음/지정되지 않음 행이 테이블, 테이블 합계에서 제거되고, ['합계' 지표 유형을 사용하는 모든 계산된 지표로 전달됩니다](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html) |
 | 사용자 지정 테이블 필터가 자유 형식 테이블에 적용되는 경우 필터에 대한 모든 계산된 지표 및 조건부 서식 지정 계정을 수행합니까? | 현재 없습니다. **[!UICONTROL 지정되지 않음(없음)]** 포함은 설명되지만 사용자 지정 테이블 필터는 다음 항목에 영향을 주지 않습니다.<ul><li>조건부 서식에서 사용하는 열 최대/최소 범위는 모든 데이터에 적용됩니다.</li><li>총계 지표 유형을 활용하는 **[!UICONTROL 계산된]** 지표.</li><li>자유 형식 테이블의 행 간에 계산되는 함수(예: 열 합계, 열 최대, 열 최소, 카운트, 평균, 중간값, 백분위수, 사분위수, 행 카운트, 표준 편차, 차이, 누적 평균, 회귀 변형, T-점수, T-테스트, Z-점수, Z-테스트)가 있는 계산된 지표입니다.</li></ul> |
 | 계산된 지표에서 총 **[!UICONTROL 지표 유형은]** 어떻게 반영됩니까? | **[!UICONTROL Grand]** Total은 **[!UICONTROL Grand Total을 계속 참조하며]**&#x200B;테이블이나 테이블 총계에 적용된 필터를 반영하지 **[!UICONTROL 않습니다]**. |
+| 자유 형식 테이블에서 데이터를 복사하여 붙여넣거나 CSV를 통해 다운로드할 때 표시되는 총계는 무엇입니까? | The total row will reflect the Table Total only and respects the column Show Totals setting.******** |
 
