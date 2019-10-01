@@ -1,24 +1,21 @@
 ---
-description: 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 evar를 예약합니다.
-seo-description: 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 evar를 예약합니다.
+description: 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약합니다.
+seo-description: 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약합니다.
 seo-title: 쿼리 문자열 매개 변수 플러그인 코드
 solution: Analytics
 title: 쿼리 문자열 매개 변수 플러그인 코드
-uuid: A 71 E 7774-BC 7 A -414 E-A 116-739770 B 900 BF
-index: y
-internal: n
-snippet: y
+uuid: a71e774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # 쿼리 문자열 매개 변수 플러그인 코드{#query-string-param-plug-in-code}
 
-아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 evar를 예약합니다.
+아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약합니다.
 
-예약한 [](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238)Evar를 알고 있으면 evarn를 관련 evar로 바꿉니다 (예: evar 10).
+예약한 eVar를 알고 있으면 eVarN을 관련 eVar로 바꿉니다(예: eVar10).
 
 ```
 /* 
