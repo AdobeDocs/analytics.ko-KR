@@ -1,21 +1,18 @@
 ---
-description: JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 줄을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
-seo-description: JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 줄을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
+description: JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
+seo-description: JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
 seo-title: Adobe Analytics 플러그인 코드
 title: Adobe Analytics 플러그인 코드
-uuid: b 10345 ba -1 e 80-4 e 5 c-af 87-6 e 6 a 9 dc 87 c 00
-index: y
-internal: n
-snippet: y
+uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Adobe Analytics 플러그인 코드{#adobe-analytics-plug-in-code}
 
-JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 줄을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
+JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
 
 `/*`
 
@@ -29,5 +26,5 @@ JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코�
 
 >[!NOTE]
 >
->위의 플러그인은 특정 사용자 지정 상거래 변수 (Evar) 를 사용할 수 있다고 가정합니다. 위의 플러그인에 지정된 변수를 Adobe Analytics 배포 내에서 사용할 수 없는 경우, 사용할 수 있는 변수에 대체하면 됩니다.
+>위의 플러그인은 특정 사용자 지정 상거래 변수(eVar)를 사용할 수 있다고 가정합니다. 위의 플러그인에 지정된 변수가 Adobe Analytics 배포 내에서 사용할 수 없는 경우, 변수를 사용 가능한 변수로 교체하면 됩니다.
 
