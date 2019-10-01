@@ -6,12 +6,9 @@ seo-title: 전제 조건
 solution: Analytics
 title: 전제 조건
 topic: Data connectors
-uuid: B 5 F 5 E 30 C-E 269-41 A 4-9236-5 DDC 404 BFD 94
-index: y
-internal: n
-snippet: y
+uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 DFA에 대한 Adobe Data Connectors 통합을 시작하기 전에 다음을 수행하십시오.
 
-* 통합 버전 1.5에 통합할 것인지 아니면 버전 2.0을 기다릴 것인지 결정합니다. 이러한 결정은 DFA 계정에서 사용하는 기능과 통합할 기간에 따라 다릅니다. 자세한 내용은 [버전 2.0 정보](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664)를 참조하십시오.
+* 통합 버전 1.5에 통합할 것인지 아니면 버전 2.0을 기다릴 것인지 결정합니다. 이러한 결정은 DFA 계정에서 사용하는 기능과 통합할 기간에 따라 다릅니다.
 * DFA 광고주가 Adobe Analytics 보고서 세트에 매핑하는 방법을 결정합니다. 예를 들어, 여러 DFA 광고주와 여러 보고서 세트가 있는 경우 보고서 세트와 함께 사용할 광고주를 결정해야 합니다.
 * 데이터 수집 코드 버전 H.22 이상을 사용하여 추적할 모든 페이지에 Adobe 데이터 수집 코드를 구현합니다.
 * 통합하려는 Floodlight 구성에 포함된 DFA 계정의 광고주 ID를 확인합니다. 통합은 Floodlight 구성 내에 있는 모든 광고주를 자동으로 가져옵니다.
