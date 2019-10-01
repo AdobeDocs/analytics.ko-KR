@@ -1,6 +1,6 @@
 ---
 description: 컨텍스트 데이터 변수를 사용하여 처리 규칙으로 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
-keywords: Analytics Implementation;contextdata;s.contextdata
+keywords: Analytics 구현;contextdata;s.contextdata
 seo-description: 컨텍스트 데이터 변수를 사용하여 처리 규칙으로 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
 seo-title: 컨텍스트 데이터 변수
 solution: Analytics
@@ -9,7 +9,7 @@ title: 컨텍스트 데이터 변수
 topic: 개발자 및 구현
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!NOTE]
 >
->Context data variables are not case sensitive. For example, the following 2 variables are effectively identical:
+>Context data variables are not case sensitive. 예를 들어 다음 2개 변수는 사실상 동일합니다.
 >```
->s.contextData['article_title'] = 'Weekend Concert Controversy';
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
->and
+>및
 >```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
@@ -86,7 +86,7 @@ s.tl(true,"o","Link Name");
 
 ## 예 {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possible ways to replace implementation of the  variable, assuming that processing rules are set up correctly for each:*`s.pageName`*
+처리 규칙이 각각에 대해 올바르게 설정되었다고 가정하고 *`s.pageName`* 변수의 구현을 바꿀 수 있는 방법:
 
 ```
 s.contextData['page'] = "Home Page" 
