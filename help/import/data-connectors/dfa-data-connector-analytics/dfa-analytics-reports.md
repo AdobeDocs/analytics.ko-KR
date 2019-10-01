@@ -7,11 +7,8 @@ solution: Analytics
 title: DFA 데이터를 사용하는 Analytics Reports
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafedd6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -57,4 +54,3 @@ DFA 보고서를 생성하려면:
 * 특정 DFA 광고에 대한 자세한 정보를 보려면 해당 특정 DFA 광고 이름을 선택하여 옵션 메뉴를 엽니다.
 * 각 지표 열에는 그래프에서 지표에 지정한 색상에 해당하는 색상 키가 포함되어 있습니다.
 * 보고서는 맨 위에 최고 수익 광고가 있는 수익 지표에 따라 정렬됩니다. 다른 열(지표) 레이블을 클릭하여 보고서 정렬 순서를 변경할 수 있습니다.
-
