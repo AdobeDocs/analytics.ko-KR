@@ -1,71 +1,71 @@
 ---
-title: 장치 간 분석 설정
+title: Cross-Device Analytics 설정
 description: 사전 요구 사항을 충족한 후 장치 간 분석을 설정하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
+source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 ---
 
 
-# 장치 간 분석 설정
+# Cross-Device Analytics 설정
 
-> [!NOTE] 크로스 디바이스 분석 문서는 기능이 추가로 개발됨에 따라 변경될 수 있습니다. 업데이트를 정기적으로 확인할 수 있습니다.
+> [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. 정기적으로 업데이트를 확인하십시오.
 
-모든 사전 요구 사항이 충족되면 다음 단계를 사용하여 장치 간 분석을 활성화합니다. 다음 단계를 수행하려면 제품 프로필 관리 그룹에 속하거나 Adobe Analytics에서 관리자 권한을 가지고 있어야 합니다.
+Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. 이 단계를 수행하려면 제품 프로필 관리 그룹에 속해 있거나 Adobe Analytics에서 관리자 권한이 있어야 합니다.
 
-> [!IMPORTANT] 다음 단계를 수행하기 전에 모든 전제 조건을 충족해야 합니다. 모든 사전 요구 사항이 충족되지 않으면 기능은 사용할 수 없거나 작동하지 않습니다. 전제 조건 및 제한 사항에 대한 자세한 내용은 [장치 간 분석을](cda-home.md) 참조하십시오.
+> [!IMPORTANT] 이러한 단계를 수행하기 전에 모든 사전 요구 사항을 충족해야 합니다. If all prerequisites are not met, the feature is not available or will not work. See [Cross-Device Analytics](cda-home.md) for prerequisites and limitations.
 
-## CDA에 사용할 장치 간 보고서 세트를 선택합니다.
+## CDA에 대해 활성화될 장치 간 보고서 세트 선택
 
-CDA를 사용할 수 있도록 조직이 프로비저닝되면 사용할 보고서 세트를 선택합니다. 이 선택 사항은 Adobe 계정 관리자를 통해 전달될 수 있습니다. 그런 다음 CDA 처리를 위해 선택한 보고서 세트를 활성화합니다.
+조직에서 CDA를 사용하도록 프로비저닝되면 사용할 보고서 세트를 선택합니다. 이 선택 사항은 Adobe 계정 관리자를 통해 전달될 수 있습니다. 그러면 Adobe에서 선택한 보고서 세트를 CDA 처리를 활성화합니다.
 
-## 장치 간 가상 보고서 세트를 만들어 장치 간 보기 보기
+## 장치 간 보기를 보려면 장치 간 가상 보고서 세트 만들기
 
-가상 보고서 세트를 만들기 위한 액세스 권한이 있는 관리자는 CDA 가상 보고서 세트를 다음과 같이 만들 수 있습니다.
+가상 보고서 세트를 만들 수 있는 액세스 권한이 있는 관리자는 다음과 같이 CDA 가상 보고서 세트를 만들 수 있습니다.
 
-1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 로 이동하고 Adobeid 자격 증명을 사용하여 로그인합니다.
-2. 상단에 있는 9 개의 격자 아이콘을 클릭한 다음 분석을 클릭합니다.
-3. 상단에 있는 구성 요소 위로 마우스를 가져간 다음 가상 보고서 세트를 클릭합니다.
+1. Experiencecloud.adobe.com [으로](https://experiencecloud.adobe.com) 이동하고 AdobeID 자격 증명을 사용하여 로그인합니다.
+2. 맨 위에 있는 9개의 격자 아이콘을 클릭한 다음 분석을 클릭합니다.
+3. 맨 위에 있는 구성 요소 위로 마우스를 가져간 다음 가상 보고서 세트를 클릭합니다.
 4. 추가를 클릭합니다.
-5. 가상 보고서 세트의 이름을 입력하고 CDA 지원 보고서 세트를 선택해야 합니다.
-6. 장치 간 분석 등 여러 가지 옵션을 사용할 수 있는 확인란을 클릭하십시오.
-7. ' 장치 간 사용자 방문'확인란을 클릭합니다.
-8. 계속을 클릭하고, 가상 보고서 세트 구성을 완료한 다음 저장을 클릭합니다.
+5. 가상 보고서 세트의 이름을 입력하고 CDA 사용 보고서 세트가 선택되었는지 확인합니다.
+6. 장치 간 분석을 포함한 여러 가지 옵션을 활성화하는 '보고서 시간 처리 활성화' 확인란을 클릭합니다.
+7. '장치 간 사용자 방문 연결' 확인란을 클릭합니다.
+8. 계속을 클릭하고 가상 보고서 세트 구성을 완료한 다음 저장을 클릭합니다.
 
 ![CDA 확인란](assets/cda-checkbox.png)
 
-## 장치 간 가상 보고서 세트 추가 및 변경 사항
+## 장치 간 가상 보고서 세트에 대한 추가 및 변경 사항
 
 가상 보고서 세트에서 장치 간 분석이 활성화되면 다음 변경 사항을 참고하십시오.
 
-* 가상 보고서 세트 이름 옆에 새 장치 간 아이콘이 나타납니다. 이 아이콘은 장치 간 가상 보고서 세트에만 해당됩니다.
-* ' People'및'Unique Devices'레이블이 지정된 새 지표를 사용할 수 있습니다.
-* 지표'고유 방문자 수'는 사람 및 고유 장치로 대체되므로 사용할 수 없습니다.
-* 세그먼트를 작성할 때'방문자'세그먼트 컨테이너는'사람'컨테이너로 대체됩니다.
+* A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
+* '사람' 및 '고유 장치'라는 레이블이 지정된 새 지표를 사용할 수 있습니다.
+* The metric 'Unique Visitors' is not available, as it is replaced with People and Unique Devices.
+* 세그먼트를 작성할 때 '방문자' 세그먼트 컨테이너는 '사람' 컨테이너로 대체됩니다.
 
-## 압축 계산 지표
+## The Compression calculated metric
 
-디바이스 간 분석을 연결하는 크로스 디바이스 분석 기능은 다양한 요인에 따라 다릅니다. 기능의 stitch 기능에 대한 효과는 압축이라는 계산된 지표를 사용하여 측정할 수 있습니다. 압축에 기여하는 요인에는 다음이 포함됩니다.
+장치 간 분석 기능으로 장치를 연결할 수 있는 기능은 다양한 요인에 따라 다릅니다. 이 기능의 데이터 스티치 기능의 효과는 압축이라는 계산된 지표를 사용하여 측정할 수 있습니다. Factors that contribute to compression include:
 
-* Co-op 그래프 또는 개인 그래프 사용: 일반적으로 Device Co-op를 사용하는 조직은 개인 그래프를 사용하는 조직보다 더 나은 압축률을 보는 경향이 있습니다.
-* 로그인 비율: 더 많은 사용자가 사이트에 로그인하면 더 많은 Adobe가 여러 장치에서 방문자를 식별하고 연결할 수 있습니다. 로그인 비율이 낮은 사이트도 압축률이 낮습니다.
-* Experience Cloud ID 커버리지: ECID가 있는 방문자만 스티칭할 수 있습니다. ECID를 사용하여 사이트 방문자의 비율이 더 낮으면 압축률이 낮아집니다.
-* 다양한 디바이스 사용: 사이트 방문자가 여러 장치를 사용하지 않는 경우 낮은 압축률을 볼 수 있습니다.
-* 보고 세부기간: 일별 압축은 일반적으로 월 또는 연도별 압축보다 작습니다. 한 달 내에 개인이 여러 디바이스를 사용할 수 있는 기회가 한 달 내에 작아집니다. 분류 차원을 세그먼트화, 필터링 또는 사용하는 경우에도 낮은 압축률이 표시됩니다.
+* Using the Co-op graph or Private graph: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
+* Log in rate: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
+* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
+* Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
+* 세부기간 보고:일별 압축은 일반적으로 월 또는 연도별로 압축하는 것보다 작습니다. 개인이 여러 디바이스를 사용할 수 있는 가능성은 한 달 전보다 하루 안에 더 작아졌습니다. 분류 차원을 세그먼트화, 필터링 또는 사용할 경우 압축률이 낮아질 수 있습니다.
 
-주어진 기간 동안 조직의 압축을 확인하려면 다음을 수행하십시오.
+지정된 기간 동안 조직의 압축을 보려면 다음을 수행하십시오.
 
-1. 맨 위의 작업 영역을 클릭한 다음'새 프로젝트 만들기'를 클릭합니다.
+1. 맨 위에 있는 작업 영역을 클릭한 다음 '새 프로젝트 만들기'를 클릭합니다.
 2. 빈 프로젝트로 시작한 다음 만들기를 클릭합니다.
-3. 고유 장치 지표를'여기에 지표 놓기'레이블이 지정된 캔버스 영역으로 드래그합니다.
-4. 사람 지표를 고유한 장치 지표 머리글의 오른쪽으로 바로 캔버스로 드래그하면 두 지표를 나란히 놓고 볼 수 있습니다.
-5. 왼쪽의 사용 가능 지표 옆에 있는 ' +' 기호를 클릭하여 계산된 지표 빌더를 엽니다.
-6. 이 계산된 지표에 다음 설정을 지정합니다.
-   * 이름: 크로스 디바이스 압축
-   * 형식: 퍼센트
-   * 소수점 이하: 2
+3. Drag the Unique Devices metric onto the canvas area labeled 'Drop a Metric Here'.
+4. 사람 지표를 고유 장치 지표 머리글의 오른쪽에 있는 캔버스로 드래그하여 두 지표를 나란히 놓습니다.
+5. Click the '' symbol next to available metrics on the left to open the Calculated Metric builder.`+`
+6. Give this calculated metric the following settings:
+   * 이름:장치 간 압축
+   * Format: Percent
+   * Decimal Places: 2
    * 정의: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!NOTE] 정적 숫자를 추가하려면 정의 영역의 오른쪽 위 모서리에 있는'추가'를 클릭합니다. 왼쪽의 사용 가능한 지표 목록에서 사람 및 고유 장치를 드래그합니다.
+      > [!TIP] 정의 영역의 오른쪽 위 모서리에서 '추가'를 클릭하여 정적 번호를 추가합니다. 왼쪽의 사용 가능한 지표 목록에서 [사람 및 고유 장치]를 드래그합니다.
 7. 저장을 클릭합니다.
-8. 새 계산된 지표를 사용자 지표 머리글의 바로 오른쪽에 있는 캔버스로 드래그하여 세 개의 지표를 모두 나란히 놓습니다.
-9. 옵션: 작업 영역은 기본적으로 일 차원을 로드합니다. 다른 시간 세부기간이 필요한 경우 요일 또는 월과 같은 대체 날짜 차원을 요일 차원 위로 드래그합니다.
+8. 새 계산된 지표를 사람 지표 머리글의 오른쪽에 있는 캔버스로 드래그하여 세 가지 지표를 나란히 놓습니다.
+9. 선택 사항:작업공간은 기본적으로 일 차원을 로드합니다. 다른 시간 세부기간을 원하는 경우 일 차원 위에 주 또는 월과 같은 대체 날짜 차원을 드래그합니다.
