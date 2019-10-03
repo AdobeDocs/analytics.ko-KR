@@ -1,64 +1,82 @@
 ---
-description: Adobe Experience Cloud Debugger를 설치합니다. 디버거는 Analytics 클라우드, Adobe Target, Advertising Cloud, ID 서비스, 다이내믹 태그 관리 및 Experience Platform Launch에 대한 태그를 검사합니다.
-seo-description: Adobe Experience Cloud Debugger를 설치합니다. 디버거는 Analytics 클라우드, Adobe Target, Advertising Cloud, ID 서비스, 다이내믹 태그 관리 및 Experience Platform Launch에 대한 태그를 검사합니다.
-seo-title: Experience Cloud Debugger
-title: Experience Cloud Debugger
-uuid: E 4 B 35 A 89-A 41 F -44 A 8-9 E 3 F -6 E 872 C 4487 C 1
+description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, DTM 및 Launch에 대한 태그를 검사합니다.
+seo-description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, DTM 및 Launch에 대한 태그를 검사합니다.
+seo-title: 기존 Adobe Experience Cloud 디버거
+title: 기존 Adobe Experience Cloud 디버거
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
-# Experience Cloud Debugger
+# Legacy Adobe Experience Cloud Debugger
 
-Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. [!UICONTROL 디버거는] Adobe [!DNL Analytics Cloud], Adobe [!DNL Target], [!DNL Advertising Cloud][!DNL Experience Cloud] ID 서비스, [!UICONTROL 다이내믹 태그 관리]및 [!UICONTROL Adobe Experience Platform Launch에 대한 태그를 검사합니다].
+> [!IMPORTANT] 이 디버깅 도구는 더 이상 유지 관리되지 않습니다. Adobe에서는 대신 Adobe Experience Cloud 디버거 [Chrome 확장을 사용하는 것이 좋습니다](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
 
-## Experience Cloud Debugger {#topic_E05CEAF0682E483A9AB147D774CF2188}
+레거시 [!UICONTROL 디버거는] 대부분의 Adobe Experience Cloud 서비스에 대한 태그를 검사합니다. 디버거를 사용하면 사이트에서 지정된 페이지에서 Adobe로 전송되는 데이터를 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 유효성을 확인할 수 있습니다.
 
-Install the Adobe Experience Cloud [!UICONTROL Debugger]. [!UICONTROL 디버거는] Analytics 클라우드, Adobe Target, Advertising Cloud, ID 서비스, 다이내믹 태그 관리 및 Experience Platform Launch에 대한 태그를 검사합니다.
+## 레거시 디버거 설치
 
->[!IMPORTANT]
->
->Chrome용 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 확장을 사용하는 것이 좋습니다.
+JavaScript 북마클릿을 만들어 디버거를 설치합니다.
 
-이 Debugger를 브라우저에서 실행하면 데이터를 해당 페이지에서 Experience Cloud 솔루션으로 전송한 이미지 요청을 캡처한 변수 값 또는 매개 변수와 함께 표시합니다. 이를 통해 귀하와 개발자가 사이트의 모든 페이지에 대한 구현 유효성을 검사할 수 있습니다.
+### 1단계:북마클릿 코드 복사
 
-[!UICONTROL DigitalPulse Debugger]는 모든 최신 버전의 Mozilla Firefox, Google Chrome, Microsoft Internet Explorer 및 Safari에서 공식적으로 지원됩니다.
+다음 코드를 클립보드에 복사합니다.
 
->[!NOTE]
->
->[!UICONTROL 디버거는] 웹 브라우저의 특수한 책갈피를 액세스할 때 팝업 창을 생성하므로 특정 광고 차단 플러그인과 팝업 차단 기능이 [!UICONTROL 디버거의 로드를 방해할]수 있습니다.
+```JavaScript
+javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
+```
 
-## Chrome에 디버거 설치 {#task_0CEF858083B64F7DB9790567282F7248}
+### 2단계:북마클릿 코드를 책갈피에 붙여넣기
 
-Google Chrome 브라우저에서 Experience Cloud Debugger 확장을 설치합니다.
+각 브라우저에는 책갈피를 처리하는 방법이 다르지만 개념은 동일합니다. 책갈피는 원하는 이름과 북마클릿 코드를 URL로 만듭니다.
 
-1. Navigate to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).
-1. 지침에 따라 확장을 Chrome에 추가합니다.
+#### Chrome
 
-## Install the Debugger in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
+반드시 [크롬 확장을](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)사용하지 않으면 기존 디버거 북마클릿을 대신 사용할 수 있습니다.
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla Firefox.
+1. 오른쪽 상단에 있는 세 개의 점을 클릭한 다음 책갈피 &gt; 책갈피 관리자로 이동합니다. + `Ctrl` + `Shift` + `O` (Windows) `Cmd` 또는 `Shift` + `O` +(Mac)를 누를 수도 있습니다.
+2. 책갈피 관리자의 오른쪽 상단에서 세 개의 점을 클릭한 다음 '새 책갈피 추가'를 클릭합니다.
+3. In the Name field, label it "Adobe Experience Cloud Debugger", and paste the code snippet into the URL field.
+4. Use the bookmark manager to place your new bookmarklet in the desired location.
 
-1. Right-click the bookmarks sidebar, then click **[!UICONTROL New Bookmark]**.
-1. **[!UICONTROL 이름]** 필드에서 **Adobe[!UICONTROL Debugger]** 를 새 책갈피 이름으로 지정합니다.
-1. **[!UICONTROL 위치]** 필드에서 클립보드에 복사한 코드를 붙여 넣습니다.
-1. Select **[!UICONTROL Load the Bookmark in the Sidebar]**, if desired.
-1. **[!UICONTROL 추가를 클릭합니다]**.
+#### Firefox
 
-## Install the Debugger in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
+1. 오른쪽 상단의 세 줄을 클릭한 다음 라이브러리 &gt; 책갈피 &gt; 모든 책갈피 표시로 이동합니다. + `Ctrl` + `Shift` + `B` (Windows) `Cmd` 또는 `Shift` + `B` +(Mac)를 누를 수도 있습니다.
+2. 구성 &gt; 새 책갈피를 클릭합니다.
+3. 이름 필드에서 "Adobe Experience Cloud Debugger"로 레이블을 지정하고 코드 조각을 위치 필드에 붙여 넣습니다. 태그 및 키워드 필드는 필수가 아닙니다.
+4. 라이브러리 창을 사용하여 새 북마클릿을 원하는 위치에 배치합니다.
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Internet explorer.
+#### Edge
 
-1. [!UICONTROL 즐겨찾기 막대에서]즐겨찾기 모음에 **[!UICONTROL 추가]** 아이콘 ![이미지를 클릭합니다](assets/icon_add_to_favorites_bar.png).
+Edge에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 편집할 수 있습니다.
 
-   [!UICONTROL 즐겨찾기 막대]가 숨겨져 있는 경우 브라우저 헤더를 마우스 오른쪽 단추로 클릭한 후 [!UICONTROL 즐겨찾기 막대]를 클릭합니다.
+1. URL 필드 오른쪽에 있는 별 아이콘을 클릭하여 현재 페이지를 책갈피로 지정합니다.
+2. 책갈피 이름을 "Adobe Experience Cloud Debugger"로 지정하고 원하는 위치에 저장합니다.
+3. 선이 있는 별 아이콘을 클릭하여 즐겨찾기 막대를 엽니다.
+4. 새로 만든 책갈피를 마우스 오른쪽 단추로 클릭하고 'URL 편집'을 선택합니다.
+5. Paste the code snippet in the text field, then hit Enter.
 
-   새 책갈피가 생성됩니다.
+#### Safari
 
-1. Right-click the bookmark, then click **[!UICONTROL Rename]**.
-1. **[!UICONTROL 새 이름]** 필드에서 **Adobe[!UICONTROL Debugger]** 를 이름으로 지정한 다음 **[!UICONTROL 확인을 클릭합니다]**.
-1. Right-click the newly created bookmark again, then click **[!UICONTROL Properties]**.
-1. **[!UICONTROL URL]** 필드에서 클립보드에 복사한 코드를 붙여 넣습니다.
-1. **[!UICONTROL 확인을 클릭합니다]**.
+Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+
+1. Click the Share icon in the top right, which opens a bookmark modal window.
+2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
+4. Right click &gt; Edit Address, then paste the code snippet into text field.
+
+## Using the legacy debugger
+
+디버거를 사용하려면 사이트에서 원하는 페이지로 이동한 다음 북마클릿을 클릭합니다. Adobe로 전송된 데이터를 보여주는 팝업 창이 나타납니다.
+
+> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+
+The debugger has several options available, all of which customize how data is displayed. None of these options affect data collection.
+
+* **Displayed Experience Cloud products:** Shows or hides image requests for each respective Experience Cloud product.
+* **** URL 디코드:URL 파섹 이 상자를 선택된 상태로 두는 것이 좋습니다.
+* **** 자동 새로 고침:몇 초마다 자동으로 팝업을 새로 고쳐 페이지에서 더 많은 이미지 요청을 확인합니다. If you need to copy/paste content in the debugger, disable auto-refresh so your selection stays.
+* **** 친숙한 형식:이미지 요청의 유용한 레이블과 원시 쿼리 문자열 간에 표시 형식을 전환합니다. 자세한 [내용은 데이터 수집 쿼리 매개](../js-implementation/data-collection/query-parameters.md) 변수를 참조하십시오.
+
+디버거에 대한 기본 표시 옵션을 저장하려면 오른쪽 위 모서리에 있는 'Adobe Debugger' 링크를 마우스 오른쪽 단추로 클릭한 다음 링크 주소를 복사합니다. 현재 디버거 북마클릿을 편집하고 업데이트된 코드 조각을 URL 필드에 붙여 넣습니다.
