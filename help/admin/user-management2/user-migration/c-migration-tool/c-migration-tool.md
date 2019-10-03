@@ -4,11 +4,8 @@ seo-description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사�
 seo-title: Admin Console로 Analytics 사용자 마이그레이션
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -284,7 +281,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 >[!IMPORTANT]
 >
->마이그레이션 중에 발생할 수 있는 다음 문제를 검토하십시오.
+>Review the following issues that may apply to you during the migration.
 
 <table id="table_88E2FA03D5F241B79AB54D12F64B51DA"> 
  <thead> 
@@ -304,7 +301,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>마지막 액세스(마지막 로그인) </p> </td> 
-   <td colname="col2"> <p> 사용자의 마지막 로그인 날짜 및 시간에 대한 세부 정보는 Admin Console이 아닌 Analytics [사용자 및 자산] 링크에서 사용할 수 있습니다. Analytics의 마지막 로그인 날짜는 사용자가 Experience Cloud 내에서 실제로 Analytics에 액세스한 시점과 Experience Cloud에 로그인한 날짜/시간을 반영하지 않는 시점입니다. </p> </td> 
+   <td colname="col2"> <p> 사용자의 마지막 로그인 날짜 및 시간에 대한 세부 정보는 Admin Console이 아닌 Analytics [사용자 및 자산] 링크에서 사용할 수 있습니다. The last-login date in Analytics is specific to when users actually accessed Analytics from within Experience Cloud and does not reflect the date/time when they logged into the Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 관리 API <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">Adobe 지원 ID 유형</a> </p> </td> 
