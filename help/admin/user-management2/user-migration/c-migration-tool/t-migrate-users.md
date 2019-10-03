@@ -3,12 +3,9 @@ description: 기존의 Analytics 사용자 관리 시스템에서 Admin Console�
 seo-description: 기존의 Analytics 사용자 관리 시스템에서 Admin Console로 사용자를 마이그레이션합니다.
 seo-title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
 title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
-uuid: 734 E 9 F 14-EF 8 D -44 DE -8 FF 3-3 EE 6 DFE 0 A 214
-index: y
-internal: n
-snippet: y
+uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -23,7 +20,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
 >[!NOTE]
 >
->Experience Cloud를 통해 로그인하지 않은 관리자가 사용자 ID 마이그레이션 도구에 액세스하면 Experience Cloud 로그인 페이지로 리디렉션됩니다.
+>Experience Cloud를 통해 로그인하지 않은 관리자가 사용자 ID 마이그레이션 도구에 액세스하려고 하면 Experience Cloud 로그인 페이지로 리디렉션됩니다.
 
 **Analytics 사용자를 마이그레이션하려면**
 
@@ -49,7 +46,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
   </tr> 
   <tr> 
    <td colname="col1"> <p>기존 로그인이 비활성화됨 </p> </td> 
-   <td colname="col2"> <p>회사 ID를 사용하는 기존 로그인이 비활성화되었습니다. 이제 사용자는 Adobe ID 또는 Enterprise ID를 사용하여 Experience Cloud에 액세스합니다. 모든 사용자가 이 단계에 도달했으면 마이그레이션을 완료했습니다. </p> <p>마이그레이션에서 기존 로그인은 비활성화됩니다. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>회사 ID를 사용하는 기존 로그인이 비활성화되었습니다. 이제 사용자는 Adobe ID 또는 Enterprise ID를 사용하여 Experience Cloud에 액세스합니다. 모든 사용자가 이 단계에 도달했으면 마이그레이션을 완료했습니다. </p> <p>마이그레이션 시 기존 로그인이 비활성화됩니다. 사용자는 experiencecloud.adobe.com <span class="filepath"> 으로</span> 리디렉션되며 Adobe ID 또는 Enterprise ID를 사용하여 로그인해야 합니다. </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,9 +75,9 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 </table>
 
 1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
-1. [!DNL Users] 페이지에서 마이그레이션할 사용자를 선택한 다음 **[!UICONTROL 마이그레이션을 클릭합니다]**.
+1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
 
-   **[!UICONTROL [마이그레이션]**] 를 클릭하면 사용자가 초대 (마이그레이션 시작) 를 받고 수락해야 합니다. 이 조치를 통해 사용자 ID를 [마이그레이션 완료됨]으로 이동합니다. 그런 다음 [!DNL my.omniture.com]에 대한 기존 액세스를 중단할 수 있습니다.
+   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. 이 조치를 통해 사용자 ID를 [마이그레이션 완료됨]으로 이동합니다. 그런 다음 [!DNL my.omniture.com]에 대한 기존 액세스를 중단할 수 있습니다.
 
    ![](assets/user-info.png)
 
@@ -88,4 +85,4 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
    After migrating users, the status under the column Migration Status changes from *`Not Initiated`* to *`Migrated`*.
 
-   *`Failed`* 표시되는 경우, 아이콘을 마우스로 가리키면 마이그레이션이 실패한 이유에 대한 설명이 표시됩니다.
+   If *`Failed`* displays, hover over the icon for a description about why the migration failed.
