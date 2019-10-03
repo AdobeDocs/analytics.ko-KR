@@ -1,15 +1,15 @@
 ---
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
-seo-description: 데이터 커넥터에 로그인;타사 애플리케이션의 추적 데이터를 Analytics로 가져오고, 통합을 추가하고, 데이터 커넥터 콘솔을 추가합니다.
-seo-title: Analytics 데이터 커넥터
-title: Analytics 데이터 커넥터 시작하기
+seo-description: Sign in to data connectors; import tracking data from third-party applications into Analytics, add integrations, data connectors console.
+seo-title: Analytics data connectors
+title: Getting Started with Analytics data connectors
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
 
-# 데이터 커넥터 개요
+# Overview of data connectors
 
 Adobe는 디지털 전략 및 마케팅 이니셔티브에 대하여 실용적인 실시간 인텔리전스를 조직에 제공합니다. Data Connectors를 사용하면 타사 애플리케이션의 추적 데이터를 Analytics로 가져와 중앙의 위치에서 데이터를 모으고 사용할 수 있습니다.  파트너 제품 중 하나를 사용할 경우 애플리케이션 데이터를 마케팅 보고에 가져오는 통합을 만들 수 있습니다. 통합되면 사용 중인 애플리케이션의 데이터를 포함하는 보고서를 생성할 수 있습니다.
 
@@ -40,9 +40,9 @@ Data Connectors는 자주 사용되는 브라우저와 적절히 통합되어야
 
 ## 통합 추가
 
-데이터 커넥터 랜딩 페이지(콘솔)에 액세스하려면 현재 [!UICONTROL 계정이] 있어야 합니다. 또한 Adobe Analytics에 익숙한 것이 좋습니다.
+You must have a current account to access the [!UICONTROL Data Connectors] landing page (console). 또한 Adobe Analytics에 익숙한 것이 좋습니다.
 
-1. Adobe Experience Cloud에 로그인합니다.
+1. Log into the Adobe Experience Cloud.
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 1. **[!UICONTROL 새로 추가]**&#x200B;를 클릭합니다.
 1. 통합 추가 **[!UICONTROL 인터페이스를]** 단계별로 진행합니다.
@@ -53,9 +53,9 @@ Data Connectors는 자주 사용되는 브라우저와 적절히 통합되어야
 
 ## Data Connectors 콘솔
 
-통합을 활성화하면 데이터 커넥터 [!UICONTROL 페이지에 표시됩니다] . 콘솔에서 세부 사항을 보고 구성을 변경할 수 있습니다. 회사의 모든 보고서 세트 간에 활성 통합을 볼 수 있습니다. 또한 활동 로그를 보고 통합을 대시보드로 설정하고 통합을 구성하고 도움말을 찾을 수 있습니다.
+통합을 활성화하면 데이터 커넥터 [!UICONTROL 페이지에 표시됩니다] . You can view details and make configuration changes on the console. 회사의 모든 보고서 세트 간에 활성 통합을 볼 수 있습니다. 또한 활동 로그를 보고 통합을 대시보드로 설정하고 통합을 구성하고 도움말을 찾을 수 있습니다.
 
-![데이터 커넥터 콘솔](assets/data-connectors-console.png)
+![Data Connectors console](assets/data-connectors-console.png)
 
 ## 데이터 커넥터의 재마케팅 세그먼트
 
@@ -102,9 +102,8 @@ s.events="purchase";
 
 | 문제 | 설명 |
 | -----------| ---------- |  
-| 제품 ID 정보가 리마케팅 세그먼트 파일에 표시되지 않습니다. | 올바른 이벤트가 실행되지만 동일한 이미지 요청에 제품 변수가 없을 때 발생합니다. 이 문제를 수정하려면 위의 구현 예제에서처럼 제품 변수와 해당 이벤트가 같은 페이지에서 실행되었는지 확인합니다. |
+| 제품 ID 정보가 리마케팅 세그먼트 파일에 표시되지 않습니다. | Occurs when the correct event fires, but no product variable is present on the same image request. 이 문제를 수정하려면 위의 구현 예제에서처럼 제품 변수와 해당 이벤트가 같은 페이지에서 실행되었는지 확인합니다. |
 | 리마케팅 세그먼트 파일을 받지 않았습니다. | 파일을 받지 않은 경우 조직의 지원 사용자 중 한 명에게 ClientCare에 연락하여 보고서를 제대로 받지 못한 이유를 조사하도록 합니다. |
 
-> [!IMPORTANT]
->
-> 컨설턴트는 표준 데이터 커넥터 통합 리마케팅 세그먼트 파일 외에 일일 예약 보고서로 데이터 웨어하우스 요청을 설정하는 것이 일반적입니다. 이 데이터 웨어하우스 요청에 Data Connectors 변수뿐만 아니라 Data Connectors 이외 변수가 포함되며, 조직의 특별한 요청이 있을 때만 이 요청을 예약할 수 있습니다. 문제 해결 시 혼동하지 않도록 문제가 있는 파일이 실제 리마케팅 세그먼트 파일인지 아니면 Genesis 이외의 변수가 포함된 데이터 웨어하우스 요청인지 지정합니다.
+
+> [!IMPORTANT] It is common for consultants to also set up a data warehouse request as a daily scheduled report in addition to your standard data connectors integration remarketing segment file. 이 데이터 웨어하우스 요청에 Data Connectors 변수뿐만 아니라 Data Connectors 이외 변수가 포함되며, 조직의 특별한 요청이 있을 때만 이 요청을 예약할 수 있습니다. 문제 해결 시 혼동하지 않도록 문제가 있는 파일이 실제 리마케팅 세그먼트 파일인지 아니면 Genesis 이외의 변수가 포함된 데이터 웨어하우스 요청인지 지정합니다.
