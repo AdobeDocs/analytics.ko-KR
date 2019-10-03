@@ -6,7 +6,7 @@ solution: Analytics
 title: 통합 확인
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -16,7 +16,6 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 배포 후 다음 검사를 통해 통합이 성공적으로 데이터를 전송하는지 확인해야 합니다.
 
 1. 통합 작업 로그를 봅니다.
-
    1. Adobe Experience Cloud에서 지원 &gt; **[!UICONTROL 통합]** 활동 **[!UICONTROL 로그로 이동합니다]**.
 
       ![](assets/integration_activity_log.png)
