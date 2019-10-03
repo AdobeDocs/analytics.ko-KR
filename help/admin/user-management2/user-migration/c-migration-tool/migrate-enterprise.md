@@ -3,12 +3,9 @@ description: Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는
 seo-description: Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
 seo-title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
-uuid: F 90 BF 78 A -5603-4 BEF-B 714-13215301187 C
-index: y
-internal: n
-snippet: y
+uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -35,9 +32,9 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
 이 절차에서는 다음을 수행합니다.
 
-* **[!UICONTROL Analytics]** &gt; **[!UICONTROL Analytics 사용자 및 자산에서 사용자 로그인 목록을 다운로드합니다]**.
+* Download a user login list from **[!UICONTROL Analytics]** &gt; **[!UICONTROL Analytics Users &amp; Assets]**.
 
-* **[!UICONTROL 관리 콘솔]** &gt; **[!UICONTROL 사용자로부터 현재 사용자 목록을 다운로드합니다]**.
+* Download a current users list from the **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Users]**.
 
 * 목록을 비교합니다(Admin Console에서 계정 데이터를 겹쳐 쓰지 않도록 중복되는 항목 검색).
 * Upload a finished [!DNL .csv] (from **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Users]**) with Enterprise ID or Federated ID users to the Admin Console.
@@ -47,23 +44,23 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 **사용자 계정을 마이그레이션하는 방법**
 
 1. 다음 방법 중 하나를 사용하여 Analytics 사용자 관리에서 Analytics 사용자 로그인 파일([!DNL User Logins List.tab])을 다운로드합니다(이미 마이그레이션한 사용자인지 여부에 따라 다름).
-   1. *마이그레이션 전에* **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리 (기존)]** &gt; 사용자 ****&#x200B;편집을 탐색한 다음 보고서 **[!UICONTROL 다운로드를 클릭합니다]**.
+   1. *마이그레이션 전에 관리 &gt; 사용자 관리* ( **[!UICONTROL 기존)]** **[!UICONTROL &gt;]** 사용자 **[!UICONTROL 편집]**&#x200B;페이지로 이동한 다음 ****&#x200B;다운로드 보고서 다운로드를 클릭합니다.
 
       ![](assets/download-report.png)
 
       [보고서 다운로드] 링크는 사용자를 마이그레이션하지 않은 고객에게만 표시됩니다.
 
-   1. *이미 사용자를 마이그레이션한* 경우 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Analytics 사용자 및 자산으로 이동합니다]**.
+   1. *If you already migrated users, navigate to Analytics &gt; Analytics users and Assets.*********
 
       ![단계 정보](assets/admin-analytics-users-assets.png)
 
-   1. [!DNL Users] 페이지에서 사용자를 선택한 다음 CSV로 **[!UICONTROL 내보내기를 클릭합니다]**.
+   1. On the [!DNL Users] page, select users, then click **[!UICONTROL Export to CSV]**.
 
       ![단계 정보](assets/export-csv-migrate.png)
 
    1. Open the downloaded [!DNL User List.csv] file in Excel.
 
-      *`Email`*&#x200B;파일에, *`First Name`*&#x200B;및 *`Last Name`* 값을 복사할 준비가 되었습니다 [!DNL sample.csv] (다음 단계에서 설명됨).
+      다음 단계에 설명된 *`Email`*&#x200B;파일에 *`First Name`*, *`Last Name`* 및 [!DNL sample.csv] 값을 복사할 수 있도록 준비하십시오.
 
       >[!IMPORTANT]
       >
@@ -73,7 +70,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
 1. [Admin Console]에서 Admin Console 사용자 목록을 다운로드합니다. 
 
-   1. [관리 콘솔](http://adminconsole.adobe.html/#) &gt; **[!UICONTROL 사용자로]**&#x200B;이동한 다음 CSV로 사용자 목록 [내보내기를](https://helpx.adobe.com/enterprise/using/users.html)클릭합니다.
+   1. Navigate to [Admin Console](http://adminconsole.adobe.html/#) &gt; **[!UICONTROL Users]**, then click [Export users list to CSV](https://helpx.adobe.com/enterprise/using/users.html).
 
       ![](assets/export-csv.png)
 
@@ -88,13 +85,13 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
       ![단계 정보](assets/add-users-csv.png)
 
-   1. **[!UICONTROL 표준 템플릿을]**&#x200B;선택합니다.
+   1. Choose **[!UICONTROL Standard Template]**.
 
       이 단계에서는 [!DNL sample.csv] 템플릿 파일을 다운로드합니다.
 
       ![](assets/download-csv-template.png)
 
-1. *`Email`*, *`First Name`*&#x200B;및 *`Last Name`* 열 값을 [!DNL User Logins List.tab][!DNL sample.csv] 템플릿의 해당 열에 복사합니다.
+1. 템플릿에서 *`Email`*, *`First Name`*&#x200B;및 *`Last Name`* 열 값을 [!DNL User Logins List.tab] 해당 열로 [!DNL sample.csv] 복사합니다.
 
    **템플릿 파일 예제**
 
@@ -128,7 +125,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>도메인의 <span class="term"> 도메인과</span> <span class="term"> 이메일</span> 열이 <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"> 사전 요구 사항에 설정된 도메인과 일치합니다</a>. </p> </td> 
+   <td colname="col2"> <p>Ensure that domains in  Domain and  Email column are matching the domain(s) established in the  prerequisites.<span class="term"></span><span class="term"></span><a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"></a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 
@@ -141,15 +138,15 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 
 >[!NOTE]
 >
->Other columns, such as *`Product Configurations`* and *`Admin Roles`* can be blank.
+>기타 열(예: *`Product Configurations`* 및 *`Admin Roles`* 비어 있을 수 있음)
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. In Analytics, run the migration tool (as described in [Migrate Analytics user accounts](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)).
-1. **[!UICONTROL 마이그레이션]** &gt; **[!UICONTROL Enterprise ID로 마이그레이션을 클릭합니다]**.
+1. Analytics에서 마이그레이션 도구를 실행합니다(Analytics 사용자 계정 [마이그레이션](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)참조).
+1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
-   ![단계 정보](assets/migrate-as-enterprise.png)
+   ![Step Info](assets/migrate-as-enterprise.png)
 
-   **[!UICONTROL 마이그레이션을]**&#x200B;클릭하면 사용자가 관리 콘솔에서 Enterprise ID/Federated ID 계정에 연결됩니다. The permissions of the legacy user account in Analytics will match the permissions granted to the Enterprise/Federated ID login in **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Product Profiles]**. 사용자 ID가 [마이그레이션 완료] 버킷에 표시됩니다. 기존 [!DNL my.omniture.com] 액세스를 비활성화할 수 있습니다.
+   When you click **[!UICONTROL Migrate]**, user are linked to the Enterprise ID/Federated ID account in Admin Console. The permissions of the legacy user account in Analytics will match the permissions granted to the Enterprise/Federated ID login in **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Product Profiles]**. 사용자 ID가 [마이그레이션 완료] 버킷에 표시됩니다. 기존 [!DNL my.omniture.com] 액세스를 비활성화할 수 있습니다.
 
    After migrating users, the status under the Migration Status column changes from *`Not Initiated`* to *`Migrated`*.
 
