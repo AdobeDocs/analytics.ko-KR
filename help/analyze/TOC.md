@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 분석 안내서
 user-guide-url: /content/help/ko-KR/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
 
 ---
 
@@ -261,7 +261,6 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
    + [Activity Map 설정 구성](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 사용자 인터페이스](activity-map/activitymap-user-interface.md)
    + [Analytics에서의 Activity Map 보고](activity-map/activitymap-reporting-analytics.md)
-   + [AEM Sites 및 Activity Map 통합](activity-map/aem-sites-integration.md)
    + [브라우저 확장 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [기술 자료 리소스](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
