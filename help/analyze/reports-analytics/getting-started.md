@@ -1,23 +1,23 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 seo-description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
-seo-title: 보고 및 분석 시작하기
+seo-title: Reports and Analytics 시작하기
 solution: Analytics
 subtopic: 시작하기
-title: 보고 및 분석 시작하기
-topic: Reports & Analytics
-uuid: EA 76 EC 40-6025-4 EE 5-8 F 75-855 B 5 B 823737
+title: Reports and Analytics 시작하기
+topic: Reports and Analytics
+uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
 
 ---
 
 
 # 보고 및 분석 시작하기
 
-Reports &amp; Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
+보고 및 분석을 사용하기 전에 이러한 기본 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해해야 합니다.
 
-## Getting started with Reports and Analytics {#concept_8C531D94965743BFBED7A87FE5473FF0}
+## 보고 및 분석 시작하기
 
 Reports &amp; Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 
@@ -33,15 +33,9 @@ Reports &amp; Analytics을 사용하려면 먼저 이러한 기본적인 로그�
 * 비디오 보는 데 걸린 시간
 * 방문자가 사이트를 방문하는 데 사용한 브라우저 및 장치
 
-## Browser and system requirements {#concept_7E987A1E578940B1859D89CA14FAFF34}
+## 브라우저 및 시스템 요구 사항
 
 Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 및 시스템 요구 사항.
-
-<!-- 
-
-requirements.xml
-
- -->
 
 * 브라우저:
 
@@ -55,23 +49,17 @@ requirements.xml
 * 쿠키와 JavaScript가 활성화되어 있어야 합니다.
 * 16비트 색상 깊이(이상)의 1024x768 모니터 해상도
 
-## Log in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
+## 보고 및 분석에 로그인
 
 인터페이스에 액세스하려면, 먼저 계정 관리자나 고객 지원 센터와 함께 회사의 계정을 설정해야 합니다.
 
-## Log in using the Experience Cloud {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
+## Experience Cloud를 사용하여 로그인
 
 Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계입니다.
 
-<!-- 
-
-t_login_sso.xml
-
- -->
-
 1. 인터넷에 액세스할 수 있는 컴퓨터에서 브라우저를 시작합니다.
-1. [!DNL https://login.experiencecloud.adobe.com/]이동.
-1. [!UICONTROL 로그인] 페이지에서 **[!UICONTROL 단일 사인온을 클릭합니다]**.
+1. Go to [!DNL https://login.experiencecloud.adobe.com/].
+1. On the [!UICONTROL Sign In] page, click **[!UICONTROL Single Sign-On]**.
 1. Complete the following information, then click **[!UICONTROL Sign In]**.
 
    **[!UICONTROL 회사]**: 회사 ID를 지정합니다.
@@ -79,43 +67,31 @@ t_login_sso.xml
    **[!UICONTROL 사용자 이름]**: 계정 ID를 지정합니다.
 
    **[!UICONTROL 암호]**: 계정 암호를 지정합니다.
-1. From the Experience Cloud home page, go to **Analytics &gt; Reports**.
+1. Experience Cloud 홈 페이지에서 Analytics &gt; **보고서로 이동합니다**.
 
    Experience Cloud는 활동하지 않는 시간이 30분이 지나면 자동으로 로그아웃됩니다.
 
-## 보고서를 실행합니다 {#task_C6772791AFD642CFB9C51ADB9E5932A5}
+## 보고서 실행
 
 보고서를 생성하는 방법을 설명하는 단계입니다.
 
-<!-- 
+1. Log in to [!UICONTROL Reports &amp; Analytics].
 
-t_running_report.xml
+   보고서 메뉴가 표시되거나 [대시보드가](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) 표시됩니다.
 
- -->
-
-1. [!UICONTROL 보고 및 분석에 로그인합니다].
-
-   The Reports menu displays, or a [dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up.
-
-1. **[!UICONTROL 사이트 컨텐츠]** &gt; **[!UICONTROL 페이지를]** 클릭합니다 (예).
+1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
    See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
 
-## 사용자 계정 설정 편집{#concept_7FAF5B923B984426B7F64E026EA2DCAA}을 참조하십시오 
+## 사용자 계정 설정 편집
 
 사용자 계정 편집, 사용자 암호 재설정 및 연락처 정보 편집에 대한 정보입니다.
 
-<!-- 
-
-t_acct_info.xml
-
- -->
-
 연락처 정보를 보고 편집하고, 암호를 지정하고, 웹 서비스 정보를 볼 수 있습니다. 또한 이 컴퓨터를 데이터 수집에서 제외할 수 있습니다.
 
-Click the Account icon  ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
 모든 사용자는 [!UICONTROL 계정 정보] 페이지에 대한 액세스 권한을 가지고 있습니다. 다음 정보는 보거나 편집할 수 있습니다.
 
@@ -153,27 +129,11 @@ Click the Account icon  ![](assets/account.png)at the top right, then click the 
  </tbody> 
 </table>
 
-## 인터페이스 언어 변경 {#task_E20F9C7713C444998C883CFF93DC848A}
+## 인터페이스 언어 변경
 
 인터페이스 언어를 변경하는 방법을 설명하는 단계입니다. 선택한 언어로 Reports &amp; Analytics 인터페이스를 볼 수 있습니다.
 
-<!-- 
+1. Analytics에 로그인하고 보고서 **[!UICONTROL 탭을 선택합니다]** .
+1. 페이지 바닥글의 언어 메뉴에서 활성 **[!UICONTROL 언어를]** 클릭한 다음 원하는 언어를 선택합니다.
 
-t_changing_language.xml
-
- -->
-
-1. 로그인합니다.
-1.  **보기 프로그램** 메뉴를 클릭한 후 다음 언어 중 하나를 클릭합니다.  
-
-* 영어
-* 프랑스어
-* 중국어 번체
-* 중국어 간체
-* 독일어
-* 일본어
-* 한국어
-* 스페인어
-* 포르투갈어
-
-   최신 문서는 일반적으로 영어로 제공됩니다. Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
+Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
