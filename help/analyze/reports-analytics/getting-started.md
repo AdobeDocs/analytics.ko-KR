@@ -8,7 +8,7 @@ title: Reports and Analytics 시작하기
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
+source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
 
 ---
 
@@ -51,7 +51,7 @@ Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 �
 
 ## 보고 및 분석에 로그인
 
-인터페이스에 액세스하려면, 먼저 계정 관리자나 고객 지원 센터와 함께 회사의 계정을 설정해야 합니다.
+인터페이스에 액세스하려면 먼저 계정 관리자 또는 Adobe 고객 지원 센터에 문의하여 회사 계정을 설정하십시오.
 
 ## Experience Cloud를 사용하여 로그인
 
