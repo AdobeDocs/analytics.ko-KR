@@ -1,26 +1,26 @@
 ---
 description: 이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors(이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
 seo-description: 이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors(이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
-seo-title: GDPR 및 Data Connectors(Genesis)
-title: GDPR 및 Data Connectors(Genesis)
-uuid: D 3 A 32 C 09-D 3 C 5-452 C -8302-8 DA 28 E 62 EAD 3
+seo-title: 데이터 개인 정보 및 데이터 커넥터(Genesis)
+title: 데이터 개인 정보 및 데이터 커넥터(Genesis)
+uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# GDPR 및 Data Connectors(Genesis)
+# 데이터 개인 정보 및 데이터 커넥터(Genesis)
 
 이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors(이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
 
-이 정보를 사용하면 GDPR 요청을 받을 때 커넥터를 통해 가져온 직접 또는 간접적으로 식별 가능한 데이터를 식별할 수 있습니다.
+이 정보를 사용하면 데이터 개인 정보 보호 요청을 받을 때 커넥터를 통해 가져온 직접 식별 가능한 데이터 또는 간접적으로 식별 가능한 데이터를 식별할 수 있습니다.
 
 아래의 커넥터 통합을 사용하는 경우, 통합에서 직접 또는 간접적으로 식별 가능한 데이터를 포함할 수 있는 파트너 변수/분류를 간단히 확인할 수 있습니다.
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [GDPR readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>이 정보는 [레이블이](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731)지정되어야 하는 변수를 식별하는 데 도움이 되지만, 적절한 레이블을 적용하거나 데이터 개인 정보 보호 준비 [(분류 업데이트 등)에 대해 다른 작업을 수행하는 것은 데이터](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) 관리자로서 귀하의 책임입니다.
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Alset</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>CheetahMail</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -150,12 +150,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -184,17 +184,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ThinData EMS</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>WhatCounts 이메일</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Yesmail Enterprise</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>방문자 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
