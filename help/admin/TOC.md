@@ -3,8 +3,8 @@ product: Analytics
 audience: 관리
 user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/ko-KR/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
+translation-type: tm+mt
+source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
 
 ---
 
@@ -49,6 +49,7 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [게시 위젯](admin/publishing-widgets-admin.md)
    + [기본 설정 관리자](admin/preferences-manager.md)
    + [개인 정보 설정](admin/privacy-settings.md)
+   + [개인 정보 설정](admin/privacy-reporting.md)
    + 처리 규칙 {#processing-rules}
       + [처리 규칙 개요](admin/c-processing-rules/processing-rules.md)
       + 처리 규칙 구성 {#processing-rules-configuration}
@@ -160,18 +161,20 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [이메일 사용자](user-management2/t-email-users.md)
 + 데이터 거버넌스 {#data-governance}
    + [Adobe Analytics 및 GDPR](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics 및 CPA](c-data-governance/an-ccpa-overview.md)
    + [FAQ](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics GDPR 워크플로우](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics 데이터 개인 정보 보호 워크플로우](c-data-governance/an-gdpr-workflow.md)
    + [보고서 세트의 데이터 거버넌스 설정 보기/관리](c-data-governance/gdpr-view-settings.md)
    + [보고서 세트 데이터에 레이블 지정](c-data-governance/gdpr-setup-reportsuite.md)
    + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics 변수의 GDPR 레이블](c-data-governance/gdpr-labels.md)
+   + [Analytics 변수에 대한 데이터 개인 정보 레이블](c-data-governance/gdpr-labels.md)
    + [네임스페이스](c-data-governance/gdpr-namespaces.md)
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [레이블 지정 우수 사례](c-data-governance/gdpr-analytics-ids.md)
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
-   + [GDPR 및 Data Connectors(Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [GDPR 용어](c-data-governance/gdpr-terminology.md)
+   + [데이터 개인 정보 및 데이터 커넥터(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [데이터 개인 정보 용어](c-data-governance/gdpr-terminology.md)
+   + [동의 관리 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
    + [서버 호출 사용량 개요](c-server-call-usage/overage-overview.md)
    + [현재 서버 호출 사용량 보기](c-server-call-usage/server-call-usage-dashboard.md)
