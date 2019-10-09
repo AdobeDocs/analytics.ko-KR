@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/ko-KR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
       + [모바일 프로토콜에서의 사용자 지정 링크 측정](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + Analytics 구현 및 보고용 변수 {#variables-analytics-reporting}
       + [변수 개요](js-implementation/c-variables/sc-variables.md)
-      + [Configuration variables list](js-implementation/c-variables/configuration-variables.md)
+      + [구성 변수 목록](js-implementation/c-variables/configuration-variables.md)
       + 구성 변수 {#config-var}
          + [s.account](js-implementation/c-variables/config-vars/s-account.md)
          + [s.dynamicAccountSelection](js-implementation/c-variables/config-vars/s-dynaccsel.md)
@@ -140,6 +140,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
          + [s.linkLeaveQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
          + [s.linkTrackVars](js-implementation/c-variables/config-vars/s-linktrackvars.md)
          + [s.linkExternalFilters](js-implementation/c-variables/config-vars/s-linkextfilters.md)
+         + [s.useBeacon](js-implementation/c-variables/config-vars/s-usebeacon.md)
          + [s.usePlugins](js-implementation/c-variables/config-vars/s-useplugins.md)
       + [컨텍스트 데이터 변수](js-implementation/c-variables/context-data-variables.md)
       + [다이내믹 변수](js-implementation/c-variables/dynvars-overview.md)
