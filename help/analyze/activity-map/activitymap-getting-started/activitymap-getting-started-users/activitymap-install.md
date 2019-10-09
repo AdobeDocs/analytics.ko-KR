@@ -7,7 +7,7 @@ title: Activity Map 브라우저 플러그인 설치
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: eabc2e89336b2417d727aa59ba4c9c882c9599d1
+source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
 
 ---
 
@@ -50,7 +50,7 @@ Activity Map 브라우저 플러그인은
 1. Click the **[!UICONTROL Open Menu]** icon at the top right and select **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. Activity Map이 Firefox 추가 기능 중 하나로 나열되어 있어야 합니다.
-1. 도구 모음에 Adobe Analytics 아이콘 ![이 추가된 것이 표이면 다운로드가 제대로 된 것입니다. ](assets/an_icon.png) 이제 페이지에서 Activity Map [(launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)을]시작할 수 있습니다.
+1. 도구 모음에 Adobe Analytics 아이콘 ![이 추가된 것이 표이면 다운로드가 제대로 된 것입니다. ](assets/an_icon.png) 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
 
 ## Install Activity Map plug-in on Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
@@ -61,7 +61,7 @@ Activity Map 브라우저 플러그인은
 1. **[!UICONTROL 실행]을 클릭하여 Activity Map 설치를 시작합니다.**
 1. 팝업에 있는 **[!UICONTROL 예]를 클릭하여 프로그램이 컴퓨터에 변경 작업을 수행하도록 합니다.**
 1. 설치 마법사의 지침을 따릅니다.
-1. Activity Map이 제대로 설치되면, Internet Explorer에 Activity Map 도구 모음을 사용할 준비가 되었다는 알림이 표시됩니다. 활성화해서 애플리케이션 사용을 시작하십시오. 이제 페이지에서 Activity Map [(launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)을]시작할 수 있습니다.
+1. Activity Map이 제대로 설치되면, Internet Explorer에 Activity Map 도구 모음을 사용할 준비가 되었다는 알림이 표시됩니다. 활성화해서 애플리케이션 사용을 시작하십시오. 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
 
 ## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
 
@@ -69,4 +69,4 @@ Activity Map 브라우저 플러그인은
 
 1. 로 <https://safari-extensions.apple.com/>이동합니다.
 1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. 이제 페이지에서 Activity Map [(launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)을]시작할 수 있습니다.
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
