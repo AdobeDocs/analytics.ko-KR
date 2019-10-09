@@ -1,47 +1,47 @@
 ---
 description: 서버 측 전달은 Analytics의 데이터를 다른 Experience Cloud 솔루션에 실시간으로 공유하려는 고객을 위해 설계되었습니다. 이 기능이 활성화되어 있을 때 서버 측 전달을 사용하면 Analytics에서 데이터를 다른 Experience Cloud 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션으로 데이터를 Analytics에 푸시할 수 있습니다.
 seo-description: 서버 측 전달은 Analytics의 데이터를 다른 Experience Cloud 솔루션에 실시간으로 공유하려는 고객을 위해 설계되었습니다. 이 기능이 활성화되어 있을 때 서버 측 전달을 사용하면 Analytics에서 데이터를 다른 Experience Cloud 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션으로 데이터를 Analytics에 푸시할 수 있습니다.
-seo-title: 서버측 포워딩 개요
+seo-title: 서버 측 전달 개요
 solution: Audience Manager
-title: 서버측 포워딩 개요
-uuid: 22 ddbde 5-6805-4 eba -8 f 82-62772644 dcaa
+title: 서버 측 전달 개요
+uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 ---
 
 
-# 서버측 포워딩 개요
+# 서버 측 전달 개요
 
 서버 측 전달은 Analytics의 데이터를 다른 Experience Cloud 솔루션에 실시간으로 공유하려는 고객을 위해 설계되었습니다. 이 기능이 활성화되어 있을 때 서버 측 전달을 사용하면 Analytics에서 데이터를 다른 Experience Cloud 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션으로 데이터를 Analytics에 푸시할 수 있습니다.
 
 다음과 같은 이유로 데이터 수집 시 서버 측 전달이 향상됩니다.
 
-* 페이지 호출이 줄어듭니다. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. 호출이 줄어들면 페이지 로딩 시간이 단축되므로 고객은 사이트에서 더 나은 경험을 하게 됩니다.
+* 페이지 호출이 줄어듭니다. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. DIL을 제거하면 `"/event"` 호출이 제거됩니다. 호출이 줄어들면 페이지 로딩 시간이 단축되므로 고객은 사이트에서 더 나은 경험을 하게 됩니다.
 * Experience Cloud 솔루션 간 데이터 공유를 활용할 수 있습니다.
 * Audience Manager 코드 구현 및 배포에 대한 우수 사례를 준수합니다.
 
 >[!TIP]
 >
->Analytics를 사용하는 현 Audience Manager 고객은 서버측 전달으로 마이그레이션해야 합니다. 새로운 Adobe Analytics 및 Audience Manager 고객은 기본 데이터 수집 및 전송 방법으로서 서버 측 전달(DIL 대신)을 구현해야 합니다.
+>Analytics를 사용하는 현재 Audience Manager 고객은 서버측 전달로 마이그레이션해야 합니다. 새로운 Adobe Analytics 및 Audience Manager 고객은 기본 데이터 수집 및 전송 방법으로서 서버 측 전달(DIL 대신)을 구현해야 합니다.
 
 >[!IMPORTANT]
 >EU 쿠키 준수 규정에서 메시지가 표시되면 데이터 컨트롤러(Analytics 고객)에게는 사전 동의한 데이터를 Adobe Analytics로 제한하여 서버 측에서 AAM(Adobe Audience Manager)으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 AAM에 전송되지 않습니다. 자세한 내용은 GDPR_ePrivacy 준수 및 서버 측 전달을 참조하십시오.
 
 서버 측 전달을 구현하는 측면에서 조직의 위치를 이해하려면 다음 유효성 검사 절차를 수행하십시오.
 
-## ![step 1_ icon. png 이미지](assets/step1_icon.png) 확인 MID 서비스 구현
+## ![step1_icon.png 이미지](assets/step1_icon.png) MID 서비스 구현 확인
 
 [Analytics 추적 요청](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)을 검사하여 Experience Cloud ID(MID) 서비스가 구현되었는지 확인합니다.
 
-요청 탭에서 MID 값이 설정되어 있는지 확인하십시오. 이는 ID 서비스가 올바르게 구현되었음을 알려 줍니다. 이는 서버 측 전달을 위한 전제 조건입니다.
+요청 탭에서 MID 값이 설정되어 있는지 확인하십시오. 이는 서버 측 전달에 사전 요구 사항인 ID 서비스가 올바르게 구현되었음을 의미합니다.
 
 * MID 값이 표시되면 2단계로 진행합니다.
 * If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
-## ![step 2_ icon. png 이미지](assets/step2_icon.png) 확인 서버측 전달 구현 버전
+## ![step2_icon.png 이미지](assets/step2_icon.png) 서버 측 전달 구현 버전 확인
 
-Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](../../../admin/admin/c-server-side-forwarding/ssf-verify.md).
+Analytics 추적 요청을 [검사하여 이미 구현된 서버측 전달의 버전이 있는지 확인합니다](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
 
 '응답' 탭에서 응답에 Audience Manager 데이터가 있는지 확인하십시오. 만약
 
@@ -56,13 +56,13 @@ Verify whether you already have a version of server-side forwarding implemented,
    * **새 AAM 고객** - [고객 관리 모듈](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) 페이지 코드를 설치하고 3단계로 진행합니다. 3단계에서 서버 측 전달 기능이 켜지기 전까지는 데이터가 Audience Manager에게 전송되지 않습니다.
 
 
-## ![step 3_ icon. png 이미지](assets/step3_icon.png) 확인 서버측 전달 구현 보고서 세트
+## ![step3_icon.png 이미지](assets/step3_icon.png) 보고서 세트의 서버측 전달 구현 확인
 
 이전 추적 서버 접근 방식이 아니라, 보고서 세트 수준에서 서버 측 전달을 구현했는지 확인하십시오.
 
 Analytics에서 어떤 데이터가 공유되는지를 더 세부적으로 제어할 수 있으므로 이전 추적 서버 접근 방식보다 보고서 세트 수준의 서버 측 전달이 권장됩니다. 이것은 이 Audience Analytics 통합을 위한 선행 조건이기도 합니다.
 
-**Analytics** &gt; **관리** &gt; **보고서 세트** &gt; (보고서 세트 선택 ****) &gt; 설정 **편집** &gt; **일반** &gt; **서버 측 전달을 선택합니다**. 확인란이
+Go to **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (select **report suites**) &gt; **Edit Settings** &gt; **General** &gt; **Server Side Forwarding**. 확인란이
 
 * **비활성** 상태(선택을 할 수 없거나 메뉴가 존재하지 않음)라면, IMS 조직에 매핑된 선택된 보고서 세트가 없습니다. 해당 보고서 세트가 [보고서 세트 매핑 UI](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)를 사용하여 적절한 IMS 조직에 매핑되었는지 확인하십시오.
 * **비활성화됨** 상태라면, 새 서버 측 전달이 설정되어 있지 않았습니다. 페이지의 컨텐츠를 읽은 다음, 기능을 활성화하십시오.
