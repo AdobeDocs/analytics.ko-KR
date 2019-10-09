@@ -1,0 +1,83 @@
+---
+description: 데이터 개인정보 보호에서 동의 관리를 위한 변수.
+seo-description: 데이터 개인정보 보호에서 동의 관리를 위한 변수.
+seo-title: 동의 관리 변수
+solution: Analytics
+title: 동의 관리 변수
+topic: 관리 도구
+translation-type: tm+mt
+source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
+
+---
+
+
+# 동의 관리 변수
+
+개인 정보 데이터 관리에 대한 추가 지원을 제공하기 위해 특정 컨텍스트 데이터 변수와 함께 예약된 변수 세트를 사용할 수 있습니다.
+이러한 동의 관리 변수는 각 분석 히트에서 동의 상태를 캡처하는 프레임워크를 사용하기 쉽게 제공합니다.
+
+## 변수
+
+* 동의 관리 옵트아웃
+   * 예약된 변수:목록 Prop
+   * 유형:쉼표로 구분된 문자열
+   * 다음 포함:
+      * `contextData.['cm.ssf']=1` ssf로 표시
+      * `contextData.['opt.dmp']=N` dmp로 표시
+      * `contextData.['opt.sell']=N` sell로 표시
+
+* 동의 관리 옵트인
+   * 예약된 변수:목록 Prop
+   * 유형:쉼표로 구분된 문자열
+   * 다음 포함:
+      * `contextData.['opt.dmp']=Y` dmp로 표시
+      * `contextData.['opt.sell']=Y` sell로 표시
+
+## 보고
+
+동의 관리 변수는 Analytics 관리 콘솔에서 사용할 수 있는 새 개인 정보 설정을 통해 활성화할 수 있습니다.
+
+각 보고서 세트를 다음과 같이 구성할 수 있습니다.
+1. 보고 및 분석에서 관리 &gt; 보고서 세트를 클릭합니다.
+1. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings &gt; Privacy Management]
+
+   ![](assets/rsm-privacy-select.png)
+
+1. 데이터 개인 [!UICONTROL 정보 보고서 활성화] 단추를 클릭합니다.  참고: 이러한 변수를 활성화하면 해제할 수 없습니다.
+
+   ![](assets/rsm-privacy-enable.png)
+
+1. 활성화되면 확인 메시지가 표시됩니다.
+
+   ![](assets/rsm-privacy-config.png)
+
+1. 이제 예약된 변수를 보고에 사용할 수 있습니다.  동의 관리 옵트아웃 및 동의 관리 옵트인을 참조하십시오.
+
+   ![](assets/rsm-privacy-reports.png)
+
+## 구현
+
+동의 관리 예약 변수와 함께 작동하도록 3개의 컨텍스트 데이터 변수가 미리 정의되어 있습니다.  이러한 변수의 설정을 관리하고 유지하는 방법은 각 구현 엔지니어에게 달려 있습니다.
+
+컨텍스트 [데이터](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) 변수 구현에 대한 일반적인 지침은 컨텍스트 데이터 변수를 참조하십시오.
+
+### SSF
+
+* 컨텍스트 데이터: `contextData.['cm.ssf']`
+* 허용된 값:
+   * `1` - 값을 전송할 `1`때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 `1` 쌍을 이루는 값이 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. AAM [ePrivacy 규정 준수를 참조하십시오.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 이 매개 변수에 대해 다른 값이 허용되지 않습니다.
+
+### DMP
+
+* 컨텍스트 데이터: `contextData.['opt.dmp']`
+* 허용된 값:
+   * `N` - 값을 전송할 `N`때, 이는 소비자가 데이터 관리 플랫폼에 대한 공유를 거부함을 나타냅니다. AAM에 대한 현재 블록 공유는 아닙니다.  SSF를 사용하여 해당 기능을 수행할 수 있습니다.
+   * `Y` - 값을 전송할 `Y`때, 이는 소비자가 데이터 관리 플랫폼에 대한 공유를 선택하고 있음을 나타냅니다.
+
+### 판매
+
+* 컨텍스트 데이터: `contextData.['opt.sell']`
+* 허용된 값:
+   * `N` - 값을 전송할 `N`때, 이는 소비자가 데이터를 제3자에게 공유 또는 판매하는 것을 거절함을 의미합니다.
+   * `Y` - 값을 전송할 `Y`때, 이는 소비자가 제3자에게 데이터의 공유 또는 판매를 선택함을 의미합니다.
