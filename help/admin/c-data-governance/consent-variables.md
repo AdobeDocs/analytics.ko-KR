@@ -6,7 +6,7 @@ solution: Analytics
 title: 동의 관리 변수
 topic: 관리 도구
 translation-type: tm+mt
-source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
+source-git-commit: a272be92292f3a12be19a5d6fd061b32a565448c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 # 동의 관리 변수
 
 개인 정보 데이터 관리에 대한 추가 지원을 제공하기 위해 특정 컨텍스트 데이터 변수와 함께 예약된 변수 세트를 사용할 수 있습니다.
-이러한 동의 관리 변수는 각 분석 히트에서 동의 상태를 캡처하는 프레임워크를 사용하기 쉽게 제공합니다.
+이러한 동의 관리 변수는 각 분석 히트에서 동의 상태를 캡처하는 사용하기 쉬운 프레임워크를 제공합니다.
 
 ## 변수
 
@@ -35,15 +35,15 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 
 ## 보고
 
-동의 관리 변수는 Analytics 관리 콘솔에서 사용할 수 있는 새 개인 정보 설정을 통해 활성화할 수 있습니다.
+Analytics 관리 콘솔에서 사용할 수 있는 새 개인 정보 설정을 통해 동의 관리 변수를 활성화할 수 있습니다.
 
-각 보고서 세트를 다음과 같이 구성할 수 있습니다.
-1. 보고 및 분석에서 관리 &gt; 보고서 세트를 클릭합니다.
-1. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings &gt; Privacy Management]
+각 보고서 세트는 다음과 같이 구성할 수 있습니다.
+1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
+1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management.]**
 
    ![](assets/rsm-privacy-select.png)
 
-1. 데이터 개인 [!UICONTROL 정보 보고서 활성화] 단추를 클릭합니다.  참고: 이러한 변수를 활성화하면 해제할 수 없습니다.
+1. 데이터 개인 **[!UICONTROL 정보 보고서 활성화]** 단추를 클릭합니다. **** 참고:활성화한 후에는 이러한 변수를 끌 수 없습니다.
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -63,21 +63,21 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 
 ### SSF
 
-* 컨텍스트 데이터: `contextData.['cm.ssf']`
+* 컨텍스트 데이터:contextData.['cm.ssf']
 * 허용된 값:
-   * `1` - 값을 전송할 `1`때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 `1` 쌍을 이루는 값이 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. AAM [ePrivacy 규정 준수를 참조하십시오.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
-   * 이 매개 변수에 대해 다른 값이 허용되지 않습니다.
+   * 1 - 값 "1"을 전송할 때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 함께 "1" 값을 지정하면 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. AAM [ePrivacy 규정 준수를 참조하십시오.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 이 매개 변수에는 다른 값이 허용되지 않습니다.
 
 ### DMP
 
-* 컨텍스트 데이터: `contextData.['opt.dmp']`
+* 컨텍스트 데이터:contextData.['opt.dmp']
 * 허용된 값:
-   * `N` - 값을 전송할 `N`때, 이는 소비자가 데이터 관리 플랫폼에 대한 공유를 거부함을 나타냅니다. AAM에 대한 현재 블록 공유는 아닙니다.  SSF를 사용하여 해당 기능을 수행할 수 있습니다.
-   * `Y` - 값을 전송할 `Y`때, 이는 소비자가 데이터 관리 플랫폼에 대한 공유를 선택하고 있음을 나타냅니다.
+   * N - 값 "N"을 전송할 때 소비자가 데이터 관리 플랫폼에 대한 공유를 거부함을 나타냅니다. **** 참고:이 변수를 "N"으로 설정하면 현재 AAM에 대한 공유를 차단하지 않지만, AAM 기능에 대한 차단 호출이 2020년 초에 추가됩니다. 현재 Adobe에서는 히트가 AAM으로 전송되지 않도록 `c.cm.ssf=1` 및 `c.opt.dmp=N` 둘 다 설정하는 것이 좋습니다.
+   * Y - 값 "Y"를 전송할 때 소비자가 데이터 관리 플랫폼에 공유하도록 선택함을 나타냅니다.
 
 ### 판매
 
-* 컨텍스트 데이터: `contextData.['opt.sell']`
+* 컨텍스트 데이터:contextData.['opt.sell']
 * 허용된 값:
-   * `N` - 값을 전송할 `N`때, 이는 소비자가 데이터를 제3자에게 공유 또는 판매하는 것을 거절함을 의미합니다.
-   * `Y` - 값을 전송할 `Y`때, 이는 소비자가 제3자에게 데이터의 공유 또는 판매를 선택함을 의미합니다.
+   * N - 값 "N"을 전송할 때, 이는 소비자가 데이터 공유 또는 판매를 제3자에게 거절함을 나타냅니다.
+   * Y - 값 "Y"를 전송할 때, 이는 소비자가 데이터 공유 또는 판매를 제3자에게 선택함을 나타냅니다.
