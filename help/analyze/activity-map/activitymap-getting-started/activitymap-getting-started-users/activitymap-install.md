@@ -7,7 +7,7 @@ title: Activity Map 브라우저 플러그인 설치
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
+source-git-commit: 696076af9407d47e3ce3e78c262e266101e90648
 
 ---
 
@@ -20,7 +20,7 @@ Activity Map 브라우저 플러그인은
 
 * Analytics 페이지 태그로서 수동으로 주입됩니다.
 * 브라우저 도구 모음에서 단추나 메뉴 항목에 의해 시작됩니다.
-* 데스크톱 브라우저인 Internet Explorer, Firefox, Chrome 및 Safari의 최신 버전과만 호환합니다.
+* 이러한 데스크탑 브라우저의 최신 버전와만 호환됩니다.Internet Explorer, Firefox 및 Chrome.
 * **[!UICONTROL 내 로그인 기억]기능을 지원합니다.**
 * Analytics 페이지 코드를 포함하지 않는 웹 페이지에서 Activity Map 도구 모음을 주입&#x200B;****&#x200B;할 수 있습니다. 페이지에 Analytics 페이지 코드가 포함되어 있지 않을 경우 오류 메시지를 표시합니다.
 * 브라우저 플러그인 설치 프로세스를 수행해야 사용할 수 있습니다.
@@ -62,11 +62,3 @@ Activity Map 브라우저 플러그인은
 1. 팝업에 있는 **[!UICONTROL 예]를 클릭하여 프로그램이 컴퓨터에 변경 작업을 수행하도록 합니다.**
 1. 설치 마법사의 지침을 따릅니다.
 1. Activity Map이 제대로 설치되면, Internet Explorer에 Activity Map 도구 모음을 사용할 준비가 되었다는 알림이 표시됩니다. 활성화해서 애플리케이션 사용을 시작하십시오. 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
-
-## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
-
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]**.
-
-1. 로 <https://safari-extensions.apple.com/>이동합니다.
-1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
