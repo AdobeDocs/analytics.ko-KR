@@ -5,7 +5,7 @@ seo-title: 액세스 및 삭제 요청 제출
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 각 파일은 모든 보고서 세트의 데이터를 결합하며, 복제된 히트의 추가 사본을 자동으로 제거합니다. 이러한 파일 중에서 어느 것을 데이터 주체에 반환할지 결정할 수 있습니다. 또는 데이터 주체에 반환하기 전에 이 데이터의 일부를 추출하여 다른 시스템의 데이터와 결합할 수 있습니다.
 
-## 요청 제출 {#section_F70F4D91B7FF4242876338A66D2125C3}
+## 요청 제출 {#submit-requests}
 
 귀하는 Adobe의 데이터 개인정보 보호 UI 포털 [또는 Adobe의 데이터 개인정보 보호 API를 통해 데이터](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) 개인정보 보호 액세스 및 삭제 요청을 제출할 [수 있습니다.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
