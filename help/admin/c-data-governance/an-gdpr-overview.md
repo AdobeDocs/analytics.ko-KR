@@ -5,7 +5,7 @@ seo-title: Adobe Analytics 및 GDPR
 title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -38,13 +38,13 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
 
 사용자가 보고서 세트의 사용자 지정 데이터를 가장 잘 알고 있기 때문에 Adobe는 사용자에게 데이터 거버넌스 설정 및 환경 설정을 정의할 수 있는 기회를 제공하고 있습니다.
 
-이를 위해 Adobe Analytics는 사용자가 데이터 제어자로서 Analytics 보고서 세트와 그러한 보고서 세트의 모든 차원과 지표에 대한 [개인 정보 레이블](../../admin/c-data-governance/gdpr-labels.md#concept_F4061E29353446B5B0A7CF248D54E6F2)을 설정할 수 있는 데이터 거버넌스 사용자 인터페이스를 제공합니다. 사용자는 직접 식별 가능한 데이터 또는 간접적으로 식별 가능한 데이터가 포함된 데이터 세트의 열을 식별할 수 있으므로 액세스 및 삭제 요청을 제출하여 해당 데이터를 처리할 수 있습니다. 각 요청마다 Analytics 데이터 거버넌스 사용자 인터페이스에 정의된 레이블이 해당 요청에 해당하는 특정 식별자에 대해 적용됩니다.
+To that end, Adobe Analytics provides a Data Governance user interface that lets you, as the data controller, set [privacy labels](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) on your Analytics report suites and all the dimensions and metrics in those report suites. 사용자는 직접 식별 가능한 데이터 또는 간접적으로 식별 가능한 데이터가 포함된 데이터 세트의 열을 식별할 수 있으므로 액세스 및 삭제 요청을 제출하여 해당 데이터를 처리할 수 있습니다. 각 요청마다 Analytics 데이터 거버넌스 사용자 인터페이스에 정의된 레이블이 해당 요청에 해당하는 특정 식별자에 대해 적용됩니다.
 
-레이블을 설정하는 방법에 대한 자세한 내용은 [보고서 세트 데이터에 레이블 지정](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731)을 참조하십시오.
+레이블을 설정하는 방법에 대한 자세한 내용은 [보고서 세트 데이터에 레이블 지정](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)을 참조하십시오.
 
 ## 전제 조건 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
-* Familiarize yourself with [GDPR terminology.](/help/admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7)
+* Familiarize yourself with [GDPR terminology.](/help/admin/c-data-governance/gdpr-terminology.md)
 * Experience Cloud 조직에 로그인 회사를 연결하지 않은 경우 연결합니다. Contact Adobe Customer Care and refer to [Organizations and account linking.](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)
 * Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
 * GDPR 삭제 및 액세스 요청을 적용할 수 있도록 각 보고서 세트에 대한 데이터 보존 정책을 설정합니다.
