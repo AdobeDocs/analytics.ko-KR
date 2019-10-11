@@ -5,7 +5,7 @@ seo-title: Analytics 변수의 데이터 개인 정보 레이블
 title: Analytics 변수의 데이터 개인 정보 레이블
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 Adobe Analytics는 그 민감도 및 계약 제한 사항에 따라 데이터를 레이블링하는 도구를 제공합니다. 레이블은 중요하며 다음과 같은 작업에 유용합니다. (1) 데이터 주제를 식별, (2) 액세스 요청의 일부로서 반환할 데이터를 판별, (3) 삭제 요청의 일부로서 삭제해야 하는 데이터 필드 식별
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 Adobe Analytics 데이터 개인정보 보호 구현은 ID 데이터, 민감한 데이터 및 데이터 거버넌스에 대한 다음 레이블을 지원합니다.
 
@@ -85,7 +85,7 @@ ID 데이터의 "I" 레이블은 특정 개인을 식별하거나 특정 개인�
  </tbody> 
 </table>
 
-## 데이터 거버넌스 레이블(데이터 개인 정보) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## 데이터 거버넌스 레이블(데이터 개인 정보) {#data-governance-labels}
 
 데이터 거버넌스 레이블은 규정 및 기업 정책을 준수하도록 개인 정보 보호 관련 고려 사항 및 계약 조건을 반영하여 데이터를 분류하는 기능을 제공합니다.
 
@@ -434,7 +434,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
   </tr> 
   <tr> 
    <td colname="col1"> <p>방문자 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 여기에는 DEL-DEVICE 레이블이 있지만 DEL-PERSON 레이블을 추가할 수 없습니다. 각 요청에 <a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> ID 확장</a>을 지정하는 경우 ID-PERSON을 사용하는 모든 삭제 요청에 대해 이러한 ID가 자동으로 삭제됩니다. </p> <p>ID 확장을 사용하지 않고 이러한 쿠키 ID가 Prop 또는 eVar에 일치하는 ID가 포함된 히트에 익명으로 표시되도록 하려면 실제로 사람을 식별하는 경우에도 Prop 또는 eVar에 ID-DEVICE 레이블을 지정하여 이 라벨링 제한을 해결할 수 있습니다(모든 DEL-PERSON 레이블도 DEL-DEVICE 레이블로 변경해야 함). 이 경우, 방문자 ID 또는 ECID의 일부 인스턴스만 익명으로 처리되고 있으므로 고유 방문자 카운트가 기록 보고에서 변경됩니다. </p> </td> 
+   <td colname="col2"> <p> 여기에는 DEL-DEVICE 레이블이 있지만 DEL-PERSON 레이블을 추가할 수 없습니다. 각 요청에 <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID 확장</a>을 지정하는 경우 ID-PERSON을 사용하는 모든 삭제 요청에 대해 이러한 ID가 자동으로 삭제됩니다. </p> <p>ID 확장을 사용하지 않고 이러한 쿠키 ID가 Prop 또는 eVar에 일치하는 ID가 포함된 히트에 익명으로 표시되도록 하려면 실제로 사람을 식별하는 경우에도 Prop 또는 eVar에 ID-DEVICE 레이블을 지정하여 이 라벨링 제한을 해결할 수 있습니다(모든 DEL-PERSON 레이블도 DEL-DEVICE 레이블로 변경해야 함). 이 경우, 방문자 ID 또는 ECID의 일부 인스턴스만 익명으로 처리되고 있으므로 고유 방문자 카운트가 기록 보고에서 변경됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
