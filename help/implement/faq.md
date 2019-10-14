@@ -8,7 +8,7 @@ title: Analytics 구현에 대한 FAQ
 topic: 개발자 및 구현
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -73,7 +73,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col2"> <p>성능 - 외부 Adobe JavaScript의 로드로 성능이 저하될 수 있습니까? </p> </td> 
-   <td colname="col3"> <p> JavaScript 파일은 처음에 로드된 후 방문자의 브라우저에 캐싱되며 일반적으로 세션당 한 번 이상 다운로드되지 않습니다. 이 파일은 사이트의 모든 페이지에서 사용되더라도 각 페이지에서 다운로드되지 않습니다. 대부분의 웹 사이트에서 사용자는 평균적으로 세션당 여러 번 페이지를 보기 때문에 여러 번 사용되는 JavaScript를 이 파일로 전송하면 다운로드되는 전체 데이터가 줄어들 수 있습니다. </p> <p> 다음 [!DNL AppMeasurement] 압축용 JavaScript: Adobe의 JavaScript 클라이언트의 페이지 용량(크기)이 걱정되는 경우에는, GZIP을 사용한 파일 압축을 고려해 보는 것이 좋습니다. GZIP은 모든 주요 브라우저에서 지원되며, JavaScript 압축보다 나은 성능을 제공하여 코어 <span class="filepath">s_code.js</span> JavaScript 파일을 압축 및 압축 해제할 수 있도록 해줍니다. </p> </td> 
+   <td colname="col3"> <p> JavaScript 파일은 처음에 로드된 후 방문자의 브라우저에 캐싱되며 일반적으로 세션당 한 번 이상 다운로드되지 않습니다. 이 파일은 사이트의 모든 페이지에서 사용되더라도 각 페이지에서 다운로드되지 않습니다. 대부분의 웹 사이트에서 사용자는 평균적으로 세션당 여러 번 페이지를 보기 때문에 여러 번 사용되는 JavaScript를 이 파일로 전송하면 다운로드되는 전체 데이터가 줄어들 수 있습니다. </p> <p> AppMeasurement 압축용 JavaScript: Adobe의 JavaScript 클라이언트의 페이지 용량(크기)이 걱정되는 경우에는, GZIP을 사용한 파일 압축을 고려해 보는 것이 좋습니다. GZIP은 모든 주요 브라우저에서 지원되며, JavaScript 압축보다 나은 성능을 제공하여 코어 <span class="filepath">s_code.js</span> JavaScript 파일을 압축 및 압축 해제할 수 있도록 해줍니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>성능 - 데이터를 브라우저에서 Adobe 서비스로 보내면 성능이 저하될 수 있습니까? </p> </td> 
@@ -140,7 +140,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 | 질문 | 답변 |
 |---|---|
-| Analytics 사용자 및 그룹을 어떻게 관리합니까? | For information about managing users and groups, refer to Manage Experience Cloud users and products in the Adobe Experience Cloud Core Services help.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) |
+| Analytics 사용자 및 그룹을 어떻게 관리합니까? | 사용자 및 그룹 관리에 대한 자세한 내용은 Adobe [Experience Cloud 코어 서비스 도움말의 Experience Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) 관리를 참조하십시오. |
 | eVar 만료 - 왜 보고서에서 eVar의 특성이 '없음'으로 지정되고 있습니까? | `Expire After` eVar 값이 만료된 후 기간 또는 이벤트를 지정합니다(더 이상 성공 이벤트에 대한 크레딧을 받지 않음). 성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다(eVar가 활성화되지 않았음). 이벤트를 만료 값으로 선택하면 이 이벤트가 발생하는 경우에만 해당 변수가 만료됩니다. 해당 이벤트가 발생하지 않으면 해당 변수가 만료되지 않습니다. [[자세히...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | 사용자 지정 이벤트 가시성 - 왜 사용자 지정 이벤트가 보고서 메뉴에 나타나지 않습니까? | 가시성 열에서 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다. 이 설정은 해당 지표 또는 이벤트의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. [[자세히...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/metric-visibility.html) |
 | 타임스탬프 - 타임스탬프 설정을 변수하기 전에 고려해야 할 사항은 무엇입니까? | 타임스탬프 옵션 기능을 사용하면 데이터 손실을 발생시키지 않고도 타임스탬프가 지정되지 않은 데이터를 지정된 데이터와 결합할 수 있습니다. 모바일 장치에서 생성된 타임스탬프가 있는 오프라인 데이터는 웹 페이지에서 라이브의, 타임스탬프가 지정되지 않은 데이터와 결합하거나, 클라이언트측 타임스탬프 호출을 사용하여 모든 플랫폼의 데이터와 통합할 수 있습니다. [[자세히...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/timestamps-overview.html) |
@@ -167,4 +167,4 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 | 인증 만료 알림에 대한 정보는 어디에서 찾을 수 있습니까? | SSL 인증서는 매년 만료됩니다. 즉, 만료가 될 때마다 Adobe에 업데이트된 인증서를 요청해야 합니다. 이 경우 FPC 전문가가 충분히 경고를 하지만, 미리 만료를 모니터링하고 Adobe에 업데이트된 이 인증서를 제공하는 것이 좋습니다. [자세히...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) |
 | 플러그인이란 무엇입니까? | JavaScript용 AppMeasurement 플러그인은 몇 가지 고급 기능을 수행하는 프로그램 또는 기능입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다. JavaScript를 사용하여 데이터를 캡처하고 싶지만 진행하는 방법을 모르는 경우에는 담당 계정 관리자에게 문의하십시오. [자세히...](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md) |
 | 데이터 삽입 API에 대한 정보는 어떻게 찾을 수 있습니까? | Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개발했습니다. [자세히...](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
-| 500 오류란? | Information about the internal server error which caused a "500 Query Error" status can be found at pageType variable.[](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_F67870238EF74491B5D3909A33CDB985) |
+| 500 오류란? | "500 쿼리 오류" 상태를 일으킨 내부 서버 오류에 대한 정보는 pageType [변수에](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_F67870238EF74491B5D3909A33CDB985)있습니다. |
