@@ -5,7 +5,7 @@ seo-title: FAQ
 title: FAQ
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe 고객(데이터 관리자)은 데이터 개인 정보 처리를 위해 Adobe Analytics에서 어떤 ID에 매핑되는지 어떻게 알 수 있습니까?</b> </p> </td> 
-   <td colname="col2"> <p>데이터 제어자는 데이터 주체의 요청에 대한 ID를 확인하는 방법을 결정합니다. Adobe의 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> 데이터 개인 정보 ID 검색 태그 배포를 고려해 </a>보십시오. 개발 팀은 Data Privacy ID 검색 태그를 사용하여 사용자 ID(쿠키 ID)를 캡처한 다음 Data Privacy API를 사용하여 해당 사용자 ID를 Adobe Experience Cloud for Data Privacy 요청 처리에서 관련 솔루션으로 전송함으로써 시간을 절약할 수 있습니다. </p> <p>데이터 개인 정보 API는 여러 Adobe 솔루션에서 광범위한 고객 ID를 지원할 수 있습니다. 데이터 주체가 식별자(사용자 지정 변수 - prop 또는 eVar)와 함께 요청을 제출하는 경우 Adobe Analytics는 지정된 식별자에 대해 수집된 데이터의 전체 보존 내역을 스캔합니다. Analytics Prop 또는 eVar에 저장된 사용자 지정 ID를 구성하는 방법에 대한 자세한 내용은 [네임스페이스]의 Analytics 설명서를 참조하십시오.](/help/admin/c-data-governance/gdpr-namespaces.md)
+   <td colname="col2"> <p>데이터 제어자는 데이터 주체의 요청에 대한 ID를 확인하는 방법을 결정합니다. Adobe의 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> 데이터 개인 정보 ID 검색 태그 배포를 고려해 </a>보십시오. 개발 팀은 Data Privacy ID 검색 태그를 사용하여 사용자 ID(쿠키 ID)를 캡처한 다음 Data Privacy API를 사용하여 해당 사용자 ID를 Adobe Experience Cloud for Data Privacy 요청 처리에서 관련 솔루션으로 전송함으로써 시간을 절약할 수 있습니다. </p> <p>데이터 개인 정보 API는 여러 Adobe 솔루션에서 광범위한 고객 ID를 지원할 수 있습니다. 데이터 주체가 식별자(사용자 지정 변수 - prop 또는 eVar)와 함께 요청을 제출하는 경우 Adobe Analytics는 지정된 식별자에 대해 수집된 데이터의 전체 보존 내역을 스캔합니다. Analytics prop 또는 eVar에 저장된 사용자 지정 ID를 구성하는 방법에 대한 자세한 내용은 네임스페이스에 대한 Analytics 설명서를 <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> 참조하십시오</a>.
     </p> </td> 
   </tr> 
   <tr> 
