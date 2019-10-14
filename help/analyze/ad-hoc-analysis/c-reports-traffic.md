@@ -7,7 +7,7 @@ title: 트래픽 소스 보고서
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -130,7 +130,7 @@ c_reports_ref_types.xml
 
 **사이트 내부**: 이러한 항목은 내부 URL 필터에서 태그가 지정된 항목입니다. 이러한 항목은 레퍼러 인스턴스로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
 
-** Java 스크립트 없음**:JavaScript가 없으므로 유형을 식별할 수 없습니다(알 수 없음). 즉, JavaScript 지원이 가능한 것으로 보고하지 않는 브라우저 클라이언트에서 레퍼러 정보가 제공되지 않은 경우입니다. 이 경우는 '레퍼러 인스턴스 수'로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
+**JavaScript 없음**: JavaScript가 없어 유형을 식별할 수 없습니다(알 수 없음). 즉, JavaScript 지원이 가능한 것으로 보고하지 않는 브라우저 클라이언트에서 레퍼러 정보가 제공되지 않은 경우입니다. 이 경우는 '레퍼러 인스턴스 수'로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
 
 **USENET(뉴스그룹)**: 레퍼러의 URL이 `news://`://로 시작하는 경우를 의미합니다. 따라서 참조 링크는 웹 페이지가 아닌 Usenet 뉴스그룹에 게시되었습니다.
 
