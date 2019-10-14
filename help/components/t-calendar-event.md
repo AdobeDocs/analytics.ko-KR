@@ -6,8 +6,8 @@ solution: Analytics
 title: 달력 이벤트
 topic: Reports and Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. (선택 사항) 달력 이벤트는 공유되지 않는 한 사용자별로 다릅니다. 이 이벤트를 공유하려면 **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 1. (선택 사항) 캘린더 이벤트를 사용자에게 적용합니다. 이제 공유됨으로 표시된 달력 이벤트에는 다른 사용자에게 "전달"하는 옵션이 있습니다. 달력 이벤트를 적용하면 이 이벤트가 받는 사용자의 트렌드 및 시간별 그래프에 나타납니다.
    1. **[!UICONTROL 사용자에게 전달]**&#x200B;을 클릭합니다.
-   1. **[!UICONTROL 모두 선택]**하거나 사용자 이름의 옆에 있는 상자를 선택합니다.
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
    이렇게 되면 달력 이벤트를 훨씬 다양하게 사용할 수 있게 됩니다. 이제 분석가는 사용자의 보고서에 오버레이를 적용하여 더 많은 컨텍스트를 제공할 수 있습니다.
 1. **[!UICONTROL Analytics]&gt;****구성 요소** &gt; **[!UICONTROL 달력 이벤트]**&#x200B;를 클릭합니다.
