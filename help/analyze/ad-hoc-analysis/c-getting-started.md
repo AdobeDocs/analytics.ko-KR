@@ -3,14 +3,14 @@ description: 애드혹 분석을 시작합니다.
 seo-description: 애드혹 분석을 시작합니다.
 seo-title: 시작하기
 title: 시작하기
-uuid: 6 a 698 e 18-4 e 62-405 e-b 020-b 973 c 9 c 4008 b
+uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# 애드혹 분석 시작하기{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
 >[!Important]
 >2018년 8월 6일, Adobe는 Ad Hoc Analysis를 종료할 예정이라는 발표를 했습니다. 수명 종료 날짜는 확정된 후 공유될 예정입니다. 이 기간 동안의 Java 호환 버전 등 자세한 정보는 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오.
@@ -29,7 +29,7 @@ source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Adobe <span class="keyword">Analytics</span>에 로그인합니다. </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>로 이동하여 Adobe Analytics 자격 증명을 사용하여 로그인합니다. </p> </td> 
+   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Ad Hoc Analysis을 시작합니다. </p> </td> 
@@ -37,7 +37,7 @@ source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. 프로젝트를 만듭니다. </p> </td> 
-   <td colname="col2"> <p> 시작 페이지에서 보고서 세트를 선택한 다음 <span class="uicontrol">프로젝트 만들기</span>를 클릭합니다. </p> <p><a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> 프로젝트 및 작업 영역을 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p> 시작 페이지에서 보고서 세트를 선택한 다음 <span class="uicontrol">프로젝트 만들기</span>를 클릭합니다. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projects and Workspaces</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. 보고서를 엽니다. </p> </td> 
@@ -49,7 +49,7 @@ source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> 세그먼트를 만들어 데이터를 더 깊이 분석 </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 지표, 차원 및 세그먼트를 <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> 테이블 빌더</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278"><a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> 날짜 범위 구성</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">날짜 <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> 범위 구성</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> 보고서 배달 예약</a> </li> 
     </ul> <p>필요한 도움말을 찾으려면 도움말 시스템을 검색하십시오. </p> </td> 
   </tr> 
@@ -68,7 +68,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018 년 7 월 유지관리 릴리스 이후 Java 7에서 애드혹 분석을 실행하도록 선택하는 경우 Adobe는 더 이상 애드혹 분석 구현을 지원하지 않습니다.
+>Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 관리 릴리스 이후 Java 7에서 애드혹 분석을 실행하도록 선택하면 Adobe는 더 이상 애드혹 분석 구현을 지원하지 않습니다.
 
 * OpenGL 2.0을 지원하는 비디오 카드
 *  쿠키: 필수
@@ -83,7 +83,7 @@ c_sys_reqs.xml
 
 ## Java 업그레이드 지침 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018 년 7 월 유지관리 릴리스 이후 Java 7에서 애드혹 분석을 실행하도록 선택하는 경우 Adobe는 더 이상 애드혹 분석 구현을 지원하지 않습니다.
+Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 관리 릴리스 이후 Java 7에서 애드혹 분석을 실행하도록 선택하면 Adobe는 더 이상 애드혹 분석 구현을 지원하지 않습니다.
 
 Adobe의 .jar 파일은 1.7.0_76 이하의 Java 버전에서 지원되지 않는 보안 256비트 암호화로 서명됩니다. 이 256비트 인증서를 사용하면 향상된 보안을 활용할 수 있습니다.
 
@@ -91,7 +91,7 @@ Adobe의 .jar 파일은 1.7.0_76 이하의 Java 버전에서 지원되지 않는
 
 * 컴퓨터에 프로그램 설치가 허용되는 경우
 
-   1. https://www.java.com로 이동합니다.
+   1. https://www.java.com으로 이동합니다.
    1. **[!UICONTROL 무료 Java 다운로드를 클릭합니다]**.
    1. **[!UICONTROL 동의 및 무료 다운로드 시작을 클릭합니다]**.
    1. 사용 중인 운영 체제용의 최신 Java 버전을 설치합니다.
@@ -122,11 +122,11 @@ t_login_suite.xml
 
 1. In a browser, navigate to [!DNL marketing.adobe.com].
 1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL 도구]** &gt; **[!UICONTROL 애드혹 분석을 클릭합니다]**.
+1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Ad Hoc Analysis]**.
 
    이 페이지에서 **Ad Hoc Analysis 시작** 단추가 보이지 않는 경우에는 관리 도구에서 관리자가 사용자를 *Ad Hoc Analysis 라이선스 사용자* 그룹에 추가했는지 확인하십시오.
 1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. [!DNL discover.jnlp] 파일을 로컬에 저장합니다.
+1. 로컬에 [!DNL discover.jnlp] 파일을 저장합니다.
 
    Ad Hoc Analysis를 실행하려 할 때마다 이렇게 저장된 파일을 실행할 수 있습니다.
 
@@ -172,7 +172,7 @@ t_recent_workspace.xml
 
  -->
 
-1. **[!UICONTROL 파일]** &gt; **[!UICONTROL 최근 작업 공간을 클릭합니다]**.
+1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Recent Workspace]**.
 
    최대 다섯 개의 최근 작업 공간을 열 수 있습니다. 최근 작업 공간은 세션을 종료한 후에는 사용할 수 없습니다.
 
@@ -186,18 +186,18 @@ t_share_projects.xml
 
  -->
 
-1. **[!UICONTROL 파일]** &gt; 다른 이름으로 **[!UICONTROL 저장을]**&#x200B;선택합니다.
-1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]**drop-down.
+1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
+1. **[!UICONTROL 저장]**&#x200B;위치&#x200B;**[!UICONTROL (Save in)]**&#x200B;에서 공유 프로젝트 선택:드롭다운.
 
    ![](assets/shared_projects.png)
 
-1. **[!UICONTROL 저장을]** 클릭하여 프로젝트를 저장합니다.
+1. Click **[!UICONTROL Save]** to save the project.
 
    Shared projects can be opened via **[!UICONTROL File]** &gt; **[!UICONTROL Open]** &gt; **[!UICONTROL Shared Projects]**.
 
    >[!NOTE]
    >
-   >하나 이상의 프로젝트를 선택하여 프로젝트 공유를 위한 동일한 대화 상자에서 공유 프로젝트를 삭제할 수 있습니다.
+   >하나 이상의 프로젝트를 선택하여 프로젝트를 공유하기 위해 동일한 대화 상자에서 자신의 공유 프로젝트를 삭제할 수 있습니다.
 
 ## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
@@ -223,10 +223,10 @@ t_open_local_project.xml
 
  -->
 
-1. **[!UICONTROL 파일]** &gt; 로컬 복사본 **[!UICONTROL 열기를]**&#x200B;클릭합니다.
+1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Open Local Copy]**.
 1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
 
-## 보고서 템플릿{#concept_370F674C5B4C45368731AA801C5A45F8}을 참조하십시오 
+## 보고서 템플릿 {#concept_370F674C5B4C45368731AA801C5A45F8}
 
 템플릿은 수행할 분석 유형의 시작 지점입니다. 템플릿은 등급 보고서 또는 폴아웃 보고서와 같은 빈 캔버스일 수 있습니다. 또는 기본 지표 및 차원으로 시작되는 보고서입니다.
 
