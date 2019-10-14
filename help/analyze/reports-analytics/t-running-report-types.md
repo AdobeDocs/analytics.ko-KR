@@ -7,7 +7,7 @@ title: 다른 보고서 유형 실행
 topic: 보고서, Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -224,9 +224,9 @@ t_anomaly_config.xml
 
 1. Navigate to  **[!UICONTROL Analytics &gt; Reports &gt; Site Metrics &gt; Anomaly Detection]** .
 1. 일일 예외 항목 탐지를 추적할 보고서 세트를 선택합니다. 보고서 세트 목록을 표시하려면, 보고서 세트 선택기 드롭다운 메뉴를 클릭합니다.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   모든 지표 목록(계산된 지표 포함) 또는 추적된 지표 목록에서 지표를 선택할 수 있습니다. 목록의 범위를 좁히려면 특정 용어로 필터링할 수도 있습니다. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. (훈련 기간을 알고리즘에 대한 "학습 기간"으로 생각합니다.)
+   모든 지표 목록(계산된 지표 포함) 또는 추적된 지표 목록에서 지표를 선택할 수 있습니다. 목록의 범위를 좁히려면 특정 용어로 필터링할 수도 있습니다. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (훈련 기간을 알고리즘에 대한 "학습 기간"으로 생각합니다.)
 
    ![](assets/view_training_periods.png)
 
