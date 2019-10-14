@@ -3,9 +3,9 @@ description: 새로운 인텔리전트 경고 시스템에서는 경고를 더�
 seo-description: 새로운 인텔리전트 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 seo-title: 지능형 경고
 title: 지능형 경고
-uuid: AC 8 C 9710-D 245-46 E 9-B 906-32 D 3 BB 0013 C 0
+uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. 지능형 경고를 사용하면 다음 작업을 수행할 수 있습니다.
+새로운 경고 빌더 및 경고 관리자는 Adobe의 기존 경고 기능을 대체합니다 [!DNL Analytics]. 지능형 경고를 사용하면 다음 작업을 수행할 수 있습니다.
 
 * 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95%, 99%, 99.75%, 및 99.9% 임계값, % 변경, 초과/미만).
 * 경고가 트리거되는 빈도를 미리 봅니다.
@@ -57,7 +57,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: 경고의 예외 항목 탐지에서 데이터 예외 항목을 판단하려면 얼마나 되돌아갑니까? </b> </p> </td> 
-   <td colname="col2"> <p>교육 기간은 선택한 세부기간에 따라 다릅니다. 자세한 내용은 [예외 항목 탐지] 에 사용된 [통계적 기법] (/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection. md) 를 참조하십시오. 다음은 요약입니다. </p> 
+   <td colname="col2"> <p>교육 기간은 선택한 세부기간에 따라 다릅니다. See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. 다음은 요약입니다. </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">월 단위 = 15개월 + 지난 해와 동일한 범위 </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">주 단위 = 15주 + 지난 해와 동일한 범위 </li> 
@@ -75,7 +75,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 점선을 구성하는 "예상값" 테이블이나 그러한 값에 대한 일종의 출력을 얻을 수 있습니까? </b> </p> </td> 
-   <td colname="col2"> <p>Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다(<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder의 예외 항목 탐지</a>에서 이 비디오 참조 ). </p> <p>Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports &amp; Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다(<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder의 예외 항목 탐지</a>에서 이 비디오 참조 ). </p> <p>Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> <span class="uicontrol">Reports &amp; Analytics</span> anomaly detection </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
