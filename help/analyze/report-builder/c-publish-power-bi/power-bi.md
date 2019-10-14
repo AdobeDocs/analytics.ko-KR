@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Power BI에 게시 - 개요
 title: Power BI에 게시 - 개요
-uuid: AD 688817-6 E 3 C -45 DA -983 D -48 C 123465309
+uuid: ad68817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,14 +28,14 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
 ## 시스템 요구 사항 {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installed](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5 [설치](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
 * Power BI에 로그인할 수 있도록 해주는 Active Microsoft 계정
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
 예약된 통합 문서는 Adobe Analytics의 데이터로 채워지고 정기적으로 전송되는 형식이 지정된 Excel 스프레드시트입니다.
 
-**리포트 빌더에서 통합 문서 게시**
+**리포트 빌더에 통합 문서 게시**
 
 1. Report Builder에서, 통합 문서를 생성하고 저장합니다.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
@@ -65,13 +65,13 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
 >[!NOTE]
 >
->통합 문서에 매크로가 들어 있는 경우 «통합 문서를 Power BI 데이터 세트로 통합 문서에 모두 게시» 표를 사용할 수 없게 됩니다.
+>통합 문서에 매크로가 포함되어 있으면 "통합 문서에 서식이 지정된 모든 테이블을 Power BI 데이터 집합 표로 게시"가 비활성화됩니다.
 
 전체 통합 문서를 가져오는 대신 통합 문서 내의 모든 형식이 지정된 표의 컨텐츠만 가져올 수 있습니다.
 
 **사용 사례**: 여러 Report Builder 요청에서 데이터를 가져오고 공식이 많은 요약 표를 만드는 Excel 통합 문서가 있을 경우, 요약 표만 Power BI에 가져오고 이를 우한 시각화를 생성할 수 있습니다.
 
-**리포트 빌더에서 형식 지정 표 게시**
+**리포트 빌더에서 서식이 지정된 표 게시**
 
 1. Report Builder에서, 뒤에 데이터 행이 오는 머리글 행을 포함하는 데이터 표를 생성합니다.
 1. 표를 선택하고 [!UICONTROL **홈]메뉴에서**[!UICONTROL 표로 형식 지정]을 선택합니다. 표는 기본적으로 이름이 지정되지만(표 1, 표 2 등), [!UICONTROL 디자인 ]메뉴에서 이름을 변경할 수 있습니다.
@@ -79,7 +79,7 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
 
 1. 기본 예약 마법사에서 **[!UICONTROL 고급 예약 옵션을 클릭합니다]**.
-1. [!UICONTROL 예약 마법사 - 고급 탭의]**[!UICONTROL 게시 옵션]** 탭에서 모든 형식의 표 **[!UICONTROL 게시 옆에 있는 확인란을 선택하여 Power BI 데이터 세트 표로]**&#x200B;만듭니다.
+1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -111,13 +111,13 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
 >[!IMPORTANT]
 >
->통합 문서에 요청이 100 개 이상 들어 있는 경우 처음 100 개의 요청만 Power BI에 게시됩니다. 또한, Power BI에 게시된 각 요청에 대해, 데이터의 처음 10,000개 행만 게시됩니다. 따라서 이 요청이 예약을 통해 성공적으로 제공되면, Power BI에 대한 게시 범위가 제한됩니다.
+>통합 문서에 요청이 100개를 초과하는 경우 처음 100개 요청만 Power BI에 게시됩니다. 또한, Power BI에 게시된 각 요청에 대해, 데이터의 처음 10,000개 행만 게시됩니다. 따라서 이 요청이 예약을 통해 성공적으로 제공되면, Power BI에 대한 게시 범위가 제한됩니다.
 
 1. Report Builder에서 Report Builder 요청으로 통합 문서를 열거나 만듭니다.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
 
 1. 기본 예약 마법사에서 **[!UICONTROL 고급 예약 옵션을 클릭합니다]**.
-1. [!UICONTROL 예약 마법사 - 고급]탭에서**[!UICONTROL 게시 옵션]** 탭에서 모든 리포트 빌더 요청 **[!UICONTROL 게시 옆에 있는 확인란을 선택합니다.]**![](assets/advanced-schedule-wizard2.png)
+1. [!UICONTROL 예약 마법사 - 고급]의 **[!UICONTROL 게시 옵션]** 탭에서 **[!UICONTROL 모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시]옆에 있는 상자를 선택합니다.**![](assets/advanced-schedule-wizard2.png)
 
 1. **[!UICONTROL 확인을 클릭합니다]**.
 
@@ -135,7 +135,7 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
    >[!NOTE]
    >
-   >워크시트 (피벗 레이아웃, 사용자 지정 레이아웃, 일부 열 보이지 않음) 에 리포트 빌더 요청을 구성했더라도 리포트 빌더는 항상 동일한 2 차원 단일 헤더 행 형식으로 요청을 게시합니다. 날짜, 차원, 지표, 보고서 세트, 세그먼트.
+   >리포트 빌더 요청을 워크시트에 배치하도록 구성한 방법(피벗 레이아웃, 사용자 지정 레이아웃, 일부 열 보이지 않음)에 상관없이, 리포트 빌더는 항상 동일한 2차원 단일 머리글 행 형식으로 요청을 게시합니다.날짜, 차원, 지표, 보고서 세트, 세그먼트.
 
 1. 또한 **[!UICONTROL 범례라는 추가적인 표가 있습니다]**. 요청을 Report Builder 컨텍스트에서 떨어뜨리면, 각 요청이 나타내는 사항을 기억하기 어려울 수 있습니다. 범례 표의 목적은 표 ID 아래에 각 요청의 이름을 사용자에게 보여주는 것입니다. 다른 범례 열을 추가하여 요청의 전체 모습을 알 수도 있습니다.
 
