@@ -1,18 +1,18 @@
 ---
 description: Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 Analytics 데이터 사본을 참조합니다. 특별한 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다. Data Warehouse 보고서는 FTP를 통해 전송되거나 메일로 보내지며 처리하는 데 72시간까지 소요될 수 있습니다. 처리 시간은 쿼리의 복잡성과 요청된 데이터의 양에 따라 달라집니다.
 seo-description: Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 Analytics 데이터 사본을 참조합니다. 특별한 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다. Data Warehouse 보고서는 FTP를 통해 전송되거나 메일로 보내지며 처리하는 데 72시간까지 소요될 수 있습니다. 처리 시간은 쿼리의 복잡성과 요청된 데이터의 양에 따라 달라집니다.
-seo-title: 데이터 웨어하우스 개요
+seo-title: Data Warehouse 개요
 solution: Analytics
-title: 데이터 웨어하우스 개요
+title: Data Warehouse 개요
 topic: Data Warehouse
-uuid: 768557 DD -1644-4 CE 6-BFC 2-8 C 46 DD 6 E 1 CD 1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 데이터 웨어하우스 개요
+# Data Warehouse 개요
 
 Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 Analytics 데이터 사본을 참조합니다. 특별한 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다. Data Warehouse 보고서는 FTP를 통해 전송되거나 메일로 보내지며 처리하는 데 72시간까지 소요될 수 있습니다. 처리 시간은 쿼리의 복잡성과 요청된 데이터의 양에 따라 달라집니다.
 
@@ -28,7 +28,7 @@ Data Warehouse는 개별적으로 예약하고 다운로드한 보고서를 한 
 
 >[!IMPORTANT]
 >
->분류된 값에 세그먼트화할 때 분석 작업 공간과 데이터 웨어하우스는'지정되지 않음'값을 다르게 처리합니다. Workspace에서 '지정되지 않음'은 분류되지 않은 값을 나타내지만, Data Warehouse에서 '지정되지 않음'은 "지정되지 않음"으로 분류한 값을 나타냅니다.
+>분류된 값을 세그먼트화할 때 분석 작업 공간과 데이터 웨어하우스는 '지정되지 않음' 값을 다르게 처리합니다. Workspace에서 '지정되지 않음'은 분류되지 않은 값을 나타내지만, Data Warehouse에서 '지정되지 않음'은 "지정되지 않음"으로 분류한 값을 나타냅니다.
 
 ## Data Warehouse 요청 설명 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,7 +57,7 @@ Data Warehouse는 개별적으로 예약하고 다운로드한 보고서를 한 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 사용 가능한 세그먼트</span> </td> 
-   <td colname="col2"> <p>복잡한 세그먼트를 검사 및 생성할 방문자 인구의 일부를 선택할 수 있도록 해줍니다. 사전 구성된 세그먼트를 로드하고 새 세그먼트를 만들고 추가 세그먼트를 작성하는 데 사용할 세그먼트 구성 요소를 라이브러리에 저장할 수 있습니다. </p> <p>이제 세그먼트를 스택할 수 있습니다. 여러 개의 세그먼트를 선택할 때 미리 보기 영역, 요청 관리자 및 요청 세부 사항 팝업에 쉼표로 구분된 이름 목록이 표시됩니다(예: Segment1, Segment2). </p> <p>자세한 내용은 [세그멘테이션 가이드] (/help/components/c-segmentation/seg-home. md) 를 참조하십시오. </p> <p>참고: 세그먼트 필터와 분류를 동일한 Data Warehouse 보고서의 동일한 세그먼트에 포함할 수 없습니다. 그렇게 하면 오류가 발생합니다. </p> </td> 
+   <td colname="col2"> <p>복잡한 세그먼트를 검사 및 생성할 방문자 인구의 일부를 선택할 수 있도록 해줍니다. 사전 구성된 세그먼트를 로드하고 새 세그먼트를 만들고 추가 세그먼트를 작성하는 데 사용할 세그먼트 구성 요소를 라이브러리에 저장할 수 있습니다. </p> <p>이제 세그먼트를 스택할 수 있습니다. 여러 개의 세그먼트를 선택할 때 미리 보기 영역, 요청 관리자 및 요청 세부 사항 팝업에 쉼표로 구분된 이름 목록이 표시됩니다(예: Segment1, Segment2). </p> <p>자세한 내용은 <a href="/help/components/c-segmentation/seg-home.md"> 세그멘테이션 안내서</a>를 참조하십시오. </p> <p>참고: 세그먼트 필터와 분류를 동일한 Data Warehouse 보고서의 동일한 세그먼트에 포함할 수 없습니다. 그렇게 하면 오류가 발생합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 분류</span> </td> 
