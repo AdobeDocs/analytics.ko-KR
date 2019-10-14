@@ -3,9 +3,9 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 seo-description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단한 계산된 지표나 복잡한 고급 계산된 지표를 빌드하고 저장할 수 있습니다.
 seo-title: 지표 작성
 title: 지표 작성
-uuid: 3 F 51 E 911-CAFA -4 AF 4-90 DD -5 A 4 CB 42 BF 0 A 7
+uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 다음 몇 가지 방법으로 계산된 지표 빌더에 액세스할 수 있습니다.
 
 * In Analysis Workspace, open a project and click  **[!UICONTROL + New]** &gt; **[!UICONTROL Create Metric]** .
-* In [!DNL Analytics], go to **[!UICONTROL Components]** &gt; **[!UICONTROL Calculated Metrics]**.
+* 에서 구성 요소 [!DNL Analytics]&gt; 계산된 지표로 **** 이동합니다 ****.
 
 * Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), or
 
-* **[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고서로]**&#x200B;이동하고 보고서를 열고 지표 아이콘을 ![](assets/metrics_icon.png) 클릭하여 지표 레일을 표시한 다음 **[!UICONTROL 추가를 클릭합니다]**.
+* Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -53,7 +53,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 증가 트렌드를 다른 방식으로 표시... </span> </td> 
-   <td colname="col3"> <p>이 지표 극성 설정은 [! DNL Analytics] 는 지표에서 증가 트렌드를 좋은 (녹색) 또는 불량 (빨간색) 로 간주해야 합니다. 그 결과, 보고서의 그래프는 증가할 때 녹색 또는 빨간색으로 표시됩니다. </p> </td> 
+   <td colname="col3"> <p>이 지표 극성 설정은 Analytics가 지표에서 증가 트렌드를 양호(녹색)으로 간주할지 또는 불량(빨간색)으로 간주할지를 보여줍니다. 그 결과, 보고서의 그래프는 증가할 때 녹색 또는 빨간색으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 태그 </span> </td> 
@@ -134,7 +134,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <p>함수 목록 </p> </td> 
-   <td colname="col3"> <p>(고급 계산된 지표만) 함수는 두 개의 목록으로 나뉩니다. <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> 기본 </a> (가장 자주 사용됨) 및 <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> 고급 </a>. </p> </td> 
+   <td colname="col3"> <p>(고급 계산된 지표만) 함수는 두 개의 목록으로 나뉩니다. <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Basic </a> (used most often) and <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>보고서 세트 선택기 </p> </td> 
