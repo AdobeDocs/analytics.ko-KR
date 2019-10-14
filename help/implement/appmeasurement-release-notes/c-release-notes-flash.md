@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: 개발자 및 구현
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -29,19 +29,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## April 20, 2017 {#section_8521EC2B68E24203A0F1B14A9D2652D2}
 
-**버전 4.0.3 **
+**버전 4.0.3**
 
 * 방문자 API 1.6.1 포함.
 
 ## 2016년 8월 18일 {#section_D72EF20672174249B864997905D7552A}
 
-** 4.0.2 - 업데이트**
+**4.0.2 - 업데이트**
 
 방문자 API 1.6.0 포함
 
 ## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-** 4.0.1 - 업데이트**
+**4.0.1 - 업데이트**
 
 방문자 API 1.5.6 포함
 
@@ -60,13 +60,13 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-영향을 받는 버전은 모든 플랫폼의   for Flash version 4.0 and earlier on all platforms.[!DNL AppMeasurement]
+영향을 받는 버전은 모든 플랫폼의  모든 플랫폼에서 [!DNL AppMeasurement] Flash 버전 4.0 이하 버전.
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. 기존 AS2 기반 프로젝트의 데이터 수집은 계속 지원됩니다. 그렇지만 고객은 구현을 AS3로 업그레이드하고 [!DNL AppMeasurement] for Flash의 최신 보안 기능을 통합하는 것이 좋습니다.
 
-[!DNL AppMeasurement] for Flash customers affected by this issue must rebuild projects with the updated library available for download from the [!DNL Analytics] Console [More…](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
+[!DNL AppMeasurement] 이 문제로 영향을 받는 Flash 고객의 경우 콘솔 자세히.... [!DNL Analytics] (AN-121780)에서 다운로드할 수 있는 업데이트된 라이브러리를 사용하여 프로젝트를 [](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) 다시 구성해야 합니다.
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -82,7 +82,7 @@ s.debugTracking = false; // set to false or remove line
 
 ## 2015년 8월 20일 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
 
-Version 4.0 - Update:
+버전 4.0 - 업데이트:
 
 * 방문자 API 1.5.1 포함.
 
@@ -132,7 +132,7 @@ Version 4.0 - Update:
 
 릴리스 날짜: **2014년 4월 17일**
 
-* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+* Experience Cloud [방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)지원
 
 ## 버전 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
@@ -202,7 +202,7 @@ Version 4.0 - Update:
 
 릴리스 날짜: **2012년 11월 8일**
 
-* Internal updates for  integration.[!DNL Audience Manager]
+* 통합을 위한 내부 [!DNL Audience Manager] 업데이트
 
 ## 버전 3.5.1 {#section_F6345AC9F4994D6F97BBCF399B02BB21}
 
