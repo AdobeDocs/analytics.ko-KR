@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: FAQ
 title: FAQ
-uuid: 05724 F 56-CF 98-4 AD 8-AD 0 D -83 A 5 A 4 B 1944 A
+uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -99,7 +99,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>마케팅 채널</b> 보고서에 Advertising Analytics 지표를 보고할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>A: 아니요, 마케팅 채널 보고서에는 이러한 지표가 포함되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>A:아니요. 마케팅 채널 보고서에는 포함되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: 검색 데이터를 <b>언제</b> Analytics로 가져옵니까? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: google.com 또는 <b>국가 버전</b>(google.co.uk, google.it, google.fr 또는 google.de)에서만 캡처합니까? </p> </td> 
-   <td colname="col2"> <p>A: 광고 플랫폼 분류는 다음 값을 캡처합니다. «Google Adwords» 및 «Bing Ads». </p> <p>일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그 이후에 필터링하거나 분류할 수 있습니다(예: 모든 캠페인이 countrycode_로 시작하는 경우 캠페인(AMO ID)이 'UK_'로 시작하는 세그먼트를 생성하여 영국에 대한 데이터만 제공). </p> </td> 
+   <td colname="col2"> <p>A:광고 플랫폼 분류는 다음 값을 캡처합니다."Google Adwords" 및 "Bing Ads". </p> <p>일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그 이후에 필터링하거나 분류할 수 있습니다(예: 모든 캠페인이 countrycode_로 시작하는 경우 캠페인(AMO ID)이 'UK_'로 시작하는 세그먼트를 생성하여 영국에 대한 데이터만 제공). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: 지표 'AMO 비용'은 검색 엔진에서 보고한 대로 각 키워드/광고에 대해 지불되는 비용입니다. 이것은 순비용 또는 총비용입니까? </p> </td> 
