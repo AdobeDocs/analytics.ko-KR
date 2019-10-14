@@ -5,7 +5,7 @@ seo-title: 통합 배포
 title: 통합 배포
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -118,7 +118,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Demandbase 차원 값을 Adobe Analytics로 보낼 때 구분 기호로 사용됩니다. 이 설정을 변경하면 기본 분류 규칙이 제대로 작동하지 않을 수 있습니다. </td> 
+   <td colname="col2"> Demandbase 차원 값을 Adobe Analytics로 전송할 때 구분 기호로 사용됩니다. 이 설정을 변경하면 기본 분류 규칙이 제대로 작동하지 않을 수 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
@@ -192,9 +192,7 @@ DigitalPulse 디버거 도구를 사용하여 Demandbase 차원 데이터가 Ado
 
 ![](assets/debugger1.png)
 
-**Target Mbox에는 Demandbase 프로필 매개 변수가 포함되어 있습니다.**
-
-페이지에 Target이 구현되어 있고 이 통합이 Adobe Target용으로 구성된 경우에만 이 옵션이 표시됩니다. Adobe 통합 마법사의 4단계를 참조하십시오.
+**** Target Mbox에는 Demandbase 프로필 매개 변수가 포함되어 있습니다.페이지에 Target이 구현되어 있고 이 통합이 Adobe Target용으로 구성된 경우에만 이 옵션이 표시됩니다. Adobe 통합 마법사의 4단계를 참조하십시오.
 
 ![](assets/debugger2.png)
 
