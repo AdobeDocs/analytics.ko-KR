@@ -6,9 +6,9 @@ seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
 topic: 개발자 및 구현
-uuid: 3891 E 2 AA-D 5 C 1-4 A 2 B -8522-EB 2 BAE 39 EA 2 E
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->이 버전은 플러그인의 베타 버전이며 향후 업데이트될 예정입니다.
+>이 플러그인은 베타 버전이며 추가 업데이트가 제공될 수 있습니다.
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+이 플러그인을 사용하려면 [getVisitStart가 필요합니다](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
 이 플러그인은 브라우저 내에 해당 페이지가 표시되었던 총 초(활성 및 수동 보기 시간 모두)도 기록합니다. 페이지 가시성 이벤트와 연관된 이전 페이지 이름을 추적하려면 getPreviousValue 플러그인을 사용해야 합니다. 이러한 값을 추적하면 사용자 사이트에서 방문자 참여를 더 잘 이해하고 방문자 행동을 더 정확히 추적하는 데 유용합니다.
 
@@ -29,7 +29,7 @@ This plug-in requires [getVisitStart](../../../implement/js-implementation/plugi
 
 >[!NOTE]
 >
->다음 지침을 따르면 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+>다음 지침에 따라 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## 필요한 플러그인 지원 {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -108,11 +108,11 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * 매우 적은 비율의 사용자가 브라우저 한계로 인해 보여진 페이지 비율 데이터를 전달하지 않는데 그 결과 데이터가 왜곡되지 않도록 하기 위해 플러그인 내에 논리가 포함됩니다. 하지만 이 플러그인은 IE, Firefox, Chrome 및 Safari에서 성공적으로 테스트되었습니다.
 * 플러그인이 총 초를 측정하고 이전 페이지 이름과 그 값을 연관시키는 방법으로 인해 페이지에서 보낸 기본 시간 지표와 총 초 지표 사이에 차이가 생깁니다.
-* [!UICONTROL 계산된 지표를] 만들어 이러한 지표와 연관된 방문자 행동을 요약 및 이해하는 데 도움이 됩니다.
+* [!UICONTROL 계산된 지표를] 만들어 이러한 지표와 연관된 방문자 행동을 요약 및 이해할 수 있습니다.
 
-   * ** 페이지 가시성** (총 페이지 가시성 초/총 페이지 초)
-   * ** 총 숨겨진 초** (총 페이지 초 - 총 페이지 가시성 초)
-   * ** 평균 페이지 가시성 초** (총 페이지 가시성 초/총 페이지 가시성 인스턴스)
+   * **페이지 가시성 비율**(총 페이지 가시성 초/총 페이지 초)
+   * **총 숨겨진 초** (총 페이지 초 - 총 페이지 가시성 초)
+   * **평균 페이지 가시성 초**(총 페이지 가시성 초/총 페이지 가시성 인스턴스)
    * **평균 페이지 숨겨진 초**((총 페이지 초 - 총 페이지 가시성 초)/총 페이지 가시성 인스턴스)
 
 * 플러그인이 초를 반올림하는 방법으로 인해 총 페이지 가시성 초와 총 초 사이에 1~2초의 차이가 나면서 총 초가 더 높아질 수 있습니다. (향후 업데이트로 해결될 예정).
@@ -120,15 +120,15 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## FAQ {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-** 이 플러그인은 추가 서버 호출을 제공합니까? **
+**이 플러그인이 추가로 서버를 호출합니까?**
 
 이 플러그인은 연속된 페이지 보기 서버 호출에 페이지 보기 값만 기록합니다. 결합되어 사용되는 추가 서버 호출은 없습니다.
 
-**총 페이지 초 또는 총 페이지 가시성 인스턴스를 캡처하지 않으려면 이벤트 리스트에서 제거할 수 있습니까? **
+**총 페이지 초 또는 총 페이지 가시성 인스턴스를 캡처하지 않으려면 이벤트 리스트에서 제거할 수 있습니까?**
 
 예. 총 페이지 초 및 총 가시성 인스턴스는 선택적 이벤트로 원한다면 목록에서 제거할 수 있습니다.
 
-** 이전 페이지 이름 이외의 보고서에서 캡처한 이벤트는 의미가 있습니까? **
+**이전 페이지 이름 이외의 캡처된 이벤트를 보고서에 사용할 수 있습니까?**
 
 이 플러그인이 연속된 이미지 요청 값을 기록하기 때문에 '이전 페이지' 컨텍스트에 캡처된 다른 eVar, 즉 '이전 페이지 URL'만 적용될 수 있습니다.
 
