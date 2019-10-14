@@ -1,18 +1,18 @@
 ---
 description: AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등급 및 조건부 필터.
 seo-description: AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등급 및 조건부 필터.
-seo-title: 가장 빈도가 높은 필터링
+seo-title: 가장 자주 사용하는 필터링
 solution: Analytics
-title: 가장 빈도가 높은 필터링
+title: 가장 자주 사용하는 필터링
 topic: Report Builder
-uuid: 558 FA 592-41 BE -4 E 66-8705-81262 AFE 1 FC 7
+uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 가장 빈도가 높은 필터링
+# 가장 자주 사용하는 필터링
 
 AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등급 및 조건부 필터.
 
@@ -35,7 +35,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >필터를 기존 요청에 적용하면 표시된 데이터가 변경됩니다. 상위 10개 [!UICONTROL 페이지]를 $A$1부터 $A$10까지의 셀들에 매핑했고 여기서[!UICONTROL 시작 등급]은 1이고 [!UICONTROL 항목 수]는 10이라고 가정해 보십시오. 이 값들을 변경하여 [!UICONTROL 시작 등급]에 1을 표시하고 [!UICONTROL 항목 수]에 3만 표시하면 이전에 $A$4부터 $A$10까지의 셀들을 채우던 데이터는 더 이상 표시되지 않게 됩니다.
+   >기존 요청에 필터를 적용하면 표시된 데이터가 변경됩니다. 상위 10개 [!UICONTROL 페이지]를 $A$1부터 $A$10까지의 셀들에 매핑했고 여기서[!UICONTROL 시작 등급]은 1이고 [!UICONTROL 항목 수]는 10이라고 가정해 보십시오. 이 값들을 변경하여 [!UICONTROL 시작 등급]에 1을 표시하고 [!UICONTROL 항목 수]에 3만 표시하면 이전에 $A$4부터 $A$10까지의 셀들을 채우던 데이터는 더 이상 표시되지 않게 됩니다.
 
 1. To create a search expression, click **[!UICONTROL Add]**.
 
@@ -45,7 +45,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![select_cell_icon.png](assets/select_cell_icon.png): 셀의 값에 정의된 조건을 찾을 수 있도록 해줍니다.
 
-   ** 조건 추가: ** 표현식에 조건을 추가합니다. 추가할 수 있는 조건 수에는 제한이 없습니다.
+   **조건 추가:** 표현식에 조건을 추가합니다. 추가할 수 있는 조건 수에는 제한이 없습니다.
 
 1. **[!UICONTROL 확인을 클릭합니다]**.
 
