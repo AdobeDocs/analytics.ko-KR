@@ -1,18 +1,18 @@
 ---
 description: 항목을 스프레드시트에 매핑하기 전에 스프레드시트가 보호되지 않도록 하십시오. 워크시트에 대한 보호 스키마로 인해 사용자 작업이 불가능할 경우에는 스프레드시트에서 셀을 선택할 수 없게 됩니다. 이 경우 먼저 시트의 보호를 해제한 다음 셀 매핑을 추가합니다.
 seo-description: 항목을 스프레드시트에 매핑하기 전에 스프레드시트가 보호되지 않도록 하십시오. 워크시트에 대한 보호 스키마로 인해 사용자 작업이 불가능할 경우에는 스프레드시트에서 셀을 선택할 수 없게 됩니다. 이 경우 먼저 시트의 보호를 해제한 다음 셀 매핑을 추가합니다.
-seo-title: 지표와 차원을 셀에 매핑
+seo-title: 지표 및 차원을 셀에 매핑
 solution: Analytics
-title: 지표와 차원을 셀에 매핑
+title: 지표 및 차원을 셀에 매핑
 topic: Report Builder
-uuid: 50893 E 1 C -5 F 2 C -4558-8001-41 E 70 D 74 D 6 E 7
+uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 지표와 차원을 셀에 매핑
+# 지표 및 차원을 셀에 매핑
 
 항목을 스프레드시트에 매핑하기 전에 스프레드시트가 보호되지 않도록 하십시오. 워크시트에 대한 보호 스키마로 인해 사용자 작업이 불가능할 경우에는 스프레드시트에서 셀을 선택할 수 없게 됩니다. 이 경우 먼저 시트의 보호를 해제한 다음 셀 매핑을 추가합니다.
 
@@ -26,24 +26,22 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [셀 선택 기술](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [매핑 시 문제](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
-## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
+## 셀 범위 선택 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
 [!UICONTROL 요청 마법사: 2단계]에서, 트렌드 요청에 대해 [!UICONTROL 사용자 지정 레이아웃]을 활성화하면 요청을 셀 범위에 매핑할 수 있습니다.
 
-**[!UICONTROL 범위 선택기]** ![select_ cell_ icon. png를 클릭합니다.](assets/select_cell_icon.png)
+범위 **[!UICONTROL 선택기]** select_cell_icon.png ![를 클릭합니다.](assets/select_cell_icon.png)
 
 을 클릭합니다.
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). 이 선택 사항을 사용하여 Report Builder가 자동으로 셀을 선택하도록 하십시오.
-
-* ** 범위 방향: ** 셀 범위를 열 또는 행으로 방향을 지정할 수 있습니다.
+* **범위의 모든 셀:** [!UICONTROL 사용자 지정 레이아웃] 스타일 요청에 대한 셀 그룹을 선택해야 합니다.
+* **범위의 첫 번째 셀:** 범위의 맨 위 왼쪽 셀을 선택하도록 하고 [!UICONTROL 범위] 방향을 표시하여 입력 및 출력 셀의 수평 또는 수직 방향(열 또는 행)을 지정합니다. 이 선택 사항을 사용하여 Report Builder가 자동으로 셀을 선택하도록 하십시오.
+* **범위 방향:** 셀 범위를 열 또는 행으로 방향을 정하도록 합니다.
 * **범위의 위쪽 셀 위치 선택:** 셀 참조를 표시합니다.
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
 
-**[!UICONTROL 범위 선택]** 아이콘 ![select_ cell_ icon. png를 클릭하여 데이터를 선택합니다.](assets/select_cell_icon.png)
+You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![select_cell_icon.png](assets/select_cell_icon.png)
 
 을 클릭하고 스프레드시트의 원하는 셀 범위를 마우스로 클릭한 채 드래그하여 데이터를 선택합니다. 연속적인 선택은 검정색 테두리로 표시됩니다.
 
@@ -74,6 +72,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * [!UICONTROL 요청 관리자]를 실행하고 테이블에 나열된 개별 요청을 클릭합니다. 요청을 클릭하면 요청이 매핑된 스프레드시트의 셀이 강조 표시됩니다.
 * 새 매핑에 사용할 스프레드시트의 셀을 선택하고 [!UICONTROL 시트에서]를 클릭합니다. [!UICONTROL 요청 관리자]가 선택한 셀을 교차할 출력 항목이 있는 목록의 요청을 선택합니다. 선택한 요청이 없으면 셀을 사용할 수 있습니다.
-
 * 스프레드시트에서 셀을 선택하고 컨텍스트 메뉴를 마우스 오른쪽 단추로 클릭한 다음 [!UICONTROL 요청 편집]을 사용할 수 있는지 확인합니다. 사용할 수 있으면 이 셀과 연결된 요청이 있습니다.
-
