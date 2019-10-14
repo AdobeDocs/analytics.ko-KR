@@ -1,12 +1,12 @@
 ---
 description: 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다.
-keywords: 계산된 지표; 파생된 지표; 고급 계산된 지표
+keywords: 계산된 지표;파생 지표;고급 계산된 지표
 seo-description: 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다.
 seo-title: 계산 및 고급 계산(파생) 지표
 title: 계산 및 고급 계산(파생) 지표
-uuid: 2553 C 115-B 15 A -4109-8 DE 2-733 DBC 1 EEB 9 E
+uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,14 +19,14 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 >
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 속성 모델로 마이그레이션되었습니다.
 >
->* «마케팅 채널 마지막 터치» 및 «마케팅 채널 첫 번째 터치» 할당 모델이 각각 새로운 «마지막 터치» 및 «첫 번째 터치» 기여도 모델로 마이그레이션되었습니다 (참고: «마케팅 채널» 는 더 이상 사용되지 않으며 계산된 지표에 나타나는 두 개의 할당 모델만 있습니다.
->* 선형 할당이 계산되는 방식을 수정했습니다. 고객이 선형 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
+>* "마케팅 채널 마지막 터치" 및 "마케팅 채널 첫 번째 터치" 할당 모델이 각각 새로운 "마지막 터치" 및 "첫 번째 터치" 속성 모델로 마이그레이션되었습니다(참고:"마케팅 채널"은 더 이상 사용되지 않습니다. 계산된 지표에 나타나는 두 개의 할당 모델만 있습니다.
+>* 또한 선형 할당이 계산되는 방식을 수정했습니다. 고객이 선형 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
 
 
 Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
 * Adobe [!DNL Analytics] Foundation: Calculated
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): 계산됨 + 고급 계산됨
+* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html):계산 + 고급 계산
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): 계산된 + 고급 계산된 지표
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): 계산된 + 고급 계산된 지표
 
@@ -46,7 +46,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 You can
 
-* [!UICONTROL 분석 작업 공간], [!UICONTROL 보고 및 분석], [!UICONTROL 애드혹 분석], [!UICONTROL 리포트 빌더], [!UICONTROL 예외 항목 탐지]및 [!UICONTROL 기여도 분석에 대한 지표를 만듭니다].
+* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
 * [구현을 변경하지 않고도](https://youtu.be/CuQTm9RaUpY) 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다.
 * 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
 * (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 이번이 첫 번째 세션인 사람의 수로, "새 방문자 수"에 대한 지표를 만들 수 있습니다.
@@ -72,7 +72,7 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
 
 ## 도구 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-[!UICONTROL 다음은 계산된 지표] 도구에 대한 간단한 개요입니다.
+Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
@@ -110,7 +110,7 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
   </tr> 
   <tr> 
    <td colname="col1"> 지표 선택기 레일 </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in [!UICONTROL Reports &amp; Analytics]. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해줍니다.   <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">정렬</a> 순서(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img placement="break" align="center"  src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Reports &amp; Analytics에서 <span class="uicontrol">지표 표시</span><span class="uicontrol"> 팝업을 대체합니다</span>. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해줍니다.   <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">정렬</a> 순서(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> 계산된 지표에 대한 API</a> </td> 
