@@ -5,9 +5,9 @@ seo-title: 세그먼트 관리
 solution: Analytics
 title: 세그먼트 관리
 topic: Report Builder
-uuid: 4 E 4 EDC 39-ED 93-498 F -913 D -7 B 231 B 10 E 7 A 0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -24,7 +24,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 >[!NOTE]
 >
->세그먼트를 추가하거나 편집하려면 리포트 빌더 세그먼트 인터페이스가 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 실행합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
+>세그먼트를 추가하거나 편집하려면 리포트 빌더 세그먼트 인터페이스에서 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
 
 1. 요청 마법사 1단계의 세그먼트 패널에서 **[!UICONTROL 추가를 클릭합니다]**.
 1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)를 참조하십시오.
@@ -33,7 +33,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 >[!IMPORTANT]
 >
->새로 고침을 수행하지 않으면 이 목록은 캐시되고 새로 만든 세그먼트는 나타나지 않습니다.
+>이 목록은 캐시되고 새로 만든 세그먼트는 새로 고치지 않는 한 표시되지 않습니다.
 
 ## 컨텍스트 내 세그먼트 만들기 {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +57,7 @@ Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 또는 Data Warehouse�
 
 지정된 요청에 하나 또는 여러 개의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
-1. **[!UICONTROL 세그먼트]** 드롭다운 목록으로 이동하고** 세그먼트[!UICONTROL 선택]** 상자에 있는 작은 아래쪽 화살표를 클릭하여 모든 세그먼트를 표시합니다.
+1. **[!UICONTROL 세그먼트]** 드롭다운 목록으로 이동한 후 **세그먼트 선택[!UICONTROL 상자의 작은 아래쪽 화살표를 클릭하여 모든 세그먼트를 표시합니다.]**
 
    ![](assets/seg_list.png)
 
@@ -65,7 +65,7 @@ Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 또는 Data Warehouse�
 
 >[!NOTE]
 >
->관리자 또는 관리자가 아닌 경우 리포트 빌더에서 소유하는 세그먼트와 사용자와 공유된 세그먼트만 볼 수 있습니다. (마케팅 Reports &amp; Analytics 사용자 인터페이스에서 관리자는 조직의 모든 세그먼트를 볼 수 있습니다.)
+>관리자이든 관리자가 아니든, 리포트 빌더에서는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트만 볼 수 있습니다. (마케팅 Reports &amp; Analytics 사용자 인터페이스에서 관리자는 조직의 모든 세그먼트를 볼 수 있습니다.)
 
 ## 세그먼트 필터링 {#section_376E986D3E684999A7CDB08E53854159}
 
