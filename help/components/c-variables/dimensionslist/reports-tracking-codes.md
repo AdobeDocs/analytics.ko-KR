@@ -7,7 +7,7 @@ title: 추적 코드
 topic: 보고서
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * 페이지 보기, 방문, 및 고유 방문자를 지표로 사용할 수 있습니다.
 * 이 보고서는 세그먼트를 사용할 수 있습니다.
 
-** 애드혹 분석 속성**
+**Ad Hoc Analysis 속성**
 
 * 대부분의 기본 전환 변수 외에도, 보고 인터페이스 내의 다른 모든 보고서를 기준으로 추적 코드 보고서를 분류할 수 있습니다.
 * 전자 상거래 및 사용자 지정 이벤트 외에도, 모든 전환 및 트래픽 지표와 모든 전환 지표에 대한 다른 할당을 사용할 수 있습니다.
