@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: 변수
 title: 페이지 변수
 topic: 개발자 및 구현
-uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
+uuid: 2578edd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -94,7 +94,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 ## campaign {#concept_C7BF7B8A69D048A6AB482052A98A91F8}
 
- 변수는 사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별합니다. The value of  is usually taken from a query string parameter.
+ 변수는 사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별합니다. 의 값은 일반적으로 쿼리 문자열 매개 변수에서 가져옵니다.
 
 <!-- 
 
@@ -129,9 +129,9 @@ There are two main ways to populate the *`campaign`* variable:
 
 * JavaScript 파일에서 사용되는 [!UICONTROL getQueryParam] 플러그인은 URL의 쿼리 문자열 매개 변수를 검색합니다. [!UICONTROL getQueryParam] 플러그인에 대한 자세한 내용은 [구현 플러그인](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* Assign a value to the  variable in the HTML on the Web page.*`campaign`*
+* 웹 페이지의 HTML에서 변수에 값을 *`campaign`* 지정합니다.
 
-With either method of populating the  variable, the Back button traffic may inflate the actual number of click-throughs from a campaign element.*`campaign`*
+변수를 채우는 방법 중 하나로 [뒤로] 단추 트래픽이 캠페인 요소에서 실제 클릭스루 수를 부풀릴 수 있습니다. *`campaign`*
 
 방문자가 유료 검색 키워드를 클릭하여 사이트에 들어올 때를 예로 들어봅시다. 방문자가 랜딩 페이지에 도착할 때 URL에는 해당 키워드의 추적 코드를 식별하는 쿼리 문자열 매개 변수가 들어 있습니다. 방문자가 다른 페이지로 가는 링크를 클릭하지만 즉시 [뒤로] 단추를 클릭하여 랜딩 페이지로 다시 돌아갑니다. 방문자가 랜딩 페이지에 두 번째로 도착할 때 쿼리 문자열 매개 변수가 포함된 URL이 추적 코드를 다시 식별합니다. 그리고 두 번째 클릭스루가 등록되고 그에 따라 클릭스루의 수가 잘못 부풀려집니다.
 
@@ -226,7 +226,7 @@ colordepth.xml
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>이 변수는 읽기만 하고 설정해서는 안 됩니다.
 
 이 값을 읽고 `props/eVars`에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -312,7 +312,7 @@ eVar가 방문자에 대한 값으로 설정되면 이 값은 만료되기 전�
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| 255바이트 | V1-v75 ( or v100 or v250)[](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28) | 사용자 지정 전환 | "" |
+| 255바이트 | V1-v75( [또는 v100 또는 v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | 사용자 지정 전환 | "" |
 
 **만료** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -434,7 +434,7 @@ events.xml
 
 **변수 구성** {#section_9195286C34C54B02B2598E2B856492C3}
 
-[!UICONTROL s.events] 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. 새 사용자 지정 이벤트(event1~ [event100 또는 event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28))는 관리자 수준 사용자가 관리 콘솔을 사용하여 활성화할 수 있습니다.
+[!UICONTROL s.events] 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. New custom events (event1- [event100 or event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) can be enabled by any admin-level user using the Admin Console.
 
 **가능한 값** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -563,7 +563,7 @@ s.hier4="Sports/Local Sports/Baseball"
 
 >[!NOTE]
 >
->Changes to hierarchies can result in a service charge.
+>계층을 변경하면 서비스 요금이 발생할 수 있습니다.
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -727,7 +727,7 @@ The *`linkType`* variable is not normally needed because the second parameter in
 
 사용자 지정 링크는 데이터를 Analytics로 보냅니다. The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
 
-종료 및 다운로드 링크의 경우, 클릭한 링크가 종료 링크인지 다운로드 링크인지에 따라 변수가 자동으로 채워집니다. *`linkType`* A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. By setting  to 'o,' 'e,' or 'd,' the  or link URL is sent to the Custom Links, Exit Links, or File Downloads report respectively.*`linkType`**`linkName`*
+종료 및 다운로드 링크의 경우, 클릭한 링크가 종료 링크인지 다운로드 링크인지에 따라 변수가 자동으로 채워집니다. *`linkType`* A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. 'o', 'e' 또는 'd' *`linkType`* 로 설정하면 *`linkName`* 또는 링크 URL이 각각 사용자 지정 링크, 종료 링크 [!UICONTROL 또는]파일 다운로드 [!UICONTROL 보고서에]전송됩니다  .
 
 **구문 및 가능한 값** {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
@@ -770,7 +770,7 @@ list_props.xml
 
 **고려 사항**
 
-* 목록 Prop은 트래픽 변수( [props](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)).
+* 목록 Prop은 트래픽 변수([prop](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254))에서만 활성화됩니다.
 * 경로 지정 및 상관 관계는 목록 prop에 대해 활성화할 수 없습니다.
 * Analytics에서는 모든 목록 prop 보고서를 포함하여 거의 모든 보고서에 방문 횟수 및 방문자 수를 제공합니다.
 * 목록 Prop에는 분류가 지원됩니다.
@@ -989,7 +989,7 @@ mediaLength.xml
 
 **구문 및 가능한 값** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** autoTrack 메서드: **
+**autoTrack 메서드:**
 
 [!UICONTROL s.Media.autoTrack]을 사용하는 경우에는, [!UICONTROL mediaLength] 변수를 명시적으로 구현할 필요가 없습니다. JavaScript용 AppMeasurement 코드에 의해 자동으로 결정됩니다.
 
@@ -1629,7 +1629,7 @@ The *`purchase`* event should be set on the final confirmation ("Thank You!") �
 
 **제품별 통화 이벤트** {#section_F814DF053C0D463A97DA039E6323720C}
 
-If a currency event receives a value in the  variable instead of the events variable, it applies only to that value. *`products`* 제품별 할인, 제품 배송 및 유사한 값을 추적하는 데 유용합니다. 예를 들어, 이벤트 1을 제품 배송을 추적하도록 구성한 경우, 배송비가 "4.50"인 제품이 다음과 유사하게 나타납니다.
+통화 이벤트가 이벤트 변수 대신 *`products`* 변수에서 값을 받는 경우 해당 값만 적용됩니다. 제품별 할인, 제품 배송 및 유사한 값을 추적하는 데 유용합니다. 예를 들어, 이벤트 1을 제품 배송을 추적하도록 구성한 경우, 배송비가 "4.50"인 제품이 다음과 유사하게 나타납니다.
 
 ```js
 s.events="event1" 
@@ -1750,7 +1750,7 @@ s.prop15="toy category"
 
 ## purchaseID {#concept_21937434E63F413CB469007623B933AE}
 
-The  is used to keep an order from being counted multiple times in reporting.
+A는 보고에서 주문이 여러 번 카운트되지 않도록 하는 데 사용됩니다.
 
 <!-- 
 
@@ -1878,7 +1878,7 @@ By creating a unique object ID for a link or link location on a page, you can ei
 |---|---|---|---|
 | 100바이트 | OID | [!UICONTROL Activity Map], [!UICONTROL ClickMap] | 클릭한 링크의 절대 URL |
 
-There are three common reasons to use *`s_objectID`*:
+다음 세 가지 일반적인 이유 *`s_objectID`*:
 
 * 하루 동안 자주 변하는 방문자 활동을 집계하기 위해
 * To separate link activity that [!UICONTROL Activity Map] combines.
@@ -1886,7 +1886,7 @@ There are three common reasons to use *`s_objectID`*:
 
 **매우 동적인 링크에 대한 클릭 집계** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
-If your site is highly dynamic, and links on some pages change throughout the day,  may used to identify the location of a link on the page. *`s_objectID`* 예를 들어 페이지의 왼쪽 상단에 있는 첫 번째 링크를 나타내는 "top left 1" 또는 "top left 2"로 *`s_objectID`* 설정하면 해당 위치에 나타나는(또는 동일한 값으로 *`s_objectID`* 설정된) 모든 링크가 방문자 클릭 맵과 함께 보고됩니다. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
+사이트가 매우 다이내믹하고 일부 페이지의 링크가 하루 종일 변경되는 경우, 페이지에서 링크 위치를 식별하는 데 사용될 *`s_objectID`* 수 있습니다. 예를 들어 페이지의 왼쪽 상단에 있는 첫 번째 링크를 나타내는 "top left 1" 또는 "top left 2"로 *`s_objectID`* 설정하면 해당 위치에 나타나는(또는 동일한 값으로 *`s_objectID`* 설정된) 모든 링크가 방문자 클릭 맵과 함께 보고됩니다. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
 
 **결합된 클릭 구분** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
@@ -2141,13 +2141,13 @@ transactionID.xml
 
  -->
 
-Adobe에 전송된 각 고유 *`transactionID`*&#x200B;는 해당 거래에 대한 오프라인 정보의 [!UICONTROL 데이터 소스] 업로드를 준비하면서 기록됩니다. [ 데이터 소스](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)를 참조하십시오.
+Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!UICONTROL Data Sources] upload of offline information about that transaction. [ 데이터 소스](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)를 참조하십시오.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | 100바이트 | xact | n/a | "" |
 
-**Enable Transaction ID Storage** {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
+**거래 ID 스토리지 사용**{#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
 
 Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage] must be enabled for the report suite selected in the Report Suite Manager. 이 설정은 다음 위치에 있습니다.
 
@@ -2155,7 +2155,7 @@ Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage
 Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
 ```
 
-보고서 세트에 대해 *`transactionID Storage`*&#x200B;이 활성화되어 있으면, 다음 위치로 이동하십시오.
+보고서 세트에 *`transactionID Storage`* 대해 활성화되었는지 확인하려면
 
 ```
 Analytics > Admin > Data Sources > Manage
@@ -2185,11 +2185,11 @@ s.transactionID=s.purchaseID
 
 **함정, 질문 및 팁** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* If  recording is not enabled,  values will be discarded and unavailable for use with Integration Data Sources. *`transactionID`**`transactionID`* Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. 설정되지 않으면 *`transactionID`*.
+* 레코딩을 사용할 수 없는 *`transactionID`* 경우 *`transactionID`* 값은 삭제되고 통합 데이터 소스와 함께 사용할 수 [!UICONTROL 없습니다]. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. 설정되지 않으면 *`transactionID`*.
 
-* If you are recording transactionIDs for multiple systems, such as purchases and leads, make sure the value in  is always unique. *`transactionID`* lead_1234 및 purchase_1234와 같이 ID에 접두사를 추가하면 됩니다. [!UICONTROL Integration Data Sources] 는 고유한 [!UICONTROL 데이터가 두 번 표시되는 경우] 예상대로 작동하지 않습니다( *`transactionID`* 데이터 소스 데이터는 잘못된 데이터에 연결됨).
+* 구매 및 리드와 같은 여러 [!UICONTROL 시스템에] 대해 transactionID를 기록하는 경우, in 값이 항상 *`transactionID`* 고유한지 확인하십시오. lead_1234 및 purchase_1234와 같이 ID에 접두사를 추가하면 됩니다. [!UICONTROL Integration Data Sources] 는 고유한 [!UICONTROL 데이터가 두 번 표시되는 경우] 예상대로 작동하지 않습니다( *`transactionID`* 데이터 소스 데이터는 잘못된 데이터에 연결됨).
 
-* By default,  values are remembered for 90 days. *`transactionID`* 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 한계를 늘리십시오.
+* 기본적으로 *`transactionID`* 값은 90일 동안 기억됩니다. 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 한계를 늘리십시오.
 
 >[!NOTE]
 >
