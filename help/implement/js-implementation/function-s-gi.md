@@ -6,9 +6,9 @@ seo-title: s_gi() 함수
 solution: Analytics
 title: s_gi() 함수
 topic: 개발자 및 구현
-uuid: a 77 de 90 e-c 60 e -4946-90 cf-deaf 8 aa 3 d 755
+uuid: a77de90e-c6 파섹
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -29,10 +29,9 @@ var s=s_gi('rsid1,rsid2')
 
 다음 테이블은 후속 호출에서 무엇이 반환되는지 설명합니다.
 
-| ** s_gi 후속 호출** | ** 반환되는 개체 설명** |
+| **s_gi 후속 호출** | **반환되는 개체 설명** |
 |---|---|
 | `s=s_gi('rsid1,rsid2')` | 앞서 참조된 것과 같은 개체가 반환됩니다. |
 | `s=s_gi('rsid1')` | 앞서 생성된 개체의 원본이 아닌 사본이 반환됩니다. |
 | `s=s_gi('rsid1,rsid3')` | 앞서 생성된 개체의 원본이 아닌 사본이 반환됩니다. |
 | `s=s_gi('rsid3')` | 구성 변수가 설정되지 않은 새로운 빈 개체(예: linkTrackVars와 linkDownloadFileTypes 모두 비어 있음)가 반환됩니다. |
-
