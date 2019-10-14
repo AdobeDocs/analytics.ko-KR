@@ -1,21 +1,21 @@
 ---
 description: 'null'
-keywords: 세그멘테이션; 세그먼트
+keywords: 세그먼트
 seo-description: 'null'
 seo-title: FAQ
 solution: Analytics
 title: FAQ
 topic: 세그먼트
-uuid: f 49 dc 829-1 d 53-4183-9 add -1 aeaa 5219 d 89
+uuid: f49dc829-1d53-4183-9add-1aeaa5219d 파섹
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # FAQ
 
-세그멘테이션 기능, 액세스, 권한, 우수 사례 및 기존 세그먼트 관리에 대한 자주 묻는 질문에 대답합니다.
+세그멘테이션 기능, 액세스, 권한, 우수 사례 및 이전 세그먼트 관리에 대한 자주 묻는 질문에 대한 답변입니다.
 
 ## 기능 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -27,7 +27,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 * [여러 세그먼트를 보고서 또는 프로젝트에 적용](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)할 수 있습니다.
 * 세그먼트는 모든 보고서 세트에 범용입니다.
-* [세그먼트 빌더는](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) 세그먼트 작성을 단순화합니다.
+* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
 * [세그먼트 관리자](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF)를 설정할 수 있습니다.
 
 * [세그먼트를 태그 지정](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
@@ -37,7 +37,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 자세한 내용은 디지털 마케팅 블로그의 [Adobe Analytics에서의 세그멘테이션 개선](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) 게시물을 참조하십시오.
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## 세그멘테이션 도구 액세스 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **세그먼트 빌더로 이동하는 방법**
 
@@ -63,9 +63,9 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 **이전 세그먼트 드롭다운은 어디로 이동했습니까?**
 
-Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 "범용" 세그먼트를 만들 수 있습니다. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 "범용" 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 세그먼트 아이콘을 클릭합니다 ![](assets/segment_icon.png)
 
-왼쪽 탐색에서 세그먼트 레일이 표시됩니다.
+왼쪽 탐색 창에 세그먼트 레일이 표시됩니다.
 
 **이전 보고서 세트 드롭다운은 어디로 이동했습니까?**
 
@@ -79,7 +79,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만, 관리자는 [세그먼트를 만들 수 있는 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
-관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [더 보기...](../../components/c-segmentation/seg-reference/seg-rights.md)
+관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](../../components/c-segmentation/seg-reference/seg-rights.md)
 
 **회사의 세그먼트를 볼 수 있습니까?**
 
@@ -145,7 +145,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 **Data Warehouse 세그먼트에 나타나는 결과**
 
-모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 데이터 웨어하우스 세그먼트는 분석 작업 공간, 애드혹 분석, 보고 및 분석과 같은 다른 구성 요소에서 작동합니다.
+모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 데이터 웨어하우스 세그먼트는 분석 작업 공간, 애드혹 분석 및 보고 및 분석과 같은 다른 구성 요소에서도 작동합니다.
 
 세그먼트 빌더/관리자에서 새 Data Warehouse 세그먼트를 만들거나 편집할 수 있습니다. 세그먼트 빌더의 제품 호환성 메커니즘은 세그먼트가 Data Warehouse와 호환되는지의 여부를 자동으로 확인합니다.
 
@@ -167,7 +167,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
 
-** Experience Cloud (Suite) 세그먼트에 나타나는 결과: **
+**Experience Cloud (Suite) 세그먼트에 나타나는 결과:**
 
 * 비구매자
 * 구매자
@@ -202,12 +202,12 @@ seg_definition.xml
 다음 팁은 일반 차원을 마이그레이션하는 데 도움이 됩니다.
 
 * 지역-도시/지역/국가 - 부분 일치를 사용하지 않고 특정 도시, 지역 또는 국가를 검색하고 선택합니다.
-* 브라우저 - 브라우저 유형 차원을 사용하여 유형의 모든 브라우저 (예: Google Chrome) 를 가져옵니다.
-* 운영 체제 - OS 유형 차원을 사용하여 한 유형의 모든 운영 체제 (예: Microsoft Windows) 를 가져옵니다.
+* 브라우저 - 브라우저 유형 차원을 사용하여 유형의 모든 브라우저(예: Google Chrome)를 가져옵니다.
+* 운영 체제 - OS 유형 차원을 사용하여 모든 운영 체제를 Microsoft Windows 형식으로 가져옵니다.
 
 * [새 차원 및 이름이 변경된 차원](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Contains to Contains](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [보다 작음 및 다음보다 큼](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [포함 변경 사항](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [보다 작거나 큰 변경 사항](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 새 차원 및 이름이 변경된 차원 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
