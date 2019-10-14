@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,다이내믹 태그 관리
 title: 페이지 보기 및 콘텐츠
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,19 +28,19 @@ Analytics를 배포할 때 페이지 보기 및 컨텐츠 설정을 위한 다�
  <tbody> 
   <tr> 
    <td colname="col1"> 페이지 이름 </td> 
-   <td colname="col2"> <p>사이트에 있는 각 페이지의 이름입니다. </p> <p>[페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>사이트에 있는 각 페이지의 이름입니다. </p> <p>페이지 <a href="/help/implement/js-implementation/c-variables/page-variables.md">변수를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 페이지 URL 무시 </td> 
-   <td colname="col2"> <p> 페이지의 실제 URL을 무시합니다. </p> <p>[페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 페이지의 실제 URL을 무시합니다. </p> <p>페이지 <a href="/help/implement/js-implementation/c-variables/page-variables.md">변수를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 채널(사이트 섹션) </td> 
-   <td colname="col2"> <p>사이트의 섹션을 식별합니다.  </p> <p>자세한 내용은 [페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>사이트의 섹션을 식별합니다.  </p> <p>자세한 내용은 <a href="/help/implement/js-implementation/c-variables/page-variables.md">페이지 변수</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 계층 </td> 
-   <td colname="col2"> <p>사이트의 계층에서 페이지 위치를 결정합니다.  </p> <p>[페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>사이트의 계층에서 페이지 위치를 결정합니다.  </p> <p>페이지 <a href="/help/implement/js-implementation/c-variables/page-variables.md">변수를 참조하십시오</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
