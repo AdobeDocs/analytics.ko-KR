@@ -1,24 +1,24 @@
 ---
 description: 서버에 모든 사용량 경고를 추가하거나 관리합니다. 경고를 설정하면 청구 회사의 모든 로그인 회사에 있는 모든 보고서 세트에 적용됩니다.
 seo-description: 서버에 모든 사용량 경고를 추가하거나 관리합니다. 경고를 설정하면 청구 회사의 모든 로그인 회사에 있는 모든 보고서 세트에 적용됩니다.
-seo-title: 서버 호출 사용량 경고
-title: 서버 호출 사용량 경고
-uuid: 701 FD 542-5 B 24-42 DF -97 A 0-08 E 10929 FA 48
+seo-title: 서버 호출 사용 경고
+title: 서버 호출 사용 경고
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 서버 호출 사용량 경고
+# 서버 호출 사용 경고
 
 경고를 설정하면 청구 회사의 모든 로그인 회사에 있는 모든 보고서 세트에 적용됩니다.
 
 ## 개요
 
-**[!UICONTROL 서버 호출 사용량 경고라는]** 새 경고 카테고리는 기존 [경고 관리](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) 사용자 인터페이스의 일부입니다.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. 이 경고는 다음 조건 중 하나가 만족되는 경우 모든 로그인 회사의 관리자에게 해결된 알림을 트리거합니다.
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. 이 경고는 다음 조건 중 하나가 충족되는 경우 로그인 회사의 모든 관리자에게 알리는 알림을 트리거합니다.
 
 * 귀사에 부여된 서버 호출 유형에 대해 100%"보다 크거나 같은" "모든" 서버 호출 사용량 또는
 * 귀사에 부여된 서버 호출 유형에 대해 90%"보다 크거나 같은" "모든" 서버 호출 사용량 또는
@@ -35,7 +35,7 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
 추가 경고를 작성하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL + 추가를]** 클릭하고 **[!UICONTROL 서버 호출 사용량 경고를 선택합니다]**.
+1. Click **[!UICONTROL + Add]** and select **[!UICONTROL Server Call Usage Alert]**.
 
    ![](assets/server_call_alert.png)
 
@@ -43,18 +43,16 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    ![](assets/sc_alert.png)
 
-   * **title**: 수사적 이름을 지정합니다. 이름 없이 경고를 저장할 수 없습니다.
-   * **시간 세부기간**: 경고가 선택되는 빈도를 나타냅니다. *현재 주별 세분기간만 지원합니다.* 즉, 경고가 주별로 확인되며, 현재 사용 기간에서 데이터를 다시 확인함을 의미합니다.
-   * **받는**&#x200B;사람: 경고에서 지정된 임계값을 트리거할 때 이메일을 받아야 하는 조직의 모든 사람을 지정합니다.
-   * **만료 날짜**: 기본적으로 만료 날짜는 경고 작성 날짜로부터 1 년입니다.
+   * **제목**:수사적 이름을 지정합니다. 이름 없이 경고를 저장할 수 없습니다.
+   * **시간 세부기간**:경고를 확인하는 빈도를 나타냅니다. *현재 주별 세분기간만 지원합니다.* 즉, 경고가 주별로 확인되며, 현재 사용 기간에서 데이터를 다시 확인함을 의미합니다.
+   * **받는 사람**:경고가 지정된 임계값을 트리거할 때 이메일을 받아야 하는 모든 사람을 지정합니다.
+   * **만료 날짜**:기본적으로 만료 날짜는 경고 생성 날짜로부터 1년입니다.
    * **다음의 경우에 경고 보내기**:
 
-      * 이러한 지표 트리거는
-서버 호출/s 유형을 지표로 추가하고, 수정자 및 임계값을 선택하여 경고 임계값을 지정합니다.
+      * 이러한 지표 트리거 모두 서버 호출 유형을 지표로 추가하고 수정자와 임계값을 선택하여 경고 임계값을 지정합니다.
          * 위 또는 같음
          * 아래 또는 같음
-      * With
-specify the threshold and condition (is above or equals or is are or equals or equals or equals) used period spent.
+      * 사용 기간 동안의 임계값 및 조건(초과 또는 같음 또는 아래 또는 같음)을 지정합니다.
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
