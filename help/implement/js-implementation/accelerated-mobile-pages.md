@@ -8,7 +8,7 @@ title: 가속 모바일 페이지
 topic: 개발자 및 구현
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -38,7 +38,7 @@ AMP에서는 참여하는 기술 파트너 및 게시자의 다양한 CDN(conten
 
 이러한 문제를 해결하기 위해, Adobe에서는 게시자가 `amp-analytics` 태그를 사용하여 비즈니스 요구에 가장 적합하게 선택할 수 있는 두 가지 옵션에 대해 AMP 파트너 및 게시자와 협업했습니다. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. 다음 표에서는 각 접근 방법의 장단점을 알 수 있습니다.
 
-|  | **"adobeanalytics" 템플릿** | ** "adobeanalytics_nativeConfig" 템플릿** |
+|  | **"adobeanalytics" 템플릿** | **"adobeanalytics_nativeConfig" 템플릿** |
 |---|---|---|
 | 방문자/방문수(기존 보고서 세트에서) | 높은 인플레이션 | 최소한의 인플레이션 |
 | 별도의 보고서 세트 사용 | 권장 | 불필요 |
@@ -198,12 +198,12 @@ AMP 프로젝트는 빠르게 움직이고 있으며 빈번하게 변경되므�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 비디오 추적을 <code>"adobeanalytics"</code> 또는 <code>"adobeanalytics_nativeConfig"</code> 템플릿에 사용할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p> 안타깝지만 아직 사용할 수 없습니다. AMP 표준에서는 "표시", "클릭" 및 "타이머"용 트리거만 지원하고, amp-analytics 태그로 수신할 수 있는 비디오 추적을 위한 명시적 트리거는 아직 지원하지 않습니다. 또한, <code>"adobeanalytics_nativeConfig"</code> 태그는 한 번만 로드할 수 있으므로 AMP가 로드된 후 발생하는 비디오 보기와는 호환되지 않습니다. </p> </td> 
+   <td colname="col1"> <p> Is video tracking available for either the <code> "adobeanalytics" </code> or <code> "adobeanalytics_nativeConfig" </code> template? </p> </td> 
+   <td colname="col2"> <p> 안타깝지만 아직 사용할 수 없습니다. AMP 표준에서는 "표시", "클릭" 및 "타이머"용 트리거만 지원하고, amp-analytics 태그로 수신할 수 있는 비디오 추적을 위한 명시적 트리거는 아직 지원하지 않습니다. Also, because the <code> "adobeanalytics_nativeConfig" </code> tag can only be loaded once, it is not compatible with video viewing which occurs after the AMP has loaded. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>비교에서 <code>"adobeanalytics_nativeConfig"</code> 템플릿에 대한 방문자 인플레이션이 더 낮다고 설명되어 있는데 어떤 의미입니까? <code>"adobeanalytics"</code> 또는 <code>“adobeanalytics_nativeConfig”</code> 솔루션에서 방문자 인플레이션을 유발하는 것은 무엇입니까? </p> </td> 
-   <td colname="col2"> <p><code>"adobeanalytics"</code> 템플릿은 Adobe Analytics에서 방문자 ID 쿠키를 설정하도록 허용하지 않습니다. 이는 사용자의 AMP 페이지에 대한 모든 방문 및 방문자가 자신의 보고서 세트에서 독립적인 새로운 방문과 방문자로 처리됨을 의미합니다. </p> <p>그러나 <code>"adobeanalytics_nativeConfig"</code> 템플릿을 사용하면 Safari 브라우저를 사용하는 새 방문자를 제외하고, 거의 모든 경우에 Adobe Analytics 방문자 ID 쿠키를 설정할 수 있습니다. 즉, 이전에 게시자의 사이트를 방문하지 않은 Safari의 방문자가 Adobe Analytics 보고 시 부풀려집니다. </p> </td> 
+   <td colname="col1"> <p>비교에서 <code> adobeanalytics_nativeConfig </code>" 템플릿에 대한 방문자 인플레이션이 더 낮다고 설명되어 있는데 어떤 의미입니까? What would cause visitor inflation in either the <code> "adobeanalytics" </code> or the <code> “adobeanalytics_nativeConfig” </code> solution? </p> </td> 
+   <td colname="col2"> <p>The <code> “adobeanalytics” </code> template does not allow Adobe Analytics to set a visitor identification cookie; this means all visits and visitors to your AMP page will be treated as a new and independent visit and visitor in your report suite. </p> <p>The <code> “adobeanalytics_nativeConfig” </code> template, however, allows the Adobe Analytics visitor identification cookie to be set in nearly all cases, except for new visitors using the Safari browser. 즉, 이전에 게시자의 사이트를 방문하지 않은 Safari의 방문자가 Adobe Analytics 보고 시 부풀려집니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMP용으로 별도의 보고서 세트를 사용해야 합니까? </p> </td> 
@@ -211,10 +211,10 @@ AMP 프로젝트는 빠르게 움직이고 있으며 빈번하게 변경되므�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID 서비스란 무엇입니까? 이 서비스가 필요한 이유는 무엇입니까?  </p> </td> 
-   <td colname="col2"> <p>ID <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 서비스(이전 </a> 방문자 ID 서비스) <span class="term"> 를 사용하면 </span>Experience Cloud <span class="keyword"> 핵심 서비스를 사용할 수 있으며 서로 다른 Adobe Experience Cloud 솔루션 간의 통합을 </span> <span class="keyword"> </span> 수행할 수 있습니다. <span class="keyword">Adobe Audience Manager</span>나 <span class="keyword">Adobe Target</span>과의 통합 사항이 있을 경우 이 서비스를 사용할 수 있습니다. 이 서비스는 예정된 많은 <span class="keyword">Adobe Analytics</span> 기능의 기반이기도 합니다. ID 서비스 지원이 필요하거나 향후에 필요한 경우 <code>iframeMessage</code> 솔루션을 사용하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p>ID <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 서비스(이전 </a> 방문자 ID 서비스) <span class="term"> 를 사용하면 </span>Experience Cloud <span class="keyword"> 핵심 서비스를 사용할 수 있으며 서로 다른 Adobe Experience Cloud 솔루션 간의 통합을 </span> <span class="keyword"> </span> 수행할 수 있습니다. <span class="keyword">Adobe Audience Manager</span>나 <span class="keyword">Adobe Target</span>과의 통합 사항이 있을 경우 이 서비스를 사용할 수 있습니다. 이 서비스는 예정된 많은 <span class="keyword">Adobe Analytics</span> 기능의 기반이기도 합니다. ID 서비스 지원이 필요하거나 향후에 필요한 경우 <code> iframeMessage </code> 솔루션을 사용하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>"adobeanalytics_nativeConfig"</code> 템플릿의 경우 어디에서 유틸리티 페이지를 호스트해야 합니까? </p> </td> 
+   <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
    <td colname="col2"> <p>AMP 표준에서는 AMP의 자체 도메인과 하위 도메인에서 iframe이 로드되는 것을 허용하지 않습니다. 따라서, 특히 회사에 AMP 캐싱에 대해 계획하는 자체 CDN이 있는 경우, 사용자의 주 사이트와는 별개인 하위 도메인에서 유틸리티 페이지를 호스트하는 것이 좋습니다. 호환성을 최대화하려면, 실제 AMP 컨텐츠가 배치될 위치와 분리된 <span class="filepath">ampmetrics.publisher.com</span>과 같은 하위 도메인을 선택하십시오. </p> </td> 
   </tr> 
   <tr> 
