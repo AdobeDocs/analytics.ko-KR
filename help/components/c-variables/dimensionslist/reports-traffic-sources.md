@@ -7,7 +7,7 @@ title: 트래픽 소스
 topic: 보고서
 uuid: 34ab8797-7a3e-43fd-afb2-433586961b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> 레퍼러 </td> 
-   <td colname="col2"> <p> 방문자가 사이트에 오기 전에 있었던 도메인 또는 URL, 방문자가 웹 사이트를 검색하는 데 사용한 방법 및 이러한 참조 위치에서 이루어진 사이트 방문 횟수를 보여줍니다. </p> <p>예를 들어 방문자가 사이트 A에서 링크를 클릭하여 특정 사이트에 도달하는 경우 사이트 A가 도메인의 일부로 정의되어 있지 않으면 사이트 A가 레퍼러입니다.  구현 시 구현 컨설턴트로 웹 사이트에 포함된 도메인과 URL을 정의할 수 있습니다(구현 후에도 수행 가능). 정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다.  </p> <p>예를 들어 웹 페이지 A와 웹 페이지 B가 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않는 경우 웹 페이지 C는 레퍼러로 간주됩니다.  </p> <p>자세한 내용은 <a href="/help/admin/admin/internal-URL-filter-admin.md">내부 URL 필터</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook의 이메일은 <span class="wintitle">입력/책갈피 표시</span> 행에 보고되며 도메인이 알려진 <span class="wintitle">검색 엔진</span>인 HTTP 프로토콜을 가진 참조는 검색 엔진 행에 보고됩니다. </p> </td> 
+   <td colname="col2"> <p> 방문자가 사이트에 오기 전에 있었던 도메인 또는 URL, 방문자가 웹 사이트를 검색하는 데 사용한 방법 및 이러한 참조 위치에서 이루어진 사이트 방문 횟수를 보여줍니다. </p> <p>예를 들어 방문자가 사이트 A에서 링크를 클릭하여 특정 사이트에 도달하는 경우 사이트 A가 도메인의 일부로 정의되어 있지 않으면 사이트 A가 레퍼러입니다.  구현 시 구현 컨설턴트로 웹 사이트에 포함된 도메인과 URL을 정의할 수 있습니다(구현 후에도 수행 가능). 정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다.  </p> <p>예를 들어 웹 페이지 A와 웹 페이지 B가 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않는 경우 웹 페이지 C는 레퍼러로 간주됩니다.  </p> <p>자세한 내용은 <a href="/help/admin/admin/internal-URL-filter-admin.md"> 내부 URL 필터</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook의 이메일은 <span class="wintitle">입력/책갈피 표시</span> 행에 보고되며 도메인이 알려진 <span class="wintitle">검색 엔진</span>인 HTTP 프로토콜을 가진 참조는 검색 엔진 행에 보고됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 레퍼러 유형 </td> 
@@ -86,4 +86,3 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
  </tbody> 
 </table>
-
