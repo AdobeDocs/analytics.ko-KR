@@ -5,10 +5,10 @@ seo-title: 대시보드 및 Reportlet
 solution: Analytics
 subtopic: 대시보드
 title: 대시보드 및 Reportlet
-topic: Reports & Analytics
-uuid: 7 a 7 b 3 bc 9-0 a 3 c -49 b 0-9168-e 2878 ae 67 b 97
+topic: Reports and Analytics
+uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 대시보드는 reportlet이라고 부르는 썸네일 보고서의 콜렉션입니다. 대시보드는 검색 방법, 방문자 프로파일 등과 같은 사이트의 특정 측면에 대한 전체 개요를 설명하는 관련 reportlet이 들어 있을 때 가장 유용합니다.
 
-## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
+## 대시보드 및 Reportlet {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
 A dashboard is a collection of thumbnail reports called *`reportlets`*. 대시보드는 검색 방법, 방문자 프로파일 등과 같은 사이트의 특정 측면에 대한 전체 개요를 설명하는 관련 reportlet이 들어 있을 때 가장 유용합니다.
 
@@ -36,7 +36,7 @@ A dashboard is a collection of thumbnail reports called *`reportlets`*. 대시�
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports &amp; Analytics. 하지만 여전히 일부 또는 모든 Reportlet을 보게 되는 2가지 상황이 있습니다.
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. 하지만 여전히 일부 또는 모든 Reportlet을 보게 되는 2가지 상황이 있습니다.
 
 * 자주 본 보고서가 3개뿐인 경우 Reports &amp; Analytics에서는 사이트 개요 대시보드에서 보고서 2개를 가져와 **[!UICONTROL 내 권장 보고서]대시보드를 완료합니다.**
 * 새 보고서 세트는 자주 보는 보고서로 대체될 때까지 처음의 사이트 개요 Reportlet 기능을 가지고 있습니다. 그렇지만 이제 대시보드는 **[!UICONTROL 내 권장 보고서라고 불리게 됩니다]**.
@@ -60,7 +60,7 @@ A dashboard is a collection of thumbnail reports called *`reportlets`*. 대시�
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
-see [대시보드 관리](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+자세한 내용은 [대시보드 관리](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## 대시보드 만들기 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -74,10 +74,10 @@ t_dashboard_add.xml
 
 보고서를 reportlet으로 대시보드에 추가하기 전에 대시보드의 레이아웃을 정의합니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; 대시보드 **[!UICONTROL 관리로 이동합니다]**.
+1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Manage Dashboards]**.
 1. Click **[!UICONTROL Add Dashboard]**.
 1. 대시보드 이름을 입력합니다.
-1. **[!UICONTROL 3 x 2]** 또는 **[!UICONTROL 2 x 2]** 를 클릭하여 대시보드 페이지에서 원하는 reportlet의 수를 지정합니다.
+1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
 1. 대시보드 페이지 레이아웃을 구성합니다. 
 
    * **[!UICONTROL 페이지 추가]**: 대시보드에 빈 페이지를 추가하고 컨텐츠를 드래그하여 reportlet을 만듭니다.
@@ -86,10 +86,10 @@ t_dashboard_add.xml
 
 1. 항목을 reportlet 캔버스로 드래그하여 사용할 수 있는 컨텐츠를 대시보드에 추가합니다.
 
-   See [Creating a Reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Reportlet [만들기](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 및 대시보드 [설정 편집을 참조하십시오](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
 1. **[!UICONTROL 저장을 클릭합니다.]**
 
-   대시보드를 저장하면 **[!UICONTROL 대시보드]메뉴에서 사용할 수 있게 됩니다.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   대시보드를 저장하면 **[!UICONTROL 대시보드]메뉴에서 사용할 수 있게 됩니다.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (대시보드 [관리를 참조하십시오](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (선택적) 대시보드를 랜딩 페이지로 설정하려면 **더 많은 옵션** &gt; **[!UICONTROL 랜딩 페이지로 설정을 클릭합니다]**.
 
@@ -104,7 +104,7 @@ t_dashboard_add_report.xml
  -->
 
 1. 보고서 실행.
-1. **[!UICONTROL 대시보드를 클릭합니다.]**
+1. Click **[!UICONTROL Dashboard.]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
 1. (선택 사항) 날짜 범위를 구성합니다.
 
@@ -136,7 +136,7 @@ t_dashboard_content.xml
 
    >[!NOTE]
    >
-   >대시보드의 페이지 수에 대한 현재 제한은 30 개입니다.
+   >대시보드의 페이지 수에 대한 현재 제한은 30개입니다.
 
    **사용자 지정 Reportlet**
 
@@ -186,8 +186,8 @@ t_dashboard_edit.xml
 
 **대시보드 및 Reportlet 데이터를 편집하려면**
 
-1. **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 대시보드]** &gt; *대시보드 이름을* 클릭하여 대시보드를 엽니다.
-1. **[!UICONTROL 레이아웃을]**&#x200B;클릭합니다.
+1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
+1. Click **[!UICONTROL Layout]**.
 
 | 할 작업 | 방법 |
 |--- |--- |
@@ -214,8 +214,8 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 회사 설정]**.
-1. [!UICONTROL 회사 설정] 페이지에서 Adobe Experience Cloud 공동 브랜딩을 클릭합니다 ****.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; 회사 **[!UICONTROL 설정]**.
+1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. 이동하여 이미지를 업로드한 후 **[!UICONTROL 저장]을 클릭합니다.**
 
@@ -233,5 +233,5 @@ segments_dashboards.xml
 
 세그먼트는 전체 대시보드 또는 특정 Reportlet의 두 가지 수준으로 적용할 수 있습니다.
 
-* **Reportlet 수준**: **[!UICONTROL 레이아웃을]**&#x200B;클릭한 다음 분류할 reportlet의 보고서 세트를 클릭합니다. Reportlet이 사용하는 세그먼트를 추가하거나 변경할 수 있는 양식 창이 나타납니다.
+* **Reportlet 수준**:레이아웃을 **[!UICONTROL 클릭한]**&#x200B;다음 세그먼트화할 reportlet의 보고서 세트를 클릭합니다. Reportlet이 사용하는 세그먼트를 추가하거나 변경할 수 있는 양식 창이 나타납니다.
 * **대시보드 수준**: 왼쪽 탐색 메뉴에서 세그먼트 아이콘을 클릭하고 사용할 세그먼트를 선택한 다음 [적용]을 클릭합니다. 선택한 세그먼트는 모든 Reportlet 수준 세그먼트를 재정의하고 대체합니다.
