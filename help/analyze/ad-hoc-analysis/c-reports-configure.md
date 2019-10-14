@@ -3,9 +3,9 @@ description: 차트 구성, 그래프, 분류 및 데이터 추출과 같이, �
 seo-description: 차트 구성, 그래프, 분류 및 데이터 추출과 같이, 보고서에서 수행할 수 있는 다양한 작업에 대해 알아 보십시오.
 seo-title: 기존 보고서 구성
 title: 기존 보고서 구성
-uuid: 5 c 7 bb 66 a-a 9 a 2-49 fe-ba 98-1 a 99 a 922 f 6 b 1
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>배달 옵션 </p> </td> 
-   <td colname="col2"> <p> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> 배달 옵션을 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p> 배달 <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> 옵션을 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 인쇄 </p> </td> 
@@ -63,8 +63,8 @@ c_report_actions.xml
    <td colname="col2"> <p>보고서 탭의 이름을 변경합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>데이터 소스 </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> 일반 설정 탭 - 정의</a>. </p> </td> 
+   <td colname="col1"> <p>Data Sources </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보기 </p> </td> 
@@ -162,7 +162,7 @@ t_reports_breakdown_table.xml
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. 분류를 통해 저장 또는 예약된 보고서를 열면 **[!UICONTROL 테이블 대체]를 클릭하여 동적 보고서 데이터 분류를 새로 고쳐야 할 수 있습니다.** 예를 들어 날짜 범위 또는 방문자 활동에 따라 변경할 수 있는 라인 항목 분류가 포함된 예약된 보고서를 새로 고쳐야 할 수도 있습니다.
+   >보다 유연하게 작업하려면 테이블 빌더를 [사용하여](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 분류로 보고서를 구성합니다. 분류를 통해 저장 또는 예약된 보고서를 열면 **[!UICONTROL 테이블 대체]를 클릭하여 동적 보고서 데이터 분류를 새로 고쳐야 할 수 있습니다.** 예를 들어 날짜 범위 또는 방문자 활동에 따라 변경할 수 있는 라인 항목 분류가 포함된 예약된 보고서를 새로 고쳐야 할 수도 있습니다.
 
 >[!MORE_LIKE_THIS]
 >
@@ -192,7 +192,7 @@ t_reports_clipboard.xml
 
  -->
 
-1. Microsoft Excel를 엽니다.
+1. Microsoft Excel을 엽니다.
 
    Excel은 시작되면 메모리 버퍼의 내용을 지우므로 데이터를 복사하기 전에 Excel을 여는 것이 좋습니다.
 
@@ -207,7 +207,7 @@ t_reports_extract_ID.xml
 
  -->
 
-보고 및 분석에서 사용자 ID 데이터를 포함할 필드를 설정할 수 있습니다. 이 옵션을 구성한 경우 [!UICONTROL 방문자 ID 추출] 옵션을 사용할 수 있습니다. 이 옵션을 활성화하지 않고 나중에 활성화하려는 경우 이전 상태로 돌아가 이전 방문자 ID를 추출할 수 없습니다.
+보고 및 분석에서 사용자 ID 데이터를 포함하도록 필드를 설정할 수 있습니다. 이 옵션을 구성한 경우 [!UICONTROL 방문자 ID 추출] 옵션을 사용할 수 있습니다. 이 옵션을 활성화하지 않고 나중에 활성화하려는 경우 이전 상태로 돌아가 이전 방문자 ID를 추출할 수 없습니다.
 
 **방문자 ID를 추출하려면**
 
@@ -228,7 +228,7 @@ t_reports_trending_row.xml
 
 제품 보고서와 같은 등급 보고서를 볼 때 값의 트렌드 데이터를 볼 수 있습니다. 예를 들어 선택한 기간 동안 특정 제품의 총 매출액이 $10,000인 경우를 들 수 있습니다. 해당 기간 중 매일 매일의 제품 매출액을 확인하려면 제품의 트렌드 그래프를 보거나 개별 트렌드 보고서를 열면 됩니다.
 
-** 행의 트렌드를 추적하려면**
+**행의 트렌드를 추적하려면**
 
 1. 등급 보고서 실행.
 1.  트렌드 아이콘을 클릭합니다.![](assets/TrendInspector_Buttcon.png)
