@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,다이내믹 태그 관리
 title: 레퍼러 및 캠페인
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> 레퍼러 무시 </td> 
-   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>[페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>페이지 <a href="/help/implement/js-implementation/c-variables/page-variables.md">변수를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인 </td> 
-   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>[페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>[페이지<a href="/help/implement/js-implementation/c-variables/page-variables.md">변수]를 참조하십시오</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
