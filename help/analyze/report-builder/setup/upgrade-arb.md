@@ -5,9 +5,9 @@ seo-title: Report Builder 업그레이드
 solution: Analytics
 title: Report Builder 업그레이드
 topic: Report Builder
-uuid: 19 CFAE 11-0 B 40-498 B -89 CA -5 E 854 E 7 B 164 F
+uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -37,13 +37,13 @@ A: 아니요. 인증 설정을 포함한 모든 설정이 계속 작동합니다
 
    ![](assets/upgrade.png)
 
-1. If a new version is available, click **[!UICONTROL Update...]**. 이 단추는 "버전 5.0.50으로 업데이트"처럼 업데이트하게 될 버전을 보여줍니다.
+1. **[!UICONTROL 새 버전을 사용할 수 있는 경우 업데이트...]**&#x200B;를 클릭합니다.. 이 단추는 "버전 5.0.50으로 업데이트"처럼 업데이트하게 될 버전을 보여줍니다.
 
    >[!NOTE]
    >
    >이 단추가 회색으로 표시되면 새 버전의 Report Builder를 사용할 수 없습니다.
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. 이렇게 하면 나중에 사용 가능한 새 버전이 있을 때 업데이트 프로세스가 자동으로 시작됩니다.
+1. 원할 경우 **[!UICONTROL [새 버전을 사용할 수 있게 되면 업데이트합니다.]]확인란을 선택할 수 있습니다.** 이렇게 하면 나중에 사용 가능한 새 버전이 있을 때 업데이트 프로세스가 자동으로 시작됩니다.
 1. When the setup screen appears, click **[!UICONTROL Next &gt;]**.
 
    ![](assets/setup.png)
