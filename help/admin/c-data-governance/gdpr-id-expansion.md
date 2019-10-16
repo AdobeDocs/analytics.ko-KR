@@ -5,7 +5,7 @@ seo-title: ID 확장
 title: ID 확장
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 "expandIds": true
 ```
 
-요청에 이 옵션을 포함시키는 방법에 대한 예는 [샘플 JSON 요청](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)을 참조하십시오. For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+요청에 이 옵션을 포함시키는 방법에 대한 예는 [샘플 JSON 요청](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)을 참조하십시오. For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -50,13 +50,13 @@ Adobe는 ID 확장을 수행할 때 전체 데이터 스캔을 추가로 요구�
 "expandIDs" 플래그 외에도 Analytics는 데이터 개인 정보 보호 요청의 일부로 전달할 수 있는 다른 두 개의 플래그를 지원합니다. 이러한 플래그 및 기본값은 다음과 같습니다.
 
 ```
-"analyticsDeleteMethod": “anonymize”
-“priority”: “normal”
+"analyticsDeleteMethod": "anonymize"
+"priority": "normal"
 ```
 
-향후에 "analyticsDeleteMethod"는 "anonymize"라는 기본값 외에 "purge"라는 값을 지원할 수 있습니다. 지원되면 DEL 레이블이 있는 히트 필드의 값을 단순히 업데이트하는 것이 아니라 전체 히트가 삭제됩니다.
+나중에 "analyticsDeleteMethod"는 기본값 "익명" 외에 "purge" 값을 지원할 수 있습니다. 지원되면 DEL 레이블이 있는 히트 필드의 값을 단순히 업데이트하는 것이 아니라 전체 히트가 삭제됩니다.
 
-기본값 외에 우선순위 필드는 "low" 값도 지원합니다. 데이터 주제 요청의 결과가 아닌 요청에 대해 이 값을 지정해야 하므로 30일 이내에 완료해야 할 법률상의 요구가 없습니다. Adobe는 데이터 주체가 시작한 요청 이외의 이유로 Privacy Service API의 사용을 금지하고 있습니다. 개인정보 보호 서비스 API는 데이터 정리 또는 수리에 적합한 도구가 아니며 의도하지 않은 결과가 발생할 수 있습니다.
+우선순위 필드는 기본값 외에도 "낮음" 값을 지원합니다. 데이터 주제 요청의 결과가 아닌 요청에 대해 이 값을 지정해야 하므로 30일 이내에 완료해야 할 법률상의 요구가 없습니다. Adobe는 데이터 주체가 시작한 요청 이외의 이유로 Privacy Service API의 사용을 금지하고 있습니다. 개인정보 보호 서비스 API는 데이터 정리 또는 수리에 적합한 도구가 아니며 의도하지 않은 결과가 발생할 수 있습니다.
 
 [!NOTE]
 개인정보 [보호 서비스](https://www.adobe.io/apis/experienceplatform/gdpr.html) API는 시간이 민감한 데이터 개인정보 보호 요청을 수행하는 데 도움이 되도록 제공되었습니다. 다른 목적으로 이 API를 사용하는 것은 Adobe에서 지원되지 않으며 Adobe가 다른 Adobe 고객을 위해 우선 순위가 높은 사용자 중심의 데이터 개인 정보 보호 요청을 시기 적절하게 전환하도록 제공하는 기능에 영향을 줄 수 있습니다. Adobe는 대량의 방문자가 실수로 제출한 데이터를 삭제하는 등의 목적으로 Privacy Service API를 사용하지 않도록 요청합니다.
