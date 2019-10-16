@@ -5,9 +5,9 @@ seo-title: 웹 서비스
 solution: Analytics
 title: 웹 서비스
 topic: 관리 도구
-uuid: CCAE 04 CF-F 58 C -490 E-BAAA-EE 04 C 534 B 28 D
+uuid: ccae04cf-f58c-490e-baa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,15 +16,15 @@ source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
 
 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 회사 설정]** &gt; **[!UICONTROL 웹 서비스]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 회사 설정]** &gt; **[!UICONTROL 웹서비스]**
 
 ## 웹 서비스 관리
 
-사용자 관리 &gt; [그룹](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)에서 웹 서비스 API에 대한 액세스 권한이 필요한 사용자를 포함하도록 웹 서비스 액세스 그룹을 업데이트할 수 있습니다.
+사용자 관리 &gt; [그룹](/help/admin/user-management2/c-user-groups/groups.md)에서 웹 서비스 API에 대한 액세스 권한이 필요한 사용자를 포함하도록 웹 서비스 액세스 그룹을 업데이트할 수 있습니다.
 
 ## WSDL: 웹 서비스 개발자용 웹 서비스 API WSDL을 다운로드합니다.
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. 웹 서비스 API 개요를 클릭하여 자세한 내용을 확인하시오.
+웹 서비스 [API와](https://www.adobe.io/apis/experiencecloud/analytics.html)관련된 설명서, 샘플 코드 및 포럼을 제공하는 Adobe I/O를 참조하십시오. 웹 서비스 API 개요를 클릭하여 자세한 내용을 확인하시오.
 
 ## 필터링 옵션
 
