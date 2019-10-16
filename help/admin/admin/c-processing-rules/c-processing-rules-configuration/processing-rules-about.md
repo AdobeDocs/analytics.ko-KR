@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 처리 규칙
 title: 처리 규칙 작동 방식
 topic: 관리 도구
-uuid: 19 C 31 F 94-C 8 D 8-47 B 1-97 FA -29 ED 98 C 94 E 87
+uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>규칙이 단일 보고서 세트에 적용됩니다. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md#task_6E4B82FCA687409B88F17EAFC353755D" type="task" format="dita" scope="local"> 다른 보고서 세트에 처리 규칙 복사 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> 다른 보고서 세트에 처리 규칙 복사 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙이 나열된 순서대로 적용됩니다. </p> </td> 
@@ -41,15 +41,15 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 저장 후 즉시 보고서 세트에 적용됩니다. </p> </td> 
-   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="../../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40" format="dita" scope="local"> 테스트 보고서 세트의 실시간 보고서를</a> 사용하여 처리 규칙의 결과를 빠르게 확인할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 컨텍스트 데이터 변수에 액세스할 수 있는 유일한 방법입니다. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Evar에 컨텍스트 데이터 변수 복사 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 컨텍스트 데이터 변수를 eVar에 복사 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 및 마케팅 채널 규칙 이전에 처리 규칙이 적용됩니다. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E" type="concept" format="dita" scope="local"> 처리 순서 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> 처리 순서 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>히트를 제외할 수 없습니다. </p> </td> 
@@ -64,7 +64,7 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
    <td colname="col2"> <p>모바일 장치 조회가 처리 규칙 전에 발생하지만 속성은 처리 규칙에서 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 쿼리 문자열 매개 변수는 URL의 처음 255자 이상을 읽을 수 없습니다. JavaScript appmeasurement H .25 .3 이상에서는 모든 쿼리 문자열 매개 변수를 포함한 전체 URL를 처리 규칙에 제공합니다. </p> </td> 
+   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 쿼리 문자열 매개 변수는 URL의 처음 255자 이상을 읽을 수 없습니다. JavaScript AppMeasurement H.25.3 이상에서는 처리 규칙에 모든 쿼리 문자열 매개 변수를 포함하는 전체 URL을 제공합니다. </p> </td> 
    <td colname="col2"> <p>H.25.3 이후 버전으로 업그레이드하거나 긴 URL 클라이언트측에서 쿼리 문자열 매개 변수를 읽고 컨텍스트 데이터 변수에 값을 저장하십시오. </p> </td> 
   </tr> 
   <tr> 
@@ -81,11 +81,11 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI에서 값 비교는 대/소문자를 구분하지 않습니다. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md#concept_958E924BCCBB4BBA91CE91C977FE5151" type="concept" format="dita" scope="local"> 보고서에서 값을 정리합니다 </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> 보고서에서 값을 정리합니다 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 이름에는 영숫자, 밑줄, 점만 포함될 수 있습니다. 추가된 모든 문자는 제거됩니다. </p> </td> 
-   <td colname="col2"> <p>예를 들어 컨텍스트 데이터 변수 <code>login_page-home</code>은 자동으로 <code>login_pagehome</code>이 됩니다. <code>login_page-home</code> 변수로 전송된 모든 데이터는 <code>login_pagehome</code>에 할당됩니다. </p> <p>지원되지 않는 문자가 포함된 컨텍스트 데이터 변수는 처리 규칙 인터페이스에 추가될 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>지원되지 않는 문자가 포함된 컨텍스트 데이터 변수는 처리 규칙 인터페이스에 추가될 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>삽입 기호(^)는 처리 규칙 시스템에서 특수 문자입니다. </p> </td> 
