@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 사용자 및 그룹
 title: 사용자 및 제품 관리
 topic: 관리 도구
-uuid: 891 a 8 cb 3-b 77 d -46 f 6-ab 23-cbed 49 f 215 b 5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 새 사용자 추가</span> </td> 
-   <td colname="col2"> <p>사용자 계정을 회사에 추가할 수 있습니다. 이 링크는 남아 있는 사용자 로그인 수가 0보다 큰 경우에만 사용할 수 있습니다. </p> <p>see <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 사용자</a>. </p> </td> 
+   <td colname="col2"> <p>사용자 계정을 회사에 추가할 수 있습니다. 이 링크는 남아 있는 사용자 로그인 수가 0보다 큰 경우에만 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 사용자</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 보고서 다운로드</span> </td> 
@@ -76,7 +76,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 로그인</span> </td> 
-   <td colname="col2"> <p>사용자 이름. 사용자 이름을 클릭하여 사용자 계정 속성을 편집할 수 있습니다. </p> <p>see <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 사용자</a>. </p> </td> 
+   <td colname="col2"> <p>사용자 이름. 사용자 이름을 클릭하여 사용자 계정 속성을 편집할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 사용자</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 이름</span> </td> 
@@ -112,7 +112,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 편집</span> </td> 
-   <td colname="col2"> <p>사용자 계정 설정을 편집합니다. </p> <p>see <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 사용자</a>. </p> </td> 
+   <td colname="col2"> <p>사용자 계정 설정을 편집합니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 사용자</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 삭제</span> </td> 
@@ -120,7 +120,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 양도</span> </td> 
-   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p>see <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> 사용자 계정 권한 이전</a>. </p> </td> 
+   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> 사용자 계정 권한 이전</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 이 사용자로 로그인</span> </td> 
