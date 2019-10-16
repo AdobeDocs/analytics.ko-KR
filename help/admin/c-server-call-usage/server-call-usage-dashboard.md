@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 현재 서버 호출 사용 보기
-title: 현재 서버 호출 사용 보기
-uuid: 1 a 42 a 45 f -4 BBC -4 b 5 a -9706-c 8937265 de 2 b
+seo-title: 현재 서버 호출 사용량 보기
+title: 현재 서버 호출 사용량 보기
+uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 현재 서버 호출 사용 보기
+# 현재 서버 호출 사용량 보기
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 서버 호출 사용량]** &gt; **[!UICONTROL 현재 사용량]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 서버 호출 사용]** &gt; **[!UICONTROL 현재사용량]**
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](../../admin/c-server-call-usage/report-suite-usage.md#concept_E50FA5BD93404EB8B2FE954F658FDAFD) tab and download the usage data for a previous period.
+   >이전 기간에 대한 사용량을 보려면 보고서 세트 사용 [탭으로](/help/admin/c-server-call-usage/report-suite-usage.md) 이동하여 이전 기간에 대한 사용 데이터를 다운로드해야 합니다.
 
 * 사용된 호출 수의 백분율(백분율 및 원시 데이터)과 소비된 사용 기간의 백분율(백분율 및 원시 데이터)을 나열합니다.
 * 기본적으로 5일 처리 지연으로 매일 업데이트됩니다.
@@ -39,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | UI 용어 | 정의 |
 |---|---|
-| 현재 기간 사용량(녹색) | 현재 기간은 [사용 기간](../../admin/c-server-call-usage/overage-overview.md#section_CBA348A039F34563B097CD8890AB358D)을 기반으로 합니다. |
+| 현재 기간 사용량(녹색) | 현재 기간은 [사용 기간](/help/admin/c-server-call-usage/overage-overview.md)을 기반으로 합니다. |
 | 이전 기간 사용량(파란색) | 이전 기간은 현재 사용 기간에서 1년을 뺀 기간으로 정의됩니다. |
 | 사용량 한도(빨간색) | 이 사용 기간에 대한 계약상 사용량 한도입니다. |
 
