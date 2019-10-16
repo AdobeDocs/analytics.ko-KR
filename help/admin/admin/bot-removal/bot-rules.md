@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 보트 규칙
 title: 보트 규칙 개요
 topic: 관리 도구
-uuid: 3 CB 9 E 29 D -1 C 37-43 DE-B 7 AC -34441093 A 60 E
+uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 5574b9e37e68971f7ecaa05056a30dab0b3d5d47
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -23,24 +23,24 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 일반적으로 보트 트래픽을 제거하면 트래픽 양과 전환 지표가 줄어듭니다. 대부분의 고객이 보트 트래픽을 제거하면 전환율이 증가하고 기타 유용성 지표도 증가함을 확인할 수 있습니다. 보트 트래픽을 제거하기 전에 이해 당사자들과 소통하여 이러한 변경의 결과로 핵심 성능 지표(KPI)에 필요한 조정을 할 수 있음을 확인하십시오. 가능하면 작은 보고서 세트에서 먼저 보트 트래픽을 제거하여 잠재적 영향을 추정하는 것이 좋습니다.
 
-보트 트래픽 데이터는 개별 보관소에 저장되어  보트 및 보트 페이지 보고서에 표시됩니다. 보트 필터링을 활성화하는 방법에는 두 가지가 있습니다.
+보트 트래픽 데이터는 개별 보관소에 저장되어  보트 및 보트 페이지 보고서에 표시됩니다. 보트 필터링을 활성화하는 두 가지 옵션이 있습니다.
 
 | 규칙 유형 | 설명 |
 |--- |--- |
-| 표준 IAB 보트 규칙 | IAB 보트 필터링 [!UICONTROL 규칙 활성화를 선택하면] [IAB (International Advertising](https://www.iab.com) Bureau's International Advertising Bureau's International Spiders &amp; Bots List) 를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
+| 표준 IAB 보트 규칙 | IAB [!UICONTROL 보트 필터링 규칙] 활성화를 선택하면 IAB(International Advertising Bureau ['s](https://www.iab.com) ) 국제 스파이더 및 보트 목록을 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 이 옵션을 최소한 선택합니다. |
 | 사용자 지정 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 사용자 지정 보트 규칙을 정의하고 추가할 수 있습니다. |
 
 ## 표준 IAB 보트 규칙
 
-표준 IAB 보트 규칙은 IAB 보트 필터링 규칙 [!UICONTROL 활성화] 확인란을 선택하여 켤 수 있습니다. 이 선택 사항은 IAB (International Advertising Bureau's International Advertising Bureau's International Spiders &amp; Bots List) 에서 보트 트래픽을 제거합니다. IAB는 이 목록을 매월 업데이트합니다.
+IAB 보트 필터링 규칙 활성화 [!UICONTROL 확인란을 선택하여 표준 IAB 보트 규칙을 설정할 수] 있습니다. 이 선택 사항은 보트 트래픽을 제거하기 위해 IAB(International Advertising Bureau's) 국제 스파이더 및 보트 목록에서 보트를 제거합니다. IAB는 이 목록을 매월 업데이트합니다.
 
 ![](assets/bot-iab-checkbox.png)
 
-사용자가 보트 보고서를 사용하여 사용자의 사이트에 액세스한 보트 목록을 볼 수 있더라도, Adobe는 세부 IAB 보트 목록을 고객에게 제공할 수 없습니다. 보트를 IAB 목록에 제출하려면 [IAB](https://www.iab.com)를 방문하십시오.
+사용자가 보트 보고서를 사용하여 사용자의 사이트에 액세스한 보트 목록을 볼 수 있더라도, Adobe는 세부 IAB 보트 목록을 고객에게 제공할 수 없습니다. IAB 목록에 보트를 제출하려면 IAB를 [방문하십시오](https://www.iab.com).
 
 ## 사용자 지정 보트 규칙
 
->[!NOte]
+>[!Note]
 >사용자 인터페이스를 통해 500개의 규칙을 수동으로 정의할 수 있습니다. 이 한도에 도달하면 파일 가져오기 및 [보트 규칙 내보내기] 옵션을 통해 규칙을 일괄적으로 관리해야 합니다.
 
 사용자 지정 보트 규칙을 사용하여 사용자가 정의한 조건을 기준으로 트래픽을 필터링할 수 있습니다.
@@ -76,7 +76,7 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 ### 사용자 지정 보트 규칙 정의
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리로]**&#x200B;이동하고, 하나 이상의 보고서 세트를 선택하고 **[!UICONTROL 일반]** &gt; **[!UICONTROL 보트 규칙을 클릭합니다]**.
+1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**, select one or more report suites and click **[!UICONTROL General]** &gt; **[!UICONTROL Bot Rules]**.
 1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
 1. **[!UICONTROL 저장을 클릭합니다]**. 변경은 30분 이내에 적용됩니다.
 
@@ -88,7 +88,7 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 | 열 1 | 열 2 | 열 3 | 열 4 | 열 5 |
 |--- |--- |---|---|---|
-| 보트 이름 | IP 시작 | IP 끝 | Agent Match Rule<br>(contains or starts with)</br> | 에이전트 제외<br>(255 자 제한)</br> |
+| 보트 이름 | IP 시작 | IP 끝 | Agent Match Rule<br>(contains or starts with)</br> | 에이전트 제외<br>(255자 제한)</br> |
 
 세 가지 유형의 보트 규칙을 정의할 수 있습니다.
 
@@ -100,7 +100,7 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 * **사용자 에이전트 포함 또는 다음으로 시작**: [에이전트 포함] 열에 일치시킬 단일 사용자 에이전트 문자열을 입력합니다. [에이전트 일치 규칙] 필드에 *포함* 또는 *다음으로 시작*&#x200B;을 배치하여 수행할 일치 유형을 지정합니다. An optional value can be included in the Agent Exclude column that defines one or more pipe-delimited ( `|` ) strings that the Agent does not contain. 문자열 일치는 대/소문자를 구분하지 않습니다. IP 시작 열과 IP 끝 열은 모두 비어 있어야 합니다.
 
-* **단일 IP 주소 또는 와일드카드 일치**: 단일 IP 주소 ( `10.10.10.1`) 또는 와일드카드 IP 주소 ( `10.10.*.*`) 와 일치시키려면 IP 시작 열과 IP 종료 열 모두에 동일한 값을 배치합니다. [일치 규칙], [에이전트 포함] 및 [에이전트 제외]는 비어 있어야 합니다.
+* **단일 IP 주소 또는 와일드카드 일치**:단일 IP 주소( `10.10.10.1`) 또는 와일드카드 IP 주소( `10.10.*.*`)를 일치시키려면 IP 시작 열과 IP 끝 열 모두에 동일한 값을 배치합니다. [일치 규칙], [에이전트 포함] 및 [에이전트 제외]는 비어 있어야 합니다.
 
 * **IP 범위 일치**: IP 시작 및 IP 종료 열을 사용하여 IP 주소 범위를 정의합니다. Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. [일치 규칙], [에이전트 포함] 및 [에이전트 제외]는 비어 있어야 합니다.
 
@@ -121,13 +121,13 @@ OR로 결합된 규칙의 조합을 사용하여 보트를 일치시키려면(�
 
 보트 규칙이 모든 분석 데이터에 적용됩니다. 보트 규칙으로 제거된 데이터는 보트 및 보트 페이지 보고서에서만 볼 수 있습니다.
 
-VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E)).
+VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
 
 **하이 히트 방문 처리:** 한 번의 방문에 100개 이상 히트가 발생하는 경우, 보고는 방문 시간(초)이 해당 방문의 히트 수와 같은지 또는 미만인지 파악합니다. 이런 상황에서 길고 집중적인 방문을 처리하는 비용 때문에, 보고는 새 방문으로 다시 시작합니다. 일반적으로 하이 히트 방문은 보트 공격으로 인해 발생하며 일반적인 방문 검색으로 간주되지 않습니다.
 
 >[!NOTE]
 >
->표시된 히트는 *`bots`* 서버 호출로 [청구됩니다](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html).
+>표시된 히트는 *`bots`* 서버 호출로 [청구됩니다.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
