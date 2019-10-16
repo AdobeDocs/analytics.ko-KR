@@ -5,7 +5,7 @@ seo-title: 보고서 세트 데이터에 레이블 지정
 title: 보고서 세트 데이터에 레이블 지정
 uuid: a694851c-8933-49 파섹
 translation-type: tm+mt
-source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    ![](assets/edit.png)
 
-1. **ID 데이터** 레이블 대화 상자가 자동으로 열립니다. 이러한 레이블은 자체적으로 사용하거나 다른 데이터와 함께 사용하여 개인을 식별하거나 개인과 직접 연락할 수 있는 데이터를 분류합니다. For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)
+1. **ID 데이터** 레이블 대화 상자가 자동으로 열립니다. 이러한 레이블은 자체적으로 사용하거나 다른 데이터와 함께 사용하여 개인을 식별하거나 개인과 직접 연락할 수 있는 데이터를 분류합니다. For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
@@ -53,11 +53,11 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    ![](assets/identity_labels.png)
 
-1. **중요 데이터** 섹션을 열고 지리적 위치 데이터를 분류하는 중요 데이터 레이블을 설정합니다. For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)
+1. **중요 데이터** 섹션을 열고 지리적 위치 데이터를 분류하는 중요 데이터 레이블을 설정합니다. For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. 이 섹션을 사용하여 Adobe에 데이터 개인 정보 액세스 및 삭제 요청에 대한 각 변수를 처리하는 방법과 이러한 요청에 대한 데이터 주체 ID를 찾기 위해 스캔해야 하는 변수를 정의하는 방법을 지시합니다. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)
+1. Open the Data Privacy Data section to set **Data Governance** Labels. 이 섹션을 사용하여 Adobe에 데이터 개인 정보 액세스 및 삭제 요청에 대한 각 변수를 처리하는 방법과 이러한 요청에 대한 데이터 주체 ID를 찾기 위해 스캔해야 하는 변수를 정의하는 방법을 지시합니다. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
