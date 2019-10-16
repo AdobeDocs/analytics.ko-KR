@@ -5,9 +5,9 @@ seo-title: 보고서 세트 관리자
 solution: Analytics
 title: 보고서 세트 관리자
 topic: 관리 도구
-uuid: 018 C 4 F 63-4 D 87-4 A 2 E -8 C 71-1 BA 7 F 5 DD 9446
+uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. [가상 보고서 세트 설명서를](/help/components/vrs/vrs-about.md)참조하십시오.
+>Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. 가상 보고서 [세트 설명서를](/help/components/vrs/vrs-about.md)참조하십시오.
 
 ## 보고서 세트 관리자 설명 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -56,7 +56,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 롤업</span> </td> 
-   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p>see <a href="../../admin/c-manage-report-suites/rollup-report-suite.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> 롤업 보고서 세트</a>. </p> </td> 
+   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p>자세한 내용은 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> 롤업 보고서 세트</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 설정 편집</span> </td> 
@@ -64,7 +64,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 새로 만들기</span> </td> 
-   <td colname="col2"><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#concept_3CBBE252279C43069030EFBBD7D26376" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 열 사용자 지정</span> </td> 
@@ -72,15 +72,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 보고서 세트 ID</span> </td> 
-   <td colname="col2"><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 사이트 제목</span> </td> 
-   <td colname="col2"> <p>관리 도구 및 마케팅 보고 머리글의 보고서 세트 드롭다운 목록에서 보고서 세트를 식별합니다. </p> <p><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>관리 도구 및 마케팅 보고 머리글의 보고서 세트 드롭다운 목록에서 보고서 세트를 식별합니다. </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 URL</span> </td> 
-   <td colname="col2"> <p>보고서 세트에 대한 기준 도메인을 정의합니다. </p> <p><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>보고서 세트에 대한 기준 도메인을 정의합니다. </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
