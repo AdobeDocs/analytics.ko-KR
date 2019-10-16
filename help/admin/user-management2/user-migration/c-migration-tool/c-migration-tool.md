@@ -5,7 +5,7 @@ seo-title: Admin Console로 Analytics 사용자 마이그레이션
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -123,7 +123,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 ID는 어떻게 마이그레이션합니까? </p> </td> 
-   <td colname="col2"> <p> [관리] 페이지의 [사용자 관리]에서 <a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local"> 사용자 ID 마이그레이션</a>을 클릭하십시오. 도구를 사용하여 사용자를 Admin Console(Analytics의 권한 그룹에서 복제)의 제품 프로필에 추가합니다. 원하는 속도로 사용자 ID를 마이그레이션할 수 있습니다. </p> <p>관리 권한이 있어야 합니다. 마이그레이션이 완료되면 되돌릴 수 없습니다. </p> <p>마이그레이션 종료 날짜에, 로그인 회사 내 사용자는 <span class="filepath">my.omniture.com</span>에 액세스할 수 없게 됩니다. Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>참고: 마이그레이션하기 전에 사용자 및 그룹 감사를 수행하는 것이 좋습니다. 오래되고 사용되지 않는 계정 또는 더 이상 제품에 액세스하면 안 되는 계정(예: 더 이상 조직에 있지 않은 직원)은 삭제하십시오. </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> [관리] 페이지의 [사용자 관리]에서 <a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local"> 사용자 ID 마이그레이션</a>을 클릭하십시오. 도구를 사용하여 사용자를 Admin Console(Analytics의 권한 그룹에서 복제)의 제품 프로필에 추가합니다. 원하는 속도로 사용자 ID를 마이그레이션할 수 있습니다. </p> <p>관리 권한이 있어야 합니다. 마이그레이션이 완료되면 되돌릴 수 없습니다. </p> <p>마이그레이션 종료 날짜에, 로그인 회사 내 사용자는 <span class="filepath">my.omniture.com</span>에 액세스할 수 없게 됩니다. Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>참고: 마이그레이션하기 전에 사용자 및 그룹 감사를 수행하는 것이 좋습니다. 오래되고 사용되지 않는 계정 또는 더 이상 제품에 액세스하면 안 되는 계정(예: 더 이상 조직에 있지 않은 직원)은 삭제하십시오. </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션이 Analytics 구현이나 데이터 수집 방법에 영향을 줍니까? </p> </td> 
@@ -237,7 +237,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">자산 이전 </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">사용자 만료 </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">사용자 로그 </li> 
-    </ul> <p>이 기능들은 Analytics 사용자 관리에서도 계속 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Admin Console에서 지원되지 않는 Analytics 기능</a>을 참조하십시오. </p> </td> 
+    </ul> <p>이 기능들은 Analytics 사용자 관리에서도 계속 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md" format="dita" scope="local">Admin Console에서 지원되지 않는 Analytics 기능</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console에서 여러 구성을 만들고 이를 Analytics 권한 그룹에 매핑했습니다. 마이그레이션이 시작되면 이 구성은 어떻게 됩니까? </p> </td> 
