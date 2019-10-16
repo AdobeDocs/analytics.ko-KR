@@ -4,9 +4,9 @@ seo-description: 표준(내장) 지표, 사용자 지정 이벤트, 내장 이�
 seo-title: 지표 가시성
 solution: Analytics
 title: 지표 가시성
-uuid: FA 2 D 6 CBA -8 E 03-422 D -9 F 7 D -4 F 35021 FA 9 B 4
+uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; 설정 **[!UICONTROL 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 성공 이벤트로 이동합니다]**. [더 보기...](../../admin/admin/c-success-events/t-success-events.md#task_AC29770C973A43C5BE67DABA3BF1795C)
+1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [자세히...](/help/admin/admin/c-success-events/t-success-events.md)
 1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
 
 이 설정은 해당 지표의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. 이것은 설정이 사용자 인터페이스에서 지표의 가시성에 영향을 주는 방식입니다.
