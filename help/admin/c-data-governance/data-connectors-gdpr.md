@@ -5,7 +5,7 @@ seo-title: 데이터 개인 정보 및 데이터 커넥터(Genesis)
 title: 데이터 개인 정보 및 데이터 커넥터(Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 >[!NOTE]
 >
->이 정보는 [레이블이](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731)지정되어야 하는 변수를 식별하는 데 도움이 되지만, 적절한 레이블을 적용하거나 데이터 개인 정보 보호 준비 [(분류 업데이트 등)에 대해 다른 작업을 수행하는 것은 데이터](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) 관리자로서 귀하의 책임입니다.
+>이 정보는 [레이블이](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)지정되어야 하는 변수를 식별하는 데 도움이 되지만, 적절한 레이블을 적용하거나 데이터 개인 정보 보호 준비 [(분류 업데이트 등)에 대해 다른 작업을 수행하는 것은 데이터](/help/admin/c-data-governance/an-gdpr-overview.md) 관리자로서 귀하의 책임입니다.
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
