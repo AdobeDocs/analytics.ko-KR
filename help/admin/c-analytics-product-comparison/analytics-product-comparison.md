@@ -1,21 +1,21 @@
 ---
 description: 분석 작업 공간, 보고 및 분석, 애드혹 분석, 리포트 빌더, 데이터 웨어하우스 및 데이터 워크벤치의 시스템 요구 사항 및 비교
-seo-description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
+seo-description: 분석 작업 공간, 보고 및 분석, 애드혹 분석, 리포트 빌더, 데이터 웨어하우스 및 데이터 워크벤치의 시스템 요구 사항 및 비교
 seo-title: Analytics 제품 비교 및 요구 사항
 solution: Analytics
 title: Analytics 제품 비교 및 요구 사항
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
 # Analytics 제품 비교 및 요구 사항
 
-System requirements and a comparison of Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse, and Data Workbench
+분석 작업 공간, 보고 및 분석, 애드혹 분석, 리포트 빌더, 데이터 웨어하우스 및 데이터 워크벤치의 시스템 요구 사항 및 비교
 
-For information on which Adobe Analytics product to use, go [here](../../admin/c-analytics-product-comparison/which-analytics-tool.md#concept_E7D62115EB5B49959887B338F20CBC1A).
+For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
