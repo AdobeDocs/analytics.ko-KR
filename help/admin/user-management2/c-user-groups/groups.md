@@ -6,14 +6,14 @@ solution: Analytics
 subtopic: 사용자 및 그룹
 title: 사용자 그룹 설정
 topic: 관리 도구
-uuid: B 411032 A -7 D 56-44 FD-B 676-ABEE 4 AF 756 F 9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 사용자 그룹 설정 (기존)
+# 사용자 그룹 설정(레거시)
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 사용자 그룹 정의 페이지의 요소 설명
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL 새 사용자 그룹 추가]**
+**[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL 새 사용자 그룹추가]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>트래픽 보고서</b>: 페이지 보기 횟수, 방문 횟수 및 고유 방문자 수와 같은 트래픽을 기반으로 한 모든 보고서에 대한 액세스 권한을 부여합니다. </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>트래픽 보고서</b>:페이지 보기 횟수, 방문 횟수 및 고유 방문자 수와 같은 트래픽을 기반으로 모든 보고서에 대한 액세스 권한을 부여합니다. </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>도구</b>(IP별로 제외, 분류 및 레거시 Clickmap과 같은 보고 및 분석에 사용된 도구에 대한 액세스 권한을 부여합니다.) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>비디오 및 모바일 보고서</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>경로 보고서</b>(다음 페이지, 폴아웃 및 페이지에서 보낸 시간과 같은 경로 지정 보고서에 대한 액세스 권한을 부여합니다.) </li> 
@@ -95,10 +95,10 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
      </ul> </p> </td> 
    <td colname="col2"> <p>그룹 구성원이 보고서 그룹의 보고서 하위 세트에 액세스할 수 있습니다. 그룹 구성원이 액세스할 수 있는 보고서 그룹의 특정 보고서를 선택할 수 있는 페이지를 열려면 <span class="uicontrol">사용자 지정</span>을 클릭합니다. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local"> Analytics 도구</a>: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local"> 보고서 세트 도구</a>: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local"> 지표</a>: 트래픽, 전환, 사용자 지정 이벤트, 솔루션 이벤트, 컨텐츠 인식 등에 대한 권한을 활성화합니다. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local"> 측정기준</a>: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Analytics 도구</a>: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> 보고서 세트 도구</a>: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> 지표</a>: 트래픽, 전환, 사용자 지정 이벤트, 솔루션 이벤트, 컨텐츠 인식 등에 대한 권한을 활성화합니다. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> 측정기준</a>: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
