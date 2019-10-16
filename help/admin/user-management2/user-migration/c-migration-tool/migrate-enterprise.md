@@ -5,7 +5,7 @@ seo-title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마�
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -141,7 +141,7 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >기타 열(예: *`Product Configurations`* 및 *`Admin Roles`* 비어 있을 수 있음)
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
-1. Analytics에서 마이그레이션 도구를 실행합니다(Analytics 사용자 계정 [마이그레이션](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)참조).
+1. Analytics에서 마이그레이션 도구를 실행합니다(Analytics 사용자 계정 [마이그레이션](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)참조).
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![단계 정보](assets/migrate-as-enterprise.png)
