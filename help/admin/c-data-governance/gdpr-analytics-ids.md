@@ -5,7 +5,7 @@ seo-title: 레이블 지정 우수 사례
 title: 레이블 지정 우수 사례
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 * **직접 식별 가능한 ID(I1)**: 사용자 이름을 지정하거나 사용자에게 연락하는 직접적인 방법을 제공합니다. 예를 들어 누군가의 이름(수백 명의 사용자가 사용할 수 있는 John Smith와 같은 일반적인 이름 포함), 이메일 주소 또는 전화 번호 등이 있습니다. 이름이 없는 우편 주소는 가정 또는 회사 내의 특정 개인이 아니라 해당 가정 또는 회사만 식별할 수 있다 하더라도 직접 식별 가능한 것으로 간주될 수 있습니다.
 * **간접 식별 가능한 ID(I2)**: 개인을 자체적으로 식별할 수는 없지만, 다른 정보(소유하고 있거나 소유하고 있지 않은 정보)와 결합하여 누군가를 식별할 수 있습니다. 예를 들어 고객 충성도 번호 또는 회사의 CRM 시스템에서 사용되며 각 고객에 대해 고유한 ID가 있습니다. 데이터 개인정보 보호에서, Analytics에서 사용하는 추적 쿠키에 저장된 익명 ID는 개인이 아닌 장치만 식별할 수 있더라도 간접적으로 식별된 것으로 간주할 수 있습니다.공유 장치에서 이러한 쿠키는 시스템의 다른 사용자를 구별하지 못합니다. 예를 들어 쿠키를 사용하여 쿠키를 포함하는 컴퓨터를 찾을 수 없는 경우 다른 사용자가 컴퓨터에 액세스하여 쿠키를 찾으면 Analytics 쿠키 데이터를 다시 컴퓨터에 연결할 수 있습니다.
 
-   또한, IP 주소는 특정 시점에 제공된 인스턴스에서 단일 장치에만 지정될 수 있으므로 간접적으로 식별 가능한 것으로 간주됩니다. 하지만 ISP에서 정기적으로 대부분의 사용자에 대해 IP 주소를 변경할 수 있으며 자주 변경하므로, 시간이 지남에 따라 사용자 중 누군가가 해당 IP 주소를 사용했을 수 있습니다. 또한 한 회사 내에서 동일한 인트라넷에 있는 여러 직원 또는 한 ISP의 여러 고객이 동일한 외부 IP 주소를 공유하는 일도 일반적입니다. Because of this, Adobe will not support using an IP address as the ID for a [Data Privacy request.](../../admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests) 그러나 Adobe에서 허용하는 ID가 삭제 요청의 일부로 사용된 경우 해당 ID와 함께 발생한 IP 주소도 지웁니다. 이 카테고리, I1 또는 I2에 속할 수 있지만 데이터 개인 정보 요청에 대해 구분되는 ID로 사용할 수 없는 다른 ID가 있는지 여부를 결정해야 합니다.
+   또한, IP 주소는 특정 시점에 제공된 인스턴스에서 단일 장치에만 지정될 수 있으므로 간접적으로 식별 가능한 것으로 간주됩니다. 하지만 ISP에서 정기적으로 대부분의 사용자에 대해 IP 주소를 변경할 수 있으며 자주 변경하므로, 시간이 지남에 따라 사용자 중 누군가가 해당 IP 주소를 사용했을 수 있습니다. 또한 한 회사 내에서 동일한 인트라넷에 있는 여러 직원 또는 한 ISP의 여러 고객이 동일한 외부 IP 주소를 공유하는 일도 일반적입니다. Because of this, Adobe will not support using an IP address as the ID for a [Data Privacy request.](/help/admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests) 그러나 Adobe에서 허용하는 ID가 삭제 요청의 일부로 사용된 경우 해당 ID와 함께 발생한 IP 주소도 지웁니다. 이 카테고리, I1 또는 I2에 속할 수 있지만 데이터 개인 정보 요청에 대해 구분되는 ID로 사용할 수 없는 다른 ID가 있는지 여부를 결정해야 합니다.
 
 회사가 Analytics 데이터 내에서 여러 개의 서로 다른 ID를 수집하는 경우에도 데이터 개인 정보 요청에 대해 이러한 ID의 하위 집합만 사용하도록 선택할 수 있습니다. 이에 대해서는 다음과 같은 여러 이유가 있을 수 있습니다.
 
@@ -50,7 +50,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> (기존) Analytics 쿠키 </a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 이전에 MCID(Marketing Cloud ID) </a> 로 알려진 ECID(Identity Service 쿠키) </li> 
     </ul> </td> 
-   <td colname="col2"> <p>이러한 쿠키는 장치, 그중에서도 장치 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 장치의 경우 이 ID는 장치의 모든 사용자에게 적용될 수 있습니다. Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID(Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽을 수 있는 API 호출이 있으므로 데이터 개인 정보 보호 요청에 대해 앱을 수집하도록 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 장치의 ID로 간주합니다. 그 결과, 법률 팀과 협의하여, 이들은 데이터 개인 정보 보호 요청에 대해 허용되는 ID로 사용을 지원하지 않도록 선택하거나, 이러한 ID를 사용하거나 삭제 요청에 대해서만 허용하기로 선택할 수 있습니다. </p> <p>이러한 쿠키에는 I2 및 DEL-DEVICE 레이블뿐만 아니라 변경할 수 없는 ID-DEVICE 레이블이 있습니다. 기본 Adobe Analytics 구성은 장치 유형, OS, 브라우저 등과 같은 장치에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 아래 설명된 대로 데이터 개인 정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인 정보 액세스 요청에 대해 반환하려는 정확한 필드 세트를 구성할 수 있습니다. </p> <p>특히 보고서 세트가 모바일 앱에 해당되고 모바일 앱에 로그인이 필요한 경우에는 장치에 대한 Experience Cloud ID가 특정 사용자에 해당한다고 판단할 수 있으므로 방문한 페이지 이름, 확인한 제품 등을 비롯하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> <p>참고: 데이터 개인 정보 보호 요청에서 "expandIds" 옵션을 지정하는 경우 요청에는 지정한 다른 ID 외에 항상 쿠키 ID가 포함됩니다. 자세한 내용은 <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 확장</a>을 참조하십시오. 이러한 경우 쿠키 ID만 있고 다른 ID는 없는 히트는 액세스 요청의 일부로 데이터 레이블이 지정된 ACC-ALL만 반환합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 쿠키는 장치, 그중에서도 장치 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 장치의 경우 이 ID는 장치의 모든 사용자에게 적용될 수 있습니다. Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID(Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽을 수 있는 API 호출이 있으므로 데이터 개인 정보 보호 요청에 대해 앱을 수집하도록 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 장치의 ID로 간주합니다. 그 결과, 법률 팀과 협의하여, 이들은 데이터 개인 정보 보호 요청에 대해 허용되는 ID로 사용을 지원하지 않도록 선택하거나, 이러한 ID를 사용하거나 삭제 요청에 대해서만 허용하기로 선택할 수 있습니다. </p> <p>이러한 쿠키에는 I2 및 DEL-DEVICE 레이블뿐만 아니라 변경할 수 없는 ID-DEVICE 레이블이 있습니다. 기본 Adobe Analytics 구성은 장치 유형, OS, 브라우저 등과 같은 장치에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 아래 설명된 대로 데이터 개인 정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인 정보 액세스 요청에 대해 반환하려는 정확한 필드 세트를 구성할 수 있습니다. </p> <p>특히 보고서 세트가 모바일 앱에 해당되고 모바일 앱에 로그인이 필요한 경우에는 장치에 대한 Experience Cloud ID가 특정 사용자에 해당한다고 판단할 수 있으므로 방문한 페이지 이름, 확인한 제품 등을 비롯하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> <p>참고: 데이터 개인 정보 보호 요청에서 "expandIds" 옵션을 지정하는 경우 요청에는 지정한 다른 ID 외에 항상 쿠키 ID가 포함됩니다. 자세한 내용은 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 확장</a>을 참조하십시오. 이러한 경우 쿠키 ID만 있고 다른 ID는 없는 히트는 액세스 요청의 일부로 데이터 레이블이 지정된 ACC-ALL만 반환합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 지정 변수의 ID </p> </td> 
@@ -77,7 +77,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 삭제 레이블 DEL-DEVICE 및 DEL-PERSON은 드물게 사용해야 합니다. 데이터 개인 정보 요청의 일부로 사용된 ID가 없는 변수에 적용하면 내역 Analytics 보고서의 카운트(지표)는 거의 항상 변경됩니다.
 
 * 이러한 레이블 중 하나를 I1, I2 또는 S1 레이블이 지정된 변수에 적용하는 것이 좋습니다. I1, I2 또는 S1 레이블이 지정되지 않은 변수에는 적용할 수 없습니다.
-* The DEL-labels will result in these variables being [anonymized](../../admin/c-data-governance/gdpr-labels.md#section_F3DEE591671A4B16A8E043F91C137ECB) (the ID will be replaced with a random string prefixed with "Data Privacy-"). 익명 처리된 동일한 값이 요청에 사용된 ID로 식별된 모든 히트의 원래 값에 대한 모든 인스턴스를 대체합니다. 이 필드의 원래 값이 그러한 ID 중 하나이면 보고서 지표가 변경되지 않습니다.
+* The DEL-labels will result in these variables being [anonymized](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) (the ID will be replaced with a random string prefixed with "Data Privacy-"). 익명 처리된 동일한 값이 요청에 사용된 ID로 식별된 모든 히트의 원래 값에 대한 모든 인스턴스를 대체합니다. 이 필드의 원래 값이 그러한 ID 중 하나이면 보고서 지표가 변경되지 않습니다.
 * 일반적으로 필드에 ID-DEVICE 레이블이 있는 경우 DEL-DEVICE 레이블도 지정해야 합니다.
 * 마찬가지로, 필드에 ID-PERSON 레이블이 있는 경우 DEL-PERSON 레이블도 지정해야 합니다.
 * 필드에 ID- 레이블이 없지만 익명 처리할 식별 정보가 포함된 경우, 구현에 따라 적합한 레이블(DEVICE 또는 PERSON)이 달라집니다. 데이터 개인 정보 요청에 쿠키 ID만 사용하는 경우 DEL-DEVICE를 사용해야 합니다.
@@ -86,7 +86,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 * ID 확장을 사용하도록 지정하지는 않지만 서로 다른 요청에 대해 장치와 개인 ID를 혼합하여 사용할 경우에는 이 중 한 유형의 ID가 사용되면 삭제되어야 하는 변수에 대해 DEL-DEVICE와 DEL-PERSON 레이블을 둘 다 지정할 수 있습니다.
 * 해당 요청(확장된 ID 포함)에 대한 ID로도 사용되지 않는 변수에 DEL-DEVICE 또는 DEL-PERSON 레이블이 지정된 경우 해당 변수의 고유 값은 지정된(또는 확장된) ID가 발생하는 히트에 대해서만 익명으로 지정됩니다. 다른 히트에 동일한 값이 있는 경우 해당 값은 그러한 다른 위치에서 업데이트되지 않습니다. 이로 인해 카운트(지표)가 변경될 수 있습니다.
 
-   예를 들어 eVar7에서 값 "foo"를 포함하는 히트 세 개가 있지만, 이 중 한 개만 삭제에 대해 일치하는 다른 변수의 ID를 포함하고 있는 경우, 해당 히트의 "foo"는 "데이터 개인 정보 보호-123456789"와 같은 값으로 수정되지만 다른 두 히트는 변경되지 않습니다. eVar7에 대한 고유 값 수를 표시하는 보고서에는 이전에 수행한 것보다 한 개 더 많은 고유한 값이 표시됩니다. eVars의 최상위 값을 표시하는 보고서에는 두 개(이전의 세 개가 아님)의 인스턴스만 있는 "foo"가 포함될 수 있고, 단일 인스턴스가 있는 새 값도 표시됩니다.
+   예를 들어 eVar7에서 값 "foo"를 포함하는 히트 세 개가 있지만, 이 중 한 개만 삭제에 대해 일치하는 다른 변수의 ID를 포함하고 있는 경우, 해당 히트의 "foo"는 "데이터 개인 정보 보호-123456789"와 같은 값으로 수정되지만 다른 두 히트는 변경되지 않습니다. eVar7에 대한 고유 값 수를 표시하는 보고서에는 이전에 수행한 것보다 한 개 더 많은 고유한 값이 표시됩니다. eVar의 상위 값을 보여주는 보고서에는 두 개의 인스턴스(이전의 인스턴스 3개가 아님)만 있는 "foo"가 포함될 수 있으며, 새 값도 단일 인스턴스와 함께 표시됩니다.
 
 ## 액세스 레이블 설정에 대한 우수 사례 {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
