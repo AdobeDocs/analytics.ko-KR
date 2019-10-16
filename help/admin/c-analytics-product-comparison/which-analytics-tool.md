@@ -5,7 +5,7 @@ seo-title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 필요를 충족하지 못하면 다음 도구로 이동하여 고려하십시오.
 
 Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)에서 확인하십시오.
+
 ## Adobe Analytics 보고 사용자 인터페이스 {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)**&#x200B;는 모든 보고 및 분석 요구를 위한 go-to 사용자 인터페이스여야 합니다. Adobe는 이 제품에 대한 투자와 월별 업데이트 릴리스를 계속 수행합니다. Analysis Workspace에서 작업을 수행할 수 없는 경우 아래의 다른 인터페이스를 고려하십시오.**
