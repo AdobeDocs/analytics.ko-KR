@@ -5,7 +5,7 @@ seo-title: Admin Console로 Analytics 사용자 마이그레이션
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -23,14 +23,16 @@ Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이�
 <p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
 -->
 
-이 페이지의 내용:
+<!-- This is duplicating the right-side nav, so... Please feel free to uncomment if you feel strongly that you  want it here.
+On this page:
 
-* [ 사용자 ID 마이그레이션이란?](../c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c)
-* [사용자 ID 마이그레이션 전 알아야 할 사항(FAQ)](../c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9)
-* [마이그레이션 중 알아 두어야 할 사항(FAQ)](../c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc)
-* [마이그레이션 후 알아 두어야 할 사항(FAQ)](../c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff)
-* [Admin Console에서 지원되지 않는 Analytics 기능](../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56)
-* [마이그레이션에 대해 사용자에게 알리는 방법](../c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+* [What is the user ID migration?](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
+* [What to know before migrating user IDs (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
+* [What to know during the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
+* [What to know after the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
+* [Unsupported Analytics features in the Admin Console](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
+* [How to notify your users about the migration](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+-->
 
 Analytics 마이그레이션과 관련이 없는 Admin Console 주제에 대한 일반적인 도움말은 [Admin Console 사용 안내서](https://helpx.adobe.com/enterprise/administering/user-guide.html)를 참조하십시오.
 
