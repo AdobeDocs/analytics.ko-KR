@@ -5,7 +5,7 @@ seo-title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마�
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
 
-## 전제 조건 {#concept-e60d8deb3fc54a1a81f1f47a26658de3}
+## 전제 조건 {#prereqs}
 
 Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
@@ -50,7 +50,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
       [보고서 다운로드] 링크는 사용자를 마이그레이션하지 않은 고객에게만 표시됩니다.
 
-   1. *If you already migrated users, navigate to Analytics &gt; Analytics users and Assets.*********
+   1. *이미 사용자를 마이그레이션한 경우* Analytics &gt; **[!UICONTROL Analytics 사용자 및]** 자산으로 이동합니다 ****.
 
       ![단계 정보](assets/admin-analytics-users-assets.png)
 
@@ -125,7 +125,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>Ensure that domains in  Domain and  Email column are matching the domain(s) established in the  prerequisites.<span class="term"></span><span class="term"></span><a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"></a> </p> </td> 
+   <td colname="col2"> <p>도메인이 도메인 <span class="term"> 및</span> 이메일 <span class="term"> 열이</span> 사전 요구 사항에 설정된 도메인과 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"></a>일치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 
@@ -140,11 +140,11 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >
 >기타 열(예: *`Product Configurations`* 및 *`Admin Roles`* 비어 있을 수 있음)
 
-1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. Analytics에서 마이그레이션 도구를 실행합니다(Analytics 사용자 계정 [마이그레이션](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)참조).
+1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
+1. Analytics에서 마이그레이션 도구를 실행합니다(Analytics 사용자 계정 [마이그레이션](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)참조).
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
-   ![Step Info](assets/migrate-as-enterprise.png)
+   ![단계 정보](assets/migrate-as-enterprise.png)
 
    When you click **[!UICONTROL Migrate]**, user are linked to the Enterprise ID/Federated ID account in Admin Console. The permissions of the legacy user account in Analytics will match the permissions granted to the Enterprise/Federated ID login in **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Product Profiles]**. 사용자 ID가 [마이그레이션 완료] 버킷에 표시됩니다. 기존 [!DNL my.omniture.com] 액세스를 비활성화할 수 있습니다.
 
