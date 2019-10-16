@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: GDPR 용어
 title: GDPR 용어
-uuid: A 3 E 44 F 08-6 F 9 C -4 B 23-874 C -51 C 6 E 4 BE 9 AF 9
+uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -52,13 +52,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **작업 그룹(Group of Undertakings)** - 제어 작업 및 제어되는 작업
 
-**IMS(Identity Management Service)** - Adobe ID 사용자의 인증과 Adobe 리소스에 대한 권한 부여를 위해 Adobe에서 구현한 Federated ID와 OAuth 2.0. 해당 사용자가 Adobe 서비스에 로그인하고 액세스할 수 있도록 하려면 IMS와 Adobe 애플리케이션 또는 서비스를 통합해야 합니다. 사용자는 Renga(Adobe의 ID 서비스 제공자)에 직접 로그인하거나, 신뢰할 수 있는 타사 인증 도메인(예: Google, Facebook 또는 기업/조직 LDAP)을 통해 로그인할 수 있습니다.
+**IMS(Identity Management Services)** - Adobe ID 사용자 인증 및 Adobe 리소스에 대한 승인을 위해 Adobe가 Federated ID 및 OAuth 2.0을 구현한 경우 해당 사용자가 Adobe 서비스에 로그인하고 액세스할 수 있도록 하려면 IMS와 Adobe 애플리케이션 또는 서비스를 통합해야 합니다. 사용자는 Renga(Adobe의 ID 서비스 제공업체)로 직접 로그인하거나 신뢰할 수 있는 타사 인증 도메인(예: Google, Facebook 또는 기업/조직 LDAP)을 통해 로그인할 수 있습니다.
 
-**Experience Cloud 조직 ID** - 사용자 로그인이 필요하지 않은 서비스 간 인증을 위한 Adobe 권한 토큰을 나타냅니다. IMS 클라이언트에 발급되며, 연결된 사용자가 없습니다. IMS 클라이언트는 서비스 간에 백채널(back-channel) 요청을 승인하기 위한 서비스 토큰이 필요합니다. ("시스템 토큰"이라는 용어는 종종 서비스 토큰을 의미하는 데 사용됩니다.)
+**Experience Cloud 조직 ID** - 사용자 로그인이 필요하지 않은 서비스 간 인증을 위한 Adobe 권한 토큰을 나타냅니다. IMS 클라이언트에 발급되며, 연결된 사용자가 없습니다. IMS 클라이언트는 서비스 간에 백채널(back-channel) 요청을 승인하기 위한 서비스 토큰이 필요합니다. (서비스 토큰을 의미하는 데 종종 "시스템 토큰"이라는 용어가 사용됩니다.)
 
 **주요 제정부(Main Establishment)** - 연합 내에서 데이터 처리에 대한 주요 의사 결정이 내려지는 곳으로, 처리자와 관련되어 있음
 
-**개인 데이터(Personal Data)** - 자연인 또는 '데이터 주체'와 관련하여 개인을 직접 또는 간접적으로 식별하는 데 사용할 수 있는 모든 정보
+**개인 데이터** - 자연인과 관련된 모든 정보 또는 '데이터 주체'로서, 개인을 직접 또는 간접적으로 식별하는 데 사용할 수 있습니다.
 
 **개인 데이터 위반(Personal Data Breach)** - 개인 데이터의 우발적이거나 불법적인 액세스, 파괴, 오용 등으로 이어지는 보안 위반
 
