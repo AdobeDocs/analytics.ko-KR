@@ -5,9 +5,9 @@ seo-title: 실시간 보고서
 solution: Analytics
 title: 실시간 보고서
 topic: 보고서
-uuid: C 09 CC 605-0 B 3 B -41 AB -9 B 46-8 C 2 A 26 F 579 A 3
+uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 >[!NOTE]
 >
->실시간 보고서에는 추가 구현 또는 태깅이 필요하지 않습니다. 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+>실시간 보고서는 추가 구현 또는 태그 지정이 필요하지 않습니다. 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/admin/admin/realtime/t-realtime-admin.md).
 
 **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 실시간]**
 
@@ -44,7 +44,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 * 예를 들면 지난 주의 값을 작년 값(및 오늘 합계)과 비교합니다.
 
-지속성 개념이 없으므로 eVar(전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+지속성 개념이 없으므로 eVar(전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 실시간 [보고서](/help/admin/admin/realtime/t-realtime-admin.md)설정을 참조하십시오.
 
 실시간 보고서를 설정하고 보는 것은 관리자와 "모든 보고서 액세스" 및 "고급 보고" 권한 그룹의 사용자에게로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
 
@@ -57,4 +57,4 @@ Adobe Target에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~10분 �
 * 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
-ID 서비스를 구현한 후 이 통합을 완전히 구현하지 않은 경우에도 지연 증가가 시작됩니다.
+이 통합을 완전히 구현하지 않았더라도 Identity Service를 구현한 후 지연 증가가 시작됩니다.
