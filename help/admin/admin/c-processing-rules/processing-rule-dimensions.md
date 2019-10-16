@@ -8,7 +8,7 @@ title: 처리 규칙에 사용 가능한 차원
 topic: 관리 도구
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 </p> </td> 
-   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고서에 표시될 수 있도록 보고 변수로 복사되어야 합니다. 컨텍스트 데이터 변수는 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 컨텍스트 데이터 변수</a> </p> </td> 
+   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고서에 표시될 수 있도록 보고 변수로 복사되어야 합니다. 컨텍스트 데이터 변수는 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 컨텍스트 데이터 변수를 eVar에 복사 </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 컨텍스트 데이터 변수</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,11 +66,11 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>사이트 섹션 </p> </td> 
-   <td colname="col2"> <p> <code>s.channel</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>서버 </p> </td> 
-   <td colname="col2"> <p> <code>s.server</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 URL </p> </td> 
-   <td colname="col2"> <code>s.pageURL</code> 또는 <code>s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL </td> 
+   <td colname="col2"> <code> s.pageURL</code> 또는 <code> s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿼리 문자열 매개 변수 </p> </td> 
@@ -164,7 +164,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code>evarN</code> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>캠페인 추적 코드 </p> </td> 
@@ -176,7 +176,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>목록 변수 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code>s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구매 ID </p> </td> 
@@ -211,7 +211,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>이벤트 1-1000 </p> <p>(SiteCatalyst 15 고객인 경우 이벤트 1-100) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code>event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구매, scView, scAdd 및 기타 장바구니 이벤트 </p> </td> 
