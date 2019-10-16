@@ -1,15 +1,15 @@
 ---
 description: Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그룹 권한을 사용자 지정합니다.
-keywords: 그룹; 권한
+keywords: 그룹;권한
 seo-description: Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그룹 권한을 사용자 지정합니다.
 seo-title: 보고서 액세스 사용자 지정 - 개요
 solution: Analytics
 subtopic: 사용자 및 그룹
 title: 보고서 액세스 사용자 지정 - 개요
 topic: 관리 도구
-uuid: 818 A 7196-8 B 43-4654-8 D 5 F -800 B 3122 AAD 3
+uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -46,7 +46,7 @@ Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 지정 그룹 </p> </td> 
-   <td colname="col2"> <p> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> <span class="term"> 모든 보고서 액세스에</span> 속한 사용자가 액세스 권한이 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
+   <td colname="col2"> <p> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> 모든 보고서 <span class="term"> 액세스에</span> 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">모든 측정 기준 </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">모든 지표 </li> 
@@ -63,11 +63,11 @@ Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 컨텐츠 인식) 및 지표가 주어집니다. </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
-    </ul> <p>See <a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html" format="html" scope="external"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>새로운 고객 또는 회사가 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">Experience Cloud에 공급된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>More information is available in <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="html" scope="external"> Analytics User Migration to the Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>새로운 고객 또는 회사가 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">Experience Cloud에 공급된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>자세한 내용은 Analytics 사용자 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="html" scope="external"> 마이그레이션을 관리 콘솔로 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텐츠 인식 </p> </td> 
