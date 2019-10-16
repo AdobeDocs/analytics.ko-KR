@@ -5,7 +5,7 @@ seo-title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
 title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
   </tr> 
   <tr> 
    <td colname="col1"> <p>기존 로그인이 비활성화됨 </p> </td> 
-   <td colname="col2"> <p>회사 ID를 사용하는 기존 로그인이 비활성화되었습니다. 이제 사용자는 Adobe ID 또는 Enterprise ID를 사용하여 Experience Cloud에 액세스합니다. 모든 사용자가 이 단계에 도달했으면 마이그레이션을 완료했습니다. </p> <p>마이그레이션 시 기존 로그인이 비활성화됩니다. 사용자는 experiencecloud.adobe.com <span class="filepath"> 으로</span> 리디렉션되며 Adobe ID 또는 Enterprise ID를 사용하여 로그인해야 합니다. </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>회사 ID를 사용하는 기존 로그인이 비활성화되었습니다. 이제 사용자는 Adobe ID 또는 Enterprise ID를 사용하여 Experience Cloud에 액세스합니다. 모든 사용자가 이 단계에 도달했으면 마이그레이션을 완료했습니다. </p> <p>마이그레이션 시 기존 로그인이 비활성화됩니다. 사용자는 experiencecloud.adobe.com <span class="filepath"> 으로</span> 리디렉션되며 Adobe ID 또는 Enterprise ID를 사용하여 로그인해야 합니다. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
