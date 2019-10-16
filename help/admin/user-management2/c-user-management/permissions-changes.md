@@ -9,7 +9,7 @@ title: 사용자 및 그룹 권한 변경 사항
 topic: 관리 도구
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 ---
 
@@ -59,7 +59,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">예외 항목 탐지 보고서 권한 </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">실시간 보고서 권한 </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace 액세스 권한 </li> 
-    </ul> <p>이전에 사전 정의된 그룹에서 사용할 수 있었던 모든 설정은 <span class="wintitle">사용자 그룹 정의</span>의 <a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">보고서 액세스</a> 설정에서 사용자 지정할 수 있으므로 관리자는 사용자 지정 그룹을 삭제하고 직접 생성할 수 있습니다. </p> </td> 
+    </ul> <p>이전에 사전 정의된 그룹에서 사용할 수 있었던 모든 설정은 <span class="wintitle">사용자 그룹 정의</span>의 <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">보고서 액세스</a> 설정에서 사용자 지정할 수 있으므로 관리자는 사용자 지정 그룹을 삭제하고 직접 생성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>측정기준-수준 권한 </p> </td> 
