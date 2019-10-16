@@ -1,20 +1,20 @@
 ---
 description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다.
-keywords: 그룹; 권한
+keywords: 그룹;권한
 seo-description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다.
-seo-title: 차원 권한 사용자 정의
+seo-title: 차원 권한 사용자 지정
 solution: Analytics
 subtopic: 사용자 및 그룹
-title: 차원 권한 사용자 정의
+title: 차원 권한 사용자 지정
 topic: 관리 도구
-uuid: AAF 164 AD -3863-4129-864 E -39 EC 71 C 6 A 8 EB
+uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 차원 권한 사용자 정의
+# 차원 권한 사용자 지정
 
 >[!IMPORTANT]
 >
@@ -22,11 +22,11 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다.
 
-**[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL 보고서 액세스]** &gt; **[!UICONTROL 차원]** &gt; **[!UICONTROL 사용자 지정]**
+**[!UICONTROL 사용자 관리 &gt;]** 그룹 **[!UICONTROL &gt;]** 보고서 액세스 **[!UICONTROL &gt;]** 차원 **[!UICONTROL &gt;]** 사용자 **[!UICONTROL 지정]**
 
 >[!IMPORTANT]
 >
->현재 일부 차원은 권한이 없습니다. 이러한 측정기준은 다음과 같습니다. 모바일 책갈피 길이, 모바일 장치 번호, 모바일 DRM, 모바일 정보 서비스, 모바일 Java VM, 모바일 메일 장식, 모바일 네트 프로토콜, 모바일 OS, 모바일 Push To Talk.
+>현재 일부 차원은 허용되지 않습니다. 이러한 측정기준은 다음과 같습니다. 모바일 책갈피 길이, 모바일 장치 번호, 모바일 DRM, 모바일 정보 서비스, 모바일 Java VM, 모바일 메일 장식, 모바일 네트 프로토콜, 모바일 OS, 모바일 Push To Talk.
 >
 >이러한 측정기준은 다른 사용 권한과 상관없이 모든 사용자가 사용할 수 있습니다.
 
@@ -38,7 +38,7 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
 
 * eVar 1-250은 개별적으로 권한이 주어집니다.
 * 모든 트래픽 보고서는 측정 기준입니다.
-* 비디오 및 모바일 보고서는 차원뿐만 아니라 다른 분석 솔루션 보고서입니다 (Experience Manager, Advertising Cloud, Social 및 Do on).
+* 비디오 및 모바일 보고서는 차원과 다른 Analytics 솔루션 보고서(Experience Manager, Advertising Cloud, Social 및 계속)입니다.
 * 사용자에게 상위 측정 기준에 대한 액세스 권한이 있을 경우 경로 지정 보고서를 사용할 수 있습니다.
 * 사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 컨텐츠 인식) 및 지표가 주어집니다.
 * 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 [변수](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)에 대한 액세스 권한으로 결정됩니다. 
@@ -58,7 +58,7 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/conversion-var-admin/conversion-var-admin.md#concept_C02F7AA01DE242F1AA1A4E74022BE9DE" format="dita" scope="local"> eVar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVar </a> </p> </td> 
    <td colname="col2"> <p>eVar 1-250은 개별적으로 권한이 주어집니다. eVar는 사용자 지정 보고서의 전환 성공 지표를 세그먼트화하는 데 사용하는 전환 변수입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>표준 </p> </td> 
-   <td colname="col2"> <p>Analytics의 표준 (즉시 사용 가능한) Analytics의 차원. </p> </td> 
+   <td colname="col2"> <p>Analytics의 표준 Analytics에서 바로 사용 가능한 차원. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/" format="https" scope="external"> AEM </a> </p> </td> 
