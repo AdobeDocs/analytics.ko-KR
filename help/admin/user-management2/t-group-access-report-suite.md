@@ -1,19 +1,19 @@
 ---
 description: 사용자 그룹을 보고서 세트에 지정하는 방법을 설명하는 단계입니다.
 seo-description: 사용자 그룹을 보고서 세트에 지정하는 방법을 설명하는 단계입니다.
-seo-title: 사용자 그룹을 보고서 세트에 지정
+seo-title: 보고서 세트에 사용자 그룹 할당
 solution: Analytics
 subtopic: 사용자 및 그룹
-title: 사용자 그룹을 보고서 세트에 지정
+title: 보고서 세트에 사용자 그룹 할당
 topic: 관리 도구
-uuid: 67173113-2 FCA -483 E -9038-8423 E 6 D 4 DE 6 E
+uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 사용자 그룹을 보고서 세트에 지정
+# 보고서 세트에 사용자 그룹 할당
 
 >[!IMPORTANT]
 >
@@ -21,12 +21,12 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 사용자 그룹을 보고서 세트에 지정하는 방법을 설명하는 단계입니다.
 
-[!UICONTROL 보고서 세트] 페이지를 사용하여 회사 보고서 세트를 보고 구성할 수 있습니다. Analytics는 그룹 구성원을 통해 보고서 세트 액세스를 관리합니다. 처음 설정하는 경우 필요한 [그룹](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)을 만들고(각 그룹에 보고서 세트 할당), 적절한 그룹에 사용자 계정을 할당합니다.
+[!UICONTROL 보고서 세트] 페이지를 사용하여 회사 보고서 세트를 보고 구성할 수 있습니다. Analytics는 그룹 구성원을 통해 보고서 세트 액세스를 관리합니다. 처음 설정하는 경우 필요한 [그룹](/help/admin/user-management2/c-user-groups/groups.md)을 만들고(각 그룹에 보고서 세트 할당), 적절한 그룹에 사용자 계정을 할당합니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리를 클릭합니다]**.
-1. **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. 보고서 세트를 선택합니다.
-1. **[!UICONTROL 보고서 세트 권한 관리]** 페이지에서 보고서 세트에 할당할 그룹을 선택합니다.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Click **[!UICONTROL Report Suites]**.
+1. 보고서 세트 선택.
+1. Under **[!UICONTROL Report Suite Permissions Management]** page, select the groups to assign to the report suite:
 
    **[!UICONTROL 사용 가능한 그룹:]**&#x200B;현재 정의된 모든 그룹을 표시합니다. 원하는 그룹을 선택하고 **[!UICONTROL 추가를 클릭합니다]**. 지정된 그룹이 [포함 그룹] 필드(오른쪽)에 나타납니다.
 
