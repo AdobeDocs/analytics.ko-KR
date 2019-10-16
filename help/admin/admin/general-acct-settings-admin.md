@@ -7,7 +7,7 @@ title: 일반 계정 설정
 topic: 관리 도구
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 URL</span> </td> 
-   <td colname="col2"> <p>보고서 세트의 주 웹 사이트를 지정합니다. 기본 URL은 참조 필터링에 영향을 주지 않습니다. 대신 <a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local"> 내부 URL 필터</a>를 사용하십시오. </p> </td> 
+   <td colname="col2"> <p>보고서 세트의 주 웹 사이트를 지정합니다. 기본 URL은 참조 필터링에 영향을 주지 않습니다. 대신 <a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local"> 내부 URL 필터</a>를 사용하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 시간대</span> </td> 
@@ -54,7 +54,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 유사 IP 탐지</span> </td> 
-   <td colname="col2"> <p>IP 주소가 인식할 수 없는 문자열로 바뀌어 결국 Adobe 데이터 저장소에서 제거됩니다. 유사 IP 탐지가 활성화되면 원래 IP 주소는 영구적으로 손실됩니다. </p> <p>참고: IP 주소는 Data Warehouse를 포함하여 Analytics의 모든 곳에서 난독화되었습니다. 하지만 Target의 IP 설정은 별도로 제어되므로 이 설정은 Target에 영향을 주지 않습니다. </p> <p>IP 난독화가 활성화되어 있으면 IP 주소가 난독화되기 전에 IP 제외가 발생하므로 고객은 IP 난독화를 활성화할 때 아무것도 변경할 필요가 없습니다. </p> <p><span class="uicontrol">비활성화됨</span>을 선택하면 데이터에 IP 주소가 남습니다. </p> <p><span class="uicontrol">IP 주소 난독화</span>를 선택하면 IP가 해시된 값(예: 234abc6493872038)으로 변경됩니다. </p> <p><span class="uicontrol">IP 주소 제거</span>를 선택하면 지역 조회 후 데이터에서 IP 주소가 x.x.x.x로 변경됩니다. </p> <p>참고:이 설정을 사용하려면 사용자 지정 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 보트 규칙</a> 또는<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP 제외를</a>변경해야 할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>IP 주소가 인식할 수 없는 문자열로 바뀌어 결국 Adobe 데이터 저장소에서 제거됩니다. 유사 IP 탐지가 활성화되면 원래 IP 주소는 영구적으로 손실됩니다. </p> <p>참고: IP 주소는 Data Warehouse를 포함하여 Analytics의 모든 곳에서 난독화되었습니다. 하지만 Target의 IP 설정은 별도로 제어되므로 이 설정은 Target에 영향을 주지 않습니다. </p> <p>IP 난독화가 활성화되어 있으면 IP 주소가 난독화되기 전에 IP 제외가 발생하므로 고객은 IP 난독화를 활성화할 때 아무것도 변경할 필요가 없습니다. </p> <p><span class="uicontrol">비활성화됨</span>을 선택하면 데이터에 IP 주소가 남습니다. </p> <p><span class="uicontrol">IP 주소 난독화</span>를 선택하면 IP가 해시된 값(예: 234abc6493872038)으로 변경됩니다. </p> <p><span class="uicontrol">IP 주소 제거</span>를 선택하면 지역 조회 후 데이터에서 IP 주소가 x.x.x.x로 변경됩니다. </p> <p>참고:이 설정을 사용하려면 사용자 지정 <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> 보트 규칙</a> 또는<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP 제외를</a>변경해야 할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 거래 ID 스토리지</span> </td> 
