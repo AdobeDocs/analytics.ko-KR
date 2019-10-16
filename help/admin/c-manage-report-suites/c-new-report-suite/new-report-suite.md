@@ -5,9 +5,9 @@ seo-title: 새 보고서 세트 - 설정
 solution: Analytics
 title: 새 보고서 세트 - 설정
 topic: 관리 도구
-uuid: 3508 F 684-11 A 3-4 C 8 F-A 233-BEA 6 BAFD 57 C 0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 사전 정의된 템플릿을 선택하거나 기존 보고서 세트 중 하나를 모델로 사용하여 새 보고서 세트를 생성할 수 있습니다.
 
-Descriptions of the elements used when [creating a report suite](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0).
+보고서 세트를 [만들 때 사용되는 요소에 대한 설명입니다](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
->[가상 보고서 세트 설명서는](/help/components/vrs/c-workflow-vrs/vrs-create.md) 가상 보고서 세트를 만드는 방법을 보여줍니다.
+>The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -52,7 +52,7 @@ Descriptions of the elements used when [creating a report suite](../../../admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live 날짜 </p> </td> 
-   <td colname="col2">이 보고서 세트가 활성화될 것으로 예상하는 날짜를 Adobe에 알려줍니다. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">이 보고서 세트가 활성화될 것으로 예상하는 날짜를 Adobe에 알려줍니다. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 예상 일일 페이지 보기 횟수</span> </td> 
@@ -60,11 +60,11 @@ Descriptions of the elements used when [creating a report suite](../../../admin/
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 통화</span> </td> 
-   <td colname="col2"> <p>모든 통화 데이터를 저장하는 데 사용되는 기본 통화를 지정합니다. Analytics는 데이터를 받을 때 현재 전환율을 사용하여 다른 통화의 거래를 기본 통화로 전환합니다. </p> <p> Analytics 보고 기능은 <span class="varname"> Currencycode</span> JavaScript 변수를 사용하여 주어진 거래의 통화를 식별합니다. </p> </td> 
+   <td colname="col2"> <p>모든 통화 데이터를 저장하는 데 사용되는 기본 통화를 지정합니다. Analytics는 데이터를 받을 때 현재 전환율을 사용하여 다른 통화의 거래를 기본 통화로 전환합니다. </p> <p> Analytics 보고 기능은 <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 멀티바이트 문자 지원 비활성화 </span> </td> 
-   <td colname="col2"> <p>보고서 세트에 대한 멀티바이트 문자 지원을 비활성화합니다. 멀티바이트 문자 지원을 비활성화하면 시스템에서는 데이터를 ISO-8859-1 형식으로 간주합니다. 웹 페이지는 <span class="varname"> Charset</span> JavaScript 변수를 참조하십시오. </p> <p>멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신할 때, 시스템에서는 웹 페이지의 문자 집합 데이터를 UTF-8 문자 집합으로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다. </p> <p>기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 계정 관리자 또는 고객 지원 센터에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>보고서 세트에 대한 멀티바이트 문자 지원을 비활성화합니다. 멀티바이트 문자 지원을 비활성화하면 시스템에서는 데이터를 ISO-8859-1 형식으로 간주합니다. 웹 페이지는 char <span class="varname"> Set</span> JavaScript 변수. </p> <p>멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신할 때, 시스템에서는 웹 페이지의 문자 집합 데이터를 UTF-8 문자 집합으로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다. </p> <p>기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 계정 관리자 또는 고객 지원 센터에 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 이 세트에 대한 Ad Hoc Analysis 활성화</span> </td> 
