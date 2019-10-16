@@ -5,9 +5,9 @@ seo-title: 성공 이벤트 구성
 solution: Analytics
 title: 성공 이벤트 구성
 topic: 관리 도구
-uuid: ca 3 d 3 f 46-5 fad -4481-aef 6-04 cad 6 bc 6 e 2 d
+uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,8 +16,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 성공 이벤트를 구성하는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. 보고서 세트를 선택합니다.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 보고서 세트 선택.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**.
 
    ![단계 결과](assets/success_event_page.png)
@@ -27,20 +27,21 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >Before you change an event type, see [Change event type](../../../admin/admin/c-success-events/event-type.md#concept_2A6FCC19E7FC429DBDFA65BC640BD448).
+   >이벤트 유형을 변경하기 전에 이벤트 [유형](/help/admin/admin/c-success-events/event-type.md)변경을 참조하십시오.
 
-   이 요소에 대한 자세한 내용은 [성공 이벤트 페이지 - 설명](../../../admin/admin/c-success-events/success-event.md#section_681ECEC981694CABBDBF00E18165B447)을 참조하십시오.
+   이 요소에 대한 자세한 내용은 [성공 이벤트 페이지 - 설명](/help/admin/admin/c-success-events/success-event.md)을 참조하십시오.
 
-1. **[!UICONTROL 극성]** 열에서 이 지표에 대한 증가 트렌드가 좋은 것인지 나쁜 것인지를 지정합니다.
-1. **[!UICONTROL 가시성]** 열에서 표준 (내장) 지표, 사용자 지정 이벤트 및 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더 및 세그먼트 빌더에서 숨길 수 있습니다.
+1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
+1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
 
-   이 설정은 해당 지표 또는 이벤트의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. [자세히...](../../../admin/admin/metric-visibility.md#concept_A85EB68D27534C4581AF1DCF5702DDE5) 1. 설명을 제공합니다.
+   이 설정은 해당 지표 또는 이벤트의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. [자세히...](/help/admin/admin/metric-visibility.md)
+1. 설명을 제공합니다.
 1. 이벤트를 항상 기록할 것인지 여부를 확인합니다.
-1. [기여도 지표를 활성화하거나 비활성화합니다](/help/components/c-variables/c-metrics/metrics-participation.md).
+1. 기여도 [지표를](/help/components/c-variables/c-metrics/metrics-participation.md)활성화 또는 비활성화합니다.
 
    >[!NOTE]
    >
-   >최대 100 개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
+   >최대 100개의 사용자 지정 이벤트에 대한 참여를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
