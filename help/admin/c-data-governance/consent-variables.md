@@ -1,20 +1,20 @@
 ---
-description: 데이터 개인정보 보호에서 동의 관리를 위한 변수.
-seo-description: 데이터 개인정보 보호에서 동의 관리를 위한 변수.
-seo-title: 동의 관리 변수
+description: 데이터 개인 정보에서 개인 정보 보고를 위한 변수.
+seo-description: 데이터 개인 정보에서 개인 정보 보고를 위한 변수.
+seo-title: 개인 정보 보고 변수
 solution: Analytics
-title: 동의 관리 변수
+title: 개인 정보 보고 변수
 topic: 관리 도구
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# 동의 관리 변수
+# 개인 정보 보고 변수
 
 개인 정보 데이터 관리에 대한 추가 지원을 제공하기 위해 특정 컨텍스트 데이터 변수와 함께 예약된 변수 세트를 사용할 수 있습니다.
-이러한 동의 관리 변수는 각 분석 히트에서 동의 상태를 캡처하는 사용하기 쉬운 프레임워크를 제공합니다.
+이러한 개인 정보 보고 변수는 각 분석 히트에서 개인 정보 상태를 캡처하는 사용하기 쉬운 프레임워크를 제공합니다.
 
 ## 변수
 
@@ -35,7 +35,7 @@ source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
 
 ## 보고
 
-Analytics 관리 콘솔에서 사용할 수 있는 새 개인 정보 설정을 통해 동의 관리 변수를 활성화할 수 있습니다.
+Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설정을 통해 개인 정보 보고 변수를 활성화할 수 있습니다.
 
 각 보고서 세트는 다음과 같이 구성할 수 있습니다.
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ Analytics 관리 콘솔에서 사용할 수 있는 새 개인 정보 설정을 �
 
 ## 구현
 
-동의 관리 예약 변수와 함께 작동하도록 3개의 컨텍스트 데이터 변수가 미리 정의되어 있습니다.  이러한 변수의 설정을 관리하고 유지하는 방법은 각 구현 엔지니어에게 달려 있습니다.
+개인 정보 보고 관리 예약 변수와 함께 작동하도록 3개의 컨텍스트 데이터 변수가 미리 정의되어 있습니다.  이러한 변수의 설정을 관리하고 유지하는 방법은 각 구현 엔지니어에게 달려 있습니다.
 
 컨텍스트 [데이터](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) 변수 구현에 대한 일반적인 지침은 컨텍스트 데이터 변수를 참조하십시오.
 
