@@ -1,20 +1,20 @@
 ---
-description: 'Activity Map UI는 두 부분으로 구성되어 있습니다. '
-seo-description: 'Activity Map UI는 두 부분으로 구성되어 있습니다. '
-seo-title: Activity Map 사용자 인터페이스
+description: '[!DNL Activity Map] UI는 두 부분으로 구성됩니다. '
+seo-description: '[!DNL Activity Map] UI는 두 부분으로 구성됩니다. '
+seo-title: '[!DNL Activity Map] 사용자 인터페이스'
 solution: Analytics
-title: Activity Map 사용자 인터페이스
+title: '[!DNL Activity Map] 사용자 인터페이스'
 topic: Activity Map
-uuid: F 6734 B 60-0 B 77-4 F 50-A 45 A -6 A 6936 D 1524 E
+uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Activity Map 사용자 인터페이스
+# [!DNL Activity Map] 유저 인터페이스
 
-Activity Map UI는 두 부분으로 구성되어 있습니다.
+The [!DNL Activity Map] UI is comprised of two parts:
 
 * 웹 페이지, 주입된 오버레이 및 도구 모음이 있는 위쪽 창.
 * 보고서용 아래쪽 패널.
