@@ -1,20 +1,20 @@
 ---
-description: Activity Map 사용과 호환하지 않는 브라우저 매개 변수를 나열합니다. 다음 설정을 비활성화해야 합니다.
-seo-description: Activity Map 사용과 호환하지 않는 브라우저 매개 변수를 나열합니다. 다음 설정을 비활성화해야 합니다.
+description: '[!DNL Activity Map]의 사용과 호환되지 않는 브라우저 매개 변수를 나열합니다. 다음 설정을 비활성화해야 합니다.'
+seo-description: '[!DNL Activity Map]의 사용과 호환되지 않는 브라우저 매개 변수를 나열합니다. 다음 설정을 비활성화해야 합니다.'
 seo-title: 브라우저 확장 문제 해결
 solution: Analytics
 title: 브라우저 확장 문제 해결
 topic: Activity Map
-uuid: AE 7 ACB 98-4728-45 AF -8 CB 4-62 A 1 E 9622543
+uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # 브라우저 확장 문제 해결
 
-Activity Map 사용과 호환하지 않는 브라우저 매개 변수를 표시합니다. 다음 설정을 비활성화해야 합니다.
+Shows the browser parameters that are not compatible with the use of [!DNL Activity Map]. 다음 설정을 비활성화해야 합니다.
 
 ## Chrome
 
