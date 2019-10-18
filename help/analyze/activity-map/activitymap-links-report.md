@@ -5,9 +5,9 @@ seo-title: 링크 보고서
 solution: Analytics
 title: 링크 보고서
 topic: Activity Map
-uuid: 1 E 7 CA 5 D 8-D 144-4 A 21-A 2 F 9-E 05 BD 3232 C 59
+uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 링크 보고서는 현재 페이지에서 찾은 링크에 대해 보고합니다. 이 보고서는 해당 페이지에 대해 수집한 모든 링크에 대해 보고하지는 않습니다.
 
-페이지에 있는 링크 수 보고서에서는 링크에 대한 탭 보기를 제공합니다. 때로 단일 보기로 등급이 지정된 링크 클릭(또는 다른 지표)을 봐야 할 수 있습니다. 이렇게 보면 링크들을 더 잘 비교할 수 있습니다. 페이지에 있는 모든 링크의 등급 목록(링크 ID별), 클릭 정보(횟수 및 비율) 및 페이지의 영역을 포함하는 페이지에 있는 링크 수 보고서를 만드십시오. Activity Map 도구 모음에서 페이지에 있는 링크 수 보고서 단추를 클릭합니다.
+페이지에 있는 링크 수 보고서에서는 링크에 대한 탭 보기를 제공합니다. 때로 단일 보기로 등급이 지정된 링크 클릭(또는 다른 지표)을 봐야 할 수 있습니다. 이렇게 보면 링크들을 더 잘 비교할 수 있습니다. 페이지에 있는 모든 링크의 등급 목록(링크 ID별), 클릭 정보(횟수 및 비율) 및 페이지의 영역을 포함하는 페이지에 있는 링크 수 보고서를 만드십시오. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-**[!UICONTROL 페이지에 있는 링크 수]보고서는 Activity Map 대시보드의 브라우저 프레임 아래에 열립니다.**
+**[!UICONTROL 페이지에 있는 링크 수]보고서는 대시보드의 브라우저 프레임 아래에 열립니다.**[!DNL Activity Map]
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 링크 ID </td> 
-   <td colname="col2">링크의 기본 ID (기본 ID가 [새로운 링크 추적 방법론] 로 정의되는 방법에 대한 자세한 내용은 (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology. md) </td> 
+   <td colname="col2">링크의 기본 ID(기본 ID가 [새 링크 추적 방법론]에 의해 정의된 방법에 대한 자세한 내용(/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 클릭 수 </td> 
@@ -63,11 +63,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **데이터 필터**
 
-특정 링크에 초점을 맞추려면 **[!UICONTROL 데이터 필터]필드에서 관련 용어를 검색할 수 있습니다.** 검색어와 일치하는 링크에만 오버레이가 있을 수 있습니다. 필터가 없으면, [Activity Map 설정](/help/analyze/activity-map/activitymap-overlay-settings.md)에 지정된 오버레이가 표시됩니다.
+특정 링크에 초점을 맞추려면 **[!UICONTROL 데이터 필터]필드에서 관련 용어를 검색할 수 있습니다.** 검색어와 일치하는 링크에만 오버레이가 있을 수 있습니다. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
-라이브 모드에서 페이지에 있는 링크 수 보고서에는 몇 분 동안의 트렌드 데이터가 표시됩니다.
+라이브 모드에서 페이지에 있는 링크 수 보고서는 몇 분에 걸친 트렌드 데이터를 보여줍니다.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 링크 ID </td> 
-   <td colname="col2">링크의 기본 ID. 를 참조하십시오. </td> 
+   <td colname="col2">링크의 기본 ID. 기본 ID가 새로운 [링크 추적 방법](/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md)에 의해 정의되는 방법에 대한 자세한 내용을 살펴보십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 링크 클릭 </td> 
