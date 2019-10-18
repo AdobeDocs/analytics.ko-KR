@@ -1,24 +1,24 @@
 ---
 description: 오버레이는 페이지에 있는 링크들의 인기도를 쉽게 보고 이해할 수 있도록 데이터 시각화를 구성하는 여러 방법을 제공합니다.
 seo-description: 오버레이는 페이지에 있는 링크들의 인기도를 쉽게 보고 이해할 수 있도록 데이터 시각화를 구성하는 여러 방법을 제공합니다.
-seo-title: 사용자 정의 가능한 오버레이
+seo-title: 사용자 지정 가능 오버레이
 solution: Analytics
-title: 사용자 정의 가능한 오버레이
+title: 사용자 지정 가능 오버레이
 topic: Activity Map
-uuid: C 1 E 56480-C 1 DF -4 A 81-8 A 2 A -42 EA 1362175 C
+uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# 사용자 정의 가능한 오버레이
+# 사용자 지정 가능 오버레이
 
 오버레이는 페이지에 있는 링크들의 인기도를 쉽게 보고 이해할 수 있도록 데이터 시각화를 구성하는 여러 방법을 제공합니다.
 
-오버레이를 사용하면 페이지에서 바로 클릭 데이터를 시각화할 수 있습니다. 이것은 Reports &amp; Analytics과 같은 대부분의 탭 및 그래픽 도구에서 Activity Map과 같은 시각적 분석 도구를 분리하는 것입니다.
+오버레이를 사용하면 페이지에서 바로 클릭 데이터를 시각화할 수 있습니다. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
 
-Activity Map에서는 다음과 같이 세 가지 오버레이를 제공합니다.
+[!DNL Activity Map] 오퍼는 다음 세 가지 유형의 오버레이를 제공합니다.
 
 * 그라데이션 오버레이(Heatmap)
 * 버블 오버레이
@@ -46,7 +46,7 @@ Activity Map에서는 다음과 같이 세 가지 오버레이를 제공합니�
 
 버블 오버레이는 오버레이 컨텐츠(지표, 백분율 또는 등급)를 작은 설명선 버블로 표시합니다.
 
-버블 오버레이는 도구 모음의 [오버레이 유형]에서 이 오버레이를 선택하면 표시됩니다. 버블 오버레이는 [Activity Map 설정](/help/analyze/activity-map/activitymap-overlay-settings.md)에 있는 선택 내용과 일치하는 모든 링크에 대해 표시됩니다(상위 30개, 상위 50개, 모든...). 그라데이션 오버레이는 이 옵션이 선택되어 있지 않으면 표시됩니다.
+버블 오버레이는 도구 모음의 [오버레이 유형]에서 이 오버레이를 선택하면 표시됩니다. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). 그라데이션 오버레이는 이 옵션이 선택되어 있지 않으면 표시됩니다.
 
 ![](assets/bubble_overlay.png)
 
