@@ -4,7 +4,7 @@ audience: 관리
 user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/ko-KR/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -174,7 +174,7 @@ source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
    + [데이터 개인 정보 및 데이터 커넥터(Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [데이터 개인 정보 용어](c-data-governance/gdpr-terminology.md)
-   + [동의 관리 변수](c-data-governance/consent-variables.md)
+   + [개인 정보 보고 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
    + [서버 호출 사용량 개요](c-server-call-usage/overage-overview.md)
    + [현재 서버 호출 사용량 보기](c-server-call-usage/server-call-usage-dashboard.md)
