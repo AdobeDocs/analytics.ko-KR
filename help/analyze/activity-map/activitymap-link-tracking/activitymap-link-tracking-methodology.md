@@ -1,26 +1,26 @@
 ---
 description: 이 섹션은 Adobe Analytics 관리자용으로서, 새로운 링크 추적 매개 변수를 집중적으로 살펴보고, 이 매개 변수들이 여러 브라우저와 장치에서 링크 고유성 및 일관성을 보장하고 페이지에서 링크 위치 변경 처리를 개선하는 방식에 대해 살펴봅니다.
 seo-description: 이 섹션은 Adobe Analytics 관리자용으로서, 새로운 링크 추적 매개 변수를 집중적으로 살펴보고, 이 매개 변수들이 여러 브라우저와 장치에서 링크 고유성 및 일관성을 보장하고 페이지에서 링크 위치 변경 처리를 개선하는 방식에 대해 살펴봅니다.
-seo-title: 링크 추적 방법
+seo-title: 링크 추적 방식
 solution: Analytics
-title: 링크 추적 방법
+title: 링크 추적 방식
 topic: Activity Map
-uuid: 67864 BF 9-33 CD -46 FA -89 A 8-4 D 83 D 3 B 81152
+uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# 링크 추적 방법
+# 링크 추적 방식
 
 이 섹션은 Adobe Analytics 관리자용으로서, 새로운 링크 추적 매개 변수를 집중적으로 살펴보고, 이 매개 변수들이 여러 브라우저와 장치에서 링크 고유성 및 일관성을 보장하고 페이지에서 링크 위치 변경 처리를 개선하는 방식에 대해 살펴봅니다.
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6)에서 확인하십시오.
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how [!DNL Activity Map] may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
 
-Activity Map은 다음 두 ID를 기반으로 링크를 추적합니다.
+[!DNL Activity Map] 다음 두 ID에 대한 링크 추적을 기반으로 합니다.
 
 * 기본 ID: 링크의 인식 가능한 매개 변수입니다.
 * 링크 영역: 사용자가 페이지나 영역에서 전체 링크 구역을 나타내는 문자열을 지정할 수 있는 보조 매개 변수입니다. 이 매개 변수는 사용자가 제공하지 않는 경우 자동으로 생성될 수 있습니다.
@@ -48,7 +48,7 @@ HTML에 s_objectid가 있다면, 기본 ID의 기본값은 s_objectid로 지정�
 * 링크 ID의 좋은 표현입니다. 동일한 텍스트의 여러 링크가 생기는 일이 흔하지 않아서 기본 ID 중복이 크게 줄어들었습니다.
 * 여러 장치와 여러 종류의 브라우저에서 기본 ID의 일관성을 보장합니다.
 * 페이지에서 링크 위치 변경으로 인한 영향을 받지 않습니다.
-* 가독성이 개선되므로, 사용자는 Activity Map 외부에서 링크 추적 보고서에 대한 분석을 시작할 수 있습니다.
+* It improves readability, so users can start analyzing Link tracking reports outside [!DNL Activity Map].
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
@@ -113,9 +113,9 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
+## 구성 변수 {#section_634197EACD404AC086DF9A03B813C8C3}
 
-다음 변수들은 참조용으로만 제공됩니다. Activity Map은 설치 즉시 적절하게 구성되지만, 다음 변수들을 사용하여 구현을 사용자 지정할 수 있습니다.
+다음 변수들은 참조용으로만 제공됩니다. [!DNL Activity Map] 를 즉시 적절하게 구성해야 하지만 이러한 변수를 사용하여 구현을 사용자 지정할 수 있습니다.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -127,37 +127,41 @@ s.ActivityMap.regionIDAttribute="lpos";
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s. activitymap. regionidattribute </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> 기본값을 "id" 매개 변수로 지정합니다. 이 변수를 다른 매개 변수로 설정할 수 있습니다. </td> 
    <td colname="col3"> s.linkObject의 일부 상위(parent, parent.parent, ...) 요소, 즉 <b>클릭한 요소</b>의 영역 ID로 사용할 태그 속성을 식별하는 문자열입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. activitymap. link </td> 
+   <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
-    <code>// 는 태그 함수 (Clickedelement) {var linkid 에서 "title" 속성만 사용합니다. if (clickedelement &amp; &amp; clickedelement. tagname. touppercase () = = =' a ') {linkid = clickedelement. getattribute (' title '); } return linkid; } </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
+    </code> </td> 
    <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭한 링크</b>를 나타내는 문자열 값을 반환해야 하는 함수. <p>반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. activitymap. region </td> 
+   <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
-    <code>// 은 영역 함수 (Clickedelement) {var regionid, classname로 첫 번째 클래스 이름과 연결된 소문자 버전의 태그 이름만 사용합니다. while (clickedelement &amp; &amp; (clickedelement = clickedelement. parentnode)) {regionid = clickedelement. tagname; if (regionid) {return regionid. tolowercase (); }}}}}} </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
+    </code> </td> 
    <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭했을 때 링크가 있었던 영역</b>을 나타내는 문자열 값을 반환해야 하는 함수. <p>반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
    <td colname="col2"> 
-    <code>// 특수 Linkexcludes CSS 클래스 &lt; style &gt;. linkexcludes {display: 블록; 높이: 1 px; 왼쪽: -9999 px; 오버플로우: 숨김; 위치: 절대; 너비: 1 px; } &lt;/style &gt; &lt; a href = "next-page.html" &gt; 링크에 필터와 일치하는 숨겨진 텍스트가 없기 때문에 링크가 추적됩니다.&lt;/a &gt; &lt; a href = "next-page.html" &gt; 링크가 s. activitymap. linkexclusions 가 설정되어 있고 이 링크에 필터와 일치하는 텍스트가 숨겨져 있으므로 링크가 추적되지 않았습니다. &lt; span class = "linkexcluded" &gt; exclude-link 1 &lt;/span &gt; &lt;/a &gt; &lt; a href = "next-page.html" &gt; 링크는 s. activitymap. linkexclusions 가 설정되어 있고 이 링크에 필터와 일치하는 텍스트가 있으므로 추적되지 않습니다.  &lt;span class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2'; &lt;/script&gt; 
+    <code>
+      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
     </code> </td> 
-   <td colname="col3"> <p>링크 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </p> </td> 
+   <td colname="col3"> <p>링크 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 찾을 수 있으면 [!DNL Activity Map]이 링크를 추적하는 데 포함되지 않습니다. 설정하지 않은 경우 [!DNL Activity Map]에 의한 링크 추적을 중지하려고 시도하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
    <td colname="col2"> 
-    <code>// 이 페이지에서 추적 가능한 링크의 페이지 제외 영역이 Activitymap &lt; div id = "links-included" &gt; &lt; a href = "next-page.html" &gt; 링크가 추적됩니다.&lt;/a &gt; &lt;/div &gt; &lt; div id = "links-excluded" &gt; &lt; a href = "next-page.html" &gt; 링크는 s. activitymap. regionexclusion 이 설정되어 있고 이 링크가 필터와 일치하므로 추적되지 않습니다.&lt;/a&gt; &lt;/div&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.regionExclusions = 'links-excluded'; &lt;/script&gt;
+    <code>
+      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
     </code> </td> 
-   <td colname="col3"> <p>영역 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </p> </td> 
+   <td colname="col3"> <p>영역 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 찾을 수 있으면 [!DNL Activity Map]이 링크를 추적하는 데 포함되지 않습니다. 설정하지 않은 경우 [!DNL Activity Map]에 의한 링크 추적을 중지하려고 시도하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
