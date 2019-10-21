@@ -1,18 +1,18 @@
 ---
 description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 보고서로 표시됩니다.
 seo-description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 보고서로 표시됩니다.
-seo-title: 페이지 세부 사항
+seo-title: 페이지 세부정보
 solution: Analytics
-title: 페이지 세부 사항
+title: 페이지 세부정보
 topic: Activity Map
-uuid: F 527 B 454-7920-4907-869 B -4 E 1 D 9 AB 2 C 606
+uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 페이지 세부 사항
+# 페이지 세부정보
 
 페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 보고서로 표시됩니다.
 
