@@ -139,7 +139,7 @@ A: [!DNL Activity Map] inherits your Admin-level segments (reporting segments) f
 
 A: 아니요. 세그먼트는 라이브 모드에서 작동하지 않습니다. 이 기능은 Reports &amp; Analytics의 실시간 보고 기능과 같습니다.
 
-## Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## 가상 보고서 세트 {#section_BDB0CA9E732F478EAC349A79753A78DB}
 
 **Q:가상 보고서 세트와[!DNL Activity Map]호환됩니까?**
 
