@@ -9,14 +9,14 @@ title: s.tl() 함수 - 링크 추적
 topic: 개발자 및 구현
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # s.tl() 함수 - 링크 추적
 
-조직에서 추적하기 위한 링크 및 동작을 보다 세밀하게 제어하려는 경우 수동 링크 추적이 권장됩니다. s.tl() 함수를 사용하여 원하는 정확한 컨텐츠와 함께 링크 추적 이미지 요청을 수동으로 보냅니다. 기본 링크 추적이 필요한 모든 경우 구성 변수 `s.trackDownloadLinks` 및 `s.trackExitLinks` 아래의 [링크를](c-variables/configuration-variables.md)참조하십시오. 사용자 지정 링크는 자동으로 추적할 수 없습니다.
+조직에서 추적하기 위한 링크 및 동작을 보다 세밀하게 제어하려는 경우 수동 링크 추적이 권장됩니다. s.tl() 함수를 사용하여 원하는 정확한 컨텐츠와 함께 링크 추적 이미지 요청을 수동으로 보냅니다. 기본 링크 추적이 필요한 모든 경우 구성 변수 `s.trackDownloadLinks` 및 `s.trackExternalLinks` 아래의 [링크를](c-variables/configuration-variables.md)참조하십시오. 사용자 지정 링크는 자동으로 추적할 수 없습니다.
 
 > [!NOTE] 링크 추적 코드는 사이트 및 보고 요구 사항에 따라 매우 구체적입니다. Adobe에서는 비즈니스 요구 사항에 따라 이 기능을 사용하는 방법을 이해하려면 사전 구현 경험 또는 구현 컨설턴트를 권장합니다.
 
