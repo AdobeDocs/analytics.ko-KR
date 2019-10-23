@@ -3,24 +3,22 @@ description: Analysis Workspace 내에서 데이터 예외 항목을 컨텍스�
 seo-description: Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
 seo-title: 예외 항목 탐지 개요
 title: 예외 항목 탐지 개요
-uuid: 991 FDE 08-198 C -4410-9606-D 5 A 4 F 3 DD 8339
+uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
 # 예외 항목 탐지 개요
 
-Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
+분석 작업 공간 내에서 데이터 예외 항목을 상황에 따라 보고 분석할 수 있습니다.
 
-[YouTube의 예외 항목 탐지](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[YouTube의 예외 항목](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) 탐지(4:53)
 
-[YouTube에 대한 기여도 분석](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[YouTube 기여도](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) 분석(3:20)
 
->[!IMPORTANT]
->
->예외 항목 탐지가 보고 및 분석 기능에서 제거되었으며 이제 분석 작업 공간을 통해서만 사용할 수 있습니다. Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 "일별 세부 기간" 예외 항목 탐지에만 액세스할 수 있습니다. 자세한 내용은 [예외 항목 탐지 및 기여도 분석 권한](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)을 참조하십시오.
+> [!IMPORTANT] 예외 항목 탐지는 분석 작업 공간에서만 사용할 수 있습니다. Adobe Analytics Select 및 Foundation 고객은 작업 공간에서 "일별 세부기간" 예외 항목 감지에 액세스할 수 있습니다. 자세한 내용은 [예외 항목 탐지 및 기여도 분석 권한](../contribution-analysis/ca-tokens.md)을 참조하십시오.
 
 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 
