@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 분석 안내서
 user-guide-url: /content/help/ko-KR/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
+source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
 
 ---
 
@@ -77,11 +77,14 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
-      + [속성](analysis-workspace/attribution-iq/attribution.md)
+      + 속성 {attribution}
+         + [속성 개요](analysis-workspace/c-panels/attribution/attribution.md)
+         + [속성 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
+         + [기여도 FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
-      + 세그먼트 비교(IQ) {#segment-comparison}
+      + Segment comparison {#segment-comparison}
          + [세그먼트 IQ 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [세그먼트 비교](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
+         + [임시 페이지](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [세그먼트 IQ 활용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 프로젝트 조정 및 공유 {#curate-share}
@@ -92,10 +95,10 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
    + 속성 IQ {#attribution-iq}
-      + [속성 IQ 개요](analysis-workspace/attribution-iq/attribution.md)
-      + [Analysis Workspace에서 속성 IQ 사용](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [계산된 지표에서 속성 사용](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [속성 IQ FAQ](analysis-workspace/attribution-iq/attribution-faq.md)
+      + [임시 페이지](analysis-workspace/attribution-iq/attribution.md)
+      + [임시 페이지](analysis-workspace/attribution-iq/use-attribution-iq.md)
+      + [임시 페이지](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
+      + [임시 페이지](analysis-workspace/attribution-iq/attribution-faq.md)
    + 가상 분석가 {#virtual-analyst}
       + [가상 분석가](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 예외 항목 탐지 {#anomaly-detection}
