@@ -7,7 +7,7 @@ title: 보안 관리자
 topic: 관리 도구
 uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP 로그인 제한 적용</span> </td> 
-   <td colname="col2"> <p>(이 기능은 2020년 1월에 더 이상 사용할 수 없습니다.) 특정 IP 주소 또는 IP 주소 범위에 대한 보고서 액세스를 제한합니다. </p> <p>IP 주소 필터 목록에서 최대 100개의 항목을 추가할 수 있으며 각 항목은 특정 주소 또는 주소 범위일 수 있습니다. </p> <p>  IP 주소 필터 목록에 하나 이상의 항목이 있을 때까지 <span class="wintitle">IP 로그인 제한 적용</span>은 시행되지 않습니다. </p> <p> <span class="uicontrol"> 허용된 IP 주소</span>:IP 주소 범위를 지정하려면 대괄호로 범위를 묶습니다(예: <code>
+   <td colname="col2"> <p>(이 기능은 Experience Cloud 로그인과 함께 사용할 수 없습니다. 이 기능은 2020년 1월부터 더 이상 사용할 수 없습니다.) 특정 IP 주소 또는 IP 주소 범위에 대한 보고서 액세스를 제한합니다. </p> <p>IP 주소 필터 목록에서 최대 100개의 항목을 추가할 수 있으며 각 항목은 특정 주소 또는 주소 범위일 수 있습니다. </p> <p>  IP 주소 필터 목록에 하나 이상의 항목이 있을 때까지 <span class="wintitle">IP 로그인 제한 적용</span>은 시행되지 않습니다. </p> <p> <span class="uicontrol"> 허용된 IP 주소</span>:IP 주소 범위를 지정하려면 대괄호로 범위를 묶습니다(예: <code>
        192.168.10.[20-240]
      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
