@@ -8,7 +8,7 @@ title: JavaScript용 AppMeasurement
 topic: 개발자 및 구현
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## 버전 2.17.0
 
-릴리스 날짜: **201년 8월 23일**
+릴리스 날짜: **2019년 8월 23일**
 
 | 기능/수정 | 설명 |
 | -----------| ---------- |
@@ -40,7 +40,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 기능 | 설명 |
 | -----------| ---------- |
-| 종료 링크에 대한 `sendBeacon` 지원 | [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 이를 통해 종료 링크 추적 기능이 개선되고 트래픽이 증가할 수 있습니다. `SendBeacon` doesn't execute in the context of a page but in the context of the browser. 즉, 페이지를 언로드해도 요청이 `sendBeacon`계속 완료됩니다. 이 기능은 종료 링크에 매우 유용합니다. 종료 링크 요청이 훨씬 더 완료될 가능성이 커지기 때문입니다. |
+| 종료 링크에 대한 `sendBeacon` 지원 | [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 이를 통해 종료 링크 추적 기능이 개선되고 트래픽이 증가할 수 있습니다. `SendBeacon` 은 페이지의 컨텍스트에서 실행되지 않고 브라우저의 컨텍스트에서 실행됩니다. 즉, 페이지를 언로드해도 요청이 `sendBeacon`계속 완료됩니다. 이 기능은 종료 링크에 매우 유용합니다. 종료 링크 요청이 훨씬 더 완료될 가능성이 커지기 때문입니다. |
 | ECID/fid 값 | 이제 OptIn 설정이 변경되더라도 ECID/fid 값이 첫 번째 히트에 캐시됩니다. |
 | DIL 9.3 | 대상 관리 모듈의 DIL 9.3 업데이트 |
 | 스크롤 도달 추적 | s.ActivityMap.trackScrollReach에 스위치를 노출하여 스크롤 도달 추적을 켜거나 끕니다. |
@@ -387,7 +387,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>이제 PhoneGap에서 <code>trackBeacon</code> 및 <code>clearCurrentBeacon</code><span class="keyword"> 호출을 사용할 수 있습니다 </span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -545,4 +545,4 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 
 >[!NOTE]
 >
->Some plug-ins are not supported in this new version. 자세한 내용은 [플러그인 지원](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)을 참조하십시오
+>일부 플러그인은 이 새 버전에서 지원되지 않습니다. 자세한 내용은 [플러그인 지원](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)을 참조하십시오
