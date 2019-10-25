@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/ko-KR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
+source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
 
 ---
 
@@ -13,7 +13,6 @@ source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
 
 + [Analytics 구현 도움말](home.md)
 + AppMeasurement 릴리스 정보 {#appmeasurement-release-notes}
-   + [AppMeasurement 릴리스 정보](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [JavaScript용 AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [JavaScript H 코드- 이전](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
