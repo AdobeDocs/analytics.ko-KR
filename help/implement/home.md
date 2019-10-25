@@ -3,8 +3,8 @@ title: Analytics 구현 도움말
 seo-title: Analytics 구현 도움말
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Experience Platform Launch에서 속성 만들기](implement-with-launch/create-analytics-property.md)
 * [구현 방법 선택](c-implementation-methods/choose-implementation-method.md)
-* [AppMeasurement 라이브러리 릴리스 정보](appmeasurement-release-notes/appmeasurement-release-notes.md)
+* [AppMeasurement 라이브러리 릴리스 정보](appmeasurement-release-notes/c-release-notes-mjs.md)
 
 ## 추가 Analytics 사용자 가이드
 
@@ -32,7 +32,7 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 센터 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
-* [Analytics 커뮤니티 포럼](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [분석 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
