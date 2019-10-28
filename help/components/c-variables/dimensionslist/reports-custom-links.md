@@ -7,7 +7,7 @@ title: 사용자 지정 링크
 topic: 보고서
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 방문자가 선호하는 링크를 표시합니다. 예를 들어 사이트의 홈 페이지에 같은 페이지를 표시하는 링크가 여러 개 있을 수 있습니다. 같은 페이지로 연결되는 그래픽 링크와 텍스트 링크가 모두 있는 경우입니다. 이 보고서는 방문자가 그래픽 링크와 텍스트 링크를 사용한 비율을 보여줍니다.
 
-추적하기를 원하는 특정 링크는 특수 태그로 수정해야 합니다. [링크 추적](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)을 참조하십시오.
+추적하기를 원하는 특정 링크는 특수 태그로 수정해야 합니다. [링크 추적](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)을 참조하십시오.
 
 [!UICONTROL 사용자 지정 링크 보고서]를 사용하여 다음을 수행할 수 있습니다.
 
