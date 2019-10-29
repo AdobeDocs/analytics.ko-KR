@@ -4,7 +4,7 @@ seo-description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념�
 seo-title: Adobe Analytics - 주요 개념
 title: Adobe Analytics - 주요 개념
 translation-type: tm+mt
-source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
+source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
 | Analysis Workspace | 강력한 맞춤형 분석 프로젝트를 구축하고 인사이트를 체계적으로 구성할 수 있는 브라우저 솔루션입니다. 보고 및 분석보다 더 많은 보고서 유연성 제공 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
 | Reports &amp; Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션 Analytics 패키지의 초급자 도구입니다. | [보고 및 분석 홈](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Adobe Analytics 데이터에서 사용자 지정된 요청을 작성하고 Microsoft Excel을 사용하여 시각화할 수 있는 Excel 추가 기능입니다. | [리포트 빌더 홈](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석을 위한 Java 기반의 툴 2019년 3분기에 수명이 종료됩니다. | [애드혹 분석 홈](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석을 위한 Java 기반의 툴 | [애드혹 분석 홈](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
 | Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [데이터 워크벤치 클라이언트](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
 | Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터입니다. 히트 수준은 아닙니다. | [데이터 웨어하우스 홈](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. | [Mobile Services 홈](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
