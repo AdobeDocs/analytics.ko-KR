@@ -6,8 +6,8 @@ solution: Analytics
 subtopic: 릴리스 노트
 title: Symbian
 topic: 개발자 및 구현
-uuid: 000 C 0 B 76-00 F 9-40 A 5-B 9 B 8-C 67798 CE 705 E
-translation-type: tm+mt
+uuid: 000c0b76-00f9-40a5-b9b8-c67798ce705e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
