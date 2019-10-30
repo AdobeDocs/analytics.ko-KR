@@ -5,9 +5,9 @@ seo-title: 인접 요청 복사
 solution: Analytics
 title: 인접 요청 복사
 topic: Report Builder
-uuid: C 8 ABEC 0 D -6 FBD -4 A 98-8672-EDE 81317487 B
+uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 요청을 잘라내면 원래 위치의 요청은 제거되고, [!UICONTROL 요청 붙여넣기]를 선택하면 새 위치에 요청이 놓여집니다. 특정 요청을 잘라낸 후 마음이 바뀌어서 다른 셀의 다른 요청을 복사하거나 잘라내려고 하면, Report Builder가 첫 번째 요청은 원래 셀에 그대로 두고 두 번째 요청에 대한 작업(복사 또는 잘라내기)만 수행합니다.
 
->[!NOTE]
->
->리포트 빌더는 요청을 잘라내거나 붙여넣는 Excel 실행 취소 명령을 지원하지 않습니다. 그러므로 요청을 잘라낼 때에는 신중하십시오.
+> [!NOTE] 리포트 빌더는 요청 잘라내기나 붙여넣기에 대한 Excel 실행 취소 명령을 지원하지 않습니다. 그러므로 요청을 잘라낼 때에는 신중하십시오.
 
 통합 문서의 동일한 시트에서 복사하고 붙여넣어야 하는 것은 아닙니다. 한 시트에서 요청을 복사하고 동일한 통합 문서의 다른 시트에 붙여넣을 수 있습니다.
 
