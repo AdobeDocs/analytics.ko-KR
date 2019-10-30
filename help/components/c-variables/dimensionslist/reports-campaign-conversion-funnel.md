@@ -5,9 +5,9 @@ seo-title: 캠페인 전환 단계
 solution: Analytics
 title: 캠페인 전환 단계
 topic: 보고서
-uuid: B 0 A 90917-E 4 C 7-40 DA -854 E -58649 DE 09742
+uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
