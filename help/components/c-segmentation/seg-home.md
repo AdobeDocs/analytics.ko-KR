@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics를 사용하여 강력한 집중 대상 세그먼트를 작성하고 관리하고 공유하고 Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 통해 보고서에 적용할 수 있습니다.
-keywords: 세그멘테이션; 세그먼트
+keywords: 세그먼트
 seo-description: Adobe Analytics를 사용하여 강력한 집중 대상 세그먼트를 작성하고 관리하고 공유하고 Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 통해 보고서에 적용할 수 있습니다.
 seo-title: Analytics 세그멘테이션
 solution: Analytics
 title: Analytics 세그멘테이션
 topic: 세그먼트
-uuid: 845 C 1743-1264-4090-BCCC -78830477 F 52 E
+uuid: 845c1743-1264-4090-bccc-7830477f52e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,4 +25,4 @@ Analytics 세그멘테이션은 세그먼트를 만들고, 사전 테스트를 �
 
 **시작하기**
 
-다음으로 시작 [세그멘테이션 워크플로우 설정](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) 또는 세그먼트 [작성을](../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)참조하거나 빠른 [개요를 위한 세그먼트](../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) 정보를 참조하십시오.
+먼저 [세그멘테이션 워크플로우 설정](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) 또는 [세그먼트](../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)작성을 [시작하거나 세그먼트](../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) 정보를참조하십시오.
