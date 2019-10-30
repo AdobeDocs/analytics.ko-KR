@@ -1,13 +1,13 @@
 ---
 description: 처리 규칙은 보고서로 전송되어 데이터 수집을 단순화하고 컨텐츠를 관리합니다.
-keywords: Analytics 구현; 처리 규칙; 규칙
+keywords: Analytics 구현;처리 규칙;규칙
 seo-description: 처리 규칙은 보고서로 전송되어 데이터 수집을 단순화하고 컨텐츠를 관리합니다.
 seo-title: 처리 규칙
 solution: Analytics
 title: 처리 규칙
 topic: 개발자 및 구현
-uuid: 6655 A 82 F -4 EB 1-4 C 28-918 E -168254 AB 1 F 92
-translation-type: tm+mt
+uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -28,9 +28,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 처리 규칙에 대한 자세한 내용은 다음을 참조하십시오.
 
-* Analytics 도움말 및 참조서의 [처리 규칙](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html)
+* Analytics 도움말 및 참조 안내서의 [처리 규칙](https://marketing.adobe.com/resources/help/ko_KR/reference/processing_rules.html)
 * [이 도움말 문서](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB)의 새 규칙 만들기
-* 마케팅 채널 문서에서 ](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html)마케팅 채널 시작하기[
-* Analytics 도움말 및 참조서의 [VISTA 규칙](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html)
-* Analytics 도움말 및 참조서의 [보트 규칙](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html)
+* 마케팅 채널 설명서의 [마케팅 채널 시작하기](https://marketing.adobe.com/resources/help/ko_KR/mchannel/c_getting_started_mchannel.html)
+* Analytics 도움말 및 참조 안내서의 [VISTA 규칙](https://marketing.adobe.com/resources/help/ko_KR/reference/VISTA.html)
+* Analytics 도움말 및 참조 안내서의 [보트 규칙](https://marketing.adobe.com/resources/help/ko_KR/reference/bot_rules.html)
 
