@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 애드혹 분석에서 프로젝트 변환
-title: 애드혹 분석에서 프로젝트 변환
-uuid: 20 bd 9974-209 e -457 c -9 e 52-d 50 f 90078 af 6
+seo-title: Ad Hoc Analysis에서 프로젝트 전환
+title: Ad Hoc Analysis에서 프로젝트 전환
+uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 애드혹 분석에서 프로젝트 변환
+# Ad Hoc Analysis에서 프로젝트 전환
 
-## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Ad Hoc Analysis에서 프로젝트 전환 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 프로젝트를 변환하기 전에 다음 사항을 확인하십시오.
 
