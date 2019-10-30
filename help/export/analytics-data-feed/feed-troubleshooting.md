@@ -1,13 +1,13 @@
 ---
 description: 이 섹션은 일반적인 문제에 대한 정보를 포함합니다.
-keywords: 데이터 피드; 문제 해결
+keywords: 데이터 피드;문제 해결
 seo-description: 이 섹션은 일반적인 문제에 대한 정보를 포함합니다.
 seo-title: 데이터 피드 문제 해결
 solution: Analytics
 title: 데이터 피드 문제 해결
-uuid: 4 BE 981 AB -3 A 61-4099-9 B 0 D -785 D 2 AC 2492 A
+uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -44,15 +44,15 @@ FTP 전송이 실패하는 경우(로그인 거부, 연결 유실, 할당량 부
 
 ## 재전송 옵션 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+배달 문제를 확인/수정했으면 작업을 [다시 실행하여](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) 파일을 가져오기만 하면 됩니다.
 
 ## 일광 절약 시간제가 시간별 데이터 피드에 영향을 줄 수 있음 {#section_70E867D942054DD09048E027A9474FFD}
 
 특정 시간대의 경우 일광 절약 시간제(DST)로 인해 일년에 두 번 시간이 변경될 수 있습니다. 데이터 피드는 보고서 세트가 구성되는 시간대를 따릅니다. 보고서 세트의 시간대가 DST를 사용하지 않는 시간대인 경우 파일 배달은 다른 날과 마찬가지로 정상적으로 이루어집니다. 보고서 세트의 시간대가 DST를 사용하는 시간대인 경우 시간 변경이 이루어지는 시간(보통 오전 2시) 동안 파일 배달이 변경됩니다.
 
-STD -&gt; DST 시간 전환 시(“Spring Forward”) 고객은 23개의 파일만 받게 됩니다. DST 전환이 이루어지는 시간이 생략되는 것입니다. 예를 들어 오전 2시에 전환이 이루어지면 1시에 대한 파일을 받은 후 3시에 대한 파일을 받게 됩니다. 2:00 STD가 3:00 DST가 되므로 2시 파일은 없습니다.
+STD -&gt; DST 시간 전환("Spring Forward")을 수행하면 고객은 23개의 파일만 받게 됩니다. DST 전환이 이루어지는 시간이 생략되는 것입니다. 예를 들어 오전 2시에 전환이 발생하면 1시간 동안 파일을 얻고 3시간 동안 파일을 받게 됩니다. 2:00 STD가 3:00 DST가 되므로 2시 파일은 없습니다.
 
-DST -&gt; STD 전환 시(“Fall Back”) 고객은 24개의 파일을 받게 됩니다. 하지만 전환 시간에는 실제로 2시간 분량의 데이터가 포함됩니다. 예를 들어 오전 2시에 전환이 이루어진 경우 1시에 대한 파일이 한 시간 동안 지연되면서 두 시간 분량의 데이터를 포함하게 됩니다. 1:00 DST부터 2:00 STD(3:00 DST가 되었을 시간)까지의 데이터를 포함하는 것입니다. 다음 파일은 2:00 STD에 시작됩니다.
+DST -&gt; STD 전환 시("Fall Back") 고객은 24개의 파일을 받게 됩니다. 그러나 전환 시기에는 실제로 2시간 분량의 데이터가 포함됩니다. 예를 들어 오전 2시에 전환이 이루어진 경우 1시에 대한 파일이 한 시간 동안 지연되면서 두 시간 분량의 데이터를 포함하게 됩니다. 1:00 DST부터 2:00 STD(3:00 DST가 되었을 시간)까지의 데이터를 포함하는 것입니다. 다음 파일은 2:00 STD에 시작됩니다.
 
 ## 기간에 대한 데이터 없음 {#section_72510794694D42A9A75C966B812AEB0F}
 
