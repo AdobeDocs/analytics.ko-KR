@@ -5,7 +5,7 @@ seo-title: 보고서 유형
 solution: Analytics
 title: 보고서 유형
 topic: Ad Hoc Analysis
-uuid: 357102 EB-A 172-40 EC-A 302-01 C 87 ABAACB 5
+uuid: 357102eb-a172-40ec-a302-01c87abacb5
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
