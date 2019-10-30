@@ -7,8 +7,8 @@ solution: Analytics
 title: 모바일 프로토콜을 사용한 장치 보고서
 topic: 개발자 및 구현
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 이 보고서들은 모바일 페이지에서 보낸 이미지 요청에서 레퍼러를 채우는 경우에만 데이터를 가집니다. 레퍼러는 "JavaScript 없이 구현" 백서에서 소개한 바와 같이 "r" 쿼리 문자열 매개 변수를 통해 채워집니다. 레퍼러 정보도 수동으로 이미지 요청에 전달해야 합니다.
 
-‘r’ 쿼리 문자열 매개 변수는 레퍼러의 프로토콜을 반드시 포함해야 합니다. 프로토콜이 빠지면 레퍼러 보고서가 작성되지 않습니다. 예를 들면 `r=msn.com`이 아닌 `r=https://msn.com`을 사용합니다.
+'r' 쿼리 문자열 매개 변수는 레퍼러의 프로토콜을 포함해야 합니다. 프로토콜이 빠지면 레퍼러 보고서가 작성되지 않습니다. 예를 들면 `r=msn.com`이 아닌 `r=https://msn.com`을 사용합니다.
 
 ## 지리 특성 및 도메인 {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
