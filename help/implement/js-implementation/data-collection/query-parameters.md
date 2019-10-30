@@ -6,8 +6,8 @@ seo-title: 데이터 수집 쿼리 매개 변수
 solution: Analytics
 title: 데이터 수집 쿼리 매개 변수
 topic: 개발자 및 구현
-uuid: 4 D 5 AF 486-DF 27-42 FE-BB 9 C -28938 DDDF 2 B 2
-translation-type: tm+mt
+uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
+translation-type: ht
 source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 다음 표는 데이터 수집으로 전송되는 각 분석 변수에 대한 값을 포함하는 쿼리 매개 변수를 나열합니다.
 
-이 정보는 [패킷 분석기를](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)[사용할 수 있습니다](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262).
+이 정보는  [패킷 분석기](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)를 사용할 때, 수동으로 이미지 요청을 구성할 때 또는 [동적 변수](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)를 사용할 때 참조할 수 있습니다.
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
@@ -78,10 +78,10 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> 색상 품질(비트) </td> 
   </tr> 
   <tr> 
-   <td> <code> c. <span class="varname"> [key] </code></span> </td> 
+   <td> <code> c. <span class="varname"> [키] </code> </span> </td> 
    <td> <p>s.contextData </p> </td> 
    <td> <p>없음 </p> </td> 
-   <td> <p>키-값 쌍은 다음 형식 중 하나로 지정됩니다. </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>또는: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>이러한 각 예제는 <code>my.a = red</code>의 컨텍스트 데이터 값이 됩니다 . 여러 개의 키-값 쌍을 지정할 수 있습니다. </p> <p>In the query string, this context data variable would appear as <code> c.&amp;my.a=red </code> </p> </td> 
+   <td> <p>키-값 쌍은 다음 형식 중 하나로 지정됩니다. </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>또는: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>이러한 각 예제는 <code>my.a = red</code>의 컨텍스트 데이터 값이 됩니다. 여러 개의 키-값 쌍을 지정할 수 있습니다. </p> <p>쿼리 문자열에서 이 컨텍스트 데이터 변수는 <code> c.&amp;my.a=red </code>로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> c1 - c75 </td> 
@@ -322,12 +322,15 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> (자동, 사용자 지정 타임스탬프가 없는 모든 히트에서 전송됨) </td> 
    <td> 없음 </td> 
    <td> <p><code>t</code> 매개 변수는 다음 형식을 갖습니다. </p> 
-    <code>dd/mm/yyyy &amp; amp; nbsp; hh: MM: SS &amp; amp; nbsp; D &amp; amp; nbsp; 오프셋 </code>
-  <p>D는 요일을 지정하는 <code>0-6</code> 범위의 숫자이고 <code>OFFSET</code>은 다음을 나타냅니다. </p> 
-    <code>오프셋 및 amp; nbsp; From &amp; amp; nbsp; GMT &amp; amp; nbsp; In &amp; amp; nbsp; 시간 (&amp; amp); nbsp; * &amp; amp; nbsp; 60 &amp; amp; nbsp; * &amp; amp; nbsp; -amp; nbsp; 1 </code>
-  <p> 예: </p> 
-    <code>23/09/2016 &amp; amp; nbsp; 14:00:00 &amp; amp; nbsp; 1 &amp; amp; nbsp; 420 </code>
-  </td> 
+    <code>
+      dd/mm/yyyy&amp;nbsp;hh:mm:ss&amp;nbsp;D&amp;nbsp;OFFSET 
+    </code> <p>D는 요일을 지정하는 <code>0-6</code> 범위의 숫자이고 <code>OFFSET</code>은 다음을 나타냅니다. </p> 
+    <code>
+      offset&amp;nbsp;from&amp;nbsp;GMT&amp;nbsp;in&amp;nbsp;hours&amp;nbsp;*&amp;nbsp;60&amp;nbsp;*&amp;nbsp;-&amp;nbsp;1 
+    </code> <p> 예: </p> 
+    <code>
+      23/09/2016&amp;nbsp;14:00:00&amp;nbsp;1&amp;nbsp;420 
+    </code> </td> 
   </tr> 
   <tr> 
    <td> <code> ts </code> </td> 
