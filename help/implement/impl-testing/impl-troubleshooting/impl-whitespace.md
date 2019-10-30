@@ -2,19 +2,19 @@
 description: HTML에는 공백을 만드는 문자가 몇 개 있습니다.
 keywords: Analytics 구현
 seo-description: HTML에는 공백을 만드는 문자가 몇 개 있습니다.
-seo-title: 변수 값에 공백 사용
+seo-title: 변수 값에서의 공백 사용
 solution: Analytics
 subtopic: 문제 해결
-title: 변수 값에 공백 사용
+title: 변수 값에서의 공백 사용
 topic: 개발자 및 구현
-uuid: 1 EDD 7934-9 B 3 E -43 E 2-9 F 24-65 F 42 CB 306 E 2
-translation-type: tm+mt
+uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 변수 값에 공백 사용
+# 변수 값에서의 공백 사용
 
 HTML에는 공백을 만드는 문자가 몇 개 있습니다.
 
