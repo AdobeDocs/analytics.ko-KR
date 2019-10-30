@@ -2,24 +2,24 @@
 description: 사용자 유형별 경로 세그먼트화는 얼마나 구체적인 사용자 유형이 사이트에서 경로를 이동하는지를 이해하기 위한 일반적인 요청입니다.
 keywords: Analytics 구현
 seo-description: 사용자 유형별 경로 세그먼트화는 얼마나 구체적인 사용자 유형이 사이트에서 경로를 이동하는지를 이해하기 위한 일반적인 요청입니다.
-seo-title: 사용자 유형별 세그먼트 경로
+seo-title: 사용자 유형별 경로 세그먼트화
 solution: Analytics
-title: 사용자 유형별 세그먼트 경로
+title: 사용자 유형별 경로 세그먼트화
 topic: 개발자 및 구현
-uuid: 5 C 298 F 39-381 D -453 B-A 608-109 E 3276 B 361
-translation-type: tm+mt
+uuid: 5c298f39-381d-453b-a608-109e3276b361
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# 사용자 유형별 세그먼트 경로
+# 사용자 유형별 경로 세그먼트화
 
 사용자 유형별 경로 세그먼트화는 얼마나 구체적인 사용자 유형이 사이트에서 경로를 이동하는지를 이해하기 위한 일반적인 요청입니다.
 
 사용자 유형 및 페이지 이름을 [!UICONTROL sprop]에 연결하고 [!UICONTROL sprop]에서 경로 지정을 활성화할 수 있습니다.
 
-For example, let's say you have two user types: _Registered_ users and _Non-Registered_ users. 각 페이지에서 이 두 사용자 유형을 구별하고 이 값을 지정된 [!UICONTROL sprop]에 삽입해야 합니다. prop을 채우면 아래와 같이 표시됩니다.
+예를 들어 _등록된_ 사용자와 _등록되지 않은_ 사용자, 이렇게 두 가지 사용자 유형이 있다고 할 경우, 각 페이지에서 이 두 사용자 유형을 구별하고 이 값을 지정된 [!UICONTROL sprop]에 삽입해야 합니다. prop을 채우면 아래와 같이 표시됩니다.
 
 ```js
  s.prop1=”Registered : “ + s.pageName;
