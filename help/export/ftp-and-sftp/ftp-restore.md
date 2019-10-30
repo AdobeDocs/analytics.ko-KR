@@ -1,13 +1,13 @@
 ---
 description: FTP 계정에서 삭제된 데이터는 Adobe에서 복원할 수 없습니다.
-keywords: ftp; Sftp
+keywords: ftp;sftp
 seo-description: FTP 계정에서 삭제된 데이터는 Adobe에서 복원할 수 없습니다.
 seo-title: 삭제된 FTP 데이터 및 FTP 계정 복원
 solution: Analytics
 title: 삭제된 FTP 데이터 및 FTP 계정 복원
-uuid: 79 Bed 9 E 4-C 84 F -468 F-A 33 E -55 C 51 B 2 D 16 DA
+uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
