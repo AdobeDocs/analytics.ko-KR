@@ -1,13 +1,13 @@
 ---
 description: HTML 이미지 태그를 사용하여 Analytics를 구현합니다(하드코드된 이미지 요청).
-keywords: Analytics 구현; HTML image tag; 하드코드된 이미지 요청
+keywords: Analytics 구현;html 이미지 태그;하드 코딩된 이미지 요청
 seo-description: HTML 이미지 태그를 사용하여 Analytics를 구현합니다(하드코드된 이미지 요청).
 seo-title: HTML 이미지 태그를 사용하여 Analytics 구현
 solution: Analytics
 title: HTML 이미지 태그를 사용하여 Analytics 구현
 topic: 개발자 및 구현
-uuid: 0 C 098 A 57-7 C 71-4362-812 C -36 E 37848 A 5 AE
-translation-type: tm+mt
+uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -44,9 +44,9 @@ JavaScript는 브라우저 창 높이/너비, 모니터 해상도 및 Netscape �
 
 * JavaScript는 매우 정확합니다(98-100%). 사용자가 JavaScript를 실행하기 전에 다른 페이지를 재빨리 클릭하는 상황에서도 극도의 정확성이 요구될 때가 있습니다. 이미지 태그 서버측을 만들면 정확도 수준을 몇 퍼센트 증가시킵니다.
 * 구입과 같이 정확성이 매우 중요한 전환 이벤트 추적에서 그렇습니다.
-* 이 전략은 <noscript> Javascript가 없거나 javascript가 비활성화되어 있는 사용자를 추적하기 위한 태그입니다.
+* 또한 이 전략은 JavaScript가 비활성화되지 않거나 비활성화된 사용자를 추적하기 위해 <noscript> 태그 내에 이미지 요청을 완전히 채우는 데 사용할 수 있습니다.
 
 >[!NOTE]
 >
->서버가 생성한 이미지 태그의 사용은 구현에 추가적인 시간이 필요하며, 디버그, 배포 및 유지 관리가 더 어렵습니다. Adobe에서는 클라이언트가 가능한 모든 페이지에서 JavaScript 기반 데이터를 사용할 것을 적극적으로 권장합니다. 방문자 클릭 맵, 다운로드 링크, 종료 링크 및 브라우저 기반 변수(브라우저 너비/높이 등)를 포함한, 다양한 보고서 및 기능은 이 구현 방법을 사용하여 모으거나 지원할 수 없습니다.
+>서버에서 생성한 이미지 태그를 사용하면 구현에 추가적인 시간이 필요하고 디버그, 배포 및 유지 관리가 더 어렵습니다. Adobe에서는 클라이언트가 가능한 모든 페이지에서 JavaScript 기반 데이터를 사용할 것을 적극적으로 권장합니다. 방문자 클릭 맵, 다운로드 링크, 종료 링크 및 브라우저 기반 변수(브라우저 너비/높이 등)를 포함한, 다양한 보고서 및 기능은 이 구현 방법을 사용하여 모으거나 지원할 수 없습니다.
 
