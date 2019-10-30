@@ -6,8 +6,8 @@ seo-title: performanceTiming
 solution: Analytics
 title: performanceTiming
 topic: 개발자 및 구현
-uuid: AB 2 A 6 C 51-8791-41 E 7-9 BEA-C 1 CE 8 D 312 DE 8
-translation-type: tm+mt
+uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->이 버전은 플러그인의 베타 버전이며 향후 업데이트될 예정입니다.
+>플러그인의 베타 버전이며 곧 추가 업데이트가 있을 수 있습니다.
 
 이 플러그인에서는 다음의 세부적인 이벤트를 활용하여 페이지 로드의 개별 타이밍 구성 요소를 추적합니다.
 
@@ -57,7 +57,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->다음 지침을 따르면 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Adobe Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+>다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Adobe Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. 이 플러그인은 [!DNL AppMeasurement] 추적 라이브러리와만 호환됩니다.
 
 **구성 섹션(doPlugins 전):**
 
@@ -79,7 +79,7 @@ s.ptc = false;
 
 >[!NOTE]
 >
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. 이러한 성능 항목을 이전 페이지 이름이나 이전 페이지 URL 값 중 하나와 비교하는 것이 좋습니다.
+>성능 타이밍 항목을 사이트에 있는 페이지와 상호 연결하려면 `getPreviousValue` 플러그인을 초기화해야 합니다. 이러한 성능 항목을 이전 페이지 이름이나 이전 페이지 URL 값 중 하나와 비교하는 것이 좋습니다.
 
 *샘플 호출*
 
@@ -154,8 +154,8 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 * 프로덕션 환경에 배포하기 전에 항상 플러그인 설치를 테스트하여 데이터 수집이 예상대로 수행되는지 확인하십시오.
 * 플러그인은 이전 페이지와 연결되어 성능 데이터를 전달하기 때문에 방문 마지막 페이지 보기에 대한 데이터를 수집하지 않습니다.
 * 자산 타이밍을 추적하는 경우, 이 플러그인은 사용자의 웹 브라우저에서 DOM 저장소 값을 설정하는 기능을 이용합니다. 사용자가 쿠키를 승인하지 않고 활성화된 DOM 저장소를 가지고 있으면 플러그인은 Analytics에 데이터를 전달하지 않습니다.
-* 매우 적은 비율의 사용자가 브라우저 제한 사항으로 인해 내비게이션 타이밍 데이터를 전달하지 않으며, 이 플러그인은 특히 모바일 브라우저의 작은 부분에서 데이터가 왜곡되지 않도록 하기 위해 플러그인 내에 포함됩니다. 하지만 이 플러그인은 IE, Firefox, Chrome 및 Safari에서 성공적으로 테스트되었습니다.
-* [!UICONTROL 이러한 지표와 연관된 방문자 행동을 요약 및 이해하는 데 도움이 되도록 계산된 지표를] 만들어야 합니다.
+* 극히 일부 사용자가 브라우저 제한 사항으로 인해 내비게이션 타이밍 데이터를 전달하지 않습니다. 그 결과 특히 소수의 모바일 브라우저에서 데이터가 왜곡되는 문제가 발생하지 않도록 하기 위해 플러그인 내에 논리를 포함합니다. 하지만 이 플러그인은 IE, Firefox, Chrome 및 Safari에서 성공적으로 테스트되었습니다.
+* [!UICONTROL 계산된 지표]를 작성해야 다음 지표와 연관된 방문자 행동을 요약 및 이해하는 데 도움이 됩니다.
 
    * 평균 리디렉션 타이밍(리디렉션 타이밍/성능 타이밍 인스턴스)
    * 평균 앱 캐시 타이밍(앱 캐시 타이밍/성능 타이밍 인스턴스)
