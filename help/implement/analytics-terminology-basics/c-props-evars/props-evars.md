@@ -1,23 +1,23 @@
 ---
 description: prop(s.prop) 또는 속성 변수라고도 하는 사용자 지정 트래픽 변수는 각 값이 Analytics로 전송되는 횟수를 세는 카운터입니다.
-keywords: Analytics 구현; Traffic Prop; prop; 전환; Evar; s. prop; 사용자 지정 전환 통찰력; 트래픽 변수
+keywords: Analytics 구현;트래픽 prop;prop;변환;evar;s.prop;사용자 지정 변환 인사이트;트래픽 변수
 seo-description: prop(s.prop) 또는 속성 변수라고도 하는 사용자 지정 트래픽 변수는 각 값이 Analytics로 전송되는 횟수를 세는 카운터입니다.
-seo-title: Prop 및 evar 개요
+seo-title: prop 및 eVar 개요
 solution: Analytics
-title: Prop 및 evar 개요
+title: prop 및 eVar 개요
 topic: 개발자 및 구현
-uuid: 522 CAB 2 B -1 EF 8-4 F 10-B 216-C 82 B 21431487
-translation-type: tm+mt
+uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Prop 및 evar 개요
+# prop 및 eVar 개요
 
 prop(s.prop) 또는 속성 변수라고도 하는 사용자 지정 트래픽 변수는 각 값이 Analytics로 전송되는 횟수를 세는 카운터입니다.
 
-지정되는 변수와 그 위치를 결정하려면 Prop과 eVar 기능 사이의 차이를 이해하는 것이 중요합니다. 이러한 차이를 이해하면 조직에서 사용하기에 가장 좋은 유형을 결정할 수 있습니다. 자세한 내용은 [Prop과 eVar 비교](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+지정되는 변수와 그 위치를 결정하려면 Prop과 eVar 기능 사이의 차이점을 이해하는 것이 중요합니다. 이러한 차이점을 이해하면 조직에서 사용하기에 가장 좋은 유형을 결정할 수 있습니다. 자세한 내용은 [Prop과 eVar 비교](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
 
 또한 Prop을 사용하면 사용자 지정 데이터가 특정 트래픽 관련 이벤트와 상관 관계를 맺도록 할 수 있습니다. 이 변수는 웹 사이트의 각 페이지에 있는 [!DNL Analytics] 코드에 삽입됩니다. [!UICONTROL 는 ]s.prop[!DNL Analytics] 변수를 통해 조직, 업계 및 비즈니스 목표에 맞는 사용자 지정 보고서를 만들 수 있도록 해줍니다.
 
@@ -25,7 +25,7 @@ prop(s.prop) 또는 속성 변수라고도 하는 사용자 지정 트래픽 변
 
 >[!NOTE]
 >
->[!DNL Analytics] 최대 75 [!UICONTROL 개의 s. prop] 변수를 지원합니다.
+>[!DNL Analytics]는 최대 75개의 [!UICONTROL s.prop] 변수를 지원합니다.
 
 Prop은 경로 지정 보고서나 상관 관계 보고서에서 사용합니다. 예를 들어 [!UICONTROL 속성] 변수를 사용하여 컨텐츠 유형, 하위 섹션 또는 템플릿 이름을 표시할 수 있습니다. 결과 [!UICONTROL 사용자 지정 트래픽] 보고서는 사용자가 가장 자주 보는 컨텐츠 유형, 하위 섹션 또는 템플릿을 보여 줍니다.
 
@@ -40,6 +40,6 @@ eVar(또는 [!UICONTROL 사용자 지정 전환 통찰력] 변수)은 사이트�
 
 전환 사이트에서는 구매 완료 시 로그인하지 않은 방문자들과 비교해 로그인한 방문자들이 어떤지를 추적하는 데 eVar를 사용할 수도 있습니다. 방문자가 로그인하면 eVar가 "로그인"으로 설정됩니다. 이 방문자가 체크아웃 페이지에 도달하면 "로그인" 값으로 인해 체크아웃 이벤트가 발생합니다. 어떤 방문자가 구매 후 '감사합니다' 페이지에 도달하면 "로그인" 값으로 인해 제품과 구매 금액이 발생합니다. 결과 [!UICONTROL 사용자 지정 eVar] 보고서는 "로그인" 방문자와 "로그인하지 않은" 방문자에 대한 체크아웃 및 주문의 총 수를 보여 줍니다.
 
-자세한 내용은 Analytics 도움말 및 참조서에서 [ 트래픽 변수](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html)를 참조하십시오.
+자세한 내용은 Analytics 도움말 및 참조에서 [트래픽 변수](https://marketing.adobe.com/resources/help/ko_KR/reference/traffic_var.html)를 참조하십시오.
 
-디지털 태그 관리에서 속성 설정에 대한 자세한 내용은 [웹 속성 만들기](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)를 참조하십시오.
+Digital Tag Management에서 속성 설정에 대한 자세한 내용은 [웹 속성 만들기](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)를 참조하십시오.
