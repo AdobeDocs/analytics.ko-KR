@@ -1,14 +1,14 @@
 ---
 description: 이 섹션은 사이트의 페이지와 핵심 JavaScript 파일에 대한 예제 코드를 포함합니다.
-keywords: Analytics 구현; Appmeasurement. js 코드; 페이지 코드 예
+keywords: Analytics 구현;appmeasurement.js 코드;예제 페이지 코드
 seo-description: 이 섹션은 사이트의 페이지와 핵심 JavaScript 파일에 대한 예제 코드를 포함합니다.
 seo-title: 페이지 코드 및 글로벌 구성 예
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: 페이지 코드 및 글로벌 구성 예
 topic: 개발자 및 구현
-uuid: E 8880 D 77-172 B -42 E 5-8187-CE 371 AA 9 EFF 9
-translation-type: tm+mt
+uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -20,13 +20,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). 모든 사이트 페이지에서 방문자 API JavaScript 파일을 포함하기 전에 AppMeasurement에서 방문자 ID 서비스를 활성화하면 방문자 카운트가 중복될 수 있습니다. 방문자 카운트 중복을 피하려면 방문자 ID 서비스에 설명된 프로세스를 이해하고 [방문자 ID 서비스](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>이 예제는 [JavaScript 구현](../../implement/js-implementation/javascript-implementation-overview.md)의 일부로서 배포되는 방문자 ID 서비스를 사용합니다. 모든 사이트 페이지에서 방문자 API JavaScript 파일을 포함하기 전에 AppMeasurement에서 방문자 ID 서비스를 활성화하면 방문자 카운트가 중복될 수 있습니다. 방문자 카운트 중복을 피하려면 방문자 ID 서비스에 설명된 프로세스를 이해하고 [방문자 ID 서비스](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
 
 ## 예제 AppMeasurement.js 코드 {#section_4351543F2D6049218E18B48769D471E2}
 
 >[!IMPORTANT]
 >
->Configuration variables should be set above the *`doPlugins`* function.
+>구성 변수는 *`doPlugins`* 함수 위에 설정해야 합니다.
 
 새로운 구현의 경우 다음 글로벌 구성 코드를 AppMeasurement.js의 앞에 붙여넣어 시작할 수 있습니다.
 
@@ -85,7 +85,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 
 ## 예제 페이지 코드 {#section_042412C29CC249E298F19B2BC2F43CE7}
 
-새 구현의 경우, 열기 직후 다음 페이지 코드를 붙여넣을 수 있습니다. <body> 태그를 추적할 페이지에 태그를 설정합니다.
+새 구현에서 다음 페이지 코드를 추적할 페이지의 열기 <body> 태그 바로 다음에 붙여넣을 수 있습니다.
 
 ```js
 <script language="JavaScript" type="text/javascript"><!-- 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-각 페이지의 `AppMeasurement.js` 및 `VisitorAPI.js`에도 참조를 포함해야 합니다. See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.
+각 페이지의 `AppMeasurement.js` 및 `VisitorAPI.js`에도 참조를 포함해야 합니다. 지침에 대해서는 [JavaScript 구현](../../implement/js-implementation/javascript-implementation-overview.md)을 참조하십시오.
