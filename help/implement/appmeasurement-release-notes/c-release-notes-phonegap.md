@@ -8,7 +8,7 @@ title: PhoneGap
 topic: 개발자 및 구현
 uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 PhoneGap에 대한 누적 릴리스 노트입니다.
 
-If you are building apps with [!DNL PhoneGap], you can use [!DNL AppMeasurement] libraries for [!DNL iOS] or [!DNL Android] to measure the app. [Adobe Analytics용 PhoneGap iOS 및 Android 플러그인](https://marketing.adobe.com/developer/gallery/beta-phonegap-ios-and-android-plug-ins-for-sitecatalyst)을 참조하십시오.
+[!DNL PhoneGap]으로 앱을 빌드하고 있는 경우 [!DNL iOS] 또는 [!DNL Android]용 [!DNL AppMeasurement] 라이브러리를 사용하여 앱을 측정할 수 있습니다. [Adobe Analytics용 PhoneGap iOS 및 Android 플러그인](https://marketing.adobe.com/developer/gallery/beta-phonegap-ios-and-android-plug-ins-for-sitecatalyst)을 참조하십시오.
 
 [iOS 문서](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/phonegap.html).
 
