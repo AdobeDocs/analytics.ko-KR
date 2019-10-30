@@ -2,18 +2,18 @@
 description: 이벤트 일련화는 중복 이벤트 중복 이벤트가 Analytics 보고에 들어가지 않도록 하는 방법을 구현하는 프로세스입니다. 일반적으로 사용자가 페이지를 여러 번 새로 고치거나, 특정 페이지로 여러 번 이동하거나, 웹 페이지를 컴퓨터에 저장하면 발생할 수 있습니다. 예를 들어, 고객이 구매 확인 페이지를 컴퓨터에 여러 번 저장하는 경우, 이벤트 일련화를 사용하지 않으면 고객이 그 페이지를 볼 때마다 주문 및 매출이 다시 계산됩니다.
 keywords: Analytics 구현
 seo-description: 이벤트 일련화는 중복 이벤트 중복 이벤트가 Analytics 보고에 들어가지 않도록 하는 방법을 구현하는 프로세스입니다. 일반적으로 사용자가 페이지를 여러 번 새로 고치거나, 특정 페이지로 여러 번 이동하거나, 웹 페이지를 컴퓨터에 저장하면 발생할 수 있습니다. 예를 들어, 고객이 구매 확인 페이지를 컴퓨터에 여러 번 저장하는 경우, 이벤트 일련화를 사용하지 않으면 고객이 그 페이지를 볼 때마다 주문 및 매출이 다시 계산됩니다.
-seo-title: 이벤트 정리 개요
+seo-title: 이벤트 일련화 개요
 solution: Analytics
-title: 이벤트 정리 개요
+title: 이벤트 일련화 개요
 topic: 개발자 및 구현
-uuid: 8 c 7883 bb -5 ba 4-4440-af 80-c 0 d 15867570 c
-translation-type: tm+mt
+uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 이벤트 정리 개요
+# 이벤트 일련화 개요
 
 이벤트 일련화는 중복 이벤트 중복 이벤트가 Analytics 보고에 들어가지 않도록 하는 방법을 구현하는 프로세스입니다. 일반적으로 사용자가 페이지를 여러 번 새로 고치거나, 특정 페이지로 여러 번 이동하거나, 웹 페이지를 컴퓨터에 저장하면 발생할 수 있습니다. 예를 들어, 고객이 구매 확인 페이지를 컴퓨터에 여러 번 저장하는 경우, 이벤트 일련화를 사용하지 않으면 고객이 그 페이지를 볼 때마다 주문 및 매출이 다시 계산됩니다.
 
@@ -24,9 +24,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Data Sources는 이벤트 정리 또는 중복 제거를 지원하지 않습니다.
+>데이터 소스는 이벤트 직렬화 또는 중복제거를 지원하지 않습니다.
 
-이 문서에서는 [!UICONTROL 전환] 및 [!UICONTROL 사용자 지정] 이벤트에 대한 [!UICONTROL 이벤트 일련화]를 구현하는 데 사용된 프로세스에 대해 설명합니다. [!UICONTROL 이벤트 정리를]사용하려면 **[!UICONTROL 먼저 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[! Uicontrol[보고서 세트 선택]]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 성공 이벤트]** . 그런 다음 [!UICONTROL 고유한 이벤트 기록] 열에 기록할 이벤트를 선택합니다.
+이 문서에서는 [!UICONTROL 전환] 및 [!UICONTROL 사용자 지정] 이벤트에 대한 [!UICONTROL 이벤트 일련화]를 구현하는 데 사용된 프로세스에 대해 설명합니다. [!UICONTROL 이벤트 직렬화]를 사용하려면 먼저 **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL [보고서 세트 선택]]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 성공 이벤트]**&#x200B;에서 이벤트 직렬화를 활성화해야 합니다. 그런 다음 [!UICONTROL 고유한 이벤트 기록] 열에 기록할 이벤트를 선택합니다.
 
 ## 기본 행동 {#section_892BB2BEFC434B69869D4504A8B54308}
 
@@ -38,7 +38,7 @@ event_serialization_impl.xml
 
  -->
 
-[!UICONTROL 이벤트 정리를]사용하려면 **[!UICONTROL 먼저 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[! Uicontrol[보고서 세트 선택]]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 성공 이벤트]** . 그런 다음 [!UICONTROL 고유한 이벤트 기록] 열에 기록할 이벤트를 선택합니다. 이벤트를 설정하는 옵션에는 세 가지가 있습니다.
+[!UICONTROL 이벤트 직렬화]를 사용하려면 먼저 **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL [보고서 세트 선택]]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 성공 이벤트]**&#x200B;에서 이벤트 직렬화를 활성화해야 합니다. 그런 다음 [!UICONTROL 고유한 이벤트 기록] 열에 기록할 이벤트를 선택합니다. 이벤트를 설정하는 옵션에는 세 가지가 있습니다.
 
 **항상 이벤트 기록**: 모든 이벤트를 처음 활성화할 때의 기본 동작입니다. 페이지 다시 로드를 비롯한 이미지 요청에 포함된 모든 이벤트는 Analytics로 바로 전송됩니다.
 
@@ -81,4 +81,4 @@ event_serialization_impl.xml
 
 [!DNL Analytics]에서는 이벤트가 방문당 한 번씩만 실행되도록 하는 기능을 제공합니다.
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]** .
+이 기능은 UI에서 활성화할 수 있습니다(**[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 성공 이벤트]**).
