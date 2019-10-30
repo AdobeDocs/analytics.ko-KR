@@ -6,8 +6,8 @@ seo-title: 양식 요소에서 데이터 수집
 solution: Analytics
 title: 양식 요소에서 데이터 수집
 topic: 개발자 및 구현
-uuid: E 0 C 13 B 96-E 1 CA -4744-A 912-60 CA 2 B 8 F 25 C 3
-translation-type: tm+mt
+uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 <input type="radio" name="music_genre" value="rock">
 ```
 
-이 라디오 단추는 "music_genre" 양식 요소에 속합니다. You then have access to the user's selected value by using $_POST['music_genre']. 이것은 양식을 제출한 후 페이지의 변수에 쓸 수 있습니다.
+이 라디오 단추는 "music_genre" 양식 요소에 속합니다. 따라서 $_POST['music_genre']를 사용하여 사용자가 선택한 값에 액세스할 수 있습니다. 이것은 양식을 제출한 후 페이지의 변수에 쓸 수 있습니다.
 
 ```js
 s.eVar1="<?=$_POST['music_genre'];?>"
