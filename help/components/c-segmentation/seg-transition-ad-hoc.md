@@ -1,19 +1,19 @@
 ---
 description: Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경우 이 FAQ를 통해 기존 세그먼트와 폴더의 변경 사항과 수행해야 하는 작업을 확인할 수 있습니다.
-keywords: 세그멘테이션; 세그먼트
+keywords: 세그먼트
 seo-description: Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경우 이 FAQ를 통해 기존 세그먼트와 폴더의 변경 사항과 수행해야 하는 작업을 확인할 수 있습니다.
-seo-title: Ad Hoc Analysis을 위한 전환 안내서
+seo-title: Ad Hoc Analysis를 위한 전환 안내서
 solution: Analytics
-title: Ad Hoc Analysis을 위한 전환 안내서
+title: Ad Hoc Analysis를 위한 전환 안내서
 topic: 세그먼트
-uuid: d 409 d 71 a-f 8 d 9-42 a 2-add 2-37 d 426 cd 40 d 1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ad Hoc Analysis을 위한 전환 안내서
+# Ad Hoc Analysis를 위한 전환 안내서
 
 Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경우 이 FAQ를 통해 기존 세그먼트와 폴더의 변경 사항과 수행해야 하는 작업을 확인할 수 있습니다.
 
@@ -94,7 +94,7 @@ Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공�
    <td colname="col2">이러한 Ad Hoc Analysis 세그먼트는 Adobe Analytics에 일반 세그먼트로 표시됩니다. <p>세그먼트를 즐겨찾기로 표시할 수 있는 세그먼트 관리자의 즐겨찾기 기능과 혼동하지 않도록 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">애드혹 분석의 사전 구성된 세그먼트: 
+   <td colname="col1">애드혹 분석에서 사전 구성된 세그먼트: 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">단일 페이지 방문 횟수 </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">모바일 기기로부터 찾아온 방문 </li> 
