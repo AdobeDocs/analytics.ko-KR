@@ -3,9 +3,9 @@ seo-title: Adobe Report Builder 도움말
 solution: Analytics
 title: Adobe Report Builder 도움말
 topic: Report Builder
-uuid: 034 AE 0 E 4-2 A 98-4 BAC -977 D -92515960 C 46 E
+uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 <!-- >>[!IMPORTANT]
 >
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
 >See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
 
@@ -53,4 +53,4 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 * [Analysis Workspace 도움말](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
 * [Reports &amp; Analytics 도움말](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [분석 참조](https://marketing.adobe.com/resources/help/en_US/reference/index.html) 도움말을 참조하십시오.
+* [관리](https://marketing.adobe.com/resources/help/en_US/reference/index.html) 도구, 보고서 및 지표에 대한 분석 참조 도움말입니다.
