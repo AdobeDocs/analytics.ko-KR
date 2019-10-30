@@ -4,7 +4,7 @@ seo-title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 3가지 방법
 seo-description: Adobe Analytics에서 보트를 제거하는 3가지 방법
 translation-type: tm+mt
-source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
