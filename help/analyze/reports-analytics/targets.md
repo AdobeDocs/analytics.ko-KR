@@ -1,22 +1,22 @@
 ---
 description: 대상을 사용하면 웹 사이트 성능을 측정하고 대상이 되는 목표를 기준으로 진행 상황을 추적할 수 있습니다. 예를 들어 지리적 영역에서 오는 방문자 수, 주문당 매출 또는 특정 레퍼러에서 오는 히트 수를 증가시킬 수 있습니다.
 seo-description: 대상을 사용하면 웹 사이트 성능을 측정하고 대상이 되는 목표를 기준으로 진행 상황을 추적할 수 있습니다. 예를 들어 지리적 영역에서 오는 방문자 수, 주문당 매출 또는 특정 레퍼러에서 오는 히트 수를 증가시킬 수 있습니다.
-seo-title: 대상
+seo-title: 타겟
 solution: Analytics
-title: 대상
-topic: Reports & Analytics
-uuid: bfe 29 dc 8-8 da 8-4107-8 bb 1-4 a 7494 f 12 bc 9
+title: 타겟
+topic: Reports and Analytics
+uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 대상
+# 타겟
 
 대상을 사용하면 웹 사이트 성능을 측정하고 대상이 되는 목표를 기준으로 진행 상황을 추적할 수 있습니다. 예를 들어 지리적 영역에서 오는 방문자 수, 주문당 매출 또는 특정 레퍼러에서 오는 히트 수를 증가시킬 수 있습니다.
 
-## 대상 {#concept_6516E81923E845198B7FC5D8F81DC35C}
+## 타겟 {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
 대상을 사용하면 웹 사이트 성능을 측정하고 대상이 되는 목표를 기준으로 진행 상황을 추적할 수 있습니다. 예를 들어 지리적 영역에서 오는 방문자 수, 주문당 매출 또는 특정 레퍼러에서 오는 히트 수를 증가시킬 수 있습니다.
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 대상 필드 설명 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 대상]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 타겟을 참조하십시오]**.
 
 [!UICONTROL 대상 추가/편집] 페이지의 필드 및 옵션에 대한 설명입니다.
 
@@ -75,14 +75,14 @@ t_add_a_target.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 타겟을 클릭합니다]**.
-1. [!UICONTROL 타겟 관리자] 페이지에서 새로 **[!UICONTROL 추가를]**&#x200B;클릭합니다.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
+1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
 1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. **[!UICONTROL 확인을 클릭합니다]**.
 
 ## 대상 편집 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 타겟을 클릭합니다]**.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. **관리** 열에서 **[!UICONTROL 편집]아이콘을 클릭합니다.**
 1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. **[!UICONTROL 확인을 클릭합니다]**.
