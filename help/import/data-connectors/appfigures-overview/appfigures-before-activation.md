@@ -5,7 +5,7 @@ seo-title: 이 통합을 활성화하기 전에
 title: 이 통합을 활성화하기 전에
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,11 +58,9 @@ appFigures의 데이터 커넥터 통합에서는 Analytics 변수를 사용하�
 
 ### 필수 변수 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->이 통합에서는 앱스토어 데이터에 전용 변수를 사용하므로 사용자 지정 상거래 변수 및 이벤트를 할당할 필요가 없습니다.
+> [!NOTE] 이 통합에서는 앱스토어 데이터에 전용 변수를 사용하므로 사용자 지정 상거래 변수 및 이벤트를 할당할 필요가 없습니다.
 
-| 변수 유형 | 이름 | 채우기 방법 | 설명 |
+| 변수 유형 |  이름  | 채우기 방법 | 설명 |
 |---|---|---|---|
 | eVar | 앱스토어 개체 ID | appFigures에서 가져옵니다. | 방문 만료, 최근 할당 및 기본 하위 관계로 이 eVar를 구성합니다. |
 | 이벤트(숫자) | 앱스토어 다운로드 | appFigures에서 가져옵니다. | 모바일 애플리케이션 다운로드 수. |
