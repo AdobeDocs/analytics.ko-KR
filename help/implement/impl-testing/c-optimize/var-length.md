@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 변수 길이
 topic: 개발자 및 구현
-uuid: 87 Deabb 3-2 ACB -4797-9 a 65-769 D 9 E 2 FBD 62
-translation-type: tm+mt
+uuid: 87deabb3-2acb-4797-9a65-769d9e2fbd62
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -22,5 +22,5 @@ Analytics 변수의 길이가 HTML 코드 조각, JavaScript 라이브러리 파
 
 >[!NOTE]
 >
->대부분의 Analytics 변수의 길이는 최대 100 자입니다 (evar의 최대 길이는 255 자). Internet Explorer에서는 GET 이미지 요청 URL에 전체 최대 2,048자를 허용합니다. 이미지 요청 제한은 변수뿐만 아니라 브라우저, 운영 체제 및 브라우저 플러그인(Netscape/Mozilla만)에도 적용됩니다.
+>대부분의 Analytics 변수는 최대 100자(eVar는 최대 255자)입니다. Internet Explorer에서는 GET 이미지 요청 URL에 전체 최대 2,048자를 허용합니다. 이미지 요청 제한은 변수뿐만 아니라 브라우저, 운영 체제 및 브라우저 플러그인(Netscape/Mozilla만)에도 적용됩니다.
 
