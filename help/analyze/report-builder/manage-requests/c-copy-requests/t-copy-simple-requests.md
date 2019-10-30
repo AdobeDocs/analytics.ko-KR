@@ -5,9 +5,9 @@ seo-title: 단순 요청 복사
 solution: Analytics
 title: 단순 요청 복사
 topic: Report Builder
-uuid: FF 20560 a -01 ee -47 e 7-8 bd 1-b 73 edb 010456
+uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 참조 요청이 아닌 간단한 요청을 복사합니다. 단순 요청은 다른 요청이나 셀의 내용을 참조하는 내용이 들어있지 않은 요청입니다.
 
-[참조 요청에서는](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) 데이터 필터나 관계 필터와 같은 매개 변수에 대한 입력으로 셀의 값들을 사용합니다. 이 필터는 일치 또는 트렌드를 사용하며, 앞선 요청의 결과나 셀의 사용자 입력 내용을 기반으로 하며 입력 셀이라고 부릅니다.
+A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. 이 필터는 일치 또는 트렌드를 사용하며, 앞선 요청의 결과나 셀의 사용자 입력 내용을 기반으로 하며 입력 셀이라고 부릅니다.
 1. 올바른 요청을 만듭니다.
 1. 요청이 매핑된 셀들 중 하나를 마우스 오른쪽 단추로 클릭하거나 요청이 들어 있는 셀 영역을 선택합니다.
 
@@ -31,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >요청만 복사되며 셀의 콘텐트는 복사되지 않습니다. 요청을 기반으로 하지는 않지만 셀에 표시된 데이터를 이해하기에 적합한 다른 정보(테이블 열 머리글이나 행 식별자 등)가 있는 경우에는 Excel의 표준 명령인 [복사]와 [붙여넣기]를 사용하십시오.
+   >셀의 내용이 아닌 요청만 복사됩니다. 요청을 기반으로 하지는 않지만 셀에 표시된 데이터를 이해하기에 적합한 다른 정보(테이블 열 머리글이나 행 식별자 등)가 있는 경우에는 Excel의 표준 명령인 [복사]와 [붙여넣기]를 사용하십시오.
 
    Excel에서는 셀 내용 복사와 요청 복사에 서로 다른 클립보드를 사용하므로 요청을 기반으로 하지 않는 셀 내용을 복사한 다음에 [복사]/[붙여넣기]와 [요청 복사]/[요청 붙여넣기]를 연이어 수행하여 요청을 복사할 수 있습니다. 하지만 스프레드시트의 요청에 서식을 적용한 다음 복사 및 붙여넣기를 수행하면, Report Builder에서는 원래 서식(테두리, 글꼴 등)을 붙여넣기 영역에 재생합니다.
 
