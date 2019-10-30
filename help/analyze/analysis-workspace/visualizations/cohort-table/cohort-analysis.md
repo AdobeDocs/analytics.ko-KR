@@ -6,7 +6,7 @@ title: 집단 분석이란?
 topic: Reports and Analytics
 uuid: 39a83f3a-15d1-41d7-bcd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 
 ## 집단 분석 기능
 
-In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. 이 버전은 사용자가 구축하는 집단에 대한 미세한 조정이 가능합니다. 다음과 같은 향상된 기능을 제공합니다.
+2019년 1월 Adobe는 새롭게 크게 향상된 집단 분석 버전을 발표했습니다. 이 버전은 사용자가 구축하는 집단에 대한 미세한 조정이 가능합니다. 다음과 같은 향상된 기능을 제공합니다.
 
 ### 유지 테이블
 
