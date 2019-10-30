@@ -6,8 +6,8 @@ seo-title: 다양한 구현 유형 추적
 solution: Analytics
 title: 다양한 구현 유형 추적
 topic: 개발자 및 구현
-uuid: A 0 A 3229 A -79 A 2-4 DC 2-B 0 BE -4 B 8 FAC 2 EFA 3 A
-translation-type: tm+mt
+uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
