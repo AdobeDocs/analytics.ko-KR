@@ -5,9 +5,9 @@ seo-title: 요청이 있는 통합 문서 저장
 solution: Analytics
 title: 요청이 있는 통합 문서 저장
 topic: Report Builder
-uuid: 31611031-0982-4124-9 FC 7-7888124 AA 603
+uuid: 31611031-0982-4124-9fc7-788124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
