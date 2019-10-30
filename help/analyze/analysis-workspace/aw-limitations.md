@@ -1,59 +1,59 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 분석 작업 공간의 알려진 제한 사항
+seo-title: 작업 공간 제한, 분석 작업 공간의 알려진 제한 사항
 title: 분석 작업 공간의 알려진 제한 사항
 translation-type: tm+mt
-source-git-commit: 9d6b35c7c6de6fcb49fea3b662ff8bc9044b5e29
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 분석 작업 공간의 알려진 제한 사항
 
-다음은 분석 작업 공간 및 관련 구성 요소의 알려진 제한 목록입니다.
+다음은 분석 작업 공간 및 관련 구성 요소의 알려진 제한 사항 목록입니다.
 
 ## 표
 
-* 날짜 범위 또는 지표가 표의 행으로 사용되는 경우 날짜 비교 열을 추가할 수 없습니다.
-* 세그먼트가 테이블의 행으로 사용될 때에는 선택 항목으로 지표를 만듭니다. 또한, 선택 사항에서 지표를 만드는 것은 날짜가 지정된 열에 적용되면 안 됩니다.
-* 분류 행에 대한 조건부 서식 지정은 사용자 지정 범위를 사용할 수 없습니다.
-* 행 값 설정이 적용되어 (일반적으로 정적 행 항목과 함께 사용) 테이블 합계 행은 트렌드를 계산할 때 트렌드를 계산할 수 없습니다.
-* [!UICONTROL 기여도 분석은] [!UICONTROL 일별] 세부기간에서만 _실행할_&#x200B;수 있습니다. [!UICONTROL 시간별], [!UICONTROL 주별]등에 대해 실행할 수 없습니다.
+* 날짜 범위 또는 지표를 표의 행으로 사용하는 경우 날짜 비교 열을 추가할 수 없습니다.
+* 세그먼트가 표의 행으로 사용될 때 선택 항목에서 지표 만들기가 비활성화됩니다. 또한 선택 항목으로 지표 만들기는 날짜 정렬 열에 적용되지 않아야 합니다.
+* 분류 행에 대한 조건부 서식은 사용자 지정 범위를 사용할 수 없습니다.
+* 행 값 설정이 적용되어 합계를 계산할 때(일반적으로 정적 행 항목과 함께 사용) 표 합계 행에는 트렌드를 적용할 수 없습니다.
+* [!UICONTROL 기여도] 분석은 [!UICONTROL 일별] 세부기간에서만 __&#x200B;실행할 수 있습니다. 데이터는 [!UICONTROL 시간별], [!UICONTROL 주별]등에 대해 실행할 수 없습니다.
 
 ## 시각화
 
-* [!UICONTROL 폴아웃], [!UICONTROL 흐름], [!UICONTROL 집단]및 [!UICONTROL 히스토그램과 같은]세그멘테이션을 활용하는 시각화는 계산된 지표를 입력으로 수락할 수 없습니다.
-* [!UICONTROL 흐름]: 시작/종료 차원 (예: [!UICONTROL 시작 페이지]) 는 흐름에 사용할 수 없습니다.
-* [!UICONTROL 집단]: 정수가 아닌 정수는 집단 기준으로 사용할 수 없습니다.
+* 폴아웃, 플로우, 집단 [!UICONTROL ,]히스토그램 [!UICONTROL 및]같은 [!UICONTROL 세그멘테이션을]활용하는 시각화는 [!UICONTROL 계산된 지표를]입력으로 사용할 수 없습니다.
+* [!UICONTROL 흐름]:시작/종료 차원(예: 시작 [!UICONTROL 페이지])은 흐름에서 사용할 수 없습니다.
+* [!UICONTROL 집단]:정수가 아닌 항목은 집단 기준으로 사용할 수 없습니다.
 
 ## 패널
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.
+* 세그먼트 비교:세그먼트 [!UICONTROL 템플릿이] 초기 드롭 영역에 사용되는 경우 다른 모든 사람 세그먼트는 생성되지 않습니다.
 
 ## 구성 요소 &gt; 세그먼트
 
-* Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Certain components and operators are unavailable if a segment is created from Workspace (as opposed to being created from [!UICONTROL Components &gt; Segments]). 예: IP 주소.
+* 특정 지표 및 차원은 발생 횟수, 고유 [!UICONTROL 방문자]수 [!UICONTROL 등]세그먼트화할 수없습니다.
+* 구성 요소 &gt; 세그먼트에서 만드는 것이 아니라 작업 공간에서 세그먼트를 만들면 특정 구성 요소 및 연산자를 사용할 [!UICONTROL 수 없습니다]. 예: IP 주소.
 
 ## 구성 요소 &gt; 계산된 지표
 
-* 계산된 지표는 특정 시각화에 사용할 수 없습니다. 위의'시각화'를 참조하십시오.
-* Calculated metrics cannot be used in the [!UICONTROL Attribution] panel, since calculated metrics themselves can include separate attribution models.
-* Certain components and operators are unavailable if a calculated metric is created from Workspace (as opposed to being created from [!UICONTROL Components &gt; Segments]). For example, [!UICONTROL IP Address].
+* 계산된 지표는 특정 시각화에 사용할 수 없습니다. 위의 '시각화'를 참조하십시오.
+* 계산된 지표 자체에는 별도의 속성 [!UICONTROL 모델이 포함될 수] 있으므로 계산된 지표를 속성 패널에서 사용할 수 없습니다.
+* 구성 요소 &gt; 세그먼트에서 만드는 것과 반대로, 작업 공간에서 계산된 지표를 만든 경우에는 특정 구성 요소 및 연산자를 사용할 [!UICONTROL 수 없습니다]. 예: IP [!UICONTROL 주소].
 
 ## 구성 요소 &gt; 날짜 범위
 
-* Custom date ranges do not support [!UICONTROL This day last year], [!UICONTROL This day last month], etc.
+* 사용자 지정 날짜 범위는 [!UICONTROL 작년]오늘, [!UICONTROL 지난 달]등을 지원하지 않습니다.
 
 ## 구성 요소 &gt; 가상 보고서 세트
 
-* 보고서 시간 처리가 활성화되면 특정 구성 요소가 지원되지 않습니다. For a full list, see [Report Time Processing](/help/components/vrs/vrs-report-time-processing.md).
+* 보고서 시간 처리가 활성화되면 특정 구성 요소가 지원되지 않습니다. 전체 목록을 보려면 보고서 [시간 처리를 참조하십시오](/help/components/vrs/vrs-report-time-processing.md).
 
 ## 구성 요소 &gt; 보고서 설정
 
-* Some of the settings on the [!UICONTROL Report Settings] page do not apply. Analysis Workspace uses only the [!UICONTROL Language/Currency/Encoding] settings at the bottom: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], and [!UICONTROL CSV Separator Character].
+* 보고서 설정 [!UICONTROL 페이지의 일부 설정은] 적용되지 않습니다. 분석 작업 공간은 [!UICONTROL 하단에 있는 언어/통화/인코딩] 설정만 사용합니다.수천 개의 [!UICONTROL 구분 문자], [!UICONTROL 예약된 보고서 인코딩]및 [!UICONTROL CSV 구분 문자].
 
 ## 속성 IQ
 
-* A subset of metrics is not supported in [!UICONTROL Attribution IQ]. For a full list, see the [Attribution IQ FAQ](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
+* 지표의 하위 집합은 기여도 IQ에서 지원되지 [!UICONTROL 않습니다]. 전체 목록은 속성 IQ [FAQ를 참조하십시오](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
