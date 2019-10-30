@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. Click Adobe Analytics &gt; Admin &gt; User Management, then click Manage Users.****************
+1. Adobe **[!UICONTROL Analytics &gt; 관리]** &gt; **[!UICONTROL 사용자]** 관리를 **[!UICONTROL 클릭한 다음]**&#x200B;사용자 **[!UICONTROL 관리를]**&#x200B;클릭합니다.
 1. 사용자를 찾은 다음 **[!UICONTROL 종료]를 클릭합니다.**
 
    [!UICONTROL 활성 Ad Hoc Analysis 세션] 페이지에서, 유휴 상태였던 사용자가 목록의 맨 위에 가장 오래 표시됩니다.
