@@ -5,9 +5,9 @@ seo-title: Report Builder 로그인
 solution: Analytics
 title: Report Builder 로그인
 topic: Report Builder
-uuid: 9 a 21 b 791-e 323-46 d 2-b 850-2 d 67 babe 964 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,11 +46,9 @@ Adobe Analytics 자격 증명을 사용하여 Report Builder에 로그인하려�
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. **[!UICONTROL 로그인]** &gt; **[!UICONTROL Enterprise ID]** 로 로그인을 클릭하여 회사의 단일 사인온 페이지로 리디렉션합니다. Enterprise ID에 대한 자세한 내용을 보려면 [여기](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis)를 클릭하십시오.
+Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. Click **[!UICONTROL Sign In]** &gt; **[!UICONTROL Sign in with an Enterprise ID]** to be redirected to your company's single sign-on page. Enterprise ID에 대한 자세한 내용을 보려면 [여기](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis)를 클릭하십시오.
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->Experience Cloud 로그인은 세션 기반이며 토큰이 30 일 후에 만료됩니다.
+> [!NOTE] Experience Cloud 로그인은 세션을 기반으로 하며 30일 후 토큰이 만료됩니다.
 
