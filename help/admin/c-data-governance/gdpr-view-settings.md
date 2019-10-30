@@ -5,7 +5,7 @@ seo-title: 보고서 세트의 데이터 거버넌스 설정 보기/관리
 title: 보고서 세트의 데이터 거버넌스 설정 보기/관리
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>매핑됨</b>: 이 보고서 세트는 로그인한 Analytics 로그인 회사와 동일한 Experience Cloud 조직에 이미 매핑되었습니다. 이 설정이 있는 보고서 세트만 레이블을 지정할 수 있습니다. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>보고서 세트 매핑</b>: 이 링크를 클릭하면 Experience Cloud 조직에 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">보고서 세트를 매핑</a>할 수 있습니다. <p>즉, 보고서 세트를 찾아 적절한 조직에 지정해야 하는 Experience Cloud 조직 - 보고서 세트 매핑 관리 페이지로 리디렉션됩니다. 완료되면 이 데이터 거버넌스 UI로 다시 이동됩니다. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>보고서 세트 매핑</b>: 이 링크를 클릭하면 Experience Cloud 조직에 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">보고서 세트를 매핑</a>할 수 있습니다. <p>즉, 사용자가 보고서 세트를 찾고 이를 해당 조직에 지정해야 하는 Experience Cloud 조직 - 보고서 세트 매핑 관리 페이지로 리디렉션됩니다. 완료되면 이 데이터 거버넌스 UI로 다시 이동됩니다. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"></b>다른 조직에 매핑됨<b>: 다른 Experience Cloud 조직이 이 보고서 세트를 해당 조직에 이미 매핑했습니다. </b></li> 
     </ul> </td> 
   </tr> 
