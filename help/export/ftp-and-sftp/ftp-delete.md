@@ -1,13 +1,13 @@
 ---
 description: Adobe FTP 정책은 90일간 연속해서 유휴 상태로 남아 있는 FTP 계정에 대한 액세스를 자동으로 비활성화합니다.
-keywords: ftp; Sftp
+keywords: ftp;sftp
 seo-description: Adobe FTP 정책은 90일간 연속해서 유휴 상태로 남아 있는 FTP 계정에 대한 액세스를 자동으로 비활성화합니다.
 seo-title: FTP 데이터 및 FTP 계정 삭제
 solution: Analytics
 title: FTP 데이터 및 FTP 계정 삭제
-uuid: 1 CBD 3 Add -3561-492 A -9 ED 4-AEDBD 3 D 5 B 257
+uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
