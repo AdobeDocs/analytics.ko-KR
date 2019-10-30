@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 기여도 분석 실행
 title: 기여도 분석 실행
-uuid: 5282 A 5 F 9-0771-4974-93 CB -335204 BDE 114
+uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
 
    >[!NOTE]
    >
-   >현재 일별 세부기간에서만 기여도 분석을 지원합니다.
+   >현재 기여도 분석은 일별 세부기간에서만 지원됩니다.
 
    ![](assets/run_ca.png)
 
@@ -51,9 +51,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
    * [경고 만들기 ](/help/components/c-alerts/intellligent-alerts.md)
    * [세그먼트 만들기 또는 비교](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
->[!NOTE]
->
->기여도 분석 내의 파란색 점과 연결된 지능적인 경고 프로젝트를 통해 분석되는 예외 항목을 강조 표시합니다. 이렇게 하면 분석되는 예외 항목이 더 명확히 표시됩니다.
+> [!NOTE] 기여도 분석 및 이와 연결된 지능형 경고 프로젝트에서 파란색 점으로 분석되는 예외 항목을 강조 표시합니다. 이렇게 하면 분석되는 예외 항목이 더 명확히 표시됩니다.
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
