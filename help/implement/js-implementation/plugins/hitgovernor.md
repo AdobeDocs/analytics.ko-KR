@@ -3,8 +3,8 @@ description: s.hitGovernor 플러그인은 사전 정의된 롤링 기간에 보
 seo-description: s.hitGovernor 플러그인은 사전 정의된 롤링 기간에 보낸 Analytics 이미지 요청의 총수를 추적하며, 총수가 특정 임계값을 초과하는 경우 필요에 따라 추가 논리를 수행할 수 있습니다.
 seo-title: hitGovernor
 title: hitGovernor
-uuid: D 9091 EAE -005 A -43 C 2-B 419-980 B 795 BC 2 A 9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -20,9 +20,9 @@ s.hitGovernor 플러그인은 사전 정의된 롤링 기간에 보낸 Analytics
 
 ## Hit Governor 플러그인 작동 방식 {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-이 플러그인은 이미지 요청이 추적 서버로 전송될 때마다 쿠키 값을 늘리고, 롤링 기간 동안 이 값을 추적합니다. 기본 기간은 1분이지만, 겹쳐 쓸 수 있습니다. 자세한 내용은 아래 [구현](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)을 참조하십시오. If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. 기본 히트 임계값을 재정의할 수도 있습니다.
+이 플러그인은 이미지 요청이 추적 서버로 전송될 때마다 쿠키 값을 늘리고, 롤링 기간 동안 이 값을 추적합니다. 기본 기간은 1분이지만, 겹쳐 쓸 수 있습니다. 자세한 내용은 아래 [구현](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)을 참조하십시오. 해당 시간 동안의 총 히트 수가 기본 히트 임계값(60)을 초과하면 최종 사용자 지정 링크 이미지 요청이 *`exceptionFlag`* 컨텍스트 데이터 변수를 설정하도록 전송됩니다. 기본 히트 임계값을 재정의할 수도 있습니다.
 
-원하는 경우 해당 시점부터 기본 기간 60일 동안 특정 방문자에 대한 트래픽이 수집되지 않도록 할 수 있습니다. 트래픽을 차단하려면 아래에 설명된 대로 doPlugins 함수에 추가 코드 줄이 필요합니다. 기간을 조정할 수도 있습니다. The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. 이 트래픽이 60일 이후에 플러그인에서 사기로 식별되는 경우, 트래픽이 예외로 플래그가 지정되며 추가 60일 동안은 수집되지 않습니다.
+원하는 경우 해당 시점부터 기본 기간 60일 동안 특정 방문자에 대한 트래픽이 수집되지 않도록 할 수 있습니다. 트래픽을 차단하려면 아래에 설명된 대로 doPlugins 함수에 추가 코드 줄이 필요합니다. 기간을 조정할 수도 있습니다. 논리를 사용하면 해당 방문자의 IP 주소, 사용자 에이전트 또는 [!DNL Experience Cloud] 방문자 ID를 적절한 영구 예외 논리에 포함하거나, 60일이 경과한 후 제한 시간을 재설정할 수 있습니다. 이 트래픽이 60일 이후에 플러그인에서 사기로 식별되는 경우, 트래픽이 예외로 플래그가 지정되며 추가 60일 동안은 수집되지 않습니다.
 
 ## 보고 {#section_E742F19B528041808454744DB2C7007C}
 
@@ -47,7 +47,7 @@ hitGovernor 플러그인을 구현하려면 다음을 수행하십시오.
 
    >[!NOTE]
    >
-   >`registerPostTrackCallback` 이 기능은 Appmeasurement 라이브러리 1.8.0 +에 포함되어 있지만 기본적으로 사용자 지정 코드 구성에 포함되지 않습니다. doPlugins 함수 뒤와 *외부*&#x200B;에 포함되어 있습니다.
+   >`registerPostTrackCallback` 함수는 AppMeasurement 라이브러리 1.8.0+에 포함되어 있지만 기본적으로 사용자 지정 코드 구성에는 포함되어 있지 않습니다. doPlugins 함수 뒤와 *외부*&#x200B;에 포함되어 있습니다.
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ hitGovernor 플러그인을 구현하려면 다음을 수행하십시오.
 
 >[!NOTE]
 >
->구현에서 기본 Analytics "s" 개체와 다른 개체 이름을 사용할 수 있습니다. 그런 경우 개체 이름을 적절하게 업데이트하십시오.
+>구현에서는 기본 분석 "s" 개체가 아닌 다른 개체 이름을 사용할 수 있습니다. 그런 경우 개체 이름을 적절하게 업데이트하십시오.
 
 1. 처리 규칙을 구성합니다.
 
