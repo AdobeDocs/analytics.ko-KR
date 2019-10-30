@@ -3,9 +3,9 @@ description: Analytics 사용자의 기존 로그인을 비활성화하는 방�
 seo-description: Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 알아봅니다.
 seo-title: 기존 로그인 비활성화
 title: 기존 로그인 비활성화
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
+uuid: 085874b2-1 파섹
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 �
 
    ![](assets/user-info.png)
 
-   The users that are eligible will have a status of  under the Migration Status column. *`Migrated`* 마이그레이션되기 전까지는 사용자의 기존 로그인을 비활성화할 수 없습니다.
+   자격이 있는 사용자는 [마이그레이션 상태] 열 *`Migrated`* 아래에 상태가 됩니다. 마이그레이션되기 전까지는 사용자의 기존 로그인을 비활성화할 수 없습니다.
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
 
    기존 로그인을 비활성화하는 것은 사용자가 기존의 [!DNL my.omniture.com] 사용자 이름 및 암호를 계속 사용할 수 있음을 나타냅니다.
