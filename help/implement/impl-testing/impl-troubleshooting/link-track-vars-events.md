@@ -6,8 +6,8 @@ seo-title: s.linkTrackVars 및 s.linkTrackEvents 사용
 solution: Analytics
 title: s.linkTrackVars 및 s.linkTrackEvents 사용
 topic: 개발자 및 구현
-uuid: F 6 B 7019 B -987 B -4 B 7 D-A 446-80205 F 7 CC 36 C
-translation-type: tm+mt
+uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 성공적인 링크 추적 구현의 열쇠는 s.linkTrackVars 변수와 s.linkTrackEvents 변수를 이해하는 것입니다. 이 변수들을 이해하면 사용자 작업 시 사용자 지정 변수 값을 전달할 수 있습니다.
 
-사용자 지정 링크 추적을 구현하고 [!UICONTROL 사용자 지정] 변수 및 *`events`*&#x200B;에 액세스하려면 [!UICONTROL 변수를] 포함하여 전달되는 모든 변수의 쉼표로 구분된 목록이 s. linktrackvars 변수에 들어 *`events`* 있어야 합니다. [!UICONTROL s.linkTrackEvents]에 전달하는 모든 이벤트들이 쉼표로 구분되어 있는 목록이 포함되어 있는지도 확인하십시오.
+사용자 지정 링크 추적을 구현하고 [!UICONTROL 사용자 지정] 변수 및  *`events`*&#x200B;를 설정하는 경우 [!UICONTROL s.linkTrackVars] 변수에 *`events`* 변수를 포함하여 전달하는 모든 변수를 쉼표로 구분한 목록이 포함되어 있는지 확인합니다. [!UICONTROL s.linkTrackEvents]에 전달하는 모든 이벤트들이 쉼표로 구분되어 있는 목록이 포함되어 있는지도 확인하십시오.
 
 [!UICONTROL s.linkTrackVars] 및 [!UICONTROL s.linkTrackEvents] 설정을 한다고 해서 이러한 변수/이벤트가 실제로 설정되지는 않습니다. 이러한 설정은 단지 [!DNL Analytics] 코드가 이러한 변수/이벤트를 설정하도록 준비시키는 것입니다. 아래 예에서 보듯이, 변수들은 여전히 수동으로 설정해야 합니다.
 
