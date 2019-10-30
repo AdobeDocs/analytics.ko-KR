@@ -1,13 +1,13 @@
 ---
 description: 해시 충돌의 정의와 해시 충돌이 어떻게 발현될 수 있는지에 대해 설명합니다.
-keywords: Analytics 구현; 해시; 충돌; prop; Evar; 해시
+keywords: Analytics 구현;해시;충돌;prop;evar;해시
 seo-description: 해시 충돌의 정의와 해시 충돌이 어떻게 발현될 수 있는지에 대해 설명합니다.
 seo-title: 해시 충돌
 solution: Analytics
 title: 해시 충돌
 topic: 개발자 및 구현
-uuid: 7 DFD 6 E 64-4 A 62-4087-BC 28-FB 867 EC 2 B 1 B 6
-translation-type: tm+mt
+uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
