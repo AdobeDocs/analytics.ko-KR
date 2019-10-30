@@ -6,8 +6,8 @@ seo-title: s.clearVars() 함수
 solution: Analytics
 title: s.clearVars() 함수
 topic: 개발자 및 구현
-uuid: 43 c 425 bc -15 ae -4892-a 5 a 5-e 1 defcb 25 ff 4
-translation-type: tm+mt
+uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -40,5 +40,5 @@ s.clearVars()
 
 >[!NOTE]
 >
->`clearVars()` JavaScript 용 [appmeasurement에 포함되지만 H](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 코드 및 이전 버전에서는 사용할 수 없습니다.
+>`clearVars()`는 [JavaScript용 AppMeasurement](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)에 포함되어 있지만, H 코드 및 이전 버전에서는 사용할 수 없습니다.
 
