@@ -7,8 +7,8 @@ subtopic: 릴리스 노트
 title: iOS
 topic: 개발자 및 구현
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 iOS에 대한 누적 릴리스 노트입니다.
 
->[!NOTE]
->
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+> [!NOTE] 현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
 
-모바일 라이브러리는 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 및 [개발자 연결](https://marketing.adobe.com/developer/gallery/ko_KR/app-measurement-for-ios)에서 다운로드할 수 있습니다.
+모바일 라이브러리 다운로드는 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 및 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios)에서 사용할 수 있습니다.
 
-[4.x 설명서](https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/)
+[4.x 설명서](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
 
-[3.x 설명서](https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/ios/)
+[3.x 설명서](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
 
 ## 버전 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -91,15 +89,15 @@ iOS에 대한 누적 릴리스 노트입니다.
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 방문자 ID 서비스 </p> </td> 
-   <td colname="2"> <p> <code> adobe_mc</code> 매개 변수에 타임스탬프 및 Marketing Cloud 조직 ID가 추가되었습니다. </p> </td> 
+   <td colname="2"> <p> <code> adobe_mc</code>   매개 변수에 타임스탬프 및 Marketing Cloud 조직 ID가 추가되었습니다. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 구성 </p> </td> 
-   <td colname="2"> <p> <code>setAdvertisingIdentifier:</code>를 통해 SDK에 전달된 잘못된 IDFA(00000000-0000-0000-0000-000000000000)가 무시됩니다. </p> </td> 
+   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 심층 연결 </p> </td> 
-   <td colname="2"> <p><code>trackAdobeDeepLink</code>를 호출할 때 이제 "<code>adb</code>" 및 "<code>ctx</code>" 접두사가 붙은 변수가 제대로 처리됩니다. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 획득 </p> </td> 
@@ -122,11 +120,11 @@ iOS에 대한 누적 릴리스 노트입니다.
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 획득 </p> </td> 
-   <td colname="2"> <p> 이제 SDK는 사용자 지정 획득 데이터가 <code>AdobeDataCallback</code> 호출에 의해 적절하게 반환되도록 지원합니다. </p> </td> 
+   <td colname="2"> <p> 이제 SDK는 사용자 지정 획득 데이터가 <code> AdobeDataCallback</code> 호출에 의해 적절하게 반환되도록 지원합니다. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p> 이제 <span class="keyword">방문자 ID 서비스</span> 매개 변수가 <span class="keyword">mboxParams</span>를 통해 <code>Target</code> 요청에서 전달됩니다. </p> </td> 
+   <td colname="2"> <p><span class="keyword"></span>이제 방문자 ID 서비스 매개 변수가 <span class="keyword"></span>를 통해 <code> mboxParams</code>Target 요청에서 전달됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -235,9 +233,9 @@ iOS에 대한 누적 릴리스 노트입니다.
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>TVML/TVJS용 Adobe Target </p> </td> 
-   <td colname="2"> <p>이제 <code>ADBTarget</code> 요소를 구성할 때 다음 속성 이름을 사용할 수 있습니다. </p> <p> 
+   <td colname="2"> <p>이제 <code> ADBTarget</code> 요소를 구성할 때 다음 속성 이름을 사용할 수 있습니다. </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
-      <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> ID</code> </li> 
+      <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
       <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
       <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code> purchasedProductIds</code> </li> 
       <li id="li_FAAC4BB12DF9491DA21F161711A7707D"> <code> mboxParameters</code> </li> 
@@ -298,7 +296,7 @@ iOS에 대한 누적 릴리스 노트입니다.
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>옵트아웃 및 개인 정보 설정 </p> </td> 
-   <td colname="2"> <p><span class="keyword"> iOS</span> SDK 4.8.5부터 <code> setPrivacyStatus</code> 메서드를 통해 설정된 개인 정보 설정은 <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> 및 <span class="keyword"> Audience Manager</span>의 활동에 영향을 줍니다. </p> </td> 
+   <td colname="2"> <p><span class="keyword"> iOS</span> SDK 4.8.5부터 <code> setPrivacyStatus</code>   메서드를 통해 설정된 개인 정보 설정은 <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> 및 <span class="keyword"> Audience Manager</span>의 활동에 영향을 줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -322,7 +320,7 @@ iOS에 대한 누적 릴리스 노트입니다.
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p><code>visitorSyncIdentifiers:identifiers</code> 메서드를 <code>visitorSyncIdentifiers</code>로 변경했습니다. </p> </td> 
+    </ul> <p>메서드를 <code> visitorSyncIdentifiers:identifiers</code><code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> 새로운 TVJS 메서드 </td> 
@@ -432,7 +430,7 @@ iOS에 대한 누적 릴리스 노트입니다.
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E"><code>trackPushMessageClickThrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E"> <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -456,7 +454,7 @@ iOS에 대한 누적 릴리스 노트입니다.
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS</span> 확장 </p> </td> 
-   <td colname="2"> <p><span class="keyword"> iOS</span> SDK 버전4.5부터 새로운 <span class="keyword"> iOS</span> 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 <span class="keyword"> iOS</span> 확장 앱의 사용 데이터를 수집할 수 있습니다. </p> <p>자체 래퍼보다는 <span class="keyword"> iOS</span> SDK를 사용하는 것이 좋습니다. </p> <p>Apple에서는 Watch 앱이 포함 앱과 통신(요청을 포함 앱에 보낸 다음, 응답을 받음)할 수 있도록 해주는 API 세트를 제공합니다. </p> <p>Watch 앱의 사전으로서 추적 데이터를 포함 앱에 전송한 다음, 포함 앱에서 추적 메서드를 호출하여 데이터를 전송할 수 있지만, 이 해결 방법에는 제한이 있습니다. </p> <p>대부분의 경우, 사용자가 Watch 앱을 사용할 때 포함 앱은 배경에서 실행되며 <code>TrackActionInBackground</code>, <code>TrackLocation</code> 및 <code>TrackBeacon</code>을 호출해야만 안전합니다. 다른 추적 메서드를 호출하면 라이프사이클 데이터가 방해되므로, 이 세 메서드만 사용하여 Watch 앱의 데이터를 전송해야 합니다. </p> <p>이 세 추적 메서드가 요구 사항을 만족하더라도 Watch용 SDK 앱에 인앱 메시지를 제외한 모든 <span class="keyword">모바일</span> 기능이 포함되어 있으므로 <span class="keyword"> iOS</span> SDK를 사용하는 것이 좋습니다. </p> </td> 
+   <td colname="2"> <p><span class="keyword"> iOS</span> SDK 버전4.5부터 새로운 <span class="keyword"> iOS</span> 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 <span class="keyword"> iOS</span> 확장 앱의 사용 데이터를 수집할 수 있습니다. </p> <p>자체 래퍼보다는 <span class="keyword"> iOS</span> SDK를 사용하는 것이 좋습니다. </p> <p>Apple에서는 Watch 앱이 포함 앱과 통신(요청을 포함 앱에 보낸 다음, 응답을 받음)할 수 있도록 해주는 API 세트를 제공합니다. </p> <p>Watch 앱의 사전으로서 추적 데이터를 포함 앱에 전송한 다음, 포함 앱에서 추적 메서드를 호출하여 데이터를 전송할 수 있지만, 이 해결 방법에는 제한이 있습니다. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. 다른 추적 메서드를 호출하면 라이프사이클 데이터가 방해되므로, 이 세 메서드만 사용하여 Watch 앱의 데이터를 전송해야 합니다. </p> <p>이 세 추적 메서드가 요구 사항을 만족하더라도 Watch용 SDK 앱에 인앱 메시지를 제외한 모든 <span class="keyword">모바일</span> 기능이 포함되어 있으므로 <span class="keyword"> iOS</span> SDK를 사용하는 것이 좋습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -477,7 +475,7 @@ iOS에 대한 누적 릴리스 노트입니다.
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> PhoneGap</span>에서 비콘 추적 지원 </p> </td> 
-   <td colname="2"> <p>이제 PhoneGap에서 <code>trackBeacon</code> 및 <code>clearCurrentBeacon</code><span class="keyword"> 호출을 사용할 수 있습니다</span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -692,7 +690,7 @@ iOS에 대한 누적 릴리스 노트입니다.
 * userAgent
 * dynamicVariablePrefix
 * visitorNamespace
-* pageURL
+* pageUrl
 * pageType
 * referrer
 * linkLeaveQueryString
