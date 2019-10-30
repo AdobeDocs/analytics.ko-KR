@@ -6,8 +6,8 @@ seo-title: 페이지 템플릿에서 페이지 템플릿으로 이동
 solution: Analytics
 title: 페이지 템플릿에서 페이지 템플릿으로 이동
 topic: 개발자 및 구현
-uuid: 8 C 446290-1 EA 8-4 E 0 A-A 973-685 B 700585 D 3
-translation-type: tm+mt
+uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
