@@ -8,8 +8,8 @@ subtopic: Analysis Workspace
 title: 간소화된 구현 모달
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,18 +30,16 @@ Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알
 
 이 절차에서 다음을 수행할 수 있습니다.
 
-* 첫 번째  [보고서 세트](https://marketing.adobe.com/resources/help/ko_KR/analytics/getting-started/report-suites.html)를 신속하게 만듭니다.
-* [!DNL Analytics] 및 [ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 배포합니다.
+* 첫 번째  [보고서 세트](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)를 빠르게 만듭니다.
+* 배포 [!DNL Analytics] 및 ID [서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 * 기본 페이지 수준 데이터에서 보고서를 실행합니다.
 
->[!NOTE]
->
->시작하기 전에 Analytics가 [Adobe Experience Cloud에서 활성화](https://marketing.adobe.com/resources/help/ko_KR/mcloud/core_services.html)되어 있는지 확인합니다(솔루션 프로비저닝 프로세스). Enterprise Dashboard에서 Analytics에 로그인하라는 이메일 초대를 받으면 사전 요구 사항을 완료한 것입니다.
+> [!NOTE] 시작하기 전에 Adobe Experience Cloud에서 Analytics가 [활성화되어 있는지](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) 확인합니다(솔루션 제공 프로세스). Enterprise Dashboard에서 Analytics에 로그인하라는 이메일 초대를 받으면 사전 요구 사항을 완료한 것입니다.
 
 **간단한 구현 양식을 실행하려면**
 
-1. [!DNL Adobe Experience Cloud]([experiencecloud.adobe.com](https://experiencecloud.adobe.com))에 로그인합니다.
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    [!DNL Analytics]에 액세스하면 시스템이 사용자에게 보고서 세트가 있는지 판단합니다. 없는 경우 [!UICONTROL Adobe Analytics 시작하기] 페이지가 표시됩니다.
 
@@ -73,7 +71,7 @@ Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알
       </tr> 
       <tr> 
        <td colname="col1"> <p>데이터 저장소(보고서 세트) </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/getting-started/report-suites.html" format="html" scope="external">보고서 세트</a>는 일반적으로 한 속성(사이트 또는 앱)이나 브랜드에 해당하는 개별 데이터 세트입니다. 각 보고서 세트에는 고유한 보고서와 지표 세트가 있습니다. </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">보고서 세트</a>는 일반적으로 한 속성(사이트 또는 앱)이나 브랜드에 해당하는 개별 데이터 세트입니다. 각 보고서 세트에는 고유한 보고서와 지표 세트가 있습니다. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>시간대 </p> </td> 
@@ -110,20 +108,20 @@ Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알
       </tr> 
       <tr> 
        <td colname="col1"> <p>다운로드 </p> </td> 
-       <td colname="col2"> <p> 설치 파일 <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span>를 다운로드합니다. 이 옵션은 <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 구현</a>을 이해하는 고급 사용자용입니다. </p> <p> <p>중요: 코드 다운로드는 <span class="keyword">Analytics</span> 배포를 구성하지 않습니다. 이 배포는 사이트의 페이지에서 또는 Adobe 컨설팅 서비스를 통해 수행하는 수동 배포입니다. </p> </p> </td> 
+       <td colname="col2"> <p> 설치 파일 <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span>를 다운로드합니다. 이 옵션은 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 구현</a>을 이해하는 고급 사용자용입니다. </p> <p> <p>중요: 코드 다운로드는 <span class="keyword">Analytics</span> 배포를 구성하지 않습니다. 이 배포는 사이트의 페이지에서 또는 Adobe 컨설팅 서비스를 통해 수행하는 수동 배포입니다. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. 보고서 실행.
 
-   Analytics 도구를 배포한 후 Reports &amp; Analytics에서 보고서를 실행하여 데이터가 사이트에 도달하는지 확인할 수 있습니다. (Analytics 인터페이스에 대한 자세한 내용은  [로그인 및 탐색](https://marketing.adobe.com/resources/help/ko_KR/analytics/getting-started/analytics-navigation.html)을 참조하십시오.)
+   Analytics 도구를 배포한 후 Reports &amp; Analytics에서 보고서를 실행하여 데이터가 사이트에 도달하는지 확인할 수 있습니다. (Analytics 인터페이스에 대한 자세한 내용은  [로그인 및 탐색](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html)을 참조하십시오.)
 
    예를 들면 **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 실시간]**&#x200B;을 사용하여 즉시 데이터를 볼 수 있습니다.
 
    >[!NOTE]
    >
-   >[!UICONTROL 실시간] 보고서를 실행하려면 몇 가지 구성이 필요합니다. [실시간 보고서 구성](https://marketing.adobe.com/resources/help/ko_KR/reference/t_realtime_admin.html)을 참조하십시오.
+   >[!UICONTROL 실시간] 보고서를 실행하려면 몇 가지 구성이 필요합니다. [실시간 보고서 구성](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html)을 참조하십시오.
 
 **예제 실시간 보고서**
 
