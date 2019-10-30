@@ -7,8 +7,8 @@ solution: Analytics
 title: performanceTiming
 topic: 개발자 및 구현
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 이 플러그인에서는 다음의 세부적인 이벤트를 활용하여 페이지 로드의 개별 타이밍 구성 요소를 추적합니다.
 
-| 이벤트 | 이름 | 계산에 사용할 내용 |
+| 이벤트 |  이름  | 계산에 사용할 내용 |
 |---|---|---|
 | 1 | 리디렉션 타이밍 | fetchStart - navigationStart |
 | 2 | 앱 캐시 타이밍 | domainLookupStart - fetchStart |
@@ -46,7 +46,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-또한, 이 플러그인에서는 원할 경우 performanceEntries 개체를 사용하여 주어진 페이지에 로그인된 각각의 개별 자산에 대한 자산 이름, 자산 로드 시간 시작, 자산 로드 지속 시간을 자세히 기록할 수 있습니다. 이 플러그인에서는 많은 양의 정보가 기록되며, 따라서 페이지 보기 사이에 페이지 로드 정보를 저장하려면 DOM 저장소 개체를 활성화해야 합니다. 이 기능을 활성화하려면 반드시 먼저 회사 개인 정보 보호 정책에서 DOM 저장소 개체의 사용을 허용하는지 확인하십시오. 모든 자산을 추적하려면 listVar도 사용해야 합니다.
+또한, 이 플러그인에서는 원할 경우 performanceEntries 개체를 사용하여 주어진 페이지에 로그인된 각각의 개별 자산에 대한 자산 이름, 자산 로드 시간 시작, 자산 로드 지속 시간을 자세히 기록할 수 있습니다. 이 플러그인에서는 많은 양의 정보가 기록되며, 따라서 페이지 보기 사이에 페이지 로드 정보를 저장하려면 DOM 저장소 개체를 활성화해야 합니다. 이 기능을 활성화하기 전에 회사의 개인정보 보호 정책에서 DOM 저장소 개체를 사용하도록 허용하는지 확인하십시오. 모든 자산을 추적하려면 listVar도 사용해야 합니다.
 
 ## 필요한 플러그인 지원 {#section_B6447EB6548942EFBC219AEFDC245639}
 
@@ -55,9 +55,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ## 플러그인 코드 및 구현 {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Adobe Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. 이 플러그인은 [!DNL AppMeasurement] 추적 라이브러리와만 호환됩니다.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Adobe Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. 이 플러그인은 [!DNL AppMeasurement] 추적 라이브러리와만 호환됩니다.
 
 **구성 섹션(doPlugins 전):**
 
@@ -77,9 +75,7 @@ s.ptc = false;
 
 플러그인을 초기화하려면 가급적 `doPlugins` 변수를 지정한 후에 s_code의 `s.pageName` 섹션에 1개 라인의 코드가 필요합니다. 플러그인 내에서 자산 로드 시간 기능을 활용하려면 사용할 목록 변수 이름을 전달해야 합니다. 그렇지 않으면, 이전에 `s.pte` 변수에서 지정한 이벤트에서 성능 타이밍 항목만 추적됩니다.
 
->[!NOTE]
->
->성능 타이밍 항목을 사이트에 있는 페이지와 상호 연결하려면 `getPreviousValue` 플러그인을 초기화해야 합니다. 이러한 성능 항목을 이전 페이지 이름이나 이전 페이지 URL 값 중 하나와 비교하는 것이 좋습니다.
+> [!NOTE] 성능 타이밍 항목을 사이트에 있는 페이지와 상호 연결하려면 `getPreviousValue` 플러그인을 초기화해야 합니다. 이러한 성능 항목을 이전 페이지 이름이나 이전 페이지 URL 값 중 하나와 비교하는 것이 좋습니다.
 
 *샘플 호출*
 
