@@ -5,9 +5,9 @@ seo-title: 사이트 섹션
 solution: Analytics
 title: 사이트 섹션
 topic: 보고서
-uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
+uuid: 6839c566-f8 파섹
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
