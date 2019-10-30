@@ -1,9 +1,9 @@
 ---
 seo-title: 광고 계정 설정
 title: 광고 계정 설정
-uuid: 4 e 37 caa 3-e 4 a 5-43 ad -97 c 0-12 db 62 ad 5283
+uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
 
 1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
 1. (처음 사용 시에만 해당) 최종 사용자 라이센스 계약서 약관에 동의합니다.
-1. **[!UICONTROL + 추가를]**&#x200B;클릭합니다.
+1. Click **[!UICONTROL + Add]**.
 1. [!UICONTROL 새 검색 엔진 계정] 대화 상자가 표시됩니다.
 
    ![](assets/aa_new_se_account.png)
@@ -35,7 +35,7 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>유형 </p> </td> 
-      <td colname="col2"> <p>두 가지 옵션이 있습니다. Google Adwords 및 Microsoft Bing 광고. </p> <p>참고: Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 흡수되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.  </p> </td> 
+      <td colname="col2"> <p>두 가지 옵션이 있습니다.Google AdWords 및 Microsoft Bing 광고. </p> <p>참고: Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 흡수되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>계정 이름 </p> </td> 
@@ -47,7 +47,7 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Google 계정 ID를 제공합니다. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Bing 계정 ID 및 Bing 고객 ID를 제공합니다. </li> 
-        </ul> <p>이러한 ID에 대한 자세한 내용은 <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> 계정 ID 찾기</a>를 참조하십시오. </p> <p>로그인하면 OAuth 토큰 필드가 표시됩니다. 
+        </ul> <p>이러한 ID에 대한 자세한 내용은 <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> 계정 ID 찾기</a>를 참조하십시오. </p> <p>로그인하면 OAuth 토큰 필드가 표시됩니다 
         <systemoutput>
           검색됨
         </systemoutput>에서 보냅니다. </p> </td> 
@@ -70,12 +70,12 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
       <td colname="col1"> <p>유형 </p> </td> 
       <td colname="col2"> 
         <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> 자동</span>: Advertising Cloud 엔진은 추적 매개 변수가 검색 엔진의 추적 템플릿/대상 URL에 추가되는 방법을 결정합니다. 가장 간단한 방법이지만 최상의 통합 데이터 세트를 생성할 수는 없습니다. <p>중요: [자동 모드]에서 검색 엔진 계정을 구성하려면 다음 조치를 수행해야 합니다. 
+        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> 자동</span>:Advertising Cloud 엔진에서 추적 매개 변수가 검색 엔진의 추적 템플릿/대상 URL에 어떻게 추가되는지 결정할 수 있습니다. 가장 간단한 방법이지만 최상의 통합 데이터 세트를 생성할 수는 없습니다. <p>중요:'자동 모드'에서 검색 엔진 계정을 구성하려면 다음 작업을 수행할 책임이 있습니다. 
           <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">"s_kwcid" 매개 변수 및 값이 추가되는 계정의 계정 추적 템플릿 또는 랜딩 페이지 URL에 추가됩니다. URL의 끝에 삽입됩니다. 따라서 웹 서버에서 URL 끝에 특정 키=값 쌍이 필요하거나 URL에 새 키=값 쌍을 지원하는 업데이트가 필요한 경우 추가 작업이 필요할 수도 있습니다. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">또한 키워드는 "s_kwcid" 값의 일부로 랜딩 URL에 키워드를 삽입할 수 있으므로, 특수 문자 또는 기호가 포함되어 있는 경우 웹 서버에서 해당 문자를 지원할 수 있는지 확인하십시오(일반적인 특수 문자의 예는 "Broad Match Modified" 키워드에서 사용되는 "+"). </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 수동</span>: 추적 매개 변수가 검색 엔진의 추적 템플릿/대상 URL에 추가되는 방식을 관리할 수 있습니다. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> 각 검색 엔진에 대한 이러한 수동 추적 예를 참조하십시오</a>. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 수동</span>:추적 매개 변수가 검색 엔진의 추적 템플릿/대상 URL에 추가되는 방식을 관리할 수 있습니다. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> 각 검색 엔진에 대한 이러한 수동 추적 예를 참조하십시오</a>. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -109,7 +109,5 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
 
    이제 새로 작성한 계정이 나열된 광고 계정 [관리 UI](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB)로 이동합니다.
 
->[!NOTE]
->
->검색 엔진 데이터가 Analytics 보고서에 채우기를 시작하기 최소 24 시간 전에 기다려야 합니다.
+> [!NOTE] 검색 엔진 데이터가 Analytics 보고서를 작성하기 시작하기 전에 적어도 24시간을 기다려야 합니다.
 
