@@ -1,14 +1,14 @@
 ---
 description: Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션은 AppMeasurement에서 지원되는 변수를 나열합니다.
-keywords: Analytics 구현; Appmeasurement 변수
+keywords: Analytics 구현;appmeasurement 변수
 seo-description: Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션은 AppMeasurement에서 지원되는 변수를 나열합니다.
 seo-title: 변수 개요
 solution: Analytics
 subtopic: 변수
 title: 변수 개요
 topic: 개발자 및 구현
-uuid: 067 D 0135-572 A -4 A 44-AF 9 E -445 D 3 C 4 E 9271
-translation-type: tm+mt
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
+translation-type: ht
 source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
@@ -16,16 +16,17 @@ source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 # 변수 개요
 
-Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션에는 Appmeasurement가 지원하는 변수가 나열됩니다.
+Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션에는 AppMeasurement에서 지원되는 변수가 나열되어 있습니다.
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+페이지 변수에 대한 자세한 내용을 보려면 [여기](/help/implement/js-implementation/c-variables/page-variables.md)로 이동하십시오.
+구성 변수에 대한 자세한 내용을 보려면 [여기](/help/implement/js-implementation/c-variables/configuration-variables.md)로 이동하십시오.
+
 
 ## 변수를 설정하는 방법 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement를 사용하려면 처음 추적 함수 *`t()`*&#x200B;를 호출하기 전에 모든 구성 변수를 설정해야 합니다. *`t()`* 호출 뒤에 구성 변수를 설정하면 예기치 않은 결과가 발생할 수 있습니다.
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. 이 변수는 ClickMap 모듈을 정확히 파악할 수 없는 상태로 두므로, "정의되지 않음"이라는 문자열을 Adobe Analytics 비콘에 추가하여 통화 코드에 영향을 주는 첫 번째 추적 호출이 발생합니다.
+구성 변수는 추적 함수를 실행하는 동안 호출되는 *`doPlugins`* 함수 내에 설정됩니다. 이 문제를 일으키는 특정 구성 변수는 ClickMap 데이터 수집을 활성화하는 *`trackInlineStats`*&#x200B;입니다. 이 변수는 ClickMap 모듈을 정확히 파악할 수 없는 상태로 두므로, "정의되지 않음"이라는 문자열을 Adobe Analytics 비콘에 추가하여 통화 코드에 영향을 주는 첫 번째 추적 호출이 발생합니다.
 
 이 문제를 해결하려면 모든 구성 변수를 doPlugins 함수의 위로 이동하십시오.
 
