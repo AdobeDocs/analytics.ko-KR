@@ -5,10 +5,10 @@ seo-title: 데이터 추출
 solution: Analytics
 subtopic: 예약
 title: 데이터 추출
-topic: Reports & Analytics
-uuid: 430 F 03 BB -09 E 2-4 E 43-8 CBD -1754 B 49 ACEFE
+topic: Reports and Analytics
+uuid: 430f03bb-09e2-4e43-8cbd-1754b49facebook
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 데이터 추출을 사용하면 보고서의 X-축과 Y-축에 모두 나타낼 매개 변수와 보고서를 필터링하는 기준 항목을 선택할 수 있습니다.
 
-## Data extract {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
+## 데이터 추출 {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
 
 데이터 추출을 사용하면 보고서의 X-축과 Y-축에 모두 나타낼 매개 변수와 보고서를 필터링하는 기준 항목을 선택할 수 있습니다.
 
