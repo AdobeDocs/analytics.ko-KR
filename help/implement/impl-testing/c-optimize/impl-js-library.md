@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: Javascript 라이브러리 파일
 topic: 개발자 및 구현
-uuid: 52940 A 85-4905-4302-9 C 8 F-D 93327 E 2 E 7 B 6
-translation-type: tm+mt
+uuid: 52940a85-4905-4302-9c8f-d93327e2e7b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
