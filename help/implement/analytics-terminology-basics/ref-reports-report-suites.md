@@ -1,13 +1,13 @@
 ---
-description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. 마케팅 보고, 애드혹 분석, 및 리포트 빌더에 로그인할 때 사용할 보고서 세트를 하나 선택합니다(보고서 세트들을 결합하는 롤업을 사용할 때 제외).
-keywords: Analytics 구현; 보고서; 보고서 세트; Analytics 보고서; 글로벌 세그먼트; 롤업; 롤업; 보고서 세트 결합; 트래픽; 전환; path
-seo-description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. 마케팅 보고, 애드혹 분석, 및 리포트 빌더에 로그인할 때 사용할 보고서 세트를 하나 선택합니다(보고서 세트들을 결합하는 롤업을 사용할 때 제외).
+description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. 마케팅 보고, Ad Hoc Analysis, 및 Report Builder에 로그인할 때 사용할 보고서 세트를 하나 선택합니다(보고서 세트들을 결합하는 롤업을 사용할 때 제외).
+keywords: Analytics 구현;보고서;보고서 세트;analytics 보고서;전역 세그먼트;롤업;롤업;보고서 세트 결합;트래픽;전환;경로
+seo-description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. 마케팅 보고, Ad Hoc Analysis, 및 Report Builder에 로그인할 때 사용할 보고서 세트를 하나 선택합니다(보고서 세트들을 결합하는 롤업을 사용할 때 제외).
 seo-title: 보고서 및 보고서 세트
 solution: Analytics
 title: 보고서 및 보고서 세트
 topic: 개발자 및 구현
-uuid: 288203 F 6-CD 13-4 E 01-9950-2 C 7 E 5 CFB 8 A 17
-translation-type: tm+mt
+uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
+translation-type: ht
 source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 # 보고서 및 보고서 세트
 
-보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. 마케팅 보고, 애드혹 분석, 및 리포트 빌더에 로그인할 때 사용할 보고서 세트를 하나 선택합니다(보고서 세트들을 결합하는 롤업을 사용할 때 제외).
+보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. 마케팅 보고, Ad Hoc Analysis, 및 Report Builder에 로그인할 때 사용할 보고서 세트를 하나 선택합니다(보고서 세트들을 결합하는 롤업을 사용할 때 제외).
 
 ![](assets/how-data-is-collected-6.png)
 
@@ -35,26 +35,26 @@ Adobe Analytics를 구현한 후에 *Analytics 보고서*&#x200B;를 실행할 �
 
 높은 수준의 보고서 유형은 다음과 같습니다.
 
-* [트래픽:](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html) 방문자가 웹 사이트와 상호 작용하는 방법 및 사용자 지정된 트래픽 통계에 대한 심층적인 통찰력을 제공합니다.
-* [변환:](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) 사용자가 정의하는 성공 지표에 대한 정보를 표시합니다.
-* [경로:](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) 방문자의 전체 탐색 경로를 추적하고 기록할 수 있습니다.
+* [트래픽](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_traffic.html): 방문자가 웹 사이트와 상호 작용하는 방법 및 사용자 지정된 트래픽 통계에 대한 심층적인 통찰력을 제공합니다.
+* [전환](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_conversion.html): 정의한 성공 지표에 대한 정보를 표시합니다.
+* [경로](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_paths.html): 방문자의 전체 탐색 경로를 추적하고 기록할 수 있습니다.
 
-[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)를 사용하여 단일 Analytics 보고서의 일반적인 제한 사항을 제거할 수 있습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 만들고, 회사 동료와 공유할 보고서를 조정하십시오. 
+[Analysis Workspace](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/)를 사용하여 단일 Analytics 보고서의 일반적인 제한 사항을 제거할 수 있습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 만들고, 회사 동료와 공유할 보고서를 조정하십시오. 
 
 <p class="head"> <b>참고 항목</b> </p>
 
 * [Analysis Workspace 도움말](/help/analyze/analysis-workspace/analysis-workspace-features.md)
-* [보고 및 분석](/help/analyze/reports-analytics/overview/report-overview.md)
-* [실시간 보고서](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
-* [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 도움말
-* [데이터 추출](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
-* [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
-* [보고서 세트 관리자](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
-* [Analytics 제품 비교 및 요구 사항](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
-* [보고서 설명](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
-* [대시보드 및 Reportlet](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
+* [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
+* [실시간 보고서](https://marketing.adobe.com/resources/help/ko_KR/reference/realtime.html)
+* [Adobe Report Builder](https://marketing.adobe.com/resources/help/ko_KR/arb/) 도움말
+* [데이터 추출](https://marketing.adobe.com/resources/help/ko_KR/sc/user/data_extract.html)
+* [Activity Map](https://marketing.adobe.com/resources/help/ko_KR/analytics/activitymap/)
+* [보고서 세트 관리자](https://marketing.adobe.com/resources/help/ko_KR/reference/report_suites_admin.html)
+* [Analytics 제품 비교 및 요구 사항](https://marketing.adobe.com/resources/help/ko_KR/reference/analytics-product-comparison.html)
+* [보고서 설명](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_descriptions.html)
+* [대시보드 및 Reportlet](https://marketing.adobe.com/resources/help/ko_KR/sc/user/dashboard.html)
 * [책갈피](/help/analyze/reports-analytics/bookmarks.md)
 * [가상 보고서 세트](/help/components/vrs/vrs-about.md)
-* [예외 검색](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+* [예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 * [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 
