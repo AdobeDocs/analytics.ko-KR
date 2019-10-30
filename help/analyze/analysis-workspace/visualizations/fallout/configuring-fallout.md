@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 폴아웃 시각화 구성
 title: 폴아웃 시각화 구성
-uuid: fc 117745-baf 3-46 fb -873 d -9307092 cc 337
+uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 
 추가할 수 있는 단계의 수나 사용된 차원의 수에 대한 제한은 없습니다. 
 
-머천다이징 eVar 및 [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)를 포함한 eVar에 대해 경로를 지정할 수 있습니다(제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 히트당 여러 개의 값이 있을 수 있는 변수). 예를 들어, 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다. 
+머천다이징 eVar 및 [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)를 포함한 eVar에 대해 경로를 지정할 수 있습니다(제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 히트당 여러 개의 값이 있을 수 있는 변수). 예를 들어, 한 페이지에서 사람들이 신발, 셔츠를 보고 있고 다음 페이지에서 사람들이 셔츠와 양말을 보고 있다고 가정해 봅시다. 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다. 
 
 1. 시각화 드롭다운의 [!UICONTROL 폴아웃] 시각화를 [!UICONTROL 자유 형식 테이블]로 드래그합니다. 
 
@@ -38,7 +38,7 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 
    >[!NOTE]
    >
-   >여러 세그먼트가 연결되고, 차원 항목 및 지표와 같은 여러 항목이 OR와 연결됩니다.
+   >여러 세그먼트는 AND로 결합되지만 차원 항목 및 지표와 같은 여러 항목이 OR로 연결됩니다.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -64,7 +64,7 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 | 설정 | 설명 |
 |--- |--- |
 | 폴아웃 컨테이너 <ul><li>방문</li><li>방문자</li></ul> | 방문과 방문자 간을 전환하여 방문자 이동 경로를 분석할 수 있도록 합니다. 기본값은 방문자입니다. 이 설정은 방문들에 대해 방문자 수준에서 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다.  |
-| " 모든 방문자 "를 첫 번째 터치포인트로 표시 | "모든 방문 횟수"를 첫 번째 체크포인트로 가지고 있지 않은 경우에는 이 확인란을 선택 취소할 수 있습니다.  |
+| 첫 번째 터치포인트로 "모든 방문자" 표시 | "모든 방문 횟수"를 첫 번째 체크포인트로 가지고 있지 않은 경우에는 이 확인란을 선택 취소할 수 있습니다.  |
 
 When you **right-click a touchpoint**, the following options appear:
 
