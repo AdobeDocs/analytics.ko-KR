@@ -1,22 +1,22 @@
 ---
 description: 새 JavaScript AppMeasurement 버전에서는 플러그인 지원이 변경되었습니다.
-keywords: Analytics 구현; Appmeasurement; Javascript; plugin; 플러그인
+keywords: Analytics 구현;appmeasurement;javascript;플러그인;플러그인
 seo-description: 새 JavaScript AppMeasurement 버전에서는 플러그인 지원이 변경되었습니다.
-seo-title: Appmeasurement 플러그인 지원
+seo-title: AppMeasurement 플러그인 지원
 solution: Analytics
 subtopic: JavaScript AppMeasurement
-title: Appmeasurement 플러그인 지원
+title: AppMeasurement 플러그인 지원
 topic: 개발자 및 구현
-uuid: E 048 E 16 B -994 A -4079-BDE 4-3 FAA 3 DF 8 C 96 D
-translation-type: tm+mt
+uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
 
 
-# Appmeasurement 플러그인 지원
+# AppMeasurement 플러그인 지원
 
-현재 버전의 JavaScript appmeasurement에서 플러그인 지원
+현재 버전의 JavaScript AppMeasurement에서 플러그인을 지원합니다.
 
 ## 테스트한 플러그인 {#section_48415FB895E6455FAC34B0B96DE6EBE7}
 
@@ -24,7 +24,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 * [s.abort flag](/help/implement/js-implementation/plugins/abort.md)
 * [appendList](/help/implement/js-implementation/plugins/appendlist.md)
-* [Doplugins 함수](/help/implement/js-implementation/plugins/function-doplugins.md)
+* [doPlugins 함수](/help/implement/js-implementation/plugins/function-doplugins.md)
 * [getAndPersistValue](/help/implement/js-implementation/plugins/getandpersistvalue.md)
 * [getDaysSinceLastVisit](../../../implement/js-implementation/plugins/getdayssincelastvisit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
 * [getLoadTime](/help/implement/js-implementation/plugins/getloadtime.md)
@@ -36,7 +36,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 * [getTimeParting](../../../implement/js-implementation/plugins/gettimeparting.md#concept_3746EA1D1EF746049AE84105B911F44A)
 * [getValOnce](/help/implement/js-implementation/plugins/getvalonce.md)
 * [getVisitNum](/help/implement/js-implementation/plugins/getvisitnum.md)
-* [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)가 있어야 합니다
+* [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)
 * [hitGovernor](/help/implement/js-implementation/plugins/hitgovernor.md)
 * [내부 트래픽](/help/implement/js-implementation/plugins/internal-traffic.md)
 * [performanceTiming](/help/implement/js-implementation/plugins/performancetiming.md)
