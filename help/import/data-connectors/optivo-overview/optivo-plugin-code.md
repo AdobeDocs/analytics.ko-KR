@@ -5,7 +5,7 @@ seo-title: Adobe Analytics 플러그인 코드
 title: Adobe Analytics 플러그인 코드
 uuid: e9999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,18 +41,16 @@ s.eVar9=s.getQueryParam("RID"); // Recipient ID as assigned by broadmail
 I am not sure, if that is useful and/or necessary, but I though the  
 client may specify the Post Click values in the s_doPlugins function as  
 well. Maybe it were useful to add some example definitions like the  
-following to indicate the use of these variables. 
+following to indicate the use of these variables.
  
 /* 
- * Optional custom settings of the Post Click data that is transferred to optivo broadmail. 
- * Also to be defined in the s_doPlugins function. 
+ * Optional custom settings of the Post Click data that is transferred to optivo broadmail.
+ * Also to be defined in the s_doPlugins function.
  */ 
 s.eVar10="May 10, 2012"; // the date the Post Click occurred 
 s.eVar11="Post Click Product ID"; // e.g. "shoes" 
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
->[!NOTE]
->
->위의 플러그인은 특정 사용자 지정 상거래 변수(eVar)를 사용할 수 있다고 가정합니다. 위의 플러그인에 지정된 변수가 Adobe Analytics 배포 내에서 사용할 수 없는 경우, 변수를 사용 가능한 변수로 교체하면 됩니다.
+> [!NOTE] 위의 플러그인은 특정 사용자 지정 상거래 변수(eVar)를 사용할 수 있다고 가정합니다. 위의 플러그인에 지정된 변수가 Adobe Analytics 배포 내에서 사용할 수 없는 경우, 변수를 사용 가능한 변수로 교체하면 됩니다.
 
