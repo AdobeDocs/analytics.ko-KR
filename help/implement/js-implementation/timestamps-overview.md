@@ -8,7 +8,7 @@ title: 타임스탬프 옵션 사용
 topic: 개발자 및 구현
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * 타임스탬프가 지정된 데이터를 모바일 앱에서 전역 보고서 세트로 보낼 수 있습니다.
 * 새 보고서 세트를 만들지 않고도 타임스탬프를 적용하도록 앱을 업그레이드하십시오.
 
->[!NOTE]
->
->타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
+> [!NOTE]타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
 
 추가적인 설정에 대해서는 [타임스탬프 옵션](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html)을 참조하십시오.
 
@@ -33,7 +31,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 타임스탬프 옵션 기능을 사용하면 데이터 손실을 발생시키지 않고도 타임스탬프가 지정되지 않은 데이터를 지정된 데이터와 결합할 수 있습니다. 모바일 장치에서 생성된 타임스탬프가 있는 오프라인 데이터는 웹 페이지에서 라이브의, 타임스탬프가 지정되지 않은 데이터와 결합하거나, 클라이언트측 타임스탬프 호출을 사용하여 모든 플랫폼의 데이터와 통합할 수 있습니다.
 
-* **타임스탬프 데이터**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
+* **타임스탬프 데이터**. 클라이언트측 타임스탬프 데이터는 클라이언트측 타임스탬프 변수(웹 페이지의 JavaScript)를 사용하거나 모바일 앱에서 Mobile SDK 호출([!DNL offlineEnabled=true])을 사용하여 장치 데이터로 직접 전송됩니다.
 * **비타임스탬프 데이터**. Adobe에서는 데이터가 수집 서버를 히트하면 보고서 세트에서 타임스탬프가 지정되지 않은 데이터에 대해 타임스탬프를 설정합니다.
 
 ![](assets/timestamp_v_non2.png)
@@ -62,7 +60,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->각 구성 요소 데이터 세트에 대한 디자인을 신중하게 계획하여 글로벌 보고서 세트에서 조합이 적절합니다.
+>전역 보고서 세트에서 결합이 적절하도록 각 구성 요소 데이터 세트에 대한 설계를 신중히 계획하십시오.
 
 ## 타임스탬프를 적용하는 우수 사례 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
