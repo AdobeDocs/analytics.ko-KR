@@ -2,27 +2,27 @@
 description: 아래 표에는 보고서-변수 매핑, 또는 여기에 사용된 보고서 및 변수가 표시됩니다.
 keywords: Analytics 구현
 seo-description: 아래 표에는 보고서-변수 매핑, 또는 여기에 사용된 보고서 및 변수가 표시됩니다.
-seo-title: 변수 매핑 보고서
+seo-title: 보고서-변수 매핑
 solution: Analytics
-title: 변수 매핑 보고서
+title: 보고서-변수 매핑
 topic: 개발자 및 구현
-uuid: 4707660 c -4 be 5-425 c-a 690-7 bc 6 df 4 cc 0 fa
-translation-type: tm+mt
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 변수 매핑 보고서
+# 보고서-변수 매핑
 
 아래 표에는 보고서-변수 매핑, 또는 여기에 사용된 보고서 및 변수가 표시됩니다.
 
-**전환 보고서** 다음 표는 각 보고서를 채우는 데 사용되는 전환 변수를 보여줍니다.
+**전환 보고서** 다음 표에는 각 보고서를 채우는 데 사용되는 전환 변수가 나와 있습니다.
 
 | 구매 |
 |---|
 | 전환 및 평균 | s.events, s.products, s.purchaseID | s.events를 구매, 제품 세부 사항, 주문 번호로 설정합니다. |
-| 매출 | s.events, s.products, s.purchaseID | s.events를 구매, 제품 세부 사항, 주문 번호로 설정합니다. |
+| 매출  | s.events, s.products, s.purchaseID | s.events를 구매, 제품 세부 사항, 주문 번호로 설정합니다. |
 | 주문 | s.events, s.products, s.purchaseID | s.events를 구매, 제품 세부 사항, 주문 번호로 설정합니다. |
 | 판매량 | s.events, s.products, s.purchaseID | s.events를 구매, 제품 세부 사항, 주문 번호로 설정합니다. |
 
@@ -52,8 +52,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | 전환 및 평균 | s.products, s.events, s.campaign |  |
 | 추적 코드 | s.campaign |  |
-| 크리에이티브 요소 | N/A | Defined in [!DNL Analytics] |
-| 캠페인 | N/A | Defined in [!DNL Analytics] |
+| 크리에이티브 요소 | N/A | [!DNL Analytics]에 정의됨 |
+| 캠페인 | N/A | [!DNL Analytics]에 정의됨 |
 
 | 고객 충성도 |
 |---|
@@ -71,7 +71,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 검색 방법 |
 |---|
 | 참조 도메인 | N/A | .JS 파일에 의해 자동으로 설정됨 |
-| 처음 참조 도메인 | N/A | .JS 파일에 의해 자동으로 설정됨 |
+| 최초 참조 도메인 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 | 검색 엔진 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 | 검색 키워드 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 
@@ -117,10 +117,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 사이트 트래픽 |
 |---|
-| 페이지 보기 수 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
+| 페이지 보기 횟수 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
 | 시간별 고유 방문자 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
-| 일별 고유 방문자 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
-| 월별 고유 방문자 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
+| 일일 고유 방문자 수 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
+| 월간 고유 방문자 수 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
 | 연간 고유 방문자 수 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
 | 방문 횟수 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
 | 파일 다운로드 | N/A | .JS 파일에 의해 자동으로 추적됨(.JS 변수 설정에 의존) |
@@ -128,7 +128,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 검색 방법 |
 |---|
 | 참조 도메인 | N/A | .JS 파일에 의해 자동으로 설정됨 |
-| 참조 | N/A | .JS 파일에 의해 자동으로 설정됨 |
+| 레퍼러 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 | 검색 엔진 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 | 검색 키워드 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 | 재방문 주기 | N/A | [!DNL Analytics]에서 비즈니스 규칙에 의해 계산됨 |
@@ -172,15 +172,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | JavaScript 버전 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 | 쿠키 | N/A | .JS 파일에 의해 자동으로 설정됨 |
 | 연결 유형 | N/A | .JS 파일에 의해 자동으로 설정됨 |
-| 세그먼테이션 |
+| 세그멘테이션 |
 
-| 세그먼테이션 |
+| 세그멘테이션 |
 |---|
 | 가장 방문 빈도가 높은 페이지 | s.pageName |  |
 | 가장 빈도가 높은 사이트 섹션 | s.channel |  |
 | 가장 빈도가 높은 서버 | s.server |  |
 
-| 사용자 지정 인사이트 |
+| 사용자 지정 통찰력 |
 |---|
 | 사용자 지정 링크 | s.linkName | 사용자 지정 구현 필요 |
 | 사용자 지정 인사이트 1 | s.prop1 |  |
@@ -211,7 +211,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | 시작 페이지 | s.pageName(또는 기타 경로가 지정된 변수) | 내부 비즈니스 규칙에도 의존합니다. |
 | 종료 페이지 | s.pageName(또는 기타 경로가 지정된 변수) | 내부 비즈니스 규칙에도 의존합니다. |
-| 종료 링크 | s.pageName(또는 기타 경로가 지정된 변수) | 내부 비즈니스 규칙에도 의존합니다. |
+| 종료 링크  | s.pageName(또는 기타 경로가 지정된 변수) | 내부 비즈니스 규칙에도 의존합니다. |
 
 | 전체 경로 |
 |---|
