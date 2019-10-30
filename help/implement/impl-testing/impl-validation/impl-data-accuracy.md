@@ -2,18 +2,18 @@
 description: 데이터 정확도 확인은 보고서 데이터를 알려져 있고 확인할 수 있는 데이터 포인트와 비교하는 프로세스입니다.
 keywords: Analytics 구현
 seo-description: 데이터 정확도 확인은 보고서 데이터를 알려져 있고 확인할 수 있는 데이터 포인트와 비교하는 프로세스입니다.
-seo-title: 데이터 정확도 검증
+seo-title: 데이터 정확도 유효성 검사
 solution: Analytics
-title: 데이터 정확도 검증
+title: 데이터 정확도 유효성 검사
 topic: 개발자 및 구현
-uuid: 267 F 6 C 61-705 A -41 CF -9 E 09-4 E 2 CE 2331 F 32
-translation-type: tm+mt
+uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 데이터 정확도 검증
+# 데이터 정확도 유효성 검사
 
 데이터 정확도 확인은 보고서 데이터를 알려져 있고 확인할 수 있는 데이터 포인트와 비교하는 프로세스입니다.
 
@@ -27,7 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. 이런 페이지는 브라우저 기반 데이터 수집에 있어서 방문을 받은 다른 페이지보다 더 큰 차이점을 나타냅니다.
+>[!DNL index.html]과 같은 기본 페이지는 종종 자동화된 트래픽이나 모니터링 트래픽을 받습니다. 이런 페이지는 브라우저 기반 데이터 수집에 있어서 방문을 받은 다른 페이지보다 더 큰 차이점을 나타냅니다.
 
 세 가지의 확인 유형은 모두 문제가 발생한 시간 동안 디버그 로그나 데이터 피드를 필요로 하며, 이것은 일반적으로 하루 미만입니다.
 
