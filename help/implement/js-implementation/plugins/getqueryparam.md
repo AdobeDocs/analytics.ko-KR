@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 플러그인
 title: getQueryParam
 topic: 개발자 및 구현
-uuid: BA 202756-C 728-4 EBC -8 FD 9-5 BC 29 A 9 F 673 B
-translation-type: tm+mt
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,23 +20,23 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->이 플러그인은 H 코드에서만 사용됩니다. [JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 용 appmeasurement는 기본적으로 util. getqueryparam를 사용하여 [이 기능을 제공합니다](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>이 플러그인은 H 코드에서만 사용됩니다. [JavaScript용 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)는 기본적으로 [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)을 사용하여 이 기능을 제공합니다.
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. 플러그인은 지정한 쿼리 문자열이 있는 경우 검색하고 선택한 변수에 값을 채웁니다. 해당 값을 가진 쿼리 문자열 매개 변수가 없으면 빈 문자열이 반환됩니다. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+JavaScript용 [!DNL AppMeasurement] 코드에 설치되었으면 쿼리 문자열에서 찾은 데이터를 사용하여 채울 [!DNL Analytics] 변수를 선택하고 캡처할 쿼리 문자열 값을 지정하여 플러그인을 구성합니다. 플러그인은 지정한 쿼리 문자열이 있는 경우 검색하고 선택한 변수에 값을 채웁니다. 해당 값을 가진 쿼리 문자열 매개 변수가 없으면 빈 문자열이 반환됩니다. 쿼리 문자열이 존재하지만 값이 없는 경우(예: `?param1&param2=value`의 param1)에는 단어 *`true`*&#x200B;가 반환됩니다.
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>아래 예가 작동하려면 JavaScript용 [!DNL AppMeasurement] 코드에 플러그인의 기본 코드가 설치되어 있어야 합니다.
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+*`cid`* 쿼리 매개 변수의 값으로 사용할 수 있는 캠페인 추적 코드를 캡처하는 데 *`s.campaign`*&#x200B;을 사용하려는 경우 JavaScript용 [!DNL AppMeasurement] 코드의 *`doPlugins()`* 함수에 다음을 입력했습니다.
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. 이 점은 [!DNL DigitalPulse] 디버거를 사용하여 확인할 수 있습니다. 디버거에서는 이미지 요청의 일부로 *v0=123456*&#x200B;이 표시됩니다.
+이 예에서 사용자가 URL이 [!DNL https://www.yoursite.com/index.html?cid=123456]인 사이트의 랜딩 페이지에 도착하면 *`s.campaign`*&#x200B;이 값 *123456*&#x200B;을 받습니다. 이 점은 [!DNL DigitalPulse] 디버거를 사용하여 확인할 수 있습니다. 디버거에서는 이미지 요청의 일부로 *v0=123456*&#x200B;이 표시됩니다.
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. 원하는 경우 사이트에 있는 임의의 쿼리 문자열 매개 변수로 바꿀 수 있습니다.
+>*`cid`* 매개 변수와 기타 매개 변수는 여기서 예로 사용되었습니다. 원하는 경우 사이트에 있는 임의의 쿼리 문자열 매개 변수로 바꿀 수 있습니다.
 
 플러그인 *`getQueryParam`*&#x200B;에는 Analytics 변수로 데이터를 캡처하는 데 사용되는 두 개의 추가 인수(옵션)가 있습니다.
 
@@ -76,7 +76,7 @@ s.campaign=s.getQueryParam('cid');
 
 >[!NOTE]
 >
->다음 지침을 따르면 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+>다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 **플러그인 코드**
 
