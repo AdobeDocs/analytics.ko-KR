@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 최적화 개요
 topic: 개발자 및 구현
-uuid: 8 E 8 ECC 5 B-D 4 B 1-4 D 13-8525-39 E 4924 DF 247
-translation-type: tm+mt
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -25,5 +25,5 @@ Analytics 배포는 세 가지 주요 단계로 구성됩니다.
 
 >[!NOTE]
 >
->고객은 추가적인 단계를 수행하여 분석 오버헤드를 최소화할 수 있습니다.
+>고객이 Analytics 오버헤드를 최소화하기 위해 단계를 더 추가할 수 있습니다.
 
