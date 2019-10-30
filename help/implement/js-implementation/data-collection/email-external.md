@@ -6,8 +6,8 @@ seo-title: 외부 이메일 추적
 solution: Analytics
 title: 외부 이메일 추적
 topic: 개발자 및 구현
-uuid: FA 450 F 45-14 CF -4 D 0 D-A 87 C -14 A 946512 A 9 B
-translation-type: tm+mt
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -60,9 +60,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    JavaScript 파일 [!DNL s_code.js]에서 코드를 바꾸면, 이메일을 통해 얼마나 많은 사용자, 그리고 어떤 사용자가 클릭스루를 수행하고 그 후의 성공 이벤트에 참여했는지 알 수 있습니다. JavaScript 라이브러리를 업데이트하는 두 가지 단계가 있습니다.
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. [!UICONTROL getQueryParam]을 호출하여 [!DNL s_code.js]를 사용자 지정합니다.
 
-      [!DNL s_code.js]   파일은 각 웹 페이지가 액세스할 수 있는 웹 서버에 이 파일을 보관해야 합니다. The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. 예:
+      [!DNL s_code.js] 파일은 각 웹 페이지가 액세스할 수 있는 웹 서버에 이 파일을 보관해야 합니다. 이 파일 내에 있는 *`doPlugins`* 함수는 이메일 링크에서 쿼리 문자열 매개 변수를 캡처할 수 있도록 변경해야 합니다. 예:
 
       ```js
       /* Plugin Config */ 
