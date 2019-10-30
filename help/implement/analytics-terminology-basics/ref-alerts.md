@@ -7,8 +7,8 @@ solution: Analytics
 title: 경고
 topic: 개발자 및 구현
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 이 새로운 경고 시스템은 Reports &amp; Analytics의 모든 보고서에서 **[!UICONTROL 자세히]** &gt; **[!UICONTROL 경고]**&#x200B;를 통해 액세스할 수 있습니다.
 
-[!UICONTROL Analysis Workspace] 도움말에서 [지능형 경고](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/intellligent_alerts.html)를 참조하십시오.
+분석 [작업 공간](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) 도움말의 [!UICONTROL 지능형 경고를] 참조하십시오.
