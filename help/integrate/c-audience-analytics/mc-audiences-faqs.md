@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: FAQ
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
    <td colname="col1"> <b>Q: 보고서 세트에서 온사이트 개인화를 수행하는지 아니면 오프사이트/온사이트 타깃팅을 수행하는지 어떻게 알 수 있습니까?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">이러한 사항은 Adobe Audience Manager에 Adobe Analytics 데이터 보내기에 적용되지 않습니다. </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">Adobe Audience Manager로 Adobe Analytics 데이터를 전송하는 경우에는 적용되지 않습니다. </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">스스로에게 질문하기: MCA 차원과 Analytics 공유 세그먼트를 다시 Experience Cloud와 공유하시겠습니까? </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">이러한 목적에 사용되는 BI(비즈니스 인텔리전스) 시스템으로 데이터 피드 등을 통해 내보내시겠습니까? </li> 
     </ul> </td> 
@@ -89,20 +89,20 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
    <td colname="col2"> <p>어디서나 사용할 수 있습니다. 이러한 차원은 Analytics에 수집된 다른 차원과 마찬가지로 취급됩니다. 두 가지 예외가 있습니다. 지금은 데이터가 Data Workbench 또는 Livestream에 없습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Analytics에 데이터가 전달되지 않는 이유는 무엇입니까?</b> </p> </td> 
-   <td colname="col2"> <p>데이터 소스와 대상 간의 AAM 개인정보 컨트롤이 충돌할 가능성이 큽니다.에서 보냅니다. </p> </td> 
+   <td colname="col1"> <p><b>Q:Analytics에서 들어오는 데이터가 표시되지 않는 이유는 무엇입니까?</b> </p> </td> 
+   <td colname="col2"> <p>데이터 소스 및 대상 간에 AAM 개인 정보 컨트롤이 충돌할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 모든 세그먼트를 보내도록 선택했지만 일부 세그먼트가 Analytics에 표시되지 않는 이유는 무엇입니까?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">대상 및 세그먼트의 데이터 소스에 있는 AAM 데이터 내보내기 컨트롤이 충돌하여 특정 세그먼트가 전송되지 않을 수 있습니다. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">대상 및 세그먼트의 데이터 소스에 대한 AAM 데이터 내보내기 컨트롤이 충돌할 수 있으므로 특정 세그먼트를 보낼 수 없습니다. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">세그먼트에서 타사 데이터 트레이트를 사용하는 경우 해당 세그먼트를 개인 데이터가 포함된 대상(보고서 세트)에 공유할 수 없습니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q:내 Analytics 보고서에 "대상자 제한에 도달함"이 표시되는 이유는 무엇입니까? (참고:이 값은 데이터 웨어하우스에서 대상 ID = -1 및 "::max_audiences_exceeded::"로 표시됩니다.)</b> </p> </td> 
-   <td colname="col2"> <p>기본적으로 AAM에 대한 Audience Analytics 통합은 방문자가 대상인 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 한 번의 히트에서 150개 이상의 AAM 세그먼트에 속하면 <b>가장 최근에 자격을 갖춘 150개의 세그먼트</b>가 Analytics로 전송되고 나머지 목록은 잘립니다. </p> <p>세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics에 전송되고, 대상 이름 차원에 "대상 제한에 도달했습니다."로 표시되고 대상 ID 차원에 "-1"로 표시됩니다. </p> <p>방문자가 특정 히트에서 150개 이상의 세그먼트에 대해 자격을 얻는 것은 거의 불가능하지만, 가끔 발생할 수 있습니다. 보고서에 "대상 제한에 도달했습니다."가 표시되면 다음 두 가지 옵션을 사용할 수 있습니다. </p> 
+   <td colname="col2"> <p>기본적으로 AAM에 대한 Audience Analytics 통합은 방문자가 대상인 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 한 번의 히트에서 150개 이상의 AAM 세그먼트에 속하면 <b>가장 최근에 자격을 갖춘 150개의 세그먼트</b>가 Analytics로 전송되고 나머지 목록은 잘립니다. </p> <p>세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics로 전송되고 대상 이름 차원에 "대상 제한에 도달함"으로 표시되고 대상 ID 차원에 "-1"로 표시됩니다. </p> <p>방문자가 특정 히트에서 150개 이상의 세그먼트에 대해 자격을 얻는 것은 거의 불가능하지만, 가끔 발생할 수 있습니다. 보고에서 "대상자 제한에 도달함"이 발생하는 경우 두 가지 옵션이 있습니다. </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>옵션 1</b>: 통합을 기본 상태로 계속 작업하면서 특정 방문자에 대해 가장 최근에 자격을 얻은 150개의 세그먼트를 전송합니다. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>옵션 2</b>: AAM에서 통합을 위해 비즈니스에 가장 중요한 150개의 세그먼트를 선택합니다. 그러면 AAM이 그러한 150개의 세그먼트에 대해서만 방문자를 확인합니다. 이 방법의 단점은 모든 방문자에 대해 그러한 150개의 세그먼트만 수신한다는 것입니다. 반면에 옵션 1 방법은 통합의 히트별 특성으로 인해 세그먼트를 무제한으로 전달할 수 있습니다. </li> 
@@ -124,7 +124,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
    <td colname="col2"> <p>예. AAM 대상 설정에서 SSF가 켜져 있는 보고서 세트만 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Analytics 관리자의 SSF에 대한 특정 보고서 세트를 켤 수 없는 이유는 무엇입니까?</b> </p> </td> 
+   <td colname="col1"> <p><b>Q:Analytics 관리에서 SSF에 대한 특정 보고서 세트를 활성화할 수 없는 이유는 무엇입니까?</b> </p> </td> 
    <td colname="col2"> <p>Experience Cloud 조직에 매핑된 세트만 활성화할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
