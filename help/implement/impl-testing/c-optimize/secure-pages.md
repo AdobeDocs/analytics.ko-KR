@@ -8,8 +8,8 @@ subtopic: 문제 해결
 title: 보안 페이지
 topic: 개발자 및 구현
 uuid: d63e4356-0203-4d10-838a-791d12f9333a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
