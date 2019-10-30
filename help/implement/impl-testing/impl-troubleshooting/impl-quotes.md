@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 따옴표 사용
 topic: 개발자 및 구현
-uuid: 9 F 09 C 48 B -7 AE 5-441 E -8635-FD 6 BDC 2 E 94 C 7
-translation-type: tm+mt
+uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
