@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
  변수는 ClickMap 데이터가 수집되는지 여부를 결정합니다. 
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+*`trackInlineStats`*&#x200B;가 'true'이면 클릭한 페이지 및 링크에 대한 데이터가 s_sq라는 쿠키에 저장됩니다. false이면 s_sq에는 "[[B]]"라는 값이 있게 되고, 이것은 null로 간주됩니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
