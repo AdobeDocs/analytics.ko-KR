@@ -1,13 +1,13 @@
 ---
 description: 데이터 피드에 대한 다양한 작업을 수행할 수 있습니다.
-keywords: 데이터 피드; actions
+keywords: 데이터 피드;작업
 seo-description: 데이터 피드에 대한 다양한 작업을 수행할 수 있습니다.
 seo-title: 데이터 피드 패널
 solution: Analytics
 title: 데이터 피드 패널
-uuid: 10527738-13 c 2-48 c 0-9 bb 3-c 4 c 93 fbb 4 d 8 f
+uuid: 1052738-13c2-48c0-9bb3-c4c93fbb4d8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
