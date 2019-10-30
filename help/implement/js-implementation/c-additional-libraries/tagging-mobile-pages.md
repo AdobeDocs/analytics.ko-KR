@@ -7,8 +7,8 @@ solution: Analytics
 title: 모바일 프로토콜에 대한 페이지 태깅
 topic: 개발자 및 구현
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
