@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 흐름 시각화 구성
 title: 흐름 시각화 구성
-uuid: FF 36 DC 09-6175-43 ED-A 82 A -630 D 28 BCA 806
+uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,4 +42,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 흐름 다이어그램 내에서 탐색할 수 있는 양에는 제한이 없습니다. 
 
-**[!UICONTROL 프로젝트]** &gt; CSV ****&#x200B;다운로드
+You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]**.
