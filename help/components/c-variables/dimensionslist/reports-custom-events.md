@@ -5,9 +5,9 @@ seo-title: 사용자 지정 이벤트
 solution: Analytics
 title: 사용자 지정 이벤트
 topic: 보고서
-uuid: 5 AFC 574 C -974 F -4 B 6 C -9 FB 7-03458 D 0 ECF 14
+uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
