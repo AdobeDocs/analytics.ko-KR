@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 표
 topic: 개발자 및 구현
-uuid: F 72 D 7894-38 BD -4926-BCE 4-0 C 6 AF 7278 C 63
-translation-type: tm+mt
+uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -24,5 +24,5 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 >[!NOTE]
 >
->파일은 이미지의 법적 위치에 삽입해야 하며 열기 사이에 나타나야 합니다. <body> 태그 및 닫기 </body> 태그.
+>파일은 이미지의 올바른 위치에 배치해야 하며 열기 <body> 태그와 닫기 </body> 사이에 표시되어야 합니다.
 
