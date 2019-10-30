@@ -5,9 +5,9 @@ seo-title: 방문자 기여도 - Ad Hoc Analysis
 solution: Analytics
 title: 방문자 기여도 - Ad Hoc Analysis
 topic: 지표
-uuid: 567 d 627 c-a 2 a 8-4 fbf-b 3 fd-abb 1341 e 57 a 0
+uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 페이지 </th> 
-   <th colname="col2" class="entry"> 매출 </th> 
+   <th colname="col2" class="entry"> 매출  </th> 
    <th colname="col3" class="entry"> 매출(기여도) </th> 
    <th colname="col4" class="entry"> 매출(방문자 기여도) </th> 
   </tr> 
