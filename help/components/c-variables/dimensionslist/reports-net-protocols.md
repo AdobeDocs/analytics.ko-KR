@@ -5,9 +5,9 @@ seo-title: 네트 프로토콜
 solution: Analytics
 title: 네트 프로토콜
 topic: 보고서
-uuid: 565 EDADB -44 E 4-455 B-A 476-FAD 2 E 4 B 28765
+uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
