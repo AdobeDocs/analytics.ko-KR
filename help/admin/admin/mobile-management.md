@@ -5,9 +5,9 @@ seo-title: 모바일 관리
 solution: Analytics
 title: 모바일 관리
 topic: 관리 도구
-uuid: d 09 edf 72-bb 91-422 d-b 22 c -7 b 6971 f 228 de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics와 Mobile Services 간의 통합은
 * 새로운 Adobe Mobile 차원을 추가합니다.
 * 데이터가 15분마다 Analytics에 동기화됩니다
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 모바일 관리]** &gt; **[!UICONTROL 모바일 애플리케이션 보고]**.
+**[!UICONTROL Analytics]** 관리 **[!UICONTROL &gt;]** 보고서 **[!UICONTROL 세트]** &gt; **[!UICONTROL 보고서 세트]** 편집 설정 **** ****&gt; Mobile Management &gt; 애플리케이션 보고.
 
 ## 1단계. 앱 보고서 활성화 {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -50,7 +50,7 @@ Adobe Analytics와 Mobile Services 간의 통합은
 
 활성화된 배경 조회(앱이 배경에 있을 때 생성되는 조회)는 일반적인 전경 조회로 취급된다는 의미입니다. 이제 이러한 조회가 일반적인 보고에 표시되며 이는 속성에 영향을 줍니다. 이 구성은 일반적으로 이전 구현과의 일관성을 유지하는 경우에만 바람직합니다.
 
-대신, [가상 보고서 세트](../../components/vrs/vrs-about.md)에서 '배경 조회를 포함'하는 것이 좋습니다. 이렇게 하면 조회수를 볼 수는 있지만 조회수가 방문 및 방문자 수에 부정적인 영향을 미치지는 않습니다.
+Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). 이렇게 하면 조회수를 볼 수는 있지만 조회수가 방문 및 방문자 수에 부정적인 영향을 미치지는 않습니다.
 Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어, 모든 유료 검색 캠페인을 "팝 뮤직 용어" 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
