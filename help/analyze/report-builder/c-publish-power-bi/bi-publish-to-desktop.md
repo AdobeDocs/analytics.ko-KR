@@ -1,16 +1,16 @@
 ---
 description: Report Builder에서 게시한 자산을 Power BI Desktop에 가져오는 방법을 설명합니다.
 seo-description: Report Builder에서 게시한 자산을 Power BI Desktop에 가져오는 방법을 설명합니다.
-seo-title: 게시된 에셋을 Power BI 데스크탑으로 가져오기
-title: 게시된 에셋을 Power BI 데스크탑으로 가져오기
-uuid: ef 47 d 5 c 7-31 e 0-44 fc-a 792-bc 9 d 12 bb 089 e
+seo-title: 게시된 자산을 Power BI Desktop에 가져오기
+title: 게시된 자산을 Power BI Desktop에 가져오기
+uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 게시된 에셋을 Power BI 데스크탑으로 가져오기
+# 게시된 자산을 Power BI Desktop에 가져오기
 
 Report Builder에서 게시한 자산을 Power BI Desktop에 가져오는 방법을 설명합니다.
 
@@ -24,11 +24,11 @@ Report Builder에서 게시한 자산을 Power BI Desktop에 가져오는 방법
 Microsoft는 Power BI Desktop의 2017년 4월 업데이트에서 Power BI 서비스의 데이터 세트에 연결하는 기능을 발표했습니다. 이 기능을 사용하면 이미 클라우드에 게시한 기존의 데이터 세트에서 새 보고서를 생성할 수 있고, 팀에서 공동 작업을 더 잘 수행하고 중복되는 노력을 줄일 수 있습니다.
 
 1. In Power BI Desktop, go to **[!UICONTROL File]** &gt; **[!UICONTROL Options and settings]** &gt; **[!UICONTROL Options]** &gt; **[!UICONTROL Preview features.]**
-1. **[!UICONTROL Power BI Service Live 연결을]** 활성화하고 **[!UICONTROL [확인]**] 를 클릭합니다. ![](assets/bi-preview-features.png)
+1. Enable **[!UICONTROL Power BI Service Live Connection]** and click **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
 
 1. Power BI Desktop을 시작합니다.
-1. Once you have restarted the desktop, go to **[!UICONTROL Home]** &gt; **[!UICONTROL Get Data]** &gt; **[!UICONTROL More...]**.
+1. **[!UICONTROL 데스크탑을 다시 시작한 후 홈 &gt;]**&#x200B;데이터&#x200B;**[!UICONTROL 가져오기]**&gt;**[!UICONTROL 자세히]**...로 이동합니다..
 1. **[!UICONTROL Power BI 서비스를 검색하여 선택합니다]**.
-1. **[!UICONTROL Microsoft Power BI 서비스]** &gt; **[!UICONTROL 내 작업 영역에서]**&#x200B;이전에 리포트 빌더에서 게시한 데이터 세트를 선택합니다.
+1. Under **[!UICONTROL Microsoft Power BI service]** &gt; **[!UICONTROL My Workspace]**, select the dataset that you had previously published from Report Builder.
 
 자세한 내용은 이 [Microsoft 블로그 게시물](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)을 참조하십시오.
