@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 옵트아웃 링크 추가
 topic: 개발자 및 구현
-uuid: C 12092 BE -3 BE 7-4621-B 838-D 6 B 78 D 074 F 84
-translation-type: tm+mt
+uuid: c12092be-3be7-4621-b838-d6b78d074f84
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,9 +26,9 @@ URL 구조에서 collection_domain 섹션이 JavaScript 파일에서 사용되�
 
 Adobe는 모든 구현 유형에 대해 옵트아웃을 제공합니다. 귀하는 자체 개인정보 보호정책과 서명한 약관 준수 유지에 대한 책임을 져야 합니다. 여기 설명한 것과 같이 옵트아웃 페이지에 대한 링크가 구현 유형을 기준으로 변화함을 확인하십시오.
 
-Adobe Analytics 제품 및 서비스를 Adobe가 소유한 도메인(예: 207.net 또는 omtrdc.net)에 설정된 쿠키와 함께 구현하는 경우, Adobe Analytics 제품 및 서비스를 위해 Adobe 쿠키를 사용하는 모든 사이트에 대해 웹 사이트 방문자를 [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html)에 제공된 옵트아웃 메커니즘으로 안내할 수 있습니다. The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
+Adobe Analytics 제품 및 서비스를 Adobe가 소유한 도메인(예: 207.net 또는 omtrdc.net)에 설정된 쿠키와 함께 구현하는 경우 Adobe Analytics 제품 및 서비스를 위해 Adobe 쿠키를 사용하는 모든 사이트에 대해 웹 사이트 방문자를 [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html)에 제공된 옵트아웃 메커니즘으로 안내할 수 있습니다. Adobe 옵트아웃 메커니즘으로 직접 연결되는 링크는 `https:// *collection_domain* /optout.html`입니다.
 
-More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
+Adobe Analytics 개인정보 보호에 대한 자세한 내용은 [https://www.adobe.com/kr/privacy/advertising-services.html](https://www.adobe.com/kr/privacy/advertising-services.html) 페이지를 참조하십시오.
 
 * [옵트아웃 페이지 URL 구조](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
 * [옵트아웃 URL 예제](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
@@ -42,9 +42,9 @@ More information about Adobe Analytics privacy practices can be found at [https:
 https://collection_domain/optout.html[?optional_parameters]
 ```
 
-`optional_parameters` 포함 사항:
+`optional_parameters`에는 다음이 포함되어 있습니다.
 
-`locale=[code]`: 옵트아웃 페이지의 번역된 버전을 제공합니다. 지원되는 로케일:
+`locale=[code]`: 번역된 옵트아웃 페이지를 제공합니다. 지원되는 로케일:
 
 * en_US(기본값)
 * de_DE
@@ -86,6 +86,6 @@ https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 Click Here to Opt Out! </a>
 ```
 
-  *`stats.adobe.com`* 변수가 설정된 값으로 *`s.trackingServer`* 대체됩니다.
+  *`stats.adobe.com`*&#x200B;은 *`s.trackingServer`* 변수가 설정된 항목으로 대체됩니다.
 
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.
+또한 옵트인에 링크를 제공하려면 동일한 URL을 사용하되, `?optout=1`을 `?optin=1`로 바꾸고 `confirm_change=1`을 유지합니다.
