@@ -1,19 +1,19 @@
 ---
 description: 'eVar 값을 Prop에 복사하여 경로 지정을 활성화할 수 있습니다. '
 seo-description: 'eVar 값을 Prop에 복사하여 경로 지정을 활성화할 수 있습니다. '
-seo-title: Evar 값을 prop에 복사하여 경로 결정
+seo-title: eVar 값을 prop에 복사하여 경로 결정
 solution: Analytics
 subtopic: 처리 규칙
-title: Evar 값을 prop에 복사하여 경로 결정
+title: eVar 값을 prop에 복사하여 경로 결정
 topic: 관리 도구
-uuid: 8 d 7647 c 7-aa 91-466 b -8 d 31-fb 4 dce 83 f 04 a
+uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Evar 값을 prop에 복사하여 경로 결정
+# eVar 값을 prop에 복사하여 경로 결정
 
 eVar 값을 Prop에 복사하여 경로 지정을 활성화할 수 있습니다. 
 
