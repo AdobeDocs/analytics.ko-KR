@@ -5,9 +5,9 @@ seo-title: 언어
 solution: Analytics
 title: 언어
 topic: 보고서
-uuid: 04 F 1 FC 86-2738-4063-8091-772 DDC 59 F 9 CF
+uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **[!UICONTROL 방문자 프로필]** &gt; **[!UICONTROL 언어]**
 
-Adobe에서는 이 보고서를 http 헤더 요청의 수락 언어 부분을 기반으로 채우고 있습니다. 언어 수락 HTTP 헤더는 각 브라우저의 언어 기본 설정의 일부로서 구성됩니다.
+Adobe에서는 이 보고서를 http 헤더 요청의 수락 언어 부분을 기반으로 채우고 있습니다. 언어 수락 HTTP 헤더는 각 브라우저의 언어 기본 설정의 일부로 구성됩니다.
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
@@ -26,7 +26,5 @@ Adobe에서는 이 보고서를 http 헤더 요청의 수락 언어 부분을 �
 
 이 보고서의 일부 라인 항목에는 지역이 포함되어 있습니다. 이것은 지역 하위 태그입니다.
 
->[!NOTE]
->
->시간별 시간 세부기간은 지원되지 않습니다.
+> [!NOTE] 시간별 시간 세부기간은 지원되지 않습니다.
 
