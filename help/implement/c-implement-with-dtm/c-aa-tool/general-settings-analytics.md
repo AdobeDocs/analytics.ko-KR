@@ -7,8 +7,8 @@ solution: Analytics
 title: 일반
 topic: 개발자 및 구현
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ Adobe Analytics 배포를 위한 DTM의 일반 설정에 대한 필드 설명입
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> 쿠키가 있지만  <span class="term"> true</span>로 설정되어 있는 경우에는 도구가 정상적으로 로드됩니다. </li> 
     </ul> <p>방문자가 옵트아웃하면 <span class="filepath">sat_track</span>(또는 사용자 지정 이름이 지정된) 쿠키를 <span class="term">false</span>로 설정해야 합니다. 사용자 지정 코드를 사용하여 다음을 완수할 수 있습니다. </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> 방문자가 나중에 옵트인할 수 있도록 하려면 해당 쿠키를 <span class="term">true</span>로 설정하는 메커니즘이 있어야 합니다. </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Adobe Analytics 배포를 위한 DTM의 일반 설정에 대한 필드 설명입
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL 추적 서버 </p> </td> 
-   <td colname="col2"> <p>이미지 요청 및 쿠키가 작성되는 도메인. 보안 페이지에 사용됩니다.  정의되지 않으면 SSL 데이터가 <span class="term"> trackingServer </span>. </p> </td> 
+   <td colname="col2"> <p>이미지 요청 및 쿠키가 작성되는 도메인. 보안 페이지에 사용됩니다. If 정의되지 않으면 SSL 데이터가 <span class="term"> trackingServer </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>데이터 센터 </p> </td> 
