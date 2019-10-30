@@ -6,8 +6,8 @@ seo-title: 페이지 이름 지정 전략
 solution: Analytics
 title: 페이지 이름 지정 전략
 topic: 개발자 및 구현
-uuid: A 829 D 0 C 7-6 EBF -459 A-B 403-5 E 9 C 05161 E 5 C
-translation-type: tm+mt
+uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,12 +17,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 pageName는 읽기 쉽고 직관적인 페이지 식별자와 함께 채워야 합니다.
 
-You can determine the best way of populating the *`pageName`* variable by looking at the structure of your website. The methods listed below outline various ways of populating the *`pageName`* variable.
+웹 사이트의 구조를 보고 *`pageName`* 변수를 채우는 최상의 방법을 결정할 수 있습니다. 아래 나열된 방법은 *`pageName`* 변수를 채우는 여러 가지 방법을 요약한 것입니다.
 
-*`pageName`* 변수가 사용자 동작을 식별하는 데 중요하지만, Adobe 에서는 여러 변수를 사용하여 페이지 정보를 표시할 것을 권장합니다. 아래에서 보듯이 가장 좋은 페이지 이름 지정 전략은 사이트 내에서 각 계층에 서로 다른 변수를 사용하는 방법입니다.
+*`pageName`* 변수는 사용자 동작을 식별하는 데 중요하지만, 여러 변수를 사용하여 페이지 정보를 나타내는 것이 더 좋습니다. 아래에서 보듯이 가장 좋은 페이지 이름 지정 전략은 사이트 내에서 각 계층에 서로 다른 변수를 사용하는 방법입니다.
 
-* *`channel`* 이 변수를 사용하여 사이트 섹션을 나타낼 수 있습니다.
-* *`pageName`* 이 변수를 사용하여 컨텐츠 유형을 표시할 수 있습니다.
+* *`channel`* 변수는 사이트 섹션을 나타내는 데 사용할 수 있습니다.
+* *`pageName`* 변수는 콘텐츠 유형을 표시하는 데 사용할 수 있습니다.
 * [!UICONTROL 사용자 지정 인사이트] 변수(prop1)는 상세한 컨텐츠에 사용할 수 있습니다.
 
 아래에서 보듯이 상세함의 수준은 속성에 따라 다양합니다.
@@ -36,7 +36,7 @@ You can determine the best way of populating the *`pageName`* variable by lookin
 
 사이트의 계층이 많을수록 더 많은 변수를 사용하여 페이지 컨텐츠를 식별해야 합니다. 회사들은 변수 구간을 겹치게 하면 유용한 경우도 있음을 알게 됩니다. 예를 들어 더 자세한 변수에는 보고 있는 제품에 관한 정보 외에도 사이트 섹션 및 하위 섹션에 대한 정보를 포함할 수 있습니다. 이것은 제품 또는 기사가 사이트의 섹션 두 개 이상에 나타나는 경우에 특히 유용합니다.
 
-다음의 페이지 이름 지정 전략에서 *`pageName`* 변수. 구현하기 쉬운 페이지 이름 지정 전략을 선택하기가 쉽지만, 페이지 명명 전략은 모든 [!UICONTROL 경로] 및 [!UICONTROL 페이지] 보고서의 유용성을 결정한다는 점에 주의해야 합니다. 페이지의 이름 지정 방법을 결정할 때는 현명하게 판단하십시오.
+다음의 페이지 이름 지정 전략에서  *`pageName`* 변수를 채우는 방법을 설명합니다. 구현하기 쉬운 페이지 이름 지정 전략을 선택하기가 쉽지만, 페이지 명명 전략은 모든 [!UICONTROL 경로] 및 [!UICONTROL 페이지] 보고서의 유용성을 결정한다는 점에 주의해야 합니다. 페이지의 이름 지정 방법을 결정할 때는 현명하게 판단하십시오.
 
 ## 페이지마다 고유한 이름 {#section_24704CA39E2F4C00ACEAFF39CA0A921B}
 
@@ -59,7 +59,7 @@ You can determine the best way of populating the *`pageName`* variable by lookin
 s.pageName="<%= file_path %>"
 ```
 
-Adobe does not recommend leaving the *`pageName`* blank, (which results in using the full URL of the page) even though you may be tempted to do so. *`pageName`* 변수를 공백으로 두고를 페이지 식별자로 사용하여 다음과 같은 부작용이 *`pageURL`* 발생합니다.
+*`pageName`* 변수는 비워 두지 않는 것이 좋습니다(변수를 비워 둘 경우 페이지의 전체 URL이 사용됨). *`pageName`* 변수를 비워두고 *`pageURL`*&#x200B;을 페이지 식별자로 사용하면 다음과 같은 문제가 발생합니다.
 
 * 페이지의 도메인 및 경로가 동일하게 표시되지 않을 때가 있습니다. 예를 들어 다음 네 가지 URL이 하나의 페이지를 반환합니다.
 
@@ -67,13 +67,13 @@ Adobe does not recommend leaving the *`pageName`* blank, (which results in using
    * `https://www.mysite.com`
    * `https://mysite.com/index.jsp`
    * `https://mysite.com/`
-   If the *`pageName`* is left blank, each of these page names would occupy a separate entry in reports.
+   *`pageName`*&#x200B;을 비워 둘 경우 이러한 페이지 이름들은 각각 보고서에서 별도의 항목을 차지하게 됩니다.
 
 * 일부 페이지(예: 양식)가 자체에 게시되므로 원래 양식과 결과 출력 간에 구분이 없어집니다.
 * 검색 엔진이나 그 밖의 온라인 도구에 의해 페이지가 다른 언어로 변환될 때 페이지의 URL은 검색 엔진의 URL(사이트의 URL이 아님)입니다.
 
 ## HTML(document.title) {#section_B99B8F66B0E2410FA7BFE44E6851EB3F}
 
-If you have invested time into making your HTML titles readable and intuitive, you might consider using the same title as the value in the *`pageName`* variable. Adobe recommends using a server-side variable to populate the *`pageName`* rather than using JavaScript's [!DNL document.title]. 일부 브라우저에서는 HTML 제목을 다른 브라우저와 다르게 해석하므로, [!DNL Analytics]가 다른 브라우저에서 다른 페이지 이름을 받을 수 있습니다.
+HTML 제목을 알아보고 이해하기 쉽게 지정하는 데 시간이 오래 걸린 경우에는 *`pageName`* 변수의 값과 동일한 제목을 사용하는 것을 고려해 볼 수 있습니다. JavaScript의 [!DNL document.title]을 사용하는 것보다 서버측 변수를 사용하여 *`pageName`*&#x200B;을 채우는 것이 좋습니다. 일부 브라우저에서는 HTML 제목을 다른 브라우저와 다르게 해석하므로, [!DNL Analytics]가 다른 브라우저에서 다른 페이지 이름을 받을 수 있습니다.
 
 HTML 제목을 사용하는 가장 좋은 방법은 각 페이지의 기존 제목을 별도 변수 또는 컨텐츠 관리 요소로 복사하는 것입니다. 검색 엔진 최적화 또는 다른 목적으로 HTML 제목을 변경하기로 결정하는 경우 [!DNL Analytics] 페이지 이름에 미치는 영향이 없습니다. [!DNL Analytics]에서 페이지 이름을 변경할 경우, 새 페이지가 되므로 연관된 URL과 관계없이 기존 페이지 이름과 연결되지 않습니다.
