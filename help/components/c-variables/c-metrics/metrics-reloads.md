@@ -5,9 +5,9 @@ seo-title: 다시 로드
 solution: Analytics
 title: 다시 로드
 topic: 지표
-uuid: 0896 AE 8 B -3 DB 6-4 B 95-8 DAB -134946 F 98201
+uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
