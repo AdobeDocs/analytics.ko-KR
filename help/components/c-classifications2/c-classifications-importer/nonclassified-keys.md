@@ -1,23 +1,23 @@
 ---
 description: 분류되지 않는 키는 분류 보고서에 없음으로 레이블이 지정된 단일 라인 항목으로 모두 그룹화됩니다. 이렇게 하면 없음을 좀 더 설명적인 이름으로 바꾸는 데 유용할 수 있습니다.
 seo-description: 분류되지 않는 키는 분류 보고서에 없음으로 레이블이 지정된 단일 라인 항목으로 모두 그룹화됩니다. 이렇게 하면 없음을 좀 더 설명적인 이름으로 바꾸는 데 유용할 수 있습니다.
-seo-title: 분류되지 않은 키
+seo-title: 분류되지 않는 키
 solution: Analytics
 subtopic: 분류
-title: 분류되지 않은 키
+title: 분류되지 않는 키
 topic: 관리 도구
-uuid: B 73 A 9161-0 C 6 F -4 C 8 D -900 B -54 AB 2 C 36147 C
+uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 분류되지 않은 키
+# 분류되지 않는 키
 
 분류되지 않는 키는 분류 보고서에 없음으로 레이블이 지정된 단일 라인 항목으로 모두 그룹화됩니다. 이렇게 하면 없음을 좀 더 설명적인 이름으로 바꾸는 데 유용할 수 있습니다.
 
-## Non-classified keys {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
+## 분류되지 않는 키 {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
 
 분류되지 않는 키는 분류 보고서에 *`None`*. It can be useful to rename *`None`* to something more descriptive.
 
@@ -39,5 +39,5 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
 
    이 설명서에 나온 예를 따르려면 [!UICONTROL 모바일 캠페인 이름]이라고 하는 열에 "비모바일 캠페인"을 입력할 수 있습니다.
 
-   이렇게 입력하면 *`None`* 을 *`non-mobile campaign`*[!UICONTROL 클릭합니다] .
+   이렇게 입력하면 *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
 1. [데이터를](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) 다시 시스템으로 가져옵니다.
