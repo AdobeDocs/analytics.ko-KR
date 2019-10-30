@@ -5,7 +5,7 @@ seo-title: 액세스 및 삭제 요청 제출
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,9 +35,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 귀하는 Adobe의 데이터 개인정보 보호 UI 포털 [또는 Adobe의 데이터 개인정보 보호 API를 통해 데이터](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) 개인정보 보호 액세스 및 삭제 요청을 제출할 [수 있습니다.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE]
->
->데이터 개인 정보 API는 단일 요청에서 여러 사용자에 대한 일괄 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
+> [!NOTE] 데이터 개인 정보 API는 단일 요청에서 여러 사용자에 대한 일괄 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
 
 ## 샘플 JSON 요청 {#sample-json-request}
 
@@ -127,7 +125,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
    * 일치하는 모든 히트에 대한 하나의 행과, ACC-ALL 또는 ACC-PERSON 레이블이 있는 모든 필드에 대해 타임스탬프별로 정렬된 하나의 열이 있는 .CSV 파일입니다.
    * 모든 ACC-ALL 또는 ACC-PERSON 레이블에 대해 하나의 항목이 있는 HTML 요약 파일입니다. 각 항목에는 해당 필드에 대한 모든 고유 값과 각 항목이 발생한 횟수가 나열됩니다. 타임스탬프가 들어 있는 필드는 고유한 일만 지정하도록 반올림됩니다.
 
-* 장치 파일 - 필드 중 하나가 지정된 ID-DEVICE와 일치하지만 지정된 ID-PERSON과 일치하지 않는 히트에서 파생됩니다.
+* 장치 파일 - 필드 중 하나가 지정된 ID-DEVICE와 일치하지만 어떤 필드도 지정된 ID-PERSON과 일치하지 않는 히트에서 파생됨
 
    * 일치하는 모든 히트에 대한 하나의 행과, ACC-ALL 레이블이 있는 모든 필드에 대해 타임스탬프별로 정렬된 하나의 열이 있는 .CSV 파일입니다.
    * 모든 ACC-ALL 레이블에 대해 하나의 항목이 있는 HTML 요약 파일입니다. 각 항목에는 해당 필드에 대한 모든 고유 값과 각 항목이 발생한 횟수가 나열됩니다. 타임스탬프가 들어 있는 필드는 고유한 일만 지정하도록 반올림됩니다.
