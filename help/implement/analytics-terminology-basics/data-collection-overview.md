@@ -8,7 +8,7 @@ title: 데이터 수집
 topic: 개발자 및 구현
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,7 +61,7 @@ Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개
 
    >[!NOTE]
    >
-   >Each image request contains a random number string to prevent browser caching and ensure that subsequent image requests are made by the browser.
+   >각 이미지 요청에는 브라우저에서 캐싱을 방지하고, 브라우저에 의해 그 다음 이미지 요청이 수행되도록 하는 무작위 숫자 문자열이 포함되어 있습니다.
 
 1. Adobe에서 투명한 픽셀 이미지를 반환합니다.
 
@@ -69,7 +69,7 @@ Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개
 
    이 코드는 추가 정보(예: 운영 체제, 브라우저 종류, 브라우저 가로 및 세로, IP 주소 및 브라우저 언어)를 자동으로 수집합니다.
 
-1. Adobe 서버는 웹 분석 데이터를 *`report suites`* (데이터 저장소)에 저장합니다.
+1. Adobe 서버는 웹 분석 데이터를 *`report suites`*(데이터 저장소)에 저장합니다.
 
    ![](assets/how-data-is-collected-5.png)
 
