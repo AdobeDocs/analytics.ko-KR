@@ -1,13 +1,13 @@
 ---
 description: Facebook 인스턴트 아티클의 Analytics 구현 방법을 참조하십시오.
-keywords: Analytics 구현; 임베드; 사용자 지정 변수; 사용자 지정 이벤트; 방문자 추적; 추적; 제한 사항
+keywords: Analytics 구현;포함;사용자 지정 변수;사용자 지정 이벤트;방문자 추적;추적;제한 사항
 seo-description: Facebook 인스턴트 아티클의 Analytics 구현 방법을 참조하십시오.
 seo-title: Facebook 인스턴트 아티클
 solution: Analytics
 title: Facebook 인스턴트 아티클
 topic: 개발자 및 구현
-uuid: 04 b 6366 b -7 c 52-4 DAE-B 2 DD-BB 6 B 78 FD 409 C
-translation-type: tm+mt
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -83,7 +83,7 @@ Facebook Instant Article 컨텐츠를 만들 때 분석 HTML 컨텐츠를 iFrame
    1. 방문자 네임스페이스 변수. **참고:** 이러한 값들 중 많은 수는 표준 Analytics 구현 내에서 찾을 수 있습니다. 필요할 경우 고객 지원 또는 Adobe 컨설팅에서 적절한 값을 제공하는 데 도움을 줄 수 있습니다.
 
 1. [사용자 지정 변수 및 이벤트 추적을 설정합니다](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
-1. Include the page view image request syntax `( s.t())`.
+1. 페이지 보기 이미지 요청 구문 `( s.t())`을 포함합니다.
 
 ## 3단계. 사용자 지정 변수 및 이벤트 추적 설정 {#section_932C41BD21154C25B99389299BDF3E0B}
 
@@ -110,7 +110,7 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## 방문자 추적 {#section_60F0C77659534949831E85B5FD9AE81E}
 
-분석 HTML 페이지가 웹 서버에 호스트되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인 정보 보호 정책을 지원할 수 있습니다. 이것은 최종 사용자가 기본 사이트에서 추적을 옵트 아웃한 경우 추가적인 단계를 수행하지 않아도 최종 사용자가 모든 Facebook 인스턴트 아티클에서도 추적을 옵트 아웃하게 됨을 의미합니다. 또한 이 유틸리티 페이지를 사용하면 ID 서비스 (방문자 ID) 가 지원되므로 Facebook 인스턴트 아티클에 캡처된 지표 및 변수를 나머지 Experience Cloud와 통합할 수 있습니다. (An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+분석 HTML 페이지가 웹 서버에 호스트되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인 정보 보호 정책을 지원할 수 있습니다. 이것은 최종 사용자가 기본 사이트에서 추적을 옵트 아웃한 경우 추가적인 단계를 수행하지 않아도 최종 사용자가 모든 Facebook 인스턴트 아티클에서도 추적을 옵트 아웃하게 됨을 의미합니다. 또한 이 유틸리티 페이지를 사용하면 ID 서비스(방문자 ID)가 지원되므로 Facebook 인스턴트 아티클에서 캡처한 지표 및 변수를 나머지 Experience Cloud와 통합할 수 있습니다. (예제가 [!DNL Adobe Audience Manager]를 사용하여 타깃팅된 광고입니다.)
 
 ## 추적 제한 사항 {#section_1EE1BB069A3148DB9446371AFE196567}
 
@@ -118,7 +118,7 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## 다음은 무엇입니까? {#section_A170A10E2A3642A784DF720195DA8B38}
 
-[!DNL Adobe Analytics] Facebook 및 Adobe 발행자와 협력하여 업계 선도적인 분석 기능을 모바일 웹의 출판업체에 제공함으로써 놀라운 사용자 경험을 제공할 수 있게 되었습니다. Adobe에서는 고객들의 더욱 진화하고 있는 분석 요구에 답하기 위한 최상의 장기적 솔루션을 만드는 데 전념하고 있습니다.
+[!DNL Adobe Analytics]에서는 Facebook 및 게시자와 파트너 관계를 맺어 업계에서 선도적인 분석 기능을 매우 빠른 사용자 환경에서 모바일 웹의 게시자에게 제공하게 되어 기쁘게 생각합니다. Adobe에서는 고객들의 더욱 진화하고 있는 분석 요구에 답하기 위한 최상의 장기적 솔루션을 만드는 데 전념하고 있습니다.
 
 Facebook Instant Article 프로젝트는 빠르게 움직이고 있으며, 변경 사항도 항상 발생하므로 이 사이트를 방문하여 업데이트가 있는지 자주 확인하십시오. 통합은 더 개선되고, 향후에는 더 많은 게시자가 Facebook 인스턴트 아티클을 채택할 것이므로 변경 사항들이 있을 것임을 예상하십시오.
 
