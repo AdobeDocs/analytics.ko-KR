@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: 개발자 및 구현
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,19 +17,15 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 사용자 페이지가 브라우저 내에서 활성 탭으로 있던 시간(초)을 기록하고 다음 페이지 보기에서 지표에 그 값을 전달합니다.
 
->[!NOTE]
->
->이 플러그인은 베타 버전이며 추가 업데이트가 제공될 수 있습니다.
+> [!NOTE] 플러그인의 베타 버전이며 곧 추가 업데이트가 있을 수 있습니다.
 
-이 플러그인을 사용하려면 [getVisitStart가 필요합니다](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+이 플러그인을 사용하려면 [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)가 필요합니다.
 
 이 플러그인은 브라우저 내에 해당 페이지가 표시되었던 총 초(활성 및 수동 보기 시간 모두)도 기록합니다. 페이지 가시성 이벤트와 연관된 이전 페이지 이름을 추적하려면 getPreviousValue 플러그인을 사용해야 합니다. 이러한 값을 추적하면 사용자 사이트에서 방문자 참여를 더 잘 이해하고 방문자 행동을 더 정확히 추적하는 데 유용합니다.
 
 페이지 가시성 이벤트와 연관된 이전 페이지 이름을 추적하려면 getPreviousValue 플러그인을 사용해야 합니다. 이러한 값을 추적하면 사용자 사이트에서 방문자 참여를 더 잘 이해하고 방문자 행동을 더 정확히 추적하는 데 유용합니다.
 
->[!NOTE]
->
->다음 지침에 따라 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 Analytics 사용 및 구현 경험이 풍부한 개발자만 수행해야 합니다. 이 플러그인은 [!DNL AppMeasurement] 추적 라이브러리와만 호환됩니다.
 
 ## 필요한 플러그인 지원 {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -104,11 +100,11 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 * 프로덕션 환경에 배포하기 전에 항상 플러그인 설치를 테스트하여 데이터 수집이 예상대로 수행되는지 확인하십시오.
 * 플러그인은 이전 페이지와 연결되어 페이지 가시성 초 및 총 초를 전달하기 때문에 방문 마지막 페이지 보기에 대한 데이터를 수집하지 않습니다.
 * 이 플러그인은 사용자의 웹 브라우저에서 쿠키를 설정하는 기능을 이용합니다. 사용자가 자사 쿠키를 승인하지 않으면 플러그인은 Analytics에 데이터를 전달하지 않습니다.
-* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`.
+* 플러그인은 `s_tps` 및 `s_pvs`라고 명명된 고유한 자사 쿠키를 만듭니다.
 
 * 매우 적은 비율의 사용자가 브라우저 한계로 인해 보여진 페이지 비율 데이터를 전달하지 않는데 그 결과 데이터가 왜곡되지 않도록 하기 위해 플러그인 내에 논리가 포함됩니다. 하지만 이 플러그인은 IE, Firefox, Chrome 및 Safari에서 성공적으로 테스트되었습니다.
 * 플러그인이 총 초를 측정하고 이전 페이지 이름과 그 값을 연관시키는 방법으로 인해 페이지에서 보낸 기본 시간 지표와 총 초 지표 사이에 차이가 생깁니다.
-* [!UICONTROL 계산된 지표를] 만들어 이러한 지표와 연관된 방문자 행동을 요약 및 이해할 수 있습니다.
+* [!UICONTROL 계산된 지표]를 작성하면 다음 지표와 연관된 방문자 행동을 요약 및 이해하는 데 도움이 될 수 있습니다.
 
    * **페이지 가시성 비율**(총 페이지 가시성 초/총 페이지 초)
    * **총 숨겨진 초** (총 페이지 초 - 총 페이지 가시성 초)
@@ -116,7 +112,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
    * **평균 페이지 숨겨진 초**((총 페이지 초 - 총 페이지 가시성 초)/총 페이지 가시성 인스턴스)
 
 * 플러그인이 초를 반올림하는 방법으로 인해 총 페이지 가시성 초와 총 초 사이에 1~2초의 차이가 나면서 총 초가 더 높아질 수 있습니다. (향후 업데이트로 해결될 예정).
-* getVisitStart 플러그인을 사용하면 30분 이상의 비활성 시간 후 새 방문을 시작하는 방문자를 설명할 수 있습니다. 처음부터 이렇게 작동하도록 설계된 것은 아닙니다. 하지만 플러그인의 향후 반복에서 "총 활성 초"를 포함할 때 문제 해결방법이 될 수도 있습니다.
+* getVisitStart 플러그인을 사용하면 30분 이상의 비활성 시간 후 새 방문을 시작하는 방문자를 설명할 수 있습니다. 이는 설계된 대로 작동하지 않습니다.하지만 플러그인의 향후 반복에서 "총 활성 초"를 통합하면 해결 방법이 있을 수 있습니다.
 
 ## FAQ {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
@@ -130,7 +126,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 **이전 페이지 이름 이외의 캡처된 이벤트를 보고서에 사용할 수 있습니까?**
 
-이 플러그인이 연속된 이미지 요청 값을 기록하기 때문에 '이전 페이지' 컨텍스트에 캡처된 다른 eVar, 즉 '이전 페이지 URL'만 적용될 수 있습니다.
+플러그인은 후속 이미지 요청에 값을 기록하므로 '이전 페이지' 컨텍스트에서 캡처된 다른 eVar만 적용할 수 있습니다(예:).'이전 페이지 URL'.
 
 **플러그인이 s.tl() 호출에 또는 s.t() 호출에만 가시성 시간을 전송합니까?**
 
