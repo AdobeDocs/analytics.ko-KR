@@ -1,13 +1,13 @@
 ---
-description: 지능적인 경고를 사용하면 경고 미리 보기 및 규칙 기여 기능을 포함하여 Analysis Workspace에서 경고를 생성 및 관리할 수 있도록 해줍니다.
-keywords: Analytics 구현; 경고; 예외 항목예외 항목; 이메일; sms; 여러 지표
-seo-description: 지능적인 경고를 사용하면 경고 미리 보기 및 규칙 기여 기능을 포함하여 Analysis Workspace에서 경고를 생성 및 관리할 수 있도록 해줍니다.
+description: 지능형 경고를 사용하면 경고 미리 보기 및 규칙 기여 기능을 포함하여 Analysis Workspace에서 경고를 생성하고 관리할 수 있습니다.
+keywords: Analytics 구현;경고;예외 항목;예외 항목;이메일;sms;여러 지표
+seo-description: 지능형 경고를 사용하면 경고 미리 보기 및 규칙 기여 기능을 포함하여 Analysis Workspace에서 경고를 생성하고 관리할 수 있습니다.
 seo-title: 경고
 solution: Analytics
 title: 경고
 topic: 개발자 및 구현
-uuid: 8 b 266 ADF-BB 6 B -4 BFF -8307-E 246 ACA 717 C 7
-translation-type: tm+mt
+uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 # 경고
 
-Intelligent Alerts let you create and manage alerts in [!UICONTROL Analysis Workspace], complete with alert preview and rule contribution.
+지능형 경고를 사용하면 경고 미리 보기 및 규칙 기여 기능을 포함하여 [!UICONTROL Analysis Workspace]에서 경고를 생성하고 관리할 수 있습니다.
 
 개별 게시물의
 
@@ -24,6 +24,6 @@ Intelligent Alerts let you create and manage alerts in [!UICONTROL Analysis Work
 * 자동 생성된 [!UICONTROL Analysis Workspace] 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 "누적된" 경고를 생성합니다.
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+이 새로운 경고 시스템은 Reports &amp; Analytics의 모든 보고서에서 **[!UICONTROL 자세히]** &gt; **[!UICONTROL 경고]**&#x200B;를 통해 액세스할 수 있습니다.
 
-See [Intelligent Alerts](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) in the [!UICONTROL Analysis Workspace] Help.
+[!UICONTROL Analysis Workspace] 도움말에서 [지능형 경고](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/intellligent_alerts.html)를 참조하십시오.
