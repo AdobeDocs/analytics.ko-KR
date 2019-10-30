@@ -8,7 +8,7 @@ title: 하위 분류 및 규칙 빌더 - 활용 사례
 topic: 관리 도구
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,7 @@ t_rule_builder_subclass.xml
 
 규칙 빌더를 사용하여 하위 분류를 업로드하는 방법을 설명하는 예제 단계입니다.
 
->[!NOTE]
->
->이 단계에서는 하위 분류 및 규칙 빌더에 설명된 사용 [사례를 수행하는 방법을 설명합니다](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+> [!NOTE] 이 단계에서는 하위 분류 및 규칙 빌더에 설명된 사용 [사례를 수행하는 방법을 설명합니다](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
 
 1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
