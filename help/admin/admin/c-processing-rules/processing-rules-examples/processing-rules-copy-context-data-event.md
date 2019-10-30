@@ -8,7 +8,7 @@ title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
 topic: 관리 도구
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
