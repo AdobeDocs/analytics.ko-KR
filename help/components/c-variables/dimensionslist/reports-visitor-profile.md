@@ -5,9 +5,9 @@ seo-title: 방문자 프로필
 solution: Analytics
 title: 방문자 프로필
 topic: 보고서
-uuid: ffdd 24 ab -5 de 4-44 a 0-8 d 9 b -5 d 6 a 9 b 60 a 2 dd
+uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> 언어 </td> 
-   <td colname="col2"> <p> 방문자의 선호 언어를 표시하고 기본 브라우저 언어를 캡처하며 사이트 방문자가 가장 많이 사용하는 언어를 표시합니다. </p> </td> 
+   <td colname="col2"> <p> 방문자가 선호하는 언어를 표시하고 기본 브라우저 언어를 캡처하며 방문자가 사이트에서 가장 자주 사용하는 언어를 표시합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 도메인 </td> 
