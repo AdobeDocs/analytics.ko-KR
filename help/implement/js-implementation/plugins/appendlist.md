@@ -8,8 +8,8 @@ subtopic: 플러그인
 title: appendList
 topic: 개발자 및 구현
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>시나리오 </p> </td> 
-   <td colname="col2"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에  <span class="term"> event1 </span>을 추가합니다. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 <span class="term"> event1 </span>을 추가합니다. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>코드 </p> </td> 
@@ -63,9 +63,7 @@ APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하�
  </tbody> 
 </table>
 
->[!NOTE]
->
->다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 구현 {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
