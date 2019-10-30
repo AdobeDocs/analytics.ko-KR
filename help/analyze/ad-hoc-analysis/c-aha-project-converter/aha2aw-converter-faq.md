@@ -1,31 +1,31 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 프로젝트 변환기 FAQ
-title: 프로젝트 변환기 FAQ
-uuid: 8 E 1 BF 0 E 9-CE 0 F -443 A-BCFE -45 D 3 E 2 C 82 B 1 C
+seo-title: 프로젝트 전환기 FAQ
+title: 프로젝트 전환기 FAQ
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 프로젝트 변환기 FAQ
+# 프로젝트 전환기 FAQ
 
-## 프로젝트 변환기 FAQ {#topic_8231595303AD403E9322645A63632D57}
+## 프로젝트 전환기 FAQ {#topic_8231595303AD403E9322645A63632D57}
 
 * [알려진 전환 문제](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
 * [전환 FAQ](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## 알려진 전환 문제 {#section_39C922A58B2E49C9877B363042801361}
 
 | 문제 | 설명 |
 |--- |--- |
-| 분류가 있는 분 세부기간 또는 열 | 분 세부기간에 분류가 적용되어 있거나 분 세부기간을 열에 있는 경우, 프로젝트를 분석 작업 공간으로 변환할 수 없습니다. 해결 방법은 분 단위로 분류 세부기간을 제거하고 열에서 제거한 다음 프로젝트를 전환하는 것입니다. 그런 다음 분석 작업 공간의 분 세부기간에 분류를 적용할 수 있습니다. |
-| 열 세그먼트와 함께 사용되는 내부 계산된 지표 | 내부 계산된 지표를 열 세그먼트와 함께 사용하는 경우, 프로젝트를 분석 작업 공간으로 변환할 수 없습니다. 이 문제를 해결하려면 변환하기 전에 프로젝트에서 내부 계산된 지표를 제거한 다음 분석 작업 공간에 다시 추가하십시오. |
+| 분별 세부기간(분류 또는 열) | 분 세부기간에 적용된 분류가 있거나 분 세부기간이 열에 있는 경우 프로젝트를 분석 작업 공간으로 변환할 수 없습니다.  세부 단위로 분류를 제거하고 열에서 제거한 다음 프로젝트를 변환하는 것이 해결 방법입니다. 그런 다음 분석 작업 공간에서 분단위로 분류를 적용할 수 있습니다. |
+| 열 세그먼트와 함께 사용되는 내부 계산된 지표 | 열 세그먼트와 함께 내부 계산된 지표를 사용하는 경우 프로젝트를 분석 작업 공간으로 변환할 수 없습니다. 이 문제를 해결하려면 전환 전에 프로젝트에서 내부 계산된 지표를 제거한 다음 분석 작업 공간에서 다시 추가하십시오. |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## 전환 FAQ {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Analysis Workspace에서 Ad Hoc Analysis 기능이 지원되지 않습니까?</b> </p> </td> 
-   <td colname="col2"> <p>A: 사이트 분석 보고서는 Analysis Workspace에서 지원되지 않습니다. 또한 애드혹 분석과 작업 영역의 다른 시각화 간에는 약간의 차이가 있습니다. 자세한 내용은 아래 질문을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>A: 사이트 분석 보고서는 Analysis Workspace에서 지원되지 않습니다. 또한 애드혹 분석과 작업 공간의 다른 시각화 간에는 약간의 차이점이 있습니다. 자세한 내용은 아래 질문을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 표 설정이 어떻게 변환됩니까?</b> </p> </td> 
@@ -95,7 +95,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>글로벌 데이터 설정으로 인해 동일한 프로젝트를 두 번 내보내어 다르게 동작할 수 있습니다. </p> 
     <ul id="ul_E3827883DD8045FAAB359D7E85E3EEFA"> 
      <li id="li_1056CA4813C44638BEB070228AE6914C"><b>반복 인스턴스 카운트.</b> 내보낼 때 적용된 설정이 어떤 설정이든 간에 Analysis Workspace의 내보낸 프로젝트에 적용됩니다. </li> 
-     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>데이터 소스.</b> Analysis Workspace에서 데이터 소스를 포함하여 분석 데이터가 모두 표시됩니다. </li> 
+     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>Data Sources.</b> Analysis Workspace에서 데이터 소스를 포함하여 분석 데이터가 모두 표시됩니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
