@@ -7,7 +7,7 @@ title: 세그먼트 관리
 topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 ## 세그먼트 추가 또는 편집 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
->세그먼트를 추가하거나 편집하려면 리포트 빌더 세그먼트 인터페이스에서 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
+> [!NOTE] 세그먼트를 추가하거나 편집하려면 리포트 빌더 세그먼트 인터페이스에서 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
 
 1. 요청 마법사 1단계의 세그먼트 패널에서 **[!UICONTROL 추가를 클릭합니다]**.
 1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)를 참조하십시오.
@@ -63,9 +61,7 @@ Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 또는 Data Warehouse�
 
 1. 적용할 세그먼트를 선택합니다.
 
->[!NOTE]
->
->관리자이든 관리자가 아니든, 리포트 빌더에서는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트만 볼 수 있습니다. (마케팅 Reports &amp; Analytics 사용자 인터페이스에서 관리자는 조직의 모든 세그먼트를 볼 수 있습니다.)
+> [!NOTE] 관리자이든 관리자가 아니든, 리포트 빌더에서는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트만 볼 수 있습니다. (마케팅 Reports &amp; Analytics 사용자 인터페이스에서 관리자는 조직의 모든 세그먼트를 볼 수 있습니다.)
 
 ## 세그먼트 필터링 {#section_376E986D3E684999A7CDB08E53854159}
 
