@@ -2,18 +2,18 @@
 description: 보고서 세트 ID를 자동으로 선택하도록 .js 파일을 구성할 수 있습니다.
 keywords: Analytics 구현
 seo-description: 보고서 세트 ID를 자동으로 선택하도록 .js 파일을 구성할 수 있습니다.
-seo-title: 보고서 세트 ID - 동적 계정
+seo-title: 보고서 세트 ID - 다이내믹 계정
 solution: Analytics
-title: 보고서 세트 ID - 동적 계정
+title: 보고서 세트 ID - 다이내믹 계정
 topic: 개발자 및 구현
-uuid: 763 A 9741-309 D -4795-8819-6543866047 D 5
-translation-type: tm+mt
+uuid: 763a9741-309d-4795-8819-6543866047d5
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 보고서 세트 ID - 동적 계정
+# 보고서 세트 ID - 다이내믹 계정
 
 보고서 세트 ID를 자동으로 선택하도록 .js 파일을 구성할 수 있습니다. .js 파일은 URL을 기반으로 이미지 요청을 자동으로 보고서 세트에 보냅니다. 예를 들어 URL이 `www.mysite.com`인 경우 이미지 요청은 보고서 세트 A로 자동 전송됩니다. URL이 `www.mysite1.com`인 경우에는 세트 B로 이미지 요청이 자동 전송됩니다.
 
@@ -62,11 +62,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"`
 
-The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. 규칙이 여러 개면 세미콜론으로 구분하십시오.
+코드는 먼저 `qa.client.com`이 호스트/도메인 이름 내에 있는지 확인하여 판단합니다. 있는 경우 보고서 세트 `devreportsuite1`이 선택되고 비교가 중단됩니다. 규칙이 여러 개면 세미콜론으로 구분하십시오.
 
 ## 기본 보고서 세트 {#section_0360D724929348B0B211708B5BA15647}
 
-`s_account` 이 변수는 먼저 설정할 수 있으며 지정된 문자열을 찾을 수 없는 경우 기본값으로 작동합니다. 아래는 한 예입니다.
+`s_account` 변수는 맨 먼저 설정할 수 있고, 지정된 문자열을 찾을 수 없는 경우 기본값으로 작동합니다. 아래는 한 예입니다.
 
 ```javascript
 var s_account="defaultreportsuiteid" 
@@ -74,4 +74,4 @@ s.dynamicAccountSelection=true
 s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-In the case above, if the host/domain name did not contain either `qa.client.com` or `client.com`, the report suite *defaultreportsuiteid* would be used.
+위의 경우 호스트/도메인 이름에 `qa.client.com`이나 `client.com`이 들어 있지 않았다면 보고서 세트 *defaultreportsuiteid*&#x200B;가 사용됩니다.
