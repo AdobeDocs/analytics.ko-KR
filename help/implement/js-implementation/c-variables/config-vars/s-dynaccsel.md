@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,17 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  변수를 사용하면 각 페이지의 URL을 기반으로 보고서 세트를 동적으로 선택할 수 있습니다.
 
->[!NOTE]
->
->`dynamicAccountSelection` 은 사용자 지정 링크 추적 시 작동하지 않습니다.
+> [!NOTE] `dynamicAccountSelection` 은 사용자 지정 링크 추적 시 작동하지 않습니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | N/A | N/A | N/A | False |
 
->[!NOTE]
->
->Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
+> [!NOTE]`dynamicAccountList` 변수가 선언되지 않았거나 'false'로 설정된 경우 `dynamicAccountMatch`와 `dynamicAccountSelection`가 모두 무시됩니다.
 
 ## 구문 및 가능한 값
 
@@ -32,7 +28,7 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 s.dynamicAccountSelection=[true|false]
 ```
 
-'true'와 'false'만 *`dynamicAccountSelection`*.
+'true'와 'false'만 *`dynamicAccountSelection`* 값으로 사용할 수 있습니다.
 
 ## 예
 
@@ -50,6 +46,6 @@ s.dynamicAccountSelection=false
 
 ## 함정, 질문 및 팁
 
-* 다이내믹 계정 선택은 [JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* [JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)에서는 동적 계정 선택을 지원하지 않습니다.
 
 * 각 페이지의 데이터를 받는 보고서 세트를 결정하려면 항상 [!DNL DigitalPulse Debugger]를 사용하십시오.
