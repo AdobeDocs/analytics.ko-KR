@@ -2,18 +2,18 @@
 description: '"사용자는 캠페인을 통해 사이트로 클릭하여 들어온 후, 사이트 상의 어느 곳으로 갑니까?"라는 질문에 대답하는 데 유용합니다.'
 keywords: Analytics 구현
 seo-description: '"사용자는 캠페인을 통해 사이트로 클릭하여 들어온 후, 사이트 상의 어느 곳으로 갑니까?"라는 질문에 대답하는 데 유용합니다.'
-seo-title: 캠페인 또는 추적 코드별 경로 지정
+seo-title: 캠페인 또는 추적 코드에 의한 경로 지정
 solution: Analytics
-title: 캠페인 또는 추적 코드별 경로 지정
+title: 캠페인 또는 추적 코드에 의한 경로 지정
 topic: 개발자 및 구현
-uuid: EB 6 E 3484-1 B 40-4 EC 6-8017-AC 1003 CDF 636
-translation-type: tm+mt
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 캠페인 또는 추적 코드별 경로 지정
+# 캠페인 또는 추적 코드에 의한 경로 지정
 
 "사용자는 캠페인을 통해 사이트로 클릭하여 들어온 후, 사이트 상의 어느 곳으로 갑니까?"라는 질문에 대답하는 데 유용합니다.
 
