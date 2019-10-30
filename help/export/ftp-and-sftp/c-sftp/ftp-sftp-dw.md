@@ -1,28 +1,28 @@
 ---
-description: Adobe는 Sftp 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
-keywords: ftp; Sftp
-seo-description: Adobe는 Sftp 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
-seo-title: SFTP 서버로 데이터 웨어하우스 요청 보내기
+description: Adobe는 SFTP 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
+keywords: ftp;sftp
+seo-description: Adobe는 SFTP 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
+seo-title: SFTP 서버로 Data Warehouse 요청 보내기
 solution: Analytics
-title: SFTP 서버로 데이터 웨어하우스 요청 보내기
-uuid: 393634 A 1-0643-4 D 63-BB 6 E-FB 80 F 1 BA 76 C 1
+title: SFTP 서버로 Data Warehouse 요청 보내기
+uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# SFTP 서버로 데이터 웨어하우스 요청 보내기
+# SFTP 서버로 Data Warehouse 요청 보내기
 
-Adobe는 Sftp 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
+Adobe는 SFTP 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
 
 다음 작업이 완료되었는지 확인합니다.
 
-Adobe는 다음을 충족하는 경우 Sftp 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
+Adobe는 다음을 충족하는 경우 SFTP 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
 
-* [!DNL sftp://] 프로토콜은 호스트 필드에 지정되며 (예: [!DNL sftp://ftp.example.com]) 데이터 웨어하우스 보고서를 요청할 때 포트 22만 사용됩니다.
+* [!DNL sftp://] 프로토콜은 호스트 필드(예: [!DNL sftp://ftp.example.com])에 지정되며 데이터 웨어하우스 보고서를 요청할 때 포트 22만 사용됩니다.
 
-   You can also use the [!DNL sftp+norename://] option, as described below.
+   아래 설명된 대로 이 [!DNL sftp+norename://] 옵션을 사용할 수도 있습니다.
 
 * Adobe's [!DNL authorized_keys] file is in the [!DNL .ssh] directory within the root directory of the user you log in with
 
@@ -36,7 +36,7 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 1. After this file is obtained, log in to the FTP site under the same credentials that are used for the [!DNL Data Warehouse] request.
 1. In the root directory, navigate to the folder named [!DNL .ssh] (if one does not exist, create one) and place the [!DNL authorized_keys] file there.
 
-1. [!DNL Data Warehouse] 요청 관리자로 이동합니다. 원하는 대로 요청을 구성하고 **[!UICONTROL 고급 배달 선택 사항을 클릭합니다]**.
+1. Go to the [!DNL Data Warehouse] request manager. 원하는 대로 요청을 구성하고 **[!UICONTROL 고급 배달 선택 사항을 클릭합니다]**.
 
 1. In the pop-up window, click **[!UICONTROL FTP]**, then specify the ftp site (including the [!DNL sftp://] protocol, such as [!DNL sftp://ftp.omniture.com]) via port 22.
 
@@ -48,4 +48,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 sftp PUT 명령은 .part 확장명이 있는 임시 파일을 지정된 디렉토리에 저장합니다. 업로드가 완료되면 파일 확장명이 최종 확장명으로 이름이 바뀝니다. 이 시점에서 파일을 사용할 수 있습니다.
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. 이 방법은 Sftp 서버가 업로드 중에 파일 이름을 자동으로 처리하며 업로드가 완료되기 전에 파일이 처리될 가능성이 없을 때 적합합니다.
+Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. 이 방법은 SFTP 서버가 업로드 도중 파일 이름 변경을 자동으로 처리할 때 적절하며 업로드가 완료되기 전에 파일이 처리될 가능성이 없습니다.
