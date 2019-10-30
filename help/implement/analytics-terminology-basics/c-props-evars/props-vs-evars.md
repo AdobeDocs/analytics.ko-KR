@@ -7,8 +7,8 @@ solution: Analytics
 title: Prop과 eVar 비교
 topic: 개발자 및 구현
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Experience Cloud에서 사용할 수 있는 변수에는 몇 가지 유형이 있습니다. 흔히 사용되는 Prop 및 eVar의 두 유형을 사용하면 조직에서 표준적인 기성 보고서로는 제공되지 않는 사용자 지정 차원에 대한 사이트 보고서를 만들 수 있습니다.
 
-지정되는 변수와 그 위치를 결정하려면 Prop과 eVar 기능 사이의 차이점을 이해하는 것이 중요합니다. 이러한 차이점을 이해하면 조직에서 사용하기에 가장 좋은 유형을 결정할 수 있습니다. 
+지정되는 변수와 그 위치를 결정하려면 Prop과 eVar 기능 사이의 차이점을 이해하는 것이 중요합니다. 이러한 차이점을 이해하면 조직에서 사용하기에 가장 좋은 유형을 결정할 수 있습니다.
 
 **Prop과 eVar 비교**
 
