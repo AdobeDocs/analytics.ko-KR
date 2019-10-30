@@ -1,29 +1,29 @@
 ---
 description: 모바일 장치는 다른 방문자들처럼 비콘을 통해 추적되므로 대부분의 보고서가 사용 가능하며 정확합니다.
-keywords: Analytics 구현; 보고서; 모바일 프로토콜; 검색 엔진; 검색 키워드; 참조 도메인; referrers; 지리 특성; 도메인; 연결 유형; 시간대; 쿠키; Java; Javascript; 모니터 색상; 모니터 해상도; 브라우저 너비; 높이; Netscape 플러그인
+keywords: Analytics 구현;보고서;모바일 프로토콜;검색 엔진;검색 키워드;참조 도메인;레퍼러;geosegmentation;도메인;연결 유형;표준 시간대;쿠키;java;javascript;모니터 색상;모니터 해상도;브라우저 너비;높이;netscape 플러그인
 seo-description: 모바일 장치는 다른 방문자들처럼 비콘을 통해 추적되므로 대부분의 보고서가 사용 가능하며 정확합니다.
-seo-title: 모바일 프로토콜을 사용하는 장치에 대한 보고서
+seo-title: 모바일 프로토콜을 사용한 장치 보고서
 solution: Analytics
-title: 모바일 프로토콜을 사용하는 장치에 대한 보고서
+title: 모바일 프로토콜을 사용한 장치 보고서
 topic: 개발자 및 구현
-uuid: 4 AAB 125 D-C 131-4402-9 BC 8-1 C 7 FD 1 BB 2 BEE
-translation-type: tm+mt
+uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 모바일 프로토콜을 사용하는 장치에 대한 보고서
+# 모바일 프로토콜을 사용한 장치 보고서
 
 모바일 장치는 다른 방문자들처럼 비콘을 통해 추적되므로 대부분의 보고서가 사용 가능하며 정확합니다.
 
-[!DNL VISTA]는 모바일 및 표준 방법 모두에서 모은 데이터를 변경하는 데 사용할 수 있습니다. 모든 [!UICONTROL 사용자 지정 ][!UICONTROL 통찰력]([!UICONTROL prop] 및 [!UICONTROL eVar]), [!UICONTROL 이벤트], [!UICONTROL 사이트 트래픽], 그리고[!UICONTROL 경로 지정] 보고서가 지원됩니다.
+[!DNL VISTA]는 모바일 및 표준 방법 모두에서 모은 데이터를 변경하는 데 사용할 수 있습니다. 모든 [!UICONTROL 사용자 지정 ][!UICONTROL 통찰력]([!UICONTROL prop] 및 [!UICONTROL eVar]), [!UICONTROL 이벤트], [!UICONTROL 사이트 트래픽], 그리고 [!UICONTROL 경로 지정] 보고서가 지원됩니다.
 
 ## 검색 엔진, 검색 키워드, 참조 도메인 및 레퍼러 {#section_184D2EF9D906443FBDED04A09CDC50E9}
 
 이 보고서들은 모바일 페이지에서 보낸 이미지 요청에서 레퍼러를 채우는 경우에만 데이터를 가집니다. 레퍼러는 "JavaScript 없이 구현" 백서에서 소개한 바와 같이 "r" 쿼리 문자열 매개 변수를 통해 채워집니다. 레퍼러 정보도 수동으로 이미지 요청에 전달해야 합니다.
 
-‘r’ 쿼리 문자열 매개 변수는 레퍼러의 프로토콜을 반드시 포함해야 합니다. 프로토콜이 빠지면 레퍼러 보고서가 작성되지 않습니다. `r=https://msn.com``r=msn.com`예를 들어, Not.
+‘r’ 쿼리 문자열 매개 변수는 레퍼러의 프로토콜을 반드시 포함해야 합니다. 프로토콜이 빠지면 레퍼러 보고서가 작성되지 않습니다. 예를 들면 `r=msn.com`이 아닌 `r=https://msn.com`을 사용합니다.
 
 ## 지리 특성 및 도메인 {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
