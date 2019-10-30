@@ -2,18 +2,18 @@
 description: 서버 스크립팅이나 코드에서 채워지는 변수는 값을 방해하는 인용 부호를 출력할 수 없습니다.
 keywords: Analytics 구현
 seo-description: 서버 스크립팅이나 코드에서 채워지는 변수는 값을 방해하는 인용 부호를 출력할 수 없습니다.
-seo-title: 변수 및 값
+seo-title: 변수와 값
 solution: Analytics
-title: 변수 및 값
+title: 변수와 값
 topic: 개발자 및 구현
-uuid: 2 FF 4857 A -9451-4794-9146-F 417 ABD 1 D 1 BA
-translation-type: tm+mt
+uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 변수 및 값
+# 변수와 값
 
 서버 스크립팅이나 코드에서 채워지는 변수는 값을 방해하는 인용 부호를 출력할 수 없습니다.
 
@@ -28,7 +28,7 @@ s.pageName='Company's Information'
 
 products 변수에서는 $, ™, ®, © 또는 쉼표(,)를 사용하지 마십시오. 일반적으로, 이 문자들은 [!DNL Analytics] 변수에서 유용하지 않으며, 필드를 해석하거나 내보내는 기능을 방해할 수 있습니다. 문자를 처음 127자의 ASCII 문자로 제한하는 것이 좋습니다.
 
-Ensure that the events variable is populated with an appropriate value ( [!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen], or event1-event5) whenever *`products`* is populated. 모든 [!DNL Analytics] 변수와 함수의 대소문자가 아래에서 보듯이 유지되는지 확인하십시오.
+*`products`*&#x200B;가 채워질 때마다 events 변수가 적절한 값( [!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen] 또는 event1-event5)으로 채워지는지 확인합니다. 모든 [!DNL Analytics] 변수와 함수의 대소문자가 아래에서 보듯이 유지되는지 확인하십시오.
 
 ```js
 s.pageName 
@@ -50,6 +50,6 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 >[!NOTE]
 >
->여러 페이지 레코드는 보고서 내에서 결합할 수 없습니다.
+>여러 개의 페이지 레코드를 보고서 내에서 결합할 수 없습니다.
 
 링크가 [!UICONTROL 사용자 지정 링크] 보고서로 보고되는지 확인하십시오. [!UICONTROL tl] 함수에 올바른 매개 변수를 전달했는지 확인하십시오. [!UICONTROL 사용자 지정 링크]에 대한 자세한 내용은 [링크 추적](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
