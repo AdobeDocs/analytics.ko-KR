@@ -7,7 +7,7 @@ title: 가장 자주 사용하는 필터링
 topic: Report Builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
