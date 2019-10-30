@@ -2,19 +2,19 @@
 description: s.products 변수는 데이터 수집에서 사용되는 문법적으로 가장 복잡한 변수일 수 있습니다.
 keywords: Analytics 구현
 seo-description: s.products 변수는 데이터 수집에서 사용되는 문법적으로 가장 복잡한 변수일 수 있습니다.
-seo-title: 제품 변수의 일반적인 실수
+seo-title: Products 변수에서의 일반적인 실수
 solution: Analytics
 subtopic: 문제 해결
-title: 제품 변수의 일반적인 실수
+title: Products 변수에서의 일반적인 실수
 topic: 개발자 및 구현
-uuid: 94075 C 56-37 C 3-44 de-BF 37-1 DFD 228 C 6665
-translation-type: tm+mt
+uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 제품 변수의 일반적인 실수
+# Products 변수에서의 일반적인 실수
 
 s.products 변수는 데이터 수집에서 사용되는 문법적으로 가장 복잡한 변수일 수 있습니다.
 
