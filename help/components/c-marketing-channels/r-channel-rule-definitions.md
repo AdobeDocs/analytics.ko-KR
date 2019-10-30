@@ -5,10 +5,10 @@ seo-title: 마케팅 채널 처리 규칙 - 정의
 solution: Analytics
 subtopic: 마케팅 채널
 title: 마케팅 채널 처리 규칙 - 정의
-topic: Reports & Analytics
-uuid: 4 e 71 FF 5 B -912 A -4 DC 0-9 C 22-4 BE 74 C 5 E 3 CC 0
+topic: Reports and Analytics
+uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,11 +35,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr>
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud 및 Advertising Analytics 통합에서 사용하는 기본 추적 코드입니다. 이러한 통합 중 하나가 활성화되면 추적 코드 접두사를 사용하여 Advertising Cloud 특정 채널을 식별할 수 있습니다. " amo ID "사용은 검색에 대해" al ", 표시에 대해" ac "또는 social 의" ao "로 시작합니다. 마케팅 채널에서 AMO ID를 사용하는 경우 클릭/비용/노출 지표가 올바른 채널에 귀속될 수 있습니다 (구성되지 않은 경우 이러한 지표는 직접이나 없음). </p> </td> 
+   <td colname="col2"> <p>Advertising Cloud 및 Advertising Analytics 통합에서 사용하는 기본 추적 코드. 이러한 통합 중 하나가 활성화되면 추적 코드 접두사를 사용하여 Advertising Cloud 특정 채널을 식별할 수 있습니다. "AMO ID"는 검색의 경우 "AL", 표시의 경우 "AC", Social의 경우 "AO"로 시작합니다. AMO ID가 마케팅 채널에서 사용될 때 클릭/비용/노출 수 지표는 올바른 채널로 귀속될 수 있습니다(구성하지 않으면 이러한 지표는 직접 또는 없음으로 표시됨). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ED ID </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud에서 사용하는 보조 추적 코드입니다. 이 추적 코드의 기본 목적은 데이터를 다시 Ad Cloud로 보내는 키 역할을 합니다. 하지만 두 개의 별도 마케팅 채널로 표시하려는 경우 디스플레이 클릭스루 횟수와 표시 뷰스루를 식별하는 데에도 사용할 수 있습니다. 이렇게 하려면 "AMO EF ID" 에 대한 마케팅 채널 논리를 다음으로 설정하면 됩니다. "d "는 클릭스루 또는" AMO EF ID "로 끝납니다. i "를 클릭합니다. 디스플레이를 두 개의 채널로 분할하지 않으려면 AMO ID 차원을 대신 사용하십시오. </p> </td> 
+   <td colname="col2"> <p>Advertising Cloud에서 사용하는 보조 추적 코드. 이 추적 코드의 주요 목적은 데이터를 다시 Ad Cloud로 전송하는 키 역할을 하는 것입니다. 또한 두 개의 별도 마케팅 채널로 보려는 경우 디스플레이 ClickThrough와 디스플레이 ViewThrough를 식별하는 데에도 사용할 수 있습니다. 이 작업은 "AMO EF ID"에 대한 마케팅 채널 논리가 디스플레이 클릭스루 횟수에 대해 ":d"로 종료되거나 "AMO EF ID"가 디스플레이 뷰스루의 경우 ":i"로 끝나게 되면 수행할 수 있습니다. 표시를 두 개의 채널로 분할하지 않으려면 AMO ID 차원을 대신 사용하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>전환 변수 </p> </td> 
@@ -51,7 +51,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
       <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol">존재하지 않음</span>: 히트 속성이 요청에 존재하지 않음을 나타냅니다. 예를 들어 추천 도메인에서 사용자가 URL을 입력하거나 책갈피를 클릭할 경우, 추천 도메인 속성이 존재하지 않습니다. </p> </li> 
       <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> 비어 있음</span>: eVar 또는 쿼리 문자열 매개 변수 같은 히트 속성이 존재하지만 히트 속성과 연관된 값은 없다는 것을 나타냅니다. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"></span>포함하지 않음: 예를 들어 참조 도메인에 특정 값이 포함되지 않음을 지정할 수 있습니다 (선택 <span class="term"> 항목을 사용하는 것과 반대 </span>). </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> 포함하지 않음 </span>:예를 들어, 참조 도메인에 특정 값이 포함되지 않도록 지정할 수 있습니다(포함 선택 항목 사용 대신). <span class="term"></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>레퍼러가 내부 URL 필터를 일치시키지 않음 </p> </td> 
-   <td colname="col2"> <p>참조하는 URL이 관리 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하지 않습니다. 이 설정을 <span class="term"> 페이지 URL </span> 및 <span class="term"> 존재함 - </span> 보고서의 식별된 채널 <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> 없음 </a> 섹션에 도착하는 방문이 없도록 다목적 캐치 (catch-all) 규칙을 설정합니다. </p> </td> 
+   <td colname="col2"> <p>참조하는 URL이 관리 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하지 않습니다. 이 설정을 <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>내부 URL 필터와 일치하는 히트 무시 </p> </td> 
@@ -84,7 +84,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 </p> </td> 
-   <td colname="col2"> <p>Adobe의 웹 비콘을 사용하여 태그를 추가하는 사이트 웹 페이지의 페이지 이름. 이 값은 <span class="varname"> s.pageName </span>. Examples include <span class="varname"> Home Page </span> and <span class="varname"> About Us </span>. </p> </td> 
+   <td colname="col2"> <p>Adobe의 웹 비콘을 사용하여 태그되는 사이트의 웹 페이지의 페이지 이름. This value is equivalent to <span class="varname"> s.pageName </span>. 예로는 홈 <span class="varname"> 페이지 </span> 및 <span class="varname"> 정보 등이 </span>있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 도메인 </p> </td> 
@@ -137,12 +137,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   <tr> 
    <td colname="col1"> <p>검색 엔진 + 키워드 </p> </td> 
    <td colname="col2"> <p>검색 엔진을 고유하게 식별하는 검색 키워드 및 검색 엔진의 연결. 예를 들어 computer라는 단어를 검색하는 경우, 검색 엔진과 키워드는 다음과 같이 식별됩니다. </p> 
-    <code>검색 추적 코드 = " &lt; search_ type &gt;: &lt; 검색 엔진 &gt;: &lt; search keyword &gt; "여기서 search_ type =" n "또는" p ", search_ engine =" google "및 search_ keyword =" computer " </code>
-  <p><b>참고:</b> n = 자연어; p = paid </p> </td> 
+    <code>
+      Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
+    </code> <p><b></b> 참고:n = natural;p = 유료 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>채널의 값을 다음으로 설정 </p> </td> 
-   <td colname="col2"> <p>어떤 마케팅 채널이 방문자를 사이트로 유도하는지를 파악하는 것 외에, 방문자의 사이트 활동에서 크레디트를 유발하는 배너 광고, 검색 키워드 또는 채널 내 이메일 캠페인을 파악할 수 있습니다. 이 ID는 채널과 함께 저장되는 채널 값입니다. 종종 이 값은 랜딩 페이지 또는 참조 URL에 삽입되는 캠페인 ID입니다. 또한 검색 엔진 및 검색 키워드 조합이거나 특정 채널에서 온 방문자를 가장 올바르게 식별하는 참조 URL일 수도 있습니다. </p> </td> 
+   <td colname="col2"> <p>방문자를 사이트로 유도하는 마케팅 채널을 파악할 수 있을 뿐만 아니라, 방문자의 사이트 활동에 대한 크레딧을 얻는 채널 내의 배너 광고, 검색 키워드 또는 이메일 캠페인을 파악할 수 있습니다. 이 ID는 채널과 함께 저장되는 채널 값입니다. 종종 이 값은 랜딩 페이지 또는 참조 URL에 삽입되는 캠페인 ID입니다. 또한 검색 엔진 및 검색 키워드 조합이거나 특정 채널에서 온 방문자를 가장 올바르게 식별하는 참조 URL일 수도 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
