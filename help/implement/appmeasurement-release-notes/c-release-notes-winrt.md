@@ -7,7 +7,7 @@ subtopic: 릴리스 노트
 title: WinRT for Windows 8
 topic: 개발자 및 구현
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+모바일 라이브러리는 [!DNL Developer Connection]에서 [다운로드](https://marketing.adobe.com/developer/ko_KR/get-started/mobile/c-measuring-mobile-applications)할 수 있습니다.
 
 >[!NOTE]
 >
->The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. 이 SDK에 대한 추가 개발 예정은 없습니다.
+>[!DNL Windows] 8용 [!DNL WinRT] SDK가 [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK로 대체되었습니다. 이 SDK에 대한 추가 개발 예정은 없습니다.
 
 ## 버전 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 릴리스 날짜: **2013년 3월 21일**
 
-* `ADMS_Measurement.visitorID` 이제 기본값으로 미리 채워집니다.
+* `ADMS_Measurement.visitorID`는 이제 기본값으로 미리 채워집니다.
 * 장치 정보 검색 문제를 해결했습니다.
 
 ## 버전 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
@@ -69,14 +69,14 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 릴리스 날짜: **2012년 11월**
 
 * 이제 C#, C++ 및 HTML5/WinJS 플랫폼에 대해 화면 해상도가 정확히 수집됩니다.
-* `ADMS_Churn` 이제 클래스가 내부입니다. 응용 프로그램 라이프사이클 추적에 대한 우수 사례를 사용하려면 다음 호출을 사용하십시오.
+* `ADMS_Churn` 클래스는 이제 내부용입니다. 응용 프로그램 라이프사이클 추적에 대한 우수 사례를 사용하려면 다음 호출을 사용하십시오.
 
    ```
    public void ADMS_Measurement.StartSession(); 
    public void ADMS_Measurement.StopSession();
    ```
 
-* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. 등록된 세션 길이가 최대값을 초과할 경우 최대 세션 길이가 전송됩니다. Default `maxSessionLength` is 3600 (seconds).
+* 이전 사용자 세션에 대한 최대 세션 길이를 설정할 수 있도록 `ADMS_Measurement`에 `public double maxSessionLength` 변수가 추가되었습니다. 등록된 세션 길이가 최대값을 초과할 경우 최대 세션 길이가 전송됩니다. 기본 `maxSessionLength`는 3600(초)입니다.
 * 앱 시작이 새 세션으로 간주하기 전 앱이 시작되는 사이 경과해야 하는 시간(초)을 지정할 수 있게 해주는 `lifecycleSessionTimeout` 구성 변수가 추가되었습니다.
 * 라이프사이클 지표에 새로운 이전 세션 길이 지표가 추가되었습니다.
 * 명확성을 위해 TrackingHelper를 업데이트했습니다.
