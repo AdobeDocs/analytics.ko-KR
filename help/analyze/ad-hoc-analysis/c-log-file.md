@@ -5,7 +5,7 @@ seo-title: 로그 파일
 solution: Analytics
 title: 로그 파일
 topic: Ad Hoc Analysis
-uuid: 1 E 5 C 0 E 70-928 B -45 DE -9 F 5 B -0 C 562909 Baed
+uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -18,12 +18,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 로그 파일을 저장하고 보는 빠른 방법
 
-1. **[!UICONTROL 도움말]** &gt; 애드혹 분석 **[!UICONTROL 정보를 클릭합니다.]**
+1. Click **[!UICONTROL Help]** &gt; **[!UICONTROL About Ad Hoc Analysis]**
 
 1. **[!UICONTROL Ad Hoc Analysis]로고를 클릭합니다.**
 1. **[!UICONTROL 로그 파일 저장을 클릭합니다]**.
 
 >[!NOTE]
 >
->이 절차를 사용하여 저장하는 로그는 현재 세션에 사용됩니다.
+>이 절차를 사용하여 저장하는 로그는 현재 세션용입니다.
 
