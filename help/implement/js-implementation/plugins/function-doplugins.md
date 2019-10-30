@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 플러그인
 title: doPlugins 함수
 topic: 개발자 및 구현
-uuid: 367 D 5550-F 8 E 2-477 D -8681-18 AE 9665 D 699
-translation-type: tm+mt
+uuid: 367d5550-f8e2-477d-8681-18ae9665d699
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 JavaScript 플러그인은 대개 붙여넣는 코드에서 t() 함수가 호출될 때 실행되는 doPlugins 함수에 의해 호출됩니다.
 
-따라서 `doPlugins` 함수에 변수를 설정하면 HTML 페이지에 설정한 변수를 덮어쓸 수 있습니다. `doPlugins` 함수가 호출되지 않는 유일한 시간은 *`usePlugins`* 변수가 설정되어 `false`있을 때입니다.
+따라서 `doPlugins` 함수에 변수를 설정하면 HTML 페이지에 설정한 변수를 덮어쓸 수 있습니다. `doPlugins` 함수는 *`usePlugins`* 변수가 `false`로 설정된 경우에만 호출됩니다.
 
 **코드 예**
 
-The `doPlugins` function is typically called `s_doPlugins`. 그러나 상황에 따라(단일 페이지에 두 개 이상의 [!DNL Analytics] 코드 버전이 나타날 수 있는 경우) `doPlugins` 함수의 이름을 변경할 수도 있습니다. 충돌을 방지하기 위해 표준 `doPlugins` 함수의 이름을 변경해야 하는 경우는 아래 예와 같이 `doPlugins`에 올바른 함수 이름을 지정하십시오.
+일반적으로 `doPlugins` 함수를 `s_doPlugins`라고 합니다. 그러나 상황에 따라(단일 페이지에 두 개 이상의 [!DNL Analytics] 코드 버전이 나타날 수 있는 경우) `doPlugins` 함수의 이름을 변경할 수도 있습니다. 충돌을 방지하기 위해 표준 `doPlugins` 함수의 이름을 변경해야 하는 경우는 아래 예와 같이 `doPlugins`에 올바른 함수 이름을 지정하십시오.
 
 ```js
 /* Plugin Config */ 
