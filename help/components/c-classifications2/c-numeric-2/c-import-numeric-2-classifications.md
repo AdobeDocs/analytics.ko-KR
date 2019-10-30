@@ -8,7 +8,7 @@ title: 숫자 2 분류 가져오기
 topic: 관리 도구
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
