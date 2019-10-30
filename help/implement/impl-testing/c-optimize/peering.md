@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 대등 접속
 topic: 개발자 및 구현
-uuid: B 3 D 34369-8 CB 8-4 F 12-8 B 58-847132 C 43881
-translation-type: tm+mt
+uuid: b3d34369-8cb8-4f12-8b58-847132c43881
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
