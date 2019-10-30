@@ -5,9 +5,9 @@ seo-title: 이전 섹션 흐름
 solution: Analytics
 title: 이전 섹션 흐름
 topic: 보고서
-uuid: 7 BE 8 D 3 E 5-4936-40 A 0-845 C -1617208479 D 6
+uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
