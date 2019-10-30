@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
 topic: 개발자 및 구현
-uuid: 8 D 526 E 4 C -6 D 7 A -4119-9434-D 7 CE 4 FBB 7577
-translation-type: tm+mt
+uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
