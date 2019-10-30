@@ -5,7 +5,7 @@ seo-title: Power BI에 게시 - 개요
 title: Power BI에 게시 - 개요
 uuid: ad68817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->통합 문서에 매크로가 포함되어 있으면 "통합 문서에 서식이 지정된 모든 테이블을 Power BI 데이터 집합 표로 게시"가 비활성화됩니다.
+> [!NOTE] 통합 문서에 매크로가 포함되어 있으면 "통합 문서에 서식이 지정된 모든 테이블을 Power BI 데이터 집합 표로 게시"가 비활성화됩니다.
 
 전체 통합 문서를 가져오는 대신 통합 문서 내의 모든 형식이 지정된 표의 컨텐츠만 가져올 수 있습니다.
 
