@@ -3,9 +3,9 @@ description: 다음은 Power BI와 함께 Report Builder를 사용할 때 발생
 seo-description: 다음은 Power BI와 함께 Report Builder를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제입니다.
 seo-title: Power BI 통합 문제 해결
 title: Power BI 통합 문제 해결
-uuid: C 1 E 7 E 164-4 BC 6-4513-9332-92 C 53 BE 021 CC
+uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
