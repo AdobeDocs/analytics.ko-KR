@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 플러그인
 title: appendList
 topic: 개발자 및 구현
-uuid: e 923 c 86 c-eaa 6-4 e 17-a 3 a 4-0 e 08 af 886674
-translation-type: tm+mt
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -23,7 +23,7 @@ APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하�
 * 현재 이벤트 변수에 이벤트 추가
 * 목록에 있는 값을 복제하지 않고 목록 변수에 값 추가
 * 페이지 로직을 기반으로 현재 제품 변수에 제품 추가
-* 다음 매개 변수에 값 추가: *`linkTrackVars`* and *`linkTrackEvents`*
+* 다음 매개 변수에 값 추가: *`linkTrackVars`* 및 *`linkTrackEvents`*
 
 **사용 사례 1**
 
@@ -31,7 +31,7 @@ APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>시나리오 </p> </td> 
-   <td colname="col2"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 <span class="term"> event 1 </span> 는 현재 이벤트 변수에 대해 중복되지 않습니다. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에  <span class="term"> event1 </span>을 추가합니다. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>코드 </p> </td> 
@@ -50,7 +50,7 @@ APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>시나리오 </p> </td> 
-   <td colname="col2"> <p>값 <span class="term"> history </span> to the list variable <span class="varname"> prop 1 </span>, with <span class="term"> history </span> and <span class="term"> history </span> considered the same value. </p> <p>s.prop1="Science,History" </p> </td> 
+   <td colname="col2"> <p>값  <span class="term"> history </span>를 목록 변수 <span class="varname"> prop1 </span>에 추가합니다. <span class="term"> history </span> 및 <span class="term"> History </span>는 같은 변수로 간주됩니다. </p> <p>s.prop1="Science,History" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>코드 </p> </td> 
@@ -58,21 +58,21 @@ APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하�
   </tr> 
   <tr> 
    <td colname="col1"> <p>결과 </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> 기록에 이미 내역이 </span> 있으므로 <span class="term"> 내역이 </span> 추가되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> history </span>가 추가되지 않습니다. <span class="term"> History </span>가 이미 목록에 있기 때문입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->다음 지침을 따르면 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+>다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 구현 {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 다음 단계에 따라 APL 플러그인을 구현합니다.
 
 1. 고객 지원 센터 또는 현재 담당 Adobe 컨설턴트에게 플러그인 코드를 요청합니다.
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. 필요에 따라 *`s_doPlugins`* 함수 내에 API 호출을 추가합니다.
 
 코드는 사이트에서 다음과 같이 표시됩니다.
 
