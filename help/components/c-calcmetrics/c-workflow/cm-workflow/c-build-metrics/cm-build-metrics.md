@@ -5,7 +5,7 @@ seo-title: 지표 작성
 title: 지표 작성
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
    <td colname="col3"> <p>제품 호환성은 지표가 <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">현재 데이터</a>와 호환되는지, 완전히 처리된 데이터와 호환되는지 또는 마케팅 채널 보고서와 호환되는지를 보여줍니다(첫 번째 터치 할당). <p>참고: 현재 데이터는 일부 데이터를 지원하지 않습니다. 세그먼트나 함수가 들어 있는 지표는 현재 데이터와 호환하지 않습니다. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> 자세히... </a> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 추가 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 </span> </td> 
    <td colname="col3"> <p>모든 유형의 계산된 지표의 경우, 컨테이너 및 정적 수를 정의에 추가할 수 있습니다. 고급 계산된 지표의 경우 세그먼트 및 함수를 추가할 수도 있습니다. </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">컨테이너는 수학 표현식처럼 작동하고 작업 순서를 결정합니다. 그러므로 컨테이너에 있는 모든 것은 다음 작업 전에 처리됩니다. </li> 
@@ -112,7 +112,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col2"> <p>차원 목록 </p> </td> 
-   <td colname="col3"> <p>세그먼트 빌더에서 "Page = Homepage"와 같은 간단한 세그먼트를 작성하기 위해 계산된 지표 빌더를 종료하지 않고, 페이지에서 끌어서 홈 페이지를 계산된 지표 빌더에서 직접 선택할 수 있습니다. </p> <p>그 결과 세그먼트화된 계산된 지표를 생성할 훨씬 능률적인 워크플로우가 만들어집니다. </p> </td> 
+   <td colname="col3"> <p>세그먼트 빌더에서 간단한 세그먼트를 만들기 위해 계산된 지표 빌더를 종료하지 않고(예: 세그먼트 빌더에서)"Page = Homepage", 페이지에서 드래그하고 계산된 지표 빌더에서 바로 홈 페이지를 선택할 수 있습니다. </p> <p>그 결과 세그먼트화된 계산된 지표를 생성할 훨씬 능률적인 워크플로우가 만들어집니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>지표 목록 </p> </td> 
