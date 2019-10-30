@@ -1,13 +1,13 @@
 ---
 description: HTML 샘플 페이지 내에서 서버가 생성한 이미지 태그의 사용 예시입니다.
-keywords: Analytics 구현; 변수
+keywords: Analytics 구현;변수
 seo-description: HTML 샘플 페이지 내에서 서버가 생성한 이미지 태그의 사용 예시입니다.
 seo-title: 샘플 코드
 solution: Analytics
 title: 샘플 코드
 topic: 개발자 및 구현
-uuid: 47 E 5 E 82 C-CFB 2-4912-919 B -720 B 2 EE 852 BA
-translation-type: tm+mt
+uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
