@@ -5,9 +5,9 @@ seo-title: 롤업 및 글로벌 보고서 세트
 solution: Analytics
 title: 롤업 및 글로벌 보고서 세트
 topic: 관리 도구
-uuid: C 90 B 8 E 38-2 C 95-4318-8165-A 362106 B 6142
+uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
