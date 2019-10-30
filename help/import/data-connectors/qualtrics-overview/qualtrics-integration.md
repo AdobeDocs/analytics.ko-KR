@@ -8,7 +8,7 @@ title: 통합 사용
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 배포가 완료되면 이 통합이 제공하는 추가 기능을 사용할 수 있습니다.
 
->[!NOTE]
->
->Adobe Analytics 보고에서 Qualtrics 응답 데이터를 보려면 24-48시간이 걸릴 수 있습니다.
+> [!NOTE] Adobe Analytics 보고에서 Qualtrics 응답 데이터를 보려면 24-48시간이 걸릴 수 있습니다.
 
 다음은 Adobe Analytics 내에서 이 통합에서 가치를 얻기 위해 수행하는 작업입니다.
 
