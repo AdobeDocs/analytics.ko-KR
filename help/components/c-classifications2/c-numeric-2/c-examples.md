@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 분류
 title: 예
 topic: 관리 도구
-uuid: 0553 D 07 F -87 C 1-4372-90 CE -7118 A 6393 A 01
+uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,7 +45,7 @@ In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~
 
 보고서: 제품
 
-| 제품 | Revenue | MyCost |
+| 제품 | 매출  | MyCost |
 |---|---|---|
 | Product1 | $10,000.23 | $2000.05 |
 | Product2 | $9,000.04 | $2700.01 |
@@ -70,7 +70,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-2월에 Product1의 사용자 비용은 매출의 15%까지 감소했으며 Product2는 매출의 25%까지 감소했습니다.
+2월에 Product1의 사용자 비용은 매출의 15%로 감소했고 Product2는 매출의 25%로 감소했습니다.
 
 ## 결과 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -80,7 +80,7 @@ c_example_2__rate.xml
 
 보고서: 제품
 
-| 제품 | Revenue | MyCost |
+| 제품 | 매출  | MyCost |
 |---|---|---|
 | Product1 | $10,000.23 | $2000.05 |
 | Product2 | $9,000.04 | $2700.01 |
@@ -89,7 +89,7 @@ c_example_2__rate.xml
 
 보고서: 제품
 
-| 제품 | Revenue | MyCost |
+| 제품 | 매출  | MyCost |
 |---|---|---|
 | Product1 | $15,500.75 | $2325.11 |
 | Product2 | $12,300.52 | $3075.13 |
@@ -98,7 +98,7 @@ c_example_2__rate.xml
 
 보고서: 제품
 
-| 제품 | Revenue | MyCost |
+| 제품 | 매출  | MyCost |
 |---|---|---|
 | Product1 | $25,500.98 | $4325.16 |
 | Product2 | $21,300.56 | $5,775.14 |
@@ -129,7 +129,7 @@ c_example_3__fixed.xml
 
 보고서: 제품
 
-| 제품 | Revenue | MyCost |
+| 제품 | 매출  | MyCost |
 |---|---|---|
 | Product1 | $11,023.75 | $3000.00 |
 | Product2 | $8,000.12 | $2000.00 |
@@ -166,13 +166,11 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 보고서: 제품
 
-| 제품 | Revenue | MyCost |
+| 제품 | 매출  | MyCost |
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
->[!NOTE]
->
->이 기능은 고급 사용자가 값을 근사화하는 데 사용됩니다. 결과 정보는 정확한 값으로 간주할 수 없습니다.
+> [!NOTE] 이 기능은 고급 사용자가 값을 어림잡는 데 사용됩니다. 결과 정보는 정확한 값으로 간주할 수 없습니다.
 
 <!-- 
 
