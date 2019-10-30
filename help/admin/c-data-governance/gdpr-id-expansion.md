@@ -5,7 +5,7 @@ seo-title: ID 확장
 title: ID 확장
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
  <tbody> 
   <tr> 
    <td colname="col1"> <p>쿠키 ID 확장 </p> </td> 
-   <td colname="col2"> <p>Many Analytics customers originally used the (Legacy) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> Analytics Cookie </a>, but are now using the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service (ECID) </a>, previously known as the Marketing Cloud ID Service (MCID). 전환 후 처음 방문한 해당 웹 사이트 방문자의 경우 ECID만 존재합니다. 하지만 기존 쿠키만 사용할 수 있을 때 처음 방문하고 이후에 방문한 방문자의 경우에는 일부 데이터에 두 쿠키가 모두 있지만, 드문 경우, 이전 데이터에는 Analytics 쿠키만 있고 최신 데이터에는 ECID만 있을 수 있습니다. </p> <p>Analytics(방문자 ID) 쿠키 또는 ECID를 통해 식별된 방문자에 대한 모든 데이터를 찾으려고 합니다. 따라서 현재 ECID를 사용하고 이전에 Analytics 쿠키를 사용한 경우 두 가지 유형의 ID 중 하나를 사용하여 요청을 제출할 때마다 두 ID를 요청에 포함하거나 expandIds 옵션을 지정해야 합니다. expandIds를 지정하면 Adobe는 사용자가 제공한 쿠키 ID에 해당하는 다른 ECID 또는 Analytics 쿠키를 확인합니다. 새로 식별된 쿠키 ID를 포함하도록 요청이 자동으로 확장됩니다. </p> </td> 
+   <td colname="col2"> <p>원래 기존 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">Analytics 쿠키</a>를 사용했던 많은 Analytics 고객이 지금은 이전에 MCID(Marketing Cloud ID Service)로 알려졌던 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">ECID(Identity Service)</a>를 사용합니다. 전환 후 처음 방문한 해당 웹 사이트 방문자의 경우 ECID만 존재합니다. 하지만 기존 쿠키만 사용할 수 있을 때 처음 방문하고 이후에 방문한 방문자의 경우에는 일부 데이터에 두 쿠키가 모두 있지만, 드문 경우, 이전 데이터에는 Analytics 쿠키만 있고 최신 데이터에는 ECID만 있을 수 있습니다. </p> <p>Analytics(방문자 ID) 쿠키 또는 ECID를 통해 식별된 방문자에 대한 모든 데이터를 찾으려고 합니다. 따라서 현재 ECID를 사용하고 이전에 Analytics 쿠키를 사용한 경우 두 가지 유형의 ID 중 하나를 사용하여 요청을 제출할 때마다 두 ID를 요청에 포함하거나 expandIds 옵션을 지정해야 합니다. expandIds를 지정하면 Adobe는 사용자가 제공한 쿠키 ID에 해당하는 다른 ECID 또는 Analytics 쿠키를 확인합니다. 새로 식별된 쿠키 ID를 포함하도록 요청이 자동으로 확장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿠키 ID 확장에 대한 사용자 지정 ID </p> </td> 
@@ -63,5 +63,5 @@ Adobe는 ID 확장을 수행할 때 전체 데이터 스캔을 추가로 요구�
 
 또한 데이터 개인 정보 삭제 요청의 결과로 히트를 삭제(업데이트 또는 익명 처리)한 모든 방문자는 상태 정보를 재설정해야 합니다. 따라서 다음번에 방문자가 사용자의 웹 사이트로 돌아가면 새 방문자로 간주됩니다. 방문 수, 레퍼러, 방문한 첫 번째 페이지 등의 정보와 마찬가지로 모든 eVar 속성이 다시 시작됩니다. 이러한 부작용은 데이터 필드를 지우고자 하는 상황에서 바람직하지 않으며, 개인정보 보호 서비스 API가 이러한 사용에 적합하지 않은 한 가지 이유를 강조 표시합니다.
 
-CSM(Account Manager)에 문의하여 PII 또는 데이터 문제를 추가로 검토하고 제거하기 위한 노력을 Engineering Architect 컨설팅 팀과 협력하십시오.
+계정 관리자에게 문의(CSM)하여 PII 또는 데이터 문제를 없애는 데 필요한 노력을 더 자세히 검토하고 제공하도록 Engineering Architect(엔지니어링 설계) 컨설팅팀과 상의하십시오.
 
