@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: Analytics 코드 바꾸기
 topic: 개발자 및 구현
-uuid: D 3 EA 6585-199 F -4 DBE -9 EE 8-15 B 204689 F 2 F
-translation-type: tm+mt
+uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
