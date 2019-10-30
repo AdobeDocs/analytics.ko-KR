@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 함수
 title: s.sa() 함수
 topic: 개발자 및 구현
-uuid: A 6 aacd 10-2 A 5 B -448 B-B 3 B 7-BED 5590 B 71 D 4
-translation-type: tm+mt
+uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
