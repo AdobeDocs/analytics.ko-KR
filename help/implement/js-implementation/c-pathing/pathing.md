@@ -6,8 +6,8 @@ seo-title: 경로 지정 개요
 solution: Analytics
 title: 경로 지정 개요
 topic: 개발자 및 구현
-uuid: 18 ACFD 9 F -4 E 5 F -4 C 2 D -8 BE 8-743 BE 135 E 7 D 6
-translation-type: tm+mt
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
@@ -23,6 +23,6 @@ Analytics에서는 페이지 수준으로 경로 지정 기능을 제공할 수 
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. 사이트 섹션 및 서버 보고서에서 경로 지정을 활성화하려면 고객 지원에 문의하십시오.
+>경로 지정을 활성화하려면 **[!UICONTROL 관리 &gt; 보고서 세트 &gt; 설정 편집 &gt; 트래픽 &gt; 트래픽 변수]**&#x200B;로 이동하십시오. 사이트 섹션 및 서버 보고서에서 경로 지정을 활성화하려면 고객 지원에 문의하십시오.
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+[Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)에서 보다 강력한 경로 지정(흐름) 옵션을 살펴보십시오.
