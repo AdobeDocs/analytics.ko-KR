@@ -1,19 +1,19 @@
 ---
 description: 사전 정의된 이벤트 목록
-keywords: Analytics 구현; 이벤트
+keywords: Analytics 구현;이벤트
 seo-description: 사전 정의된 이벤트 목록
-seo-title: 사전 정의된 이벤트란 무엇입니까?
+seo-title: 사전 정의된 이벤트란?
 solution: Analytics
-title: 사전 정의된 이벤트란 무엇입니까?
+title: 사전 정의된 이벤트란?
 topic: 개발자 및 구현
-uuid: 4 d 0799 ba -0 f 97-42 c 3-a 620-36 c 03 f 9995 da
-translation-type: tm+mt
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 사전 정의된 이벤트란 무엇입니까?
+# 사전 정의된 이벤트란?
 
 사전 정의된 이벤트 목록
 
