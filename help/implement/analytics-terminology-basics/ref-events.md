@@ -1,13 +1,13 @@
 ---
 description: 이벤트는 방문자가 지정한 작업을 수행한 시간을 추적합니다.
-keywords: Analytics 구현; 이벤트; 성공 이벤트; 통화 이벤트; 사용자 지정 이벤트
+keywords: Analytics 구현;이벤트;성공 이벤트;통화 이벤트;사용자 지정 이벤트
 seo-description: 이벤트는 방문자가 지정한 작업을 수행한 시간을 추적합니다.
 seo-title: 이벤트
 solution: Analytics
 title: 이벤트
 topic: 개발자 및 구현
-uuid: D 2 EDD 432-60 BC -4426-9967-153 B 713147 A 1
-translation-type: tm+mt
+uuid: d2edd432-60bc-4426-9967-153b713147a1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -25,6 +25,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 통화 이벤트
 * 사용자 지정 이벤트
 
-자세한 내용은 [성공 이벤트 구성을](/help/admin/admin/c-success-events/t-success-events.md)참조하십시오.
+자세한 내용은  [성공 이벤트 구성](/help/admin/admin/c-success-events/t-success-events.md)을 참조하십시오.
 
-성공 이벤트는 [Analytics 도움말 및 참조서](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)에 자세히 설명되어 있습니다.
+성공 이벤트는 [Analytics 도움말 및 참조](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)에 자세히 설명되어 있습니다.
