@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 플러그인
 title: getDaysSinceLastVisit
 topic: 개발자 및 구현
-uuid: cad 95882-3 bd 0-4 f 94-a 0 c 3-4 e 7 b 6058 d 246
-translation-type: tm+mt
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->[이제 분석 작업 공간에](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 마지막 **[!UICONTROL 방문]** 차원 이후의 일 수가 포함되어 있어 이 플러그인의 필요성을 무효화합니다.
+>이제 [Analysis Workspace](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/)에는 **[!UICONTROL 마지막 방문 이후의 일 수]** 차원이 포함되어 있으므로 이 플러그인의 필요성을 무효화합니다.
 
 이 재방문 주기 데이터를 사용하여 다음과 같은 질문에 대답할 수 있습니다.
 
@@ -32,7 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->다음 지침을 따르면 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+>다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 플러그인 코드 및 구현 {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -42,7 +42,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **플러그인 구성**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. 재방문 주기 데이터를 캡처하는 데 사용할 사용자 지정 트래픽(s.prop) 변수 및/또는 사용자 지정 전환(s.eVar) 변수 하나를 선택합니다. 관리 콘솔을 사용하여 활성화했지만 현재 다른 목적으로 사용하고 있지는 않은 변수를 선택해야 합니다. 다음은 한 가지 예입니다. 필요에 따라 적절하게 업데이트하십시오.
+다음 코드를 `s_doPlugins()` 함수 내에 지정합니다. 이 함수는 파일에서 [!DNL s_code.js]Plugin Config *라는* 파일의 영역에 있습니다. 재방문 주기 데이터를 캡처하는 데 사용할 사용자 지정 트래픽(s.prop) 변수 및/또는 사용자 지정 전환(s.eVar) 변수 하나를 선택합니다. 관리 콘솔을 사용하여 활성화했지만 현재 다른 목적으로 사용하고 있지는 않은 변수를 선택해야 합니다. 다음은 한 가지 예입니다. 필요에 따라 적절하게 업데이트하십시오.
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
