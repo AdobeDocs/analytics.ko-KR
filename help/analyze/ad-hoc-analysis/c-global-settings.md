@@ -3,7 +3,7 @@ description: 글로벌 행동 설정을 구성합니다. 예를 들어 자동 �
 seo-description: 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 seo-title: 설정
 title: 설정
-uuid: 34444052-479 B -4923-B 379-A 03 CA 614 BF 3 E
+uuid: 3444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,11 +14,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 
-## 설정{#concept_D21E3D6F13EA4F97913F60C243B72173}의 지침을 완료하여 이 설정을 변경할 수 있습니다 
+## 설정 {#concept_D21E3D6F13EA4F97913F60C243B72173}
 
 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 
-**[!UICONTROL 도구]** &gt; **[!UICONTROL 설정을]** 클릭하여 [!UICONTROL 전역 설정에 액세스합니다].
+Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Settings]** to access [!UICONTROL Global Settings].
 
 ## 일반 설정 탭 - 정의{#reference_EADAF83466994F89BCC6B0F49A9A53DB}를 참조하십시오 
 
