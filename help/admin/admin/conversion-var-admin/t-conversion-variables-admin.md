@@ -5,9 +5,9 @@ seo-title: 전환 변수 편집
 solution: Analytics
 title: 전환 변수 편집
 topic: 관리 도구
-uuid: 12 A 49 E 74-036 F -4109-B 306-4302 BF 3 B 8 AA 1
+uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 전환 변수를 추가 또는 편집하는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. 보고서 세트를 선택합니다.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 보고서 세트 선택.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Variables]**.
-1. [!UICONTROL 전환 변수] 페이지에서 수정할 전환 변수 옆에 있는 **[!UICONTROL 확장]** 아이콘 [+] 를 클릭합니다.
+1. On the [!UICONTROL Conversion Variables] page, click the **[!UICONTROL Expand]** icon [+] next to the conversion variable you want to modify.
 
    또는
 
