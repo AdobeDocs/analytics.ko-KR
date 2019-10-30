@@ -5,7 +5,7 @@ seo-title: 시작하기
 title: 시작하기
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,9 +66,7 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE]
->
->Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 관리 릴리스 이후 Java 7에서 애드혹 분석을 실행하도록 선택하면 Adobe는 더 이상 애드혹 분석 구현을 지원하지 않습니다.
+> [!NOTE] Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 관리 릴리스 이후 Java 7에서 애드혹 분석을 실행하도록 선택하면 Adobe는 더 이상 애드혹 분석 구현을 지원하지 않습니다.
 
 * OpenGL 2.0을 지원하는 비디오 카드
 *  쿠키: 필수
