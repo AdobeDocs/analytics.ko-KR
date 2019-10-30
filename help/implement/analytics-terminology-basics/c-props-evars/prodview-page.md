@@ -7,8 +7,8 @@ solution: Analytics
 title: 자세한 제품 보기 페이지
 topic: 개발자 및 구현
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 656fb909447ed079fa42a909a9c197296c9e2723
 
 ---
 
@@ -46,7 +46,7 @@ s.products=";SKU"
 
 ```js
 s.events="scCheckout" 
-s.products=”;SKU" 
+s.products=";SKU" 
 ```
 
 ## 확인 페이지 {#section_E006943CD5FD42358086581CA44B9660}
@@ -60,4 +60,4 @@ s.products=";SKU"
 >
 >제품 문자열에서 SKU를 사용하면 *`products`* 보고서의 가독성이 떨어지지만 이후에 제품을 분류할 때 최대한의 유연성을 제공합니다. SKU에서, 완료, 제조업체, 카테고리 및 하위 카테고리를 가리키는 카테고리를 만들 수 있습니다.
 
- *`products`* 변수가 *`purchase`* 이벤트와 함께 설정되면, 구매 수량과 총 구매 가격이 위와 같이 제품 값에 포함됩니다.
+When the *`products`* 변수가 *`purchase`* 이벤트와 함께 설정되면, 구매 수량과 총 구매 가격이 위와 같이 제품 값에 포함됩니다.
