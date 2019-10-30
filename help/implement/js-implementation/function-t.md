@@ -1,14 +1,14 @@
 ---
 description: s.t() 함수는 해당 페이지에 정의된 모든 변수를 이미지에 컴파일하고 서버로 보내는 역할을 합니다.
-keywords: track; Analytics 구현; 페이지 추적; 페이지 추적
+keywords: 추적;Analytics 구현;페이지 추적;추적 페이지
 seo-description: s.t() 함수는 해당 페이지에 정의된 모든 변수를 이미지에 컴파일하고 서버로 보내는 역할을 합니다.
 seo-title: s.t() 함수 - 페이지 추적
 solution: Analytics
 subtopic: 함수
 title: s.t() 함수 - 페이지 추적
 topic: 개발자 및 구현
-uuid: 67696 E 46-1 E 0 D -4200-BFAD -4217 D 1023948
-translation-type: tm+mt
+uuid: 67696e46-1e0d-4200-bfad-4217d1023948
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
