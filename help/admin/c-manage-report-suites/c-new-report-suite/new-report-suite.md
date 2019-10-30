@@ -7,7 +7,7 @@ title: 새 보고서 세트 - 설정
 topic: 관리 도구
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 보고서 세트를 [만들 때 사용되는 요소에 대한 설명입니다](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
->[!NOTE]
->
->The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
+> [!NOTE] 가상 [보고서 세트 설명서는](/help/components/vrs/c-workflow-vrs/vrs-create.md) 가상 보고서 세트를 만드는 방법을 보여줍니다.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
