@@ -7,7 +7,7 @@ title: 고객 세그멘테이션
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
->[!NOTE]
->
->Adobe Analytics 플랫폼에서는 실시간 데이터 세그먼테이션을 지원하지 않으므로 세그먼트 컨트롤은 표준 모드에서만 사용할 수 있습니다.
+> [!NOTE] Adobe Analytics 플랫폼에서는 실시간 데이터 세그먼테이션을 지원하지 않으므로 세그먼트 컨트롤은 표준 모드에서만 사용할 수 있습니다.
 
 아래 표시된 **[!UICONTROL 세그먼트]드롭다운 메뉴에서 하나 또는 여러 개의 세그먼트를 선택할 수 있습니다.** 나열된 세그먼트는 선택한 보고서 세트에 대해, Reports &amp; Analytics을 통해 사용자에게 공유되었거나 사용자가 소유하는 세그먼트와 동일합니다.
 
