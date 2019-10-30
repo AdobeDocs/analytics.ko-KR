@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 일반적인 구문 실수
 topic: 개발자 및 구현
-uuid: 9845 DCB 9-9 F 10-4 F 65-A 43 D -2 AF 41 EDAA 122
-translation-type: tm+mt
+uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
