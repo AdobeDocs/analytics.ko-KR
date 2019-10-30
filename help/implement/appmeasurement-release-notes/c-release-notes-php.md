@@ -6,8 +6,8 @@ solution: Analytics
 subtopic: 릴리스 노트
 title: PHP
 topic: 개발자 및 구현
-uuid: 65 A 644 EF -8 E 50-406 B -8 B 12-0582495 D 130 A
-translation-type: tm+mt
+uuid: 65a644ef-8e50-406b-8b12-0582495d130a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 릴리스 날짜: **2012년 7월**
 
-* Added a check for the "off" returned for the $_SERVER['HTTPS'] in IIS. Without this check, typecasting to boolean ((bool)$_SERVER['HTTPS']) returned true in IE whether the request was made through HTTP or HTTPS. 이로 인해 비보안 페이지에서 보안 이미지 요청을 시도하게 되었습니다.
+* IIS의 $_SERVER['HTTPS']에 대해 반환된 "off" 확인이 추가되었습니다. 요청이 HTTP를 통해 이루어졌든, HTTPS를 통해 이루어졌든 상관없이 이 확인이 없을 경우 부울((bool)$_SERVER['HTTPS'])로의 타이프캐스팅이 IE에서 true로 반환되었습니다. 이로 인해 비보안 페이지에서 보안 이미지 요청을 시도하게 되었습니다.
 
 ## 버전 1.1 {#section_8F4479681ED642FCB9233459E04FF702}
 
@@ -42,9 +42,9 @@ PHP 1.1용 Measurement Library에 버전 1.0의 다음 업데이트가 포함됩
 * 보트 탐지 목록이 재정의되었습니다.
 * `debugTracking` 및 `sendFromServer`가 활성화될 때 디버그 정보(HTTP 헤더, 응답, 오류 등)가 추가되었습니다.
 
-* `debugFilename` 변수가 추가되었습니다 (활성화된 경우 `sendFromServer` ).
+* `debugFilename` 변수가 추가되었습니다(`sendFromServer`가 활성화된 경우).
 
-* The pagename variable defaults to `$_SERVER['SCRIPT_NAME']` when neither `pagename` nor `pageURL` are set.
+* `pagename` 및 `pageURL`이 둘 다 설정되지 않은 경우 pagename 변수는 기본적으로 `$_SERVER['SCRIPT_NAME']`입니다.
 
 * PHP의 CGI 구현에 대한 모든 지원
 * 성능 향상.
