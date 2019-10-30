@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 플러그인
 title: getValOnce
 topic: 개발자 및 구현
-uuid: 82 FE 0 DA 5-3 BC 4-4632-8 C 62-7 B 5683 F 6 B 587
-translation-type: tm+mt
+uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ getValOnce 플러그인은 주어진 변수가 이전에 정의된 값으로 설
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). [Appmeasurement 플러그인 지원을 참조하십시오](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>이 플러그인은 [JavaScript용 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)와 호환되는지 확인되지 않았습니다. [AppMeasurement 플러그인 지원](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)을 참조하십시오.
 
 **매개 변수**
 
@@ -31,7 +31,7 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 * **변수:** 확인할 변수입니다. 일반적으로 정의되는 변수와 같습니다.
 * **쿠키:** 비교할 이전 값을 저장하는 쿠키의 이름입니다. 쿠키에는 어떤 값이든 사용할 수 있습니다.
 * (선택 사항) **만료:** 쿠키가 만료되는 일 수입니다. 0으로 설정되지 않은 경우 기본 만료 기간은 브라우저 세션입니다.
-* (선택 사항) **분:** 문자열 값 *`m`*&#x200B;인 경우 만료 값은 일 수 대신 분 단위로 정의됩니다. If not set, *`days`* is the default expiration.
+* (선택 사항) **분:** 문자열 값  *`m`*&#x200B;으로 설정하면 만료 값이 일 단위 대신 분 단위로 정의됩니다. 설정하지 않으면 *`days`*&#x200B;가 기본 만료값입니다.
 
 **속성**
 
@@ -47,13 +47,13 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 
 >[!NOTE]
 >
->다음 지침을 따르면 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+>다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 구현 {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
 >[!NOTE]
 >
->If your organization uses Marketing Channels and has rules set up based on `s.campaign`, it is recommended that you not use the getValOnce plugin when setting the `s.campaign`value. 이렇게 하면 보조 캠페인 클릭 스루에 잘못된 채널이 할당될 수 있습니다.
+>조직에서 마케팅 채널을 사용하고 `s.campaign`을 기반으로 하는 규칙을 설정한 경우 `s.campaign` 값을 설정할 때 getValOnce 플러그인을 사용하지 않는 것이 좋습니다. 이렇게 하면 보조 캠페인 클릭 스루에 잘못된 채널이 할당될 수 있습니다.
 
 이 플러그인을 구현하려면 [!DNL s_code.js] 파일에 다음 코드를 넣습니다.
 
@@ -72,10 +72,10 @@ s.getValOnce=new Function("v","c","e","t",""
 +"==0?0:a);}return v==k?'':v");
 ```
 
-Once the above code is implemented, define the desired variable using the *`getValOnce`* function. 다음은 몇 가지 구현 방법의 예입니다.
+위의 코드가 구현되면 *`getValOnce`* 함수를 사용하여 원하는 변수를 정의합니다. 다음은 몇 가지 구현 방법의 예입니다.
 
 **쿠키를 설정하고 30일 이내에 중복 값이 검색될 경우 같은 캠페인 값 정의 방지:**
-`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`**쿠키를 설정하고 30 분 이내에 중복 값이 감지되면 동일한 Evar 1 값을 정의할 수 없습니다.**`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`**동일한 브라우저 세션에서 동일한 Evar 2 값이 여러 번 정의되지 않도록 합니다.**`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`**참고 사항**
+`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`  **쿠키 설정 후 30분 내에 중복 값이 검색되는 경우 동일한 eVar1 값이 정의되지 않도록 합니다.**`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`  **동일한 eVar2 값이 동일한 브라우저 세션에서 여러 번 정의되지 않도록 합니다.**`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`  **메모**
 
 * 프로덕션 환경에 플러그인을 배포하기 전에 항상 플러그인 설치를 종합적으로 테스트하여 데이터 수집이 예상대로 수행되는지 확인하십시오.
 * 테스트 동안 반드시 쿠키를 삭제하거나 새로운 고유값을 사용하십시오. 그렇지 않으면 변수가 전송되지 않습니다.
