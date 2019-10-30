@@ -2,19 +2,19 @@
 description: 페이지 상단에 JavaScript 라이브러리 파일에 대한 호출을 삽입하면 이미지가 제일 먼저 다운로드되는 요소가 됩니다.
 keywords: Analytics 구현
 seo-description: 페이지 상단에 JavaScript 라이브러리 파일에 대한 호출을 삽입하면 이미지가 제일 먼저 다운로드되는 요소가 됩니다.
-seo-title: JavaScript 파일 위치 및 동의
+seo-title: JavaScript 파일 위치 및 동시 실행
 solution: Analytics
 subtopic: 문제 해결
-title: JavaScript 파일 위치 및 동의
+title: JavaScript 파일 위치 및 동시 실행
 topic: 개발자 및 구현
-uuid: ED 5118 A 8-B 142-4 FAB -8 AA 1-92 D 931 CC 1439
-translation-type: tm+mt
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# JavaScript 파일 위치 및 동의
+# JavaScript 파일 위치 및 동시 실행
 
 페이지 상단에 JavaScript 라이브러리 파일에 대한 호출을 삽입하면 이미지가 제일 먼저 다운로드되는 요소가 됩니다.
 
@@ -24,5 +24,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->타사 인터넷 성능 감사 공급자 (Keynote Systems 등) 는 페이지 이미지 요소를 동시에 다운로드하는 것이 아니라 순차적으로 다운로드하므로 일반적인 사용자 환경을 모방하지 않습니다.
+>타사 인터넷 성능 감사 공급자(Keynote Systems 등)는 페이지 이미지 요소를 동시에 다운로드하는 것이 아니라 순차적으로 다운로드하므로 일반적인 사용자 환경을 모방하지 않습니다.
 
