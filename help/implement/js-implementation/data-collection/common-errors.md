@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 문제 해결
 title: 일반적인 오류
 topic: 개발자 및 구현
-uuid: 04345355-60 CC -4678-81 C 3-390 C 86752 DF 1
-translation-type: tm+mt
+uuid: 04345355-60cc-4678-81c3-390c86752df1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -32,7 +32,7 @@ REMOVE: s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.
 
 ## 코드 배치 {#section_05375CB2EF5A414794BC8209C906AEEB}
 
-Defining *`s_account`* after the lines of code does not override the dynamic account selection, as shown below.
+*`s_account`*&#x200B;를 정의해도 아래에서 보듯이 동적 계정 선택이 무시되지 않습니다.
 
 ```js
 var s_account="defaultreportsuiteid" 
