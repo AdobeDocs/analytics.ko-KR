@@ -9,24 +9,20 @@ title: 차원 권한 사용자 지정
 topic: 관리 도구
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # 차원 권한 사용자 지정
 
->[!IMPORTANT]
->
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] 사용자 및 제품 관리가 Admin Console로 [이동하고 있습니다](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
 
 eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다.
 
 **[!UICONTROL 사용자 관리 &gt;]** 그룹 **[!UICONTROL &gt;]** 보고서 액세스 **[!UICONTROL &gt;]** 차원 **[!UICONTROL &gt;]** 사용자 **[!UICONTROL 지정]**
 
->[!IMPORTANT]
->
->현재 일부 차원은 허용되지 않습니다. 이러한 측정기준은 다음과 같습니다. 모바일 책갈피 길이, 모바일 장치 번호, 모바일 DRM, 모바일 정보 서비스, 모바일 Java VM, 모바일 메일 장식, 모바일 네트 프로토콜, 모바일 OS, 모바일 Push To Talk.
+> [!IMPORTANT] 현재 일부 차원은 허용되지 않습니다. 이러한 측정기준은 다음과 같습니다. 모바일 책갈피 길이, 모바일 장치 번호, 모바일 DRM, 모바일 정보 서비스, 모바일 Java VM, 모바일 메일 장식, 모바일 네트 프로토콜, 모바일 OS, 모바일 Push To Talk.
 >
 >이러한 측정기준은 다른 사용 권한과 상관없이 모든 사용자가 사용할 수 있습니다.
 
@@ -107,4 +103,3 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
   </tr> 
  </tbody> 
 </table>
-
