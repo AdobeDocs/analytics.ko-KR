@@ -2,18 +2,18 @@
 description: Analytics에서 사용된 사용자 지정 변수 목록
 keywords: Analytics 구현
 seo-description: Analytics에서 사용된 사용자 지정 변수 목록
-seo-title: '사용자 지정 변수 입니다. '
+seo-title: 사용자 지정 변수
 solution: Analytics
-title: '사용자 지정 변수 입니다. '
+title: 사용자 지정 변수
 topic: 개발자 및 구현
-uuid: 54 ADF 622-7 F 05-49 C 0-B 7 E 6-702 BB 2 F 17 B 1 C
-translation-type: tm+mt
+uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 사용자 지정 변수 입니다. 
+# 사용자 지정 변수
 
 Analytics에서 사용된 사용자 지정 변수 목록
 
