@@ -1,13 +1,13 @@
 ---
 description: 모바일 추적 코드는 서버가 생성한 이미지 태그의 형태로 페이지에 삽입됩니다.
-keywords: Analytics 구현; 모바일 추적; 모바일 프로토콜; 캐싱 방지; alt 태그; 기본 이미지 유형
+keywords: Analytics 구현;모바일 추적;모바일 프로토콜;캐싱 방지;alt 태그;기본 이미지 유형
 seo-description: 모바일 추적 코드는 서버가 생성한 이미지 태그의 형태로 페이지에 삽입됩니다.
 seo-title: 모바일 프로토콜에 대한 페이지 태깅
 solution: Analytics
 title: 모바일 프로토콜에 대한 페이지 태깅
 topic: 개발자 및 구현
-uuid: 5788 BEAF-F 309-4918-A 99 C-A 3 E 591668205
-translation-type: tm+mt
+uuid: 5788beaf-f309-4918-a99c-a3e591668205
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -47,9 +47,9 @@ Adobe 서버가 브라우저로 하여금 추적 비콘을 캐시하지 않도�
 
 특정 장치에서 기본 이미지 형식이 지원되지 않는 경우 데이터가 반환되지 않습니다. 이를 방지하기 위해 강제로 Adobe 데이터 수집 서버가 해당 모바일 장치에서 지원되는 특정 그래픽 유형을 반환하도록 할 수 있습니다. 보고서 세트 이름 뒤의 코드가 이미지 형식을 지정합니다.
 
-* `/5/` 기본 이미지 유형을 반환합니다.
-* `/5.1/` 또는 `/1/` 항상 GIF 이미지를 반환합니다.
+* `/5/`는 기본 이미지 형식을 반환합니다.
+* `/5.1/` 또는 `/1/`은 항상 GIF 이미지를 반환합니다.
 
-* `/5.5/` 항상 WBMP 이미지를 반환합니다.
+* `/5.5/`는 항상 WBMP 이미지를 반환합니다.
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
+[모바일 프로토콜을 사용한 방문자 식별](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49)을 참조하십시오.
