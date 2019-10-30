@@ -1,23 +1,23 @@
 ---
 description: 마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
 seo-description: 마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
-seo-title: 방문자 참여 만료
+seo-title: 방문자 유도 만료
 solution: Analytics
 subtopic: 마케팅 채널
-title: 방문자 참여 만료
-topic: Reports & Analytics
-uuid: 47 F 1 CCAF -3 CE 7-494 D-B 456-956 A 3 A 3 C 6 C 9 A
+title: 방문자 유도 만료
+topic: Reports and Analytics
+uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 방문자 참여 만료
+# 방문자 유도 만료
 
 마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
+## 방문자 유도 만료 {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
 
@@ -35,8 +35,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 방문자 참여 만료 지정
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. [!UICONTROL 보고서 세트 관리자에서]설정 **[!UICONTROL 편집]** &gt; **[!UICONTROL 마케팅 채널]** &gt; **[!UICONTROL 마케팅 채널 만료일을 클릭합니다]**.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
 
    ![](assets/mchannel_expiration.png)
 
