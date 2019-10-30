@@ -5,7 +5,7 @@ seo-title: 제품 보고서
 solution: Analytics
 title: 제품 보고서
 topic: Ad Hoc Analysis
-uuid: E 2 A 8814 B -735 D -4 F 63-97 EE-AF 1 AFAC 4 D 75 D
+uuid: e2a8814b-73 파섹
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
