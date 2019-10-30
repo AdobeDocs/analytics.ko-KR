@@ -3,9 +3,9 @@ description: '히스토그램은 Analysis Workspace의 새로운 시각화 유�
 seo-description: '히스토그램은 Analysis Workspace의 새로운 시각화 유형입니다. '
 seo-title: 히스토그램
 title: 히스토그램
-uuid: 8 a 6 bd 2 c 4-da 15-4 f 64-b 889-ab 9 add 685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->히스토그램은 계산된 지표가 아닌 표준 지표만 지원합니다.
+> [!NOTE] 히스토그램은 계산된 지표가 아닌 표준 지표만 지원합니다.
 
 여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째(왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다. 
 
@@ -41,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨).  |
 | 지표 버킷 | 데이터 범위(버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
 | 지표 버킷 크기 | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다.  |
-| 계산 방법 | [방문자](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [방문](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) 또는 [히트](https://marketing.adobe.com/resources/help/en_US/reference/hit.html) 중에서 선택할 수 있습니다. 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 "발생 횟수"는 자유형 테이블에서 y축 지표로 사용됩니다. |
+| 계산 방법 | [방문자](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [방문](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) 또는 [히트](https://marketing.adobe.com/resources/help/en_US/reference/hit.html) 중에서 선택할 수 있습니다. 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 "발생"은 자유 형식 테이블에서 y축 지표로 사용됩니다. |
 
 **예**:
 
