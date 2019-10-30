@@ -5,9 +5,9 @@ seo-title: 시스템 요구 사항
 solution: Analytics
 title: 시스템 요구 사항
 topic: Report Builder
-uuid: B 86 E 728 A -1 B 9 D -4 A 3 F -9 C 0 E -1 E 248 FD 1979 D
+uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
