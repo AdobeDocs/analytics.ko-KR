@@ -1,13 +1,13 @@
 ---
 description: 소스 보고서에서 세부적인 데이터를 그룹화(분류)하여 생성한 분류.
-keywords: Analytics 구현; 분류
+keywords: Analytics 구현;분류
 seo-description: 소스 보고서에서 세부적인 데이터를 그룹화(분류)하여 생성한 분류.
 seo-title: 분류
 solution: Analytics
 title: 분류
 topic: 개발자 및 구현
-uuid: 6 BBB 1113-9 FC 9-4 E 9 D -90 DD-D 2 D 9 D 6 B 67 B 73
-translation-type: tm+mt
+uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -21,5 +21,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 자세한 내용은:
 
-* Analytics 도움말 및 참조서의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)
+* Analytics 도움말 및 참조 안내서의 [분류](https://marketing.adobe.com/resources/help/ko_KR/reference/classifications.html)를 참조하십시오.
 
