@@ -7,7 +7,7 @@ title: 게시 목록 무시 허용
 topic: Report Builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,5 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 이 선택 사항은 셀에서 선택하는 보고서 세트에 대해서는 사용할 수 없습니다.
 
->[!NOTE]
->
->예약된 보고서를 여러 게시 목록에 전송하면 보고서는 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다.
+> [!NOTE] 예약된 보고서를 여러 게시 목록에 전송하면 보고서는 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다.
 
