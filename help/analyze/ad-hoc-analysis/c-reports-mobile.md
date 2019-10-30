@@ -3,7 +3,7 @@ description: '모바일 장치에서의 웹 사이트 액세스에 대한 정보
 seo-description: '모바일 장치에서의 웹 사이트 액세스에 대한 정보를 표시합니다. 모바일 보고서는 사이트를 보는 데 사용된 모바일 장치에 대한 데이터를 수집하여 방문자 식별 정확도를 높입니다. 모바일 보고서는 장치의 제조업체 및 기능(예: 화면 크기, 비디오, 오디오, 쿠키 지원 및 기타 지표)을 식별할 수 있습니다. 모바일 보고서는 모든 보고서 세트에 사용할 수 있습니다.'
 seo-title: 모바일 보고서
 title: 모바일 보고서
-uuid: Feb 1 FC 34-3541-4 B 2 D-B 9 CB -84 D 2 E 91 D 9539
+uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,15 +14,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 모바일 장치에서의 웹 사이트 액세스에 대한 정보를 표시합니다. 모바일 보고서는 사이트를 보는 데 사용된 모바일 장치에 대한 데이터를 수집하여 방문자 식별 정확도를 높입니다. 모바일 보고서는 장치의 제조업체 및 기능(예: 화면 크기, 비디오, 오디오, 쿠키 지원 및 기타 지표)을 식별할 수 있습니다. 모바일 보고서는 모든 보고서 세트에 사용할 수 있습니다.
 
-## Mobile reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
+## 모바일 보고서 {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
 모바일 장치에서의 웹 사이트 액세스에 대한 정보를 표시합니다. 모바일 보고서는 사이트를 보는 데 사용된 모바일 장치에 대한 데이터를 수집하여 방문자 식별 정확도를 높입니다. 모바일 보고서는 장치의 제조업체 및 기능(예: 화면 크기, 비디오, 오디오, 쿠키 지원 및 기타 지표)을 식별할 수 있습니다. 모바일 보고서는 모든 보고서 세트에 사용할 수 있습니다.
 
-모바일 장치에 대한 방문자 식별 정확도를 높이려면 도메인으로 가입자 ID를 전송할 수 있도록 이동통신사 목록(우수 목록)에 속해야 합니다 **[!UICONTROL (방문자 프로필]** &gt; **[!UICONTROL 도메인]** 보고서에서 통신사를 볼 수 있습니다.)
+모바일 장치에 대한 방문자 식별 정확도를 높이려면 도메인으로 가입자 ID를 전송할 수 있도록 이동통신사 목록(우수 목록)에 속해야 합니다 (You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](https://login.experiencecloud.adobe.com).
+>모바일 장치에서 보고서를 보려면 Experience Cloud에 [로그인하십시오](https://login.experiencecloud.adobe.com).
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
