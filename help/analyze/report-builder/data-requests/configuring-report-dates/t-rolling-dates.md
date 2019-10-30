@@ -1,18 +1,18 @@
 ---
 description: 요청에 대한 롤링 날짜를 사용자 지정하는 방법에 대해 설명하는 절차.
 seo-description: 요청에 대한 롤링 날짜를 사용자 지정하는 방법에 대해 설명하는 절차.
-seo-title: 롤링 날짜
+seo-title: 순환 날짜
 solution: Analytics
-title: 롤링 날짜
+title: 순환 날짜
 topic: Report Builder
-uuid: 28319 F 02-2 A 4 A -408 D-A 7 D 1-545247 AD 6178
+uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 롤링 날짜
+# 순환 날짜
 
 요청에 대한 롤링 날짜를 사용자 지정하는 방법에 대해 설명하는 절차.
 
