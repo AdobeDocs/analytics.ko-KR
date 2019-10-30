@@ -1,13 +1,13 @@
 ---
 description: 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
-keywords: Analytics 구현; 데이터 수집; 코드 관리자
+keywords: Analytics 구현;데이터 수집;코드 관리자
 seo-description: 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
 seo-title: 코드 관리자
 solution: Analytics
 title: 코드 관리자
 topic: 개발자 및 구현
-uuid: 4 dc 79214-a 38 b -4 e 1 a -90 f 9-d 09 c 8142 dd 0 a
-translation-type: tm+mt
+uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **[!UICONTROL Analytics &gt; 관리 &gt; 코드 관리자]**.
 
-라이브러리를 다운로드한 후에는 데이터를 올바른 추적 서버 및 보고서 세트에 보내는 코드를 구성해야 합니다. 추가 구현 리소스는 [Developer &amp; Implementation](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)에서 사용할 수 있습니다.
+라이브러리를 다운로드한 후에는 데이터를 올바른 추적 서버 및 보고서 세트에 보내는 코드를 구성해야 합니다. 추가 구현 리소스는 [개발자 및 구현](https://marketing.adobe.com/resources/help/ko_KR/reference/developer.html)에서 확인할 수 있습니다.
 
 ## 코드 관리자 페이지 설명 {#section_0C23784E20BD4631841FF24E5075DA12}
 
