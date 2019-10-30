@@ -6,8 +6,8 @@ seo-title: s.abort flag
 solution: Analytics
 title: s.abort flag
 topic: 개발자 및 구현
-uuid: 0 C 6 EC 8 C 7-D 136-4851-8 CB 6-6 CB 1 B 7 F 6 F 0 DC
-translation-type: tm+mt
+uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
