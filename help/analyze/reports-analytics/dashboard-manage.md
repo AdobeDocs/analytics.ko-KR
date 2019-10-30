@@ -8,7 +8,7 @@ title: 대시보드 관리자
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 기존의 이전 대시보드는 계속 실행되고, 여전히 편집, 다운로드 및 예약할 수 있지만, 더 이상 새로운 이전 버전의 대시보드를 만들 수는 없습니다. 기존의 대시보드는 최신 대시보드 형식으로 업그레이드하는 것이 좋습니다.
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] 앞으로 분석 작업 공간 [프로젝트](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 및 다운로드 및 예약 기능을 사용해 보십시오.
 
 기존 대시보드를 복사할 때 시스템은 기존 컨텐츠 또는 새 컨텐츠를 추가할 수 있도록 편집 가능한 기존 대시보드가 열립니다. 기존 대시보드를 복사할 경우 기존 대시보드 목록에 원본이 그대로 유지됩니다.
 
->[!NOTE]
->
->대시보드에 기존 컨텐츠를 추가하면 최신 대시보드 기능을 기반으로 대시보드가 만들어집니다. 그러나 기존 reportlet에는 이전 데이터 플랫폼을 기반으로 한 데이터가 포함되어 있을 수도 있습니다.
+> [!NOTE] 대시보드에 기존 컨텐츠를 추가하면 최신 대시보드 기능을 기반으로 대시보드가 만들어집니다. 그러나 기존 reportlet에는 이전 데이터 플랫폼을 기반으로 한 데이터가 포함되어 있을 수도 있습니다.
 
 **버전 14.x의 기존 대시보드를 마이그레이션하려면**
 
@@ -115,9 +111,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 ## 대시보드 보관
 
->[!NOTE]
->
->이 기능은 2020년 1월에 더 이상 사용할 수 없습니다.
+> [!NOTE] 이 기능은 2020년 1월에 더 이상 사용할 수 없습니다.
 
 보낸 대시보드를 PDF 파일로 보관하는 방법을 설명하는 단계입니다. 시스템에서는 처음 들어오는 순서부터 보관된 보고서의 크기가 최대 한도인 4GB에 도달할 때까지 또는 2년 동안의 보관 파일을 저장합니다.
 
