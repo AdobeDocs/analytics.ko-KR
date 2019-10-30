@@ -8,8 +8,8 @@ subtopic: 문제 해결
 title: 표
 topic: 개발자 및 구현
 uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 표의 외부에 JavaScript 라이브러리 파일에 대한 호출을 삽입하면 Analytics 서버에 대한 호출이 페이지 컨텐츠의 표시에 영향을 주지 않게 됩니다.
 
->[!NOTE]
->
->파일은 이미지의 올바른 위치에 배치해야 하며 열기 <body> 태그와 닫기 </body> 사이에 표시되어야 합니다.
+> [!NOTE] 파일은 이미지의 올바른 위치에 배치해야 하며 열기 <body> 태그와 닫기 </body> 사이에 표시되어야 합니다.
 
