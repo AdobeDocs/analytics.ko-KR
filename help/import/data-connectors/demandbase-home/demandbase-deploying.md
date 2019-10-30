@@ -5,7 +5,7 @@ seo-title: 통합 배포
 title: 통합 배포
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,9 +73,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 통합 마법사를 완료한 후 통합 코드를 Adobe Analytics 배포 코드(s_code)에 배포해야 합니다.
 
->[!NOTE]
->
->Adobe TagManager 또는 다이내믹 태그 관리를 사용하여 Adobe Analytics를 배포하는 경우 이러한 도구 중 하나를 사용하여 통합 코드를 쉽게 추가할 수 있습니다.
+> [!NOTE] Adobe TagManager 또는 다이내믹 태그 관리를 사용하여 Adobe Analytics를 배포하는 경우 이러한 도구 중 하나를 사용하여 통합 코드를 쉽게 추가할 수 있습니다.
 
 1. 지원 **[!UICONTROL 탭으로 이동하여]** 통합의 리소스 영역에서 `integration code v2_0_1` 리소스를 다운로드하고 저장합니다.
 
@@ -202,9 +200,7 @@ Adobe 통합 마법사(7단계)를 사용하여 자동으로 생성된 대시보
 
 또는 Adobe Analytics 메뉴 구조 내에서 Demandbase 보고서로 이동할 수 있습니다. 아래 스크린샷을 참조하십시오.
 
->[!NOTE]
->
->이 데이터는 성공적인 배포 후 24-48시간 이내에 나타나야 합니다.
+> [!NOTE] 이 데이터는 성공적인 배포 후 24-48시간 이내에 나타나야 합니다.
 
 ![](assets/reporting1.png)
 
