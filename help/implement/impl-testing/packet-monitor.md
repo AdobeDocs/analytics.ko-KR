@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 디버거
 title: 패킷 분석기
 topic: 개발자 및 구현
-uuid: 3597 C 23 A -1 C 72-46 E 6-909 D-F 861 Cbeef 490
-translation-type: tm+mt
+uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -31,19 +31,19 @@ Adobe가 정식 패킷 모니터를 제공하지는 않지만 인터넷에서 �
 
 >[!NOTE]
 >
->이러한 목록은 포괄적이 아니라 자주 사용하는 모니터에 대한 정보입니다. 성공적으로 사용하고 있는 유용한 패킷 모니터가 있는 경우 이 창 오른쪽에 있는 [!UICONTROL 피드백] 단추를 사용하여 피드백을 제공해 주십시오.
+>이러한 목록은 전체 목록이 아니라 자주 사용하는 모니터에 대한 정보입니다. 성공적으로 사용하고 있는 유용한 패킷 모니터가 있는 경우 이 창 오른쪽에 있는 [!UICONTROL 피드백] 단추를 사용하여 피드백을 제공해 주십시오.
 
 | Firefox | Internet Explorer | Chrome | 독립 실행형 프로그램 |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin)(태그 뷰어) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)(태그 뷰어) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpFox](https://addons.mozilla.org/ko-KR/firefox/addon/httpfox/) |  | [Chrome 개발자 도구](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Tamper Data](https://addons.mozilla.org/ko-kr/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
 >[!NOTE]
 >
->Adobe는 이러한 패킷 모니터에서 발생할 수 있는 문제를 지원하거나 해결하지 않습니다. 대신 패킷 모니터 제공 사이트에서 지원을 문의하십시오.
+>Adobe는 이러한 패킷 모니터와 관련하여 발생할 수 있는 문제를 지원하거나 해결하지 않습니다. 대신 패킷 모니터 제공 사이트에서 지원을 문의하십시오.
 
 <!-- 
 
