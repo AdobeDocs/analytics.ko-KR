@@ -5,9 +5,9 @@ seo-title: 체류 시간
 solution: Analytics
 title: 체류 시간
 topic: 지표
-uuid: A 9 F 63 DA 3-7 E 79-49 C 3-9 B 0 B -6 DCD 2 AE 6 AADC
+uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics에서는 다양한 체류 시간 지표와 차원을 제공합�
   <tr> 
    <td colname="col1"> <p>총 체류 시간(초) </p> </td> 
    <td colname="col2"> <p>방문자가 특정 차원 항목과 상호 작용하는 총 시간을 나타냅니다. </p> <p>모든 후속 조회에서의 값 및 지속성 인스턴스를 포함합니다. Prop의 경우, 체류 시간은 후속 링크 이벤트에서도 계산됩니다. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder('총 체류 시간'이라고 함) </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>리포트 빌더('총 체류 시간'이라고 함) </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>방문당 체류 시간(초) </p> </td> 
@@ -47,17 +47,17 @@ Adobe Analytics에서는 다양한 체류 시간 지표와 차원을 제공합�
   </tr> 
   <tr> 
    <td colname="col1"> <p>방문자당 체류 시간(초) </p> </td> 
-   <td colname="col2"> <p><i>총 체류 시간(초)/(고유 방문자 - 바운스 고유 방문자)</i> </p> <p>방문자가 방문자의 라이프타임(해당 쿠키 길이) 동안 특정 차원 항목과 상호 작용하는 평균 시간을 나타냅니다. </p> </td> 
+   <td colname="col2"> <p><i>총 체류 시간(초)/(고유 방문자 - 바운스 고유 방문자)</i> </p> <p>방문자가 방문자의 라이프타임(쿠키 길이)에 걸쳐 특정 차원 항목과 상호 작용하는 평균 시간을 나타냅니다. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사이트에서 보낸 평균 시간(초) </p> </td> 
-   <td colname="col2"> <p>방문자가 특정 차원 항목과 상호 작용하는 총 시간(차원 항목 시퀀스당)을 나타냅니다. 이름으로 예상되듯이 "사이트" 평균으로 제한되지 않습니다. 시퀀스에 대한 자세한 내용은 '체류 시간 계산 방법 섹션'을 참조하십시오. </p> <p>참고: 이 지표는 계산에 사용된 분모의 차이로 인해 차원 항목 수준에서 방문당 체류 시간과 다를 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>방문자가 특정 차원 항목과 상호 작용하는 총 시간(차원 항목 시퀀스당)을 나타냅니다. 이름에서 알 수 있듯이 "사이트" 평균에만 국한되지 않습니다. 시퀀스에 대한 자세한 내용은 '체류 시간 계산 방법 섹션'을 참조하십시오. </p> <p>참고: 이 지표는 계산에 사용된 분모의 차이로 인해 차원 항목 수준에서 방문당 체류 시간과 다를 수 있습니다. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics(분으로 표시) </p> <p>Report Builder(분으로 표시) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지에서 보낸 평균 시간 </p> </td> 
-   <td colname="col2"> <p><b>더 이상 사용되지 않는 지표. </b> </p> <p>차원 항목에 대한 평균 시간이 필요한 경우 '사이트에서 보낸 평균 시간'을 사용하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p><b>더 이상 사용되지 않는 지표. </b> </p> <p>차원 항목의 평균 시간이 필요한 경우 '사이트에서 보낸 평균 시간'을 사용하는 것이 좋습니다. </p> </td> 
    <td colname="col3"> <p>Report Builder(요청에 차원이 있을 때) </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Adobe Analytics에서는 다양한 체류 시간 지표와 차원을 제공합�
   </tr> 
   <tr> 
    <td colname="col1"> <p>평균 세션 길이(모바일) </p> </td> 
-   <td colname="col2"> <p>총 세션 길이/(론치 - 첫 번째 실행) </p> <p>Mobile 앱 SDK만 해당. 세션 수준 지표입니다. </p> </td> 
+   <td colname="col2"> <p>총 세션 길이 / (시작 - 첫 번째 시작) </p> <p>Mobile 앱 SDK만 해당. 세션 수준 지표입니다. </p> </td> 
    <td colname="col3"> <p>Report Builder </p> <p>Mobile Services UI </p> </td> 
   </tr> 
  </tbody> 
@@ -110,7 +110,7 @@ Adobe Analytics에서는 다양한 체류 시간 지표와 차원을 제공합�
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 체류 시간 - 세부기간 </p> </td> 
-   <td colname="col2"> <p>각 조회에서 소요된 총 시간을 가장 가까운 두 번째 방문으로 자릅니다. 페이지 조회 수와 링크 이벤트를 포함한 조회 수준 차원입니다. 이름으로 예상되듯이, "페이지" 차원으로 제한되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>각 조회에서 소요된 총 시간을 가장 가까운 두 번째 방문으로 자릅니다. 페이지 조회 수와 링크 이벤트를 포함한 조회 수준 차원입니다. 이름에서 알 수 있듯이 "페이지" 차원에만 국한되지 않습니다. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
@@ -137,9 +137,7 @@ Adobe Analytics에서는 다양한 체류 시간 지표와 차원을 제공합�
 
 Adobe Analytics는 명시적 값(링크 이벤트 및 비디오 보기 횟수 포함)을 사용하여 [!UICONTROL 체류 시간]을 계산합니다.
 
->[!NOTE]
->
->[!UICONTROL 비디오 보기] 횟수 또는 [!UICONTROL 종료 링크와]같은 링크 이벤트가 없으면, 마지막 방문 히트에서 보낸 시간을 알 수 없습니다. 또한 비슷한 이유로 [!UICONTROL 바운스 방문 횟수](즉, 단일 조회의 [!UICONTROL 방문 횟수])에는 [!UICONTROL 체류 시간]이 연결되어 있지 않습니다.
+> [!NOTE] 비디오 보기 횟수 또는 종료 [!UICONTROL 링크와 같은] 링크 이벤트가 [!UICONTROL 없으면]방문의 마지막 히트에서 보낸 시간을 알 수 없습니다. 또한 비슷한 이유로 [!UICONTROL 바운스 방문 횟수](즉, 단일 조회의 [!UICONTROL 방문 횟수])에는 [!UICONTROL 체류 시간]이 연결되어 있지 않습니다.
 
 모든 체류 시간 계산에 사용된 **분자**&#x200B;는 "총 체류 시간(초)"입니다.
 
@@ -171,10 +169,10 @@ Adobe Analytics는 명시적 값(링크 이벤트 및 비디오 보기 횟수 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>어느 체류 시간 차원이 다른 차원을 사용한 분류에 가장 잘 사용됩니까? </p> </td> 
-   <td colname="col2"> <p>" 페이지에서 보낸 시간 - 세부기간 "차원은 히트 수준 차원입니다. 이것을 다른 차원으로 분류하면 분류 차원도 있었던 조회가 유지되는 시간(초)을 알 수 있습니다. </p> <p>아래 예에서 검색어 "분류됨"은 방문자가 해당 검색어에 대해 반환된 컨텐츠를 읽는 데 소비하는 시간일 수 있는 54초, 59초 등의 조회 시간과 연관됩니다. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>"페이지에서 보낸 시간 - 세부기간" 차원은 히트 수준 차원입니다. 이것을 다른 차원으로 분류하면 분류 차원도 있었던 조회가 유지되는 시간(초)을 알 수 있습니다. </p> <p>아래 예에서 검색어 "분류"는 방문자가 해당 검색어에 대해 반환되는 컨텐츠를 읽는 데 시간을 소비하고 있음을 나타내는 54초, 59초 등의 히트 시간과 연관되어 있습니다. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>" 페이지에서 보낸 시간 - 세부기간 "차원에 적합한 지표는 무엇입니까? </p> </td> 
+   <td colname="col1"> <p>"페이지에서 보낸 시간 - 세부기간"의 차원에 대해 적합한 지표는 무엇입니까? </p> </td> 
    <td colname="col2"> <p>모든 지표. 이 차원은 이벤트가 발생한 바로 그 조회에서 소비한 시간을 보여줍니다. 높은 체류 시간은 이벤트가 발생한 페이지(적중)에서 방문자가 오래 머물렀음을 의미합니다. </p> <p><img placement="break" align="center"  src="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
@@ -238,7 +236,7 @@ Adobe Analytics는 명시적 값(링크 이벤트 및 비디오 보기 횟수 �
   </tr> 
   <tr> 
    <td colname="col1"> <b>페이지 이름</b> </td> 
-   <td colname="col2"> Home </td> 
+   <td colname="col2"> 홈 </td> 
    <td colname="col3"> - </td> 
    <td colname="col4"> 제품 </td> 
    <td colname="col5"> 홈 </td> 
@@ -350,8 +348,8 @@ Adobe Analytics는 명시적 값(링크 이벤트 및 비디오 보기 횟수 �
 예를 지원하는 몇 가지 추가 참고 사항:
 
 * 모든 체류 시간 계산은 방문의 첫 번째 조회에서 0부터 시작하는 방문 경과 시간을 기반으로 합니다.
-* "체류 시간(초)"는 현재 조회의 타임스탬프와 다음 조회의 타임스탬프 간의 차이입니다. 결과적으로 방문(및 바운스)의 마지막 조회에는 체류 시간이 없습니다.
-* "시퀀스"는 주어진 변수가 같은 값(설정되었는지, 확산되었는지 또는 지속되었는지에 상관없이)을 포함하는 연속된 조회 세트입니다. 예를 들어, prop1 "A"에는 조회 1 및 2와 조회 6, 이렇게 두 개의 시퀀스가 있습니다. 마지막 조회에 체류 시간이 없으므로 방문의 마지막 조회 시간에 대한 값은 새 시퀀스를 시작하지 않습니다. 사이트에서 보낸 평균 시간(초)은 분모에서 시퀀스를 사용합니다.
+* "체류 시간(초)"은 현재 히트의 타임스탬프와 다음 히트의 타임스탬프 간의 차이입니다. 결과적으로 방문(및 바운스)의 마지막 조회에는 체류 시간이 없습니다.
+* "시퀀스"는 지정된 변수에 동일한 값(설정, 전달 또는 지속됨)을 포함하는 연속 히트 세트입니다. 예를 들어 prop1 "A"에는 다음 두 개의 시퀀스가 있습니다.히트 1과 2를, 히트 6을 각각 지정합니다. 마지막 조회에 체류 시간이 없으므로 방문의 마지막 조회 시간에 대한 값은 새 시퀀스를 시작하지 않습니다. 사이트에서 보낸 평균 시간(초)은 분모에서 시퀀스를 사용합니다.
 
-   * 체류 시간 전용인 경우 Prop은 조회 2의 prop1에 대해 위에 표시된 대로 페이지 조회수에서 후속 링크 조회로 "확산"됩니다. 따라서 조회 1("A")의 prop1에 대해 설정된 값은 조회2의 체류 시간을 누적할 수 있습니다.
+   * 체류 시간만을 위해, prop은 히트 2의 prop1에 대해 위와 같이 페이지 히트에서 후속 링크 히트로 "전달"됩니다. 이렇게 하면 히트 1에서 prop1에 대해 설정된 값("A")이 히트 2에서 보낸 시간을 누적할 수 있습니다.
    * eVar는 eVar가 설정되어 있거나 지속되는 모든 조회에서 체류 시간을 누적합니다. eVar 지속성은 Analytics 관리의 eVar 설정에 의해 정의됩니다.
