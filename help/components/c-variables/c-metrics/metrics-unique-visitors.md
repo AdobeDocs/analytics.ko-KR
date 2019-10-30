@@ -5,9 +5,9 @@ seo-title: 고유 방문자 수
 solution: Analytics
 title: 고유 방문자 수
 topic: 지표
-uuid: AE 210698-99 F 9-485 E-A 640-C 7520807 ADC 7
+uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,9 @@ Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique 
 | 전환 | 방문자는 웹 사이트에 들어오는 사람입니다. 전환 관련 이벤트 또는 작업이 발생할 때 카운트됩니다. |
 | Ad Hoc Analysis | 방문자는 웹 사이트에 들어오는 사람입니다. 영구적 쿠키는 필요하지 않습니다. |
 
-[고유 방문자 보고서 - 버전 15 및 애드혹 분석을 참조하십시오](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+고유 [방문자 보고서 - 버전 15 및 애드혹 분석을 참조하십시오](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
 
 >[!MORE_LIKE_THIS]
 >
->* [일일 고유 방문자 명](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)
+>* [일일 고유 방문자 수](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)
 
