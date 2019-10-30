@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud에서 사용할 수 있는 변수에는 몇 가지 유형이 있습니다. 흔히 사용되는 Prop 및 eVar의 두 유형을 사용하면 조직에서 표준적인 기성 보고서로는 제공되지 않는 사용자 지정 차원에 대한 사이트 보고서를 만들 수 있습니다.
-keywords: Analytics 구현; prop; Evar; prop와 evar; 명명 규칙; 트래픽 변수; 지속성; 성공 이벤트; 경로 지정
+keywords: Analytics 구현;prop;evar;props 및 evars;이름 지정 규칙;트래픽 변수;지속성;성공 이벤트;경로 지정
 seo-description: Experience Cloud에서 사용할 수 있는 변수에는 몇 가지 유형이 있습니다. 흔히 사용되는 Prop 및 eVar의 두 유형을 사용하면 조직에서 표준적인 기성 보고서로는 제공되지 않는 사용자 지정 차원에 대한 사이트 보고서를 만들 수 있습니다.
 seo-title: Prop과 eVar 비교
 solution: Analytics
 title: Prop과 eVar 비교
 topic: 개발자 및 구현
-uuid: 0 F 02760 F-FF 69-481 C-A 817-799 F 02 DAFE 8 E
-translation-type: tm+mt
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -69,7 +69,7 @@ Experience Cloud에서 사용할 수 있는 변수에는 몇 가지 유형이 �
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_D75C764B83AE4491A7E68C459FED1300" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>시작 </p> </td> 
+   <td colname="col1"> <p>항목 </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_E9A1FCDFCB924D75ABFAEBD5570D4EE0" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_F5E57974B5A64F3FA3A145428420EB23" /> </p> </td> 
   </tr> 
@@ -140,7 +140,7 @@ Experience Cloud에서 사용할 수 있는 변수에는 몇 가지 유형이 �
 Prop에는 eVar의 몇 가지 장점들이 있으며, 그 중 일부는 우회할 수 있습니다.
 
 * Prop 데이터는 수집되어 거의 즉시 보고에서 사용할 수 있습니다. eVar는 보고서 세트 데이터에 표시되는 데 30분 이상 소요될 수 있습니다.
-* 모든 Prop에는 방문자가 사용자의 사이트에 도달하는 경로를 볼 수 있도록 해주는 플로차트와 유사한 보고서가 활성화될 수 있습니다. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* 모든 Prop에는 방문자가 사용자의 사이트에 도달하는 경로를 볼 수 있도록 해주는 플로차트와 유사한 보고서가 활성화될 수 있습니다. 이러한 경로 흐름 보고서는 [!UICONTROL Ad Hoc Analysis]의 Prop과 eVar 모두에서 사용할 수 있습니다.
 * Prop은 여러 수준과 관련지을 수 있으며, 이때 eVar는 하위 관계를 한 번만 맺을 수 있습니다. 이 제한은 동일한 데이터를 상관 관계로 제공하는 세그멘테이션을 사용하여 완화할 수 있습니다.
 * 기여도 지표를 사용하면 성공 이벤트 전에 prop 값이 기여한 내용을 볼 수 있습니다.
 
@@ -159,5 +159,5 @@ Prop에는 eVar의 몇 가지 장점들이 있으며, 그 중 일부는 우회�
 
 >[!TIP]
 >
->Evar가 지속되지 않도록 하려면 만료를'히트'로 변경하여 히트가 히트 이외의 데이터를 유지하도록 할 수 있습니다.
+>eVar가 유지되지 않게 하려면 변수 만료를 '히트'로 변경하여 히트 이후에 데이터가 유지되지 않도록 할 수 있습니다.
 
