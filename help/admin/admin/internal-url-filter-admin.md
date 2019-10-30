@@ -5,9 +5,9 @@ seo-title: 내부 URL 필터
 solution: Analytics
 title: 내부 URL 필터
 topic: 관리 도구
-uuid: 70868 EDB -208 D -4 DAD -9401-70967468 D 40 C
+uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 내부 URL 필터는 사이트 내부로 간주되는 참조를 식별합니다. 이 필터들은 트래픽 소스 보고서가 데이터를 채우도록 하고 내부 트래픽을 필터링하는 데 도움이 됩니다.
 
-참조 또는 참조 페이지는 일반적으로 방문자가 해당 페이지로부터 사용자의 사이트에 들어가게 되는 페이지입니다. 데이터 왜곡을 막기 위해 내부 참조를 필터링할 수 있습니다. 보고서는 필터링된 참조를 [레퍼러 보고서](/help/components/c-variables/dimensionslist/reports-referrers.md), [참조 도메인 보고서](/help/components/c-variables/dimensionslist/reports-referring-domains.md)및 기타 검색 방법 보고서.
+참조 또는 참조 페이지는 일반적으로 방문자가 해당 페이지로부터 사용자의 사이트에 들어가게 되는 페이지입니다. 데이터 왜곡을 막기 위해 내부 참조를 필터링할 수 있습니다. 보고서는 필터링된 참조를 레퍼러 [보고서](/help/components/c-variables/dimensionslist/reports-referrers.md), 참조 [도메인 보고서](/help/components/c-variables/dimensionslist/reports-referring-domains.md)및 기타 검색 방법 보고서.
 
 트래픽 소스 보고서가 데이터를 채우지 않는 가장 일반적인 원인은 내부 URL 필터 목록이 정의되지 않은 것입니다. 어느 내부 URL 필터가 보고서 세트에서 설정되었는지 확인하려면, 다음 절차를 따르십시오. 이를 방지하려면 필터로서 마침표(.)를 나열하는 규칙을 제거하고 자신의 사이트를 추가하십시오.
 
