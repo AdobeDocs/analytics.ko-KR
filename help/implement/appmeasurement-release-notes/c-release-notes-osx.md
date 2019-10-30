@@ -7,7 +7,7 @@ subtopic: 릴리스 노트
 title: Mac OS X
 topic: 개발자 및 구현
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!IMPORTANT]
 >
->이러한 SDK는 선셋이었는데 더 이상 Adobe에서 지원하거나 배포하지 않습니다.
+>이러한 SDK는 사용되지 않기 때문에 Adobe에서 더 이상 지원하거나 배포하지 않습니다.
 
 >[!NOTE]
 >
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
+>현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+모바일 라이브러리는 [!DNL Developer Connection]에서 [다운로드](https://marketing.adobe.com/developer/ko_KR/get-started/mobile/c-measuring-mobile-applications)할 수 있습니다.
 
 ## 버전 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -43,7 +43,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 릴리스 날짜: **2013년 8월 5일**
 
 * Adobe Audience Manager에 대한 지원이 추가되었습니다.
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* 이제 라이프사이클 데이터가 [!DNL Target] Mbox 요청과 함께 전송됩니다.
 
 ## 버전 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -61,10 +61,10 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 릴리스 날짜: **2013년 3월 21일**
 
-* `ADMS_Measurement.visitorID` 이제 기본값으로 미리 채워집니다.
+* `ADMS_Measurement.visitorID`는 이제 기본값으로 미리 채워집니다.
 
 ## 버전 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
 릴리스 날짜: **2013년 2월**
 
-초기 릴리스. This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+초기 릴리스. 이 버전은 [!DNL iOS] 3.1.4 코드베이스에 기반을 두고 있으므로 초기 버전 번호가 [!DNL iOS]와 일치하도록 설정되었습니다.
