@@ -3,12 +3,12 @@ description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고�
 seo-description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
 seo-title: 마케팅 채널에서의 분류
 solution: Analytics
-subtopic: Marketing channels
+subtopic: 마케팅 채널
 title: 마케팅 채널에서의 분류
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. 채널 값은 채널 세부 사항에서 분류되지 않은 값입니다.
 
->[!NOTE]
->
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
+> [!NOTE] Analytics 참조 도움말의 분류에서 분류 [만들기에](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) 익숙한지 확인합니다.
 
 >[!IMPORTANT]
 >
@@ -36,7 +34,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 | 용어 | 정의 |
 |--- |--- |
 | 텍스트 분류 | 보고 목적으로 변수 데이터를 그룹화할 수 있는 분류 카테고리 유형을 지정합니다. |
-| 이름 | 분류의 이름. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다 . |
+|  이름  | 분류의 이름. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다 . |
 | 옵션 | 분류의 이름. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다 . |
 
 ## 마케팅 채널 분류 만들기 {#task_BCA5597281574E339E71F3BBC1BE3DFA}
