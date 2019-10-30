@@ -1,13 +1,13 @@
 ---
 description: 'null'
-keywords: Analytics 구현; 링크 참조; REDIR
+keywords: Analytics 구현;링크 참조;리디렉션
 seo-description: 'null'
 seo-title: 모바일 프로토콜에서의 사용자 지정 링크 측정
 solution: Analytics
 title: 모바일 프로토콜에서의 사용자 지정 링크 측정
 topic: 개발자 및 구현
-uuid: EB 82 DE 26-DA 2 E -41 C 2-8924-59 B 6 B 5 CCEF 28
-translation-type: tm+mt
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -38,4 +38,4 @@ https://<your_Namespace>.112.2o7.net/b/ss/<RSID>/4/REDIR/
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-자세한 내용은 [종료 링크 추적 재지정 백서](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/)를 참조하십시오.
+자세한 내용은 [링크 추적 리디렉션 종료 백서](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/redirects/)를 참조하십시오.
