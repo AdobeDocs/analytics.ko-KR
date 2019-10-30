@@ -3,9 +3,9 @@ description: 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합
 seo-description: 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다.
 seo-title: 텍스트
 title: 텍스트
-uuid: 904 B 7170-073 F -44 EA -9 FCB -4019 BEFCAF 8 A
+uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
