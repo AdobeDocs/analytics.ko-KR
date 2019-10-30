@@ -5,9 +5,9 @@ seo-title: 요청 마법사를 사용하여 경로 보고서 필터링
 solution: Analytics
 title: 요청 마법사를 사용하여 경로 보고서 필터링
 topic: Report Builder
-uuid: 9 b 22 d 5 b 5-7 ae 8-49 a 2-90 ae -0 c 1075562 bbe
+uuid: 9b22d5b5-7ae8-49a2-90ae-0c107562bbe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,19 +25,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    ![](assets/site_section_path_1.png)
 
 1. 해당 날짜를 지정합니다.
-1. Click **[!UICONTROL Next]**.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Top 1-10 (pattern applied)]** link. 경로 보고서에는 기본적으로 패턴이 적용되어 있습니다.
 
    ![](assets/site_section_path_2.png)
 
-1. **[!UICONTROL 필터]** 옵션을 선택합니다.
+1. Select the **[!UICONTROL Filter]** option.
 
    ![](assets/filter_option.png)
 
 1. In the **[!UICONTROL Define 'Site Section Paths' Path Pattern]** dialog, you can specify
    1. 첫 번째 보고서의 시작 등급 
    1. 이 보고서에 표시하려는 항목 수 
-1. **[!UICONTROL 편집을]** 클릭하여 경로 패턴을 정의합니다.
+1. Click **[!UICONTROL Edit]** to define a path pattern.
 1. If you want a custom pattern, drag and drop any **[!UICONTROL Pattern Objects]** from the list on the left into the **[!UICONTROL Pattern Build Canvas]** on the right.
 
    ![](assets/custom_pattern.png)
@@ -54,7 +54,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    1. To select from a range of cells from a previous request, select **[!UICONTROL From range of cells]** and click the cell selector icon. 그런 후 보고서에서 셀을 선택합니다. ![](assets/choose_site_section_paths.png)
 
    1. To select from a list of site sections, select **[!UICONTROL From list]** and click **[!UICONTROL Add]**.
-   1. **[!UICONTROL 사용 가능한 요소]** 열에서 **[!UICONTROL 선택한 요소]** 열로 요소를 이동하고 주황색 화살표를 클릭하여 요소를 이동합니다. **[!UICONTROL 확인을 클릭합니다]**. ![](assets/move_site_section_elements.png)
+   1. Move elements from the **[!UICONTROL Available Elements]** column to the **[!UICONTROL Selected Elements]** column by selecting them and clicking the orange arrow. **[!UICONTROL 확인을 클릭합니다]**. ![](assets/move_site_section_elements.png)
 
    1. To save the pattern you just established, click **[!UICONTROL Save]**.
-   1. **[!UICONTROL 확인을]** 세 번 클릭한 다음 **[!UICONTROL 마침을]**&#x200B;클릭합니다. 필터링한 패턴 요청이 생성됩니다.
+   1. Click **[!UICONTROL OK]** three times and then click **[!UICONTROL Finish]**. 필터링한 패턴 요청이 생성됩니다.
