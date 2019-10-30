@@ -2,22 +2,22 @@
 description: 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
 keywords: Analytics 구현
 seo-description: 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
-seo-title: 기여도 분석 및 지속성
+seo-title: 속성 및 지속성
 solution: Analytics
-title: 기여도 분석 및 지속성
+title: 속성 및 지속성
 topic: 개발자 및 구현
-uuid: 5 dd 706 be -83 f 6-498 a-a 856-e 3 c 5 af 995348
-translation-type: tm+mt
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# 기여도 분석 및 지속성
+# 속성 및 지속성
 
 >[!IMPORTANT]
 >
->장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. [Adobe Experience Cloud Device Co-op 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcdc/)를 참조하십시오.
 
 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
 
@@ -31,12 +31,12 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 아래 예제는 고객이 첫 번째 장치에서 처음으로 인증되면 데이터가 어떻게 Adobe Analytics로 전송되는지를 보여 줍니다.
 
-* `eVar16` 1 일의 만료 기간이 있고 방문 시 `evar17` 만료됩니다.
+* `eVar16`에는 1일의 만료 기한이 있고 `evar17`은 방문 시 만료됩니다.
 
-* `post_visitor_id` 열은 Adobe Analytics에서 유지 관리하는 프로필을 나타냅니다.
-* `post_evar16` AND `post_evar17` 열은 evar의 지속성을 보여줍니다.
+* `post_visitor_id` 열은 Adobe Analytics에 의해 유지 관리되는 프로필을 나타냅니다.
+* `post_evar16` 및 `post_evar17` 열은 eVar의 지속성을 나타냅니다.
 
-* `cust_visid` 에 설정된 값을 나타냅니다 `s.visitorID`.
+* `cust_visid`는 `s.visitorID`에 설정된 값을 나타냅니다.
 
 * 각 행은 하나의 '히트'로서, Adobe Analytics 데이터 수집 서버로 전송된 단일 요청입니다.
 
