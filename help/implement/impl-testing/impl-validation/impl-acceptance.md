@@ -6,8 +6,8 @@ seo-title: 구현 수락
 solution: Analytics
 title: 구현 수락
 topic: 개발자 및 구현
-uuid: 6 F 7 EC 56 E -9 E 4 F -4 DC 8-B 534-92 B 1580 B 5 B 47
-translation-type: tm+mt
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 구현하는 동안 Adobe 컨설턴트가 기술 문제를 해결하고, 필요에 따라 솔루션 고안을 돕습니다.
 1. 클라이언트 측 기술 인력이 구현에 대한 단위 테스트를 수행합니다.
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   테스터는 [!DNL Analytics]에 로그인하여 모든 변수( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion 변수, 사용자 지정 트래픽 변수, *`products`* 및 기타 모든 변수)를 확인합니다.
 1. 클라이언트가 구현이 완료되었음을 Adobe에 알립니다.
 
    클라이언트는 확인 샘플(데이터 샘플)을 Adobe 컨설턴트에게 보내 데이터의 정확성을 확인합니다. (VISTA가 생성한 보고서 세트는 적절한 지표의 비교를 통해 확인됩니다. 이와 같은 보고서 세트용의 확인할 지표에 대한 클라이언트-Adobe 계약은 VISTA 규칙이 만들어질 때 미리 수행됩니다.)
