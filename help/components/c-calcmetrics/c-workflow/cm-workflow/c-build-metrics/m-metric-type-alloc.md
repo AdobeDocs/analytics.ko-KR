@@ -3,9 +3,9 @@ description: 지표 옆에 있는 톱니바퀴 아이콘을 선택하여 지표 
 seo-description: 지표 옆에 있는 톱니바퀴 아이콘을 선택하여 지표 유형 및 속성 모델을 지정할 수 있습니다.
 seo-title: 지표 유형 및 속성
 title: 지표 유형 및 속성
-uuid: 64649698-DF 2 A -42 C 3-BB 31-938 F 766 E 1 D 1 F
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,15 +34,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 속성 모델로 마이그레이션되었습니다.
 >
 >* 기본이 아닌 속성 모델 및 전환 확인 창의 전체 목록에 대해서는 [속성 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 설명서를 참조하십시오.
->* "마케팅 채널 마지막 터치" 및 "마케팅 채널 첫 번째 터치" 할당 모델은 새 "마지막 터치" 및 "첫 번째 터치" 속성 모델로 마이그레이션됩니다. 참고: "마케팅 채널"은 더 이상 사용되지 않으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용됩니다.
->* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. 고객이 선형 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [선형 할당 작동 방식(2018년 7월 19일 자)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
+>* "마케팅 채널 마지막 터치" 및 "마케팅 채널 첫 번째 터치" 할당 모델은 각각 새로운 "마지막 터치" 및 "첫 번째 터치" 속성 모델로 마이그레이션됩니다(참고:"마케팅 채널"은 더 이상 사용되지 않습니다. 계산된 지표에 나타나는 두 개의 할당 모델만 사용할 수 있습니다.
+>* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. "선형" 할당 모델에서 계산된 지표를 사용하는 고객의 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [선형 할당 작동 방식(2018년 7월 19일 자)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
 >
 
 
 
 ## 선형 할당 작동 방식(2018년 7월 19일 자) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-2018 년 7 월, Adobe는 계산된 지표에 대해 선형 할당이 보고되는 방식을 변경했습니다. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 변경 사항은 주로 지속성이 있는 eVars 및 기타 차원에 영향을 줍니다. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 선형 할당을 사용하는 다른 보고서는 계속해서 기존의 선형 할당 방법을 사용합니다.
+2018년 7월, Adobe는 계산된 지표에 대한 선형 할당이 보고되는 방식을 변경했습니다. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 변경 사항은 주로 지속성이 있는 eVars 및 기타 차원에 영향을 줍니다. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 선형 할당을 사용하는 다른 보고서는 계속해서 기존의 선형 할당 방법을 사용합니다.
 
 다음 예제는 선형 할당을 사용하여 계산된 지표가 보고에서 변경되는 방식을 보여줍니다.
 
@@ -120,7 +120,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **2018년 7월 19일부터 선형 할당이 작동하는 방식 요약**
 
-7월 19일 이후에 계산된 지표에서 이 동작을 수정했습니다. [!DNL Analytics] 이제 마지막 터치 또는 첫 번째 터치를 기준으로 지속되는 값을 사용하는 대신 전달된 값만 사용합니다 (맨 위 표의 첫 번째 행). 따라서 차원 할당 설정은 더 이상 선형 할당이 계산되는 방식에 영향을 주지 않으며(즉, props 및 eVars가 같은 방식으로 처리됨), 결과는 지속되었을 수 있는 첫 번째 또는 마지막 터치 값이 아닌 처음에 전달된 것을 반영합니다. 따라서 세 가지 경우 모두 A = 10 * (2/4) = $5, B = 10 * (1/4) = $2.50, C = 10 * (1/4) = $2.50입니다.
+7월 19일 이후에 계산된 지표에서 이 동작을 수정했습니다. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). 따라서 차원 할당 설정은 더 이상 선형 할당이 계산되는 방식에 영향을 주지 않으며(즉, props 및 eVars가 같은 방식으로 처리됨), 결과는 지속되었을 수 있는 첫 번째 또는 마지막 터치 값이 아닌 처음에 전달된 것을 반영합니다. 따라서 세 가지 경우 모두 A = 10 * (2/4) = $5, B = 10 * (1/4) = $2.50, C = 10 * (1/4) = $2.50입니다.
 
 | 값 | 새로운 마지막 터치 eVar | 새로운 첫 번째 터치 eVar | 새 Prop |
 |---|---|---|---|
