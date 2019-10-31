@@ -1,16 +1,16 @@
 ---
 description: 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
 seo-description: 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
-seo-title: 시간 분할 차원
-title: 시간 분할 차원
-uuid: C 9 FA 7921-AA 57-483 C-B 2 F 9-DA 55013 ADA 17
+seo-title: 차원 시간 분할
+title: 차원 시간 분할
+uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 시간 분할 차원
+# 차원 시간 분할
 
 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
 
@@ -21,9 +21,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 평일 판매와 주말 판매를 비교하면 어떻습니까?
 * 아침 또는 오후에 특히 전환이 높게 생성되는 특정 마케팅 캠페인이 있습니까?
 
->[!NOTE]
->
->시간 분할 차원은 분석 작업 공간에서만 사용할 수 있습니다. 다른 분석 솔루션에서 시간 분할 차원을 사용하려면 [getTimeParting 플러그인](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html)을 구현할 수 있습니다.
+> [!NOTE] 시간 분할 차원은 분석 작업 공간에서만 사용할 수 있습니다. 다른 분석 솔루션에서 시간 분할 차원을 사용하려면 [getTimeParting 플러그인](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html)을 구현할 수 있습니다.
 
 Analysis Workspace의 시간 분할 차원에는 다음 항목이 포함됩니다.
 
