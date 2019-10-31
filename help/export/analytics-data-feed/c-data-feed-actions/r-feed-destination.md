@@ -1,13 +1,13 @@
 ---
 description: '[피드 대상] 섹션에서는 피드가 배포되는 방식을 정의합니다.'
-keywords: 데이터 피드; 피드; 대상; Sftp; S 3; ftp; 설정
+keywords: 데이터 피드;피드;대상;sftp;s3;ftp;settings
 seo-description: '[피드 대상] 섹션에서는 피드가 배포되는 방식을 정의합니다.'
 seo-title: 피드 대상
 solution: Analytics
 title: 피드 대상
-uuid: 4 a 59 e 8 de-e 7 a 6-4 f 7 a-bf 42-db 7 d 59 e 61 b 4 c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ Azure Blob에 파일을 업로드할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> 호스트 </p> </td> 
-   <td colname="col2"> <p>FTP 또는 SFTP 호스트 위치를 지정합니다. </p> <p>이 값은 적절한 ftp/sftp 형식, <code>ftp.domain.com/subdomain</code> 또는 <code>sftp.domain.com/subdomain</code>을 준수해야 합니다. </p> <p> FTP와 sFTP에 대한 표준 포트 21 및 22는 필수입니다. </p> </td> 
+   <td colname="col2"> <p>FTP 또는 SFTP 호스트 위치를 지정합니다. </p> <p>This value must comply to the proper ftp/sftp format, <code> ftp.domain.com/subdomain</code> or <code> sftp.domain.com/subdomain</code>. </p> <p> FTP와 sFTP에 대한 표준 포트 21 및 22는 필수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>암호 </p> <p>암호 확인 </p> </td> 
