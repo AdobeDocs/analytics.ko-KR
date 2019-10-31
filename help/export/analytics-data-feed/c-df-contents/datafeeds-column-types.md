@@ -1,14 +1,14 @@
 ---
 description: '이전 열에는 데이터 수집으로 전송된 상태의 데이터가 있습니다. 이후 열에는 처리된 후의 값이 있습니다. '
-keywords: 데이터 피드; 작업; pre column; 이후 열; 대/소문자 구분
+keywords: 데이터 피드;작업;이전 열;이후 열;대/소문자 구분
 seo-description: '이전 열에는 데이터 수집으로 전송된 상태의 데이터가 있습니다. 이후 열에는 처리된 후의 값이 있습니다. '
 seo-title: 이전 열과 이후 열
 solution: Analytics
 title: 이전 열과 이후 열
-topic: Reports & Analytics
-uuid: A 415327 B -6151-4 D 08-B 8 B 9-5 AAA 2348 EB 0 C
+topic: Reports and Analytics
+uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,8 +29,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 이전 열과 이후 열에서 동일한 값이 대소문자가 다르게 되어 있는 경우(예: 이전 열에는 "snow", 이후 열에는 "Snow") 사이트에서 동일한 값의 대문자 버전과 소문자 버전 모두를 전달한다는 의미입니다. 이후 열에서 대소문자가 다른 값은 이전에 전달되어 가상 쿠키에 저장되어 있거나, 해당 보고서 세트에 대해 동일한 시간 동안 처리되었습니다. 예:
 
-히트 1: s.list1="Tabby,Persian,Siamese”;
+히트 1: s.list1="Tabby,Persian,Siamese";
 
-히트 2: s.list1=“tabby,persian,siamese”;
+히트 2:s.list1="tabby,persian,siamese";
 
 히트 2가 데이터 피드에서 보고되면, 이전 열에는 전달된 정확한 대소문자가 들어 있게 됩니다(tabby,persian,siamese). 하지만 히트 1에서 나온 값은 해당 방문 동안 지속될 가능성이 높고, 대소문자 구분 없이 비교할 때는 정확하게 동일한 값이 히트 1과 2에 들어 있으므로 이 값은 이후 열에 보고됩니다(Tabby,Persian,Siamese).
