@@ -6,7 +6,7 @@ solution: Analytics
 title: 통합 사용
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,9 +15,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 배포되면 이 통합이 제공하는 추가 기능을 사용할 수 있습니다. 다음은 Adobe Analytics 내에서 이 통합에서 가치를 얻기 위해 수행하는 작업입니다.
 
->[!NOTE]
->
->Adobe Analytics 보고 내에서 Kampyle 응답 데이터를 보려면 24-48시간이 걸릴 수 있습니다.
+> [!NOTE] Adobe Analytics 보고 내에서 Kampyle 응답 데이터를 보려면 24-48시간이 걸릴 수 있습니다.
 
 ## 피드백 및 온사이트 행동 데이터 혼합{#mix-feedback-and-onsite-behavior-data}
 
