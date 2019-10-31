@@ -6,9 +6,9 @@ seo-title: 방문
 solution: Analytics
 title: 방문
 topic: 지표
-uuid: 91317487-F 116-4546-8 CD 2-421418 C 49 A 7 A
+uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 중단 없는 일련의 페이지 보기입니다. 방문 지표는 일반적으로 선택된 기간 내의 사용자 세션 수를 표시하는 보고서에 사용됩니다.
 
->[!NOTE]
->
->For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+> [!NOTE] 방문 횟수 및 모바일 앱 시작 횟수를 계산하는 방법에 대한 자세한 내용은 기술 [자료에서 방문 횟수와 모바일 앱](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) 실행 비교를 참조하십시오.
 
 방문 지표는 항상 기간과 연관되어 있으므로 동일한 방문자가 사이트에 돌아오는 경우 새 방문을 계산할지 여부를 알 수 있습니다. 세션은 사용자가 사이트에 처음 도착하면 시작되고 다음 중 한 가지 시나리오에서 종료됩니다.
 
@@ -28,9 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * **2500히트:** 사용자가 새 세션을 시작하지 않고 히트를 대량으로 발생시키면 2500개의 이미지 요청 후에 새 방문이 계산됩니다.
 * **100초에 100히트**: 방문이 100초 이내에 발생한 100개가 넘는 히트로 구성되는 경우, 방문이 자동으로 끝납니다. 이 동작은 일반적으로 보트 활동을 가리키는데, 이러한 처리 중심 방문이 지연을 증가시키고 보고서를 생성하는 데 드는 시간을 증가시키지 않도록 하기 위해 이러한 제한이 적용됩니다.
 
->[!NOTE]
->
->보고서 세트에 대한 방문의 정의는 구체적으로 요청할 경우 줄일 수 있지만 연장할 수는 없습니다. 조직에서 지원되는 사용자 중 한 명이 고객 지원 센터에 연락하여 이 변경 사항을 요청하도록 하십시오.
+> [!NOTE] 보고서 세트에 대한 방문의 정의는 구체적으로 요청한 경우 줄일 수 있지만 연장할 수 없습니다. 조직에서 지원되는 사용자 중 한 명이 고객 지원 센터에 연락하여 이 변경 사항을 요청하도록 하십시오.
 
 다음 시나리오에서는 새 방문이 시작되지 않습니다.
 
@@ -41,9 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 방문이 끝나면, 방문 만료가 있는 모든 변수는 만료되고 더 이상 지속되지 않습니다. 방문 번호 지표는 이 방문자에 대해 다음 방문 시 증가합니다.
 
->[!NOTE]
->
->If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+> [!NOTE] Analytics를 Adobe Target의 보고 소스로 사용하는 경우 [설명서의 A4T에서 부풀려진 방문 및 방문자 수](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) 최소화를 참조하십시오 [!DNL Target] .
 
 자세한 내용은 Adobe Analytics 구현 안내서의 [고유 방문자 식별](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)을 참조하십시오.
 
