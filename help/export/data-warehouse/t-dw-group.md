@@ -5,9 +5,9 @@ seo-title: Data Warehouse 사용자 그룹 추가
 solution: Analytics
 title: Data Warehouse 사용자 그룹 추가
 topic: Data Warehouse
-uuid: D 89294 DB-CAA 3-4044-B 70 D -65 B 512 B 0 DC 1 C
+uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,15 +16,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 관리자가 사용자 그룹에 대한 Data Warehouse 보고 액세스 권한을 활성화할 수 있는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리를 클릭합니다]**.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 1. Click **[!UICONTROL Add New User Group]**.
 1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. 다음 그룹 정보를 입력하십시오. 
 
    예, `Data Warehouse Access`.
-1. **[!UICONTROL 그룹 설명]** 필드에 설명을 입력합니다.
-1. **[!UICONTROL 보고서 세트 액세스 권한]** 섹션에서 그룹 구성원이 액세스할 수 있게 하려는 보고서 세트를 선택합니다.
-1. [!UICONTROL 도구]아래에서 모든 도구를 활성화합니다 ****.
+1. Type a description in the **[!UICONTROL Group Description]** field.
+1. In the **[!UICONTROL Report Suite Access]** section, select the report suites that you want group members to be able to access.
+1. Under [!UICONTROL Tools], enable **[!UICONTROL All Tools]**.
 
    Alternatively, click **[!UICONTROL Customize]**, then enable **[!UICONTROL Custom Data Warehouse Report]**.
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >권한이 충돌하는 경우 (한 그룹은 기능에 대한 액세스를 거부하고 다른 그룹은 동일한 액세스를 부여하는 두 그룹에 할당된 사용자 등), 시스템에서 권한을 제한합니다. Data Warehouse 액세스를 거부하는 그룹에 속하는 사용자는 해당 그룹에서 제거해야 할 수 있습니다.
+   >권한이 충돌하는 경우(두 그룹에 할당된 사용자 중 한 그룹은 기능에 대한 액세스를 거부하고 다른 그룹은 동일한 액세스를 부여하는 경우) 시스템에서 권한을 제한합니다. Data Warehouse 액세스를 거부하는 그룹에 속하는 사용자는 해당 그룹에서 제거해야 할 수 있습니다.
 
 >[!MORE_LIKE_THIS]
 >
