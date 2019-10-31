@@ -1,18 +1,18 @@
 ---
 description: Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
-keywords: ftp; Sftp
+keywords: ftp;sftp
 seo-description: Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
-seo-title: Sftp를 사용하여 Adobe FTP 계정에 연결
+seo-title: SFTP를 통해 Adobe FTP 계정에 연결
 solution: Analytics
-title: Sftp를 사용하여 Adobe FTP 계정에 연결
-uuid: 4 FAF 27 B 8-7276-4 C 68-87 CB -35802 B 809 E 27
+title: SFTP를 통해 Adobe FTP 계정에 연결
+uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Sftp를 사용하여 Adobe FTP 계정에 연결
+# SFTP를 통해 Adobe FTP 계정에 연결
 
 Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
 
@@ -30,9 +30,9 @@ Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
 1. Upload [!DNL authorized_keys] to an FTP account:
 
    * Adobe FTP 계정에 연결합니다.
-   * [!DNL .ssh] 디렉토리를 만듭니다 (아직 없는 경우).
+   * Create a [!DNL .ssh] directory (if it does not already exist).
    * Upload the [!DNL authorized_keys] file to the [!DNL .ssh] directory.
 
-1. Sftp를 사용하여 FTP 계정에 로그인하여 연결을 테스트합니다.
+1. SFTP를 사용하여 FTP 계정에 로그인하여 연결을 테스트합니다.
 
-For more detailed information, see [How to Connect to Adobe via sFTP Without a Password_...](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846).
+[자세한 내용은 sFTP ](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846)를 통해 암호 없이 Adobe에 연결하는 방법_...을 참조하십시오..
