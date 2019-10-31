@@ -8,8 +8,8 @@ subtopic: 방문자 수
 title: 방문 횟수
 topic: 개발자 및 구현
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. [Adobe Experience Cloud Device Co-op 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcdc/)를 참조하십시오.
+>장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. Adobe Experience [Cloud Device Co-op 설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 Analytics에서는 서버 호출이 방문 페이지 번호가 1인 채 발생할 때마다 방문을 계산합니다.
 
