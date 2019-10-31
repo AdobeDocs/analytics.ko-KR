@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-49 파섹
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ Audience Analytics의 통합은 다음과 같은 주요 이점을 제공합니�
 
 1. 방문자가 귀하의 디지털 자산에 방문할 때마다 히트 수가 수집되어 Analytics으로 전송됩니다.
 1. 포함 [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md), Analytics에서 수신한 각 히트 수는 자동으로 실시간으로 AAM으로 전송됩니다.
-1. Audience Analytics 통합을 통해 각 히트에 대해 AAM에서 방문자의 대상 멤버십을 조회하고 세그먼트 ID 목록을 실시간으로 처리하기 위해 Analytics에 반환됩니다.
+1. Audience Analytics 통합을 통해 각 히트에 대해 방문자의 대상 멤버십이 AAM에서 검색되고 실시간으로 처리를 위해 세그먼트 ID 목록이 Analytics로 반환됩니다.
 
 AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문자에 대해 사용할 수 있는 데이터가 누락되지 않고 해당 히트에 대해 최신 상태인지 확인할 수 있습니다. 이 기능은 플러그인이 (현재 히트가 아닌) 다음 히트에서만 사용할 수 있는 세그먼트를 만들 수 있으므로 AppMeasurement 플러그인보다 뛰어납니다.
 
-또한 AAM 세그먼트 ID를 사용자에게 친숙한 이름으로 자동 분류하므로 Analytics 보고서에서 영숫자 ID를 확인하지 않아도 됩니다.
+또한 AAM 세그먼트 ID를 친숙한 이름으로 자동으로 분류하므로 Analytics 보고서에서 영숫자 ID를 확인할 필요가 없습니다.
 
 ## 전제 조건 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
