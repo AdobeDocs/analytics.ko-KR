@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 |---|---|---|---|
 | N/A | cl | 트래픽 &gt; 기술 &gt; 쿠키. 모든 방문자 관련 보고서 | "" |
 
-만약 *`cookieLifetime`* 이 설정되면, 이 값은 아래 설명된 한 가지 예외를 제외하고 JavaScript와 데이터 수집 서버 모두에 대한 다른 쿠키 만료를 무시합니다. The *`cookieLifetime`* variable can have one of three values:
+If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 변수에는 다음 세 가지 값 중 하나를 지정할 수 있습니다.
 
 * [!DNL Analytics] 쿠키
 * 쿠키
@@ -53,4 +53,4 @@ s.cookieLifetime="86400" // one day in seconds
 
 ## 함정, 질문 및 팁
 
-*`cookieLifetime`* 는 [!DNL Analytics] 추적에 영향을 줍니다. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. 따라서 *`cookieLifetime`*.
+*`cookieLifetime`*&#x200B;은 [!DNL Analytics] 추적에 영향을 줍니다. 예를 들어 *`cookieLifetime`*&#x200B;이 2일이면 월별, 분기별 및 연간 고유 방문자 보고서가 올바르지 않게 됩니다. 따라서 *`cookieLifetime`*.
