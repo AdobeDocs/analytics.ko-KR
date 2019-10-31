@@ -5,7 +5,7 @@ seo-title: 데이터 커넥터 통합 마법사 실행
 title: 데이터 커넥터 통합 마법사 실행
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 데이터 커넥터 통합 마법사는 데이터 커넥터 통합 프로세스를 안내합니다.
 
-1. 에 [!DNL Adobe Experience Cloud]로그인합니다.
+1. Log in to the [!DNL Adobe Experience Cloud].
 1. 원하는 보고서 세트가 [!DNL Report Suite] 메뉴에서 활성 상태인지 확인합니다.
 1. Adobe **[!UICONTROL Experience Cloud]** &gt; 데이터 **[!UICONTROL 커넥터를 클릭합니다]**.
 
