@@ -3,9 +3,9 @@ description: 세 가지 제품 호환성 옵션에 대해 설명합니다.
 seo-description: 세 가지 제품 호환성 옵션에 대해 설명합니다.
 seo-title: 지표 호환성
 title: 지표 호환성
-uuid: F 2706 E 2 B-C 0 CC -4 AF 2-BCB 4-1318796 E 9845
+uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
