@@ -1,22 +1,22 @@
 ---
 description: 롤업 보고서 세트의 생성 방법을 설명하는 단계입니다.
 seo-description: 롤업 보고서 세트의 생성 방법을 설명하는 단계입니다.
-seo-title: 롤업 보고서 세트 생성
+seo-title: 롤업 보고서 세트 만들기
 solution: Analytics
-title: 롤업 보고서 세트 생성
+title: 롤업 보고서 세트 만들기
 topic: 관리 도구
-uuid: D 4 BAB 32 A -2 A 09-49 A 7-B 280-29 F 8 F 33 EE 021
+uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 롤업 보고서 세트 생성
+# 롤업 보고서 세트 만들기
 
 롤업 보고서 세트의 생성 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. **보고서 세트 그룹에서[!UICONTROL 롤업]** 머리글 옆에 있는 **[!UICONTROL 추가]를 클릭합니다.**
 1.  **새 롤업 만들기** 대화 상자에서 다음 정보를 제공합니다. 
 
