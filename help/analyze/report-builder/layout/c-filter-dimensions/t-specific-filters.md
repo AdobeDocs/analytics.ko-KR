@@ -5,9 +5,9 @@ seo-title: 특정 필터
 solution: Analytics
 title: 특정 필터
 topic: Report Builder
-uuid: b 3 a 8187 a -3 d 59-4 da 0-abca-e 933664332 e 3
+uuid: b3a8187a-3d59-4da0-abca-e9336432e3
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
 
    ![단계 결과](assets/choose_page_specific01.png)
 
-1. **[!UICONTROL 특정]**&#x200B;옵션을 활성화한 다음 다음 옵션 중 하나를 활성화합니다.
+1. Enable **[!UICONTROL Specific]**, then enable one of the following options:
 
    * **셀 범위에서:** 셀에서 데이터를 선택할 수 있도록 해줍니다. 다음 항목을 선택할 수 있습니다.
    * **범위의 모든 셀:** 범위의 모든 셀을 매핑할 수 있도록 해줍니다. 설명 텍스트가 선택해야 하는 셀 그룹의 수를 알려줍니다. 셀 그룹을 두 개 이상 매핑하려면 Ctrl 키를 눌러 연속적으로 선택합니다. 매핑해야 하는 범위에 셀이 하나만 있을 경우 이 선택 사항은 사용할 수 있는 유일한 선택 사항입니다.
