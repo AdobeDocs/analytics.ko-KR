@@ -5,7 +5,7 @@ seo-title: 이 통합을 활성화하기 전에
 title: 이 통합을 활성화하기 전에
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ Silverpop과 관련된 이 데이터 커넥터 통합에 대한 다음 정보를
 * **** 유효한 실버팝 계정:데이터 커넥터 이메일 통합을 사용하려면 클라이언트에 활성 실버팝 계정과 활성화된 사용자 자격 증명이 있어야 합니다.
 * **실버팝 담당자에게 문의하십시오**. 이 통합은 Silverpop에서 자동으로 활성화되지 않습니다. Analytics에서 데이터를 가져오거나 내보내려면 먼저 Silverpop 담당자에게 연락하여 Silverpop 설정을 시작해야 합니다.
 
->[!NOTE]
->
->이 통합은 Engage 조직(Transact가 아님)에서만 작동합니다.
+> [!NOTE] 이 통합은 Engage 조직(Transact가 아님)에서만 작동합니다.
 
 ## 가격 책정{#pricing}
 
