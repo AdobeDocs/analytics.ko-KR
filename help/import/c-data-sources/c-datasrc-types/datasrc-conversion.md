@@ -1,14 +1,14 @@
 ---
 description: 데이터 소스는 전환으로서 처리되는 데이터 유형을 위한 다음의 전환 데이터 차원 및 지표를 지원합니다.
 seo-description: 데이터 소스는 전환으로서 처리되는 데이터 유형을 위한 다음의 전환 데이터 차원 및 지표를 지원합니다.
-seo-title: 변환
+seo-title: 전환
 solution: Analytics
-subtopic: Data Sources
-title: 변환
+subtopic: 데이터 소스
+title: 전환
 topic: 개발자 및 구현
-uuid: 5 E 7907 B 1-6 C 9 C -4073-876 B -410 F 3 A 29767 D
+uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 날짜 | MM/DD/YYYY/HH/mm/SS(예: 01/01/2015/06/00/00) 날짜 형식을 사용합니다. |
 | 카테고리 | 카테고리 이름.  카테고리를 지정하면 제품도 선택해야 합니다. |
 | 채널 | 채널 이름. |
-| Evarn | Evarn 이름. n의 유효한 값은 1-75의 정수입니다. |
+| eVarn | eVar 이름. n의 유효한 값은 1-75의 정수입니다. |
 | 제품 | 제품 이름. |
 | 상태 | 상태 이름. |
 | Zip | Zip 이름. |
@@ -45,8 +45,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 장바구니 보기 | 장바구니 보기 수. |
 | 체크아웃 | 체크아웃 수. |
 | 이벤트 n | 이벤트 n의 발생 횟수. n의 유효한 값은 1-100의 정수입니다.  보기 이벤트를 지정하면 해당 데이터 차원(eVar)도 지정해야 합니다. 예를 들어 eVar2 보기를 포함시키려면 값이 있는 eVar2를 나열해야 합니다. |
-| Evarn 뷰 수 | eVarn을(를) 본 횟수. n의 유효한 값은 1-75의 정수입니다. |
+| eVarn 보기 | eVarn을(를) 본 횟수. n의 유효한 값은 1-75의 정수입니다. |
 | 가격 | 제품 가격.  |
 | 주문 | 발생한 주문 수. |
-| 제품 보기 횟수 | 제품 보기 횟수. |
+| 제품 보기 | 제품 보기 횟수. |
 | 수량 | 판매 수량. |
