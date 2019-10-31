@@ -6,9 +6,9 @@ seo-title: 시각화 개요
 solution: Analytics
 title: 시각화 개요
 topic: Reports and Analytics
-uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a5455
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 Analysis Workspace에서 시각화 및 시각화 설정에 대해 알아봅니다.
 
-[Visualization Types in Analysis Workspace on YouTube (2:57)](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+[YouTube 분석 작업 공간의 시각화](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) 유형(2:57)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -67,7 +67,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
   </tr> 
   <tr> 
    <td colname="col1"> <p>표준화 </p> </td> 
-   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. See  Normalization.<a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"></a> </p> </td> 
+   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. 표준화를 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이중 축 표시 </p> </td> 
