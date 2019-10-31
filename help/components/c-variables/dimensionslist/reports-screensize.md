@@ -5,9 +5,9 @@ seo-title: 화면 크기
 solution: Analytics
 title: 화면 크기
 topic: 보고서
-uuid: A 71378 C 7-91 B 1-43 DA -8583-FBBDC 5 DF 39 BA
+uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
