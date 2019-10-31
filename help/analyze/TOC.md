@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 분석 안내서
 user-guide-url: /content/help/ko-KR/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
-      + 속성 {attribution}
+      + 속성 {#attribution}
          + [속성 개요](analysis-workspace/c-panels/attribution/attribution.md)
          + [속성 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [기여도 FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
