@@ -1,18 +1,18 @@
 ---
 description: 이제 Adobe Report Builder에는 Analytics 관리 도구의 권한 부여 설정과 유사한 권한 부여 설정이 포함됩니다.
 seo-description: 이제 Adobe Report Builder에는 Analytics 관리 도구의 권한 부여 설정과 유사한 권한 부여 설정이 포함됩니다.
-seo-title: 차원 및 지표에 대한 사용자 액세스 권한
+seo-title: 차원 및 지표의 사용자 액세스 권한
 solution: Analytics
-title: 차원 및 지표에 대한 사용자 액세스 권한
+title: 차원 및 지표의 사용자 액세스 권한
 topic: Report Builder
-uuid: B 561407 D-C 4 FA -4 F 1 E -8 B 16-5 CA 46 FCBF 36 F
+uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 차원 및 지표에 대한 사용자 액세스 권한
+# 차원 및 지표의 사용자 액세스 권한
 
 이제 Adobe Report Builder에는 Analytics 관리 도구의 권한 부여 설정과 유사한 권한 부여 설정이 포함됩니다.
 
@@ -27,7 +27,7 @@ source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
 1. 통합 문서를 엽니다.
 1. 모든 요청 새로 고침.
 1. 사용자 액세스 권한 오류가 표시되면 **[!UICONTROL CSV 파일 열기]를 클릭하여 제한된 권한 오류 목록에 액세스할 수 있습니다.**
-1. 파일 “AllRestrictedPermissionErrors.xlsx”를 만들고 CSV 파일의 제한된 권한 오류 목록을 복사한 후 이 파일에 붙여 넣습니다.
+1. "AllRestrictedPermissionErrors.xlsx" 파일을 만들고 CSV 파일의 제한된 권한 오류 목록을 복사하여 이 파일에 붙여 넣습니다.
 1. Report Builder 통합 문서를 닫습니다.
 
-모든 통합 문서를 처리했으면 “AllRestrictedPermissionErrors.xlsx”에서 제한된 권한 오류의 포괄적 목록이 표시됩니다. 이 목록을 Adobe Analytics 사용자 액세스 관리자로 보내 지표 및 차원에 대한 액세스 권한을 요청하십시오.
+모든 통합 문서를 처리했으면 "AllRestrictedPermissionErrors.xlsx"에서 제한된 권한 오류의 포괄적인 목록이 있어야 합니다. 이 목록을 Adobe Analytics 사용자 액세스 관리자로 보내 지표 및 차원에 대한 액세스 권한을 요청하십시오.
