@@ -2,11 +2,11 @@
 keywords: Analysis Workspace
 seo-title: 분석 작업 공간 개요
 solution: Analytics
-title: 분석 작업 공간 개요
-topic: Reports & Analytics
-uuid: 4 DF 6 BE 48-2 C 88-4 B 9 D -9536-ED 64 FFBB 6 EE 4
+title: Analysis Workspace 개요
+topic: Reports and Analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 �
 
 전체 Youtube 재생 목록은 [여기](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)에서 사용할 수 있습니다.
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] 기능에 [대한 업데이트는 분석 작업](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) 공간의 새로운 기능을 참조하십시오.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 옵션인 "패널 링크 가져 오기" 및 "시각화 링크 가져오기"가 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. "패널 링크 가져오기" 및 "시각화 링크 가져오기"라는 새로운 마우스 오른쪽 단추 클릭 옵션이 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
 
 1. 텍스트 시각화를 프로젝트 내의 맥락이 필요한 시각화 또는 테이블 옆으로 드래그합니다.
 1. 예를 들어 목차로 텍스트 상자를 채운 다음 패널이나 시각화에 연결할 항목(예: 성공 지표)을 강조 표시합니다.
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 프로젝트 내에서 패널 또는 시각화가 축소된 경우 링크를 클릭하면 패널/시각화가 확장되어 사용자가 볼 수 있습니다.
 
->[!NOTE]
->
->**[!UICONTROL 편집 설명]** 마우스 오른쪽 단추 클릭 옵션 내에서 이 기능을 사용할 수도 있습니다.
+> [!NOTE] 이 기능은 설명 편집 **[!UICONTROL 마우스 오른쪽 단추 클릭]** 옵션 내에서 사용할 수도 있습니다.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -121,7 +117,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-see [세그먼트](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)를 참조하십시오.
+자세한 내용은 [세그먼트](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -144,7 +140,7 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 | 공유 | 세그먼트에만 적용됩니다. |
 | 삭제 | 세그먼트에만 적용됩니다. |
 
-See [Visualizations](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) for more information.
+자세한 [내용은](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) 시각화를 참조하십시오.
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
