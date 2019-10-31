@@ -5,9 +5,9 @@ seo-title: 기여도 지표 추가
 solution: Analytics
 title: 기여도 지표 추가
 topic: 지표
-uuid: 0 cadc 5 f 7-64 d 0-442 a -8 faf-b 3 bf 13 f 04434
+uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Participation has to be [enabled](../../../components/c-variables/c-metrics/metr
 
 1. 로그인하여 기여도 지표를 요청한 전환 보고서 또는 트래픽 보고서로 이동합니다.
 1. **[!UICONTROL 지표 추가를 클릭합니다]**.
-1. **[!UICONTROL 지표 유형]** 메뉴에서 **[!UICONTROL 기여도를 선택합니다]**.
+1. Under the **[!UICONTROL Metric Type]** menu, select **[!UICONTROL Participation]**.
 1. Drag the desired participation metrics to the columns canvas, then click **[!UICONTROL OK]**.
 
    결과 보고서에 기여도 지표가 퍼센트와 괄호 안의 숫자 값으로 표시됩니다.
