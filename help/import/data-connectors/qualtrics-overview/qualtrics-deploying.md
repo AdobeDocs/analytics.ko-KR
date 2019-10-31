@@ -8,7 +8,7 @@ title: 통합 배포
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,28 +32,27 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
    | Qualtrics 조직 ID | [Qualtrics 조직 ID 조회](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst 토큰 | [Adobe Analytics 토큰 생성](../qualtrics-overview/qualtrics-token.md) |
 
-1. **마법사 2단계 - 변수 매핑**| Qualtrics 응답 목록| 보고서 세트에서 사용 가능한 목록 변수를 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  ||—|—|| Qualtrics 응답 ID| 보고서 세트에서 사용 가능한 eVar 또는 prop을 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  || 추적 서버|Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. Use the  tracking server if it differs from your standard tracking server setting.  `trackingServerSecure`  |
-|  Qualtrics Survey Submissions  | Select an available event from your report suite (you may need to enable a new event from within the Report Suite Manager).  |
+1. **마법사 2단계 - 변수 매핑**| Qualtrics 응답 목록| 보고서 세트에서 사용 가능한 목록 변수를 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  ||—|—|| Qualtrics 응답 ID| 보고서 세트에서 사용 가능한 eVar 또는 prop을 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  || 추적 서버|Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. 표준 추적 서버 설정과 다른 경우 `trackingServerSecure` 추적 서버를 사용합니다.  || Qualtrics 설문 조사 제출| 보고서 세트에서 사용 가능한 이벤트를 선택합니다(보고서 세트 관리자 내에서 새 이벤트를 활성화해야 할 수 있습니다).  |
 
-1. **Wizard Step 3: Nothing required, informational only.**
+1. **마법사 3단계**:정보 제공만을 위한 필수 조건 없음
 
-   단계 결과 1. **Wizard Step 4 - Export Settings**
+   단계 결과 1. **마법사 4단계 - 내보내기 설정**
 
-   | eVar | Select up to five of your eVars to expose for exporting to Qualtrics |
+   | eVar | Qualtrics로 내보낼 eVar 중 최대 5개를 선택합니다. |
    |---|---|
-   | 이벤트 | Select up to five of your custom events to expose for exporting to Qualtrics |
-   | Prop | Select up to five of your Props to expose for exporting to Qualtrics |
-   | Access Requests | Check the box for any of the standard metrics and dimensions that you wish to export to Qualtrics. 내보내기가 제대로 작동하도록 허용하려면 `visitor_id` 이 필요합니다. |
+   | 이벤트 | Qualtrics로 내보낼 사용자 지정 이벤트 최대 5개를 선택합니다. |
+   | Prop | Prop을 최대 5개까지 선택하여 Qualtrics로 내보내기 |
+   |  액세스 요청 | Qualtrics로 내보내려는 표준 지표 및 차원에 대한 확인란을 선택합니다. 내보내기가 제대로 작동하도록 허용하려면 `visitor_id` 이 필요합니다. |
 
-1. **Wizard Step 5: Review configuration and then click Activate Now.******
+1. **마법사 5단계**:구성을 검토하고 지금 **[!UICONTROL 활성화를 클릭합니다]**.
 
-## Enabling the Integration in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
+## Qualtrics Research Suite의 통합 활성화{#enabling-the-integration-in-qualtrics-research-suite}
 
-After completing the integration wizard, you must activate the integration for each Qualtrics survey that you want connected.
+통합 마법사를 완료한 후 연결하려는 각 Qualtrics 설문 조사에 대한 통합을 활성화해야 합니다.
 
-1. Log in to the Qualtrics Research Suite.
-1. On the My Surveys tab, click the Edit button for the survey that you want to integrate.********
-1. Click the Advanced Options menu and select Adobe Analytics. ******** 이 옵션이 표시되지 않으면 관리자에게 필요한 권한을 요청하십시오.
+1. Qualtrics Research Suite에 로그인합니다.
+1. 내 **[!UICONTROL 설문 조사]** 탭에서 **[!UICONTROL 통합하려는]** 설문 조사의 편집 단추를 클릭합니다.
+1. 고급 옵션 **[!UICONTROL 메뉴를]** 클릭하고 Adobe Analytics를 **[!UICONTROL 선택합니다]**. 이 옵션이 표시되지 않으면 관리자에게 필요한 권한을 요청하십시오.
 
    ![](assets/advanced_options.png)
 
