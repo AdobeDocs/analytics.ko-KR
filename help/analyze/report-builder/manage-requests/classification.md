@@ -5,9 +5,9 @@ seo-title: 분류
 solution: Analytics
 title: 분류
 topic: Report Builder
-uuid: C 64 EDE 6 E-CE 11-48 C 0-944 D-DC 365809 D 673
+uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,4 +20,4 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 분류는 보고서 세트의 다른 보고서를 액세스하는 것과 같은 방법으로 액세스할 수 있으며 차원은 그룹 내 최상위 수준 보고서로 표시됩니다. 보고서에 분류가 있으면 동일한 위치에서 보고서와 보고서의 모든 분류를 모으도록 메뉴 하위 그룹이 만들어집니다. 보고서는 분류들 중 목록에 있는 마지막 항목으로 표시됩니다.
 
-[분류를 참조하십시오](/help/components/c-classifications2/c-classifications.md).
+분류를 [참조하십시오](/help/components/c-classifications2/c-classifications.md).
