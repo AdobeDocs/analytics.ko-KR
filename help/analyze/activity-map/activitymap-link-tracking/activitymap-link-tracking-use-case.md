@@ -7,7 +7,7 @@ title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,9 +90,7 @@ As an example, let's say you have multiple "Buy" links that are identified by [!
 
 각 "buy" 링크에 자체 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면, "id" 매개 변수를 각 "Buy" 앵커 태그의 상위 항목 중 하나에 추가하십시오.
 
->[!NOTE]
->
->지역 식별자로서 "id" 매개 변수에 대한 제한도 없습니다. JavaScript 변수 "s.ActivityMap.regionIDAttribute"를 사용하여 고유한 식별자를 설정할 수도 있습니다.
+> [!NOTE] 지역 식별자로서 "id" 매개 변수에 대한 제한도 없습니다. JavaScript 변수 "s.ActivityMap.regionIDAttribute"를 사용하여 고유한 식별자를 설정할 수도 있습니다.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
