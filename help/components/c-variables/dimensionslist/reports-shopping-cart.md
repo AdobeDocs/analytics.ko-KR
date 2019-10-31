@@ -5,9 +5,9 @@ seo-title: 장바구니
 solution: Analytics
 title: 장바구니
 topic: 보고서
-uuid: CE 97 E 7 F 0-B 455-438 C-A 064-D 4856 A 1279 E 7
+uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
