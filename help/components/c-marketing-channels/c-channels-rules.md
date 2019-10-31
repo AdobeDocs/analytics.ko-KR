@@ -5,10 +5,10 @@ seo-title: 채널 및 규칙 정보
 solution: Analytics
 subtopic: 마케팅 채널
 title: 채널 및 규칙 정보
-topic: Reports & Analytics
-uuid: 7 D 574790-4 D 0 D -419 D -8 FB 5-C 16 EC 5 A 4 A 387
+topic: Reports and Analytics
+uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,16 +23,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Adobe는 자동 설정 중 사전 정의된 채널을 제공하는데 [](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) 이러한 채널은 사용자 요구에 맞게 편집할 수 있습니다.
 
->[!NOTE]
->
->테스트 목적으로 템플릿으로 사용할 수 있는 보고서 세트에서 보고서를 설정하는 것이 좋습니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
+> [!NOTE] 테스트 목적으로 템플릿으로 사용할 수 있도록 보고서 세트에 보고서를 설정하는 것이 좋습니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
 >
 >자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)을 참조하십시오.
 
 다음 항목을 검토하십시오.
 
 * [전제 조건](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [중요 처리 정보](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [중요한 처리 정보](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
 
 ## 전제 조건 {#section_9913D2932E3140C099B7978CA95378B2}
 
