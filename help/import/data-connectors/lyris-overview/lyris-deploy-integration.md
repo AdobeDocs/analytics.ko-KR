@@ -6,7 +6,7 @@ solution: Analytics
 title: 통합 배포
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 1. 통합 마법사를 완료한 후 Lyris Professional 팀과 협력하여 Lyris HQ 계정 통합을 완료하고 테스트를 용이하게 해야 합니다.
 1. URL 쿼리 문자열 매개 변수 추가:URL 첨부 문자열이 사용자 인터페이스의 조직 설정 영역에 제대로 입력되었는지 확인합니다. 여기에는 캠페인 수준 ID(hq_m) 및 수신자 수준 ID(hq_v)가 포함되어야 합니다.
 
-   An example of a string ID is:
+   문자열 ID의 예는 다음과 같습니다.
 
    ```
    hq_lid=149&hq_m=96843&hq_l=23&hq_v=7703a51905
@@ -67,33 +67,29 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
    >[!NOTE]
    >
-   >If you are applying Lyris’s native analytics tool, Click Tracks tags all of the required variables that are added.**
+   >Lys의 기본 분석 도구를 적용하는 경우 *추가된* 모든 필수 변수에 [트랙]을 클릭합니다.
 
-## Verifying the Integration{#verifying-the-integration}
+## 통합 확인{#verifying-the-integration}
 
-Steps to verify that the Lyris/Adobe Analytics integration was successful.
+Lyris/Adobe Analytics 통합이 성공했는지 확인하는 절차.
 
-Once all deployment steps have been completed, you can validate that the integration is successfully transferring data.
+모든 배포 단계가 완료되면 통합이 성공적으로 데이터를 전송하고 있는지 확인할 수 있습니다.
 
->[!NOTE]
->
->It takes a few days for the data exchange to begin. Please make sure you contact Lyris after you activate the integration.
+> [!NOTE] 데이터 교환을 시작하는 데 며칠이 걸립니다. 통합을 활성화한 후 Lyris에 문의하십시오.
 
-1. 데이터 커넥터 내에서 Lyris 통합으로 이동합니다. Under the Support tab &gt; Integration Activity Log, you should see events like Metric data imported successfully and/or Classification data imported successfully:****************
+1. 데이터 커넥터 내에서 Lyris 통합으로 이동합니다. 지원 **[!UICONTROL 탭 &gt; 통합]** 활동 **[!UICONTROL 로그에서]**&#x200B;성공적으로 **[!UICONTROL 가져온 지표 데이터 및/또는 성공적으로]** 가져온 분류 ****&#x200B;데이터와 같은 이벤트를 볼 수 있습니다.
 
    ![](assets/integration_info.png)
 
-1. Now view your Lyris message reports with the appropriate metrics. In the Adobe Experience Cloud, select Reports &amp; Analytics.****
+1. 이제 적절한 지표가 있는 Lyris 메시지 보고서를 봅니다. Adobe Experience Cloud에서 보고 **[!UICONTROL 및 분석을 선택합니다]**.
 1. 적절한 보고서 세트를 선택합니다.
-1. Under Custom Conversions, select the Message ID Reports and choose Message ID/Message Name.************
+1. 사용자 **[!UICONTROL 지정 전환]**&#x200B;아래에서 **[!UICONTROL 메시지 ID 보고서를]** 선택하고 **[!UICONTROL 메시지 ID/메시지]**&#x200B;이름을 선택합니다.
 
-## Query String Param Plug-In Code{#query-string-param-plug-in-code}
+## 쿼리 문자열 매개 변수 플러그인 코드{#query-string-param-plug-in-code}
 
-Shows the Lyris plug-in code to use with Adobe Analytics.
+Adobe Analytics에서 사용할 Lyris 플러그인 코드를 표시합니다.
 
->[!NOTE]
->
->Please make sure that you reserved the necessary eVars in the Admin Tool of Adobe Analytics before you work with the code below. Once you know which eVars you have reserved, replace eVarN with the relevant eVar. 예: eVar10.
+> [!NOTE] 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약했는지 확인하십시오. 예약한 eVar를 알고 있으면 eVarN을 관련 eVar로 바꿉니다. 예: eVar10.
 
 ```
 /* 
