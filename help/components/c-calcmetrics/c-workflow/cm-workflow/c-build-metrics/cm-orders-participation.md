@@ -3,9 +3,9 @@ description: 주문을 지원하는 마케팅 채널을 보여 주는 지표를 
 seo-description: 주문을 지원하는 마케팅 채널을 보여 주는 지표를 작성하는 방법에 대해 설명합니다. 이는 원하는 모든 차원 또는 성공 이벤트에 적용할 수 있습니다.
 seo-title: 지원 지표 주문
 title: 지원 지표 주문
-uuid: 7 c 82227 a -7 fcc -486 f-bef 8-164 ea 84 af 77 c
+uuid: 7c82227a-7fcc-48 파섹
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
