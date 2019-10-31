@@ -5,9 +5,9 @@ seo-title: 경로 보기
 solution: Analytics
 title: 경로 보기
 topic: 지표
-uuid: CEAB 036 C -8 E 0 C -43 B 7-946 A-AEBA 6 A 253982
+uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
