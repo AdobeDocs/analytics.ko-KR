@@ -5,7 +5,7 @@ seo-title: FAQ
 title: FAQ
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>가상 보고서 세트</b>(VRS)를 Advertising Analytics 계정에 지정할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>A: 가상 보고서 세트는 데이터를 수집하지 않으므로 Advertising Analytics 계정을 VRS에 직접 매핑할 수 없습니다. </p> <p>하지만 데이터를 표시할 VRS의 상위 보고서 세트에 Advertising Analytics 계정을 매핑할 수 있습니다. </p> <p>AMO ID(또는 해당 분류)를 기반으로 세그먼트 논리에 “or” 조건을 포함하지 않으면 검색 엔진 지표(클릭/비용/노출 수)가 VRS에 표시되지 않을 수 있습니다. 예: “AMO ID가 있는 모든 조회 수”를 추가하면 세그먼트에 검색 엔진 지표가 포함됩니다. </p> </td> 
+   <td colname="col2"> <p>A: 가상 보고서 세트는 데이터를 수집하지 않으므로 Advertising Analytics 계정을 VRS에 직접 매핑할 수 없습니다. </p> <p>하지만 데이터를 표시할 VRS의 상위 보고서 세트에 Advertising Analytics 계정을 매핑할 수 있습니다. </p> <p>검색 엔진 지표(클릭/비용/노출)는 AMO ID(또는 해당 분류)를 기준으로 세그먼트 논리에 "또는" 조건을 포함하지 않는 한 VRS에 표시되지 않을 수 있습니다. 예:"AMO ID가 있는 모든 히트"를 추가하면 세그먼트에 검색 엔진 지표가 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>마케팅 채널</b> 보고서에 Advertising Analytics 지표를 보고할 수 있습니까? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: google.com 또는 <b>국가 버전</b>(google.co.uk, google.it, google.fr 또는 google.de)에서만 캡처합니까? </p> </td> 
-   <td colname="col2"> <p>A:광고 플랫폼 분류는 다음 값을 캡처합니다."Google Adwords" 및 "Bing Ads". </p> <p>일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그 이후에 필터링하거나 분류할 수 있습니다(예: 모든 캠페인이 countrycode_로 시작하는 경우 캠페인(AMO ID)이 'UK_'로 시작하는 세그먼트를 생성하여 영국에 대한 데이터만 제공). </p> </td> 
+   <td colname="col2"> <p>A:광고 플랫폼 분류는 다음 값을 캡처합니다."Google Adwords" 및 "Bing Ads". </p> <p>일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그런 다음 필터링 또는 세그먼트(예: 모든 캠페인이 countrial code_로 시작하는 경우 캠페인(AMO ID)이 "UK_"로 시작하는 세그먼트를 만들면 영국에 대한 데이터만 제공합니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: 지표 'AMO 비용'은 검색 엔진에서 보고한 대로 각 키워드/광고에 대해 지불되는 비용입니다. 이것은 순비용 또는 총비용입니까? </p> </td> 
