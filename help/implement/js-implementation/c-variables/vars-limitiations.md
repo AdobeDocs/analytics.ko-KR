@@ -8,8 +8,8 @@ subtopic: 변수
 title: 변수와 제한 사항
 topic: 개발자 및 구현
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,15 +18,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 변수 및 변수의 제한 사항에 대한 개요.
 
->[!NOTE]
->
->가장 일반적인 Analytics 변수를 자세히 살펴보려면 [구성 변수](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) 및 [페이지 변수](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3)를 참조하십시오.
+> [!NOTE] 가장 일반적인 Analytics 변수를 자세히 살펴보려면 [구성 변수](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) 및 [페이지 변수](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3)를 참조하십시오.
 
 다음 표에는 [!DNL Analytics] 변수에 대한 요약 정보가 나와 있습니다. 
 
 | 변수 | 설명 |
 |---|---|
-| s_account  | 데이터를 저장 및 보고하는 보고서 세트를 결정합니다. |
+| s_account | 데이터를 저장 및 보고하는 보고서 세트를 결정합니다. |
 | browserHeight | 브라우저 창의 높이를 표시합니다. |
 | browserWidth | 브라우저 창의 너비를 표시합니다. |
 | campaign | 사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별합니다. 변수 *`campaign`* 의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. |
@@ -40,7 +38,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | currencyCode | 매출이 [!DNL Analytics] 데이터베이스에 들어갈 때 매출에 적용할 전환율을 결정합니다. [!DNL Analytics] 데이터베이스는 모든 금액을 선택한 통화로 저장합니다. 해당 통화가 *`currencyCode`*&#x200B;에 지정된 통화와 동일하거나 *`currencyCode`*&#x200B;가 비어 있는 경우 전환이 적용되지 않습니다. |
 | dc | 데이터를 전송 받을 데이터 센터를 설정할 수 있게 해줍니다. |
 | doPlugins | *`doPlugins`*&#x200B;는 *`s_doPlugins`* 함수에 대한 참조입니다. 이 함수를 사용하면 *`s_doPlugins`* 함수를 JavaScript 파일 내의 적절한 위치에서 호출할 수 있습니다. |
-| dynamicAccountList | 데이터를 전송 받을 보고서 세트를 동적으로 선택합니다.  *`dynamicAccountList`* 변수에는 대상 보고서 세트를 결정하는 데 사용할 규칙이 포함됩니다. |
+| dynamicAccountList | 데이터를 전송 받을 보고서 세트를 동적으로 선택합니다. The *`dynamicAccountList`* 변수에는 대상 보고서 세트를 결정하는 데 사용할 규칙이 포함됩니다. |
 | dynamicAccountMatch | DOM 개체를 사용하여 *`dynamicAccountList`* 의 모든 규칙이 적용되는 URL 섹션을 검색합니다. 이 변수는 *`dynamicAccountSelection`*&#x200B;이 ‘True’로 설정된 경우에만 유효합니다.  |
 | dynamicAccountSelection | 각 페이지의 URL을 기반으로 보고서 세트를 동적으로 선택할 수 있도록 해줍니다. |
 | dynamicVariablePrefix | 동적으로 채워야 하는 변수에 배포 시 플래그가 지정될 수 있도록 해줍니다. 쿠키, 요청 헤더 및 이미지 쿼리 문자열 매개 변수는 동적으로 채울 수 있습니다. |
@@ -55,9 +53,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | linkExternalFilters | 사이트에 외부 사이트에 대한 링크가 많이 포함되어 있고 일부 종료 링크만 추적하려는 경우, *`linkExternalFilters`* 를 사용하여 일부 특정 종료 링크들에 대해 보고할 수 있습니다. |
 | linkInternalFilters | 사이트에서 어느 링크가 종료 링크인지를 결정합니다. 사이트에 속한 링크를 나타내는 필터들이 쉼표로 구분되어 있는 목록입니다. |
 | linkLeaveQueryString | [!UICONTROL 종료 링크] 및 [!UICONTROL 파일 다운로드] 보고서에 쿼리 문자열을 포함해야 하는지 여부를 결정합니다. |
-| linkName | 사용자 지정, 다운로드 또는 종료 링크의 이름을 결정하는 [!UICONTROL 링크 추적]에 사용되는 선택 변수입니다.  *`linkName`* 변수는 *`tl()`* 함수에서 세 번째 매개 변수가 대체하므로 보통은 필요가 없습니다. |
-| linkTrackEvents | 사용자 지정, 다운로드 및 종료 링크로 전송해야 하는 이벤트가 들어 있습니다. 이 변수는 *`linkTrackVars`*&#x200B;에 "events"가 들어 있을 경우에만 고려됩니다. |
-| linkTrackVars | 사용자 지정, 종료 또는 다운로드 링크로 전송할 변수들이 쉼표로 구분되어 표시된 목록입니다.  *`linkTrackVars`*&#x200B;가 ""로 설정되어 있으면 값이 있는 모든 변수가 링크 데이터와 함께 전송됩니다.  |
+| linkName | 사용자 지정, 다운로드 또는 종료 링크의 이름을 결정하는 [!UICONTROL 링크 추적]에 사용되는 선택 변수입니다. *`linkName`* 변수는 *`tl()`* 함수에서 세 번째 매개 변수가 대체하므로 보통은 필요가 없습니다. |
+| linkTrackEvents | 사용자 지정, 다운로드 및 종료 링크로 전송해야 하는 이벤트가 들어 있습니다. 이 변수는 *`linkTrackVars`*&#x200B;에 "events"가 포함된 경우에만 고려합니다. |
+| linkTrackVars | 사용자 지정, 종료 또는 다운로드 링크로 전송할 변수들이 쉼표로 구분되어 표시된 목록입니다. *`linkTrackVars`*&#x200B;가 ""로 설정되어 있으면 값이 있는 모든 변수가 링크 데이터와 함께 전송됩니다. |
 | linkType | 링크 이름 또는 URL이 나타날 보고서(사용자 지정, 다운로드 또는 종료 링크)를 결정하는 링크 추적에 사용되는 선택 변수입니다. *`linkType`* 변수는 *`tl()`* 함수에서 두 번째 매개 변수가 대체하므로 보통은 필요가 없습니다. |
 | mediaLength | 재생되는 미디어의 전체 길이를 지정합니다. |
 | mediaName | 비디오나 미디어 항목의 이름을 지정합니다. [!UICONTROL 데이터 삽입 API] 및 [!UICONTROL 데이터 소스 완전 처리]를 통해서만 사용할 수 있습니다. |
@@ -65,27 +63,27 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | mediaSession | 사용되는 비디오나 미디어 자산의 세그먼트를 지정합니다. |
 | Media.trackEvents | 미디어 히트와 함께 전송해야 하는 이벤트를 식별합니다. 이 변수는 JavaScript [!UICONTROL ActionSource]에서만 사용할 수 있습니다. |
 | Media.trackVars | 미디어 히트와 함께 전송해야 하는 변수를 식별합니다. 이 변수는 JavaScript [!UICONTROL ActionSource]에서만 사용할 수 있습니다. |
-| mobile | 쿠키와 구독자 ID가 방문을 식별하는 데 사용되는 순서를 제어합니다. |
+| 모바일 | 쿠키와 구독자 ID가 방문을 식별하는 데 사용되는 순서를 제어합니다. |
 | s_objectID | 링크의 [!UICONTROL onClick] 이벤트에 설정되는 글로벌 변수. 페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 방문자 클릭 맵 추적을 개선하거나 방문자 클릭 맵을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. |
-| pageName | 사이트에 있는 각 페이지의 이름이 들어 있습니다.  *`pageName`*&#x200B;이 비어 있으면, [!DNL Analytics]에서 페이지 이름을 나타내는 데 URL이 사용됩니다. |
+| pageName | 사이트에 있는 각 페이지의 이름이 들어 있습니다. If *`pageName`*&#x200B;이 비어 있으면, [!DNL Analytics]에서 페이지 이름을 나타내는 데 URL이 사용됩니다. |
 | pageType | 404 [페이지가 없습니다] 오류 페이지를 지정하는 데에만 사용됩니다. 여기에는 "errorPage", 이 하나의 값만 가능합니다. 404 오류 페이지에서는 *`pageName`*&#x200B;변수를 채우지 말아야 합니다.  |
 | pageUrl | 페이지의 URL이 [!DNL Analytics]에 보고할 URL과 다른 경우가 드물게 나타납니다. 이러한 상황을 수용하기 위해 [!DNL Analytics]는 페이지의 실제 URL을 무시하는 *`pageURL`* 변수를 제공합니다. |
 | plugins | Netscape 및 Mozilla 기반 브라우저에서 브라우저에 설치된 플러그인을 나열합니다. |
-| products | 구매 수량 및 구매 가격뿐만 아니라 제품 및 제품 카테고리를 추적하는 데에도 사용됩니다.  *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니다. 또한 *`products`* 변수가 [!UICONTROL 머천다이징] eVar는 물론, 사용자 지정 숫자 및 통화 이벤트를 추적할 수 있습니다. |
+| products | 구매 수량 및 구매 가격뿐만 아니라 제품 및 제품 카테고리를 추적하는 데에도 사용됩니다. The *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니다. 또한 *`products`* 변수가 [!UICONTROL 머천다이징] eVar는 물론, 사용자 지정 숫자 및 통화 이벤트를 추적할 수 있습니다. |
 | propN | [!DNL Analytics][!UICONTROL 트래픽 모듈] 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다. [!UICONTROL props]는 경로 지정 보고서용으로 또는 상관 관계 보고서에서 카운터(페이지 보기가 전송되는 횟수 계산)로 사용할 수 있습니다. |
 | purchaseID | [!DNL Analytics]에서 한 주문이 여러 번 카운트되지 않도록 하는 데 사용됩니다. 사이트에서 구매 이벤트가 사용될 때마다 *`purchaseID`* 변수를 사용해야 합니다. |
 | referrer | 유실된 레퍼러 정보를 복원합니다. |
 | resolution | 웹 페이지를 보는 방문자의 모니터 해상도를 표시합니다. |
 | server | 웹 페이지의 도메인(방문자가 도착한 도메인 표시)이나, 페이지를 제공하는 서버(로드 밸런싱 빠른 참조용)를 보여 줍니다. |
 | state | 사이트 방문자가 거주하는 시/도를 캡처합니다. |
-| trackDownloadLinks | 사이트의 다운로드 가능 파일에 대한 링크를  추적하려면 *`trackDownloadLinks`*&#x200B;를 'true'로 설정합니다. *`trackDownloadLinks`*&#x200B;가 'true'이면 *`linkDownloadFileTypes`*&#x200B;는 다운로드 가능한 파일에 해당하는 링크를 결정합니다. |
+| trackDownloadLinks | 사이트의 다운로드 가능 파일에 대한 링크를 추적하려면 추적하려면 *`trackDownloadLinks`*&#x200B;를 'true'로 설정합니다. *`trackDownloadLinks`*&#x200B;가 'true'이면 *`linkDownloadFileTypes`*&#x200B;는 다운로드 가능한 파일에 해당하는 링크를 결정합니다. |
 | trackExternalLinks | *`trackExternalLinks`*&#x200B;가 'true'이면 *`linkInternalFilters`* 및 *`linkExternalFilters`*&#x200B;는 클릭한 링크가 종료 링크인지 여부를 결정합니다. |
 | trackingServer | 자사 쿠키 구현에서 이미지 요청 및 쿠키를 쓰는 도메인을 지정하는 경우에만 사용됩니다. 비보안 페이지에 사용됩니다.  |
 | trackingServerSecure | 자사 쿠키 구현에서 이미지 요청 및 쿠키를 쓰는 도메인을 지정하는 경우에만 사용됩니다. 보안 페이지에 사용됩니다.  |
 | trackInlineStats | 방문자 클릭 맵 데이터를 모으는지 여부를 결정합니다. |
-| transactionID | 오프라인 데이터를 온라인 거래(예: 온라인으로 생성된 리드나 구매)에 연결합니다. Adobe에 전송된 각 고유 *`transactionID`*&#x200B;는 해당 거래에 대한 오프라인 정보의 [!UICONTROL 데이터 소스] 업로드를 준비하면서 기록됩니다. [데이터 소스 안내서](https://marketing.adobe.com/resources/help/ko_KR/sc/datasources/)를 참조하십시오. |
+| transactionID | 오프라인 데이터를 온라인 거래(예: 온라인으로 생성된 리드나 구매)에 연결합니다. Adobe에 전송된 각각의 고유한 *`transactionID`*&#x200B;는 해당 트랜잭션에 대한 오프라인 정보의 [!UICONTROL 데이터 소스] 업로드 준비 시 기록됩니다. [데이터 소스 안내서](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)를 참조하십시오. |
 | s_usePlugins | *`s_doPlugins`* 함수를 사용할 수 있고 이 함수에 유용한 코드가 들어 있는 경우 [!UICONTROL s_usePlugins]를 'true'로 설정해야 합니다. [!UICONTROL usePlugins]가 'true'이면 각 이미지 요청 전에 *`s_doPlugins`* 함수가 호출됩니다. |
 | visitorID | 방문자는 *`visitorID`* 태그 또는 IP 주소/사용자 에이전트로 식별할 수 있습니다. *`visitorID`*&#x200B;에는 영숫자를 최대 100자까지 사용할 수 있으며 하이픈은 사용할 수 없습니다. |
-| visitorNamespace | *`visitorNamespace`*&#x200B;를 JavaScript 파일에서 사용한 경우 삭제하거나 바꾸지 마십시오. 이 변수는 쿠키가 설정된 도메인을 식별하는 데 사용됩니다.  *`visitorNamespace`* 가 변경되면 [!DNL Analytics]에 보고된 모든 방문자가 새 방문자가 되는 수가 있습니다. 요컨대, Adobe 컨설턴트의 승인 없이 이 변수를 바꾸지 마십시오. |
+| visitorNamespace | *`visitorNamespace`*&#x200B;를 JavaScript 파일에서 사용한 경우 삭제하거나 바꾸지 마십시오. 이 변수는 쿠키가 설정된 도메인을 식별하는 데 사용됩니다. If *`visitorNamespace`* 가 변경되면 [!DNL Analytics]에 보고된 모든 방문자가 새 방문자가 되는 수가 있습니다. 요컨대, Adobe 컨설턴트의 승인 없이 이 변수를 바꾸지 마십시오. |
 | zip | 사이트 방문자가 거주하는 곳의 우편번호를 캡처합니다. |
 
