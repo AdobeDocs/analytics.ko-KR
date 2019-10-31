@@ -5,10 +5,10 @@ seo-description: Analysis Workspace에서 차원 및 차원 항목을 분류합�
 seo-title: 차원 분류
 solution: Analytics
 title: 차원 분류
-topic: Reports & Analytics
-uuid: 0 B 888 E 26-F 201-4405-99 F 9-755 B 3 EE 6 CD 18
+topic: Reports and Analytics
+uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,8 +28,8 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
    >[!NOTE]
    >
-   >테이블에 표시할 분류의 수는 200 개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
+   >테이블에 표시할 분류 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
-[YouTube의 분석 작업 공간에서 차원](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
+[YouTube의 분석 작업 공간](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) 차원(4:54)
 
-[YouTube의 차원 분류](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
+[YouTube의 차원](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) 분류(2:02)
