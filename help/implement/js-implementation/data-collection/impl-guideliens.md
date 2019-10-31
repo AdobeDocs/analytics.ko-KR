@@ -7,8 +7,8 @@ solution: Analytics
 title: 구현 안내서
 topic: 개발자 및 구현
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 * **RSID:**[!UICONTROL  보고서 세트 ID]
 * **VNS:** 방문자 이름 공간. [!DNL 2o7.net]방문자 ID[!DNL omtrdc.net] 쿠키를 저장하는 데 사용되는 [!UICONTROL  또는 ]의 하위 도메인입니다.
-* **COOKIEDOMAIN:** VNS + trackingServer. 데이터 센터와 RDC 구성에 따라 매우 달라질 수 있습니다. 데이터 수집 도메인에 대해 잘 모르는 경우 [고객 지원에 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html#analytics)합니다.
+* **COOKIEDOMAIN:** VNS + trackingServer. 데이터 센터와 RDC 구성에 따라 매우 달라질 수 있습니다. [데이터 수집 도메인에](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) 대해 잘 모르는 경우 고객 지원 센터에 문의하십시오.
 
 ## Javascript
 
