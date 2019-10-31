@@ -7,8 +7,8 @@ solution: Analytics
 title: 이벤트 일련화 개요
 topic: 개발자 및 구현
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 페이지가 다시 로드되거나 새로 고쳐졌거나 반복적으로 한 이벤트를 보낼 때. [!UICONTROL 이벤트 정리]는 각 이벤트에 대해 일련 번호를 사용하여 이벤트가 다시 카운트되지 않도록 합니다.
 * 사용자가 나중에 검토하기 위해 페이지를 자신의 시스템에 저장할 때. 이 시나리오는 구매 영수증을 검토하는 구매 확인 페이지에서 매우 일반적으로 발생합니다. [!UICONTROL 이벤트 정리]를 사용하면 그 다음에 페이지를 다시 로드해도 이벤트를 다시 카운트하지 않습니다.
 
->[!NOTE]
->
->데이터 소스는 이벤트 직렬화 또는 중복제거를 지원하지 않습니다.
+> [!NOTE] 데이터 소스는 이벤트 직렬화 또는 중복제거를 지원하지 않습니다.
 
 이 문서에서는 [!UICONTROL 전환] 및 [!UICONTROL 사용자 지정] 이벤트에 대한 [!UICONTROL 이벤트 일련화]를 구현하는 데 사용된 프로세스에 대해 설명합니다. [!UICONTROL 이벤트 직렬화]를 사용하려면 먼저 **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL [보고서 세트 선택]]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 성공 이벤트]**&#x200B;에서 이벤트 직렬화를 활성화해야 합니다. 그런 다음 [!UICONTROL 고유한 이벤트 기록] 열에 기록할 이벤트를 선택합니다.
 
