@@ -5,7 +5,7 @@ seo-title: 프로젝트 전환기 FAQ
 title: 프로젝트 전환기 FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>Q: 날짜 범위는 어떻게 변환됩니까?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis의 '최근 X일' 날짜 범위는 오늘을 <i>제외</i>하지만, Analysis Workspace는 오늘을 <i>포함</i>합니다. 따라서 '최근 90일'과 같은 날짜 범위가 도구마다 일치하지 않을 수 있습니다. 사용자 지정 날짜 범위를 사용하여 Analysis Workspace에서 동일한 기간을 검색합니다. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. 따라서 '지난 90일'과 같은 날짜 범위가 도구 간에 정확히 일치하지 않을 수 있습니다. 사용자 지정 날짜 범위를 사용하여 Analysis Workspace에서 동일한 기간을 검색합니다. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis 작업 공간 수준 날짜 범위는 Workspace의 프로젝트/작업 공간 수준에서 적용됩니다. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis 보고서 수준 날짜 범위는 Workspace의 표 열 수준에서 적용됩니다. </li> 
     </ul> <p><span class="uicontrol">분석</span> &gt; <span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol">날짜 범위</span>에서 사용자 지정 날짜 범위를 편집할 수 있습니다. </p> </td> 
