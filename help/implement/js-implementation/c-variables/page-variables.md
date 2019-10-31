@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: 변수
 title: 페이지 변수
 topic: 개발자 및 구현
-uuid: 2578edd-74db-4a8a-96f2-d0289ec1826b
+uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,9 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 browserheight.xml
 -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 props/eVars에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -65,11 +63,9 @@ browserwidth.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 props/eVars에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -94,7 +90,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 ## campaign {#concept_C7BF7B8A69D048A6AB482052A98A91F8}
 
- 변수는 사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별합니다. 의 값은 일반적으로 쿼리 문자열 매개 변수에서 가져옵니다.
+ 변수는 사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별합니다. 이 변수의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다.
 
 <!-- 
 
@@ -125,13 +121,13 @@ campaign.xml
 
 마케팅 캠페인의 모든 요소에는 연관된 고유 추적 코드가 있습니다. 예를 들어 유료 검색 엔진 키워드에는 112233 추적 코드가 있습니다. 누군가 112233 추적 코드가 있는 키워드를 클릭하고 해당 웹 사이트로 연결되면 *`campaign`* 변수가 추적 코드를 기록합니다.
 
-There are two main ways to populate the *`campaign`* variable:
+다음과 같이 *`campaign`* 변수를 채우는 두 가지 기본 방법이 있습니다.
 
 * JavaScript 파일에서 사용되는 [!UICONTROL getQueryParam] 플러그인은 URL의 쿼리 문자열 매개 변수를 검색합니다. [!UICONTROL getQueryParam] 플러그인에 대한 자세한 내용은 [구현 플러그인](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* 웹 페이지의 HTML에서 변수에 값을 *`campaign`* 지정합니다.
+* 웹 페이지에서 HTML의 *`campaign`* 변수에 값을 지정합니다.
 
-변수를 채우는 방법 중 하나로 [뒤로] 단추 트래픽이 캠페인 요소에서 실제 클릭스루 수를 부풀릴 수 있습니다. *`campaign`*
+어느 방법으로 *`campaign`* 변수를 채우든 뒤로 단추 트래픽이 캠페인 요소에서 실제 클릭스루 수를 부풀릴 수 있습니다.
 
 방문자가 유료 검색 키워드를 클릭하여 사이트에 들어올 때를 예로 들어봅시다. 방문자가 랜딩 페이지에 도착할 때 URL에는 해당 키워드의 추적 코드를 식별하는 쿼리 문자열 매개 변수가 들어 있습니다. 방문자가 다른 페이지로 가는 링크를 클릭하지만 즉시 [뒤로] 단추를 클릭하여 랜딩 페이지로 다시 돌아갑니다. 방문자가 랜딩 페이지에 두 번째로 도착할 때 쿼리 문자열 매개 변수가 포함된 URL이 추적 코드를 다시 식별합니다. 그리고 두 번째 클릭스루가 등록되고 그에 따라 클릭스루의 수가 잘못 부풀려집니다.
 
@@ -143,7 +139,7 @@ There are two main ways to populate the *`campaign`* variable:
 s.campaign="112233"
 ```
 
-The *`campaign`* variable has the same limitations as all other variables. 따라서 값을 표준 ASCII 문자로 제한하는 것이 좋습니다.
+*`campaign`* 변수에는 다른 모든 변수와 동일한 제한 사항이 있습니다. 따라서 값을 표준 ASCII 문자로 제한하는 것이 좋습니다.
 
 **대/소문자 구분** {#section_112A9A0F886148B6BEF9A7C94BE0A36F}
 
@@ -172,7 +168,7 @@ s.campaign=s.getQueryParam('cid');
 
 ## channel {#concept_C7770B8C15724A99B10F8F468AF82D0D}
 
-이 변수는 사이트의 섹션을 식별하는 데 가장 자주 사용됩니다.
+이 변수는 사이트의 섹션을 식별하는 데 종종 사용됩니다.
 
 <!-- 
 
@@ -188,7 +184,7 @@ channel.xml
 
 모든 페이지에서 채널 변수를 채우는 것이 좋습니다. 또한 *`channel`* 과 [!UICONTROL page name] 변수 간에 상관 관계를 설정할 수도 있습니다.
 
-When sections have one or more levels of subsections, you can show those sections in the *`channel`* variable or use separate variables to identify levels.
+섹션에 하나 이상의 하위 섹션 레벨이 있는 경우에는 *`channel`* 변수에서 그러한 섹션을 표시하거나 별도 변수를 사용하여 해당 레벨을 식별할 수 있습니다.
 
 **구문 및 가능한 값** {#section_ED90592730B64242A737F4090F1DCEE4}
 
@@ -196,7 +192,7 @@ When sections have one or more levels of subsections, you can show those section
 s.channel="value"
 ```
 
-The *`channel`* variable has no extra limitations on its values.
+*`channel`* 변수에는 이 값에 대한 추가 제한이 없습니다.
 
 **예** {#section_2527B2BB1CFD46CB952178ABF7A9028A}
 
@@ -210,7 +206,7 @@ s.channel="Media"
 
 **함정, 질문 및 팁** {#section_61941D5E4E644B59A267A4F44FD5DE8C}
 
-If your site contains multiple levels, you can use the *`hierarchy`* or another variable to designate those levels. The *`channel`* value does not persist, but the success events fired on the same page are attributed to the *`channel`* value.
+사이트에 여러 수준이 포함되어 있는 경우는 *`hierarchy`* 또는 다른 변수를 사용하여 해당 수준을 지정할 수 있습니다. *`channel`* 변수는 지속적이 아니지만 동일한 페이지에서 실행된 성공 이벤트는 *`channel`* 값에 적용됩니다.
 
 ## colorDepth {#concept_756516E181F449B996DA9CC5A53FFA3D}
 
@@ -222,11 +218,9 @@ colordepth.xml
 
  -->
 
-예를 들어 32는 화면에 32비트 색상을 사용함을 나타냅니다. 이 변수는 페이지 코드의 뒤에 *`doPlugins`* 가 실행되기 전에 채워집니다.
+예를 들어 32는 화면에 32비트 색상을 사용함을 나타냅니다. 이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 `props/eVars`에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -244,11 +238,9 @@ conntype.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 `props/eVars`에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -266,11 +258,9 @@ cookiesenabled.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 `props/eVars`에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -288,9 +278,7 @@ dc.xml
 
  -->
 
->[!NOTE]
->
->dc 변수는 더 이상 사용되지 않습니다. 모든 구성에 대한 *`trackingServer`를 s_code.js에서 코드 관리자가 생성하는 값으로 설정해야 합니다.*
+> [!NOTE]dc 변수는 더 이상 사용되지 않습니다. 모든 구성에 대한 *`trackingServer`를 s_code.js에서 코드 관리자가 생성하는 값으로 설정해야 합니다.*
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
@@ -312,7 +300,7 @@ eVar가 방문자에 대한 값으로 설정되면 이 값은 만료되기 전�
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| 255바이트 | V1-v75( [또는 v100 또는 v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | 사용자 지정 전환 | "" |
+| 255바이트 | V1-v75([또는 v100 또는 v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | 사용자 지정 전환 | "" |
 
 **만료** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -323,13 +311,13 @@ eVar가 방문자에 대한 값으로 설정되면 이 값은 만료되기 전�
 * 지정된 시간이나 이벤트 후 eVar가 만료되도록 설정할 수 있습니다.
 * eVar의 강제 만료 기능을 사용할 수 있으며, 이 기능은 변수를 다른 목적에 사용할 때 유용합니다.
 
-eVar를 내부 판촉 행사를 반영하기 위해 5월에 사용하고 6월에 내부 검색 키워드를 캡처하는 데 사용하는 경우 6월 1일에 변수를 강제로 만료하거나 재설정해야 합니다. 이렇게 하면 내부 판촉 행사 값을 6월의 보고서에서 빼는 데 유용합니다.
+eVar를 내부 판촉 행사 반영을 위해 5월에 사용하고 6월에 내부 검색 키워드를 캡처하는 데 사용한다면, 6월 1일에 변수를 강제로 만료하거나 재설정해야 합니다. 이렇게 하면 내부 판촉 행사 값을 6월의 보고서에서 빼는 데 유용합니다.
 
 **대/소문자 구분** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
 eVar는 대/소문자를 구분하지는 않지만 처음 사용한 대/소문자대로 표시됩니다. 예를 들어 eVar1을 처음 사용할 때 "Logged In"으로 설정되었지만, 그 이후의 모든 사용에서는 "logged in"으로 전달되는 경우, 보고서는 항상 "Logged In"을 eVar의 값으로 보여 줍니다.
 
-**카운터**{#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**카운터** {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
 
 eVar는 대부분 문자열 값을 보관하는 데 사용되지만, 카운터로 작동하도록 구성할 수도 있습니다. eVar는 이벤트 전에 사용자가 취하는 동작의 수를 세려고 할 때 카운터로 유용합니다. 예를 들어 구매 전에 eVar를 사용하여 내부 검색 횟수를 캡처할 수 있습니다. 방문자가 검색할 때마다, eVar에는 '+1'의 값이 포함되어 있어야 합니다. 방문자가 구매 전에 검색을 네 번 수행하면, 각각 총 횟수는 1.00, 2.00, 3.00 및 4.00이 됩니다. 하지만 구매 이벤트에 대해서는 4.00만 크레딧을 받습니다(주문 및 매출 지표). eVar 카운터의 값으로는 양수만 허용됩니다.
 
@@ -339,7 +327,7 @@ eVar는 대부분 문자열 값을 보관하는 데 사용되지만, 카운터�
 
 **구문 및 가능한 값** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-While eVars may be renamed, they should always be referred to in the JavaScript file by eVarX, where X is a number between 1 and 75 ( [or 100, or 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)).
+eVar의 이름은 변경할 수 있지만 JavaScript 파일에서는 항상 eVarX로 참조되어야 합니다. 여기서 X는 1과 75 사이의 숫자([ 또는 100 또는 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28))입니다.
 
 ```js
 s.eVarX="value"
@@ -359,7 +347,7 @@ s.eVar23="internal spring promo 4"
 
 **구성 설정** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-eVar는 Analytics &gt; 관리 &gt; 보고서 [!UICONTROL 세트 &gt; 설정 편집 &gt; 전환 &gt; 전환 변수에서 구성할 수 있습니다]. 모든 eVar는 [!UICONTROL 이름], [!UICONTROL 유형], [!UICONTROL 할당], [!UICONTROL 설정 후 만료] 또는 [!UICONTROL 재설정]으로 구성할 수 있습니다. 각 구성 설정은 개별적으로 지정됩니다.
+eVar는 [!UICONTROL Analytics &gt; 관리자 &gt; 보고서 세트 &gt; 설정 편집 &gt; 전환 &gt; 전환 변수]에서 구성할 수 있습니다. 모든 eVar는 [!UICONTROL 이름], [!UICONTROL 유형], [!UICONTROL 할당], [!UICONTROL 설정 후 만료] 또는 [!UICONTROL 재설정]으로 구성할 수 있습니다. 각 구성 설정은 개별적으로 지정됩니다.
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -370,8 +358,8 @@ eVar는 Analytics &gt; 관리 &gt; 보고서 [!UICONTROL 세트 &gt; 설정 편�
  </thead>
  <tbody> 
   <tr> 
-   <td> 이름 </td> 
-   <td> <span class="keyword">Analytics</span> 내에서 eVar 보고서의 이름을 변경할 수 있도록 해줍니다 . <p><span class="keyword">Analytics</span>에서 보고서에 어떤 이름이 지정되었는지에 관계없이 JavaScript 코드에서는 여전히 eVar를 s.eVarX로 참조해야 합니다 . </p> </td> 
+   <td>  이름  </td> 
+   <td> <span class="keyword">Analytics</span> 내에서 eVar 보고서의 이름을 변경할 수 있도록 해줍니다. <p><span class="keyword">Analytics</span>에서 보고서에 어떤 이름이 지정되었는지에 관계없이 JavaScript 코드에서는 여전히 eVar를 s.eVarX로 참조해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> 유형 </td> 
@@ -430,11 +418,11 @@ events.xml
 
 기본적으로, 성공 이벤트는 *카운터* 이벤트로 구성됩니다. 카운터 이벤트는 성공 이벤트가 설정되는 횟수(x+1)를 카운트합니다. 이벤트는 *숫자* 이벤트로도 구성됩니다. 숫자 이벤트를 사용하면 숫자를 증분으로 지정할 수 있습니다(내부 검색에서 반환되는 결과 수와 같이, 동적 또는 임의의 값을 카운트할 때 필요할 수 있기 때문에).
 
-최종 이벤트 유형인 *통화*&#x200B;를 사용하면 추가되는 금액을 정의할 수 있습니다(숫자 이벤트와 유사). 하지만 통화는 보고서에서 통화로 표시되며,  *`currencyCode`*&#x200B;값과 보고서 세트에 대한 기본 통화 설정을 기반으로 통화 전환이 가능합니다. For additional information on using numeric and currency events, see [Products](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2).
+최종 이벤트 유형인 *통화*&#x200B;를 사용하면 추가되는 금액을 정의할 수 있습니다(숫자 이벤트와 유사). 하지만 통화는 보고서에서 통화로 표시되며,  *`currencyCode`*&#x200B;값과 보고서 세트에 대한 기본 통화 설정을 기반으로 통화 전환이 가능합니다. 숫자 및 통화 이벤트 사용에 대한 자세한 내용은 [제품](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2)을 참조하십시오.
 
 **변수 구성** {#section_9195286C34C54B02B2598E2B856492C3}
 
-[!UICONTROL s.events] 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. New custom events (event1- [event100 or event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) can be enabled by any admin-level user using the Admin Console.
+[!UICONTROL s.events] 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. 새로운 사용자 지정 이벤트(event1- [event100 또는 event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28))는 관리 콘솔을 사용하여 모든 관리 수준 사용자가 활성화할 수 있습니다.
 
 **가능한 값** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -561,9 +549,7 @@ s.hier4="Sports/Local Sports/Baseball"
 * 계층이 설정되고 나면 구분 기호를 변경할 수 없습니다. 계층의 구분 기호를 변경해야 하는 경우에는 Adobe 고객 지원 센터에 문의하십시오.
 * 계층을 설정하고 나면 수준 수를 변경할 수 없습니다.
 
->[!NOTE]
->
->계층을 변경하면 서비스 요금이 발생할 수 있습니다.
+> [!NOTE] 계층을 변경하면 서비스 요금이 발생할 수 있습니다.
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -575,11 +561,9 @@ homepage.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 props/eVars에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -599,9 +583,7 @@ javaEnabled.xml
 
 이 변수는 페이지 코드의 뒤에, doPlugins가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 props/eVars에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -619,11 +601,9 @@ javascriptVersion.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 props/eVars에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -635,7 +615,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 ## linkName {#concept_1B2A3F56C9AD4C23A8A4331730EC2B8F}
 
-The  variable is an optional variable used in [!UICONTROL Link Tracking] that determines the name of a custom, download, or exit link.
+이 변수는 사용자 지정, 다운로드 또는 종료 링크의 이름을 결정하는 [!UICONTROL 링크 추적]에 사용되는 선택 변수입니다. 
 
 <!-- 
 
@@ -643,7 +623,7 @@ linkName.xml
 
  -->
 
-The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it.
+*`linkName`* 변수는 *`tl()`* 함수에서 세 번째 매개 변수가 대체하므로 보통은 필요가 없습니다.
 
 <table id="table_4B0D1C9AADA542A59B626E077D5FC568"> 
  <thead> 
@@ -664,7 +644,7 @@ The *`linkName`* variable is not normally needed because the third parameter in 
  </tbody> 
 </table>
 
-[!UICONTROL 사용자 지정 링크]는 추적 데이터를 보내는 링크를 말합니다. The *`linkName`* variable (or the third parameter in the *`tl()`* function) is used to identify the value that appears in the [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report. If *`linkName`* is not populated, the URL of the link appears in the report.
+[!UICONTROL 사용자 지정 링크]는 추적 데이터를 보내는 링크를 말합니다. The *`linkName`* 변수(또는 *`tl()`* 함수의 세 번째 매개 변수)는 [!UICONTROL 사용자 지정], [!UICONTROL 다운로드] 또는 [!UICONTROL 종료 링크] 보고서에 나타나는 값을 식별하는 데 사용됩니다. *`linkName`*&#x200B;을 채우지 않으면 링크의 URL이 보고서에 나타납니다.
 
 **구문 및 가능한 값** {#section_C8D89834C98B4C7A858C947293C4148E}
 
@@ -672,7 +652,7 @@ The *`linkName`* variable is not normally needed because the third parameter in 
 s.linkName="Link Name"
 ```
 
-There are no limitations on *`linkName`* outside of the standard variable limitations.
+*`linkName`*&#x200B;에는 표준 변수 제한 외에는 제한이 없습니다.
 
 **예** {#section_5F68766210184E82A23D2A6ECD80BA0B}
 
@@ -690,9 +670,9 @@ s.linkName="Partner Link to A.com"
 
 **함정, 질문 및 팁** {#section_170A78452A7340B5B229713AC1FB71FA}
 
-* The *`linkName`* variable is replaced by the third parameter in the *`tl()`* function.
+* *`linkName`* 변수는 *`tl()`* 함수의 세 번째 매개 변수로 교체되었습니다.
 
-* If the *`linkName`* variable and the third parameter in the *`tl()`* function are blank, the full URL of the link (with the exception of the query string) appears in the report (even if the link is relative).
+* *`linkName`* 변수와 *`tl()`* 함수의 세 번째 매개 변수가 비어 있는 경우 링크가 상대 링크이더라도 링크의 전체 URL(쿼리 문자열은 예외)이 보고서에 표시됩니다.
 
 ## linkType {#concept_7695692AF5D843E3B370F6D345E32964}
 
@@ -704,7 +684,7 @@ linkType.xml
 
  -->
 
-The *`linkType`* variable is not normally needed because the second parameter in the *`tl()`* function replaces it.
+*`linkType`* 변수는 *`tl()`* 함수에서 두 번째 매개 변수가 대체하므로 보통은 필요가 없습니다.
 
 <table id="table_3D1A2FC1CECD4709BE2F9E32AC2DC730"> 
  <thead> 
@@ -725,21 +705,21 @@ The *`linkType`* variable is not normally needed because the second parameter in
  </tbody> 
 </table>
 
-사용자 지정 링크는 데이터를 Analytics로 보냅니다. The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
+사용자 지정 링크는 데이터를 Analytics로 보냅니다. *`linkType`* 변수(또는 *`tl()`* 함수의 두 번째 매개 변수)는 링크 이름 또는 URL이 나타나는 보고서를 식별하는 데 사용됩니다([!UICONTROL 사용자 지정], [!UICONTROL 다운로드] 또는 [!UICONTROL 종료 링크] 보고서).
 
-종료 및 다운로드 링크의 경우, 클릭한 링크가 종료 링크인지 다운로드 링크인지에 따라 변수가 자동으로 채워집니다. *`linkType`* A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. 'o', 'e' 또는 'd' *`linkType`* 로 설정하면 *`linkName`* 또는 링크 URL이 각각 사용자 지정 링크, 종료 링크 [!UICONTROL 또는]파일 다운로드 [!UICONTROL 보고서에]전송됩니다  .
+종료 및 다운로드 링크의 경우 클릭한 링크가 종료 링크인지 아니면 다운로드 링크인지에 따라 *`linkType`* 변수가 자동으로 채워집니다. 사용자 지정 링크는 이 변수나 *`tl()`* 함수의 두 번째 매개 변수가 있는 세 개의 보고서 중 하나에 데이터를 보내도록 구성할 수 있습니다. *`linkType`*&#x200B;을 'o', 'e' 또는 'd'로 설정하거나 *`linkName`* 또는 링크 URL이 각각 [!UICONTROL 사용자 지정 링크], [!UICONTROL 종료 링크] 또는 [!UICONTROL 파일 다운로드] 보고서에 각각 전송됩니다.
 
 **구문 및 가능한 값** {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
-The *`linkType`* variable syntax depends on whether you use XML or a query string.
+*`linkType`* 변수 구문은 XML 또는 쿼리 문자열 사용 여부에 따라 다릅니다.
 
 XML을 사용하는 경우 변수에는 단일 문자, 즉, 'o,' 'e' 또는 'd'만 포함될 수 있습니다.
 
 ```js
-s.tl(this,’o’,’Link Name’);
+s.tl(this,'o','Link Name');
 ```
 
-If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `lnk_o`.
+쿼리 문자열 `pe`를 사용하는 경우 `lnk_d`, `lnk_e` 또는 `lnk_o`를 사용해야 합니다.
 
 **예** {#section_242B5DFFD1C9462A9A8EB1556B2E3160}
 
@@ -756,7 +736,7 @@ If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `ln
 
 **함정, 질문 및 팁** {#section_F0D01DDE3FDA486C987162DA50A79C45}
 
-* 을 지정하지 *`linkType`* 않으면 사용자 지정 링크('o')로 간주됩니다.
+* *`linkType`*&#x200B;을 지정하지 않으면 사용자 지정 링크('o')로 간주됩니다.
 
 ## List Props {#concept_83ED74232225431F83A796E22FFC75B4}
 
@@ -774,7 +754,7 @@ list_props.xml
 * 경로 지정 및 상관 관계는 목록 prop에 대해 활성화할 수 없습니다.
 * Analytics에서는 모든 목록 prop 보고서를 포함하여 거의 모든 보고서에 방문 횟수 및 방문자 수를 제공합니다.
 * 목록 Prop에는 분류가 지원됩니다.
-* 모든 사용자 지정 트래픽 변수는 목록 Prop이 될 수 있습니다. (예외: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D)및 [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2))
+* 모든 사용자 지정 트래픽 변수는 목록 Prop이 될 수 있습니다. (예외: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D) 및 [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2))
 
 * 동일한 이미지 요청에서 중복 값을 정의하면, 인스턴스가 중복되지 않습니다.
 
@@ -832,9 +812,9 @@ listN.xml
 
 Adobe 고객 지원 센터의 도움 없이도 관리 콘솔에서 구성에 액세스하여 업데이트할 수 있습니다.
 
-1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다.
 1. 보고서 세트를 선택합니다.
-1. Click  **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
+1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 목록 변수]**&#x200B;를 클릭합니다.
 
 * **이름**: 구분 기호로 구분된 각 값에는 최대 255자를 포함할 수 있습니다(멀티바이트 문자를 사용하는 경우 더 적음). 이것은 각 요소의 최대 길이입니다.
 * **값 구분 기호**: 목록 변수에서 값을 구분하는 데 사용되는 문자입니다. 일반적으로 쉼표, 콜론, 파이프 또는 그와 비슷한 것이 사용됩니다.
@@ -862,7 +842,7 @@ Adobe 고객 지원 센터의 도움 없이도 관리 콘솔에서 구성에 액
 
    최대값 설정은 속성을 특정한 개수의 값으로 제한할 때 유용합니다. 예를 들어 목록 변수가 방문 첫 번째 페이지에서 "A,B,C"로 설정되고 다음 페이지에서 "X,Y,Z"로 설정된 경우 할당을 기준으로 속성이 이러한 6개의 값으로 배포됩니다. 속성을 "X,Y,Z"로만 제한하려면 최대값을 3으로 설정하면 됩니다.
 
-To set up or edit List Vars, go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
+목록 변수를 설정 또는 편집하려면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 목록 변수]**&#x200B;로 이동합니다.
 
 **구현 예제** {#section_564AFE6A2F524BFEB372EC0F7FEBA656}
 
@@ -911,13 +891,13 @@ s.events="purchase";
  <tbody> 
   <tr> 
    <td colname="col1"> 페이지 1 </td> 
-   <td colname="col2"> <code> s.list1=”value1,value2,value3”; </code> </td> 
+   <td colname="col2"> <code> s.list1="value1,value2,value3"; </code> </td> 
    <td colname="col3"> (설정되지 않음) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 페이지 2 </td> 
-   <td colname="col2"> <code> s.list1=”value4,value5,value6”; </code> </td> 
-   <td colname="col3"> <p> <code> s.events=”purchase”; </code> </p> <p> <code> s.products=”;product;1;200” </code> </p> </td> 
+   <td colname="col2"> <code> s.list1="value4,value5,value6"; </code> </td> 
+   <td colname="col3"> <p> <code> s.events="purchase"; </code> </p> <p> <code> s.products=";product;1;200" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -948,15 +928,13 @@ s.maxDelay="750";
 * 지정된 시간의 크기는 밀리초 단위로 측정됩니다.
 * 대기 시간을 늘리면 더 많은 DFA 데이터가 모이지만, Analytics 히트 데이터를 잃을 위험도 늘어납니다.
 
-   Losing Analytics hit data would occur when the user navigates away from the page during the *`s.maxDelay`* period.
+   사용자가 *`s.maxDelay`* 기간 중에 페이지에서 멀리 탐색하면 Analytics 히트 데이터가 손실됩니다.
 
 * 대기 시간을 줄이면 Analytics 히트 데이터를 잃을 위험은 낮아지지만, 히트 데이터로 전송된 DFA 데이터의 양이 줄어들 수 있습니다.
 
-   DFA 통합 데이터의 손실은 *`s.maxDelay`* 기간이 DFA 호스트가 응답할 충분한 시간을 수용하지 못할 때 발생합니다.
+   *`s.maxDelay`* 기간이 DFA 호스트가 응답할 충분한 시간을 수용하지 못하는 경우 DFA 통합 데이터가 손실됩니다.
 
->[!NOTE]
->
->Adobe는 DFA 응답 시간을 제어할 수 없습니다. 최대 지연 시간을 합리적인 시간 범위로 올린 후에도 문제가 지속되는 경우에는, 조직의 DFA 계정 관리자에게 문의하십시오.
+> [!NOTE] Adobe에서는 DFA 응답 시간을 제어하지 않습니다. 최대 지연 시간을 합리적인 시간 범위로 올린 후에도 문제가 지속되는 경우에는, 조직의 DFA 계정 관리자에게 문의하십시오.
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -1047,7 +1025,7 @@ mediaName.xml
 
 **autoTrack 메서드:**
 
-[!UICONTROL s.Media.autoTrack]을 사용하는 경우, *`mediaName`*&#x200B;변수를 명시적으로 구현할 필요가 없습니다. JavaScript용 AppMeasurement 코드에 의해 자동으로 결정됩니다.
+[!UICONTROL s.Media.autoTrack]을 사용하는 경우에는, *`mediaName`변수를 명시적으로 구현할 필요가 없습니다.* JavaScript용 AppMeasurement 코드에 의해 자동으로 결정됩니다.
 
 **수동 추적 메서드:**
 
@@ -1207,7 +1185,7 @@ mediaSession.xml
 
 **autoTrack 메서드:**
 
-[!UICONTROL s.Media.autoTrack]을 사용하는 경우, *`mediaName`*&#x200B;을 명시적으로 구현할 필요가 없습니다. JavaScript용 AppMeasurement 코드에 의해 자동으로 결정됩니다.
+If using [!UICONTROL s.Media.autoTrack], the *`mediaName`* does not need to be implemented explicitly. JavaScript용 AppMeasurement 코드에 의해 자동으로 결정됩니다.
 
 **수동 추적 메서드:**
 
@@ -1288,7 +1266,7 @@ event1이나 purchase와 같은 이벤트 이름
 **예** {#section_140A55D80EA24011954F9383CF312237}
 
 ```js
-s.Media.trackEvents=”event1,purchase”
+s.Media.trackEvents="event1,purchase"
 ```
 
 **함정, 질문 및 팁** {#section_030B11C64EE84D46A85CA550DB732D28}
@@ -1313,19 +1291,19 @@ media_trackVars.xml
 
 **구문 및 가능한 값** {#section_7374684A7EB34AE685E8C40A66CFD289}
 
-propN, , *`eVarN`**`events`*, *`channel`*&#x200B;등과 같은 변수 이름.
+[!UICONTROL propN], *`eVarN`*, *`events`*, *`channel`* 등과 같은 변수 이름.
 
 **예** {#section_48653222ABA14AB0A3C4471659971FAA}
 
 ```js
-s.Media.trackVars=”prop2,events,eVar3”
+s.Media.trackVars="prop2,events,eVar3"
 ```
 
 **함정, 질문 및 팁** {#section_615AE1B696124B00B78F651B03813EAB}
 
 * [!UICONTROL trackVars]에 eVar3이 지정되어 있어도, 미디어 히트와 함께 전송됩니다.
 
-## mobile {#concept_0CEE045F57B444138C0EAA015FC7EA70}
+## 모바일 {#concept_0CEE045F57B444138C0EAA015FC7EA70}
 
  변수는 쿠키와 구독자 ID가 방문을 식별하는 데 사용되는 순서를 제어합니다.
 
@@ -1335,7 +1313,7 @@ mobile.xml
 
  -->
 
-See [Mobile network protocols](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
+[모바일 네트워크 프로토콜](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC)을 참조하십시오.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
@@ -1350,7 +1328,7 @@ s.mobile=""  // if set to an empty string or not set at all, cookies used first,
 
 **함정, 질문 및 팁** {#section_06CD5CB4EF1E4B9FBE3B9D1F18AAFA30}
 
-JavaScript 쿠키 구현에서 변수를 사용할 때 방문자 트래픽의 발생 가능한 스파이크를 완화하려면 *`s.mobile`* 상호 방문자 식별을 사용합니다.
+JavaScript 쿠키 구현에서 *`s.mobile`* 변수를 사용할 때 방문자 트래픽의 발생 가능한 스파이크를 완화하려면 상호 방문자 ID를 사용합니다.
 
 ## pageName {#concept_5827B499DAC34B5D8445F9D9140CC328}
 
@@ -1381,21 +1359,21 @@ pageName.xml
  </tbody> 
 </table>
 
-The *`pageName`*&#x200B;변수는 비즈니스 사용자가 인식하는 값으로 채워야 합니다. 대부분의 경우 이 *`pageName`* 값은 URL 또는 파일 경로가 아닙니다. Common *`pageName`* values include names such as "Home Page," "Checkout," "Purchase Thank you," or "Registration."
+The *`pageName`*&#x200B;변수는 비즈니스 사용자가 인식하는 값으로 채워야 합니다. 대부분의 경우 *`pageName`* 값은 URL 또는 파일 경로가 아닙니다. 일반적으로 *`pageName`* 값에는 "홈 페이지", "체크아웃", "구매 감사" 또는 "등록"과 같은 이름이 포함되어 있습니다.
 
 줄바꿈, -em이나 -en 대시 또는 모든 HTML 문자가 페이지 이름과 다른 변수에 나타나지 않도록 주의하십시오. 일부 브라우저에서는 다른 브라우저에서 보내지 않는 줄바꿈 문자를 보내 보기에는 동일한 두 개의 페이지 이름 사이에서 Analytics의 데이터가 분리되기도 합니다. 많은 워드 프로세서 및 이메일 클라이언트는 하이픈을 입력하면 자동으로 -en이나 -em 대시로 변환합니다. -en 및 -em 대시는 Analytics 변수에 사용할 수 없는 문자(127개가 넘는 코드의 ASCII 문자)이므로, Analytics는 잘못된 문자가 들어 있는 페이지 이름을 기록하지 않고 대신 URL을 보여 줍니다.
 
-If *`pageName`* is left blank, the URL is used to represent the page name. Leaving *`pageName`* blank is often problematic because the URL may not always be the same for a page `www.mysite.com` and `mysite.com` are the same page with different URLs).
+*`pageName`*&#x200B;을 비워 두면 페이지 이름을 나타내는 데 URL이 사용됩니다. *`pageName`*&#x200B;을 비워 두면 종종 문제가 발생할 수 있습니다. 다른 URL을 사용하는 동일한 페이지 `www.mysite.com` 및 `mysite.com`에 대해 URL이 동일하지 않은 경우도 있을 수 있기 때문입니다.
 
 **구문 및 가능한 값** {#section_7A61EE70F1A84D26B414404998C84BA8}
 
-The *`pageName`* variable should contain a useful identifier for business users of Analytics.
+*`pageName`* 변수에는 Analytics의 비즈니스 사용자에게 유용한 식별자가 들어 있어야 합니다.
 
 ```js
 s.pageName="page_name"
 ```
 
-There are no limitations on *`pageName`* outside of the standard variable limitations.
+*`pageName`*&#x200B;에는 표준 변수 제한 외에는 제한이 없습니다.
 
 **예** {#section_8BB4F86F84E246A08B72DEC47FFC0765}
 
@@ -1413,7 +1391,7 @@ s.pageName="Standard Offer List"
 
 **함정, 질문 및 팁** {#section_BB41DC9682C34385B9CAA80D5257C113}
 
-에 잘못된 문자가 *`pageName`* 포함되어 있지 않은지 확인하십시오.
+*`pageName`*&#x200B;에 잘못된 문자가 포함되어 있지 않은지 확인하십시오.
 
 ## pageType {#concept_F67870238EF74491B5D3909A33CDB985}
 
@@ -1444,7 +1422,7 @@ pageType.xml
  </tbody> 
 </table>
 
-The *`pageType`* 변수는 404 오류 페이지가 표시되면 잘못된 URL을 캡처하여 사용자 지정 사이트에서 더 이상 유효하지 않은 끊어진 링크 및 경로를 빨리 찾게 해줍니다. 아래와 같이 오류 페이지에 *`pageType`* 변수를 설정합니다.
+The *`pageType`* variable captures the errant URL when a 404 Error page is displayed, which allows you to quickly find broken links and paths that are no longer valid on the custom site. 아래와 같이 오류 페이지에서 *`pageType`* 변수를 설정합니다.
 
 404 오류 페이지에 페이지 이름 변수를 사용하지 마십시오. 404 오류 페이지에는 *`pageType`* 변수만 사용됩니다.
 
@@ -1452,7 +1430,7 @@ The *`pageType`* 변수는 404 오류 페이지가 표시되면 잘못된 URL을
 
 **구문 및 가능한 값** {#section_C1C59968226446559B05F6EE7374D525}
 
-허용되는 값은 *`pageType`* "errorPage"뿐입니다.
+허용되는 *`pageType`* 값은 아래 표시된 대로 "errorPage" 뿐입니다.
 
 ```js
 s.pageType="errorPage"
@@ -1470,7 +1448,7 @@ s.pageType="errorPage"
 
 **함정, 질문 및 팁** {#section_943681AB01FE47BEAC72E93CB60C53C8}
 
-To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. 이 방법을 따르면 [!UICONTROL 경로 지정] 보고서를 사용하여 사용자가 500 오류를 생성하는 경로를 알 수 있습니다. Prop은 서버에 의해 지정되는 오류 메시지에 대해 설명합니다.
+다른 서버측 오류(예: 500 오류)를 캡처하려면 prop을 사용하여 오류 메시지를 캡처하고 `<URL>`이 요청한 URL인 "`500 Error: <URL>`"를 *`pageName`* 변수에 지정합니다. 이 방법을 따르면 [!UICONTROL 경로 지정] 보고서를 사용하여 사용자가 500 오류를 생성하는 경로를 알 수 있습니다. Prop은 서버에 의해 지정되는 오류 메시지에 대해 설명합니다.
 
 ## pageUrl {#concept_A15F710CD0174297A2286BF3E7452113}
 
@@ -1503,13 +1481,11 @@ pageURL.xml
  </tbody> 
 </table>
 
->[!NOTE]
->
->Although Adobe allows *`pageURL`* values up to 64k, some browsers impose a size limit on the URL of image requests. To prevent truncation of other data, page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter.
+> [!NOTE]*`pageURL`* 값을 최대 64k까지 허용함에도 불구하고, 일부 브라우저에서는 이미지 요청의 URL에 대한 크기 제한을 시행하고 있습니다. 다른 데이터가 잘리지 않도록 하기 위해 255바이트보다 긴 페이지 URL은 분할되어 처음 255바이트는 `g=` 매개 변수에 나타나고 나머지 바이트는 `-g=` 쿼리 매개 변수의 쿼리 문자열 뒤쪽에 나타납니다.
 
 **구문 및 가능한 값** {#section_22AF3BF7C2F743549967B0C760A095C0}
 
-The *`pageURL`* variable must be a valid URL, with a valid protocol. 도메인을 보고서에 채우려면 먼저 강제로 소문자로 표시해야 하며 Analytics 설정에 따라 쿼리 문자열이 제거될 수 있습니다.
+*`pageURL`* 변수는 유효한 프로토콜이 있는 유효한 URL이어야 합니다. 도메인을 보고서에 채우려면 먼저 강제로 소문자로 표시해야 하며 Analytics 설정에 따라 쿼리 문자열이 제거될 수 있습니다.
 
 ```js
 s.pageURL="proto://domain/path?query_string"
@@ -1517,9 +1493,7 @@ s.pageURL="proto://domain/path?query_string"
 
 페이지 URL에는 URL 호환 문자만 허용됩니다.
 
->[!NOTE]
->
->이 *`pageURL`* 변수를 사용자 지정 용도로 사용하기 전에 Adobe 컨설턴트나 고객 지원 센터에 문의하는 것이 좋습니다.
+> [!NOTE]*`pageURL`* 변수를 사용자 지정 용도로 사용하기 전에 Adobe 컨설턴트나 고객 지원에 문의하는 것이 좋습니다.
 
 **예** {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
@@ -1545,11 +1519,9 @@ plugins.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 props/eVars에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -1569,17 +1541,17 @@ products.xml
 
 >[!IMPORTANT]
 >
->In January of 2016, we updated the logic that sets the *`prodView`* event automatically, which happens when there is a *`product`* but no *`event`*. 이 업데이트로 인해 *`prodView`이벤트가 늘어날 수 있습니다.* *`prodViews`*&#x200B;는 다음과 같은 경우에만 늘어납니다.
+>2016년 1월에 *`prodView`* 이벤트를 자동으로 설정하는 논리를 업데이트했습니다. 이 논리는 *`product`*&#x200B;이 있지만 *`event`*&#x200B;가 없는 경우 발생합니다. 이 업데이트로 인해 *`prodView`이벤트가 늘어날 수 있습니다.* *`prodViews`*&#x200B;는 다음과 같은 경우에만 늘어납니다.
 >
->1. The events variable contains nothing but an unrecognized event, such as *`shoppingCart`* or *`cart`*, which are not valid events.
+>1. 이벤트 변수에 *`shoppingCart`* 또는 *`cart`* 등의 인식할 수 없으며 올바르지 않은 이벤트만 포함되어 있습니다.
    >
    >
 1. *`products`변수가 비어 있지 않습니다.*
 >
 >
-A possible side effect is that merchandising eVars triggered by *`prodView`* events could be associated with an empty *`product`*, but only if the *`product list`* contains only an invalid product (such as a semicolon with no product listed).
+가능한 부작용은 *`prodView`* 이벤트에 의해 트리거된 머천다이징 eVar를 빈 *`product`*&#x200B;과 연결할 수 있지만 *`product list`*&#x200B;에 잘못된 제품(예: 나열된 제품이 없는 세미콜론)만 있는 경우에만 가능하다는 것입니다. 
 
-The *`products`* variable tracks how users interact with products on your site. 예를 들어 products 변수는 몇 번이나 제품을 보았는지, 장바구니에 추가했는지, 체크아웃했는지 및 구입했는지를 추적할 수 있습니다. 또한 사이트에 있는 머천다이징 카테고리의 상대적 효과를 추적할 수도 있습니다. 다음은 products 변수를 사용하는 일반적인 시나리오입니다.
+*`products`* 변수는 사용자가 사이트에서 제품과 어떻게 상호 작용하는지를 추적합니다. 예를 들어 products 변수는 몇 번이나 제품을 보았는지, 장바구니에 추가했는지, 체크아웃했는지 및 구입했는지를 추적할 수 있습니다. 또한 사이트에 있는 머천다이징 카테고리의 상대적 효과를 추적할 수도 있습니다. 다음은 products 변수를 사용하는 일반적인 시나리오입니다.
 
 The *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니다.
 
@@ -1594,7 +1566,7 @@ The *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>" <span class="wintitle"> products" </span>문자열의 최대 크기는 64k입니다. </p> </td> 
+   <td> <p>문자열 "<span class="wintitle"> 제품 </span>"의 최대 크기는 64k입니다. </p> </td> 
    <td> products </td> 
    <td> 제품 <p>카테고리(선택 사항) </p> <p>매출(선택 사항) </p> <p>판매량(선택 사항) </p> <p>사용자 지정 이벤트(선택 사항) </p> <p>eVar(선택 사항) </p> </td> 
    <td> " " </td> 
@@ -1621,15 +1593,15 @@ The values included in the *`products`*&#x200B;변수에 포함된 값은 기록
 
 **비구매 이벤트 관련 products 설정** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
 
-The *`products`* variable must be set in conjunction with a success event.
+*`products`* 변수는 성공 이벤트와 함께 설정해야 합니다.
 
 **구매 이벤트 관련 products 설정** {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
 
-The *`purchase`* event should be set on the final confirmation ("Thank You!") 설정해야 합니다. 제품 이름, 카테고리, 수량 및 가격은 모두 *`products`* variable. Although the *`purchaseID`* variable is not required, it is strongly recommended in order to prevent duplicate orders.
+*`purchase`* 이벤트는 주문 프로세스의 최종 확인("감사합니다!") 페이지에서 설정해야 합니다. 제품 이름, 카테고리, 수량 및 가격은 모두 *`products`* 변수를 채우는 방법을 설명합니다. *`purchaseID`* 변수는 필수가 아니지만, 중복 주문을 방지하기 위해 사용해야 합니다.
 
 **제품별 통화 이벤트** {#section_F814DF053C0D463A97DA039E6323720C}
 
-통화 이벤트가 이벤트 변수 대신 *`products`* 변수에서 값을 받는 경우 해당 값만 적용됩니다. 제품별 할인, 제품 배송 및 유사한 값을 추적하는 데 유용합니다. 예를 들어, 이벤트 1을 제품 배송을 추적하도록 구성한 경우, 배송비가 "4.50"인 제품이 다음과 유사하게 나타납니다.
+통화 이벤트가 이벤트 변수 대신 *`products`* 변수에서 값을 받는 경우 해당 값에만 적용됩니다. 제품별 할인, 제품 배송 및 유사한 값을 추적하는 데 유용합니다. 예를 들어, 이벤트 1을 제품 배송을 추적하도록 구성한 경우, 배송비가 "4.50"인 제품이 다음과 유사하게 나타납니다.
 
 ```js
 s.events="event1" 
@@ -1652,13 +1624,11 @@ s.purchaseID="1234567890"
 
 통화 이벤트 보고서에서 보고서 총계는 각 제품에 대한 이벤트 값의 합이 아닌 중복 제거된 이벤트 총계(보고 기간 동안의 총 할인 금액)를 나타냅니다. 예를 들어, "Running Shoes"와 "Running Socks"에 모두 "9.95"가 나열되고, 합계는 "9.95"가 됩니다.
 
->[!NOTE]
->
->동일한 숫자/통화 이벤트에 대한 값이 *`products`* 변수와 *`events`* 변수에 지정된 경우, 변수의 값이 *`events`* 사용됩니다.
+> [!NOTE] 동일한 숫자/통화 이벤트에 대한 값이 *`products`* 변수와 *`events`* 변수에 지정된 경우 *`events`*&#x200B;의 값이 사용됩니다.
 
 **함정, 질문 및 팁** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 
-* The *`products`* variable should always be set in conjunction with a [!UICONTROL success] event (events). [!UICONTROL 성공] 이벤트를 지정하지 않은 경우 기본 이벤트는 [!UICONTROL prodView]입니다.
+* *`products`]변수는 항상*&#x200B;성공[!UICONTROL  이벤트와 함께 설정해야 합니다. [!UICONTROL 성공] 이벤트를 지정하지 않은 경우 기본 이벤트는 [!UICONTROL prodView]입니다.
 
 * 제품을 채우려면 먼저 제품 및 카테고리 이름에서 모든 쉼표와 세미콜론을 제거하십시오.
 * 모든 HTML 문자(등록 기호, 상표 등)를 제거하십시오.
@@ -1669,43 +1639,43 @@ s.purchaseID="1234567890"
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
+   <td colname="col1"> <code> s.products="Category2;ABC123,;ABC456" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
+   <td colname="col1"> <code> s.products="Category3;ABC123;1;10" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123;1;10,;ABC456;2;19.98" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1750,7 +1720,7 @@ s.prop15="toy category"
 
 ## purchaseID {#concept_21937434E63F413CB469007623B933AE}
 
-A는 보고에서 주문이 여러 번 카운트되지 않도록 하는 데 사용됩니다.
+보고서에서 주문이 여러 번 카운트되지 않도록 하는 데 사용됩니다.
 
 <!-- 
 
@@ -1758,15 +1728,15 @@ purchaseID.xml
 
  -->
 
-Whenever the [!UICONTROL purchase] event is used on your site, you should use the *`purchaseID`* variable.
+사이트에서 [!UICONTROL 구매] 이벤트가 사용될 때마다 *`purchaseID`* 변수를 사용해야 합니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | 20바이트 | purchaseID | 전환 &gt; 구매 &gt; 매출 전환 | "" |
 
-방문자가 사이트에서 항목을 구매하면 *`purchaseID`*&#x200B;가, [!UICONTROL 구매] 이벤트가 실행된 같은 곳의 "감사합니다" 페이지에서 채워집니다. If the *`purchaseID`* is populated, the products on the "Thank You" page are counted only once per *`purchaseID`*. 사이트를 방문하는 많은 방문자들이 자신만의 목적을 위해 "감사합니다" 또는 "확인 페이지"를 저장하므로 이것은 매우 중요합니다. The *`purchaseID`* 는 페이지를 볼 때마다 구매를 카운트하지 않도록 해줍니다.
+방문자가 사이트에서 항목을 구매하면 *`purchaseID`*&#x200B;가, [!UICONTROL 구매] 이벤트가 실행된 같은 곳의 "감사합니다" 페이지에서 채워집니다. *`purchaseID`*&#x200B;가 채워지면, "감사합니다" 페이지의 제품이 *`purchaseID`*&#x200B;마다 한 번씩만 카운트됩니다. 사이트를 방문하는 많은 방문자들이 자신만의 목적을 위해 "감사합니다" 또는 "확인 페이지"를 저장하므로 이것은 매우 중요합니다. The *`purchaseID`* 는 페이지를 볼 때마다 구매를 카운트하지 않도록 해줍니다.
 
-구매 데이터가 두 번 카운트되지 않도록 하는 것 외에도, 이 데이터를 *`purchaseID`*&#x200B;사용하면 모든 전환 데이터가 보고서에서 두 번 카운트되지 않게 됩니다.
+구매 데이터가 두 번 카운트되지 않도록 하는 것 외에도, 이 데이터를 *`purchaseID`*&#x200B;를 사용하면 모든 전환 데이터가 보고서에서 두 번 카운트되지 않습니다.
 
 **구문 및 가능한 값** {#section_E352CE2370D54BA69A368E1F63A9C32D}
 
@@ -1774,7 +1744,7 @@ Whenever the [!UICONTROL purchase] event is used on your site, you should use th
 s.purchaseID="unique_id"
 ```
 
-The *`purchaseID`* must be 20 characters or fewer, and be standard ASCII.
+*`purchaseID`*&#x200B;는 20자 이하여야 하며, 표준 ASCII를 사용해야 합니다.
 
 **예** {#section_60A5C1EAF42F4611898CD6A4F4CF5A28}
 
@@ -1789,7 +1759,7 @@ s.purchaseID="a8g784hjq1mnp3"
 
 **함정, 질문 및 팁** {#section_F5D010F234ED43F19AD1FCD2CD64E060}
 
-The *`purchaseID`* variable allows all conversion variables on the page to be counted only once in reports.
+*`purchaseID`* 변수를 사용하면 페이지의 모든 전환 변수를 보고서에서 한 번씩만 셀 수 있습니다.
 
 ## referrer {#concept_3D8E6A5D30DC4D92982EFA34D4C7F81B}
 
@@ -1807,7 +1777,7 @@ referrer.xml
 |---|---|---|---|
 | 255바이트 | R | 트래픽 &gt; 검색 방법 전환 &gt; 검색 방법 | document.referrer |
 
-많은 회사에서는 자신들의 웹 사이트 전체에서 리디렉션을 사용합니다. 예를 들어 방문자가 리디렉션을 통해 검색 엔진의 유료 검색 결과로 이동할 수도 있습니다. 브라우저가 리디렉션되면 레퍼러가 손실되는 경우가 많습니다. The 변수는 리디렉션 후 첫 번째 페이지에서 원래 *`referrer`* *`referrer`* 값을 복원하는 데 사용할 수 있습니다. The *`referrer`* may be populated server-side, or via JavaScript from the query string.
+많은 회사에서는 자신들의 웹 사이트 전체에서 리디렉션을 사용합니다. 예를 들어 방문자가 리디렉션을 통해 검색 엔진의 유료 검색 결과로 이동할 수도 있습니다. 브라우저가 리디렉션되면 레퍼러가 손실되는 경우가 많습니다. The *`referrer`* 변수는 리디렉션 후 첫 번째 페이지에서 원래 *`referrer`* 값을 복원하는 데 사용할 수 있습니다. *`referrer`*&#x200B;는 서버 측에서 채울 수도 있고 쿼리 문자열에서 JavaScript를 통해 채울 수도 있습니다.
 
 Analytics가 레퍼러를 기록하려면 "형식을 제대로 지정"해야 하며, 이것은 프로토콜과 적절한 위치로 표준 URL 형식을 따라야 함을 의미합니다.
 
@@ -1817,7 +1787,7 @@ Analytics가 레퍼러를 기록하려면 "형식을 제대로 지정"해야 하
 s.referrer="URL"
 ```
 
- *`referrer`*. 문자열이 URL 인코딩되어 있는지(공백 없음) 확인하십시오.
+ URL 호환 값만 *`referrer`*&#x200B;에 있어야 합니다. 문자열이 URL 인코딩되어 있는지(공백 없음) 확인하십시오.
 
 **예** {#section_86FB1577670C4AA18BF3718F0832FCD4}
 
@@ -1834,7 +1804,7 @@ s.referrer=s.getQueryParam('ref')
 
 **함정, 질문 및 팁** {#section_B42BF7FBA1094FF9805707FEA810CFE1}
 
-The *`referrer`* must look like a standard URL and include a protocol.
+*`referrer`*&#x200B;는 표준 URL의 모양이며 프로토콜을 포함해야 합니다.
 
 ## resolution {#concept_8CBDDBE710744A3AA09E6B1E1519BF30}
 
@@ -1846,11 +1816,9 @@ resolution.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+이 변수는 페이지 코드의 뒤에, *`doPlugins`*&#x200B;가 실행되기 전에 채워집니다.
 
->[!NOTE]
->
->이 변수는 읽기만 하고 설정해서는 안 됩니다.
+> [!NOTE] 이 변수는 읽기 전용이어야 하며 설정할 수 없습니다.
 
 이 값을 읽고 props/eVars에 복사할 수는 있지만, 변경해서는 안 됩니다. 이 변수는 JavaScript 파일의 H.11 버전에서 도입되었습니다.
 
@@ -1860,7 +1828,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 ## s_objectID {#concept_48B50DE6B7E546EBB4D187033F1CAF2B}
 
-The  variable is a global variable that should be set in the [!UICONTROL onClick] event of a link.
+이 변수는 링크의 [!UICONTROL onClick] 이벤트에서 설정해야 하는 전역 변수입니다.
 
 <!-- 
 
@@ -1868,11 +1836,9 @@ s_objectID.xml
 
  -->
 
-By creating a unique object ID for a link or link location on a page, you can either improve visitor activity tracking or use [!UICONTROL Activity Map] to report on a link type or location, rather than the link URL.
+페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 방문자 활동 추적을 개선하거나 [!UICONTROL Activity Map]을 사용하여 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다.
 
->[!NOTE]
->
->A trailing semicolon (;) is required when using s_objectID with [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
+> [!NOTE] s_objectID를 Activity Map에서 사용할 때는 후행 세미콜론(;)이 [필요합니다](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
@@ -1881,20 +1847,20 @@ By creating a unique object ID for a link or link location on a page, you can ei
 다음 세 가지 일반적인 이유 *`s_objectID`*:
 
 * 하루 동안 자주 변하는 방문자 활동을 집계하기 위해
-* To separate link activity that [!UICONTROL Activity Map] combines.
-* To improve the accuracy of [!UICONTROL Activity Map] data reporting.
+* [!UICONTROL Activity Map]이 결합하는 링크 활동을 구분하기 위해
+* [!UICONTROL Activity Map] 데이터 보고의 정확도를 개선하기 위해
 
 **매우 동적인 링크에 대한 클릭 집계** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
-사이트가 매우 다이내믹하고 일부 페이지의 링크가 하루 종일 변경되는 경우, 페이지에서 링크 위치를 식별하는 데 사용될 *`s_objectID`* 수 있습니다. 예를 들어 페이지의 왼쪽 상단에 있는 첫 번째 링크를 나타내는 "top left 1" 또는 "top left 2"로 *`s_objectID`* 설정하면 해당 위치에 나타나는(또는 동일한 값으로 *`s_objectID`* 설정된) 모든 링크가 방문자 클릭 맵과 함께 보고됩니다. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
+사이트가 동적이고 일부 페이지의 링크가 하루 종일 변경되는 경우 *`s_objectID`*&#x200B;를 사용하여 페이지에서 링크 위치를 식별할 수 있습니다. *`s_objectID`*&#x200B;가 예를 들어 페이지의 왼쪽 상단에 있는 첫 번째 링크를 나타내는 "top left 1" 또는 "top left 2"로 설정된 경우 해당 위치에 나타나는(또는 동일한 값으로 설정된 *`s_objectID`*) 모든 링크가 방문자 클릭 맵과 함께 보고됩니다. *`s_objectID`*&#x200B;를 사용하지 않는 경우에는 특정 링크를 클릭한 횟수가 표시되지만, 사이트 방문자가 해당 위치의 다른 모든 링크를 어떻게 사용했는지에 대한 통찰력은 잃게 됩니다.
 
 **결합된 클릭 구분** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-사이트의 *`pageName`* 변수가 방문자가 보고 있는 특정 페이지가 아니라 방문자가 보고 있는 섹션이나 템플릿을 표시하는 데 사용되는 경우, 해당 페이지 템플릿의 여러 버전에 표시되는 링크를 구분하는 *`s_objectID`* 데 사용할 수 있습니다. 예를 들어 사이트에 있는 모든 제품에 대한 템플릿 페이지가 있는 경우, 모든 페이지의 해당 템플릿에서 홈 페이지와 검색 상자에 연결된 링크가 있을 수 있습니다. 이러한 링크가 개별 제품 기반(템플릿 기반이 아닌)으로 어떻게 사용되는지를 알려면 *`s_objectID`*&#x200B;를 "prod 123789 home page" 또는 "prod 123789 search"와 같이, 제품별 값으로 채우면 됩니다. Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
+사이트의 *`pageName`* 변수가 방문자가 보고 있는 특정 페이지가 아니라 방문자가 보고 있는 섹션이나 템플릿을 표시하는 데 사용되는 경우 해당 페이지 템플릿의 여러 버전에 표시되는 링크를 구분하는 데 *`s_objectID`*&#x200B;를 사용할 수 있습니다. 예를 들어 사이트에 있는 모든 제품에 대한 템플릿 페이지가 있는 경우, 모든 페이지의 해당 템플릿에서 홈 페이지와 검색 상자에 연결된 링크가 있을 수 있습니다. 이러한 링크가 개별 제품 기반(템플릿 기반이 아닌)으로 어떻게 사용되는지를 알려면 *`s_objectID`*&#x200B;를 "prod 123789 home page" 또는 "prod 123789 search"와 같이, 제품별 값으로 채우면 됩니다. 완료되면 [!UICONTROL Activity Map]은 개별 제품 기반으로 해당 링크에 대해 보고합니다.
 
-**Activity[!UICONTROL Map 정확도]개선**{#section_08B3406821294DCCABEEB99C90CF5C52}
+**[!UICONTROL Activity Map]정확도 개선** {#section_08B3406821294DCCABEEB99C90CF5C52}
 
-경우에 따라 Internet Explorer, Firefox, Netscape, Opera 및 Safari 이외의 브라우저는 보고되지 않습니다. 이런 경우가 흔하지는 않지만, 일부 클릭 수와 기타 지표가 이 문제와 관련됩니다. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. 다음은 링크가 *`s_objectID`*:
+경우에 따라 Internet Explorer, Firefox, Netscape, Opera 및 Safari 이외의 브라우저는 보고되지 않습니다. 이런 경우가 흔하지는 않지만, 일부 클릭 수와 기타 지표가 이 문제와 관련됩니다. 링크 내에서 *`s_objectID`*&#x200B;를 사용하면 이러한 문제를 고유하게 식별하고 브라우저 보고 문제를 해결합니다. 다음은 링크가 *`s_objectID`*:
 
 ```js
 <a href="/art.jsp?id=559" onClick="s_objectID='top left 1';">Article 559</a> 
@@ -1909,7 +1875,7 @@ s_objectID에는 모든 텍스트 식별자가 들어 있을 수 있습니다.
 s_objectID="unique_id" 
 ```
 
-표준 변수 제한 외에는 *`s_objectID`* 에 적용되는 제한이 없습니다.
+*`s_objectID`*&#x200B;에는 표준 변수 제한 외에는 제한이 없습니다.
 
 **예** {#section_33F119D532CA4ACAA3426253C42030BB}
 
@@ -1959,7 +1925,7 @@ s.server="server 14"
 s.server="server_name"
 ```
 
-There are no limitations on the *`server`* variable outside of the standard variable limitations.
+*`server`* 변수에는 표준 변수 제한 외에는 제한이 없습니다.
 
 **예** {#section_78B9EE3C27FB491384869E3D0BD503D6}
 
@@ -1974,11 +1940,11 @@ s.server=window.location.hostname
 
 **함정, 질문 및 팁** {#section_42A28F9B01574F38891D9D54B411D8FE}
 
-The *`server`* variable can be used to show which domains are most popular or which servers are serving the most pages.
+*`server`* 변수를 사용하여 가장 사용 빈도가 높은 도메인이나 가장 많은 페이지를 제공하는 서버를 보여줄 수 있습니다.
 
 ## state {#concept_82295D22888947BF8B1C76182C635C6C}
 
-및 변수는 전환 변수입니다.
+변수  및  은(는) 전환 변수입니다.
 
 <!-- 
 
@@ -1986,13 +1952,13 @@ state.xml
 
  -->
 
-이벤트를 캡처한다는 점은 eVar와 비슷하지만 지속되지 않는다는 점은 eVar와 다릅니다. The *`zip`* and *`state`* variables are like eVars that expire immediately.
+이벤트를 캡처한다는 점은 eVar와 비슷하지만 지속되지 않는다는 점은 eVar와 다릅니다. The *`zip`* 및 *`state`* 변수는 즉시 만료되는 eVar와 같습니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | 50바이트 | state | 변환 &gt; 방문자 프로필 &gt; 방문자 상태 | "" |
 
-Because the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events that are fired on the same page on which they are populated. For example, if you are using *`state`* to compare conversion rates by state, you should populate the *`state`* variable on every page of the checkout process. 전환 사이트의 경우, 청구 주소를 우편번호에 대한 소스로 사용하는 것이 좋지만, 대신 배송 주소를 사용하도록 선택할 수 있습니다(주문에 대해 배송 주소가 하나만 있다고 가정할 경우). 미디어 사이트는 등록이나 광고 클릭스루 추적에 *`zip`* and *`state`* for registration or ad click-through tracking.
+*`state`* 및 *`zip`* 변수는 즉시 만료되므로 이 변수들과 연결되는 유일한 이벤트는 변수들이 채워지는 페이지와 같은 페이지에서 실행되는 이벤트입니다. 예를 들어 *`state`*&#x200B;를 사용하여 주별 전환 비율을 비교하려면 체크아웃 프로세스의 모든 페이지에서 *`state`* 변수를 채워야 합니다. 전환 사이트의 경우, 청구 주소를 우편번호에 대한 소스로 사용하는 것이 좋지만, 대신 배송 주소를 사용하도록 선택할 수 있습니다(주문에 대해 배송 주소가 하나만 있다고 가정할 경우). 미디어 사이트는 등록이나 광고 클릭스루  추적에 *`zip`* 및 *`state`*&#x200B;를 사용하도록 선택할 수 있습니다.
 
 **구문 및 가능한 값** {#section_EDD1F5F9EDBC457898E61695F08C1744}
 
@@ -2000,7 +1966,7 @@ Because the *`state`* and *`zip`* variables expire immediately, the only events 
 s.state="state"
 ```
 
-The *`state`* variable does not impose any special value or format restrictions. There are no limitations on *`state`* outside of the standard variable limitations.
+*`state`* 변수에는 특수 값 또는 형식 제한이 적용되지 않습니다. *`state`*&#x200B;에는 표준 변수 제한 외에는 제한이 없습니다.
 
 **예** {#section_D181B163F79A41D199CA4C70765E583F}
 
@@ -2018,8 +1984,8 @@ s.state="prince edward island"
 
 **함정, 질문 및 팁** {#section_02F1620D0BB14AA6A838966FDB9A234F}
 
-* Populate *`state`* on every page that a relevant event is fired (such as each page of the checkout process).
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
+* 관련 이벤트를 실행하는 모든 페이지(예: 체크아웃 프로세스의 각 페이지)에서 *`state`*&#x200B;을 채웁니다(예: 체크아웃 프로세스의 각 페이지).
+* *`zip`* 및 *`state`* 변수는 페이지 보기에서 만료되는 eVar처럼 작동합니다.
 
 ## timestamp {#concept_D997A2FF4D134C80A614C0BC7A4D7507}
 
@@ -2041,11 +2007,11 @@ timestamp.xml
 s.timestamp="UNIX or ISO-8601 format timestamp"
 ```
 
-The *`timestamp`* variable must be in the format explained in the next section.
+*`timestamp`* 변수는 다음 섹션에서 설명한 형식을 사용해야 합니다.
 
 >[!IMPORTANT]
 >
->Your report suite must be timestamp-enabled by Customer Care before you can use the *`timestamp`* variable. After timestamp support is enabled, all hits sent to this report suite from JavaScript must have a timestamp manually set (using *`s.timestamp`*) or the hits will not be recorded.
+>*`timestamp`* 변수를 사용하려면 고객 지원에서 귀하의 보고서 세트에 대해 타임스탬프를 활성화해야 합니다. 타임스탬프 지원이 활성화된 후에는 JavaScript에서 이 보고서 세트로 전송되는 모든 히트에 *`s.timestamp`*&#x200B;를 사용하여 수동으로 설정된 타임스탬프가 있어야 합니다. 없을 경우 히트가 기록되지 않습니다.
 >
 >또한 보고서 세트에서 타임스탬프 지원을 활성화하여 오프라인 추적을 지원하는 경우 JavaScript에서 이 보고서 세트로 전송되는 모든 히트에도 *`s.timestamp`*). 타임스탬프가 있는 히트와 타임스탬프가 없는 히트를 같은 보고서 세트로 모두 전송할 수 없습니다.
 >
@@ -2056,10 +2022,10 @@ The *`timestamp`* variable must be in the format explained in the next section.
 타임스탬프는 UNIX(1970년 1월 1일 이후 경과한 초) 또는 ISO-8601 형식으로 되어 있어야 하며, 승인된 ISO-8601 형식에 대해 다음 제한 사항이 있습니다.
 
 * 날짜와 시간을 "T"로 구분하여 모두 입력해야 합니다.
-* 날짜는 연도, 월, 일을 모두 포함한 정확한 달력 표시 날짜여야 합니다. . 주차와 서수 날짜는 지원되지 않습니다.
-* 날짜는 표준 또는 확장 형식(`YYYY-MM-DD` 또는 `YYYYMMDD`)이 될 수 있으나 시간과 분을 포함해야 합니다. 초는 선택 사항입니다( `HH:MM`, `HH:MM:SS``HHMM`또는 `HHMMSS`). 분수 분과 초를 입력할 수 있지만 분수 부분은 무시됩니다.
+* 날짜는 연도, 월, 일을 모두 포함한 정확한 달력 표시 날짜여야 합니다. 라는 사용자 지정 코드에서 변수를 찾습니다. 주차와 서수 날짜는 지원되지 않습니다.
+* 날짜는 표준 또는 확장 형식(`YYYY-MM-DD` 또는 `YYYYMMDD`)이 될 수 있으나 시간과 분을 포함해야 합니다. 초는 선택 사항입니다(`HH:MM`, `HH:MM:SS`, `HHMM` 또는 `HHMMSS`). 분수 분과 초를 입력할 수 있지만 분수 부분은 무시됩니다.
 
-* An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
+* 선택적인 시간대는 표준 또는 확장 형식으로 지정할 수 있습니다(`±HH`, `±HH:MM`, `±HH`, `±HHMM` 또는 Z).
 
 UNIX 타임스탬프는 계속해서 지원됩니다(1970년 1월 1일 이후 경과한 초).
 
@@ -2107,7 +2073,7 @@ trackingServer.xml
 
  -->
 
-비보안 페이지에 사용됩니다. 만약 *`trackingServer`* 가 정의된 경우는 아무것도 2o7.net으로 전송되지 않습니다. If *`trackingServer`* is not defined (and dc is not defined), data goes to 112.2o7.net.
+비보안 페이지에 사용됩니다. 만약 *`trackingServer`* 가 정의된 경우는 아무것도 2o7.net으로 전송되지 않습니다. *`trackingServer`*&#x200B;가 정의되지 않은 경우(및 dc가 정의되지 않은 경우) 데이터가 112.2o7.net으로 이동합니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
@@ -2141,15 +2107,15 @@ transactionID.xml
 
  -->
 
-Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!UICONTROL Data Sources] upload of offline information about that transaction. [ 데이터 소스](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)를 참조하십시오.
+Adobe에 전송된 각각의 고유한 *`transactionID`*&#x200B;는 해당 트랜잭션에 대한 오프라인 정보의 [!UICONTROL 데이터 소스] 업로드 준비 시 기록됩니다. [ 데이터 소스](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)를 참조하십시오.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | 100바이트 | xact | n/a | "" |
 
-**거래 ID 스토리지 사용**{#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
+**트랜잭션 ID 저장 공간 활성화** {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
 
-Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage] must be enabled for the report suite selected in the Report Suite Manager. 이 설정은 다음 위치에 있습니다.
+*`transactionID`* 값을 기록하려면 보고서 세트 관리자에서 선택한 보고서 세트에 대해 [!UICONTROL 트랜잭션 ID 저장 공간]을 활성화해야 합니다. 이 설정은 다음 위치에 있습니다.
 
 ```
 Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
@@ -2167,7 +2133,7 @@ Analytics > Admin > Data Sources > Manage
 s.transactionID="unique_id"
 ```
 
-The *`transactionID`* should contain only alphanumeric characters. 여러 [!UICONTROL transactionID]를 한 번의 히트에 기록해야 할 경우, 쉼표를 사용하여 여러 값을 구분하면 됩니다.
+*`transactionID`*&#x200B;에는 영숫자만 사용할 수 있습니다. 여러 [!UICONTROL transactionID]를 한 번의 히트에 기록해야 할 경우, 쉼표를 사용하여 여러 값을 구분하면 됩니다.
 
 **예** {#section_A4C1F0E54CB54AD7B86A22147E9B5FEF}
 
@@ -2185,15 +2151,13 @@ s.transactionID=s.purchaseID
 
 **함정, 질문 및 팁** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* 레코딩을 사용할 수 없는 *`transactionID`* 경우 *`transactionID`* 값은 삭제되고 통합 데이터 소스와 함께 사용할 수 [!UICONTROL 없습니다]. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. 설정되지 않으면 *`transactionID`*.
+* *`transactionID`* 기록을 활성화하지 않은 경우 *`transactionID`* 값이 삭제되고 [!UICONTROL 통합 데이터 소스]에서 사용할 수 없습니다. *`transactionID`*&#x200B;가 설정된 페이지에서 전환 변수 또는 이벤트(eVar 또는 event 변수)를 설정해야 합니다. 설정되지 않으면 *`transactionID`*.
 
-* 구매 및 리드와 같은 여러 [!UICONTROL 시스템에] 대해 transactionID를 기록하는 경우, in 값이 항상 *`transactionID`* 고유한지 확인하십시오. lead_1234 및 purchase_1234와 같이 ID에 접두사를 추가하면 됩니다. [!UICONTROL Integration Data Sources] 는 고유한 [!UICONTROL 데이터가 두 번 표시되는 경우] 예상대로 작동하지 않습니다( *`transactionID`* 데이터 소스 데이터는 잘못된 데이터에 연결됨).
+* 구매 및 리드와 같은 여러 시스템에 대해 [!UICONTROL transactionIDs]를 기록하는 경우 *`transactionID`*&#x200B;의 값이 항상 고유한지 확인합니다. lead_1234 및 purchase_1234와 같이 ID에 접두사를 추가하면 됩니다. [!UICONTROL 통합 데이터 소스]는 고유한 *`transactionID`*&#x200B;가 두 번 표시되면 예외로 작동하지 않습니다([!UICONTROL 데이터 소스] 데이터가 잘못된 데이터에 연결됨).
 
 * 기본적으로 *`transactionID`* 값은 90일 동안 기억됩니다. 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 한계를 늘리십시오.
 
->[!NOTE]
->
->The *`transactionID`* variable can contain any character other than a comma. 이 변수는 문자 제한(100바이트)이 지정된 동일한 위치에 있어야 합니다. 멀티바이트 문자를 사용하는 경우, 멀티바이트 문자 지원을 활성화해야 *`transactionID`*.
+> [!NOTE]*`transactionID`* 변수에는 쉼표를 제외한 모든 문자를 사용할 수 있습니다. 이 변수는 문자 제한(100바이트)이 지정된 동일한 위치에 있어야 합니다. 멀티바이트 문자를 사용하는 경우, 멀티바이트 문자 지원을 활성화해야 *`transactionID`*.
 
 ## visitorID {#concept_CD273CC915CC4ABD8F52E4209FF9557E}
 
@@ -2205,7 +2169,7 @@ visitorID.xml
 
  -->
 
-The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain a hyphen.
+*`visitorID`*&#x200B;에는 영숫자를 최대 100자까지 사용할 수 있으며 하이픈은 사용할 수 없습니다.
 
 사용자 지정 ID를 명시적으로 설정하는 경우, 다른 ID 방법 전에 항상 이 ID가 사용됩니다.
 
@@ -2221,9 +2185,7 @@ The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain
 s.visitorID="visitor_id"
 ```
 
->[!NOTE]
->
->The *`visitorID`* variable should not contain a hyphen.
+> [!NOTE]*`visitorID`* 변수에는 하이픈을 사용할 수 없습니다.
 
 **예** {#section_F7F07FEFAC3644A5A084D166ACE1315E}
 
@@ -2245,19 +2207,19 @@ visitorNamespace.xml
 
  -->
 
-If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. If *`visitorNamespace`* changes, all visitors reported in Analytics may become new visitors. 방문자 내역은 현재 및 미래 트래픽에서 연결성이 없어집니다. 따라서 Adobe 담당자의 승인 없이 이 변수를 바꾸지 마십시오.
+*`visitorNamespace`*&#x200B;를 JavaScript 파일에서 사용한 경우 삭제하거나 바꾸지 마십시오. *`visitorNamespace`*&#x200B;가 변경되면 Analytics에 보고된 모든 방문자가 새 방문자가 될 수 있습니다. 방문자 내역은 현재 및 미래 트래픽에서 연결성이 없어집니다. 따라서 Adobe 담당자의 승인 없이 이 변수를 바꾸지 마십시오.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | N/A | ns | N/A | "" |
 
-Analytics는 쿠키를 사용하여 사이트 방문자를 고유하게 식별합니다. If *`visitorNamespace`* is not used, the cookie is associated 2o7.net. If *`visitorNamespace`* is used, the cookie is associated with a sub-domain of 2o7.net. 사이트의 모든 방문자는 같은 도메인 또는 하위 도메인에 쿠키를 연결해야 합니다.
+Analytics는 쿠키를 사용하여 사이트 방문자를 고유하게 식별합니다. *`visitorNamespace`*&#x200B;를 사용하지 않으면 쿠키가 2o7.net에 연결됩니다. *`visitorNamespace`*&#x200B;를 사용하면 쿠키가 2o7.net의 하위 도메인에 연결됩니다. 사이트의 모든 방문자는 같은 도메인 또는 하위 도메인에 쿠키를 연결해야 합니다.
 
 The reason of use the *`visitorNamespace`*&#x200B;변수를 사용하는 이유는 브라우저의 쿠키 제한을 초과하지 않도록 하기 위한 것입니다. Internet Explorer에서는 도메인당 쿠키를 20개로 제한하고 있습니다. JavaScript를 *`visitorNamespace`* 변수를 사용하면, 다른 회사의 Analytics 쿠키가 사이트 방문자의 쿠키와 충돌하지 않게 됩니다.
 
 **구문 및 가능한 값** {#section_EE247FE371784CA4B6058182181F3EA1}
 
-The value of *`visitorNamespace`* must be provided by Adobe and is a string of ASCII characters that don't contain commas, periods, spaces, or special characters.
+*`visitorNamespace`*&#x200B;의 값은 Adobe가 제공해야 하며, 쉼표, 마침표, 공백 또는 특수 문자가 포함되지 않은 ASCII 문자로 이루어진 문자열이어야 합니다.
 
 ```js
 s.visitorNamespace="company_specific_value"
@@ -2265,7 +2227,7 @@ s.visitorNamespace="company_specific_value"
 
 **보고서 세트 간 방문자 식별** {#section_7AC5A97FC8C045DD8850245A62BB09F4}
 
-If you do not specify a `visitorNamespace`, each report suite in your company receives its own visitor ID cookie written as `s_vi_[random string]`. `visitorNamespace`를 지정하는 경우에는, 지정된 `s_vi`에 데이터를 보내는 모든 보고서 세트에 대해 동일한 `trackingServer` 쿠키가 사용됩니다. 다중 세트 태깅을 구현한 경우에는 반드시 각 보고서 세트에서 동일한 쿠키를 사용하도록 방문자 네임스페이스를 지정하십시오.
+`visitorNamespace`를 지정하지 않는 경우 회사에 있는 각 보고서 세트는 `s_vi_[random string]`로 작성된 자체 방문자 ID 쿠키를 받습니다. `visitorNamespace`를 지정하는 경우에는, 지정된 `s_vi`에 데이터를 보내는 모든 보고서 세트에 대해 동일한 `trackingServer` 쿠키가 사용됩니다. 다중 세트 태깅을 구현한 경우에는 반드시 각 보고서 세트에서 동일한 쿠키를 사용하도록 방문자 네임스페이스를 지정하십시오.
 
 **예** {#section_89A95852AB9446E794AD3283B8800B09}
 
@@ -2283,7 +2245,7 @@ s.visitorNamespace="Adobe"
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-및 변수는 전환 변수입니다.
+변수  및  은(는) 전환 변수입니다.
 
 <!-- 
 
@@ -2291,13 +2253,13 @@ zip.xml
 
  -->
 
-이벤트를 캡처한다는 점은 eVar와 비슷하지만 지속되지 않는다는 점은 eVar와 다릅니다. The *`zip`* and *`state`* variables are like eVars that expire immediately.
+이벤트를 캡처한다는 점은 eVar와 비슷하지만 지속되지 않는다는 점은 eVar와 다릅니다. The *`zip`* 및 *`state`* 변수는 즉시 만료되는 eVar와 같습니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
 | 50바이트 | zip | 전환 &gt; 방문자 프로필 &gt; Zip/우편 번호 | "" |
 
-Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. 청구 주소를 우편번호에 대한 소스로 사용하는 것이 좋습니다. 대신 배송 주소를 사용하도록 선택할 수도 있습니다(주문에 대해 배송 주소가 하나만 있다고 가정할 경우). 미디어 사이트는 등록이나 광고 클릭스루 추적에 *`zip`* and *`state`* for registration or ad click-through tracking.
+Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. 예를 들어 *`zip`*&#x200B;를 사용하여 우편번호별 전환율을 비교하려면 체크아웃 프로세스의 모든 페이지에서 *`zip`*&#x200B;을 채워야 합니다. 청구 주소를 우편번호에 대한 소스로 사용하는 것이 좋습니다. 대신 배송 주소를 사용하도록 선택할 수도 있습니다(주문에 대해 배송 주소가 하나만 있다고 가정할 경우). 미디어 사이트는 등록이나 광고 클릭스루  추적에 *`zip`* 및 *`state`*&#x200B;를 사용하도록 선택할 수 있습니다.
 
 **구문 및 가능한 값** {#section_5EDCFCAC8FC241D1B4CC777996858CD7}
 
@@ -2305,7 +2267,7 @@ Since the *`state`* and *`zip`* variables expire immediately, the only events as
 s.zip="zip_code"
 ```
 
-The *`zip`* variable does not impose any value or format restrictions. There are no limitations on *`zip`* outside of the standard variable limitations.
+*`zip`* 변수에는 값 또는 형식 제한이 적용되지 않습니다. *`zip`*&#x200B;에는 표준 변수 제한 외에는 제한이 없습니다.
 
 **예** {#section_F25C0D0CC3C04B81892A662CD605C593}
 
@@ -2324,5 +2286,5 @@ s.zip="92806-4115"
 **함정, 질문 및 팁** {#section_E86774D5CE8B40EFA36353CDEE3A84D0}
 
 * 관련 이벤트를 실행하는 모든 페이지(예: 체크아웃 프로세스의 각 페이지)에서 [!UICONTROL zip]을 채우십시오(체크아웃 프로세스의 각 페이지).
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
+* *`zip`* 및 *`state`* 변수는 페이지 보기에서 만료되는 eVar처럼 작동합니다.
 
