@@ -9,20 +9,18 @@ title: getTimeParting
 topic: 개발자 및 구현
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-getTimeParting 플러그인은 사용자 지정 변수를 시간, 요일, 주말 및 평일 값으로 사용자 지정 변수에 채웁니다. Analysis Workspace는 기본 시간 나누기 차원을 제공합니다. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+getTimeParting 플러그인은 사용자 지정 변수를 시간, 요일, 주말 및 평일 값으로 사용자 지정 변수에 채웁니다. Analysis Workspace는 기본 시간 나누기 차원을 제공합니다. 이 플러그인은 [!UICONTROL Analysis Workspace] 외부의 다른 Analytics 솔루션에서 시간 나누기 차원이 필요한 경우 사용해야 합니다.
 
 이 플러그인은 사용자의 웹 브라우저에서 사용할 수 있는 날짜 및 시간 정보를 캡처합니다. 그리고 이 정보에서 시간과 요일을 가져옵니다. 그리고 이 데이터를 선택한 시간대로 변환합니다. 일광 절약 시간도 고려합니다.
 
->[!NOTE]
->
->다음 지침에 따라 사이트에서 데이터 수집 코드를 수정해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 플러그인 코드 {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ getTimeParting 플러그인은 사용자 지정 변수를 시간, 요일, 주말
 
 [!DNL s_code.js] 파일에서 [!UICONTROL CONFIG SECTION] 레이블이 지정된 영역에 다음 코드를 넣고 아래 설명에 따라 필요한 사항을 업데이트합니다.
 
-`s._tpDST` - DST 값의 배열. The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - DST 값의 배열입니다. 이 배열은 `YYYY:'MM/DD,MM/DD'` 형식으로 구성되어 있습니다.
 
 ```js
 //time parting configuration 
