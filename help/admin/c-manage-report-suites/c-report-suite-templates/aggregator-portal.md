@@ -1,18 +1,18 @@
 ---
 description: 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 대한 일반 설정을 정의합니다.
 seo-description: 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-title: 통합 포털 포털
+seo-title: 누적 포털
 solution: Analytics
-title: 통합 포털 포털
+title: 누적 포털
 topic: 관리 도구
-uuid: D 227 C 209-4 D 88-4 EFF-B 126-994 B 2 A 179 C 51
+uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 통합 포털 포털
+# 누적 포털
 
 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 대한 일반 설정을 정의합니다.
 
@@ -36,7 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 표준 상거래 이벤트 | 유형 | `s_code` 변수에 설정된 ID |
 |---|---|---|
-| 매출 | 카운터 | `purchase` |
+| 매출  | 카운터 | `purchase` |
 | 주문 | 카운터 | `purchase` |
 | 판매량 | 카운터 | `purchase` |
 | 장바구니 | 카운터 | `scOpen` |
@@ -47,6 +47,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 장바구니 제거 | 카운터 | `scRemove` |
 | 방문 횟수 | 카운터(하위 관계 없음) | N/A |
 | 페이지 보기 횟수 | 카운터(하위 관계 없음) | N/A |
-| 일일 고유 방문자 | 카운터(하위 관계 없음) | N/A |
+| 일일 고유 방문자 수 | 카운터(하위 관계 없음) | N/A |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | N/A |
 
