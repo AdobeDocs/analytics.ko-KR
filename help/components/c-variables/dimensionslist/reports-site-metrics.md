@@ -5,9 +5,9 @@ seo-title: 사이트 지표
 solution: Analytics
 title: 사이트 지표
 topic: 보고서
-uuid: A 7 BEC 7 F 5-7 DC 7-4124-B 61 D -2 FAA 3 D 4 F 3 A 8 E
+uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
