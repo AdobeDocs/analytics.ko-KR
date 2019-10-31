@@ -5,7 +5,7 @@ seo-title: 모바일 보고서
 title: 모바일 보고서
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 모바일 장치에 대한 방문자 식별 정확도를 높이려면 도메인으로 가입자 ID를 전송할 수 있도록 이동통신사 목록(우수 목록)에 속해야 합니다 (You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->모바일 장치에서 보고서를 보려면 Experience Cloud에 [로그인하십시오](https://login.experiencecloud.adobe.com).
+> [!NOTE] 모바일 장치에서 보고서를 보려면 Experience Cloud에 [로그인하십시오](https://login.experiencecloud.adobe.com).
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>색상 깊이 보고서 </p> </td> 
-   <td colname="col2"> <p>모바일 장치 히트 수를 지원되는 색상의 수로 그룹화합니다. 이 보고서는 모바일 장치를 사용한 총 사이트 방문자 수를 보여주며 해당 모바일 장치에 구성된 색상의 수에 따라 방문자를 그룹화합니다. 예를 들어 방문자의 휴대 전화기가 24색을 지원하는 경우 Marketing Reports &amp; Analytics에서는 24색에 해당하는 라인 항목이 증가합니다. </p> </td> 
+   <td colname="col2"> <p>모바일 장치 히트 수를 지원되는 색상의 수로 그룹화합니다. 이 보고서는 모바일 장치를 사용한 총 사이트 방문자 수를 보여주며 해당 모바일 장치에 구성된 색상의 수에 따라 방문자를 그룹화합니다. 예를 들어 방문자의 휴대 전화기가 24색을 지원하는 경우 마케팅 보고 및 분석은 24색에 해당하는 라인 항목을 증가시킵니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>오디오 지원 보고서 </p> </td> 
-   <td colname="col2"> <p>모바일 장치를 지원하는 오디오 형식 유형에 따라 그룹화합니다. 예를 들어 방문자의 전화기가 <span class="filepath">.mp3</span> 형식을 지원하는 경우 오디오 지원 보고서가 최소 하나씩 증가합니다. <span class="wintitle"></span> 전화기가 둘 이상의 이미지 형식을 지원하는 경우에는 사이트 방문 결과 지원되는 오디오 형식에 대한 증분이 발생할 수 있습니다. 즉, 전화기가 <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> 및 <span class="filepath">.amr</span> 형식을 지원하는 경우 보고서의 해당 그룹이 각각 증가합니다. 따라서 그룹 합계는 보고서 하단에 표시된 총계보다 더 클 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>모바일 장치를 지원하는 오디오 형식 유형에 따라 그룹화합니다. For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. 전화기가 둘 이상의 이미지 형식을 지원하는 경우에는 사이트 방문 결과 지원되는 오디오 형식에 대한 증분이 발생할 수 있습니다. 즉, 전화기가 <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> 및 <span class="filepath">.amr</span> 형식을 지원하는 경우 보고서의 해당 그룹이 각각 증가합니다. 따라서 그룹 합계는 보고서 하단에 표시된 총계보다 더 클 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>비디오 지원 보고서 </p> </td> 
