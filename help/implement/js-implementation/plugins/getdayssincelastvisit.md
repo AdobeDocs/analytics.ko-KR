@@ -8,8 +8,8 @@ subtopic: 플러그인
 title: getDaysSinceLastVisit
 topic: 개발자 및 구현
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->이제 [Analysis Workspace](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/)에는 **[!UICONTROL 마지막 방문 이후의 일 수]** 차원이 포함되어 있으므로 이 플러그인의 필요성을 무효화합니다.
+>[이제 분석 작업](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 공간에 **[!UICONTROL 지난 방문]** 이후의 일 수 차원이 포함되어 있으므로 이 플러그인의 필요성을 무효화합니다.
 
 이 재방문 주기 데이터를 사용하여 다음과 같은 질문에 대답할 수 있습니다.
 
@@ -30,9 +30,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 플러그인이 세그먼테이션에 사용된 값을 생성할 수도 있습니다. 예를 들어, 세그먼트를 생성한 후 30일 이상 방문하지 않고 있던 사용자의 방문에 대한 데이터만 모두 볼 수도 있습니다.
 
->[!NOTE]
->
->다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 플러그인 코드 및 구현 {#section_5600DBB819F143D59527A73BD94418DE}
 
