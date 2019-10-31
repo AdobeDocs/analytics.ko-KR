@@ -1,15 +1,15 @@
 ---
 description: 데이터 피드에서 사용된 특수 문자에 대한 정보
-keywords: 데이터 피드; 작업; 특수 문자; hit_ data; 다중값 변수; events_ list; products_ list; mvvars
+keywords: 데이터 피드;작업;특수 문자;히트_데이터;다중 값 변수;events_list;products_list;mvvars
 seo-description: 데이터 피드에서 사용된 특수 문자에 대한 정보
 seo-title: 특수 문자
 solution: Analytics
 subtopic: 데이터 피드
 title: 특수 문자
-topic: Reports & Analytics
-uuid: 5 EFE 019 B -39 E 6-4226-A 936-88202 A 02 F 5 E 6
+topic: Reports and Analytics
+uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,19 +54,19 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code>,</code>(쉼표 문자) </td> 
+   <td colname="col1"> <code> , </code> (쉼표 문자) </td> 
    <td colname="col02"> 값의 끝 </td> 
    <td colname="col2"> <p>제품 문자열, 이벤트 ID 또는 기타 값을 여러 값이 있는 변수에서 구분합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>;</code>(세미콜론 문자) </td> 
+   <td colname="col1"> <code> ; </code> (세미콜론 문자) </td> 
    <td colname="col02"> 개별 제품 값 내에서 하위 값의 끝 </td> 
-   <td colname="col2"> <p><code>product_list</code>에서 개별 제품과 연결된 값을 구분합니다 . </p> </td> 
+   <td colname="col2"> <p><code> product_list </code>에서 개별 제품과 연결된 값을 구분합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>=</code>(등호 문자) </td> 
+   <td colname="col1"> <code> = </code> (등호 문자) </td> 
    <td colname="col02"> 값 할당 </td> 
-   <td colname="col2"> <p><code>event_list</code>의 이벤트에 값을 할당합니다 . </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
