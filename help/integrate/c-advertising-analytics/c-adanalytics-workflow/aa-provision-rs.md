@@ -1,21 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 광고 분석을 위한 보고서 세트 활성화
-title: 광고 분석을 위한 보고서 세트 활성화
-uuid: 934 F 0 E 02-B 5 D 7-4 ECA -93 D 8-92 F 95 BD 7014 A
+seo-title: Advertising Analytics용 보고서 세트 활성화
+title: Advertising Analytics용 보고서 세트 활성화
+uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 광고 분석을 위한 보고서 세트 활성화
+# Advertising Analytics용 보고서 세트 활성화
 
-Analytics에서 광고 분석 검색 데이터를 확인하려면 광고 분석 보고를 위해 각 Experience Cloud에 매핑된 보고서 세트를 구성해야 합니다.
+Analytics에서 Advertising Analytics 검색 데이터를 보려면 Advertising Analytics 보고에 대해 각 Experience Cloud 매핑 보고서 세트를 구성해야 합니다.
 
 1. [보고서 세트를 조직에 매핑합니다](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트로 이동합니다]**.
+1. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
 1. Select the report suite that is [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**.
@@ -24,7 +24,7 @@ Analytics에서 광고 분석 검색 데이터를 확인하려면 광고 분석 
 
    >[!IMPORTANT]
    >
-   >AMO ID는 검색 데이터가 삽입될 Adobe Advertising Cloud 변수를 나타냅니다.
+   >AMO ID 파섹
 
 1. AMO ID 변수에 사용할 변수 할당 및 만료를 설정합니다. Adobe Analytics에서 전환 변수(eVar)를 사용하면 성공 이벤트를 특정 변수 값에 의한 것으로 처리할 수 있습니다. 때때로 변수에서 성공 이벤트를 생성하기 전에 두 개 이상의 값을 받을 수 있습니다. 이런 경우, 해당 이벤트에 대해 크레딧을 받는 변수 값은 할당이 결정합니다.
 
