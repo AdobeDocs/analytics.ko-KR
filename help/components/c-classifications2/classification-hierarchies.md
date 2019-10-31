@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 분류
 title: 분류 계층
 topic: 관리 도구
-uuid: 1 b 2 b 73 af -84 ea -4 b 90-b 4 a 5-ba 75235547 fb
+uuid: 1b2b73af-84ea-4b90-b4a5-ba7523547fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [분류 계층] 페이지를 사용하여 이름이 같은 계층 보고서를 만들기 위해 사용할 수 있는 분류 계층을 정의할 수 있습니다.
 
-## Classification hierarchies {#concept_10A956342D7D4C3E9114CCFCE1364741}
+## 분류 계층 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
 [!UICONTROL 분류 계층] 페이지를 사용하여 이름이 같은 [!UICONTROL 계층] 보고서를 만드는 데 사용할 수 있는 분류 계층을 정의할 수 있습니다.
 
@@ -37,8 +37,8 @@ t_classification_heirarchy.xml
 
  -->
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. 보고서 세트를 선택합니다.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 보고서 세트 선택.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
 1. **계층 만들기** 드롭다운 목록에서 분류 계층을 만들려는 변수를 선택합니다.
 
