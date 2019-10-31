@@ -5,7 +5,7 @@ seo-title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마�
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -62,11 +62,9 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
       다음 단계에 설명된 *`Email`*&#x200B;파일에 *`First Name`*, *`Last Name`* 및 [!DNL sample.csv] 값을 복사할 수 있도록 준비하십시오.
 
-      >[!IMPORTANT]
-      >
-      >CSV 파일의 값은 쉼표로 구분해야 합니다.
+      > [!IMPORTANT] CSV 파일의 값은 쉼표로 구분해야 합니다.
 
-      **팁**: 이 단계에서는 사용자 목록을 스트리밍하여 올바른 이메일 ID가 있는 사용자만 Enterprise 또는 Federated ID 마이그레이션에 포함할 것을 권장합니다.
+      > [!TIP] 이 단계 동안 유효한 이메일 ID를 가진 사용자만 Enterprise 또는 Federated ID 마이그레이션에 포함되도록 사용자 목록을 간소화하는 것이 좋습니다.
 
 1. [Admin Console]에서 Admin Console 사용자 목록을 다운로드합니다. 
 
@@ -76,9 +74,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
    1. Compare the two files: the existing Admin Console users in the exported [!DNL .csv] file ( [!DNL sample.csv], in this example) with the users in the Analytics [!DNL User Logins List.csv] file.
 
-      >[!IMPORTANT]
-      >
-      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. 이 단계는 Admin Console에서 Experience Cloud 사용자 권한을 겹쳐 쓰지 못하게 하고 마이그레이션할 계정 목록을 제공하는 데 도움이 됩니다.
+      > [!IMPORTANT] 중복 항목이 발견되면 Analytics [!DNL User Logins List.csv] 파일에서 삭제합니다. 이 단계는 Admin Console에서 Experience Cloud 사용자 권한을 겹쳐 쓰지 못하게 하고 마이그레이션할 계정 목록을 제공하는 데 도움이 됩니다.
 
 1. Admin Console에서 CSV 템플릿 다운로드:
    1. On the Users tab, click **[!UICONTROL Add users by CSV]**, then **[!UICONTROL Download CSV Template]**.
@@ -136,9 +132,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
 For more information about the fields in the [!DNL .csv] file, see [CSV file format](https://helpx.adobe.com/enterprise/using/users.html).
 
->[!NOTE]
->
->기타 열(예: *`Product Configurations`* 및 *`Admin Roles`* 비어 있을 수 있음)
+> [!NOTE] 기타 열(예: *`Product Configurations`* 및 *`Admin Roles`* 비어 있을 수 있음)
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
 1. Analytics에서 마이그레이션 도구를 실행합니다(Analytics 사용자 계정 [마이그레이션](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)참조).
