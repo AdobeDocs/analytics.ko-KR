@@ -3,12 +3,12 @@ description: Adobe에서 데이터 소스에 대한 액세스 권한을 제공�
 seo-description: Adobe에서 데이터 소스에 대한 액세스 권한을 제공하는 방법에 대한 정보.
 seo-title: Data Sources 작동 방식
 solution: Analytics
-subtopic: Data Sources
+subtopic: 데이터 소스
 title: Data Sources 작동 방식
 topic: 개발자 및 구현
-uuid: EE 9 E 6 E 74-9 B 00-4733-9 A 4 B-D 9 F 2 B 954 CC 7 C
+uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Adobe에서 데이터 소스에 대한 액세스 권한을 제공하는 방법에 대한 정보.
 
->[!NOTE]
->
->가져온 데이터가 Data Sources를 통해 전송되면 JavaScript 비콘, actionsource, 데이터 삽입 API 등의 다른 수단으로 수집한 보고 데이터와 구별할 수 없게 됩니다. 가져온 데이터는 삭제할 수 없습니다.
+> [!NOTE] Data Sources를 통해 전송하면 가져온 데이터는 다른 메서드(JavaScript 비콘, ActionSource, 데이터 삽입 API 등)를 사용하여 수집한 보고 데이터와 구별할 수 없습니다. 가져온 데이터는 삭제할 수 없습니다.
 
 ![](assets/data_sources_overview.png)
 
