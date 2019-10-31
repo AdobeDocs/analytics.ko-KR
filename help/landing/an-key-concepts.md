@@ -4,7 +4,7 @@ seo-description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념�
 seo-title: Adobe Analytics - 주요 개념
 title: Adobe Analytics - 주요 개념
 translation-type: tm+mt
-source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
