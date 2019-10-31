@@ -1,24 +1,22 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 광고 분석 개요
-title: 광고 분석 개요
-uuid: 00 E 461 FF -3 E 17-4071-818 B -93 FD 1 E 4 B 36 F 1
+seo-title: Advertising Analytics 개요
+title: Advertising Analytics 개요
+uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 광고 분석 개요
+# Advertising Analytics 개요
 
-Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 유료 검색 데이터를 나란히 볼 수 있습니다. 이전에는 모든 Google adwords/DFA 또는 Microsoft Bing 광고 데이터를 AMO (Adobe Advertising Cloud) 또는 Google/Bing에서 봐야 했습니다. 이제는 Adobe Analytics 내의 노출 횟수, 클릭 수, 비용, 품질 점수 및 평균 위치 데이터를 검색 엔진과 AMO ID 인스턴스(클릭 인스턴스)에서 직접 가져옵니다.
+Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 유료 검색 데이터를 나란히 볼 수 있습니다. 이전에는 Google AdWords/DFA 또는 Microsoft Bing 광고 데이터를 Adobe Advertising Cloud(AMO 파섹) 또는 Google/BING에서 확인해야 했습니다. 이제는 Adobe Analytics 내의 노출 횟수, 클릭 수, 비용, 품질 점수 및 평균 위치 데이터를 검색 엔진과 AMO ID 인스턴스(클릭 인스턴스)에서 직접 가져옵니다.
 
->[!NOTE]
->
->Yahoo Gemini는 2019 년 3 월 31 일에 Microsoft Bing를 흡수했습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.
+> [!NOTE] Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 흡수되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.
 
-이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로운 [Workspace의 유료 검색 실적](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
+이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로운 기능 [Workspace의 유료 검색 실적](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
 
 ![](assets/aa_aw.png)
 
@@ -77,26 +75,26 @@ Advertising Analytics는 Analysis Workspace, Reports &amp; Analytics, Report Bui
 
 >[!IMPORTANT]
 >
->이 통합은 AMO ID 변수의 분류를 통해 차원 집합을 새로 만듭니다. 이러한 새 차원은 기존 마케팅 채널 또는 캠페인 추적 변수 차원에 영향을 주거나 수정하지 않습니다. AMO ID는 방문자가 유료 검색 광고의 사이트를 방문하면 방문자의 프로필에 연결됩니다. 따라서 AMO 차원을 사용하여 이 통합에서 제공하는 AMO 지표와, 방문자가 캡처한 데이터 다운스트림을 분류할 수 있습니다(방문 횟수, 방문자 수, 페이지 보기 수, 바운스 비율, 주문 횟수, 수익, 사용자 지정 이벤트 등). 다른 온사이트 지표에 대해 보고할 때 다른 차원으로 분류할 수도 있습니다.
+>이 통합은 AMO ID 변수의 분류를 통해 새 차원 세트를 만듭니다. 이러한 새 차원은 기존 마케팅 채널 또는 캠페인 추적 변수 차원에 영향을 주거나 수정하지 않습니다. AMO ID는 방문자가 유료 검색 광고의 사이트를 방문하면 방문자의 프로필에 연결됩니다. 따라서 AMO 차원을 사용하여 이 통합에서 제공하는 AMO 지표와, 방문자가 캡처한 데이터 다운스트림을 분류할 수 있습니다(방문 횟수, 방문자 수, 페이지 보기 수, 바운스 비율, 주문 횟수, 수익, 사용자 지정 이벤트 등). 다른 온사이트 지표에 대해 보고할 때 다른 차원으로 분류할 수도 있습니다.
 >
 >이러한 지표에 대한 분류는 매일 업데이트됩니다. 따라서 검색 엔진의 메타데이터를 변경하는 경우, 분류가 업데이트된 다음 날까지 해당 변경 사항이 반영되지 않을 수 있습니다.
 
 | 분류(차원) 이름 | 정의 |
 |--- |--- |
 | 키워드 검색 유형(AMO ID) | 키워드 일치 유형. 일반적으로 값은 광범위, 구문, 정확 또는 없음(광고 유형에 일치 유형이 없는 경우)이 됩니다. |
-| 광고 플랫폼(AMO ID) | 검색 엔진 이름. 값은 Google Adwords 또는 Microsoft Bing 광고를 포함할 수 있습니다. |
+| 광고 플랫폼(AMO ID) | 검색 엔진 이름. 값에는 Google AdWords 또는 Microsoft Bing 광고가 포함될 수 있습니다. |
 | 계정(AMO ID) | 추적 중인 검색 엔진 계정의 이름. |
 | 캠페인(AMO ID) | 검색 엔진 계정의 캠페인 이름. |
 | 광고 그룹(AMO ID) | 검색 엔진 캠페인의 광고 그룹 이름. |
 | 광고(AMO ID) | 광고에 사용되는 광고 제목 + 광고 설명입니다. |
 | 키워드(AMO ID) | 검색 엔진 계정의 키워드 값 |
 | 일치 유형(AMO ID) | 키워드에 할당된 키워드 일치 유형입니다. 일반적으로 값은 광범위, 구문, 정확 또는 없음(광고 유형에 일치 유형이 없는 경우)이 됩니다. |
-| 광고 유형(AMO ID) | 게재되는 광고의 유형이며 일반적으로 “텍스트 광고” 입니다. |
+| 광고 유형(AMO ID) | 제공되는 광고의 유형이며, 일반적으로 "텍스트 광고"입니다. |
 | 광고 제목(AMO ID) | 광고에 사용된 제목 개체입니다. |
 | 광고 설명(AMO ID) | 광고에서 사용되는 광고 설명 개체입니다. |
 | 광고 표시 URL(AMO ID) | 광고에 사용되는 광고 표시 URL 개체입니다. |
 | 광고 대상 URL(AMO ID) | 광고에 할당된 랜딩 페이지 URL 또는 최종 URL입니다. |
-| 네트워크(AMO ID) | 광고가 게재되는 네트워크입니다. Advertising Analytics의 경우 이 값은 항상 “Search”입니다. |
+| 네트워크(AMO ID) | 광고가 게재되는 네트워크입니다. 광고 분석의 경우 이 값은 항상 "검색"입니다. |
 | 게재위치(AMO ID) | 관리되는 게재위치 웹 사이트입니다(컨텐츠 네트워크의 경우). 관리되는 게재위치만 이 차원을 사용합니다. |
 | 제품 대상(AMO ID) | PLA 광고에 사용되는 제품 대상 이름입니다(실제 제품을 구매하지 않음). |
 | 최적화(AMO ID) | Advertising Analytics에서는 사용되지 않습니다. Advertising Cloud 고객만 사용합니다. |
@@ -106,7 +104,7 @@ Advertising Analytics는 Analysis Workspace, Reports &amp; Analytics, Report Bui
 
 >[!IMPORTANT]
 >
->광고 분석 (아래 목록 참조) 에서 제공하는 지표는 검색 엔진의 요약 수준 데이터입니다. 이러한 지표는 Analytics 방문자 프로필에 연결되지 않습니다. AMO ID 변수 및 해당 관련 분류 차원에만 연결됩니다. 따라서 AMO ID 차원에 기반을 둔 차원/세그먼트 이외의 차원/세그먼트에서 보고해서는 안 됩니다. 그럴 경우 Analytics에는 데이터에 대해 0이 표시됩니다. 다른 지표를 사용하여 계산된 지표에 포함할 수 있지만, 이러한 계산된 지표를 AMO ID 차원으로만 분류해야 합니다.
+>Advertising Analytics(아래 참조)에서 제공하는 지표는 검색 엔진의 요약 수준 데이터입니다. 이러한 지표는 Analytics 방문자 프로필에 연결되지 않습니다. AMO ID 변수 및 해당 관련 분류 차원에만 연결됩니다. 따라서 AMO ID 차원에 기반을 둔 차원/세그먼트 이외의 차원/세그먼트에서 보고해서는 안 됩니다. 그럴 경우 Analytics에는 데이터에 대해 0이 표시됩니다. 다른 지표를 사용하여 계산된 지표에 포함할 수 있지만, 이러한 계산된 지표를 AMO ID 차원으로만 분류해야 합니다.
 >
 >이러한 지표는 일별로 소싱된 데이터이므로, 오늘에 대한 데이터가 없습니다. 또한 일별보다 낮은 세부기간으로 보고해서는 안 됩니다.
 >
