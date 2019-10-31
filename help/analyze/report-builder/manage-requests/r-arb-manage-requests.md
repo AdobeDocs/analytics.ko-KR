@@ -5,9 +5,9 @@ seo-title: 요청 관리 - 정의
 solution: Analytics
 title: 요청 관리 - 정의
 topic: Report Builder
-uuid: 01 B 21 D 0 E-C 870-4 DF 8-95 B 9-F 4 AEF 1 F 4 D 16 B
+uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,11 +20,9 @@ Report Builder의 요청 관리를 위한 필드 설명
 
 [!UICONTROL 요청 관리자]는 활성 통합 문서의 모든 시트 또는 단 한 시트에 대해 만든 모든 요청의 상태를 자세히 볼 수 있도록 해줍니다. 이전 요청이 들어 있는 Excel 스프레드시트에서 사용할 수 있는 셀을 마우스 오른쪽 단추로 클릭하여 요청을 추가, 편집, 새로 고침 및 삭제(일반적으로 [!UICONTROL 요청 마법사] 및 [!UICONTROL 요청 관리자]와 연관된 기능들)할 수도 있습니다.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+요청 [!UICONTROL 관리자는] 관리를 클릭하면 **[!UICONTROL 표시됩니다( 리포트 빌더]** 도구 모음에서 ![](assets/edit_request.gif) ).
 
->[!NOTE]
->
->Adobe Report Builder 에서는 요청이 아닌 동일한 워크시트 내에서만 요청 종속성을 적용합니다. 단일 워크시트 내의 종속성으로 제한하면 신속하게 실행할 수 있습니다.
+> [!NOTE] Adobe Report Builder는 동일한 워크시트 내에서만 요청 종속성을 적용하며, 워크시트에서는 적용하지 않습니다. 단일 워크시트 내의 종속성으로 제한하면 신속하게 실행할 수 있습니다.
 
 ## 정의 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -61,8 +59,8 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
    <td colname="col2"> <p>요청이 Report Builder에 의해 마지막으로 처리된 날짜를 지정합니다. 진단 메시지는 해당하는 경우 <span class="wintitle">마지막 실행</span> 열의 이 테이블에도 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>추가 </p> </td> 
-   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다. see <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> 데이터 요청 만들기</a>. </p> </td> 
+   <td colname="col1"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에  </p> </td> 
+   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다. 자세한 내용은 <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> 데이터 요청 만들기</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>편집 </p> </td> 
