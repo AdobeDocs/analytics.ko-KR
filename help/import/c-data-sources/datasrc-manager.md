@@ -1,19 +1,19 @@
 ---
 description: 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
 seo-description: 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
-seo-title: 데이터 소스 관리자
+seo-title: Data Sources 관리자
 solution: Analytics
-subtopic: Data Sources
-title: 데이터 소스 관리자
+subtopic: 데이터 소스
+title: Data Sources 관리자
 topic: 개발자 및 구현
-uuid: CCFA 4 A 1 C -7 C 56-421 B -8 EE 6-A 42 B 334659 B 1
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 데이터 소스 관리자
+# Data Sources 관리자
 
 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
 
@@ -67,7 +67,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
    <td colname="col1"> <p>상태 </p> </td> 
    <td colname="col2"> <p> 파일의 현재 상태. 가능한 상태 값은 다음과 같습니다. </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">큐에서(1/3단계): 파일이 존재하지만 처리를 시작하지 않았습니다. 30분 안에 파일이 표시되지 않으면 연결된 <span class="filepath">.fin</span> 파일이 있는지 확인하십시오. </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">큐에서(1/3단계): 파일이 존재하지만 처리를 시작하지 않았습니다. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">준비 중(2/3단계): 파일 오류나 경고를 검사하는 중입니다. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">처리 중(3/3단계): 파일을 처리하는 중입니다. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">실패: 오류로 인해 파일을 처리하지 않았습니다. </li> 
