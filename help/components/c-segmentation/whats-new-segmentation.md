@@ -3,9 +3,9 @@ description: Adobe Analytics Workspace의 새로운 기능
 seo-description: Adobe Analytics Workspace의 새로운 기능
 seo-title: Analytics 세그멘테이션의 새로운 기능
 title: Analytics 세그멘테이션의 새로운 기능
-uuid: AC 53 E 984-9 AF 5-4536-8105-345 D 78 CC 5653
+uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>날짜 범위(세그먼트에서) </p> </td> 
-   <td colname="col2"> <p>진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다. 예를 들면 이제 “지난 60일 동안 구매한 모든 사람”을 포함하는 세그먼트를 쉽게 작성할 수 있습니다. </p> <p> <p>참고: 이 기능은 Ad Hoc Analysis에서 사용할 수 없습니다. </p> </p> </td> 
+   <td colname="col2"> <p>진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다. 예를 들어 "지난 60일 동안 구매한 모든 사람"을 포함하는 세그먼트를 쉽게 만들 수 있습니다. </p> <p> <p>참고: 이 기능은 Ad Hoc Analysis에서 사용할 수 없습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Adobe Analytics Workspace의 새로운 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p>순차적 세그먼트의 차원 제한 </p> </td> 
-   <td colname="col2"> <p>"within" 절, THEN 문 사이에 "1개 이내의 검색 키워드 인스턴스", "1개 이내의 eVar 47 인스턴스" 등을 추가할 수 있습니다. 이 경우 측정 기준의 한 개 인스턴스 이내로 세그먼트를 제한합니다. </p> </td> 
+   <td colname="col2"> <p>"within" 절의 경우 THEN 문 사이에 "within", "within 1 search keyword instance", "within 1 eVar 47 instance"를 추가할 수 있습니다. 이 경우 측정 기준의 한 개 인스턴스 이내로 세그먼트를 제한합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">폴아웃 분석에서 세그먼트 사용 </a> </p> </td> 
@@ -136,7 +136,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: 세그먼트별로 분류 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">세그먼트별로 분류</span>에 대한 지원을 추가했습니다. 이제 표준(항목) 및 사용자 지정(통찰력)별 분류 이외에, 세그먼트별로도 보고서를 분류할 수 있습니다. <span class="wintitle">세그먼트</span> 탭을 선택하면, 목록이 <span class="wintitle">사용 가능한 세그먼트</span> 드롭다운 목록에서 제공되는 세그먼트의 동일한 세트로 채워집니다. </p> <p>세그먼트에서 멤버십이 있는 라인 항목은 값 "1"과, 세그먼트 보고서 "0"의 외부에 있는 항목을 보고합니다. </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">세그먼트별로 분류</span>에 대한 지원을 추가했습니다. 이제 표준(항목) 및 사용자 지정(통찰력)별 분류 이외에, 세그먼트별로도 보고서를 분류할 수 있습니다. <span class="wintitle">세그먼트</span> 탭을 선택하면, 목록이 <span class="wintitle">사용 가능한 세그먼트</span> 드롭다운 목록에서 제공되는 세그먼트의 동일한 세트로 채워집니다. </p> <p>세그먼트에 멤버십이 있는 라인 항목은 "1" 값과 세그먼트 보고서 "0" 외부의 항목을 보고합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Data Warehouse 세그먼트에서의 "일치함" 및 "일치하지 않음" 지원 </p> </td> 
-   <td colname="col2"> <p>이제 Data Warehouse에서는 세그먼트 정의에서 "일치함" 및 "일치하지 않음"을 지원합니다. (Reports &amp; Analytics과 Ad Hoc Analysis은 이미 이 기능을 지원합니다.) </p> <p>이전까지 Data Warehouse에서 "일치함" 및 "일치하지 않음"을 지원하지 않아 호환되지 않던 세그먼트가 (그 외의 호환되지 않는 이유가 없다는 가정 하에) 릴리스 이후로 호환됩니다. 릴리스 이후로 Data Warehouse에 추가적인 세그먼트가 표시될 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이제 데이터 웨어하우스는 세그먼트 정의에서 "일치" 및 "일치하지 않음"을 지원합니다. (Reports &amp; Analytics과 Ad Hoc Analysis은 이미 이 기능을 지원합니다.) </p> <p>데이터 웨어하우스가 "일치" 및 "일치하지 않음"을 지원하지 않아 이전에 데이터 웨어하우스와 호환되지 않던 세그먼트는 릴리스 후 호환됩니다(세그먼트가 호환되지 않는 유일한 이유가 있다고 가정). 릴리스 이후로 Data Warehouse에 추가적인 세그먼트가 표시될 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>웹 서비스 API의 Segments.Save </p> </td> 
