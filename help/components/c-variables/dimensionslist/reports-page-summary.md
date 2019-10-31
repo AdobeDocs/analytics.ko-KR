@@ -5,9 +5,9 @@ seo-title: 페이지 요약
 solution: Analytics
 title: 페이지 요약
 topic: 보고서
-uuid: 00 AE 130 A -8 C 07-409 F -930 A-D 79 A 8631992 B
+uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
