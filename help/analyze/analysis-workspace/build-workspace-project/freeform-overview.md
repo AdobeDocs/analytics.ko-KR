@@ -5,10 +5,10 @@ seo-description: 'null'
 seo-title: 프로젝트 만들기 - 개요
 solution: Analytics
 title: 프로젝트 만들기 - 개요
-topic: Reports & Analytics
-uuid: A 68 BE 05 D-F 31 E -4 E 6 D-AD 04-C 784 ECB 0 EB 00
+topic: Reports and Analytics
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,7 +25,7 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 
 ## Workspace 프로젝트 목록 페이지 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-**[!UICONTROL 처음 Analytics]** &gt; **[!UICONTROL 작업 영역으로]**&#x200B;이동하면 페이지에 소유하거나 액세스 권한이 부여된 프로젝트가 모두 나열됩니다. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
+When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
 
 ![](assets/sample-project.png)
 
@@ -33,11 +33,11 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 
 | 요소 | 설명 |
 |---|---|
-| 프로젝트 [템플릿](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)을 참조하십시오 | 이렇게 사전에 채워진 프로젝트 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. |
+| 프로젝트 [템플릿](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | 이렇게 사전에 채워진 프로젝트 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. |
 | [새 프로젝트 만들기](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
 | 프로젝트 관리 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
 | 자습서 보기 | [Analysis Workspace YouTube 비디오](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)로 이동합니다. |
-| 이름 | Workspace 프로젝트의 이름. |
+|  이름  | Workspace 프로젝트의 이름. |
 | 작성자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
 | 태그 | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]**. |
 | 마지막 수정 날짜 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
@@ -69,9 +69,7 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 
 하위 메뉴에는 다음 옵션이 포함됩니다.
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] 별표(*)로 표시된 옵션은 **저장된** 프로젝트에서만 표시됩니다.
 
 | 프로젝트 | 편집 | 삽입 | 구성 요소 | 공유 | 도움말 |
 |---|---|---|---|---|---|
