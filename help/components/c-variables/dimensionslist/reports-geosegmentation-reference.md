@@ -5,9 +5,9 @@ seo-title: 국가별 지리 특성 지역 및 우편 번호 사용
 solution: Analytics
 title: 국가별 지리 특성 지역 및 우편 번호 사용
 topic: 보고서
-uuid: 9 dab 88 f 8-cd 3 f -481 f -955 f -2 fc 2 f 48 c 006 d
+uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
