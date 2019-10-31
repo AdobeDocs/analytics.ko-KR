@@ -1,16 +1,16 @@
 ---
 description: Power BI를 통해 수동으로 Analytics 데이터를 가져오려면, 다음 지침을 따르십시오.
 seo-description: Power BI를 통해 수동으로 Analytics 데이터를 가져오려면, 다음 지침을 따르십시오.
-seo-title: Power BI로 수동으로 데이터 가져오기
-title: Power BI로 수동으로 데이터 가져오기
-uuid: C 84 F 7 A 90-7 B 40-4065-9 FE 7-5 EB 19 E 5 E 2473
+seo-title: 수동으로 Power BI에 데이터 가져오기
+title: 수동으로 Power BI에 데이터 가져오기
+uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Power BI로 수동으로 데이터 가져오기
+# 수동으로 Power BI에 데이터 가져오기
 
 Power BI를 통해 수동으로 Analytics 데이터를 가져오려면, 다음 지침을 따르십시오.
 
