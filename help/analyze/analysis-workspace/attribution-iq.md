@@ -2,7 +2,7 @@
 title: 속성 IQ
 description: 기여도 IQ는 마케팅 활동이 전환에 기여하는 방법에 대한 추가적인 통찰력을 제공하는 Adobe Analytics의 기능 세트입니다.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
