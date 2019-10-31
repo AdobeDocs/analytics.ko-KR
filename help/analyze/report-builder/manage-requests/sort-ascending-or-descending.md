@@ -5,9 +5,9 @@ seo-title: 오름차순 또는 내림차순 정렬
 solution: Analytics
 title: 오름차순 또는 내림차순 정렬
 topic: Report Builder
-uuid: 81199890-C 183-4 E 42-A 343-DC 33 A 9 E 9 ED 46
+uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
