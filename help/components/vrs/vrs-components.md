@@ -3,9 +3,9 @@ description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 �
 seo-description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 포함하거나 제외하도록 큐레이션할 수 있습니다.
 seo-title: 가상 보고서 세트 구성 요소 큐레이션
 title: 가상 보고서 세트 구성 요소 큐레이션
-uuid: 6 C 6 A 4071-22 AD -4 E 8 C-B 1 ED -140 B 2 AA 04 F 76
+uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 가상 보고서 세트는 Analysis Workspace에 구성 요소를 포함하거나 제외하도록 큐레이션할 수 있습니다.
 
->[!NOTE]
->
->구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. 이전에는 **[!UICONTROL 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다]**. [업데이트된 조정 환경](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
+> [!NOTE]구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. 이전에는 **[!UICONTROL 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다]**. [업데이트된 조정 환경](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
 
 구성 요소 큐레이션을 사용하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 가상 보고서 세트]** &gt; 새 가상 보고서 세트 **[!UICONTROL 만들기로 이동합니다]**.
+1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]** &gt; **[!UICONTROL Create new virtual report suite]**.
 1. **[!UICONTROL 설정]**&#x200B;을 정의한 후 **구성 요소[!UICONTROL 탭을 클릭합니다.]**
 
 1. Select the checkbox **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
@@ -33,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL 데이터 웨어하우스]
+   * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics 보고 API
    이 옵션을 선택하면 "제외된 구성 요소" 열의 해당 구성 요소를 "포함된 구성 요소" 열로 드래그하여 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함하거나 제외할 수 있는 구성 요소는 다음과 같습니다.
