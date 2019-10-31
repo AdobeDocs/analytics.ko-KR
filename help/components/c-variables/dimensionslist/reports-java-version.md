@@ -5,9 +5,9 @@ seo-title: JavaScript 버전
 solution: Analytics
 title: JavaScript 버전
 topic: 보고서
-uuid: 797 EC 651-E 259-42 C 3-8008-8 A 1 AD 43621 A 3
+uuid: 797ec651-e259-42c3-8008-8a1ad43621a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
