@@ -6,9 +6,9 @@ seo-title: 인스턴스
 solution: Analytics
 title: 인스턴스
 topic: 지표
-uuid: FEC 94 BDD-A 1 DC -4 CB 0-8983-EA 575 B 69589 F
+uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
