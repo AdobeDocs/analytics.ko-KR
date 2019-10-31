@@ -7,7 +7,7 @@ title: '[!DNL Activity Map] 활성화'
 topic: Activity Map
 uuid: 3043319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -26,7 +26,7 @@ The [!DNL Activity Map] module is part of the AppMeasurement.js file (located at
 
    Adobe에서는 모듈을 포함하여 코드에 수행한 변경 작업을 시각화하는 데 도움이 되기 위해 [샘플 구현 코드](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734)를 일부 포함했습니다.[!DNL Activity Map]
 
-1. 구현을 확인합니다.
+1. 구현의 유효성을 검사합니다:
 
    1. 클릭 가능한 요소를 클릭하면, 데이터가 s_sq라는 쿠키에 저장됩니다.
    1. The [!DNL Activity Map] data can be seen in the query-string on the tracking call. 예:
@@ -58,6 +58,4 @@ First, you need to enable [!DNL Activity Map] reports at a report-suite level.
 
 1. This allow your Admin users to download [!DNL Activity Map] from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
-<note>
-  관리자가 아닌 사용자가 [!DNL Activity Map]을 다운로드할 수 있도록 하려면 도구 &gt; 기존 ClickMap 설치에 대한 권한을 제공하는 <span class="uicontrol"> 새 사용자 그룹을 만들어야 </span> <span class="uicontrol"> </span>합니다. 그런 다음 이 그룹에 관리자가 아닌 사용자를 추가할 수 있습니다. 이 수준의 권한은 [!DNL Activity Map] Access와 결합되어 도구를 다운로드하고 사용할 수 있는 포괄적인 권한을 제공합니다. 
-</note>
+> [!NOTE] 관리자가 아닌 사용자가 다운로드하도록 하려면 [!DNL Activity Map]'도구' 및 '레거시 ClickMap 설치'에 대한 권한을 제공하는 새 사용자 그룹을 만드십시오. 액세스 권한과 함께 이 수준의 권한을 [!DNL Activity Map] 통해 도구를 다운로드하고 사용할 수 있습니다.
