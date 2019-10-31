@@ -1,22 +1,22 @@
 ---
-description: '[!DNL Activity Map] 설정 패널을 사용하면 모든 유형의 오버레이 시각화에 대한 설정과 속성을 수정할 수 있습니다.'
-seo-description: '[!DNL Activity Map] 설정 패널을 사용하면 모든 유형의 오버레이 시각화에 대한 설정과 속성을 수정할 수 있습니다.'
-seo-title: '[!DNL Activity Map] 설정 구성'
+description: Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
+seo-description: Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
+seo-title: Activity Map 설정 구성
 solution: Analytics
-title: '[!DNL Activity Map] 설정 구성'
+title: Activity Map 설정 구성
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Configure [!DNL Activity Map] settings
+# Activity Map 설정 구성
 
-The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
 
-Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
+Activity Map 도구 모음에 있는 톱니바퀴 아이콘을 클릭하여 액세스하는 Activity Map [설정] 패널에 액세스하십시오.
 
 [설정] 패널에는 선택한 애플리케이션 모드를 기반으로 다른 컨텐츠가 표시됩니다. [기타] 탭에는 일반적인 설정이 포함되어 있습니다.
 
@@ -97,7 +97,7 @@ Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon
  <tbody> 
   <tr> 
    <td colname="col1"> 보고서 세트 </td> 
-   <td colname="col2"> <p>사용자가 액세스 가능한 보고서 세트 목록은 더 이상 웹 페이지 태그에 정의된 보고서 세트로 제한되지 않습니다. 이제 다른 보고서 세트와 함께 선택된 보고서 세트(페이지의 태그 중 하나에 해당)를 대체할 수 있습니다. 이 새 보고서 세트는 페이지의 태그에 연결되어 있을 필요가 없습니다. If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>중요: 가상 보고서 세트는 라이브 모드와는 호환하지 않고, 표준 모드와만 호환합니다. 표준 보고서 세트에 대해 라이브 모드 상태에 있지만, 이 대화 상자에서 가상 보고서 세트를 선택할 경우, 여기에서 <span class="uicontrol">확인</span>을 선택하면 표준 모드가 표시됩니다. </p> </p> <p>또한, 달력 컨트롤은 보고서 세트의 달력 유형(양력, 소매, 사용자 지정...)과 일치하도록 다시 초기화됩니다. </p> </td> 
+   <td colname="col2"> <p>사용자가 액세스 가능한 보고서 세트 목록은 더 이상 웹 페이지 태그에 정의된 보고서 세트로 제한되지 않습니다. 이제 다른 보고서 세트와 함께 선택된 보고서 세트(페이지의 태그 중 하나에 해당)를 대체할 수 있습니다. 이 새 보고서 세트는 페이지의 태그에 연결되어 있을 필요가 없습니다. Activity Map 설정에서 선택된 보고서 세트를 변경하면, <span class="uicontrol">저장</span> 프로세스로 인해 영향을 받는 모든 Analytics 보고서가 새로 고침됩니다. </p> <p> <p>중요: 가상 보고서 세트는 라이브 모드와는 호환하지 않고, 표준 모드와만 호환합니다. 표준 보고서 세트에 대해 라이브 모드 상태에 있지만, 이 대화 상자에서 가상 보고서 세트를 선택할 경우, 여기에서 <span class="uicontrol">확인</span>을 선택하면 표준 모드가 표시됩니다. </p> </p> <p>또한, 달력 컨트롤은 보고서 세트의 달력 유형(양력, 소매, 사용자 지정...)과 일치하도록 다시 초기화됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 언어 </td> 
