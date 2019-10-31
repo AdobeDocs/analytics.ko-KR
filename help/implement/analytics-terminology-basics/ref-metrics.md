@@ -7,8 +7,8 @@ solution: Analytics
 title: 지표
 topic: 개발자 및 구현
 uuid: d2addb55-cae6-470d-b482-303ef365809c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>트래픽 지표 </p> </td> 
-   <td colname="col2"> <p> <b>페이지 보기:</b> 사용자의 브라우저에 한 개 웹 페이지 로드(Reports &amp; Analytics 코드 한 번 실행). </p> <p> <b>방문:</b> 방문자가 사이트를 방문할 때 페이지 보기 횟수. 방문은 활동이 없는 경우 30분 후에 종료됩니다. </p> <p> <b>고유 방문자:</b> 제공된 기간(예: 시간, 요일, 주, 월, 분기 또는 년) 동안 사이트를 처음 방문하는 사람. (여기에 지정된 기간 동안 고유 방문자 수가 포함됩니다.) </p> </td> 
+   <td colname="col2"> <p> <b></b> 페이지 보기:사용자의 브라우저에서 한 웹 페이지가 로드됩니다(보고 및 분석 코드의 한 번 실행). </p> <p> <b>방문:</b> 방문자가 사이트를 방문할 때 페이지 보기 횟수. 방문은 활동이 없는 경우 30분 후에 종료됩니다. </p> <p> <b>고유 방문자:</b> 제공된 기간(예: 시간, 요일, 주, 월, 분기 또는 년) 동안 사이트를 처음 방문하는 사람. (여기에 지정된 기간 동안 고유 방문자 수가 포함됩니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>전환 지표 </p> </td> 
@@ -45,9 +45,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>계산된 지표 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ko_KR/reference/calculated_metric.html" format="html" scope="external"> 계산된 지표를 사용하면 지표를 결합하여 새로운 지표로 사용되는 산술 연산을 만들 수 있습니다. </a> 지표를 추가할 보고서에 대해 이러한 지표를 만들 수 있습니다. 관리자는 보고서 세트의 모든 사용자에 대해 계산된 지표를 만들 수 있습니다. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external"> 계산된 지표를 사용하면 지표를 결합하여 새로운 지표로 사용되는 산술 연산을 만들 수 있습니다. </a> 지표를 추가할 보고서에 대해 이러한 지표를 만들 수 있습니다. 관리자는 보고서 세트의 모든 사용자에 대해 계산된 지표를 만들 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-지표 정의는 Analytics 도움말 및 참조의 [지표](https://marketing.adobe.com/resources/help/ko_KR/reference/metrics.html)를 참조하십시오.
+지표 정의에 대해서는 Analytics 도움말 및 참조서에서 [지표](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)를 참조하십시오.
