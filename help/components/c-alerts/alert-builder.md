@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 경고 빌더
 title: 경고 빌더
-uuid: 86 d 00 a 33-dc 99-4 dc 3-a 732-0 b 895 ba 487 bc
+uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
 * Analysis Workspace에서 다음의 바로 가기 사용:
 
    `ctrl (or cmd) + shift + a`
-* **[!UICONTROL 작업 영역]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 새 경고로 이동합니다]**.
+* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**.
 * From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
 
@@ -37,9 +37,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 지표를 확인할 시기(시간별, 일별, 주별 또는 월별)를 지정합니다.
 
->[!NOTE]
->
->사용자 지정 달력이 있는 보고서 세트의 경우, 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
+> [!NOTE] 사용자 지정 달력이 있는 보고서 세트의 경우 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
 
 **수신자**
 
@@ -59,7 +57,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 * 트리거를 추가하는 지표를 캔버스에 드래그하여 놓습니다. 
 
-   Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * 경고를 설정하기 전에 지표가 초과되는 임계값을 결정합니다. 이 값을 임계값으로 설정한 후 다음 조건 중 하나로 설정할 수 있습니다. 
 
