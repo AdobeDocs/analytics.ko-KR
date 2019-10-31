@@ -7,8 +7,8 @@ solution: Analytics
 title: Facebook 인스턴트 아티클
 topic: 개발자 및 구현
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 Facebook 인스턴트 아티클의 Analytics 구현 방법을 참조하십시오.
 
-Facebook 인스턴트 아티클은 Facebook에서 빠른 대화형 문서를 만들기 위한 게시자용의 새로운 방법입니다. 인스턴트 아티클은 모바일 웹보다 최고 10배 더 빠르게 컨텐츠를 로드할 수 있습니다.
+Facebook 인스턴트 아티클 는 발행자가 Facebook에서 빠르고 인터랙티브한 아티클을 작성하는 새로운 방법입니다. 인스턴트 아티클은 모바일 웹보다 최고 10배 더 빠르게 컨텐츠를 로드할 수 있습니다.
 
 Facebook 인스턴트 아티클 내에 Adobe Analytics를 포함하여 방문자가 컨텐츠와 상호 작용할 때의 방문자 행동을 추적할 수 있습니다. 게시자 컨텐츠는 게시자의 웹 사이트가 아니라 Facebook 앱 내에 있으므로, 태깅 접근 방식은 표준 Analytics 구현과는 다소 다릅니다.
 
@@ -82,7 +82,7 @@ Facebook Instant Article 컨텐츠를 만들 때 분석 HTML 컨텐츠를 iFrame
    1. 회사의 추적 서버 도메인.
    1. 방문자 네임스페이스 변수. **참고:** 이러한 값들 중 많은 수는 표준 Analytics 구현 내에서 찾을 수 있습니다. 필요할 경우 고객 지원 또는 Adobe 컨설팅에서 적절한 값을 제공하는 데 도움을 줄 수 있습니다.
 
-1. [사용자 지정 변수 및 이벤트 추적을 설정합니다](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [사용자 지정 변수 및 이벤트 추적 설정](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. 페이지 보기 이미지 요청 구문 `( s.t())`을 포함합니다.
 
 ## 3단계. 사용자 지정 변수 및 이벤트 추적 설정 {#section_932C41BD21154C25B99389299BDF3E0B}
