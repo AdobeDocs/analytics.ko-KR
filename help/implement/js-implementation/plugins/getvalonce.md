@@ -8,8 +8,8 @@ subtopic: 플러그인
 title: getValOnce
 topic: 개발자 및 구현
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,15 +45,11 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
    * 사용자가 페이지를 닫고 다른 탭을 열었다가 30분 이내에 사이트로 돌아올 경우, 플러그인은 [!DNL Analytics] 방문을 열어 둔 채로 새 세션을 생성합니다.
    * 사용자가 30분 이상 링크를 클릭하지 않고 브라우저 창을 열어 두면 브라우저 세션이 열려 있는 상태로 [!DNL Analytics] 방문이 만료됩니다.
 
->[!NOTE]
->
->다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 구현 {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->조직에서 마케팅 채널을 사용하고 `s.campaign`을 기반으로 하는 규칙을 설정한 경우 `s.campaign` 값을 설정할 때 getValOnce 플러그인을 사용하지 않는 것이 좋습니다. 이렇게 하면 보조 캠페인 클릭 스루에 잘못된 채널이 할당될 수 있습니다.
+> [!NOTE] 조직에서 마케팅 채널을 사용하고 `s.campaign`을 기반으로 하는 규칙을 설정한 경우 `s.campaign` 값을 설정할 때 getValOnce 플러그인을 사용하지 않는 것이 좋습니다. 이렇게 하면 보조 캠페인 클릭 스루에 잘못된 채널이 할당될 수 있습니다.
 
 이 플러그인을 구현하려면 [!DNL s_code.js] 파일에 다음 코드를 넣습니다.
 
