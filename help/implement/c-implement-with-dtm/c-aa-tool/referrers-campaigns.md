@@ -1,22 +1,22 @@
 ---
-description: Adobe Analytics에서 다이내믹 태그 관리를 배포할 때 레퍼러 및 캠페인 옵션에 대한 다이내믹 태그 관리의 필드 설명입니다.
-keywords: 다이내믹 태그 관리;레퍼러;캠페인;레퍼러 재정의;캠페인 변수;쿼리 매개 변수
-seo-description: Adobe Analytics에서 다이내믹 태그 관리를 배포할 때 레퍼러 및 캠페인 옵션에 대한 다이내믹 태그 관리의 필드 설명입니다.
+description: Adobe Analytics에서 Dynamic Tag Management를 배포할 때 레퍼러 및 캠페인 옵션에 대한 Dynamic Tag Management의 필드 설명입니다.
+keywords: Dynamic Tag Management;레퍼러;캠페인;레퍼러 재정의;캠페인 변수;쿼리 매개 변수
+seo-description: Adobe Analytics에서 Dynamic Tag Management를 배포할 때 레퍼러 및 캠페인 옵션에 대한 Dynamic Tag Management의 필드 설명입니다.
 seo-title: 레퍼러 및 캠페인
-solution: Experience Cloud,Analytics,다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 레퍼러 및 캠페인
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 레퍼러 및 캠페인
 
-Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
+Adobe [!DNL Analytics]에서 [!UICONTROL Dynamic Tag Management]를 배포할 때 레퍼러 및 캠페인 옵션에 대한 [!UICONTROL Dynamic Tag Management]의 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) 편집 **[!UICONTROL 도구]** &gt; **[!UICONTROL 레퍼러 및 캠페인]**
+**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) **[!UICONTROL 편집 도구]** &gt; **[!UICONTROL 레퍼러 및 캠페인]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4"> 
  <thead> 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> 레퍼러 무시 </td> 
-   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>페이지 <a href="/help/implement/js-implementation/c-variables/page-variables.md">변수를 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> 변수에 설정된 값을 무시합니다. 이 값은 일반적으로 브라우저에서 설정된 레퍼러로 채워집니다. </p> <p>See <a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인 </td> 
-   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>[페이지<a href="/help/implement/js-implementation/c-variables/page-variables.md">변수]를 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>See [<a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
