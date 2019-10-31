@@ -4,15 +4,15 @@ seo-description: 필터 기능을 통해 필터에 일치하는 라인 항목을
 seo-title: 보고서 데이터 필터링
 solution: Analytics
 title: 보고서 데이터 필터링
-topic: Reports & Analytics
-uuid: B 6 DCAAF 7-61 F 0-4793-870 D-E 1 D 156575 D 5 A
+topic: Reports and Analytics
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# 보고서 데이터 필터링 {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 필터 기능을 통해 필터에 일치하는 라인 항목을 포함하거나 제외하도록 보고서 범위를 세부적으로 조정할 수 있습니다.
 
@@ -48,9 +48,7 @@ help:Internal Search Term
 
 라인 항목에 해당 용어가 있으면 일치합니다. 단순 필터와 동일한 방식으로 작동합니다.
 
->[!NOTE]
->
->공백은 검색에서 구분 기호로 인식하기 때문에 필터에 공백을 사용할 수 없습니다.
+> [!NOTE] 공백은 검색에서 구분 기호로 인식되므로 필터에 사용할 수 없습니다.
 
 **포함하지 않음**
 
@@ -131,7 +129,7 @@ Ocean Blue Jean
 | 고급(특수 문자) | 설명 |
 |--- |--- |
 | `" "` | 구에 정확하게 일치합니다. |
-| `*` | 와일드카드, 임의 문자열입니다. <br>예를 들어 "Registration `r*p` Signup" 와 일치합니다. |
+| `*` | 와일드카드, 임의 문자열입니다. <br>예를 들어 "등록 등록"과 `r*p` 일치합니다. |
 | `^` | 다음으로 시작. <br>특수 문자와 검색 구 사이에 공백이 있으면 안 됩니다. |
 | `$` | 다음으로 끝남. <br>특수 문자와 검색 구 사이에 공백이 있으면 안 됩니다. |
 | `-` | 아님. <br>특수 문자와 검색 구 사이에 공백이 있으면 안 됩니다. |
@@ -153,7 +151,7 @@ t_reports_filter_specific.xml
 
 **보고서별 필터를 만들려면**
 
-1. [!UICONTROL 구매 보고서와 같은 보고서를 생성합니다] ( **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 구매]** &gt; **[!UICONTROL 구매 전환 단계]**).
+1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
 1. 보고서 헤더에서 **필터** 링크를 클릭합니다.
 1. [!UICONTROL 필터 선택기]**페이지에서[!UICONTROL 필터 적용]**&#x200B;을 클릭한 다음 필터 유형을 선택합니다.
 1. 항목을 검색하려면 **검색** 필드에 문자열을 입력합니다.
