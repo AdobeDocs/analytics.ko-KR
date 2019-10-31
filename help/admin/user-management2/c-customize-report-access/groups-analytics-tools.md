@@ -9,7 +9,7 @@ title: Analytics 도구 권한 사용자 지정
 topic: 관리 도구
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL 모든 보고서 액세스]** &gt; 분석 도구 **[!UICONTROL &gt; 사용자]** **[!UICONTROL 지정]**
 
->[!NOTE]
->
->2016년 가을 릴리스(10월 20일)에서는 그룹 관리가 변경되었습니다. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+> [!NOTE] 2016년 가을 릴리스(10월 20일)에서는 그룹 관리가 변경되었습니다. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## 보고서 액세스 - 분석 도구
 
