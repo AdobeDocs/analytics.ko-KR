@@ -2,7 +2,7 @@
 title: Cross-Device Analytics
 description: 크로스 디바이스 분석은 장치 데이터를 함께 결합함으로써 데이터를 장치 중심의 데이터에서 사람 중심의 데이터로 변경합니다.
 translation-type: tm+mt
-source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
