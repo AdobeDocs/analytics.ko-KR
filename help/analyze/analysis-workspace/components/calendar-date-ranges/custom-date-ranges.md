@@ -5,10 +5,10 @@ seo-description: Analysis Workspace에서 사용자 지정 날짜 범위를 만�
 seo-title: 사용자 지정 날짜 범위 만들기
 solution: Analytics
 title: 사용자 지정 날짜 범위 만들기
-topic: Reports & Analytics
-uuid: C 8873 D 41-454 D -4 F 22-AD 1 F -38 Cacec 5 A 3 BC
+topic: Reports and Analytics
+uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/date-range-two-months-table.png)
 
-## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## 7일 롤링 날짜 범위 사용 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 날짜 범위는 패널 수준에 적용됩니다. 날짜 범위를 프로젝트에 추가하려면 **작업** &gt; **패널 추가**&#x200B;를 클릭하고, 새 날짜 범위를 지정하십시오.
 
