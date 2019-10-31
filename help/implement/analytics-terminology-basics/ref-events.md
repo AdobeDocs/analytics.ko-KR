@@ -7,8 +7,8 @@ solution: Analytics
 title: 이벤트
 topic: 개발자 및 구현
 uuid: d2edd432-60bc-4426-9967-153b713147a1
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 자세한 내용은  [성공 이벤트 구성](/help/admin/admin/c-success-events/t-success-events.md)을 참조하십시오.
 
-성공 이벤트는 [Analytics 도움말 및 참조](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)에 자세히 설명되어 있습니다.
+성공 이벤트는 [Analytics 도움말 및 참조서](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)에 자세히 설명되어 있습니다.
