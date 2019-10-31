@@ -1,11 +1,11 @@
 ---
 description: '[함수] 드롭다운 목록에서 [고급 표시]를 선택하여 이 함수들에 액세스하십시오.'
 seo-description: '[함수] 드롭다운 목록에서 [고급 표시]를 선택하여 이 함수들에 액세스하십시오.'
-seo-title: 고급 기능 참조
-title: 고급 기능 참조
-uuid: 7 D 1071 B 9-1737-4 B 7 C-B 318-87907 DAE 5619
+seo-title: 고급 함수 참조
+title: 고급 함수 참조
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 인수의 값을 반환합니다. NOT을 사용하여 값이 하나의 특정 값과 동일하지 않도록 하십시오.
 
->[!NOTE]
->
->0 (영) 는 false를 의미하며 다른 값은 true 입니다.
+> [!NOTE] 0(영)은 False를 의미하고 다른 값은 True입니다.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 근사 고유 개수(고객 ID eVar)는 이 기능의 일반적인 사용 사례입니다.
 
-새로운 '예상 고객' 계산된 지표에 대한 정의:
+새 '예상 고객' 계산된 지표에 대한 정의:
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 
 
 N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 지정되므로 날짜나 경로 길이와 같은 자연상의 순서가 있는 차원에만 유용합니다.
 
->[!NOTE]
->
->매출액/방문자처럼 비율 지표로 예상할 수 있는 것은 아닙니다. 마지막 N에 대한 매출을 합하고 마지막 N에 대해 방문자를 집계한 다음 나눕니다. 대신, 다음 공식을 사용하십시오.
+> [!NOTE] 이것은 매출액/방문자와 같은 비율 지표에서 예상하듯이 작동하지 않습니다.마지막 N에 대한 매출과 마지막 N에 대한 방문자 수를 합한 다음 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ NOT을 사용하기 위해서는 표현식(&lt;, &gt;, =, &lt;&gt; 등)이 0이�
 
 인수가 TRUE이면 TRUE를 반환하고, 인수가 FALSE이면 FALSE를 반환합니다.
 
->[!NOTE]
->
->0 (영) 는 false를 의미하며 다른 값은 true 입니다.
+> [!NOTE] 0(영)은 False를 의미하고 다른 값은 True입니다.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -536,7 +530,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## 이차 회귀: 상관 계수(테이블) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+****에 대한 두 지표 열(* metric_X *및* metric_Y *) 간의 상관 계수 r*[!DNL Y=(a*X+b)]을 반환합니다.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -549,7 +543,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## 이차 회귀: 절편(테이블) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+****에 대한 두 지표 열(* metric_X *및* metric_Y *) 간의 절편 b를*[!DNL Y=(a*X+b)]반환합니다.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -575,7 +569,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## 이차 회귀: 기울기(테이블) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+*****에 대한 두 지표 열(* metric_X *및 metric_Y) 간의 기울기 a를* [!DNL Y=(a*X+b)]반환합니다.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -658,7 +652,7 @@ T 스코어에 대한 별칭, 즉, 표준 편차로 나눈 평균과의 편차
 
 t 점수가 col이고 자유도가 n인 m측 검증 t 테스트를 수행합니다.
 
-`t_test( x, n, m )`서명은 입니다. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+서명이 `t_test( x, n, m )`필요합니다. 그 아래는 단순하게 `m*cdf_t(-abs(x),n)`부른다. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 여기서 `m`은 꼬리(tail) 수이고 `n`은 자유 정도입니다. 둘 모두 숫자여야 합니다(전체 보고서에서 상수, 즉, 행 단위로 변경되지 않음).
 
@@ -702,11 +696,9 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 여기서 [!DNL x]는 원시 스코어이고, [!DNL μ]는 인구의 평균이고 [!DNL σ]는 인구의 표준 편차입니다.
 
->[!NOTE]
->
->[!DNL μ] (mu) 및[!DNL σ] (sigma) 는 지표에서 자동으로 계산됩니다.
+> [!NOTE] (mu) 및 [!DNL μ][!DNL σ] (시그마)는 지표에서 자동으로 계산됩니다.
 
-Z 점수 (지표)
+Z 스코어(지표)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -729,7 +721,5 @@ Z 스코어가 A인 n측 검증 Z 테스트를 수행합니다.
 
 현재 행이 열에서 우연히 보일 수 있는 확률을 반환합니다.
 
->[!NOTE]
->
->값이 정상적으로 배포된다고 가정합니다.
+> [!NOTE] 값이 일반적으로 배포된다고 가정합니다.
 
