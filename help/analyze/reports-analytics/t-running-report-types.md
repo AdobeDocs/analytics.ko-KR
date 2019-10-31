@@ -7,7 +7,7 @@ title: 다른 보고서 유형 실행
 topic: 보고서, Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https:/
 
 **[!UICONTROL 보고서]** &gt; **[!UICONTROL 사이트]** 지표 **[!UICONTROL &gt;]** 예외 항목 탐지.
 
->[!NOTE]
->
->분석 작업 공간 프로젝트 내에서 예외 항목 탐지를 실행할 수도 있습니다. [자세히...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] 분석 작업 공간 프로젝트 내에서 예외 항목 탐지를 실행할 수도 있습니다. [자세히...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)를 참조하십시오.
 
@@ -313,7 +311,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>정렬 기준... 가장 빈도가 높음/승자/ 패자</strong></td> 
-   <td class="chdesc stentry"> <span class="uicontrol">가장 빈도가 높음</span>(기본값), <span class="uicontrol">승자</span>(대부분의 성장을 보여 주는 차원), 및 <span class="uicontrol">패자</span>(하향 궤적에 있는 차원)을 기준으로 정렬하도록 전환할 수 있습니다. <p>승자인지 패자인지를 결정하는 데 사용되는 공식이 있습니다. 실시간 기능은 가장 이른 샘플과 다음으로 최신인 샘플을 보고 간단한 “변경률” 계산을 수행합니다. 따라서 “지난 15분"을 선택하고 n이 현재 분을 나타내는 경우, n-1은 n-15와 비교됩니다. 현재 실시간에서는 가중치를 적용하지 않습니다. 현재 분은 완전하지 않고 잘못된 변경률을 산출할 수 있으므로 무시됩니다. </p> <p>이 공식은 실시간 보고서에 사용된 모든 지표에서 일관됩니다. </p> </td> 
+   <td class="chdesc stentry"> <span class="uicontrol">가장 빈도가 높음</span>(기본값), <span class="uicontrol">승자</span>(대부분의 성장을 보여 주는 차원), 및 <span class="uicontrol">패자</span>(하향 궤적에 있는 차원)을 기준으로 정렬하도록 전환할 수 있습니다. <p>승자 또는 패자를 결정하는 데 사용되는 공식은 다음과 같습니다.Real-Time은 가장 빠른 샘플과 다음으로 최신 샘플을 보고 간단한 "% 변경" 계산을 수행합니다. 따라서 "지난 15분"을 선택하고 n이 현재 분을 나타내는 경우 n-1은 n-15와 비교됩니다. 현재 실시간에서는 가중치를 적용하지 않습니다. 현재 분은 완전하지 않고 잘못된 변경률을 산출할 수 있으므로 무시됩니다. </p> <p>이 공식은 실시간 보고서에 사용된 모든 지표에서 일관됩니다. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보조 1 Reportlet</strong></td> 
