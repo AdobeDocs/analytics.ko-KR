@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 분류
 title: 브라우저 가져오기
 topic: 관리 도구
-uuid: 56 DFBF 4 C -36 E 6-49 F 4-B 5 CB -8 AB 714432825
+uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 브라우저를 사용하여 분류 데이터를 가져올(다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
 
-## Browser import {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
+## 브라우저 가져오기 {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
 
 브라우저를 사용하여 분류 데이터를 가져올(다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
 
@@ -64,9 +64,9 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기를 클릭합니다]**.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**.
-1. **[!UICONTROL 브라우저 가져오기]** 필드를 구성합니다.
+1. 브라우저 **[!UICONTROL 가져오기]** 필드를 구성합니다.
 1. Click **[!UICONTROL Import File]**.
 1. 처리 메시지가 표시되는 상태 창을 확인하십시오.
 1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
