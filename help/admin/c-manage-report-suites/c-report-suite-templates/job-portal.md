@@ -1,18 +1,18 @@
 ---
 description: 구직 포털 또는 경력 검색 웹 사이트에 대한 일반 설정을 정의합니다.
 seo-description: 구직 포털 또는 경력 검색 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-title: 채용 포털
+seo-title: 구직 포털
 solution: Analytics
-title: 채용 포털
+title: 구직 포털
 topic: 관리 도구
-uuid: c 33 a 8 e 30-eea 6-45 f 5-9568-d 64 c 6753855 e
+uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 채용 포털
+# 구직 포털
 
 구직 포털 또는 경력 검색 웹 사이트에 대한 일반 설정을 정의합니다.
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 표준 상거래 이벤트 | 유형 | `s_code` 변수에 설정된 ID |
 |---|---|---|
-| 매출 | 카운터 | `purchase` |
+| 매출  | 카운터 | `purchase` |
 | 주문 | 카운터 | `purchase` |
 | 판매량 | 카운터 | `purchase` |
 | 장바구니 | 카운터 | `scOpen` |
@@ -44,6 +44,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 장바구니 제거 | 카운터 | `scRemove` |
 | 방문 횟수 | 카운터(하위 관계 없음) | N/A |
 | 페이지 보기 횟수 | 카운터(하위 관계 없음) | N/A |
-| 일일 고유 방문자 | 카운터(하위 관계 없음) | N/A |
+| 일일 고유 방문자 수 | 카운터(하위 관계 없음) | N/A |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | N/A |
 
