@@ -7,8 +7,8 @@ solution: Analytics
 title: 오프라인 추적
 topic: 개발자 및 구현
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 다음 변수와 함수를 사용하면 애플리케이션이 오프라인 상태일 때 측정 호출을 저장할 수 있습니다.
 
->[!NOTE]
->
->오프라인 추적을 활성화하려면 보고서 세트에 타임스탬프가 활성화되어 있어야 합니다. 보고서 세트에서 타임스탬프가 활성화된 경우 `trackOffline` 구성 속성이 *true*&#x200B;이어야 합니다. 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `trackOffline` 구성 속성이 *반드시* false여야 합니다. 이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면  [고객 지원에 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html#analytics)합니다.
+> [!NOTE] 오프라인 추적을 활성화하려면 보고서 세트에 타임스탬프가 활성화되어 있어야 합니다. 보고서 세트에서 타임스탬프가 활성화된 경우 `trackOffline` 구성 속성이 *true*&#x200B;이어야 합니다. 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `trackOffline` 구성 속성이 *반드시* false여야 합니다. 이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면  [고객 지원 센터에 문의하십시오](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 활성화되면 Offline AppMeasurement는 다음 방식으로 동작합니다.
 
@@ -60,13 +58,12 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> 측정 개체의 온라인 또는 오프라인 상태를 수동으로 설정합니다. 라이브러리는 장치가 오프라인인지 또는 온라인인지 자동으로 감지하므로 이러한 메서드는 측정 오프라인을 강제로 수행하는 경우에만 필요합니다. <code> forceOnline은 수동으로 오프라인 상태가 된 후에 온라인 상태로 되돌리는 데만 사용됩니다.</code> </p> <p>측정이 오프라인 상태일 때: </p> 
+   <td colname="col2"> <p> 측정 개체의 온라인 또는 오프라인 상태를 수동으로 설정합니다. 라이브러리는 장치가 오프라인 또는 온라인일 때를 자동으로 감지하므로 이러한 메서드는 측정 오프라인을 강제로 수행하는 경우에만 필요합니다. <code> forceOnline </code>은 수동으로 오프라인 상태가 된 후에만 온라인 상태로 돌아가는 데 사용됩니다. </p> <p>측정이 오프라인 상태일 때: </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> <code>trackOffline</code>이 true인 경우: 측정이 오프라인 상태가 될 때까지 히트는 저장됩니다. </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> <code>trackOffline</code>이 false인 경우 히트가 무시됩니다. </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> <code> trackOffline </code>이 true인 경우: 측정이 오프라인 상태가 될 때까지 히트는 저장됩니다. </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> <code> trackOffline </code>이 false인 경우 히트가 무시됩니다. </li> 
     </ul> <p> <b>예:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
