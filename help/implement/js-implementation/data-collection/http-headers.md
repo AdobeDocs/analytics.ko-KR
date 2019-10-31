@@ -7,8 +7,8 @@ solution: Analytics
 title: 데이터 수집 HTTP 헤더
 topic: 개발자 및 구현
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>이전에 Adobe의 데이터 수집 서버에서 만든 읽기 쿠키. </p> <p> 2014년에, Adobe 서버는 Adobe에서 설정한 것을 제외하고 서버 호출이 있는 모든 쿠키를 버립니다. Adobe 쿠키의 전체 목록은 <a href="https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/" format="https" scope="external">Experience Cloud에 사용된 쿠키</a>를 참조하십시오. </p> </td> 
+   <td> <p>이전에 Adobe의 데이터 수집 서버에서 만든 읽기 쿠키. </p> <p> 2014년에, Adobe 서버는 Adobe에서 설정한 것을 제외하고 서버 호출이 있는 모든 쿠키를 버립니다. Adobe 쿠키의 전체 목록은 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Experience Cloud에 사용된 쿠키</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -88,9 +88,7 @@ HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에
  </tbody> 
 </table>
 
->[!NOTE]
->
->동적 변수를 사용하는 구현에는 위에 나열되지 않은 다른 HTTP 요청 헤더에서 읽는 옵션이 있습니다.
+> [!NOTE] 동적 변수를 사용하는 구현에는 위에 나열되지 않은 다른 HTTP 요청 헤더에서 읽는 옵션이 있습니다.
 
 ## HTTP 응답 헤더 {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -110,6 +108,4 @@ HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에
 | Content-Type | 다시 클라이언트로 보내지는 컨텐츠 유형 지정(GIF, 텍스트, Javascript 등) |
 | Content-Length | 다시 클라이언트로 보내지는 컨텐츠 크기 지정 |
 
->[!NOTE]
->
->다른 HTTP 헤더는 내부 상태 모니터링에 대한 응답에서 설정할 수도 있습니다. 이러한 헤더 중 일부는 브라우저로 반환될 수 있지만, 브라우저가 이 헤더를 받을 필요는 없습니다.
+> [!NOTE]다른 HTTP 헤더는 내부 상태 모니터링에 대한 응답에서 설정할 수도 있습니다. 이러한 헤더 중 일부는 브라우저로 반환될 수 있지만, 브라우저가 이 헤더를 받을 필요는 없습니다.
