@@ -8,7 +8,7 @@ title: FAQ 및 예제
 topic: Reports and Analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -69,7 +69,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 2. **[!UICONTROL 레퍼러는 내부 URL 필터와]** 일치하고 **[!UICONTROL 방문의 첫 번째 페이지입니다]**. ([내부 방문](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) 참조)
 
-3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
+3. **[!UICONTROL 레퍼러]** 및 **[!UICONTROL 존재하며]** 레퍼러가 **[!UICONTROL 내부 URL 필터와 일치하지 않습니다]**.
 
 끝으로, [식별된 채널 없음](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)에 설명된 대로, 나머지 히트를 캡처하는 *다른* 채널을 만듭니다.
 
@@ -81,9 +81,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 이러한 종류의 규칙은 다목적 캐치(catch-all) 역할을 하여, 채널 트래픽이 항상 외부 트래픽과 일치하도록 하고 일반적으로 **[!UICONTROL 식별된 채널 없음으로 끝나지 않도록 합니다]**. 내부 트래픽까지 식별하는 규칙을 만들지 않도록 주의하십시오. 가장 일반적이고 유용한 [기타] 규칙을 만드는 방법은 채널의 값을 **[!UICONTROL 참조 도메인]**&#x200B;이나 **페이지 URL]로 설정하는 것입니다.[!UICONTROL **
 
->[!NOTE]
->
->식별된 채널 없음 카테고리로 분류될 수 있는 일부 채널 트래픽이 여전히 있을 수 있습니다. 예: 방문자가 사이트를 방문하고 페이지를 책갈피로 지정한 다음 책갈피를 통해 동일한 방문 내에서 페이지로 다시 돌아옵니다. 방문의 첫 페이지가 아니므로 참조 도메인이 없기 때문에 직접 채널이나 기타 채널로 이동하지 않습니다.
+> [!NOTE] 식별된 채널 없음 카테고리로 분류될 수 있는 일부 채널 트래픽이 여전히 있을 수 있습니다. 예: 방문자가 사이트를 방문하고 페이지를 책갈피로 지정한 다음 책갈피를 통해 동일한 방문 내에서 페이지로 다시 돌아옵니다. 방문의 첫 페이지가 아니므로 참조 도메인이 없기 때문에 직접 채널이나 기타 채널로 이동하지 않습니다.
 
 ## 유료 검색 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
