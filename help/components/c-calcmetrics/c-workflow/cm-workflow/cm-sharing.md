@@ -3,9 +3,9 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 seo-description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 지표를 공유할 수 있습니다.
 seo-title: 계산된 지표 공유
 title: 계산된 지표 공유
-uuid: 7 E 2 A 3 C 16-3650-42 CA -842 B -2575 E 904 E 82 C
+uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,5 +39,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    지표 옆에 공유 아이콘이 표시됩니다.![](assets/share_icon.png)
 
-1. **[!UICONTROL 필터]** &gt; **[!UICONTROL 기타 필터]** &gt; 나와 **[!UICONTROL 공유로 이동하여 사용자와 공유된 지표를 필터링할]**&#x200B;수 있습니다.
+1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
 
