@@ -4,9 +4,9 @@ seo-description: Analytics 보고 API에 대한 비교 표입니다. 지원 문�
 seo-title: Analytics 보고 API 비교
 solution: Analytics
 title: Analytics 보고 API 비교
-uuid: FA 533 A 8 E -33 C 0-42 F 4-A 294-Cabee 0258 C 8 F
+uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,9 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 
->[!NOTE]
->
->지연과 관련해서, Target (A 4 T) 용 Analytics는 Analytics와 Target 데이터를 통합하여 통합 보고를 위해 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
+> [!NOTE] 지연과 관련하여 Analytics for Target(A4T)은 통합 보고를 위해 동일한 히트에 Analytics 및 Target 데이터를 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -88,7 +86,7 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
   </tr> 
   <tr> 
    <td colname="col1"> <b>설명서</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B" format="https" scope="external"> Web Services</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B" format="https" scope="external"> 웹 서비스</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time" format="https" scope="external"> 실시간 보고서</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B" format="https" scope="external"> 라이브 스트리밍 개요</a> </p> </td> 
    <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse</a> </p> </td> 
