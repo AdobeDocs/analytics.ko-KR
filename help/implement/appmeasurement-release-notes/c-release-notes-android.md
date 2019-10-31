@@ -8,7 +8,7 @@ title: Android
 topic: 개발자 및 구현
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Android 모바일 라이브러리에 대한 누적 릴리스 노트입니다.
 
->[!NOTE]
->
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 설정합니다.
+> [!NOTE] 현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
 
 모바일 라이브러리 다운로드는 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 및 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1)에서 사용할 수 있습니다.
 
 ## 버전 4.13.4 {#section_E4743079D8E64B9C890180A025C94B44}
 
-The [!DNL Android] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
+[!DNL Android] SDK 버전 4.13.4(2017년 2월 16일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_C0197701CB9B45E596818AF0BE5AC4F2"> 
  <thead> 
@@ -52,7 +50,7 @@ The [!DNL Android] SDK version 4.13.4 (Feb 16, 2017) includes the following chan
 
 ## 버전 4.13.3 {#section_1C235192E9FB46E2A651017C1CF24A7F}
 
-The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
+[!DNL Android] SDK 버전 4.13.3(2017년 1월 19일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_5E744C8C9D064E999EB5055A8E3A99C5"> 
  <thead> 
@@ -79,7 +77,7 @@ The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following chan
 
 ## 버전 4.13.2 {#section_CEA2FF01EA414A32A8D164D981FBE71F}
 
-The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.13.2(2016년 11월 10일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_812CAB7DDC364DAABB7CDEDE55532E39"> 
  <thead> 
@@ -91,18 +89,18 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 방문자 ID 서비스 </p> </td> 
-   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
+   <td colname="2"> <p><code> adobe_mc</code>   매개 변수에 타임스탬프 및 Marketing Cloud 조직 ID가 추가되었습니다. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 심층 연결 </p> </td> 
-   <td colname="2"> <p><code>trackAdobeDeepLink</code>를 호출할 때 이제 "<code>adb</code>" 및 "<code>ctx</code>" 접두사가 붙은 변수가 제대로 처리됩니다. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 버전 4.13.1 {#section_647C43BA95A3485381AC2E8DEAA6D2E4}
 
-The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.13.1(2016년 10월 20일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_1D1AFD90F8BB4F59869FD417ED9C45AB"> 
  <thead> 
@@ -114,15 +112,15 @@ The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>획득 </p> </td> 
-   <td colname="2"> 이제 SDK는 사용자 지정 획득 데이터가 <code>AdobeDataCallback</code> 호출에 의해 적절하게 반환되도록 지원합니다. </td> 
+   <td colname="2"> 이제 SDK는 사용자 지정 획득 데이터가 <code> AdobeDataCallback</code> 호출에 의해 적절하게 반환되도록 지원합니다. </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>획득 </p> </td> 
-   <td colname="2"> 이제 SDK는 Google Play 참조 변수와 사용자 지정 변수를 보관했다가 <code>AdobeDataCallback</code> 호출에서 적절히 반환합니다. </td> 
+   <td colname="2"> 이제 SDK는 Google Play 참조 변수와 사용자 지정 변수를 보관했다가 <code> AdobeDataCallback</code> 호출에서 적절히 반환합니다. </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> 이제 방문자 ID 서비스 매개 변수가 <span class="keyword">mboxParams</span>를 통해 <code>Target</code> 요청에서 전달됩니다. </td> 
+   <td colname="2"> 이제 방문자 ID 서비스 매개 변수가 <span class="keyword"></span>를 통해 <code> mboxParams</code>Target 요청에서 전달됩니다. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +131,7 @@ The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following chan
 
 ## 버전 4.13.0 {#section_03370D8F93AE4B7A81C4B03910086556}
 
-The [!DNL Android] SDK version 4.13.0 (Sept 15, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.13.0(2016년 9월 15일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_AACF8B9BE89A4057B0396F487F82CF99"> 
  <thead> 
@@ -159,7 +157,7 @@ The [!DNL Android] SDK version 4.13.0 (Sept 15, 2016) includes the following cha
 
 ## 버전 4.12.0 {#section_3FBC1C24267141C08A60E288662160D8}
 
-The [!DNL Android] SDK version 4.12.0 (Aug 18, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.12.0(2016년 8월 18일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_3BDD15254859475CBE5E27870619FF3A"> 
  <thead> 
@@ -178,7 +176,7 @@ The [!DNL Android] SDK version 4.12.0 (Aug 18, 2016) includes the following chan
 
 ## 버전 4.11.0 {#section_34B295F3697F4AD6B6A6B8DD70AD1ECA}
 
-The [!DNL Android] SDK version 4.11.0 (June 22, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.11.0(2016년 6월 22일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_C3DC3890E81744828DE8946AE8067E1A"> 
  <thead> 
@@ -200,7 +198,7 @@ The [!DNL Android] SDK version 4.11.0 (June 22, 2016) includes the following cha
 
 ## 버전 4.10.0 {#section_262928ABA971490EA6B8E277E17BDD89}
 
-The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.10.0(2016년 5월 20일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_E6B19BD9903A41D9AAF0035CD66756B5"> 
  <thead> 
@@ -212,7 +210,7 @@ The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> 타겟 메서드 </td> 
-   <td colname="2"> <p><code>loadRequest</code> 메서드에 대한 새로운 구문 및 예를 추가되었습니다. </p> <p>다음과 같은 새로운 <span class="keyword">Target</span> 메서드가 추가되었습니다. </p> <p> 
+   <td colname="2"> <p><code> loadRequest</code> 메서드에 대한 새로운 구문 및 예를 추가되었습니다. </p> <p>다음과 같은 새로운 <span class="keyword">Target</span> 메서드가 추가되었습니다. </p> <p> 
      <ul id="ul_B32C3B3931764F21948E36384B775642"> 
       <li id="li_3421E7F78F3A4DDA8FF004903FC8C75E">setThirdPartyID </li> 
       <li id="li_0836075699C5480EB3D6B742FCF6D508">getThirdPartyID </li> 
@@ -223,7 +221,7 @@ The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following chan
 
 ## 버전 4.9.0 {#section_7393D3A5EA61431D9E7C07ECE176D17C}
 
-The [!DNL Android] SDK version 4.9.0 (May 5, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.9.0(2016년 5월 5일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_7D893A6E12554E9CA9AF2B03DA4C1A4B"> 
  <thead> 
@@ -242,7 +240,7 @@ The [!DNL Android] SDK version 4.9.0 (May 5, 2016) includes the following change
 
 ## 버전 4.8.3 {#section_9BB3DFBECC434AC6B3D7C18AA9BC895C}
 
-The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following changes:
+[!DNL Android] SDK 버전 4.8.3(2016년 2월 18일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_6DE145BC30154B9FADCE584A9737018D"> 
  <thead> 
@@ -254,14 +252,14 @@ The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following 
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> 옵트아웃 및 개인 정보 설정 </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> Android</span> SDK 4.8.3, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> , and <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p><span class="keyword"> Android</span> SDK 4.8.3부터 <code> setPrivacyStatus</code>   메서드를 통해 설정된 개인 정보 설정은 <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> 및 <span class="keyword"> Audience Manager</span>의 활동에 영향을 줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 버전 4.8.0 {#section_18FA091344644B43AA0E226241FF90DC}
 
-The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following changes:
+[!DNL Android] SDK 버전 4.8.0(2015년 11월 2일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_C47B9AEB2BB649CFA1D5CF04093B497B"> 
  <thead> 
@@ -320,7 +318,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
 
 ## 버전 4.6.1 {#section_98CC97CF0F0C48F7855130044386845A}
 
-The [!DNL Android] SDK version 4.6.1 (September 24, 2015) includes the following changes:
+[!DNL Android] SDK 버전 4.6.1(2015년 9월 24일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_80693083398F472F8A4E7861606E602D"> 
  <thead> 
@@ -332,14 +330,14 @@ The [!DNL Android] SDK version 4.6.1 (September 24, 2015) includes the following
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> Android SDK 버전 4.6.1</span> </p> </td> 
-   <td colname="2"> <p>SDK 4.6.0 or earlier supports <span class="keyword"> Android</span> 2.2(API 8) - <span class="keyword"> Android</span> 5.1.1 (API 22) </p> <p>SDK 4.6.1 or later supports <span class="keyword"> Android</span> 2.3(API 9) or later </p> </td> 
+   <td colname="2"> <p>SDK 4.6.0 또는 이전 버전은 <span class="keyword"> Android</span> 2.2(API 8) - <span class="keyword"> Android</span> 5.1.1(API 22)을 지원합니다. </p> <p>SDK 4.6.1 이상 버전은 <span class="keyword"> Android</span> 2.3(API 9) 이상을 지원합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 버전 4.6 {#section_ADF6F871CF3C4E2381464D62DA6E1EB1}
 
-The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following changes:
+[!DNL Android] SDK 버전 4.6(2015년 9월 17일)에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_35D0692698EF49AE8204F2AEB57CABD7"> 
  <thead> 
@@ -350,7 +348,7 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Push Messaging to <span class="keyword"> Analytics</span> Segments </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Analytics</span> 세그먼트에 대한 푸시 메시지 </p> </td> 
    <td colname="2"> <p><span class="keyword"> Adobe Mobile Services</span> 및 <span class="keyword">Adobe Mobile</span> SDK를 사용하면 푸시 메시지를 <span class="keyword">Analytics</span> 세그먼트에 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 연 결과로서 앱을 연 사용자를 쉽게 보고할 수도 있습니다. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -374,7 +372,7 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
 
 ## 버전 4.5 {#section_6E7614D4AEA24B7E81C4FC094882F062}
 
-The [!DNL Android] SDK version 4.5 includes the following changes:
+[!DNL Android] SDK 버전 4.5에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_BF98A1E904EB4314828AC58A2A6E7016"> 
  <thead> 
@@ -385,15 +383,15 @@ The [!DNL Android] SDK version 4.5 includes the following changes:
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> Android Wearable 확장</span> </p> </td> 
-   <td colname="2"> <p>Starting in <span class="keyword"> Android</span> SDK version 4.5, a new <span class="keyword"> Android</span> extension lets you collect data from your <span class="keyword"> Android</span> Wearable app. </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Android</span> Wearable 확장 </p> </td> 
+   <td colname="2"> <p><span class="keyword"> Android</span> SDK 버전 4.5부터 새로운 <span class="keyword"> Android</span> 확장을 사용하여 <span class="keyword"> Android</span> Wearable 앱에서 데이터를 수집할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 버전 4.4 {#section_8D7FC183081E4BCFA8ADC33FB55E057C}
 
-The [!DNL Android] SDK version 4.4 includes the following changes:
+[!DNL Android] SDK 버전 4.4에는 다음 변경 사항이 포함되어 있습니다.
 
 <table frame="all" colsep="1" rowsep="1" id="table_E8628F3806E24A0FB7157847D97C7B7A"> 
  <thead> 
@@ -408,8 +406,8 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
    <td colname="2"> <p>이제 라이프사이클 지표가 있는 사용자 지정 컨텍스트 데이터 변수를 포함할 수 있습니다. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>이제 PhoneGap에서 <code>trackBeacon</code> 및 <code>clearCurrentBeacon</code><span class="keyword"> 호출을 사용할 수 있습니다</span>. </p> </td> 
+   <td colname="1"> <p><span class="keyword"> PhoneGap</span>에서 비콘 추적 지원 </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,7 +416,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2014년 11월 24일**
 
-* New - Adobe Experience Cloud ID integration
+* 새로운 기능 - Adobe Experience Cloud ID 통합
 * 명확성을 위해 디버그 로그가 개선됨
 * 인앱 메시지를 확인할 때 발생할 수 있는 충돌이 해결됨
 
@@ -429,7 +427,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 * 새로운 기능 - 인앱 메시징 기능
 * 새로운 기능 - 이제 앱 시작 동안 구성 파일의 위치를 지정할 수 있습니다. 
 * 새로운 기능 - 이제 새 구성 파일이 없어도 관심 영역을 자동으로 업데이트할 수 있습니다.
-* New - [!DNL Analytics] calls are now sent as HTTP POST requests.
+* 새로운 기능 - 이제 [!DNL Analytics] 호출이 HTTP POST 요청으로 전송됩니다.
 * 특정 시나리오에서 앱 충돌이 추적될 수 없도록 하는 문제를 해결했습니다.
 * debugLogging이 활성화되었을 때 로그 메시지가 정리되고 자세한 기록이 추가되었습니다.
 * 성능 및 안정성 기능이 다양하게 개선되었습니다.
@@ -458,7 +456,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2014년 4월 17일**
 
-* 새로운 기능 - Bluetooth 비콘 추적
+* 새로운 기능 - Bluetooth 비콘 추적.
 * 새로운 기능 - 타임스탬프가 활성화된 앱에서 충돌 히트 수가 올바른 세션으로 백데이트됩니다.
 * 새로운 기능 - 타임스탬프가 활성화된 앱에서 이전 세션이 올바른 세션으로 백데이트된 히트에서 전송됩니다. (더 이상 이전 세션은 없음)
 * 새로운 기능 - 히트 일괄 처리.
@@ -477,7 +475,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2014년 2월 20일**
 
-* Added safety to network code to prevent crash caused by [!DNL Android] bug: https://code.google.com/p/android/issues/detail?id=54072
+* [!DNL Android] 버그: https://code.google.com/p/android/issues/detail?id=54072에 의해 발생하는 충돌을 방지하기 위해 네트워크 코드에 안전 기능을 추가했습니다.
 
 ## 버전 4.0.2 {#section_5A7F4D5D9CBD4B79B3B590A2C3F4D0F9}
 
@@ -503,7 +501,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2013년 9월 27일**
 
-[!DNL Android] Experience Cloud 솔루션용 SDK 4.x는 이제 다음과 같은 새로운 기능을 제공합니다.
+[!DNL Android] Experience Cloud 솔루션용 SDK 4.x는 현재 다음과 같은 새로운 기능을 제공할 수 있습니다.
 
 * 현저한 성능 개선 모든 처리가 백그라운드 스레드에서 수행되고 SDK는 완전히 스레드 안전 상태입니다.
 * 지리적 위치 및 관심 영역
@@ -511,7 +509,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 * 시한 이벤트
 * 옵트인/옵트아웃 관리
 * Audience Manager 지원
-* Lifecycle metrics passed to [!DNL Target] as mbox parameters
+* mbox 매개 변수로 [!DNL Target]에 전달되는 라이프사이클 지표
 * 컨텍스트 데이터 및 처리 규칙에 대해 표준화
 
 ## 버전 3.2.3 {#section_E3464DDC3B4844CF9CC5FC3E35C5C785}
@@ -581,7 +579,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 * 설정으로서 가치가 떨어진 `offlineThrottleDelay`는 스레드 최적화로 인해 더 이상 필요하지 않습니다. 이 설정은 이전 버전과의 호환성을 유지하기 위해 남아 있을 뿐 더 이상 어떤 효과도 없습니다.
 * 오프라인 히트 캐시에 대한 잠재적 동기화 문제가 수정되었습니다.
 * 계층적 변수를 #5 이상으로 설정할 때 경고 메시지가 명확하게 표시됩니다.
-* Fixed issue that could cause OSVersion to be misreported on versions of [!DNL Android] &gt; 4.0.
+* OSVersion이 [!DNL Android] 4.0 이상 버전에서 잘못 보고될 수 있는 문제가 수정되었습니다.
 * 여러 가지 성능이 개선되었습니다.
 * 잘못된 형식의 URL로 인해 발생할 수 있는 잠재적 예외가 해결되었습니다.
 
@@ -609,7 +607,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 릴리스 날짜: **2012년 8월**
 
-* Context override parameters are now sent in as `Hashmap<String, Object>` (they were formerly `Hashmap<String, String>`).
+* 이제 컨텍스트 재정의 매개 변수가 `Hashmap<String, Object>`(이전의 `Hashmap<String, String>`)으로 전송됩니다.
 
 ## 버전 3.0 {#section_2955C0AF3A23476B8CF06C469DE3284C}
 
@@ -619,7 +617,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 ## 이전 Android 버전(1.x) {#section_F2CC015616184D55AC6D6529DFC9A18B}
 
-The following release notes apply to the 1.x version of [!DNL AppMeasurement] for [!DNL Android]. 가능하면 3.x 버전으로 업그레이드할 것을 권장합니다.
+다음 릴리스 노트는 [!DNL Android]용 [!DNL AppMeasurement] 1.x 버전에 적용됩니다. 가능하면 3.x 버전으로 업그레이드할 것을 권장합니다.
 
 ## 버전 1.2.3 {#section_5189CCE11EEF4350844B1490D0A9F534}
 
@@ -639,8 +637,8 @@ The following release notes apply to the 1.x version of [!DNL AppMeasurement] fo
 
 릴리스 날짜: **2012년 1월**
 
-* Added [!DNL Android] 3.x and 4.x compatibility.
-* Implemented a UUID for visitor ID on [!DNL Android] devices that do not have SIM cards (For example, Kindle Fire).
+* [!DNL Android] 3.x 및 4.x 호환성이 추가되었습니다.
+* SIM 카드가 없는 [!DNL Android] 장치에서 방문자 ID에 대한 UUID를 구현했습니다(예: Kindle Fire).
 
 ## 버전 1.2 {#section_EC83BE1F00BF481EA1C74A63E4B90F65}
 
