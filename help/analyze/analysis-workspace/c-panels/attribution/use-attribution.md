@@ -5,7 +5,7 @@ seo-title: Analysis Workspace에서 속성 IQ 사용
 title: Analysis Workspace에서 속성 IQ 사용
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Analysis Workspace 자유 형식 테이블은 대부분의 지표에서 사용�
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-자유 형식 테이블 내의 모든 분류에는 상위 열과 동일하거나 다를 수 있는 모든 속성 모델이 적용될 수 있습니다. 예를 들어, 마케팅 채널 차원에서 선형 주문을 분석하고 채널 내 특정 추적 코드에 U자형 주문을 적용할 수 있습니다. 분류에 적용되는 속성 모델을 편집하려면 다음과 같이 분류 모델 위로 마우스를 이동하고 "편집"을 클릭합니다.
+자유 형식 테이블 내의 모든 분류에는 상위 열과 동일하거나 다를 수 있는 모든 속성 모델이 적용될 수 있습니다. 예를 들어, 마케팅 채널 차원에서 선형 주문을 분석하고 채널 내 특정 추적 코드에 U자형 주문을 적용할 수 있습니다. 분류에 적용된 속성 모델을 편집하려면 분류 모델 위로 마우스를 가져간 후 "편집"을 클릭하면 됩니다.
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-If you’d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ If you’d like to quickly and easily compare one attribution model to another, 
 | 차원 겹침 차트 | 최상위 세 개의 차원 항목(예: 채널)과 이러한 항목이 전환에 기여하는 빈도를 보여 주는 벤 다이어그램입니다. 예를 들어 버블의 크기는 방문자가 차원 항목(예: 채널) 모두에 노출될 때 전환이 발생한 빈도를 나타냅니다. 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다. |
 | 전체 과정별 마케팅 터치포인트 | 보고 날짜 범위에서 방문자가 보유한 마케팅(또는 모든 차원) 터치포인트를 나타내는 막대 그래프입니다 이 그래프는 다중 접점 속성이 데이터 집합에 얼마나 중요한지 확인하는 데 유용합니다. 거의 대부분 방문자가 단일 터치포인트만 보유한 경우 다른 속성 모델이 결과의 다른 속성과는 크게 다르지 않습니다. |
 | 마케팅 채널 실적 세부 사항 | 산포도를 사용하여 시각적으로 최대 3개의 속성 모델을 비교할 수 있습니다. |
-| 마케팅 채널 플로우 | 어떤 채널이 가장 일반적으로 상호 작용하는지, 방문자의 움직임에서 어떤 순서로 상호 작용하는지 확인할 수 있습니다. |
+| 마케팅 채널 플로우 | 가장 일반적으로 상호 작용하는 채널과 방문자의 경로 간에 어느 채널을 확인할 수 있습니다. |
