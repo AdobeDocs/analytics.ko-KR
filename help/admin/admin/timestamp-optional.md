@@ -7,7 +7,7 @@ title: 타임스탬프 선택 사항
 topic: 관리 도구
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 >
 >If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 번호/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
->[!NOTE]
->
->타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다. 즉, 방문/세션이 92일 동안 "열려 있음"으로 표시되고, 이전 히트(히트 시간) 이후 30분이 아닌 추가 히트는 여전히 동일한 방문/세션에 포함될 수 있습니다. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) influence whether these hits will be included in reporting or not.
+> [!NOTE] 타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다. 즉, 방문/세션이 92일 동안 "열려 있음"으로 표시되고, 이전 히트(히트 시간) 이후 30분이 아닌 추가 히트는 여전히 동일한 방문/세션에 포함될 수 있습니다. 주문에서 수신되는 "이전" 히트는 많은 요소(세그먼테이션, 할당, 만료 등)이므로 "알 수 없는" 결과를 생성합니다. 이러한 히트가 보고에 포함되는지 여부에 영향을 줍니다.
 
 ## 새 보고서 세트 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -50,7 +48,5 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    이렇게 하면 보고서 세트가 타임스탬프 옵션으로 변경됩니다.
 
->[!NOTE]
->
->If a report suite was set to **Timestamps Optional**, to change this to any other setting, please contact Adobe Client Care.
+> [!NOTE] 보고서 세트가 타임스탬프 옵션으로 설정된 **경우**&#x200B;이 설정을 다른 설정으로 변경하려면 Adobe Client Care에 문의하십시오.
 
