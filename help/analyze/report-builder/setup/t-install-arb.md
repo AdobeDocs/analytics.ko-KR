@@ -5,9 +5,9 @@ seo-title: Report Builder 설치
 solution: Analytics
 title: Report Builder 설치
 topic: Report Builder
-uuid: 5 CAD 3265-83 b 6-4 e 42-a 8 b 4-cc 56 e 050 d 41 e
+uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,11 +22,11 @@ Report Builder 설치 방법을 설명하는 절차입니다.
 >
 >[Admin Console로 Analytics 사용자 이전](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)에서 이전 정보를 확인하십시오.
 
-1. **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL 도구]** &gt; **[!UICONTROL 리포트 빌더를 클릭합니다]**.
+1. Click **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Report Builder]**.
 1. Click **[!UICONTROL Download Now]** to download the 32-bit or 64-bit version (depending on the MS Excel version installed) .
 1. 다운로드한 설치 패키지를 엽니다.
 1. 설치 마법사를 따라 설치합니다.
 1. MS Excel을 열거나 다시 시작하여 [!UICONTROL 추가 기능] 메뉴를 표시합니다.
-1. **[!UICONTROL 추가 기능]** &gt; **[!UICONTROL 로그인을]**&#x200B;클릭합니다.
+1. Go to **[!UICONTROL Add-Ins]** &gt; **[!UICONTROL Sign In]**.
 
-   Follow the instructions in [Report Builder Sign-In](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
+   리포트 빌더 [로그인의 지침을 따르십시오](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
