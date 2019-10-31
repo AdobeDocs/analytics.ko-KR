@@ -1,13 +1,13 @@
 ---
 description: 능동 FTP와 수동 FTP는 포트 연결이 설정되는 방식을 제어하며, 몇 가지 방화벽 암시를 선택해야 합니다.
-keywords: ftp; Sftp
+keywords: ftp;sftp
 seo-description: 능동 FTP와 수동 FTP는 포트 연결이 설정되는 방식을 제어하며, 몇 가지 방화벽 암시를 선택해야 합니다.
 seo-title: 수동 FTP 모드 사용
 solution: Analytics
 title: 수동 FTP 모드 사용
-uuid: E 56 E 937 E-EC 42-45 EC-AE 8 E -8 A 8 EA 1 B 76 F 3 F
+uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
