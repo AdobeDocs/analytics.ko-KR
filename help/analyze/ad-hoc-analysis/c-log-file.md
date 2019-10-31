@@ -7,7 +7,7 @@ title: 로그 파일
 topic: Ad Hoc Analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. **[!UICONTROL Ad Hoc Analysis]로고를 클릭합니다.**
 1. **[!UICONTROL 로그 파일 저장을 클릭합니다]**.
 
->[!NOTE]
->
->이 절차를 사용하여 저장하는 로그는 현재 세션용입니다.
+> [!NOTE] 이 절차를 사용하여 저장하는 로그는 현재 세션용입니다.
 
