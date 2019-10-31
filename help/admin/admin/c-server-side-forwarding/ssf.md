@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 서버 측 전달 개요
 uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,10 +43,10 @@ source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 Analytics 추적 요청을 [검사하여 이미 구현된 서버측 전달의 버전이 있는지 확인합니다](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
 
-'응답' 탭에서 응답에 Audience Manager 데이터가 있는지 확인하십시오. 만약
+"응답" 탭에서 응답에 Audience Manager 데이터가 포함되어 있는지 확인합니다. 만약
 
-* **'포스트백' 또는 'dcs_region'과 같은 항목을 포함하는 Audience Manager의 JSON 응답**&#x200B;이 표시된다면, 이미 어떤 형태의 서버 측 전달이 활성화되어 있는 것입니다. 3단계로 진행합니다.
-* **"상태":"성공"**&#x200B;이 표시된다면, 고객 관리 모듈이 구현되어 있지만 서버 측 전달은 제대로 구성되어 있지 않습니다. 3단계로 진행합니다.
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. 3단계로 진행합니다.
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. 3단계로 진행합니다.
 * **2 x 2 이미지**&#x200B;가 표시된다면, 서버 측 전달 또는 고객 관리 모듈이 구현되어 있지 않습니다. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * **DIL이 있는 AAM 고객**: 다음 두 항목을 긴밀하게 편성하십시오.
@@ -70,7 +70,5 @@ Go to **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (select **report 
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
+> [!NOTE] 3단계 모두가 완료될 때까지 Audience Manager나 [대상과 같은](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) 다른 [Experience](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) Cloud 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
 
