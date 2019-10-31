@@ -4,9 +4,9 @@ seo-description: 작년 특정 기간 동안의 일별 서버 호출 평균과 �
 seo-title: 지난 서버 호출 예측 및 트래픽 스파이크 예약
 solution: Analytics
 title: 지난 서버 호출 예측 및 트래픽 스파이크 예약
-uuid: 38 DEB 1 DF-AFB 0-437 D-B 541-69295 F 0 DC 8 DC
+uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
