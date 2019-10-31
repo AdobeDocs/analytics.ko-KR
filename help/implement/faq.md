@@ -8,7 +8,7 @@ title: Analytics 구현에 대한 FAQ
 topic: 개발자 및 구현
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
    <td colname="col3"> <p>사용자 및 그룹 관리에 대한 자세한 내용은 Adobe Experience Cloud 도움말의 <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">사용자 및 제품 관리</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>eVar 만료 - 왜 보고서에서 eVar의 특성이 '없음'으로 지정되고 있습니까? </p> </td> 
+   <td colname="col2"> <p>eVar 만료 - 보고서에서 eVar가 '없음'으로 표시되는 이유는 무엇입니까? </p> </td> 
    <td colname="col3"> <p> <span class="uicontrol"> 유효 기간</span>은 eVar 값이 만료된 후 기간 또는 이벤트를 지정합니다(더 이상 성공 이벤트에 대한 크레디트를 받지 않음). 성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다(eVar가 활성화되지 않았음). 이벤트를 만료 값으로 선택하면 이 이벤트가 발생하는 경우에만 해당 변수가 만료됩니다. 해당 이벤트가 발생하지 않으면 해당 변수가 만료되지 않습니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [자세히...] </a> </p> </td> 
   </tr> 
   <tr> 
@@ -125,7 +125,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td> 플러그인이란 무엇입니까? </td> 
-   <td> JavaScript용 AppMeasurement 플러그인은 몇 가지 고급 기능을 수행하는 프로그램 또는 기능입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다. JavaScript를 사용하여 데이터를 캡처하고 싶지만 진행하는 방법을 모르는 경우에는 담당 계정 관리자에게 문의하십시오. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html" format="http" scope="external"> [자세히...] </a> </td> 
+   <td> JavaScript용 AppMeasurement 플러그인은 여러가지 고급 기능을 수행하는 프로그램 또는 기능입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다. JavaScript를 사용하여 데이터를 캡처하고 싶지만 진행하는 방법을 모르는 경우에는 담당 계정 관리자에게 문의하십시오. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html" format="http" scope="external"> [자세히...] </a> </td> 
   </tr> 
   <tr> 
    <td> 데이터 삽입 API에 대한 정보? </td> 
@@ -141,7 +141,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 | 질문 | 답변 |
 |---|---|
 | Analytics 사용자 및 그룹을 어떻게 관리합니까? | 사용자 및 그룹 관리에 대한 자세한 내용은 Adobe [Experience Cloud 코어 서비스 도움말의 Experience Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) 관리를 참조하십시오. |
-| eVar 만료 - 왜 보고서에서 eVar의 특성이 '없음'으로 지정되고 있습니까? | `Expire After` eVar 값이 만료된 후 기간 또는 이벤트를 지정합니다(더 이상 성공 이벤트에 대한 크레딧을 받지 않음). 성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다(eVar가 활성화되지 않았음). 이벤트를 만료 값으로 선택하면 이 이벤트가 발생하는 경우에만 해당 변수가 만료됩니다. 해당 이벤트가 발생하지 않으면 해당 변수가 만료되지 않습니다. [[자세히...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| eVar 만료 - 보고서에서 eVar가 '없음'으로 표시되는 이유는 무엇입니까? | `Expire After` eVar 값이 만료된 후 기간 또는 이벤트를 지정합니다(더 이상 성공 이벤트에 대한 크레딧을 받지 않음). 성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다(eVar가 활성화되지 않았음). 이벤트를 만료 값으로 선택하면 이 이벤트가 발생하는 경우에만 해당 변수가 만료됩니다. 해당 이벤트가 발생하지 않으면 해당 변수가 만료되지 않습니다. [[자세히...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | 사용자 지정 이벤트 가시성 - 왜 사용자 지정 이벤트가 보고서 메뉴에 나타나지 않습니까? | 가시성 열에서 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다. 이 설정은 해당 지표 또는 이벤트의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. [[자세히...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/metric-visibility.html) |
 | 타임스탬프 - 타임스탬프 설정을 변수하기 전에 고려해야 할 사항은 무엇입니까? | 타임스탬프 옵션 기능을 사용하면 데이터 손실을 발생시키지 않고도 타임스탬프가 지정되지 않은 데이터를 지정된 데이터와 결합할 수 있습니다. 모바일 장치에서 생성된 타임스탬프가 있는 오프라인 데이터는 웹 페이지에서 라이브의, 타임스탬프가 지정되지 않은 데이터와 결합하거나, 클라이언트측 타임스탬프 호출을 사용하여 모든 플랫폼의 데이터와 통합할 수 있습니다. [[자세히...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/timestamps-overview.html) |
 | 방문자 ID - 방문자 ID 유예 기간은 어떻게 작동하고, 어떻게 활성화됩니까? | 동일한 보고서 세트에 데이터를 전송 중인 JavaScript 파일이 여러 개 있거나 사이트에서 Flash 비디오 측정과 같은 기타 기술을 사용하는 경우에는 유예 기간을 구성하는 것이 좋습니다.  [자세히...](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/grace-period.html) |
@@ -165,6 +165,6 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 | 자사 쿠키를 설정하려면 어떻게 합니까? | Analytics는 쿠키를 사용하여 이미지 요청과 브라우저 세션 간에 지속되지 않는 변수 및 구성 요소에 대한 정보를 제공합니다. 이러한 무해 쿠키는 Adobe에서 호스트하는 도메인에서 생성되는 것으로, 타사 쿠키로 알려져 있습니다. [자세히...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html) |
 | SSL 인증서를 가져오려면 어떻게 합니까? | 사이트에서 `https://` 프로토콜을 사용하는지 판별합니다. 그런 경우, CSR을 요청하고 SSL 인증서를 구입해야 합니다. 참고: 보안 페이지 또는 컨텐츠가 없는 경우 SSL 인증서가 필요하지 않습니다. 사이트에서 `https://` 프로토콜만 사용하는 경우 이 전체 단계를 건너뛸 수 있습니다.  [자세히...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html) |
 | 인증 만료 알림에 대한 정보는 어디에서 찾을 수 있습니까? | SSL 인증서는 매년 만료됩니다. 즉, 만료가 될 때마다 Adobe에 업데이트된 인증서를 요청해야 합니다. 이 경우 FPC 전문가가 충분히 경고를 하지만, 미리 만료를 모니터링하고 Adobe에 업데이트된 이 인증서를 제공하는 것이 좋습니다. [자세히...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) |
-| 플러그인이란 무엇입니까? | JavaScript용 AppMeasurement 플러그인은 몇 가지 고급 기능을 수행하는 프로그램 또는 기능입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다. JavaScript를 사용하여 데이터를 캡처하고 싶지만 진행하는 방법을 모르는 경우에는 담당 계정 관리자에게 문의하십시오. [자세히...](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md) |
+| 플러그인이란 무엇입니까? | JavaScript용 AppMeasurement 플러그인은 여러가지 고급 기능을 수행하는 프로그램 또는 기능입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다. JavaScript를 사용하여 데이터를 캡처하고 싶지만 진행하는 방법을 모르는 경우에는 담당 계정 관리자에게 문의하십시오. [자세히...](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md) |
 | 데이터 삽입 API에 대한 정보는 어떻게 찾을 수 있습니까? | Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개발했습니다. [자세히...](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
 | 500 오류란? | "500 쿼리 오류" 상태를 일으킨 내부 서버 오류에 대한 정보는 pageType [변수에](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_F67870238EF74491B5D3909A33CDB985)있습니다. |
