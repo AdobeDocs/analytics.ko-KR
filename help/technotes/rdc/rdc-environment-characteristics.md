@@ -4,20 +4,20 @@ seo-title: Adobe Analytics RDC 환경 특성
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # RDC 환경 특성
 
-RDC (지역 데이터 수집) 환경에는 아래 설명된 특성이 포함됩니다.
+RDC(Regional Data Collection) 환경에는 아래에 설명된 특성이 포함되어 있습니다.
 
 ## 성능 향상
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+RDC를 사용할 때의 현재 응답 시간은 Adobe Analytics [요청 성능을 참조하십시오](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
 
-일반적으로 다음과 같이 RDC를 사용하여 응답 시간을 개선했습니다.
+일반적으로 사용자는 다음과 같이 RDC를 사용하여 응답 시간이 개선되었습니다.
 
 | 지역 | RDC로 절약되는 응답 시간 |
 | --- | --- |
@@ -37,13 +37,13 @@ For current response times when using RDC, see [Adobe Analytics Request Performa
 | 미국 서부 | 20% |
 | 글로벌 | 50% |
 
-## 퍼스트 파티 또는 서드 파티 쿠키
+## 자사 또는 타사 쿠키
 
 구현의 종류에 따라 사용자는 퍼스트 파티 또는 서드 파티 쿠키를 사용할 것입니다. 퍼스트 파티 쿠키에 대한 더 자세한 내용은  [여기](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html)에서 확인하십시오.
 
 ## 보안 페이지
 
-사이트에 HTTPS 프로토콜을 사용하는 페이지가 포함된 경우 보안 페이지가 있습니다. Adobe Analytics에서 추적한 대부분의 페이지 보기는 HTTPS 프로토콜을 사용하여 보호됩니다. 보안 페이지는 추적에 SSL 인증서가 필요합니다. 사용자의 웹 속성이 서드 파티 쿠키를 사용하고 있는 경우, 보안 페이지는 Adobe가 소유한 SSL 인증서를 사용하므로 FPSSL 구현 없이 데이터 수집 서버로 데이터를 안전하게 전송할 수 있습니다.
+사이트에 https 프로토콜을 사용하는 페이지가 포함된 경우 보안 페이지가 있습니다. Adobe Analytics에서 추적하는 대부분의 페이지 보기는 https 프로토콜을 사용하여 보호됩니다. 보안 페이지는 추적에 SSL 인증서가 필요합니다. 웹 속성이 타사 쿠키를 사용하는 경우, 보안 페이지는 Adobe가 소유한 SSL 인증서를 사용하므로 FPSSL 구현 없이 데이터를 Adobe 데이터 수집 서버로 안전하게 전송할 수 있습니다.
 
 ## DNS 변경(CNAME 업데이트)
 
