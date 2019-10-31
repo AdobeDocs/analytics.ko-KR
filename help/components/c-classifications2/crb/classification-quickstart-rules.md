@@ -8,7 +8,7 @@ title: 분류 규칙
 topic: 관리 도구
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ about_classification_rules.xml
 * [규칙이 키를 분류하지 않는 경우](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [규칙 우선 순위 정보](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
 
->[!NOTE]
->
->The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
+> [!NOTE] 규칙 [!UICONTROL 빌더는] Numeric 2 분류를 지원하지 않습니다.
 
 ## 규칙에 관한 중요한 정보 {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
@@ -72,7 +70,7 @@ about_classification_rules.xml
 
    규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. See [규칙 우선 순위 정보](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. 자세한 내용은 [규칙 우선 순위 정보](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -114,15 +112,11 @@ regex_classification_rules.xml
 * [정규 표현식 - "포함되지 않음" 예](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [정규 표현식 - 참조 테이블](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE]
->
->우수 사례로, 정규 표현식은 구분 기호를 사용하는 추적 코드에 가장 적합합니다.
+> [!NOTE] 우수 사례로, 정규 표현식은 구분 기호를 사용하는 추적 코드에 가장 적합합니다.
 
 ## 정규 표현식 - 추적 코드 예 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE]
->
->If the tracking code is URL encoded, it will **not** be classified by the Rules Builder.
+> [!NOTE] 추적 코드가 URL로 인코딩된 경우 규칙 빌더로 분류되지 **않습니다** .
 
 이 예에서 다음 캠페인 ID를 분류하려고 한다고 가정해봅시다.
 
@@ -159,7 +153,7 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 | 정규 표현식 | 문자열 또는 일치 결과 | 해당 일치 그룹 |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601 `$1`:em `$2`:6월 판매 `$3`:20130601년 |
-| 구문 작성 중 | `^` = 행() = 그룹 문자를 시작하고 괄호 안의 일치하는 문자를 추출할 수 있습니다.  `(.+)` = captures one ( . ) 문자 및 ( + ) 더 이상 \ = 문자열의 시작.  `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
+| 구문 작성 중 | `^` = 행() = 그룹 문자를 시작하고 괄호 안의 일치하는 문자를 추출할 수 있습니다.  `(.+)` = 한 개 캡처( . ) 문자 및 ( + ) 더 이상 \ = 문자열의 시작.  `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
 
 정규 표현식의 문자가 무엇을 의미하는지에 대한 자세한 내용은 [정규 표현식 - 참조 테이블](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)을 참조하십시오.
 
@@ -315,9 +309,7 @@ t_classification_rule.xml
 
 조건을 분류와 일치시키고 작업을 지정하여 규칙을 추가하십시오.
 
->[!NOTE]
->
->이 절차에서는 규칙을 하나 이상의 보고서 세트에 적용해야 합니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
+> [!NOTE] 이 절차에서는 규칙을 하나 이상의 보고서 세트에 적용해야 합니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
 
 1. [분류 규칙 세트를 만듭니다](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -329,7 +321,7 @@ t_classification_rule.xml
    **[!UICONTROL 보고서 세트 선택]페이지가 표시됩니다.**
 
    >[!NOTE]
-   보고서 세트는 다음 조건이 충족될 *`only`* 때 이 페이지에 표시됩니다.       &gt;
+   보고서 세트는 다음 조건이 충족될 *`only`* 때 이 페이지에 표시됩니다.&gt;
 
    * [!UICONTROL 관리 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
    (이 전제 조건에 대한 자세한 내용은 분류 *`Variable`* 규칙 [](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) 세트에서 이 전제 조건에 대한 설명을 참조하십시오.)
