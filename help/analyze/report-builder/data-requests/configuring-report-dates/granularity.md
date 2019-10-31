@@ -1,13 +1,13 @@
 ---
-description: 요청 마법사 1 단계에서 데이터 요청에 세부기간 수준을 적용할 수 있습니다. 세부기간은 보고서에 포함되어 있는 시간 기반 세부 사항의 수준을 지정합니다.
-seo-description: 요청 마법사 1 단계에서 데이터 요청에 세부기간 수준을 적용할 수 있습니다. 세부기간은 보고서에 포함되어 있는 시간 기반 세부 사항의 수준을 지정합니다.
+description: 요청 마법사 1단계에서 데이터 요청에 세부기간 수준을 적용할 수 있습니다. 세부기간은 보고서에 포함되어 있는 시간 기반 세부 사항의 수준을 지정합니다.
+seo-description: 요청 마법사 1단계에서 데이터 요청에 세부기간 수준을 적용할 수 있습니다. 세부기간은 보고서에 포함되어 있는 시간 기반 세부 사항의 수준을 지정합니다.
 seo-title: 세부기간
 solution: Analytics
 title: 세부기간
 topic: Report Builder
-uuid: 948 B 3 FF 2-FCFF -45 FC -9 E 8 C -8 A 025 AC 562 B 1
+uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
