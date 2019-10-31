@@ -8,7 +8,7 @@ title: JavaScript용 AppMeasurement
 topic: 개발자 및 구현
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -284,7 +284,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 릴리스 날짜: **2016년 4월 21일**
 
-* [!DNL AppMeasurement] [!DNL Activity Map] 모듈이 [!DNL AppMeasurement] 표준 모듈에 통합되었으므로 단일 [!DNL .js] 파일만 참조하면 됩니다. 또한 [!DNL Activity Map] 추적은 기본적으로 활성화됩니다. (AN-112689)
+* The [!DNL AppMeasurement] Activity Map module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. 또한 Activity Map 추적은 기본적으로 활성화됩니다. (AN-112689)
 
 * [!DNL AppMeasurement]의 쿼리-문자열 변수 순서에서 발생하는 잘림 문제가 해결되었으므로 *`pageURLRest`*&#x200B;이 마지막입니다. (AN-114647)
 
