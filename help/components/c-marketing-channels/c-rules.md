@@ -1,19 +1,19 @@
 ---
 description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
 seo-description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
-seo-title: 마케팅 채널에 대한 처리 규칙
+seo-title: 마케팅 채널의 처리 규칙
 solution: Analytics
 subtopic: 마케팅 채널
-title: 마케팅 채널에 대한 처리 규칙
-topic: Reports & Analytics
-uuid: F 6394 F 4 B-A 244-48 E 9-9892-7 dfbfceb 5 FC 9
+title: 마케팅 채널의 처리 규칙
+topic: Reports and Analytics
+uuid: f6394f4b-a244-48e9-9892-7dfbceb5fc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 마케팅 채널에 대한 처리 규칙
+# 마케팅 채널의 처리 규칙
 
 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
 
@@ -24,13 +24,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    [식별된 채널 없음](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)을 참조하십시오.
 
->[!NOTE]
->
->이러한 규칙은 마케팅 채널 외부의 보고에 영향을 주지 않지만 마케팅 채널 데이터 수집에 영향을 줍니다. 이러한 규칙으로 수집한 데이터는 100% 영구적이며 데이터를 수집한 후에 수정한 규칙은 되돌릴 수 없습니다. 데이터가 잘못된 채널에서 수집되는 일을 막을 수 있도록 [!UICONTROL 마케팅 채널 처리 규칙]을 저장하기 전에 모든 상황을 검토 및 고려하는 것이 좋습니다.
+> [!NOTE] 이러한 규칙은 마케팅 채널 외부의 보고에 영향을 주지 않지만 마케팅 채널 데이터 수집에 영향을 줍니다. 이러한 규칙으로 수집한 데이터는 100% 영구적이며 데이터를 수집한 후에 수정한 규칙은 되돌릴 수 없습니다. 데이터가 잘못된 채널에서 수집되는 일을 막을 수 있도록 [!UICONTROL 마케팅 채널 처리 규칙]을 저장하기 전에 모든 상황을 검토 및 고려하는 것이 좋습니다.
 
 **전제 조건**
 
-* 개념 정보에 대해서는 [마케팅 채널](../../components/c-marketing-channels/c-getting-started-mchannel.md#concept_0C28C1592F564E53BB467E6EBC168E8C) 시작 및 마케팅 채널 보고서 [정보를](../../components/c-marketing-channels/c-overview.md#concept_77BE50D20BAA402CB292026436A39068)참조하십시오.
+* 마케팅 채널 시작 [및 마케팅 채널 보고서](../../components/c-marketing-channels/c-getting-started-mchannel.md#concept_0C28C1592F564E53BB467E6EBC168E8C) 정보에서 개념 [정보를 검토하십시오](../../components/c-marketing-channels/c-overview.md#concept_77BE50D20BAA402CB292026436A39068).
 
 * 규칙을 할당할 수 있도록 하나 이상의 채널을 만듭니다.
 
