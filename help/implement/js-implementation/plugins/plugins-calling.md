@@ -8,8 +8,8 @@ subtopic: 플러그인
 title: doPlugins 함수를 사용하여 플러그인 호출
 topic: 개발자 및 구현
 uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,9 +45,7 @@ function s_doPlugins(s) {
 s.doPlugins=s_doPlugins
 ```
 
->[!NOTE]
->
->H 코드 및 이전 버전은 다양한 구문을 사용하여 아주 오래된 일부 브라우저(IE 4 및 5 등)를 지원합니다.
+> [!NOTE]H 코드 및 이전 버전은 다양한 구문을 사용하여 아주 오래된 일부 브라우저(IE 4 및 5 등)를 지원합니다.
 
 ## doPlugins 함수 이름 바꾸기 {#section_70B7D58E057B48058E25907AB3726725}
 
@@ -100,7 +98,7 @@ s.campaign=s.getQueryParam('cid');
 s.getQueryParam=new Function("qp","d","" 
 +"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l" 
 // 
-// ... more code below ... 
+// ... more code below ...
 // 
 ```
 
