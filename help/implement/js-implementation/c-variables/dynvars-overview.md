@@ -8,8 +8,8 @@ subtopic: 변수
 title: 다이내믹 변수
 topic: 개발자 및 구현
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,15 +18,13 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 동적 변수를 사용하면 사이트의 이미지 요청에 전체 값을 여러 번씩 입력하지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다.
 
-동적 변수는 여러 변수에서 동시에 같은 데이터(예: 캠페인 추적 코드)를 캡처하는 데 사용됩니다. 일반적으로 여러 보고서에서 고유하고 중요한 지표를 제공하는 경우에 사용됩니다. 예를 들어 [!UICONTROL 사용자 지정 전환] 변수와 [!UICONTROL 사용자 지정 트래픽] 변수에서 내부 검색 키워드를 캡처하면 이러한 키워드와 각각 연결된 [!UICONTROL 매출] 및 [!UICONTROL 주간 고유 방문자] 지표를 볼 수 있습니다..
+동적 변수는 여러 변수에서 동시에 같은 데이터(예: 캠페인 추적 코드)를 캡처하는 데 사용됩니다. 일반적으로 여러 보고서에서 고유하고 중요한 지표를 제공하는 경우에 사용됩니다. 예를 들어 [!UICONTROL 사용자 지정 전환] 변수와 [!UICONTROL 사용자 지정 트래픽] 변수에서 내부 검색 키워드를 캡처하면 이러한 키워드와 각각 연결된 [!UICONTROL 매출] 및 [!UICONTROL 주간 고유 방문자] 지표를 볼 수 있습니다.에서 보냅니다.
 
 동적 변수는 다양한 보고 조건에서 데이터를 보는 경우에도 유용합니다. 다양한 할당 및 쿠키 만료 설정을 사용하여 여러 eVar에서 캠페인 추적 코드를 캡처할 수 있습니다. 그러면 사용자는 이러한 캠페인에 전환 지표를 사용할 방법을 선택할 수 있습니다.
 
->[!NOTE]
->
->동적 변수는 쿠키(s_cc, s_sq, s_fid, s_vi 및 플러그인으로 설정된 모든 쿠키)와 함께 지원되지 않습니다. `D=<cookie value>`를 사용할 수 없습니다.
+> [!NOTE]동적 변수는 쿠키(s_cc, s_sq, s_fid, s_vi 및 플러그인으로 설정된 모든 쿠키)와 함께 지원되지 않습니다. `D=<cookie value>`를 사용할 수 없습니다.
 
-동적 변수의 가장 큰 장점은 긴 문자열을 반복해서 실제로 전달하지 않고도 여러 변수의 데이터에 있는 긴 문자열을 캡처하는 능력입니다. 일부 브라우저에서는 HTTP GET 요청(Adobe 이미지 요청 포함)의 최대 길이를 제한합니다. 동적 변수를 사용하면 여러 변수에 데이터가 중복된 경우 Adobe 서버에 대한 요청의 길이를 줄여 모든 데이터를 캡처할 수 있습니다..
+동적 변수의 가장 큰 장점은 긴 문자열을 반복해서 실제로 전달하지 않고도 여러 변수의 데이터에 있는 긴 문자열을 캡처하는 능력입니다. 일부 브라우저에서는 HTTP GET 요청(Adobe 이미지 요청 포함)의 최대 길이를 제한합니다. 동적 변수를 사용하면 여러 변수에 데이터가 중복된 경우 Adobe 서버에 대한 요청의 길이를 줄여 모든 데이터를 캡처할 수 있습니다.에서 보냅니다.
 
 페이지 보기에서 발생하는 Adobe 이미지 요청의 경우, 동적 변수를 사용하여 [!UICONTROL 사용자 지정 트래픽] 값을 [!UICONTROL 사용자 지정 전환]으로 복사하면 `v1=D=c1`1=1이 표시됩니다. eVar1에서 이전에 요청에 있었던 값을 받은 경우 Adobe 서버는 처리 중에 [!UICONTROL 사용자 지정 트래픽 1]의 값을 [!UICONTROL 사용자 지정 전환 1] 값에 동적으로 복사합니다. 그 결과, [!UICONTROL 사용자 지정 트래픽 1]을 사용하여 처음에 전달한 값이 [!UICONTROL 사용자 지정 전환 1] 보고서에도 나타납니다.
 
@@ -67,13 +65,9 @@ Analytics에서 사용할 수 있는 동적 변수의 예입니다.
 
 `D=[variable]` 값은 따옴표로 묶어야 합니다. Analytics 코드에서는 이 값을 문자열로 취급합니다. 이 문자열을 Analytics로 전달하면 URL 인코딩됩니다(DigitalPulse Debugger 또는 유사한 유틸리티에서 요청을 볼 때). 이는 정상적인 현상입니다. Adobe 서버에서 `D=[variable]` 구성을 인식하고 이 문자열을 발견하면 적절한 값을 복사합니다.
 
->[!NOTE]
->
->이미지 요청을 사용하여 링크를 추적할 때 링크 URL/이름(pev2)을 정의하는 것처럼 링크의 유형(다운로드=lnk_d, 종료=lnk_e 또는 사용자 지정 링크=lnk_o)을 정의해야 합니다. 링크는 `<a href>` 태그 내에 코드를 삽입하여 수동으로 구현해야 합니다.
+> [!NOTE]이미지 요청을 사용하여 링크를 추적할 때 링크 URL/이름(pev2)을 정의하는 것처럼 링크의 유형(다운로드=lnk_d, 종료=lnk_e 또는 사용자 지정 링크=lnk_o)을 정의해야 합니다. 링크는 `<a href>` 태그 내에 코드를 삽입하여 수동으로 구현해야 합니다.
 
->[!NOTE]
->
->동적 변수는 쿠키(s_cc, s_sq, s_fid, s_vi 및 플러그인으로 설정된 모든 쿠키)와 함께 지원되지 않습니다. `D=<cookie value>`를 사용할 수 없습니다.
+> [!NOTE]동적 변수는 쿠키(s_cc, s_sq, s_fid, s_vi 및 플러그인으로 설정된 모든 쿠키)와 함께 지원되지 않습니다. `D=<cookie value>`를 사용할 수 없습니다.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
@@ -139,7 +133,7 @@ Analytics에서 사용할 수 있는 동적 변수의 예입니다.
   <tr> 
    <td colname="col1"> 
     <code class="syntax javascript">
-      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
     </code> </td> 
    <td colname="col2"> <p>prop1을 캠페인에 설정하는 4가지 방법 </p> </td> 
   </tr> 
