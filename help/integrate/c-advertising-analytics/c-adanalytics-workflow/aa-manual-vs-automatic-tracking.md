@@ -5,7 +5,7 @@ seo-title: 수동 모드 및 자동 모드 추적
 title: 수동 모드 및 자동 모드 추적
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: ab2d18a7aa75f29315b841e80a52419fb1bb404c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **타사(DoubleClick)`{lpurl}`**
 
-URL이 리디렉션을 통과하고 "unescapedlpurl" 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속되도록 문자열을 인코딩해야 합니다.
+URL이 리디렉션을 통과하고 "escape되지 않음" 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속되도록 문자열을 충분히 인코딩해야 합니다.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -116,7 +116,7 @@ s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 
 **타사(DoubleClick)`{lpurl}`**
 
-URL이 리디렉션을 통과하고 "unescapedlpurl" 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속되도록 문자열을 인코딩해야 합니다.
+URL이 리디렉션을 통과하고 "escape되지 않음" 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속되도록 문자열을 충분히 인코딩해야 합니다.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
