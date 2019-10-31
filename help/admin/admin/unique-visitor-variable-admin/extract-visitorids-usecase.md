@@ -1,18 +1,18 @@
 ---
 description: Data Warehouse는 방문자 ID 목록을 추출할 수 있는 기능을 제공합니다. 이러한 ID는 쿠키 ID가 아니고 전환 변수 중 하나에서 캡처한 ID입니다. 이 정보를 다른 방법으로 얻을 수도 있지만, 다음 방법을 사용하면 간단하게 Data Warehouse 요청을 생성할 수 있습니다.
 seo-description: Data Warehouse는 방문자 ID 목록을 추출할 수 있는 기능을 제공합니다. 이러한 ID는 쿠키 ID가 아니고 전환 변수 중 하나에서 캡처한 ID입니다. 이 정보를 다른 방법으로 얻을 수도 있지만, 다음 방법을 사용하면 간단하게 Data Warehouse 요청을 생성할 수 있습니다.
-seo-title: 사용 사례 - 방문자 ID 추출
+seo-title: 활용 사례 - 방문자 ID 추출
 solution: Analytics
-title: 사용 사례 - 방문자 ID 추출
+title: 활용 사례 - 방문자 ID 추출
 topic: 관리 도구
-uuid: ED 228334-619 C -43 D 7-B 781-A 18 AF 73 B 00 BB
+uuid: ed228334-619c-43d7-b781-a18af73b00bb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 사용 사례 - 방문자 ID 추출
+# 활용 사례 - 방문자 ID 추출
 
 Data Warehouse는 방문자 ID 목록을 추출할 수 있는 기능을 제공합니다. 이러한 ID는 쿠키 ID가 아니고 전환 변수 중 하나에서 캡처한 ID입니다. 이 정보를 다른 방법으로 얻을 수도 있지만, 다음 방법을 사용하면 간단하게 Data Warehouse 요청을 생성할 수 있습니다.
 
