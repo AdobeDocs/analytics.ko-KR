@@ -5,9 +5,9 @@ seo-title: 이벤트까지 남은 시간
 solution: Analytics
 title: 이벤트까지 남은 시간
 topic: 보고서
-uuid: 851 D 9 B 6 E -9 D 85-464 A -9 C 40-CE 525365 EA 7 D
+uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
