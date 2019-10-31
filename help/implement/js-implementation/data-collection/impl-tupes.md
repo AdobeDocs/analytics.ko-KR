@@ -7,8 +7,8 @@ solution: Analytics
 title: 다양한 구현 유형 추적
 topic: 개발자 및 구현
 uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
