@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,9 @@ The *`linkLeaveQueryString`* 변수는 [!UICONTROL 종료 링크] 및 [!UICONTRO
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |--- |--- |--- |--- |
-| N/A | N/A | Exit Links File Downloads | false |
+| N/A | N/A | 종료 링크 파일 다운로드 | false |
 
->[!NOTE]
->
->Setting `linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
+> [!NOTE]`linkLeaveQueryString=true` 를 설정하면 모든 종료 링크 및 다운로드 링크에 대한 모든 쿼리 문자열 매개 변수가 포함됩니다.
 
 ## 구문
 
@@ -60,5 +58,5 @@ s.linkLeaveQueryString=true
 
 ## 함정, 질문 및 팁
 
-* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
-* The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
+* `s.linkLeaveQueryString=true`를 설정하면 모든 종료 링크 및 다운로드 링크에 대한 모든 쿼리 문자열 매개 변수가 포함됩니다.
+* `linkLeaveQueryString` 변수는 기록된 페이지 URL, 방문자 클릭 맵 또는 [!UICONTROL 경로] 보고서에 영향을 주지 않습니다.
