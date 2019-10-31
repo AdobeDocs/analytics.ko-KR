@@ -5,7 +5,7 @@ seo-title: Analytics 변수의 데이터 개인 정보 레이블
 title: Analytics 변수의 데이터 개인 정보 레이블
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Adobe Analytics 데이터 개인정보 보호 구현은 ID 데이터, 민감한 
 
 ## DULE 레이블 {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE]
->
->데이터 사용 레이블 지정 및 시행(DULE 파섹) 프레임워크는 모든 Adobe 솔루션/서비스/플랫폼에서 Adobe ExPERIENCE Cloud의 데이터에 대한 메타데이터를 캡처, 전달 및 사용할 수 있는 일관된 방법을 제공하도록 설계되었습니다. 메타데이터를 통해 데이터 제어자는 개인 정보에 해당하는 데이터, 중요 데이터, 데이터와 연관된 계약 제한 사항을 나타낼 수 있습니다. 이 초기 릴리스에서는 Analytics가 데이터 개인 정보와 관련된 DULE 레이블만 노출됩니다. 다른 Adobe 제품은 DULE 레이블에 대한 지원을 구현하므로 이후 릴리스에서는 제품 간에 공유되는 데이터가 법적으로 허용된 방식으로만 사용되도록 하는 계약 레이블과 추가 중요 데이터 레이블이 도입될 것입니다.
+> [!NOTE] DULE(Data Usage Labeling &amp; Enforcement) 프레임워크는 Adobe Experience Cloud에서 데이터에 대한 메타데이터를 캡처, 통신 및 사용하는 동일한 방법을 모든 Adobe 솔루션/서비스/플랫폼에 제공하도록 설계되었습니다. 메타데이터를 통해 데이터 제어자는 개인 정보에 해당하는 데이터, 중요 데이터, 데이터와 연관된 계약 제한 사항을 나타낼 수 있습니다. 이 초기 릴리스에서는 Analytics가 데이터 개인 정보와 관련된 DULE 레이블만 노출됩니다. 다른 Adobe 제품은 DULE 레이블에 대한 지원을 구현하므로 이후 릴리스에서는 제품 간에 공유되는 데이터가 법적으로 허용된 방식으로만 사용되도록 하는 계약 레이블과 추가 중요 데이터 레이블이 도입될 것입니다.
 
 ## ID 데이터 레이블(DULE) {#identity-data-labels}
 
@@ -212,7 +210,7 @@ ID 데이터의 "I" 레이블은 특정 개인을 식별하거나 특정 개인�
 
 로그인 회사의 모든 보고서 세트에 있는 다른 변수에 ID 레이블을 이전에 할당한 경우 이러한 기존 네임스페이스 중 하나를 선택할 수 있습니다. 이 변수에 이 네임스페이스로 이미 레이블이 지정된 다른 변수와 동일한 유형의 ID가 포함되어 있고 요청을 제출할 때 이 변수를 모두 검색하려면 네임스페이스를 다시 사용해야 합니다.
 
-1. **[!UICONTROL 네임스페이스 선택]을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.**
+1. **[!UICONTROL 네임스페이스 선택]**&#x200B;을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.
 1. **[!UICONTROL 적용을 클릭합니다]**.
 
 ![](assets/namespace.png)
@@ -221,11 +219,11 @@ ID 데이터의 "I" 레이블은 특정 개인을 식별하거나 특정 개인�
 
 새 네임스페이스를 정의할 수도 있습니다. 네임스페이스 문자열을 영숫자와 밑줄, 대시 및 공백으로 제한하는 것이 좋습니다. 이 문자열은 소문자로 변환됩니다.
 
-1. **[!UICONTROL 네임스페이스 선택]을 클릭하고 네임스페이스 제목을 입력합니다.**
+1. **[!UICONTROL 네임스페이스 선택]**&#x200B;을 클릭하고 네임스페이스 제목을 입력합니다.
 
    ![](assets/namespace2.png)
 
-1. **[!UICONTROL Enter]키를 눌러 이 네임스페이스를 추가합니다.** 현재는 [적용] 단추만 활성화됩니다.
+1. **[!UICONTROL Enter]** 키를 눌러 이 네임스페이스를 추가합니다. 현재는 적용 단추만 활성화됩니다.
 1. **[!UICONTROL 적용을 클릭합니다]**.
 
 네임스페이스로 지정하는 문자열은 데이터 개인 정보 API를 통해 요청을 제출할 때 "namespace" 매개 변수의 값과 사용해야 하는 문자열과 같습니다. 그러면 이 요청은 Adobe Analytics가 이 네임스페이스를 공유하는 모든 보고서 세트의 모든 변수에서 요청으로 지정한 ID를 검색하도록 합니다.
@@ -244,7 +242,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
 
 다른 예로는 가끔 eVar1을 통해 전송되는 CRM ID와 가끔 prop7을 통해 전송되는 CRM ID가 있을 수 있습니다. 그런 경우 eVar1의 값(있는 경우)을 eVar3에 복사하는 처리 규칙이 있습니다. 그렇지 않으면 prop7의 값을 eVar3로 복사합니다. 이 시나리오에서는 eVar3에 항상 CRM ID가 포함되므로 eVar3에만 ID-PERSON 레이블이 필요합니다.
 
-> [!CAUTION] 네임스페이스 "visitorId" 및 "customVisitorId"는 Analytics 이전 추적 쿠키와 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 지정 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
+> [!CAUTION] 네임스페이스 "visitorId"와 "customVisitorId"는 Analytics 이전 추적 쿠키와 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 지정 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -335,7 +333,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
    <td colname="col1"> <p>데이터 처리 차원 </p> </td> 
    <td colname="col2"> <p>사용자 지정 방문자 ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>ID 또는 DEL 레이블(없음으로 설정)은 제거할 수 없지만, 사용자 지정 ID 구현에 따라 DEVICE 또는 PERSON 변형으로 변경할 수 있습니다. </p> <p>사용자 지정 방문자 ID 파섹 </p> </td> 
+   <td colname="col4"> <p>ID 또는 DEL 레이블(없음으로 설정됨)을 제거할 수 없지만, 사용자 지정 ID 구현에 따라 DEVICE 또는 PERSON 변형으로 변경할 수 있습니다. </p> <p>사용자 지정 방문자 ID 파섹 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -438,7 +436,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud ID 파섹 방문자 ID 및 MCID와 마찬가지로 쿠키에서 채워집니다. 다른 ID가 삭제될 때마다 히트에서 삭제해야 합니다. 자세한 내용은 해당 변수에 대한 설명을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> Adobe Advertising Cloud ID는 수정할 수 없는 DEL-DEVICE 레이블이 있는 솔루션 변수입니다. 방문자 ID 및 MCID와 마찬가지로 쿠키에서 채워집니다. 다른 ID가 삭제될 때마다 히트에서 삭제해야 합니다. 자세한 내용은 해당 변수에 대한 설명을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
