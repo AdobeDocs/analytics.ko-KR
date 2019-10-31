@@ -9,7 +9,7 @@ title: 사용자 및 그룹 권한 변경 사항
 topic: 관리 도구
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]**
 
->[!NOTE]
->
->사용 가능한 권한 조합의 수가 많기 때문에 모든 권한 조합에서 사용할 수 있는 모든 API 메서드를 설명하는 설명서를 제공할 수 없습니다. 일반적으로 웹 서비스 액세스 권한이 부여된 비 관리자 사용자에게는 API 메서드에 대한 읽기 액세스 권한만 있으며, 쓰기 액세스 권한은 없습니다.
+> [!NOTE] 사용 가능한 권한 조합의 수가 많기 때문에 모든 권한 조합에서 사용할 수 있는 모든 API 메서드를 설명하는 설명서를 제공할 수 없습니다. 일반적으로 웹 서비스 액세스 권한이 부여된 비 관리자 사용자에게는 API 메서드에 대한 읽기 액세스 권한만 있으며, 쓰기 액세스 권한은 없습니다.
 
 API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때문에, 인터페이스(Adobe Admin Console)에서 관리자가 특정 비 관리자 사용자에게 부여한 모든 사용 권한은 사용자가 API에서 가진 권한과 동일합니다.
 
@@ -128,9 +126,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
 
 다음 표에는 회사의 상태에 따라 작업 및 작업이 발생할 수 있는 위치가 나열되어 있습니다.
 
->[!NOTE]
->
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. 이메일 초대를 수락하지 않으면 사용자는 여전히 Analytics 사용자이며 관리 콘솔에서 관리할 수 없습니다. (단, 마이그레이션에서 [Enterprise 또는 페더레이션된 ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html)를 사용하는 경우는 예외입니다. 이 경우 관리자가 사용자별로 사용자를 마이그레이션하면 사용자가 마이그레이션됩니다.)
+> [!NOTE] A *`migrated user`* 및 Experience Cloud 가입 이메일 초대를 수락한 사용자를 *`Experience Cloud user`* 참조하십시오. 이메일 초대를 수락하지 않으면 사용자는 여전히 Analytics 사용자이며 관리 콘솔에서 관리할 수 없습니다. (단, 마이그레이션에서 [Enterprise 또는 페더레이션된 ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html)를 사용하는 경우는 예외입니다. 이 경우 관리자가 사용자별로 사용자를 마이그레이션하면 사용자가 마이그레이션됩니다.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
