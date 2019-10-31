@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 분류
 title: FTP 가져오기
 topic: 관리 도구
-uuid: a 914970 d-ba 02-4111-9 dcf -06448 f 71 b 9 f 3
+uuid: a914970d-ba02-411-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## FTP 가져오기 {#concept_2F965BE873254546A61FB755F25299FD}
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기를]**&#x200B;참조하십시오.
+**[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기]**.
 
 다음 권장 한계를 고려해야 합니다.
 
@@ -36,11 +36,9 @@ Adobe에서는 보고서 세트에서 특정 변수나 보고서에 대해 초�
 
 월 고유 수를 초과하는 경우, 초과한 고유 값에 해당하는 분류 데이터는 보고에 표시되지 않습니다. Data Warehouse 또는 Ad Hoc Analysis에서 해당 분류를 확인할 수 있습니다.
 
->[!NOTE]
->
->분류 데이터 파일을 처리하는 데 필요한 시간은 파일 크기와 Adobe 서버에서 이미 처리되는 파일의 현재 수에 따라 다릅니다. 데이터 파일 처리에 걸리는 시간은 보통 72시간 이내입니다.
+> [!NOTE] 분류 데이터 파일을 처리하는 데 필요한 시간은 파일 크기와 Adobe 서버에서 이미 처리되는 파일의 현재 수에 따라 다릅니다. 데이터 파일 처리에 걸리는 시간은 보통 72시간 이내입니다.
 
-FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. 자세한 내용은 [FTP 계정 만들기](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## FTP를 통해 분류 가져오기 {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -54,7 +52,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기를 클릭합니다]**.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
 1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
 1. FTP 액세스 정보(호스트, 로그인, 암호)를 사용하여 선택하려는 FTP 클라이언트를 사용하는 FTP 서버에 액세스합니다.
@@ -77,14 +75,14 @@ t_create_an_ftp_account.xml
 
 Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/)를 참조하십시오.
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기를 클릭합니다]**.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
 1. **파일 가져오기** 탭에서 **[!UICONTROL 새로 추가를 클릭합니다]**.
 1.  FTP 계정 세부 사항을 지정합니다. 
 
    | 요소 | 설명 |
    |---|---|
-   | 이름 | FTP 계정 이름입니다. |
+   |  이름  | FTP 계정 이름입니다. |
    | 분류할 데이터 세트 | 드롭다운 목록에서 분류할 데이터 세트(마케팅 보고서 변수)를 선택합니다. |
    | 보고서 세트 선택 | 선택한 데이터 세트를 분류하려는 보고서 세트를 선택합니다. 여러 개의 보고서 세트를 선택하려면, 선택한 보고서 세트의 각 분류가 일치해야 합니다. |
    | 충돌 시 데이터 덮어쓰기 | 이 옵션을 선택하여 중복 데이터를 덮어씁니다. 이 옵션은 기존의 분류를 업로드하려는 경우에 유용합니다. 다른 분류를 추가하는 경우에는 이 옵션을 사용하지 않는 것이 좋습니다. |
