@@ -1,13 +1,13 @@
 ---
 description: 사용할 수 있는 열을 결정하고 필요에 따라 정렬할 수 있습니다.
-keywords: 데이터 피드; 열; 열 구성
+keywords: 데이터 피드;열;열 구성
 seo-description: 사용할 수 있는 열을 결정하고 필요에 따라 정렬할 수 있습니다.
 seo-title: 열 정렬
 solution: Analytics
 title: 열 정렬
-uuid: 97861 AFF -6395-48 DA -8 EB 4-AEA 67 CD 74005
+uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
