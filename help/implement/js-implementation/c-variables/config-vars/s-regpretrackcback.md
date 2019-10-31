@@ -5,12 +5,12 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# s.registerPreTrackCallback and s.registerPostTrackCallback
+# s.registerPreTrackCallback 및 s.registerPostTrackCallback
 
 이 함수들은 매개 변수로서 콜백(기능)을 사용하고 해당 기능에 대한 매개 변수를 사용합니다. 예:
 
