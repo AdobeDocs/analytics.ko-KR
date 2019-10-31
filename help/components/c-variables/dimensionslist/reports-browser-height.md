@@ -5,9 +5,9 @@ seo-title: 브라우저 높이
 solution: Analytics
 title: 브라우저 높이
 topic: 보고서
-uuid: 4 B 824167-4 A 4 E -40 E 9-BF 00-957655 BBDB 3 D
+uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Adobe Analytics에서는 방문의 첫 번째 히트에 해당하는 브라우저 높이 및 너비만 사용합니다. 나머지 방문 횟수는 동일한 방문에 기여되지 않습니다.
 
-자세한 내용은 [브라우저 너비/높이](../../../components/c-variables/dimensionslist/browser-width.md#concept_5354E211256B40C1B47599FCC48ABA18).
+자세한 내용은 브라우저 너비/ [높이를 참조하십시오](../../../components/c-variables/dimensionslist/browser-width.md#concept_5354E211256B40C1B47599FCC48ABA18).
