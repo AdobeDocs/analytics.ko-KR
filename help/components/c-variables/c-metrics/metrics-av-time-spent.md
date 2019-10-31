@@ -5,9 +5,9 @@ seo-title: 평균 체류 시간
 solution: Analytics
 title: 평균 체류 시간
 topic: 지표
-uuid: 593 D 05 A 4-806 A -4 DEF-A 47 C -926817 CCFFAD
+uuid: 593d05a4-806a-4def-a47c-926817ccffad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
