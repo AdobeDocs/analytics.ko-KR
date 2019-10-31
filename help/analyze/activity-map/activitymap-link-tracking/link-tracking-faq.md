@@ -1,24 +1,26 @@
 ---
-description: '[!DNL Activity Map]의 링크 추적에 대한 FAQ입니다.'
-seo-description: '[!DNL Activity Map]의 링크 추적에 대한 FAQ입니다.'
+description: Activity Map에서의 링크 추적에 대한 FAQ.
+seo-description: Activity Map에서의 링크 추적에 대한 FAQ.
 seo-title: 링크 추적 FAQ
 solution: Analytics
 title: 링크 추적 FAQ
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 링크 추적 FAQ
 
-Frequently asked questions about link tracking in [!DNL Activity Map].
+Activity Map에서의 링크 추적에 대한 FAQ.
 
-> [!CAUTION] 추적을 켜면 [!DNL Activity Map] 개인 식별 정보(PII) 데이터를 **수집할 수** **있습니다.** 이 데이터는 단독으로 사용하거나 다른 정보와 함께 사용하여 개인을 식별, 문의 및 검색할 수 있으며 컨텍스트에서 개별적으로 식별할 수도 있습니다.
+>[!CAUTION]
+>
+>**Activity Map 추적을 켜면 개인 식별 정보(PII) 데이터를 수집할**&#x200B;수 있습니다.이 데이터는 단독으로 또는 다른 정보와 함께 사용하여 한 사람을 식별, 연락처 또는 찾거나 컨텍스트에서 개인을 식별할 수 있습니다.
 
-Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
+다음은 Activity Map 추적을 사용하여 PII 데이터를 수집할 수 있는 알려진 몇 가지 경우입니다.
 
 * `Mailto` 링크를 클릭합니다. mailto 링크는 이메일을 보내기 위해 컴퓨터에서 기본 메일 클라이언트를 활성화하는 HTML 링크의 유형입니다.
 * `User ID` 사용자가 로그인하면 웹 사이트의 머리글과 바닥글에 표시될 수 있는 링크.
@@ -29,7 +31,7 @@ Here are some known cases where PII data might be collected using [!DNL Activity
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Q: 언제 링크 추적이 발생합니까?</b> <p> </p> </td> 
-   <td colname="col2"> A:[!DNL Activity Map] 링크 및 영역 식별은 사용자가 페이지를 클릭할 때 발생합니다. </td> 
+   <td colname="col2"> A: Activity Map 링크 및 영역 식별은 사용자가 페이지를 클릭하면 수행됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Q: 기본적으로 추적되는 항목은 무엇입니까?</b> <p> </p> </td> 
@@ -40,20 +42,20 @@ Here are some known cases where PII data might be collected using [!DNL Activity
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">이것은 값 또는 하위 텍스트가 있는 INPUT 태그 또는 SUBMIT 단추입니까? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">이것은 유형 IMAGE 및 src 속성이 있는 INPUT 태그입니까? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">이것은 &lt;Button&gt;입니까? </li> 
-    </ul> <p>위의 질문 중 하나라도 답이 <b>예</b>이면, 요소가 링크로 처리되고 추적됩니다. </p> <p>중요: 속성 유형이 "button"인 단추 태그는 AppMeasurement에서 링크로 간주되지 않습니다. 단추 태그에서 "type='button'"을 제거하고 role="button" 또는 submit="button"을 대신 추가합니다. </p> <p>중요:"#"로 시작하는 href가 있는 앵커 태그는 AppMeasurement의 내부 대상 위치로 간주되며, 링크를 벗어나지 않습니다(페이지를 나가지 않기 때문에). 기본적으로 [!DNL Activity Map]은 이러한 내부 대상 위치를 추적하지 않습니다. 사용자를 새 페이지로 이동하는 링크만 추적합니다.</p></td> 
+    </ul> <p>위의 질문 중 하나라도 답이 <b>예</b>이면, 요소가 링크로 처리되고 추적됩니다. </p> <p>중요: 속성 유형이 "button"인 단추 태그는 AppMeasurement에서 링크로 간주되지 않습니다. 단추 태그에서 "type='button'"을 제거하고 role="button" 또는 submit="button"을 대신 추가합니다. </p> <p>중요:"#"로 시작하는 href가 있는 앵커 태그는 AppMeasurement의 내부 대상 위치로 간주되며, 링크를 벗어나지 않습니다(페이지를 나가지 않기 때문에). 기본적으로 Activity Map은 이러한 내부 대상 위치를 추적하지 않습니다. 사용자를 새 페이지로 이동하는 링크만 추적합니다.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Q:[!DNL Activity Map]은 다른 시각적 HTML 요소를 어떻게 추적합니까?</b> </td> 
+   <td colname="col1"> <b>Q: Activity Map은 어떻게 다른 시각적 HTML 요소를 추적합니까?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via the <code> s.tl() </code> function</b> <p>s.tl 호출을 통해 클릭이 발생한 경우 [!DNL Activity Map]도 이 클릭 이벤트를 받고 linkName 문자열 변수가 발견되었는지 확인합니다. s.tl을 실행하는 동안 해당 linkName은 [!DNL Activity Map] 링크 ID로 설정됩니다. s.tl() 호출을 발생시킨 클릭 요소는 영역을 결정하는 데 사용됩니다. 예: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via the <code> s.tl() </code> function</b> <p>s.tl 호출을 통해 클릭이 발생하면, Activity Map에서는 이 클릭 이벤트를 받고 linkName 문자열 변수가 발견되었는지 판단하게 됩니다. s.tl을 실행하는 동안, 해당 linkName은 Activity Map 링크 ID로 설정됩니다. s.tl() 호출을 발생시킨 클릭 요소는 영역을 결정하는 데 사용됩니다. 예: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
      <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>변수 <code> s_objectID </code> 사용</b> <p>예: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-       </code> </p> <p>중요: [!DNL Activity Map]에서 s_objectID를 사용할 때는 후행 세미콜론(;)이 필요합니다. </p> </li> 
+       </code> </p> <p>중요: Activity Map에서 s_objectID를 사용할 때에는 끝에 추가하는 세미콜론(;)이 있어야 합니다. </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
