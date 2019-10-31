@@ -1,26 +1,24 @@
 ---
 description: 이 기능을 사용하면 Report Builder 사용자 인터페이스에 액세스하지 않고도 일반 Excel 워크플로우 내에 Report Builder를 통합할 수 있습니다.
 seo-description: 이 기능을 사용하면 Report Builder 사용자 인터페이스에 액세스하지 않고도 일반 Excel 워크플로우 내에 Report Builder를 통합할 수 있습니다.
-seo-title: Microsoft Excel 함수에서 리포트 빌더 기능 호출
+seo-title: Microsoft Excel 함수에서 Report Builder 기능 호출
 solution: Analytics
-title: Microsoft Excel 함수에서 리포트 빌더 기능 호출
+title: Microsoft Excel 함수에서 Report Builder 기능 호출
 topic: Report Builder
-uuid: 5342 CC 4 F -085 D -4 A 2 D-A 498-38 B 00 A 3 EF 4 D 3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Microsoft Excel 함수에서 리포트 빌더 기능 호출
+# Microsoft Excel 함수에서 Report Builder 기능 호출
 
 이 기능을 사용하면 Report Builder 사용자 인터페이스에 액세스하지 않고도 일반 Excel 워크플로우 내에 Report Builder를 통합할 수 있습니다.
 
 예를 들어, 다른 원본에서 Excel로 가져온 데이터를 기반으로 하는 입력 필터가 포함된 Report Builder 요청을 자동으로 새로 고치고 싶을 수 있습니다. 이제 string RefreshRequestsInCellsRange(..) 함수를 사용하여 이 작업을 수행할 수 있습니다. 모든 호출은 비동기 상태입니다. 즉, 결과를 즉시 반환하고 한 호출이 완전히 실행될 때까지 기다리지 않습니다.
 
->[!NOTE]
->
->이 기능을 사용하려면 리포트 빌더 5.0 이상이 설치되어 있어야 합니다.
+> [!NOTE] 이 기능이 작동하려면 리포트 빌더 5.0 이상이 설치되어 있어야 합니다.
 
 다음은 노출된 함수 목록을 포함하는 표입니다.
 
