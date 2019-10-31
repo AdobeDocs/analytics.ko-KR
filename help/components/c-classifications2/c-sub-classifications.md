@@ -1,25 +1,23 @@
 ---
-description: Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
-seo-description: Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
+description: Adobe Analytics는 단일 수준 및 여러 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
+seo-description: Adobe Analytics는 단일 수준 및 여러 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
 seo-title: 하위 분류 정보
 solution: Analytics
 subtopic: 분류
 title: 하위 분류 정보
 topic: 관리 도구
-uuid: 48 bd 7 fc 1-54 a 1-40 ef-bc 55-395338522 f 2 d
+uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 하위 분류 정보
 
-Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
+Adobe Analytics는 단일 수준 및 여러 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
 
->[!NOTE]
->
->하위 분류는 분류의 분류를 만드는 기능을 나타냅니다. 하지만 [!UICONTROL 계층] 보고서를 만들 때 사용하는 [!UICONTROL 분류 계층]과 같지는 않습니다. For more information about Classification hierarchies, see [Classification Hierarchies](classification-hierarchies.md).
+> [!NOTE] 하위 분류는 분류 분류를 만드는 기능을 나타냅니다. 하지만 [!UICONTROL 계층] 보고서를 만들 때 사용하는 [!UICONTROL 분류 계층]과 같지는 않습니다. 분류 계층에 대한 자세한 내용은 분류 계층을 [참조하십시오](classification-hierarchies.md).
 
 <!-- 
 
@@ -44,7 +42,7 @@ c_single-level_classifications.xml
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
- 데이터 파일에 대한 자세한 내용은 [분류 데이터 파일](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+ 데이터 파일에 대한 자세한 내용은 [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
 
 <!-- 
 
@@ -64,20 +62,18 @@ c_multiple-level_classifications.xml
 
 `<parent_name>^<child_name>`
 
-For more information about the data file format, see [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+데이터 파일 형식에 대한 자세한 내용은 분류 데이터 [파일을 참조하십시오](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
 
 예:
 
-| 키 | 속성 1 | 속성 1 &amp; amp; hat; 속성 1-1 | 속성 1 &amp; amp; hat; 속성 1-2 | 속성 2 |
+| 키 | 속성 1 | 속성 1&amp;모자;속성 1-1 | 속성 1&amp;모자;속성 1-2 | 속성 2 |
 |---|---|---|---|---|
 | 123 | ABC | 녹색 | 작음 | A12B |
 | 456 | DEF | 빨간색 | 큼 | C3D4 |
 
 복수 수준 분류의 파일 템플릿이 보다 복잡하지만 복수 수준 분류는 개별 수준을 개별 파일로 업로드할 수 있다는 장점이 있습니다. 이 방법을 사용하면 시간이 지남에 따라 변경되는 분류 수준과 변경되지 않는 분류 수준으로 데이터를 그룹화함으로써 주기적으로(일일, 주별 등) 업로드해야 하는 데이터의 양을 최대한 줄일 수 있습니다.
 
->[!NOTE]
->
->If the [!UICONTROL Key] column in a data file is blank, Adobe automatically generates unique keys for each data row.  데이터 파일을 두 번째 수준 또는 두 번째 수준 이상의 분류 파일로 업로드할 때 파일이 손상되지 않게 하려면 [!UICONTROL 키] 열의 각 행을 별표(*)로 채웁니다.
+> [!NOTE] 데이터 [!UICONTROL 파일의 키] 열이 비어 있으면 Adobe는 각 데이터 행에 대해 고유한 키를 자동으로 생성합니다.  데이터 파일을 두 번째 수준 또는 두 번째 수준 이상의 분류 파일로 업로드할 때 파일이 손상되지 않게 하려면 [!UICONTROL 키] 열의 각 행을 별표(*)로 채웁니다.
 
 문제 해결 도움말은 [일반적인 분류 업로드 문제](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues)를 참조하십시오.
 
@@ -89,14 +85,13 @@ c_classifications_example.xml
 
 ![](assets/sample-product-classifications.png)
 
->[!NOTE]
-제품 분류 데이터는 제품과 직접적으로 관련된 데이터 특성으로 제한됩니다. 이 데이터는 웹 사이트에서 제품이 분류되거나 판매되는 방식의 제한을 받지 않습니다. 판매 카테고리, 사이트 검색 노드 또는 판매 항목과 같은 데이터 요소는 제품 분류 데이터가 아닙니다. 그 대신, 이러한 요소는 보고서 전환 변수로 캡처됩니다.
+>[!NOTE] 제품 분류 데이터는 제품과 직접 관련된 데이터 속성으로 제한됩니다. 이 데이터는 웹 사이트에서 제품이 분류되거나 판매되는 방식의 제한을 받지 않습니다. 판매 카테고리, 사이트 검색 노드 또는 판매 항목과 같은 데이터 요소는 제품 분류 데이터가 아닙니다. 그 대신, 이러한 요소는 보고서 전환 변수로 캡처됩니다.
 
-이 제품 분류에 대한 데이터 파일을 업로드할 때 분류 데이터를 단일 또는 여러 파일로 업로드할 수 있습니다(아래 참조). 파일 1의 색상 코드와 파일 2의 색상 이름을 구분함으로써 새로운 색상 코드가 만들어질 때 색상 이름 데이터(몇 개의 행만일 수 있음)만 업데이트하면 됩니다. 이렇게 하면 색상 이름 (코드 및 amp,hat; 색상) 필드를 자주 업데이트하면 파일 1 이 생성되고 데이터 파일을 생성할 때 파일 크기와 복잡도가 줄어듭니다.
+이 제품 분류에 대한 데이터 파일을 업로드할 때 분류 데이터를 단일 또는 여러 파일로 업로드할 수 있습니다(아래 참조). 파일 1의 색상 코드와 파일 2의 색상 이름을 구분함으로써 새로운 색상 코드가 만들어질 때 색상 이름 데이터(몇 개의 행만일 수 있음)만 업데이트하면 됩니다. 이렇게 하면 자주 업데이트되는 파일 1에서 색상 이름(CODE&amp;Hat;COLOR) 필드를 제거할 수 있고 데이터 파일을 생성할 때 파일 크기와 복잡성을 줄일 수 있습니다.
 
 ## 제품 분류 - 단일 파일 {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| 키 | 제품 이름 | 제품 세부 사항 | 성별 | 크기 | 코드 | 코드 및 amp; hat; color |
+| 키 | 제품 이름 | 제품 세부 사항 | 성별 | 크기 | 코드 | CODE&amp;Hat;COLOR |
 |---|---|---|---|---|---|---|
 | 410390013 | 폴로-SS | 남성용 폴로 셔츠, 반팔(M,01) | M | M | 01 | 스톤색 |
 | 410390014 | 폴로-SS | 남성용 폴로 셔츠, 반팔(L,03) | M | L | 03 | 자주색 |
@@ -112,7 +107,7 @@ c_classifications_example.xml
 
 ## 제품 분류 - 다중 파일(파일 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| 키 | 코드 | 코드 및 amp; hat; color |
+| 키 | 코드 | CODE&amp;Hat;COLOR |
 |---|---|---|
 | * | 01 | 스톤색 |
 | * | 03 | 자주색 |
