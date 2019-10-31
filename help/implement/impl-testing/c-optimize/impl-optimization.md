@@ -8,8 +8,8 @@ subtopic: 문제 해결
 title: 최적화 개요
 topic: 개발자 및 구현
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ Analytics 배포는 세 가지 주요 단계로 구성됩니다.
 
 1. 라이브러리 파일은 Adobe 데이터 수집 서버에 이미지 요청을 수행합니다. 서버는 제출되는 데이터를 모으고, 1x1 투명 이미지를 방문자의 브라우저에 반환합니다. 이 세 번째 단계에서 총 페이지 다운로드 시간이 미미하게 증가합니다.
 
->[!NOTE]
->
->고객이 Analytics 오버헤드를 최소화하기 위해 단계를 더 추가할 수 있습니다.
+> [!NOTE] 고객이 Analytics 오버헤드를 최소화하기 위해 단계를 더 추가할 수 있습니다.
 
