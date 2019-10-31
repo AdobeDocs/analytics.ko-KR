@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 ## 구문 및 가능한 값
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 또는 동적 변수에 대한 사용자 지정 플래그 사용
@@ -35,7 +35,7 @@ s.dynamicVariablePrefix=".."
 ## 예
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 또는 동적 변수에 대한 사용자 지정 플래그 사용
