@@ -5,16 +5,16 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.charSet
 
-일반적으로 JavaScript 파일에서 설정되는 charSet 속성은 Analytics에서 저장 및 보고를 위해 들어오는 데이터를 UTF-8로 변환하는 데 사용됩니다.
+일반적으로 JavaScript 파일에서 설정된 charSet 속성은 Analytics가 수신되는 데이터를 저장 및 보고 목적으로 UTF-8로 변환하는 데 사용됩니다.
 
->[!N] 참고:charSet 속성은 데이터를 2바이트 보고서 세트로 보낼 때 필요하며 표준 보고서 세트와 함께 사용해서는 안 됩니다. 표준 ISO 보고서 세트와 함께 charSet 속성을 사용하면 변수가 잘리거나 예기치 않는 문자 변환이 일어날 수 있습니다.
+>[!N참고:] charSet 속성은 데이터를 멀티바이트 보고서 세트로 전송할 때 필요하며, 표준 보고서 세트와 함께 사용해서는 안 됩니다. 표준 ISO 보고서 세트와 함께 charSet 속성을 사용하면 변수가 잘리거나 예기치 않는 문자 변환이 일어날 수 있습니다.
 
 구문은 약간 다를 수 있어도 charSet 속성 값은 META 태그 또는 http 헤더 안의 웹 페이지 인코딩과 일치해야 합니다. META 태그는 인코딩에 별칭을 사용할 수 있지만 charSet 값은 인코딩의 기본(또는 정식) 이름을 사용해야 합니다.
 
@@ -28,15 +28,15 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
-인코딩과 별칭이 많이 있으므로 위의 표에 나타나지 않는 경우 구현 컨설턴트 또는 Adobe 고객 지원 센터에 문의하여 올바른 charSet 값을 확인하십시오.
+다양한 인코딩과 별칭이 존재하므로 위 표에 없는 인코딩에 대해서는 구현 컨설턴트 또는 Adobe ClientCare에 문의하여 올바른 charSet 값을 확인해야 합니다.
 
-If a site has different web encodings on different pages, or a single JavaScript file is used for multiple sites, the charSet property can be set to a default value in the JavaScript file and then reset on specific pages as needed to override the default; for example, `s.charSet="UTF-8"` or `s.charSet="SJIS"`.
+한 사이트의 여러 페이지에서 서로 다른 웹 인코딩을 사용하는 경우 또는 여러 사이트에 한 가지 JavaScript 파일을 사용하는 경우 JavaScript 파일에서 charSet 속성을 기본값으로 설정한 다음 특정 페이지에서 필요할 때마다 재설정하여 기본값을 대체할 수 있습니다(예: `s.charSet="UTF-8"` 또는 `s.charSet="SJIS"`).
 
 공백이 아닌 모든 charSet 매개 변수 값에 따라 데이터가 저장을 위해 UTF-8로 변환됩니다. 128-255 범위의 문자가 적절한 UTF-8 2바이트 시퀀스로 변환되어 저장됩니다. 이러한 문자는 표준 보고서 세트에서 올바로 표시되지 않습니다. 따라서 charSet 속성을 표준 보고서 세트와 함께 사용해서는 안 됩니다.
 
 마찬가지로 공백인 charSet 매개 변수는 데이터 변환 프로세스를 무시하고 128-255 범위의 모든 문자를 1바이트로 저장합니다. 이러한 문자는 2바이트 보고서 세트에서 올바로 표시되지 않는데, 그 이유는 해당 문자의 1바이트 코드가 유효한 UTF-8이 아니기 때문입니다. 따라서 charSet 매개 변수는 항상 2바이트 보고서 세트와 함께 사용해야 합니다. 또한 웹 페이지 인코딩에 적합한 값을 사용해야 합니다.
 
-If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. 그러나 페이지의 변수에 비ASCII 문자가 포함되어 있으면 *`charSet`* 변수를 채워야 합니다.
+*`charSet`* 변수에 잘못된 값이 들어 있을 경우 다른 모든 변수의 데이터가 잘못 변환됩니다. 페이지의 JavaScript 변수(예: *`pageName`*, [!UICONTROL prop1] 또는 *`channel`*)에 ASCII 문자만 포함되어 있는 경우 *`charSet`*&#x200B;을 정의할 필요가 없습니다. 하지만 페이지의 변수에 ASCII 이외 문제가 포함되어 있으면 *`charSet`* 변수를 채워야 합니다.
 
 ## 매개 변수
 
