@@ -6,8 +6,8 @@ seo-title: Adobe Analytics 도구에 대한 FAQ
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 도구에 대한 FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. 자동 구성 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> DTM을 통해 Adobe Analytics를 구현할 때 플러그인을 어디에 추가해야 합니까? </p> </td> 
-   <td colname="col2"> <p> DTM을 사용하여 <code>s_code</code>를 수동으로 호스팅하는 경우 일반적인 Adobe Analytics 구현의 경우처럼 호스팅된 <code>s_code</code>와 동일한 편집기에 플러그인을 추가할 수 있습니다. </p> <p>그러나 도구 설정의 <span class="term">페이지 코드 사용자 지정</span> 섹션 내에 플러그인을 편집기에 배치하는 옵션도 있습니다. 두 가지 구현 방법의 효과는 같습니다. </p> </td> 
+   <td colname="col2"> <p> DTM을 사용하여 <code> s_code</code>를 수동으로 호스팅하는 경우 일반적인 Adobe Analytics 구현의 경우처럼 호스팅된 <code> s_code</code>와 동일한 편집기에 플러그인을 추가할 수 있습니다. </p> <p>그러나 도구 설정의 <span class="term">페이지 코드 사용자 지정</span> 섹션 내에 플러그인을 편집기에 배치하는 옵션도 있습니다. 두 가지 구현 방법의 효과는 같습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>새 버전의 도구에서 구성을 변경할 경우 프로덕션에 게시하기 전에 스테이징에서 도구를 테스트할 수 있습니까? </p> </td> 
