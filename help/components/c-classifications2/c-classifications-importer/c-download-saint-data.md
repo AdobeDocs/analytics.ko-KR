@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 분류
 title: 분류 템플릿
 topic: 관리 도구
-uuid: 4 EDD 411 B -164 C -4 B 4 D-A 872-B 57 A 3163 CA 72
+uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 1986561a83f22619b627d754376f7e936902a737
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 (선택 사항) 분류를 마케팅 보고서로 가져오기 전에, 분류 데이터 파일을 만드는 데 도움이 되는 템플릿을 다운로드할 수 있습니다. 데이터 파일은 원하는 분류를 열 머리글로 사용한 다음, 적합한 분류 머리글 아래에 보고 데이터 세트를 구성합니다.
 
-## Classification template {#concept_0F06847AD8D042F5BA818AE3C37E2417}
+## 분류 템플릿 {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
 (선택 사항) 분류를 마케팅 보고서로 가져오기 전에, 분류 데이터 파일을 만드는 데 도움이 되는 템플릿을 다운로드할 수 있습니다. 데이터 파일은 원하는 분류를 열 머리글로 사용한 다음, 적합한 분류 머리글 아래에 보고 데이터 세트를 구성합니다.
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기를]**&#x200B;참조하십시오.
+**[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기]**.
 
 | 요소 | 설명 |
 |---|---|
@@ -33,23 +33,19 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 템플릿은 각 분류와 관련된 데이터를 포함하지 않고 특정 데이터 세트의 현재 정의된 분류 열 제목을 포함합니다.
 
->[!NOTE]
->
->템플릿 메서드는 분류 데이터 다운로드를 단일 보고서 세트로 제한합니다.
+> [!NOTE] 템플릿 메서드는 분류 데이터 다운로드를 단일 보고서 세트로 제한합니다.
 
-For more information about the data file structure, see [About Classification Data Files](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+데이터 파일 구조에 대한 자세한 내용은 분류 데이터 [파일 정보를 참조하십시오](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
 
 ## 분류 데이터 템플릿 다운로드(옵션) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 이 템플릿은 분류에 대해 따라야 할 파일 형식을 제공합니다.
 
->[!NOTE]
->
->템플릿 메서드는 데이터 다운로드를 단일 보고서 세트로 제한합니다.
+> [!NOTE] 템플릿 메서드는 데이터 다운로드를 단일 보고서 세트로 제한합니다.
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기를 클릭합니다]**.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
-1. ****&#x200B;다운로드를 클릭합니다.
+1. Click **[!UICONTROL Download]**.
 1.  템플릿 파일을 로컬 시스템에 저장합니다. 
 
    The template file is a tab-delimited data file ( [!DNL .tab] filename extension) that most spreadsheet applications support.
