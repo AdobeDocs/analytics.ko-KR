@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 패널 개요
 title: 패널 개요
-uuid: 480700 E 6-332 E -44 F 2-A 486-E 3 D 1852 CDDBC
+uuid: 480700e6-332e-44f2-a486-e3d1852cdbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
