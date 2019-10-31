@@ -8,7 +8,7 @@ title: 조정/공유 개요
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
    ![](assets/share_component.png)
 
 1. 수신자를 추가합니다.
-1. (옵션) 모든 수신자와 포함된 구성 요소(세그먼트, 계산된 지표 및 날짜 범위)를 공유할 수 있습니다. 이러한 구성 요소가 공유되면 수신자 작업 영역의 구성 요소 드롭다운에 표시됩니다.
+1. (옵션) 모든 수신자와 포함된 구성 요소(세그먼트, 계산된 지표 및 날짜 범위)를 공유할 수 있습니다. 공유 후 이러한 구성 요소는 수신자의 작업 영역의 구성 요소 드롭다운에 표시됩니다.
 
    >[!IMPORTANT]
    >
