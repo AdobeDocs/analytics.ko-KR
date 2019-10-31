@@ -5,10 +5,10 @@ seo-title: 마케팅 채널 시작
 solution: Analytics
 subtopic: 마케팅 채널
 title: 마케팅 채널 시작
-topic: Reports & Analytics
-uuid: D 38 CB 0 E 5-0 B 75-4690-B 1 DA-FEA 2 FDFF 9 E 7 D
+topic: Reports and Analytics
+uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,17 +34,15 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 
 권장 채널 목록은 [FAQ 및 예제](../../components/c-marketing-channels/c-faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44)를 참조하십시오. 채널을 만들 때 더 쉽게 활성화 및 정의할 수 있도록 사용할 채널 목록을 만듭니다.
 
-![](assets/step2_icon.png)[!UICONTROL 마케팅 채널 관리자] 페이지에 마케팅 채널을 추가합니다.
+![](assets/step2_icon.png) 마케팅 채널 관리자 [!UICONTROL 페이지에서 마케팅 채널을] 추가합니다.
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
 See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.md#concept_C832E652974F419C82A4FAD9076C3197) for important prerequisite and conceptual information.
 
-See [Add marketing channels](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) for the procedure.
+절차는 [마케팅 채널](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) 추가를 참조하십시오.
 
->[!NOTE]
->
->If Marketing Channels have not been previously configured, the [automatic setup](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) displays. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
+> [!NOTE] 마케팅 채널이 이전에 구성되지 않은 경우 [자동 설정이](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
 
 ![](assets/step3_icon.png)[!UICONTROL  마케팅 채널 처리 규칙] 페이지에서 각 채널의 규칙을 구성하거나 세분화합니다.
 
