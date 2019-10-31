@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 처리 규칙
 title: 보고서에서 값 정리
 topic: 관리 도구
-uuid: FCD 72 AFC -3 A 3 C -47 A 9-A 5 E 4-53389 DBA 7 D 83
+uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
