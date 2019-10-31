@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map] 내에 여러 세그먼트 필터를 적용할 수 있습니다.'
-seo-description: '[!DNL Activity Map] 내에 여러 세그먼트 필터를 적용할 수 있습니다.'
+description: Activity Map에서 여러 세그먼트 필터를 적용해봅니다.
+seo-description: Activity Map에서 여러 세그먼트 필터를 적용해봅니다.
 seo-title: 고객 세그멘테이션
 solution: Analytics
 title: 고객 세그멘테이션
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 고객 세그멘테이션
 
-Lets you apply a multiple-segment filter within [!DNL Activity Map].
+Activity Map에서 여러 세그먼트 필터를 적용해봅니다.
 
 > [!NOTE] Adobe Analytics 플랫폼에서는 실시간 데이터 세그먼테이션을 지원하지 않으므로 세그먼트 컨트롤은 표준 모드에서만 사용할 수 있습니다.
 
@@ -28,4 +28,4 @@ Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+선택한 세그먼트는 Activity Map에 있는 모든 Analytics 보고서, 즉, 오버레이 및 **[!UICONTROL 페이지에 있는 링크 수]** 및 **페이지 상세정보]보고서에 적용됩니다.[!UICONTROL **
