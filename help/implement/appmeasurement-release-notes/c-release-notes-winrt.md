@@ -7,23 +7,19 @@ subtopic: 릴리스 노트
 title: WinRT for Windows 8
 topic: 개발자 및 구현
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # WinRT for Windows 8{#winrt-for-windows}
 
->[!NOTE]
->
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+> [!NOTE] 현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
 
-모바일 라이브러리는 [!DNL Developer Connection]에서 [다운로드](https://marketing.adobe.com/developer/ko_KR/get-started/mobile/c-measuring-mobile-applications)할 수 있습니다.
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
->[!NOTE]
->
->[!DNL Windows] 8용 [!DNL WinRT] SDK가 [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK로 대체되었습니다. 이 SDK에 대한 추가 개발 예정은 없습니다.
+> [!NOTE][!DNL WinRT] 8용 [!DNL Windows] SDK가 [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK로 대체되었습니다. 이 SDK에 대한 추가 개발 예정은 없습니다.
 
 ## 버전 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
