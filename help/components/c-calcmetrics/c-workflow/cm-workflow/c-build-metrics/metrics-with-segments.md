@@ -3,9 +3,9 @@ description: 개별 지표에 대한 세그먼트화는 동일한 보고서 내�
 seo-description: 개별 지표에 대한 세그먼트화는 동일한 보고서 내에서 지표 비교를 수행할 수 있도록 해줍니다. (파생 지표만 해당)
 seo-title: 세그먼트화된 지표
 title: 세그먼트화된 지표
-uuid: 88 F 9829 B -76 E 4-4598-9494-084 A 91602 BC 1
+uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >[세그먼트 빌더에서도](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)수행할 수 있지만 계산된 지표 빌더에서 차원을 사용할 수 있게 함으로써 워크플로우를 간소화했습니다.
+   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 미국 방문자의 탐색 행동과 해외 방문자의 탐색 행동 간의 가장 큰 차이를 한눈에 보려는 경우, 서로 백분율을 빼는 다른 지표를 만들 수 있습니다. 그렇게 하려면, 두 지표 세트를 둘러싸는 괄호로서 효과적으로 동작하는 컨테이너 기능을 사용할 수 있습니다.
 
-1. [!UICONTROL 정의] 캔버스에서 **[!UICONTROL 추가]** &gt; **[!UICONTROL 컨테이너를 클릭합니다]**.
+1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
 
    ![](assets/cm_add_container.png)
 
