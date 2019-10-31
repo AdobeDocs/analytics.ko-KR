@@ -8,7 +8,7 @@ title: Workspace 프로젝트 만들기
 topic: Reports and Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    >[!NOTE]
    >
-   >Sometimes, an "Incompatible Report Suite" message shows up when loading a project (or switching to a report suite) where not all of the components (metrics/dimensions) included in the project are included in the report suite. 호환되지 않는 구성 요소 목록을 볼 수 있으므로 메시지가 표시되는 이유를 알 수 있습니다.
+   >프로젝트에 포함된 모든 구성 요소(지표/차원)가 보고서 세트에 포함되지 않는 프로젝트를 로드하거나 보고서 세트로 전환할 때 "호환되지 않는 보고서 세트" 메시지가 표시되는 경우가 있습니다. 호환되지 않는 구성 요소 목록을 볼 수 있으므로 메시지가 표시되는 이유를 알 수 있습니다.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -88,7 +88,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    >[!NOTE]
    >
-   >After you copy/save-as, the intra-links are now relative to the project they live within, not the original project they were copied from.
+   >이제 인트라 링크는 복사/다른 이름으로 저장한 후 원래 프로젝트에서 복사한 프로젝트가 아니라 현재 있는 프로젝트에 상대적입니다.
 
 ## 구성 요소 및 시각화 추가 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
@@ -133,7 +133,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ![](assets/fa_full_panel.png)
 
-1. 단계
+1. 단계. 
 
 ## 마우스 오른쪽 단추 클릭 메뉴를 사용하여 데이터 사용자 지정 {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
