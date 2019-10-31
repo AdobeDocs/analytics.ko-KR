@@ -5,9 +5,9 @@ seo-title: 요청 새로 고침
 solution: Analytics
 title: 요청 새로 고침
 topic: Report Builder
-uuid: BB 94 FCC 6-027 B -4134-ADC 8-56 A 1 EA 7 CC 56 B
+uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
