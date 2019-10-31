@@ -7,8 +7,8 @@ subtopic: 릴리스 노트
 title: Mac OS X
 topic: 개발자 및 구현
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,11 +19,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 >
 >이러한 SDK는 사용되지 않기 때문에 Adobe에서 더 이상 지원하거나 배포하지 않습니다.
 
->[!NOTE]
->
->현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
+> [!NOTE] 현재 라이브러리 버전을 찾으려면 디버그 로깅을 켭니다.
 
-모바일 라이브러리는 [!DNL Developer Connection]에서 [다운로드](https://marketing.adobe.com/developer/ko_KR/get-started/mobile/c-measuring-mobile-applications)할 수 있습니다.
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 ## 버전 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
