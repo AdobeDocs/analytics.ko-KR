@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 요약 번호 및 요약 변경 사항
 title: 요약 번호 및 요약 변경 사항
-uuid: 177 C 1 B 89-6 D 98-473 D -8447-6 B 4 CDC 479565
+uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
