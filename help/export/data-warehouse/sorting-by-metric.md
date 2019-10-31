@@ -1,17 +1,17 @@
 ---
 description: Data Warehouse에서 내림차순 지표 값을 기준으로 정렬되는 등급 분류 보고서를 제공합니다.
 seo-description: Data Warehouse에서 내림차순 지표 값을 기준으로 정렬되는 등급 분류 보고서를 제공합니다.
-seo-title: 지표로 정렬
+seo-title: 지표로 정렬합니까
 solution: Analytics
-title: 지표로 정렬
-uuid: 07 DA 2607-B 3 FD -463 B -90 D 4-6884 A 93 C 7 E 25
+title: 지표로 정렬합니까
+uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 지표로 정렬
+# 지표로 정렬합니까
 
 Data Warehouse에서 내림차순 지표 값을 기준으로 정렬되는 등급 분류 보고서를 제공합니다.
 
