@@ -3,12 +3,12 @@ description: 마케팅 채널에 사용자 그룹 액세스 권한을 구성합�
 seo-description: 마케팅 채널에 사용자 그룹 액세스 권한을 구성합니다.
 seo-title: 사용자 그룹 액세스 권한 구성
 solution: Analytics
-subtopic: Marketing channels
+subtopic: 마케팅 채널
 title: 사용자 그룹 액세스 권한 구성
 topic: Reports and Analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,5 +30,4 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 | 필드 | 정의 |
 |--- |--- |
 | 모든 액세스 권한 | 현재 사용자 그룹에 마케팅 채널 보고서에 대한 액세스 권한을 부여합니다. |
-| 액세스 권한 없음 | 현재 사용자 그룹이 마케팅 채널 보고서에 액세스하지 못하도록 합니다. |
-
+| 액세스 권한 없음 | 현재 사용자 그룹이 마케팅 채널 보고서에 액세스하지 못하도�
