@@ -8,8 +8,8 @@ subtopic: 플러그인
 title: getNewRepeat
 topic: 개발자 및 구현
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 * 다시 온 방문자가 새 방문자보다 인구 대비 높은 전환을 생성합니까? 비율은 어느 정도입니까?
 * 마케팅 캠페인이 방문 간에 지속성을 유지합니까? 예를 들어, 내 캠페인을 클릭스루하여 온 사용자가 나중에 돌아옵니까?
 
->[!NOTE]
->
->다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 플러그인 코드 및 구현 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **플러그인 구성**
 
-다음 코드를 *Plugin Config*&#x200B;라는 *`s_code.js`* 파일의 영역에 있는 *`s_doPlugins()`* 함수에 내에 지정합니다. 지속되는 값 데이터를 캡처하는 데 사용할 사용자 지정 트래픽(s.prop) 변수 또는 사용자 지정 전환(s.eVar) 변수 하나를 선택합니다. 관리 콘솔을 사용하여 활성화했지만 현재 다른 목적으로 사용하고 있지는 않은 변수여야 합니다. 다음 예를 사용하여 요구 사항에 맞게 업데이트할 수 있습니다.
+다음 코드를 *`s_doPlugins()`* 함수 내에 지정합니다. 이 함수는 파일에서 *`s_code.js`Plugin Config*&#x200B;라는 *파일의 영역에 있습니다*. 지속되는 값 데이터를 캡처하는 데 사용할 사용자 지정 트래픽(s.prop) 변수 또는 사용자 지정 전환(s.eVar) 변수 하나를 선택합니다. 관리 콘솔을 사용하여 활성화했지만 현재 다른 목적으로 사용하고 있지는 않은 변수여야 합니다. 다음 예를 사용하여 요구 사항에 맞게 업데이트할 수 있습니다.
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
