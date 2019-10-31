@@ -1,19 +1,19 @@
 ---
 description: 데이터 소스 .txt 템플릿에 대한 정보.
 seo-description: 데이터 소스 .txt 템플릿에 대한 정보.
-seo-title: 가져오기 파일 참조
+seo-title: 파일 가져오기 참조
 solution: Analytics
-subtopic: Data Sources
-title: 가져오기 파일 참조
+subtopic: 데이터 소스
+title: 파일 가져오기 참조
 topic: 개발자 및 구현
-uuid: CC 58 F 8 D 8-CB 6 E -4908-846 F -0 A 41 C 6 DA 805 D
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 가져오기 파일 참조
+# 파일 가져오기 참조
 
 데이터 소스 .txt 템플릿에 대한 정보.
 
@@ -28,9 +28,9 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **날짜**: (필수) 파일의 각 데이터 행에 대한 타임스탬프.
 
-**변수**: 데이터 소스의 데이터 차원에 매핑되는 보고 변수의 이름.
+**변수**:데이터 소스의 데이터 차원에 매핑되는 보고 변수의 이름.
 
-**이벤트**: 데이터 소스의 지표에 매핑되는 이벤트의 이름.
+**이벤트**:데이터 소스의 지표에 매핑되는 이벤트의 이름.
 
 데이터 소스 템플릿을 사용하여 업로드하려는 데이터를 포함한 데이터 소스 파일을 생성하십시오. 데이터 소스 파일을 만들 때는 다음에 유의하십시오.
 
@@ -63,6 +63,6 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **.FIN 파일**
 
-데이터 소스 파일 작성을 마쳤으면 FTP를 Analytics로 전송할 수 있습니다. 하지만 데이터를 처리하려면 추가 파일이 필요합니다. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+데이터 소스 파일 작성을 마쳤으면 FTP를 통해 Analytics로 전송할 수 있습니다. 하지만 데이터를 처리하려면 추가 파일이 필요합니다. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. [!DNL .fin] 파일이 없으면 데이터가 처리되지 않습니다.
+For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
