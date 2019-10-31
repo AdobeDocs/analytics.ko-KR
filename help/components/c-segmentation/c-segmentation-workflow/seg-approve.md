@@ -5,9 +5,9 @@ seo-title: 세그먼트 승인
 solution: Analytics
 title: 세그먼트 승인
 topic: 세그먼트
-uuid: 01 F 4 FF 51-D 923-4328-A 68 D-C 4 E 793 CB 5 B 34
+uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
