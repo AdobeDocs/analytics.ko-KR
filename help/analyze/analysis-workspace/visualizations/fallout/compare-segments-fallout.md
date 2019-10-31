@@ -6,7 +6,7 @@ seo-title: 폴아웃 분석에서 세그먼트 적용
 title: 폴아웃 분석에서 세그먼트 적용
 uuid: e87a33df-16 파섹
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
