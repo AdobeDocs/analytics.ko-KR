@@ -5,9 +5,9 @@ seo-title: 지표 및 차원 추가
 solution: Analytics
 title: 지표 및 차원 추가
 topic: Report Builder
-uuid: 588 CE 96 B -3 A 2 D -42 B 7-8 A 8 E -7 E 6 F 448 A 0115
+uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
 
 지표 및 차원을 요청에 추가하는 절차.
 
-1. [요청 마법사에서 데이터 요청을](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) [!UICONTROL 만듭니다. 1 단계]. 다음을 클릭합니다 ****.
+1. [요청 마법사에서 데이터 요청을](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) 만듭니다 [!UICONTROL .1단계에서]다음을 **[!UICONTROL 클릭합니다]**.
 1. [!UICONTROL 요청 마법사: 2단계]에서 지표를 두 번 클릭하거나 지표를 원하는 위치로 드래그합니다.
 
    ![단계 정보](assets/adding_metrics.png)
@@ -57,14 +57,14 @@ source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
 
 [!UICONTROL 날짜] 차원이 자동으로 추가됩니다. 사용할 수 있는 날짜 차원은 [!UICONTROL 요청 마법사: 1단계]에서 선택한 세부기간에 따라 달라집니다. (유효한 값:
 
-    * hour
-    * day
-    * week
-    * month
-    * year
-    * date range (세부기간을 지정하지 않은 경우)
+    * 시간
+    * 일
+    * 주
+    * 월
+    * 년
+    * 날짜 범위(세부기간이 지정되지 않은 경우)
 
-1. Modify metrics and dimensions by configuring [format options](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) and filters.
+1. 형식 옵션 [](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) 및 필터를 구성하여 지표 및 차원을 수정합니다.
 1. **[!UICONTROL 마침을 클릭합니다]**.
 다음 예에서는 [!UICONTROL 페이지] 지표와 관련된 차원입니다. 여기에서 [!UICONTROL 참조 도메인] 차원은 [!UICONTROL 페이지]와 [!UICONTROL 참조 도메인] 간 분류 보고서를 만듭니다. 분류 보고서에 추가할 수 있는 차원들로만 [!UICONTROL 차원] 탭이 업데이트됩니다.
 
