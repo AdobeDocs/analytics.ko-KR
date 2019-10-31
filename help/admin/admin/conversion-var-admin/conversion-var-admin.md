@@ -8,7 +8,7 @@ title: 전환 변수(eVar)
 topic: 관리 도구
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 
 트래픽 측정 또는 경로 지정을 원하는 경우 트래픽 변수 사용이 권장됩니다.
 
->[!NOTE]
->
->하나의 값만 이미지 요청의 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용할 수 있는 경우 [목록 변수(list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)를 구현하는 것이 좋습니다.
+> [!NOTE] 단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용할 수 있는 경우 [목록 변수(list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)를 구현하는 것이 좋습니다.
 
 ## 전환 변수 - 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -48,7 +46,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
    <td colname="col2"> <p>전환 변수의 친숙한 이름. 이 이름은 eVar가 일반 보고에서 참조되는 방식이며 왼쪽 메뉴에서 보고서의 이름이 됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">유형</span> </p> <p>(eVar만) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> 유형</span> </p> <p>(eVar만) </p> </td> 
    <td colname="col2"> <p>변수 값 유형은 다음과 같습니다. </p> <p> <b></b> 텍스트 문자열</span>:사이트에서 사용되는 텍스트 값을 캡처합니다. 이것은 eVar의 가장 흔한 유형으로, 기본 설정입니다. 이것은 다른 변수와 유사하게 작동하며, 변수 내 값은 정적 텍스트 문자열입니다. 이것은 내부 캠페인 또는 내부 검색 키워드와 같은 것을 추적할 경우 권장되는 설정입니다. </p> <p> <b></b> 카운터</span>:성공 이벤트 전에 작업이 발생하는 횟수를 카운트합니다. 예를 들어 eVar를 사용하여 사이트에서 내부 검색을 추적하는 경우 이 값을 <span class="uicontrol">텍스트 문자열</span>로 설정하면 검색어 사용을 추적할 수 있습니다. 사용된 검색어에 관계없이 검색 횟수를 카운트하려면 이 값을 <span class="uicontrol">카운터</span>로 설정합니다. 예를 들어 카운터 eVar를 사용하여 어떤 사람이 구매를 하기 전에 내부 검색을 사용한 횟수를 추적할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
