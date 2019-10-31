@@ -5,9 +5,9 @@ seo-title: 트래픽
 solution: Analytics
 title: 트래픽
 topic: 보고서
-uuid: c 32 af 0 c 0-f 0 c 2-47 f 7-a 5 f 6-4 a 2 df 63 e 11 fc
+uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **공통 지속성**
 
-트래픽 소스에서는 덮어쓰기 또는 방문 종료 중 먼저 발생하는 시점까지 모든 보고서 값이 지속되고 크레딧을 받습니다. 이전에는 키워드와 참조 도메인만 지속되었습니다. 예를 들어 방문자가 Google에서 *`DVD`*&#x200B;이 보고서는 $ 100 구매를 위해 사이트에 가져다 주는데, 이 보고서는 키워드와 *`DVD`* Google 검색 엔진에 $ 100 크레디트를 할당합니다. 이 기능은 관리 설정에 관계 없이 변경되지 않습니다.
+트래픽 소스에서는 덮어쓰기 또는 방문 종료 중 먼저 발생하는 시점까지 모든 보고서 값이 지속되고 크레딧을 받습니다. 이전에는 키워드와 참조 도메인만 지속되었습니다. 예를 들어 방문자가 Google에서 *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. 이 기능은 관리 설정에 관계 없이 변경되지 않습니다.
