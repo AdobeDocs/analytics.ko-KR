@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 경고 빌더
 title: 경고 빌더
-uuid: EBC 2 D 457-4 ABD -4 B 1 A -9357-489 B 5 AEB 3 F 64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,18 +16,18 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 >
 >지능형 경고는 Adobe Analytics Prime 및 Adobe Analytics Ultimate 고객에게만 제공됩니다.
 
-## Alert Builder 액세스
+## 액세스 경고 빌더
 
 다음 네 가지 방법 중 하나로 경고 빌더에 액세스합니다.
 
 * Analysis Workspace에서 다음의 바로 가기 사용:
 
    `ctrl (or cmd) + shift + a`
-* **[!UICONTROL 작업 영역]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 새 경고로 이동합니다]**.
+* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**.
 * From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
 
-## 경고 작성
+## 경고 만들기
 
 경고 빌더 인터페이스는 Analytics에 세그먼트 또는 계산된 지표를 만든 사용자와 유사합니다.
 
@@ -43,9 +43,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 지표를 확인할 시기(시간별, 일별, 주별 또는 월별)를 지정합니다.
 
->[!NOTE]
->
->사용자 지정 달력이 있는 보고서 세트의 경우, 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
+> [!NOTE] 사용자 지정 달력이 있는 보고서 세트의 경우 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
 
 **수신자**
 
@@ -55,7 +53,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-경고가 트리거되면 사용자가 받게 되는 이메일은 다음과 비슷합니다.
+경고가 트리거되면 사용자가 받게 될 이메일은 다음과 비슷합니다.
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 * 트리거를 추가하는 지표를 캔버스에 드래그하여 놓습니다. 
 
-   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * 경고를 설정하기 전에 지표가 초과되는 임계값을 결정합니다. 이 값을 임계값으로 설정한 후 다음 조건 중 하나로 설정할 수 있습니다. 
 
    * 예외 항목이 있음
@@ -90,7 +88,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 톱니바퀴 아이콘을 클릭하여 AND 또는 OR 규칙을 추가할 수 있습니다.
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## 경고 미리 보기 {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 대화형 경고 미리 보기에서는 경고가 과거의 경험을 기반으로 얼마나 자주 표시되는지를 근사적으로 보여 줍니다.
 
