@@ -1,18 +1,18 @@
 ---
 description: 많은 Adobe 엔지니어링 서비스 참여에 데이터 교환이 포함되며, 이러한 데이터 교환에 FTP가 필요한 경우가 많습니다.
-keywords: ftp; Sftp
+keywords: ftp;sftp
 seo-description: 많은 Adobe 엔지니어링 서비스 참여에 데이터 교환이 포함되며, 이러한 데이터 교환에 FTP가 필요한 경우가 많습니다.
-seo-title: FTP를 사용한 엔지니어링 서비스 참여
+seo-title: FTP로 엔지니어링 서비스 참여
 solution: Analytics
-title: FTP를 사용한 엔지니어링 서비스 참여
-uuid: 38 D 1 FC 13-B 709-4661-805 B -7 EFA 82 B 57 A 47
+title: FTP로 엔지니어링 서비스 참여
+uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# FTP를 사용한 엔지니어링 서비스 참여
+# FTP로 엔지니어링 서비스 참여
 
 많은 Adobe 엔지니어링 서비스 참여에 데이터 교환이 포함되며, 이러한 데이터 교환에 FTP가 필요한 경우가 많습니다.
 
@@ -26,4 +26,4 @@ FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 �
 
 ## 사용자 지정 참여 {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe 엔지니어링 서비스는 FTP와 Sftp를 모두 사용하는 사용자 지정 프로젝트를 제공합니다. 사용자 지정 프로젝트에 대한 자세한 내용은 Adobe 엔지니어링 서비스를 참조하십시오. For information on SFTP, see [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Adobe 엔지니어링 서비스는 FTP와 SFTP를 모두 사용하는 사용자 정의 프로젝트를 제공합니다. 사용자 지정 프로젝트에 대한 자세한 내용은 Adobe 엔지니어링 서비스를 참조하십시오. SFTP에 대한 자세한 내용은 보안 [파일 전송 프로토콜을 참조하십시오](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
