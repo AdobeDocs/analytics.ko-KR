@@ -1,18 +1,18 @@
 ---
 description: Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 Data Sources를 만들고 관리할 수 있습니다.
-keywords: ftp; Sftp
+keywords: ftp;sftp
 seo-description: Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 Data Sources를 만들고 관리할 수 있습니다.
-seo-title: 데이터 소스
+seo-title: Data Sources
 solution: Analytics
-title: 데이터 소스
-uuid: 41 BA 2 DE 7-D 33 D -4394-B 7 D 8-04 A 116 F 45419
+title: Data Sources
+uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 데이터 소스
+# Data Sources
 
 Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 Data Sources를 만들고 관리할 수 있습니다.
 
@@ -29,7 +29,7 @@ FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 �
 When you upload a classifications or [!UICONTROL Data Source] file ( [!DNL .tab] or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 이 파일의 목적은 시스템에 데이터 파일이 FTP 계정에 완전히 업로드되었다는 것을 알리는 것입니다. The [!DNL .fin] file lets Adobe recognize that you are done with your import. 이 파일을 제출하면 Adobe가 두 파일을 FTP에서 제거하고 가져오기를 시작합니다.
 파일 가져오기: [!DNL Classifications.tab]
 
-Finish File: [!DNL Classifications.fin]
+완료 파일: [!DNL Classifications.fin]
 
 If you upload your Data Sources or SAINT file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. 이에 대한 알림은 이메일 주소를 보고하는 [!UICONTROL FTP 계정 만들기] 창에서 [!UICONTROL 알림 수신자]로 입력한 경우에만 받습니다. 이 필드에 이메일 주소를 입력하지 않은 경우 알림이 전송되지 않습니다.
 
