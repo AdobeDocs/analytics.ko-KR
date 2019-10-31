@@ -8,7 +8,7 @@ title: Analytics 변수 및 이벤트
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ DFA용 Data Connectors 통합은 Analytics 변수를 사용하여 DFA 캠페인 
 | 변수 | 친숙한 이름 | 채우기 방법 | 설명 |
 |---|---|---|---|
 | s.campaign 또는 eVar | 광고 추적 코드 | DFA 캠페인에 대한 Data Connectors에 의해 자동으로 입력됩니다. | 모든 캠페인에 대해 클릭스루 전환을 추적합니다. |
-| eVar* | 뷰스루 | DFA 캠페인용 VISTA 및 DFA를 통해 자동으로 입력됩니다. | DFA ID에 대한 뷰스루 데이터를 추적합니다. 이 eVar에는 *`s.campaign`* variable. 변수 공급자 ID에서 식별된 것과 동일한 전환 변수여야 합니다. eVar에 전체 하위 관계가 활성화되어 있는지 확인합니다. 이 기능을 활성화하는 비용은 Data Connectors 통합 요금에 포함됩니다. |
+| eVar* | 뷰스루 | DFA 캠페인용 VISTA 및 DFA를 통해 자동으로 입력됩니다. | DFA ID에 대한 뷰스루 데이터를 추적합니다. 이 eVar에는 *`s.campaign`* 변수를 채우는 방법을 설명합니다. 변수 공급자 ID에서 식별된 것과 동일한 전환 변수여야 합니다. eVar에 전체 하위 관계가 활성화되어 있는지 확인합니다. 이 기능을 활성화하는 비용은 Data Connectors 통합 요금에 포함됩니다. |
 | eVar* | DFA 쿼리 오류 | (선택 사항) JavaScript 수집 코드를 통해 입력됩니다. | DFA에서 반환되는 여러 오류 코드 중 하나를 포함합니다. |
 | 업데이트* | 뷰스루 수 | DFA 캠페인에 대한 Data Connectors에 의해 자동으로 입력됩니다. | 사용자가 광고를 보고 클릭스루하지 않았지만 사이트에 도달한 횟수를 캡처합니다. |
 | 업데이트* | 노출 횟수 | DFA의 데이터 피드를 통해 자동으로 입력됩니다. | 특정 DFA 광고가 게재된 횟수를 추적합니다. |
