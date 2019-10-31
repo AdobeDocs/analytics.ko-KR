@@ -7,8 +7,8 @@ solution: Analytics
 title: 모바일 장치 식별
 topic: 개발자 및 구현
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP [�
   </tr> 
   <tr> 
    <td colname="col1"> <code> /5/ /5.1/ /5.5/</code> </td> 
-   <td colname="col2"> <p>장치가 무선 장치로 확인되었거나, <code>/5/</code>가 이미지 요청에서 수동으로 전송되었습니다. </p> 
+   <td colname="col2"> <p>Device was identified as a wireless device, or <code> /5/</code> was manually sent in the image request: </p> 
     <ul id="ul_624BEDFA3E1243CF9B42081D8B8EFFFB"> 
      <li id="li_D65761D23B684DB59BC23E92C9098122">사용자 지정 방문자 ID </li> 
      <li id="li_ADBA806B74CA43EFA8612301E06106C6">가입자 ID 헤더 </li> 
@@ -88,4 +88,4 @@ Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP [�
 
 예를 들어 "callinglineid"는 "X-Up-Calling-Line-ID" 및 "nokia-callinglineid"와 일치합니다. 헤더에서 기대할 내용은 헤더 유형을 통해 알 수 있습니다. 헤더 우선 순위는 다음과 같습니다("callinglineid" 헤더가 있을 경우, "subno" 대신 "callinglineid"가 사용됨).
 
- [다이내믹 변수](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
+사용 가능한 [다이내믹 변수](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
