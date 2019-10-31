@@ -5,9 +5,9 @@ seo-title: 조건부 서식 지정
 solution: Analytics
 title: 조건부 서식 지정
 topic: Report Builder
-uuid: 13 AC 12 F 1-3498-4 BF 9-A 6 D 0-C 5 D 84 E 0125 DC
+uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ Report Builder 도구 모음에서 **[!UICONTROL 서식을 클릭하십시오]**
 
 보안 상의 이유로 Excel의 VBA(Visual Basic for Applications)를 사용하여 통합 문서에 쓰는 매크로는 비활성화됩니다.
 
->[!NOTE]
->
->조건부 서식은 Excel 기능입니다. 서식 규칙 만들기에 대한 자세한 내용은 Excel 설명서를 참조하십시오.
+> [!NOTE] 조건부 서식은 Excel 기능입니다. 서식 규칙 만들기에 대한 자세한 내용은 Excel 설명서를 참조하십시오.
 
