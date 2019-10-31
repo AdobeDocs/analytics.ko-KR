@@ -8,8 +8,8 @@ subtopic: 리디렉션
 title: 리디렉션 및 별칭
 topic: 개발자 및 구현
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -149,7 +149,7 @@ s.pageName=""
 s.server="" 
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
-// Setting the s.pageURL variable is optional. 
+// Setting the s.pageURL variable is optional.
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
@@ -163,7 +163,7 @@ redirects_verify_referrer.xml
 
 테스트를 실행하여 레퍼러, 원래 URL(*`s_server`*) 및 캠페인 변수가 캡처되고 있는지 확인합니다.
 
-이러한 변수는 [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud-debugger/)에서 다음 매개 변수로 표시됩니다.
+These variables will be represented as the following parameters in the [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
