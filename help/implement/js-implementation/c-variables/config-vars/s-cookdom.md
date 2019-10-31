@@ -5,15 +5,15 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomain
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
+이 변수는 [!DNL Analytics] 쿠키 `s_cc` 및 `s_sq`를 설정할 도메인을 결정합니다.
 
-Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using , you can explicitly set  to what you want to use in your implementation. `s.cookieDomainPeriods``s.cookieDomain` 예를 들면 다음을 사용하여 정규화된 페이지 이름에 쿠키를 설정할 수 있습니다.
+Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using `s.cookieDomainPeriods`, you can explicitly set `s.cookieDomain` to what you want to use in your implementation. 예를 들면 다음을 사용하여 정규화된 페이지 이름에 쿠키를 설정할 수 있습니다.
 
 `s.cookieDomain = window.location.hostname;`
