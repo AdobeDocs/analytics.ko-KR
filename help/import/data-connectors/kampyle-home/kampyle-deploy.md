@@ -3,10 +3,10 @@ description: 'null'
 seo-description: 'null'
 seo-title: 통합 배포
 solution: Analytics
-title: Deploying the Integration
+title: 통합 배포
 uuid: hand385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 1. 데이터 커넥터( **[!UICONTROL 이전 Genesis]** )로 이동합니다.
 1. Kampyle 통합 마법사를 시작합니다.
 1. 원하는 보고서 세트를 선택하고 통합 이름을 제공합니다.
-1. Configure the following items:
+1. 다음 항목을 구성합니다.
    1. **[!UICONTROL 이메일 주소]** - 기본 연락처의 이메일 주소입니다.
    1. **[!UICONTROL 설명]** - (선택 사항) 이 통합 설정에 대한 설명입니다.
    1. **[!UICONTROL Kampyle]** Key - Kampyle 애플리케이션에서 이 키를 **[!UICONTROL 피드백 양식]** &gt; 피드백 양식 **[!UICONTROL 사용자 정의에서 찾을 수 있습니다]**.
@@ -56,13 +56,13 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 1. 다음 방법 중 하나를 사용하여 코드를 배포합니다.
 | **Adobe TagManager 또는 다이내믹 태그 관리를 사용합니다.** | 태그 관리 인터페이스를 사용하여 코드를 추가합니다. ||—|—|| **다른 모든 경우** | Adobe Analytics 배포 코드 업데이트를 담당하는 조직 리소스에 코드를 전달할 수 있습니다.  |
 
-## Verify the Integration{#verify-the-integration}
+## 통합 확인{#verify-the-integration}
 
 통합이 두 가지 검사를 완료하여 데이터를 성공적으로 전송하는지 확인합니다.
 
 ### 통합 활동 로그 {#section-0472df9180db4f218db5f6040cab07af}
 
-View your Kampyle integration setup within the Adobe Experience Cloud by navigating to Support &gt; Integration Activity Log. ******** 데이터 **[!UICONTROL 위치]** 탭 아래에서 분류 데이터를 성공적으로 가져왔다는 항목이 표시됩니다.
+지원 &gt; 통합 활동 로그로 이동하여 Adobe Experience Cloud에서 Kampyle **[!UICONTROL 통합]** 설정을 봅니다 ****. 데이터 **[!UICONTROL 위치]** 탭 아래에서 분류 데이터를 성공적으로 가져왔다는 항목이 표시됩니다.
 
 > [!NOTE] 로그 항목은 성공적으로 배포한 후 24시간 이내에 표시됩니다.
 
