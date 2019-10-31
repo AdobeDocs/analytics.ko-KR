@@ -5,9 +5,9 @@ seo-title: 방문자 유지
 solution: Analytics
 title: 방문자 유지
 topic: 보고서
-uuid: E 2 D 477 D 0-F 704-489 B-B 4 B 3-941 BC 352 CD 7 A
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>Analytics가 사이트 추적을 시작한 이후 방문자가 2회 이상 방문한 횟수를 보여줍니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 일일 재방문 </td> 
+   <td colname="col1"> 일별 재방문 </td> 
    <td colname="col2"> <p>특정 일에 사이트를 여러 번 방문한 방문자 수를 보여줍니다. 하루는 마지막 24시간으로 정의됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 마지막 구매 이후 일 수 </td> 
-   <td colname="col2"> <p>고객이 반복 구매에 소요하는 평균 기간(일 수)를 보여주며 매출액 또는 주문 수와 같이 사이트의 주요 성공 지표에 가장 많은 기여를 하는 기간을 파악할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>고객이 반복 구매에 소요하는 평균 기간(일 수)을 보여주며 매출액 및 주문 수와 같이 사이트의 주요 성공 지표에 가장 많은 기여를 하는 기간을 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 일일 고유 고객 </td> 
