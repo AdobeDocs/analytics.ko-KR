@@ -1,13 +1,13 @@
 ---
 description: Analytics 데이터 피드 인터페이스를 사용하려면 주요 용어들을 이해하는 것이 중요합니다.
-keywords: 데이터 피드; 용어; 용어; job
+keywords: 데이터 피드;용어;용어;작업
 seo-description: Analytics 데이터 피드 인터페이스를 사용하려면 주요 용어들을 이해하는 것이 중요합니다.
 seo-title: 용어
 solution: Analytics
 title: 용어
-uuid: 87368708-AAAC -40 A 5-BD 00-B 0964 BCF 3507
+uuid: 87368708-aac-40a5-bd00-b0964bcf3507
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
