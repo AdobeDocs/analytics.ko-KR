@@ -5,10 +5,10 @@ seo-title: 마케팅 채널 처리 규칙 만들기
 solution: Analytics
 subtopic: 마케팅 채널
 title: 마케팅 채널 처리 규칙 만들기
-topic: Reports & Analytics
-uuid: 0 E 47634 F -3 C 69-46 DB -8 AF 4-8 D 0 B 3 D 15 F 7 A 8
+topic: Reports and Analytics
+uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 이 절차에서는 이메일 규칙을 하나의 예로 사용합니다. 이 예에서는 마케팅 채널 관리자 페이지의 채널 목록에 이메일 채널을 추가했다고 가정합니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. 보고서 세트를 선택합니다.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 보고서 세트 선택.
 
    보고서 세트에 정의된 채널이 없으면 [!UICONTROL 마케팅 채널: 자동 설정] 페이지가 표시됩니다.
 
