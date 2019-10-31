@@ -5,9 +5,9 @@ seo-title: 장치
 solution: Analytics
 title: 장치
 topic: 보고서
-uuid: B 7 CA 4 A 3 F -8646-42 B 8-82 C 8-EA 4 F 809 DC 115
+uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
