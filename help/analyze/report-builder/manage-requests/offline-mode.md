@@ -5,9 +5,9 @@ seo-title: 요청을 만들고 편집하기 위한 오프라인 모드
 solution: Analytics
 title: 요청을 만들고 편집하기 위한 오프라인 모드
 topic: Report Builder
-uuid: 4 EB 1 F 754-B 6 DA -4896-A 64 F-B 737563925 B 8
+uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
