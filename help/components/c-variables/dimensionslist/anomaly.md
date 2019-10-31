@@ -2,13 +2,13 @@
 description: 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 keywords: 예외 항목
 seo-description: 예외 검색은 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
-seo-title: 예외 검색
+seo-title: 예외 항목 탐지
 solution: Analytics
 title: 예외 항목 탐지
 topic: 보고서
-uuid: 0 E 8 BF 30 C -004 D -47 D 3-AD 8 D-C 5 A 86 BA 81 D 9 D
+uuid: 0e8bf30c-004d-47d3-ad8d-c5a86ba81d9d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
