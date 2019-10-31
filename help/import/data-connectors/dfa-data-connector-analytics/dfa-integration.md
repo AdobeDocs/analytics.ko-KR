@@ -8,7 +8,7 @@ title: DFA 통합
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
 
 이 구성 페이지는 자세한 정보에 대한 유용한 링크와 함께 통합 개요를 제공합니다. 이 통합과 관련된 Adobe와 DoubleClick 요금이 있습니다. 두 조직에 적합한 영업 담당자에게 연락하여 요금 구성을 확인합니다.
 
-1. 에 [!DNL Adobe Analytics]로그인합니다.
+1. Log in to the [!DNL Adobe Analytics].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
@@ -46,7 +46,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
   <tr> 
    <td colname="col1"> 1 </td> 
    <td colname="col2"> 통합 이름 </td> 
-   <td colname="col3"> Genesis가 보고서 세트의 활성 통합 목록에 표시하는 통합 이름입니다. </td> 
+   <td colname="col3"> Genesis가 보고서 세트의 활성 통합 목록에 표시되는 통합 이름입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 1 </td> 
@@ -81,7 +81,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> 클릭 수 </td> 
-   <td colname="col3"> DFA 클릭 수 지표 데이터를 받는 사용자 지정 이벤트를 선택합니다. 클릭 수는 DFA의 리디렉션에서 측정한 방문자의 광고 클릭 횟수를 나타냅니다. 클릭 수 지표는 Analytics 클릭스루 지표와 상관 관계가 있습니다. <p>참고: 데이터 수집 방식의 차이로 인해 DFA 클릭 수 및 Analytics 클릭스루가 정확하게 일치하지 않을 수 있습니다.  </a>. </p> </td> 
+   <td colname="col3"> DFA 클릭 수 지표 데이터를 받는 사용자 지정 이벤트를 선택합니다. 클릭 수는 DFA의 리디렉션으로 측정된 대로 방문자가 광고를 클릭한 횟수를 나타냅니다. 클릭 수 지표는 Analytics 클릭스루 지표와 상관 관계가 있습니다. <p>참고: 데이터 수집 방식의 차이로 인해 DFA 클릭 수 및 Analytics 클릭스루가 정확하게 일치하지 않을 수 있습니다.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -96,7 +96,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> 뷰스루 </td> 
-   <td colname="col3"> DFA 뷰스루 지표 데이터를 받는 사용자 지정 이벤트입니다. 뷰스루 변수와 함께 뷰스루 이벤트를 사용하여 직접 클릭스루에 영향을 주진 않았지만 이후 시간에 사이트에 트래픽을 유도하는 역할을 했을 수 있는 캠페인을 확인할 수 있습니다. <p>Data Connectors는 선택한 사용자 지정 이벤트 이름을 “뷰스루”로 변경합니다. </p> </td> 
+   <td colname="col3"> DFA 뷰스루 지표 데이터를 받는 사용자 지정 이벤트입니다. 뷰스루 변수와 함께 뷰스루 이벤트를 사용하여 직접 클릭스루에 영향을 주지 않았지만 이후 시간에 사이트로 트래픽을 유도하는 역할을 한 캠페인을 확인할 수 있습니다. <p>데이터 커넥터는 선택한 사용자 지정 이벤트의 이름을 "뷰스루"로 변경합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
@@ -125,13 +125,13 @@ Genesis에서 DFA 통합을 위해 Analytics 보고서 세트를 구성한 후�
 
 DFA에 대한 Data Connectors 통합을 사용하려면 페이지 도메인에서 쿠키를 설정해야 합니다.
 
-드문 경우이긴 하지만 일부 도메인이 일부 웹 브라우저의 최대 쿠키 용량에 도달했습니다. 웹 사이트에서 방문자의 탐색 환경에 영향을 주지 않도록 하려면 네트워크 작업, 개발 팀 또는 엔지니어링 그룹에 문의하여 DFA 통합에 사용된 페이지의 도메인에 다른 쿠키를 추가해도 사용자 환경에 영향을 주지 않는지 확인합니다. 또한 쿠키 이름을 선택해야 합니다.
+드문 경우이긴 하지만 일부 도메인이 일부 웹 브라우저의 최대 쿠키 용량에 도달했습니다. 웹 사이트에서 방문자의 탐색 경험에 영향을 주지 않으려면 네트워크 작업, 개발 팀 또는 엔지니어링 그룹에 문의하여 DFA 통합에 사용된 페이지의 도메인에 다른 쿠키를 추가하는 것이 사용자 경험에 영향을 주지 않는지 확인하십시오. 또한 쿠키 이름을 선택해야 합니다.
 
 ### DFA 쿼리 문자열 매개 변수 업데이트{#update-your-dfa-query-string-parameter}
 
 DFA 통합 전에 Adobe Analytics로 광고 캠페인을 이미 추적한 경우에는 모든 캠페인(이메일, 검색 또는 배너)에서 같은 쿼리 문자열 매개 변수를 사용하여 랜딩 페이지에서 참조하는 캠페인 ID를 식별할 수 있습니다.
 
-DFA 광고 캠페인에 대한 DFA 데이터에서 뷰스루와 클릭스루 데이터를 요청하는 시기를 알아두려면 Data Connectors에서 방문자가 DFA 캠페인 배너 광고를 클릭한 시간을 식별할 수 있어야 합니다. 이렇게 하려면 Data Connectors에서 DFA 광고 캠페인 페이지와 웹 사이트에 있을 수 있는 다른 광고 캠페인 페이지를 구분할 수 있도록 구별된 쿼리 문자열 매개 변수를 DFA 광고 캠페인의 랜딩 페이지 URL에 추가해야 합니다. DFA에 사용되는 JavaScript 플러그인의 `dfa_overrideParam` 플러그인입니다.
+DFA 광고 캠페인에 대한 DFA 데이터에서 뷰스루와 클릭스루 데이터를 요청하는 시기를 알아두려면 Data Connectors에서 방문자가 DFA 캠페인 배너 광고를 클릭한 시간을 식별할 수 있어야 합니다. 이를 가능하게 하려면 차별화된 쿼리 문자열 매개 변수를 DFA 광고 캠페인의 랜딩 페이지 URL에 추가해야 데이터 커넥터에서 웹 사이트에 있을 수 있는 DFA 광고 캠페인 페이지와 기타 광고 캠페인 페이지를 구분할 수 있습니다. DFA에 사용되는 JavaScript 플러그인의 `dfa_overrideParam` 플러그인입니다.
 
 >[!CAUTION]
 >
@@ -141,9 +141,7 @@ DFA 광고 캠페인에 대한 DFA 데이터에서 뷰스루와 클릭스루 데
 
 DFA용 Genesis 통합은 DFA Floodlight 구성 ID(dfa_SPOTID)를 활용하여 DFA와 Adobe 데이터 수집 시스템 간에 보고서 일관성을 향상시킵니다.
 
->[!NOTE]
->
->최근 Google DFA 릴리스에서 스포트라이트를 Floodlight로 변경했습니다. JavaScript 매개 변수 `dfa_SPOTID`는 Spotlight 용어를 기반으로 명명되었지만 두 버전에 모두 사용됩니다.
+> [!NOTE] 최근 Google DFA 릴리스에서 스포트라이트를 Floodlight로 변경했습니다. JavaScript 매개 변수 `dfa_SPOTID`는 Spotlight 용어를 기반으로 명명되었지만 두 버전에 모두 사용됩니다.
 
 웹 사이트에서 DFA 통합을 활성화하려면 다음을 추가하여 JavaScript 데이터 수집 코드를 업데이트해야 합니다.
 
@@ -204,7 +202,7 @@ DFA 통합 설정 블록은 DFA 통합에 필요한 변수를 설정합니다. �
 
 **requestURL**: 광고 정보를 쿼리할 원격 DFA 호스트. Adobe의 지시 없이는 이 값을 변경하지 마십시오.
 
-**maxDelay**: JavaScript 데이터 수집 코드가 DFA Floodlight 서버로부터 응답을 기다리는 시간(밀리초)을 지정합니다. Adobe는 이 값으로 테스트하여 사이트 트래픽에 따라 최적의 값을 찾을 것을 권장합니다. 예를 들어 이 값을 늘리면 일반적으로 더 많은 DFA 데이터가 수집되지만, 방문자가 지연 기간 동안 사이트를 나가는 경우 기본 방문자 데이터가 손실될 위험이 높아집니다. 이 값을 줄이면 히트 데이터 손실 위험은 줄어들지만 Adobe 히트 데이터로 전송된 DFA 데이터 양이 줄어들 수 있습니다.
+**maxDelay**: JavaScript 데이터 수집 코드가 DFA Floodlight 서버로부터 응답을 기다리는 시간(밀리초)을 지정합니다. Adobe는 사이트 트래픽을 기반으로 최적의 값을 찾으려면 이 값으로 실험해 보는 것이 좋습니다. 예를 들어 이 값을 늘리면 일반적으로 더 많은 DFA 데이터가 수집되지만, 방문자가 지연 기간 동안 사이트를 나가는 경우 기본 방문자 데이터가 손실될 위험이 높아집니다. 이 값을 줄이면 히트 데이터 손실 위험은 줄어들지만 Adobe 히트 데이터로 전송된 DFA 데이터 양이 줄어들 수 있습니다.
 
 **visitCookie**: DFA 호출 횟수를 방문당 한 번으로 제한하는 데 사용되는 쿠키의 이름입니다.
 
@@ -265,7 +263,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 시간 초과 비율은 실제로 사이트에 대한 모든 방문자를 고려합니다. 그러한 방문자 중 일부는 DFA에 전혀 연결되지 않으므로 시간 초과가 잘못된 것입니다. To improve this computation, another analysis could consider only unique visitors to pages with the `clickThroughParam` set (for example, `?CID=1`). 이로 인해 정확성이 더 향상됩니다.
 
-시간 초과 비율이 매우 낮으면 *`s.maxDelay`*. 너무 높으면 *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. When increasing *`s.maxDelay`*, you will want to run a [!DNL Page Views Report] to make sure page views aren’t falling out due to lost data. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+시간 초과 비율이 매우 낮으면 *`s.maxDelay`*. 너무 높으면 *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. 데이터가 *`s.maxDelay`*&#x200B;손실되어 페이지 보기가 누락되지 않도록 페이지를 [!DNL Page Views Report] 실행할 수 있습니다. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
