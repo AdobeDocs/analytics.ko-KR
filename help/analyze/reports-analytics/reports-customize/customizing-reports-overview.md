@@ -7,7 +7,7 @@ title: 보고서 사용자 지정 개요
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,7 +51,7 @@ t_reports_select_date.xml
 
  -->
 
-특정 일, 주, 월 또는 연도를 선택할 수 있습니다. 비교 보고서를 실행할 수도 있습니다.
+특정 일, 주, 월 또는 연도를 선택할 수 있습니다. 비교 보고서를 실행할 수도 있습니다에서 보냅니다.
 
 날짜 범위가 다른 reportlet을 사용하여 대시보드를 열 때 달력에서 새 날짜 범위를 선택할 수 있습니다. 변경 사항이 대시보드의 모든 reportlet에 적용됩니다.
 
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 트렌드 보고서들 간에는 날짜를 비교할 수 없습니다.
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
+> [!NOTE] 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 두 개의 별도 요청을 [사용하여 데이터를](https://marketing.adobe.com/resources/help/en_US/arb/) 리포트 빌더로 끌어올 수 있습니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
 
 Reports &amp; Analytics에서 등급 보고서 간 날짜 비교:
 
@@ -144,7 +142,7 @@ t_reports_select_page.xml
 1. **선택한 페이지** 링크를 클릭합니다.
 1. [!UICONTROL 페이지 선택]에서 표시할 페이지를 선택합니다.
 1. 페이지를 찾습니다.
-1. Click **[!UICONTROL OK.]**
+1. **[!UICONTROL 확인을 클릭합니다.]**
 
 ## 보고서 세트 비교 {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -175,7 +173,7 @@ t_reports_compare_suites.xml
 1. 보고서를 비교할 수 있도록 해주는 보고서를 생성합니다.
 1. **사이트에 비교** 링크를 클릭합니다.
 1. 보고서 세트를 찾습니다.
-1. Click **[!UICONTROL OK.]**
+1. **[!UICONTROL 확인을 클릭합니다.]**
 
 ## 보고서 세부기간 지정 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
