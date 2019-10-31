@@ -5,9 +5,9 @@ seo-title: 리드 생성
 solution: Analytics
 title: 리드 생성
 topic: 관리 도구
-uuid: E 7 D 3 CC 4 A -1 BEE -4722-92 C 1-4454 F 7613 D 39
+uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 표준 상거래 이벤트 | 유형 | `s_code` 변수에 설정된 ID |
 |---|---|---|
-| 매출 | 카운터 | `purchase` |
+| 매출  | 카운터 | `purchase` |
 | 주문 | 카운터 | `purchase` |
 | 판매량 | 카운터 | `purchase` |
 | 장바구니 | 카운터 | `scOpen` |
@@ -44,6 +44,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 장바구니 제거 | 카운터 | `scRemove` |
 | 방문 횟수 | 카운터(하위 관계 없음) | N/A |
 | 페이지 보기 횟수 | 카운터(하위 관계 없음) | N/A |
-| 일일 고유 방문자 | 카운터(하위 관계 없음) | N/A |
+| 일일 고유 방문자 수 | 카운터(하위 관계 없음) | N/A |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | N/A |
 
