@@ -1,18 +1,18 @@
 ---
 description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
 seo-description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
-seo-title: 세그먼트 태그 지정
+seo-title: 세그먼트 태깅
 solution: Analytics
-title: 세그먼트 태그 지정
+title: 세그먼트 태깅
 topic: 세그먼트
-uuid: 2 ADB 95 B 8-862 E -439 A -8694-E 2 EE 163066 A 6
+uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 세그먼트 태그 지정
+# 세그먼트 태깅
 
 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
 
@@ -38,4 +38,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 이제 태그가 태그 열에 나타납니다. (열을 관리하려면 오른쪽 위에 있는 톱니바퀴 아이콘 클릭)
 
-**[!UICONTROL 필터]** &gt; **[!UICONTROL 태그로 이동하여 태그를 필터링할]**&#x200B;수도 있습니다.
+You can also filter on tags by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Tags]**.
