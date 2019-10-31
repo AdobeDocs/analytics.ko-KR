@@ -7,7 +7,7 @@ title: 링크 보고서
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 링크 보고서는 현재 페이지에서 찾은 링크에 대해 보고합니다. 이 보고서는 해당 페이지에 대해 수집한 모든 링크에 대해 보고하지는 않습니다.
 
-페이지에 있는 링크 수 보고서에서는 링크에 대한 탭 보기를 제공합니다. 때로 단일 보기로 등급이 지정된 링크 클릭(또는 다른 지표)을 봐야 할 수 있습니다. 이렇게 보면 링크들을 더 잘 비교할 수 있습니다. 페이지에 있는 모든 링크의 등급 목록(링크 ID별), 클릭 정보(횟수 및 비율) 및 페이지의 영역을 포함하는 페이지에 있는 링크 수 보고서를 만드십시오. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
+페이지에 있는 링크 수 보고서에서는 링크에 대한 탭 보기를 제공합니다. 때로 단일 보기로 등급이 지정된 링크 클릭(또는 다른 지표)을 봐야 할 수 있습니다. 이렇게 보면 링크들을 더 잘 비교할 수 있습니다. 페이지에 있는 모든 링크의 등급 목록(링크 ID별), 클릭 정보(횟수 및 비율) 및 페이지의 영역을 포함하는 페이지에 있는 링크 수 보고서를 만드십시오. Activity Map 도구 모음에서 페이지에 있는 링크 수 보고서 단추를 클릭합니다.
 
-**[!UICONTROL 페이지에 있는 링크 수]보고서는 대시보드의 브라우저 프레임 아래에 열립니다.**[!DNL Activity Map]
+**[!UICONTROL 페이지에 있는 링크 수]보고서는 Activity Map 대시보드의 브라우저 프레임 아래에 열립니다.**
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -63,7 +63,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **데이터 필터**
 
-특정 링크에 초점을 맞추려면 **[!UICONTROL 데이터 필터]필드에서 관련 용어를 검색할 수 있습니다.** 검색어와 일치하는 링크에만 오버레이가 있을 수 있습니다. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
+특정 링크에 초점을 맞추려면 **[!UICONTROL 데이터 필터]필드에서 관련 용어를 검색할 수 있습니다.** 검색어와 일치하는 링크에만 오버레이가 있을 수 있습니다. 필터가 없으면, [Activity Map 설정](/help/analyze/activity-map/activitymap-overlay-settings.md)에 지정된 오버레이가 표시됩니다.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
