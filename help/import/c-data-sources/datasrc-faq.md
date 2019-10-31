@@ -3,17 +3,17 @@ description: 이 항목에서는 일반적인 질문에 대한 답변을 제공�
 seo-description: 이 항목에서는 일반적인 질문에 대한 답변을 제공합니다.
 seo-title: Data Sources FAQ
 solution: Analytics
-subtopic: Data Sources
-title: 데이터 소스 FAQ
+subtopic: 데이터 소스
+title: Data Sources FAQ
 topic: 개발자 및 구현
-uuid: 394 a 627 f -093 c -400 a-bfb 3-c 2 aa 24568 deb
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 데이터 소스 FAQ
+# Data Sources FAQ
 
 이 항목에서는 일반적인 질문에 대한 답변을 제공합니다.
 
@@ -33,7 +33,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 예. 다수의 마케팅 보고서는 날짜 열에서 입력되므로 데이터 소스에는 날짜 열이 필요합니다.
 
-## 이미 사용 중인 기존 변수에 데이터를 저장할 수 있습니까? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 데이터 소스를 사용하여 데이터를 가져오려면 새로운 미사용 변수를 선택하는 것이 좋습니다. 데이터 파일의 구성에 대해 잘 모르거나 변수 재사용에 따르는 위험을 더욱 잘 이해하려면 고객 지원 센터에 문의하십시오.
 
@@ -53,7 +53,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 데이터 소스의 데이터를 업로드하면 보고서 인터페이스에서 제공될 지표를 업로드하게 됩니다.
 
-예를 들어 사이트에서 판매하는 제품에 대한 콜 센터 매출을 업로드하면 해당 콜 센터 매출을 온라인 매출과 같은 보고서에서 사용할 수 있게 됩니다. 하지만 이와 함께 방문 횟수를 업로드하지 않았으므로 방문 횟수와 연결하여 사용할 수는 없습니다. Adobe는 일반 마케팅 보고서 지표 외에도 데이터 소스를 통해 업로드한 지표와 요소에 대해서만 보고할 수 있습니다.
+예를 들어 사이트에서 판매하는 제품에 대한 콜 센터 매출을 업로드하면 해당 콜 센터 매출을 온라인 매출과 같은 보고서에서 사용할 수 있게 됩니다. 그러나 방문 횟수는 업로드하지 않았으므로 방문 횟수와 함께 사용할 수 없습니다. Adobe는 일반 마케팅 보고서 지표 외에도 데이터 소스를 통해 업로드한 지표와 요소에 대해서만 보고할 수 있습니다.
 
 ## 데이터 소스를 통해 보고에 음수 값을 전달하면 어떻게 됩니까? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -68,7 +68,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 <table id="table_D5408E0BDB984229B4C60A66BB53CEBB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> 날짜 </code> </p> </td> 
+   <td colname="col1"> <p> <code> Date </code> </p> </td> 
    <td colname="col2"> <p> <code> Event15 </code> </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ## 데이터 소스 업로드 또는 분류 파일에서 파일 확장자는 대소문자를 구분합니까? {#section_710787BA4D8C403D8326D666807832B8}
 
-데이터 소스 업로드 파일 또는 분류 파일의 확장자가 대문자인 경우 파일이 처리되지 않습니다. 데이터 소스 업로드 파일 확장자는 소문자여야 합니다. [!DNL file.TXT][!DNL file.FIN] 예를 들어, 처리되지 않습니다. [!DNL .TAB][!DNL .FIN] 마찬가지로, 처리되지 않습니다. [!DNL .txt][!DNL .fin] 하지만 처리됩니다.
+데이터 소스 업로드 파일 또는 분류 파일의 확장자가 대문자인 경우 파일이 처리되지 않습니다. 데이터 소스 업로드 파일 확장자는 소문자여야 합니다. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. 하지만, [!DNL .txt] 및 [!DNL .fin] 처리됩니다.
 
 ## 생성된 템플릿에 이벤트를 추가할 수 있습니까, 아니면 3개로 제한됩니까? {#section_F184913926DD43B1872956CED308ADB5}
 
@@ -130,7 +130,7 @@ The number of Unique Visitors in a web-server log is calculated as the different
 
 ## 현재 방문자 프로필에서 지속되고 있는 eVar가 데이터 소스를 사용하여 업로드한 지표에 할당되어 있습니까? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-전체 처리에는 아니지만, 거래 ID에 대해서는 할당되어 있습니다. 전체 처리 데이터 소스는 분리된 방문자 프로필을 사용하여 처리됩니다. 따라서 방문자 ID가 일치하더라도 eVar 할당 측면에서는 함께 연결되어 있지 않게 됩니다. 거래 ID 데이터 소스는 주 방문자 프로필에 연결되어 있으므로, 지속적인 eVar는 거래 ID를 사용하여 업로드된 이벤트에 할당됩니다.
+전체 처리에는 아니지만, 거래 ID에 대해서는 할당되어 있습니다. 전체 처리 데이터 소스는 별도의 방문자 프로필을 사용하여 처리되므로 방문자 ID가 일치하더라도 eVar 할당 관점과는 함께 연결되지 않습니다. 거래 ID 데이터 소스는 주 방문자 프로필에 연결되어 있으므로, 지속적인 eVar는 거래 ID를 사용하여 업로드된 이벤트에 할당됩니다.
 
 ## 데이터 소스를 사용하여 업로드된 eVar는 나중의 온라인 행동에까지 지속됩니까? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
