@@ -5,9 +5,9 @@ seo-title: Activity Map 보고
 solution: Analytics
 title: Activity Map 보고
 topic: 보고서
-uuid: 7636 C 670-BB 6 C -4 A 25-823 A -7 BBBBA 0 B 747 B
+uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Analytics에서 Activity Map 보고를 활성화하는 관리 단계입니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL Activity Map]** &gt; **[!UICONTROL Activity Map 보고]**
+**[!UICONTROL Analytics]** 관리 **[!UICONTROL &gt; 보고서]** **** 세트 &gt; **[!UICONTROL <select report suite>]** 보고서 세트 &gt; **[!UICONTROL 설정 편집 &gt;]** **** **[!UICONTROL 설정 편집 &gt; 활동 맵 &gt; 활동 맵 보고]**
 
 Analytics를 사용하여 Activity Map(이전에 ClickMap)에서 제공된 사용자 활동을 수집할 수 있습니다. 이러한 통합을 통해 다음을 수행할 수 있습니다.
 
