@@ -3,26 +3,24 @@ description: 'null'
 seo-description: 'null'
 seo-title: 흐름 개요
 title: 흐름 개요
-uuid: FC 22 B 573-2 D 18-4 C 29-866 C-F 317 C 920 D 27 A
+uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 흐름 개요
 
-흐름 기능은 웹 사이트와 앱을 통해 고객 경로를 보여줍니다.
+흐름 기능은 웹 사이트와 앱의 고객 경로를 보여줍니다.
 
-이를 통해 다음을 수행할 수 있습니다.
+다음과 같은 이점을 제공합니다.
 
 * 웹 사이트나 응용 프로그램 내의 고객 이동 시각화
 * 시작, 특정 차원 또는 종료와 같이, 지정된 체크포인트의 전후에 고객이 이동하는 위치 분석 
 * 선택한 경로에서 특정 지점을 지정하여 세그먼트 생성 
 
->[!NOTE]
->
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports &amp; Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+> [!NOTE] 흐름에 세그먼트를 적용한 결과가 분석 작업 공간과 보고 및 분석/애드혹 분석 간에 어떻게 다를 수 있는지에 대한 자세한 내용은 [흐름 및 폴아웃의 기반으로서 세그멘테이션을 참조하십시오](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [YouTube의 흐름 시각화](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
