@@ -5,10 +5,10 @@ seo-description: 보고서 세트 이름 옆에 있는 i(정보) 아이콘을 �
 seo-title: 가상 보고서 세트 정보 보기
 solution: Analytics
 title: 가상 보고서 세트 정보 보기
-topic: Reports & Analytics
-uuid: 7 AA 9 DA 77-604 E -473 D-A 914-6 C 0 BC 558548 A
+topic: Reports and Analytics
+uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
