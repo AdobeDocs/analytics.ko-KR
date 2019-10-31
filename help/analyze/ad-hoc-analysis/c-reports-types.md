@@ -7,7 +7,7 @@ title: 보고서 유형
 topic: Ad Hoc Analysis
 uuid: 357102eb-a172-40ec-a302-01c87abacb5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -217,7 +217,7 @@ c_reports_site_analysis.xml
 | 화면 크기에 맞게 조정 | 차트의 원래 보기를 복원합니다. |
 | 위에서 보기 | 차트에 대한 하향식 보기를 제공합니다. |
 | 격자 전환 | 격자를 켜거나 끕니다. |
-| 측정기준 | 보고하는 주제 항목. 차원에서 항목을 드래그합니다.. |
+| 측정기준 | 보고하는 주제 항목. 차원에서 항목을 드래그합니다.에서 보냅니다. |
 
 | 옵션 | 설명 |
 |--- |--- |
