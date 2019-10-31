@@ -6,9 +6,9 @@ seo-title: 머천다이징 변수의 인스턴스
 solution: Analytics
 title: 머천다이징 변수의 인스턴스
 topic: 개발자 및 구현
-uuid: 4 cdfd 53 e -88 aa -48 cf-a 135-98 f 7 fc 8 dcece
+uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -50,7 +50,5 @@ s.products=";Fernie Snow Goggles"
 
 결합 이벤트가 발생하지 않는 페이지에서 eVar에 대한 값을 설정하는 경우 또는 결합 이벤트가 없는 제품 문자열에서 eVar 값을 설정하는 경우 "None"으로 할당됩니다.
 
->[!NOTE]
->
->머천다이징 변수의 인스턴스 계산에 대한 현재 기능은 검토 중이며 향후 릴리스에서 변경될 예정입니다.
+> [!NOTE] 머천다이징 변수의 인스턴스 카운트를 위한 현재 기능을 검토 중이며 향후 릴리스에서 변경될 예정입니다.
 
