@@ -5,9 +5,9 @@ seo-title: 계층
 solution: Analytics
 title: 계층
 topic: 보고서
-uuid: 52 F 5 D 0 AF -67 F 7-4439-923 F -4 B 79 BF 1 C 3 FFF
+uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
