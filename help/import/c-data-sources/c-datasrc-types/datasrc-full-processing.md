@@ -3,12 +3,12 @@ description: 데이터 소스는 표준 서버 호출로서 데이터를 처리�
 seo-description: 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 seo-title: 전체 처리
 solution: Analytics
-subtopic: Data Sources
+subtopic: 데이터 소스
 title: 전체 처리
 topic: 개발자 및 구현
-uuid: 590 AE 89 C -6 E 17-453 B-B 701-CE 1 ADBEA 6 FA 4
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,25 +51,26 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>참고: 이 변수는 또한 <code> currency code </code>로서 표준 데이터 소스에서 지원됩니다. </p> </td> 
    <td colname="col3"> <p>매출 통화 코드(예: USD). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>날짜 </p> </td> 
-   <td colname="col3"> <p>ISO 8601 날짜 형식 <code>YYYY-MM-DDThh:mm:ss±UTC_offset</code>(예: <code>2013-09-01T12:00:00-07:00</code>) 또는 Unix 시간 형식(1970년 1월 1일 이후 경과한 초를 나타내는 숫자)을 사용합니다. </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, 즉 &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>전환 eVar 이름. 최대 75개의 eVar를 가질 수 있습니다( <span class="varname"> Evar 1 </span> - <span class="varname"> evar 75 </span>). </p> <p>eVar 이름(eVar12) 또는 친숙한 이름(광고 캠페인 3)을 지정할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>전환 eVar 이름. 최대 75개의 eVar를 가질 수 있습니다( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>eVar 이름(eVar12) 또는 친숙한 이름(광고 캠페인 3)을 지정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
-    <code>scadd, event 1, event 7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -107,14 +108,14 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
    <td colname="col3"> <p>페이지 유형("오류 페이지"). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>pageURL </p> </td> 
-   <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col1"> <p>pageUrl </p> </td> 
+   <td colname="col2"> <p>pageUrl </p> </td> 
+   <td colname="col3"> <p>페이지 URL(예: <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>제품 목록(예: <code>"Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -201,7 +202,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>방문자의 연결 유형( <span class="term"> LAN </span> 또는 <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
