@@ -1,16 +1,16 @@
 ---
 description: 표 또는 선 차트에서 예외 항목을 볼 수 있습니다.
 seo-description: 표 또는 선 차트에서 예외 항목을 볼 수 있습니다.
-seo-title: 분석 작업 공간에서 예외 항목 보기
-title: 분석 작업 공간에서 예외 항목 보기
-uuid: 270 A 7 EA 9-6485-4 C 83-8220-5 A 2200 BD 7200
+seo-title: Analysis Workspace에서 예외 항목 보기
+title: Analysis Workspace에서 예외 항목 보기
+uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 분석 작업 공간에서 예외 항목 보기
+# Analysis Workspace에서 예외 항목 보기
 
 표 또는 선 차트에서 예외 항목을 볼 수 있습니다.
 
