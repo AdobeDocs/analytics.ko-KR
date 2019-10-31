@@ -5,9 +5,9 @@ seo-title: 시작 및 종료
 solution: Analytics
 title: 시작 및 종료
 topic: 보고서
-uuid: 756 DE 55 B -136 B -427 B-A 80 C-F 822260131 B 1
+uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 # 시작 및 종료
 
 >[!NOTE]
->제품 변수에서 여러 값이 있는 히트의 경우 시작 및 종료 횟수가 첫 번째 히트만이 아닌 히트의 모든 제품 값에 적용됩니다.
+>제품 변수에 여러 값이 있는 히트의 경우 시작 및 종료는 첫 번째 히트만이 아닌 히트의 모든 제품 값에 적용됩니다.
 
 시작 페이지 보고서는 사이트에서 새 방문자들이 맨 처음으로 보는 페이지를 백분율과 총 방문 횟수로 보여줍니다.
 
