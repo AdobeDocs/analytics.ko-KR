@@ -5,7 +5,7 @@ seo-title: 관리
 title: 관리
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. 에 [!DNL Experience Cloud]로그인합니다.
+1. Log in to the [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -151,9 +151,3 @@ c_overview_data_sampling.xml
 * (10,000,000 x 365) / 750,000,000 = 4.8
 
 따라서 이 365일 동안의 히트 수를 750,000,000개 미만으로 유지하기 위해 데이터를 4.8:1 비율로 샘플링할 수 있습니다. 정수를 사용하여 샘플링 비율은 5:1이 됩니다.
-
->[!MORE_LIKE_THIS]
->
->* [사용자 ](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [그룹 ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
-
