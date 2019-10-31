@@ -7,8 +7,8 @@ solution: Analytics
 title: AJAX를 사용하여 구현
 topic: 개발자 및 구현
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ AJAX로 구현하는 것은 표준 HTML 페이지에서 코드를 배포하는 �
 JavaScript 코드에는 데이터를 보낼 수 있게 해주는 두 가지 함수가 있는데, 이와 같이 데이터를 보내는 데 사용해야 하는 방법을 알기 위해서는 따라야 할 지침이 있습니다.
 동일한 페이지에서 이전에 이미지 요청이 수행된 경우, 먼저 이전에 설정한 변수의 값을 지워야 합니다. JavaScript용 [!DNL AppMeasurement]의 `clearVars()` 함수를 사용하거나, H 코드를 사용하는 경우 간단한 JavaScript 함수를 작성하여 변수를 지웁니다. 변경된 콘텐츠에 적절한 값, 즉 *`pageName`* 변수를 설정합니다. 변수가 설정되면 *`t()`* 함수를 호출합니다.
 
->[!NOTE]
->
->`s.t()`를 호출하기 전에 s 개체에서 지속하지 않으려는 값이 있으면 삭제해야 합니다. JavaScript용 [!DNL AppMeasurement]를 사용 중인 경우 `s.clearVars()`를 호출할 수 있습니다. H 코드를 사용 중인 경우 간단한 루틴을 작성하여 변수를 빈 문자열로 설정하십시오.
+> [!NOTE]`s.t()` 를 호출하기 전에 s 개체에서 지속하지 않으려는 값이 있으면 삭제해야 합니다. JavaScript용 [!DNL AppMeasurement]를 사용 중인 경우 `s.clearVars()`를 호출할 수 있습니다. H 코드를 사용 중인 경우 간단한 루틴을 작성하여 변수를 빈 문자열로 설정하십시오.
 
 ```js
 s.clearVars(); 
@@ -57,7 +55,7 @@ $.ajax({
 동일한 페이지에서 이전에 이미지 요청이 수행된 경우, 먼저 이전에 설정한 변수의 값을 지우십시오. 지우는 것은 다음 작업을 통해 수행할 수 있습니다.
 
 * 간단한 JavaScript 함수를 작성하여 Adobe 변수 지우기
-*  *`linkTrackVars`* 및 *`linkTrackEvents`* 변수를 [!DNL s_code.js] 파일에서 아직 설정하지 않았다면 설정합니다.
+* Set the *`linkTrackVars`* 및 *`linkTrackEvents`* 변수를 [!DNL s_code.js] 파일에서 아직 설정하지 않았다면 설정합니다.
 
 * 변경된 콘텐츠에 적절한 값, 즉 *`pageName`* 변수를 설정합니다. 
 * 변수가 설정되면 *`tl()`* 함수를 호출합니다.
