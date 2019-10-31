@@ -7,8 +7,8 @@ solution: Analytics
 title: 캠페인 또는 추적 코드에 의한 경로 지정
 topic: 개발자 및 구현
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ s.prop1=s.pageName;
 사용자가 캠페인에서 클릭하지 않았다면 여러분이 모든 페이지에서 이렇게 해야 합니다. 사용자가 캠페인에서 클릭했고 캠페인의 랜딩 페이지에 있는 경우, 여러분은 캠페인과 [!UICONTROL pagename]의 연결로 prop을 채웁니다. 아래를 참조하십시오.
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 클릭한 캠페인의 이름이 "banner1234"였고 랜딩한 페이지의 이름이 "Home Page"였다면, 해당 prop에서의 값은 "banner1234 : Home Page"가 됩니다. 이후의 모든 페이지에서는 위에서 보듯이 prop에 [!UICONTROL pagename]을 입력합니다.
@@ -36,7 +36,7 @@ s.prop1=s.pageName;
 사용자가 이 캠페인을 클릭하고 이 방문에서 총 4개의 페이지를 보면, 여러분은 다음과 같은 순서에 따라 sprop에서 다음 값을 얻습니다.
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 이 방법으로 [!UICONTROL prop1]에서 캡처한 데이터를 확보하고 이 prop에서 경로 지정이 활성화되어 있으면, 이제 다양한 경로 지정 보고서 중 하나를 보고 사용자가 캠페인을 통해 클릭한 후 사이트에서 어떻게 경로를 이동하는지를 이해할 수 있습니다.
