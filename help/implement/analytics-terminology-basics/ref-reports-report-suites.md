@@ -7,8 +7,8 @@ solution: Analytics
 title: 보고서 및 보고서 세트
 topic: 개발자 및 구현
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
-translation-type: ht
-source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,24 +35,24 @@ Adobe Analytics를 구현한 후에 *Analytics 보고서*&#x200B;를 실행할 �
 
 높은 수준의 보고서 유형은 다음과 같습니다.
 
-* [트래픽](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_traffic.html): 방문자가 웹 사이트와 상호 작용하는 방법 및 사용자 지정된 트래픽 통계에 대한 심층적인 통찰력을 제공합니다.
-* [전환](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_conversion.html): 정의한 성공 지표에 대한 정보를 표시합니다.
-* [경로](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_paths.html): 방문자의 전체 탐색 경로를 추적하고 기록할 수 있습니다.
+* [트래픽:](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html) 방문자가 웹 사이트와 상호 작용하는 방법 및 사용자 지정된 트래픽 통계에 대한 심층적인 통찰력을 제공합니다.
+* [변환:](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) 사용자가 정의하는 성공 지표에 대한 정보를 표시합니다.
+* [경로:](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) 방문자의 전체 탐색 경로를 추적하고 기록할 수 있습니다.
 
-[Analysis Workspace](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/)를 사용하여 단일 Analytics 보고서의 일반적인 제한 사항을 제거할 수 있습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 만들고, 회사 동료와 공유할 보고서를 조정하십시오. 
+[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)를 사용하여 단일 Analytics 보고서의 일반적인 제한 사항을 제거할 수 있습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 만들고, 회사 동료와 공유할 보고서를 조정하십시오. 
 
 <p class="head"> <b>참고 항목</b> </p>
 
 * [Analysis Workspace 도움말](/help/analyze/analysis-workspace/analysis-workspace-features.md)
 * [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
-* [실시간 보고서](https://marketing.adobe.com/resources/help/ko_KR/reference/realtime.html)
-* [Adobe Report Builder](https://marketing.adobe.com/resources/help/ko_KR/arb/) 도움말
-* [데이터 추출](https://marketing.adobe.com/resources/help/ko_KR/sc/user/data_extract.html)
-* [Activity Map](https://marketing.adobe.com/resources/help/ko_KR/analytics/activitymap/)
-* [보고서 세트 관리자](https://marketing.adobe.com/resources/help/ko_KR/reference/report_suites_admin.html)
-* [Analytics 제품 비교 및 요구 사항](https://marketing.adobe.com/resources/help/ko_KR/reference/analytics-product-comparison.html)
-* [보고서 설명](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_descriptions.html)
-* [대시보드 및 Reportlet](https://marketing.adobe.com/resources/help/ko_KR/sc/user/dashboard.html)
+* [실시간 보고서](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
+* [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 도움말
+* [데이터 추출](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
+* [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
+* [보고서 세트 관리자](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
+* [Analytics 제품 비교 및 요구 사항](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+* [보고서 설명](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
+* [대시보드 및 Reportlet](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
 * [책갈피](/help/analyze/reports-analytics/bookmarks.md)
 * [가상 보고서 세트](/help/components/vrs/vrs-about.md)
 * [예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
