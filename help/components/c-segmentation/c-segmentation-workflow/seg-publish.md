@@ -7,7 +7,7 @@ title: Experience Cloud에 세그먼트 게시
 topic: 세그먼트
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: cd2d9f90c548d3bb32a57faa47b185dc25db1d5a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Experience Cloud에 세그먼트를 게시하면 대상 라이브러리, [!UICON
 
 이제 처리에는 최대 8시간이 소요될 수 있지만, 다른 트래픽 및 세그먼트 크기에 따라 처리 속도가 더욱 빨라질 수 있습니다. (그러나 현재 세그먼트를 사용할 수 있는 방법은 없으므로 수동으로 확인해야 합니다.) 또한 게시 가능한 최대 세그먼트 수를 75개(20개)로 늘렸습니다. 구성 요소 &gt; 세그먼트에서 게시된 세그먼트를 볼 수 있습니다.
 
->[!NOTE]
->
->Adobe Campaign(Classic 및 Standard)은 8시간 지연 외에 24시간 추가 지연을 발생한다는 점에서 다르게 작동합니다.
+> [!NOTE] Adobe Campaign(Classic 및 Standard)은 8시간 지연 외에 24시간 추가 지연을 발생한다는 점에서 다르게 작동합니다.
 
 
 ## 전제 조건
@@ -77,9 +75,7 @@ Experience Cloud에 세그먼트를 게시하면 대상 라이브러리, [!UICON
 
 Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 취소해야 합니다. 세그먼트 게시를 취소하려면 게시할 때 사용한 확인란을 **클릭하여 선택 취소**&#x200B;하면 됩니다.
 
->[!NOTE]
->
->현재 다음 Adobe 솔루션에서 사용 중인 세그먼트를 게시 취소&#x200B;**할 수 없습니다**. [!DNL Analytics]([!DNL Audience Analytics]에서), [!DNL Campaign], [!DNL Advertising Cloud]([!DNL Core Service] 및 [!DNL Audience Manager] 고객용) 및 기타 모든 외부 파트너([!DNL Audience Manager] 고객용). [!DNL Target]에서 사용 중인 세그먼트의 게시를 취소&#x200B;**할 수 있습니다**.
+> [!NOTE] 현재 다음 Adobe 솔루션에서 사용 중인 세그먼트를 게시 취소&#x200B;**할 수 없습니다**. [!DNL Analytics]([!DNL Audience Analytics]에서), [!DNL Campaign], [!DNL Advertising Cloud]([!DNL Core Service] 및 [!DNL Audience Manager] 고객용) 및 기타 모든 외부 파트너([!DNL Audience Manager] 고객용). [!DNL Target]에서 사용 중인 세그먼트의 게시를 취소&#x200B;**할 수 있습니다**.
 
 ## 세그먼트 관리자에서 세그먼트 게시 [!UICONTROL 상태 보기]
 
