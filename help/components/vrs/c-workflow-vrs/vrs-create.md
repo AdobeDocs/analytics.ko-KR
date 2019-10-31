@@ -5,10 +5,10 @@ seo-description: 다음은 가상 보고서 세트 만들기를 시작하기 전
 seo-title: 가상 보고서 세트 만들기
 solution: Analytics
 title: 가상 보고서 세트 만들기
-topic: Reports & Analytics
-uuid: 022 a 6656-808 e -4 c 92-b 7 ec -4 d 2 a 42 e 84 fa 8
+topic: Reports and Analytics
+uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 관리자가 아닌 사용자에게는 가상 보고서 세트 관리자가 표시되지 않습니다.
 * 가상 보고서 세트를 공유할 수 없습니다. "공유"는 그룹/권한을 통해 수행됩니다.
-* 가상 보고서 세트 관리자에서 고유한 가상 보고서 세트만 볼 수 있습니다. 모든 사용자의 가상 보고서 세트를 표시하려면 “모두 표시”를 클릭해야 합니다.
+* 가상 보고서 세트 관리자에서 고유한 가상 보고서 세트만 볼 수 있습니다. "모두 표시"를 클릭해서 다른 사람의 사진을 확인해야 합니다.
 
-1. **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 가상 보고서 세트로 이동합니다]**.
-1. Click **[!UICONTROL Add +]**.
+1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
+1. **[!UICONTROL 추가를 클릭합니다 +]**.
 
    ![](assets/new_vrs.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 이름 </td> 
+   <td colname="col1">  이름  </td> 
    <td colname="col2"> <p>가상 보고서 세트 이름은 상위 보고서 세트에서 상속되지 않으므로 구분해야 합니다. </p> </td> 
   </tr> 
   <tr> 
