@@ -5,9 +5,9 @@ seo-title: JavaScript 지원
 solution: Analytics
 title: JavaScript 지원
 topic: 보고서
-uuid: 7 B 95001 A-CD 35-478 A -8 B 24-54 D 30666110 D
+uuid: 7b95001a-cd35-478a-8b24-54d3066110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 장치의 JavaScript 사용 설정 여부 또는 장치가 "식별되지 않음"으로 카운트되었는지 여부를 기준으로 지표를 표시합니다.
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] 2016년 11월 초에 JavaScript가 항상 모바일 장치용으로 나열된 제한을 제거할 *`disabled / unidentified`* 예정입니다.
 
 JavaScript 보고서는 원시 데이터에서 javascript 열에 해당합니다.
 
