@@ -3,9 +3,9 @@ description: 중요한 값이 다른 성능 범위(목표)에 대해 비교되�
 seo-description: 중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 확인할 수 있도록 해줍니다.
 seo-title: 글머리 기호 그래프
 title: 글머리 기호 그래프
-uuid: 2 F 133189-2 A 50-45 AF-B 225-7 D 2 B 433 FBEF 5
+uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,4 +16,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/bullet-image.png)
 
-글머리 기호 그래프는 단일 기본 측정값 (예: 현재 년간의 매출) 를 포함하며, 품질 범위 성능 범위를 입력할 수 있습니다 (예: 목표 매출과 비교). 높음, 중간 및 낮음을 지정할 수 있습니다.  [!UICONTROL 시각화 설정]에서 목표 범위를 지정할 수 있습니다.
+글머리 기호 그래프는 단일 기본 측정 단위(예: 현재 연간 누계 매출)를 포함하며, 질적 범위 성능 범위(예: 목표 매출과 비교)를 입력할 수 있습니다. 높음, 보통, 낮음을 지정할 수 있습니다.  [!UICONTROL 시각화 설정]에서 목표 범위를 지정할 수 있습니다.
