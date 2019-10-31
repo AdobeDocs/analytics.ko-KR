@@ -5,9 +5,9 @@ seo-title: 요청 이름 지정
 solution: Analytics
 title: 요청 이름 지정
 topic: Report Builder
-uuid: 111326 EB -33 E 2-490 B -9 A 04-0 F 481 A 70 E 072
+uuid: 11326eb-33e2-490b-9a04-0f481a70e072
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,4 +16,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 요청에 대한 사용자 지정 이름을 지정할 수 있으며 이것은 요청 관리자에 표시됩니다.
 
-For more information, see [Format Display Headers](../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831).
+자세한 내용은 표시 머리글 [형식을 참조하십시오](../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831).
