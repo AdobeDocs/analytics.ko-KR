@@ -7,8 +7,8 @@ solution: Analytics
 title: 속성 및 지속성
 topic: 개발자 및 구현
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. [Adobe Experience Cloud Device Co-op 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcdc/)를 참조하십시오.
+>장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. Adobe Experience [Cloud Device Co-op 설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
 
