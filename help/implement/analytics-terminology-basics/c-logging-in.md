@@ -5,16 +5,16 @@ seo-title: 로그인하는 중
 title: 로그인하는 중
 uuid: 1e6a269d-8aa4-470b-9452-2d0ff1ff6f4a
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 로그인하는 중
 
-## Adobe에 로그인 [!DNL Experience Cloud]{#section_03EA6DA657FA41C2ADE5FFC4F3AD1825}
+## Adobe에 로그인 [!DNL Experience Cloud] {#section_03EA6DA657FA41C2ADE5FFC4F3AD1825}
 
-Adobe에 로그인하여 Analytics [!DNL Experience Cloud] 에 액세스하는 방법에 대한 자세한 내용은 [도움말의 로그인 및 프로필 설정](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html) [!DNL Experience Cloud] 관리를 참조하십시오.
+To learn how to log in to Adobe [!DNL Experience Cloud] to get access to Analytics, refer to [Sign in and manage your profile settings](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html) in the [!DNL Experience Cloud] help.
 
 >[!IMPORTANT]
 >
