@@ -5,7 +5,7 @@ seo-title: Adobe Analytics 및 GDPR
 title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -16,15 +16,13 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ## Adobe 개요 {#section_E582A1D77583410EBB790BB646854A2C}
 
->[!IMPORTANT]
->
->이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 자세한 내용은 회사의 법무 부서에 문의하십시오.
+> [!IMPORTANT] 이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 자세한 내용은 회사의 법무 부서에 문의하십시오.
 
-2018년 5월 25일, 유럽 연합의 개인 정보 보호 규정(GDPR)이 발효되었습니다. For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
+2018년 5월 25일에 유럽 연합의 GDPR(General Data Protection Regulation)가 발효되었습니다. For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 
-Adobe에서는 기업에 소프트웨어 및 서비스를 제공할 때 서비스 제공의 일부로 고객을 대신하여 수신 및 저장하는 개인 데이터에 대한 데이터 처리자 역할을 합니다. Adobe는 데이터 처리자로서 회사의 사용 권한 및 지침에 따라(예: Adobe와의 계약에 명시된 대로) 개인 데이터를 처리합니다.
+Adobe에서는 기업에 소프트웨어 및 서비스를 제공할 때 서비스 제공의 일부로 고객을 대신하여 수신 및 저장하는 개인 데이터에 대한 데이터 처리자 역할을 합니다. 데이터 처리자로서 Adobe는 회사의 허가 및 지침(예: Adobe와의 계약에 명시된 경우)에 따라 개인 데이터를 처리합니다.
 
-데이터 관리자는 Adobe가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다. Adobe Experience Cloud 솔루션을 사용하는 경우 Adobe에서는 사용자가 사용하는 솔루션 및 Adobe Experience Cloud 계정에 전송하기 위해 선택한 정보에 따라 개인 데이터를 호스팅할 수 있습니다. For a list of examples, see [Adobe Experience Cloud privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
+귀하는 데이터 제어자로서 Adobe가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다. Adobe Experience Cloud 솔루션을 사용하는 경우 Adobe에서는 사용자가 사용하는 솔루션 및 Adobe Experience Cloud 계정에 전송하기 위해 선택한 정보에 따라 개인 데이터를 호스팅할 수 있습니다. For a list of examples, see [Adobe Experience Cloud privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
@@ -49,9 +47,6 @@ To that end, Adobe Analytics provides a Data Governance user interface that lets
 * Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
 * GDPR 삭제 및 액세스 요청을 적용할 수 있도록 각 보고서 세트에 대한 데이터 보존 정책을 설정합니다.
 
-   >[!NOTE]
-   >
-   >Adobe Analytics에서는 데이터 보존 기간이 Adobe Analytics에서 설정되지 않은 경우, GDPR API에 대한 요청 처리(즉, 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리)를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Customer Success Manager에 문의하십시오.
+   > [!NOTE] 데이터 보존 기간을 Adobe Analytics에 설정하지 않은 경우 Adobe Analytics에서 GDPR API에 대한 요청 처리, 즉 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Customer Success Manager에 문의하십시오.
 
 * 사용 권한을 확인합니다. Adobe Analytics의 데이터 거버넌스 관리 인터페이스를 사용하려면 Adobe Analytics 관리자여야 합니다.
-
