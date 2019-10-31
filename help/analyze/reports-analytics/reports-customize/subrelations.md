@@ -4,10 +4,10 @@ seo-description: 전체 하위 관계는 모든 전환 보고서에서 활성화
 seo-title: 하위 관계
 solution: Analytics
 title: 하위 관계
-topic: Reports & Analytics
-uuid: CA 6 DF 50 F -5 D 4 C -4 F 91-BF 27-86 CCD 01391 A 2
+topic: Reports and Analytics
+uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
