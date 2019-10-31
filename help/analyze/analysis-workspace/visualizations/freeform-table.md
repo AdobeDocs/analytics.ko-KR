@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 자유 형식 테이블
 title: 자유 형식 테이블
-uuid: EB 272991-9 F 12-4 B 67-8 B 38-7 ED 548139 A 1 D
+uuid: eb272991-9f12-4b67-8b38-7ed548139a1d
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
