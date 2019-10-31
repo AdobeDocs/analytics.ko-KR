@@ -5,9 +5,9 @@ seo-title: 레퍼러
 solution: Analytics
 title: 레퍼러
 topic: 보고서
-uuid: E 63 B 47 B 4-49 F 3-43 AF -8409-3272 BEC 0484 E
+uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-## 내용 {#section_B83A3571D64E4E7792712FAF740D7955}
+## 참고 {#section_B83A3571D64E4E7792712FAF740D7955}
 
 * 레퍼러, 레퍼러 유형 및 참조 도메인은 방문의 첫 번째 히트에서, 또는 레퍼러가 외부인 방문 동안(예: 방문자가 사이트를 떠나고, 검색 엔진을 사용한 다음 첫 번째 방문이 만료되기 전에 사이트로 돌아오는 경우) 설정됩니다. 이 값들은 동시에 설정되며, 방문 전체에서 지속됩니다.
 * 내부 URL은 필터링됩니다. 내부 URL 필터에 대응하지 않는 레퍼러만 이 보고서에 있습니다.
