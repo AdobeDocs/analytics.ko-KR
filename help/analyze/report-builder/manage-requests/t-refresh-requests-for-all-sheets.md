@@ -5,9 +5,9 @@ seo-title: 모든 시트에 대한 요청 새로 고침
 solution: Analytics
 title: 모든 시트에 대한 요청 새로 고침
 topic: Report Builder
-uuid: 7 AA 3 A 206-6 B 14-40 C 1-8 E 18-51998 F 02649 E
+uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 여로 요청을 새로 고치면 시스템은 요청이 원본 요청인지 종속 요청인지 여부를 기반으로 요청을 수집하여 우선 순위를 매깁니다. 새로 고침 진행 상태에 대한 메시지가 표시됩니다. 새로 고침 프로세스는 요청하는 데이터 양에 따라 수 분까지 소요될 수 있습니다.
 
-1. **[!UICONTROL 관리를]**&#x200B;클릭합니다.
+1. Click **[!UICONTROL Manage]**.
 1. Enable **[!UICONTROL All Sheets]**.
-1. **[!UICONTROL 새로 고침을]**&#x200B;클릭합니다.
+1. Click **[!UICONTROL Refresh]**.
 1. Specify a date reference, then click **[!UICONTROL OK]**.
