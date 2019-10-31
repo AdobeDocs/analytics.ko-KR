@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Analysis Workspace에서 AAM 세그먼트는 두 가지 차원으로 나타납�
 
 ## 세그먼트 비교 {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[세그먼트 비교](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)는 두 세그먼트 사이에서 통계적으로 중요한 차이를 검색합니다. 대상 데이터는 세그먼트 비교에서 1) 비교되는 두 세그먼트로, 2) "상위 측정기준 항목" 표에 있는 항목으로 사용됩니다.
+[세그먼트 비교](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)는 두 세그먼트 사이에서 통계적으로 중요한 차이를 검색합니다. 세그먼트 비교에서는 다음 두 가지 방법으로 대상 데이터를 사용할 수 있습니다.1) 비교되는 2개의 세그먼트로, 2) "상위 차원 항목" 테이블의 항목으로
 
 1. **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 왼쪽 레일에서 **세그먼트 비교[!UICONTROL 패널을 선택합니다.]**
 
@@ -37,13 +37,13 @@ Analysis Workspace에서 AAM 세그먼트는 두 가지 차원으로 나타납�
 1. (선택 사항): 다른 차원 항목이나 세그먼트를 가져올 수 있으며, 최대 2개를 비교할 수 있습니다.
 1. **[!UICONTROL 작성을 클릭합니다]**.
 
-   대상 ID 및 이름 차원은 비교 대상인 두 세그먼트에 대한 추가 프로필 데이터이므로, "상위 측정기준 항목" 표에 자동으로 표시됩니다.
+   대상 ID와 이름 차원은 비교되는 두 세그먼트에 대한 추가 프로필 데이터이므로 "상위 차원 항목" 표에 자동으로 나타납니다.
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace에서 고객 움직임(흐름) {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Analysis Workspace에서 고객 움직임(흐름){#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트(예: "인지도")에 속할 수 있으므로 나중에 보다 적절한 세그먼트(예: "고려 사항") 대상일 수 있습니다. Analysis Workspace에서 [흐름](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)을 사용하여 방문자가 대상 사이를 이동하는 경로를 시각화할 수 있습니다.
+AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자가 한 세그먼트(예:"인식")을 선택한 다음 보다 적합한 세그먼트(예:"고려"). Analysis Workspace에서 [흐름](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)을 사용하여 방문자가 대상 사이를 이동하는 경로를 시각화할 수 있습니다.
 
 1. **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 왼쪽 레일에서 **흐름[!UICONTROL 시각화를 선택합니다.]**
 
