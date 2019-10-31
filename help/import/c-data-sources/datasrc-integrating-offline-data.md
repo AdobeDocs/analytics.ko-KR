@@ -3,19 +3,19 @@ description: 데이터 소스는 온라인 데이터에 대해 오프라인으�
 seo-description: 데이터 소스는 온라인 데이터에 대해 오프라인으로 발생하는 이벤트를 통합할 수 있는 2가지 추가 방법을 제공합니다.
 seo-title: 거래 및 고객 통합
 solution: Analytics
-subtopic: Data Sources
+subtopic: 데이터 소스
 title: 거래 및 고객 통합
 topic: 개발자 및 구현
-uuid: 71 F 73 A 47-3436-4314-A 182-36 DE 4 BD 935 BA
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 거래 및 고객 통합
 
-Data Sources는 온라인 데이터에 발생하는 이벤트를 통합하는 두 가지 추가 방법을 제공합니다.
+Data Sources는 온라인 데이터에 오프라인으로 발생하는 이벤트를 통합하는 두 가지 추가 방법을 제공합니다.
 
 * [거래 ID 기록 활성화](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [거래 통합](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Data Sources는 온라인 데이터에 발생하는 이벤트를 통합하는 �
 
 ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정할 수 있습니다.
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[! Uicontrol[보고서 세트 선택]]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 일반 계정 설정을]**&#x200B;선택합니다.
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 고객 ID는 고객의 오프라인 활동을 지정하고 이를 온라인 활동에 연결하는 데 사용됩니다. 다음 경우에 사용해야 합니다.
 
-* 고객 ID가 *`visitorID`* 변수.
+* 고객 ID가 *`visitorID`* 변수를 채우는 방법을 설명합니다. 
 * 리드 제출 또는 구매와 같이, 고객 활동이 오프라인으로 이동하는 지정된 지점이 없는 경우.
 
-이러한 유형의 데이터 소스를 구성하려면 다음을 참조하십시오. [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+이러한 유형의 데이터 소스를 구성하려면 다음을 참조하십시오. [방문자 ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 
 ## 거래 통합 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -68,4 +68,4 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 이것은 거래 ID 데이터가 방문과는 연결되어 있지 않지만(오프라인 이벤트는 보통 온라인 이벤트에 속하지 않으므로), 방문자와는 연결되어 있기 때문입니다.
 
-see [거래 ID](../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776).
+자세한 내용은 [거래 ID](../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776).
