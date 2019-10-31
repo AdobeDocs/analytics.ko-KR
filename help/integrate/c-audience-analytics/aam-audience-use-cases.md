@@ -1,20 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 고객 분석 활용 사례
-title: 고객 분석 활용 사례
-uuid: 51 c 0576 c-CE 8 A -4 a 87-9 C 8 F-BE 193 E 50279 D
+seo-title: Audience Analytics 활용 사례
+title: Audience Analytics 활용 사례
+uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 고객 분석 활용 사례
+# Audience Analytics 활용 사례
 
 ## 광고 판매 및 컨텐츠 결정 {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-미디어 퍼블리셔는 크기뿐 아니라 대상 효율성 지표를 광고 판매 팀에 제공할 수 있습니다. 또한 "30대에 처음 엄마가 된 여성"과 같은 특정 인구 통계학 세그먼트에 가장 잘 어울리는 컨텐츠를 결정할 수 있습니다.
+미디어 퍼블리셔는 크기뿐 아니라 대상 효율성 지표를 광고 판매 팀에 제공할 수 있습니다. 또한 "첫 번째 엄마인 30대 여성"과 같은 특정 인구 통계 세그먼트에서 가장 효과적인 컨텐츠를 파악할 수 있습니다.
 
 ## 기회 재타깃팅 {#section_29C46BA00B3D43CE8A433EA64072D952}
 
