@@ -8,28 +8,26 @@ title: FAQ
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # FAQ{#frequently-asked-questions}
 
-## Data Connectors 마법사가 내 로그인 자격 증명을 수락하지 않는 이유는 무엇입니까? {#section-f019b3de18774df3954af7881aa564fa}
+## Why won't the Data Connectors wizard accept my login credentials? {#section-f019b3de18774df3954af7881aa564fa}
 
 로그인 자격 증명이 올바른지 확인한 경우에는 다음으로 통합에 제공한 사용자 이름이 API 액세스에 대해 활성화되었는지 확인합니다. Data Connectors 마법사는 DFA API를 사용하여 로그인 자격 증명을 확인하고 DFA API에서 Adobe 특정 설정을 끄고 켭니다. API 액세스는 관리자가 DFA 인터페이스 내에서 켜야 하는 설정입니다. 그런 다음 마법사에서 선택한 광고주 ID 또는 Floodlight 구성 ID에 대한 액세스 권한이 있는지 확인합니다.
 
 ## 밤마다 업로드한 지표(DFA 노출 횟수, DFA 클릭 수 등)의 데이터가 표시되지 않는 이유는 무엇입니까? {#section-465fd22ae6b447ffb6baf20b57daa433}
 
-통합 버전 1.5를 사용하는 경우 통합이 클라이언트 사이트 ID에 아직 할당되지 않았기 때문일 수 있습니다. 밤마다 교환이 발생하고 DFA 광고 서버에서 데이터를 요청하려면 CSID(클라이언트 사이트 ID)가 필요합니다. CSID는 통합일로부터 Google과 교환하는 데 최대 3일이 걸릴 수 있습니다. Google에서 CSID를 받으면 최신 JavaScript 코드와 함께 새 CSID의 통합 이메일 주소로 알림을 받을 것입니다.
+통합 버전 1.5를 사용하는 경우 통합이 클라이언트 사이트 ID에 아직 할당되지 않았기 때문일 수 있습니다. 밤마다 교환이 발생하고 DFA 광고 서버에서 데이터를 요청하려면 CSID(클라이언트 사이트 ID)가 필요합니다. CSID는 통합일로부터 Google과 교환하는 데 최대 3일이 걸릴 수 있습니다. CSID가 Google에서 수신되면 최신 JavaScript 코드와 함께 새 CSID의 통합 이메일 주소를 통해 알림을 받게 됩니다.
 
 3일이 지난 후에도 설정 이메일을 받지 못하고 지표가 입력되지 않은 경우 가장 가능성 있는 문제는 CSID가 이미 다른 통합에 할당되었다는 것입니다. Google은 CSID와 보고서 세트 간에 1:1 매핑을 유지합니다. 즉, 한 보고서 세트의 통합이 다른 보고서 세트의 다른 통합과 같은 광고주 ID를 사용하면 첫 번째 보고서 세트에만 CS ID가 할당됩니다. CSID를 매핑할 보고서 세트 또는 광고주 ID를 변경하려면 Google 지원 팀과 함께 티켓을 열어야 합니다.
 
 예를 들어, 광고주 ID Z가 있는 보고서 세트 A에 CSID가 할당되는 통합이 있다고 가정합니다. 다른 통합은 광고주 Z가 있는 보고서 세트 B에서 나중에 설정되는 경우 이 최신 통합이 CSID에 재할당되지 않습니다. 이 경우 Google 티켓이 필요합니다. 하지만 광고주 ID Z를 통해 보고서 세트 A에서 통합의 예를 가져오고 나중에 다른 통합을 보고서 세트 A에 가져오면 광고주 Z가 설정됩니다. 첫 번째 통합만 통합에 대한 데이터를 받습니다. 하지만, 이 경우 첫 번째 통합을 비활성화하면 데이터가 두 번째 통합에 입력됩니다.
 
->[!NOTE]
->
->CSID는 통합 버전 2.0에서 사용되지 않으므로 CSID 협상 프로세스가 적용되지 않습니다.
+> [!NOTE] CSID는 통합 버전 2.0에서 사용되지 않으므로 CSID 협상 프로세스가 적용되지 않습니다.
 
 ## 통합 버전 2.0을 사용하는 데 내 DFA 광고에 대한 비용 지표가 표시되지 않습니다. 이유가 무엇입니까? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -39,13 +37,13 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 clicktrackers라고 하는 클릭 데이터만 기록하는 몇 가지 광고가 있습니다. 이러한 유형의 광고는 Floodlight 서버에 쿼리하면 마지막 노출 횟수 데이터를 반환하지 않습니다. 특정 광고가 clicktracker이거나 클릭 전용 광고인지 확인하려면 DFA 에이전시 또는 Google 지원 담당자에게 문의하십시오.
 
-## DFA 클릭 수를 표시하는 광고에 클릭스루가 없는 이유는 무엇입니까? {#section-758c1f1fc5b54bfc9294dcdc71bbd96a}
+## Why aren't there any click-throughs for ads that show DFA Clicks? {#section-758c1f1fc5b54bfc9294dcdc71bbd96a}
 
 이에 대한 여러 가지 답변 중 하나는 다음과 같습니다.
 
 먼저, 문제가 있는 광고에 (a) 불일치가 표시된 동일한 보고서 세트에 대해 Adobe 코드 태그가 지정되고 (b) *`clickThroughParam`* 쿼리 문자열 매개 변수가 포함된 랜딩 페이지 URL이 있는지 확인합니다.
 
-두 번째, 성공적인 DFA 통합 확인의 단계를 수행하여 작업 [통합이 있는지 확인합니다](../dfa-data-connector-analytics/dfa-integration.md). 랜딩 페이지에서 Adobe 히트를 통해 DFA 추적 코드가 도착한 것이 보이면 클릭스루가 DFA 캠페인 보고서에 표시되는 것을 볼 수 있습니다. 도착했는지 모를 경우 랜딩 페이지의 *`s.account`* 변수와 보고 및 분석에서 본 보고서 세트 간에 보고서 세트가 일치하는지 확인합니다. 이들이 일치하면 뷰스루 eVar 보고서에서 추적 코드가 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX 형식인지 확인합니다.
+두 번째, 성공적인 DFA 통합 확인의 단계를 수행하여 작업 [통합이 있는지 확인합니다](../dfa-data-connector-analytics/dfa-integration.md). 랜딩 페이지에서 Adobe 히트를 통해 DFA 추적 코드가 도착한 것이 보이면 클릭스루가 DFA 캠페인 보고서에 표시되는 것을 볼 수 있습니다. 결과가 표시되지 않는 경우 보고서 세트가 랜딩 페이지의 *`s.account`* 변수와 보고 및 분석에서 보고 중인 보고서 세트 간에 일치하는지 확인하십시오. 이들이 일치하면 뷰스루 eVar 보고서에서 추적 코드가 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX 형식인지 확인합니다.
 
 이들은 DFA에서 원시 데이터를 다이제스트하는 DFA VISTA 규칙 오류를 나타냅니다. 이 문제는 Adobe 계정 담당자를 통해 지원 티켓을 열어서 해결할 수 있습니다.
 
