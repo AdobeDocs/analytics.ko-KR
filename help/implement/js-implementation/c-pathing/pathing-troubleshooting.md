@@ -7,8 +7,8 @@ solution: Analytics
 title: 경로 지정이 기록되지 않을 수 있는 원인
 topic: 개발자 및 구현
 uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
