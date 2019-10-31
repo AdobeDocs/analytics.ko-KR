@@ -5,9 +5,9 @@ seo-title: 차원 설명
 solution: Analytics
 title: 차원 설명
 topic: 보고서
-uuid: 8518 AACB-A 407-4 FA 8-BC 25-6 B 349 C 44528 A
+uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Reports &amp; Analytics에서 사용할 수 있는 사전 정의된 보고서의 정의 및 Analysis Workspace 등의 다른 Analytics 도구에서 사용할 수 있는 측정기준의 정의.
 
-차원은 보고서에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 원래 보고서 유형 지표의 분류를 분류하거나 분류한 숫자가 아닌 값 및 날짜입니다.
+차원은 보고서에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 이 값은 분류되거나 원래 보고서 유형 지표의 분류인 숫자가 아닌 값 및 날짜입니다.
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
