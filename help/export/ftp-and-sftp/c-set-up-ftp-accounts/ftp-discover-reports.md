@@ -1,18 +1,18 @@
 ---
 description: 보고서를 자동으로 이메일 주소 또는 FTP 서버로 보내도록 배달 일정을 설정할 수 있습니다.
-keywords: ftp; Sftp
+keywords: ftp;sftp
 seo-description: 보고서를 자동으로 이메일 주소 또는 FTP 서버로 보내도록 배달 일정을 설정할 수 있습니다.
-seo-title: 애드혹 분석 배달된 보고서
+seo-title: Ad Hoc Analysis 게재된 보고서
 solution: Analytics
-title: 애드혹 분석 배달된 보고서
-uuid: 9 a 26 FB 77-9 CEC -40 A 3-B 994-2266926692637902
+title: Ad Hoc Analysis 게재된 보고서
+uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 애드혹 분석 배달된 보고서
+# Ad Hoc Analysis 게재된 보고서
 
 보고서를 자동으로 이메일 주소 또는 FTP 서버로 보내도록 배달 일정을 설정할 수 있습니다.
 
