@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 반복 요청 예약
 title: 반복 요청 예약
-uuid: 8 Ebeb 78 c -23 A 0-4 B 39-A 63 E -51835 E 0677 A 8
+uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
