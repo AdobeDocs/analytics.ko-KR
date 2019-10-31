@@ -5,7 +5,7 @@ seo-title: 보고서 메뉴
 title: 보고서 메뉴
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 보고서 목록에서 찾으려면 탭 키 또는 아래쪽 화살표 키(?)를 누릅니다. Esc 키를 눌러 현재 보고서를 변경하지 않고 검색을 닫거나, Enter 키를 눌러 선택한 보고서를 로드합니다.
 
->[!NOTE]
->
->prop, eVar 및 이벤트 번호별로 보고서 목록을 검색할 수도 있습니다. 검색 창에서 prop, eVar 또는 이벤트 번호를 입력합니다.
+> [!NOTE] prop, eVar 및 이벤트 번호별로 보고서 목록을 검색할 수도 있습니다. 검색 창에서 prop, eVar 또는 이벤트 번호를 입력합니다.
 
 ## 탐색 개요 {#section_A6A0A369207149BABE504753B48A42D7}
 
