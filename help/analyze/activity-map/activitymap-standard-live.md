@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map]은 페이지 활동에 대한 보조 보고를 제공하기 위해 두 가지 기본 모드를 제공합니다.'
-seo-description: '[!DNL Activity Map]은 페이지 활동에 대한 보조 보고를 제공하기 위해 두 가지 기본 모드를 제공합니다.'
+description: Activity Map에서는 페이지 활동의 보조 보고 기능을 제공하기 위해 두 가지 기본 모드를 제공합니다.
+seo-description: Activity Map에서는 페이지 활동의 보조 보고 기능을 제공하기 위해 두 가지 기본 모드를 제공합니다.
 seo-title: 표준 모드와 라이브 모드 비교
 solution: Analytics
 title: 표준 모드와 라이브 모드 비교
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 표준 모드와 라이브 모드 비교
 
-[!DNL Activity Map] 페이지 활동에 대한 보조 보고를 제공하기 위한 두 가지 기본 모드를 제공합니다.
+Activity Map에서는 페이지 활동의 보조 보고 기능을 제공하기 위해 두 가지 기본 모드를 제공합니다.
 
 * 표준 모드에서 - [페이지에 있는 링크 수 보고서](/help/analyze/activity-map/activitymap-links-report.md)에 전체 날짜 범위에 대해 집계한, 하루 범위에서 여러 날 범위까지의 링크 데이터가 표시됩니다.
 * 라이브 모드에는 활동 트렌드 보고서가 실시간으로 표시됩니다.
@@ -31,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Q: 페이지의 별도 지역에 링크 이름이 동일한 링크가 있다면 어떻게 합니까? 페이지에서 링크 이름이 동일하지만 지역이 다르므로 두 링크는 따로따로 크레딧을 받습니까?
 
-A: 링크 데이터를 집계하는 방식에 따라 다릅니다. In [!DNL Activity Map], we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. 이 경우, 지역이 다르므로, 링크|지역이 구별되며, 따라서 첫 번째 링크|지역에 대한 할당된 모든 매출은 두 번째 링크에 대해 할당된 모든 매출과 달라집니다. 하지만 Adobe Analytics UI에서는 주어진 페이지에 대한 링크 ID 보고서(링크|지역 보고서)만 볼 수 있습니다(링크로 나눠진 페이지). 이 경우, 매출은 두 지역 모두에서 집계됩니다.
+A: 링크 데이터를 집계하는 방식에 따라 다릅니다. Activity Map에서는 주어진 페이지에 대한 링크 ID|지역을 보게 되므로 할당된 데이터는 "링크 ID|지역" 조합용으로 사용됩니다. 이 경우, 지역이 다르므로, 링크|지역이 구별되며, 따라서 첫 번째 링크|지역에 대한 할당된 모든 매출은 두 번째 링크에 대해 할당된 모든 매출과 달라집니다. 하지만 Adobe Analytics UI에서는 주어진 페이지에 대한 링크 ID 보고서(링크|지역 보고서)만 볼 수 있습니다(링크로 나눠진 페이지). 이 경우, 매출은 두 지역 모두에서 집계됩니다.
 
 ## 라이브 모드 {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
