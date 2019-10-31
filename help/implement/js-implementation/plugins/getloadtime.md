@@ -7,8 +7,8 @@ solution: Analytics
 title: getLoadTime
 topic: 개발자 및 구현
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 이 플러그인을 사용하려면 함수 코드를 삽입한 후 [!DNL s_code.js] 파일에서 함수를 두 번 호출합니다. 파일 시작 부분에서 한 번 호출하고 `doPlugins` 섹션에서 다시 한 번 호출합니다. 이 플러그인은 의도적으로 s 개체의 방법으로 정의되지 않았습니다. 그렇게 한다면 페이지 로드 시간 계산에 추가될 것입니다.
 
->[!NOTE]
->
->다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
+> [!NOTE] 다음 지침을 따르려면 사이트에서 데이터 수집 코드를 변경해야 합니다. 이 작업은 사이트의 데이터 수집에 영향을 줄 수 있으며 [!DNL Analytics] 사용 및 구현 경험이 풍부한 개발자가 수행해야만 합니다.
 
 ## 플러그인 코드 및 구현 {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -55,7 +53,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **(선택 사항) 오래된 브라우저에 대한 지원 추가**
 
-[window.performance.timing](https://www.html5rocks.com/ko/tutorials/webperformance/basics/) 속성을 제공하지 않는 오래된 브라우저를 지원하려면 페이지 HTML의 시작 부분의 HEAD 섹션과 .js, .css 또는 다른 파일 호출 앞에 다음 라인을 추가합니다.
+[window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) 속성을 제공하지 않는 오래된 브라우저를 지원하려면 페이지 HTML의 시작 부분과 .js, .css 또는 다른 파일 호출 앞의 HEAD 섹션에 다음 라인을 추가합니다.
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
