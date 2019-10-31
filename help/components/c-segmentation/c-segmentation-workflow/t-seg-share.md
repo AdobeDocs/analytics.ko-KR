@@ -5,9 +5,9 @@ seo-title: 세그먼트 공유
 solution: Analytics
 title: 세그먼트 공유
 topic: 세그먼트
-uuid: 48736078-85 A 7-49 BD-B 8 B 8-562818798 C 5 E
+uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,4 +39,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
     세그먼트 옆에 공유 아이콘이 표시됩니다.![](assets/share_icon.png)
 
-1. **[!UICONTROL 필터]** &gt; **[!UICONTROL 기타 필터]** &gt; 나와 **[!UICONTROL 공유로 이동하여 사용자와 공유되는 세그먼트를 필터링할]**&#x200B;수 있습니다.
+1. You can filter on segments shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
