@@ -5,9 +5,9 @@ seo-title: 검색 방법
 solution: Analytics
 title: 검색 방법
 topic: 관리 도구
-uuid: 1053993 e -7 fc 4-4874-84 fa -367 ecdcd 7 b 45
+uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매하는 방문자를 해당 사이트로 안내하는 경우, 검색 방법은 검색 엔진이 참조에 대한 크레딧을 받는 방법을 지정합니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정]** 편집 &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 검색 방법]**.
+**[!UICONTROL Analytics]** 관리 **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정]** 편집 &gt; 전환 **[!UICONTROL &gt; 전환 &gt; 검색]** **** ****&#x200B;방법.
 
 ## 검색 방법 설명 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 이름 </td> 
+   <td colname="col1">  이름  </td> 
    <td colname="col2"> 수정할 검색 방법 </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
->[!NOTE]
->
->모든 검색 방법은 방문이 종료될 때 만료됩니다. 다른 이벤트(예: 장바구니 체크아웃) 이후에 만료되도록 선택하면 방문 중에 장바구니 체크아웃이 발생할 때 검색 방법이 만료됩니다. 방문 중에 장바구니 체크아웃이 발생하지 않으면 방문이 종료될 때 검색 방법이 만료됩니다.
+> [!NOTE] 모든 검색 방법은 방문이 종료되면 만료됩니다. 다른 이벤트(예: 장바구니 체크아웃) 이후에 만료되도록 선택하면 방문 중에 장바구니 체크아웃이 발생할 때 검색 방법이 만료됩니다. 방문 중에 장바구니 체크아웃이 발생하지 않으면 방문이 종료될 때 검색 방법이 만료됩니다.
 
