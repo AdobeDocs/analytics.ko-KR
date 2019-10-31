@@ -1,16 +1,16 @@
 ---
 description: Analysis Workspace의 실행 취소 옵션에 대한 변경 사항 및 개선 사항.
 seo-description: Analysis Workspace의 실행 취소 옵션에 대한 변경 사항 및 개선 사항.
-seo-title: 설정 실행 취소 및 다시 실행
-title: 설정 실행 취소 및 다시 실행
-uuid: A 4 DBC 169-5 FD 7-4383-AEE 0-6 B 5 BA 1 C 235 AB
+seo-title: 실행 취소 및 다시 실행 설정
+title: 실행 취소 및 다시 실행 설정
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 설정 실행 취소 및 다시 실행
+# 실행 취소 및 다시 실행 설정
 
 **[!UICONTROL 작업 영역]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 실행 취소/다시 실행]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * 보고서 세트 변경을 실행 취소/다시 실행할 수 있습니다.
 * 프로젝트 이름 근처에 실행 취소/다시 실행 메시지가 표시됩니다. 이 메시지는 실행 취소나 다시 실행이 진행 중이면 표시됩니다.
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* 다음 [핫키를](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)사용할 수 있습니다.
 
    * CTRL(CMD)+Z: 실행 취소
    * CTRL(CMD)+SHIFT+Z: 다시 실행
