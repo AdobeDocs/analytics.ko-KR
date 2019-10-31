@@ -1,13 +1,13 @@
 ---
 description: 이상 현상 발견 기능에서는 통계적 모델링 방법을 사용하여 데이터에서 예상치 않은 트렌드를 자동으로 찾습니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상 범위를 결정합니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다.
 seo-description: 이상 현상 발견 기능에서는 통계적 모델링 방법을 사용하여 데이터에서 예상치 않은 트렌드를 자동으로 찾습니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상 범위를 결정합니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다.
-seo-title: 예외 검색
+seo-title: 예외 항목 탐지
 solution: Analytics
 title: 예외 항목 탐지
 topic: Report Builder
-uuid: 02 DA 21 B 4-3394-471 B -97 B 5-AA 1 BDDF 1 F 445
+uuid: 02da21b4-3394-47 파섹
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 비디오 버퍼 이벤트의 스파이크
 * 낮은 비디오 비트율의 스파이크
 
->[!NOTE]
->
->예외 항목 탐지는 일 세부기간을 선택하는 경우에만 사용할 수 있습니다.
+> [!NOTE] 예외 항목 탐지는 일 세부기간을 선택하는 경우에만 사용할 수 있습니다.
 
 <p class="head"> <b>예외 항목 탐지 지표</b> </p>
 
