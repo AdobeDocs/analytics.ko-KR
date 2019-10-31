@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 분류
 title: 전환 분류
 topic: 관리 도구
-uuid: 4 c 8726 c 9-f 527-44 e 1-be 01-8 c 7 b 3 b 5 c 20 f 0
+uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 유료 검색 캠페인을 "팝 뮤직 용어" 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
 
-## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
+## 전환 분류 {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 유료 검색 캠페인을 *팝 뮤직 용어* 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
 
@@ -64,8 +64,8 @@ t_classification_conversion.xml
 
 관리에서 전환 분류를 추가하는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. 보고서 세트를 선택합니다.
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 보고서 세트 선택.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. **분류 유형 선택** 드롭다운 목록에서 분류를 추가하려는 변수를 선택합니다.
 
@@ -75,11 +75,11 @@ t_classification_conversion.xml
 1. **유형 선택** 필드에서 변수에 추가하려는 분류 유형을 선택합니다.
 
    Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
-1. **[!UICONTROL 텍스트 분류]** 대화 상자에서 원하는 대로 분류를 구성합니다.
+1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
    이러한 요소에 대한 자세한 내용은 [전환 분류 설명](../../components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4)을 참조하십시오.
 
-1. **[!UICONTROL 드롭다운 목록]** 대화 상자에서 옵션을 추가하거나 제거합니다.
+1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 
    옵션을 추가하면 이 분류에 사용 가능한 분류 값 목록이 만들어집니다. 캠페인 변수와 함께 이 옵션을 사용하여 캠페인 관리자에서 분류에 대해 지원되는 값 목록을 사용자에게 제공할 수 있습니다. 거의 변경되지 않거나 절대 변경되지 않는 작은 수의 허용된 값이 있는 분류 측정기준에 대해 사용하십시오. 예를 들어, 실버, 골드 및 팬티엄과 같이 다양한 수준의 고객 충성도를 대상으로 하는 다양한 캠페인을 실행할 수 있습니다. 그런 다음 드롭다운 목록을 사용하여 수락되는 값만 세 수준과 일치하는 값이 되도록 할 수 있습니다. 다른 값을 사용하는 경우는 무시됩니다.
 1. **[!UICONTROL 저장을 클릭합니다]**.
@@ -95,7 +95,7 @@ t_classification_delete_conversion.xml
 더 이상 필요하지 않은 전환 분류를 삭제합니다.
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. 보고서 세트를 선택합니다.
+1. 보고서 세트 선택.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. **분류 유형 선택** 드롭다운 목록에서 분류를 삭제하려는 변수를 선택합니다.
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
