@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 폴아웃 개요
 title: 폴아웃 개요
-uuid: 2 D 98899 E-E 401-4 D 7 A -8 AF 0-DE 0002 F 84178
+uuid: 2d98899e-e401-4d7a-8af0-de002f84178
 translation-type: tm+mt
-source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 * 일반적이고 폭 넓은 범위의 트래픽 흐름: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
 * 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인 정보 보호 정책을 본 방문자 중 제품을 구매한 비율을 보여줍니다.
 
-[YouTube의 폴아웃 시각화](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
+[YouTube 폴아웃 시각화](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
 
 ## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
@@ -54,7 +54,7 @@ Reports &amp; Analytics와 Ad Hoc Analysis는 세그먼트를 각 단계와 결�
 
 그러나 패널에 적용된 세그먼트가 폴아웃의 수준보다 작으면(예: 히트 수준) 세그먼트는 보고서에서 결합된 방식으로 인해 다른 결과를 보여줍니다. 다시 말해·대부분의 경우 Analysis Workspace의 숫자가 Reports &amp; Analytics 및 Ad Hoc Analysis의 숫자와 일치합니다. 이 숫자들은 아래의 모든 경우가 참인 경우에만 일치하지 **않습니다**.
 
-* 세그먼트가 폴아웃과 같은 수준에 있지 않습니다.
+* 세그먼트가 폴아웃과 같은 수준이 아닙니다.
 * 방문/방문자에 여러 값이 있는 세그먼트에는 변수가 있습니다.
 
 드물지만 Analysis Workspace에서 세그먼트를 폴아웃/흐름 적용하는 Reports &amp; Analytics 방식을 일치시켜야 할 경우에는 세그먼트를 Workspace의 각 폴아웃 단계에 놓기만 하면 동일한 숫자가 생성됩니다.
