@@ -5,9 +5,9 @@ seo-title: 이전 페이지
 solution: Analytics
 title: 이전 페이지
 topic: 보고서
-uuid: 743 D 9931-25 ED -4782-A 10 A-DA 25 C 4 F 89480
+uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
