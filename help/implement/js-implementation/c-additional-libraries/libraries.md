@@ -6,9 +6,9 @@ seo-title: 추가 라이브러리 개요
 solution: Analytics
 title: 추가 라이브러리 개요
 topic: 개발자 및 구현
-uuid: 1ec291f6-07 파섹
+uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
  <tbody> 
   <tr> 
    <td colname="col1"> 웹 브라우저 </td> 
-   <td colname="col2"> <p>모든 Experience Cloud 고객은 모든 솔루션에 대한 JavaScript 및 HTML 페이지 태그를 웹 사이트로 배포하는 표준인 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external">다이내믹 태그 관리</a>에 액세스할 수 있습니다. </p> <p>JavaScript 및 HTML 측정을 구현하는 다른 방법은 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/" format="http" scope="external">Analytics 구현 안내서</a>에 설명되어 있습니다. </p> </td> 
+   <td colname="col2"> <p>모든 Experience Cloud 고객은 모든 솔루션에 대한 JavaScript 및 HTML 페이지 태그를 웹 사이트로 배포하는 표준인 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external">Dynamic Tag Management</a>에 액세스할 수 있습니다. </p> <p>JavaScript 및 HTML 측정을 구현하는 다른 방법은 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/" format="http" scope="external">Analytics 구현 안내서</a>에 설명되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 웹 서버 </td> 
