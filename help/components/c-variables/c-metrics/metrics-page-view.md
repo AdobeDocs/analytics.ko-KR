@@ -5,9 +5,9 @@ seo-title: 페이지 보기
 solution: Analytics
 title: 페이지 보기
 topic: 지표
-uuid: 85004 C 72-2369-44 A 9-A 97 F-F 2 E 144 A 54 C 90
+uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
