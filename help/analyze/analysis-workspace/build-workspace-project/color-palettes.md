@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 색상 팔레트
 title: 색상 팔레트
-uuid: 18252889-8 DC 0-48 FA -820 F-DF 534156 C 22 F
+uuid: 18252889-8dc0-48fa-820f-df534156c22f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,20 +14,18 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 다른 색상 팔레트에서 선택하거나 기업의 브랜드 색상을 일치시킬 수 있는 사용자가 보유한 팔레트를 지정하여 작업 영역에서 사용되는 시각화 색상 팔레트를 변경할 수 있습니다. 이 기능은 작업 영역의 대부분 시각화에 영향을 주지만 **요약 변경 사항, 자유 형식 테이블의 조건부 서식 설정, 맵 시각화에는 영향을 미치지 않습니다**.
 
->[!NOTE]
->
->Internet Explorer 11 에서는 색상 팔레트 지원이 활성화되지 않습니다.
+> [!NOTE] Internet Explorer 11에서는 색상 팔레트 지원을 사용할 수 없습니다.
 
 ![](assets/color_palettes.png)
 
 다음 사항에 주의하십시오.
 
-* 5개의 사전 설정된 색상 팔레트 중에서 선택할 수 있습니다. 기본 팔레트 및 아래는 최적의 대비를 위해 최적화되었으며 색맹인 사용자에게는 모두 더 쉽게 액세스할 수 있습니다.
+* 5개의 사전 설정된 색상 팔레트 중에서 선택할 수 있습니다. 기본 팔레트 및 아래 팔레트는 최적의 대비를 위해 최적화되었으며 시각 장애인이 이용할 수 있도록 최적화되었습니다.
 * 상위 2개 팔레트의 아래에 있는 3~5번째 색상 팔레트는 색상 조화에 최적화되었습니다.
 
 ## 색상 팔레트 변경:
 
-1. **[!UICONTROL 작업 영역]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정으로 이동합니다]**.
+1. Navigate to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]**.
 1. **[!UICONTROL 프로젝트 색상 팔레트]드롭다운에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.**
 
    ![](assets/custom_palette.png)
