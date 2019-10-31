@@ -9,7 +9,7 @@ title: 컨텍스트 데이터 변수
 topic: 개발자 및 구현
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 코드에서 값을 prop 및 eVar에 명시적으로 할당하는 대신 처리 규칙을 사용하여 매핑되는 컨텍스트 데이터 변수에 데이터를 전송할 수 있습니다. 처리 규칙은 데이터를 수신할 때 데이터를 변경하는 강력한 그래픽 인터페이스를 제공합니다. 컨텍스트 데이터에서 전송된 값을 기반으로 하여 이벤트를 설정하고 eVars 및 props에 값을 복사하고 추가 조건문을 실행할 수 있습니다.
 
->[!NOTE]
->
->Context data variables are not case sensitive. 예를 들어 다음 2개 변수는 사실상 동일합니다.
+> [!NOTE] 컨텍스트 데이터 변수는 대/소문자를 구분하지 않습니다. 예를 들어 다음 2개 변수는 사실상 동일합니다.
 >```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
@@ -33,7 +31,7 @@ source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 컨텍스트 데이터를 사용하면 다른 보고서 세트 구성을 지원하기 위해 코드를 업데이트하는 것이 방지됩니다.
 
-예를 들어 *`s.contextData`* variable:
+예를 들어  다음 *`s.contextData`* 변수를 정의할 수 있습니다.
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -57,14 +55,14 @@ s.contextData['myco.rsid'] = 'value'
  <tbody> 
   <tr> 
    <td colname="col1"> <p>지원되는 이름 및 문자 </p> </td> 
-   <td colname="col2"> <p>컨텍스트 데이터 변수 이름은 영숫자, 밑줄 및 점만 포함할 수 있습니다. 모든 추가적인 문자는 삭제됩니다. 컨텍스트 데이터 변수에는 숫자 지정이 없고, 오히려 이름이 지정됩니다. </p> <p>예를 들어 컨텍스트 데이터 변수 <code>login_page-home</code>은 자동으로 <code>login_pagehome</code>이 됩니다 . <code>login_page-home</code> 변수로 전송된 모든 데이터는 <code>login_pagehome</code>에 할당됩니다 . </p> </td> 
+   <td colname="col2"> <p>컨텍스트 데이터 변수 이름은 영숫자, 밑줄 및 점만 포함할 수 있습니다. 모든 추가적인 문자는 삭제됩니다. 컨텍스트 데이터 변수에는 숫자 지정이 없고, 오히려 이름이 지정됩니다. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>네임스페이스 </p> </td> 
-   <td colname="col2"> <p>회사 이름, 사이트 이름 또는 유사한 값을 변수 앞에 붙여 보고서 세트에서 이름이 고유하게 하는 것이 좋습니다. </p> <p>컨텍스트 데이터 변수는 기타 JavaScript 변수와 유사한 이름으로 지정될 수 있습니다. 네임스페이스 <code>a.*</code>는 컨텍스트 변수 이름에서 Adobe 제품이 사용하도록 예약되어 있음을 알아두십시오. 예를 들어 iOS용 AppMeasurement 라이브러리는 <code>a.InstallEvent</code>를 사용하여 애플리케이션 설치를 측정합니다. </p> </td> 
+   <td colname="col2"> <p>회사 이름, 사이트 이름 또는 유사한 값을 변수 앞에 붙여 보고서 세트에서 이름이 고유하게 하는 것이 좋습니다. </p> <p>컨텍스트 데이터 변수는 기타 JavaScript 변수와 유사한 이름으로 지정될 수 있습니다. Be aware that the namespace <code> a.* </code> is reserved for use by Adobe products in context variable names. 예를 들어 iOS용 AppMeasurement 라이브러리는 <code> a.InstallEvent </code>를 사용하여 애플리케이션 설치를 측정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>URL Limits for Internet Explorer </p> </td> 
+   <td colname="col1"> <p>Internet Explorer에 대한 URL 제한 </p> </td> 
    <td colname="col2"> <p>Internet Explorer 6 및 7의 경우 URL이 2000바이트에서 잘리는 오래된 URL 제한이 있을 수 있습니다. <span class="keyword">DigitalPulse</span> Debugger를 사용하여 URL 문자열 크기를 결정할 수 있습니다. </p> <p>AppMeasurement(2014년 9월)의 최신 업데이트가 있으면 Internet Explorer 8+에 HTTP POST가 사용되어 URL이 잘리는 문제가 해결됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +84,7 @@ s.tl(true,"o","Link Name");
 
 ## 예 {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-처리 규칙이 각각에 대해 올바르게 설정되었다고 가정하고 *`s.pageName`* 변수의 구현을 바꿀 수 있는 방법:
+처리 규칙이 각각에 대해 올바르게 설정되었다고 가정할 경우, *`s.pageName`* 변수의 구현을 바꿀 수 있는 방법은 다음과 같습니다.
 
 ```
 s.contextData['page'] = "Home Page" 
