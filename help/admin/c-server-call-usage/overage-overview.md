@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 서버 호출 사용량 개요
 title: 서버 호출 사용량 개요
-uuid: 6 E 014364-EFC 1-4769-A 0 B 5-CF 105 C 0 ED 9 B 1
+uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호출 사용량 데이터에 대한 투명성 요청을 해결합니다. 다음에 액세스할 수 있습니다.
 
 * 서버 호출 사용량 데이터를 추적하고 계약상 한계와 비교하는 서버 호출 사용량 대시보드입니다. (**[!UICONTROL Analytics &gt; 관리자 &gt; 서버 호출 사용량]**)
-* A Server Call Usage alert type in the Alert Builder that lets you set up alerts to prevent overages (**[!UICONTROL Analytics &gt; Components &gt;Alerts]**)
+* 초과 사용을 방지하기 위해 경고를 설정할 수 있는 경고 빌더의 서버 호출 사용 경고 유형(Analytics &gt; 구성 요소&#x200B;**[!UICONTROL &gt; 경고]**)
 
 서버 호출 사용량의 주요 이점은 다음과 같습니다.
 
@@ -29,7 +29,7 @@ Previously, while you could access monthly server call consumption data under  *
 ## 전제 조건 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **권한**: 서버 호출 사용량 대시보드 및 경고 빌더/관리자에 액세스하려면 Adobe Analytics 관리자여야 합니다.
-* **권한**: 관리자는 관리자가 아닌 사람에게 액세스 권한을 부여할 수 있습니다. 이 권한을 서버 호출 사용이라고 ****&#x200B;합니다. [서버 호출 사용 권한을 참조하십시오](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **권한**:관리자는 관리자가 아닌 사용자에게 액세스 권한을 부여할 수 있습니다.이 권한은 서버 호출 **[!UICONTROL 사용이라고 합니다]**. See [Server Call Usage Permission](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## 중요한 용어 {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -45,7 +45,7 @@ Previously, while you could access monthly server call consumption data under  *
  <tbody> 
   <tr> 
    <td colname="col1"> <p>서버 호출 </p> </td> 
-   <td colname="col2"> <p>서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서, "히트" 또는 "이미지 요청"이라고도 합니다. 가장 일반적인 서버 호출 유형은 페이지 보기입니다. 페이지 보기는 방문자가 웹 사이트의 페이지를 보고 Adobe로 서버 호출이 생성되어 정보를 수집, 처리 및 보고서 지표에 포함한 경우 발생합니다. </p> <p>데이터를 처리하기 위해 Adobe로 보내지만 새 페이지 보기로 기록되지 않는 종료 링크 및 파일 다운로드 등의 다른 서버 호출 유형이 있습니다. "제외된" 페이지 보기 횟수도(예: IP 주소 범위를 구성하여 보고서에서 제외) Adobe에서 수신 및 처리하지만 보고서에는 표시되지 않기 때문에 호출로 취급됩니다. </p> <p><b>주 서버 호출</b>: 웹 사이트 방문자 브라우저 또는 데이터 삽입 API에서 직접 받은 요청입니다. 기본 방문 횟수(페이지 보기 횟수), 기본 사용자 지정 이벤트, 기본 다운로드 이벤트 및 기본 종료 이벤트를 포함합니다. </p> <p><b>보조 서버 호출</b>: 다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본입니다. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p><b>모바일 기본 서버 호출 </b> </p> <p>Mobile SDK 중 하나에서 직접 받은 요청입니다. Trackaction, trackstate, trackapp 충돌, trackactionfrombackground, tracklocation, trackbeacon, trackpushmessageclickthrough, tracktimedactionbacklog, tracklifetimevalueincrease 등을 포함합니다.</p> <p><b>모바일 보조 서버 호출</b> </p> <p>다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p>참고:: 계약에 따라 귀사에 모바일 서버 호출(기본 또는 보조)에 대해서만 권한이 부여된 경우 웹과 모바일 특정 사용량은 모두 모바일 특정 약정에 따라 계산됩니다. </p> </td> 
+   <td colname="col2"> <p>서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서, "히트" 또는 "이미지 요청"이라고도 합니다. 가장 일반적인 서버 호출 유형은 페이지 보기입니다. 방문자가 웹 사이트의 페이지를 보고 Adobe에 서버 호출이 생성되어 정보가 수집, 처리된 후 보고서 지표에 포함되는 페이지 보기가 발생합니다. </p> <p>데이터를 처리하기 위해 Adobe로 보내지만 새 페이지 보기로 기록되지 않는 종료 링크 및 파일 다운로드 등의 다른 서버 호출 유형이 있습니다. "제외된" 페이지 보기 횟수도(예: IP 주소 범위를 구성하여 보고서에서 제외) Adobe에서 수신 및 처리하지만 보고서에는 표시되지 않기 때문에 호출로 취급됩니다. </p> <p><b>주 서버 호출</b>: 웹 사이트 방문자 브라우저 또는 데이터 삽입 API에서 직접 받은 요청입니다. 기본 방문 횟수(페이지 보기 횟수), 기본 사용자 지정 이벤트, 기본 다운로드 이벤트 및 기본 종료 이벤트를 포함합니다. </p> <p><b>보조 서버 호출</b>: 다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본입니다. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p><b>모바일 기본 서버 호출 </b> </p> <p>Mobile SDK 중 하나에서 직접 받은 요청 trackAction, trackState, trackApp 충돌, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease를 포함합니다.</p> <p><b>모바일 보조 서버 호출</b> </p> <p>다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p>참고:: 계약에 따라 귀사에 모바일 서버 호출(기본 또는 보조)에 대해서만 권한이 부여된 경우 웹과 모바일 특정 사용량은 모두 모바일 특정 약정에 따라 계산됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>청구 회사(청구 ID) </p> </td> 
@@ -63,7 +63,7 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 조직 </p> </td> 
-   <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품과 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 해주는 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>서버 호출 약정 </p> </td> 
@@ -75,7 +75,7 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>계약 기간 </p> </td> 
-   <td colname="col2"> <p>계약 기간은 여러 해 동안 지속될 수 있습니다. 귀사에 계약 기간 3년 동안 6백만 개의 서버 호출 약정이 있다고 가정해 봅시다. 서버 호출 사용량 모니터링의 목적으로 이 3 년 기간을 더 적은 사용 기간으로 분류하여 전년 대비 비교를 용이하게 할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>계약 기간은 여러 해 동안 지속될 수 있습니다. 귀사에 계약 기간 3년 동안 6백만 개의 서버 호출 약정이 있다고 가정해 봅시다. 서버 호출 사용 모니터링을 위해 이 3년 기간을 더 적은 사용 기간으로 분류하여 연간 비교를 용이하게 할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +84,7 @@ Previously, while you could access monthly server call consumption data under  *
 
 서버 통화 사용량 권한은 자동으로 분석 관리자에게 부여됩니다. 이를 통해 사용자는 대시보드를 보고 서버 호출 경고를 작성할 수 있습니다. 관리자는 이 권한을 관리자가 아닌 사용자에게 부여하도록 선택할 수 있습니다.
 
->[!NOTE]
->
->회사는 서버 호출 액세스에 액세스할 수 있는 로그인 회사를 선택할 수 있습니다.
+> [!NOTE] 회사는 서버 호출 사용에 액세스할 수 있는 로그인 회사를 선택할 수 있습니다.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -106,7 +104,7 @@ Previously, while you could access monthly server call consumption data under  *
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">login. experiencecloud. adobe. com에 로그인합니다.</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">login.experiencecloud.adobe.com에 로그인합니다.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9"><span class="uicontrol">Analytics</span>를 클릭합니다 . </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF"><span class="ignoretag"><span class="uicontrol">제품</span> &gt; <span class="uicontrol">제품 프로필</span> &gt; <span class="uicontrol">권한</span> &gt; <span class="uicontrol">Analytics 도구</span> &gt; <span class="uicontrol">서버 호출 사용량</span></span>으로 이동합니다. </li> 
     </ol> </td> 
