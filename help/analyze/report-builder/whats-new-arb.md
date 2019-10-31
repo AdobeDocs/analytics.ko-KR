@@ -1,16 +1,16 @@
 ---
 description: 현재 및 이전 릴리스와 해당 기능을 나열합니다.
 seo-description: 현재 및 이전 릴리스와 해당 기능을 나열합니다.
-seo-title: 리포트 빌더의 새로운 기능
-title: 리포트 빌더의 새로운 기능
-uuid: 20 F 4 A 839-0667-45 A 7-B 037-0357 D 0 E 23010
+seo-title: Report Builder의 새로운 기능
+title: Report Builder의 새로운 기능
+uuid: 20f4a839-0667-45a7-b037-0357d0e2 파섹
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 리포트 빌더의 새로운 기능
+# Report Builder의 새로운 기능
 
 현재 및 이전 릴리스와 해당 기능을 나열합니다.
 
@@ -20,11 +20,11 @@ source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
 
 여러 지표 편집 기능을 사용하면 이미 존재하는 요청 그룹에서 지표를 쉽게 추가, 제거 또는 교체할 수 있습니다.
 
-자세한 내용은 [여러 요청에 대한 지표 편집](../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+자세한 내용은 여러 [요청에서 지표 편집을](../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB)참조하십시오.
 
 ## Report Builder 5.5
 
-**Report Builder 5.5를 사용하여 Power BI에 게시**
+**Report Builder 5.5로 Power BI에 게시**
 
 Microsoft Power BI는 데이터를 분석하고 통찰력을 공유할 수 있는 비즈니스 분석 대시보드 세트입니다. Power BI와의 Adobe Analytics 통합을 통해 Microsoft Power BI 내에서 Report Builder Analytics 데이터를 시각화하고 조직에서 쉽게 공유할 수 있습니다.
 
@@ -42,7 +42,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **로그인 보안** [새로운 로그인 화면](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)외에, 표준 리포트 빌더 로그인은 OAuth 인증 프레임워크를 기반으로 더욱 안전한 인증 프로세스를 제공합니다.
+* **향상된 로그인 보안** 표준 리포트 빌더 로그인은 [새 로그인 화면](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)외에도 OAuth 인증 프레임워크를 기반으로 보다 안전한 인증 프로세스를 제공합니다.
 
 ## Report Builder 5.3
 
@@ -54,7 +54,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 * **계산된 지표** 리포트 빌더 5.2는 Adobe Analytics [통합 계산된 지표를 지원합니다](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4). 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
 
-* **보고서 및 지표 검색 기능 향상** 더 많은 [eVar 및 이벤트](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)가 Adobe Analytics에 추가되면서 Adobe Report Builder에서 제공하는 보고서와 지표의 수가 크게 증가하고 있습니다. In order to simplify the search, a couple of new search bars have been added to the Request Wizard: one for [report search](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) and one to search for [metrics](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
+* **보고서 및 지표 검색 기능 향상** 더 많은 [eVar 및 이벤트](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)가 Adobe Analytics에 추가되면서 Adobe Report Builder에서 제공하는 보고서와 지표의 수가 크게 증가하고 있습니다. 검색을 단순화하기 위해 몇 개의 새 검색 막대가 요청 마법사에 추가되었습니다.보고서 [검색과](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) [지표를](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4)검색할 수 있는 보고서 검색용
 
-* **고객 속성** 고객 속성은 Visattr 이라는 새로운 유형의 요소에 저장되며, 이것은 차원 또는 지표로 구성할 수 있습니다. 사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)을 참조하십시오.
+* **고객** 속성 고객 속성은 차원 또는 지표로 구성할 수 있는 VisAttr이라는 새로운 유형의 요소에 저장됩니다. 사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)을 참조하십시오.
 
