@@ -8,7 +8,7 @@ title: 대시보드 및 Reportlet
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ A dashboard is a collection of thumbnail reports called *`reportlets`*. 대시�
 * 실시간 보고서
 * 기타 대시보드
 
->[!NOTE]
->
->The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. 하지만 여전히 일부 또는 모든 Reportlet을 보게 되는 2가지 상황이 있습니다.
+> [!NOTE] 사이트 **[!UICONTROL 개요]** 대시보드가 더 이상 보고 및 분석에 표시되지 않습니다. 하지만 여전히 일부 또는 모든 Reportlet을 보게 되는 2가지 상황이 있습니다.
 
 * 자주 본 보고서가 3개뿐인 경우 Reports &amp; Analytics에서는 사이트 개요 대시보드에서 보고서 2개를 가져와 **[!UICONTROL 내 권장 보고서]대시보드를 완료합니다.**
 * 새 보고서 세트는 자주 보는 보고서로 대체될 때까지 처음의 사이트 개요 Reportlet 기능을 가지고 있습니다. 그렇지만 이제 대시보드는 **[!UICONTROL 내 권장 보고서라고 불리게 됩니다]**.
