@@ -5,9 +5,9 @@ seo-title: 첫 구매까지 소요된 일 수
 solution: Analytics
 title: 첫 구매까지 소요된 일 수
 topic: 보고서
-uuid: 8 CEEA 9 E 8-2 B 81-44 F 1-B 4 C 0-AA 6542 EEBA 2 B
+uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eba2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
