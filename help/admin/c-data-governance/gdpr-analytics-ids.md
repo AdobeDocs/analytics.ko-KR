@@ -5,16 +5,14 @@ seo-title: 레이블 지정 우수 사례
 title: 레이블 지정 우수 사례
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 레이블 지정 우수 사례
 
->[!NOTE]
->
->새 보고서 세트를 만들 때마다 또는 기존 보고서 세트 내에서 새 변수가 활성화될 때마다 레이블 지정을 검토해야 합니다. 또한, 새로운 솔루션 통합이 활성화된 경우 레이블 지정이 필요할 수 있는 새로운 변수를 노출할 수 있으므로 레이블 지정을 검토해야 할 수 있습니다. 모바일 앱 또는 웹 사이트를 재구현하면 기존 변수가 사용되는 방식이 변경될 수 있으며, 이로 인해 레이블 업데이트가 필요할 수도 있습니다.
+> [!NOTE] 새 보고서 세트를 작성할 때마다 또는 기존 보고서 세트 내에서 새 변수를 활성화하는 경우 레이블 지정을 검토해야 합니다. 또한, 새로운 솔루션 통합이 활성화된 경우 레이블 지정이 필요할 수 있는 새로운 변수를 노출할 수 있으므로 레이블 지정을 검토해야 할 수 있습니다. 모바일 앱 또는 웹 사이트를 재구현하면 기존 변수가 사용되는 방식이 변경될 수 있으며, 이로 인해 레이블 업데이트가 필요할 수도 있습니다.
 
 ## 직접 또는 간접적으로 식별 가능한 ID {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -48,7 +46,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
    <td colname="col1"> <p>쿠키 ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> (기존) Analytics 쿠키 </a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 이전에 MCID(Marketing Cloud ID) </a> 로 알려진 ECID(Identity Service 쿠키) </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> 이전에 MCID(Marketing Cloud ID)로 알려진 ECID(<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Identity Service 쿠키</a>) </li> 
     </ul> </td> 
    <td colname="col2"> <p>이러한 쿠키는 장치, 그중에서도 장치 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 장치의 경우 이 ID는 장치의 모든 사용자에게 적용될 수 있습니다. Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID(Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽을 수 있는 API 호출이 있으므로 데이터 개인 정보 보호 요청에 대해 앱을 수집하도록 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 장치의 ID로 간주합니다. 그 결과, 법률 팀과 협의하여, 이들은 데이터 개인 정보 보호 요청에 대해 허용되는 ID로 사용을 지원하지 않도록 선택하거나, 이러한 ID를 사용하거나 삭제 요청에 대해서만 허용하기로 선택할 수 있습니다. </p> <p>이러한 쿠키에는 I2 및 DEL-DEVICE 레이블뿐만 아니라 변경할 수 없는 ID-DEVICE 레이블이 있습니다. 기본 Adobe Analytics 구성은 장치 유형, OS, 브라우저 등과 같은 장치에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 아래 설명된 대로 데이터 개인 정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인 정보 액세스 요청에 대해 반환하려는 정확한 필드 세트를 구성할 수 있습니다. </p> <p>특히 보고서 세트가 모바일 앱에 해당되고 모바일 앱에 로그인이 필요한 경우에는 장치에 대한 Experience Cloud ID가 특정 사용자에 해당한다고 판단할 수 있으므로 방문한 페이지 이름, 확인한 제품 등을 비롯하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> <p>참고: 데이터 개인 정보 보호 요청에서 "expandIds" 옵션을 지정하는 경우 요청에는 지정한 다른 ID 외에 항상 쿠키 ID가 포함됩니다. 자세한 내용은 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 확장</a>을 참조하십시오. 이러한 경우 쿠키 ID만 있고 다른 ID는 없는 히트는 액세스 요청의 일부로 데이터 레이블이 지정된 ACC-ALL만 반환합니다. </p> </td> 
   </tr> 
@@ -70,9 +68,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ## 삭제 레이블 설정에 대한 우수 사례 {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE]
->
->Prop은 항상 대/소문자를 구분하지 않습니다. eVars는 기본적으로 대/소문자를 구분하지 않지만, Adobe 고객 지원 센터를 통해 대소문자를 구분하도록 구성할 수 있습니다. ID가 포함된 대소문자를 구분하는 eVar가 있는 경우, 요청에 사용된 대/소문자가 이러한 ID를 포함하는 히트에서 사용된 대/소문자가 일치하도록 데이터 개인 정보 요청을 제출할 때 적절한 대/소문자를 사용해야 합니다.
+> [!NOTE] Props는 항상 대/소문자를 구분하지 않습니다. eVars는 기본적으로 대/소문자를 구분하지 않지만, Adobe 고객 지원 센터를 통해 대소문자를 구분하도록 구성할 수 있습니다. ID가 포함된 대소문자를 구분하는 eVar가 있는 경우, 요청에 사용된 대/소문자가 이러한 ID를 포함하는 히트에서 사용된 대/소문자가 일치하도록 데이터 개인 정보 요청을 제출할 때 적절한 대/소문자를 사용해야 합니다.
 
 삭제 레이블 DEL-DEVICE 및 DEL-PERSON은 드물게 사용해야 합니다. 데이터 개인 정보 요청의 일부로 사용된 ID가 없는 변수에 적용하면 내역 Analytics 보고서의 카운트(지표)는 거의 항상 변경됩니다.
 
