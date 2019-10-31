@@ -5,10 +5,10 @@ seo-title: 마케팅 채널 관리
 solution: Analytics
 subtopic: 마케팅 채널
 title: 마케팅 채널 관리
-topic: Reports & Analytics
-uuid: 9 d 367 bb 6-a 17 b -49 b 8-9 cd 5-24 fac 35 ae 982
+topic: Reports and Analytics
+uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다(최대 25개).
 
-## Manage marketing channels {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
+## 마케팅 채널 관리 {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
 
 Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다(최대 25개).
 
@@ -32,22 +32,20 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 
 마케팅 채널 관리자에서 마케팅 채널을 추가합니다.
 
->[!NOTE]
->
->채널은 삭제할 수 없습니다. 채널을 사용하지 않으려면 비활성화하거나 이름을 바꾼 후 나중에 사용하도록 예약해 두십시오.
+> [!NOTE] 채널을 삭제할 수 없습니다. 채널을 사용하지 않으려면 비활성화하거나 이름을 바꾼 후 나중에 사용하도록 예약해 두십시오.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. [!UICONTROL 보고서 세트 관리자 페이지에서 보고서 세트를 선택합니다.]
 
    여러 개의 보고서 세트를 선택할 경우, 템플릿에서 선택한 보고서 세트로 설정을 복사하는 템플릿을 선택합니다.
 
-   자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)을 참조하십시오.
+   자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
    If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays.
 
-1. [!UICONTROL 마케팅 채널 관리자] 페이지에서 채널 **[!UICONTROL 추가를]**&#x200B;클릭합니다.
+1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
 
    25개의 채널이 정의된 경우에는 이 옵션을 사용할 수 없습니다.
 
