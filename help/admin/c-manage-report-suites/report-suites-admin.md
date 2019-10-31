@@ -7,7 +7,7 @@ title: 보고서 세트 관리자
 topic: 관리 도구
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트]**
 
->[!NOTE]
->
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. 가상 보고서 [세트 설명서를](/help/components/vrs/vrs-about.md)참조하십시오.
+> [!NOTE] 가상 보고서 세트는 Analytics &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 가상]** 보고서 **[!UICONTROL 세트를 통해 관리됩니다]**. 가상 보고서 [세트 설명서를](/help/components/vrs/vrs-about.md)참조하십시오.
 
 ## 보고서 세트 관리자 설명 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
