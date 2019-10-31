@@ -5,9 +5,9 @@ seo-title: 메뉴 사용자 지정
 solution: Analytics
 title: 메뉴 사용자 지정
 topic: 관리 도구
-uuid: 31 E 335 E 7-C 91 A -4669-A 9 B 7-00 F 9 E 385375 A
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 메뉴 변경 사항은 보고서 세트에 액세스하는 모든 사용자에게 적용됩니다. 하지만 사용자는 보고서 세트를 사용하는 동안 메뉴의 기본 구성을 복원할 수 있습니다.
 
->[!NOTE]
->
->메뉴 구조의 변경은 리포트 빌더 및 애드혹 분석에 영향을 주지 않습니다. 하지만 보고서 이름을 바꾸면 두 도구에 반영됩니다.
+> [!NOTE] 메뉴 구조의 변경은 리포트 빌더 및 애드혹 분석에 영향을 주지 않습니다. 하지만 보고서 이름을 바꾸면 두 도구에 반영됩니다.
 
 ## 메뉴 사용자 지정 설명 {#section_B0D224DACB914A378902A4E0E1234889}
 
