@@ -5,10 +5,10 @@ seo-description: Analysis Workspace의 새로운 기능입니다.
 seo-title: Analysis Workspace의 새로운 기능
 solution: Analytics
 title: Analysis Workspace의 새로운 기능
-topic: Reports & Analytics
-uuid: FF 50 EF 9 F-E 5 B 8-442 E-BFA 6-2 F 224 BA 9 F 111
+topic: Reports and Analytics
+uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f11
 translation-type: tm+mt
-source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 ## 2019년 5월
 
-2019 년 5 월 9 일에 릴리스된 개선 사항.
+2019년 5월 9일에 릴리스된 개선 사항.
 
 | 개선 사항 | 설명 |
 |--- |--- |
@@ -25,7 +25,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 ## 2019년 4월
 
-2019 년 4 월 11 일에 릴리스된 개선 사항.
+2019년 4월 11일에 릴리스되었습니다.
 
 | 개선 사항 | 설명 |
 |--- |--- |
@@ -37,7 +37,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 | 기능 | 설명 |
 |--- |--- |
-| [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>롤링 집단 계산: 원래 집단이 아닌 이전 기간에 따라 유지/감소를 계산합니다. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
+| [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>롤링 집단 계산:원래 코호트가 아닌 이전 기간에 따라 보존/이탈을 계산합니다. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 &gt; 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
 | [속성 IQ에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
@@ -118,7 +118,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>놓기 영역 지침</b> </p> </td> 
-   <td colname="col2"> <p>이러한 안내선을 통해 각 드래그 앤 드롭 작업을 보다 손쉽게 이해할 수 있습니다. 예를 들어 열에 마우스를 올려 놓으면 추가, 바꾸기, 필터링 기준 및 분석과 같은 항목이 표시됩니다. </p> <p>두 개의 지표를 서로 스택(잘못된 데이터 초래)하는 것과 같이, 권장되지 않거나 금지된 작업을 수행할 때 경고해주는 노란색/빨간색 지침도 추가했습니다. </p> </td> 
+   <td colname="col2"> <p>이러한 안내서는 드래그 앤 드롭 동작의 효과를 보다 손쉽게 파악할 수 있도록 도와줍니다. 예를 들어 열에 마우스를 올려 놓으면 추가, 바꾸기, 필터링 기준 및 분석과 같은 항목이 표시됩니다. </p> <p>두 개의 지표를 서로 스택(잘못된 데이터 초래)하는 것과 같이, 권장되지 않거나 금지된 작업을 수행할 때 경고해주는 노란색/빨간색 지침도 추가했습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>빈 패널 옵션 추가</b> </p> </td> 
@@ -166,7 +166,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 ## 2018년 6월
 
-2018 년 6 월 14 일에 발표된 새로운 기능 및 개선 사항
+2018년 6월 14일에 릴리스된 새로운 기능 및 개선 사항.
 
 <table id="table_57035A06D99447A6BE6ED825A648ED3F"> 
  <thead> 
@@ -195,7 +195,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 ## 2018년 5월
 
-2018 년 5 월 10 일에 발표된 새로운 기능 및 개선 사항
+2018년 5월 10일에 릴리스된 새로운 기능 및 개선 사항.
 
 <table id="table_EE4C690A178B4F80BDAF2BB4424D6020"> 
  <thead> 
@@ -210,7 +210,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
    <td colname="col2"> <p>인터페이스의 오른쪽 하단에 짧은 비디오와 함께 표시되는 오늘의 팁을 제공합니다. 이러한 팁은 Analysis Workspace의 다양하고 훌륭한 기능을 숙지하기 위한 것입니다. <span class="uicontrol">도움말</span> &gt; <span class="uicontrol">팁</span>을 통해 언제든지 이러한 팁을 무시하거나 액세스할지 선택할 수 있습니다. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 세그먼트 템플릿 </a> 및 <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> 계산된 지표 템플릿 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> 세그먼트 <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 템플릿 </a> 및 <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> 계산된 지표 템플릿 </a></b> </p> </td> 
    <td colname="col2"> <p>이제 왼쪽 레일은 세그먼트 템플릿 및 계산된 지표 템플릿을 표시합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
    <td colname="col2"> <p>구성 요소를 새 위치로 드래그하는 동안 위아래로 스크롤할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>추가 정보 <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md#concept_B215F229DD804928BB4455198E89A68D" format="dita" scope="local"> 예외 항목에 대한 추가 정보 </a></b> </p> </td> 
+   <td colname="col1"> <p><b>추가 정보: <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md#concept_B215F229DD804928BB4455198E89A68D" format="dita" scope="local"> 예외 항목에 대한 추가 정보 </a></b> </p> </td> 
    <td colname="col2"> <p>라인 차트에서 예외 항목에 커서를 가져가면 이제 정보에는 예외 항목의 날짜 및 원시 값이 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -226,7 +226,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 ## 2018년 4월
 
-2018 년 4 월 12 일에 발표된 새로운 기능 및 개선 사항
+2018년 4월 12일에 릴리스된 새로운 기능 및 개선 사항.
 
 <table id="table_B9E784CD14A1453EB360FCCDC612250F"> 
  <thead> 
@@ -250,14 +250,14 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local">예외 항목 탐지 및 기여도 분석</a>은 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> </td> 
-   <td colname="col2"> <p>예외 항목 탐지 및 기여도 분석은 Reports &amp; Analytics 기능 세트에서 제거되었으며 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> <p>Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 "일별 세부 기간" 예외 항목 탐지에만 액세스할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>예외 항목 탐지 및 기여도 분석은 Reports &amp; Analytics 기능 세트에서 제거되었으며 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> <p>Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 작업 공간에서 "일별 세부기간" 예외 항목 감지에 액세스할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 2018년 3월
 
-2018 년 3 월 8 일 발표된 새로운 기능 및 개선 사항
+2018년 3월 8일에 릴리스된 새로운 기능 및 개선 사항.
 
 <table id="table_580CF2C1322E4FB78870BE2B1F497B2F"> 
  <thead> 
@@ -269,7 +269,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> 머리글 텍스트 줄바꿈 </a> </p> </td> 
-   <td colname="col2"> <p>이제 자유 형식 테이블의 머리글 텍스트를 줄바꿈하여 머리글을 더 읽기 쉽게 하고 테이블을 더 공유하기 쉽게 할 수 있습니다. 열 설정에서 "머리글 텍스트 줄바꿈"이라는 옵션을 추가했습니다. 이 기능은 특히 .pdf 렌더링 및 긴 이름을 사용하는 지표에 유용합니다. </p> </td> 
+   <td colname="col2"> <p>이제 자유 형식 테이블의 머리글 텍스트를 줄바꿈하여 머리글을 더 읽기 쉽게 하고 테이블을 더 공유하기 쉽게 할 수 있습니다. 열 설정에 "머리글 텍스트 감싸기"라는 옵션을 추가했습니다. 이 기능은 특히 .pdf 렌더링 및 긴 이름을 사용하는 지표에 유용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local">마우스 오른쪽 단추 클릭으로 지표 생성</a> </p> </td> 
@@ -313,7 +313,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 새 프로젝트 시작 양식 </a> </p> </td> 
-   <td colname="col2"> <p>"새 프로젝트"를 클릭하면 시작할 항목을 선택할 수 있는 새 화면이 표시됩니다. </p> 
+   <td colname="col2"> <p>"새 프로젝트"를 클릭하면 시작할 수 있는 새 화면이 실행됩니다 </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">빈 프로젝트 또는 </li> 
      <li id="li_23BD391D68674C299858A97BFE10598B">표준(내장) 작업 공간 템플릿, 또는 </li> 
@@ -326,14 +326,14 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">열 비율 개선</a> </p> </td> 
-   <td colname="col2"> <p>열에 표시된 "합계의 백분율"은 특정 시나리오가 (평균과 마찬가지로) 합계의 100%를 초과하는 행으로 연결되더라도 100%로 제한되었습니다. </p> <p>정확하게 말하자면 이제 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열 너비가 아주 크게 늘어날 수 있도록 상한을 1,000%로 이동하려고 합니다. </p> </td> 
+   <td colname="col2"> <p>특정 시나리오로 행이 합계의 100% 이상이 되는 경우에도(예: 평균의 경우) 열에 표시된 "합계의 백분율"은 100%로 제한되었습니다. </p> <p>정확하게 말하자면 이제 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열 너비가 아주 크게 늘어날 수 있도록 상한을 1,000%로 이동하려고 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB" format="dita" scope="local"> 분류에 조건부 서식 지정 사용 </a> </p> </td> 
-   <td colname="col2"> <p>"사용자 지정" 제한을 선택하지 않은 경우 자유 형식 테이블 내에 적용하는 조건부 서식 지정(예: 색상)은 자동으로 분류에 사용됩니다. </p> </td> 
+   <td colname="col2"> <p>"사용자 지정" 제한을 선택하지 않는 한, 자유 형식 테이블 내에서 조건부 서식(색상 등)을 적용하는 것이 이제 분류에 자동으로 활성화됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>기본 <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> 달력</a> 보기 변경 사항 </p> </td> 
+   <td colname="col1"> <p>Changes to default <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
    <td colname="col2"> <p>이제 작업 공간 달력에는 현재 달과 다음 달 대신 현재 달과 마지막 달이 기본적으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -396,7 +396,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 프로젝트 복사/다른 이름으로 저장 시</a> 상대 인트라 링크 </p> </td> 
-   <td colname="col2"> <p>이전에는 프로젝트를 복사하거나 "다른 이름으로 저장"한 경우 프로젝트에 저장된 모든 인트라 링크가 복사한 프로젝트가 아닌 원래 프로젝트를 가리켰습니다. </p> <p>이제 인트라 링크는 복사/다른 이름으로 저장한 후에 활성 상태인 프로젝트를 기준으로 합니다. </p> </td> 
+   <td colname="col2"> <p>이전에는 프로젝트를 복사하거나 "다른 이름으로 저장"을 수행한 경우 프로젝트에 저장된 모든 내부 링크가 복사된 프로젝트가 아니라 원본 프로젝트를 가리켰습니다. </p> <p>이제 인트라 링크는 복사/다른 이름으로 저장한 후에 활성 상태인 프로젝트를 기준으로 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>기여도 분석: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html" format="html" scope="external">토큰 알림 </a> </p> </td> 
@@ -431,7 +431,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>호환되지 않는 구성 요소 목록 </p> </td> 
-   <td colname="col2"> <p>경우에 따라 프로젝트에 포함된 일부 구성 요소가 보고서 세트에 포함되지 않습니다. 이제 프로젝트를 로드하거나 보고서 세트로 전환할 때 결과로 나타나는 "호환되지 않는 보고서 세트" 메시지에는 호환되지 않는 구성 요소가 나열됩니다. </p> </td> 
+   <td colname="col2"> <p>경우에 따라 프로젝트에 포함된 일부 구성 요소가 보고서 세트에 포함되지 않습니다. 이제 프로젝트를 로드하거나 보고서 세트로 전환할 때 표시되는 "호환되지 않는 보고서 세트" 메시지에 호환되지 않는 구성 요소가 나열됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -450,7 +450,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> 맵 시각화 </a> </p> </td> 
-   <td colname="col2"> <p>The New &amp; amp; nbsp; 맵 시각화 및 amp; nbsp; 위치 내에서 고객 상호 작용을 쉽게 확인할 수 있습니다. 매크로(전역) 보기에서 마이크로(도시) 보기에 이르기까지 시각화에서 다양한 계층 구조 수준을 쉽게 확대 및 축소하여 지역의 사용자 클러스터를 볼 수 있습니다. </p> <p>IP 주소(비모바일 데이터 세트)를 통해 위치 데이터를 시각화하거나 위도 및 경도 데이터(Mobile SDK를 사용하는 고객)를 Analysis Workspace에서 실제로 사용할 수 있습니다.&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>새 위치 매핑;nbsp;맵 시각화&amp;nbsp;를 사용하면 위치 컨텍스트 내에서 고객 상호 작용을 쉽게 볼 수 있습니다. 매크로(전역) 보기에서 마이크로(도시) 보기에 이르기까지 시각화에서 다양한 계층 구조 수준을 쉽게 확대 및 축소하여 지역의 사용자 클러스터를 볼 수 있습니다. </p> <p>IP 주소(비모바일 데이터 세트)를 통해 위치 데이터를 시각화하거나 위도 및 경도 데이터(Mobile SDK를 사용하는 고객)를 Analysis Workspace에서 실제로 사용할 수 있습니다.&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/line.md#concept_EBE07FCD66C24D2AB58F1EC0F8017AD8" format="dita" scope="local"> 트렌드 시각화를 위한 세부기간 선택기 </a> </p> </td> 
@@ -536,7 +536,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> 히스토그램 히트 계산 방법 </a> </p> </td> 
-   <td colname="col2"> <p>이전에는 히스토그램 시각화에 방문과 방문자(기본값)라는 두 가지 계산 방법이 있었습니다. </p> <p>이제 세 번째 계산 방법인 "히트"를 세그먼트 컨테이너로 사용할 수 있습니다. "발생 횟수"는 자유형 테이블에서 y축 지표로 사용됩니다. </p> </td> 
+   <td colname="col2"> <p>이전에는 히스토그램 시각화에 방문과 방문자(기본값)라는 두 가지 계산 방법이 있었습니다. </p> <p>이제 세 번째 계산 방법인 "히트"를 세그먼트 컨테이너로 사용할 수 있습니다. "발생"은 자유 형식 테이블에서 y축 지표로 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>  세그먼트 비교 및 기여도 분석에 대한 <span class="uicontrol">모두 지우기</span> 버튼 </p> </td> 
@@ -614,15 +614,15 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local"> 인트라 링크(빠른 시각화 링크) </a></b> </p> </td> 
-   <td colname="col2"> <p><b>인트라 링크</b>를 사용하면 프로젝트 목차를 작성하는 것처럼 텍스트 상자에서 프로젝트 내의 특정 패널 및 시각화에 연결할 수 있습니다. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 옵션인 "패널 링크 가져 오기" 및 "시각화 링크 가져오기"가 추가되었습니다. </p> </td> 
+   <td colname="col2"> <p><b>인트라 링크</b>를 사용하면 프로젝트 목차를 작성하는 것처럼 텍스트 상자에서 프로젝트 내의 특정 패널 및 시각화에 연결할 수 있습니다. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. "패널 링크 가져오기" 및 "시각화 링크 가져오기"라는 새로운 마우스 오른쪽 단추 클릭 옵션이 추가되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> 범례 레이블 편집 </a></b> </p> </td> 
    <td colname="col2"> <p>시각화 범례(폴아웃, 영역, 스택 영역, 막대, 스택 막대, 도넛, 막대 그래프, 가로 막대, 스택 가로 막대, 라인, 분산형 및 벤)에서 시리즈 이름을 바꾸게 하여 시각 자료를 더욱 잘 소비하게 해줍니다. </p> <p>트리맵, 글 머리 기호, 요약 변경 또는 숫자, 텍스트, 자유 형식, 막대 그래프, 집단 또는 플로우 시각화에는 범례 편집이 적용되지 <b>않습니다</b>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local">"데이터 소스 관리"에 대한 업데이트</a></b> </p> </td> 
-   <td colname="col2"> <p>데이터 소스(시각화를 가능하게 함)를 관리하는 방법을 재개발했습니다. 데이터 소스를 테이블에 잠그면 더 이상 별도의 숨겨진 테이블이 없습니다. </p> <p>대신 해당 보기를 이것으로 만든 테이블에 계속 연결하게 됩니다. 이렇게 하면 세부기간을 변경한 후 다음 프로젝트로드 시 이전 세부기간으로 되돌리는 실시간 연결 테이블의 버그도 해결됩니다. </p> </td> 
+   <td colname="col1"> <p><b> "데이터 소스 관리" <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> 업데이트 </a></b> </p> </td> 
+   <td colname="col2"> <p>시각화 기능을 강화하여 데이터 소스를 관리하는 방법을 재개발했습니다. 데이터 소스를 테이블에 잠그면 더 이상 별도의 숨겨진 테이블이 없습니다. </p> <p>대신 해당 보기를 이것으로 만든 테이블에 계속 연결하게 됩니다. 이렇게 하면 세부기간을 변경한 후 다음 프로젝트로드 시 이전 세부기간으로 되돌리는 실시간 연결 테이블의 버그도 해결됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#concept_0E420C3EB71847399AA1D719C0B75250" format="dita" scope="local"> 특정 예외 항목을 강조 표시하는 기능 </a></b> </p> </td> 
@@ -630,7 +630,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Experience Cloud 로그인을 위한 '프로젝트 링크 가져오기'</b> </p> </td> 
-   <td colname="col2"> <p>이전에는 Experience Cloud 자격 증명으로 로그인하여 분석으로 이동한 경우 <span class="ignoretag"><span class="uicontrol">공유</span> &gt; <span class="uicontrol">프로젝트 링크 가져오기</span></span> 기능을 사용할 수 없었습니다. 이 문제를 해결했습니다. 여전히 이 옵션을 클릭하려면 먼저 프로젝트를 저장해야 합니다. </p> </td> 
+   <td colname="col2"> <p>이전에는 Experience Cloud 자격 증명으로 로그인하여 분석으로 이동한 경우 <span class="ignoretag"><span class="uicontrol">공유</span> &gt; <span class="uicontrol">프로젝트 링크 가져오기</span></span> 기능을 사용할 수 없었습니다. 이 문제를 수정했습니다. 여전히 이 옵션을 클릭하려면 먼저 프로젝트를 저장해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local">예약된 프로젝트 관리자의 '만료된 프로젝트' 필터</a></b> </p> </td> 
@@ -704,7 +704,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">경고를 활성화/비활성화하는 기능이 추가되었습니다. </li> 
-     <li id="li_F7415EE7DF29417FAF416594E36A38A4">활성화/비활성화 열이 추가되었습니다. </li> 
+     <li id="li_F7415EE7DF29417FAF416594E36A38A4">활성화/비활성화 열을 추가했습니다. </li> 
      <li id="li_61B3A60A2AFB4BD0AA4D83803AB95B1E">활성화/비활성화 경고에 대한 필터가 추가되었습니다. </li> 
     </ul> </td> 
   </tr> 
@@ -738,7 +738,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p>실행 취소/다시 실행 옵션 개선 사항 </p> </td> 
-   <td colname="col2"> <p>이 목록에는 <a href="../../analyze/analysis-workspace/build-workspace-project/undo-redo.md#concept_993110B9F2F84EB192308108882F8EEC" format="dita" scope="local"> 분석 작업 공간에서 </a>실행 취소/다시 실행. </p> </td> 
+   <td colname="col2"> <p>이 목록에는 <a href="../../analyze/analysis-workspace/build-workspace-project/undo-redo.md#concept_993110B9F2F84EB192308108882F8EEC" format="dita" scope="local"> undo/redo in Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -757,7 +757,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> 위치별 분류 </a> </p> </td> 
-   <td colname="col2"> <p>테이블 위치별로 분류할 수 있습니다. 예: “자유 형식 테이블의 상위 7개 행을 항상 분류하고 싶습니다.” 이제 자유 형식 테이블을 만들 때 "위치별 분류"를 활성화할 수 있는 확인란이 있습니다. 이 설정은 기본적으로 비활성화되어 있습니다. </p> <p>이전에는 분류에 있는 값 목록이 "잠겨"있었습니다. 이에 따라 <span class="wintitle">페이지</span>로 <span class="wintitle">날짜</span> 분류 등을 수행한 경우 선택한 날짜 범위에 대해 상위 50페이지 목록이 표시되었습니다. </p> <p>해당 보기를 저장하고 한 달 후 실행한 경우, 상위 50페이지가 변경되었을 것입니다. 하지만 Analysis Workspace에서는 원래의 분류로 인한 결과를 "신뢰"하여 동일한 페이지를 반환하긴 했지만, 현재 달을 날짜 범위로 사용했습니다. </p> </td> 
+   <td colname="col2"> <p>테이블 위치별로 분류할 수 있습니다. 예:"항상 자유 형식 테이블의 상위 7개 행을 분류하고 싶습니다." 이제 자유 형식 테이블을 만들 때 "위치별 분류"를 활성화할 수 있는 확인란이 있습니다. 이 설정은 기본적으로 비활성화되어 있습니다. </p> <p>이전에는 분류에 있는 값 목록이 "잠김"되었습니다. 이에 따라 <span class="wintitle">페이지</span>로 <span class="wintitle">날짜</span> 분류 등을 수행한 경우 선택한 날짜 범위에 대해 상위 50페이지 목록이 표시되었습니다. </p> <p>해당 보기를 저장하고 한 달 후 실행한 경우, 상위 50페이지가 변경되었을 것입니다. 하지만 Analysis Workspace에서는 원래의 분류로 인한 결과를 "신뢰"하여 동일한 페이지를 반환하긴 했지만, 현재 달을 날짜 범위로 사용했습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -780,7 +780,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local">프로젝트 구성 요소 자동 공유</a> </p> </td> 
-   <td colname="col2"> <p>이제 모든 수신자와 세그먼트, 계산된 지표 및 날짜 범위 등의 프로젝트 구성 요소를 자동으로 공유하는 옵션이 제공됩니다. 이러한 구성 요소가 공유되면 수신자 작업 영역의 구성 요소 드롭다운에 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>이제 모든 수신자와 세그먼트, 계산된 지표 및 날짜 범위 등의 프로젝트 구성 요소를 자동으로 공유하는 옵션이 제공됩니다. 공유 후 이러한 구성 요소는 수신자의 작업 영역의 구성 요소 드롭다운에 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 형식으로 폴아웃 시각화 </p> </td> 
@@ -881,10 +881,10 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
    <td colname="col2"> 
     <ul id="ul_2585F74DC7754C819017F280E16BF06F"> 
      <li id="li_412446013E7F42DBB1BF50F9E2C4D92F"> 
-      <!--AN-124610: -->프로젝트 수준 설정으로서 "반복 인스턴스 계산"을 추가했습니다(<span class="uicontrol">프로젝트</span> &gt; <span class="uicontrol">프로젝트 정보 및 설정 </span>). 이 설정은 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. </li> 
+      <!--AN-124610: -->"반복 인스턴스 계산"을 프로젝트 수준 설정으로 추가했습니다([프로젝트] &gt; [프로젝트 정보 및 설정] <span class="uicontrol"></span> <span class="uicontrol"> </span>). 이 설정은 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. </li> 
      <li id="li_480E1B307C62418CBC2F50ADE32B9EE9">달력에서 "취소" 및 "실행" 옆에 "모든 패널에 적용"이라는 새 단추를 추가했습니다. "실행"을 "적용"으로 변경했습니다. 새 단추를 클릭하면, 현재 패널에 대한 선택된 날짜 범위를 변경할 뿐만 아니라 프로젝트 내의 모든 다른 패널에 대한 선택된 날짜 범위도 변경하게 됩니다. </li> 
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
-      <!--AN-124168: -->태그, 즐겨찾기, 승인, <b>공유(새로운 기능!)</b>, <b>삭제(새로운 기능!)</b>과 같은 작업을 포함하는 왼쪽 탐색 레일에 "작업" 단추를 추가했습니다. </li> 
+      <!--AN-124168: -->왼쪽 탐색 레일에 다음과 같은 작업을 제공하는 "작업" 단추를 추가했습니다.태그, 즐겨찾기, 승인, <b>공유(신규!)</b>, <b>삭제(새로운 기능!)</b>과 같은 작업을 포함하는 왼쪽 탐색 레일에 "작업" 단추를 추가했습니다. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">태그, 즐겨찾기, 승인된 항목 및 구성 요소에 대해 필터링할 수 있도록 해주는 검색 막대에 필터를 추가했습니다. </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">세그먼트, 지표, 날짜 범위를 미리 볼 수 있도록 해주는 미리 보기 아이콘을 수동 행(측정 기준 항목을 나열하는 다이내믹 행이 아님)에 추가했습니다. </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
@@ -892,7 +892,7 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->시각화를 위해 컨텍스트 메뉴에서 <span class="uicontrol">시작</span>이라는 마우스 오른쪽 단추로 클릭하여 표시되는 옵션을 추가했습니다(흐름, 벤, 막대 그래프에 대해 작동하게 됨). 이 옵션을 사용하면 현재 시각화에 대한 구성이 삭제되고, 다시 구성할 수 있는 새 패널이 열립니다. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">"범례 표시"하는 새로운 시각화 설정을 사용하면 [요약 번호]/[요약 변경 사항] 시각화에 대한 필터 세부 사항을 숨길 수 있습니다. </li> 
-     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">요약 변경 사항 시각화에 대한 새로운 시각화 설정을 사용하면 두 백분율 간의 "차이를 표시"할 수 있습니다. 백분율이 아닌 값의 경우, "차이 표시" 옵션을 선택하면 숫자가 표시됩니다. </li> 
+     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">요약 변경 사항 시각화에 대한 새로운 시각화 설정을 사용하면 2퍼센트 간에 "차이 표시"를 사용할 수 있습니다. 비백분율 값의 경우 "차이 표시" 옵션을 선택하면 숫자가 표시됩니다. </li> 
      <li id="li_17AAABCA7B3A477182FB70453CA2EEBB">시간 측정 기준에 대한 행 수를 조정했습니다. </li> 
      <li id="li_35A91D50CD514CD0B939C24AEEC64BF4">Analysis Workspace처럼 보이도록 세그먼트 빌더 및 계산된 지표 빌더에서 왼쪽의 탐색 레일의 모습을 업데이트했습니다.  </li> 
     </ul> </td> 
@@ -904,8 +904,8 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 2016년 6월 16일 릴리스된 새로운 기능:
 
-* [새 그룹 권한을](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) **[!UICONTROL 참조하십시오]****** . 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
-* the [[세그먼트 비교] 패널](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
+* [관리자가 사용자에 대한 Analytics &gt; 작업 영역](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)**[!UICONTROL 탭에 대한 액세스를 허용하거나 거부할 수]** 있는 **[!UICONTROL 새 그룹]** 권한. 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
+* The [[세그먼트 비교] 패널](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D)벤 시각화 유형
@@ -967,11 +967,11 @@ source-git-commit: 4c9bb1245eb4e07b71dd471d108e6de8ef18892d
 
 ![](assets/undo.png)
 
-You can also use standard Windows and Mac [keyboard shortcuts](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (ctrl or cmd + z) for Undo.
+실행 취소를 위해 표준 Windows 및 Mac [키보드 단축키](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (ctrl 또는 cmd + z)를 사용할 수도 있습니다.
 
 *`Undo`* 는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
 
-Actions that are *`not`* undoable:
+수행할 수 없는 *`not`* 작업:
 
 * [!UICONTROL 집단 테이블] 구성 변경(예: 지표 드래그, 값 변경). However, you can click **[!UICONTROL Undo]** after clicking **[!UICONTROL Run]**.
 
@@ -988,9 +988,7 @@ Actions that are *`not`* undoable:
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE]
->
->회사에서 Single Sign-On를 사용하는 경우 (기존 Single Sign-On 및 Experience Cloud를 통해 로그인할 때) 보고서 링크를 공유할 수 없습니다.
+> [!NOTE] 회사에서 Single Sign-On을 사용하는 경우(기존 Single Sign-On과 Experience Cloud를 통해 로그인할 때 모두) 보고서 링크 공유를 사용할 수 없습니다.
 
 ## 글머리 기호 그래프, 산포도, 트리맵 시각화 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1010,9 +1008,7 @@ Actions that are *`not`* undoable:
 
 제공된 노출 횟수와 해당 노출 횟수에서 확인된 고유한 사용자 수를 표시합니다. 각 데이터 포인트의 크기는 조회자가 광고에 노출된 평균 횟수에 대한 시각적인 단서를 제공합니다. 크기 및 데이터는 차원, 날짜 범위, 선택한 필터에 따라 달라집니다.
 
->[!NOTE]
->
->산포도 차트와 연관된 표에는 두 개 이상의 열이 필요합니다. 첫 번째 열은 X축을 정의하고 두 번째 열은 Y축을 정의합니다. 사용 가능한 세 번째 열이 있으면 산포도 차트는 이 열을 사용하여 점의 반경을 결정합니다. 즉, 열 *1*, *2* 및 *3*&#x200B;은 *X*, *Y* 및 *점 반경*&#x200B;에 해당됩니다.
+> [!NOTE] 산포도 차트와 연결된 표에는 적어도 두 개의 열이 필요합니다. 첫 번째 열은 X축을 정의하고 두 번째 열은 Y축을 정의합니다. 사용 가능한 세 번째 열이 있으면 산포도 차트는 이 열을 사용하여 점의 반경을 결정합니다. 즉, 열 *1*, *2* 및 *3*&#x200B;은 *X*, *Y* 및 *점 반경*&#x200B;에 해당됩니다.
 
 **트리맵**
 
@@ -1106,4 +1102,4 @@ When saving a project, the title on the browser tab will be displayed as "`<Proj
 
 관리자는 사용자 간에 [!UICONTROL Analysis Workspace] 프로젝트를 전송할 수 있습니다.
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 전송으로]** 이동하여 프로젝트를 전송합니다.
+Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Transfer]** to transfer projects.
