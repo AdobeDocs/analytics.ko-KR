@@ -7,7 +7,7 @@ title: 보트
 topic: 보고서
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 보트는 사용자 에이전트 또는 IP 주소를 기준으로 필터링합니다. IAB/ABCe International Spiders &amp; Bots List를 사용하여 보트 트래픽을 필터링할 수도 있습니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [보트 규칙](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
