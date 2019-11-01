@@ -5,7 +5,7 @@ seo-title: 열 설정
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 사용자 지정 | 조건부 서식에 대해 상한, 중간점 및 하한 필드 값을 수동으로 할당할 수 있습니다. 이렇게 하면 열 값이 양호, 평균 또는 나쁨일 때를 유연하게 확인할 수 있습니다. |
 | 테이블 셀 미리 보기 | 각 셀이 현재 선택된 서식 옵션이 적용되면 어떻게 나타나는지 미리 보기를 표시합니다. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 소스 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
