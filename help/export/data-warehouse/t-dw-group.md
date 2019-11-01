@@ -7,7 +7,7 @@ title: Data Warehouse 사용자 그룹 추가
 topic: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    >
    >권한이 충돌하는 경우(두 그룹에 할당된 사용자 중 한 그룹은 기능에 대한 액세스를 거부하고 다른 그룹은 동일한 액세스를 부여하는 경우) 시스템에서 권한을 제한합니다. Data Warehouse 액세스를 거부하는 그룹에 속하는 사용자는 해당 그룹에서 제거해야 할 수 있습니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [그룹 ](/help/admin/user-management2/c-user-groups/groups.md)
 
