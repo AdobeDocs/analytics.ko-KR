@@ -7,7 +7,7 @@ title: 보고서 사용자 지정 개요
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -36,7 +36,7 @@ t_reports_custom.xml
 
      기존 보고서 이름과 동일하지 않도록 확인합니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [메뉴 사용자 지정](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
