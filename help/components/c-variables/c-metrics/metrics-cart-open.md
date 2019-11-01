@@ -5,9 +5,9 @@ seo-title: 장바구니 열기
 solution: Analytics
 title: 장바구니 열기
 topic: 지표
-uuid: 3 AAC 7908-979 E -48 DB-A 6 D 4-580863657 E 3 C
+uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 전환 | 설정할 [!UICONTROL 장바구니 열기] 이벤트 인스턴스입니다. 새 장바구니가 생성될 때 발생합니다. |
 | Ad Hoc Analysis | 설정할 [!UICONTROL 장바구니 열기] 이벤트 인스턴스입니다. 새 장바구니가 생성될 때 발생합니다. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [장바구니 보고서](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
 
