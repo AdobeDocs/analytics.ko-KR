@@ -7,7 +7,7 @@ title: 기여도
 topic: 지표
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -43,7 +43,7 @@ See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-
 
    기여도는 전체 크레딧이 모든 값에 제공된다는 점을 제외하면 선형 할당과 유사합니다. 매출액(기여도)을 지표로 사용하면 할당이 무시됩니다. 이 예의 매출액(기여도)은 두 검색어 모두에 대해 $120를 보고합니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [지표 계산](/help/components/c-variables/c-metrics/metrics-calculations.md)
 
