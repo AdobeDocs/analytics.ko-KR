@@ -7,7 +7,7 @@ title: 발생
 topic: 지표
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 인스턴스가 발생보다 높음 | 모든 인스턴스는 발생으로도 기록되기 때문에 보고에서는 가능하지 않은 경우입니다. |
 | 인스턴스와 발생이 일치 | 트래픽 변수는 이미지 요청을 넘게 지속되지 않으므로 트래픽 변수에서 자주 보이는 상황입니다. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [인스턴스](/help/components/c-variables/c-metrics/metrics-instance.md)
 
