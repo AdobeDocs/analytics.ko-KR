@@ -5,7 +5,7 @@ seo-title: 기존 보고서 구성
 title: 기존 보고서 구성
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ t_reports_breakdown_table.xml
    >
    >보다 유연하게 작업하려면 테이블 빌더를 [사용하여](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 분류로 보고서를 구성합니다. 분류를 통해 저장 또는 예약된 보고서를 열면 **[!UICONTROL 테이블 대체]를 클릭하여 동적 보고서 데이터 분류를 새로 고쳐야 할 수 있습니다.** 예를 들어 날짜 범위 또는 방문자 활동에 따라 변경할 수 있는 라인 항목 분류가 포함된 예약된 보고서를 새로 고쳐야 할 수도 있습니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [테이블 빌더](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    [!UICONTROL 화면 크기에 맞게 조정]이 활성화되면 이 옵션은 비활성화됩니다. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [테이블 빌더](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
