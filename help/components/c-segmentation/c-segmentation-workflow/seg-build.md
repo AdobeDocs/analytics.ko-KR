@@ -7,7 +7,7 @@ title: 세그먼트 작성
 topic: 세그먼트
 uuid: c01393df-ccdd-431c-83a6-3c2700bd499
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 세그먼트 빌더에 액세스하는 방법에는 여러 가지가 있습니다.
 
-* **** Analytics 상단 탐색:Analytics **[!UICONTROL &gt; 구성]** 요소 **[!UICONTROL &gt; 세그먼트를]** **[!UICONTROL 클릭합니다]**.
-* **분석 작업 공간**:Analytics **[!UICONTROL &gt; 작업]** **[!UICONTROL 공간을]**&#x200B;클릭하고 **[!UICONTROL 프로젝트를 열고]** + 새로 만들기 **[!UICONTROL &gt; 세그먼트 만들기]**&#x200B;를 클릭합니다.
-* **보고 및 분석**:Analytics **[!UICONTROL &gt;]** **[!UICONTROL 보고서를]**&#x200B;클릭하고 ![](assets/segment_icon.png) 기존 보고서를 열고 왼쪽 탐색에서 세그먼트 아이콘을 클릭한 다음 추가를 **[!UICONTROL 클릭합니다]**.
-* **애드혹 분석**:애드혹 [분석에서 세그먼트를 만듭니다](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6).
-* **리포트 빌더**:리포트 [빌더에서 세그먼트를 추가하거나 편집합니다](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
+* **Analytics 상단 탐색**:Analytics **[!UICONTROL &gt; 구성]** 요소 **[!UICONTROL &gt; 세그먼트를]** **[!UICONTROL 클릭합니다]**.
+* **[!UICONTROL 분석 작업 공간]**:Analytics **[!UICONTROL &gt; 작업]** **[!UICONTROL 공간을]**&#x200B;클릭하고 **[!UICONTROL 프로젝트를 열고]** + 새로 만들기 **[!UICONTROL &gt; 세그먼트 만들기]**&#x200B;를 클릭합니다.
+* **[!UICONTROL 보고 및 분석]**:Analytics **[!UICONTROL &gt;]** **[!UICONTROL 보고서를]**&#x200B;클릭하고 ![](assets/segment_icon.png) 기존 보고서를 열고 왼쪽 탐색에서 세그먼트 아이콘을 클릭한 다음 추가를 **[!UICONTROL 클릭합니다]**.
+* **[!UICONTROL 애드혹 분석]**:애드혹 [분석에서 세그먼트를 만듭니다](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6).
+* **[!UICONTROL 리포트 빌더]**:리포트 [빌더에서 세그먼트를 추가하거나 편집합니다](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -47,40 +47,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/segment_builder_ui.png)
 
-1. **** 제목:세그먼트의 이름을 지정하거나 이름을 변경할 수 있습니다.
-1. **** 설명:세그먼트에 대한 설명을 제공합니다. 세그먼트를 공유하려면 설명을 제공해야 합니다.
-1. **** 태그:기존 [태그 목록에서 선택하거나 새 태그를 만들어 만들고 있는 세그먼트에](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) 태그를 지정합니다.
-1. **** 정의:여기에서 세그먼트를 [](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)작성 및 구성하고 규칙을 추가하고 컨테이너를 중첩하고 순서를 지정할 수 있습니다. 컨테이너를 선택하고 차원, 세그먼트 또는 지표를 드래그하여 정의에 드롭하는 식으로 새 세그먼트 설명을 입력할 수 있습니다.
-1. **** 표시:(상단 컨테이너 선택기.) Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
-1. **** 옵션:(톱니바퀴) 아이콘
+1. **[!UICONTROL 제목]**:세그먼트의 이름을 지정하거나 이름을 변경할 수 있습니다.
+1. **[!UICONTROL 설명]**:세그먼트에 대한 설명을 제공합니다. 세그먼트를 공유하려면 설명을 제공해야 합니다.
+1. **[!UICONTROL 태그]**:기존 [태그 목록에서 선택하거나 새 태그를 만들어 만들고 있는 세그먼트에](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) 태그를 지정합니다.
+1. **[!UICONTROL 정의]**:여기에서 세그먼트를 [](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)작성 및 구성하고 규칙을 추가하고 컨테이너를 중첩하고 순서를 지정할 수 있습니다. 컨테이너를 선택하고 차원, 세그먼트 또는 지표를 드래그하여 정의에 드롭하는 식으로 새 세그먼트 설명을 입력할 수 있습니다.
+1. **[!UICONTROL 표시]**:(상단 컨테이너 선택기.) Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ([!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
+1. **[!UICONTROL 옵션]**:(톱니바퀴) 아이콘
 
-   * **** + 컨테이너 추가:세그먼트 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.
-   * **** + 선택 내용에서 컨테이너 추가:정의 필드에서 선택한 요소(다중)에서 새 컨테이너를 만들 수 있습니다.
-   * **** 제외:하나 이상의 차원, 세그먼트 또는 지표를 제외하여 세그먼트를 정의할 수 있습니다.
-   **** 기여도 모델:차원 세그멘테이션의 경우 차원 모델은 흐름 시각화를 지원하는 경우와 같이 순차적 세그먼테이션에서 특히 유용합니다.
-   * **[!UICONTROL 반복]** (기본값):차원에 대한 인스턴스 및 지속적인 값을 포함합니다.
-   * **[!UICONTROL 인스턴스]**:차원에 대한 인스턴스를 포함합니다.
-   * **[!UICONTROL 반복되지 않는 인스턴스]**:차원에 대한 고유 인스턴스(반복되지 않음)를 포함합니다.
-   ![](assets/attribution-models.jpg)
+   * **[!UICONTROL + 컨테이너 추가]**: 세그먼트 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.
+   * **[!UICONTROL + 선택 내용에서 컨테이너 추가]**: 정의 필드에서 (다중) 선택한 요소로부터 새 컨테이너를 만들 수 있습니다.
+   * **[!UICONTROL 제외]**: 하나 이상의 차원, 세그먼트 또는 지표를 제외하는 식으로 세그먼트를 정의합니다.
 
-1. **** 차원:차원 목록(주황색 세로 막대)에서 차원을 드래그하여 놓습니다.
-1. **** 비교:선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
-1. **** 값:차원이나 세그먼트 또는 지표에 대해 입력하거나 선택한 값.
+**[!UICONTROL 기여도 모델]**:차원 세그멘테이션의 경우 차원 모델은 흐름 시각화를 지원하는 경우와 같이 순차적 세그먼테이션에서 특히 유용합니다.
+
+    **[!UICONTROL 반복]***(기본값):차원에 대한 인스턴스 및 지속적인 값을 포함합니다.
+    **[!UICONTROL 인스턴스]**:차원에 대한 인스턴스를 포함합니다.
+    **[!UICONTROL 반복되지 않는 인스턴스]**:차원에 대한 고유 인스턴스(반복되지 않음)를 포함합니다.
+
+![](assets/attribution-models.jpg)
+
+1. **[!UICONTROL 차원]**:차원 목록(주황색 세로 막대)에서 차원을 드래그하여 놓습니다.
+1. **[!UICONTROL 비교]**:선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
+1. **[!UICONTROL 값]**:차원이나 세그먼트 또는 지표에 대해 입력하거나 선택한 값.
 1. **[!UICONTROL And/Or/Then]**:컨테이너나 규칙 [!UICONTROL 사이에 AND/OR/THEN] 연산자를 할당합니다. The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560).
 1. **[!UICONTROL 지표]**:(녹색 세로 막대) 지표 목록에서 드래그하여 놓은 지표입니다.
 1. **[!UICONTROL 비교]** 연산자:선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 1. **[!UICONTROL 값]**:차원이나 세그먼트 또는 지표에 대해 입력하거나 선택한 값.
 1. **[!UICONTROL X]**:(삭제) 세그먼트 정의의 이 부분을 삭제할 수 있습니다.
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]**:세그먼트를 저장하거나 취소합니다. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
-1. **** 검색:차원, 세그먼트 또는 지표 목록을 검색합니다.
-1. **** 차원:(목록) 확장하려는 헤더를 클릭합니다.
-1. **** 지표:헤더를 클릭하여 확장합니다.
-1. **** 세그먼트:헤더를 클릭하여 확장합니다.
-1. **** 보고서 세트 선택기:이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
-1. **** 세그먼트 미리 보기:주요 지표를 미리 보고 올바른 세그먼트가 있는지 여부 및 세그먼트의 범위를 확인할 수 있습니다. 이 세그먼트를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 데이터 세트에 대해 실행된 세그먼트와 일치하는 [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL 방문자] 수 및 비율을 표시합니다. 이 차트는 세그먼트 정의를 만들거나 변경한 직후에 업데이트됩니다.
-1. **** 제품 호환성:만든 세그먼트가 호환되는 Adobe Analytics 제품(분석 작업 공간, [!UICONTROL 보고]및 분석, 애드혹 분석, 데이터 웨어하우스) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
+1. **[!UICONTROL 검색]**:차원, 세그먼트 또는 지표 목록을 검색합니다.
+1. **[!UICONTROL 차원]**:(목록) 확장하려는 헤더를 클릭합니다.
+1. **[!UICONTROL 지표]**:헤더를 클릭하여 확장합니다.
+1. **[!UICONTROL 세그먼트]**:헤더를 클릭하여 확장합니다.
+1. **[!UICONTROL 보고서 세트 선택기]**:이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
+1. **[!UICONTROL 세그먼트 미리 보기]**:주요 지표를 미리 보고 올바른 세그먼트가 있는지 여부 및 세그먼트의 범위를 확인할 수 있습니다. 이 세그먼트를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 데이터 세트에 대해 실행된 세그먼트와 일치하는 [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL 방문자] 수 및 비율을 표시합니다. 이 차트는 세그먼트 정의를 만들거나 변경한 직후에 업데이트됩니다.
+1. **[!UICONTROL 제품 호환성]**:만든 세그먼트가 호환되는 Adobe Analytics 제품(분석 작업 공간, [!UICONTROL 보고]및 분석, 애드혹 분석, 데이터 웨어하우스) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
 
-   Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
+Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
 
 **[!UICONTROL Experience Cloud에 게시(for`<report suite name>`)]**:(화면에 표시되지 않음) 이 옵션은 이 세그먼트를 저장할 보고서 세트가 Experience Cloud에 대해 [활성화된 경우에만 나타납니다](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. 세그먼트 제목 및 설명이 필요합니다.
 
@@ -280,4 +283,4 @@ In the Segment Manager, click **[!UICONTROL Add]**, which takes you to the Segme
 
 ![](assets/seg_campaign_visitor.png)
 
-(선택 사항) 모든 캠페인 관련 세그먼트를 쉽게 필터링하려는 경우 이 세그먼트에 캠페인 태그를 적용할 수도 있습니다.
+(선택 사항) 모든 캠페인 관련 세그먼트를 쉽게 필터링하려는 경우 이 세그먼트에 캠페인 태그를 적용할
