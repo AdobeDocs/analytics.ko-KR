@@ -7,7 +7,7 @@ title: 경로 보기
 topic: 지표
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 전환 | N/A |
 | Ad Hoc Analysis | 전체 방문 길이가 아닙니다. 보통 경로 집합이며, 각 방문의 일반적인 길이는 3-4페이지입니다. 특정 경로에서의 방문 빈도를 표시합니다. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [경로 보고서](/help/components/c-variables/dimensionslist/reports-paths.md)
 
