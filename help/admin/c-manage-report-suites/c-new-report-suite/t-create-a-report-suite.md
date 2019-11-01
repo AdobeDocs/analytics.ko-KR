@@ -7,7 +7,7 @@ title: 보고서 세트 만들기
 topic: 관리 도구
 uuid: fada5b10-f574-4c3f-8704-679c992fc88
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 1. 새 보고서 세트에 설명된 필드를 [채웁니다.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. **[!UICONTROL 보고서 세트 만들기를 클릭합니다]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [가상 보고서 세트 만들기](/help/components/vrs/c-workflow-vrs/vrs-create.md)
 
