@@ -5,7 +5,7 @@ seo-title: 서버 측 전달 FAQ
 title: 서버 측 전달 FAQ
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 | Q:두 개의 Experience Cloud 조직(또는 AAM 인스턴스)이 있고 두 Experience Cloud 조직 간에 데이터를 공유하려면 어떻게 해야 합니까? 서버 측에서 하나의 Analytics 히트를 여러 Experience Cloud Organization에 전달할 수 있습니까? | 아니요. 한 Experience Cloud 조직에서 수집한 데이터를 다른 Experience Cloud Org로 공유해야 하는 경우, 대상 마켓플레이스를 사용하여 하나의 Audience Manager 인스턴스에서 다른 Audience Manager 인스턴스로 해당 대상을 보내는 것이 좋습니다. |
 | Q: 서버 측 전달로 인해 Audience Manager 또는 Analytics에서 추가적인 청구가 발생합니까? | Analytics에서는 추가적인 청구가 발생하지 않습니다. Audience Manager에서 전달된 조회는 다른 조회와 동일하게 처리되며 청구됩니다.  이것이 DIL과 서버 측 전달을 동시에 활성화하지 않도록 하는 것이 중요한 이유입니다. 동시에 활성화하면 이중 청구와 데이터 중복이 발생할 수 있습니다. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [서버 측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
