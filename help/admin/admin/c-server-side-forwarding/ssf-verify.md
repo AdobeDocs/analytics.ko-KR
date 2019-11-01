@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 서버 측 전달 구현 확인 방법
 uuid: e37296cc-0120-48 파섹
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >
 >If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. ID 서비스가 제대로 배포되었는지, 앱 측정 모듈을 배포했는지, 해당 보고서 세트가 올바른 IMS 조직에 매핑되었는지, 그리고 Analytics 관리 콘솔에서 서버측 전달이 활성화되었는지 확인하십시오.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
 
