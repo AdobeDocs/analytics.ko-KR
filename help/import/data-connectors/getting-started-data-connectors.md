@@ -4,7 +4,7 @@ seo-description: 데이터 커넥터에 로그인;타사 애플리케이션의 �
 seo-title: Analytics 데이터 커넥터
 title: Analytics 데이터 커넥터 시작하기
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Analytics는 데이터 웨어하우스를 통해 별도의 일별 파일�
    * 구매: `purchase` 이벤트
    * Product Views: `prodView` event
 
-**** 참고:연결된 이벤트 없이 제품이 정의된 경우 prodView 이벤트가 자동으로 실행됩니다.
+> [!NOTE] 연결된 이벤트 없이 제품이 정의된 경우 prodView 이벤트가 자동으로 실행됩니다.
 위의 요구 사항을 충족하지 않으면 해당 리마케팅 세그먼트가 올바르게 보고되지 않습니다.
 
 [!UICONTROL  장바구니 포기]: 사용자가 제품을 장바구니에 추가한 후에 실행됩니다.
