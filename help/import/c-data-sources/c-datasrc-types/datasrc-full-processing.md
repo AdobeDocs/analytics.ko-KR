@@ -26,7 +26,7 @@ source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 전체 처리 데이터 소스 데이터는 분리된 방문자 프로필을 사용하여 처리되므로, 업로드한 데이터의 방문자 ID가 JavaScript나 다른 AppMeasurement 라이브러리를 사용하여 수집한 데이터와 일치하더라도 방문자 프로필들은 eVar 할당 측면에서 연결되어 있지 않습니다.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 나중에 여러분이 동일한 방문자 ID를 사용하여 거래를 업로드하는 경우, "봄맞이 세일" 캠페인은 전체 처리 데이터 소스를 사용하여 업로드한 어떤 매출이나 성공 이벤트에 대해서도 크레딧을 받지 않습니다.
+예약, 방문자 ID가 `"user@example.com"`인 방문자는 캠페인 변수에 저장된 "봄맞이 세일"이라는 마케팅 캠페인에서 사이트를 방문하고, 나중에 여러분이 동일한 방문자 ID를 사용하여 거래를 업로드하는 경우, "봄맞이 세일" 캠페인은 전체 처리 데이터 소스를 사용하여 업로드한 어떤 매출이나 성공 이벤트에 대해서도 크레딧을 받지 않습니다.
 
 ## 항목 참조 {#section_92BAE76639E3404E97276B1BE0581078}
 
