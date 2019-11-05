@@ -7,7 +7,7 @@ solution: Analytics
 title: 개인 정보 보호 개요
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -90,7 +90,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 유럽 </td> 
-   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨(x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값(x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings" format="https" scope="external"> https://marketing.adobe.com/resources/help/ko_KR/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨(x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값(x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/ko_KR/reference/index.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
@@ -127,7 +127,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
    <td colname="col3"> <p>코로케이션 시설 </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table" format="http" scope="external"> Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
