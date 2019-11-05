@@ -5,7 +5,7 @@ title: 데이터 유지 정책
 description: 데이터 보존 정책은 Adobe가 데이터를 저장하는 기간을 결정합니다.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: b135a1d2ddea4857496e90921c22fb30bd44da50
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -45,7 +45,7 @@ Adobe는 데이터 프로세서로서 고객의 액세스, 삭제 및 개인 요
 
 **삭제하기 전에 데이터 사본을 요청할 수 있습니까?**
 
-예. Adobe는 원시 히트 수준 데이터의 내역 데이터 덤프를 제공할 수 있습니다. 자세한 [내용은](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) 내보내기 사용 안내서의 데이터 피드를 참조하십시오. UI에서 제공할 수 있는 범위를 벗어나는 데이터 내보내기 요구 사항이 있는 경우 조직의 계정 관리자에게 문의하십시오. 특별한 숙박이 가능합니다.비용은 다를 수 있습니다.
+예. Adobe는 원시 히트 수준 데이터의 내역 데이터 덤프를 제공할 수 있습니다. 자세한 [내용은](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 내보내기 사용 안내서의 데이터 피드를 참조하십시오. UI에서 제공할 수 있는 범위를 벗어나는 데이터 내보내기 요구 사항이 있는 경우 조직의 계정 관리자에게 문의하십시오. 특별한 숙박이 가능합니다.비용은 다를 수 있습니다.
 
 **Adobe는 언제 데이터를 삭제합니까?**
 
