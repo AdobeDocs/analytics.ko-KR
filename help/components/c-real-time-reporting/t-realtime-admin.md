@@ -7,7 +7,7 @@ title: 실시간 보고서 구성
 topic: 관리 도구
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   지원되는 실시간 지표 및 차원에 대한 자세한 내용은 지원되는 지표 [및 차원을 참조하십시오](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   지원되는 실시간 지표 및 차원에 대한 자세한 내용은 지원되는 지표 [및 차원을 참조하십시오](/help/components/c-real-time-reporting/realtime-metrics.md).
 
    분류를 생성한 경우, 분류가 정의된 측정기준 아래에 분류가 들여 써진 채로 표시됩니다.
 
@@ -47,7 +47,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
    >
    >단일 실시간 보고서의 경우 각 차원에 대해 다른 분류를 선택하더라도 현재 중복 차원 활성화를 지원하지 않습니다.
 
-   분류에 대한 자세한 내용은 분류 [정보를 참조하십시오](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   분류에 대한 자세한 내용은 분류 [정보를 참조하십시오](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
