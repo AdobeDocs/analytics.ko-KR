@@ -8,7 +8,7 @@ title: 전환 변수(eVar)
 topic: 관리 도구
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b></b> 제품 구문</span>:eVar 값을 제품에 연결합니다. 참고: [제품 구문]을 선택한 경우 [머천다이징 바인딩 이벤트] 섹션이 비활성화되므로 선택하여 편집할 수 있습니다. 이 구문에는 [바인딩 이벤트]를 적용할 수 없습니다. </p> </p> <p> <b></b> 전환 변수 구문</span>:결합 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">머천다이징 변수</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b></b> 제품 구문</span>:eVar 값을 제품에 연결합니다. 참고: [제품 구문]을 선택한 경우 [머천다이징 바인딩 이벤트] 섹션이 비활성화되므로 선택하여 편집할 수 있습니다. 이 구문에는 [바인딩 이벤트]를 적용할 수 없습니다. </p> </p> <p> <b></b> 전환 변수 구문</span>:결합 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p>(eVar만) </p> </td> 
