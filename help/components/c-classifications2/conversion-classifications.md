@@ -8,7 +8,7 @@ title: 전환 분류
 topic: 관리 도구
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 전환 분류를 사용하면 전환 변수를 분류할 수 있습니다. 한 번 분류하면, 키 데이터를 사용하여 생성할 수 있는 어떤 보고서도 관련 데이터 속성을 사용하여 생성할 수 있습니다.
 
-분류를 활성화한 후에 [분류 가져오기](../../components/c-classifications2/c-classifications-importer/c-working-with-saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA)를 사용하여 해당 분류에 특정 값을 할당할 수 있었습니다.
+분류를 활성화한 후에 [분류 가져오기](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md)를 사용하여 해당 분류에 특정 값을 할당할 수 있었습니다.
 
 ## 전환 분류 설명 {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -74,10 +74,10 @@ t_classification_conversion.xml
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1. **유형 선택** 필드에서 변수에 추가하려는 분류 유형을 선택합니다.
 
-   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
 1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
-   이러한 요소에 대한 자세한 내용은 [전환 분류 설명](../../components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4)을 참조하십시오.
+   이러한 요소에 대한 자세한 내용은 [전환 분류 설명](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4)을 참조하십시오.
 
 1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 
