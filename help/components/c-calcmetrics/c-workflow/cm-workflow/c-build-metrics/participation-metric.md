@@ -5,7 +5,7 @@ seo-title: 기여도 지표
 title: 기여도 지표
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 계산된 지표 빌더에서 새 지표를 만듭니다.
 1. 성공 이벤트 "주문"을 정의 캔버스로 드래그합니다.
-1. 해당 이벤트의 [기여도 모델을](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) 설정 **[!UICONTROL 기어 아래에]** 있는 **[!UICONTROL 기여도로]** 변경합니다. 방문 **[!UICONTROL 룩백을]** 선택합니다. 정의 모양은 다음과 같아야 합니다.
+1. 해당 이벤트의 [기여도 모델을](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) 설정 **[!UICONTROL 기어 아래에]** 있는 **[!UICONTROL 기여도로]** 변경합니다. 방문 **[!UICONTROL 룩백을]** 선택합니다. 정의 모양은 다음과 같아야 합니다.
 
    ![](assets/participation.png)
 
