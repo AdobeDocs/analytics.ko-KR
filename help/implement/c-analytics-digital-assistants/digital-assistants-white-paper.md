@@ -5,7 +5,7 @@ seo-title: Analytics for Digital Assistants 구현
 title: Analytics for Digital Assistants 구현
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: de48a1211edd3a4fd35cc455f2002384deeed5be
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -56,7 +56,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>
@@ -82,7 +82,7 @@ Cache-Control: no-cache
 
 Adobe Analytics는 Adobe [Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html) Identity Service를 사용하여 시간 경과에 따른 상호 작용을 동일한 사람에게 연결합니다. 대부분의 디지털 도우미는 다른 사용자에 대해 활동을 유지하는 데 사용할 `userID` 수 있는 항목을 반환합니다. 대부분의 경우 이 값은 고유 식별자로 전달할 수 있는 값입니다. 일부 플랫폼은 허용되는 100자보다 긴 식별자를 반환합니다. 이러한 경우 MD5 또는 Sha1과 같은 표준 해싱 알고리즘을 사용하여 고유 식별자를 고정 길이 값으로 해시하는 것이 좋습니다.
 
-ID 서비스를 사용하면 ECID를 다른 장치(예: 웹-디지털 도우미)에 매핑할 때 가장 많은 값을 제공합니다. 앱이 모바일 앱인 경우 Experience Platform SDK를 있는 그대로 사용하고 `setCustomerID` 메서드를 사용하여 사용자 ID를 전송합니다. 그러나 앱이 서비스인 경우 서비스가 제공하는 사용자 ID를 ECID로 사용하고 에서 `setCustomerID`설정하십시오.
+ID 서비스를 사용하면 ECID를 다른 장치(예: 웹-디지털 도우미)에 매핑할 때 가장 많은 값을 제공합니다. 앱이 모바일 앱인 경우 Experience Platform SDK를 있는 그대로 사용하고 `setCustomerID` 메서드를 사용하여 사용자 ID를 전송합니다. However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
@@ -127,7 +127,7 @@ Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
-또는 
+또는
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
