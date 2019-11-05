@@ -5,7 +5,7 @@ seo-title: 패널 개요
 title: 패널 개요
 uuid: 480700e6-332e-44f2-a486-e3d1852cdbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 빈 패널 및 자유 형식 패널은 분석을 시작할 위치이며, 속성 IQ 및 세그먼트 비교는 고급 분석을 위해 자체 렌더링합니다. 또한 '+' 패널 단추를 추가하여 언제든지 빈 패널을 추가할 수 있습니다.
 
-기본 시작 패널은 자유 형식 패널이지만 [빈 패널](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2)을 기본값으로 설정할 수 있습니다.
+기본 시작 패널은 자유 형식 패널이지만 [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md)을 기본값으로 설정할 수 있습니다.
 
 ## 패널의 드롭다운 필터 {#section_D2828EEDD52944528E87F470EAB581CF}
 
