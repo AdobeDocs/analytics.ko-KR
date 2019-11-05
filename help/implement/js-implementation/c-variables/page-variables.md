@@ -9,7 +9,7 @@ title: 페이지 변수
 topic: 개발자 및 구현
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -123,7 +123,7 @@ campaign.xml
 
 다음과 같이 *`campaign`* 변수를 채우는 두 가지 기본 방법이 있습니다.
 
-* JavaScript 파일에서 사용되는 [!UICONTROL getQueryParam] 플러그인은 URL의 쿼리 문자열 매개 변수를 검색합니다. [!UICONTROL getQueryParam] 플러그인에 대한 자세한 내용은 [구현 플러그인](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* JavaScript 파일에서 사용되는 [!UICONTROL getQueryParam] 플러그인은 URL의 쿼리 문자열 매개 변수를 검색합니다. [!UICONTROL getQueryParam] 플러그인에 대한 자세한 내용은 [구현 플러그인](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * 웹 페이지에서 HTML의 *`campaign`* 변수에 값을 지정합니다.
 
@@ -131,7 +131,7 @@ campaign.xml
 
 방문자가 유료 검색 키워드를 클릭하여 사이트에 들어올 때를 예로 들어봅시다. 방문자가 랜딩 페이지에 도착할 때 URL에는 해당 키워드의 추적 코드를 식별하는 쿼리 문자열 매개 변수가 들어 있습니다. 방문자가 다른 페이지로 가는 링크를 클릭하지만 즉시 [뒤로] 단추를 클릭하여 랜딩 페이지로 다시 돌아갑니다. 방문자가 랜딩 페이지에 두 번째로 도착할 때 쿼리 문자열 매개 변수가 포함된 URL이 추적 코드를 다시 식별합니다. 그리고 두 번째 클릭스루가 등록되고 그에 따라 클릭스루의 수가 잘못 부풀려집니다.
 
-클릭스루가 이렇게 부풀려지지 않도록 하려면 [!UICONTROL getValOnce] 플러그인을 사용하여 각 캠페인 클릭스루가 세션당 한 번씩만 계산되도록 하는 것이 좋습니다. [!UICONTROL getValOnce] 플러그인에 대한 자세한 내용은 [구현 플러그인](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+클릭스루가 이렇게 부풀려지지 않도록 하려면 [!UICONTROL getValOnce] 플러그인을 사용하여 각 캠페인 클릭스루가 세션당 한 번씩만 계산되도록 하는 것이 좋습니다. [!UICONTROL getValOnce] 플러그인에 대한 자세한 내용은 [구현 플러그인](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 **구문 및 가능한 값** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -161,7 +161,7 @@ s.campaign=s.getQueryParam('cid');
 
 **함정, 질문 및 팁** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* 클릭스루가 부풀려지지 않도록 하려면 [!UICONTROL getValOnce] 플러그인을 사용하여 캠페인 클릭스루가 세션당 한 번씩만 계산되도록 하십시오. [!UICONTROL getValOnce] 플러그인에 대한 자세한 내용은 [구현 플러그인](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* 클릭스루가 부풀려지지 않도록 하려면 [!UICONTROL getValOnce] 플러그인을 사용하여 캠페인 클릭스루가 세션당 한 번씩만 계산되도록 하십시오. [!UICONTROL getValOnce] 플러그인에 대한 자세한 내용은 [구현 플러그인](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * 마케팅 캠페인 추적 및 키워드 구입에 대한 자세한 내용은 [캠페인](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html)을 참조하십시오.
 * [!DNL DigitalPulse Debugger]를 사용하여 캠페인의 실제 값(디버거의 v0)을 살펴 보십시오. v0이 디버거에 나타나지 않으면, 해당 페이지에 대해 캠페인 데이터가 기록되지 않습니다.
@@ -300,7 +300,7 @@ eVar가 방문자에 대한 값으로 설정되면 이 값은 만료되기 전�
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| 255바이트 | V1-v75([또는 v100 또는 v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | 사용자 지정 전환 | "" |
+| 255바이트 | V1-v75([또는 v100 또는 v250](/help/implement/js-implementation/c-variables/page-variables.md)) | 사용자 지정 전환 | "" |
 
 **만료** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -327,7 +327,7 @@ eVar는 대부분 문자열 값을 보관하는 데 사용되지만, 카운터�
 
 **구문 및 가능한 값** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-eVar의 이름은 변경할 수 있지만 JavaScript 파일에서는 항상 eVarX로 참조되어야 합니다. 여기서 X는 1과 75 사이의 숫자([ 또는 100 또는 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28))입니다.
+eVar의 이름은 변경할 수 있지만 JavaScript 파일에서는 항상 eVarX로 참조되어야 합니다. 여기서 X는 1과 75 사이의 숫자([ 또는 100 또는 250](/help/implement/js-implementation/c-variables/page-variables.md))입니다.
 
 ```js
 s.eVarX="value"
@@ -418,11 +418,11 @@ events.xml
 
 기본적으로, 성공 이벤트는 *카운터* 이벤트로 구성됩니다. 카운터 이벤트는 성공 이벤트가 설정되는 횟수(x+1)를 카운트합니다. 이벤트는 *숫자* 이벤트로도 구성됩니다. 숫자 이벤트를 사용하면 숫자를 증분으로 지정할 수 있습니다(내부 검색에서 반환되는 결과 수와 같이, 동적 또는 임의의 값을 카운트할 때 필요할 수 있기 때문에).
 
-최종 이벤트 유형인 *통화*&#x200B;를 사용하면 추가되는 금액을 정의할 수 있습니다(숫자 이벤트와 유사). 하지만 통화는 보고서에서 통화로 표시되며,  *`currencyCode`*&#x200B;값과 보고서 세트에 대한 기본 통화 설정을 기반으로 통화 전환이 가능합니다. 숫자 및 통화 이벤트 사용에 대한 자세한 내용은 [제품](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2)을 참조하십시오.
+최종 이벤트 유형인 *통화*&#x200B;를 사용하면 추가되는 금액을 정의할 수 있습니다(숫자 이벤트와 유사). 하지만 통화는 보고서에서 통화로 표시되며,  *`currencyCode`*&#x200B;값과 보고서 세트에 대한 기본 통화 설정을 기반으로 통화 전환이 가능합니다. 숫자 및 통화 이벤트 사용에 대한 자세한 내용은 [제품](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오.
 
 **변수 구성** {#section_9195286C34C54B02B2598E2B856492C3}
 
-[!UICONTROL s.events] 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. 새로운 사용자 지정 이벤트(event1- [event100 또는 event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28))는 관리 콘솔을 사용하여 모든 관리 수준 사용자가 활성화할 수 있습니다.
+[!UICONTROL s.events] 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. 새로운 사용자 지정 이벤트(event1- [event100 또는 event1000](/help/implement/js-implementation/c-variables/page-variables.md))는 관리 콘솔을 사용하여 모든 관리 수준 사용자가 활성화할 수 있습니다.
 
 **가능한 값** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -476,7 +476,7 @@ s.events="scRemove=3,event6,event2=4"
 
 기본적으로, 이벤트는 사이트에서 이벤트가 설정될 때마다 카운트됩니다.
 
-자세한 내용은 [이벤트 정리](../../../implement/js-implementation/event-serialization.md#concept_092B638D7FEE423D91F8A57EA8E09705)를 참조하십시오.
+자세한 내용은 [이벤트 정리](/help/implement/js-implementation/event-serialization.md)를 참조하십시오.
 
 **구문** {#section_8559D42D3F344AF3BB3C0125F78C4989}
 
@@ -750,11 +750,11 @@ list_props.xml
 
 **고려 사항**
 
-* 목록 Prop은 트래픽 변수([prop](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254))에서만 활성화됩니다.
+* 목록 Prop은 트래픽 변수([prop](/help/implement/js-implementation/c-variables/page-variables.md))에서만 활성화됩니다.
 * 경로 지정 및 상관 관계는 목록 prop에 대해 활성화할 수 없습니다.
 * Analytics에서는 모든 목록 prop 보고서를 포함하여 거의 모든 보고서에 방문 횟수 및 방문자 수를 제공합니다.
 * 목록 Prop에는 분류가 지원됩니다.
-* 모든 사용자 지정 트래픽 변수는 목록 Prop이 될 수 있습니다. (예외: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D) 및 [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2))
+* 모든 사용자 지정 트래픽 변수는 목록 Prop이 될 수 있습니다. (예외: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [channel](/help/implement/js-implementation/c-variables/page-variables.md) 및 [server](/help/implement/js-implementation/c-variables/page-variables.md))
 
 * 동일한 이미지 요청에서 중복 값을 정의하면, 인스턴스가 중복되지 않습니다.
 
@@ -1313,7 +1313,7 @@ mobile.xml
 
  -->
 
-[모바일 네트워크 프로토콜](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC)을 참조하십시오.
+[모바일 네트워크 프로토콜](/help/implement/js-implementation/c-additional-libraries/network-protocols.md)을 참조하십시오.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
@@ -1586,7 +1586,7 @@ The *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니
 | 제품 | (필수) 제품을 추적하는 데 사용되는 식별자. 이 식별자는 [!UICONTROL 제품] 보고서를 채우는 데 사용됩니다. 반드시 체크아웃 프로세스를 통해 동일한 식별자를 사용하십시오. |
 | 수량 | 구매된 개수. 이 필드를 기록하려면 [!UICONTROL 구매] 이벤트가 설정되어 있어야 합니다. |
 | 가격 | 개별 가격이 아니라, 구매한 총 수량의 복합 비용(판매량 x 개별 단위 가격)을 나타냅니다. 이 필드를 기록하려면 [!UICONTROL 구매] 이벤트가 설정되어 있어야 합니다. |
-| 이벤트 | 지정된 제품과 연결된 통화 이벤트. [제품별 통화 이벤트](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) 및 [주문 범위 통화 이벤트](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)를 참조하십시오. |
+| 이벤트 | 지정된 제품과 연결된 통화 이벤트. [제품별 통화 이벤트](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) 및 [주문 범위 통화 이벤트](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)를 참조하십시오. |
 | eVar | 특정 제품과 연결된 머천다이징 eVar 값. [머천다이징 변수](/help/components/c-variables/c-merch-variables/var-merchandising.md)를 참조하십시오. |
 
 The values included in the *`products`*&#x200B;변수에 포함된 값은 기록하고 있는 이벤트 유형을 기반으로 합니다. 카테고리/제품 구분 기호(;)는 카테고리 생략 시 자리 표시자로 필요합니다. 이 페이지의 예에서 보듯이, 다른 구분 기호는 포함하고 있는 매개 변수를 구분하는 데 필요할 경우에만 필요합니다.
@@ -2015,7 +2015,7 @@ s.timestamp="UNIX or ISO-8601 format timestamp"
 >
 >또한 보고서 세트에서 타임스탬프 지원을 활성화하여 오프라인 추적을 지원하는 경우 JavaScript에서 이 보고서 세트로 전송되는 모든 히트에도 *`s.timestamp`*). 타임스탬프가 있는 히트와 타임스탬프가 없는 히트를 같은 보고서 세트로 모두 전송할 수 없습니다.
 >
->  [타임스탬프 선택 사항](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F) 설정을 사용하여 타임스탬프가 지정된 데이터와 지정되지 않은 데이터를 동일한 전역 보고서 세트에서 혼합할 수도 있고, 타임스탬프가 지정된 데이터를 모바일 앱에서 전역 보고서 세트에 보낼 수도 있고, 새 보고서 세트를 만들지 않고도 타임스탬프를 적용하도록 앱을 업그레이드할 수도 있습니다.
+>  [타임스탬프 선택 사항](/help/implement/js-implementation/timestamps-overview.md) 설정을 사용하여 타임스탬프가 지정된 데이터와 지정되지 않은 데이터를 동일한 전역 보고서 세트에서 혼합할 수도 있고, 타임스탬프가 지정된 데이터를 모바일 앱에서 전역 보고서 세트에 보낼 수도 있고, 새 보고서 세트를 만들지 않고도 타임스탬프를 적용하도록 앱을 업그레이드할 수도 있습니다.
 
 **타임스탬프 형식** {#section_C12CBCECCD7047D38EF63A5800761CE9}
 
