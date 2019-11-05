@@ -7,7 +7,7 @@ title: 트래픽 증가에 대한 필수 리드 타임
 topic: 관리 도구
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -18,7 +18,7 @@ Adobe에서는 새 계정 설정, 트래픽 스파이크 및 트래픽 증가에
 
 하드웨어 할당은 Reports &amp; Analytics 사용자 인터페이스를 통해 제출된 경고를 기반으로 수행됩니다.
 
-> [!IMPORTANT] Adobe는 "자리 표시자" 트래픽 변경 요청을 수용할 수 없습니다. 별도로 명시되어 있지 않는 한, 너무 일찍 경고를 보내지 않는 것을 포함하여 제안된 리드 타임을 가능한 한 가까이 사용하십시오. 트래픽 [스파이크](../../admin/c-traffic-management/t-traffic-schedule-spike.md) 예약 또는 영구 [트래픽 증가](../../admin/c-traffic-management/t-traffic-permanent.md)지정을 참조하십시오.
+> [!IMPORTANT] Adobe는 "자리 표시자" 트래픽 변경 요청을 수용할 수 없습니다. 별도로 명시되어 있지 않는 한, 너무 일찍 경고를 보내지 않는 것을 포함하여 제안된 리드 타임을 가능한 한 가까이 사용하십시오. 트래픽 [스파이크](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) 예약 또는 영구 [트래픽 증가](/help/admin/c-traffic-management/t-traffic-permanent.md)지정을 참조하십시오.
 
 트래픽 경고를 얼마나 일찍 제출해야 하는지를 결정하려면 다음 지침을 사용하십시오.
 
