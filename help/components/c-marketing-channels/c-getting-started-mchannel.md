@@ -8,7 +8,7 @@ title: 마케팅 채널 시작
 topic: Reports and Analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,22 +32,24 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 모든 소셜 네트워킹 사이트를 집계하시겠습니까? 아니면 개별적으로 추적하고 싶은 사이트가 있습니까?
 * 추적할 변환에 영향을 주는 다른 채널이 있습니까?
 
-권장 채널 목록은 [FAQ 및 예제](../../components/c-marketing-channels/c-faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44)를 참조하십시오. 채널을 만들 때 더 쉽게 활성화 및 정의할 수 있도록 사용할 채널 목록을 만듭니다.
+권장 채널 목록은 [FAQ 및 예제](/help/components/c-marketing-channels/c-faq.md)를 참조하십시오. 채널을 만들 때 더 쉽게 활성화 및 정의할 수 있도록 사용할 채널 목록을 만듭니다.
 
 ![](assets/step2_icon.png) 마케팅 채널 관리자 [!UICONTROL 페이지에서 마케팅 채널을] 추가합니다.
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.md#concept_C832E652974F419C82A4FAD9076C3197) for important prerequisite and conceptual information.
+See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.md) for important prerequisite and conceptual information.
 
-절차는 [마케팅 채널](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) 추가를 참조하십시오.
+절차는 [마케팅 채널](/help/components/c-marketing-channels/c-channels.md) 추가를 참조하십시오.
 
-> [!NOTE] 마케팅 채널이 이전에 구성되지 않은 경우 [자동 설정이](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
+>[!NOTE]
+>
+> 마케팅 채널이 이전에 구성되지 않은 경우 [자동 설정이](/help/components/c-marketing-channels/c-channel-autosetup.md) 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
 
 ![](assets/step3_icon.png)[!UICONTROL  마케팅 채널 처리 규칙] 페이지에서 각 채널의 규칙을 구성하거나 세분화합니다.
 
 [!UICONTROL 마케팅 채널 관리자] 페이지에서 채널을 만들고 나면 채널에서 데이터를 검색하고 보고할 수 있도록 규칙을 구성합니다.
 
-자세한 내용은 [마케팅 채널 처리 규칙](../../components/c-marketing-channels/c-rules.md#concept_9ADC8D3AA4C84288ACC6D441D4036646).
+자세한 내용은 [마케팅 채널 처리 규칙](/help/components/c-marketing-channels/c-rules.md).
 
 채널을 자동 설정에서 만드는 경우에는 채널의 규칙이 정의됩니다. 정의된 규칙을 필요에 맞게 수정할 수 있습니다.
