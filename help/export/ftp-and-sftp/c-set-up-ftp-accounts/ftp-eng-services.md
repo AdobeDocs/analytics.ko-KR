@@ -7,7 +7,7 @@ solution: Analytics
 title: FTP로 엔지니어링 서비스 참여
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 이러한 참여에 [!UICONTROL DB VISTA] 및 사용자 지정 프로젝트가 포함됩니다.
 
-FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)를 참조하십시오.
+FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](/help/export/ftp-and-sftp/ftp-limits.md)를 참조하십시오.
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
@@ -26,4 +26,4 @@ FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 �
 
 ## 사용자 지정 참여 {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe 엔지니어링 서비스는 FTP와 SFTP를 모두 사용하는 사용자 정의 프로젝트를 제공합니다. 사용자 지정 프로젝트에 대한 자세한 내용은 Adobe 엔지니어링 서비스를 참조하십시오. SFTP에 대한 자세한 내용은 보안 [파일 전송 프로토콜을 참조하십시오](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Adobe 엔지니어링 서비스는 FTP와 SFTP를 모두 사용하는 사용자 정의 프로젝트를 제공합니다. 사용자 지정 프로젝트에 대한 자세한 내용은 Adobe 엔지니어링 서비스를 참조하십시오. SFTP에 대한 자세한 내용은 보안 [파일 전송 프로토콜을 참조하십시오](/help/export/ftp-and-sftp/c-sftp/ftp-sftp.md).
