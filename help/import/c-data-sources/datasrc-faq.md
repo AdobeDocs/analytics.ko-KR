@@ -8,7 +8,7 @@ title: Data Sources FAQ
 topic: 개발자 및 구현
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 오프라인 데이터를 온라인 이벤트에 연결하려면 어떻게 합니까? {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-오프라인 데이터를 온라인 이벤트와 연결하기 위한 거래 ID 데이터 소스의 경우 거래 ID 레코딩을 사용해야 합니다. 자세한 내용은 [거래 ID 기록](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)을 참조하십시오.
+오프라인 데이터를 온라인 이벤트와 연결하기 위한 거래 ID 데이터 소스의 경우 거래 ID 레코딩을 사용해야 합니다. 자세한 내용은 [거래 ID 기록](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)을 참조하십시오.
 
 ## 데이터 소스 기능을 사용하려면 비용이 얼마나 듭니까? {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
