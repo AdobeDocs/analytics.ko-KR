@@ -5,7 +5,7 @@ seo-title: 날짜 및 날짜 범위
 title: 날짜 및 날짜 범위
 uuid: 8f099db7-e7 파섹
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **이전 날짜 구획에 액세스하려면**
 
-1. [프로젝트를 만들거나 엽니다.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. 달력을 [연 다음 분기](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)또는 연도를 **** 선택합니다 ****.
+1. [프로젝트를 만들거나 엽니다.](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. 달력을 [연 다음 분기](/help/analyze/ad-hoc-analysis/c-dates.md)또는 연도를 **** 선택합니다 ****.
 
 > [!NOTE] 내역 날짜 구획은 분기 및 연도 제한 내에 있습니다. 기존 구획과 새로운 처리 플랫폼 사이의 경계를 넘어 데이터를 볼 수 없습니다. 오류의 두 결과에 걸쳐 있는 날짜 범위입니다. 또한 날짜 범위는 사용자 지정 달력이 아닌 태양력에만 적용됩니다.
 
