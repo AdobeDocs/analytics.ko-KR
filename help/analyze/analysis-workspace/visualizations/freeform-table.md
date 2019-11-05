@@ -5,7 +5,7 @@ seo-title: 자유 형식 테이블
 title: 자유 형식 테이블
 uuid: eb272991-9f12-4b67-8b38-7ed548139a1d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,12 +21,12 @@ Analysis Workspace에서 데이터 테이블(자유 형식 테이블)은 보고�
 다음과 같은 고유한 방식으로 테이블과 상호 작용할 수 있습니다.
 
 * [테이블 선택에서 경고 만들기](/help/components/c-alerts/alert-builder.md)
-* 먼저 [분류](../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4)를 실행하고 인라인 세그먼트 만들기(마우스 오른쪽 단추 클릭)
-* Run [visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) on specific cells
-* Export rows to [CSV](../../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025)
-* 선택한 셀에서 [트렌드](../../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) 시각화 실행
-* 선택 사항에서 [세그먼트](../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80) 생성
-* [세그먼트 비교 수행](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+* 먼저 [분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 실행하고 인라인 세그먼트 만들기(마우스 오른쪽 단추 클릭)
+* Run [visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) on specific cells
+* Export rows to [CSV](/help/analyze/analysis-workspace/curate-share/download-send.md)
+* 선택한 셀에서 [트렌드](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) 시각화 실행
+* 선택 사항에서 [세그먼트](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) 생성
+* [세그먼트 비교 수행](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 * 선택한 행만 표시
 
-See [Create an Analysis Workspace project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information.
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
