@@ -7,7 +7,7 @@ title: 지표 및 차원 추가
 topic: Report Builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 지표 및 차원을 요청에 추가하는 절차.
 
-1. [요청 마법사에서 데이터 요청을](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) 만듭니다 [!UICONTROL .1단계에서]다음을 **[!UICONTROL 클릭합니다]**.
+1. [요청 마법사에서 데이터 요청을](/help/analyze/report-builder/data-requests/data-requests.md) 만듭니다 [!UICONTROL .1단계에서]다음을 **[!UICONTROL 클릭합니다]**.
 1. [!UICONTROL 요청 마법사: 2단계]에서 지표를 두 번 클릭하거나 지표를 원하는 위치로 드래그합니다.
 
    ![단계 정보](assets/adding_metrics.png)
@@ -64,7 +64,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     * 년
     * 날짜 범위(세부기간이 지정되지 않은 경우)
 
-1. 형식 옵션 [](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) 및 필터를 구성하여 지표 및 차원을 수정합니다.
+1. 형식 옵션 [](/help/analyze/report-builder/layout/t-format-display-headers.md) 및 필터를 구성하여 지표 및 차원을 수정합니다.
 1. **[!UICONTROL 마침을 클릭합니다]**.
 다음 예에서는 [!UICONTROL 페이지] 지표와 관련된 차원입니다. 여기에서 [!UICONTROL 참조 도메인] 차원은 [!UICONTROL 페이지]와 [!UICONTROL 참조 도메인] 간 분류 보고서를 만듭니다. 분류 보고서에 추가할 수 있는 차원들로만 [!UICONTROL 차원] 탭이 업데이트됩니다.
 
