@@ -7,7 +7,7 @@ solution: Experience Cloud,Dynamic Tag Management
 title: 라이브러리 관리
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -46,7 +46,7 @@ Dynamic Tag Management의 라이브러리 관리 설정에 있는 필드 및 옵
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>DTM</b>: Dynamic Tag Management 내에 <span class="filepath">s_code</span>를 호스팅할 수 있습니다. <span class="uicontrol">코드 편집</span>을 클릭하여 파일을 잘라 편집기에 바로 붙여넣을 수 있습니다. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: 양호한 <span class="filepath">s_code</span> 파일이 있고 이 파일의 업데이트 프로세스에 만족하는 경우 여기에서 파일에 URL을 제공할 수 있습니다. 그러면 Dynamic Tag Management에서는 <span class="filepath">Adobe Analytics</span> 구현에 이 <span class="keyword">s_code</span> 파일을 사용합니다. </li> 
-    </ul> <p> <b>편집기 열기: </b><a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local">핵심 AppMeasurement 코드를 삽입</a>할 수 있습니다. 이 코드는 <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Adobe Analytics 설정</a>에 설명되어 있는 자동 구성 메서드를 사용할 때 자동으로 채워집니다. </p> <p> <b>추적기 변수 이름: </b><span class="keyword">Adobe Analytics</span>의 인스턴스 두 개를 나란히(하나는 Dynamic Tag Management 내에서, 하나는 기본적으로) 실행하려는 경우 기본 <span class="term">s</span> 개체의 이름을 바꿀 수 있습니다. 개체의 이름을 변경하면 충돌을 피할 수 있습니다. </p> </td> 
+    </ul> <p> <b>편집기 열기: </b><a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  >핵심 AppMeasurement 코드를 삽입</a>할 수 있습니다. 이 코드는 <a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  > Adobe Analytics 설정</a>에 설명되어 있는 자동 구성 메서드를 사용할 때 자동으로 채워집니다. </p> <p> <b>추적기 변수 이름: </b><span class="keyword">Adobe Analytics</span>의 인스턴스 두 개를 나란히(하나는 Dynamic Tag Management 내에서, 하나는 기본적으로) 실행하려는 경우 기본 <span class="term">s</span> 개체의 이름을 바꿀 수 있습니다. 개체의 이름을 변경하면 충돌을 피할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
