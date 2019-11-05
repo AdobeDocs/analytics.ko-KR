@@ -5,7 +5,7 @@ seo-title: 예외 항목 탐지 개요
 title: 예외 항목 탐지 개요
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [YouTube 기여도](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) 분석(3:20)
 
-> [!IMPORTANT] 예외 항목 탐지는 분석 작업 공간에서만 사용할 수 있습니다. Adobe Analytics Select 및 Foundation 고객은 작업 공간에서 "일별 세부기간" 예외 항목 감지에 액세스할 수 있습니다. 자세한 내용은 [예외 항목 탐지 및 기여도 분석 권한](../contribution-analysis/ca-tokens.md)을 참조하십시오.
+>[!IMPORTANT] 예외 항목 감지는 보고 및 분석 기능 세트에서 제거되었으며 이제 분석 작업 공간을 통해서만 사용할 수 있습니다. Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 작업 공간에서 "일별 세부기간" 예외 항목 감지에 액세스할 수 있습니다. 자세한 내용은 [예외 항목 탐지 및 기여도 분석 권한](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)을 참조하십시오.
 
 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 
