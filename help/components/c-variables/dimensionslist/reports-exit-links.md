@@ -7,7 +7,7 @@ title: '종료 링크 '
 topic: 보고서
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 이 보고서는 트렌드 형식과 등급 형식으로 볼 수 있습니다.
 * 이 보고서에서 검색 필터를 사용하여 특정 라인 항목을 찾을 수 있습니다.
 * You can create [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [인스턴스](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)는 이 보고서 내에서 기본적으로 사용할 수 있는 유일한 지표이며, 종료 링크가 실행된 시간 수를 계산할 수 있습니다.
+* [인스턴스](/help/components/c-variables/c-metrics/metrics-instance.md)는 이 보고서 내에서 기본적으로 사용할 수 있는 유일한 지표이며, 종료 링크가 실행된 시간 수를 계산할 수 있습니다.
 * 일일, 주별, 월별 및 분기별 방문자가 이 보고서에 대해 활성화될 수 있습니다. 단, Adobe 담당자만 추가 비용으로 이러한 방문자를 활성화할 수 있습니다. 모든 사용자 지정 링크 추적 변수에 대한 고유 방문자 수를 활성화하면 보고서 세트에 대한 지연이 크게 증가합니다.
 
