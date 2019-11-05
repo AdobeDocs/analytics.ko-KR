@@ -1,10 +1,10 @@
 ---
-description: 보기 밀도를 조정하는 방법을 살펴봅니다.
+description: 뷰 밀도를 조정하는 방법을 살펴봅니다.
 seo-description: 분석 작업 공간 테이블에서 보기 밀도를 조정하는 방법을 알아봅니다.
 seo-title: 분석 작업 공간에서 밀도 설정 보기
 title: 보기 밀도
 translation-type: tm+mt
-source-git-commit: bd3aec0f0911046c91aa9dd7a626adcee965167c
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: bd3aec0f0911046c91aa9dd7a626adcee965167c
 보기 밀도를 조정하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다.
 라디오 단추를 통해 보기 밀도를 토글할 때 다음과 같은 3개의 옵션이 표시됩니다.
 
-- **[!UICONTROL Compact]**: 이것은 가장 좁은 뷰가 있는 버전입니다.
-- **[!UICONTROL 편리함: 이렇게 하면 작은 버전보다 더 많은 패딩이 남습니다.]**
-- **[!UICONTROL 확대 (]** 기본값): 작업 공간에서 사용되는 보기입니다.
+- **[!UICONTROL 압축]**:이 버전은 가장 간결한 뷰를 갖춘 버전입니다.
+- **[!UICONTROL 편안함]**:Compact 버전보다 패딩이 약간 더 많이 남습니다.
+- **[!UICONTROL 확장]** (기본값):이 보기는 작업 공간에서 사용하는 보기입니다.
 
 ![](assets/view-density.png)
 
