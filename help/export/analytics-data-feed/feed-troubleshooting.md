@@ -7,7 +7,7 @@ solution: Analytics
 title: 데이터 피드 문제 해결
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,11 +40,11 @@ Amazon S3에 대한 일반적인 사용 사례는 AWS(Amazon 웹 서비스) 계�
 
 FTP 전송이 실패하는 경우(로그인 거부, 연결 유실, 할당량 부족 등) Adobe는 최대 3회 자동으로 문제를 해결하고 데이터 전송을 시도합니다. 그래도 문제가 계속되면 피드가 실패된 것으로 표시되고 이메일 알림이 발송됩니다.
 
-전송 실패 시, 다음을 수행할 수 있습니다. [성공할 때까지 작업](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501)을 다시 실행하십시오.
+전송 실패 시, 다음을 수행할 수 있습니다. [성공할 때까지 작업](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md)을 다시 실행하십시오.
 
 ## 재전송 옵션 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-배달 문제를 확인/수정했으면 작업을 [다시 실행하여](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) 파일을 가져오기만 하면 됩니다.
+배달 문제를 확인/수정했으면 작업을 [다시 실행하여](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) 파일을 가져오기만 하면 됩니다.
 
 ## 일광 절약 시간제가 시간별 데이터 피드에 영향을 줄 수 있음 {#section_70E867D942054DD09048E027A9474FFD}
 
