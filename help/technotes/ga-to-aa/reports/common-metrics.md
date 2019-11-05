@@ -1,65 +1,65 @@
 ---
-title: 기타 플랫폼 번역 사이트에서 일반적으로 사용되는 지표
-description: Google Analytics 사용자에게 익숙한 용어를 사용하여 많은 일반 보고서에 대한 지표 데이터를 가져오는 방법을 이해합니다.
+title: 다른 플랫폼 번역 안내서에서 일반적으로 사용되는 지표
+description: Google Analytics 사용자에게 보다 익숙한 용어를 사용하여 많은 일반 보고서의 지표 데이터를 가져오는 방법을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
-# 기타 플랫폼 번역 사이트에서 일반적으로 사용되는 지표
+# 다른 플랫폼 번역 안내서에서 일반적으로 사용되는 지표
 
-Google Analytics와 같은 다른 플랫폼에서 많은 보고서는 일반적인 지표 수를 공유합니다. 이 페이지를 사용하여 많은 보고서에서 사용되는 지표를 다시 만드는 방법을 이해하십시오.
+Google Analytics와 같은 다른 플랫폼에서는 많은 보고서가 일반적인 수의 지표를 공유합니다. 이 페이지를 사용하여 여러 보고서에 사용된 지표를 다시 만드는 방법을 이해합니다.
 
-작업 공간 자유 형식 표에 여러 지표를 추가하려면 작업 공간의 지표 헤더 옆에 있는 구성 요소 영역에서 지표를 드래그합니다.
+작업 공간 자유 형식 테이블에 여러 지표를 추가하려면 작업 공간의 지표 헤더 옆에 있는 구성 요소 영역에서 지표를 드래그합니다.
 
-![추가 지표](../assets/new_metric.png)
+![추가 지표](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## 획득 지표
 
-**사용자는** 작업 영역의 **고유 방문자 수와** 거의 같습니다. See the [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) metric in the Components user guide for additional details.
+**사용자는** 작업 **영역의 고유 방문자와** 거의 같습니다. 자세한 내용은 [구성 요소](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) 사용자 안내서의 고유 방문자 수 지표를 참조하십시오.
 
-**새 사용자는** 다음 방법으로 얻을 수 있습니다.
+**새 사용자는** 다음을 통해 얻을 수 있습니다.
 
-1. **고유 방문자** 수 지표를 작업 공간으로 드래그합니다.
-2. Drag the **First Time Visits** segment above the Unique Visitors metric headers:
+1. 고유 방문자 **수** 지표를 작업 영역으로 드래그합니다.
+2. 첫 **번째 방문** 세그먼트를 고유 방문자 수 지표 헤더 위로 드래그합니다.
 
    ![최초 방문](../assets/first_time_visits.png)
 
-**세션은** 분석 작업 공간의 **방문 횟수와** 거의 같습니다. See the [Visits](../../../components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for additional details.
+**세션은** 분석 작업 **공간의** 방문 횟수와거의 같습니다. 자세한 [내용은 구성 요소](/help/components/c-variables/c-metrics/metrics-visit.md) 사용자 안내서의 방문 횟수 지표를 참조하십시오.
 
 ![획득 지표](../assets/acquisition_metrics.png)
 
-## 행동 지표
+## 동작 지표
 
-**바운스 비율을** 지표로 분석 작업 공간에서 즉시 사용할 수 있습니다. See the [Bounce Rate](../../../components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for additional information.
+**바운스** 비율은 분석 작업 공간에서 지표로 쉽게 사용할 수 있습니다. 자세한 [내용은 구성 요소](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) 사용 안내서의 바운스 비율 지표를 참조하십시오.
 
-**페이지/세션은** 계산된 지표입니다. 다음을 통해 얻을 수 있습니다.
+**페이지/세션은** 계산된 지표입니다. 다음 방법으로 얻을 수 있습니다.
 
-1. 이미 계산된 지표를 만든 경우 지표 아래에서 찾은 다음 작업 공간으로 드래그합니다.
-2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
-3. ' 방문당 페이지 보기 횟수'및 원하는 경우 설명을 지정합니다.
-4. 형식을 Decimal로 설정하고 소수점 이하 자릿수를 2로 설정합니다.
-5. **페이지 보기** 지표 및 **방문** 횟수 지표를 정의 영역으로 드래그합니다.
-6. Arrange the definition so the formula is **Page Views divided by Visits**.
+1. 이 계산된 지표를 이미 만든 경우 지표 아래에서 해당 지표를 찾아 작업 공간으로 드래그합니다.
+2. 이 계산된 지표를 아직 만들지 않은 경우 지표 목록 근처의 **+** 아이콘을 클릭하여 계산된 지표 빌더를 엽니다.
+3. '방문당 페이지 보기 횟수'의 제목과 필요한 경우 설명을 제공합니다.
+4. 형식을 Decimal로 설정하고 소수 자릿수를 2로 설정합니다.
+5. 페이지 보기 **횟수** 지표 및 **방문** 지표를 정의 영역으로 드래그합니다.
+6. 공식을 페이지 보기 횟수로 **나누도록 정의를 정렬합니다**.
 
-   ![방문당 페이지 보기 횟수](../assets/page_views_per_visit.png)
+   ![방문당 페이지 보기 횟수](/help/technotes/ga-to-aa/assets/page_views_per_visit.png)
 
 7. 저장을 클릭하여 작업 영역으로 돌아갑니다.
 8. 새로 정의된 계산된 지표를 작업 공간으로 드래그합니다.
 
-   Learn more about [Calculated Metrics](../../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+   구성 요소 사용 안내서에서 [계산된](/help/components/c-variables/c-metrics/calculated-metric.md) 지표에 대해 자세히 알아보십시오.
 
-**평균 Session Duration** is approximately equal to **Time Spent per Visit (seconds)**. Learn more about [Time Spent](../../../components/c-variables/c-metrics/metrics-time-spent.md) metrics in the Components user guide.
+**평균 세션** 기간은 방문당 **체류 시간(초)**&#x200B;과 거의 같습니다. 구성 요소 사용 안내서에서 [체류](/help/components/c-variables/c-metrics/metrics-time-spent.md) 시간 지표에 대해 자세히 알아보십시오.
 
 ## 전환 지표
 
-**목표 전환율**, **목표 완료**&#x200B;및 **목표 값은** 두 플랫폼에서 추가 구현이 필요합니다. 구현에서 이미 제품 차원과 구매 이벤트를 수용하는 경우 다음 단계를 고려하십시오.
+**목표 전환율**, **목표 완료**&#x200B;및 목표 **가치를 위해서는 두 플랫폼에서** 추가 구현이 필요합니다. 구현에서 이미 제품 차원과 구매 이벤트를 수용하는 경우 다음 단계를 고려하십시오.
 
-1. **주문** 지표, **매출** 지표 및 **방문** 횟수 지표를 작업 공간으로 드래그합니다.
-1. Create a calculated metric of **Orders per Visit**. 두 지표 헤더 모두에서 Ctrl 키 (Windows) 또는 Cmd 키 (Mac) 를 누른 상태로 클릭하면 강조 표시됩니다. Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. 이 새 지표는 목표 전환율과 유사합니다.
-1. 소수점 자릿수가 필요한 경우 계산된 지표를 편집합니다. 지표 머리글에서 정보 단추를 클릭한 다음 연필 아이콘을 클릭합니다. 계산된 지표 빌더 창에 1 개 또는 2 개의 소수 자리를 추가한 다음 저장을 클릭합니다.
+1. 주문 **지표** , 매출 **지표 및** 방문 **지표를 작업** 공간으로 드래그합니다.
+1. 방문당 주문의 계산된 **지표를 만듭니다**. 두 지표 헤더에서 Ctrl+클릭(Windows) 또는 Cmd+클릭(Mac)을 사용하여 강조 표시합니다. 머리글 중 하나를 마우스 오른쪽 단추로 클릭하고 선택 **영역에서 지표 만들기를**&#x200B;선택한 다음 나누기를 **클릭합니다**. 이 새 지표는 목표 전환율과 유사합니다.
+1. 소수점 자리가 필요한 경우 계산된 지표를 편집합니다. 지표 헤더에서 정보 단추를 클릭한 다음 연필 아이콘을 클릭합니다. 계산된 지표 빌더 창에서 1 또는 2개의 소수점 자리를 추가한 다음 저장을 클릭합니다.
 
-   ![방문당 주문 수](../assets/orders_per_visit.png)
+   ![방문당 주문 수](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
 
-구현에서 아직 제품 또는 전환 데이터를 수용하지 않는 경우, 구현 컨설턴트와 함께 데이터 품질과 무결성을 보장하는 것이 좋습니다.
+구현에서 아직 제품 또는 전환 데이터를 수용하지 않는 경우 구현 컨설턴트와 협력하여 데이터 품질과 무결성을 보장하는 것이 좋습니다.
