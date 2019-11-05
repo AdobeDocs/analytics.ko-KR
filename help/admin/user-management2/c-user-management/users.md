@@ -8,7 +8,7 @@ title: 사용자 관리 개요
 topic: 관리 도구
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 사용자</span> </td> 
-   <td colname="col2"> <p> 선택된 그룹 권한만 사용자에게 부여합니다. <span class="uicontrol">사용 가능한 그룹</span> 필드(왼쪽)에서 원하는 그룹을 선택한 다음 <span class="uicontrol">추가</span>를 클릭합니다. 지정된 그룹이 <span class="uicontrol">지정된 그룹</span> 필드(오른쪽)에 나타납니다. For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> 선택된 그룹 권한만 사용자에게 부여합니다. <span class="uicontrol">사용 가능한 그룹</span> 필드(왼쪽)에서 원하는 그룹을 선택한 다음 <span class="uicontrol">추가</span>를 클릭합니다. 지정된 그룹이 <span class="uicontrol">지정된 그룹</span> 필드(오른쪽)에 나타납니다. For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
