@@ -5,7 +5,7 @@ seo-title: Adobe Analytics용 Emarsys 데이터 커넥터
 title: Adobe Analytics용 Emarsys 데이터 커넥터
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 활성 emarsys 계정
 
-단계별 통합 지침은 데이터 커넥터 [통합 마법사 실행을 참조하십시오](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a).
+단계별 통합 지침은 데이터 커넥터 [통합 마법사 실행을 참조하십시오.](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
 
 ## 가격 책정{#pricing}
 
