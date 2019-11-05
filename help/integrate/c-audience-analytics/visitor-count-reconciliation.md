@@ -5,7 +5,7 @@ seo-title: 방문자 수 차이
 title: 방문자 수 차이
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,11 +25,11 @@ Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM: 총 세그먼트 채우기</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: 총 세그먼트 채우기</a> </p> </td> 
    <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었던 장치(Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM: 실시간 세그먼트 채우기</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: 실시간 세그먼트 채우기</a> </p> </td> 
    <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었으며, 속성을 방문한 장치(Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -72,4 +72,4 @@ AAM 실시간 세그먼트 채우기 및 Audience Analytics 보고 내에 사용
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
+See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
