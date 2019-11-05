@@ -7,7 +7,7 @@ title: 데이터 요청 만들기
 topic: Report Builder
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 기본 데이터 요청을 만드는 절차.
 
 1. In Excel, click **[!UICONTROL Create]**.
-1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913).
+1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (선택 사항) 세그먼트를 선택하여 요청에 적용합니다. 세그먼트를 한 개 이상 선택하면 선택한 세그먼트가 목록 맨 위로 이동합니다.
 
-   Report Builder는 Adobe Analytics가 세그먼트를 사용하는 방법과 동일하게 세그먼트를 사용합니다. [Analytics 세그멘테이션 안내서](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)를 참조하십시오. 1. (선택 사항) 배포에 사용할 [게시 목록을](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C) 선택합니다.
-1. [보고서 유형을](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC)선택합니다.
-1. 날짜 범위 [및 보고서](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) 세부기간을 지정합니다 [](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
-1. Click **[!UICONTROL Next]**.
-1. In the [Layout - Request Wizard Step 2](../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB) window, specify a layout:
+   Report Builder는 Adobe Analytics가 세그먼트를 사용하는 방법과 동일하게 세그먼트를 사용합니다. [Analytics 세그멘테이션 안내서](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)를 참조하십시오. 1. (선택 사항) 배포에 사용할 [게시 목록을](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) 선택합니다.
+1. [보고서 유형을](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)선택합니다.
+1. 날짜 범위 [및 보고서](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) 세부기간을 지정합니다 [](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
+1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. In the [Layout - Request Wizard Step 2](/help/analyze/report-builder/layout/layout.md) window, specify a layout:
 
    | 요소 | 설명 |
    |---|---|
@@ -36,4 +36,4 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    보고서 세트의 구성과 1단계에서 선택한 기본 보고서에 따라 2단계에서 [차원](https://marketing.adobe.com/resources/help/en_US/reference/dimensions.html)을 사용할 수 있습니다. 차원은 상호 관련시키거나 하위 관계로 만들거나 [!UICONTROL 요청 마법사: 1단계] 창에서 선택한 원래 보고서 유형 지표의 분류인 항목입니다. 2단계에서 두 개 이상의 차원을 추가하면 데이터 요청에서 분류가 만들어집니다.
 
-   자세한 내용은 [지표 및 차원 추가](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4)를 참조하십시오.
+   자세한 내용은 [지표 및 차원 추가](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)를 참조하십시오.
