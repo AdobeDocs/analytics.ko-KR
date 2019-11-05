@@ -7,7 +7,7 @@ title: 링크 추적 방법론
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6)에서 확인하십시오.
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](/help/analyze/activity-map/lnk-tracking-overview.md)에서 확인하십시오.
 
 Activity Map은 다음 두 ID를 기반으로 링크를 추적합니다.
 
@@ -113,7 +113,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## 구성 변수 {#section_634197EACD404AC086DF9A03B813C8C3}
+## 구성 변수 {#configuration-vars}
 
 다음 변수들은 참조용으로만 제공됩니다. Activity Map은 설치 즉시 적절하게 구성되지만, 다음 변수들을 사용하여 구현을 사용자 지정할 수 있습니다.
 
