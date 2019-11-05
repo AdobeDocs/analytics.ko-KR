@@ -7,7 +7,7 @@ title: Report Builder 설치
 topic: Report Builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -29,4 +29,4 @@ Report Builder 설치 방법을 설명하는 절차입니다.
 1. MS Excel을 열거나 다시 시작하여 [!UICONTROL 추가 기능] 메뉴를 표시합니다.
 1. Go to **[!UICONTROL Add-Ins]** &gt; **[!UICONTROL Sign In]**.
 
-   리포트 빌더 [로그인의 지침을 따르십시오](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
+   리포트 빌더 [로그인의 지침을 따르십시오](/help/analyze/report-builder/setup/login.md).
