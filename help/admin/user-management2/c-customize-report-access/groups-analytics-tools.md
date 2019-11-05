@@ -9,7 +9,7 @@ title: Analytics 도구 권한 사용자 지정
 topic: 관리 도구
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -39,23 +39,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 요소 | 설명 |
 |--- |--- |
 | **일반** |  |
-| [코드 관리자](../../../admin/admin/code-manager-admin.md) | 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 권한을 활성화합니다. |
+| [코드 관리자](/help/admin/admin/code-manager-admin.md) | 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 권한을 활성화합니다. |
 | 코드 관리자 - 웹 서비스 | 관리자가 아닌 사용자가 웹 서비스를 통해 코드 관리자에 액세스할 수 있도록 허용합니다. |
-| [로그](../../../admin/admin/logs.md) | 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일에 대한 권한을 활성화합니다. |
+| [로그](/help/admin/admin/logs.md) | 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일에 대한 권한을 활성화합니다. |
 | 로그 - 웹 서비스 | 관리자가 아닌 사용자가 웹 서비스를 통해 관리 도구에 액세스할 수 있도록 허용합니다. |
-| [트래픽 관리](../../../admin/c-traffic-management/traffic-management.md) | 트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변경을 지정할 수 있습니다. |
+| [트래픽 관리](/help/admin/c-traffic-management/traffic-management.md) | 트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변경을 지정할 수 있습니다. |
 | 권한 관리 | 관리자가 아닌 사용자에게 관리 도구의 [사용자 관리] 페이지에 액세스할 권한을 부여합니다. 이러한 사용자에게는 읽기 권한이 있지만, 쓰기 권한이 없습니다. |
 | 권한(쓰기) - 웹 서비스 | 관리자가 아닌 사용자에게 웹 서비스의 [사용자 관리]에서 읽기 및 쓰기 권한 설정을 부여합니다.<br>이 설정은 특히 관리 API에서 표시된 사용 권한 작업을 참조합니다. |
 | 권한(읽기) - 웹 서비스 | 관리자가 아닌 사용자가 웹 서비스의 사용자 관리에서 권한 설정을 볼 수 있도록 허용합니다.<br>이 설정은 특히 관리 API에서 표시된 사용 권한 작업을 참조합니다. |
 | **회사 경영** |  |
-| [보안](../../../admin/company/security-manager.md) | 해당 데이터에 대한 액세스를 제어할 수 있도록 보안 관리자 페이지에 대한 권한을 부여합니다. 어려운 암호, 암호 만료, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다. |
+| [보안](/help/admin/company/security-manager.md) | 해당 데이터에 대한 액세스를 제어할 수 있도록 보안 관리자 페이지에 대한 권한을 부여합니다. 어려운 암호, 암호 만료, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다. |
 | 지원 정보 | 회사 설정의 지원 정보에 대한 권한을 부여합니다. |
-| [웹 서비스](../../../admin/company/web-services-admin.md) | 관리 도구 인터페이스에서 웹 서비스 페이지에 대한 액세스를 허용합니다([!UICONTROL 회사 설정] &gt; [!UICONTROL 웹 서비스]).<br>웹 서비스 API를 사용하면 사용자 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 Adobe Analytics 서비스에 프로그래밍 방식으로 액세스할 수 있습니다. |
+| [웹 서비스](/help/admin/company/web-services-admin.md) | 관리 도구 인터페이스에서 웹 서비스 페이지에 대한 액세스를 허용합니다([!UICONTROL 회사 설정] &gt; [!UICONTROL 웹 서비스]).<br>웹 서비스 API를 사용하면 사용자 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 Adobe Analytics 서비스에 프로그래밍 방식으로 액세스할 수 있습니다. |
 | Single Sign-On(이전) | 관리 도구의 Single Sign-On 페이지에 대한 액세스 권한을 부여합니다.<br>**참고:** Adobe Experience Cloud에서 단일 사인 온은 Experience Cloud와 솔루션 간 [계정 연결](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)을 사용하여 구현됩니다. |
-| [보류 중인 작업](../../../admin/company/pending-actions-admin.md) | [!UICONTROL 회사 설정]에서 보류 중인 작업을 관리할 권한을 부여합니다. |
-| [공동 브랜딩](../../../admin/company/co-branding-admin.md) | Analytics를 공동 브랜딩할 권한을 부여합니다. |
-| [기본 설정](../../../admin/admin/preferences-manager.md) | [!UICONTROL 기본 설정 관리자]에 대한 권한을 부여합니다. |
-| [보고서 세트 숨기기](../../../admin/company/c-hide-report-suites.md) | Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 권한을 부여합니다. |
+| [보류 중인 작업](/help/admin/company/pending-actions-admin.md) | [!UICONTROL 회사 설정]에서 보류 중인 작업을 관리할 권한을 부여합니다. |
+| [공동 브랜딩](/help/admin/company/co-branding-admin.md) | Analytics를 공동 브랜딩할 권한을 부여합니다. |
+| [기본 설정](/help/admin/admin/preferences-manager.md) | [!UICONTROL 기본 설정 관리자]에 대한 권한을 부여합니다. |
+| [보고서 세트 숨기기](/help/admin/company/c-hide-report-suites.md) | Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 권한을 부여합니다. |
 | **도구** | 이러한 설정은 Analytics 도구(인터페이스와 애플리케이션) 및 고급 기능(세그멘테이션 및 계산된 지표)에 대한 액세스 권한을 부여합니다. |
 | [현재 데이터](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | 보고에 현재 데이터 기능을 사용할 권한을 부여합니다. |
 | [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) 라이선스 사용자 | [!UICONTROL Ad Hoc Analysis]에 대한 액세스 권한을 부여합니다. |
