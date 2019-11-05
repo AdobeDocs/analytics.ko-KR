@@ -5,7 +5,7 @@ seo-title: 계산된 지표 역할 기반 권한
 title: 계산된 지표 역할 기반 권한
 uuid: 7c14d32d-37 파섹
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <b>관리자 수준 사용자</b> </td> 
-   <td colname="col02"> 관리자는 계산된 지표를 만들 수 있을 뿐만 아니라 사용자 권한을 제한하는 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">그룹</a>을 만들어 계산된 지표를 만들 수도 있습니다. </td> 
+   <td colname="col02"> 관리자는 계산된 지표를 만들 수 있을 뿐만 아니라 사용자 권한을 제한하는 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >그룹</a>을 만들어 계산된 지표를 만들 수도 있습니다. </td> 
    <td colname="col2"> 전체 회사, 사용자 그룹 및 개별 사용자와 공유할 수 있습니다. </td> 
    <td colname="col3"> <span class="keyword"> [!UICONTROL 보고 및 분석] </span>:보기/편집/삭제 등을 수행할 수 있습니다. 계산된 지표를 보거나 편집하거나 삭제할 수 있습니다. <p> <span class="keyword"> Ad Hoc Analysis</span> 및 <span class="keyword">Report Builder</span>: 보기/편집/삭제 등을 수행할 수 있습니다. 계산된 지표를 보거나 편집하거나 삭제할 수 있습니다. </p> </td> 
    <td colname="col4"> 계산된 지표를 표준으로 승인할 수 있습니다. </td> 
