@@ -9,7 +9,7 @@ title: 리디렉션 및 별칭
 topic: 개발자 및 구현
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,8 +38,8 @@ redirects_sc.xml
 
 다음 예는 리디렉션의 유무에 따라 찾아보기가 어떻게 영향을 받는지를 나타냅니다.
 
-* [예: 리디렉션 없이 찾아보기](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
-* [예: 리디렉션을 사용하여 찾아보기](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
+* [예: 리디렉션 없이 찾아보기](/help/implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
+* [예: 리디렉션을 사용하여 찾아보기](/help/implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
 ## 예: 리디렉션 없이 찾아보기 {#section_5C835A4D665A4625A23333C2C21F152D}
 
@@ -58,7 +58,7 @@ redirects_sc.xml
 1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나([!DNL https://www.flytohawaiiforfree.com/])/)에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.flywithus.com/` /으로 리디렉션하도록 구성되었습니다.
 1. 사용자가 `https://www.flytohawaiiforfree.com/` 링크를 클릭하면 서버가 사용자를 주 사이트인 `https://www.flywithus.com`으로 리디렉션합니다. 리디렉션이 발생할 때 브라우저가 참조 URL을 지우므로 [!DNL Analytics] 데이터 수집에 중요한 데이터가 유실됩니다. 따라서 [!DNL Analytics] 보고서(예: [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진], [!UICONTROL 검색 키워드])에 사용된 원래 검색 정보가 유실됩니다.
 
-[리디렉션 구현](../../implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7)에서 [!DNL Analytics] 변수를 활용하여 리디렉션에서 유실된 데이터를 캡처하는 방법을 설명합니다. 특히, 이 섹션에서는 위에서 설명한 "할인 항공 티켓" 상황을 해결하는 방법을 설명합니다.
+[리디렉션 구현](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7)에서 [!DNL Analytics] 변수를 활용하여 리디렉션에서 유실된 데이터를 캡처하는 방법을 설명합니다. 특히, 이 섹션에서는 위에서 설명한 "할인 항공 티켓" 상황을 해결하는 방법을 설명합니다.
 
 ## 구현 리디렉션 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
