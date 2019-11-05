@@ -8,7 +8,7 @@ title: 시각화 개요
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a5455
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 
 >[!IMPORTANT]
 >
->시각화 설정에 따라 시각화가 표시됩니다. 모든 설정이 모든 시각화에 적용되는 것은 아닙니다. 또한 일부 고급 설정은 [히스토그램 설정](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)과 같은 특정 시각화에 대해서&#x200B;**만** 표시됩니다.
+>시각화 설정에 따라 시각화가 표시됩니다. 모든 설정이 모든 시각화에 적용되는 것은 아닙니다. 또한 일부 고급 설정은 [히스토그램 설정](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)과 같은 특정 시각화에 대해서&#x200B;**만** 표시됩니다.
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
   </tr> 
   <tr> 
    <td colname="col1"> <p>표준화 </p> </td> 
-   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. 표준화를 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. 표준화를 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이중 축 표시 </p> </td> 
