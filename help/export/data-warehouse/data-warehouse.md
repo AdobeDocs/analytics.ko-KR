@@ -7,7 +7,7 @@ title: Data Warehouse 개요
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,7 +67,7 @@ Data Warehouse는 개별적으로 예약하고 다운로드한 보고서를 한 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 지표 정렬</span> </td> 
-   <td colname="col2">Reports &amp; Analytics 사용자 인터페이스, Data Workbench 등에 표시되는 항목과 유사하고, 내림차순 지표 값을 기준으로 정렬된 등급 분류 보고서를 제공합니다. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> 자세히...</a> </td> 
+   <td colname="col2">Reports &amp; Analytics 사용자 인터페이스, Data Workbench 등에 표시되는 항목과 유사하고, 내림차순 지표 값을 기준으로 정렬된 등급 분류 보고서를 제공합니다. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > 자세히...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 배달 예약</span> </td> 
