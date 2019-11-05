@@ -9,7 +9,7 @@ title: JavaScript용 AppMeasurement 정보
 topic: 개발자 및 구현
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ JavaScript 용 [!DNL AppMeasurement]는 s_code.js의 핵심 기능과 동일한 
 
 다음은 새로운 [!DNL AppMeasurement] 버전으로 전환하기 전에 알고 있어야 하는 변경 사항입니다.
 
-* 일부 플러그인은 더 이상 지원되지 않습니다. [AppMeasurement 플러그인 지원](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)을 참조하십시오.
+* 일부 플러그인은 더 이상 지원되지 않습니다. [AppMeasurement 플러그인 지원](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)을 참조하십시오.
 * 라이브러리는 동적 계정 선택([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md) 및 [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md))을 지원하지 않습니다.
 
 * 라이브러리와 페이지 코드는 `<head>` 태그 내에 배포할 수 있습니다.
@@ -32,7 +32,7 @@ JavaScript 용 [!DNL AppMeasurement]는 s_code.js의 핵심 기능과 동일한 
 
 ## FAQ {#section_9BD41B08F7B54197B230937714B9357A}
 
-성능, 비디오 추적, 모바일 등에 대한 자세한 내용은 [FAQ](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3)를 참조하십시오.
+성능, 비디오 추적, 모바일 등에 대한 자세한 내용은 [FAQ](/help/implement/faq.md)를 참조하십시오.
 
 ## 초기화 프로세스 {#section_F6D5680F6D134B6AB1F01C6235860635}
 
@@ -47,15 +47,15 @@ var s=s_gi(s_account)
 
 ## AppMeasurement 인스턴스 가져오기 {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-코드 전체에서 전역 [s_gi() 함수](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD)를 호출하여 기존 [!DNL AppMeasurement] 인스턴스를 검색합니다.
+코드 전체에서 전역 [s_gi() 함수](/help/implement/js-implementation/function-s-gi.md)를 호출하여 기존 [!DNL AppMeasurement] 인스턴스를 검색합니다.
 
 ## 유틸리티 {#section_0F47694DD0214645A24C94AB6A4142A0}
 
 JavaScript [!DNL AppMeasurement]는 다음의 기본 제공 유틸리티를 제공합니다.
 
-* [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D)
-* [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2)
-* [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)
+* [Util.cookieRead](/help/implement/js-implementation/util-cookieread.md)
+* [Util.cookieWrite](/help/implement/js-implementation/util-cookiewrite.md)
+* [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)
 
 ## Clear Vars {#section_597C411E7EDB42BC9A6A0508C9D57147}
 
