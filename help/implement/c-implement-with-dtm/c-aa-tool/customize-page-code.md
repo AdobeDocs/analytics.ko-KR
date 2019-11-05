@@ -6,8 +6,8 @@ seo-title: 페이지 코드 사용자 지정
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 페이지 코드 사용자 지정
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Analytics를 배포할 때 Dynamic Tag Management의 필드 설명을 사용하여 페이지 코드를 사용자 지정합니다.
 
-Analytics 도구와 동시에 코드가 실행되도록 플러그인을 추가합니다. Analytics 플러그인에 대한 자세한 내용은 [구현 플러그인](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+Analytics 도구와 동시에 코드가 실행되도록 플러그인을 추가합니다. Analytics 플러그인에 대한 자세한 내용은 [구현 플러그인](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 **[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
@@ -32,7 +32,7 @@ Analytics 도구와 동시에 코드가 실행되도록 플러그인을 추가�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>편집기 열기 </p> </td> 
-   <td colname="col2"> <p><code>s_code</code>에 들어 있는 최종 <code>s.t()</code> 호출 전에 트리거해야 하는 모든 JavaScript API 호출을 삽입할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <code> s.t()</code> call, which is contained in the <code> s_code</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>실행 </p> </td> 
