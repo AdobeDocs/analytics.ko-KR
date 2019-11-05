@@ -5,7 +5,7 @@ seo-title: Adobe Analytics 설명서 업데이트
 seo-description: Adobe Analytics 설명서 업데이트
 short-title: Analytics 설명서 업데이트
 translation-type: tm+mt
-source-git-commit: cfb8f6e33da0ffa3cc99abc6066493e3b7dc5e9d
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -31,11 +31,11 @@ source-git-commit: cfb8f6e33da0ffa3cc99abc6066493e3b7dc5e9d
 | 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
 | 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |
 | 2019년 6월 10일 | 중국을 [위한 지역 데이터 수집(RDC)에 관한 새로운 기사](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
-| 2019년 6월 4일 | [타사 분석 플랫폼에서 Adobe Analytics로 전환](../technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
-| 2019년 5월 30일 | [데이터 피드 열 참조](../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
-| 2019년 4월 11일 | [Workspace 성능 최적화](../analyze/analysis-workspace/optimizing-performance.md)에 대한 업데이트입니다. |
-| 2019년 3월 14일 | [지역 데이터 수집](../technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
-| 2019년 2월 7일 | ](../admin/admin/general-acct-settings-admin.md)일반 계정 설정[의 "IP 주소의 마지막 옥텟을 0으로 바꾸기" 및 "IP 난독 처리" 설정에 대한 부분 업데이트입니다. |
-| 2019년 2월 1일 | [getPercentPageViewed](../implement/js-implementation/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
-| 2019년 1월 17일 | Analysis Workspace, [보기 밀도](../analyze/analysis-workspace/build-workspace-project/view-density.md)의 새 프로젝트 설정입니다. |
-| 2019년 1월 17일 | [집단 분석](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)에 대한 주요 업데이트입니다. |
+| 2019년 6월 4일 | [타사 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
+| 2019년 5월 30일 | [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
+| 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)에 대한 업데이트입니다. |
+| 2019년 3월 14일 | [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
+| 2019년 2월 7일 | ](/help/admin/admin/general-acct-settings-admin.md)일반 계정 설정[의 "IP 주소의 마지막 옥텟을 0으로 바꾸기" 및 "IP 난독 처리" 설정에 대한 부분 업데이트입니다. |
+| 2019년 2월 1일 | [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
+| 2019년 1월 17일 | Analysis Workspace, [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)의 새 프로젝트 설정입니다. |
+| 2019년 1월 17일 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)에 대한 주요 업데이트입니다. |
