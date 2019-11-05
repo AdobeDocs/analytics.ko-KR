@@ -9,7 +9,7 @@ title: 방문 횟수
 topic: 개발자 및 구현
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics에서는 서버 호출이 방문 페이지 번호가 1인 채 발생할 때마다 방문을 계산합니다.
 
-[이전 테이블](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)을 보면 네 번(히트 1, 9, 11, 12) 발생했습니다. 유효한 [!UICONTROL 방문자 ID]에서의 변화로 인해 [!UICONTROL 방문 페이지 번호]가 1로 재설정되지 않으므로, 이 값은 방문자 수와 유사하게, 초기 연결 후 정상으로 돌아옵니다.
+[이전 테이블](/help/implement/js-implementation/xdevice-visid/visit-example.md)을 보면 네 번(히트 1, 9, 11, 12) 발생했습니다. 유효한 [!UICONTROL 방문자 ID]에서의 변화로 인해 [!UICONTROL 방문 페이지 번호]가 1로 재설정되지 않으므로, 이 값은 방문자 수와 유사하게, 초기 연결 후 정상으로 돌아옵니다.
