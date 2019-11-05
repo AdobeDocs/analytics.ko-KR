@@ -5,7 +5,7 @@ seo-title: 행 설정
 title: 행 설정
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
 
-[테이블에서 작업을 마우스 오른쪽 단추로 클릭](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)하여 선택한 행을 관리할 수도 있습니다.
+[테이블에서 작업을 마우스 오른쪽 단추로 클릭](/help/analyze/analysis-workspace/visualizations/freeform-table.md)하여 선택한 행을 관리할 수도 있습니다.
 
 테이블 행 설정에 액세스하려면 이러한 각 항목 내에서 차원, 세그먼트, 지표, 기간 또는 분류 옆에 있는 [설정] 아이콘을 클릭합니다.
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 날짜 비교</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 날짜 비교</a> </p> </td> 
    <td colname="col2"> <p><b>각 열의 날짜가 같은 행에서 모두 시작하도록 맞춥니다. </b> </p> <p>날짜를 맞추도록 선택한 경우 예를 들어, 2016년 10월과 9월 간 월별 비교에서는 왼쪽 열이 10월 1일로 시작되고 오른쪽 열이 9월 1일로 시작됩니다. </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>기본적으로 비활성화되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>열 합계 </p> </td> 
-   <td colname="col2"> <p>이러한 설정은 <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local">동적 행(모든 항목을 표시하는 차원에 놓은 경우)이 아닌 수동(정적) 행</a>(유한 항목 세트를 선택한 경우)에만 표시됩니다. <p>참고: <i>지표</i> 수동 행의 경우 설정이 테이블의 현재 행 옆에 있는 지표 합계를 이해하지 못하므로 비활성화됩니다. </p> </p> <p><b>현재 각 열에 있는 값을 합하여 합계 계산(기본적으로 활성화됨):</b> </p> <p>이 옵션은 현재 테이블에 있는 행만 계산합니다. (클라이언트 측 계산) </p> <p><b>각 지표에 대한 모든 행에 기반을 두고 합계 계산(기본적으로 비활성화됨):</b> </p> <p>이 옵션에는 테이블에 표시되지 않더라도 이 차원의 모든 차원 항목을 포함합니다. (서버 측 계산) </p> </td> 
+   <td colname="col2"> <p>이러한 설정은 <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  >동적 행(모든 항목을 표시하는 차원에 놓은 경우)이 아닌 수동(정적) 행</a>(유한 항목 세트를 선택한 경우)에만 표시됩니다. <p>참고: <i>지표</i> 수동 행의 경우 설정이 테이블의 현재 행 옆에 있는 지표 합계를 이해하지 못하므로 비활성화됩니다. </p> </p> <p><b>현재 각 열에 있는 값을 합하여 합계 계산(기본적으로 활성화됨):</b> </p> <p>이 옵션은 현재 테이블에 있는 행만 계산합니다. (클라이언트 측 계산) </p> <p><b>각 지표에 대한 모든 행에 기반을 두고 합계 계산(기본적으로 비활성화됨):</b> </p> <p>이 옵션에는 테이블에 표시되지 않더라도 이 차원의 모든 차원 항목을 포함합니다. (서버 측 계산) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>분류 </p> </td> 
