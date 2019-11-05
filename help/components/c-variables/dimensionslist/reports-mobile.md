@@ -7,7 +7,7 @@ title: 모바일
 topic: 보고서
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 운영 체제 (사용되지 않음) </td> 
-   <td colname="col2"> <p> 장치에서 실행되는 모바일 운영 체제를 기준으로 모바일 장치를 그룹화합니다. 모바일 운영 체제에는 Windows, RIM, iOS, Symbian 등이 포함되어 있습니다. 보고서는 식별되지 않은 모바일 운영 체제를 위해 알 수 없음 그룹도 포함하고 있습니다. </p> <p>참고:이 보고서는 기술 &gt; 운영 체제 <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> 보고서가</a> 모바일을 포함한 모든 운영 체제를 포함하도록 업데이트되면 더 이상 사용되지 않습니다. "모바일 장치"가 있는 세그먼트를 만들어, 기술 &gt; 운영 체제 보고서에 적용하여 모바일 운영 체제만 볼 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 장치에서 실행되는 모바일 운영 체제를 기준으로 모바일 장치를 그룹화합니다. 모바일 운영 체제에는 Windows, RIM, iOS, Symbian 등이 포함되어 있습니다. 보고서는 식별되지 않은 모바일 운영 체제를 위해 알 수 없음 그룹도 포함하고 있습니다. </p> <p>참고:이 보고서는 기술 &gt; 운영 체제 <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > 보고서가</a> 모바일을 포함한 모든 운영 체제를 포함하도록 업데이트되면 더 이상 사용되지 않습니다. "모바일 장치"가 있는 세그먼트를 만들어, 기술 &gt; 운영 체제 보고서에 적용하여 모바일 운영 체제만 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java 버전 </td> 
-   <td colname="col2"> <p> 모바일 장치가 지원하는 Java 버전을 기준으로 모바일 장치를 그룹화합니다. Java 버전 보고서는 장치에서 지원하는 JSR(Java Specification Request)로 Java 버전을 식별합니다. 보고서는 식별되지 않은 모바일 운영 체제를 위해 알 수 없음 그룹도 포함하고 있습니다. </p> <p><a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a> 웹 사이트에서 해당 JSR에 대한 자세한 내용을 볼 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 모바일 장치가 지원하는 Java 버전을 기준으로 모바일 장치를 그룹화합니다. Java 버전 보고서는 장치에서 지원하는 JSR(Java Specification Request)로 Java 버전을 식별합니다. 보고서는 식별되지 않은 모바일 운영 체제를 위해 알 수 없음 그룹도 포함하고 있습니다. </p> <p><a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a> 웹 사이트에서 해당 JSR에 대한 자세한 내용을 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 북마크 URL 길이 </td> 
