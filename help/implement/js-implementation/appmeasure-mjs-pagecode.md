@@ -9,7 +9,7 @@ title: 페이지 코드 및 글로벌 구성 예
 topic: 개발자 및 구현
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->이 예제는 [JavaScript 구현](../../implement/js-implementation/javascript-implementation-overview.md)의 일부로서 배포되는 방문자 ID 서비스를 사용합니다. 모든 사이트 페이지에서 방문자 API JavaScript 파일을 포함하기 전에 AppMeasurement에서 방문자 ID 서비스를 활성화하면 방문자 카운트가 중복될 수 있습니다. 방문자 카운트 중복을 피하려면 방문자 ID 서비스에 설명된 프로세스를 이해하고 [방문자 ID 서비스](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>이 예제는 [JavaScript 구현](/help/implement/js-implementation/javascript-implementation-overview.md)의 일부로서 배포되는 방문자 ID 서비스를 사용합니다. 모든 사이트 페이지에서 방문자 API JavaScript 파일을 포함하기 전에 AppMeasurement에서 방문자 ID 서비스를 활성화하면 방문자 카운트가 중복될 수 있습니다. 방문자 카운트 중복을 피하려면 방문자 ID 서비스에 설명된 프로세스를 이해하고 [방문자 ID 서비스](/help/implement/js-implementation/c-unique-visitors/visid-service.md).
 
 ## 예제 AppMeasurement.js 코드 {#section_4351543F2D6049218E18B48769D471E2}
 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-각 페이지의 `AppMeasurement.js` 및 `VisitorAPI.js`에도 참조를 포함해야 합니다. 지침에 대해서는 [JavaScript 구현](../../implement/js-implementation/javascript-implementation-overview.md)을 참조하십시오.
+각 페이지의 `AppMeasurement.js` 및 `VisitorAPI.js`에도 참조를 포함해야 합니다. 지침에 대해서는 [JavaScript 구현](/help/implement/js-implementation/javascript-implementation-overview.md)을 참조하십시오.
