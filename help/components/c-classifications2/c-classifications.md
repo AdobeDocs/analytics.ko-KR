@@ -8,7 +8,7 @@ title: 분류 정보
 topic: 관리 도구
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -43,7 +43,7 @@ Reports &amp; Analytics에는 추적 코드 변수를 위해 사전 정의된 �
 
 [트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)를 참조하십시오.
 
-다음 표는 사용 가능한 분류의 다양한 유형과 각 분류를 지원하는 변수 유형을 나타냅니다. 데이터 파일을 업로드하기 전에 일반 [파일 구조](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) 데이터 파일을 업로드하기 전에
+다음 표는 사용 가능한 분류의 다양한 유형과 각 분류를 지원하는 변수 유형을 나타냅니다. 데이터 파일을 업로드하기 전에 일반 [파일 구조](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) 데이터 파일을 업로드하기 전에
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
