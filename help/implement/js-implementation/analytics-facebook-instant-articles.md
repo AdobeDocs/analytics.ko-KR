@@ -8,7 +8,7 @@ title: Facebook 인스턴트 아티클
 topic: 개발자 및 구현
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ Facebook Instant Article 컨텐츠를 만들 때 분석 HTML 컨텐츠를 iFrame
    1. 회사의 추적 서버 도메인.
    1. 방문자 네임스페이스 변수. **참고:** 이러한 값들 중 많은 수는 표준 Analytics 구현 내에서 찾을 수 있습니다. 필요할 경우 고객 지원 또는 Adobe 컨설팅에서 적절한 값을 제공하는 데 도움을 줄 수 있습니다.
 
-1. [사용자 지정 변수 및 이벤트 추적 설정](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [사용자 지정 변수 및 이벤트 추적 설정](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. 페이지 보기 이미지 요청 구문 `( s.t())`을 포함합니다.
 
 ## 3단계. 사용자 지정 변수 및 이벤트 추적 설정 {#section_932C41BD21154C25B99389299BDF3E0B}
