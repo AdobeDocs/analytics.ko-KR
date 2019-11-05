@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: 개발자 및 구현
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE] 플러그인의 베타 버전이며 곧 추가 업데이트가 있을 수 있습니다.
 
-이 플러그인을 사용하려면 [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)가 필요합니다.
+이 플러그인을 사용하려면 [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)가 필요합니다.
 
 이 플러그인은 브라우저 내에 해당 페이지가 표시되었던 총 초(활성 및 수동 보기 시간 모두)도 기록합니다. 페이지 가시성 이벤트와 연관된 이전 페이지 이름을 추적하려면 getPreviousValue 플러그인을 사용해야 합니다. 이러한 값을 추적하면 사용자 사이트에서 방문자 참여를 더 잘 이해하고 방문자 행동을 더 정확히 추적하는 데 유용합니다.
 
