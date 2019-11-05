@@ -8,16 +8,12 @@ title: 마케팅 채널 보고서에 사용된 지표
 topic: Reports and Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # 마케팅 채널 보고서에 사용된 지표
-
-마케팅 채널 보고서에서 지표를 사용하는 방법.
-
-## 마케팅 채널 보고서에 사용된 지표 {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 마케팅 채널 보고서에서 지표를 사용하는 방법.
 
@@ -29,11 +25,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
  보고서에 열 추가
 
-## 첫 번째 및 마지막 접촉 지표 {#concept_68D9A50204304BA58C1F8013451E7853}
+## 첫 번째 및 마지막 접촉 지표 {#first-and-last-touch}
 
 첫 번째 접촉 및 마지막 접촉은 채널에서 방문자 활동으로 인한 새 참여 수(또는 제품 보기, 매출 및 주문 수와 같은 지표 데이터)를 볼 수 있는 채널 속성입니다.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). 여기에는 사용자가 들어온 처음 채널과 최근 채널이 표시됩니다. 그리고 각 해당 채널에 성공 이벤트에 대한 크레딧을 줍니다.
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 여기에는 사용자가 들어온 처음 채널과 최근 채널이 표시됩니다. 그리고 각 해당 채널에 성공 이벤트에 대한 크레딧을 줍니다.
 
 <!-- 
 
@@ -65,7 +61,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 > [!NOTE] 이 보고서는 각 지표의 첫 번째 접촉 또는 마지막 접촉 버전을 사용합니다. 따라서 [!UICONTROL 마케팅 채널] 보고서에 표시된 데이터가 다른 보고서에 표시된 데이터와 일치하지 않을 수 있습니다.
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | 지표 | 정의 |
 |--- |--- |
@@ -73,7 +69,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 | 첫 번째 접촉 방문자 | 채널 보고서에서 첫 번째 접촉 방문자는 채널로부터 온 일별 고유 방문자입니다. 방문자의 참여는 방문자가 사이트에 머문 기간 동안(많은 방문이 지속될 수 있음) 저장됩니다. |
 | 마지막 접촉 채널 | 전환 채널로서 방문자를 전환으로 이끄는 마지막 마케팅 채널입니다. 하나의 채널만 첫 번째 접촉 채널로 설정되며, 마지막 접촉 채널은 사이트에 재방문할 때마다 바뀔 수 있습니다. 모든 방문에는 첫 번째 접촉 및 마지막 접촉 채널이 있지만 첫 번째 접촉 채널의 값은 후속 방문으로 변경되지 않습니다. |
 
-## 클릭스루 {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## 클릭스루 {#click-through}
 
 클릭스루는 마지막 접촉 채널의 인스턴스입니다. 이는 가장 최근 할당이 있는 eVar입니다.
 
@@ -89,7 +85,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 첫 번째 접촉 채널 보고서는 유료 검색에 대해 1개의 새 유도를 표시합니다. 각각의 다른 채널은 0개의 새 유도를 표시합니다. 마지막 접촉 채널 보고서는 유료 검색에 대해 2개, 표시에 대해 3개, 자연어 검색에 대해 2개의 클릭스루를 표시합니다.
 
-## 마케팅 채널 보고서에 지표 추가 {#task_D381139E00504666AB2402D553CFEA5B}
+## 마케팅 채널 보고서에 지표 추가 {#add-metrics-to-mktg-channel-rpt}
 
 마케팅 채널 보고서에 지표를 추가합니다. 보고서의 각 열에 최대 4개의 지표를 추가할 수 있으며, 추가 가능한 열 수에는 제한이 없습니다.
 
