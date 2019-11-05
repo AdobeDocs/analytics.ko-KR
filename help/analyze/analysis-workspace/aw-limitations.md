@@ -4,7 +4,7 @@ seo-description: 'null'
 seo-title: 작업 공간 제한, 분석 작업 공간의 알려진 제한 사항
 title: 분석 작업 공간의 알려진 제한 사항
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
