@@ -7,7 +7,7 @@ title: 페이지 보기 횟수
 topic: 보고서
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동안 웹 사이트 페이지를 본 횟수를 표시하는 트렌드 보고서입니다. 이 보고서를 이용하면 사이트의 전체 페이지 보기 횟수 집계뿐 아니라 사이트의 각 페이지에 대한 페이지 보기 횟수도 추적할 수 있습니다.
 
-[페이지 뷰](../../../components/c-variables/c-metrics/metrics-page-view.md#concept_ABB4C6725E844B13970D6BD625654F26)는 이미지나 비디오와 같은 페이지 요소가 아니라 전체 페이지 문서에 대한 요청입니다. 예를 들어 한 명의 방문자가 1회 방문 시 15페이지를 보는 경우 15회의 페이지 보기로 계산됩니다. 한 명의 방문자가 1회 방문 시 동일한 페이지를 3번 보는 경우 3회의 페이지 보기로 계산됩니다. 
+[페이지 뷰](/help/components/c-variables/c-metrics/metrics-page-view.md)는 이미지나 비디오와 같은 페이지 요소가 아니라 전체 페이지 문서에 대한 요청입니다. 예를 들어 한 명의 방문자가 1회 방문 시 15페이지를 보는 경우 15회의 페이지 보기로 계산됩니다. 한 명의 방문자가 1회 방문 시 동일한 페이지를 3번 보는 경우 3회의 페이지 보기로 계산됩니다. 
 
 **보고서 속성**
 
