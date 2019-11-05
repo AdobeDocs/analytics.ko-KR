@@ -8,7 +8,7 @@ title: 마케팅 채널의 처리 규칙
 topic: Reports and Analytics
 uuid: f6394f4b-a244-48e9-9892-7dfbceb5fc9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,15 +22,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 처리를 원하는 순서대로 규칙을 정렬합니다.
 *  [기타]와 같은 다목적 캐치(catch-all) 규칙을 목록의 끝에 포함시킵니다. 이 규칙은 내부 트래픽을 제외하고 외부 트래픽을 식별합니다.
 
-   [식별된 채널 없음](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)을 참조하십시오.
+   See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)
 
 > [!NOTE] 이러한 규칙은 마케팅 채널 외부의 보고에 영향을 주지 않지만 마케팅 채널 데이터 수집에 영향을 줍니다. 이러한 규칙으로 수집한 데이터는 100% 영구적이며 데이터를 수집한 후에 수정한 규칙은 되돌릴 수 없습니다. 데이터가 잘못된 채널에서 수집되는 일을 막을 수 있도록 [!UICONTROL 마케팅 채널 처리 규칙]을 저장하기 전에 모든 상황을 검토 및 고려하는 것이 좋습니다.
 
-**전제 조건**
+## 전제 조건
 
-* 마케팅 채널 시작 [및 마케팅 채널 보고서](../../components/c-marketing-channels/c-getting-started-mchannel.md#concept_0C28C1592F564E53BB467E6EBC168E8C) 정보에서 개념 [정보를 검토하십시오](../../components/c-marketing-channels/c-overview.md#concept_77BE50D20BAA402CB292026436A39068).
+* 마케팅 채널 시작 [및 마케팅 채널 보고서](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 정보에서 개념 [정보를 검토하십시오](/help/components/c-marketing-channels/c-overview.md).
 
 * 규칙을 할당할 수 있도록 하나 이상의 채널을 만듭니다.
 
-   자세한 내용은 [마케팅 채널 추가](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03).
-
+   자세한 내용은 [마케팅 채널 추가](/help/components/c-marketing-channels/c-channels.md)를 참조하십시오.
