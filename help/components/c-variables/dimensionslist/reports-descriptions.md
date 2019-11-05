@@ -7,7 +7,7 @@ title: 차원 설명
 topic: 보고서
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -48,7 +48,7 @@ Reports &amp; Analytics에서 사용할 수 있는 사전 정의된 보고서의
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html" format="html" scope="external"> 확장된 측정기준</a> </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > 확장된 측정기준</a> </td> 
   </tr> 
  </tbody> 
 </table>
