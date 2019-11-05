@@ -7,7 +7,7 @@ title: 예외 항목 탐지
 topic: Report Builder
 uuid: 02da21b4-3394-47 파섹
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
