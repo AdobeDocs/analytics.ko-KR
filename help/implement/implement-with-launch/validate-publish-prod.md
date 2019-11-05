@@ -3,8 +3,8 @@ title: 개발 환경에 Adobe Analytics 배포
 seo-title: 개발 환경에 Adobe Analytics 배포
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
 seo-description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
-translation-type: ht
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Platform Launch 라이브러리가 프로덕션에 푸시되면
 
 Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 Chrome 플러그인입니다.
 
-1. [Chrome 웹 브라우저](https://www.google.com/chrome/)를 열고 Chrome 웹 사이트에서 [Adobe Experience Cloud 디버거](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)로 이동하여 확장을 설치합니다.
+1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
 2. Launch를 구현한 개발 웹 사이트로 이동합니다.
 3. Chrome의 오른쪽 위에 있는 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
 4. 모든 것이 제대로 구현된 경우 Adobe Analytics, Adobe Experience Platform Launch 및 Adobe Experience Cloud 방문자 ID 서비스 내에 다음과 같은 콘텐츠가 표시됩니다.
@@ -66,4 +66,4 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 기본 구현이 설정되었으므로 조직 내에서 귀하의 역할이 다음 사항에 대해 학습할 경로에 영향을 줄 수 있습니다.
 
 * [솔루션 디자인 문서 만들기](../prepare/solution-design.md): 사용자 지정 변수를 사용할 방법을 계획한 다음 구현에 포함시킵니다.
-* [Analysis Workspace 사용하기](../../analyze/analysis-workspace/home.md): 도구의 주요 기능을 사용하여 Adobe Analytics를 바로 사용해 보십시오.
+* [Analysis Workspace 사용하기](/help/analyze/analysis-workspace/home.md): 도구의 주요 기능을 사용하여 Adobe Analytics를 바로 사용해 보십시오.
