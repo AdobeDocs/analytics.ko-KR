@@ -5,7 +5,7 @@ seo-title: 지표 유형 및 속성
 title: 지표 유형 및 속성
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 지표 옆에 있는 톱니바퀴 아이콘을 선택하여 지표 유형 및 속성 모델을 지정할 수 있습니다.
 
-* [지표 유형](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [열 속성 모델](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [선형 할당 작동 방식(2018년 7월 19일 자)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
+* [지표 유형](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
+* [열 속성 모델](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
+* [선형 할당 작동 방식(2018년 7월 19일 자)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## 지표 유형 {#section_34A86FB402F94E988724232283BF18B7}
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >
 >* 기본이 아닌 속성 모델 및 전환 확인 창의 전체 목록에 대해서는 [속성 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 설명서를 참조하십시오.
 >* "마케팅 채널 마지막 터치" 및 "마케팅 채널 첫 번째 터치" 할당 모델은 각각 새로운 "마지막 터치" 및 "첫 번째 터치" 속성 모델로 마이그레이션됩니다(참고:"마케팅 채널"은 더 이상 사용되지 않습니다. 계산된 지표에 나타나는 두 개의 할당 모델만 사용할 수 있습니다.
->* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. "선형" 할당 모델에서 계산된 지표를 사용하는 고객의 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [선형 할당 작동 방식(2018년 7월 19일 자)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
+>* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. "선형" 할당 모델에서 계산된 지표를 사용하는 고객의 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [선형 할당 작동 방식(2018년 7월 19일 자)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
 >
 
 
