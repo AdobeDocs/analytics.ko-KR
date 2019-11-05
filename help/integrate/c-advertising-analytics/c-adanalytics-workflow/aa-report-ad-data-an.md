@@ -5,7 +5,7 @@ seo-title: Adobe Analytics의 광고 데이터에 대한 보고서
 title: Adobe Analytics의 광고 데이터에 대한 보고서
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,9 @@ Analysis Workspace 템플릿과 Reports &amp; Analytics 및 Report Builder의 �
 
 이 템플릿을 사용하면 이 검색 엔진 통합을 구현하는 모든 사용자가 Analytics 내에서 방대한 검색 엔진 데이터에 액세스할 수 있습니다. You can access it via **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]** &gt; **[!UICONTROL Search Engines.]**
 
-> [!NOTE] 광고 템플릿 카테고리는 광고 계정을 구현하지 않았더라도 모든 고객이 볼 수 있습니다. 하지만 제공되지 않은 회사의 검색 엔진 템플릿을 열려고 하면 검색 엔진 계정을 아직 구성하지 않았다는 오류 메시지가 표시됩니다. 이 경우 **[!UICONTROL 지금 구성]**&#x200B;을 클릭합니다. 그러면 [광고 계정 설정](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) 화면으로 이동합니다.
+>[!NOTE]
+>
+> 광고 템플릿 카테고리는 광고 계정을 구현하지 않았더라도 모든 고객이 볼 수 있습니다. 하지만 제공되지 않은 회사의 검색 엔진 템플릿을 열려고 하면 검색 엔진 계정을 아직 구성하지 않았다는 오류 메시지가 표시됩니다. 이 경우 **[!UICONTROL 지금 구성]**&#x200B;을 클릭합니다. 그러면 [광고 계정 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 화면으로 이동합니다.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
