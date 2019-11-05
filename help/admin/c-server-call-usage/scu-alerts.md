@@ -5,7 +5,7 @@ seo-title: 서버 호출 사용 경고
 title: 서버 호출 사용 경고
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -67,12 +67,12 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    | Action | 정의 |
    |--- |--- |
-   | + 추가 | [+ 추가](../../admin/c-server-call-usage/scu-alerts.md)를 클릭하여 [!UICONTROL 경고 빌더]에 액세스합니다. |
+   | + 추가 | [+ 추가](/help/admin/c-server-call-usage/scu-alerts.md)를 클릭하여 [!UICONTROL 경고 빌더]에 액세스합니다. |
    | 태그 | 경고를 쉽게 사용할 수 있도록 구성하기 위해 태그를 지정합니다. |
    | 삭제 | 기본 경고를 제외한 모든 경고를 삭제할 수 있습니다. |
    | 이름 변경 | 기본 경고를 제외한 모든 경고의 이름을 바꿀 수 있습니다. |
    | 승인 | 경고를 승인하여 "공식적"으로 만듭니다. |
    | 활성화/비활성화 | 기본 경고를 포함하여 모든 경고를 활성화하거나 비활성화할 수 있습니다. |
    | 갱신 | 한 개 이상의 경고를 선택한 경우 갱신할 수 있습니다. 이렇게 하면 원래 만료 날짜와 상관없이 [!UICONTROL 갱신]을 클릭한 날로부터 1년으로 만료 날짜가 연장됩니다. |
-   | CSV로 내보내기 | [사용량 보고서 다운로드](../../admin/c-server-call-usage/report-suite-usage.md)를 참조하십시오. |
+   | CSV로 내보내기 | [사용량 보고서 다운로드](/help/admin/c-server-call-usage/report-suite-usage.md)를 참조하십시오. |
 
