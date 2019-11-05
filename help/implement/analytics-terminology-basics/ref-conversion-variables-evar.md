@@ -8,7 +8,7 @@ title: 전환 변수(eVar)
 topic: 개발자 및 구현
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ eVar이 방문자에 대한 값으로 설정될 때 Adobe는 값이 만료될 �
 
 변수에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [이 도움말의](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) Analytics 구현 및 보고에 대한 변수
+* [이 도움말의](/help/implement/js-implementation/c-variables/sc-variables.md) Analytics 구현 및 보고에 대한 변수
 * [변수 - 변수가 보고에 사용되는 방법](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)
 * [캠페인 변수](/help/implement/js-implementation/c-variables/page-variables.md)
