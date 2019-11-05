@@ -8,7 +8,7 @@ title: FTP 가져오기
 topic: 관리 도구
 uuid: a914970d-ba02-411-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -38,7 +38,7 @@ Adobe에서는 보고서 세트에서 특정 변수나 보고서에 대해 초�
 
 > [!NOTE] 분류 데이터 파일을 처리하는 데 필요한 시간은 파일 크기와 Adobe 서버에서 이미 처리되는 파일의 현재 수에 따라 다릅니다. 데이터 파일 처리에 걸리는 시간은 보통 72시간 이내입니다.
 
-FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## FTP를 통해 분류 가져오기 {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -50,7 +50,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
  FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
 
-FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
