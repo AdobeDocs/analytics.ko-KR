@@ -7,7 +7,7 @@ title: 여러 요청 편집
 topic: Report Builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **세그먼트**: 세그먼트 이름을 기준으로 요청을 그룹화합니다.
 
       * **세그먼트 선택**: 요청에 대한 세그먼트가 없는 경우 표시합니다. 세그먼트를 추가하려면 **[!UICONTROL 그룹 편집]**&#x200B;을 클릭하고 [!UICONTROL 그룹 편집] 패널에서 세그먼트를 선택합니다.
-   * **지표별**:여러 [요청의](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB)지표 편집을 참조하십시오.
+   * **** 지표별:여러 [요청의](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)지표 편집을 참조하십시오.
 
    * **날짜 범위 및 세부기간:** 날짜 범위 및 세부기간을 기준으로 요청을 그룹화하여 표시합니다.
    * **그룹:** 그룹화 요청 세트를 기준으로 요청을 그룹화하여 표시합니다.
