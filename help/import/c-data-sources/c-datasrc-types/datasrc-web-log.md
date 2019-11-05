@@ -3,12 +3,12 @@ description: 웹 로그 데이터 소스를 통해 표준 웹 서버 로그 파�
 seo-description: 웹 로그 데이터 소스를 통해 표준 웹 서버 로그 파일을 가져올 수 있습니다.
 seo-title: 웹 로그
 solution: Analytics
-subtopic: Data Sources
+subtopic: 데이터 소스
 title: 웹 로그
 topic: 개발자 및 구현
-uuid: A 0 EFED 57-6 D 1 B -43 D 8-97 CE-DC 31009805 E 0
+uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
