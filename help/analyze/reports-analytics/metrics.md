@@ -7,7 +7,7 @@ title: 지표
 topic: Reports and Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 지표는 보고서의 기반으로, 데이터 관계를 보고 이해하는 데 도움이 되며 웹 사이트에 대한 다양한 데이터 세트를 동시에 비교할 수 있도록 지원합니다. 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
 
-## 지표 {#concept_EB00207C07BD4481AB116E62EC24E686}
+## 지표
 
 지표는 보고서의 기반으로, 데이터 관계를 보고 이해하는 데 도움이 되며 웹 사이트에 대한 다양한 데이터 세트를 동시에 비교할 수 있도록 지원합니다. 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
 
 지표와 관련 데이터는 보고서 열에 표시됩니다. 트래픽 지표는 방문자의 볼륨에 대한 데이터를 보여줍니다. 전환 지표는 구매, 다운로드 또는 기타 사용자가 웹 사이트에서 취하려고 하는 모든 동작과 같은 성공 이벤트에 대한 데이터를 보여줍니다. 
 
-[계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)는 지표를 결합하여 만들어집니다.
+[계산된 지표](/help/components/c-calcmetrics/cm-overview.md)는 지표를 결합하여 만들어집니다.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
 
-## 기본 보고서 지표 선택 {#task_9537A607288A4450AE07EC7C070B47C6}
+## 기본 보고서 지표 선택
 
 보고서 수준에서 기본 지표를 선택하는 방법을 설명하는 단계입니다.
 
