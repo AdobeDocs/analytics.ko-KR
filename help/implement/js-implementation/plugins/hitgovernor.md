@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ s.hitGovernor 플러그인은 사전 정의된 롤링 기간에 보낸 Analytics
 
 ## Hit Governor 플러그인 작동 방식 {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-이 플러그인은 이미지 요청이 추적 서버로 전송될 때마다 쿠키 값을 늘리고, 롤링 기간 동안 이 값을 추적합니다. 기본 기간은 1분이지만, 겹쳐 쓸 수 있습니다. 자세한 내용은 아래 [구현](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)을 참조하십시오. 해당 시간 동안의 총 히트 수가 기본 히트 임계값(60)을 초과하면 최종 사용자 지정 링크 이미지 요청이 *`exceptionFlag`* 컨텍스트 데이터 변수를 설정하도록 전송됩니다. 기본 히트 임계값을 재정의할 수도 있습니다.
+이 플러그인은 이미지 요청이 추적 서버로 전송될 때마다 쿠키 값을 늘리고, 롤링 기간 동안 이 값을 추적합니다. 기본 기간은 1분이지만, 겹쳐 쓸 수 있습니다. 자세한 내용은 아래 [구현](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)을 참조하십시오. 해당 시간 동안의 총 히트 수가 기본 히트 임계값(60)을 초과하면 최종 사용자 지정 링크 이미지 요청이 *`exceptionFlag`* 컨텍스트 데이터 변수를 설정하도록 전송됩니다. 기본 히트 임계값을 재정의할 수도 있습니다.
 
 원하는 경우 해당 시점부터 기본 기간 60일 동안 특정 방문자에 대한 트래픽이 수집되지 않도록 할 수 있습니다. 트래픽을 차단하려면 아래에 설명된 대로 doPlugins 함수에 추가 코드 줄이 필요합니다. 기간을 조정할 수도 있습니다. 논리를 사용하면 해당 방문자의 IP 주소, 사용자 에이전트 또는 [!DNL Experience Cloud] 방문자 ID를 적절한 영구 예외 논리에 포함하거나, 60일이 경과한 후 제한 시간을 재설정할 수 있습니다. 이 트래픽이 60일 이후에 플러그인에서 사기로 식별되는 경우, 트래픽이 예외로 플래그가 지정되며 추가 60일 동안은 수집되지 않습니다.
 
@@ -55,7 +55,7 @@ hitGovernor 플러그인을 구현하려면 다음을 수행하십시오.
    }); 
    ```
 
-   AppMeasurement 파일의 doPlugins 섹션 아래에 [플러그인 소스 코드](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)에 포함된 플러그인 코드를 포함합니다.
+   AppMeasurement 파일의 doPlugins 섹션 아래에 [플러그인 소스 코드](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)에 포함된 플러그인 코드를 포함합니다.
 
    히트 한계 임계값, 히트 타이밍 임계값 및 트래픽 제외 기간은 플러그인 자체 외부의 다음 변수를 다른 구성 변수와 함께 설정하여 모두 재정의할 수 있습니다.
 
