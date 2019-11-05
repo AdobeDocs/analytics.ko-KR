@@ -5,7 +5,7 @@ seo-title: 기여도 분석 개요
 title: 기여도 분석 개요
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>기여도 분석에 대한 액세스를 어떻게 제한합니까?</b> </p> </td> 
-   <td colname="col2"> <p>기본적으로 관리자만 기여도 분석을 실행할 수 있지만 관리자는 관리 콘솔에서 권한 그룹을 만들어 다른 사용자에게 액세스 권한을 부여할 수 <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> 있습니다 </a>. 기여도 분석을 사용할 정당한 이유가 있고 액세스 권한을 남용하지 않을 것으로 신뢰되는 사용자만 사용할 수 있도록 허용해야 합니다. </p> <p>이 권한을 "기여도 분석"이라고 하며, <span class="ignoretag"><span class="uicontrol">분석</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹 편집</span> &gt; <span class="uicontrol">모든 보고서 액세스 권한 편집</span> &gt; <span class="uicontrol">보고서 세트 도구 사용자 지정</span> &gt; <span class="uicontrol">도구 및 보고서</span></span>에 있습니다. </p> </td> 
+   <td colname="col2"> <p>기본적으로 관리자만 기여도 분석을 실행할 수 있지만 관리자는 관리 콘솔에서 권한 그룹을 만들어 다른 사용자에게 액세스 권한을 부여할 수 <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > 있습니다 </a>. 기여도 분석을 사용할 정당한 이유가 있고 액세스 권한을 남용하지 않을 것으로 신뢰되는 사용자만 사용할 수 있도록 허용해야 합니다. </p> <p>이 권한을 "기여도 분석"이라고 하며, <span class="ignoretag"><span class="uicontrol">분석</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹 편집</span> &gt; <span class="uicontrol">모든 보고서 액세스 권한 편집</span> &gt; <span class="uicontrol">보고서 세트 도구 사용자 지정</span> &gt; <span class="uicontrol">도구 및 보고서</span></span>에 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>한 달에 얼마나 많은 토큰을 받을 수 있고, 얼마나 많은 토큰을 현재 달에 사용했는지 어떻게 알 수 있습니까?</b> </p> </td> 
@@ -103,17 +103,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col3" colsep="1"> <p>토큰 없음 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external"> Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>일별 세부 기간만 </p> </td> 
    <td colname="col3"> <p>토큰 없음 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external"> Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>예 </p> </td> 
    <td colname="col3"> <p>월별 10개 토큰 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>예 </p> </td> 
    <td colname="col3"> <p>월별 20개 토큰 </p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col3"> <p>월별 2개 토큰 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium(완료 , <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external">예측 인텔리전스</a>) </p> </td> 
+   <td colname="col1"> <p>Premium(완료 , <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html"  >예측 인텔리전스</a>) </p> </td> 
    <td colname="col2"> <p>예 </p> </td> 
    <td colname="col3"> <p>무제한 토큰 </p> </td> 
   </tr> 
