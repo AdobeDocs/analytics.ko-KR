@@ -3,16 +3,16 @@ description: 'null'
 seo-description: 'null'
 seo-title: 광고 계정 관리
 title: 광고 계정 관리
-uuid: 0 B 205046-2 EB 5-4 CD 6-BE 62-CDF 716 FE 934 E
+uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
 # 광고 계정 관리
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 광고 계정으로 이동하여 관리 UI에 액세스할]**&#x200B;수 있습니다.
+You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -26,11 +26,11 @@ source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>작업</b> </p> </td> 
-   <td colname="col2"> <p><b>참고: 하나 이상의 광고 계정을 선택한 경우에만 작업이 표시됩니다. </b> </p> </td> 
+   <td colname="col2"> <p><b>참고:하나 이상의 광고 계정을 선택한 경우에만 작업이 표시됩니다. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 추가 </p> </td> 
-   <td colname="col2"> <p><a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local">광고 계정 설정</a> UI로 이동합니다. </p> </td> 
+   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >광고 계정 설정</a> UI로 이동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이름 변경 </p> </td> 
@@ -49,7 +49,7 @@ source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>이름 </p> </td> 
+   <td colname="col1"> <p> 이름  </p> </td> 
    <td colname="col2"> <p>이 광고 계정에 지정한 이름입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 </p> </td> 
-   <td colname="col2"> <p>2 개의 지원되는 계정 유형 중 하나를 나열합니다. Google Adwords 또는 Bing 광고. </p> </td> 
+   <td colname="col2"> <p>지원되는 두 가지 계정 유형 중 하나를 나열합니다.Google Adwords 또는 Bing 광고를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>상태 </p> </td> 
