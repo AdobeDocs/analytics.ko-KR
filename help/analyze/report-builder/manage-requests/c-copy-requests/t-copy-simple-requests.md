@@ -7,7 +7,7 @@ title: 단순 요청 복사
 topic: Report Builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 참조 요청이 아닌 간단한 요청을 복사합니다. 단순 요청은 다른 요청이나 셀의 내용을 참조하는 내용이 들어있지 않은 요청입니다.
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. 이 필터는 일치 또는 트렌드를 사용하며, 앞선 요청의 결과나 셀의 사용자 입력 내용을 기반으로 하며 입력 셀이라고 부릅니다.
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. 이 필터는 일치 또는 트렌드를 사용하며, 앞선 요청의 결과나 셀의 사용자 입력 내용을 기반으로 하며 입력 셀이라고 부릅니다.
 1. 올바른 요청을 만듭니다.
 1. 요청이 매핑된 셀들 중 하나를 마우스 오른쪽 단추로 클릭하거나 요청이 들어 있는 셀 영역을 선택합니다.
 
