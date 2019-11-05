@@ -5,7 +5,7 @@ seo-title: FAQ
 title: FAQ
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Advertising Analytics 사용 권한을 부여하는 <b>Adobe Analytics SKU</b>는 무엇입니까? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics는 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external">Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external">Prime</a> 및 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external">Ultimate</a> SKU에서 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>A: Advertising Analytics는 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> 및 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU에서 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Advertising Analytics를 사용하려면 <b>추가 비용을 지불</b>해야 합니까? </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>Advertising Analytics 계정을 특정 보고서 세트에 매핑</b>하려고 하는 데, 보고서 세트 모달에서 사용할 수 없습니다. 왜일까요? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 보고서 세트를 <a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">Advertising Analytics 보고용으로 프로비저닝</a>해야 합니다 . </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>A: Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 보고서 세트를 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >Advertising Analytics 보고용으로 프로비저닝</a>해야 합니다 . </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>가상 보고서 세트</b>(VRS)를 Advertising Analytics 계정에 지정할 수 있습니까? </p> </td> 
