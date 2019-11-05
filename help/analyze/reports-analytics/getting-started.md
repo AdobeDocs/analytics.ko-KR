@@ -8,7 +8,7 @@ title: Reports and Analytics 시작하기
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 1. Log in to [!UICONTROL Reports &amp; Analytics].
 
-   보고서 메뉴가 표시되거나 [대시보드가](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) 표시됩니다.
+   보고서 메뉴가 표시되거나 [대시보드가](/help/analyze/reports-analytics/dashboard.md) 표시됩니다.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## 사용자 계정 설정 편집
 
@@ -116,11 +116,11 @@ Click the Account icon ![](assets/account.png)at the top right, then click the *
   </tr> 
   <tr> 
    <td> <p> 로그인 </p> </td> 
-   <td> <p>계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. </p> <p><a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">Reports &amp; Analytics 계정 암호를 재설정하는 방법</a>을 참조하십시오. </p> </td> 
+   <td> <p>계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. </p> <p><a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Reports &amp; Analytics 계정 암호를 재설정하는 방법</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>웹 서비스 </p> </td> 
-   <td> <p>이 계정과 연결된 웹 서비스 사용자 이름과 공유 암호가 표시됩니다. 웹 서비스 API를 통해 Experience Cloud에 액세스할 때 이러한 자격 증명을 사용합니다. 자세한 내용은 <a href="https://marketing.adobe.com/developer" scope="external" format="https">Developer Connection</a>을 참조하십시오. </p> <p> <p>참고: 이 정보는 계정이 웹 서비스 사용자로 인증되는 경우에만 표시됩니다. </p> </p> </td> 
+   <td> <p>이 계정과 연결된 웹 서비스 사용자 이름과 공유 암호가 표시됩니다. 웹 서비스 API를 통해 Experience Cloud에 액세스할 때 이러한 자격 증명을 사용합니다. 자세한 내용은 <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>을 참조하십시오. </p> <p> <p>참고: 이 정보는 계정이 웹 서비스 사용자로 인증되는 경우에만 표시됩니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 이 컴퓨터 제외 </p> </td> 
