@@ -7,7 +7,7 @@ title: 사이트 섹션
 topic: 보고서
 uuid: 6839c566-f8 파섹
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **모든 표준 전자 상거래 지표**: 매출, 주문, 판매량, 장바구니, 장바구니 보기, 체크아웃, 장바구니 추가, 및 장바구니 제거.
    * **모든 사용자 지정 이벤트**: 이벤트 1-80, H22 코드 이상인 경우는 이벤트 81-100도 포함.
 
-[!UICONTROL 사이트 섹션 보고서]의 모든 전환 이벤트는 마지막 할당을 사용합니다. 구현에 성공 이벤트가 포함되지 않은 페이지 간에 전환이 나뉘어 표시됩니다. 선형 할당을 사용하는 [페이지 보고서](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)와는 다릅니다.
+[!UICONTROL 사이트 섹션 보고서]의 모든 전환 이벤트는 마지막 할당을 사용합니다. 구현에 성공 이벤트가 포함되지 않은 페이지 간에 전환이 나뉘어 표시됩니다. 선형 할당을 사용하는 [페이지 보고서](/help/components/c-variables/dimensionslist/reports-pages.md)와는 다릅니다.
 
 **제품별 정보**
 
