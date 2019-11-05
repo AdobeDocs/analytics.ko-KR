@@ -7,7 +7,7 @@ title: 바운스 비율
 topic: 지표
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 히트가 하나만 들어 있는 방문의 백분율을 표시합니다.
 
-바운스 비율은 [바운스](../../../components/c-variables/c-metrics/metrics-bounces.md#concept_2A92D575504E4522B860AB44B0621593) 지표를 사용하며, 다음과 같이 계산됩니다.
+바운스 비율은 [바운스](/help/components/c-variables/c-metrics/metrics-bounces.md) 지표를 사용하며, 다음과 같이 계산됩니다.
 
 `Bounces divided by Entries`
 
