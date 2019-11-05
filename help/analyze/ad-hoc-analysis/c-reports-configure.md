@@ -5,7 +5,7 @@ seo-title: 기존 보고서 구성
 title: 기존 보고서 구성
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -52,7 +52,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>배달 옵션 </p> </td> 
-   <td colname="col2"> <p> 배달 <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> 옵션을 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p> 배달 <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > 옵션을 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 인쇄 </p> </td> 
@@ -64,7 +64,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Sources </p> </td> 
-   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보기 </p> </td> 
@@ -124,7 +124,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>선형 회귀 표시 </p> </td> 
-   <td colname="col2"> <p>대상 <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986" format="dita" scope="local"> 거품형 차트</a>. 데이터에 대한 대략적인 통계치를 표시합니다. </p> </td> 
+   <td colname="col2"> <p>대상 <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > 거품형 차트</a>. 데이터에 대한 대략적인 통계치를 표시합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
