@@ -6,8 +6,8 @@ seo-title: 직접 호출 규칙 조건 만들기
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 직접 호출 규칙 조건 만들기
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,5 +22,5 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    >[!NOTE]
    >
-   >위에 설명한 대로 UI를 사용하여 직접 호출에서 `_satellite.track()`에 전달되는 문자열을 지정하는 경우 따옴표를 사용하지 마십시오. 편집기를 사용하여 [사용자 지정된 페이지 코드](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B)를 삽입하는 경우에는 따옴표를 사용해야 합니다.
+   >위에 설명한 대로 UI를 사용하여 직접 호출에서 `_satellite.track()`에 전달되는 문자열을 지정하는 경우 따옴표를 사용하지 마십시오. 편집기를 사용하여 [사용자 지정된 페이지 코드](/help/implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md)를 삽입하는 경우에는 따옴표를 사용해야 합니다.
 
