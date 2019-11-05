@@ -3,8 +3,8 @@ title: 데이터 계층 만들기
 seo-title: 데이터 계층 만들기
 description: Analytics 구현에서 데이터 계층이 무엇이고 Adobe Analytics에서 이 데이터 계층을 사용하여 변수를 매핑하는 방법을 알아봅니다.
 seo-description: Analytics 구현에서 데이터 계층이 무엇이고 Adobe Analytics에서 이 데이터 계층을 사용하여 변수를 매핑하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: a0158b98089c044091f61796d782604865aa4eba
+translation-type: tm+mt
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
