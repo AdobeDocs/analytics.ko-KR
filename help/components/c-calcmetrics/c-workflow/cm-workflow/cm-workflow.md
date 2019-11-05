@@ -1,18 +1,18 @@
 ---
-description: 계산된 지표를 만드는 데 걸리는 단계를 알아봅니다.
-seo-description: 계산된 지표를 만드는 데 걸리는 단계를 알아봅니다.
+description: 계산된 지표를 만드는 데 필요한 단계에 대해 알아봅니다.
+seo-description: 계산된 지표를 만드는 데 필요한 단계에 대해 알아봅니다.
 seo-title: 계산된 지표 워크플로우
 title: 계산된 지표 워크플로우
-uuid: 26 f 028 c 7-f 9 eb -4 d 8 f -8 f 03-56 f 3211087 b 4
+uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
 # 계산된 지표 워크플로우
 
-계산된 지표를 만드는 데 걸리는 단계를 알아봅니다.
+계산된 지표를 만드는 데 필요한 단계에 대해 알아봅니다.
 
 | 워크플로우 작업 | 설명 |
 | --- | --- |
