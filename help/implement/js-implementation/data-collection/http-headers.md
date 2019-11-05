@@ -8,7 +8,7 @@ title: 데이터 수집 HTTP 헤더
 topic: 개발자 및 구현
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>이전에 Adobe의 데이터 수집 서버에서 만든 읽기 쿠키. </p> <p> 2014년에, Adobe 서버는 Adobe에서 설정한 것을 제외하고 서버 호출이 있는 모든 쿠키를 버립니다. Adobe 쿠키의 전체 목록은 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Experience Cloud에 사용된 쿠키</a>를 참조하십시오. </p> </td> 
+   <td> <p>이전에 Adobe의 데이터 수집 서버에서 만든 읽기 쿠키. </p> <p> 2014년에, Adobe 서버는 Adobe에서 설정한 것을 제외하고 서버 호출이 있는 모든 쿠키를 버립니다. Adobe 쿠키의 전체 목록은 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/">Experience Cloud에 사용된 쿠키</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
