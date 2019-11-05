@@ -7,7 +7,7 @@ title: 다른 보고서 유형 실행
 topic: 보고서, Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https:/
         <li id="li_4090357A0D214BC7B1C3DE0615875554">하한과 예상 값이 같은 경우, 편차 비율은 -100%입니다. </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">그렇지 않으면 편차 비율은 ((하한 값 - 실제 값) / (예상 값 - 하한 값)) * -100입니다. </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">추가 정보</a>. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >추가 정보</a>. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60"><span class="uicontrol">지표 편집</span>을 클릭하면 예외 항목을 탐지할 지표를 선택하거나 선택 취소할 수 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ t_anomaly_config.xml
 
    세그먼트 만들기나 관리에 대한 자세한 내용은 [분석 세그멘테이션 안내서](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)를 참조하십시오. 1. (선택 사항) 보고서를 즐겨찾기 또는 책갈피로 추가합니다.
 1. (선택 사항) 보기 기간의 종료 날짜를 변경합니다. 기본값은 어제입니다.
-1. 이제 보고서 해석을 시작할 수 있습니다. [예외 항목 탐지 차트](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)보기를 참조하십시오.
+1. 이제 보고서 해석을 시작할 수 있습니다. [예외 항목 탐지 차트](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)보기를 참조하십시오.
 
 ## 실시간 보고서 실행 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 세트 선택</strong></td> 
-   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">실시간 보고서 구성</a>을 참조하십시오 . </td> 
+   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >실시간 보고서 구성</a>을 참조하십시오 . </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 간 전환</strong></td> 
