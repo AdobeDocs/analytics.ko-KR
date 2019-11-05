@@ -8,7 +8,7 @@ title: 분류 데이터 파일
 topic: 관리 도구
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
 
-유효한 데이터 파일을 만들려면 분류 데이터를 붙여 넣을 수 있는 파일 구조를 제공하는 템플릿 파일을 다운로드할 수 있습니다. 자세한 내용은 분류 템플릿 [다운로드를 참조하십시오](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+유효한 데이터 파일을 만들려면 분류 데이터를 붙여 넣을 수 있는 파일 구조를 제공하는 템플릿 파일을 다운로드할 수 있습니다. 자세한 내용은 분류 템플릿 [다운로드를 참조하십시오](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 
-See [General File Structure](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) for more information about character limits in classifications.
+See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for more information about character limits in classifications.
 
-See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
+See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
 
 ## 일반 파일 구조
 
@@ -34,7 +34,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 * 분류의 값은 0일 수 없습니다.
 * 가져오기 및 내보내기 열의 수는 30개로 제한하는 것이 좋습니다.
 * 업로드한 파일은 BOM 문자 인코딩 없이 UTF-8을 사용해야 합니다.
-* v2.1 파일 형식이 지정되고 셀이 적절히 [이스케이프](../../../components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md#task_EB47E80063F14F9CB2D186C0CAA9CBAD) 처리된 경우, 탭, 새 줄 및 인용 부호와 같은 특수 문자를 셀 내에 임베드할 수 있습니다. 특수 문자에는 다음이 포함됩니다.
+* v2.1 파일 형식이 지정되고 셀이 적절히 [이스케이프](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md) 처리된 경우, 탭, 새 줄 및 인용 부호와 같은 특수 문자를 셀 내에 임베드할 수 있습니다. 특수 문자에는 다음이 포함됩니다.
 
    ```
    \t     tab character 
@@ -60,7 +60,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
    * 파일에 v2.1이 지정되어 있지만, 실제로 원하는 것은 v2.0이면 문제가 발생할 수 있습니다. 즉, 인용 부호가 Excel 형식에서 잘못된 방법으로 사용되는 경우 문제가 발생할 수 있습니다. 예를 들어, 다음 값이 있는 경우: "VP NO REPS" S/l Dress w/ Overlay v2.1에서, 이것은 잘못된 형식(값을 여는 따옴표와 닫는 따옴표로 둘러싸야 하며, 실제 값의 일부인 따옴표는 따옴표로 에스케이프 처리를 해야 함)이며, 이 이후에는 분류가 작동하지 않습니다.
    * 따라서, 반드시 업로드하는 파일에서 헤더(셀 C1)를 변경하여 파일 형식을 v2.0으로 변경하거나, 파일 전체에서 Excel 인용 부호 사용을 제대로 구현하십시오.
 
-* 데이터 파일의 첫 번째(설명 아님) 행은 열 제목을 포함하여 해당 열의 분류 데이터를 식별하는데 사용됩니다. 가져오기 기능을 사용하려면 열 제목이 특정 형식이어야 합니다. 자세한 내용은 열 머리글 [형식을 참조하십시오](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_ADC08C783477451B959782CEA23AF5EF).
+* 데이터 파일의 첫 번째(설명 아님) 행은 열 제목을 포함하여 해당 열의 분류 데이터를 식별하는데 사용됩니다. 가져오기 기능을 사용하려면 열 제목이 특정 형식이어야 합니다. 자세한 내용은 열 머리글 [형식을 참조하십시오](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 *  데이터 파일에서 헤더 행 바로 뒤에 오는 것은 데이터 행입니다. 각 데이터 행은 각 열 제목에 대해 하나의 데이터 필드를 포함해야 합니다.
 * 데이터 파일은 Adobe가 파일에 구조를 제공하고 분류 데이터를 제대로 가져오는 데 사용하는 다음 제어 코드를 지원합니다.
 
@@ -78,11 +78,11 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Adobe가 이 요소에 대한 고유 ID를 자동 생성하도록 요청합니다. </p> <p>캠페인 컨텍스트에서는 이 제어 값을 통해 Adobe가 각 크리에이티브 요소에 식별자를 할당하도록 합니다. 자세한 내용은 <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443" format="dita" scope="local"> 키 </a>. </p> </td> 
+   <td colname="col2"> <p>Adobe가 이 요소에 대한 고유 ID를 자동 생성하도록 요청합니다. </p> <p>캠페인 컨텍스트에서는 이 제어 값을 통해 Adobe가 각 크리에이티브 요소에 식별자를 할당하도록 합니다. 자세한 내용은 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 키 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>데이터 열이 항목과 연관된 날짜 범위를 나타내도록 지정합니다. 자세한 내용은 <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9ECCD5ED97764CDC90C0B7B0F9461825" format="dita" scope="local"> 날짜 </a>. </p> </td> 
+   <td colname="col2"> <p>데이터 열이 항목과 연관된 날짜 범위를 나타내도록 지정합니다. 자세한 내용은 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 날짜 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>비어 있는 필드 </p> </td> 
@@ -90,7 +90,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
   </tr> 
   <tr> 
    <td colname="col1"> <p>PER 수정자 </p> </td> 
-   <td colname="col2"> <p>데이터 열이 <span class="wintitle">PER 수정자</span> 필드를 나타내도록 지정합니다. See <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_7E199A26E3274B31B07CCAF8DFE3B274" format="dita" scope="local"> PER Modifier Headings </a>. </p> </td> 
+   <td colname="col2"> <p>데이터 열이 <span class="wintitle">PER 수정자</span> 필드를 나타내도록 지정합니다. See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > PER Modifier Headings </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
