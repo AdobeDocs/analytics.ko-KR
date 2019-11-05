@@ -8,7 +8,7 @@ title: Data Sources 관리자
 topic: 개발자 및 구현
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [!UICONTROL 만들기] 탭에서 현재 선택한 보고서 세트에 대해 새로운 데이터 소스를 구성할 수 있습니다. 데이터 소스를 활성화하면 [!UICONTROL 데이터 소스 마법사]에서 안내하는 데이터 소스 템플릿 생성 프로세스에 따라 데이터 업로드를 위한 FTP 위치를 만듭니다.
 
-[만들기] 탭에서 선택하는 사항에 따라 만들어지는 템플릿의 초기 필드가 달라집니다. 자세한 내용은 다음을 참조하십시오. [가져오기 파일 템플릿 생성](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267).
+[만들기] 탭에서 선택하는 사항에 따라 만들어지는 템플릿의 초기 필드가 달라집니다. 자세한 내용은 다음을 참조하십시오. [가져오기 파일 템플릿 생성](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## 관리 탭 {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 완료 </p> </td> 
-   <td colname="col2"> <p>파일에서 열려 있는 방문을 닫도록 데이터 소스에 지시하고 데이터 소스 파일 처리를 완료로 간주하여 마칩니다. 이 옵션은 방문이 여러 데이터 소스 파일에서 발생한 경우 유용합니다. 이것은 <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> 전체 처리</a>. </p> </td> 
+   <td colname="col2"> <p>파일에서 열려 있는 방문을 닫도록 데이터 소스에 지시하고 데이터 소스 파일 처리를 완료로 간주하여 마칩니다. 이 옵션은 방문이 여러 데이터 소스 파일에서 발생한 경우 유용합니다. 이것은 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 전체 처리</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>비활성화 </p> </td> 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>오류/경고 시 처리 중지 </p> </td> 
-   <td colname="col2"> <p> 오류가 발생하면 처리를 중지하도록 데이터 소스 처리 엔진에 지시합니다. [처리 다시 시작]을 선택해야 데이터 소스가 처리를 재시작합니다. [경고 시 처리 중지] 옵션은 <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> 전체 처리</a>. </p> <p>데이터 소스에 파일 오류가 발생하면 오류를 알리는 메시지를 받게 됩니다. 시스템은 오류가 발생한 데이터 소스 파일을 FTP 서버의 <span class="filepath">files_with_errors</span>라는 폴더로 이동시킵니다. 문제를 해결했으면 처리를 위해 데이터 소스 파일을 다시 전송합니다. </p> </td> 
+   <td colname="col2"> <p> 오류가 발생하면 처리를 중지하도록 데이터 소스 처리 엔진에 지시합니다. [처리 다시 시작]을 선택해야 데이터 소스가 처리를 재시작합니다. [경고 시 처리 중지] 옵션은 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 전체 처리</a>. </p> <p>데이터 소스에 파일 오류가 발생하면 오류를 알리는 메시지를 받게 됩니다. 시스템은 오류가 발생한 데이터 소스 파일을 FTP 서버의 <span class="filepath">files_with_errors</span>라는 폴더로 이동시킵니다. 문제를 해결했으면 처리를 위해 데이터 소스 파일을 다시 전송합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구성 </p> </td> 
