@@ -8,7 +8,7 @@ title: 보고서 예약 및 배포
 topic: Reports and Analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -142,4 +142,4 @@ PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고�
 
 보고서의 가입을 해지해도 예약된 보고서가 취소되지 않습니다.
 
-예약된 보고서를 취소하려면, [예약 관리자]로 이동하고, 보고서 이름 옆에 있는 빨간색 X를 클릭합니다. [자세히...](../../analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
+예약된 보고서를 취소하려면, [예약 관리자]로 이동하고, 보고서 이름 옆에 있는 빨간색 X를 클릭합니다. [자세히...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
