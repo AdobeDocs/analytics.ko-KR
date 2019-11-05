@@ -6,7 +6,7 @@ solution: Analytics
 title: Analytics 제품 비교 및 요구 사항
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,12 +21,12 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
  <tbody> 
   <tr> 
    <td> <b>제품 이름 및 도움말 링크</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/" format="https" scope="external"> Analysis Workspace </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> Reports &amp; Analytics </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/" format="https" scope="external"> Ad Hoc Analysis </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html" format="https" scope="external"> Report Builder </a> </td> 
-   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse </a> </td> 
-   <td colname="col6"> <a href="https://marketing.adobe.com/resources/help/en_US/insight/" format="https" scope="external"> Data Workbench </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/"> Ad Hoc Analysis </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
+   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
+   <td colname="col6"> <a href="https://marketing.adobe.com/resources/help/en_US/insight/"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
    <td> <b>액세스 방법</b> </td> 
@@ -75,9 +75,9 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>단계/경로 지정</b> </td> 
-   <td> 예 <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="https" scope="external"> 폴아웃 </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html" format="https" scope="external"> 흐름 </a> </p> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html" format="https" scope="external"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html" format="https" scope="external"> 예 </a> </td> 
+   <td> 예 <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> 폴아웃 </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> 흐름 </a> </p> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html"> 예 </a> </td> 
    <td> 예 </td> 
    <td colname="col06"> 아니오 </td> 
    <td colname="col6"> 예 </td> 
@@ -93,7 +93,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>집단 분석</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html" format="https" scope="external"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html"> 예 </a> </td> 
    <td> 아니오 </td> 
    <td> 아니오 </td> 
    <td> 아니오 </td> 
@@ -111,7 +111,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>향상된 시각화 옵션</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html" format="https" scope="external"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
    <td> 아니요 </td> 
    <td> 예 </td> 
    <td> 예 </td> 
@@ -120,16 +120,16 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>사용자 지정 가능한 레이아웃</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html" format="https" scope="external"> 예 </a> </td> 
-   <td> 예 - <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html" format="https" scope="external">대시보드 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
+   <td> 예 - <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html">대시보드 </a> </td> 
    <td> 아니오 </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html" format="https" scope="external"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html"> 예 </a> </td> 
    <td colname="col06"> <p> 분류별 또는 지표별로 결과를 정렬합니다. </p> </td> 
    <td colname="col6"> 예 </td> 
   </tr> 
   <tr> 
    <td> <b>프로젝트 조정(비분석가를 위해 보고서 간소화)</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="https" scope="external"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> 예 </a> </td> 
    <td> 아니오 </td> 
    <td> 아니오 </td> 
    <td> 예 </td> 
@@ -138,8 +138,8 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>프로젝트 공유</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="https" scope="external"> 예</a>, 모든/임의 사용자 </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html" format="https" scope="external"> 예</a>, 모든/임의 사용자 </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> 예</a>, 모든/임의 사용자 </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 예</a>, 모든/임의 사용자 </td> 
    <td> Ad Hoc Analysis 사용자만 </td> 
    <td> 예, 모든/임의 사용자 </td> 
    <td colname="col06"> 아니요 </td> 
@@ -147,21 +147,21 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>예약된 보고서 배달</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html" format="https" scope="external"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html" format="https" scope="external"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html" format="https" scope="external"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html" format="https" scope="external"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html"> 예 </a> </td> 
    <td colname="col06"> 예 </td> 
    <td colname="col6"> 예 </td> 
   </tr> 
   <tr> 
    <td> <b>시스템 요구 사항</b> </td> 
-   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html" format="https" scope="external"> 자세히... </a> </p> </td> 
-   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html" format="https" scope="external"> 자세히... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html" format="http" scope="external"> 자세히... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html" format="http" scope="external"> 자세히... </a> </p> </td> 
+   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> 자세히... </a> </p> </td> 
+   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> 자세히... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> 자세히... </a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> 자세히... </a> </p> </td> 
    <td colname="col06"> MS Excel처럼 <span class="filepath">.csv</span> 파일을 여는 브라우저 및 프로그램입니다. 타블로 형식 파일을 생성할 수 있습니다. </td> 
-   <td colname="col6"> Windows 64비트, OpenGL 3.2용 그래픽 어댑터(<u> <a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html" format="https" scope="external"> 자세히... </a></u> ) </td> 
+   <td colname="col6"> Windows 64비트, OpenGL 3.2용 그래픽 어댑터(<u> <a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html"> 자세히... </a></u> ) </td> 
   </tr> 
  </tbody> 
 </table>
