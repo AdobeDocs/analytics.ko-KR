@@ -7,7 +7,7 @@ title: 계획 세그먼트
 topic: 세그먼트
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,10 +23,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * 이 세그먼트는 어떤 작업에 유용합니까?
    * 이 세그먼트를 언제 사용해야 합니까?
 
-1. 세그먼트 **범위**&#x200B;를 결정합니다. 어떤 [세그먼트 컨테이너](../../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399)가 해당 범위를 가장 잘 나타냅니까? 가능한 가장 작은 컨테이너를 사용합니다.
+1. 세그먼트 **범위**&#x200B;를 결정합니다. 어떤 [세그먼트 컨테이너](/help/components/c-segmentation/seg-overview.md)가 해당 범위를 가장 잘 나타냅니까? 가능한 가장 작은 컨테이너를 사용합니다.
 
-1. 세그먼트 정의에 포함할 **요소**&#x200B;와 값을 결정합니다. 이 결정에서는 [변수 지속성](../../../components/c-segmentation/seg-overview.md#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB)을 고려합니다.
+1. 세그먼트 정의에 포함할 **요소**&#x200B;와 값을 결정합니다. 이 결정에서는 [변수 지속성](/help/components/c-segmentation/seg-overview.md)을 고려합니다.
 
 1. **승인 프로세스**&#x200B;를 제시할 방법을 고려합니다. 단일 사용자가 세그먼트를 검토하고 승인합니까? 아니면 위원회에서 결정을 내립니까?
-1. 비즈니스 사용자에게 모듈 방식으로 세그먼트 부분 또는 구성 요소를 스택하고 재사용할 수 있도록 하는 **세그먼트 라이브러리**&#x200B;에 대한 보기를 사용하여 세그먼트를 정의합니다. [](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34) 이 라이브러리를 실현하기 위해 정의해야 하는 "모듈"은 무엇입니까?
+1. 비즈니스 사용자에게 모듈 방식으로 세그먼트 부분 또는 구성 요소를 스택하고 재사용할 수 있도록 하는 **세그먼트 라이브러리**&#x200B;에 대한 보기를 사용하여 세그먼트를 정의합니다. [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) 이 라이브러리를 실현하기 위해 정의해야 하는 "모듈"은 무엇입니까?
 
