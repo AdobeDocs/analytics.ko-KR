@@ -7,7 +7,7 @@ title: 일일 고유 방문자 수
 topic: 지표
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 전환 | [!UICONTROL 일일 고유 방문자]만 지원합니다. 트래픽과 동일한 정의로 전환 관련 이벤트가 있는 경우에만 카운트됩니다. |
 | Ad Hoc Analysis | 하루 동안 사이트에 액세스하는 고유 방문자. 하루 동안의 복수 방문은 1명의 [!UICONTROL 일일 고유 방문자]로 카운트됩니다. |
 
-자세한 내용은 [고유 방문자 수](../../../components/c-variables/c-metrics/metrics-unique-visitors.md#concept_9B3F44A4EA4E4F178FF164EF9694F88E).
+자세한 내용은 [고유 방문자 수](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
