@@ -8,7 +8,7 @@ title: Analysis Workspace 활용 사례
 topic: Reports and Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    머천다이징 팀이 다른 캠페인에서 구현할 추천 및 크로스셀을 알아내고 회사에 더 많은 매출을 실현해 줄 수 있는 방식으로 데이터를 이미 분류했습니다. 찾고 있는 결과를 얻을 때까지 분류를 더 수행할 수 있습니다.
 
-   이제 [공유](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)해 보십시오.
+   이제 [공유](/help/analyze/analysis-workspace/curate-share/curate.md)해 보십시오.
 
