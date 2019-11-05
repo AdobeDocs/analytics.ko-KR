@@ -7,7 +7,7 @@ title: 기여도
 topic: 지표
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 기여도 지표는 성공 이벤트의 전체 크레딧을 방문 동안 전달된 모든 eVar 값에 지정합니다. 기여도 지표는 사이트의 성공에 어느 페이지, 캠페인 또는 다른 사용자 지정 변수 값이 기여하고 있는지를 판단하는 데 유용합니다. 기여도는 방문을 기반으로 합니다. 이벤트가 발생할 때의 히트를 포함하여 이벤트 전의 방문에 있는 모든 eVar 값은 만료 설정에 상관없이 기여도 크레딧을 받습니다.
 
-See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-metrics/metrics-visitor-participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A) for more information about how Ad Hoc Analysis uses participation.
+See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
 
 기여도 지표에는 전환 이벤트당 두 개의 설정이 있습니다.
 
