@@ -5,7 +5,7 @@ seo-title: Power BI에 게시 - 개요
 title: Power BI에 게시 - 개요
 uuid: ad68817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다.
 
-* [예약된 Report Builder 통합 문서를 Power BI에 게시](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [예약된 Report Builder 통합 문서를 Power BI에 게시](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## 시스템 요구 사항 {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [설치](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5 [설치](/help/analyze/report-builder/setup/t-install-arb.md)
 * Power BI에 로그인할 수 있도록 해주는 Active Microsoft 계정
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (선택 사항) Power BI에서 게시된 자산의 이름을 사용자 지정할 수 있습니다. 이렇게 하는 것은 통합 문서 이름으로서 버전을 매기되 (예: myworkbook_v1.1.xlsx), 게시된 Power BI 자산의 이름에 버전 번호를 표시하지 않으려 하는 경우 유용할 수 있습니다. 버전 번호가 변화하는 경우, 게시된 자산은 변화하지 않는다는 추가적인 장점이 있습니다. (여기에서 [사양](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD)을 보십시오.)
+1. (선택 사항) Power BI에서 게시된 자산의 이름을 사용자 지정할 수 있습니다. 이렇게 하는 것은 통합 문서 이름으로서 버전을 매기되 (예: myworkbook_v1.1.xlsx), 게시된 Power BI 자산의 이름에 버전 번호를 표시하지 않으려 하는 경우 유용할 수 있습니다. 버전 번호가 변화하는 경우, 게시된 자산은 변화하지 않는다는 추가적인 장점이 있습니다. (여기에서 [사양](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)을 보십시오.)
 
 **Power BI에서 표 데이터 보기**
 
