@@ -8,7 +8,7 @@ title: 속성 및 지속성
 topic: 개발자 및 구현
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 일치하는 프로필이 있으면 그때부터 이미 시스템에 있는 방문자 프로필을 사용하고, 이전 방문자 프로필은 더 이상 사용하지 않습니다.
 * 일치하는 방문자 ID가 없으면, 새 프로필이 만들어집니다.
 
-인증되지 않은 고객이 먼저 사이트에 도달하면, 해당 고객은 Adobe Analytics에 의해 방문자 프로필에 지정됩니다. [고유 방문자 및 방문 수](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)에서 보듯이, 인증 시 새 프로필이 만들어집니다. 새 프로필이 만들어지면, 한 방문이 종료되고 다른 방문이 시작됩니다.
+인증되지 않은 고객이 먼저 사이트에 도달하면, 해당 고객은 Adobe Analytics에 의해 방문자 프로필에 지정됩니다. [고유 방문자 및 방문 수](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)에서 보듯이, 인증 시 새 프로필이 만들어집니다. 새 프로필이 만들어지면, 한 방문이 종료되고 다른 방문이 시작됩니다.
 
 **첫 번째 데이터 연결 시**
 
@@ -58,7 +58,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 지리 특성 데이터는 방문의 첫 번째 히트를 기반으로 기록되며, 사용된 장치에 상관없이 하나의 방문에 대해서는 변경되지 않습니다. 이것은 후속 데이터 연결 시 새 장치에서 지리 특성 데이터가 일반적으로 포함되지 않음을 의미합니다.
 * 브라우저, 운영 체제 및 색상 깊이와 같은 기술 열은 방문의 첫 번째 히트에서 기록됩니다. 지리 특성 값처럼, 이 열은 봉합된 프로필에 복사되지 않습니다.
-* 일반적으로 다른 채널을 덮어쓰지 않도록 설정된 직접 또는 내부와 같은 마케팅 채널은 해당 장치에서 [고유 방문자 및 방문 수](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)에 보여진 첫 번째 인증과 같은, 첫 번째 인증이 들어 있는 후속 데이터 연결에서 다른 채널을 덮어쓰게 됩니다.
+* 일반적으로 다른 채널을 덮어쓰지 않도록 설정된 직접 또는 내부와 같은 마케팅 채널은 해당 장치에서 [고유 방문자 및 방문 수](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)에 보여진 첫 번째 인증과 같은, 첫 번째 인증이 들어 있는 후속 데이터 연결에서 다른 채널을 덮어쓰게 됩니다.
 
 **특수 경우**
 
