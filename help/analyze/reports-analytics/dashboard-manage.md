@@ -8,7 +8,7 @@ title: 대시보드 관리자
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
    복사한 대시보드가 대시보드 레이아웃 편집기에서 열립니다.
 
-   자세한 내용은 [대시보드 및 Reportlet 데이터 편집](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   자세한 내용은 [대시보드 및 Reportlet 데이터 편집](/help/analyze/reports-analytics/dashboard.md).
 
 ## 대시보드 공유
 
@@ -107,7 +107,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 1. 대시보드를 엽니다.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## 대시보드 보관
 
