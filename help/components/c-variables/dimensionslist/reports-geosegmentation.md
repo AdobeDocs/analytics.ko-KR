@@ -7,7 +7,7 @@ title: 지리 특성
 topic: 보고서
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d8744d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 지역 </td> 
-   <td colname="col2"> <p> 국가보다 작지만 시보다는 큰 지리적 영역 일부 국가의 경우 지역이 주, 도 또는 현입니다. 기타 영역에서는 자치국, 부서 또는 대도시권입니다. 표시된 각 지역 오른쪽에 그 지역이 속하는 국가가 괄호 안에 표시됩니다. </p> <p>테이블 세부 사항에서 이 지역에 대해 시 보고서 실행(확대경)을 클릭하여 선택된 지역의 도시가 해당 지역의 다른 시와 비교하여 어떻게 성과를 올리는지를 보여주는 보고서를 실행합니다. </p> <p>지역을 사용하는 국가를 알려면 <a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local"> 국가별 지리 특성 지역 및 우편 번호 사용</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 국가보다 작지만 시보다는 큰 지리적 영역 일부 국가의 경우 지역이 주, 도 또는 현입니다. 기타 영역에서는 자치국, 부서 또는 대도시권입니다. 표시된 각 지역 오른쪽에 그 지역이 속하는 국가가 괄호 안에 표시됩니다. </p> <p>테이블 세부 사항에서 이 지역에 대해 시 보고서 실행(확대경)을 클릭하여 선택된 지역의 도시가 해당 지역의 다른 시와 비교하여 어떻게 성과를 올리는지를 보여주는 보고서를 실행합니다. </p> <p>지역을 사용하는 국가를 알려면 <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > 국가별 지리 특성 지역 및 우편 번호 사용</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 시 </td> 
