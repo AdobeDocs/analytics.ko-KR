@@ -7,7 +7,7 @@ title: 경로 보고서
 topic: Ad Hoc Analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b8262acd2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **[!UICONTROL 폴아웃]**: 사용자가 정의하는 각 체크포인트 사이의 방문 감소율과 전환율을 보여줍니다. 단계는 위에서 아래로 배열되며 초기 숫자와 비율은 왼쪽에 표시되고 전환율과 폴아웃 비율은 오른쪽에 표시됩니다.
 
-자세한 내용은  [폴아웃 보고서](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347)를 참조하십시오.
+자세한 내용은  [폴아웃 보고서](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347)를 참조하십시오.
 
 **[!UICONTROL 경로 길이]**: 방문자가 사이트를 검색하는 깊이를 백분율과 총 계수로 보여줍니다. 즉, 사이트의 평균 방문자가 떠나기 전에 보게 되는 페이지 수를 보여줍니다.
 
