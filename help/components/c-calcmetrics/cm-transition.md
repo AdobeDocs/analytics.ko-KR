@@ -5,7 +5,7 @@ seo-title: FAQ
 title: FAQ
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,43 +14,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
-[계산된 지표 빌더에 액세스하려면 어떻게 합니까?](../../components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
+[계산된 지표 빌더에 액세스하려면 어떻게 합니까?](/help/components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
-[계산된 지표 관리자에 액세스하려면 어떻게 합니까?](../../components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
+[계산된 지표 관리자에 액세스하려면 어떻게 합니까?](/help/components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
 
-[같은 이름의 계산된 지표가 왜 이렇게 많이 표시됩니까?](../../components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
+[같은 이름의 계산된 지표가 왜 이렇게 많이 표시됩니까?](/help/components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
 
-[내 전역 계산된 지표가 어떻게 되었습니까?](../../components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
+[내 전역 계산된 지표가 어떻게 되었습니까?](/help/components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
 
-[로그인 회사 간에 공유된 전역 계산된 지표가 어떻게 되었습니까?](../../components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
+[로그인 회사 간에 공유된 전역 계산된 지표가 어떻게 되었습니까?](/help/components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
 
-[Numeric 또는 Numeric2 분류의 계산된 지표가 어떻게 되었습니까?](../../components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
+[Numeric 또는 Numeric2 분류의 계산된 지표가 어떻게 되었습니까?](/help/components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
 
-[라이프타임 지표가 어떻게 되었습니까?](../../components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
+[라이프타임 지표가 어떻게 되었습니까?](/help/components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
 
-[일별/주별/월별/분기별/연간 고유 방문자 지표를 기반으로 한 계산된 지표에 대해 무엇을 알아야 합니까?](../../components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
+[일별/주별/월별/분기별/연간 고유 방문자 지표를 기반으로 한 계산된 지표에 대해 무엇을 알아야 합니까?](/help/components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
 
-[이전 보고서 세트 API 메서드로 만들어지거나 관리된 계산된 지표는 어떻게 됩니까?](../../components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
+[이전 보고서 세트 API 메서드로 만들어지거나 관리된 계산된 지표는 어떻게 됩니까?](/help/components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
 
-[현재 데이터는 모든 유형의 계산된 지표를 지원합니까?](../../components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
+[현재 데이터는 모든 유형의 계산된 지표를 지원합니까?](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[마이그레이션된 계산된 지표와 함께 "제공된 이름 없음"은 무슨 의미입니까?](../../components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[마이그레이션된 계산된 지표와 함께 "제공된 이름 없음"은 무슨 의미입니까?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
-[사용자가 삭제될 경우 해당 사용자의 계산된 지표는 어떻게 됩니까?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
+[사용자가 삭제될 경우 해당 사용자의 계산된 지표는 어떻게 됩니까?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[다른 보고서 세트에 만들어 적용할 수 있지만 다른 보고서 세트에 대해 '유효'하지 않은 "알 수 없음" 계산된 지표가 표시되는 이유는 무엇입니까?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[다른 보고서 세트에 만들어 적용할 수 있지만 다른 보고서 세트에 대해 '유효'하지 않은 "알 수 없음" 계산된 지표가 표시되는 이유는 무엇입니까?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
-[기존의 계산된 지표에 수행된 변경 사항이 왜 저장되지 않았습니까?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
+[기존의 계산된 지표에 수행된 변경 사항이 왜 저장되지 않았습니까?](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[마케팅 채널 보고서에 내 계산된 지표가 표시되지 않는 이유는 무엇입니까?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[마케팅 채널 보고서에 내 계산된 지표가 표시되지 않는 이유는 무엇입니까?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
-[왜 일부 계산된 지표는 내가 추가한 괄호가 없는 채로 공식을 표시합니까?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
+[왜 일부 계산된 지표는 내가 추가한 괄호가 없는 채로 공식을 표시합니까?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Ad Hoc Analysis만 해당) 포함된 세그먼트 정의나 인라인 세그먼트 정의가 있는 계산된 지표가 여전히 지원됩니까?](../../components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[(Ad Hoc Analysis만 해당) 포함된 세그먼트 정의나 인라인 세그먼트 정의가 있는 계산된 지표가 여전히 지원됩니까?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
-[(Report Builder만 해당) 왜 계산된 지표가 내 요청에서 사라졌습니까?](../../components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
+[(Report Builder만 해당) 왜 계산된 지표가 내 요청에서 사라졌습니까?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
-[계산된 지표 합계는 어떻게 작동합니까?](../../components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
+[계산된 지표 합계는 어떻게 작동합니까?](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
 
 ## 계산된 지표 빌더에 액세스하려면 어떻게 합니까? {#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
