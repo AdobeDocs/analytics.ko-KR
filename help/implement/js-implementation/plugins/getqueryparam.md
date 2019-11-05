@@ -9,7 +9,7 @@ title: getQueryParam
 topic: 개발자 및 구현
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->이 플러그인은 H 코드에서만 사용됩니다. [JavaScript용 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)는 기본적으로 [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)을 사용하여 이 기능을 제공합니다.
+>이 플러그인은 H 코드에서만 사용됩니다. [JavaScript용 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md)는 기본적으로 [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)을 사용하여 이 기능을 제공합니다.
 
 JavaScript용 [!DNL AppMeasurement] 코드에 설치되었으면 쿼리 문자열에서 찾은 데이터를 사용하여 채울 [!DNL Analytics] 변수를 선택하고 캡처할 쿼리 문자열 값을 지정하여 플러그인을 구성합니다. 플러그인은 지정한 쿼리 문자열이 있는 경우 검색하고 선택한 변수에 값을 채웁니다. 해당 값을 가진 쿼리 문자열 매개 변수가 없으면 빈 문자열이 반환됩니다. 쿼리 문자열이 존재하지만 값이 없는 경우(예: `?param1&param2=value`의 param1)에는 단어 *`true`*&#x200B;가 반환됩니다.
 
