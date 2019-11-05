@@ -7,7 +7,7 @@ title: 예약 관리자
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE] 사용자 계정이 비활성화되면 해당 사용자가 만든 예약된 보고서 배달이 일시 중단됩니다.
 
-분류에서 라인 항목이 저장되고 예약된 보고서에서 지속되도록 하려면 테이블 빌더의 **[!UICONTROL 항목]** 편집 기능을 사용하여 [분류에서](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) 고정 차원 목록을 만듭니다.
+분류에서 라인 항목이 저장되고 예약된 보고서에서 지속되도록 하려면 테이블 빌더의 **[!UICONTROL 항목]** 편집 기능을 사용하여 [분류에서](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 고정 차원 목록을 만듭니다.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ r_delivery_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> 고급 </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_F99B65BF7C9746638D8147EED147015B" type="reference" format="dita" scope="local"> Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>파일 대상 </p> </td> 
