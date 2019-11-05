@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: 개발자 및 구현
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ getAndPersistValue 플러그인은 선택한 값을 가져와 결정된 기간 �
 
 >[!IMPORTANT]
 >
->이 플러그인은 [JavaScript용 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)와 호환되는지 확인되지 않았습니다. [AppMeasurement 플러그인 지원](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)을 참조하십시오.
+>이 플러그인은 [JavaScript용 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md)와 호환되는지 확인되지 않았습니다. [AppMeasurement 플러그인 지원](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)을 참조하십시오.
 
 예를 들어 이 플러그인을 사용하여 *`campaign`* 변수의 캠페인 추적 코드를 다음 30일 동안 만들어진 각 방문자의 페이지 보기에서 사용자 지정 트래픽(*`s.prop`*) 변수로 설정할 수 있습니다. 이 예를 활용하여 원래 클릭스루의 결과로 생성되는 추적 코드의 페이지 보기 수를 결정할 수 있습니다.
 
