@@ -7,7 +7,7 @@ solution: Analytics
 title: 데이터 피드
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ Adobe Data Warehouse를 구입한 경우 [!UICONTROL 표준] 데이터 피드를
 
 FTP 계정이 꽉 차면 현재 파일을 다운로드하고 제거해야 하며 Adobe에 공간이 지워졌다는 것을 알려야 합니다. 그러면 Adobe가 배달되지 않은 파일을 다시 보낼 수 있습니다. 데이터 웨어하우스와 같은 일부 도구를 사용하여 사용자가 이러한 파일을 다시 보낼 수 있습니다. 다시 보내는 데 Adobe가 참여하지 않아도 됩니다. FTP 계정이 자주 채워지는 것처럼 보이면 늘린 FTP 공간 및 파일 개수 할당량을 계정에 포함할 수 있는 배달 대체 항목을 제안할 수 있는 Adobe 고객 지원 팀에 문의하십시오.
 
-FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)를 참조하십시오.
+FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](/help/export/ftp-and-sftp/ftp-limits.md)를 참조하십시오.
