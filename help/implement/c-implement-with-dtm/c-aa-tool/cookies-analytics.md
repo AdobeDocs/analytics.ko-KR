@@ -6,8 +6,8 @@ seo-title: 쿠키
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 쿠키
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -38,11 +38,11 @@ Adobe Analytics에서 [!UICONTROL Dynamic Tag Management]를 배포하는 데 �
   </tr> 
   <tr> 
    <td colname="col1"> 도메인 점 수 </td> 
-   <td colname="col2"> <p>페이지 URL의 도메인에 있는 점의 수를 파악하여 Analytics 쿠키 <code>s_cc</code> 및 <code>s_sq</code>가 설정되는 도메인. 이 변수는 일부 플러그인에서 플러그인의 쿠키를 설정할 올바른 도메인을 결정할 때 사용하기도 합니다. </p> </td> 
+   <td colname="col2"> <p>페이지 URL의 도메인에 있는 점의 수를 파악하여 Analytics 쿠키 <code> s_cc</code> 및 <code> s_sq</code>가 설정되는 도메인. 이 변수는 일부 플러그인에서 플러그인의 쿠키를 설정할 올바른 도메인을 결정할 때 사용하기도 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> FP 도메인 점 수 </td> 
-   <td colname="col2"> <p> <span class="term">fpCookieDomainPeriods</span> 변수는 구현에 타사 <span class="filepath">2o7.net</span> 또는 <span class="filepath">omtrdc.net</span> 도메인을 사용하는 경우에도 기본적으로 자사 쿠키인 JavaScript 설정 쿠키(<code> s_sq</code>, <code> s_cc</code>, 플러그인)에 사용됩니다. </p> <p><a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local">s.fpCookieDomainPeriods</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p><a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 거래 ID </td> 
