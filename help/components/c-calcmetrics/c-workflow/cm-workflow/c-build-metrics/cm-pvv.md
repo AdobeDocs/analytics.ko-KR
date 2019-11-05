@@ -5,7 +5,7 @@ seo-title: 간단한 "방문자 수당 페이지 보기 횟수" 지표 작성
 title: 간단한 "방문자 수당 페이지 보기 횟수" 지표 작성
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 간단한 "방문당 페이지 보기 횟수" 지표를 만드는 방법을 표시합니다.
 
-UI 구성 요소에 대한 자세한 설명은 [지표 작성](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18).
+UI 구성 요소에 대한 자세한 설명은 [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 다음은 간단한 "방문당 페이지 보기 횟수" 지표를 만드는 방법입니다.
 
@@ -31,5 +31,5 @@ UI 구성 요소에 대한 자세한 설명은 [지표 작성](../../../../../co
 1. 제품 호환성은 지표가 [현재 데이터](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html)와 호환하는지, 완전히 처리된 데이터와만 호환하는지를 보여줍니다.
 1. **[!UICONTROL 저장을 클릭합니다]**.
 1. **[!UICONTROL 요약]공식은 지표 정의를 변경할 때마다 업데이트됩니다.**
-1. 이제 세그먼트 관리자와 유사한 [계산된 지표](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)관리자로 자동 이동합니다. 지표를 공유, 승인, (재)태깅, 이름 변경 또는 삭제할 수 있도록 해줍니다.
+1. 이제 세그먼트 관리자와 유사한 [계산된 지표](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)관리자로 자동 이동합니다. 지표를 공유, 승인, (재)태깅, 이름 변경 또는 삭제할 수 있도록 해줍니다.
 
