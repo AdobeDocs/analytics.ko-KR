@@ -7,7 +7,7 @@ title: 발생
 topic: 지표
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 유사해 보이는 두 지표가 다음과 같이 나열됩니다.
 
-**[인스턴스](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: 변수에 대해 값이 설정된 횟수입니다.
+**[인스턴스](/help/components/c-variables/c-metrics/metrics-instance.md)**: 변수에 대해 값이 설정된 횟수입니다.
 
 **발생**: 값이 설정되었거나 지속된 총 횟수입니다.
 
