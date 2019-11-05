@@ -8,7 +8,7 @@ title: JavaScript용 AppMeasurement
 topic: 개발자 및 구현
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -349,11 +349,11 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS</span> 확장 </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> iOS</span> SDK 버전 4.5부터 새로운 <span class="keyword"> iOS</span> 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 <span class="keyword"> iOS</span> 확장 앱의 사용 데이터를 수집할 수 있습니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 확장 구현</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> iOS</span> SDK 버전 4.5부터 새로운 <span class="keyword"> iOS</span> 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 <span class="keyword"> iOS</span> 확장 앱의 사용 데이터를 수집할 수 있습니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html">iOS 확장 구현</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android </span> Wearable 확장 </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Android</span> SDK 버전 4.5부터 새로운 <span class="keyword"> Android</span> 확장을 사용하여 <span class="keyword"> Android</span> Wearable 앱에서 데이터를 수집할 수 있습니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android Wearable 확장</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Android</span> SDK 버전 4.5부터 새로운 <span class="keyword"> Android</span> 확장을 사용하여 <span class="keyword"> Android</span> Wearable 앱에서 데이터를 수집할 수 있습니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html">Android Wearable 확장</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
