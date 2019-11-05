@@ -4,7 +4,7 @@ seo-title: Adobe Analytics 기술 설명서 및 자조 사용 안내서의 전�
 description: Analytics 사용 안내서 및 리소스
 seo-description: Adobe Analytics 기술 문서, 릴리스 노트 및 자조 사용 안내서의 전체 목록입니다.
 translation-type: tm+mt
-source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,11 +31,11 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 [![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)Data[Workbench 안내서](https://marketing.adobe.com/resources/help/en_US/insight/) - 데이터 워크벤치 클라이언트, 설치, 데이터 세트 구성 등
 
-[![TechNote](assets/technotes_50px.png)](../technotes/home.md) [Analytics TechNote](../technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
+[![TechNote](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics TechNote](/help/technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
 | 새 항목 및 중요 항목 | 주요 Analytics 리소스 |
 | --- | --- |
-| <ul><li>[지역 데이터 수집](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube 채널](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[분석 자습서 및 비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[직접 교육 및 가상 강의](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원 문의](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube 채널](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[분석 자습서 및 비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[직접 교육 및 가상 강의](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원 문의](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -43,13 +43,13 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](../analyze/analysis-workspace/analysis-workspace-features.md)
-* [Report Builder](../analyze/report-builder/home.md)
-* [Data Warehouse](../export/data-warehouse/data-warehouse.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Report Builder](/help/analyze/report-builder/home.md)
+* [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
-* [Reports & Analytics](../analyze/reports-analytics/getting-started.md)
-* [Ad Hoc Analysis](../analyze/ad-hoc-analysis/adhoc-home.md)
+* [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
+* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
 ### Analytics feature list
 
@@ -80,7 +80,7 @@ Support delegates can get assisted support via:
 **In-Product:**
 
 1.  [Sign in to Adobe Analytics.](https://sc.omniture.com/login/)
-2.  Navigate to **Help** > **Customer Care**.  
+2.  Navigate to **Help** > **Customer Care**.
 
 **Phone:** 1-800-497-0335 (US & Canada).
 
@@ -91,5 +91,5 @@ Get [phone numbers for other regions](https://helpx.adobe.com/contact/dma-extern
 1.  Include [case details](https://helpx.adobe.com/experience-cloud/enterprise-email-support-guidelines.html) to open a ticket via email. 
 1.  Send your case to [customercare@adobe.com](mailto:customercare@adobe.com).
 
-Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
+Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).
  -->
