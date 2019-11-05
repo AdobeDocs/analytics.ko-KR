@@ -5,7 +5,7 @@ seo-title: Silverpop 통합
 title: Silverpop 통합
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr valign="top"> 
    <td colname="col2"> <p>데이터 수집 </p> </td> 
    <td colname="col03"> <p>(3) 데이터 설정 </p> </td> 
-   <td colname="col3"> <p>s_ <b>code.js 플러그인을</b> 이 통합에 대한 컬렉션 모델로 사용하려면 JavaScript 플러그인을 선택합니다(Analytics 플러그인 코드 <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> 참조</a>). </p> <p>이 <b>통합에</b> 자동화된 수집 모델을 사용하려면 자동화된 솔루션을 선택한 다음 이 통합에 사용되는 고유 식별자를 지정합니다. </p> <p>이 옵션을 선택하는 경우 이 통합에 사용되는 고유 식별자를 지정합니다. </p> <p> <b>메시지 ID 쿼리 문자열 매개 변수:</b>이 값은 이메일 파트너가 랜딩 페이지 URL에 추가하는 메시지 ID를 나타냅니다. </p> <p> <b></b> 수신자 ID 쿼리 문자열 매개 변수:이 값은 이메일 파트너가 랜딩 페이지 URL에 추가한 수신자 ID를 나타냅니다. </p> </td> 
+   <td colname="col3"> <p>s_ <b>code.js 플러그인을</b> 이 통합에 대한 컬렉션 모델로 사용하려면 JavaScript 플러그인을 선택합니다(Analytics 플러그인 코드 <a href="../silverpop-overview/silverpop-analytics-code.md"> 참조</a>). </p> <p>이 <b>통합에</b> 자동화된 수집 모델을 사용하려면 자동화된 솔루션을 선택한 다음 이 통합에 사용되는 고유 식별자를 지정합니다. </p> <p>이 옵션을 선택하는 경우 이 통합에 사용되는 고유 식별자를 지정합니다. </p> <p> <b>메시지 ID 쿼리 문자열 매개 변수:</b>이 값은 이메일 파트너가 랜딩 페이지 URL에 추가하는 메시지 ID를 나타냅니다. </p> <p> <b></b> 수신자 ID 쿼리 문자열 매개 변수:이 값은 이메일 파트너가 랜딩 페이지 URL에 추가한 수신자 ID를 나타냅니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>대시보드 및 책갈피 생성 </p> </td> 
