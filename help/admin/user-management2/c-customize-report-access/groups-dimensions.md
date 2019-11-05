@@ -9,7 +9,7 @@ title: 차원 권한 사용자 지정
 topic: 관리 도구
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,19 +54,19 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md"> eVar </a> </p> </td> 
    <td colname="col2"> <p>eVar 1-250은 개별적으로 권한이 주어집니다. eVar는 사용자 지정 보고서의 전환 성공 지표를 세그먼트화하는 데 사용하는 전환 변수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Prop </a> </p> </td> 
-   <td colname="col2"> <p>Prop는 사용자 지정 트래픽 변수입니다. </p> <p>분석 구현에서 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external">트래픽 prop 및 전환 eVar</a>를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html"> Prop </a> </p> </td> 
+   <td colname="col2"> <p>Prop는 사용자 지정 트래픽 변수입니다. </p> <p>분석 구현에서 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html">트래픽 prop 및 전환 eVar</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html" format="html" scope="external"> 계층 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"> 계층 </a> </p> </td> 
    <td colname="col2"> <p> 계층(hierN) 변수는 사이트의 계층 또는 페이지 구조에서 페이지의 위치를 결정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html" format="html" scope="external"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> 목록 Prop 함수와 마찬가지로 목록 변수는 같은 이미지 요청에서 여러 값을 사용할 수 있도록 허용합니다.  </p> </td> 
   </tr> 
   <tr> 
@@ -74,19 +74,19 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
    <td colname="col2"> <p>Analytics의 표준 Analytics에서 바로 사용 가능한 차원. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/" format="https" scope="external"> AEM </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
    <td colname="col2"> <p>Adobe Experience Manager </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/" format="https" scope="external"> AMO </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/"> AMO </a> </p> </td> 
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"> Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Activity Map 보고 차원: Activity Map 페이지, Activity Map 링크, Activity Map 영역, 지역별 Activity Map 링크, Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> 모바일 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/"> 모바일 </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -94,8 +94,8 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
    <td colname="col2"> <p>이 파트너 통합은 더 이상 활성화되어 있지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html" format="html" scope="external"> Nielsen </a> </p> </td> 
-   <td colname="col2"> <p>파트너 통합입니다. </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html"> Nielsen </a> </p> </td> 
+   <td colname="col2"> <p>이 파트너 통합은 더 이상 활성화되어 있지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Social </p> </td> 
