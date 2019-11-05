@@ -8,7 +8,7 @@ title: 모바일 장치 식별
 topic: 개발자 및 구현
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 대부분의 모바일 장치는 브라우저 쿠키를 허용합니다. 하지만, 장치가 쿠키를 허용하지 않는 경우, 다른 방법을 사용하여 무선 장치를 고유하게 식별하게 됩니다.
 
-Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP [가입자 ID 헤더](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)를 확인해 왔습니다. 이러한 헤더에는 종종 장치 전화 번호(또는 번호에 우물 정자를 사용한 버전)나 다른 식별자가 포함됩니다. 현재 장치의 대부분에는 장치를 고유하게 식별하는 헤더가 하나 이상 있으며, 모든 Adobe 데이터 수집 서버는 방문자 ID 대신 자동으로 이러한 헤더를 사용합니다.
+Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP [가입자 ID 헤더](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)를 확인해 왔습니다. 이러한 헤더에는 종종 장치 전화 번호(또는 번호에 우물 정자를 사용한 버전)나 다른 식별자가 포함됩니다. 현재 장치의 대부분에는 장치를 고유하게 식별하는 헤더가 하나 이상 있으며, 모든 Adobe 데이터 수집 서버는 방문자 ID 대신 자동으로 이러한 헤더를 사용합니다.
 
 전형적인 이미지 요청에서 경로(`/b/ss/rsid/1`)의 '1'은 Adobe 서버가 gif 이미지를 반환하고 영구 [!UICONTROL 방문자 ID] 쿠키(`AMCV_` 또는 `s_vi`)의 설정을 시도하도록 합니다. 하지만, 장치가 HTTP 헤더를 기반으로 하는 모바일 장치로 인식되는 경우, '5'가 '1' 대신 전달되고, 이것은 wbmp 형식 이미지를 반환해야 하고, 인식된 무선 헤더(쿠키 아님) 목록을 사용하여 장치를 식별해야 함을 나타냅니다.
 
@@ -88,4 +88,4 @@ Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP [�
 
 예를 들어 "callinglineid"는 "X-Up-Calling-Line-ID" 및 "nokia-callinglineid"와 일치합니다. 헤더에서 기대할 내용은 헤더 유형을 통해 알 수 있습니다. 헤더 우선 순위는 다음과 같습니다("callinglineid" 헤더가 있을 경우, "subno" 대신 "callinglineid"가 사용됨).
 
-사용 가능한 [다이내믹 변수](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
+사용 가능한 [다이내믹 변수](/help/implement/js-implementation/c-variables/dynvars-overview.md)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
