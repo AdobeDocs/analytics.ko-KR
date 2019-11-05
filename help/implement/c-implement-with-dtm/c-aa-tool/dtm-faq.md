@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 도구에 대한 FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. 자동 구성 �
  </tbody> 
 </table>
 
-구성 정보에 대해서는 [Adobe Analytics 도구 추가](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8)를 참조하십시오.
+구성 정보에 대해서는 [Adobe Analytics 도구 추가](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md)를 참조하십시오.
 
 ## 잠재적인 위험 요소 {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
