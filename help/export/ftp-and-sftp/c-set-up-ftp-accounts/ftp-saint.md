@@ -7,7 +7,7 @@ solution: Analytics
 title: 분류
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ FTP를 통해 분류 데이터를 다운로드하는 방법 및 FTP를 통해 �
 
 가져오기가 성공하면 내보내기에 적절한 변경 사항이 바로 표시되지만 Analytics의 데이터 변경 사항은 브라우저 가져오기에 최대 4시간, FTP 가져오기에 최대 24시간이 걸릴 수 있습니다.
 
-FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)를 참조하십시오.
+FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](/help/export/ftp-and-sftp/ftp-limits.md)를 참조하십시오.
 
 ## 분류 및 Data Sources에 대한 .fin 파일 업로드 정보 {#section_1484719F8A134EAE91212DBD8F15174F}
 
