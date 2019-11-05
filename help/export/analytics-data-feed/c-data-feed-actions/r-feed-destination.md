@@ -7,7 +7,7 @@ solution: Analytics
 title: 피드 대상
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ Azure Blob에 파일을 업로드할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>버킷 </p> </td> 
-   <td colname="col2"> <p>Amazon S3 버킷 위치를 입력합니다. </p> <p>이 값은 적절한 S3 버킷 형식과 일치해야 합니다. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>참고: Amazon S3 설정에 대한 자세한 내용은 아래의 <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정</a>을 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>Amazon S3 버킷 위치를 입력합니다. </p> <p>이 값은 적절한 S3 버킷 형식과 일치해야 합니다. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>참고: Amazon S3 설정에 대한 자세한 내용은 아래의 <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정</a>을 참조하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨테이너 </p> </td> 
@@ -111,7 +111,7 @@ Azure Blob에 파일을 업로드할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>경로 </p> </td> 
-   <td colname="col2"> <p>호스트 또는 버킷의 경로를 선택합니다. 이 경로는 피드를 만들기 전에 있어야 합니다. </p> <p> <p>참고: Amazon S3 설정에 대한 자세한 내용은 아래의 <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정</a>을 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>호스트 또는 버킷의 경로를 선택합니다. 이 경로는 피드를 만들기 전에 있어야 합니다. </p> <p> <p>참고: Amazon S3 설정에 대한 자세한 내용은 아래의 <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정</a>을 참조하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 </p> </td> 
@@ -119,11 +119,11 @@ Azure Blob에 파일을 업로드할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>공개 키 </p> </td> 
-   <td colname="col2"> <p>SFTP 공개 키를 제공합니다. </p> <p>SFTP 저장소를 설정하려면 공개 키를 다운로드해야 합니다. </p> <p> <p>참고: 피드를 만들 때는 공개 키 다운로드가 필요하지 않습니다. </p> </p> <p>이전 피드를 만들 때 이미 다운로드한 공개 키를 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external">https://marketing.adobe.com/resources/help/ko_KR/whitepapers/ftp/ftp_sftp_dw.html</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>SFTP 공개 키를 제공합니다. </p> <p>SFTP 저장소를 설정하려면 공개 키를 다운로드해야 합니다. </p> <p> <p>참고: 피드를 만들 때는 공개 키 다운로드가 필요하지 않습니다. </p> </p> <p>이전 피드를 만들 때 이미 다운로드한 공개 키를 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  >https://marketing.adobe.com/resources/help/ko_KR/whitepapers/ftp/ftp_sftp_dw.html</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>키 </p> <p>키 확인 </p> </td> 
-   <td colname="col2"> <p> 저장소 액세스 키를 입력합니다. 확인하려면 다시 입력합니다. </p> <p> <p>참고: 액세스 키에 액세스하려면 <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external">https://docs.microsoft.com/ko-kr/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a>를 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p> 저장소 액세스 키를 입력합니다. 확인하려면 다시 입력합니다. </p> <p> <p>참고: 액세스 키에 액세스하려면 <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  >https://docs.microsoft.com/ko-kr/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a>를 참조하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>비밀 키 </p> <p>비밀 키 확인 </p> </td> 
