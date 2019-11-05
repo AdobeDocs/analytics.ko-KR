@@ -8,7 +8,7 @@ title: prop 및 eVar 개요
 topic: 개발자 및 구현
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 prop(s.prop) 또는 속성 변수라고도 하는 사용자 지정 트래픽 변수는 각 값이 Analytics로 전송되는 횟수를 세는 카운터입니다.
 
-지정되는 변수와 그 위치를 결정하려면 Prop과 eVar 기능 사이의 차이점을 이해하는 것이 중요합니다. 이러한 차이를 이해하면 조직에서 사용하기에 가장 좋은 유형을 결정할 수 있습니다. 자세한 내용은 [Prop과 eVar 비교](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+지정되는 변수와 그 위치를 결정하려면 Prop과 eVar 기능 사이의 차이점을 이해하는 것이 중요합니다. 이러한 차이를 이해하면 조직에서 사용하기에 가장 좋은 유형을 결정할 수 있습니다. 자세한 내용은 [Prop과 eVar 비교](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 또한 Prop을 사용하면 사용자 지정 데이터가 특정 트래픽 관련 이벤트와 상관 관계를 맺도록 할 수 있습니다. 이 변수는 웹 사이트의 각 페이지에 있는 [!DNL Analytics] 코드에 삽입됩니다. [!UICONTROL 는 ]s.prop[!DNL Analytics] 변수를 통해 조직, 업계 및 비즈니스 목표에 맞는 사용자 지정 보고서를 만들 수 있도록 해줍니다.
 
@@ -40,4 +40,4 @@ eVar(또는 [!UICONTROL 사용자 지정 전환 통찰력] 변수)은 사이트�
 
 자세한 내용은 Analytics 도움말 및 참조서에서 [ 트래픽 변수](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html)를 참조하십시오.
 
-Digital Tag Management에서 속성 설정에 대한 자세한 내용은 [웹 속성 만들기](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)를 참조하십시오.
+Digital Tag Management에서 속성 설정에 대한 자세한 내용은 [웹 속성 만들기](/help/implement/c-implement-with-dtm/t-create-web-property.md)를 참조하십시오.
