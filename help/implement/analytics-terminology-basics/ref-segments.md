@@ -8,7 +8,7 @@ title: 세그먼트
 topic: 개발자 및 구현
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,6 +23,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 방문자 수
 * 방문 횟수
 
-장치 방문자 식별에 세그먼트 사용에 대한 자세한 내용은 [세그먼트 만들기](../../implement/js-implementation/xdevice-visid/segments.md#concept_77F0A880A6BA4A919A233DAF9D0D6FB5).
+장치 방문자 식별에 세그먼트 사용에 대한 자세한 내용은 [세그먼트 만들기](/help/implement/js-implementation/xdevice-visid/segments.md).
 
 Adobe Analytics 세그멘테이션에 대한 심도 있는 내용은 [세그멘테이션 안내서](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)를 참조하십시오.
