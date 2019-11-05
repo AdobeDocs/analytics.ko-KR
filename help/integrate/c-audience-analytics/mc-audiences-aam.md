@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-49 파섹
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -49,4 +49,4 @@ AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문�
 * AAM 및 Adobe Analytics 보고서 세트는 ](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)동일한 Experience Cloud 조직에에 매핑[됩니다.
 * You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 
-이러한 전제 조건은 대상 분석 [워크플로우에 설명되어 있습니다](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83).
+이러한 전제 조건은 대상 분석 [워크플로우에 설명되어 있습니다](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
