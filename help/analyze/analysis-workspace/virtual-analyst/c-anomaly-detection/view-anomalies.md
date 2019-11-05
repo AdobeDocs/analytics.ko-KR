@@ -5,7 +5,7 @@ seo-title: Analysis Workspace에서 예외 항목 보기
 title: Analysis Workspace에서 예외 항목 보기
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 예외 항목이 발생한 날짜
 * 예외 항목의 원시 값
 * 녹색 선으로 표시되는 예상 값보다 위 또는 아래 값의 백분율 값
-* [기여도 분석](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)을 시작하는 분석 링크
+* [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)을 시작하는 분석 링크
 
 ![](assets/anomaly_linechart.png)
 
