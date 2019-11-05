@@ -7,7 +7,7 @@ title: 예약된 보고서 큐
 topic: 보고서
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,10 +20,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 예약된 보고서 관리자에는 다음과 같은 관리 수준 기능들이 있습니다.
 
-* 조직에서 [예약된 보고서를 모두 표시](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)하는 옵션.
-* 조직 전체에 적용되는 [고급 필터링 기능](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275).
-* 보고 서버에서의 실행을 위해 큐에 있는 모든 보고서를 나열하는 새로운 [보고서 큐](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) 탭.
-* 보고서 큐 인터페이스에서 [예약 ID](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) 노출.
+* 조직에서 [예약된 보고서를 모두 표시](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)하는 옵션.
+* 조직 전체에 적용되는 [고급 필터링 기능](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275).
+* 보고 서버에서의 실행을 위해 큐에 있는 모든 보고서를 나열하는 새로운 [보고서 큐](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) 탭.
+* 보고서 큐 인터페이스에서 [예약 ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) 노출.
 
 ## 예약된 보고서 모두 표시 {#section_3F167CAAEEC24140B476CF95B7402690}
 
