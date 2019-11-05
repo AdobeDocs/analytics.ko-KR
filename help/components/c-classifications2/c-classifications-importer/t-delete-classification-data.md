@@ -8,7 +8,7 @@ title: 분류 데이터 삭제
 topic: 관리 도구
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    Alternatively, use [!DNL ~deletekey~]. 이 명령은 분류가 지정된 키에 대해 발생하지 않는 것처럼 분류를 취급합니다. 이렇게 하면 조회 테이블에서 키와 모든 열 데이터가 완벽하게 제거됩니다.
 
-   **Caveat**:deletekey가 포함된 열은 하나만 [!DNL ~있으면 됩니다~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. 이 명령은 행에서 모든 메타데이터를 제거합니다. Adobe는 이것을 키가 절대로 분류되지 않은 것으로 해석하고 [없음](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) 카테고리에 표시합니다.
+   **Caveat**:deletekey가 포함된 열은 하나만 [!DNL ~있으면 됩니다~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. 이 명령은 행에서 모든 메타데이터를 제거합니다. Adobe는 이것을 키가 절대로 분류되지 않은 것으로 해석하고 [없음](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) 카테고리에 표시합니다.
 
 1. 파일을 저장하고 [!UICONTROL 파일 가져오기] 탭을 사용하여 파일을 다시 업로드합니다.
 
