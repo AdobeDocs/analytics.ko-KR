@@ -9,7 +9,7 @@ title: 다이내믹 변수
 topic: 개발자 및 구현
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 페이지 보기에서 발생하는 Adobe 이미지 요청의 경우, 동적 변수를 사용하여 [!UICONTROL 사용자 지정 트래픽] 값을 [!UICONTROL 사용자 지정 전환]으로 복사하면 `v1=D=c1`1=1이 표시됩니다. eVar1에서 이전에 요청에 있었던 값을 받은 경우 Adobe 서버는 처리 중에 [!UICONTROL 사용자 지정 트래픽 1]의 값을 [!UICONTROL 사용자 지정 전환 1] 값에 동적으로 복사합니다. 그 결과, [!UICONTROL 사용자 지정 트래픽 1]을 사용하여 처음에 전달한 값이 [!UICONTROL 사용자 지정 전환 1] 보고서에도 나타납니다.
 
-변수를 원하는 값으로 설정한 다음 다른 변수를 `D=[variable abbreviation]`로 설정하여 동적 변수를 전달합니다. 각 변수에 대한 약어는 [데이터 수집 쿼리 매개 변수](../../../implement/js-implementation/data-collection/query-parameters.md)를 참조하십시오. 동적 변수는 다음 위치에서 데이터를 가져올 수 있습니다.
+변수를 원하는 값으로 설정한 다음 다른 변수를 `D=[variable abbreviation]`로 설정하여 동적 변수를 전달합니다. 각 변수에 대한 약어는 [데이터 수집 쿼리 매개 변수](/help/implement/js-implementation/data-collection/query-parameters.md)를 참조하십시오. 동적 변수는 다음 위치에서 데이터를 가져올 수 있습니다.
 
 * 기타 쿼리-문자열 변수
 * HTTP 헤더(쿠키 HTTP 헤더 제외)
