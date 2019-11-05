@@ -5,7 +5,7 @@ seo-title: 보고서 메뉴
 title: 보고서 메뉴
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -61,7 +61,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">세그먼트 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">세그먼트를 추가 또는 관리할 수 있도록 해주는 세그먼트 레일을 표시합니다. 세그먼트 레일에서는 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external">세그먼트 빌더</a> 및 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external">세그먼트 관리자</a> 인터페이스에 액세스할 수도 있습니다. </td> 
+   <td colname="col2">세그먼트를 추가 또는 관리할 수 있도록 해주는 세그먼트 레일을 표시합니다. 세그먼트 레일에서는 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >세그먼트 빌더</a> 및 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  >세그먼트 관리자</a> 인터페이스에 액세스할 수도 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">지표 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -77,7 +77,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">내 즐겨찾기</span> </td> 
-   <td colname="col2">이 영역에서 <span class="uicontrol">즐겨찾기로 지정</span>으로 표시한 보고서를 쉽게 검색할 수 있습니다. 사용자 및 보고서 세트별로 10개의 즐겨찾기와 <span class="uicontrol">더 보기...</span> 링크(즐겨찾기가 10개가 넘을 때)가 표시됩니다. <p>[내 즐겨찾기]에서 보고서 이름은 변경할 수 있지만, 대시보드 이름은 변경할 수 없습니다. </p> <p>즐겨찾기는 책갈피와 유사하지만, 책갈피처럼 폴더에 저장하거나 <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> 북마크 관리자</a>를 통해 관리할 수 없습니다. </p> </td> 
+   <td colname="col2">이 영역에서 <span class="uicontrol">즐겨찾기로 지정</span>으로 표시한 보고서를 쉽게 검색할 수 있습니다. 사용자 및 보고서 세트별로 10개의 즐겨찾기와 <span class="uicontrol">더 보기...</span> 링크(즐겨찾기가 10개가 넘을 때)가 표시됩니다. <p>[내 즐겨찾기]에서 보고서 이름은 변경할 수 있지만, 대시보드 이름은 변경할 수 없습니다. </p> <p>즐겨찾기는 책갈피와 유사하지만, 책갈피처럼 폴더에 저장하거나 <a href="/help/analyze/reports-analytics/bookmarks.md"  > 북마크 관리자</a>를 통해 관리할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 자주 조회함</span> </td> 
@@ -97,11 +97,11 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 책갈피...</span> </td> 
-   <td colname="col2">보고서에 책갈피를 <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> 지정할</a> 수 있습니다. </td> 
+   <td colname="col2">보고서에 책갈피를 <a href="/help/analyze/reports-analytics/bookmarks.md"  > 지정할</a> 수 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 대시보드</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
+   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 자세히...</span> </td> 
@@ -109,11 +109,11 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1">보고서 세트 선택기 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html" format="https" scope="external">기본 보고서 세트</a>나 <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external">가상 보고서 세트</a>를 선택할 수 있도록 해줍니다. </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  >기본 보고서 세트</a>나 <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  >가상 보고서 세트</a>를 선택할 수 있도록 해줍니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1">달력 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
-   <td colname="col2">보고 기간을 결정할 수 있도록 <a href="../../../analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1" format="dita" scope="local">달력</a>을 표시합니다. </td> 
+   <td colname="col2">보고 기간을 결정할 수 있도록 <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  >달력</a>을 표시합니다. </td> 
   </tr> 
  </tbody> 
 </table>
