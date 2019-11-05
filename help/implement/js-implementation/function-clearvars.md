@@ -8,7 +8,7 @@ title: s.clearVars() 함수
 topic: 개발자 및 구현
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -38,5 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 s.clearVars()
 ```
 
-> [!NOTE]`clearVars()`는 [JavaScript용 AppMeasurement](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)에 포함되어 있지만, H 코드 및 이전 버전에서는 사용할 수 없습니다.
+>[!NOTE]
+>
+>`clearVars()`는 [JavaScript용 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md)에 포함되어 있지만, H 코드 및 이전 버전에서는 사용할 수 없습니다.
 
