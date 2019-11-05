@@ -5,7 +5,7 @@ seo-title: 시작하기
 title: 시작하기
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Adobe <span class="keyword">Analytics</span>에 로그인합니다. </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Ad Hoc Analysis을 시작합니다. </p> </td> 
@@ -37,20 +37,20 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. 프로젝트를 만듭니다. </p> </td> 
-   <td colname="col2"> <p> 시작 페이지에서 보고서 세트를 선택한 다음 <span class="uicontrol">프로젝트 만들기</span>를 클릭합니다. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p> 시작 페이지에서 보고서 세트를 선택한 다음 <span class="uicontrol">프로젝트 만들기</span>를 클릭합니다. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. 보고서를 엽니다. </p> </td> 
-   <td colname="col2"> <p>표준 Cloud 보고서 메뉴를 사용하여 보고서를 검색합니다. 템플릿을 선택할 수도 있습니다. </p> <p>자세한 내용은 <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_370F674C5B4C45368731AA801C5A45F8" type="concept" format="dita" scope="local"> 보고서 템플릿</a>. </p> </td> 
+   <td colname="col2"> <p>표준 Cloud 보고서 메뉴를 사용하여 보고서를 검색합니다. 템플릿을 선택할 수도 있습니다. </p> <p>자세한 내용은 <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > 보고서 템플릿</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. 보고서를 구성합니다. </p> </td> 
    <td colname="col2"> <p>다음과 같은 작업 수행으로 보고서를 구성합니다. </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> 세그먼트를 만들어 데이터를 더 깊이 분석 </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 지표, 차원 및 세그먼트를 <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> 테이블 빌더</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">날짜 <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> 범위 구성</a> </li> 
-     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> 보고서 배달 예약</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 지표, 차원 및 세그먼트를 <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > 테이블 빌더</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">날짜 <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > 범위 구성</a> </li> 
+     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > 보고서 배달 예약</a> </li> 
     </ul> <p>필요한 도움말을 찾으려면 도움말 시스템을 검색하십시오. </p> </td> 
   </tr> 
  </tbody> 
