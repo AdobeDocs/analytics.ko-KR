@@ -7,8 +7,8 @@ solution: Analytics
 title: JavaScript 지침 없이 구현
 topic: 개발자 및 구현
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -23,7 +23,7 @@ JavaScript 없이 Analytics를 구현하기 위한 요구 사항과 구성이 �
 
 **대/소문자 구분**
 
-매개 변수 이름(`pageName`, `purchaseID` 등)은 대/소문자를 구분하며, [쿼리 매개 변수](../../../implement/js-implementation/data-collection/query-parameters.md)에 표시된 표에 지정된 대로 표시되지 않으면 데이터를 제대로 기록하지 않습니다.
+매개 변수 이름(`pageName`, `purchaseID` 등)은 대/소문자를 구분하며, [쿼리 매개 변수](/help/implement/js-implementation/data-collection/query-parameters.md)에 표시된 표에 지정된 대로 표시되지 않으면 데이터를 제대로 기록하지 않습니다.
 
 **쿼리 매개 변수 인코딩**
 
@@ -33,7 +33,7 @@ JavaScript 없이 Analytics를 구현하기 위한 요구 사항과 구성이 �
 
 **최대 변수 길이**
 
-각 변수에는 최대 길이가 있습니다. 이 길이는 [Analytics 변수](../../../implement/js-implementation/c-variables/sc-variables.md). 변수의 최대 길이를 초과하면 이 변수의 값이 저장소용으로 잘려서 Analytics에 표시됩니다.
+각 변수에는 최대 길이가 있습니다. 이 길이는 [Analytics 변수](/help/implement/js-implementation/c-variables/sc-variables.md). 변수의 최대 길이를 초과하면 이 변수의 값이 저장소용으로 잘려서 Analytics에 표시됩니다.
 
 **잘못된 문자**
 
