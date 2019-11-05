@@ -1,72 +1,72 @@
 ---
-title: Adobe Analytics의 보고서 사용자 정의
-description: Adobe Analytics에서 보고서를 사용자 지정하는 방법 알아보기
+title: Adobe Analytics의 보고서 사용자 지정
+description: Adobe Analytics에서 보고서를 사용자 지정하는 방법 학습
 translation-type: tm+mt
-source-git-commit: a5f612ba5e8446a56bc2bd252a8781e8ab1de403
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # 보고서 사용자 지정
 
-Google Analytics와 같은 타사 플랫폼에서 여러 사용자 정의 옵션을 사용할 수 있습니다. 이러한 사용자 정의 기능을 통해 사용자는 대시보드, 사용자 정의 보고서, 저장된 보고서 및 사용자 정의 경고를 만들 수 있습니다. 분석 작업 공간에서는 사용자가 빈 캔버스에서 보고서를 작성할 수 있으므로 대부분의 사용자 정의는 도구에 직접 빌드됩니다.
+Google Analytics와 같은 타사 플랫폼에서는 몇 가지 사용자 정의 옵션을 사용할 수 있습니다. 이러한 사용자 지정을 사용하면 대시보드, 사용자 지정 보고서, 저장된 보고서 및 사용자 지정 경고를 만들 수 있습니다. 분석 작업 공간에서는 사용자가 빈 캔버스에서 보고서를 작성할 수 있으므로 대부분의 사용자 지정 항목은 도구에 직접 내장됩니다.
 
-이 페이지에서는 사용자가 분석 작업 공간 사용에 대한 기본적인 지식을 가지고 있다고 가정합니다. See [Create a basic report in Analysis Workspace for Google Analytics users](reports/create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+이 페이지에서는 사용자가 분석 작업 공간 사용에 대한 기본적인 지식을 보유하고 있다고 가정합니다. Adobe [Analytics의 도구에 아직 익숙하지 않은 경우 Google Analytics 사용자를](reports/create-report.md) 위한 분석 작업 공간에서 기본 보고서 만들기를 참조하십시오.
 
 ## 대시보드
 
-Analysis Workspace의 아키텍처는 대시보드 위젯의 개념과 유사하게 구축되었습니다. 분석 작업 공간의 프로젝트는 Google Analytics의 대시보드와 거의 비슷한 수준입니다. 분석 작업 공간의 시각화는 Google Analytics의 위젯과 거의 비슷한 수준입니다.
+분석 작업 공간의 아키텍처는 대시보드 위젯의 개념과 유사하게 구축됩니다. 분석 작업 공간의 프로젝트는 Google Analytics의 대시보드와 비슷한 대략적인 값입니다. 분석 작업 공간의 시각화는 Google Analytics의 위젯과 대략적으로 같습니다.
 
 ### 프로젝트에 컨텐츠 추가
 
-1. 왼쪽에 있는 시각화 아이콘을 클릭하고 원하는 시각화 기능을 작업 영역으로 드래그합니다.
-2. 왼쪽에 있는 구성 요소 아이콘을 클릭하고 원하는 차원과 지표를 시각화로 드래그하여 데이터로 채웁니다.
-3. 시각화의 가장자리를 드래그하여 크기를 조정하고 시각화의 제목을 드래그하여 이동할 수 있습니다.
+1. 왼쪽의 시각화 아이콘을 클릭하고 원하는 시각화를 작업 영역으로 드래그합니다.
+2. 왼쪽의 구성 요소 아이콘을 클릭하고 원하는 차원 및 지표를 시각화로 끌어 데이터로 채웁니다.
+3. 시각화의 가장자리를 드래그하여 크기를 조정하고 시각화의 제목을 드래그하여 이동합니다.
 
 모든 Google Analytics 위젯은 분석 작업 공간에서 사용할 수 있습니다.
 
-* **지표 위젯은** 요약 번호 시각화와 거의 동일합니다.
-* **타임라인 위젯은** 라인 시각화와 거의 동일합니다.
-* **Geomap 위젯은** 맵 시각화와 거의 동일합니다.
-* **테이블 위젯은** 자유 형식 테이블 시각화와 거의 동일합니다.
-* **파이 위젯은** 도넛 시각화와 거의 동일합니다.
-* **막대 위젯은** 막대 시각화와 거의 동일합니다.
+* 지표 **위젯은** 요약 번호 시각화와 거의 같습니다.
+* 타임라인 **위젯은** 라인 시각화와 거의 같습니다.
+* Geomap **위젯은** 맵 시각화와 거의 동일합니다.
+* 테이블 **위젯은** 자유 형식 테이블 시각화와 거의 같습니다.
+* 파이 **위젯은** 도넛 시각화와 거의 같습니다.
+* 막대 **위젯은** 막대 시각화와 거의 같습니다.
 
-Analysis Workspace 에는 보고 요구 사항에 가장 적합한 방식으로 데이터를 제공하기 위한 더 많은 시각화 옵션이 포함되어 있습니다. See [Visualizations in Analysis Workspace](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) in the Analyze User Guide for more information.
+분석 작업 영역에는 보고 요구 사항에 가장 적합한 방식으로 데이터를 제공하기 위한 다양한 시각화 옵션이 포함되어 있습니다. 자세한 [내용은 사용자](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 분석 안내서의 분석 작업 공간에서 시각화를 참조하십시오.
 
 ### 프로젝트 공유
 
 프로젝트에 컨텐츠 추가가 완료되면 공유할 수 있습니다.
 
-* 동료와 프로젝트를 공유하려면 공유 &gt; 프로젝트 공유를 선택합니다. 수신자는 조직의 Adobe Analytics 계정이 있는 다른 사용자입니다.
-* 링크를 통해 프로젝트를 공유하려면 [공유] &gt; [프로젝트 가져오기] 링크로 이동합니다. 이 경우 조직 내에서 Adobe Analytics에 로그인해야 합니다.
+* 프로젝트를 동료와 공유하려면 공유 &gt; 프로젝트 공유로 이동합니다. 수신자는 조직의 다른 사용자이며 Adobe Analytics 계정이 있습니다.
+* 링크를 통해 프로젝트를 공유하려면 공유 &gt; 프로젝트 링크 가져오기로 이동합니다. 조직 내에서 Adobe Analytics에 계속 로그인해야 합니다.
 
 ### 프로젝트 내보내기
 
-분석 작업 공간은 PDF 이외에도 CSV 내보내기를 제공합니다.
+분석 작업 공간에서는 PDF 외에도 CSV 내보내기를 제공합니다.
 
-1. *[!UICONTROL [공유]* ] &gt; *[!UICONTROL []*&#x200B;지금 파일 보내기] 를 클릭하면 모달 창이 열립니다.
-2. 파일 유형 및 수신자를 지정합니다.
-3. Click [!UICONTROL Send Now].
+1. 공유 ** &gt; *[!UICONTROL 지금 파일 보내기]*&#x200B;를 클릭하여 모달 창을 엽니다.
+2. 파일 유형과 수신자를 지정합니다.
+3. 지금 [!UICONTROL 보내기를 클릭합니다].
 
 ## 사용자 지정 보고서
 
-Google Analytics에서 사용자 지정 보고서를 만들 때 필요한 필드는 작업 공간에서 시각화 작성에 있는 워크플로우와 비슷합니다. 차원, 지표 및 필터 정의는 플랫폼 간에 유사합니다. 분석 작업 공간에서 목록에서 차원 및 지표를 선택하는 대신 차원 및 지표를 자유 형식 테이블로 드래그합니다.
+Google Analytics에서 사용자 지정 보고서를 만들 때 필요한 필드는 작업 공간에서 시각화를 작성하는 워크플로우와 유사합니다. 차원, 지표 및 필터 정의는 플랫폼 간에 유사합니다. 분석 작업 공간에서 목록에서 차원 및 지표를 선택하는 대신 차원 및 지표를 자유 형식 테이블로 드래그합니다.
 
 ### 사용자 지정 보고서의 계산된 지표
 
-사용자 지정 보고서는 계산된 지표를 사용할 수 있는 Google Analytics의 몇 가지 영역 중 하나입니다. 분석 작업 공간은 캔버스와 같이 작동하므로 계산된 지표는 모든 컨텍스트에서 소급하여 작동합니다.
+사용자 지정 보고서는 Google Analytics에서 계산된 지표를 사용할 수 있는 몇 가지 영역 중 하나입니다. 분석 작업 공간은 캔버스처럼 작동하므로 계산된 지표는 모든 컨텍스트에서 소급 작동합니다.
 
 계산된 지표를 만들려면:
 
-1. Click the **+** icon near the metric list to open the Calculated Metric Builder.
+1. 지표 목록 근처에 있는 **+** 아이콘을 클릭하여 계산된 지표 빌더를 엽니다.
 2. 계산된 지표에 이름을 지정하고 형식을 지정합니다.
-3. 지표 구성 요소를 정의 영역으로 드래그하고 각 구성 요소 간에 드롭다운을 사용하여 연산자를 지정합니다.
+3. 지표 구성 요소를 정의 영역으로 드래그하고 각 구성 요소 사이의 드롭다운을 사용하여 연산자를 지정합니다.
 4. 계산된 지표에 원하는 공식이 포함되면 저장을 클릭하여 작업 영역으로 돌아갑니다.
 5. 새로 정의된 계산된 지표를 작업 공간으로 드래그합니다.
 
-   Learn more about [Calculated Metrics](../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+   구성 요소 사용 안내서에서 [계산된](/help/components/c-variables/c-metrics/calculated-metric.md) 지표에 대해 자세히 알아보십시오.
 
-## 사용자 정의 경고
+## 사용자 지정 경고
 
-두 플랫폼에서 경고를 사용할 수 있습니다. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* &gt; *[!UICONTROL Alerts]*. See [Intelligent Alerts](../../components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.
+경고는 두 플랫폼에서 모두 사용할 수 있습니다. Adobe Analytics에서 헤더 탐색 메뉴를 사용하여 구성 요소 *[!UICONTROL &gt; 경고로]* 이동합니다 **. 자세한 [내용은](/help/components/c-alerts/intellligent-alerts.md) 구성 요소 사용 안내서의 지능형 경고를 참조하십시오.
