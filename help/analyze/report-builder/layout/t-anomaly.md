@@ -7,7 +7,7 @@ title: 예외 항목 탐지 요청 구성
 topic: Report Builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,4 +38,4 @@ Report Builder에서 예외 항목 탐지 요청을 만드는 방법을 설명�
    이러한 옵션 중 하나를 선택하면 원래 지표의 예외 항목 탐지 복사본이 만들어집니다. 예를 들어 방문 지표의 경우 하한 방문 지표가 [!UICONTROL 지표] 그룹에 추가됩니다.
 1. Click **[!UICONTROL Finish]** and select the cell for output to Excel.
 
-   See [Anomaly Detection](../../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_9476D6C093334B1A8044AE63835BDBE7) for definitions.
+   See [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) for definitions.
