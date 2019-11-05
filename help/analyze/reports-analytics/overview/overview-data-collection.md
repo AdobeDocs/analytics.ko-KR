@@ -8,12 +8,12 @@ title: 데이터 수집 정보
 topic: Reports and Analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# 데이터 수집 정보{#about-data-collection}
+# 데이터 수집 정보
 
 Adobe Analytics에 대한 데이터를 수집하는 방법에 대해 알아봅니다.
 
@@ -29,4 +29,4 @@ Adobe가 추적하는 모든 페이지에는 작은 Adobe 공인 JavaScript 코�
 
 데이터 수집은 매우 신속하며 페이지 로드 시간에 그다지 영향을 주지 않습니다. 수집된 데이터는 브라우저 **다시 로드** 또는 **뒤로** 단추를 클릭하여 계산된 페이지 보기 횟수를 포함합니다. JavaScript 코드는 캐시에서 페이지를 검색할 때도 실행됩니다.
 
-Analytics [에서 데이터 수집을 참조하십시오](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
+Analytics [에서 데이터 수집을 참조하십시오.](/help/import/home.md)
