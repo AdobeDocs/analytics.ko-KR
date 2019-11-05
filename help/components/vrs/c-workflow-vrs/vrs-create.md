@@ -8,7 +8,7 @@ title: 가상 보고서 세트 만들기
 topic: Reports and Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 세그먼트 </td> 
-   <td colname="col2"> <p>한 개 세그먼트를 추가하거나 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">세그먼트를 스택</a>할 수 있습니다. </p> <p> <p>참고: 2개의 세그먼트를 스택할 때 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다. </p> </p> <p>현재 가상 보고서 세트에 사용된 세그먼트를 삭제하거나 수정하려고 하면 경고가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>한 개 세그먼트를 추가하거나 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >세그먼트를 스택</a>할 수 있습니다. </p> <p> <p>참고: 2개의 세그먼트를 스택할 때 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다. </p> </p> <p>현재 가상 보고서 세트에 사용된 세그먼트를 삭제하거나 수정하려고 하면 경고가 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
