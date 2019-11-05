@@ -8,7 +8,7 @@ title: 데이터 수집 쿼리 매개 변수
 topic: 개발자 및 구현
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 다음 표는 데이터 수집으로 전송되는 각 분석 변수에 대한 값을 포함하는 쿼리 매개 변수를 나열합니다.
 
-이 정보는  [패킷 분석기](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)를 사용할 때, 수동으로 이미지 요청을 구성할 때 또는 [동적 변수](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)를 사용할 때 참조할 수 있습니다.
+이 정보는  [패킷 분석기](/help/implement/impl-testing/packet-monitor.md)를 사용할 때, 수동으로 이미지 요청을 구성할 때 또는 [동적 변수](/help/implement/js-implementation/c-variables/dynvars-overview.md)를 사용할 때 참조할 수 있습니다.
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
