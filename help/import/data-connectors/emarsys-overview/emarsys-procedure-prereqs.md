@@ -5,7 +5,7 @@ seo-title: 통합 절차 및 사전 요구 사항
 title: 통합 절차 및 사전 요구 사항
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 활성 emarsys 계정
 
-단계별 통합 지침은 데이터 커넥터 [통합 마법사 실행을 참조하십시오](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a).
+단계별 통합 지침은 데이터 커넥터 [통합 마법사 실행을 참조하십시오.](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
