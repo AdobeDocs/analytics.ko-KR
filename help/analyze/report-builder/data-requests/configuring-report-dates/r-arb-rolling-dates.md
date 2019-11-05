@@ -1,18 +1,18 @@
 ---
 description: Report Builder에 있는 롤링 날짜에 대한 필드 정의.
 seo-description: Report Builder에 있는 롤링 날짜에 대한 필드 정의.
-seo-title: 요청 마법사 정의 - 롤링 날짜
+seo-title: 요청 마법사 정의 - 순환 날짜
 solution: Analytics
-title: 요청 마법사 정의 - 롤링 날짜
+title: 요청 마법사 정의 - 순환 날짜
 topic: Report Builder
-uuid: 19 E 25900-96 A 3-4 F 6 C -9551-9 F 7 AF 8 CC 6963
+uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# 요청 마법사 정의 - 롤링 날짜
+# 요청 마법사 정의 - 순환 날짜
 
 Report Builder에 있는 롤링 날짜에 대한 필드 정의.
 
@@ -26,7 +26,7 @@ Report Builder에 있는 롤링 날짜에 대한 필드 정의.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>표현식 사용자 지정 </p> </td> 
-   <td colname="col2"> <p>see <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> 사용자 지정된 날짜 표현식</a>. </p> </td> 
+   <td colname="col2"> <p>자세한 내용은 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 사용자 지정된 날짜 표현식</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 기준 날짜 </p> </td> 
