@@ -4,7 +4,7 @@ seo-description: Java 11을 사용하여 애드혹 분석을 실행하는 방법
 seo-title: 애드혹 분석 및 Java 11
 title: Java 11에서 Ad Hoc Analysis 실행
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
