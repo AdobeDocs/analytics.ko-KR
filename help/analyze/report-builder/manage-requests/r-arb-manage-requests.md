@@ -7,7 +7,7 @@ title: 요청 관리 - 정의
 topic: Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ Report Builder의 요청 관리를 위한 필드 설명
   </tr> 
   <tr> 
    <td colname="col1"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에  </p> </td> 
-   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다. 자세한 내용은 <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> 데이터 요청 만들기</a>. </p> </td> 
+   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다. 자세한 내용은 <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 데이터 요청 만들기</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>편집 </p> </td> 
-   <td colname="col2"> <p> (또는 [여러 개 편집]) 선택한 요청을 편집합니다. 시스템이 <span class="wintitle">요청 마법사</span> 대화 상자를 표시합니다. See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (또는 [여러 개 편집]) 선택한 요청을 편집합니다. 시스템이 <span class="wintitle">요청 마법사</span> 대화 상자를 표시합니다. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>삭제 </p> </td> 
@@ -80,7 +80,7 @@ Report Builder의 요청 관리를 위한 필드 설명
   </tr> 
   <tr> 
    <td colname="col1"> <p> 새로 고침 </p> </td> 
-   <td colname="col2"> <p>단일 요청이나 선별된 요청들을 새로 고칩니다. ( <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> 요청 새로 고침</a>.) </p> </td> 
+   <td colname="col2"> <p>단일 요청이나 선별된 요청들을 새로 고칩니다. ( <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 요청 새로 고침</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>목록 새로 고침 </p> </td> 
