@@ -9,7 +9,7 @@ title: 간소화된 구현 모달
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알
       </tr> 
       <tr> 
        <td colname="col1"> <p>데이터 레이어 </p> </td> 
-       <td colname="col2"> <p>(권장) 정보를 저장하는 데 사용된 JavaScript 배열. Dynamic Tag Management를 사용하여 자동 설정을 수행하는 경우 데이터 레이어를 사용하게 됩니다. </p> <p>데이터 계층에 대한 블로그에 대해서는 <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">데이터 계층: 유행어부터 우수 사례까지 </a>를 참조하십시오. </p> </td> 
+       <td colname="col2"> <p>(권장) 정보를 저장하는 데 사용된 JavaScript 배열. Dynamic Tag Management를 사용하여 자동 설정을 수행하는 경우 데이터 레이어를 사용하게 됩니다. </p> <p>데이터 계층에 대한 블로그에 대해서는 <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/">데이터 계층: 유행어부터 우수 사례까지 </a>를 참조하십시오. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>데이터 저장소(보고서 세트) </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">보고서 세트</a>는 일반적으로 한 속성(사이트 또는 앱)이나 브랜드에 해당하는 개별 데이터 세트입니다. 각 보고서 세트에는 고유한 보고서와 지표 세트가 있습니다. </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">보고서 세트</a>는 일반적으로 한 속성(사이트 또는 앱)이나 브랜드에 해당하는 개별 데이터 세트입니다. 각 보고서 세트에는 고유한 보고서와 지표 세트가 있습니다. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>시간대 </p> </td> 
@@ -108,7 +108,7 @@ Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알
       </tr> 
       <tr> 
        <td colname="col1"> <p>다운로드 </p> </td> 
-       <td colname="col2"> <p> 설치 파일 <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span>를 다운로드합니다. 이 옵션은 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 구현</a>을 이해하는 고급 사용자용입니다. </p> <p> <p>중요: 코드 다운로드는 <span class="keyword">Analytics</span> 배포를 구성하지 않습니다. 이 배포는 사이트의 페이지에서 또는 Adobe 컨설팅 서비스를 통해 수행하는 수동 배포입니다. </p> </p> </td> 
+       <td colname="col2"> <p> 설치 파일 <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span>를 다운로드합니다. 이 옵션은 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">JavaScript 구현</a>을 이해하는 고급 사용자용입니다. </p> <p> <p>중요: 코드 다운로드는 <span class="keyword">Analytics</span> 배포를 구성하지 않습니다. 이 배포는 사이트의 페이지에서 또는 Adobe 컨설팅 서비스를 통해 수행하는 수동 배포입니다. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
