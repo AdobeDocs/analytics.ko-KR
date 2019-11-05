@@ -5,7 +5,7 @@ seo-title: 서버 호출 사용량 개요
 title: 서버 호출 사용량 개요
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Previously, while you could access monthly server call consumption data under  *
 
 ## 전제 조건 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **권한**: 서버 호출 사용량 대시보드 및 경고 빌더/관리자에 액세스하려면 Adobe Analytics 관리자여야 합니다.
-* **권한**:관리자는 관리자가 아닌 사용자에게 액세스 권한을 부여할 수 있습니다.이 권한은 서버 호출 **[!UICONTROL 사용이라고 합니다]**. See [Server Call Usage Permission](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **** 권한:서버 호출 사용 대시보드 및 경고 빌더/관리자에 액세스하려면 Adobe Analytics 관리자여야 합니다.
+* **** 권한:관리자는 관리자가 아닌 사용자에게 액세스 권한을 부여할 수 있습니다.이 권한은 서버 호출 **[!UICONTROL 사용이라고 합니다]**. See [Server Call Usage Permission](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## 중요한 용어 {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>로그인 회사 </p> </td> 
-   <td colname="col2"> <p>한 청구 회사에 <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external">여러 로그인 회사</a>가 있을 수 있습니다 . 로그인 회사는 조직에서 사용한 보고서 세트들의 컬렉션입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다. 이 기능은 많은 보고서 세트가 회사의 다른 직원에게는 적용되지 않는 다양한 비즈니스 단위를 관리하는 대기업에서 특히 유용합니다. </p> <p>주로 이들은 회사의 지역 자회사입니다. 이 예는 로그인 회사 및 연관된 보고서 세트를 보여 줍니다. </p> 
+   <td colname="col2"> <p>한 청구 회사에 <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html">여러 로그인 회사</a>가 있을 수 있습니다 . 로그인 회사는 조직에서 사용한 보고서 세트들의 컬렉션입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다. 이 기능은 많은 보고서 세트가 회사의 다른 직원에게는 적용되지 않는 다양한 비즈니스 단위를 관리하는 대기업에서 특히 유용합니다. </p> <p>주로 이들은 회사의 지역 자회사입니다. 이 예는 로그인 회사 및 연관된 보고서 세트를 보여 줍니다. </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>참고: 청구 회사 내의 <u>모든</u> 보고서 세트에 대한 서버 호출 사용량 데이터는 해당 <a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local">권한</a>이 있는 모든 사용자가 볼 수 있습니다. </p> </td> 
+    </ul> <p>참고: 청구 회사 내의 <u>모든</u> 보고서 세트에 대한 서버 호출 사용량 데이터는 해당 <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">권한</a>이 있는 모든 사용자가 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 조직 </p> </td> 
