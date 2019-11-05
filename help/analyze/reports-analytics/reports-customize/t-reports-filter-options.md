@@ -7,7 +7,7 @@ title: 보고서 데이터 필터링
 topic: Reports and Analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -44,7 +44,7 @@ help:Internal Search Term
 
 ![](assets/advanced_filter.png)
 
-**포함**
+**다음 포함**
 
 라인 항목에 해당 용어가 있으면 일치합니다. 단순 필터와 동일한 방식으로 작동합니다.
 
@@ -173,7 +173,7 @@ t_reports_correlation_filter.xml
 
 **상관 관계 필터 추가**
 
-1. 상관 관계를 지원하는 보고서를 실행합니다. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. 상관 관계를 지원하는 보고서를 실행합니다. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. [!UICONTROL 필터 규칙 작성기]에서 항목과 상호 연결할 카테고리를 선택합니다.
 1. **[!UICONTROL 확인을 클릭합니다.]**
