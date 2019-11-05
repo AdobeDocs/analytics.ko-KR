@@ -9,7 +9,7 @@ title: 여러 장치에서 사용자 연결
 topic: 개발자 및 구현
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [!UICONTROL 방문자 ID]는 일반적으로 인증 후 또는 방문자가 사용 장치에 독립적으로 방문자를 식별할 수 있는 다른 작업을 수행한 후에 설정됩니다. 개인 식별 정보가 포함되지 않은 사용자 이름 해시 또는 내부 ID를 만드는 것이 좋습니다.
 
-In the [이전에 소개한 예](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)에서는, 고객이 각 장치에서 로그인하면 모두 같은 사용자 프로필에 연결됩니다. 방문자가 나중에 장치에서 로그아웃해도 각 장치에 저장된 [!UICONTROL 방문자 ID]가 이미 같은 방문자 프로필에 연결되어 있으므로 스티칭이 계속 작동합니다. [!UICONTROL 방문자 ID] 쿠키 삭제에 대비해 가능한 한 자주 [!UICONTROL s.visitorID]를 채우는 것이 좋습니다.
+In the [이전에 소개한 예](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)에서는, 고객이 각 장치에서 로그인하면 모두 같은 사용자 프로필에 연결됩니다. 방문자가 나중에 장치에서 로그아웃해도 각 장치에 저장된 [!UICONTROL 방문자 ID]가 이미 같은 방문자 프로필에 연결되어 있으므로 스티칭이 계속 작동합니다. [!UICONTROL 방문자 ID] 쿠키 삭제에 대비해 가능한 한 자주 [!UICONTROL s.visitorID]를 채우는 것이 좋습니다.
 
 ## 고유 방문자 및 방문 수 {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
