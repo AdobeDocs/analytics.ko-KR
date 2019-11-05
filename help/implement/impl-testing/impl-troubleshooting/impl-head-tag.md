@@ -8,7 +8,7 @@ title: 헤드 태그에 Analytics 코드 넣기
 topic: 개발자 및 구현
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics 코드는 이미지 개체를 만드는데, 이 개체는 페이지에 나타나지 않는 볼 수 없는 이미지입니다.
 
-> [!NOTE] 이 섹션은 기존 s_code.js 구현에만 적용됩니다. [JavaScript 1.0용 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)에서는 `<head>` 태그에 라이브러리 및 페이지 코드를 배포할 수 있습니다.
+>[!NOTE]
+>
+>이 섹션은 기존 s_code.js 구현에만 적용됩니다. [JavaScript 1.0용 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md)에서는 `<head>` 태그에 라이브러리 및 페이지 코드를 배포할 수 있습니다.
 
 이전에는 일반적인 구현의 경우 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 및 </head> 태그 사이에 Analytics JavaScript 코드를 배치했습니다. 이 태그들 사이에 코드를 삽입함으로써 Adobe 서버로 데이터를 보낸 요청에 의해 반환된 1x1 픽셀 이미지가 어떤 방식으로든 페이지 레이아웃에 영향을 주는 것을 방지했습니다. 문서 시작 부분에 코드를 넣는 것은 이 코드가 코드에서 더 일찍 나타남을 의미합니다. 이렇게 되면 코드가 더 일찍 실행되어, 부분적 페이지 로드에 대해 더 효과적으로 페이지 보기를 카운트할 수 있습니다.
 
