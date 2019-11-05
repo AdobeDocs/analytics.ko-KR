@@ -8,7 +8,7 @@ title: 방문자 ID
 topic: 개발자 및 구현
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 범용(거래 ID) 카테고리를 선택하여 방문자 ID를 통합할 수 있습니다.
 
-오프라인 [데이터 통합을 참조하십시오](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6).
+오프라인 [데이터 통합을 참조하십시오](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 <p class="head"> <b>방문자 ID 차원</b> </p>
 
