@@ -7,7 +7,7 @@ solution: Analytics
 title: 작업 설정
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 시간별(기본값) </td> 
-   <td colname="col2"> <p>한 시간 동안의 데이터가 그 동안 수집된 모든 데이터를 포함한 단일 zip 파일로 배달됩니다. 한 시간 분량의 데이터가 처리된 후 각각의 파일이 하루 24회로 나뉘어 배달됩니다. </p> <p>"시간별"은 배달이 발생하는 기간이 아니라 개별 데이터 내보내기 시 전송되는 데이터의 기간을 설명합니다. 시간별 데이터 피드는 최선의 방법으로 처리 및 배달됩니다. </p> <p>시간별 데이터 피드의 경우 95%의 피드가 해당 시간의 데이터 마감 후 12시간 이내에 배달될 것으로 예상됩니다. 트래픽 볼륨이 높은 보고서 세트에 대한 데이터 피드는 처리 및 배달하는 데 시간이 더 오래 걸릴 수 있습니다. </p> <p>시간별 데이터 피드를 받는 것은 여러 파일 배달을 통해 일별 피드를 받는 것과 다릅니다. 시간별 데이터 피드를 받는 경우 하루 동안의 데이터가 해당 시간 동안 수집된 데이터를 기준으로 24개의 파일로 분할되고 각 파일이 준비되는 즉시 배달됩니다. 여러 개의 파일로 배달되는 일별 피드는 전날 데이터 처리 완료 후 하루에 한 번 배달되며 수집된 데이터의 양을 기준으로 2GB 단위로 분할됩니다. </p> <p>각 파일의 이름은 다음 형식으로 지정됩니다. </p> <p> <span class="filepath"> <span class="varname"> reportsuite</span>-<span class="varname"> date</span>-hour<span class="varname"></span>.tar</span> </p> <p>시간별 피드에 영향을 줄 수 있는 요소에 대한 자세한 내용은 <a href="../../../export/analytics-data-feed/c-df-contents/jobs-faq.md#concept_7C67A012CCF64B0C8DA33E5A6CF7FD9E" format="dita" scope="local">작업 FAQ</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>한 시간 동안의 데이터가 그 동안 수집된 모든 데이터를 포함한 단일 zip 파일로 배달됩니다. 한 시간 분량의 데이터가 처리된 후 각각의 파일이 하루 24회로 나뉘어 배달됩니다. </p> <p>"시간별"은 배달이 발생하는 기간이 아니라 개별 데이터 내보내기 시 전송되는 데이터의 기간을 설명합니다. 시간별 데이터 피드는 최선의 방법으로 처리 및 배달됩니다. </p> <p>시간별 데이터 피드의 경우 95%의 피드가 해당 시간의 데이터 마감 후 12시간 이내에 배달될 것으로 예상됩니다. 트래픽 볼륨이 높은 보고서 세트에 대한 데이터 피드는 처리 및 배달하는 데 시간이 더 오래 걸릴 수 있습니다. </p> <p>시간별 데이터 피드를 받는 것은 여러 파일 배달을 통해 일별 피드를 받는 것과 다릅니다. 시간별 데이터 피드를 받는 경우 하루 동안의 데이터가 해당 시간 동안 수집된 데이터를 기준으로 24개의 파일로 분할되고 각 파일이 준비되는 즉시 배달됩니다. 여러 개의 파일로 배달되는 일별 피드는 전날 데이터 처리 완료 후 하루에 한 번 배달되며 수집된 데이터의 양을 기준으로 2GB 단위로 분할됩니다. </p> <p>각 파일의 이름은 다음 형식으로 지정됩니다. </p> <p> <span class="filepath"> <span class="varname"> reportsuite</span>-<span class="varname"> date</span>-hour<span class="varname"></span>.tar</span> </p> <p>시간별 피드에 영향을 줄 수 있는 요소에 대한 자세한 내용은 <a href="/help/export/analytics-data-feed/c-df-contents/jobs-faq.md"  >작업 FAQ</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 시간별 데이터 피드를 위한 데이터 채우기 </td> 
