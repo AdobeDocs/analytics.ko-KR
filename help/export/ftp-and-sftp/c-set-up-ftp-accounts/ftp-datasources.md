@@ -7,7 +7,7 @@ solution: Analytics
 title: Data Sources
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ Data Sources 관리자의 [!UICONTROL 만들기] 탭을 사용하여 선택한 �
 
 [!UICONTROL Data Sources 관리] 창에서 데이터 소스를 찾고 FTP 정보 링크를 선택합니다. FTP 로그인 정보가 [!UICONTROL 업로드/FTP 정보] 섹션의 [!UICONTROL 데이터 소스 활성화] 창에 표시됩니다.
 
-FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)를 참조하십시오.
+FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](/help/export/ftp-and-sftp/ftp-limits.md)를 참조하십시오.
 
 ## 분류 및 Data Sources에 대한 .fin 파일 업로드 정보 {#section_1484719F8A134EAE91212DBD8F15174F}
 
