@@ -5,7 +5,7 @@ seo-title: 맵
 title: 맵
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -61,7 +61,7 @@ Analysis Workspace의 맵 시각화
       * 녹색/빨간색 색상 구성표: 양수/음수
    * **회전** - [!UICONTROL Ctrl] 키를 누른 상태에서 맵을 움직여 2D 또는 3D로 맵을 회전할 수 있습니다.
 
-   * **전환** - 아래 설명된 [설정](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)을 사용하여 히트맵(열 지도)과 같은 다른 보기로 전환할 수 있습니다. 버블 보기가 기본 설정입니다.
+   * **전환** - 아래 설명된 [설정](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)을 사용하여 히트맵(열 지도)과 같은 다른 보기로 전환할 수 있습니다. 버블 보기가 기본 설정입니다.
 
 
 1. 프로젝트를 **저장**&#x200B;하여 모든 맵 설정(좌표, 확대/축소, 회전)을 저장합니다.
