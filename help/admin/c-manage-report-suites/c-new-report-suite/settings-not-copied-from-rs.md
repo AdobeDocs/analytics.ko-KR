@@ -5,9 +5,9 @@ seo-title: 소스 보고서 세트에서 복사되지 않은 설정
 solution: Analytics
 title: 소스 보고서 세트에서 복사되지 않은 설정
 topic: 관리 도구
-uuid: 5176 c 561-a 278-43 e 4-837 f-a 17759985 d 52
+uuid: 5176c561-a278-4 파섹
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>분류 데이터(분류 구조가 복사됨) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html" format="html" scope="external"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>거래 ID 기록 활성화 </p> </td> 
@@ -71,7 +71,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>방문자 ClickMap 관리자 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> Activity Map으로 업그레이드</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Activity Map으로 업그레이드</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 </p> </td> 
