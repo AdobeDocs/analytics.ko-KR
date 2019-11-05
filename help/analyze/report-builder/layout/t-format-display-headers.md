@@ -7,7 +7,7 @@ title: 머리글 표시 형식 지정
 topic: Report Builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    | 보고서 이름 | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | 필터 매개 변수 | 검색 필터와 같은 차원 필터를 표시합니다. |
    | 세그먼트 | 세그먼트 매개 변수를 표시합니다. |
-   | 최근 데이터 | 최근 데이터 매개 변수를 표시합니다. 예:    최근 데이터:페이지 보기 횟수(1.5시간 전), 종료 횟수(30분 전) [현재](../../../analyze/report-builder/options.md) 데이터 처리에 대한 자세한 내용은 옵션을 참조하십시오. |
+   | 최근 데이터 | 최근 데이터 매개 변수를 표시합니다. 예:    최근 데이터:페이지 보기 횟수(1.5시간 전), 종료 횟수(30분 전) [현재](/help/analyze/report-builder/options.md) 데이터 처리에 대한 자세한 내용은 옵션을 참조하십시오. |
 
    표시 순서의 경우, [!UICONTROL 행 레이블] 그리드(2단계에서)에 항목이 들어 있으면, 요청에서 먼저 표시됩니다. 없으면, 시스템은 [!UICONTROL 열 레이블] 그리드에 표시된 첫 번째 항목을 사용합니다. 열이나 행 항목이 존재하지 않으면 [!UICONTROL 지표] 그리드의 첫 번째 항목이 표시됩니다.
 
@@ -43,6 +43,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    **자동 윤곽 수행:** Report Builder가 반환한 날짜를 목록 보기에서 트리 보기로 변환합니다.
 
-   **이 요청의 이름:** 요청에 대해 사용자 정의 이름을 입력하거나 1단계에서 선택한 기본 이름을 사용할 수 있도록 해줍니다. 이 이름은 [!UICONTROL 요청 관리자]에 [!UICONTROL 보고서] 이름으로 표시됩니다. 자세한 내용은 [요청 이름 지정](../../../analyze/report-builder/layout/name-a-request.md#concept_37277AFB63EA4541B6FD93A5B713D82D)
+   **이 요청의 이름:** 요청에 대해 사용자 정의 이름을 입력하거나 1단계에서 선택한 기본 이름을 사용할 수 있도록 해줍니다. 이 이름은 [!UICONTROL 요청 관리자]에 [!UICONTROL 보고서] 이름으로 표시됩니다. 자세한 내용은 [요청 이름 지정](/help/analyze/report-builder/layout/name-a-request.md)
 
 1. **[!UICONTROL 확인을 클릭합니다]**.
