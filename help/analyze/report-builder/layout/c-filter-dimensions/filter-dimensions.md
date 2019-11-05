@@ -5,9 +5,9 @@ seo-title: 차원 필터링 개요
 solution: Analytics
 title: 차원 필터링 개요
 topic: Report Builder
-uuid: c 54 d 5 add-f 278-476 d -8 f 14-73 f 1 c 2 e 37671
+uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -40,61 +40,61 @@ Information about filters in the **[!UICONTROL Most Popular Filter]** &gt; **[!U
    <td colname="col1"> <p>다음 검색어 포함 </p> </td> 
    <td colname="col02"> <p>모든 순서의 공백으로 구분된 모든 값을 포함합니다. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>matches <span class="term"> A B CAND</span><span class="term"> B A C</span>등. </p> </td> 
+   <td colname="col3"> <p>일치 a <span class="term"> b</span>cand <span class="term"> b a c</span>등 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>검색어를 하나라도 포함 </p> </td> 
    <td colname="col02"> <p>필터 중 하나 이상(공백으로 구분)을 포함합니다. </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>matches <span class="term"> a 1</span>, <span class="term"> b 2</span>, <span class="term"> c 3</span>이지만 <span class="term"> d 4</span>는 아닙니다. </p> </td> 
+   <td colname="col3"> <p>일치 A1 <span class="term"> ,</span>B2 <span class="term"> ,</span>C3 <span class="term"> ,</span>D4 <span class="term"> 는 아니지만</span>D4. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구문 포함 </p> </td> 
    <td colname="col02"> <p>검색 필터를 포함하며 다른 검색어도 포함할 수 있습니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>matches <span class="term"> ABC</span> 및 <span class="term"> ABC def</span>. </p> </td> 
+   <td colname="col3"> <p>일치 abc <span class="term"> 와</span> abc def <span class="term"></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>검색어 포함 안 함 </p> </td> 
    <td colname="col02"> <p>입력하는 값이 포함되지 않은 경우 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>matches <span class="term"> D E F</span> 이지만 <span class="term"> C D E F</span>는 아닙니다. </p> </td> 
+   <td colname="col3"> <p>일치 d <span class="term"> e</span> 이지만 <span class="term"> c d e f</span>는 아닙니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음 구문 포함 안 함 </p> </td> 
    <td colname="col02"> <p>해당 구문을 포함하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>excludes <span class="term"> ABC</span>, <span class="term"> ABC DEF</span> 및 일치 <span class="term"> DEF</span> </p> </td> 
+   <td colname="col3"> <p>제외 abc <span class="term"> ,</span>abc def <span class="term"> 및 일치</span> <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>같음 </p> </td> 
    <td colname="col02"> <p>완전 일치 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abc</span> 가 반환되고 다른 항목이 없습니다. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abc</span> 가 반환되고 다른 것은 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>같지 않음 </p> </td> 
    <td colname="col02"> <p>해당 항목과 정확히 일치하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>일치하지 않음 <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Matches <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>일치하지 않음 <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>abc <span class="term"> 와 일치합니다</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 시작 </p> </td> 
    <td colname="col02"> <p>특정 값으로 시작하는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>matches <span class="term"> abcd</span> but not <span class="term"> 1 abc</span> </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> abcd</span> 를 <span class="term"> 하지만1abc는 아님</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 끝남  </p> </td> 
    <td colname="col02"> <p>특정 값으로 끝나는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>matches <span class="term"> wxyz</span> 하지만 <span class="term"> wxyz 0는 아님</span> </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> wxyz</span><span class="term"> 는 하지만wxyz0은 아님</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>고급(특수 문자)  </p> </td> 
    <td colname="col02"> <p>정규 표현식 문자를 사용할 수 있습니다. </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Home*Page$" | sports </p> </td> 
-   <td colname="col3"> <p> 여기서는 <span class="term"> Home</span>, 그런 다음 0 개 이상의 문자를 찾은 다음 <span class="term"> 페이지로 끝납니다</span>. </p> <p><span class="term"> 또한 스포츠가 포함된</span> 모든 페이지 </p> <p>몇 가지 일치하는 예는 다음과 같습니다. </p> 
+   <td colname="col3"> <p> 이렇게 하면 <span class="term"> Home</span>, and then looks for zero or more characters, and then ends with <span class="term"> Page</span>. </p> <p>또한 <span class="term"> 스포츠</span> 페이지가 포함된 모든 페이지를 </p> <p>몇 가지 일치하는 예는 다음과 같습니다. </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">HomePage </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Home 및 (다른 문자) Page </li> 
@@ -112,14 +112,14 @@ Information about filters in the **[!UICONTROL Most Popular Filter]** &gt; **[!U
   <tr> 
    <th colname="col1" class="entry"> 특수 문자 </th> 
    <th colname="col2" class="entry"> 용도 </th> 
-   <th colname="col3" class="entry"> 내용 </th> 
+   <th colname="col3" class="entry"> 참고 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> 같음 </td> 
-   <td colname="col3"> <p>다른 따옴표와 짝이 맞지 않는 한 이스케이프되지 않습니다. 예를 들어 <span class="term"> 17 "표시는</span> 구문이 아닙니다. </p> </td> 
+   <td colname="col3"> <p>다른 따옴표와 짝이 맞지 않는 한 이스케이프되지 않습니다. 예를 들어 17 <span class="term"> "</span> 표시는 구문이 아닙니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -144,7 +144,7 @@ Information about filters in the **[!UICONTROL Most Popular Filter]** &gt; **[!U
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> 또는 </td> 
-   <td colname="col3"> <p>지원되는 경우에만 <span class="term"> 고급 (특수 문자)</span> 필터를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>Adobe는 고급 <span class="term"> (특수 문자)</span> 필터. </p> </td> 
   </tr> 
  </tbody> 
 </table>
