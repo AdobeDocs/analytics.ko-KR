@@ -9,7 +9,7 @@ title: 방문자 수
 topic: 개발자 및 구현
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics에서는 각각의 유효한 고유 방문자 ID를 고유 방문자로 계산합니다.
 
-[이전 테이블](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)을 보면 세 번(히트 1, 9, 10) 발생했습니다. 이것은 유효한 [!UICONTROL 방문자 ID]가 두 서버 호출 모두에 대해 같기 때문이며, 방문들이 서로 여러 시간 차이가 나고 다른 장치를 사용하는 것일 수 있음에도 불구하고 이렇게 되고 있습니다.
+[이전 테이블](/help/implement/js-implementation/xdevice-visid/visit-example.md)을 보면 세 번(히트 1, 9, 10) 발생했습니다. 이것은 유효한 [!UICONTROL 방문자 ID]가 두 서버 호출 모두에 대해 같기 때문이며, 방문들이 서로 여러 시간 차이가 나고 다른 장치를 사용하는 것일 수 있음에도 불구하고 이렇게 되고 있습니다.
 
 상호 장치 방문자 식별이 활성화되어 있으면 위 상황에서 표시되는 고유 방문자의 수가 증가할 수 있습니다. 이 방문자는 처음의 방문에 대해 1회, 사용자가 인증된 후에 다시 1회, 이렇게 같은 방문에 대해 두 번 계산될 수 있습니다.
 
