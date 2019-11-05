@@ -8,7 +8,7 @@ title: 머리글 및 바닥글 코드 추가
 topic: 개발자 및 구현
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Dynamic Tag Management는 스테이징 환경에서 변경 사항을 테스트�
 
    >[!NOTE]
    >
-   >프로덕션 포함 코드는 해당 [속성](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)에 게시된 항목만 반영합니다. 그렇지만 스테이징에 대한 포함 코드는 게시 상태인지 또는 게시 취소 상태인지에 관계없이 연결된 속성의 모든 항목을 반영합니다. 프로덕션 사이트에서 게시 취소된 항목을 테스트하려면 [Akamai 호스팅에 대한 게시 취소 규칙 테스트](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259)의 지침에 따라 콘솔에서 스테이징을 로컬로 활성화하십시오.
+   >프로덕션 포함 코드는 해당 [속성](/help/implement/c-implement-with-dtm/t-create-web-property.md)에 게시된 항목만 반영합니다. 그렇지만 스테이징에 대한 포함 코드는 게시 상태인지 또는 게시 취소 상태인지에 관계없이 연결된 속성의 모든 항목을 반영합니다. 프로덕션 사이트에서 게시 취소된 항목을 테스트하려면 [Akamai 호스팅에 대한 게시 취소 규칙 테스트](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md)의 지침에 따라 콘솔에서 스테이징을 로컬로 활성화하십시오.
 
 1. 프로덕션 바닥글 코드를 복사하여 사이트 HTML의 [!DNL BODY] 섹션에 넣습니다.
 
