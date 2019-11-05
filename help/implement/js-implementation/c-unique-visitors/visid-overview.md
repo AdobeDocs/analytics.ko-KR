@@ -9,7 +9,7 @@ title: 고유 방문자 수 식별
 topic: 개발자 및 구현
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,11 +24,11 @@ Adobe Analytics에서는 방문자를 식별하는 메커니즘을 몇 가지 �
 
 | 사용된 순서 | 쿼리 매개 변수(컬렉션 방법) | 제공되는 경우 |
 |---|---|---|
-| ![](assets/step1_icon.png) | [vid (s.visitorID)](../../../implement/js-implementation/c-unique-visitors/visid-custom.md#concept_4A2000F4B6ED41E99CA6118A6D74ECE8) | s.visitorID가 설정된 경우 |
-| ![](assets/step2_icon.png) | [aid (s_vi 쿠키)](../../../implement/js-implementation/c-unique-visitors/visid-analytics.md#concept_74F6B4B9B2FA415AB5D029A1F8F099BC) | 방문자는 방문자 ID 서비스를 배포하기 전에 기존 s_vi 쿠키가 있었거나 구성된 방문자 ID 유예 기간이 있습니다. |
+| ![](assets/step1_icon.png) | [vid (s.visitorID)](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) | s.visitorID가 설정된 경우 |
+| ![](assets/step2_icon.png) | [aid (s_vi 쿠키)](/help/implement/js-implementation/c-unique-visitors/visid-analytics.md) | 방문자는 방문자 ID 서비스를 배포하기 전에 기존 s_vi 쿠키가 있었거나 구성된 방문자 ID 유예 기간이 있습니다. |
 | ![](assets/step3_icon.png) | [mid(Experience Cloud 방문자 ID 서비스에 의해 설정된 AMCV_ 쿠키)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 방문자의 브라우저가 쿠키를 수락하는 경우(퍼스트 파티) |
-| ![](assets/step4_icon.png) | [fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)](../../../implement/js-implementation/c-unique-visitors/visid-fallback.md#concept_EBCBF9EB390E45A2BA20DB6BE931C505) | 방문자의 브라우저가 쿠키를 수락하는 경우(퍼스트 파티) |
-| ![](assets/step5_icon.png) | [IP 주소, 사용자 에이전트, 게이트웨이 IP 주소](../../../implement/js-implementation/c-unique-visitors/visid-fallback.md#section_104819D74C594ECE879144FCC5DEF4BF) | 방문자의 브라우저가 쿠키를 승인하지 않습니다. |
+| ![](assets/step4_icon.png) | [fid(H.25.3 이상의 폴백 쿠키 또는 AppMeasurement for JavaScript)](/help/implement/js-implementation/c-unique-visitors/visid-fallback.md) | 방문자의 브라우저가 쿠키를 수락하는 경우(퍼스트 파티) |
+| ![](assets/step5_icon.png) | [IP 주소, 사용자 에이전트, 게이트웨이 IP 주소](/help/implement/js-implementation/c-unique-visitors/visid-fallback.md#section_104819D74C594ECE879144FCC5DEF4BF) | 방문자의 브라우저가 쿠키를 승인하지 않습니다. |
 
 많은 시나리오에서 2개나 3개의 서로 다른 ID가 같은 호출에 있는 경우를 볼 수도 있습니다. 하지만 Analytics에서는 해당 목록에 있는 첫 번째 ID를 공식 방문자 ID로 사용합니다. 예를 들어, 사용자 지정 방문자 ID("vid" 쿼리 매개 변수에 포함됨)를 설정하는 경우, 이 ID는 동일한 히트에 있을 수 있는 다른 ID보다 먼저 사용됩니다.
 
