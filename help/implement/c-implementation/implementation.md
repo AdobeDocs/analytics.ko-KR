@@ -5,7 +5,7 @@ seo-title: 구현 로드맵
 title: 구현 로드맵
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,20 +32,20 @@ Adobe Analytics를 처음 사용하는 경우 [Adobe Analytics 시작](https://m
    <td colname="col1"> 구현 방법 선택. </td> 
    <td colname="col2"> <p>Analytics를 구현하는 일반적인 방법은 다음과 같습니다. </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
-      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Experience Platform Launch</a>(권장) <p>이 안내서는 Adobe 웹 사이트 태그 및 모바일 SDK 관리 기능 사용에 대해 알고 있어야 하는 모든 것과 그러한 기능을 구현하는 방법을 알려 줍니다. </p> </li> 
-      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local"> Dynamic Tag Management </a> <p>이 안내서에는 Dynamic Tag Management 구현을 안내하는 Analytics 관련 정보가 포함되어 있습니다. </p> </li> 
-      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>이 안내서에는 데이터 수집 변수에 대한 설명과 <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="https" scope="external">비디오</a>를 포함하여 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다 . </p> </li> 
-      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> Analytics SDK </a> <p>Analytics SDK를 사용하여 다음을 관리합니다. </p> <p> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/"> Experience Platform Launch</a>(권장) <p>이 안내서는 Adobe 웹 사이트 태그 및 모바일 SDK 관리 기능 사용에 대해 알고 있어야 하는 모든 것과 그러한 기능을 구현하는 방법을 알려 줍니다. </p> </li> 
+      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="/help/implement/c-implement-with-dtm/dtm-implementation-overview.md"> Dynamic Tag Management </a> <p>이 안내서에는 Dynamic Tag Management 구현을 안내하는 Analytics 관련 정보가 포함되어 있습니다. </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="/help/implement/js-implementation/javascript-implementation-overview.md"> JavaScript </a> <p>이 안내서에는 데이터 수집 변수에 대한 설명과 <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html">비디오</a>를 포함하여 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다 . </p> </li> 
+      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html"> Analytics SDK </a> <p>Analytics SDK를 사용하여 다음을 관리합니다. </p> <p> 
         <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
-         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> iOS의 모바일 앱 </a> </li> 
-         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html" format="html" scope="external"> Android의 모바일 앱 </a> </li> 
+         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html"> iOS의 모바일 앱 </a> </li> 
+         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html"> Android의 모바일 앱 </a> </li> 
         </ul> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> ID 서비스를 설정합니다. </td> 
-   <td colname="col2"> <p>(이전 <span class="term">방문자 ID 서비스</span>.) <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external">Analytics에 대한 ID 서비스 설정</a>을 참조하십시오. </p> 
+   <td colname="col2"> <p>(이전 <span class="term">방문자 ID 서비스</span>.) <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html">Analytics에 대한 ID 서비스 설정</a>을 참조하십시오. </p> 
     <draft-comment> 
      <p><code> VisitorAPI.js </code>에서 파일 시작 부분에 방문자 ID 초기화 코드를 추가합니다. </p> 
      <code class="syntax javascript">
@@ -74,18 +74,18 @@ Adobe Analytics를 처음 사용하는 경우 [Adobe Analytics 시작](https://m
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> 구현의 유효성을 검사합니다. </td> 
-   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local"> 테스트 및 유효성 검사</a>는 구현 유효성 검사에 대한 정보를 제공합니다. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> 테스트 및 유효성 검사</a>는 구현 유효성 검사에 대한 정보를 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Adobe Experience Cloud 디버거를 사용하여 데이터가 전송되고 있는지 확인합니다. </td> 
-   <td colname="col2"> <p><a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local"> Experience Cloud Debugger</a>를 설치합니다. 설치가 끝나면 페이지 코드를 배포한 페이지를 불러온 다음 디버거를 엽니다. 디버거가 전송된 수집 데이터에 대한 정보를 표시합니다. </p> </td> 
+   <td colname="col2"> <p><a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger</a>를 설치합니다. 설치가 끝나면 페이지 코드를 배포한 페이지를 불러온 다음 디버거를 엽니다. 디버거가 전송된 수집 데이터에 대한 정보를 표시합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 추가 정보 {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-[!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management] 및 JavaScript 메서드의 차이점에 대한 자세한 내용은 [구현 방법 선택](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B)을 참조하십시오.
+[!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management] 및 JavaScript 메서드의 차이점에 대한 자세한 내용은 [구현 방법 선택](/help/implement/c-implementation-methods/choose-implementation-method.md)을 참조하십시오.
 
 시작 프로세스에 대한 간략한 개요 및 첫 번째 Analytics 보고서 세트를 빠르게 설정에 대한 도움말을 보려면 Analytics 시작하기 안내서에서 [Analytics 구현 시작하기](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)를 참조하십시오.
