@@ -8,7 +8,7 @@ title: 트래픽 분류
 topic: 관리 도구
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 트래픽 분류 페이지에서 선택된 보고서 세트에 대한 분류를 만들 수 있습니다. 한 번 분류하면, 키 데이터를 사용하여 생성할 수 있는 모든 보고서를 연관된 속성을 사용하여 생성할 수 있습니다.
 
-분류를 활성화한 후에 [분류 가져오기](../../components/c-classifications2/c-classifications-importer/c-working-with-saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA)를 사용하여 해당 분류에 특정 값을 할당할 수 있었습니다.
+분류를 활성화한 후에 [분류 가져오기](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md)를 사용하여 해당 분류에 특정 값을 할당할 수 있었습니다.
 
 ## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
