@@ -8,7 +8,7 @@ title: DTM 구현 개요
 topic: 개발자 및 구현
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,11 +25,11 @@ Dynamic Tag Management를 사용하여 태그를 관리하고 디지털 마케�
 
 이 안내서는 DTM을 사용하여 Analytics를 구현하는 다음 단계를 안내합니다.
 
-1. [웹 속성을 만듭니다](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
-1. [호스팅 옵션을 구성합니다](../../implement/c-implement-with-dtm/t-configure-hosting.md#task_EAD99BB391F544C0BB197D0B3D03EBAC).
-1. [머리글 및 바닥글 코드를 각 관리 페이지에 추가합니다](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5).
-1. [Adobe Analytics 도구 추가](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
-1. [데이터 요소](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2), [규칙 및 조건](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) 및 [작업](../../implement/c-implement-with-dtm/c-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121)을 만듭니다.
+1. [웹 속성을 만듭니다](/help/implement/c-implement-with-dtm/t-create-web-property.md).
+1. [호스팅 옵션을 구성합니다](/help/implement/c-implement-with-dtm/t-configure-hosting.md).
+1. [머리글 및 바닥글 코드를 각 관리 페이지에 추가합니다](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md).
+1. [Adobe Analytics 도구 추가](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
+1. [데이터 요소](/help/implement/c-implement-with-dtm/t-data-element.md), [규칙 및 조건](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md) 및 [작업](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md)을 만듭니다.
 
 1. 도구 및 규칙을 프로덕션 서버에 게시합니다.
 
