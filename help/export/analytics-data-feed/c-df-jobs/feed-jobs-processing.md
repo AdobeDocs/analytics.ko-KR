@@ -1,13 +1,13 @@
 ---
 description: '[작업] 탭을 사용하여 작업 내역을 보고 작업 관리 작업을 수행합니다.'
-keywords: 데이터 피드; 작업; 구성
+keywords: 데이터 피드;작업;구성
 seo-description: '[작업] 탭을 사용하여 작업 내역을 보고 작업 관리 작업을 수행합니다.'
 seo-title: 데이터 피드 작업 - 개요
 solution: Analytics
 title: 데이터 피드 작업 - 개요
-uuid: 83 CCAABB -9457-4 E 37-9 D 1 E-F 2 EE 281 DABA 6
+uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 피드 이름 | 피드의 이름. |
 | 시작 시간 | 작업의 시작 이름. 해당 시간대로 표시됨. |
 | 실행 시간 | 작업을 실행하는 데 필요한 시간의 양. dd hh:mm:ss로 표시됨. |
-| 상태 | 작업의 현재 [상태](../../../export/analytics-data-feed/c-df-jobs/r-job-status.md#reference_7A39A327F643447F9B5AE3A2502C72BA). |
+| 상태 | 작업의 현재 [상태](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md). |
 | 완료 시간 | 작업이 실행을 완료한 시간. 해당 시간대로 표시됨. |
 | 요청한 날짜 | 작업에 들어 있는 데이터의 데이터 스탬프. |
 
