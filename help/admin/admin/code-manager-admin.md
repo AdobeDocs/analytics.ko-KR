@@ -5,9 +5,9 @@ seo-title: 코드 관리자
 solution: Analytics
 title: 코드 관리자
 topic: 관리 도구
-uuid: 7 b 60 bca 7-756 f -444 f-a 7 e 6-abd 3 e 0 f 1 a 15 e
+uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
 
 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 코드 관리자]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; 코드 **[!UICONTROL 관리자를 참조하십시오]**.
 
-라이브러리를 다운로드한 후에는 데이터를 올바른 추적 서버 및 보고서 세트에 보내는 코드를 구성해야 합니다. Additional implementation resources are available in the [Implement](../../implement/home.md) user guide.
+라이브러리를 다운로드한 후에는 데이터를 올바른 추적 서버 및 보고서 세트에 보내는 코드를 구성해야 합니다. 추가 구현 리소스는 구현 [사용 안내서에서](/help/implement/home.md) 확인할 수 있습니다.
 
 ## 코드 관리자 페이지 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
