@@ -8,7 +8,7 @@ title: 채널 및 규칙 정보
 topic: Reports and Analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,18 +21,20 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/buckets_2.png)
 
-Adobe는 자동 설정 중 사전 정의된 채널을 제공하는데 [](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) 이러한 채널은 사용자 요구에 맞게 편집할 수 있습니다.
+Adobe는 자동 설정 중 사전 정의된 채널을 제공하는데 [](/help/components/c-marketing-channels/c-channel-autosetup.md) 이러한 채널은 사용자 요구에 맞게 편집할 수 있습니다.
 
-> [!NOTE] 테스트 목적으로 템플릿으로 사용할 수 있도록 보고서 세트에 보고서를 설정하는 것이 좋습니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
+>[!NOTE]
 >
->자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)을 참조하십시오.
+> 테스트 목적으로 템플릿으로 사용할 수 있도록 보고서 세트에 보고서를 설정하는 것이 좋습니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
+>
+>자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](/help/components/c-marketing-channels/t-template.md)을 참조하십시오.
 
 다음 항목을 검토하십시오.
 
-* [전제 조건](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [중요한 처리 정보](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [전제 조건](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
+* [중요한 처리 정보](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## 전제 조건 {#section_9913D2932E3140C099B7978CA95378B2}
+## 전제 조건 {#prereqs}
 
 필요한 경우 Customer Care로 연락하여 이러한 전제 조건에 대한 도움을 받으십시오.
 
@@ -42,11 +44,11 @@ Adobe는 자동 설정 중 사전 정의된 채널을 제공하는데 [](../../c
 
 * **[!UICONTROL 마케팅 채널 보고서에 대한 사용자 그룹 액세스 권한을 설정합니다]**.
 
-   See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
+   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
-## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Important processing notes {#important-proc-rules}
 
 * 시스템은 사용자가 지정하는 순서대로 규칙을 처리하며, 규칙이 충족되면 시스템이 나머지 규칙의 처리를 중지합니다.
 * 규칙은 VISTA가 설정한 변수에 액세스할 수 있지만 VISTA가 삭제한 데이터에는 액세스할 수 없습니다.
