@@ -5,9 +5,9 @@ seo-title: 보고서 세트 템플릿 개요
 solution: Analytics
 title: 보고서 세트 템플릿 개요
 topic: 관리 도구
-uuid: 5717863 F -208 D -44 B 5-8 BC 5-C 286 BECCF 8 FF
+uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
