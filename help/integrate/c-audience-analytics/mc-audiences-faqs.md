@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: FAQ
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -24,7 +24,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">prop 또는 eVar에 이메일/주소/등이 있는 경우 수집 중에 데이터 해싱을 고려하십시오. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">해당 국가에서 IP 주소 PII로 고려하는 경우 <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external">IP 난독화</a>를 켭니다 . </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">해당 국가에서 IP 주소 PII로 고려하는 경우 <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  >IP 난독화</a>를 켭니다 . </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Analytics 관리자에게 사용자가 수집 중인 것을 확인하라고 말합니다. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">법률 부서에 그들이 PII에 대해 고려하는 것을 확인하라고 말합니다. </li> 
     </ul> </td> 
@@ -47,7 +47,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Audience Manager에서 Analytics 대상을 만들려면 어떻게 합니까?</b> </p> </td> 
-   <td colname="col2"> AAM <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> 에서 분석 대상 구성을 참조하십시오 </a>. </td> 
+   <td colname="col2"> AAM <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > 에서 분석 대상 구성을 참조하십시오 </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Analytics 대상을 만들고 저장한 후 선택한 보고서 세트에 데이터가 나타날 때까지 얼마나 걸립니까?</b> </p> </td> 
@@ -138,11 +138,11 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Q: Audience Manager와 Analytics 간에 세그먼트 방문자 수가 다른 이유는 무엇입니까?</b> </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> 방문자 수 차이 </a>. </p> </td> 
+   <td colname="col2"> <p>자세한 내용은 <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > 방문자 수 차이 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: AAM의 "대상"과 Analytics의 "세그먼트"의 차이점은 무엇입니까?</b> </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 대상이 전송되어 Analytics에서 사용할 "차원" 구성 요소로 공유됩니다. 세그먼트 빌더에서는 세그먼트로 표시되지 않지만, 세그먼트를 만들 수 있는 차원으로 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>자세한 내용은 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 대상이 전송되어 Analytics에서 사용할 "차원" 구성 요소로 공유됩니다. 세그먼트 빌더에서는 세그먼트로 표시되지 않지만, 세그먼트를 만들 수 있는 차원으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 고객 특성과 AAM에서 통합된 고객 데이터의 차이점은 무엇입니까?</b> </p> </td> 
