@@ -7,7 +7,7 @@ title: 경로
 topic: 보고서
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/fallout_graphic.png)
 
-자세한 내용은  [폴아웃 보고서](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41).
+자세한 내용은  [폴아웃 보고서](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL 경로 탐색]**: 전체 경로를 단편으로 분석하여 사이트 최적화에 유용한 정확한 패턴을 제공합니다. 경로 탐색 마법사를 사용하면 보고서를 생성하는 데 사용되는 선택 기준을 지정할 수 있으므로 경로 단편을 분석하여 특정 페이지로 시작되거나 특정 페이지로 끝나는 경로 단편 또는 하나의 페이지로 시작되고 다른 페이지로 끝나는 경로 단편을 조회할 수 있습니다.
 
