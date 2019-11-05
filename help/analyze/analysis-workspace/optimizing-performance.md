@@ -5,7 +5,7 @@ seo-title: Analysis Workspace 성능 최적화
 title: Analysis Workspace 성능 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 날짜 범위(자주색 구성 요소)는 패널 날짜 범위를 재정의합니다. 따라서 다른 날짜 범위를 열(예: 지난 달, 지난 주 및 어제 열)로 사용하는 경우 패널 날짜 범위에서 열 날짜 범위를 모두 확장하지 않아도 됩니다. 자유 형식 테이블에서 사용된 날짜 범위가 이 패널을 재정의하므로 간단하게 어제로 설정할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://www.youtube.com/watch?v=ybmv6EBmhn0)에서 확인하십시오 .
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. 예를 들어, 최근 13개월 간의 데이터로 패널을 설정하지 않고 작년 같은 달과 비교한 지난 달의 데이터를 표시해야 하는 경우 [기간 비교] 옵션을 사용하여 전년 대비 성과를 표시하면 됩니다.
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. 예를 들어, 최근 13개월 간의 데이터로 패널을 설정하지 않고 작년 같은 달과 비교한 지난 달의 데이터를 표시해야 하는 경우 [기간 비교] 옵션을 사용하여 전년 대비 성과를 표시하면 됩니다.
 
 ## 시각화 수
 
