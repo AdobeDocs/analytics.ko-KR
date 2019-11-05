@@ -5,7 +5,7 @@ seo-title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마�
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -121,7 +121,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>도메인이 도메인 <span class="term"> 및</span> 이메일 <span class="term"> 열이</span> 사전 요구 사항에 설정된 도메인과 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"></a>일치합니다. </p> </td> 
+   <td colname="col2"> <p>도메인이 도메인 <span class="term"> 및</span> 이메일 <span class="term"> 열이</span> 사전 요구 사항에 설정된 도메인과 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  ></a>일치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 
