@@ -2,7 +2,7 @@
 title: Cross-Device Analytics FAQ
 description: 크로스 디바이스 분석에 대한 FAQ
 translation-type: tm+mt
-source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -35,7 +35,7 @@ Adobe는 타임스탬프가 있는 히트를 Adobe가 히트를 받은 시점이
 
 **CDA 파섹**
 
-[사용자 지정 방문자 ID는](../../implement/js-implementation/c-unique-visitors/visid-custom.md) 장치 [간에 사용자를](../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)연결하는 레거시 방법입니다. 사용자 지정 방문자 ID를 사용하는 경우 이 `s.visitorID` 변수를 사용하여 방문자 로직에 사용되는 ID를 명시적으로 설정합니다. 이 `s.visitorID` 변수는 존재하는 쿠키 기반 ID를 무시합니다. 자세한 [내용은 구현 사용자 안내서의 고유 방문자](../../implement/js-implementation/c-unique-visitors/visid-overview.md) 식별을 참조하십시오.
+[사용자 지정 방문자 ID는](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) 장치 [간에 사용자를](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)연결하는 레거시 방법입니다. 사용자 지정 방문자 ID를 사용하는 경우 이 `s.visitorID` 변수를 사용하여 방문자 로직에 사용되는 ID를 명시적으로 설정합니다. 이 `s.visitorID` 변수는 존재하는 쿠키 기반 ID를 무시합니다. 자세한 [내용은 구현 사용자 안내서의 고유 방문자](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) 식별을 참조하십시오.
 
 사용자 지정 방문자 ID에는 CDA 파섹 예를 들어 사용자 지정 방문자 ID 방법론은 조회 기능을 가지고 있지 않습니다. 사용자가 방문 중에 인증을 받으면, 방문의 첫 번째 부분은 방문의 후단이 아닌 다른 방문자 ID와 연결됩니다. 개별 방문자 ID는 방문 및 방문자 인플레이션으로 이어집니다. CDA의 30일 조회 창을 사용하면 동일한 사람에 속한 이전 동작을 다시 시작할 수 있으므로 인증되지 않은 크로스 디바이스 비헤이비어를 0일 또는 최소한의 인플레이션으로 통합할 수 있습니다.
 
