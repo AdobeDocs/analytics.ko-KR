@@ -5,7 +5,7 @@ seo-title: Advertising Analytics 개요
 title: Advertising Analytics 개요
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 
 > [!NOTE] Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 흡수되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.
 
-이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로운 기능 [Workspace의 유료 검색 실적](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
+이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로운 기능 [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
 
 ![](assets/aa_aw.png)
 
@@ -30,13 +30,13 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 * Advertising Analytics는 Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) 및 [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) SKU에서만 사용할 수 있습니다.
 
 * 이 기능은 Advertising Cloud 클라우드 및 AMO를 사용하지 않는 고객도 이용할 수 있습니다.
-* Advertising Analytics에 액세스하려면 Adobe Analytics 관리자여야 합니다. 그러면 관리자가 아닌 사용자에게 [액세스 권한을 부여](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)할 수 있습니다.
+* Advertising Analytics에 액세스하려면 Adobe Analytics 관리자여야 합니다. 그러면 관리자가 아닌 사용자에게 [액세스 권한을 부여](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)할 수 있습니다.
 * Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Adobe Analytics와 통합할 검색 계정에 대한 편집 권한이 있는 사용자의 로그인 자격 증명이 있어야 합니다(예: Google 계정 ID 및 암호).
 * Bing Ads의 경우 Bing 고객 ID도 필요합니다.
-* Internet Explorer 11(또는 이전 버전)을 사용하는 경우 세 개의 검색 엔진에 대한 [광고 계정을 설정](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)할 수 없습니다. 대신 다른 웹 브라우저를 사용하십시오.
+* Internet Explorer 11(또는 이전 버전)을 사용하는 경우 세 개의 검색 엔진에 대한 [광고 계정을 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)할 수 없습니다. 대신 다른 웹 브라우저를 사용하십시오.
 
 ## Advertising Analytics 권한 {#section_FCC58EB635954A32990D4E67B52B4369}
 
