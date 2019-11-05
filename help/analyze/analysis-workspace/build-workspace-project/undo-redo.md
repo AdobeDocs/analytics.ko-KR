@@ -5,7 +5,7 @@ seo-title: 실행 취소 및 다시 실행 설정
 title: 실행 취소 및 다시 실행 설정
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 보고서 세트 변경을 실행 취소/다시 실행할 수 있습니다.
 * 프로젝트 이름 근처에 실행 취소/다시 실행 메시지가 표시됩니다. 이 메시지는 실행 취소나 다시 실행이 진행 중이면 표시됩니다.
-* 다음 [핫키를](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)사용할 수 있습니다.
+* 다음 [핫키를](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)사용할 수 있습니다.
 
    * CTRL(CMD)+Z: 실행 취소
    * CTRL(CMD)+SHIFT+Z: 다시 실행
