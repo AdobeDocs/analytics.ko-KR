@@ -8,7 +8,7 @@ title: 요구 사항 및 업로드 제한
 topic: 개발자 및 구현
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 다음 섹션에서는 데이터 소스에 적용되는 제한 및 마케팅 보고 및 분석에 가져온 데이터에 적용되는 제한을 나열합니다.
 
-* [크기 제한](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
-* [날짜](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
-* [일반](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
-* [멀티바이트 지원](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [웹 로그 파일 업로드](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [크기 제한](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
+* [날짜](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
+* [일반](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
+* [멀티바이트 지원](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
+* [웹 로그 파일 업로드](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## 크기 제한 {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 데이터 소스 파일을 업로드하면 데이터 소스는 기본적인 데이터 유효성 검사를 수행하여 파일에 형식 오류가 없는지 확인합니다. 파일에서 오류가 발생하면 이메일 알림이 발송되고 처리가 중지됩니다.
 * 데이터 필드는 세미콜론을 포함할 수 없습니다. 데이터 소스는 세미콜론을 포함한 레코드를 건너뜁니다.
-* 웹 로그, 트래픽, 일부 범용 데이터 소스 그룹의 데이터는 데이터 웨어하우스 또는 Discover에서 사용할 수 없습니다. 자세한 내용은 데이터 [유형 및 카테고리를 참조하십시오](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
+* 웹 로그, 트래픽, 일부 범용 데이터 소스 그룹의 데이터는 데이터 웨어하우스 또는 Discover에서 사용할 수 없습니다. 자세한 내용은 데이터 [유형 및 카테고리를 참조하십시오](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * 데이터 소스는 직렬화된 이벤트를 지원하지 않습니다.
 
 ## 멀티바이트 지원 {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Byte Order Mark(EF BB BF)를 포함한 UTF-8 </td> 
