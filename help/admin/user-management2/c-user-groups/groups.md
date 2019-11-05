@@ -8,7 +8,7 @@ title: 사용자 그룹 설정
 topic: 관리 도구
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -95,10 +95,10 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
      </ul> </p> </td> 
    <td colname="col2"> <p>그룹 구성원이 보고서 그룹의 보고서 하위 세트에 액세스할 수 있습니다. 그룹 구성원이 액세스할 수 있는 보고서 그룹의 특정 보고서를 선택할 수 있는 페이지를 열려면 <span class="uicontrol">사용자 지정</span>을 클릭합니다. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Analytics 도구</a>: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> 보고서 세트 도구</a>: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> 지표</a>: 트래픽, 전환, 사용자 지정 이벤트, 솔루션 이벤트, 컨텐츠 인식 등에 대한 권한을 활성화합니다. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> 측정기준</a>: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구</a>: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> 보고서 세트 도구</a>: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> 지표</a>: 트래픽, 전환, 사용자 지정 이벤트, 솔루션 이벤트, 컨텐츠 인식 등에 대한 권한을 활성화합니다. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 측정기준</a>: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager(모든 액세스 권한, 사용자 지정, 액세스 권한 없음) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 사용자가 사용할 수 없습니다. </p> <p>배포에 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html" format="html" scope="external">Dynamic Tag Management</a>가 권장됩니다. </p> </td> 
+   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 사용자가 사용할 수 없습니다. </p> <p>배포에 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a>가 권장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>사용자 로그인 지정</b> </td> 
