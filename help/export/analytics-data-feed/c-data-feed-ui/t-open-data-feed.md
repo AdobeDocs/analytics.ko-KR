@@ -7,7 +7,7 @@ solution: Analytics
 title: 데이터 피드 인터페이스 열기
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 설정된 피드가 없을 경우, 페이지에 **[!UICONTROL 새 데이터 피드 만들기]단추가 표시됩니다.**
 
-작업을 보려면 [작업을](../../../export/analytics-data-feed/c-data-feed-actions/t-feed-job-history.md#task_0D05F2D1B41B4E4A95B570DC78014480)클릭합니다 ****. 피드 보기로 돌아가려면 **[!UICONTROL 피드를 클릭합니다]**.
+작업을 보려면 [작업을](/help/export/analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)클릭합니다 ****. 피드 보기로 돌아가려면 **[!UICONTROL 피드를 클릭합니다]**.
