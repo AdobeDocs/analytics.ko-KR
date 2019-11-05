@@ -7,7 +7,7 @@ title: 브라우저 높이
 topic: 보고서
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics에서는 방문의 첫 번째 히트에 해당하는 브라우저 높이 및 너비만 사용합니다. 나머지 방문 횟수는 동일한 방문에 기여되지 않습니다.
 
-자세한 내용은 브라우저 너비/ [높이를 참조하십시오](../../../components/c-variables/dimensionslist/browser-width.md#concept_5354E211256B40C1B47599FCC48ABA18).
+자세한 내용은 브라우저 너비/ [높이를 참조하십시오](/help/components/c-variables/dimensionslist/browser-width.md).
