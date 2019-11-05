@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 사용자 및 그룹
 title: 사용자 계정 추가
 topic: 관리 도구
-uuid: 7 CE 9408 B-D 934-40 DF-ADA 4-55 D 98 E 36 AA 6 E
+uuid: 7ce9408b-d934-4 파섹
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -23,4 +23,4 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]**.
 1. **[!UICONTROL 새 사용자 추가]**&#x200B;를 클릭합니다. 
-1. Complete the fields specified in [User Account Descriptions](../../../admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).
+1. Complete the fields specified in [User Account Descriptions](/help/admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).
