@@ -8,7 +8,7 @@ title: 하위 분류 및 규칙 빌더 - 활용 사례
 topic: 관리 도구
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 분류 규칙 빌더를 하위 분류와 결합하여 분류 관리를 단순화하고 필요한 규칙 수를 줄일 수 있습니다. 추적 코드가 따로 분류하려는 코드로 구성되어 있는 경우 이러한 작업을 원할 수 있습니다.
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **예**
 
@@ -33,7 +33,7 @@ A classification hierarchy allows you to apply a classification to a classificat
 
 ![](assets/sub_class_table.png)
 
-이 구조를 작성한 후에 [분류 규칙 빌더](../../../components/c-classifications2/crb/classification-rule-builder.md)를 사용하여 조회 테이블(이전 이미지에서 녹색 및 빨간색 테이블)만 업데이트하는 작은 파일을 업로드할 수 있습니다. 그런 후 규칙 빌더를 사용하여 주 분류 테이블을 최신 상태로 유지할 수 있습니다.
+이 구조를 작성한 후에 [분류 규칙 빌더](/help/components/c-classifications2/crb/classification-rule-builder.md)를 사용하여 조회 테이블(이전 이미지에서 녹색 및 빨간색 테이블)만 업데이트하는 작은 파일을 업로드할 수 있습니다. 그런 후 규칙 빌더를 사용하여 주 분류 테이블을 최신 상태로 유지할 수 있습니다.
 
 다음 작업은 해당 방법을 설명합니다.
 
@@ -47,7 +47,9 @@ t_rule_builder_subclass.xml
 
 규칙 빌더를 사용하여 하위 분류를 업로드하는 방법을 설명하는 예제 단계입니다.
 
-> [!NOTE] 이 단계에서는 하위 분류 및 규칙 빌더에 설명된 사용 [사례를 수행하는 방법을 설명합니다](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+>[!NOTE]
+>
+> 이 단계에서는 하위 분류 및 규칙 빌더에 설명된 사용 [사례를 수행하는 방법을 설명합니다](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
 1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
@@ -55,7 +57,7 @@ t_rule_builder_subclass.xml
 
    ![단계 정보](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    정규 표현식을 사용하여 이 작업을 수행합니다. 이 예제에서 *`Broad Campaign code`*&#x200B;를 채우기 위한 규칙은 다음 정규 표현식을 사용합니다.
 
@@ -70,7 +72,7 @@ t_rule_builder_subclass.xml
 
 1. 지정된 하위 분류만 포함하는 분류 파일을 업로드합니다.
 
-   복수 [수준 분류를 참조하십시오](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A).
+   복수 [수준 분류를 참조하십시오](/help/components/c-classifications2/c-sub-classifications.md).
 
    예:
 
