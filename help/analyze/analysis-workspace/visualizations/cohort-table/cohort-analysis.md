@@ -6,7 +6,7 @@ title: 집단 분석이란?
 topic: Reports and Analytics
 uuid: 39a83f3a-15d1-41d7-bcd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 A *`cohort`* is a group of people sharing common characteristics over a specified period. 집단 분석은 예를 들어, 집단이 브랜드에 참여하는 방법을 알고 싶을 때 유용합니다. 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-집단 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 세그먼트)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. 조정 [및 공유를 참조하십시오](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+집단 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 세그먼트)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. 조정 [및 공유를 참조하십시오](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 집단 분석으로 수행할 수 있는 작업의 예:
 
