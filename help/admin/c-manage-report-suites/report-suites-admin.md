@@ -7,7 +7,7 @@ title: 보고서 세트 관리자
 topic: 관리 도구
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 롤업</span> </td> 
-   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p>자세한 내용은 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> 롤업 보고서 세트</a>. </p> </td> 
+   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p>자세한 내용은 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> 롤업 보고서 세트</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 설정 편집</span> </td> 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 새로 만들기</span> </td> 
-   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">새 보고서 세트</a>를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 열 사용자 지정</span> </td> 
@@ -70,15 +70,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 보고서 세트 ID</span> </td> 
-   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">새 보고서 세트</a>를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 사이트 제목</span> </td> 
-   <td colname="col2"> <p>관리 도구 및 마케팅 보고 머리글의 보고서 세트 드롭다운 목록에서 보고서 세트를 식별합니다. </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>관리 도구 및 마케팅 보고 머리글의 보고서 세트 드롭다운 목록에서 보고서 세트를 식별합니다. </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 URL</span> </td> 
-   <td colname="col2"> <p>보고서 세트에 대한 기준 도메인을 정의합니다. </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>보고서 세트에 대한 기준 도메인을 정의합니다. </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
