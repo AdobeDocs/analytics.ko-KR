@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 핵심 AppMeasurement 코드 삽입
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 Adobe Analytics에서 Dynamic Tag Management를 수동으로 배포할 때 AppMeasurement 코드를 삽입합니다.
 
 1. [!DNL Adobe Analytics] 도구 페이지에서 **[!UICONTROL 일반]** 섹션을 확장한 다음 **[!UICONTROL 편집기 열기]**&#x200B;를 클릭합니다.
-1. [!DNL AppMeasurement_JavaScript*.zip]Adobe Analytics 배포[에서 다운로드한 ](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E) 파일의 압축을 풉니다.
+1. [!DNL AppMeasurement_JavaScript*.zip]Adobe Analytics 배포[에서 다운로드한 ](/help/implement/c-implement-with-dtm/t-analytics-deploy.md) 파일의 압축을 풉니다.
 
    사용자 지정 라이브러리를 선택하고 창을 열면 가장 최신의 코드 버전이 이미 표시되어 나타나므로 관리 콘솔에서 zip 파일을 다운로드하지 않아도 됩니다.
 1. 텍스트 편집기에서 [!DNL AppMeasurement.js]를 엽니다.
