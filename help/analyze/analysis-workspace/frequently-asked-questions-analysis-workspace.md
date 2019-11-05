@@ -5,10 +5,10 @@ seo-description: Analysis Workspace에 대한 시스템 요구 사항입니다.
 seo-title: 관리 요구 사항
 solution: Analytics
 title: 관리 요구 사항
-topic: Reports & Analytics
-uuid: 6 c 8 bfeaa -0 cf 8-435 d-a 4 d 1-67 e 2 cb 55 da 4 c
+topic: Reports and Analytics
+uuid: 6c8bfea-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -37,7 +37,7 @@ Analysis Workspace에 대한 시스템 요구 사항입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 사용자 </td> 
-   <td colname="col2"> <p>Analytics의 [작업 공간] 탭에 액세스할 수 있게 하려면 관리자는 <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt;<span class="uicontrol">그룹</span>에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Analysis Workspace 액세스</a> 그룹에 사용자를 추가해야 합니다. </p> </td> 
+   <td colname="col2"> <p>Analytics의 [작업 공간] 탭에 액세스할 수 있게 하려면 관리자는 <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt;<span class="uicontrol">그룹</span>에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Analysis Workspace 액세스</a> 그룹에 사용자를 추가해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 프로젝트 전송 </td> 
