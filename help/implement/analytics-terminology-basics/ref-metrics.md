@@ -8,7 +8,7 @@ title: 지표
 topic: 개발자 및 구현
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>계산된 지표 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external"> 계산된 지표를 사용하면 지표를 결합하여 새로운 지표로 사용되는 산술 연산을 만들 수 있습니다. </a> 지표를 추가할 보고서에 대해 이러한 지표를 만들 수 있습니다. 관리자는 보고서 세트의 모든 사용자에 대해 계산된 지표를 만들 수 있습니다. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html"> 계산된 지표를 사용하면 지표를 결합하여 새로운 지표로 사용되는 산술 연산을 만들 수 있습니다. </a> 지표를 추가할 보고서에 대해 이러한 지표를 만들 수 있습니다. 관리자는 보고서 세트의 모든 사용자에 대해 계산된 지표를 만들 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
