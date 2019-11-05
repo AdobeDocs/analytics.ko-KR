@@ -8,7 +8,7 @@ title: 분류 규칙 - 정의
 topic: 관리 도구
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 및 변수 선택 </p> </td> 
-   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p>예를 들어, 페이지를 <span class="term"> 규칙</span> 세트에 변수로 사용하려면 보고서 세트에 페이지에 대해 <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> 트래픽 분류가</a> 구현되어 있는지 확인합니다 <span class="term"></span>. </p> <p> <span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span>(또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리 도움말에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">트래픽 분류</a> 및 <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">전환 분류</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p>예를 들어, 페이지를 <span class="term"> 규칙</span> 세트에 변수로 사용하려면 보고서 세트에 페이지에 대해 <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  > 트래픽 분류가</a> 구현되어 있는지 확인합니다 <span class="term"></span>. </p> <p> <span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span>(또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리 도움말에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >트래픽 분류</a> 및 <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >전환 분류</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 활성화</span> </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 및 변수 구성 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">사용 가능한 보고서 세트</span> 페이지를 표시합니다. 이 페이지에서 모든 규칙 세트에 사용할 하나 이상의 사용 가능한 보고서 세트를 선택할 수 있습니다. (<span class="wintitle">분류 규칙 빌더</span>를 처음 실행할 때에도 이 페이지가 표시됩니다.) </p> <p>사용 가능한 보고서 세트가 수백 개 있을 경우 보고서 세트 로드 시간을 줄이는 데 도움이 되기 위한 기능입니다. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>참고:보고서 세트에 관리 도구에서 변수에 대해 하나 이상의 분류가 정의된 <span class="term"> 경우에만</span> 보고서 세트를 사용할 수 <span class="wintitle"> 있습니다</span>. <p>이 <span class="term"> 전제 조건에</span> 대한 설명은 <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> 분류 규칙 세트의</a> 변수를 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">사용 가능한 보고서 세트</span> 페이지를 표시합니다. 이 페이지에서 모든 규칙 세트에 사용할 하나 이상의 사용 가능한 보고서 세트를 선택할 수 있습니다. (<span class="wintitle">분류 규칙 빌더</span>를 처음 실행할 때에도 이 페이지가 표시됩니다.) </p> <p>사용 가능한 보고서 세트가 수백 개 있을 경우 보고서 세트 로드 시간을 줄이는 데 도움이 되기 위한 기능입니다. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>참고:보고서 세트에 관리 도구에서 변수에 대해 하나 이상의 분류가 정의된 <span class="term"> 경우에만</span> 보고서 세트를 사용할 수 <span class="wintitle"> 있습니다</span>. <p>이 <span class="term"> 전제 조건에</span> 대한 설명은 <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > 분류 규칙 세트의</a> 변수를 참조하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>규칙은 기존 값을 덮어씁니다. </p> </td> 
@@ -59,10 +59,10 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>전환 확인 기간 </p> </td> 
-   <td colname="col2"> <p>규칙을 활성화하고 유효성을 확인할 때, 영향을 받는 키에 대해 규칙이 기존 분류를 덮어쓰도록 지정할 수 있습니다. 지정한 기간 내에 <span class="keyword">Adobe Analytics</span>로 전달된 적이 있는 분류된 키만 영향을 받습니다. </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) 이 옵션을 활성화하지 않으면 기존 분류를 덮어쓰는 일은 없습니다. </p> <p><b>개발 센터</b>: 파트너는 <span class="wintitle">개발 센터</span>에서 분류 규칙을 만들 수 있습니다. 이 규칙은 고객이 통합을 활성화하면 배포됩니다. <span class="wintitle">개발 센터</span>의 <span class="uicontrol">다음 날짜 이후 덮어쓰기</span> 옵션은 고객이 통합을 활성화하거나 편집할 때 덮어쓰기 값을 결정할 수 있는지 여부를 파트너가 지정할 수 있도록 해줍니다. </p> <p>See <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local"> How Rules Are Processed</a> for more information about rule processing. </p> </td> 
+   <td colname="col2"> <p>규칙을 활성화하고 유효성을 확인할 때, 영향을 받는 키에 대해 규칙이 기존 분류를 덮어쓰도록 지정할 수 있습니다. 지정한 기간 내에 <span class="keyword">Adobe Analytics</span>로 전달된 적이 있는 분류된 키만 영향을 받습니다. </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) 이 옵션을 활성화하지 않으면 기존 분류를 덮어쓰는 일은 없습니다. </p> <p><b>개발 센터</b>: 파트너는 <span class="wintitle">개발 센터</span>에서 분류 규칙을 만들 수 있습니다. 이 규칙은 고객이 통합을 활성화하면 배포됩니다. <span class="wintitle">개발 센터</span>의 <span class="uicontrol">다음 날짜 이후 덮어쓰기</span> 옵션은 고객이 통합을 활성화하거나 편집할 때 덮어쓰기 값을 결정할 수 있는지 여부를 파트너가 지정할 수 있도록 해줍니다. </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information about rule processing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> 규칙 추가 </a> </td> 
+   <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > 규칙 추가 </a> </td> 
    <td colname="col2"> <p>규칙 세트에 규칙을 추가할 수 있습니다. </p> <p>참고: 값이 규칙 세트에서 2회 이상 일치하는 경우, 시스템은 마지막 규칙을 사용하여 값을 분류합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
    <td colname="col2"> 규칙 세트를 다른 변수에 적용하거나 다른 보고서 세트의 동일한 변수에 적용할 수 있도록 규칙 세트를 복제(복사)합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158" format="dita" scope="local"> 테스트 규칙 세트 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > 테스트 규칙 세트 </a> </p> </td> 
    <td colname="col2"> <p>규칙 세트의 유효성을 테스트할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>규칙 번호입니다. </p> <p>자세한 내용은 <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local"> 규칙 처리 방법</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>규칙 번호입니다. </p> <p>자세한 내용은 <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > 규칙 처리 방법</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 규칙 유형 선택</span> </td> 
@@ -95,8 +95,8 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">다음으로 시작 </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">종료 문자 </li> 
-     <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">포함 </li> 
-     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D" format="dita" scope="local"> 정규 표현식 </a> </li> 
+     <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">다음 포함 </li> 
+     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > 정규 표현식 </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 | 일치 그룹 | 캠페인 ID에서 위치를 분류할 수 있도록 정규 표현식이 캠페인 ID 문자에 대응하는 방식을 표시합니다. |
 | 일치 결과 | 정규 표현식과 일치하는 문자열의 각 부분을 표시합니다. |
 
-See [분류 규칙의 정규 표현식](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+자세한 내용은 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## 테스트 페이지 {#section_EC926F97901C4E65901413F9683AA70A}
 
