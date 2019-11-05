@@ -8,7 +8,7 @@ title: FAQ
 topic: 세그먼트
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d 파섹
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,12 +25,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * 비교에서 [세그먼트를 차원으로](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) 사용합니다.
    * [폴아웃 분석](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
 
-* [여러 세그먼트를 보고서 또는 프로젝트에 적용](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)할 수 있습니다.
+* [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)할 수 있습니다.
 * 세그먼트는 모든 보고서 세트에 범용입니다.
-* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
-* [세그먼트 관리자](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF)를 설정할 수 있습니다.
+* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* [세그먼트 관리자](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
 
-* [세그먼트를 태그 지정](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* [세그먼트를 태그 지정](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
 
 * Ad Hoc Analysis 외부에서 [순차적 세그먼트](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
 * 페이지 보기 컨테이너는 단지 페이지 보기가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 히트 컨테이너로 이름이 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다. 이 컨테이너가 작동하는 방식은 변경되지 않았으며 이름만 바뀌었습니다.
@@ -63,7 +63,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **이전 세그먼트 드롭다운은 어디로 이동했습니까?**
 
-Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 "범용" 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 세그먼트 아이콘을 클릭합니다 ![](assets/segment_icon.png)
+Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 "범용" 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 세그먼트 아이콘을 클릭합니다 ![](assets/segment_icon.png)
 
 왼쪽 탐색 창에 세그먼트 레일이 표시됩니다.
 
@@ -79,7 +79,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만, 관리자는 [세그먼트를 만들 수 있는 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
-관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](../../components/c-segmentation/seg-reference/seg-rights.md)
+관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **회사의 세그먼트를 볼 수 있습니까?**
 
@@ -97,7 +97,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 **이 세그먼트를 삭제할 수 없는 이유**
 
-세그먼트가 [Experience Cloud로 게시된 경우](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01) 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
+세그먼트가 [Experience Cloud로 게시된 경우](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
 
 ## 우수 사례 {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -113,13 +113,13 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 * 보유한 세그먼트를 검토합니다.
 * 적용 가능한 경우 세그먼트 라이브러리에 추가합니다.
 * 표준 세그먼트를 승인합니다.
-* 세그먼트에 [우수 사례](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)에 따라 세그먼트에 태그를 지정합니다.
+* 세그먼트에 [우수 사례](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)에 따라 세그먼트에 태그를 지정합니다.
 
 ## 이전 세그먼트 관리 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 **기존 세그먼트에 발생한 결과**
 
-기존 세그먼트는 계속해서 이전과 동일하게 작동합니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. [더 보기...](../../components/c-segmentation/seg-transition.md#section_83ACAB256F394DCD8B424D8920BDD853)
+기존 세그먼트는 계속해서 이전과 동일하게 작동합니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. [더 보기...](/help/components/c-segmentation/seg-transition.md)
 
 대부분의 이전에 미리 정의된 세트 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 세그먼트 템플릿은 공통 대상을 갖는 사용자 지정 세그먼트를 빠르게 작성하는 데 사용됩니다. 세그먼트 템플릿을 보고서에 직접 적용할 수는 없지만 사용자 지정 세그먼트로 쉽게 저장할 수 있습니다.
 
@@ -205,9 +205,9 @@ seg_definition.xml
 * 브라우저 - 브라우저 유형 차원을 사용하여 유형의 모든 브라우저(예: Google Chrome)를 가져옵니다.
 * 운영 체제 - OS 유형 차원을 사용하여 모든 운영 체제를 Microsoft Windows 형식으로 가져옵니다.
 
-* [새 차원 및 이름이 변경된 차원](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [포함 변경 사항](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [보다 작거나 큰 변경 사항](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [새 차원 및 이름이 변경된 차원](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
+* [포함 변경 사항](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [보다 작거나 큰 변경 사항](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 새 차원 및 이름이 변경된 차원 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
