@@ -8,7 +8,7 @@ title: 처리 규칙 작동 방식
 topic: 관리 도구
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>규칙이 단일 보고서 세트에 적용됩니다. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> 다른 보고서 세트에 처리 규칙 복사 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> 다른 보고서 세트에 처리 규칙 복사 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙이 나열된 순서대로 적용됩니다. </p> </td> 
@@ -41,15 +41,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 저장 후 즉시 보고서 세트에 적용됩니다. </p> </td> 
-   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 컨텍스트 데이터 변수에 액세스할 수 있는 유일한 방법입니다. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 컨텍스트 데이터 변수를 eVar에 복사 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 컨텍스트 데이터 변수를 eVar에 복사 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 및 마케팅 채널 규칙 이전에 처리 규칙이 적용됩니다. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> 처리 순서 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> 처리 순서 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>히트를 제외할 수 없습니다. </p> </td> 
@@ -81,7 +81,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI에서 값 비교는 대/소문자를 구분하지 않습니다. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> 보고서에서 값을 정리합니다 </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> 보고서에서 값을 정리합니다 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 이름에는 영숫자, 밑줄, 점만 포함될 수 있습니다. 추가된 모든 문자는 제거됩니다. </p> </td> 
