@@ -7,7 +7,7 @@ title: 사용자 지정 날짜 고려 사항
 topic: Report Builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 11월 23일 일요일에 시작하는 현재 주의 날 빼기 1일 = 11월 22일 토요일
 
-유럽 및 다른 여러 국가에서는 일주일이 일요일이 아니라 토요일에 시작됩니다. 이 경우 달력을 사용자 지정하여 시작 날짜를 변경할 수 있습니다. ( [사용자 지정 달력](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+유럽 및 다른 여러 국가에서는 일주일이 일요일이 아니라 토요일에 시작됩니다. 이 경우 달력을 사용자 지정하여 시작 날짜를 변경할 수 있습니다. ( [사용자 지정 달력](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
