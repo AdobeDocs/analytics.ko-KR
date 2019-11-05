@@ -5,7 +5,7 @@ seo-title: Analytics 세그멘테이션의 새로운 기능
 title: Analytics 세그멘테이션의 새로운 기능
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,19 +14,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics Workspace의 새로운 기능
 
-* [2016년 11월](../../components/c-segmentation/whats-new-segmentation.md#concept_EAF1A19D50774E8CB822A64B29495D80)
-* [2016년 10월](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
-* [2016년 9월](../../components/c-segmentation/whats-new-segmentation.md#concept_ECC5516509BB4774A439BD22ED5803CD)
-* [2016년 6월](../../components/c-segmentation/whats-new-segmentation.md#concept_3A4B77FC1FA5422BB14516065F066B21)
-* [2016년 1월](../../components/c-segmentation/whats-new-segmentation.md#concept_95A4D824A5DC423AB594F3D6ADCF229D)
-* [2015년 11월](../../components/c-segmentation/whats-new-segmentation.md#concept_BCD702E34E134D06AF936AE475D7B4B8)
-* [2015년 10월](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
-* [2015년 9월](../../components/c-segmentation/whats-new-segmentation.md#concept_C43C11F33EB54F928268304F3D4867AA)
-* [2014년 10월 일](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
-* [2014년 9월](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
-* [2014년 8월](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
-* [2014년 7월](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [2014년 5월](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [2016년 11월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016년 10월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016년 9월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016년 6월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016년 1월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2015년 11월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2015년 10월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2015년 9월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014년 10월 일](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014년 9월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014년 8월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014년 7월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014년 5월](/help/components/c-segmentation/whats-new-segmentation.md)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -75,7 +75,7 @@ Adobe Analytics Workspace의 새로운 기능
    <td colname="col2"> <p>"within" 절의 경우 THEN 문 사이에 "within", "within 1 search keyword instance", "within 1 eVar 47 instance"를 추가할 수 있습니다. 이 경우 측정 기준의 한 개 인스턴스 이내로 세그먼트를 제한합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">폴아웃 분석에서 세그먼트 사용 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >폴아웃 분석에서 세그먼트 사용 </a> </p> </td> 
    <td colname="col2"> <p>터치포인트에서 세그먼트를 만들고, 세그먼트를 터치포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로우를 비교할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -106,7 +106,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; 세그먼트 비교 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace의 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html" format="https" scope="external">세그먼트 비교</a>(세그먼트 IQ) 패널에서 고객이 두 Analytics 세그먼트를 빠르게 비교하여 모든 데이터 포인트에서 이들 세그먼트 간에 가장 중요한 차이점을 찾을 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace의 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >세그먼트 비교</a>(세그먼트 IQ) 패널에서 고객이 두 Analytics 세그먼트를 빠르게 비교하여 모든 데이터 포인트에서 이들 세그먼트 간에 가장 중요한 차이점을 찾을 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 세그먼트 만들기</span> 권한 </p> </td> 
-   <td colname="col2"> <p>사용자에게 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">세그먼트 만들기 권한</a>이 없는 경우, 사용자는 더 이상 세그먼트 빌더에 액세스할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>사용자에게 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >세그먼트 만들기 권한</a>이 없는 경우, 사용자는 더 이상 세그먼트 빌더에 액세스할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>세그먼트 빌더에서의 권한 변경 사항 </p> </td> 
-   <td colname="col2"> <p>관리자 사용자는 새 세그먼트를 만들 수 있는 사용자를 제한할 수 있습니다. 기본적으로 모든 사용자는 세그먼트를 만들 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> 자세히...</a> </p> </td> 
+   <td colname="col2"> <p>관리자 사용자는 새 세그먼트를 만들 수 있는 사용자를 제한할 수 있습니다. 기본적으로 모든 사용자는 세그먼트를 만들 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > 자세히...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
