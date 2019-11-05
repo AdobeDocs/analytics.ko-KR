@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 |---|---|---|---|
 | N/A | CDP | 여러 보고서에서 방문자 ID의 저장 및 처리 방식을 제어하는 데 영향을 줍니다. | "2" |
 
-> [!NOTE] 일부 클라우드 컴퓨팅 서비스는 쿠키를 작성할 수 없는 최상위 도메인으로 간주됩니다. 예: `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com` 등. 이러한 서비스에 구현하는 경우 사용자 고유의 도메인이 설정되어 있지 않으면 모든 쿠키를 차단한 사용자를 제거하는 Analytics 개인 정보 보호 설정의 영향을 받을 수 있습니다(예: 구현을 테스트하는 경우). 이 경우 쿠키가 비활성화되었거나, 작동하지 않거나, 액세스할 수 없는 것으로 확인된 히트는 옵트아웃되므로, 보고에서 제외됩니다.
+>[!NOTE]
+>
+>일부 클라우드 컴퓨팅 서비스는 쿠키를 작성할 수 없는 최상위 도메인으로 간주됩니다. 예: `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com` 등. 이러한 서비스에 구현하는 경우 사용자 고유의 도메인이 설정되어 있지 않으면 모든 쿠키를 차단한 사용자를 제거하는 Analytics 개인 정보 보호 설정의 영향을 받을 수 있습니다(예: 구현을 테스트하는 경우). 이 경우 쿠키가 비활성화되었거나, 작동하지 않거나, 액세스할 수 없는 것으로 확인된 히트는 옵트아웃되므로, 보고에서 제외됩니다.
 
 ## 예
 
