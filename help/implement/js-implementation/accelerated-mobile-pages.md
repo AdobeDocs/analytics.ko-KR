@@ -8,7 +8,7 @@ title: 가속 모바일 페이지
 topic: 개발자 및 구현
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ Adobe Analytics에서 가속 모바일 페이지(AMP) 프로젝트를 구현하�
 
 AMP는 빠르게 렌더링되는 정적 컨텐츠의 웹 페이지를 작성할 수 있는 [개방형 소스 프로젝트](https://www.ampproject.org/)입니다. 이 기능은 모바일에 최적화된 컨텐츠를 한 번 만든 후 모든 위치에서 즉시 로드하려는 게시자에게 이상적입니다. 다음 주제가 포함됩니다.
 
-* [작동 방법](../../implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
-* ["adobeanalytics" 템플릿에서 amp-analytics 태그 사용](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
-* ["adobeanalytics_nativeConfig" 템플릿에서 amp-analytics 태그 사용](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
-* [요약](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
-* [FAQ](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [작동 방법](/help/implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
+* ["adobeanalytics" 템플릿에서 amp-analytics 태그 사용](/help/implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
+* ["adobeanalytics_nativeConfig" 템플릿에서 amp-analytics 태그 사용](/help/implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
+* [요약](/help/implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
+* [FAQ](/help/implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **추가 설명서 및 예제**
 
@@ -211,7 +211,7 @@ AMP 프로젝트는 빠르게 움직이고 있으며 빈번하게 변경되므�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID 서비스란 무엇입니까? 이 서비스가 필요한 이유는 무엇입니까?  </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> ID 서비스 </a>(이전 <span class="term"> 방문자 ID 서비스 </span>)를 사용하면 <span class="keyword"> Experience Cloud </span> 핵심 서비스를 사용할 수 있으며, 서로 다른 Adobe <span class="keyword"> Experience Cloud </span> 솔루션 간의 통합을 수행할 수 있습니다. <span class="keyword">Adobe Audience Manager</span>나 <span class="keyword">Adobe Target</span>과의 통합 사항이 있을 경우 이 서비스를 사용할 수 있습니다. 이 서비스는 예정된 많은 <span class="keyword">Adobe Analytics</span> 기능의 기반이기도 합니다. ID 서비스 지원이 필요하거나 향후에 필요한 경우 <code> iframeMessage </code> 솔루션을 사용하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"  > ID 서비스 </a>(이전 <span class="term"> 방문자 ID 서비스 </span>)를 사용하면 <span class="keyword"> Experience Cloud </span> 핵심 서비스를 사용할 수 있으며, 서로 다른 Adobe <span class="keyword"> Experience Cloud </span> 솔루션 간의 통합을 수행할 수 있습니다. <span class="keyword">Adobe Audience Manager</span>나 <span class="keyword">Adobe Target</span>과의 통합 사항이 있을 경우 이 서비스를 사용할 수 있습니다. 이 서비스는 예정된 많은 <span class="keyword">Adobe Analytics</span> 기능의 기반이기도 합니다. ID 서비스 지원이 필요하거나 향후에 필요한 경우 <code> iframeMessage </code> 솔루션을 사용하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
@@ -219,7 +219,7 @@ AMP 프로젝트는 빠르게 움직이고 있으며 빈번하게 변경되므�
   </tr> 
   <tr> 
    <td colname="col1"> <p>이 솔루션은 <span class="keyword">Facebook 인스턴트 아티클</span>와 유사하지 않습니까? Facebook 인스턴트 아티클로 <span class="keyword">Adobe Analytics</span>를 어떻게 설정합니까? </p> </td> 
-   <td colname="col2"> <p> Facebook 인스턴트 아티클에서는 위에서 개략적으로 설명한 대로 nativeConfig 솔루션과 유사한 솔루션을 지원합니다. 사실 위에서 만든 stats.html 페이지는 AMP와 FIA 모두에 대한 분석 요구를 동시에 충족할 수 있습니다. FIA에서의 추적 구현에 대한 자세한 내용은 <a href="../../implement/js-implementation/analytics-facebook-instant-articles.md#concept_AC9AD1431CD14F919E329A161A80AA08" format="dita" scope="local"> Facebook 인스턴트 아티클 </a> </p> </td> 
+   <td colname="col2"> <p> Facebook 인스턴트 아티클에서는 위에서 개략적으로 설명한 대로 nativeConfig 솔루션과 유사한 솔루션을 지원합니다. 사실 위에서 만든 stats.html 페이지는 AMP와 FIA 모두에 대한 분석 요구를 동시에 충족할 수 있습니다. FIA에서의 추적 구현에 대한 자세한 내용은 <a href="/help/implement/js-implementation/analytics-facebook-instant-articles.md"  > Facebook 인스턴트 아티클 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
