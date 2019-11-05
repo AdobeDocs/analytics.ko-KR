@@ -7,7 +7,7 @@ title: 실시간 보고 개요
 topic: 보고서
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 실시간 보고에서는 웹 페이지 트래픽을 표시하고 실시간으로 페이지 보기 횟수를 분류합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 
-> [!NOTE] 실시간 보고서는 추가 구현 또는 태그 지정이 필요하지 않습니다. 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+>[!NOTE]
+>
+>실시간 보고서는 추가 구현 또는 태그 지정이 필요하지 않습니다. 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 실시간]**
 
@@ -42,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 예를 들면 지난 주의 값을 작년 값(및 오늘 합계)과 비교합니다.
 
-지속성 개념이 없으므로 eVar(전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 실시간 보고서 설정에서 캡처한 경고 [메시지를 참조하십시오](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+지속성 개념이 없으므로 eVar(전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 실시간 [보고서](/help/components/c-real-time-reporting/t-realtime-admin.md)설정을 참조하십시오.
 
 실시간 보고서를 설정하고 보는 것은 관리자와 "모든 보고서 액세스" 및 "고급 보고" 권한 그룹의 사용자에게로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
 
