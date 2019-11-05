@@ -6,7 +6,7 @@ seo-title: 계산 및 고급 계산(파생) 지표
 title: 계산 및 고급 계산(파생) 지표
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 속성 모델로 마이그레이션되었습니다.
 >
 >* "마케팅 채널 마지막 터치" 및 "마케팅 채널 첫 번째 터치" 할당 모델이 각각 새로운 "마지막 터치" 및 "첫 번째 터치" 속성 모델로 마이그레이션되었습니다(참고:"마케팅 채널"은 더 이상 사용되지 않습니다. 계산된 지표에 나타나는 두 개의 할당 모델만 있습니다.
->* 또한 선형 할당이 계산되는 방식을 수정했습니다. "선형" 할당 모델에서 계산된 지표를 사용하는 고객의 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
+>* 또한 선형 할당이 계산되는 방식을 수정했습니다. "선형" 할당 모델에서 계산된 지표를 사용하는 고객의 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
 
 
 Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
@@ -34,13 +34,13 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 | Builder 옵션 | 계산된 지표 | 고급 계산(파생) 지표 |
 |---|---|---|
-| [형식 유형(십진수, 시간, 퍼센트, 통화)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18) | 예 | 예 |
-| [속성 변경(기본값, 선형, 기여도 등)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | 예 | 예 |
-| [지표 유형(표준, 전체)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | 예 | 예 |
+| [형식 유형(십진수, 시간, 퍼센트, 통화)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 예 | 예 |
+| [속성 변경(기본값, 선형, 기여도 등)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
+| [지표 유형(표준, 전체)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
 | 기본 연산자(더하기, 빼기, 곱하기, 나눗셈) | 예 | 예 |
-| [세그먼트 적용](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E) | 아니요 | 예 |
-| [기본 함수(수, 절대값, 평균 등)](../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) | 아니요 | 예 |
-| [고급 함수(회귀, if/then, T 스코어 등)](../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174) | 아니요 | 예 |
+| [세그먼트 적용](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | 아니요 | 예 |
+| [기본 함수(수, 절대값, 평균 등)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 아니요 | 예 |
+| [고급 함수(회귀, if/then, T 스코어 등)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 아니요 | 예 |
 
 ## 기능 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
@@ -83,7 +83,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local">계산된 지표 빌더</a>에서 계산된 지표를 작성합니다. </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  >계산된 지표 빌더</a>에서 계산된 지표를 작성합니다. </td> 
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">고급 할당 모델을 사용하여 계산된 지표 및 고급 계산된 지표를 생성합니다. </li> 
@@ -98,7 +98,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653" format="dita" scope="local"> 계산된 지표 관리자</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > 계산된 지표 관리자</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">지표를 다른 사람과 공유할 수 있습니다. </li> 
@@ -110,10 +110,10 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> 지표 선택기 레일 </td> 
-   <td colname="col2"> <p>Reports &amp; Analytics에서 <span class="uicontrol">지표 표시</span><span class="uicontrol"> 팝업을 대체합니다</span>. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해줍니다.   <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">정렬</a> 순서(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Reports &amp; Analytics에서 <span class="uicontrol">지표 표시</span><span class="uicontrol"> 팝업을 대체합니다</span>. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해줍니다.   <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >정렬</a> 순서(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> 계산된 지표에 대한 API</a> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 계산된 지표에 대한 API</a> </td> 
    <td colname="col2"> <p>Adobe Analytics 2.0 API 세트의 일부입니다. </p> </td> 
   </tr> 
  </tbody> 
