@@ -8,22 +8,22 @@ title: 방문자 식별
 topic: Reports and Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # 방문자 식별
 
-Analytics에서는 방문자를 식별하는 몇 가지 메커니즘을 제공합니다([방문자 식별](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)에 나열됨). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
+Analytics에서는 방문자를 식별하는 몇 가지 메커니즘을 제공합니다([방문자 식별](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md)에 나열됨). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
 
 **고유 방문자 식별:**
 
 1. Exclude all rows where `exclude_hit > 0`.
-1. Exclude all rows with `hit_source = 5,7,8,9`. 5,8 및 9는 데이터 소스를 사용하여 업로드된 요약 행입니다. 7은 방문 및 방문자 카운트에 포함되지 않아야 하는 거래 ID 데이터 소스 업로드를 나타냅니다. 자세한 내용은 [조회 출처 조회](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42)
+1. Exclude all rows with `hit_source = 5,7,8,9`. 5,8 및 9는 데이터 소스를 사용하여 업로드된 요약 행입니다. 7은 방문 및 방문자 카운트에 포함되지 않아야 하는 거래 ID 데이터 소스 업로드를 나타냅니다. 자세한 내용은 [조회 출처 조회](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
 1. 결합할 `post_visid_high` 수 `post_visid_low`있습니다. All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
-방문자 ID 값을 결정(예: 쿠키 승인 계산을 위해)하는 데 사용된 메커니즘을 결정하려는 경우, `post_visid_type`에는 사용된 ID 메서드를 가리키는 조회 키가 들어 있습니다. 조회 키는 [아래 표](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A)에 방문자 ID 메커니즘과 함께 나열되어 있습니다.
+방문자 ID 값을 결정(예: 쿠키 승인 계산을 위해)하는 데 사용된 메커니즘을 결정하려는 경우, `post_visid_type`에는 사용된 ID 메서드를 가리키는 조회 키가 들어 있습니다. 조회 키는 [아래 표](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#aa-vids)에 방문자 ID 메커니즘과 함께 나열되어 있습니다.
 
 ## Experience Cloud ID {#section_1628ED37D31E4B0EB75632E397A06B29}
 
@@ -35,7 +35,7 @@ If the Experience Cloud ID was used to identify the visitor, the ID will be cont
 >
 > When using the Adobe Analytics visitor ID as a key for other systems, always use `post_visid_high` and `post_visid_low`. 이러한 필드는 데이터 피드에서 모든 행과 함께 값을 제공하는 유일한 방문자 ID 필드입니다.
 
-## Analytics 방문자 ID {#section_DE1DC9FC9B6D4388995B70E35B8BCDDF}
+## Analytics 방문자 ID {#aa-vids}
 
 Analytics에서 방문자를 식별할 수 있는 방법에는 몇 가지가 있습니다(다음 표에 선호도 순으로 나열됨).
 
