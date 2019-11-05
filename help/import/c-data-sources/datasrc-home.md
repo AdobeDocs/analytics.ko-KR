@@ -8,7 +8,7 @@ title: Data Sources 개요
 topic: 개발자 및 구현
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ Adobe Analytics 데이터 소스를 사용하면 추가적인 온라인 또는 �
 
 >[!IMPORTANT]
 >
->거래 ID 데이터 소스에서 오프라인 데이터를 온라인 이벤트에 연결하려면 고객 지원에서 거래 ID 기록을 사용해야 합니다. 자세한 내용은 [거래 ID 기록](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)을 참조하십시오.
+>거래 ID 데이터 소스에서 오프라인 데이터를 온라인 이벤트에 연결하려면 고객 지원에서 거래 ID 기록을 사용해야 합니다. 자세한 내용은 [거래 ID 기록](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)을 참조하십시오.
 
 가져온 데이터 소스의 데이터 대부분은 Digital Marketing Suite를 통해 사용할 수 있습니다.
