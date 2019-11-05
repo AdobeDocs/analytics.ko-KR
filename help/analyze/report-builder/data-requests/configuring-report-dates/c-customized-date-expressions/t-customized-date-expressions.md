@@ -5,9 +5,9 @@ seo-title: 사용자 지정된 날짜 표현식 - 개요
 solution: Analytics
 title: 사용자 지정된 날짜 표현식 - 개요
 topic: Report Builder
-uuid: 7 d 6 d 7 c 03-a 3 f 4-4 dec -8343-de 2 e 6478 bf 06
+uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -21,5 +21,5 @@ source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
 **사용자 지정 표현식을 활성화하는 방법**
 
 1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
-1. **[!UICONTROL 사용자 지정 표현식을 활성화합니다]**.
+1. Enable **[!UICONTROL Custom Expression]**.
 1. 아래 주어진 약자, 구문 규칙 및 예에 따라 **시작** 및 **[!UICONTROL 종료]필드에 특수 표현식을 입력합니다.**
