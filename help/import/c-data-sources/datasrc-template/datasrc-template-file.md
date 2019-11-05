@@ -8,7 +8,7 @@ title: Data Sources 템플릿 개요
 topic: 개발자 및 구현
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,17 +21,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 다음 섹션에서 각 유형에 대해 지원되는 지표와 차원을 볼 수 있습니다.
 
-* [웹 로그](../../../import/c-data-sources/c-datasrc-types/datasrc-web-log.md#concept_E25D89C8B90A41FEB7DF4E936CACEE2B)
-* [트래픽](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC)(더 이상 지원되지 않음)
-* [전환](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0)
-* [거래 ID](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)
-* [방문자 ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
-* [전체 처리](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)
+* [웹 로그](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)
+* [트래픽](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md)(더 이상 지원되지 않음)
+* [전환](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)
+* [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)
+* [방문자 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+* [전체 처리](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
-For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5).
+For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
 
 템플릿이 생성되면 템플릿을 다운로드하고 템플릿에 데이터를 입력한 다음 데이터를 데이터 소스 FTP 사이트로 업로드할 수 있습니다. 데이터 소스 서버가 처리를 완료하면 가져온 데이터를 마케팅 보고서에서 사용할 수 있습니다.
 
 The Data Source template is a [!DNL .txt] file that you can open with any text editor. 하지만 Microsoft Excel이나 다른 스프레드시트 응용 프로그램을 사용하여 템플릿 작업을 하는 것이 더 쉽습니다. 템플릿 내용은 [!UICONTROL 데이터 소스 활성화 마법사]에서 선택한 사항에 따라 달라집니다.
 
-자세한 내용은 [가져오기 파일 참조](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD).
+자세한 내용은 [가져오기 파일 참조](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md).
