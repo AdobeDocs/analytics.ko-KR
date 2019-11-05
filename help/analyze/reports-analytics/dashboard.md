@@ -8,7 +8,7 @@ title: 대시보드 및 Reportlet
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -58,7 +58,7 @@ A dashboard is a collection of thumbnail reports called *`reportlets`*. 대시�
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
-자세한 내용은 [대시보드 관리](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+자세한 내용은 [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## 대시보드 만들기 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -84,10 +84,10 @@ t_dashboard_add.xml
 
 1. 항목을 reportlet 캔버스로 드래그하여 사용할 수 있는 컨텐츠를 대시보드에 추가합니다.
 
-   Reportlet [만들기](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 및 대시보드 [설정 편집을 참조하십시오](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Reportlet [만들기](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 및 대시보드 [설정 편집을 참조하십시오](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
 1. **[!UICONTROL 저장을 클릭합니다.]**
 
-   대시보드를 저장하면 **[!UICONTROL 대시보드]메뉴에서 사용할 수 있게 됩니다.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (대시보드 [관리를 참조하십시오](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   대시보드를 저장하면 **[!UICONTROL 대시보드]메뉴에서 사용할 수 있게 됩니다.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (대시보드 [관리를 참조하십시오](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (선택적) 대시보드를 랜딩 페이지로 설정하려면 **더 많은 옵션** &gt; **[!UICONTROL 랜딩 페이지로 설정을 클릭합니다]**.
 
