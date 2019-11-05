@@ -1,22 +1,22 @@
 ---
-description: Excel의 [서식] > [셀] (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
-seo-description: Excel의 [서식] > [셀] (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
+description: Excel의 [서식] > [셀](Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
+seo-description: Excel의 [서식] > [셀](Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
 seo-title: 날짜 형식 지정
 solution: Analytics
 title: 날짜 형식 지정
 topic: Report Builder
-uuid: 5211 DB 30-07 B 3-4413-97 C 3-E 40 E 6 FF 223 CD
+uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
 # 날짜 형식 지정
 
-Excel의 [서식] &gt; [셀] (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
+Excel의 [서식] &gt; [셀](Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
 
-[차원을](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) 행 레이블 그리드에 추가한 후 **[!UICONTROL 형식을 클릭합니다]**.
+After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
 
 **[!UICONTROL 서식]** 메뉴에서 **사용자 지정 형식[!UICONTROL 을 클릭하여 프리펜드 및 포스트펜드 기능과 유사한, 날짜에 대한 사용자 지정된 형식을 적용합니다.]** 예를 들어 날짜 다음에 항상 표시되는 텍스트(A.D. B.C.E. A.H. 등)를 입력할 수 있습니다. 날짜 앞에 [!UICONTROL 시작 날짜] 및 [!UICONTROL 시작 및 종료 날짜]와 같은 텍스트를 추가할 수도 있습니다. 이 이외에도 일, 월 및 연도 약자로 사용자 지정 날짜 표현식을 만들고 날짜의 부분들 사이에 사용자 지정 구분 문자를 사용할 수 있습니다. 모든 날짜 형식은 대괄호만으로 묶여 있는 세 개의 약자로 구성되어야 합니다.
 
