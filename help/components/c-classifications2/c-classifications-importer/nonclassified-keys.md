@@ -8,7 +8,7 @@ title: 분류되지 않는 키
 topic: 관리 도구
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,4 +40,4 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
    이 설명서에 나온 예를 따르려면 [!UICONTROL 모바일 캠페인 이름]이라고 하는 열에 "비모바일 캠페인"을 입력할 수 있습니다.
 
    이렇게 입력하면 *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
-1. [데이터를](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) 다시 시스템으로 가져옵니다.
+1. [데이터를](/help/components/c-classifications2/c-classifications-importer/import-file.md) 다시 시스템으로 가져옵니다.
