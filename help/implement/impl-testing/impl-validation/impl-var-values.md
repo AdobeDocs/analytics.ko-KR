@@ -8,7 +8,7 @@ title: 변수와 값
 topic: 개발자 및 구현
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,4 +50,4 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 > [!NOTE] 여러 개의 페이지 레코드를 보고서 내에서 결합할 수 없습니다.
 
-링크가 [!UICONTROL 사용자 지정 링크] 보고서로 보고되는지 확인하십시오. [!UICONTROL tl] 함수에 올바른 매개 변수를 전달했는지 확인하십시오. [!UICONTROL 사용자 지정 링크]에 대한 자세한 내용은 [링크 추적](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
+링크가 [!UICONTROL 사용자 지정 링크] 보고서로 보고되는지 확인하십시오. [!UICONTROL tl] 함수에 올바른 매개 변수를 전달했는지 확인하십시오. [!UICONTROL 사용자 지정 링크]에 대한 자세한 내용은 [링크 추적](/help/implement/js-implementation/function-tl.md).
