@@ -7,7 +7,7 @@ title: 세그먼트 공유
 topic: 세그먼트
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 세그먼트를 언제 전체 회사와 공유하는 것이 좋고, 언제 사용자 그룹이나 개인과 공유해야 좋을까요? 다음은 따라야 할 몇 가지 모범 사례입니다.
 
-* 관리자는 해당 세그먼트가 전체 회사에 유용하고 모든 사람이 편리하게 사용할 수 있는 경우 **[!UICONTROL 모든 사람]과 공유합니다.** In this case, you should also consider making it an [approved](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* 관리자는 해당 세그먼트가 전체 회사에 유용하고 모든 사람이 편리하게 사용할 수 있는 경우 **[!UICONTROL 모든 사람]과 공유합니다.** In this case, you should also consider making it an [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segment.
 
 * 관리자는 세그먼트가 팀에게 유용한 비즈니스 가치를 제공하는 경우 특정 **[!UICONTROL 그룹]과 세그먼트를 공유할 수 있습니다.** 이 유형의 세그먼트는 공식적으로 승인하지 마십시오.
 * 관리자 또는 개인 사용자는 다른 사용자와 세그먼트를 공유하여 세그먼트를 수정하고 유효성을 검증합니다. 유용하지 않다고 확인되면 삭제할 수 있습니다. 이 유형의 세그먼트는 공식적으로 승인하지 마십시오.
