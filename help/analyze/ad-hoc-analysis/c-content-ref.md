@@ -7,7 +7,7 @@ title: 세그먼트 작성
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 �
 
 애드혹 분석 기능을 포함하는 통합 세그멘테이션 환경에서 세그먼트를 작성하고 관리하는 방법에 대한 정보 및 지침은 [통합 세그멘테이션](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) 설명서를 참조하십시오.
 
-* [새로운 기능](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [새로운 기능](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [세그먼트 정의 변경](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [기존 세그먼트에 발생한 결과](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [기존 세그먼트 폴더에 발생한 결과](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [히트 컨테이너란? 페이지 보기 컨테이너와 다른 점](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [세그먼트를 사용하고 만들고 관리하는 데 필요한 권한](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [...가 있는 중복 세그먼트로 어떻게 해야 합니까?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [권장되는 세그먼트 정리 방법](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [이 세그먼트를 삭제할 수 없는 이유](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [기존 세그먼트에 발생하는 결과에 대한 자세한 내용](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [기존 세그먼트에 발생한 결과](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [기존 세그먼트 폴더에 발생한 결과](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [히트 컨테이너란? 페이지 보기 컨테이너와 다른 점](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [세그먼트를 사용하고 만들고 관리하는 데 필요한 권한](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [...가 있는 중복 세그먼트로 어떻게 해야 합니까?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [권장되는 세그먼트 정리 방법](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [이 세그먼트를 삭제할 수 없는 이유](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [기존 세그먼트에 발생하는 결과에 대한 자세한 내용](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## 기능 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">유료 검색을 통한 방문 수 </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">방문자 ID를 갖는 방문 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>이러한 세그먼트는 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다.</a> </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 세그먼트는 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다.</a> </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud(Suite) 세그먼트: 
@@ -130,7 +130,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">이전 방문 횟수가 5회 이상인 방문* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Facebook에서 찾아온 방문* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> 이러한 세그먼트 대부분(별표*가 표시된 세그먼트 제외)은 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. </a> 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다. </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
+   <td colname="col2"> <p> 이러한 세그먼트 대부분(별표*가 표시된 세그먼트 제외)은 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. </a> 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다. </p> <p>이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">관리 세그먼트 <p>("전역" 세그먼트라고도 함) </p> </td> 
