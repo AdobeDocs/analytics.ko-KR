@@ -5,7 +5,7 @@ seo-title: 템플릿
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 프로젝트를 다음 위치에서 만들지 여부를 선택할 수 있습니다.
 
-* 빈 프로젝트(기본값). 자세한 내용은 [분석 작업 공간 프로젝트 만들기](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2).
+* 빈 프로젝트(기본값). 자세한 내용은 [분석 작업 공간 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * 표준 템플릿. 이러한 템플릿은 Adobe가 만들어 특별 배송합니다.
 * 사용자 지정 템플릿. [템플릿으로 저장] 권한이 부여된 경우 관리 권한이 있는 사용자나 관리자가 아닌 사용자가 이 템플릿을 생성할 수 있습니다. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [사용자 지정 템플릿 만들기](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [표준 템플릿](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [사용자 지정 템플릿 만들기](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [표준 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## 사용자 지정 템플릿 만들기 {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## 사용자 지정 템플릿 만들기 {#create-custom-template}
 
 관리자 권한이 있는 사용자는 자신이 만드는 프로젝트를 사용자 지정 템플릿으로 만들 수 있습니다. 방법은 다음과 같습니다.
 
