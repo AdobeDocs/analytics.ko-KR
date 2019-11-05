@@ -5,7 +5,7 @@ seo-title: 제한 사항 및 사양
 title: 제한 사항 및 사양
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
    **다음은 시각화가 어떻게 손상되는지에 대한 예입니다.**
 
    1. Report Builder에서 페이지 차원과 페이지 보기 횟수 지표를 사용하여 요청이 하나인 통합 문서를 만듭니다.
-   1. Power BI에 게시하도록 [이 요청을 예약](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)합니다.
+   1. Power BI에 게시하도록 [이 요청을 예약](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)합니다.
    1. Power BI에서, 페이지 및 페이지 보기 횟수에 대한 시각화를 생성합니다.
    1. 이제 요청에서 페이지 보기 횟수를 제거하여 통합 문서를 편집합니다.
    1. 업데이트된 통합 문서의 일정을 편집하고 요청을 Power BI에 다시 게시합니다.
@@ -43,7 +43,7 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
    **다음은 시각화가 어떻게 손상되지 않는지에 대한 예입니다.**
 
    1. Report Builder에서 페이지 차원과 페이지 보기 횟수 지표를 사용하여 요청이 하나인 통합 문서를 만듭니다.
-   1. Power BI에 게시하도록 [이 요청을 예약](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)합니다.
+   1. Power BI에 게시하도록 [이 요청을 예약](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)합니다.
    1. Power BI에서, 페이지 및 페이지 보기 횟수에 대한 시각화를 생성합니다.
    1. 이제 페이지 및 페이지 보기 횟수를 유지하면서도 방문 지표를 추가하여 Report Builder에서 통합 문서를 편집합니다.
    1. 업데이트된 통합 문서의 일정을 편집하고 요청을 Power BI에 다시 게시합니다.
