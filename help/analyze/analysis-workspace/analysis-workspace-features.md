@@ -6,7 +6,7 @@ title: Analysis Workspace 개요
 topic: Reports and Analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -23,7 +23,9 @@ Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 �
 
 전체 Youtube 재생 목록은 [여기](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)에서 사용할 수 있습니다.
 
-> [!NOTE] 기능에 [대한 업데이트는 분석 작업](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) 공간의 새로운 기능을 참조하십시오.
+>[!NOTE]
+>
+>See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -35,7 +37,7 @@ Analysis Workspace에서는 다음과 같은 작업을 자유롭고 유연하게
 
 ![](assets/fa_project_new.png)
 
-자세한 내용은 [Analysis Workspace 프로젝트 만들기](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)를 참조하십시오.
+자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)를 참조하십시오.
 
 ## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
 
@@ -47,11 +49,11 @@ Analysis Workspace에서는 다음과 같은 작업을 자유롭고 유연하게
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information.
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. "패널 링크 가져오기" 및 "시각화 링크 가져오기"라는 새로운 마우스 오른쪽 단추 클릭 옵션이 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
+In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. "패널 링크 가져오기" 및 "시각화 링크 가져오기"라는 새로운 마우스 오른쪽 단추 클릭 옵션이 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
 
 1. 텍스트 시각화를 프로젝트 내의 맥락이 필요한 시각화 또는 테이블 옆으로 드래그합니다.
 1. 예를 들어 목차로 텍스트 상자를 채운 다음 패널이나 시각화에 연결할 항목(예: 성공 지표)을 강조 표시합니다.
@@ -75,7 +77,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
-개별 셀을 선택하고 시각화 표현들의 변화를 다이내믹하게 볼 수 있습니다. 선택한 셀로 시각화를 [동기화하고 잠그십시오.](../../analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C)
+개별 셀을 선택하고 시각화 표현들의 변화를 다이내믹하게 볼 수 있습니다. 선택한 셀로 시각화를 [동기화하고 잠그십시오.](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C)
 
 ![](assets/visualize-selected-cells.png)
 
@@ -85,7 +87,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099).
+See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
@@ -103,7 +105,7 @@ See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync
 
 ![단계 결과](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
+See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
 ## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
 
@@ -117,7 +119,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-자세한 내용은 [세그먼트](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+자세한 내용은 [세그먼트](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -140,7 +142,7 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 | 공유 | 세그먼트에만 적용됩니다. |
 | 삭제 | 세그먼트에만 적용됩니다. |
 
-자세한 [내용은](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) 시각화를 참조하십시오.
+자세한 [내용은](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 시각화를 참조하십시오.
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -163,7 +165,7 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 * 날짜 범위 사전 설정 정렬(사용자 지정 날짜 범위를 포함하지 않습니다.)
 * 열을 Ctrl(또는 Command) + 클릭 + 드래그하면 열이 복사되며, 복사본을 드래그하면 테이블에서 새 위치로 붙여넣기가 됩니다.
 
-See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for more information.
+See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
 
 **선택 및 작업**
 
