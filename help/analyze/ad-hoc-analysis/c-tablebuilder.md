@@ -5,7 +5,7 @@ seo-title: 테이블 빌더
 title: 테이블 빌더
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 항목 편집</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>수치 항목 목록을 선택하여 분류에 대한 고정된 목록을 만듭니다. 이 목록에 항목을 추가하면 저장된 보고서에서 지속적으로 유지되고 저장 또는 예약된 보고서를 열 때 축소되지 않습니다. </p> <p>자세한 내용은 <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> 테이블 데이터 분류</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>수치 항목 목록을 선택하여 분류에 대한 고정된 목록을 만듭니다. 이 목록에 항목을 추가하면 저장된 보고서에서 지속적으로 유지되고 저장 또는 예약된 보고서를 열 때 축소되지 않습니다. </p> <p>자세한 내용은 <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > 테이블 데이터 분류</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 열</span> </td> 
