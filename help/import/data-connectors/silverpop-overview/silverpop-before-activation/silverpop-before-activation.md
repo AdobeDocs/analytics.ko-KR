@@ -5,7 +5,7 @@ seo-title: 이 통합을 활성화하기 전에
 title: 이 통합을 활성화하기 전에
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 Adobe Analytics와 관련된 이 데이터 커넥터 통합에 대한 다음 정보를 검토하십시오.
 
 * **** 보고서 세트별:이 통합은 보고서 세트별로 다릅니다. 통합을 활성화하기 전에 원하는 보고서 세트를 선택했는지 확인합니다.
-* **** 사용 가능하고 구성된 Analytics 변수:이 통합에는 5개의 사용자 지정 이벤트와 2개의 사용자 지정 eVar, 선택적으로 3개의 추가 이벤트와 3개의 추가 eVar가 필요합니다. 분석 [통합 변수를 참조하십시오](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2).
+* **** 사용 가능하고 구성된 Analytics 변수:이 통합에는 5개의 사용자 지정 이벤트와 2개의 사용자 지정 eVar, 선택적으로 3개의 추가 이벤트와 3개의 추가 eVar가 필요합니다. 분석 [통합 변수를 참조하십시오](/help/import/data-connectors/silverpop-overview/silverpop-variables.md).
 
 * **** 공인 담당자:Adobe, Inc.와의 서비스 계약 또는 Adobe의 신뢰할 수 있는 파트너 중 하나와의 서비스 계약에 따라 이 통합을 활성화하면 귀사에서 비용을 발생시킬 수 있습니다. 이 통합을 활성화함으로써 귀하는 회사의 공인 대리인임을 명시합니다.따라서 귀사는 상기에 명시된 서비스 계약에 명시된 요금을 지불해야 합니다.
 * **** 데이터 웨어하우스™:이 통합을 사용하려면 리마케팅 세그먼트를 생성하기 위해 데이터 웨어하우스를 활성화해야 합니다. 데이터 웨어하우스를 활성화하지 않은 경우 Adobe에 자세한 내용을 문의하십시오.
