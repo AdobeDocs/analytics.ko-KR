@@ -7,7 +7,7 @@ title: 단일 페이지 방문
 topic: 보고서
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,8 +24,8 @@ Ad Hoc Analysis의 단일 페이지 방문 지표와는 다릅니다. 단일 페
 
 * 단일 페이지 방문은 단일 이미지 요청이 아닌 하나의 고유 값이 포함된 방문으로 간주됩니다.
 
-   * In the context of a [페이지 보고서](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5) 컨텍스트에서는 방문 내에서 하나의 고유 페이지만 실행할 수 있습니다.
-   *  [사이트 섹션 보고서](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD) 컨텍스트에서는 방문 내에서 하나의 고유 사이트 섹션만 실행됩니다.
+   * In the context of a [페이지 보고서](/help/components/c-variables/dimensionslist/reports-pages.md) 컨텍스트에서는 방문 내에서 하나의 고유 페이지만 실행할 수 있습니다.
+   *  [사이트 섹션 보고서](/help/components/c-variables/dimensionslist/reports-site-sections.md) 컨텍스트에서는 방문 내에서 하나의 고유 사이트 섹션만 실행됩니다.
    * 한편 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md) 컨텍스트에서는 단일 고유 값이 실행된 경우만 이 보고서에 방문이 표시됩니다.
 
 * 보고서의 컨텍스트에서 변수에 단일 고유 값이 포함되어 있으면 단일 페이지 방문이 여러 이미지 요청으로 구성될 수 있습니다. 두 번째 고유 값을 채우면 방문은 더 이상 단일 페이지 방문으로 간주되지 않습니다.
