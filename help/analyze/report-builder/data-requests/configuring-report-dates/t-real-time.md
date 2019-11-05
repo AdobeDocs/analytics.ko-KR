@@ -7,7 +7,7 @@ title: 실시간 요청 구성
 topic: Report Builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    ![단계 결과](assets/real_time_select_date.png)
 
    실시간 보고는 지난 20시간 동안에만 사용할 수 있습니다. 세부기간의 경우 1분에서 30분까지 선택하는 옵션이 있습니다.
-1. [ **[!UICONTROL 다음]** ]을 클릭하고 요청 [레이아웃](../../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB)구성을 계속합니다.
+1. [ **[!UICONTROL 다음]** ]을 클릭하고 요청 [레이아웃](/help/analyze/report-builder/layout/layout.md)구성을 계속합니다.
