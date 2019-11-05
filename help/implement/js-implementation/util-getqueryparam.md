@@ -9,7 +9,7 @@ title: Util.getQueryParam
 topic: 개발자 및 구현
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 페이지의 쿼리 문자열에서 중요한 데이터(캠페인 추적 코드, 내부 검색 키워드 등)를 사용할 수 있기 때문에 getQueryParam은 Analytics 변수에서 데이터를 캡처하는 데 유용합니다.
 
-이 유틸리티는 [getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) 플러그인을 대체합니다.
+이 유틸리티는 [getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md) 플러그인을 대체합니다.
 
 **구문:**
 
