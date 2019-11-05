@@ -5,7 +5,7 @@ seo-title: 지표
 title: 지표
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -70,7 +70,7 @@ t_add_metrics_dsc.xml
 
    보고서에 지표를 반복적으로 추가해야 하는 필요성을 줄이고자 하는 경우 [!UICONTROL 설정]에서 미리 기본 지표를 지정할 수도 있습니다.
 
-   자세한 내용은 [등급 탭 - 정의](../../analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   자세한 내용은 [등급 탭 - 정의](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## 계산된 지표 빌더{#concept_F8E213CE786A43FB93847C5BA883A29C}에서 계산된 지표를 작성합니다.
 
