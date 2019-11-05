@@ -1,13 +1,13 @@
 ---
 description: 'null'
-keywords: 데이터 피드; 작업; FAQ
+keywords: 데이터 피드;작업;faq
 seo-description: 'null'
 seo-title: 작업 FAQ
 solution: Analytics
 title: 작업 FAQ
-uuid: 6 DA 2 C 3 A 0-79 F 9-4 D 0 A -9828-A 8 BE 42 CE 2 F 3 C
+uuid: 6da2c3a0-79f9-4d0a-9828-a8be42ce2f3c
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -20,5 +20,5 @@ source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
 
 * 보고서 세트 지연(갑작스러운 트래픽 급증)
 * 업스트림 처리
-* 피크 및 피크 시간
+* 피크 및 비피크 시간
 * 인터넷 연결 속도
