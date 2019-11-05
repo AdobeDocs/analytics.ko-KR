@@ -7,7 +7,7 @@ title: 다음 페이지 흐름
 topic: 보고서
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> 방문자가 선택한 페이지 뒤에 본 인기 있는 페이지를 두 수준까지 보려면 <span class="uicontrol">그래픽</span>을 클릭합니다. 방문자가 사이트를 나가는 시점도 강조해서 보여줍니다. </p> <p><b>표</b>를 클릭하면 <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> 다음 페이지 보고서</a>. 여기서는 각 <i>다음 페이지</i>로 이동하여 다음 페이지를 두 페이지 흐름으로 볼 수 있습니다. </p> <p>Reports &amp; Analytics에서는 경로 보기를 사용합니다. </p> </td> 
+   <td colname="col2"> <p> 방문자가 선택한 페이지 뒤에 본 인기 있는 페이지를 두 수준까지 보려면 <span class="uicontrol">그래픽</span>을 클릭합니다. 방문자가 사이트를 나가는 시점도 강조해서 보여줍니다. </p> <p><b>표</b>를 클릭하면 <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > 다음 페이지 보고서</a>. 여기서는 각 <i>다음 페이지</i>로 이동하여 다음 페이지를 두 페이지 흐름으로 볼 수 있습니다. </p> <p>Reports &amp; Analytics에서는 경로 보기를 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
