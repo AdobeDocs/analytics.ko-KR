@@ -8,7 +8,7 @@ title: 비용 및 예산
 topic: Reports and Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 채널에 비용 및 예산 금액을 할당하는 방법을 알아봅니다.
 
-## 비용 및 예산 {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-채널에 비용 및 예산 금액을 할당하는 방법을 알아봅니다.
-
 비용은 채널에서 지출한 것을 나타냅니다. 예산은 지출 가능한 금액을 나타냅니다.
 
 ROI를 확인하는 유용한 방법은 매출에서 비용을 뺀 값을 보여주는 계산된 지표 또는 새 유도당 비용 분류와 함께 총 비용을 보여주는 계산된 지표를 만드는 것입니다. 예를 들어 새 유도를 보여주는 [!UICONTROL 첫 번째 접촉 채널] 보고서를 실행한 다음 계산된 지표를 만들어 새 유도당 비용을 보여주는 첫 번째 접촉 비용 지표를 추가할 수 있습니다.
 
-자세한 내용은 [마케팅 채널 보고서를 사용한 계산된 지표](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+자세한 내용은 [마케팅 채널 보고서를 사용한 계산된 지표](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 채널에만 비용과 예산을 할당할 수 있습니다. 모든 비용은 보고 시 적용되는 시간대를 기준으로 합니다. 비용이 채널과 직접적인 연관이 있는 경우, 채널 내 캠페인들 간에 비용이 분류되는 방법을 보여주는 할당 지표가 선택됩니다.
 
 비용과 예산 항목을 추가한 후 테이블 데이터를 CSV 파일로 내보낼 수 있습니다. 또한 CSV 파일을 마케팅 채널 비용 페이지로 가져올 수 있습니다.
 
-## 비용 및 예산 항목 추가 {#task_9238A033994440748960DE21593E6388}
+## 비용 및 예산 항목 추가 {#add-cost-and-budget}
 
 마케팅 채널에 비용과 예산 항목을 추가합니다.
 
@@ -45,11 +41,9 @@ ROI를 확인하는 유용한 방법은 매출에서 비용을 뺀 값을 보여
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 마케팅 채널 비용 및 예산에 대한 필드 정의.
-
-
 
 | 필드 | 정의 |
 |--- |--- |
