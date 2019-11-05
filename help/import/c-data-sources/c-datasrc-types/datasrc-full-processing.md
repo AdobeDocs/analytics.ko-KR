@@ -8,7 +8,7 @@ title: 전체 처리
 topic: 개발자 및 구현
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 전체 처리 데이터 소셜 데이터는 지정된 시간에 Adobe 서버에서 수신한 것처럼 처리됩니다(각 히트에서 타임스탬프 수신).
 
-* [방문자 프로필](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
-* [항목 참조](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
+* [방문자 프로필](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
+* [항목 참조](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## 방문자 프로필 {#section_6065627D0C144506965F562C80AE67F8}
 
@@ -67,7 +67,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
+   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -170,7 +170,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다.  </p> <p>전체 목록은 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html" format="https" scope="external">멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다.  </p> <p>전체 목록은 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
