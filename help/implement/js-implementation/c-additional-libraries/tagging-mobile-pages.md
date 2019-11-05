@@ -8,7 +8,7 @@ title: 모바일 프로토콜에 대한 페이지 태깅
 topic: 개발자 및 구현
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -52,4 +52,4 @@ Adobe 서버가 브라우저로 하여금 추적 비콘을 캐시하지 않도�
 
 * `/5.5/`는 항상 WBMP 이미지를 반환합니다.
 
-[모바일 프로토콜을 사용한 방문자 식별](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49)을 참조하십시오.
+[모바일 프로토콜을 사용한 방문자 식별](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md)을 참조하십시오.
