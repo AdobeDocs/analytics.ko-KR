@@ -1,24 +1,24 @@
 ---
-description: Analytics를 배포할 때 링크 추적을 위한 다이내믹 태그 관리 필드 설명입니다.
-keywords: 다이내믹 태그 관리;링크 추적;클릭맵 활성화;다운로드 링크 추적;다운로드 확장 다운로드;아웃바운드 링크 추적;URL 매개 변수 유지
-seo-description: Analytics를 배포할 때 링크 추적을 위한 다이내믹 태그 관리 필드 설명입니다.
+description: Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드 설명입니다.
+keywords: Dynamic Tag Management;링크 추적;clickmap 활성화;다운로드 링크 추적;확장 다운로드;아웃바운드 링크 추적;url 매개 변수 유지
+seo-description: Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드 설명입니다.
 seo-title: 링크 추적
-solution: Experience Cloud,Analytics,다이내믹 태그 관리
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 링크 추적
-uuid: 982b744b-5696-4c31-b1d1-410486b0edd
+uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
 # 링크 추적
 
-Analytics를 배포할 때 링크 추적을 위한 다이내믹 태그 관리 필드 설명입니다.
+Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
+편집 도구]** &gt; **[!UICONTROL 링크 추적]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C"> 
  <thead> 
@@ -30,7 +30,7 @@ Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
  <tbody> 
   <tr> 
    <td colname="col1"> ClickMap 활성화 </td> 
-   <td colname="col2"> <p>방문자 클릭 맵 데이터를 모으는지 여부를 결정합니다. </p> <p>Analytics 사용자의 <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.trackInlineStats</a>. </p> </td> 
+   <td colname="col2"> <p>방문자 클릭 맵 데이터를 모으는지 여부를 결정합니다. </p> <p>Analytics 사용자의 <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  > s.trackInlineStats</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 다운로드 링크 추적 </td> 
@@ -44,8 +44,8 @@ Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
    <td colname="col1"> 아웃바운드 링크 추적 </td> 
    <td colname="col2"> <p>클릭한 링크가 종료 링크인지 여부를 결정합니다. </p> <p>See <a href="/help/implement/js-implementation/c-variables/configuration-variables.md">Configuration Variables</a>. </p> <p><b>단일 페이지 앱 고려 사항: </b>일부 SPA 웹 사이트의 코딩 방식 때문에 SPA 사이트의 페이지에 대한 내부 연결이 아웃바운드 링크로 보일 수 있습니다. </p> <p>다음 방법 중 하나를 사용해 SPA 사이트에서 유래한 아웃바운드 링크를 추적할 수 있습니다. </p> 
     <ul id="ul_A4179633ED0644C3BA5F548A58CA4EC9"> 
-     <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>SPA의 아웃바운드 링크를 추적하지 않으려면 <span class="wintitle">추적 안 함</span> 섹션에 항목을 삽입합니다. </p> <p>For example, <span class="filepath"> https://testsite.com/spa/#</span> </p> <p>이 호스트에 대한 모든 # 링크가 무시됩니다. 다른 호스트에 대한 모든 아웃바운드 링크는 추적됩니다(예: <span class="filepath"></span>https://www.google.com). </p> </li> 
-     <li id="li_37DD4D37887243FB928C9C04ACE9D39E"> <p>SPA에서 추적하려는 링크가 있으면 <span class="wintitle">항상 추적</span> 섹션을 사용합니다. </p> <p>예를 들어 <span class="filepath">spa/#/about</span> 페이지가 있으면 <span class="wintitle">항상 추적</span> 섹션에 "about"을 삽입할 수 있습니다. </p> <p>"about" 페이지는 유일하게 추적되는 아웃바운드 링크이며 페이지의 다른 모든 링크(예: <span class="filepath"></span>https://www.google.com)는 추적되지 않습니다. </p> </li> 
+     <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>SPA의 아웃바운드 링크를 추적하지 않으려면 <span class="wintitle">추적 안 함</span> 섹션에 항목을 삽입합니다. </p> <p>예: <span class="filepath">https://testsite.com/spa/#</span> </p> <p>이 호스트에 대한 모든 # 링크가 무시됩니다. 다른 호스트에 대한 모든 아웃바운드 링크는 추적됩니다(예: <span class="filepath"></span>https://www.google.com). </p> </li> 
+     <li id="li_37DD4D37887243FB928C9C04ACE9D39E"> <p>SPA에서 추적하려는 링크가 있으면 <span class="wintitle">항상 추적</span> 섹션을 사용합니다. </p> <p>예를 들어 <span class="filepath">spa/#/about</span> 페이지가 있으면 <span class="wintitle">항상 추적</span> 섹션에 "about"을 삽입할 수 있습니다. </p> <p>about 페이지는 유일하게 추적되는 아웃바운드 링크이며 페이지의 다른 모든 링크(예: <span class="filepath"></span>https://www.google.com)는 추적되지 않습니다. </p> </li> 
     </ul> <p>이 두 옵션은 상호 배타적인 성격으로 동시에 선택할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
