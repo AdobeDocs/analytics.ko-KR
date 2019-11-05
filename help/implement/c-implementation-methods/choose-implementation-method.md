@@ -8,7 +8,7 @@ title: 구현 방법 선택
 topic: 개발자 및 구현
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,11 +35,11 @@ For more information, see [Getting Started with Experience Platform Launch](http
 JavaScript를 잘 알고 있고 다음과 같은 기본 Analytics 용어를 이해하고 있으면 도움이 됩니다.
 
 * [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) 정의 및 작동 방식
-* [사용자 지정 이벤트](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)를 사용해야 하는 경우
+* [사용자 지정 이벤트](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)를 사용해야 하는 경우
 
 다이내믹 태그 관리에 액세스하고 실행하는 방법에 대한 자세한 내용은 다이내믹 태그 관리 제품 설명서의 [시작](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)을 참조하십시오.
 
-자세한 내용은 [Dynamic Tag Management를 사용하여 Analytics 구현](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)을 참조하십시오.
+자세한 내용은 [Dynamic Tag Management를 사용하여 Analytics 구현](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md)을 참조하십시오.
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -50,4 +50,4 @@ JavaScript를 구현하려면 다음이 필요합니다.
 * 강력한 JavaScript 기술
 * Analytics 개념과 용어에 대한 완전한 이해
 
-자세한 내용은  [JavaScript를 사용하여 Analytics 구현](../../implement/js-implementation/javascript-implementation-overview.md)을 참조하십시오.
+자세한 내용은 [JavaScript를 사용하여 Analytics 구현](/help/implement/js-implementation/javascript-implementation-overview.md)을 참조하십시오.
