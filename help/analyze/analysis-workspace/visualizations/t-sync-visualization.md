@@ -8,7 +8,7 @@ title: 데이터 소스 관리
 topic: Reports and Analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 데이터 소스를 관리하면 데이터 소스를 표시하거나 선택을 잠글 수 있습니다. 이러한 설정은 새 데이터가 유입될 때 시각화가 변경되는(또는 변경되지 않는) 방식을 결정합니다.
 
-1. [데이터 테이블 및](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 시각화를 [](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)사용하여 프로젝트를 만듭니다.
+1. [데이터 테이블 및](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 시각화를 [](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)사용하여 프로젝트를 만듭니다.
 1. 데이터 테이블에서 시각화와 연결할 셀(데이터 소스)을 선택합니다.
 1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 
