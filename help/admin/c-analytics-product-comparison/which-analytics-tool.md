@@ -5,7 +5,7 @@ seo-title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * 프로젝트 작업의 탭 구성이 필요한 경우에서 보냅니다.
 * 사이트 분석 보고서를 사용해야 하는 경우(3D 경로 지정 보고서).
 
-**[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)**&#x200B;는 다음 경우에 사용합니다.
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**&#x200B;는 다음 경우에 사용합니다.
 
 * 가장 유연한 Analytics 도구 옵션(방문자 수준, 히트 수준 분석까지).
 * CRM에서 POS 웹에 이르는 온라인 및 오프라인 상호 작용의 다중 채널 데이터 세트 생성.
