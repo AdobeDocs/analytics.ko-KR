@@ -1,19 +1,43 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 방문당 체류 시간
 solution: Analytics
 title: 방문당 체류 시간
 topic: 보고서
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
 
 ---
 
 
 # 방문당 체류 시간
 
->[!NOTE]
->
->See [Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md) for calculation examples.
+Adobe Analytics는 Analytics 보고서에서 보낸 시간을 확인하는 여러 가지 방법을 제공합니다. 대부분의 경우 체류 시간은 다음 단계를 사용하여 계산됩니다.
+
+1. 주어진 방문에 대해 첫 번째 히트의 타임스탬프를 봅니다.
+2. 이 히트를 방문의 마지막 히트의 타임스탬프와 비교합니다.
+3. 이 두 히트 사이에 경과된 시간은 해당 방문에 소요된 시간을 결정합니다.
+
+체류 시간 차원 데이터를 볼 때는 다음 사항에 유의하십시오.
+
+* 체류 시간 데이터를 계산할 때 페이지 보기 횟수와 링크 추적 히트 유형은 모두 고려됩니다.
+* 경과 시간을 측정할 후속 이미지 요청이 없기 때문에 체류 시간은 방문의 마지막 히트 동안 측정되지 않습니다.
+* 방문은 단일 히트로 구성되므로 바운스는 체류 시간을 측정할 수 없습니다.
+
+방문당 체류 시간은 방문의 총 경과 시간을 측정합니다. 개별 차원은 **세분화된** 차원과 **버킷**&#x200B;간에 존재합니다.
+
+* **** 세부기간:각 차원 값은 방문을 구성하는 다른 시간(초)입니다.
+* **** Bucketed:각 차원 값은 미리 정의된 버킷입니다.
+   * 1분 미만
+   * 1-5분
+   * 5-10분
+   * 30-60분
+   * 1-2시간
+   * 2-5시간
+   * 5-10시간
+   * 10-15시간
+   * 15시간 이상
+
+> [!NOTE] 방문 [수는](../c-metrics/metrics-visit.md) 일반적으로 활동 12시간 후에 종료됩니다. 하지만 타임스탬프가 지정된 히트 또는 데이터 소스를 사용하는 경우 방문 횟수가 12시간을 초과할 수 있습니다.
+
+이 차원은 방문 기반입니다. 이 차원을 [히트 기반 차원인 페이지에서](reports-time-spent-on-page.md)보낸 시간과 비교합니다.
