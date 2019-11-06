@@ -7,68 +7,48 @@ solution: Analytics
 title: 작업 문제 해결
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
 
 ---
 
 
 # 작업 문제 해결
 
+FTP 사이트에 데이터 피드를 표시하는 데 문제가 있는 경우 이 페이지를 사용하여 이유를 파악하십시오.
+
+## 오류 코드
+
 오류가 발생하면 [작업 상태] 열에 오류가 보고됩니다.
 
-오류와 가능한 원인은 아래 나열되어 있습니다.
+### FTP chdir 오류
 
-<table id="table_BE2921B8E7C94B0EB88774321B8692F0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 오류 </th> 
-   <th colname="col2" class="entry"> 가능한 원인 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> FTP Chdir 오류 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_79AB3EA974CC46A0A645A439BC612D88"> 
-      <li id="li_4A6A5922275946908E06499E8EAAF18B"> 네트워크 또는 대상 서버 실패 </li> 
-      <li id="li_33393FF286624A63B12991DCE079841D">읽기/쓰기 권한 문제 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 연결 오류 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_5F926078850D4495B83BC938395CAC6B"> 
-      <li id="li_A72A357F6289438EA1A091AC4FD3A3D0"> 인증 문제 </li> 
-      <li id="li_48532C78285E4DB6A47B1435A5FA549B"> 네트워크 또는 대상 서버 실패 </li> 
-      <li id="li_11DF6FA218CA48539C4561695234CA4D"> 읽기/쓰기 권한 문제 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 오류 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_020BA1DC81F645FFABCAD07E51351D1E"> 
-      <li id="li_8566EECEFD344BFDB638259474A8E8EA"> 디스크가 가득 찼거나 디스크 할당량이 초과됨 </li> 
-      <li id="li_15CD50ED54F846F79BFDF25359864C59"> 네트워크 또는 대상 서버 실패 </li> 
-      <li id="li_741A3315C0B940D3A9874F15C78B4F28"> 읽기/쓰기 권한 문제 </li> 
-      <li id="li_49F707F7F65A443F8AC6E058E3D89B96"> 인증 문제 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 로그인 오류 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_F7F128ADF1FD4E9D8B79424A6432378E"> 
-      <li id="li_68C377CAD50346B1B9937B77E7EB2AAD"> 인증 문제 </li> 
-      <li id="li_7EA91C90FFC0493EA156292620EF1589"> 네트워크 또는 대상 서버 실패 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 넣기 오류 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_760DA2CBD46B4C348BE3B7B43E803FD9"> 
-      <li id="li_6578482722E14E998515B4B3EA370C44"> 디스크가 가득 찼거나 디스크 할당량이 초과됨 </li> 
-      <li id="li_342240DDD9D3423198C23123473D539C"> 네트워크 또는 대상 서버 실패 </li> 
-      <li id="li_44CEFE1D92A74842A6321C416637421F"> 읽기/쓰기 권한 문제 </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+피드가 지정된 폴더를 탐색하거나 쓸 수 없습니다. 대상 폴더가 FTP 사이트에 있고 제공된 자격 증명에 해당 폴더에 대한 올바른 읽기/쓰기 권한이 있는지 확인합니다.
+
+### FTP 연결 오류
+
+피드를 FTP 대상에 연결할 수 없습니다. FTP 대상이 올바르고 유효한지 확인합니다.
+
+### FTP 오류
+
+피드가 FTP 사이트에 파일을 작성할 수 없는 일반 오류입니다. 이 오류는 FTP 서버의 디스크가 꽉 찼거나 할당량을 초과했을 수 있습니다. 네트워크 또는 대상 서버 오류에서 발생할 수도 있습니다.
+
+### FTP 로그인 오류
+
+제공된 자격 증명을 사용하여 피드에 로그인할 수 없습니다. FTP 사용자 이름과 암호가 올바른지 확인하십시오.
+
+### FTP 넣기 오류
+
+피드가 FTP 사이트에 파일을 쓸 수 없습니다. FTP 로그인에 FTP 사이트에서 데이터를 읽고 쓸 수 있는 권한이 있는지 확인합니다. 이 오류는 FTP 서버의 전체 디스크 또는 초과 디스크 할당에서 발생할 수도 있습니다.
+
+## 문제 해결 절차
+
+FTP 사이트에 로그인하고 파일을 업로드합니다. 대부분의 경우 이러한 단계를 사용하여 실패 지점을 확인할 수 있습니다.
+
+1. 파일 탐색기(Windows) 또는 Finder(Mac)를 사용하여 FTP 사이트에 로그인합니다. FTP 프로토콜(`ftp://`)을 사용해야 합니다. FTP 사이트에 도달할 수 없는 경우 FTP 사이트 소유자와 함께 올바른 대상을 결정할 수 있습니다.
+
+   ![파일 탐색기](assets/file_explorer.png)
+
+2. 사용자 이름과 암호를 묻는 팝업이 나타납니다. 인증 자격 증명을 입력합니다. 자격 증명이 수락되면 창에 FTP 사이트의 현재 컨텐츠가 표시됩니다. 자격 증명이 수락되지 않으면 FTP 소유자와 작업하여 사용자 이름과 암호가 올바른지 확인할 수 있습니다.
+3. 파일을 인증된 창으로 드래그하여 FTP 사이트에 업로드합니다. 모든 이미지 또는 텍스트 문서는 충분합니다. 파일을 FTP 사이트에 배치하려고 시도하는 동안 오류가 발생하는 경우 FTP 소유자와 함께 디스크 공간이 충분하고 사용자 이름에 FTP 사이트에 대한 쓰기 권한이 있는지 확인합니다.
+4. 파일이 FTP 사이트에 있는지 확인했으면 이전 단계에서 업로드한 파일을 삭제할 수 있습니다.
+5. 위의 모든 단계가 작동하지만 FTP 오류가 발생하는 경우 고객 지원 담당자에게 고객 지원 담당자에게 문의하십시오.
