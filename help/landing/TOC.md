@@ -4,7 +4,7 @@ audience: 모두
 user-guide-title: Analytics 설명서
 user-guide-url: /content/help/ko-KR/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: 611f8998e4030d089c86d124452096c5eb8655c1
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -20,7 +20,11 @@ source-git-commit: 611f8998e4030d089c86d124452096c5eb8655c1
 * [구현 안내서](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
 * [가져오기 안내서](https://docs.adobe.com/content/help/en/analytics/import/home.html)
 * [통합 안내서](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [미디어 분석 가이드](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [데이터 워크벤치 안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+
 * [설명서 업데이트](doc-updates.md)
+* [릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
 
 
 <!--
