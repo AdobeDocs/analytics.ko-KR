@@ -4,7 +4,7 @@ seo-title: Adobe Analytics 기술 설명서 및 자조 사용 안내서의 전�
 description: Analytics 사용 안내서 및 리소스
 seo-description: Adobe Analytics 기술 문서, 릴리스 노트 및 자조 사용 안내서의 전체 목록입니다.
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 [![미디어 분석](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)미디어[분석 가이드](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - 오디오 또는 비디오 소스에 대한 분석 구현 Media SDK 및 Media Collection API를 포함합니다.
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)Data[Workbench 안내서](https://marketing.adobe.com/resources/help/en_US/insight/) - 데이터 워크벤치 클라이언트, 설치, 데이터 세트 구성 등
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)Data[Workbench 안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - 데이터 워크벤치 클라이언트, 설치, 데이터 세트 구성 등
 
 [![TechNote](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics TechNote](/help/technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
@@ -47,7 +47,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
+* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 * [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
