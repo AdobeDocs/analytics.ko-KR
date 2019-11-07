@@ -1,11 +1,9 @@
 ---
 description: '제출하는 ID가 Analytics에서 데이터 주체와 연결할 수 있는 모든 히트 데이터를 항상 포함하는 것은 아닙니다. Analytics에서는 연결된 데이터를 데이터 개인 정보 보호 요청에 포함하도록 확장된 ID 세트를 만들 수 있습니다. 제출한 각 데이터 개인 정보 보호 요청에 대해 선택적 매개 변수와 함께 이 옵션을 요청하여 JSON 요청에 추가할 수 있습니다. '
-seo-description: '제출하는 ID가 Analytics에서 데이터 주체와 연결할 수 있는 모든 히트 데이터를 항상 포함하는 것은 아닙니다. Analytics에서는 연결된 데이터를 데이터 개인 정보 보호 요청에 포함하도록 확장된 ID 세트를 만들 수 있습니다. 제출한 각 데이터 개인 정보 보호 요청에 대해 선택적 매개 변수와 함께 이 옵션을 요청하여 JSON 요청에 추가할 수 있습니다. '
-seo-title: ID 확장
 title: ID 확장
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 "expandIds": true
 ```
 
-요청에 이 옵션을 포함시키는 방법에 대한 예는 [샘플 JSON 요청](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)을 참조하십시오. 자세한 내용은 [데이터 개인 정보 보호 API 문서](https://www.adobe.io/apis/experienceplatform/gdpr.html)를 참조하십시오.
+요청에 이 옵션을 포함시키는 방법에 대한 예는 [샘플 JSON 요청](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)을 참조하십시오. For more details, refer to the [Privacy Service API documentation](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -58,7 +56,7 @@ Adobe는 ID 확장을 수행할 때 전체 데이터 스캔을 추가로 요구�
 
 기본값 외에 우선순위 필드는 "low" 값도 지원합니다. 데이터 주제 요청의 결과가 아닌 요청에 대해 이 값을 지정해야 하므로 30일 이내에 완료해야 할 법률상의 요구가 없습니다. Adobe에서는 데이터 주제가 요청을 시작했다는 것 외에 여러 이유로 데이터 개인 정보 보호 API의 사용을 막고 있습니다. 데이터 개인 정보 보호 API는 데이터 정리 또는 복구에 적합한 도구가 아니므로 의도하지 않은 결과가 발생합니다.
 
-[!NOTE][데이터 개인 정보 보호 API](https://www.adobe.io/apis/experienceplatform/gdpr.html)는 시간에 민감한 데이터 개인 정보 보호 요청을 이행하는 데 도움을 주기 위해 제공되었습니다. 이 API를 다른 용도로 사용하는 것은 Adobe에서 지원하지 않으며, Adobe가 다른 Adobe 고객을 위해 우선순위가 높은 사용자 주도 데이터 개인 정보 보호 요청을 시기적절하게 제공하는 기능에 영향을 줄 수 있습니다. 많은 방문자 그룹에 실수로 제출된 데이터 지우기와 같은 다른 용도로는 Privacy Service API를 사용하지 말아 주십시오.
+> [!NOTE][데이터 개인 정보 보호 API](https://www.adobe.io/apis/experienceplatform/gdpr.html)는 시간에 민감한 데이터 개인 정보 보호 요청을 이행하는 데 도움을 주기 위해 제공되었습니다. 이 API를 다른 용도로 사용하는 것은 Adobe에서 지원하지 않으며, Adobe가 다른 Adobe 고객을 위해 우선순위가 높은 사용자 주도 데이터 개인 정보 보호 요청을 시기적절하게 제공하는 기능에 영향을 줄 수 있습니다. 많은 방문자 그룹에 실수로 제출된 데이터 지우기와 같은 다른 용도로는 Privacy Service API를 사용하지 말아 주십시오.
 
 또한 데이터 개인 정보 보호 삭제 요청으로 인해 히트가 삭제(업데이트 또는 익명 처리)된 방문자의 상태 정보는 재설정된다는 사실을 알고 있어야 합니다. 따라서 다음번에 방문자가 사용자의 웹 사이트로 돌아가면 새 방문자로 간주됩니다. 방문 수, 레퍼러, 방문한 첫 번째 페이지 등의 정보와 마찬가지로 모든 eVar 속성이 다시 시작됩니다. 이 부작용은 데이터 필드를 지우려는 경우 바람직하지 않으며, Privacy Service API가 이 사용에 대해 부적절한 이유 중 하나를 강조 표시합니다.
 
