@@ -1,28 +1,28 @@
 ---
 description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 보고서로 표시됩니다.
 seo-description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 보고서로 표시됩니다.
-seo-title: 페이지 세부정보
+seo-title: '페이지 상세정보 '
 solution: Analytics
-title: 페이지 세부정보
+title: '페이지 상세정보 '
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 페이지 세부정보
+# 페이지 상세정보 
 
-페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 보고서로 표시됩니다.
+페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 모양으로 표시됩니다.
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## 페이지 보고서 {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 이 패널에는 방문한 웹 페이지와 관련된 트래픽 지표가 표시됩니다. Analytics 페이지 태그가 구현되지 않은 웹 페이지로 이동하는 경우, 패널이 표시되지 않습니다.
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## 페이지 흐름 보고서 {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 왼쪽에는 이전 페이지 및 레퍼러(외부)가 표시됩니다. 그렇지 않고 각 카테고리에 대해 상위 4개의 항목을 표시하도록 왼쪽을 확장할 수도 있습니다.
 
