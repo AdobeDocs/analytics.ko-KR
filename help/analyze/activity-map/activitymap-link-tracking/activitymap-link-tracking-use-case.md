@@ -6,7 +6,7 @@ solution: Analytics
 title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -51,11 +51,11 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 ## s_objectID를 사용하여 링크 ID 사용자 지정 {#section_01B0D463397B4837B2D46F087A6E5937}
 
-페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대해 자세히 알려면 [여기](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)를 클릭하십시오.
+페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대해 자세히 알려면 [여기](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/s_objectID.html)를 클릭하십시오.
 
 >[!IMPORTANT]
 >
->Activity Map에서 s_objectID를 사용할 때는 후행 세미콜론(;)이 필요합니다.
+>Activity Map에서 s_objectID를 사용할 때에는 끝에 세미콜론(;)이 있어야 합니다.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -90,7 +90,7 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 각 "buy" 링크에 자체 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면, "id" 매개 변수를 각 "Buy" 앵커 태그의 상위 항목 중 하나에 추가하십시오.
 
-> [!NOTE] 지역 식별자로서 "id" 매개 변수에 대한 제한도 없습니다. JavaScript 변수 "s.ActivityMap.regionIDAttribute"를 사용하여 고유한 식별자를 설정할 수도 있습니다.
+> [!NOTE] 영역 식별자로 "id" 매개 변수만 사용하도록 엄격히 제한되어 있지는 않습니다. JavaScript 변수 "s.ActivityMap.regionIDAttribute"를 사용하여 자체 식별자를 설정할 수도 있습니다.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -125,9 +125,9 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 >[!CAUTION]
 >
->수정된 코드가 제대로 작동하는지 확인하려면 반드시 테스트하십시오. Adobe는 수정된 코드가 어떻게 동작하는지에 대해 책임이 없습니다.
+>수정한 코드를 테스트하여 제대로 작동하는지 확인하십시오. Adobe는 수정된 코드가 어떻게 동작하는지에 대해 책임이 없습니다.
 
-다음은 AppMeasurement.js 파일에 포함(수정된 형식)할 수 있는*** 일반*** 링크/지역 함수의 두 가지 예입니다.
+다음은 AppMeasurement.js 파일에 포함(수정된 형식으로)할 수 있는 일반 링크/영역 함수에 대한 두 가지 예입니다.
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
