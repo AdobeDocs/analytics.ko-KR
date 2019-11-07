@@ -8,7 +8,7 @@ title: 마케팅 채널에서의 분류
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -40,6 +40,6 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
 <!--
-1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md) page, specify the classification type.
 -->
 1. **분류 아래에서[!UICONTROL 분류 추가]**&#x200B;를 클릭합니다(또는 기존 분류를 편집합니다).
