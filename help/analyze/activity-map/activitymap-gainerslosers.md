@@ -6,7 +6,7 @@ solution: Analytics
 title: 사용자 지정 가능 오버레이
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -30,7 +30,7 @@ Activity Map에서는 다음과 같이 세 가지 오버레이를 제공합니�
 
 오버레이를 마우스로 가리키면 해당하는 [세부 사항](/help/analyze/activity-map/activitymap-overlay-details.md)이 표시됩니다.
 
-## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## 그라데이션 오버레이(히트맵) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 그라데이션 오버레이 사용 시 색상 강도는 링크의 인기도를 기반으로 합니다. 이 강도는 상위 30개 등급이나 절대적인 지표 값 함수로 표준화되어 있습니다.
 
@@ -42,7 +42,7 @@ Activity Map에서는 다음과 같이 세 가지 오버레이를 제공합니�
 
 ![](assets/gradient.png)
 
-## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
+## 버블 오버레이 {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
 버블 오버레이는 오버레이 컨텐츠(지표, 백분율 또는 등급)를 작은 설명선 버블로 표시합니다.
 
@@ -50,13 +50,13 @@ Activity Map에서는 다음과 같이 세 가지 오버레이를 제공합니�
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] 하위 메뉴에 대한 버블 오버레이는 하위 메뉴를 표시할 때만 표시됩니다.
+> [!NOTE] 하위 메뉴에 대한 버블 오버레이는 하위 메뉴를 표시한 경우에만 표시됩니다.
 >
 >![](assets/bubbles_submenu.png)&gt;
 
-## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## 승자 및 패자 오버레이 {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL 승자 및 패자 오버레이는]** 라이브 모드에서만 사용할 수 있습니다. 이 오버레이는 현재 기간의 지표를 지난 기간의 지표와 비교하여 링크 활동의 실시간 변경 사항을 보고하며 트렌드를 실시간으로 보는 시각적으로 강렬한 방법을 제공합니다.
+**[!UICONTROL 승자 및 패자 오버레이]**&#x200B;는 라이브 모드에서만 사용할 수 있습니다. 이 오버레이는 현재 기간의 지표를 지난 기간의 지표와 비교하여 링크 활동의 실시간 변경 사항을 보고하며 트렌드를 실시간으로 보는 시각적으로 강렬한 방법을 제공합니다.
 
 이 실시간 오버레이는 이전 기간과 현재 기간 간의 지표 값 변화를 기반으로 클릭을 평가합니다.
 
