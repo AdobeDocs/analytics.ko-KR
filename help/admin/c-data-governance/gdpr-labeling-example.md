@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 레이블 지정 예
 title: 레이블 지정 예
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -58,39 +56,39 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 | AAID=77 expandIDs 값은<br>중요하지 않음 | AAID=77 expandIDs 값은<br>중요하지 않음 | AAID=77 expandIDs 값은<br>중요하지 않음 | AAID=77 expandIDs 값은<br>중요하지 않음 | AAID=77 expandIDs 값은<br>중요하지 않음 |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
+| Mary | 42 | A | 개인 정보 보호-7398 | 개인 정보 보호-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | Privacy-1866 | Privacy-8216 |
+| John | 42 | D | 개인 정보 보호-1866 | 개인 정보 보호-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] AAID = 77 및 DEL-DEVICE 레이블이 있는 행의 셀만 영향을 받습니다.
+> [!NOTE] AAID = 77 및 DEL-DEVICE 레이블이 있는 행의 셀만 영향을 받습니다.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
-| Privacy-0523 | 88 | Privacy-2178 | 개인 정보-1975 | Y |
-| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
+| 개인 정보 보호-0523 | 77 | 개인 정보 보호-1866 | 개인 정보 보호-3681 | X |
+| 개인 정보 보호-0523 | 88 | 개인 정보 보호-2178 | 개인 정보 보호-1975 | Y |
+| 개인 정보 보호-0523 | 99 | 개인 정보 보호-9045 | 개인 정보 보호-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] user=Mary 및 DEL-PERSON 레이블이 있는 행의 셀만 영향을 받습니다. 또한 A_ID가 포함된 변수는 prop 또는 eVar일 수 있으며 대체 값은 "개인 정보-"로 시작하는 문자열이고, 그 뒤에 GUID(무작위 숫자 값)가 와야 합니다.
+> [!NOTE] user=Mary 및 DEL-PERSON 레이블이 있는 행의 셀만 영향을 받습니다. 또한 연습에서 A_ID를 포함하는 변수는 prop 또는 eVar이고 해당 교체 값은 "개인 정보 보호-"로 시작하는 문자열이며, 그 뒤에는 숫자 값을 임의의 다른 숫자 값으로 대체하지 않고 임의의 숫자(GUID)가 옵니다.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
-| Privacy-5782 | 16 | Privacy-6104 | 개인 정보-2911 | Privacy-6821 |
-| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
-| John | 09 | D | Privacy-8454 | Privacy-8216 |
-| John | 16 | E | 개인 정보-2911 | 개인 정보-2930 |
+| 개인 정보 보호-5782 | 09 | 개인 정보 보호-0859 | 개인 정보 보호-8183 | 개인 정보 보호-9152 |
+| 개인 정보 보호-5782 | 16 | 개인 정보 보호-6104 | 개인 정보 보호-2911 | 개인 정보 보호-6821 |
+| 개인 정보 보호-5782 | 83 | 개인 정보 보호-2714 | 개인 정보 보호-0219 | 개인 정보 보호-4395 |
+| John | 09 | D | 개인 정보 보호-8454 | 개인 정보 보호-8216 |
+| John | 16 | E | 개인 정보 보호-2911 | 개인 정보 보호-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
