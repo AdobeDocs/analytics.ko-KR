@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 액세스 및 삭제 요청 제출
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -25,21 +23,21 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 사용자 및 해당 데이터의 유효성 검사 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-사용자는 데이터 제어자로서, 데이터 주체가 실제로 그 주체가 맞는지, 해당 주체에게 요청하는 데이터에 대한 권한이 있는지 확인할 책임이 있습니다. 또한 올바른 데이터가 데이터 제목에 반환되고 다른 데이터 주체에 대한 데이터를 실수로 받지 않도록 하는 것은 귀하의 책임입니다.
+사용자는 데이터 제어자로서, 데이터 주체가 실제로 그 주체가 맞는지, 해당 주체에게 요청하는 데이터에 대한 권한이 있는지 확인할 책임이 있습니다. 또한 데이터 주체에 올바른 데이터가 반환되고 다른 데이터 주체에 대한 데이터를 실수로 수신하지 않도록 할 책임이 있습니다.
 
-여기에는 Adobe Analytics에서 반환한 데이터를 데이터 주체에게 보내기 전에 데이터 개인 정보 보호 액세스 요청의 일부로 검토가 포함됩니다. 개인 ID를 사용하고 해당 ID가 있는 위치뿐만 아니라 해당 ID가 때때로 있었던 공유 장치의 다른 히트에 대한 데이터도 반환하는 경우 특별히 주의해야 합니다. ID [확장을 참조하십시오.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+여기에는 데이터 주체에게 전송하기 전에 데이터 개인 정보 보호 액세스 요청의 일부로 Adobe Analytics에서 반환한 데이터를 검토하는 작업이 포함됩니다. 개인 ID를 사용하고 있으며, 해당 ID가 있는 데이터뿐만 아니라 경우에 따라 해당 ID가 있는 공유된 장치의 다른 히트에 대한 데이터도 반환하는 경우 특별히 주의해야 합니다. [ID 확장](/help/admin/c-data-governance/gdpr-id-expansion.md)을 참조하십시오.
 
 각 파일은 모든 보고서 세트의 데이터를 결합하며, 복제된 히트의 추가 사본을 자동으로 제거합니다. 이러한 파일 중에서 어느 것을 데이터 주체에 반환할지 결정할 수 있습니다. 또는 데이터 주체에 반환하기 전에 이 데이터의 일부를 추출하여 다른 시스템의 데이터와 결합할 수 있습니다.
 
 ## 요청 제출 {#submit-requests}
 
-귀하는 Adobe의 데이터 개인정보 보호 UI 포털 [또는 Adobe의 데이터 개인정보 보호 API를 통해 데이터](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) 개인정보 보호 액세스 및 삭제 요청을 제출할 [수 있습니다.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+Adobe의 [데이터 개인 정보 보호 UI 포털](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) 또는 [데이터 개인 정보 보호 API](https://www.adobe.io/apis/experienceplatform/gdpr.html)를 통해 데이터 개인 정보 보호 액세스를 제출하고 요청을 삭제할 수 있습니다.
 
-> [!NOTE] 데이터 개인 정보 API는 단일 요청에서 여러 사용자에 대한 일괄 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
+> [!NOTE] 데이터 개인 정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
 
 ## 샘플 JSON 요청 {#sample-json-request}
 
-다음은 데이터 개인 정보 API 또는 UI를 통해 제출되어 세 명의 사용자에 대한 데이터 개인 정보 처리를 요청하는 JSON입니다.
+다음은 데이터 개인 정보 보호 API 또는 UI를 통해 제출할 수 있는 JSON이며, 세 명의 사용자에 대한 데이터 개인 정보 보호 처리를 요청합니다.
 
 ```
 { 
@@ -99,7 +97,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 } 
 ```
 
-사용자 섹션에는 세 개의 개별 데이터 주체에 대해 세 개의 별도 요청을 나타내는 세 개의 블록이 있습니다.
+사용자 섹션에는 세 개의 개별 데이터 주체에 대해 세 개의 개별 요청을 나타내는 세 개의 블록이 있습니다.
 
 * 첫 번째 요청은 기존의 Adobe Analytics 쿠키 ID(AAID)를 사용한 액세스 요청입니다.
 * 두 번째 요청도 MCID/ECID 쿠키를 사용한 액세스 요청입니다.
@@ -107,10 +105,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 주의 사항
 
-* "companyContexts" 섹션의 값 "5D7236525AA6D9580A495C6C@AdobeOrg"을 자체 Experience Cloud 조직의 값으로 업데이트해야 합니다.
-* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
-* "description" 필드는 무시됩니다.
-* "키" 필드에는 원하는 값이 포함될 수 있습니다. 데이터 개인 정보 보호 요청을 추적하는 데 사용하는 내부 ID가 있는 경우 이 값을 여기에 배치하여 Adobe 시스템의 요청을 자체 시스템의 요청과 보다 쉽게 일치시킬 수 있습니다.
+* companyContexts 섹션의 "5D7236525AA6D9580A495C6C@AdobeOrg" 값은 Experience Cloud 조직의 값으로 업데이트해야 합니다.
+* type 및 namespace 필드는 [네임스페이스](/help/admin/c-data-governance/gdpr-namespaces.md) 섹션에 더 자세하게 설명되어 있습니다.
+* description 필드는 무시됩니다.
+* key 필드에는 원하는 값이 포함될 수 있습니다. 데이터 개인 정보 보호 요청 추적에 사용하는 내부 ID가 있는 경우 여기에 해당 값을 지정하여 Adobe 시스템의 요청을 사용자 시스템의 요청에 보다 쉽게 일치시킬 수 있습니다.
 
 ## 응답 세부 정보 {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -136,17 +134,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **삭제 응답 세부 사항**
 
-삭제 요청에 대한 데이터가 반환되지 않습니다. 요청이 성공적으로 완료된 데이터 개인 정보 API의 상태만 반환됩니다.
+삭제 요청에 대해 데이터가 반환되지 않고, 요청이 성공적으로 완료된 데이터 개인 정보 보호 API에 대한 상태만 반환됩니다.
 
-## 데이터에 대한 데이터 개인 정보 처리 테스트 {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
+## 데이터에 대한 데이터 개인 정보 보호 처리 테스트 {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
 일반적으로, Analytics 고객은 일반 대중에게 릴리스되기 전에 기능을 확인하도록 일부 테스트 보고서 세트를 설정합니다. 사전 프로덕션 웹 사이트 또는 앱은 테스트/dev/QA 보고서 세트에 데이터를 전송하여 실제 트래픽이 프로덕션 보고서 세트로 전송되기 전에 코드가 릴리스될 때 작동 방식을 평가할 수 있습니다.
 
-그러나 일반 구성의 경우 프로덕션 보고서 세트에 요청을 적용하기 전에 GPDR 요청 처리를 이러한 테스트 보고서 세트에서 먼저 테스트할 수 없습니다. 이러한 이유는 데이터 개인 정보 요청이 Experience Cloud 조직의 모든 보고서 세트에 자동으로 적용되기 때문입니다. 이 모든 보고서 세트는 종종 회사의 보고서 세트입니다.
+그러나 일반 구성의 경우 프로덕션 보고서 세트에 요청을 적용하기 전에 GPDR 요청 처리를 이러한 테스트 보고서 세트에서 먼저 테스트할 수 없습니다. 그 이유는 데이터 개인 정보 보호 요청이 Experience Cloud 조직의 모든 보고서 세트(일반적으로 사용자 회사의 모든 보고서 세트)에 자동으로 적용되기 때문입니다.
 
-모든 보고서 세트에 적용하기 전에 데이터 개인 정보 처리를 테스트할 수 있는 몇 가지 방법이 있습니다.
+모든 보고서 세트에 적용하기 전에 데이터 개인 정보 보호 처리를 여전히 테스트할 수 있는 몇 가지 방법이 있습니다.
 
-* 한 가지 옵션은 테스트 보고서 세트만 포함된 별도의 Experience Cloud 조직을 설정하는 것입니다. 그런 다음 이 Experience Cloud 조직을 사용하여 데이터 개인 정보 보호 테스트를 수행하고 일반 Experience Cloud 조직을 실제 데이터 개인 정보 보호 처리를 수행할 수 있습니다.
+* 한 가지 옵션은 테스트 보고서 세트만 포함된 별도의 Experience Cloud 조직을 설정하는 것입니다. 그런 다음 실제 데이터 개인 정보 보호 처리 시 사용자의 데이터 개인 정보 보호 테스트 및 일반적인 Experience Cloud 조직에 대해 이 Experience Cloud 조직을 사용하십시오.
 * 또 다른 옵션은 테스트 보고서 세트의 ID와 프로덕션 보고서 세트의 ID에 서로 다른 네임스페이스를 할당하는 것입니다.
 
-   예를 들어 테스트 보고서 세트에서 각 네임스페이스에 "qa-"로 접두사를 지정할 수 있습니다. qa 접두사가 있는 네임스페이스만 있는 데이터 개인 정보 보호 요청을 제출하면 이러한 요청은 테스트 보고서 세트에서만 실행됩니다. 나중에 qa 접두사 없이 요청을 제출할 때 프로덕션 보고서 세트에 적용됩니다. **visitorId, AAID, ECID 또는 customVisitorId 네임스페이스는 하드코딩되어 있으며 테스트 보고서 세트에서 대체 이름을 지정할 수 없기 때문에 이 방식을 사용하는 것이 좋습니다**.
+   예를 들어 테스트 보고서 세트에 "qa-"를 사용하여 각 네임스페이스에 접두사를 추가할 수 있습니다. qa 접두사가 있는 네임스페이스로만 데이터 개인 정보 보호 요청을 제출하면 이러한 요청은 테스트 보고서 세트에 대해서만 실행됩니다. 나중에 qa 접두사 없이 요청을 제출할 때 프로덕션 보고서 세트에 적용됩니다. **visitorId, AAID, ECID 또는 customVisitorId 네임스페이스는 하드코딩되어 있으며 테스트 보고서 세트에서 대체 이름을 지정할 수 없기 때문에 이 방식을 사용하는 것이 좋습니다**.
