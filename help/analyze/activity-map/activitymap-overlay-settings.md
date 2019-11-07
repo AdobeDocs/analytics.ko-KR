@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map 설정 구성
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,14 +18,14 @@ Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에
 
 Activity Map 도구 모음에 있는 톱니바퀴 아이콘을 클릭하여 액세스하는 Activity Map [설정] 패널에 액세스하십시오.
 
-[설정] 패널에는 선택한 애플리케이션 모드를 기반으로 다른 컨텐츠가 표시됩니다. [기타] 탭에는 일반적인 설정이 포함되어 있습니다.
+설정 패널에는 선택한 애플리케이션 모드를 기반으로 다른 컨텐츠가 표시됩니다. 기타 탭에는 일반적인 설정이 포함되어 있습니다.
 
-| 표준 | **[!UICONTROL 그라데이션]** 또는 **[!UICONTROL 버블]오버레이** |
+| 표준 | **[!UICONTROL 그라데이션]** 또는 **[!UICONTROL 버블]** 오버레이 |
 |---|---|
 | 라이브 | **[!UICONTROL 승자 및 패자]**, **[!UICONTROL 그라데이션]**, **[!UICONTROL 버블]** 오버레이 |
 | 기타 | 보고서 세트 선택 및 언어 선택 |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## 표준 모드 오버레이에 대한 설정 {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -78,18 +78,18 @@ Activity Map 도구 모음에 있는 톱니바퀴 아이콘을 클릭하여 액�
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## 라이브 모드 오버레이에 대한 설정 {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | 설정 | 설명 |
 |---|---|
-| **[!UICONTROL 상위 표시]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL 상위 표시]** | 표시할 링크의 수(또는 모두)와 오버레이로 표시할 **[!UICONTROL 승자]** 또는 **[!UICONTROL 패자]**(또는 둘 다)를 선택합니다. |
 | **[!UICONTROL 하위(%) 제외]** | 데이터가 희박한 승자-패자 링크를 제거하도록 선택합니다. 링크 변경 사항의 하위 백분율을 필터링하여 관련 있는 이득 또는 손실을 표시하기에 충분한 데이터가 있는 링크만 표시합니다. 백분율은 해당 페이지에 있는 링크의 수를 기반으로 계산됩니다. 예를 들어, 200개 링크가 있는 목록의 하위 10%를 필터링하면 마지막 20개의 링크가 필터링됩니다. |
-| **[!UICONTROL 데이터 자동 업데이트]** | 새 기간이 계산될 때 인터페이스에 표시된 Analytics 데이터가 자동으로 업데이트되는지 여부를 결정하겠습니다. |
-| **[!UICONTROL 자동 업데이트 기간]** | 선택하면, 페이지의 링크가 수집된 데이터와 더 밀접하게 동기화될 수 있도록 각각의 새로운 데이터 검색으로 웹 페이지가 새로 고쳐집니다. |
+| **[!UICONTROL 데이터 자동 업데이트]** | 새 기간이 계산될 때 인터페이스에 표시된 Analytics 데이터가 자동으로 업데이트되게 할지 결정하겠습니다. |
+| **[!UICONTROL 자동 업데이트 기간]** | 선택하면, 매번 새로운 데이터 검색으로 웹 페이지가 새로 고쳐져서 페이지의 링크가 수집된 데이터와 더 밀접하게 동기화됩니다. |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## 기타 설정 {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
