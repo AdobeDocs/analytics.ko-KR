@@ -6,7 +6,7 @@ solution: Analytics
 title: 실시간(라이브) 페이지 분석
 topic: Activity Map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -28,7 +28,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
  -->
 
-## Data latency as a result of A4T configuration {#section_806CE36354FC4C539A0DED9266A5C704}
+## A4T 구성 결과로 데이터 지연 {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Adobe Target에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~10분 동안 지연이 추가로 발생할 수 있습니다. 추가적인 지연 시간으로 인해 Analytics 및 Target의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
 
@@ -37,4 +37,4 @@ Adobe Target에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~10분 �
 * 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
-Be aware that the latency increase starts after you implement the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), even if you have not fully implemented this integration.
+이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
