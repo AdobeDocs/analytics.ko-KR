@@ -6,7 +6,7 @@ solution: Analytics
 title: 브라우저 확장 문제 해결
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 # 브라우저 확장 문제 해결
 
-Activity Map 사용과 호환되지 않는 브라우저 매개 변수를 표시합니다. 다음 설정을 비활성화해야 합니다.
+Activity Map 사용과 호환하지 않는 브라우저 매개 변수를 표시합니다. 다음 설정을 비활성화해야 합니다.
 
 ## Chrome
 
