@@ -1,11 +1,9 @@
 ---
 description: 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 레이블 및 해당 정의를 숙지하십시오.
-seo-description: 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 레이블 및 해당 정의를 숙지하십시오.
-seo-title: 보고서 세트 데이터에 레이블 지정
 title: 보고서 세트 데이터에 레이블 지정
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -18,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 보고서 세트 레이블 지정 또는 편집 {#section_39F829F35A274EACA532E2F6FF392996}
 
-**예**:데이터 관리자인 사용자는 데이터 주체의 이메일 주소와 쿠키 ID를 수집하여 데이터 개인 정보 요청을 처리할 계획입니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다. 이메일 주소 및 쿠키 ID에 대한 레이블을 작성하려면 Analytics에서 Adobe Cloud Platform의 DULE(Data Usage Labeling &amp; Enforcement) 프레임워크를 사용해야 합니다.
+**예**: 데이터 제어자는 해당 데이터 개인 정보 보호 요청을 처리하기 위해 데이터 주체의 이메일 주소와 쿠키 ID를 수집하도록 계획합니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다. 이메일 주소 및 쿠키 ID에 대한 레이블을 작성하려면 Analytics에서 Adobe Cloud Platform의 DULE(Data Usage Labeling &amp; Enforcement) 프레임워크를 사용해야 합니다.
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. Analytics에서 **[!UICONTROL 관리]** &gt; **[!UICONTROL 데이터 거버넌스]** &gt; **[!UICONTROL (보고서 세트 선택으로 이동합니다)]** ![](assets/privacy_rs_settings.png)
 
 1. 레이블을 지정할 변수 그룹을 선택합니다.
 
@@ -43,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/edit.png)
 
-1. **ID 데이터** 레이블 대화 상자가 자동으로 열립니다. 이러한 레이블은 자체적으로 사용하거나 다른 데이터와 함께 사용하여 개인을 식별하거나 개인과 직접 연락할 수 있는 데이터를 분류합니다. For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
+1. **ID 데이터** 레이블 대화 상자가 자동으로 열립니다. 이러한 레이블은 자체적으로 사용하거나 다른 데이터와 함께 사용하여 개인을 식별하거나 개인과 직접 연락할 수 있는 데이터를 분류합니다. 이러한 옵션에 대한 자세한 내용은 [ID 데이터 레이블(DULE)](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)을 참조하십시오.
 
    >[!NOTE]
    >
@@ -51,11 +49,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/identity_labels.png)
 
-1. **중요 데이터** 섹션을 열고 지리적 위치 데이터를 분류하는 중요 데이터 레이블을 설정합니다. For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
+1. **중요 데이터** 섹션을 열고 지리적 위치 데이터를 분류하는 중요 데이터 레이블을 설정합니다. 이러한 옵션에 대한 자세한 내용은 [중요 데이터 레이블(DULE)](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)을 참조하십시오.
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. 이 섹션을 사용하여 Adobe에 데이터 개인 정보 액세스 및 삭제 요청에 대한 각 변수를 처리하는 방법과 이러한 요청에 대한 데이터 주체 ID를 찾기 위해 스캔해야 하는 변수를 정의하는 방법을 지시합니다. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
+1. 데이터 개인 정보 보호 데이터 섹션을 열어 **데이터 거버넌스** 레이블을 설정합니다. 이 섹션을 사용하여 데이터 개인 정보 보호 액세스 및 삭제 요청에 대해 각 변수를 처리하는 방법을 Adobe에 지시하고, 이러한 요청에 대한 데이터 주체 ID를 찾기 위해 스캔해야 하는 변수를 정의합니다. 이러한 옵션에 대한 자세한 내용은 [데이터 거버넌스 레이블(데이터 개인 정보 보호)](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)을 참조하십시오.
 
    ![](assets/privacy_labels.png)
 
@@ -63,7 +61,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 보고서 세트에 레이블 복사{#section_7C6FDAFF049F4126B84F6261F72668EE} 
 
-동일한 DULE/Data Privacy 설정을 둘 이상의 보고서 세트에 적용하려면 다음 단계를 따르십시오.
+동일한 DULE/데이터 개인 정보 보호 설정을 둘 이상의 보고서 세트에 적용하려는 경우 다음 단계를 따를 수 있습니다.
 
 1. 변수 그룹(표준 차원, 전환 차원 등)을 선택합니다. 복사하려는 변수가 포함되어 있습니다. 한 번에 하나의 변수 그룹에 대한 레이블만 복사할 수 있습니다.
 1. 이 그룹에서 변수 중 일부 또는 전체를 선택합니다.
