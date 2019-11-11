@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/ko-KR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [보고서-변수 매핑](impl-testing/report-variable-mapping.md)
    + [변수-보고서 매핑](impl-testing/var-report-mapping.md)
 + [Analytics for Digital Assistants 구현](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [모바일 장치용 분석 구현](mobile-device-sdk.md)
