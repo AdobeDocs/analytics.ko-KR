@@ -1,42 +1,42 @@
 ---
-description: Android용 AppMeasurement 3.x
-seo-description: Android용 AppMeasurement 3.x에 대한 기존 설명서
-seo-title: Android용 AppMeasurement 3.x
+description: ios용 AppMeasurement 3.x
+seo-description: ios용 AppMeasurement 3.x에 대한 기존 설명서
+seo-title: ios용 AppMeasurement 3.x
 solution: Analytics
 subtopic: 책갈피
-title: Android용 AppMeasurement 3.x
+title: ios용 AppMeasurement 3.x
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# Android용 AppMeasurement 3.x
+# iOS용 AppMeasurement 3.x
 
-*참고:이 문서에는 이전 버전의 AppMeasurement, 특히 Android용 버전 3.x에 대한 기존 정보가 포함되어 있습니다.
+*참고:이 문서에는 이전 버전의 AppMeasurement, 특히 iOS용 버전 3.x에 대한 이전 정보가 포함되어 있습니다.
 현재 AppMeasurement 구현에 대한 자세한 내용은 JavaScript[용 AppMeasurement 정보를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).*
 
-*Android용 AppMeasurement 3.x 최종 업데이트*
+*iOS용 AppMeasurement 3.x 최종 업데이트*
 
-Android용 Adobe AppMeasurement를 사용하면 Adobe Experience Cloud에서 기본 Android 애플리케이션을 측정할 수 있습니다.
+Adobe AppMeasurement for iOS를 사용하면 Adobe Experience Cloud에서 기본 Apple iPhone 및 iPad 애플리케이션을 측정할 수 있습니다.
 
-이 안내서는 두 섹션으로 나누어져 있습니다.한 섹션은 Adobe Analytics 경험이 있는 분석가를 위한 것이고 한 섹션은 모바일 앱 개발 경험이 있는 Android 개발자를 위한 것입니다.
+이 안내서는 두 섹션으로 나누어져 있습니다.한 섹션은 Adobe Analytics 경험이 있는 분석가를 위한 것이고 한 섹션은 모바일 앱 개발 경험이 있는 iOS 개발자를 위한 것입니다.
 
-**지원되는 버전**:Android 2.0 이상.
+**지원되는 버전**:iOS 4.3 이상.
 
-**모든 AppMeasurement**&#x200B;모바일 플랫폼에 대한 라이브러리 다운로드 지침 및 링크는 Developer Connection의 Measurement and OptimizingMobile Applications 페이지에서 다운로드할 수 있습니다. 무료 Developer Connection 계정 또는 SiteCatalyst 로그인 계정이 있어야 라이브러리를 다운로드할 수 있습니다. 다운로드 링크는 로그인할 때까지 표시되지 않습니다.
+**모든 AppMeasurement**&#x200B;모바일 플랫폼에 대한 라이브러리 다운로드 지침 및 링크는 Developer Connection의 Measurement and OptimizingMobile Applications 페이지에서 다운로드할 수 있습니다. 무료 Developer Connection 계정 또는 보고 및 분석 로그인 계정이 있어야 라이브러리를 다운로드할 수 있습니다. 다운로드 링크는 로그인할 때까지 표시되지 않습니다.
 
 ## 분석 빠른 시작
 
-이 섹션에서는 Android 라이브러리를 구현하고 표준 구현에 필요한 코드를 추가하는 과정을 안내합니다. 사용자 지정 이벤트와 기타 데이터를 전송하는 방법을 보여주는 단계가 포함됩니다.
+이 섹션에서는 iOS 라이브러리를 구현하고 표준 구현에 필요한 코드를 추가하는 과정을 안내합니다. 사용자 지정 이벤트와 기타 데이터를 전송하는 방법을 보여주는 단계가 포함됩니다.
 
 분석가로서 보고서 세트에 대해 모바일 애플리케이션 보고서를 활성화해야 합니다. 캡처할 추가 지표가 있는 경우 애플리케이션에서 전송해야 하는 컨텍스트 데이터 변수의 설명을 개발자에게 제공해야 합니다. 예를 들어, 로그인 후 사용자 이름을 수집하려면 개발자가 `myco.username`이라는 컨텍스트 데이터 변수에 사용자 이름을 설정하도록 할 수 있습니다.
 
-### SiteCatalyst에서 모바일 애플리케이션 보고서 활성화
+### Analytics에서 모바일 애플리케이션 보고서 활성화
 
-SiteCatalyst는 모바일 앱 라이프사이클 추적을 활성화할 수 있도록 인터페이스를 제공합니다. 이 매핑을 통해 SiteCatalyst는 모바일 애플리케이션 보고서를 자동으로 생성합니다.
+Analytics는 모바일 앱 라이프사이클 추적을 활성화할 수 있는 인터페이스를 제공합니다. 이 매핑을 통해 Analytics는 모바일 애플리케이션 보고서를 자동으로 생성합니다.
 
 1. 관리 콘솔 &gt; 보고서 세트 &gt; 설정 편집 &gt; 모바일 관리 &gt; 모바일 애플리케이션 보고를 엽니다.
 1. 모바일 앱 라이프사이클 추적 활성화를 클릭합니다.
@@ -57,19 +57,17 @@ SiteCatalyst는 모바일 앱 라이프사이클 추적을 활성화할 수 있�
 
 오프라인 추적을 활성화한 후에는 모든 히트에 타임스탬프를 적용해야 하며 그렇지 않은 경우 히트가 수집되지 않습니다. 현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하여 데이터 손실을 방지하거나 s.timestamp 변수를 사용하여 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다.
 
-보고서 세트에 타임스탬프가 활성화되어 있는지 확인하려면 클라이언트 지원 팀에 문의하십시오.
+보고서 세트에 타임스탬프를 사용할 수 있는지 여부를 잘 모를 경우 고객 지원 센터에 문의하십시오.
 
 ## 개발자 빠른 시작
 
-이 섹션에서는 Android 데이터를 수집하는 데 사용할 이벤트, eVar 및 prop을 선택하고 구성하는 절차를 안내합니다. 처리 규칙을 만들어 Android 라이브러리가 전송한 컨텍스트 데이터를 이러한 변수에 복사하는 단계도 포함됩니다.
-
-Android 라이브러리를 구현하고 측정 데이터 전송을 시작하는 단계는 다음과 같습니다.
+이 섹션에서는 iOS 라이브러리를 구현하고 다음을 포함한 측정 데이터 전송을 시작하는 단계를 안내합니다.
 
 * 라이브러리 가져오기
 * 프로젝트에 라이브러리 추가
-* 앱 권한 추가
 * TrackingHelper의 빠른 워드
 * 구현
+
 
 ### 라이브러리 가져오기
 
