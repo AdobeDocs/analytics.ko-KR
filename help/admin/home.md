@@ -1,10 +1,10 @@
 ---
 title: Analytics 관리 도움말
 seo-title: Analytics 제품 비교
-description: 'null'
-seo-description: 'null'
+description: 관리 콘솔의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정 등 Adobe Analytics 관리자를 위한 관리 도움말입니다.
+seo-description: 관리 콘솔의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정 등 Adobe Analytics 관리자를 위한 관리 도움말입니다.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 # Analytics 관리 안내서
 
 ![배너](/assets/doc_banner_admin.png)
+
+이 도움말은 Adobe Analytics 관리자를 위한 것입니다. 관리 콘솔의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정에 대한 도움말이 포함되어 있습니다.
 
 Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니다.
 
