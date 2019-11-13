@@ -5,7 +5,7 @@ seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -28,7 +28,7 @@ The *`linkLeaveQueryString`* 변수는 [!UICONTROL 종료 링크] 및 [!UICONTRO
 |--- |--- |--- |--- |
 | N/A | N/A | 종료 링크 파일 다운로드 | false |
 
-> [!NOTE]`linkLeaveQueryString=true` 를 설정하면 모든 종료 링크 및 다운로드 링크에 대한 모든 쿼리 문자열 매개 변수가 포함됩니다.
+*참고:설정에는 모든 종료 링크 및 다운로드 링크에 대한 모든 쿼리 문자열 매개 변수가`linkLeaveQueryString=true`포함됩니다.*
 
 ## 구문
 
@@ -60,3 +60,55 @@ s.linkLeaveQueryString=true
 
 * `s.linkLeaveQueryString=true`를 설정하면 모든 종료 링크 및 다운로드 링크에 대한 모든 쿼리 문자열 매개 변수가 포함됩니다.
 * `linkLeaveQueryString` 변수는 기록된 페이지 URL, 방문자 클릭 맵 또는 [!UICONTROL 경로] 보고서에 영향을 주지 않습니다.
+
+## 종료 링크 및 파일 다운로드 자동 추적
+
+파일 다운로드 파일 형식 및 종료 링크를 정의하는 매개 변수를 기준으로 파일 다운로드 및 종료 링크를 자동으로 추적하도록 JavaScript를 구성할 수 있습니다.
+
+자동 추적을 제어하는 매개 변수는 다음과 같습니다.
+
+```
+s.trackDownloadLinks=true 
+s.trackExternalLinks=true 
+s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,doc,pdf,xls" 
+s.linkInternalFilters="javascript:,mysite.com,[more filters here]" 
+s.linkLeaveQueryString=false 
+```
+
+매개변수 `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. 활성화하면 에서 값 중 하나와 일치하는 파일 유형이 있는 모든 링크가 파일 다운로드로 `linkDownloadFileTypes` 자동 추적됩니다. 에 있는 값 중 하나를 포함하지 않는 URL이 있는 모든 링크는 자동으로 종료 링크로 `linkInternalFilters` 추적됩니다.
+
+In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+
+### 예제 1
+
+파일 유형을 `.jpg` 위에 포함하지 `.aspx` `linkDownloadFileTypes` 않으므로 파일 다운로드로 자동 추적되고 보고되지 않습니다.
+
+The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+
+### 예제 2
+
+다음과 같이 설정하면 아래 예제가 종료 링크로 카운트됩니다.
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=false 
+ 
+//HTML file 
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site!</a> 
+```
+
+### 예제 3
+
+다음과 같이 설정하면 아래 링크가 종료 링크로 카운트되지 않습니다.
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=true 
+ 
+//HTML  
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
+```
+
+*참고: 하나의 링크는 파일 다운로드 또는 종료 링크로만 추적할 수 있습니다. 단, 파일 다운로드의 우선 순위가 높습니다. 링크가 매개 변수를 기반으로 하는 종료 링크와 파일 다운로드인`linkDownloadFileTypes``linkInternalFilters`경우 종료 링크가 아닌 파일 다운로드로 추적 및 보고됩니다.*
