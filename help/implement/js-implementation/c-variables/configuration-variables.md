@@ -9,7 +9,7 @@ title: 구성 변수
 topic: 개발자 및 구현
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -68,7 +68,7 @@ source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html):쉼표로 구분된 파일 확장자 목록을 포함합니다.
 
-* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html):사이트에 속한 링크를 나타내는 쉼표로 구분된 필터 목록을 포함합니다.
+* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackintfilters.html):사이트에 속한 링크를 나타내는 쉼표로 구분된 필터 목록을 포함합니다.
 
 * [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html):종료 링크 및 파일 다운로드 보고서에 쿼리 문자열을 포함해야 하는지 여부를 결정합니다.
 
@@ -77,4 +77,3 @@ source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):종료 링크의 특정 하위 세트에 대해 보고하는 데 사용합니다.
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):각 이미지 요청 전에 함수를 `s_doPlugins` 호출합니다.
-
