@@ -1,13 +1,11 @@
 ---
 description: Report Builder의 요청 관리를 위한 필드 설명
-seo-description: Report Builder의 요청 관리를 위한 필드 설명
-seo-title: 요청 관리 - 정의
 solution: Analytics
 title: 요청 관리 - 정의
-topic: Report Builder
+topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
