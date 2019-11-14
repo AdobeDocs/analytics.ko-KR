@@ -1,13 +1,11 @@
 ---
 description: 포함된 요청이 있는 보고서를 만든 후 Excel에서 [파일] > [저장] 또는 [파일] > [다른 이름으로 저장]을 클릭하여 저장할 수 있습니다. Report Builder는 보고서에 요청이 들어 있는지를 탐지합니다. 이 저장 선택 사항들 중 하나를 클릭하면 [통합 문서를 다른 이름으로 저장] 양식이 표시됩니다.
-seo-description: 포함된 요청이 있는 보고서를 만든 후 Excel에서 [파일] > [저장] 또는 [파일] > [다른 이름으로 저장]을 클릭하여 저장할 수 있습니다. Report Builder는 보고서에 요청이 들어 있는지를 탐지합니다. 이 저장 선택 사항들 중 하나를 클릭하면 [통합 문서를 다른 이름으로 저장] 양식이 표시됩니다.
-seo-title: 요청이 있는 통합 문서 저장
 solution: Analytics
 title: 요청이 있는 통합 문서 저장
-topic: Report Builder
-uuid: 31611031-0982-4124-9fc7-788124aa603
+topic: Report builder
+uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
