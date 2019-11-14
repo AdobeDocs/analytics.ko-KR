@@ -1,13 +1,11 @@
 ---
 description: Report Builder 도구 모음에 있는 단추들의 기능을 이해하는 데 도움이 되는 정보
-seo-description: Report Builder 도구 모음에 있는 단추들의 기능을 이해하는 데 도움이 되는 정보
-seo-title: Report Builder 도구 모음
 solution: Analytics
 title: Report Builder 도구 모음
-topic: Report Builder
+topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
