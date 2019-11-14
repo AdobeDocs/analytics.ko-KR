@@ -1,14 +1,12 @@
 ---
 description: 이전 JavaScript H 코드에 대한 누적 릴리스 노트입니다.
-seo-description: 이전 JavaScript H 코드에 대한 누적 릴리스 노트입니다.
-seo-title: JavaScript H 코드- 이전
 solution: Analytics
-subtopic: 릴리스 노트
+subtopic: Release notes
 title: JavaScript H 코드- 이전
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
