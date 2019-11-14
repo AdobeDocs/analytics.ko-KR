@@ -1,13 +1,11 @@
 ---
 description: Dynamic Tag Management의 라이브러리 관리 설정에 있는 필드 및 옵션에 대한 설명입니다.
-keywords: 라이브러리 관리;페이지 코드;라이브러리 로드 위치;Adobe에서 관리;사용자 지정;호스팅된 코드;호스팅된 s_code
-seo-description: Dynamic Tag Management의 라이브러리 관리 설정에 있는 필드 및 옵션에 대한 설명입니다.
-seo-title: 라이브러리 관리
+keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
 solution: Experience Cloud,Dynamic Tag Management
 title: 라이브러리 관리
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
