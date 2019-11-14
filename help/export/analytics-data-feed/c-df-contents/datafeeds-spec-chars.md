@@ -1,15 +1,13 @@
 ---
 description: 데이터 피드에서 사용된 특수 문자에 대한 정보
-keywords: 데이터 피드;작업;특수 문자;히트_데이터;다중 값 변수;events_list;products_list;mvvars
-seo-description: 데이터 피드에서 사용된 특수 문자에 대한 정보
-seo-title: 특수 문자
+keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
-subtopic: 데이터 피드
+subtopic: data feeds
 title: 특수 문자
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
