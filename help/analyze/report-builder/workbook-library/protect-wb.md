@@ -1,13 +1,11 @@
 ---
 description: 통합 문서를 잠궈서 통합 문서의 모든 요청이 추가 및 편집되지 않도록 보호할 수 있습니다. 이를 통해 좀 더 효율적인 편집을 위해 모든 보고서 요청을 일시 중단하고 통합 문서를 오프라인으로 편집할 수 있습니다.
-seo-description: 통합 문서를 잠궈서 통합 문서의 모든 요청이 추가 및 편집되지 않도록 보호할 수 있습니다. 이를 통해 좀 더 효율적인 편집을 위해 모든 보고서 요청을 일시 중단하고 통합 문서를 오프라인으로 편집할 수 있습니다.
-seo-title: 통합 문서 잠금/잠금 해제
 solution: Analytics
 title: 통합 문서 잠금/잠금 해제
-topic: Report Builder
+topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
