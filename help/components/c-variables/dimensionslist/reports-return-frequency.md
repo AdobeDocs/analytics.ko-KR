@@ -1,13 +1,11 @@
 ---
 description: 재방문자의 방문 간격과 각 시간 카테고리별 방문 횟수를 보여줍니다. 보고서를 사용하여 반복 방문자가 귀하의 사이트를 방문하지 않고 가는 평균 시간과 반복 고객의 트렌드를 확인하십시오.
-seo-description: 재방문자의 방문 간격과 각 시간 카테고리별 방문 횟수를 보여줍니다. 보고서를 사용하여 반복 방문자가 귀하의 사이트를 방문하지 않고 가는 평균 시간과 반복 고객의 트렌드를 확인하십시오.
-seo-title: 재방문 주기
 solution: Analytics
 title: 재방문 주기
-topic: 보고서
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
