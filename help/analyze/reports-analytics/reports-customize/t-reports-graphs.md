@@ -1,13 +1,11 @@
 ---
 description: 그래프를 목표 대상에게 가장 유용한 방식으로 사용자 지정하는 방법을 설명하는 단계입니다.
-seo-description: 그래프를 목표 대상에게 가장 유용한 방식으로 사용자 지정하는 방법을 설명하는 단계입니다.
-seo-title: 보고서 그래프 변경
 solution: Analytics
 title: 보고서 그래프 변경
-topic: Reports & Analytics
-uuid: C 2 E 81 C 6 C-BFE 9-4457-8 B 5 D -512255 CA 9711
+topic: Reports and analytics
+uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
