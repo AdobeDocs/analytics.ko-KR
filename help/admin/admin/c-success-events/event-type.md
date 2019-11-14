@@ -1,13 +1,11 @@
 ---
 description: 데이터가 수집된 이후에 이벤트 유형 변경 결과를 설명합니다.
-seo-description: 데이터가 수집된 이후에 이벤트 유형 변경 결과를 설명합니다.
-seo-title: 이벤트 유형 변경 정보
 solution: Analytics
 title: 이벤트 유형 변경 정보
-topic: 관리 도구
+topic: Admin tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
