@@ -1,13 +1,11 @@
 ---
 description: 클라이언트에서 사용한 운영 체제에 의한 웹 트래픽을 그룹화합니다.
-seo-description: 클라이언트에서 사용한 운영 체제에 의한 웹 트래픽을 그룹화합니다.
-seo-title: 운영 체제
 solution: Analytics
 title: 운영 체제
-topic: 보고서
-uuid: 68307788-467 A -4294-BECC -921 C 105 A 0825
+topic: Reports
+uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
