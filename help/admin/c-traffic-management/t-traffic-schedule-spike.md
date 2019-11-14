@@ -1,13 +1,11 @@
 ---
 description: 스파이크 예약 섹션에서 Adobe에 임시 트래픽 스파이크에 대한 경고를 보내면 이것을 처리하도록 적절한 리소스가 할당될 수 있습니다.
-seo-description: 스파이크 예약 섹션에서 Adobe에 임시 트래픽 스파이크에 대한 경고를 보내면 이것을 처리하도록 적절한 리소스가 할당될 수 있습니다.
-seo-title: 트래픽 스파이크 예약
 solution: Analytics
 title: 트래픽 스파이크 예약
-topic: 관리 도구
+topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
