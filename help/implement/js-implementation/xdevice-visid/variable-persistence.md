@@ -1,14 +1,12 @@
 ---
 description: 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
-keywords: Analytics 구현
-seo-description: 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
-seo-title: 속성 및 지속성
+keywords: Analytics Implementation
 solution: Analytics
 title: 속성 및 지속성
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
