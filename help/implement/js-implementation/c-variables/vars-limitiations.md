@@ -1,15 +1,13 @@
 ---
 description: 변수 및 변수의 제한 사항에 대한 개요.
-keywords: Analytics 구현;변수;제한 사항;제한
-seo-description: 변수 및 변수의 제한 사항에 대한 개요.
-seo-title: 변수와 제한 사항
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
-subtopic: 변수
+subtopic: Variables
 title: 변수와 제한 사항
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
