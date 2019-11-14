@@ -1,13 +1,11 @@
 ---
 description: Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드 설명입니다.
-keywords: Dynamic Tag Management;링크 추적;clickmap 활성화;다운로드 링크 추적;확장 다운로드;아웃바운드 링크 추적;url 매개 변수 유지
-seo-description: Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드 설명입니다.
-seo-title: 링크 추적
+keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 링크 추적
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
