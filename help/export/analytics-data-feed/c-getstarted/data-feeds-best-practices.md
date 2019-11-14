@@ -1,13 +1,11 @@
 ---
 description: '다음은 데이터 피드 처리 및 배달에 대한 몇 가지 우수 사례입니다. 당신은 '
-keywords: 데이터 피드;모범 사례;트래픽 스파이크;시간별;ftp
-seo-description: '다음은 데이터 피드 처리 및 배달에 대한 몇 가지 우수 사례입니다. 당신은 '
-seo-title: 우수 사례 및 일반 정보
+keywords: Data Feed;best practices;traffic spike;hourly;ftp
 solution: Analytics
 title: 우수 사례 및 일반 정보
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
