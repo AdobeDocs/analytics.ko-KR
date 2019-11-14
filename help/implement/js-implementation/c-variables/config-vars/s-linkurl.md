@@ -1,20 +1,20 @@
 ---
 description: 동적 변수를 사용하면 사이트의 이미지 요청에 전체 값을 여러 번씩 입력하지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다.
-keywords: Analytics 구현
+keywords: Analytics Implementation
 seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 전체 값을 여러 번씩 입력하지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다.
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 2d8b6c453ba11fa14bec86f3ebaef9a47388cf2f
 
 ---
 
 
 # s-linkURL
 
-linkName이 없는 경우 이름 역할을 하는 링크의 URL입니다. 어떤 URL 문자열로도 설정할 수 있습니다. 이미지 요청의 `pev1` 매개 변수입니다.
+The URL of the link, which acts as the name if a `linkName` does not exist. 어떤 URL 문자열로도 설정할 수 있습니다. 이미지 요청의 `pev1` 매개 변수입니다.
 
-If set with `linkType`, an image request will be sent as a download, custom or exit link.
+If set with `linkType`, an image request will be sent as a download, custom, or exit link.
 
 **예**
 
