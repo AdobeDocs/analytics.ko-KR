@@ -1,13 +1,11 @@
 ---
 description: 방문자가 속한 시간대를 표시합니다. 그래프는 전세계 지도를 표시합니다. 특정 시간대에서 방문자가 온 경우 주어진 기간에 온 방문자 수를 반영하여 해당 시간대에 다른 색으로 구분된 열이 나타납니다. 모든 시간대는 국제 시간 표준인 그리니치 평균 시간(GMT)으로 제공됩니다.
-seo-description: 방문자가 속한 시간대를 표시합니다. 그래프는 전세계 지도를 표시합니다. 특정 시간대에서 방문자가 온 경우 주어진 기간에 온 방문자 수를 반영하여 해당 시간대에 다른 색으로 구분된 열이 나타납니다. 모든 시간대는 국제 시간 표준인 그리니치 평균 시간(GMT)으로 제공됩니다.
-seo-title: 시간대
 solution: Analytics
 title: 시간대
-topic: 보고서
+topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
