@@ -1,11 +1,9 @@
 ---
 description: 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다.
-seo-description: 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다.
-seo-title: 가상 보고서 세트 개요
 title: 가상 보고서 세트 개요
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
