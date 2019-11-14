@@ -1,13 +1,11 @@
 ---
 description: 방문자 위치 데이터를 표시합니다. 지리 특성 보고서에는 국가, 지역, 시, 미국 주 및 미국 DMA(디지털 마케팅 영역)가 포함되어 있습니다. 지리 특성 보고서는 모든 고객에 대해 사용 가능합니다.
-seo-description: 방문자 위치 데이터를 표시합니다. 지리 특성 보고서에는 국가, 지역, 시, 미국 주 및 미국 DMA(디지털 마케팅 영역)가 포함되어 있습니다. 지리 특성 보고서는 모든 고객에 대해 사용 가능합니다.
-seo-title: 지리 특성
 solution: Analytics
 title: 지리 특성
-topic: 보고서
-uuid: 66aa22c4-dcbc-491a-b23c-0c3d8744d23
+topic: Reports
+uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
