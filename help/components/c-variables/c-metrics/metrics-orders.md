@@ -1,13 +1,11 @@
 ---
 description: 선택된 기간 동안의 웹 사이트 주문 수. 다른 지표별로 개별 기간을 분류하여 해당 기간 동안 가장 많은 주문 수를 기록한 항목(제품, 캠페인 등)을 볼 수 있습니다.
-seo-description: 선택된 기간 동안의 웹 사이트 주문 수. 다른 지표별로 개별 기간을 분류하여 해당 기간 동안 가장 많은 주문 수를 기록한 항목(제품, 캠페인 등)을 볼 수 있습니다.
-seo-title: 주문
 solution: Analytics
 title: 주문
-topic: 지표
-uuid: B 20 AD 038-370 B -4343-A 394-434 D 3 C 4 BD 111
+topic: Metrics
+uuid: b20ad038-370b-4343-a394-434d3c4bd111
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
