@@ -1,14 +1,12 @@
 ---
 description: 위쪽의 각 비교 테이블에는 수행되는 비교에 따라 몇 가지 통계 테스트에 의해 계산되는 차이 점수가 표시됩니다. 그렇지만 사용되는 테스트에 관계없이, 차이 점수는 0과 1 사이의 값으로 표시됩니다.
-keywords: 분석 작업 공간;세그먼트 IQ
-seo-description: 위쪽의 각 비교 테이블에는 수행되는 비교에 따라 몇 가지 통계 테스트에 의해 계산되는 차이 점수가 표시됩니다. 그렇지만 사용되는 테스트에 관계없이, 차이 점수는 0과 1 사이의 값으로 표시됩니다.
-seo-title: 세그먼트 비교에 사용되는 통계 테스트
+keywords: Analysis Workspace;Segment IQ
 solution: Analytics
 title: 세그먼트 비교에 사용되는 통계 테스트
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
