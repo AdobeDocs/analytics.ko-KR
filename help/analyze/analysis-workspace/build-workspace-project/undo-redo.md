@@ -1,11 +1,9 @@
 ---
 description: Analysis Workspace의 실행 취소 옵션에 대한 변경 사항 및 개선 사항.
-seo-description: Analysis Workspace의 실행 취소 옵션에 대한 변경 사항 및 개선 사항.
-seo-title: 실행 취소 및 다시 실행 설정
 title: 실행 취소 및 다시 실행 설정
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
