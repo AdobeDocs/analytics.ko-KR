@@ -1,15 +1,13 @@
 ---
 description: Analytics에서는 서버 호출이 방문 페이지 번호가 1인 채 발생할 때마다 방문을 계산합니다.
-keywords: Analytics 구현
-seo-description: Analytics에서는 서버 호출이 방문 페이지 번호가 1인 채 발생할 때마다 방문을 계산합니다.
-seo-title: 방문 횟수
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 방문자 수
+subtopic: Visitors
 title: 방문 횟수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
