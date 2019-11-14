@@ -1,11 +1,9 @@
 ---
 title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
-seo-title: Adobe Analytics 설명서 업데이트
-seo-description: Adobe Analytics 설명서 업데이트
-short-title: Analytics 설명서 업데이트
+short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
