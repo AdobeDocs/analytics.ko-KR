@@ -1,11 +1,9 @@
 ---
 description: 계산된 지표 권한은 관리자 수준 사용자와 관리자가 아닌 사용자 간에 다릅니다.
-seo-description: 계산된 지표 권한은 관리자 수준 사용자와 관리자가 아닌 사용자 간에 다릅니다.
-seo-title: 계산된 지표 역할 기반 권한
 title: 계산된 지표 역할 기반 권한
-uuid: 7c14d32d-37 파섹
+uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
