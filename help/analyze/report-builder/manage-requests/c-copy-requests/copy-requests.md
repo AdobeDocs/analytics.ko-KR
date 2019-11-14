@@ -1,13 +1,11 @@
 ---
 description: 두 개 이상의 요청과 매핑된 셀을 복사하고 그 내용을 스프레드시트의 비어 있는 선택된 영역에 붙여넣을 수 있습니다.
-seo-description: 두 개 이상의 요청과 매핑된 셀을 복사하고 그 내용을 스프레드시트의 비어 있는 선택된 영역에 붙여넣을 수 있습니다.
-seo-title: 요청 복사 개요
 solution: Analytics
 title: 요청 복사 개요
-topic: Report Builder
+topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
