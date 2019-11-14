@@ -1,10 +1,8 @@
 ---
 title: 모듈 통합
-seo-title: Adobe Analytics용 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
-seo-description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
-translation-type: ht
-source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
