@@ -1,14 +1,12 @@
 ---
 description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
-seo-description: Analysis Workspace의 새로운 기능입니다.
-seo-title: Analysis Workspace의 새로운 기능
 solution: Analytics
 title: Analysis Workspace의 새로운 기능
-topic: Reports and Analytics
-uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f11
+topic: Reports and analytics
+uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
