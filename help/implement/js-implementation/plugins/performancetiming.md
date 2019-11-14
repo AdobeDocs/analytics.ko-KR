@@ -1,14 +1,12 @@
 ---
 description: 이 플러그인은 웹에서의 정확한 성능 측정을 위해 내비게이션 타이밍 JavaScript API를 사용하여 작동하며, 페이지 로드 이벤트 및 자산 로드 시간 동안 정확하고 상세한 타이밍 통계를 구하는 기본 방법을 제공합니다. 이전에는, 이러한 종류의 측정에서 타이밍 지표에 대한 JavaScript 날짜 개체나, 내비게이션 타이밍 지표의 가장 기초적인 외삽법을 이용했습니다. 이 방법들이 페이지 로드 시간에 대해 트렌드된 데이터를 제공하더라도 두 방법 모두 신뢰할 수는 없습니다.
-keywords: Analytics 구현
-seo-description: 이 플러그인은 웹에서의 정확한 성능 측정을 위해 내비게이션 타이밍 JavaScript API를 사용하여 작동하며, 페이지 로드 이벤트 및 자산 로드 시간 동안 정확하고 상세한 타이밍 통계를 구하는 기본 방법을 제공합니다. 이전에는, 이러한 종류의 측정에서 타이밍 지표에 대한 JavaScript 날짜 개체나, 내비게이션 타이밍 지표의 가장 기초적인 외삽법을 이용했습니다. 이 방법들이 페이지 로드 시간에 대해 트렌드된 데이터를 제공하더라도 두 방법 모두 신뢰할 수는 없습니다.
-seo-title: performanceTiming
+keywords: Analytics Implementation
 solution: Analytics
 title: performanceTiming
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
