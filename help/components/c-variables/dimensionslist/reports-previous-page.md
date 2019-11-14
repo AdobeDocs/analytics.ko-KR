@@ -1,13 +1,11 @@
 ---
 description: 방문자가 사이트에서 선택한 페이지를 보기 전에 본 사이트의 페이지를 표시하여 자세한 사이트 경로 분석을 제공하는 경로 보고서
-seo-description: 방문자가 사이트에서 선택한 페이지를 보기 전에 본 사이트의 페이지를 표시하여 자세한 사이트 경로 분석을 제공하는 경로 보고서
-seo-title: 이전 페이지
 solution: Analytics
 title: 이전 페이지
-topic: 보고서
+topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
