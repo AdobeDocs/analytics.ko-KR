@@ -1,14 +1,12 @@
 ---
 description: FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
-seo-description: FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
-seo-title: FTP 가져오기
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: FTP 가져오기
-topic: 관리 도구
-uuid: a914970d-ba02-411-9dcf-06448f71b9f3
+topic: Admin tools
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
