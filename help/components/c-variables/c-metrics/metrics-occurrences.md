@@ -1,13 +1,11 @@
 ---
 description: 특정 값이 캡처된 횟수에 해당 값이 지속된 페이지 보기 횟수를 더한 값입니다. 즉, 발생은 페이지 보기와 페이지 이벤트의 합계입니다. 발생은 Analysis Workspace 및 Ad Hoc Analysis에서 사용할 수 있습니다.
-seo-description: 특정 값이 캡처된 횟수에 해당 값이 지속된 페이지 보기 횟수를 더한 값입니다. 즉, 발생은 페이지 보기와 페이지 이벤트의 합계입니다. 발생은 Analysis Workspace 및 Ad Hoc Analysis에서 사용할 수 있습니다.
-seo-title: 발생
 solution: Analytics
 title: 발생
-topic: 지표
+topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
