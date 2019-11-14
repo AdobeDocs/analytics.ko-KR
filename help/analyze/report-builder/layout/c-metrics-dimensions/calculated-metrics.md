@@ -1,11 +1,9 @@
 ---
 description: Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니다. 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
-seo-description: Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니다. 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
-seo-title: 계산된 지표
 title: 계산된 지표
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니
 
 **필터** 아이콘을 클릭하여 계산된 지표를 필터링합니다.  ![](assets/segment_filter.png)
 
-라는 사용자 지정 코드에서 변수를 찾습니다. [고급 필터] 대화 상자는 표준 지표와 계산된 지표로 채워집니다.
+. [고급 필터] 대화 상자는 표준 지표와 계산된 지표로 채워집니다.
 
 사용 가능한 필터:
 
