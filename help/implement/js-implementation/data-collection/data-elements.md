@@ -1,14 +1,12 @@
 ---
 description: 라디오 단추 및 확인란 항목과 같은 양식 요소의 값을 캡처하여 보고서에 넣을 수 있습니다. 이 기능은 온라인 양식에서 가장 인기 있는 선택 항목을 분석하는 데 도움이 됩니다.
-keywords: Analytics 구현
-seo-description: 라디오 단추 및 확인란 항목과 같은 양식 요소의 값을 캡처하여 보고서에 넣을 수 있습니다. 이 기능은 온라인 양식에서 가장 인기 있는 선택 항목을 분석하는 데 도움이 됩니다.
-seo-title: 양식 요소에서 데이터 수집
+keywords: Analytics Implementation
 solution: Analytics
 title: 양식 요소에서 데이터 수집
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
