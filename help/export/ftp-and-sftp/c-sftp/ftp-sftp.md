@@ -1,13 +1,11 @@
 ---
 description: SFTP는 사용자 이외의 사용자가 데이터를 볼 수 없도록 데이터를 전송하기 위한 보안 프로토콜입니다. Adobe 엔지니어링 서비스는 데이터를 안전하게 유지하도록 SFTP 계정을 설정할 수 있습니다.
 keywords: ftp;sftp
-seo-description: SFTP는 사용자 이외의 사용자가 데이터를 볼 수 없도록 데이터를 전송하기 위한 보안 프로토콜입니다. Adobe 엔지니어링 서비스는 데이터를 안전하게 유지하도록 SFTP 계정을 설정할 수 있습니다.
-seo-title: Secure File Transfer Protocol - 개요
 solution: Analytics
 title: Secure File Transfer Protocol - 개요
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
