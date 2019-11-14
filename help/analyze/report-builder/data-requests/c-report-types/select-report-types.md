@@ -1,13 +1,11 @@
 ---
 description: 사이트 지표, 사이트 컨텐츠 및 비디오와 같은, 데이터 요청에 대한 기본 보고서 유형을 선택할 수 있습니다.
-seo-description: 사이트 지표, 사이트 컨텐츠 및 비디오와 같은, 데이터 요청에 대한 기본 보고서 유형을 선택할 수 있습니다.
-seo-title: 보고서 유형 개요
 solution: Analytics
 title: 보고서 유형 개요
-topic: Report Builder
-uuid: 63 E 656 D 0-F 22 E -4846-9 E 24-7 EF 3299 DDE 5 A
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
