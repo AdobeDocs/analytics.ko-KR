@@ -1,13 +1,11 @@
 ---
 description: 장치의 JavaScript 사용 설정 여부 또는 장치가 "식별되지 않음"으로 카운트되었는지 여부를 기준으로 지표를 표시합니다.
-seo-description: 장치의 JavaScript 사용 설정 여부 또는 장치가 "식별되지 않음"으로 카운트되었는지 여부를 기준으로 지표를 표시합니다.
-seo-title: JavaScript 지원
 solution: Analytics
 title: JavaScript 지원
-topic: 보고서
-uuid: 7b95001a-cd35-478a-8b24-54d3066110d
+topic: Reports
+uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
