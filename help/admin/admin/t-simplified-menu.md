@@ -1,13 +1,11 @@
 ---
 description: 보고 및 분석에서 간소화된 보고서 메뉴를 구현하는 단계입니다.
-seo-description: 보고 및 분석에서 간소화된 보고서 메뉴를 구현하는 단계입니다.
-seo-title: 간소화된 보고서 메뉴
 solution: Analytics
 title: 간소화된 보고서 메뉴
-topic: 관리 도구
-uuid: cc7023e4-9e28-477e-9266-6d06e537959
+topic: Admin tools
+uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
