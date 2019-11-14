@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 지능형 경고 - 활용 사례
 title: 지능형 경고 - 활용 사례
-uuid: E 848 F 004-C 044-4 C 7 E-A 0 AC -9 F 3 EA 2 DF 9 A 05
+uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
