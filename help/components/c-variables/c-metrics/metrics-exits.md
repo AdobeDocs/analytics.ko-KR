@@ -1,13 +1,11 @@
 ---
 description: 주어진 값이 방문에서 마지막 값으로 캡처된 횟수입니다. 종료는 방문당 한 번만 발생할 수 있습니다.
-seo-description: 주어진 값이 방문에서 마지막 값으로 캡처된 횟수입니다. 종료는 방문당 한 번만 발생할 수 있습니다.
-seo-title: 종료
 solution: Analytics
 title: 종료
-topic: 지표
+topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
