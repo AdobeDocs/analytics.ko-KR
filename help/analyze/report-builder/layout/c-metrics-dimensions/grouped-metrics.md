@@ -1,18 +1,16 @@
 ---
 description: 이제 별도의 요청을 만들 필요 없이 2개의 지표 유형을 동일한 단일 요청에 통합할 수 있습니다.
-seo-description: 이제 별도의 요청을 만들 필요 없이 2개의 지표 유형을 동일한 단일 요청에 통합할 수 있습니다.
-seo-title: 트래픽 및 상거래 지표를 동일한 요청에서 결합
 solution: Analytics
-title: 트래픽 및 상거래 지표를 동일한 요청에서 결합
-topic: Report Builder
-uuid: 2813 D 594-F 4 EC -4 F 6 A -8539-EC 7 D 954 A 392 F
+title: 트래픽 및 상거래 지표를 동일한 요청에 통합
+topic: Report builder
+uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 트래픽 및 상거래 지표를 동일한 요청에서 결합
+# 트래픽 및 상거래 지표를 동일한 요청에 통합
 
 이제 별도의 요청을 만들 필요 없이 2개의 지표 유형을 동일한 단일 요청에 통합할 수 있습니다.
 
