@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Analytics 보고 API
 title: Analytics 보고 API
-uuid: 68 EC 3490-6 E 47-4606-860 D-DD 5 E 89 C 574 A 1
+uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 translation-type: tm+mt
-source-git-commit: e638903d4b08c5afea248c21dde14334d2af42f7
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
