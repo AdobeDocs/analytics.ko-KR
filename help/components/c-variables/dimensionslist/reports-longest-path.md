@@ -1,13 +1,11 @@
 ---
 description: 현재 기간 동안 사이트 방문자가 거쳐간 최장 경로를 표시합니다. 처음부터 끝까지 방문한 각 페이지를 포함하여 최장 경로의 전체 경로를 볼 수 있습니다.
-seo-description: 현재 기간 동안 사이트 방문자가 거쳐간 최장 경로를 표시합니다. 처음부터 끝까지 방문한 각 페이지를 포함하여 최장 경로의 전체 경로를 볼 수 있습니다.
-seo-title: 최장 경로
 solution: Analytics
 title: 최장 경로
-topic: 보고서
-uuid: f 2 d 80 cf 8-48 f 7-416 f -9 f 8 b-e 2078400 e 596
+topic: Reports
+uuid: f2d80cf8-48f7-416f-9f8b-e2078400e596
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
