@@ -1,14 +1,12 @@
 ---
 description: 웹 사이트 방문 수가 Adobe Analytics에서 보고서가 되는 방식에 대해 알아봅니다.
-keywords: Analytics 구현;데이터 수집
-seo-description: 웹 사이트 방문 수가 Adobe Analytics에서 보고서가 되는 방식에 대해 알아봅니다.
-seo-title: 데이터 수집
+keywords: Analytics Implementation;data collection
 solution: Analytics
 title: 데이터 수집
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
