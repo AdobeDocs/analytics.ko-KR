@@ -1,13 +1,11 @@
 ---
 description: Report Builder는 Analytics 사용자 지정 달력을 사용합니다. 달력을 사용하여 주 및 연도의 첫째 날을 정의하거나 다른 소매 달력 스타일을 사용할 수 있습니다. 판매 비교와 예측 표준화, 급여 비용 분석 또는 물리적 재고 개수 규정 등 다양한 목적에 달력 형식을 사용할 수 있습니다.
-seo-description: Report Builder는 Analytics 사용자 지정 달력을 사용합니다. 달력을 사용하여 주 및 연도의 첫째 날을 정의하거나 다른 소매 달력 스타일을 사용할 수 있습니다. 판매 비교와 예측 표준화, 급여 비용 분석 또는 물리적 재고 개수 규정 등 다양한 목적에 달력 형식을 사용할 수 있습니다.
-seo-title: 사용자 지정 달력
 solution: Analytics
 title: 사용자 지정 달력
-topic: Report Builder
+topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
