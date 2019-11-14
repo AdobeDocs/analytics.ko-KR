@@ -1,13 +1,11 @@
 ---
 description: 실시간으로 웹 페이지 트래픽을 표시하고 페이지 보기 횟수 등급을 지정하므로 사이트의 트렌드를 보다 빠르게 파악할 수 있습니다.
-seo-description: 실시간으로 웹 페이지 트래픽을 표시하고 페이지 보기 횟수 등급을 지정하므로 사이트의 트렌드를 보다 빠르게 파악할 수 있습니다.
-seo-title: 실시간 보고서
 solution: Analytics
 title: 실시간 보고서
-topic: Report Builder
+topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
