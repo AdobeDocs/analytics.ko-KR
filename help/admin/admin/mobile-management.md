@@ -1,13 +1,11 @@
 ---
 description: 모바일 관리를 활성화하면 모바일 애플리케이션에서 라이프사이클 및 기타 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
-seo-description: 모바일 관리를 활성화하면 모바일 애플리케이션에서 라이프사이클 및 기타 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
-seo-title: 모바일 관리
 solution: Analytics
 title: 모바일 관리
-topic: 관리 도구
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
