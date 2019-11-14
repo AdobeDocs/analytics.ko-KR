@@ -1,14 +1,12 @@
 ---
 description: 경로 지정은 사용자가 사이트에서 선택하는 경로로 정의됩니다.
-keywords: Analytics 구현
-seo-description: 경로 지정은 사용자가 사이트에서 선택하는 경로로 정의됩니다.
-seo-title: 경로 지정 개요
+keywords: Analytics Implementation
 solution: Analytics
 title: 경로 지정 개요
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
