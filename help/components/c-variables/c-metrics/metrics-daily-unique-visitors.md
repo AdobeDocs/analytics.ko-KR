@@ -1,13 +1,11 @@
 ---
-description: 하루 동안 중복되지 않은 웹 사이트 방문자 수(한 번만 카운트함). 일일 고유 방문자의 방문은 보고서 세트에서 선택한 시간대의 자정에 종료됩니다.
-seo-description: 하루 동안 중복되지 않은 웹 사이트 방문자 수(한 번만 카운트함). 일별 고유 방문자의 방문은 보고서 세트에서 선택한 시간대의 자정에 종료됩니다.
-seo-title: 일일 고유 방문자 수
+description: 하루 동안 중복되지 않은 웹 사이트 방문자 수(한 번만 카운트함). 일별 고유 방문자의 방문은 보고서 세트에서 선택한 시간대의 자정에 종료됩니다.
 solution: Analytics
 title: 일일 고유 방문자 수
-topic: 지표
+topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
