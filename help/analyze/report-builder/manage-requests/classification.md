@@ -1,13 +1,11 @@
 ---
 description: '분류는 분석 보고 데이터를 관련 속성에 매핑하는 데 사용됩니다. 분류는 다양한 목적으로 사용할 수 있지만 캠페인 추적 코드(내외부 모두)와 제품 ID를 분류하는 데 가장 일반적으로 사용됩니다. '
-seo-description: '분류는 분석 보고 데이터를 관련 속성에 매핑하는 데 사용됩니다. 분류는 다양한 목적으로 사용할 수 있지만 캠페인 추적 코드(내외부 모두)와 제품 ID를 분류하는 데 가장 일반적으로 사용됩니다. '
-seo-title: 분류
 solution: Analytics
 title: 분류
-topic: Report Builder
+topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
