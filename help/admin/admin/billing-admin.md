@@ -1,13 +1,11 @@
 ---
 description: 과금 페이지에서는 각 보고서 세트에 대한 트래픽 세부 사항을 포함하여 과금 정보에 액세스할 수 있습니다. 권한이 있는 관리자만 이 페이지에 액세스할 수 있습니다.
-seo-description: 과금 페이지에서는 각 보고서 세트에 대한 트래픽 세부 사항을 포함하여 과금 정보에 액세스할 수 있습니다. 권한이 있는 관리자만 이 페이지에 액세스할 수 있습니다.
-seo-title: 청구
 solution: Analytics
 title: 청구
-topic: 관리 도구
+topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
