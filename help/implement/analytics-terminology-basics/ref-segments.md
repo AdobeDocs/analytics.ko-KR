@@ -1,14 +1,12 @@
 ---
 description: 세그먼트는 데이터의 사용자 지정 하위 세트이거나 작성한 규칙으로 필터링된 데이터입니다.
-keywords: Analytics 구현;세그먼트
-seo-description: 세그먼트는 데이터의 사용자 지정 하위 세트이거나 작성한 규칙으로 필터링된 데이터입니다.
-seo-title: 세그먼트
+keywords: Analytics Implementation;segment
 solution: Analytics
 title: 세그먼트
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
