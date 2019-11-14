@@ -1,15 +1,13 @@
 ---
 description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다.
-keywords: 그룹;권한
-seo-description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다.
-seo-title: 차원 권한 사용자 지정
+keywords: groups;permissions
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 차원 권한 사용자 지정
-topic: 관리 도구
+topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
