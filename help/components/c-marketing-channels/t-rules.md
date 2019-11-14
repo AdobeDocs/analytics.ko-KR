@@ -1,14 +1,12 @@
 ---
 description: 방문자 히트가 채널에 지정된 기준을 충족하는지 여부를 결정하는 마케팅 채널 처리 규칙을 만듭니다.
-seo-description: 방문자 히트가 채널에 지정된 기준을 충족하는지 여부를 결정하는 마케팅 채널 처리 규칙을 만듭니다.
-seo-title: 마케팅 채널 처리 규칙 만들기
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 마케팅 채널 처리 규칙 만들기
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
