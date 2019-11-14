@@ -1,14 +1,12 @@
 ---
 description: 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
-seo-description: 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
-seo-title: Data Sources 관리자
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: Data Sources 관리자
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
