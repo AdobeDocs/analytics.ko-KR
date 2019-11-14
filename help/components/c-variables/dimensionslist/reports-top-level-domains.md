@@ -1,13 +1,11 @@
 ---
 description: 여러 국가의 고객이 성공 지표에 영향을 주는 방식을 표시합니다. 이 차원은 방문 기점의 도메인 확장자를 기반으로 방문자의 지역을 확인합니다.
-seo-description: 여러 국가의 고객이 성공 지표에 영향을 주는 방식을 표시합니다. 이 차원은 방문 기점의 도메인 확장자를 기반으로 방문자의 지역을 확인합니다.
-seo-title: 최상위 수준 도메인
 solution: Analytics
 title: 최상위 수준 도메인
-topic: 보고서
+topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
