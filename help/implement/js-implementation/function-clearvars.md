@@ -1,14 +1,12 @@
 ---
 description: 인스턴스 개체에서 다음 값을 지웁니다. 이 함수는 요소를 제거합니다(요소를 "정의되지 않음"으로 설정).
-keywords: Analytics 구현
-seo-description: 인스턴스 개체에서 다음 값을 지웁니다. 이 함수는 요소를 제거합니다(요소를 "정의되지 않음"으로 설정).
-seo-title: s.clearVars() 함수
+keywords: Analytics Implementation
 solution: Analytics
 title: s.clearVars() 함수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
