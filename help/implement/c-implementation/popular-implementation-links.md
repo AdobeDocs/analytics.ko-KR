@@ -1,11 +1,9 @@
 ---
 description: '구현 중에 다음과 같은 유용한 문서를 사용할 수 있습니다. '
-seo-description: '구현 중에 다음과 같은 유용한 문서를 사용할 수 있습니다. '
-seo-title: 많이 사용하는 구현 링크
 title: 많이 사용하는 구현 링크
 uuid: 4441aa4c-0bb7-4797-91b9-cd201aad99f2
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
