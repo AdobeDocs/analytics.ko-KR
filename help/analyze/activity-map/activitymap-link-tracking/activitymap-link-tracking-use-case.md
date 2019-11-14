@@ -1,13 +1,11 @@
 ---
 description: s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을 사용자 지정하고, AppMeasurement ActivityMap 모듈 파일을 사용자 지정하여 링크를 차별화할 수 있습니다.
-seo-description: s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을 사용자 지정하고, AppMeasurement ActivityMap 모듈 파일을 사용자 지정하여 링크를 차별화할 수 있습니다.
-seo-title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 solution: Analytics
 title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
-topic: Activity Map
+topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 ## s_objectID를 사용하여 링크 ID 사용자 지정 {#section_01B0D463397B4837B2D46F087A6E5937}
 
-페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대해 자세히 알려면 [여기](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/s_objectID.html)를 클릭하십시오.
+페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대해 자세히 알려면 [여기](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)를 클릭하십시오.
 
 >[!IMPORTANT]
 >
