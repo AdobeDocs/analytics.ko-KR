@@ -1,15 +1,13 @@
 ---
 description: Adobe에서는 쿠키를 사용하여 고유한 브라우저/장치를 추적합니다.
-keywords: Analytics 구현
-seo-description: Adobe에서는 쿠키를 사용하여 고유한 브라우저/장치를 추적합니다.
-seo-title: 고유 방문자 수 식별
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 방문자 수
+subtopic: Visitors
 title: 고유 방문자 수 식별
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
