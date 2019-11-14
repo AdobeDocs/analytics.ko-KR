@@ -1,14 +1,12 @@
 ---
 description: 카운터는 특정 이벤트나 프로세스가 발생한 횟수를 저장(및 때로 표시)합니다.
-keywords: Analytics 구현;props;s.prop;사용자 지정 트래픽;카운터
-seo-description: 카운터는 특정 이벤트나 프로세스가 발생한 횟수를 저장(및 때로 표시)합니다.
-seo-title: prop을 카운터로 사용
+keywords: Analytics Implementation;props;s.prop;custom traffic;counters
 solution: Analytics
 title: prop을 카운터로 사용
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
