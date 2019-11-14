@@ -1,13 +1,11 @@
 ---
 description: '[작업] 탭을 사용하여 작업 내역을 보고 작업 관리 작업을 수행합니다.'
-keywords: 데이터 피드;작업;구성
-seo-description: '[작업] 탭을 사용하여 작업 내역을 보고 작업 관리 작업을 수행합니다.'
-seo-title: 데이터 피드 작업 - 개요
+keywords: Data Feed;job;configure
 solution: Analytics
 title: 데이터 피드 작업 - 개요
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
