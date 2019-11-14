@@ -1,13 +1,11 @@
 ---
 description: 마케팅 보고에서 일반적으로 사용되는 웹 분석 용어에 대한 소개입니다.
-seo-description: 마케팅 보고에서 일반적으로 사용되는 웹 분석 용어에 대한 소개입니다.
-seo-title: 공통 용어
 solution: Analytics
 title: 공통 용어
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
