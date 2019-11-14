@@ -1,11 +1,9 @@
 ---
 description: 주문을 지원하는 마케팅 채널을 보여 주는 지표를 작성하는 방법에 대해 설명합니다. 이는 원하는 모든 차원 또는 성공 이벤트에 적용할 수 있습니다.
-seo-description: 주문을 지원하는 마케팅 채널을 보여 주는 지표를 작성하는 방법에 대해 설명합니다. 이는 원하는 모든 차원 또는 성공 이벤트에 적용할 수 있습니다.
-seo-title: 지원 지표 주문
 title: 지원 지표 주문
-uuid: 7c82227a-7fcc-48 파섹
+uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
