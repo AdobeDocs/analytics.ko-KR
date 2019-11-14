@@ -1,13 +1,11 @@
 ---
 description: 온라인 미디어 액세스 통계에 대한 정보를 표시합니다. 또한 비디오와 기타 미디어 액세스에 대한 데이터도 이 보고서에서 확인할 수 있습니다.
-seo-description: 온라인 미디어 액세스 통계에 대한 정보를 표시합니다. 또한 비디오와 기타 미디어 액세스에 대한 데이터도 이 보고서에서 확인할 수 있습니다.
-seo-title: 비디오
 solution: Analytics
 title: 비디오
-topic: 보고서
+topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
