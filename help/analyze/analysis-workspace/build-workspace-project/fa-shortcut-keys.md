@@ -1,19 +1,17 @@
 ---
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
 keywords: Analysis Workspace
-seo-description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
-seo-title: 분석 작업 공간에서 사용할 수 있는 핫키
 solution: Analytics
-title: 분석 작업 공간에서 사용할 수 있는 핫키
-topic: Reports & Analytics
-uuid: 1 EE 93 CE 3-ACAB -44 F 8-ABDC -9 A 68 CED 35 D 32
+title: Analysis Workspace에서 사용할 수 있는 핫키
+topic: Reports and analytics
+uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 분석 작업 공간에서 사용할 수 있는 핫키
+# Analysis Workspace에서 사용할 수 있는 핫키
 
 Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
 
