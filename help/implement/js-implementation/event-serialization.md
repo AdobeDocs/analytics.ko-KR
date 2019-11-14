@@ -1,14 +1,12 @@
 ---
 description: 이벤트 일련화는 중복 이벤트 중복 이벤트가 Analytics 보고에 들어가지 않도록 하는 방법을 구현하는 프로세스입니다. 일반적으로 사용자가 페이지를 여러 번 새로 고치거나, 특정 페이지로 여러 번 이동하거나, 웹 페이지를 컴퓨터에 저장하면 발생할 수 있습니다. 예를 들어, 고객이 구매 확인 페이지를 컴퓨터에 여러 번 저장하는 경우, 이벤트 일련화를 사용하지 않으면 고객이 그 페이지를 볼 때마다 주문 및 매출이 다시 계산됩니다.
-keywords: Analytics 구현
-seo-description: 이벤트 일련화는 중복 이벤트 중복 이벤트가 Analytics 보고에 들어가지 않도록 하는 방법을 구현하는 프로세스입니다. 일반적으로 사용자가 페이지를 여러 번 새로 고치거나, 특정 페이지로 여러 번 이동하거나, 웹 페이지를 컴퓨터에 저장하면 발생할 수 있습니다. 예를 들어, 고객이 구매 확인 페이지를 컴퓨터에 여러 번 저장하는 경우, 이벤트 일련화를 사용하지 않으면 고객이 그 페이지를 볼 때마다 주문 및 매출이 다시 계산됩니다.
-seo-title: 이벤트 일련화 개요
+keywords: Analytics Implementation
 solution: Analytics
 title: 이벤트 일련화 개요
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
