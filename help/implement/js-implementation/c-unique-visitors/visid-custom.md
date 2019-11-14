@@ -1,14 +1,12 @@
 ---
 description: 사용자 지정 방법을 구현하여 s.visitorID 변수를 설정함으로써 방문자를 식별할 수 있습니다.
-keywords: Analytics 구현
-seo-description: 사용자 지정 방법을 구현하여 s.visitorID 변수를 설정함으로써 방문자를 식별할 수 있습니다.
-seo-title: 사용자 지정 방문자 ID
+keywords: Analytics Implementation
 solution: Analytics
 title: 사용자 지정 방문자 ID
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
