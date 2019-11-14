@@ -1,13 +1,11 @@
 ---
 description: Ad Hoc Analysis의 단일 페이지 방문 지표와는 다릅니다. 단일 페이지 방문 보고서는 웹 사이트 방문자가 다른 페이지를 보는 단계를 수행하지 않고 시작 및 종료한 웹 페이지를 표시합니다.
-seo-description: Ad Hoc Analysis의 단일 페이지 방문 지표와는 다릅니다. 단일 페이지 방문 보고서는 웹 사이트 방문자가 다른 페이지를 보는 단계를 수행하지 않고 시작 및 종료한 웹 페이지를 표시합니다.
-seo-title: 단일 페이지 방문
 solution: Analytics
 title: 단일 페이지 방문
-topic: 보고서
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
