@@ -1,16 +1,14 @@
 ---
 description: 분석 작업 공간의 세그멘테이션 기능에 대해 알아봅니다.
-seo-description: 분석 작업 공간의 세그멘테이션 기능에 대해 알아봅니다.
-seo-title: 분석 작업 공간의 세그멘테이션 기능
-title: 분석 작업 공간의 세그멘테이션 기능
-uuid: ED 1 D 95 E 2-BD 32-4 F 03-A 007-1 D 3 E 4 CA 08 A 5 B
+title: Analysis Workspace의 세그멘테이션 기능
+uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 분석 작업 공간의 세그멘테이션 기능
+# Analysis Workspace의 세그멘테이션 기능
 
 분석 작업 공간의 세그멘테이션 기능에 대해 알아봅니다.
 
