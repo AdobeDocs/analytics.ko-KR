@@ -1,13 +1,11 @@
 ---
 description: 방문자가 사이트에 오기 전에 있었던 도메인 또는 URL, 방문자가 웹 사이트를 검색하는 데 사용한 방법 및 이러한 참조 위치에서 이루어진 사이트 방문 횟수를 보여줍니다.
-seo-description: 방문자가 사이트에 오기 전에 있었던 도메인 또는 URL, 방문자가 웹 사이트를 검색하는 데 사용한 방법 및 이러한 참조 위치에서 이루어진 사이트 방문 횟수를 보여줍니다.
-seo-title: 레퍼러
 solution: Analytics
 title: 레퍼러
-topic: 보고서
+topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
