@@ -1,14 +1,12 @@
 ---
 description: 쿼리 문자열 매개 변수를 사용하여 변수를 채울 수 있습니다.
-seo-description: 쿼리 문자열 매개 변수를 사용하여 변수를 채울 수 있습니다.
-seo-title: 쿼리 문자열 매개 변수에서 캠페인 ID 채우기
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 쿼리 문자열 매개 변수에서 캠페인 ID 채우기
-topic: 관리 도구
+topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
