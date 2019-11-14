@@ -1,14 +1,12 @@
 ---
 description: 마케팅 채널 보고서를 통해 마케팅 채널에서 생성한 매출액을 확인할 수 있습니다. 이 보고서에는 매출, 주문, 비용과 같은 중요한 표준 지표와 함께, 첫 번째 및 마지막 접촉 채널 할당에 대한 개요 보고서가 포함되어 있습니다.
-seo-description: 마케팅 채널 보고서를 통해 마케팅 채널에서 생성한 매출액을 확인할 수 있습니다. 이 보고서에는 매출, 주문, 비용과 같은 중요한 표준 지표와 함께, 첫 번째 및 마지막 접촉 채널 할당에 대한 개요 보고서가 포함되어 있습니다.
-seo-title: 마케팅 채널 보고서 정보
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 마케팅 채널 보고서 정보
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
