@@ -1,13 +1,11 @@
 ---
 description: 매출액은 구매 이벤트에 대해 캡처되며, 각 제품의 주문에 대한 합계 총액(달러)으로 정의됩니다. 이 값은 purchase 이벤트에서 옵니다.
-seo-description: 매출액은 구매 이벤트에 대해 캡처되며, 각 제품의 주문에 대한 합계 총액(달러)으로 정의됩니다. 이 값은 purchase 이벤트에서 옵니다.
-seo-title: '매출 '
 solution: Analytics
 title: '매출 '
-topic: 지표
+topic: Metrics
 uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
