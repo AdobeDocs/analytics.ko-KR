@@ -1,15 +1,13 @@
 ---
 description: Akamai 및 Speedera와 같은 컨텐츠 전달 서비스나 CDN(Content Distribution Network)은 요청을 자주 받는 문서들을 액세스되는 위치에 가깝게 보관하면서, 웹 컨텐츠는 네트워크의 가장자리에 더 가깝게 두게 됩니다.
-keywords: Analytics 구현
-seo-description: Akamai 및 Speedera와 같은 컨텐츠 전달 서비스나 CDN(Content Distribution Network)은 요청을 자주 받는 문서들을 액세스되는 위치에 가깝게 보관하면서, 웹 컨텐츠는 네트워크의 가장자리에 더 가깝게 두게 됩니다.
-seo-title: 콘텐츠 게재 서비스/네트워크
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 문제 해결
+subtopic: Troubleshooting
 title: 콘텐츠 게재 서비스/네트워크
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
