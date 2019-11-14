@@ -1,13 +1,11 @@
 ---
 description: 사이트에 서버 간 탐색 데이터를 표시합니다. 사이트의 서버 이름을 선택하면 다음 서버 흐름은 단일 방문 내에 또는 여러 방문에 걸쳐 해당 서버에서 사이트의 다른 각 서버까지 탐색한 방문자 수를 보여줍니다.
-seo-description: 사이트에 서버 간 탐색 데이터를 표시합니다. 사이트의 서버 이름을 선택하면 다음 서버 흐름은 단일 방문 내에 또는 여러 방문에 걸쳐 해당 서버에서 사이트의 다른 각 서버까지 탐색한 방문자 수를 보여줍니다.
-seo-title: 다음 서버 흐름
 solution: Analytics
 title: 다음 서버 흐름
-topic: 보고서
-uuid: d2ead6a9-9b64-434b-963e-6c66b94ae62
+topic: Reports
+uuid: d2ead6a9-9b64-434b-963e-6c66b94ae662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
