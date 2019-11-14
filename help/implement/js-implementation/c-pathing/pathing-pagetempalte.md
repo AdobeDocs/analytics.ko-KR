@@ -1,14 +1,12 @@
 ---
 description: 사이트에 페이지 유형이나 페이지 템플릿이 있으면, 경로 지정을 사용하여 한 유형에서 다른 유형으로 이동하는 방법을 알 수 있습니다.
-keywords: Analytics 구현
-seo-description: 사이트에 페이지 유형이나 페이지 템플릿이 있으면, 경로 지정을 사용하여 한 유형에서 다른 유형으로 이동하는 방법을 알 수 있습니다.
-seo-title: 페이지 템플릿에서 페이지 템플릿으로 이동
+keywords: Analytics Implementation
 solution: Analytics
 title: 페이지 템플릿에서 페이지 템플릿으로 이동
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
