@@ -1,14 +1,12 @@
 ---
 description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
-seo-description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
-seo-title: 분류 규칙 - 정의
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 분류 규칙 - 정의
-topic: 관리 도구
+topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
