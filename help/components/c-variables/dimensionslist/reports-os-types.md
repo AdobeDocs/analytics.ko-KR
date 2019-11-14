@@ -1,13 +1,11 @@
 ---
 description: 운영 체제 보고서에서 운영 체제 보고서의 특정 버전을 단순화된 보고 및 세그멘테이션을 위해 기본 운영 체제 유형으로 등록합니다.
-seo-description: 운영 체제 보고서에서 운영 체제 보고서의 특정 버전을 단순화된 보고 및 세그멘테이션을 위해 기본 운영 체제 유형으로 등록합니다.
-seo-title: 운영 체제 유형
 solution: Analytics
 title: 운영 체제 유형
-topic: 보고서
+topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
