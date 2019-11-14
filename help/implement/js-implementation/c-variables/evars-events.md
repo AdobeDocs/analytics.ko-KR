@@ -1,14 +1,12 @@
 ---
 description: '추가 정보를 추적하려고 하지만 그렇게 할 충분한 변수가 없는 경우 이제 추가 eVar 및 성공 이벤트에 액세스할 수 있습니다 '
-keywords: Analytics 구현;evar;이벤트;evar 수;evar 개수;이벤트 수
-seo-description: '추가 정보를 추적하려고 하지만 그렇게 할 충분한 변수가 없는 경우 이제 추가 eVar 및 성공 이벤트에 액세스할 수 있습니다 '
-seo-title: 추가 eVar 및 이벤트
+keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
 solution: Analytics
 title: 추가 eVar 및 이벤트
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
