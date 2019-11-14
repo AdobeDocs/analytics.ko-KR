@@ -1,13 +1,11 @@
 ---
 description: 사이트에 액세스한 고유 방문자 수를 표시합니다. 각 방문자는 웹 사이트 방문 횟수에 관계 없이 한 번만 카운트됩니다.
-seo-description: 사이트에 액세스한 고유 방문자 수를 표시합니다. 각 방문자는 웹 사이트 방문 횟수에 관계 없이 한 번만 카운트됩니다.
-seo-title: 고유 방문자 수
 solution: Analytics
 title: 고유 방문자 수
-topic: 보고서
+topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
