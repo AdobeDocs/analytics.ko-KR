@@ -1,14 +1,12 @@
 ---
-description: 범용(거래 ID) 카테고리를 선택하여 방문자 ID를 통합할 수 있습니다.
-seo-description: 범용(트랜잭션 ID) 카테고리를 선택하여 방문자 ID를 통합할 수 있습니다.
-seo-title: 방문자 ID
+description: 범용(트랜잭션 ID) 카테고리를 선택하여 방문자 ID를 통합할 수 있습니다.
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 방문자 ID
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
