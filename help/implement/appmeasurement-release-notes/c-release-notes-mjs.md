@@ -1,14 +1,12 @@
 ---
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
-seo-description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
-seo-title: JavaScript용 AppMeasurement
 solution: Analytics
-subtopic: 릴리스 노트
+subtopic: Release notes
 title: JavaScript용 AppMeasurement
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
