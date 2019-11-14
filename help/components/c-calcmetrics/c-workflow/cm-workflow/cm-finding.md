@@ -1,11 +1,9 @@
 ---
-description: 지표 정렬 및 필터링을 찾는 두 가지 주요 방법을 설명합니다.
-seo-description: 지표 정렬 및 필터링을 찾는 두 가지 주요 방법을 설명합니다.
-seo-title: 지표 찾기
+description: 지표 정렬 및 필터링을 찾는 두 가지 주요 방법에 대해 설명합니다.
 title: 지표 찾기
-uuid: 60 C 8 E 02 C -736 D -4 D 20-8799-69 F 6 CA 250033
+uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
