@@ -1,13 +1,11 @@
 ---
 description: 기본 리포트 빌더 데이터 요청을 만드는 절차.
-seo-description: 기본 리포트 빌더 데이터 요청을 만드는 절차.
-seo-title: 리포트 빌더 데이터 요청 만들기
 solution: Analytics
 title: 데이터 요청 만들기
-topic: Report Builder
+topic: Report builder
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
