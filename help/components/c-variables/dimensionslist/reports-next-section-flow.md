@@ -1,13 +1,11 @@
 ---
 description: 다음 섹션 흐름은 다음 페이지 흐름과 유사합니다. 사이트 섹션(관련 웹 페이지 그룹)에 대한 데이터를 표시합니다. 페이지가 하나의 사이트 섹션에 여러 번 포함되는 경우 모든 사이트 섹션의 데이터를 표시합니다.
-seo-description: 다음 섹션 흐름은 다음 페이지 흐름과 유사합니다. 사이트 섹션(관련 웹 페이지 그룹)에 대한 데이터를 표시합니다. 페이지가 하나의 사이트 섹션에 여러 번 포함되는 경우 모든 사이트 섹션의 데이터를 표시합니다.
-seo-title: 다음 섹션 흐름
 solution: Analytics
 title: 다음 섹션 흐름
-topic: 보고서
+topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
