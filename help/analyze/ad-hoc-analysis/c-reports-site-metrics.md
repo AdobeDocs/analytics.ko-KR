@@ -1,13 +1,11 @@
 ---
 description: 방문자가 특정 페이지를 본 횟수, 특정 페이지에서 발생한 총 구매 횟수, 온 시간 및 유사한 수량 데이터와 같이, 웹 사이트에 대한 수량적 정보를 제공합니다. 이러한 보고서 각각은 다른 항목 기반 보고서에 배치할 수 있는 지표입니다.
-seo-description: 방문자가 특정 페이지를 본 횟수, 특정 페이지에서 발생한 총 구매 횟수, 온 시간 및 유사한 수량 데이터와 같이, 웹 사이트에 대한 수량적 정보를 제공합니다. 이러한 보고서 각각은 다른 항목 기반 보고서에 배치할 수 있는 지표입니다.
-seo-title: 사이트 지표 보고서
 solution: Analytics
 title: 사이트 지표 보고서
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
