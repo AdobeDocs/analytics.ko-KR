@@ -1,13 +1,11 @@
 ---
 description: 고정 날짜나 날짜 범위를 지정하면 Report Builder에서는 보고 달력을 표시하여 날짜, 날짜 범위 또는 사전 설정 날짜를 선택할 수 있도록 해줍니다. 고정 날짜를 저장하여 템플릿으로 사용하고 저장된 날짜를 현재 보고서 세트나 모든 보고서 세트에 사용할 수 있는지 여부를 지정할 수도 있습니다.
-seo-description: 고정 날짜나 날짜 범위를 지정하면 Report Builder에서는 보고 달력을 표시하여 날짜, 날짜 범위 또는 사전 설정 날짜를 선택할 수 있도록 해줍니다. 고정 날짜를 저장하여 템플릿으로 사용하고 저장된 날짜를 현재 보고서 세트나 모든 보고서 세트에 사용할 수 있는지 여부를 지정할 수도 있습니다.
-seo-title: 고정 날짜 및 저장된 날짜 범위
 solution: Analytics
 title: 고정 날짜 및 저장된 날짜 범위
-topic: Report Builder
-uuid: F 00218 C 0-07 F 3-4505-98 B 0-DE 05187401 FD
+topic: Report builder
+uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
