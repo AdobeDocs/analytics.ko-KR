@@ -1,14 +1,12 @@
 ---
 description: Analytics를 사용하기 시작하려면 보고에 표시할 보고서 세트로 데이터를 보내야 합니다.
-keywords: Analytics 구현;javascript;javascript 구현;appmeasurement;appmeasurement 다운로드;ID 서비스;visitorapi.js;캐싱;appmeasurement 압축
-seo-description: Analytics를 사용하기 시작하려면 보고에 표시할 보고서 세트로 데이터를 보내야 합니다.
-seo-title: JavaScript 구현 개요
+keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compression
 solution: Analytics
 title: JavaScript 구현 개요
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
