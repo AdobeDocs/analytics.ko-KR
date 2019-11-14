@@ -1,13 +1,11 @@
 ---
 description: 실시간 페이지 분석(라이브 모드)에서는 실시간으로 매우 세부적인 결과를 획득할 수 있습니다.
-seo-description: 실시간 페이지 분석(라이브 모드)에서는 실시간으로 매우 세부적인 결과를 획득할 수 있습니다.
-seo-title: 실시간(라이브) 페이지 분석
 solution: Analytics
 title: 실시간(라이브) 페이지 분석
-topic: Activity Map
+topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,4 +35,4 @@ Adobe Target에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~10분 �
 * 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
-이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
+이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
