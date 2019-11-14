@@ -1,14 +1,12 @@
 ---
 description: 집단 분석 사용 사례 예입니다.
 keywords: Analysis Workspace
-seo-description: 집단 분석 사용 사례 예입니다.
-seo-title: 집단 분석 활용 사례
 solution: Analytics
 title: 집단 분석 활용 사례
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
