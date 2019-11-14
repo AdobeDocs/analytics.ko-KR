@@ -1,14 +1,12 @@
 ---
 description: 회사에서 모든 사용자에게 이메일 메시지를 보내는 방법을 설명하는 단계입니다.
-seo-description: 회사에서 모든 사용자에게 이메일 메시지를 보내는 방법을 설명하는 단계입니다.
-seo-title: 이메일 사용자
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 이메일 사용자
-topic: 관리 도구
+topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
