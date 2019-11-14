@@ -1,13 +1,11 @@
 ---
 description: 차원은 보고서에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 원본 보고서 유형 지표의 상관 관계를 보여주거나 하위 관계를 보여 주거나 이 지표의 분류인 숫자가 아닌 값 및 날짜입니다.
-seo-description: 차원은 보고서에서 보고, 분류하고 비교할 수 있는 지표 데이터에 대한 설명 또는 특성입니다. 원본 보고서 유형 지표의 상관 관계를 보여주거나 하위 관계를 보여 주거나 이 지표의 분류인 숫자가 아닌 값 및 날짜입니다.
-seo-title: 차원
 solution: Analytics
 title: 차원
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
