@@ -1,14 +1,12 @@
 ---
 description: 데이터 소스 파일을 업로드하는 방법을 설명하는 절차입니다.
-seo-description: 데이터 소스 파일을 업로드하는 방법을 설명하는 절차입니다.
-seo-title: Data Sources 파일 업로드
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: Data Sources 파일 업로드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
