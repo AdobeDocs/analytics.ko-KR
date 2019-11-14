@@ -1,13 +1,11 @@
 ---
 description: Dynamic Tag Management를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동(이전) 구현에 대해 설명합니다.
 keywords: Dynamic Tag Management
-seo-description: Dynamic Tag Management를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동(이전) 구현에 대해 설명합니다.
-seo-title: Adobe Analytics 수동 구현(이전)
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 수동 구현(이전)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
       | 도구 유형 | Analytics, Target, Social 등과 같은 Experience Cloud 솔루션. |
       | 도구 이름 | 이 도구의 이름입니다. 이 이름은 [!UICONTROL 설치된 도구] 아래의 [!UICONTROL 개요]에 표시됩니다. |
       | 프로덕션 계정 ID | 데이터 수집을 위한 프로덕션 계정 번호입니다. Dynamic Tag Management는 프로덕션 및 스테이징 환경에서 올바른 계정을 자동으로 설치합니다. |
-      | 스테이징 계정 ID | 개발이나 테스트 환경에서 사용되는 번호입니다. 스테이징 계정은 테스트 데이터를 프로덕션과 구별합니다. |
+      | 스테이징 계정 ID | 개발이나 테스트 환경에서 사용되는 번호입니다. 스테이징 계정은 테스트 데이터를 프로덕션과 분리시킵니다. |
 
 1. **[!UICONTROL 도구 만들기를 클릭합니다]**.
 
