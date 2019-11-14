@@ -1,14 +1,12 @@
 ---
 description: Numeric 2 분류는 가져오기를 통해 Adobe Experience Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
-seo-description: Numeric 2 분류는 가져오기를 통해 Adobe Experience Cloud에 가져올 수 있는 유연한 사용자 지정 지표를 제공합니다.
-seo-title: 숫자 2 분류 개요
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 숫자 2 분류 개요
-topic: 관리 도구
+topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
