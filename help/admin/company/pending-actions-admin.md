@@ -1,13 +1,11 @@
 ---
 description: 보류 중인 작업 관리 페이지에서는 Analytics 환경의 보류 중인 작업 목록을 볼 수 있습니다. 보류 중인 작업은 구현 전에 Adobe의 승인을 필요로 하는 시스템 변경 사항입니다.
-seo-description: 보류 중인 작업 관리 페이지에서는 Analytics 환경의 보류 중인 작업 목록을 볼 수 있습니다. 보류 중인 작업은 구현 전에 Adobe의 승인을 필요로 하는 시스템 변경 사항입니다.
-seo-title: 보류 중인 작업
 solution: Analytics
 title: 보류 중인 작업
-topic: 관리 도구
+topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
