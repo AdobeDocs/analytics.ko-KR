@@ -1,14 +1,12 @@
 ---
 description: 가상 보고서 세트 구현을 계획하는 데 필요한 단계에 대한 개요입니다.
-keywords: 가상 보고서 세트
-seo-description: 가상 보고서 세트 구현을 계획하는 데 필요한 단계에 대한 개요입니다.
-seo-title: 가상 보고서 세트 워크플로우
+keywords: Virtual Report Suite
 solution: Analytics
 title: 가상 보고서 세트 워크플로우
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
