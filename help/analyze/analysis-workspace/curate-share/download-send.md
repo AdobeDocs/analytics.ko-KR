@@ -1,11 +1,9 @@
 ---
 description: PDF 및 CSV 형식으로 저장된 프로젝트와 저장되지 않은 프로젝트를 다운로드할 수 있습니다.
-seo-description: PDF 및 CSV 형식으로 저장된 프로젝트와 저장되지 않은 프로젝트를 다운로드할 수 있습니다.
-seo-title: PDF 또는 CSV 파일 다운로드
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
