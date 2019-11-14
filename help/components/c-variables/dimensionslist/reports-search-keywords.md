@@ -1,13 +1,11 @@
 ---
 description: 검색 키워드 분류를 표시합니다.
-seo-description: 검색 키워드 분류를 표시합니다.
-seo-title: 검색 키워드
 solution: Analytics
 title: 검색 키워드
-topic: 보고서
-uuid: db 9 d 477 b-b 711-4 b 93-9 c 25-3 aebe 5 f 2 ace 6
+topic: Reports
+uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->유료 및 자연어 검색의 경우 검색 엔진이 대부분의 경우 검색 키워드를 레퍼러의 일부로 제공하지 않았습니다. 그 결과, Adobe는 항상 Google(또는 Bing이나 Yahoo!) 도메인을 검색으로 분류합니다. Adobe는 레퍼러의 형식과 컨텐츠(키워드가 없는 경우에도)를 기반으로 도메인을 종종 검색 결과라고 판단할 수 있으므로 이 검색은 사용할 수 없는 키워드로 계산됩니다. [자세히...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>유료 및 자연어 검색의 경우 검색 엔진이 레퍼러의 일부로 검색 키워드를 제공하지 않았습니다(대부분의 경우). 그 결과, Adobe는 항상 Google(또는 Bing이나 Yahoo!) 도메인을 검색으로 분류합니다. Adobe는 레퍼러의 형식과 컨텐츠(키워드가 없는 경우에도)를 기반으로 도메인을 종종 검색 결과라고 판단할 수 있으므로 이 검색은 사용할 수 없는 키워드로 계산됩니다. [자세히...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## 할당, 만료 및 특수 값 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
