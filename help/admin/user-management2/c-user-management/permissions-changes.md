@@ -1,15 +1,13 @@
 ---
 description: 'null'
-keywords: 그룹;권한
-seo-description: 'null'
-seo-title: 사용자 및 그룹 권한 변경 사항
+keywords: groups;permissions
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 사용자 및 그룹 권한 변경 사항
-topic: 관리 도구
+topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -98,7 +96,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
    <td colname="col1"> <p><b>2016년 10월</b> 릴리스에 포함된 권한 변경 사항은 무엇입니까 </p> </td> 
    <td colname="col2"> <p>현재 <span class="wintitle">관리 도구</span> 인터페이스에 대한 다음과 같은 향상된 기능을 사용할 수 있습니다. </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">관리 변경 사항 - 2016 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"> 년 가을에 설명된 권한 변경 사항</a>. </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">관리 변경 사항 - 2016 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"> 년 가을에 설명된 권한 변경</a>. </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">작동하지 않는 트래픽 보고서가 제거되었으며, 메뉴에 더 이상 없습니다. </li> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">분류 권한:분류에 대한 액세스는 분류가 사용하는 변수에 대한 액세스로 결정됩니다. </li> 
      </ul> </p> </td> 
