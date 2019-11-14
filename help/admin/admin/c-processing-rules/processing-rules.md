@@ -1,14 +1,12 @@
 ---
 description: 처리 규칙은 보고 기능으로 전송되어 데이터 수집을 단순화하고 컨텐츠를 관리합니다.
-seo-description: 처리 규칙은 보고 기능으로 전송되어 데이터 수집을 단순화하고 컨텐츠를 관리합니다.
-seo-title: 처리 규칙 개요
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 처리 규칙 개요
-topic: 관리 도구
+topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
