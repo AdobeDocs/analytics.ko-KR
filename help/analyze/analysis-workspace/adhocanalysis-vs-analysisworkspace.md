@@ -1,11 +1,9 @@
 ---
 description: Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
-seo-description: Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
-seo-title: Ad Hoc Analysis와 비교한 Analysis Workspace
 title: Ad Hoc Analysis와 비교한 Analysis Workspace
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
