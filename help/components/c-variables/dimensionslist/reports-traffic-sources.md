@@ -1,13 +1,11 @@
 ---
 description: 사이트로 트래픽을 유도하는 웹상의 위치에 대한 정보를 표시합니다. 방문자를 사용자 사이트로 보낸 외부의 검색 엔진과 웹 사이트를 확인할 수 있습니다.
-seo-description: 사이트로 트래픽을 유도하는 웹상의 위치에 대한 정보를 표시합니다. 방문자를 사용자 사이트로 보낸 외부의 검색 엔진과 웹 사이트를 확인할 수 있습니다.
-seo-title: 트래픽 소스
 solution: Analytics
 title: 트래픽 소스
-topic: 보고서
-uuid: 34ab8797-7a3e-43fd-afb2-433586961b8
+topic: Reports
+uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
