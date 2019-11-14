@@ -1,13 +1,11 @@
 ---
 description: '[피드 정보] 섹션을 사용하여 피드의 이름을 지정하고, 피드 실행에 사용할 보고서 세트를 지정하고, 피드 반복을 파악하고, 피드가 시작되고 끝나는 때를 지정합니다.'
-keywords: 데이터 피드;정보;이름;보고서 세트;완료 시 이메일;이메일;간격;피드;지연 처리;지연;시작;끝;날짜;연속 피드
-seo-description: '[피드 정보] 섹션을 사용하여 피드의 이름을 지정하고, 피드 실행에 사용할 보고서 세트를 지정하고, 피드 반복을 파악하고, 피드가 시작되고 끝나는 때를 지정합니다.'
-seo-title: 피드 정보
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: 피드 정보
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
