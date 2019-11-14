@@ -1,14 +1,12 @@
 ---
 description: 대부분의 모바일 장치는 브라우저 쿠키를 허용합니다. 하지만, 장치가 쿠키를 허용하지 않는 경우, 다른 방법을 사용하여 무선 장치를 고유하게 식별하게 됩니다.
-keywords: Analytics 구현
-seo-description: 대부분의 모바일 장치는 브라우저 쿠키를 허용합니다. 하지만, 장치가 쿠키를 허용하지 않는 경우, 다른 방법을 사용하여 무선 장치를 고유하게 식별하게 됩니다.
-seo-title: 모바일 장치 식별
+keywords: Analytics Implementation
 solution: Analytics
 title: 모바일 장치 식별
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
