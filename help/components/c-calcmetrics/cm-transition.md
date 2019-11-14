@@ -1,11 +1,9 @@
 ---
 description: 계산된 지표가 Analytics에서 작동하는 방식에 대한 다음의 변경 사항은 사용자에게 영향을 줄 수 있습니다.
-seo-description: 계산된 지표가 Analytics에서 작동하는 방식에 대한 다음의 변경 사항은 사용자에게 영향을 줄 수 있습니다.
-seo-title: FAQ
 title: FAQ
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
