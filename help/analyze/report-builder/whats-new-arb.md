@@ -1,11 +1,9 @@
 ---
 description: 현재 및 이전 릴리스와 해당 기능을 나열합니다.
-seo-description: 현재 및 이전 릴리스와 해당 기능을 나열합니다.
-seo-title: Report Builder의 새로운 기능
 title: Report Builder의 새로운 기능
-uuid: 20f4a839-0667-45a7-b037-0357d0e2 파섹
+uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
