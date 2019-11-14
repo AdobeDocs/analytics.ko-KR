@@ -1,13 +1,11 @@
 ---
 description: 모바일 장치를 휴대 전화, 태블릿, e-reader, 게임 콘솔, TV, 셋톱 박스, 미디어 플레이어 및 기타 카테고리로 그룹화하여 모바일 장치 유형 간 분포를 확인할 수 있습니다.
-seo-description: 모바일 장치를 휴대 전화, 태블릿, e-reader, 게임 콘솔, TV, 셋톱 박스, 미디어 플레이어 및 기타 카테고리로 그룹화하여 모바일 장치 유형 간 분포를 확인할 수 있습니다.
-seo-title: 장치 유형
 solution: Analytics
 title: 장치 유형
-topic: 보고서
+topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
