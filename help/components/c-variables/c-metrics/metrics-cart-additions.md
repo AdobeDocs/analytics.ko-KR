@@ -1,13 +1,11 @@
 ---
 description: 장바구니에 품목을 추가한 횟수입니다. 이 값은 scAdd 이벤트에서 옵니다.
-seo-description: 장바구니에 품목을 추가한 횟수입니다. 이 값은 scAdd 이벤트에서 옵니다.
-seo-title: 장바구니 추가
 solution: Analytics
 title: 장바구니 추가
-topic: 지표
-uuid: d 034 ba 4 c-f 78 b -4 ce 3-9 ba 2-dd 158 e 26 ede 5
+topic: Metrics
+uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
