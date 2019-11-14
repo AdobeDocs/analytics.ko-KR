@@ -1,15 +1,13 @@
 ---
 description: getValOnce 플러그인은 주어진 변수가 이전에 정의된 값으로 설정되는 것을 방지합니다. 여기서는 쿠키를 사용하여 변수에서 마지막으로 확인된 값을 파악합니다. 현재 값이 쿠키 값과 일치하는 경우는 변수를 Adobe의 처리 서버로 보내기 전에 빈 문자열로 덮어씁니다. 이 플러그인은 사용자가 페이지를 새로 고치거나 뒤로 단추를 클릭했을 때 전환 변수 인스턴스가 부풀려지는 문제를 방지하는 데 유용합니다.
-keywords: Analytics 구현
-seo-description: getValOnce 플러그인은 주어진 변수가 이전에 정의된 값으로 설정되는 것을 방지합니다. 여기서는 쿠키를 사용하여 변수에서 마지막으로 확인된 값을 파악합니다. 현재 값이 쿠키 값과 일치하는 경우는 변수를 Adobe의 처리 서버로 보내기 전에 빈 문자열로 덮어씁니다. 이 플러그인은 사용자가 페이지를 새로 고치거나 뒤로 단추를 클릭했을 때 전환 변수 인스턴스가 부풀려지는 문제를 방지하는 데 유용합니다.
-seo-title: getValOnce
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 플러그인
+subtopic: Plug-ins
 title: getValOnce
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
