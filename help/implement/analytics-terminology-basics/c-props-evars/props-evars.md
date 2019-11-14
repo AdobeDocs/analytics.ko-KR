@@ -1,14 +1,12 @@
 ---
 description: prop(s.prop) 또는 속성 변수라고도 하는 사용자 지정 트래픽 변수는 각 값이 Analytics로 전송되는 횟수를 세는 카운터입니다.
-keywords: Analytics 구현;트래픽 prop;prop;변환;evar;s.prop;사용자 지정 변환 인사이트;트래픽 변수
-seo-description: prop(s.prop) 또는 속성 변수라고도 하는 사용자 지정 트래픽 변수는 각 값이 Analytics로 전송되는 횟수를 세는 카운터입니다.
-seo-title: prop 및 eVar 개요
+keywords: Analytics Implementation;Traffic prop;prop;conversion;evar;s.prop;custom conversion insight;traffic variable
 solution: Analytics
 title: prop 및 eVar 개요
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
