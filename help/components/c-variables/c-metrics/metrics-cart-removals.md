@@ -1,13 +1,11 @@
 ---
 description: 장바구니에서 품목을 제거한 횟수입니다. 이 값은 scRemove 이벤트에서 옵니다.
-seo-description: 장바구니에서 품목을 제거한 횟수입니다. 이 값은 scRemove 이벤트에서 옵니다.
-seo-title: 장바구니 제거
 solution: Analytics
 title: 장바구니 제거
-topic: 지표
-uuid: bddd 5 c 63-e 906-472 a -8 aec-a 342 f 417 ddfa
+topic: Metrics
+uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
