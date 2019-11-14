@@ -1,22 +1,20 @@
 ---
 description: 데이터 피드의 열을 설명하는 테이블 데이터
-keywords: 데이터 피드;열
-seo-description: 데이터 피드의 열을 설명하는 테이블 데이터
-seo-title: 데이터 열 참조
+keywords: Data Feed;columns
 solution: Analytics
-subtopic: 데이터 피드
+subtopic: data feeds
 title: 데이터 열 참조
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # 데이터 열 참조
 
-Use this page to learn what data is contained in each column. 대부분의 구현은 모든 열을 사용하지 않으므로 데이터 피드 내보내기에 포함할 열을 결정할 때 이 페이지를 참조할 수 있습니다.
+이 페이지에서는 각 열에 포함된 데이터를 확인할 수 있습니다. 대부분의 구현은 모든 열을 사용하지 않으므로 데이터 피드 내보내기에 포함할 열을 결정할 때 이 페이지를 참조할 수 있습니다.
 
 > [!IMPORTANT] 지정된 열(예: 255자로 정의된 열)의 경우 문자열에서 값을 이스케이프 처리하는 문자가 추가되어 데이터 피드가 추가 문자를 보낼 수 있습니다. 구현에서 문자 제한을 초과하는 값을 정기적으로 전송하는지 여부를 염두에 두십시오.
 
@@ -51,7 +49,7 @@ Use this page to learn what data is contained in each column. 대부분의 구�
 | color | c_color 열의 값을 기반으로 하는 색상 깊이 ID입니다. color_depth.tsv 조회 테이블을 참조합니다. | 미부호 없는 |
 | connection_type | 연결 유형을 나타내는 숫자 ID입니다. 연결 유형 차원에 사용되는 변수입니다. connection_type.tsv 조회 테이블을 참조합니다. | tinyint 부호 없음 |
 | cookies | 쿠키 지원 차원에 사용되는 변수입니다.<br>Y:Enabled<br>N:Disabled<br>U:알 수 없음 | char(1) |
-| country | 히트가 발생한 국가를 나타내는 숫자 ID입니다. Adobe에서는 IP 주소를 국가에 일치시키기 위해 Digital Envoy와 파트너 관계를 맺습니다. country.tsv 조회를 사용합니다. | smallint unsigned |
+| country | 히트가 발생한 국가를 나타내는 숫자 ID입니다. Adobe에서는 IP 주소를 국가에 일치시키기 위해 Digital Envoy와 파트너 관계를 맺습니다. country.tsv 조회를 사용합니다. | 미부호 없는 |
 | ct_connect_type | connection_type 열과 관련이 있습니다. 가장 일반적인 값은 LAN/Wifi, 이동통신사 및 모뎀입니다. | char(20) |
 | curr_factor | 통화 소수점 이하 자리 수를 결정하며 통화 전환에 사용됩니다. 예를 들어, USD는 소수점 이하 두 자리를 사용하므로 이 열 값은 2입니다. | tinyint |
 | curr_rate | 거래가 발생했을 때 환율입니다. Adobe에서는 현재 날짜의 환율을 결정하기 위해 XE와 파트너 관계를 맺습니다. | decimal(24,12) |
@@ -67,7 +65,7 @@ Use this page to learn what data is contained in each column. 대부분의 구�
 | ef_id | Adobe Advertising Cloud 통합에 사용되는 ef_id입니다. | varchar(255) |
 | evar1-evar250 | 사용자 지정 변수 1-250입니다. 각 조직은 eVar을 다르게 사용합니다. 조직이 각 eVar을 채우는 방법에 대한 자세한 정보는 조직별 솔루션 설계 문서를 참조하십시오. | varchar(255) |
 | event_list | 히트로 트리거된 이벤트를 나타내는 숫자 ID들을 쉼표로 구분한 목록입니다. 기본 이벤트와 사용자 지정 이벤트 1-1000을 모두 포함합니다. event.tsv 조회를 사용합니다. | text |
-| exclude_hit | 히트가 보고에서 제외됨을 나타내는 플래그입니다. The visit_num column is not incremented for excluded hits.<br>1: Not used. 폐기된 기능의 일부.<br>2: Not used. 폐기된 기능의 일부.<br>3: No longer used. 사용자 에이전트 제외<br>4:IP 주소<br>5 기반 제외:page_url, pagename, page_event 또는 event_list<br>6과 같은 중요 히트 정보가 없습니다.JavaScript가 히트<br>7 처리를 제대로 처리하지 못했습니다.VISTA 규칙<br>8과 같은 계정 특정 제외:사용되지 않습니다. 대체 계정 특정 제외.<br>9: Not used. 폐기된 기능의 일부.<br>10:잘못된 통화 코드<br>11:타임스탬프 전용 보고서 세트에서 히트에 타임스탬프가 없거나 히트에 타임스탬프가 아닌 보고서 세트<br>12의 타임스탬프가 포함되어 있습니다.사용되지 않습니다. 폐기된 기능의 일부.<br>13: Not used. Part of a scrapped feature.<br>14:Analytics 히트 15와 일치하지 않는 타겟 히트<br>:현재 사용되지 않습니다.<br>16:Analytics 히트와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
+| exclude_hit | 히트가 보고에서 제외됨을 나타내는 플래그입니다. visit_num 열은 제외된 히트에 대해 증가하지 않습니다.<br>1:사용되지 않습니다. 폐기된 기능의 일부.<br>2:사용되지 않습니다. 폐기된 기능의 일부.<br>3:더 이상 사용되지 않습니다. 사용자 에이전트 제외<br>4:IP 주소<br>5 기반 제외:page_url, pagename, page_event 또는 event_list<br>6과 같은 중요 히트 정보가 없습니다.JavaScript가 히트<br>7 처리를 제대로 처리하지 못했습니다.VISTA 규칙<br>8과 같은 계정 특정 제외:사용되지 않습니다. 대체 계정 특정 제외.<br>9:사용되지 않습니다. 폐기된 기능의 일부.<br>10:잘못된 통화 코드<br>11:타임스탬프 전용 보고서 세트에서 히트에 타임스탬프가 없거나 히트에 타임스탬프가 아닌 보고서 세트<br>12의 타임스탬프가 포함되어 있습니다.사용되지 않습니다. 폐기된 기능의 일부.<br>13:사용되지 않습니다. 폐기된 기능의 일부.<br>14:Analytics 히트 15와 일치하지 않는 타겟 히트<br>:현재 사용되지 않습니다.<br>16:Analytics 히트와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
 | first_hit_page_url | 방문자의 첫 번째 URL입니다. | varchar(255) |
 | first_hit_pagename | 원래 시작 페이지 차원에 사용되는 변수입니다. 방문자의 원래 시작 페이지 이름입니다. | varchar(100) |
 | first_hit_ref_domain | 최초 참조 도메인 차원에 사용되는 변수입니다. first_hit_referrer를 기반으로 합니다. 방문자의 첫 번째 참조 도메인입니다. | varchar(100) |
@@ -159,10 +157,10 @@ Use this page to learn what data is contained in each column. 대부분의 구�
 | partner_plugins | 사용되지 않습니다. 수년 전에 폐기한 기능의 일부입니다. | varchar(255) |
 | persistent_cookie | 영구적 쿠키 지원 차원에 사용됩니다. 방문자가 각 히트 후 삭제되지 않은 쿠키를 지원하는지 여부를 나타냅니다. | char(1) |
 | plugins | 더 이상 사용되지 않습니다. 브라우저 내에서 사용할 수 있는 플러그인에 해당하는 숫자 ID의 목록입니다. plugins.tsv 조회를 사용합니다. | varchar(180) |
-| pointofinterest | Mobile Services point of interest name | varchar(255) |
+| pointofinterest | Mobile Services 관심 영역 이름 | varchar(255) |
 | pointofinterestdistance | Mobile Services에서 관심 영역 센터까지의 거리 | varchar(255) |
 | post_ columns | 보고서에서 최종적으로 사용되는 값을 포함합니다. 각 이후 열은 서버 측 논리, 처리 규칙 및 VISTA 규칙 다음에 채워집니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. | 각각의 이후가 아닌 열을 참조하십시오. |
-| prev_page | 사용되지 않습니다. 이전 페이지의 Adobe 소유 ID입니다. | int unsigned |
+| prev_page | 사용되지 않습니다. 이전 페이지의 Adobe 소유 ID입니다. | 부호 없음 |
 | product_list | 제품 변수를 통해 전달될 때의 제품 목록입니다. 제품은 쉼표로 구분되고, 개별 제품 속성은 세미콜론으로 구분됩니다. | text |
 | product_merchandising | 사용되지 않습니다. 대신 product_list를 사용하십시오. | text |
 | prop1 - prop75 | 사용자 지정 트래픽 변수 1 - 75. | varchar(100) |
@@ -171,11 +169,11 @@ Use this page to learn what data is contained in each column. 대부분의 구�
 | ref_domain | 레퍼러 열을 기반으로 합니다. 히트의 참조 도메인입니다. | varchar(100) |
 | ref_type | 히트에 대한 참조 유형을 나타내는 숫자 ID입니다.<br>1:사이트<br>2 내부:기타 웹 사이트 <br>3:검색 엔진 <br>4:하드 드라이브 <br>5:USENET <br>6:입력/책갈피 표시(레퍼러 없음) <br>7:이메일 <br>8:JavaScript <br>9 없음:소셜 네트워크 | tinyint 부호 없음 |
 | referrer | 이전 페이지의 페이지 URL입니다. | varchar(255) |
-| resolution | 모니터의 해상도를 나타내는 숫자 ID입니다. 모니터 해상도 차원을 채웁니다. resolution.tsv 조회 테이블을 사용합니다. | smallint unsigned |
-| s_kwcid | Keyword ID used in Adobe Advertising Cloud integrations. | varchar(255) |
+| resolution | 모니터의 해상도를 나타내는 숫자 ID입니다. 모니터 해상도 차원을 채웁니다. resolution.tsv 조회 테이블을 사용합니다. | 미부호 없는 |
+| s_kwcid | Adobe Advertising Cloud 통합에 사용된 키워드 ID. | varchar(255) |
 | s_resolution | Raw 화면 해상도 값입니다. JavaScript 함수 screen.width x screen.height를 사용하여 수집합니다. | char(20) |
 | sampled_hit | 더 이상 사용되지 않습니다. Ad Hoc Analysis에서 이전에 샘플링에 사용되었습니다. | char(1) |
-| search_engine | 방문자에게 사이트를 참조하도록 하는 검색 엔진을 나타내는 숫자 ID입니다. search_engines.tsv 조회를 사용합니다. | smallint unsigned |
+| search_engine | 방문자에게 사이트를 참조하도록 하는 검색 엔진을 나타내는 숫자 ID입니다. search_engines.tsv 조회를 사용합니다. | 미부호 없는 |
 | search_page_num | 모든 검색 페이지 등급 차원에 사용됩니다. 사용자가 사이트에 클릭스루하기 전에 사이트가 표시된 검색 결과 페이지를 나타냅니다. | 미부호 없는 |
 | secondary_hit | 보조 히트를 추적하는 플래그입니다. 일반적으로 히트 수를 복사하는 다중 세트 태그 및 VISTA 규칙에서 시작됩니다. | tinyint 부호 없음 |
 | service | 사용되지 않습니다. 대신 page_event를 사용하십시오. | char(2) |
@@ -237,7 +235,7 @@ Use this page to learn what data is contained in each column. 대부분의 구�
 | videocontenttype | 비디오 컨텐츠 유형. 모든 비디오 보기에 대해 자동으로 '비디오'로 설정됩니다. | varchar(255) |
 | videodaypart | 비디오 요일 | varchar(255) |
 | videoepisode | 비디오 에피소드 | varchar(255) |
-| videofeedtype | Video feed type | varchar(255) |
+| videofeedtype | 비디오 피드 유형 | varchar(255) |
 | videogenre | 비디오 장르 | text |
 | videolength | 비디오 길이 | varchar(255) |
 | videomvpd | 비디오 MVPD | varchar(255) |
