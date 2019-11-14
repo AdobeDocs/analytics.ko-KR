@@ -1,14 +1,12 @@
 ---
 description: 데이터 소스를 사용하기 전에 보고서 세트에 대한 요구 사항 정보.
-seo-description: 데이터 소스를 사용하기 전에 보고서 세트에 대한 요구 사항 정보.
-seo-title: 요구 사항 및 업로드 제한
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 요구 사항 및 업로드 제한
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
