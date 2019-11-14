@@ -1,14 +1,12 @@
 ---
 description: Analytics 코드는 이미지 개체를 만드는데, 이 개체는 페이지에 나타나지 않는 볼 수 없는 이미지입니다.
-keywords: Analytics 구현
-seo-description: Analytics 코드는 이미지 개체를 만드는데, 이 개체는 페이지에 나타나지 않는 볼 수 없는 이미지입니다.
-seo-title: 헤드 태그에 Analytics 코드 넣기
+keywords: Analytics Implementation
 solution: Analytics
 title: 헤드 태그에 Analytics 코드 넣기
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
