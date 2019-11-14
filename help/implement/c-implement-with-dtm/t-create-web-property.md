@@ -1,14 +1,12 @@
 ---
 description: 웹 속성은 한 개의 포함 코드에 포함된 규칙 라이브러리로 된 하나 이상의 도메인 및 서브 도메인 그룹일 수 있습니다.
-keywords: Analytics 구현;구현 방법;dynamic tag management;dtm;웹 속성;속성
-seo-description: 웹 속성은 한 개의 포함 코드에 포함된 규칙 라이브러리로 된 하나 이상의 도메인 및 서브 도메인 그룹일 수 있습니다.
-seo-title: 웹 속성 만들기
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
 solution: Analytics
 title: 웹 속성 만들기
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 DTM을 사용하여 이러한 자산을 관리하고 추적할 수 있습니다. 예를 들어 하나의 템플릿을 기반으로 한 여러 개의 웹 사이트가 있고 이러한 웹 사이트 모두에서 동일한 자산을 추적하려 하는 경우, 여러 도메인에 하나의 웹 속성을 적용할 수 있습니다.
 
-웹 속성 및 모범 사례에 대한 일반 정보는 다이내믹 [태그](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) 관리 제품 설명서의 웹 속성입니다.
+웹 속성 및 모범 사례에 대한 일반 정보는 Dynamic Tag Management 제품 설명서의 [ 웹 속성 ](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html).
 
 1. 회사 페이지로 이동한 다음 **[!UICONTROL 속성 추가]**&#x200B;를 클릭합니다.
 
