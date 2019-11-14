@@ -1,13 +1,11 @@
 ---
 description: 이 기능을 사용하면 Reports & Analytics에서 사용자가 보는 보고서 메뉴를 사용자 지정할 수 있습니다. 보고서를 표시하거나 숨길 수도 있고, 모든 사용자 간에 다른 폴더로 이동할 수도 있습니다. 이 기능은 조직에서 특정 보고서만 사용하며, 왼쪽 메뉴가 관계 없거나 사용되지 않는 데이터로 복잡하게 표시되지 않게 하려는 경우에 특히 유용합니다.
-seo-description: 이 기능을 사용하면 Reports & Analytics에서 사용자가 보는 보고서 메뉴를 사용자 지정할 수 있습니다. 보고서를 표시하거나 숨길 수도 있고, 모든 사용자 간에 다른 폴더로 이동할 수도 있습니다. 이 기능은 조직에서 특정 보고서만 사용하며, 왼쪽 메뉴가 관계 없거나 사용되지 않는 데이터로 복잡하게 표시되지 않게 하려는 경우에 특히 유용합니다.
-seo-title: 메뉴 사용자 지정
 solution: Analytics
 title: 메뉴 사용자 지정
-topic: 관리 도구
+topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
