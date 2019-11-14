@@ -1,14 +1,12 @@
 ---
 description: 보고서 예약, 다운로드 및 배포에 대한 정보입니다.
-seo-description: 보고서 예약, 다운로드 및 배포에 대한 정보입니다.
-seo-title: 보고서 예약 및 배포
 solution: Analytics
-subtopic: 예약
+subtopic: Schedule
 title: 보고서 예약 및 배포
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
