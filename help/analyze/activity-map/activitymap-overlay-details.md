@@ -1,13 +1,11 @@
 ---
 description: 오버레이 상세 정보는 링크 오버레이의 맨 위를 가리키면 표시됩니다.
-seo-description: 오버레이 상세 정보는 링크 오버레이의 맨 위를 가리키면 표시됩니다.
-seo-title: 오버레이 세부정보
 solution: Analytics
 title: 오버레이 세부정보
-topic: Activity Map
+topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
