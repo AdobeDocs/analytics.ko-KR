@@ -1,13 +1,11 @@
 ---
-description: 페이지 보기는 전송된 각 서버 호출에 대해 계산됩니다. 이 지표는 페이지 보기의 총 인스턴스 수를 나타냅니다. TrackLink 호출은 페이지 보기 횟수로 계산되지 않고 페이지 보기 지표를 증분시키지 않습니다.
-seo-description: 페이지 보기는 전송된 각 서버 호출에 대해 계산됩니다. 이 지표는 페이지 보기의 총 인스턴스 수를 나타냅니다. TrackLink 호출은 페이지 보기 수로 계산되지 않고 페이지 보기 지표를 증분시키지 않습니다.
-seo-title: 페이지 보기
+description: 페이지 보기는 전송된 각 서버 호출에 대해 계산됩니다. 이 지표는 페이지 보기의 총 인스턴스 수를 나타냅니다. TrackLink 호출은 페이지 보기 수로 계산되지 않고 페이지 보기 지표를 증분시키지 않습니다.
 solution: Analytics
 title: 페이지 보기
-topic: 지표
+topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
