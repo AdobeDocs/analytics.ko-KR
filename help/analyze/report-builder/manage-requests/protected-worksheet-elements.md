@@ -1,13 +1,11 @@
 ---
 description: 워크시트를 보호(셀을 잠그는 방식으로)하면 요청을 만들거나 편집하거나 새로 고칠 수 없습니다. 요청 관리자를 사용하려면 먼저 워크시트의 모든 보호를 해제하십시오.
-seo-description: 워크시트를 보호(셀을 잠그는 방식으로)하면 요청을 만들거나 편집하거나 새로 고칠 수 없습니다. 요청 관리자를 사용하려면 먼저 워크시트의 모든 보호를 해제하십시오.
-seo-title: 보호된 워크시트 요소
 solution: Analytics
 title: 보호된 워크시트 요소
-topic: Report Builder
+topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
