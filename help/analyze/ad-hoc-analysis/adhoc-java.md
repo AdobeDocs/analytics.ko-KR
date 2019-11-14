@@ -1,10 +1,8 @@
 ---
 description: Java 11을 사용하여 애드혹 분석을 실행하는 방법에 대한 지침
-seo-description: Java 11을 사용하여 애드혹 분석을 실행하는 방법에 대한 지침
-seo-title: 애드혹 분석 및 Java 11
 title: Java 11에서 Ad Hoc Analysis 실행
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
