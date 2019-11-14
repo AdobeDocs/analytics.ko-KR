@@ -1,15 +1,13 @@
 ---
 description: 트래픽 지표, 전환 지표, 사용자 지정 이벤트, 솔루션 이벤트 및 컨텐츠 인식에 대한 권한을 활성화합니다.
-keywords: 그룹;권한
-seo-description: 트래픽 지표, 전환 지표, 사용자 지정 이벤트, 솔루션 이벤트 및 컨텐츠 인식에 대한 권한을 활성화합니다.
-seo-title: 지표 권한 사용자 지정
+keywords: groups;permissions
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 지표 권한 사용자 지정
-topic: 관리 도구
+topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
