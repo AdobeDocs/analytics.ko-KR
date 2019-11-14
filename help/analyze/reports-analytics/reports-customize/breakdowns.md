@@ -1,13 +1,11 @@
 ---
 description: 보고서 항목 또는 세그먼트가 다른 보고서와 관련되는 방식에 대해 자세히 알아보려면 분류를 사용하십시오. 이 보고서를 다른 보고서별로 "분류"라고 합니다.
-seo-description: 보고서 항목 또는 세그먼트가 다른 보고서와 관련되는 방식에 대해 자세히 알아보려면 분류를 사용하십시오. 이 보고서를 다른 보고서별로 "분류"라고 합니다.
-seo-title: 분류
 solution: Analytics
 title: 분류
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
