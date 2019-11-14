@@ -1,13 +1,11 @@
 ---
 description: '방문자가 완료해야 하는 사이트에서의 전환 작업. 이러한 작업은 등록, 가입, 리드 양식 완료, 채팅 초기화, 구매, 예약 또는 마감된 설문 조사일 수도 있습니다. '
-seo-description: '방문자가 완료해야 하는 사이트에서의 전환 작업. 이러한 작업은 등록, 가입, 리드 양식 완료, 채팅 초기화, 구매, 예약 또는 마감된 설문 조사일 수도 있습니다. '
-seo-title: 사용자 지정 이벤트
 solution: Analytics
 title: 사용자 지정 이벤트
-topic: 보고서
+topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
