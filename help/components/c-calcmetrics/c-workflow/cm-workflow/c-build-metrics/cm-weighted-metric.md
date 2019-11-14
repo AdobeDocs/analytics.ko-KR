@@ -1,11 +1,9 @@
 ---
 description: 필터 및 가중치가 적용된 지표의 예를 보여줍니다.
-seo-description: 필터 및 가중치가 적용된 지표의 예를 보여줍니다.
-seo-title: 필터 및 가중치가 적용된 지표
 title: 필터 및 가중치가 적용된 지표
-uuid: 8 C 4 ED 912-68 A 3-4896-91 C 8-AA 7 DAFFAE 6 A 9
+uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
