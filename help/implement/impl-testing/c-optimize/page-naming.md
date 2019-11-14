@@ -1,14 +1,12 @@
 ---
 description: pageName 변수는 웹 사이트에서 추적할 각 페이지를 식별하는 데 사용됩니다.
-keywords: Analytics 구현
-seo-description: pageName 변수는 웹 사이트에서 추적할 각 페이지를 식별하는 데 사용됩니다.
-seo-title: 페이지 이름 지정
+keywords: Analytics Implementation
 solution: Analytics
 title: 페이지 이름 지정
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: b4438314-eb45-4009-aa66-f062701ea07c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
