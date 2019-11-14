@@ -1,13 +1,11 @@
 ---
 description: 분류(SAINT) FTP 선택 사항은 여러 보고서 세트로 데이터를 업로드하고 50,000개 이상의 행이 있는 데이터 세트를 업로드하는 기능을 포함하여 큰 분류 데이터 세트를 융통성 있게 업로드하도록 해 줍니다.
 keywords: ftp;sftp
-seo-description: 분류(SAINT) FTP 선택 사항은 여러 보고서 세트로 데이터를 업로드하고 50,000개 이상의 행이 있는 데이터 세트를 업로드하는 기능을 포함하여 큰 분류 데이터 세트를 융통성 있게 업로드하도록 해 줍니다.
-seo-title: 분류
 solution: Analytics
 title: 분류
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
