@@ -1,13 +1,11 @@
 ---
 description: 장치 번호 전송이 지원되는지 여부를 기준으로 모바일 장치를 그룹화합니다. 장치 번호 전송 지원을 확인할 수 없는 장치를 위해 알 수 없음 그룹도 포함합니다.
-seo-description: 장치 번호 전송이 지원되는지 여부를 기준으로 모바일 장치를 그룹화합니다. 장치 번호 전송 지원을 확인할 수 없는 장치를 위해 알 수 없음 그룹도 포함합니다.
-seo-title: 장치 번호 전송
 solution: Analytics
 title: 장치 번호 전송
-topic: 보고서
-uuid: 96742 BF 4-3 B 26-4 CF 7-8599-925 AABEE 7 E 87
+topic: Reports
+uuid: 96742bf4-3b26-4cf7-8599-925aabee7e87
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
