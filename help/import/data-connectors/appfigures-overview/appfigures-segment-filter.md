@@ -1,11 +1,9 @@
 ---
 description: appFigures 통합은 여러 앱 스토어에서 여러 응용 프로그램에 대한 데이터를 수집하는 데 종종 사용됩니다. 세그먼트를 만들어 특정 앱 또는 앱 스토어에 대한 보고서 데이터를 격리할 수 있습니다.
-seo-description: appFigures 통합은 여러 앱 스토어에서 여러 응용 프로그램에 대한 데이터를 수집하는 데 종종 사용됩니다. 세그먼트를 만들어 특정 앱 또는 앱 스토어에 대한 보고서 데이터를 격리할 수 있습니다.
-seo-title: 앱 데이터 세그먼트화
 title: 앱 데이터 세그먼트화
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: 84c40be45ed4b03435451c12b000910579d75ba1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
