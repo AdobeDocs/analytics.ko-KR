@@ -1,13 +1,11 @@
 ---
 description: 포함된 요청이 있는 보고서를 만든 후 조건부 서식을 통합 문서의 셀에 적용할 수 있습니다.
-seo-description: 포함된 요청이 있는 보고서를 만든 후 조건부 서식을 통합 문서의 셀에 적용할 수 있습니다.
-seo-title: 조건부 서식 지정
 solution: Analytics
 title: 조건부 서식 지정
-topic: Report Builder
+topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
