@@ -1,13 +1,11 @@
 ---
 description: 방문 내에서 각 값이 평균적으로 어디까지 실행되었는지 표시합니다. 이 지표는 대상이 방문 내에서 해당 페이지 또는 prop 값에 얼마나 도달했는지 결정하는 데 사용되는 귀중한 정보입니다. 평균 페이지 깊이는 경로 지정이 활성화된 모든 변수에서 사용할 수 있습니다.
-seo-description: 방문 내에서 각 값이 평균적으로 어디까지 실행되었는지 표시합니다. 이 지표는 대상이 방문 내에서 해당 페이지 또는 prop 값에 얼마나 도달했는지 결정하는 데 사용되는 귀중한 정보입니다. 평균 페이지 깊이는 경로 지정이 활성화된 모든 변수에서 사용할 수 있습니다.
-seo-title: 평균 페이지 깊이
 solution: Analytics
 title: 평균 페이지 깊이
-topic: 지표
+topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
