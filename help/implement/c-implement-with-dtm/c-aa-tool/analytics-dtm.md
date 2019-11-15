@@ -1,14 +1,12 @@
 ---
 description: Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또는 수동으로 페이지 코드를 구성하여 Adobe Analytics를 배포합니다. 대부분의 사용자에게는 자동 방법이 권장됩니다.
-keywords: Analytics 구현;구현 메서드;dynamic tag management;dtm;analytics 도구;속성;도구 유형;도구 이름;구성 방법;analytics premium;evars;이벤트
-seo-description: Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또는 수동으로 페이지 코드를 구성하여 Adobe Analytics를 배포합니다. 대부분의 사용자에게는 자동 방법이 권장됩니다.
-seo-title: Adobe Analytics 도구 추가
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: Adobe Analytics 도구 추가
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -54,8 +52,8 @@ Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또�
   <tr> 
    <td colname="col2"> <p> <b>수동</b>: AppMeasurement 코드를 수동으로 관리합니다. <span class="keyword"></span>관리 도구<span class="keyword"> &gt; </span>코드 관리자<span class="ignoretag"><span class="uicontrol">에서 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 코드를 다운로드할 수 있습니다. </p> <p><a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">라이브러리 관리</a>의 <span class="wintitle">코드 편집</span> 필드에 복사하여 붙여넣을 코드를 로컬로 다운로드하기에 대한 내용을 보려면 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript (신규)</a>를 클릭합니다. </p> <p>수동 구성에 해당하는 필드 입력: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>프로덕션 계정 ID: </b>(필수) 데이터 수집에 사용할 프로덕션 계정입니다. Analytics에서 사용할 보고서 세트 ID입니다. Dynamic Tag Management는 프로덕션 및 스테이징 환경에서 올바른 계정을 자동으로 설치합니다. </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>스테이징 계정 ID: </b>(필수) 개발 또는 테스트 환경에서 사용합니다. Analytics에서 사용할 보고서 세트 ID입니다. 스테이징 계정은 테스트 데이터를 프로덕션과 구별합니다. </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>프로덕션 계정 ID: </b>(필수) 데이터 수집에 사용할 프로덕션 계정입니다. Analytics의 경우 보고서 세트 ID입니다. Dynamic Tag Management는 프로덕션 및 스테이징 환경에서 올바른 계정을 자동으로 설치합니다. </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>스테이징 계정 ID: </b>(필수) 개발 또는 테스트 환경에서 사용합니다. Analytics의 경우 보고서 세트 ID입니다. 스테이징 계정은 테스트 데이터를 프로덕션과 분리시킵니다. </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>추적 서버: </b> 추적 서버의 정보를 지정합니다. </p> <p><span class="wintitle">추적 서버</span> 및 <span class="wintitle">SSL 추적 서버</span> 변수는 이미지 요청 및 쿠키가 작성된 도메인을 지정하는 퍼스트 파티 쿠키 구현에 사용됩니다. 자세한 내용은 <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">trackingServer 및 trackingServerSecure 변수 올바른 입력</a> 도움말을 참조하십시오. </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL 추적 서버: </b>SSL 추적 서버의 정보를 지정합니다. </p> </li> 
     </ul> </td> 
