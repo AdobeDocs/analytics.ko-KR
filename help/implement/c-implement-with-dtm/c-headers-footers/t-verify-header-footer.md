@@ -1,14 +1,12 @@
 ---
 description: Dynamic Tag Management 라이브러리가 사이트에 제대로 로드되는지 확인합니다.
-keywords: Analytics 구현;구현 방법;dynamic tag management;dtm;코드;페이지 코드;머리글 코드;바닥글 코드;포함 코드;코드 확인;머리글 코드 확인;바닥글 코드 확인;포함 탭;포함
-seo-description: Dynamic Tag Management 라이브러리가 사이트에 제대로 로드되는지 확인합니다.
-seo-title: 머리글 및 바닥글 코드 확인
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
 solution: Analytics
 title: 머리글 및 바닥글 코드 확인
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
