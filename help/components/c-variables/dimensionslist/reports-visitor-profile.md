@@ -1,13 +1,11 @@
 ---
 description: 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 프로필 범주에 속하는 고객의 구매 패턴을 보여주는 보고서입니다.
-seo-description: 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 프로필 범주에 속하는 고객의 구매 패턴을 보여주는 보고서입니다.
-seo-title: 방문자 프로필
 solution: Analytics
 title: 방문자 프로필
-topic: 보고서
+topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
