@@ -1,13 +1,11 @@
 ---
 description: 'Activity Map 기능의 설정, 구성 및 사용과 관련하여 자주 묻는 질문입니다. '
-seo-description: 'Activity Map 기능의 설정, 구성 및 사용과 관련하여 자주 묻는 질문입니다. '
-seo-title: Activity Map FAQ
 solution: Analytics
 title: Activity Map FAQ
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ A: Adobe SiteCatalyst 고객은 관리 콘솔의 Activity Map 지원 페이지�
 
 **Q: 새로운 AppMeasurement 코드는 DTM(다이내믹 태그 관리)을 통해 구성할 수 있습니까?**
 
-A: 예. 새로운 AppMeasurement 코드를 [수동으로 구현](https://marketing.adobe.com/resources/help/ko_KR/dtm/analytics_dtm.html)할 수 있습니다.
+A: 예. 새로운 AppMeasurement 코드를 [수동으로 구현](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html)할 수 있습니다.
 
 **Q: AppMeasurement v1.6 라이브러리의 큰 변경 사항은 무엇입니까?**
 
@@ -73,7 +71,7 @@ A: Activity Map이 사용 중이면 링크 클릭 데이터가 Analytics 태그�
 
 **Q: 왜 지표 드롭다운에 동일한 지표가 여러 번 나열됩니까?**
 
-A: Activity Map에서는 모든 보고서 세트에 대한 지표를 나열합니다. 그 결과, 회사가 [지표 통합 프로세스](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/cm_transition.html)를 진행하지 않은 경우 중복 항목이 표시될 수 있습니다.
+A: Activity Map에서는 모든 보고서 세트에 대한 지표를 나열합니다. 그 결과, 회사가 [지표 통합 프로세스](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)를 진행하지 않은 경우 중복 항목이 표시될 수 있습니다.
 
 지표 드롭다운을 사용하면 계산된 지표 목록을 방문한 페이지의 보고서 세트에 지정된 지표로 제한할 수 있습니다.
 
@@ -125,7 +123,7 @@ A: 표시된 모든 데이터는 페이지 보기를 기반으로 합니다.
 
 관리자에게 \[Activity Map 보고서를 활성화\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") 하도록 요청해야 한다고 알려주는 경고 페이지가 표시됩니다.
 
-**Q:[Analytics 데이터 피드](https://marketing.adobe.com/resources/help/ko_KR/reference/analytics-data-feed.html)를 통해 Activity Map 데이터(contextData)를 내보낼 수 있습니까?**
+**Q:[Analytics 데이터 피드](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)를 통해 Activity Map 데이터(contextData)를 내보낼 수 있습니까?**
 
 A: 아니요.
 
