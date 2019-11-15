@@ -1,13 +1,11 @@
 ---
 description: 경로 길이, 가장 긴 경로, 경로 전체 등의 지표를 볼 수 있는 경로 보고서 집합
-seo-description: 경로 길이, 가장 긴 경로, 경로 전체 등의 지표를 볼 수 있는 경로 보고서 집합
-seo-title: 전체 경로
 solution: Analytics
 title: 전체 경로
-topic: 보고서
-uuid: EA 5 F 0 F 6 C -8 E 2 A -448 E -8096-B 0 D 6339360 FF
+topic: Reports
+uuid: ea5f0f6c-8e2a-448e-8096-b0d6339360ff
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
