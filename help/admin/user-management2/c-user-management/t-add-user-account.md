@@ -1,14 +1,12 @@
 ---
 description: 사용자 계정을 추가하는 방법에 대해 설명하는 단계입니다.
-seo-description: 사용자 계정을 추가하는 방법에 대해 설명하는 단계입니다.
-seo-title: 사용자 계정 추가
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 사용자 계정 추가
-topic: 관리 도구
-uuid: 7ce9408b-d934-4 파섹
+topic: Admin tools
+uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
