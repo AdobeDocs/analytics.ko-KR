@@ -1,12 +1,10 @@
 ---
 description: 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
-seo-description: 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
-seo-title: 지표 가시성
 solution: Analytics
 title: 지표 가시성
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
