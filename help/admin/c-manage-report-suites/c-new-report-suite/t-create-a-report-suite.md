@@ -1,13 +1,11 @@
 ---
 description: 보고서 세트를 생성하고 보고서 세트의 설정을 새 보고서 세트에 복사하는 방법을 설명하는 절차입니다.
-seo-description: 보고서 세트를 생성하고 보고서 세트의 설정을 새 보고서 세트에 복사하는 방법을 설명하는 절차입니다.
-seo-title: 보고서 세트 만들기
 solution: Analytics
 title: 보고서 세트 만들기
-topic: 관리 도구
-uuid: fada5b10-f574-4c3f-8704-679c992fc88
+topic: Admin tools
+uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
