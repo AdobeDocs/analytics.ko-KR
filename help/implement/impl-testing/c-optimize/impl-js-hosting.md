@@ -1,15 +1,13 @@
 ---
 description: 페이지 상단에 JavaScript 라이브러리 파일에 대한 호출을 삽입하면 이미지가 제일 먼저 다운로드되는 요소가 됩니다.
-keywords: Analytics 구현
-seo-description: 페이지 상단에 JavaScript 라이브러리 파일에 대한 호출을 삽입하면 이미지가 제일 먼저 다운로드되는 요소가 됩니다.
-seo-title: JavaScript 파일 위치 및 동시 실행
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 문제 해결
+subtopic: Troubleshooting
 title: JavaScript 파일 위치 및 동시 실행
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
