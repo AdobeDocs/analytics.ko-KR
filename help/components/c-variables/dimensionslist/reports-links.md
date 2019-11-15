@@ -1,13 +1,11 @@
 ---
 description: 방문자가 사이트를 떠날 때 클릭한 링크 또는 다운로드 링크가 포함하여 방문자가 웹 사이트에서 클릭하는 링크를 표시합니다.
-seo-description: 방문자가 사이트를 떠날 때 클릭한 링크 또는 다운로드 링크가 포함하여 방문자가 웹 사이트에서 클릭하는 링크를 표시합니다.
-seo-title: 링크
 solution: Analytics
 title: 링크
-topic: 보고서
+topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
