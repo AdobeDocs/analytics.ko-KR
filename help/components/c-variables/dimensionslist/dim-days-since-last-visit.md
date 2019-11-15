@@ -1,16 +1,14 @@
 ---
 description: 마지막 방문 이후의 일수는 Analysis Workspace와 함께 즉시 제공되는 Analytics 차원입니다.
-seo-description: 마지막 방문 이후의 일수는 Analysis Workspace와 함께 즉시 제공되는 Analytics 차원입니다.
-seo-title: 마지막 방문 이후의 일수
-title: 마지막 방문 이후의 일수
-uuid: d 7726 a 7 c -7 c 4 b -45 c 2-ace 9-444 eb 2 d 3 a 4 d 0
+title: 마지막 방문 이후 일 수
+uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 마지막 방문 이후의 일수
+# 마지막 방문 이후 일 수
 
 마지막 방문 이후의 일수는 Analysis Workspace와 함께 즉시 제공되는 Analytics 차원입니다.
 
