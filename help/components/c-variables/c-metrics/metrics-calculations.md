@@ -1,13 +1,11 @@
 ---
 description: 지표는 표준, 기여도, 최근, 선형 할당 방법 등을 사용하여 계산됩니다. 각 방법은 수식에 기반하여 다르게 값을 계산합니다.
-seo-description: 지표는 표준, 기여도, 최근, 선형 할당 방법 등을 사용하여 계산됩니다. 각 방법은 수식에 기반하여 다르게 값을 계산합니다.
-seo-title: 지표 계산
 solution: Analytics
 title: 지표 계산
-topic: 지표
-uuid: 2af58f1e-1 파섹
+topic: Metrics
+uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
