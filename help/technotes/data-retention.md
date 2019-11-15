@@ -1,11 +1,9 @@
 ---
-seo-description: Adobe Analytics에서 수집한 데이터는 일정 기간 동안 유지됩니다. Adobe에서 이 데이터를 보관하는 시간은 계약에 따라 다르며 조직의 데이터 유지 정책에 요약되어 있습니다.
-seo-title: Adobe Analytics에 대한 데이터 유지 정책
 title: 데이터 유지 정책
 description: 데이터 보존 정책은 Adobe가 데이터를 저장하는 기간을 결정합니다.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
