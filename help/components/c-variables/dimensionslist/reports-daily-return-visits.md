@@ -1,18 +1,16 @@
 ---
 description: 특정 날짜에 웹 사이트에 두 번 이상 방문한 방문자의 수를 표시합니다. 하루는 마지막 24시간으로 정의됩니다.
-seo-description: 특정 날짜에 웹 사이트에 두 번 이상 방문한 방문자의 수를 표시합니다. 하루는 마지막 24시간으로 정의됩니다.
-seo-title: 일일 재방문
 solution: Analytics
-title: 일일 재방문
-topic: 보고서
-uuid: 8 A 881347-392 E -4 B 8 A -9745-825 B 103 D 7104
+title: 일별 재방문
+topic: Reports
+uuid: 8a881347-392e-4b8a-9745-825b103d7104
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 일일 재방문
+# 일별 재방문
 
 특정 날짜에 웹 사이트에 두 번 이상 방문한 방문자의 수를 표시합니다. 하루는 마지막 24시간으로 정의됩니다.
 
