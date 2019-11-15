@@ -1,12 +1,10 @@
 ---
 description: 작년 특정 기간 동안의 일별 서버 호출 평균과 올해 예상되는 서버 호출량 증가 볼륨을 가져올 수 있습니다. 그런 다음 이 곱하기 인자를 기반으로 하여 트래픽 스파이크를 예약할 수 있습니다.
-seo-description: 작년 특정 기간 동안의 일별 서버 호출 평균과 올해 예상되는 서버 호출량 증가 볼륨을 가져올 수 있습니다. 그런 다음 이 곱하기 인자를 기반으로 하여 트래픽 스파이크를 예약할 수 있습니다.
-seo-title: 지난 서버 호출 예측 및 트래픽 스파이크 예약
 solution: Analytics
 title: 지난 서버 호출 예측 및 트래픽 스파이크 예약
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
