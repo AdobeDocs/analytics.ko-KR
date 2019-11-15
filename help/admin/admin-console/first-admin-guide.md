@@ -1,10 +1,8 @@
 ---
 title: Adobe Analytics 첫 번째 관리 안내서
-seo-title: Adobe Analytics 첫 번째 관리 안내서
 description: Adobe Analytics를 시작하는 방법, 일반 역할 유형 및 UI에 로그인하는 방법을 알아봅니다.
-seo-description: Adobe Analytics를 시작하는 방법, 일반 역할 유형 및 UI에 로그인하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
