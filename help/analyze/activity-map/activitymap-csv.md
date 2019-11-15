@@ -1,13 +1,11 @@
 ---
 description: 표준 모드에서 Activity Map의 Analytics 데이터를 CSV(쉼표 구분 값) 파일로 내보내십시오.
-seo-description: 표준 모드에서 Activity Map의 Analytics 데이터를 CSV(쉼표 구분 값) 파일로 내보내십시오.
-seo-title: CSV 파일로 내보내기
 solution: Analytics
 title: CSV 파일로 내보내기
-topic: Activity Map
+topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 표준 모드에서 Activity Map의 Analytics 데이터를 CSV(쉼표 구분 값) 파일로 내보내십시오.
 
-사용자는 링크 클릭 데이터를 다른 데이터 소스와 병합하거나 다른 분석을 수행(예: Excel)해야 할 수 있습니다. CSV 내보내기를 이용하면 주어진 페이지에 대한 모든 Activity Map 데이터를 소비하기 쉬운 형식으로 얻을 수 있습니다. 또한 페이지에 대해 생성된 분석 데이터를 기본 CSV 파일에 저장하여 Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. 그런 다음 스프레드시트 또는 텍스트 파일로 보거나, 데이터를 다른 시스템으로 가져올 수 있습니다.
+사용자는 링크 클릭 데이터를 다른 데이터 소스와 병합하거나 다른 분석을 수행(예: Excel)해야 할 수 있습니다. CSV 내보내기를 이용하면 주어진 페이지에 대한 모든 Activity Map 데이터를 소비하기 쉬운 형식으로 얻을 수 있습니다. 또한 페이지에 대해 생성된 분석 데이터를 기본 CSV 파일에 저장하여 페이지 보고서, [페이지 흐름 보고서](/help/analyze/activity-map/activitymap-page-flow.md) 및 [페이지에 있는 링크 수](/help/analyze/activity-map/activitymap-links-report.md) 데이터를 내보낼 수 있습니다. 그런 다음 스프레드시트 또는 텍스트 파일로 보거나, 데이터를 다른 시스템으로 가져올 수 있습니다.
 
 Activity Map 도구 모음에서 [내보내기] 아이콘을 클릭합니다.
 
