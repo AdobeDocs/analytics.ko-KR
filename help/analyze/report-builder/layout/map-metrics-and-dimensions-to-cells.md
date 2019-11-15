@@ -1,13 +1,11 @@
 ---
 description: 항목을 스프레드시트에 매핑하기 전에 스프레드시트가 보호되지 않도록 하십시오. 워크시트에 대한 보호 스키마로 인해 사용자 작업이 불가능할 경우에는 스프레드시트에서 셀을 선택할 수 없게 됩니다. 이 경우 먼저 시트의 보호를 해제한 다음 셀 매핑을 추가합니다.
-seo-description: 항목을 스프레드시트에 매핑하기 전에 스프레드시트가 보호되지 않도록 하십시오. 워크시트에 대한 보호 스키마로 인해 사용자 작업이 불가능할 경우에는 스프레드시트에서 셀을 선택할 수 없게 됩니다. 이 경우 먼저 시트의 보호를 해제한 다음 셀 매핑을 추가합니다.
-seo-title: 지표 및 차원을 셀에 매핑
 solution: Analytics
 title: 지표 및 차원을 셀에 매핑
-topic: Report Builder
+topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
