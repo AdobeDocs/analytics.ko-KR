@@ -1,13 +1,11 @@
 ---
 description: 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 횟수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
-seo-description: 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 횟수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
-seo-title: 실시간 보고 개요
 solution: Analytics
 title: 실시간 보고 개요
-topic: 보고서
+topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -57,4 +55,4 @@ After the A4T integration is enabled in Adobe [!DNL Target], you will experience
 * 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
-이 통합을 완전히 구현하지 않았더라도 Identity Service를 구현한 후 지연 증가가 시작됩니다.
+이 통합을 완전히 구현하지 않았더라도 ID 서비스를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
