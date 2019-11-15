@@ -1,15 +1,13 @@
 ---
 description: s.sa() 함수를 사용하면 이미지 요청을 실행하기 전 또는 후에 페이지에서 언제든지 동적으로 보고서 세트를 변경할 수 있습니다.
-keywords: Analytics 구현
-seo-description: s.sa() 함수를 사용하면 이미지 요청을 실행하기 전 또는 후에 페이지에서 언제든지 동적으로 보고서 세트를 변경할 수 있습니다.
-seo-title: s.sa() 함수
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 함수
+subtopic: Functions
 title: s.sa() 함수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
