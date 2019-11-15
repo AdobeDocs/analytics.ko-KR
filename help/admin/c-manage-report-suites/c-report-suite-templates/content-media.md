@@ -1,13 +1,11 @@
 ---
-description: 원래 컨텐츠를 개발하고 기사 및 비디오를 표시하는 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-description: 원래 컨텐트를 개발하고 기사 및 비디오를 표시하는 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-title: 콘텐츠 및 미디어
+description: 원래 컨텐트를 개발하고 기사 및 비디오를 표시하는 웹 사이트에 대한 일반 설정을 정의합니다.
 solution: Analytics
 title: 콘텐츠 및 미디어
-topic: 관리 도구
-uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b7 파섹
+topic: Admin tools
+uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
