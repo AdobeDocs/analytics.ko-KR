@@ -1,10 +1,10 @@
 ---
 description: 동적 변수를 사용하면 사이트의 이미지 요청에 전체 값을 여러 번씩 입력하지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다.
-keywords: Analytics 구현
+keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
     * 'e'(종료)
     * 'o'(사용자 지정/기타)
 
-이미지 요청의 `pe` 매개 변수입니다. `linkURL` 또는 `linkName`으로 설정하면, 서버 호출이 다운로드, 사용자 지정 또는 종료 링크로서 전송됩니다.
+이미지 요청의 `pe` 매개 변수입니다. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
 
 *참고:각 링크 유형은 페이지 보기가 아니며 연결된 페이지 이름이 없으므로 파일 다운로드, 종료 링크 또는 사용자 지정 링크에 대해 변수를 설정할 수[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)없습니다.*
 
