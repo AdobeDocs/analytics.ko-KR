@@ -1,13 +1,11 @@
 ---
 description: 동일한 페이지 이름이 두 번 연이어 로드되면 계산됩니다. 이것은 페이지를 새로 고쳤음을 나타냅니다.
-seo-description: 동일한 페이지 이름이 두 번 연이어 로드되면 계산됩니다. 이것은 페이지를 새로 고쳤음을 나타냅니다.
-seo-title: 다시 로드
 solution: Analytics
 title: 다시 로드
-topic: 지표
+topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
