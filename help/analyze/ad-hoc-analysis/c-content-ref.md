@@ -1,13 +1,11 @@
 ---
 description: 애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용 Java 기반 사용자 인터페이스를 제공하며, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
-seo-description: 애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용 Java 기반 사용자 인터페이스를 제공하며, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
-seo-title: 세그먼트 작성
 solution: Analytics
 title: 세그먼트 작성
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
