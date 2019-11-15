@@ -1,13 +1,11 @@
 ---
-description: Report Builder에서 예외 항목 탐지 요청을 만드는 방법을 설명하는 단계
-seo-description: 리포트 빌더에서 예외 항목 탐지 요청을 만드는 방법을 설명하는 단계
-seo-title: 예외 항목 탐지 요청 구성
+description: 리포트 빌더에서 예외 항목 탐지 요청을 만드는 방법을 설명하는 단계
 solution: Analytics
 title: 예외 항목 탐지 요청 구성
-topic: Report Builder
+topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
