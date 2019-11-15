@@ -1,14 +1,12 @@
 ---
 description: 사용자 유형별 경로 세그먼트화는 얼마나 구체적인 사용자 유형이 사이트에서 경로를 이동하는지를 이해하기 위한 일반적인 요청입니다.
-keywords: Analytics 구현
-seo-description: 사용자 유형별 경로 세그먼트화는 얼마나 구체적인 사용자 유형이 사이트에서 경로를 이동하는지를 이해하기 위한 일반적인 요청입니다.
-seo-title: 사용자 유형별 경로 세그먼트화
+keywords: Analytics Implementation
 solution: Analytics
 title: 사용자 유형별 경로 세그먼트화
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
