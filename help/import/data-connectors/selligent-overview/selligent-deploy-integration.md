@@ -1,12 +1,10 @@
 ---
 description: 이 통합 배포는 간단한 3단계 프로세스입니다.
-seo-description: 이 통합 배포는 간단한 3단계 프로세스입니다.
-seo-title: 통합 배포
 solution: Analytics
 title: 통합 배포
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
