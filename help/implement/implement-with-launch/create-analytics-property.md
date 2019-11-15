@@ -1,10 +1,8 @@
 ---
 title: Launch에서 Analytics 속성 만들기
-seo-title: Adobe Experience Platform Launch에서 Adobe Analytics 속성 만들기
 description: Adobe Experience Platform Launch를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
-seo-description: Adobe Experience Platform Launch를 사용하여 데이터를 Adobe Analytics에 수집하는 방법을 사용자 정의할 공간을 만듭니다.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
