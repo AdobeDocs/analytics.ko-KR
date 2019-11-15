@@ -1,15 +1,13 @@
 ---
 description: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다.
-keywords: 그룹;권한
-seo-description: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다.
-seo-title: Analytics 도구 권한 사용자 지정
+keywords: groups;permissions
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: Analytics 도구 권한 사용자 지정
-topic: 관리 도구
+topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
