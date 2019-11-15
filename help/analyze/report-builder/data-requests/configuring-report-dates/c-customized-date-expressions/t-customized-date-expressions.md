@@ -1,13 +1,11 @@
 ---
 description: 사용자 지정 표현식을 만들어 복합적인 날짜 범위를 지정할 수 있습니다.
-seo-description: 사용자 지정 표현식을 만들어 복합적인 날짜 범위를 지정할 수 있습니다.
-seo-title: 사용자 지정된 날짜 표현식 - 개요
 solution: Analytics
 title: 사용자 지정된 날짜 표현식 - 개요
-topic: Report Builder
+topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
