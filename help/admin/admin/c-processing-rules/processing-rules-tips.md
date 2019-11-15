@@ -1,14 +1,12 @@
 ---
 description: 이 섹션에는 처리 규칙을 테스트하기 위한 지침과 피해야 할 일반적인 실수 목록이 들어 있습니다.
-seo-description: 이 섹션에는 처리 규칙을 테스트하기 위한 지침과 피해야 할 일반적인 실수 목록이 들어 있습니다.
-seo-title: 처리 규칙 팁과 트릭
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 처리 규칙 팁과 트릭
-topic: 관리 도구
+topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
