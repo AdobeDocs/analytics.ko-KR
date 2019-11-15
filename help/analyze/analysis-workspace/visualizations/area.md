@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 스택된 영역 및 영역
-title: 스택된 영역 및 영역
-uuid: 27 F 1 BFD 0-BF 64-4424-8827-F 7127 D 239762
+title: 영역 및 스택 영역
+uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 스택된 영역 및 영역
+# 영역 및 스택 영역
 
 ## 영역 {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
