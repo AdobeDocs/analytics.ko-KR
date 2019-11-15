@@ -1,13 +1,11 @@
 ---
 description: Report Builder 사용자에게 지정된 라이선스를 관리합니다.
-seo-description: Report Builder 사용자에게 지정된 라이선스를 관리합니다.
-seo-title: Report Builder 보고서
 solution: Analytics
 title: Report Builder 보고서
-topic: 관리 도구
+topic: Admin tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
