@@ -1,14 +1,12 @@
 ---
 description: .JS 파일이 페이지에서 올바로 참조되었는지 확인합니다. 경로는 현재 문서에 대해 상대적이거나 절대 경로 이름일 수 있습니다.
-keywords: Analytics 구현
-seo-description: .JS 파일이 페이지에서 올바로 참조되었는지 확인합니다. 경로는 현재 문서에 대해 상대적이거나 절대 경로 이름일 수 있습니다.
-seo-title: JavaScript JS 파일
+keywords: Analytics Implementation
 solution: Analytics
 title: JavaScript JS 파일
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
