@@ -1,14 +1,12 @@
 ---
 description: 사용 가능한 호스팅 옵션을 한 개 이상 사용하여 Dynamic Tag Management를 배포할 수 있습니다.
-keywords: Analytics 구현;구현 방법;dynamic tag management;dtm, 호스팅;호스팅 옵션;akamai;자체 호스팅;자체호스팅;ftp 게재;ftp 호스팅;라이브러리 다운로드
-seo-description: 사용 가능한 호스팅 옵션을 한 개 이상 사용하여 Dynamic Tag Management를 배포할 수 있습니다.
-seo-title: 호스팅 옵션 구성
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
 solution: Analytics
 title: 호스팅 옵션 구성
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
