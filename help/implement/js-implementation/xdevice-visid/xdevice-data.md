@@ -1,15 +1,13 @@
 ---
 description: 상호 장치 방문자 식별 기능을 활성화하는 것이 보고서에 표시되는 데이터에 어떻게 영향을 미치는지에 대한 개요
-keywords: Analytics 구현
-seo-description: 상호 장치 방문자 식별 기능을 활성화하는 것이 보고서에 표시되는 데이터에 어떻게 영향을 미치는지에 대한 개요
-seo-title: 크로스 장치 방문자 식별의 데이터 영향
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 방문자 수
+subtopic: Visitors
 title: 크로스 장치 방문자 식별의 데이터 영향
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 1db4d149-cd50-4b41-a850-988901f25051
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. [Adobe Experience Cloud Device Co-op 설명서](https://marketing.adobe.com/resources/help/ko_KR/mcdc/)를 참조하십시오.
+>장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. Adobe Experience [Cloud Device Co-op 설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 상호 장치 방문자 식별 기능을 활성화하는 것이 보고서에 표시되는 데이터에 어떻게 영향을 미치는지에 대한 개요
 
