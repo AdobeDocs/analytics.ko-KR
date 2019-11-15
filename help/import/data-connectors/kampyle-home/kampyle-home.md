@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Kampyle Data Connector for Adobe Analytics
 solution: Analytics
 title: Kampyle Data Connector for Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ Adobe Analytics용 Kampyle Data Connector는 Kampyle의 통합 피드백 시스�
 
 * Kampyle for Websites의 현재 고객이어야 합니다.
 * 데이터 커넥터를 사용하려면 권한이 있는 Adobe Experience Cloud 관리 사용자여야 합니다.
-* Kampyle Feedback Form 관리 UI에서 Kampyle Private Key를 검색할 수 있어야 합니다.
+* Kampyle 피드백 양식 관리 UI에서 Kampyle 개인 키를 검색할 수 있어야 합니다.
 
 ## Kampyle 개인 키 가져오기{#retrieve-the-kampyle-private-key}
 
