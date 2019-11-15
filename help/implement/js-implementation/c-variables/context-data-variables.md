@@ -1,15 +1,13 @@
 ---
 description: 컨텍스트 데이터 변수를 사용하여 처리 규칙으로 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
-keywords: Analytics 구현;contextdata;s.contextdata
-seo-description: 컨텍스트 데이터 변수를 사용하여 처리 규칙으로 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
-seo-title: 컨텍스트 데이터 변수
+keywords: Analytics Implementation;contextdata;s.contextdata
 solution: Analytics
-subtopic: 변수
+subtopic: Variables
 title: 컨텍스트 데이터 변수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,11 +19,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 코드에서 값을 prop 및 eVar에 명시적으로 할당하는 대신 처리 규칙을 사용하여 매핑되는 컨텍스트 데이터 변수에 데이터를 전송할 수 있습니다. 처리 규칙은 데이터를 수신할 때 데이터를 변경하는 강력한 그래픽 인터페이스를 제공합니다. 컨텍스트 데이터에서 전송된 값을 기반으로 하여 이벤트를 설정하고 eVars 및 props에 값을 복사하고 추가 조건문을 실행할 수 있습니다.
 
 > [!NOTE] 컨텍스트 데이터 변수는 대/소문자를 구분하지 않습니다. 예를 들어 다음 2개 변수는 사실상 동일합니다.
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >및
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
