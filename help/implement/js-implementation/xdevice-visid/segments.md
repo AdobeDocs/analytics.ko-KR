@@ -1,14 +1,12 @@
 ---
 description: 주어진 방문자 ID 쿠키에 대한 연관성이 생길 때마다 세그먼트를 만들 수 있습니다.
-keywords: Analytics 구현
-seo-description: 주어진 방문자 ID 쿠키에 대한 연관성이 생길 때마다 세그먼트를 만들 수 있습니다.
-seo-title: 세그먼트 만들기
+keywords: Analytics Implementation
 solution: Analytics
 title: 세그먼트 만들기
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 476a4667-033c-4e53-961d-ad67e7c2b045
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
