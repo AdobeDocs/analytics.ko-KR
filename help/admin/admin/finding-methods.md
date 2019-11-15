@@ -1,13 +1,11 @@
 ---
 description: '[검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매하는 방문자를 해당 사이트로 안내하는 경우, 검색 방법은 검색 엔진이 참조에 대한 크레딧을 받는 방법을 지정합니다.'
-seo-description: '[검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매하는 방문자를 해당 사이트로 안내하는 경우, 검색 방법은 검색 엔진이 참조에 대한 크레딧을 받는 방법을 지정합니다.'
-seo-title: 검색 방법
 solution: Analytics
 title: 검색 방법
-topic: 관리 도구
+topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
