@@ -1,14 +1,12 @@
 ---
-description: 선택한 시간, 일, 주, 월, 분기 또는 연도의 고유 사이트 방문자 수입니다.
-keywords: 방문자 수
-seo-description: 선택한 시간, 일, 주, 월, 분기 또는 연도의 고유 사이트 방문자 수.
-seo-title: 방문자 수
+description: 선택한 시간, 일, 주, 월, 분기 또는 연도의 고유 사이트 방문자 수.
+keywords: visitors
 solution: Analytics
 title: 방문자 수
-topic: 지표
+topic: Metrics
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
