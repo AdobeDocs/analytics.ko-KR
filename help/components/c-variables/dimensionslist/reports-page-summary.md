@@ -1,13 +1,11 @@
 ---
 description: 한 페이지의 고유한 정보를 수집하여 하나의 보고서로 구성합니다. 방문자가 특정 페이지에 도달하는 방식과, 사이트 탐색을 더 진행하는지 아니면 종료하는지를 아는 데 사용할 수 있습니다.
-seo-description: 한 페이지의 고유한 정보를 수집하여 하나의 보고서로 구성합니다. 방문자가 특정 페이지에 도달하는 방식과, 사이트 탐색을 더 진행하는지 아니면 종료하는지를 아는 데 사용할 수 있습니다.
-seo-title: 페이지 요약
 solution: Analytics
 title: 페이지 요약
-topic: 보고서
+topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
