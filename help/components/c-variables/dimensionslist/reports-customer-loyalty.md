@@ -1,20 +1,18 @@
 ---
 description: 고객 충성도는 고객의 구매 패턴을 보여줍니다.
-seo-description: 고객 충성도는 고객의 구매 패턴을 보여줍니다.
-seo-title: 고객 충성도
 solution: Analytics
 title: 고객 충성도
-topic: 보고서
+topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # 고객 충성도
 
-고객 충성도 고객 구매 패턴을 보여줍니다.
+고객 충성도는 고객의 구매 패턴을 보여줍니다.
 
 이 보고서는 네 가지 충성도 카테고리를 기반으로 고객의 구매 패턴을 표시합니다.
 
