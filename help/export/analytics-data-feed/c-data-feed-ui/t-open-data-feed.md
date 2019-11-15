@@ -1,13 +1,11 @@
 ---
 description: 데이터 피드 사용자 인터페이스는  [관리] 탭에서 액세스할 수 있습니다.
-keywords: 데이터 피드;데이터 피드 랜딩 페이지;피드 목록
-seo-description: 데이터 피드 사용자 인터페이스는  [관리] 탭에서 액세스할 수 있습니다.
-seo-title: 데이터 피드 인터페이스 열기
+keywords: Data Feed;data feed landing page;feeds list
 solution: Analytics
 title: 데이터 피드 인터페이스 열기
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
