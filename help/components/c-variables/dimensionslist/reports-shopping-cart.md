@@ -1,13 +1,11 @@
 ---
 description: 지정된 기간 동안 열린 장바구니 수를 표시합니다. 보고서를 실행하여 장바구니 보기, 추가 항목, 제거 항목 및 체크아웃을 분석할 수 있습니다. 장바구니는 주로 고객이 구매할 항목을 선택할 때 열리지만 항목 없이도 열릴 수 있습니다.
-seo-description: 지정된 기간 동안 열린 장바구니 수를 표시합니다. 보고서를 실행하여 장바구니 보기, 추가 항목, 제거 항목 및 체크아웃을 분석할 수 있습니다. 장바구니는 주로 고객이 구매할 항목을 선택할 때 열리지만 항목 없이도 열릴 수 있습니다.
-seo-title: 장바구니
 solution: Analytics
 title: 장바구니
-topic: 보고서
+topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
