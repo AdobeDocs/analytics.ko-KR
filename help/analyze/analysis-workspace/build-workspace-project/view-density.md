@@ -1,10 +1,8 @@
 ---
 description: 뷰 밀도를 조정하는 방법을 살펴봅니다.
-seo-description: 분석 작업 공간 테이블에서 보기 밀도를 조정하는 방법을 알아봅니다.
-seo-title: 분석 작업 공간에서 밀도 설정 보기
 title: 보기 밀도
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
