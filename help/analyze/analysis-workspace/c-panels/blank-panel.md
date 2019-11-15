@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 빈 패널
 title: 빈 패널
-uuid: 3 D 25 B 221-59 F 5-4574-B 06 E -48 F 036 F 525 AA
+uuid: 3d25b221-59f5-4574-b06e-48f036f525aa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
