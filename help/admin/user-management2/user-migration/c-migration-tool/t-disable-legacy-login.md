@@ -1,11 +1,9 @@
 ---
 description: Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 알아봅니다.
-seo-description: Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 알아봅니다.
-seo-title: 기존 로그인 비활성화
 title: 기존 로그인 비활성화
-uuid: 085874b2-1 파섹
+uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
