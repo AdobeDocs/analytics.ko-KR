@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: Analytics 구현
-seo-description: 'null'
-seo-title: 머천다이징 변수 개요
+keywords: Analytics Implementation
 solution: Analytics
 title: 머천다이징 변수 개요
-topic: 개발자 및 구현
-uuid: 2 CCF 516 A-A 7 EE -48 AB -92 AA -414228 A 4102 F
+topic: Developer and implementation
+uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,7 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 구매가 완료되면 가장 최근에서 할당이 변경되지 않았다고 가정했을 때 "겨울 코트"에 대한 내부 검색이 고글 구매의 요인으로 되는 것입니다. 이는 마케팅 의사 결정을 위한 데이터로 적합하지 않습니다.
 
-| 내부 검색어 | 매출 |
+| 내부 검색어 | 매출  |
 |---|---|
 | 겨울 코트 | $157 |
 
@@ -37,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 이전 예제에서 eVar에 대해 머천다이징이 활성화되었다면 "고글"이라는 검색어가 Fernie Snow Goggles에 연결되고 "겨울 코트"라는 검색어가 El Gordo Down Jacket에 연결됩니다. 머천다이징 변수는 제품 수준에서 매출을 할당하므로 각 용어가 그것과 연결된 제품 수익 금액에 대한 요인으로 인정됩니다.
 
-| 내부 검색어 | 매출 |
+| 내부 검색어 | 매출  |
 |---|---|
 | 겨울 코트 | $119 |
 | 고글 | $38 |
