@@ -1,14 +1,12 @@
 ---
 description: 다른 값을 통합하는 연결 옵션을 사용하여 값을 채울 수 있습니다.
-seo-description: 다른 값을 통합하는 연결 옵션을 사용하여 값을 채울 수 있습니다.
-seo-title: 카테고리와 페이지 이름을 연결하여 하위 카테고리 추가
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 카테고리와 페이지 이름을 연결하여 하위 카테고리 추가
-topic: 관리 도구
-uuid: 45 E 5 B 004-690 F -4 D 66-98 F 1-29 BAF 9 A 954 D 0
+topic: Admin tools
+uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
