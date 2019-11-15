@@ -1,13 +1,11 @@
 ---
 description: 사용자 지정 트래픽 보고서를 사용하면 각 조직이 기본값으로 구현되지 않는 추가 측정기준에서 보고할 수 있습니다. 사용자 지정 트래픽 보고서는 여러 방법으로 사용될 수 있으며, 가장 일반적으로는 트래픽과 경로를 측정하는 데 사용됩니다.
-seo-description: 사용자 지정 트래픽 보고서를 사용하면 각 조직이 기본값으로 구현되지 않는 추가 측정기준에서 보고할 수 있습니다. 사용자 지정 트래픽 보고서는 여러 방법으로 사용될 수 있으며, 가장 일반적으로는 트래픽과 경로를 측정하는 데 사용됩니다.
-seo-title: 사용자 지정 트래픽
 solution: Analytics
 title: 사용자 지정 트래픽
-topic: 보고서
+topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
