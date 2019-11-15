@@ -1,13 +1,11 @@
 ---
 description: Activity Map에서의 링크 추적에 대한 FAQ.
-seo-description: Activity Map에서의 링크 추적에 대한 FAQ.
-seo-title: 링크 추적 FAQ
 solution: Analytics
 title: 링크 추적 FAQ
-topic: Activity Map
+topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
