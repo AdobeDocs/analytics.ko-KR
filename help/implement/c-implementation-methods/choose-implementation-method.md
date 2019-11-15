@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics를 구현하는 방법에는 여러 가지가 있습니다.
-keywords: Analytics 구현;구현 방법;dynamic tag management;dtm;javascript
-seo-description: Adobe Analytics를 구현하는 방법에는 여러 가지가 있습니다.
-seo-title: 구현 방법 선택
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;javascript
 solution: Analytics
 title: 구현 방법 선택
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
