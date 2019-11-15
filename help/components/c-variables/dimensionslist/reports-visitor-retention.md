@@ -1,13 +1,11 @@
 ---
 description: '고객 충성도에 대한 정보를 표시합니다. 얼마나 많은 방문자가 사이트를 몇 번이나 재방문하는지 확인할 수 있습니다. 이 카테고리의 보고서는 고객 충성도에 대한 정보를 제공합니다. 얼마나 많은 방문자가 사이트를 몇 번이나 재방문하는지 확인할 수 있습니다. '
-seo-description: '고객 충성도에 대한 정보를 표시합니다. 얼마나 많은 방문자가 사이트를 몇 번이나 재방문하는지 확인할 수 있습니다. 이 카테고리의 보고서는 고객 충성도에 대한 정보를 제공합니다. 얼마나 많은 방문자가 사이트를 몇 번이나 재방문하는지 확인할 수 있습니다. '
-seo-title: 방문자 유지
 solution: Analytics
 title: 방문자 유지
-topic: 보고서
+topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
