@@ -1,14 +1,12 @@
 ---
 description: 데이터 소스는 전환으로서 처리되는 데이터 유형을 위한 다음의 전환 데이터 차원 및 지표를 지원합니다.
-seo-description: 데이터 소스는 전환으로서 처리되는 데이터 유형을 위한 다음의 전환 데이터 차원 및 지표를 지원합니다.
-seo-title: 전환
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 전환
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
