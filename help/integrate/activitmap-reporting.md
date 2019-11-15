@@ -1,13 +1,11 @@
 ---
 description: Analytics에서 Activity Map 보고를 활성화하는 관리 단계입니다.
-seo-description: Analytics에서 Activity Map 보고를 활성화하는 관리 단계입니다.
-seo-title: Activity Map 보고
 solution: Analytics
 title: Activity Map 보고
-topic: 보고서
+topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
