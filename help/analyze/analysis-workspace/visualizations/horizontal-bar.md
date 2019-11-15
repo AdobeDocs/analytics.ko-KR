@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 가로 막대 및 스택 가로 막대
 title: 가로 막대 및 스택 가로 막대
-uuid: 3730929 D -42 E 6-4543-B 12 A-D 002 F 86 AC 82 D
+uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
