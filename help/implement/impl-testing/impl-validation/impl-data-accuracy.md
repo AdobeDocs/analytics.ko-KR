@@ -1,14 +1,12 @@
 ---
 description: 데이터 정확도 확인은 보고서 데이터를 알려져 있고 확인할 수 있는 데이터 포인트와 비교하는 프로세스입니다.
-keywords: Analytics 구현
-seo-description: 데이터 정확도 확인은 보고서 데이터를 알려져 있고 확인할 수 있는 데이터 포인트와 비교하는 프로세스입니다.
-seo-title: 데이터 정확도 유효성 검사
+keywords: Analytics Implementation
 solution: Analytics
 title: 데이터 정확도 유효성 검사
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
