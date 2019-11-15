@@ -1,14 +1,12 @@
 ---
 description: AJAX는 웹 디자인에서 새롭게 대두되고 있는 개념으로, 여러 가지 기술을 사용하여 웹 페이지에서 동적 컨텐츠를 만들고 관리하는 것을 의미합니다.
-keywords: Analytics 구현
-seo-description: AJAX는 웹 디자인에서 새롭게 대두되고 있는 개념으로, 여러 가지 기술을 사용하여 웹 페이지에서 동적 컨텐츠를 만들고 관리하는 것을 의미합니다.
-seo-title: AJAX-Track 리치 미디어 애플리케이션
+keywords: Analytics Implementation
 solution: Analytics
 title: AJAX-Track 리치 미디어 애플리케이션
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
