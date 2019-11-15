@@ -1,13 +1,11 @@
 ---
 description: 방문자 기여도는 마케팅 채널, 캠페인, 매출 등에서 방문자 세션들에 걸친 기여도를 볼 수 있도록 해주는 지표 시리즈입니다. 예를 들어, 구매 및 매출 크레딧은 주문이 발생하는 방문 전에 발생한 다른 마케팅 접점이 기여한 것일 수 있습니다. Ad Hoc Analysis은 방문 시의 방문자 기여도를 제공합니다.
-seo-description: 방문자 기여도는 마케팅 채널, 캠페인, 매출 등에서 방문자 세션들에 걸친 기여도를 볼 수 있도록 해주는 지표 시리즈입니다. 예를 들어, 구매 및 매출 크레딧은 주문이 발생하는 방문 전에 발생한 다른 마케팅 접점이 기여한 것일 수 있습니다. Ad Hoc Analysis은 방문 시의 방문자 기여도를 제공합니다.
-seo-title: 방문자 기여도 - Ad Hoc Analysis
 solution: Analytics
 title: 방문자 기여도 - Ad Hoc Analysis
-topic: 지표
+topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
