@@ -1,13 +1,11 @@
 ---
 description: 조건은 언제 이벤트 기반 규칙이 트리거되는지 결정합니다.
-keywords: Dynamic Tag Management;규칙;규칙 만들기;새 규칙;이벤트 기반 규칙;링크 활성화 지연;요소에 이벤트 처리기 직접 적용;버블링;이벤트 버블링
-seo-description: 조건은 언제 이벤트 기반 규칙이 트리거되는지 결정합니다.
-seo-title: 이벤트 기반 규칙 조건 만들기
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 이벤트 기반 규칙 조건 만들기
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,4 +49,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    |--- |--- |
    | 식별한 규칙 선택기의 하위 요소에 있는 관련 상호 작용이 규칙을 실행하도록 하려는 경우 | 하위 요소에 대한 이벤트의 버블링 허용에서 보냅니다. |
    | 하위 요소가 이미 자신의 이벤트를 트리거했다면 버블링이 되지 않도록 하려는 경우 | 이미 하위 요소에 의해 이벤트가 실행되는 경우 허용하지 않음 |
-   | 식별한 규칙 선택기의 이벤트가 이벤트 계층 구조에서 요소 자체를 넘지 않도록 하려는 경우. | 이벤트가 상위까지 위쪽으로 버블링하는 것을 허용하지 않음. |
+   | 식별한 규칙 선택기의 이벤트가 이벤트 계층 구조에서 요소 자체를 넘지 않도록 하려는 경우. | 이벤트가 상위까지 위쪽으로 버블링하는 것을 허용하지 �
