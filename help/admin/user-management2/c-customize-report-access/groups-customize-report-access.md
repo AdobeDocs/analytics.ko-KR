@@ -1,15 +1,13 @@
 ---
 description: Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그룹 권한을 사용자 지정합니다.
-keywords: 그룹;권한
-seo-description: Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그룹 권한을 사용자 지정합니다.
-seo-title: 보고서 액세스 사용자 지정 - 개요
+keywords: groups;permissions
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 보고서 액세스 사용자 지정 - 개요
-topic: 관리 도구
+topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
