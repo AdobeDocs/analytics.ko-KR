@@ -1,13 +1,11 @@
 ---
 description: FTP와 SFTP를 사용하여 컴퓨터와 서버 간에 파일을 전송하는 방법에 대해 알아봅니다.
 keywords: ftp;sftp
-seo-description: FTP와 SFTP를 사용하여 컴퓨터와 서버 간에 파일을 전송하는 방법에 대해 알아봅니다.
-seo-title: Adobe Experience Cloud와 FTP 및 SFTP 사용
 solution: Analytics
 title: Adobe Experience Cloud와 FTP 및 SFTP 사용
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
