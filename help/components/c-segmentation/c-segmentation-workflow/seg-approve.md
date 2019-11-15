@@ -1,13 +1,11 @@
 ---
 description: 세그먼트 관리자 내에서 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 세그먼트 승인이 포함된 워크플로우를 보고 정책과 일관되게 설정할 수 있습니다.
-seo-description: 세그먼트 관리자 내에서 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 세그먼트 승인이 포함된 워크플로우를 보고 정책과 일관되게 설정할 수 있습니다.
-seo-title: 세그먼트 승인
 solution: Analytics
 title: 세그먼트 승인
-topic: 세그먼트
+topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
