@@ -1,12 +1,10 @@
 ---
 description: 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약합니다.
-seo-description: 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약합니다.
-seo-title: 쿼리 문자열 매개 변수 플러그인 코드
 solution: Analytics
 title: 쿼리 문자열 매개 변수 플러그인 코드
-uuid: a71e774-bc7a-414e-a116-739770b900bf
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
