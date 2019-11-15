@@ -1,15 +1,13 @@
 ---
 description: 일반적인 고객 상호 작용에서 전송된 서버 호출의 샘플이 들어 있는 예
-keywords: Analytics 구현
-seo-description: 일반적인 고객 상호 작용에서 전송된 서버 호출의 샘플이 들어 있는 예
-seo-title: 방문 예
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 방문자 수
+subtopic: Visitors
 title: 방문 예
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
