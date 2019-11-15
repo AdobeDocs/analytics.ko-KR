@@ -1,13 +1,11 @@
 ---
 description: Report Builder에서 필터나 다른 매개 변수를 저장하고 다른 워크시트 또는 통합 문서에서 사용할 수 있습니다. 이 매개 변수들은 Analytics에 저장되어 다른 Report Builder 사용자들이 다른 컴퓨터에서 사용할 수 있습니다.
-seo-description: Report Builder에서 필터나 다른 매개 변수를 저장하고 다른 워크시트 또는 통합 문서에서 사용할 수 있습니다. 이 매개 변수들은 Analytics에 저장되어 다른 Report Builder 사용자들이 다른 컴퓨터에서 사용할 수 있습니다.
-seo-title: 저장한 필터
 solution: Analytics
 title: 저장한 필터
-topic: Report Builder
+topic: Report builder
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
