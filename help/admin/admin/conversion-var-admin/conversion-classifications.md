@@ -1,14 +1,12 @@
 ---
 description: 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 유료 검색 캠페인을 "팝 뮤직 용어" 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
-seo-description: 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 유료 검색 캠페인을 "팝 뮤직 용어" 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
-seo-title: 전환 분류
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 전환 분류
-topic: 관리 도구
-uuid: b 088 ea 4 b -8 ab 7-4 ccf -96 c 6-8567 d 91 fb 8 cf
+topic: Admin tools
+uuid: b088ea4b-8ab7-4ccf-96c6-8567d91fb8cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
