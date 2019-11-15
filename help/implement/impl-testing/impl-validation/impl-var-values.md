@@ -1,14 +1,12 @@
 ---
 description: 서버 스크립팅이나 코드에서 채워지는 변수는 값을 방해하는 인용 부호를 출력할 수 없습니다.
-keywords: Analytics 구현
-seo-description: 서버 스크립팅이나 코드에서 채워지는 변수는 값을 방해하는 인용 부호를 출력할 수 없습니다.
-seo-title: 변수와 값
+keywords: Analytics Implementation
 solution: Analytics
 title: 변수와 값
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
