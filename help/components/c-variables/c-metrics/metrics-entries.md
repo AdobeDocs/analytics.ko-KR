@@ -1,13 +1,11 @@
 ---
 description: 시작은 주어진 값이 방문에서 첫 번째 값으로 캡처된 횟수를 나타냅니다. 시작은 방문당 한 번만 발생할 수 있습니다. 그러나 변수가 정의되지 않은 경우 반드시 첫 번째 히트가 되는 것은 아닙니다.
-seo-description: 시작은 주어진 값이 방문에서 첫 번째 값으로 캡처된 횟수를 나타냅니다. 시작은 방문당 한 번만 발생할 수 있습니다. 그러나 변수가 정의되지 않은 경우 반드시 첫 번째 히트가 되는 것은 아닙니다.
-seo-title: 항목
 solution: Analytics
 title: 항목
-topic: 지표
+topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
