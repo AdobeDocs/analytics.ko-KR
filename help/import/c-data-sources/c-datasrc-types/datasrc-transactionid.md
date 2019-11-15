@@ -1,14 +1,12 @@
 ---
 description: 범용(거래 ID) 카테고리를 선택하여 거래 ID를 통합할 수 있습니다.
-seo-description: 범용(거래 ID) 카테고리를 선택하여 거래 ID를 통합할 수 있습니다.
-seo-title: 거래 ID
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 거래 ID
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
