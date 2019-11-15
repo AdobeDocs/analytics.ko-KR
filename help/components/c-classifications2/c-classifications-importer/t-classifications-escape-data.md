@@ -1,14 +1,12 @@
 ---
 description: 분류 파일에 있는 분류 데이터를 이스케이프 처리하는 방법을 설명하는 절차입니다.
-seo-description: 분류 파일에 있는 분류 데이터를 이스케이프 처리하는 방법을 설명하는 절차입니다.
-seo-title: 분류 데이터 이스케이프 처리
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 분류 데이터 이스케이프 처리
-topic: 관리 도구
-uuid: 724 EDCC 5-4990-4 F 24-AFBB -9 AEF 301791 A 7
+topic: Admin tools
+uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
