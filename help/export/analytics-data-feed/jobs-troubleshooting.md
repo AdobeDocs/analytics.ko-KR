@@ -1,13 +1,11 @@
 ---
 description: 오류가 발생하면 [작업 상태] 열에 오류가 보고됩니다.
-keywords: 데이터 피드;작업;문제 해결;오류;ftp;chdir;connect;login;put
-seo-description: 오류가 발생하면 [작업 상태] 열에 오류가 보고됩니다.
-seo-title: 작업 문제 해결
+keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 solution: Analytics
 title: 작업 문제 해결
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
