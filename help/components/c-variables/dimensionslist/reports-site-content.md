@@ -1,13 +1,11 @@
 ---
 description: 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다.
-seo-description: 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다.
-seo-title: 사이트 콘텐츠
 solution: Analytics
 title: 사이트 콘텐츠
-topic: 보고서
+topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
