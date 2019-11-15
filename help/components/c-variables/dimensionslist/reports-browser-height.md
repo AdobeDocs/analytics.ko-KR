@@ -1,13 +1,11 @@
 ---
 description: 브라우저 창에서 데이터의 수직 거리를 나타냅니다. 도구 모음, 메뉴, 단추 등은 모두 브라우저 높이 측정기준의 일부에서 제외됩니다.
-seo-description: 브라우저 창에서 데이터의 수직 거리를 나타냅니다. 도구 모음, 메뉴, 단추 등은 모두 브라우저 높이 측정기준의 일부에서 제외됩니다.
-seo-title: 브라우저 높이
 solution: Analytics
 title: 브라우저 높이
-topic: 보고서
+topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
