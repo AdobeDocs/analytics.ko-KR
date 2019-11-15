@@ -1,14 +1,12 @@
 ---
 description: 처리 규칙을 사용하여 정의된 조건을 기준으로 데이터를 변경할 수 있습니다. 속성 또는 값이 정의된 조건과 일치하는 경우 값을 설정하고 삭제할 수 있으며 이벤트를 설정할 수 있습니다.
-seo-description: 처리 규칙을 사용하여 정의된 조건을 기준으로 데이터를 변경할 수 있습니다. 속성 또는 값이 정의된 조건과 일치하는 경우 값을 설정하고 삭제할 수 있으며 이벤트를 설정할 수 있습니다.
-seo-title: 처리 규칙 작동 방식
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 처리 규칙 작동 방식
-topic: 관리 도구
+topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -106,4 +104,4 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 작업은 페이지 변수를 설정하거나, 페이지 변수를 삭제하거나 이벤트를 트리거합니다. 또한 작업은 보고서에 표시할 값을 연결할 수 있습니다. 
 
-For example, you might want to display `category:product` by concatenating two variables.
+For example, you might want to display `category:product` by concatenating two var
