@@ -1,13 +1,11 @@
 ---
 description: Akamai 호스팅을 사용하는 경우 콘솔에서 게시 취소된 규칙을 테스트합니다.
-keywords: Dynamic Tag Management;규칙;switcher 플러그인;akamai;테스트 akamai;게시되지 않은 규칙;게시되지 않은 규칙 테스트;디버그 규칙
-seo-description: Akamai 호스팅을 사용하는 경우 콘솔에서 게시 취소된 규칙을 테스트합니다.
-seo-title: Akamai 호스팅을 위한 게시되지 않은 규칙 테스트
+keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Akamai 호스팅을 위한 게시되지 않은 규칙 테스트
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
