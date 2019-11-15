@@ -1,13 +1,11 @@
 ---
 description: 세그먼트 빌더로 만들고 세그먼트 관리자를 통해 관리되는 세그먼트에 대해 제안되는 워크플로우에 대해 설명합니다.
-seo-description: 세그먼트 빌더로 만들고 세그먼트 관리자를 통해 관리되는 세그먼트에 대해 제안되는 워크플로우에 대해 설명합니다.
-seo-title: 세그멘테이션 워크플로우 개요
 solution: Analytics
 title: 세그멘테이션 워크플로우 개요
-topic: 세그먼트
+topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 29bff19e4d33402e8fb65192d7eee134c76c537d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
