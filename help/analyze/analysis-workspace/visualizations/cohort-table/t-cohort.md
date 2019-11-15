@@ -1,14 +1,12 @@
 ---
 description: 분석 작업 공간에서 집단을 만들고 집단 분석 보고서를 실행합니다.
 keywords: Analysis Workspace
-seo-description: 분석 작업 공간에서 집단을 만들고 집단 분석 보고서를 실행합니다.
-seo-title: 집단 분석 보고서 실행
 solution: Analytics
 title: 집단 분석 보고서 실행
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
