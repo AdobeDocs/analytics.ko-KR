@@ -1,13 +1,11 @@
 ---
 description: 롤업 보고서 세트는 여러 하위 보고서 세트에서 데이터를 집계하여 요약된 데이터 세트에 표시합니다.
-seo-description: 롤업 보고서 세트는 여러 하위 보고서 세트에서 데이터를 집계하여 요약된 데이터 세트에 표시합니다.
-seo-title: 롤업 및 글로벌 보고서 세트
 solution: Analytics
 title: 롤업 및 글로벌 보고서 세트
-topic: 관리 도구
+topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
