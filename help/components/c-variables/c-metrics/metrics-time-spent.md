@@ -2,9 +2,9 @@
 description: Adobe Analytics에서는 다양한 체류 시간 지표와 차원을 제공합니다. 이러한 지표와 차원에 대한 정의와 계산 방법을 확인하십시오.
 solution: Analytics
 title: 체류 시간
-topic: 지표
+topic: Metrics
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -38,7 +38,9 @@ Adobe Analytics는 Analytics 보고서에서 보낸 시간을 확인하는 여�
 
 ## 사이트에서 보낸 평균 시간(초)
 
-주어진 차원 값으로 사이트에서 보낸 평균 시간입니다. 이 지표는 일반적으로 시간 경과에 따른 체류 시간을 표시하도록 날짜 차원과 쌍을 이루었습니다. 그것의 대략적인 계산은 `Total seconds spent / (Sequences - Bounces)`한다. 시퀀스는 차원 값이 변경되지 않은 일련의 히트입니다. 대부분의 경우 방문당 체류 시간을 대신 사용하십시오.
+일반적으로 날짜 차원과 쌍을 이루는 사이트에서 보낸 평균 시간입니다. 이 지표는 보통 시간에 따른 체류 시간 트렌드를 표시하지만, 차원에서도 방문당 체류 시간에 대한 대체 계산으로 사용할 수 있습니다. 그것의 대략적인 계산은 `Total seconds spent / (Sequences - Bounces)`한다. 시퀀스는 차원 값이 변경되지 않은 일련의 히트입니다.
+
+> [!NOTE] 방문당 체류 시간과 사이트에서 보낸 평균 시간은 비슷한 지표입니다. 이 두 지표 간의 차이는 분모입니다.방문당 체류 시간을 사용하는 `visits - bounces`반면 사이트에서 보낸 평균 시간은 `sequences - bounces`사용됩니다. 방문 수준에서 이러한 지표는 유사하게 표시되지만 히트 수준에서 일부 차이가 있을 수 있습니다.
 
 ## 페이지에서 보낸 평균 시간
 
