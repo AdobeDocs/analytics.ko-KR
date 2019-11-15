@@ -1,14 +1,12 @@
 ---
 description: 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 지정할 수 있습니다.
-seo-description: 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 지정할 수 있습니다.
-seo-title: 마케팅 채널 시작
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 마케팅 채널 시작
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.
 
 >[!NOTE]
 >
-> 마케팅 채널이 이전에 구성되지 않은 경우 [자동 설정이](/help/components/c-marketing-channels/c-channel-autosetup.md) 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
+>마케팅 채널이 이전에 구성되지 않은 경우 [자동 설정이](/help/components/c-marketing-channels/c-channel-autosetup.md) 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
 
 ![](assets/step3_icon.png)[!UICONTROL  마케팅 채널 처리 규칙] 페이지에서 각 채널의 규칙을 구성하거나 세분화합니다.
 
