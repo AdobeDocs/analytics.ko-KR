@@ -1,15 +1,13 @@
 ---
 description: getVisitNum 플러그인은 사용자의 사이트 방문 수를 결정하고 이 값을 Analytics 변수에 캡처합니다.
-keywords: Analytics 구현
-seo-description: getVisitNum 플러그인은 사용자의 사이트 방문 수를 결정하고 이 값을 Analytics 변수에 캡처합니다.
-seo-title: getVisitNum
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 플러그인
+subtopic: Plug-ins
 title: getVisitNum
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -84,5 +82,4 @@ s.prop1=s.getVisitNum('d'); //resets daily
 **참고**
 
 * 프로덕션 환경에 플러그인을 배포하기 전에 항상 플러그인 설치를 종합적으로 테스트하여 데이터 수집이 예상대로 수행되는지 확인하십시오.
-* 이 플러그인은 사용자의 웹 브라우저에서 쿠키를 설정하는 능력을 이용합니다. 사용자가 쿠키를 승인하지 않은 경우는 모든 방문이 첫 번째 방문으로 나타납니다.
-
+* 이 플러그인은 사용자의 웹 브라우저에서 쿠키를 설정하는 능력을 이용합니다. 사용자가 쿠키를 승인하지 않은 경우는 모든 방문이 첫 번째 방문으로 나타납�
