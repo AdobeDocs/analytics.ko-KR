@@ -1,13 +1,11 @@
 ---
 description: Experience Cloud에 사용된 보고서 유형에 대한 설명입니다.
-seo-description: Experience Cloud에 사용된 보고서 유형에 대한 설명입니다.
-seo-title: 보고서 유형
 solution: Analytics
 title: 보고서 유형
-topic: Ad Hoc Analysis
-uuid: 357102eb-a172-40ec-a302-01c87abacb5
+topic: Ad hoc analysis
+uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
