@@ -1,13 +1,11 @@
 ---
 description: '사용자 지정 표현식을 사용하여 날짜 범위를 설정할 때의 두 가지 고려 사항 '
-seo-description: '사용자 지정 표현식을 사용하여 날짜 범위를 설정할 때의 두 가지 고려 사항 '
-seo-title: 고려 사항
 solution: Analytics
 title: 사용자 지정 날짜 고려 사항
-topic: Report Builder
+topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
