@@ -1,47 +1,45 @@
 ---
-description: The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
-seo-description: The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
-seo-title: Analytics 변수
+description: emarsys에 대한 데이터 커넥터 통합에서는 Analytics 변수를 사용하여 다양한 emarsys 지표를 추적합니다.
 title: Analytics 변수
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Analytics 변수{#analytics-variables}
 
-The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
+emarsys에 대한 데이터 커넥터 통합에서는 Analytics 변수를 사용하여 다양한 emarsys 지표를 추적합니다.
 
-After identifying the Event and eVars to use with the emarsys integration, enable them in the Admin Console.[](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/c-admin-tools.html)
+emarsys 통합에 사용할 이벤트 및 eVar를 식별한 후 관리 콘솔에서 [활성화합니다](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/c-admin-tools.html).
 
-**Required Variables**
+**필수 변수**
 
 <table id="table_5B8F3A1EB55D4BB48F669FB84C857256"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 변수 유형 </th> 
-   <th colname="col2" class="entry"> 이름 </th> 
+   <th colname="col2" class="entry">  이름  </th> 
    <th colname="col3" class="entry"> 채우기 방법 </th> 
    <th colname="col4" class="entry"> 설명 </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> event (numeric) </td> 
+   <td colname="col1"> 이벤트(숫자) </td> 
    <td colname="col2"> 총 바운스 수 </td> 
    <td colname="col3"> <p>emarsys에서 자동으로 가져오기 </p> </td> 
    <td colname="col4"> <p>총 바운스 수 이벤트를 사용하면 배달 문제로 인해 수신자에게 배달되지 않은 이메일 메시지 수를 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> event (numeric) </td> 
-   <td colname="col2"> Clicked </td> 
+   <td colname="col1"> 이벤트(숫자) </td> 
+   <td colname="col2"> 클릭됨 </td> 
    <td colname="col3"> <p>emarsys에서 자동으로 가져오기 </p> </td> 
-   <td colname="col4"> <p>The Clicked event lets you see the number of visitors who clicked the email message. </p> </td> 
+   <td colname="col4"> <p>클릭된 이벤트를 사용하면 이메일 메시지를 클릭한 방문자 수를 볼 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> event (numeric) </td> 
+   <td colname="col1"> 이벤트(숫자) </td> 
    <td colname="col2"> 열림 </td> 
    <td colname="col3"> <p>emarsys에서 자동으로 가져오기 </p> </td> 
    <td colname="col4"> <p>열림 이벤트를 사용하면 이메일 메시지를 연 방문자 수를 볼 수 있습니다. </p> </td> 
