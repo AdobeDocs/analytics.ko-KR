@@ -1,11 +1,9 @@
 ---
 description: 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다.
-seo-description: 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다.
-seo-title: 트리맵
 title: 트리맵
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
