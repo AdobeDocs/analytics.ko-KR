@@ -1,13 +1,11 @@
 ---
 description: 전환 변수를 추가 또는 편집하는 방법을 설명하는 단계입니다.
-seo-description: 전환 변수를 추가 또는 편집하는 방법을 설명하는 단계입니다.
-seo-title: 전환 변수 편집
 solution: Analytics
 title: 전환 변수 편집
-topic: 관리 도구
+topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
