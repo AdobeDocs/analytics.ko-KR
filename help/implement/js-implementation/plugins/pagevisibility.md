@@ -1,14 +1,12 @@
 ---
 description: 사용자 페이지가 브라우저 내에서 활성 탭으로 있던 시간(초)을 기록하고 다음 페이지 보기에서 지표에 그 값을 전달합니다.
-keywords: Analytics 구현
-seo-description: 사용자 페이지가 브라우저 내에서 활성 탭으로 있던 시간(초)을 기록하고 다음 페이지 보기에서 지표에 그 값을 전달합니다.
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
