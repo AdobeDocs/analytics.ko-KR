@@ -1,13 +1,11 @@
 ---
 description: Activity Map에서는 페이지 활동의 보조 보고 기능을 제공하기 위해 두 가지 기본 모드를 제공합니다.
-seo-description: Activity Map에서는 페이지 활동의 보조 보고 기능을 제공하기 위해 두 가지 기본 모드를 제공합니다.
-seo-title: 표준 모드와 라이브 모드 비교
 solution: Analytics
 title: 표준 모드와 라이브 모드 비교
-topic: Activity Map
+topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,5 +41,4 @@ A: 링크 데이터를 집계하는 방식에 따라 다릅니다. Activity Map�
 >
 >가상 보고서 세트는 라이브 모드와는 호환하지 않고, 표준 모드와만 호환합니다.
 
-![](assets/live_mode.png)
-
+![](assets/
