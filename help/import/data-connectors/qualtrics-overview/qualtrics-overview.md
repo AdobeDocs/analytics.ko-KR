@@ -1,14 +1,12 @@
 ---
 description: 이 통합은 Qualtrics Research Suite의 고객 리서치 기능과 Adobe Analytics에서 수집하는 풍부한 데이터가 통합되어 있어 조직을 위한 강력한 분석 및 최적화 기회를 제공합니다.
-seo-description: 이 통합은 Qualtrics Research Suite의 고객 리서치 기능과 Adobe Analytics에서 수집하는 풍부한 데이터가 통합되어 있어 조직을 위한 강력한 분석 및 최적화 기회를 제공합니다.
-seo-title: Adobe Analytics용 Qualtrics 데이터 커넥터
 solution: Analytics
 subtopic: Qualtrics
 title: Adobe Analytics용 Qualtrics 데이터 커넥터
 topic: Data connectors
-uuid: f1fa90b6-1b80-4da4-a3 파섹
+uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
