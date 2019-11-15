@@ -1,14 +1,12 @@
 ---
 description: 사용 가능한 측정 라이브러리 나열
-keywords: Analytics 구현;수집;데이터;수집
-seo-description: 사용 가능한 측정 라이브러리 나열
-seo-title: 추가 라이브러리 개요
+keywords: Analytics Implementation;collect;data;collection
 solution: Analytics
 title: 추가 라이브러리 개요
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
