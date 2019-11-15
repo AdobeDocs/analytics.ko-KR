@@ -1,24 +1,22 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 샘플 구현 코드
 solution: Analytics
 title: 샘플 구현 코드
-topic: Activity Map
-uuid: 73879252-5ce1-42a5-ad0e-dce73244b28
+topic: Activity map
+uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Sample implementation code{#sample-implementation-code}
+# 샘플 구현 코드{#sample-implementation-code}
 
-## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
+## 샘플 AppMeasurement.js 파일 {#section_CD6E603EB41141E587B71E138FE99F52}
 
 다음은 AppMeasurement 라이브러리 및 Activity Map 모듈이 어떻게 [!DNL AppMeasurement.js] 파일에서 결합되는지에 대한 예입니다.
 
-이 Activity Map 구성에 적절한 코드 섹션은 **굵게** 표시되어 있습니다.
+이 Activity Map 구현에 적절한 코드 섹션은 **굵게** 표시되어 있습니다.
 
 ```
 <b>// Initialize AppMeasurement 
