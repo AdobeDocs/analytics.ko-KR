@@ -1,13 +1,11 @@
 ---
 description: 고객이 장바구니의 내용물을 보는 이벤트 이 값은 scView 이벤트에서 가져옵니다.
-seo-description: 고객이 장바구니의 내용물을 보는 이벤트 이 값은 scView 이벤트에서 가져옵니다.
-seo-title: 장바구니 보기
 solution: Analytics
 title: 장바구니 보기
-topic: 지표
+topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
