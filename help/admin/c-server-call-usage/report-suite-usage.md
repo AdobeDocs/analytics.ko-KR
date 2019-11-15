@@ -1,11 +1,9 @@
 ---
 description: 보고서 세트 사용량 탭은 현재 사용 기간 동안 청구 회사에 연결된 모든 로그인 회사의 각 보고서 세트에 서버 사용량 데이터를 제공합니다.
-seo-description: 보고서 세트 사용량 탭은 현재 사용 기간 동안 청구 회사에 연결된 모든 로그인 회사의 각 보고서 세트에 서버 사용량 데이터를 제공합니다.
-seo-title: 보고서 세트 사용량 보기
 title: 보고서 세트 사용량 보기
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
