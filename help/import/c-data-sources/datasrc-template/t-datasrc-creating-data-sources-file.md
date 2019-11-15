@@ -1,14 +1,12 @@
 ---
 description: 가져오기 템플릿 파일은 가져오기를 시작할 수 있도록 만들어졌습니다.
-seo-description: 가져오기 템플릿 파일은 가져오기를 시작할 수 있도록 만들어졌습니다.
-seo-title: 파일 가져오기 템플릿 생성
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 파일 가져오기 템플릿 생성
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
