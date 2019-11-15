@@ -1,13 +1,11 @@
 ---
 description: 사이트로 고객을 유도한 최초 레퍼러를 보여줍니다. 고객은 각각 다른 참조를 사용하여 사이트를 여러 번 방문할 수 있으므로 최초 참조 도메인은 사이트에 처음 도달할 때 사용한 참조를 보여줍니다. 이 차원은 참조를 기본 도메인(aol.com, yahoo.com 등)으로만 참조합니다.
-seo-description: 사이트로 고객을 유도한 최초 레퍼러를 보여줍니다. 고객은 각각 다른 참조를 사용하여 사이트를 여러 번 방문할 수 있으므로 최초 참조 도메인은 사이트에 처음 도달할 때 사용한 참조를 보여줍니다. 이 차원은 참조를 기본 도메인(aol.com, yahoo.com 등)으로만 참조합니다.
-seo-title: 최초 참조 도메인
 solution: Analytics
 title: 최초 참조 도메인
-topic: 보고서
-uuid: 4 A 21 C 2 A 2-8507-4 D 25-8 D 75-F 5 A 5 A 20409 B 0
+topic: Reports
+uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
