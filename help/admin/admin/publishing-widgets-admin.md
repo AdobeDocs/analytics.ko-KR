@@ -1,13 +1,11 @@
 ---
 description: 게시 위젯은 웹 페이지에 마케팅 보고서(책갈피와 대시보드만)를 삽입할 수 있는 컨테이너입니다. 조직 내에서 마케팅 보고서에 대한 액세스 권한이 없는 사람에게 관련 데이터를 볼 수 있게 해 줍니다.
-seo-description: 게시 위젯은 웹 페이지에 마케팅 보고서(책갈피와 대시보드만)를 삽입할 수 있는 컨테이너입니다. 조직 내에서 마케팅 보고서에 대한 액세스 권한이 없는 사람에게 관련 데이터를 볼 수 있게 해 줍니다.
-seo-title: 게시 위젯
 solution: Analytics
 title: 게시 위젯
-topic: 관리 도구
+topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
