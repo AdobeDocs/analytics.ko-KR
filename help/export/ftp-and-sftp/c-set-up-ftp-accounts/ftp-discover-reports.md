@@ -1,13 +1,11 @@
 ---
 description: 보고서를 자동으로 이메일 주소 또는 FTP 서버로 보내도록 배달 일정을 설정할 수 있습니다.
 keywords: ftp;sftp
-seo-description: 보고서를 자동으로 이메일 주소 또는 FTP 서버로 보내도록 배달 일정을 설정할 수 있습니다.
-seo-title: Ad Hoc Analysis 게재된 보고서
 solution: Analytics
 title: Ad Hoc Analysis 게재된 보고서
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
