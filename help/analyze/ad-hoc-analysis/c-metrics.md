@@ -1,11 +1,9 @@
 ---
 description: '지표는 보기 수, 클릭스루 횟수, 재로드 횟수, 평균 체류 시간, 날짜, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량적 정보입니다. 지표와 관련 데이터는 보고서 열에 표시됩니다. '
-seo-description: '지표는 보기 수, 클릭스루 횟수, 재로드 횟수, 평균 체류 시간, 날짜, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량적 정보입니다. 지표와 관련 데이터는 보고서 열에 표시됩니다. '
-seo-title: 지표
 title: 지표
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
