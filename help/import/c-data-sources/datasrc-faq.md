@@ -1,14 +1,12 @@
 ---
 description: 이 항목에서는 일반적인 질문에 대한 답변을 제공합니다.
-seo-description: 이 항목에서는 일반적인 질문에 대한 답변을 제공합니다.
-seo-title: Data Sources FAQ
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: Data Sources FAQ
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
