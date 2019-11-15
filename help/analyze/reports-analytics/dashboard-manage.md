@@ -1,14 +1,12 @@
 ---
 description: 대시보드 관리자를 사용하여 배달할 대시보드를 복사, 공유, 보관 및 예약하십시오 .
-seo-description: 대시보드 관리자를 사용하여 배달할 대시보드를 복사, 공유, 보관 및 예약하십시오 .
-seo-title: 대시보드 관리자
 solution: Analytics
-subtopic: 대시보드
+subtopic: Dashboards
 title: 대시보드 관리자
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,7 +29,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 |--- |--- |
 | 공유 | 대시보드가 공유되는지 여부를 표시합니다. |
 | 예약됨 | 대시보드 배달을 예약할 수 있습니다. |
-| 아카이브 보기 | 대시보드 아카이브를 볼 수 있습니다. 이 기능은 2020년 1월에 더 이상 사용할 수 없습니다. |
+| 아카이브 보기 | 대시보드 아카이브를 볼 수 있습니다.  이 기능은 2020년 1월에 더 이상 사용할 수 없습니다. |
 | 사용자에게 전달 | 대시보드를 공유할 수 있습니다. |
 | 관리 | 대시보드를 편집, 복사, 삭제할 수 있습니다. |
 
