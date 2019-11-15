@@ -1,13 +1,11 @@
 ---
 description: 사용할 수 있는 열을 결정하고 필요에 따라 정렬할 수 있습니다.
-keywords: 데이터 피드;열;열 구성
-seo-description: 사용할 수 있는 열을 결정하고 필요에 따라 정렬할 수 있습니다.
-seo-title: 열 정렬
+keywords: Data Feed;columns;columns configuration
 solution: Analytics
 title: 열 정렬
 uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
