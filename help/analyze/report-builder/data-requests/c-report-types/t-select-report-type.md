@@ -1,13 +1,11 @@
 ---
 description: 데이터 요청에 대한 기본 보고서 유형을 선택하는 절차.
-seo-description: 데이터 요청에 대한 기본 보고서 유형을 선택하는 절차.
-seo-title: 보고서 유형 선택
 solution: Analytics
 title: 보고서 유형 선택
-topic: Report Builder
-uuid: EBB 682 B 8-590 E -4484-9 C 29-5 C 4 DB 2 F 5 EDD 1
+topic: Report builder
+uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
