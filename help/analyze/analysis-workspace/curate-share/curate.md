@@ -1,14 +1,12 @@
 ---
 description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다. 프로젝트 및 그 구성 요소들을 비즈니스에 있는 마케터 및 다른 비분석가와 공유할 수 있습니다. 프로젝트에 주석을 달고 태그를 적용합니다.
 keywords: Analysis Workspace
-seo-description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다. 프로젝트 및 그 구성 요소들을 비즈니스에 있는 마케터 및 다른 비분석가와 공유할 수 있습니다. 프로젝트에 주석을 달고 태그를 적용합니다.
-seo-title: 조정/공유 개요
 solution: Analytics
 title: 조정/공유 개요
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
