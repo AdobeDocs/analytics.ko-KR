@@ -1,14 +1,12 @@
 ---
 description: 사용자 그룹을 추가하는 방법에 대해 설명하는 단계입니다.
-seo-description: 사용자 그룹을 추가하는 방법에 대해 설명하는 단계입니다.
-seo-title: 사용자 그룹 추가
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 사용자 그룹 추가
-topic: 관리 도구
+topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
