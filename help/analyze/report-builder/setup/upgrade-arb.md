@@ -1,13 +1,11 @@
 ---
 description: Report Builder 업그레이드 절차 및 고려 사항입니다.
-seo-description: Report Builder 업그레이드 절차 및 고려 사항입니다.
-seo-title: Report Builder 업그레이드
 solution: Analytics
 title: Report Builder 업그레이드
-topic: Report Builder
+topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
