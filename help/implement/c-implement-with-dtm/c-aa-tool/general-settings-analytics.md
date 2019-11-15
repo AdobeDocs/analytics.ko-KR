@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics 배포를 위한 Dynamic Tag Management자의 일반 설정에 대한 필드 설명입니다.
-keywords: Analytics 구현;구현 메서드;dynamic tag management;dtm;일반 설정;eu 준수;문자 세트;통화 코드;추적 서버;SSL 추적 서버
-seo-description: Adobe Analytics 배포를 위한 Dynamic Tag Management자의 일반 설정에 대한 필드 설명입니다.
-seo-title: 일반
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
 solution: Analytics
 title: 일반
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
