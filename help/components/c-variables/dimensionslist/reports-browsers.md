@@ -1,13 +1,11 @@
 ---
 description: 사용자 에이전트 문자열에 의해 식별된, 사이트를 방문하는 데 사용된 브라우저 버전을 나열합니다.
-seo-description: 사용자 에이전트 문자열에 의해 식별된, 사이트를 방문하는 데 사용된 브라우저 버전을 나열합니다.
-seo-title: 브라우저
 solution: Analytics
 title: 브라우저
-topic: 보고서
-uuid: B 8 C 386 DD -1 AE 2-48 C 3-90 BD-DCE 9 F 5698 D 3 F
+topic: Reports
+uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
