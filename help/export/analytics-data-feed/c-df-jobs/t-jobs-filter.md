@@ -1,13 +1,11 @@
 ---
 description: 검색 및 필터링은 목록에서 작업을 찾는 데 도움이 됩니다.
-keywords: 데이터 피드; 작업; filter; search
-seo-description: 검색 및 필터링은 목록에서 작업을 찾는 데 도움이 됩니다.
-seo-title: 작업 목록 필터링
+keywords: Data Feed;job;filter;search
 solution: Analytics
 title: 작업 목록 필터링
-uuid: 811990 BB-B 721-42 C 3-9262-2 EC 2 BA 262087
+uuid: 811990bb-b721-42c3-9262-2ec2ba262087
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
