@@ -1,13 +1,11 @@
 ---
 description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
-seo-description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
-seo-title: 세그먼트 태깅
 solution: Analytics
 title: 세그먼트 태깅
-topic: 세그먼트
+topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
