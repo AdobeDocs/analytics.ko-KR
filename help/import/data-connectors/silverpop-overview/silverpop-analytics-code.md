@@ -1,11 +1,9 @@
 ---
 description: 'JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 페이지의 Analytics 코드에 추가합니다 '
-seo-description: 'JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 페이지의 Analytics 코드에 추가합니다 '
-seo-title: Analytics 플러그인 코드
 title: Analytics 플러그인 코드
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
