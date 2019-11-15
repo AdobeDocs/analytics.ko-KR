@@ -1,11 +1,9 @@
 ---
 description: Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
-seo-description: Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
-seo-title: 지표
 title: 지표
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
