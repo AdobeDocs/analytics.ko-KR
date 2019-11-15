@@ -1,11 +1,9 @@
 ---
 description: 분석 작업 공간에서 날짜 비교를 사용하면 날짜 범위가 포함된 열을 가져와 전년 대비, 분기 대비, 월중 등과 같은 일반적인 날짜 비교를 만들 수 있습니다.
-seo-description: 분석 작업 공간에서 날짜 비교를 사용하면 날짜 범위가 포함된 열을 가져와 전년 대비, 분기 대비, 월중 등과 같은 일반적인 날짜 비교를 만들 수 있습니다.
-seo-title: 날짜 비교
 title: 날짜 비교
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
