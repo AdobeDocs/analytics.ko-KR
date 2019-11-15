@@ -1,13 +1,11 @@
 ---
 description: 보고서 세트 템플릿은 여러 유형의 보고서 세트에 대한 가장 일반적인 설정을 구성합니다.
-seo-description: 보고서 세트 템플릿은 여러 유형의 보고서 세트에 대한 가장 일반적인 설정을 구성합니다.
-seo-title: 보고서 세트 템플릿 개요
 solution: Analytics
 title: 보고서 세트 템플릿 개요
-topic: 관리 도구
+topic: Admin tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
