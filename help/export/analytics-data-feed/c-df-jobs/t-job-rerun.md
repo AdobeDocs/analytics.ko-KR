@@ -1,18 +1,16 @@
 ---
 description: '[작업] 목록에서 하나 이상의 작업을 다시 실행할 수 있습니다.'
-keywords: 데이터 피드; 작업; 다시 실행
-seo-description: '[작업] 목록에서 하나 이상의 작업을 다시 실행할 수 있습니다.'
-seo-title: 작업 다시 실행
+keywords: Data Feed;job;rerun
 solution: Analytics
-title: 작업 다시 실행
-uuid: 5 CAF 95 DA-DD 88-4 B 1 A-A 081-684 F 4 FD 1 F 714
+title: 작업 재실행
+uuid: 5caf95da-dd88-4b1a-a081-684f4fd1f714
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 작업 다시 실행
+# 작업 재실행
 
 [작업] 목록에서 하나 이상의 작업을 다시 실행할 수 있습니다.
 
