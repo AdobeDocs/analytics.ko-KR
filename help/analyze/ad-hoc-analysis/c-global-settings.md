@@ -1,11 +1,9 @@
 ---
 description: 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
-seo-description: 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
-seo-title: 설정
 title: 설정
-uuid: 3444052-479b-4923-b379-a03ca614bf3e
+uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
