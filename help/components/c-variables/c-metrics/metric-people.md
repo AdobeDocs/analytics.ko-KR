@@ -1,11 +1,9 @@
 ---
 description: 사람 지표는 장치를 사람과 연관시키는 데 도움이 되는 Adobe Analytics 보고 지표입니다.
-seo-description: 사람 지표는 장치를 사람과 연관시키는 데 도움이 되는 Adobe Analytics 보고 지표입니다.
-seo-title: 사람
 title: 사람
-uuid: f67fe072-099d-4ebc-8234-9eid2a632fab
+uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
