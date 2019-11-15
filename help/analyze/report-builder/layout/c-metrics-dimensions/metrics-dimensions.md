@@ -1,13 +1,11 @@
 ---
 description: 요청 마법사 2단계에 지표 및 차원을 추가하여 요청에서 데이터의 Analytics 레이아웃을 정의할 수 있습니다. 리포트 빌더의 지표 및 차원 목록은 보고 및 분석에 표시된 메뉴 레이아웃 다음에 나옵니다.
-seo-description: 요청 마법사 2단계에 지표 및 차원을 추가하여 요청에서 데이터의 Analytics 레이아웃을 정의할 수 있습니다. 리포트 빌더의 지표 및 차원 목록은 보고 및 분석에 표시된 메뉴 레이아웃 다음에 나옵니다.
-seo-title: 지표 및 차원 개요
 solution: Analytics
 title: 지표 및 차원 개요
-topic: Report Builder
+topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
