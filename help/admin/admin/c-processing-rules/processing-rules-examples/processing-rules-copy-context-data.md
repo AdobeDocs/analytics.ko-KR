@@ -1,14 +1,12 @@
 ---
 description: 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 props 및 eVars로 이동합니다.
-seo-description: 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 props 및 eVars로 이동합니다.
-seo-title: eVar에 컨텍스트 데이터 변수 복사
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: eVar에 컨텍스트 데이터 변수 복사
-topic: 관리 도구
+topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
