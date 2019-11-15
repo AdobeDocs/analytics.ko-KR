@@ -1,11 +1,9 @@
 ---
 description: '[함수] 드롭다운 목록에서 [고급 표시]를 선택하여 이 함수들에 액세스하십시오.'
-seo-description: '[함수] 드롭다운 목록에서 [고급 표시]를 선택하여 이 함수들에 액세스하십시오.'
-seo-title: 고급 함수 참조
 title: 고급 함수 참조
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
