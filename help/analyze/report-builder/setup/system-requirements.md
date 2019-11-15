@@ -1,13 +1,11 @@
 ---
-description: 시스템 권장 사항 및 필수 조건
-seo-description: 시스템 권장 사항 및 필수 조건
-seo-title: 시스템 요구 사항
+description: 시스템 권장 사항 및 필수 조건입니다.
 solution: Analytics
 title: 시스템 요구 사항
-topic: Report Builder
+topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
