@@ -1,13 +1,11 @@
 ---
 description: 보고 데이터에 대한 액세스를 제어할 수 있도록 해줍니다. 어려운 암호, 암호 만료, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다.
-seo-description: 보고 데이터에 대한 액세스를 제어할 수 있도록 해줍니다. 어려운 암호, 암호 만료, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다.
-seo-title: 보안 관리자
 solution: Analytics
 title: 보안 관리자
-topic: 관리 도구
-uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
+topic: Admin tools
+uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
