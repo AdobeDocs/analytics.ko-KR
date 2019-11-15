@@ -1,14 +1,12 @@
 ---
 description: Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
-seo-description: Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
-seo-title: 사용자 및 제품 관리
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 사용자 및 제품 관리
-topic: 관리 도구
+topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
