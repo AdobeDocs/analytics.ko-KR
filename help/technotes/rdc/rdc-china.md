@@ -1,10 +1,9 @@
 ---
 title: 중국의 지역 데이터 수집
-seo-title: Adobe Analytics 중국 RDC
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 안정적인 GeoIP 솔루션 사용.  서버측 솔루션을 사용하여 Adobe Experience Platform Launch(또는 Data Tag Management)와 쉽게 통합하기로 결정할 수 있습니다. 이 경우, 위치는 경험 플랫폼 론치 또는 DTM 개체에 표준 데이터 요소를 포함하여 결정할 수 있습니다. 또는 클라이언트 측 GeoIP 솔루션을 사용할 수 있습니다. 이 경우 Experience Platform Launch를 클라이언트측 코드에 연결할 수 있습니다. 이 솔루션을 통해 사용자에게 현지화된 사이트로 이동하라는 메시지를 표시할 수 있습니다. 이렇게 하면 첫 번째 페이지가 글로벌 추적 서버에 의해 계산되고 두 번째 페이지는 중국의 한 페이지에 의해 계산될 위험이 있으며, 이로 인해 두 번 카운트될 수 있습니다. GeoIP 솔루션에 관한 권장 지침을 따르십시오. Adobe는 사용하는 GeoIP 솔루션의 정확성에 대해 책임을 지지 않습니다.
 
 * Using site structure or the browser language (the `navigator.language / accept-language` header). 이 방법은 비용이 저렴하며 성능을 향상할 수 있습니다. 하지만 중국 이외의 국가를 방문하는 중국어 사용 방문자의 속도는 느려질 수 있습니다.
-* 중국에서 호스팅 솔루션을 사용하고 호스트를 기반으로 trackingServer를 중국 RDC로 설정합니다. 이것은 또한 속도를 상당히 높일 것이다.
+* 중국에서 호스팅 솔루션을 사용하고 호스트에 따라 trackingServer를 중국 RDC로 설정합니다. 이것은 또한 속도를 상당히 높일 것이다.
 
 ## 현재 제한 사항
 
