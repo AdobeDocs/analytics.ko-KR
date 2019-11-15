@@ -1,14 +1,12 @@
 ---
 description: 가져오고 내보내는 파일에는 각 숫자 2 분류의 6개 열이 포함되어 있습니다.
-seo-description: 가져오고 내보내는 파일에는 각 숫자 2 분류의 6개 열이 포함되어 있습니다.
-seo-title: 숫자 2 분류 가져오기
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 숫자 2 분류 가져오기
-topic: 관리 도구
+topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
