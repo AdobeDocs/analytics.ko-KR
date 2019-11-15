@@ -1,13 +1,11 @@
 ---
 description: 피드를 설정할 때 일부 설정은 작업이 처리되는 빈도를 결정합니다.
-keywords: 데이터 피드;작업;설정;일별;시간별;시간별 데이터 채우기;채우기
-seo-description: 피드를 설정할 때 일부 설정은 작업이 처리되는 빈도를 결정합니다.
-seo-title: 작업 설정
+keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
 solution: Analytics
 title: 작업 설정
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
