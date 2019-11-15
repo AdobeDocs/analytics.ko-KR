@@ -1,11 +1,9 @@
 ---
 description: '"플러그 앤 플레이" 마법사를 사용하면 직관적인 단계별 프로세스를 통해 시스템 동기화 지점을 살펴보고 통합을 초기화합니다.'
-seo-description: '"플러그 앤 플레이" 마법사를 사용하면 직관적인 단계별 프로세스를 통해 시스템 동기화 지점을 살펴보고 통합을 초기화합니다.'
-seo-title: 통합 절차 및 사전 요구 사항
 title: 통합 절차 및 사전 요구 사항
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
