@@ -1,14 +1,12 @@
 ---
 description: Adobe에서 데이터 소스에 대한 액세스 권한을 제공하는 방법에 대한 정보.
-seo-description: Adobe에서 데이터 소스에 대한 액세스 권한을 제공하는 방법에 대한 정보.
-seo-title: Data Sources 작동 방식
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: Data Sources 작동 방식
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
