@@ -1,14 +1,12 @@
 ---
 description: 마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
-seo-description: 마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
-seo-title: 방문자 유도 만료
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 방문자 유도 만료
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
