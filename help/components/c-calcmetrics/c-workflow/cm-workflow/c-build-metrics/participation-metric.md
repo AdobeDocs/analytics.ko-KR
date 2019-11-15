@@ -1,11 +1,9 @@
 ---
 description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표를 만들 수 있습니다.
-seo-description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표를 만들 수 있습니다.
-seo-title: 기여도 지표
 title: 기여도 지표
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
