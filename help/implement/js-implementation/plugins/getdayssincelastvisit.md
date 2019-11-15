@@ -1,15 +1,13 @@
 ---
 description: 사용자가 사이트에 마지막으로 방문한 후로 지난 일 수를 결정하고 이 정보를 Analytics 변수로 캡처합니다.
-keywords: Analytics 구현
-seo-description: 사용자가 사이트에 마지막으로 방문한 후로 지난 일 수를 결정하고 이 정보를 Analytics 변수로 캡처합니다.
-seo-title: getDaysSinceLastVisit
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 플러그인
+subtopic: Plug-ins
 title: getDaysSinceLastVisit
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
