@@ -1,14 +1,12 @@
 ---
 description: 구매 이벤트의 경우, 특정 구매 정보를 캡처하는 데는 Analytics 변수를 사용합니다. s.purchaseID 변수는 이벤트를 정리(중복 제거)하는 데 사용됩니다.
-keywords: Analytics 구현
-seo-description: 구매 이벤트의 경우, 특정 구매 정보를 캡처하는 데는 Analytics 변수를 사용합니다. s.purchaseID 변수는 이벤트를 정리(중복 제거)하는 데 사용됩니다.
-seo-title: 구매 이벤트
+keywords: Analytics Implementation
 solution: Analytics
 title: 구매 이벤트
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
