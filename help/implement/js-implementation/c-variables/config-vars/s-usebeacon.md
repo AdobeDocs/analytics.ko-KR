@@ -1,10 +1,9 @@
 ---
 title: useBeacon
 description: useBeacon을 사용하면 AppMeasurement가 브라우저 sendBeacon API를 사용하도록 할 수 있습니다
-keywords: Analytics 구현
-seo-description: useBeacon을 사용하면 AppMeasurement가 브라우저 sendBeacon API를 사용하도록 할 수 있습니다
+keywords: Analytics Implementation
 translation-type: tm+mt
-source-git-commit: f89d909e539cee2b78798c165fcb405773418056
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: f89d909e539cee2b78798c165fcb405773418056
 
 이 `s.useBeacon` 변수를 사용하려면 AppMeasurement 2.17.0 이상이 필요합니다.
 
-> [!NOTE] ExitLinks [는](s-linktrackvars.md) 추가 구성 없이 이 변수를 자동으로 사용합니다.
+> [!NOTE] 종료 [링크는](s-linktrackvars.md) 추가 구성 없이 이 변수를 자동으로 사용합니다.
 
 ## 구문
 
