@@ -1,13 +1,11 @@
 ---
 description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 이 표에는 지원되는 기능이 표시되어 있습니다.
-seo-description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 이 표에는 지원되는 기능이 표시되어 있습니다.
-seo-title: Data Warehouse 세그먼트 기능
 solution: Analytics
 title: Data Warehouse 세그먼트 기능
-topic: 세그먼트
-uuid: 370258 C 5-8614-4434-871 C -41753 ED 77 F 5 C
+topic: Segments
+uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,7 +45,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>차원</b> </td> 
-   <td colname="col2">세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어, 이러한 차원은 분석 작업 공간, 보고 및 분석, 애드혹 분석에서만 지원됩니다. 
+   <td colname="col2">세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어 이러한 차원은 분석 작업 공간, 보고 및 분석 및 애드혹 분석에서만 지원됩니다. 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">시작 서버 </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">시작 카테고리 </li> 
