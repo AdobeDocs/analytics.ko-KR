@@ -1,13 +1,11 @@
 ---
 description: 세그먼트를 삭제하기 전에 알아야 하는 몇 가지 고려 사항을 표시합니다.
-seo-description: 세그먼트를 삭제하기 전에 알아야 하는 몇 가지 고려 사항을 표시합니다.
-seo-title: 세그먼트 삭제
 solution: Analytics
 title: 세그먼트 삭제
-topic: 세그먼트
+topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
