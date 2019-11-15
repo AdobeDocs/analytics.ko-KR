@@ -1,13 +1,11 @@
 ---
 description: 성공 이벤트를 구성하는 방법을 설명하는 단계입니다.
-seo-description: 성공 이벤트를 구성하는 방법을 설명하는 단계입니다.
-seo-title: 성공 이벤트 구성
 solution: Analytics
 title: 성공 이벤트 구성
-topic: 관리 도구
+topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
