@@ -1,13 +1,11 @@
 ---
 description: 요청 관리자에서 요청을 보고, 복제하고, 요청의 우선 순위를 변경할 수 있습니다.
-seo-description: 요청 관리자에서 요청을 보고, 복제하고, 요청의 우선 순위를 변경할 수 있습니다.
-seo-title: Data Warehouse 요청 관리
 solution: Analytics
 title: Data Warehouse 요청 관리
-topic: Data Warehouse
+topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
