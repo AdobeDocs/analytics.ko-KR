@@ -1,15 +1,13 @@
 ---
 description: JavaScript 라이브러리 파일은 사용자가 처음 페이지를 로드한 후에 사용자의 브라우저에서 캐시되도록 되어 있습니다.
-keywords: Analytics 구현
-seo-description: JavaScript 라이브러리 파일은 사용자가 처음 페이지를 로드한 후에 사용자의 브라우저에서 캐시되도록 되어 있습니다.
-seo-title: 캐시 지시
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 문제 해결
+subtopic: Troubleshooting
 title: 캐시 지시
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
