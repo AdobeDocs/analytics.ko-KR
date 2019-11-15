@@ -1,12 +1,10 @@
 ---
 description: 3단계 배포 프로세스에 대해 설명합니다.
-seo-description: 3단계 배포 프로세스에 대해 설명합니다.
-seo-title: 통합 배포
 solution: Analytics
 title: 통합 배포
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
