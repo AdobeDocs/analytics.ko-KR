@@ -1,15 +1,13 @@
 ---
 description: 이 섹션은 데이터 피드 배달에서 발견되는 파일을 설명합니다.
-keywords: 데이터 피드;작업;컨텐츠;매니페스트;파일;조회;히트 데이터;배달 내용
-seo-description: 이 섹션은 데이터 피드 배달에서 발견되는 파일을 설명합니다.
-seo-title: 데이터 피드 콘텐츠 - 개요
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: 데이터 피드
+subtopic: data feeds
 title: 데이터 피드 콘텐츠 - 개요
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
