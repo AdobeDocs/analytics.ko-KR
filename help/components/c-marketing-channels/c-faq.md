@@ -1,14 +1,12 @@
 ---
 description: 마케팅 채널용으로 설정할 수 있는 다양한 규칙을 채우는 방법에 대한 우수 사례 및 예제를 참조하십시오.
-seo-description: 마케팅 채널용으로 설정할 수 있는 다양한 규칙을 채우는 방법에 대한 우수 사례 및 예제를 참조하십시오.
-seo-title: FAQ 및 예제
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: FAQ 및 예제
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
