@@ -1,13 +1,11 @@
 ---
 description: Adobe Analytics에서 Dynamic Tag Management를 배포할 때 레퍼러 및 캠페인 옵션에 대한 Dynamic Tag Management의 필드 설명입니다.
-keywords: Dynamic Tag Management;레퍼러;캠페인;레퍼러 재정의;캠페인 변수;쿼리 매개 변수
-seo-description: Adobe Analytics에서 Dynamic Tag Management를 배포할 때 레퍼러 및 캠페인 옵션에 대한 Dynamic Tag Management의 필드 설명입니다.
-seo-title: 레퍼러 및 캠페인
+keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 레퍼러 및 캠페인
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
