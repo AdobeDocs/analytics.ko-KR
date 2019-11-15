@@ -1,13 +1,11 @@
 ---
 description: 'Activity Map은 다음과 같은 더 강력한 알고리즘으로 링크를 추적합니다. '
-seo-description: 'Activity Map은 다음과 같은 더 강력한 알고리즘으로 링크를 추적합니다. '
-seo-title: 강력한 링크 추적
 solution: Analytics
 title: 강력한 링크 추적
-topic: Activity Map
+topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
