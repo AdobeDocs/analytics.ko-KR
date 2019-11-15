@@ -1,13 +1,11 @@
 ---
 description: 다음 표에는 국가에 지역 또는 우편 번호가 있는지 여부가 나열되며, 이것은 지역 또는 우편 번호 보고서를 채울지 여부를 가리킵니다.
-seo-description: 다음 표에는 국가에 지역 또는 우편 번호가 있는지 여부가 나열되며, 이것은 지역 또는 우편 번호 보고서를 채울지 여부를 가리킵니다.
-seo-title: 국가별 지리 특성 지역 및 우편 번호 사용
 solution: Analytics
 title: 국가별 지리 특성 지역 및 우편 번호 사용
-topic: 보고서
+topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
