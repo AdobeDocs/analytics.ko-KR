@@ -1,13 +1,11 @@
 ---
 description: 이 보고서는 방문자가 사용하는 브라우저, 운영 체제, 모니터 해상도 등에 대한 정보를 표시합니다.
-seo-description: 이 보고서는 방문자가 사용하는 브라우저, 운영 체제, 모니터 해상도 등에 대한 정보를 표시합니다.
-seo-title: 기술
 solution: Analytics
 title: 기술
-topic: 보고서
+topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
