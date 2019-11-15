@@ -1,14 +1,12 @@
 ---
 description: 이 정보는 보고와 구현 모두에 능숙한 고급 사용자를 위한 것입니다. 발생할 수 있는 모든 결과에 대해 알고 있지 않다면 구현을 편집하지 마십시오. 구현 변경이 필요한 경우에는 조직의 계정 관리자에게 문의하십시오.
-keywords: Analytics 구현
-seo-description: 이 정보는 보고와 구현 모두에 능숙한 고급 사용자를 위한 것입니다. 발생할 수 있는 모든 결과에 대해 알고 있지 않다면 구현을 편집하지 마십시오. 구현 변경이 필요한 경우에는 조직의 계정 관리자에게 문의하십시오.
-seo-title: 다양한 구현 유형 추적
+keywords: Analytics Implementation
 solution: Analytics
 title: 다양한 구현 유형 추적
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
