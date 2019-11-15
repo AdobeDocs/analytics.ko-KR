@@ -81,4 +81,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    After migrating users, the status under the column Migration Status changes from *`Not Initiated`* to *`Migrated`*.
 
-   If *`Failed`* displays, hover over the icon for a description about why the migration 
+   If *`Failed`* displays, hover over the icon for a description about why the migration failed.
