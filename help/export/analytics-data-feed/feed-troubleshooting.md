@@ -1,13 +1,11 @@
 ---
 description: 이 섹션은 일반적인 문제에 대한 정보를 포함합니다.
-keywords: 데이터 피드;문제 해결
-seo-description: 이 섹션은 일반적인 문제에 대한 정보를 포함합니다.
-seo-title: 데이터 피드 문제 해결
+keywords: Data Feed;troubleshooting
 solution: Analytics
 title: 데이터 피드 문제 해결
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
