@@ -1,13 +1,11 @@
 ---
 description: 웹 사이트에서 판매하거나 배포 또는 표시하는 항목에 대한 정보를 표시합니다. 제품, 애플리케이션 또는 컨텐트에 대한 주문이나 다운로드 관련 데이터를 볼 수 있습니다.
-seo-description: 웹 사이트에서 판매하거나 배포 또는 표시하는 항목에 대한 정보를 표시합니다. 제품, 애플리케이션 또는 컨텐트에 대한 주문이나 다운로드 관련 데이터를 볼 수 있습니다.
-seo-title: 제품 보고서
 solution: Analytics
 title: 제품 보고서
-topic: Ad Hoc Analysis
-uuid: e2a8814b-73 파섹
+topic: Ad hoc analysis
+uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
