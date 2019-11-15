@@ -1,13 +1,11 @@
 ---
 description: 작업은 몇 가지 상태 레이블 중 하나로 표시될 수 있습니다.
-keywords: 데이터 피드;작업;상태;데이터 대기;실패;준비;처리;완료;데이터 없음
-seo-description: 작업은 몇 가지 상태 레이블 중 하나로 표시될 수 있습니다.
-seo-title: 작업 상태
+keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
 solution: Analytics
 title: 작업 상태
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
