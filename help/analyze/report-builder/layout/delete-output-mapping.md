@@ -1,13 +1,11 @@
 ---
 description: 통합 문서를 편집하면서 새 요청에 사용할 공간을 만들고자 하는 경우 요청을 삭제해야 할 수 있습니다.
-seo-description: 통합 문서를 편집하면서 새 요청에 사용할 공간을 만들고자 하는 경우 요청을 삭제해야 할 수 있습니다.
-seo-title: 출력 매핑 삭제
 solution: Analytics
 title: 출력 매핑 삭제
-topic: Report Builder
+topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
