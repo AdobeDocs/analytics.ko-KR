@@ -1,19 +1,17 @@
 ---
 description: 테이블을 조회하여 page_event 값을 기준으로 히트의 출처를 파악하십시오.
-keywords: 데이터 피드; 히트; source
-seo-description: 테이블을 조회하여 page_event 값을 기준으로 히트의 출처를 파악하십시오.
-seo-title: 히트 출처 조회
+keywords: Data Feed;hit;source
 solution: Analytics
-title: 히트 출처 조회
-topic: Reports & Analytics
-uuid: B 4 EF 2366-A 7 C 3-421 B -8 DC 6-279706 FE 277 F
+title: 조회 출처 조회
+topic: Reports and analytics
+uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 히트 출처 조회
+# 조회 출처 조회
 
 테이블을 조회하여 page_event 값을 기준으로 히트의 출처를 파악하십시오.
 
