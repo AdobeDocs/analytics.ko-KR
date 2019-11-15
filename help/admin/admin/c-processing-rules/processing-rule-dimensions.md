@@ -1,14 +1,12 @@
 ---
 description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
-seo-description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
-seo-title: 처리 규칙에 사용 가능한 차원
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
-topic: 관리 도구
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
