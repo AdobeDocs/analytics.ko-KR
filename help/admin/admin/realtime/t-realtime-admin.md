@@ -1,13 +1,11 @@
 ---
 description: 실시간 보고서를 설정하는 관리 단계입니다.
-seo-description: 실시간 보고서를 설정하는 관리 단계입니다.
-seo-title: 실시간 보고서 구성
 solution: Analytics
 title: 실시간 보고서 구성
-topic: 관리 도구
+topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
