@@ -1,16 +1,14 @@
 ---
 description: Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
-seo-description: Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
-seo-title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Enterprise 및 Federated ID에 대한 Analytics 사용자 계정을 마이그레이션합니다{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
 Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
 
