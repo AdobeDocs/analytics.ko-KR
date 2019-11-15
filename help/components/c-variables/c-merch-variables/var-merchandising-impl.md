@@ -1,13 +1,11 @@
 ---
 description: 머천다이징 변수를 활성화하고 구현하는 방법을 설명합니다.
-keywords: Analytics 구현;머천다이징;변수;제품 구문;전환 변수 구문;s.products
-seo-description: 머천다이징 변수를 활성화하고 구현하는 방법을 설명합니다.
-seo-title: 머천다이징 변수 구현
+keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 solution: Analytics
 title: 머천다이징 변수 구현
-topic: 개발자 및 구현
+topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: f3c3a3c74434586f2bd8bcf3c23f488994129394
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
