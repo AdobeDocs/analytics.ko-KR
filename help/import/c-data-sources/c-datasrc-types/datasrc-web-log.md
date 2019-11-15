@@ -1,14 +1,12 @@
 ---
 description: 웹 로그 데이터 소스를 통해 표준 웹 서버 로그 파일을 가져올 수 있습니다.
-seo-description: 웹 로그 데이터 소스를 통해 표준 웹 서버 로그 파일을 가져올 수 있습니다.
-seo-title: 웹 로그
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 웹 로그
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
