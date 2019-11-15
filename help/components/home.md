@@ -1,10 +1,8 @@
 ---
 title: Analytics 구성 요소 도움말
-seo-title: Analytics 구성 요소 도움말
 description: 'null'
-seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,7 +33,7 @@ Analytics 구성 요소를 사용하면 데이터 분석을 세부적으로 조�
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 센터 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
-* [Analytics 커뮤니티 포럼](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [분석 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
