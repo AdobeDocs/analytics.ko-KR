@@ -1,14 +1,12 @@
 ---
 description: Dynamic Tag Management를 사용하여 사이트의 JavaScript 및 페이지 컨텐츠 로드를 결정하는 머리글 및 바닥글 코드를 추가합니다. 사용한 호스팅 옵션에 상관없이 사이트의 모든 페이지에 머리글 코드와 바닥글 코드를 모두 설치해야 합니다.
-keywords: Analytics 구현;구현 방법;dynamic tag management;dtm;코드;페이지 코드;머리글 코드;바닥글 코드;포함 코드;포함 탭;포함
-seo-description: Dynamic Tag Management를 사용하여 사이트의 JavaScript 및 페이지 컨텐츠 로드를 결정하는 머리글 및 바닥글 코드를 추가합니다. 사용한 호스팅 옵션에 상관없이 사이트의 모든 페이지에 머리글 코드와 바닥글 코드를 모두 설치해야 합니다.
-seo-title: 머리글 및 바닥글 코드 추가
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 solution: Analytics
 title: 머리글 및 바닥글 코드 추가
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
