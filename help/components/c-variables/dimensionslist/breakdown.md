@@ -1,13 +1,11 @@
 ---
 description: 보고 중인 특정 세그먼트가 중요한 경우, 해당 세그먼트에 대한 자세한 내용과 다른 차원과 관련된 방법을 알고 싶을 수 있습니다. 이를 다른 차원별로 분류한다고 합니다. 상세 분류는 두 개 이상의 Analytics 변수를 통합하는 작업입니다.
-seo-description: 보고 중인 특정 세그먼트가 중요한 경우, 해당 세그먼트에 대한 자세한 내용과 다른 차원과 관련된 방법을 알고 싶을 수 있습니다. 이를 다른 차원별로 분류한다고 합니다. 상세 분류는 두 개 이상의 Analytics 변수를 통합하는 작업입니다.
-seo-title: 분류
 solution: Analytics
 title: 분류
-topic: 보고서
+topic: Reports
 uuid: 0f2c8c37-f46e-4d6c-9ac2-eace48e8708f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
