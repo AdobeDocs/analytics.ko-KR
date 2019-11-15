@@ -1,10 +1,8 @@
 ---
 title: Analytics용 PWA
-seo-title: Analytics용 PWA
 description: Adobe Analytics용 점진적 웹 앱
-seo-description: Analytics와 함께 PWA 사용
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
