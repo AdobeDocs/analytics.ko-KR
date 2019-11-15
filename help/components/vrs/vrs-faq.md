@@ -1,14 +1,12 @@
 ---
 description: 가상 보고서 세트의 신규 사용자를 위한 팁과 우수 사례입니다.
-keywords: 가상 보고서 세트
-seo-description: 가상 보고서 세트의 신규 사용자를 위한 팁과 우수 사례입니다.
-seo-title: VRS FAQ
+keywords: Virtual Report Suite
 solution: Analytics
 title: VRS FAQ
-topic: Reports & Analytics
-uuid: 91225743-765 A -4145-9 CE 5-4268 E 80 EA 7 E 8
+topic: Reports and analytics
+uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
