@@ -1,11 +1,9 @@
 ---
 description: 통합이 배포되면 제공된 추가 기능을 사용할 수 있습니다.
-seo-description: 통합이 배포되면 제공된 추가 기능을 사용할 수 있습니다.
-seo-title: 통합 사용
 title: 통합 사용
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
