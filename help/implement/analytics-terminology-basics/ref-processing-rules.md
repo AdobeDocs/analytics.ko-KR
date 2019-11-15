@@ -1,14 +1,12 @@
 ---
 description: 처리 규칙은 보고서로 전송되어 데이터 수집을 단순화하고 컨텐츠를 관리합니다.
-keywords: Analytics 구현;처리 규칙;규칙
-seo-description: 처리 규칙은 보고서로 전송되어 데이터 수집을 단순화하고 컨텐츠를 관리합니다.
-seo-title: 처리 규칙
+keywords: Analytics Implementation;processing rules;rules
 solution: Analytics
 title: 처리 규칙
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
