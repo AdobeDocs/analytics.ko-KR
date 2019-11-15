@@ -1,18 +1,16 @@
 ---
 description: 피벗 및 사용자 지정 레이아웃 요청에서, 숫자 및 문자열 값의 경우, 문자열이나 문자를 셀에 프리펜드 또는 포스트펜드할 수 있습니다.
-seo-description: 피벗 및 사용자 지정 레이아웃 요청에서, 숫자 및 문자열 값의 경우, 문자열이나 문자를 셀에 프리펜드 또는 포스트펜드할 수 있습니다.
-seo-title: 텍스트를 셀에 프리펜드 및 포스트펜드
 solution: Analytics
-title: 텍스트를 셀에 프리펜드 및 포스트펜드
-topic: Report Builder
-uuid: d 31 af 8 a 7-67 fb -435 f -80 d 1-dee 7 acb 3411 e
+title: 텍스트를 셀에 앞에 추가 및 뒤에 추가
+topic: Report builder
+uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 텍스트를 셀에 프리펜드 및 포스트펜드
+# 텍스트를 셀에 앞에 추가 및 뒤에 추가
 
 피벗 및 사용자 지정 레이아웃 요청에서, 숫자 및 문자열 값의 경우, 문자열이나 문자를 셀에 프리펜드 또는 포스트펜드할 수 있습니다.
 
