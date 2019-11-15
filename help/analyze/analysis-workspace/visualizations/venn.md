@@ -1,11 +1,9 @@
 ---
 description: 벤 시각화를 사용하여 최대 3개의 세그먼트(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
-seo-description: 벤 시각화를 사용하여 최대 3개의 세그먼트(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
-seo-title: 벤
 title: 벤
-uuid: 0 a 743378-f 588-417 f -9108-4 a 1313 d 6 bfeb
+uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
