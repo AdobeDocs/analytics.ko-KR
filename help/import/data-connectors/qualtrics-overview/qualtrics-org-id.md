@@ -1,14 +1,12 @@
 ---
 description: 통합 마법사를 완료하려면 조직 ID가 필요합니다. 이 ID를 찾으려면 다음을 수행해야 합니다.
-seo-description: 통합 마법사를 완료하려면 조직 ID가 필요합니다. 이 ID를 찾으려면 다음을 수행해야 합니다.
-seo-title: Qualtrics 조직 ID 조회
 solution: Analytics
 subtopic: Qualtrics
 title: Qualtrics 조직 ID 조회
 topic: Data connectors
-uuid: ed27bed-7364-423b-8a49-35bf7217f4b3
+uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
