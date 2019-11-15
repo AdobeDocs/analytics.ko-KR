@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics를 시작하는 방법
 keywords: Analysis Workspace
-seo-description: Adobe Analytics를 시작하는 방법
-seo-title: 시작 안내서
 solution: Analytics
 title: 시작 안내서
-topic: Reports and Analytics
-uuid: 851fexua-5e30-45ab-9f66-02bdf844fa54
+topic: Reports and analytics
+uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
