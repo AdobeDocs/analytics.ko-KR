@@ -1,10 +1,8 @@
 ---
 title: 분석 내보내기 도움말
-seo-title: 분석 내보내기 도움말
 description: 'null'
-seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,7 +28,7 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 센터 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
-* [Analytics 커뮤니티 포럼](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [분석 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
