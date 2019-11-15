@@ -1,14 +1,12 @@
 ---
 description: Flash에 대한 누적 릴리스 노트입니다. ActionScript를 사용하는 Flash 앱은 데스크탑과 웹에서 측정 가능합니다.
-seo-description: Flash에 대한 누적 릴리스 노트입니다. ActionScript를 사용하는 Flash 앱은 데스크탑과 웹에서 측정 가능합니다.
-seo-title: Flash-Flex
 solution: Analytics
-subtopic: 릴리스 노트
+subtopic: Release notes
 title: Flash-Flex
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
