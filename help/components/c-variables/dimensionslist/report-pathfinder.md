@@ -1,12 +1,10 @@
 ---
 description: 경로 탐색 보고서는 전체 경로를 단편으로 세분하여 사이트를 최적화하는 데 유용한 도구인 정밀 패턴을 파악하는 데 도움이 됩니다.
-seo-description: 경로 탐색 보고서는 전체 경로를 단편으로 세분하여 사이트를 최적화하는 데 유용한 도구인 정밀 패턴을 파악하는 데 도움이 됩니다.
-seo-title: 경로 탐색
 solution: Analytics
 title: 경로 탐색
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
