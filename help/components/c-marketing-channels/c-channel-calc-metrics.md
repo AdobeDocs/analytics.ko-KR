@@ -1,14 +1,12 @@
 ---
 description: Analytics에서 마케팅 채널 보고서에 계산된 지표를 추가합니다.
-seo-description: Analytics에서 마케팅 채널 보고서에 계산된 지표를 추가합니다.
-seo-title: 마케팅 채널 보고서를 사용한 계산된 지표
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 마케팅 채널 보고서를 사용한 계산된 지표
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
