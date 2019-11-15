@@ -1,13 +1,11 @@
 ---
 description: 검색 엔진 및 키워드에 대한 권장 기본 지표입니다. 이 지표는 클릭스루 인스턴스를 나타내며 특정 엔진 또는 키워드와 연관된 페이지를 보여줍니다. 검색 지표 데이터는 데이터 세트 시작으로 다시 보고할 수 있습니다.
-seo-description: 검색 엔진 및 키워드에 대한 권장 기본 지표입니다. 이 지표는 클릭스루 인스턴스를 나타내며 특정 엔진 또는 키워드와 연관된 페이지를 보여줍니다. 검색 지표 데이터는 데이터 세트 시작으로 다시 보고할 수 있습니다.
-seo-title: 검색 결과
 solution: Analytics
 title: 검색 결과
-topic: 지표
+topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
