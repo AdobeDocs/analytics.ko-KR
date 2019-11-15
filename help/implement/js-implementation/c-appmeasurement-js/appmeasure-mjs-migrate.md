@@ -1,15 +1,13 @@
 ---
 description: 다음 표에는 구현을 마이그레이션하기 위해 수행해야 하는 작업 목록이 나와 있습니다.
-keywords: Analytics 구현;appmeasurement;마이그레이션;마이그레이션;javascript
-seo-description: 다음 표에는 구현을 마이그레이션하기 위해 수행해야 하는 작업 목록이 나와 있습니다.
-seo-title: JavaScript용 AppMeasurement로의 마이그레이션
+keywords: Analytics Implementation;appmeasurement;migrate;migrating;javascript
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: JavaScript용 AppMeasurement로의 마이그레이션
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
