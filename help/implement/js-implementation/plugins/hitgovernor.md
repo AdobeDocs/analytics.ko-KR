@@ -1,11 +1,9 @@
 ---
 description: s.hitGovernor 플러그인은 사전 정의된 롤링 기간에 보낸 Analytics 이미지 요청의 총수를 추적하며, 총수가 특정 임계값을 초과하는 경우 필요에 따라 추가 논리를 수행할 수 있습니다.
-seo-description: s.hitGovernor 플러그인은 사전 정의된 롤링 기간에 보낸 Analytics 이미지 요청의 총수를 추적하며, 총수가 특정 임계값을 초과하는 경우 필요에 따라 추가 논리를 수행할 수 있습니다.
-seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
