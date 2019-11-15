@@ -1,13 +1,11 @@
 ---
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 세그먼트를 공유할 수 있습니다.
-seo-description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 세그먼트를 공유할 수 있습니다.
-seo-title: 세그먼트 공유
 solution: Analytics
 title: 세그먼트 공유
-topic: 세그먼트
+topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
