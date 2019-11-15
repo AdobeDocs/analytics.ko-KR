@@ -1,13 +1,11 @@
 ---
-description: 방문자가 모두, 유료 및 자연어 검색에 사용하는 검색 엔진을 표시합니다.
-seo-description: 방문자가 [모두], [유료] 및 [자연어] 검색에 사용하는 검색 엔진을 표시합니다.
-seo-title: 검색 엔진
+description: 방문자가 [모두], [유료] 및 [자연어] 검색에 사용하는 검색 엔진을 표시합니다.
 solution: Analytics
 title: 검색 엔진
-topic: 보고서
+topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
