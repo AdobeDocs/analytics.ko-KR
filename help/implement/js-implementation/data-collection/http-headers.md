@@ -1,14 +1,12 @@
 ---
 description: HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에 추가로 데이터를 모으려고 할 때 사용됩니다. 이 섹션에서는 데이터 수집 중 사용되는 헤더에 대해 설명합니다.
-keywords: Analytics 구현
-seo-description: HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에 추가로 데이터를 모으려고 할 때 사용됩니다. 이 섹션에서는 데이터 수집 중 사용되는 헤더에 대해 설명합니다.
-seo-title: 데이터 수집 HTTP 헤더
+keywords: Analytics Implementation
 solution: Analytics
 title: 데이터 수집 HTTP 헤더
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
