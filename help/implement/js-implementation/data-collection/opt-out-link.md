@@ -1,15 +1,13 @@
 ---
 description: 옵트아웃 링크를 지정하고 링크에 대한 브랜딩을 사용자 지정합니다. 웹 사이트 방문자는 데이터 수집 도메인의 옵트아웃 페이지를 방문하여 Adobe의 분석 제품에서 자신의 활동을 추적하지 않도록 선택할 수 있습니다.
-keywords: Analytics 구현
-seo-description: 옵트아웃 링크를 지정하고 링크에 대한 브랜딩을 사용자 지정합니다. 웹 사이트 방문자는 데이터 수집 도메인의 옵트아웃 페이지를 방문하여 Adobe의 분석 제품에서 자신의 활동을 추적하지 않도록 선택할 수 있습니다.
-seo-title: 옵트아웃 링크 추가
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 문제 해결
+subtopic: Troubleshooting
 title: 옵트아웃 링크 추가
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
