@@ -1,14 +1,12 @@
 ---
 description: 분류 규칙 빌더를 하위 분류와 결합하여 분류 관리를 단순화하고 필요한 규칙 수를 줄일 수 있습니다. 추적 코드가 따로 분류하려는 코드로 구성되어 있는 경우 이러한 작업을 원할 수 있습니다.
-seo-description: 분류 규칙 빌더를 하위 분류와 결합하여 분류 관리를 단순화하고 필요한 규칙 수를 줄일 수 있습니다. 추적 코드가 따로 분류하려는 코드로 구성되어 있는 경우 이러한 작업을 원할 수 있습니다.
-seo-title: 하위 분류 및 규칙 빌더 - 활용 사례
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 하위 분류 및 규칙 빌더 - 활용 사례
-topic: 관리 도구
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,7 +47,7 @@ t_rule_builder_subclass.xml
 
 >[!NOTE]
 >
-> 이 단계에서는 하위 분류 및 규칙 빌더에 설명된 사용 [사례를 수행하는 방법을 설명합니다](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
+>이 단계에서는 하위 분류 및 규칙 빌더에 설명된 사용 [사례를 수행하는 방법을 설명합니다](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
 1. Create classifications and sub-classifications in the [Classification Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
