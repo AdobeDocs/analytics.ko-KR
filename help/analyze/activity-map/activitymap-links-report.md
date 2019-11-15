@@ -1,13 +1,11 @@
 ---
 description: 링크 보고서는 현재 페이지에서 찾은 링크에 대해 보고합니다. 이 보고서는 해당 페이지에 대해 수집한 모든 링크에 대해 보고하지는 않습니다.
-seo-description: 링크 보고서는 현재 페이지에서 찾은 링크에 대해 보고합니다. 이 보고서는 해당 페이지에 대해 수집한 모든 링크에 대해 보고하지는 않습니다.
-seo-title: 링크 보고서
 solution: Analytics
 title: 링크 보고서
-topic: Activity Map
+topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
