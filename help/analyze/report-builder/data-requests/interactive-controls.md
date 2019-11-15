@@ -1,13 +1,11 @@
 ---
 description: 양방향 컨트롤을 사용하여 워크시트에서 직접 하나 이상의 요청에 대한 세그먼트 및 날짜 범위를 편집할 수 있습니다. 이를 통해 Report Builder 요청을 업데이트할 때 보다 유연하게 작업할 수 있습니다.
-seo-description: 양방향 컨트롤을 사용하여 워크시트에서 직접 하나 이상의 요청에 대한 세그먼트 및 날짜 범위를 편집할 수 있습니다. 이를 통해 Report Builder 요청을 업데이트할 때 보다 유연하게 작업할 수 있습니다.
-seo-title: 양방향 컨트롤
 solution: Analytics
 title: 양방향 컨트롤
-topic: Report Builder
+topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
