@@ -1,13 +1,11 @@
 ---
 description: 참조 요청에서는 데이터 필터나 관계 필터와 같은 매개 변수에 대한 입력으로 셀의 값들을 사용합니다.
-seo-description: 참조 요청에서는 데이터 필터나 관계 필터와 같은 매개 변수에 대한 입력으로 셀의 값들을 사용합니다.
-seo-title: 참조 요청 복사
 solution: Analytics
 title: 참조 요청 복사
-topic: Report Builder
+topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
