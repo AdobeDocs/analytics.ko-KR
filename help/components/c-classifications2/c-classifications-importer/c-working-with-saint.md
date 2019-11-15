@@ -1,14 +1,12 @@
 ---
 description: 가져오기를 사용하여 Adobe Analytics에 분류를 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다.
-seo-description: 가져오기를 사용하여 Adobe Analytics에 분류를 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다.
-seo-title: 분류 가져오기 도구 - 개요
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 분류 가져오기 도구 - 개요
-topic: 관리 도구
+topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
