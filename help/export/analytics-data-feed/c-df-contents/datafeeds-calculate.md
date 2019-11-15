@@ -1,14 +1,12 @@
 ---
 description: 데이터 피드를 사용한 일반 지표 계산 방법을 설명합니다.
-keywords: 데이터 피드;작업;지표;사전 열;이후 열;보트;날짜 필터링;이벤트 문자열;일반;공식
-seo-description: 데이터 피드를 사용한 일반 지표 계산 방법을 설명합니다.
-seo-title: 지표 계산
+keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
 solution: Analytics
 title: 지표 계산
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
