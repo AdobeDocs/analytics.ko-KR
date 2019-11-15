@@ -1,13 +1,11 @@
 ---
 description: 유료 검색 감지를 구성하는 방법을 설명하는 단계입니다.
-seo-description: 유료 검색 감지를 구성하는 방법을 설명하는 단계입니다.
-seo-title: 유료 검색 탐지 구성
 solution: Analytics
 title: 유료 검색 탐지 구성
-topic: 관리 도구
+topic: Admin tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
