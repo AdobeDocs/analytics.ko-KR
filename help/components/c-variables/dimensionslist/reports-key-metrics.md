@@ -1,13 +1,11 @@
 ---
 description: 주요 지표 보고서를 통해 지표에 일관된 추세가 나타나는지 알아보기 위해 지표를 비교할 수 있습니다. 예를 들어 페이지 보기가 증가하면 방문자 카운트가 증가하는지 알아볼 수 있습니다.
-seo-description: 주요 지표 보고서를 통해 지표에 일관된 추세가 나타나는지 알아보기 위해 지표를 비교할 수 있습니다. 예를 들어 페이지 보기가 증가하면 방문자 카운트가 증가하는지 알아볼 수 있습니다.
-seo-title: 주요 지표
 solution: Analytics
 title: 주요 지표
-topic: 보고서
-uuid: 33 E 57 C 24-66 E 6-40 A 5-A 1 B 0-DC 6 A 66 A 74 A 1 C
+topic: Reports
+uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
