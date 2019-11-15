@@ -1,14 +1,12 @@
 ---
 description: 사용자를 그룹에 추가하는 방법에 대해 설명하는 단계입니다.
-seo-description: 사용자를 그룹에 추가하는 방법에 대해 설명하는 단계입니다.
-seo-title: 사용자를 그룹에 추가
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 사용자를 그룹에 추가
-topic: 관리 도구
-uuid: 032245 B 3-848 D -4727-9 B 7 D -6 C 5956 C 5 F 06 A
+topic: Admin tools
+uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,8 +19,8 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 사용자를 그룹에 추가하는 방법에 대해 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리를 클릭합니다]**.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. **[!UICONTROL 사용자를 클릭합니다]**.
-1. **[!UICONTROL 관리]** 열에서 **[!UICONTROL 편집을 클릭합니다]**.
-1. **[!UICONTROL 액세스]**&#x200B;아래에서 왼쪽 목록에 있는 그룹을 클릭한 다음 추가를 클릭하여 **[!UICONTROL 그룹 구성원을 지정합니다]**.
+1. In the **[!UICONTROL Manage]** column, click **[!UICONTROL Edit]**.
+1. Under **[!UICONTROL Access]**, assign group membership by clicking a group in the left list and then clicking **[!UICONTROL Add]**.
 1. **[!UICONTROL 변경 내용 저장을 클릭합니다]**.
