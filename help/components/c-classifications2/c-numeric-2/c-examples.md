@@ -1,14 +1,12 @@
 ---
 description: 숫자 2 분류 가져오기 지침을 제공하기 위한 예입니다.
-seo-description: 숫자 2 분류 가져오기 지침을 제공하기 위한 예입니다.
-seo-title: 예
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 예
-topic: 관리 도구
+topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
