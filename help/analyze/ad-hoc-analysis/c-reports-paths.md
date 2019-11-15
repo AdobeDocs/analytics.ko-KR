@@ -1,13 +1,11 @@
 ---
 description: 웹 사이트 페이지에 액세스하는 순서에 대한 정보를 표시합니다. 방문자가 사용자 사이트를 방문하기 전에 있었던 사이트와 방문 후에 가는 사이트에 대한 정보를 수집할 수 있습니다.
-seo-description: 웹 사이트 페이지에 액세스하는 순서에 대한 정보를 표시합니다. 방문자가 사용자 사이트를 방문하기 전에 있었던 사이트와 방문 후에 가는 사이트에 대한 정보를 수집할 수 있습니다.
-seo-title: 경로 보고서
 solution: Analytics
 title: 경로 보고서
-topic: Ad Hoc Analysis
-uuid: 5881cb1c-6d66-49fe-ac84-70b8262acd2
+topic: Ad hoc analysis
+uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
