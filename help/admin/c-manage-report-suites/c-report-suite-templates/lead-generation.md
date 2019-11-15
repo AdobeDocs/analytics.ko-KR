@@ -1,13 +1,11 @@
 ---
 description: 일반적으로 향후 계약을 통해 판매되는 서비스 및 제품에 대한 정보를 제공하는 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-description: 일반적으로 향후 계약을 통해 판매되는 서비스 및 제품에 대한 정보를 제공하는 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-title: 리드 생성
 solution: Analytics
 title: 리드 생성
-topic: 관리 도구
+topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
