@@ -1,14 +1,12 @@
 ---
 description: 처리 규칙은 보고서 세트에서 설정합니다.
-seo-description: 처리 규칙은 보고서 세트에서 설정합니다.
-seo-title: 처리 규칙 만들기
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 처리 규칙 만들기
-topic: 관리 도구
+topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
