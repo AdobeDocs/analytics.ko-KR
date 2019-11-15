@@ -1,14 +1,12 @@
 ---
 description: 코드 변경을 추적할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
-seo-description: 코드 변경을 추적할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
-seo-title: 분류 규칙 빌더 워크플로우
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 분류 규칙 빌더 워크플로우
-topic: 관리 도구
+topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 >[!NOTE]
 >
-> 분류 가져오기 도구를 사용할 권한이 있는 그룹은 분류 규칙을 사용할 수 있습니다. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+>분류 가져오기 도구를 사용할 권한이 있는 그룹은 분류 규칙을 사용할 수 있습니다. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **추가 리소스**
 
