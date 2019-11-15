@@ -1,11 +1,9 @@
 ---
 description: Silverpop용 데이터 커넥터 통합은 Analytics 변수를 사용하여 다양한 실버팝 지표를 추적합니다.
-seo-description: Silverpop용 데이터 커넥터 통합은 Analytics 변수를 사용하여 다양한 실버팝 지표를 추적합니다.
-seo-title: Analytics 통합 변수
 title: Analytics 통합 변수
-uuid: 3aef3caf-e2 파섹
+uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ Silverpop 통합에 사용할 이벤트 및 eVar를 식별한 후 Adobe Analytic
 
 ## 필수 변수 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-| 변수 유형 | 이름 | 채우기 방법 | 설명 |
+| 변수 유형 |  이름  | 채우기 방법 | 설명 |
 |---|---|---|---|
 | 이벤트(숫자) | 바운스 수 | Silverpop에서 자동으로 가져옵니다. | 바운스 수 이벤트를 사용하면 배달 문제로 인해 수신자에게 배달되지 않은 이메일 메시지 수를 볼 수 있습니다. |
 | 이벤트(숫자) | 클릭 수 | Silverpop에서 자동으로 가져옵니다. | 클릭된 이벤트를 사용하면 이메일 메시지를 클릭한 방문자 수를 볼 수 있습니다. |
@@ -32,7 +30,7 @@ Silverpop 통합에 사용할 이벤트 및 eVar를 식별한 후 Adobe Analytic
 
 ## 옵션 변수 {#section-5f0a32b0a2084c87a64b5f90c0d0fb53}
 
-| 변수 유형 | 이름 | 채우기 방법 | 설명 |
+| 변수 유형 |  이름  | 채우기 방법 | 설명 |
 |---|---|---|---|
 | event(카운터) | 파일 다운로드됨 | Analytics 태그를 통해 수동으로 수집합니다. | 이 이벤트는 사이트에서 파일을 다운로드한 사용자를 식별하는 데 사용됩니다. |
 | event(카운터) | 양식 시작 | Analytics 태그를 통해 수동으로 수집합니다. | 양식 시작은 양식을 시작하지만 완료하지 않은 사용자를 식별하는 데 사용됩니다. |
