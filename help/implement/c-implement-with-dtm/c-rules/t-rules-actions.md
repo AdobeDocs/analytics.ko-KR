@@ -1,13 +1,11 @@
 ---
 description: 조건으로 트리거할 작업을 설정합니다.
-keywords: Dynamic Tag Management;규칙;규칙 만들기;새 규칙;javascript/타사 태그;조건에 대한 작업 설정;새 스크립트 추가;비순차적 javascript;순차적 javascript;비순차적 html
-seo-description: 조건으로 트리거할 작업을 설정합니다.
-seo-title: 조건이 트리거되는 작업 설정
+keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 조건이 트리거되는 작업 설정
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
