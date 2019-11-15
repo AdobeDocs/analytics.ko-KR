@@ -1,13 +1,11 @@
 ---
 description: 고객 활동을 간편하고 정확하게 세부적으로 분석할 수 있습니다. 캠페인 관리, 영업 주기, 고객 폴아웃 및 고객 전환과 같은 지표로 전자 상거래, 영업 소스, 광고 효과, 고객 충성도 등을 측정할 수 있습니다.
-seo-description: 고객 활동을 간편하고 정확하게 세부적으로 분석할 수 있습니다. 캠페인 관리, 영업 주기, 고객 폴아웃 및 고객 전환과 같은 지표로 전자 상거래, 영업 소스, 광고 효과, 고객 충성도 등을 측정할 수 있습니다.
-seo-title: 전환
 solution: Analytics
 title: 전환
-topic: 보고서
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
