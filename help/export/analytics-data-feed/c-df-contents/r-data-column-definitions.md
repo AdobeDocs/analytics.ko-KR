@@ -1,13 +1,11 @@
 ---
 description: 이 섹션을 사용하여 피드에 포함할 데이터 열과 배달하기 전에 피드 데이터를 어떻게 처리하고 패키지로 만들어야 하는지를 선택하십시오.
-keywords: 데이터 피드;데이터;열;정의;열 템플릿 선택;클릭스트림;사용 가능한 열;포함 열;압축 형식;패키징 유형;데이터 매니페스트 포함;이스케이프 처리된 문자 제거;csv 다운로드
-seo-description: 이 섹션을 사용하여 피드에 포함할 데이터 열과 배달하기 전에 피드 데이터를 어떻게 처리하고 패키지로 만들어야 하는지를 선택하십시오.
-seo-title: 데이터 열 정의
+keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
 solution: Analytics
 title: 데이터 열 정의
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
