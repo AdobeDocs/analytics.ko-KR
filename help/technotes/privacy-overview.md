@@ -1,13 +1,11 @@
 ---
 description: Adobe Analytics에서 수집하는 데이터와 기타 개인 정보 보호 고려 사항 개요.
-keywords: 개인 정보 보호
-seo-description: Adobe Analytics에서 수집하는 데이터와 기타 개인 정보 보호 고려 사항 개요.
-seo-title: 개인 정보 보호 개요
+keywords: privacy
 solution: Analytics
 title: 개인 정보 보호 개요
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
