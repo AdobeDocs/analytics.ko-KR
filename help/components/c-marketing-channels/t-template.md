@@ -1,14 +1,12 @@
 ---
 description: 마케팅 채널 구성을 테스트하는 템플릿으로 마스터 보고서 세트를 사용하는 방법입니다 시간을 절약하기 위해, 이 템플릿을 대량 업데이트 시 하나 이상의 프로덕션 보고서 세트에 적용할 수 있습니다. 이 작업은 채널과 규칙 세트에 대해 별도로 수행합니다.
-seo-description: 마케팅 채널 구성을 테스트하는 템플릿으로 마스터 보고서 세트를 사용하는 방법입니다 시간을 절약하기 위해, 이 템플릿을 대량 업데이트 시 하나 이상의 프로덕션 보고서 세트에 적용할 수 있습니다. 이 작업은 채널과 규칙 세트에 대해 별도로 수행합니다.
-seo-title: 여러 보고서 세트에 템플릿 보고서 세트 설정 적용
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 여러 보고서 세트에 템플릿 보고서 세트 설정 적용
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
