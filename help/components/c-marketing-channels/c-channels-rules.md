@@ -1,14 +1,12 @@
 ---
 description: 보고서에 채널 및 채널 데이터를 표시하려면 먼저 데이터를 처리하는 기초 규칙과 채널을 만들어야 합니다. 또한 관련 채널에 대한 비용 및 예산 금액을 만들고 방문자 유도가 지속되기를 원하는 기간을 지정할 수 있습니다. 보고서 구성 작업은 관리 도구에서 수행합니다.
-seo-description: 보고서에 채널 및 채널 데이터를 표시하려면 먼저 데이터를 처리하는 기초 규칙과 채널을 만들어야 합니다. 또한 관련 채널에 대한 비용 및 예산 금액을 만들고 방문자 유도가 지속되기를 원하는 기간을 지정할 수 있습니다. 보고서 구성 작업은 관리 도구에서 수행합니다.
-seo-title: 채널 및 규칙 정보
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 채널 및 규칙 정보
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Adobe는 자동 설정 중 사전 정의된 채널을 제공하는데 [](/help/c
 
 >[!NOTE]
 >
-> 테스트 목적으로 템플릿으로 사용할 수 있도록 보고서 세트에 보고서를 설정하는 것이 좋습니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
+>테스트 목적으로 템플릿으로 사용할 수 있도록 보고서 세트에 보고서를 설정하는 것이 좋습니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
 >
 >자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](/help/components/c-marketing-channels/t-template.md)을 참조하십시오.
 
