@@ -1,12 +1,10 @@
 ---
 description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
-seo-description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
-seo-title: Analytics 보고 API 비교
 solution: Analytics
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
