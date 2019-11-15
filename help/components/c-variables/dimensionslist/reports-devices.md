@@ -1,13 +1,11 @@
 ---
 description: 사이트에 액세스하는 데 사용된 모바일 장치의 세부 목록을 표시합니다.
-seo-description: 사이트에 액세스하는 데 사용된 모바일 장치의 세부 목록을 표시합니다.
-seo-title: 장치
 solution: Analytics
 title: 장치
-topic: 보고서
+topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
