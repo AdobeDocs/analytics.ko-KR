@@ -1,18 +1,16 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 분기별 고유 방문자
 solution: Analytics
-title: 분기별 고유 방문자
-topic: 지표
-uuid: A 61 E 982 D-A 0 C 6-4915-9 BED -1 E 203 EE 2 cfee
+title: 분기별 고유 방문자 수
+topic: Metrics
+uuid: a61e982d-a0c6-4915-9bed-1e203ee2cfee
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 분기별 고유 방문자
+# 분기별 고유 방문자 수
 
 | 사용 | 설명 |
 |---|---|
