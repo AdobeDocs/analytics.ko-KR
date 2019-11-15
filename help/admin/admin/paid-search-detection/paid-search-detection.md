@@ -1,13 +1,11 @@
 ---
 description: 유로 검색 감지는 검색 엔진 및 검색 키워드 보고서에서 유료 검색과 자연어 검색을 구별합니다. 유료 광고를 사용할 검색 엔진을 지정하고 유료 광고에서 방문 URL에 있는 문자열을 지정할 수 있습니다.
-seo-description: 유로 검색 감지는 검색 엔진 및 검색 키워드 보고서에서 유료 검색과 자연어 검색을 구별합니다. 유료 광고를 사용할 검색 엔진을 지정하고 유료 광고에서 방문 URL에 있는 문자열을 지정할 수 있습니다.
-seo-title: 유료 검색 탐지
 solution: Analytics
 title: 유료 검색 탐지
-topic: 관리 도구
-uuid: 41aadf17-7b8b-49ce-84ca-dc329360205
+topic: Admin tools
+uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
