@@ -1,13 +1,11 @@
 ---
 description: 사이트의 성공 지표에 가장 큰 영향을 미친 고객을 유도한 참조 도메인을 보여줍니다. 레퍼러는 도메인과 URL의 두 가지 주요 카테고리로 분류됩니다. 도메인은 도메인 이름을 의미하며 쿼리 문자열 또는 서브디렉토리가 연결되지 않은 기본 도메인으로 나타납니다. URL에는 기본 도메인 이름과 쿼리 문자열 또는 서브디렉토리가 포함됩니다.
-seo-description: 사이트의 성공 지표에 가장 큰 영향을 미친 고객을 유도한 참조 도메인을 보여줍니다. 레퍼러는 도메인과 URL의 두 가지 주요 카테고리로 분류됩니다. 도메인은 도메인 이름을 의미하며 쿼리 문자열 또는 서브디렉토리가 연결되지 않은 기본 도메인으로 나타납니다. URL에는 기본 도메인 이름과 쿼리 문자열 또는 서브디렉토리가 포함됩니다.
-seo-title: 참조 도메인
 solution: Analytics
 title: 참조 도메인
-topic: 보고서
+topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
