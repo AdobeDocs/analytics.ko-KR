@@ -1,13 +1,11 @@
 ---
 description: 경로 보기 지표는 영구적 쿠키를 승인하는 모든 사용자에 대해 추적되는 경로 데이터에 기준합니다.
-seo-description: 경로 보기 지표는 영구적 쿠키를 승인하는 모든 사용자에 대해 추적되는 경로 데이터에 기준합니다.
-seo-title: 경로 보기
 solution: Analytics
 title: 경로 보기
-topic: 지표
+topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
