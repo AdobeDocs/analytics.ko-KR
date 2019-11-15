@@ -1,13 +1,11 @@
 ---
 description: 관리 기능의 일반 계정 설정 보고서 세트에 대한 필드 설명입니다.
-seo-description: 관리 기능의 일반 계정 설정 보고서 세트에 대한 필드 설명입니다.
-seo-title: 일반 계정 설정
 solution: Analytics
 title: 일반 계정 설정
-topic: 관리 도구
+topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
