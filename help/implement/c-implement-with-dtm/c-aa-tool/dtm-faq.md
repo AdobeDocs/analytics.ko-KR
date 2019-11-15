@@ -1,13 +1,11 @@
 ---
 description: Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. 자동 구성 방법은 AppMeasurement 코드를 알아서 관리해줍니다.
-keywords: Dynamic Tag Management;플러그인;스테이징;현재 설정에 미치는 영향;개정 내역;잠재적인 위험;보고서 세트 ID;통화 코드;추적 서버;SSL 추적 서버;사용자 지정 코드;라이브러리 관리
-seo-description: Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. 자동 구성 방법은 AppMeasurement 코드를 알아서 관리해줍니다.
-seo-title: Adobe Analytics 도구에 대한 FAQ
+keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 도구에 대한 FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
