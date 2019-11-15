@@ -1,13 +1,11 @@
 ---
 description: 도구 모음, 달력 및 세부 사항 테이블을 포함한 보고서 기능에 대한 소개입니다.
-seo-description: 도구 모음, 달력 및 세부 사항 테이블을 포함한 보고서 기능에 대한 소개입니다.
-seo-title: 보고서 기능
 solution: Analytics
 title: 보고서 기능
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
