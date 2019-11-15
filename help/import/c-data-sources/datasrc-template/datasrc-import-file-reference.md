@@ -1,14 +1,12 @@
 ---
 description: 데이터 소스 .txt 템플릿에 대한 정보.
-seo-description: 데이터 소스 .txt 템플릿에 대한 정보.
-seo-title: 파일 가져오기 참조
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 파일 가져오기 참조
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
