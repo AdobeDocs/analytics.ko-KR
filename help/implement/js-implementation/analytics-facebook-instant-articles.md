@@ -1,14 +1,12 @@
 ---
 description: Facebook 인스턴트 아티클의 Analytics 구현 방법을 참조하십시오.
-keywords: Analytics 구현;포함;사용자 지정 변수;사용자 지정 이벤트;방문자 추적;추적;제한 사항
-seo-description: Facebook 인스턴트 아티클의 Analytics 구현 방법을 참조하십시오.
-seo-title: Facebook 인스턴트 아티클
+keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
 solution: Analytics
 title: Facebook 인스턴트 아티클
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
