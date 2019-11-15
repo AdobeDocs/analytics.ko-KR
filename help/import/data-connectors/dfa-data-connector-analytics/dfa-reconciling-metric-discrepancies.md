@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics 지표를 DFA 지표와 비교할 때 일부 지표가 허용 가능한 차이에 속하지 않을 수 있습니다. 아래에 지표 정의 및 가능한 변화 원인이 나열되어 있습니다.
 keywords: DFA
-seo-description: Adobe Analytics 지표를 DFA 지표와 비교할 때 일부 지표가 허용 가능한 차이에 속하지 않을 수 있습니다. 아래에 지표 정의 및 가능한 변화 원인이 나열되어 있습니다.
-seo-title: 지표 불일치 조정
 solution: Analytics
 title: 지표 불일치 조정
 topic: Data connectors
-uuid: aa3ca006-d3cf-4 파섹
+uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
