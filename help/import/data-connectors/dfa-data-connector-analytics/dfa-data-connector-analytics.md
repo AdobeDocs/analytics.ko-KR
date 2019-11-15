@@ -1,19 +1,17 @@
 ---
 description: 'null'
 keywords: DFA
-seo-description: 'null'
-seo-title: Adobe Analytics용 DFA Data Connectors
 solution: Analytics
 title: Adobe Analytics용 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Adobe Analytics용 DFA Data Connectors{#dfa-data-connector-for-adobe-analytics}
+# DFA Adobe Analytics용 Data Connectors{#dfa-data-connector-for-adobe-analytics}
 
 오늘날과 같이 복잡해지고 경쟁이 치열한 온라인 시장에서 온라인 광고주와 에이전시는 온라인 마케팅 환경에 대한 이해도와 광고 지출에 대한 수익률을 지속적으로 향상시켜야 합니다. 이러한 목표 달성을 지원하기 위해 광고주, 에이전시 및 게시자가 모두 개별 도구를 처리해야 하지만, 전혀 다른 데이터 시스템과 프로세스에서 수동으로 데이터를 집계하는 것이 온라인 마케팅 캠페인의 효과를 방해하여 최적이 아닌 캠페인 성과, 데이터 불일치 및 혼동을 야기할 수 있습니다.
 
