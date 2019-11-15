@@ -1,11 +1,9 @@
 ---
 description: 여러 요청에 대한 지표 편집 기능을 사용하면 기존 요청 또는 여러 요청에 대한 지표를 쉽게 추가, 제거 또는 교체할 수 있습니다.
-seo-description: 여러 요청에 대한 지표 편집 기능을 사용하면 기존 요청 또는 여러 요청에 대한 지표를 쉽게 추가, 제거 또는 교체할 수 있습니다.
-seo-title: 여러 요청에 대한 지표 편집
 title: 여러 요청에 대한 지표 편집
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
