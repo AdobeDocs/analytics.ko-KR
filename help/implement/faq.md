@@ -1,14 +1,12 @@
 ---
 description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
-keywords: Analytics 구현, faq, 자주 묻는 질문, evar 만료, 사용자 지정 이벤트 가시성, 타임스탬프, 방문자 ID 유예 기간, 방문자 ID, Experience Cloud 방문자 ID, Analytics 방문자 ID, dtm, 하트비트, 쿠키, 추적 서버, 성능, javascript, 데이터 수집, s_code 버전, s_code 디버그, 추적 링크 유형, 비디오 추적, 모바일 추적 앱, 자사 쿠키, ssl 인증서, 인증 만료, 인증서 만료, 플러그인, 데이터 삽입 api, 500 오류, 500, 사용자 관리, 그룹, 관리, 사용자, 그룹
-seo-description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
-seo-title: Analytics 구현에 대한 FAQ
+keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
 solution: Analytics
 title: Analytics 구현에 대한 FAQ
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
