@@ -1,11 +1,9 @@
 ---
 description: Adobe Analytics Workspace의 새로운 기능
-seo-description: Adobe Analytics Workspace의 새로운 기능
-seo-title: Analytics 세그멘테이션의 새로운 기능
 title: Analytics 세그멘테이션의 새로운 기능
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
