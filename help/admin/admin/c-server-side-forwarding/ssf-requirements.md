@@ -1,12 +1,10 @@
 ---
 description: 서버측 전달을 구현하려면 이러한 Experience Cloud 솔루션, 서비스 및 코드 요구 사항을 충족해야 합니다. 이러한 요구 사항에는 코드 버전을 확인하는 방법과 최신 코드 라이브러리를 얻을 수 있는 곳에 대한 지침도 포함되어 있습니다.
-seo-description: 서버측 전달을 구현하려면 이러한 Experience Cloud 솔루션, 서비스 및 코드 요구 사항을 충족해야 합니다. 이러한 요구 사항에는 코드 버전을 확인하는 방법과 최신 코드 라이브러리를 얻을 수 있는 곳에 대한 지침도 포함되어 있습니다.
-seo-title: 서버 측 전달 요구 사항
 solution: Audience Manager
 title: 서버 측 전달 요구 사항
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
