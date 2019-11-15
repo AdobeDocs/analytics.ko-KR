@@ -1,13 +1,11 @@
 ---
 description: 피드는 몇 가지 상태 레이블 중 하나로 표시될 수 있습니다.
-keywords: 데이터 피드;상태;활성;승인 대기 중;삭제됨;완료;보류 중;비활성
-seo-description: 피드는 몇 가지 상태 레이블 중 하나로 표시될 수 있습니다.
-seo-title: 데이터 피드 상태
+keywords: Data Feed;status;active;approval pending;deleted;complete;pending;inactive
 solution: Analytics
 title: 데이터 피드 상태
 uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
