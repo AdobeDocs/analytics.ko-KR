@@ -1,13 +1,11 @@
 ---
 description: Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
 keywords: ftp;sftp
-seo-description: Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
-seo-title: SFTP를 통해 Adobe FTP 계정에 연결
 solution: Analytics
 title: SFTP를 통해 Adobe FTP 계정에 연결
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
