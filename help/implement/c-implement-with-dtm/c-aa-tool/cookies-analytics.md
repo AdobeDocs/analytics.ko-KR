@@ -1,13 +1,11 @@
 ---
 description: Adobe Analytics에서 Dynamic Tag Management를 배포하는 데 사용되는 쿠키 전역 설정에 대한 필드 설명입니다.
-keywords: Dynamic Tag Management;쿠키;방문자 ID;방문자 네임스페이스;도메인 기간;fp 도메인 기간;트랜잭션 ID;쿠키 수명
-seo-description: Adobe Analytics에서 Dynamic Tag Management를 배포하는 데 사용되는 쿠키 전역 설정에 대한 필드 설명입니다.
-seo-title: 쿠키
+keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 쿠키
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 9b946238b48fa4532d136d2f7aa0187fdabd005b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
