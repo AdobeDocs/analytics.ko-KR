@@ -1,11 +1,9 @@
 ---
 description: Adobe Mobile Services UI는 Adobe Analytics 보고서 세트의 모바일 앱 데이터와 푸시 알림을 보내고, 인앱 메시지를 생성하는 기능과 결합합니다.
-seo-description: Adobe Mobile Services UI는 Adobe Analytics 보고서 세트의 모바일 앱 데이터와 푸시 알림을 보내고, 인앱 메시지를 생성하는 기능과 결합합니다.
-seo-title: 모바일 서비스의 VRS 지원
 title: 모바일 서비스의 VRS 지원
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
