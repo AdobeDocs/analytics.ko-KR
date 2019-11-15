@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: Analytics 구현;링크 참조;리디렉션
-seo-description: 'null'
-seo-title: 모바일 프로토콜에서의 사용자 지정 링크 측정
+keywords: Analytics Implementation;link reference;redir
 solution: Analytics
 title: 모바일 프로토콜에서의 사용자 지정 링크 측정
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
