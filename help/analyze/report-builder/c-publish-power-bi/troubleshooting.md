@@ -1,11 +1,9 @@
 ---
 description: 다음은 Power BI와 함께 Report Builder를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제입니다.
-seo-description: 다음은 Power BI와 함께 Report Builder를 사용할 때 발생할 수 있는 몇 가지 일반적인 문제입니다.
-seo-title: Power BI 통합 문제 해결
 title: Power BI 통합 문제 해결
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
