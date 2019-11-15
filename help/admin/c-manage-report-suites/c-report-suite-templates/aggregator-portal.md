@@ -1,13 +1,11 @@
 ---
 description: 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-description: 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-title: 누적 포털
 solution: Analytics
 title: 누적 포털
-topic: 관리 도구
+topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
