@@ -1,13 +1,11 @@
 ---
 description: 이 절차는 머리글을 숨기거나 표시하는 방법에 대해 설명합니다.
-seo-description: 이 절차는 머리글을 숨기거나 표시하는 방법에 대해 설명합니다.
-seo-title: 머리글 숨기기 또는 표시
 solution: Analytics
 title: 머리글 숨기기 또는 표시
-topic: Report Builder
-uuid: AB 0 EF 56 F -3531-48 FB -9456-1220718 D 59 C 5
+topic: Report builder
+uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
