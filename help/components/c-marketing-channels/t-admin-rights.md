@@ -1,14 +1,12 @@
 ---
 description: 마케팅 채널 보고서 사용자에게 제한된 관리 권한을 부여하는 그룹을 만든 다음 사용자를 해당 그룹에 지정합니다. 예를 들어 관리 권한이 없는 사용자에게 비용 또는 예산 금액의 입력 권한을 주는 그룹을 만들 수 있습니다.
-seo-description: 마케팅 채널 보고서 사용자에게 제한된 관리 권한을 부여하는 그룹을 만든 다음 사용자를 해당 그룹에 지정합니다. 예를 들어 관리 권한이 없는 사용자에게 비용 또는 예산 금액의 입력 권한을 주는 그룹을 만들 수 있습니다.
-seo-title: 제한적인 관리 권한 부여
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 제한적인 관리 권한 부여
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
