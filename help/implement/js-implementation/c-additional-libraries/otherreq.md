@@ -1,14 +1,12 @@
 ---
 description: JavaScript 없이 Analytics를 구현하기 위한 요구 사항과 구성이 더 있습니다.
-keywords: Analytics 구현;대소문자 구분;쿼리 매개 변수 인코딩;잘못된 문자;보안 이미지 요청;최대 변수 길이;참조;url;캐싱;네임스페이스
-seo-description: JavaScript 없이 Analytics를 구현하기 위한 요구 사항과 구성이 더 있습니다.
-seo-title: JavaScript 지침 없이 구현
+keywords: Analytics Implementation;case sensitive;encode query parameters;invalid characters;secure image requests;maximum variable length;referring;url;caching;namespace
 solution: Analytics
 title: JavaScript 지침 없이 구현
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
