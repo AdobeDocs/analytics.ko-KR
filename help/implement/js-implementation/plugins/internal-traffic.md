@@ -1,10 +1,8 @@
 ---
 title: 내부 트래픽
 description: 내부 트래픽 플러그인은 내부 네트워크에서 온 방문자를 동적으로 식별합니다.
-seo-description: 내부 트래픽 플러그인
-seo-title: 내부 트래픽 플러그인
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
