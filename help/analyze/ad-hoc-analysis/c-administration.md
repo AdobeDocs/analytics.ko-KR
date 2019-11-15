@@ -1,11 +1,9 @@
 ---
 description: 사용자를 구성하고 데이터 샘플링에 대해 알 수 있습니다.
-seo-description: 사용자를 구성하고 데이터 샘플링에 대해 알 수 있습니다.
-seo-title: 관리
 title: 관리
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
