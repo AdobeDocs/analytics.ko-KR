@@ -1,15 +1,13 @@
 ---
 description: AppMeasurement.js에 설정된 구성 변수.
-keywords: Analytics 구현
-seo-description: Adobe Analytics용 AppMeasurement.js에 설정된 구성 변수
-seo-title: 구성 변수
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 변수
+subtopic: Variables
 title: 구성 변수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ---
 
@@ -58,8 +56,6 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 * [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):콜백(함수)와 해당 함수에 대한 매개 변수 모두를 매개 변수로 가져오는 함수입니다.
 
-* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):콜백(함수)와 해당 함수에 대한 매개 변수 모두를 매개 변수로 가져오는 함수입니다.
-
 * [s.track 파섹](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html):사이트에서 다운로드 가능한 파일에 대한 링크를 추적할 수 있습니다.
 
 * [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html):클릭한 링크가 종료 링크인지 여부를 결정합니다.
@@ -77,3 +73,17 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):종료 링크의 특정 하위 세트에 대해 보고하는 데 사용합니다.
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):각 이미지 요청 전에 함수를 `s_doPlugins` 호출합니다.
+
+* [s.useForcedlinkTracking](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-usedforcedlinktracking.html):일부 브라우저에 대한 강제 링크 추적을 비활성화합니다.
+
+* [s.linkType](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktype.html):링크 유형을 다운로드, 종료 또는 사용자 정의로 설정합니다.
+
+* [s.linkName](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html):다운로드, 종료 또는 사용자 지정 링크 보고서에 표시되는 이름을 설정합니다.
+
+* [s.ForcedlinkTrackingTimeout](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-forcedlinktrackingtimeout.html):추적 시 최대 대기 시간을 설정합니다.
+
+* [s.linkTrackEvents](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackingevents.html):일부 브라우저에 대한 강제 링크 추적을 비활성화합니다.
+
+* [s.linkUrl](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkurl.html):링크의 URL을 설정합니다.
+
+* [s.linkObject](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkobject.html):클릭한 개체를 참조합니다.
