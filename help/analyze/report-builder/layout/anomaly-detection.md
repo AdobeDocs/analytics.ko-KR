@@ -1,13 +1,11 @@
 ---
 description: 이상 현상 발견 기능에서는 통계적 모델링 방법을 사용하여 데이터에서 예상치 않은 트렌드를 자동으로 찾습니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상 범위를 결정합니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다.
-seo-description: 이상 현상 발견 기능에서는 통계적 모델링 방법을 사용하여 데이터에서 예상치 않은 트렌드를 자동으로 찾습니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상 범위를 결정합니다. 예상치 않은 급등이나 하락이 발생하면 보고서에 경고가 표시됩니다.
-seo-title: 예외 항목 탐지
 solution: Analytics
 title: 예외 항목 탐지
-topic: Report Builder
-uuid: 02da21b4-3394-47 파섹
+topic: Report builder
+uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
