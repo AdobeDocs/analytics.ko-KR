@@ -1,14 +1,12 @@
 ---
 description: 브라우저를 사용하여 분류 데이터를 가져올(다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
-seo-description: 브라우저를 사용하여 분류 데이터를 가져올(다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
-seo-title: 브라우저 가져오기
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 브라우저 가져오기
-topic: 관리 도구
+topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
