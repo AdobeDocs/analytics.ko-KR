@@ -1,13 +1,11 @@
 ---
 description: 세그먼트를 계획할 때 따라야 하는 단계 및 모범 사례에 대해 설명합니다.
-seo-description: 세그먼트를 계획할 때 따라야 하는 단계 및 모범 사례에 대해 설명합니다.
-seo-title: 계획 세그먼트
 solution: Analytics
 title: 계획 세그먼트
-topic: 세그먼트
+topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
