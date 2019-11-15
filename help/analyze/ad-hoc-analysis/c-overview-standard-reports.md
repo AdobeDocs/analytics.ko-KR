@@ -1,13 +1,11 @@
 ---
 description: 표준 보고서에는 웹 사이트 및 방문자 활동 데이터, 트래픽 패턴, 참조 데이터, 광고 캠페인, 방문자 유지, 제품 데이터 등이 표시됩니다. 보고서를 실행한 다음 도구에 액세스하여 세그먼트, 지표 및 보고서 비교를 구성할 수 있습니다.
-seo-description: 표준 보고서에는 웹 사이트 및 방문자 활동 데이터, 트래픽 패턴, 참조 데이터, 광고 캠페인, 방문자 유지, 제품 데이터 등이 표시됩니다. 보고서를 실행한 다음 도구에 액세스하여 세그먼트, 지표 및 보고서 비교를 구성할 수 있습니다.
-seo-title: 보고서 개요
 solution: Analytics
 title: 보고서 개요
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
