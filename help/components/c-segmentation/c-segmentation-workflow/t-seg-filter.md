@@ -1,13 +1,11 @@
 ---
 description: 태그, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
-seo-description: 태그, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
-seo-title: 세그먼트 필터링
 solution: Analytics
 title: 세그먼트 필터링
-topic: 세그먼트
-uuid: 6e9d3e55-4e06-4a8d-adbc-bc-bc01355f442e
+topic: Segments
+uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
