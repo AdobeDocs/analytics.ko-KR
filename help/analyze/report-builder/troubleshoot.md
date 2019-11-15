@@ -1,13 +1,11 @@
 ---
 description: Report Builder 전달을 최적화할 수 있는 방법 및 때때로 발생할 수 있는 오류 메시지 목록입니다.
-seo-description: Report Builder 전달을 최적화할 수 있는 방법 및 때때로 발생할 수 있는 오류 메시지 목록입니다.
-seo-title: Report Builder 문제 해결 및 우수 사례
 solution: Analytics
 title: Report Builder 문제 해결 및 우수 사례
-topic: Report Builder
+topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
