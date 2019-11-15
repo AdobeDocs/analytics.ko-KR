@@ -1,14 +1,12 @@
 ---
 description: 다른 분류를 만들 때와 같은 방식으로 숫자 2 분류를 만듭니다. 전환 또는 채널 변수에만 숫자 2 분류를 추가할 수 있습니다.
-seo-description: 다른 분류를 만들 때와 같은 방식으로 숫자 2 분류를 만듭니다. 전환 또는 채널 변수에만 숫자 2 분류를 추가할 수 있습니다.
-seo-title: 숫자 2 분류 만들기
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 숫자 2 분류 만들기
-topic: 관리 도구
+topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
