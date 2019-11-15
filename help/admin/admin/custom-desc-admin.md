@@ -1,13 +1,11 @@
 ---
 description: eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
-seo-description: eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
-seo-title: 사용자 지정 보고서 설명
 solution: Analytics
 title: 사용자 지정 보고서 설명
-topic: 관리 도구
-uuid: df7b57ab-4bd9-4465-bcd1-d47647ed3ff
+topic: Admin tools
+uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
