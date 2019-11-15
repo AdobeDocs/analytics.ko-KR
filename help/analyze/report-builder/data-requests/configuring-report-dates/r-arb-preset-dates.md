@@ -1,13 +1,11 @@
 ---
 description: 사전 설정 날짜는 공통으로 사용된 날짜 또는 저장한 날짜를 선택할 수 있도록 해줍니다. 요청 마법사 1단계에서 사전 설정 날짜를 선택합니다. 다음은 Report Builder의 사전 설정 날짜에 대한 필드 정의입니다.
-seo-description: 사전 설정 날짜는 공통으로 사용된 날짜 또는 저장한 날짜를 선택할 수 있도록 해줍니다. 요청 마법사 1단계에서 사전 설정 날짜를 선택합니다. 다음은 Report Builder의 사전 설정 날짜에 대한 필드 정의입니다.
-seo-title: 요청 마법사 정의 - 사전 설정 날짜
 solution: Analytics
 title: 요청 마법사 정의 - 사전 설정 날짜
-topic: Report Builder
+topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
