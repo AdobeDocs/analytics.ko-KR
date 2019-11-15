@@ -1,13 +1,11 @@
 ---
 description: 보고서의 이름을 지정하고 행 및 열 머리글이 표시되는 방식을 구성할 수 있습니다. 피벗 및 사용자 지정 레이아웃 유형에 [서식 선택 사항] 링크를 사용할 수 있습니다.
-seo-description: 보고서의 이름을 지정하고 행 및 열 머리글이 표시되는 방식을 구성할 수 있습니다. 피벗 및 사용자 지정 레이아웃 유형에 [서식 선택 사항] 링크를 사용할 수 있습니다.
-seo-title: 머리글 표시 형식 지정
 solution: Analytics
 title: 머리글 표시 형식 지정
-topic: Report Builder
+topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
