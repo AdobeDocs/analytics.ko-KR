@@ -1,13 +1,11 @@
 ---
 description: 전자 상거래 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-description: 전자 상거래 웹 사이트에 대한 일반 설정을 정의합니다.
-seo-title: 상거래
 solution: Analytics
 title: 상거래
-topic: 관리 도구
+topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
