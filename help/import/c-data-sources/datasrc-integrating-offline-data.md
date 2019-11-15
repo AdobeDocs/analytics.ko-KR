@@ -1,14 +1,12 @@
 ---
 description: 데이터 소스는 온라인 데이터에 대해 오프라인으로 발생하는 이벤트를 통합할 수 있는 2가지 추가 방법을 제공합니다.
-seo-description: 데이터 소스는 온라인 데이터에 대해 오프라인으로 발생하는 이벤트를 통합할 수 있는 2가지 추가 방법을 제공합니다.
-seo-title: 거래 및 고객 통합
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 거래 및 고객 통합
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
