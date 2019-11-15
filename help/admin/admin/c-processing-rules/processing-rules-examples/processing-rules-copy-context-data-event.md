@@ -1,14 +1,12 @@
 ---
 description: '처리 규칙은 컨텍스트 데이터 변수에 따라 이벤트를 트리거할 수 있습니다. '
-seo-description: '처리 규칙은 컨텍스트 데이터 변수에 따라 이벤트를 트리거할 수 있습니다. '
-seo-title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
-topic: 관리 도구
+topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
