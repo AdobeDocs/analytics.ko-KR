@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 회사 설정 개요
 title: 회사 설정 개요
-uuid: 175 de 01 f -02 ae -44 e 2-ae 94-fa 49733 e 2703
+uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,8 +15,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 회사 설정]**
 
 + [기능 액세스 수준](feature-access-levels.md)
-+ [Web Services](web-services-admin.md)
-+ [리포트 빌더 보고서](report-builder-reports-admin.md)
++ [웹 서비스](web-services-admin.md)
++ [Report Builder 보고서](report-builder-reports-admin.md)
 + [단일 사인온](single-signon-admin.md)
 + [보류 중인 작업](pending-actions-admin.md)
 + [공동 브랜딩](co-branding-admin.md)
