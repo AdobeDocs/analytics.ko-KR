@@ -1,11 +1,9 @@
 ---
 description: Report Builder에서 게시한 자산을 Power BI Desktop에 가져오는 방법을 설명합니다.
-seo-description: Report Builder에서 게시한 자산을 Power BI Desktop에 가져오는 방법을 설명합니다.
-seo-title: 게시된 자산을 Power BI Desktop에 가져오기
 title: 게시된 자산을 Power BI Desktop에 가져오기
 uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
