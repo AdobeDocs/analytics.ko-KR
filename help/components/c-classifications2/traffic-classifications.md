@@ -1,14 +1,12 @@
 ---
 description: 트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류에는 텍스트 분류만 사용할 수 있습니다.
-seo-description: 트래픽 분류를 사용하면 트래픽 변수(prop)를 분류할 수 있습니다. 트래픽 분류에는 텍스트 분류만 사용할 수 있습니다.
-seo-title: 트래픽 분류
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 트래픽 분류
-topic: 관리 도구
+topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
