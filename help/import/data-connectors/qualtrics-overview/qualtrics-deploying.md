@@ -1,14 +1,12 @@
 ---
 description: 이 통합 배포는 다음 작업이 필요한 간단한 프로세스입니다.
-seo-description: 이 통합 배포는 다음 작업이 필요한 간단한 프로세스입니다.
-seo-title: 통합 배포
 solution: Analytics
 subtopic: Qualtrics
 title: 통합 배포
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
    |---|---|
    | 이벤트 | Qualtrics로 내보낼 사용자 지정 이벤트 최대 5개를 선택합니다. |
    | Prop | Prop을 최대 5개까지 선택하여 Qualtrics로 내보내기 |
-   |  액세스 요청 | Qualtrics로 내보내려는 표준 지표 및 차원에 대한 확인란을 선택합니다. 내보내기가 제대로 작동하도록 허용하려면 `visitor_id` 이 필요합니다. |
+   | 액세스 요청 | Qualtrics로 내보내려는 표준 지표 및 차원에 대한 확인란을 선택합니다. 내보내기가 제대로 작동하도록 허용하려면 `visitor_id` 이 필요합니다. |
 
 1. **마법사 5단계**:구성을 검토하고 지금 **[!UICONTROL 활성화를 클릭합니다]**.
 
