@@ -1,13 +1,11 @@
 ---
 description: 일시 정지된 피드나 비활성 피드를 활성화할 수 있습니다.
-keywords: 데이터 피드;피드;활성화
-seo-description: 일시 정지된 피드나 비활성 피드를 활성화할 수 있습니다.
-seo-title: 피드 활성화
+keywords: Data Feed;feed;activate
 solution: Analytics
 title: 피드 활성화
 uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
