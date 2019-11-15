@@ -1,14 +1,12 @@
 ---
 description: 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
-keywords: 분석 작업 공간;시각화를 데이터 소스와 동기화
-seo-description: 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
-seo-title: 데이터 소스 관리
+keywords: Analysis Workspace;Synchronize visualization with data source
 solution: Analytics
 title: 데이터 소스 관리
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
