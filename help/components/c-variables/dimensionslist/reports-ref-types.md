@@ -1,13 +1,11 @@
 ---
 description: 각 방문에 대해 방문자의 참조 사이트를 추적 및 기록하여 방문자가 각 방문에 대해 사이트에 대해 어떻게 발견했는지 알 수 있습니다.
-seo-description: 각 방문에 대해 방문자의 참조 사이트를 추적 및 기록하여 방문자가 각 방문에 대해 사이트에 대해 어떻게 발견했는지 알 수 있습니다.
-seo-title: 레퍼러 유형
 solution: Analytics
 title: 레퍼러 유형
-topic: 보고서
+topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
