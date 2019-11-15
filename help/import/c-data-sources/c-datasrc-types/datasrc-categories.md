@@ -1,14 +1,12 @@
 ---
 description: 데이터 소스 카테고리는 유사한 기능을 제공하는 다양한 데이터 소스 유형을 식별합니다.
-seo-description: 데이터 소스 카테고리는 유사한 기능을 제공하는 다양한 데이터 소스 유형을 식별합니다.
-seo-title: 데이터 유형 및 카테고리 개요
 solution: Analytics
-subtopic: 데이터 소스
+subtopic: Data sources
 title: 데이터 유형 및 카테고리 개요
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
