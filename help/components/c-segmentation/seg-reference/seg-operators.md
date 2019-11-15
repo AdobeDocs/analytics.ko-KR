@@ -1,13 +1,11 @@
 ---
 description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
-seo-description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
-seo-title: 세그먼트의 비교 연산자
 solution: Analytics
 title: 세그먼트의 비교 연산자
-topic: 세그먼트
+topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
