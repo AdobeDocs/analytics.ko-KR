@@ -1,13 +1,11 @@
 ---
 description: Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
-seo-description: Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
-seo-title: Activity Map 설정 구성
 solution: Analytics
 title: Activity Map 설정 구성
-topic: Activity Map
+topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
