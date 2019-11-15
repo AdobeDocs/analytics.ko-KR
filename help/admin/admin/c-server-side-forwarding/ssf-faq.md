@@ -1,11 +1,9 @@
 ---
 description: 서버 측 전달과 관련된 기능과 문제점에 대한 FAQ.
-seo-description: 서버 측 전달과 관련된 기능과 문제점에 대한 FAQ.
-seo-title: 서버 측 전달 FAQ
 title: 서버 측 전달 FAQ
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
