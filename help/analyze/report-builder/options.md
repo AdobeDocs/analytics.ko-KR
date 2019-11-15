@@ -1,13 +1,11 @@
 ---
 description: '[옵션] 패널에서는 날짜 설정, 지연 설정(현재 데이터), 로그 정보를 지정하고, 업데이트를 구성할 수 있습니다.'
-seo-description: '[옵션] 패널에서는 날짜 설정, 지연 설정(현재 데이터), 로그 정보를 지정하고, 업데이트를 구성할 수 있습니다.'
-seo-title: Report Builder 옵션
 solution: Analytics
 title: Report Builder 옵션
-topic: Report Builder
+topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
