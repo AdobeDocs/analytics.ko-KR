@@ -1,13 +1,11 @@
 ---
 description: 온라인 서비스에 대한 액세스를 제공하는 은행 및 기타 기관에 대한 일반 설정을 정의합니다.
-seo-description: 온라인 서비스에 대한 액세스를 제공하는 은행 및 기타 기관에 대한 일반 설정을 정의합니다.
-seo-title: 금융 서비스
 solution: Analytics
 title: 금융 서비스
-topic: 관리 도구
+topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
