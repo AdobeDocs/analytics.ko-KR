@@ -1,14 +1,12 @@
 ---
 description: '데이터 계층은 개발자가 페이지에 삽입하는 JavaScript 개체의 프레임워크입니다. '
-keywords: Analytics 구현;데이터 계층;digitalData
-seo-description: 데이터 계층은 개발자가 페이지에 삽입하는 JavaScript 개체의 프레임워크입니다. 데이터 계층은 보고서를 채우기 위해 추적 도구(Dynamic Tag Management와 같은 태그 관리 시스템 포함)에서 사용할 수 있습니다.
-seo-title: 데이터 레이어
+keywords: Analytics Implementation;data layer;digitalData
 solution: Analytics
 title: 데이터 레이어
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
