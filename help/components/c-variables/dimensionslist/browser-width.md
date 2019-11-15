@@ -1,13 +1,11 @@
 ---
 description: 브라우저 창에서만 데이터의 가로/세로 거리를 참조하는 지표입니다. 즉, 브라우저
-seo-description: 브라우저 창에서만 데이터의 가로/세로 거리를 참조하는 지표입니다. 즉, 브라우저
-seo-title: 브라우저 너비/높이
 solution: Analytics
 title: 브라우저 너비/높이
-topic: 지표
+topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
