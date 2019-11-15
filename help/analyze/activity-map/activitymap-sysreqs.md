@@ -1,13 +1,11 @@
 ---
 description: Activity Map은 다음 웹 브라우저에서 지원됩니다.
-seo-description: Activity Map은 다음 웹 브라우저에서 지원됩니다.
-seo-title: 지원되는 시스템 및 요구 사항
 solution: Analytics
 title: 지원되는 시스템 및 요구 사항
-topic: Activity Map
+topic: Activity map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
