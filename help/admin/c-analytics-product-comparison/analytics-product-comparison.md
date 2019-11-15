@@ -1,12 +1,10 @@
 ---
 description: 분석 작업 공간, 보고 및 분석, 애드혹 분석, 리포트 빌더, 데이터 웨어하우스 및 데이터 워크벤치의 시스템 요구 사항 및 비교
-seo-description: 분석 작업 공간, 보고 및 분석, 애드혹 분석, 리포트 빌더, 데이터 웨어하우스 및 데이터 워크벤치의 시스템 요구 사항 및 비교
-seo-title: Analytics 제품 비교 및 요구 사항
 solution: Analytics
 title: Analytics 제품 비교 및 요구 사항
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -52,7 +50,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> 최대 2개 세그먼트 </td> 
    <td> 제한 없음 </td> 
    <td> 제한 없음(데이터 요청 스택) </td> 
-   <td colname="col06"> 1개 세그먼트라는 사용자 지정 코드에서 변수를 찾습니다. 여러 개의(스택) 세그먼트를 지원합니다. </td> 
+   <td colname="col06"> 1개 세그먼트. 여러 개의(스택) 세그먼트를 지원합니다. </td> 
    <td colname="col6"> 제한 없음 </td> 
   </tr> 
   <tr> 
