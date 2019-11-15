@@ -1,15 +1,13 @@
 ---
 description: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다.
-keywords: 그룹;권한
-seo-description: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다.
-seo-title: 보고서 세트 도구 권한 사용자 지정
+keywords: groups;permissions
 solution: Analytics
-subtopic: 사용자 및 그룹
+subtopic: Users and groups
 title: 보고서 세트 도구 권한 사용자 지정
-topic: 관리 도구
-uuid: 3c95d296-ffd0-4971-9c5f-110dbe042ce
+topic: Admin tools
+uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
