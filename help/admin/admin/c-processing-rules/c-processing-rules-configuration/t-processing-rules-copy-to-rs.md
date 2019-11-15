@@ -1,14 +1,12 @@
 ---
 description: 한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하는 방법을 설명하는 절차입니다.
-seo-description: 한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하는 방법을 설명하는 절차입니다.
-seo-title: 다른 보고서 세트에 처리 규칙 복사
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 다른 보고서 세트에 처리 규칙 복사
-topic: 관리 도구
-uuid: E 6 AA 50 B 9-A 46 B -4332-B 4 E 1-6 DF 0 F 828077 D
+topic: Admin tools
+uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,8 +15,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하는 방법을 설명하는 절차입니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 보고서 세트를 클릭합니다]**.
-1. 보고서 세트를 선택합니다.
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 보고서 세트 선택.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
 
 1. **처리 규칙** 페이지에서 **[!UICONTROL 처리 규칙 복사]탭을 클릭합니다.**
