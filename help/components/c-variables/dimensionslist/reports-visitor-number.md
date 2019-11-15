@@ -1,13 +1,11 @@
 ---
 description: 각 방문자가 사이트를 방문하는 횟수를 추적하여 방문자 충성도를 평가하는 데 도움이 됩니다. 선택한 기간 동안 사이트를 처음 방문하는 방문자 또는 20번째 방문하는 방문자의 방문이 더 많은지 여부를 확인할 수 있습니다.
-seo-description: 각 방문자가 사이트를 방문하는 횟수를 추적하여 방문자 충성도를 평가하는 데 도움이 됩니다. 선택한 기간 동안 사이트를 처음 방문하는 방문자 또는 20번째 방문하는 방문자의 방문이 더 많은지 여부를 확인할 수 있습니다.
-seo-title: 방문 횟수
 solution: Analytics
 title: 방문 횟수
-topic: 보고서
+topic: Reports
 uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
