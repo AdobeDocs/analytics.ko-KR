@@ -1,13 +1,11 @@
 ---
 description: 많은 Adobe 엔지니어링 서비스 참여에 데이터 교환이 포함되며, 이러한 데이터 교환에 FTP가 필요한 경우가 많습니다.
 keywords: ftp;sftp
-seo-description: 많은 Adobe 엔지니어링 서비스 참여에 데이터 교환이 포함되며, 이러한 데이터 교환에 FTP가 필요한 경우가 많습니다.
-seo-title: FTP로 엔지니어링 서비스 참여
 solution: Analytics
 title: FTP로 엔지니어링 서비스 참여
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
