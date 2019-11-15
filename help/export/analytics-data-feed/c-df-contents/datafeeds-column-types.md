@@ -1,14 +1,12 @@
 ---
 description: '이전 열에는 데이터 수집으로 전송된 상태의 데이터가 있습니다. 이후 열에는 처리된 후의 값이 있습니다. '
-keywords: 데이터 피드;작업;이전 열;이후 열;대/소문자 구분
-seo-description: '이전 열에는 데이터 수집으로 전송된 상태의 데이터가 있습니다. 이후 열에는 처리된 후의 값이 있습니다. '
-seo-title: 이전 열과 이후 열
+keywords: Data Feed;job;pre column;post column;case sensitivity
 solution: Analytics
 title: 이전 열과 이후 열
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
