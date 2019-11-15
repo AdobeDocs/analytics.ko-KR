@@ -1,14 +1,12 @@
 ---
 description: '처리 규칙을 효과적으로 사용하려면 데이터 수집 중에 언제 처리 규칙이 적용되는지 이해하는 것이 중요합니다. '
-seo-description: '처리 규칙을 효과적으로 사용하려면 데이터 수집 중에 언제 처리 규칙이 적용되는지 이해하는 것이 중요합니다. '
-seo-title: 처리 순서
 solution: Analytics
-subtopic: 처리 규칙
+subtopic: Processing rules
 title: 처리 순서
-topic: 관리 도구
+topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
