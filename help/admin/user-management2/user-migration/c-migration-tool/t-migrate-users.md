@@ -1,11 +1,9 @@
 ---
 description: 기존의 Analytics 사용자 관리 시스템에서 Admin Console로 사용자를 마이그레이션합니다.
-seo-description: 기존의 Analytics 사용자 관리 시스템에서 Admin Console로 사용자를 마이그레이션합니다.
-seo-title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
 title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -83,4 +81,4 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
    After migrating users, the status under the column Migration Status changes from *`Not Initiated`* to *`Migrated`*.
 
-   If *`Failed`* displays, hover over the icon for a description about why the migration failed.
+   If *`Failed`* displays, hover over the icon for a description about why the migration 
