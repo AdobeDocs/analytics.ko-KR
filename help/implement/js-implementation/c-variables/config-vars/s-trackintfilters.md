@@ -1,11 +1,10 @@
 ---
 description: 동적 변수를 사용하면 사이트의 이미지 요청에 전체 값을 여러 번씩 입력하지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다.
-keywords: Analytics 구현
-seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 전체 값을 여러 번씩 입력하지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다.
+keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
