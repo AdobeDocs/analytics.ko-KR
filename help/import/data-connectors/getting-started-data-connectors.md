@@ -1,10 +1,8 @@
 ---
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
-seo-description: 데이터 커넥터에 로그인;타사 애플리케이션의 추적 데이터를 Analytics로 가져오고, 통합을 추가하고, 데이터 커넥터 콘솔을 추가합니다.
-seo-title: Analytics 데이터 커넥터
 title: Analytics 데이터 커넥터 시작하기
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
