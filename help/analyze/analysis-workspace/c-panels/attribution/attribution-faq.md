@@ -1,9 +1,8 @@
 ---
 title: 기여도 FAQ
-seo-title: 기여도 FAQ
 description: 기여도 분석과 관련하여 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
