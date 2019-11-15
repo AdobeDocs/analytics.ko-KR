@@ -1,13 +1,11 @@
 ---
 description: Adobe Analytics에서 Dynamic Tag Management를 수동으로 배포할 때 AppMeasurement 코드를 삽입합니다.
-keywords: Dynamic Tag Management;연결된 계정;계정 연결;코드 편집;appmeasurement;appmeasurement 코드
-seo-description: Adobe Analytics에서 Dynamic Tag Management를 수동으로 배포할 때 AppMeasurement 코드를 삽입합니다.
-seo-title: 핵심 AppMeasurement 코드 삽입
+keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appmeasurement;appmeasurement code
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 핵심 AppMeasurement 코드 삽입
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
