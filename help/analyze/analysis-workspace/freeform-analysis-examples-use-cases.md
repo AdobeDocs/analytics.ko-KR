@@ -1,14 +1,12 @@
 ---
 description: 데이터 테이블, 세그먼트, Analysis Workspace에 대한 사용 사례 아이디어를 사용하는 방법의 예입니다.
 keywords: Analysis Workspace
-seo-description: 데이터 테이블, 세그먼트, Analysis Workspace에 대한 사용 사례 아이디어를 사용하는 방법의 예입니다.
-seo-title: Analysis Workspace 활용 사례
 solution: Analytics
 title: Analysis Workspace 활용 사례
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
