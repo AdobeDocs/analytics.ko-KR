@@ -1,13 +1,11 @@
 ---
 description: 정의하는 시간 및 파일 형식에 따라 보고서를 전송하도록 예약할 수 있습니다.
-seo-description: 정의하는 시간 및 파일 형식에 따라 보고서를 전송하도록 예약할 수 있습니다.
-seo-title: 데이터 요청 예약
 solution: Analytics
 title: 데이터 요청 예약
-topic: Report Builder
+topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
