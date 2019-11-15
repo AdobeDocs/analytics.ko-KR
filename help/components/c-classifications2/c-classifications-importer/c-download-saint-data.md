@@ -1,14 +1,12 @@
 ---
 description: (선택 사항) 분류를 마케팅 보고서로 가져오기 전에, 분류 데이터 파일을 만드는 데 도움이 되는 템플릿을 다운로드할 수 있습니다. 데이터 파일은 원하는 분류를 열 머리글로 사용한 다음, 적합한 분류 머리글 아래에 보고 데이터 세트를 구성합니다.
-seo-description: (선택 사항) 분류를 마케팅 보고서로 가져오기 전에, 분류 데이터 파일을 만드는 데 도움이 되는 템플릿을 다운로드할 수 있습니다. 데이터 파일은 원하는 분류를 열 머리글로 사용한 다음, 적합한 분류 머리글 아래에 보고 데이터 세트를 구성합니다.
-seo-title: 분류 템플릿
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 분류 템플릿
-topic: 관리 도구
+topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
