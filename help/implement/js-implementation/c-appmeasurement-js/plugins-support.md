@@ -1,15 +1,13 @@
 ---
 description: 새 JavaScript AppMeasurement 버전에서는 플러그인 지원이 변경되었습니다.
-keywords: Analytics 구현;appmeasurement;javascript;플러그인;플러그인
-seo-description: 새 JavaScript AppMeasurement 버전에서는 플러그인 지원이 변경되었습니다.
-seo-title: AppMeasurement 플러그인 지원
+keywords: Analytics Implementation;appmeasurement;javascript;plugin;plug-in
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: AppMeasurement 플러그인 지원
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
