@@ -1,11 +1,9 @@
 ---
 description: 데이터 커넥터 통합 마법사는 데이터 커넥터 통합 프로세스를 안내합니다.
-seo-description: 데이터 커넥터 통합 마법사는 데이터 커넥터 통합 프로세스를 안내합니다.
-seo-title: ' 통합 구성'
 title: ' 통합 구성'
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
