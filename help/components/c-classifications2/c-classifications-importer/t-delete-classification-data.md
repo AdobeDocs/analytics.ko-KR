@@ -1,14 +1,12 @@
 ---
 description: 분류 데이터를 삭제하거나 제거하는 방법을 설명하는 단계입니다.
-seo-description: 분류 데이터를 삭제하거나 제거하는 방법을 설명하는 단계입니다.
-seo-title: 분류 데이터 삭제
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 분류 데이터 삭제
-topic: 관리 도구
+topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
