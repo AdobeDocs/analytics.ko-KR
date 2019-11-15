@@ -1,14 +1,12 @@
 ---
 description: products 변수는 제품 및 제품 카테고리를 추적하는 데 사용됩니다(구매 수량 및 구매 가격도 추적).
-keywords: Analytics 구현;products 변수;제품 보기;성공 이벤트
-seo-description: products 변수는 제품 및 제품 카테고리를 추적하는 데 사용됩니다(구매 수량 및 구매 가격도 추적).
-seo-title: 자세한 제품 보기 페이지
+keywords: Analytics Implementation;products variable;product view;success event
 solution: Analytics
 title: 자세한 제품 보기 페이지
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
