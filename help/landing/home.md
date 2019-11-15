@@ -1,10 +1,8 @@
 ---
 title: Adobe Analytics 기술 설명서 안내서
-seo-title: Adobe Analytics 기술 설명서 및 자조 사용 안내서의 전체 목록
 description: Analytics 사용 안내서 및 리소스
-seo-description: Adobe Analytics 기술 문서, 릴리스 노트 및 자조 사용 안내서의 전체 목록입니다.
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
