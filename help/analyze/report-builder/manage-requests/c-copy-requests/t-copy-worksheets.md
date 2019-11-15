@@ -1,13 +1,11 @@
 ---
 description: 한 스프레드시트를 동일한 통합 문서에 있는 다른 스프레드시트로 복사합니다.
-seo-description: 한 스프레드시트를 동일한 통합 문서에 있는 다른 스프레드시트로 복사합니다.
-seo-title: 워크시트 복사
 solution: Analytics
 title: 워크시트 복사
-topic: Report Builder
+topic: Report builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
