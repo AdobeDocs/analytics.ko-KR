@@ -1,13 +1,11 @@
 ---
 description: 선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동안 웹 사이트 페이지를 본 횟수를 표시하는 트렌드 보고서입니다. 이 보고서를 이용하면 사이트의 전체 페이지 보기 횟수 집계뿐 아니라 사이트의 각 페이지에 대한 페이지 보기 횟수도 추적할 수 있습니다.
-seo-description: 선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동안 웹 사이트 페이지를 본 횟수를 표시하는 트렌드 보고서입니다. 이 보고서를 이용하면 사이트의 전체 페이지 보기 횟수 집계뿐 아니라 사이트의 각 페이지에 대한 페이지 보기 횟수도 추적할 수 있습니다.
-seo-title: 페이지 보기 횟수
 solution: Analytics
 title: 페이지 보기 횟수
-topic: 보고서
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
