@@ -1,14 +1,12 @@
 ---
 description: 다른 방문자 ID 방법이 실패할 경우, Adobe에서는 대체 쿠키를 설정하거나 IP 주소와 사용자 에이전트를 결합하여 방문자를 식별합니다.
-keywords: Analytics 구현
-seo-description: 다른 방문자 ID 방법이 실패할 경우, Adobe에서는 대체 쿠키를 설정하거나 IP 주소와 사용자 에이전트를 결합하여 방문자를 식별합니다.
-seo-title: 대체 ID 방법
+keywords: Analytics Implementation
 solution: Analytics
 title: 대체 ID 방법
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
