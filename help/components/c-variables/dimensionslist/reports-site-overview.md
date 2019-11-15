@@ -1,13 +1,11 @@
 ---
 description: 사이트 지표 > 사이트 개요 보고서는 로그인 시 표시되며 관련 데이터를 즉시 확인하고 이 데이터와 상호 작용할 수 있도록 해줍니다. 레이아웃을 편집하고 대시보드로 저장하고 보다 심층 있는 분석을 위해 데이터를 드릴다운할 수 있습니다.
-seo-description: 사이트 지표 > 사이트 개요 보고서는 로그인 시 표시되며 관련 데이터를 즉시 확인하고 이 데이터와 상호 작용할 수 있도록 해줍니다. 레이아웃을 편집하고 대시보드로 저장하고 보다 심층 있는 분석을 위해 데이터를 드릴다운할 수 있습니다.
-seo-title: 사이트 개요
 solution: Analytics
 title: 사이트 개요
-topic: 보고서
+topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
