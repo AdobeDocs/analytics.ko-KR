@@ -1,10 +1,8 @@
 ---
 title: 솔루션 디자인 문서 만들기
-seo-title: 솔루션 디자인 문서 만들기
 description: 솔루션 디자인 문서가 무엇이고 솔루션 디자인 문서를 조직에서 사용하는 방법을 알아봅니다.
-seo-description: 솔루션 디자인 문서가 무엇이고 솔루션 디자인 문서를 조직에서 사용하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -46,11 +44,11 @@ source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 > [!NOTE] Analytics 커뮤니티의 구성원은 다음 링크가 유용하다고 판단했지만, 그러한 링크는 Adobe가 소유하고 있지 않습니다. 이 참고 사항은 콘텐츠를 볼 때 고려하십시오.
 
-* ObservePoint의 [웹 Analytics 솔루션 디자인을 설정하는 7단계](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)
-* Analytics Demystified의 [디지털 Analytics 프로세스에 대한 프레임워크](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)
-* Numeric Analytics의 [솔루션 디자인 참조는 실제 BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)
-* Antti Koski의 [Adobe Analytics 태그 지정 맵을 만드는 방법](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)
-* Ebiquity의 [솔루션 디자인 문서의 중요성](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)
+* [ObservePoint를 통해 웹 분석 솔루션 디자인을](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) 설정하는 7단계
+* [Analytics의 디지털 분석 프로세스를 위한](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) 프레임워크
+* [솔루션 디자인 참조는 실제로 숫자 분석의](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) BFF입니다.
+* [Antti Koski의 Adobe Analytics 태그 맵을](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) 만드는 방법
+* [솔루션 설계 문서의 중요성](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) 평가
 
 ## 다음 단계
 
