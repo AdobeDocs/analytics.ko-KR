@@ -1,14 +1,12 @@
 ---
 description: 이 참조 테이블은 마케팅 채널 처리 규칙 페이지에서 선택할 수 있는 필드, 옵션 및 히트 속성을 정의합니다.
-seo-description: 이 참조 테이블은 마케팅 채널 처리 규칙 페이지에서 선택할 수 있는 필드, 옵션 및 히트 속성을 정의합니다.
-seo-title: 마케팅 채널 처리 규칙 - 정의
 solution: Analytics
-subtopic: 마케팅 채널
+subtopic: Marketing channels
 title: 마케팅 채널 처리 규칙 - 정의
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
