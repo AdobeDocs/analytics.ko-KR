@@ -1,15 +1,13 @@
 ---
 description: 변수 무시는 하나의 추적 또는 추적 링크 호출에 대한 변수 값을 변경할 수 있도록 해줍니다.
-keywords: Analytics 구현
-seo-description: 변수 무시는 하나의 추적 또는 추적 링크 호출에 대한 변수 값을 변경할 수 있도록 해줍니다.
-seo-title: 변수 무시
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 변수
+subtopic: Variables
 title: 변수 무시
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
