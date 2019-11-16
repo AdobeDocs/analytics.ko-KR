@@ -2,7 +2,7 @@
 title: 모바일 장치용 분석 구현
 description: 'null'
 translation-type: tm+mt
-source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
+source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
 
 ---
 
@@ -21,7 +21,6 @@ source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ## 버전 4 Mobile SDK
 
-
 * [SDK 저장소](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
 
 * [iOS 문서](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
@@ -32,7 +31,6 @@ source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 ## AppMeasurement 3.x
 
 *참고:모바일 장치용 AppMeasurement 3.x SDK는 더 이상 지원되지 않습니다. 그러나 SDK에 대한 설명서는 아래에 명시된 대로 사용할 수 있습니다.*
-
 
 * [iOS 문서](/assets/adobe_mobile_ios_3.x.pdf)
 * [Android 문서](/assets/android_3.x.pdf)
