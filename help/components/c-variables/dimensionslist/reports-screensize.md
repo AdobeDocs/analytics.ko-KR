@@ -1,13 +1,11 @@
 ---
 description: 모바일 장치의 사이트 히트 수를 장치의 화면 크기별로 그룹화합니다. 각 화면 크기, 각 화면 크기를 사용한 사이트 방문자의 수 및 전체 보기의 각 화면 크기 백분율로 보여줍니다. 화면 크기는 화면 크기의 높이 및 너비를 화면 높이 및 화면 너비와 비교하여 보여줍니다.
-seo-description: 모바일 장치의 사이트 히트 수를 장치의 화면 크기별로 그룹화합니다. 각 화면 크기, 각 화면 크기를 사용한 사이트 방문자의 수 및 전체 보기의 각 화면 크기 백분율로 보여줍니다. 화면 크기는 화면 크기의 높이 및 너비를 화면 높이 및 화면 너비와 비교하여 보여줍니다.
-seo-title: 화면 크기
 solution: Analytics
 title: 화면 크기
-topic: 보고서
+topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
