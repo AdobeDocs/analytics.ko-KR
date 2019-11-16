@@ -1,11 +1,9 @@
 ---
 description: Adobe 통합 마법사의 4단계에서 지정할 수 있는 선택적 차원 식별자를 나열합니다.
-seo-description: Adobe 통합 마법사의 4단계에서 지정할 수 있는 선택적 차원 식별자를 나열합니다.
-seo-title: Demandbase 사용자 지정 차원
 title: Demandbase 사용자 지정 차원
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
