@@ -1,11 +1,9 @@
 ---
 description: 계산된 지표를 만드는 데 필요한 단계에 대해 알아봅니다.
-seo-description: 계산된 지표를 만드는 데 필요한 단계에 대해 알아봅니다.
-seo-title: 계산된 지표 워크플로우
 title: 계산된 지표 워크플로우
 uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
