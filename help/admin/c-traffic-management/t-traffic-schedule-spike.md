@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 스파이크 예약 섹션에서 Adobe에 임시 트래픽 스파이크에 대한 경고를 보내면 이것을 처리하도록 적절한 리소스가 할당될 수 있습니다.
 
-트래픽 스파이크를 예약하기 전에 트래픽 증가에 [대한](/help/admin/c-traffic-management/traffic-lead-time.md) 필수 리드 타임에 대한 정보를 참조하십시오.
+트래픽 스파이크를 예약하려면 먼저 [트래픽 증가에 대한 필수 리드 타임](/help/admin/c-traffic-management/traffic-lead-time.md)에 대한 정보를 참조하십시오.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. 보고서 세트 선택.
