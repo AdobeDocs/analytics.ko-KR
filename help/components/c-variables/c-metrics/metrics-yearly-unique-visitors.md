@@ -1,18 +1,16 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 연간 고유 방문자
 solution: Analytics
-title: 연간 고유 방문자
-topic: 지표
-uuid: 80015631-B 100-4 E 47-A 493-E 9 C 10563 F 99 D
+title: 연간 고유 방문자 수
+topic: Metrics
+uuid: 80015631-b100-4e47-a493-e9c10563f99d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 연간 고유 방문자
+# 연간 고유 방문자 수
 
 | 사용 | 설명 |
 |---|---|
