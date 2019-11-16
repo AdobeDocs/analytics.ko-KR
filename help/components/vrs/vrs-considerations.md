@@ -1,17 +1,17 @@
 ---
-description: 가상 보고서 세트를 사용하여 다중 세트 태깅을 바꿀 수 있습니다. 예를 들면 데이터를 두 개의 별도 보고서 세트로 보내지 않고, 한 개의 보고서 세트로 보내고 가상 보고서 세트를 사용하여 액세스할 수 있는 데이터 사용자 수를 제한할 수 있습니다. 하지만 데이터에 대한 액세스는 별도의 보고서 세트가 유익할 수 있는 이유 중 하나입니다. 가상 보고서 세트와 관련하여 구현을 변경하기 전에 다음 사용 사례를 신중하게 고려하십시오.
-keywords: Virtual Report Suite
+description: 가상 보고서 세트와 다중 세트 태깅의 이점은 다양합니다. 귀사에 가장 적합한 제품을 살펴보십시오.
+keywords: Virtual Report Suite,VRS
 solution: Analytics
-title: VRS 및 글로벌/다중 세트 태깅 고려 사항
-topic: Reports and analytics
+title: 가상 보고서 세트 및 다중 세트 태깅 고려 사항
+topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a835e5f4d7569532f220dc3d59f88ee7468a909e
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
 
-# VRS 및 글로벌/다중 세트 태깅 고려 사항
+# 가상 보고서 세트 및 다중 세트 태깅 고려 사항
 
 VRS(가상 보고서 세트)를 사용하면 디지털 속성에서 데이터를 수집하지만 세그먼트가 영구적으로 적용되는 보고서 세트의 데이터를 볼 수 있습니다.
 
