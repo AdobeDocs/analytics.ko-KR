@@ -1,13 +1,11 @@
 ---
 description: 미리 정의한 필터로 경로 보고서를 만드는 방법을 설명합니다.
-seo-description: 미리 정의한 필터로 경로 보고서를 만드는 방법을 설명합니다.
-seo-title: 종속 요청을 추가하여 경로 보고서 필터링
 solution: Analytics
 title: 종속 요청을 추가하여 경로 보고서 필터링
-topic: Report Builder
-uuid: DD 1294 F 8-A 26 B -4254-A 9 F 6-1365 B 2912 ADF
+topic: Report builder
+uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,4 +36,4 @@ Report Builder does not offer these as standalone reports, but you can create th
 
 1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
-   이전 페이지 지표가 이미 선택된 상태로 요청 마법사가 나타납니다. 1. 요청 마법사에서 요청을 계속 세분화하고 요청을 생성합니다.
+   이전 페이지 지표가 이미 선택된 상태로 요청 마법사가 나타납니다. 1.요청 마법사에서 요청을 계속 세분화하고 요청을 생성합니다.
