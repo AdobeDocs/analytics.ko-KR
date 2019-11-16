@@ -1,14 +1,12 @@
 ---
 description: pageName는 읽기 쉽고 직관적인 페이지 식별자와 함께 채워야 합니다.
-keywords: Analytics 구현
-seo-description: pageName는 읽기 쉽고 직관적인 페이지 식별자와 함께 채워야 합니다.
-seo-title: 페이지 이름 지정 전략
+keywords: Analytics Implementation
 solution: Analytics
 title: 페이지 이름 지정 전략
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
