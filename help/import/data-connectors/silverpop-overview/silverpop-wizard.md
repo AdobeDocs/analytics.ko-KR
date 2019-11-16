@@ -1,11 +1,9 @@
 ---
 description: 데이터 커넥터 통합 마법사는 데이터 커넥터 통합 프로세스를 안내합니다.
-seo-description: 데이터 커넥터 통합 마법사는 데이터 커넥터 통합 프로세스를 안내합니다.
-seo-title: Silverpop 통합
 title: Silverpop 통합
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -116,7 +114,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
    <td colname="col3"> <p>이 통합은 파트너 세그먼트 섹션에 표시되는 파트너 정의 세그먼트를 만듭니다. </p> <p>또한 통합에 포함할 기존 보고서 세트 수준 세그먼트를 선택할 수 있습니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> 액세스 요청 </p> </td> 
+   <td colname="col2"> <p>액세스 요청 </p> </td> 
    <td colname="col03"> <p>(3) 데이터 설정 </p> </td> 
    <td colname="col3"> <p> (필수) <span class="uicontrol"> 이 통합을 통해 제품 데이터를</span>다운로드하도록 허용합니다. </p> <p>선택 사항:이 통합을 통해 매출, 주문 및 판매량을 다운로드할 수 있습니다. </p> </td> 
   </tr> 
