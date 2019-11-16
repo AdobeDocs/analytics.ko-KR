@@ -1,11 +1,9 @@
 ---
 description: 페이지에서 변경 사항을 구현하지 않고 처리 규칙을 사용하여 조회수에서 이벤트를 제거/삭제하는 방법을 표시합니다.
-seo-description: 페이지에서 변경 사항을 구현하지 않고 처리 규칙을 사용하여 조회수에서 이벤트를 제거/삭제하는 방법을 표시합니다.
-seo-title: 조회수에서 이벤트 제거
 title: 조회수에서 이벤트 제거
 uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
