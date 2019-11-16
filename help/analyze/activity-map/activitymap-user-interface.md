@@ -1,13 +1,11 @@
 ---
 description: 'Activity Map UI는 두 부분으로 구성되어 있습니다. '
-seo-description: 'Activity Map UI는 두 부분으로 구성되어 있습니다. '
-seo-title: Activity Map 사용자 인터페이스
 solution: Analytics
 title: Activity Map 사용자 인터페이스
-topic: Activity Map
+topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
