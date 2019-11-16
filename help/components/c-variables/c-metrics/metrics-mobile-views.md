@@ -1,13 +1,11 @@
 ---
 description: 모바일 장치를 통해 접속했을 때 페이지를 본 횟수 또는 측정기준이 설정된 횟수입니다. Ad Hoc Analysis 전용입니다.
-seo-description: 모바일 장치를 통해 접속했을 때 페이지를 본 횟수 또는 측정기준이 설정된 횟수입니다. Ad Hoc Analysis 전용입니다.
-seo-title: 모바일 보기 수
 solution: Analytics
 title: 모바일 보기 수
-topic: 지표
+topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
