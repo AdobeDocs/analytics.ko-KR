@@ -1,13 +1,11 @@
 ---
 description: Reports & Analytics에서 사용할 수 있는 사전 정의된 보고서의 정의 및 Analysis Workspace 등의 다른 Analytics 도구에서 사용할 수 있는 측정기준의 정의.
-seo-description: Reports & Analytics에서 사용할 수 있는 사전 정의된 보고서의 정의 및 Analysis Workspace 등의 다른 Analytics 도구에서 사용할 수 있는 측정기준의 정의.
-seo-title: 차원 설명
 solution: Analytics
 title: 차원 설명
-topic: 보고서
+topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
