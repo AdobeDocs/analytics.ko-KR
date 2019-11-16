@@ -1,14 +1,12 @@
 ---
 description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
-seo-description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
-seo-title: 분류 규칙
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 분류 규칙
-topic: 관리 도구
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -307,7 +305,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
-> 이 절차에서는 규칙을 하나 이상의 보고서 세트에 적용해야 합니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/c-classifications2/c-sub-classifications.md)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
+>이 절차에서는 규칙을 하나 이상의 보고서 세트에 적용해야 합니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/c-classifications2/c-sub-classifications.md)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
 
 1. [분류 규칙 세트를 만듭니다](/help/components/c-classifications2/crb/classification-rule-set.md) .
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ t_classification_rule.xml
    **[!UICONTROL 보고서 세트 선택]페이지가 표시됩니다.**
 
    >[!NOTE]
-   보고서 세트는 다음 조건이 충족될 *`only`* 때 이 페이지에 표시됩니다.&gt;
+   보고서 세트는 다음 조건이 충족될 *`only`* 때 이 페이지에 표시됩니다.       &gt;
 
    * [!UICONTROL 관리 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
    (이 전제 조건에 대한 자세한 내용은 분류 *`Variable`* 규칙 [](/help/components/c-classifications2/crb/classification-rule-set.md) 세트에서 이 전제 조건에 대한 설명을 참조하십시오.)
