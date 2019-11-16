@@ -1,14 +1,12 @@
 ---
 description: s_gi() 함수는 보고서 세트 ID로 AppMeasurement 인스턴스를 만들거나 찾는 데 사용됩니다. 내부적으로 AppMeasurement는 생성된 모든 인스턴스를 추적하고 s_gi()는 보고서 세트에 대한 기존 인스턴스가 있으면 이를 반환합니다. 인스턴스가 존재하지 않는 경우 새로운 인스턴스가 생성되어 반환됩니다.
-keywords: Analytics 구현
-seo-description: s_gi() 함수는 보고서 세트 ID로 AppMeasurement 인스턴스를 만들거나 찾는 데 사용됩니다. 내부적으로 AppMeasurement는 생성된 모든 인스턴스를 추적하고 s_gi()는 보고서 세트에 대한 기존 인스턴스가 있으면 이를 반환합니다. 인스턴스가 존재하지 않는 경우 새로운 인스턴스가 생성되어 반환됩니다.
-seo-title: s_gi() 함수
+keywords: Analytics Implementation
 solution: Analytics
 title: s_gi() 함수
-topic: 개발자 및 구현
-uuid: a77de90e-c6 파섹
+topic: Developer and implementation
+uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 s_gi() 함수는 보고서 세트 ID로 AppMeasurement 인스턴스를 만들거나 찾는 데 사용됩니다. 내부적으로 AppMeasurement는 생성된 모든 인스턴스를 추적하고 s_gi()는 보고서 세트에 대한 기존 인스턴스가 있으면 이를 반환합니다. 인스턴스가 존재하지 않는 경우 새로운 인스턴스가 생성되어 반환됩니다.
 
-We recommend calling `s_gi()` before setting variables and making tracking calls throughout your page code. 이는 실수로 s 변수를 덮어쓴 경우 추적 호출을 할 때 올바른 개체가 사용되도록 보장합니다.
+변수를 설정하고 페이지 코드 전반에 대한 추적 호출을 하기 전에 `s_gi()`를 호출하는 것이 좋습니다. 이는 실수로 s 변수를 덮어쓴 경우 추적 호출을 할 때 올바른 개체가 사용되도록 보장합니다.
 
 ## 여러 보고서 세트 사용 {#section_F2F3B76E7AFD4B4B91CDC8BBEB34BBC5}
 
