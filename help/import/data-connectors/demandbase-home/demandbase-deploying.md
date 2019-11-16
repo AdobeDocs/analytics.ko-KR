@@ -1,11 +1,9 @@
 ---
 description: 이 통합 배포는 다음 작업이 필요한 간단한 프로세스입니다.
-seo-description: 이 통합 배포는 다음 작업이 필요한 간단한 프로세스입니다.
-seo-title: 통합 배포
 title: 통합 배포
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
