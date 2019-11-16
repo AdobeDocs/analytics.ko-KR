@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있도록 해주는 유연한 보고 인터페이스를 제공합니다. 대부분의 보고서가 매우 신속히 생성되므로 시간이 초과되거나 성공적으로 생성되지 않는 보고서가 발생할 수 있습니다. 이 섹션에서는 보고서 생성 실패를 방지하는 데 도움이 되기 위해 보고서 생성 속도에 영향을 주는 많은 요인에 대해 설명하고 있습니다. 이 정보를 이해하면 보고서를 더 성공적으로 생성할 수 있도록 구성하는 데 도움이 됩니다.
-keywords: 우수 사례;실패;시간 초과;문제 해결;느림;best practices;failure;timeout;troubleshooting;slow
-seo-description: Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있도록 해주는 유연한 보고 인터페이스를 제공합니다. 대부분의 보고서가 매우 신속히 생성되므로 시간이 초과되거나 성공적으로 생성되지 않는 보고서가 발생할 수 있습니다. 이 섹션에서는 보고서 생성 실패를 방지하는 데 도움이 되기 위해 보고서 생성 속도에 영향을 주는 많은 요인에 대해 설명하고 있습니다. 이 정보를 이해하면 보고서를 더 성공적으로 생성할 수 있도록 구성하는 데 도움이 됩니다.
-seo-title: 보고 우수 사례 및 문제 해결
+keywords: best practices;failure;timeout;troubleshooting;slow
 solution: Analytics
 title: 보고 우수 사례 및 문제 해결
-topic: 보고서
+topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
