@@ -1,13 +1,11 @@
 ---
 description: 웹 사이트 페이지의 계층 구조 레이아웃을 보여주며 hierN 변수에 구성된 순서대로 해당 페이지를 표시합니다. 이 보고서는 계층에 포함시킬 각 페이지에 대해 설정한 올바른 변수 구성을 사용하여 채웁니다. 이 보고서에는 계층 구조에 대해 선택한 지표(고유 방문자 수 등)가 표시됩니다.
-seo-description: 웹 사이트 페이지의 계층 구조 레이아웃을 보여주며 hierN 변수에 구성된 순서대로 해당 페이지를 표시합니다. 이 보고서는 계층에 포함시킬 각 페이지에 대해 설정한 올바른 변수 구성을 사용하여 채웁니다. 이 보고서에는 계층 구조에 대해 선택한 지표(고유 방문자 수 등)가 표시됩니다.
-seo-title: 계층
 solution: Analytics
 title: 계층
-topic: 보고서
+topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
