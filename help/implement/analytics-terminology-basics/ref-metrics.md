@@ -1,14 +1,12 @@
 ---
 description: 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
-keywords: Analytics 구현;지표;트래픽 지표;변환 지표;비디오 지표;소셜 지표;계산된 지표;페이지 보기;방문;고유한 방문자
-seo-description: 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
-seo-title: 지표
+keywords: Analytics Implementation;metrics;traffic metric;conversion metric;video metric;social metric;calculated metric;page view;visit;unique visitor
 solution: Analytics
 title: 지표
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
