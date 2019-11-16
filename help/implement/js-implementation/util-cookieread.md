@@ -1,15 +1,13 @@
 ---
 description: 쿠키에 사용할 값을 가져옵니다.
-keywords: Analytics 구현
-seo-description: 쿠키에 사용할 값을 가져옵니다.
-seo-title: Util.cookieRead
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieRead
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 825a75c6-b804-4bfe-b23a-907113b8bfa6
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
