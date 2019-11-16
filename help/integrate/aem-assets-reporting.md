@@ -1,13 +1,11 @@
 ---
 description: Analytics에서 AEM 자산 보고를 활성화하는 관리 단계입니다.
-seo-description: Analytics에서 AEM 자산 보고를 활성화하는 관리 단계입니다.
-seo-title: AEM Assets 보고
 solution: Analytics
 title: AEM Assets 보고
-topic: 보고서
+topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
