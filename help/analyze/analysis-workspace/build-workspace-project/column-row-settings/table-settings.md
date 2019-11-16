@@ -1,11 +1,9 @@
 ---
 description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
-seo-description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
-seo-title: 행 설정
 title: 행 설정
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
