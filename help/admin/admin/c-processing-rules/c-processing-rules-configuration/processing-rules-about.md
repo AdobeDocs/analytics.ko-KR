@@ -104,4 +104,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 작업은 페이지 변수를 설정하거나, 페이지 변수를 삭제하거나 이벤트를 트리거합니다. 또한 작업은 보고서에 표시할 값을 연결할 수 있습니다. 
 
-For example, you might want to display `category:product` by concatenating two var
+For example, you might want to display `category:product` by concatenating two variables.
