@@ -1,14 +1,12 @@
 ---
 description: 분류 템플릿 파일에 적절한 데이터를 복사한 후 Adobe 데이터 수집 서버에 가져올(다운로드) 수 있습니다.
-seo-description: 분류 템플릿 파일에 적절한 데이터를 복사한 후 Adobe 데이터 수집 서버에 가져올(다운로드) 수 있습니다.
-seo-title: 브라우저 및 FTP 가져오기
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 브라우저 및 FTP 가져오기
-topic: 관리 도구
+topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
