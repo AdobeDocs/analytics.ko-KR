@@ -2,7 +2,7 @@
 title: 모바일 장치용 분석 구현
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 
 ---
 
@@ -10,25 +10,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # 모바일 장치용 분석 구현
 
 ![배너](../../assets/doc_banner_implement.png)
-
-모바일 장치용 Analytics를 구현하려면 다음 SDK 저장소 및 설명서 목록을 참조하십시오.
-
-Experience Platform SDK
-
-
-Experience Platform SDK
-
-Experience Platform SDK 설명서
-
-4.x SDK:
-
-4.x SDK 설명서
-
-3.x SDK 설명서:모바일 장치용 3.x Analytics SDK는 더 이상 지원되지 않지만 다음 문서에 액세스할 수 있습니다.
-
-
-
-
 
 
 * **Adobe Experience Platform Launch:** Adobe Analytics 구현을 위한 표준화된 권장 방법입니다. 각 페이지에 로더 태그를 배치하고 Launch 인터페이스를 사용하여 각 변수가 정의된 방식을 결정합니다.
