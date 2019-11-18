@@ -7,14 +7,14 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: c32f7302fdc30860da6f5a29d98ada53a6a6da20
+source-git-commit: 3cb4a916a083e9397479d53294795136409e15d0
 
 ---
 
 
 # 페이지 변수
 
-페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다. 특정 페이지 변수에 대한 도움말을 보려면 다음 링크 중 하나를 클릭하십시오.
+페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다. 특정 페이지 변수에 대한 도움말을 보려면 다음 목록에서 변수 이름을 클릭합니다.
 
 * [browserHeight](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 * [browserWidth](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
