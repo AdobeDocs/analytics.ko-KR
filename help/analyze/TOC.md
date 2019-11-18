@@ -1,10 +1,10 @@
 ---
-product: Analytics
-audience: 최종 사용자
-user-guide-title: Analytics 분석 안내서
-user-guide-url: /content/help/ko-KR/analytics/analyze/home.html
+product: analytics
+audience: end-user
+user-guide-title: Analytics Analyze Guide
+user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
@@ -80,7 +80,7 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
       + 속성 {#attribution}
          + [속성 개요](analysis-workspace/c-panels/attribution/attribution.md)
          + [속성 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [기여도 FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [기여도 분석 FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [세그먼트 IQ 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -120,6 +120,10 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
    + [Analysis Workspace 성능 최적화](analysis-workspace/optimizing-performance.md)
    + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 제한 사항](analysis-workspace/aw-limitations.md)
+   + [기여도 분석 IQ](analysis-workspace/attribution-iq.md)
+   + [Journey IQ](analysis-workspace/journey-iq.md)
+   + [세그먼트 IQ](analysis-workspace/segment-iq.md)
+   + [가상 분석가](analysis-workspace/journey-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 도움말](report-builder/home.md)
    + [Report Builder의 새로운 기능](report-builder/whats-new-arb.md)
