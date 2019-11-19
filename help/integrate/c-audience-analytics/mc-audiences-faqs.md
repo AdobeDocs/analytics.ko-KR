@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: FAQ
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -80,11 +80,11 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: 이 통합이 Analytics의 차원 또는 세그먼트로 나타납니까?</b> </p> </td> 
-   <td colname="col2"> <p>차원: 대상 ID 및 대상 이름에서 보냅니다. </p> </td> 
+   <td colname="col2"> <p>차원: 대상 ID 및 대상 이름. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 이러한 차원을 Analytics의 어디에서 사용할 수 있습니까?</b> </p> </td> 
-   <td colname="col2"> <p>어디서나 사용할 수 있습니다. 이러한 차원은 Analytics에 수집된 다른 차원과 마찬가지로 취급됩니다. 두 가지 예외가 있습니다. 지금은 데이터가 Data Workbench 또는 Livestream에 없습니다. </p> </td> 
+   <td colname="col2"> <p>어디서나 사용할 수 있습니다. 이러한 차원은 Analytics에 수집된 다른 차원과 마찬가지로 취급됩니다. 한 가지 예외가 있습니다.현재로서는 데이터가 데이터 워크벤치에 있지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q:Analytics에서 들어오는 데이터가 표시되지 않는 이유는 무엇입니까?</b> </p> </td> 
@@ -108,7 +108,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 이 통합을 위해 추가 서버 호출에 대한 비용이 Analytics에 청구됩니까?</b> </p> </td> 
-   <td colname="col2"> <p>아니요. AAM 대상은 Analytics의 히트 서버측에 통합됩니다. 이 경우 Analytics에 대한 추가 서버 호출이 발생하지 않습니다(기본 또는 보조). </p> </td> 
+   <td colname="col2"> <p>아니오. AAM 대상은 Analytics의 히트 서버측에 통합됩니다. 이 경우 Analytics에 대한 추가 서버 호출이 발생하지 않습니다(기본 또는 보조). </p> </td> 
   </tr> 
  </tbody> 
 </table>
