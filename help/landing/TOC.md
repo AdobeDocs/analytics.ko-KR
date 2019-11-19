@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 모두
-user-guide-title: Analytics 설명서
-user-guide-url: /content/help/ko-KR/analytics/landing/home.html
+audience: all
+user-guide-title: Analytics Documentation
+user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: e95673ff669b395ce942d6a0ccd644221c3d9381
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 * [통합 안내서](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
 * [미디어 분석 가이드](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [데이터 워크벤치 안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+* [고객 여정 분석](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
 
 * [설명서 업데이트](doc-updates.md)
 * [릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
