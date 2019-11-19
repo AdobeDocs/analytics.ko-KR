@@ -6,7 +6,7 @@ title: 전환 변수(eVar)
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -29,14 +29,14 @@ eVar는 방문 기준이며 쿠키와 유사한 기능을 수행할 수 있습�
 
 eVar이 방문자에 대한 값으로 설정될 때 Adobe는 값이 만료될 때까지 해당 값을 자동으로 기억합니다. eVar 값이 활성일 때 방문자가 발견하는 성공 이벤트는 eVar 값으로 카운트됩니다.
 
-> [!NOTE] 단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용할 수 있는 경우 [](/help/implement/js-implementation/c-variables/page-variables.md)목록 변수(list vars)를 구현하는 것이 좋습니다.
+> [!NOTE] 단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용할 수 있는 경우 [](/help/implement/js-implementation/page-variables/listvariable.md)목록 변수(list vars)를 구현하는 것이 좋습니다.
 
 변수에 대한 자세한 내용은 다음을 참조하십시오.
 
 * [이 도움말의](/help/implement/js-implementation/c-variables/sc-variables.md) Analytics 구현 및 보고에 대한 변수
 * [변수 - 변수가 보고에 사용되는 방법](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)
-* [캠페인 변수](/help/implement/js-implementation/c-variables/page-variables.md)
-* [products 변수](/help/implement/js-implementation/c-variables/page-variables.md)
+* [페이지 변수](/help/implement/js-implementation/page-variables/page-variables.md)
+* [캠페인 변수](/help/implement/js-implementation/page-variables/campaign.md)
+* [products 변수](/help/implement/js-implementation/page-variables/products.md)
 * 모바일 SDK 설명서의 [제품 변수](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html)
 
