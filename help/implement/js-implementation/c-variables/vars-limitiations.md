@@ -7,7 +7,7 @@ title: 변수와 제한 사항
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!NOTE]
 >
->가장 일반적인 Analytics 변수를 자세히 살펴보려면 [구성 변수](/help/implement/js-implementation/c-variables/configuration-variables.md) 및 [페이지 변수](/help/implement/js-implementation/c-variables/page-variables.md)를 참조하십시오.
+>가장 일반적인 Analytics 변수를 자세히 살펴보려면 [구성 변수](/help/implement/js-implementation/c-variables/configuration-variables.md) 및 [페이지 변수](/help/implement/js-implementation/page-variables/page-variables.md)를 참조하십시오.
 
 다음 표에는 [!DNL Analytics] 변수에 대한 요약 정보가 나와 있습니다. 
 
