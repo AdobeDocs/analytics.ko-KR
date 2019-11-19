@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -46,13 +46,13 @@ events.xml
 
 기본적으로, 성공 이벤트는 *카운터* 이벤트로 구성됩니다. 카운터 이벤트는 성공 이벤트가 설정되는 횟수(x+1)를 카운트합니다. 이벤트는 *숫자* 이벤트로도 구성됩니다. 숫자 이벤트를 사용하면 숫자를 증분으로 지정할 수 있습니다(내부 검색에서 반환되는 결과 수와 같이, 동적 또는 임의의 값을 카운트할 때 필요할 수 있기 때문에).
 
-최종 이벤트 유형인 *통화*&#x200B;를 사용하면 추가되는 금액을 정의할 수 있습니다(숫자 이벤트와 유사). 하지만 통화는 보고서에서 통화로 표시되며,  *`currencyCode`*&#x200B;값과 보고서 세트에 대한 기본 통화 설정을 기반으로 통화 전환이 가능합니다. 숫자 및 통화 이벤트 사용에 대한 자세한 내용은 [제품](/help/implement/js-implementation/c-variables/page-variables.md)을 참조하십시오.
+최종 이벤트 유형인 *통화*&#x200B;를 사용하면 추가되는 금액을 정의할 수 있습니다(숫자 이벤트와 유사). 하지만 통화는 보고서에서 통화로 표시되며,  *`currencyCode`*&#x200B;값과 보고서 세트에 대한 기본 통화 설정을 기반으로 통화 전환이 가능합니다. 숫자 및 통화 이벤트 사용에 대한 자세한 내용은 [제품](/help/implement/js-implementation/page-variables/page-variables.md)을 참조하십시오.
 
-**변수 구성** {#section_9195286C34C54B02B2598E2B856492C3}
+**변수 구성**
 
-[!UICONTROL s.events] 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. 새로운 사용자 지정 이벤트(event1- [event100 또는 event1000](/help/implement/js-implementation/c-variables/page-variables.md))는 관리 콘솔을 사용하여 모든 관리 수준 사용자가 활성화할 수 있습니다.
+`s.events` 변수는 모든 구현에 대해 기본적으로 활성화되어 있습니다. 7개의 사전 구성된 전환 이벤트는 모든 새 보고서 세트에 대해 자동으로 활성화됩니다. 새로운 사용자 지정 이벤트(event1- [event100 또는 event1000](/help/implement/js-implementation/page-variables/page-variables.md))는 관리 콘솔을 사용하여 모든 관리 수준 사용자가 활성화할 수 있습니다.
 
-**가능한 값** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
+**가능한 값**
 
 다음은 events 변수에 가능한 값의 목록입니다.
 
@@ -67,9 +67,9 @@ events.xml
 | purchase | 구매(주문) 완료 | 주문 |
 | event1~event1000(포인트 제품의 경우 event100) | 사용자 지정 이벤트 | 사용자 지정 이벤트 |
 
-**구문 및 예** {#section_45A159DF00114066B8551DDEB15E084C}
+**구문 및 예**
 
-카운터 이벤트는 [!UICONTROL s.events] 변수에서, 쉼표로 구분된 목록(여러 이벤트를 전달해야 하는 경우)으로 원하는 이벤트를 삽입하여 설정합니다.
+카운터 이벤트는 `s.events` 변수에서, 쉼표로 구분된 목록(여러 이벤트를 전달해야 하는 경우)으로 원하는 이벤트를 삽입하여 설정합니다.
 
 ```js
 s.events="scAdd"
@@ -100,19 +100,19 @@ s.events="scRemove=3,event6,event2=4"
 지정된 정수 값이 있는 카운터 이벤트를 구현하면 이벤트가 이미지 요청 내에서 여러 번 실행되는 것처럼 취급됩니다. 카운터 이벤트에서는 소수를 허용하지 않으므로, 이 기능이 필요할 경우에는 숫자 이벤트를 대신 사용하는 것이 좋습니다.
 보통 숫자 및 통화 이벤트가 [!UICONTROL s.products] 변수에서 숫자 값(예: 24.99)을 받기는 하지만, 이 이벤트들은 [!UICONTROL s.events] 변수에 포함되어야 합니다. 이렇게 하면 특정 숫자 및 통화 값을 개별 제품 항목에 연결할 수 있습니다.
 
-**이벤트 정리** {#section_A89488EF4471405AAFC4D6DD05E77621}
+**이벤트 정리**
 
 기본적으로, 이벤트는 사이트에서 이벤트가 설정될 때마다 카운트됩니다.
 
-자세한 내용은 [이벤트 정리](/help/implement/js-implementation/event-serialization.md)를 참조하십시오.
+다음 [이벤트 정리](/help/implement/js-implementation/event-serialization.md)를 참조하십시오.
 
-**구문** {#section_8559D42D3F344AF3BB3C0125F78C4989}
+**구문**
 
 ```js
 s.events="event1:3167fhjkah"
 ```
 
-**예** {#section_7B5B5728A59648ADB3E2548CDAD2C9D4}
+**예**
 
 ```js
 s.events="scAdd:003717174"
