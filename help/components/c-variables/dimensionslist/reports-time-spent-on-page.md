@@ -2,9 +2,9 @@
 description: 방문자가 페이지에서 보낸 시간을 표시합니다.
 solution: Analytics
 title: 페이지에서 보낸 시간
-topic: 보고서
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -40,4 +40,4 @@ Adobe Analytics는 Analytics 보고서에서 보낸 시간을 확인하는 여�
 
 이 차원은 히트 기반이며, 분류로 사용되는 경우 보다 의미 있는 데이터를 제공할 수 있습니다. 이 차원을 [방문](reports-time-spent-per-visit.md)기반 차원인 방문당 체류 시간과 비교합니다.
 
-![체류 시간](assets/time-spent1.png)
+![체류 시간](/help/components/c-variables/c-metrics/assets/time-spent1.png)
