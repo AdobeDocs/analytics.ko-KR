@@ -38,7 +38,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 | currencyCode | 매출이 [!DNL Analytics] 데이터베이스에 들어갈 때 매출에 적용할 전환율을 결정합니다. [!DNL Analytics] 데이터베이스는 모든 금액을 선택한 통화로 저장합니다. 해당 통화가 *`currencyCode`*&#x200B;에 지정된 통화와 동일하거나 *`currencyCode`*&#x200B;가 비어 있는 경우 전환이 적용되지 않습니다. |
 | dc | 데이터를 전송 받을 데이터 센터를 설정할 수 있게 해줍니다. |
 | doPlugins | *`doPlugins`*&#x200B;는 *`s_doPlugins`* 함수에 대한 참조입니다. 이 함수를 사용하면 *`s_doPlugins`* 함수를 JavaScript 파일 내의 적절한 위치에서 호출할 수 있습니다. |
-| dynamicAccountList | 데이터를 전송 받을 보고서 세트를 동적으로 선택합니다. The *`dynamicAccountList`* 변수에는 대상 보고서 세트를 결정하는 데 사용할 규칙이 포함됩니다. |
+| dynamicAccountList | 데이터를 전송 받을 보고서 세트를 동적으로 선택합니다. 다음 *`dynamicAccountList`* 변수에는 대상 보고서 세트를 결정하는 데 사용할 규칙이 포함됩니다. |
 | dynamicAccountMatch | DOM 개체를 사용하여 *`dynamicAccountList`* 의 모든 규칙이 적용되는 URL 섹션을 검색합니다. 이 변수는 *`dynamicAccountSelection`*&#x200B;이 ‘True’로 설정된 경우에만 유효합니다.  |
 | dynamicAccountSelection | 각 페이지의 URL을 기반으로 보고서 세트를 동적으로 선택할 수 있도록 해줍니다. |
 | dynamicVariablePrefix | 동적으로 채워야 하는 변수에 배포 시 플래그가 지정될 수 있도록 해줍니다. 쿠키, 요청 헤더 및 이미지 쿼리 문자열 매개 변수는 동적으로 채울 수 있습니다. |
@@ -69,14 +69,14 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 | pageType | 404 [페이지가 없습니다] 오류 페이지를 지정하는 데에만 사용됩니다. 여기에는 "errorPage", 이 하나의 값만 가능합니다. 404 오류 페이지에서는 *`pageName`*&#x200B;변수를 채우지 말아야 합니다.  |
 | pageUrl | 페이지의 URL이 [!DNL Analytics]에 보고할 URL과 다른 경우가 드물게 나타납니다. 이러한 상황을 수용하기 위해 [!DNL Analytics]는 페이지의 실제 URL을 무시하는 *`pageURL`* 변수를 제공합니다. |
 | plugins | Netscape 및 Mozilla 기반 브라우저에서 브라우저에 설치된 플러그인을 나열합니다. |
-| products | 구매 수량 및 구매 가격뿐만 아니라 제품 및 제품 카테고리를 추적하는 데에도 사용됩니다. The *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니다. 또한 *`products`* 변수가 [!UICONTROL 머천다이징] eVar는 물론, 사용자 지정 숫자 및 통화 이벤트를 추적할 수 있습니다. |
+| products | 구매 수량 및 구매 가격뿐만 아니라 제품 및 제품 카테고리를 추적하는 데에도 사용됩니다. 다음 *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니다. 또한 *`products`* 변수가 [!UICONTROL 머천다이징] eVar는 물론, 사용자 지정 숫자 및 통화 이벤트를 추적할 수 있습니다. |
 | propN | [!DNL Analytics][!UICONTROL 트래픽 모듈] 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다. [!UICONTROL props]는 경로 지정 보고서용으로 또는 상관 관계 보고서에서 카운터(페이지 보기가 전송되는 횟수 계산)로 사용할 수 있습니다. |
 | purchaseID | [!DNL Analytics]에서 한 주문이 여러 번 카운트되지 않도록 하는 데 사용됩니다. 사이트에서 구매 이벤트가 사용될 때마다 *`purchaseID`* 변수를 사용해야 합니다. |
 | referrer | 유실된 레퍼러 정보를 복원합니다. |
 | resolution | 웹 페이지를 보는 방문자의 모니터 해상도를 표시합니다. |
 | server | 웹 페이지의 도메인(방문자가 도착한 도메인 표시)이나, 페이지를 제공하는 서버(로드 밸런싱 빠른 참조용)를 보여 줍니다. |
 | state | 사이트 방문자가 거주하는 시/도를 캡처합니다. |
-| trackDownloadLinks | 사이트의 다운로드 가능 파일에 대한 링크를 추적하려면 추적하려면 *`trackDownloadLinks`*&#x200B;를 'true'로 설정합니다. *`trackDownloadLinks`*&#x200B;가 'true'이면 *`linkDownloadFileTypes`*&#x200B;는 다운로드 가능한 파일에 해당하는 링크를 결정합니다. |
+| trackDownloadLinks | 사이트의 다운로드 가능 파일에 대한 링크를  추적하려면 *`trackDownloadLinks`*&#x200B;를 'true'로 설정합니다. *`trackDownloadLinks`*&#x200B;가 'true'이면 *`linkDownloadFileTypes`*&#x200B;는 다운로드 가능한 파일에 해당하는 링크를 결정합니다. |
 | trackExternalLinks | *`trackExternalLinks`*&#x200B;가 'true'이면 *`linkInternalFilters`* 및 *`linkExternalFilters`*&#x200B;는 클릭한 링크가 종료 링크인지 여부를 결정합니다. |
 | trackingServer | 자사 쿠키 구현에서 이미지 요청 및 쿠키를 쓰는 도메인을 지정하는 경우에만 사용됩니다. 비보안 페이지에 사용됩니다.  |
 | trackingServerSecure | 자사 쿠키 구현에서 이미지 요청 및 쿠키를 쓰는 도메인을 지정하는 경우에만 사용됩니다. 보안 페이지에 사용됩니다.  |
