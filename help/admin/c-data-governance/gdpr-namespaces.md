@@ -3,7 +3,7 @@ description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스�
 title: 네임스페이스
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 * "type" 필드: 대부분의 Adobe Analytics 요청에 대해 "analytics" 값이 들어 있습니다.
 * "value" 필드: Analytics가 각 보고서 세트의 연관된 네임스페이스 변수에서 검색해야 하는 ID가 들어 있습니다.
 
-자세한 내용은 [Experience Cloud 개인 정보 보호 API 설명서](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)를 참조하십시오.
-
-<!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
+자세한 내용은 [Experience Cloud 개인 정보 보호 API 설명서](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)를 참조하십시오.
 
 ## 쿠키 ID
 
