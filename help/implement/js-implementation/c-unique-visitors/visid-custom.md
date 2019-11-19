@@ -6,7 +6,7 @@ title: 사용자 지정 방문자 ID
 topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 메서드 | 설명 |
 |---|---|
-| [s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) 변수 | 브라우저에서 JavaScript를 사용하거나, 다른 AppMeasurement 라이브러리를 사용 중일 경우, 데이터 수집 변수에 방문자 ID를 설정할 수 있습니다. |
+| [s.visitorID](/help/implement/js-implementation/page-variables/page-variables.md) 변수 | 브라우저에서 JavaScript를 사용하거나, 다른 AppMeasurement 라이브러리를 사용 중일 경우, 데이터 수집 변수에 방문자 ID를 설정할 수 있습니다. |
 | 이미지 요청 시 쿼리 문자열 매개 변수 | 이 기능을 통해 [!UICONTROL 방문자 ID]를 하드 코딩된 이미지 요청에서 [!UICONTROL vid 쿼리 문자열] 매개 변수를 통해 Adobe로 전달할 수 있습니다. |
 | 데이터 삽입 API | JavaScript를 허용하지 않는 무선 프로토콜을 사용하는 장치에서는 `<visitorid/>` XML 요소가 들어 있는 XML 게시물을 해당 서버로부터 Adobe 수집 서버로 보낼 수 있습니다. |
 | URL 다시 쓰기 및 VISTA | 일부 배포 아키텍처에서는 쿠키를 설정할 수 없는 경우 세션 상태를 유지할 수 있도록 URL 다시 쓰기를 지원합니다. 이와 같은 경우, Adobe 엔지니어링 서비스에서는 페이지의 URL에서 세션 값을 찾는 [!DNL VISTA] 규칙을 구현한 다음 형식을 지정하여 [!UICONTROL visid] 값에 삽입할 수 있습니다. |
