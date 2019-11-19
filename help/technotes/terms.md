@@ -2,7 +2,7 @@
 title: Adobe Analytics에서 사용되는 용어
 description: Adobe Analytics 용어집, 사용되는 일반 용어 정의
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** 바운스:단일 히트로 구성된 방문입니다. 구성 [요소](/help/components/c-variables/c-metrics/metrics-bounces.md) 사용 안내서의 바운스 수를 참조하십시오. 단일 액세스를 참조하십시오.
 * **** 계산된 지표:보고에 사용할 기존 지표, 통계 함수 및 수식의 조합을 허용합니다. 구성 [요소 사용 안내서의 계산된 지표를](/help/components/c-calcmetrics/cm-overview.md) 참조하십시오.
 * **** 캠페인:참조:
-   * 추적 코드 차원을 채우는 캠페인 변수입니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/c-variables/page-variables.md) 참조하십시오.
+   * 추적 코드 차원을 채우는 캠페인 변수입니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
    * 추적 코드 차원의 기본 분류;자동으로 모든 보고서 세트에 대해 만들어집니다.
    * Adobe Experience Cloud에 포함된 Adobe Campaign Adobe.com에 [대한 자세한 내용](https://www.adobe.com/marketing/campaign.html).
 * **** 채널:참조:
-   * 사이트 섹션 차원을 채우는 채널 변수. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/c-variables/page-variables.md) 참조하십시오.
+   * 사이트 섹션 차원을 채우는 채널 변수. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
    * 마케팅 채널 - 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소입니다. 구성 [요소](/help/components/c-marketing-channels/c-overview.md) 사용 안내서의 마케팅 채널을 참조하십시오.
 * **** 분류:차원 값을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 [요소](/help/components/c-classifications2/c-classifications.md) 사용 안내서의 분류를 참조하십시오.
 * **** Clickmap:더 이상 사용되지 않습니다. 사이트에서 가장 많이 클릭한 영역을 보여주는 레거시 브라우저 플러그인입니다. 이 도구는 Activity Map을 위해 사용이 중단되었습니다.
@@ -62,11 +62,11 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** 인사이트:참조:
    * 데이터 워크벤치의 이전 이름입니다.
    * 사용자 지정 트래픽 변수의 내역 이름인 사용자 지정 인사이트.
-* **** KPI:주요 성능 표시기의 약어. 비즈니스가 사이트의 성과를 이해하는 데 도움이 되는 지표. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 서로 다른 KPI가 있습니다. 구현 [사용 안내서에서 솔루션 디자인 문서](/help/implement/prepare/solution-design.md) 만들기를 참조하십시오.
+* **** KPI:주요 성능 표시기의 약어. 비즈니스가 사이트의 성과를 이해하는 데 도움이 되는 지표. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 다양한 KPI가 있습니다. 구현 [사용 안내서에서 솔루션 디자인 문서](/help/implement/prepare/solution-design.md) 만들기를 참조하십시오.
 * **** 지연:데이터가 수집되는 시점과 보고서에서 사용할 수 있는 시점 사이의 지연. 보고서 세트의 일반적인 지연은 30-90분입니다. 기술 [정보](/help/technotes/latency.md) 사용 안내서의 지연을 참조하십시오.
 * **** 시작:Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch에 대한 개요입니다. Adobe [Experience](https://docs.adobe.com/content/help/en/launch/using/overview.html) Platform Launch 사용 안내서의 개요를 참조하십시오.
-* **** 목록 Prop:일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 Prop이 될 수 있습니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/c-variables/page-variables.md) 참조하십시오.
-* **** 목록 변수:전환 변수와 별도의 변수. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 전환 변수와 유사한 변수 값이 방문 시 보존됩니다. 조직에서 사용할 수 있는 목록 변수는 세 개뿐입니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/c-variables/page-variables.md) 참조하십시오.
+* **** 목록 Prop:일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 Prop이 될 수 있습니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
+* **** 목록 변수:전환 변수와 별도의 변수. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 전환 변수와 유사한 변수 값이 방문 시 보존됩니다. 조직에서 사용할 수 있는 목록 변수는 세 개뿐입니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
 * **** 로그인 회사:조직에서 사용하는 보고서 세트 컬렉션입니다. 일부 조직에는 조직의 다른 부분에 적용되는 여러 로그인 회사가 있습니다.
 * **** 마케팅 채널:Adobe Analytics의 기능으로서 히트가 사이트에 도착한 방법별로 히트를 분류합니다. 히트를 분류하는 데 사용되는 로직은 마케팅 채널 처리 규칙을 사용하여 사용자 지정할 수 있습니다. 구성 [요소 사용 안내서의 마케팅](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 채널 시작을 참조하십시오.
 * **** 지표:수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 횟수, 방문 횟수 및 매출액과 같은 숫자가 포함됩니다. 차원은 일반적으로 해당 차원입니다.
