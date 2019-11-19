@@ -104,7 +104,7 @@ s.events="scRemove=3,event6,event2=4"
 
 기본적으로, 이벤트는 사이트에서 이벤트가 설정될 때마다 카운트됩니다.
 
-다음 [이벤트 정리](/help/implement/js-implementation/event-serialization.md)를 참조하십시오.
+자세한 내용은 [이벤트 정리](/help/implement/js-implementation/event-serialization.md)를 참조하십시오.
 
 **구문**
 
