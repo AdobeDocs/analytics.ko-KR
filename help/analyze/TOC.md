@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
+source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
 
 ---
 
@@ -84,7 +84,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [세그먼트 IQ 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [임시 페이지](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [세그먼트 IQ 활용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 프로젝트 조정 및 공유 {#curate-share}
@@ -94,11 +93,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
-   + 속성 IQ {#attribution-iq}
-      + [임시 페이지](analysis-workspace/attribution-iq/attribution.md)
-      + [임시 페이지](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [임시 페이지](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [임시 페이지](analysis-workspace/attribution-iq/attribution-faq.md)
    + 가상 분석가 {#virtual-analyst}
       + [가상 분석가](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 예외 항목 탐지 {#anomaly-detection}
@@ -121,7 +115,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
    + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 제한 사항](analysis-workspace/aw-limitations.md)
    + [기여도 분석 IQ](analysis-workspace/attribution-iq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
    + [세그먼트 IQ](analysis-workspace/segment-iq.md)
    + [가상 분석가](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
