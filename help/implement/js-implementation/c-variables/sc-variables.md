@@ -7,7 +7,7 @@ title: 변수 개요
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션에는 AppMeasurement에서 지원되는 변수가 나열되어 있습니다.
 
-페이지 변수에 대한 자세한 내용을 보려면 [여기](/help/implement/js-implementation/c-variables/page-variables.md)로 이동하십시오.
+페이지 변수에 대한 자세한 내용을 보려면 [여기](/help/implement/js-implementation/page-variables/page-variables.md)로 이동하십시오.
 구성 변수에 대한 자세한 내용을 보려면 [여기](/help/implement/js-implementation/c-variables/configuration-variables.md)로 이동하십시오.
 
 
-## 변수를 설정하는 방법 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## 변수를 설정하는 방법
 
 AppMeasurement를 사용하려면 처음 추적 함수 *`t()`*&#x200B;를 호출하기 전에 모든 구성 변수를 설정해야 합니다. *`t()`* 호출 뒤에 구성 변수를 설정하면 예기치 않은 결과가 발생할 수 있습니다.
 
