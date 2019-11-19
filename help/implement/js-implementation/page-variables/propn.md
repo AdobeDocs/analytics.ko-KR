@@ -7,14 +7,14 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
 
 # propN
 
-속성([!UICONTROL prop]) 변수는 [!UICONTROL 트래픽 모듈] 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다.
+속성(`prop`) 변수는 트래픽 모듈 내에서 사용자 지정 보고서를 작성하는 데 사용됩니다.
 
 <!-- 
 
@@ -28,7 +28,7 @@ props 변수는 경로 지정 보고서용으로 또는 상관 관계 보고서�
 |---|---|---|---|
 | 100바이트 | c1 - c75 | 사용자 지정 트래픽 | "" |
 
-**구문 및 가능한 값** {#section_4D3013AF2979426B9589CA2BB9D254CD}
+**구문 및 가능한 값**
 
 ```js
 s.propN="value"
@@ -36,7 +36,7 @@ s.propN="value"
 
 [!UICONTROL 속성] 변수에는 표준 변수 제한 외에 제한이 없습니다.
 
-**예** {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+**예**
 
 ```js
 s.prop2="editorial" 
@@ -46,6 +46,6 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-**구성 설정** {#section_25FDEB6ECA8242A2A44EE540C083078A}
+**구성 설정**
 
-[!UICONTROL prop] 변수의 [!UICONTROL 방문], [!UICONTROL 방문자] 및 [!UICONTROL 경로] 지표 표시에 대해서는 Adobe 고객 지원 센터에 문의하십시오.
+ 변수의 방문, 방문자 및 `prop`경로 지표 표시에 대해서는 Adobe 고객 지원 센터에 문의하십시오.
