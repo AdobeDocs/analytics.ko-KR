@@ -6,7 +6,7 @@ title: Data Sources 작동 방식
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -32,4 +32,4 @@ FTP 파일 전송을 사용하여 데이터 파일을 데이터 소스로 가져
 
 Adobe는 애플리케이션을 데이터 소스에 프로그래밍 방식으로 연결할 수 있는 데이터 소스 API를 제공합니다. 그러면 중개 FTP 서버가 필요 없이 HTTP, SOAP 및 REST를 통해 데이터를 전송할 수 있습니다. 
 
-[데이터 소스 API 문서](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api)를 참조하십시오.
+[데이터 소스 API 문서](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api)를 참조하십시오.
