@@ -5,7 +5,7 @@ title: 추적 코드
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **일반 속성**
 
-* 이 보고서는 웹 사이트에 구현된 [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) 변수에서 직접 데이터를 참조합니다.
+* 이 보고서는 웹 사이트에 구현된 [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) 변수에서 직접 데이터를 참조합니다.
 * 이 보고서가 기반으로 하는 변수는 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)입니다. 즉, 페이지 보기를 넘어서까지 지속되며 지정된 기간 내의 지표와 연결됩니다.
 * 보고서의 기본 지표는 매출입니다. [!UICONTROL 관리 도구]의 [!UICONTROL 보고서 세트 관리자]에서 이 기본값을 변경할 수 있습니다. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
