@@ -2,7 +2,7 @@
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -20,7 +20,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | RDC 유형 | 데이터 수집 센터 |
 |---------------------|-------------------|
 | 기본값 | 산 호세, 버지니아, 런던, 싱가포르, 홍콩, 시드니, 암스테르담 |
-| 중국만 | 베이징 |
 
 Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. 요청 URL에 종단점이 표시되면 이를 확인할 수 있습니다.
 
