@@ -1,13 +1,13 @@
 ---
-title: 모바일 장치용 분석 구현
+title: Adobe Analytics 구현
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
+source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
 
 
-# 모바일 장치용 분석 구현
+# Adobe Analytics 구현
 
 ![배너](../../assets/doc_banner_implement.png)
 
@@ -16,7 +16,7 @@ source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 * **Dynamic Tag Management:** Launch의 전임자입니다. DTM은 유사한 인터페이스를 사용하여 Analytics를 구현하지만 더 이상 업데이트되지 않으며 그만큼 유연하지는 않습니다. Adobe에서는 Launch를 사용하여 Adobe Analytics를 구현할 것을 권장합니다.
 * **기존 JavaScript:** Adobe Analytics를 구현하는 과거의 수동 방법입니다. 구현에서 사용되는 변수 및 설정을 간략하게 설명합니다. 이는 사용자 지정 코드가 있는 규칙을 사용하는 Launch 구현에 유용합니다.
 
-## 주요 Analytics 가져오기 문서
+## 주요 분석 구현 아티클
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Experience Platform Launch에서 속성 만들기](implement-with-launch/create-analytics-property.md)
