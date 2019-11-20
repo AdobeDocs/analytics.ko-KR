@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 모두
-user-guide-title: Analytics 기술 노트
-user-guide-url: /content/help/ko-KR/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
+audience: all
+user-guide-title: Analytics tech notes
+user-guide-url: /content/help/en/analytics/technotes/home.html
+translation-type: tm+mt
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -34,7 +34,6 @@ source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
    + [환경 특성](rdc/rdc-environment-characteristics.md)
    + [SSL 공인 라이선스](rdc/ssl-cert-licensing.md)
-   + [중국 RDC](rdc/rdc-china.md)
 + [사용된 용어(글로서리)](terms.md)
 + [로그인 문제 해결](troubleshoot-login.md)
 + [로그아웃 문제 해결](troubleshoot-sessions.md)
