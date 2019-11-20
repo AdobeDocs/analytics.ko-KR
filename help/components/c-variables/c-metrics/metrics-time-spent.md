@@ -4,7 +4,7 @@ solution: Analytics
 title: 체류 시간
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. 히트 수준 '체류 시간' 지표의 경우 분모는 시퀀스입니다. 시퀀스는 주어진 변수가 같은 값(설정되었는지, 확산되었는지 또는 지속되었는지에 상관없이)을 포함하는 연속된 조회 세트입니다. '스프레드 포워드'는 체류 시간을 계산하기 위한 목적으로 페이지 보기(즉, 후속 링크 이벤트 간) 간 prop의 지속성을 나타냅니다.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * '체류 시간'을 알 수 없으므로 바운스 및 종료 히트도 분모에서 제거됩니다.
 
 ## FAQ
 
-**1분기:모든 '체류 시간' 지표를 어떤 차원에도 적용할 수 있습니까?** A:모든 차원에 적용할 수 있는 '체류 시간' 지표는 다음과 같습니다.
+**1분기:모든 '체류 시간' 지표를 어떤 차원에도 적용할 수 있습니까?**
+
+A:모든 차원에 적용할 수 있는 '체류 시간' 지표는 다음과 같습니다.
 
 * [!UICONTROL 총 체류 시간(초)]
 
@@ -62,16 +64,22 @@ The **denominator** is not available as a separate metric in Adobe Analytics. �
 
 * [!UICONTROL 사이트에서 보낸] 평균 시간(초)
 
-**2분기:다른 차원의 분류에서 가장 많이 사용되는 체류 시간 차원은 무엇입니까?** A:페이지에서 [!UICONTROL 보낸 시간 - 세부] 차원은 히트 수준 차원입니다. 이것을 다른 차원으로 분류하면 분류 차원도 있었던 조회가 유지되는 시간(초)을 알 수 있습니다.
+**2분기:다른 차원의 분류에서 가장 많이 사용되는 체류 시간 차원은 무엇입니까?**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. 이것을 다른 차원으로 분류하면 분류 차원도 있었던 조회가 유지되는 시간(초)을 알 수 있습니다.
 아래 예에서 검색어 "분류"는 방문자가 해당 용어에 대해 반환되는 컨텐츠를 읽는 데 시간을 소비하고 있음을 나타내는 54초, 59초 등의 히트 시간과 연관되어 있습니다.
 
 ![](assets/time-spent1.png)
 
-**3분기:페이지에서 보낸 시간 차원에 대해 적절한[!UICONTROL 지표는 세부적으로]?** A:모든 지표. 차원은 이벤트가 발생한 정확한 히트에서 보낸 시간을 표시합니다. 높은 체류 시간은 이벤트가 발생한 페이지(적중)에서 방문자가 오래 머물렀음을 의미합니다.
+**3분기:페이지에서 보낸 시간 차원에 대해 적절한[!UICONTROL 지표는 세부적으로]?**
+
+A:모든 지표. 차원은 이벤트가 발생한 정확한 히트에서 보낸 시간을 표시합니다. 높은 체류 시간은 이벤트가 발생한 페이지(적중)에서 방문자가 오래 머물렀음을 의미합니다.
 
 ![](assets/time-spent2.png)
 
-**4분기:사이트에서[!UICONTROL 보낸 평균 시간은 방문당]체류[!UICONTROL 시간과 어떻게 다릅니까]?** A:차이는 지표의 분모입니다.
+**4분기:사이트에서[!UICONTROL 보낸 평균 시간은 방문당]체류[!UICONTROL 시간과 어떻게 다릅니까]?**
+
+A:차이는 지표의 분모입니다.
 
 * [!UICONTROL 사이트에서] 보낸 평균 시간은 차원 항목을 포함하는 시퀀스를 사용합니다.
 
