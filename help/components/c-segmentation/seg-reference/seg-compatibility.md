@@ -5,7 +5,7 @@ title: Data Warehouse 세그먼트 기능
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
 
 ---
 
@@ -36,7 +36,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td colname="col1"> <b>AND 및 OR은 제한없이 조합할 수 있음</b> </td> 
    <td colname="col2"> 지원됨 </td> 
-   <td colname="col3"> 일부 제한 적용 </td> 
+   <td colname="col3"> 일부 제한 적용. 아래 *참고*를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>중첩 컨테이너</b> </td> 
@@ -94,3 +94,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
+*참고:데이터 웨어하우스는 사용할 때`exclusion`또는`without`컨테이너를 사용하는 모든 경우를 지원하지 않습니다`AND/OR`. 이러한 조합을 사용할 때는 데이터 웨어하우스에서`A AND NOT B`다시 작성할 수 있는 세그먼트(또는 이 특성을&#x200B;****포함시키고 이 특성을&#x200B;****제외)만 지원됩니다.*
