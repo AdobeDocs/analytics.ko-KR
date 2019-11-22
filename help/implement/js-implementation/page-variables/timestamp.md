@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # timestamp
 
 이 변수를 사용하면 다른 플랫폼용 AppMeasurement 라이브러리와 유사한 히트의 타임스탬프를 사용자 지정할 수 있습니다.
+
 
 <!-- 
 
