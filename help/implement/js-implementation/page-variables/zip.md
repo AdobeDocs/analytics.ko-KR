@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,13 +16,14 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 
 변수  및  은(는) 전환 변수입니다.
 
+
 <!-- 
 
 zip.xml
 
  -->
 
-이벤트를 캡처한다는 점은 eVar와 비슷하지만 지속되지 않는다는 점은 eVar와 다릅니다. The *`zip`* 및 *`state`* 변수는 즉시 만료되는 eVar와 같습니다.
+이벤트를 캡처한다는 점은 eVar와 비슷하지만 지속되지 않는다는 점은 eVar와 다릅니다. 다음 *`zip`* 및 *`state`* 변수는 즉시 만료되는 eVar와 같습니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
