@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 # trackingServer
 
  변수는 자사 쿠키 구현에서 이미지 요청 및 쿠키를 쓰는 도메인을 지정하는 데 사용됩니다.
+
 
 <!-- 
 
