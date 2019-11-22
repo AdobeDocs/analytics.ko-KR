@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics는 단일 수준 및 여러 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
-seo-description: Adobe Analytics는 단일 수준 및 여러 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
-seo-title: 하위 분류 정보
 solution: Analytics
-subtopic: 분류
+subtopic: Classifications
 title: 하위 분류 정보
-topic: 관리 도구
-uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
+topic: Admin tools
+uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ c_single-level_classifications.xml
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
- 데이터 파일에 대한 자세한 내용은 [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+ 데이터 파일에 대한 자세한 내용은 [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +52,7 @@ c_multiple-level_classifications.xml
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**상위 분류:**&#x200B;상위 분류는 하위 분류와 연관된 모든 분류입니다. 분류는 상위 및 하위 분류 모두가 될 수 있습니다. 최상위 수준의 상위 분류는 단일 수준 분류에 해당합니다 [단일 수준 분류](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**상위 분류:**&#x200B;상위 분류는 하위 분류와 연관된 모든 분류입니다. 분류는 상위 및 하위 분류 모두가 될 수 있습니다. 최상위 수준의 상위 분류는 단일 수준 분류에 해당합니다 [단일 수준 분류](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **하위 분류:**&#x200B;하위 분류는 변수 대신 상위로 다른 분류를 가지는 모든 분류입니다. 하위 분류는 상위 분류에 대한 추가 정보를 제공합니다. 예를 들어 [!UICONTROL 캠페인] 분류는 캠페인 소유자 하위 분류를 가질 수 있습니다. 또한 [!UICONTROL 숫자] 분류는 분류 보고서에서 지표로 기능합니다.
 
@@ -62,7 +60,7 @@ c_multiple-level_classifications.xml
 
 `<parent_name>^<child_name>`
 
-데이터 파일 형식에 대한 자세한 내용은 분류 데이터 [파일을 참조하십시오](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+데이터 파일 형식에 대한 자세한 내용은 분류 데이터 [파일을 참조하십시오](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 예:
 
@@ -91,7 +89,7 @@ c_classifications_example.xml
 
 ## 제품 분류 - 단일 파일 {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| 키 | 제품 이름 | 제품 세부 사항 | 성별 | 크기 | 코드 | CODE&amp;Hat;COLOR |
+| 키 | 제품 이름 | 제품 세부 사항 | 성별 | 크기 | 코드 | CODE&amp;Amp;Hat;COLOR |
 |---|---|---|---|---|---|---|
 | 410390013 | 폴로-SS | 남성용 폴로 셔츠, 반팔(M,01) | M | M | 01 | 스톤색 |
 | 410390014 | 폴로-SS | 남성용 폴로 셔츠, 반팔(L,03) | M | L | 03 | 자주색 |
@@ -107,7 +105,7 @@ c_classifications_example.xml
 
 ## 제품 분류 - 다중 파일(파일 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| 키 | 코드 | CODE&amp;Hat;COLOR |
+| 키 | 코드 | CODE&amp;Amp;Hat;COLOR |
 |---|---|---|
 | * | 01 | 스톤색 |
 | * | 03 | 자주색 |
