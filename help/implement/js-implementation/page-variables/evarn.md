@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # eVarN
 
 [!UICONTROL eVar] 변수는 사용자 지정 보고서를 작성하는 데 사용됩니다.
+
 
 <!-- 
 
