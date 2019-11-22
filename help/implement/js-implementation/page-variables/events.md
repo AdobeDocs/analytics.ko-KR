@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # 이벤트
 
  변수는 일반적인 장바구니 성공 이벤트와 사용자 지정 성공 이벤트를 기록하는 데 사용됩니다.
+
 
 <!-- 
 
