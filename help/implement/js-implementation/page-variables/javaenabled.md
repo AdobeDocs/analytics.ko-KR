@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # javaEnabled
 
  변수는 브라우저에서 Java가 활성화되어 있는지 여부를 가리킵니다.
+
 
 <!-- 
 
