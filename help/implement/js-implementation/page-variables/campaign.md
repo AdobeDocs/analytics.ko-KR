@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # campaign
 
  변수는 사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별합니다. 이 변수의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다.
+https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/browserheight.html
 
 <!-- 
 
