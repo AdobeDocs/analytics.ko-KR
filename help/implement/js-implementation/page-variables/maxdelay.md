@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # maxDelay
 
 s.maxDelay 변수는 DFA 호스트를 접속할 때의 시간 초과 제한 시간을 결정하기 위해 Genesis DFA 통합에서 주로 사용합니다. Adobe가 변수에 지정된 시간 설정 내에 DFA 서버의 응답을 받지 못하면 연결이 끊기고 데이터가 정상적으로 처리됩니다. 각 페이지에서의 DFA 응답 시간에 관심이 있다면 이 변수를 구현하십시오. 최적의 시간 초과 제한 시간을 결정하려면 이 값으로 실험해 보는 것이 좋습니다.
+
 
 <!-- 
 
