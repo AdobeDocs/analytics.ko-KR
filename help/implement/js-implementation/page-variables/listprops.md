@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # List Props
 
 목록 prop은 변수로 전달되는 값의 목록을 구분 기호로 구분한 후 개별 라인 항목으로 보고하는 것입니다. 목록 prop은 일반적으로 확인란 또는 라디오 단추와 같이 사용자가 선택 가능한 값이 포함된 페이지에 구현됩니다. 여러 이미지 요청을 보내지 않고 변수에서 여러 값을 정의하려는 경우 유용합니다.
+
 
 <!-- 
 
