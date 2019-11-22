@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # connectionType
 
  변수는 Internet Explorer에서 브라우저가 LAN 또는 모뎀 연결에 대해 구성되어 있는지 여부를 나타냅니다.
+
 
 <!-- 
 
