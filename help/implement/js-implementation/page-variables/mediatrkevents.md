@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
 # media.trackEvents
 
  변수는 미디어 히트와 함께 전송해야 하는 이벤트를 식별합니다.
+
 
 <!-- 
 
