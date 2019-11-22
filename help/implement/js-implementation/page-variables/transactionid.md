@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # transactionID
 
 [!UICONTROL 통합 데이터 소스는 트랜잭션 ID를 사용하여 오프라인 데이터를 온라인 트랜잭션(예: 온라인에서 생성된 리드 또는 구매)에 연결합니다.]
+
 
 <!-- 
 
