@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # 목록 변수
 
 List Var라고도 합니다. 목록 Prop과 마찬가지로 목록 변수는 같은 이미지 요청에서 여러 값을 사용할 수 있도록 허용합니다. 변수가 정의된 이미지 요청을 넘어서까지 지속된다는 점에서 eVar와도 비슷하게 작동합니다. 이러한 변수를 사용하여 제품 목록, 위시리스트, 검색 세분화 또는 디스플레이 광고 목록과 같은 여러 요소 사이의 인과 관계를 단일 페이지로 볼 수 있습니다.
+
 
 <!-- 
 
