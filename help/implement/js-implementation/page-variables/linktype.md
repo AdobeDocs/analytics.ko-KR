@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # linkType
 
  변수는 링크 이름 또는 URL이 표시되는 보고서(사용자 지정, 다운로드 또는 종료 링크)를 결정하는 링크 추적에 사용되는 선택 변수입니다.
+
 
 <!-- 
 
