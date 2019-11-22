@@ -7,7 +7,7 @@ title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 # products
 
  변수는 제품 및 제품 카테고리를 추적하는 데 사용됩니다(구매 수량 및 구매 가격도 추적). 제품은 일반적으로 장바구니 이벤트나 이벤트와 연결하여 설정됩니다.
+
 
 <!-- 
 
