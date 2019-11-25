@@ -3,7 +3,7 @@ title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 811a5d8c8a79d6522173aa1ef77ea9a0af9f8c80
 
 ---
 
@@ -20,7 +20,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 날짜 | 설명 |
 |---|---|
+| 2019년 11월 21일 | 고객 여정 분석을 위한 [새로운 설명서 세트](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
 | 2019년 9월 28일 | Javascript 구현을 위한 [구성 변수에 대한 새 아티클](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
+| 2019년 9월 12일 | Journey IQ에 대한 [새로운 설명서:크로스 디바이스 분석](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
 | 2019년 8월 28일 | Analytics용 [점진적 웹 앱(PWA)에 대한 새 문서](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
 | 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/timestamp-optional.md)에 대한 설명 |
