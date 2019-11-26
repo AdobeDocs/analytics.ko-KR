@@ -1,10 +1,10 @@
 ---
-product: Analytics
-audience: 최종 사용자
-user-guide-title: Analytics 구성 요소 안내서
-user-guide-url: /content/help/ko-KR/analytics/components/home.html
-translation-type: ht
-source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
+product: analytics
+audience: end-user
+user-guide-title: Analytics Components Guide
+user-guide-url: /content/help/en/analytics/components/home.html
+translation-type: tm+mt
+source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
 
@@ -332,6 +332,7 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
    + [채널 및 규칙 정보](c-marketing-channels/c-channels-rules.md)
    + [자동 설정](c-marketing-channels/c-channel-autosetup.md)
    + [마케팅 채널 관리](c-marketing-channels/c-channels.md)
+   + [내부(세션 새로 고침) 채널](c-marketing-channels/session-refresh.md)
    + [마케팅 채널의 처리 규칙](c-marketing-channels/c-rules.md)
    + [마케팅 채널 처리 규칙 만들기](c-marketing-channels/t-rules.md)
    + [마케팅 채널 처리 규칙 - 정의](c-marketing-channels/r-channel-rule-definitions.md)
