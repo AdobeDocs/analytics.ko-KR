@@ -1,10 +1,10 @@
 ---
-product: Analytics
-audience: 관리
-user-guide-title: Analytics 관리 안내서
-user-guide-url: /content/help/ko-KR/analytics/admin/home.html
+product: analytics
+audience: admin
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [공동 브랜딩](company/co-branding-admin.md)
    + [보고서 세트 숨기기](company/c-hide-report-suites.md)
    + [보안 관리자](company/security-manager.md)
+   + ['IP 로그인 제한 적용'의 사용 종료](company/login-restrictions-eol.md)
 + 보고서 세트 관리 {#manage-report-suites}
    + [보고서 세트 관리자](c-manage-report-suites/report-suites-admin.md)
    + [롤업 및 글로벌 보고서 세트](c-manage-report-suites/rollup-report-suite.md)
@@ -161,7 +162,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [이메일 사용자](user-management2/t-email-users.md)
 + 데이터 거버넌스 {#data-governance}
    + [Adobe Analytics 및 GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics 및 CPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)
    + [FAQ](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics 데이터 개인 정보 보호 워크플로우](c-data-governance/an-gdpr-workflow.md)
    + [보고서 세트의 데이터 거버넌스 설정 보기/관리](c-data-governance/gdpr-view-settings.md)
@@ -172,9 +173,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [레이블 지정 우수 사례](c-data-governance/gdpr-analytics-ids.md)
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
-   + [데이터 개인 정보 및 데이터 커넥터(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [데이터 개인 정보 보호 및 Data Connectors(Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [데이터 개인 정보 용어](c-data-governance/gdpr-terminology.md)
-   + [개인 정보 보고 변수](c-data-governance/consent-variables.md)
+   + [개인 정보 보호 보고 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
    + [서버 호출 사용량 개요](c-server-call-usage/overage-overview.md)
    + [현재 서버 호출 사용량 보기](c-server-call-usage/server-call-usage-dashboard.md)
