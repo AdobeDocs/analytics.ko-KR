@@ -2,7 +2,7 @@
 title: 내부(세션 새로 고침) 채널
 description: 내부(세션 새로 고침) 채널에 대해 읽어보십시오.
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ### 시나리오 5:긴 시작 페이지 로드 시간
 
-방문자가 컨텐츠가 많이 사용되는 페이지 A에 도달하고 Adobe Analytics 코드는 페이지의 하단에 있습니다. 모든 템플릿(Adobe Analytics 이미지 요청 포함)을 로드할 수 있으려면 먼저 방문자가 페이지 B를 클릭합니다.페이지 B가 Adobe Analytics 이미지 요청을 실행합니다. 페이지 A의 이미지 요청이 로드되지 않았으므로 두 번째 페이지는 Adobe Analytics에서 방문의 첫 번째 히트로 나타나고 페이지 A는 레퍼러입니다. 방문은 세션 새로 고침으로 분류됩니다.
+방문자가 컨텐츠가 많은 페이지 A에 도달하고 Adobe Analytics 코드는 페이지 하단에 있습니다. 모든 컨텐츠(Adobe Analytics 이미지 요청 포함)를 로드하기 전에 방문자가 페이지 B를 클릭합니다.페이지 B가 Adobe Analytics 이미지 요청을 실행합니다. 페이지 A의 이미지 요청이 로드되지 않았으므로 두 번째 페이지는 Adobe Analytics에서 방문의 첫 번째 히트로 나타나고 페이지 A는 레퍼러입니다. 방문은 세션 새로 고침으로 분류됩니다.
 
 ### 시나리오 6:mid-site 쿠키 지우기
 
