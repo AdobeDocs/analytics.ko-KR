@@ -6,7 +6,7 @@ title: Analytics 구현에 대한 FAQ
 topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c3bdd39808041b2e716d3e6bbdcfbf23c37b7a24
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>성능 - 인터넷 연결, 프록시, 방화벽 또는 Adobe에서의 서비스 중단으로 인한 외부 Adobe JavaScript 로드 실패가 성능에 영향을 줄 수 있습니까? </p> </td> 
-   <td colname="col3"> <p>아닙니다. JavaScript 파일은 Adobe 서버에서 호스트되지 않으므로 Adobe 중단은 JavaScript 실행에 영향을 주지 않습니다. Dynamic Tag Management가 적용되는 경우, JavaScript 파일은 Akamai에 의해 호스트되거나, 고객이 결정한 서버 위치에서 호스트됩니다. </p> <p><i>Dynamic Tag Management를 사용하면 웹 사이트 성능이 저하됩니까?</i>(<a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html">Dynamic Tag Management FAQ</a>)를 참조하십시오. </p> <p>또한, Akamai의 CDN에 의존하는 것이 불안할 경우, 자신의 핵심 Dynamic Tag Management 파일을 호스트할 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html">포함 코드 및 호스트 옵션</a>을 참조하십시오 . </p> </td> 
+   <td colname="col3"> <p>아니오. JavaScript 파일은 Adobe 서버에서 호스트되지 않으므로 Adobe 중단은 JavaScript 실행에 영향을 주지 않습니다. Dynamic Tag Management가 적용되는 경우, JavaScript 파일은 Akamai에 의해 호스트되거나, 고객이 결정한 서버 위치에서 호스트됩니다. </p> <p><i>Dynamic Tag Management를 사용하면 웹 사이트 성능이 저하됩니까?</i>(<a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html">Dynamic Tag Management FAQ</a>)를 참조하십시오. </p> <p>또한, Akamai의 CDN에 의존하는 것이 불안할 경우, 자신의 핵심 Dynamic Tag Management 파일을 호스트할 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html">포함 코드 및 호스트 옵션</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>성능 - 외부 Adobe JavaScript의 로드로 성능이 저하될 수 있습니까? </p> </td> 
@@ -79,7 +79,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>성능 - Adobe의 JavaScript 이벤트가 시스템 동작이나 기능에 영향을 줄 수 있습니까? </p> </td> 
-   <td colname="col3"> <p>아닙니다. 앞의 성능 답변을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>아니오. 앞의 성능 답변을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> 자체적으로 정의한 조건을 기반으로 수집한 데이터를 변경하는 방법은 무엇입니까? </td> 
@@ -87,7 +87,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td> s_code 파일의 최신 버전은 무엇입니까? </td> 
-   <td> 이 섹션에는 웹 및 모바일 플랫폼에서의 [!DNL AppMeasurement] 라이브러리에 대한 릴리스 기록이 들어 있습니다. 각 라이브러리의 최신 버전은 Reports &amp; Analytics &gt; 관리 도구 &gt; 코드 관리자에서 다운로드할 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [자세히...] </a> </td> 
+   <td> This section contains a release history for <code>AppMeasurement</code> libraries across web and mobile platforms. 각 라이브러리의 최신 버전은 Reports &amp; Analytics &gt; 관리 도구 &gt; 코드 관리자에서 다운로드할 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [자세히...] </a> </td> 
   </tr> 
   <tr> 
    <td> s_code 파일은 어떻게 디버깅합니까? </td> 
@@ -149,10 +149,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 하트비트 비디오 추적은 어떻게 구현합니까? | [이 섹션](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)에는 사용자의 플랫폼을 위한 비디오 하트비트 SDK 및 개발자 안내서를 다운로드하는 방법이 들어 있습니다. SDK를 다운로드할 때에는 docs 폴더에 있는 개발자 안내서도 다운로드하십시오. 비디오 하트비트에 대한 구체적인 구현 지침이 들어 있습니다. |
 | 쿠키를 올바른 하위 도메인에 추가하려면 어떻게 합니까? | cookieDomainPeriods 변수는 페이지 URL의 도메인에서 점의 수를 파악하여 Analytics 쿠키 s_cc 및 s_sq가 설정되는 도메인을 결정합니다. 이 변수는 일부 플러그인에서 플러그인의 쿠키를 설정할 올바른 도메인을 결정할 때 사용하기도 합니다. See [Configuration Variables](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
 | 추적 서버 - 추적 서버는 어떻게 올바로 채웁니까? | 데이터를 Adobe Analytics 서버에 보내도록 구현을 구성할 때에는 올바른 위치에 보내야 합니다. 그렇게 하지 않으면 방문자 계산이 인플레이션되거나 데이터가 손실이 발생합니다. [자세히...](https://helpx.adobe.com/analytics/kb/determining-data-center.html) |
-| 성능 - 인터넷 연결, 프록시, 방화벽 또는 Adobe에서의 서비스 중단으로 인한 외부 Adobe JavaScript 로드 실패가 성능에 영향을 줄 수 있습니까? | 아닙니다. JavaScript 파일은 Adobe 서버에서 호스트되지 않으므로 Adobe 중단은 JavaScript 실행에 영향을 주지 않습니다. |
+| 성능 - 인터넷 연결, 프록시, 방화벽 또는 Adobe에서의 서비스 중단으로 인한 외부 Adobe JavaScript 로드 실패가 성능에 영향을 줄 수 있습니까? | 아니오. JavaScript 파일은 Adobe 서버에서 호스트되지 않으므로 Adobe 중단은 JavaScript 실행에 영향을 주지 않습니다. |
 | 성능 - 외부 Adobe JavaScript의 로드로 성능이 저하될 수 있습니까? | JavaScript 파일은 처음에 로드된 후 방문자의 브라우저에 캐싱되며 일반적으로 세션당 한 번 이상 다운로드되지 않습니다. 이 파일은 사이트의 모든 페이지에서 사용되더라도 각 페이지에서 다운로드되지 않습니다. 대부분의 웹 사이트에서 사용자는 평균적으로 세션당 여러 번 페이지를 보기 때문에 여러 번 사용되는 JavaScript를 이 파일로 전송하면 다운로드되는 전체 데이터가 줄어들 수 있습니다. <br>AppMeasurement 압축용 JavaScript: Adobe의 JavaScript 클라이언트의 페이지 용량(크기)이 걱정되는 경우에는, GZIP을 사용한 파일 압축을 고려해 보는 것이 좋습니다. GZIP은 모든 주요 브라우저에서 지원되며, JavaScript 압축보다 나은 성능을 제공하여 코어 `s_code.js` JavaScript 파일을 압축 및 압축 해제할 수 있도록 해줍니다. |
 | 성능 - 데이터를 브라우저에서 Adobe 서비스로 보내면 성능이 저하될 수 있습니까? | Adobe JavaScript 파일은 HTML 페이지 내에 이미지 개체를 만들며, 그렇게 되면 브라우저가 Adobe 서버의 이미지 개체를 요청합니다. Adobe 서버가 느려지거나 응답을 하지 않으면, 이미지가 반환되거나, 시간 초과가 발생할 때까지 해당 요청을 처리하는 스레드가 지연됩니다. 브라우저는 여러 스레드로 이미지를 처리하고, Adobe 중단이 페이지 로드 시간에 미치는 영향은 매우 작으므로, 다른 스레드가 계속 작동하는 동안 한 스레드를 연결 중입니다. |
-| 성능 - Adobe의 JavaScript 이벤트가 시스템 동작이나 기능에 영향을 줄 수 있습니까? | 아닙니다. 앞의 성능 답변을 참조하십시오. |
+| 성능 - Adobe의 JavaScript 이벤트가 시스템 동작이나 기능에 영향을 줄 수 있습니까? | 아니오. 앞의 성능 답변을 참조하십시오. |
 | 자체적으로 정의한 조건을 기반으로 수집한 데이터를 변경하는 방법은 무엇입니까? | 처리 규칙을 사용하여 보고에 전송한 대로 데이터 컬렉션을 간소화하고 컨텐츠를 관리합니다.  ([자세히...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
 | s_code 파일의 최신 버전은 무엇입니까? | 이 섹션에는 웹 및 모바일 플랫폼에서의 AppMeasurement 라이브러리에 대한 릴리스 기록이 들어 있습니다. 각 라이브러리의 최신 버전은 Analytics &gt; 관리 &gt; 코드 관리자에서 다운로드할 수 있습니다. [자세히...](/help/implement/appmeasurement-release-notes/c-release-notes-mjs.md) |
 | s_code 파일은 어떻게 디버깅합니까? | Experience Cloud Debugger는 특정 페이지에서 수집되는 데이터를 볼 수 있도록 Adobe에서 제공하는 무료 도구입니다. [자세히...](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) |
