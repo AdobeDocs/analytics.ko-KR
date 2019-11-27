@@ -3,7 +3,7 @@ description: 여러 요청에 대한 지표 편집 기능을 사용하면 기존
 title: 여러 요청에 대한 지표 편집
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 지표를 바꾸려면 다음을 수행하십시오.
 
-1. Excel에서 하나 이상의 요청을 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 지표 편집을 선택합니다]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Excel에서 하나 이상의 요청을 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 지표 편집을 선택합니다]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. **[!UICONTROL 지표 바꾸기를 선택합니다]**.
 
@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 지표를 제거하려면 다음을 수행하십시오.
 
-1. Excel에서 하나 이상의 요청을 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 지표 편집을 선택합니다]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Excel에서 하나 이상의 요청을 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 지표 편집을 선택합니다]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Remove Metric(s)]**.
 
