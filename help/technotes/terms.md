@@ -2,7 +2,7 @@
 title: Adobe Analytics에서 사용되는 용어
 description: Adobe Analytics 용어집, 사용되는 일반 용어 정의
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** Activity Map:사이트에서 가장 많이 클릭한 영역을 표시하는 브라우저 플러그인입니다. 분석 [사용자 안내서의](/help/analyze/activity-map/activity-map.md) Activity Map을 참조하십시오.
 * **** 관리 콘솔:참조:
    * Adobe Analytics의 보고서 세트 설정이 관리되는 기존 관리 도구. 이전 버전의 Adobe Analytics에서는 사용자 권한도 여기에서 관리되었습니다. 관리 [사용](/help/admin/admin/c-admin-tools.md) 안내서의 관리 도구를 참조하십시오.
-   * 제품 액세스가 프로비저닝되고 사용자 권한이 관리되는 Adobe 관리 콘솔입니다. 관리 [사용](/help/admin/admin-console/home.md) 안내서의 관리 콘솔을 참조하십시오.
+   * 제품 액세스가 프로비저닝되고 사용자 권한이 관리되는 Adobe 관리 콘솔입니다. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** 할당:전환 변수가 방문 중에 두 개 이상의 값을 발견하는 경우, 변수의 할당 설정에 따라 보존되는 값이 결정됩니다. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** 예외 항목:통계적 모델링을 사용하여 데이터에서 예상치 못한 트렌드를 자동으로 찾습니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상치 않은 범위를 파악합니다. 분석 [사용자 안내서의](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 예외 항목 감지를 참조하십시오.
 * **** AppMeasurement:데이터를 수집하고 Adobe로 전송하는 데 사용되는 코드 라이브러리입니다. 구현 [사용](/help/implement/home.md) 안내서의 홈 페이지를 참조하십시오.
@@ -43,7 +43,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** 고객 지원 담당자:Adobe 고객 지원 센터와 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience [Cloud 기술 자료에서 고객 지원](https://helpx.adobe.com/experience-cloud/supported-users.html) 담당자를 참조하십시오.
 * **** 데이터 수집 서버:데이터를 받고 처리하는 Adobe 소유 서버 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
 * **** 데이터 커넥터:제3자가 Adobe Analytics에 데이터 업로드를 자동화할 수 있는 완벽한 개발 솔루션입니다. 해당 타사 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. 대부분의 데이터 커넥터는 Data Sources에서 사용되는 유사한 워크플로우를 사용합니다. 가져오기 사용 안내서의 데이터 커넥터를 참조하십시오.
-* **** 데이터 피드:모든 히트를 행과 변수로 나열하는 원시 데이터 내보내기. Adobe Analytics 데이터를 타사 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 [사용 안내서의 데이터 피드를](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 참조하십시오.
+* **** 데이터 피드:모든 히트를 행과 변수로 나열하는 원시 데이터 내보내기. Adobe Analytics 데이터를 타사 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 [사용 안내서의 데이터 피드를](/help/export/analytics-data-feed/data-feed-overview.md) 참조하십시오.
 * **** 데이터 소스:사용자가 파일의 데이터를 Adobe Analytics로 업로드할 수 있습니다. 파일은 일반적으로 FTP 사이트에서 가져옵니다. 가져오기 [사용 안내서의](/help/import/c-data-sources/datasrc-home.md) 데이터 소스를 참조하십시오.
 * **** 데이터 웨어하우스:더 큰 보고서를 요청할 수 있는 Adobe Analytics의 기능입니다. 내보내기 [사용 안내서의](/help/export/data-warehouse/data-warehouse.md) 데이터 웨어하우스를 참조하십시오.
 * **** 차원:텍스트와 같은 변수 값을 포함하는 구성 요소 유형입니다. 예: 페이지 이름, 추적 코드 또는 참조 도메인. 지표는 일반적으로 해당 지표입니다.
@@ -62,7 +62,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** 인사이트:참조:
    * 데이터 워크벤치의 이전 이름입니다.
    * 사용자 지정 트래픽 변수의 내역 이름인 사용자 지정 인사이트.
-* **** KPI:주요 성능 표시기의 약어. 비즈니스가 사이트의 성과를 이해하는 데 도움이 되는 지표. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 다양한 KPI가 있습니다. 구현 [사용 안내서에서 솔루션 디자인 문서](/help/implement/prepare/solution-design.md) 만들기를 참조하십시오.
+* **** KPI:주요 성능 표시기의 약어. 비즈니스가 사이트의 성과를 이해하는 데 도움이 되는 지표. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 서로 다른 KPI가 있습니다. 구현 [사용 안내서에서 솔루션 디자인 문서](/help/implement/prepare/solution-design.md) 만들기를 참조하십시오.
 * **** 지연:데이터가 수집되는 시점과 보고서에서 사용할 수 있는 시점 사이의 지연. 보고서 세트의 일반적인 지연은 30-90분입니다. 기술 [정보](/help/technotes/latency.md) 사용 안내서의 지연을 참조하십시오.
 * **** 시작:Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch에 대한 개요입니다. Adobe [Experience](https://docs.adobe.com/content/help/en/launch/using/overview.html) Platform Launch 사용 안내서의 개요를 참조하십시오.
 * **** 목록 Prop:일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 Prop이 될 수 있습니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
