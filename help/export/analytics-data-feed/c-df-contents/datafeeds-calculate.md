@@ -6,121 +6,65 @@ title: 지표 계산
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# 지표 계산
+# 데이터 피드를 사용하여 일반적인 지표 계산
 
 데이터 피드를 사용한 일반 지표 계산 방법을 설명합니다.
 
-<!--Meike, I commented out this heading because it contains no content, and I'm troubleshooting a dita error-Bob
-## Pre vs. Post column {#section_19967AF2FD9D44D6A8EC30F77E71F2ED}
--->
+> [!IMPORTANT] 일반적으로 Adobe Analytics에서 제외된 히트는 데이터 피드에 포함됩니다. 원시 데이터의 쿼리에서 제외된 히트를 제거하는 `exclude_hit > 0` 데 사용합니다. 데이터 소스 데이터도 데이터 피드에 포함됩니다. 데이터 소스를 제외하려면 모든 행을 제외하십시오 `hit_source = 5,7,8,9`.
 
-## 보트 {#section_06753B95800F47668AAF52E7227F27C8}
+## 페이지 보기 횟수
 
-보트는 보고서 세트에 대해 정의된 [보트 규칙](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html)에 따라 데이터 피드에서 제외됩니다.
+1. 값이 `post_pagename` 또는 에 있는 행 수를 `post_page_url`카운트합니다.
 
-## 날짜 필터링 {#section_3BFF4F7EED1F4FA69EBF12BF98B347E8}
+## 방문 횟수
 
-`date_time` 필드를 필터링함으로써 포함시킬 날짜 범위의 행을 포함시키십시오. The `date_time` field is human readable (for example, `YYYY-MM-DD HH:MM:SS`) and is adjusted to the time zone of the report suite. For example, `date_time starts with "2013-12"` includes hits from December 2013.
+1. 연결, `post_visid_high``post_visid_low`및 `visit_num``visit_start_time_gmt`기타
+1. 고유 값 수를 카운트합니다.
 
-## 이벤트 문자열 {#section_87B686512EFD4A6CA072165CB28A130A}
+> [!NOTE] 인터넷 불공정, 시스템 불공정 또는 사용자 지정 방문자 ID의 사용은 서로 다른 방문에 대해 동일한 `visit_num` 값을 거의 사용할 수 없습니다. 방문 횟수를 카운트할 `visit_start_time_gmt` 때 이 방문이 계산되도록 합니다.
 
-The event string in `event_list` and `post_event_list` contains a comma-delimited list of events, which may have a value and/or a unique ID. 중복 제거가 되어 있고 이미 같은 ID를 가진 중복 이벤트를 제거하는 로직이 적용된 `post_event_list`에서 모든 처리를 수행할 것을 권장합니다([이벤트 일련화](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_event_serialization.html) 참고).
+## 방문자 수
 
-매핑 명명을 위한 이벤트 ID의 경우 데이터 피드를 통해 제공된 이벤트 조회를 참조하십시오.
+Adobe가 고유 방문자(사용자 지정 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 방법 은 모두 궁극적으로 `post_visid_high` 및 의 값으로 계산됩니다 `post_visid_low`. 이러한 두 열의 연결은 고유 방문자로 식별된 방식에 관계없이 고유 방문자를 식별하는 표준으로 사용할 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열을 `post_visid_type`사용합니다.
 
-이벤트에 대한 자세한 정보는 [이벤트](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_events.html)에서 참조하십시오.
+1. 연결 `post_visid_high` 및 `post_visid_low`연결
+2. 고유 값 수를 카운트합니다.
 
-## 일반 지표를 위한 공식 {#section_E26A01C234484857BF8C74443222AE41}
+## 사용자 지정, 다운로드 또는 종료 링크
 
-다음 표는 몇 가지 일반 지표를 계산하는 방법을 설명합니다.
+1. 다음 위치의 행 수를 카운트합니다.
+   * `post_page_event = 100` 사용자 지정 링크
+   * `post_page_event = 101` 다운로드 링크
+   * `post_page_event = 102` 종료 링크
 
-<table id="table_814EA73C01EE4B2CA3CEB2839E19ADF9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 지표 </th> 
-   <th colname="col2" class="entry"> 계산 방법 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 페이지 보기 횟수 </td> 
-   <td colname="col2"> <p> Page views can be calculated by counting when there is either a value in <code> post_pagename </code> or <code> post_page_url </code>. </p> 
-    <p>비슷한 로직을 사용하여 사용자 지정 링크를 카운트할 수 있습니다. </p> 
-    <ul id="ul_8DFBEE3ED30C465D8E55B1F3880D5263"> 
-     <li id="li_009F2B7E3F9443889AE95B3358169444"> <code> post_page_event = 100 </code> 를 클릭하여 사용자 지정 링크를 카운트합니다. </li> 
-     <li id="li_866DA2F5C2404347863CD1417F822FE8"> <code> post_page_event = 101 </code> 다운로드 링크를 카운트합니다. </li> 
-     <li id="li_4BC6E62CE8B1474DB22448FA32C9EE01"> <code> post_page_event = 102 </code> 를 클릭하여 종료 링크를 카운트합니다. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 방문 횟수 </td> 
-   <td colname="col2"> 
-    <ol id="ol_FE1831195A474650B07D7820DCD38728"> 
-     <li id="li_274590E937A142D19B204768B1F10325">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_038B8FF66EA44E138C8A8932DA7B39E5">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5,8 및 9는 데이터 소스를 사용하여 업로드된 요약 행입니다. 7은 방문 및 방문자 카운트에 포함되지 않아야 하는 거래 ID 데이터 소스 업로드를 나타냅니다. 자세한 내용은 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > 조회 출처 조회 </a>. </li> 
-     <li id="li_7FCD9BDF4D8547719420B34BA48BFA2D">결합, <code> post_visid_high </code><code> post_visid_low </code>및 <code> visit_num </code><code> visit_start_time_gmt </code>* 고유한 조합 개수를 카운트합니다. </li> 
-    </ol> <p>*In rare circumstances, internet irregularities, system irregularities, or the use of custom visitor IDs can result in duplicate <code> visit_num </code> values for the same visitor ID that are not the same <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html"  > visit </a>. To avoid resulting issues, also include <code> visit_start_time_gmt </code> when counting visits. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 방문자 수 </td> 
-   <td colname="col2"> 
-    <ol id="ol_E2BC9235A3164EF5936EFC5D9E9327D0"> 
-     <li id="li_2C145CA54EBF4B358FC7DC78D8DA577D">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_9EF364652A214A4D9B66552BC6BBE527">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5,8 및 9는 데이터 소스를 사용하여 업로드된 요약 행입니다. 7은 방문 및 방문자 카운트에 포함되지 않아야 하는 거래 ID 데이터 소스 업로드를 나타냅니다. 자세한 내용은 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > 조회 출처 조회 </a> </li> 
-     <li id="li_4AB5129315644A29987E8FCB9C9F9C39">결합할 <code> post_visid_high </code> 수 <code> post_visid_low </code>있습니다. 고유한 조합 개수를 카운트합니다. </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 이벤트 인스턴스 </td> 
-   <td colname="col2"> <p>When an event is set on a hit, <code> post_event_list </code> contains the event. The <code> post_event_list </code> is de-duplicated and is recommended to determine event instances. </p> <p>예: </p> 
-    <code>
-      post_event_list = 1,200 
-    </code> <p>Indicates an instance of <code> purchase </code> and <code> event1 </code>. </p> 
-    <ol id="ol_84B529A668A54686957D1EB36D944467"> 
-     <li id="li_F953D7668C704C1AB7970123E369472A">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_65B0B504DB654479844EAE490D9283EB">Exclude all rows with <code> hit_source = 5,8,9 </code>. 이것은 데이터 소스를 사용하여 업로드된 요약 행입니다. 자세한 내용은 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > 조회 출처 조회 </a>. </li> 
-     <li id="li_FB1C31048EC7415088F41E8CDC01AEBD">Count the number of times the event lookup value appears in <code> post_event_list </code>. </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> eVar 인스턴스 </td> 
-   <td colname="col2"> <p>히트에 대해 eVar가 설정된 경우 <code> event_list </code>에 이 eVar의 인스턴스가 포함됩니다. </p> <p>예: </p> 
-    <code>
-      post_event_list&amp;nbsp;=&amp;nbsp;100,101,106 
-    </code> <p>Indicates an instance of <code> eVar1 </code>, <code> eVar2 </code>, and <code> eVar7 </code>. 이 3가지 eVars에 대한 값이 히트에 대해 설정된 것을 의미합니다. </p> <p>eVars에 대한 인스턴스를 계산하려면 위의 <i>Event instances</i>에 설명된 것과 같은 로직을 사용하되 eVar 조회가 <code> post_event_list </code>에 나타나는 횟수를 카운트합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 체류 시간 </td> 
-   <td colname="col2"> <p>체류 시간을 계산하려면, 방문별 히트를 그룹화한 다음 해당 방문 내의 히트 번호에 따라 순서를 지정합니다. </p> 
-    <ol id="ol_946E7CD6005A42EB9A4B79268BF84066"> 
-     <li id="li_D109FAF4686D4935B7A6DCA5D383612F">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_D88F3691DB6746EBA84AA52841E56803">Group hits for a visit by concatenating <code> visid_high </code>, <code> visid_low </code>, and <code> visit_num </code>. </li> 
-     <li id="li_08792F3BDFEA4DA29E0983C4BE65D73B">Order hits for each visit by <code> visit_page_num </code>. </li> 
-     <li id="li_4B956734DBB84603B86DDA6A2B0B41A0">Using <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-page-event.md"  > page_event </a>, filter the types of hits you want. </li> 
-     <li id="li_2C5AC0477CFC409B8F169079354C8226">체류 시간을 추적할 값이 설정된 히트를 찾습니다. 예: 
-      <code>
-        hit&nbsp;1:&nbsp;post_prop1=red hit&nbsp;2:&nbsp;post_prop1=blue 
-      </code> </li> 
-     <li id="li_20106B322F7B45CE8D2FBD9B0CB3D60D">Subtract the <code> post_cust_hit_time </code> for hit 1 from the <code> post_cust_hit_time </code> for hit 2 to determine the seconds between these two hits. The result is the time spent for <code> post_prop1=red </code>. 결과가 음수이면, 히트를 비순차적으로 받은 것이며 이 계산은 버려야 합니다. </li> 
-    </ol> <p>이 논리는 다른 값에 대한 체류 시간을 계산하는 데까지 확장할 수 있습니다. When calculating time spent, Analytics calculates time spent based on the time the value was set in a <code> track </code> ( <code> page_event=0 </code>) or <code> trackLink </code> ( <code> page_event=10|11|12 </code>) call, to the time of the next page view ( <code> track </code> call). </p> <p>특정 기간에 대한 체류 시간 보고 시, Marketing Reports &amp; Analytics과 Ad Hoc Analysis에서는 기간의 시작 및/또는 종료 날짜에 월별 제한이 있을 때를 제외하고 보고 기간을 지난 히트를 평가하여 보고 기간 내 값에 대한 체류 시간을 결정합니다. 이러한 계산의 복잡성으로 인해 체류 시간 지표를 정확히 일치시키기가 어려울 수 있습니다. Data Warehouse에서는 보고 기간 이후의 히트를 평가하지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 매출액, 주문, 판매량 </td> 
-   <td colname="col2"> <p>통화 변환은 보고서 세트의 설정에 따라 <code> post_product_list </code>에 적용되므로 해당 열을 사용하는 것이 권장됩니다. </p> 
-    <ol id="ol_03D62086EDDE42AD82049830D85FDC69"> 
-     <li id="li_2A5B8205EA30492986C35DC382B91F16">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
-     <li id="li_6417C228AC414B01A30F85BE4842ED3C">Exclude all rows with <code> hit_source = 5,8,9 </code>. 5~9는 데이터 소스를 사용하여 업로드한 요약 행을 나타냅니다. 자세한 내용은 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > 조회 출처 조회 </a>. </li> 
-     <li id="li_C48F91C74F5E4286B5F0B285E33AF733">Ignore purchase data for rows where <code> duplicate_purchase = 1 </code>. 이 플래그는 구매가 중복(동일한 <code> purchaseID </code>의 히트가 이미 기록되었음을 의미)임을 가리킵니다. </li> 
-     <li id="li_FA1639FEF516419BA1BFDC37B063B346"> <p><code> post_product_list </code>는 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_products.html"  >s.products</a>와 같은 구문을 사용하므로 이 문자열을 분석하여 지표를 계산할 수 있습니다. 예: </p> 
-      <code>
-        ;Cross Trainers;1;69.95,;Athletic Socks;10;29.99 
-      </code> <p>이 문자열을 분석함으로써 크로스 트레이너 1쌍이 $69.95에 구입되었고 이 구입의 총 매출은 $99.94임을 알 수 있습니다. </p> </li> 
-    </ol> <p>참고: 분석을 통해 제품 매출액을 포함한 통화 이벤트가 이벤트 문자열을 따라 전달될 수 있으므로 제품 문자열에 없는 매출을 고려할 필요가 있습니다. <i>s.events</i>에서 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_events.html"  >숫자/통화 이벤트</a>를 보십시오 . </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## 사용자 지정 이벤트
+
+모든 지표는 `post_event_list` 열에서 쉼표로 구분된 정수로 계산됩니다. 숫자 값을 원하는 이벤트와 일치시키는 `event.tsv` 데 사용합니다. 예를 들어 히트에 구매 이벤트와 사용자 지정 이벤트 1이 포함되었음을 `post_event_list = 1,200` 나타냅니다.
+
+1. Count the number of times the event lookup value appears in `post_event_list`.
+
+## 체류 시간
+
+히트는 먼저 방문별로 그룹화한 다음 방문 내의 히트 번호에 따라 순서가 지정되어야 합니다.
+
+1. 연결, `post_visid_high``post_visid_low`및 `visit_num``visit_start_time_gmt`기타
+2. 이 연결된 값으로 정렬한 다음 보조 정렬을 `visit_page_num`적용합니다.
+3. 히트가 방문의 마지막 히트가 아닌 경우, 후속 히트의 `post_cust_hit_time` `post_cust_hit_time` 값에서 값을 빼십시오.
+4. 이 숫자는 히트에 대해 보낸 시간(초)입니다. 필터를 적용하여 차원 값 또는 이벤트에 집중할 수 있습니다.
+
+## 주문, 판매량 및 매출
+
+히트의 `currency` 값이 보고서 세트의 통화와 일치하지 않으면 해당 날짜의 전환율을 사용하여 변환됩니다. 이 열은 변환된 통화 값을 `post_product_list` 사용하므로 모든 히트가 이 열에서 동일한 통화를 사용합니다.
+
+1. Exclude all rows where `duplicate_purchase = 1`.
+2. 구매 이벤트가 포함된 행만 `event_list` 포함합니다.
+3. 열을 분석하여 모든 가격 데이터를 추출합니다. `post_product_list` 열 `post_product_list` 형식은 `s.products` 변수와 동일합니다.
+4. 원하는 지표를 계산합니다.
+   * 행 수를 계산하여 주문 계산
+   * 제품 문자열의 수를 `quantity` 합하여 단위 계산
+   * 제품 문자열의 `price` 수를 합하여 매출을 계산합니다.
