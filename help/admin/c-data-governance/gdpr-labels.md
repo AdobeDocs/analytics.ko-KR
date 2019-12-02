@@ -2,7 +2,7 @@
 description: 'null'
 title: Analytics 변수의 데이터 개인 정보 보호 레이블
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -303,7 +303,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
   <tr> 
    <td colname="col1" morerows="1"> 
     <ul id="ul_62FA1BAA3B9245909509566D8C03F900"> 
-     <li id="li_38F7C4E18ECB42C292370713F502B8EB">전환 치수 </li> 
+     <li id="li_38F7C4E18ECB42C292370713F502B8EB">전환 차원 </li> 
      <li id="li_41CB61F927CB4402AAB4A62E219CD153">사용자 지정 트래픽 차원 </li> 
     </ul> </td> 
    <td colname="col2"> <p>분류를 제외한 모든 변수 </p> </td> 
