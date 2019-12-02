@@ -2,7 +2,7 @@
 description: 'null'
 title: FAQ
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -28,21 +28,21 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe 고객(데이터 제어자)은 데이터 개인 정보 보호 처리를 위해 Adobe Analytics에서 어느 데이터 개인 정보 보호 요청이 어느 ID에 매핑되는지 어떻게 알 수 있습니까?</b> </p> </td> 
-   <td colname="col2"> <p>데이터 제어자는 데이터 주체의 요청에 대한 ID를 확인하는 방법을 결정합니다. <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">Adobe의 데이터 개인 정보 보호 ID 검색 태그 배포를 고려합니다. </a> 개발팀에서는 데이터 개인 정보 보호 ID 검색 태그를 사용하여 사용자 ID(쿠키 ID)를 캡처한 다음 데이터 개인 정보 보호 API를 사용하여 데이터 개인 정보 보호 요청 처리를 위해 Adobe Experience Cloud의 관련 솔루션으로 해당 사용자 ID를 전송합니다. </p> <p>데이터 개인 정보 보호 API는 여러 Adobe 솔루션에서 광범위한 고객 ID를 지원할 수 있습니다. 데이터 주체가 식별자(사용자 지정 변수 - prop 또는 eVar)와 함께 요청을 제출하면 Adobe Analytics에서 지정된 식별자에 대해 수집된 데이터의 전체 보유 기록을 스캔합니다. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the Analytics documentation on <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> Namespaces.</a>
+   <td colname="col2"> <p>데이터 제어자는 데이터 주체의 요청에 대한 ID를 확인하는 방법을 결정합니다. <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">Adobe의 데이터 개인 정보 보호 ID 검색 태그 배포를 고려합니다. </a> 개발팀에서는 데이터 개인 정보 보호 ID 검색 태그를 사용하여 사용자 ID(쿠키 ID)를 캡처한 다음 데이터 개인 정보 보호 API를 사용하여 데이터 개인 정보 보호 요청 처리를 위해 Adobe Experience Cloud의 관련 솔루션으로 해당 사용자 ID를 전송합니다. </p> <p>데이터 개인 정보 보호 API는 여러 Adobe 솔루션에서 광범위한 고객 ID를 지원할 수 있습니다. 데이터 주체가 식별자(사용자 지정 변수 - prop 또는 eVar)와 함께 요청을 제출하면 Adobe Analytics에서 지정된 식별자에 대해 수집된 데이터의 전체 보유 기록을 스캔합니다. Analytics Prop 또는 eVar에 저장된 사용자 지정 ID를 구성하는 방법에 대한 자세한 내용은 <a href="/help/admin/c-data-governance/gdpr-namespaces.md">네임스페이스</a>에 대한 Analytics 설명서를 참조하십시오.
     </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics 데이터 거버넌스에서는 데이터 개인 정보 보호 요청 처리를 어떻게 지원할 수 있습니까?</b> </p> </td> 
    <td colname="col2"> <p>데이터 거버넌스는 Adobe Analytics 내의 새로운 도구로 데이터 제어자는 이 도구를 사용하여 해당 Analytics 데이터에 데이터 제어 및 분류를 적용할 수 있습니다. 이 새 도구를 통해 Adobe 고객은 데이터 개인 정보 보호 데이터 액세스 및 데이터 삭제 요청 처리를 사용자 지정할 수 있습니다. 데이터 거버넌스 콘솔에서 관리자는 Adobe Analytics에 있는 다양한 데이터 열에 적용해야 하는 설정을 원하는 대로 정의할 수 있습니다. 이러한 레이블이 정의되면 Adobe는 고객이 원하는 레이블 설정에 따라 다운스트림 액세스 또는 삭제 요청을 처리합니다.  법정 대리인과 이러한 레이블 설정에 대해 검토하고 논의하는 것은 데이터 제어자의 책임입니다. Adobe Analytics에서는 데이터 개인 정보 보호 API를 이용하여 요청 완료를 사용자 지정할 수 있도록 클라이언트가 데이터 개인 정보 보호 발효일(2018년 5월 25일) 전에 데이터 레이블 지정을 올바르게 설정할 것을 권장합니다. </p> <p>데이터 거버넌스 도구에는 다음 데이터 레이블이 포함되어 있습니다. </p> 
     <ul id="ul_F25B00EB020B4A639628FB884D0CB4F9"> 
-     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels"> ID 데이터 레이블:직접 또는 다른 데이터와 조합하여 개인을 식별할 수 있는 데이터를 분류하는 </a> 데 사용됩니다. (없음, I1, I2) </li> 
-     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels"> 중요 데이터 레이블:데이터를 </a> 해당 법률에 따라 민감하다고 정의될 수 있는 데이터로 분류하는 데 사용됩니다. (없음, S1, S2) 현재 Adobe Analytics의 중요 데이터 사용은 적용 가능한 법률에 따라 타당하게 얻은 정확한 지리적 위치 데이터(일부 관할권에서 중요 데이터로 간주될 수 있음)를 제외하고 일반적으로 금지되어 있습니다. </li> 
-     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels"> 데이터 개인 정보 데이터 레이블:데이터 개인 정보 </a> 요청에 사용하기 위해 또는 데이터 개인 정보 삭제 요청의 일부로 제거되어야 하는 개인 식별자를 포함할 수 있는 필드를 정의하는 데 사용됩니다. 이러한 레이블은 경우에 따라 ID 및 중요 데이터 레이블과 겹칠 수 있습니다. </li> 
-    </ul> <p>데이터 거버넌스 레이블에 대한 자세한 내용은 <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels">Analytics 변수에 대한 데이터 개인 정보 보호 레이블</a>을 참조하십시오.  </p> </td> 
+     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels"> ID 데이터 레이블: </a> 개인을 직접 식별하거나 다른 데이터와 조합하여 식별할 수 있는 데이터를 분류하는 데 사용됩니다. (없음, I1, I2) </li> 
+     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels"> 중요 데이터 레이블: </a> 데이터를 해당 법에 따라 중요로 정의할 수 있는 데이터로 분류하는 데 사용됩니다. (없음, S1, S2) 현재 Adobe Analytics의 중요 데이터 사용은 적용 가능한 법률에 따라 타당하게 얻은 정확한 지리적 위치 데이터(일부 관할권에서 중요 데이터로 간주될 수 있음)를 제외하고 일반적으로 금지되어 있습니다. </li> 
+     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels"> 데이터 개인 정보 보호 데이터 레이블: </a> 데이터 개인 정보 보호 요청에 사용할 개인 식별자를 포함할 수 있거나 데이터 개인 정보 보호 삭제 요청의 일부로 제거해야 하는 필드를 정의하는 데 사용됩니다. 이러한 레이블은 경우에 따라 ID 및 중요 데이터 레이블과 겹칠 수 있습니다. </li> 
+    </ul> <p>데이터 거버넌스 레이블에 대한 자세한 내용은 <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels">Analytics 변수에 대한 데이터 개인 정보 레이블</a>을 참조하십시오.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics에서 데이터 개인 정보 보호를 준비하려면 어디서 시작해야 합니까?</b> </p> </td> 
-   <td colname="col2"> <p>For a step-by-step walkthrough to get ready for Data Privacy rules, see <a href="/help/admin/c-data-governance/an-gdpr-workflow.md"> Adobe Analytics Data Privacy Workflow. </a> </p> </td> 
+   <td colname="col2"> <p>데이터 개인 정보 보호 규칙에 대한 단계별 연습은 <a href="/help/admin/c-data-governance/an-gdpr-workflow.md"> Adobe Analytics 데이터 개인 정보 보호 작업 과정</a>을 참조하십시오.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>데이터 제어자는 사용자 참여와 관련하여 동의를 어떻게 생각해야 합니까?</b> </p> </td> 
@@ -50,7 +50,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>데이터 제어자는 데이터 개인 정보 보호와 관련하여 데이터 보존에 대해 어떻게 생각해야 합니까?</b> </p> </td> 
-   <td colname="col2"> <p>데이터 개인 정보 보호는 일반적으로 개인 데이터가 수집된 목적을 달성하는 데 필요한 기간보다 오래 해당 데이터를 보존하지 않도록 합니다. </p> <p>2월에 고객 커뮤니케이션에서 자세히 설명했듯이 Adobe는 다른 합의를 하지 않는 한 대부분의 고객에게 25개월의 데이터 보존 계획을 적용합니다(고객 알림 및 승인을 따름). Adobe에서 데이터 개인 정보 보호 요청을 처리할 수 있으려면 먼저 고객이 데이터 보존 정책을 설정해야 합니다. </p> <p>Adobe Analytics에서는 고객이 데이터 보존 정책을 설정하여 데이터 개인 정보 보호 요청을 처리하도록 합니다. 각 보고서 세트의 현재 데이터 보존 정책이 새 데이터 거버넌스 관리 UI에 표시됩니다. 고객은 데이터 보존 정책을 조정해야 하는 경우 Adobe 담당자에게 문의해야 합니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html">Adobe Analytics 데이터 보존 FAQ</a>를 참조하십시오.  </p> </td> 
+   <td colname="col2"> <p>데이터 개인 정보 보호는 일반적으로 개인 데이터가 수집된 목적을 달성하는 데 필요한 기간보다 오래 해당 데이터를 보존하지 않도록 합니다. </p> <p>2월에 고객 커뮤니케이션에서 자세히 설명했듯이 Adobe는 다른 합의를 하지 않는 한 대부분의 고객에게 25개월의 데이터 보존 계획을 적용합니다(고객 알림 및 승인을 따름). Adobe에서 데이터 개인 정보 보호 요청을 처리할 수 있으려면 먼저 고객이 데이터 보존 정책을 설정해야 합니다. </p> <p>Adobe Analytics에서는 고객이 데이터 보존 정책을 설정하여 데이터 개인 정보 보호 요청을 처리하도록 합니다. 각 보고서 세트의 현재 데이터 보존 정책이 새 데이터 거버넌스 관리 UI에 표시됩니다. 고객은 데이터 보존 정책을 조정해야 하는 경우 Adobe 담당자에게 문의해야 합니다. <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/data-retention-client-table-faq.html">Adobe Analytics 데이터 유지 FAQ</a>를 참조하십시오.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>고객이 기본 데이터 보존 기간을 줄이거나 연장할 수 있습니까?</b> </p> </td> 
