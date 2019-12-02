@@ -2,7 +2,7 @@
 title: Adobe Analytics의 대상 보고서
 description: 분석 작업 공간을 사용하여 대상 기반 보고서를 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -50,7 +50,7 @@ Google Analytics의 대상 보고서는 대상을 설정해야 합니다. 또한
 사용자 탐색기 보고서를 사용하면 분석가는 익명 식별자를 통해 개별 방문을 볼 수 있습니다. Adobe는 데이터의 히트 수준 원시 내보내기인 데이터 피드 외부에 백엔드 식별자를 표시하지 않습니다.
 
 * 분석 작업 공간에서 이 데이터를 원하는 경우 구현 컨설턴트와 협력하여 익명 고유 식별자 쿠키 값을 eVar로 전달할 수 있습니다. 이 기능은 월별 고유 방문자 수가 100만 명 미만인 소규모 구현에서만 작동합니다.
-* 데이터 피드 내에서 이 데이터를 원하는 경우 연결된 열을 `visid_high` 사용하여 고유 방문자를 식별하는 가장 일반적인 `visid_low` 방법입니다. 데이터 피드에 대한 자세한 [내용은](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 내보내기 사용 안내서를 참조하십시오.
+* 데이터 피드 내에서 이 데이터를 원하는 경우 연결된 열을 `visid_high` 사용하여 고유 방문자를 식별하는 가장 일반적인 `visid_low` 방법입니다. 데이터 피드에 대한 자세한 [내용은](/help/export/analytics-data-feed/data-feed-overview.md) 내보내기 사용 안내서를 참조하십시오.
 
 ## 인구 통계 및 관심 분야 보고서
 
