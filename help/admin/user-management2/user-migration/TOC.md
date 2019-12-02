@@ -1,9 +1,9 @@
 ---
 cloud: experience-cloud
 product: adobe
-archtype: 최종 사용자
+archtype: end-user
 user-guide: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
 ---
