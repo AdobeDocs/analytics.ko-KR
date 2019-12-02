@@ -270,7 +270,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 | visit_referrer | 방문의 첫 번째 레퍼러입니다. | varchar(255) |
 | visit_search_engine | 방문의 첫 번째 검색 엔진에 대한 숫자 ID입니다. search_engines.tsv 조회 테이블을 사용합니다. | 미부호 없는 |
 | visit_start_page_url | 방문의 첫 번째 URL입니다. | varchar(255) |
-| visit_start_pagename | The 방문의 첫 번째 페이지 이름입니다. | varchar(100) |
+| visit_start_pagename | 다음 방문의 첫 번째 페이지 이름입니다. | varchar(100) |
 | visit_start_time_gmt | 방문의 첫 번째 히트 타임스탬프(Unix 시간)입니다. | int |
 | weekly_visitor | 히트가 새 주별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | yearly_visitor | 히트가 새 연별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
