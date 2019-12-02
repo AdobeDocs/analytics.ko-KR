@@ -2,7 +2,7 @@
 description: 'null'
 title: GDPR 용어
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **주요 제정부(Main Establishment)** - 연합 내에서 데이터 처리에 대한 주요 의사 결정이 내려지는 곳으로, 처리자와 관련되어 있음
 
-**개인 데이터** - 자연인과 관련된 모든 정보 또는 개인을 직접 또는 간접적으로 식별하는 데 사용할 수 있습니다.
+**개인 데이터(Personal Data)** - 자연인 또는 '데이터 주체'와 관련하여 개인을 직접 또는 간접적으로 식별하는 데 사용할 수 있는 모든 정보
 
 **개인 데이터 위반(Personal Data Breach)** - 개인 데이터의 우발적이거나 불법적인 액세스, 파괴, 오용 등으로 이어지는 보안 위반
 
