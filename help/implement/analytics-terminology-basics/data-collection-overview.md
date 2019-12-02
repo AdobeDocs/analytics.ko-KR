@@ -6,7 +6,7 @@ title: 데이터 수집
 topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -91,7 +91,7 @@ Adobe는 Analytics에 데이터를 보낼 수 있는 여러 가지 방법을 개
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html)
-* [Analytics 데이터 피드](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
+* [Analytics 데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)
 
 >[!MORELIKETHIS]
 >       
