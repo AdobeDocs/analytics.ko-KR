@@ -5,7 +5,7 @@ solution: Analytics
 title: 데이터 피드 문제 해결
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
@@ -38,11 +38,11 @@ Amazon S3에 대한 일반적인 사용 사례는 AWS(Amazon 웹 서비스) 계�
 
 FTP 전송이 실패하는 경우(로그인 거부, 연결 유실, 할당량 부족 등) Adobe는 최대 3회 자동으로 문제를 해결하고 데이터 전송을 시도합니다. 그래도 문제가 계속되면 피드가 실패된 것으로 표시되고 이메일 알림이 발송됩니다.
 
-전송 실패 시, 다음을 수행할 수 있습니다. [성공할 때까지 작업](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md)을 다시 실행하십시오.
+전송 실패 시, 다음을 수행할 수 있습니다. 성공할 때까지 작업을 다시 실행하십시오.
 
 ## 재전송 옵션 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-배달 문제를 확인/수정했으면 작업을 [다시 실행하여](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) 파일을 가져오기만 하면 됩니다.
+배달 문제를 확인/수정했으면 작업을 다시 실행하여 파일을 가져옵니다.
 
 ## 일광 절약 시간제가 시간별 데이터 피드에 영향을 줄 수 있음 {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -56,7 +56,7 @@ DST -&gt; STD 전환 시("Fall Back") 고객은 24개의 파일을 받게 됩니
 
 특정 기간에 대해 수집된 데이터가 없으면 매니페스트 파일을 배달하도록 데이터 피드를 구성할 수도 있습니다. 이 옵션을 활성화하면 다음과 비슷한 매니페스트 파일을 받게 됩니다.
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0
