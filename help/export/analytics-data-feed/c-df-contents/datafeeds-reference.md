@@ -7,7 +7,7 @@ title: 데이터 열 참조
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 이 페이지에서는 각 열에 포함된 데이터를 확인할 수 있습니다. 대부분의 구현은 모든 열을 사용하지 않으므로 데이터 피드 내보내기에 포함할 열을 결정할 때 이 페이지를 참조할 수 있습니다.
 
-> [!IMPORTANT] 지정된 열(예: 255자로 정의된 열)의 경우 문자열에서 값을 이스케이프 처리하는 문자가 추가되어 데이터 피드가 추가 문자를 보낼 수 있습니다. 구현에서 문자 제한을 초과하는 값을 정기적으로 전송하는지 여부를 염두에 두십시오.
+> [!IMPORTANT] 지정된 열(예: 255자로 정의된 열)의 경우 문자열에서 값을 이스케이프 처리하는 문자가 추가되어 데이터 피드가 추가 문자를 보낼 수 있습니다. 구현에서 문자 제한을 초과하는 값을 정기적으로 전송하는 경우 이러한 추가 문자를 염두에 두십시오.
 
 ## 열, 설명 및 데이터 유형
 
-> [!NOTE] 대부분의 열에는 접두사가 `post_`있는 유사한 열이 있습니다. 이후 열에는 서버 측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다.
+> [!NOTE] 대부분의 열에는 접두사가 `post_`있는 유사한 열이 있습니다. 이후 열에는 서버 측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. 자세한 [내용은 데이터 피드](../df-faq.md) FAQ를 참조하십시오.
 
 | 열 이름 | 열 설명 | 데이터 유형 |
 | --- | --- | --- |
@@ -327,14 +327,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * mobilemessageid<span>.</span>이름
 * mobilemessageid<span>.</span>유형
 * mobilemessageimpressions
-* mobilemessagepushpayloadid<span><span>.</span></span>이름
+* mobilemessagepushpayloadid<span><span>.</span></span>name
 * mobilemessageviews
 * mobilemonthlyengagedusers
 * mobileplacedwelltime
 * mobileplaceentry
 * mobileplaceexit
 * mobileprevsessionlength
-* mobilerlaunchcampaigtrackingcode<span><span>.</span></span>이름
+* mobilerlaunchcampaigtrackingcode<span><span>.</span></span>name
 * mobileupgrades
 * socialaveragesentiment
 * socialaveragesentiment(더 이상 사용되지 않음)
