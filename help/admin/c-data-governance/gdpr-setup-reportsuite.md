@@ -2,7 +2,7 @@
 description: 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 레이블 및 해당 정의를 숙지하십시오.
 title: 보고서 세트 데이터에 레이블 지정
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
