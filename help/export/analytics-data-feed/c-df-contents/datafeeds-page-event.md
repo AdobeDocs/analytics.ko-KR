@@ -6,7 +6,7 @@ title: 페이지 이벤트 조회
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -15,47 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 테이블을 조회하여 page_event 값을 기준으로 히트의 유형을 파악하십시오.
 
-<table id="table_33AF375E0B41474696D7A4A92C652A5F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 히트 유형 </th> 
-   <th colname="col02" class="entry"> page_event 값 </th> 
-   <th colname="col2" class="entry"> post_page_event 값 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 페이지 보기 횟수 </td> 
-   <td colname="col02"> 게시물과 동일 </td> 
-   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>모바일 SDK의 <code> trackState </code> 호출의 경우 0 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 링크 추적 </td> 
-   <td colname="col02"> <p>"기타 링크"의 경우 10 </p> <p>모바일 SDK의 <code> trackAction </code> 및 라이프사이클 호출의 경우 10 </p> <p>"다운로드 링크"의 경우 11 </p> <p>"외부 또는 종료 링크"의 경우 12 </p> </td> 
-   <td colname="col2"> <p>"기타 링크"의 경우 100 </p> <p>모바일 SDK의 <code> trackAction </code> 및 라이프사이클 호출의 경우 100 </p> <p>"다운로드 링크"의 경우 101 </p> <p>"외부 또는 종료 링크"의 경우 102 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 이정표 비디오 </td> 
-   <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 - 미디어 시작 이벤트 </p> <p>32 – 미디어 업데이트 전용 이벤트(eVar 또는 다른 변수 처리를 수행하지 않음) </p> <p>33 – 미디어 + 기타 변수 업데이트 이벤트(eVar 및 기타 변수 처리 포함) </p> </td> 
-   <td colname="col2"> 
-    <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 - 미디어 시작 이벤트 </p> <p>77 – 미디어 업데이트 전용 이벤트(eVar 또는 다른 변수 처리를 수행하지 않음) </p> <p>78 – 미디어 + 기타 변수 업데이트 이벤트(eVar 및 기타 변수 처리 포함) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>하트비트 비디오 </p> </td> 
-   <td colname="col02"> 게시물과 동일 </td> 
-   <td colname="col2"> <p> 50 = (non-Primetime) 미디어 스트림 시작 </p> <p> 51 = (non-Primetime) 미디어 스트림 닫기(완료/마침) </p> <p> 52 = (non-Primetime) 미디어 스트림 스크러빙 </p> <p> 53 = (non-Primetime) 미디어 스트림 활성화 유지 </p> <p> 54 = (non-Primetime) 미디어 스트림 광고 시작 </p> <p> 55 = (non-Primetime) 미디어 스트림 광고 닫기(완료/마침) </p> <p> 56 = (non-Primetime) 미디어 스트림 광고 스크러빙 </p> <p> 60 = Primetime 미디어 스트림 시작 </p> <p> 61 = Primetime 미디어 스트림 닫기(완료/마침) </p> <p> 62 = Primetime 미디어 스트림 스크러빙 </p> <p> 63 = Primetime 미디어 스트림 활성화 유지 </p> <p> 64 = Primetime 미디어 스트림 광고 시작 </p> <p> 65 = Primetime 미디어 스트림 광고 닫기(완료/마침) </p> <p> 66 = Primetime 미디어 스트림 광고 스크러빙 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 설문 조사 </td> 
-   <td colname="col02"> 40 </td> 
-   <td colname="col2"> 80 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 타겟 분석 </td> 
-   <td colname="col02"> 70 - 타겟 활동 데이터를 포함하는 히트를 나타냅니다. Analytics 호출과 연결된 히트 및 연결되지 않은 히트의 경우 70입니다. </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 히트 유형 | `page_event` value | `post_page_event` value |
+| --- | --- | --- |
+| 페이지 보기 횟수 | 0:모바일 SDK의 모든 페이지 보기 호출 및 `trackState` 호출 | 동일한 값 `post_page_event` |
+| 링크 추적 | 10:모바일 SDK의 사용자 지정 링크 및 `trackAction` 호출<br>:다운로드 링크<br>12:종료 링크 | 100:모바일 SDK 101의 사용자 지정 링크 및 `trackAction` 호출<br>:다운로드 링크<br>102:종료 링크 |
+| 이정표 비디오 | 31:미디어 시작<br>32:미디어 업데이트(다른 변수 처리 금지)<br>33:미디어 업데이트(다른 변수 포함) | 76:미디어 시작<br>77:미디어 업데이트(다른 변수 처리 금지)<br>78:미디어 업데이트(다른 변수 포함) |
+| 하트비트 비디오 | 50:미디어 스트림 시작(non-Primetime)<br>51:미디어 스트림 닫기(Primetime 제외)<br>52:미디어 스트림 스크러빙(Primetime 제외)<br>53:미디어 스트림 유지(Primetime 제외)<br>54:미디어 스트림 광고 시작(Primetime 제외)<br>55:미디어 스트림 및 닫기(Primetime 제외)<br>56:미디어 스트림 광고 스크러빙(Primetime 제외)<br>60:Primetime 미디어 스트림 시작<br>61:Primetime 미디어 스트림 닫기<br>62:Primetime 미디어 스트림 스크러빙<br>63:Primetime 미디어 스트림 유지<br>64:Primetime 미디어 스트림 및 시작<br>65:Primetime 미디어 스트림 및 닫기<br>66:Primetime 미디어 스트림 광고 스크러빙 | 동일한 값 `post_page_event` |
+| 설문 조사 | 40:설문 조사에서 생성된 모든 호출 | 80:설문 조사에서 생성된 모든 호출 |
+| 타겟 분석 | 70:히트에 Target 활동 데이터가 포함됩니다. | 동일한 값 `post_page_event` |
