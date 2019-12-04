@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 + [시스템 요구 사항](c-system-requirements/sys-reqs.md)
 + 관리 도구 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
-   + [청구](admin/billing-admin.md)
+   + [과금](admin/billing-admin.md)
    + 보트 제거 {#bot-removal}
       + [보트 제거](admin/bot-removal/bot-removal.md)
       + [보트 규칙 개요](admin/bot-removal/bot-rules.md)
@@ -30,7 +30,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [통화 코드](admin/currency.md)
    + [사용자 지정 보고서 설명](admin/custom-desc-admin.md)
    + [사용자 지정 달력](admin/custom-calendar.md)
-   + [Data Sources](admin/data-sources.md)
+   + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소별 제외](admin/exclude-ip.md)
    + [검색 방법](admin/finding-methods.md)
@@ -80,6 +80,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
    + 서버 측 전달 {#server-side-forwarding}
       + [서버 측 전달 개요](admin/c-server-side-forwarding/ssf.md)
+      + [GDPR/ePrivacy 준수 및 서버 측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [서버 측 전달 요구 사항](admin/c-server-side-forwarding/ssf-requirements.md)
       + [서버 측 전달 데이터 및 코드 참조](admin/c-server-side-forwarding/ssf-reference.md)
       + [서버 측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
@@ -168,14 +169,14 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [보고서 세트의 데이터 거버넌스 설정 보기/관리](c-data-governance/gdpr-view-settings.md)
    + [보고서 세트 데이터에 레이블 지정](c-data-governance/gdpr-setup-reportsuite.md)
    + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics 변수에 대한 데이터 개인 정보 레이블](c-data-governance/gdpr-labels.md)
+   + [Analytics 변수의 데이터 개인 정보 레이블](c-data-governance/gdpr-labels.md)
    + [네임스페이스](c-data-governance/gdpr-namespaces.md)
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [레이블 지정 우수 사례](c-data-governance/gdpr-analytics-ids.md)
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
    + [데이터 개인 정보 보호 및 Data Connectors(Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [데이터 개인 정보 용어](c-data-governance/gdpr-terminology.md)
-   + [개인 정보 보호 보고 변수](c-data-governance/consent-variables.md)
+   + [데이터 개인 정보 보호 용어](c-data-governance/gdpr-terminology.md)
+   + [개인 정보 보고 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
    + [서버 호출 사용량 개요](c-server-call-usage/overage-overview.md)
    + [현재 서버 호출 사용량 보기](c-server-call-usage/server-call-usage-dashboard.md)
