@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Workspace 프로젝트 만들기](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [작업 공간의 여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 열 및 행 설정 {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
