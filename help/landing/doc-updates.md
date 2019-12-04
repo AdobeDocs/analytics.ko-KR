@@ -3,7 +3,7 @@ title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
+source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
 
 | 날짜 | 설명 |
 |---|---|
+| 2019년 11월 29일 | 데이터 피드 [설명서 검토](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019년 11월 25일 | IP 로그인 [제한 적용을 위한 EOL(End-of-Life) 관련 새로운 항목](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 2019년 11월 25일 | 내부(세션 새로 [고침) 마케팅 채널에 대한 새 항목](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 2019년 11월 21일 | 고객 여정 분석을 위한 [새로운 설명서 세트](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
