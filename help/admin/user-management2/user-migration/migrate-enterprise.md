@@ -3,7 +3,7 @@ description: Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
 
@@ -64,9 +64,9 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
       > [!TIP] 이 단계에서는 사용자 목록을 정리하여 유효한 이메일 ID가 있는 사용자만 Enterprise 또는 Federated ID 마이그레이션에 포함할 것을 권장합니다.
 
-1. Admin Console에서 Admin Console 사용자 목록을 다운로드합니다. 
+1. In the [!UICONTROL Admin Console], download a list of Admin Console users:
 
-   1. [Admin Console](http://adminconsole.adobe.html/#) &gt; **[!UICONTROL 사용자]**&#x200B;로 이동한 다음 [사용자 목록을 CSV로 내보내기](https://helpx.adobe.com/enterprise/using/users.html)를 클릭합니다.
+   1. [!UICONTROL Admin Console] &gt; **[!UICONTROL 사용자]**&#x200B;로 이동한 다음 [사용자 목록을 CSV로 내보내기](https://helpx.adobe.com/enterprise/using/users.html)를 클릭합니다.
 
       ![](assets/export-csv.png)
 
@@ -119,7 +119,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>도메인이 <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  > 사전 요구 사항</a>에 설정된 도메인과 일치합니다. </p> </td> 
+   <td colname="col2"> <p>도메인이 <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이  사전 요구 사항</a>에 설정된 도메인과 일치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 
@@ -130,16 +130,16 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
 [!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/enterprise/using/users.html)을 참조하십시오.
 
-> [!NOTE] *`Product Configurations`* 및 *`Admin Roles`* 등의 기타 열이 비어 있을 수 있습니다.
+> [!NOTE] 제품 구성 및 [!UICONTROL 관리자 역할과 같은] 다른 [!UICONTROL 열은] 비어 있을 수 있습니다.
 
 1. Admin Console의 사용자 탭에서 **[!UICONTROL CSV로 사용자 추가]**&#x200B;를 클릭하여 템플릿 파일을 업로드합니다(3단계에서 설명).
-1. [Analytics 사용자 계정 마이그레이션](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)에 설명된 대로 Analytics에서 마이그레이션 도구를 실행합니다.
+1. [Analytics 사용자 계정 마이그레이션](/help/admin/user-management2/user-migration/t-migrate-users.md)에 설명된 대로 Analytics에서 마이그레이션 도구를 실행합니다.
 1. **[!UICONTROL 마이그레이션]** &gt; **[!UICONTROL Enterprise ID로 마이그레이션]**&#x200B;을 클릭합니다.
 
    ![단계 정보](assets/migrate-as-enterprise.png)
 
    **[!UICONTROL 마이그레이션]**&#x200B;을 클릭하면 사용자가 Admin Console의 Enterprise ID/Federated ID 계정에 연결됩니다. Analytics의 기존 사용자 계정 권한은 **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL 제품 프로필]**&#x200B;에서 Enterprise/Federated ID 로그인에 부여된 권한과 일치합니다. 사용자 ID가 마이그레이션 완료 버킷에 표시됩니다. 기존 [!DNL my.omniture.com] 액세스를 비활성화할 수 있습니다.
 
-   사용자를 마이그레이션한 후 마이그레이션 상태 열의 상태가 *`Not Initiated`*&#x200B;에서 *`Migrated`*&#x200B;로 바뀝니다.
+   After migrating users, the status under the Migration Status column changes from **[!UICONTROL Not Initiated]** to **[!UICONTROL Migrated]**.
 
    마이그레이션 도구에 표시되는 Adobe ID 사용자는 이 프로세스에서도 마이그레이션할 수 있습니다. ID 전환이 수행될 때까지는 계속 Adobe ID로 로그인해야 합니다. ID 전환에 대한 지원은 Adobe 고객 지원 센터에 문의하십시오.
