@@ -3,7 +3,7 @@ description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용�
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
 
@@ -94,14 +94,14 @@ Admin Console 사용의 이점은 다음과 같습니다.
     <ul id="ul_25D1DBDF5C804D048E741F31550FF5F3"> 
      <li id="li_418476105FE341229CE146E730AAB33D">Analytics의 기존 권한 그룹은 Admin Console에서 보고서 세트, 지표, 차원, Analytics 및 보고서 세트 도구에 대한 설명 및 세분화된 권한을 포함한 제품 프로필로서 자동으로 복제됩니다. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">현재 Analytics 사용자 중 Admin Console에서 생성된 사용자가 있는 경우(즉, 연결된 Adobe/Enterprise ID가 있는 경우) Admin Console의 해당 제품 프로필에 추가됩니다. </li> 
-     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics의 [관리] 탭에 있는 [사용자 관리] 섹션은 <span class="term"> 읽기 전용</span>입니다. 여기에서는 새 사용자 또는 권한 그룹을 더 이상 만들 수 없으며 이 두 기능을 모두 Admin Console에서 수행해야 합니다. 자세한 내용은 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console에서 지원되지 않는 Analytics 기능</a>을 참조하십시오. </li> 
+     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics의 [관리] 탭에 있는 [사용자 관리] 섹션은 <span class="term"> 읽기 전용</span>입니다. 여기에서는 새 사용자 또는 권한 그룹을 더 이상 만들 수 없으며 이 두 기능을 모두 Admin Console에서 수행해야 합니다. 자세한 내용은 <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console에서 지원되지 않는 Analytics 기능</a>을 참조하십시오. </li> 
      <li id="li_2742DE69E9B547198A58E1F33E908361">관리자에게는 [사용자 ID 마이그레이션 도구에 대한 액세스 권한이 부여됩니다] (https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/t_migrate-users.html). 또한 도움말 컨텐츠 및 FAQ 링크 외에 마이그레이션 종료 날짜(일반적으로 60일 후)가 포함된 제품 내 알림도 표시됩니다. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Admin Console의 권한 탭에 대한 액세스 권한을 부여받아 Analytics에서 익숙한 모든 세분화된 옵션으로 제품 프로필을 만들 수 있습니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 ID는 어떻게 마이그레이션합니까? </p> </td> 
-   <td colname="col2"> <p> [관리] 페이지의 [사용자 관리]에서 <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> 사용자 ID 마이그레이션</a>을 클릭하십시오. 도구를 사용하여 사용자를 Admin Console(Analytics의 권한 그룹에서 복제)의 제품 프로필에 추가합니다. 원하는 속도로 사용자 ID를 마이그레이션할 수 있습니다. </p> <p>관리 권한이 있어야 합니다. 마이그레이션이 완료되면 되돌릴 수 없습니다. </p> <p>마이그레이션 종료일이 되면 로그인 회사 내 사용자는 <span class="filepath">my.omniture.com</span>에 액세스할 수 없게 됩니다. 사용자(아직 마이그레이션되지 않은 사용자 포함)는 새 Experience Cloud URL(<span class="filepath"> experiencecloud.adobe.com</span>)을 통해 로그인하도록 리디렉션됩니다. </p> <p>참고: 마이그레이션하기 전에 사용자 및 그룹 감사를 수행하는 것이 좋습니다. 오래되고 사용되지 않는 계정 또는 더 이상 제품에 액세스하면 안 되는 계정(예: 더 이상 조직에 있지 않은 직원)은 삭제하십시오. </p> <p>관련 항목: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md"> Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션</a>. </p> </td> 
+   <td colname="col2"> <p> [관리] 페이지의 [사용자 관리]에서 <a href="/help/admin/user-management2/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> 사용자 ID 마이그레이션</a>을 클릭하십시오. 도구를 사용하여 사용자를 Admin Console(Analytics의 권한 그룹에서 복제)의 제품 프로필에 추가합니다. 원하는 속도로 사용자 ID를 마이그레이션할 수 있습니다. </p> <p>관리 권한이 있어야 합니다. 마이그레이션이 완료되면 되돌릴 수 없습니다. </p> <p>마이그레이션 종료일이 되면 로그인 회사 내 사용자는 <span class="filepath">my.omniture.com</span>에 액세스할 수 없게 됩니다. 사용자(아직 마이그레이션되지 않은 사용자 포함)는 새 Experience Cloud URL(<span class="filepath"> experiencecloud.adobe.com</span>)을 통해 로그인하도록 리디렉션됩니다. </p> <p>참고: 마이그레이션하기 전에 사용자 및 그룹 감사를 수행하는 것이 좋습니다. 오래되고 사용되지 않는 계정 또는 더 이상 제품에 액세스하면 안 되는 계정(예: 더 이상 조직에 있지 않은 직원)은 삭제하십시오. </p> <p>관련 항목: <a href="/help/admin/user-management2/user-migration/migrate-enterprise.md"> Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션이 Analytics 구현이나 데이터 수집 방법에 영향을 줍니까? </p> </td> 
@@ -215,7 +215,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">자산 이전 </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">사용자 만료 </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">사용자 로그 </li> 
-    </ul> <p>이 기능들은 Analytics 사용자 관리에서도 계속 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md">Admin Console에서 지원되지 않는 Analytics 기능</a>을 참조하십시오. </p> </td> 
+    </ul> <p>이 기능들은 Analytics 사용자 관리에서도 계속 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/user-migration/c-migration-tool.md">Admin Console에서 지원되지 않는 Analytics 기능</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console에서 여러 구성을 만들고 이를 Analytics 권한 그룹에 매핑했습니다. 마이그레이션이 시작되면 이 구성은 어떻게 됩니까? </p> </td> 
