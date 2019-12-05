@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
 
@@ -145,7 +145,11 @@ source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
    + [사용자 및 제품 관리](user-management2/user-management.md)
    + [보고서 세트에 사용자 그룹 할당](user-management2/t-group-access-report-suite.md)
    + 사용자 관리 {#user-management}
-      + [Experience Cloud Admin Console로 사용자 마이그레이션](user-management2/user-migration/c-migration-tool/c-migration-tool.md)
+      + [Admin Console로 Analytics 사용자 마이그레이션](user-management2/user-migration/c-migration-tool.md)
+         + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/t-migrate-users.md)
+         + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/migrate-enterprise.md)
+         + [기존 로그인 비활성화](user-management2/user-migration/t-disable-legacy-login.md)
+         + [마이그레이션의 영향을 받는 API](user-management2/user-migration/developer.md)
       + [사용자 관리 개요](user-management2/c-user-management/users.md)
       + [사용자 계정 추가](user-management2/c-user-management/t-add-user-account.md)
       + [사용자 및 그룹 권한 변경 사항](user-management2/c-user-management/permissions-changes.md)
