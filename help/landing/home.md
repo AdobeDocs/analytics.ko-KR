@@ -2,7 +2,7 @@
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -11,23 +11,23 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. 분석 작업 공간, 보고서 빌더, 보고 API, 데이터 워크벤치 [!UICONTROL ,]Activity Map [!UICONTROL 등과 같은 보고 도구에]대한 [!UICONTROL 자체 도움말 및 지원]정보를 [!UICONTROL 찾을 수]있습니다. 제품 및 사용자 관리, 구현 및 Adobe Analytics에서 지원되는 모든 기능에 대한 설명서도 액세스할 수 있습니다.
 
-[![도구](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics 툴 가이드](/help/analyze/home.md) – Adobe Analytics에서 사용할 수 있는 모든 분석 도구입니다. 먼저, Analytics용 프리미어 분석 및 시각화 도구인 Analysis Workspace에 대한 완벽한 설명서를 제공합니다.
+[![도구](assets/analyze_50px.png)](/help/analyze/home.md)분석[도구](/help/analyze/home.md) 안내서 [- Analytics용](/help/analyze/analysis-workspace/home.md)최고의 분석 및 시각화 도구인 분석 작업 공간에 액세스할 수 있습니다. 또한 Adobe Analytics에서 사용할 수 있는 모든 분석 도구([!UICONTROL 보고서]빌더 [!UICONTROL , 보고 API,]데이터 워크벤치 [!UICONTROL 및]Activity Map)를제공합니다.
 
-[![관리](assets/admin_50px.png)](/help/admin/home.md) [관리 안내서](/help/admin/home.md) – 보고서 세트, 데이터 거버넌스, 서버 호출 사용량 등을 구성하는 관리 작업입니다.
+[![관리](assets/admin_50px.png)](/help/admin/home.md)[가이드](/help/admin/home.md) - Experience Cloud 관리 콘솔에서 사용자 및 제품 관리, 보고서 세트 구성, 회사 설정, 데이터 거버넌스, 서버 호출 사용, 트래픽 관리 등에 대해 알아봅니다.
 
-[![구현](assets/implement_50px.png)](/help/implement/home.md) [구현 안내서](/help/implement/home.md) – 효율적으로 Adobe Analytics를 활용하기 위해 수집할 데이터를 사용자 정의합니다. Adobe Experience Platform Launch 및 JavaScript 구현에 대한 컨텐츠를 포함합니다.
+[![구현](assets/implement_50px.png)](/help/implement/home.md) [구현 안내서](/help/implement/home.md) – 효율적으로 Adobe Analytics를 활용하기 위해 수집할 데이터를 사용자 정의합니다. Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![구성 요소](assets/components_50px.png)](/help/components/home.md) [구성 요소 안내서](/help/components/home.md) – 데이터를 구성하는 데 도움이 되는 기능을 이해합니다. 구성 요소에는 세그먼트, 계산된 지표, 가상 보고서 세트, 경고 등이 포함됩니다. 이 안내서에는 사용 가능한 모든 차원 및 지표를 설명하는 변수 참조도 포함되어 있습니다.
 
-[![내보내기](assets/export_50px.png)](/help/export/home.md) [내보내기 안내서](/help/export/home.md) – Data Warehouse, 데이터 피드 등을 통해 Adobe Analytics에서 데이터를 가져옵니다.
+[![내보내기](assets/export_50px.png)](/help/export/home.md)[가이드](/help/export/home.md) - Adobe Analytics에서 데이터 내보내기:데이터 [!UICONTROL 피드를] 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 받습니다. 데이터 웨어하우스를 사용하여 데이터의 스프레드시트 출력을 [!UICONTROL 검색합니다].
 
-[![가져오기](assets/import_50px.png)](/help/import/home.md) [가져오기 안내서](/help/import/home.md) – 외부 소스에서 Analytics로 데이터를 대량으로 또는 실시간으로 가져옵니다. 데이터 소스, 데이터 삽입 API 및 Data Connectors 가 포함됩니다.
+[![가져오기](assets/import_50px.png)](/help/import/home.md) [가져오기 안내서](/help/import/home.md) – 외부 소스에서 Analytics로 데이터를 대량으로 또는 실시간으로 가져옵니다. Includes [!UICONTROL Data Sources], [!UICONTROL Data Insertion API], and [!UICONTROL Data Connectors].
 
-[![통합](assets/integrate_50px.png)](/help/integrate/home.md) [통합 안내서](/help/integrate/home.md) – Audience Manager, Advertising Cloud 또는 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
+[![통합](assets/integrate_50px.png)](/help/integrate/home.md)[](/help/integrate/home.md) 가이드 - Audience Manager, Advertising Cloud, Target 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 
 [![미디어 분석](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)미디어[분석 가이드](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - 오디오 또는 비디오 소스에 대한 분석 구현 Media SDK 및 Media Collection API를 포함합니다.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)Data[Workbench 안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - 데이터 워크벤치 클라이언트, 설치, 데이터 세트 구성 등
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)Data Workbench[안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - 데이터 워크벤치의 유연하고 강력한 다중 채널 기능에 대해 [!UICONTROL 알아봅니다]. 데이터 [!UICONTROL 워크벤치 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 가이드 등이 포함되어 있습니다.
 
 [![TechNote](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics TechNote](/help/technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
