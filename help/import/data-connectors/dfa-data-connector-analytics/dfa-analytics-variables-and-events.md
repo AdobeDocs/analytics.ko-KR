@@ -1,12 +1,11 @@
 ---
 description: DFA용 Data Connectors 통합은 Analytics 변수를 사용하여 DFA 캠페인 결과를 추적합니다.
 keywords: DFA
-solution: Analytics
 title: Analytics 변수 및 이벤트
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
