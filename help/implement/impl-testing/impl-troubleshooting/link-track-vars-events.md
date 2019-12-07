@@ -1,12 +1,11 @@
 ---
 description: 성공적인 링크 추적 구현의 열쇠는 s.linkTrackVars 변수와 s.linkTrackEvents 변수를 이해하는 것입니다. 이 변수들을 이해하면 사용자 작업 시 사용자 지정 변수 값을 전달할 수 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: s.linkTrackVars 및 s.linkTrackEvents 사용
 topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
