@@ -1,11 +1,10 @@
 ---
 description: 워크시트를 보호(셀을 잠그는 방식으로)하면 요청을 만들거나 편집하거나 새로 고칠 수 없습니다. 요청 관리자를 사용하려면 먼저 워크시트의 모든 보호를 해제하십시오.
-solution: Analytics
 title: 보호된 워크시트 요소
 topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
