@@ -1,16 +1,15 @@
 ---
 description: Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 Data Sources를 만들고 관리할 수 있습니다.
 keywords: ftp;sftp
-solution: Analytics
-title: Data Sources
+title: 데이터 소스
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Data Sources
+# 데이터 소스
 
 Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 Data Sources를 만들고 관리할 수 있습니다.
 
