@@ -1,11 +1,10 @@
 ---
 description: 기여도 지표는 성공 이벤트의 전체 크레딧을 방문 동안 전달된 모든 eVar 값에 지정합니다. 기여도 지표는 사이트의 성공에 어느 페이지, 캠페인 또는 다른 사용자 지정 변수 값이 기여하고 있는지를 판단하는 데 유용합니다. 기여도는 방문을 기반으로 합니다. 이벤트가 발생할 때의 히트를 포함하여 이벤트 전의 방문에 있는 모든 eVar 값은 만료 설정에 상관없이 기여도 크레딧을 받습니다.
-solution: Analytics
 title: 기여도
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,14 +13,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 기여도 지표는 성공 이벤트의 전체 크레딧을 방문 동안 전달된 모든 eVar 값에 지정합니다. 기여도 지표는 사이트의 성공에 어느 페이지, 캠페인 또는 다른 사용자 지정 변수 값이 기여하고 있는지를 판단하는 데 유용합니다. 기여도는 방문을 기반으로 합니다. 이벤트가 발생할 때의 히트를 포함하여 이벤트 전의 방문에 있는 모든 eVar 값은 만료 설정에 상관없이 기여도 크레딧을 받습니다.
 
-See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
+Ad Hoc Analysis에서 기여도를 사용하는 방법에 대한 자세한 내용은 [방문자 기여도 - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md)를 참조하십시오.
 
 기여도 지표에는 전환 이벤트당 두 개의 설정이 있습니다.
 
 * **비활성화**: 각 전환 이벤트의 기본 상태입니다. 이 이벤트에 대한 기여도 데이터는 수집되지 않습니다.
 * **활성화**: 이 이벤트에 대한 기여도 데이터가 수집됩니다. 
 
-> [!NOTE] 최대 100개의 사용자 지정 이벤트에 대한 참여를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
+> [!NOTE] 최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
 
 활성화된 기여도 지표는 모든 전환 보고서에서 자동으로 사용할 수 있습니다. 요청에 따라 특정 트래픽 보고서에서도 기여도 지표를 볼 수 있습니다. 선택적으로, 일부 사용자 지정 트래픽 보고서에서 기여도 지표 사용하게 해 달라고 요청할 수 있습니다. 
 
