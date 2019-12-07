@@ -1,12 +1,11 @@
 ---
 description: 보고서 세트 ID를 자동으로 선택하도록 .js 파일을 구성할 수 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 보고서 세트 ID - 다이내믹 계정
 topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
