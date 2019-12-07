@@ -1,11 +1,10 @@
 ---
 description: 데이터 피드는 표준 및 사용자 지정 데이터 피드를 모두 제공하는 Adobe로부터 받은 클릭스트림 데이터의 내보내기입니다.
 keywords: ftp;sftp
-solution: Analytics
 title: 데이터 피드
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: a52516c7746db399ff54a1a4880eeb7ee0ca66e1
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
