@@ -1,11 +1,10 @@
 ---
 description: 데이터 웨어하우스를 사용하면 특별한 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다.
 keywords: ftp;sftp
-solution: Analytics
 title: Data Warehouse 게재된 보고서
 uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
