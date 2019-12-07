@@ -1,11 +1,10 @@
 ---
 description: 관리 기능의 일반 계정 설정 보고서 세트에 대한 필드 설명입니다.
-solution: Analytics
 title: 일반 계정 설정
 topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 22fbe95ec5534694187b2015dd4ed39aa6b9398d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
