@@ -1,11 +1,10 @@
 ---
 description: 사이트 지표 > 사이트 개요 보고서는 로그인 시 표시되며 관련 데이터를 즉시 확인하고 이 데이터와 상호 작용할 수 있도록 해줍니다. 레이아웃을 편집하고 대시보드로 저장하고 보다 심층 있는 분석을 위해 데이터를 드릴다운할 수 있습니다.
-solution: Analytics
 title: 사이트 개요
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
