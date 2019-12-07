@@ -1,11 +1,10 @@
 ---
 description: 마케팅 채널 개요 보고서는 고객이 가장 효율적으로 사이트로 올 수 있는 방법에 대한 높은 수준의 인사이트를 제공합니다. 이 보고서를 사용하면 다양한 채널에 성공 지표와 매출을 할당할 수 있습니다. 가장 성공적인 각 채널에서 특정 캠페인 또는 키워드를 볼 수도 있습니다. 여기에는 처음 및 마지막 지표를 동시에 볼 수 있게 해 주는 고유하고 직관적인 인터페이스가 있습니다.
-solution: Analytics
 title: 마케팅 채널 개요
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,9 +37,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **버전 14 및 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+이 보고서는 **[!UICONTROL 마케팅 채널]** &gt; **[!UICONTROL 채널 개요 보고서]**&#x200B;로 이동하면 액세스할 수 있습니다(메뉴가 사용자 지정되지 않은 경우).
 
-이 보고서에서는 세그멘테이션을 사용할 수 없습니다. 대신 [!UICONTROL 첫 번째 또는 마지막 터치 채널]이나 [!UICONTROL 첫 번째 또는 마지막 터치 세부 사항] 보고서를 참조하십시오.
+이 보고서에서는 세그먼테이션을 사용할 수 없습니다. 대신 [!UICONTROL 첫 번째 또는 마지막 터치 채널]이나 [!UICONTROL 첫 번째 또는 마지막 터치 세부 사항] 보고서를 참조하십시오.
 
 **Ad Hoc Analysis**
 
