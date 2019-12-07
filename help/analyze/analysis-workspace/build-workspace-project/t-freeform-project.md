@@ -1,12 +1,11 @@
 ---
 description: 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
-solution: Analytics
 title: Workspace 프로젝트 만들기
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,23 +14,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 
-이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여줍니다. 특정 사용 사례에 대해서는 분석 작업 [공간에 대한 사용 사례를 참조하십시오](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여줍니다. 특정 사용 사례에 대해서는 [Analysis Workspace 사용 사례](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)를 참조하십시오.
 
-## 프로젝트를 만듭니다
+## 프로젝트를 만듭니다.
 
 1. 프로젝트를 생성하고 조정하는 사용자 권한을 지정합니다.
 
-   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **모든 보고서 액세스]사용자 그룹에 사용자를 추가해야 합니다.[!UICONTROL ** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. (**[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; [그룹](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. [!DNL Experience Cloud]에서 **[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**&#x200B;을 클릭합니다.
 
    ![](assets/analysis_workspace_menu.png)
 
-   Alternatively, enter a forward slash (/) to open the report search bar, then type *`workspace`*.
+   또는, 슬래시(/)를 입력하여 보고서 검색 막대를 연 다음, *`workspace`*&#x200B;를 입력합니다.
 
    ![](assets/analysis-app-search.png)
 
-1. Click **[!UICONTROL Create New Project]**.
+1. **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭합니다.
 
    프로젝트를 다음 중 어느 방법으로 작성할지 선택할 수 있습니다.
 
@@ -41,9 +40,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. 빈 프로젝트에서 프로젝트를 생성하려면 **[!UICONTROL 빈 프로젝트]**&#x200B;를 클릭하십시오.
 
-   * Then click **[!UICONTROL Create]**, or
+   * 그런 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭하거나,
    * 간단히 **[!UICONTROL Enter를 클릭합니다]**.
    자유 형식 패널과 데이터 테이블 시각화를 보여주는 빈 프로젝트가 표시됩니다.
 
@@ -51,7 +50,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >프로젝트에 포함된 모든 구성 요소(지표/차원)가 보고서 세트에 포함되지 않는 프로젝트를 로드하거나 보고서 세트로 전환할 때 "호환되지 않는 보고서 세트" 메시지가 표시되는 경우가 있습니다. 호환되지 않는 구성 요소 목록을 볼 수 있으므로 메시지가 표시되는 이유를 알 수 있습니다.
+   >프로젝트에 포함된 일부 구성 요소(지표/차원)만 보고서 세트에 포함된 경우 프로젝트를 로드할 때(또는 보고서 세트로 전환할 때) "호환되지 않는 보고서 세트" 메시지가 표시되는 경우가 있습니다. 호환되지 않는 구성 요소 목록을 볼 수 있으므로 메시지가 표시되는 이유를 알 수 있습니다.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -86,11 +85,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >이제 인트라 링크는 복사/다른 이름으로 저장한 후 원래 프로젝트에서 복사한 프로젝트가 아니라 현재 있는 프로젝트에 상대적입니다.
+   >이제 인트라 링크는 복사/다른 이름으로 저장하면 복사한 원래 프로젝트가 아닌, 활성 상태인 프로젝트를 기준으로 합니다.
 
 ## 구성 요소 및 시각화 추가 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. 프로젝트로 드래그하여 프로젝트를 *`components`* 제작할 *`visualizations`* 수 있습니다.
+1. *`components`* 및 *`visualizations`*&#x200B;를 프로젝트에 드래그하여 프로젝트를 작성합니다.
 
    **구성 요소**
 
@@ -110,11 +109,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 지표(녹색) </td> 
-   <td colname="col2"> <p>프로젝트 수준에서 적용합니다. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 발생은</span> 데이터 테이블의 기본 지표입니다. </p> </td> 
+   <td colname="col2"> <p>프로젝트 수준에서 적용합니다. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 발생 횟수</span>는 데이터 테이블용 기본 지표입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 세그먼트(파란색) </td> 
-   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > 내용은 분석 작업 공간에</a> 대한 사용 사례를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Analysis Workspace 사용 사례</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 날짜 범위 및 세부기간(자주색) </td> 
