@@ -1,11 +1,10 @@
 ---
 description: 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다.
-solution: Analytics
 title: 로그
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 로그]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 로그]**
 
 ## 관리 로그 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -31,7 +30,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | IP | IP 주소로 로그를 필터링합니다. |
 | 보고서 세트 | 특정 보고서 세트 ID로 로그를 필터링합니다. |
 | 이벤트 유형 | 이벤트 유형으로 로그를 필터링합니다. 드롭다운 목록에서 이벤트 유형을 선택합니다. |
-| 이벤트 | 이벤트 설명의 단어나 구문으로 로그를 필터링합니다. |
+| Event | 이벤트 설명의 단어나 구문으로 로그를 필터링합니다. |
 | 보고서 다운로드 | [!UICONTROL 사용 및 액세스 권한 로그]의 컨텐츠를 탭으로 구분된 파일로 내보냅니다. |
 
 ## 보고서 세트 변경 로그 {#section_3864966639414BBEA871F4D0352F56B6}
@@ -50,6 +49,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 회사 | 회사 이름으로 로그를 필터링합니다. |
 | 로그인 | 사용자 이름으로 로그를 필터링합니다. |
 | IP | IP 주소로 로그를 필터링합니다. |
-| 이벤트 | 이벤트 설명의 단어나 구문으로 로그를 필터링합니다. |
+| Event | 이벤트 설명의 단어나 구문으로 로그를 필터링합니다. |
 | 보고서 다운로드 | [!UICONTROL 사용 및 액세스 권한 로그]의 컨텐츠를 탭으로 구분된 파일로 내보냅니다. |
 
