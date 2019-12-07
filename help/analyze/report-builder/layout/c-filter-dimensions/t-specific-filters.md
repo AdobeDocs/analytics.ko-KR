@@ -1,11 +1,10 @@
 ---
 description: 특정 차원 용어를 적용하는 필터.
-solution: Analytics
 title: 특정 필터
 topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
