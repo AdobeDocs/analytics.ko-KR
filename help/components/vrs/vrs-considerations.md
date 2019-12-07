@@ -1,12 +1,11 @@
 ---
 description: 가상 보고서 세트와 다중 세트 태깅의 이점은 다양합니다. 귀사에 가장 적합한 제품을 살펴보십시오.
 keywords: Virtual Report Suite,VRS
-solution: Analytics
 title: 가상 보고서 세트 및 다중 세트 태깅 고려 사항
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
