@@ -1,17 +1,16 @@
 ---
-description: Adobe Experience Cloud의 Single Sign-On은 Admin Console을 통해 구현됩니다.
-solution: Analytics
+description: Adobe Experience Cloud의 단일 사인온은 Admin Console을 통해 구현됩니다.
 title: 단일 사인온
 topic: Admin tools
 uuid: 4f20dcfa-d148-42ec-9399-1c8d1720333e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 단일 사인온
 
-Adobe Experience Cloud의 Single Sign-On은 Admin Console을 통해 구현됩니다.
+Adobe Experience Cloud의 단일 사인온은 Admin Console을 통해 구현됩니다.
 
-See [Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for help.
+도움이 필요한 경우 [관리 사용 안내서](https://helpx.adobe.com/enterprise/managing/user-guide.html)를 참조하십시오.
