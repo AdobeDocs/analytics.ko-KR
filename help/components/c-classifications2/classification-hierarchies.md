@@ -1,19 +1,18 @@
 ---
-description: '[분류 계층] 페이지를 사용하여 이름이 같은 계층 보고서를 만들기 위해 사용할 수 있는 분류 계층을 정의할 수 있습니다.'
-solution: Analytics
+description: 분류 계층 페이지를 사용하여 이름이 같은 계층 보고서를 만들기 위해 사용할 수 있는 분류 계층을 정의할 수 있습니다.
 subtopic: Classifications
 title: 분류 계층
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 분류 계층
 
-[분류 계층] 페이지를 사용하여 이름이 같은 계층 보고서를 만들기 위해 사용할 수 있는 분류 계층을 정의할 수 있습니다.
+분류 계층 페이지를 사용하여 이름이 같은 계층 보고서를 만들기 위해 사용할 수 있는 분류 계층을 정의할 수 있습니다.
 
 ## 분류 계층 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 분류를 만든 다음 계층에 해당 분류를 추가합니다. 
 
-## Create a Classification Hierarchy {#task_3805EBCACC844261A7125D63D772CCDF}
+## 분류 계층 만들기 {#task_3805EBCACC844261A7125D63D772CCDF}
 
 <!-- 
 
@@ -35,9 +34,9 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
+1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 분류 계층]**&#x200B;을 클릭합니다.
 1. **계층 만들기** 드롭다운 목록에서 분류 계층을 만들려는 변수를 선택합니다.
 
    분류 목록은 선택된 변수에 사용 가능한 분류를 자동으로 표시합니다.
