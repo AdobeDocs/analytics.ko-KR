@@ -1,11 +1,10 @@
 ---
 description: 웹 사이트, 모바일 앱을 통해 수집되거나 웹 서비스 API 또는 데이터 소스를 이용하여 업로드되는 데이터는 Adobe의 Data Warehouse에서 처리되고 저장됩니다. 이 원시 클릭스트림 데이터는 Adobe Analytics에서 사용되는 데이터 세트를 이룹니다.
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Analytics 데이터 피드 개요
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,10 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 데이터 피드 획득의 기본 워크플로우를 이해하면 조직 내의 팀과 함께 Raw 데이터를 데이터베이스에 저장하거나 인제스트할 수 있습니다.
 
-[데이터 피드](create-feed.md)만들기:데이터 피드 만들기에 대한 기술 세부 정보개별 필드를 자세히[설명합니다. 데이터 피드](df-manage-feeds.md)관리:데이터 피드 인터페이스[탐색에 대한 자세한 내용](c-df-contents/datafeeds-contents.md):압축된 파일[내의 내용을 파악데이터 열 정의](c-df-contents/datafeeds-reference.md):사용 가능한 모든 열의 포괄적인 목록
+* [데이터 피드](create-feed.md)만들기:데이터 피드 작성을 위한 기술 세부 정보, 개별 필드 설명
+* [데이터 피드](df-manage-feeds.md)관리:데이터 피드 인터페이스 탐색에 대한 자세한 내용
+* [데이터 피드 컨텐츠](c-df-contents/datafeeds-contents.md):압축된 파일 내의 내용 이해
+* [데이터 열 정의](c-df-contents/datafeeds-reference.md):사용 가능한 모든 열의 포괄적인 목록
 
 ## 추가 리소스
 
