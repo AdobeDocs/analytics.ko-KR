@@ -1,12 +1,11 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
-solution: Analytics
 subtopic: Get started
 title: Reports and Analytics 시작하기
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -107,7 +106,7 @@ Click the Account icon ![](assets/account.png)at the top right, then click the *
     <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
      <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">이름(필수) </li> 
      <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">성(필수) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">제목 </li> 
+     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">직함 </li> 
      <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">이메일 주소(필수) </li> 
      <li id="li_B764239241CE4F1CA74F77D796E7AB1D">전화번호 </li> 
     </ul> </td> 
