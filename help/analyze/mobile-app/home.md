@@ -2,7 +2,7 @@
 title: 모바일 앱
 description: Adobe Analytics 모바일 앱에 대한 제품 설명서 및 자체 도움말
 translation-type: tm+mt
-source-git-commit: 3abe9a29137f85e0c6f8438435663bb7b78a05d0
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -15,6 +15,6 @@ Adobe Analytics 모바일 앱은 Adobe Analytics를 통해 언제 어디서나 �
 
 Analytics 모바일 앱에 대해 다음 베타 설명서를 사용할 수 있습니다.
 
-* 경영진 빠른 시작 안내서:이 안내서는 경영진 사용자가 Analytics 모바일 앱에서 스코어카드를 읽고 해석하도록 돕기 위해 마련되었습니다. 이 앱을 사용하면 모바일 디바이스에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 손쉽게 볼 수 있습니다.
+* [큐레이터 가이드](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html):이 안내서는 데이터 큐레이터가 Analytics 모바일 앱에서 경영진 사용자의 스코어카드를 구성하는 데 도움이 되도록 만들어졌습니다. 큐레이터는 조직 관리자 또는 앱 스코어카드 설정을 담당하는 다른 역할의 사람일 수 있습니다.
 
-* 큐레이터 가이드:이 안내서는 데이터 큐레이터가 Analytics 모바일 앱에서 경영진 사용자의 스코어카드를 구성하는 데 도움이 되도록 만들어졌습니다. 큐레이터는 조직 관리자 또는 앱 스코어카드 설정을 담당하는 다른 역할의 사람일 수 있습니다.
+* [경영진 빠른 시작 안내서](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html):이 안내서는 경영진 사용자가 Analytics 모바일 앱에서 스코어카드를 읽고 해석하도록 돕기 위해 마련되었습니다. 이 앱을 사용하면 모바일 디바이스에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 손쉽게 볼 수 있습니다.
