@@ -1,12 +1,11 @@
 ---
 description: 이 참조 테이블은 마케팅 채널 처리 규칙 페이지에서 선택할 수 있는 필드, 옵션 및 히트 속성을 정의합니다.
-solution: Analytics
 subtopic: Marketing channels
 title: 마케팅 채널 처리 규칙 - 정의
 topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,11 +32,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr>
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud 및 Advertising Analytics 통합에서 사용하는 기본 추적 코드. 이러한 통합 중 하나가 활성화되면 추적 코드 접두사를 사용하여 Advertising Cloud 특정 채널을 식별할 수 있습니다. "AMO ID"는 검색의 경우 "AL", 표시의 경우 "AC", Social의 경우 "AO"로 시작합니다. AMO ID가 마케팅 채널에서 사용될 때 클릭/비용/노출 수 지표는 올바른 채널로 귀속될 수 있습니다(구성하지 않으면 이러한 지표는 직접 또는 없음으로 표시됨). </p> </td> 
+   <td colname="col2"> <p>Advertising Cloud 및 Advertising Analytics 통합에서 사용하는 기본 추적 코드. 이러한 통합 중 하나가 활성화되면 추적 코드 접두사를 사용하여 Advertising Cloud에 대한 채널을 식별할 수 있습니다. AMO ID는 검색의 경우 "AL", 표시의 경우 "AC", 소셜의 경우 "AO"로 시작합니다. AMO ID를 마케팅 채널에서 사용하면 클릭/비용/노출 지표가 적절한 채널에 귀속될 수 있습니다. (구성하지 않으면 이러한 지표는 직접 또는 없음으로 표시됩니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ED ID </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud에서 사용하는 보조 추적 코드. 이 추적 코드의 주요 목적은 데이터를 다시 Ad Cloud로 전송하는 키 역할을 하는 것입니다. 또한 두 개의 별도 마케팅 채널로 보려는 경우 디스플레이 ClickThrough와 디스플레이 ViewThrough를 식별하는 데에도 사용할 수 있습니다. 이 작업은 "AMO EF ID"에 대한 마케팅 채널 논리가 디스플레이 클릭스루 횟수에 대해 ":d"로 종료되거나 "AMO EF ID"가 디스플레이 뷰스루의 경우 ":i"로 끝나게 되면 수행할 수 있습니다. 표시를 두 개의 채널로 분할하지 않으려면 AMO ID 차원을 대신 사용하십시오. </p> </td> 
+   <td colname="col2"> <p>Advertising Cloud에서 사용하는 보조 추적 코드. 이 추적 코드의 주된 목적은 데이터를 다시 Ad Cloud로 전송하는 키의 역할을 하는 것입니다. 또한 두 개의 분리된 마케팅 채널로 보려는 경우 디스플레이 클릭스루와 디스플레이 뷰스루를 식별하는 데 사용할 수도 있습니다. 이 작업은 디스플레이 클릭스루의 경우 ":d"로 끝나고 디스플레이 뷰스루의 경우 ":i"로 끝나는 "AMO EF ID"에 대한 마케팅 채널 논리를 설정하여 수행할 수 있습니다. 디스플레이를 두 개의 채널로 분할하지 않으려면 AMO ID 차원을 대신 사용하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>전환 변수 </p> </td> 
@@ -47,14 +46,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col1"> <p>존재 </p> </td> 
    <td colname="col2"> <p>다음을 포함하여 여러 가지 선택 사항이 있습니다. </p> <p> 
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
-      <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol">존재하지 않음</span>: 히트 속성이 요청에 존재하지 않음을 나타냅니다. 예를 들어 추천 도메인에서 사용자가 URL을 입력하거나 책갈피를 클릭할 경우, 추천 도메인 속성이 존재하지 않습니다. </p> </li> 
+      <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol">존재하지 않음</span>: 히트 속성이 요청에 존재하지 않음을 나타냅니다. 예를 들어 참조 도메인에서 사용자가 URL을 입력하거나 책갈피를 클릭할 경우, 참조 도메인 속성이 존재하지 않습니다. </p> </li> 
       <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> 비어 있음</span>: eVar 또는 쿼리 문자열 매개 변수 같은 히트 속성이 존재하지만 히트 속성과 연관된 값은 없다는 것을 나타냅니다. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> 포함하지 않음 </span>:예를 들어, 참조 도메인에 특정 값이 포함되지 않도록 지정할 수 있습니다(포함 선택 항목 사용 대신). <span class="term"></span> </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> 포함하지 않음:</span> 가령 참조 도메인이 특정 값을 포함하지 않음을 지정할 수 있습니다(<span class="term">포함</span>을 선택하는 경우와 반대). </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 채널 식별 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">마케팅 채널 관리자</span> 페이지에 추가한 마케팅 채널과 규칙을 연관시킵니다. </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">마케팅 채널 관리자</span> 페이지에 추가한 마케팅 채널과 규칙을 연관시킵니다. </p> <p><a href="/help/components/c-marketing-channels/c-channels.md"   >마케팅 채널 추가</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>유료 검색 발견 규칙 일치 </p> </td> 
@@ -66,11 +65,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>레퍼러가 내부 URL 필터를 일치시킴 </p> </td> 
-   <td colname="col2"> <p> 페이지 URL이 관리 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하는 방문입니다. </p> </td> 
+   <td colname="col2"> <p> 페이지 URL이 관리자 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하는 방문입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>레퍼러가 내부 URL 필터를 일치시키지 않음 </p> </td> 
-   <td colname="col2"> <p>참조하는 URL이 관리 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하지 않습니다. 이 설정을 <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>참조하는 URL이 관리 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하지 않습니다. 이 설정을 <span class="term">페이지 URL</span> 및 <span class="term">존재</span>와 함께 사용하여 보고서의 <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" >식별된 채널 없음</a> 섹션에 도착하는 방문이 없도록 다목적 캐치(catch-all) 규칙을 설정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>내부 URL 필터와 일치하는 히트 무시 </p> </td> 
@@ -82,7 +81,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 </p> </td> 
-   <td colname="col2"> <p>Adobe의 웹 비콘을 사용하여 태그되는 사이트의 웹 페이지의 페이지 이름. This value is equivalent to <span class="varname"> s.pageName </span>. 예로는 홈 <span class="varname"> 페이지 </span> 및 <span class="varname"> 정보 등이 </span>있습니다. </p> </td> 
+   <td colname="col2"> <p>Adobe의 웹 비콘을 사용하여 태그를 추가하는 사이트 웹 페이지의 페이지 이름. 이 값은 <span class="varname">s.pageName</span>과 같습니다. 예로는 <span class="varname">홈 페이지</span> 및 <span class="varname">정보</span> 등이 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 도메인 </p> </td> 
@@ -106,7 +105,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿼리 문자열 매개 변수 </p> </td> 
-   <td colname="col2"> <p>If a page URL on your site looks like <span class="filepath"> https://example.com/?page=12345&amp;cat=1 </span>, then page and cat are both query string parameters. (See <span class="filepath"> https://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>규칙 세트당 하나의 쿼리 문자열 매개 변수만 지정할 수 있습니다. 쿼리 문자열 매개 변수를 추가하려면 연산자로 <span class="uicontrol">ANY</span>를 사용한 다음, 새 쿼리 문자열 매개 변수를 규칙에 추가하십시오. </p> </td> 
+   <td colname="col2"> <p>사이트의 페이지 URL이 <span class="filepath">https://example.com/?page=12345&amp;cat=1</span>과 유사하면 page와 cat 모두 쿼리 문자열 매개 변수입니다. <span class="filepath">https://en.wikipedia.org/wiki/Query_string</span>을 참조하십시오. </p> <p>규칙 세트당 하나의 쿼리 문자열 매개 변수만 지정할 수 있습니다. 쿼리 문자열 매개 변수를 추가하려면 연산자로 <span class="uicontrol">ANY</span>를 사용한 다음, 새 쿼리 문자열 매개 변수를 규칙에 추가하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>레퍼러 </p> </td> 
@@ -137,11 +136,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>검색 엔진을 고유하게 식별하는 검색 키워드 및 검색 엔진의 연결. 예를 들어 computer라는 단어를 검색하는 경우, 검색 엔진과 키워드는 다음과 같이 식별됩니다. </p> 
     <code>
       Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
-    </code> <p><b></b> 참고:n = natural;p = 유료 </p> </td> 
+    </code> <p><b>참고:</b> n = 자연어, p = 유료 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>채널의 값을 다음으로 설정 </p> </td> 
-   <td colname="col2"> <p>방문자를 사이트로 유도하는 마케팅 채널을 파악할 수 있을 뿐만 아니라, 방문자의 사이트 활동에 대한 크레딧을 얻는 채널 내의 배너 광고, 검색 키워드 또는 이메일 캠페인을 파악할 수 있습니다. 이 ID는 채널과 함께 저장되는 채널 값입니다. 종종 이 값은 랜딩 페이지 또는 참조 URL에 삽입되는 캠페인 ID입니다. 또한 검색 엔진 및 검색 키워드 조합이거나 특정 채널에서 온 방문자를 가장 올바르게 식별하는 참조 URL일 수도 있습니다. </p> </td> 
+   <td colname="col2"> <p>어떤 마케팅 채널이 방문자를 사이트로 유도하는지를 파악하는 것 외에, 방문자의 사이트 활동에서 크레디트를 유발하는 배너 광고, 검색 키워드 또는 채널 내 이메일 캠페인을 파악할 수 있습니다. 이 ID는 채널과 함께 저장되는 채널 값입니다. 종종 이 값은 랜딩 페이지 또는 참조 URL에 삽입되는 캠페인 ID입니다. 또한 검색 엔진 및 검색 키워드 조합이거나 특정 채널에서 온 방문자를 가장 올바르게 식별하는 참조 URL일 수도 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
