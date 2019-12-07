@@ -1,13 +1,12 @@
 ---
 description: getVisitNum 플러그인은 사용자의 사이트 방문 수를 결정하고 이 값을 Analytics 변수에 캡처합니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getVisitNum
 topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
