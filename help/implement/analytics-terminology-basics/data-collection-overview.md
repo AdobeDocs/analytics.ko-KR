@@ -1,12 +1,11 @@
 ---
 description: 웹 사이트 방문 수가 Adobe Analytics에서 보고서가 되는 방식에 대해 알아봅니다.
 keywords: Analytics Implementation;data collection
-solution: Analytics
 title: 데이터 수집
 topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
