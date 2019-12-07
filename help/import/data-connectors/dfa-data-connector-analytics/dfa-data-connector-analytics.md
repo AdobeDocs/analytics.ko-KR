@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: DFA
-solution: Analytics
 title: Adobe Analytics용 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -89,13 +88,13 @@ Floodlight Server가 방문자에 대해 오류로 응답하는 경우가 있습
 |---|---|---|---|
 | 매일 밤 DFA 클릭 및 노출 지표 | 예 | 예 | 예 |
 | 클릭스루 및 뷰스루 추적 | 예 | 예 | 예 |
-| 통합은 광고주 수준에서 데이터 수신 | 아니요 | 예 | 예 |
+| 통합은 광고주 수준에서 데이터 수신 | 아니오 | 예 | 예 |
 | 통합은 Floodlight 구성 수준에서 데이터 수신 | 아니오 | 아니오 | 예 |
 | 비용 지표 | 아니오 | 아니오 | 예 |
 | 광고 소재 지표 | 아니오 | 아니오 | 예 |
-| 2kb 이상의 쿼리 문자열 | 아니요 | 예 | 예 |
-| 최적의 타사 데이터 수집에 통합 모듈 사용 | 아니요 | 예 | 예 |
-| 시간 초과 및 오류 추적 | 아니요 | 예 | 예 |
+| 2kb 이상의 쿼리 문자열 | 아니오 | 예 | 예 |
+| 최적의 타사 데이터 수집에 통합 모듈 사용 | 아니오 | 예 | 예 |
+| 시간 초과 및 오류 추적 | 아니오 | 예 | 예 |
 | 협의된 클라이언트측 ID에는 필요하지 않음 | 아니오 | 아니오 | 예 |
 
 ### 버전 1.5 정보 {#section-b5a3e967cfa141ea8f740612336181be}
