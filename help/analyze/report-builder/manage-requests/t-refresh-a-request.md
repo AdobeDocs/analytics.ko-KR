@@ -1,11 +1,10 @@
 ---
 description: 요청을 편집이나 필터로 업데이트한 후 새로 고칩니다. 그렇지 않으면 최근의 데이터를 더 많이 보아야 합니다. 워크시트에 있는 몇 개의 요청을 선택하고 한 번에 모두 새로 고칠 수 있습니다.
-solution: Analytics
 title: 요청 새로 고침
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
