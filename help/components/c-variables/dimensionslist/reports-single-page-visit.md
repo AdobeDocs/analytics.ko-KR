@@ -1,11 +1,10 @@
 ---
 description: Ad Hoc Analysis의 단일 페이지 방문 지표와는 다릅니다. 단일 페이지 방문 보고서는 웹 사이트 방문자가 다른 페이지를 보는 단계를 수행하지 않고 시작 및 종료한 웹 페이지를 표시합니다.
-solution: Analytics
 title: 단일 페이지 방문
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Ad Hoc Analysis의 단일 페이지 방문 지표와는 다릅니다. 단일 페
 * 보고서의 컨텍스트에서 변수에 단일 고유 값이 포함되어 있으면 단일 페이지 방문이 여러 이미지 요청으로 구성될 수 있습니다. 두 번째 고유 값을 채우면 방문은 더 이상 단일 페이지 방문으로 간주되지 않습니다.
 * 이 보고서는 경로 지정 보고서 유형으로 간주됩니다. 기본적으로 [!UICONTROL 페이지] 변수에는 경로 지정이 활성화되어 있습니다. 모든 트래픽 변수는 이 기능도 가지고 있습니다. 추가 트래픽 변수에 대한 경로 지정 활성화에는 계약이 적용됩니다. 자세한 내용은 조직의 계정 관리자에게 문의하십시오.
 * 이 보고서에서 검색 필터를 사용하여 특정 라인 항목을 찾을 수 있습니다.
-* 이 보고서는 트렌드 [및](/help/components/c-variables/dimensionslist/reports-types.md) 등급 [](/help/components/c-variables/dimensionslist/reports-types.md) 형식
+* 이 보고서는 [트렌드](/help/components/c-variables/dimensionslist/reports-types.md) 및 [등급](/help/components/c-variables/dimensionslist/reports-types.md) 형식 모두로 볼 수 있습니다.
 
 * 이 보고서에서는 상세 분류를 사용할 수 없습니다.
 * 이 보고서에서는 [!UICONTROL 방문] 지표만 사용할 수 있습니다.
