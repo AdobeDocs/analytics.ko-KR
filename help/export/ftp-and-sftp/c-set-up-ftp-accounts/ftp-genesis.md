@@ -1,11 +1,10 @@
 ---
 description: 데이터 커넥터를 사용하여 Adobe 파트너와 통합할 때 Adobe는 재마케팅 또는 기타 데이터를 사용자나 파트너가 다운로드할 수 있는 FTP 계정에 푸시할 수 있습니다.
 keywords: ftp;sftp
-solution: Analytics
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
