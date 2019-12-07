@@ -1,11 +1,10 @@
 ---
 description: Adobe Activity Map에 대한 추가 정보 리소스에 액세스합니다.
-solution: Analytics
 title: 기술 자료 리소스
 topic: Activity map
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
