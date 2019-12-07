@@ -1,12 +1,11 @@
 ---
 description: Analytics에서 마케팅 채널 보고서에 계산된 지표를 추가합니다.
-solution: Analytics
 subtopic: Marketing channels
 title: 마케팅 채널 보고서를 사용한 계산된 지표
 topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,17 +22,17 @@ Reports &amp; Analytics에서 만든 계산된 지표는 [!UICONTROL 마케팅 �
 
 마케팅 채널 개요 보고서에서 계산된 지표를 추가합니다. 보고서에는 최대 4개의 지표를 추가할 수 있습니다.
 
-1. Open a [!UICONTROL Marketing Channel Overview Report].
+1. [!UICONTROL 마케팅 채널 개요 보고서]를 엽니다.
 
-   See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md).
+   [마케팅 채널 보고서 실행](/help/components/c-marketing-channels/t-reports-sc.md)을 참조하십시오.
 
-1. **[!UICONTROL 보고서에서 편집을]**&#x200B;클릭합니다. ![](assets/metric_edit_icon.png)
+1. 보고서에서 **[!UICONTROL 편집]** ![](assets/metric_edit_icon.png)을 클릭합니다.
 
    >[!NOTE]
    >
-   >If you are viewing a [!UICONTROL First Touch] or [!UICONTROL Last Touch] detail report, click **[!UICONTROL Add Metrics]** to select a metric.
+   >[!UICONTROL 첫 번째 터치] 또는 [!UICONTROL 마지막 터치] 세부 사항 보고서를 보고 있는 경우에는 **[!UICONTROL 지표 추가]**&#x200B;를 클릭하여 지표를 선택합니다.
 
 1. [!UICONTROL 계산된 지표]로 스크롤한 다음 계산된 지표를 두 번 클릭합니다.
 
-   계산된 지표가 없는 경우에는 **[!UICONTROL 만들기]를 클릭하여 여기에서 지표를 정의합니다.** See the [Calculated Metrics Guide](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) for more information.
+   계산된 지표가 없는 경우에는 **[!UICONTROL 만들기]를 클릭하여 여기에서 지표를 정의합니다.** 자세한 내용은 [계산된 지표 안내서](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)를 참조하십시오.
 1. **[!UICONTROL 저장을 클릭합니다.]**
