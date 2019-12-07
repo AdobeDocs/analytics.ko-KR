@@ -1,11 +1,10 @@
 ---
 description: Activity Map 도구 모음 내에서 Adobe Analytics의 전체 지표 세트에 액세스할 수 있습니다.
-solution: Analytics
 title: 전체 지표 세트
 topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
