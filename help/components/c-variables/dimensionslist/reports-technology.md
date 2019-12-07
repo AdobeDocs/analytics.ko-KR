@@ -1,11 +1,10 @@
 ---
 description: 이 보고서는 방문자가 사용하는 브라우저, 운영 체제, 모니터 해상도 등에 대한 정보를 표시합니다.
-solution: Analytics
 title: 기술
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 모니터 색상 깊이 </td> 
-   <td colname="col2"> <p> 컴퓨터에 구성된 대로 방문자의 가장 널리 사용되는 색상 깊이 설정을 표시합니다. 색상 깊이는 화면에 표시할 수 있는 색상 수를 말합니다. </p> </td> 
+   <td colname="col2"> <p> 컴퓨터에 구성된 대로 방문자가 가장 많이 사용하는 색상 깊이를 표시합니다. 색상 깊이는 화면에 표시할 수 있는 색상 수를 말합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 모니터 해상도 </td> 
@@ -60,7 +59,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript 버전 </td> 
-   <td colname="col2"> <p> 방문자가 사이트를 보는 동안 브라우저가 사용하는 JavaScript 버전을 표시합니다. </p> </td> 
+   <td colname="col2"> <p> JavaScript 버전 보고서는 방문자가 사이트에 있는 동안 브라우저가 사용한 JavaScript의 버전을 표시합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 쿠키 </td> 
