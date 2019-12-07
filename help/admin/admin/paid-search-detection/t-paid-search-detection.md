@@ -1,24 +1,23 @@
 ---
 description: 유료 검색 감지를 구성하는 방법을 설명하는 단계입니다.
-solution: Analytics
-title: 유료 검색 탐지 구성
+title: 유료 검색 감지 구성
 topic: Admin tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 유료 검색 탐지 구성
+# 유료 검색 감지 구성
 
 유료 검색 감지를 구성하는 방법을 설명하는 단계입니다.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the [!UICONTROL Report Suite Manager].
-1. 보고서 세트 선택.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**.
-1. 유료 검색 [!UICONTROL 감지] 페이지에서 유료 검색 감지 - [설명에 설명된 필드를 구성합니다](/help/admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D).
-1. **[!UICONTROL 추가를 클릭합니다]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭하여 [!UICONTROL 보고서 세트 관리자]를 엽니다.
+1. 보고서 세트를 선택합니다.
+1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 유료 검색 감지]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 유료 검색 감지] 페이지에서 [유료 검색 감지 - 설명](/help/admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D)에 설명된 필드를 구성합니다.
+1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 [!UICONTROL 현재 유료 검색 감지 규칙] 목록에서 현재 유료 검색 감지 규칙을 표시합니다.
 
