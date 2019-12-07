@@ -1,12 +1,11 @@
 ---
 description: 책갈피를 이용하여 가장 많이 사용하는 보고서에 액세스할 수 있습니다. 사용자가 만드는 책갈피는 Experience Cloud에 추가되고 Data Connectors와 같은 통합 기능에서 사용할 수 있습니다.
-solution: Analytics
 subtopic: Bookmarks
 title: 북마크 관리자
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-    |이름|이 책갈피에 대한 사용자 친화적인 이름입니다.|
-    |---|---|     
-    |추가 대상|책갈피를 배치할 폴더를 지정합니다.|     
-    |공개하기| 보고서 세트에 액세스할 수 있는 사용자가 이 책갈피를 사용할 수 있도록 합니다.|    
-    |로그인 시 보고서 표시 | 로그인할 때 보고서를 표시합니다.|
+       |이름|이 책갈피에 대한 사용자 친화적인 이름입니다.
+    |
+ |—|—|     |추가 대상|책갈피를 배치할 폴더를 지정합니다.
+|     |공개하기| 보고서 세트에 액세스할 수 있는 사용자가 이 책갈피를 사용할 수 있도록 합니다.
+|     |로그인 시 보고서 표시 | 로그인할 때 보고서를 표시합니다.|
    
 ## 책갈피 관리 {#task_1EE793CB52EA467787817BBD98DEF150}
 
