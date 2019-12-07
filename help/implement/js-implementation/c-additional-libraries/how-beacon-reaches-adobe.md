@@ -1,12 +1,11 @@
 ---
 description: 모바일 장치가 웹 서버의 페이지를 요청하면, 이 요청은 게이트웨이를 통해 전송되어 모바일 요청(보통 WAP 또는 I-Mode 프로토콜에서)이 웹 서버로 전송되는 HTTP 요청으로 전환됩니다.
 keywords: Analytics Implementation;gateway;wap;i-mode;wbmp
-solution: Analytics
 title: 모바일 프로토콜 네트워크 게이트웨이
 topic: Developer and implementation
 uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
