@@ -1,11 +1,10 @@
 ---
 description: 한 소스 통합 문서의 한 스프레드시트 전체를 하나 이상의 대상 통합 문서에 있는 한 스프레드시트에 복사합니다.
-solution: Analytics
 title: 통합 문서 간 요청 및 워크시트 복사
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
