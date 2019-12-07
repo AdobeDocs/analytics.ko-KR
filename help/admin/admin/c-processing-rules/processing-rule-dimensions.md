@@ -1,12 +1,11 @@
 ---
 description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
-solution: Analytics
 subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>사용자 지정 값 </p> </td> 
-   <td colname="col2"> <p>처리 규칙 동작 시 직접 입력된 사용자 지정 텍스트 또는 값 이러한 값은 후속 조건 및 규칙에서 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>처리 규칙 동작 시 직접 입력된 사용자 지정 텍스트 또는 값. 이러한 값은 후속 조건 및 규칙에서 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>연결된 값 </p> </td> 
@@ -39,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 </p> </td> 
-   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고서에 표시될 수 있도록 보고 변수로 복사되어야 합니다. 컨텍스트 데이터 변수는 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 컨텍스트 데이터 변수를 eVar에 복사 </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 컨텍스트 데이터 변수</a> </p> </td> 
+   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고 변수로 복사되어야 보고서에 표시됩니다. 컨텍스트 데이터 변수가 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> eVar에 컨텍스트 데이터 변수 복사 </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 컨텍스트 데이터 변수</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +88,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 이름 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 페이지 보기는 페이지 이름이 비어있지 않은 모든 히트에서 계산에 포함됩니다. 링크가 추적되면, 페이지 보기가 계산에 포함되지 않도록 데이터 수집 서버가 히트에서 페이지 이름을 제거합니다. 처리 규칙을 사용하여 이 호출에 페이지 이름을 다시 삽입하면, 페이지 보기가 계산에 포함됩니다. 페이지 이름이 이미 설정되어 있다는 것을 확실히 하려면 페이지 이름을 수정하기 전에 확인하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 페이지 보기는 페이지 이름이 비어 있지 않은 모든 히트에서 계산에 포함됩니다. 링크가 추적되면, 페이지 보기가 계산에 포함되지 않도록 데이터 수집 서버가 히트에서 페이지 이름을 제거합니다. 처리 규칙을 사용하여 이 호출에 페이지 이름을 다시 삽입하면, 페이지 보기가 계산에 포함됩니다. 페이지 이름이 이미 설정되어 있다는 것을 확실히 하려면 페이지 이름을 수정하기 전에 확인하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 URL </p> </td> 
@@ -97,11 +96,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿼리 문자열 매개 변수 </p> </td> 
-   <td colname="col2"> <p>현재 URL에 지정된 쿼리 문자열 매개 변수의 값이거나 매개 변수가 없을 경우에는 null입니다. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 페이지 URL이 255자 이후에 잘릴 수 있습니다. JavaScript AppMeasurement H.25.3(2013년 1월 릴리스) 이후 버전은 처리 규칙에 전체 URL을 제공합니다. </p> </td> 
+   <td colname="col2"> <p>현재 URL에 지정된 쿼리 문자열 매개 변수의 값이거나 매개 변수가 없을 경우에는 null입니다. URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>의 경우 쿼리 문자열 매개 변수 <span class="syntax codeph"> cid</span>의 값은 <b>ad1</b>이고, 쿼리 문자열 매개 변수 <span class="syntax codeph"> node</span>값은 <b>4</b>입니다. </p> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 페이지 URL이 255자 이후에 잘릴 수 있습니다. JavaScript AppMeasurement H.25.3(2013년 1월 릴리스) 이후 버전은 처리 규칙에 전체 URL을 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 경로 </p> </td> 
-   <td colname="col2"> <p>페이지 URL의 경로. The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>페이지 URL의 경로. URL <b>https://www.example.com/news/a.html?cid=ad1</b>의 경로는 <span class="syntax codeph"> news/a.html</span>입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 도메인 </p> </td> 
@@ -121,7 +120,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>참조 쿼리 문자열 매개 변수(읽기 전용) </p> </td> 
-   <td colname="col2"> <p>참조 URL에 지정된 쿼리 문자열 매개 변수의 값이거나 매개 변수가 없을 경우에는 null입니다. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 페이지 URL이 255자 이후에 잘릴 수 있습니다. JavaScript AppMeasurement H.25.3(2013년 1월 릴리스) 이후 버전은 처리 규칙에 전체 URL을 제공합니다. </p> </td> 
+   <td colname="col2"> <p>참조 URL에 지정된 쿼리 문자열 매개 변수의 값이거나 매개 변수가 없을 경우에는 null입니다. URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>의 경우 쿼리 문자열 매개 변수 <span class="syntax codeph"> cid</span>의 값은 <b>ad1</b>이고, 쿼리 문자열 매개 변수 <span class="syntax codeph"> node</span>값은 <b>4</b>입니다. </p> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 페이지 URL이 255자 이후에 잘릴 수 있습니다. JavaScript AppMeasurement H.25.3(2013년 1월 릴리스) 이후 버전은 처리 규칙에 전체 URL을 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>참조 도메인(읽기 전용) </p> </td> 
@@ -202,7 +201,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 이벤트 </th> 
+   <th colname="col1" class="entry"> Event </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
