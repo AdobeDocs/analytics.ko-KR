@@ -1,11 +1,10 @@
 ---
 description: 선택한 시간, 일, 주, 월, 분기 또는 연도의 고유 사이트 방문자 수를 표시합니다. 고유 방문자는 선택한 기간 동안 한 번만 계산됩니다. 사이트를 재방문하는 방문자는 해당 기간이 경과할 때까지 고유 사용자로 계산되지 않습니다.
-solution: Analytics
 title: 방문자 수
 topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
