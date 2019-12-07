@@ -1,12 +1,11 @@
 ---
 description: 이 섹션에는 처리 규칙을 테스트하기 위한 지침과 피해야 할 일반적인 실수 목록이 들어 있습니다.
-solution: Analytics
 subtopic: Processing rules
 title: 처리 규칙 팁과 트릭
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,15 +20,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **검색어를 읽는 규칙 테스트**
 
-prop1에 "news"가 포함되어 있는 경우처럼 검색을 기반으로 하는 기준의 경우 prop 1 보고서로 이동하여 "news"를 검색하여 예상하지 못한 일치하는 항목이 있는지 확인하십시오.
+prop1이 "news"를 포함하는 경우처럼 검색을 기반으로 한 기준의 경우 prop 1 보고서로 이동하고 "news"를 검색하여 예상하지 않은 일치 항목이 있는지 확인하십시오.
 
 **변수를 읽는 규칙 테스트**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. 규칙이 참조, 참조 도메인 등에 기준할 경우 라이브 레퍼러 보고서에서 몇 가지 샘플 URL을 가져와서 `s.referrer` 변수를 이러한 값 중 하나로 설정하고 페이지를 로드합니다. 마찬가지로, 규칙이 페이지 URL 값에 기준하면 `s.pageURL`을 설정할 수 있습니다. 모든 변수에 이 동일한 프로세스를 사용할 수 있습니다.
+데스크탑에서 빈 HTML 페이지를 만들고 사이트의 s_code를 포함한 다음 `s.account` 변수를 개발 보고서 세트로 설정합니다. 규칙이 레퍼러, 참조 도메인 등을 기준으로 할 경우 라이브 레퍼러 보고서에서 몇 가지 샘플 URL을 가져와서 `s.referrer` 변수를 이러한 값 중 하나로 설정하고 페이지를 로드합니다. 마찬가지로, 규칙이 페이지 URL 값을 기준으로 하면 `s.pageURL`을 설정할 수 있습니다. 모든 변수에 이 동일한 프로세스를 사용할 수 있습니다.
 
 **Dev 보고서 세트 사용**
 
-개발 보고서 세트에 처리 규칙을 구성하여 제대로 작동하는지 확인하는 것이 좋습니다. 가능한 경우 널리 배포하기 전에 작은 프로덕션 보고서 세트에 규칙을 복사하는 것이 좋습니다.
+개발 보고서 세트에 처리 규칙을 구성하여 올바르게 작동하는지 확인하는 것이 좋습니다. 가능한 경우 널리 배포하기 전에 작은 프로덕션 보고서 세트에 규칙을 복사하는 것이 좋습니다.
 
 ## 빈 값 확인 {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -37,7 +36,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-처리 순서를 고려하는 것 또한 중요합니다. 다음 예에서는 페이지 이름이 없을 경우 이전 페이지 이름 사용자 지정 eVar가 URL로 설정되는 것으로 나타납니다. 그러나 URL은 처리 규칙이 적용된 후 페이지 이름에 배치되므로, 이 경우 페이지 이름이 페이지에 설정되지 않으면 비어 있습니다.
+처리 순서를 고려하는 것 또한 중요합니다. 다음 예제에서는 페이지 이름이 없을 경우 이전 페이지 이름 사용자 지정 eVar가 URL로 설정된다고 표시됩니다. 그러나 URL은 처리 규칙이 적용된 후 페이지 이름에 배치되므로, 이 경우 페이지 이름이 페이지에 설정되지 않으면 비어 있습니다.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
