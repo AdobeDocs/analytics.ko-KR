@@ -1,11 +1,10 @@
 ---
 description: 보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
-solution: Analytics
 title: 보고서 사용자 지정 개요
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -49,7 +48,7 @@ t_reports_select_date.xml
 
  -->
 
-특정 일, 주, 월 또는 연도를 선택할 수 있습니다. 비교 보고서를 실행할 수도 있습니다에서 보냅니다.
+특정 일, 주, 월 또는 연도를 선택할 수 있습니다. 비교 보고서를 실행할 수도 있습니다.
 
 날짜 범위가 다른 reportlet을 사용하여 대시보드를 열 때 달력에서 새 날짜 범위를 선택할 수 있습니다. 변경 사항이 대시보드의 모든 reportlet에 적용됩니다.
 
@@ -59,7 +58,7 @@ t_reports_select_date.xml
 1. 오른쪽 상단에 있는 달력 아이콘을 클릭합니다.
 1. 날짜를 선택합니다.
 
-   다음을 수행할 수 있습니다.
+   :
 
    * 일, 월 또는 년과 같은 기간을 최대 세 개까지 봅니다.
    * 날짜에서 커서를 드래그하여 범위를 선택합니다.
