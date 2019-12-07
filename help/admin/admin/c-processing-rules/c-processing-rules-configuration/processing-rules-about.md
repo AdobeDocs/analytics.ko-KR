@@ -1,12 +1,11 @@
 ---
 description: 처리 규칙을 사용하여 정의된 조건을 기준으로 데이터를 변경할 수 있습니다. 속성 또는 값이 정의된 조건과 일치하는 경우 값을 설정하고 삭제할 수 있으며 이벤트를 설정할 수 있습니다.
-solution: Analytics
 subtopic: Processing rules
 title: 처리 규칙 작동 방식
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,11 +38,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 저장 후 즉시 보고서 세트에 적용됩니다. </p> </td> 
-   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="/help/admin/admin/realtime/t-realtime-admin.md"> 실시간 보고서</a>를 구성하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 컨텍스트 데이터 변수에 액세스할 수 있는 유일한 방법입니다. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 컨텍스트 데이터 변수를 eVar에 복사 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> eVar에 컨텍스트 데이터 변수 복사 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 및 마케팅 채널 규칙 이전에 처리 규칙이 적용됩니다. </p> </td> 
@@ -62,7 +61,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>모바일 장치 조회가 처리 규칙 전에 발생하지만 속성은 처리 규칙에서 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 쿼리 문자열 매개 변수는 URL의 처음 255자 이상을 읽을 수 없습니다. JavaScript AppMeasurement H.25.3 이상에서는 처리 규칙에 모든 쿼리 문자열 매개 변수를 포함하는 전체 URL을 제공합니다. </p> </td> 
+   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 이전 버전을 실행하는 경우 쿼리 문자열 매개 변수는 URL의 처음 255자 이상을 읽을 수 없습니다. JavaScript AppMeasurement H.25.3 및 이후 버전은 모든 쿼리 문자열 매개 변수를 포함한 전체 URL을 처리 규칙에 제공합니다. </p> </td> 
    <td colname="col2"> <p>H.25.3 이후 버전으로 업그레이드하거나 긴 URL 클라이언트측에서 쿼리 문자열 매개 변수를 읽고 컨텍스트 데이터 변수에 값을 저장하십시오. </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +82,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 이름에는 영숫자, 밑줄, 점만 포함될 수 있습니다. 추가된 모든 문자는 제거됩니다. </p> </td> 
-   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>지원되지 않는 문자가 포함된 컨텍스트 데이터 변수는 처리 규칙 인터페이스에 추가될 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>예를 들어 컨텍스트 데이터 변수 <code> login_page-home</code>은 자동으로 <code> login_pagehome</code>이 됩니다. <code> login_page-home</code> 변수로 전송된 모든 데이터는 <code> login_pagehome</code>에 할당됩니다. </p> <p>지원되지 않는 문자가 포함된 컨텍스트 데이터 변수는 처리 규칙 인터페이스에 추가될 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>삽입 기호(^)는 처리 규칙 시스템에서 특수 문자입니다. </p> </td> 
@@ -104,4 +103,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 작업은 페이지 변수를 설정하거나, 페이지 변수를 삭제하거나 이벤트를 트리거합니다. 또한 작업은 보고서에 표시할 값을 연결할 수 있습니다. 
 
-For example, you might want to display `category:product` by concatenating two variables.
+예를 들어 두 변수를 연결하여 `category:product`를 표시할 수 있습니다.
