@@ -1,12 +1,11 @@
 ---
 description: 방문자 마이그레이션은 방문자 ID 쿠키를 하나의 도메인에서 다른 도메인으로 마이그레이션하는 프로세스입니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 방문자 마이그레이션
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
