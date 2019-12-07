@@ -1,12 +1,11 @@
 ---
 description: 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
-solution: Analytics
 subtopic: Data sources
 title: 전체 처리
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -231,7 +230,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col2"> <p>속성에 대한 속성 값. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>referrer </p> </td> 
+   <td colname="col1"> <p>레퍼러 </p> </td> 
    <td colname="col2"> <p>페이지 레퍼러의 URL. </p> </td> 
   </tr> 
   <tr> 
