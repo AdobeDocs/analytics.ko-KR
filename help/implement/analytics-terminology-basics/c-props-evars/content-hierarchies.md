@@ -1,12 +1,11 @@
 ---
 description: 컨텐츠 계층의 일반적인 용도는 방문자가 특정 페이지, 수준 등에서 택한 다양한 경로를 보여주는 것입니다.
 keywords: Analytics Implementation;content hierachies;hier
-solution: Analytics
 title: 콘텐츠 계층 계산
 topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
