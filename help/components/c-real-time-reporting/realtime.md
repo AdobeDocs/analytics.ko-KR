@@ -1,22 +1,21 @@
 ---
-description: 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 횟수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
-solution: Analytics
+description: 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 title: 실시간 보고 개요
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 실시간 보고 개요
 
-실시간 보고에서는 웹 페이지 트래픽을 표시하고 실시간으로 페이지 보기 횟수를 분류합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
+실시간 보고는 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 
 >[!NOTE]
 >
->실시간 보고서는 추가 구현 또는 태그 지정이 필요하지 않습니다. 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/components/c-real-time-reporting/t-realtime-admin.md).
+>실시간 보고서는 추가적인 구현이나 태깅을 필요로 하지 않으며, 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 실시간]**
 
@@ -30,8 +29,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 관리자라면,
 
-* 기존 측정기준이나 분류와 지표를 사용하여 보고서 세트당 최대 3개의 실시간 보고서를 만들 수 있습니다. 보조 측정기준을 사용하여 기본 측정기준과의 상관 관계를 지정하거나 분류할 수 있습니다.
-* 1개의 사이트 전체 지표 이외에 보고서당 3개의 측정기준(또는 분류)(기본 하나와 보조 두 개)을 추가할 수 있습니다.
+* 기존 차원이나 분류와 지표를 사용하여 보고서 세트당 최대 3개의 실시간 보고서를 만들 수 있습니다. 보조 차원을 사용하여 기본 차원과의 상관 관계를 지정하거나 분류할 수 있습니다.
+* 1개의 사이트 전체 지표 이외에 보고서당 3개의 차원(또는 분류)(기본 하나와 보조 두 개)을 추가할 수 있습니다.
 * 모든 사용자 지정 이벤트, 장바구니 이벤트 또는 인스턴스를 사용할 수 있습니다.
 * 최대 2시간의 실시간 내역 데이터를 보고, 다음 설정을 수정할 수 있습니다.
 
@@ -42,13 +41,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 예를 들면 지난 주의 값을 작년 값(및 오늘 합계)과 비교합니다.
 
-지속성 개념이 없으므로 eVar(전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 실시간 [보고서](/help/components/c-real-time-reporting/t-realtime-admin.md)설정을 참조하십시오.
+지속성 개념이 없으므로 eVar(전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](/help/components/c-real-time-reporting/t-realtime-admin.md)을 참조하십시오.
 
 실시간 보고서를 설정하고 보는 것은 관리자와 "모든 보고서 액세스" 및 "고급 보고" 권한 그룹의 사용자에게로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
 
 ## A4T 구성 결과로 데이터 지연 {#section_806CE36354FC4C539A0DED9266A5C704}
 
-After the A4T integration is enabled in Adobe [!DNL Target], you will experience an additional 5-10 minutes of latency in Adobe Analytics. This latency increase allows data from Analytics and [!DNL Target] to be stored on the same hit, allowing you to break down tests by page and site section.
+Adobe [!DNL Target]에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~-10분 동안 지연이 추가로 발생할 수 있습니다. 추가적인 지연 시간으로 인해 Analytics 및 [!DNL Target]의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
 
 추가적인 지연 시간은 라이브 스트림 및 실시간 보고를 비롯하여 모든 Adobe Analytics 서비스 및 도구에서 반영되며 다음과 같은 시나리오에서 적용됩니다.
 
