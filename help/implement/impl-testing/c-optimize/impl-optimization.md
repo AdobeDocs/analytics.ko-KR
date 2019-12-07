@@ -1,13 +1,12 @@
 ---
 description: Analytics 배포는 세 가지 주요 단계로 구성됩니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 최적화 개요
 topic: Developer and implementation
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
