@@ -1,12 +1,11 @@
 ---
 description: 하나의 서버 호출로 구성된 한 번의 방문. 예를 들어 방문자가 링크나 비디오 시작을 클릭하는 것과 같이 Adobe에 데이터를 보내는 방법으로 페이지와 상호 작용하지 않으면 단일 페이지 방문은 바운스가 됩니다. 1회 방문에서 2개 이상의 히트를 받으면, 바운스가 카운트되지 않습니다.
 keywords: bounce
-solution: Analytics
 title: 바운스 수
 topic: Metrics
 uuid: 0a5efe5f-467e-4d40-951a-5b462149e482
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
