@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics에서 가속 모바일 페이지(AMP) 프로젝트를 구현하십시오.
 keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
-solution: Analytics
 title: 가속 모바일 페이지
 topic: Developer and implementation
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
