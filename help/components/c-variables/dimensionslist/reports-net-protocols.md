@@ -1,11 +1,10 @@
 ---
 description: 모바일 장치를 지원하는 네트워크 프로토콜(GPRS, CSD, EDGE, HSCSD 등)에 따라 그룹화합니다. 보고서는 식별되지 않은 네트워크 프로토콜을 위해 알 수 없음 그룹도 포함하고 있습니다.
-solution: Analytics
 title: 네트 프로토콜
 topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
