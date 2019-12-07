@@ -1,13 +1,12 @@
 ---
 description: 지정한 쿼리 문자열 매개 변수가 현재 페이지 URL이나 제공된 문자열에 있는 경우 그 값을 반환합니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
 topic: Developer and implementation
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
