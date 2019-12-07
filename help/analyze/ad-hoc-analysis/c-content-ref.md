@@ -1,11 +1,10 @@
 ---
 description: 애드혹 분석은 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성, 공유, 관리 및 적용할 수 있습니다. 애드혹 분석은 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용 Java 기반 사용자 인터페이스를 제공하며, 서버 호출을 일치시키고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
-solution: Analytics
 title: 세그먼트 작성
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,7 +37,7 @@ Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 �
 * [세그먼트 관리자](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)를 설정할 수 있습니다.
 
 * [세그먼트 빌더](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html)가 세그먼트 생성을 간소화하도록 업데이트되었습니다.
-* [세그먼트를 태그 지정](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
+* [세그먼트를 태그 지정](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. 이전에는 폴더([!DNL ad hoc analysis])를 사용하여 세그먼트를 구성했습니다.
 
 * Ad Hoc Analysis 외부에서 [순차적 세그먼트](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html)를 만들 수 있습니다.
 * 
@@ -47,7 +46,7 @@ Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 �
 >
 >애드혹 분석에서는 날짜 범위를 세그먼트에 추가할 수 없습니다. 이 기능은 Analysis Workspace에서 사용할 수 있습니다. Ad Hoc Analysis에서 [시퀀스 이전에만]/[시퀀스 이후에만]을 사용할 수도 있습니다.
 
-## 기존 세그먼트에 발생한 결과 {#section_76CF47142D1A4FB6A0718AD9073049FE}
+## 기존 세그먼트에 발생한 결과{#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 기존 세그먼트는 Analytics 세그먼테이션 도입 이전과 마찬가지로 계속 사용할 수 있습니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. 
 
@@ -88,7 +87,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
 * 표준 세그먼트를 승인합니다.
 * 세그먼트에 모범 사례에 따라 태깅합니다.
 
-## 이 세그먼트를 삭제할 수 없는 이유 {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## 이 세그먼트를 삭제할 수 없는 이유{#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 세그먼트가 [Experience Cloud로 게시된 경우](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html) 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
 
@@ -132,7 +131,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
   </tr> 
   <tr> 
    <td colname="col1">관리 세그먼트 <p>("전역" 세그먼트라고도 함) </p> </td> 
-   <td colname="col2"> <p> <b>관리</b> 세그먼트는 새 세그먼트 인터페이스로 마이그레이션되고 모든 사람과 공유되는 세그먼트로 표시됩니다. </p> <p>이러한 세그먼트의 소유자는 로그인 회사의 관리자 사용자 목록에서 가장 오래된 계정을 가진 관리자로 설정되지만 모든 관리자가 이러한 세그먼트를 삭제, 편집 및 공유할 수 있습니다. </p> <p>관리자가 이러한 전역 세그먼트를 만들고 관리하는 관리 콘솔의 세그먼트 관리 인터페이스는 더 이상 사용 가능하지 않습니다. 관리자는 이제 새 세그먼트 빌더를 사용하여 세그먼트를 만들고 해당 그룹이나 개인 또는 모든 사람과 공유하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p> <b>관리자</b> 세그먼트는 새 세그먼트 인터페이스로 마이그레이션되고 모든 사람과 공유되는 세그먼트로 표시됩니다. </p> <p>이러한 세그먼트의 소유자는 로그인 회사의 관리자 사용자 목록에서 계정이 가장 오래된 관리자로 설정되지만 모든 관리자가 이러한 세그먼트를 삭제, 편집 및 공유할 수 있습니다. </p> <p>관리자가 이러한 전역 세그먼트를 만들고 관리하는 관리자 콘솔의 세그먼트 관리 인터페이스는 더 이상 사용 가능하지 않습니다. 관리자는 이제 새 세그먼트 빌더를 사용하여 세그먼트를 만들고 해당 그룹이나 개인 또는 모든 사람과 공유하는 것이 좋습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
