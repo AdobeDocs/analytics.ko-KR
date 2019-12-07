@@ -1,12 +1,11 @@
 ---
 description: 데이터 소스는 온라인 데이터에 대해 오프라인으로 발생하는 이벤트를 통합할 수 있는 2가지 추가 방법을 제공합니다.
-solution: Analytics
 subtopic: Data sources
 title: 거래 및 고객 통합
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
