@@ -1,19 +1,18 @@
 ---
-description: 채널에 비용 및 예산 금액을 할당하는 방법을 알아봅니다.
-solution: Analytics
+description: 채널에 비용 및 예산 금액을 지정하는 방법을 알아봅니다.
 subtopic: Marketing channels
 title: 비용 및 예산
 topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 비용 및 예산
 
-채널에 비용 및 예산 금액을 할당하는 방법을 알아봅니다.
+채널에 비용 및 예산 금액을 지정하는 방법을 알아봅니다.
 
 비용은 채널에서 지출한 것을 나타냅니다. 예산은 지출 가능한 금액을 나타냅니다.
 
@@ -29,17 +28,17 @@ ROI를 확인하는 유용한 방법은 매출에서 비용을 뺀 값을 보여
 
 마케팅 채널에 비용과 예산 항목을 추가합니다.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. [!UICONTROL 보고서 세트 관리자 페이지에서 보고서 세트를 선택합니다.]
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
-1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
+1. **[!UICONTROL 편집 설정]** &gt; **[!UICONTROL 마케팅 채널]** &gt; **[!UICONTROL 마케팅 채널 비용]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 마케팅 채널 비용] 페이지에서 **[!UICONTROL 비용 항목 추가]** 또는 **[!UICONTROL 예산 항목 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 저장을 클릭합니다.]**
 
    비용 항목을 계속 추가하려면 **[!UICONTROL 저장 후 다른 항목 추가를 클릭합니다]**.
 
-1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
+1. (선택 사항) CSV 파일을 내보내거나 가져오려면 [!UICONTROL 마케팅 채널 비용] 페이지에 액세스하여 **[!UICONTROL 파일 내보내기]** 또는 **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음, 나타나는 메시지를 따릅니다.
 
-## Marketing Channel costs - definitions {#mktg-channel-costs}
+## 마케팅 채널 비용 - 정의 {#mktg-channel-costs}
 
 마케팅 채널 비용 및 예산에 대한 필드 정의.
 
