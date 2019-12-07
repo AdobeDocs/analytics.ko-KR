@@ -1,12 +1,11 @@
 ---
 description: 마케팅 채널 보고서에 오프라인 데이터를 추가합니다.
-solution: Analytics
 subtopic: Marketing channels
 title: 오프라인 데이터 추가
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,14 +32,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **오프라인 데이터 추가**
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 데이터 소스]**&#x200B;를 클릭합니다.
 1. 데이터 소스 페이지에서 **[!UICONTROL 만들기]를 클릭합니다.**
-1. Under **[!UICONTROL 1. Select Category]**, select **[!UICONTROL Offline Channel Data]**.
-1. Under **[!UICONTROL 2. Select Type]**, select **[!UICONTROL Offline Channel Data]**.
-1. Click **[!UICONTROL Activate.]**
+1. **[!UICONTROL 1. 카테고리 선택]** 아래에서 **[!UICONTROL 오프라인 채널 데이터]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 2. 유형 선택]** 아래에서 **[!UICONTROL 오프라인 채널 데이터]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 활성화]**&#x200B;를 클릭합니다. 
 1. 데이터 소스 활성화 마법사가 표시하는 메시지에 따라 오프라인 지표를 보고 지표에 매핑합니다.
 1. 템플릿 파일을 편집기(예: Excel)로 다운로드해서 편집합니다.
 
    [데이터 소스 사용자 안내서](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html)의 "데이터 소스 파일 만들기"를 참조하십시오.
 
-1. Upload the file as described in "Uploading a Data Sources File" in the [Data Sources User Guide](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html).
+1. [데이터 소스 사용자 안내서](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html)의 "데이터 소스 파일 업로드"에 설명된 대로 파일을 업로드합니다.
