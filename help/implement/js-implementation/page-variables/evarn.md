@@ -1,13 +1,12 @@
 ---
 description: 페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -85,7 +84,7 @@ eVar는 Analytics &gt; 관리자 &gt; 보고서 세트 &gt; 설정 편집 &gt; �
  </thead>
  <tbody> 
   <tr> 
-   <td> 이름 </td> 
+   <td>  이름  </td> 
    <td> <span class="keyword">Analytics</span> 내에서 eVar 보고서의 이름을 변경할 수 있도록 해줍니다. <p><span class="keyword">Analytics</span>에서 보고서에 어떤 이름이 지정되었는지에 관계없이 JavaScript 코드에서는 여전히 eVar를 s.eVarX로 참조해야 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +96,7 @@ eVar는 Analytics &gt; 관리자 &gt; 보고서 세트 &gt; 설정 편집 &gt; �
    <td> eVar의 값 중 어느 값이 성공 이벤트에 대한 크레딧을 받는지를 구성하는 데 사용됩니다. <p>할당이 "가장 최근(마지막)"으로 설정되면, B가 크레딧을 받습니다. </p> <p>할당이 "원래 값(처음)"으로 설정되면, A가 크레딧을 받습니다. </p> <p>할당이 "선형"으로 설정되면, A와 B 모두가 구매 가치의 반에 대한 크레딧을 받습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> 다음 날짜 이후에 만료 </td> 
+   <td> 다음 시기 이후에 만료 </td> 
    <td> eVar가 구매와 같은 특정 이벤트 발생 시 만료되는지, 아니면 사용자 지정 또는 사전 정의된 시간 후 만료되는지를 결정할 수 있도록 해줍니다. </td> 
   </tr> 
   <tr> 
