@@ -1,11 +1,10 @@
 ---
 description: 요청 마법사 1단계에서 데이터 요청에 세부기간 수준을 적용할 수 있습니다. 세부기간은 보고서에 포함되어 있는 시간 기반 세부 사항의 수준을 지정합니다.
-solution: Analytics
 title: 세부기간
 topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
