@@ -1,11 +1,10 @@
 ---
 description: 표준 보고서에는 웹 사이트 및 방문자 활동 데이터, 트래픽 패턴, 참조 데이터, 광고 캠페인, 방문자 유지, 제품 데이터 등이 표시됩니다. 보고서를 실행한 다음 도구에 액세스하여 세그먼트, 지표 및 보고서 비교를 구성할 수 있습니다.
-solution: Analytics
 title: 보고서 개요
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -46,7 +45,7 @@ Marketing Reports &amp; Analytics을 사용하는 경우에는 익숙한 보고�
 
 *  방문자 행동의 주요 측면 분석
 *  트래픽 패턴 모니터링 및 이해
-*  인기 있는 사이트 컨텐츠 판별
+*  인기 있는 사이트 콘텐츠 판별
 *  측정 가능한 기준으로 방문자 분류
 
 ## 캠페인 {#concept_A407CDF1D4AA49BAB396A1666E67FC87}
@@ -109,7 +108,7 @@ Mean 함수는 Microsoft Excel의 데이터 열과 유사하게 계산됩니다.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>2013년 6월 </p> <p>2013년 7월 </p> <p>2013년 8월 </p> </td> 
+   <td colname="col1"> <p>2013년 6월 </p> <p>2013년 7월 </p> <p>2013월 8일 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34.4% </p> <p>29.7% </p> <p>41.0% </p> </td> 
