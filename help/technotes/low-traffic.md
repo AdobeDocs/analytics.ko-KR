@@ -1,11 +1,10 @@
 ---
 description: 보고서에 고유 값이 많으면 Adobe는 보고서에 가장 중요한 값이 표시되도록 하는 기능을 제공합니다.
-solution: Analytics
 title: Adobe Analytics의 낮은 트래픽 값
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
