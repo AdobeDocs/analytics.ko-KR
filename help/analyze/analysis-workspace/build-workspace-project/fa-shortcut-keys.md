@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
 keywords: Analysis Workspace
-solution: Analytics
 title: Analysis Workspace에서 사용할 수 있는 핫키
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -86,7 +85,7 @@ Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 �
    <td> <p> ctrl(또는 cmd) + o </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>새 속성 패널 </p> </td> 
+   <td colname="col1"> <p>새 기여도 분석 패널 </p> </td> 
    <td colname="col2"> <p>alt + e </p> </td> 
   </tr> 
   <tr> 
