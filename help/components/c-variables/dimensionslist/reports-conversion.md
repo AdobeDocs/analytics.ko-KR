@@ -1,11 +1,10 @@
 ---
 description: 고객 활동을 간편하고 정확하게 세부적으로 분석할 수 있습니다. 캠페인 관리, 영업 주기, 고객 폴아웃 및 고객 전환과 같은 지표로 전자 상거래, 영업 소스, 광고 효과, 고객 충성도 등을 측정할 수 있습니다.
-solution: Analytics
 title: 전환
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
