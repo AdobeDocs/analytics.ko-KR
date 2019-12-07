@@ -1,12 +1,11 @@
 ---
 description: 보고서 예약, 다운로드 및 배포에 대한 정보입니다.
-solution: Analytics
 subtopic: Schedule
 title: 보고서 예약 및 배포
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,10 +43,10 @@ Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예�
 
    | 옵션 | 설명 |
    |--- |--- |
-   | 형식 | PDF 또는 HTML을 선택합니다에서 보냅니다. |
-   | 수신인 | 보고서를 받을 이메일 주소를 입력합니다에서 보냅니다. |
-   | 제목 | 이메일 제목과 같습니다에서 보냅니다. |
-   | 예약 | 보고서를 즉시 보낼지 또는 간격을 두고 보낼지 선택합니다에서 보냅니다. |
+   | 형식 | PDF 또는 HTML을 선택합니다. |
+   | 수신인 | 보고서를 받을 이메일 주소를 입력합니다. |
+   | 제목 | 이메일 제목과 같습니다. |
+   | 예약 | 보고서를 즉시 보낼지 또는 간격을 두고 보낼지 선택합니다. |
 
 1. Click **[!UICONTROL Advanced Delivery Options]** to specify a delivery schedule.
 
@@ -81,7 +80,7 @@ Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예�
 PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고서에 대한 세부 정보를 다운로드합니다.
 
 1. **분석** &gt; **[!UICONTROL 보고서]**&#x200B;에서 보려는 보고서를 선택합니다.
-1. Click **[!UICONTROL Download]**.
+1. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
    ![](assets/download_basic.png)
 
@@ -101,7 +100,7 @@ PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고�
 
 [!UICONTROL 예약 보고서 관리자]에서 반복되는 보고서 배달을 편집하고 삭제할 수 있습니다. 이메일이나 FTP를 통해 지정된 주소로 보고서를 전송하는 배달 예약을 작성할 수 있습니다. 특정 시간 동안 또는 무한정으로 지정된 간격에 따라 보고서를 자동 전송하도록 하거나 되풀이되는 보고서 배달을 중지하도록 예약을 구성할 수 있습니다.
 
-[!UICONTROL 보고서 예약 관리자]는 특정 사용자가 만든 항목을 보여줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
+[!UICONTROL 보고서 예약 관리자]는 특정 사용자가 만든 항목을 보여줍니다. 응용 프로그램에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 
 1. To access the manager, click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Scheduled Reports]**.
 
