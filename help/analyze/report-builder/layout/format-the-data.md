@@ -1,11 +1,10 @@
 ---
 description: Excel의 [서식] > [셀](Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
-solution: Analytics
 title: 날짜 형식 지정
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensi
 | M | 월의 숫자 | 3 |
 | MM | 10보다 작은 달에 대해 십의 자리에 0을 사용하는 월의 숫자 | 03 |
 | MMM | 월의 짧은 이름 | 3월 |
-| MMMM | 월의 긴 이름 | 3월 |
+| MMMM | 월의 긴 이름 | 년 3월 |
 | D | 날짜의 긴 이름 | 2012년 3월 14일 수요일 |
 | d | 일의 숫자 | 14 |
 | dd | 10보다 작은 일에 대해 십의 자리에 0을 사용하는 일의 숫자 | 01 - 09 |
