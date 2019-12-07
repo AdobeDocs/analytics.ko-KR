@@ -1,11 +1,10 @@
 ---
 description: 사용자 지정된 표현식에서 날짜 범위를 사용하는 것에 대한 예, 참고 사항 및 구문 참고 사항.
-solution: Analytics
 title: 사용자 지정된 표현식을 사용한 날짜 범위의 예
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
