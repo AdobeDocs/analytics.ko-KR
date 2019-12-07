@@ -1,11 +1,10 @@
 ---
 description: Adobe 엔지니어링 서비스 그룹은 SFTP를 사용하여 외부 FTP 계정으로 데이터를 리디렉션하도록 사용자 지정 프로젝트를 설정할 수 있습니다.
 keywords: ftp;sftp
-solution: Analytics
 title: SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
