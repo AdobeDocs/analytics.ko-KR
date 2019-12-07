@@ -1,13 +1,12 @@
 ---
 description: 페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ visitorNamespace.xml
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| N/A | ns | N/A | "" |
+| 해당 없음 | ns | 해당 없음 | "" |
 
 Analytics는 쿠키를 사용하여 사이트 방문자를 고유하게 식별합니다. *`visitorNamespace`*&#x200B;를 사용하지 않으면 쿠키가 2o7.net에 연결됩니다. *`visitorNamespace`*&#x200B;를 사용하면 쿠키가 2o7.net의 하위 도메인에 연결됩니다. 사이트의 모든 방문자는 같은 도메인 또는 하위 도메인에 쿠키를 연결해야 합니다.
 
