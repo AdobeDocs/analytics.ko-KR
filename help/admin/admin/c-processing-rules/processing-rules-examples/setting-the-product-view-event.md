@@ -1,12 +1,11 @@
 ---
 description: 이벤트를 페이지 값 또는 변수의 특정 값을 기준으로 설정할 수 있습니다.
-solution: Analytics
 subtopic: Processing rules
 title: 제품 개요 페이지에서 제품 보기 이벤트 설정
 topic: Admin tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
