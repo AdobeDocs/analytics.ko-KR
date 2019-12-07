@@ -1,12 +1,11 @@
 ---
 description: 마케팅 채널 보고서에서 지표를 사용하는 방법.
-solution: Analytics
 subtopic: Marketing channels
 title: 마케팅 채널 보고서에 사용된 지표
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,11 +22,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
  보고서에 열 추가
 
-## 첫 번째 및 마지막 접촉 지표 {#first-and-last-touch}
+## 첫 번째 및 마지막 터치 지표 {#first-and-last-touch}
 
-첫 번째 접촉 및 마지막 접촉은 채널에서 방문자 활동으로 인한 새 참여 수(또는 제품 보기, 매출 및 주문 수와 같은 지표 데이터)를 볼 수 있는 채널 속성입니다.
+첫 번째 터치 및 마지막 터치는 채널에 있는 방문자 활동으로 발생하는 새로운 참여 수나 제품 보기, 수입 및 주문 등의 지표를 보는 데 사용하는 채널 특성입니다.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 여기에는 사용자가 들어온 처음 채널과 최근 채널이 표시됩니다. 그리고 각 해당 채널에 성공 이벤트에 대한 크레딧을 줍니다.
+성공 이벤트가 발생하면 Analytics는 방문자의 활동 및 내역 전체를 확인합니다([방문자의 참여 만료](/help/components/c-marketing-channels/visitor-engagement.md) 기간까지 거슬러 감). 여기에는 사용자가 들어온 처음 채널과 최근 채널이 표시됩니다. 그리고 각 해당 채널에 성공 이벤트에 대한 크레딧을 줍니다.
 
 <!-- 
 
@@ -57,13 +56,13 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 모든 성공 이벤트 인스턴스에는 첫 번째 접촉 채널과 마지막 접촉 채널이 정확하게 하나씩 있습니다. 즉, 성공 이벤트에 대한 지정된 지표 열을 모두 합하면 항상 같은 기간에 대한 합계와 정확하게 일치합니다. 이 합계는 또한 해당 [!UICONTROL 사이트 지표] &gt; [!UICONTROL 사용자 지정 이벤트] 보고서의 전체 이벤트 수와 정확하게 일치합니다. 방문 및 방문자와 같은 성공 이벤트 외의 지표는 한 번의 방문에 대해 여러 채널에서 발동될 수 있으므로 1대 1로 일치하지 않습니다.
 
-> [!NOTE] 이 보고서는 각 지표의 첫 번째 접촉 또는 마지막 접촉 버전을 사용합니다. 따라서 [!UICONTROL 마케팅 채널] 보고서에 표시된 데이터가 다른 보고서에 표시된 데이터와 일치하지 않을 수 있습니다.
+> [!NOTE] 이 보고서는 각 지표의 첫 번째 터치 또는 마지막 터치 버전을 사용합니다. 따라서 [!UICONTROL 마케팅 채널] 보고서에 표시된 데이터가 다른 보고서에 표시된 데이터와 일치하지 않을 수 있습니다.
 
-## Metric definitions {#metric-defs}
+## 지표 정의 {#metric-defs}
 
 | 지표 | 정의 |
 |--- |--- |
-| 첫 번째 접촉 채널 | 방문자를 참여시키는 첫 번째 마케팅 채널입니다. 기술적으로 첫 번째 접촉 채널은 원래 할당이 있는 eVar입니다. |
+| 첫 번째 접촉 채널 | 방문자를 참여시키는 첫 번째 마케팅 채널입니다. 기술적으로 첫 번째 터치 채널은 원래 할당이 있는 eVar입니다. |
 | 첫 번째 접촉 방문자 | 채널 보고서에서 첫 번째 접촉 방문자는 채널로부터 온 일별 고유 방문자입니다. 방문자의 참여는 방문자가 사이트에 머문 기간 동안(많은 방문이 지속될 수 있음) 저장됩니다. |
 | 마지막 접촉 채널 | 전환 채널로서 방문자를 전환으로 이끄는 마지막 마케팅 채널입니다. 하나의 채널만 첫 번째 접촉 채널로 설정되며, 마지막 접촉 채널은 사이트에 재방문할 때마다 바뀔 수 있습니다. 모든 방문에는 첫 번째 접촉 및 마지막 접촉 채널이 있지만 첫 번째 접촉 채널의 값은 후속 방문으로 변경되지 않습니다. |
 
@@ -96,5 +95,5 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
    ![단계 결과](assets/metric_create.png)
 
-1. To create calculated metrics, scroll to [!UICONTROL Calculated Metrics], then click **[!UICONTROL Create]**.
+1. 계산된 지표를 만들려면 [!UICONTROL 계산된 지표]로 이동한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 저장을 클릭합니다.]**
