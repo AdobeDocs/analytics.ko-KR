@@ -1,12 +1,11 @@
 ---
 description: 아래 표에는 Analytics 보고서를 채우는 데 사용된 변수에 대한 변수-보고서 매핑이 표시되어 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 변수-보고서 매핑
 topic: Developer and implementation
 uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
