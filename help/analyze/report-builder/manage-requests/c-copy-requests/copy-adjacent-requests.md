@@ -1,11 +1,10 @@
 ---
 description: 요청을 복사하고 붙여넣는 것과 같은 방식으로, 바로 가기 메뉴에서 요청 잘라내기를 선택하여 요청의 위치를 스프레드시트의 다른 부분으로 변경할 수도 있습니다.
-solution: Analytics
 title: 인접 요청 복사
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
