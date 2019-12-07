@@ -1,10 +1,9 @@
 ---
 description: Adobe Analytics에서는 다양한 체류 시간 지표와 차원을 제공합니다. 이러한 지표와 차원에 대한 정의와 계산 방법을 확인하십시오.
-solution: Analytics
 title: 체류 시간
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
