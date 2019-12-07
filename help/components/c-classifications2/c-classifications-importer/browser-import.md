@@ -1,12 +1,11 @@
 ---
 description: 브라우저를 사용하여 분류 데이터를 가져올(다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
-solution: Analytics
 subtopic: Classifications
 title: 브라우저 가져오기
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 브라우저를 사용하여 분류 데이터를 가져올(다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 가져오기]**
+**[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**
 
 ## 분류 브라우저 가져오기 - 필드 설명 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -62,11 +61,11 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**.
-1. 브라우저 **[!UICONTROL 가져오기]** 필드를 구성합니다.
-1. Click **[!UICONTROL Import File]**.
+1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 브라우저 가져오기]** 필드를 구성합니다.
+1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭합니다.
 1. 처리 메시지가 표시되는 상태 창을 확인하십시오.
-1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
+1. (조건부) **[!UICONTROL 업로드가 완료된 후 분류 파일을 자동으로 다운로드합니다]**&#x200B;를 선택한 경우 처리가 완료되었을 때 결과 파일을 저장할 위치를 지정합니다.
 >가져오기에 성공하면 해당하는 변경 내용이 내보내기에 바로 표시됩니다. 하지만 보고서에서 데이터를 변경하면 브라우저 가져오기를 사용하는 경우 최대 4시간, FTP 가져오기를 사용하는 경우 최대 24시간이 걸립니다.
 
