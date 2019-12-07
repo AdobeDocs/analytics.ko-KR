@@ -1,12 +1,11 @@
 ---
 description: 숫자 2 분류 가져오기 지침을 제공하기 위한 예입니다.
-solution: Analytics
 subtopic: Classifications
 title: 예
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ c_example_1__rate.xml
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+1월에 Product1은 수입의 20%에 해당하는 비용이 발생했으며(`~MyCost^~value~`에 표시) Product2는 수입의 30%에 해당하는 비용이 발생했습니다. 새 행을 가져오기 때문에 `~MyCost^~id~`는 비어 있습니다.
 
 ## 결과 {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -43,7 +42,7 @@ In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~
 
 보고서: 제품
 
-| 제품 | 매출  | MyCost |
+| 제품 | 수입  | MyCost |
 |---|---|---|
 | Product1 | $10,000.23 | $2000.05 |
 | Product2 | $9,000.04 | $2700.01 |
@@ -68,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-2월에 Product1의 사용자 비용은 매출의 15%로 감소했고 Product2는 매출의 25%로 감소했습니다.
+2월에 Product1의 사용자 비용은 수입의 15%까지 감소했으며 Product2는 수입의 25%까지 감소했습니다.
 
 ## 결과 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -78,7 +77,7 @@ c_example_2__rate.xml
 
 보고서: 제품
 
-| 제품 | 매출  | MyCost |
+| 제품 | 수입  | MyCost |
 |---|---|---|
 | Product1 | $10,000.23 | $2000.05 |
 | Product2 | $9,000.04 | $2700.01 |
@@ -87,7 +86,7 @@ c_example_2__rate.xml
 
 보고서: 제품
 
-| 제품 | 매출  | MyCost |
+| 제품 | 수입  | MyCost |
 |---|---|---|
 | Product1 | $15,500.75 | $2325.11 |
 | Product2 | $12,300.52 | $3075.13 |
@@ -96,7 +95,7 @@ c_example_2__rate.xml
 
 보고서: 제품
 
-| 제품 | 매출  | MyCost |
+| 제품 | 수입  | MyCost |
 |---|---|---|
 | Product1 | $25,500.98 | $4325.16 |
 | Product2 | $21,300.56 | $5,775.14 |
@@ -119,7 +118,7 @@ c_example_3__fixed.xml
 | 2010/03/01 - 2010/03/31 | fixed | none |
 | 2010/03/01 - 2010/03/31 | fixed | none |
 
-## Result {#section_674B57ADB8284B878F9E670038C31464}
+## 결과 {#section_674B57ADB8284B878F9E670038C31464}
 
 보고서의 출력 예는 다음과 같습니다.
 
@@ -127,7 +126,7 @@ c_example_3__fixed.xml
 
 보고서: 제품
 
-| 제품 | 매출  | MyCost |
+| 제품 | 수입  | MyCost |
 |---|---|---|
 | Product1 | $11,023.75 | $3000.00 |
 | Product2 | $8,000.12 | $2000.00 |
@@ -164,7 +163,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 보고서: 제품
 
-| 제품 | 매출  | MyCost |
+| 제품 | 수입  | MyCost |
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
@@ -216,7 +215,7 @@ c_example_5__fixed_no_hinge.xml
 | 2010/03/01 - 2010/03/31 | fixed | none |
 | 2010/03/01 - 2010/03/31 | fixed | none |
 
-## Result {#section_7F5F5970077D4E14A5DC91495E23540D}
+## 결과 {#section_7F5F5970077D4E14A5DC91495E23540D}
 
 보고서의 출력 예는 다음과 같습니다.
 
