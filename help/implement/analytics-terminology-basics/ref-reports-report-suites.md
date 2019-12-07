@@ -1,12 +1,11 @@
 ---
 description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 집합에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. 마케팅 보고, Ad Hoc Analysis, 및 Report Builder에 로그인할 때 사용할 보고서 세트를 하나 선택합니다(보고서 세트들을 결합하는 롤업을 사용할 때 제외).
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: 보고서 및 보고서 세트
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
