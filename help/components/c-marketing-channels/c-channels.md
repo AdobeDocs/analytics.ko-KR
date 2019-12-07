@@ -1,12 +1,11 @@
 ---
 description: 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다(최대 25개).
-solution: Analytics
 subtopic: Marketing channels
 title: 마케팅 채널 관리
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,29 +25,29 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 마케팅 채널 관리자에서 마케팅 채널을 추가합니다.
 
-> [!NOTE] 채널을 삭제할 수 없습니다. 채널을 사용하지 않으려면 비활성화하거나 이름을 바꾼 후 나중에 사용하도록 예약해 두십시오.
+> [!NOTE] 채널은 삭제할 수 없습니다. 채널을 사용하지 않으려면 비활성화하거나 이름을 바꾼 후 나중에 사용하도록 예약해 두십시오.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. [!UICONTROL 보고서 세트 관리자 페이지에서 보고서 세트를 선택합니다.]
 
    여러 개의 보고서 세트를 선택할 경우, 템플릿에서 선택한 보고서 세트로 설정을 복사하는 템플릿을 선택합니다.
 
    자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](/help/components/c-marketing-channels/t-template.md).
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
+1. **[!UICONTROL 편집 설정]** &gt; **[!UICONTROL 마케팅 채널]** &gt; **[!UICONTROL 마케팅 채널 관리자]**&#x200B;를 클릭합니다.
 
-   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
+   보고서 세트에 정의된 채널이 없으면 [자동 설정](/help/components/c-marketing-channels/c-channel-autosetup.md) 페이지가 표시됩니다.
 
-1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
+1. [!UICONTROL 마케팅 채널 관리자] 페이지에서 **[!UICONTROL 채널 추가]**&#x200B;를 클릭합니다. 
 
    25개의 채널이 정의된 경우에는 이 옵션을 사용할 수 없습니다.
 
 1. **[!UICONTROL 저장을 클릭합니다.]**
-1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
+1. 채널에 대한 규칙을 구성하려면 **[!UICONTROL 마케팅 채널 처리 규칙]**&#x200B;을 클릭합니다.
 
-   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
+   [마케팅 채널 처리 규칙 만들기](/help/components/c-marketing-channels/t-rules.md)를 참조하십시오.
 
-## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
+## 마케팅 채널 관리자 - 인터페이스 정의 {#mktg-channel-mgr}
 
 [!UICONTROL 마케팅 채널 관리자] 페이지에 대한 필드 정의
 
@@ -78,7 +77,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>유형 </p> </td> 
-   <td colname="col2"> <p> 사용자를 사이트로 인도한 방식을 지정합니다. <span class="uicontrol">온라인</span> 또는 <span class="uicontrol">오프라인</span>을 선택할 수 있습니다. 검색 엔진 또는 이메일 캠페인을 통해 방문한 방문자에 대해 온라인 채널을 사용합니다. 오프라인 채널은 신문 쿠폰이나 잡지 광고를 보고 사이트를 방문한 방문자에게 적용됩니다. 오프라인 채널에는 일반적으로 보고 데이터 소스를 통해 가져온 데이터가 포함됩니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  > 데이터 소스</a>를 참조하십시오. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> 사용자를 사이트로 인도한 방식을 지정합니다. <span class="uicontrol">온라인</span> 또는 <span class="uicontrol">오프라인</span>을 선택할 수 있습니다. 검색 엔진 또는 이메일 캠페인을 통해 방문한 방문자에 대해 온라인 채널을 사용합니다. 오프라인 채널은 신문 쿠폰이나 잡지 광고를 보고 사이트를 방문한 방문자에게 적용됩니다. 오프라인 채널에는 일반적으로 보고 데이터 소스를 통해 가져온 데이터가 포함됩니다. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  > 데이터 소스</a>를 참조하십시오. </p> <p><a href="/help/components/c-marketing-channels/t-offline-data.md"   >오프라인 데이터 추가</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>색상 </p> </td> 
