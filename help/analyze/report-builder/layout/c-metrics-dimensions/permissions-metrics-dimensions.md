@@ -1,11 +1,10 @@
 ---
 description: 이제 Adobe Report Builder에는 Analytics 관리 도구의 권한 부여 설정과 유사한 권한 부여 설정이 포함됩니다.
-solution: Analytics
 title: 차원 및 지표의 사용자 액세스 권한
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
