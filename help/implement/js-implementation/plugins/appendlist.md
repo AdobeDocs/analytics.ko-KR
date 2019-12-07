@@ -1,13 +1,12 @@
 ---
 description: APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하여 확인 또는 대/소문자를 구분하지 않고 확인 옵션을 사용하여 값이 목록에 있는지 확인함으로써 모든 구분된 목록에 값을 추가할 수 있습니다. APL 플러그인은 몇몇 표준 플러그인에서 참조되며 다양한 상황에서 직접 사용할 수도 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ APL(또는 appendList) 플러그인을 사용하면, 대/소문자를 구분하�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>시나리오 </p> </td> 
-   <td colname="col2"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 <span class="term"> event1 </span>을 추가합니다. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>코드 </p> </td> 
