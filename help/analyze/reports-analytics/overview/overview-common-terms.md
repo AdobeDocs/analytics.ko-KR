@@ -1,11 +1,10 @@
 ---
 description: 마케팅 보고에서 일반적으로 사용되는 웹 분석 용어에 대한 소개입니다.
-solution: Analytics
 title: 공통 용어
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td> <p>지표 </p> </td> 
-   <td> <p>보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 날짜, 판매량 등과 같이 웹 사이트에서 이루어지는 활동에 대한 수량 정보입니다. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
+   <td> <p>보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 날짜, 판매량 등과 같이 웹 사이트에서 이루어지는 활동에 대한 수량 정보입니다. </p> <p>자세한 내용은 <a href="/help/analyze/reports-analytics/metrics.md">지표</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 차원 </p> </td> 
@@ -36,7 +35,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td> <p> 보고서 </p> </td> 
-   <td> <p>마케팅 보고 기능의 기본 사항입니다. 수집된 모든 데이터에 대한 온라인 보고서를 실행할 수 있습니다. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/reports.md"> Report Types</a>. </p> </td> 
+   <td> <p>마케팅 보고 기능의 기본 사항입니다. 수집된 모든 데이터에 대한 온라인 보고서를 실행할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/analyze/reports-analytics/reports.md"> 보고서 유형</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 페이지 보기 </p> </td> 
