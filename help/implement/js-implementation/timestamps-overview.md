@@ -1,12 +1,11 @@
 ---
 description: 타임스탬프 옵션 설정 사용에 대한 이점 및 제한 사항에 대해 알아봅니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 타임스탬프 옵션 사용
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
