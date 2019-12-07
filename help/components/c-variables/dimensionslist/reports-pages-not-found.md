@@ -1,11 +1,10 @@
 ---
 description: 끊긴 링크가 포함된 페이지를 식별하고 존재하지 않는 페이지에 대한 트래픽을 측정하는 데 유용합니다. 이러한 페이지는 일반적으로 404 페이지라고 합니다. 이 보고서를 사용하여 방문자가 어디에서 이러한 끊긴 페이지에 액세스하고 있는지, 그리고 얼마나 자주 액세스하고 있는지 확인할 수 있습니다.
-solution: Analytics
 title: 페이지를 찾을 수 없음
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
