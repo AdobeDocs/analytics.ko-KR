@@ -1,12 +1,11 @@
 ---
 description: 분류 데이터를 삭제하거나 제거하는 방법을 설명하는 단계입니다.
-solution: Analytics
 subtopic: Classifications
 title: 분류 데이터 삭제
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,10 +18,10 @@ source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 분류 데이터를 제거하면 해당 셀을 포함하거나 포함하는 분류 파일을 업로드하는 `~empty~` 작업이 `~deletekey~` 포함됩니다.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Browser Export]**.
+1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 브라우저 내보내기]**&#x200B;를 클릭합니다.
 1. 분류 데이터를 제거할 보고서 세트 및 데이터 세트를 선택합니다.
-1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
+1. 찾고 있는 특정 데이터를 필터링할 수 있도록 모든 옵션 설정을 조정한 다음 **[!UICONTROL 파일 내보내기]**&#x200B;를 클릭합니다.
 1. 파일이 다운로드되면 파일을 열고 분류 값을 `~empty~` 또는 으로 바꿉니다 `~deletekey~`.
 1. 파일을 탭으로 구분된 텍스트 파일로 저장합니다.
 1. 파일 **[!UICONTROL 가져오기를]**&#x200B;클릭하고 저장된 분류 파일을 다시 Adobe Analytics에 업로드합니다.
