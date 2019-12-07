@@ -1,12 +1,11 @@
 ---
 description: 'eVar 값을 Prop에 복사하여 경로 지정을 활성화할 수 있습니다. '
-solution: Analytics
 subtopic: Processing rules
 title: eVar 값을 prop에 복사하여 경로 결정
 topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
