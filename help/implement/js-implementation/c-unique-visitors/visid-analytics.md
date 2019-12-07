@@ -1,12 +1,11 @@
 ---
 description: 사용자가 사이트를 방문하면, Adobe 웹 서버에서는 브라우저에 대한 HTTP 응답에 영구적 쿠키를 포함하여 영구적 쿠키를 설정합니다. 이 쿠키는 지정된 데이터 수집 도메인에서 설정됩니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: Analytics 방문자 ID
 topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
