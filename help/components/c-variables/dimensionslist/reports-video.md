@@ -1,11 +1,10 @@
 ---
 description: 온라인 미디어 액세스 통계에 대한 정보를 표시합니다. 또한 비디오와 기타 미디어 액세스에 대한 데이터도 이 보고서에서 확인할 수 있습니다.
-solution: Analytics
 title: 비디오
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,4 +44,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+[Adobe Analytics에서 오디오 및 비디오 측정](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)을 참조하십시오.
