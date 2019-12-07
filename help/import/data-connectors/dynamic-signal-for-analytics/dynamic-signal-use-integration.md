@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: 통합 사용
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ Adobe Analytics의 보고서 예입니다.
 
 이 통합에 포함된 동적 신호 보고 차원을 나열합니다.
 
-| 측정기준 | 설명 |
+| 차원 | 설명 |
 |---|---|
 | 채널 유형 | 사용자가 커뮤니티 게시물을 공유한 소셜 네트워크(또는 블로그 플랫폼). 사용자는 여러 채널에서 게시물을 공유할 수 있습니다. 클릭과 기타 활동은 채널당 세그먼트화됩니다. 이 필드에는 Facebook, Twitter 등이 표시됩니다. 활동을 유도하는 채널 유형을 확인할 수 있습니다. |
 | 아티클 ID | 아티클 ID는 동적 신호 커뮤니티에서 각 컨텐츠를 고유하게 식별합니다. |
