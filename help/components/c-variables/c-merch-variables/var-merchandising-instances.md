@@ -1,12 +1,11 @@
 ---
 description: 머천다이징 변수에서 인스턴스가 카운팅되는 방식을 설명합니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 머천다이징 변수의 인스턴스
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,5 +47,5 @@ s.products=";Fernie Snow Goggles"
 
 결합 이벤트가 발생하지 않는 페이지에서 eVar에 대한 값을 설정하는 경우 또는 결합 이벤트가 없는 제품 문자열에서 eVar 값을 설정하는 경우 "None"으로 할당됩니다.
 
-> [!NOTE] 머천다이징 변수의 인스턴스 카운트를 위한 현재 기능을 검토 중이며 향후 릴리스에서 변경될 예정입니다.
+> [!NOTE] 머천다이징 변수에서의 인스턴스 카운팅을 위한 현재 기능은 검토 중이며 향후 릴리스에서 변경될 예정입니다.
 
