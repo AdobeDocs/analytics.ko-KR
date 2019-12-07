@@ -1,12 +1,11 @@
 ---
 description: 보고서 세트 이름 옆에 있는 i(정보) 아이콘을 클릭하여 보고서 세트에 대한 정보를 얻습니다.
 keywords: Virtual Report Suite
-solution: Analytics
 title: 가상 보고서 세트 정보 보기
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
