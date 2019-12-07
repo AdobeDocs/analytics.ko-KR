@@ -1,11 +1,10 @@
 ---
 description: Microsoft Excel용 Adobe Report Builder 추가 기능을 사용하여 웹 분석 데이터에서 사용자 지정된 요청을 작성하여 Excel 워크시트에 삽입할 수 있습니다.
 keywords: ftp;sftp
-solution: Analytics
 title: Report Builder 배달된 보고서
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
