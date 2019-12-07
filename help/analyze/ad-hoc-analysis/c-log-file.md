@@ -1,11 +1,10 @@
 ---
 description: 로그 파일은 웹 사이트에서 파일이 검색될 때 서버가 관련 데이터를 저장하는 데 사용하는 텍스트 파일입니다. 수집된 정보의 일부에는 날짜 및 시간, 지원 URL, IP 주소, 요청 상태 등이 포함됩니다.
-solution: Analytics
 title: 로그 파일
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
