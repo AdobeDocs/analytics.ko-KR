@@ -1,22 +1,21 @@
 ---
-description: 실시간 보고서에서 지원하는 지표와 측정기준을 나열합니다. 분류를 정의했을 경우 분류도 지원됩니다.
-solution: Analytics
+description: 실시간 보고서에서 지원하는 지표와 차원을 나열합니다. 분류를 정의했을 경우 분류도 지원됩니다.
 title: 지원되는 실시간 지표 및 차원
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 지원되는 실시간 지표 및 차원
 
-실시간 보고서에서 지원하는 지표와 측정기준을 나열합니다. 분류를 정의했을 경우 분류도 지원됩니다.
+실시간 보고서에서 지원하는 지표와 차원을 나열합니다. 분류를 정의했을 경우 분류도 지원됩니다.
 
 ## 지원되는 지표 {#section_514ED8B382494C47BFC0657894D1AF94}
 
-* 매출 
+* 수입 
 * 주문
 * 판매량
 * 장바구니
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 인스턴스
 * 사용자 지정 이벤트 1-100(보고서 세트에 활성화되어 있을 경우)
 
-## 지원되는 측정기준 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## 지원되는 차원 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Page
 * 검색 키워드
