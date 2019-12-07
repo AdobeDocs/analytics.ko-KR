@@ -1,12 +1,11 @@
 ---
 description: 사용자 지정 이벤트는 추적하려는 성공 유형을 정의할 수 있도록 해줍니다.
 keywords: Analytics Implementation;custom event
-solution: Analytics
 title: 사용자 지정 이벤트란?
 topic: Developer and implementation
 uuid: 8e78ba04-9b4c-4566-980c-c24dd9d82236
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
