@@ -1,13 +1,12 @@
 ---
 description: 이 섹션은 사이트의 페이지와 핵심 JavaScript 파일에 대한 예제 코드를 포함합니다.
 keywords: Analytics Implementation;appmeasurement.js code;example page code
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: 페이지 코드 및 글로벌 구성 예
 topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
