@@ -1,12 +1,11 @@
 ---
 description: 배포가 완료되면 이 통합이 제공하는 추가 기능을 사용할 수 있습니다.
-solution: Analytics
 subtopic: Qualtrics
 title: 통합 사용
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
