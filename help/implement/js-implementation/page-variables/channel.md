@@ -1,13 +1,12 @@
 ---
 description: 페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ channel.xml
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| 100바이트 | CH | 사이트 컨텐츠 &gt; 사이트 섹션 | "" |
+| 100바이트 | CH | 사이트 콘텐츠 &gt; 사이트 섹션 | "" |
 
 모든 페이지에서 채널 변수를 채우는 것이 좋습니다. 또한 *`channel`* 과 [!UICONTROL page name] 변수 간에 상관 관계를 설정할 수도 있습니다.
 
