@@ -1,11 +1,10 @@
 ---
 description: 캠페인 보고 그룹의 지표 평균을 보여줍니다. 기본 지표는 클릭스루 횟수, 총 판매 수, 주문 수 및 매출액입니다.
-solution: Analytics
 title: 캠페인 전환 단계
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
