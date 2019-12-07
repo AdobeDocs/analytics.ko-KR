@@ -1,10 +1,9 @@
 ---
 title: 세그먼트 비교 패널 개요
 description: Analysis Workspace에서 세그먼트 IQ의 일부인 세그먼트 비교 패널을 사용하는 방법을 알아봅니다.
-keywords: Analysis Workspace;세그먼트 IQ
-solution: Analytics
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+keywords: Analysis Workspace;Segment IQ
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
