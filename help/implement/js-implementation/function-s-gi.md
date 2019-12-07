@@ -1,12 +1,11 @@
 ---
 description: s_gi() 함수는 보고서 세트 ID로 AppMeasurement 인스턴스를 만들거나 찾는 데 사용됩니다. 내부적으로 AppMeasurement는 생성된 모든 인스턴스를 추적하고 s_gi()는 보고서 세트에 대한 기존 인스턴스가 있으면 이를 반환합니다. 인스턴스가 존재하지 않는 경우 새로운 인스턴스가 생성되어 반환됩니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: s_gi() 함수
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
