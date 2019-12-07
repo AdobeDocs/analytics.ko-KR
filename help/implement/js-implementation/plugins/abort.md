@@ -1,12 +1,11 @@
 ---
 description: doPlugins 내부에 중단 플래그를 설정하여 현재 추적 호출이 전송되지 않도록 할 수 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: s.abort flag
 topic: Developer and implementation
 uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
