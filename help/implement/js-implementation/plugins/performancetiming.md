@@ -1,12 +1,11 @@
 ---
 description: 이 플러그인은 웹에서의 정확한 성능 측정을 위해 내비게이션 타이밍 JavaScript API를 사용하여 작동하며, 페이지 로드 이벤트 및 자산 로드 시간 동안 정확하고 상세한 타이밍 통계를 구하는 기본 방법을 제공합니다. 이전에는, 이러한 종류의 측정에서 타이밍 지표에 대한 JavaScript 날짜 개체나, 내비게이션 타이밍 지표의 가장 기초적인 외삽법을 이용했습니다. 이 방법들이 페이지 로드 시간에 대해 트렌드된 데이터를 제공하더라도 두 방법 모두 신뢰할 수는 없습니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: performanceTiming
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 이 플러그인에서는 다음의 세부적인 이벤트를 활용하여 페이지 로드의 개별 타이밍 구성 요소를 추적합니다.
 
-| 이벤트 |  이름  | 계산에 사용할 내용 |
+| Event |  이름  | 계산에 사용할 내용 |
 |---|---|---|
 | 1 | 리디렉션 타이밍 | fetchStart - navigationStart |
 | 2 | 앱 캐시 타이밍 | domainLookupStart - fetchStart |
