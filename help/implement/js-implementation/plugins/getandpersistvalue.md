@@ -1,13 +1,12 @@
 ---
 description: getAndPersistValue 플러그인은 선택한 값을 가져와 결정된 기간 동안 Analytics 변수에 채웁니다. 가장 일반적인 용도는 클릭스루 후에 캠페인이 페이지 보기를 몇 개나 생성하는지 확인하여 각 캠페인에 가장 공통되는 페이지를 쉽게 확인할 수 있도록 하는 것입니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getAndPersistValue
 topic: Developer and implementation
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
