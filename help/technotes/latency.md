@@ -1,13 +1,12 @@
 ---
 description: 다음 정보는 Analytics 데이터의 보고서 세트 지연 문제를 해결하는 데 도움이 될 수 있습니다.
 keywords: missing data;slow
-solution: Analytics
 subtopic: Current data
 title: 데이터 가용성 및 지연
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
