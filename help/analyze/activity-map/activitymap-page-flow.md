@@ -1,11 +1,10 @@
 ---
 description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 모양으로 표시됩니다.
-solution: Analytics
 title: '페이지 상세정보 '
 topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
