@@ -1,12 +1,11 @@
 ---
 description: 이 항목에서는 일반적인 질문에 대한 답변을 제공합니다.
-solution: Analytics
 subtopic: Data sources
 title: Data Sources FAQ
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 데이터 소스를 사용하여 가져온 데이터를 삭제할 수 있습니까? {#section_DB73BC06BD774738BF019B347D9DED96}
 
-아닙니다. 데이터 소스를 사용하여 보고서로 업로드한 데이터는 가져온 후에는 Adobe 기술자도 삭제할 수 없습니다. 이것은 기존 데이터에 영구적으로 삽입되어 JavaScript, ActionSource, 데이터 삽입 API 등의 기존 데이터 수집 수단을 통해 입력한 데이터와 구별할 수 없게 됩니다. 따라서 생산 환경에 업로드하기 전에 데이터 소스 데이터를 테스트 보고서 세트에 업로드할 것을 적극 권장합니다.
+아니요. 데이터 소스를 사용하여 보고서로 업로드한 데이터는 가져온 후에는 Adobe 기술자도 삭제할 수 없습니다. 이것은 기존 데이터에 영구적으로 삽입되어 JavaScript, ActionSource, 데이터 삽입 API 등의 기존 데이터 수집 수단을 통해 입력한 데이터와 구별할 수 없게 됩니다. 따라서 생산 환경에 업로드하기 전에 데이터 소스 데이터를 테스트 보고서 세트에 업로드할 것을 적극 권장합니다.
 
 ## 한 번에 가져올 수 있는 데이터 양은 어느 정도입니까? {#section_7A76D59E2C5B434D9BDBD2ABD2873168}
 
@@ -133,4 +132,4 @@ The number of Unique Visitors in a web-server log is calculated as the different
 ## 데이터 소스를 사용하여 업로드된 eVar는 나중의 온라인 행동에까지 지속됩니까? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
 아니요. 거래 ID 데이터 소스를 통해 업로드된 eVar는 저장된 프로필 정보에서만 읽히게 되고, 프로필을 업데이트하지는 않습니다.
-아닙니다. eVar은 방문자 프로필의 스냅숏에 저장되는 유일한 변수입니다.
+아니요. eVar은 방문자 프로필의 스냅숏에 저장되는 유일한 변수입니다.
