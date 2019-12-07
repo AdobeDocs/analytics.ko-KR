@@ -1,12 +1,11 @@
 ---
 description: 사용자 유형별 경로 세그먼트화는 얼마나 구체적인 사용자 유형이 사이트에서 경로를 이동하는지를 이해하기 위한 일반적인 요청입니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 사용자 유형별 경로 세그먼트화
 topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
