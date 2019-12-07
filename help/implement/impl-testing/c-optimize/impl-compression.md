@@ -1,13 +1,12 @@
 ---
 description: 고객은 표준 기반 인코딩(gzip 등)을 사용하여 JavaScript 라이브러리 파일을 압축할 수 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 파일 압축
 topic: Developer and implementation
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
