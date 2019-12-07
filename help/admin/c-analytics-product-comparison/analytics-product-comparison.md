@@ -1,19 +1,18 @@
 ---
-description: 분석 작업 공간, 보고 및 분석, 애드혹 분석, 리포트 빌더, 데이터 웨어하우스 및 데이터 워크벤치의 시스템 요구 사항 및 비교
-solution: Analytics
+description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Analytics 제품 비교 및 요구 사항
 
-분석 작업 공간, 보고 및 분석, 애드혹 분석, 리포트 빌더, 데이터 웨어하우스 및 데이터 워크벤치의 시스템 요구 사항 및 비교
+Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+사용할 Adobe Analytics 제품에 대해 알아보려면.[여기](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)로 이동합니다.
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
@@ -83,7 +82,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   <tr> 
    <td> <b>고급 고객의 움직임 분석</b> </td> 
    <td> 계획됨 </td> 
-   <td> 아니요 </td> 
+   <td> 아니오 </td> 
    <td> 예 </td> 
    <td> 아니오 </td> 
    <td colname="col06"> 아니오 </td> 
@@ -110,7 +109,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   <tr> 
    <td> <b>향상된 시각화 옵션</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
-   <td> 아니요 </td> 
+   <td> 아니오 </td> 
    <td> 예 </td> 
    <td> 예 </td> 
    <td colname="col06"> 아니오 </td> 
@@ -140,7 +139,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 예</a>, 모든/임의 사용자 </td> 
    <td> Ad Hoc Analysis 사용자만 </td> 
    <td> 예, 모든/임의 사용자 </td> 
-   <td colname="col06"> 아니요 </td> 
+   <td colname="col06"> 아니오 </td> 
    <td colname="col6"> 예 </td> 
   </tr> 
   <tr> 
