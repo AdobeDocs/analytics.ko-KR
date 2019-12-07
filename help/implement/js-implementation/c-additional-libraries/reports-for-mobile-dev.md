@@ -1,12 +1,11 @@
 ---
 description: 모바일 장치는 다른 방문자들처럼 비콘을 통해 추적되므로 대부분의 보고서가 사용 가능하며 정확합니다.
 keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
-solution: Analytics
 title: 모바일 프로토콜을 사용한 장치 보고서
 topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
