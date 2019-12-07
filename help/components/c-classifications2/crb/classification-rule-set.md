@@ -1,12 +1,11 @@
 ---
 description: 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
-solution: Analytics
 subtopic: Classifications
 title: 분류 규칙 세트
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 분류 규칙 빌더 페이지 {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 규칙 빌더]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 규칙 빌더]**
 
 다음 필드와 옵션은 [!UICONTROL 분류 규칙 빌더]에서 사용할 수 있습니다.
 
@@ -66,27 +65,27 @@ t_classification_rule_set.xml
 
 분류 규칙 세트의 이름을 지정하고, 변수를 적용하고 덮어쓰기 설정을 지정합니다.
 
-1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. (전제 조건) **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;에서 분류 구조를 정의합니다.
 
-   (분류 추가에 대한 자세한 내용은 관리 도구 도움말의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)를 참조하십시오.)
+   (분류 추가에 대한 자세한 내용은 관리자 도구 도움말의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)를 참조하십시오.)
 
    변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 [!UICONTROL 새 규칙 세트] 패널에 표시됩니다.
 
-   You can create classifications on a variable in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**). 그런 다음, 변수를 선택하고 **[!UICONTROL 분류 추가를 클릭합니다]**.
+   **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 트래픽]** &gt; **[!UICONTROL 트래픽 분류]**(또는 **[!UICONTROL 전환]** &gt; **[!UICONTROL 전환 분류]**)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 **[!UICONTROL 분류 추가를 클릭합니다]**.
 
-1. To create the rule set, click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Add Rule Set]**.
+1. 규칙 세트를 만들려면, **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 규칙 빌더]** &gt; **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/new_rule_set.png)
 
-1. Name the rule set, then click **[!UICONTROL Create Rule Set]**.
+1. 규칙 세트의 이름을 지정한 다음, **[!UICONTROL 규칙 세트 만들기]**&#x200B;를 클릭합니다.
 1. 편집할 규칙 세트를 선택합니다.
 
    ![](assets/classification_rules_page.png)
 
-1. Click **[!UICONTROL Select Report Suites and Variables]**.
+1. **[!UICONTROL 보고서 세트 및 변수 선택]**&#x200B;을 클릭합니다.
 
    보고서 세트 및 변수 목록은 로그인 회사의 모든 보고서 세트에서 사용할 수 있는 모든 분류된 변수로 채워집니다. 보고서 세트의 단일 변수는 하나의 규칙 세트에만 속할 수 있습니다.
 
    자세한 내용은 *`Variable`*([분류 규칙 빌더](/help/components/c-classifications2/crb/classification-rule-definitions.md) 페이지의 정의에서)를 참조하십시오.
-1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
+1. 사용할 보고서 세트와 변수를 지정한 다음, **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 규칙 세트에 [분류 규칙을 추가](/help/components/c-classifications2/crb/classification-rule-set.md)하여 계속 진행합니다.
