@@ -1,13 +1,12 @@
 ---
 description: 리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저(클라이언트 측 리디렉션) 또는 웹 서버(서버측 리디렉션)에서 실행됩니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Redirects
 title: 리디렉션 및 별칭
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
