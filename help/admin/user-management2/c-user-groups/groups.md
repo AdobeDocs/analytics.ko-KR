@@ -1,25 +1,24 @@
 ---
 description: 사용자 그룹 정의 페이지의 요소 설명
-solution: Analytics
 subtopic: Users and groups
 title: 사용자 그룹 설정
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 사용자 그룹 설정(레거시)
+# 사용자 그룹 설정(기존)
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 사용자 그룹 정의 페이지의 요소 설명
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL 새 사용자 그룹추가]**
+**[!UICONTROL 관리자]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL 새 사용자 그룹 추가]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -61,7 +60,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>트래픽 보고서</b>:페이지 보기 횟수, 방문 횟수 및 고유 방문자 수와 같은 트래픽을 기반으로 모든 보고서에 대한 액세스 권한을 부여합니다. </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>트래픽 보고서</b>: 페이지 보기 횟수, 방문 횟수 및 고유 방문자 수와 같은 트래픽을 기반으로 하여 모든 보고서에 대한 액세스 권한을 부여합니다. </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>도구</b>(IP별로 제외, 분류 및 레거시 Clickmap과 같은 보고 및 분석에 사용된 도구에 대한 액세스 권한을 부여합니다.) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>비디오 및 모바일 보고서</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>경로 보고서</b>(다음 페이지, 폴아웃 및 페이지에서 보낸 시간과 같은 경로 지정 보고서에 대한 액세스 권한을 부여합니다.) </li> 
@@ -69,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
        <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>테스트 및 목표</b>(조직에서 분석과 타깃팅을 모두 사용하는 경우 타깃팅 보고서에 대한 액세스 권한을 부여합니다.) </li> 
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
        <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>웹 서비스</b>(보고 및 관리를 위해 API 리소스에 대한 액세스 권한을 부여합니다.) </li> 
-       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>지표</b>(페이지 보기 횟수 및 기타 지표(예: 사용자 지정 이벤트)와 같은 기본 지표를 포함하여 보고 및 분석에 사용된 지표에 대한 액세스 권한을 부여합니다.)</li> 
+       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>지표</b>(페이지 보기 횟수 및 기타 지표(예: 사용자 지정 이벤트)와 같은 기본 지표를 포함하여 Reports &amp; Analytics에 사용된 지표에 대한 액세스 권한을 부여합니다.)</li> 
        <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>관리 콘솔</b>(로그 및 보고서 세트 설정과 같은 관리 메뉴의 여러 구성 요소에 대한 액세스 권한을 부여합니다.) </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>보고서 다운로드</b>(Analytics UI 내에서 보고서를 다운로드할 수 있는 기능을 부여합니다.) </li> 
        <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>설문 조사</b>(조직에서 지원되지 않는 Adobe Survey 기능도 사용하는 경우 설문 조사 보고서에 대한 액세스 권한을 부여합니다.) </li> 
@@ -96,7 +95,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구</a>: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다. </li> 
      <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> 보고서 세트 도구</a>: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다. </li> 
      <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> 지표</a>: 트래픽, 전환, 사용자 지정 이벤트, 솔루션 이벤트, 컨텐츠 인식 등에 대한 권한을 활성화합니다. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 측정기준</a>: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 차원</a>: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -115,7 +114,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager(모든 액세스 권한, 사용자 지정, 액세스 권한 없음) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 사용자가 사용할 수 없습니다. </p> <p>배포에 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a>가 권장됩니다. </p> </td> 
+   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>사용자 로그인 지정</b> </td> 
