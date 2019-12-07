@@ -1,13 +1,12 @@
 ---
 description: JavaScript 용 AppMeasurement는 s_code.js와 동일한 핵심 기능을 제공하면서도, 모바일 사이트와 데스크탑 사이트 모두에서 사용할 수 있는 보다 가볍고 빠른 새로운 라이브러리입니다.
 keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: JavaScript용 AppMeasurement 정보
 topic: Developer and implementation
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
