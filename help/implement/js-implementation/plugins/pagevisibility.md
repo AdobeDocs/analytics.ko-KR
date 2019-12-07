@@ -1,12 +1,11 @@
 ---
 description: 사용자 페이지가 브라우저 내에서 활성 탭으로 있던 시간(초)을 기록하고 다음 페이지 보기에서 지표에 그 값을 전달합니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: getPageVisibility
 topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 `s.pvel` 변수는 사용하려는 다음 이벤트 3개를 포함해야 합니다.
 
-| 이벤트 | 정의 |
+| Event | 정의 |
 |---|---|
 | 총 페이지 가시성 초(숫자) | 브라우저 내에서 페이지가 활성 상태였던 시간 |
 | 총 페이지 초(숫자) | 가시성 상태와 관계없이 페이지가 브라우저에 로딩된 시간 |
