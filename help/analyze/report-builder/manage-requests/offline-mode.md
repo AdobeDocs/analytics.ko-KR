@@ -1,11 +1,10 @@
 ---
 description: 오프라인 모드는 요청을 만들고 편집하는 과정을 가속화하는 자리 표시자 데이터를 반환합니다.
-solution: Analytics
 title: 요청을 만들고 편집하기 위한 오프라인 모드
 topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
