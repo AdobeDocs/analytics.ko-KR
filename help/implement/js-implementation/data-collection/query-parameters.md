@@ -1,12 +1,11 @@
 ---
 description: 다음 표는 데이터 수집으로 전송되는 각 분석 변수에 대한 값을 포함하는 쿼리 매개 변수를 나열합니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 데이터 수집 쿼리 매개 변수
 topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
