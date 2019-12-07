@@ -1,23 +1,22 @@
 ---
 description: 'null'
 keywords: segmentation;segments
-solution: Analytics
 title: FAQ
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # FAQ
 
-세그멘테이션 기능, 액세스, 권한, 우수 사례 및 이전 세그먼트 관리에 대한 자주 묻는 질문에 대한 답변입니다.
+세그먼테이션 기능, 액세스, 권한, 우수 사례 및 이전 세그먼트 관리에 대해 자주 묻는 질문에 대한 답변.
 
 ## 기능 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* Analysis Workspace의 세그멘테이션:
+* Analysis Workspace의 세그먼테이션:
 
    * [세그먼트를 비교](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)할 수 있습니다.
    * 비교에서 [세그먼트를 차원으로](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) 사용합니다.
@@ -25,25 +24,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)할 수 있습니다.
 * 세그먼트는 모든 보고서 세트에 범용입니다.
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)는 세그먼트 생성을 단순화합니다.
 * [세그먼트 관리자](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
 
-* [세그먼트를 태그 지정](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* [세그먼트를 태그 지정](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. 이전에는 폴더([!DNL Ad Hoc Analysis])를 사용하여 세그먼트를 구성했습니다.
 
 * Ad Hoc Analysis 외부에서 [순차적 세그먼트](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
 * 페이지 보기 컨테이너는 단지 페이지 보기가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 히트 컨테이너로 이름이 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다. 이 컨테이너가 작동하는 방식은 변경되지 않았으며 이름만 바뀌었습니다.
 
-자세한 내용은 디지털 마케팅 블로그의 [Adobe Analytics에서의 세그멘테이션 개선](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) 게시물을 참조하십시오.
+자세한 내용은 디지털 마케팅 블로그의 [Adobe Analytics에서의 세그먼테이션 개선](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) 게시물을 참조하십시오.
 
-## 세그멘테이션 도구 액세스 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## 세그먼테이션 도구 액세스 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **세그먼트 빌더로 이동하는 방법**
 
 다음 작업을 수행하여 세그먼트 빌더에 액세스할 수 있습니다.
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) In the segment rail that displays, then click **[!UICONTROL Add]**, or
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
 
-* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가를 클릭합니다]**.  ![](assets/add_button.png)
+* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![](assets/add_button.png)
 
    또는
 
@@ -53,17 +52,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 세그먼트 빌더 액세스 방법:
 
-* Going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
+* 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) Then click **[!UICONTROL Manage]**, or
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
 
 * 인터페이스의 어디에서든지 슬래시 키 '/'를 누르고 세그먼트 관리자를 검색합니다.
 
 **이전 세그먼트 드롭다운은 어디로 이동했습니까?**
 
-Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 "범용" 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 세그먼트 아이콘을 클릭합니다 ![](assets/segment_icon.png)
+Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 "범용" 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 왼쪽 탐색 영역에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭하십시오.
 
-왼쪽 탐색 창에 세그먼트 레일이 표시됩니다.
+그러면 세그먼트 레일이 표시됩니다.
 
 **이전 보고서 세트 드롭다운은 어디로 이동했습니까?**
 
@@ -81,7 +80,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 **회사의 세그먼트를 볼 수 있습니까?**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+예, 관리자는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
 
 Ad Hoc Analysis 및 Report Builder는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트를 표시합니다.
 
@@ -139,11 +138,11 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 ![](assets/duplicate_seg_names.png)
 
-기본 제품 보고서 세트의 세그먼트를 참조하는 책갈피가 있습니다. 그런 다음 해당 세그먼트가 중복되므로 삭제합니다. 책갈피는 계속 실행되며 삭제된 세그먼트의 정의를 참조합니다. 기본 개발 세그먼트에 대한 세그먼트 정의를 Catalina Island 및 Tijuana Mexico를 포함하도록 변경해도 해당 책갈피에 적용된 세그먼트는 변경되지 않습니다. 또한 이전 정의를 사용합니다. 이 문제를 해결하려면 새 정의를 참조하도록 책갈피를 업데이트합니다. 책갈피, 대시보드 또는 예약된 보고서가 삭제된 세그먼트를 사용하는지 확실하지 않은 경우 책갈피가 나머지 세그먼트를 사용하는지 여부를 더 명확히 알 수 있도록 나머지 세그먼트의 이름을 변경할 수 있습니다.
+기본 제품 보고서 세트의 세그먼트를 참조하는 책갈피가 있습니다. 그런 후 해당 세그먼트가 중복되어 있으므로 삭제합니다. 책갈피는 계속 실행되며 삭제된 세그먼트의 정의를 참조합니다. 기본 개발 세그먼트에 대한 세그먼트 정의를 Catalina Island 및 Tijuana Mexico를 포함하도록 변경해도 해당 책갈피에 적용된 세그먼트는 변경되지 않습니다. 또한 이전 정의를 사용합니다. 이 문제를 해결하려면 새 정의를 참조하도록 책갈피를 업데이트합니다. 책갈피, 대시보드 또는 예약된 보고서가 삭제된 세그먼트를 사용하는지 확실하지 않은 경우 책갈피에 나머지 세그먼트가 사용되고 있는지를 좀 더 명확히 알 수 있도록 나머지 세그먼트의 이름을 변경할 수 있습니다.
 
 **Data Warehouse 세그먼트에 나타나는 결과**
 
-모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 데이터 웨어하우스 세그먼트는 분석 작업 공간, 애드혹 분석 및 보고 및 분석과 같은 다른 구성 요소에서도 작동합니다.
+모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace, Ad Hoc Analysis 및 Reports &amp; Analytics와 같은 기타 구성 요소에서 여전히 작동합니다.
 
 세그먼트 빌더/관리자에서 새 Data Warehouse 세그먼트를 만들거나 편집할 수 있습니다. 세그먼트 빌더의 제품 호환성 메커니즘은 세그먼트가 Data Warehouse와 호환되는지의 여부를 자동으로 확인합니다.
 
@@ -179,13 +178,13 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
 
-**관리 세그먼트("전역" 세그먼트라고도 함)에 나타나는 결과**
+**관리자 세그먼트("전역" 세그먼트라고도 함)에 나타나는 결과**
 
-**관리** 세그먼트는 새 세그먼트 인터페이스로 마이그레이션되고 모든 사람과 공유되는 세그먼트로 표시됩니다.
+**관리자** 세그먼트는 새 세그먼트 인터페이스로 마이그레이션되고 모든 사람과 공유되는 세그먼트로 표시됩니다.
 
-이러한 세그먼트의 소유자는 로그인 회사의 관리자 사용자 목록에서 가장 오래된 계정을 가진 관리자로 설정되지만 모든 관리자가 이러한 세그먼트를 삭제, 편집 및 공유할 수 있습니다.
+이러한 세그먼트의 소유자는 로그인 회사의 관리자 사용자 목록에서 계정이 가장 오래된 관리자로 설정되지만 모든 관리자가 이러한 세그먼트를 삭제, 편집 및 공유할 수 있습니다.
 
-관리자가 이러한 전역 세그먼트를 만들고 관리하는 관리 콘솔의 세그먼트 관리 인터페이스는 더 이상 사용 가능하지 않습니다. 관리자는 이제 새 세그먼트 빌더를 사용하여 세그먼트를 만들고 해당 그룹이나 개인 또는 모든 사람과 공유하는 것이 좋습니다.
+관리자가 이러한 전역 세그먼트를 만들고 관리하는 관리자 콘솔의 세그먼트 관리 인터페이스는 더 이상 사용 가능하지 않습니다. 관리자는 이제 새 세그먼트 빌더를 사용하여 세그먼트를 만들고 해당 그룹이나 개인 또는 모든 사람과 공유하는 것이 좋습니다.
 
 <!-- 
 
@@ -199,13 +198,13 @@ seg_definition.xml
 
 다음 팁은 일반 차원을 마이그레이션하는 데 도움이 됩니다.
 
-* 지역-도시/지역/국가 - 부분 일치를 사용하지 않고 특정 도시, 지역 또는 국가를 검색하고 선택합니다.
-* 브라우저 - 브라우저 유형 차원을 사용하여 유형의 모든 브라우저(예: Google Chrome)를 가져옵니다.
-* 운영 체제 - OS 유형 차원을 사용하여 모든 운영 체제를 Microsoft Windows 형식으로 가져옵니다.
+* 지역-도시/지역/국가 – 부분 일치를 사용하지 않고 특정 도시, 지역 또는 국가를 검색하고 선택합니다.
+* 브라우저 – 브라우저 유형 차원을 사용하여 특정 유형의 모든 브라우저(예: Google Chrome)를 가져옵니다.
+* 운영 체제 – OS 유형 차원을 사용하여 특정 유형의 모든 운영 체제(예: Microsoft Windows)를 가져옵니다.
 
 * [새 차원 및 이름이 변경된 차원](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
 * [포함 변경 사항](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [보다 작거나 큰 변경 사항](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [보다 작음 및 보다 큼 변경 사항](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 새 차원 및 이름이 변경된 차원 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
