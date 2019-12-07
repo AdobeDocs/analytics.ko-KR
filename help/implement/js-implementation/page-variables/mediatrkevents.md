@@ -1,13 +1,12 @@
 ---
 description: 페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ media_trackEvents.xml
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| N/A | N/A | N/A | s.Media.trackEvents="None" |
+| 해당 없음 | 해당 없음 | 해당 없음 | s.Media.trackEvents="None" |
 
 **구문 및 가능한 값** {#section_66A978EF56914BEAAE73359A268A1B4A}
 
