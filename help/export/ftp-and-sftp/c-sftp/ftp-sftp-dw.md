@@ -1,11 +1,10 @@
 ---
 description: Adobe는 SFTP 서버로 데이터 웨어하우스 요청 내보내기를 지원합니다.
 keywords: ftp;sftp
-solution: Analytics
 title: SFTP 서버로 Data Warehouse 요청 보내기
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
