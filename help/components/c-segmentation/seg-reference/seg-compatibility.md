@@ -1,18 +1,17 @@
 ---
 description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 이 표에는 지원되는 기능이 표시되어 있습니다.
-solution: Analytics
 title: Data Warehouse 세그먼트 기능
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Data Warehouse 세그먼트 기능
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. 이 표에는 지원되는 기능이 표시되어 있습니다.
+세그먼트 빌더에서 만든 모든 세그먼트가 [!DNL Data Warehouse]와 호환되는 것은 아닙니다. 이 표에는 지원되는 기능이 표시되어 있습니다.
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 
@@ -45,7 +44,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>차원</b> </td> 
-   <td colname="col2">세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어 이러한 차원은 분석 작업 공간, 보고 및 분석 및 애드혹 분석에서만 지원됩니다. 
+   <td colname="col2">세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어 이러한 차원은 Analysis Workspace, Reports &amp; Analytics과 Ad Hoc Analysis에서만 지원됩니다. 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">시작 서버 </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">시작 카테고리 </li> 
@@ -58,7 +57,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">페이지 URL </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">방문자 ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Experience Cloud 방문자 ID </li> 
-    </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
+    </ul> <p>Data Warehouse 세그먼트에서는 다음 차원을 <b>사용할 수 없습니다</b>. </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">모든 검색 페이지 등급 </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">오전/오후 </li> 
@@ -70,13 +69,13 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_7F26B0E54A4A48319F31D8FC499D1CF2">종료(종료로 시작하는 모든 차원, 종료 링크 및 종료 페이지 제외) </li> 
      <li id="li_1877D2D8A95B43F29CAA426BF2FE4996">계층(계층으로 시작하는 모든 차원) </li> 
      <li id="li_DF0BCC63ED274ABEA1C5A28274936310">히트 깊이 </li> 
-     <li id="li_98BE56213E1A4FD28D4858D53C46D23E">조회 유형 </li> 
+     <li id="li_98BE56213E1A4FD28D4858D53C46D23E">히트 유형 </li> 
      <li id="li_52ECB31657DF4180BDB9C8D21CC74313">시간(일) </li> 
      <li id="li_93716207F2614822ACB84100B35D27BC">월 </li> 
      <li id="li_FFC8E1F7092C4876A7E9F2365CC234B9">페이지를 찾을 수 없음 </li> 
      <li id="li_7A070C8E0F664F5AB554555B17D0E4E6">유료 검색 </li> 
      <li id="li_12228C18BF90463C8D8394FB810843D3">사분기 </li> 
-     <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">재방문 주기 </li> 
+     <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">반환 주기 </li> 
      <li id="li_39154CD74A534D9AA09C701FE1E2C521">단일 페이지 방문 횟수 </li> 
      <li id="li_84BDE34DD577488881E8842D2DE72D3C">이벤트까지 남은 시간 </li> 
      <li id="li_552BE3414CC949B3B24BE99298945874">페이지 체류 시간 - 버킷 지정됨 </li> 
