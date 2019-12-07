@@ -1,13 +1,12 @@
 ---
 description: Adobe Analytics에 중복 구매가 표시되지 않도록 하는 purchaseID 변수에 대해 알아봅니다.
 keywords: duplicate,purchase,purchaseid,s.purchaseid
-solution: Analytics
 subtopic: Variables
 title: purchaseID
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 3e2f0bccbe7183ea75b12b1ef2b5afdd87837629
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
