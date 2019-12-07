@@ -1,11 +1,10 @@
 ---
 description: 세그먼트 관리자는 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 다양한 세그먼트 처리 작업을 제공합니다.
-solution: Analytics
 title: 세그먼트 관리
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics 세그먼트 관리자는 사용자가 보유하는 모든 세그먼트 및 사용자와 공유되는 모든 세그먼트를 표시합니다. 관리자 수준의 사용자는 조직의 모든 세그먼트를 볼 수 있습니다. 이 개요에서는 세그먼트 관리자의 사용자 인터페이스와 기능을 설명합니다. 세그먼트 빌더 액세스 방법은 다음과 같습니다.
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** in the top navigation.
+* 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 세그먼트]**&#x200B;로 이동합니다.
 * 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) 그런 다음 **[!UICONTROL 관리를 클릭합니다]**.
 
 ## 방법 비디오 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
@@ -48,7 +47,7 @@ Analytics 세그먼트 관리자는 사용자가 보유하는 모든 세그먼�
 
 Ad Hoc Analysis의 Segment Organizer는 사용자가 소유하거나 사용자와 공유된 모든 세그먼트를 표시합니다.
 
-To access the Segment Organizer in [!DNL ad hoc analysis]:
+[!DNL ad hoc analysis]에서 Segment Organizer에 액세스하려면
 
 * 왼쪽 패널의 **[!UICONTROL 세그먼트]** 탭으로 이동한 다음 공구모양 아이콘 ![을 클릭하고 메뉴에서 **세그먼트 구성]을 선택합니다.](assets/wrench_icon.png)[!UICONTROL **
 
