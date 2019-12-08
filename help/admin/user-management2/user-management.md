@@ -1,12 +1,11 @@
 ---
 description: Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
-solution: Analytics
 subtopic: Users and groups
 title: 사용자 및 제품 관리
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 ## Admin Console 관리자에 대한 도움말 리소스 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -31,11 +30,11 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics 사용자 ID를 Admin Console로 마이그레이션 </p> </td> 
-   <td colname="col2"> <p> Adobe는 Analytics 관리자가 사용자 ID를 Adobe Admin Console로 마이그레이션하도록 지원합니다. 이러한 지원은 신속하게 이루어질 것입니다. 여러분이 사용자를 마이그레이션해야 하는 경우 Adobe는 이메일로 Analytics 관리자에게 지침을 알려줍니다. 이 시점에서 이 작업을 간소화하기 위해 Analytics 사용자 관리에서 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">마이그레이션 도구</a>를 사용할 수 있습니다. </p> <p>중요: 이전의 권한 그룹은 사용자의 마이그레이션 당일 자동으로 Admin Console에 복사됩니다. 사용자는 더 이상 Analytics 관리 도구에서 새 사용자를 초대하거나 새 그룹을 만들 수 없게 됩니다. 마이그레이션을 준비하는 방법과 영향을 받는 관리 기능에 대해서는 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Admin Console로 Analytics 사용자 마이그레이션</a>의 FAQ 및 도움말을 검토하십시오. </p> </td> 
+   <td colname="col2"> <p> Adobe는 Analytics 관리자가 사용자 ID를 Adobe Admin Console로 마이그레이션하도록 지원합니다. 이러한 지원은 신속하게 이루어질 것입니다. 여러분이 사용자를 마이그레이션해야 하는 경우 Adobe는 이메일로 Analytics 관리자에게 지침을 알려줍니다. 이 시점에서 이 작업을 간소화하기 위해 Analytics 사용자 관리에서 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">마이그레이션 도구</a>를 사용할 수 있습니다. </p> <p>중요: 이전의 권한 그룹은 사용자의 마이그레이션 당일 자동으로 Admin Console에 복사됩니다. 더 이상 Analytics 관리 도구에서 새 사용자를 초대하거나 새 그룹을 만들 수 없게 됩니다. 마이그레이션을 준비하는 방법과 영향을 받는 관리 기능에 대해서는 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Admin Console로 Analytics 사용자 마이그레이션</a>의 FAQ 및 도움말을 검토하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console 실행 </p> </td> 
-   <td colname="col2"> <p>사용자 계정이 마이그레이션되면 Admin Console의 모든 솔루션 사용자 및 제품을 관리할 수 있습니다. </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Experience Cloud 사용자 및 제품 관리</a>에서 Admin Console의 Experience Cloud 사용자 및 제품 관리 업데이트에 대한 도움말을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>사용자 계정이 마이그레이션되면 Admin Console의 모든 솔루션 사용자 및 제품을 관리할 수 있습니다. </p> <p><a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>로 이동합니다. </p> <p>Admin Console에서 Experience Cloud 사용자 및 제품 관리 업데이트에 대한 도움말을 보려면 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Experience Cloud 사용자 및 제품 관리</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +65,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 새 사용자 추가</span> </td> 
-   <td colname="col2"> <p>사용자 계정을 회사에 추가할 수 있습니다. 이 링크는 남아 있는 사용자 로그인 수가 0보다 큰 경우에만 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/users.md"> 사용자</a>. </p> </td> 
+   <td colname="col2"> <p>사용자 계정을 회사에 추가할 수 있습니다. 이 링크는 남아 있는 사용자 로그인 수가 0보다 큰 경우에만 사용할 수 있습니다. </p> <p>사용자를 <a href="/help/admin/user-management2/c-user-management/users.md"> 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 보고서 다운로드</span> </td> 
@@ -74,7 +73,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 로그인</span> </td> 
-   <td colname="col2"> <p>사용자 이름. 사용자 이름을 클릭하여 사용자 계정 속성을 편집할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/users.md"> 사용자</a>. </p> </td> 
+   <td colname="col2"> <p>사용자 이름. 사용자 이름을 클릭하여 사용자 계정 속성을 편집할 수 있습니다. </p> <p>사용자를 <a href="/help/admin/user-management2/c-user-management/users.md"> 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 이름</span> </td> 
@@ -89,7 +88,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
    <td colname="col2"> 사용자의 직함입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 관리</span> </td> 
+   <td colname="col1"> <span class="wintitle"> 관리자</span> </td> 
    <td colname="col2"> 사용자 계정이 관리 권한을 가지고 있는지 지정합니다. </td> 
   </tr> 
   <tr> 
@@ -102,7 +101,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 만료</span> </td> 
-   <td colname="col2"> 해당하는 경우 계정 만료 계정을 표시합니다. </td> 
+   <td colname="col2"> 해당하는 경우 만료된 계정을 표시합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 관리</span> </td> 
@@ -110,7 +109,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 편집</span> </td> 
-   <td colname="col2"> <p>사용자 계정 설정을 편집합니다. </p> <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/users.md"> 사용자</a>. </p> </td> 
+   <td colname="col2"> <p>사용자 계정 설정을 편집합니다. </p> <p>사용자를 <a href="/help/admin/user-management2/c-user-management/users.md"> 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 삭제</span> </td> 
@@ -118,7 +117,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 양도</span> </td> 
-   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 사용자 계정 권한 이전</a>. </p> </td> 
+   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 사용자 계정 권한 이전</a> 참조. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 이 사용자로 로그인</span> </td> 
