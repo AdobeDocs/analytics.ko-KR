@@ -1,11 +1,10 @@
 ---
 description: 클라이언트에서 사용한 운영 체제에 의한 웹 트래픽을 그룹화합니다.
-solution: Analytics
 title: 운영 체제
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
