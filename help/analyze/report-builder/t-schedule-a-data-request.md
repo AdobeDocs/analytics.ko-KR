@@ -1,11 +1,10 @@
 ---
 description: 정의하는 시간 및 파일 형식에 따라 보고서를 전송하도록 예약할 수 있습니다.
-solution: Analytics
 title: 데이터 요청 예약
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -47,7 +46,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | 보고서 선택 | 통합 문서의 이름입니다. 새로운 예약된 보고서의 경우 이 필드에는 활성 상태의 통합 문서 이름이 입력되어 있습니다. |
 | 선택 | 보고서 선택 페이지를 표시합니다. 서버(이전에 예약한 통합 문서가 저장된 곳)나 로컬 시스템에서 보고서를 선택할 수 있습니다. 로컬 드라이브에서 .xls 형식의 통합 문서를 선택하면 시스템이 파일을 .xlsx로 전환합니다. 이러한 전환 작업의 일부로서 파일은 Excel에서 열려서 활성화됩니다. 예약된 보고서에 대해 선택한 통합 문서의 파일 이름이 현재 Excel에 열려 있는 통합 문서와 동일하면 시스템은 이전에 업로드 한 파일 대신 로컬 파일을 선택합니다. 예약 보관소에서 보고서를 선택하면 통합 문서의 사본이 서버에 만들어지고 해당 파일 이름이 1로 업데이트됩니다.새로 만든 예약된 보고서는 복사된 통합 문서를 사용합니다. |
 | 사용자 지정 | 날짜 형식을 사용자 지정할 수 있습니다. |
-| 받는 사람 | 사용할 수 있을 경우 Outlook 주소록을 표시합니다. |
+| 종료 | 사용할 수 있을 경우 Outlook 주소록을 표시합니다. |
 | 수신인: 이메일 | 통합 문서의 전자 메일 받는 사람입니다. |
 | 수신인: 게시 목록 | 이 회사용의 사용 가능한 배포 목록의 목록을 표시합니다. |
 | Power BI | 자세한 내용은 [Microsoft Power BI에 통합 문서 게시](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)를 참조하십시오. |
