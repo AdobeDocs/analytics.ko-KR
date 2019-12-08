@@ -1,11 +1,10 @@
 ---
 description: 세그먼트를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다.
-solution: Analytics
 title: 세그먼트를 즐겨찾기로 표시
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,4 +17,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/favorites.png)
 
-1. You can also filter on favorites under **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Favorites]**.
+1. **[!UICONTROL 필터]** &gt; **[!UICONTROL 기타 필터]** &gt; **[!UICONTROL 즐겨찾기]** 아래에서 즐겨찾기에 대해 필터링할 수도 있습니다.
