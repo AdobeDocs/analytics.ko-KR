@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구성 요소로 저장합니다.
 keywords: Analysis Workspace
-solution: Analytics
 title: 사용자 지정 날짜 범위 만들기
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,9 +16,9 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 새 날짜 범위]**
 
-날짜 범위는 패널 수준에서 적용됩니다. To add a date range to your project, click **Panels** &gt; *`<select panel>`*, and specify a new date range.
+날짜 범위는 패널 수준에서 적용됩니다. 날짜 범위를 프로젝트에 추가하려면 **패널** &gt; *`<select panel>`*&#x200B;을 클릭하고 새 날짜 범위를 지정하십시오.
 
-## Date range for "two months ago" {#section_C4109C57CB444BB2A79CC8082BD67294}
+## "2개월 전"에 대한 날짜 범위 {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 다음 사용자 지정 날짜 범위는 방향 변경을 보여주는 요약 변경 사항 시각화가 있는, "2개월 전"에 대한 날짜 범위를 보여줍니다.
 
@@ -33,7 +32,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/date-range-two-months-table.png)
 
-## 7일 롤링 날짜 범위 사용 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## 7일 순환 날짜 범위 사용 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 날짜 범위는 패널 수준에 적용됩니다. 날짜 범위를 프로젝트에 추가하려면 **작업** &gt; **패널 추가**&#x200B;를 클릭하고, 새 날짜 범위를 지정하십시오.
 
@@ -43,7 +42,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/create_date_range.png)
 
-  *`rolling daily`*.
+사용 *`rolling daily`*&#x200B;를 사용하십시오.
 
 * 시작 설정은 *`current day minus 14 days`*.
 
