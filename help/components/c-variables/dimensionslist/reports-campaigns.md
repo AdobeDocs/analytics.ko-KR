@@ -1,11 +1,10 @@
 ---
 description: 광고 노력의 효과에 대한 정보를 표시합니다. 어떤 종류의 광고가 가장 많은 트래픽을 유발하며 어떤 직원이 이러한 노력을 담당했는지 확인할 수 있습니다.
-solution: Analytics
 title: 캠페인
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
