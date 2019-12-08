@@ -1,11 +1,10 @@
 ---
 description: 링크 보고서는 현재 페이지에서 찾은 링크에 대해 보고합니다. 이 보고서는 해당 페이지에 대해 수집한 모든 링크에 대해 보고하지는 않습니다.
-solution: Analytics
 title: 링크 보고서
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
