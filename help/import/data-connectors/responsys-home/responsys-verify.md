@@ -1,10 +1,9 @@
 ---
 description: 배포 후 다음 검사를 통해 통합이 성공적으로 데이터를 전송하는지 확인해야 합니다.
-solution: Analytics
 title: 통합 확인
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
