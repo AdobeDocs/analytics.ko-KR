@@ -1,11 +1,10 @@
 ---
 description: 관리자가 사용자 그룹에 대한 Data Warehouse 보고 액세스 권한을 활성화할 수 있는 방법을 설명하는 단계입니다.
-solution: Analytics
 title: Data Warehouse 사용자 그룹 추가
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 관리자가 사용자 그룹에 대한 Data Warehouse 보고 액세스 권한을 활성화할 수 있는 방법을 설명하는 단계입니다.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;를 클릭합니다.
 1. Click **[!UICONTROL Edit Groups]**.
 1. Click **[!UICONTROL Add New User Group]**.
 1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. 다음 그룹 정보를 입력하십시오. 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    Alternatively, click **[!UICONTROL Customize]**, then enable **[!UICONTROL Custom Data Warehouse Report]**.
 
 1. [!UICONTROL 사용자 로그인 지정]에서 원하는 사용자 로그인을 추가합니다.
-1. Click **[!UICONTROL Save Group]**.
+1. **[!UICONTROL 그룹 저장]**&#x200B;을 클릭합니다.
 
    다음번에 이 그룹에 추가된 사용자가 로그인하면 해당 사용자는 [!UICONTROL Reports &amp; Analytics] 메뉴에 추가된 Data Warehouse 옵션을 볼 수 있습니다.
 
