@@ -1,12 +1,11 @@
 ---
 description: 대시보드는 reportlet이라고 부르는 썸네일 보고서의 콜렉션입니다. 대시보드는 검색 방법, 방문자 프로파일 등과 같은 사이트의 특정 측면에 대한 전체 개요를 설명하는 관련 reportlet이 들어 있을 때 가장 유용합니다.
-solution: Analytics
 subtopic: Dashboards
 title: 대시보드 및 Reportlet
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -49,10 +48,10 @@ A dashboard is a collection of thumbnail reports called *`reportlets`*. 대시�
 
 * 종료 페이지
 * 가장 방문 빈도가 높은 페이지
-* 가장 빈도가 높은 사이트 섹션
-* KPI/측정 Reportlet
-* 텍스트 Reportlet
-* 회사 요약 Reportlet
+* 가장 방문 빈도가 높은 사이트 섹션
+* KPI/측정 리포트릿
+* 텍스트 리포트릿
+* 회사 요약 리포트릿
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
@@ -185,7 +184,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-| 할 작업 | 방법 |
+| 종료 | 방법 |
 |--- |--- |
 | 대시보드의 보고서 세트 변경 | Experience Cloud 헤더에서 메뉴를 클릭한 다음 보고서 세트를 선택합니다. |
 | reportlet의 보고서 세트 변경 | reportlet에서 보고서 세트 이름을 클릭한 다음 [!UICONTROL 보고서 세트] 메뉴에서 보고서 세트를 선택합니다. |
@@ -210,7 +209,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; 회사 **[!UICONTROL 설정]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 회사 설정]**.
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. 이동하여 이미지를 업로드한 후 **[!UICONTROL 저장]을 클릭합니다.**
