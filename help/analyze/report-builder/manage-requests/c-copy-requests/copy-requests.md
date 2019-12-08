@@ -1,11 +1,10 @@
 ---
 description: 두 개 이상의 요청과 매핑된 셀을 복사하고 그 내용을 스프레드시트의 비어 있는 선택된 영역에 붙여넣을 수 있습니다.
-solution: Analytics
 title: 요청 복사 개요
 topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
