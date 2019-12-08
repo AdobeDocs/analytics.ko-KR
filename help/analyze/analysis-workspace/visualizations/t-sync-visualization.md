@@ -1,12 +1,11 @@
 ---
 description: 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
 keywords: Analysis Workspace;Synchronize visualization with data source
-solution: Analytics
 title: 데이터 소스 관리
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,9 +18,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 데이터 소스를 관리하면 데이터 소스를 표시하거나 선택을 잠글 수 있습니다. 이러한 설정은 새 데이터가 유입될 때 시각화가 변경되는(또는 변경되지 않는) 방식을 결정합니다.
 
-1. [데이터 테이블 및](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 시각화를 [](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)사용하여 프로젝트를 만듭니다.
+1. 데이터 테이블과 [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 [프로젝트를 만듭니다](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 1. 데이터 테이블에서 시각화와 연결할 셀(데이터 소스)을 선택합니다.
-1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
+1. 시각화에서 제목 옆에 있는 점을 클릭하여 **[!UICONTROL 데이터 소스]** 대화 상자를 표시합니다. **[!UICONTROL 데이터 소스 표시]** 또는 **[!UICONTROL 선택 잠금]**&#x200B;을 선택하십시오.
 
    ![](assets/manage-data-source.png)
 
@@ -29,11 +28,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 요소 | 설명 |
 |--- |--- |
-| 연결된 시각화 | 자유 형식 또는 집단 테이블에 연결된 시각화가 있는 경우 왼쪽 상단 점이 열려 연결된 시각화가 나열되고 이 점에 해당 테이블을 표시하거나 숨길 수 있는 "표시" 확인란 옵션이 표시됩니다.  마우스를 가져가면 연결된 시각화가 강조 표시되고 클릭하면 해당 시각화로 이동합니다. |
+| 연결된 시각화 | 자유 형식 또는 집단 테이블에 연결된 시각화가 있는 경우 왼쪽 상단 점이 열려 연결된 시각화가 나열되고 이 점에 해당 테이블을 표시하거나 숨길 수 있는 "표시" 확인란 선택 사항이 표시됩니다.  마우스를 가져가면 연결된 시각화가 강조 표시되고 클릭하면 해당 시각화로 이동합니다. |
 | 데이터 소스 표시 | 시각화에 해당하는 데이터 테이블을 확인란을 사용 설정하여 표시하거나 사용 해제하여 숨길 수 있습니다. |
 | 선택 사항 잠금 | 이 설정을 사용하면 해당 데이터 테이블에서 현재 선택된 데이터로 시각화를 잠급니다. 사용 설정되면 다음 중에서 선택하십시오.  <ul><li>**선택된 위치**: 해당 데이터 테이블에서 선택되어 있는 위치에 대해 시각화를 잠금 상태로 유지하려면 이 옵션을 선택합니다. 이 위치에서 특정 항목이 바뀌는 경우에도 이 위치의 시각화는 계속 유지됩니다. 예를 들어 상위 5위까지 표시되는 캠페인 이름에 관계없이 이 시각화에서 상위 5개의 캠페인 이름을 항상 표시하려면 이 옵션을 선택합니다.</li> <li>**선택된 항목**: 해당 데이터 테이블에서 현재 선택되어 있는 특정 항목에 대해 시각화를 잠금 상태로 유지하려면 이 옵션을 선택합니다. 이러한 항목은 테이블의 항목 간에 순위가 바뀌는 경우에도 계속 시각화됩니다. 예를 들어 해당 캠페인 이름의 순위에 관계없이 이 시각화에서 동일한 특정 상위 5개의 캠페인 이름을 항상 표시하려면 이 옵션을 선택합니다.</li></ul> |
 
-이 아키텍처는 분석 작업 공간에서 잠근 선택 항목을 저장하는 중복된 숨겨진 테이블을 더 이상 만들지 않는다는 점에서 이전 아키텍처와 다릅니다. 이제 데이터 소스는 시각화를 작성한 기반이 된 테이블을 가리킵니다.
+이 아키텍처는 Analysis Workspace가 더 이상 잠긴 선택을 저장하는 숨겨진 테이블을 복제하지 않는다는 점에서 이전 아키텍처와 다릅니다. 이제 데이터 소스는 시각화를 작성한 기반이 된 테이블을 가리킵니다.
 
 **사용 사례의 예:**
 
