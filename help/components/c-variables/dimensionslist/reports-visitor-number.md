@@ -1,11 +1,10 @@
 ---
 description: 각 방문자가 사이트를 방문하는 횟수를 추적하여 방문자 충성도를 평가하는 데 도움이 됩니다. 선택한 기간 동안 사이트를 처음 방문하는 방문자 또는 20번째 방문하는 방문자의 방문이 더 많은지 여부를 확인할 수 있습니다.
-solution: Analytics
 title: 방문 횟수
 topic: Reports
 uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
