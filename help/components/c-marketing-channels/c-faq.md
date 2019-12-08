@@ -1,12 +1,11 @@
 ---
 description: 마케팅 채널용으로 설정할 수 있는 다양한 규칙을 채우는 방법에 대한 우수 사례 및 예제를 참조하십시오.
-solution: Analytics
 subtopic: Marketing channels
 title: FAQ 및 예제
 topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Read about best practices and examples of how to populate various rules you can 
 * [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 -->
 
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+[!UICONTROL 마케팅 채널 처리 규칙] 페이지에 표시되는 필드에 대한 정의를 알려면 [마케팅 채널 처리 규칙 만들기](/help/components/c-marketing-channels/t-rules.md)를 참조하십시오.
 
 ## FAQ {#faq}
 
@@ -37,9 +36,9 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 **질문**: 내 추적 코드가 패턴을 따르지 않으며, 제휴 채널에 대해 지정해야 하는 코드가 수천 개나 있습니다.
 
 *  제거 프로세스를 사용하십시오. 이메일 및 제휴 채널에서 동일한 쿼리 문자열 매개 변수를 사용하지만 몇 개의 이메일 추적 코드만 있는 경우에는 email을 정의하는 규칙 세트에 이메일 추적 코드를 지정할 수 있습니다. 그런 다음 *`affiliates.`*
-* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. ch 쿼리 매개 변수가 *`eml`*. 포함된 항목이 없으면 *`eml`*&#x200B;산하 조직입니다.
+* 이메일 시스템에서 쿼리 문자열 매개 변수를 모든 랜딩 페이지 URL에 추가합니다(예: *`&ch=eml`*). ch 쿼리 매개 변수가 *`eml`*. *`eml`*&#x200B;이 포함되어 있지 않다면 이 규칙 세트는 제휴입니다.
 
-**질문**:참조 도메인에 예상보다 많은 데이터가 포함되어 있습니다.
+**질문**: 참조 도메인에 예상보다 많은 데이터가 있습니다.
 
 * 처리 규칙 목록에서 참조 도메인이 너무 클 수 있습니다. 처리 순서가 중요하므로 마지막 규칙 세트 중 하나여야 합니다.
 
@@ -57,19 +56,19 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 *  규칙은 순서대로 처리됩니다. 특정 기준이 일치하지 않으면 히트가 다음 세 가지 카테고리 중 하나에 속하게 됩니다.
 
-1. 레퍼러 없음(직접 방문).
+1. 레퍼러 없음(직접 방문)
 
-2. 방문의 첫 번째 페이지에서 내부 레퍼러.
+2. 방문 첫 페이지의 내부 레퍼러
 
-3. 페이지의 처리 결함.
+3. 페이지의 작은 문제 처리
 
 다음 세 가지 가능성에 대한 채널이 있는지 확인합니다. 예를 들어 다음과 같은 규칙을 만듭니다.
 
-1. **[!UICONTROL 레퍼러가]** 존재하지 **[!UICONTROL 않고]** 방문의 첫 번째 **[!UICONTROL 페이지입니다]**. (See [Direct.](/help/components/c-marketing-channels/c-faq.md))
+1. **[!UICONTROL 레퍼러]**, **[!UICONTROL 존재하지 않음]** 및 **[!UICONTROL 방문의 첫 페이지임]**. [직접 방문](/help/components/c-marketing-channels/c-faq.md) 참조.
 
-2. **[!UICONTROL 레퍼러는 내부 URL 필터와]** 일치하고 **[!UICONTROL 방문의 첫 번째 페이지입니다]**. ([내부 방문](/help/components/c-marketing-channels/c-faq.md) 참조)
+2. **[!UICONTROL 레퍼러가 내부 URL 필터와 일치함]** 및 **[!UICONTROL 방문의 첫 페이지임]**. ([내부 방문](/help/components/c-marketing-channels/c-faq.md) 참조)
 
-3. **[!UICONTROL 레퍼러]** 및 **[!UICONTROL 존재하며]** 레퍼러가 **[!UICONTROL 내부 URL 필터와 일치하지 않습니다]**.
+3. **[!UICONTROL 레퍼러]**, **[!UICONTROL 존재함]** 및 **[!UICONTROL 레퍼러가 내부 URL 필터와 일치하지 않음]**.
 
 끝으로, [식별된 채널 없음](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)에 설명된 대로, 나머지 히트를 캡처하는 *다른* 채널을 만듭니다.
 
@@ -79,13 +78,13 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 ![](assets/example_other.png)
 
-이러한 종류의 규칙은 다목적 캐치(catch-all) 역할을 하여, 채널 트래픽이 항상 외부 트래픽과 일치하도록 하고 일반적으로 **[!UICONTROL 식별된 채널 없음으로 끝나지 않도록 합니다]**. 내부 트래픽까지 식별하는 규칙을 만들지 않도록 주의하십시오. 가장 일반적이고 유용한 [기타] 규칙을 만드는 방법은 채널의 값을 **[!UICONTROL 참조 도메인]**&#x200B;이나 **페이지 URL]로 설정하는 것입니다.[!UICONTROL **
+이러한 종류의 규칙은 다목적 캐치(catch-all) 역할을 하여, 채널 트래픽이 항상 외부 트래픽과 일치하도록 하고 일반적으로 **[!UICONTROL 식별된 채널 없음으로 끝나지 않도록 합니다]**. 내부 트래픽까지 식별하는 규칙을 만들지 않도록 주의하십시오. 가장 일반적이고 유용한 기타 규칙을 만드는 방법은 채널의 값을 **[!UICONTROL 참조 도메인]**&#x200B;이나 **페이지 URL]로 설정하는 것입니다.[!UICONTROL **
 
-> [!NOTE] 식별된 채널 없음 카테고리로 분류될 수 있는 일부 채널 트래픽이 여전히 있을 수 있습니다. 예: 방문자가 사이트를 방문하고 페이지를 책갈피로 지정한 다음 책갈피를 통해 동일한 방문 내에서 페이지로 다시 돌아옵니다. 방문의 첫 페이지가 아니므로 참조 도메인이 없기 때문에 직접 채널이나 기타 채널로 이동하지 않습니다.
+> [!NOTE] 식별된 채널 없음 카테고리에 포함될 수 있는 일부 채널 트래픽이 아직 있을 수 있습니다. 예: 방문자가 사이트를 방문하고 페이지를 책갈피로 지정한 다음 책갈피를 통해 동일한 방문 내에서 페이지로 다시 돌아옵니다. 방문의 첫 페이지가 아니므로 참조 도메인이 없기 때문에 직접 채널이나 기타 채널로 이동하지 않습니다.
 
 ## 유료 검색 {#paid-search}
 
-유료 검색은 검색 결과에 배치하기 위해 검색 엔진에 비용을 지불하는 단어 또는 구문입니다. 마케팅 채널은 유료 검색 감지 규칙에 맞추기 위해 [!UICONTROL 유료 검색 감지] 페이지에 구성된 설정을 사용합니다. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**). 대상 URL은 해당 검색 엔진에 대한 기존 유료 검색 감지 규칙을 일치시킵니다.
+유료 검색은 검색 결과에 배치하기 위해 검색 엔진에 비용을 지불하는 단어 또는 구문입니다. 마케팅 채널은 유료 검색 감지 규칙에 맞추기 위해 [!UICONTROL 유료 검색 감지] 페이지에 구성된 설정을 사용합니다. (**[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 유료 검색 감지]**) 대상 URL은 해당 검색 엔진에 대한 기존 유료 검색 감지 규칙을 일치시킵니다.
 
 마케팅 채널 규칙의 경우, [!UICONTROL 유료 검색] 설정은 다음과 같습니다.
 
