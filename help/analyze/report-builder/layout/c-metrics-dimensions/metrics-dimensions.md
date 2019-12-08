@@ -1,11 +1,10 @@
 ---
 description: 요청 마법사 2단계에 지표 및 차원을 추가하여 요청에서 데이터의 Analytics 레이아웃을 정의할 수 있습니다. 리포트 빌더의 지표 및 차원 목록은 보고 및 분석에 표시된 메뉴 레이아웃 다음에 나옵니다.
-solution: Analytics
 title: 지표 및 차원 개요
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
