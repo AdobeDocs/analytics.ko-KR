@@ -1,11 +1,10 @@
 ---
 description: 선택된 기간 동안 주문된 총 판매량. 한 번에 많은 수량을 주문할 수 있으므로 판매량은 일반 재고 이동을 보여주는 중요 지표입니다.
-solution: Analytics
 title: 판매량
 topic: Metrics
 uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
