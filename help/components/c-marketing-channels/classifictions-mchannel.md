@@ -1,12 +1,11 @@
 ---
 description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
-solution: Analytics
 subtopic: Marketing channels
 title: 마케팅 채널에서의 분류
 topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
 
-Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. 채널 값은 채널 세부 사항에서 분류되지 않은 값입니다.
+이 절차에서 추가하는 분류는 [!UICONTROL 채널 값]으로 [!UICONTROL 마케팅 채널 개요] 보고서에 표시됩니다. 채널 값은 채널 세부 사항에서 분류되지 않은 값입니다.
 
-> [!NOTE] Analytics 참조 도움말의 분류에서 분류 [만들기에](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) 익숙한지 확인합니다.
+> [!NOTE] 분석 참조 도움말의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)에서 분류 생성을 숙지해야 합니다.
 
 >[!IMPORTANT]
 >
->마케팅 채널 분류 보고서는 표준 분류와 약간 다르게 동작합니다.첫 번째 터치 또는 마지막 터치 보고서에 대한 분류를 만들 때 이 분류는 두 보고서 모두에 자동으로 적용됩니다. 다른 하나를 분류하지 않으면 분류할 수 없습니다.
+>마케팅 채널 분류 보고서는 표준 분류와 약간 다르게 동작합니다. 첫 번째 터치 또는 마지막 터치 보고서에 대한 분류를 만들 때 이 분류는 두 보고서 모두에 자동으로 적용됩니다. 하나를 분류하지 않으면 다른 하나를 분류할 수 없습니다.
 
 ## 마케팅 채널 분류 - 정의 {#mktg-channel-classifications}
 
@@ -35,8 +34,8 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 [!UICONTROL 마케팅 채널] 보고서의 분류를 만듭니다.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 보고서 세트 관리자]에서, **[!UICONTROL 편집 설정]** &gt; **[!UICONTROL 마케팅 채널]** &gt; **[!UICONTROL 마케팅 채널 분류]**&#x200B;를 클릭합니다.
 <!--
 1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md) page, specify the classification type.
 -->
