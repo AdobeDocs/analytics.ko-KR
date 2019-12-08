@@ -1,11 +1,10 @@
 ---
 description: 종속 요청은 기존 요청에 의존하는 요청입니다.
-solution: Analytics
 title: 종속 요청 추가
 topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
