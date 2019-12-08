@@ -1,13 +1,12 @@
 ---
 description: 페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,7 +37,7 @@ events.xml
    <td> 제한 없음 </td> 
    <td> events </td> 
    <td> <p>장바구니 이벤트 </p> <p>사용자 지정 이벤트 </p> </td> 
-   <td> N/A </td> 
+   <td> 해당 없음 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +56,7 @@ events.xml
 
 다음은 events 변수에 가능한 값의 목록입니다.
 
-| 이벤트 | 설명 | 채워진 보고서 |
+| Event | 설명 | 채워진 보고서 |
 |---|---|---|
 | prodView | 제품 보기 | 제품 |
 | scOpen | 새 장바구니 열기/초기화 | 장바구니 |
