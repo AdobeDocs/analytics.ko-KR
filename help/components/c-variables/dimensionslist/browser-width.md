@@ -1,11 +1,10 @@
 ---
 description: 브라우저 창에서만 데이터의 가로/세로 거리를 참조하는 지표입니다. 즉, 브라우저
-solution: Analytics
 title: 브라우저 너비/높이
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 브라우저 창에서만 데이터의 가로/세로 거리를 참조하는 지표입니다. 즉, 브라우저
 
 Adobe Analytics에서는 방문의 첫 번째 히트에 해당하는 브라우저 높이 및 너비만 사용합니다. 나머지 방문 횟수는 동일한 방문에 기여되지 않습니다.
-The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
+브라우저 너비/높이 차원은 [모바일 화면 크기](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150)와 비교하면 비슷하지만 고유한 값을 캡처합니다.
 
 예를 들어, 모바일 해상도로 브라우저 너비 또는 높이를 분류하는 경우 다음과 같은 차이점을 알고 있어야 합니다.
 
