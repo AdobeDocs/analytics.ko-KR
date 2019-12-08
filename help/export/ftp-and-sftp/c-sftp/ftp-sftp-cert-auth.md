@@ -1,11 +1,10 @@
 ---
 description: 암호 없이 FTP 계정에 연결하는 것은 SFTP 연결과 대체 인증 방법을 모두 사용해서만 가능합니다. 이 작업에는 공개 및 개인 키 조합이라고 하는 두 개 파일(각각 FTP 계정과 사용자 컴퓨터 상주용)이 포함됩니다.
 keywords: ftp;sftp
-solution: Analytics
 title: SFTP를 통해 암호 없이 Adobe에 연결
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
