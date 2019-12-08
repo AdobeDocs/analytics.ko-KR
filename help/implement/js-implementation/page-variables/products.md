@@ -1,13 +1,12 @@
 ---
 description: 페이지 변수는 pageName, List Props, List Variables 등과 같이, 보고서를 직접 채웁니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 페이지 변수
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -73,7 +72,7 @@ The *`products`* 변수는 항상 성공 이벤트와 함께 설정해야 합니
 | 이벤트 | 지정된 제품과 연결된 통화 이벤트. [제품별 통화 이벤트](https://helpx.adobe.com/analytics/kb/comparing-event-types.html) 및 [주문 범위 통화 이벤트](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)를 참조하십시오. |
 | eVar | 특정 제품과 연결된 머천다이징 eVar 값. [머천다이징 변수](/help/components/c-variables/c-merch-variables/var-merchandising.md)를 참조하십시오. |
 
-The values included in the *`products`*&#x200B;변수에 포함된 값은 기록하고 있는 이벤트 유형을 기반으로 합니다. 카테고리/제품 구분 기호(;)는 카테고리 생략 시 자리 표시자로 필요합니다. 이 페이지의 예에서 보듯이, 다른 구분 기호는 포함하고 있는 매개 변수를 구분하는 데 필요할 경우에만 필요합니다.
+변수에 포함된 값은 기록 중인 이벤트 유형을 기반으로 *`products`* 합니다. 카테고리/제품 구분 기호(;)는 카테고리 생략 시 자리 표시자로 필요합니다. 이 페이지의 예에서 보듯이, 다른 구분 기호는 포함하고 있는 매개 변수를 구분하는 데 필요할 경우에만 필요합니다.
 
 **비구매 이벤트 관련 products 설정**
 
