@@ -1,11 +1,10 @@
 ---
 description: 책갈피가 지정된 모든 보고서와 대시보드 보고서는 이제 요청 마법사 1단계에서 차원으로 표시되며, Report Builder 요청으로 가져올 수 있습니다.
-solution: Analytics
 title: 북마크가 지정된 보고서 및 대시보드 Reportlet 가져오기
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 책갈피가 지정된 모든 보고서와 대시보드 보고서는 이제 요청 마법사 1단계에서 차원으로 표시되며, Report Builder 요청으로 가져올 수 있습니다.
 
-책갈피가 지정된 보고서를 선택하면 요청 마법사는 책갈피가 지정된 보고서를 정의하는 모든 차원 및 지표를 채웁니다. 날짜 범위, 세부기간 및 선택한 세그먼트 또한 선택한 책갈피를 기준으로 업데이트됩니다에서 보냅니다.
+책갈피가 지정된 보고서를 선택하면 요청 마법사는 책갈피가 지정된 보고서를 정의하는 모든 차원 및 지표를 채웁니다. 날짜 범위, 세부기간 및 선택한 세그먼트 또한 선택한 책갈피를 기준으로 업데이트됩니다.
 
 요청 마법사 1단계에는 다음과 같이 대시보드 및 해당 Reportlet이 표시됩니다.
 
