@@ -1,11 +1,10 @@
 ---
 description: 리포트 빌더가 경로 지정 및 폴아웃 보고서를 지원하는 방법 및 구현이 보고 및 분석과 어떻게 다른지 설명합니다.
-solution: Analytics
 title: Report Builder의 경로 및 경로 폴아웃 보고서
 topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
