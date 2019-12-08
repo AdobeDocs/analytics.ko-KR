@@ -1,11 +1,10 @@
 ---
 description: 요청에 대한 롤링 날짜를 사용자 지정하는 방법에 대해 설명하는 절차.
-solution: Analytics
 title: 순환 날짜
 topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
