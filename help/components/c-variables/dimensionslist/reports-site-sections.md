@@ -1,11 +1,10 @@
 ---
 description: 방문자가 가장 많이 액세스한 사이트 영역을 보여줍니다. 사이트 섹션에는 카테고리처럼 사용자가 정의하는 제품 그룹이 포함될 수 있습니다. 카메라 페이지 그룹, 컴퓨터 그룹 등을 예로 들 수 있습니다. 전환 사이트 섹션 보고서용 데이터는 트래픽 그룹의 사이트 섹션에서 가져옵니다. 추적 코드에 있는 채널 변수의 정보를 표시합니다. 이 보고서를 사용하면 다양한 사이트 섹션의 항목에서 사이트 통계에 가장 큰 영향을 미치는 요소를 파악할 수 있습니다.
-solution: Analytics
 title: 사이트 섹션
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 이 보고서는 트렌드 및 등급 형식 모두로 볼 수 있습니다.
 * 이 보고서에서 검색 필터를 사용하여 특정 라인 항목을 찾을 수 있습니다.
 * 이 보고서에서 분류를 사용하면 라인 항목을 통합하고 이름을 변경할 수 있습니다.
-* 상관 관계는 관리 도구를 통해 다른 트래픽 변수와 함께 생성할 수 있습니다.
+* 상관 관계는 관리자 도구를 통해 다른 트래픽 변수와 함께 생성할 수 있습니다.
 * 이 보고서는 다음 지표를 활용할 수 있습니다.
 
    * **페이지 보기**: [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 변수 또는 URL이 정의된 횟수(기본 지표로 설정)
@@ -42,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> 사이트 컨텐츠</span> &gt; <span class="uicontrol">사이트 섹션</span> </p> <p>이 보고서는 상관 관계 외에도 다음과 같은 분류를 활용할 수 있습니다. </p> 
+   <td colname="col2"> <p> <span class="uicontrol"> 사이트 콘텐츠</span> &gt; <span class="uicontrol">사이트 섹션</span> </p> <p>이 보고서는 상관 관계 외에도 다음과 같은 분류를 활용할 수 있습니다. </p> 
     <ul id="ul_9CD009D89B134C53807332E3C88D3C44"> 
      <li id="li_566417EB074D425C9A1F4FB28AA7FAB4"> 
       <ul id="ul_3795C7AAE6DA4B7E96FCDC7F3211DFBB"> 
