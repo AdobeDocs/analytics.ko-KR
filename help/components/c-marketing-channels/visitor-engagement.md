@@ -1,19 +1,18 @@
 ---
-description: 마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
-solution: Analytics
+description: 마케팅 채널에서 방문자 유도 만료를 지정하는 방법을 알아봅니다.
 subtopic: Marketing channels
 title: 방문자 유도 만료
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 방문자 유도 만료
 
-마케팅 채널에서 방문자 참여 만료를 지정하는 방법을 알아봅니다.
+마케팅 채널에서 방문자 유도 만료를 지정하는 방법을 알아봅니다.
 
 방문자 유도는 사이트에서 방문자가 이전에 수행한 활동이 첫 번째 접촉 채널에 속하는 것으로 허용하려는 시간 길이입니다.
 
@@ -29,10 +28,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 방문자 참여 만료 지정
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 보고서 세트 관리자]에서, **[!UICONTROL 편집 설정]** &gt; **[!UICONTROL 마케팅 채널]** &gt; **[!UICONTROL 마케팅 채널 만료]**&#x200B;를 클릭합니다.
 
    ![](assets/mchannel_expiration.png)
 
-1. 방문자 참여 만료 필드를 구성합니다.
+1. 방문자 유도 만료 필드를 구성합니다.
 1. **[!UICONTROL 저장을 클릭합니다.]**
