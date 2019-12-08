@@ -1,11 +1,10 @@
 ---
 description: 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
-solution: Analytics
 title: 웹 서비스
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 회사 설정]** &gt; **[!UICONTROL 웹서비스]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 회사 설정]** &gt; **[!UICONTROL 웹 서비스]**
 
 ## 웹 서비스 관리
 
@@ -22,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## WSDL: 웹 서비스 개발자용 웹 서비스 API WSDL을 다운로드합니다.
 
-웹 서비스 [API와](https://www.adobe.io/apis/experiencecloud/analytics.html)관련된 설명서, 샘플 코드 및 포럼을 제공하는 Adobe I/O를 참조하십시오. 웹 서비스 API 개요를 클릭하여 자세한 내용을 확인하시오.
+웹 서비스 API와 관련된 설명서, 샘플 코드 및 포럼을 제공하는 [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html)를 방문하십시오. 웹 서비스 API 개요를 클릭하여 자세한 내용을 확인하시오.
 
 ## 필터링 옵션
 
