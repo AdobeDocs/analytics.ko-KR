@@ -1,11 +1,10 @@
 ---
 description: Report Builder 도구 모음에 있는 단추들의 기능을 이해하는 데 도움이 되는 정보
-solution: Analytics
 title: Report Builder 도구 모음
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ Report Builder를 설치하고 Excel을 실행한 후 **[!UICONTROL 추가 기�
 
 **라이브러리:**&#x200B;공유할 Report Builder Excel 통합 문서를 업로드할 수 있도록 [!UICONTROL 통합 문서 라이브러리]를 실행합니다. 공유 통합 문서를 다운로드 및 편집할 수 있습니다. See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**** 옵션:요청을 새로 고칠 때 기준(현재) **[!UICONTROL 날짜를]** 표시할지 여부를 지정하고 문제 해결을 위해 로깅을 활성화할 수 있습니다. 자세한 내용은 [옵션](/help/analyze/report-builder/options.md).
+**** 옵션:요청을 새로 고칠 때 기준(현재) **[!UICONTROL 날짜를]** 표시할지 여부를 지정하고 문제 해결을 위해 로깅을 활성화할 수 있습니다. 옵션을 [참조하십시오](/help/analyze/report-builder/options.md).
 
 **잠김/잠금 해제됨:** 통합 문서를 잠가서 통합 문서의 모든 요청이 추가 및 편집되지 않도록 보호할 수 있습니다. 이를 통해 좀 더 효율적인 편집을 위해 모든 보고서 요청을 일시 중단하고 통합 문서를 오프라인으로 편집할 수 있습니다. 과거 릴리스에 대한 자세한 내용은 [통합 문서 잠금/잠금 해제](/help/analyze/report-builder/workbook-library/protect-wb.md).
 
