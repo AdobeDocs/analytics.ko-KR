@@ -1,13 +1,12 @@
 ---
 description: 이 섹션은 데이터 피드 배달에서 발견되는 파일을 설명합니다.
 keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
-solution: Analytics
 subtopic: data feeds
 title: 데이터 피드 콘텐츠 - 개요
 topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
