@@ -1,19 +1,18 @@
 ---
 description: 'null'
 keywords: Analysis Workspace
-solution: Analytics
 title: 프로젝트 만들기 - 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 프로젝트 만들기 - 개요
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 작업 영역]**
+**[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**
 
 시각화, 보고서 구성 요소 및 데이터 테이블의 조합을 기반으로 하여 강력한 Analytics 프로젝트를 만들 수 있습니다. 이 기능에서는 Ad Hoc Analysis의 테이블 빌더 기능들 중 많은 기능을 Analytics로 가져옵니다.
 
@@ -23,7 +22,7 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 
 ## Workspace 프로젝트 목록 페이지 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
+처음에 **[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**&#x200B;으로 이동하면 페이지는 소유하거나 액세스 권한이 부여된 모든 프로젝트를 나열합니다. **[!UICONTROL 랜딩 페이지로 설정]**&#x200B;을 클릭하여 이 페이지를 Adobe Analytics 랜딩 페이지로 설정할 수 있습니다. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
 
 ![](assets/sample-project.png)
 
@@ -33,16 +32,16 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 |---|---|
 | 프로젝트 [템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 이렇게 사전에 채워진 프로젝트 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. |
 | [새 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
-| 프로젝트 관리 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
+| 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 자습서 보기 | [Analysis Workspace YouTube 비디오](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)로 이동합니다. |
-|  이름  | Workspace 프로젝트의 이름. |
+| 이름 | Workspace 프로젝트의 이름. |
 | 작성자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
-| 태그 | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]**. |
+| 태그 | 프로젝트 구성 요소 관리자 또는 **[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서 프로젝트에 적용된 태그. |
 | 마지막 수정 날짜 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
 
 ## 프로젝트 정보 및 설정 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL 작업 영역]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**
+**[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**
 
 ![](assets/projectinfo.png)
 
@@ -65,9 +64,9 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 
 ![](assets/new-project-menus.png)
 
-하위 메뉴에는 다음 옵션이 포함됩니다.
+하위 메뉴에는 다음 선택 사항이 포함됩니다.
 
-> [!NOTE] 별표(*)로 표시된 옵션은 **저장된** 프로젝트에서만 표시됩니다.
+> [!NOTE] 별표(*)로 표시된 선택 사항은 **저장된** 프로젝트에서만 표시됩니다.
 
 | 프로젝트 | 편집 | 삽입 | 구성 요소 | 공유 | 도움말 |
 |---|---|---|---|---|---|
@@ -83,8 +82,8 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 
 ## 왼쪽 레일 {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+왼쪽 레일에는 3개의 아이콘이 있어서 클릭 한 번으로 패널, [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 및 [구성 요소](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(차원, 지표, 세그먼트, 데이터 범위)에 액세스할 수 있습니다.
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-왼쪽 레일에서 액세스할 수 있는 패널 목록에 **[!UICONTROL 빈 패널]이 추가되었습니다.** **새 집단 패널**&#x200B;을 생성하려면 빈 패널로 드래그하고 집단 테이블 시각화로 드래그합니다.
+왼쪽 레일에서 액세스할 수 있는 패널 목록에 **[!UICONTROL 빈 패널]**&#x200B;이 추가되었습니다. **새 집단 패널**&#x200B;을 생성하려면 빈 패널로 드래그하고 집단 테이블 시각화로 드래그합니다.
