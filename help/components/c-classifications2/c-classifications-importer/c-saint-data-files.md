@@ -1,12 +1,11 @@
 ---
 description: 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
-solution: Analytics
 subtopic: Classifications
 title: 분류 데이터 파일
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
 
-유효한 데이터 파일을 만들려면 분류 데이터를 붙여 넣을 수 있는 파일 구조를 제공하는 템플릿 파일을 다운로드할 수 있습니다. 자세한 내용은 분류 템플릿 [다운로드를 참조하십시오](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
+유효한 데이터 파일을 만들려면 분류 데이터를 붙여 넣을 수 있는 파일 구조를 제공하는 템플릿 파일을 다운로드할 수 있습니다. 자세한 내용은 [분류 템플릿 다운로드](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)를 참조하십시오.
 
-See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for more information about character limits in classifications.
+분류의 문자 제한에 대한 자세한 내용은 [일반 파일 구조](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)를 참조하십시오.
 
-See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
+Numeric 2 분류를 사용한 데이터 업로드에 대한 내용은 [Numeric 2 분류](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md)를 참조하십시오.
 
 ## 일반 파일 구조
 
@@ -44,10 +43,10 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
    쉼표는 특수 문자가 아닙니다.
 
 * 삽입 기호(^)는 하위 분류를 나타내는 데 사용되므로 분류 이름에 포함할 수 없습니다.
-* 하이픈(-)을 사용할 때 주의하십시오. 예를 들어 Social 용어에서 하이픈(-)을 사용하는 경우, Social은 하이픈을 [!DNL Not] 연산자(빼기 기호)로 인식합니다. For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* 보고서 데이터를 분류하는 데에는 문자 제한이 적용됩니다. 예를 들어 제품 이름이 100자(바이트)를 초과하는 제품( *`s.products`*)에 대한 분류 텍스트 파일을 업로드하면 제품이 보고에 표시되지 않습니다. 추적 코드와 모든 사용자 지정 전환 변수(eVars)는 255바이트를 허용합니다.
+* 하이픈(-)을 사용할 때 주의하십시오. 예를 들어 Social 용어에서 하이픈(-)을 사용하는 경우, Social은 하이픈을 [!DNL Not] 연산자(빼기 기호)로 인식합니다. 예를 들어 가져오기를 사용하여 *`fragrance-free`*&#x200B;를 용어로 지정할 경우 Social은 이 용어를 fragrance *`minus`* free로 인식하고 *`free`*&#x200B;가 아닌 *`fragrance`*&#x200B;를 언급한 게시물을 수집합니다.
+* 보고서 데이터를 분류하는 데에는 문자 제한이 적용됩니다. 예를 들어 제품 이름이 100자(바이트)를 초과하는 제품(*`s.products`*)에 대한 분류 텍스트 파일을 업로드하는 경우, 해당 제품은 보고에 표시되지 않습니다. 추적 코드와 모든 사용자 지정 전환 변수(eVars)는 255바이트를 허용합니다.
 * 탭 구분 데이터 파일(스프레드시트 애플리케이션이나 텍스트 편집기를 사용하여 템플릿 파일 생성)입니다.
-* Either a [!DNL .tab] or [!DNL .txt] file extension.
+* [!DNL .tab] 또는 [!DNL .txt] 파일 확장명을 사용합니다.
 * 파운드 기호(#)는 행을 사용자 주석으로 식별합니다. Adobe는 # 기호로 시작하는 모든 행을 무시합니다.
 * SC가 따라오는 이중 파운드 기호(## SC)는 행을 보고 기능에서 사용하는 사전 처리 헤더 주석으로 식별합니다. 이러한 행은 삭제하지 마십시오.
 * 분류 내보내기에는 키의 새 줄 문자로 인해 중복 키가 생길 수 있습니다. 이 문제는 FTP 또는 브라우저 내보내기에서 FTP 계정에 대해 따옴표 기능을 사용하여 해결할 수 있습니다. 이렇게 하면 새 줄 문자가 있는 각 키를 싸는 인용 부호가 배치됩니다.
@@ -58,7 +57,7 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
    * 파일에 v2.1이 지정되어 있지만, 실제로 원하는 것은 v2.0이면 문제가 발생할 수 있습니다. 즉, 인용 부호가 Excel 형식에서 잘못된 방법으로 사용되는 경우 문제가 발생할 수 있습니다. 예를 들어, 다음 값이 있는 경우: "VP NO REPS" S/l Dress w/ Overlay v2.1에서, 이것은 잘못된 형식(값을 여는 따옴표와 닫는 따옴표로 둘러싸야 하며, 실제 값의 일부인 따옴표는 따옴표로 에스케이프 처리를 해야 함)이며, 이 이후에는 분류가 작동하지 않습니다.
    * 따라서, 반드시 업로드하는 파일에서 헤더(셀 C1)를 변경하여 파일 형식을 v2.0으로 변경하거나, 파일 전체에서 Excel 인용 부호 사용을 제대로 구현하십시오.
 
-* 데이터 파일의 첫 번째(설명 아님) 행은 열 제목을 포함하여 해당 열의 분류 데이터를 식별하는데 사용됩니다. 가져오기 기능을 사용하려면 열 제목이 특정 형식이어야 합니다. 자세한 내용은 열 머리글 [형식을 참조하십시오](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+* 데이터 파일의 첫 번째(설명 아님) 행은 열 제목을 포함하여 해당 열의 분류 데이터를 식별하는데 사용됩니다. 가져오기 기능을 사용하려면 열 제목이 특정 형식이어야 합니다. 자세한 내용은 [열 제목 형식](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)을 참조하십시오.
 *  데이터 파일에서 헤더 행 바로 뒤에 오는 것은 데이터 행입니다. 각 데이터 행은 각 열 제목에 대해 하나의 데이터 필드를 포함해야 합니다.
 * 데이터 파일은 Adobe가 파일에 구조를 제공하고 분류 데이터를 제대로 가져오는 데 사용하는 다음 제어 코드를 지원합니다.
 
@@ -76,11 +75,11 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Adobe가 이 요소에 대한 고유 ID를 자동 생성하도록 요청합니다. </p> <p>캠페인 컨텍스트에서는 이 제어 값을 통해 Adobe가 각 크리에이티브 요소에 식별자를 할당하도록 합니다. 자세한 내용은 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 키 </a>. </p> </td> 
+   <td colname="col2"> <p>Adobe가 이 요소에 대한 고유 ID를 자동 생성하도록 요청합니다. </p> <p>캠페인 컨텍스트에서는 이 제어 값을 통해 Adobe가 각 크리에이티브 요소에 식별자를 할당하도록 합니다. 키를 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 참조하십시오 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>데이터 열이 항목과 연관된 날짜 범위를 나타내도록 지정합니다. 자세한 내용은 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 날짜 </a>. </p> </td> 
+   <td colname="col2"> <p>데이터 열이 항목과 연관된 날짜 범위를 나타내도록 지정합니다. 날짜를 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 참조하십시오 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>비어 있는 필드 </p> </td> 
@@ -88,7 +87,7 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
   </tr> 
   <tr> 
    <td colname="col1"> <p>PER 수정자 </p> </td> 
-   <td colname="col2"> <p>데이터 열이 <span class="wintitle">PER 수정자</span> 필드를 나타내도록 지정합니다. See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > PER Modifier Headings </a>. </p> </td> 
+   <td colname="col2"> <p>데이터 열이 <span class="wintitle">PER 수정자</span> 필드를 나타내도록 지정합니다. <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  >PER 수정자 제목</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,13 +105,13 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 ### 키
 
-각 값은 전체 시스템에서 고유해야 합니다. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+각 값은 전체 시스템에서 고유해야 합니다. 이 필드의 값은 웹 사이트의 [!DNL JavaScript] 비콘에 있는 [!DNL Analytics] 변수에 할당된 값에 해당합니다. 이 열의 데이터는 ~autogen~ 또는 기타 고유한 추적 코드를 포함할 수 있습니다.
 
 ### 분류 열 제목
 
 예를 들어 Reports &amp; Analytics 기능에는 [!UICONTROL 캠페인] 변수의 두 가지 분류인 [!UICONTROL 캠페인]과 [!UICONTROL 크리에이티브 요소]가 자동으로 포함됩니다. [!UICONTROL 캠페인] 분류에 데이터를 추가하려면 분류 데이터 파일의 열 제목이 [!UICONTROL 캠페인]이어야 합니다.
 
-> [!NOTE] 분류 [!UICONTROL 열] 제목의 값은 분류의 명명 규칙과 정확히 일치해야 합니다. 그렇지 않으면 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다.
+> [!NOTE] [!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다.
 
 또한 데이터 파일은 다음 추가 제목 규칙이 하위 분류와 기타 특수 데이터 열과 일치하도록 지원합니다.
 
@@ -120,13 +119,13 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 예를 들어 [!UICONTROL 캠페인 소유자]는 [!UICONTROL 캠페인 소유자] 값을 포함하는 열에 대한 열 제목입니다. 또한 [!UICONTROL 크리에이티브 요소 크기]는 [!UICONTROL 크리에이티브 요소] 분류의 [!UICONTROL 크기] 하위 분류를 포함하는 열에 대한 열 제목입니다.
 
-### 분류 지표 머리글
+### 분류 지표 제목
 
 예를 들어 [!UICONTROL Campaigns^~Cost]는 [!UICONTROL 캠페인] 분류의 [!UICONTROL 비용] 지표를 나타냅니다.
 
 ### PER 수정자 제목
 
-*`Per Modifier`* 제목은 분류 지표 *`~per`* 머리글에 추가하여 나타냅니다. For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe는 다음 *`PER Modifier`* 키워드를 지원합니다.
+*`Per Modifier`* 제목은 *`~per`*&#x200B;을 분류 지표 제목에 추가하여 나타냅니다. 예를 들어 *`Metric`* 제목이 *`Campaigns^~Cost`*&#x200B;인 경우, PER 수정자 제목은 *`Campaigns^~Cost~per`*&#x200B;입니다. Adobe는 다음 *`PER Modifier`* 키워드를 지원합니다.
 
 이러한 문자는 데이터 파일에서 특별한 의미를 가집니다. 가능하다면 특성 이름과 데이터에 이러한 단어를 사용하지 마십시오.
 
@@ -152,9 +151,9 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 **EVENT:** 보고서의 라인 항목당 지정된 사용자 지정 이벤트가 발생한 횟수에 값을 곱합니다.
 
-**** 예:캠페인 A 비용이 $10,000인 경우 [!UICONTROL Campaigns^~Cost] 열에는 값이 1000이고 Campaigns^ [!UICONTROL Costper~~열에는] FIXED가 [!UICONTROL 포함됩니다]. 캠페인 A의 비용을 보고서에 표시할 때 보고서의 날짜 범위 동안 10,000달러가 캠페인 A의 고정 비용으로 표시됩니다.
+**예:** 캠페인 A 비용이 10,000달러인 경우, [!UICONTROL Campaigns^~Cost] 열에는 값 10000이 포함되며 [!UICONTROL Campaigns^~Cost~per] 열에는 [!UICONTROL FIXED]가 포함됩니다. 캠페인 A의 비용을 보고서에 표시할 때 보고서의 날짜 범위 동안 10,000달러가 캠페인 A의 고정 비용으로 표시됩니다.
 
-**** 예:Campaign B의 클릭당 비용이 약 2달러인 경우 Campaigns^~ [!UICONTROL Cost] 열에는 2가 **[!UICONTROL 포함되고 Campaigns^~~Costper]** 열에는 [!UICONTROL CLICK이]포함됩니다. When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. 이렇게 하면 캠페인 B가 수행한 클릭 횟수를 기반으로 한 총 비용 계산이 제공됩니다.
+**예:** 캠페인 B 비용이 클릭당 2달러인 경우 [!UICONTROL Campaigns^~Cost] 열에는 2가 포함되며 **[!UICONTROL Campaigns^~Cost~per]** 열에는 [!UICONTROL CLICK]이 포함됩니다. 캠페인 B의 비용을 보고서에 표시할 때 Adobe는 보고서의 날짜 범위에 대해 (2 * [클릭 횟수])로 바로 계산합니다. 이렇게 하면 캠페인 B가 수행한 클릭 횟수를 기반으로 한 총 비용 계산이 제공됩니다.
 
 ### 날짜
 
@@ -162,24 +161,24 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 자세한 내용은 [전환 분류](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)를 참조하십시오.
 
-> [!NOTE] 2018년 5월 10일 유지 관리 [!DNL Analytics] 릴리스에서 Adobe는 날짜 활성화 및 숫자 분류의 기능을 제한하기 시작했습니다. 이러한 분류 유형은 관리 및 분류 가져오기 인터페이스에서 제거되었습니다. 날짜 사용 및 숫자 분류를 새로 추가할 수 없습니다. 기존 분류는 여전히 표준 분류 워크플로우를 통해 관리(업로드, 삭제)할 수 있으며 보고에서 계속 사용할 수 있습니다.
+> [!NOTE] Adobe는 2018년 5월 10일, [!DNL Analytics] 유지 관리 릴리스에서 날짜 사용 및 숫자 분류 기능에 대한 제한을 시작했습니다. 이러한 분류 유형은 관리자 및 분류 가져오기 인터페이스에서 제거되었습니다. 날짜 사용 및 숫자 분류를 새로 추가할 수 없습니다. 기존 분류는 여전히 표준 분류 워크플로우를 통해 관리(업로드, 삭제)할 수 있으며 보고에서 계속 사용할 수 있습니다.
 
-## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
+## [!UICONTROL 분류]와 함께 날짜 사용 {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL 분류는] 캠페인 또는 다른 전환 [!UICONTROL 분류에]날짜 범위를 할당하는 데 사용할 수 있으므로 보다 정확한 캠페인 측정을 할 수 있습니다. 값의 날짜 범위를 지정하면 해당 날짜 범위를 벗어나서 발생하는 모든 일치하는 값은 분류되지 않습니다. 이 기능은 캠페인 자체와 일치하는 모든 히트가 아니라, 캠페인이 라이브였던 정확한 날짜를 사용하려는 캠페인 측정에 유용합니다. 값을 날짜 범위를 사용하여 성공적으로 분류하기 위해서는 다음 조건이 충족되어야 합니다.
+[!UICONTROL 분류]를 사용하여 날짜 범위를 캠페인이나 다른 전환 [!UICONTROL 분류]에 지정할 수 있습니다. 이렇게 하면 더 정확한 캠페인 측정이 가능합니다. 값의 날짜 범위를 지정하면 해당 날짜 범위를 벗어나서 발생하는 모든 일치하는 값은 분류되지 않습니다. 이 기능은 캠페인 자체와 일치하는 모든 히트가 아니라, 캠페인이 라이브였던 정확한 날짜를 사용하려는 캠페인 측정에 유용합니다. 값을 날짜 범위를 사용하여 성공적으로 분류하기 위해서는 다음 조건이 충족되어야 합니다.
 
-* The [!UICONTROL classification] must be based on a conversion variable.
-* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
+* [!UICONTROL 분류]는 전환 변수를 기반으로 해야 합니다.
+* 사용된 [!UICONTROL 분류]는 날짜가 활성화된 날짜나 숫자 2로 설정해야 합니다.
 * 관련된 날짜 범위에는 시작 날짜와 종료 날짜(선택 사항)가 포함되어야 합니다.
 
 날짜 범위를 기반으로 한 캠페인 분류
 
-1. 로그인하고 관리 &gt; 분류로 [!DNL Analytics] 이동합니다.
-1. **[!UICONTROL 브라우저 내보내기]탭을 클릭하고, 날짜 활성화 분류에 대한 설정이 올바른지 확인한 다음, [파일 내보내기]를 클릭합니다.**
+1. [!DNL Analytics]에 로그인하고 관리자 &gt; 분류로 이동합니다.
+1. **[!UICONTROL 브라우저 내보내기]탭을 클릭하고, 날짜 활성화 분류에 대한 설정이 올바른지 확인한 다음, 파일 내보내기를 클릭합니다.**
 1. Microsoft Excel이나 익숙한 다른 스프레드시트 편집기에서 이 파일을 엽니다.
-1. 열 중 하나가
+1. 열 중에
 
-   ^~period~를 클릭합니다.
+   ^~period~로 끝나는 날짜 범위를 입력하는 열이 있습니다.
 1. 이 열 아래에서 다음 형식으로 각 값의 날짜 범위를 입력합니다.
 
    `YYYY/MM/DD - YYYY/MM/DD` 구문을 사용하는 키-값 쌍으로 전달됩니다. 다음 항목을 반드시 준수하십시오.
@@ -189,9 +188,9 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
    * 월이나 일이 0으로 시작하는 한 자리일 경우.
    * 시작 날짜 범위가 있고 종료 날짜 범위는 선택 사항입니다.
 
-1. 파일을 저장하고 관리자로 이동하여 업로드합니다. [!DNL Analytics] | 분류| 파일 가져오기를 참조하십시오.
+1. 파일을 저장하고, 관리 | 분류| 파일 가져오기로 이동하여 [!DNL Analytics]를 업로드합니다.
 
-> [!NOTE] 특정 키 값은 두 개 이상의 날짜 범위를 가질 수 없습니다.
+> [!NOTE] 특정 키 값에는 두 개 이상의 날짜 범위를 포함할 수 없습니다.
 
 ## 분류 문제 해결
 
