@@ -1,11 +1,10 @@
 ---
 description: 그래프를 목표 대상에게 가장 유용한 방식으로 사용자 지정하는 방법을 설명하는 단계입니다.
-solution: Analytics
 title: 보고서 그래프 변경
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
