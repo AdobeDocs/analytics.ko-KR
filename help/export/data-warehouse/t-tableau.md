@@ -1,11 +1,10 @@
 ---
 description: 데이터 웨어하우스는 Adobe Analytics 외부에서 데이터와 레이어를 추가 데이터로 시각화할 수 있도록 해주는 타블로 데이터 추출(TDE) 파일 형식으로 보고서를 제공할 수 있습니다. 이 정보는 이메일로 전송하거나 FTP로 FTP 사이트에 전송할 수 있습니다.
-solution: Analytics
 title: 타블로 데이터 파일
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
