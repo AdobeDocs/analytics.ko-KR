@@ -1,12 +1,11 @@
 ---
 description: HTML 이미지 태그를 사용하여 Analytics를 구현합니다(하드코드된 이미지 요청).
 keywords: Analytics Implementation;html image tag;hardcoded image request
-solution: Analytics
 title: HTML 이미지 태그를 사용하여 Analytics 구현
 topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
