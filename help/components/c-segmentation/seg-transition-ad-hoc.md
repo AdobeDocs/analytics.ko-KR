@@ -1,12 +1,11 @@
 ---
 description: Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경우 이 FAQ를 통해 기존 세그먼트와 폴더의 변경 사항과 수행해야 하는 작업을 확인할 수 있습니다.
 keywords: segmentation;segments
-solution: Analytics
 title: Ad Hoc Analysis를 위한 전환 안내서
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경�
 
 * 세그먼트는 모든 보고서 세트에 범용입니다. 이전에는 세그먼트가 보고서 세트별로 달랐습니다. 
 * Ad Hoc Analysis에는 세그먼트 빌더에 대한 업데이트와 세그먼트 관리자의 전체 업데이트가 포함됩니다.
-* 이제 세그먼트에 태깅하여 나중에 폴더를 사용하지 않고도 구성 및 검색할 수 있습니다. Previously, you used folders in [!DNL Ad Hoc Analysis] to organize your segments.
+* 이제 세그먼트에 태깅하여 나중에 폴더를 사용하지 않고도 구성 및 검색할 수 있습니다. 이전에는 [!DNL Ad Hoc Analysis]에서 폴더를 사용하여 세그먼트를 구성했습니다.
 
 ## 기존 세그먼트에 발생한 결과{#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -57,7 +56,7 @@ Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경�
 
 ## 세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
-Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공유한 세그먼트만 표시합니다. Ad Hoc Analysis의 경우 세그먼트 관리자(세그먼트 구성)를 사용하여 Ad Hoc Analysis 세그먼트를 관리할 수 있습니다. 통합 세그멘테이션의 세그먼트 관리자를 사용하여 모든 Analytics의 세그먼트를 관리합니다.
+Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공유한 세그먼트만 표시합니다. Ad Hoc Analysis의 경우 세그먼트 관리자(세그먼트 구성)를 사용하여 Ad Hoc Analysis 세그먼트를 관리할 수 있습니다. 통합 세그먼테이션의 세그먼트 관리자를 사용하여 모든 Analytics의 세그먼트를 관리합니다.
 
 ## 이름은 같지만 정의는 다른 중복 세그먼트가 있는 경우 어떻게 해야 합니까? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -73,7 +72,7 @@ Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공�
 * 적용 가능한 경우 세그먼트 라이브러리에 추가합니다.
 * 표준 세그먼트를 승인합니다.
 
-## 이 세그먼트를 삭제할 수 없는 이유 {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## 이 세그먼트를 삭제할 수 없는 이유{#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 세그먼트가 Experience Cloud로 게시된 경우 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
 
@@ -92,7 +91,7 @@ Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공�
    <td colname="col2">이러한 Ad Hoc Analysis 세그먼트는 Adobe Analytics에 일반 세그먼트로 표시됩니다. <p>세그먼트를 즐겨찾기로 표시할 수 있는 세그먼트 관리자의 즐겨찾기 기능과 혼동하지 않도록 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">애드혹 분석에서 사전 구성된 세그먼트: 
+   <td colname="col1">Ad Hoc Analysis의 사전 구성된 세그먼트: 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">단일 페이지 방문 횟수 </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">모바일 기기로부터 찾아온 방문 </li> 
