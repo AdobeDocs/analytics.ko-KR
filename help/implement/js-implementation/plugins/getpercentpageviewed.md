@@ -1,13 +1,12 @@
 ---
 description: 방문자의 스크롤 활동을 측정하여 다른 페이지로 이동하기 전에 표시되는 페이지 양을 확인합니다. 이 플러그인을 사용하면 사용자가 평균적으로 보는 컨텐츠의 양을 결정하고 사용자의 행동을 기반으로 페이지 길이 및 레이아웃을 최적화할 수 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getPercentPageViewed
 topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
