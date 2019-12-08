@@ -1,13 +1,12 @@
 ---
 description: Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 예를 들어 pageName 변수의 값은 보고되는 웹 페이지의 이름입니다. 이 섹션은 AppMeasurement에서 지원되는 변수를 나열합니다.
 keywords: Analytics Implementation;appmeasurement variables
-solution: Analytics
 subtopic: Variables
 title: 변수 개요
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
