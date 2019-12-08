@@ -1,10 +1,9 @@
 ---
 description: 이 항목에서는 각 Adobe Analytics 사용자 인터페이스에 대한 시스템 요구 사항에 대해 자세히 설명합니다.
-solution: Analytics
 title: 시스템 요구 사항
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe는 다음 브라우저의 최신 주요 버전을 지원합니다.
 
-* Microsoft Edge. (Adobe는 2018년 11월 13일 Adobe Analytics에서 Microsoft Internet Explorer 11에 대한 지원을 중단했습니다. 최신 Microsoft Edge 또는 지원되는 다른 브라우저의 최신 버전으로 최대한 빨리 전환하십시오.)
+* Microsoft Edge. (Adobe는 2018년 11월 13일에 Adobe Analytics 내에서 Microsoft Internet Explorer 11에 대한 지원을 종료했습니다. Microsoft Edge의 최신 주요 버전 또는 지원되는 다른 브라우저로 가능한 한 빨리 전환하시기 바랍니다.)
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
