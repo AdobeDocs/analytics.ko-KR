@@ -1,12 +1,11 @@
 ---
 description: 데이터는 보고에 표시할 보고서 세트로 전송됩니다. 데이터를 Analytics로 보내는 가장 쉽고 일반적인 방법은 DTM 구현을 사용하는 것입니다. JavaScript 구현을 통해 코드를 입력할 수도 있습니다.
 keywords: Analytics Implementation;analytics code;header code;footer code;header;footer;dynamic tag management;dtm;javascript
-solution: Analytics
 title: Analytics 코드
 topic: Developer and implementation
 uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
