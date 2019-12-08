@@ -1,12 +1,11 @@
 ---
 description: 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 지정할 수 있습니다.
-solution: Analytics
 subtopic: Marketing channels
 title: 마케팅 채널 시작
 topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,17 +31,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 권장 채널 목록은 [FAQ 및 예제](/help/components/c-marketing-channels/c-faq.md)를 참조하십시오. 채널을 만들 때 더 쉽게 활성화 및 정의할 수 있도록 사용할 채널 목록을 만듭니다.
 
-![](assets/step2_icon.png) 마케팅 채널 관리자 [!UICONTROL 페이지에서 마케팅 채널을] 추가합니다.
+![](assets/step2_icon.png) [!UICONTROL  마케팅 채널 관리자] 페이지에서 마케팅 채널을 추가합니다.
 
-After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+추적할 채널을 정의하고 나면 **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;에서 활성화합니다.
 
-See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.md) for important prerequisite and conceptual information.
+중요한 전제 조건 및 개념 정보가 필요하면 [채널과 규칙](/help/components/c-marketing-channels/c-channels-rules.md)을 참조하십시오.
 
-절차는 [마케팅 채널](/help/components/c-marketing-channels/c-channels.md) 추가를 참조하십시오.
+절차에 대해서는 [마케팅 채널 추가](/help/components/c-marketing-channels/c-channels.md)를 참조하십시오.
 
 >[!NOTE]
 >
->마케팅 채널이 이전에 구성되지 않은 경우 [자동 설정이](/help/components/c-marketing-channels/c-channel-autosetup.md) 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
+>마케팅 채널이 이전에 구성된 적이 없다면 [자동 설정](/help/components/c-marketing-channels/c-channel-autosetup.md)이 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
 
 ![](assets/step3_icon.png)[!UICONTROL  마케팅 채널 처리 규칙] 페이지에서 각 채널의 규칙을 구성하거나 세분화합니다.
 
