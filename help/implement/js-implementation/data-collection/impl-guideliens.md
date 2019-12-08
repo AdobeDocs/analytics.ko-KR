@@ -1,12 +1,11 @@
 ---
 description: 이 지침을 따르면 동일한 쿠키 도메인을 사용하므로, 다양한 구현 유형 간에 방문을 추적할 수 있게 됩니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 구현 안내서
 topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
