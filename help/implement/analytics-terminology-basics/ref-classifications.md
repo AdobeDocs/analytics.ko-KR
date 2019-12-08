@@ -1,12 +1,11 @@
 ---
 description: 소스 보고서에서 세부적인 데이터를 그룹화(분류)하여 생성한 분류.
 keywords: Analytics Implementation;classification
-solution: Analytics
 title: 분류
 topic: Developer and implementation
 uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
