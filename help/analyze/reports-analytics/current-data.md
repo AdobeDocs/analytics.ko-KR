@@ -1,19 +1,18 @@
 ---
-description: '[Reports & Analytics] 메뉴의 [현재 데이터 포함] 옵션을 사용하면 일반적으로 데이터가 모두 처리되고 완료되기 전에 최신 분석 데이터를 볼 수 있습니다. 현재 데이터에는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다.'
-solution: Analytics
+description: Reports & Analytics 메뉴의 현재 데이터 포함 옵션을 사용하면 일반적으로 데이터가 모두 처리되고 완료되기 전에 최신 Analytics 데이터를 볼 수 있습니다. 현재 데이터에는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다.
 subtopic: Current Data
 title: 현재 데이터
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 현재 데이터
 
-[Reports &amp; Analytics] 메뉴의 [현재 데이터 포함] 옵션을 사용하면 일반적으로 데이터가 모두 처리되고 완료되기 전에 최신 분석 데이터를 볼 수 있습니다. 현재 데이터에는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다.
+Reports &amp; Analytics 메뉴의 현재 데이터 포함 옵션을 사용하면 일반적으로 데이터가 모두 처리되고 완료되기 전에 최신 Analytics 데이터를 볼 수 있습니다. 현재 데이터에는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다.
 
 보고서 설정의 일부로 옵션으로 볼 수 있습니다.
 
