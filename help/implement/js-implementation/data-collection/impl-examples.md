@@ -1,12 +1,11 @@
 ---
 description: adobe.com을 예로 사용하면, 여기 설명된 구현은 동일한 visid 쿠키를 참조합니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 구현 예
 topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
