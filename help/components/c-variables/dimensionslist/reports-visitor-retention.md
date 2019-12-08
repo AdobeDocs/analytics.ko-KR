@@ -1,11 +1,10 @@
 ---
 description: '고객 충성도에 대한 정보를 표시합니다. 얼마나 많은 방문자가 사이트를 몇 번이나 재방문하는지 확인할 수 있습니다. 이 카테고리의 보고서는 고객 충성도에 대한 정보를 제공합니다. 얼마나 많은 방문자가 사이트를 몇 번이나 재방문하는지 확인할 수 있습니다. '
-solution: Analytics
 title: 방문자 유지
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 재방문 주기 </td> 
+   <td colname="col1"> 반환 주기 </td> 
    <td colname="col2"> <p>1일 미만, 1-3일, 3-7일, 8-14일, 14일-1개월, 1개월 이상 기간 범주 중 하나(방문 간 경과 시간을 나타냄) 이내에 사이트를 재방문한 방문자 수를 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +51,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 마지막 구매 이후 일 수 </td> 
-   <td colname="col2"> <p>고객이 반복 구매에 소요하는 평균 기간(일 수)을 보여주며 매출액 및 주문 수와 같이 사이트의 주요 성공 지표에 가장 많은 기여를 하는 기간을 볼 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이 보고서는 고객이 반복 구매에 소요하는 평균적인 기간(일 수)을 보여주며 수입액 또는 주문 수와 같이 사이트의 주요 성공 지표에 가장 많은 기여를 하는 기간을 확인할 수 있도록 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 일일 고유 고객 </td> 
