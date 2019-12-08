@@ -1,11 +1,10 @@
 ---
 description: 지표 및 차원을 요청에 추가하는 절차.
-solution: Analytics
 title: 지표 및 차원 추가
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
