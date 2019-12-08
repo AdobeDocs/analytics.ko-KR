@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics 데이터 소스를 사용하면 추가적인 온라인 또는 오프라인 데이터를 수동으로 가져와서 보고에 사용할 수 있습니다.
-solution: Analytics
 subtopic: Data sources
 title: Data Sources 개요
 topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
