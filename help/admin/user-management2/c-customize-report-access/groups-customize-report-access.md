@@ -1,13 +1,12 @@
 ---
-description: Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그룹 권한을 사용자 지정합니다.
+description: Analytics 도구, 보고서 세트 도구, 지표 및 차원에 대한 그룹 권한을 사용자 지정합니다.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: 보고서 액세스 사용자 지정 - 개요
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,17 +15,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
-Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그룹 권한을 사용자 지정합니다.
+Analytics 도구, 보고서 세트 도구, 지표 및 차원에 대한 그룹 권한을 사용자 지정합니다.
 
-**[!UICONTROL 새 그룹 추가]** &gt; **[!UICONTROL 보고서 액세스]**
+**[!UICONTROL 새 그룹 추가]** &gt; **[!UICONTROL 보고서 액세스 권한]**
 
-[!UICONTROL 사용자 그룹 정의] 페이지의 [!UICONTROL 보고서 액세스] 섹션은 세분화된 수준에서 권한을 사용자 지정할 수 있는 액세스 카테고리를 제공합니다.
+[!UICONTROL 사용자 그룹 정의] 페이지의 [!UICONTROL 보고서 액세스 권한] 섹션은 세분화된 수준에서 권한을 사용자 지정할 수 있는 액세스 카테고리를 제공합니다.
 
 ![](assets/report-access.png)
 
-예를 들면 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder])에 대한 액세스 권한, 특정 지표 및 측정기준(eVars 포함)에 대한 권한 및 세그먼트나 계산된 지표 생성과 같은 기능을 가진 그룹을 생성할 수 있습니다.
+예를 들면 여러 Analytics 도구([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder])에 대한 액세스 권한, 특정 지표 및 차원(eVar 포함)에 대한 권한 및 세그먼트나 계산된 지표 생성과 같은 기능을 가진 그룹을 생성할 수 있습니다.
 
 ## 권한에 대해 알고 있어야 하는 사항 {#section_3D25D4A5BD044008870C5B98F696244E}
 
@@ -44,7 +43,7 @@ Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 지정 그룹 </p> </td> 
-   <td colname="col2"> <p> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> 모든 보고서 <span class="term"> 액세스에</span> 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
+   <td colname="col2"> <p> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> <span class="term"> 모든 보고서 액세스</span>에 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">모든 측정 기준 </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">모든 지표 </li> 
@@ -53,7 +52,7 @@ Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그
      <li id="li_B35420302AAB42509BD6AF0FA6349BF8">예외 항목 탐지 </li> 
      <li id="li_3787E4696C454D3ABD1D75F6C282A9A2">실시간 보고서 </li> 
      <li id="li_3797DF9C40D1426588819116362962F5">Analysis Workspace 액세스 </li> 
-    </ul> <p>이전에 사전 정의된 그룹에서 사용할 수 있었던 모든 설정은 사용자 그룹 정의<span class="wintitle">의 </span>보고서 액세스</a> 설정에서 사용자 지정할 수 있으므로 관리자는 사용자 지정 그룹을 삭제하고 직접 생성할 수 있습니다. </p> </td> 
+    </ul> <p>이전에 사전 정의된 그룹에서 사용할 수 있었던 모든 설정은 사용자 그룹 정의<span class="wintitle">의 </span>보고서 액세스 권한</a> 설정에서 사용자 지정할 수 있으므로 관리자는 사용자 지정 그룹을 삭제하고 직접 생성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>측정기준-수준 권한 </p> </td> 
@@ -61,11 +60,11 @@ Analytics 도구, 보고서 세트 도구, 지표 및 측정기준에 대한 그
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 컨텐츠 인식) 및 지표가 주어집니다. </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
+    </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 차원 권한 사용자 지정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>새로운 고객 또는 회사가 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud에 공급된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>자세한 내용은 Analytics 사용자 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> 마이그레이션을 관리 콘솔로 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>새 고객이나 회사가 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud에 프로비저닝된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Admin Console로 Analytics 사용자 마이그레이션</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텐츠 인식 </p> </td> 
