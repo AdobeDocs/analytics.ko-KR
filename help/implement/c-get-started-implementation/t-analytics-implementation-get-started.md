@@ -1,13 +1,12 @@
 ---
 description: Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알아보십시오.
 keywords: Getting Started
-solution: Analytics
 subtopic: Analysis Workspace
 title: 간소화된 구현 모달
 topic: Reports and analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
