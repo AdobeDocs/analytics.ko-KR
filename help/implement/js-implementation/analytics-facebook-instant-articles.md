@@ -1,12 +1,11 @@
 ---
 description: Facebook 인스턴트 아티클의 Analytics 구현 방법을 참조하십시오.
 keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
-solution: Analytics
 title: Facebook 인스턴트 아티클
 topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
