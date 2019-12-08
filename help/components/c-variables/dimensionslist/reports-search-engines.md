@@ -1,18 +1,17 @@
 ---
-description: 방문자가 [모두], [유료] 및 [자연어] 검색에 사용하는 검색 엔진을 표시합니다.
-solution: Analytics
+description: 방문자가 모두, 유료 및 자연어 검색에 사용하는 검색 엔진을 표시합니다.
 title: 검색 엔진
 topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 검색 엔진
 
-방문자가 [모두], [유료] 및 [자연어] 검색에 사용하는 검색 엔진을 표시합니다.
+방문자가 모두, 유료 및 자연어 검색에 사용하는 검색 엔진을 표시합니다.
 
 **[!UICONTROL 검색 엔진 - 모두]**: 사람들이 웹 페이지를 찾기 위해 사용하는 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
 
