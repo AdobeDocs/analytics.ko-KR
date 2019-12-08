@@ -1,16 +1,15 @@
 ---
 description: 특정 기간 동안 모든 제품에서 생성된 수입 금액을 측정합니다.
-solution: Analytics
-title: '매출 '
+title: '수입 '
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 매출 
+# 수입 
 
 특정 기간 동안 모든 제품에서 생성된 수입 금액을 측정합니다.
 
@@ -33,16 +32,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
        s.events="purchase"
       ```
 
-* [!UICONTROL s.products] 변수에 두 개 이상의 제품이 있는 경우는 모든 제품이 매출 보고서에 계산됩니다. For example, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] would pass $9 in revenue to reporting.
+* [!UICONTROL s.products] 변수에 두 개 이상의 제품이 있는 경우는 모든 제품이 매출 보고서에 계산됩니다. 예를 들어, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"]은 수입 $9를 보고 기능으로 전달합니다.
 
    >[!NOTE]
    >
-   >단일 제품에서 수량이 증가하면 매출을 곱하지 않습니다. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >단일 제품에서 수량이 증가한 경우는 수입을 곱하지 않습니다. 예를 들어, [!DNL s.products="Womens;Socks;5;4.50"]는 $22.50를 보고 기능에 전달하지 않고 $4.50를 전달합니다. 구현에서 나열된 수량([!DNL s.products="Womens;Socks;5;22.50"])에 대한 총 수입을 전달하도록 구현하십시오.
 
 * [!UICONTROL 매출]은 기간에 대한 총액을 가장 가까운 통화 값으로 근사 처리합니다. 개별 제품이나 히트를 근사 처리하지 않습니다.
 * Analytics는 하루의 값을 가장 가까운 정수 통화 값으로 근사 처리하여 일별 합계와 월별 총액 사이의 차이를 최소화합니다. 월별 합계는 근사 처리된 일별 값을 합한 것이 아니고 전체 합계를 가장 가까운 정수 통화 값으로 근사 처리한 것입니다.
 * 매출을 가장 가까운 정수 통화로 근사 처리하지 않은 보고서를 생성하려면 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)를 사용합니다.
-* `purchaseID` 변수를 사용하지 않으면 사용자가 페이지를 새로 고칠 때 데이터를 Adobe로 여러 번 보내기 때문에 수익이 부풀려질 수 있습니다.
+* `purchaseID` 변수를 사용하지 않으면 사용자가 페이지를 새로 고칠 때 데이터를 Adobe로 여러 번 보내기 때문에 수입이 부풀려질 수 있습니다.
 * 시간별 분류는 보고서 세트의 시간대를 따릅니다.
 * 이 보고서에는 라인 항목이 없습니다. 트렌드 형식으로만 볼 수 있습니다.
 * 시간, 일, 주, 월, 분기 및 연도 단위를 적용할 수 있습니다. 이러한 단위는 보고 날짜 범위에 적합하게만 사용할 수 있습니다.
@@ -65,15 +64,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 제품별 속성 {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* This report can be accessed by going to **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* **[!UICONTROL 전환]** &gt; **[!UICONTROL 구매]** &gt; **[!UICONTROL 수입]**&#x200B;에서 이 보고서에 액세스할 수 있습니다.
 
 * [!UICONTROL 트래픽 소스] 분류는 [!UICONTROL 검색 방법]에서 찾을 수 있습니다.
 
-* This report can be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 구매]** &gt; **[!UICONTROL 수입]**&#x200B;에서 이 보고서에 액세스할 수 있습니다.
 
 * 이전에 나열된 모든 분류 외에도 [!UICONTROL 첫 번째 및 마지막 터치 마케팅 채널] 분류를 사용할 수 있습니다.
 
-* This report can also be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 구매]** &gt; **[!UICONTROL 수입]**&#x200B;에서도 이 보고서에 액세스할 수 있습니다.
 
 * 이전에 언급된 분류 외에도 [!UICONTROL 목록] 변수와 현재 ]비디오[!UICONTROL  변수를 사용할 수 있습니다.
 
