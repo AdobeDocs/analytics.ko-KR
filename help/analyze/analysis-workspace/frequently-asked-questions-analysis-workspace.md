@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace에 대한 시스템 요구 사항입니다.
 keywords: Analysis Workspace
-solution: Analytics
 title: 관리 요구 사항
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace에 대한 시스템 요구 사항입니다.
 
-## Administration and access requirements {#section_FD3737DE452F4F6CA181F13FF3DC668F}
+## 관리 및 액세스 요구 사항 {#section_FD3737DE452F4F6CA181F13FF3DC668F}
 
 <table id="table_3065772701A64D4EB5F175100A60F284"> 
  <thead> 
@@ -34,8 +33,8 @@ Analysis Workspace에 대한 시스템 요구 사항입니다.
    <td colname="col2"> <p>Analysis Workspace에 대한 전체 액세스 권한을 갖습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 사용자 </td> 
-   <td colname="col2"> <p>Analytics의 [작업 공간] 탭에 액세스할 수 있게 하려면 관리자는 <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt;<span class="uicontrol">그룹</span>에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Analysis Workspace 액세스</a> 그룹에 사용자를 추가해야 합니다. </p> </td> 
+   <td colname="col1"> 사용자 참조 </td> 
+   <td colname="col2"> <p>Analytics의 작업 공간 탭에 액세스할 수 있게 하려면 관리자는 <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt;<span class="uicontrol">그룹</span>에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Analysis Workspace 액세스</a> 그룹에 사용자를 추가해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 프로젝트 전송 </td> 
