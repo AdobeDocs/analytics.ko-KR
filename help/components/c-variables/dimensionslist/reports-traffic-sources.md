@@ -1,11 +1,10 @@
 ---
 description: 사이트로 트래픽을 유도하는 웹상의 위치에 대한 정보를 표시합니다. 방문자를 사용자 사이트로 보낸 외부의 검색 엔진과 웹 사이트를 확인할 수 있습니다.
-solution: Analytics
 title: 트래픽 소스
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,15 +33,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 검색 키워드 - 모두 </td> 
-   <td colname="col2"> <p> 사이트를 찾는 데 사용한 각 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다. </p> </td> 
+   <td colname="col2"> <p> 사이트를 찾는 데 사용한 각 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 검색 키워드 - 유료 </td> 
-   <td colname="col2"> <p> 사이트를 찾는 데 사용한 각 유료 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다. </p> </td> 
+   <td colname="col2"> <p> 사이트를 찾는 데 사용한 각 유료 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 검색 키워드 - 자연어 </td> 
-   <td colname="col2"> <p> 사이트를 찾는 데 사용한 각 자연어 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 횟수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다. </p> </td> 
+   <td colname="col2"> <p> 사이트를 찾는 데 사용한 각 자연어 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 검색 엔진 - 모두 </td> 
@@ -70,16 +69,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 레퍼러 </td> 
-   <td colname="col2"> <p> 방문자가 사이트에 오기 전에 있었던 도메인 또는 URL, 방문자가 웹 사이트를 검색하는 데 사용한 방법 및 이러한 참조 위치에서 이루어진 사이트 방문 횟수를 보여줍니다. </p> <p>예를 들어 방문자가 사이트 A에서 링크를 클릭하여 특정 사이트에 도달하는 경우 사이트 A가 도메인의 일부로 정의되어 있지 않으면 사이트 A가 레퍼러입니다.  구현 시 구현 컨설턴트로 웹 사이트에 포함된 도메인과 URL을 정의할 수 있습니다(구현 후에도 수행 가능). 정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다.  </p> <p>예를 들어 웹 페이지 A와 웹 페이지 B가 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않는 경우 웹 페이지 C는 레퍼러로 간주됩니다.  </p> <p>자세한 내용은 <a href="/help/admin/admin/internal-url-filter-admin.md"> 내부 URL 필터</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook의 이메일은 <span class="wintitle">입력/책갈피 표시</span> 행에 보고되며 도메인이 알려진 <span class="wintitle">검색 엔진</span>인 HTTP 프로토콜을 가진 참조는 검색 엔진 행에 보고됩니다. </p> </td> 
+   <td colname="col2"> <p> 방문자가 사이트에 오기 전에 있었던 도메인 또는 URL, 방문자가 웹 사이트를 검색하는 데 사용한 방법 및 이러한 참조 위치에서 이루어진 사이트 방문 횟수를 보여줍니다. </p> <p>예를 들어 방문자가 사이트 A에서 링크를 클릭하여 특정 사이트에 도달하는 경우 사이트 A가 도메인의 일부로 정의되어 있지 않으면 사이트 A가 레퍼러입니다.  구현 시 구현 컨설턴트로 웹 사이트에 포함된 도메인과 URL을 정의할 수 있습니다(구현 후에도 수행 가능). 정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다.  </p> <p>예를 들어 웹 페이지 A와 웹 페이지 B가 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않는 경우 웹 페이지 C는 레퍼러로 간주됩니다.  </p> <p>자세한 내용은 <a href="/help/admin/admin/internal-url-filter-admin.md"> 내부 URL 필터</a></p>  <p>참고: Analytics는 방문자가 프로토콜 <code> imap://</code> 또는 <span class="filepath"> mail://</span>이 포함된 이메일 메시지 링크를 클릭하고 사이트에 도달하면 참조 도메인을 이메일로 기록합니다. </p> <p>예를 들어 <code> https://mail.yahoo.com</code>에서 오는 모든 것은 프로토콜이 <span class="filepath"> https://</span>이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 <span class="wintitle">입력/책갈피 표시</span> 행에 보고되며 도메인이 알려진 <span class="wintitle">검색 엔진</span>인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 레퍼러 유형 </td> 
-   <td colname="col2"> <p> 각 방문에 대해 방문자의 참조 사이트를 추적 및 기록하여 방문자가 각 방문에 대해 사이트에서 어떻게 발견했는지 알 수 있습니다. 아래 목록은 다양한 유형의 레퍼러를 정의합니다. </p> 
+   <td colname="col2"> <p> 방문할 때마다 방문자의 조회 사이트를 추적하여 기록하면 방문자가 방문하는 동안 사이트에 관해 어떻게 검색하는지 알 수 있습니다. 아래 목록은 다양한 유형의 레퍼러를 정의합니다. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> 하드 드라이브 레퍼러는 방문자가 자신의 하드 드라이브에 있는 HTML 문서의 링크를 클릭하고 그 결과 사용자 사이트에 도달할 때 기록됩니다. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> 다른 웹 사이트 레퍼러는 방문자가 다른 웹 사이트(사이트의 일부로 정의되지 않은)의 페이지에 있는 링크를 클릭하고 사용자 웹 사이트에 도달할 때 기록됩니다. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> 검색 엔진 레퍼러는 방문자가 검색 엔진을 사용하여 사이트에 액세스할 때 기록됩니다. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> 입력/책갈피 표시 레퍼러는 방문자가 사이트 URL을 브라우저에 직접 입력할 때 또는 책갈피를 선택하여 사이트에 액세스하는 경우 기록됩니다. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> 입력/책갈피 표시 레퍼러는 방문자가 사용자 사이트의 URL을 브라우저에 직접 입력할 때 또는 책갈피를 선택하여 사이트에 액세스하는 경우 기록됩니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
