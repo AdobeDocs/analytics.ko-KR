@@ -1,11 +1,10 @@
 ---
 description: 다음 표에는 국가에 지역 또는 우편 번호가 있는지 여부가 나열되며, 이것은 지역 또는 우편 번호 보고서를 채울지 여부를 가리킵니다.
-solution: Analytics
 title: 국가별 지리 특성 지역 및 우편 번호 사용
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -270,4 +269,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 예멘 | 예 | 아니오 |
 | 남아프리카 | 예 | 예 |
 | 잠비아 | 예 | 아니오 |
-| 짐바브웨 | 예 | 아니요 |
+| 짐바브웨 | 예 | 아니오 |
