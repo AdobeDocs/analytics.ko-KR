@@ -1,11 +1,10 @@
 ---
 description: 방문자가 사이트를 떠날 때 클릭한 링크 또는 다운로드 링크가 포함하여 방문자가 웹 사이트에서 클릭하는 링크를 표시합니다.
-solution: Analytics
 title: 링크
 topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
