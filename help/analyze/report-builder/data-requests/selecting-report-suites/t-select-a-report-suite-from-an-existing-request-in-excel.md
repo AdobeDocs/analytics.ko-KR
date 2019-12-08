@@ -1,11 +1,10 @@
 ---
 description: 기존 요청에서 보고서 세트를 선택하는 데 도움이 되는 절차.
-solution: Analytics
 title: Excel의 기존 요청에서 보고서 세트 선택
 topic: Report builder
 uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
