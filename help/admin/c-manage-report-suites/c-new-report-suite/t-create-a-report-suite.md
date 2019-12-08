@@ -1,11 +1,10 @@
 ---
 description: 보고서 세트를 생성하고 보고서 세트의 설정을 새 보고서 세트에 복사하는 방법을 설명하는 절차입니다.
-solution: Analytics
 title: 보고서 세트 만들기
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,17 +13,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 보고서 세트를 생성하고 보고서 세트의 설정을 새 보고서 세트에 복사하는 방법을 설명하는 절차입니다.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 보고서 세트 선택.
-1. Click **[!UICONTROL Create New]** &gt; **[!UICONTROL Report Suite]**.
-1. To copy a report suite's settings, in the template list, select either a predefined template or an existing report suite to use as a [template.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. 보고서 세트를 선택합니다.
+1. **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. 보고서 세트의 설정을 복사하려면 템플릿 목록에서 미리 정의된 템플릿이나 [템플릿](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)으로 사용할 기존 보고서 세트를 선택합니다.
 
    >[!NOTE]
    >
-   >데이터는 복사되지 않고 설정만 복사할 수 있습니다. 고객 지원에서 설정을 복사하는 경우 관련된 위험에 대해 고객 지원에서 제공하는 면책조항에 대한 서면 확인서를 제공해야 합니다. 자세한 내용은 [소스 보고서 세트에서 복사되지 않은 설정](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)을 참조하십시오.
+   >설정만 복사할 수 있고 데이터는 복사할 수 없습니다. 고객 지원에서 설정을 복사하는 경우 관련된 위험에 대해 고객 지원에서 제공하는 면책조항에 대한 서면 확인서를 제공해야 합니다. 자세한 내용은 [소스 보고서 세트에서 복사되지 않은 설정](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)을 참조하십시오.
 
-1. 새 보고서 세트에 설명된 필드를 [채웁니다.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-1. **[!UICONTROL 보고서 세트 만들기를 클릭합니다]**.
+1. [새 보고서 세트](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)에 설명된 필드를 채웁니다.
+1. **[!UICONTROL 보고서 세트 만들기]**&#x200B;를 클릭합니다.
 
 >[!MORELIKETHIS]
 >
