@@ -1,11 +1,10 @@
 ---
 description: 요청의 보고서 세트, 세부기간 및 날짜 범위를 기반으로 몇 개의 요청을 동시에 변경할 수 있습니다.
-solution: Analytics
 title: 여러 요청 편집
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
