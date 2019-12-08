@@ -1,11 +1,10 @@
 ---
 description: 올바른 브라우저 플러그인이 설치되어 있다면, 웹 페이지에서 바로 Activity Map을 시작할 수 있습니다.
-solution: Analytics
 title: Activity Map 시작
 topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
