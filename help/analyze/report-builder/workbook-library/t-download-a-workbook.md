@@ -1,11 +1,10 @@
 ---
 description: 공유 통합 문서를 다운로드 및 편집합니다.
-solution: Analytics
 title: 통합 문서 다운로드
 topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
