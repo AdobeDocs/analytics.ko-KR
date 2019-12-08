@@ -1,10 +1,9 @@
 ---
 description: 통합을 통해 달성한 마케팅 효율성에 대해 설명합니다.
-solution: Analytics
 title: Adobe Analytics용 Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -96,37 +95,37 @@ Lyris와 Adobe Analytics의 통합은 다음과 같은 주요 이점을 제공�
    <td colname="col4"> <p>상태:활성화됨 </p> <p>할당:최근 </p> <p>만료 날짜:"비즈니스 결정" </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris - 보낸 이메일 </td> 
    <td colname="col3"> 아니요. Liris에서 보낸 이메일 </td> 
    <td colname="col4">유형:숫자 <p>기여도:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris - 열린 이메일 </td> 
    <td colname="col3"> 아니요. 열어본 이메일의 </td> 
    <td colname="col4">유형:숫자 <p>기여도:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris - 연 고유 이메일 </td> 
    <td colname="col3"> 아니요. 열었던 고유한 이메일 </td> 
    <td colname="col4">유형:숫자 <p>기여도:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris - 이메일 클릭스루 </td> 
    <td colname="col3"> 아니요. 를 클릭합니다. </td> 
    <td colname="col4">유형:숫자 <p>기여도:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris - 이메일 바운스 </td> 
    <td colname="col3"> no를 저장합니다. 바운스된 이메일 </td> 
    <td colname="col4">유형:숫자 <p>기여도:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lys - 이메일 구독 취소 </td> 
    <td colname="col3"> no를 저장합니다. 비활성화된 이메일 구독 </td> 
    <td colname="col4">유형:숫자 <p>기여도:활성화됨 </p> </td> 
