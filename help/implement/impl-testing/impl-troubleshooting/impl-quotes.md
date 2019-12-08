@@ -1,13 +1,12 @@
 ---
 description: 값을 변수에 입력할 때 따라야 할 몇 가지 우수 사례가 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 따옴표 사용
 topic: Developer and implementation
 uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
