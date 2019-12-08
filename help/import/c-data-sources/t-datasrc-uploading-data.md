@@ -1,12 +1,11 @@
 ---
 description: 데이터 소스 파일을 업로드하는 방법을 설명하는 절차입니다.
-solution: Analytics
 subtopic: Data sources
 title: Data Sources 파일 업로드
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
