@@ -1,12 +1,11 @@
 ---
 description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
-solution: Analytics
 subtopic: Classifications
 title: 분류 규칙
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,16 +14,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 분류 규칙 빌더]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 규칙 빌더]**
 
-규칙 빌더를 사용하면 목록 *`classification rule set`*&#x200B;목록을 만들 수 *`classification rules`*&#x200B;있습니다. 규칙이 지정한 기준에 일치시킨 다음 작업을 수행합니다.
+규칙 빌더를 사용하면 *`classification rules`* 목록인 *`classification rule set`*&#x200B;를 만들 수 있습니다. 규칙이 지정한 기준에 일치시킨 다음 작업을 수행합니다.
 
 분류 규칙은 다음과 같은 경우에 편리합니다.
 
 * **이메일** 및 **디스플레이 광고**: 이메일 캠페인과 비교하여 디스플레이 캠페인의 실적을 확인할 수 있도록 분류 규칙을 만들어 개별 디스플레이 광고 캠페인을 그룹화합니다.
 
 * **추적 코드**: 분류 규칙을 만들어 추적 코드의 문자열에서 파생된 키 값을 카테고리별로 분류하고 정의한 특정 기준에 일치시킵니다.
-* **검색어**:  [정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 및 와일드카드를 사용하여 검색어 분류를 단순화합니다. 예를 들어 검색어에 *`baseball`*&#x200B;분류가 포함된 경우 *`Sports League`* 분류를 로 설정할 수 *`MLB`*&#x200B;있습니다.
+* **검색어**:  [정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 및 와일드카드를 사용하여 검색어 분류를 단순화합니다. 예를 들어 검색어에 *`baseball`*&#x200B;이 포함된 경우 *`Sports League`* 분류를 *`MLB`*&#x200B;로 설정할 수 있습니다.
 
 예를 들어 이메일 캠페인 ID에 대한 추적 코드가 다음과 같다고 가정해봅시다.
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1개 규칙 세트에 문자열의 각 부분을 식별하는 3개의 규칙을 설정한 후 값을 분류할 수 있습니다.
 
-| 규칙 유형 선택 | 일치 기준 입력 | 분류 설정 | 대상 |
+| 규칙 유형 선택 | 일치 기준 입력 | 분류 설정 | 종료 |
 |---|---|---|---|
 | 다음으로 시작 | em: | 채널 | 이메일 |
 | 종료 문자 | 판매 | 유형 | 판매 |
@@ -52,13 +51,13 @@ about_classification_rules.xml
 * [규칙이 키를 분류하지 않는 경우](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [규칙 우선 순위 정보](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
-> [!NOTE] 규칙 [!UICONTROL 빌더는] Numeric 2 분류를 지원하지 않습니다.
+> [!NOTE] [!UICONTROL 규칙 빌더]는 Numeric 2 분류를 지원하지 않습니다.
 
 ## 규칙에 관한 중요한 정보
 
-* 분류에 사용할 [그룹 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)을 [!UICONTROL 관리 도구]에서 지정합니다.
+* 분류에 사용할 [그룹 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)을 [!UICONTROL 관리자 도구]에서 지정합니다.
 
-* **정규 표현식**:도움말은 분류 규칙의 [정규 표현식에서 사용할 수 있습니다](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **정규 표현식**: 도움말은 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 아래에 있습니다.
 
 * **보고서 세트**: 최소 1개의 보고서 세트를 선택할 때까지 분류를 선택할 수 없습니다. 규칙 세트를 만들고 변수를 할당할 때까지 보고서 세트를 적용할 수 없습니다.
 
@@ -86,7 +85,7 @@ about_classification_rules.xml
 
    >[!NOTE]
    >
-   >보고서에서 분류는 키가 있을 때마다 지정된 모든 시간대에 적용됩니다. 보고서 날짜 범위는 보고에 영향을 주지 않습니다.
+   >보고서에서 분류는 키가 존재하는 지정된 모든 기간에 적용됩니다. 보고서 날짜 범위는 보고에 영향을 주지 않습니다.
 
 ![](assets/overwrite_keys.png)
 
@@ -106,11 +105,11 @@ regex_classification_rules.xml
 * [정규 표현식 - "포함되지 않음" 예](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [정규 표현식 - 참조 테이블](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
-> [!NOTE] 우수 사례로, 정규 표현식은 구분 기호를 사용하는 추적 코드에 가장 적합합니다.
+> [!NOTE] 우수 사례로서, 정규 표현식은 구분 기호를 사용하는 추적 코드에 가장 적합합니다.
 
 ## 정규 표현식 - 추적 코드 예 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
-> [!NOTE] 추적 코드가 URL로 인코딩된 경우 규칙 빌더로 분류되지 **않습니다** .
+> [!NOTE] 추적 코드가 URL로 인코딩되어 있으면 규칙 빌더에 의해 분류되지 **않습니다**.
 
 이 예에서 다음 캠페인 ID를 분류하려고 한다고 가정해봅시다.
 
@@ -118,7 +117,7 @@ regex_classification_rules.xml
 
 분류할 추적 코드의 각 부분은 다음과 같습니다.
 
-* `em` = email
+* `em` = 이메일
 * `JuneSale` = 캠페인 이름
 * `20130601` = 날짜
 
@@ -132,7 +131,7 @@ regex_classification_rules.xml
 
 ![](assets/regex_tracking_code.png)
 
-This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
+이 예는 캠페인 날짜 `20140601`이 세 번째 그룹 `(.+)`에 있고, `$3`에 의해 식별된다는 규칙을 설명합니다.
 
 **[!UICONTROL 규칙 빌더]**
 
@@ -146,8 +145,8 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 | 정규 표현식 | 문자열 또는 일치 결과 | 해당 일치 그룹 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601 `$1`:em `$2`:6월 판매 `$3`:20130601년 |
-| 구문 작성 중 | `^` = 행() = 그룹 문자를 시작하고 괄호 안의 일치하는 문자를 추출할 수 있습니다.  `(.+)` = 한 개 캡처( . ) 문자 및 ( + ) 더 이상 \ = 문자열의 시작.  `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| 구문 작성 중 | `^` = 줄을 시작합니다. () = 괄호를 사용하여 문자를 그룹화하고 일치하는 문자를 추출할 수 있습니다.  `(.+)` = 한 개의 ( . ) 문자를 캡처하고 더 이상 와 ( + ) 하지 않습니다. \ = 문자열의 시작입니다.  `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
 
 정규 표현식의 문자가 무엇을 의미하는지에 대한 자세한 내용은 [정규 표현식 - 참조 테이블](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)을 참조하십시오.
 
@@ -191,14 +190,14 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 [!UICONTROL 규칙 빌더]에서 규칙을 다음과 같이 구성하십시오.
 
-| 규칙 유형 선택 | 일치 기준 입력 | 분류 설정 | 대상 |
+| 규칙 유형 선택 | 일치 기준 입력 | 분류 설정 | 종료 |
 |--- |--- |--- |--- |
-| 정규 표현식 일치 문자열 a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 정규 표현식 일치 문자열 a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 정규 표현식 일치 문자열 a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 정규 표현식 일치 문자열 a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 정규 표현식 일치 문자열 a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 정규 표현식 일치 문자열 a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 정규 표현식  일치 문자열 a:b의 경우 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 정규 표현식  일치 문자열 a:b의 경우 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 정규 표현식  일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 정규 표현식  일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 정규 표현식  일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 정규 표현식  일치 문자열 a:b:c:d의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 정규 표현식 - "포함되지 않음" 예 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -225,7 +224,7 @@ c:d:xoxo
 c:d:yoyo
 ```
 
-In this result, `a:b:1313` does not indicate a match.
+이 결과에서 `a:b:1313`은 일치를 의미하지 않습니다.
 
 ## 정규 표현식 - 참조 테이블 {#section_0211DCB1760042099CCD3ED7A665D716}
 
@@ -258,7 +257,7 @@ In this result, `a:b:1313` does not indicate a match.
 | `a{3,}` | 3개 이상 |
 | `a{3,6}` | 3과 6 사이 |
 
-정규 표현식 유효성 테스트를 위한 유용한 리소스는 https://rubular.com/입니다.
+https://rubular.com은 정규 표현식 유효성 확인에 좋은 사이트입니다.
 
 ## 규칙 우선 순위 정보
 
@@ -274,17 +273,17 @@ rule_priority.xml
 
 운동 선수에 대한 검색 유형을 분류하는 검색어 규칙을 따르는 예
 
-| 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 대상 |
+| 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
 | 1 | 다음 포함 | Cowboys | 검색 유형 | Team |
 | 2 | 다음 포함 | Fantasy | 검색 유형 | Fantasy |
 | 3 | 다음 포함 | Romo | 검색 유형 | Player |
 
-사용자가 *`Cowboys fantasy Tony Romo`*, the term *`Player`* is classified, because it matches the last given classification shown in the Set Classification column.
+사용자가 *`Cowboys fantasy Tony Romo`*&#x200B;를 검색하는 경우, 용어 *`Player`*&#x200B;는 분류 설정 열에 표시된 마지막 분류 항목에 일치하기 때문에 분류됩니다.
 
 마찬가지로, 다음 검색어에 대해 한 세트에 두 개의 규칙을 설정한다고 가정합니다.
 
-| 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 대상 |
+| 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
 | 1 | 다음 포함 | Cowboys | 도시 | Dallas |
 | 2 | 다음 포함 | Broncos | 도시 | Denver |
@@ -305,24 +304,24 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->이 절차에서는 규칙을 하나 이상의 보고서 세트에 적용해야 합니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/c-classifications2/c-sub-classifications.md)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
+>이 절차에서 규칙을 하나 이상의 보고서 세트에 적용할 수 있습니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/c-classifications2/c-sub-classifications.md)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
 
-1. [분류 규칙 세트를 만듭니다](/help/components/c-classifications2/crb/classification-rule-set.md) .
-1. On the rule set page, click **[!UICONTROL Add Rule]**.
+1. [분류 규칙 세트를 만듭니다](/help/components/c-classifications2/crb/classification-rule-set.md).
+1. 규칙 세트 페이지에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/add_rule.png)
 
-1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
+1. **[!UICONTROL 보고서 세트]** 옆의 **[!UICONTROL 세트 추가]**&#x200B;를 클릭하여 하나 이상의 보고서 세트를 지정함으로써 이 규칙 세트에 할당합니다.
 
    **[!UICONTROL 보고서 세트 선택]페이지가 표시됩니다.**
 
    >[!NOTE]
-   보고서 세트는 다음 조건이 충족될 *`only`* 때 이 페이지에 표시됩니다.       &gt;
+   다음 조건이 충족될 때에&#x200B;*`only`*&#x200B;만 보고서 세트가 이 페이지에 표시됩니다. &gt;
 
-   * [!UICONTROL 관리 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
-   (이 전제 조건에 대한 자세한 내용은 분류 *`Variable`* 규칙 [](/help/components/c-classifications2/crb/classification-rule-set.md) 세트에서 이 전제 조건에 대한 설명을 참조하십시오.)
+   * [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
+   (See *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.)
 
-   * 사용 가능한 보고서 세트 **[!UICONTROL 페이지에서 보고서 세트를]** 선택한 경우 규칙 세트 추가를 [클릭하여](/help/components/c-classifications2/crb/classification-rule-set.md) 규칙 세트를 만듭니다.
+   * 규칙 세트를 만들기 위해 [규칙 세트 추가](/help/components/c-classifications2/crb/classification-rule-set.md)를 클릭하면 표시되는 **[!UICONTROL 사용 가능한 보고서 세트]** 페이지에서 보고서 세트를 선택했습니다.
 
 
 1. 기존 값을 덮어쓸지 여부를 지정합니다.
@@ -335,18 +334,18 @@ t_classification_rule.xml
 
    ![단계 결과](assets/classification_rules_page.png)
 
-   규칙 작성에 대한 예는 분류 규칙 [빌더](/help/components/c-classifications2/crb/classification-rule-builder.md) 및 분류 [규칙의 정규 표현식을 참조하십시오](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+   규칙 작성의 예가 필요하면 [분류 규칙 빌더](/help/components/c-classifications2/crb/classification-rule-builder.md) 및 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md)을 참조하십시오.
 
    >[!NOTE]
    >
-   >키가 동일한 분류를 설정하는 여러 규칙과 일치하는 경우(분류 설정 열에서) 해당 분류와 일치하는 마지막 규칙이 사용됩니다. See **About Rule Priority** above for more information about sorting rules.
+   >키가 분류 설정 열에서 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. 정렬 규칙에 대한 자세한 내용은 **규칙 우선 순위 정보**&#x200B;를 참조하십시오.
 
 1. [규칙 세트를 테스트합니다](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
-1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
+1. 테스트 후 **[!UICONTROL 활성]**&#x200B;을 클릭하여 규칙의 유효성을 확인하고 규칙을 활성화합니다.
 
    규칙을 활성화하면 파일을 자동으로 만든 후 업로드합니다.
 
-   Field definitions: See [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) for complete definitions of interface options on this page.
+   필드 정의: 이 페이지에 있는 인터페이스 옵션의 전체 정의가 필요하면 [분류 규칙 빌더](/help/components/c-classifications2/crb/classification-rule-definitions.md)를 참조하십시오.
 
 ## 분류 규칙 세트 테스트
 
@@ -358,10 +357,10 @@ t_classifications_test_rule.xml
 
 분류 규칙 또는 규칙 세트를 테스트하는 방법을 설명하는 단계입니다. 테스트를 실행하면 세트의 모든 규칙을 확인합니다.
 
-1. [분류 규칙 세트를 만듭니다](/help/components/c-classifications2/crb/classification-rule-set.md) .
+1. [분류 규칙 세트를 만듭니다](/help/components/c-classifications2/crb/classification-rule-set.md).
 1. [!UICONTROL 분류 규칙 빌더]에서 규칙 세트 이름을 클릭합니다.
 1. 규칙 세트가 보고서 세트와 연관이 있는지 확인합니다.
-1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
+1. 규칙 편집기에서 **[!UICONTROL 테스트 규칙 세트]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/classification_test_rule_set.png)
 
@@ -372,14 +371,14 @@ t_classifications_test_rule.xml
    * 추적 코드
    * 검색 키워드 또는 구
    정규 표현식 테스트에 대한 자세한 내용은 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md)을 참조하십시오.
-1. Click **[!UICONTROL Run Test]**.
+1. **[!UICONTROL 테스트 실행]**&#x200B;을 클릭합니다.
 
    일치하는 규칙은 [!UICONTROL 결과] 표에 표시됩니다.
-1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
+1. (선택 사항) **[!UICONTROL 활성화]**&#x200B;를 클릭하면 규칙이 활성화되고 기존의 분류를 덮어씁니다.
 
-   규칙을 사용하여 기존 분류를 덮어쓰는 방법에 대한 자세한 내용은 을 참조하십시오.
+   규칙을 사용하여 기존 분류를 덮어쓰는 방법에 대한 자세한 내용은 규칙 처리 방법을 참조하십시오.
 
-## 분류 규칙 유효성 확인 및 활성화
+## 분류 규칙 확인 및 활성화
 
 <!-- 
 
@@ -389,12 +388,12 @@ t_validate_rules.xml
 
 분류 규칙을 확인하고 활성화하는 방법을 설명하는 단계입니다.
 
-1. [분류 규칙 세트를](/help/components/c-classifications2/crb/classification-rule-set.md) 만든 다음, 세트에 분류 규칙을 [](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 추가합니다.
-1. On the rule editor, click **[!UICONTROL Activate]**.
+1. [분류 규칙 세트를 만든 다음](/help/components/c-classifications2/crb/classification-rule-set.md), 이 세트에 [분류 규칙을 추가](/help/components/c-classifications2/crb/classification-quickstart-rules.md)합니다.
+1. 규칙 편집기에서 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** *`<selection>`*.
+1. (선택 사항) 분류를 덮어쓰려면 **[!UICONTROL 분류 덮어쓰기]** *`<selection>`*&#x200B;를 활성화합니다.
 
    이 옵션을 사용하여 영향 받는 키의 기존 분류를 덮어쓸 수 있습니다.
 
