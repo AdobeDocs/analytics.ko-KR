@@ -1,12 +1,11 @@
 ---
 description: 'DFA 통합 구성에는 다음 작업이 포함됩니다. '
 keywords: DFA
-solution: Analytics
 title: DFA 통합
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -261,7 +260,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 시간 초과 비율은 실제로 사이트에 대한 모든 방문자를 고려합니다. 그러한 방문자 중 일부는 DFA에 전혀 연결되지 않으므로 시간 초과가 잘못된 것입니다. To improve this computation, another analysis could consider only unique visitors to pages with the `clickThroughParam` set (for example, `?CID=1`). 이로 인해 정확성이 더 향상됩니다.
 
-시간 초과 비율이 매우 낮으면 *`s.maxDelay`*. 너무 높으면 *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. 데이터가 *`s.maxDelay`*&#x200B;손실되어 페이지 보기가 누락되지 않도록 페이지를 [!DNL Page Views Report] 실행할 수 있습니다. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+시간 초과 비율이 매우 낮으면 (*`s.maxDelay`* 포함). 너무 높으면 *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. 데이터가 *`s.maxDelay`*&#x200B;손실되어 페이지 보기가 누락되지 않도록 페이지를 [!DNL Page Views Report] 실행할 수 있습니다. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
