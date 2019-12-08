@@ -1,11 +1,10 @@
 ---
 description: 도구 모음, 달력 및 세부 사항 테이블을 포함한 보고서 기능에 대한 소개입니다.
-solution: Analytics
 title: 보고서 기능
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
