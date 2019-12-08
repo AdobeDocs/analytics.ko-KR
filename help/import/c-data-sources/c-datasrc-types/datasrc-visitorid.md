@@ -1,12 +1,11 @@
 ---
 description: 범용(트랜잭션 ID) 카테고리를 선택하여 방문자 ID를 통합할 수 있습니다.
-solution: Analytics
 subtopic: Data sources
 title: 방문자 ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 범용(거래 ID) 카테고리를 선택하여 방문자 ID를 통합할 수 있습니다.
 
-오프라인 [데이터 통합을 참조하십시오](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 <p class="head"> <b>방문자 ID 차원</b> </p>
 
