@@ -1,12 +1,11 @@
 ---
 description: 사용자 관리 페이지의 보고서 사용자 및 그룹 관리를 통해 사용자와 그룹을 관리하고 보고서, 도구 및 보고서 세트에 대한 액세스 권한을 제어할 수 있습니다.
-solution: Analytics
 subtopic: Users and groups
 title: 사용자 관리 개요
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 사용자 관리 페이지의 보고서 사용자 및 그룹 관리를 통해 사용자와 그룹을 관리하고 보고서, 도구 및 보고서 세트에 대한 액세스 권한을 제어할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 사용자편집]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 사용자 편집]**
 
 ## 사용자 계정 설명 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -80,7 +79,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 사용자</span> </td> 
-   <td colname="col2"> <p> 선택된 그룹 권한만 사용자에게 부여합니다. <span class="uicontrol">사용 가능한 그룹</span> 필드(왼쪽)에서 원하는 그룹을 선택한 다음 <span class="uicontrol">추가</span>를 클릭합니다. 지정된 그룹이 <span class="uicontrol">지정된 그룹</span> 필드(오른쪽)에 나타납니다. For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> 선택된 그룹 권한만 사용자에게 부여합니다. <span class="uicontrol">사용 가능한 그룹</span> 필드(왼쪽)에서 원하는 그룹을 선택한 다음 <span class="uicontrol">추가</span>를 클릭합니다. 지정된 그룹이 <span class="uicontrol">지정된 그룹</span> 필드(오른쪽)에 나타납니다. 그룹 만들기 및 관리에 대한 내용은 <a href="/help/admin/user-management2/c-user-groups/groups.md">그룹</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
