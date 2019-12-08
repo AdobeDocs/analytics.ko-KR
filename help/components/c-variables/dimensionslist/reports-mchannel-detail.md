@@ -1,11 +1,10 @@
 ---
 description: 이 보고서는 사이트에 가장 효과적인 특정 캠페인이나 키워드에 대한 인사이트를 제공합니다. 이 보고서를 사용하면 성공 지표 및 매출액을 전반적인 해당 채널과 상관없이 다양한 채널 세부 사항에 할당할 수 있습니다. 예를 들어 특정 유료 검색 키워드가 특정 이메일 캠페인을 기준으로 비교하는 방법을 볼 수 있습니다. 마케팅 채널 개요 보고서와는 대조적으로, 이 보고서는 표준 마케팅 보고서와 유사합니다.
-solution: Analytics
 title: 마케팅 채널 세부정보 - 첫 번째 및 마지막 터치
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,5 +39,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 방문 및 방문자: 조직 및 보고서 세트에 따라 사용 가능 여부가 결정됩니다. 자세한 내용은 해당 계정 관리자에게 문의하십시오.
    [!UICONTROL 마케팅 채널] 도움말에서 [지표](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html)를 참조하십시오.
 
-> [!NOTE] 마케팅 [!UICONTROL 채널] 보고는 버전 13.5에서 사용할 수 없습니다.
+> [!NOTE] 버전 13.5에서는 [!UICONTROL 마케팅 채널] 보고를 사용할 수 없습니다.
 
