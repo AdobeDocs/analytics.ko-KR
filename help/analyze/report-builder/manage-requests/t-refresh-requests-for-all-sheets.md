@@ -1,11 +1,10 @@
 ---
 description: 모든 시트의 요청 또는 여러 요청을 새로 고칠 수 있습니다.
-solution: Analytics
 title: 모든 시트에 대한 요청 새로 고침
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
