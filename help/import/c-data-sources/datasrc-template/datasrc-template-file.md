@@ -1,12 +1,11 @@
 ---
 description: 데이터 소스 템플릿에 대한 정보는 특정 외부 데이터 소스 집합을 데이터 소스로 전송하는 데 적합한 데이터 프레임워크를 제공합니다.
-solution: Analytics
 subtopic: Data sources
 title: Data Sources 템플릿 개요
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
