@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: Adobe Analytics용 지능형 데이터 커넥터
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -77,31 +76,31 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col4"> <p><b>상태</b>:활성화됨 </p> <p><b>할당</b>:최근 </p> <p><b>만료 날짜</b>:"비즈니스 결정" </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 전송 </td> 
    <td colname="col3"> Selligent에서 보낸 이메일 수를 저장합니다. </td> 
    <td colname="col4"> <p><b>유형</b>:숫자 </p> <p><b>기여도</b>:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 배달됨 </td> 
    <td colname="col3"> 배달된 이메일 수를 저장합니다. </td> 
    <td colname="col4"> <p><b>유형</b>:숫자 </p> <p><b>기여도</b>:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 보기 횟수 </td> 
    <td colname="col3"> 본 고유 이메일 수를 저장합니다. </td> 
    <td colname="col4"> <p><b>유형</b>:숫자 </p> <p><b>기여도</b>:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 클릭 수 </td> 
    <td colname="col3"> 이메일을 클릭한 횟수를 저장하려면 </td> 
    <td colname="col4"> <p><b>유형</b>:숫자 </p> <p><b>기여도</b>:활성화됨 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 이벤트 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 바운스됨 </td> 
    <td colname="col3"> 바운스된 이메일 수를 저장합니다. </td> 
    <td colname="col4"> <p><b>유형</b>:숫자 </p> <p><b>기여도</b>:활성화됨 </p> </td> 
