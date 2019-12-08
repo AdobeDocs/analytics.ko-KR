@@ -1,11 +1,10 @@
 ---
 description: Report Builder 전달을 최적화할 수 있는 방법 및 때때로 발생할 수 있는 오류 메시지 목록입니다.
-solution: Analytics
 title: Report Builder 문제 해결 및 우수 사례
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
