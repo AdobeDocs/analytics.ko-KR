@@ -1,11 +1,10 @@
 ---
 description: 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
-solution: Analytics
 title: 코드 관리자
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; 코드 **[!UICONTROL 관리자를 참조하십시오]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 코드 관리자]**.
 
-라이브러리를 다운로드한 후에는 데이터를 올바른 추적 서버 및 보고서 세트에 보내는 코드를 구성해야 합니다. 추가 구현 리소스는 구현 [사용 안내서에서](/help/implement/home.md) 확인할 수 있습니다.
+라이브러리를 다운로드한 후에는 데이터를 올바른 추적 서버 및 보고서 세트에 보내는 코드를 구성해야 합니다. 추가 구현 리소스는 [구현](/help/implement/home.md) 사용 안내서에서 확인할 수 있습니다.
 
 ## 코드 관리자 페이지 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
