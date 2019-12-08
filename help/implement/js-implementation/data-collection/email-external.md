@@ -1,12 +1,11 @@
 ---
 description: 회사는 Analytics를 사용하여 이메일 캠페인의 성공을 파악합니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 외부 이메일 추적
 topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
