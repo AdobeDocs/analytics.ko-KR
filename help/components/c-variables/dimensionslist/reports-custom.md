@@ -1,11 +1,10 @@
 ---
 description: 관리자는 특정 지표와 특정 날짜 범위 등으로 보고서를 구성한 다음 모든 사람이 사용할 수 있도록 보고서 메뉴에 저장할 수 있습니다.
-solution: Analytics
 title: 사용자 지정
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
