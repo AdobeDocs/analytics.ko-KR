@@ -1,13 +1,12 @@
 ---
 description: 다음 페이지 보기의 Analytics 변수 값을 캡처합니다. 예를 들어, 플러그인을 사용하여 이전 페이지 보기에서 s.pageName 값을 사용자 지정 트래픽 변수로 캡처할 수 있습니다. 여기에는 지정된 성공 이벤트가 설정된 경우에만 이전 값을 캡처하는 옵션도 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getPreviousValue
 topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
