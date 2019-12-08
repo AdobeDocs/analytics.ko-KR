@@ -1,13 +1,12 @@
 ---
 description: HTML에는 공백을 만드는 문자가 몇 개 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 변수 값에서의 공백 사용
 topic: Developer and implementation
 uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
