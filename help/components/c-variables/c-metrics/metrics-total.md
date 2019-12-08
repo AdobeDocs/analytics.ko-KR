@@ -1,11 +1,10 @@
 ---
 description: 보고 기간의 모든 보고서 라인 항목의 값입니다. 현재 필터가 선택되어 있으면 합계는 보고서 세트 합계 대신 필터링된 합계를 나타낼 수 있습니다. 선택되어 있는 필터가 없으면 합계는 보고서 세트 합계를 나타냅니다.
-solution: Analytics
 title: 합계
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
-   <td colname="col2"> <p>N/A </p> </td> 
+   <td colname="col2"> <p>해당 없음 </p> </td> 
   </tr> 
  </tbody> 
 </table>
