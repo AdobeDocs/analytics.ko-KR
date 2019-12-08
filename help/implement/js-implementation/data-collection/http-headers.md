@@ -1,12 +1,11 @@
 ---
 description: HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에 추가로 데이터를 모으려고 할 때 사용됩니다. 이 섹션에서는 데이터 수집 중 사용되는 헤더에 대해 설명합니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: 데이터 수집 HTTP 헤더
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -93,16 +92,16 @@ HTTP 요청 및 응답 헤더는 AppMeasurement에서 모으는 데이터 외에
 | **헤더** | **사용** |
 |---|---|
 | Access-Control-Allow-Origin | 다른 서버들에 대한 스타일 데이터 수집 요청을 공유하는 원래 리소스 공유에 대한 지원을 활성화하는 데 사용됨 |
-| Expires | 브라우저 캐싱 제어 |
+| 만료 | 브라우저 캐싱 제어 |
 | Last-Modified | 브라우저 캐싱 제어 |
 | Cache-Control | 브라우저 캐싱 제어 |
 | Pragma | 브라우저 캐싱 제어 |
 | ETag | 브라우저 캐싱 제어 |
 | Vary | 브라우저 캐싱 제어 |
 | P3P | 데이터 수집 요청을 위한 기본 또는 사용자 지정 P3P 정책 제공 |
-| Status | 컨텐츠 요청이 없는 경우 "SUCCESS" 또는 "FAILURE" 상태를 포함함. 요청이 컨텐츠를 반환하지 않도록 지정할 때만 사용됨. |
+| 상태 | 컨텐츠 요청이 없는 경우 "SUCCESS" 또는 "FAILURE" 상태를 포함함. 요청이 컨텐츠를 반환하지 않도록 지정할 때만 사용됨. |
 | Reason | 컨텐츠 요청이 없는 실패 상태에 대한 이유를 포함합니다. 요청이 컨텐츠를 반환하지 않도록 지정할 때만 사용됨. |
-| Location | 클라이언트가 데이터 수집 요청을 다른 URL로 보내도록 리디렉션하는 데 사용됨. 일례로, 방문자 ID 쿠키를 설정하는 기능을 감지하는 Adobe의 쿠키 핸드셰이크가 있음. |
+| 위치 | 클라이언트가 데이터 수집 요청을 다른 URL로 보내도록 리디렉션하는 데 사용됨. 일례로, 방문자 ID 쿠키를 설정하는 기능을 감지하는 Adobe의 쿠키 핸드셰이크가 있음. |
 | Content-Type | 다시 클라이언트로 보내지는 컨텐츠 유형 지정(GIF, 텍스트, Javascript 등) |
 | Content-Length | 다시 클라이언트로 보내지는 컨텐츠 크기 지정 |
 
