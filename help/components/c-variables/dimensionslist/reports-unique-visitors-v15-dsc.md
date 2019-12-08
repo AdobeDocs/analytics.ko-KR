@@ -1,11 +1,10 @@
 ---
 description: 사이트에 액세스한 고유 방문자 수를 표시합니다. 각 방문자는 웹 사이트 방문 횟수에 관계 없이 한 번만 카운트됩니다.
-solution: Analytics
 title: 고유 방문자 수
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 고유 방문자 보고서 - 트렌드 지표 {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL 고유 방문자] 보고서는 애드혹 분석에서 비슷하게 동작합니다. 방문이 발생한 각 히트에 대해 해당 히트에서 방문자가 계산됩니다. 각 페이지는 페이지의 방문자에 대한 크레딧을 받습니다.
+[!UICONTROL 고유 방문자] 보고서는 Ad Hoc Analysis에서 유사하게 동작합니다. 방문이 발생한 각 히트에 대해 해당 히트에서 방문자가 계산됩니다. 각 페이지는 페이지의 방문자에 대한 크레딧을 받습니다.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -105,19 +104,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1월 1일 </p> </td> 
+   <td colname="col1"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 2일 </p> </td> 
+   <td colname="col1"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 3일 </p> </td> 
+   <td colname="col1"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 4일 </p> </td> 
+   <td colname="col1"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -140,19 +139,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1월 1일 </p> </td> 
+   <td colname="col1"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 2일 </p> </td> 
+   <td colname="col1"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 3일 </p> </td> 
+   <td colname="col1"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 4일 </p> </td> 
+   <td colname="col1"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -177,19 +176,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1월 1일 </p> </td> 
+   <td colname="col1"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 2일 </p> </td> 
+   <td colname="col1"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 3일 </p> </td> 
+   <td colname="col1"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 4일 </p> </td> 
+   <td colname="col1"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -210,19 +209,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1월 1일 </p> </td> 
+   <td colname="col1"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 2일 </p> </td> 
+   <td colname="col1"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 3일 </p> </td> 
+   <td colname="col1"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 4일 </p> </td> 
+   <td colname="col1"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -243,11 +242,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1월 2일 </p> </td> 
+   <td colname="col1"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 3일 </p> </td> 
+   <td colname="col1"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -257,9 +256,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-**세그멘테이션**
+**세그먼테이션**
 
-세그멘테이션을 사용하여 이전 날짜 대신 나중 날짜가 포함되도록 날짜 범위를 변경할 수 있습니다. 예를 들어, 날짜 범위가 여전히 1월 2일에서 1월 3일까지라고 가정합니다(위 표에 표시). 페이지 = C인 세그먼트를 적용하면 1월 2일은 세그먼트에 들어가지 않으며 주간 고유 방문자의 첫 번째 히트는 1월 3일이 됩니다. 대신 페이지 = D인 세그먼트를 적용하면 1월 2일과 1월 3일이 모두 제외됩니다. 결과가 주별 고유 보고서에 표시되지 않으며 합계에서 제외됩니다.
+세그먼테이션을 사용하여 이전 날짜 대신 나중 날짜가 포함되도록 날짜 범위를 변경할 수 있습니다. 예를 들어, 날짜 범위가 여전히 1월 2일에서 1월 3일까지라고 가정합니다(위 표에 표시). 페이지 = C인 세그먼트를 적용하면 1월 2일은 세그먼트에 들어가지 않으며 주간 고유 방문자의 첫 번째 히트는 1월 3일이 됩니다. 대신 페이지 = D인 세그먼트를 적용하면 1월 2일과 1월 3일이 모두 제외됩니다. 결과가 주별 고유 보고서에 표시되지 않으며 합계에서 제외됩니다.
 
 **기간 기반 고유 방문자 보고서**
 
@@ -278,19 +277,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1월 1일 </p> </td> 
+   <td colname="col1"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 2일 </p> </td> 
+   <td colname="col1"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 3일 </p> </td> 
+   <td colname="col1"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 4일 </p> </td> 
+   <td colname="col1"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -311,19 +310,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1월 1일 </p> </td> 
+   <td colname="col1"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 2일 </p> </td> 
+   <td colname="col1"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 3일 </p> </td> 
+   <td colname="col1"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1월 4일 </p> </td> 
+   <td colname="col1"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -348,27 +347,27 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1월 1일 </p> </td> 
+   <td colname="col02"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>1월 2일 </p> </td> 
+   <td colname="col02"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>1월 3일 </p> </td> 
+   <td colname="col02"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>1월 4일 </p> </td> 
+   <td colname="col02"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>1월 5일 </p> </td> 
+   <td colname="col02"> <p>5년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -392,22 +391,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1월 1일 </p> </td> 
+   <td colname="col02"> <p>1년 1월 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>1월 2일 </p> </td> 
+   <td colname="col02"> <p>2년 1월 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>1월 3일 </p> </td> 
+   <td colname="col02"> <p>3년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>1월 4일 </p> </td> 
+   <td colname="col02"> <p>4년 1월 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -418,7 +417,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-한 특성을 다른 특성으로 분류하는 경우(예: *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
+한 특성을 다른 특성으로 분류하는 경우(예: *`page`*&#x200B;을 *`eVar`*&#x200B;으로), Analytics는 기간 및 페이지의 각 고유 인스턴스(또는 상관 관계가 있는 특성)에 대해 기간 기반 고유 방문자를 할당합니다.
 
 페이지 A를 eVar T, U로 분류하면, 페이지 A를 1월 1일에 봤기 때문에 1월 2일이 제외됩니다. 주간 고유 방문자에 대해 다음 보고서가 표시됩니다.
 
@@ -447,6 +446,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 영구적 쿠키 {#section_81E139F08AEB4E30A06472856975EA1E}
 
-영구적 쿠키는 Adobe가 후속 방문에서 방문자를 식별할 수 있도록 방문 사이에 방문자의 컴퓨터에 보존됩니다. To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
+영구적 쿠키는 Adobe가 후속 방문에서 방문자를 식별할 수 있도록 방문 사이에 방문자의 컴퓨터에 보존됩니다. 영구적 쿠키를 수락하는 사용자와 수락하지 않는 사용자의 비율을 보려면 **[!UICONTROL 필터]** &gt; **[!UICONTROL 영구적 쿠키]**&#x200B;를 선택하십시오.
 
 아래의 세부 정보와 그래프에서는 영구적 쿠키와 비영구적 쿠키 방문자를 모두 보여 줍니다. 대개 비영구적 쿠키 방문자의 수는 무시해도 될 정도입니다.
