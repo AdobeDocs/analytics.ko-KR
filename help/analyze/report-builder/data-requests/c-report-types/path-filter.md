@@ -1,11 +1,10 @@
 ---
 description: 경로 지정 보고서에 필터를 적용하는 단계에 대해 설명합니다.
-solution: Analytics
 title: 요청 마법사를 사용하여 경로 보고서 필터링
 topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
