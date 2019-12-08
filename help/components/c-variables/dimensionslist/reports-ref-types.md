@@ -1,18 +1,17 @@
 ---
-description: 각 방문에 대해 방문자의 참조 사이트를 추적 및 기록하여 방문자가 각 방문에 대해 사이트에 대해 어떻게 발견했는지 알 수 있습니다.
-solution: Analytics
+description: 방문할 때마다 방문자의 조회 사이트를 추적하여 기록하면 방문자가 방문하는 동안 사이트에 관해 어떻게 검색하는지 알 수 있습니다.
 title: 레퍼러 유형
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 레퍼러 유형
 
-각 방문에 대해 방문자의 참조 사이트를 추적 및 기록하여 방문자가 각 방문에 대해 사이트에 대해 어떻게 발견했는지 알 수 있습니다.
+방문할 때마다 방문자의 조회 사이트를 추적하여 기록하면 방문자가 방문하는 동안 사이트에 관해 어떻게 검색하는지 알 수 있습니다.
 
 아래 목록은 다양한 유형의 레퍼러를 정의합니다.
 
@@ -22,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL 소셜 네트워크]**: 참조 값은 Adobe에서 소셜 네트워크로 간주되어야 합니다. [소셜 네트워크 목록](https://helpx.adobe.com/analytics/kb/list-social-networks.html)을 참조하십시오.
 
-**이메일**:참조 도메인은 방문자가 프로토콜을 포함하는 이메일 메시지 링크를 클릭하거나 사이트에 도달하면 이메일 참조 도메인으로 [!DNL imap://] 간주됩니다 [!DNL mail://] . 예를 들어 [!DNL https://mail.yahoo.com]에서 오는 모든 것은 프로토콜이 [!DNL https://]://이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
+**이메일**: 참조 도메인은 방문자가 프로토콜 [!DNL imap://] 또는 [!DNL mail://]이 포함된 이메일 메시지 링크를 클릭하고 사이트에 도달하면 이메일 참조 도메인으로 취급합니다. 예를 들어 [!DNL https://mail.yahoo.com]에서 오는 모든 것은 프로토콜이 [!DNL https://]://이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
 
-**입력/책갈피 표시**:레퍼러는 방문자가 사이트의 URL을 브라우저에 직접 입력할 때 또는 책갈피를 선택하여 사이트에 액세스하는 경우 기록됩니다. 모바일 장치는 방문의 첫 번째 히트에 레퍼러가 없는 *`typed/bookmarked`* 경우 레퍼러 유형을 보고합니다.
+**입력/책갈피 표시**: 레퍼러는 방문자가 사용자 사이트의 URL을 브라우저에 직접 입력할 때 또는 책갈피를 선택하여 사이트에 액세스하는 경우 기록됩니다. 모바일 장치는 방문의 첫 번째 히트에 레퍼러가 없는 경우 *`typed/bookmarked`*&#x200B;의 레퍼러 유형을 보고합니다.
 
-**[!UICONTROL 사이트 내부]**: 이러한 항목은 내부 URL 필터에서 태그가 지정된 항목입니다. These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
+**[!UICONTROL 사이트 내부]**: 이러한 항목은 내부 URL 필터에서 태그가 지정된 항목입니다. 이러한 항목은 *`referrer instances`*&#x200B;로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
 
 ## 인터페이스별 레퍼러 유형 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
