@@ -1,11 +1,10 @@
 ---
 description: 이전 섹션 흐름 보고서는 이전 페이지 흐름 보고서와 유사합니다. 사이트 섹션(관련 웹 페이지 그룹)에 대한 데이터를 표시합니다. 페이지가 하나의 사이트 섹션에 여러 번 포함되는 경우 이 보고서는 모든 사이트 섹션의 데이터를 표시합니다.
-solution: Analytics
 title: 이전 섹션 흐름
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
