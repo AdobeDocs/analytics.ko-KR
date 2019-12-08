@@ -1,11 +1,10 @@
 ---
 description: 방문자의 브라우저에서 언어 설정을 캡처하여, 언어 설정과 관련된 매출액 및 고유 방문자 수를 확인할 수 있습니다. 기본 설정된 언어가 사이트의 성공 지표에 미치는 영향을 알면 다른 언어로 사이트를 제공하는 방법을 결정할 수 있습니다. 예를 들어 많은 독일어 고객이 사이트에서 장바구니 활동을 하는 경우 사이트를 해당 언어로 번역하고 독일 사이트에 트래픽을 집중하는 마케팅 캠페인을 구현할 수 있습니다.
-solution: Analytics
 title: 언어
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL 방문자 프로필]** &gt; **[!UICONTROL 언어]**
 
-Adobe에서는 이 보고서를 http 헤더 요청의 수락 언어 부분을 기반으로 채우고 있습니다. 언어 수락 HTTP 헤더는 각 브라우저의 언어 기본 설정의 일부로 구성됩니다.
+Adobe에서는 이 보고서를 http 헤더 요청의 수락 언어 부분을 기반으로 채우고 있습니다. 언어 수락 HTTP 헤더는 각 브라우저의 언어 기본 설정의 일부로서 구성됩니다.
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
