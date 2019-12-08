@@ -1,32 +1,31 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
-title: 분석 작업 공간 개요
+title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 분석 작업 공간 개요
+# Analysis Workspace 개요
 
 Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 제한이 적용되지 않습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 비교하고, 플로우 및 폴아웃 분석을 하고, 회사 동료와 공유할 보고서를 조정 및 예약하십시오.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 작업 영역]**
+**[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**
 
-## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 개요 비디오 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
 >[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
 
-전체 Youtube 재생 목록은 [여기](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)에서 사용할 수 있습니다.
+전체 YouTube 재생 목록은 [여기](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)에서 사용할 수 있습니다.
 
 >[!NOTE]
 >
->See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
+>기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
 
-## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## 프로젝트 요소 및 구성 요소에 대한 모든 권한 {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
 Analysis Workspace에서는 다음과 같은 작업을 자유롭고 유연하게 수행할 수 있습니다.
 
@@ -38,7 +37,7 @@ Analysis Workspace에서는 다음과 같은 작업을 자유롭고 유연하게
 
 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)를 참조하십시오.
 
-## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
+## 프로젝트에 있는 여러 가지 시각화 {#section_B7670740C2D44130B21DAF0873280DA5}
 
 프로젝트에 시각화를 원하는 만큼 드래그하여 놓으십시오.
 
@@ -48,11 +47,11 @@ Analysis Workspace에서는 다음과 같은 작업을 자유롭고 유연하게
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
+자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)를 참조하십시오.
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## 패널 및 시각화에 대한 인트라 링크 {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. "패널 링크 가져오기" 및 "시각화 링크 가져오기"라는 새로운 마우스 오른쪽 단추 클릭 옵션이 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
+Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace/visualizations/text.md) 기능을 함께 사용하면 프로젝트 컨텐츠를 작성하는 것처럼 텍스트 상자에서 프로젝트 내의 특정 패널 및 시각화에 연결할 수 있습니다. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 선택 사항인 "패널 링크 가져오기" 및 "시각화 링크 가져오기"가 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
 
 1. 텍스트 시각화를 프로젝트 내의 맥락이 필요한 시각화 또는 테이블 옆으로 드래그합니다.
 1. 예를 들어 목차로 텍스트 상자를 채운 다음 패널이나 시각화에 연결할 항목(예: 성공 지표)을 강조 표시합니다.
@@ -60,7 +59,7 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
    ![](assets/intra-linking1.png)
 
 1. 해당 패널 또는 시각화로 스크롤하고 패널의 헤더를 마우스 오른쪽 버튼으로 클릭합니다.
-1. Scroll down and select **[!UICONTROL Get Panel Link]** or **[!UICONTROL Get Visualization Link]**:
+1. 아래로 스크롤하여 **[!UICONTROL 패널 링크 가져오기]** 또는 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 선택하십시오.
 
    ![](assets/intra-linking2.png)
 
@@ -68,29 +67,29 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 프로젝트 내에서 패널 또는 시각화가 축소된 경우 링크를 클릭하면 패널/시각화가 확장되어 사용자가 볼 수 있습니다.
 
-> [!NOTE] 이 기능은 설명 편집 **[!UICONTROL 마우스 오른쪽 단추 클릭]** 옵션 내에서 사용할 수도 있습니다.
+> [!NOTE] 이 기능은 **[!UICONTROL 설명 편집]** 오른쪽 클릭 선택 사항에서 사용할 수도 있습니다.
 
-## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 기타 프로젝트에 대한 링크 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** &gt; **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+예를 들어, **[!UICONTROL 공유]** &gt; **[!UICONTROL 프로젝트 링크 가져오기]**&#x200B;로 이동하여 이 링크를 프로젝트 설명에 포함시키면 사용자가 관심이 있는 기타 프로젝트에 사용자를 연결할 수 있습니다.
 
-## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 선택한 셀의 다이내믹 시각화 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
 개별 셀을 선택하고 시각화 표현들의 변화를 다이내믹하게 볼 수 있습니다. 선택한 셀로 시각화를 [동기화하고 잠그십시오.](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C)
 
 ![](assets/visualize-selected-cells.png)
 
-## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
+## 선택 항목 또는 위치 잠금 {#section_9D66A001586F49CEB0C565581E44957C}
 
 시각화를 잠그면 시각화에 해당하는 자유 형식 데이터 테이블 소스를 제어할 수 있습니다.
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+[데이터 소스 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)를 참조하십시오.
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 선택한 셀에서 트렌드 시각화 {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-선택한 셀에서 시각화를 만들어 보십시오. (Right-click &gt; **[!UICONTROL Trend Selection]**.)
+선택한 셀에서 시각화를 만들어 보십시오. 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 트렌드 선택]**&#x200B;을 선택합니다.
 
 ![](assets/trend-selection.png)
 
@@ -98,15 +97,15 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 
 ![](assets/trend-selection2.png)
 
-## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## 차원 및 차원 항목 분류 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
 
 소매업자의 경우, 고객을 더 잘 참여시키는 방법을 알기 위해 그 어느 때보다 더 캠페인에 깊이 관여할 수 있습니다. 구체적인 필요 사항들을 위해 원하는 방법으로 데이터를 분류할 수 있습니다. 적절한 지표, 차원, 세그먼트, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성해 보십시오.
 
 ![단계 결과](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+[차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 
-## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
+## 테이블 선택의 세그먼트 {#section_73BC3688089B426D969B3D5B606DA970}
 
 자유 형식 테이블에서 셀을 선택하고 선택 내용에서 세그먼트를 만듭니다.
 
@@ -118,20 +117,20 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-자세한 내용은 [세그먼트](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+자세한 내용은 [세그먼트](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)를 참조하십시오.
 
-## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
+## 프로젝트 및 구성 요소 태깅 {#section_F54D688132A541F2982326D5E022B90D}
 
 Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 수 있습니다.
 
-* [정보] 패널에서 프로젝트 수준 태그를 적용하거나 만들 수 있습니다. (![)](assets/information_icon.png)
+* 정보 패널에서 프로젝트 수준 태그를 적용하거나 만들 수 있습니다. (![](assets/information_icon.png)
 
 * 구성 요소를 마우스 오른쪽 단추로 클릭하여 [구성 요소] 패널에서 태그를 지정합니다.(또는 태그를 만듭니다.)
 * [검색] 필드에 #를 사용하여 태그를 찾습니다.
 
-## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## 구성 요소 작업 {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-구성 요소 왼쪽 레일의 위쪽에 있는 작업 메뉴에서 구성 요소 수준의 작업을 수행합니다. 구성 요소를 선택하고 **[!UICONTROL 작업]을 클릭하여 작업을 봅니다.**
+구성 요소 왼쪽 레일의 위쪽에 있는 작업 메뉴에서 구성 요소 수준의 작업을 수행합니다. 구성 요소를 선택하고 **[!UICONTROL 작업]**&#x200B;을 클릭하여 작업을 봅니다.
 
 | 구성 요소 작업 | 설명 |
 |--- |--- |
@@ -141,9 +140,9 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 | 공유 | 세그먼트에만 적용됩니다. |
 | 삭제 | 세그먼트에만 적용됩니다. |
 
-자세한 [내용은](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 시각화를 참조하십시오.
+자세한 내용은 [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 참조하십시오.
 
-## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 추가 기능 설명 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
 **드래그 및 스택할 수 있는 사항**
 
@@ -164,7 +163,7 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 * 날짜 범위 사전 설정 정렬(사용자 지정 날짜 범위를 포함하지 않습니다.)
 * 열을 Ctrl(또는 Command) + 클릭 + 드래그하면 열이 복사되며, 복사본을 드래그하면 테이블에서 새 위치로 붙여넣기가 됩니다.
 
-See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
+자세한 내용은 [Analysis Workspace에서 사용할 수 있는 핫키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 참조하십시오.
 
 **선택 및 작업**
 
