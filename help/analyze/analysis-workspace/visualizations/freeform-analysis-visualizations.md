@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace에서 시각화 및 시각화 설정에 대해 알아봅니다.
 keywords: Analysis Workspace
-solution: Analytics
 title: 시각화 개요
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,23 +14,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace에서 시각화 및 시각화 설정에 대해 알아봅니다.
 
-[YouTube 분석 작업 공간의 시각화](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) 유형(2:57)
+[Analysis Workspace 시각화 유형 - YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:57)
 
-## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## 시각화 패널 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-시각화 패널을 표시하려면 사이드 패널에서 **[!UICONTROL 시각화]를 클릭합니다.**
+시각화 패널을 표시하려면 사이드 패널에서 **[!UICONTROL 시각화]**&#x200B;를 클릭합니다.
 
 ![단계 결과](assets/visualizations.png)
 
 Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적, 막대, 도넛 및 라인 차트)에 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
-## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## 시각화 설정 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
 [!UICONTROL 시각화 설정]에 액세스하려면 시각화를 [!UICONTROL 자유 형식 패널]로 드래그한 다음 [!UICONTROL 시각화 설정] 톱니바퀴 아이콘을 클릭합니다. 
 
 >[!IMPORTANT]
 >
->시각화 설정에 따라 시각화가 표시됩니다. 모든 설정이 모든 시각화에 적용되는 것은 아닙니다. 또한 일부 고급 설정은 [히스토그램 설정](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)과 같은 특정 시각화에 대해서&#x200B;**만** 표시됩니다.
+>표시되는 시각화 설정은 시각화에 따라 다릅니다. 모든 설정이 모든 시각화에 적용되는 것은 아닙니다. 또한 일부 고급 설정은 [히스토그램 설정](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)과 같은 특정 시각화에 대해서&#x200B;**만** 표시됩니다.
 
 ![](assets/visualization_settings.png)
 
@@ -65,11 +64,11 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
   </tr> 
   <tr> 
    <td colname="col1"> <p>표준화 </p> </td> 
-   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. 표준화를 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  >표준화</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이중 축 표시 </p> </td> 
-   <td colname="col2"> <p>두 개의 지표가 있는 경우에만 적용됩니다. 한 지표의 경우 왼쪽(한 지표의 경우)과 오른쪽(다른 지표의 경우)에 y축을 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>예외 항목 표시 </p> </td> 
@@ -78,13 +77,13 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
  </tbody> 
 </table>
 
-## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## 시각화 만들기 아이콘 {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-어떤 시각화를 선택해야 할지 모를 경우 테이블 행에서 **[!UICONTROL 시각화 만들기]아이콘을 클릭합니다.** 이 아이콘은 테이블 행 위로 마우스를 가져가면 나타납니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 최대 3개의 세그먼트를 선택한 경우 벤 다이어그램이 생성됩니다. 세그먼트가 4개 이상이면 막대 차트가 생성됩니다. 다른 유형의 데이터에서는 선 그래프가 생성될 수 있습니다.
+어떤 시각화를 선택해야 할지 모를 경우 테이블 행에서 **[!UICONTROL 시각화 만들기]** 아이콘을 클릭합니다. 이 아이콘은 테이블 행 위로 마우스를 가져가면 나타납니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 최대 3개의 세그먼트를 선택한 경우 벤 다이어그램이 생성됩니다. 세그먼트가 4개 이상이면 막대 차트가 생성됩니다. 다른 유형의 데이터에서는 선 그래프가 생성될 수 있습니다.
 
 ![](assets/create-visual.png)
 
-## Right-click visualization/panel menu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## 시각화/패널 메뉴를 마우스 오른쪽 단추로 클릭 {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 시각화 또는 패널 헤더 옆을 마우스 오른쪽 단추로 클릭하면 그래프와 관련된 설정에 액세스할 수 있습니다. 다음 설정 중 일부 또는 전체를 사용할 수 있게 됩니다. 
 
@@ -104,7 +103,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 | 시각화 링크 가져오기 | 이 링크를 복사하고 공유하여 다른 사용자를 이 시각화로 직접 보낼 수 있습니다. 사용자는 로그인해야 합니다. |
 | 시작 | (흐름, 벤, 히스토그램에 대해 작동하게 됨) 현재 시각화에 대한 구성이 삭제되고, 다시 구성할 수 있는 새 패널이 열립니다.  |
 
-## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## 범례 레이블 편집 {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 시각 자료를 더욱 잘 소비하게 만들 수 있도록 시각화 범례(폴아웃, 영역, 스택 영역, 막대, 스택 막대, 도넛, 막대 그래프, 가로 막대, 스택 가로 막대, 라인, 분산형 및 벤)에서 시리즈 이름을 바꿀 수 있습니다.
 
@@ -118,6 +117,6 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
    ![](assets/edit-label.png)
 
 1. 새 레이블 텍스트를 입력합니다.
-1. **[!UICONTROL Enter]를 눌러 저장합니다.**
+1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
 
-다음은 이 항목의 ](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)비디오에 대한 링크[입니다.
+다음은 이 항목의 [비디오에 대한 링크](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)입니다.
