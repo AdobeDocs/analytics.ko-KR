@@ -1,13 +1,12 @@
 ---
 description: 사용자가 사이트에 마지막으로 방문한 후로 지난 일 수를 결정하고 이 정보를 Analytics 변수로 캡처합니다.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getDaysSinceLastVisit
 topic: Developer and implementation
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,10 +19,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >[이제 분석 작업](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 공간에 **[!UICONTROL 지난 방문]** 이후의 일 수 차원이 포함되어 있으므로 이 플러그인의 필요성을 무효화합니다.
 
-이 재방문 주기 데이터를 사용하여 다음과 같은 질문에 대답할 수 있습니다.
+이 반환 주기 데이터를 사용하여 다음과 같은 질문에 대답할 수 있습니다.
 
 * 사용자가 내 사이트를 얼마나 자주 다시 방문합니까?
-* 재방문 주기와 전환 사이에는 어떤 상관 관계가 있습니까? 반복 구매자들은 자주 방문하는 편입니까 가끔 방문하는 편입니까?
+* 반환 주기와 전환 사이에는 어떤 상관 관계가 있습니까? 반복 구매자들은 자주 방문하는 편입니까 가끔 방문하는 편입니까?
 * 캠페인 클릭스루로 방문한 사용자는 자주 돌아옵니까?
 
 플러그인이 세그먼테이션에 사용된 값을 생성할 수도 있습니다. 예를 들어, 세그먼트를 생성한 후 30일 이상 방문하지 않고 있던 사용자의 방문에 대한 데이터만 모두 볼 수도 있습니다.
