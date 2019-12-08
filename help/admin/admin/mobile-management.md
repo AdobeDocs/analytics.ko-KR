@@ -1,11 +1,10 @@
 ---
 description: 모바일 관리를 활성화하면 모바일 애플리케이션에서 라이프사이클 및 기타 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
-solution: Analytics
 title: 모바일 관리
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Adobe Analytics와 Mobile Services 간의 통합은
 * 새로운 Adobe Mobile 차원을 추가합니다.
 * 데이터가 15분마다 Analytics에 동기화됩니다
 
-**[!UICONTROL Analytics]** 관리 **[!UICONTROL &gt;]** 보고서 **[!UICONTROL 세트]** &gt; **[!UICONTROL 보고서 세트]** 편집 설정 **** ****&gt; Mobile Management &gt; 애플리케이션 보고.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 모바일 관리]** &gt; **[!UICONTROL 모바일 애플리케이션 보고]**.
 
 ## 1단계. 앱 보고서 활성화 {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -44,12 +43,12 @@ Adobe Analytics와 Mobile Services 간의 통합은
 * Mobile Services 내의 특정 관심 영역(POI)을 식별, 생성 및 시각화. POI는 모바일 SDK 구성 파일에 정의되어 있어야 합니다.
 * 블루투스 비콘(UUID, 주, 보조 및 근접) 추적.
 
-## 3단계. (선택 사항) 배경 조회에 대한 이전 보고 및 속성 활성화/비활성화 {#section_1708BCAA87AA4884986F7532759C5DD4}
+## 3단계. (선택 사항) 백그라운드 히트에 대해 이전 보고 및 속성 활성화/비활성화 {#section_1708BCAA87AA4884986F7532759C5DD4}
 
 활성화된 배경 조회(앱이 배경에 있을 때 생성되는 조회)는 일반적인 전경 조회로 취급된다는 의미입니다. 이제 이러한 조회가 일반적인 보고에 표시되며 이는 속성에 영향을 줍니다. 이 구성은 일반적으로 이전 구현과의 일관성을 유지하는 경우에만 바람직합니다.
 
-Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). 이렇게 하면 조회수를 볼 수는 있지만 조회수가 방문 및 방문자 수에 부정적인 영향을 미치지는 않습니다.
-Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+대신 [가상 보고서 세트](/help/components/vrs/vrs-about.md)에 "배경 조회수"를 포함하는 것이 좋습니다. 이렇게 하면 조회 수를 볼 수는 있지만 조회 수가 방문 및 방문자 수에 부정적인 영향을 미치지는 않습니다.
+모바일 분류는 **[!UICONTROL 모바일 관리]** &gt; **[!UICONTROL 모바일 애플리케이션 보고]**&#x200B;를 활성화하면 활성화됩니다.
 
 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어, 모든 유료 검색 캠페인을 "팝 뮤직 용어" 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
 
