@@ -1,12 +1,11 @@
 ---
 description: 페이지 로드 시간을 10분의 1초 단위로 파악하고 값을 prop, eVar 및/또는 숫자 이벤트로 저장할 수 있습니다.
 keywords: Analytics Implementation
-solution: Analytics
 title: getLoadTime
 topic: Developer and implementation
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
