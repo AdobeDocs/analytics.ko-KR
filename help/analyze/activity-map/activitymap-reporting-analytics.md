@@ -1,11 +1,10 @@
 ---
 description: Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 방법에 대해 설명합니다.
-solution: Analytics
 title: Analytics에서의 Activity Map 보고
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 
 [차원에 대한 사용자 액세스를 세분화된 수준에서 사용자 정의](https://marketing.adobe.com/resources/help/en_US/reference/groups-dimensions.html)할 수 있습니다. 다음은 Analytics에서 사용할 수 있는 Activity Map 차원입니다.
 
-| 측정기준 | 설명 |
+| 차원 | 설명 |
 |---|---|
 | Activity Map 페이지 | 링크를 클릭한 페이지를 나열합니다. |
 | Activity Map 영역 | 전체 웹 사이트에서 수집한 모든 링크 영역을 나열합니다. 영역이 여러 페이지에 나타나는 경우, 지표가 모든 해당 페이지에 대해 집계됩니다. |
