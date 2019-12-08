@@ -1,12 +1,11 @@
 ---
 description: DFA 및 Adobe® 수집 서버가 통신할 수 있으면 보고 및 분석에서 DFA 데이터가 포함된 보고서를 생성할 수 있습니다.
 keywords: DFA
-solution: Analytics
 title: DFA 데이터를 사용하는 Analytics Reports
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
