@@ -1,11 +1,10 @@
 ---
 description: Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필터링 방법
-solution: Analytics
 title: 세그먼트 관리
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -72,7 +71,7 @@ Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 또는 Data Warehouse�
 | 태그 | 특정 태그가 있는 세그먼트만 필터링할 수 있습니다. 태그 필터는 AND 연산자를 사용합니다. 두 태그를 선택하면 오른쪽 창에 **두** 태그가 모두 지정된 세그먼트가 표시됩니다. |
 | 소유자 | 소유자별로 세그먼트를 필터링할 수 있습니다. 소유자 필터는 OR 연산자를 사용합니다. 두 명의 소유자를 선택하면 오른쪽 창에 **둘 중 하나의** 소유자가 소유한 세그먼트가 표시됩니다. |
 | 기타 필터 &gt; *보고서 세트 이름*&#x200B;만 | If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL report builder], the Advanced filter will display the segment for the selected report suite only. |
-| 기타 필터 &gt; 내 세그먼트 | 소유한 모든 세그먼트를 표시합니다. |
+| 기타 필터 &gt; 내 소유 | 소유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 &gt; 나와 공유 | 다른 사람이 사용자와 공유한 모든 세그먼트를 표시합니다. |
 | 기타 필터 &gt; 즐겨찾기 | 즐겨찾기로 표시한 모든 세그먼트를 표시합니다. |
 | 기타 필터 &gt; 승인됨 | 공식적으로 승인한 모든 세그먼트를 표시합니다. |
@@ -115,7 +114,7 @@ Report Builder 5.4에서는 여러 요청에 대해 세그먼트 추가, 제거,
 
    | 옵션 | 설명 |
    |---|---|
-   | 세그먼트 추가 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
+   | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에  세그먼트 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
    | 세그먼트 바꾸기 | 한 개 이상의 세그먼트로 교체할 세그먼트를 선택합니다. |
    | 다음으로 모든 세그먼트를 바꾸기 | 현재 세그먼트를 대체할 한 개 이상의 세그먼트를 선택합니다. |
    | 세그먼트 제거 | 요청에서 세그먼트를 제거합니다. |
