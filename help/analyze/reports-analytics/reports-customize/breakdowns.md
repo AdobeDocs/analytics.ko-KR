@@ -1,11 +1,10 @@
 ---
 description: 보고서 항목 또는 세그먼트가 다른 보고서와 관련되는 방식에 대해 자세히 알아보려면 분류를 사용하십시오. 이 보고서를 다른 보고서별로 "분류"라고 합니다.
-solution: Analytics
 title: 분류
 topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
