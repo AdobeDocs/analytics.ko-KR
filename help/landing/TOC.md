@@ -4,14 +4,14 @@ audience: all
 user-guide-title: Analytics Documentation
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: e95673ff669b395ce942d6a0ccd644221c3d9381
+source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
 
 
 # Analytics 설명서 {#landing}
 
-+ [홈](home.md)
+* [홈](home.md)
 * [Analytics 주요 개념](an-key-concepts.md)
 * [도구 안내서](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
 * [관리 가이드](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
