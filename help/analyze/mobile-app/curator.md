@@ -2,7 +2,7 @@
 description: 모바일 앱 성과 기록표 설정에 대한 지침입니다.
 title: Adobe Analytics 모바일 앱 큐레이터 가이드
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -191,8 +191,6 @@ Scorecard를 공유한 후 수신자가 Analytics 모바일 앱에서 액세스�
    **Android의 경영진**
 
    1. 사용자의 장치에서 다음 스토어 재생 링크를 누릅니다(도구 &gt; 모바일 앱의 **Analytics에서도** 사용할 수 **있습니다**).
-
-
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       링크를 탭한 후 다음 화면에서 테스터로 만들기 링크를 누릅니다.
@@ -200,12 +198,10 @@ Scorecard를 공유한 후 수신자가 Analytics 모바일 앱에서 액세스�
       ![스토어 재생 화면](assets/play.png)
 
    2. 다음 화면에서 Google Play에서 **다운로드** 링크를 누릅니다.
-
       ![다운로드 링크](assets/playnext.png)
 
    3. 앱을 다운로드하여 설치합니다.
-   경영진 사용자는 다운로드 및 설치되면 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다.adobe는 Adobe 및 Enterprise/Federated ID를 모두 지원합니다.
-
+경영진 사용자는 다운로드 및 설치되면 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다.adobe는 Adobe 및 Enterprise/Federated ID를 모두 지원합니다.
    ![앱 시작 화면](assets/welcome.png)
 
 2. Scorecard에 액세스할 수 있도록 지원합니다. 경영진 사용자가 앱에 로그인하면 회사 **선택** 화면이 나타납니다. 이 화면에는 경영진 사용자가 속한 로그인 회사가 나열됩니다. Scorecard에 도달하는 데 도움이 되는 방법은 다음과 같습니다.
