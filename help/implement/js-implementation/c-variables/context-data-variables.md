@@ -19,14 +19,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 컨텍스트 데이터 변수는 대/소문자를 구분하지 않습니다. 예를 들어 다음 2개 변수는 사실상 동일합니다.
 >
+
 ```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->```
->및
 >
 ```
+
+>및
+>
+
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```
+>
+```
 
 컨텍스트 데이터를 사용하면 다른 보고서 세트 구성을 지원하기 위해 코드를 업데이트하는 것이 방지됩니다.
 
