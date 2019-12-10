@@ -2,14 +2,14 @@
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
 
 
 # Adobe Analytics 설명서
 
-Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. 분석 작업 공간, 보고서 빌더, 보고 API, 데이터 워크벤치 [!UICONTROL ,]Activity Map [!UICONTROL 등과 같은 보고 도구에]대한 [!UICONTROL 자체 도움말 및 지원]정보를 [!UICONTROL 찾을 수]있습니다. 제품 및 사용자 관리, 구현 및 Adobe Analytics에서 지원되는 모든 기능에 대한 설명서도 액세스할 수 있습니다.
+Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. 여기에서 분석 작업 공간, 리포트 빌더, 보고 API, 데이터 워크벤치 [!UICONTROL ,]Activity [!UICONTROL Map]등과 같은 보고 도구에 대한 자체 도움말 및 지원 정보를 [!UICONTROL 찾을 수]있습니다. 제품 및 사용자 관리, 구현 및 Adobe Analytics에서 지원되는 모든 기능에 대한 설명서도 액세스할 수 있습니다.
 
 [![도구](assets/analyze_50px.png)](/help/analyze/home.md)분석[도구](/help/analyze/home.md) 안내서 [- Analytics용](/help/analyze/analysis-workspace/home.md)최고의 분석 및 시각화 도구인 분석 작업 공간에 액세스할 수 있습니다. 또한 Adobe Analytics에서 사용할 수 있는 모든 분석 도구([!UICONTROL 보고서]빌더 [!UICONTROL , 보고 API,]데이터 워크벤치 [!UICONTROL 및]Activity Map)를제공합니다.
 
