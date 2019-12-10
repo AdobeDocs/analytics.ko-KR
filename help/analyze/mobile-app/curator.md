@@ -175,34 +175,35 @@ Scorecard를 공유한 후 수신자가 Analytics 모바일 앱에서 액세스�
 
    **iOS의 경영진:**
 
-   1. 다음 공개 링크를 클릭합니다(도구 &gt; 모바일 앱의 **Analytics에서도** 사용할 수 **있습니다**).
+    1. 다음 공개 링크를 클릭합니다(도구 &gt; 모바일 앱의 **Analytics에서도** 사용할 수 **있습니다**).
 
-      [iOS 링크](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+        [iOS 링크](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
-      링크를 클릭하면 다음과 같은 테스트 플라이트 화면이 나타납니다.
+        링크를 클릭하면 다음과 같은 테스트 플라이트 화면이 나타납니다.
 
-      ![테스트 플라이트 화면](assets/testflight1.png)
+        ![테스트 플라이트 화면](assets/testflight1.png)
 
-   2. 화면의 **App Store에서** 보기 링크를 눌러 Testflight 앱을 다운로드합니다.
+    2. 화면의 **App Store에서** 보기 링크를 눌러 Testflight 앱을 다운로드합니다.
 
-   3. Testflight 앱을 설치한 후 아래와 같이 Testflight 내에서 Adobe Analytics Mobile 앱을 찾아 설치합니다.
+    3. Testflight 앱을 설치한 후 아래와 같이 Testflight 내에서 Adobe Analytics Mobile 앱을 찾아 설치합니다.
 
-      ![테스트 플라이트 화면](assets/testflight2.png)
+        ![테스트 플라이트 화면](assets/testflight2.png)
+        
    **Android의 경영진**
 
-   1. 사용자의 장치에서 다음 스토어 재생 링크를 누릅니다(도구 &gt; 모바일 앱의 **Analytics에서도** 사용할 수 **있습니다**).
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+    1. 사용자의 장치에서 다음 스토어 재생 링크를 누릅니다(도구 &gt; 모바일 앱의 **Analytics에서도** 사용할 수 **있습니다**).
+        [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-      링크를 탭한 후 다음 화면에서 테스터로 만들기 링크를 누릅니다.
+        링크를 탭한 후 다음 화면에서 테스터로 만들기 링크를 누릅니다.
 
-      ![스토어 재생 화면](assets/play.png)
+        ![스토어 재생 화면](assets/play.png)
 
-   2. 다음 화면에서 Google Play에서 **다운로드** 링크를 누릅니다.
-      ![다운로드 링크](assets/playnext.png)
+    2. 다음 화면에서 Google Play에서 **다운로드** 링크를 누릅니다.
+        ![다운로드 링크](assets/playnext.png)
 
-   3. 앱을 다운로드하여 설치합니다.
-경영진 사용자는 다운로드 및 설치되면 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다.adobe는 Adobe 및 Enterprise/Federated ID를 모두 지원합니다.
-   ![앱 시작 화면](assets/welcome.png)
+    3. 앱을 다운로드하여 설치합니다.
+    경영진 사용자는 다운로드 및 설치되면 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다.adobe는 Adobe 및 Enterprise/Federated ID를 모두 지원합니다.
+    ![앱 시작 화면](assets/welcome.png)
 
 2. Scorecard에 액세스할 수 있도록 지원합니다. 경영진 사용자가 앱에 로그인하면 회사 **선택** 화면이 나타납니다. 이 화면에는 경영진 사용자가 속한 로그인 회사가 나열됩니다. Scorecard에 도달하는 데 도움이 되는 방법은 다음과 같습니다.
 
