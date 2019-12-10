@@ -5,7 +5,7 @@ title: 사용자 및 제품 관리
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
 
@@ -30,7 +30,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics 사용자 ID를 Admin Console로 마이그레이션 </p> </td> 
-   <td colname="col2"> <p> Adobe는 Analytics 관리자가 사용자 ID를 Adobe Admin Console로 마이그레이션하도록 지원합니다. 이러한 지원은 신속하게 이루어질 것입니다. 여러분이 사용자를 마이그레이션해야 하는 경우 Adobe는 이메일로 Analytics 관리자에게 지침을 알려줍니다. 이 시점에서 이 작업을 간소화하기 위해 Analytics 사용자 관리에서 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">마이그레이션 도구</a>를 사용할 수 있습니다. </p> <p>중요: 이전의 권한 그룹은 사용자의 마이그레이션 당일 자동으로 Admin Console에 복사됩니다. 더 이상 Analytics 관리 도구에서 새 사용자를 초대하거나 새 그룹을 만들 수 없게 됩니다. 마이그레이션을 준비하는 방법과 영향을 받는 관리 기능에 대해서는 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Admin Console로 Analytics 사용자 마이그레이션</a>의 FAQ 및 도움말을 검토하십시오. </p> </td> 
+   <td colname="col2"> <p> Adobe는 Analytics 관리자가 사용자 ID를 Adobe Admin Console로 마이그레이션하도록 지원합니다. 이러한 지원은 신속하게 이루어질 것입니다. 여러분이 사용자를 마이그레이션해야 하는 경우 Adobe는 이메일로 Analytics 관리자에게 지침을 알려줍니다. 이 시점에서 이 작업을 간소화하기 위해 Analytics 사용자 관리에서 <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">마이그레이션 도구</a>를 사용할 수 있습니다. </p> <p>중요: 이전의 권한 그룹은 사용자의 마이그레이션 당일 자동으로 Admin Console에 복사됩니다. 더 이상 Analytics 관리 도구에서 새 사용자를 초대하거나 새 그룹을 만들 수 없게 됩니다. 마이그레이션을 준비하는 방법과 영향을 받는 관리 기능에 대해서는 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Admin Console로 Analytics 사용자 마이그레이션</a>의 FAQ 및 도움말을 검토하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console 실행 </p> </td> 
