@@ -3,7 +3,7 @@ description: 데이터 개인 정보 보호에서 개인 정보 보호 보고를
 title: 개인 정보 보호 보고 변수
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
+source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
 
 ---
 
