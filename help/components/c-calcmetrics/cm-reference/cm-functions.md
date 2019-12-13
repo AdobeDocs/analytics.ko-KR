@@ -1,26 +1,20 @@
 ---
 description: '[계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.'
-title: 기본 함수 참조
+title: 참조  기본 함수
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # 참조: 기본 함수
 
-<!-- 
-
-cm_functions.xml
-
- -->
-
 [계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.
 
 다음은 함수 및 그 정의를 알파벳 순서로 나열한 것입니다.
 
-> [!NOTE] 함수에서 인수로 식별되는 [!DNL metric] 경우 지표의 다른 표현식도 허용됩니다. 예를 들어, [!DNL MAXV(metrics)][!DNL MAXV(PageViews + Visits).]
+> [!NOTE] [!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits).]에도 허용됩니다.
 
 ## 테이블 함수 대 행 함수 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -103,7 +97,7 @@ EXP(metric)
 거듭제곱 연산자
 
 <pre>
-pow(x,y) =<sup>xy</sup> = x*x*x*...(y 시간)
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y회)
 </pre>
 
 ## 평균(테이블) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -156,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## 백분위수(테이블) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-지표에 대한 값들의 k번째 백분위수를 반환합니다. 이 함수를 사용하여 허용되는 임계값을 설정할 수 있습니다. 예를 들어, 90백분위수를 초과하는 점수 요소를 검사하기로 결정할 수 있습니다.
+지표에 대한 값들의 k번째 백분위수를 반환합니다. 이 함수를 사용하여 허용되는 임계값을 설정할 수 있습니다. 예를 들어 스코어가 90번째 백분위수를 넘는 차원 요소를 검사하기로 결정할 수 있습니다.
 
 ```
 PERCENTILE(metric,k)
@@ -208,11 +202,11 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-**quart* = 0일 경우, QUARTILE은 최소값을 반환합니다. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). *quart* = 4일 경우에는, QUARTILE이 최대값을 반환합니다.
+**quart* = 0일 경우, QUARTILE은 최소값을 반환합니다. *quart* = 1일 경우, QUARTILE은 첫 번째 사분위수(25번째 백분위수)를 반환합니다. *quart* = 2일 경우, QUARTILE은 첫 번째 사분위수(50번째 백분위수)를 반환합니다. *quart* = 3일 경우, QUARTILE은 첫 번째 사분위수(75번째 백분위수)를 반환합니다. *quart* = 4일 경우에는, QUARTILE이 최대값을 반환합니다.
 
 ## 라운드 {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-주어진 값에 가장 가까운 정수를 반환합니다. 예를 들어, 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 Round(*매출*)을 사용하여 매출을 가장 근접한 달러 또는 $569로 반올림하십시오. $569.51로 보고되는 제품은 가장 가까운 달러인 $570으로 반올림됩니다.
+주어진 값에 가장 가까운 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 Round(*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 반올림하십시오. $569.51로 보고되는 제품은 가장 가까운 달러인 $570으로 반올림됩니다.
 
 ```
 ROUND(metric)
@@ -233,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## 행 수 {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-주어진 열에 대한 행 수(차원 내에서 보고된 고유 요소의 수)를 반환합니다."고유 수가 초과되었습니다"는 1로 계산됩니다.
+주어진 열에 대한 행 수(차원 내에서 보고된 고유 요소 수)를 반환합니다. "고유 수 초과"는 1로 집계됩니다.
 
 ## 행 최대값 {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -322,7 +316,7 @@ VARIANCE(metric)
 
 3
 
-이 열의 평균은 2입니다. 열의 차이는 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다. Ad Hoc Analysis에서는 다음과 같이 표시됩니다.
+이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다. Ad Hoc Analysis에서는 다음과 같이 표시됩니다.
 
 1 2/3
 
