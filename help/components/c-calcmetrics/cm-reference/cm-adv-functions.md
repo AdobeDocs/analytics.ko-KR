@@ -1,22 +1,16 @@
 ---
-description: '[함수] 드롭다운 목록에서 [고급 표시]를 선택하여 이 함수들에 액세스하십시오.'
-title: 고급 함수 참조
+description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
+title: 참조  고급 함수
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # 참조: 고급 함수
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+**[!UICONTROL 함수]** 드롭다운 목록에서 **[!UICONTROL 고급 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오.
 
 ## 테이블 함수 대 행 함수 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -34,7 +28,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 인수의 값을 반환합니다. NOT을 사용하여 값이 하나의 특정 값과 동일하지 않도록 하십시오.
 
-> [!NOTE] 0(영)은 False를 의미하고 다른 값은 True입니다.
+> [!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -42,7 +36,7 @@ AND(logical_test1,[logical_test2],...)
 
 | 인수 | 설명 |
 |---|---|
-| *logical_test1* | 필수. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
+| *logical_test1* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
 | *logical_test2* | 선택 사항입니다. TRUE 또는 FALSE로 평가할 추가 조건 |
 
 ## 근사 고유 개수(차원) {#concept_000776E4FA66461EBA79910B7558D5D7}
@@ -61,7 +55,7 @@ Approximate Count Distinct (dimension)
 
 근사 고유 개수(고객 ID eVar)는 이 기능의 일반적인 사용 사례입니다.
 
-새 '예상 고객' 계산된 지표에 대한 정의:
+새로운 '예상 고객' 계산된 지표에 대한 정의:
 
 ![](assets/approx-count-distinct.png)
 
@@ -117,7 +111,7 @@ ATAN(metric)
 
 ## 지수 회귀: 예측된 Y(행) {#concept_25615693312B4A7AB09A2921083502AD}
 
-)를 기반으로 가장 잘 맞는 라인을 계산하기 위해 "최소 제곱법"을 사용하여 알려진 x-값(metric_X)이 주어지면 예측된 y-값(metric_Y)을 계산합니다.
+를 기반으로 최적선을 계산하기 위해 "최소 제곱법"을 사용하여 알려진 x-값(metric_X)이 주어지면 예측된 y-값(metric_Y)을 계산합니다.
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -155,7 +149,7 @@ cdf_z( -3 ) ? 0.0013499
 
 ## 천정(행) {#concept_A14CDB1E419B4AA18D335E5BA2548346}
 
-주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어, 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(*매출*)을 사용하여 매출을 가장 근접한 달러 또는 $570으로 올림하십시오.
+주어진 값보다 작지 않은 가장 작은 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 CEILING(*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $570으로 올림하십시오.
 
 ```
 CEILING(metric)
@@ -210,7 +204,7 @@ N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 
 
 N &lt;= 0이면 이전의 모든 행을 사용합니다. 차원으로 순서가 지정되므로 날짜나 경로 길이와 같은 자연상의 순서가 있는 차원에만 유용합니다.
 
-> [!NOTE] 이것은 매출액/방문자와 같은 비율 지표에서 예상하듯이 작동하지 않습니다.마지막 N에 대한 매출과 마지막 N에 대한 방문자 수를 합한 다음 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
+> [!NOTE] 수입/방문자와 같은 비율 지표에는 예상대로 이렇게 적용되지 않습니다. 마지막 N에 대한 수입을 합하고 마지막 N에 대한 방문자의 수를 합한 다음 이 수들을 나누는 대신 비율의 평균을 구합니다. 대신, 다음 공식을 사용하십시오.
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -222,7 +216,7 @@ cumul(revenue)/cumul(visitor)
 
 ## 지수 회귀_ 상관 계수(테이블) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+다음 회귀방정식에 대한 두 지표 열(*metric_A*&#x200B;와 *metric_B*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -235,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## 지수 회귀: 절편(테이블) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+다음 식에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -248,7 +242,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## 지수 회귀: 기울기(테이블) {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+다음 식에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -261,7 +255,7 @@ SLOPE.EXP(metric_X, metric_Y)
 
 ## 내림(행) {#concept_D368150EC3684077B284EE471463FC31}
 
-주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어, 매출에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(*매출*)을 사용하여 매출을 가장 근접한 달러 또는 $569로 내림하십시오.
+주어진 값보다 크지 않은 가장 큰 정수를 반환합니다. 예를 들어, 수입에 대해 소수 통화를 보고하지 않으려 하고, 제품에 $569.34가 있을 경우, 공식 FLOOR(*수입*)을 사용하여 수입을 가장 근접한 달러 또는 $569로 내림하십시오.
 
 ```
 FLOOR(metric)
@@ -325,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | 인수 | 설명 |
 |---|---|
-| *logical_test* | 필수. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
+| *logical_test* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
 | *[value_if_true]* | *logical_test* 인수가 TRUE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 | *[value_if_false]* | *logical_test* 인수가 FALSE로 평가되는 경우 반환할 값. (이 인수는 포함되지 않을 경우 기본값이 0으로 지정됩니다.) |
 
@@ -367,7 +361,7 @@ LOG10(metric)
 
 ## 로그 회귀: 상관 계수(테이블) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 이것은 CORREL 방정식을 사용하여 계산됩니다.
+회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다. 이것은 CORREL 방정식을 사용하여 계산됩니다.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -393,9 +387,9 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## 로그 회귀: 예측된 Y(행) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. 이것은 ESTIMATE 방정식을 사용하여 계산됩니다.
+[!DNL Y = a ln(X) + b]를 기반으로 최적선을 계산하기 위해 "최소 제곱법"을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어지면 예측된 [!DNL y] 값(metric_Y)을 계산합니다. 이것은 ESTIMATE 방정식을 사용하여 계산됩니다.
 
-In regression analysis, this function calculates the predicted [!DNL y] values (*metric_Y*), given the known [!DNL x] values (*metric_X*) using the logarithm for calculating the line of best fit for the regression equation [!DNL Y = a ln(X) + b]. [!DNL a] 값은 각 x 값에 해당하고 [!DNL b]는 상수 값입니다.
+회귀 분석에서 이 함수는 회귀 방정식 [!DNL Y = a ln(X) + b]에 최적선을 계산하기 위해 로그를 사용하여 알려진 [!DNL x] 값(*metric_X*)이 주어질 때 예측된 [!DNL y] 값(*metric_Y*)을 계산합니다. [!DNL a] 값은 각 x 값에 해당하고 [!DNL b]는 상수 값입니다.
 
 ```
 ESTIMATE.LOG(metric_X, metric_Y)
@@ -408,7 +402,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## 로그 회귀: 기울기(테이블) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 이것은 SLOPE 방정식을 사용하여 계산됩니다.
+회귀방정식 [!DNL Y = a ln(X) + b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다. 이것은 SLOPE 방정식을 사용하여 계산됩니다.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -441,7 +435,7 @@ NOT(logical)
 
 | 인수 | 설명 |
 |---|---|
-| *논리적* | 필수. TRUE 또는 FALSE로 평가할 수 있는 값 또는 표현식. |
+| *논리적* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 값 또는 표현식. |
 
 NOT을 사용하기 위해서는 표현식(&lt;, &gt;, =, &lt;&gt; 등)이 0이나 1 값을 반환할지 여부를 알아야 합니다.
 
@@ -453,7 +447,7 @@ NOT을 사용하기 위해서는 표현식(&lt;, &gt;, =, &lt;&gt; 등)이 0이�
 
 인수가 TRUE이면 TRUE를 반환하고, 인수가 FALSE이면 FALSE를 반환합니다.
 
-> [!NOTE] 0(영)은 False를 의미하고 다른 값은 True입니다.
+> [!NOTE] 0(영)은 False를 의미하며, 다른 값은 True입니다.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -461,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | 인수 | 설명 |
 |---|---|
-| *logical_test1* | 필수. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
+| *logical_test1* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 임의 값 또는 표현식. |
 | *logical_test2* | 선택 사항입니다. TRUE 또는 FALSE로 평가할 추가 조건 |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -476,7 +470,7 @@ PI()
 
 ## 거듭제곱 회귀: 상관 계수(테이블) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+[!DNL Y = b*X]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -489,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 거듭제곱 회귀: 절편(테이블) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+[!DNL Y = b*X]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -502,7 +496,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 ## 거듭제곱 회귀: 예측된 Y(행) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+[!DNL Y = b*X]에 대해 최적선을 계산하기 위해 "최소 제곱법"을 사용하여 알려진 [!DNL x] 값([!DNL metric_X])이 주어지면 예측된 [!DNL y] 값([!DNL metric_Y])을 계산합니다.
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -515,7 +509,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 ## 거듭제곱 회귀: 기울기(테이블) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+[!DNL Y = b*X]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -528,7 +522,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## 이차 회귀: 상관 계수(테이블) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-****에 대한 두 지표 열(* metric_X *및* metric_Y *) 간의 상관 계수 r*[!DNL Y=(a*X+b)]을 반환합니다.
+[!DNL Y=(a*X+b)]****에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 상관 계수 *r*&#x200B;을 반환합니다.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -541,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## 이차 회귀: 절편(테이블) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-****에 대한 두 지표 열(* metric_X *및* metric_Y *) 간의 절편 b를*[!DNL Y=(a*X+b)]반환합니다.
+[!DNL Y=(a*X+b)]****에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -554,7 +548,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## 이차 회귀: 예측된 Y(행) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+[!DNL Y=(a*X+b)]****를 사용하여 최적선을 계산하기 위해 최소 제곱법을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어질 때 예측된 [!DNL y] 값(metric_Y)을 계산합니다.
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -567,7 +561,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## 이차 회귀: 기울기(테이블) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-*****에 대한 두 지표 열(* metric_X *및 metric_Y) 간의 기울기 a를* [!DNL Y=(a*X+b)]반환합니다.
+[!DNL Y=(a*X+b)]****에 대한 두 지표 열(*metric_X*&#x200B;와 metric_Y) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -593,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## 역수 회귀: 절편(테이블) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+[!DNL Y = a/X+b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 절편 *b*&#x200B;를 반환합니다.
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -606,7 +600,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## 역수 회귀: 예측된 Y(행) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+[!DNL Y = a/X+b]를 사용하여 최적선을 계산하기 위해 최소 제곱법을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어질 때 예측된 [!DNL y] 값(metric_Y)을 계산합니다.
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -619,7 +613,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## 역수 회귀: 기울기(테이블) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+[!DNL Y = a/X+b]에 대한 두 지표 열(*metric_X*&#x200B;와 *metric_Y*) 간의 기울기 *a*&#x200B;를 반환합니다.
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -650,7 +644,7 @@ T 스코어에 대한 별칭, 즉, 표준 편차로 나눈 평균과의 편차
 
 t 점수가 col이고 자유도가 n인 m측 검증 t 테스트를 수행합니다.
 
-서명이 `t_test( x, n, m )`필요합니다. 그 아래는 단순하게 `m*cdf_t(-abs(x),n)`부른다. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+서명은 `t_test( x, n, m )`입니다. 이 식은 아래에서 `m*cdf_t(-abs(x),n)`을 호출합니다. (이것은 `m*cdf_z(-abs(x))`를 실행하는 z 테스트 함수와 유사합니다.)
 
 여기서 `m`은 꼬리(tail) 수이고 `n`은 자유 정도입니다. 둘 모두 숫자여야 합니다(전체 보고서에서 상수, 즉, 행 단위로 변경되지 않음).
 
@@ -666,7 +660,7 @@ t 점수가 col이고 자유도가 n인 m측 검증 t 테스트를 수행합니�
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
+1. 매우 높거나 낮은 바운스 비율을 무시하기 위해 `if`와 결합하여 사용하며 그 외 다른 모든 경우에 방문 수를 계산합니다.
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
@@ -694,9 +688,9 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 여기서 [!DNL x]는 원시 스코어이고, [!DNL μ]는 인구의 평균이고 [!DNL σ]는 인구의 표준 편차입니다.
 
-> [!NOTE] (mu) 및 [!DNL μ][!DNL σ] (시그마)는 지표에서 자동으로 계산됩니다.
+> [!NOTE] [!DNL μ](mu)와 [!DNL σ](sigma)는 지표에서 자동으로 계산됩니다.
 
-Z 스코어(지표)
+Z 점수(지표)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -719,5 +713,5 @@ Z 스코어가 A인 n측 검증 Z 테스트를 수행합니다.
 
 현재 행이 열에서 우연히 보일 수 있는 확률을 반환합니다.
 
-> [!NOTE] 값이 일반적으로 배포된다고 가정합니다.
+> [!NOTE] 값은 정상적으로 배분된다고 가정합니다.
 
