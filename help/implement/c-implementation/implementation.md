@@ -3,7 +3,7 @@ description: 'null'
 title: 구현 로드맵
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9d0b8e1e9bc2d92fb949ceed7bcfaa31818d02b8
 
 ---
 
@@ -70,12 +70,7 @@ Adobe Analytics를 처음 사용하는 경우 [Adobe Analytics 시작](https://m
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> 구현의 유효성을 검사합니다. </td> 
-   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> 테스트 및 유효성 검사</a>는 구현 유효성 검사에 대한 정보를 제공합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Adobe Experience Cloud 디버거를 사용하여 데이터가 전송되고 있는지 확인합니다. </td> 
    <td colname="col2"> <p><a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger</a>를 설치합니다. 설치가 끝나면 페이지 코드를 배포한 페이지를 불러온 다음 디버거를 엽니다. 디버거가 전송된 수집 데이터에 대한 정보를 표시합니다. </p> </td> 
   </tr> 
