@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
 
 ---
 
@@ -184,7 +184,7 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
          + [products](js-implementation/page-variables/products.md)
          + [propN](js-implementation/page-variables/propn.md)
          + [purchaseID](js-implementation/page-variables/purchaseid.md)
-         + [referrer](js-implementation/page-variables/referrer.md)
+         + [레퍼러](js-implementation/page-variables/referrer.md)
          + [resolution](js-implementation/page-variables/resolution.md)
          + [server](js-implementation/page-variables/server.md)
          + [s_objectID](js-implementation/page-variables/sobjectid.md)
@@ -266,26 +266,13 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
    + [Experience Cloud 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + 크로스 장치 방문자 식별 {#cross-device-visitor-id}
       + [여러 장치에서 사용자 연결](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [크로스 장치 방문자 식별의 데이터 영향](js-implementation/xdevice-visid/xdevice-data.md)
-      + [방문 예](js-implementation/xdevice-visid/visit-example.md)
-      + [방문자 수](js-implementation/xdevice-visid/visitors.md)
-      + [방문 횟수](js-implementation/xdevice-visid/visits.md)
-      + [세그먼트 만들기](js-implementation/xdevice-visid/segments.md)
-      + [지리 특성 데이터](js-implementation/xdevice-visid/geo-data.md)
+      + [장치 간 예](js-implementation/xdevice-visid/visit-example.md)
       + [속성 및 지속성](js-implementation/xdevice-visid/variable-persistence.md)
+      + [크로스 디바이스 FAQ](js-implementation/xdevice-visid/xdevice-faq.md)
    + [방문자 마이그레이션](js-implementation/visitor-migration.md)
    + [타임스탬프 옵션 사용](js-implementation/timestamps-overview.md)
    + [리디렉션 및 별칭](js-implementation/redirects-overview.md)
 + 테스트 및 유효성 검사 {#testing-and-validation}
-   + 테스트 및 유효성 검사 프로세스 {#testing-and-validation-process}
-      + [테스트 및 유효성 검사 개요](impl-testing/impl-validation/impl-validation.md)
-      + [디버거에서 s_account 변수 식별](impl-testing/impl-validation/impl-testing-account.md)
-      + [JavaScript JS 파일](impl-testing/impl-validation/impl-js-file.md)
-      + [코드 수정](impl-testing/impl-validation/impl-code-updates.md)
-      + [변수와 값](impl-testing/impl-validation/impl-var-values.md)
-      + [사용자 지정 변수](impl-testing/impl-validation/impl-custom-vars.md)
-      + [구현 수락](impl-testing/impl-validation/impl-acceptance.md)
-      + [데이터 정확도 유효성 검사](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud 디버거](impl-testing/debugger.md)
    + [패킷 분석기](impl-testing/packet-monitor.md)
    + 구현 문제 해결 {#implementation-troubleshooting}
