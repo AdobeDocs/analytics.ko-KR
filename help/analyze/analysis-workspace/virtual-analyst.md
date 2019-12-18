@@ -2,7 +2,7 @@
 title: Virtual Analyst
 description: Adobe Analytics의 어떤 기능이 Virtual Analyst에 기여하는지 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -13,7 +13,7 @@ Adobe Analytics의 일부인 기능들의 세트인 Virtual Analyst는 예측 �
 
 ## 기능 {#features}
 
-Virtual Analyst는 다음과 같이 구성됩니다.
+Virtual Analyst는 다음 기능으로 구성됩니다.
 
 * [예외 항목 탐지:](virtual-analyst/c-anomaly-detection/anomaly-detection.md) 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 * [기여도 분석:](virtual-analyst/contribution-analysis/run-contribution-analysis.md) 데이터에서 예외 항목에 가장 많이 기여하는 요인을 판별하는 데 도움이 됩니다.
