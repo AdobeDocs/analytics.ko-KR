@@ -1,14 +1,14 @@
 ---
-description: 표의 정적 행과 상호 작용하는 방법.
-title: 정적 행과 동적 행 비교
+description: 테이블의 정적 행과 상호 작용하는 방법.
+title: 정적 행과 및 다이내믹 행 비교
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 정적 행과 동적 행 비교
+# 정적 행과 및 다이내믹 행 비교
 
 Analysis Workspace 테이블은 사용자가 차원을 테이블에 놓을 때 "다이내믹" 행을 생성합니다. 즉, 지정된 지표에 대해 차원에 해당하는 모든 항목이 테이블로 가져오게 됩니다.
 
@@ -25,7 +25,7 @@ Analysis Workspace 테이블은 사용자가 차원을 테이블에 놓을 때 "
 
    ![](assets/static_rows.png)
 
-또한 정적 행 모드에 있는 경우 이제 열 합계가 계산되는 방식을 변경할 수 있습니다. 톱니바퀴 아이콘을 클릭하고 다음 두 옵션 간을 전환합니다.
+또한 이제 (반드시) 수동 행 모드일 때 열 합계가 계산되는 방식을 변경할 수 있습니다. 톱니바퀴 아이콘을 클릭하고 다음 두 옵션 간을 전환합니다.
 
 ![](assets/column-totals.png)
 
