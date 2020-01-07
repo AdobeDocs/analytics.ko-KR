@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 seo-description: 동적 변수를 사용하면 사이트의 이미지 요청에 전체 값을 여러 번씩 입력하지 않고도 한 변수에서 다른 변수로 값을 복사할 수 있습니다.
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 # s-linkURL
 
-The URL of the link, which acts as the name if a `linkName` does not exist. 어떤 URL 문자열로도 설정할 수 있습니다. 이미지 요청의 `pev1` 매개 변수입니다.
+`linkName`이 없는 경우 이름 역할을 하는 링크의 URL입니다. 어떤 URL 문자열로도 설정할 수 있습니다. 이미지 요청의 `pev1` 매개 변수입니다.
 
 
-If set with [`linkType`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html), an image request will be sent as a download, custom or exit link.
+[`linkType`](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)으로 설정하면, 이미지 요청이 다운로드, 사용자 지정 또는 종료 링크로서 전송됩니다.
 
 
 **예**
