@@ -2,7 +2,7 @@
 description: Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 title: Ad Hoc Analysis와 비교한 Analysis Workspace
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 
 Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워크플로우에 제공합니다. 두 제품의 일부 용어와 기능은 같지만, 분석에 대한 몇 가지 새로운 용어와 접근 방식이 Analysis Workspace에 도입되었습니다.
 
-이 두 제품의 주요 기능과 시스템 요구 사항에 대한 기술 비교는 [여기](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)에서 확인하십시오.
+이 두 제품의 주요 기능과 시스템 요구 사항에 대한 기술 비교는 [여기](https://marketing.adobe.com/resources/help/ko_KR/reference/analytics-product-comparison.html)에서 확인하십시오.
 
 ## 주요 용어 비교 {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -62,8 +62,8 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > 비디오: Analysis Workspace에서 날짜 작업</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > 비디오: 날짜 범위 사용자 지정</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>내부("애드혹") 세그먼트 만들기 </p> </td> 
-   <td colname="col2"> <p>차원 항목을 패널 위쪽에 세그먼트 드롭 영역으로 드래그하여 Analysis Workspace에서 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >인스턴스, 내부("애드혹") 세그먼트를 생성</a>할 수 있습니다. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 비디오: Analysis Workspace의 애드혹 세그먼트</a> </p> </td> 
+   <td colname="col1"> <p>내부("ad-hoc") 세그먼트 만들기 </p> </td> 
+   <td colname="col2"> <p>차원 항목을 패널 위쪽에 세그먼트 드롭 영역으로 드래그하여 Analysis Workspace에서 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >인스턴스, 내부("ad-hoc") 세그먼트를 생성</a>할 수 있습니다. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 비디오: Analysis Workspace의 Ad Hoc 세그먼트</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>폴아웃 및 전환 단계 유도 사용 </p> </td> 
@@ -72,7 +72,7 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">폴아웃은 방문 또는 방문자를 확장할 수 있고 "모든 방문"을 선택적으로 포함할 수 있습니다. 폴아웃은 마우스 오른쪽 단추 클릭 메뉴를 통해 빠르게 추적할 수 있습니다. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">차원 항목은 OR 연산자(그룹과 비슷함)로 연결할 수 있고 이벤트는 단계에서 사용할 수 있습니다. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">폴스루 및 폴아웃 다음 단계는 마우스 오른쪽 단추 클릭 메뉴를 통해 렌더링될 수도 있습니다. </li> 
-    </ol> <p>또한 Analysis Workspace의 폴아웃은 단계 내에서 Ad Hoc Analysis에 대한 개선 사항인 <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > 혼합 차원</a>을 허용합니다. 단계 내에 있는 혼합 차원은 AND 연산자로 처리됩니다. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > 비디오: 폴아웃 및 단계</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > 비디오: 여러 폴아웃 차원 사용</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > 비디오: 폴아웃의 세그먼트 비교</a> </p> </td> 
+    </ol> <p>또한 Analysis Workspace의 폴아웃은 <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  >혼합 차원</a>을 단계 내에서 사용할 수 있습니다. Ad Hoc Analysis보다 개선된 기능입니다. 단계 내에 있는 혼합 차원은 AND 연산자로 처리됩니다. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > 비디오: 폴아웃 및 단계</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > 비디오: 여러 폴아웃 차원 사용</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > 비디오: 폴아웃의 세그먼트 비교</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>흐름 검사(경로 지정) </p> </td> 
@@ -80,7 +80,7 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">플로우는 방문 또는 방문자를 확장할 수 있습니다. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">키 통계가 % 경로 보기 측면에서 표시됩니다. </li> 
-    </ul> <p>또한 플로우는 Ad Hoc Analysis에 대한 개선 사항인 <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 혼합 차원</a>과 Ad Hoc Analysis를 통해 세그먼트를 마우스 오른쪽 단추로 클릭하고 작성할 수 있는 기능을 허용합니다. </p> <p>현재 Analysis Workspace의 플로우는 다음을 수행할 <b>수 없습니다</b>. </p> 
+    </ul> <p>또한 플로우는 <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 혼합 차원</a>과 마우스 오른쪽 단추로 클릭하여 세그먼트를 생성할 수 있는 기능을 사용할 수 있습니다. Ad Hoc Analysis보다 개선된 기능입니다. </p> <p>현재 Analysis Workspace의 플로우는 다음을 수행할 <b>수 없습니다</b>. </p> 
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">반복 인스턴스를 끕니다. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">사용자가 성공 이벤트를 선택할 수 있습니다. </li> 
@@ -99,8 +99,8 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
    <td colname="col2"> <p>Ad Hoc Analysis과 마찬가지로, 작업 공간 프로젝트에 대해 한 개의 보고서 세트만 선택할 수 있습니다. 하지만 다중 보고서 세트 처리가 예정되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>속성 IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Analysis Workspace의 속성 IQ에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 속성 모델 유형을 추가할 수 있습니다.</a> </p> </td> 
+   <td colname="col1"> <p>기여도 분석 IQ </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  >기여도 분석 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 기여도 분석 모델 유형을 추가할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>포함되지 않음 </p> </td> 
