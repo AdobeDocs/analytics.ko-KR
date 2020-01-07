@@ -2,7 +2,7 @@
 title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
 
 ---
@@ -12,28 +12,28 @@ source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
 
 2019년 1월 이후에는 Adobe Analytics 설명서 세트에 대한 컨텐츠 업데이트입니다.
 
-* 새로운 기능, 관리 통지 및 버그 수정에 대한 포괄적인 목록은 최신 Experience [Cloud 릴리스 정보를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+* 새로운 기능, 관리자 공지 및 버그 수정에 대한 포괄적인 목록이 필요하면 최신 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)를 참조하십시오.
 * Analysis Workspace의 새 기능에 대한 자세한 내용은 [이 항목](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
-* 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 Analytics [에서 오디오 및 비디오 측정을 참조하십시오](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+* 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)을 참조하십시오.
 
 ## 업데이트 세부 사항
 
 | 날짜 | 설명 |
 |---|---|
-| 2019년 11월 29일 | 데이터 피드 [설명서 검토](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 2019년 11월 25일 | IP 로그인 [제한 적용을 위한 EOL(End-of-Life) 관련 새로운 항목](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 2019년 11월 25일 | 내부(세션 새로 [고침) 마케팅 채널에 대한 새 항목](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
-| 2019년 11월 21일 | 고객 여정 분석을 위한 [새로운 설명서 세트](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
-| 2019년 9월 28일 | Javascript 구현을 위한 [구성 변수에 대한 새 아티클](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| 2019년 9월 12일 | Journey IQ에 대한 [새로운 설명서:크로스 디바이스 분석](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
-| 2019년 8월 28일 | Analytics용 [점진적 웹 앱(PWA)에 대한 새 문서](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
+| 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
+| 2019년 11월 25일 | ['IP 로그인 제한 적용' 기간 종료](https://docs.adobe.com/content/help/ko-KR/analytics/admin/company-settings/login-restrictions-eol.html)에 대한 새로운 항목 |
+| 2019년 11월 25일 | [내부(세션 새로 고침) 마케팅 채널](https://docs.adobe.com/content/help/ko-KR/analytics/components/marketing-channels/session-refresh.html)에 대한 새로운 항목 |
+| 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
+| 2019년 9월 28일 | [Javascript 구현용 구성 변수](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html)에 대한 새로운 문서 |
+| 2019년 9월 12일 | [Journey IQ: 교차 장치 분석](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html)에 대한 새로운 설명서 |
+| 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/pwa/pwa.html)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
 | 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/timestamp-optional.md)에 대한 설명 |
 | 2019년 8월 5일 | [주요 개념](/help/analyze/reports-analytics/key-concepts.md) 업데이트 |
 | 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
 | 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
 | 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |
-| 2019년 6월 10일 | 중국을 [위한 지역 데이터 수집(RDC)에 관한 새로운 기사](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
+| 2019년 6월 10일 | [중국용 지역 데이터 수집(RDC)](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/rdc-china.html)에 대한 새로운 문서 |
 | 2019년 6월 4일 | [타사 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
 | 2019년 5월 30일 | [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
 | 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)에 대한 업데이트입니다. |
