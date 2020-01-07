@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
    + [데이터 피드 관리](analytics-data-feed/df-manage-feeds.md)
    + [데이터 피드 작업 관리](analytics-data-feed/df-manage-jobs.md)
    + 데이터 피드 콘텐츠 {#data-feed-contents}
-      + [데이터 피드 내용 개요](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [데이터 피드 컨텐츠 개요](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [지표 계산](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [데이터 열 참조](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
