@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| N/A | N/A | N/A | False |
+| 해당 없음 | 해당 없음 | 해당 없음 | False |
 
 > [!NOTE]`dynamicAccountList` 변수가 선언되지 않았거나 'false'로 설정된 경우 `dynamicAccountMatch`와 `dynamicAccountSelection`가 모두 무시됩니다.
 
@@ -45,6 +45,6 @@ s.dynamicAccountSelection=false
 
 ## 함정, 질문 및 팁
 
-* [JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)에서는 동적 계정 선택을 지원하지 않습니다.
+* [JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)에서는 동적 계정 선택을 지원하지 않습니다.
 
 * 각 페이지의 데이터를 받는 보고서 세트를 결정하려면 항상 [!DNL DigitalPulse Debugger]를 사용하십시오.
