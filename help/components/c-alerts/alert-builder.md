@@ -2,7 +2,7 @@
 description: 'null'
 title: 경고 빌더
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>지능형 경고는 Adobe [!DNL Analytics] Prime 및 Adobe [!DNL Analytics] Ultimate 고객만 사용할 수 있습니다.
 
 다음 네 가지 방법 중 하나로 경고 빌더에 액세스합니다.
 
 * Analysis Workspace에서 다음의 바로 가기 사용:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* **[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 새 경고]**&#x200B;로 이동.
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**.
-* From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* [!UICONTROL Reports &amp; Analytics] 보고서에서, **[!UICONTROL 자세히]** &gt; **[!UICONTROL 경고 추가]**&#x200B;로 이동.
 
-The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
+경고 빌더 인터페이스는 [!DNL Analytics]에 세그먼트 또는 계산된 지표를 만든 사용자에게 익숙합니다.
 
 ![](assets/alert_builder.png)
 
@@ -35,15 +35,15 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 지표를 확인할 시기(시간별, 일별, 주별 또는 월별)를 지정합니다.
 
-> [!NOTE] 사용자 지정 달력이 있는 보고서 세트의 경우 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
+> [!NOTE] 사용자 지정 달력을 사용하는 보고서 세트에 대해, Adobe에서는 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
 
 **수신자**
 
-경고를 전송할 대상을 지정합니다. An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
+경고를 전송할 대상을 지정합니다. 경고는 [!DNL Analytics] 사용자, [!DNL Analytics] 그룹, 원시 이메일 주소 또는 전화 번호에 보낼 수 있습니다.
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>전화 번호 앞에는 "+"와 [국가 코드](https://countrycode.org/)가 있어야 합니다. 
 
 **만료 날짜**
 
@@ -55,7 +55,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 * 트리거를 추가하는 지표를 캔버스에 드래그하여 놓습니다. 
 
-   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   경고에 뜬 모든 구성 요소(지표/차원/세그먼트) 중 일부가 현재 선택된 보고서 세트와 호환하지 않을 경우 **"호환하지 않는 구성 요소"** 메시지가 표시됩니다.
 
 * 경고를 설정하기 전에 지표가 초과되는 임계값을 결정합니다. 이 값을 임계값으로 설정한 후 다음 조건 중 하나로 설정할 수 있습니다. 
 
