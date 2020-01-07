@@ -1,24 +1,24 @@
 ---
 description: Adobe Analytics Workspace의 새로운 기능
-title: Analytics 세그멘테이션의 새로운 기능
+title: Analytics 세그먼테이션의 새로운 기능
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analytics 세그멘테이션의 새로운 기능
+# Analytics 세그먼테이션의 새로운 기능
 
 Adobe Analytics Workspace의 새로운 기능
 
 * [2016년 11월](/help/components/c-segmentation/whats-new-segmentation.md)
-* [2016년 10월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016년 10월 일](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2016년 9월](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2016년 6월](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2016년 1월](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2015년 11월](/help/components/c-segmentation/whats-new-segmentation.md)
-* [2015년 10월](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2015년 10월 일](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2015년 9월](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2014년 10월 일](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2014년 9월](/help/components/c-segmentation/whats-new-segmentation.md)
@@ -51,7 +51,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>날짜 범위(세그먼트에서) </p> </td> 
-   <td colname="col2"> <p>진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다. 예를 들어 "지난 60일 동안 구매한 모든 사람"을 포함하는 세그먼트를 쉽게 만들 수 있습니다. </p> <p> <p>참고: 이 기능은 Ad Hoc Analysis에서 사용할 수 없습니다. </p> </p> </td> 
+   <td colname="col2"> <p>진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다. 예를 들면 이제 "지난 60일 동안 구매한 모든 사람"을 포함하는 세그먼트를 쉽게 작성할 수 있습니다. </p> <p> <p>참고: 이 기능은 Ad Hoc Analysis에서 사용할 수 없습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,10 +70,10 @@ Adobe Analytics Workspace의 새로운 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p>순차적 세그먼트의 차원 제한 </p> </td> 
-   <td colname="col2"> <p>"within" 절의 경우 THEN 문 사이에 "within", "within 1 search keyword instance", "within 1 eVar 47 instance"를 추가할 수 있습니다. 이 경우 측정 기준의 한 개 인스턴스 이내로 세그먼트를 제한합니다. </p> </td> 
+   <td colname="col2"> <p>within 절, THEN 문 사이에 "1개 이내의 검색 키워드 인스턴스", "1개 이내의 eVar 47 인스턴스" 등을 추가할 수 있습니다. 이 경우 차원의 한 개 인스턴스 이내로 세그먼트를 제한합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >폴아웃 분석에서 세그먼트 사용 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/fallout_flow.html"  >폴아웃 분석에서 세그먼트 사용 </a> </p> </td> 
    <td colname="col2"> <p>터치포인트에서 세그먼트를 만들고, 세그먼트를 터치포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로우를 비교할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; 세그먼트 비교 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace의 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >세그먼트 비교</a>(세그먼트 IQ) 패널에서 고객이 두 Analytics 세그먼트를 빠르게 비교하여 모든 데이터 포인트에서 이들 세그먼트 간에 가장 중요한 차이점을 찾을 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace의 <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/segment-comparison.html"  >세그먼트 비교</a>(세그먼트 IQ) 패널에서 고객이 두 Analytics 세그먼트를 빠르게 비교하여 모든 데이터 포인트에서 이들 세그먼트 간에 가장 중요한 차이점을 찾을 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 세그먼트 만들기</span> 권한 </p> </td> 
-   <td colname="col2"> <p>사용자에게 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >세그먼트 만들기 권한</a>이 없는 경우, 사용자는 더 이상 세그먼트 빌더에 액세스할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>사용자에게 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html"  >세그먼트 만들기 권한</a>이 없는 경우, 사용자는 더 이상 세그먼트 빌더에 액세스할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: 세그먼트별로 분류 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">세그먼트별로 분류</span>에 대한 지원을 추가했습니다. 이제 표준(항목) 및 사용자 지정(통찰력)별 분류 이외에, 세그먼트별로도 보고서를 분류할 수 있습니다. <span class="wintitle">세그먼트</span> 탭을 선택하면, 목록이 <span class="wintitle">사용 가능한 세그먼트</span> 드롭다운 목록에서 제공되는 세그먼트의 동일한 세트로 채워집니다. </p> <p>세그먼트에 멤버십이 있는 라인 항목은 "1" 값과 세그먼트 보고서 "0" 외부의 항목을 보고합니다. </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">세그먼트별로 분류</span>에 대한 지원을 추가했습니다. 이제 표준(항목) 및 사용자 지정(인사이트)별 분류 이외에, 세그먼트별로도 보고서를 분류할 수 있습니다. <span class="wintitle">세그먼트</span> 탭을 선택하면, 목록이 <span class="wintitle">사용 가능한 세그먼트</span> 드롭다운 목록에서 제공되는 세그먼트의 동일한 세트로 채워집니다. </p> <p>세그먼트에서 멤버십이 있는 라인 항목은 값 "1"을, 세그먼트 보고서 외부 항목은 "0"을 보고합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>세그먼트 빌더에서의 권한 변경 사항 </p> </td> 
-   <td colname="col2"> <p>관리자 사용자는 새 세그먼트를 만들 수 있는 사용자를 제한할 수 있습니다. 기본적으로 모든 사용자는 세그먼트를 만들 수 있습니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > 자세히...</a> </p> </td> 
+   <td colname="col2"> <p>관리자 사용자는 새 세그먼트를 만들 수 있는 사용자를 제한할 수 있습니다. 기본적으로 모든 사용자는 세그먼트를 만들 수 있습니다. <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html"  > 자세히...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -197,7 +197,7 @@ Adobe Analytics Workspace의 새로운 기능
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 이름이 일관되게 지정된 세그멘테이션 연산자 </p> </td> 
+   <td colname="col1"> <p> 이름이 일관되게 지정된 세그먼테이션 연산자 </p> </td> 
    <td colname="col2"> <p> 세그먼트를 만들 때 Reports &amp; Analytics 그리고 Ad Hoc Analysis에서 일관된 연산자 및 연산자 이름을 사용합니다. </p> <p><b>새 연산자</b> </p> <p><span class="wintitle">존재함</span> 그리고 <span class="wintitle">존재하지 않음</span> 연산자가 열거된 목록을 기반으로 세그먼트화할 때 Reports &amp; Analytics에 추가되었습니다. </p> <p><span class="wintitle">다음을 모두 포함하지 않음</span>과 <span class="wintitle">다음 중 포함하는 항목 없음</span> 연산자가 문자열을 기반으로 세그먼트화할 때 Ad Hoc Analysis에 추가되었습니다. </p> <p><b>이름이 변경된 연산자</b> </p> <p>Reports &amp; Analytics에서: </p> 
     <ul id="ul_5CD24677CF5A456FBCC5D2C19067F979"> 
      <li id="li_40203624AFE2402C8B95FADEAF186091"> <span class="wintitle">does not contains all of (다음을 모두 포함하지 않음)</span>이 <span class="wintitle">does not contain all of (다음을 모두 포함하지 않음)</span>(으)로 이름이 변경되었습니다. </li> 
@@ -226,7 +226,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Data Warehouse 세그먼트에서의 "일치함" 및 "일치하지 않음" 지원 </p> </td> 
-   <td colname="col2"> <p>이제 데이터 웨어하우스는 세그먼트 정의에서 "일치" 및 "일치하지 않음"을 지원합니다. (Reports &amp; Analytics과 Ad Hoc Analysis은 이미 이 기능을 지원합니다.) </p> <p>데이터 웨어하우스가 "일치" 및 "일치하지 않음"을 지원하지 않아 이전에 데이터 웨어하우스와 호환되지 않던 세그먼트는 릴리스 후 호환됩니다(세그먼트가 호환되지 않는 유일한 이유가 있다고 가정). 릴리스 이후로 Data Warehouse에 추가적인 세그먼트가 표시될 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이제 Data Warehouse에서는 세그먼트 정의에서 "일치함" 및 "일치하지 않음"을 지원합니다. (Reports &amp; Analytics과 Ad Hoc Analysis은 이미 이 기능을 지원합니다.) </p> <p>이전까지 Data Warehouse에서 "일치함" 및 "일치하지 않음"을 지원하지 않아 호환되지 않던 세그먼트가 (그 외의 호환되지 않는 이유가 없다는 가정 하에) 릴리스 이후로 호환됩니다. 릴리스 이후로 Data Warehouse에 추가적인 세그먼트가 표시될 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>웹 서비스 API의 Segments.Save </p> </td> 
@@ -268,7 +268,7 @@ Adobe Analytics Workspace의 새로운 기능
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis의 세그먼트 빌드 및 관리 </p> </td> 
-   <td colname="col2"> <p>이제 Ad Hoc Analysis은 Adobe Analytics를 사용하여 세그먼트를 만들고, 관리하고 공유할 수 있도록 기능을 통합하는 통합 세그멘테이션 환경의 일부입니다. </p> <p>Ad Hoc Analysis 내의 세그먼트 빌더 콘솔은 업데이트된 아이콘, 콘솔 기능 변경 사항 및 모든 수준에서 컨테이너를 저장하는 기능으로 업데이트되었습니다. 세그먼트 관리자(세그먼트 구성)를 Ad Hoc Analysis 내의 세그먼트를 구성하고 세그먼트에 태그를 지정하는 새로운 기능으로 업데이트했습니다. </p> </td> 
+   <td colname="col2"> <p>이제 Ad Hoc Analysis은 Adobe Analytics를 사용하여 세그먼트를 만들고, 관리하고 공유할 수 있도록 기능을 통합하는 통합 세그먼테이션 환경의 일부입니다. </p> <p>Ad Hoc Analysis 내의 세그먼트 빌더 콘솔은 업데이트된 아이콘, 콘솔 기능 변경 사항 및 모든 수준에서 컨테이너를 저장하는 기능으로 업데이트되었습니다. 세그먼트 관리자(세그먼트 구성)를 Ad Hoc Analysis 내의 세그먼트를 구성하고 세그먼트에 태그를 지정하는 새로운 기능으로 업데이트했습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
