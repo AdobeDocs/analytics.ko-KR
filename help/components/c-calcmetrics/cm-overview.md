@@ -3,7 +3,7 @@ description: 계산 및 고급 계산(또는 파생) 지표는 기존의 지표�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 계산 및 고급 계산(파생) 지표
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,49 +15,49 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 속성 모델로 마이그레이션되었습니다.
+>2018년 7월, Adobe에서는 계산된 지표의 할당 모델을 평가하는 방법을 수정한 [기여도 분석 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html)를 도입했습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
 >
->* "마케팅 채널 마지막 터치" 및 "마케팅 채널 첫 번째 터치" 할당 모델이 각각 새로운 "마지막 터치" 및 "첫 번째 터치" 속성 모델로 마이그레이션되었습니다(참고:"마케팅 채널"은 더 이상 사용되지 않습니다. 계산된 지표에 나타나는 두 개의 할당 모델만 있습니다.
->* 또한 선형 할당이 계산되는 방식을 수정했습니다. "선형" 할당 모델에서 계산된 지표를 사용하는 고객의 경우 수정된 새로운 속성 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
+>* 마케팅 채널 마지막 터치 및 마케팅 채널 첫 번째 터치 할당 모델은 새 "마지막 터치" 및 "첫 번째 터치" 기여도 분석 모델로 마이그레이션되었습니다. 참고로, "마케팅 채널"은 더 이상 사용되지 않았으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용되었습니다.
+>* 또한 선형 할당이 계산되는 방법을 수정했습니다. 고객이 "선형" 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이러한 변경 내용은 [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], Reporting API, Report Builder 및 Ad Hoc Analysis에 반영되었습니다. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
 
 
-Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
+Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 [!DNL Analytics] 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. 각 [!DNL Analytics] 패키지에서 사용할 수 있는 사용자 지정 지표는 다음과 같습니다.
 
-* Adobe [!DNL Analytics] Foundation: Calculated
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html):계산 + 고급 계산
-* [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): 계산된 + 고급 계산된 지표
-* [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): 계산된 + 고급 계산된 지표
+* Adobe [!DNL Analytics] Foundation: 계산된 지표
+* [Adobe Analytics Select](https://www.adobe.com/kr/data-analytics-cloud/analytics/select.html): 계산된 + 고급 계산된 지표
+* [Adobe Analytics Prime](https://www.adobe.com/kr/data-analytics-cloud/analytics/prime.html): 계산된 + 고급 계산된 지표
+* [Adobe Analytics Ultimate](https://www.adobe.com/kr/data-analytics-cloud/analytics/ultimate.html): 계산된 + 고급 계산된 지표
 
 다음은 계산된 지표와 고급 계산 지표 기능을 비교한 것입니다.
 
 | Builder 옵션 | 계산된 지표 | 고급 계산(파생) 지표 |
 |---|---|---|
 | [형식 유형(십진수, 시간, 퍼센트, 통화)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 예 | 예 |
-| [속성 변경(기본값, 선형, 기여도 등)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
+| [기여도 분석 변경(기본값, 선형, 기여도 등)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
 | [지표 유형(표준, 전체)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
 | 기본 연산자(더하기, 빼기, 곱하기, 나눗셈) | 예 | 예 |
-| [세그먼트 적용](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | 아니요 | 예 |
-| [기본 함수(수, 절대값, 평균 등)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 아니요 | 예 |
-| [고급 함수(회귀, if/then, T 스코어 등)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 아니요 | 예 |
+| [세그먼트 적용](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | 아니오 | 예 |
+| [기본 함수(수, 절대값, 평균 등)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 아니오 | 예 |
+| [고급 함수(회귀, if/then, T 스코어 등)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 아니오 | 예 |
 
 ## 기능 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 You can
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]에서 지표를 만들 수 있습니다.
 * [구현을 변경하지 않고도](https://youtu.be/CuQTm9RaUpY) 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다.
 * 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
 * (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 이번이 첫 번째 세션인 사람의 수로, "새 방문자 수"에 대한 지표를 만들 수 있습니다.
 * (고급 계산 지표만 해당) 통계 함수를 통합하여 데이터를 더욱 효율적으로 설명할 수 있습니다. 예를 들어, 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
+* 다른 [!DNL Analytics] 도구의 [!UICONTROL Ad Hoc Analysis]에서 만든 지표를 활용할 수 있고 그 반대의 경우도 가능합니다.
 
    >[!NOTE]
    >
-   >애드혹 분석에서 지표를 계속 만들 수 있습니다. 이제 이 분석의 계산된 지표 빌더 사용자 인터페이스는 새 지표 빌더와 비슷합니다.
+   >Ad Hoc Analysis에서 계속하여 지표를 만들 수 있습니다. 이제 이 분석의 계산된 지표 빌더 사용자 인터페이스는 새 지표 빌더와 비슷합니다.
 
 ## 제한 {#section_CB878B02451541D68A68B508D4DBD19A}
 
-Some [!DNL Analytics] features let you use events but not calculated metrics:
+일부 [!DNL Analytics] 기능은 이벤트를 사용할 수 있지만 계산된 지표는 사용할 수 없습니다.
 
 * Reports &amp; Analytics의 유입경로
 * Analysis Workspace의 폴아웃
@@ -70,7 +70,7 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
 
 ## 도구 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
+다음은 [!UICONTROL 계산된 지표] 도구에 대한 간략한 개요입니다.
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
@@ -112,7 +112,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 계산된 지표에 대한 API</a> </td> 
-   <td colname="col2"> <p>Adobe Analytics 2.0 API 세트의 일부입니다. </p> </td> 
+   <td colname="col2"> <p>Adobe Analytics 2.0 API 세트의 일부. </p> </td> 
   </tr> 
  </tbody> 
 </table>
