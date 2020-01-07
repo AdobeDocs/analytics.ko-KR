@@ -2,7 +2,7 @@
 description: 개별 지표에 대한 세그먼트화는 동일한 보고서 내에서 지표 비교를 수행할 수 있도록 해줍니다. (파생 지표만 해당)
 title: 세그먼트화된 지표
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,11 +28,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
+   >[세그먼트 빌더](https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/seg_build.html)에서도 이 작업을 수행할 수 있지만 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로우를 간소화했습니다.
 
    >[!NOTE]
    >
-   >"Internal" means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. 그러나 그 옆에 있는 "i" 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개로 설정을 클릭하여 공개할 수 있습니다]**.
+   >"내부"는 세그먼트가 왼쪽 레일의 **[!UICONTROL 세그먼트]** 목록에 표시되지 않음을 의미합니다. 그러나 그 옆에 있는 "i" 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 공개할 수 있습니다.
 
 1. 비교 가능한 세그먼트가 없을 경우에는 "해외 방문자"라는 세그먼트를 만드십시오. 여기서 "국가"는 "독일"과 같지 않습니다.
 1. 독일 방문자 세그먼트를 [정의] 캔버스로 드래그하고 고유 방문자 수 지표를 그 안에 드래그하여 "미국 방문자"라는 지표를 만들고 저장하십시오.
@@ -40,11 +40,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    ![](assets/german-visitors.png)
 
 1. 해외 방문자 세그먼트와 고유 방문자 수 지표를 사용하여 3단계를 반복하여 해외 방문자 지표를 만듭니다.
-1. Analysis Workspace에서 **[!UICONTROL Page]차원을 자유형 테이블로 드래그하고 서로 옆에 있는 계산된 두 개의 지표를 위쪽으로 끕니다.**
+1. Analysis Workspace에서 **[!UICONTROL Page]차원을 자유 형식 테이블로 드래그하고 서로 옆에 있는 계산된 두 개의 지표를 위쪽으로 끕니다.**
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports &amp; Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. 혹은 [!UICONTROL Reports &amp; Analytics]에서 [!UICONTROL 페이지] 보고서를 열고 **[!UICONTROL 지표 표시]**&#x200B;를 클릭한 다음, 새 미국 방문자와 해외 방문자로 세그먼트화된 지표들을 적용하여 컨텐츠 탐색 행동이 어떻게 비교되는지 보십시오.
 
    ![](assets/pages-report.png)
 
@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 미국 방문자의 탐색 행동과 해외 방문자의 탐색 행동 간의 가장 큰 차이를 한눈에 보려는 경우, 서로 백분율을 빼는 다른 지표를 만들 수 있습니다. 그렇게 하려면, 두 지표 세트를 둘러싸는 괄호로서 효과적으로 동작하는 컨테이너 기능을 사용할 수 있습니다.
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
+1. [!UICONTROL 정의] 캔버스에서 **[!UICONTROL 추가]** &gt; **[!UICONTROL 컨테이너]**&#x200B;를 클릭하십시오.
 
    ![](assets/cm_add_container.png)
 
