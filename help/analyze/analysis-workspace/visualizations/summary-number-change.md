@@ -2,7 +2,7 @@
 description: 'null'
 title: 요약 번호 및 요약 변경 사항
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/summary-number.png)
 
-## 요약 변경 사항 시각화
+## 요약 변경 시각화
 
 * 셀을 선택하지 않으면 열의 처음 두 셀 값을 비교합니다.
 * 하나의 셀을 선택하면 셀 값을 자신과 비교하기 때문에 0을 표시합니다.
@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 열을 선택하면 첫 번째 값과 자신을 비교하여 0이 표시됩니다.
 * 요약 변경의 녹색 및 빨간색 색상은 다음을 통해 제어할 수 있습니다.
 
-   * [사용자 지정 이벤트 극성](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)
-   * 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html) 옵션.
+   * [사용자 지정 이벤트 극성](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)
+   * 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/cm_build_metrics.html) 옵션.
 
-## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
+## 요약 변경 설정 {#section_2581AC0107634FB4990AB8347E5897AA}
 
 시각화 옆에 있는 톱니바퀴 아이콘을 클릭하여 요약 설정을 구성합니다.
 
