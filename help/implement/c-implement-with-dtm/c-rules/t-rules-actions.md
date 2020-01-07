@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 조건이 트리거되는 작업 설정
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 각 규칙은 스크립트나 HTML 주입을 원하는 만큼 트리거할 수 있습니다.
 
-> [!NOTE] DTM을 사용하면 사용자 정의 코드를 페이지에 삽입할 수 있으므로 XSS(교차 사이트 스크립팅) 취약점을 만들지 않도록 주의하십시오(자세한 내용은 OWASP [가이드](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) 참조). 스크립트 내에 데이터 요소를 사용하는 경우 특별한 주의를 기울여야 합니다. 신뢰할 수 없는 소스로부터 데이터 요소 값을 가져올 수 있다는 점을 항상 유념하시기 바랍니다.
+> [!NOTE] DTM을 통해 페이지에 사용자 지정 코드를 삽입할 수 있으므로 교차 사이트 스크립팅(XSS) 취약점이 발생하지 않도록 주의하십시오(자세한 내용은 [OWASP 안내서](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) 참조). 스크립트 내에 데이터 요소를 사용하는 경우 특별한 주의를 기울여야 합니다. 신뢰할 수 없는 소스로부터 데이터 요소 값을 가져올 수 있다는 점을 항상 유념하시기 바랍니다.
 
 **조건이 트리거되는 작업 설정**
 
