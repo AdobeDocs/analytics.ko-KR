@@ -49,7 +49,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
     </ul> <p>참고: 데이터 보존 기간이 설정되지 않은 경우 Adobe Analytics에서 데이터 개인 정보 보호 API에 대한 요청 처리, 즉 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Customer Success Manager에 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>그룹 </p> </td> 
+   <td colname="col1"> <p>그룹  </p> </td> 
    <td colname="col2"> <p>그룹화 기능은 현재 구현되지 않았습니다. </p> </td> 
   </tr> 
   <tr> 
