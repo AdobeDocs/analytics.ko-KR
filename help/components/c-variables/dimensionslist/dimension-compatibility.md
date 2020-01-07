@@ -1,7 +1,7 @@
 ---
 title: Analytics 차원 호환성
-description: Analytics 차원 및 보고서에 대한 참조입니다.
-translation-type: tm+mt
+description: Analytics 차원 및 보고서에 대한 참조.
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -9,17 +9,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Analytics 차원 호환성
 
-이 참조 아티클은 보고 및 분석과 분석 작업 공간, 분석 작업 공간에서만, 보고 및 분석에서만 지원되는 차원/보고서를 나열합니다.
+이 참조 문서에는 Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 차원/보고서, Analysis Workspace에서만 지원되는 차원/보고서, Reports &amp; Analytics에서만 지원되는 차원/보고서가 나열되어 있습니다.
 
 다음을 염두에 두십시오.
 
 * 이러한 목록은 전체 목록이 아닙니다. 각 보고서 세트에는 지정된 제품 변수 집합이 활성화되어 있을 수도 있고 그렇지 않을 수도 있습니다. 또한 제공된 보고서 세트에 여러 사용자 지정 변수가 활성화 또는 비활성화되어 있거나 제품 변수에 매핑되어 있을 수 있습니다. 또한 방문자 속성 및 분류는 각 보고서 세트에만 해당하므로 제외했습니다.
 
-* There are some cases of overlap, where Analytics tools use different terms for what is essentially the same thing, for example: `browserwidth` and `browserwidthbucketed`.
+* Analytics 도구가 사실상 동일한 것에 대해 다른 용어를 사용하여 겹치는 경우가 있습니다(예: `browserwidth`와 `browserwidthbucketed`).
 
 ## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 차원
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |---|---|
 | 타겟 분석 | targetraw |
 | 대상 ID | mcaudiences |
@@ -32,8 +32,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 쿠키 지원 | cookie |
 | 국가 | geocountry |
 | 고객 충성도 | customerloyalty |
-| 사용자 지정 전환 변수 | evar1, evar2 등 |
-| 사용자 지정 인사이트 변수 | prop1, prop2 등 |
+| 사용자 지정 전환 변수 | evar1, evar2, 등 |
+| 사용자 지정 인사이트 변수 | prop1, prop2, 등 |
 | 사용자 지정 링크 | customlink |
 | 첫 구매까지 소요된 일 수 | daysbeforefirstpurchase |
 | 마지막 구매 이후 일 수 | dayssincelastpurchase |
@@ -71,11 +71,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 페이지 | page |
 | 페이지를 찾을 수 없음 | pagesnotfound |
 | 제품 | product |
-| 레퍼러 | referrer |
+| 레퍼러 | 레퍼러 |
 | 레퍼러 유형 | referrertype |
 | 조회 도메인 | referringdomain |
 | 지역 | georegion |
-| 재방문 주기 | returnfrequency |
+| 반환 주기 | returnfrequency |
 | SC-TnT | tntbase |
 | 검색 엔진 | searchengine |
 | 검색 키워드 | searchenginekeyword |
@@ -99,7 +99,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Analysis Workspace에서만 지원되는 차원
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 오전/오후 | timepartampm |
 | 브라우저 높이 - Bucketed | browserheightbucketed |
@@ -109,7 +109,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 요일 | dayofweek |
 | 요일 | timepartdayofweek |
 | 일(한 해 기준) | timepartdayofyear |
-| 마지막 방문 이후 일 수 | dayssincelastvisit |
+| 마지막 방문 이후의 일수 | dayssincelastvisit |
 | 시작 사용자 지정 인사이트 | entryprops |
 | 시작 목록 변수 | entrylistvariables |
 | 시작 서버 | entryserver |
@@ -120,7 +120,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 종료 서버 | exitserver |
 | 종료 사이트 섹션 | exitsitesections |
 | 히트 깊이 | hitdepth |
-| 조회 유형 | hittype |
+| 히트 유형 | hittype |
 | 시간 | daterangehour |
 | 시간 | timeparthourofday |
 | 마케팅 채널 세부 사항 | marketingchanneldetail |
@@ -150,7 +150,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Analysis Workspace에서만 지원되는 컨텐츠 인식 차원
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | Activity Map XY | clickmapxy |
 | 미디어 세션 ID | videosessionid |
@@ -161,7 +161,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Reports &amp; Analytics에서만 지원되는 차원
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 브라우저 높이 | browserheight |
 | 브라우저 너비 | browserwidth |
@@ -204,7 +204,7 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 * 언어
 * 최장 경로
 * 미디어 Concurrent Viewer
-* 미디어 방송 시간대
+* 미디어 방송 시간
 * 미디어 세부 사항
 * 미디어 개요
 * 모니터 해상도
@@ -244,7 +244,7 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 
 ### 비디오(Media Analytics)
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 컨텐츠 | video |
 | 컨텐츠 세그먼트 | videosegment |
@@ -294,7 +294,7 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 
 ### Adobe Social
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 용어 | socialterm |
 | 소셜 플랫폼/속성 | socialcontentprovider |
@@ -316,7 +316,7 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 
 ### Mobile SDK
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 첫 번째 실행 날짜 | mobileinstalldate |
 | 앱 ID | mobileappid |
@@ -351,16 +351,16 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 | 시작 비콘 Proximity | entrymobilebeaconproximity |
 | 종료 비콘 Proximity | exitmobilebeaconproximity |
 
-### Adobe Advertising Cloud(AMO)
+### AMO(Adobe Advertising Cloud)
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | AMO EF ID | amo_ef_id |
 | AMO ID | amo_cid |
 
 ### Activity Map
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 지역별 Activity Map 링크 | clickmaplinkbyregion |
 | Activity Map 영역 | clickmapregion |
@@ -369,9 +369,9 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 
 ### Nielsen 통합
 
-이 통합을 구현하는 방법에 관한 자세한 내용은 [Nielsen 파트너 관계](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html)를 참조하십시오.
+이 통합을 구현하는 방법에 관한 자세한 내용은 [Nielsen 파트너 관계](https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/hbvideo/nielsen-partnership.html)를 참조하십시오.
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | Nielsen 광고 모델 | nielsenadmodel |
 | Nielsen 세그먼트 C | nielsensegmentc |
@@ -392,7 +392,7 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 
 ### AEM(Adobe Experience Manager)
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 자산 ID | aemassetid |
 | 자산 소스 | aemassetsource |
@@ -402,6 +402,6 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 
 ### Adobe Campaign
 
-| 차원 이름(Analytics UI에 표시) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | Adobe Campaign 수행된 배달 ID | ac_delivery_internal_name |
