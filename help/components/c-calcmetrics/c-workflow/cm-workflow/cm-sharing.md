@@ -2,7 +2,7 @@
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 지표를 공유할 수 있습니다.
 title: 계산된 지표 공유
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 역할 | 권한 |
 |---|---|
-| 관리자 | 모든 사람, 그룹 및 사용자와 지표를 공유할 수 있습니다. 그룹은 관리 콘솔에서 권한 그룹으로 설정되어 있습니다. |
+| 관리자 | 모든 사람, 그룹 및 사용자와 지표를 공유할 수 있습니다. 그룹은 관리자 콘솔에서 권한 그룹으로 설정되어 있습니다. |
 | 비관리자 | 개별 사용자와만 지표를 공유할 수 있습니다. |
 
 지표를 언제 전체 회사와 공유하는 것이 좋고, 언제 사용자 그룹이나 개인과 공유해야 좋을까요? 다음은 따라야 할 몇 가지 모범 사례입니다.
@@ -37,5 +37,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    지표 옆에 공유 아이콘이 표시됩니다.![](assets/share_icon.png)
 
-1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
+1. **[!UICONTROL 필터]** &gt; **[!UICONTROL 기타 필터]** &gt; **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 지표를 필터링할 수 있습니다.
 
