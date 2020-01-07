@@ -2,7 +2,7 @@
 description: 계산된 지표 관리자 내에서 다양한 애플리케이션 수준 및 특정 부서 또는 그룹에 대한 지표 승인이 포함된 워크플로우를 설정할 수 있습니다.
 title: 계산된 지표 승인
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,5 +21,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. 목록의 계산된 지표 옆에 승인 아이콘이 표시됩니다:  ![](assets/cm_approve_icon.png)
 
 1. **[!UICONTROL 비승인]을 클릭하여 승인된 지표 목록에서 이 지표를 제거할 수도 있습니다.**
-1. And you can filter on approved metrics by clicking **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Approved]**.
+1. 그리고 **[!UICONTROL 필터 표시]** &gt; **[!UICONTROL 기타 필터]** &gt; **[!UICONTROL 승인됨]**&#x200B;을 클릭하여 승인된 지표를 필터링할 수 있습니다.
 
