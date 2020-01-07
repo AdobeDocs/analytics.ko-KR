@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revi
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 도구에 대한 FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ Adobe Analytics 배포의 자동 구성에 대한 FAQ입니다. 자동 구성 �
   </tr> 
   <tr> 
    <td colname="col1"> <p>수동 구성(기존 도구의 기본 설정)에서 자동 구성으로 전환하는 경우 현재 설정이 영향을 받습니까? </p> </td> 
-   <td colname="col2"> <p>아니오. </p> </td> 
+   <td colname="col2"> <p>아니요. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>수동 라이브러리 관리에서 [Adobe에서 관리]로 전환하는 경우 현재의 설정이나 코드가 영향을 받습니까? </p> </td> 
