@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 페이지 보기 및 콘텐츠
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
@@ -34,11 +34,11 @@ Analytics를 배포할 때 페이지 보기 및 콘텐츠 설정을 위한 Dynam
   </tr> 
   <tr> 
    <td colname="col1"> 채널(사이트 섹션) </td> 
-   <td colname="col2"> <p>사이트의 섹션을 식별합니다.  </p> <p>자세한 내용은 <a href="/help/implement/js-implementation/page-variables/channel.md">채널을</a>참조하십시오. </p> </td> 
+   <td colname="col2"> <p>사이트의 섹션을 식별합니다.  </p> <p><a href="/help/implement/js-implementation/page-variables/channel.md">채널</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 계층 </td> 
-   <td colname="col2"> <p>사이트의 계층에서 페이지 위치를 결정합니다.  </p> <p>See <a href="/help/implement/js-implementation/page-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>사이트의 계층에서 페이지 위치를 결정합니다.  </p> <p><a href="/help/implement/js-implementation/page-variables/page-variables.md">페이지 변수</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
