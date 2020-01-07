@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
@@ -14,14 +14,14 @@ source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 이 플래그는 일부 브라우저에 대한 강제 링크 추적을 비활성화하는 데 사용됩니다. 강제 링크 추적은 FireFox 20 이상과 WebKit 브라우저에 대해 기본적으로 활성화됩니다.
 
-When `useForcedLinkTracking` is enabled, the AppMeasurement file overrides the default link behavior on some browsers to prevent the track link call from being canceled when the new page opens. AppMeasurement 파일은 기본 브라우저 작업을 사용하는 대신 추적 링크 호출을 실행하고 탐색 이벤트를 수동으로 처리합니다.
+`useForcedLinkTracking`이 활성화된 경우 AppMeasurement 파일이 일부 브라우저에서 기본 링크 동작을 대체하여 새로운 페이지가 열릴 때 추적 링크 호출이 취소되지 않도록 합니다. AppMeasurement 파일은 기본 브라우저 작업을 사용하는 대신 추적 링크 호출을 실행하고 탐색 이벤트를 수동으로 처리합니다.
 
 JavaScript H.25.4(2013년 2월 발표)에서는, `useForcedLinkTracking`이 활성화되면 추적되는 링크에 다음의 범위 제한을 추가했습니다. 자동 강제 링크 추적은 다음의 경우에만 적용됩니다.
 
 * `<A>` 및 `<AREA>` 태그.
 * 태그에 `HREF` 특성이 반드시 있어야 함.
-* The `HREF` can't start with `#`, `about:`, or `javascript:`.
-* The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
+* `HREF`는 `#`, `about:` 또는 `javascript:`로 시작할 수 없음.
+* `TARGET` 특성을 설정하지 않아야 하거나, `TARGET`이 현재 창(`_self`, `_top` 또는 `window.name`의 값)을 참조해야 함.
 
 기본값 = `true`
 
