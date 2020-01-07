@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 쿠키
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Analytics에서 [!UICONTROL Dynamic Tag Management]를 배포하는 데 사용되는 쿠키 전역 설정에 대한 필드 설명입니다.
 
-*`Property`* &gt; 편집 도구 &gt;  쿠키
+*`Property`* &gt; 편집 도구 &gt; 쿠키
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -38,7 +38,7 @@ Adobe Analytics에서 [!UICONTROL Dynamic Tag Management]를 배포하는 데 �
   </tr> 
   <tr> 
    <td colname="col1"> FP 도메인 점 수 </td> 
-   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p><a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <span class="term">fpCookieDomainPeriods</span> 변수는 구현에 타사 <span class="filepath"> 2o7.net</span> 또는 <span class="filepath"> omtrdc.net</span> 도메인을 사용하는 경우에도 기본적으로 자사 쿠키인 JavaScript 설정 쿠키(<code> s_sq</code>, <code> s_cc</code>, 플러그인)에 사용됩니다. </p> <p><a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 거래 ID </td> 
