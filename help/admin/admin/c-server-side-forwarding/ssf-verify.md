@@ -3,7 +3,7 @@ description: 서버 측 전달이 제대로 활성화되었는지 확인하려�
 solution: Audience Manager
 title: 서버 측 전달 구현 확인 방법
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. ID 서비스가 제대로 배포되었는지, 앱 측정 모듈을 배포했는지, 해당 보고서 세트가 올바른 IMS 조직에 매핑되었는지, 그리고 Analytics 관리 콘솔에서 서버측 전달이 활성화되었는지 확인하십시오.
+>응답에 키 값 쌍 `"status":"SUCCESS"` 또는 2 x 2 이미지가 있는 경우 서버 측 전달이 제대로 구성되지 *않은* 것입니다. ID 서비스가 제대로 배포되었는지, App Measurement 모듈을 배포했는지, 해당 보고서 세트가 올바른 IMS 조직에 매핑되었는지, Analytics Admin Console에서 서버 측 전달이 활성화되었는지 확인하십시오.
 
 >[!MORELIKETHIS]
 >
