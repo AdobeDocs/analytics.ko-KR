@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
@@ -12,12 +12,12 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 # [!DNL Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics 구성 요소 도움말](home.md)
-+ 세그멘테이션 {#segmentation}
-   + [Analytics 세그멘테이션](c-segmentation/seg-home.md)
++ 세그먼테이션 {#segmentation}
+   + [Analytics 세그먼테이션](c-segmentation/seg-home.md)
    + [세그먼트 및 컨테이너 정보](c-segmentation/seg-overview.md)
-   + [Analysis Workspace의 세그멘테이션 기능](c-segmentation/segmentation-in-analysis-workspace.md)
-   + 세그멘테이션 워크플로우 {#segmentation-workflow}
-      + [세그멘테이션 워크플로우 개요](c-segmentation/c-segmentation-workflow/seg-workflow.md)
+   + [Analysis Workspace의 세그먼테이션 기능](c-segmentation/segmentation-in-analysis-workspace.md)
+   + 세그먼테이션 워크플로우 {#segmentation-workflow}
+      + [세그먼테이션 워크플로우 개요](c-segmentation/c-segmentation-workflow/seg-workflow.md)
       + [계획 세그먼트](c-segmentation/c-segmentation-workflow/seg-plan.md)
       + [세그먼트 작성](c-segmentation/c-segmentation-workflow/seg-build.md)
       + [순차적 세그먼트 작성](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
@@ -36,7 +36,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [역할별 세그먼트 권한](c-segmentation/seg-reference/seg-rights.md)
       + [문제 해결](c-segmentation/seg-reference/c-troubleshooting.md)
    + [FAQ](c-segmentation/seg-transition.md)
-   + [Analytics 세그멘테이션의 새로운 기능](c-segmentation/whats-new-segmentation.md)
+   + [Analytics 세그먼테이션의 새로운 기능](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis를 위한 전환 안내서](c-segmentation/seg-transition-ad-hoc.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
@@ -47,14 +47,14 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [간단한 "방문자 수당 페이지 보기 횟수" 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [간단한 "방문자 수당 페이지 보기 수" 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [세그먼트화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [필터 및 가중치가 적용된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [지원 지표 주문](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [함수 사용](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [기여도 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [계산된 지표에 태깅](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [계산된 지표에 태그 지정](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [계산된 지표 승인](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [계산된 지표 공유](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [계산된 지표 관리자](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
@@ -67,7 +67,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
    + [가상 보고서 세트 구성 요소 큐레이션](vrs/vrs-components.md)
-   + [모바일 서비스의 VRS 지원](vrs/vrs-mobile-services.md)
+   + [Mobile Services의 VRS 지원](vrs/vrs-mobile-services.md)
    + [컨텍스트 인식 세션](vrs/vrs-mobile-visit-processing.md)
    + [보고서 처리 시간](vrs/vrs-report-time-processing.md)
    + [VRS FAQ](vrs/vrs-faq.md)
@@ -113,7 +113,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [숫자 2 분류 만들기](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
       + [숫자 2 분류 가져오기](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
       + [예](c-classifications2/c-numeric-2/c-examples.md)
-   + [문제 해결 분류](c-classifications2/c-classifications-troubleshooting.md)
+   + [분류 문제 해결](c-classifications2/c-classifications-troubleshooting.md)
 + [달력 이벤트](t-calendar-event.md)
 + 변수 {#variables}
    + [변수 개요](c-variables/c-variables.md)
@@ -146,14 +146,14 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [크로스셀](c-variables/dimensionslist/reports-cross-sell.md)
       + [사용자 지정](c-variables/dimensionslist/reports-custom.md)
       + [사용자 지정 이벤트](c-variables/dimensionslist/reports-custom-events.md)
-      + [사용자 지정 통찰력](c-variables/dimensionslist/reports-custom-insight.md)
+      + [사용자 지정 인사이트](c-variables/dimensionslist/reports-custom-insight.md)
       + [사용자 지정 링크](c-variables/dimensionslist/reports-custom-links.md)
       + [사용자 지정 트래픽](c-variables/dimensionslist/reports-custom-traffic.md)
       + [고객 속성](c-variables/dimensionslist/reports-customer-attributes.md)
       + [고객 충성도](c-variables/dimensionslist/reports-customer-loyalty.md)
       + [일별 재방문](c-variables/dimensionslist/reports-daily-return-visits.md)
       + [첫 구매까지 소요된 일 수](c-variables/dimensionslist/reports-days-before-first-purchase.md)
-      + [마지막 방문 이후 일 수](c-variables/dimensionslist/dim-days-since-last-visit.md)
+      + [마지막 방문 이후의 일수](c-variables/dimensionslist/dim-days-since-last-visit.md)
       + [마지막 구매 이후 일 수](c-variables/dimensionslist/reports-days-before-last-purchase.md)
       + [DMA(지정 시장 지역)](c-variables/dimensionslist/reports-designated-market-area.md)
       + [장치 번호 전송](c-variables/dimensionslist/reports-device-number-transit.md)
@@ -171,7 +171,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [지리 특성](c-variables/dimensionslist/reports-geosegmentation.md)
       + [국가별 지리 특성 지역 및 우편 번호 사용](c-variables/dimensionslist/reports-geosegmentation-reference.md)
       + [계층](c-variables/dimensionslist/reports-hierarchy.md)
-      + [조회 유형](c-variables/dimensionslist/report-hit-type.md)
+      + [히트 유형](c-variables/dimensionslist/report-hit-type.md)
       + [이미지 지원](c-variables/dimensionslist/reports-image-support.md)
       + [정보 서비스](c-variables/dimensionslist/reports-information-services.md)
       + [JavaScript 지원](c-variables/dimensionslist/reports-javascript.md)
@@ -189,8 +189,8 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [모바일 통신사](c-variables/dimensionslist/reports-mobile-carrier.md)
       + [모니터 색상 깊이](c-variables/dimensionslist/reports-monitor-color-depth.md)
       + [가장 방문 빈도가 높은 페이지](c-variables/dimensionslist/reports-most-popular-pages.md)
-      + [가장 빈도가 높은 서버](c-variables/dimensionslist/reports-most-popular-servers.md)
-      + [가장 빈도가 높은 사이트 섹션](c-variables/dimensionslist/reports-most-popular-ss.md)
+      + [가장 방문 빈도가 높은 서버](c-variables/dimensionslist/reports-most-popular-servers.md)
+      + [가장 방문 빈도가 높은 사이트 섹션](c-variables/dimensionslist/reports-most-popular-ss.md)
       + [네트 프로토콜](c-variables/dimensionslist/reports-net-protocols.md)
       + [다음 페이지](c-variables/dimensionslist/reports-next-page.md)
       + [다음 페이지 흐름](c-variables/dimensionslist/reports-next-page-flow.md)
@@ -204,7 +204,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [페이지 깊이](c-variables/dimensionslist/reports-page-depth.md)
       + [페이지 요약](c-variables/dimensionslist/reports-page-summary.md)
       + [페이지 가치](c-variables/dimensionslist/reports-page-value.md)
-      + [페이지 보기 횟수](c-variables/dimensionslist/reports-page-views.md)
+      + [페이지 보기 수](c-variables/dimensionslist/reports-page-views.md)
       + [페이지](c-variables/dimensionslist/reports-pages.md)
       + [페이지를 찾을 수 없음](c-variables/dimensionslist/reports-pages-not-found.md)
       + [유료 검색 엔진](c-variables/dimensionslist/reports-paid-search-engines.md)
@@ -222,7 +222,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [레퍼러 유형](c-variables/dimensionslist/reports-ref-types.md)
       + [레퍼러](c-variables/dimensionslist/reports-referrers.md)
       + [참조 도메인](c-variables/dimensionslist/reports-referring-domains.md)
-      + [재방문 주기](c-variables/dimensionslist/reports-return-frequency.md)
+      + [반환 주기](c-variables/dimensionslist/reports-return-frequency.md)
       + [재방문](c-variables/dimensionslist/reports-return-visits.md)
       + [매출 ](c-variables/dimensionslist/reports-revenue.md)
       + [화면 높이](c-variables/dimensionslist/reports-screenheight.md)
@@ -293,7 +293,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [모바일 보기 수](c-variables/c-metrics/metrics-mobile-views.md)
       + [월간 고유 방문자 수](c-variables/c-metrics/metrics-monthly-unique-visitors.md)
       + [새 참여 횟수](c-variables/c-metrics/metrics-new-engagements.md)
-      + [발생](c-variables/c-metrics/metrics-occurrences.md)
+      + [발생 횟수](c-variables/c-metrics/metrics-occurrences.md)
       + [주문](c-variables/c-metrics/metrics-orders.md)
       + [페이지 깊이](c-variables/c-metrics/metrics-page-depth.md)
       + [이벤트 페이지](c-variables/c-metrics/metrics-page-event.md)
@@ -346,5 +346,5 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [오프라인 데이터 추가](c-marketing-channels/t-offline-data.md)
    + [보고서 액세스 권한](c-marketing-channels/c-channel-report-access.md)
    + [사용자 그룹 액세스 권한 구성](c-marketing-channels/t-user-groups.md)
-   + [제한적인 관리 권한 부여](c-marketing-channels/t-admin-rights.md)
+   + [제한적인 관리자 권한 부여](c-marketing-channels/t-admin-rights.md)
    + [마케팅 채널 보고서 실행](c-marketing-channels/t-reports-sc.md)
