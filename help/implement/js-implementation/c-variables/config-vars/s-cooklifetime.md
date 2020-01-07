@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| N/A | cl | 트래픽 &gt; 기술 &gt; 쿠키. 모든 방문자 관련 보고서 | "" |
+| 해당 없음 | cl | 트래픽 &gt; 기술 &gt; 쿠키. 모든 방문자 관련 보고서 | "" |
 
-If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 변수에는 다음 세 가지 값 중 하나를 지정할 수 있습니다.
+*`cookieLifetime`*&#x200B;이 설정되면, 이 값은 아래 설명된 한 가지 예외를 제외하고 JavaScript와 데이터 수집 서버 모두에 대한 다른 쿠키 만료를 무시합니다. *`cookieLifetime`* 변수에는 다음 세 가지 값 중 하나를 지정할 수 있습니다.
 
 * [!DNL Analytics] 쿠키
 * 쿠키
