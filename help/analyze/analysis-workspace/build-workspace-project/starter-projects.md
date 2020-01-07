@@ -2,7 +2,7 @@
 description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 템플릿 {#topic_40932F09E18A467983AFBB29908E1CB8}
 
-프로젝트를 다음 위치에서 만들지 여부를 선택할 수 있습니다.
+프로젝트를 다음 중 어느 방법으로 작성할지 선택할 수 있습니다.
 
-* 빈 프로젝트(기본값). 자세한 내용은 [분석 작업 공간 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+* 빈 프로젝트(기본값). 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * 표준 템플릿. 이러한 템플릿은 Adobe가 만들어 특별 배송합니다.
-* 사용자 지정 템플릿. [템플릿으로 저장] 권한이 부여된 경우 관리 권한이 있는 사용자나 관리자가 아닌 사용자가 이 템플릿을 생성할 수 있습니다. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
+* 사용자 지정 템플릿. [템플릿으로 저장] 권한이 부여된 경우 관리 권한이 있는 사용자나 관리자가 아닌 사용자가 이 템플릿을 생성할 수 있습니다. 자세한 내용은 Admin Console 설명서에서 [제품 사용 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html)를 참조하십시오.
 
 ![](assets/start_modal.png)
 
@@ -28,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 관리자 권한이 있는 사용자는 자신이 만드는 프로젝트를 사용자 지정 템플릿으로 만들 수 있습니다. 방법은 다음과 같습니다.
 
 1. 프로젝트를 엽니다.
-1. Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Save As Template]**.
+1. **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 템플릿으로 저장]**&#x200B;으로 이동합니다.
 
    ![](assets/save_project_template.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >기본적으로 프로젝트 템플릿은 조직의 모든 사용자가 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. (Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. 태그와 설명을 편집하려면 **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동하십시오.
 
 ### 사용자 지정 템플릿에서 수행할 수 있는 작업
 
@@ -56,7 +56,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <ul id="ul_2B3A371F83334E14806385753A360903"> 
      <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Analysis Workspace에서 사용자 지정 템플릿 목록을 표시하고 하나를 선택한 다음 <span class="uicontrol">템플릿 편집</span>을 클릭합니다. 또는 </li> 
      <li id="li_4934DAAA46204990A295E22A97F81EDA">Analytics에서 <span class="ignoretag"><span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol"> 프로젝트</span></span>로 이동한 다음 <span class="uicontrol">템플릿</span>에 대해 필터링합니다. 편집할 템플릿의 이름을 클릭하십시오. </li> 
-    </ul> <p> </p> <p>참고: 상황에 따라 템플릿을 편집한 후에는 <span class="uicontrol">저장</span>과 <span class="uicontrol">다른 이름으로 저장</span>, 이렇게 두 가지 옵션이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다. 
+    </ul> <p> </p> <p>참고: 상황에 따라 템플릿을 편집한 후에는 <span class="uicontrol">저장</span>과 <span class="uicontrol">다른 이름으로 저장</span>, 이렇게 두 가지 선택 사항이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다. 
      <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
       <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>저장</b>: 모든 사용자의 사용자 지정 템플릿을 업데이트합니다. 다른 사용자가 이 사용자 지정 템플릿에서 프로젝트를 작성할 때에는 변경한 내용이 표시됩니다. </li> 
       <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>다른 이름으로 저장</b>: 사용자의 변경 내용이 적용된 사용자 지정 템플릿을 만듭니다. </li> 
@@ -64,11 +64,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>템플릿 검색 </p> </td> 
-   <td colname="col2"> <p>[사용자 지정 템플릿] 대화 상자에서 <span class="uicontrol">템플릿 검색</span>을 클릭합니다. </p> </td> 
+   <td colname="col2"> <p>사용자 지정 템플릿 대화 상자에서 <span class="uicontrol">템플릿 검색</span>을 클릭합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>템플릿 정렬 </p> </td> 
-   <td colname="col2"> <p>템플릿을 알파벳순, 관련성 및 작성 날짜별로 정렬할 수 있습니다. </p> <p>[사용자 지정 템플릿] 대화 상자에서 <span class="uicontrol">정렬:</span>을 클릭합니다. </p> </td> 
+   <td colname="col2"> <p>템플릿을 알파벳순, 관련성 및 작성 날짜별로 정렬할 수 있습니다. </p> <p>사용자 지정 템플릿 대화 상자에서 <span class="uicontrol">정렬:</span>을 클릭합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>템플릿에 태그 적용 </p> </td> 
@@ -81,63 +81,63 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## 표준 템플릿 {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-작업 영역을 처음 열면 왼쪽 레일에 템플릿을 사용할 수 있습니다. Analysis Workspace 템플릿은 일반적인 사용 사례를 다룹니다. 이 프로젝트들은 해당 프로젝트가 속해 있는 특성으로 그룹화되고 보고서 세트에 따라 서로 다른 측정 기준, 세그먼트, 지표 및 시각화로 사전에 채워지게 됩니다.
+작업 공간을 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습니다. Analysis Workspace 템플릿은 일반적인 사용 사례를 다룹니다. 이 프로젝트들은 해당 프로젝트가 속해 있는 특성으로 그룹화되고 보고서 세트에 따라 서로 다른 측정 기준, 세그먼트, 지표 및 시각화로 사전에 채워지게 됩니다.
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. 
 
-[YouTube 분석 작업 공간의 표준](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) 템플릿(2:46)
+[Analysis Workspace 표준 템플릿 - YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
 
-다음은 각 템플릿을 사용하여 해결할 수 있는 템플릿과 질문입니다.
+다음은 템플릿과 각 템플릿을 사용하여 해결할 수 있는 질문입니다.
 
 ### 광고
 
 >[!IMPORTANT]
 >
->광고 템플릿은 보고서 세트가 Advertising Cloud에 대해 활성화된 경우에만 사용할 수 있습니다.
+>광고 템플릿은 Advertising Cloud에 대해 보고서 세트가 활성화되어 있을 경우에만 사용할 수 있습니다.
 
-* **검색 엔진**:이 템플릿은 광고 트렌드, 광고 플랫폼, 키워드, 계정, 캠페인 등을 분류합니다.
+* **검색 엔진**: 이 템플릿은 광고 트렌드, 광고 플랫폼, 키워드, 계정, 캠페인 등을 분류합니다.
 
 ### 상거래
 
-* **마젠토:마케팅 및 상거래**:이 템플릿은 마케팅 채널 기여도 분석으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 비디오 개요는 &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **마젠토: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 기여도 분석으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 비디오 개요가 필요하면 [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)를 참조하십시오.
 
 ### 미디어
 
-* **오디오 소비**:가장 많이 사용되는 콘텐츠와 매력적인 사용자
-* **최근 - 빈도 - 충성도**:내 단골 독자는 누구인가?
+* **오디오 소비**: 가장 많이 소비되고 사용자가 참여하는 컨텐츠 식별
+* **최신성 - 빈도 - 충성도**: 충성스런 독자 식별
 
 ### 모바일
 
 >[!IMPORTANT]
 >
->모바일 템플릿은 보고서 세트가 모바일용으로 활성화된 경우에만 사용할 수 있습니다.
+>모바일 템플릿은 모바일에 대해 보고서 세트가 활성화되어 있을 경우에만 사용할 수 있습니다. 
 
-* **** 메시지:인앱 및 푸시 메시지 성능에 중점을 둡니다.
-* **** 위치:위치 데이터가 표시된 맵을 포함합니다.
-* **** 주요 지표:앱의 주요 지표에 대한 최신 정보를 얻을 수 있습니다.
-* **** 앱 사용:앱의 앱 사용자 수, 실행 횟수 및 첫 번째 실행 횟수는 몇 명이며 평균 세션 길이는 얼마입니까?
-* **** 획득:모바일 획득 링크의 성과
-* **** 성능:앱의 성능과 사용자에게 문제가 있는 위치는 어디입니까?
-* **** 유지:단골 사용자는 누구이며 사용자는 무엇을 합니까?
-* **** 여정:앱의 두드러진 사용 패턴은 무엇입니까?
+* **메시징:** in-app 및 푸시 메시지 성능 지표에 중점 두기
+* **위치:** 위치 데이터를 표시하는 지도 포함
+* **주요 지표:** 앱의 주요 지표에 대한 지속적인 모니터링
+* **앱 사용:** 앱이 보유한 앱 사용자, 시작 및 첫 번째 시작의 수와 평균 세션 길이
+* **고객 확보:** 모바일 획득 링크가 수행되는 방식을 참조하십시오.
+* **성능:** 앱이 수행되는 방식과 사용자에게 문제가 발생하는 위치
+* **유지:** 충성스런 사용자 식별과 이들이 수행하는 작업
+* **움직임:** 내 앱에 대해 두드러진 사용 패턴 식별
 
 ### 소매
 
-* **** 캠페인 성과:가장 많은 수익을 창출하는 캠페인은 무엇입니까?
-* **** 제품:어떤 제품이 가장 효과가 좋습니까?
+* **캠페인 성과:** 가장 많은 수입을 파생시키는 캠페인
+* **제품:** 성과가 가장 좋은 제품
 
 ### 웹
 
-* **** 획득:웹 사이트의 주요 트래픽 드라이버는 무엇입니까?
-* **** 컨텐츠 소비:사이트에서 가장 인기 있는 곳은 어디입니까?
-* **** 유지:내 사이트의 단골 사용자는 어떤 유형에 속합니까?
-* **** 기술:사람들이 내 사이트에 액세스하기 위해 사용하는 기술은 무엇입니까?
+* **고객 확보:** 내 웹 사이트를 방문하는 상위 트래픽 파생자
+* **컨텐츠 사용량:** 내 사이트에서 사람들이 방문하는 상위 위치
+* **유지:** 내 사이트에 충성스런 사용자가 되는 사용자 유형
+* **기술:** 사람들이 내 사이트에 액세스하는 데 사용하는 기술
 
 ### 사람
 
-> [!NOTE] 사람 템플릿 및 관련 사람 지표는 Adobe Experience Cloud Device Co-op의 일부로만 사용할 [수 있습니다](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+> [!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ko_KR/mcdc/mcdc-people.html)의 일부로서만 사용할 수 있습니다.
 
 고유 방문자 수 지표의 중복이 제거된 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 장치를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. 템플릿을 사용하면 다음 작업을 수행할 수 있습니다.
 
