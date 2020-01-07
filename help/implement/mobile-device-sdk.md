@@ -1,13 +1,13 @@
 ---
-title: 모바일 장치용 분석 구현
+title: 모바일 장치용 Analytics 구현
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 ---
 
 
-# 모바일 장치용 분석 구현
+# 모바일 장치용 Analytics 구현
 
 ![배너](../../assets/doc_banner_implement.png)
 
@@ -23,14 +23,14 @@ source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 * [SDK 저장소](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
 
-* [iOS 문서](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [Android 문서](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [iOS 문서](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)
+* [Android 문서](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/overview.html)
 
-*참고:버전 4 지원에 대한 자세한 내용은[버전 4 Mobile SDK의 지원 종료 FAQ를 참조하십시오](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq).*
+*참고: 버전 4 지원에 대한 자세한 내용은[버전 4 Mobile SDK의 지원 종료 FAQ](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)를 참조하십시오.*
 
 ## AppMeasurement 3.x
 
-*참고:모바일 장치용 AppMeasurement 3.x SDK는 더 이상 지원되지 않습니다. 그러나 SDK에 대한 설명서는 아래에 명시된 대로 사용할 수 있습니다.*
+*참고: 모바일 장치용 AppMeasurement 3.x SDK는 더 이상 지원되지 않습니다. 그러나 SDK에 대한 설명서는 아래에 명시된 대로 사용할 수 있습니다.*
 
 * [iOS 문서](../../assets/adobe_mobile_ios_3x.pdf)
 * [Android 문서](../../assets/android_3x.pdf)
