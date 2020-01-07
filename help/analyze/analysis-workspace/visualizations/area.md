@@ -2,7 +2,7 @@
 description: 'null'
 title: 영역 및 스택 영역
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/area.png)
 
-## Area stacked {#section_922BBC5A6D254778A050DF710B0BD8D9}
+## 스택 영역 {#section_922BBC5A6D254778A050DF710B0BD8D9}
 
 이 시각화는 영역 차트와 유사하지만 각 시리즈가 이전 시리즈의 맨 위에서 시작됩니다.
 
