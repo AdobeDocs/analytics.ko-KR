@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;global variables;server variable;evar;props;dyn
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 전역 변수
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
@@ -25,4 +25,4 @@ Dynamic Tag Management를 사용하여 Adobe Analytics를 배포할 때의 변�
 | 서버 | 사전 정의된 변수가 Adobe Analytics의 서버 차원을 채웁니다. [페이지 변수](/help/implement/js-implementation/page-variables/page-variables.md)를 참조하십시오. |
 | eVar | [eVar 변수](/help/implement/js-implementation/page-variables/evarn.md)는 사용자 지정 전환 보고서를 작성하는 데 사용됩니다. |
 | Prop | [Prop 변수](/help/implement/js-implementation/page-variables/propn.md)는 사용자 지정 트래픽 보고서를 작성하는 데 사용됩니다. |
-| 동적 변수 접두사 | 값의 시작 앞부분에 붙는 특수한 접두사입니다. 기본 접두사는 "D="입니다. [동적 변수](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html)를 참조하십시오 |
+| 동적 변수 접두사 | 값의 시작 앞부분에 붙는 특수한 접두사입니다. 기본 접두사는 "D="입니다. [동적 변수](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html)를 참조하십시오 |
