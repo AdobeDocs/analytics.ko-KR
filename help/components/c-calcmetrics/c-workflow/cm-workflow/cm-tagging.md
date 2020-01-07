@@ -1,14 +1,14 @@
 ---
 description: 계산된 지표 관리자에서 세그먼트에 태깅하여 세그먼트를 정리할 수 있습니다.
-title: 계산된 지표에 태깅
+title: 계산된 지표에 태그 지정
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 계산된 지표에 태깅
+# 계산된 지표에 태그 지정
 
 계산된 지표 관리자에서 세그먼트에 태깅하여 세그먼트를 정리할 수 있습니다.
 
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. **[!UICONTROL 태그]를 클릭하고**
 
    * 기존 태그에서 선택하거나
-   * add a new tag name in the Add Tags/Search dialog box and press **[!UICONTROL Enter]**.
+   * 태그 추가/검색 대화 상자에서 새 태그 이름을 추가하고 **[!UICONTROL Enter]** 키를 누릅니다.
 
       ![](assets/cm_add_tags.png)
 
@@ -31,4 +31,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 이제 태그가 태그 열에 나타납니다. (열을 관리하려면 오른쪽 위에 있는 톱니바퀴 아이콘 클릭)
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+**[!UICONTROL 필터 표시]** &gt; **[!UICONTROL 태그]**&#x200B;로 이동하여 태그를 필터링할 수도 있습니다.
