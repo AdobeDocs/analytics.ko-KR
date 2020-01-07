@@ -2,7 +2,7 @@
 description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
 title: 행 설정
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>분류 </p> </td> 
-   <td colname="col2"> <p><b>위치별 분류:</b> </p> <p>자유 형식 테이블에서 고정 위치를 기반으로 분류를 수행할 수 있습니다. 예를 들어, 상위 7개 행이 항상 분류되도록 지정할 수 있습니다. </p> <p>(이전에는 분류에 있는 값 목록이 "잠김"되었습니다. This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. 해당 보기를 저장하고 한 달 후 실행한 경우, 상위 50페이지가 변경되었을 것입니다. 하지만 Analysis Workspace에서는 원래의 분류로 인한 결과를 사용하여 동일한 페이지를 반환하긴 했지만, 현재 달을 날짜 범위로 사용했습니다.) </p> <p>고정된 위치에 기반을 두고 분류를 수행하려면: </p> 
+   <td colname="col2"> <p><b>위치별 분류:</b> </p> <p>자유 형식 테이블에서 고정 위치를 기반으로 분류를 수행할 수 있습니다. 예를 들어, 상위 7개 행이 항상 분류되도록 지정할 수 있습니다. </p> <p>이전에는 분류에 있는 값 목록이 "잠겨"있었습니다. 이에 따라 <span class="term">페이지</span>로 <span class="term">날짜</span>를 분류한 경우 선택한 날짜 범위에 대해 상위 50페이지 목록이 표시되었습니다. 해당 보기를 저장하고 한 달 후 실행한 경우, 상위 50페이지가 변경되었을 것입니다. 하지만 Analysis Workspace에서는 원래의 분류로 인한 결과를 사용하여 동일한 페이지를 반환하긴 했지만, 현재 달을 날짜 범위로 사용했습니다.) </p> <p>고정된 위치에 기반을 두고 분류를 수행하려면: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">테이블에서 행 일부를 분류합니다. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">고정된 위치에 지정할 테이블 행 옆에 있는 [설정](톱니바퀴) 아이콘을 클릭합니다. </li> 
