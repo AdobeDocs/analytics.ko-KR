@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Android
 topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -87,11 +87,11 @@ Android 모바일 라이브러리에 대한 누적 릴리스 노트입니다.
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 방문자 ID 서비스 </p> </td> 
-   <td colname="2"> <p><code> adobe_mc</code>   매개 변수에 타임스탬프 및 Marketing Cloud 조직 ID가 추가되었습니다. </p> </td> 
+   <td colname="2"> <p><code> adobe_mc</code> 매개 변수에 타임스탬프 및 Marketing Cloud 조직 ID가 추가되었습니다. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 심층 연결 </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p><code> trackAdobeDeepLink</code>를 호출할 때 이제 "<code> adb</code>" 및 "<code> ctx</code>" 접두사가 붙은 변수가 제대로 처리됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -250,7 +250,7 @@ Android 모바일 라이브러리에 대한 누적 릴리스 노트입니다.
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> 옵트아웃 및 개인 정보 설정 </td> 
-   <td colname="2"> <p><span class="keyword"> Android</span> SDK 4.8.3부터 <code> setPrivacyStatus</code>   메서드를 통해 설정된 개인 정보 설정은 <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> 및 <span class="keyword"> Audience Manager</span>의 활동에 영향을 줍니다. </p> </td> 
+   <td colname="2"> <p><span class="keyword"> Android</span> SDK 4.8.3부터 <code> setPrivacyStatus</code> 메서드를 통해 설정된 개인 정보 설정은 <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> 및 <span class="keyword"> Audience Manager</span>의 활동에 영향을 줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ Android 모바일 라이브러리에 대한 누적 릴리스 노트입니다.
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> PhoneGap</span>에서 비콘 추적 지원 </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>이제 <span class="keyword">PhoneGap</span>에서 <code> trackBeacon</code> 및 <code> clearCurrentBeacon</code> 호출을 사용할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -593,7 +593,7 @@ Android 모바일 라이브러리에 대한 누적 릴리스 노트입니다.
 
 릴리스 날짜: **2012년 10월**
 
-* [Google Play 캠페인 추적](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html) 지원이 추가되었습니다.
+* [Google Play 캠페인 추적](https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/android/referrer.html) 지원이 추가되었습니다.
 
 ## 버전 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
