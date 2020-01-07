@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 구현
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 * **Dynamic Tag Management:** Launch의 전임자입니다. DTM은 유사한 인터페이스를 사용하여 Analytics를 구현하지만 더 이상 업데이트되지 않으며 그만큼 유연하지는 않습니다. Adobe에서는 Launch를 사용하여 Adobe Analytics를 구현할 것을 권장합니다.
 * **기존 JavaScript:** Adobe Analytics를 구현하는 과거의 수동 방법입니다. 구현에서 사용되는 변수 및 설정을 간략하게 설명합니다. 이는 사용자 지정 코드가 있는 규칙을 사용하는 Launch 구현에 유용합니다.
 
-## 주요 분석 구현 아티클
+## 주요 Analytics 구현 문서
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Experience Platform Launch에서 속성 만들기](implement-with-launch/create-analytics-property.md)
@@ -29,7 +29,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [분석 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [고객 지원 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
+* [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
