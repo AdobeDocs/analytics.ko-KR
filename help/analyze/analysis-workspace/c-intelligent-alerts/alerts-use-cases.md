@@ -2,7 +2,7 @@
 description: 'null'
 title: 지능형 경고 - 활용 사례
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ Update screenshots for better readability.
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidate (stack) alerts instead of creating multiple alerts {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 여러 경고를 만드는 대신 경고를 통합(스택) {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다.
 
