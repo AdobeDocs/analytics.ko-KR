@@ -2,7 +2,7 @@
 description: 'null'
 title: FAQ
 uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
