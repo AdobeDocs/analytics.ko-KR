@@ -1,7 +1,7 @@
 ---
 title: 개발 환경에 Adobe Analytics 배포
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Platform Launch 라이브러리가 프로덕션에 푸시되면
 
 Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 Chrome 플러그인입니다.
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
+1. [Chrome 웹 브라우저](https://www.google.com/chrome/)를 열고 Chrome 웹 사이트에서 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)로 이동하여 확장을 설치합니다.
 2. Launch를 구현한 개발 웹 사이트로 이동합니다.
 3. Chrome의 오른쪽 위에 있는 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
 4. 모든 것이 제대로 구현된 경우 Adobe Analytics, Adobe Experience Platform Launch 및 Adobe Experience Cloud 방문자 ID 서비스 내에 다음과 같은 콘텐츠가 표시됩니다.
