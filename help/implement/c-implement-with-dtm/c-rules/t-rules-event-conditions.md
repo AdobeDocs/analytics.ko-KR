@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;dela
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 이벤트 기반 규칙 조건 만들기
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based.png)
 
-   자세한 내용은 Adobe Tag Management 제품 설명서에서 [이벤트 유형](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html)을 참조하십시오.
+   자세한 내용은 Adobe Tag Management 제품 설명서에서 [이벤트 유형](https://marketing.adobe.com/resources/help/ko_KR/dtm/event_types.html)을 참조하십시오.
 
 1. 다음 옵션을 필요에 따라 활성화합니다.
 
@@ -35,7 +35,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based2.png)
 
-   올바른 요소 태그 찾기에 대한 자세한 내용은 다이내믹 태그 관리 제품 설명서에서 [CSS 선택기 사용](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html)을 참조하십시오.
+   올바른 요소 태그 찾기에 대한 자세한 내용은 다이내믹 태그 관리 제품 설명서에서 [CSS 선택기 사용](https://marketing.adobe.com/resources/help/ko_KR/dtm/css-selector.html)을 참조하십시오.
 
 1. 규칙에 연결할 추가적인 기준이나 조건 유형을 선택하여 설정합니다.
 
@@ -47,6 +47,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    | 만약 ... | 다음 옵션을 확인하십시오 |
    |--- |--- |
-   | 식별한 규칙 선택기의 하위 요소에 있는 관련 상호 작용이 규칙을 실행하도록 하려는 경우 | 하위 요소에 대한 이벤트의 버블링 허용에서 보냅니다. |
+   | 식별한 규칙 선택기의 하위 요소에 있는 관련 상호 작용이 규칙을 실행하도록 하려는 경우 | 하위 요소에 대한 이벤트의 버블링 허용. |
    | 하위 요소가 이미 자신의 이벤트를 트리거했다면 버블링이 되지 않도록 하려는 경우 | 이미 하위 요소에 의해 이벤트가 실행되는 경우 허용하지 않음 |
    | 식별한 규칙 선택기의 이벤트가 이벤트 계층 구조에서 요소 자체를 넘지 않도록 하려는 경우. | 이벤트가 상위까지 위쪽으로 버블링하는 것을 허용하지 않음. |
