@@ -2,7 +2,7 @@
 description: '차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. '
 title: 차원 간 흐름
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 앱 사용 사례와 웹 사용 사례, 이렇게 두 가지 사용 사례를 살펴보겠습니다. 
 
-## 사용 사례 1:앱 {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 사용 사례 1: 앱 {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 맨 위의 반환되는 항목이 [!UICONTROL ItemAdded]인 [!UICONTROL 동작 이름] 차원이 흐름에 추가되었습니다. 
 
@@ -48,7 +48,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 이렇게 되면 분석 중인 앱에 대해 깊이 있게 이해하고 변경이 가능해집니다.
 
-## 사용 사례 2:web {#section_8D55983FA0C84926995270052AE01CD8}
+## 사용 사례 2: 웹 {#section_8D55983FA0C84926995270052AE01CD8}
 
 이 사용 사례에서는 대부분의 항목을 웹 사이트로 연결하는 캠페인을 분석할 수 있는 방법을 보여 줍니다. 
 
