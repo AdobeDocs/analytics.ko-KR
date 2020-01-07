@@ -2,7 +2,7 @@
 description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스가 지정됩니다. 이 네임스페이스는 모든 보고서 세트에서 해당 ID가 사용되는 변수에 있는 각 ID를 식별하는 사용자 지정 문자열입니다.
 title: 네임스페이스
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
@@ -66,7 +66,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID(AAID)로 알려져 �
 
 > [!NOTE] ECID(Experience Cloud ID)는 이전에 MCID(Marketing Cloud ID)라고 했으며, 일부 기존 설명서에서는 여전히 이 이름으로 언급되어 있습니다.
 >
->해당 ID는 "Analytics" 이외의 "type" 값을 사용하는 Analytics에서 지원하는 유일한 ID입니다.
+>해당 ID는 "analytics"가 아닌 다른 "type" 값을 사용하는, Analytics에서 지원하는 유일한 ID입니다.
 
 이러한 쿠키 ID의 값 부분 형식이 해당 ID에 대해 설명된 형식을 따르지 않는 경우, 데이터 개인 정보 보호 요청은 실패하고 "값이 올바르게 형식화되지 않음" 오류가 발생합니다.
 
