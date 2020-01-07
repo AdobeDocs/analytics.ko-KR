@@ -2,7 +2,7 @@
 description: Analysis Workspace의 실행 취소 옵션에 대한 변경 사항 및 개선 사항.
 title: 실행 취소 및 다시 실행 설정
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,22 +10,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 실행 취소 및 다시 실행 설정
 
-**[!UICONTROL 작업 영역]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 실행 취소/다시 실행]**
+**[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 실행 취소/다시 실행]**
 
-* **[!UICONTROL 다시 실행]** 옵션(실행 취소를 다시 실행)은 **편집[!UICONTROL 메뉴에 있습니다.]**
+* **[!UICONTROL 다시 실행]** 선택 사항(실행 취소를 다시 실행)은 **[!UICONTROL 편집]** 메뉴에 있습니다.
 
-* **[!UICONTROL 저장]**&#x200B;을 클릭해도 **실행 취소[!UICONTROL 스택이 지워지지 않습니다.]**
+* **[!UICONTROL 저장]**&#x200B;을 클릭해도 **[!UICONTROL 실행 취소]** 스택이 지워지지 않습니다.
 
-* **[!UICONTROL 새 프로젝트]** 또는 **[!UICONTROL 기존 프로젝트 열기]**&#x200B;를 사용하면 **실행 취소]스택이 지워집니다.[!UICONTROL **
+* **[!UICONTROL 새 프로젝트]** 또는 **[!UICONTROL 기존 프로젝트 열기]**&#x200B;를 사용하면 **[!UICONTROL 실행 취소]** 스택이 지워집니다.
 
 * 보고서 세트 변경을 실행 취소/다시 실행할 수 있습니다.
 * 프로젝트 이름 근처에 실행 취소/다시 실행 메시지가 표시됩니다. 이 메시지는 실행 취소나 다시 실행이 진행 중이면 표시됩니다.
-* 다음 [핫키를](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)사용할 수 있습니다.
+* 다음 [핫키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용할 수 있습니다.
 
    * CTRL(CMD)+Z: 실행 취소
    * CTRL(CMD)+SHIFT+Z: 다시 실행
 
-## What you can undo and redo {#section_1E94152CC206470D84FC11710311DA12}
+## 실행 취소 또는 다시 실행할 수 있는 작업 {#section_1E94152CC206470D84FC11710311DA12}
 
 * 조정
 * 모두 삭제
@@ -58,7 +58,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 설명 편집
 * 중복 시각화
 
-## What you cannot undo and redo {#section_65BB313E048F4744B692926362873230}
+## 실행 취소 또는 다시 실행할 수 없는 작업 {#section_65BB313E048F4744B692926362873230}
 
 * 프로젝트 정보 및 설정 변경 사항(태그 추가, 설명 변경 사항, 반복 인스턴스 계산 설정)
 * 랜딩 페이지로 설정
