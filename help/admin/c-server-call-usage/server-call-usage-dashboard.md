@@ -2,7 +2,7 @@
 description: 'null'
 title: 현재 서버 호출 사용량 보기
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 현재 서버 호출 사용량 보기
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 서버 호출 사용]** &gt; **[!UICONTROL 현재사용량]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 서버 호출 사용량]** &gt; **[!UICONTROL 현재 사용량]**
 
-> [!IMPORTANT] 표시되는 사용 및 약정 번호는 모든 로그인 회사 및 보고서 세트에서 누적됩니다.
+> [!IMPORTANT] 표시되는 모든 사용량 및 약정 번호는 모든 로그인 회사 및 보고서 세트에 누적됩니다.
 
 현재 사용량 대시보드
 
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 현재 기간의 사용량과 작년의 사용량(파란색 선)을 비교합니다. 확실히 회사에 이전 연도의 서버 호출 사용량 데이터가 있는 경우에만 파란색 선이 나타납니다.
 
-   > [!NOTE] 이전 기간에 대한 사용량을 보려면 보고서 세트 사용 [탭으로](/help/admin/c-server-call-usage/report-suite-usage.md) 이동하여 이전 기간에 대한 사용 데이터를 다운로드해야 합니다.
+   > [!NOTE] 이전 기간에 대한 사용량을 보려면 [보고서 세트 사용량](/help/admin/c-server-call-usage/report-suite-usage.md) 탭으로 이동하여 이전 기간에 대한 사용 데이터를 다운로드해야 합니다.
 
 * 사용된 호출 수의 백분율(백분율 및 원시 데이터)과 소비된 사용 기간의 백분율(백분율 및 원시 데이터)을 나열합니다.
 * 기본적으로 5일 처리 지연으로 매일 업데이트됩니다.
