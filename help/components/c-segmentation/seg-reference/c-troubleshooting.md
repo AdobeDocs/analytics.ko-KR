@@ -1,14 +1,14 @@
 ---
 description: 'null'
-title: 세그멘테이션 문제 해결
+title: 세그먼테이션 문제 해결
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 세그멘테이션 문제 해결
+# 세그먼테이션 문제 해결
 
 ## 오류: "이 세그먼트에 호환하지 않는 요소" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
@@ -22,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 가능한 원인:
 
 * 중첩 반전 - 예를 들어 방문 컨테이너 아래에 방문자 컨테이너 중첩.
-* 보고서가 세그멘테이션을 지원하지 않습니다.
+* 보고서가 세그먼테이션을 지원하지 않습니다.
 * 세그멘테이션 기준과 일치하는 데이터가 없습니다.
 
 ## 왜 내가 세그먼트 관리자에서 만든 세그먼트가 표시되지 않습니까? {#section_BE0A0930A2694A23BB32DA71696D52CE}
@@ -43,5 +43,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * Rules/Operators are incorrect for the required result.
 * 세그먼트에 컨테이너를 잘못 적용했습니다.
-* 세그멘테이션하는 데 사용된 트래픽 변수가 잘못 설정되어 있거나 만료되었습니다.
+* 세그먼테이션하는 데 사용된 트래픽 변수가 잘못 설정되어 있거나 만료되었습니다.
 
