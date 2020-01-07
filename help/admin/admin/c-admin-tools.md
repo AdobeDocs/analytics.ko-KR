@@ -2,7 +2,7 @@
 description: 'null'
 title: 관리 도구
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,18 +10,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 관리 도구
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]**
 
->[!IMPORTANT] 동일한 브라우저에서 여러 관리 탭을 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어, 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
+>[!IMPORTANT] 동일한 브라우저에서 관리자 탭을 여러 개 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어, 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
 
-+ [청구](billing-admin.md)
++ [과금](billing-admin.md)
 + [보트 규칙 개요](bot-removal/bot-rules.md)
 + [코드 관리자](code-manager-admin.md)
 + [전환 변수(eVar)](conversion-var-admin/conversion-var-admin.md)
 + [통화 코드](currency.md)
 + [사용자 지정 보고서 설명](custom-desc-admin.md)
 + [사용자 지정 달력](custom-calendar.md)
-+ [Data Sources](data-sources.md)
++ [데이터 소스](data-sources.md)
 + [기본 지표](default-metrics.md)
 + [IP 주소별 제외](exclude-ip.md)
 + [검색 방법](finding-methods.md)
@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 + [메뉴 사용자 지정](customize-menus.md)
 + [지표 가시성](metric-visibility.md)
 + [모바일 관리](mobile-management.md)
-+ [유료 검색 탐지 개요](paid-search-detection/paid-search-detection.md)
++ [유료 검색 감지 개요](paid-search-detection/paid-search-detection.md)
 + [게시 목록](publishing-list.md)
 + [게시 위젯](publishing-widgets-admin.md)
 + [기본 설정 관리자](preferences-manager.md)
