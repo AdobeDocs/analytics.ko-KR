@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |--- |--- |--- |--- |
-| N/A | CE | N/A | "" |
+| 해당 없음 | CE | 해당 없음 | "" |
 
 ## 구문 및 가능한 값
 
