@@ -2,7 +2,7 @@
 description: 보고서 세트 사용량 탭은 현재 사용 기간 동안 청구 회사에 연결된 모든 로그인 회사의 각 보고서 세트에 서버 사용량 데이터를 제공합니다.
 title: 보고서 세트 사용량 보기
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 보고서 세트 사용량 탭은 현재 사용 기간 동안 청구 회사에 연결된 모든 로그인 회사의 각 보고서 세트에 서버 사용량 데이터를 제공합니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 서버 호출 사용]** &gt; **[!UICONTROL 보고서 세트사용량]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 서버 호출 사용량]** &gt; **[!UICONTROL 보고서 세트 사용량]**
 
 >[!IMPORTANT]
 >
->If a report suite is not [linked to an Experience Cloud Organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html), its usage data will not be reflected in this dashboard. 또한 청구 ID는 Experience Cloud Orgs에 연결될 수 있습니다. 조직과 청구 ID 간의 관계가 항상 1:1인 것은 아닙니다.
+>보고서 세트가 [Experience Cloud 조직에 연결](https://marketing.adobe.com/resources/help/ko_KR/mcloud/report-suite-mapping.html)되지 않은 경우 해당 사용량 데이터가 이 대시보드에 반영되지 않습니다. 또한 청구 ID는 Experience Cloud Orgs에 연결될 수 있습니다. 조직과 청구 ID 간의 관계가 항상 1:1인 것은 아닙니다.
 
 보고서 세트 사용량 대시보드
 
@@ -24,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 서버 호출 범주별 전체 사용량의 백분율을 표시합니다.
 * 매일 업데이트됩니다.
 * 다운로드 가능합니다.
-* **[!UICONTROL 경고 관리]UI에 액세스할 수 있습니다.**
+* **[!UICONTROL 경고 관리]** UI에 액세스할 수 있습니다.
 
 ![](assets/report-suite-usage.png)
 
@@ -49,13 +49,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 보고서 요소 | 설명 |
 |--- |--- |
-| 파일 이름 | 하드 코드 이름:사용 보고서 `day and time of report creation.csv` |
+| 파일 이름 | 하드 코드된 이름: 사용 보고서 `day and time of report creation.csv` |
 | 포함된 보고서 세트 | 보고서 서버 사용량 페이지에서 선택한 모든 보고서 세트는 이 목록에 포함됩니다. |
 | 포함된 호출 유형 | 모든 호출(기본값), 기본, 보조, 모바일 기본, 모바일 보조의 조합을 지정합니다. |
-| 시간 범위 | 현재 사용 기간을 선택하거나 사용자 지정 범위를 선택할 수 있습니다.  사용자 지정 범위에 대해 범위 시작 및 범위 종료를 지정합니다. <br>**** 참고:2015년 1월 이전에는 사용 데이터를 다운로드할 수 없습니다 </br>. |
+| 시간 범위 | 현재 사용 기간을 선택하거나 사용자 지정 범위를 선택할 수 있습니다.  사용자 지정 범위의 경우 범위 시작 및 범위 종료를 지정합니다. <br>**참고:** 2015년 1월 이전의 사용량 데이터는 다운로드할 수 없습니다 </br>. |
 
-1. Click **[!UICONTROL Download]**.
+1. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
-다운로드한 .csv 파일의 모양을 스크린샷으로 보여줍니다. 여기에는 보고서 세트 ID에 대한 열이 포함됩니다. 보고서 세트 ID 파섹 보고서 세트를 만든 후에는 이 ID를 변경할 수 없습니다.
+다음은 다운로드한 .csv 파일의 스크린샷입니다. 여기에 보고서 세트 ID에 대한 열이 포함되어 있습니다. 보고서 세트 ID는 영숫자만 사용할 수 있는 고유한 ID를 지정합니다. 보고서 세트를 만든 후에는 이 ID를 변경할 수 없습니다.
 
 ![](assets/download-usage.png)
