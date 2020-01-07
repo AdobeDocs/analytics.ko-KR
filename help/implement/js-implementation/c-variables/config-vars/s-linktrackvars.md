@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
  변수는 사용자 지정, 종료 및 다운로드 링크와 함께 전송되는, 쉼표로 구분되는 변수 목록입니다.
 
-The [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) parameter should include each variable that you want to track with every file download, exit link, and custom link.
+[`linkTrackVars`](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) 매개 변수에는 모든 파일 다운로드, 종료 링크 및 사용자 지정 링크와 함께 추적할 각 변수가 포함되어야 합니다.
 
-The settings for `linkTrackVars` and `linkTrackEvents` within the JS file affect every file download, exit link, and custom link. 변수(또는 이벤트)가 현재 페이지에 적용되지만 특정 파일 다운로드, 종료 링크 또는 사용자 지정 링크와 관계없는 경우 각 변수 및 이벤트 인스턴스가 부풀려질 수 있습니다.
+JS 파일 내의 `linkTrackVars` 및 `linkTrackEvents` 설정은 모든 파일 다운로드, 종료 링크, 사용자 지정 링크에 영향을 미칩니다. 변수(또는 이벤트)가 현재 페이지에 적용되지만 특정 파일 다운로드, 종료 링크 또는 사용자 지정 링크와 관계없는 경우 각 변수 및 이벤트 인스턴스가 부풀려질 수 있습니다.
 
-적절한 변수가 사용자 지정 링크 코드로 설정되도록 하려면 다음과 같이 사용자 지정 링크 코드 `linkTrackVars` 내에서 및 `linkTrackEvents` 설정을 지정하는 것이 좋습니다.
+적절한 변수가 사용자 지정 링크 코드로 설정되도록 하기 위해서는 다음과 같이, 사용자 지정 링크 코드 내에서 `linkTrackVars` 및 `linkTrackEvents`를 설정하는 것이 좋습니다.
 
 ```js
 <a href="index.html" onClick=" 
@@ -30,19 +30,19 @@ s.tl(this,'o','Link Name');
 ">My Page 
 ```
 
-위의 예에서 prop1의 값은 사용자 지정 링크 코드 자체 내에 설정됩니다. prop2의 값은 페이지에 설정된 변수의 현재 값에서 가져옵니다.
+위의 예에서, prop1의 값은 사용자 지정 링크 코드 그 자체 내에 설정되어 있습니다. prop2의 값은 페이지에 설정된 변수의 현재 값에서 가져옵니다.
 
-The values of `linkTrackVars` and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link.
+`linkTrackVars` 및 `linkTrackEvents`의 값은 JS 파일의 설정을 대체하며, 사용자 지정 링크 코드에 지정된 변수와 이벤트가 특정 링크에 맞게 설정되도록 합니다.
 
-*참고:(또는`linkTrackVars``linkTrackEvents`)가 null(또는 ""과 같은 빈 문자열)인 경우 현재 페이지에 대해 정의된 모든 Analytics 변수(또는 이벤트)가 추적됩니다. 즉, 값이 있는 모든 변수는 링크 데이터와 함께 전송됩니다. 이 경우 각 변수의 인스턴스가 부풀려질 가능성이 높습니다. 다른 변수와 연결된 인스턴스 또는 페이지 보기가 부풀려지지 않도록 링크 추적에 사용되는 링크의`linkTrackVars`onClick`linkTrackEvents`이벤트에서[!UICONTROL 와]를 채우는 것이 좋습니다.*
+*참고:`linkTrackVars`(또는`linkTrackEvents`)가 null(또는 ""와 같은 빈 문자열)이면, 현재 페이지용으로 정의된 모든 Analytics 변수(또는 이벤트)가 추적됩니다. 즉, 값이 있는 모든 변수는 링크 데이터와 함께 전송됩니다. 이 경우 각 변수의 인스턴스가 부풀려질 가능성이 높습니다. 다른 변수와 연결된 인스턴스 또는 페이지 보기가 부풀려지지 않도록 링크 추적에 사용되는 링크의`linkTrackVars`onClick`linkTrackEvents`이벤트에서[!UICONTROL 와]를 채우는 것이 좋습니다.*
 
 링크 데이터(사용자 지정, 종료 및 다운로드 링크)와 함께 보내야 하는 모든 변수는 `linkTrackVars`. `linkTrackEvents`를 사용하는 경우 `linkTrackVars`에 "events"를 포함해야 합니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| N/A | N/A | 임의 | "없음" |
+| 해당 없음 | 해당 없음 | 임의 | "없음" |
 
-When populating `linkTrackVars`, do not use the 's.' prefix for variables. 예를 들어 `linkTrackVars`를 "s.prop1"로 채우지 않고 "prop1"로 채워야 합니다. 다음 예제는 `linkTrackVars` 사용 방법을 보여줍니다.
+`linkTrackVars`를 채울 때는 변수에 's.' 접두사를 사용하지 마십시오. 예를 들어 `linkTrackVars`를 "s.prop1"로 채우지 않고 "prop1"로 채워야 합니다. 다음 예제는 `linkTrackVars` 사용 방법을 보여줍니다.
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -65,7 +65,7 @@ google.com에 연결된 링크는 종료 링크(Google을 사용하지 않는 �
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-The `linkTrackVars` variable may contain only variables that are sent to [!DNL Analytics], namely: `events`, `campaign`, `purchaseID`, `products`, `eVar1-75`, `prop1-75`, `hier1-5`, `channel`, `server`, `state`, `zip`, and `pageType`.
+ `linkTrackVars` 변수에는 [!DNL Analytics]에 전송된 변수, 즉 `events`, `campaign`, `purchaseID`, `products`, `eVar1-75`, `prop1-75`, `hier1-5`, `channel`, `server`, `state`, `zip` 및 `pageType` 변수만 들어 있을 수 있습니다.
 
 ## 예
 
