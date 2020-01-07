@@ -1,8 +1,8 @@
 ---
 title: Analysis Workspace 도움말
 description: Analysis Workspace, Activity Map, Report Builder, 보고 API 및 Reports & Analytics(이전 Omniture Analytics 제품)에 대한 제품 설명서 및 자체 도움말.
-translation-type: ht
-source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
+translation-type: tm+mt
+source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 ## 주요 Analytics 도구 문서
 
 * [Analysis Workspace 시작](analysis-workspace/home.md)
+* [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder 시작](report-builder/home.md)
 * [활동 맵 시작](activity-map/activity-map.md)
 
@@ -32,7 +33,7 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
+* [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
