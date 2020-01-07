@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| N/A | N/A | 경로 &gt; 시작 및 종료 &gt; 종료 링크 |  |
+| 해당 없음 | 해당 없음 | 경로 &gt; 시작 및 종료 &gt; 종료 링크 |  |
 
 > [!NOTE]이전에 linkInternalFilters를 Javascript로 설정할 것을 권장했습니다. 그러나 이로 인해 태그가 상주하는 현재 도메인을 포함하여 모든 도메인이 외부로 간주됩니다. 여러 도메인을 내부로 간주하려면 아래 예제에 표시된 것처럼 그러한 도메인을 추가할 수 있습니다.
 
-*`linkInternalFilters`* 변수는 링크가 종료 링크인지 여부를 확인하는 데 사용됩니다. 종료 링크는 방문자를 사이트 외부로 보내는 링크입니다. 종료 링크의 대상 창이 팝업과 기존 창 중 어느 것인지는 종료 링크 보고서에 링크가 표시되는지 여부에 영향을 주지 않습니다. 종료 링크는 *`trackExternalLinks`* 가 `"true"`. DTM이 종료 링크를 처리하는 방법에 대한 자세한 내용은 동적 태그 관리 문서에서 [링크 추적](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html)을 참조하십시오. *`linkInternalFilters`*&#x200B;의 필터는 대/소문자를 구분하지 않습니다.
+*`linkInternalFilters`* 변수는 링크가 종료 링크인지 여부를 확인하는 데 사용됩니다. 종료 링크는 방문자를 사이트 외부로 보내는 링크입니다. 종료 링크의 대상 창이 팝업과 기존 창 중 어느 것인지는 종료 링크 보고서에 링크가 표시되는지 여부에 영향을 주지 않습니다. 종료 링크는 *`trackExternalLinks`* 가 `"true"`. DTM이 종료 링크를 처리하는 방법에 대한 자세한 내용은 동적 태그 관리 문서에서 [링크 추적](https://marketing.adobe.com/resources/help/ko_KR/dtm/link_tracking.html)을 참조하십시오. *`linkInternalFilters`*&#x200B;의 필터는 대/소문자를 구분하지 않습니다.
 
 *`linkInternalFilters`*&#x200B;의 필터 목록은 기본적으로 모든 링크의 도메인 및 경로에 적용됩니다. *`linkLeaveQueryString`*&#x200B;이 `"true"`로 설정되면 필터가 전체 URL(도메인, 경로 및 쿼리 문자열)에 적용됩니다. 필터는 href 값에 상대 경로를 사용한 경우라도 항상 URL의 절대 경로에 적용됩니다.
 
@@ -89,15 +89,15 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-매개변수 `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. 활성화하면 에서 값 중 하나와 일치하는 파일 유형이 있는 모든 링크가 파일 다운로드로 `linkDownloadFileTypes` 자동 추적됩니다. 에 있는 값 중 하나를 포함하지 않는 URL이 있는 모든 링크는 자동으로 종료 링크로 `linkInternalFilters` 추적됩니다.
+매개변수 `trackDownloadLinks` 및 `trackExternalLinks`가 자동 파일 다운로드 및 종료 링크 추적이 활성화되었는지 확인합니다. 활성화되면 `linkDownloadFileTypes`에 있는 값 중 하나와 일치하는 파일 유형을 사용하는 모든 링크가 자동으로 파일 다운로드로 추적됩니다. `linkInternalFilters`에 있는 값 중 하나를 포함하지 않는 URL을 사용하는 모든 링크는 자동으로 종료 링크로서 추적됩니다.
 
-In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+JavaScript H.25.4(2013년 2월 발표)에서는, 자동 종료 링크 추적이 `#`, `about:` 또는 `javascript:`로 시작하는 `HREF` 특성을 사용하는 링크를 항상 무시하도록 업데이트되었습니다.
 
 ### 예제 1
 
-파일 유형을 `.jpg` 위에 포함하지 `.aspx` `linkDownloadFileTypes` 않으므로 파일 다운로드로 자동 추적되고 보고되지 않습니다.
+파일 유형 `.jpg` 및 `.aspx`는 위의 `linkDownloadFileTypes`에 포함되어 있지 않으므로, 클릭해도 파일 다운로드로서 자동으로 추적 및 보고되지 않습니다.
 
-The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+매개 변수 `linkLeaveQueryString`은 종료 링크를 판별하는 데 사용되는 로직을 수정합니다. `linkLeaveQueryString`=false인 경우 링크 URL의 도메인, 경로 및 파일 부분만 사용하여 종료 링크가 판별됩니다. `linkLeaveQueryString`=true인 경우에는 링크 URL의 쿼리 문자열 부분도 사용하여 종료 링크가 판별됩니다.
 
 ### 예제 2
 
@@ -125,4 +125,4 @@ s.linkLeaveQueryString=true
 <a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 ```
 
-*참고: 하나의 링크는 파일 다운로드 또는 종료 링크로만 추적할 수 있습니다. 단, 파일 다운로드의 우선 순위가 높습니다. 링크가 매개 변수를 기반으로 하는 종료 링크와 파일 다운로드인`linkDownloadFileTypes``linkInternalFilters`경우 종료 링크가 아닌 파일 다운로드로 추적 및 보고됩니다.*
+*참고: 하나의 링크는 파일 다운로드 또는 종료 링크로만 추적할 수 있습니다. 단, 파일 다운로드의 우선 순위가 높습니다. 링크가 매개 변수`linkDownloadFileTypes`및`linkInternalFilters`에 기반한 종료 링크이자 파일 다운로드인 경우에는 종료 링크로서가 아닌, 파일 다운로드로서 추적 및 보고됩니다.*
