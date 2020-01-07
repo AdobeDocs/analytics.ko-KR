@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
-| N/A | N/A | 경로 &gt; 시작 및 종료 &gt; 종료 링크 | "" |
+| 해당 없음 | 해당 없음 | 경로 &gt; 시작 및 종료 &gt; 종료 링크 | "" |
 
-The *`linkExternalFilters`* variable is an optional variable used in conjunction with *`linkInternalFilters`* to determine whether a link is an exit link. 종료 링크는 방문자를 사이트 외부로 보내는 링크로 정의됩니다. 종료 링크의 대상 창이 팝업과 기존 창 중 어느 것인지는 종료 링크 보고서에 링크가 표시되는지 여부에 영향을 주지 않습니다. 종료 링크는  *`trackExternalLinks`*&#x200B;가 'True'로 설정된 경우에만 추적됩니다. *`linkExternalFilters`* 및 *`linkInternalFilters`*&#x200B;의 필터는 대/소문자를 구분하지 않습니다.
+*`linkExternalFilters`* 변수는 링크가 종료 링크인지 여부를 확인하기 위해 *`linkInternalFilters`*&#x200B;와 함께 사용되는 선택 변수입니다. 종료 링크는 방문자를 사이트 외부로 보내는 링크로 정의됩니다. 종료 링크의 대상 창이 팝업과 기존 창 중 어느 것인지는 종료 링크 보고서에 링크가 표시되는지 여부에 영향을 주지 않습니다. 종료 링크는  *`trackExternalLinks`*&#x200B;가 'True'로 설정된 경우에만 추적됩니다. *`linkExternalFilters`* 및 *`linkInternalFilters`*&#x200B;의 필터는 대/소문자를 구분하지 않습니다.
 
 > [!NOTE]*`linkExternalFilters`*&#x200B;를 사용하지 않으려면 삭제하거나 ""로 설정합니다.
 
@@ -68,6 +68,6 @@ s.linkExternalFilters=""
 
 * *`linkExternalFilters`*&#x200B;를 사용하면 사이트에서 종료 링크가 되는 링크의 수가 줄어들 수 있습니다. 내부 링크를 종료 링크로 적용하기 위해 이 변수를 *`linkInternalFilters`* 대신 사용하지 마십시오.
 
-* 링크의 쿼리 문자열에 *`linkExternalFilters`*&#x200B;를 적용해야 하는 경우 *`linkLeaveQueryString`*&#x200B;이 'true'로 설정되어 있는지 확인합니다. `"true"`로 설정하기 전에 [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)을 참조하십시오.
+* 링크의 쿼리 문자열에 *`linkExternalFilters`*&#x200B;를 적용해야 하는 경우 *`linkLeaveQueryString`*&#x200B;이 'true'로 설정되어 있는지 확인합니다. `"true"`로 설정하기 전에 [linkLeaveQueryString](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)을 참조하십시오.
 
 * 종료 링크 추적을 비활성화하려면 *`trackExternalLinks`*&#x200B;를 `"false"`로 설정합니다.
