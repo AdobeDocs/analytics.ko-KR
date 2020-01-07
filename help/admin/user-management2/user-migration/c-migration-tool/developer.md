@@ -2,7 +2,7 @@
 description: 'null'
 title: 마이그레이션의 영향을 받는 API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 마이그레이션의 영향을 받는 API {#topic-8d34296a67d74b1081c3f7e8f650f3ce}
 
-Adobe는 [!DNL my.omniture.com] 및 Adobe Experience Cloud를 통한 인증 방식으로 모든 Analytics 로그인 기업을 마이그레이션하고 있습니다. 기업에서 마이그레이션을 시작하면 Analytics 관련 권한 및 Analytics Admin API의 v1.3 및 v1.4에서 사용할 수 있는 `GetLoginKey` 메서드를 통한 프로그래밍 방식의 사용자 생성 및 관리가 더 이상 지원되지 않습니다. 이제 이러한 작업은 이제 [!DNL adobe.io]를 통해 Experience Cloud에서 사용할 수 있습니다.
+Adobe는 모든 Analytics 로그인 기업을 [!DNL my.omniture.com]에서 Adobe Experience Cloud를 통한 인증 방식으로 마이그레이션하고 있습니다. 기업에서 마이그레이션을 시작하면 Analytics 관련 권한 및 Analytics Admin API v1.3 및 v1.4에서 사용할 수 있는 `GetLoginKey` 메서드를 통한 프로그래밍 방식의 사용자 생성 및 관리가 더 이상 지원되지 않습니다. 이제 이러한 작업은 이제 [!DNL adobe.io]를 통해 Experience Cloud에서 사용할 수 있습니다.
 
 ## 영향을 받는 API 메서드 {#section-d19051ac26cc49aeb124f767c4760254}
 
@@ -41,8 +41,8 @@ Adobe는 [!DNL my.omniture.com] 및 Adobe Experience Cloud를 통한 인증 방�
 
 추가 정보:
 
-* [일반 사용자 관리 정보](https://helpx.adobe.com/enterprise/help/users.html)
+* [일반 사용자 관리 정보](https://helpx.adobe.com/kr/enterprise/help/users.html)
 * [adobe.io를 통한 사용자 관리 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [사용자 관리 API 포럼](https://forums.adobe.com/community/umapi/overview)
-* [Experience Cloud로 Analytics 사용자 액세스 및 관리 마이그레이션](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+* [Experience Cloud로 Analytics 사용자 액세스 및 관리 마이그레이션](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/)
 
