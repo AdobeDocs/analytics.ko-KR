@@ -3,7 +3,7 @@ description: 동적 변수를 사용하면 사이트의 이미지 요청에 전�
 keywords: Analytics Implementation
 solution: null
 title: 다이내믹 변수
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 자동으로 결정된 링크 유형이 들어 있습니다(있을 경우). 다음 중 하나로 설정할 수 있습니다.
 
-    * 'd'(다운로드)
-    * 'e'(종료)
-    * 'o'(사용자 지정/기타)
+    * `d`(다운로드)
+    * `e`(종료)
+    * `o`(사용자 지정/기타)
 
-이미지 요청의 `pe` 매개 변수입니다. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
+이미지 요청의 `pe` 매개 변수입니다. [`linkURL`](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) 또는 [`linkName`](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html)으로 설정하면, 서버 호출이 다운로드, 사용자 지정 또는 종료 링크로서 전송됩니다.
 
-*참고:각 링크 유형은 페이지 보기가 아니며 연결된 페이지 이름이 없으므로 파일 다운로드, 종료 링크 또는 사용자 지정 링크에 대해 변수를 설정할 수[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)없습니다.*
+*참고:[`pageName`](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)변수는 파일 다운로드, 종료 링크 또는 사용자 지정 링크에 대해서는 설정할 수 없는데, 그 이유는 각 링크 유형이 페이지 보기가 아니며, 연관된 페이지 이름이 없기 때문입니다.*
 
 
 **예**
