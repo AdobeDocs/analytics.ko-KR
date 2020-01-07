@@ -2,7 +2,7 @@
 description: 'null'
 title: 막대 및 스택 막대
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 시각화 설정의 세부기간 드롭다운을 사용하면 트렌드 시각화(예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
 
-## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+## 스택 막대 {#section_9EA83779AE964635907EE5031A785A49}
 
 이 시각화는 막대 차트와 유사하지만 시리즈 막대가 서로의 위에 스택되어 있습니다.
 
