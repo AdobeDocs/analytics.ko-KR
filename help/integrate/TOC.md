@@ -1,10 +1,10 @@
 ---
-product: Analytics
-audience: 최종 사용자
-user-guide-title: Analytics 통합 안내서
-user-guide-url: /content/help/ko-KR/analytics/integration/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+product: analytics
+audience: end-user
+user-guide-title: Analytics Integration Guide
+user-guide-url: /content/help/en/analytics/integration/home.html
+translation-type: tm+mt
+source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [서버 측 전달을 위한 요구 사항 - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [서버 측 전달 구현 확인 - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [서버 측 전달 FAQ - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [분석 대상 만들기](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
+      + [Analytics 대상 만들기](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics에서 대상 데이터 사용](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 활용 사례](c-audience-analytics/aam-audience-use-cases.md)
       + [FAQ](c-audience-analytics/mc-audiences-faqs.md)
@@ -39,7 +39,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [광고 계정 관리](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 문제 해결](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [FAQ](c-advertising-analytics/aa-faq.md)
-+ [Target용 Analytics - A4T](https://marketing.adobe.com/resources/help/ko_KR/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
 + [Adobe Campaign 보고](adobe-campaign.md)
 + [AEM Assets 보고](aem-assets-reporting.md)
 + [Activity Map 보고](activitmap-reporting.md)
