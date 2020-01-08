@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
+source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
       + [서버 측 전달을 위한 요구 사항 - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [서버 측 전달 구현 확인 - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [서버 측 전달 FAQ - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [Analytics 대상 만들기](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Analytics 대상 만들기 - AAM 안내서](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics에서 대상 데이터 사용](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 활용 사례](c-audience-analytics/aam-audience-use-cases.md)
       + [FAQ](c-audience-analytics/mc-audiences-faqs.md)
