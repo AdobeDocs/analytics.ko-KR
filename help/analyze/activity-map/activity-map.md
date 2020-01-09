@@ -4,7 +4,7 @@ title: Activity Map 개요
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
+source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 # Activity Map 개요
 
 >[!IMPORTANT]
->2020년 1월 16일부터 Adobe Analytics는 새 도메인(https://experience.adobe.com/analytics)으로 이동하기 시작합니다. 이 변경 사항으로 인해 특정 경우에 일부 고객의 작업이 중지될 수 있습니다. 아시다시피 Activity Map은 iframe의 고객 페이지에 삽입됩니다(Activity Map 도구 모음에는 하나의 iframe과 Activity Map 하단 패널에는 하나의 iframe). &quot;.adobe.com&quot;을 포함하지 않는 &quot;frame-src&quot;에 대해 웹 페이지에서 Content Security Policy 지시문을 설정했을 수 있습니다. 이러한 경우 &quot;.adobe.com&quot; 페이지를 방문하면 Activity Map이 작동하지 않습니다. 이 문제를 해결하려면 &quot;.adobe.com&quot;을 Content Security 정책 지시문에 추가해야 합니다.
+>2020년 1월 16일부터 Adobe Analytics는 새 도메인(https://experience.adobe.com/analytics)으로 이동하기 시작합니다. 이 변경 사항으로 인해 특정 경우에 일부 고객의 작업이 중지될 수 있습니다. 아시다시피 Activity Map은 iframe의 고객 페이지에 삽입됩니다(Activity Map 도구 모음에는 하나의 iframe과 Activity Map 하단 패널에는 하나의 iframe). &quot;.adobe.com&quot;을 포함하지 않는 &quot;frame-src&quot;에 대해 웹 페이지에서 Content Security Policy 지시문을 설정했을 수 있습니다. 이 경우 Activity Map은 이러한 웹 페이지에서 작업을 중지합니다.
 
 Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.
 
