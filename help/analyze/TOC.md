@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
-      + [작업 영역 합계](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [작업 공간 합계](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 구성 요소 {#components}
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
       + 차원 {#dimensions}
@@ -78,12 +78,12 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
-      + 속성 {#attribution}
-         + [속성 개요](analysis-workspace/c-panels/attribution/attribution.md)
-         + [속성 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
+      + 기여도 분석 {#attribution}
+         + [기여도 분석 개요](analysis-workspace/c-panels/attribution/attribution.md)
+         + [기여도 분석 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [기여도 분석 FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison {#segment-comparison}
+      + 세그먼트 비교 {#segment-comparison}
          + [세그먼트 IQ 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [세그먼트 IQ 활용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
