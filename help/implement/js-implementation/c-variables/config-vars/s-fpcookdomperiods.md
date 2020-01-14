@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 *`fpCookieDomainPeriods`*&#x200B;는 점(".") 수를 말합니다. www로 시작되는 경우 도메인에 포함된 점(.) 수를 나타냅니다. 예를 들어 `www.mysite.com`에는 점이 두 개 있고, `www.mysite.co.jp`에는 점이 세 개 있습니다. 변수를 설명하는 또 다른 방법은 사이트의 주 도메인에 있는 섹션의 수입니다(`mysite.com`의 경우 2, `mysite.co.jp`의 경우 3).
 
-JavaScript용 [!DNL AppMeasurement] 파일은 *`fpCookieDomainPeriods`* 변수를 사용하여 [!UICONTROL 방문자 ID](s_vi) 쿠키 이외의 자사 쿠키를 설정할 도메인을 결정합니다. `s_sq` 및 `s_cc`(각각 방문자 클릭 맵과 쿠키 확인에 사용)를 포함한 두 개 이상의 쿠키가 이 변수의 영향을 받습니다. [!UICONTROL getValOnce]와 같은 플러그인에서 사용되는 쿠키도 영향을 받습니다.
+JavaScript용 [!DNL AppMeasurement] 파일은 *`fpCookieDomainPeriods`* 변수를 사용하여 [!UICONTROL 방문자 ID] (s_vi) 쿠키 이외의 자사 쿠키를 설정할 도메인을 결정합니다. `s_sq` 및 `s_cc`(각각 방문자 클릭 맵과 쿠키 확인에 사용)를 포함한 두 개 이상의 쿠키가 이 변수의 영향을 받습니다. [!UICONTROL getValOnce]와 같은 플러그인에서 사용되는 쿠키도 영향을 받습니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
