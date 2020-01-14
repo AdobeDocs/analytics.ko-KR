@@ -103,7 +103,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | 방법/리소스 | 설명 | 설명서 링크 |
 |--- |--- |--- |
 | 개발자 리소스 | 모든 사용 가능한 플랫폼(웹, 모바일 앱, 동영상, 플래시 등)에 걸쳐서 Analytics 데이터를 수집하는 데 사용할 수 있는 라이브러리에 대해 대략적으로 설명하는 설명서입니다. | [개발자 설명서](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-| 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](구현https://docs.adobe.com/content/help/ko-KR/analytics/home.html) |
+| 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/home.html) |
 | App Measurement(s_code) | 전역 변수 관리 | [AppMeasurement](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM 및 Adobe Launch | Analytics 도구를 참조하십시오. |  |
