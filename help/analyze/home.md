@@ -1,8 +1,8 @@
 ---
-title: Analysis Workspace 도움말
+title: Analytics 툴 안내서
 description: Analysis Workspace, Activity Map, Report Builder, 보고 API 및 Reports & Analytics(이전 Omniture Analytics 제품)에 대한 제품 설명서 및 자체 도움말.
 translation-type: tm+mt
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
