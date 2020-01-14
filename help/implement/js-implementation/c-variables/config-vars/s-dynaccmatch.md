@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 이 변수는 *`dynamicAccountSelection`*&#x200B;이 ‘True’로 설정된 경우에만 유효합니다. 기본값이 [!DNL window.location.host]이므로, 이 값은 [!UICONTROL 동적 계정 선택] 기능이 작동하는 데 필요하지 않습니다. 자세한 내용은 [dynamicAccountList](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)를 참조하십시오.
 
-`dynamicAccountList`에 있는 규칙은 `dynamicAccountMatch`의 값에 적용됩니다. `dynamicAccountMatch`에 [!DNL window.location.host](기본값)만 포함된 경우 `dynamicAccountList`의 규칙은 페이지의 도메인에만 적용됩니다.
+`dynamicAccountList`에 있는 규칙은 `dynamicAccountMatch`의 값에 적용됩니다. `dynamicAccountMatch`에 [!DNL window.location.host] (기본값)만 포함된 경우 `dynamicAccountList`의 규칙은 페이지의 도메인에만 적용됩니다.
 
 | 최대 크기 | 디버거 매개 변수 | 채워진 보고서 | 기본값 |
 |---|---|---|---|
