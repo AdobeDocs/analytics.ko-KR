@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -94,8 +94,15 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
+   + [FAQ](analysis-workspace/faq.md)
+   + [관리 요구 사항](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
+   + [Analysis Workspace 성능 최적화](analysis-workspace/optimizing-performance.md)
+   + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
+   + [Analysis Workspace 제한 사항](analysis-workspace/aw-limitations.md)
+   + [기여도 분석 IQ](analysis-workspace/attribution-iq.md)
+   + [세그먼트 IQ](analysis-workspace/segment-iq.md)
    + 가상 분석가 {#virtual-analyst}
-      + [가상 애널리스트 개요](analysis-workspace/virtual-analyst.md)
+      + [가상 애널리스트 개요](analysis-workspace/virtual-analyst/overview.md)
       + 예외 항목 탐지 {#anomaly-detection}
          + [예외 항목 탐지 개요](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -110,13 +117,6 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
          + [경고 빌더](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [경고 관리자](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [FAQ](analysis-workspace/faq.md)
-   + [관리 요구 사항](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace 성능 최적화](analysis-workspace/optimizing-performance.md)
-   + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace 제한 사항](analysis-workspace/aw-limitations.md)
-   + [기여도 분석 IQ](analysis-workspace/attribution-iq.md)
-   + [세그먼트 IQ](analysis-workspace/segment-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 도움말](report-builder/home.md)
    + [Report Builder의 새로운 기능](report-builder/whats-new-arb.md)
