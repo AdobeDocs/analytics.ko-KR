@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 기능 | 설명 |
 |--- |--- |
 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
-| [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 &gt; 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
+| [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
 | [기여도 분석 IQ에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 기여도 분석 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
 
@@ -246,7 +246,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>스택 영역/스택 막대/가로 막대형 스택 시각화에 대한 새로운 시각화 설정은 차트를 "100% 스택" 시각화로 바꾸므로 상대 비율을 측정할 수 있습니다. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  >예외 항목 탐지 및 기여도 분석</a>은 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >예외 항목 탐지 및 기여도 분석</a>은 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> </td> 
    <td colname="col2"> <p>예외 항목 탐지 및 기여도 분석은 Reports &amp; Analytics 기능 세트에서 제거되었으며 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> <p>Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 "일별 세부 기간" 예외 항목 탐지에만 액세스할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -706,7 +706,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>신규 <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > 단축키 </a></b> </p> </td> 
+   <td colname="col1"> <p>New <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Hotkeys </a></b> </p> </td> 
    <td colname="col2"> <p>다음 핫키가 추가되었습니다. </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = [패널] 창으로 이동 </li> 
@@ -813,7 +813,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 2016년 10월
+## 2016년 10월 일
 
 2016년 10월 20일 릴리스된 새로운 기능:
 
@@ -901,13 +901,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 2016년 6월 16일 릴리스된 새로운 기능:
 
-* 관리자가 **[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html). 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
+* 관리자가 **[!UICONTROL 분석]**>**[!UICONTROL &#x200B;작업 공간]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
 * The [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형
 * 이제 등급 테이블의 [트렌드 선택](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)(선 차트)가 연결됩니다.
-* ["시각화 만들기" 아이콘](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 이 아이콘을 클릭하면 다음 작업 시 지능적인 추측이 제공됩니다(막대 차트, 벤...).
+* [&quot;시각화 만들기&quot; 아이콘](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 이 아이콘을 클릭하면 다음 작업 시 지능적인 추측이 제공됩니다(막대 차트, 벤...).
 * 확장된 [수동 행](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 기능
 * [세그먼트 추가](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) 드롭 영역
 * 부분적인 업데이트:
@@ -960,17 +960,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 이제는 Analysis Workspace에서 수행한 대부분의 작업을 실행 취소할 수 있습니다.
 
-실행을 취소하려면, 작업 메뉴에서 **[!UICONTROL 실행 취소]**&#x200B;를 클릭하십시오.
+실행을 취소하려면, 작업 메뉴에서 **[!UICONTROL 실행 취소]**를 클릭하십시오.
 
 ![](assets/undo.png)
 
 실행 취소를 위해 표준 Windows와 Mac [키보드 단축키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(ctrl 또는 cmd + z)를 사용할 수도 있습니다.
 
-*`Undo`* 는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
+*`Undo`*는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
 
 실행 취소할 수 없는(*`not`*) 작업:
 
-* [!UICONTROL 집단 테이블] 구성 변경(예: 지표 드래그, 값 변경). 하지만 **[!UICONTROL 실행]**&#x200B;을 클릭한 후 **[!UICONTROL 실행 취소]**&#x200B;를 클릭할 수 있습니다.
+* [!UICONTROL 집단 테이블] 구성 변경(예: 지표 드래그, 값 변경). 하지만 **[!UICONTROL 실행]**을 클릭한 후**[!UICONTROL &#x200B;실행 취소]**를 클릭할 수 있습니다.
 
 * 패널 및 하위 패널 크기 조정 또는 이동
 
@@ -981,7 +981,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 이 프로젝트에 대한 링크 {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-프로젝트의 작업 메뉴에서 **[!UICONTROL 이 프로젝트에 대한 링크]**&#x200B;를 클릭하여 저장된 프로젝트의 URL을 다른 사용자에게 이메일로 보냅니다. 관리 담당 받는 사람은 이러한 식으로 공유된 프로젝트를 편집하고 저장할 수 있습니다. 그렇지 않은 경우 이러한 프로젝트는 읽기 전용입니다.
+프로젝트의 작업 메뉴에서 **[!UICONTROL 이 프로젝트에 대한 링크]**를 클릭하여 저장된 프로젝트의 URL을 다른 사용자에게 이메일로 보냅니다. 관리 담당 받는 사람은 이러한 식으로 공유된 프로젝트를 편집하고 저장할 수 있습니다. 그렇지 않은 경우 이러한 프로젝트는 읽기 전용입니다.
 
 ![](assets/link-to-this-project.png)
 
@@ -1017,17 +1017,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 세그먼트, 지표 및 날짜에 대해 다른 이름으로 저장 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-기존(저장된) 세그먼트를 편집할 때 Analysis Workspace 세그먼트 빌더에서 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭하여 복사본을 만듭니다.
+기존(저장된) 세그먼트를 편집할 때 Analysis Workspace 세그먼트 빌더에서 **[!UICONTROL 다른 이름으로 저장]**을 클릭하여 복사본을 만듭니다.
 
 ![](assets/segment-save-as.png)
 
 새 세그먼트는 [!UICONTROL 구성 요소] 패널의 [!UICONTROL 세그먼트] 그룹에 표시됩니다.
 
-*`Save As`* 기능은 [!UICONTROL 계산된 지표 빌더] 및 [!UICONTROL 날짜 범위 빌더]에서도 사용할 수 있습니다.
+*`Save As`*기능은[!UICONTROL 계산된 지표 빌더]및[!UICONTROL 날짜 범위 빌더]에서도 사용할 수 있습니다.
 
 ## 새 세그먼트 추가 단추 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-**[!UICONTROL 새 세그먼트 추가]** 단추가 세그먼트를 드래그하여 프로젝트에 놓는 위치에 추가되었습니다.
+**[!UICONTROL 새 세그먼트 추가]**단추가 세그먼트를 드래그하여 프로젝트에 놓는 위치에 추가되었습니다.
 
 ![](assets/add-new-segment.png)
 
@@ -1075,13 +1075,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 범례 표시 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-[!UICONTROL 시각화 설정]의 **[!UICONTROL 범례 표시]** 선택 사항은 시각화의 범례를 표시하거나 숨깁니다.
+[!UICONTROL 시각화 설정]의 **[!UICONTROL 범례 표시]**선택 사항은 시각화의 범례를 표시하거나 숨깁니다.
 
 ![](assets/legend-visible.png)
 
 ## Y축 0에 연결 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-라인 및 영역 차트에 대한 숫자가 무엇인지에 따라 Y축의 밑면이 0이 아닐 수 있습니다. **[!UICONTROL 시각화 설정]**&#x200B;의 [!UICONTROL Y축 0에 연결]을 활성화하면 보다 정확한 추세 보기를 위해 Y축이 0으로 지정됩니다. 다음 예에서는 이러한 설정의 활성화 여부에 따라 매출 차트가 달라지는 방식을 보여줍니다.
+라인 및 영역 차트에 대한 숫자가 무엇인지에 따라 Y축의 밑면이 0이 아닐 수 있습니다. **[!UICONTROL 시각화 설정]**의[!UICONTROL Y축 0에 연결]을 활성화하면 보다 정확한 추세 보기를 위해 Y축이 0으로 지정됩니다. 다음 예에서는 이러한 설정의 활성화 여부에 따라 매출 차트가 달라지는 방식을 보여줍니다.
 
 **Y축 0에 연결 비활성화**
 
@@ -1093,10 +1093,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 탭 제목의 프로젝트 이름 {#section_497C61A030984BCCA2CEA553312C3226}
 
-프로젝트를 저장할 때 브라우저 탭의 제목이 "`<Project Name>` - Analysis Workspace"로 표시됩니다. 이러한 향상된 기능은 여러 개의 브라우저 탭에 여러 프로젝트를 여는 경우에 유용합니다.
+프로젝트를 저장할 때 브라우저 탭의 제목이 &quot;`<Project Name>` - Analysis Workspace&quot;로 표시됩니다. 이러한 향상된 기능은 여러 개의 브라우저 탭에 여러 프로젝트를 여는 경우에 유용합니다.
 
 ## 프로젝트 소유권 양도 {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 관리자는 사용자 간에 [!UICONTROL Analysis Workspace] 프로젝트를 전송할 수 있습니다.
 
-**[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 전송]**&#x200B;으로 이동하여 프로젝트를 전송합니다.
+**[!UICONTROL 관리]**>**[!UICONTROL &#x200B;사용자 관리]** > **[!UICONTROL 전송]**으로 이동하여 프로젝트를 전송합니다.
