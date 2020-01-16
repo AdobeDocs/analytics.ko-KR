@@ -3,7 +3,7 @@ description: Analytics 쿠키
 title: 브라우저 및 분석 쿠키 FAQ
 uuid: null
 translation-type: tm+mt
-source-git-commit: ec96e30becf1cb799c0597b0e2f441fa1d6df0e3
+source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
 
 ---
 
@@ -33,6 +33,8 @@ Adobe Analytics는 속성 및 솔루션 간에 지속적인 사용자 식별을 
 ### 타사 쿠키
 
 타사 쿠키는 사용자가 방문하는 웹 사이트에 의해 만들어지지 않습니다. 브라우저가 현재 모든 타사 쿠키를 동일하게 처리하고 그에 따라 저장하지만 타사 쿠키 자체는 다른 중요한 방식으로 작동할 수 있습니다. 고객의 Analytics 타사 쿠키 구현을 통해 클라이언트는 Adobe만을 호출하고 알 수 없거나 의심스러운 타사 도메인을 호출하지 않습니다. 이 방법은 보안(HTTPS)을 위한 Analytics를 구현하고 영구 식별자를 사용하여 신뢰할 수 있는 추적을 구현하는 현재의 방법입니다. 이 메서드는 AppMeasurement.js 파일을 구성하여 구현됩니다. 자세한 내용은 쿠키 및 [경험 플랫폼 ID 서비스를 참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+
+![쿠키 차이](assets/cookieimage.PNG)
 
 ## 현재 브라우저가 Analytics 쿠키를 저장하고 관리하려면 어떻게 해야 합니까?
 
@@ -69,7 +71,7 @@ Google이 쿠키를 잘못 처리했다고 식별한 브라우저의 경우, `Sa
 다음 표에는 Analytics 쿠키가 요약되어 있습니다.
 
 
-[Analytics 쿠키 테이블]
+![Analytics 쿠키 테이블](assets/cookie_table.png)
 
 
 ## Chrome, Firefox 및 Edge의 변경 사항을 위해 사이트를 준비하는 가장 좋은 방법은 무엇입니까?
