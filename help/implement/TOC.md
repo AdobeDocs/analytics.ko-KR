@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
+source-git-commit: 1aaba87b40f1715fe8365b60b6a4afab9b4b3a3d
 
 ---
 
@@ -168,7 +168,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
          + [javascriptVersion](js-implementation/page-variables/javascriptversion.md)
          + [linkName](js-implementation/page-variables/linkname.md)
          + [linkType](js-implementation/page-variables/linktype.md)
-         + [ListProp](js-implementation/page-variables/listprops.md)
+         + [ListProps](js-implementation/page-variables/listprops.md)
          + [ListVariable](js-implementation/page-variables/listvariable.md)
          + [maxDelay](js-implementation/page-variables/maxdelay.md)
          + [mediaLength](js-implementation/page-variables/medialength.md)
@@ -263,6 +263,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Analytics 방문자 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [대체 ID 방법](js-implementation/c-unique-visitors/visid-fallback.md)
       + [모바일 장치 식별](js-implementation/c-unique-visitors/visid-mobile.md)
+      + [브라우저 및 분석 쿠키](js-implementation/c-unique-visitors/cookie-changes.md)
    + [Experience Cloud 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + 크로스 장치 방문자 식별 {#cross-device-visitor-id}
       + [여러 장치에서 사용자 연결](js-implementation/xdevice-visid/xdevice-connecting.md)
@@ -303,4 +304,4 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
    + [보고서-변수 매핑](impl-testing/report-variable-mapping.md)
    + [변수-보고서 매핑](impl-testing/var-report-mapping.md)
 + [Analytics for Digital Assistants 구현](c-analytics-digital-assistants/digital-assistants-white-paper.md)
-+ [모바일 장치용 분석 구현](mobile-device-sdk.md)
++ [모바일 장치용 Analytics 구현](mobile-device-sdk.md)
