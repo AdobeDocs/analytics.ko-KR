@@ -3,7 +3,7 @@ description: Analytics 쿠키
 title: 브라우저 및 분석 쿠키 FAQ
 uuid: null
 translation-type: tm+mt
-source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
+source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 ---
 
@@ -71,7 +71,7 @@ Google이 쿠키를 잘못 처리했다고 식별한 브라우저의 경우, `Sa
 다음 표에는 Analytics 쿠키가 요약되어 있습니다.
 
 
-![Analytics 쿠키 테이블](assets/cookie_table.png)
+![Analytics 쿠키 테이블](assets/cookietable.png)
 
 
 ## Chrome, Firefox 및 Edge의 변경 사항을 위해 사이트를 준비하는 가장 좋은 방법은 무엇입니까?
