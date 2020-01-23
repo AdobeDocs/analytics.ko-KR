@@ -5,12 +5,56 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ---
 
 
 # Analysis Workspace의 새로운 기능
+
+## 2020년 1월
+
+2020년 1월 16일에 릴리스된 새로운 기능.
+
+| 기능 | 설명 |
+|--- |--- |
+| [자유 형식 테이블 빌더](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_(기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
+
+## 2019년 10월
+
+2019년 10월 10일에 릴리스되었습니다.
+
+| 개선 사항 | 설명 |
+|--- |--- |
+| 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]**및**[!UICONTROL &#x200B;총합계]**라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]**및**[!UICONTROL &#x200B;총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된**[!UICONTROL &#x200B;요약 번호]** 시각화)됩니다. |
+| 지정되지 않음/없음 제거 옵션 | 다음 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
+| 자주색 세부기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]**섹션도**[!UICONTROL &#x200B;날짜 범위]**로 이름이 변경되었습니다. |
+
+## 2019월 8일
+
+2019년 8월 8일에 릴리스되었습니다.
+
+| 개선 사항 | 설명 |
+|--- |--- |
+| 드롭다운 필터의 항목 제한을 50에서 200으로 늘림 | 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가(195) 추가, 모든 미국 주 및 도(52) 추가와 같은 다양한 활용 사례를 포용합니다. |
+
+## 2019년 7월
+
+2019년 7월 18일에 릴리스되었습니다.
+
+| 개선 사항 | 설명 |
+|--- |--- |
+| 향상된 집단 분석 | 새 [집단 분석 설정](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)이 추가되었습니다. <ul><li>백분율만 표시</li><li>백분율 반올림</li><li>평균 백분율 행 표시</li></ul> |
+| 지난 18개월의 항목 표시 | 왼쪽 레일에서 이제 사용자는 _지난 18개월 동안의 항목을 표시_&#x200B;할 수 있습니다. 이전에는 되돌아보기 기간이 최대 6개월이었습니다. 이를 통해 최대 18개월 전, 전년도의 페이지 또는 캠페인과 더욱 쉽게 비교할 수 있습니다. |
+| 새 Analysis Workspace 템플릿 | Analysis Workspace에 [&quot;Magento: 마케팅 및 상거래&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)라는 새로운 템플릿을 추가했습니다. Magento 전자 상거래 고객을 위해 특별히 고안되었지만 모든 소매업체는 이를 통해 상거래 활동에 대한 고유한 통찰력을 얻을 수 있습니다. |
+
+## 2019년 6월
+
+2019년 6월 13일에 릴리스되었습니다.
+
+| 개선 사항 | 설명 |
+|--- |--- |
+| 새로운 기본 필터 | 왼쪽 레일 검색에 바로 사용할 수 있는 새로운 필터가 추가되었습니다. 현재 표시되는 항목(차원, 지표, 승인됨 등) 외에도 계산된 지표, 고객 특성, eVar, Props, 비디오 등의 새로운 필터가 추가되었으므로 필요한 구성 요소를 찾기가 쉬워집니다. |
 
 ## 2019년 5월
 
