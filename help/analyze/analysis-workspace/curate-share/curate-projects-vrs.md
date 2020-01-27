@@ -2,7 +2,7 @@
 title: VRS 및 프로젝트 큐레이션
 description: vrs 구성 요소 및 프로젝트 조정 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 프로젝트 또는 VRS(가상 보고서 세트)를 조정하는 경우 기본적으로 사용하려는 프로젝트/VRS 구성 요소(차원, 지표, 세그먼트, 날짜 범위)만 대상에게 표시되도록 구성 요소를 필터링합니다.
 
->[!N참고]
+>[!NOTE]
 >
 >제품 프로필은 사용자가 볼 수 있는 구성 요소를 제어하는 기본 메커니즘입니다. They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). 큐레이션은 보조 필터입니다.
 
