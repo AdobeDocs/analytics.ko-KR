@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
 
 ---
 
@@ -232,7 +232,20 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Report Builder 문제 해결 및 우수 사례](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Activity Map 개요](activity-map/activity-map.md)
+   + 시작하기 {#getting-started}
+      + 관리자용 시작하기 {#get-started-admins}
+         + [Activity Map 활성화](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [샘플 구현 코드](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+      + 사용자용 시작하기 {#get-started-users}
+         + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+         + [Activity Map 시작](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [강력한 링크 추적](activity-map/lnk-tracking-overview.md)
+   + 링크 추적 {#link-tracking}
+      + [링크 추적 방식](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
+      + [링크 추적 FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [동일한 링크 ID 및 영역을 참조하는 링크 차별화](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [링크 추적 중지](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
+      + [s. tl() 함수 사용](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [표준 모드와 라이브 모드 비교](activity-map/activitymap-standard-live.md)
    + [링크 보고서](activity-map/activitymap-links-report.md)
    + [페이지 세부정보](activity-map/activitymap-page-flow.md)
@@ -244,20 +257,6 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [CSV 파일로 내보내기](activity-map/activitymap-csv.md)
    + [지원되는 시스템 및 요구 사항](activity-map/activitymap-sysreqs.md)
    + [Activity Map FAQ](activity-map/activitymap-faq.md)
-   + 시작하기 {#getting-started}
-      + 관리자용 시작하기 {#get-started-admins}
-         + [Activity Map 활성화](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [샘플 구현 코드](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + 사용자용 시작하기 {#get-started-users}
-         + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Activity Map 시작](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-   + 링크 추적 {#link-tracking}
-      + [링크 추적 방식](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [링크 추적 FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [동일한 링크 ID 및 영역을 참조하는 링크 차별화](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [링크 추적 시작](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
-      + [링크 추적 중지](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [s. tl() 함수 사용](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Activity Map 설정 구성](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 사용자 인터페이스](activity-map/activitymap-user-interface.md)
    + [Analytics에서의 Activity Map 보고](activity-map/activitymap-reporting-analytics.md)
