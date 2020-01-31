@@ -2,7 +2,7 @@
 title: 작업 공간의 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 공간에서 프로젝트를 만드는 방법 및 이유 살펴보기
 translation-type: tm+mt
-source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
 ## 활성 패널
 
-이 기능을 통해 "활성 패널"과 "비활성 패널"의 개념을 소개합니다. 활성 패널은 주위의 연한 파란색 테두리로 인식할 수 있습니다. 패널 내부를 클릭하면 해당 패널이 활성 패널로 표시됩니다.
+이 기능을 통해 &quot;활성 패널&quot;과 &quot;비활성 패널&quot;의 개념을 소개합니다. 활성 패널은 주위의 연한 파란색 테두리로 인식할 수 있습니다. 패널 내부를 클릭하면 해당 패널이 활성 패널로 표시됩니다.
 
 >[!IMPORTANT]
 >다른 패널에 동일한 보고서 세트가 있더라도 구성 요소를 **활성 패널에만**&#x200B;드래그하여 놓을 수 있습니다. 드래그 앤 드롭 중에 패널을 변경하려면 짧은 컷을 사용할 수 있습니다.드래그하는 `shift` 동안 키를 눌러 비활성 패널을 활성 패널로 변경합니다.
@@ -43,12 +43,12 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
 
    >[!NOTE]
-   >경우에 따라 프로젝트에 포함된 일부 구성 요소가 보고서 세트에 포함되지 않는 프로젝트를 로드하거나 보고서 세트로 전환할 때 "호환되지 않는 보고서 세트" 메시지가 표시됩니다. 누락된 구성 요소가 나열됩니다. 다음 지침에 [따라](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) 필요한 지표/차원으로 권한을 설정합니다.
+   >경우에 따라 프로젝트에 포함된 일부 구성 요소가 보고서 세트에 포함되지 않는 프로젝트를 로드하거나 보고서 세트로 전환할 때 &quot;호환되지 않는 보고서 세트&quot; 메시지가 표시됩니다. 누락된 구성 요소가 나열됩니다. 다음 지침에 [따라](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) 필요한 지표/차원으로 권한을 설정합니다.
 
    ![](assets/incompat-rs.png)
 
-   1. 다음 세 가지 옵션을 사용하여 비호환성 문제를 해결할 수 있습니다.
-   * 일부 누락된 구성 요소를 계속 사용하십시오.
+   다음 세 가지 옵션을 사용하여 비호환성 문제를 해결할 수 있습니다.
+   * 일부 누락된 구성 요소를 계속 사용하십시오. 이렇게 하면 해당 구성 요소에 대한 데이터가 없고, 빈 시각화가 표시됩니다.
    * 실행 취소.
    * 보고서 세트 변경.
 
@@ -58,6 +58,6 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
 1. (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 현재 보고서 세트 레이블이
 
-   * 세그먼트를 만들 위치(세그먼트 빌더).
-   * 계산된 지표가 만들어지는 위치(계산된 지표 빌더).
-   * 경고를 작성할 위치(경고 빌더).
+   * 세그먼트를 만들 위치:세그먼트 [빌더](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * 계산된 지표가 만들어지는 위치:계산된 [지표 빌더를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * 경고를 작성할 위치:경고 [빌더](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
