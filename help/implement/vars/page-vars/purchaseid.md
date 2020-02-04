@@ -1,0 +1,32 @@
+---
+title: purchaseID
+description: 고유 구매 식별자를 기반으로 히트 중복 제거
+translation-type: tm+mt
+source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+
+---
+
+
+# purchaseID
+
+이 `purchaseID` 변수는 동일한 구매를 포함하는 히트가 보고서를 부풀리지 않도록 하는 데 도움이 됩니다. 예를 들어 방문자가 구매 확인 페이지에 도달하는 경우 일반적으로 트랜잭션에서 생성된 매출에 대한 데이터를 Adobe로 보냅니다. 사용자가 이 페이지를 여러 번 새로 고치거나 나중에 방문하도록 페이지를 책갈피로 만들면 해당 히트가 보고서를 부풀릴 수 있습니다. 둘 이상의 히트에 동일한 구매 ID가 있을 때 이 `purchaseID` 변수는 지표 중복을 제거합니다.
+
+Adobe가 히트를 중복 구매로 인식하면 모든 전환 데이터(예: eVar 및 이벤트)가 보고에 표시되지 않습니다. 데이터 피드에서 이 `duplicate_purchase` 열은 로 설정됩니다 `1`.
+
+구매 ID는 모든 방문자에게 적용되며 만료되지 않습니다. 한 방문자가 주어진 구매 ID를 설정한 경우 다른 방문자가 1년 후 동일한 구매 ID를 설정하면 두 번째 구매가 중복 제거됩니다.
+
+## Adobe Experience Platform Launch의 구매 ID
+
+Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용합니다.
+
+## s.purchaseID in AppMeasurement and Launch 사용자 지정 코드 편집기
+
+이 `s.purchaseID` 변수는 구매에 대한 고유 식별자를 포함하는 문자열입니다. 구매 이벤트와 동일한 히트에 설정됩니다. 이 변수를 채우려면 영숫자만 사용합니다.
+
+이 변수는 최대 20바이트를 저장할 수 있습니다.20바이트보다 긴 값은 잘립니다. 이 잘린 값이 이후 잘린 값과 일치하는 경우 그 후속 히트가 중복 제거됩니다.
+
+```js
+s.purchaseID = "ABC123";
+```
+
+> [!NOTE] 구매 ID를 생성하는 데 무작위 함수를 사용하지 마십시오. Adobe recommends using a [data layer](../../prepare/data-layer.md) to store a given purchase ID.
