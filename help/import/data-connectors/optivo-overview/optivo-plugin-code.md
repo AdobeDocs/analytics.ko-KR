@@ -3,7 +3,7 @@ description: JavaScript 플러그인 데이터 수집 방법을 선택한 경우
 title: Adobe Analytics 플러그인 코드
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
