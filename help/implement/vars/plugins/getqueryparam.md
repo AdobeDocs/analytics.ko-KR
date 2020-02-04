@@ -2,14 +2,14 @@
 title: getQueryParam
 description: URL의 쿼리 문자열 매개 변수 값을 추출합니다.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe 플러그인:getQueryParam
 
-> [!IMPORTANT] Adobe Consulting에서 제공하는 이 플러그인은 Adobe Analytics를 사용하여 더 많은 가치를 창출할 수 있도록 도움을 줍니다. Adobe 고객 지원 센터에서는 설치 또는 문제 해결을 포함하여 이 플러그인을 지원하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 그들은 도움을 받기 위해 컨설턴트와 회의를 예약할 수 있다.
+> [!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 제공합니다. Adobe 고객 지원 센터에서는 설치 또는 문제 해결을 포함하여 이 플러그인을 지원하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 그들은 도움을 받기 위해 컨설턴트와 회의를 예약할 수 있다.
 
 이 `getQueryParam` 플러그인을 사용하면 URL에 포함된 모든 쿼리 문자열 매개 변수의 값을 추출할 수 있습니다. 랜딩 페이지 URL에서 내부 및 외부 캠페인 코드를 추출하는 데 유용합니다. 검색어 또는 다른 쿼리 문자열 매개 변수를 추출할 때도 유용합니다.
 
