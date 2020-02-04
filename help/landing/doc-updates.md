@@ -3,7 +3,7 @@ title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 
 ---
 
@@ -20,7 +20,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 | 날짜 | 설명 |
 |---|---|
-| 2020년 1월 22일 | 새 자유 형식 테이블 빌더에 대한 정보를 포함하는 [업데이트된 자유 형식 테이블 페이지](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
+| 2020년 2월 4일 | 구현 [사용 안내서의](../implement/home.md)전체 다시 작성 |
+| 2020년 1월 22일 | 새 자유 형식 테이블 빌더에 대한 정보가 포함된 자유 형식 [테이블 페이지를 업데이트했습니다](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 2020년 1월 13일 | Adobe [Analytics 및 브라우저 쿠키를](../technotes/cookies.md)추가했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)에 대한 새로운 항목 |
 | 2019년 11월 25일 | [내부(세션 새로 고침) 마케팅 채널](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)에 대한 새로운 항목 |
