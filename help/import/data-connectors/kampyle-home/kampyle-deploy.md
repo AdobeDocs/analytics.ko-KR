@@ -3,7 +3,7 @@ description: 'null'
 title: 통합 배포
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -17,20 +17,20 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 통합을 활성화하려면 데이터 커넥터 인터페이스 내에서 구성 마법사를 완료해야 합니다.
 
 1. Adobe Experience Cloud에 로그인합니다.
-1. 데이터 커넥터( **[!UICONTROL 이전 Genesis]** )로 이동합니다.
+1. 데이터 커넥터( **[!UICONTROL 이전 Genesis]**)로 이동합니다.
 1. Kampyle 통합 마법사를 시작합니다.
 1. 원하는 보고서 세트를 선택하고 통합 이름을 제공합니다.
 1. 다음 항목을 구성합니다.
-   1. **[!UICONTROL 이메일 주소]** - 기본 연락처의 이메일 주소입니다.
-   1. **[!UICONTROL 설명]** - (선택 사항) 이 통합 설정에 대한 설명입니다.
-   1. **[!UICONTROL Kampyle]** Key - Kampyle 애플리케이션에서 이 키를 **[!UICONTROL 피드백 양식]** &gt; 피드백 양식 **[!UICONTROL 사용자 정의에서 찾을 수 있습니다]**.
-   1. **[!UICONTROL 추적 서버]** - Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정입니다.
-   1. **[!UICONTROL 추적 서버 보안]** - 추적 서버가 보안/https 트래픽에 대해 다른 경우 여기에서 해당 설정을 제공합니다.
-1. 다음 변수 **[!UICONTROL 매핑]** 항목을 구성합니다.
-   1. **[!UICONTROL Kampyle 피드백]** ID - 보고서 세트에서 사용 가능한 eVar 변수를 선택합니다.
-   1. **[!UICONTROL 피드백 등급]** - 보고서 세트에서 사용 가능한 성공 이벤트("카운터" 유형)를 선택합니다.
-   1. **[!UICONTROL 피드백]** 항목 - 보고서 세트에서 사용 가능한 성공 이벤트("카운터" 유형)를 선택합니다.
-   1. **[!UICONTROL 등급 피드백]** - 보고서 세트에서 사용 가능한 성공 이벤트("카운터" 유형)를 선택합니다.
+   1. **[!UICONTROL 이메일 주소]**- 기본 연락처의 이메일 주소입니다.
+   1. **[!UICONTROL 설명]**- (선택 사항) 이 통합 설정에 대한 설명입니다.
+   1. **[!UICONTROL Kampyle]**Key - Kampyle 애플리케이션에서 이 키를**[!UICONTROL &#x200B;피드백 양식]** > 피드백 양식 **[!UICONTROL 사용자 정의에서 찾을 수 있습니다]**.
+   1. **[!UICONTROL 추적 서버]**- Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정입니다.
+   1. **[!UICONTROL 추적 서버 보안]**- 추적 서버가 보안/https 트래픽에 대해 다른 경우 여기에서 해당 설정을 제공합니다.
+1. 다음 변수 **[!UICONTROL 매핑]**항목을 구성합니다.
+   1. **[!UICONTROL Kampyle 피드백]**ID - 보고서 세트에서 사용 가능한 eVar 변수를 선택합니다.
+   1. **[!UICONTROL 피드백 등급]**- 보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 유형)를 선택합니다.
+   1. **[!UICONTROL 피드백]**항목 - 보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 유형)를 선택합니다.
+   1. **[!UICONTROL 등급 피드백]**- 보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 유형)를 선택합니다.
 1. Kampyle 통합 대시보드를 자동으로 만들려면 이 확인란을 선택합니다(권장).
 1. 모든 구성 항목을 검토하고 지금 **[!UICONTROL 활성화를 클릭합니다]**.
 
@@ -42,8 +42,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] Adobe TagManager 또는 다이내믹 태그 관리를 사용하여 Adobe Analytics를 배포하는 경우 해당 도구를 통해 통합 구성 개체를 쉽게 추가할 수 있습니다.
 
-1. 통합의 **[!UICONTROL 리소스]** &gt; **[!UICONTROL 지원]** 탭으로 이동합니다.
-1. Kampyle JS( **[!UICONTROL Integration Code)]** 리소스를 다운로드하여 저장합니다. 코드는 다음과 비슷합니다.
+1. 통합의 **[!UICONTROL 리소스]**>**[!UICONTROL &#x200B;지원]** 탭으로 이동합니다.
+1. Kampyle JS( **[!UICONTROL Integration Code)]**리소스를 다운로드하여 저장합니다. 코드는 다음과 비슷합니다.
 
    ```
    /* Kampyle:  Integration configuration settings */
@@ -59,7 +59,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 통합 활동 로그 {#section-0472df9180db4f218db5f6040cab07af}
 
-지원 &gt; 통합 활동 로그로 이동하여 Adobe Experience Cloud에서 Kampyle **[!UICONTROL 통합]** 설정을 봅니다 ****. 데이터 **[!UICONTROL 위치]** 탭 아래에서 분류 데이터를 성공적으로 가져왔다는 항목이 표시됩니다.
+지원 > 통합 활동 로그로 이동하여 Adobe Experience Cloud에서 Kampyle **[!UICONTROL 통합]**설정을 봅니다****. 데이터 **[!UICONTROL 위치]**탭 아래에서 분류 데이터를 성공적으로 가져왔다는 항목이 표시됩니다.
 
 > [!NOTE] 로그 항목은 성공적으로 배포한 후 24시간 이내에 표시됩니다.
 
