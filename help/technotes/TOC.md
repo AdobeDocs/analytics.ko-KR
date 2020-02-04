@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: f8c8253b59d6297e4028e812bd05ee7528ef00ff
 
 ---
 
@@ -33,7 +33,6 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 + [리디렉션 및 별칭](redirects.md)
 + 지역 데이터 수집 {rdc}
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
-   + [환경 특성](rdc/rdc-environment-characteristics.md)
    + [SSL 공인 라이선스](rdc/ssl-cert-licensing.md)
 + [사용된 용어(글로서리)](terms.md)
 + [타임스탬프 선택 사항](timestamps-optional.md)
