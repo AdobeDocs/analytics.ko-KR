@@ -1,105 +1,35 @@
 ---
-description: JavaScript용 AppMeasurement 플러그인은 여러가지 고급 기능을 수행하는 프로그램 또는 기능입니다.
-keywords: Analytics Implementation
-subtopic: Plug-ins
-title: 구현 플러그인 사용
-topic: Developer and implementation
-uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
+title: 플러그인 개요
+description: 사이트에 코드를 붙여넣어 새로운 기능을 소개합니다.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
-# 구현 플러그인 사용
+# 플러그인 개요
 
-플러그인은 Analytics 구현에 도움이 되는 몇 가지 고급 기능을 수행하는 코드 조각입니다.
+플러그인은 Analytics 구현에 도움이 되는 몇 가지 고급 기능을 수행하는 코드 조각입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다.
 
-이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다. JavaScript를 사용하여 데이터를 캡처하고 싶지만 진행하는 방법을 모르는 경우에는 담당 계정 관리자에게 문의하십시오.
+> [!IMPORTANT] Adobe Consulting에서 제공하는 플러그인은 Adobe Analytics를 통해 더 많은 가치를 창출할 수 있도록 지원합니다. Adobe 고객 지원 센터는 설치 또는 문제 해결을 비롯한 이러한 플러그인을 지원하지 않습니다. 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 그들은 도움을 받기 위해 컨설턴트와 회의를 예약할 수 있다.
 
-JavaScript plug-ins are usually called by the doPlugins function, which is executed when the `t` method is called in the Code to Paste.
+Adobe는 특정 플러그인을 설치하는 여러 가지 방법을 제공합니다.
 
-따라서 *`doPlugins`*함수에 변수를 설정하면 HTML 페이지에 설정한 변수를 덮어쓸 수 있습니다.*`doPlugins`* 함수는 [!UICONTROL usePlugins] 변수가 &#39;false&#39;로 설정된 경우 호출되지 않습니다.
+1. Adobe Experience Platform Launch를 사용하여 &#39;Common Analytics Plugins&#39; 익스텐션 사용
+2. Launch 사용자 정의 코드 편집기를 사용하여 플러그인 코드 붙여넣기
+3. 플러그인 코드를 `AppMeasurement.js` 파일에 붙여넣기
 
-## 코드 예 {#section_6940FD16F2E94753A1C39694D0CF5FBA}
+각 조직에는 서로 다른 구현 요구 사항이 있으므로 구현에 이러한 요구 사항을 포함할 방법을 결정할 수 있습니다. 사이트에 코드를 포함할 때 다음 기준을 충족하는지 확인합니다.
 
-아래 코드 예는 JavaScript 파일에서 *`doPlugins`*함수가 어떻게 표시되는지 보여 줍니다.
+1. 먼저 Analytics 추적 개체(사용 `s_gi`)를 인스턴스화합니다.
+   * Launch는 Adobe Analytics가 로드될 때 추적 개체를 자동으로 인스턴스화합니다.
+   * 일반적으로 JavaScript 파일의 맨 위에 있는 추적 개체를 초기화하는 `AppMeasurement.js` 것이 좋습니다.
+2. 두 번째 플러그인 코드를 포함합니다.
+   * &#39;Common Analytics Plugins&#39; 익스텐션에는 플러그인을 초기화할 수 있는 작업 구성이 있습니다.
+   * 플러그인을 사용하지 않으려면 Analytics 확장 기능을 구성할 때 사용자 지정 코드 편집기에 플러그인 코드를 붙여넣을 수 있습니다.
+   * 구현에서 Launch를 사용하지 않는 경우 추적 개체를 인스턴스화한 후 `AppMeasurement.js` 어디에나 플러그인 코드를 붙여넣을 수 있습니다.
+3. 플러그인을 세 번째 플러그인으로 호출합니다.
+   * Launch 내외부에서 모든 구현은 JavaScript를 사용하여 플러그인을 호출합니다. 해당 플러그인 페이지에 설명된 형식을 사용하여 플러그인을 호출합니다.
+4. 구현의 유효성을 확인하고 게시합니다.
 
-JavaScript용 AppMeasurement:
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
-}
-```
-
-H 코드:
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-function s_doPlugins(s) {
- /* Add calls to plug-ins here */
-}
-s.doPlugins=s_doPlugins
-```
-
-> [!NOTE]H 코드 및 이전 버전은 다양한 구문을 사용하여 아주 오래된 일부 브라우저(IE 4 및 5 등)를 지원합니다.
-
-## doPlugins 함수 이름 바꾸기 {#section_70B7D58E057B48058E25907AB3726725}
-
-일반적으로 *`doPlugins`*함수를*`s_doPlugins`*&#x200B;라고 합니다. 상황에 따라(보통 단일 페이지에 두 개 이상의 코드 버전이 표시될 수 있는 경우) *`doPlugins`*함수 이름이 변경될 수 있습니다. 충돌을 방지하기 위해 표준*`doPlugins`* 함수 이름을 변경해야 하는 경우 아래 예에 표시된 대로 *`doPlugins`*에 올바른 함수 이름이 지정되는지 확인합니다.
-
-```js
-/* Plugin Config */
-s_mc.usePlugins=true
-function s_mc_doPlugins(s_mc) {
- /* Add calls to plug-ins here */
-}
-s_mc.doPlugins=s_mc_doPlugins
-```
-
-## doPlugins 사용 {#section_FA5D901CC5214D54BCD08AB77BED7925}
-
-*`doPlugins`*함수를 사용하면 간단하게 변수에 기본값을 제공하거나 사이트의 페이지에 있는[!UICONTROL 쿼리 문자열 매개 변수]에서 값을 가져올 수 있습니다.*`doPlugins`*&#x200B;를 사용하면 한 파일만 업데이트해야 하므로 종종 HTML 페이지에 값을 채우는 것보다 간편합니다. JavaScript 파일의 변경이 항상 즉각적인 것은 아닙니다. 사이트를 다시 방문하는 방문자는 캐시된 버전의 JavaScript 파일을 사용하는 경우가 많습니다. 즉, 변경한 후 한 달이 지날 때까지 파일 업데이트가 모든 방문자에게 적용되지 않을 수도 있습니다.
-
-다음 예는 *`doPlugins`*함수를 사용하여 변수에 대한 기본값을 설정하고 쿼리 문자열의 값을 가져올 수 있는 방법을 보여 줍니다.
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
- // if prop1 doesn't have a value, set it to "Default Value"
- if(!s.prop1)
-s.prop1="Default Value"
-
- // if campaign doesn't have a value, get cid from the query string
- if(!s.campaign)
-s.campaign=s.getQueryParam('cid');
-
-// Note: The code to read query parameters is different for
-// Appmeasurement for JavaScript since a plug-in is not required:
-// s.campaign=s.Util.getQueryParam('cid');
-}
-```
-
-## 설치된 플러그인 {#section_C5494347D85940A78670032199787CD0}
-
-플러그인이 JavaScript 파일에 포함되어 있고 사용할 준비가 되었는지 확인하려면 JavaScript 파일의 [!UICONTROL Plugins Section]을 확인합니다. 다음 예는 [!UICONTROL getQueryParam] 함수를 보여 줍니다.
-
-```js
-/************************** PLUGINS SECTION *************************/
-/* You may insert any plug-ins you wish to use here.                 */
-/*
- * Plugin: getQueryParam 1.3 - Return query string parameter values
- */
-s.getQueryParam=new Function("qp","d",""
-+"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l"
-//
-// ... more code below ...
-//
-```
-
+많은 조직에서 이 [`doPlugins`](../functions/doplugins.md) 기능을 사용하여 플러그인을 호출합니다. 이 기능은 필수는 아니지만 Adobe는 이를 가장 좋은 사용 방법으로 간주합니다. AppMeasurement는 이미지 요청을 컴파일하고 전송하기 직전에 이 함수를 호출합니다. 여러 플러그인은 다른 Analytics 변수에 종속되므로 이상적입니다.
