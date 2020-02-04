@@ -2,7 +2,7 @@
 title: addProductEvar
 description: 제품 변수에 머천다이징 eVar를 추가합니다.
 translation-type: tm+mt
-source-git-commit: d73ba14ac217ad6a46c16a29b4e19b265573fdda
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -23,13 +23,13 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 원하는 속성을 클릭합니다.
 1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
 1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
-1. 아직 설치하지 않은 경우, 다음 구성으로 &quot;플러그인 초기화&quot;라는 새 실행 규칙을 만듭니다.
+1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
 1. 다음 구성으로 위 규칙에 작업을 추가합니다.
    * 확장:공통 Analytics 플러그인
    * 작업 유형:AddProductEvar 초기화
-1. 규칙 변경 내용을 저장하고 규칙에 게시
+1. 변경 내용을 저장하고 규칙에 게시합니다.
 
 ## Launch 사용자 정의 코드 편집기를 사용하여 플러그인 설치
 
