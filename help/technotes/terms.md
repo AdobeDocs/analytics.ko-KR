@@ -2,7 +2,7 @@
 title: Adobe Analytics에서 사용되는 용어
 description: Adobe Analytics 용어집, 사용되는 일반 용어 정의
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -23,22 +23,22 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** 바운스:단일 히트로 구성된 방문입니다. 구성 [요소](/help/components/c-variables/c-metrics/metrics-bounces.md) 사용 안내서의 바운스 수를 참조하십시오. 단일 액세스를 참조하십시오.
 * **** 계산된 지표:보고에 사용할 기존 지표, 통계 함수 및 수식의 조합을 허용합니다. 구성 [요소 사용 안내서의 계산된 지표를](/help/components/c-calcmetrics/cm-overview.md) 참조하십시오.
 * **** 캠페인:참조:
-   * 추적 코드 차원을 채우는 캠페인 변수입니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
+   * 추적 코드 차원을 채우는 캠페인 변수입니다. 구현 사용자 안내서에서 [캠페인을](../implement/vars/page-vars/campaign.md) 참조하십시오.
    * 추적 코드 차원의 기본 분류;자동으로 모든 보고서 세트에 대해 만들어집니다.
    * Adobe Experience Cloud에 포함된 Adobe Campaign Adobe.com에 [대한 자세한 내용](https://www.adobe.com/marketing/campaign.html).
 * **** 채널:참조:
-   * 사이트 섹션 차원을 채우는 채널 변수. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
+   * 사이트 섹션 차원을 채우는 채널 변수. 구현 사용 안내서에서 [채널을](../implement/vars/page-vars/channel.md) 참조하십시오.
    * 마케팅 채널 - 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소입니다. 구성 [요소](/help/components/c-marketing-channels/c-overview.md) 사용 안내서의 마케팅 채널을 참조하십시오.
 * **** 분류:차원 값을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 [요소](/help/components/c-classifications2/c-classifications.md) 사용 안내서의 분류를 참조하십시오.
 * **** Clickmap:더 이상 사용되지 않습니다. 사이트에서 가장 많이 클릭한 영역을 보여주는 레거시 브라우저 플러그인입니다. 이 도구는 Activity Map을 위해 사용이 중단되었습니다.
 * **** 클릭스트림 데이터 피드:데이터 피드를 참조하십시오.
 * **** 집단:주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. See [What is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 을 참조하십시오.
 * **** 컬렉션 서버:데이터 수집 서버를 참조하십시오.
-* **** 컨텍스트 데이터 변수:처리 규칙에만 사용되는 임시 변수입니다. 처리 규칙이 변환 또는 트래픽 변수에 복사하지 않으면 컨텍스트 데이터 변수 값이 영구적으로 손실됩니다. 구현 [사용 안내서의 컨텍스트 데이터 변수를](/help/implement/js-implementation/c-variables/context-data-variables.md) 참조하십시오.
+* **** 컨텍스트 데이터 변수:처리 규칙에만 사용되는 임시 변수입니다. 처리 규칙이 변환 또는 트래픽 변수에 복사하지 않으면 컨텍스트 데이터 변수 값이 영구적으로 손실됩니다. 구현 [사용 안내서의 컨텍스트 데이터 변수를](../implement/vars/page-vars/contextdata.md) 참조하십시오.
 * **** 전환 변수:구어체는 eVar로 알려져 있습니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** 상관 관계:더 이상 용어로 사용되지 않습니다.차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 [사용 안내서에서 차원](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 분류를 참조하십시오.
 * **** 현재 데이터:아직 완전히 처리되지 않은 최근 수집된 데이터를 포함할 수 있는 일부 보고서의 옵션입니다. 분석 [사용 안내서에서 현재 데이터를](/help/analyze/reports-analytics/current-data.md) 참조하십시오.
-* **** 사용자 지정 링크:페이지 보기 데이터가 아닌 히트 유형. 구현 사용 안내서에서 [s.tl() 함수를](/help/implement/js-implementation/function-tl.md) 참조하십시오. 히트를 참조하십시오.
+* **** 사용자 지정 링크:페이지 보기 데이터가 아닌 히트 유형. 구현 사용 안내서에서 [s.tl() 함수를](../implement/vars/functions/tl.md) 참조하십시오. 히트를 참조하십시오.
 * **** 고객 속성:속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 [서비스 사용 안내서의 고객 속성을](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) 참조하십시오.
 * **** 고객 지원 담당자:Adobe 고객 지원 센터와 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience [Cloud 기술 자료에서 고객 지원](https://helpx.adobe.com/experience-cloud/supported-users.html) 담당자를 참조하십시오.
 * **** 데이터 수집 서버:데이터를 받고 처리하는 Adobe 소유 서버 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
@@ -47,8 +47,8 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** 데이터 소스:사용자가 파일의 데이터를 Adobe Analytics로 업로드할 수 있습니다. 파일은 일반적으로 FTP 사이트에서 가져옵니다. 가져오기 [사용 안내서의](/help/import/c-data-sources/datasrc-home.md) 데이터 소스를 참조하십시오.
 * **** 데이터 웨어하우스:더 큰 보고서를 요청할 수 있는 Adobe Analytics의 기능입니다. 내보내기 [사용 안내서의](/help/export/data-warehouse/data-warehouse.md) 데이터 웨어하우스를 참조하십시오.
 * **** 차원:텍스트와 같은 변수 값을 포함하는 구성 요소 유형입니다. 예: 페이지 이름, 추적 코드 또는 참조 도메인. 지표는 일반적으로 해당 지표입니다.
-* **** 다이내믹 태그 관리:Adobe의 이전 태그 관리 솔루션 구현 [사용 안내서의 DTM 구현 개요를](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md) 참조하십시오. Adobe에서는 Adobe Experience Platform Launch를 대신 사용하는 것이 좋습니다.
-* **** 이벤트 정리:중복 이벤트 수집을 방지하기 위한 조치를 구현하는 프로세스입니다. 구현 [사용 안내서의 이벤트 정리를](/help/implement/js-implementation/event-serialization.md) 참조하십시오.
+* **** 다이내믹 태그 관리:Adobe의 이전 태그 관리 솔루션 구현 [사용 안내서의 DTM 구현 개요를](/help/implement/other/dtm/dtm-implementation-overview.md) 참조하십시오. Adobe에서는 Adobe Experience Platform Launch를 대신 사용하는 것이 좋습니다.
+* **** 이벤트 정리:중복 이벤트 수집을 방지하기 위한 조치를 구현하는 프로세스입니다. 구현 [사용 안내서의 이벤트 정리를](../implement/vars/page-vars/events/event-serialization.md) 참조하십시오.
 * **** eVar:전환 변수를 참조하십시오.
 * **** 이벤트:성공 이벤트를 참조하십시오.
 * **** ExcelClient:더 이상 용어로 사용되지 않습니다. Report Builder의 선행 작업 이름입니다.
@@ -56,7 +56,7 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** 흐름:사용자가 사이트에서 어떤 경로를 사용했는지 보여주는 분석 작업 공간의 시각화 유형입니다. 분석 [사용 안내서의 흐름 시각화를](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 참조하십시오.
 * **** Genesis:더 이상 용어로 사용되지 않습니다. 데이터 커넥터의 이전 이름입니다.
 * **** 글로벌 보고서 세트:여러 사이트에서 히트를 수집하는 보고서 세트에 지정된 비정규 용어입니다.
-* **** H 코드:AppMeasurement의 선행 작업 이전 버전의 Adobe Analytics에서 코드 버전은 H.27.5, H.26 등과 같이 "H 버전"으로 측정되었습니다.
+* **** H 코드:AppMeasurement의 선행 작업 이전 버전의 Adobe Analytics에서 코드 버전은 H.27.5, H.26 등과 같이 &quot;H 버전&quot;으로 측정되었습니다.
 * **** 히트:Adobe 데이터 수집 서버로 전송된 단일 이미지 요청 페이지 보기 횟수 및 사용자 지정 링크를 히트 수 있습니다.
 * **** 이미지 요청:Adobe 데이터 수집 서버와 통신하는 데 사용되는 투명 1x1 픽셀 이미지. 웹 사이트는 데이터를 포함하는 긴 쿼리 문자열로 보이지 않는 이미지를 요청합니다.Adobe는 보이지 않는 이미지를 반환하고 수신된 쿼리 문자열을 구문 분석합니다.
 * **** 인사이트:참조:
@@ -64,9 +64,9 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
    * 사용자 지정 트래픽 변수의 내역 이름인 사용자 지정 인사이트.
 * **** KPI:주요 성능 표시기의 약어. 비즈니스가 사이트의 성과를 이해하는 데 도움이 되는 지표. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 서로 다른 KPI가 있습니다. 구현 [사용 안내서에서 솔루션 디자인 문서](/help/implement/prepare/solution-design.md) 만들기를 참조하십시오.
 * **** 지연:데이터가 수집되는 시점과 보고서에서 사용할 수 있는 시점 사이의 지연. 보고서 세트의 일반적인 지연은 30-90분입니다. 기술 [정보](/help/technotes/latency.md) 사용 안내서의 지연을 참조하십시오.
-* **** 시작:Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch에 대한 개요입니다. Adobe [Experience](https://docs.adobe.com/content/help/en/launch/using/overview.html) Platform Launch 사용 안내서의 개요를 참조하십시오.
-* **** 목록 Prop:일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 Prop이 될 수 있습니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
-* **** 목록 변수:전환 변수와 별도의 변수. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 전환 변수와 유사한 변수 값이 방문 시 보존됩니다. 조직에서 사용할 수 있는 목록 변수는 세 개뿐입니다. 구현 [사용 안내서의 페이지 변수를](/help/implement/js-implementation/page-variables/page-variables.md) 참조하십시오.
+* **** 시작:Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch에 대한 개요입니다. See [Overview](https://docs.adobe.com/content/help/en/launch/using/overview.html) in the Adobe Experience Platform Launch user guide.
+* **** 목록 Prop:일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 Prop이 될 수 있습니다. 구현 사용 안내서에서 [prop](../implement/vars/page-vars/prop.md) 을 참조하십시오.
+* **** 목록 변수:전환 변수와 별도의 변수. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 전환 변수와 유사한 변수 값이 방문 시 보존됩니다. 조직에서 사용할 수 있는 목록 변수는 세 개뿐입니다. 구현 사용 안내서의 [목록을](../implement/vars/page-vars/list.md) 참조하십시오.
 * **** 로그인 회사:조직에서 사용하는 보고서 세트 컬렉션입니다. 일부 조직에는 조직의 다른 부분에 적용되는 여러 로그인 회사가 있습니다.
 * **** 마케팅 채널:Adobe Analytics의 기능으로서 히트가 사이트에 도착한 방법별로 히트를 분류합니다. 히트를 분류하는 데 사용되는 로직은 마케팅 채널 처리 규칙을 사용하여 사용자 지정할 수 있습니다. 구성 [요소 사용 안내서의 마케팅](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 채널 시작을 참조하십시오.
 * **** 지표:수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 횟수, 방문 횟수 및 매출액과 같은 숫자가 포함됩니다. 차원은 일반적으로 해당 차원입니다.
@@ -87,8 +87,8 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** 보고서 세트:데이터를 보내는 보관 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
 * **** 롤링 날짜 범위:시간이 경과함에 따라 변경되는 상대적 날짜 범위 유형입니다. 예를 들어 지난 7일을 보여주는 보고서는 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **** RSID:보고서 세트 ID의 약어. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
-* **** s.t():페이지 보기 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()` 대신 사용됩니다. 구현 사용 안내서에서 [s.t()](/help/implement/js-implementation/function-t.md) 를 참조하십시오.
-* **s<span>.</span>** tl():링크 추적 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.trackLink()` 대신 사용됩니다. 구현 사용 안내서에서 [s.tl()](/help/implement/js-implementation/function-tl.md) 을 참조하십시오.
+* **** s.t():페이지 보기 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()` 대신 사용됩니다. 구현 사용 [안내서에서](../implement/vars/functions/t.md) 을 참조하십시오.
+* **s<span>.</span>** tl():링크 추적 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.trackLink()` 대신 사용됩니다. 구현 사용 [안내서의 tl](../implement/vars/functions/tl.md) 을 참조하십시오.
 * **** s_code.js:이전 버전의 Adobe Analytics에 사용된 JavaScript 파일의 이름입니다. 사용되는 JavaScript 파일의 현재 이름은 AppMeasurement.js입니다.
 * **** 위성:더 이상 용어로 사용되지 않습니다. 다이내믹 태그 관리의 이전 제품 이름입니다.
 * **** 보조 서버 호출:이미지 요청 또는 히트에 대한 대체 이름. 대부분 다중 세트 태그 지정 및 청구 컨텍스트에서 사용됩니다. 동일한 히트가 여러 보고서 세트로 전송되면 첫 번째 목록 이후 모든 보고서 세트가 보조 서버 호출입니다. 기본 서버 호출을 참조하십시오.
