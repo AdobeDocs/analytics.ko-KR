@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+translation-type: tm+mt
+source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
 
@@ -74,6 +74,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
       + [DFA 데이터를 사용하는 Analytics Reports](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
       + [지표 불일치 조정](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
       + [FAQ](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
+      + [최대 지연](data-connectors/dfa-data-connector-analytics/maxdelay.md)
    + Adobe Analytics용 DreamMail Data Connector {#dreammail}
       + [Adobe Analytics용 DreamMail Data Connector](data-connectors/dreammail-overview/dreammail-overview.md)
       + [통합 활성화](data-connectors/dreammail-overview/t-dreammail-activate.md)
