@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 첫 번째 관리 안내서
 description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -28,12 +28,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. Adobe ID 자격 증명으로 [Admin Console](https://adminconsole.adobe.com/)에 로그인합니다. 
 1. 맨 위에 있는 제품 탭을 클릭합니다. 조직에서 구입한 모든 제품은 왼쪽에 있습니다. Adobe Analytics를 클릭한 다음 새 프로필 단추를 클릭합니다.
-1. 이 프로필의 이름을 'Analytics 전체 관리자 액세스 권한'으로 지정한 다음 완료를 클릭합니다.
+1. 이 프로필의 이름을 &#39;Analytics 전체 관리자 액세스 권한&#39;으로 지정한 다음 완료를 클릭합니다.
 1. 제품 프로필 페이지로 돌아가서 새로 만든 프로필을 클릭한 다음 권한 탭을 클릭합니다.
 1. 권한 라인 항목 중 하나를 클릭합니다. 자동 포함을 사용할 수 있는 경우 활성화합니다. 자동 포함을 사용할 수 없는 경우 모두 추가를 클릭합니다. 두 옵션 모두 모든 권한 항목을 오른쪽 열로 이동합니다.
 1. 저장을 클릭합니다. 모든 권한 카테고리에 대해 위의 단계를 반복합니다.
 1. 프로필에 모든 권한 카테고리가 부여되면 맨 위의 개요를 클릭하여 개요 페이지로 돌아갑니다.
-1. Adobe Analytics 타일에서 '사용자 할당'을 클릭합니다.
+1. Adobe Analytics 타일에서 &#39;사용자 할당&#39;을 클릭합니다.
 1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. 저장을 클릭합니다.
 1. 이제 사용자는 Adobe Analytics에 대한 전체 액세스 권한을 갖습니다.
 
@@ -43,12 +43,12 @@ Experience Platform Launch에 대한 제품 관리자 액세스 권한은 Analyt
 
 1. Adobe ID 자격 증명으로 Admin Console에 로그인합니다. 
 1. 맨 위에 있는 제품 탭을 클릭합니다. 조직에서 구입한 모든 제품은 왼쪽에 있습니다. Adobe Experience Platform Launch를 클릭한 다음 새 프로필 단추를 클릭합니다.
-1. 이 프로필의 이름을 'Experience Platform Launch 전체 관리자 액세스 권한'으로 지정한 다음 완료를 클릭합니다.
+1. 이 프로필의 이름을 &#39;Experience Platform Launch 전체 관리자 액세스 권한&#39;으로 지정한 다음 완료를 클릭합니다.
 1. 제품 프로필 페이지로 돌아가서 새로 만든 프로필을 클릭한 다음 권한 탭을 클릭합니다.
 1. 권한 라인 항목 중 하나를 클릭합니다. 자동 포함을 사용할 수 있는 경우 활성화합니다. 자동 포함을 사용할 수 없는 경우 모두 추가를 클릭합니다. 두 옵션 모두 모든 권한 항목을 오른쪽 열로 이동합니다.
 1. 저장을 클릭합니다. 모든 권한 카테고리에 대해 위의 단계를 반복합니다.
 1. 프로필에 모든 권한 카테고리가 부여되면 맨 위의 개요를 클릭하여 개요 페이지로 돌아갑니다.
-1. Adobe Experience Platform Launch 타일 아래의 '사용자 할당'을 클릭합니다.
+1. Adobe Experience Platform Launch 타일 아래의 &#39;사용자 할당&#39;을 클릭합니다.
 1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. 저장을 클릭합니다.
 1. 이제 사용자는 Experience Platform Launch에 대한 전체 액세스 권한을 갖습니다.
 
@@ -56,4 +56,4 @@ Experience Platform Launch에 대한 제품 관리자 액세스 권한은 Analyt
 
 [보고서 세트 만들기](create-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
 
-[Experience Platform Launch에서 속성 만들기](/help/implement/implement-with-launch/create-analytics-property.md): Experience Platform Launch 관리자가 도구에 로그인하고 사이트에서 구현할 속성을 만들 수 있습니다.
+[Experience Platform Launch에서 속성 만들기](/help/implement/launch/create-analytics-property.md): Experience Platform Launch 관리자가 도구에 로그인하고 사이트에서 구현할 속성을 만들 수 있습니다.
