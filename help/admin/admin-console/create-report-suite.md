@@ -1,8 +1,8 @@
 ---
 title: 보고서 세트 만들기
 description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이너를 만듭니다.
-translation-type: ht
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -23,13 +23,15 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
-1. 자동으로 'Adobe Analytics에 오신 것을 환영합니다.' 모달 창이 표시되는 것을 볼 수 있습니다. 자동으로 표시되지 않을 경우 오른쪽 상단의 도움말 아이콘을 클릭한 다음 'Adobe Analytics에 오신 것을 환영합니다.'를 선택합니다.
+1. 자동으로 &#39;Adobe Analytics에 오신 것을 환영합니다.&#39; 모달 창이 표시되는 것을 볼 수 있습니다. 자동으로 표시되지 않을 경우 오른쪽 상단의 도움말 아이콘을 클릭한 다음 &#39;Adobe Analytics에 오신 것을 환영합니다.&#39;를 선택합니다.
 1. 모달 창에서 설정 시작을 클릭합니다.
 1. 속성 유형, 업계 및 시간대 등의 기본 사항을 요약한 각 메시지를 따르십시오. 다음을 클릭합니다.
-1. 이제 보고서 세트가 생성됩니다. 또한 테스트 시 고객 데이터가 손상되지 않도록 개발 보고서 세트를 갖고 있는 것이 좋습니다. 오른쪽 상단에 있는 도움말 아이콘을 클릭한 다음 'Adobe Analytics에 오신 것을 환영합니다.'를 다시 선택합니다.
+1. 이제 보고서 세트가 생성됩니다. 또한 테스트 시 고객 데이터가 손상되지 않도록 개발 보고서 세트를 갖고 있는 것이 좋습니다. 오른쪽 상단에 있는 도움말 아이콘을 클릭한 다음 &#39;Adobe Analytics에 오신 것을 환영합니다.&#39;를 다시 선택합니다.
 1. 모달 창에서 설정 시작을 클릭합니다.
-이 보고서 세트의 이름을 동일하게 지정하되, 이름 끝에 "- DEV"를 추가합니다. 이 보고서 세트는 내부 트래픽만 수신하므로 예상 크기가 가장 작을 수 있습니다.
+이 보고서 세트의 이름을 동일하게 지정하되, 이름 끝에 &quot;- DEV&quot;를 추가합니다. 이 보고서 세트는 내부 트래픽만 수신하므로 예상 크기가 가장 작을 수 있습니다.
 1. 다음을 클릭하여 개발 보고서 세트 만들기를 완료합니다.
+
+이 모달 창의 단계에 대한 자세한 내용은 구현 [사용 안내서의 구현](/help/implement/prepare/implementation-modal.md) 모달을 참조하십시오.
 
 ## 문제 해결
 
@@ -37,10 +39,10 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 이는 계정에 Analytics에 대한 올바른 권한이 부여되지 않았음을 의미합니다. 조직의 시스템 수준 관리자와 함께 Adobe Analytics에 액세스할 수 있는 충분한 권한이 있는 프로필에 속해 있는지 확인합니다.
 
-**Adobe Analytics에 로그인하면 'Adobe Analytics에 오신 것을 환영합니다.' 팝업과 드롭다운이 표시되지 않습니다.**
+**Adobe Analytics에 로그인하면 &#39;Adobe Analytics에 오신 것을 환영합니다.&#39; 팝업과 드롭다운이 표시되지 않습니다.**
 
 my.omniture.com을 통해서가 아니라 Experience Cloud를 통해 로그인했는지 확인합니다. my.omniture.com을 통해 로그인한 사용자는 보고서 세트 설정 마법사를 사용할 수 없습니다.
 
 ## 다음 단계
 
-[Launch에서 Adobe Analytics에 대한 속성 만들기 및 구성](/help/implement/implement-with-launch/create-analytics-property.md): Analytics 구현을 관리할 영역 만들기
+[Launch에서 Adobe Analytics에 대한 속성 만들기 및 구성](/help/implement/launch/create-analytics-property.md): Analytics 구현을 관리할 영역 만들기
