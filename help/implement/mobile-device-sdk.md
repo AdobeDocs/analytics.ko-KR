@@ -1,36 +1,32 @@
 ---
 title: 모바일 장치용 Analytics 구현
-description: 'null'
-translation-type: ht
-source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
+description: 사용할 모바일 AppMeasurement 라이브러리를 결정합니다.
+translation-type: tm+mt
+source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
 
 
 # 모바일 장치용 Analytics 구현
 
-![배너](../../assets/doc_banner_implement.png)
-
 모바일 장치용 Analytics를 구현하려면 다음 SDK 저장소 및 설명서를 참조하십시오.
 
 ## Experience Platform Mobile SDK
 
 * [SDK 저장소](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/resources/frequently-asked-questions/current-sdk-versions.md)
-
 * [설명서](https://aep-sdks.gitbook.io/docs/)
 
 ## 버전 4 Mobile SDK
 
+> [!CAUTION] 버전 4 Mobile SDK에 대한 지원은 2020년 9월 30일에 종료됩니다. 자세한 [내용은 버전 4 Mobile SDK의 지원 종료](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) FAQ를 참조하십시오.
+
 * [SDK 저장소](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
-
-* [iOS 문서](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)
-* [Android 문서](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/overview.html)
-
-*참고: 버전 4 지원에 대한 자세한 내용은[버전 4 Mobile SDK의 지원 종료 FAQ](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)를 참조하십시오.*
+* [iOS 문서](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [Android 문서](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
 
 ## AppMeasurement 3.x
 
-*참고: 모바일 장치용 AppMeasurement 3.x SDK는 더 이상 지원되지 않습니다. 그러나 SDK에 대한 설명서는 아래에 명시된 대로 사용할 수 있습니다.*
+> [!CAUTION] 모바일 장치용 AppMeasurement 3.x SDK는 더 이상 지원되지 않습니다.
 
-* [iOS 문서](../../assets/adobe_mobile_ios_3x.pdf)
-* [Android 문서](../../assets/android_3x.pdf)
+* [iOS용 AppMeasurement 3.x SDK 설명서](../../assets/adobe_mobile_ios_3x.pdf)
+* [Android용 AppMeasurement 3.x SDK 설명서](../../assets/android_3x.pdf)
