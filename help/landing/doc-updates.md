@@ -3,7 +3,7 @@ title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -40,6 +40,6 @@ source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
 | 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)에 대한 업데이트입니다. |
 | 2019년 3월 14일 | [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
 | 2019년 2월 7일 | ](/help/admin/admin/general-acct-settings-admin.md)일반 계정 설정[의 &quot;IP 주소의 마지막 옥텟을 0으로 바꾸기&quot; 및 &quot;IP 난독 처리&quot; 설정에 대한 부분 업데이트입니다. |
-| 2019년 2월 1일 | [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
+| 2019년 2월 1일 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
 | 2019년 1월 17일 | Analysis Workspace, [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)의 새 프로젝트 설정입니다. |
 | 2019년 1월 17일 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)에 대한 주요 업데이트입니다. |
