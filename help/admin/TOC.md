@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [전환 변수(eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [전환 변수 편집](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [전환 분류](admin/conversion-var-admin/conversion-classifications.md)
+      + [목록 변수](admin/conversion-var-admin/list-var-admin.md)
    + [통화 코드](admin/currency.md)
    + [사용자 지정 보고서 설명](admin/custom-desc-admin.md)
    + [사용자 지정 달력](admin/custom-calendar.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [공동 브랜딩](company/co-branding-admin.md)
    + [보고서 세트 숨기기](company/c-hide-report-suites.md)
    + [보안 관리자](company/security-manager.md)
-   + ['IP 로그인 제한 적용'의 사용 종료](company/login-restrictions-eol.md)
+   + [&#39;IP 로그인 제한 적용&#39; 기간 종료](company/login-restrictions-eol.md)
 + 보고서 세트 관리 {#manage-report-suites}
    + [보고서 세트 관리자](c-manage-report-suites/report-suites-admin.md)
    + [롤업 및 글로벌 보고서 세트](c-manage-report-suites/rollup-report-suite.md)
