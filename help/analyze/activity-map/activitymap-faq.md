@@ -4,7 +4,7 @@ title: Activity Map FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -66,7 +66,7 @@ A: 기본적으로 Activity Map에는 데이터를 수집한 모든 링크가 �
 
 **Q: Activity Map이 실행 중일 때 왜 링크 클릭 데이터가 수집되지 않습니까?**
 
-A: Activity Map이 사용 중이면 링크 클릭 데이터가 Analytics 태그로 수집되지 않습니다. 이 동작은 ClickMap 플러그인의 동작 후 이루어집니다.
+A: Activity Map이 사용 중이면 링크 클릭 데이터가 Analytics 태그로 수집되지 않습니다. 이 동작은 ClickMap 플러그인의 동작을 따릅니다.
 
 **Q: 왜 지표 드롭다운에 동일한 지표가 여러 번 나열됩니까?**
 
@@ -76,7 +76,7 @@ A: Activity Map에서는 모든 보고서 세트에 대한 지표를 나열합�
 
 **Q: Activity Map 모든 링크 보고서는 Reports &amp; Analytics Activity Map 보고와 어떻게 비교됩니까?**
 
-A: Activity Map에서 모든 링크 보고서를 가져오기 위해 다음과 같이 분류 요청을 만듭니다. Activity Map 페이지 = "visitedpage", `<list of link&regions present in the page at rendering time>`에서 Activity Map 링크 및 지역으로 분류됩니다.
+A: Activity Map에서 모든 링크 보고서를 가져오기 위해 다음과 같이 분류 요청을 만듭니다. Activity Map 페이지 = &quot;visitedpage&quot;, `<list of link&regions present in the page at rendering time>`에서 Activity Map 링크 및 지역으로 분류됩니다.
 
 Reports &amp; Analytics에서 상응하는 보고서를 얻으려면, 먼저 Activity Map 페이지 보고서로 이동해야 합니다. 여기에서는 Activity Map에서 방문한 페이지 이름에 대해 필터링하게 됩니다. 방문한 페이지 이름은 Activity Map 페이지 상세정보 하단 패널에서 왼쪽 열에 표시됩니다. 이 페이지를 찾으면, 해당 페이지에서 분류하고, Activity Map 링크 및 지역을 보조 차원으로 선택할 수 있습니다.
 
@@ -86,7 +86,7 @@ Reports &amp; Analytics에서 상응하는 보고서를 얻으려면, 먼저 Act
 
 A: 기본적으로 Activity Map에서는 페이지가 보내는 첫 번째 태그와 연결된 보고서 세트를 사용합니다.
 
-Activity Map 설정 &gt; 기타 탭을 통해 서로 다른 태그가 지정된 보고서 세트를 선택할 수 있습니다.
+Activity Map 설정 > 기타 탭을 통해 서로 다른 태그가 지정된 보고서 세트를 선택할 수 있습니다.
 
 **Q: Activity Map은 Analytics 태그를 얼마나 오래 검사합니까?**
 
@@ -120,7 +120,7 @@ A: 표시된 모든 데이터는 페이지 보기를 기반으로 합니다.
 
 *호환하는 Analytics 태그(AppMeasurement v1.6 이상)가 있지만, 관리 도구에 Activity Map 보고가 활성화되어 있지 않은 웹 페이지*
 
-관리자에게 \[Activity Map 보고서를 활성화\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") 하도록 요청해야 한다고 알려주는 경고 페이지가 표시됩니다.
+관리자에게 \[Activity Map 보고서를 활성화\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;) 하도록 요청해야 한다고 알려주는 경고 페이지가 표시됩니다.
 
 **Q:[Analytics 데이터 피드](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)를 통해 Activity Map 데이터(contextData)를 내보낼 수 있습니까?**
 
