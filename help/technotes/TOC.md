@@ -3,8 +3,8 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
+translation-type: tm+mt
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
@@ -30,11 +30,15 @@ source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)
 + [개인 정보 보호 개요](privacy-overview.md)
++ [리디렉션 및 별칭](redirects.md)
 + 지역 데이터 수집 {rdc}
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
    + [환경 특성](rdc/rdc-environment-characteristics.md)
    + [SSL 공인 라이선스](rdc/ssl-cert-licensing.md)
 + [사용된 용어(글로서리)](terms.md)
++ [타임스탬프 선택 사항](timestamps-optional.md)
 + [로그인 문제 해결](troubleshoot-login.md)
 + [로그아웃 문제 해결](troubleshoot-sessions.md)
 + [지정되지 않음, 기타 및 알 수 없음](unspecified.md)
++ [방문자 식별](visitor-identification.md)
++ [방문자 마이그레이션](visitor-migration.md)
