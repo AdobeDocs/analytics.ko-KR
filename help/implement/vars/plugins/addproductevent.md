@@ -2,14 +2,14 @@
 title: addProductEvent
 description: 제품 및 이벤트 변수에 사용자 지정 이벤트를 추가합니다.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe 플러그인:addProductEvent
 
-> [!IMPORTANT] Adobe Consulting에서 제공하는 이 플러그인은 Adobe Analytics를 사용하여 더 많은 가치를 창출할 수 있도록 도움을 줍니다. Adobe 고객 지원 센터에서는 설치 또는 문제 해결을 포함하여 이 플러그인을 지원하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 그들은 도움을 받기 위해 컨설턴트와 회의를 예약할 수 있다.
+> [!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 제공합니다. Adobe 고객 지원 센터에서는 설치 또는 문제 해결을 포함하여 이 플러그인을 지원하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 그들은 도움을 받기 위해 컨설턴트와 회의를 예약할 수 있다.
 
 이 `addProductEvent` 플러그인은 숫자 또는 통화 이벤트를 `products` 변수에 추가합니다. 제품 문자열 형식에 대한 걱정 없이 숫자 또는 통화 이벤트를 `products` 변수에 추가하려면 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 `products` 변수에 숫자 또는 통화 이벤트를 사용하지 않는 경우 필요하지 않습니다.
 
