@@ -1,8 +1,8 @@
 ---
 title: 솔루션 디자인 문서 만들기
 description: 솔루션 디자인 문서가 무엇이고 솔루션 디자인 문서를 조직에서 사용하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 전제 조건
 
-[Analytics 구현 확인 및 프로덕션에 게시](../implement-with-launch/validate-publish-prod.md) - 직접 필요한 것은 아니지만 기본 사항 구현을 통해 중요한 데이터를 수집하고 추가 비즈니스 요구 사항을 설정하고 구현하는 것이 좋습니다.
+[Analytics 구현 확인 및 프로덕션에 게시](../launch/validate-publish-prod.md) - 직접 필요한 것은 아니지만 기본 사항 구현을 통해 중요한 데이터를 수집하고 추가 비즈니스 요구 사항을 설정하고 구현하는 것이 좋습니다.
 
 ## 디자인 문서의 소유권 및 위치
 
@@ -22,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 비즈니스 요구 사항 정의
 
-수집할 데이터를 결정할 때 "모든 것"이라고 말하는 것은 쉽지만 이 경우 관리가 까다로워지고 보다 적은 양의 데이터를 수집하는 것보다 덜 효율적일 수 있습니다.
+수집할 데이터를 결정할 때 &quot;모든 것&quot;이라고 말하는 것은 쉽지만 이 경우 관리가 까다로워지고 보다 적은 양의 데이터를 수집하는 것보다 덜 효율적일 수 있습니다.
 
 1. **주요 성능 지표를 확인합니다.** 궁극적으로 방문자에게 원하는 것이 무엇입니까? 이 질문에 대한 답변은 업종과 버티컬에 따라 다르며 여러 가지가 될 수 있습니다. 예를 들면 구매, 등록 또는 광고 클릭입니다.
 1. **수집해야 할 가장 중요한 데이터를 파악합니다.** 구체적인 답변을 원하는 비즈니스 질문을 합니다. 이러한 질문에 대한 답변은 KPI를 향상시키는 방법에 대한 통찰력을 제공합니다.
@@ -31,9 +31,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 지표는 원하는 작업을 방문자가 수행할 때 숫자가 하나씩 증가하는 특정 이벤트입니다. 예를 들면 주문 제출, 뉴스레터 구독 또는 설문 조사 응답 제출이 해당됩니다.
 1. **차원 및 지표를 페이지 또는 스프레드시트에 매핑합니다** 이 페이지 또는 표는 궁극적으로 솔루션 디자인 문서가 됩니다. 몇 가지 유용한 열 또는 글머리 기호는 다음을 포함합니다.
    * 구현 상태: 계획됨, 활성화, 비활성화, 문제 등 이 경우 변수의 상태, 구현되었는지 여부 또는 데이터 수집에 문제가 있는지 여부를 문서 뷰어에 알려줍니다.
-   * 변수 이름: 예를 들면 "내부 검색어"가 있습니다. 이 값은 분석가가 Analytics 내에서 작업할 때 보게 되는 것입니다.
+   * 변수 이름: 예를 들면 &quot;내부 검색어&quot;가 있습니다. 이 값은 분석가가 Analytics 내에서 작업할 때 보게 되는 것입니다.
    * 매핑된 Analytics 변수: 값을 할당하기 위해 선택한 기본 또는 사용자 지정 Analytics 변수입니다. 차원은 일반적으로 eVar에 속하지만, 지표는 이벤트에 속합니다.
-   * 논리: 변수가 설정되는 방식과 그 값을 결정하는 것에 대한 설명입니다. 예: "내부 검색 페이지에서만 설정합니다. q 쿼리 문자열 매개 변수의 값을 가져옵니다."
+   * 논리: 변수가 설정되는 방식과 그 값을 결정하는 것에 대한 설명입니다. 예: &quot;내부 검색 페이지에서만 설정합니다. q 쿼리 문자열 매개 변수의 값을 가져옵니다.&quot;
    * 변수와 관련하여 포함하려는 기타 모든 참고 사항
 
 ## 추가 리소스
@@ -41,14 +41,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 솔루션 디자인 문서를 정의하는 것은 매우 복잡한 프로젝트입니다. 특히 이전에 솔루션 디자인 문서를 만들지 않은 조직의 경우 더욱 그러합니다. 추가 지원이 필요한 경우 Adobe는 조직이 Adobe Analytics를 사용하여 구축하고 실행할 수 있도록 전문적인 컨설팅을 제공합니다. Adobe 전문가 서비스를 등록하려면 계정 관리자에게 문의하십시오. [기술 사전 구현 설문 조사](assets/technical-pre-implementation-questionnaire.pdf)를 작성할 수 있으므로 Adobe는 조직의 요구 사항에 따라 도움을 주는 방법을 정확히 알고 있습니다.
 
 또한 솔루션 디자인 문서 작성을 지원하고 사이트에서 Adobe Analytics를 구현하는 데 전문적인 여러 Adobe 파트너가 있습니다.
-
-> [!NOTE] Analytics 커뮤니티의 구성원은 다음 링크가 유용하다고 판단했지만, 그러한 링크는 Adobe가 소유하고 있지 않습니다. 이 참고 사항은 콘텐츠를 볼 때 고려하십시오.
-
-* ObservePoint의 [웹 Analytics 솔루션 디자인을 설정하는 7단계](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)
-* Analytics Demystified의 [디지털 Analytics 프로세스에 대한 프레임워크](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)
-* Numeric Analytics의 [솔루션 디자인 참조는 실제 BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)
-* Antti Koski의 [Adobe Analytics 태그 지정 맵을 만드는 방법](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)
-* Ebiquity의 [솔루션 디자인 문서의 중요성](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)
 
 ## 다음 단계
 
