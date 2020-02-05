@@ -2,7 +2,7 @@
 title: eVar
 description: 구현에 사용할 수 있는 사용자 지정 변수.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 소수점 이하 자리 수가 세 자리 이상인 수가 지정되는 경우, eVar 카운터는 소수점 이하 두 자리로 반올림합니다. eVar 카운터는 음수를 포함할 수 없습니다.
 
+> [!IMPORTANT] 먼저 카운터 eVar를 사용하기 전에 관리 콘솔에서 &#39;카운터&#39;에 eVar를 구성해야 합니다. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## prop 또는 eVar에 대한 이점
 
 현재 버전의 Adobe Analytics에서 prop 및 eVar는 모두 유사한 기능을 가진 사용자 지정 변수입니다. 하지만, 그들은 몇 가지 주요한 차이점이 있습니다.
@@ -61,4 +63,4 @@ s.eVar1 = "+12.49";
 * prop의 데이터는 몇 분 내에 보고할 수 있습니다. eVar는 보고에 나타나는 데 30분 이상 걸릴 수 있습니다.
 * Prop은 보고서에서 100바이트 제한을 갖습니다. eVar에는 255바이트 제한이 있습니다.
 * Prop은 동일한 히트에서 여러 값을 허용하는 목록 Prop이 될 수 있습니다. 목록 변수는 별도의 변수이며 사용할 수 있는 목록 변수는 세 개뿐입니다.
-* 기본적으로 Prop은 설정된 히트를 초과하지 않습니다. eVar에는 사용자 지정 만료가 있으므로, eVar가 이후 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 보고서 [시간 처리를](../../../components/vrs/vrs-report-time-processing.md)사용하는 경우 prop과 eVar 모두 원하는 속성 모델을 사용할 수 있습니다.
+* 기본적으로 Prop은 설정된 히트를 초과하지 않습니다. eVar에는 사용자 지정 만료가 있으므로, eVar가 이후 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 그러나 [보고서 시간 처리를](../../../components/vrs/vrs-report-time-processing.md)사용하는 경우 prop과 eVar 모두 사용자 지정 속성 모델을 사용할 수 있습니다.
