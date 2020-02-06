@@ -2,7 +2,7 @@
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,11 +18,11 @@ AppMeasurement가 `trackDownloadLinks` 또는 `trackExternalLinks` `tl` 활성�
 Launch에는 링크 추적 호출을 설정하는 전용 위치가 있습니다.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 원하는 속성을 클릭합니다.
-3. 규칙 [!UICONTROL 탭으로 이동한] 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-4. 작업 [!UICONTROL 아래에서]&#39;+&#39; 아이콘을 클릭합니다
-5. 확장 [!UICONTROL 프로그램 드롭다운을 Adobe] Analytics로 설정하고 작업 [!UICONTROL 유형을] 비콘 전송으로 설정합니다.
-6. Click the `s.tl()` radio button.
+1. 원하는 속성을 클릭합니다.
+1. 규칙 [!UICONTROL 탭으로 이동한] 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+1. 작업 [!UICONTROL 아래에서]&#39;+&#39; 아이콘을 클릭합니다
+1. 확장 [!UICONTROL 프로그램 드롭다운을 Adobe] Analytics로 설정하고 작업 [!UICONTROL 유형을] 비콘 전송으로 설정합니다.
+1. Click the `s.tl()` radio button.
 
 Launch에서는 선택적 인수를 설정할 수 없습니다.
 
