@@ -2,7 +2,7 @@
 title: Analytics for Digital Assistants 구현
 description: Amazon Alexa 또는 Google Home과 같은 디지털 어시스턴트에 Adobe Analytics를 구현합니다.
 translation-type: tm+mt
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
 
 ---
 
@@ -50,7 +50,7 @@ Analytics를 구현하는 가장 적합한 위치 중 하나가 앱입니다. �
 
 ```text
 GET
-/b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
+/b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
 <xref href="https://sc.omtrdc.net">
@@ -64,13 +64,13 @@ Host:
 조직에서는 여러 플랫폼용 앱을 원할 수 있습니다. 가장 좋은 방법은 각 요청에 앱 ID를 포함하는 것입니다. 이 변수는 `a.AppID` 컨텍스트 데이터 변수에서 설정할 수 있습니다. `[AppName] [BundleVersion]` 형식을 따르십시오. 예를 들어, BigMac for Alexa 1.2의 경우 다음과 같습니다.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -82,7 +82,7 @@ Adobe Analytics는 [Adobe Experience Cloud Identity Service](https://docs.adobe.
 ID 서비스를 사용하면 ECID를 다양한 장치에 매핑(예: 웹을 Digital Assistant에)할 때 가장 많은 가치를 제공합니다. 앱이 모바일 앱인 경우 Experience Platform SDK를 있는 그대로 사용하고 `setCustomerID` 메서드를 사용하여 사용자 ID를 전송하십시오. 하지만 앱이 서비스인 경우에는 이 서비스에서 제공한 ID를 ECID로 사용하고 이것을 `setCustomerID`에서도 설정하십시오.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -105,7 +105,7 @@ Digital Assistant는 대화식이므로 세션의 개념이 있습니다. 예:
 2. **새 세션 또는 시작 이벤트로**&#x200B;보내기:Analytics에 첫 번째 응답을 보낼 때 시작 이벤트를 포함합니다. 일반적으로 `a.LaunchEvent=1`의 컨텍스트 데이터를 설정하여 보낼 수 있습니다.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
 Host: sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -119,7 +119,7 @@ Cache-Control: no-cache
 이러한 각 요청을 eVar로 보냄으로써, 대화형 앱에 대해 각 의도에 대한 경로 지정 보고서를 실행할 수 있습니다. 앱에서 의도하지 않은 요청도 처리할 수 있는지 확인하십시오. 변수를 빠뜨리는 대신 &#39;지정된 의도 없음&#39;을 의도 컨텍스트 데이터 변수에 전달하는 것이 좋습니다.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -127,7 +127,7 @@ Cache-Control: no-cache
 또는
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
 Host: sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -143,7 +143,7 @@ Cache-Control: no-cache
 일반적으로 앱에는 유한한 수의 이러한 값이 있습니다. Analytics에서 이러한 값을 추적하려면 컨텍스트 데이터 변수로 보낸 다음, 각 매개 변수를 eVar에 매핑하십시오.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -155,7 +155,7 @@ Digital Assistant에서 처리 방법을 모르는 입력을 앱에 제공하는
 이러한 상황이 발생하면 앱이 명확한 설명을 요구하게 하십시오. 또한 발생한 오류 유형을 지정하는 eVar와 함께 앱에 오류 상태가 있음을 나타내는 데이터를 Adobe에 보내십시오. 입력이 올바르지 않은 오류와 앱에 문제가 있는 오류를 포함해야 합니다.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -174,11 +174,11 @@ Cache-Control: no-cache
 ## 예
 
 | 사람 | 장치 응답 | 작업/의도 | GET 요청 |
-| --- | --- | --- | --- | ---|
-| Spoofify 설치 | 응답 없음 | 설치 | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Spoofify 재생 | &quot;네, Spoofify를 재생합니다&quot; | 재생 | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 노래 변경 | &quot;네, 어떤 노래를 원하시나요?&quot; | ChangeSong | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 아기 상어 재생 | &quot;네, 핑크퐁의 &#39;아기 상어&#39;를 재생합니다&quot; | ChangeSong | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 재생 목록 변경 | &quot;네, 어떤 재생 목록을 원하세요?&quot; | ChangePlaylist | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 내가 좋아하는 노래 재생 목록 재생 | &quot;네, 당신이 좋아하는 노래 재생 목록을 재생합니다&quot; | ChangePlaylist | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 음악 끄기 | 응답 없음, 음악 끄기 | 꺼짐 | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+|---|---|---|---|
+| Spoofify 설치 | 응답 없음 | 설치 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Spoofify 재생 | &quot;네, Spoofify를 재생합니다&quot; | 재생 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| 노래 변경 | &quot;네, 어떤 노래를 원하시나요?&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| 아기 상어 재생 | &quot;네, 핑크퐁의 &#39;아기 상어&#39;를 재생합니다&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| 재생 목록 변경 | &quot;네, 어떤 재생 목록을 원하세요?&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| 내가 좋아하는 노래 재생 목록 재생 | &quot;네, 당신이 좋아하는 노래 재생 목록을 재생합니다&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| 음악 끄기 | 응답 없음, 음악 끄기 | 꺼짐 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
