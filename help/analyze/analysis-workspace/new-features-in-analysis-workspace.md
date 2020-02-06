@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 기능 | 설명 |
 |--- |--- |
-| [자유 형식 테이블 빌더](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_(기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
+| [자유 형식 테이블 빌더](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_(기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 
 ## 2019년 10월
 
@@ -26,9 +26,9 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL &#x200B;총합계]** 라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL &#x200B;총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]** 에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 **[!UICONTROL &#x200B;요약 번호]** 시각화)됩니다. |
+| 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
 | 지정되지 않음/없음 제거 옵션 | 다음 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
-| 자주색 세부기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]**섹션도**[!UICONTROL &#x200B;날짜 범위]**로 이름이 변경되었습니다. |
+| 자주색 세부기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 
 ## 2019월 8일
 
@@ -584,7 +584,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
    <td colname="col2"> <p>이제 각 요소를 수동으로 삭제하는 대신, 다음 작업 공간 영역에서 모든 요소를 지울 수 있습니다. </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 기여도 분석 제외된 구성 요소 </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md"> 세그먼트 비교 제외된 구성 요소 </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> 세그먼트 비교 제외된 구성 요소 </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -945,7 +945,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 2016년 6월 16일 릴리스된 새로운 기능:
 
-* 관리자가 **[!UICONTROL 분석]**>**[!UICONTROL &#x200B;작업 공간]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
+* 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL 작업 공간]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
 * The [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
@@ -1004,17 +1004,17 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 이제는 Analysis Workspace에서 수행한 대부분의 작업을 실행 취소할 수 있습니다.
 
-실행을 취소하려면, 작업 메뉴에서 **[!UICONTROL 실행 취소]**를 클릭하십시오.
+실행을 취소하려면, 작업 메뉴에서 **[!UICONTROL 실행 취소]**&#x200B;를 클릭하십시오.
 
 ![](assets/undo.png)
 
 실행 취소를 위해 표준 Windows와 Mac [키보드 단축키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(ctrl 또는 cmd + z)를 사용할 수도 있습니다.
 
-*`Undo`*는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
+*`Undo`* 는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
 
 실행 취소할 수 없는(*`not`*) 작업:
 
-* [!UICONTROL 집단 테이블] 구성 변경(예: 지표 드래그, 값 변경). 하지만 **[!UICONTROL 실행]**을 클릭한 후**[!UICONTROL &#x200B;실행 취소]**를 클릭할 수 있습니다.
+* [!UICONTROL 집단 테이블] 구성 변경(예: 지표 드래그, 값 변경). 하지만 **[!UICONTROL 실행]**&#x200B;을 클릭한 후 **[!UICONTROL 실행 취소]**&#x200B;를 클릭할 수 있습니다.
 
 * 패널 및 하위 패널 크기 조정 또는 이동
 
@@ -1025,7 +1025,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ## 이 프로젝트에 대한 링크 {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-프로젝트의 작업 메뉴에서 **[!UICONTROL 이 프로젝트에 대한 링크]**를 클릭하여 저장된 프로젝트의 URL을 다른 사용자에게 이메일로 보냅니다. 관리 담당 받는 사람은 이러한 식으로 공유된 프로젝트를 편집하고 저장할 수 있습니다. 그렇지 않은 경우 이러한 프로젝트는 읽기 전용입니다.
+프로젝트의 작업 메뉴에서 **[!UICONTROL 이 프로젝트에 대한 링크]**&#x200B;를 클릭하여 저장된 프로젝트의 URL을 다른 사용자에게 이메일로 보냅니다. 관리 담당 받는 사람은 이러한 식으로 공유된 프로젝트를 편집하고 저장할 수 있습니다. 그렇지 않은 경우 이러한 프로젝트는 읽기 전용입니다.
 
 ![](assets/link-to-this-project.png)
 
@@ -1061,17 +1061,17 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ## 세그먼트, 지표 및 날짜에 대해 다른 이름으로 저장 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-기존(저장된) 세그먼트를 편집할 때 Analysis Workspace 세그먼트 빌더에서 **[!UICONTROL 다른 이름으로 저장]**을 클릭하여 복사본을 만듭니다.
+기존(저장된) 세그먼트를 편집할 때 Analysis Workspace 세그먼트 빌더에서 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭하여 복사본을 만듭니다.
 
 ![](assets/segment-save-as.png)
 
 새 세그먼트는 [!UICONTROL 구성 요소] 패널의 [!UICONTROL 세그먼트] 그룹에 표시됩니다.
 
-*`Save As`*기능은[!UICONTROL 계산된 지표 빌더]및[!UICONTROL 날짜 범위 빌더]에서도 사용할 수 있습니다.
+*`Save As`* 기능은 [!UICONTROL 계산된 지표 빌더] 및 [!UICONTROL 날짜 범위 빌더]에서도 사용할 수 있습니다.
 
 ## 새 세그먼트 추가 단추 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-**[!UICONTROL 새 세그먼트 추가]**단추가 세그먼트를 드래그하여 프로젝트에 놓는 위치에 추가되었습니다.
+**[!UICONTROL 새 세그먼트 추가]** 단추가 세그먼트를 드래그하여 프로젝트에 놓는 위치에 추가되었습니다.
 
 ![](assets/add-new-segment.png)
 
@@ -1119,13 +1119,13 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ## 범례 표시 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-[!UICONTROL 시각화 설정]의 **[!UICONTROL 범례 표시]**선택 사항은 시각화의 범례를 표시하거나 숨깁니다.
+[!UICONTROL 시각화 설정]의 **[!UICONTROL 범례 표시]** 선택 사항은 시각화의 범례를 표시하거나 숨깁니다.
 
 ![](assets/legend-visible.png)
 
 ## Y축 0에 연결 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-라인 및 영역 차트에 대한 숫자가 무엇인지에 따라 Y축의 밑면이 0이 아닐 수 있습니다. **[!UICONTROL 시각화 설정]**의[!UICONTROL Y축 0에 연결]을 활성화하면 보다 정확한 추세 보기를 위해 Y축이 0으로 지정됩니다. 다음 예에서는 이러한 설정의 활성화 여부에 따라 매출 차트가 달라지는 방식을 보여줍니다.
+라인 및 영역 차트에 대한 숫자가 무엇인지에 따라 Y축의 밑면이 0이 아닐 수 있습니다. **[!UICONTROL 시각화 설정]**&#x200B;의 [!UICONTROL Y축 0에 연결]을 활성화하면 보다 정확한 추세 보기를 위해 Y축이 0으로 지정됩니다. 다음 예에서는 이러한 설정의 활성화 여부에 따라 매출 차트가 달라지는 방식을 보여줍니다.
 
 **Y축 0에 연결 비활성화**
 
@@ -1143,4 +1143,4 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 관리자는 사용자 간에 [!UICONTROL Analysis Workspace] 프로젝트를 전송할 수 있습니다.
 
-**[!UICONTROL 관리]**>**[!UICONTROL &#x200B;사용자 관리]** > **[!UICONTROL 전송]**으로 이동하여 프로젝트를 전송합니다.
+**[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 전송]**&#x200B;으로 이동하여 프로젝트를 전송합니다.
