@@ -2,7 +2,7 @@
 title: JavaScript용 AppMeasurement
 description: 태그 관리 시스템 없이 JavaScript를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -37,7 +37,7 @@ JavaScript용 AppMeasurement는 지금까지 Adobe Analytics를 구현하는 일
    s.events = "event1";
    ```
 
-4. 모든 페이지 수준 변수가 정의되면 `t` 함수를 사용하여 데이터를 Adobe로 보냅니다. 자세한 [내용은](../vars/functions/t.md) 을 참조하십시오.
+4. 모든 페이지 수준 변수가 정의되면 `t` 함수를 사용하여 데이터를 Adobe로 보냅니다. 자세한 [내용은](../vars/functions/t-method.md) 을 참조하십시오.
 
    ```js
    s.t();
