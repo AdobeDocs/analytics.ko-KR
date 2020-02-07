@@ -2,7 +2,7 @@
 title: Adobe Analytics에서 사용되는 용어
 description: Adobe Analytics 용어집, 사용되는 일반 용어 정의
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** 전환 변수:구어체는 eVar로 알려져 있습니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** 상관 관계:더 이상 용어로 사용되지 않습니다.차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 [사용 안내서에서 차원](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 분류를 참조하십시오.
 * **** 현재 데이터:아직 완전히 처리되지 않은 최근 수집된 데이터를 포함할 수 있는 일부 보고서의 옵션입니다. 분석 [사용 안내서에서 현재 데이터를](/help/analyze/reports-analytics/current-data.md) 참조하십시오.
-* **** 사용자 지정 링크:페이지 보기 데이터가 아닌 히트 유형. 구현 사용 안내서에서 [s.tl() 함수를](../implement/vars/functions/tl.md) 참조하십시오. 히트를 참조하십시오.
+* **** 사용자 지정 링크:페이지 보기 데이터가 아닌 히트 유형. 구현 사용 안내서에서 [s.tl() 함수를](../implement/vars/functions/tl-method.md) 참조하십시오. 히트를 참조하십시오.
 * **** 고객 속성:속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 [서비스 사용 안내서의 고객 속성을](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) 참조하십시오.
 * **** 고객 지원 담당자:Adobe 고객 지원 센터와 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience [Cloud 기술 자료에서 고객 지원](https://helpx.adobe.com/experience-cloud/supported-users.html) 담당자를 참조하십시오.
 * **** 데이터 수집 서버:데이터를 받고 처리하는 Adobe 소유 서버 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
@@ -87,8 +87,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** 보고서 세트:데이터를 보내는 보관 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
 * **** 롤링 날짜 범위:시간이 경과함에 따라 변경되는 상대적 날짜 범위 유형입니다. 예를 들어 지난 7일을 보여주는 보고서는 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **** RSID:보고서 세트 ID의 약어. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
-* **** s.t():페이지 보기 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()` 대신 사용됩니다. 구현 사용 [안내서에서](../implement/vars/functions/t.md) 을 참조하십시오.
-* **s<span>.</span>** tl():링크 추적 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.trackLink()` 대신 사용됩니다. 구현 사용 [안내서의 tl](../implement/vars/functions/tl.md) 을 참조하십시오.
+* **** s.t():페이지 보기 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()` 대신 사용됩니다. 구현 사용 [안내서에서](../implement/vars/functions/t-method.md) 을 참조하십시오.
+* **s<span>.</span>** tl():링크 추적 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.trackLink()` 대신 사용됩니다. 구현 사용 [안내서의 tl](../implement/vars/functions/tl-method.md) 을 참조하십시오.
 * **** s_code.js:이전 버전의 Adobe Analytics에 사용된 JavaScript 파일의 이름입니다. 사용되는 JavaScript 파일의 현재 이름은 AppMeasurement.js입니다.
 * **** 위성:더 이상 용어로 사용되지 않습니다. 다이내믹 태그 관리의 이전 제품 이름입니다.
 * **** 보조 서버 호출:이미지 요청 또는 히트에 대한 대체 이름. 대부분 다중 세트 태그 지정 및 청구 컨텍스트에서 사용됩니다. 동일한 히트가 여러 보고서 세트로 전송되면 첫 번째 목록 이후 모든 보고서 세트가 보조 서버 호출입니다. 기본 서버 호출을 참조하십시오.
