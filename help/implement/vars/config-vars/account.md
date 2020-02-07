@@ -2,14 +2,14 @@
 title: account
 description: 계정 변수를 사용하여 데이터를 보낼 보고서 세트를 결정합니다.
 translation-type: tm+mt
-source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
 
 ---
 
 
 # account
 
-> [!IMPORTANT] 이 변수는 사용이 중단되었습니다. 구현에서 보고서 세트 대상을 수정해야 하는 경우 [`s.sa()`](../functions/sa.md) 함수를 사용합니다.
+> [!IMPORTANT] 이 변수는 사용이 중단되었습니다. 구현에서 보고서 세트 대상을 수정해야 하는 경우 [`s.sa()`](../functions/sa-method.md) 함수를 사용합니다.
 
 이전 버전의 Adobe Analytics에서 `account` 변수는 데이터를 보낼 보고서 세트를 결정합니다. Adobe Analytics로 데이터를 전송하려면 보고서 세트 ID가 필요합니다.
 
