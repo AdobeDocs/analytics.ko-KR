@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
+source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
 
 ---
 
@@ -16,11 +16,6 @@ source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
    + [Audience Analytics 개요](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 워크플로우 {#audience-analytics-workflow}
       + [워크플로우 개요](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [서버 측 전달 개요 - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy 준수 및 서버 측 전달 - 관리 가이드](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [서버 측 전달을 위한 요구 사항 - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
-      + [서버 측 전달 구현 확인 - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
-      + [서버 측 전달 FAQ - 관리 안내서](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
       + [Analytics 대상 만들기 - AAM 안내서](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics에서 대상 데이터 사용](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 활용 사례](c-audience-analytics/aam-audience-use-cases.md)
