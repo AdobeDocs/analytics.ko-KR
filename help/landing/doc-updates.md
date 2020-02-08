@@ -3,7 +3,7 @@ title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
+source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 ---
 
@@ -13,13 +13,14 @@ source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 2019년 1월 이후에는 Adobe Analytics 설명서 세트에 대한 컨텐츠 업데이트입니다.
 
 * 새로운 기능, 관리자 공지 및 버그 수정에 대한 포괄적인 목록이 필요하면 최신 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)를 참조하십시오.
-* Analysis Workspace의 새 기능에 대한 자세한 내용은 [이 항목](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
+* 새로운 기능에 대한 자세한 내용은 분석 [사용자 안내서의 분석](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 작업 공간의 새로운 기능을 참조하십시오.
 * 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)을 참조하십시오.
 
 ## 업데이트 세부 사항
 
 | 날짜 | 설명 |
 |---|---|
+| 2020년 2월 7일 | 크로스 [디바이스 분석 설정 업데이트](../components/cda/cda-setup.md) 및 [FAQ](../components/cda/cda-faq.md) |
 | 2020년 2월 4일 | 구현 [사용 안내서의](../implement/home.md)전체 다시 작성 |
 | 2020년 1월 22일 | 새 자유 형식 테이블 빌더에 대한 정보가 포함된 자유 형식 [테이블 페이지를 업데이트했습니다](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 2020년 1월 13일 | Adobe [Analytics 및 브라우저 쿠키를](../technotes/cookies.md)추가했습니다. |
