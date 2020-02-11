@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 변수를 호출할 때마다 `registerPostTrackCallback` 이미지 요청이 성공적으로 전송된 후 해당 함수가 실행되도록 합니다. 동일한 페이지 로드에서 동일한 함수를 여러 번 등록하지 마십시오.
 
-> [!NOTE] 두 함수 사이에 발생하는 시기와 순서는 `registerPostTrackCallback` 보장되지 `registerPostTrackCallback` 않습니다. 이러한 두 함수 간의 종속성을 방지합니다.
+> [!NOTE] 두 함수 사이에 발생하는 시기와 순서는 `registerPreTrackCallback` 보장되지 `registerPostTrackCallback` 않습니다. 이러한 두 함수 간의 종속성을 방지합니다.
 
 ## Adobe Experience Platform Launch에서 게시물 추적 콜백 등록
 
