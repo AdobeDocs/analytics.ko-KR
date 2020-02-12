@@ -2,7 +2,7 @@
 title: Adobe Analytics에서 사용되는 용어
 description: Adobe Analytics 용어집, 사용되는 일반 용어 정의
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
    * Adobe Experience Cloud에 포함된 Adobe Campaign Adobe.com에 [대한 자세한 내용](https://www.adobe.com/marketing/campaign.html).
 * **** 채널:참조:
    * 사이트 섹션 차원을 채우는 채널 변수. 구현 사용 안내서에서 [채널을](../implement/vars/page-vars/channel.md) 참조하십시오.
-   * 마케팅 채널 - 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소입니다. 구성 [요소](/help/components/c-marketing-channels/c-overview.md) 사용 안내서의 마케팅 채널을 참조하십시오.
+   * 마케팅 채널 - 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소입니다. 구성 [요소](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) 사용 안내서의 마케팅 채널을 참조하십시오.
 * **** 분류:차원 값을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 [요소](/help/components/c-classifications2/c-classifications.md) 사용 안내서의 분류를 참조하십시오.
 * **** Clickmap:더 이상 사용되지 않습니다. 사이트에서 가장 많이 클릭한 영역을 보여주는 레거시 브라우저 플러그인입니다. 이 도구는 Activity Map을 위해 사용이 중단되었습니다.
 * **** 클릭스트림 데이터 피드:데이터 피드를 참조하십시오.
@@ -68,7 +68,7 @@ source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 * **** 목록 Prop:일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 Prop이 될 수 있습니다. 구현 사용 안내서에서 [prop](../implement/vars/page-vars/prop.md) 을 참조하십시오.
 * **** 목록 변수:전환 변수와 별도의 변수. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 전환 변수와 유사한 변수 값이 방문 시 보존됩니다. 조직에서 사용할 수 있는 목록 변수는 세 개뿐입니다. 구현 사용 안내서의 [목록을](../implement/vars/page-vars/list.md) 참조하십시오.
 * **** 로그인 회사:조직에서 사용하는 보고서 세트 컬렉션입니다. 일부 조직에는 조직의 다른 부분에 적용되는 여러 로그인 회사가 있습니다.
-* **** 마케팅 채널:Adobe Analytics의 기능으로서 히트가 사이트에 도착한 방법별로 히트를 분류합니다. 히트를 분류하는 데 사용되는 로직은 마케팅 채널 처리 규칙을 사용하여 사용자 지정할 수 있습니다. 구성 [요소 사용 안내서의 마케팅](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 채널 시작을 참조하십시오.
+* **** 마케팅 채널:Adobe Analytics의 기능으로서 히트가 사이트에 도착한 방법별로 히트를 분류합니다. 히트를 분류하는 데 사용되는 로직은 마케팅 채널 처리 규칙을 사용하여 사용자 지정할 수 있습니다. 구성 [요소 사용 안내서의 마케팅](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) 채널 시작을 참조하십시오.
 * **** 지표:수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 횟수, 방문 횟수 및 매출액과 같은 숫자가 포함됩니다. 차원은 일반적으로 해당 차원입니다.
 * **** 다중 세트 태깅:동일한 히트를 여러 보고서 세트로 보내는 방법입니다. 가상 보고서 세트에 대한 소개로 이 방법은 더 이상 필요하지 않습니다. 대부분의 다중 세트 태깅 작업은 글로벌 보고서 세트를 수용하는 데 도움이 됩니다.
 * **** 표준화:모든 지표를 가져와 동일한 비율로 강제 적용하는 시각화를 구성하여 트렌드를 보다 쉽게 비교할 수 있습니다.
