@@ -3,7 +3,7 @@ title: JavaScript용 AppMeasurement 릴리스 노트
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -14,7 +14,13 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-코드 관리자에서 최신 버전의 AppMeasurement를 다운로드할 [수 있습니다](/help/admin/admin/code-manager-admin.md).
+코드 관리자(/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 [수]있습니다.
+
+## 버전 2.18.0
+
+릴리스 날짜: **2020년 2월 20일**
+
+* 이제 AppMeasurement는 &#39;true&#39; `writeSecureCookies` 로 설정하여 쿠키를 강제로 보안 태그를 포함할 수 있습니다. 이 설정의 요구 사항은 전체 클라이언트 웹 사이트가 안전하게 제공된다는 것입니다(https). (AN-204604)
 
 ## 버전 2.17.0
 
@@ -27,7 +33,7 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 릴리스 날짜: **2019년 8월 15일**
 
-* [!UICONTROL AppMeasurement]에 종료 링크에 대한 `sendBeacon` 지원 기능을 구현했습니다. 히트가 사용하고 페이지가 `sendBeacon` 언로드되는 경우 요청은 여전히 완료됩니다. 히트가 데이터 수집 서버에 도달할 가능성이 높으므로 종료 링크에 매우 유용합니다. (AN-175142)
+* `sendBeacon`에 종료 링크에 대한 [!UICONTROL AppMeasurement] 지원 기능을 구현했습니다. 히트가 사용하고 페이지가 `sendBeacon` 언로드되는 경우 요청은 여전히 완료됩니다. 히트가 데이터 수집 서버에 도달할 가능성이 높으므로 종료 링크에 매우 유용합니다. (AN-175142)
 * 이제 OptIn 설정이 변경되더라도 ECID/fid 값이 첫 번째 히트에 캐시됩니다. (AN-175142)
 * 대상 관리 모듈의 DIL 9.3 업데이트. (AN-182704)
 * Exposed switch in `s.ActivityMap.trackScrollReach` to turn scroll reach tracking on or off. (AN-182754)
@@ -228,7 +234,7 @@ Updated: **August 4, 2016**
 릴리스 날짜: **2016년 4월 21일**
 
 * [!DNL AppMeasurement] Activity Map 모듈이 [!DNL AppMeasurement] 표준 모듈에 통합되었으므로 한 [!DNL .js] 파일만 참조하면 됩니다. 또한 Activity Map 추적은 기본적으로 활성화됩니다. (AN-112689)
-* [!DNL AppMeasurement]의 쿼리-문자열 변수 순서에서 발생하는 잘림 문제가 해결되었으므로 *`pageURLRest`*이 마지막입니다. (AN-114647)
+* [!DNL AppMeasurement]의 쿼리-문자열 변수 순서에서 발생하는 잘림 문제가 해결되었으므로 *`pageURLRest`*&#x200B;이 마지막입니다. (AN-114647)
 
 ## 버전 1.5.4
 
@@ -262,8 +268,8 @@ Updated: **August 4, 2016**
 
 릴리스 날짜: **2015년 6월 18일**
 
-* *`getCustomerIDs`*메서드를 사용하여 고객 ID와 인증된 상태를 수집하고 데이터 수집 요청으로 해당 ID를 전송하는 방문자 API 1.5에 대한 지원.
-* **[!UICONTROL AudienceManagement]**모듈(DIL 6.1)에서 중복 대상 iframe의 생성이 수정되었습니다.
+* *`getCustomerIDs`* 메서드를 사용하여 고객 ID와 인증된 상태를 수집하고 데이터 수집 요청으로 해당 ID를 전송하는 방문자 API 1.5에 대한 지원.
+* **[!UICONTROL AudienceManagement]** 모듈(DIL 6.1)에서 중복 대상 iframe의 생성이 수정되었습니다.
 * 릴리스 1.4.5에 설명된 알려진 문제를 해결했습니다.
 
 ## 버전 1.4.5
@@ -290,7 +296,7 @@ Updated: **August 4, 2016**
 릴리스 날짜: **2015년 2월 19일**
 
 * 지연된 추적 호출의 모든 처리가 일관되도록 했습니다. 이에 따라 클릭한 개체와 같이 지연 동안 백업한 변수 관련 문제가 수정되었습니다.
-* 첫 번째 추적 호출 전에 *`s.referrer`*가 수동으로 설정되었을 때 두 번째, 세 번째 등의 추적 호출(일반적으로 링크 추적)에서 레퍼러가 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다.
+* 첫 번째 추적 호출 전에 *`s.referrer`*&#x200B;가 수동으로 설정되었을 때 두 번째, 세 번째 등의 추적 호출(일반적으로 링크 추적)에서 레퍼러가 두 번 계산되지 않도록 첫 번째 추적 호출 이후에 자동 레퍼러 추적을 수행하지 않도록 변경되었습니다. 
 * 배포 zip이 방문자 API 1.3.5를 포함하도록 업데이트되었습니다.
 
 ## 버전 1.4.2
@@ -298,7 +304,7 @@ Updated: **August 4, 2016**
 릴리스 날짜: **2015년 1월 15일**
 
 * 보이지 않는 사전 렌더링된 페이지의 추적을 막기 위해 WebKit 사전 렌더링 처리를 수정했습니다.
-* 배포 zip이 DIL 버전 5.5를 포함하는 업데이트된 **[!UICONTROL AudienceManagement]**모듈과 방문자 API 1.3.4를 포함하도록 업데이트되었습니다.
+* 배포 zip이 DIL 버전 5.5를 포함하는 업데이트된 **[!UICONTROL AudienceManagement]** 모듈과 방문자 API 1.3.4를 포함하도록 업데이트되었습니다.
 
 ## 버전 1.4.1
 
@@ -328,7 +334,7 @@ Updated: **August 4, 2016**
 릴리스 날짜: **2014년 8월 21일**
 
 * 플러그인으로서 제거된 브라우저 플러그인(`p` 쿼리 매개 변수) 추적이 버전 15에서 더 이상 보고되지 않습니다.
-* 다운로드 zip에서 **[!UICONTROL AudienceManagement]**모듈 추가.
+* 다운로드 zip에서 **[!UICONTROL AudienceManagement]** 모듈 추가.
 * 추가 eVars(76 - 250) 및 이벤트(101-1000)에 대한 지원을 추가했습니다.
 
 > [!NOTE] H-Code는 추가 eVar 및 이벤트를 지원하지 않습니다.
