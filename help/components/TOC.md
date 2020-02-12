@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: ht
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+translation-type: tm+mt
+source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [간단한 "방문자 수당 페이지 보기 수" 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [간단한 &quot;방문자 수당 페이지 보기 수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [세그먼트화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [필터 및 가중치가 적용된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
@@ -327,24 +327,25 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [실시간 보고서 구성](c-real-time-reporting/t-realtime-admin.md)
    + [지원되는 실시간 지표 및 차원](c-real-time-reporting/realtime-metrics.md)
 + 마케팅 채널 {#marketing-channels}
-   + [마케팅 채널 시작](c-marketing-channels/c-getting-started-mchannel.md)
-   + [마케팅 채널 보고서 정보](c-marketing-channels/c-overview.md)
-   + [채널 및 규칙 정보](c-marketing-channels/c-channels-rules.md)
-   + [자동 설정](c-marketing-channels/c-channel-autosetup.md)
-   + [마케팅 채널 관리](c-marketing-channels/c-channels.md)
-   + [내부(세션 새로 고침) 채널](c-marketing-channels/session-refresh.md)
-   + [마케팅 채널의 처리 규칙](c-marketing-channels/c-rules.md)
-   + [마케팅 채널 처리 규칙 만들기](c-marketing-channels/t-rules.md)
-   + [마케팅 채널 처리 규칙 - 정의](c-marketing-channels/r-channel-rule-definitions.md)
-   + [FAQ 및 예제](c-marketing-channels/c-faq.md)
-   + [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](c-marketing-channels/t-template.md)
-   + [마케팅 채널에서의 분류](c-marketing-channels/classifictions-mchannel.md)
-   + [방문자 유도 만료](c-marketing-channels/visitor-engagement.md)
-   + [마케팅 채널 보고서에 사용된 지표](c-marketing-channels/c-overview-metrics.md)
-   + [마케팅 채널 보고서를 사용한 계산된 지표](c-marketing-channels/c-channel-calc-metrics.md)
-   + [비용 및 예산](c-marketing-channels/c-overview-budget.md)
-   + [오프라인 데이터 추가](c-marketing-channels/t-offline-data.md)
-   + [보고서 액세스 권한](c-marketing-channels/c-channel-report-access.md)
-   + [사용자 그룹 액세스 권한 구성](c-marketing-channels/t-user-groups.md)
-   + [제한적인 관리자 권한 부여](c-marketing-channels/t-admin-rights.md)
-   + [마케팅 채널 보고서 실행](c-marketing-channels/t-reports-sc.md)
+   + [마케팅 채널 시작하기]{#mc-get-started}
+      + [시작하기](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
+      + [자동 설정](c-marketing-channels/getting-started/c-channel-autosetup.md)
+      + [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](c-marketing-channels/getting-started/t-template.md)
+   + [마케팅 채널 관리자]{#mc-manager}
+      + [마케팅 채널 관리](c-marketing-channels/mark-channel-mgr/c-channels.md)
+      + [채널 및 규칙 정보](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
+   + [마케팅 채널 처리 규칙]{#mc-proc-rules}
+      + [마케팅 채널의 처리 규칙](c-marketing-channels/mc-proc-rules/c-rules.md)
+      + [마케팅 채널 처리 규칙 만들기](c-marketing-channels/mc-proc-rules/t-rules.md)
+      + [마케팅 채널 규칙 기준](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
+      + [내부(세션 새로 고침) 채널](c-marketing-channels/mc-proc-rules/session-refresh.md)
+   + [마케팅 채널 분류]{#mc-classifications}
+      + [마케팅 채널에서의 분류](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
+   + [마케팅 채널 만료]{#mc-expire}
+      + [방문자 유도 만료](c-marketing-channels/mc-expiration/visitor-engagement.md)
+   + [마케팅 채널] 분석 {#mc-analyze}
+      + [마케팅 채널 분석](c-marketing-channels/mc-analyze/analyze-mc.md)
+   + [마케팅 채널] 액세스 {#mc-access}
+      + [마케팅 채널 권한](c-marketing-channels/mc-access/c-channel-report-access.md)
+   + [마케팅 채널 FAQ]{#mc-faq}
+      + [마케팅 채널 FAQ 및 예제](c-marketing-channels/mc-faq/c-faq.md)
