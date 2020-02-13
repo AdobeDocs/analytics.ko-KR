@@ -2,7 +2,7 @@
 title: Cross-Device Analytics 설정
 description: 전제 조건을 충족한 후 Cross-Device Analytics를 설정하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ Adobe는 중요한 크로스 디바이스 성능 데이터를 볼 수 있는 템
 1. 메시지가 표시되면 보고서 세트를 CDA를 지원하는 보고서 세트로 변경합니다.
 
 여러 패널이 포함된 분석 작업 공간 프로젝트가 만들어집니다. 맨 위에는 보고서 컨텍스트와 개별 보고서에 대한 탐색을 허용하는 목차 및 소개가 표시됩니다. 목차에서 링크를 클릭하거나 패널의 아코디언을 확장하여 해당 보고서를 봅니다.
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **Co-op 그래프 구성원에 대한 특수 참고**:Co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
 * **사용자**&#x200B;식별:크로스 장치 분석을 기반으로 한 방법을 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
