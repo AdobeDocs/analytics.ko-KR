@@ -3,7 +3,7 @@ title: Adobe Analytics 설명서 업데이트
 description: 기술 설명서 업데이트 Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 | 날짜 | 설명 |
 |---|---|
-| 2020년 2월 12일 | 마케팅 채널 설명서 업데이트 및 재구성. |
+| 2020년 2월 12일 | 마케팅 채널 설명서 업데이트 및 [재구성](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
 | 2020년 2월 7일 | 크로스 [디바이스 분석 설정 업데이트](../components/cda/cda-setup.md) 및 [FAQ](../components/cda/cda-faq.md) |
 | 2020년 2월 4일 | 구현 [사용 안내서의](../implement/home.md)전체 다시 작성 |
 | 2020년 1월 22일 | 새 자유 형식 테이블 빌더에 대한 정보가 포함된 자유 형식 [테이블 페이지를 업데이트했습니다](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
