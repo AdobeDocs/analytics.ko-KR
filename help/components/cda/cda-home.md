@@ -2,7 +2,7 @@
 title: Cross-Device Analytics
 description: Cross-Device Analytics는 장치 데이터를 함께 결합함으로써 데이터를 장치 중심에서 사람 중심으로 변경합니다.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 ---
 
@@ -55,7 +55,8 @@ Cross-Device Analytics는 획기적이고 강력한 기능이지만 사용 방�
 * 고객 지원 센터는 아직 이 기능을 완전히 지원하지는 않습니다. 이 기능에 대한 지원을 위해 [Cross-Device Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview)을 이용할 수 있으며 여기에는 Adobe 제품 관리자의 적극적이고 직접적인 참여가 포함됩니다.
 * Cross-Device Analytics는 가상 보고서 세트 및 보고서 처리 시간을 사용하는데, 여기에는 자체 제한 사항도 있습니다. 이러한 제한 사항에 대한 자세한 내용은 [가상 보고서 세트](../vrs/vrs-about.md) 및 [보고서 처리 시간](../vrs/vrs-report-time-processing.md)을 참조하십시오.
 * 1.4 API가 지원되지 않습니다. Power BI 커넥터와 Report Builder 모두 1.4 API에 의존하며, 따라서 CDA와 호환되지 않습니다.
-* 사이트를 방문하는 새 장치는 Co-op Graph에서 처리하는 데 최대 2주가 걸릴 수 있습니다. 가장 최근 2주 동안 CDA의 결합 수준은 일반적으로 그 이전까지 날짜 범위의 수준보다 낮습니다. Adobe에서는 향후 새로운 장치를 실시간으로 결합하기 위해 Adobe Experience Platform ID 서비스를 개선할 계획입니다.
+* 조직에서 비공개 그래프를 사용하는 경우 새 장치를 연결하는 데 최대 24시간이 걸립니다.
+* 사이트를 방문하는 새 장치는 Co-op Graph에서 처리하는 데 최대 2주가 걸릴 수 있습니다. 가장 최근 2주 동안 CDA의 결합 수준은 일반적으로 그 이전까지 날짜 범위의 수준보다 낮습니다. Adobe는 향후 Co-op 그래프를 매일 새로 고친 그래프로 개선할 계획입니다.
 * 가상 보고서 세트의 내역 데이터는 Adobe 인식 및 결합 장치를 기반으로 변경됩니다. 소스 보고서 세트의 데이터는 변경되지 않습니다.
 
 조직이 모든 요구 사항을 충족하고 제한 사항을 이해하면 [Cross-Device Analytics 설정](cda-setup.md)을 시작할 수 있습니다.
