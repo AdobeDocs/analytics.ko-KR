@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
+source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
 
 ---
 
@@ -327,25 +327,25 @@ source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
    + [실시간 보고서 구성](c-real-time-reporting/t-realtime-admin.md)
    + [지원되는 실시간 지표 및 차원](c-real-time-reporting/realtime-metrics.md)
 + 마케팅 채널 {#marketing-channels}
-   + [마케팅 채널 시작하기]{#mc-get-started}
+   + Get Started with Marketing Channels {#mc-get-started}
       + [시작하기](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
       + [자동 설정](c-marketing-channels/getting-started/c-channel-autosetup.md)
       + [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](c-marketing-channels/getting-started/t-template.md)
-   + [마케팅 채널 관리자]{#mc-manager}
+   + 마케팅 채널 관리자 {#mc-manager}
       + [마케팅 채널 관리](c-marketing-channels/mark-channel-mgr/c-channels.md)
       + [채널 및 규칙 정보](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
-   + [마케팅 채널 처리 규칙]{#mc-proc-rules}
+   + 마케팅 채널 처리 규칙 {#mc-proc-rules}
       + [마케팅 채널의 처리 규칙](c-marketing-channels/mc-proc-rules/c-rules.md)
       + [마케팅 채널 처리 규칙 만들기](c-marketing-channels/mc-proc-rules/t-rules.md)
       + [마케팅 채널 규칙 기준](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
       + [내부(세션 새로 고침) 채널](c-marketing-channels/mc-proc-rules/session-refresh.md)
-   + [마케팅 채널 분류]{#mc-classifications}
+   + 마케팅 채널 분류 {#mc-classifications}
       + [마케팅 채널에서의 분류](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
-   + [마케팅 채널 만료]{#mc-expire}
+   + 마케팅 채널 만료 {#mc-expire}
       + [방문자 유도 만료](c-marketing-channels/mc-expiration/visitor-engagement.md)
-   + [마케팅 채널] 분석 {#mc-analyze}
+   + 마케팅 채널 분석 {#mc-analyze}
       + [마케팅 채널 분석](c-marketing-channels/mc-analyze/analyze-mc.md)
-   + [마케팅 채널] 액세스 {#mc-access}
+   + 마케팅 채널 액세스 {#mc-access}
       + [마케팅 채널 권한](c-marketing-channels/mc-access/c-channel-report-access.md)
-   + [마케팅 채널 FAQ]{#mc-faq}
+   + 마케팅 채널 FAQ {#mc-faq}
       + [마케팅 채널 FAQ 및 예제](c-marketing-channels/mc-faq/c-faq.md)
