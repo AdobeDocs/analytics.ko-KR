@@ -4,7 +4,7 @@ title: 사용자 지정된 날짜 표현식 - 개요
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -17,6 +17,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **사용자 지정 표현식을 활성화하는 방법**
 
-1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
-1. Enable **[!UICONTROL Custom Expression]**.
-1. 아래 주어진 약자, 구문 규칙 및 예에 따라 **시작** 및 **[!UICONTROL 종료]필드에 특수 표현식을 입력합니다.**
+1. 에서 [!UICONTROL Request Wizard: Step 1]을 선택합니다 **[!UICONTROL Rolling Dates]**.
+
+   ![](assets/rolldates1.png)
+
+1. 
+1. 활성화 **[!UICONTROL Customize Expression]**.
+1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.
