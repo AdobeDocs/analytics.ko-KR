@@ -2,8 +2,8 @@
 description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 ---
 
@@ -14,21 +14,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 프로젝트를 다음 중 어느 방법으로 작성할지 선택할 수 있습니다.
 
-* 빈 프로젝트(기본값). 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
-* 표준 템플릿. 이러한 템플릿은 Adobe가 만들어 특별 배송합니다.
-* 사용자 지정 템플릿. [템플릿으로 저장] 권한이 부여된 경우 관리 권한이 있는 사용자나 관리자가 아닌 사용자가 이 템플릿을 생성할 수 있습니다. 자세한 내용은 Admin Console 설명서에서 [제품 사용 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html)를 참조하십시오.
+* **빈 프로젝트(기본값)**:자세한 내용은 분석 작업 [공간 프로젝트 만들기를 참조하십시오](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+* **표준 템플릿**:이러한 템플릿은 Adobe에서 만든 후 제품과 함께 제공됩니다.
+* **사용자 지정 템플릿**:관리 콘솔에서 권한이 부여된 경우 관리자 권한이 있는 사용자 또는 관리자가 아닌 사용자가 이러한 템플릿을 생성, 공유 또는 삭제할 수 [!UICONTROL Analysis Workspace: Save as Template] 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [사용자 지정 템플릿 만들기](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* [표준 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## 사용자 지정 템플릿 만들기 {#create-custom-template}
 
 관리자 권한이 있는 사용자는 자신이 만드는 프로젝트를 사용자 지정 템플릿으로 만들 수 있습니다. 방법은 다음과 같습니다.
 
 1. 프로젝트를 엽니다.
-1. **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 템플릿으로 저장]**&#x200B;으로 이동합니다.
+1. Go to **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -36,50 +33,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. 태그와 설명을 편집하려면 **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동하십시오.
+   >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. (태그 및 설명을 편집하려면 **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** 로 이동합니다.)
 
 ### 사용자 지정 템플릿에서 수행할 수 있는 작업
 
 ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 작업 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>편집 template </p> </td> 
-   <td colname="col2"> <p>관리자가 데이터 소스를 변경하고 구성 요소, 시각화, 날짜 범위 등을 수정하여 템플릿을 편집할 수 있습니다. </p> <p>사용자 지정 템플릿을 편집하려면 다음을 수행하십시오. </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Analysis Workspace에서 사용자 지정 템플릿 목록을 표시하고 하나를 선택한 다음 <span class="uicontrol">템플릿 편집</span>을 클릭합니다. 또는 </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">Analytics에서 <span class="ignoretag"><span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol"> 프로젝트</span></span>로 이동한 다음 <span class="uicontrol">템플릿</span>에 대해 필터링합니다. 편집할 템플릿의 이름을 클릭하십시오. </li> 
-    </ul> <p> </p> <p>참고: 상황에 따라 템플릿을 편집한 후에는 <span class="uicontrol">저장</span>과 <span class="uicontrol">다른 이름으로 저장</span>, 이렇게 두 가지 선택 사항이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다. 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>저장</b>: 모든 사용자의 사용자 지정 템플릿을 업데이트합니다. 다른 사용자가 이 사용자 지정 템플릿에서 프로젝트를 작성할 때에는 변경한 내용이 표시됩니다. </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>다른 이름으로 저장</b>: 사용자의 변경 내용이 적용된 사용자 지정 템플릿을 만듭니다. </li> 
-     </ul> </p> <p>(<span class="uicontrol">공유</span> &gt; <span class="uicontrol">프로젝트 공유</span> 메뉴 항목 사용이 비활성화되어 있으면 편집 모드 상태임을 알 수 있습니다.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>템플릿 검색 </p> </td> 
-   <td colname="col2"> <p>사용자 지정 템플릿 대화 상자에서 <span class="uicontrol">템플릿 검색</span>을 클릭합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>템플릿 정렬 </p> </td> 
-   <td colname="col2"> <p>템플릿을 알파벳순, 관련성 및 작성 날짜별로 정렬할 수 있습니다. </p> <p>사용자 지정 템플릿 대화 상자에서 <span class="uicontrol">정렬:</span>을 클릭합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>템플릿에 태그 적용 </p> </td> 
-   <td colname="col2"> <p>템플릿을 열고 <span class="ignoretag"><span class="uicontrol">프로젝트</span> &gt; <span class="uicontrol">프로젝트 정보 및 설정</span></span>으로 이동합니다. <span class="uicontrol">태그 추가</span>를 클릭합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>템플릿 설명 수정 </p> </td> 
-   <td colname="col2"> <p>템플릿을 열고 <span class="ignoretag"><span class="uicontrol">프로젝트</span> &gt; <span class="uicontrol">프로젝트 정보 및 설정</span></span>으로 이동합니다. 설명을 두 번 클릭하고 편집합니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 작업 | 설명 |
+|--- |--- |
+| 편집 template | 관리자가 데이터 소스를 변경하고 구성 요소, 시각화, 날짜 범위 등을 수정하여 템플릿을 편집할 수 있습니다.  사용자 지정 템플릿을 편집하려면 다음을 수행하십시오.<ul><li>Analysis Workspace에서 사용자 지정 템플릿 목록을 표시하고 하나를 선택한 다음 템플릿 편집을 클릭합니다. 또는</li><li>Analytics에서 구성 요소 >  프로젝트로 이동한 다음 템플릿에 대해 필터링합니다. 편집할 템플릿의 이름을 클릭하십시오.</li></ul>**참고:** 상황에 따라 템플릿을 편집한 후에는 저장과 다른 이름으로 저장, 이렇게 두 가지 옵션이 있습니다. 다음은 두 옵션이 어떻게 다른지 설명합니다.<ul><li>**** 저장:모든 사용자에 대한 사용자 지정 템플릿을 업데이트합니다. 다른 사용자가 이 사용자 지정 템플릿에서 프로젝트를 작성할 때에는 변경한 내용이 표시됩니다.</li><li>**** 다른 이름으로 저장:변경 사항이 있는 사용자 지정 템플릿의 복사본을 만듭니다. (공유 > 프로젝트 공유 메뉴 항목 사용이 비활성화되어 있으면 편집 모드 상태임을 알 수 있습니다.)</li></ul> |
+| 템플릿 검색 | 사용자 지정 템플릿 대화 상자에서 템플릿 검색을 클릭합니다. |
+| 템플릿 정렬 | 템플릿을 알파벳순, 관련성 및 작성 날짜별로 정렬할 수 있습니다.  사용자 지정 템플릿 대화 상자에서 정렬:을 클릭합니다. |
+| 템플릿에 태그 적용 | 템플릿을 열고 프로젝트 > 프로젝트 정보 및 설정으로 이동합니다. 태그 추가를 클릭합니다. |
+| 템플릿 설명 수정 | 템플릿을 열고 프로젝트 > 프로젝트 정보 및 설정으로 이동합니다. 설명을 두 번 클릭하고 편집합니다. |
+
 
 ## 표준 템플릿 {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
@@ -87,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. 
 
-[Analysis Workspace 표준 템플릿 - YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
+[Analysis Workspace 표준 템플릿 - YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6)(2:46)
 
 다음은 템플릿과 각 템플릿을 사용하여 해결할 수 있는 질문입니다.
 
@@ -137,15 +104,33 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### 사람
 
-> [!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ko_KR/mcdc/mcdc-people.html)의 일부로서만 사용할 수 있습니다.
+> [!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)의 일부로서만 사용할 수 있습니다.
 
 고유 방문자 수 지표의 중복이 제거된 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 장치를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. 템플릿을 사용하면 다음 작업을 수행할 수 있습니다.
 
 * 미국/캐나다와 나머지 세계에 대한 데이터를 나눕니다. Device Co-op는 현재 북미에서만 사용할 수 있습니다.
 * 사람 지표와 고유 방문자 수 지표를 나란히 비교합니다.
-* 사람 지표가 고유 방문자 수의 비율로서 얼마나 작은지를 계산하는 계산된 지표인 "압축 비율"을 참조하십시오.
+* 사람 지표가 고유 방문자 수의 비율로서 얼마나 작은지를 계산하는 계산된 지표인 &quot;압축 비율&quot;을 참조하십시오.
 * 고객이 사용하는 장치 유형 합계를 비교합니다.
 * 사람당 몇 개의 평균 장치가 사용되는지를 확인합니다.
 * 사람 지표를 사용하는 세그먼트 스택 사용 방법을 알아봅니다.
 * 사용 중인 환경에서 Experience Cloud ID를 사용하는 것이 어떻게 사람 지표의 효과를 개선하는지 알아봅니다.
 
+### 여정 IQ:장치 간 분석 템플릿
+
+<!-->This content is mirrored in the CDA doc.<-->
+
+이 템플릿을 사용하면 중요한 크로스 디바이스 성능 데이터를 볼 수 있습니다. CDA(Cross-Device Analytics) [에 액세스할 수 있는 고객에게만](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) 제공됩니다.
+
+* **Co-op 그래프 구성원에 대한 특수 참고**:Co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
+* **사용자**&#x200B;식별:크로스 장치 분석을 기반으로 한 방법을 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
+* **대상 크기**&#x200B;측정:&#39;Unique Devices&#39;와 &#39;People&#39;의 비교를 보여줍니다. 이 두 숫자의 비율을 &#39;장치 간 압축&#39;이라고 하며, 이 패널에는 계산된 지표가 표시됩니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.
+   * **Co-op 그래프 또는 비공개 그래프**&#x200B;사용:일반적으로 장치 협업을 사용하는 조직은 비공개 그래프를 사용하는 조직보다 압축률이 더 높은 경향이 있습니다.
+   * **로그인 속도**:사용자가 사이트에 더 많이 로그인하면 Adobe가 여러 장치에서 방문자를 식별하고 연결할 수 있습니다. 로그인 비율이 낮은 사이트는 압축률도 낮습니다.
+   * **Experience Cloud ID 범위**:ECID가 있는 방문자만 연결할 수 있습니다. ECID를 사용하는 사이트에 대한 방문자의 낮은 비율은 낮은 압축률과 상호 연관성이 있습니다.
+   * **다양한 디바이스 사용**:사이트 방문자가 여러 장치를 사용하지 않는 경우 압축률이 낮아집니다.
+   * **보고 세부기간**:일별 압축은 일반적으로 월 또는 연도별로 압축하는 것보다 작습니다. 개인이 여러 장치를 사용할 가능성은 범위가 한 달일 때보다 하루일 때 더 작아집니다. 세그먼트화, 필터링 또는 분류 차원 사용 시에도 압축률이 더 낮아질 수 있습니다.
+* **사용자 기반 세그먼트**:장치별 데이터를 볼 수 있는 세그먼트 드롭다운이 포함되어 있습니다. 이 패널에서는 장치 유형을 포함하거나 제외하는 것이 보고서에 어떤 영향을 미치는지 보기 위해 세그먼트와 함께 실험해 볼 것을 권장합니다.
+* **크로스 디바이스 경로**&#x200B;분석:장치 유형에 따라 흐름 및 폴아웃 보고서를 제공합니다.
+* **크로스 디바이스 기여도**:Journey IQ와 Attribution IQ의 기능을 함께 사용할 수 있습니다.
+* **기타 팁 및 기법**:CDA를 최대한 활용할 수 있는 유용한 주제입니다.
