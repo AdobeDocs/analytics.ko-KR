@@ -3,7 +3,7 @@ title: JavaScript용 AppMeasurement 릴리스 노트
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -18,7 +18,7 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 ## 버전 2.18.0
 
-릴리스 날짜: **2020년 2월 20일**
+릴리스 날짜: **2020년 2월 13일**
 
 * 이제 AppMeasurement는 &#39;true&#39; `writeSecureCookies` 로 설정하여 쿠키를 강제로 보안 태그를 포함할 수 있습니다. 이 설정의 요구 사항은 전체 클라이언트 웹 사이트가 안전하게 제공된다는 것입니다(https). (AN-204604)
 
