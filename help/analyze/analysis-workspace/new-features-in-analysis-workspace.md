@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
+source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
 | 크로스 디바이스 분석을 사용하는 조직을 위한 새로운 작업 영역 템플릿 | 이 템플릿에서는 CDA가 방문 횟수를 합치는 데 얼마나 효과적인지를 보여주며 CDA 전용 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 [내용은 장치 간](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 분석 설정을 참조하십시오. |
 | 작업 영역의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 기타 작업 영역 개선 사항 | <ul><li>패널이나 시각화를 작업 영역으로 가져오면 왼쪽 레일이 구성 요소로 자동 전환되어 보다 매끄러운 작업 과정이 이루어집니다.</li><li>이제 템플릿 구성 요소에 액세스할 수 있습니다(예: 태그, 즐겨찾기, 승인).</li><li>필터링된 지표 및 세그먼트 목록은 + 단추를 제공하여 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가합니다.</li></ul> |
+| 작업 영역 디버거 | 작업 공간 디버거가 도움말 메뉴에 추가되어 작업 공간 요청 디버깅에 보다 매끄럽게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020년 1월
 
