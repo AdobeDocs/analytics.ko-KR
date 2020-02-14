@@ -2,8 +2,8 @@
 description: 'null'
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+translation-type: tm+mt
+source-git-commit: 604f9b896b843f68b23949fe77502a6d22a06509
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 소비자 동의 관리 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-데이터 제어자는 데이터 주체에 대한 데이터(Adobe Analytics 데이터 포함 가능)를 수집하기 전에 데이터 주체로부터 명시적 동의를 받고 웹 사이트에서 [옵트아웃 메커니즘을 구현](https://marketing.adobe.com/resources/help/ko_KR/dtm/opt-in.html)할 책임이 있습니다. 이렇게 하면 데이터 주체가 향후 Adobe Experience Cloud 데이터 수집을 옵트 아웃할 수 있습니다.
+데이터 제어자는 데이터 주체에 대한 데이터(Adobe Analytics 데이터 포함 가능)를 수집하기 전에 데이터 주체로부터 명시적 동의를 받고 웹 사이트에서 [옵트아웃 메커니즘을 구현](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html)할 책임이 있습니다. 이렇게 하면 데이터 주체가 향후 Adobe Experience Cloud 데이터 수집을 옵트 아웃할 수 있습니다.
 
 ## 사용자 및 해당 데이터의 유효성 검사 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -82,13 +82,13 @@ Adobe의 [데이터 개인 정보 보호 UI 포털](https://www.adobe.io/apis/ex
                     "namespace": "CRM-ID", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar17 in some report suites", 
-                    "value": "ACME-12345678", 
+                    "value": "ACME-12345678"
                 }, 
                 { 
                     "namespace": "email address", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar23 in some report suites", 
-                    "value": "john@mail.com", 
+                    "value": "john@mail.com" 
                 } 
             ] 
         } 
@@ -105,7 +105,7 @@ Adobe의 [데이터 개인 정보 보호 UI 포털](https://www.adobe.io/apis/ex
 
 주의 사항
 
-* companyContexts 섹션의 "5D7236525AA6D9580A495C6C@AdobeOrg" 값은 Experience Cloud 조직의 값으로 업데이트해야 합니다.
+* companyContexts 섹션의 &quot;5D7236525AA6D9580A495C6C@AdobeOrg&quot; 값은 Experience Cloud 조직의 값으로 업데이트해야 합니다.
 * type 및 namespace 필드는 [네임스페이스](/help/admin/c-data-governance/gdpr-namespaces.md) 섹션에 더 자세하게 설명되어 있습니다.
 * description 필드는 무시됩니다.
 * key 필드에는 원하는 값이 포함될 수 있습니다. 데이터 개인 정보 보호 요청 추적에 사용하는 내부 ID가 있는 경우 여기에 해당 값을 지정하여 Adobe 시스템의 요청을 사용자 시스템의 요청에 보다 쉽게 일치시킬 수 있습니다.
@@ -147,4 +147,4 @@ Adobe의 [데이터 개인 정보 보호 UI 포털](https://www.adobe.io/apis/ex
 * 한 가지 옵션은 테스트 보고서 세트만 포함된 별도의 Experience Cloud 조직을 설정하는 것입니다. 그런 다음 실제 데이터 개인 정보 보호 처리 시 사용자의 데이터 개인 정보 보호 테스트 및 일반적인 Experience Cloud 조직에 대해 이 Experience Cloud 조직을 사용하십시오.
 * 또 다른 옵션은 테스트 보고서 세트의 ID와 프로덕션 보고서 세트의 ID에 서로 다른 네임스페이스를 할당하는 것입니다.
 
-   예를 들어 테스트 보고서 세트에 "qa-"를 사용하여 각 네임스페이스에 접두사를 추가할 수 있습니다. qa 접두사가 있는 네임스페이스로만 데이터 개인 정보 보호 요청을 제출하면 이러한 요청은 테스트 보고서 세트에 대해서만 실행됩니다. 나중에 qa 접두사 없이 요청을 제출할 때 프로덕션 보고서 세트에 적용됩니다. **visitorId, AAID, ECID 또는 customVisitorId 네임스페이스는 하드코딩되어 있으며 테스트 보고서 세트에서 대체 이름을 지정할 수 없기 때문에 이 방식을 사용하는 것이 좋습니다**.
+   예를 들어 테스트 보고서 세트에 &quot;qa-&quot;를 사용하여 각 네임스페이스에 접두사를 추가할 수 있습니다. qa 접두사가 있는 네임스페이스로만 데이터 개인 정보 보호 요청을 제출하면 이러한 요청은 테스트 보고서 세트에 대해서만 실행됩니다. 나중에 qa 접두사 없이 요청을 제출할 때 프로덕션 보고서 세트에 적용됩니다. **visitorId, AAID, ECID 또는 customVisitorId 네임스페이스는 하드코딩되어 있으며 테스트 보고서 세트에서 대체 이름을 지정할 수 없기 때문에 이 방식을 사용하는 것이 좋습니다**.
