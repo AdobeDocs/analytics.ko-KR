@@ -2,7 +2,7 @@
 title: Adobe Analytics의 획득 보고서
 description: 분석 작업 공간을 사용하여 획득 기반 보고서를 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
+source-git-commit: 2e3896501a036e20f9f392c325e0c8ff1d586fba
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Analytics에서 이러한 보고서를 마케팅 채널이라고 **합니�
 
 > [!IMPORTANT]
 >
-> 이러한 보고서를 사용하도록 마케팅 채널 처리 규칙을 설정합니다. 조직에서 [마케팅 채널을](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) 가장 잘 구성하는 방법은 마케팅 채널 시작하기를 참조하십시오.
+> 이러한 보고서를 사용하도록 마케팅 채널 처리 규칙을 설정합니다. 조직에서 [마케팅 채널을](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 가장 잘 구성하는 방법은 마케팅 채널 시작하기를 참조하십시오.
 
 이 페이지에서는 사용자가 분석 작업 공간 사용에 대한 기본적인 지식을 보유하고 있다고 가정합니다. Adobe [Analytics의 도구에 아직 익숙하지 않은 경우 Google Analytics 사용자를](create-report.md) 위한 분석 작업 공간에서 기본 보고서 만들기를 참조하십시오.
 
