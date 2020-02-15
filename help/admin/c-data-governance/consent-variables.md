@@ -3,7 +3,7 @@ description: 데이터 개인 정보 보호에서 개인 정보 보호 보고를
 title: 개인 정보 보호 보고 변수
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
+source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
 
@@ -35,12 +35,12 @@ source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
 Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설정을 통해 개인 정보 보호 보고 변수를 활성화할 수 있습니다.
 
 각 보고서 세트는 다음과 같이 구성할 수 있습니다.
-1. Reports &amp; Analytics에서 **[!UICONTROL 관리자 &gt; 보고서 세트]**&#x200B;를 클릭합니다.
-1. 미디어 데이터를 수집하는 보고서 세트를 선택한 다음 **[!UICONTROL 설정 편집 &gt; 개인 정보 관리]**&#x200B;를 클릭합니다.
+1. 보고 및 분석에서 을 **[!UICONTROL Admin > Report Suites]**&#x200B;클릭합니다.
+1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings > Privacy Management]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. **[!UICONTROL 데이터 개인 정보 보고서 활성화]** 단추를 클릭합니다.
+1. 단추를 **[!UICONTROL Enable Data Privacy Reports]** 클릭합니다.
 
    > [!NOTE] 이러한 변수를 활성화하면 해제할 수 없습니다.
 
@@ -50,9 +50,9 @@ Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설�
 
    ![](assets/rsm-privacy-config.png)
 
-1. 이제 예약된 변수를 보고에 사용할 수 있습니다.  동의 관리 옵트아웃 및 동의 관리 옵트인을 참조하십시오.
+1. 이제 예약된 변수를 보고 및 분석 및 작업 공간에서 분석할 수 있습니다. 동의 관리 옵트아웃 및 동의 관리 옵트인을 참조하십시오.
 
-   ![](assets/rsm-privacy-reports.png)
+   ![](assets/consent-management.png)
 
 ## 구현
 
@@ -64,19 +64,19 @@ Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설�
 
 * 컨텍스트 데이터: `contextData.['cm.ssf']`
 * 허용된 값:
-   * 1 - 값 "1"을 전송할 때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 함께 "1" 값을 지정하면 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. [AAM ePrivacy 규정 준수](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)를 참조하십시오.
-   * 0 - 선택 사항입니다. 타깃팅된 마케팅에 동의한 고객에 대해 값 "0"을 사용합니다. 변수를 설정하지 않으면 동일한 결과가 생성됩니다.
+   * 1 - 값 &quot;1&quot;을 전송할 때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 함께 &quot;1&quot; 값을 지정하면 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. [AAM ePrivacy 규정 준수](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)를 참조하십시오.
+   * 0 - 선택 사항입니다. 타깃팅된 마케팅에 동의한 고객에 대해 값 &quot;0&quot;을 사용합니다. 변수를 설정하지 않으면 동일한 결과가 생성됩니다.
 
 ### DMP
 
 * 컨텍스트 데이터: `contextData.['opt.dmp']`
 * 허용된 값:
-   * N - 값 "N"을 전송할 때 소비자가 데이터 관리 플랫폼에 대한 공유를 거부함을 나타냅니다. **참고**: 이 변수를 "N"으로 설정하면 지금은 AAM에 대한 공유를 차단하지 않지만, AAM 기능에 대한 차단 호출이 2020년 초에 추가됩니다. 현재 Adobe에서는 히트가 AAM으로 전송되지 않도록 `c.cm.ssf=1` 및 `c.opt.dmp=N` 둘 다 설정하는 것이 좋습니다.
-   * Y - 값 "Y"를 전송할 때 소비자가 데이터 관리 플랫폼에 공유하도록 선택함을 나타냅니다.
+   * N - 값 &quot;N&quot;을 전송할 때 소비자가 데이터 관리 플랫폼에 대한 공유를 거부함을 나타냅니다.  **참고**:2020년 1월 15일부터 이 변수를 &quot;N&quot;으로 설정하면 이 히트의 서버측 공유를 AAM에 차단합니다.
+   * Y - 값 &quot;Y&quot;를 전송할 때 소비자가 데이터 관리 플랫폼에 공유하도록 선택함을 나타냅니다.
 
 ### SELL
 
 * 컨텍스트 데이터: `contextData.['opt.sell']`
 * 허용된 값:
-   * N - 값 "N"을 전송할 때, 이는 소비자가 데이터 공유 또는 판매를 제3자에게 거절함을 나타냅니다.
-   * Y - 값 "Y"를 전송할 때, 이는 소비자가 데이터 공유 또는 판매를 제3자에게 선택함을 나타냅니다.
+   * N - 값 &quot;N&quot;을 전송할 때, 이는 소비자가 데이터 공유 또는 판매를 제3자에게 거절함을 나타냅니다.
+   * Y - 값 &quot;Y&quot;를 전송할 때, 이는 소비자가 데이터 공유 또는 판매를 제3자에게 선택함을 나타냅니다.
