@@ -3,7 +3,7 @@ title: JavaScript용 AppMeasurement 릴리스 노트
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
 
 ---
 
@@ -14,13 +14,13 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-코드 관리자(/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 [수]있습니다.
+코드 관리자에서 최신 버전의 AppMeasurement를 다운로드할 [수 있습니다](/help/admin/admin/code-manager-admin.md).
 
 ## 버전 2.18.0
 
 릴리스 날짜: **2020년 2월 13일**
 
-* 이제 AppMeasurement는 &#39;true&#39; `writeSecureCookies` 로 설정하여 쿠키를 강제로 보안 태그를 포함할 수 있습니다. 이 설정의 요구 사항은 전체 클라이언트 웹 사이트가 안전하게 제공된다는 것입니다(https). (AN-204604)
+* 이제 AppMeasurement는 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 변수를 설정하여 쿠키를 강제로 Secure 속성을 포함할 수 있습니다. 이 변수에 대한 요구 사항은 전체 클라이언트 웹 사이트가 안전하게 제공된다는 것입니다(HTTPS). (AN-204604)
 
 ## 버전 2.17.0
 
