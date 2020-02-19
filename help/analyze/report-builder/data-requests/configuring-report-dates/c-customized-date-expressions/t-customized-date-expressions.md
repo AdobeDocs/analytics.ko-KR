@@ -4,7 +4,7 @@ title: 사용자 지정된 날짜 표현식 - 개요
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
 
    예를 들어, 위의 날짜를 3개월 전 첫 번째 날부터 이번 달의 첫 날로 변경하는 경우, 사전 옵션 부분에 있는 날짜는 자동으로 업데이트되어 이를 반영합니다.
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
