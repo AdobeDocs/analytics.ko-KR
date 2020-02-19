@@ -3,7 +3,7 @@ description: 로그 파일은 웹 사이트에서 파일이 검색될 때 서버
 title: 로그 파일
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 로그 파일을 저장하고 보는 빠른 방법
 
-1. Click **[!UICONTROL Help]** &gt; **[!UICONTROL About Ad Hoc Analysis]**
+1. **[!UICONTROL 도움말]** > **[!UICONTROL Ad Hoc Analysis 정보]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL Ad Hoc Analysis]로고를 클릭합니다.**
-1. **[!UICONTROL 로그 파일 저장을 클릭합니다]**.
+1. **[!UICONTROL Ad Hoc Analysis]** 로고를 클릭합니다.
+1. **[!UICONTROL 로그 파일 저장]**&#x200B;을 클릭합니다.
 
-> [!NOTE] 이 절차를 사용하여 저장하는 로그는 현재 세션용입니다.
+> [!NOTE] 이 절차를 사용하여 저장하는 로그는 현재 세션을 위한 것입니다.
 
