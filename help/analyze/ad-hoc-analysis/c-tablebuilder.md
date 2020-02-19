@@ -2,7 +2,7 @@
 description: 테이블 빌더를 사용하면 원하는 지표, 차원 및 세그먼트 구성으로 보고서를 만들 수 있습니다. 예를 들어 테이블 빌더에 여러 지표를 추가한 다음 세그먼트를 모든 지표에 동시에 적용할 수 있습니다. 도구 창의 항목을 행과 분류 또는 열로 적용하고 다른 보기용으로 표를 간단하게 회전할 수 있습니다. 테이블을 빌드한 후 추가적인 분석을 위해 결과 데이터 테이블과 직접 상호 작용할 수 있습니다. 테이블 빌더에서 데이터 테이블을 생성하면 쿼리가 실행되고 새로운 데이터 테이블이 만들어진다는 것을 기억하십시오.
 title: 테이블 빌더
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -63,7 +63,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## 테이블 빌더{#task_B04801AC9848485C93DF02E96C9A9902}에서 보고서 생성 
+## 테이블 빌더에서 보고서 생성 {#task_B04801AC9848485C93DF02E96C9A9902}
 
 [!UICONTROL 테이블 빌더]를 사용하는 방법을 설명하는 단계입니다.
 
@@ -73,10 +73,10 @@ t_table_builder.xml
 
  -->
 
-1. To access the [!UICONTROL Table Builder], run a supported report, then click **[!UICONTROL Table Builder]**.
-1. Drag items (dimensions, metrics, segments) from the tool panes to the [!UICONTROL Table Builder].
-1.  항목을 행, 분류 및 열로 구성합니다.
-1. Click **[!UICONTROL Replace Table]** to generate the report.
+1. [!UICONTROL 테이블 빌더]에 액세스하려면 지원되는 보고서를 실행한 다음 **[!UICONTROL 테이블 빌더]**&#x200B;를 클릭합니다.
+1. 도구 창의 항목(차원, 지표, 세그먼트)을 [!UICONTROL 테이블 빌더]로 끕니다.
+1. 항목을 행, 분류 및 열로 구성합니다.
+1. **[!UICONTROL 테이블 대체]**&#x200B;를 클릭하여 보고서를 생성합니다.
 
-   **[!UICONTROL 테이블 대체]를 클릭하면 새로운 쿼리가 실행되고 새로운 데이터 테이블이 만들어집니다.** 세부 사항 테이블에 대한 수동 편집은 테이블 빌더에서 반영되지 않습니다.
+   **[!UICONTROL 테이블 대체]**&#x200B;를 클릭하면 새로운 쿼리가 실행되고 새로운 데이터 테이블이 만들어집니다. 세부 사항 테이블에 대한 수동 편집은 테이블 빌더에서 반영되지 않습니다.
 
