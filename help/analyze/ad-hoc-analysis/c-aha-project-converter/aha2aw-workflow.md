@@ -1,16 +1,16 @@
 ---
 description: 'null'
-title: Ad Hoc Analysis에서 프로젝트 전환
+title: Ad Hoc Analysis에서 프로젝트 변환
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Ad Hoc Analysis에서 프로젝트 전환
+# Ad Hoc Analysis에서 프로젝트 변환
 
-## Ad Hoc Analysis에서 프로젝트 전환 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Ad Hoc Analysis에서 프로젝트 변환 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 프로젝트를 변환하기 전에 다음 사항을 확인하십시오.
 
@@ -27,22 +27,22 @@ Ad Hoc Analysis 프로젝트 변환과 관련된 옵션이 두 개 있습니다.
 
 **목록에서 프로젝트 선택**
 
-1. In Ad Hoc Analysis, click **[!UICONTROL File]** &gt; **[!UICONTROL Convert Projects to Analysis Workspace]**.
+1. Ad Hoc Analysis에서 **[!UICONTROL 파일]** > **[!UICONTROL 프로젝트를 Analysis Workspace로 변환]**&#x200B;을 클릭합니다.
 
    ![](assets/aha2aw_convert.png)
 
-1. In the **[!UICONTROL Convert Projects to Analysis Workspace]** dialog, select the project to convert or press  +  to select the entire list.
+1. **[!UICONTROL 프로젝트를 Analysis Workspace로 변환]** 대화 상자에서 변환할 프로젝트를 선택하거나 +를 누른 채 클릭하여 전체 목록을 선택합니다.
 
    ![](assets/aha2aw_projects.png)
 
-1. **[!UICONTROL 변환을 클릭합니다]**.
-1. 이제 [!UICONTROL 변환 요약]에 변환 성공 또는 실패를 나타내는 상태 열 및 오류 코드와 함께 변환된 모든 프로젝트가 나열됩니다. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. **[!UICONTROL 변환]**&#x200B;을 클릭합니다.
+1. 이제 [!UICONTROL 변환 요약]에 변환 성공 또는 실패를 나타내는 상태 열 및 오류 코드와 함께 변환된 모든 프로젝트가 나열됩니다. &quot;`Error-Id: <Error-Code>`&quot;를 사용하여 추가 진단에 대해 Adobe Client Care에 문의하십시오.
 
    ![](assets/export_summary.png)
 
 **현재 프로젝트 변환**
 
 1. Ad Hoc Analysis에서 변환할 프로젝트를 엽니다.
-1. **[!UICONTROL 현재 프로젝트를 Analysis Workspace로 변환을 클릭합니다.]** ![](assets/export_current.png)
+1. **[!UICONTROL 현재 프로젝트를 Analysis Workspace로 변환]**&#x200B;을 클릭합니다. ![](assets/export_current.png)
 
-1. 이제 [!UICONTROL 변환 요약]에 변환 성공 또는 실패를 나타내는 상태 열 및 오류 코드와 함께 변환된 모든 프로젝트가 나열됩니다. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. 이제 [!UICONTROL 변환 요약]에 변환 성공 또는 실패를 나타내는 상태 열 및 오류 코드와 함께 변환된 모든 프로젝트가 나열됩니다. &quot;`Error-Id: <Error-Code>`&quot;를 사용하여 추가 진단에 대해 Adobe Client Care에 문의하십시오.
