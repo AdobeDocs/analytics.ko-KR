@@ -3,7 +3,7 @@ description: 보고서에 대한 배달 일정을 사용자 지정할 수 있습
 title: 예약 관리자
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 보고서에 대한 배달 일정을 사용자 지정할 수 있습니다. 특정 시간에 배달을 중지하거나 보고서를 전송할 횟수를 지정할 수 있습니다. 새 일정에서는 보고서에 정의된 날짜 범위를 사용합니다. 예를 들어, 지난 90일에 대한 보고서를 만들어 일일 실행 일정을 지정하는 경우 지난 90일의 각 날에 대한 보고서를 받습니다. 달력에서 정적 날짜 범위로 보고서를 만드는 경우 전송될 때마다 동일한 보고서를 보게 됩니다.
 
-> [!NOTE] 사용자 계정이 비활성화되면 해당 사용자가 만든 예약된 보고서 배달이 일시 중단됩니다.
+> [!NOTE] 사용자 계정이 비활성화되면 해당 사용자가 만든 예약 보고서 배달이 일시 중단됩니다.
 
-분류에서 라인 항목이 저장되고 예약된 보고서에서 지속되도록 하려면 테이블 빌더의 **[!UICONTROL 항목]** 편집 기능을 사용하여 [분류에서](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 고정 차원 목록을 만듭니다.
+분류에서 라인 항목이 지속적으로 보고서에 저장되고 예약되도록 하려면 [테이블 빌더](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)의 **[!UICONTROL 항목 편집]** 기능을 사용하여 분류에 고정 차원 목록을 만듭니다.
 
 >[!IMPORTANT]
 >
->애드혹 분석을 사용하면 애드혹 보고 요구 사항에 맞게 보고서를 신속하게 정의하고 예약할 수 있습니다. Ad Hoc Analysis은 데이터 추출을 사용하는 엄청난 수의 행, 열, 지표 평가 , 광범위한 분류 등이 포함된 데이터의 전체 내보내기용으로 설계된 프로그램이 아닙니다.
+>Ad Hoc Analysis을 사용하면 애드혹 보고 요구에 맞는 시기적절한 특정 보고서를 신속하게 정의하고 예약할 수 있습니다. Ad Hoc Analysis은 데이터 추출을 사용하는 엄청난 수의 행, 열, 지표 평가 , 광범위한 분류 등이 포함된 데이터의 전체 내보내기용으로 설계된 프로그램이 아닙니다.
 >
 >Ad Hoc Analysis의 예약된 보고를 위한 실질적인 제약은 다음의 원칙을 기반으로 합니다. 즉, 보고서가 10분(Ad Hoc Analysis을 위한 시간 제한) 내에 작성되지 않는다면 보고서가 너무 복잡해질 것이라는 것입니다.
 >
@@ -41,10 +41,10 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. [!UICONTROL 예약 관리자]**에서[!UICONTROL 신규]를 클릭합니다.**
+1. **[!UICONTROL 도구]**&#x200B;를 클릭한 다음 **[!UICONTROL 예약 관리자]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 예약 관리자]에서 **[!UICONTROL 신규]**&#x200B;를 클릭합니다.
 
-## 배달 옵션 - 정의{#reference_CA49AC560258471AAE959BCA243F170C}를 참조하십시오 
+## 배달 옵션 - 정의를 참조하십시오{#reference_CA49AC560258471AAE959BCA243F170C}
 
 배달 옵션에 있는 설정의 정의입니다.
 
@@ -65,7 +65,7 @@ r_delivery_options.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 이름  </p> </td> 
+   <td colname="col1"> <p>이름 </p> </td> 
    <td colname="col2"> <p> 이 보고서의 구성 가능한 이름 </p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ r_delivery_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> 고급 </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   >고급 형식 설정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>파일 대상 </p> </td> 
