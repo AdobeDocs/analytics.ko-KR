@@ -3,7 +3,7 @@ description: 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 
 title: 트래픽 소스 보고서
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 트래픽 소스 보고서는 다음과 같이 활용할 수 있습니다.
 
-*  방문자 행동의 주요 측면 분석
-*  트래픽 패턴 모니터링 및 이해
-*  인기 있는 사이트 콘텐츠 판별
-*  측정 가능한 기준으로 방문자 분류
+* 방문자 행동의 주요 측면 분석
+* 트래픽 패턴 모니터링 및 이해
+* 인기 있는 사이트 컨텐츠 판별
+* 측정 가능한 기준으로 방문자 분류
 
 **공통 지속성**
 
-[!UICONTROL 트래픽 소스]에서는 덮어쓰기 또는 방문 종료 중 먼저 발생하는 시점까지 모든 보고서 값이 지속되고 크레딧을 받습니다. 이전에는 키워드와 참조 도메인만 지속되었습니다. 예를 들어 방문자가 Google에서 "DVD"를 검색하여 사이트에 방문해서 $100만큼 구입하면 보고에서는 $100를 "DVD" 키워드와 Google 검색 엔진에 할당합니다. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+[!UICONTROL 트래픽 소스]에서는 덮어쓰기 또는 방문 종료 중 먼저 발생하는 시점까지 모든 보고서 값이 지속되고 크레딧을 받습니다. 이전에는 키워드와 참조 도메인만 지속되었습니다. 예를 들어 방문자가 Google에서 &quot;DVD&quot;를 검색하여 사이트에 방문해서 $100만큼 구입하면 보고에서는 $100를 &quot;DVD&quot; 키워드와 Google 검색 엔진에 할당합니다. 이 기능은 [!DNL Admin Console] 설정에 관계 없이 변경되지 않습니다.
 
 ## 검색 키워드 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -94,9 +94,9 @@ c_reports_referrers.xml
 
 정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다. 예를 들어, 웹 페이지 A와 웹 페이지 B는 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않습니다. 이 경우, 웹 페이지 C는 레퍼러로 간주됩니다.
 
-See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
+자세한 내용은 [!DNL Admin Console] 도움말의 [내부 URL 필터](https://marketing.adobe.com/resources/help/ko_KR/reference/internal_URL_filter_admin.html)를 참조하십시오.
 
-> [!NOTE] 마케팅 보고 및 분석은 방문자가 프로토콜을 포함하는 이메일 메시지 링크를 클릭하거나 사이트에 도달하면 참조 도메인을 이메일로 기록합니다. [!DNL imap://] 또는 [!DNL mail://] 사이트에 도달하면 참조 도메인이 이메일로 기록됩니다. 예를 들어 [!DNL https://mail.yahoo.com]에서 오는 모든 것은 프로토콜이 [!DNL https://]://이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
+> [!NOTE] Marketing Reports &amp; Analytics는 방문자가 프로토콜 [!DNL imap://] 또는 [!DNL mail://]이 포함된 이메일 메시지 링크를 클릭하고 사이트에 도달하면 참조 도메인을 이메일로 기록합니다. 예를 들어 [!DNL https://mail.yahoo.com] 에서 오는 모든 것은 프로토콜이 [!DNL https://]이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
 
 ## 레퍼러 유형 {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -115,7 +115,7 @@ c_reports_ref_types.xml
 * *입력/책갈피 표시* 레퍼러가 기록됩니다.
 
    * 방문자가 비브라우저 링크를 통해 사용자의 사이트에 들어가는 경우(예: 이메일에서).
-   * 방문자가 사이트의 URL을 브라우저에 직접 입력하는 경우
+   * 방문자가 브라우저에 바로 사용자의 사이트 URL을 입력하는 경우.
    * 방문자가 개인 하드 드라이브에서 HTML 링크를 클릭하는 경우.
    * 방문자가 브라우저 책갈피를 선택하여 사용자의 사이트에 액세스하는 경우.
 
@@ -125,9 +125,9 @@ c_reports_ref_types.xml
 
 **사이트 내부**: 이러한 항목은 내부 URL 필터에서 태그가 지정된 항목입니다. 이러한 항목은 레퍼러 인스턴스로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
 
-**JavaScript 없음**: JavaScript가 없어 유형을 식별할 수 없습니다(알 수 없음). 즉, JavaScript 지원이 가능한 것으로 보고하지 않는 브라우저 클라이언트에서 레퍼러 정보가 제공되지 않은 경우입니다. 이 경우는 '레퍼러 인스턴스 수'로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
+**JavaScript 없음**: JavaScript가 없어 유형을 식별할 수 없습니다(알 수 없음). 즉, JavaScript 지원이 가능한 것으로 보고하지 않는 브라우저 클라이언트에서 레퍼러 정보가 제공되지 않은 경우입니다. 이 경우는 &#39;레퍼러 인스턴스 수&#39;로 계산되지 않지만 다른 지표에 대해 보고할 때 볼 수 있습니다.
 
-**USENET(뉴스그룹)**: 레퍼러의 URL이 `news://`://로 시작하는 경우를 의미합니다. 따라서 참조 링크는 웹 페이지가 아닌 Usenet 뉴스그룹에 게시되었습니다.
+**USENET(뉴스그룹)**: 레퍼러의 URL이 `news://`로 시작하는 경우를 의미합니다. 따라서 참조 링크는 웹 페이지가 아닌 Usenet 뉴스그룹에 게시되었습니다.
 
-> [!NOTE] 레퍼러 유형 로직은 다른 트래픽 소스 보고서(레퍼러 및 참조 [!UICONTROL 도메인] 등 [!UICONTROL )]와 일치합니다. 이를 통해 [!UICONTROL 레퍼러 유형] 보고서에서 사용자 사이트 내 및 JavaScript 없음 라인 항목의 발생을 줄이거나 방지할 수 있습니다.
+> [!NOTE] 레퍼러 유형 로직은 다른 트래픽 소스 보고서([!UICONTROL 레퍼러] 및 [!UICONTROL 참조 도메인] 등)와 일치합니다. 이를 통해 [!UICONTROL 레퍼러 유형] 보고서에서 사용자 사이트 내 및 JavaScript 없음 라인 항목의 발생을 줄이거나 방지할 수 있습니다.
 
