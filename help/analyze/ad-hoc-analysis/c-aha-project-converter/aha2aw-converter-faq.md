@@ -1,29 +1,29 @@
 ---
 description: 'null'
-title: 프로젝트 전환기 FAQ
+title: 프로젝트 변환기 FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 프로젝트 전환기 FAQ
+# 프로젝트 변환기 FAQ
 
-## 프로젝트 전환기 FAQ {#topic_8231595303AD403E9322645A63632D57}
+## 프로젝트 변환기 FAQ {#topic_8231595303AD403E9322645A63632D57}
 
-* [알려진 전환 문제](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
-* [전환 FAQ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [알려진 변환 문제](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
+* [변환 FAQ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## 알려진 전환 문제 {#section_39C922A58B2E49C9877B363042801361}
+## 알려진 변환 문제 {#section_39C922A58B2E49C9877B363042801361}
 
 | 문제 | 설명 |
 |--- |--- |
-| 분별 세부기간(분류 또는 열) | 분 세부기간에 적용된 분류가 있거나 분 세부기간이 열에 있는 경우 프로젝트를 분석 작업 공간으로 변환할 수 없습니다.  세부 단위로 분류를 제거하고 열에서 제거한 다음 프로젝트를 변환하는 것이 해결 방법입니다. 그런 다음 분석 작업 공간에서 분단위로 분류를 적용할 수 있습니다. |
-| 열 세그먼트와 함께 사용되는 내부 계산된 지표 | 열 세그먼트와 함께 내부 계산된 지표를 사용하는 경우 프로젝트를 분석 작업 공간으로 변환할 수 없습니다. 이 문제를 해결하려면 전환 전에 프로젝트에서 내부 계산된 지표를 제거한 다음 분석 작업 공간에서 다시 추가하십시오. |
+| 분 세부 기간에 분류가 적용되었거나 분 세부 기간이 열에 있음 | 분 세부 기간에 분류가 적용되었거나 분 세부 기간이 열에 있는 경우 프로젝트를 Analysis Workspace로 변환할 수 없습니다.  해결 방법은 분 세부 기간에 대한 분류를 제거하고 열에서 제거한 다음 프로젝트를 변환하는 것입니다. 그런 다음 Analysis Workspace에서 분 세부 기간에 분류를 적용할 수 있습니다. |
+| 열 세그먼트와 함께 사용된 내부 계산된 지표 | 열 세그먼트와 함께 내부 계산된 지표를 사용하는 경우 프로젝트를 Analysis Workspace로 변환할 수 없습니다. 이 문제를 해결하려면 변환 전에 프로젝트에서 내부 계산된 지표를 제거한 다음 Analysis Workspace에서 다시 추가하십시오. |
 
 
-## 전환 FAQ {#section_1E53FE373AF045978F939916124E194E}
+## 변환 FAQ {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -35,7 +35,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Analysis Workspace에서 Ad Hoc Analysis 기능이 지원되지 않습니까?</b> </p> </td> 
-   <td colname="col2"> <p>A: 사이트 분석 보고서는 Analysis Workspace에서 지원되지 않습니다. 또한 애드혹 분석과 작업 공간의 다른 시각화 간에는 약간의 차이점이 있습니다. 자세한 내용은 아래 질문을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>A: 사이트 분석 보고서는 Analysis Workspace에서 지원되지 않습니다. Ad Hoc Analysis 및 Workspace의 다른 시각화 요소 간에 약간의 차이가 있습니다. 자세한 내용은 아래 질문을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 표 설정이 어떻게 변환됩니까?</b> </p> </td> 
@@ -50,9 +50,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>A: 차트 및 그래프는 Workspace에서 "시각화"라고 합니다. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>설정</b>: "항목 수" 또는 "막대 수"와 같은 시각화 설정은 Workspace에서 지원되지 않습니다. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>파이 차트</b>: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html"  >도넛</a> 시각화로 내보냅니다. Workspace에서 이 시각화는 19개 섹션으로 제한됩니다. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>거품 차트</b>: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html"  >산포도</a> 시각화로 내보냅니다. 기본적으로 산포도는 x축의 첫 번째 지표와 y축의 두 번째 지표를 그립니다. 지표가 하나만 있는 경우 거품 차트가 선 시각화로 변환됩니다. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>막대 그래프</b>: Workspace와 Ad Hoc Analysis에서 다른 그룹 로직을 지원합니다. 따라서 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html"  >막대</a> 시각화로 변환됩니다. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>파이 차트</b>: <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/donut.html"  >도넛</a> 시각화로 내보냅니다. Workspace에서 이 시각화는 19개 섹션으로 제한됩니다. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>거품 차트</b>: <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/scatterplot.html"  >산포도</a> 시각화로 내보냅니다. 기본적으로 산포도는 x축의 첫 번째 지표와 y축의 두 번째 지표를 그립니다. 지표가 하나만 있는 경우 거품 차트가 선 시각화로 변환됩니다. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>막대 그래프</b>: Workspace와 Ad Hoc Analysis에서 다른 그룹 로직을 지원합니다. 따라서 <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/bar.html"  >막대</a> 시각화로 변환됩니다. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>산포도</b>: Analysis Workspace의 내보낸 프로젝트에서 Y축은 첫 번째 열로, X축은 두 번째 열로, 지름은 세 번째 열로 설정됩니다. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>폴아웃 표</b>: 폴스루 또는 폴아웃 표를 표시하려면 체크포인트를 마우스 오른쪽 단추로 클릭하고 분류 옵션을 선택합니다. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>폴아웃 보고서 수준 날짜 범위</b>: 사용자 정의된 보고서 날짜 범위가 폴아웃 시각화에 적용되지 않았습니다. </li> 
@@ -68,13 +68,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis 작업 공간 수준 세그먼트는 Workspace의 프로젝트/작업 공간 수준에서 적용됩니다. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis 보고서 수준 세그먼트는 Workspace의 표 열 수준에서 적용됩니다. </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis 표 세그먼트는 Workspace의 표 열 수준에서 적용됩니다. </li> 
-    </ul> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >세그먼트 빌더</a>에서 세그먼트를 편집할 수 있습니다. </p> </td> 
+    </ul> <p><a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/"  >세그먼트 빌더</a>에서 세그먼트를 편집할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 날짜 범위는 어떻게 변환됩니까?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. 따라서 '지난 90일'과 같은 날짜 범위가 도구 간에 정확히 일치하지 않을 수 있습니다. 사용자 지정 날짜 범위를 사용하여 Analysis Workspace에서 동일한 기간을 검색합니다. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis의 '최근 X일' 날짜 범위는 오늘을 <i>제외</i>하지만, Analysis Workspace는 오늘을 <i>포함</i>합니다. 따라서 '최근 90일'과 같은 날짜 범위가 도구마다 일치하지 않을 수 있습니다. 사용자 지정 날짜 범위를 사용하여 Analysis Workspace에서 동일한 기간을 검색합니다. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis 작업 공간 수준 날짜 범위는 Workspace의 프로젝트/작업 공간 수준에서 적용됩니다. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis 보고서 수준 날짜 범위는 Workspace의 표 열 수준에서 적용됩니다. </li> 
     </ul> <p><span class="uicontrol">분석</span> &gt; <span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol">날짜 범위</span>에서 사용자 지정 날짜 범위를 편집할 수 있습니다. </p> </td> 
@@ -86,14 +86,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_010572F793F54680ABE64117DAB7E800">계산된 지표는 내보낸 프로젝트(공개 아님) 내부에 있습니다. 이 지표를 마우스 오른쪽 단추로 클릭하고 <span class="uicontrol">공개하기</span>를 클릭하여 공개하도록 선택할 수 있습니다. <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">모든 유형의 계산된 지표가 내보내기에 대해 지원됩니다. </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>할당 유형</b>: Analysis Workspace에서 계산된 지표의 할당 유형을 명시적으로 표시하지 않더라도 내보내기는 할당 유형을 만들고 Ad Hoc Analysis에 있던 할당 유형과 일치시킵니다. </li> 
-    </ul> <p>편집(연필) 아이콘을 클릭하여 <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/"  >계산된 지표 빌더</a>에서 할당 유형을 편집할 수 있습니다. </p> </td> 
+    </ul> <p>편집(연필) 아이콘을 클릭하여 <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/"  >계산된 지표 빌더</a>에서 할당 유형을 편집할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Ad Hoc의 글로벌 데이터 설정은 변환된 프로젝트에 어떻게 적용됩니까?</b> </p> </td> 
    <td colname="col2"> <p>글로벌 데이터 설정으로 인해 동일한 프로젝트를 두 번 내보내어 다르게 동작할 수 있습니다. </p> 
     <ul id="ul_E3827883DD8045FAAB359D7E85E3EEFA"> 
      <li id="li_1056CA4813C44638BEB070228AE6914C"><b>반복 인스턴스 카운트.</b> 내보낼 때 적용된 설정이 어떤 설정이든 간에 Analysis Workspace의 내보낸 프로젝트에 적용됩니다. </li> 
-     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>Data Sources.</b> Analysis Workspace에서 데이터 소스를 포함하여 분석 데이터가 모두 표시됩니다. </li> 
+     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>데이터 소스.</b> Analysis Workspace에서 데이터 소스를 포함하여 분석 데이터가 모두 표시됩니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 두 도구 간의 이름 지정 차이가 있습니까?</b> </p> </td> 
-   <td colname="col2"> <p>A: 예. Analysis Workspace 문서에서 </a>키 용어 비교<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  > 를 참조하십시오. </a></p> </td> 
+   <td colname="col2"> <p>A: 예. Analysis Workspace 문서에서<a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  > 키 용어 비교 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
