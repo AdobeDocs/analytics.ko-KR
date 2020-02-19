@@ -2,7 +2,7 @@
 description: 차트 구성, 그래프, 분류 및 데이터 추출과 같이, 보고서에서 수행할 수 있는 다양한 작업에 대해 알아 보십시오.
 title: 기존 보고서 구성
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -50,7 +50,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>배달 옵션 </p> </td> 
-   <td colname="col2"> <p> 배달 <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > 옵션을 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >배달 옵션</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 인쇄 </p> </td> 
@@ -61,8 +61,8 @@ c_report_actions.xml
    <td colname="col2"> <p>보고서 탭의 이름을 변경합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Data Sources </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col1"> <p>데이터 소스 </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >일반 설정 탭 - 정의</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보기 </p> </td> 
@@ -93,7 +93,7 @@ c_chart_options.xml
    <td colname="col1"> <p>그래프 유형 </p> </td> 
    <td colname="col2"> <p> 그래프 유형을 선 그래프, 막대 차트, 스택형 영역 그래프, 거품형 등으로 변경할 수 있습니다. </p> 
     <ul id="ul_98A8DBBCADA042359C5D096EA0B1104B"> 
-     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>거품형</b>: 거품형 차트는 등급 보고서에 사용할 수 있습니다. 거품형 차트는 개별적인 차원에 대한 지표 분석을 최대 5개까지 제공합니다. 이 차트는 지점 치수에 적용되는 지표가 없을 때 분산형 플롯으로 사용할 수 있습니다. 거품형 차트는 보고서 데이터의 변경 내용이 반영되도록 동적으로 바뀝니다에서 보냅니다. </li> 
+     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>거품형</b>: 거품형 차트는 등급 보고서에 사용할 수 있습니다. 거품형 차트는 개별적인 차원에 대한 지표 분석을 최대 5개까지 제공합니다. 이 차트는 지점 치수에 적용되는 지표가 없을 때 분산형 플롯으로 사용할 수 있습니다. 거품형 차트는 보고서 데이터의 변경 내용이 반영되도록 동적으로 바뀝니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ c_reports_bubble.xml
 | [!UICONTROL 데이터 포인트] | 거품형 차트에 표시할 데이터 포인트 수를 지정합니다. |
 | [!UICONTROL 선형 회귀 표시] | 데이터에 대한 대략적인 통계치를 표시합니다. |
 
-## 테이블 데이터 분류{#task_29BEE0AF09DA4625B9B44BAB77D7C841}를 참조하십시오 
+## 테이블 데이터 분류 {#task_29BEE0AF09DA4625B9B44BAB77D7C841}
 
 <!-- 
 
@@ -156,11 +156,11 @@ t_reports_breakdown_table.xml
 **테이블 데이터를 분류하려면**
 
 1. 보고서 실행.
-1. 라인 항목을 마우스 오른쪽 단추로 클릭한 다음 **분류** &gt; *항목*&#x200B;을 클릭합니다.
+1. 라인 항목을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 분류]** > *항목*&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
-   >보다 유연하게 작업하려면 테이블 빌더를 [사용하여](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 분류로 보고서를 구성합니다. 분류를 통해 저장 또는 예약된 보고서를 열면 **[!UICONTROL 테이블 대체]를 클릭하여 동적 보고서 데이터 분류를 새로 고쳐야 할 수 있습니다.** 예를 들어 날짜 범위 또는 방문자 활동에 따라 변경할 수 있는 라인 항목 분류가 포함된 예약된 보고서를 새로 고쳐야 할 수도 있습니다.
+   >보다 유연하게 작업하려면 [테이블 빌더](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)를 사용하여 분류로 보고서를 구성합니다. 분류를 통해 저장 또는 예약된 보고서를 열면 **[!UICONTROL 테이블 대체]**&#x200B;를 클릭하여 동적 보고서 데이터 분류를 새로 고쳐야 할 수 있습니다. 예를 들어 날짜 범위 또는 방문자 활동에 따라 변경할 수 있는 라인 항목 분류가 포함된 예약된 보고서를 새로 고쳐야 할 수도 있습니다.
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ t_reports_changing_types.xml
 **테이블에서 보고서 유형을 변경하려면**
 
 1. 등급 보고서를 열고 구성합니다.
-1. 테이블의 보고서 이름 열 머리글을 마우스 오른쪽 단추로 클릭하고 **보고서 선택**&#x200B;을 클릭한 다음 해당 보고서로 이동합니다.
+1. 테이블의 보고서 이름 열 헤더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 보고서 선택]**&#x200B;을 클릭한 다음 해당 보고서로 이동합니다.
 
 ## 클립보드에 데이터 복사 {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -194,7 +194,7 @@ t_reports_clipboard.xml
 
    Excel은 시작되면 메모리 버퍼의 내용을 지우므로 데이터를 복사하기 전에 Excel을 여는 것이 좋습니다.
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. 보고서 수준에서 **[!UICONTROL 설정]**![](assets/settings_icon.png)을 클릭한 다음 **[!UICONTROL 보고서 데이터 복사]**&#x200B;를 클릭합니다.
 1. Excel에서 셀을 선택한 다음 데이터를 붙여넣습니다.
 
 ## 방문자 ID 추출 {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,16 +205,16 @@ t_reports_extract_ID.xml
 
  -->
 
-보고 및 분석에서 사용자 ID 데이터를 포함하도록 필드를 설정할 수 있습니다. 이 옵션을 구성한 경우 [!UICONTROL 방문자 ID 추출] 옵션을 사용할 수 있습니다. 이 옵션을 활성화하지 않고 나중에 활성화하려는 경우 이전 상태로 돌아가 이전 방문자 ID를 추출할 수 없습니다.
+Reports &amp; Analytics에서 사용자 ID 데이터를 포함할 필드를 설정할 수 있습니다. 이 옵션을 구성한 경우 [!UICONTROL 방문자 ID 추출] 옵션을 사용할 수 있습니다. 이 옵션을 활성화하지 않고 나중에 활성화하려는 경우 이전 상태로 돌아가 이전 방문자 ID를 추출할 수 없습니다.
 
 **방문자 ID를 추출하려면**
 
 1. 데이터 웨어하우스 세그먼트를 보고서에 추가합니다.
-1. Right-click the segment and select **[!UICONTROL Extract Visitor IDs]**.
+1. 세그먼트를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 방문자 ID 추출]**&#x200B;을 선택합니다.
 
    데이터 웨어하우스 응용 프로그램이 실행됩니다.
 1. [!UICONTROL Data Warehouse 요청] 탭에서 필터 이름을 입력합니다.
-1. Click **[!UICONTROL Request this Report]**.
+1. **[!UICONTROL 이 보고서 요청]**&#x200B;을 클릭합니다.
 
 ## 행의 트렌드 표시 {#task_83C003EDCA7140C3AE9804629DD7A235}
 
@@ -233,7 +233,7 @@ t_reports_trending_row.xml
 
    여러 셀을 선택하여 단일 트렌드 보고서에 적용합니다.
 
-1. To launch a report, click **[!UICONTROL Launch Trend Report]**.
+1. 보고서를 실행하려면 **[!UICONTROL 트렌드 보고서 시작]**&#x200B;을 클릭합니다.
 
 ## 열 너비 설정 {#task_0FCF395B4A8C40508B38B44586FB5969}
 
@@ -243,9 +243,9 @@ t_column_width.xml
 
  -->
 
-1. 표에서 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 열 너비를 클릭합니다]**.
+1. 표에서 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 열 너비]**&#x200B;를 클릭합니다.
 
-   [!UICONTROL 화면 크기에 맞게 조정]이 활성화되면 이 옵션은 비활성화됩니다. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   [!UICONTROL 화면 크기에 맞게 조정]이 활성화되면 이 옵션은 비활성화됩니다. 1. 픽셀로 너비를 지정한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 >[!MORELIKETHIS]
 >
@@ -262,6 +262,6 @@ c_reports_custom.xml
 
  -->
 
-사용자 지정 보고서는 모든 사람의 Marketing Reports &amp; Analytics 메뉴에 나타낼 가치가 있는 것으로 간주되므로 분석가에게 매우 유용합니다.  인터페이스에 다른 사람의 보고서와 일치하지 않는 보고서가 나타나는 경우(예: 교육) 관리자가 이러한 사용자 지정 보고서 중 일부를 설정했을 수 있습니다.
+사용자 지정 보고서는 모든 사람의 Marketing Reports &amp; Analytics 메뉴에 나타낼 가치가 있는 것으로 간주되므로 분석가에게 매우 유용합니다. 인터페이스에 다른 사람의 보고서와 일치하지 않는 보고서가 나타나는 경우(예: 교육) 관리자가 이러한 사용자 지정 보고서 중 일부를 설정했을 수 있습니다.
 
-또한 중요한 보고서를 저장할 수도 있습니다. 이러한 보고서를 책갈피라고 합니다. 여러 보고서를 단일 캠퍼스로 가져와 가장 중요한 보고서를 빠르게 찾아볼 수도 있습니다. 이러한 보고서를 대시보드라고 하며 역시 사용자마다 다릅니다.  인터페이스에서는 그래프 위에 책갈피와 대시보드가 나열된 막대가 표시됩니다.
+또한 중요한 보고서를 저장할 수도 있습니다. 이러한 보고서를 책갈피라고 합니다. 여러 보고서를 단일 캠퍼스로 가져와 가장 중요한 보고서를 빠르게 찾아볼 수도 있습니다. 이러한 보고서를 대시보드라고 하며 역시 사용자마다 다릅니다. 인터페이스에서는 그래프 위에 책갈피와 대시보드가 나열된 막대가 표시됩니다.
