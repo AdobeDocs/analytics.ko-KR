@@ -3,7 +3,7 @@ description: 차원은 보고서에서 보고, 분류하고 비교할 수 있는
 title: 차원
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,9 +23,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 일, 주, 월 등
 * 충성도
 * 모니터 해상도
-* 사용자 정의 eVar 및 s.prop 값
+* 사용자 지정 eVar 및 s.prop 값
 
-**[!UICONTROL 차원]창**
+**[!UICONTROL 차원]창&#x200B;**
 
 [!UICONTROL 차원] 창에는 Marketing Reports &amp; Analytics 구현의 모든 제품 차원이 나열 및 구성됩니다. 원하는 차원 항목을 기반으로 보고서를 작성할 수 있습니다. 이제 차원을 다른 차원으로 세분화하는 방식으로 거의 모든 것을 분석 및 비교할 수 있습니다.
 
@@ -36,7 +36,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 차원 범주 | 설명 |
 |--- |--- |
 | 트래픽 | 브라우저 항목, 타겟 캠페인, 지리적 위치, 사용자 정의 링크, 사용자 정의 트래픽 속성, 도메인, 다운로드, 레퍼러, 참조 도메인 등을 포함합니다. |
-| 전환 | 캠페인, 카테고리, 사용자 지정 eVar, 제품, 추적 코드 등을 포함합니다. |
+| 변환 | 캠페인, 카테고리, 사용자 지정 eVar, 제품, 추적 코드 등을 포함합니다. |
 | Prop | 시작 및 종료 페이지와 같은 사용자 지정 트래픽 속성을 포함합니다. |
 | Evar | 데이터 수집에서 성공 지표로 사용된 eVar을 포함합니다. |
 | 계층 | 사이트 계층 구조에서 페이지 위치를 결정하는 데 사용되는, 계층 구조의 변수를 포함합니다. |
