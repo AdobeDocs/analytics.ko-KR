@@ -2,7 +2,7 @@
 title: 거래 ID 데이터 소스
 description: 거래 ID 데이터 소스를 사용하는 일반적인 워크플로우에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
+source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
 
 ---
 
@@ -21,3 +21,29 @@ source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 1. 데이터 피드 설정 마법사에 따라 데이터를 업로드하고 데이터 소스 템플릿 파일을 다운로드할 FTP 위치를 가져옵니다.
 1. 변수를 포함하도록 구현을 `transactionID` 업데이트합니다.
 1. Data Sources 파일을 `.fin` 파일로 FTP 사이트에 업로드합니다.
+
+## 업로드 파일 및 구현 코드 예
+
+다음 데이터 소스 파일을 업로드하고 사이트에서 다음 코드를 구현하면 보고에 연결된 데이터가 표시됩니다. 데이터 소스 파일은 eVar1 및 event1을 사용하는 반면, 온라인 구현에서는 eVar2 및 event2를 사용합니다. 거래 ID가 일치하므로 eVar1에 대한 event2 데이터와 eVar2에 대한 event1 데이터를 볼 수 있습니다.
+
+### 예제 파일
+
+템플릿을 다운로드하고 값을 업데이트한 다음 데이터 소스 FTP 위치에 업로드합니다.
+
+| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
+|---|---|---|---|
+| `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+| `Date` | `Evar 1` | `Event 1` | `transactionID` |
+| `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
+
+### 구현 코드 예
+
+거래 ID에 대한 자세한 내용은 구현 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 사용 안내서를 참조하십시오.
+
+```js
+var s = s_gi("examplersid");
+s.eVar2 = "Example eVar2 value";
+s.events = "event2";
+s.transactionID = "1234";
+s.t();
+```
