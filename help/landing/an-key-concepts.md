@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 처리되지 않은 원시 데이터입니다. 히트 수준은 아닙니다. | [Data Warehouse 홈](https://docs.adobe.com/content/help/ko-KR/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. | [Mobile Services 홈](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors(이전 Genesis) | 타사 애플리케이션의 추적 데이터를 Analytics로 가져와서 하나의 중앙 위치에서 종단 간 가시성을 제공합니다. | [Data Connectors 홈](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
-| 다이내믹 태그 관리(DTM) | 도메인 수에 관계없이 모든 사이트의 분석, 타겟 및 기타 태그를 관리할 수 있도록 도와줍니다. | [DTM 홈](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Dynamic Tag Management (DTM) | 도메인 수에 관계없이 모든 사이트의 분석, 타겟 및 기타 태그를 관리할 수 있도록 도와줍니다. | [DTM 홈](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
 | Adobe Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능. | [Adobe Launch 홈](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html) |
 
 ## 주요 용어 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
@@ -32,7 +32,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 
 | 용어 | 설명 | 설명서 링크 |
 |--- |--- |--- |
-| Prop(사용자 지정 트래픽) | 페이지별 사이트 트래픽 활동을 추적하는 데 사용되는 차원. Prop은 페이지 간에 지속되지 않습니다. 트래픽 변수의 주요 응용: <ul><li>특정 값의 '가장 인기 있음'을 찾는 간단한 계산</li><li>사용자가 특정 사이트까지 이동하는 경로 표시 </li></ul><br>트래픽 변수의 예: 페이지 이름, 사이트 섹션, 브라우저</br> | [Prop](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| Prop(사용자 지정 트래픽) | 페이지별 사이트 트래픽 활동을 추적하는 데 사용되는 차원. Prop은 페이지 간에 지속되지 않습니다. 트래픽 변수의 주요 응용: <ul><li>특정 값의 &#39;가장 인기 있음&#39;을 찾는 간단한 계산</li><li>사용자가 특정 사이트까지 이동하는 경로 표시 </li></ul><br>트래픽 변수의 예: 페이지 이름, 사이트 섹션, 브라우저</br> | [Prop](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
 | eVar(사용자 지정 전환) | 사용자가 사용자 지정한 기간 동안 지속되는 차원. 만료 옵션은 이벤트 만료, 방문 만료 또는 특정일 만료를 포함하며, 해당 변수에 대해 수행하게 될 분석 유형에 의해 파생되어야 합니다.<br>eVar와 prop 간의 주요 차이점:</br><ul><li>Prop은 지속성이 제거되므로 경로 분석에 자주 사용됩니다.</li><li>eVar는 전환 분석에 자주 사용됩니다.</li></ul><br>전환 변수의 예: 내부 검색어, 내부 프로모션, 외부 캠페인(s.campaign)</br> | [eVar](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | 이벤트/지표(s.events) | 방문자들이 사이트에서 취하기를 바라는 주요 동작을 측정하는 지표. 카운터, 숫자 및 통화, 이렇게 세 가지 유형의 이벤트가 있습니다. 이벤트는 전환 변수(eVar) 보고서에 추가될 때 가장 유용합니다. eVar에서는 발생한 일에 대한 정성인 정보를 제공하고 이벤트에서는 발생한 일에 대한 정량적 정보를 제공합니다. <br>eVar와 이벤트 간의 주요 차이점:</br><ul><li>eVar는 영향을 받은 사람, 사항 또는 항목에 대해 알려 줍니다.</li><li>이벤트는 전환이 발생하는 방식을 측정합니다.</li></ul><br>전환 이벤트의 예: 주문 수, 애플리케이션 시작, 리드, 매출.</br> | [이벤트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html) |
 | 구성 요소 | 프로젝트에 드래그하여 놓을 수 있는 차원, 지표, 세그먼트 및 시간 세부기간(날짜 범위). | [구성 요소](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
@@ -53,7 +53,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | Audience Analytics | AAM에서 사용자 대상 멤버십으로 수신 Analytics 히트를 풍부하게 합니다. 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터와 같은 AAM 대상 데이터를 Analytics 워크플로우에 통합할 수 있습니다. 이 통합을 통해 생성된 차원은 대상 ID 및 대상자 이름입니다. | [Audience Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | 기여도 분석 IQ | 고객 움직임에서 어떻게 의미 있는 참여가 발생하는지를 이해하여 고객을 타겟 결과로 이끄는 변곡점을 지능적으로 식별하며 마케팅 이니셔티브를 효과적으로 최적화할 수 있도록 해줍니다. 모델에는 첫 번째, 마지막, 선형, 기여도, j자형, 역 j자형, u자형, 동일 터치, 사용자 지정 및 시간 감소가 포함됩니다. | [기여도 분석 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution.html) |
 | 예외 항목 탐지 | 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법. AD(예외 항목 탐지)는 Analysis Workspace의 모든 트렌드 시각화에 대해 기본적으로 켜져 있습니다. | [예외 항목 탐지](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| 기여도 분석 | 사용자가 액세스하는 모든 개별 지표 및 차원에 대해 자동화된 분석을 실행함으로써 예외 항목이 발생하는 "원인"을 탐구합니다. | [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| 기여도 분석 | 사용자가 액세스하는 모든 개별 지표 및 차원에 대해 자동화된 분석을 실행함으로써 예외 항목이 발생하는 &quot;원인&quot;을 탐구합니다. | [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | 집단 분석 | 집단은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 사용자의 유지 및 이탈을 분석하는 데 도움이 됩니다. | [집단 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) |
 | 고객 움직임 보고서 | 사용자가 사이트 또는 앱을 통해 이동하는 경로에 대한 정보를 표시합니다. Analysis Workspace에서 이 분석을 하는 데 Prop, eVar 및 이벤트를 사용할 수 있습니다. | [Analysis Workspace 폴아웃](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Analysis Workspace 플로우](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[Reports &amp; Analytics 경로 지정](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-paths.html) |
 | 마케팅 채널 | 사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. 이것은 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다(캠페인이나 트래픽 소스보다 선호됨). | [마케팅 채널](https://docs.adobe.com/content/help/ko-KR/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
@@ -103,7 +103,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | 방법/리소스 | 설명 | 설명서 링크 |
 |--- |--- |--- |
 | 개발자 리소스 | 모든 사용 가능한 플랫폼(웹, 모바일 앱, 동영상, 플래시 등)에 걸쳐서 Analytics 데이터를 수집하는 데 사용할 수 있는 라이브러리에 대해 대략적으로 설명하는 설명서입니다. | [개발자 설명서](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-| 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/home.html) |
+| 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/home.html) |
 | App Measurement(s_code) | 전역 변수 관리 | [AppMeasurement](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM 및 Adobe Launch | Analytics 도구를 참조하십시오. |  |
