@@ -1,52 +1,23 @@
 ---
-description: 범용(거래 ID) 카테고리를 선택하여 거래 ID를 통합할 수 있습니다.
-subtopic: Data sources
-title: 거래 ID
-topic: Developer and implementation
-uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
+title: 거래 ID 데이터 소스
+description: 거래 ID 데이터 소스를 사용하는 일반적인 워크플로우에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 
 ---
 
 
-# 거래 ID
+# 거래 ID 데이터 소스
 
-범용(거래 ID) 카테고리를 선택하여 거래 ID를 통합할 수 있습니다.
+거래 ID 데이터 소스를 사용하면 온라인 및 오프라인 데이터를 나란히 볼 수 있을 뿐만 아니라 데이터를 함께 연결할 수 있습니다. Analytics 구현에서 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수를 사용해야 합니다.
 
-See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+값이 들어 있는 온라인 히트를 전송하면 Adobe는 해당 시간에 설정되거나 지속되는 모든 변수의 &quot;스냅숏&quot;을 만듭니다. `transactionID` Data Sources를 통해 업로드된 일치하는 거래 ID가 있으면 오프라인 및 온라인 데이터가 함께 연결됩니다. 어떤 데이터 소스가 먼저 표시되는지는 중요하지 않습니다.
 
-Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
+## 거래 ID 데이터 소스의 전체 워크플로우
 
-**거래 ID 차원**
+다음 일반 워크플로우를 사용하여 거래 ID 데이터 소스 사용을 시작합니다.
 
-| 열 이름 | 설명 |
-|--- |--- |
-| 거래 ID | (필수) 오프라인 활동을 일으킨 온라인 거래를 나타내는 고유한 값. |
-| 날짜 | MM/DD/YYYY/HH/mm/SS(예: 01/01/2015/06/00/00) 날짜 형식을 사용합니다. |
-| 추적 코드 | 추적 코드 이름. |
-| 카테고리 | 카테고리 이름.  카테고리를 지정하면 제품도 선택해야 합니다. |
-| 채널 | 채널 이름. |
-| eVarN | eVarN 이름. N의 유효한 값은 1 - 250의 정수입니다. |
-| 제품 | 제품 이름. |
-| 상태 | 상태 이름. |
-| Zip | Zip 이름. |
-
-<p class="head"> <b>거래 ID 지표</b> </p>
-
-
-
-| 열 이름 | 설명 |
-|--- |--- |
-| 클릭스루 | 추적 코드 보기 수. |
-| 장바구니 추가 | 장바구니 추가 수. |
-| 장바구니 열기 | 장바구니 열기 횟수. |
-| 장바구니 제거 | 장바구니 제거 수. |
-| 장바구니 보기 | 장바구니 보기 수. |
-| 체크아웃 | 체크아웃 수. |
-| EventN | eventN이 발생한 횟수입니다. N의 유효한 값은 1 - 1000의 정수입니다.  보기 이벤트를 지정하면 해당 데이터 차원(eVar)도 지정해야 합니다. 예를 들어 eVar2 보기를 포함시키려면 값이 있는 eVar2를 나열해야 합니다. |
-| eVarN 보기 | eVarN을 본 횟수입니다. N의 유효한 값은 1 - 250의 정수입니다. |
-| 가격 | 제품 가격.  |
-| 주문 | 발생한 주문 수. |
-| 제품 보기 | 제품 보기 횟수. |
-| 수량 | 판매 수량. |
+1. 데이터 소스(&#39;범용&#39; 카테고리 및 &#39;범용 데이터 소스(거래 ID)&#39; 유형)를 만듭니다.
+1. 데이터 피드 설정 마법사에 따라 데이터를 업로드하고 데이터 소스 템플릿 파일을 다운로드할 FTP 위치를 가져옵니다.
+1. 변수를 포함하도록 구현을 `transactionID` 업데이트합니다.
+1. Data Sources 파일을 `.fin` 파일로 FTP 사이트에 업로드합니다.
