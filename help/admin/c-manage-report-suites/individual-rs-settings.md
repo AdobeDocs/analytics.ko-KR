@@ -3,7 +3,7 @@ description: 개별 보고서 세트 설정을 사용하면 보고서 세트의 
 title: 개별 보고서 세트 설정
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,8 +15,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [!UICONTROL 개별 보고서 세트 설정]에 액세스하려면
 
-1. **[!UICONTROL 관리자]**&#x200B;를 클릭하고 **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]**&#x200B;를 클릭하고 **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 
-1. 보고서 세트를 선택합니다.
-1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 개별 보고서 세트 설정]** &gt; *`<selection>`*&#x200B;을 클릭합니다.
+1. 보고서 세트 선택.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 개별 보고서 세트 설정]** > *`<selection>`*&#x200B;을 클릭합니다.
 
