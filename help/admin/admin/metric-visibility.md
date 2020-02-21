@@ -2,7 +2,7 @@
 description: 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
 title: 지표 가시성
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,8 +12,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 성공 이벤트]**&#x200B;로 이동합니다. [자세히...](/help/admin/admin/c-success-events/t-success-events.md)
-1. 가시성 열을 **[!UICONTROL 항상 표시]**, **[!UICONTROL 빌더]** 또는 **[!UICONTROL 항상 숨김]**&#x200B;으로 설정합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]****[!UICONTROL > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 변환]** > **[!UICONTROL 성공 이벤트]**. [자세히...](/help/admin/admin/c-success-events/t-success-events.md)
+1. [가시성] 열을 **[!UICONTROL 항상 표시]**, **[!UICONTROL 빌더]** 또는 **[!UICONTROL 항상 숨김]**&#x200B;으로 설정합니다.
 
 이 설정은 해당 지표의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. 이것은 설정이 사용자 인터페이스에서 지표의 가시성에 영향을 주는 방식입니다.
 
