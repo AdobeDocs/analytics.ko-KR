@@ -9,13 +9,13 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 # [!UICONTROL IP 로그인 제한 적용] 기간 종료
 
-Adobe Analytics의 **[IP 로그인 제한 적용](/help/admin/company/security-manager.md)** 기능을 사용하면 안전한 것으로 간주되는 특정 IP 주소를 허용 목록에 추가하여 Adobe Analytics 환경에 성공적으로 로그인하고 액세스할 수 있습니다. 많은 경우 이 기능은 사용자가 로그인할 수 있는 유일한 보안 IP 주소로서 회사 IP 주소를 설정하는 데 사용됩니다. 따라서 Adobe Analytics를 사용하려면 사용자가 회사 사무실에 있거나 VPN을 통해 네트워크에 로그인해야 합니다.
+Adobe Analytics의 **[IP 로그인 제한 적용](/help/admin/company/security-manager.md)**기능을 사용하면 안전한 것으로 간주되는 특정 IP 주소를 허용 목록에 추가하여 Adobe Analytics 환경에 성공적으로 로그인하고 액세스할 수 있습니다. 많은 경우 이 기능은 사용자가 로그인할 수 있는 유일한 보안 IP 주소로서 회사 IP 주소를 설정하는 데 사용됩니다. 따라서 Adobe Analytics를 사용하려면 사용자가 회사 사무실에 있거나 VPN을 통해 네트워크에 로그인해야 합니다.
 
 이 기능은 2020년 10월에 종료될 예정입니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
-이 기능은 Experience Cloud 로그인 마이그레이션 및/또는 Experience Cloud 로그인으로 인해 일부 상황에서 중단됩니다. **[!UICONTROL 사용자 특성]** 또는 **[!UICONTROL 대상 라이브러리]**&#x200B;를 사용하는 고객에 대해 중단하는 것으로 알려져 있습니다.
+이 기능은 Experience Cloud 로그인 마이그레이션 및/또는 Experience Cloud 로그인으로 인해 일부 상황에서 중단됩니다. **[!UICONTROL 사용자 특성]** 또는 **[!UICONTROL 대상 라이브러리]**&#x200B;를 사용하는 고객에 대해 중단하는 것으로 알려졌습니다.
 
 또한, 여러 Experience Cloud 솔루션이 있을 경우 이 기능이 존재하지 않거나 Analytics 자체 외부에서 지원되지 않는다면 다른 솔루션 중 하나를 사용하여 Experience Cloud에 로그인함으로써 이 요구 사항을 우회할 수 있습니다. 사용자는 IP 스푸핑을 통해 이 문제를 처리할 수도 있습니다.
 
@@ -25,7 +25,7 @@ Adobe Analytics의 **[IP 로그인 제한 적용](/help/admin/company/security-m
 
 **[!UICONTROL IP 로그인 제한 적용]**&#x200B;을 설정한 고객의 경우 이 기능은 2020년 10월에 제거됩니다. 이때 여전히 존재하는 IP 로그인 제한이 더 이상 적용되지 않습니다. 여전히 IP 주소로 로그인을 제한해야 하는 경우에는 단일 사인온 및 Federated ID의 권장 솔루션을 검토하고 구현해야 합니다(자세한 정보 및 리소스는 아래에 있음).
 
-또한 **[!UICONTROL IP 로그인 제한 적용]** 설정은 Analytics UI의 **[!UICONTROLA관리자 &gt; 회사 설정 &gt; 보안 관리자]**&#x200B;에서 제거됩니다(아래 참조).
+또한 **[!UICONTROL IP 로그인 제한 적용]** 설정은 Analytics UI의 **[!UICONTROLA관리자 > 회사 설정 > 보안 관리자]**&#x200B;에서 제거됩니다(아래 참조).
 
 ![](assets/sec-manager2.png)
 
