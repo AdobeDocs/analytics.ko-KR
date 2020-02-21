@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 색상 팔레트 변경:
 
-1. **[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 프로젝트 색상 팔레트]** 드롭다운에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.
 
    ![](assets/custom_palette.png)
