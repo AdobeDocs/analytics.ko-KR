@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 프로젝트 만들기 - 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 프로젝트 만들기 - 개요
 
-**[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**
 
 시각화, 보고서 구성 요소 및 데이터 테이블의 조합을 기반으로 하여 강력한 Analytics 프로젝트를 만들 수 있습니다. 이 기능에서는 Ad Hoc Analysis의 테이블 빌더 기능들 중 많은 기능을 Analytics로 가져옵니다.
 
@@ -22,7 +22,7 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 
 ## Workspace 프로젝트 목록 페이지 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-처음에 **[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**&#x200B;으로 이동하면 페이지는 소유하거나 액세스 권한이 부여된 모든 프로젝트를 나열합니다. **[!UICONTROL 랜딩 페이지로 설정]**&#x200B;을 클릭하여 이 페이지를 Adobe Analytics 랜딩 페이지로 설정할 수 있습니다. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
+처음에 **[!UICONTROL 분석]**> **[!UICONTROL Workspace]**&#x200B;로 이동하면 페이지는 소유하거나 액세스 권한이 부여된 모든 프로젝트를 나열합니다. **[!UICONTROL 랜딩 페이지로 설정]**&#x200B;을 클릭하여 이 페이지를 Adobe Analytics 랜딩 페이지로 설정할 수 있습니다. (아래의 스크린샷과 같이 이 옵션이 표시되지 않으면 이미 랜딩 페이지입니다.)
 
 ![](assets/sample-project.png)
 
@@ -32,16 +32,16 @@ Workspace 프로젝트 목록 페이지에는 다음 정보가 포함되어 있�
 |---|---|
 | 프로젝트 [템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 이렇게 사전에 채워진 프로젝트 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. |
 | [새 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
-| 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 프로젝트]**)로 이동합니다. |
+| 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 자습서 보기 | [Analysis Workspace YouTube 비디오](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)로 이동합니다. |
 | 이름 | Workspace 프로젝트의 이름. |
 | 작성자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
-| 태그 | 프로젝트 구성 요소 관리자 또는 **[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서 프로젝트에 적용된 태그. |
+| 태그 | 프로젝트 구성 요소 관리자 또는 **[!UICONTROL Workspace]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;에서 프로젝트에 적용된 태그. |
 | 마지막 수정 날짜 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
 
 ## 프로젝트 정보 및 설정 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**
+**[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**
 
 ![](assets/projectinfo.png)
 
