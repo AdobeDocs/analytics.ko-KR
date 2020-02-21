@@ -14,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호출 사용량 데이터에 대한 투명성 요청을 해결합니다. 다음에 액세스할 수 있습니다.
 
-* 서버 호출 사용량 데이터를 추적하고 계약상 한계와 비교하는 서버 호출 사용량 대시보드입니다. (**[!UICONTROL Analytics &gt; 관리자 &gt; 서버 호출 사용량]**)
-* 초과 사용을 방지하기 위해 경고를 설정할 수 있는 경고 빌더의 서버 호출 사용량 경고 유형(**[!UICONTROL Analytics &gt; 구성 요소&gt; 경고]**)
+* 서버 호출 사용량 데이터를 추적하고 계약상 한계와 비교하는 서버 호출 사용량 대시보드입니다. (**[!UICONTROL Analytics > 관리 > 서버 호출 사용량]**)
+* 초과 사용을 방지하기 위해 경고를 설정할 수 있는 경고 빌더의 서버 호출 사용량 경고 유형(**[!UICONTROL Analytics > 구성 요소> 경고]**)
 
 서버 호출 사용량의 주요 이점은 다음과 같습니다.
 
 * 계약상 서버 호출 사용량 한도에 대한 모바일 사용량 포함하여 서버 호출 사용량 및 약정 데이터에 대한 **가시성**&#x200B;을 제공합니다.
 * 초과 사용에 대한 위험 또는 발생을 알리고, 초과 사용 발생 가능성에 대해 준비/조치하도록 **경고**&#x200B;를 제공합니다.
 
-이전에는 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 청구]**&#x200B;에서 월별 서버 호출 사용량 데이터에 액세스할 수 있었지만 이 데이터는 해당 월에 대한 청구가 종료된 후 6일 후에만 업데이트되었습니다. 또한 데이터에 모바일 사용량이 포함되지 않았습니다. 이 기능은 또한 현재 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고서]**&#x200B;의 **[!UICONTROL 청구 정보]** 보고서를 대체합니다.
+이전에는 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 청구]**&#x200B;에서 월별 서버 호출 사용량 데이터에 액세스할 수 있었지만, 이 데이터는 해당 월에 대한 청구가 종료된 후 6일 후에만 업데이트되었습니다. 또한 데이터에 모바일 사용량이 포함되지 않았습니다. 이 기능은 또한 현재 **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;의 **[!UICONTROL 청구 정보]** 보고서를 대체합니다 .
 
 ## 전제 조건 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
@@ -98,7 +98,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">sc.omniture.com을 통해 Analytics에 로그인합니다. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A"><span class="ignoretag"><span class="uicontrol">관리자</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span> &gt; <span class="uicontrol">모든 보고서 액세스 권한 편집</span> &gt; <span class="uicontrol">Analytics 도구</span> &gt; <span class="uicontrol">사용자 지정</span> &gt; <span class="uicontrol">서버 호출 사용량</span></span>으로 이동합니다. </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A"><span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span> &gt; <span class="uicontrol">모두 보고서 액세스 권한 편집</span> &gt; <span class="uicontrol">Analytics 도구</span> &gt; <span class="uicontrol">사용자 지정</span> &gt; <span class="uicontrol">서버 호출 사용량</span></span>으로 이동합니다. </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
