@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 실행 취소 및 다시 실행 설정
 
-**[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 실행 취소/다시 실행]**
+**[!UICONTROL Workspace]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 실행 취소/다시 실행]**
 
 * **[!UICONTROL 다시 실행]** 선택 사항(실행 취소를 다시 실행)은 **[!UICONTROL 편집]** 메뉴에 있습니다.
 
@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 실행 취소 또는 다시 실행할 수 있는 작업 {#section_1E94152CC206470D84FC11710311DA12}
 
-* 조정
+* 큐레이션
 * 모두 삭제
 * 기간
 * 기여도 분석
