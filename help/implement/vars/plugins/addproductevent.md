@@ -2,7 +2,7 @@
 title: addProductEvent
 description: 제품 및 이벤트 변수에 사용자 지정 이벤트를 추가합니다.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 ---
 
@@ -19,8 +19,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
-1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
+1. 탭으로 이동한 다음 [!UICONTROL Extensions] [!UICONTROL Catalog] 단추를 클릭합니다.
+1. 확장 [!UICONTROL Common Analytics Plugins] 프로그램 설치 및 게시
 1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
@@ -35,8 +35,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 이 `addProductEvent` 메서드는 다음 인수를 사용합니다.
 
-* **`en`**(필수, 문자열):변수의 마지막 항목에 추가할`products`이벤트입니다. 변수가 비어 있으면 이벤트(및 해당 값)가 첨부된 &quot;빈&quot; 제품 항목이 만들어집니다.`products`
-* **`ev`**(필수, 문자열):인수의 숫자 또는 통화 이벤트에 할당된`en`값입니다.  설정되지 않은 경우 기본값이 로`1`설정됩니다.
-* **`ap`**(선택 사항, 부울):products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우`true`(또는`1`) 값이 모든 제품 항목에 이벤트를 추가합니다.  설정되지 않은 경우 기본값이 로`false`설정됩니다.
+* **`en`** (필수, 문자열):변수의 마지막 항목에 추가할 `products` 이벤트입니다. 변수가 비어 있으면 이벤트(및 해당 값)가 첨부된 &quot;빈&quot; 제품 항목이 만들어집니다. `products`
+* **`ev`** (필수, 문자열):인수의 숫자 또는 통화 이벤트에 할당된 `en` 값입니다.  설정되지 않은 경우 기본값이 로 `1` 설정됩니다.
+* **`ap`** (선택 사항, 부울):products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우 `true` (또는 `1`) 값이 모든 제품 항목에 이벤트를 추가합니다.  설정되지 않은 경우 기본값이 로 `false` 설정됩니다.
 
 반환되는 `addProductEvent` 값이 없습니다. 대신 이벤트와 해당 값을 `products` 변수에 추가합니다. 또한 이 플러그인은 이 `events` 변수에서 필수이므로 이 변수를 자동으로 추가합니다.
 
@@ -75,126 +75,66 @@ addProductEvent 플러그인은 쿠키를 만들거나 사용하지 않습니다
 
 ### 예 #1
 
-...
+다음 코드는 `s.products` 변수를 로 설정합니다 `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase"
-```
-
-...다음 코드가 실행됩니다.
-
-```js
+s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-...s.products의 최종 값은 다음과 같습니다.
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
-```
-
-...s.events의 최종 값은 다음과 같습니다.
-
-```js
-s.events="purchase,event35"
-```
+위의 코드에서는 변수를 `s.events``"purchase,event35"`
 
 ### 예 #2
 
-...
+다음 코드는 변수를 `s.products``";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-```
-
-...다음 코드가 실행됩니다.
-
-```js
+s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-...s.products의 최종 값은 다음과 같습니다.
-
-```js
-s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
-```
-
-세 번째 인수가 true(또는 1)와 같으면 각 제품 항목에는 호출에 지정된 이벤트가 해당 값에 추가됩니다
+호출의 세 번째 인수가 `addProductEvent` (또는 `true` `1`)이면 각 제품 항목에는 호출에 지정된 이벤트가 해당 값에 추가됩니다.
 
 ### 예 #3
 
-...
+다음 코드는 변수를 `s.products``";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
-s.events="purchase,event2"
-```
-
-...다음 코드가 실행됩니다.
-
-```js
+s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
+s.events="purchase,event2";
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-...s.products의 최종 가치는...입니다.
-
-```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
-```
-
-...및 s.events는 다음과 같이 설정됩니다.
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+위의 코드에서는 변수를 `s.events``"purchase,event2,event33,event34,event35"`
 
 ### 예 #4
 
-...
+다음 코드는 변수를 `s.products``";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-```
-
-...다음 코드가 실행됩니다.
-
-```js
 s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
+s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-...s.products의 최종 가치는...입니다.
+위 코드에서도 `s.events` 변수를 로 설정합니다 `"purchase,event2,event33,event34,event35"`.
 
-```js
-s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
-```
-
-...및 s.events는 다음과 같이 설정됩니다.
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+> [!NOTE] 호출의 두 번째 인수는 정수 **또는** 정수/숫자를 나타내는 문자열일 수 있습니다
 
 ### 예 #5
 
-s.products가 설정되지 않고 다음 코드가 실행되는 경우...
+아직 설정되지 `s.products` 않은 경우 다음 코드는 `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-...s.products의 최종 값은 다음과 같습니다.
-
-```js
-s.products=";;;;event35=25"
-```
-
-이 경우 event35는 s.events의 끝에도 추가됩니다.
+위 코드는 `"event35"` 또는 `s.events` , 아직 설정되지 않은 경우 위 코드가 **로 설정됩니다**`s.events` `s.events` . `"event35"`
 
 ## 버전 내역
 
