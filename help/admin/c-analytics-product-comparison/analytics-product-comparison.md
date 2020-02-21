@@ -2,7 +2,7 @@
 description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,11 +18,11 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
  <tbody> 
   <tr> 
    <td> <b>제품 이름 및 도움말 링크</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/"> Ad Hoc Analysis </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
-   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/dsc/"> Ad Hoc Analysis </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/arb/index.html"> Report Builder </a> </td> 
+   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse.html"> Data Warehouse </a> </td> 
    <td colname="col6"> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
@@ -72,9 +72,9 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>단계/경로 지정</b> </td> 
-   <td> 예 <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> 폴아웃 </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> 흐름 </a> </p> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html"> 예 </a> </td> 
+   <td> 예 <p> </p> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/fallout_flow.html"> 폴아웃 </a> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/flow.html"> 흐름 </a> </p> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/user/reports.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/dsc/c_reports_paths.html"> 예 </a> </td> 
    <td> 예 </td> 
    <td colname="col06"> 아니오 </td> 
    <td colname="col6"> 예 </td> 
@@ -90,7 +90,7 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>집단 분석</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/cohort_analysis.html"> 예 </a> </td> 
    <td> 아니오 </td> 
    <td> 아니오 </td> 
    <td> 아니오 </td> 
@@ -108,7 +108,7 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>향상된 시각화 옵션</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
    <td> 아니오 </td> 
    <td> 예 </td> 
    <td> 예 </td> 
@@ -117,16 +117,16 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>사용자 지정 가능한 레이아웃</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
-   <td> 예 - <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html">대시보드 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
+   <td> 예 - <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/user/dashboard.html">대시보드 </a> </td> 
    <td> 아니오 </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/arb/configure_the_custom_layout.html"> 예 </a> </td> 
    <td colname="col06"> <p> 분류별 또는 지표별로 결과를 정렬합니다. </p> </td> 
    <td colname="col6"> 예 </td> 
   </tr> 
   <tr> 
    <td> <b>프로젝트 조정(비분석가를 위해 보고서 간소화)</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/curate.html"> 예 </a> </td> 
    <td> 아니오 </td> 
    <td> 아니오 </td> 
    <td> 예 </td> 
@@ -135,8 +135,8 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>프로젝트 공유</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> 예</a>, 모든/임의 사용자 </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 예</a>, 모든/임의 사용자 </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/curate.html"> 예</a>, 모든/임의 사용자 </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/user/scheduling.html"> 예</a>, 모든/임의 사용자 </td> 
    <td> Ad Hoc Analysis 사용자만 </td> 
    <td> 예, 모든/임의 사용자 </td> 
    <td colname="col06"> 아니오 </td> 
@@ -144,19 +144,19 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>예약된 보고서 배달</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html"> 예 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/schedule-projects.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/user/scheduling.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/dsc/c_schedule.html"> 예 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ko_KR/arb/schedule_report_requests.html"> 예 </a> </td> 
    <td colname="col06"> 예 </td> 
    <td colname="col6"> 예 </td> 
   </tr> 
   <tr> 
    <td> <b>시스템 요구 사항</b> </td> 
-   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> 자세히... </a> </p> </td> 
-   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> 자세히... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> 자세히... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> 자세히... </a> </p> </td> 
+   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/user/requirements.html"> 자세히... </a> </p> </td> 
+   <td> <p>브라우저 </p> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/user/requirements.html"> 자세히... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/dsc/c_sys_reqs.html"> 자세히... </a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/arb/system_requirements.html"> 자세히... </a> </p> </td> 
    <td colname="col06"> MS Excel처럼 <span class="filepath">.csv</span> 파일을 여는 브라우저 및 프로그램입니다. 타블로 형식 파일을 생성할 수 있습니다. </td> 
    <td colname="col6"> Windows 64비트, OpenGL 3.2용 그래픽 어댑터(<u> <a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html"> 자세히... </a></u> ) </td> 
   </tr> 
