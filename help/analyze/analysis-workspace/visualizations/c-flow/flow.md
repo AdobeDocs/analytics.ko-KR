@@ -24,10 +24,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 차원 간 흐름 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-[차원 간 흐름](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 '남성' 페이지로 이동한 다음, '신발' 부문으로 이동할 수 있습니다. 
+[차원 간 흐름](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 &#39;남성&#39; 페이지로 이동한 다음, &#39;신발&#39; 부문으로 이동할 수 있습니다. 
 
 각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 놓기 영역에 놓아 해당 차원을 다이어그램에 추가합니다. 
 
 ## 플로우 다이어그램을 프로젝트 .CSV 파일의 일부로 내보내기 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-플로우 다이어그램은 **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel(표로 시각화됨) 또는 다른 곳에서 플로우 결과를 분석할 수 있습니다.
+플로우 다이어그램은 **[!UICONTROL 프로젝트]**> **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel(표로 시각화됨) 또는 다른 곳에서 플로우 결과를 분석할 수 있습니다.
