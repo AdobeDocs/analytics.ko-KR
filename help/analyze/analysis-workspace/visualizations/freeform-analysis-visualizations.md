@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 시각화 개요
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace에서 시각화 및 시각화 설정에 대해 알아봅니다.
 
-[Analysis Workspace 시각화 유형 - YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:57)
+[Analysis Workspace 시각화 유형 - YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:57)
 
 ## 시각화 패널 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -64,7 +64,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
   </tr> 
   <tr> 
    <td colname="col1"> <p>표준화 </p> </td> 
-   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  >표준화</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지표를 등분 비례에 강제 적용합니다. <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/normalization.html"  >표준화</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이중 축 표시 </p> </td> 
@@ -91,14 +91,14 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 
 | 설정 | 설명 |
 |--- |--- |
-| 복사한 시각화/패널 삽입 | 복사한 요소를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣을("삽입") 수 있습니다. |
+| 복사한 시각화/패널 삽입 | 복사한 요소를 프로젝트 내의 다른 위치 또는 완전히 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다. |
 | 시각화/패널 복사 | 시각화 또는 패널을 마우스 오른쪽 단추로 클릭하고 복사할 수 있습니다. |
 | 중복 시각화/패널 | 현재 시각화의 수정할 수 있는 정확한 중복을 만듭니다. |
 | 모든 패널 축소 | 모든 프로젝트 패널을 축소합니다. |
 | 패널의 모든 시각화 축소 | 이 프로젝트 패널의 모든 시각화를 축소합니다. |
 | 모든 패널 확장 | 모든 프로젝트 패널을 확장합니다. |
 | 패널의 모든 시각화 확장 | 이 프로젝트 패널의 모든 시각화를 확장합니다. |
-| 설명 편집 | 시각화/패널에 대한 텍스트 설명을 추가(또는 편집)합니다. 이 설명은 프로젝트 &gt;  프로젝트 정보 및 설정에 표시됩니다 . |
+| 설명 편집 | 시각화/패널에 대한 텍스트 설명을 추가(또는 편집)합니다. 이 설명은 프로젝트 >  프로젝트 정보 및 설정에 표시됩니다 . |
 | 패널 링크 가져오기 | 프로젝트 내의 특정 패널로 사용자를 안내할 수 있습니다. |
 | 시각화 링크 가져오기 | 이 링크를 복사하고 공유하여 다른 사용자를 이 시각화로 직접 보낼 수 있습니다. 사용자는 로그인해야 합니다. |
 | 시작 | (흐름, 벤, 히스토그램에 대해 작동하게 됨) 현재 시각화에 대한 구성이 삭제되고, 다시 구성할 수 있는 새 패널이 열립니다.  |
@@ -119,4 +119,4 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 1. 새 레이블 텍스트를 입력합니다.
 1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
 
-다음은 이 항목의 [비디오에 대한 링크](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)입니다.
+다음은 이 항목의 [비디오에 대한 링크](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)입니다.
