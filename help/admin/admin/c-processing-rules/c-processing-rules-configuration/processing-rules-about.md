@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 처리 규칙 작동 방식
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -97,7 +97,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 조건이 없는 규칙을 만들어 정의된 작업을 항상 실행할 수 있습니다.
 
-작업이 발생하기 전에 변수에서 값이 자동으로 확인되지 않습니다. 예를 들어 Prop1에는 "something"의 값이 포함되고, eVar1은 비어 있습니다. Prop1이 eVar1과 동일하도록 설정하는 경우 두 값 모두 비어 있게 됩니다. 이를 방지해야 하는 경우 값의 존재를 확인하기 위한 조건을 추가합니다.
+작업이 발생하기 전에 변수에서 값이 자동으로 확인되지 않습니다. 예를 들어 Prop1에는 &quot;something&quot;의 값이 포함되고, eVar1은 비어 있습니다. Prop1이 eVar1과 동일하도록 설정하는 경우 두 값 모두 비어 있게 됩니다. 이를 방지해야 하는 경우 값의 존재를 확인하기 위한 조건을 추가합니다.
 
 ## 처리 규칙 작업 {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
