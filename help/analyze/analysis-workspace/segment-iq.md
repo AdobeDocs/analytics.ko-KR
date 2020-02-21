@@ -2,7 +2,7 @@
 title: 세그먼트 IQ 개요
 description: Adobe Analytics 세그먼트 IQ가 무엇인지, 그리고 이것이 조직에 어떻게 유용할 수 있는지 알아봅니다.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 분석가들은 조직의 지표 및 차원에 걸쳐 세그먼트 간의 적절한 차이점을 검색하느라 몇 시간, 심지어 며칠 동안 고생할 수 있습니다. 이 분석은 지루하고 시간이 많이 소요되는 일일 뿐 아니라 타깃팅된 마케팅 노력에 지대한 영향을 미칠 수 있는 세그먼트의 핵심적인 차이점을 놓쳤는지 확신할 수도 없습니다.
 
-많은 조직이 세그먼트 IQ에서 제공하는 기능을 사용하여 성공을 거뒀습니다. See [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare-use-cases.md) for real-world scenarios that provide organizations valuable insight.
+많은 조직이 세그먼트 IQ에서 제공하는 기능을 사용하여 성공을 거뒀습니다. 조직에 중요한 통찰력을 제공한 실제 사례를 보려면 [세그먼트 비교 사용 사례](c-panels/c-segment-comparison/segment-compare-use-cases.md)를 참조하십시오.
 
 ## 기능
 
