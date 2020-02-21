@@ -3,7 +3,7 @@ keywords: Analysis Workspace
 title: 집단 분석이란?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 집단 분석은 Analysis Workspace에 대한 액세스 권한이 있는 모든 Analytics 고객에 대해 사용할 수 있습니다.
 
-[집단 분석 - YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
+[집단 분석 - YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
 
 >[!IMPORTANT]
 >
@@ -57,7 +57,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 지연 테이블
 
-포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이것은 이전/이후 분석을 위한 훌륭한 도구입니다. "포함" 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
+포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이것은 이전/이후 분석을 위한 훌륭한 도구입니다. &quot;포함&quot; 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
 
 ![](assets/cohort-latency.png)
 
