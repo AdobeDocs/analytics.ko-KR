@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 사용자 그룹 설정
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 사용자 그룹 정의 페이지의 요소 설명
 
-**[!UICONTROL 관리자]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL 새 사용자 그룹 추가]**
+**[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL 새 사용자 그룹 추가]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -74,7 +74,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
        <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>설문 조사</b>(조직에서 지원되지 않는 Adobe Survey 기능도 사용하는 경우 설문 조사 보고서에 대한 액세스 권한을 부여합니다.) </li> 
        <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>고급 보고</b>(마케팅 채널, 예외 항목 탐지, 세그먼트 및 계산된 지표와 같은 고급 보고서에 대한 액세스 권한을 부여합니다.) </li> 
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>소셜</b>(Adobe Social 내의 데이터에서 생성된 보고서에 대한 액세스 권한을 부여합니다.) </li> 
-       <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>데이터 커넥터</b>(사용자가 데이터 커넥터를 만들거나, 업데이트하거나, 삭제할 수 있습니다.) </li> 
+       <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data connectors</b>(사용자가 데이터 커넥터를 만들거나, 업데이트하거나, 삭제할 수 있습니다.) </li> 
       </ul> </p> 
     </draft-comment> </td> 
   </tr> 
@@ -114,7 +114,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager(모든 액세스 권한, 사용자 지정, 액세스 권한 없음) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
+   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://marketing.adobe.com/resources/help/ko_KR/dtm/atm_migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>사용자 로그인 지정</b> </td> 
