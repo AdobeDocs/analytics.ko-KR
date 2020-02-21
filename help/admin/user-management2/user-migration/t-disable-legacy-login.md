@@ -2,7 +2,7 @@
 description: Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 알아봅니다.
 title: 기존 로그인 비활성화
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
@@ -14,7 +14,7 @@ Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 �
 
 사용자가 기존 Analytics 사용자 관리 시스템에서 Adobe Admin Console로 마이그레이션하면 기존 로그인의 사용을 중지시킬 수 있습니다. 기존 로그인을 사용하지 않도록 설정하면 사용자가 기존 로그인을 사용하려고 시도하는 경우 Experience Cloud 로그인으로 리디렉션됩니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 사용자 ID 마이그레이션]**&#x200B;에서 마이그레이션 도구를 엽니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 ID 마이그레이션]**&#x200B;에서 마이그레이션 도구를 엽니다.
 1. [!DNL User Information] 섹션에서 함께 작업할 사용자가 포함된 도메인을 찾은 다음 **[!UICONTROL 사용자 선택]**&#x200B;을 클릭합니다.
 1. 비활성화할 기존 로그인을 사용하는 사용자를 선택합니다.
 
