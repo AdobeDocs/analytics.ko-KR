@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |--- |--- |
 | 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은   `host name .demdex.net`으로 나타납니다.  Demdex 도메인에 대한 호출 이해를 참조하십시오. |
 | User-Agent | Analytics에 전달된 User-Agent 헤더로 설정합니다. |
-| X-Original-User-Agent | 대체 사용자 에이전트가 다음 헤더 중 하나에 의해 지정된 경우에만 설정합니다. </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
+| X-Original-User-Agent | 대체 사용자 에이전트가 다음 헤더 중 하나에 의해 지정된 경우에만 설정합니다. </br>`X-Device-User-Agent\ `</br>`X-Original-User-Agent\`  </br>`X-OperaMini-Phone-UA\`</br>`X-Skyfire-Phone\`   </br>`X-Bolt-Phone-UA\`        |
 | X-Forwarded-For | 요청하는 클라이언트의 IP 주소로 설정합니다. Analytics는 이미 수신 `X-Forwarded-For` 헤더를 구문 분석하고 사용할 올바른 IP 주소를 결정했을 것입니다. |
 | Accept-Language | Analytics에 전달된 `Accept-Language` 헤더로 설정합니다. |
 | Referer | Analytics에 전달되거나 Analytics에 전달된 Referer 헤더에서 수집한 페이지 URL로 설정합니다. |
@@ -50,7 +50,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | c_clientDateTime | dd/mm/yyy hh:mm:ss  W TZ 형식의 타임스탬프. TZ는 분 단위이며 Date.getTimezoneOffset 메소드의 반환과 일치합니다. |
 | c_colorDepth | 16비트 또는 32비트 색상으로 지정됩니다. |
 | c_connectionType | 연결 유형을 지정합니다. 옵션은 다음과 같습니다.<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | 예:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>신호: c_contextData.category=news</li></ul> |
+| c_contextData.* | 예:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>신호: c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | 쿠키를 사용할 수 있는지 여부를 지정합니다. 옵션은 다음과 같습니다. yes, no, unknown |
 | c_currencyCode | 거래에 사용된 통화 유형입니다. |
 | c_evar# | 사용자 지정 eVar |
