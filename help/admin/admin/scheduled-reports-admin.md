@@ -3,7 +3,7 @@ description: 관리자 수준 사용자가 조직 전체에서 예약된 보고�
 title: 예약된 보고서 큐
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 관리자 수준 사용자가 조직 전체에서 예약된 보고서를 보고 관리할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 예약된 보고서]**
+**[!UICONTROL Analytics]** **[!UICONTROL 구성 요소]** > **[!UICONTROL 예약된 보고서]**
 
 예약된 보고서 관리자에는 다음과 같은 관리 수준 기능이 있습니다.
 
@@ -32,17 +32,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 고급 필터링 기능 {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-예를 들어 시간별로 예약된 모든 보고서를 필터링하려면 **[!UICONTROL 고급]** 필터에서 **[!UICONTROL 빈도가 시간 단위]**&#x200B;를 지정하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+예를 들어 시간별로 예약된 모두 보고서를 필터링하려면 **[!UICONTROL 고급]** 필터에서 **[!UICONTROL 빈도가 시간 단위]**&#x200B;를 지정하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
 ## 보고서 큐 {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-이 큐를 사용하면 큐를 "막고 있는" 모든 예약된 보고서를 관리하고 경우에 따라 삭제할 수도 있습니다. (일반적으로, 보고서는 4시간 후 시간이 초과됩니다.)
+이 큐를 사용하면 큐를 &quot;막고 있는&quot; 모든 예약된 보고서를 관리하고 경우에 따라 삭제할 수도 있습니다. (일반적으로, 보고서는 4시간 후 시간이 초과됩니다.)
 
 ![](assets/scheduled_reports_2.png)
 
-보고서 큐를 사용하면 "예약된 보고서를 한 번 건너뛸" 수 있습니다. **[!UICONTROL 관리]** 열의 파란색 아이콘을 클릭하면 됩니다.
+보고서 큐를 사용하면 &quot;예약된 보고서를 한 번 건너뛸&quot; 수 있습니다. **[!UICONTROL 관리]** 열의 파란색 아이콘을 클릭하면 됩니다.
 
 ## 예약 ID {#section_568B70F4228C4229977CB85D2DCD53A1}
 
