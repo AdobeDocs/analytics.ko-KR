@@ -1,7 +1,7 @@
 ---
 description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록
 title: Analysis Workspace의 알려진 제한 사항
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -29,26 +29,26 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 * 세그먼트 비교: [!UICONTROL 기타 사용자] 세그먼트는 세그먼트 템플릿이 초기 놓기 영역에 사용되는 경우 생성되지 않습니다.
 
-## 구성 요소 &gt; 세그먼트
+## 구성 요소 > 세그먼트
 
 * 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 세그멘테이션할 수 없습니다.
-* 세그먼트가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 &gt; 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 IP 주소가 그렇습니다.
+* 세그먼트가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 > 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 IP 주소가 그렇습니다.
 
-## 구성 요소 &gt; 계산된 지표
+## 구성 요소 > 계산된 지표
 
-* 계산된 지표는 특정 시각화에 사용할 수 없습니다. 위의 '시각화'를 참조하십시오.
+* 계산된 지표는 특정 시각화에 사용할 수 없습니다. 위의 &#39;시각화&#39;를 참조하십시오.
 * 계산된 지표 자체가 별도의 기여도 분석 모델을 포함할 수 있으므로 계산된 지표는 [!UICONTROL 기여도 분석] 패널에서 사용할 수 없습니다.
-* 계산된 지표가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 &gt; 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 [!UICONTROL IP 주소]가 그렇습니다.
+* 계산된 지표가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 > 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 [!UICONTROL IP 주소]가 그렇습니다.
 
-## 구성 요소 &gt; 날짜 범위
+## 구성 요소 > 날짜 범위
 
 * 사용자 지정 날짜 범위는 [!UICONTROL 지난해 이날], [!UICONTROL 지난달 이날] 등을 지원하지 않습니다.
 
-## 구성 요소 &gt; 가상 보고서 세트
+## 구성 요소 > 가상 보고서 세트
 
 * 보고서 처리 시간이 활성화되면 특정 구성 요소가 지원되지 않습니다. 전체 목록이 필요하면 [보고서 처리 시간](/help/components/vrs/vrs-report-time-processing.md)을 참조하십시오.
 
-## 구성 요소 &gt; 보고서 설정
+## 구성 요소 > 보고서 설정
 
 * [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분 문자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분 문자]만 사용합니다.
 
