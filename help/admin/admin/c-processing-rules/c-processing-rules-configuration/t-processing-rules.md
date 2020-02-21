@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 처리 규칙 만들기
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 처리 규칙은 보고서 세트에서 설정합니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
-1. 보고서 세트를 선택합니다.
-1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 처리 규칙]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. 보고서 세트 선택.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 처리 규칙]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 처리 규칙]** 페이지에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 조건 추가]**&#x200B;를 클릭하고 언제 규칙이 적용되는지 선택합니다.
 
