@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 현재 서버 호출 사용량 보기
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 서버 호출 사용량]** &gt; **[!UICONTROL 현재 사용량]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 서버 호출 사용량]** > **[!UICONTROL 현재 사용량]**
 
 > [!IMPORTANT] 표시되는 모든 사용량 및 약정 번호는 모든 로그인 회사 및 보고서 세트에 누적됩니다.
 
