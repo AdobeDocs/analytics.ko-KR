@@ -20,6 +20,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 보기 밀도를 설정하려면 다음을 수행하십시오.
 
-1. Workspace에서 **[!UICONTROL 프로젝트]** &gt; **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
+1. 작업 영역에서 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
 
 1. 위에 설명된 3개 선택 사항 중에서 선택하고 **[!UICONTROL 저장을 클릭하십시오]**.
