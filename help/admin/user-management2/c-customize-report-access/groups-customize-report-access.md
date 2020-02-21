@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: 보고서 액세스 사용자 지정 - 개요
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 Analytics 도구, 보고서 세트 도구, 지표 및 차원에 대한 그룹 권한을 사용자 지정합니다.
 
-**[!UICONTROL 새 그룹 추가]** &gt; **[!UICONTROL 보고서 액세스 권한]**
+**[!UICONTROL 새 그룹 추가]** > **[!UICONTROL 보고서 액세스 권한]**
 
 [!UICONTROL 사용자 그룹 정의] 페이지의 [!UICONTROL 보고서 액세스 권한] 섹션은 세분화된 수준에서 권한을 사용자 지정할 수 있는 액세스 카테고리를 제공합니다.
 
@@ -59,12 +59,12 @@ Analytics 도구, 보고서 세트 도구, 지표 및 차원에 대한 그룹 �
    <td colname="col2"> <p>측정기준(및 지표)에 대한 액세스를 포함하거나 제외하도록 권한을 사용자 지정할 수 있습니다. </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 컨텐츠 인식) 및 지표가 주어집니다. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/c_classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 차원 권한 사용자 지정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>새 고객이나 회사가 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud에 프로비저닝된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Admin Console로 Analytics 사용자 마이그레이션</a>을 참조하십시오. </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/kr/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>새 고객이나 회사가 <a href="https://marketing.adobe.com/resources/help/ko_KR/mcloud/core_services.html">Experience Cloud에 프로비저닝된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>자세한 내용은 <a href="https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/"> Admin Console로 Analytics 사용자 마이그레이션</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텐츠 인식 </p> </td> 
