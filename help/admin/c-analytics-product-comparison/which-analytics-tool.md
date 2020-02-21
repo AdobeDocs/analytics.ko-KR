@@ -2,7 +2,7 @@
 description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 필요를 충족하지 못하면 다음 도구로 이동하여 고려하십시오.
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
@@ -30,7 +30,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * Concurrent Viewer, Video Daypart 및 Viewer Drop-off의 고유한 비디오 시각화에 액세스하려는 경우
 * 예약된 보고에서 게시 목록을 활용하려는 경우
 
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**는 다음 경우에 사용해야 합니다.
+**[Mobile Services UI](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)**는 다음 경우에 사용해야 합니다.
 
 * 모바일 앱 데이터의 사일로 보기가 필요한 경우.
 * 모바일 앱 SDK의 구현에 대해 관리해야 하는 경우.
@@ -73,11 +73,11 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
    * 거래 ID: 온라인 종단점을 오프라인 데이터에 연결하고 가져온 데이터를 온라인으로 캡처한 방문자 스냅숏에 완전히 연관시키는 데이터 업로드(예: 온라인으로 주문하고 오프라인으로 반환)
    * 전체 처리: Adobe 서버에서 수집한 히트처럼 처리되었으며 타임스탬프가 있는 데이터 소스입니다. 즉, 데이터가 방문자 움직임에 직접 삽입됩니다.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(이전의 Genesis)**&#x200B;는 다음 경우에 사용해야 합니다.
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(이전의 Genesis)**는 다음 경우에 사용해야 합니다.
 
 * 지원되는 Adobe Analytics 연결을 구축한 타사 공급자와 일하는 경우. Data Connectors는 일반적으로 요약 수준 데이터를 Adobe Analytics에 영구적으로, 자동으로 그리고 반복적으로 통합합니다.
 
-**[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**는 다음 경우에 사용해야 합니다.
+**[Data Insertion API](https://marketing.adobe.com/developer/documentation/ko_KR/data-insertion/c-data-insertion-api)**는 다음 경우에 사용해야 합니다.
 
 * 데이터를 Adobe Analytics에 업로드해야 할 때 사용해야 하며, Adobe AppMeasurement나 모바일 SDK 코드는 사용할 수 없습니다.
 
