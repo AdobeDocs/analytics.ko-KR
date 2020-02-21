@@ -24,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/bar-stacked.png)
 
-스택 막대 시각화에 대한 새로운 시각화 설정은 차트를 "100% 누적" 시각화로 바꿉니다.
+스택 막대 시각화에 대한 새로운 시각화 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다.
 
 ![](assets/stacked_100_percent.png)
 
