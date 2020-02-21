@@ -37,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 컨텍스트에 대한 월별 **방문 횟수 꺾은 선형**.
    * 이 예외 항목에 기여하고, [기여도 점수](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_contribution_score.html)와 해당 지표, 고유 방문자 수 지표로 정렬되어 크기 조정 관점의 문맥에서 지표를 적용하기 위한 **상위 항목**.
 
-   * [생성된 세그먼트](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_workflow_premium.html)(상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다(기여도 세그먼트 1, 기여도 세그먼트 2 등). "i"(정보) 단추를 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다. 
+   * [생성된 세그먼트](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_workflow_premium.html)(상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다(기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot;(정보) 단추를 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다. 
 
       ![](assets/auto_segment.png)
 
