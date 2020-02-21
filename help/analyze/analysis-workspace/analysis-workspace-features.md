@@ -3,7 +3,7 @@ keywords: Analysis Workspace
 title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 제한이 적용되지 않습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 비교하고, 플로우 및 폴아웃 분석을 하고, 회사 동료와 공유할 보고서를 조정 및 예약하십시오.
 
-**[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**
 
 ## 개요 비디오 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -51,7 +51,7 @@ Analysis Workspace에서는 다음과 같은 작업을 자유롭고 유연하게
 
 ## 패널 및 시각화에 대한 인트라 링크 {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace/visualizations/text.md) 기능을 함께 사용하면 프로젝트 컨텐츠를 작성하는 것처럼 텍스트 상자에서 프로젝트 내의 특정 패널 및 시각화에 연결할 수 있습니다. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 선택 사항인 "패널 링크 가져오기" 및 "시각화 링크 가져오기"가 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
+Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace/visualizations/text.md) 기능을 함께 사용하면 프로젝트 컨텐츠를 작성하는 것처럼 텍스트 상자에서 프로젝트 내의 특정 패널 및 시각화에 연결할 수 있습니다. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 선택 사항인 &quot;패널 링크 가져오기&quot; 및 &quot;시각화 링크 가져오기&quot;가 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면 다음을 수행하십시오.
 
 1. 텍스트 시각화를 프로젝트 내의 맥락이 필요한 시각화 또는 테이블 옆으로 드래그합니다.
 1. 예를 들어 목차로 텍스트 상자를 채운 다음 패널이나 시각화에 연결할 항목(예: 성공 지표)을 강조 표시합니다.
@@ -71,7 +71,7 @@ Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace
 
 ## 기타 프로젝트에 대한 링크 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-예를 들어, **[!UICONTROL 공유]** &gt; **[!UICONTROL 프로젝트 링크 가져오기]**&#x200B;로 이동하여 이 링크를 프로젝트 설명에 포함시키면 사용자가 관심이 있는 기타 프로젝트에 사용자를 연결할 수 있습니다.
+예를 들어, **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 링크 가져오기]**&#x200B;로 이동하여 이 링크를 프로젝트 설명에 포함시키면 사용자가 관심이 있는 기타 프로젝트에 사용자를 연결할 수 있습니다.
 
 ## 선택한 셀의 다이내믹 시각화 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
@@ -117,7 +117,7 @@ Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace
 
 ![](assets/segment-panel.png)
 
-자세한 내용은 [세그먼트](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)를 참조하십시오.
+ [세그먼트](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)를 참조하십시오.
 
 ## 프로젝트 및 구성 요소 태깅 {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -134,9 +134,9 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 
 | 구성 요소 작업 | 설명 |
 |--- |--- |
-| 태그 | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그러면 각 구성 요소 관리자에 Analytics &gt; 구성 요소 &gt; 세그먼트 또는 Analytics &gt; 구성 요소 &gt; 프로젝트와 같이 표시됩니다. |
-| 즐겨찾기 | 구성 요소를 즐겨찾기 목록에 추가합니다. 그러면 각 구성 요소 관리자에 Analytics &gt; 구성 요소 &gt; 세그먼트 또는 Analytics &gt; 구성 요소 &gt; 프로젝트와 같이 표시됩니다  . |
-| 승인 | 정형화되도록 구성 요소를 승인합니다. 그러면 각 구성 요소 관리자에 Analytics &gt; 구성 요소 &gt; 세그먼트 또는 Analytics &gt; 구성 요소 &gt; 프로젝트와 같이 표시됩니다. |
+| 태그 | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
+| 즐겨찾기 | 구성 요소를 즐겨찾기 목록에 추가합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다  . |
+| 승인 | 정형화되도록 구성 요소를 승인합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
 | 공유 | 세그먼트에만 적용됩니다. |
 | 삭제 | 세그먼트에만 적용됩니다. |
 
@@ -187,4 +187,4 @@ Analysis Workspace에 고유한 기본 세그먼트. *`All Visits`* 에는 테�
 
 표준 지표를 사용할 때와 동일한 방식으로 계산을 사용하십시오.
 
-[계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)를 참조하십시오.
+[계산된 지표](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/)를 참조하십시오.
