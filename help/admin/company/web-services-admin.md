@@ -3,7 +3,7 @@ description: 웹 서비스 API를 사용하면 Analytics 인터페이스를 통�
 title: 웹 서비스
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 회사 설정]** &gt; **[!UICONTROL 웹 서비스]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 웹 서비스]**
 
 ## 웹 서비스 관리
 
-사용자 관리 &gt; [그룹](/help/admin/user-management2/c-user-groups/groups.md)에서 웹 서비스 API에 대한 액세스 권한이 필요한 사용자를 포함하도록 웹 서비스 액세스 그룹을 업데이트할 수 있습니다.
+사용자 관리 > [그룹](/help/admin/user-management2/c-user-groups/groups.md)에서 웹 서비스 API에 대한 액세스 권한이 필요한 사용자를 포함하도록 웹 서비스 액세스 그룹을 업데이트할 수 있습니다.
 
 ## WSDL: 웹 서비스 개발자용 웹 서비스 API WSDL을 다운로드합니다.
 
