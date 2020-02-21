@@ -3,7 +3,7 @@ description: 성공 이벤트를 구성하는 방법을 설명하는 단계입�
 title: 성공 이벤트 구성
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 성공 이벤트를 구성하는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
-1. 보고서 세트를 선택합니다.
-1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 성공 이벤트]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. 보고서 세트 선택.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 변환]** > **[!UICONTROL 성공 이벤트]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/success_event_page.png)
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
+   >최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장을 클릭합니다]**.
 
