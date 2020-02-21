@@ -50,7 +50,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/segment-drop.png)
 
-1. 선택 사항: "모든 방문 수"를 기본 컨테이너로서 유지하거나 삭제할 수 있습니다. 
+1. 선택 사항: &quot;모든 방문 수&quot;를 기본 컨테이너로서 유지하거나 삭제할 수 있습니다. 
 
    ![](assets/seg-compare.png)
 
