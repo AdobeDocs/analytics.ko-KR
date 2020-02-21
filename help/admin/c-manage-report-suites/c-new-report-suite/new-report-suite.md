@@ -3,7 +3,7 @@ description: 사전 정의된 템플릿을 선택하거나 기존 보고서 세�
 title: 새 보고서 세트 - 설정
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
