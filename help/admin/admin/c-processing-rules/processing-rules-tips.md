@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 처리 규칙 팁과 트릭
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **검색어를 읽는 규칙 테스트**
 
-prop1이 "news"를 포함하는 경우처럼 검색을 기반으로 한 기준의 경우 prop 1 보고서로 이동하고 "news"를 검색하여 예상하지 않은 일치 항목이 있는지 확인하십시오.
+prop1이 &quot;news&quot;를 포함하는 경우처럼 검색을 기반으로 한 기준의 경우 prop 1 보고서로 이동하고 &quot;news&quot;를 검색하여 예상하지 않은 일치 항목이 있는지 확인하십시오.
 
 **변수를 읽는 규칙 테스트**
 
