@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 처리 규칙 개요
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 아직 권한을 부여하지 않은 경우, 처리 규칙을 사용할 권한을 가져야 하는 비 관리자 사용자만 포함하는 [그룹을 만듭니다](/help/admin/user-management2/c-user-groups/groups.md).
 1. [관리자가 아닌 사용자를 해당 그룹에 추가](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)합니다.
-1. 그런 다음 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 그룹]** &gt; **[!UICONTROL [그룹 이름]]** &gt; **[!UICONTROL 편집]** &gt; **[!UICONTROL 보고서 액세스 권한]** &gt; **[!UICONTROL 보고서 세트 도구]** &gt; **[!UICONTROL 사용자 지정]** &gt; **[!UICONTROL 보고서 세트 관리]**&#x200B;로 이동합니다.
+1. 그런 다음 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL [그룹 이름]]** > **[!UICONTROL 편집]** > **[!UICONTROL 보고서 액세스]** > **[!UICONTROL 보고서 세트 도구]** > **[!UICONTROL 사용자 지정]** > **[!UICONTROL 보고서 세트 관리]**&#x200B;로 이동합니다.
 1. [!UICONTROL 처리 규칙] 옆의 확인란을 선택하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ![](assets/processing-rules.png)
@@ -48,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/evar-context-map.png)
 
-구현 도움말에서 [컨텍스트 데이터 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)를 참조하십시오.
+구현 도움말에서 [컨텍스트 데이터 변수](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/context_data_variables.html)를 참조하십시오.
 
 ## 처리 규칙을 사용하여 데이터 히트 및 이벤트 트리거 변환 {#section_8284E72E999244E091CD7FB1A22342B6}
 
