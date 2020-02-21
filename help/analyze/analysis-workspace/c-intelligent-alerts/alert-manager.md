@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-경고 관리자(**[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/seg_manage.html) 및 [계산된 지표 관리자](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/cm_manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해줍니다.
+경고 관리자(**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/seg_manage.html) 및 [계산된 지표 관리자](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/cm_manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해줍니다.
 
 ![](assets/alert-manager-tasks.png)
 
