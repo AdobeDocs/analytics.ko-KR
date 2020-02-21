@@ -16,11 +16,11 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 
 [기여도 분석 - YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(3:20)
 
->[!IMPORTANT] 예외 항목 탐지는 Reports &amp; Analytics 기능 모음에서 제거되었으며, 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 "일별 세부 기간" 예외 항목 탐지에만 액세스할 수 있습니다. 자세한 내용은 [예외 항목 탐지 및 기여도 분석 권한](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)을 참조하십시오.
+>[!IMPORTANT] 예외 항목 탐지는 Reports &amp; Analytics 기능 모음에서 제거되었으며, 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 &quot;일별 세부 기간&quot; 예외 항목 탐지에만 액세스할 수 있습니다. 자세한 내용은 [예외 항목 탐지 및 기여도 분석 권한](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)을 참조하십시오.
 
 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 
-예외 항목 탐지 기능을 사용하면 "노이즈"에서 "진짜 신호"를 구분한 다음, 이러한 신호 또는 이상 현상에 기여한 잠재적 요인을 식별하는 데 도움이 됩니다. 다시 말해, 통계적 변동이 문제가 되는지 여부를 식별하게 해줍니다. 그러면 진짜 예외 현상의 근본 원인을 식별할 수 있습니다. 또한 신뢰할 수 있는 지표(KPI) 예측이 가능합니다.
+예외 항목 탐지 기능을 사용하면 &quot;노이즈&quot;에서 &quot;진짜 신호&quot;를 구분한 다음, 이러한 신호 또는 이상 현상에 기여한 잠재적 요인을 식별하는 데 도움이 됩니다. 다시 말해, 통계적 변동이 문제가 되는지 여부를 식별하게 해줍니다. 그러면 진짜 예외 현상의 근본 원인을 식별할 수 있습니다. 또한 신뢰할 수 있는 지표(KPI) 예측이 가능합니다.
 
 조사할 수 있는 이상 현상의 예에는 다음 내용이 포함됩니다.
 
@@ -36,4 +36,4 @@ Analysis Workspace에서 예외 항목 탐지 및 [기여도 분석](https://mar
 Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 다음과 같습니다.
 
 * 기존의 일별 세부 기간 이외에 시간별, 주별 및 월별 세부 기간 지원.
-* 계절적 영향(예: "블랙 프라이데이") 및 휴일 인식.
+* 계절적 영향(예: &quot;블랙 프라이데이&quot;) 및 휴일 인식.
