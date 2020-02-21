@@ -3,7 +3,7 @@ description: 서버 측 전달은 Analytics의 데이터를 다른 Experience Cl
 solution: Audience Manager
 title: 서버 측 전달 개요
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
@@ -26,25 +26,25 @@ source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 >[!IMPORTANT]
 >EU 쿠키 준수 규정에 따라, 데이터 컨트롤러(Analytics 고객)에게는 사전 동의한 데이터를 Adobe Analytics로 제한하여 서버 측에서 AAM(Adobe Audience Manager)으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 AAM에 전송되지 않습니다. 자세한 내용은 [GDPR_ePrivacy 준수 및 서버 측 전달](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)을 참조하십시오.
 
-서버 측 전달을 구현하는 측면에서 조직의 위치를 이해하려면 다음 유효성 검사 절차를 수행하십시오.
+서버측 전달을 구현하는 측면에서 조직의 위치를 이해하려면 다음 유효성 검사 절차를 수행하십시오.
 
 ## ![step1_icon.png 이미지](assets/step1_icon.png) ECID 서비스 구현 확인
 
-Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
+[Analytics 추적 요청](https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-test-verify.html)을 검사하여 Experience Cloud ID(ECID) 서비스가 구현되었는지 확인합니다.
 
-요청 탭에서 ECID 값이 설정되어 있는지 확인합니다. 이는 ID 서비스가 올바르게 구현되었음을 나타내며, 서버 측 전달의 필수 조건입니다.
+요청 탭에서 ECID 값이 설정되어 있는지 확인하십시오. 이는 ID 서비스가 올바르게 구현되었음을 나타내며, 서버측 전달의 필수 조건입니다.
 
-* ECID 값이 표시되는 경우 2단계를 계속 진행합니다.
-* If you do not see an ECID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
+* ECID 값이 표시되면 2단계로 진행합니다.
+* ECID 값이 표시되지 않으면 2단계로 진행하기 전에 [ID 서비스를 구현](https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-implementation-guides.html)합니다.
 
 ## ![step2_icon.png 이미지](assets/step2_icon.png) 서버 측 전달 구현 버전 확인
 
 [Analytics 추적 요청을 검사](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)하여 이미 구현된 서버 측 전달 버전이 있는지 확인합니다.
 
-응답에 Audience Manager 데이터가 포함되어 있는지 "응답" 탭에서 확인합니다. 만약
+응답에 Audience Manager 데이터가 포함되어 있는지 &quot;응답&quot; 탭에서 확인합니다. 만약
 
-* **"postbacks" 또는 "dcs_region"과 같은 항목을 포함하는 Audience Manager의 JSON 응답**&#x200B;이 표시된다면 이미 어떤 형태의 서버 측 전달이 활성화되어 있는 것입니다. 3단계로 진행합니다.
-* **"status":"SUCCESS"**&#x200B;가 표시된다면, 고객 관리 모듈이 구현되어 있지만 서버 측 전달이 제대로 구성되지 않은 것입니다. 3단계로 진행합니다.
+* **&quot;postbacks&quot; 또는 &quot;dcs_region&quot;과 같은 항목을 포함하는 Audience Manager의 JSON 응답**&#x200B;이 표시된다면 이미 어떤 형태의 서버 측 전달이 활성화되어 있는 것입니다. 3단계로 진행합니다.
+* **&quot;status&quot;:&quot;SUCCESS&quot;**&#x200B;가 표시된다면, 고객 관리 모듈이 구현되어 있지만 서버 측 전달이 제대로 구성되지 않은 것입니다. 3단계로 진행합니다.
 * **2 x 2 이미지**&#x200B;가 표시된다면, 서버 측 전달 또는 고객 관리 모듈이 구현되어 있지 않습니다. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * **DIL이 있는 AAM 고객**: 다음 두 항목을 긴밀하게 편성하십시오.
@@ -60,11 +60,11 @@ Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting 
 
 Analytics에서 어떤 데이터가 공유되는지를 더 세부적으로 제어할 수 있으므로 이전 추적 서버 접근 방식보다 보고서 세트 수준의 서버 측 전달이 권장됩니다. 이것은 이 Audience Analytics 통합을 위한 선행 조건이기도 합니다.
 
-**Analytics** &gt; **관리자** &gt; **보고서 세트** &gt; (**보고서 세트** 선택) &gt; **설정 편집** &gt; **일반** &gt; **서버 측 전달**&#x200B;로 이동합니다. 확인란이
+**Analytics** > **관리자** > **보고서 세트** > (**보고서 세트** 선택) > **설정 편집** > **일반** > **서버 측 전달**&#x200B;로 이동합니다. 확인란이
 
-* **비활성** (선택할 수 없거나 메뉴가 없습니다.):선택한 보고서 세트가 IMS 조직에 매핑되지 않았습니다.적용 가능한 보고서 세트가 보고서 세트 매핑 UI를 사용하여 적절한 Experience Cloud [조직에 매핑되었는지 확인합니다](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
+* **비활성**(선택을 할 수 없거나 메뉴가 존재하지 않음): 선택한 보고서 세트가 IMS 조직에 매핑되어 있지 않습니다. 해당 보고서 세트가 [보고서 세트 매핑 UI](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)를 사용하여 적절한 Experience Cloud 조직에 매핑되어 있는지 확인하십시오.
 * **비활성화됨** 상태라면, 새 서버 측 전달이 설정되어 있지 않았습니다. 페이지의 컨텐츠를 읽은 다음, 기능을 활성화하십시오.
 * **활성화됨** 상태라면, 사용자는 새 서버 측 전달을 위해 프로비저닝되었습니다. 이 Audience Analytics 통합을 설정할 수도 있습니다.
 
-> [!NOTE] 3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) 또는 [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)와 같은 다른 Experience Cloud 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
+> [!NOTE] 3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) 또는 [Audiences](https://marketing.adobe.com/resources/help/ko_KR/mcloud/audience_library.html)와 같은 다른 Experience Cloud 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
 
