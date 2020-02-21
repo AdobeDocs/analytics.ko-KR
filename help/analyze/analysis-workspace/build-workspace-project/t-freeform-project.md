@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace 프로젝트 만들기
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 프로젝트를 생성하고 조정하는 사용자 권한을 지정합니다.
 
-   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. (**[!UICONTROL 관리]** &gt; **[!UICONTROL 사용자 관리]** &gt; [그룹](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [그룹](https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html)).
 
-1. [!DNL Experience Cloud]에서 **[!UICONTROL 분석]** &gt; **[!UICONTROL 작업 공간]**&#x200B;을 클릭합니다.
+1. [!DNL Experience Cloud]에서 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;를 클릭합니다.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -50,7 +50,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >프로젝트에 포함된 일부 구성 요소(지표/차원)만 보고서 세트에 포함된 경우 프로젝트를 로드할 때(또는 보고서 세트로 전환할 때) "호환되지 않는 보고서 세트" 메시지가 표시되는 경우가 있습니다. 호환되지 않는 구성 요소 목록을 볼 수 있으므로 메시지가 표시되는 이유를 알 수 있습니다.
+   >프로젝트에 포함된 일부 구성 요소(지표/차원)만 보고서 세트에 포함된 경우 프로젝트를 로드할 때(또는 보고서 세트로 전환할 때) &quot;호환되지 않는 보고서 세트&quot; 메시지가 표시되는 경우가 있습니다. 호환되지 않는 구성 요소 목록을 볼 수 있으므로 메시지가 표시되는 이유를 알 수 있습니다.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -79,9 +79,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/save_project.png)
 
-1. 이제 시각화 또는 패널을 마우스 오른쪽 단추로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을("삽입") 수 있습니다.
+1. 이제 시각화 또는 패널을 마우스 오른쪽 단추로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다.
 
-   이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 "문서 블록"(사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
+   이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot;(사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
 
    >[!NOTE]
    >
