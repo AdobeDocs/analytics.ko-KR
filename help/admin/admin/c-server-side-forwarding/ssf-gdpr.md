@@ -26,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 구현 방법 | 단계 |
 |--- |--- |
-| Adobe Experience Platform Launch | Adobe Analytics 확장 프로그램이 설치되어 있다고 가정할 경우 규칙에 다음 컨텍스트 데이터 변수 정의를 규칙의 동작 구성 내에 사용자 지정 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: 컨텍스트 데이터 변수를 정의하고, 고객이 타깃팅된 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
+| Adobe Experience Platform Launch | Adobe Analytics 확장 프로그램이 설치되어 있다고 가정할 경우 규칙에 다음 컨텍스트 데이터 변수 정의를 규칙의 동작 구성 내에 사용자 지정 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> 참고: 컨텍스트 데이터 변수를 정의하고, 고객이 타깃팅된 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
 | DTM | 사용자 정의 페이지 코드 편집기에 컨텍스트 데이터 변수 정의를 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 | AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다.  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 
@@ -36,13 +36,13 @@ Adobe Analytics를 사용하여 동의한 트래픽 수와 그 결과 서버 측
 
 이러한 유형의 보고를 구성하려면 처리 규칙을 통해 사용자 정의 트래픽 변수(prop)에 새 컨텍스트 변수를 매핑합니다. 이렇게 하려면 다음을 수행하십시오.
 
-1. 위에 표시된 대로 "cm.ssf" 변수를 구현합니다.
+1. 위에 표시된 대로 &quot;cm.ssf&quot; 변수를 구현합니다.
 1. [prop를 활성화합니다.](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. 처리 규칙을 사용하여 컨텍스트 변수를 prop에 매핑합니다.
 
-   1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;로 이동한 후 보고서 세트를 선택합니다.
-   1. **[!UICONTROL 보고서 세트 편집]** &gt; **[!UICONTROL 일반]** &gt; **[!UICONTROL 처리 규칙]**&#x200B;을 클릭합니다.
+   1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동한 후 보고서 세트를 선택합니다.
+   1. **[!UICONTROL 보고서 세트 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 처리 규칙]**&#x200B;을 클릭합니다 .
    1. **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
-   1. **[!UICONTROL 항상 실행]**&#x200B;에서 활성화한 prop 값을 컨텍스트 변수 "cm.ssf(컨텍스트 데이터)"로 덮어씁니다.
-   1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+   1. **[!UICONTROL 항상 실행]**&#x200B;에서 활성화한 prop 값을 컨텍스트 변수 &quot;cm.ssf(컨텍스트 데이터)&quot;로 덮어씁니다.
+   1. **[!UICONTROL 저장을 클릭합니다]**.
 
