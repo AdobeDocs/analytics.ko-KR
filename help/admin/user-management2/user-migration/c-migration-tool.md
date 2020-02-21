@@ -2,7 +2,7 @@
 description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이그레이션에 대해 알아야 할 사항.
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이그레이션에 대해 알아야 할 사항.
 
-Analytics 마이그레이션과 관련이 없는 Admin Console 주제에 대한 일반적인 도움말은 [Admin Console 사용 안내서](https://helpx.adobe.com/enterprise/administering/user-guide.html)를 참조하십시오.
+Analytics 마이그레이션과 관련이 없는 Admin Console 주제에 대한 일반적인 도움말은 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/administering/user-guide.html)를 참조하십시오.
 
-마이그레이션 후 [Admin Console]에서 [Experience Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)을 관리할 수 있습니다.
+마이그레이션 후 [Admin Console]에서 [Experience Cloud 사용자 및 제품](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)을 관리할 수 있습니다.
 
 ## Analytics 사용자 ID 마이그레이션이란? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -45,7 +45,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">새 사용자 초대하기 </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">제품 프로필 만들기 </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">특정 제품 및 서비스에 대한 사용자 권한 부여 </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Adobe Experience Cloud에서 사용할 수 있는 <a href="https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html">교차 솔루션 코어 서비스</a>에 대한 액세스 권한을 얻습니다. </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Adobe Experience Cloud에서 사용할 수 있는 <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/experience-cloud.html">교차 솔루션 코어 서비스</a>에 대한 액세스 권한을 얻습니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -65,15 +65,15 @@ Admin Console 사용의 이점은 다음과 같습니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>저는 Analytics 관리자이며 사전 마이그레이션 이메일을 받았습니다. 제일 먼저 할 일은 무엇입니까? </p> </td> 
-   <td colname="col2"> <p>Adobe ID가 있고 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>에 액세스할 수 있는지 확인하십시오. </p> <p>그렇지 않은 경우 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. (사용자를 적절한 조직에 초대할 수 있는 시스템 또는 제품 관리자에게 먼저 문의해야 합니다.) </p> </td> 
+   <td colname="col2"> <p>Adobe ID가 있고 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>에 액세스할 수 있는지 확인하십시오. </p> <p>그렇지 않은 경우 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. (사용자를 적절한 조직에 초대할 수 있는 시스템 또는 제품 관리자에게 먼저 문의해야 합니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analytics에서 AEM 통합 </p> </td> 
-   <td colname="col2"> <p> Analytics와 통합된 AEM 사용자는 암호 대신 Analytics 공유 암호를 사용하도록 구성을 변경해야 합니다. </p> <p> 마이그레이션을 활성화하기 전에 이를 수행해야 합니다. 마이그레이션이 비활성화되면 처음에 구성한 암호가 더 이상 유효하지 않습니다. </p> <p><b>Analytics에서 공유 암호를 확보하는 방법</b> </p> <p> 공유 암호는 Analytics(<span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">사용자 관리</span>)에서 확보할 수 있으며 서로 다릅니다. </p> <p><b>공유 암호로 AEM 구성을 업데이트하는 방법</b> </p> <p><a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html">Adobe Analytics 연결 및 프레임워크 생성</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> Analytics와 통합된 AEM 사용자는 암호 대신 Analytics 공유 암호를 사용하도록 구성을 변경해야 합니다. </p> <p> 마이그레이션을 활성화하기 전에 이를 수행해야 합니다. 마이그레이션이 비활성화되면 처음에 구성한 암호가 더 이상 유효하지 않습니다. </p> <p><b>Analytics에서 공유 암호를 확보하는 방법</b> </p> <p> 공유 암호는 Analytics(<span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">사용자 관리</span>)에서 확보할 수 있으며 서로 다릅니다. </p> <p><b>공유 암호로 AEM 구성을 업데이트하는 방법</b> </p> <p><a href="https://helpx.adobe.com/kr/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html">Adobe Analytics 연결 및 프레임워크 생성</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder 업데이트 </p> </td> 
-   <td colname="col2"> <p> <p>중요: <a href="https://marketing.adobe.com/resources/help/en_US/arb/t_install_arb.html">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
+   <td colname="col2"> <p> <p>중요: <a href="https://marketing.adobe.com/resources/help/ko_KR/arb/t_install_arb.html">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션은 언제 시작됩니까? </p> </td> 
@@ -105,7 +105,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션이 Analytics 구현이나 데이터 수집 방법에 영향을 줍니까? </p> </td> 
-   <td colname="col2"> <p>아니오. </p> <p>마이그레이션 도구는 Analytics 사용자 관리의 사용자 ID 및 권한을 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>로 이전하는 것을 돕기 위한 것입니다. </p> </td> 
+   <td colname="col2"> <p>아니요. </p> <p>마이그레이션 도구는 Analytics 사용자 관리의 사용자 ID 및 권한을 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>로 이전하는 것을 돕기 위한 것입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션 프로세스는 얼마나 오래 걸립니까? </p> </td> 
@@ -118,15 +118,15 @@ Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">귀하가 Admin Console에서 Analytics 제품 관리자인지 확인하십시오. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">마이그레이션이 시작되면 로그인 환경이 변경될 것임을 사용자에게 알리십시오. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">현재 사용자 및 사용 권한을 감사하고 정리 활동을 수행하십시오. </li> 
-    </ul> <p>마이그레이션을 더 신속히 처리하려면 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>의 고객 성공 관리자에게 문의하여 더 빠른 시작일 요청을 제출하십시오. </p> </td> 
+    </ul> <p>마이그레이션을 더 신속히 처리하려면 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>의 고객 성공 관리자에게 문의하여 더 빠른 시작일 요청을 제출하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 저는 Admin Console에 대한 액세스 권한이 없는 Analytics 관리자입니다. Admin Console에 대한 액세스 권한을 받는 데 누가 도와줄 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>조직의 Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>조직의 Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션 시작 날짜를 연기할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> 
+   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> 
     <draft-comment> 
      <p>시작 날짜의 현재 Analytics 사용자 및 권한 관리에 대한 변경 사항 설명은 아래를 참조하십시오. </p> 
     </draft-comment> </td> 
@@ -284,7 +284,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
    <td colname="col2"> <p> 사용자의 마지막 로그인 날짜 및 시간에 대한 세부 정보는 Admin Console이 아닌 Analytics [사용자 및 자산] 링크에서 사용할 수 있습니다. Analytics의 마지막 로그인 날짜는 사용자가 Experience Cloud 내에서 실제로 Analytics에 액세스한 시점에 해당하며 Experience Cloud에 로그인한 날짜/시간은 반영하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>사용자 관리 API <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe 지원 ID 유형</a> </p> </td> 
+   <td colname="col1"> <p>사용자 관리 API <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">Adobe 지원 ID 유형</a> </p> </td> 
    <td colname="col2"> <p> Admin Console로 마이그레이션하는 관리자는 Admin Console의 사용자 계정에 프로그래밍 방식으로 액세스하기 위해 Adobe I/O에서 제공되는 <a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html">사용자 관리 API</a>를 구성해야 합니다. </p> <p>마이그레이션할 수 있도록 설정되면 Analytics 권한 API 사용이 중지됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>단일 사인온 </p> </td> 
-   <td colname="col2"> <p> 마이그레이션을 완료하면 Analytics 단일 사인온(SSO) 구성이 제거됩니다. 마이그레이션 중에는 활성 상태로 유지됩니다. Analytics 단일 사인온을 사용하는 고객은 <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a>로 업그레이드해야 합니다. </p> <p>Analytics에서는 먼저 Adobe ID로서 사용자를 마이그레이션하여 Experience Cloud 계정을 쉽게 만든 다음 해당 계정을 Federated 단일 사인온 사용자로 변환할 것을 권장합니다. </p> </td> 
+   <td colname="col2"> <p> 마이그레이션을 완료하면 Analytics 단일 사인온(SSO) 구성이 제거됩니다. 마이그레이션 중에는 활성 상태로 유지됩니다. Analytics 단일 사인온을 사용하는 고객은 <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">Adobe Federated ID</a>로 업그레이드해야 합니다. </p> <p>Analytics에서는 먼저 Adobe ID로서 사용자를 마이그레이션하여 Experience Cloud 계정을 쉽게 만든 다음 해당 계정을 Federated 단일 사인온 사용자로 변환할 것을 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>권한 그룹 다운로드 </p> </td> 
@@ -314,7 +314,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 이 마이그레이션 계획을 현재 사용자에게 사전에 알리고 싶을 수 있습니다. 현재 Analytics 사용자를 모두 보내도록 사용자 지정할 수 있는 템플릿은 다음과 같습니다.
 
-모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 사용자 관리]** &gt; [이메일 사용자](https://marketing.adobe.com/resources/help/en_US/reference/t_email_users.html)로 이동합니다.
+모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://marketing.adobe.com/resources/help/ko_KR/reference/t_email_users.html)로 이동하십시오.
 
 **제목:** 예고 - Adobe Analytics 및 Adobe Experience Cloud에 로그인하는 새로운 방법
 
@@ -322,11 +322,11 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 당사는 모든 Adobe Analytics 계정을[!DNL https://my.omniture.com/login/] 에서 Adobe Experience Cloud([experiencecloud.adobe.com](http://experiencecloud.adobe.com/))로 마이그레이션하는 작업을 시작할 예정입니다. 이 마이그레이션으로 Adobe Analytics 계정은 Adobe Experience Cloud를 통해 Analytics에 액세스할 수 있도록 업그레이드됩니다. Analytics에 액세스하는 방법은 변경되지만 보고서 세트 및 도구에 대한 기존 권한은 모두 유지됩니다.
 
-**다음 단계:** 사용자 마이그레이션 시작 시기: 날짜를 **삽입합니다**. 주소가 Analytics 계정 아래에 나열된 이메일 ID로 지정되어 있고 새 로그인을 사용하는 환영 메시지를 기다려 주십시오. 이메일 주소에 연결된 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)를 설정하지 않은 경우 계정을 설정하라는 메시지가 표시됩니다.
+**다음 단계:** 사용자 마이그레이션 시작 시기: **날짜를 삽입합니다**. 주소가 Analytics 계정 아래에 나열된 이메일 ID로 지정되어 있고 새 로그인을 사용하는 환영 메시지를 기다려 주십시오. 이메일 주소에 연결된 [Adobe ID](https://helpx.adobe.com/kr/x-productkb/global/adobe-id-account-change.html)를 설정하지 않은 경우 계정을 설정하라는 메시지가 표시됩니다.
 
 **유용한 자료:**
 
-[로그인 및 프로필 설정 관리](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html).
+[로그인 및 프로필 설정 관리](https://marketing.adobe.com/resources/help/ko_KR/mcloud/getting-started-experience-cloud.html).
 
 Experience Cloud의 [클라우드, 핵심 서비스 및 솔루션에 대하여](https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html)
 
