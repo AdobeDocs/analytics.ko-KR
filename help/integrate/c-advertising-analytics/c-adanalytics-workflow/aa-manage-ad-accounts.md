@@ -2,7 +2,7 @@
 description: 'null'
 title: 광고 계정 관리
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 광고 계정 관리
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+**[!UICONTROL 관리]** > **[!UICONTROL 광고 계정]**&#x200B;으로 이동하여 관리 UI에 액세스할 수 있습니다.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>작업</b> </p> </td> 
-   <td colname="col2"> <p><b>참고:하나 이상의 광고 계정을 선택한 경우에만 작업이 표시됩니다. </b> </p> </td> 
+   <td colname="col2"> <p><b>참고: 광고 계정을 적어도 한 개 이상 선택한 경우에만 작업이 표시됩니다. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 추가 </p> </td> 
@@ -60,7 +60,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 </p> </td> 
-   <td colname="col2"> <p>지원되는 두 가지 계정 유형 중 하나를 나열합니다.Google Adwords 또는 Bing 광고를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지원되는 두 가지 계정 유형(Google Adwords 또는 Bing 광고) 중 하나를 나열합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>상태 </p> </td> 
