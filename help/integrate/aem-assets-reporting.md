@@ -3,7 +3,7 @@ description: Analytics에서 AEM 자산 보고를 활성화하는 관리 단계�
 title: AEM Assets 보고
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analytics에서 AEM 자산 보고를 활성화하는 관리 단계입니다.
 
-**[!UICONTROL Analytics]** 관리 &gt; **[!UICONTROL 보고서 세트]** &gt; ******[!UICONTROL <select report suite>]** &gt; 설정 편집 &gt; **** **** **[!UICONTROL AEM &gt; AEM 자산 보고]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM 자산 보고]**
 
 Analytics에서 AEM 자산 인사이트에서 제공된 자산에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다. 이러한 통합을 통해 다음을 수행할 수 있습니다.
 
