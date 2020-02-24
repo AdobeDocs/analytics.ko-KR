@@ -2,7 +2,7 @@
 description: 'null'
 title: FAQ
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,12 +21,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
+   <td colname="col1"> <p>Q: 이 기능에 액세스하려면 <b>Adobe Advertising Cloud 또는 AAC(Adobe Advertising Cloud) 고객</b>이어야 합니까? </p> </td> 
    <td colname="col2"> <p>A: 아니요, 이 기능은 Advertising Cloud 클라우드 및 AMO를 사용하지 않는 고객도 이용할 수 있습니다. </p> <p>AMO 고객은 기존의 Analytics-AMO 통합을 활용할 수 있으며, Ad Analytics를 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Advertising Analytics 사용 권한을 부여하는 <b>Adobe Analytics SKU</b>는 무엇입니까? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics는 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> 및 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU에서 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>A: Advertising Analytics는 Adobe Analytics <a href="https://www.adobe.com/kr/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/kr/data-analytics-cloud/analytics/prime.html"  >Prime</a> 및 <a href="https://www.adobe.com/kr/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU에서 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Advertising Analytics를 사용하려면 <b>추가 비용을 지불</b>해야 합니까? </p> </td> 
@@ -60,7 +60,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Q: Advertising Analytics에 포함된 <b>검색 엔진 계정</b> 은 무엇입니까? </p> </td> 
-   <td colname="col2"> <p>A: 검색 엔진 계정에는 Google AdWords 및 Microsoft Bing이 포함됩니다. </p> <p>참고: Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 흡수되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>A: 검색 엔진 계정에는 Google AdWords 및 Microsoft Bing이 포함됩니다. </p> <p>참고: Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 합병되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: Advertising Analytics에 <b>액세스</b>하려면 어디로 이동합니까? </p> </td> 
@@ -89,15 +89,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>Advertising Analytics 계정을 특정 보고서 세트에 매핑</b>하려고 하는 데, 보고서 세트 모달에서 사용할 수 없습니다. 왜일까요? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 보고서 세트를 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >Advertising Analytics 보고용으로 프로비저닝</a>해야 합니다 . </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>A: Advertising Analytics 계정에 보고서 세트를 지정하려면 원하는 보고서 세트를 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >Advertising Analytics 보고용으로 프로비저닝</a>해야 합니다 . </p> <p>이 작업은 별도 관리 페이지에서 수행합니다. 이 페이지는 <span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">[Experience Cloud 지원 보고서 세트 선택]</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">Advertising Analytics 구성</span></span>에서 액세스할 수 있습니다  . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>가상 보고서 세트</b>(VRS)를 Advertising Analytics 계정에 지정할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>A: 가상 보고서 세트는 데이터를 수집하지 않으므로 Advertising Analytics 계정을 VRS에 직접 매핑할 수 없습니다. </p> <p>하지만 데이터를 표시할 VRS의 상위 보고서 세트에 Advertising Analytics 계정을 매핑할 수 있습니다. </p> <p>검색 엔진 지표(클릭/비용/노출)는 AMO ID(또는 해당 분류)를 기준으로 세그먼트 논리에 "또는" 조건을 포함하지 않는 한 VRS에 표시되지 않을 수 있습니다. 예:"AMO ID가 있는 모든 히트"를 추가하면 세그먼트에 검색 엔진 지표가 포함됩니다. </p> </td> 
+   <td colname="col2"> <p>A: 가상 보고서 세트는 데이터를 수집하지 않으므로 Advertising Analytics 계정을 VRS에 직접 매핑할 수 없습니다. </p> <p>하지만 데이터를 표시할 VRS의 상위 보고서 세트에 Advertising Analytics 계정을 매핑할 수 있습니다. </p> <p>AMO ID(또는 해당 분류)를 기반으로 세그먼트 논리에 “or” 조건을 포함하지 않으면 검색 엔진 지표(클릭/비용/노출 수)가 VRS에 표시되지 않을 수 있습니다. 예: “AMO ID가 있는 모든 조회 수”를 추가하면 세그먼트에 검색 엔진 지표가 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>마케팅 채널</b> 보고서에 Advertising Analytics 지표를 보고할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>A:아니요. 마케팅 채널 보고서에는 포함되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>A: 아니요, 마케팅 채널 보고서에는 이러한 지표가 포함되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: 검색 데이터를 <b>언제</b> Analytics로 가져옵니까? </p> </td> 
@@ -113,7 +113,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: google.com 또는 <b>국가 버전</b>(google.co.uk, google.it, google.fr 또는 google.de)에서만 캡처합니까? </p> </td> 
-   <td colname="col2"> <p>A:광고 플랫폼 분류는 다음 값을 캡처합니다."Google Adwords" 및 "Bing Ads". </p> <p>일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그런 다음 필터링 또는 세그먼트(예: 모든 캠페인이 countrial code_로 시작하는 경우 캠페인(AMO ID)이 "UK_"로 시작하는 세그먼트를 만들면 영국에 대한 데이터만 제공합니다.) </p> </td> 
+   <td colname="col2"> <p>A: 광고 플랫폼 분류는 다음 값을 캡처합니다. "Google Adwords" 및 "Bing Ads". </p> <p>일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그 이후에 필터링하거나 분류할 수 있습니다(예: 모든 캠페인이 countrycode_로 시작하는 경우 캠페인(AMO ID)이 'UK_'로 시작하는 세그먼트를 생성하여 영국에 대한 데이터만 제공). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: 지표 'AMO 비용'은 검색 엔진에서 보고한 대로 각 키워드/광고에 대해 지불되는 비용입니다. 이것은 순비용 또는 총비용입니까? </p> </td> 
