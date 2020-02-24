@@ -4,7 +4,7 @@ title: Activity Map 개요
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
+source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
 
 ---
 
@@ -12,18 +12,18 @@ source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 # Activity Map 개요
 
 >[!IMPORTANT]
->2020년 1월 16일부터 Adobe Analytics는 새 도메인(https://experience.adobe.com/analytics)으로 이동하기 시작합니다. 이 변경 사항으로 인해 특정 경우에 일부 고객의 작업이 중지될 수 있습니다. 아시다시피 Activity Map은 iframe의 고객 페이지에 삽입됩니다(Activity Map 도구 모음에는 하나의 iframe과 Activity Map 하단 패널에는 하나의 iframe). &quot;.adobe.com&quot;을 포함하지 않는 &quot;frame-src&quot;에 대해 웹 페이지에서 Content Security Policy 지시문을 설정했을 수 있습니다. 이 경우 Activity Map은 이러한 웹 페이지에서 작업을 중지합니다.
+>2020년 1월 16일에 Adobe Analytics는 새 도메인(https://experience.adobe.com/analytics)으로 이동합니다. 이 변경으로 인해 일부 고객은 특정한 케이스에 Activity Map이 중단될 수 있습니다. 아시다시피 Activity Map은 iframe(Activity Map 도구 모음과 Activity Map 하단 패널에 각 하나씩의 iframe)의 고객 페이지에 삽입됩니다. &quot;.adobe.com&quot;을 포함하지 않는 &quot;frame-src&quot;에 대해 웹 페이지에서 컨텐츠 보안 정책 지시문을 설정했을 수 있습니다. 이럴 때 Activity Map은 이러한 웹 페이지에서의 작업을 중지합니다.
 
 Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.
 
 Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고 대상의 필요 사항과 행동에 따라 대응할 수 있습니다. 
 
-**관리자를 위한 시작하기**
+**관리자용 시작하기**
 
 * [Activity Map 활성화](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [샘플 구현 코드](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**사용자를 위한 시작하기**
+**사용자용 시작하기**
 
 * [Activity Map 브라우저 플러그인 설치](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map 시작](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -48,3 +48,4 @@ Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식�
 * [Analytics에서의 Activity Map 보고](activitymap-reporting-analytics.md)
 * [브라우저 확장 문제 해결](troubleshooting-browser-extensions.md)
 * [기술 자료 리소스](activitymap-info-resources.md)
+
