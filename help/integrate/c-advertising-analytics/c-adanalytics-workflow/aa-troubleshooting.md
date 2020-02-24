@@ -2,7 +2,7 @@
 description: 'null'
 title: Advertising Analytics 문제 해결
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Advertising Analytics 문제 해결
 
 * [보고서 세트가 매핑 섹션에 표시되지 않음](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Google Adwords 계정에 인증할 때 오류가 발생했습니다...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Google AdWords 계정에 인증하는 동안 오류가 발생함...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 보고서 세트가 매핑 섹션에 표시되지 않음 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-[새 광고 계정을 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)하려고 하는 데 보고서 세트가 **[!UICONTROL 보고서 세트 선택]드롭다운 목록에 표시되지 않습니다.** 다음과 같은 두 가지 가능한 이유가 있습니다.
+[새 광고 계정을 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)하려고 하는데 보고서 세트가 **[!UICONTROL 보고서 세트 선택]** 드롭다운 목록에 표시되지 않습니다. 다음과 같은 두 가지 가능한 이유가 있습니다.
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -26,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1.보고서 세트가 로그인 사용자의 Experience Cloud 조직 ID에 매핑되지 않습니다. </p> </td> 
+   <td colname="col1"> <p>1. 보고서 세트가 로그인 사용자의 Experience Cloud 조직 ID에 매핑되지 않았습니다. </p> </td> 
    <td colname="col2"> <p>자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >조직 보고서 세트 매핑</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
