@@ -2,7 +2,7 @@
 description: Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 여러 가지 이유로 인해 100% 정렬되지 않은 방문자 지표가 있습니다.
 title: 방문자 수 차이
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -59,15 +59,15 @@ AAM 실시간 세그먼트 채우기 및 Audience Analytics 보고 내에 사용
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 지정 필터 </p> </td> 
-   <td colname="col2"> <p>아니오 </p> </td> 
+   <td colname="col2"> <p>아니요 </p> </td> 
    <td colname="col3"> <p>예, 예: IP 필터, 보트 필터 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>150개 세그먼트 제한 </p> </td> 
-   <td colname="col2"> <p>아니오 </p> </td> 
-   <td colname="col3"> <p>예 - Analytics 개수는 150개 세그먼트 통합 제한에 따라 최대 5%까지 영향을 받을 수 있습니다. 잘림이 발생한 경우 "대상자 제한에 도달함"이 대상 이름 차원에 나타납니다. </p> </td> 
+   <td colname="col2"> <p>아니요 </p> </td> 
+   <td colname="col3"> <p>예 - Analytics 개수는 150개 세그먼트 통합 제한에 따라 최대 5%까지 영향을 받을 수 있습니다. 자르기가 발생하면 대상 이름 차원에 "대상 제한에 도달했습니다."가 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
+[Analytics 및 Audience Manager의 세그먼트 이해](/help/integrate/c-audience-analytics/aam-analytics-segments.md)에서 Analytics와 Audience Manager 데이터 및 세그멘테이션의 뉘앙스에 대한 설명을 참조하십시오.
