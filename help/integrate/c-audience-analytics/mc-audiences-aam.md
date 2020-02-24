@@ -3,7 +3,7 @@ description: AAM(Adobe Audience Manager)은 퍼스트 파티, 세컨드 파티/�
 solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -29,13 +29,13 @@ Audience Analytics의 통합은 다음과 같은 주요 이점을 제공합니�
 
 ![](assets/mc-aud-dataflow.png)
 
-1. 방문자가 귀하의 디지털 자산에 방문할 때마다 히트 수가 수집되어 Analytics으로 전송됩니다.
+1. 방문자가 귀하의 디지털 속성에 방문할 때마다 히트 수가 수집되어 Analytics으로 전송됩니다.
 1. 포함 [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md), Analytics에서 수신한 각 히트 수는 자동으로 실시간으로 AAM으로 전송됩니다.
-1. Audience Analytics 통합을 통해 각 히트에 대해 방문자의 대상 멤버십이 AAM에서 검색되고 실시간으로 처리를 위해 세그먼트 ID 목록이 Analytics로 반환됩니다.
+1. Audience Analytics 통합을 통해 각 히트에 대해 AAM에서 방문자의 대상 멤버십을 조회하고 세그먼트 ID 목록을 실시간으로 처리하기 위해 Analytics에 반환됩니다.
 
 AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문자에 대해 사용할 수 있는 데이터가 누락되지 않고 해당 히트에 대해 최신 상태인지 확인할 수 있습니다. 이 기능은 플러그인이 (현재 히트가 아닌) 다음 히트에서만 사용할 수 있는 세그먼트를 만들 수 있으므로 AppMeasurement 플러그인보다 뛰어납니다.
 
-또한 AAM 세그먼트 ID를 친숙한 이름으로 자동으로 분류하므로 Analytics 보고서에서 영숫자 ID를 확인할 필요가 없습니다.
+또한 AAM 세그먼트 ID를 사용자에게 친숙한 이름으로 자동 분류하므로 Analytics 보고서에서 영숫자 ID를 확인하지 않아도 됩니다.
 
 ## 전제 조건 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
@@ -44,7 +44,7 @@ AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문�
 * Audience Manager와 Adobe Analytics의 고객입니다.
 * Audience Manager 관리자입니다.
 * Identity Service v1.5 이상을 사용하고 있습니다.
-* AAM 및 Adobe Analytics 보고서 세트는 ](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)동일한 Experience Cloud 조직에에 매핑[됩니다.
-* You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
+* AAM 및 Adobe Analytics 보고서 세트는 [동일한 Experience Cloud 조직에 매핑](https://marketing.adobe.com/resources/help/ko_KR/mcloud/report-suite-mapping.html)됩니다.
+* [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)(DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
 
-이러한 전제 조건은 대상 분석 [워크플로우에 설명되어 있습니다](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
+이러한 전제 조건은 [Audience Analytics 워크플로우](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)에 설명되어 있습니다.
