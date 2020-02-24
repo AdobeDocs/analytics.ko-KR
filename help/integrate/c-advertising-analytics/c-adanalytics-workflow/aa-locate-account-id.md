@@ -1,8 +1,8 @@
 ---
-description: 다음은 Google 및 Bing용 계정 ID를 찾는 데 도움이 되는 지침입니다.
+description: 다음은 Google 및 Bing의 계정 ID를 찾는 데 도움이 되는 지침입니다.
 title: 계정 ID 찾기
 uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 계정 ID 찾기
 
-다음은 Google 및 Bing용 계정 ID를 찾는 데 도움이 되는 지침입니다.
+다음은 Google 및 Bing의 계정 ID를 찾는 데 도움이 되는 지침입니다.
 
 ## Google AdWords {#section_2A62AD448BD949889DB77C2AF3E04C33}
 
 >[!IMPORTANT]
 >
->Google AdWords는 두 가지 유형의 계정을 사용합니다.a) MCC(내 클라이언트 센터) 계정 및 b) 표준 계정. Adobe Analytics와 통합하려면 **MCC 계정 로그인이 아닌 표준 계정 로그인을 사용해야 합니다**. 이유는 MCC 계정이 단일 로그인으로 여러 AdWords 계정에 액세스할 수 있는 "우산" 계정 역할을 하는 반면 표준 계정 로그인은 로그인당 하나의 AdWords 계정만 액세스할 수 있기 때문입니다.
+>Google AdWords는 a) MCC(내 고객센터) 계정 유형 및 b) 표준 계정 유형을 사용합니다. Adobe Analytics와 통합하려면 **MCC 계정 로그인이 아닌 표준 계정 로그인을 사용해야 합니다**. 이유는 MCC 계정이 단일 로그인으로 여러 AdWords 계정에 액세스할 수 있는 &quot;umbrella&quot; 계정 역할을 하지만, 표준 계정 로그인은 로그인당 하나의 AdWords 계정에만 액세스할 수 있기 때문입니다.
 
 오른쪽 상단에 있는 [계정] 아이콘을 클릭하여 AdWords 계정 번호(고객 ID)를 확인합니다.
 
