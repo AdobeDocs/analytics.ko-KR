@@ -2,7 +2,7 @@
 description: 'null'
 title: 제한 사항 및 사양
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,17 +10,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 제한 사항 및 사양
 
-## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
+## Power BI 게시 제한 사항 {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
-> [!NOTE] 이러한 제한 사항은 "Power BI 데이터 세트 표로 리포트 빌더 요청 게시" 옵션에만 적용됩니다.
+> [!NOTE] 이 제한 사항은 &quot;Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션에만 적용됩니다.
 
 * 통합 문서당 최대 100개의 Report Builder 요청을 Power BI에 내보낼 수 있습니다.
 * 예약 프로세스에서는 101번째 요청에 도달하면 요청 내보내기가 중단됩니다.
 * 한 Report Builder 요청에 대해 Analytics 데이터 중 처음 10,000행만 Power BI에 보내지고, 나머지 행은 무시됩니다.
 
-## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
+## Power BI에 게시 후 Report Builder 요청 편집 {#section_6989E74F68DD43F08D37C36B6777DB50}
 
-> [!NOTE] 이 사양은 "모든 리포트 빌더 요청을 Power BI 데이터 세트 표로 게시" 옵션 및 "통합 문서에 서식이 지정된 모든 테이블을 Power BI 데이터 세트 표로 게시" 옵션에 적용됩니다.
+> [!NOTE] 이 사양은 &quot;모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션과 &quot;통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시&quot; 옵션에 적용됩니다.
 
 Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할 수 있습니다.
 
@@ -54,13 +54,13 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
 
 * **사례 2**: 통합 문서의 한 부분을 Power BI의 대시보드에 고정했다가 나중에 고정된 해당 부분(차트나 표)을 통합 문서에서 제거합니다. 이로 인해 시각화가 손상됩니다.
 
-## Change the name of a Power BI report {#section_2E7893A78B914EBFACB2B08CBD9E472E}
+## Power BI 보고서 이름 변경 {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
 기본적으로, 공백이 밑줄 문자로 대체된다는 점을 제외하면 보고서 이름은 통합 문서 파일 이름으로 채워집니다(.xlsx 확장명 없이 사용).
 
 주의 사항
 
 * 레이블은 행 및 열 주소용의 틀릴 수 있는 문자와 숫자의 조합일 수 없습니다. 예를 들어, A100은 워크시트에 있는 셀 주소이므로 레이블이 될 수 없습니다.
-* 문자 '#', '@', '!', '$', '^', '&amp;', '*', '`', '~', ' '은 유효한 레이블 문자가 아닙니다. 이 문자들은 밑줄 문자로 대체됩니다.
-* 유효하지 않은 이름을 입력하면 자동으로 생성된 이름을 제시하는 경고 메시지가 표시됩니다. If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* 문자 &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39; &#39;은 유효한 레이블 문자가 아닙니다. 이 문자들은 밑줄 문자로 대체됩니다.
+* 유효하지 않은 이름을 입력하면 자동으로 생성된 이름을 제시하는 경고 메시지가 표시됩니다. **[!UICONTROL 예]**&#x200B;를 클릭하면, 이 이름이 사용됩니다. **[!UICONTROL 아니요]**&#x200B;를 클릭하면, 고급 마법사 UI를 통해 새 이름을 입력할 수 있습니다.
 
