@@ -1,9 +1,9 @@
 ---
-description: Report Builder 전달을 최적화할 수 있는 방법 및 때때로 발생할 수 있는 오류 메시지 목록입니다.
+description: Report Builder 전달을 최적화하는 방법 및 때때로 발생할 수 있는 오류 메시지 목록입니다.
 title: Report Builder 문제 해결 및 우수 사례
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,23 +11,23 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Report Builder 문제 해결 및 우수 사례
 
-Report Builder 전달을 최적화할 수 있는 방법 및 때때로 발생할 수 있는 오류 메시지 목록입니다.
+Report Builder 전달을 최적화하는 방법 및 때때로 발생할 수 있는 오류 메시지 목록입니다.
 
-## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}
+## Report Builder 5.0 사용자 및 Opening 5.1 통합 문서 {#section_C29898775999453FABB5FB0E098415C8}
 
 Adobe에서는 차원과 분류 사이의 구분 기호를 밑줄(_)에서 || 기호로 변경했습니다. 이 변경 사항은 분류 요청으로 Report Builder v5.1 통합 문서를 여는 Report Builder 5.0 사용자에 대한 호환성을 의미합니다. v5.1 이전의 버전에서 작성된 통합 문서를 열 때마다 모든 직렬화된 분류 요청은 이 형식으로 변환됩니다.
 
-이에 따라 상위 호환성 문제가 발생합니다. v5.1로 변환되면, 통합 문서를 Report Builder v5.0을 사용하는 사용자와 공유하는 경우, 해당 사용자는 분류 요청을 인식할 수 없게 됩니다. (v5.0은 "_" 기호를 찾지만 v5.1이 "||" 기호를 직렬화했습니다.)
+이에 따라 상위 호환성 문제가 발생합니다. v5.1로 변환되면, 통합 문서를 Report Builder v5.0을 사용하는 사용자와 공유하는 경우, 해당 사용자는 분류 요청을 인식할 수 없게 됩니다. (v5.0은 &quot;_&quot; 기호를 찾지만 v5.1이 &quot;||&quot; 기호를 직렬화했습니다.)
 
 분류 요청을 포함한 ARB v5.1 통합 문서를 열면 다음의 부작용을 경험하게 됩니다.
 
-* 통합 문서를 열면 다음 경고가 표시됩니다."이 통합 문서는 리포트 빌더 v5.1을 사용하여 마지막으로 저장되었습니다.이 버전에서는 이 컴퓨터에 설치된 Report Builder 버전과 호환되지 않는 일부 기능을 도입했습니다. 이 통합 문서를 업데이트하기 전에 최신 Report Builder 버전으로 업그레이드하는 것이 좋습니다."
+* 통합 문서를 열면 다음 경고가 표시됩니다. &quot;이 통합 문서는 Report Builder v5.1에서 마지막으로 저장되었습니다. 이 버전에서는 이 컴퓨터에 설치된 Report Builder 버전과 호환되지 않는 기능이 몇 가지 도입되었습니다. 이 통합 문서를 업데이트하기 전에 최신 Report Builder 버전으로 업그레이드하는 것이 좋습니다.&quot;
 * 분류를 포함한 ARB 요청을 마우스 오른쪽 단추로 클릭하면 Report Builder 컨텍스트 메뉴([요청 편집], [종속적 요청 추가] 등)가 표시되지 않습니다.
 * 세 번째 단추를 클릭하거나 요청 관리자 양식에서 요청 세트를 새로 고쳐 모두 새로 고침을 수행하는 경우에는 분류 요청이 오류 없이 실행됩니다. 하지만 분류 값은 작성되지 않습니다.
 * 요청 관리자를 열어서 올바른 요청에 도달할 때까지 행에서 행으로 이동하는 방법으로는 여전히 요청을 편집할 수 있습니다.
 * 요청을 편집하고 모든 매개 변수를 동일하게 둔 다음 [마침]을 클릭하면 응답이 제대로 작성됩니다. 요청을 편집하면 응답 레이아웃 매개 변수가 다시 직렬화됨에 따라 문제가 해결됩니다. 따라서 시간은 걸리지만 해결 방법이 있습니다.
 
-## Authentication issues in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
+## Report Builder에서의 인증 문제 {#section_FD79104DF1414FE2B36591606C963DE6}
 
 Report Builder에서는 보고서 세트에서 데이터 요청을 만들려면 인증이 필요합니다. [!DNL Analytics] 내 또는 네트워크에 대한 설정에 따라 Report Builder에서 로그인할 때 문제가 발생하기도 합니다.
 
@@ -42,7 +42,7 @@ Report Builder에서는 보고서 세트에서 데이터 요청을 만들려면 
 
 Report Builder에서는 포트 80 및 443을 사용합니다. 이 포트들이 회사 방화벽에서 사용이 허용되는지 확인하십시오. 추가적인 방화벽 제외 사항을 보려면 Adobe의 내부 IP 주소를 참조하십시오.
 
-## Recommendations for optimizing requests {#section_33EF919255BF46CD97105D8ACB43573F}
+## 요청 최적화를 위한 권장 사항 {#section_33EF919255BF46CD97105D8ACB43573F}
 
 다음 요소는 요청을 더욱 복잡하게 만들고 처리 속도를 저하할 수 있습니다.
 
@@ -90,21 +90,21 @@ Excel 시트 이름에 아포스트로피나 작은따옴표가 있으면 Report
 
 | 예약 시간 | 오전 1시 - 오전 2시 | 오전 2시 - 오전 7시 | 오전 7시 - 오후 6시 | 오후 6 - 자정 |
 |--- |--- |--- |--- |--- |
-| Report Builder 사용 | 거의 사용 안 됨 | 매우 많이 사용됨 | 클라이언트 측 사용.<br>로컬에서 새로 고치고 "즉시 전송"을 요청하는 사용자 수가 더 많음.<br>또한 예약된 통합 문서가 시간 초과되는 경우 API 대기열이 지워졌는지 확인하십시오. | 별로 사용 안 됨 |
+| Report Builder 사용 | 거의 사용 안 됨 | 매우 많이 사용됨 | 클라이언트 측 사용.<br>로컬에서 새로 고치고 &quot;즉시 전송&quot;을 요청하는 사용자 수가 더 많음.<br>또한 예약된 통합 문서가 시간 초과하는 경우 API 대기열이 지워졌는지 확인하십시오. | 별로 사용 안 됨 |
 
 **시간 초과**
 
 예약된 모든 보고서는 4시간 후에는 시간이 초과됩니다. 시스템이 세 번 더 예약을 시도하고 실패할 수 있습니다. (일반적으로 데이터 세트가 클수록 실행하는 데 오래 걸립니다.) 이러한 시간 초과는 [!DNL Analytics] 보고 및 Report Builder에서 볼 수 있습니다.
 
-* [!DNL Analytics]:즐겨찾기 **** &gt; **[!UICONTROL 예약된 보고서]**
+* [!DNL Analytics]: **[!UICONTROL 즐겨찾기]** > **[!UICONTROL 예약된 보고서]**
 
-* Report Builder: Excel의 [!UICONTROL **추가 기능]탭에서**[!UICONTROL 관리]를 클릭합니다.
+* Report Builder: Excel의 [!UICONTROL 추가 기능] 탭에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
-## Error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## 오류 메시지 설명 {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
 Report Builder 사용 시 간혹 발생할 수 있는 오류 메시지 목록입니다.
 
-> [!NOTE] 이는 일부 오류 메시지만 선택되며 전체 목록이 아닙니다. 오류 해결에 대한 자세한 내용은 관리자에게 문의하십시오.
+> [!NOTE] 이것은 선별된 오류 메시지들로서 완전한 목록은 아닙니다. 오류 해결에 대한 자세한 내용은 관리자에게 문의하십시오.
 
 **이 기능은 열린 통합 문서에만 적용할 수 있습니다.**
 
