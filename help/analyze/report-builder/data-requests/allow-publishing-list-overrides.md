@@ -3,7 +3,7 @@ description: 보고서를 예약할 때 배포에 사용할 게시 목록을 선
 title: 게시 목록 무시 허용
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 게시 목록은 Analytics 관리 도구에서 설정합니다.
 
-분석 참조 [게시 목록 관리자](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html)를 참조하십시오.
+분석 참조 [게시 목록 관리자](https://marketing.adobe.com/resources/help/ko_KR/reference/publishing_list.html)를 참조하십시오.
 
 이 기능을 활성화하려면 [!UICONTROL 요청 마법사: 1단계] 창으로 이동합니다.
 
