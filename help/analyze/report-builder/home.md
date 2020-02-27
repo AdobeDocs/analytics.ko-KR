@@ -2,7 +2,7 @@
 title: Adobe Report Builder 도움말
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Adobe Report Builder 도움말 {#adobe-report-builder-help}
 
-[!DNL Adobe]   Report Builder는 Microsoft Excel용 추가 기능입니다. Report Builder를 사용하면 보고 및 분석 데이터에서 사용자 지정된 요청을 만들 수 있고 이렇게 만든 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 지정할 수 있습니다.
+[!DNL Adobe] Report Builder는 Microsoft Excel용 추가 기능입니다. Report Builder를 사용하면 보고 및 분석 데이터에서 사용자 지정된 요청을 만들 수 있고 이렇게 만든 요청은 Excel 워크시트에 삽입할 수 있습니다. 요청은 워크시트의 셀을 동적으로 참조할 수 있으며, Report Builder의 데이터 표시 방식을 업데이트하고 사용자 지정할 수 있습니다.
 
 <!-- >>[!IMPORTANT]
 >
@@ -24,10 +24,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 <!-- Tutorial goes here -->
 
-## 인기 있는 도움말 항목
+## 많이 보는 도움말 항목
 
 * [설정, 설치 및 로그인](setup/login.md)
-* [보고서 요청 예약](schedule-report-requests.md)을 참조하십시오
+* [보고서 요청 예약](schedule-report-requests.md)을 참조하십시오.
 * [Report Builder 문제 해결 및 우수 사례](troubleshoot.md)
 * [사용자 지정 날짜 범위를 만들기 위해 어떤 선택을 할 수 있습니까?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
 * [Report Builder에서 왜 내 세그먼트가 표시되지 않습니까?](data-requests/segmentation.md)
@@ -39,16 +39,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Experience Cloud 리소스
 
-* [Adobe Analytics 커뮤니티](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
+* [Adobe Analytics 커뮤니티](https://helpx.adobe.com/kr/marketing-cloud/analytics.html)
+* [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/index.html#Current%20Release%20Notes)
 * [제품 설명서 홈](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
+* [Developer](https://marketing.adobe.com/resources/help/ko_KR/home/index.html#Developer)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
-* [Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [주요 솔루션 센터](https://www.omniture.com/en/products/online_business_optimization)
+* [Adobe 교육 및 자습서](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)
+* [주요 솔루션 센터](https://www.omniture.com/kr/products/online_business_optimization)
 
-## 보고 및 분석 도움말
+## Reports &amp; Analytics 도움말
 
-* [Analysis Workspace 도움말](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Reports &amp; Analytics 도움말](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [관리](https://marketing.adobe.com/resources/help/en_US/reference/index.html) 도구, 보고서 및 지표에 대한 분석 참조 도움말입니다.
+* [Analysis Workspace 도움말](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/)
+* [Reports &amp; Analytics 도움말](https://marketing.adobe.com/resources/help/ko_KR/sc/user/index.html)
+* [Analytics 참조](https://marketing.adobe.com/resources/help/ko_KR/reference/index.html) 관리 도구, 보고서 및 지표에 대한 도움말입니다.
