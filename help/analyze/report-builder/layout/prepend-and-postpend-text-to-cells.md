@@ -3,7 +3,7 @@ description: 피벗 및 사용자 지정 레이아웃 요청에서, 숫자 및 �
 title: 텍스트를 셀에 앞에 추가 및 뒤에 추가
 topic: Report builder
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
