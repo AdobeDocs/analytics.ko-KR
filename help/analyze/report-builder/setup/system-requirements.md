@@ -3,7 +3,7 @@ description: 시스템 권장 사항 및 필수 조건입니다.
 title: 시스템 요구 사항
 topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,6 +20,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 **전제 조건**
 
 * 사용자 조직의 계약에 Excel용 Report Builder가 포함되어 있습니다.
-* 사용자 이름은 사전 정의된 Report Builder 사용자 그룹의 한 부분입니다. This requirement includes [!DNL Analytics] administrators.
+* 사용자 이름은 사전 정의된 Report Builder 사용자 그룹의 한 부분입니다. 이 요구 사항에는 [!DNL Analytics] 관리자도 포함됩니다.
 * 사용자는 Windows를 실행하고 관리자로 로그인해야 합니다.
 
