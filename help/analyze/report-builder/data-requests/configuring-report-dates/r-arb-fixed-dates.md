@@ -3,7 +3,7 @@ description: Report Builder에 있는 고정 날짜에 대한 정의
 title: 요청 마법사 정의 - 고정 날짜
 topic: Report builder
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 요청 마법사 정의 - 고정 날짜
 
-리포트 빌더의 고정 날짜에 대한 정의.
+Report Builder에 있는 고정 날짜에 대한 정의
 
 | 필드 | 정의 |
 |--- |--- |
