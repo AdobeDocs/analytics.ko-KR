@@ -3,7 +3,7 @@ description: 예약된 작업 관리자에 대한 필드 설명입니다.
 title: 예약된 작업 관리자
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p> 이메일/FTP </p> </td> 
-   <td colname="col2"> <p>수신자의 이메일 또는 FTP 주소. </p> <p>참고: [이메일]을 선택한 경우, 1MB가 넘는 보고서는 자동으로 이메일에 .zip 파일로 첨부됩니다. 이 기능은 첨부 파일의 크기를 작게 유지하는 데 도움이 되며, 비활성화할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>수신자의 이메일 또는 FTP 주소. </p> <p>참고: 이메일을 선택한 경우, 1MB가 넘는 보고서는 자동으로 이메일에 .zip 파일로 첨부됩니다. 이 기능은 첨부 파일의 크기를 작게 유지하는 데 도움이 되며, 비활성화할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>게시 옵션 </p> </td> 
