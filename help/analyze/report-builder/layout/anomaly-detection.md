@@ -3,7 +3,7 @@ description: 이상 현상 발견 기능에서는 통계적 모델링 방법을 
 title: 예외 항목 탐지
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
