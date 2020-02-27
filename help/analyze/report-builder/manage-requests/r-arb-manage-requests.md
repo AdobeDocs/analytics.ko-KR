@@ -3,7 +3,7 @@ description: Report Builder의 요청 관리를 위한 필드 설명
 title: 요청 관리 - 정의
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,9 +17,9 @@ Report Builder의 요청 관리를 위한 필드 설명
 
 [!UICONTROL 요청 관리자]는 활성 통합 문서의 모든 시트 또는 단 한 시트에 대해 만든 모든 요청의 상태를 자세히 볼 수 있도록 해줍니다. 이전 요청이 들어 있는 Excel 스프레드시트에서 사용할 수 있는 셀을 마우스 오른쪽 단추로 클릭하여 요청을 추가, 편집, 새로 고침 및 삭제(일반적으로 [!UICONTROL 요청 마법사] 및 [!UICONTROL 요청 관리자]와 연관된 기능들)할 수도 있습니다.
 
-요청 [!UICONTROL 관리자는] 관리를 클릭하면 **[!UICONTROL 표시됩니다( 리포트 빌더]** 도구 모음에서 ![](assets/edit_request.gif) ).
+[!UICONTROL 요청 관리자]는 **[!UICONTROL 관리]**(Report Builder 도구 모음에서 ![](assets/edit_request.gif))를 클릭하면 표시됩니다.
 
-> [!NOTE] Adobe Report Builder는 동일한 워크시트 내에서만 요청 종속성을 적용하며, 워크시트에서는 적용하지 않습니다. 단일 워크시트 내의 종속성으로 제한하면 신속하게 실행할 수 있습니다.
+> [!NOTE] Adobe Report Builder에서는 여러 워크시트에서가 아니라 동일한 워크시트 내에서만 요청 종속성을 적용합니다. 단일 워크시트 내의 종속성으로 제한하면 신속하게 실행할 수 있습니다.
 
 ## 정의 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -33,7 +33,7 @@ Report Builder의 요청 관리를 위한 필드 설명
  <tbody> 
   <tr> 
    <td colname="col1"> <p>모든 시트 </p> </td> 
-   <td colname="col2"> <p>활성화 상태의 통합 문서에 있는 모든 시트의 요청을 표시합니다. 특정 시트의 요청을 보려면 이 선택 사항은 끄십시오. 이 선택 사항을 끄면 Excel 보고서의 하단에서 [시트] 탭을 클릭하여 <span class="wintitle">Request Manager</span>의 해당 시트와 관련된 요청을 표시해야 합니다. 확인란 옆에 있는 레이블은 통합 문서에서 현재 표시된 시트를 가리킵니다. </p> </td> 
+   <td colname="col2"> <p>활성화 상태의 통합 문서에 있는 모든 시트의 요청을 표시합니다. 특정 시트의 요청을 보려면 이 선택 사항은 끄십시오. 이 선택 사항을 끄면 Excel 보고서의 하단에서 시트 탭을 클릭하여 <span class="wintitle">Request Manager</span>의 해당 시트와 관련된 요청을 표시해야 합니다. 확인란 옆에 있는 레이블은 통합 문서에서 현재 표시된 시트를 가리킵니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sheet </p> </td> 
@@ -53,15 +53,15 @@ Report Builder의 요청 관리를 위한 필드 설명
   </tr> 
   <tr> 
    <td colname="col1"> <p> 마지막 실행 </p> </td> 
-   <td colname="col2"> <p>요청이 Report Builder에 의해 마지막으로 처리된 날짜를 지정합니다. 진단 메시지는 해당하는 경우 <span class="wintitle">마지막 실행</span> 열의 이 테이블에도 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>요청이 Report Builder에 의해 마지막으로 처리된 날짜를 지정합니다. 진단 메시지는 해당하면 <span class="wintitle">마지막 실행</span> 열의 이 테이블에도 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에  </p> </td> 
-   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다. 자세한 내용은 <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 데이터 요청 만들기</a>. </p> </td> 
+   <td colname="col1"> <p>추가 </p> </td> 
+   <td colname="col2"> <p>요청 마법사 대화 상자를 표시합니다.  <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 데이터 요청 만들기</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>편집 </p> </td> 
-   <td colname="col2"> <p> (또는 [여러 개 편집]) 선택한 요청을 편집합니다. 시스템이 <span class="wintitle">요청 마법사</span> 대화 상자를 표시합니다. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (또는 [여러 개 편집]) 선택한 요청을 편집합니다. 시스템이 <span class="wintitle">요청 마법사</span> 대화 상자를 표시합니다. <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   >복수 요청 편집</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>삭제 </p> </td> 
@@ -81,7 +81,7 @@ Report Builder의 요청 관리를 위한 필드 설명
   </tr> 
   <tr> 
    <td colname="col1"> <p>목록 새로 고침 </p> </td> 
-   <td colname="col2"> <p>표시된 모든 요청을 새로 고칩니다. 모든 요청을 새로 고칠 때 정보를 서버에서 보고서까지 업데이트하는 시간은 보고서에 있는 요청의 복잡성에 비례합니다. 매우 큰 보고서의 경우 모든 요청을 새로 고치는 데에는 수 분이 필요할 수 있습니다. 이러한 이유로 가장 긴박한 요청들을 개별적으로 업데이트하고 시간적으로 덜 중요한 다른 때 <span class="wintitle">모두 새로 고침</span>을 선택할 수 있습니다. </p> <p> <p>참고: 여러 개의 요청이 들어 있는 워크시트를 새로 고치는 경우 <span class="wintitle">요청 관리자</span>에서 종종 결과를 확인하는 것이 좋습니다. 요청이 실패하는 경우 진단 열의 오류 메시지가 오류의 원인을 찾는 데 도움이 됩니다. 대부분의 경우 요청이 실패하면 오류 메시지가 표시되지만 종종 오류 메시지가 생성되지 않는 경우도 있습니다. 참조가 들어 있는 셀에 있는 데이터가 새로 고침으로 업데이트되지 않거나 업데이트로 인해 셀의 데이터가 지워질 수 있습니다. </p> </p> </td> 
+   <td colname="col2"> <p>표시된 모든 요청을 새로 고칩니다. 모든 요청을 새로 고칠 때 정보를 서버에서 보고서까지 업데이트하는 시간은 보고서에 있는 요청의 복잡성에 비례합니다. 매우 큰 보고서의 경우 모든 요청을 새로 고치는 데에는 수 분이 필요할 수 있습니다. 이러한 이유로 가장 긴박한 요청들을 개별적으로 업데이트하고 시간상으로 덜 중요한 다른 때 <span class="wintitle">모두 새로 고침</span>을 선택할 수 있습니다. </p> <p> <p>참고: 여러 개의 요청이 들어 있는 워크시트를 새로 고치는 경우 <span class="wintitle">요청 관리자</span>에서 종종 결과를 확인하는 것이 좋습니다. 요청이 실패하는 경우 진단 열의 오류 메시지가 오류의 원인을 찾는 데 도움이 됩니다. 대부분의 경우 요청이 실패하면 오류 메시지가 표시되지만 종종 오류 메시지가 생성되지 않는 경우도 있습니다. 참조가 들어 있는 셀에 있는 데이터가 새로 고침으로 업데이트되지 않거나 업데이트로 인해 셀의 데이터가 지워질 수 있습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
