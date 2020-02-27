@@ -3,7 +3,7 @@ description: 시간 약자는 기간의 범위가 아니라 기간이 시작하�
 title: 날짜 약자
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,10 +21,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * cq = 현재 분기(현재 분기의 첫째 날)
 * cy = 현재 연도(현재 연도의 첫째 날)
 
-In the following list, *[UNIT]* indicates any integer multiplier.
+다음 목록에서 *[UNIT]*&#x200B;은 정수 승수를 가리킵니다.
 
-* [단위] d = 일
-* [단위] w = 주
+* [UNIT] d = 일
+* [UNIT] w = 주
 * [UNIT] m = 월
 * [UNIT] q = 분기
-* [단위] y = 년
+* [UNIT] y = 연도
