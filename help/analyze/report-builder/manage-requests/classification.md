@@ -3,7 +3,7 @@ description: '분류는 분석 보고 데이터를 관련 속성에 매핑하는
 title: 분류
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,4 +17,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 분류는 보고서 세트의 다른 보고서를 액세스하는 것과 같은 방법으로 액세스할 수 있으며 차원은 그룹 내 최상위 수준 보고서로 표시됩니다. 보고서에 분류가 있으면 동일한 위치에서 보고서와 보고서의 모든 분류를 모으도록 메뉴 하위 그룹이 만들어집니다. 보고서는 분류들 중 목록에 있는 마지막 항목으로 표시됩니다.
 
-분류를 [참조하십시오](/help/components/c-classifications2/c-classifications.md).
+[분류](/help/components/c-classifications2/c-classifications.md)를 참조하십시오.
