@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 날짜 형식 지정
 
-Excel의 [서식] > [셀]&#x200B;(Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
+Excel의 [서식] > [셀] (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
 
 Row Labels 그리드에 [차원을 추가](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)한 후 **[!UICONTROL 서식]**&#x200B;을 클릭합니다.
 
