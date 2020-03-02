@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: 북마크 관리자
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,13 +24,13 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. 보고서를 실행한 다음 **[!UICONTROL 책갈피]**&#x200B;를 클릭합니다.
 
- |이름|이 책갈피에 대한 사용자 친화적인 이름입니다.|
- |---|---|     
- |추가 대상|책갈피를 배치할 폴더를 지정합니다.|     
- |공개하기| 보고서 세트에 액세스할 수 있는 사용자가 이 책갈피를 사용할 수 있도록 합니다.|     
- |로그인 시 보고서 표시 | 로그인할 때 보고서를 표시합니다.|
+       |이름|이 책갈피에 대해 알기 쉬운 이름으로 지정합니다.|
+       |---|---|
+       |추가 대상|책갈피를 저장할 폴더를 지정합니다.|
+       |공개하기| 이 책갈피를 보고서 세트에 액세스하는 사용자에게 공개합니다.|
+       |로그인하면 보고서 표시| 로그인하면 보고서가 표시됩니다.|
    
 ## 책갈피 관리 {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** &gt; 구성 **[!UICONTROL 요소]** &gt; **[!UICONTROL 책갈피를 참조하십시오]**.
+**[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 책갈피]**.
 
 **내 책갈피**
 
