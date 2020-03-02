@@ -1,8 +1,8 @@
 ---
 title: 기여도 분석 FAQ
 description: 기여도 분석과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **기여도 분석 모델을 사용할 때때로 보고 기간 밖의 날짜가 표시되는 이유는 무엇입니까?**
 
-이러한 추가적인 날짜는 방문자 보고 전환 확인 기간으로 인한 것입니다. 자세한 내용은 Analytics KB의 [보고 기간을 벗어나서 나타나는 데이터](https://helpx.adobe.com/kr/analytics/kb/data-appearing-outside-reporting-window.html)를 참조하십시오. Adobe에서는 향후 릴리스에서 이러한 추가 행을 필터링할 계획입니다.
+이러한 추가적인 날짜는 방문자 보고 전환 확인 기간으로 인한 것입니다. 자세한 내용은 Analytics KB의 [보고 기간을 벗어나서 나타나는 데이터](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)를 참조하십시오. Adobe에서는 향후 릴리스에서 이러한 추가 행을 필터링할 계획입니다.
 
 **내 기여도 분석 모델과 함께 사용자 지정 전환 확인 기간을 사용할 수 있습니까?**
 
@@ -56,13 +56,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 단일 페이지 방문 횟수
 * 단일 액세스
 
-**Analysis Workspace의 기여도 분석은 Data Workbench의 기여도 분석과 어떻게 다릅니까?**
+**내 기여도 분석 모델과 함께 사용자 지정 전환 확인 기간을 사용할 수 있습니까?**
 
-Data Workbench는 점진적으로 다음을 제공합니다.
-
-* 광고 노출 횟수 및 판매 시점과 같은 보다 많은 방문자 수준의 데이터 소스를 파악할 수 있는 기능.
-* 알고리즘 모델링. Analysis Workspace의 기여도 분석은 규칙 기반 모델만 포함합니다. Data Workbench 사용 안내서에서 [최적 모델링](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html)을 참조하십시오.
-* 지연 테이블과 같은 추가 시각화 요소. Data Workbench 사용 안내서에서 [지연 테이블](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html)을 참조하십시오.
+예. 사용자 지정 조회 창 옵션을 사용하면 보고 창 90일 전까지 조회 창을 모든 날짜 범위로 구성할 수 있습니다. 자세한 내용은 [보고서 처리 시간](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)을 참조하십시오.
 
 **기여도 분석은 분류와 함께 작동합니까?**
 
