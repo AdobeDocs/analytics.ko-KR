@@ -3,7 +3,7 @@ description: 필터 기능을 통해 필터에 일치하는 라인 항목을 포
 title: 보고서 데이터 필터링
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/filter.png)
 
-단순 필터는 대부분의 보고서에 표시되며 특정 라인 항목을 신속히 찾는 데 사용됩니다. Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. 공백을 사용하여 여러 용어가 들어 있는 라인 항목을 찾을 수 있습니다.
+단순 필터는 대부분의 보고서에 표시되며 특정 라인 항목을 신속히 찾는 데 사용됩니다. 단순 필터에서는 특수 문자를 사용하지 않으므로 `-, ", ', +` 및 기타 특수 문자는 보고서에서 리터럴 값에 일치합니다. 공백을 사용하여 여러 용어가 들어 있는 라인 항목을 찾을 수 있습니다.
 
 예:
 
@@ -45,11 +45,11 @@ help:Internal Search Term
 
 라인 항목에 해당 용어가 있으면 일치합니다. 단순 필터와 동일한 방식으로 작동합니다.
 
-> [!NOTE] 공백은 검색에서 구분 기호로 인식되므로 필터에 사용할 수 없습니다.
+> [!NOTE] 공백은 검색에서 구분 기호로 인식하기 때문에 필터에 사용할 수 없습니다.
 
 **포함하지 않음**
 
-라인 항목에 해당 용어가 없으면 일치합니다. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
+라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://marketing.adobe.com/resources/help/ko_KR/reference/none-unspecified-unknown-other.html)을 필터링할 수 있습니다.
 
 다음을 포함하지 않음: `none`
 
@@ -58,7 +58,7 @@ help:Internal Search Term
 * 고급(특수 문자)`-^none$` 위에 다음 코드를 추가할 것을 권장합니다.
 * 고급(특수 문자): `-"keyword unavailable"`
 
-예를 들어, 다음 라인 항목은 "포함하지 않음" 기준으로 필터링되지만, "고급(특수 문자)" 기준으로는 필터링되지 않습니다.
+예를 들어, 다음 라인 항목은 &quot;포함하지 않음&quot; 기준으로 필터링되지만, &quot;고급(특수 문자)&quot; 기준으로는 필터링되지 않습니다.
 
 ```
 help:Rename the None classification key
@@ -66,7 +66,7 @@ help:Rename the None classification key
 
 **다음 중 하나 포함**
 
-라인 항목에 공백으로 구분된 용어 중 하나라도 있으면 일치합니다. 다음 필터는 "mens" 또는 "sale"이 들어 있는 모든 페이지를 보여 줍니다.
+라인 항목에 공백으로 구분된 용어 중 하나라도 있으면 일치합니다. 다음 필터는 &quot;mens&quot; 또는 &quot;sale&quot;이 들어 있는 모든 페이지를 보여 줍니다.
 
 다음 중 하나 포함`mens sale` 위에 다음 코드를 추가할 것을 권장합니다.
 
@@ -126,11 +126,11 @@ Ocean Blue Jean
 | 고급(특수 문자) | 설명 |
 |--- |--- |
 | `" "` | 구에 정확하게 일치합니다. |
-| `*` | 와일드카드, 임의 문자열입니다. <br>예를 들어 "등록 등록"과 `r*p` 일치합니다. |
+| `*` | 와일드카드, 임의 문자열입니다. <br>예를 들어, `r*p`은 &quot;Registration Signup&quot;에 일치합니다. |
 | `^` | 다음으로 시작. <br>특수 문자와 검색 구 사이에 공백이 있으면 안 됩니다. |
 | `$` | 다음으로 끝남. <br>특수 문자와 검색 구 사이에 공백이 있으면 안 됩니다. |
 | `-` | 아님. <br>특수 문자와 검색 구 사이에 공백이 있으면 안 됩니다. |
-| `|` | Or<br>Note:  you must include a space on each side of the pipe character, `" | "`. |
+| `|` | 또는 <br>파이프 문자 `" | "` 양쪽에 공백을 포함해야 합니다. |
 
 ## 보고서별 필터 만들기 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -148,11 +148,11 @@ t_reports_filter_specific.xml
 
 **보고서별 필터를 만들려면**
 
-1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
-1. 보고서 헤더에서 **필터** 링크를 클릭합니다.
-1. [!UICONTROL 필터 선택기]**페이지에서[!UICONTROL 필터 적용]**&#x200B;을 클릭한 다음 필터 유형을 선택합니다.
-1. 항목을 검색하려면 **검색** 필드에 문자열을 입력합니다.
-1. **[!UICONTROL 확인을 클릭합니다]**.
+1. [!UICONTROL 구매 보고서]와 같은 보고서를 생성합니다(**[!UICONTROL 사이트 지표]** > **[!UICONTROL 구매]** > **[!UICONTROL 구매 전환 단계]**).
+1. 보고서 헤더에서 **[!UICONTROL 필터]** 링크를 클릭합니다.
+1. [!UICONTROL 필터 선택기] 페이지에서 **[!UICONTROL 필터 적용]**&#x200B;을 클릭한 다음 필터 유형을 선택합니다.
+1. 항목을 검색하려면 **[!UICONTROL 검색]** 필드에 문자열을 입력합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 상관 관계 필터 추가 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
@@ -170,7 +170,7 @@ t_reports_correlation_filter.xml
 
 **상관 관계 필터 추가**
 
-1. 상관 관계를 지원하는 보고서를 실행합니다. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
+1. 상관 관계를 지원하는 보고서를 실행합니다. [상세 분류 보고서 실행](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)을 참조하십시오.
+1. 보고서 헤더에서 **[!UICONTROL 상관 관계 필터]** 링크를 클릭합니다.
 1. [!UICONTROL 필터 규칙 작성기]에서 항목과 상호 연결할 카테고리를 선택합니다.
-1. **[!UICONTROL 확인을 클릭합니다.]**
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
