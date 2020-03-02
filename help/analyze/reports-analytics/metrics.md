@@ -3,7 +3,7 @@ description: 지표는 보고서의 기반으로, 데이터 관계를 보고 이
 title: 지표
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)는 지표를 결합하여 만들어집니다.
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+자세한 내용은 [지표 개요](/help/components/c-variables/c-metrics/metricslist.md)를 참조하십시오.
 
 ## 기본 보고서 지표 선택
 
@@ -35,7 +35,7 @@ t_metrics_set_default.xml
 
 1. 보고서 실행.
 1. 기본 지표로 저장할 지표를 추가합니다.
-1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
+1. **[!UICONTROL 지표 추가]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL 기본값으로 설정]**&#x200B;을 선택합니다.
 
    선택한 지표가 이 보고서의 기본값으로 저장됩니다. 다음 정보가 기본 지표에 적용됩니다.
 
