@@ -3,7 +3,7 @@ description: 그래프를 목표 대상에게 가장 유용한 방식으로 사�
 title: 보고서 그래프 변경
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 **보고서 그래프를 변경하려면**
 
 1. 보고서 실행.
-1. Click **[!UICONTROL Configure Graph]**.
+1. **[!UICONTROL 그래프 구성]**&#x200B;을 클릭합니다.
 1. 그래프 유형을 선택합니다.
 
    **[!UICONTROL 트렌드 라인]**: 트렌드 라인은 보고서 지표에 대한 일일 트렌드를 보여주며 시간에 따라 라인당 한 개 지표의 트렌드를 분석하는 데 유용합니다.
