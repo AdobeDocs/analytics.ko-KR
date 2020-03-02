@@ -3,7 +3,7 @@ description: Data Warehouse는 데이터를 필터링하여 실행할 수 있는
 title: Data Warehouse 요청
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,4 +15,4 @@ Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지
 
 <!-- I edited this link so it doesn't point to marketing.adobe.com. Please check -Bob -->
 
-자세한 [내용은 데이터](/help/export/data-warehouse/data-warehouse.md) 웨어하우스를 참조하십시오.
+자세한 내용은 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)를 참조하십시오.
