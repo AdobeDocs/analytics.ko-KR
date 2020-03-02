@@ -3,7 +3,7 @@ description: 대상을 사용하면 웹 사이트 성능을 측정하고 대상�
 title: 타겟
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 대상 필드 설명 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 타겟을 참조하십시오]**.
+**[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 대상]**.
 
 [!UICONTROL 대상 추가/편집] 페이지의 필드 및 옵션에 대한 설명입니다.
 
@@ -72,14 +72,14 @@ t_add_a_target.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
-1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
-1. Configure the options described in [Target Field Descriptions](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
-1. **[!UICONTROL 확인을 클릭합니다]**.
+1. **[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 타겟]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 대상 관리자] 페이지에서 **[!UICONTROL 새로 추가]**&#x200B;를 클릭합니다. 
+1. [타겟 필드 설명](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)에 설명되어 있는 옵션을 구성합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 대상 편집 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
-1. **관리** 열에서 **[!UICONTROL 편집]아이콘을 클릭합니다.**
-1. Configure the options described in [Target Field Descriptions](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
-1. **[!UICONTROL 확인을 클릭합니다]**.
+1. **[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 타겟]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 관리]** 열에서 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
+1. [타겟 필드 설명](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)에 설명되어 있는 옵션을 구성합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
