@@ -4,7 +4,7 @@ subtopic: Get started
 title: 데이터 수집 정보
 topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,4 +26,4 @@ Adobe가 추적하는 모든 페이지에는 작은 Adobe 공인 JavaScript 코�
 
 데이터 수집은 매우 신속하며 페이지 로드 시간에 그다지 영향을 주지 않습니다. 수집된 데이터는 브라우저 **다시 로드** 또는 **뒤로** 단추를 클릭하여 계산된 페이지 보기 횟수를 포함합니다. JavaScript 코드는 캐시에서 페이지를 검색할 때도 실행됩니다.
 
-Analytics [에서 데이터 수집을 참조하십시오.](/help/import/home.md)
+[Analytics의 데이터 수집](/help/import/home.md)을 참조하십시오.
