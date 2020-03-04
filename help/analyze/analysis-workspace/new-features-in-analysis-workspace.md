@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 | 기능 | 설명 |
 |--- |--- |
 | 작업 공간에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와 나란히 볼 수 있습니다. 2020년 2월 20일부터 몇 주 동안 모든 고객에게 이 기능이 제공됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| 크로스 디바이스 분석을 사용하는 조직을 위한 새로운 작업 영역 템플릿 | 이 템플릿에서는 CDA가 방문 횟수를 합치는 데 얼마나 효과적인지를 보여주며 CDA 전용 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 [내용은 장치 간](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 분석 설정을 참조하십시오. |
-| 작업 영역의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 크로스 디바이스 분석을 사용하는 조직을 위한 새로운 작업 영역 템플릿 | 이 템플릿에서는 CDA가 방문 횟수를 합치는 데 얼마나 효과적인지를 보여주며 CDA 전용 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 장치 Analytics 설정](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)을 참조하십시오. |
+| Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 기타 작업 영역 개선 사항 | <ul><li>패널이나 시각화를 작업 영역으로 가져오면 왼쪽 레일이 구성 요소로 자동 전환되어 보다 매끄러운 작업 과정이 이루어집니다.</li><li>이제 템플릿 구성 요소에 액세스할 수 있습니다(예: 태그, 즐겨찾기, 승인).</li><li>필터링된 지표 및 세그먼트 목록은 + 단추를 제공하여 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가합니다.</li></ul> |
-| 작업 영역 디버거 | 작업 공간 디버거가 도움말 메뉴에 추가되어 작업 공간 요청 디버깅에 보다 매끄럽게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 작업 영역 디버거 | Workspace 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020년 1월
 
@@ -34,39 +34,39 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ## 2019년 10월
 
-2019년 10월 10일에 릴리스되었습니다.
+2019년 10월 10일에 발표된 개선 사항입니다.
 
 | 개선 사항 | 설명 |
 |--- |--- |
 | 자유 형식 테이블 합계 업데이트 | 이제 자유 형식 테이블에 두 개의 합계, **[!UICONTROL Table total]** a와 **[!UICONTROL Grand total]** a가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세한](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>내용 **[!UICONTROL Show Totals]** 및 **[!UICONTROL Show Grand Total]** 옵션이 에 추가되었습니다 **[!UICONTROL Column Settings]**.<br/>자유 형식 합계가 변경되면 종속 시각화(예: 연결된 **[!UICONTROL Summary Number]** 시각화)와 내보낸 CSV 및 PDF 데이터가 업데이트됩니다. |
 | 지정되지 않음/없음 제거 옵션 | 다음 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
-| 자주색 세부기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL Time]** 섹션도 **[!UICONTROL Date Ranges]**&#x200B;로 이름이 변경되었습니다. |
+| 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL Time]** 섹션도 **[!UICONTROL Date Ranges]**&#x200B;로 이름이 변경되었습니다. |
 
 ## 2019월 8일
 
-2019년 8월 8일에 릴리스되었습니다.
+2019년 8월 8일에 발표된 개선 사항입니다.
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 드롭다운 필터의 항목 제한을 50에서 200으로 늘림 | 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가(195) 추가, 모든 미국 주 및 도(52) 추가와 같은 다양한 활용 사례를 포용합니다. |
+| 드롭다운 필터의 항목 제한을 50개에서 200개로 늘림 | 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가(195) 추가, 모든 미국 주 및 도(52) 추가와 같은 다양한 활용 사례를 포용합니다. |
 
 ## 2019년 7월
 
-2019년 7월 18일에 릴리스되었습니다.
+2019년 7월 18일에 발표된 개선 사항입니다.
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 향상된 집단 분석 | 새 [집단 분석 설정](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)이 추가되었습니다. <ul><li>백분율만 표시</li><li>백분율 반올림</li><li>평균 백분율 행 표시</li></ul> |
-| 지난 18개월의 항목 표시 | 왼쪽 레일에서 이제 사용자는 _지난 18개월 동안의 항목을 표시_&#x200B;할 수 있습니다. 이전에는 되돌아보기 기간이 최대 6개월이었습니다. 이를 통해 최대 18개월 전, 전년도의 페이지 또는 캠페인과 더욱 쉽게 비교할 수 있습니다. |
+| Cohort Analysis 개선 사항 | 새 [집단 분석 설정](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)이 추가되었습니다. <ul><li>백분율만 표시</li><li>백분율 반올림</li><li>평균 백분율 행 표시</li></ul> |
+| 최근 18개월의 항목 표시 | 왼쪽 레일에서 이제 사용자는 _지난 18개월 동안의 항목을 표시_&#x200B;할 수 있습니다. 이전에는 되돌아보기 기간이 최대 6개월이었습니다. 이를 통해 최대 18개월 전, 전년도의 페이지 또는 캠페인과 더욱 쉽게 비교할 수 있습니다. |
 | 새 Analysis Workspace 템플릿 | Analysis Workspace에 [&quot;Magento: 마케팅 및 상거래&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)라는 새로운 템플릿을 추가했습니다. Magento 전자 상거래 고객을 위해 특별히 고안되었지만 모든 소매업체는 이를 통해 상거래 활동에 대한 고유한 통찰력을 얻을 수 있습니다. |
 
 ## 2019년 6월
 
-2019년 6월 13일에 릴리스되었습니다.
+2019년 6월 13일에 발표된 개선 사항입니다.
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 새로운 기본 필터 | 왼쪽 레일 검색에 바로 사용할 수 있는 새로운 필터가 추가되었습니다. 현재 표시되는 항목(차원, 지표, 승인됨 등) 외에도 계산된 지표, 고객 특성, eVar, Props, 비디오 등의 새로운 필터가 추가되었으므로 필요한 구성 요소를 찾기가 쉬워집니다. |
+| 새로운 기본 제공 필터 | 왼쪽 레일 검색에 바로 사용할 수 있는 새로운 필터가 추가되었습니다. 현재 표시되는 항목(차원, 지표, 승인됨 등) 외에도 계산된 지표, 고객 특성, eVar, Props, 비디오 등의 새로운 필터가 추가되었으므로 필요한 구성 요소를 찾기가 쉬워집니다. |
 
 ## 2019년 5월
 
@@ -92,7 +92,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 |--- |--- |
 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
-| [기여도 분석 IQ에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 기여도 분석 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
+| [기여도 분석 IQ에서 여러 값 변수 지원](attribution-iq.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 기여도 분석 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
 
 ## 2018년 11월
@@ -103,7 +103,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 |--- |--- |
 | [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
 
-## 2018년 10월
+## 2018년 10월 일
 
 2018년 10월 11일에 출시된 새로운 기능 및 개선 사항.
 
@@ -193,7 +193,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > 기여도 분석 IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > 기여도 분석 IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>기여도 분석 IQ를 사용하면 마케팅 성과에 대해 보다 정교하고 지능적인 분석을 수행할 수 있습니다. 새 기여도 분석 모델은 Analysis Workspace의 지표(표 또는 분류) 및 계산된 지표에서 사용할 수 있습니다. 새로운 [기여도 분석 패널]을 사용하면 더 나은 시각화 및 비교가 가능합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -489,7 +489,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
  </tbody> 
 </table>
 
-## 2017년 10월
+## 2017년 10월 일
 
 2017년 10월 26일 릴리스된 새로운 기능
 
@@ -762,7 +762,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>New <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Hotkeys </a></b> </p> </td> 
+   <td colname="col1"> <p>새 <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > 핫키 </a></b> </p> </td> 
    <td colname="col2"> <p>다음 핫키가 추가되었습니다. </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = [패널] 창으로 이동 </li> 
@@ -1022,7 +1022,7 @@ To undo, click **[!UICONTROL Undo]** from the action menu.
 
 실행 취소를 위해 표준 Windows와 Mac [키보드 단축키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(ctrl 또는 cmd + z)를 사용할 수도 있습니다.
 
-*`Undo`* 는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
+*`Undo`*&#x200B;는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
 
 실행 취소할 수 없는(*`not`*) 작업:
 
