@@ -2,8 +2,8 @@
 description: Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 title: Ad Hoc Analysis와 비교한 Analysis Workspace
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,7 +14,7 @@ Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 
 Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워크플로우에 제공합니다. 두 제품의 일부 용어와 기능은 같지만, 분석에 대한 몇 가지 새로운 용어와 접근 방식이 Analysis Workspace에 도입되었습니다.
 
-이 두 제품의 주요 기능과 시스템 요구 사항에 대한 기술 비교는 [여기](https://marketing.adobe.com/resources/help/ko_KR/reference/analytics-product-comparison.html)에서 확인하십시오.
+이 두 제품의 주요 기능과 시스템 요구 사항에 대한 기술 비교는 [여기](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)에서 확인하십시오.
 
 ## 주요 용어 비교 {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -80,7 +80,7 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">플로우는 방문 또는 방문자를 확장할 수 있습니다. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">키 통계가 % 경로 보기 측면에서 표시됩니다. </li> 
-    </ul> <p>또한 플로우는 <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 혼합 차원</a>과 마우스 오른쪽 단추로 클릭하여 세그먼트를 생성할 수 있는 기능을 사용할 수 있습니다. Ad Hoc Analysis보다 개선된 기능입니다. </p> <p>현재 Analysis Workspace의 플로우는 다음을 수행할 <b>수 없습니다</b>. </p> 
+    </ul> <p>또한 플로우는 Ad Hoc Analysis에 대한 개선 사항인 <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 혼합 차원</a>과 마우스 오른쪽 단추로 클릭하여 세그먼트를 생성할 수 있는 기능을 사용할 수 있습니다. Ad Hoc Analysis보다 개선된 기능입니다. </p> <p>현재 Analysis Workspace의 플로우는 다음을 수행할 <b>수 없습니다</b>. </p> 
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">반복 인스턴스를 끕니다. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">사용자가 성공 이벤트를 선택할 수 있습니다. </li> 
@@ -100,7 +100,7 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
   </tr> 
   <tr> 
    <td colname="col1"> <p>기여도 분석 IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  >기여도 분석 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 기여도 분석 모델 유형을 추가할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution-iq.md"  >기여도 분석 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 기여도 분석 모델 유형을 추가할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>포함되지 않음 </p> </td> 
