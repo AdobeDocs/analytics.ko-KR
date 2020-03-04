@@ -3,7 +3,7 @@ title: JavaScript용 AppMeasurement 릴리스 노트
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
+source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
 
 ---
 
@@ -15,6 +15,12 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 코드 관리자에서 최신 버전의 AppMeasurement를 다운로드할 [수 있습니다](/help/admin/admin/code-manager-admin.md).
+
+## 버전 2.20.0
+
+릴리스 날짜: **2020년 3월 5일**
+
+* 보안 관련 문제를 수정했습니다.
 
 ## 버전 2.19.0
 
