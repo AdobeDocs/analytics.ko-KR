@@ -1,14 +1,13 @@
 ---
-description: 'null'
-title: Analysis Workspace에서 기여도 분석 IQ 사용
-uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Analysis Workspace에서 기여도 분석 사용
+description: Adobe Analytics에서 속성을 사용할 수 있는 위치를 알아봅니다.
+translation-type: tm+mt
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
 
-# Analysis Workspace에서 기여도 분석 IQ 사용
+# Analysis Workspace에서 기여도 분석 사용
 
 Analysis Workspace에서 기여도 분석 IQ를 사용하면 지원되는 기여도 분석 모델을 서로 비교하고, 고급 폴아웃 및 플로우 시각화를 사용하여 전환으로 이어지는 주요 마케팅 시퀀스를 시각화하고, 마케팅 채널 또는 캠페인의 추세를 간편하게 파악하여 시간 경과에 따른 실적을 쉽게 파악하며, 채널/캠페인 성과의 통계적 이상 현상을 찾아 성능 저하 또는 상승 시 경고할 수 있습니다.
 
@@ -16,11 +15,11 @@ Analysis Workspace에서 기여도 분석 IQ를 사용하면 지원되는 기여
 
 Analysis Workspace 자유 형식 테이블은 대부분의 지표에서 사용할 수 있는 기여도 분석 모델을 지원합니다. 기여도 분석 모델은 [열 설정]의 자유 형식 테이블 열 지표에서 설정할 수 있습니다.
 
-1. 자유 형식 테이블 열 옆의 [설정]&#x200B;(기어) 아이콘을 클릭합니다.
+1. 자유 형식 테이블 열 옆의 [설정] (기어) 아이콘을 클릭합니다.
 
    ![](assets/Column_Settings.png)
 
-1. **[!UICONTROL 데이터 설정]**&#x200B;에서 **[!UICONTROL 기본값이 아닌 기여도 분석 모델 사용]**&#x200B;을 선택합니다. 다른 기여도 분석 모델에 대한 자세한 내용은 [기여도 분석 IQ 개요](attribution.md)를 참조하십시오.
+1. 아래에서 **[!UICONTROL Data Settings]**&#x200B;확인 **[!UICONTROL Use non-default attribution model]**&#x200B;하십시오. 다른 기여도 분석 모델에 대한 자세한 내용은 [기여도 분석 IQ 개요](attribution.md)를 참조하십시오.
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -32,7 +31,7 @@ Analysis Workspace 자유 형식 테이블은 대부분의 지표에서 사용�
 
 ## 한 기여도 분석 모델을 다른 기여도 분석 모델과 비교 {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-한 가지 기여도 분석 모델을 다른 모델과 신속하고 간편하게 비교하려면 지표를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 비교 기여도 분석 모델 추가]**&#x200B;를 선택하십시오.
+If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
