@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
@@ -85,8 +85,8 @@ source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
          + [알고리즘 속성](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + 세그먼트 비교 {#segment-comparison}
-         + [세그먼트 IQ 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [세그먼트 IQ 활용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 프로젝트 조정 및 공유 {#curate-share}
       + [조정/공유 개요](analysis-workspace/curate-share/curate.md)
