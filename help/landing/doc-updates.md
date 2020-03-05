@@ -1,9 +1,9 @@
 ---
-title: Adobe Analytics 설명서 업데이트
-description: 기술 설명서 업데이트 Adobe Analytics
+title: Adobe Analytics에 대한 기술 설명서 업데이트
+description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -20,10 +20,12 @@ source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 | 날짜 | 설명 |
 |---|---|
+| 2020년 2월 25일 | 변수가 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 추가되었습니다. |
+| 2020년 2월 18일 | 변수가 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 추가되었습니다. |
 | 2020년 2월 12일 | 마케팅 채널 설명서 업데이트 및 [재구성](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
 | 2020년 2월 7일 | 크로스 [디바이스 분석 설정 업데이트](../components/cda/cda-setup.md) 및 [FAQ](../components/cda/cda-faq.md) |
 | 2020년 2월 4일 | 구현 [사용 안내서의](../implement/home.md)전체 다시 작성 |
-| 2020년 1월 22일 | 새 자유 형식 테이블 빌더에 대한 정보가 포함된 자유 형식 [테이블 페이지를 업데이트했습니다](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
 | 2020년 1월 13일 | Adobe [Analytics 및 브라우저 쿠키를](../technotes/cookies.md)추가했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)에 대한 새로운 항목 |
