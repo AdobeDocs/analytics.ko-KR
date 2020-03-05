@@ -39,11 +39,11 @@ Analytics에서 방문자를 식별할 수 있는 방법에는 몇 가지가 있
 
 | 사용된 순서 | 쿼리 매개 변수(컬렉션 메서드) | post_visid_type 열 값 | 존재할 때 |
 |---|---|---|---|
-| ![](assets/step1_icon.png) | [vid(s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) | 0 | s.visitorID가 설정되어 있습니다. |
-| ![](assets/step2_icon.png) | [aid(s_vi 쿠키)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_analytics.html) | 3 | 방문자 ID 서비스를 배포하기 전에 방문자에게 기본 s_vi 쿠키가 있었거나, 여러분에게 방문자 ID [유예 기간](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html)이 설정되어 있습니다. |
-| ![](assets/step3_icon.png) | [mid(ID 서비스에 의해 설정된 AMCV_ 쿠키)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | 방문자의 브라우저가 쿠키를 수락하고(퍼스트 파티) ID 서비스가 배포됩니다. |
-| ![](assets/step4_icon.png) | [fid(H.25.3 이상 또는 AppMeasurement for JavaScript의 폴백 쿠키)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 4 | 방문자의 브라우저가 쿠키를 승인합니다(퍼스트 파티). |
-| ![](assets/step5_icon.png) | [HTTP 모바일 가입자 헤더](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_mobile.html) | 2 | 장치는 모바일 장치로 인식됩니다. |
-| ![](assets/step6_icon.png) | [IP 주소, 사용자 에이전트, 게이트웨이 IP 주소](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 1 | 방문자의 브라우저가 쿠키를 승인하지 않습니다. |
+| 1. | [vid(s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) | 0 | s.visitorID가 설정되어 있습니다. |
+| 2. | [aid(s_vi 쿠키)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_analytics.html) | 3 | 방문자 ID 서비스를 배포하기 전에 방문자에게 기본 s_vi 쿠키가 있었거나, 여러분에게 방문자 ID [유예 기간](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html)이 설정되어 있습니다. |
+| 3. | [mid(ID 서비스에 의해 설정된 AMCV_ 쿠키)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | 방문자의 브라우저가 쿠키를 수락하고(퍼스트 파티) ID 서비스가 배포됩니다. |
+| 4. | [fid(H.25.3 이상 또는 AppMeasurement for JavaScript의 폴백 쿠키)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 4 | 방문자의 브라우저가 쿠키를 승인합니다(퍼스트 파티). |
+| 5. | [HTTP 모바일 가입자 헤더](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_mobile.html) | 2 | 장치는 모바일 장치로 인식됩니다. |
+| 6. | [IP 주소, 사용자 에이전트, 게이트웨이 IP 주소](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 1 | 방문자의 브라우저가 쿠키를 승인하지 않습니다. |
 
 많은 시나리오에서 2개나 3개의 서로 다른 ID가 한 호출에 있는 경우를 볼 수도 있습니다. 하지만 Analytics에서는 해당 목록에 있는 첫 번째 ID를 공식 방문자 ID로 사용하며, `post_visid_high` 및 `post_visid_low` 열에 이 값을 분할합니다. 예를 들어, 사용자 지정 방문자 ID("vid" 쿼리 매개 변수에 포함됨)를 설정하는 경우, 이 ID는 동일한 히트에 있을 수 있는 다른 ID보다 먼저 사용됩니다.
