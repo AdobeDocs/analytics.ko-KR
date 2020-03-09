@@ -3,7 +3,7 @@ description: Adobe Analytics에서 수집하는 데이터와 기타 개인 정�
 keywords: privacy
 title: 개인 정보 보호 개요
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 Adobe는 Adobe 제품 또는 서비스에 의한 브라우징 정보 수집을 옵트아웃하는 기능에 관해 찾기 쉽고 읽기 쉬운 정보를 웹 사이트 방문자에게 제공할 것을 권장합니다.
 
-방문자는 Adobe 개인 정보 보호 센터에서 Adobe가 일반적으로 수집하는 정보를 사용하는 방법에 대해 [자세히 알아볼 수 있습니다](https://www.adobe.com/privacy.html). 조직은 Adobe의 서비스 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법을 공개할 수 있습니다. 귀하는 자체 개인정보 보호정책 작성, 개인정보 보호정책 준수, Adobe와의 서비스 계약 준수, 모든 적용 가능한 법규 준수에 대한 책임을 집니다.
+방문자는 Adobe [개인 정보 보호 센터](https://www.adobe.com/kr/privacy.html)에서 Adobe가 수집하는 정보를 일반적으로 사용하는 방법에 대해 자세히 알아볼 수 있습니다. 조직에서 Adobe의 서비스 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. 귀하는 자체 개인정보 보호정책 작성, 개인정보 보호정책 준수, Adobe와의 서비스 계약 준수, 모든 적용 가능한 법규 준수에 대한 책임을 집니다.
 
-## 데이터 모음 분류 {#section_F59D958D7AE44747846993E643CD4BF2}
+## 데이터 수집 분류 {#section_F59D958D7AE44747846993E643CD4BF2}
 
 Adobe Analytics에서는 다음 데이터를 수집합니다.
 
@@ -73,7 +73,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
-   <td colname="col2"> 자사 분석은 온라인 행동 광고("AdChoices")에 대한 자율 규제 프로그램의 범위에 속하지 않습니다. </td> 
+   <td colname="col2"> 자사 분석은 온라인 행동 광고("AdChoices")에 대한 자율 규제 프로그램의 범위에 포함되지 않습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
@@ -89,19 +89,19 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 유럽 </td> 
-   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨(x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값(x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/ko_KR/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨(x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값(x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. </p> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/ko_KR/reference/index.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
-   <td colname="col2"> 고객은 JavaScript 측정 코드의 쿠키 라이프타임 변수를 "none", "session" 또는 초 단위로 측정된 다른 지정된 값으로 설정할 수 있습니다. </td> 
+   <td colname="col2"> 고객은 JavaScript 측정 코드의 쿠키 라이프타임 변수를 "none", "session" 또는 다른 지정된 초단위 측정값으로 설정할 수 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 유럽 </td> 
-   <td colname="col2"> Adobe는 Adobe Analytics(이전 SiteCatalyst) 릴리스 버전 14.9 및 15.4에서 이제 Adobe ClientCare에서 활성화할 수 있는 새로운 "개인 정보 보호 기반" 설정을 개발했습니다.이 새 설정이 활성화되면 IP 주소가 Adobe에 의해 수집되면 IP 주소의 마지막 8진수(마지막 부분)가 즉시 값 0으로 바뀝니다. 이러한 익명화는 선택 사항인 IP 주소의 지역 조회와 ISP 조회를 포함하여, IP 주소의 모든 처리 이전에 수행됩니다. </td> 
+   <td colname="col2"> Adobe는 이제 Adobe Analytics(구 SiteCatalyst) 릴리스 버전 14.9와 15.4에 대해 Adobe ClientCare가 활성화할 수 있는 새로운 “계획적 개인 정보 보호” 설정을 개발했습니다. 이 새로운 설정을 활성화할 경우 IP 주소의 마지막 옥텟(마지막 부분)은 이 IP 주소가 Adobe에 의해 수집되면 즉시 값 0으로 대체됩니다. 이러한 익명화는 선택 사항인 IP 주소의 지역 조회와 ISP 조회를 포함하여, IP 주소의 모든 처리 이전에 수행됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 독일 </td> 
-   <td colname="col2"> <p>고객에게 적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, 고객은 Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들은 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. </p> <p>Adobe는 바이에른 데이터 보호 기관(Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA)이 검토하고 승인한 Analytics용 데이터 처리 계약(Vertrag fuer Auftragsdatenverarbeitung - ADV)을 준비했습니다. ADV는 독일어와 영어로 이용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>고객에게 적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, 고객은 Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들은 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. </p> <p>Adobe는 Analytics에 대해 바이에른 데이터 보호 기구(Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA)가 검토하고 승인한 데이터 처리 계약(Vertrag fuer Auftragsdatenverarbeitung – ADV)을 마련했습니다. ADV는 독일어와 영어로 이용할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
