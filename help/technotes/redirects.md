@@ -5,7 +5,7 @@ subtopic: Redirects
 title: 리디렉션 및 별칭
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -31,17 +31,17 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 사용자가 리디렉션을 발견하지 않는 다음 가설 시나리오를 고려하십시오.
 
-1. 사용자가 자신의 브라우저를 `www.google.com`**[!UICONTROL 을 가리키게 하고, 검색 필드에 &quot;할인 항공 티켓&quot;을 입력한 다음 검색]**단추를 클릭합니다.
-1. 브라우저가 해당 사이트([!DNL https://www.example.com/])/)에 대한 링크를 포함하는 검색 결과를 표시합니다. 검색 결과가 표시되고 브라우저의 주소 표시줄에 사용자가 검색 필드(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)에 입력한 검색어가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다.
-1. 사용자가 가설 사이트([!DNL https://www.example.com/])/)로 이동하는 링크를 클릭합니다. 사용자가 이 링크를 클릭하고 [!DNL example.com] 웹 사이트로 이동하면 [!DNL Analytics]는 JavaScript를 사용하여 참조 URL(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)과 현재 URL(`https://www.example.com/`)을 수집합니다.
+1. 사용자가 자신의 브라우저를 `www.google.com`을 가리키게 하고, 검색 필드에 &quot;할인 항공 티켓&quot;을 입력한 다음 **[!UICONTROL 검색]** 단추를 클릭합니다.
+1. 브라우저가 해당 사이트( [!DNL https://www.example.com/] )에 대한 링크를 포함하는 검색 결과를 표시합니다. 검색 결과가 표시되고 브라우저의 주소 표시줄에 사용자가 검색 필드(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)에 입력한 검색어가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다.
+1. 사용자가 가설 사이트( [!DNL https://www.example.com/] )로 이동하는 링크를 클릭합니다. 사용자가 이 링크를 클릭하고 [!DNL example.com] 웹 사이트로 이동하면 [!DNL Analytics]는 JavaScript를 사용하여 참조 URL(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)과 현재 URL(`https://www.example.com/`)을 수집합니다.
 1. [!DNL Analytics]는 [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진] 및 [!DNL Search Keywords] 등의 여러 보고서에 이러한 상호 작용 중에 수집된 정보를 보고합니다.
 
 ## 예: 리디렉션을 사용하여 찾아보기 {#section_921DDD32932847848C4A901ACEF06248}
 
 리디렉션으로 인해 브라우저는 실제 참조 URL을 완전히 지울 수 있습니다. 다음 시나리오를 참조하십시오.
 
-1. 사용자는 브라우저가 `https://www.google.com`을 가리키게 하고 검색 필드에 *할인 항공 티켓*&#x200B;을 입력한 다음 **[!UICONTROL 검색]**단추를 클릭합니다.
-1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나([!DNL https://www.flytohawaiiforfree.com/])/)에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.example.com/` /으로 리디렉션하도록 구성되었습니다.
+1. 사용자는 브라우저가 `https://www.google.com`을 가리키게 하고 검색 필드에 *할인 항공 티켓*&#x200B;을 입력한 다음 **[!UICONTROL 검색]** 단추를 클릭합니다.
+1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나( [!DNL https://www.flytohawaiiforfree.com/] )에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.example.com/` 으로 리디렉션하도록 구성되었습니다.
 1. 사용자가 `https://www.flytohawaiiforfree.com/` 링크를 클릭하면 서버가 사용자를 주 사이트인 `https://www.example.com`으로 리디렉션합니다. 리디렉션이 발생할 때 브라우저가 참조 URL을 지우므로 [!DNL Analytics] 데이터 수집에 중요한 데이터가 유실됩니다. 따라서 [!DNL Analytics] 보고서(예: [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진], [!UICONTROL 검색 키워드])에 사용된 원래 검색 정보가 유실됩니다.
 
 ## 구현 리디렉션 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
@@ -64,7 +64,7 @@ redirects_js_override.xml
 
  -->
 
-아래의 코드 조각은 두 개의 JavaScript 변수인 *`s_referrer`*와*`s_pageURL`*&#x200B;을 보여줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
+아래의 코드 조각은 두 개의 JavaScript 변수인 *`s_referrer`*&#x200B;와 *`s_pageURL`*&#x200B;을 보여줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -80,7 +80,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->페이지에서 *`s.referrer`*를 한 번만 설정합니다. 모든 추적 호출이나 추적되는 모든 링크 클릭으로 두 번 이상 설정하면 검색 엔진 및 키워드와 같은 레퍼러 및 관련 차원들이 두 번씩 계산됩니다.
+>페이지에서 *`s.referrer`*&#x200B;를 한 번만 설정합니다. 모든 추적 호출이나 추적되는 모든 링크 클릭으로 두 번 이상 설정하면 검색 엔진 및 키워드와 같은 레퍼러 및 관련 차원들이 두 번씩 계산됩니다.
 
 ## getQueryParam를 사용한 리디렉션 {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
@@ -108,7 +108,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-브라우저는 URL을 참조하여 스크립트를 작성하므로, 원래 레퍼러 정보를 전달할 리디렉션(예: 웹 서버, 서버측 코드, 클라이언트 측 코드)을 처리하는 메커니즘을 구성해야 합니다. 또한 별칭 링크 URL을 기록할 경우에도 이것을 최종 랜딩 페이지로 전달해야 합니다. 현재 URL을 대체하려면 *`s_pageURL`*변수를 사용하십시오.
+브라우저는 URL을 참조하여 스크립트를 작성하므로, 원래 레퍼러 정보를 전달할 리디렉션(예: 웹 서버, 서버측 코드, 클라이언트 측 코드)을 처리하는 메커니즘을 구성해야 합니다. 또한 별칭 링크 URL을 기록할 경우에도 이것을 최종 랜딩 페이지로 전달해야 합니다. 현재 URL을 대체하려면 *`s_pageURL`* 변수를 사용하십시오.
 
 리디렉션을 구현하는 방법으로는 여러 가지가 있으므로, 웹 운영 그룹 또는 온라인 광고 파트너과 함께 확인해서 웹 사이트에서 리디렉션을 실행하는 특정 메커니즘을 식별해야 합니다.
 
@@ -120,7 +120,7 @@ redirects_referrer.xml
 
  -->
 
-일반적으로 [!DNL Analytics]는 브라우저의 [!UICONTROL document.referrer] 속성에서 참조 URL을 획득하고 [!UICONTROL document.location] 속성에서 현재 URL을 획득합니다. 값을 *`referrer`*및*`pageURL`* 변수에 전달하여 기본 처리를 재정의할 수 있습니다. referrer 변수로 값을 전달하여 [!DNL Analytics]에 [!UICONTROL document.referrer] 속성에 있는 레퍼러 정보를 무시하고 사용자가 정의한 대체 값을 사용할 것을 지시합니다.
+일반적으로 [!DNL Analytics]는 브라우저의 [!UICONTROL document.referrer] 속성에서 참조 URL을 획득하고 [!UICONTROL document.location] 속성에서 현재 URL을 획득합니다. 값을 *`referrer`* 및 *`pageURL`* 변수에 전달하여 기본 처리를 재정의할 수 있습니다. referrer 변수로 값을 전달하여 [!DNL Analytics]에 [!UICONTROL document.referrer] 속성에 있는 레퍼러 정보를 무시하고 사용자가 정의한 대체 값을 사용할 것을 지시합니다.
 
 따라서 랜딩 페이지의 최종 버전은 &quot;할인 항공 티켓&quot; 시나리오에서 나타난 문제를 수정하기 위해 다음 코드를 포함해야 합니다.
 
