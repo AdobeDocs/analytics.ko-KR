@@ -5,7 +5,7 @@ subtopic: Visitors
 title: 고유 방문자 수 식별
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -46,7 +46,7 @@ Adobe Analytics에서는 방문자를 식별하는 메커니즘을 몇 가지 �
 | 데이터 삽입 API | JavaScript를 허용하지 않는 무선 프로토콜을 사용하는 장치에서는 `<visitorid/>` XML 요소가 들어 있는 XML 게시물을 해당 서버로부터 Adobe 수집 서버로 보낼 수 있습니다. |
 | URL 다시 쓰기 및 VISTA | 일부 배포 아키텍처에서는 쿠키를 설정할 수 없는 경우 세션 상태를 유지할 수 있도록 URL 다시 쓰기를 지원합니다. 이와 같은 경우, Adobe 엔지니어링 서비스에서는 페이지의 URL에서 세션 값을 찾는 [!DNL VISTA] 규칙을 구현한 다음 형식을 지정하여 [!UICONTROL visid] 값에 삽입할 수 있습니다. |
 >[!CAUTION]
->**사용자 지정 방문자 ID는 세분화/고유해야 함&#x200B;**: 사용자 지정 방문자 ID가 잘못 구현되면 데이터가 올바르지 않고 보고 성능이 저하될 수 있습니다. 사용자 지정 방문자 ID가 고유하지 않거나 세분화되지 않거나 문자열 &quot;NULL&quot; 또는 &quot;0&quot;과 같은 일반적인 기본값으로 잘못 설정된 경우 여러 방문자의 히트가 Adobe Analytics에서 단일 방문자로 표시됩니다. 이 경우 방문자 수가 너무 적고 세그먼트가 해당 방문자에 대해 제대로 작동하지 않는 올바르지 않은 데이터가 발생합니다. 세분화되지 않은 사용자 지정 방문자 ID로 인해 데이터가 Analytics 보고 클러스터의 여러 노드에 제대로 전파되지 않습니다. 이 경우 한 노드가 오버로드되어 보고서 요청을 적시에 처리할 수 없습니다. 결과적으로 보고서 세트에 대한 모든 보고가 실패합니다.<br>Analytics에서 종종 균형이 맞지 않는 데이터 몇 달치를 한 번에 처리하기도 하므로 잘못 구현된 사용자 지정 방문자 ID가 보고 성능에 곧바로 영향을 주지 않을 수 있습니다. 하지만 시간이 지나면서 Analytics에서 영향을 받는 보고서 세트에 대한 처리를 비활성화해야 할 정도로 잘못 구현된 사용자 지정 방문자 ID 값이 문제가 될 수 있습니다.</br><br>구현자는 단일 사용자 지정 방문자 ID 값을 보고서 세트 트래픽의 1% 이상을 처리할 수 없다는 지침을 따라야 합니다. 1%의 지침이 대부분의 보고서 세트에 충분하지만, 보고 성능에 영향을 줄 수 있는 실제 제한은 매우 큰 보고서 세트의 경우 1%보다 작을 수 있습니다.</br>
+>**사용자 지정 방문자 ID는 세분화/고유해야 함&#x200B;**: 사용자 지정 방문자 ID가 잘못 구현되면 데이터가 올바르지 않고 보고 성능이 저하될 수 있습니다. 사용자 지정 방문자 ID가 고유하지 않거나 세분화되지 않거나 문자열 &quot;NULL&quot; 또는 &quot;0&quot;과 같은 일반적인 기본값으로 잘못 설정된 경우 여러 방문자의 히트가 Adobe Analytics에서 단일 방문자로 표시됩니다. 이 경우 방문자 수가 너무 적고 세그먼트가 해당 방문자에 대해 제대로 작동하지 않는 올바르지 않은 데이터가 발생합니다. 세분화되지 않은 사용자 지정 방문자 ID로 인해 데이터가 Analytics 보고 클러스터의 여러 노드에 제대로 전파되지 않습니다. 이 경우 한 노드가 오버로드되어 보고서 요청을 적시에 처리할 수 없습니다. 결과적으로 보고서 세트에 대한 모든 보고가 실패합니다.<br>Analytics에서 종종 균형이 맞지 않는 데이터 몇 달치를 한 번에 처리하기도 하므로 잘못 구현된 사용자 지정 방문자 ID가 보고 성능에 곧바로 영향을 주지 않을 수 있습니다. 하지만 시간이 지나면서 Analytics에서 영향을 받는 보고서 세트에 대한 처리를 비활성화해야 할 정도로 잘못 구현된 사용자 지정 방문자 ID 값이 문제가 될 수 있습니다.</br><br>구현자는 단일 사용자 지정 방문자 ID 값이 보고서 세트 트래픽의 1% 이상을 처리할 수 없다는 지침을 따라야 합니다. 1% 지침은 대부분의 보고서 세트에 충분하지만, 보고 성능에 영향을 줄 수 있는 실제 제한은 매우 큰 보고서 세트의 경우 1%보다 작을 수 있습니다.</br>
 
 ## Analytics 방문자 ID
 
@@ -68,7 +68,7 @@ Apple Safari와 같은 일부 브라우저는 현재 웹 사이트의 도메인�
 
 ID 서비스는 레거시 Analytics 방문자 ID 메커니즘을 대체하며, 하트비트 비디오 측정, Target용 Analytics 및 향후 Experience Cloud 핵심 서비스 및 통합에 필요합니다.
 
-이 서비스에 대한 제품 설명서가 필요하면 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)를 참조하십시오.
+이 서비스에 대한 제품 설명서가 필요하면 [Identity Service](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 참조하십시오.
 
 ## 모바일 장치 식별
 
@@ -145,7 +145,7 @@ Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP 가
 
 예를 들어 &quot;callinglineid&quot;는 &quot;X-Up-Calling-Line-ID&quot; 및 &quot;nokia-callinglineid&quot;와 일치합니다. 헤더에서 기대할 내용은 헤더 유형을 통해 알 수 있습니다. 헤더 우선 순위는 다음과 같습니다(&quot;callinglineid&quot; 헤더가 있을 경우, &quot;subno&quot; 대신 &quot;callinglineid&quot;가 사용됨).
 
-사용 가능한 [다이내믹 변수](../implement/vars/page-vars/dynamic-variables.md)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
+ [다이내믹 변수](../implement/vars/page-vars/dynamic-variables.md)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
 
 ## 대체 ID 방법
 
