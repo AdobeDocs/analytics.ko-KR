@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 title: 방문자 마이그레이션
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 방문자 마이그레이션을 통해 데이터 수집 도메인을 변경할 때 방문자 식별 쿠키를 보존할 수 있습니다. 데이터 수집 도메인은 다음 이유로 변경될 수 있습니다.
 
-* `2o7.net`에서 `omtrdc.net`([지역별 데이터 수집](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))으로 이동하는 경우
+* `2o7.net`에서 `omtrdc.net`([지역별 데이터 수집](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/rdc/))으로 이동하는 경우
 
-* [Experience Cloud 방문자 ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)를 구현하고 CNAME/퍼스트 파티 데이터 수집 도메인에서 `2o7.net` 또는 `omtrdc.net`([지역별 데이터 수집](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))으로 이동하는 경우
+* [Experience Cloud 방문자 ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 구현하고 CNAME/퍼스트 파티 데이터 수집 도메인에서 `2o7.net` 또는 `omtrdc.net`([지역별 데이터 수집](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/rdc/))으로 이동하는 경우
 
 * `2o7.net` 또는 `omtrdc.net`에서 CNAME/자사 데이터 수집([자사 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/))으로 이동하는 경우
 
@@ -39,7 +39,7 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>시작하기:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  >고객 지원 센터에 문의</a>하여 마이그레이션하려는 도메인과 활성화하려는 마이그레이션 기간(30일, 60일 또는 90일)을 알려줍니다. 비보안 및 보안 도메인을 포함하도록 하십시오. </p> </td> 
+   <td colname="col1"> <p> <b>시작하기:</b> <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html"  >고객 지원 센터에 문의</a>하여 마이그레이션하려는 도메인과 활성화하려는 마이그레이션 기간(30일, 60일 또는 90일)을 알려줍니다. 비보안 및 보안 도메인을 포함하도록 하십시오. </p> </td> 
    <td colname="col3"> <p>마이그레이션할 대상 및 원본 도메인에 대한 <i>exact</i> 구문을 포함한 목록을 작성합니다. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -52,7 +52,7 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 
-   <td colname="col3"> <p>사용 [패킷 모니터](../implement/validate/packet-monitor.md)을 통해 처음으로 사이트에 액세스하거나 쿠키를 지운 후 200(확인) HTTP 상태 코드 이전에 두 개의 302(리디렉션) HTTP 상태 코드가 표시되는지 확인할 수 있습니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
+   <td colname="col3"> <p> [패킷 모니터](../implement/validate/packet-monitor.md)를 사용하여 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200(OK) HTTP 상태 코드 앞에 302(리디렉션) HTTP 상태 코드가 두 개 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>전체 마이그레이션 기간</b>: 이전 활성 호스트 이름에 대해 DNS 레코드를 유지합니다. </p> </td> 
