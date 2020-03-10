@@ -4,7 +4,7 @@ title: Experience Cloud에 세그먼트 게시
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -118,6 +118,7 @@ AAM에서, Analytics가 Experience Cloud와 세그먼트를 공유할 때 주어
 ![](assets/aam-traits.png)
 
 * 트레이트가 하나인 세그먼트가 만들어집니다. 이 세그먼트는 세그먼트가 게시된 보고서 세트와 연결된 데이터 소스를 사용합니다.
+* 이제 트레이트 만료가 16일로 설정됩니다(이전에는 2일).
 
 ## [!DNL Adobe Target]에서 세그먼트 보기
 
