@@ -15,7 +15,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 2. 오른쪽 상단에 있는 9개의 격자 메뉴를 클릭한 다음, [!UICONTROL 분석]을 클릭합니다.
-3. 상단 메뉴에서 [!UICONTROL 관리자] &gt; [!UICONTROL 데이터 피드]를 클릭합니다.
+3. 상단 메뉴에서 [!UICONTROL 관리자] > [!UICONTROL 데이터 피드]를 클릭합니다.
 4. 상단 근처에 있는 작업 탭을 클릭합니다.
 
 ![데이터 피드 메뉴](assets/AdminMenu.png)
