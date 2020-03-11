@@ -1,9 +1,9 @@
 ---
-description: FTP 파일 처리 시간은 분류이든 Data Sources이든 처리 큐에 있는 파일 수와 파일 크기를 기반으로 합니다.
+description: FTP 파일 처리 시간은 분류이든 데이터 소스이든 처리 큐에 있는 파일 수와 파일 크기를 기반으로 합니다.
 keywords: ftp;sftp
 title: FTP 처리 시간
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
