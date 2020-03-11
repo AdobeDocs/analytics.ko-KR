@@ -3,7 +3,7 @@ description: 모든 Adobe FTP 계정은 데이터 저장 공간이 2GB(또는 63
 keywords: ftp;sftp
 title: FTP 제한 및 데이터 유지
 uuid: deb807c9-e988-4587-b518-881857cad1cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc14751c810019c5257a23a8a598b16f42ed10ee
 
 ---
