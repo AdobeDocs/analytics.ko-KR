@@ -3,7 +3,7 @@ description: 'null'
 title: 기여도 분석 패널 개요
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
+source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
 | ![시간 감소](assets/time_decay.png) | 시간 가치 하락 | 기본값이 7일인 사용자 지정 반감기 매개 변수를 사용하는 팔로우 및 기하급수적 감소. 각 채널의 가중치는 터치 포인트 시작과 최종 전환 사이에 경과된 시간에 따라 달라집니다. 크레딧을 결정하는 데 사용되는 공식은 `2^(-t/halflife)`이고, 여기서 `t`는 터치 포인트와 전환 사이의 시간입니다. 그러면 모든 터치 포인트가 100%로 표준화됩니다. | 날짜가 사전에 결정된 이벤트에 대해 비디오 광고 또는 마케팅을 정기적으로 실행하는 팀에 적합합니다. 마케팅 이벤트 후 전환이 일어나기까지 시간이 오래 걸릴수록 크레딧은 적게 제공됩니다. |
 | ![기여도](assets/participation.png) | 기여도 | 모든 고유한 터치 포인트에 100% 크레딧을 제공합니다. 다른 기여도 분석 모델에 비해 총전환 수가 부풀려집니다. 기여도는 여러 번 표시되는 채널을 중복 제거합니다. | 고객이 지정된 상호 작용에 얼마나 자주 노출되는지를 이해하는 데 유용합니다. 미디어 조직은 컨텐츠 속도를 계산하는 데 이 모델을 자주 사용합니다. 소매 조직은 사이트 내에서 전환에 중요한 부분을 이해하는 데 종종 이 모델을 사용합니다. |
 
-> [!NOTE] 다음 알고리즘 속성 모델은 현재 Adobe Analytics [Labs에서](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) 제공되고 있으며 2020년 일반 릴리스의 일부로 제공될 예정입니다.
+> [!NOTE] 다음 알고리즘 속성 모델은 현재 Adobe Analytics [Labs에서](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) 제공되고 있으며 결국 일반 릴리스의 일부가 될 것입니다.
 
 | UI 아이콘 | 기여도 분석 모델 | 정의 | 사용 시기 |
 | --- | --- | --- | --- |
