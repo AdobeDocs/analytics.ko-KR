@@ -3,7 +3,7 @@ title: JavaScript용 AppMeasurement 릴리스 노트
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
+source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ---
 
@@ -20,7 +20,7 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 릴리스 날짜: **2020년 3월 5일**
 
-* 보안 관련 문제를 수정했습니다.
+* JSLint 경고를 표시하지 않도록 Internet Explorer 검색을 업데이트하여 보안 관련 문제를 해결했습니다.
 
 ## 버전 2.19.0
 
