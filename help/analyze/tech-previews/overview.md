@@ -1,7 +1,7 @@
 ---
 title: Labs 사용 안내서
 description: Adobe Analytics용 프로토타입 프로젝트 미리 보기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
