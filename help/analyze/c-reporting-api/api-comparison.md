@@ -2,7 +2,7 @@
 description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 
-> [!NOTE] 지연과 관련하여 Analytics for Target(A4T)은 통합 보고를 위해 동일한 히트에 Analytics 및 Target 데이터를 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
+> [!NOTE] 지연과 관련하여 타겟 분석(A4T)은 통합 보고를 위해 같은 히트에 분석 데이터와 타겟 데이터를 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -47,7 +47,7 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
    <td colname="col5"> 전체 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > 보고 인터페이스</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/"  > 보고 인터페이스</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Reports &amp; Analytics, Report Builder, API의 실시간 보고서 </td> 
    <td colname="col4"> API 전용 </td> 
@@ -86,7 +86,7 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > 웹 서비스</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 실시간 보고서</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > 라이브 스트리밍 개요</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
