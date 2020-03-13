@@ -1,7 +1,6 @@
 ---
-description: 'null'
 title: 데이터 레이어 개체를 데이터 요소에 매핑
-uuid: null
+description: 데이터 레이어에서 읽도록 론치를 구성합니다.
 translation-type: tm+mt
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
@@ -10,35 +9,28 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 # 데이터 레이어 개체를 데이터 요소에 매핑
 
+조직에서 사이트에 데이터 레이어를 설정하고 구현하면 Launch 내의 데이터 요소에 데이터 레이어 개체를 매핑할 수 있습니다.
 
-구현을 위한 데이터 레이어를 [만든](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html) 후 Launch의 [데이터 요소에 해당 개체의 매핑을 수행할 수 있습니다](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element). 데이터 요소는 다양한 방식으로 활용할 수 있는 데이터 맵에 대한 기본 요소입니다. 데이터 요소를 사용하여 Analytics 보고서를 비롯한 Adobe Platform 솔루션에서 데이터를 수집, 구성 및 제공할 수 있습니다.
+## 전제 조건
 
-데이터 레이어 개체를 론치 데이터 요소에 매핑하려면 다음을 수행합니다.
+[데이터 레이어](../prepare/data-layer.md)만들기:사이트에 데이터 레이어가 있는지 확인합니다. 기술적으로 모든 JavaScript 개체를 매핑하거나 페이지에서 직접 CSS 요소를 스크랩할 수 있지만 Adobe에서는 이 방법을 마지막 수단으로 권장합니다. 사이트 레이아웃이 변경되면 론치에 사용된 CSS 선택기의 작동이 중지되어 데이터가 손실됩니다.
 
-1. 론치에서 데이터 요소를 추가할 속성의 이름을 클릭합니다. 속성을 이미 설정하지 않은 경우 론치 속성 [만들기 지침을 참조하십시오](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html).
+## Adobe Experience Platform Launch를 사용하여 데이터 요소 제작
 
-2. Click **Data Elements** and then click **Create New Data Element**.
+[데이터 요소는](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) Launch의 구성 요소로서 도구 전체에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
+
+1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
+1. 원하는 론치 속성을 클릭합니다.
+1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
 
    ![데이터 요소 만들기](assets/createelement.png)
 
+1. 데이터 요소의 이름을 입력합니다. 추적하려는 데이터 레이어의 JavaScript 변수에 해당하는 간단한 레이블이 될 수 있습니다.
+1. 드롭다운 아래에서 [!UICONTROL Extension] 을 선택합니다 [!UICONTROL Core].
+1. 드롭다운 아래에서 [!UICONTROL Data Element Type] 을 선택합니다 [!UICONTROL JavaScript Variable]. 이 데이터 요소에 매핑할 JavaScript 변수를 입력할 수 있는 텍스트 필드가 오른쪽에 나타납니다.
+1. 원하는 Javascript 변수를 일반적으로 데이터 레이어 내에 입력합니다. 예를 들어 조직의 데이터 레이어가 Adobe의 권장 방식과 거의 일치하는 경우 값이 될 수 `digitalData.page.pageInfo.pageName`있습니다. 브라우저의 콘솔을 사용하여 JavaScript 변수 구문 및 값의 유효성을 검사할 수 있습니다.
+1. 클릭 [!UICONTROL Save].
 
-3. 데이터 요소의 이름을 입력합니다. 이 이름은 추적하려는 데이터 레이어의 JavaScript 변수에 해당하는 간단한 레이블이어야 합니다.
+## 다음 단계
 
-4. [확장]에서 [코어]를 **선택합니다.** 이 확장에는 필요한 모든 변수가 포함되어 있습니다.
-
-5. For **Data Element Type**, select **JavaScript Variable**. 해당 **필드에 Javascript 변수 이름을** 입력합니다. 이는 JavaScript 데이터 레이어의 정확한 개체 이름과 일치해야 합니다.
-
-6. 기본값 **에**&#x200B;기본적으로 설정하려는 값을 입력하거나 해당되는 경우 비워 둡니다.
-
-7. 사용 사례에 따라, 소문자 값을 강제 적용하고 깔끔한 텍스트를 적용할 옵션을 선택할 수 있습니다(Launch는 일반적인 간격을 적용합니다).
-
-8. 새 데이터 요소에 대한 Launch 스토어 값을 보유할 기간을 지정합니다.
-
-9. **저장**&#x200B;을 클릭합니다.
-
-다음 예는 Launch에서 데이터 레이어의 JavaScript 변수에 대해 생성된 페이지 이름 데이터 요소를 ``pageName`` 보여줍니다.
-
-![요소 지정](assets/new_element.png)
-
-
-데이터 레이어 개체를 데이터 요소에 매핑하면 이를 활용하여 Analytics 변수를 채울 수 있습니다. 자세한 내용은 데이터 요소를 [분석 변수에 매핑을 참조하십시오](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html).
+[데이터 요소를 Analytics 변수에](elements-to-variable.md)매핑:분석 작업 공간에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
