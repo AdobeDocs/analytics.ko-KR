@@ -2,7 +2,7 @@
 title: 데이터 계층 만들기
 description: Analytics 구현에서 데이터 계층이 무엇이고 Adobe Analytics에서 이 데이터 계층을 사용하여 변수를 매핑하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -167,3 +167,7 @@ digitalData = {
 ## 데이터 레이어 값 설정
 
 데이터 레이어는 일반적으로 서버측을 생성하며 사이트 컨텐츠를 작성하는 데 사용된 동일한 객체를 참조합니다. 조직의 [솔루션 디자인 문서에](solution-design.md)설정된 추적 요구 사항을 기반으로 사이트의 데이터 레이어를 설정합니다.
+
+## 다음 단계
+
+[데이터 레이어 개체를 데이터 요소에](../launch/layer-to-elements.md)매핑:Adobe Experience Platform Launch에서 사이트의 데이터 레이어를 사용할 수 있습니다.
