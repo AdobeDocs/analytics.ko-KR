@@ -2,7 +2,7 @@
 title: 솔루션 디자인 문서 만들기
 description: 솔루션 디자인 문서가 무엇이고 솔루션 디자인 문서를 조직에서 사용하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 솔루션 디자인 문서에서 변수를 구현합니다.
 
-* eVar 소개: eVar가 무엇인지, eVar가 어떻게 작동하는지, 구현에서 eVar를 어떻게 사용하는지 알아보기
-* 이벤트 소개: 성공 이벤트가 무엇인지, 성공 이벤트가 어떻게 작동하는지, 구현에서 성공 이벤트를 어떻게 사용하는지 알아보기
+[데이터 레이어](data-layer.md)만들기:디자인 문서의 변수를 사이트의 JavaScript 변수로 변환합니다.
