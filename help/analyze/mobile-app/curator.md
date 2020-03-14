@@ -188,6 +188,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **모바일 앱**&#x200B;을 �
    3. Testflight 앱을 설치한 후에 아래에 표시된 대로 Testflight 내에서 Adobe Analytics 모바일 앱을 찾아서 설치합니다.
 
       ![Testflight 화면](assets/testflight2.png)
+
    **Android를 사용하는 경영진 사용자:**
 
    1. 사용자의 장치에서 다음 Play 스토어 링크(**도구** > **모바일 앱** 아래에 있는 Analytics에서도 사용할 수 있음)를 탭합니다.
