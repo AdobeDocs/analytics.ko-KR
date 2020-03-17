@@ -3,7 +3,7 @@ description: 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 �
 title: 방문자 프로필
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
