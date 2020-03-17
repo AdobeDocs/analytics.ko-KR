@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 전환 분류
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 전환 분류
 
-분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 유료 검색 캠페인을 "팝 뮤직 용어" 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
+분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 유료 검색 캠페인을 &quot;팝 뮤직 용어&quot; 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
 
 ## 전환 분류 {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
@@ -61,15 +61,15 @@ t_classification_conversion.xml
 
 관리자에서 전환 분류를 추가하는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.
-1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 전환 분류]**&#x200B;를 클릭합니다.
-1. **분류 유형 선택** 드롭다운 목록에서 분류를 추가하려는 변수를 선택합니다.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 전환 분류]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 분류 유형 선택]** 드롭다운 목록에서 분류를 추가하려는 변수를 선택합니다.
 
    ![단계 정보](assets/sub_class_create.png)
 
 1. **[!UICONTROL 분류 편집]** 아이콘으로 마우스를 가져간 다음 **[!UICONTROL 분류 추가]**&#x200B;를 선택합니다.
-1. **유형 선택** 필드에서 변수에 추가하려는 분류 유형을 선택합니다.
+1. **[!UICONTROL 유형 선택]** 필드에서 변수에 추가하려는 분류 유형을 선택합니다.
 
    옵션에는 **[!UICONTROL 텍스트]** 및 **[!UICONTROL 숫자]**&#x200B;가 포함됩니다. 분류 유형에 대한 자세한 내용은 [분류에 대하여](/help/components/c-classifications2/c-classifications.md)를 참조하십시오.
 1. **[!UICONTROL 테스트 분류]** 대화 상자에서 원하는 대로 분류를 구성합니다.
@@ -91,9 +91,9 @@ t_classification_delete_conversion.xml
 
 더 이상 필요하지 않은 전환 분류를 삭제합니다.
 
-1. 세트 헤더에서 **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭하여 보고서 세트 관리자를 엽니다.
+1. 세트 헤더에서 **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭하여 보고서 세트 관리자를 엽니다.
 1. 보고서 세트 선택.
-1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 전환]** &gt; **[!UICONTROL 전환 분류]**&#x200B;를 클릭합니다.
-1. **분류 유형 선택** 드롭다운 목록에서 분류를 삭제하려는 변수를 선택합니다.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 전환 분류]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 분류 유형 선택]** 드롭다운 목록에서 분류를 삭제하려는 변수를 선택합니다.
 1. **[!UICONTROL 분류 편집]** 아이콘으로 마우스를 가져간 다음 **[!UICONTROL 분류 삭제]**&#x200B;를 선택합니다.
 1. 분류 삭제 대화 상자에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
