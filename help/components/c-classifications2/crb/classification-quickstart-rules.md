@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류 규칙
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 규칙 빌더]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 분류 규칙 빌더]**
 
-규칙 빌더를 사용하면 *`classification rules`* 목록인 *`classification rule set`*&#x200B;를 만들 수 있습니다. 규칙이 지정한 기준에 일치시킨 다음 작업을 수행합니다.
+규칙 빌더를 사용하면 *`classification rule set`* 목록인 *`classification rules`*&#x200B;를 만들 수 있습니다. 규칙이 지정한 기준에 일치시킨 다음 작업을 수행합니다.
 
 분류 규칙은 다음과 같은 경우에 편리합니다.
 
@@ -55,15 +55,15 @@ about_classification_rules.xml
 
 ## 규칙에 관한 중요한 정보
 
-* 분류에 사용할 [그룹 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)을 [!UICONTROL 관리자 도구]에서 지정합니다.
+* 분류에 사용할 [그룹 권한](https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html)을 [!UICONTROL 관리자 도구]에서 지정합니다.
 
 * **정규 표현식**: 도움말은 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 아래에 있습니다.
 
 * **보고서 세트**: 최소 1개의 보고서 세트를 선택할 때까지 분류를 선택할 수 없습니다. 규칙 세트를 만들고 변수를 할당할 때까지 보고서 세트를 적용할 수 없습니다.
 
-   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
+   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오.  [키](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. 자세한 내용은 [규칙 우선 순위 정보](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다.  [규칙 우선 순위 정보](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -78,7 +78,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/c-classifications2/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-   분류 덮어쓰기 [](/help/components/c-classifications2/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+    [](/help/components/c-classifications2/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/c-classifications2/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -102,7 +102,7 @@ regex_classification_rules.xml
 * [정규 표현식 - 추적 코드 예](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
 * [정규 표현식 - 특정 문자 분류](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
 * [정규 표현식 - 다양한 길이의 추적 코드 일치](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [정규 표현식 - "포함되지 않음" 예](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
+* [정규 표현식 - &quot;포함되지 않음&quot; 예](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [정규 표현식 - 참조 테이블](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
 > [!NOTE] 우수 사례로서, 정규 표현식은 구분 기호를 사용하는 추적 코드에 가장 적합합니다.
@@ -199,7 +199,7 @@ regex_classification_rules.xml
 | 정규 표현식  일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | 정규 표현식  일치 문자열 a:b:c:d의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## 정규 표현식 - "포함되지 않음" 예 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## 정규 표현식 - &quot;포함되지 않음&quot; 예 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 이 예는 이 사례 `13`에서 특정 문자가 포함되지 않은 모든 문자열에 일치하는 정규 표현식을 제공합니다.
 
@@ -257,7 +257,7 @@ c:d:yoyo
 | `a{3,}` | 3개 이상 |
 | `a{3,6}` | 3과 6 사이 |
 
-https://rubular.com은 정규 표현식 유효성 확인에 좋은 사이트입니다.
+https://rubular.com 은 정규 표현식 유효성 확인에 좋은 사이트입니다.
 
 ## 규칙 우선 순위 정보
 
@@ -313,15 +313,15 @@ t_classification_rule.xml
 
 1. **[!UICONTROL 보고서 세트]** 옆의 **[!UICONTROL 세트 추가]**&#x200B;를 클릭하여 하나 이상의 보고서 세트를 지정함으로써 이 규칙 세트에 할당합니다.
 
-   **[!UICONTROL 보고서 세트 선택]페이지가 표시됩니다.**
+   **[!UICONTROL 보고서 세트 선택]** 페이지가 표시됩니다.
 
    >[!NOTE]
-   다음 조건이 충족될 때에&#x200B;*`only`*&#x200B;만 보고서 세트가 이 페이지에 표시됩니다. &gt;
+   다음 조건이 충족될 때에&#x200B;*`only`*&#x200B;만 보고서 세트가 이 페이지에 표시됩니다. >
 
    * [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
-   (See *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.)
+   ( 전제 조건에 대한 자세한 내용은 *`Variable`*&#x200B;분류 규칙 세트[의 ](/help/components/c-classifications2/crb/classification-rule-set.md)을 참조하십시오.)
 
-   * 규칙 세트를 만들기 위해 [규칙 세트 추가](/help/components/c-classifications2/crb/classification-rule-set.md)를 클릭하면 표시되는 **[!UICONTROL 사용 가능한 보고서 세트]** 페이지에서 보고서 세트를 선택했습니다.
+   * 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/c-classifications2/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
 
 
 1. 기존 값을 덮어쓸지 여부를 지정합니다.
@@ -393,7 +393,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. (선택 사항) 분류를 덮어쓰려면 **[!UICONTROL 분류 덮어쓰기]** *`<selection>`*&#x200B;를 활성화합니다.
+1. (선택 사항) 분류를 덮어쓰려면 **[!UICONTROL 분류 덮어쓰기]***`<selection>`* 를 활성화합니다.
 
    이 옵션을 사용하여 영향 받는 키의 기존 분류를 덮어쓸 수 있습니다.
 
