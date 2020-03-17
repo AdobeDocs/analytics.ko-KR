@@ -2,7 +2,7 @@
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 title: 참조  고급 함수
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ## Include-Zeros 매개 변수의 의미는 무엇입니까? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
-계산에 0을 포함할지 여부를 알려 줍니다. 때로 영은 "아무것도 없다"는 뜻이지만, 경우에 따라서는 중요합니다.
+계산에 0을 포함할지 여부를 알려 줍니다. 때로 영은 &quot;아무것도 없다&quot;는 뜻이지만, 경우에 따라서는 중요합니다.
 
 예를 들어, 매출 지표가 있고, 그다음에 페이지 보기 지표를 보고서에 추가하는 경우, 모두 0인 매출 행이 갑자기 더 많아집니다. 이 경우 매출 열에 대해 수행하는 MEAN, MIN, QUARTILE 등의 계산에 영향을 주지 않으려면 include-zeros 매개 변수를 확인해야 합니다.
 
@@ -55,17 +55,17 @@ Approximate Count Distinct (dimension)
 
 근사 고유 개수(고객 ID eVar)는 이 기능의 일반적인 사용 사례입니다.
 
-새로운 '예상 고객' 계산된 지표에 대한 정의:
+새로운 &#39;예상 고객&#39; 계산된 지표에 대한 정의:
 
 ![](assets/approx-count-distinct.png)
 
-다음과 같은 방식으로 "예상 고객" 지표 측정 항목을 보고에 사용할 수 있습니다.
+다음과 같은 방식으로 &quot;예상 고객&quot; 지표 측정 항목을 보고에 사용할 수 있습니다.
 
 ![](assets/approx-customers.png)
 
 ## 고유 수 초과됨 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count() 및 RowCount()와 마찬가지로 근사 고유 개수()는 ["고유 수 초과" 한도](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)에 속합니다. 특정 차원의 특정 월에 "고유 수 초과" 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
+Count() 및 RowCount()와 마찬가지로 근사 고유 개수()는 [&quot;고유 수 초과&quot; 한도](https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_uniques_high_numbers.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
 
 ## 계수 함수 비교 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -111,7 +111,7 @@ ATAN(metric)
 
 ## 지수 회귀: 예측된 Y(행) {#concept_25615693312B4A7AB09A2921083502AD}
 
-를 기반으로 최적선을 계산하기 위해 "최소 제곱법"을 사용하여 알려진 x-값(metric_X)이 주어지면 예측된 y-값(metric_Y)을 계산합니다.
+를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 x-값(metric_X)이 주어지면 예측된 y-값(metric_Y)을 계산합니다.
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -387,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## 로그 회귀: 예측된 Y(행) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-[!DNL Y = a ln(X) + b]를 기반으로 최적선을 계산하기 위해 "최소 제곱법"을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어지면 예측된 [!DNL y] 값(metric_Y)을 계산합니다. 이것은 ESTIMATE 방정식을 사용하여 계산됩니다.
+[!DNL Y = a ln(X) + b]를 기반으로 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값(metric_X)이 주어지면 예측된 [!DNL y] 값(metric_Y)을 계산합니다. 이것은 ESTIMATE 방정식을 사용하여 계산됩니다.
 
 회귀 분석에서 이 함수는 회귀 방정식 [!DNL Y = a ln(X) + b]에 최적선을 계산하기 위해 로그를 사용하여 알려진 [!DNL x] 값(*metric_X*)이 주어질 때 예측된 [!DNL y] 값(*metric_Y*)을 계산합니다. [!DNL a] 값은 각 x 값에 해당하고 [!DNL b]는 상수 값입니다.
 
@@ -437,7 +437,7 @@ NOT(logical)
 |---|---|
 | *논리적* | 필수 여부. TRUE 또는 FALSE로 평가할 수 있는 값 또는 표현식. |
 
-NOT을 사용하기 위해서는 표현식(&lt;, &gt;, =, &lt;&gt; 등)이 0이나 1 값을 반환할지 여부를 알아야 합니다.
+NOT을 사용하기 위해서는 표현식(&lt;, >, =, &lt;> 등)이 0이나 1 값을 반환할지 여부를 알아야 합니다.
 
 ## 같지 않음 {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -496,7 +496,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 거듭제곱 회귀: 예측된 Y(행) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-[!DNL Y = b*X]에 대해 최적선을 계산하기 위해 "최소 제곱법"을 사용하여 알려진 [!DNL x] 값([!DNL metric_X])이 주어지면 예측된 [!DNL y] 값([!DNL metric_Y])을 계산합니다.
+[!DNL Y = b*X]에 대해 최적선을 계산하기 위해 &quot;최소 제곱법&quot;을 사용하여 알려진 [!DNL x] 값([!DNL metric_X])이 주어지면 예측된 [!DNL y] 값([!DNL metric_Y])을 계산합니다.
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -688,7 +688,7 @@ Z 스코어에 대한 방정식은 다음과 같습니다.
 
 여기서 [!DNL x]는 원시 스코어이고, [!DNL μ]는 인구의 평균이고 [!DNL σ]는 인구의 표준 편차입니다.
 
-> [!NOTE] [!DNL μ] (mu)와 [!DNL σ] (sigma)는 지표에서 자동으로 계산됩니다.
+> [!NOTE][!DNL μ] (mu)와[!DNL σ] (sigma) 는 지표에서 자동으로 계산됩니다.
 
 Z 점수(지표)
 
