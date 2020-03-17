@@ -3,7 +3,7 @@ description: 세그먼트를 계획할 때 따라야 하는 단계 및 모범 �
 title: 계획 세그먼트
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,5 +25,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 세그먼트 정의에 포함할 **요소**&#x200B;와 값을 결정합니다. 이 결정에서는 [변수 지속성](/help/components/c-segmentation/seg-overview.md)을 고려합니다.
 
 1. **승인 프로세스**&#x200B;를 제시할 방법을 고려합니다. 단일 사용자가 세그먼트를 검토하고 승인합니까? 아니면 위원회에서 결정을 내립니까?
-1. 비즈니스 사용자에게 모듈 방식으로 세그먼트 부분 또는 구성 요소를 스택하고 재사용할 수 있도록 하는 **세그먼트 라이브러리**&#x200B;에 대한 보기를 사용하여 세그먼트를 정의합니다. [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) 이 라이브러리를 실현하기 위해 정의해야 하는 "모듈"은 무엇입니까?
+1. 비즈니스 사용자에게 모듈 방식으로 세그먼트 부분 또는 구성 요소를 스택하고 재사용할 수 있도록 하는 **세그먼트 라이브러리**&#x200B;에 대한 보기를 사용하여 세그먼트를 정의합니다. [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) 이 라이브러리를 실현하기 위해 정의해야 하는 &quot;모듈&quot;은 무엇입니까?
 
