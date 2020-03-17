@@ -2,7 +2,7 @@
 description: '[계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.'
 title: 참조  기본 함수
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -227,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## 행 수 {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-주어진 열에 대한 행 수(차원 내에서 보고된 고유 요소 수)를 반환합니다. "고유 수 초과"는 1로 집계됩니다.
+주어진 열에 대한 행 수(차원 내에서 보고된 고유 요소 수)를 반환합니다. &quot;고유 수 초과&quot;는 1로 집계됩니다.
 
 ## 행 최대값 {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
