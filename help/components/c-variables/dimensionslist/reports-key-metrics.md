@@ -3,7 +3,7 @@ description: 주요 지표 보고서를 통해 지표에 일관된 추세가 나
 title: 주요 지표
 topic: Reports
 uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
