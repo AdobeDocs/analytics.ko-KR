@@ -3,7 +3,7 @@ description: 페이지 이벤트는 비표준 이미지 요청의 이미지 요�
 title: 이벤트 페이지
 topic: Metrics
 uuid: 8386ce4f-0935-4660-99d4-1d57b98ea964
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
