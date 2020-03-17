@@ -3,7 +3,7 @@ description: 사이트 외부로 이동할 때 사람들이 클릭하는 가장 
 title: '종료 링크 '
 topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 모든 사용자 지정 링크 추적 히트와 같이 [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 변수는 페이지 보기 인플레이션을 방지하기 위해 이미지 요청으로부터 제거됩니다.
 * 이 보고서는 트렌드 형식과 등급 형식으로 볼 수 있습니다.
 * 이 보고서에서 검색 필터를 사용하여 특정 라인 항목을 찾을 수 있습니다.
-* You can create [분류](/help/analyze/reports-analytics/reports-customize/breakdowns.md)는 관리자 도구를 통해 다른 변수를 사용하여 생성할 수 있습니다.
+*  [분류](/help/analyze/reports-analytics/reports-customize/breakdowns.md)는 관리자 도구를 통해 다른 변수를 사용하여 생성할 수 있습니다.
 * [인스턴스](/help/components/c-variables/c-metrics/metrics-instance.md)는 이 보고서 내에서 기본적으로 사용할 수 있는 유일한 지표이며, 종료 링크가 실행된 시간 수를 계산할 수 있습니다.
 * 일일, 주별, 월별 및 분기별 방문자가 이 보고서에 대해 활성화될 수 있습니다. 단, Adobe 담당자만 추가 비용으로 이러한 방문자를 활성화할 수 있습니다. 모든 사용자 지정 링크 추적 변수에 대한 고유 방문자 수를 활성화하면 보고서 세트에 대한 지연이 크게 증가합니다.
 
