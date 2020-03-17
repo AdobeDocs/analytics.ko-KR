@@ -3,7 +3,7 @@ description: 모바일 장치의 사이트 히트 수를 장치의 화면 크기
 title: 화면 크기
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
