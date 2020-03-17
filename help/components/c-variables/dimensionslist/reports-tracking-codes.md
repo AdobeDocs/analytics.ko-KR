@@ -3,7 +3,7 @@ description: 다양한 광고 추적 코드가 사이트의 여러 전환 이벤
 title: 추적 코드
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 **일반 속성**
 
-* 이 보고서는 [s.campaign에서 직접 데이터를 참조합니다.](/help/implement/vars/page-vars/campaign.md)
-* The variable this report is based on is a [conversion variable](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). 즉, 페이지 보기를 넘어서까지 지속되며 지정된 기간 내의 지표와 연결됩니다.
-* 보고서의 기본 지표는 매출입니다. [!UICONTROL 관리자 도구]의 [!UICONTROL 보고서 세트 관리자]에서 이 기본값을 변경할 수 있습니다. ( **[!UICONTROL 설정 편집]**>**[!UICONTROL &#x200B;개별 보고서 설정]** > **[!UICONTROL 기본 지표]**.)
+* 이 보고서는 [s.campaign](/help/implement/vars/page-vars/campaign.md)에서 직접 데이터를 참조합니다.
+* 이 보고서가 기반으로 하는 변수는 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)입니다. 즉, 페이지 보기를 넘어서까지 지속되며 지정된 기간 내의 지표와 연결됩니다.
+* 보고서의 기본 지표는 매출입니다. [!UICONTROL 관리자 도구]의 [!UICONTROL 보고서 세트 관리자]에서 이 기본값을 변경할 수 있습니다. ( **[!UICONTROL 설정 편집]** > **[!UICONTROL 개별 보고서 설정]** > **[!UICONTROL 기본 지표]**.)
 
 * 이 보고서는 트렌드 및 등급 형식 모두로 볼 수 있습니다.
 * 이 보고서에서 검색 필터를 사용하여 특정 라인 항목을 찾을 수 있습니다.
@@ -36,14 +36,14 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 * 이 보고서에서는 조직 및 보고서 세트 설정에 따라 다음 지표를 활용할 수 있습니다.
 
-   * 클릭스루: *`s.campaign`*변수가 정의된 횟수
+   * 클릭스루: *`s.campaign`* 변수가 정의된 횟수
    * 모든 표준 전자 상거래 지표: 매출, 주문, 판매량, 장바구니, 장바구니 보기, 체크아웃, 장바구니 추가, 장바구니 제거
    * 모든 사용자 지정 이벤트: 이벤트 1-80, H22 코드 이상인 경우는 이벤트 81-100도 포함
    * 방문 및 방문자: 조직 및 보고서 세트에 따라 사용 가능 여부가 결정됩니다. 자세한 내용은 계정 관리자에게 문의하십시오.
 
 **Reports &amp; Analytics 속성**
 
-* 메뉴를 사용자 지정하지 않은 경우는 **[!UICONTROL 전환]**>**[!UICONTROL &#x200B;캠페인]** > **[!UICONTROL 추적 코드]**를 클릭하여 이 보고서를 찾습니다.
+* 메뉴를 사용자 지정하지 않은 경우는 **[!UICONTROL 전환]** > **[!UICONTROL 캠페인]** > **[!UICONTROL 추적 코드]**&#x200B;를 클릭하여 이 보고서를 찾습니다.
 
 * 이 보고서는 모든 [목록 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)로도 분류할 수 있습니다.
 * 페이지 보기, 방문, 및 고유 방문자를 지표로 사용할 수 있습니다.
