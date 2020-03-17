@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류 정보
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [분석 분류](https://video.tv.adobe.com/v/16853/?captions=kor)의 비디오 개요
 
-**[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]** &gt; **[!UICONTROL 설정 편집]** &gt; *`<Traffic or Conversion>`*
+**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > *`<Traffic or Conversion>`*
 
 분류 시 변수 및 해당 변수와 관련된 메타데이터 간의 관계를 설정하려고 합니다. 분류는 캠페인에서 가장 흔하게 사용됩니다. 변수(eVars, prop 및 이벤트) 정보를 사용하여 수집된 데이터는 변수에서 수집된 값에 메타데이터를 적용하여 롤업할 수 있습니다.
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Reports &amp; Analytics에는 추적 코드 변수를 위해 사전 정의된 분류가 포함되어 있으며, 크리에이티브 요소 및 캠페인이라고 하는 분류 기반 보고서를 제공합니다. 다른 모든 전환 및 트래픽 변수에 대한 분류를 수동으로 구성해야 합니다.
 
-[트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)를 참조하십시오.
+[트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://marketing.adobe.com/resources/help/ko_KR/reference/conversion_classifications.html)를 참조하십시오.
 
 다음 표는 사용 가능한 분류의 다양한 유형과 각 분류를 지원하는 변수 유형을 나타냅니다. 데이터 파일을 업로드하기 전에 [일반 파일 구조](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)의 정보를 검토하십시오.
 
