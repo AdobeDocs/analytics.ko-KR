@@ -3,7 +3,7 @@ description: 보고 기간의 모든 보고서 라인 항목의 값입니다. �
 title: 합계
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
