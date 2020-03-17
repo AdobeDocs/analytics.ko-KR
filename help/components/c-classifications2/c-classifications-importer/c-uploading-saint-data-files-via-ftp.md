@@ -4,7 +4,7 @@ subtopic: Classifications
 title: FTP 가져오기
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계�
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 
-**[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**.
+**[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**
 
 다음 권장 한계를 고려해야 합니다.
 
@@ -49,7 +49,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
 1. 사용하려는 FTP 계정 옆의 **[!UICONTROL 보기]**&#x200B;를 클릭합니다.
 1. FTP 액세스 정보(호스트, 로그인, 암호)를 사용하여 선택하려는 FTP 클라이언트를 사용하는 FTP 서버에 액세스합니다.
@@ -60,9 +60,9 @@ FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/
 
 Adobe는 FIN 파일과 연관된 업로드한 데이터 파일을 정기적으로 검색합니다. Adobe는 검색한 파일을 FTP 계정 구성에 지정된 보고서 세트와 데이터 세트로 내보냅니다.
 
-## FTP 계정 만들기{#task_C019268E6C934C7C95F4326F42A22CCF}를 참조하십시오 
+## FTP 계정 만들기를 참조하십시오.{#task_C019268E6C934C7C95F4326F42A22CCF}
 
-FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. &gt;
+FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. >
 
 <!-- 
 
@@ -70,11 +70,11 @@ t_create_an_ftp_account.xml
 
  -->
 
-Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/)를 참조하십시오.
+Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/ftp/)를 참조하십시오.
 
-1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
-1. **파일 가져오기** 탭에서 **[!UICONTROL 새로 추가를 클릭합니다]**.
+1. ****&#x200B;파일 가져오기 탭에서 **[!UICONTROL 새로 추가를 클릭합니다]**.
 1.  FTP 계정 세부 사항을 지정합니다. 
 
    | 요소 | 설명 |
