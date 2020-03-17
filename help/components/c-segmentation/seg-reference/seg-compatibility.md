@@ -3,7 +3,7 @@ description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Wareho
 title: Data Warehouse 세그먼트 기능
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   <tr> 
    <td colname="col1"> <b>AND 및 OR은 제한없이 조합할 수 있음</b> </td> 
    <td colname="col2"> 지원됨 </td> 
-   <td colname="col3"> 일부 제한 적용. 아래 *참고*를 참조하십시오. </td> 
+   <td colname="col3"> 일부 제한 적용. 표 아래의 *참고*를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>중첩 컨테이너</b> </td> 
@@ -93,4 +93,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-*참고:데이터 웨어하우스는 사용할 때`exclusion`또는`without`컨테이너를 사용하는 모든 경우를 지원하지 않습니다`AND/OR`. 이러한 조합을 사용할 때는 데이터 웨어하우스에서`A AND NOT B`다시 작성할 수 있는 세그먼트(또는 이 특성을&#x200B;****포함시키고 이 특성을&#x200B;****제외)만 지원됩니다.*
+*참고: Data Warehouse는`AND/OR`을 사용할 때`exclusion`또는`without`컨테이너를 사용하는 모든 경우를 지원하지는 않습니다. 이러한 조합을 사용하는 경우 Data Warehouse에서는`A AND NOT B`(또는&#x200B;**이 특성을 포함**하고&#x200B;**이 특성을 제외**)로 다시 쓸 수 있는 세그먼트만 지원합니다.*
