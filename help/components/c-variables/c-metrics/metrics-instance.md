@@ -4,7 +4,7 @@ keywords: instances
 title: 인스턴스
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 변수에 대해 값이 설정된 횟수입니다.
 
-인스턴스 는 모든 히트 유형에 대해 계산되지만 지속성으로 인해 후속 히트에서 변수에 대해 값이 기록될 때 계산되지 않습니다.
+인스턴스 는 모든 히트 유형에 대해 계산되지만, 지속성으로 인해 후속 히트에서 변수에 대한 값이 기록될 때에는 계산되지 않습니다.
 
 예를 들어 사용자가 [!DNL example.com]을 통해 여러분의 사이트에 도착하는 경우, 사이트에 대한 첫 번째 이미지 요청에는 [!DNL example.com]의 레퍼러가 포함되어 있습니다. 이 값이 설정되면, 방문 동안 본 모든 페이지에 대해 이 레퍼러가 기록되더라도 하나의 인스턴스가 [!DNL example.com] 인스턴스로 계산됩니다.
 
