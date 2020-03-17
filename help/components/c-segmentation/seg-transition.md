@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: FAQ
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace의 세그먼테이션:
 
-   * [세그먼트를 비교](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)할 수 있습니다.
-   * 비교에서 [세그먼트를 차원으로](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) 사용합니다.
-   * [폴아웃 분석](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
+   * [세그먼트를 비교](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/segment-comparison.html)할 수 있습니다.
+   * 비교에서 [세그먼트를 차원으로](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/segments_as_dimensions.html) 사용합니다.
+   * [폴아웃 분석](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/graphics/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
 
 * [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)할 수 있습니다.
 * 세그먼트는 모든 보고서 세트에 범용입니다.
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 다음 작업을 수행하여 세그먼트 빌더에 액세스할 수 있습니다.
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
 
 * 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![](assets/add_button.png)
 
@@ -52,15 +52,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 세그먼트 빌더 액세스 방법:
 
-* 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
+* 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
 
-* 인터페이스의 어디에서든지 슬래시 키 '/'를 누르고 세그먼트 관리자를 검색합니다.
+* 인터페이스의 어디에서든지 슬래시 키 &#39;/&#39;를 누르고 세그먼트 관리자를 검색합니다.
 
 **이전 세그먼트 드롭다운은 어디로 이동했습니까?**
 
-Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 "범용" 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 왼쪽 탐색 영역에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭하십시오.
+Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 &quot;범용&quot; 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 왼쪽 탐색 영역에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭하십시오.
 
 그러면 세그먼트 레일이 표시됩니다.
 
@@ -74,7 +74,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만, 관리자는 [세그먼트를 만들 수 있는 권한](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만, 관리자는 [세그먼트를 만들 수 있는 권한](https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
@@ -110,7 +110,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 * 보유한 세그먼트를 검토합니다.
 * 적용 가능한 경우 세그먼트 라이브러리에 추가합니다.
 * 표준 세그먼트를 승인합니다.
-* 세그먼트에 [우수 사례](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)에 따라 세그먼트에 태그를 지정합니다.
+*  [우수 사례](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)에 따라 세그먼트에 태그를 지정합니다.
 
 ## 이전 세그먼트 관리 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -178,7 +178,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
 
-**관리자 세그먼트("전역" 세그먼트라고도 함)에 나타나는 결과**
+**관리자 세그먼트(&quot;전역&quot; 세그먼트라고도 함)에 나타나는 결과**
 
 **관리자** 세그먼트는 새 세그먼트 인터페이스로 마이그레이션되고 모든 사람과 공유되는 세그먼트로 표시됩니다.
 
@@ -192,7 +192,7 @@ seg_definition.xml
 
  -->
 
-이 문서에 설명된 대로 변경된 논리를 사용하는 기존 세그먼트는 다시 저장하려면 먼저 업데이트해야 하지만 계속 제대로 작동합니다. 예를 들어 US States에 'New York'이 포함된 기존 세그먼트가 있는 경우 다음 번에 세그먼트를 편집할 때 동일 조건으로 열거형 유형을 사용하려면 업데이트가 필요하지만 계속 제대로 작동합니다.
+이 문서에 설명된 대로 변경된 논리를 사용하는 기존 세그먼트는 다시 저장하려면 먼저 업데이트해야 하지만 계속 제대로 작동합니다. 예를 들어 US States에 &#39;New York&#39;이 포함된 기존 세그먼트가 있는 경우 다음 번에 세그먼트를 편집할 때 동일 조건으로 열거형 유형을 사용하려면 업데이트가 필요하지만 계속 제대로 작동합니다.
 
 **마이그레이션 팁**
 
@@ -344,15 +344,15 @@ seg_definition.xml
 | 모바일 비디오 지원 | browser | 지역 - 국가 |
 | 모바일 DRM | 연결 유형 | 지역 - 지역 |
 | 모바일 네트 프로토콜 | 이동통신사 | 지역 - 도시 |
-| 모바일 OS | 쿠키 | 지역 DMA |
+| 모바일 OS | cookie | 지역 DMA |
 | 모바일 Java VM | 고객 충성도 | 영구적 쿠키 |
 | 모바일 책갈피 길이 | Java 활성화 | 유료 검색 |
 | 모바일 URL 길이 | language |  |
 
 ## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
-알려진 값 세트를 갖는 정수 기반 차원(예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 " - Bucketed"가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여줍니다.
+알려진 값 세트를 갖는 정수 기반 차원(예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여줍니다.
 
 ![](assets/seg_browser_dimension.png)
 
-보다 작음, 보다 큼 및 비슷한 연산자는 이제 Data Warehouse 세그먼트와만 호환됩니다. 모든 보고 인터페이스와 호환되도록 지정된 세그먼트는 같음 연산자와 함께 "Bucketed" 버전의 지표를 사용해야 합니다.
+보다 작음, 보다 큼 및 비슷한 연산자는 이제 Data Warehouse 세그먼트와만 호환됩니다. 모든 보고 인터페이스와 호환되도록 지정된 세그먼트는 같음 연산자와 함께 &quot;Bucketed&quot; 버전의 지표를 사용해야 합니다.
