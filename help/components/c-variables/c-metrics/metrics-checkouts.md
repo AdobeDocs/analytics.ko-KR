@@ -3,7 +3,7 @@ description: '고객이 구매의 체크아웃 단계에 도달할 때 발생하
 title: 체크아웃
 topic: Metrics
 uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
