@@ -3,7 +3,7 @@ description: '고객 충성도에 대한 정보를 표시합니다. 얼마나 �
 title: 방문자 유지
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
