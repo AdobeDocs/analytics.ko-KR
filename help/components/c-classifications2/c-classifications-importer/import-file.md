@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 브라우저 및 FTP 가져오기
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,4 +18,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 업로드된 파일의 구조와 제한에 대한 자세한 내용은 [일반 파일 구조](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)를 참조하십시오.
 
-문제 해결 도움말은 [일반적인 분류 업로드 문제](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)를 참조하십시오.
+문제 해결 도움말은 [일반적인 분류 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html)를 참조하십시오.
