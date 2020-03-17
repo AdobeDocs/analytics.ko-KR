@@ -3,7 +3,7 @@ description: 사용자 지정 트래픽 변수 그룹(prop 변수)과 연관되�
 title: 사용자 지정 인사이트
 topic: Reports
 uuid: bdfe3578-765a-42d2-98ea-d575743f8be2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
