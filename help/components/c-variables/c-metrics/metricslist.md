@@ -3,7 +3,7 @@ description: 지표는 보고서의 기반으로, 데이터 관계를 보고 이
 title: 지표 개요
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,4 +17,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 다음은 [표준 Analytics 지표](/help/components/c-variables/c-metrics/metrics-overview.md)에 대한 개요입니다.
 
-[계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)는 지표를 결합하여 만들어집니다.
+[계산된 지표](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/)는 지표를 결합하여 만들어집니다.
