@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류되지 않는 키
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,7 +34,7 @@ t_rename_classification_none.xml
 1. 파일에 행을 추가하고 키 열에 [!DNL ~none~]을 입력합니다.
 1. 추가한 행에서 적절한 분류 열에 좀 더 설명적인 이름을 입력합니다. 
 
-   이 설명서에 나온 예를 따르려면 [!UICONTROL 모바일 캠페인 이름]이라고 하는 열에 "비모바일 캠페인"을 입력할 수 있습니다.
+   이 설명서에 나온 예를 따르려면 [!UICONTROL 모바일 캠페인 이름]이라고 하는 열에 &quot;비모바일 캠페인&quot;을 입력할 수 있습니다.
 
-   이렇게 입력하면 *모바일 캠페인 유형`None`보고서에서**`non-mobile campaign`이라는 이름이*으로 변경됩니다.
+   이렇게 입력하면 *`None`*&#x200B;모바일 캠페인 유형&#x200B;*`non-mobile campaign`* 보고서에서 [!UICONTROL 이라는 이름이 ]으로 변경됩니다.
 1. [데이터를](/help/components/c-classifications2/c-classifications-importer/import-file.md) 다시 시스템으로 가져옵니다.
