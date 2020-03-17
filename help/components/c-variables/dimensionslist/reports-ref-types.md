@@ -3,7 +3,7 @@ description: 방문할 때마다 방문자의 조회 사이트를 추적하여 �
 title: 레퍼러 유형
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,9 +19,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **검색 엔진**: 검색 엔진 레퍼러는 방문자가 검색 엔진을 사용하여 사이트에 액세스할 때 기록됩니다. 참조 값은 Adobe에서 검색 엔진으로 간주되어야 하며 검색 엔진으로 간주되지 않는 하위 도메인이 될 수 없습니다(예: [!DNL mail.yahoo.com]은 이메일에 사용되므로 검색 엔진이 아님).
 
-**[!UICONTROL 소셜 네트워크]**: 참조 값은 Adobe에서 소셜 네트워크로 간주되어야 합니다. [소셜 네트워크 목록](https://helpx.adobe.com/analytics/kb/list-social-networks.html)을 참조하십시오.
+**[!UICONTROL 소셜 네트워크]**: 참조 값은 Adobe에서 소셜 네트워크로 간주되어야 합니다. [소셜 네트워크 목록](https://helpx.adobe.com/kr/analytics/kb/list-social-networks.html)을 참조하십시오.
 
-**이메일**: 참조 도메인은 방문자가 프로토콜 [!DNL imap://] 또는 [!DNL mail://]이 포함된 이메일 메시지 링크를 클릭하고 사이트에 도달하면 이메일 참조 도메인으로 취급합니다. 예를 들어 [!DNL https://mail.yahoo.com]에서 오는 모든 것은 프로토콜이 [!DNL https://]://이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
+**이메일**: 참조 도메인은 방문자가 프로토콜 [!DNL imap://] 또는 [!DNL mail://]이 포함된 이메일 메시지 링크를 클릭하고 사이트에 도달하면 이메일 참조 도메인으로 취급합니다. 예를 들어 [!DNL https://mail.yahoo.com] 에서 오는 모든 것은 프로토콜이 [!DNL https://]이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
 
 **입력/책갈피 표시**: 레퍼러는 방문자가 사용자 사이트의 URL을 브라우저에 직접 입력할 때 또는 책갈피를 선택하여 사이트에 액세스하는 경우 기록됩니다. 모바일 장치는 방문의 첫 번째 히트에 레퍼러가 없는 경우 *`typed/bookmarked`*&#x200B;의 레퍼러 유형을 보고합니다.
 
