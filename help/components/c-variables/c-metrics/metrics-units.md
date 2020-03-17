@@ -3,7 +3,7 @@ description: 선택된 기간 동안 주문된 총 판매량. 한 번에 많은 
 title: 판매량
 topic: Metrics
 uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
