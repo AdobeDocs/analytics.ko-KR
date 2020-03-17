@@ -3,7 +3,7 @@ description: 지표는 표준, 기여도, 최근, 선형 할당 방법 등을 �
 title: 지표 계산
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 선형 </td> 
-   <td colname="col2"> <p>선형 할당을 선택하면, 성공 이벤트는 방문에서 보이는 모든 변수에 균등하게 나눠집니다. 숫자 및 통화 이벤트의 경우 <span class="term">수입</span>과 같은 숫자 및 통화 이벤트의 경우 통화량이 나눠집니다. <span class="term">주문</span>과 같은 카운터 이벤트의 경우 이벤트의 일부가 방문의 각 변수 값에 주어집니다. 보고에 있는 이 부분들은 합해진 후, 보고에서 가장 근사치의 정수로 반올림됩니다. </p> <p>예를 들어 성공 이벤트에 앞서 4개의 페이지를 방문하는 경우 각 페이지가 이벤트의 25%에 대한 크레딧을 받습니다. 동일한 방문에서 <span class="varname">캠페인</span>에 두 개의 값이 있는 경우, 각 캠페인 값은 이벤트에 대한 크레딧의 50%를 받습니다. </p> </td> 
+   <td colname="col2"> <p>선형 할당을 선택하면, 성공 이벤트는 방문에서 보이는 모든 변수에 균등하게 나눠집니다.  <span class="term">수입</span>과 같은 숫자 및 통화 이벤트의 경우 통화량이 나눠집니다. <span class="term">주문</span>과 같은 카운터 이벤트의 경우 이벤트의 일부가 방문의 각 변수 값에 주어집니다. 보고에 있는 이 부분들은 합해진 후, 보고에서 가장 근사치의 정수로 반올림됩니다. </p> <p>예를 들어 성공 이벤트에 앞서 4개의 페이지를 방문하는 경우 각 페이지가 이벤트의 25%에 대한 크레딧을 받습니다. 동일한 방문에서 <span class="varname">캠페인</span>에 두 개의 값이 있는 경우, 각 캠페인 값은 이벤트에 대한 크레딧의 50%를 받습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 기여도 </td> 
@@ -44,7 +44,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 사이트에 전환 변수(eVar)를 사용하여 추적되는 내부 검색이 있다고 가정해 보십시오. 방문자는 $100 구매를 하기 전에 몇 가지 내부 검색을 수행합니다.
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; $100 구매
+*`Pet`* > *`Feline`* > *`Cat`* > *`Kitten`* > $100 구매
 
 보고에서 크레딧 할당은 다음과 같습니다.
 
