@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류 템플릿
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 (선택 사항) 분류를 마케팅 보고서로 가져오기 전에, 분류 데이터 파일을 만드는 데 도움이 되는 템플릿을 다운로드할 수 있습니다. 데이터 파일은 원하는 분류를 열 머리글로 사용한 다음, 적합한 분류 머리글 아래에 보고 데이터 세트를 구성합니다.
 
-**[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**.
+**[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**
 
 | 요소 | 설명 |
 |---|---|
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 템플릿 메서드는 데이터 다운로드를 단일 보고서 세트로 제한합니다.
 
-1. **[!UICONTROL 관리자]** &gt; **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 템플릿 다운로드]** 탭에서 [데이터 템플릿 구성](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)을 지정합니다.
 1. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 1.  템플릿 파일을 로컬 시스템에 저장합니다. 
