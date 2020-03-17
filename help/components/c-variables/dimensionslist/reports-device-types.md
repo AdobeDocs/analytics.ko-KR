@@ -3,7 +3,7 @@ description: 모바일 장치를 휴대 전화, 태블릿, e-reader, 게임 콘�
 title: 장치 유형
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 모바일 장치를 휴대 전화, 태블릿, e-reader, 게임 콘솔, TV, 셋톱 박스, 미디어 플레이어 및 기타 카테고리로 그룹화하여 모바일 장치 유형 간 분포를 확인할 수 있습니다.
 
-이 차원은 모바일 장치 유형이 "장치 유형"과 같은 곳을 구분하여 전화 사용자와 태블릿 사용자를 위한 세그먼트를 정의하는 데에도 유용합니다.
+이 차원은 모바일 장치 유형이 &quot;장치 유형&quot;과 같은 곳을 구분하여 전화 사용자와 태블릿 사용자를 위한 세그먼트를 정의하는 데에도 유용합니다.
 
 **다이내믹 장치 데이터**
 
