@@ -16,8 +16,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 구성 요소 큐레이션을 사용하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 가상 보고서 세트]** &gt; **[!UICONTROL 새 가상 보고서 세트 만들기]**&#x200B;로 이동합니다.
-1. **[!UICONTROL 설정]**&#x200B;을 정의한 후 **구성 요소[!UICONTROL 탭을 클릭합니다.]**
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]** > **[!UICONTROL 새 가상 보고서 세트 만들기]**&#x200B;로 이동합니다.
+1. **[!UICONTROL 설정]**&#x200B;을 정의한 후 **[!UICONTROL 구성 요소 탭을 클릭합니다.]**
 
 1. **[!UICONTROL 가상 보고서 세트 구성 요소의 사용자 지정 사용]** 확인란을 선택합니다.
 
@@ -32,7 +32,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics 보고 API
-   이 옵션을 선택하면 "제외된 구성 요소" 열의 해당 구성 요소를 "포함된 구성 요소" 열로 드래그하여 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함하거나 제외할 수 있는 구성 요소는 다음과 같습니다.
+   이 옵션을 선택하면 &quot;제외된 구성 요소&quot; 열의 해당 구성 요소를 &quot;포함된 구성 요소&quot; 열로 드래그하여 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함하거나 제외할 수 있는 구성 요소는 다음과 같습니다.
 
    * 차원
    * 지표
