@@ -3,7 +3,7 @@ description: Reports & Analytics에서 사용할 수 있는 사전 정의된 보
 title: 차원 설명
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -45,7 +45,7 @@ Reports &amp; Analytics에서 사용할 수 있는 사전 정의된 보고서의
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > 확장된 차원</a> </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/ko_KR/insight/dataset/c_ex_dim.html"  > 확장된 차원</a> </td> 
   </tr> 
  </tbody> 
 </table>
