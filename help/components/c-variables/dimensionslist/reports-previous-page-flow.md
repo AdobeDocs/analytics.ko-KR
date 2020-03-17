@@ -3,7 +3,7 @@ description: 이전 페이지 흐름 보고서는 방문자가 선택한 페이�
 title: 이전 페이지 흐름
 topic: Reports
 uuid: 836ca86f-c7f0-4e91-94e3-a50232325abe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
