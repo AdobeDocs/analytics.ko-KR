@@ -3,7 +3,7 @@ description: 히트가 하나만 들어 있는 방문의 백분율을 표시합�
 title: 바운스 비율
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
