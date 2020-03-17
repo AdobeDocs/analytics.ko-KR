@@ -3,7 +3,7 @@ description: 장바구니에 품목을 추가한 횟수입니다. 이 값은 scA
 title: 장바구니 추가
 topic: Metrics
 uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
