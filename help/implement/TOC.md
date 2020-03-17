@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -150,6 +150,8 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [Analytics 속성 만들기](launch/create-analytics-property.md)
    + [개발 환경에 배포](launch/deploy-dev.md)
    + [제품 검증 및 게시](launch/validate-publish-prod.md)
+   + [데이터 레이어 개체를 데이터 요소에 매핑](launch/layer-to-elements.md)
+   + [Analytics 변수에 론치 데이터 요소 매핑](launch/elements-to-variable.md)
 + 다른 플랫폼에서 분석 구현 {#other}
    + [하드 코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
