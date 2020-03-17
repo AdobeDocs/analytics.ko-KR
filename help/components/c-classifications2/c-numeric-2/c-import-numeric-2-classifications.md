@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 숫자 2 분류 가져오기
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -47,4 +47,4 @@ YYYY/MM/DD - YYYY/MM/DD
 * event2
 * etc
 
-**~MyCost^~hinge~:** 분류 중에 값을 배포할 때 사용하는 이벤트입니다. [!UICONTROL fixed]를 사용하지 않는 한 이 값은 종종 [!UICONTROL ~MyCost^~rate~]와 같습니다. 이 열에 대한 유효한 값은 [!UICONTROL none]이 추가된 [!UICONTROL ~MyCost^~rate~]의 값과 동일합니다.
+**~MyCost^~hinge~:** 분류 중에 값을 배포할 때 사용하는 이벤트입니다. [!UICONTROL fixed~를 사용하지 않는 한 이 값은 종종 ~]~MyCost^[!UICONTROL rate]와 같습니다. 이 열에 대한 유효한 값은 [!UICONTROL none~이 추가된 ~]~MyCost^[!UICONTROL rate]의 값과 동일합니다.
