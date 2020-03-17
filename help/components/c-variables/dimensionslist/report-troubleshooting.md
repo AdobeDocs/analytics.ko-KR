@@ -4,7 +4,7 @@ keywords: best practices;failure;timeout;troubleshooting;slow
 title: 보고 우수 사례 및 문제 해결
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있�
 
 >[!Note]
 >이러한 권장 사항은 Reports &amp; Analytics, Ad Hoc Analysis 및 Report Builder에 적용됩니다.
->Analysis Workspace에는 자체 [우수 사례](/help/analyze/analysis-workspace/optimizing-performance.md)가 있으므로 적용되지 않습니다. Data Warehouse [우수 사례](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)에도 적용되지 않습니다. Adobe Analytics 보고 API를 위한 추가적인
+>Analysis Workspace에는 자체 [우수 사례](/help/analyze/analysis-workspace/optimizing-performance.md)가 있으므로 적용되지 않습니다. Data Warehouse [우수 사례](https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse_bp.html)에도 적용되지 않습니다. Adobe Analytics 보고 API를 위한 추가적인
 >[우수 사례](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) 세트가 있습니다.
 
 ## 보고서 시간 초과 및 요청 큐 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
