@@ -17,8 +17,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >2018년 7월, Adobe에서는 계산된 지표의 할당 모델을 평가하는 방법을 수정한 [기여도 분석 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html)를 도입했습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
 >
->* 마케팅 채널 마지막 터치 및 마케팅 채널 첫 번째 터치 할당 모델은 새 "마지막 터치" 및 "첫 번째 터치" 기여도 분석 모델로 마이그레이션되었습니다. 참고로, "마케팅 채널"은 더 이상 사용되지 않았으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용되었습니다.
->* 또한 선형 할당이 계산되는 방법을 수정했습니다. 고객이 "선형" 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이러한 변경 내용은 [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], Reporting API, Report Builder 및 Ad Hoc Analysis에 반영되었습니다. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
+>* 마케팅 채널 마지막 터치 및 마케팅 채널 첫 번째 터치 할당 모델은 새 &quot;마지막 터치&quot; 및 &quot;첫 번째 터치&quot; 기여도 분석 모델로 마이그레이션되었습니다. 참고로, &quot;마케팅 채널&quot;은 더 이상 사용되지 않았으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용되었습니다.
+>* 또한 선형 할당이 계산되는 방법을 수정했습니다. 고객이 &quot;선형&quot; 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이러한 변경 내용은 [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], Reporting API, Report Builder 및 Ad Hoc Analysis에 반영되었습니다. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
 
 
 Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 [!DNL Analytics] 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. 각 [!DNL Analytics] 패키지에서 사용할 수 있는 사용자 지정 지표는 다음과 같습니다.
@@ -47,7 +47,7 @@ You can
 * [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]에서 지표를 만들 수 있습니다.
 * [구현을 변경하지 않고도](https://youtu.be/CuQTm9RaUpY) 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다.
 * 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
-* (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 이번이 첫 번째 세션인 사람의 수로, "새 방문자 수"에 대한 지표를 만들 수 있습니다.
+* (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 이번이 첫 번째 세션인 사람의 수로, &quot;새 방문자 수&quot;에 대한 지표를 만들 수 있습니다.
 * (고급 계산 지표만 해당) 통계 함수를 통합하여 데이터를 더욱 효율적으로 설명할 수 있습니다. 예를 들어, 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
 * 다른 [!DNL Analytics] 도구의 [!UICONTROL Ad Hoc Analysis]에서 만든 지표를 활용할 수 있고 그 반대의 경우도 가능합니다.
 
