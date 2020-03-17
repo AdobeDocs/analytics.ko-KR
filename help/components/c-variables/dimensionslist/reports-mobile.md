@@ -3,7 +3,7 @@ description: '모바일 장치에서의 웹 사이트 액세스에 대한 정보
 title: 모바일
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -108,7 +108,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> 장치가 PTT(Push To Talk)를 지원하는지 여부를 기준으로 모바일 장치를 그룹화합니다. The report also includes an <span class="term"> Unknown</span> group for those devices where PTT support cannot be determined. </p> </td> 
+   <td colname="col2"> <p> 장치가 PTT(Push To Talk)를 지원하는지 여부를 기준으로 모바일 장치를 그룹화합니다. 보고서는 PTT 지원을 확인할 수 없는 장치를 위해 <span class="term">알 수 없음</span> 그룹도 포함하고 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 데코레이션 메일 지원 </td> 
