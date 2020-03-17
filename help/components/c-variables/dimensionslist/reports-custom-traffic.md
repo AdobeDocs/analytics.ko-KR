@@ -3,7 +3,7 @@ description: 사용자 지정 트래픽 보고서를 사용하면 각 조직이 
 title: 사용자 지정 트래픽
 topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
