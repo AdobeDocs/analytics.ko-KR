@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 사용자 특성에 대한 Analytics FAQ 및 사용자 특성 보고서 실행 방법.
 
-**[!UICONTROL 보고서]** &gt; **[!UICONTROL 방문자 프로필]** &gt; **[!UICONTROL 사용자 특성]**
+**[!UICONTROL 보고서]** **[!UICONTROL > 방문자 프로필]** > **[!UICONTROL 사용자 특성]**
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후 Reports &amp; Analytics에서 사용자 특성 보고서를 실행할 수 있습니다.
 
@@ -24,11 +24,11 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 
 ## Analytics의 사용자 특성 및 보고 지표 {#section_EF343662146B460A882D3DF772ADD86D}
 
-사용자 특성을 업로드하고 스키마를 확인하면(Experience Cloud에서), 시스템에서는 특성 문자열과 정수에 매핑되는 친근한 이름(예: *`age`* 또는 *`gender`*)을 기반으로 지표를 생성합니다. 이 지표들은 **[!UICONTROL 방문자 프로필]** &gt; **[!UICONTROL 사용자 특성]** 보고서에 표시됩니다.
+사용자 특성을 업로드하고 스키마를 확인하면(Experience Cloud에서), 시스템에서는 특성 문자열과 정수에 매핑되는 친근한 이름(예: *`age`* 또는 *`gender`*)을 기반으로 지표를 생성합니다. 이 지표들은 **[!UICONTROL [방문자 프로필]]** >**[!UICONTROL [사용자 특성]]** 보고서에 표시됩니다.
 
 예:
 
-**[!UICONTROL 방문자 프로필]** &gt; **[!UICONTROL 사용자 특성]** &gt; **[!UICONTROL 연령]**
+**[!UICONTROL [방문자 프로필]]** >**[!UICONTROL [사용자 특성]]** > **[!UICONTROL [연령]]**
 
 ![](assets/report_age.png)
 
