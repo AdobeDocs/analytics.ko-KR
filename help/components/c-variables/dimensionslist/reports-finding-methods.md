@@ -3,7 +3,7 @@ description: 전환 성공 이벤트에 대해 받은 크레딧을 표시합니�
 title: 검색 방법
 topic: Reports
 uuid: f748419e-4cea-4868-ae1a-9bd7e6f177c4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
