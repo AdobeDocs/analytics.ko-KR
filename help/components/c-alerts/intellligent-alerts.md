@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95%, 99%, 99.75%, 및 99.9% 임계값, % 변경률, 초과/미만).
 * 경고가 트리거되는 빈도를 미리 봅니다.
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
-* 하나의 경고에서 여러 지표를 캡처하는 "누적된" 경고를 생성합니다.
+* 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 생성합니다.
 
 새 경고 시스템의 구성 요소에는 경고 빌더, 경고 관리자, 경고 미리 보기 및 경고 작성에 대한 더 나은 컨텍스트 내 액세스 기능 포함됩니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능은 [더 이상 사용할 수 없습니다](https://marketing.adobe.com/resources/help/ko_KR/sc/user/deprecated_alerts.html). 
 
@@ -32,12 +32,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Analysis Workspace에서 다음의 바로 가기 사용:
 
    `ctrl (or cmd) + shift + a`
-* 경고 빌더로 이동: **[!UICONTROL 작업 공간]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 새 경고]**.
+* 경고 빌더로 이동: **[!UICONTROL 작업 공간]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**. 
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**. 이렇게 하면 경고 빌더가 열리고, 테이블에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. 
 
    ![](assets/create-alert-from-selection.png)
 
-* [!UICONTROL Reports &amp; Analytics] 보고서에서, **[!UICONTROL 자세히]** &gt; **[!UICONTROL 경고 추가]**&#x200B;로 이동. 이렇게 하면 새 경고 빌더가 열리고, 보고서에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. 
+* [!UICONTROL Reports &amp; Analytics] 보고서에서 **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동합니다. 이렇게 하면 새 경고 빌더가 열리고, 보고서에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. 
 
    ![](assets/add-alert.png)
 
