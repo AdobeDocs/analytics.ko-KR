@@ -3,7 +3,7 @@ description: 방문자가 사이트에 오기 전에 있었던 도메인 또는 
 title: 레퍼러
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
