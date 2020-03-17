@@ -3,7 +3,7 @@ description: 선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동�
 title: 페이지 보기 수
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
