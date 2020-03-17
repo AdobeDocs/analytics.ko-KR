@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류 데이터 이스케이프 처리
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >v2.1의 형식을 지정하려면, [!UICONTROL 분류 가져오기] 페이지에서 파일을 내보낼 때([!UICONTROL 브라우저 내보내기]나 [!UICONTROL FTP 내보내기]) **[!UICONTROL 견적 출력]**&#x200B;을 활성화합니다.
+   >v2.1의 형식을 지정하려면, **[!UICONTROL 분류 가져오기]** 페이지에서 파일을 내보낼 때([!UICONTROL 브라우저 내보내기]나 [!UICONTROL FTP 내보내기]) [!UICONTROL 견적 출력]을 활성화합니다.
 
 1. 큰 따옴표(`"`)로 특수 문자가 들어 있는 필드를 쌉니다.
 
