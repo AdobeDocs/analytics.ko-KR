@@ -3,7 +3,7 @@ description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼
 title: 세그먼트 태깅
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,15 +24,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/segment_mgmt_toolbar.png)
 
-1. **[!UICONTROL 태그]를 클릭하고**
+1. **[!UICONTROL 태그]**&#x200B;를 클릭하고
 
    * 기존 태그에서 선택하거나
    * 새 태그를 추가하고 **[!UICONTROL Enter 키를 누릅니다]**.
 
       ![](assets/tagging_ui.png)
 
-1. **[!UICONTROL 태그]를 다시 클릭하여 세그먼트에 태깅합니다.**
+1. **[!UICONTROL 태그]**&#x200B;를 다시 클릭하여 세그먼트에 태깅합니다.
 
 이제 태그가 태그 열에 나타납니다. (열을 관리하려면 오른쪽 위에 있는 톱니바퀴 아이콘 클릭)
 
-**[!UICONTROL 필터]** &gt; **[!UICONTROL 태그]**&#x200B;로 이동하여 태그를 필터링할 수도 있습니다.
+**[!UICONTROL 필터]** > **[!UICONTROL 태그]**&#x200B;로 이동하여 태그를 필터링할 수도 있습니다.
