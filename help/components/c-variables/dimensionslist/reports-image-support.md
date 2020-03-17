@@ -3,7 +3,7 @@ description: 모바일 장치를 지원하는 이미지 유형에 따라 그룹�
 title: 이미지 지원
 topic: Reports
 uuid: 99cea17a-660b-46ff-8cbc-a4e42d6e8c89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
