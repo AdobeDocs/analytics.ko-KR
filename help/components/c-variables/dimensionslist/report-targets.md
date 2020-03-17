@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >이러한 보고서를 Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) 보고서와 혼동해서는 안 됩니다.
 
-타겟 보고서에 액세스하려면 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고서]** &gt; **[!UICONTROL 타겟]** &gt; **[!UICONTROL [사용자의 타겟 이름]]**&#x200B;으로 이동합니다.
+대상 보고서에 액세스하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 대상]** > **[!UICONTROL [대상 이름]]**&#x200B;으로 이동합니다.
 
 [대상을 만들](https://marketing.adobe.com/resources/help/ko_KR/sc/user/targets.html) 때 측정하려는 지표 또는 eVar를 선택하거나 선택한 지표에 대해 전체 사이트를 측정하도록 선택할 수 있습니다.
 
 보고서에는 사용자가 지정한 지표의 누적 합계와 보고서를 구성할 때 설정한 대상 간의 차이가 표시됩니다.
 
-또한 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 타겟]**&#x200B;에서도 타겟을 관리할 수 있습니다.
+또한 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 대상]**&#x200B;에서도 대상을 관리할 수 있습니다.
