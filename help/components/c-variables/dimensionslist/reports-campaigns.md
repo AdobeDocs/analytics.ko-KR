@@ -3,7 +3,7 @@ description: 광고 노력의 효과에 대한 정보를 표시합니다. 어떤
 title: 캠페인
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
