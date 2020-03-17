@@ -3,7 +3,7 @@ description: 선택한 시간, 일, 주, 월, 분기 또는 연도의 고유 사
 title: 방문자 수
 topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
