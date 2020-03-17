@@ -3,7 +3,7 @@ description: 특정 기간 동안 모든 제품에서 생성된 수입 금액을
 title: '수입 '
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * [!UICONTROL 매출]은 기간에 대한 총액을 가장 가까운 통화 값으로 근사 처리합니다. 개별 제품이나 히트를 근사 처리하지 않습니다.
 * Analytics는 하루의 값을 가장 가까운 정수 통화 값으로 근사 처리하여 일별 합계와 월별 총액 사이의 차이를 최소화합니다. 월별 합계는 근사 처리된 일별 값을 합한 것이 아니고 전체 합계를 가장 가까운 정수 통화 값으로 근사 처리한 것입니다.
-* 매출을 가장 가까운 정수 통화로 근사 처리하지 않은 보고서를 생성하려면 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)를 사용합니다.
+* 매출을 가장 가까운 정수 통화로 근사 처리하지 않은 보고서를 생성하려면 [계산된 지표](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/)를 사용합니다.
 * `purchaseID` 변수를 사용하지 않으면 사용자가 페이지를 새로 고칠 때 데이터를 Adobe로 여러 번 보내기 때문에 수입이 부풀려질 수 있습니다.
 * 시간별 분류는 보고서 세트의 시간대를 따릅니다.
 * 이 보고서에는 라인 항목이 없습니다. 트렌드 형식으로만 볼 수 있습니다.
@@ -64,15 +64,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 제품별 속성 {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* **[!UICONTROL 전환]** &gt; **[!UICONTROL 구매]** &gt; **[!UICONTROL 수입]**&#x200B;에서 이 보고서에 액세스할 수 있습니다.
+* **[!UICONTROL 전환]** > **[!UICONTROL 구매]** > **[!UICONTROL 매출]**&#x200B;에서 이 보고서에 액세스할 수 있습니다.
 
 * [!UICONTROL 트래픽 소스] 분류는 [!UICONTROL 검색 방법]에서 찾을 수 있습니다.
 
-* **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 구매]** &gt; **[!UICONTROL 수입]**&#x200B;에서 이 보고서에 액세스할 수 있습니다.
+* **[!UICONTROL 사이트 지표]** > **[!UICONTROL 구매]** > **[!UICONTROL 매출]**&#x200B;에서 이 보고서에 액세스할 수 있습니다.
 
 * 이전에 나열된 모든 분류 외에도 [!UICONTROL 첫 번째 및 마지막 터치 마케팅 채널] 분류를 사용할 수 있습니다.
 
-* **[!UICONTROL 사이트 지표]** &gt; **[!UICONTROL 구매]** &gt; **[!UICONTROL 수입]**&#x200B;에서도 이 보고서에 액세스할 수 있습니다.
+* **[!UICONTROL 사이트 지표]** > **[!UICONTROL 구매]** > **[!UICONTROL 매출]**&#x200B;에서도 이 보고서에 액세스할 수 있습니다.
 
 * 이전에 언급된 분류 외에도 [!UICONTROL 목록] 변수와 현재 ]비디오[!UICONTROL  변수를 사용할 수 있습니다.
 
