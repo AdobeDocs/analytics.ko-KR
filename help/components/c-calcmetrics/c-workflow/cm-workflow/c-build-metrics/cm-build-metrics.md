@@ -14,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 다음 몇 가지 방법으로 계산된 지표 빌더에 액세스할 수 있습니다.
 
-* Analysis Workspace에서 프로젝트를 열고 **[!UICONTROL + 신규]** &gt; **[!UICONTROL 지표 만들기]**&#x200B;를 클릭합니다.
-* [!DNL Analytics]에서 **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 계산된 지표]**&#x200B;를 참조하십시오.
+* Analysis Workspace에서 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 지표 만들기]**&#x200B;를 클릭합니다 .
+* [!DNL Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**&#x200B;로 이동합니다.
 
-* [계산된 지표 관리자](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)의 상단에서 **[!UICONTROL + 추가]**&#x200B;를 클릭하거나
+* **[!UICONTROL 계산된 지표 관리자]**&#x200B;의 상단에서 [+ 추가](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)를 클릭하거나
 
-* **[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 ![](assets/cm_builder_ui.png)
 
