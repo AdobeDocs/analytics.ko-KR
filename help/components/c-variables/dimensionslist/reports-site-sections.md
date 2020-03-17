@@ -3,7 +3,7 @@ description: 방문자가 가장 많이 액세스한 사이트 영역을 보여�
 title: 사이트 섹션
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
