@@ -3,7 +3,7 @@ description: 페이지 보기는 전송된 각 서버 호출에 대해 계산됩
 title: 페이지 보기
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 페이지 보기는 전송된 각 서버 호출에 대해 계산됩니다. 이 지표는 페이지 보기의 총 인스턴스 수를 나타냅니다. TrackLink 호출은 페이지 보기 수로 계산되지 않고 페이지 보기 지표를 증분시키지 않습니다.
 
-페이지 보기 지표를 사용하는 유용한 방법은 **[!UICONTROL 경로]** &gt; **[!UICONTROL 페이지]** &gt; **[!UICONTROL 시작 페이지]** 보고서를 실행하고, 페이지 보기 수로 정렬한 다음 가장 많은 페이지 보기 수를 유도하는 시작 페이지를 확인하는 것입니다.
+페이지 보기 지표를 사용하는 유용한 방법은 **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 시작 페이지]** 보고서를 실행하고, 그에 따라 정렬하고 대부분의 페이지 보기 횟수를 유도하는 시작 페이지를 확인하는 것입니다.
 
 | 사용 | 설명 |
 |---|---|
