@@ -3,7 +3,7 @@ description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연�
 title: 세그먼트 작성
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 세그먼트 빌더
 
-The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
+[!UICONTROL 세그먼트 빌더]는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 방문자로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -19,11 +19,11 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 세그먼트 빌더에 액세스하는 방법에는 여러 가지가 있습니다.
 
-* **Analytics 위쪽 탐색**: **[!UICONTROL Analytics]** &gt; **[!UICONTROL 구성 요소]** &gt; **[!UICONTROL 세그먼트]**&#x200B;를 클릭합니다.
-* **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** &gt; **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 프로젝트를 열고 **[!UICONTROL + 신규]** &gt; **[!UICONTROL 세그먼트 만들기]**&#x200B;를 클릭합니다.
-* **[!UICONTROL Reports &amp; Analytics]**: **[!UICONTROL Analytics]** &gt; **[!UICONTROL 보고서]**&#x200B;로 이동하여 기존 보고서를 열고 왼쪽 탐색 창에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+* **Analytics 위쪽 탐색**: **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;를 클릭합니다.
+* **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 세그먼트 만들기]**&#x200B;를 클릭합니다.
+* **[!UICONTROL Reports &amp; Analytics]**: **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 기존 보고서를 열고 왼쪽 탐색 창에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 * **[!UICONTROL Ad Hoc Analysis]**: [Ad Hoc Analysis에서 세그먼트를 만듭니다](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://marketing.adobe.com/resources/help/ko_KR/arb/segmentation.html).
 
 ## 세그먼트 빌더 사용자 인터페이스 {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -35,7 +35,7 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 세그먼트 빌더 액세스 방법:
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](assets/segment_icon.png) 표시되는 세그먼트 레일에서 **[!UICONTROL 추가를 클릭합니다]**.
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가를 클릭합니다]**.
 
 * 세그먼트 관리자 내에서 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.
 * 세그먼트 관리자에서 기존 세그먼트 제목을 클릭하여 세그먼트 빌더에서 세그먼트 편집
@@ -55,9 +55,9 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 1. **[!UICONTROL 기여도 분석 모델]**: 차원 세그먼테이션용. 차원 모델은 플로우 시각화를 지원하는 경우와 같이 순차적 세그먼테이션에서 특히 유용합니다.
 
-   * **[!UICONTROL 반복]** (기본값):차원에 대한 인스턴스 및 지속적인 값을 포함합니다.
-   * **[!UICONTROL 인스턴스]**:차원에 대한 인스턴스를 포함합니다.
-   * **[!UICONTROL 반복되지 않는 인스턴스]**:차원에 대한 고유 인스턴스(반복되지 않음)를 포함합니다.
+   * **[!UICONTROL 반복]** ((기본값)): 차원의 인스턴스와 지속적인 값을 포함합니다.
+   * ****&#x200B;인스턴스: 차원의 인스턴스를 포함합니다.
+   * ****&#x200B;비반복 인스턴스: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다.
    ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL 차원]**: 차원은 차원 목록(주황색 사이드바)에서 드래그하여 놓습니다.
@@ -99,14 +99,14 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
    ![](assets/drag_n_drop_dimension.png)
 
-   요소를 [!UICONTROL 정의]로 드래그하면 기본 최상위 [!UICONTROL 히트] 컨테이너가 표시됩니다. **[!UICONTROL 표시]드롭다운 메뉴에서 컨테이너 유형을 방문 또는 방문자로 변경할 수 있습니다.**
+   요소를 [!UICONTROL 정의]로 드래그하면 기본 최상위 [!UICONTROL 히트] 컨테이너가 표시됩니다. **[!UICONTROL 표시]** 드롭다운 메뉴에서 컨테이너 유형을 방문 또는 방문자로 변경할 수 있습니다.
 
 1. 드롭다운 메뉴에서 [연산자](/help/components/c-segmentation/seg-reference/seg-operators.md)를 설정합니다.
 1. 선택한 항목에 대한 값을 입력하거나 선택합니다.
 1. 필요한 경우 **[!UICONTROL And]**, **[!UICONTROL Or]** 또는 **[!UICONTROL Then]** 규칙을 사용하여 컨테이너를 더 추가합니다.
 1. 컨테이너를 배치하고 규칙을 설정한 후에는 오른쪽 위의 유효성 검증 차트에서 세그먼트 결과를 확인합니다. 유효성 검사기는 작성한 세그먼트와 일치하는 페이지 보기, 방문 및 고유한 방문자의 비율 및 절대값을 표시합니다.
 1. **[!UICONTROL 태그]**&#x200B;에서 기존 태그를 선택하거나 새 태그를 만들어 컨테이너에 [태깅](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)합니다.
-1. **[!UICONTROL 저장]을 클릭하여 세그먼트를 저장합니다.**
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 세그먼트를 저장합니다.
 
 이제 여러 가지 방법으로 세그먼트에 태깅하고, 세그먼트를 공유 및 관리할 수 있는 [세그먼트 관리자](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)가 표시합니다.
 
@@ -114,7 +114,7 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 [컨테이너 프레임워크를 작성한 다음](/help/components/c-segmentation/seg-overview.md) 사이에 논리 규칙 및 연산자를 배치할 수 있습니다.
 
-1. **[!UICONTROL 옵션 &gt; 컨테이너 추가를 클릭합니다]**.
+1. **[!UICONTROL 옵션 > 컨테이너 추가를 클릭합니다]**.
 
    ![](assets/add_container.png)
 
@@ -124,17 +124,17 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 1. 필요에 따라 컨테이너 유형을 변경합니다.
 1. 왼쪽 창의 차원, 세그먼트 또는 이벤트를 컨테이너로 드래그합니다.
-1. 정의 상단에 있는 최상위 수준 **[!UICONTROL 옵션]** &gt; **[!UICONTROL 컨테이너 추가]** 단추에서 계속해서 새 컨테이너를 추가하거나 컨테이너 내에 컨테이너를 추가하여 논리를 중첩합니다.
+1. 정의 상단에 있는 최상위 수준 **[!UICONTROL 옵션]** > **[!UICONTROL 컨테이너 추가]** 단추에서 계속해서 새 컨테이너를 추가하거나 컨테이너 내에 컨테이너를 추가하여 논리를 중첩합니다.
 
    **또는**
 
-   하나 이상의 규칙을 선택하고 **[!UICONTROL 옵션]** &gt; **[!UICONTROL 선택 항목에서 컨테이너 추가]**&#x200B;를 클릭합니다. 이렇게 하면 선택 영역이 별도의 컨테이너로 바뀝니다.
+   하나 이상의 규칙을 선택하고 **[!UICONTROL 옵션]** > **[!UICONTROL 선택에서 컨테이너 추가]**&#x200B;를 클릭합니다. 이렇게 하면 선택 영역이 별도의 컨테이너로 바뀝니다.
 
 ## 세그먼트에서 날짜 범위 사용 {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
 진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다.
 
-예를 들면 "지난 60일 동안 구매한 모든 사람"을 포함하는 세그먼트를 쉽게 작성할 수 있습니다.
+예를 들면 &quot;지난 60일 동안 구매한 모든 사람&quot;을 포함하는 세그먼트를 쉽게 작성할 수 있습니다.
 
 방문 컨테이너를 만들고, 그 안에서 AND 연산자와 함께 [!UICONTROL 최근 60일] 시간 범위와 [!UICONTROL 주문이 1보다 크거나 같음] 지표를 추가할 수 있습니다.
 
@@ -142,9 +142,9 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 ## 세그먼트 스택 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-세그먼트 스택은 'and' 연산자를 사용하여 각 세그먼트에서 기준을 조합한 다음 조합된 기준을 적용하는 방식으로 진행됩니다.
+세그먼트 스택은 &#39;and&#39; 연산자를 사용하여 각 세그먼트에서 기준을 조합한 다음 조합된 기준을 적용하는 방식으로 진행됩니다.
 
-예를 들어 "휴대폰 사용자" 세그먼트 및 "미국 지리" 세그먼트는 미국의 휴대폰 사용자에 대한 데이터만 반환합니다.
+예를 들어 &quot;휴대폰 사용자&quot; 세그먼트 및 &quot;미국 지리&quot; 세그먼트는 미국의 휴대폰 사용자에 대한 데이터만 반환합니다.
 
 이러한 세그먼트를 사용자들이 필요할 때 사용할 수 있도록 세그먼트 라이브러리에 포함할 수 있는 기본 구성 요소 또는 모듈로 생각하십시오. 이러한 식으로 필요한 세그먼트 수를 획기적으로 줄일 수 있습니다. 예를 들어 다음과 같은 40개의 세그먼트가 있을 수 있습니다.
 
@@ -162,9 +162,9 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 1. 세그먼트 빌더로 이동합니다.
 1. 세그먼트의 제목 및 설명을 제공합니다.
 
-   단계 결과 1. **[!UICONTROL 세그먼트 표시]를 클릭하여 왼쪽 탐색 영역에 세그먼트 목록을 표시합니다.**
+   단계 결과 1. **[!UICONTROL 세그먼트 표시]**&#x200B;를 클릭하여 왼쪽 탐색 영역에 세그먼트 목록을 표시합니다.
 
-   단계 결과 1. 스택할 세그먼트를 세그먼트 정의 캔버스에 드래그하여 놓습니다. 다음은 기존 세그먼트 "Visits from Tablets" 및 "US Geo"를 스택하는 세그먼트의 예입니다.
+   단계 결과 1. 스택할 세그먼트를 세그먼트 정의 캔버스에 드래그하여 놓습니다. 다음은 기존 세그먼트 &quot;Visits from Tablets&quot; 및 &quot;US Geo&quot;를 스택하는 세그먼트의 예입니다.
 
    ![](assets/seg_stack2.png)
 
