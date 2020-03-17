@@ -3,7 +3,7 @@ description: 고객이 첫 번째 품목을 추가하여 장바구니를 연 횟
 title: 장바구니 열기
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
