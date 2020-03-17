@@ -3,7 +3,7 @@ description: 장치의 JavaScript 사용 설정 여부 또는 장치가 "식별�
 title: JavaScript 지원
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # JavaScript 지원
 
-장치의 JavaScript 사용 설정 여부 또는 장치가 "식별되지 않음"으로 카운트되었는지 여부를 기준으로 지표를 표시합니다.
+장치의 JavaScript 사용 설정 여부 또는 장치가 &quot;식별되지 않음&quot;으로 카운트되었는지 여부를 기준으로 지표를 표시합니다.
 
 > [!NOTE] 2016년 11월 초에 JavaScript가 모바일 장치에 대해 항상 *`disabled / unidentified`*&#x200B;으로 나열되는 제한을 제거할 계획입니다.
 
