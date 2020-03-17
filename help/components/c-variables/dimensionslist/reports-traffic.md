@@ -3,7 +3,7 @@ description: 트래픽 보고서로 방문자와 웹 사이트의 상호 작용�
 title: 트래픽
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 *  인기 있는 사이트 콘텐츠 판별
 *  측정 가능한 기준으로 방문자 분류
 
-일부 즉시 사용할 수 있는 보고서에는 트래픽 지표와 전환 지표가 모두 포함되어 있습니다([!UICONTROL 검색 엔진] 보고서 등). 하지만, [!UICONTROL 트래픽] 보고서와 [!UICONTROL 전환] 보고서는 조직에 고유하며 **[!UICONTROL 트래픽]** 및 **전환]메뉴에 표시됩니다.[!UICONTROL **
+일부 즉시 사용할 수 있는 보고서에는 트래픽 지표와 전환 지표가 모두 포함되어 있습니다([!UICONTROL 검색 엔진] 보고서 등). 하지만, [!UICONTROL 트래픽] 보고서와 [!UICONTROL 전환] 보고서는 조직에 고유하며 **[!UICONTROL 트래픽]** 및 **[!UICONTROL 전환]** 메뉴에 표시됩니다.
 
 **공통 지속성**
 
