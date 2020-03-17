@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 정렬 {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-보고서를 열고 보고서 왼쪽에 있는 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하여 지표 레일을 표시하면 지표 선택기에서 **정렬 기준]드롭다운 목록에 네 개의 정렬 옵션이 표시됩니다.[!UICONTROL **
+보고서를 열고 보고서 왼쪽에 있는 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하여 지표 레일을 표시하면 지표 선택기에서 **[!UICONTROL 정렬 기준]** 드롭다운 목록에 네 개의 정렬 옵션이 표시됩니다.
 
 ![](assets/cm_sort.png)
 
