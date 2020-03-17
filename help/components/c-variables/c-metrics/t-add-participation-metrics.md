@@ -3,7 +3,7 @@ description: 기여도 지표를 추가하는 방법을 설명하는 단계입�
 title: 기여도 지표 추가
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 이벤트(1-100)를 보고서에 추가하려면 먼저 관리자 도구에서 해당 이벤트에 대해 기여도를 [활성화](/help/components/c-variables/c-metrics/metrics-participation.md)해야 합니다.
 
-[계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수도 있습니다.
+[계산된 지표](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수도 있습니다.
 
 1. 로그인하여 기여도 지표를 요청한 전환 보고서 또는 트래픽 보고서로 이동합니다.
 1. **[!UICONTROL 지표 추가를 클릭합니다]**.
