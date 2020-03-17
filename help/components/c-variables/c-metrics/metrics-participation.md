@@ -3,7 +3,7 @@ description: 기여도 지표는 성공 이벤트의 전체 크레딧을 방문 
 title: 기여도
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Ad Hoc Analysis에서 기여도를 사용하는 방법에 대한 자세한 내�
 * **비활성화**: 각 전환 이벤트의 기본 상태입니다. 이 이벤트에 대한 기여도 데이터는 수집되지 않습니다.
 * **활성화**: 이 이벤트에 대한 기여도 데이터가 수집됩니다. 
 
-> [!NOTE] 최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
+> [!NOTE] 최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
 
 활성화된 기여도 지표는 모든 전환 보고서에서 자동으로 사용할 수 있습니다. 요청에 따라 특정 트래픽 보고서에서도 기여도 지표를 볼 수 있습니다. 선택적으로, 일부 사용자 지정 트래픽 보고서에서 기여도 지표 사용하게 해 달라고 요청할 수 있습니다. 
 
@@ -28,14 +28,14 @@ Ad Hoc Analysis에서 기여도를 사용하는 방법에 대한 자세한 내�
 
 다음 시퀀스를 가정해 보십시오.
 
-1. 사용자가 사이트로 이동하여 "shoes"를 검색합니다.
-1. 그런 다음 사용자가 "tennis shoes"를 검색합니다.
+1. 사용자가 사이트로 이동하여 &quot;shoes&quot;를 검색합니다.
+1. 그런 다음 사용자가 &quot;tennis shoes&quot;를 검색합니다.
 1. 사용자가 제품 페이지에 연결된 링크를 클릭하고, 항목을 장바구니에 추가하고 $120의 구매를 수행합니다.
 
 내부 검색어 보고서에 매출액을 표시하면 선택된 할당을 기반으로 다음 내용이 표시됩니다.
 
-* **처음**: "shoes"가 $120의 크레딧을 받습니다. "tennis shoes"는 $0의 크레딧을 받습니다.
-* **마지막**: "tennis shoes"가 $120의 크레딧을 받습니다. "shoes"는 $0의 크레딧을 받습니다.
+* **처음**: &quot;shoes&quot;가 $120의 크레딧을 받습니다. &quot;tennis shoes&quot;는 $0의 크레딧을 받습니다.
+* **마지막**: &quot;tennis shoes&quot;가 $120의 크레딧을 받습니다. &quot;shoes&quot;는 $0의 크레딧을 받습니다.
 * **선형**: 각 캠페인이 $60의 크레딧을 받습니다.
 
    기여도는 전체 크레딧이 모든 값에 제공된다는 점을 제외하면 선형 할당과 유사합니다. 매출액(기여도)을 지표로 사용하면 할당이 무시됩니다. 이 예의 매출액(기여도)은 두 검색어 모두에 대해 $120를 보고합니다.
