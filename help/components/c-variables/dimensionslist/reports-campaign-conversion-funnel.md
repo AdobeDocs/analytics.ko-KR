@@ -3,7 +3,7 @@ description: 캠페인 보고 그룹의 지표 평균을 보여줍니다. 기본
 title: 캠페인 전환 단계
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 캠페인 보고 그룹의 지표 평균을 보여줍니다. 기본 지표는 클릭스루 횟수, 총 판매 수, 주문 수 및 매출액입니다.
 
-**[!UICONTROL 캠페인]** &gt; **[!UICONTROL 캠페인 전환 단계]**
+**[!UICONTROL 캠페인]** > **[!UICONTROL 캠페인 전환 단계]**
 
 단계 그래픽의 상단에는 전환 데이터가 표시됩니다. 하단에는 주문 수와, 매출액 및 판매량 등 최대 두 개의 다른 지표를 기준으로 상단에 있는 모든 이벤트에 대한 통계가 표시됩니다.
 
