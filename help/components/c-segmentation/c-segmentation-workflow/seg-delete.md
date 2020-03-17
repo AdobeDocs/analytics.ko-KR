@@ -3,7 +3,7 @@ description: 세그먼트를 삭제하기 전에 알아야 하는 몇 가지 고
 title: 세그먼트 삭제
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,6 +24,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Ad Hoc Analysis에서 포함된 삭제된 세그먼트 편집 {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Ad Hoc Analysis을 사용하면 이제 [계산된 지표 빌더](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) 내에서 삭제된 포함 세그먼트를 편집하고 해당 세그먼트에서 "다른 이름으로 저장" 작업을 수행할 수 있습니다.
+Ad Hoc Analysis을 사용하면 이제 [계산된 지표 빌더](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/) 내에서 삭제된 포함 세그먼트를 편집하고 해당 세그먼트에서 &quot;다른 이름으로 저장&quot; 작업을 수행할 수 있습니다.
 
 하지만, 삭제된 세그먼트를 참조하는 다른 모든 삭제된 세그먼트는 변경되지 않고 유지됩니다.
