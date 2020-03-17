@@ -3,7 +3,7 @@ description: 경로 분석을 기반으로 한 보고서 그룹. 기술적으로
 title: 경로 지정
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 경로 분석을 기반으로 한 보고서 그룹. 기술적으로 경로 지정은 한 페이지 이름을 다른 이름으로(한 값에서 다른 값으로) 이동하는 것을 말합니다.
 
-보다 유연한 경로 지정 옵션이 필요하면 [Analysis Workspace 흐름](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)을 사용하십시오.
+보다 유연한 경로 지정 옵션이 필요하면 [Analysis Workspace 흐름](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/flow.html)을 사용하십시오.
 
-> [!NOTE] 경로 지정을 활성화하려면 **[!UICONTROL 관리자 &gt; 보고서 세트 &gt; 설정 편집 &gt; 트래픽 &gt; 트래픽 변수]**&#x200B;로 이동하십시오. 사이트 섹션 및 서버 보고서에서 경로 지정을 활성화하려면 고객 지원에 문의하십시오.
+> [!NOTE] 경로 지정을 활성화하려면 **[!UICONTROL 관리자 > 보고서 세트 > 설정 편집 > 트래픽 > 트래픽 변수]**&#x200B;로 이동하십시오. 사이트 섹션 및 서버 보고서에서 경로 지정을 활성화하려면 고객 지원에 문의하십시오.
 
 값이 수집되는 순서를 알아야 하는 경우는 해당 값을 수집하는 변수의 경로 지정을 활성화해야 합니다. 경로 지정은 기본적으로 페이지에 대해 활성화됩니다. prop에 대해서는 경로 지정이 적절하지 않은 경우도 많기 때문에 기본적으로 활성화되지 않습니다. prop에 대해 경로 지정을 활성화하려면 고객 지원 센터에 문의하십시오.
 
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **예 - 검색의 경로 지정**
 
-한 값에서 다른 값으로 가는 동일한 개념이 다른 트래픽 변수에도 마찬가지로 적용됩니다  (*`s.props`* 포함). 예를 들어 내부 검색어 *`s.prop`*&#x200B;에 대해 경로 지정을 활성화하면 경로 방문자가 검색어를 따라 이동하는 것을 볼 수 있습니다.
+한 값에서 다른 값으로 가는 동일한 개념이 다른 트래픽 변수에도 마찬가지로 적용됩니다  *`s.props`*. 예를 들어 내부 검색어 *`s.prop`*&#x200B;에 대해 경로 지정을 활성화하면 경로 방문자가 검색어를 따라 이동하는 것을 볼 수 있습니다.
 
 **예 - 로그인 상태별 경로 지정**
 
