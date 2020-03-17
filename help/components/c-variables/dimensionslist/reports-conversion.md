@@ -3,7 +3,7 @@ description: 고객 활동을 간편하고 정확하게 세부적으로 분석�
 title: 전환
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,13 +15,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 예를 들어, 홈 페이지에서 구매를 일으키는 내부 캠페인의 유형을 알고 싶은 경우는 먼저 내부 추적 코드를 캡처하고 내부 캠페인을 캡처하는 *`s.eVar`*&#x200B;에 대해 지속 기간을 한 번의 방문으로 설정해야 합니다. 구매 등의 성공 이벤트가 완료되면 성공에 대한 크레딧이 내부 캠페인 ID와 같이 방문자에 대해 지속되는 모든 전환 변수로 갑니다. [!UICONTROL 내부 캠페인 보고서]를 실행하면 온사이트 전환을 가장 많이 생성한 캠페인을 확인할 수 있습니다.
 
-일부 즉시 사용할 수 있는 보고서에는 트래픽 지표와 전환 지표가 모두 포함되어 있습니다([!UICONTROL 검색 엔진] 보고서 등). 하지만, [!UICONTROL 트래픽] 보고서와 [!UICONTROL 전환] 보고서는 조직에 고유하며 **[!UICONTROL 트래픽]** 및 **전환]메뉴에 표시됩니다.[!UICONTROL **
+일부 즉시 사용할 수 있는 보고서에는 트래픽 지표와 전환 지표가 모두 포함되어 있습니다([!UICONTROL 검색 엔진] 보고서 등). 하지만, [!UICONTROL 트래픽] 보고서와 [!UICONTROL 전환] 보고서는 조직에 고유하며 **[!UICONTROL 트래픽]** 및 **[!UICONTROL 전환]** 메뉴에 표시됩니다.
 
 **보고서 속성**
 
 * [!UICONTROL 사용자 지정 전환] 보고서는 eVar(전환 변수)를 기반으로 합니다.
 * 전환 변수는 페이지 보기를 넘어서까지 지속될 수 있으며 지정한 만료 기간 내의 지표와 연결할 수 있습니다.
-* 보고서의 기본 지표는 매출입니다. 기본 지표를 변경하려면 [기본 보고서 지표 선택](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)을 참조하십시오.
+* 보고서의 기본 지표는 매출입니다. 기본 지표를 변경하려면 [기본 보고서 지표 선택](https://marketing.adobe.com/resources/help/ko_KR/sc/user/t_metrics_set_default.html)을 참조하십시오.
 * 이러한 보고서를 트렌드 및 등급 형식 모두로 보십시오.
 * 이러한 보고서에서 분류를 사용하여 라인 항목을 통합하고 이름을 변경할 수 있습니다.
 * 기본 하위 관계가 활성화된 경우는 이러한 보고서를 다음에 따라 분류할 수 있습니다.
