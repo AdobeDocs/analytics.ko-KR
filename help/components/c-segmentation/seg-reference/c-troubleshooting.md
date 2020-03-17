@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 세그먼테이션 문제 해결
 
-## 오류: "이 세그먼트에 호환하지 않는 요소" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## 오류: &quot;이 세그먼트에 호환하지 않는 요소&quot; {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
 이 오류는 세그먼트에 Data Warehouse와 호환하지 않는 요소가 들어 있는 Data Warehouse 폴더에 세그먼트를 저장하려 할 때 발생합니다. 이 오류를 해결하려면 다음 중 하나를 수행하십시오.
 
@@ -41,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 가능한 원인:
 
-* Rules/Operators are incorrect for the required result.
+* 필요한 결과에 대한 규칙/연산자가 잘못되었습니다.
 * 세그먼트에 컨테이너를 잘못 적용했습니다.
 * 세그먼테이션하는 데 사용된 트래픽 변수가 잘못 설정되어 있거나 만료되었습니다.
 
