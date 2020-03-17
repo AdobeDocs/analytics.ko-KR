@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 트래픽 분류
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,10 +32,10 @@ t_classification_add_traffic.xml
 
 선택한 보고서 세트의 분류를 추가 또는 편집하는 방법을 설명하는 단계입니다.
 
-1. 세트 헤더에서 **[!UICONTROL 관리자]** &gt; **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. 세트 헤더에서 **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.
-1. **분류 유형 선택** 필드에서 분류를 추가하려는 변수를 선택합니다.
-1. **[!UICONTROL 설정 편집]** &gt; **[!UICONTROL 트래픽]** &gt; **[!UICONTROL 트래픽 분류]**&#x200B;를 클릭합니다.
+1. ****&#x200B;분류 유형 선택 필드에서 분류를 추가하려는 변수를 선택합니다.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽]** > **[!UICONTROL 트래픽 분류]**&#x200B;를 클릭합니다.
 
    ![단계 정보](assets/traffic-classification.png)
 
