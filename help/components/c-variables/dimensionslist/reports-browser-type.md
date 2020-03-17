@@ -3,7 +3,7 @@ description: Internet Explorer, Mozilla Firefox, Google Chrome과 같이 방문�
 title: 브라우저 유형
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Internet Explorer, Mozilla Firefox, Google Chrome과 같이 방문자가 사용하는 브라우저의 유형을 나타냅니다.
 
-아직 식별되지 않은 브라우저 유형은 "지정되지 않음"으로 표시됩니다.
+아직 식별되지 않은 브라우저 유형은 &quot;지정되지 않음&quot;으로 표시됩니다.
 
 예:
 
