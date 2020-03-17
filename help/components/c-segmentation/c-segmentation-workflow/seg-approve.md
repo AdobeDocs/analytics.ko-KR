@@ -3,7 +3,7 @@ description: 세그먼트 관리자 내에서 다양한 애플리케이션 수�
 title: 세그먼트 승인
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 세그먼트를 승인됨으로 플래그를 지정하는 방법은 다음과 같습니다.
 
 1. 세그먼트 관리자에서 세그먼트 제목 왼쪽의 확인란을 선택합니다.
-1. 세그먼트 관리 작업 표시줄에서 **[!UICONTROL 승인]을 클릭합니다.**
+1. 세그먼트 관리 작업 표시줄에서 **[!UICONTROL 승인]**&#x200B;을 클릭합니다.
 1. 승인된 세그먼트를 조직과 공유할 수 있습니다.
 1. **[!UICONTROL 확인을 클릭합니다]**.
 1. 목록의 세그먼트 옆에 승인 아이콘이 표시됩니다.
