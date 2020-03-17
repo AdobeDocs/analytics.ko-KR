@@ -5,12 +5,21 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
 
 # Analysis Workspace의 새로운 기능
+
+## 2020년 3월
+
+202 파섹
+
+| 기능 | 설명 |
+|--- |--- |
+| 작업 공간에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와 나란히 볼 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 교육 자습서 템플릿 | 이 새로운 표준 템플릿은 작업 공간에서 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [추가 정보...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020년 2월
 
@@ -18,7 +27,6 @@ source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 | 기능 | 설명 |
 |--- |--- |
-| 작업 공간에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와 나란히 볼 수 있습니다. 2020년 2월 20일부터 몇 주 동안 모든 고객에게 이 기능이 제공됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | 크로스 디바이스 분석을 사용하는 조직을 위한 새로운 작업 영역 템플릿 | 이 템플릿에서는 CDA가 방문 횟수를 합치는 데 얼마나 효과적인지를 보여주며 CDA 전용 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 장치 Analytics 설정](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)을 참조하십시오. |
 | Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 기타 작업 영역 개선 사항 | <ul><li>패널이나 시각화를 작업 영역으로 가져오면 왼쪽 레일이 구성 요소로 자동 전환되어 보다 매끄러운 작업 과정이 이루어집니다.</li><li>이제 템플릿 구성 요소에 액세스할 수 있습니다(예: 태그, 즐겨찾기, 승인).</li><li>필터링된 지표 및 세그먼트 목록은 + 단추를 제공하여 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가합니다.</li></ul> |
