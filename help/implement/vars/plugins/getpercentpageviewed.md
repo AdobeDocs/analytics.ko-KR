@@ -2,7 +2,7 @@
 title: getPercentPageViewed
 description: 방문자가 본 페이지의 비율을 검색합니다.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,14 +19,14 @@ The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to s
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 `s_gi`). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 [`s_gi`](../functions/s-gi.md)). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -45,8 +45,8 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 이 `getPercentPageViewed` 메서드는 다음 인수를 사용합니다.
 
-* **`pid`**(선택 사항, 문자열): 플러그인의 측정에서 제공한 백분율과 상호 연관시킬 수 있는 페이지 기반 식별자입니다.  기본값은`pageName`변수입니다.
-* **`ch`**(선택 사항, 부울): 플러그인이 초기 로드 후 페이지 크기에 대한 변경 사항을 고려하지 않게 하려면`false`(또는`0`)로 설정합니다. 생략하면 이 인수의 기본값이`true`로 설정됩니다. 대부분의 경우 이 인수를 생략하는 것이 좋습니다.
+* **`pid`** (선택 사항, 문자열): 플러그인의 측정에서 제공한 백분율과 상호 연관시킬 수 있는 페이지 기반 식별자입니다.  기본값은 `pageName` 변수입니다.
+* **`ch`** (선택 사항, 부울): 플러그인이 초기 로드 후 페이지 크기에 대한 변경 사항을 고려하지 않게 하려면 `false` (또는 `0`)로 설정합니다. 생략하면 이 인수의 기본값이 `true`로 설정됩니다. 대부분의 경우 이 인수를 생략하는 것이 좋습니다.
 
 이 메서드를 호출하면 아무 것도 반환되지 않습니다.대신 다음 변수를 설정합니다.
 
@@ -82,7 +82,7 @@ if(s._ppvPreviousPage)
    * 코드는 s.prop1을 s.ppvPreviousPage 값(즉, s.pageName 또는 이전 페이지의 이전 값)과 동일하게 설정합니다.
    * 또한 코드는 방문자가 도달한 접기 수 및 사용 가능한 접기 수와 함께, s.prop2를 이전 페이지에서 본 가장 높은 비율 및 이전 페이지에서 본 초기 백분율과 같게 설정합니다
 
-**참고**: 전체 페이지가 처음 로드될 때 표시되는 경우 [본 빈도가 가장 높음] 및 [본 초기 비율] 차원 모두 100이고 [본 접기] 및 [사용 가능한 접기 수 수]는 모두 1입니다.   처음 로드될 때 전체 페이지가 보이지 않지만 방문자가 다음 페이지로 이동하기 전에 페이지 아래로 스크롤되지 않으면 본 가장 높은 비율과 처음 본 비율 차원 모두 동일한 값이 됩니다.
+**참고**: 전체 페이지가 처음 로드될 때 표시되는 경우 가장 많이 본 비율과 처음 본 비율 모두 100이고 사용 가능한 접기 수와 접기 모두 1입니다.   처음 로드될 때 전체 페이지가 보이지 않지만 방문자가 다음 페이지로 이동하기 전에 페이지 아래로 스크롤되지 않으면 본 가장 높은 비율과 처음 본 비율 차원 모두 동일한 값이 됩니다.
 
 ### 예 #2
 
