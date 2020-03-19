@@ -2,7 +2,7 @@
 title: 구성 변수
 description: 구성 변수를 사용하여 데이터를 수집하는 방법을 결정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,4 +21,4 @@ Adobe Experience Platform Launch를 사용하는 구현에서 구성 변수는 �
 2. 편집할 속성을 클릭합니다.
 3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
 
-> [!IMPORTANT] 추적 함수(`t()` 또는 `tl()`)를 호출하기 전에 모든 구성 변수가 설정되었는지 확인합니다. 함수에서 구성 변수를 설정하지 `doPlugins()` 마십시오.
+> [!IMPORTANT] 추적 메서드([`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md))를 호출하기 전에 모든 구성 변수가 설정되었는지 확인합니다. 함수에서 구성 변수를 설정하지 [`doPlugins()`](../functions/doplugins.md) 마십시오.
