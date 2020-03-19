@@ -2,7 +2,7 @@
 title: s_gi()
 description: AppMeasurement 인스턴스를 만들고 추적합니다.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,12 +13,12 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ## Adobe Experience Platform Launch의 s_gi()
 
-Analytics 확장 기능은 추적 개체를 인스턴스화하고 관리합니다. 그러나 Adobe Analytics 확장을 구성할 때 라이브러리 관리 [!UICONTROL 아코디언에서] 전역 추적 개체를 설정할 수도 있습니다.
+Analytics 확장 기능은 추적 개체를 인스턴스화하고 관리합니다. 그러나 Adobe Analytics 확장 기능을 구성할 때 [!UICONTROL Library Management] 아코디언에서 전역 추적 개체를 설정할 수도 있습니다.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics에서 구성] 단추를 클릭합니다.
-4. 라이브러리 관리 [!UICONTROL 아코디언을] 확장하고 [라이브러리 관리] [!UICONTROL 를 제외한 모든 라디오 단추를 선택합니다].
+3. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+4. 아코디언을 [!UICONTROL Library Management] 확장하고 다른 라디오 단추를 선택합니다 [!UICONTROL Manage the library for me].
 
 전역 변수 텍스트 필드를 사용하면 사용자 지정 추적 개체를 설정할 수 있습니다. Its default value is `s`.
 
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] 다음 섹션 및 예제는 복잡한 구현 주제를 포함합니다. 구현을 철저히 테스트하고 조직의 [솔루션 디자인 문서에서](../../prepare/solution-design.md)중요한 사용자 지정을 추적합니다.
+> [!CAUTION] 다음 섹션 및 예제는 복잡한 구현 주제를 포함합니다. 구현을 철저히 테스트하고 조직의 [솔루션 디자인 문서에서](../../prepare/solution-design.md)중요한 사용자 지정을 추적합니다.
 
 ## 다른 추적 개체를 사용하여 여러 구현 관리
 
