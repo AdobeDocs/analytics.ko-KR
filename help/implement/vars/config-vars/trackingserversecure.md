@@ -2,7 +2,7 @@
 title: trackingServerSecure
 description: 위치 이미지 요청이 HTTPS 페이지에서 전송되었는지 확인합니다.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,14 +15,14 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 
 ## Adobe Experience Platform Launch의 SSL 추적 서버
 
-[!UICONTROL SSL 추적] 서버는 Adobe Analytics [!UICONTROL 확장을 구성할 때] 일반 아코디언 아래에 있는 필드입니다.
+[!UICONTROL SSL Tracking Server] 는 Adobe Analytics 확장 기능을 구성할 때 아코디언 아래의 [!UICONTROL General] 필드입니다.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics에서 구성] 단추를 클릭합니다.
-4. [ [!UICONTROL SSL 추적 서버] ] [!UICONTROL 필드를 표시하는 [일반] 아코디언을] 확장합니다.
+3. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+4. 필드를 나타내는 [!UICONTROL General] [!UICONTROL SSL Tracking Server] 아코디언을 확장합니다.
 
-이 필드를 비워 두면 `trackingServer` 변수의 값이 기본값으로 설정됩니다.
+이 필드를 비워 두면 [`trackingServer`](trackingserver.md) 변수의 값이 기본값으로 설정됩니다.
 
 ## s.trackingServerSecure in AppMeasurement 및 Launch 사용자 지정 코드 편집기
 
