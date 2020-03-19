@@ -2,7 +2,7 @@
 title: 중단
 description: abort 변수는 히트가 Adobe 데이터 수집 서버로 전송되지 않도록 하는 부울입니다.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,7 +19,7 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 
 이 `abort` 변수는 부울입니다. Its default value is `false`.
 
-* 로 설정된 `true`경우 다음 추적 호출(`t()` 또는 `tl()`)은 데이터를 Adobe로 전송하지 않습니다.
+* 로 설정된 `true`경우 다음 추적 호출([`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md))은 데이터를 Adobe로 전송하지 않습니다.
 * 로 설정되었거나 정의되지 `false` 않은 경우 이 변수는 아무 작업도 하지 않습니다.
 
 ```js
@@ -30,7 +30,7 @@ s.abort = true;
 
 ## 예
 
-이 `abort` 변수는 `doPlugins()` 함수에서 설정할 수 있습니다. 이 함수는 이미지 요청이 Adobe로 전송되기 전에 마지막으로 실행되는 함수입니다.
+이 `abort` 변수는 [`doPlugins()`](../functions/doplugins.md) 함수에서 설정할 수 있습니다. 이 함수는 이미지 요청이 Adobe로 전송되기 전에 마지막으로 실행되는 함수입니다.
 
 ```js
 s.doPlugins = function(s) {
