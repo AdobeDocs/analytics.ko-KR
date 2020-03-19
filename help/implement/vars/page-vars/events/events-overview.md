@@ -2,7 +2,7 @@
 title: events
 description: 사이트의 대부분의 지표를 제어하는 events 변수를 설정합니다.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -17,10 +17,10 @@ Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 규칙 [!UICONTROL 탭으로 이동한] 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-4. [ [!UICONTROL 동작]]에서 기존 Adobe Analytics - [!UICONTROL 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 확장 [!UICONTROL 프로그램 드롭다운을 Adobe] Analytics로 설정하고 작업 [!UICONTROL 유형을 변수][!UICONTROL 설정으로]설정합니다.
-6. 이벤트 [!UICONTROL 섹션을] 찾습니다.
+3. 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다. [!UICONTROL Rules]
+4. 아래에서 [!UICONTROL Actions]기존 [!UICONTROL Adobe Analytics - Set Variables] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
+5. 드롭다운을 [!UICONTROL Extension] Adobe Analytics로 설정하고 [!UICONTROL Action Type] 을 [!UICONTROL Set Variables]설정합니다.
+6. 섹션을 [!UICONTROL Events] 찾습니다.
 
 다음과 같은 몇 가지 기능을 사용할 수 있습니다.
 
@@ -42,7 +42,7 @@ Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에�
 * `scView`:&#39;장바구니 보기&#39; 지표를 증가시킵니다.
 * `scCheckout`:&#39;체크아웃&#39; 지표를 증가시킵니다.
 
-> [!TIP] 이 변수는 대소문자를 구분합니다. 정확한 데이터 수집을 위해 이벤트 값을 잘못 대문자로 변경하지 마십시오.
+> [!NOTE] 이 변수는 대소문자를 구분합니다. 정확한 데이터 수집을 위해 이벤트 값을 잘못 대문자로 변경하지 마십시오.
 
 ```js
 // Set the events variable to a single value
