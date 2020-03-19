@@ -2,7 +2,7 @@
 title: getTimeParting
 description: 특정 작업이 발생하는 시간을 측정합니다.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -23,8 +23,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
-1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
+1. 탭으로 이동한 다음 [!UICONTROL Extensions] [!UICONTROL Catalog] 단추를 클릭합니다.
+1. 확장 [!UICONTROL Common Analytics Plugins] 프로그램 설치 및 게시
 1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
@@ -39,14 +39,14 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 `s_gi`). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 [`s_gi`](../functions/s-gi.md)). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,7 +59,7 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 
 이 `getTimeParting` 메서드는 다음 인수를 사용합니다.
 
-**`t`**(선택 사항이지만 권장 문자열):방문자의 현지 시간을 변환할 시간대의 이름입니다.  기본값은 UTC/GMT 시간으로 설정됩니다. 유효한[값의 전체 목록은 Wikipedia의 TZ 데이터베이스 시간대](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)목록을 참조하십시오.
+**`t`** (선택 사항이지만 권장 문자열):방문자의 현지 시간을 변환할 시간대의 이름입니다.  기본값은 UTC/GMT 시간으로 설정됩니다. 유효한 [값의 전체 목록은 Wikipedia의 TZ 데이터베이스 시간대](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) 목록을 참조하십시오.
 
 일반적인 유효한 값은 다음과 같습니다.
 
