@@ -2,14 +2,14 @@
 title: Util.cookieWrite
 description: 쿠키에 대한 값을 씁니다.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.cookieWrite
 
-쿠키는 동일한 도메인의 페이지 간에 정보를 저장하고 검색할 수 있습니다. 값을 쿠키로 설정하려면 이 `Util.cookieWrite` 메서드를 사용합니다. 이 `Util.cookieRead` 방법을 사용하여 값을 검색할 수 `Util.cookieWrite`있습니다.
+쿠키는 동일한 도메인의 페이지 간에 정보를 저장하고 검색할 수 있습니다. 값을 쿠키로 설정하려면 이 `Util.cookieWrite()` 메서드를 사용합니다. 이 [`Util.cookieRead()`](util-cookieread.md) 방법을 사용하여 값을 검색할 수 `Util.cookieWrite()`있습니다.
 
 ## Adobe Experience Platform Launch에서 쿠키 설정
 
