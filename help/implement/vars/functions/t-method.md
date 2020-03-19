@@ -2,14 +2,14 @@
 title: t
 description: Adobe에 페이지 보기 추적 호출을 보냅니다.
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# t
+# t()
 
-이 `t` 메서드는 Adobe Analytics의 중요한 핵심 구성 요소입니다. 페이지에 정의된 모든 Analytics 변수를 가져와 이미지 요청으로 컴파일한 다음 해당 데이터를 Adobe 데이터 수집 서버로 보냅니다.
+이 `t()` 메서드는 Adobe Analytics의 중요한 핵심 구성 요소입니다. 페이지에 정의된 모든 Analytics 변수를 가져와 이미지 요청으로 컴파일한 다음 해당 데이터를 Adobe 데이터 수집 서버로 보냅니다.
 
 예를 들어 다음 JavaScript 코드를 고려해 보십시오.
 
@@ -25,7 +25,7 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-이 `t` 메서드를 실행하면 정의된 모든 Analytics 변수가 사용되고 해당 변수를 기반으로 URL이 생성됩니다. 일부 Analytics 변수는 이미지의 URL을 결정하지만 다른 변수는 쿼리 문자열 매개 변수 값을 결정합니다.
+이 `t()` 메서드를 실행하면 정의된 모든 Analytics 변수가 사용되고 해당 변수를 기반으로 URL이 생성됩니다. 일부 Analytics 변수는 이미지의 URL을 결정하지만 다른 변수는 쿼리 문자열 매개 변수 값을 결정합니다.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
@@ -39,9 +39,9 @@ Launch에는 페이지 보기 추적 호출을 설정하는 전용 위치가 있
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 규칙 [!UICONTROL 탭으로 이동한] 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-4. 작업 [!UICONTROL 아래에서]&#39;+&#39; 아이콘을 클릭합니다
-5. 확장 [!UICONTROL 프로그램 드롭다운을 Adobe] Analytics로 설정하고 작업 [!UICONTROL 유형을] 비콘 전송으로 설정합니다.
+3. 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다. [!UICONTROL Rules]
+4. 아래에서 [!UICONTROL Actions]&#39;+&#39; 아이콘을 클릭합니다.
+5. 드롭다운을 Adobe [!UICONTROL Extension] Analytics로 설정하고 비콘 전송으로 [!UICONTROL Action Type] 설정합니다.
 6. Click the `s.t()` radio button.
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.t() 메서드
