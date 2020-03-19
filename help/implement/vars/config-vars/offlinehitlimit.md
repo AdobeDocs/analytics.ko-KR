@@ -2,7 +2,7 @@
 title: offlineHitLimit
 description: 오프라인 추적을 위해 대기열에 추가할 최대 히트 수를 결정합니다.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 오프라인 추적은 Adobe Analytics에서 데이터를 수집하는 선택적 방법입니다. 방문자가 인터넷에서 연결이 끊겼지만 사이트를 계속 탐색하는 경우 장치가 인터넷에 다시 연결될 때까지 히트는 오프라인 큐에 저장됩니다. 오프라인 추적은 대부분 모바일 애플리케이션에 사용됩니다.
 
-이 `offlineHitLimit` 변수는 장치가 로컬로 저장하는 히트 수에 제한을 둡니다. 이 변수는 `trackOffline` 인 경우에만 작동합니다 `true`.
+이 `offlineHitLimit` 변수는 장치가 로컬로 저장하는 히트 수에 제한을 둡니다. 이 변수는 활성화된 경우에만 [`trackOffline`](trackoffline.md) 작동합니다.
 
 ## Adobe Experience Platform 실행의 오프라인 히트 제한
 
