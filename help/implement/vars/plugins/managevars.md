@@ -2,7 +2,7 @@
 title: manageVars
 description: 한 번에 두 개 이상의 Analytics 변수 값을 수정합니다.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
-1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
+1. 탭으로 이동한 다음 [!UICONTROL Extensions] [!UICONTROL Catalog] 단추를 클릭합니다.
+1. 확장 [!UICONTROL Common Analytics Plugins] 프로그램 설치 및 게시
 1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
@@ -35,14 +35,14 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 `s_gi`). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 [`s_gi`](../functions/s-gi.md)). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,8 +67,8 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 이 `manageVars` 메서드는 다음 인수를 사용합니다.
 
-* **`cb`**(필수, 문자열):플러그인이 Analytics 변수를 조작하는 데 사용하는 콜백 함수의 이름입니다. Adobe의 사용자 지정 기능을 사용할 수`cleanStr`있습니다.
-* **`l`**(선택 사항, 문자열):조작하려는 Analytics 변수의 쉼표로 구분된 목록. 설정되지 않은 경우 기본적으로 다음을 포함한 모든 Adobe Analytics 변수로 설정됩니다.
+* **`cb`** (필수, 문자열):플러그인이 Analytics 변수를 조작하는 데 사용하는 콜백 함수의 이름입니다. Adobe의 사용자 지정 기능을 사용할 수 `cleanStr` 있습니다.
+* **`l`** (선택 사항, 문자열):조작하려는 Analytics 변수의 쉼표로 구분된 목록. 설정되지 않은 경우 기본적으로 다음을 포함한 모든 Adobe Analytics 변수로 설정됩니다.
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -85,7 +85,7 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
    * 모든 계층 변수
    * 모든 목록 변수
    * 모든 컨텍스트 데이터 변수
-* **`Il`**(선택 사항, 부울):인수에 선언된 변수 목록을 포함하는 대신`false`제외하려면&#x200B;*설정합니다*`l`. 기본값은`true`입니다.
+* **`Il`** (선택 사항, 부울):인수에 선언된 변수 목록을 포함하는 대신 `false` 제외하려면 *설정합니다* `l` . 기본값은 `true`입니다.
 
 이 메서드를 호출하면 아무 것도 반환되지 않습니다. 대신 원하는 콜백 함수를 기반으로 Analytics 변수 값을 변경합니다.
 
