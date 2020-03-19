@@ -2,7 +2,7 @@
 title: getVisitNum
 description: 방문자의 현재 방문 번호를 추적합니다.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
-1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
+1. 탭으로 이동한 다음 [!UICONTROL Extensions] [!UICONTROL Catalog] 단추를 클릭합니다.
+1. 확장 [!UICONTROL Common Analytics Plugins] 프로그램 설치 및 게시
 1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
@@ -35,14 +35,14 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 `s_gi`). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 [`s_gi`](../functions/s-gi.md)). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,11 +58,11 @@ var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.s
 
 이 `getVisitNum` 메서드는 다음 인수를 사용합니다.
 
-* **`rp`**(선택 사항, 정수 또는 문자열):방문 번호 카운터가 재설정되기 전 일 수입니다.  설정되지 않은 경우 기본값이 로`365`설정됩니다.
+* **`rp`** (선택 사항, 정수 또는 문자열):방문 번호 카운터가 재설정되기 전 일 수입니다.  설정되지 않은 경우 기본값이 로 `365` 설정됩니다.
    * 이 인수가 `"w"`끝나면 카운터가 주 말에 재설정됩니다(이번 주 토요일 오후 11시 59분).
    * 이 인수가 `"m"`이면 카운터는 월말(이번 달의 마지막 날)에 재설정됩니다.
    * 이 인수가 `"y"`이면 카운터는 연도 종료(12월 31일)에 재설정됩니다.
-* **`erp`**(선택 사항, 부울):인수가 숫자인`rp`경우 이 인수는 방문 번호 만료를 연장할지 여부를 결정합니다. 로 설정된`true`경우 이후 사이트 히트는 방문 번호 카운터를 재설정합니다. 로 설정된`false`경우, 방문 번호 카운터가 재설정되면 사이트의 후속 히트가 확장되지 않습니다. 기본값은`true`입니다. 인수가 문자열이면 이 인수가 유효하지 않습니다.`rp`
+* **`erp`** (선택 사항, 부울):인수가 숫자인 `rp` 경우 이 인수는 방문 번호 만료를 연장할지 여부를 결정합니다. 로 설정된 `true`경우 이후 사이트 히트는 방문 번호 카운터를 재설정합니다. 로 설정된 `false`경우, 방문 번호 카운터가 재설정되면 사이트의 후속 히트가 확장되지 않습니다. 기본값은 `true`입니다. 인수가 문자열이면 이 인수가 유효하지 않습니다. `rp`
 
 방문자가 30분 동안 활동이 없는 후 사이트를 다시 방문할 때마다 방문 번호가 증가합니다. 이 메서드를 호출하면 방문자의 현재 방문 번호를 나타내는 정수가 반환됩니다.
 
