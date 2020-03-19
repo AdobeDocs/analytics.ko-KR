@@ -2,7 +2,7 @@
 title: 플러그인 개요
 description: 사이트에 코드를 붙여넣어 새로운 기능을 소개합니다.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,7 +21,7 @@ Adobe는 특정 플러그인을 설치하는 여러 가지 방법을 제공합�
 
 각 조직에는 서로 다른 구현 요구 사항이 있으므로 구현에 이러한 요구 사항을 포함할 방법을 결정할 수 있습니다. 사이트에 코드를 포함할 때 다음 기준을 충족하는지 확인합니다.
 
-1. 먼저 Analytics 추적 개체(사용 `s_gi`)를 인스턴스화합니다.
+1. 먼저 Analytics 추적 개체(사용 [`s_gi`](../functions/s-gi.md))를 인스턴스화합니다.
    * Launch는 Adobe Analytics가 로드될 때 추적 개체를 자동으로 인스턴스화합니다.
    * 일반적으로 JavaScript 파일의 맨 위에 있는 추적 개체를 초기화하는 `AppMeasurement.js` 것이 좋습니다.
 2. 두 번째 플러그인 코드를 포함합니다.
