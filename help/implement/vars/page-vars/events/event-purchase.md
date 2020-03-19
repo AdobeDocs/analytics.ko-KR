@@ -2,14 +2,14 @@
 title: 구매 이벤트
 description: 구매 이벤트를 사용하여 '주문 수', '판매량' 및 '매출액' 지표의 데이터를 수집합니다.
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # 구매 이벤트
 
-purchase 이벤트는 `events` 변수의 값입니다. 이 값은 사이트가 생성하는 매출에 대한 데이터를 수집하려는 조직에 유용합니다. 이는 `products` 및 `purchaseID` 변수에 크게 의존합니다.
+purchase 이벤트는 `events` 변수의 값입니다. 이 값은 사이트가 생성하는 매출에 대한 데이터를 수집하려는 조직에 유용합니다. 이는 [`products`](../products.md) 및 [`purchaseID`](../purchaseid.md) 변수에 크게 의존합니다.
 
 구매 이벤트를 설정하면 다음 지표에 영향을 줍니다.
 
@@ -21,10 +21,10 @@ purchase 이벤트는 `events` 변수의 값입니다. 이 값은 사이트가 �
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 규칙 [!UICONTROL 탭으로 이동한] 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-4. [ [!UICONTROL 동작]]에서 기존 Adobe Analytics - [!UICONTROL 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 확장 [!UICONTROL 프로그램 드롭다운을 Adobe] Analytics로 설정하고 작업 [!UICONTROL 유형을 변수][!UICONTROL 설정으로]설정합니다.
-6. 이벤트 [!UICONTROL 섹션을] 찾아 이벤트 드롭다운을 [!UICONTROL 구매하도록]설정합니다.
+3. 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다. [!UICONTROL Rules]
+4. 아래에서 [!UICONTROL Actions]기존 [!UICONTROL Adobe Analytics - Set Variables] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
+5. 드롭다운을 [!UICONTROL Extension] Adobe Analytics로 설정하고 [!UICONTROL Action Type] 을 [!UICONTROL Set Variables]설정합니다.
+6. 섹션을 [!UICONTROL Events] 찾아 이벤트 드롭다운을 로 설정합니다 [!UICONTROL purchase].
 
 Launch에 `products` 전용 필드가 `purchaseID` 없고 같은 기타 종속 변수가 있습니다. 이러한 변수에 대해 AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용합니다.
 
