@@ -2,7 +2,7 @@
 title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수.
 translation-type: tm+mt
-source-git-commit: ddab63a4fe3b8f1a3187893eba1ac3a1eda3bc41
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,10 +21,10 @@ Analytics 확장 기능(전역 변수)을 구성하는 동안 또는 규칙에�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 규칙 [!UICONTROL 탭으로 이동한] 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-4. [ [!UICONTROL 동작]]에서 기존 Adobe Analytics - [!UICONTROL 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 확장 [!UICONTROL 프로그램 드롭다운을 Adobe] Analytics로 설정하고 작업 [!UICONTROL 유형을 변수][!UICONTROL 설정으로]설정합니다.
-6. Prop [!UICONTROL 섹션을] 찾습니다.
+3. 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다. [!UICONTROL Rules]
+4. 아래에서 [!UICONTROL Actions]기존 [!UICONTROL Adobe Analytics - Set Variables] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
+5. 드롭다운을 [!UICONTROL Extension] Adobe Analytics로 설정하고 [!UICONTROL Action Type] 을 [!UICONTROL Set Variables]설정합니다.
+6. 섹션을 [!UICONTROL Props] 찾습니다.
 
 prop을 선택하여 값 또는 데이터 요소를 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
 
@@ -56,3 +56,5 @@ s.prop1 = "value1,value2,value3";
 ```
 
 > [!IMPORTANT] 목록 prop은 여전히 최대 길이 100바이트의 영향을 받습니다. 목록 Prop은 여러 값을 포함할 수 있으므로 이 제한에 도달하고 잘립니다. 이 100바이트 제한에 도달하는 경우 약어 또는 단축 값을 사용하는 것이 좋습니다.
+
+목록 Prop에서 동일한 값을 두 번 이상 설정하면 보고에서 중복 제거됩니다. 분석 작업 공간은 값이 표시되는 히트 수와 값이 데이터에 존재하는 횟수를 카운트하지 않습니다.
