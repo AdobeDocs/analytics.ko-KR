@@ -2,7 +2,7 @@
 title: getQueryParam
 description: URL의 쿼리 문자열 매개 변수 값을 추출합니다.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 이 `getQueryParam` 플러그인을 사용하면 URL에 포함된 모든 쿼리 문자열 매개 변수의 값을 추출할 수 있습니다. 랜딩 페이지 URL에서 내부 및 외부 캠페인 코드를 추출하는 데 유용합니다. 검색어 또는 다른 쿼리 문자열 매개 변수를 추출할 때도 유용합니다.
 
-이 플러그인은 여러 쿼리 문자열 매개 변수를 포함하는 해시 및 URL을 포함하여 복잡한 URL을 구문 분석하는 데 강력한 기능을 제공합니다. 단순 쿼리 문자열 매개 변수만 필요한 경우 Launch에서 URL 매개 변수 기능 또는 AppMeasurement에 포함된 `Util.getQueryParam` 메서드를 사용하는 것이 좋습니다.
+이 플러그인은 여러 쿼리 문자열 매개 변수를 포함하는 해시 및 URL을 포함하여 복잡한 URL을 구문 분석하는 데 강력한 기능을 제공합니다. 단순 쿼리 문자열 매개 변수만 필요한 경우 Launch에서 URL 매개 변수 기능 또는 AppMeasurement에 포함된 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 메서드를 사용하는 것이 좋습니다.
 
 ## Adobe Experience Platform Launch 익스텐션을 사용하여 플러그인 설치
 
@@ -21,8 +21,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
-1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
+1. 탭으로 이동한 다음 [!UICONTROL Extensions] [!UICONTROL Catalog] 단추를 클릭합니다.
+1. 확장 [!UICONTROL Common Analytics Plugins] 프로그램 설치 및 게시
 1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
@@ -37,8 +37,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
@@ -56,9 +56,9 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 이 `getQueryParam` 메서드는 다음 인수를 사용합니다.
 
-* **`qsp`**(필수):URL 내에서 찾을 쿼리 문자열 매개 변수의 쉼표로 구분된 목록입니다. 대/소문자를 구분하지 않습니다.
-* **`de`**(선택 사항):여러 쿼리 문자열 매개 변수가 일치하는 경우 사용할 구분 기호입니다. 기본값은 빈 문자열입니다.
-* **`url`**(선택 사항):쿼리 문자열 매개 변수 값을 추출하기 위한 사용자 지정 URL, 문자열 또는 변수. 기본값은`window.location`입니다.
+* **`qsp`** (필수):URL 내에서 찾을 쿼리 문자열 매개 변수의 쉼표로 구분된 목록입니다. 대/소문자를 구분하지 않습니다.
+* **`de`** (선택 사항):여러 쿼리 문자열 매개 변수가 일치하는 경우 사용할 구분 기호입니다. 기본값은 빈 문자열입니다.
+* **`url`** (선택 사항):쿼리 문자열 매개 변수 값을 추출하기 위한 사용자 지정 URL, 문자열 또는 변수. 기본값은 `window.location`입니다.
 
 이 메서드를 호출하면 위의 인수 및 URL에 따라 값이 반환됩니다.
 
@@ -139,7 +139,7 @@ http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**** 참고:이 플러그인은 물음표가 없는 경우 Check의 해시 문자에 대한 URL을 물음표로 바꿉니다.  URL에 해시 문자 앞에 오는 물음표가 포함되어 있으면 플러그인은 URL을 Check의 해시 문자로 바꿉니다.
+**참고:** 이 플러그인은 물음표가 없는 경우 Check의 해시 문자에 대한 URL을 물음표로 바꿉니다.  URL에 해시 문자 앞에 오는 물음표가 포함되어 있으면 플러그인은 URL을 Check의 해시 문자로 바꿉니다.
 
 ### 예 #6
 
@@ -167,7 +167,7 @@ s.campaign=s.getQueryParam('cid');
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**** 참고:세 번째 매개 변수는
+**참고:** 세 번째 매개 변수는
 
 다음 코드는 s.eVar2를 &quot;123456|trackingcode1|true|300&quot;과 동일하게 설정합니다.
 
