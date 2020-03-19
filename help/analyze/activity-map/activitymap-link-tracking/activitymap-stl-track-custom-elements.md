@@ -4,26 +4,26 @@ title: s.tl() 메서드 사용
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 290526ecc1b040f93d0734a5deaf2d79ab1bde10
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# 메서드 `tl` 사용
+# 메서드 `tl()` 사용
 
-You can use the `tl` method to track custom elements and to configure overlay rendering for dynamic content.
+You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content.
 
 ## 사용자 지정 요소 추적 {#section_5D6688DFFFC241718249A9A0C632E465}
 
-Using the [`tl` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. s.tl을 사용하면, 페이지 로드를 발생시키지 않는 모든 사용자 지정 요소를 추적할 수 있습니다.
+Using the [`tl()` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. s.tl을 사용하면, 페이지 로드를 발생시키지 않는 모든 사용자 지정 요소를 추적할 수 있습니다.
 
-In the `tl` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. 지금 Activity Map 변수용 링크 ID를 식별하는 데에도 사용됩니다.
+In the `tl()` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. 지금 Activity Map 변수용 링크 ID를 식별하는 데에도 사용됩니다.
 
 ```js
 s.tl(this,linkType,linkName,variableOverrides)
 ```
 
-In other words, if you use `s.tl` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl` method. Activity Map에서 [기본 추적](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)에 사용되는 표준 링크 추적 알고리즘에서는 가져오지 않습니다.
+In other words, if you use `s.tl()` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl()` method. Activity Map에서 [기본 추적](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)에 사용되는 표준 링크 추적 알고리즘에서는 가져오지 않습니다.
 
 ## 다이내믹 컨텐츠를 위한 오버레이 렌더링 {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
@@ -33,9 +33,9 @@ s.tl() 함수가 HTML 요소의 클릭 이벤트에서 바로 호출되면 웹 �
 <div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
 ```
 
-Whenever any web page content is added to the page after the initial page load, the `tl` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. 그런 다음 새 링크 컬렉션 프로세스가 Activity Map에서 트리거됩니다.
+Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. 그런 다음 새 링크 컬렉션 프로세스가 Activity Map에서 트리거됩니다.
 
-When the `tl` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl` method is called indirectly:
+When the `tl()` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
 
 ```html
 <div onclick="someFn(event)"></div>
