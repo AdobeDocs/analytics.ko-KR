@@ -2,7 +2,7 @@
 title: linkURL
 description: 링크 추적 호출에서 자동으로 생성된 링크 URL AppMeasurement가 사용하는 링크를 재정의합니다.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -23,4 +23,4 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 s.linkURL = "https://example.com";
 ```
 
-이 `linkName` 변수가 링크 추적 호출에 설정되지 않은 경우 `linkURL` 변수가 대신 사용됩니다.
+이 [`linkName`](linkname.md) 변수가 링크 추적 호출에 설정되지 않은 경우 `linkURL` 변수가 대신 사용됩니다.
