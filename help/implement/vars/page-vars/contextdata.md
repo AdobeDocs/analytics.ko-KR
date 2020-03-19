@@ -2,14 +2,14 @@
 title: contextData
 description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # contextData
 
-컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다. 코드에서 값을 Analytics 변수에 명시적으로 할당하는 대신 컨텍스트 데이터 변수에 데이터를 보낼 수 있습니다. 그런 다음 처리 규칙을 사용하여 컨텍스트 데이터 변수 값을 가져와 각 Analytics 변수에 전달합니다. See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다. 코드에서 값을 Analytics 변수에 명시적으로 할당하는 대신 컨텍스트 데이터 변수에 데이터를 보낼 수 있습니다. 그런 다음 처리 규칙을 사용하여 컨텍스트 데이터 변수 값을 가져와 각 Analytics 변수에 전달합니다. 관리 사용 안내서에서 [처리 규칙](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)을 참조하십시오.
 
 컨텍스트 데이터 변수는 개발 팀이 번호가 매겨진 변수 대신 명명된 요소의 데이터를 수집하는 데 유용합니다. 예를 들어, 개발 팀이 페이지의 작성자를 할당하도록 요청하는 대신 `eVar10`페이지의 작성자에게 페이지 할당을 요청할 수 `s.contextData["author"]` 있습니다. 그런 다음 조직의 Analytics 관리자는 처리 규칙을 만들어 컨텍스트 데이터 변수를 보고를 위한 분석 변수에 매핑할 수 있습니다. 개발 팀은 궁극적으로 Adobe가 제공하는 많은 페이지 변수 대신 컨텍스트 데이터 변수만을 걱정하게 됩니다.
 
@@ -44,7 +44,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## 링크 추적 호출에서 컨텍스트 데이터 보내기
 
-컨텍스트 데이터 변수를 다음 `contextData` 위치의 속성으로 `s.linkTrackVars`포함:
+컨텍스트 데이터 변수를 다음 `contextData` 위치의 속성으로 [`s.linkTrackVars`](../config-vars/linktrackvars.md)포함:
 
 ```js
 s.contextData["example_variable"] = "Example value";
