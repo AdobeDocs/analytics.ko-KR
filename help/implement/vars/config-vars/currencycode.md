@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 상거래를 사용하는 사이트의 경우 매출 및 통화는 Analytics의 중요한 부분입니다. 여러 국가를 아우르는 사이트 중 많은 사이트는 서로 다른 통화를 사용합니다. 이 `currencyCode` 변수를 사용하여 매출 속성이 올바른 통화로 나타나는지 확인합니다.
 
-이 `currencyCode` 정의되지 않은 경우, `products` 변수 및 통화 이벤트가 보고서 세트의 통화와 동일한 것으로 간주됩니다. 보고서 [세트의](/help/admin/admin/general-acct-settings-admin.md) 통화를 보려면 관리 사용 안내서의 일반 계정 설정을 참조하십시오.
+이 `currencyCode` 정의되지 않은 경우, [`products`](../page-vars/products.md) 변수 및 통화 이벤트가 보고서 세트의 통화와 동일한 것으로 간주됩니다. 보고서 [세트의](/help/admin/admin/general-acct-settings-admin.md) 통화를 보려면 관리 사용 안내서의 일반 계정 설정을 참조하십시오.
 
 이 `currencyCode` 정의되고 보고서 세트의 통화와 일치하는 경우 통화 전환이 적용되지 않습니다.
 
@@ -23,12 +23,12 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ## Adobe Experience Platform Launch의 통화 코드
 
-통화 코드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 일반] 아코디언 아래의 필드입니다.
+통화 코드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL General] 아코디언 아래에 있는 필드입니다.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics에서 구성] 단추를 클릭합니다.
-4. 통화 코드 [!UICONTROL 필드를] 나타내는 일반 [!UICONTROL 아코디언을 확장합니다] .
+3. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+4. 필드를 나타내는 [!UICONTROL General] [!UICONTROL Currency Code] 아코디언을 확장합니다.
 
 사전 설정 통화 코드 또는 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
 
