@@ -3,8 +3,8 @@ description: 선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동�
 title: 페이지 보기 수
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
 
@@ -15,17 +15,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [페이지 뷰](/help/components/c-variables/c-metrics/metrics-page-view.md)는 이미지나 비디오와 같은 페이지 요소가 아니라 전체 페이지 문서에 대한 요청입니다. 예를 들어 한 명의 방문자가 1회 방문 시 15페이지를 보는 경우 15회의 페이지 보기로 계산됩니다. 한 명의 방문자가 1회 방문 시 동일한 페이지를 3번 보는 경우 3회의 페이지 보기로 계산됩니다. 
 
-**보고서 속성**
+## 보고서 속성
 
-* 이 보고서는 사이트에서 [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) 함수가 호출된 횟수를 참조합니다.
-* 사용자 지정 [링크 추적](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) 호출(사용자 지정 링크, 파일 다운로드 및 종료 링크)은 [!DNL s.tl()] 함수를 사용하므로 이 보고서에서 계산되지 않습니다.
-
+* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
+* 메서드를 사용하는 링크 추적 호출은 이 보고서에서 계산되지 않습니다. [`tl()`](/help/implement/vars/functions/tl-method.md)
 * 사용자가 페이지를 새로 고치거나 뒤로 단추를 누를 때마다 이미지 요청이 전송되므로 이러한 작업도 이 보고서에 포함됩니다.
 * 시간별 분류는 보고서 세트의 시간대를 따릅니다.
 * 이 보고서에는 라인 항목이 없습니다. 따라서 보고서를 트렌드 형식으로만 볼 수 있습니다.
 * 시간, 일, 주, 월, 분기 및 연도 단위를 적용할 수 있습니다. 이러한 단위는 보고 날짜 범위에 맞게 사용할 수 있습니다.
 
-**제품 특정 정보**
+## 제품별 정보
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
