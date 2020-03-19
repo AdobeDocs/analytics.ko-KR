@@ -2,7 +2,7 @@
 title: apl(appendToList)
 description: 여러 값을 지원하는 변수에 값을 추가합니다.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 제공합니다. Adobe 고객 지원 센터에서는 설치 또는 문제 해결을 포함하여 이 플러그인을 지원하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 그들은 도움을 받기 위해 컨설턴트와 회의를 예약할 수 있다.
 
-이 `apl` 플러그인을 사용하면 목록 변수(예: `events`, `linkTrackVars`목록 변수 및 기타)에 새 값을 안전하게 추가할 수 있습니다.
+이 `apl` 플러그인을 사용하면 목록 구분 변수(예: [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md)및 기타)에 새 값을 안전하게 추가할 수 [`list`](../page-vars/list.md)있습니다.
 
 * 추가하려는 값이 변수에 없으면 코드는 문자열 끝에 값을 추가합니다.
 * 추가하려는 값이 변수에 이미 있으면 이 플러그인은 값을 변경하지 않습니다. 이 기능을 사용하면 구현에서 중복 값을 방지할 수 있습니다.
@@ -25,8 +25,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
-1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
+1. 탭으로 이동한 다음 [!UICONTROL Extensions] [!UICONTROL Catalog] 단추를 클릭합니다.
+1. 확장 [!UICONTROL Common Analytics Plugins] 프로그램 설치 및 게시
 1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
@@ -41,14 +41,14 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 `s_gi`). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 [`s_gi`](../functions/s-gi.md)). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,11 +64,11 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 이 `apl` 메서드는 다음 인수를 사용합니다.
 
-* **`lv`**(필수, 문자열):구분 기호로 구분된 항목 목록을 포함하여 새 값을 추가할 변수
-* **`vta`**(필수, 문자열):인수 값에 추가할 새 값의 쉼표로 구분된`lv`목록입니다.
-* **`d1`**(선택 사항, 문자열):인수에 이미 포함되어 있는 개별 값을 구분하는 데 사용되는 구분 기호입니다.`lv`설정되지 않은 경우 기본적으로 쉼표(`,`)로 설정됩니다.
-* **`d2`**(선택 사항, 문자열):출력 구분 기호. 기본값이 설정되지 않은 경우`d1`동일한 값으로 설정됩니다.
-* **`cc`**(선택 사항, 부울):대/소문자를 구분하는 검사가 사용되는지 여부를 나타내는 플래그. 중복`true`검사는 대소문자를 구분합니다. 중복 검사가`false`설정되어 있거나 설정되지 않은 경우 대/소문자를 구분하지 않습니다. 기본값은`false`입니다.
+* **`lv`** (필수, 문자열):구분 기호로 구분된 항목 목록을 포함하여 새 값을 추가할 변수
+* **`vta`** (필수, 문자열):인수 값에 추가할 새 값의 쉼표로 구분된 `lv` 목록입니다.
+* **`d1`** (선택 사항, 문자열):인수에 이미 포함되어 있는 개별 값을 구분하는 데 사용되는 구분 기호입니다. `lv`  설정되지 않은 경우 기본적으로 쉼표(`,`)로 설정됩니다.
+* **`d2`** (선택 사항, 문자열):출력 구분 기호. 기본값이 설정되지 않은 경우 `d1` 동일한 값으로 설정됩니다.
+* **`cc`** (선택 사항, 부울):대/소문자를 구분하는 검사가 사용되는지 여부를 나타내는 플래그. 중복 `true`검사는 대소문자를 구분합니다. 중복 검사가 `false` 설정되어 있거나 설정되지 않은 경우 대/소문자를 구분하지 않습니다. 기본값은 `false`입니다.
 
 이 `apl` 메서드는 `lv` 인수 값과 `vta` 인수에 중복되지 않은 값을 반환합니다.
 
