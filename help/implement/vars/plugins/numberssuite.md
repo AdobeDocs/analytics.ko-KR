@@ -2,7 +2,7 @@
 title: 숫자 세트
 description: 다른 JavaScript 변수에서 사용할 숫자를 만들고 조작합니다.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 숫자 세트는 일련의 JavaScript 함수입니다. 여기에는 다음 플러그인이 포함되어 있습니다.
 
-* **`zeroPad`**:숫자의 시작 부분에 특정 0을 추가합니다. 이 플러그인은 JavaScript 날짜 개체를 사용하여 작업하고 한 자리 숫자가 아닌 두 자리 숫자로 날짜 및 일의 서식을 지정하려는 경우와 같이 변수에 특정 자릿수가 필요한 경우에 유용합니다. 예를 들어,`01/09/2020`대신`1/9/2020`.
+* **`zeroPad`**:숫자의 시작 부분에 특정 0을 추가합니다. 이 플러그인은 JavaScript 날짜 개체를 사용하여 작업하고 한 자리 숫자가 아닌 두 자리 숫자로 날짜 및 일의 서식을 지정하려는 경우와 같이 변수에 특정 자릿수가 필요한 경우에 유용합니다. 예를 들어, `01/09/2020` 대신 `1/9/2020`.
 * **`randomNumber`**:특정 수의 숫자를 사용하여 무작위 숫자를 생성합니다. 이 플러그인은 타사 태그를 배포하고 캐시 버스트 임의 번호를 원하는 경우에 유용합니다.
 * **`twoDecimals`**:100분의 1로 숫자를 돌리세요. 이 플러그인은 통화 용도의 경우 유용하므로 숫자를 유효한 통화 값으로 반올림할 수 있습니다.
 
@@ -23,8 +23,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. [확장] [!UICONTROL 탭으로] 이동한 다음 [카탈로그] [!UICONTROL 단추를 클릭합니다]
-1. Common Analytics 플러그인 [!UICONTROL 확장 설치 및] 게시
+1. 탭으로 이동한 다음 [!UICONTROL Extensions] [!UICONTROL Catalog] 단추를 클릭합니다.
+1. 확장 [!UICONTROL Common Analytics Plugins] 프로그램 설치 및 게시
 1. 아직 설정하지 않은 경우, &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 다음 구성으로 만듭니다.
    * 조건:없음
    * 이벤트:코어 - 라이브러리가 로드됨(페이지 상단)
@@ -39,14 +39,14 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 원하는 속성을 클릭합니다.
-1. 확장 [!UICONTROL 탭으로 이동한] 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성 단추를 클릭합니다.
-1. [편집기 [!UICONTROL 열기]] 단추를 표시하는 사용자 지정 코드 [!UICONTROL 아코디언을 사용하여 추적] 구성을확장합니다.
+1. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 확장 프로그램 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+1. 단추를 표시하는 [!UICONTROL Configure tracking using custom code] 아코디언을 [!UICONTROL Open Editor] 확장합니다.
 1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
 1. Analytics 확장 프로그램에 변경 사항을 저장하고 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 `s_gi`). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 [`s_gi`](../functions/s-gi.md)). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
