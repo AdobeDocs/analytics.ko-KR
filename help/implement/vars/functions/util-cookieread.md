@@ -2,14 +2,14 @@
 title: Util.cookieRead
 description: 쿠키에 사용할 값을 가져옵니다.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.cookieRead
 
-쿠키는 동일한 도메인의 페이지 간에 정보를 저장하고 검색할 수 있습니다. 쿠키에서 값을 검색하려면 `Util.cookieRead` 메서드를 사용합니다.
+쿠키는 동일한 도메인의 페이지 간에 정보를 저장하고 검색할 수 있습니다. 쿠키에서 값을 검색하려면 `Util.cookieRead()` 메서드를 사용합니다.
 
 ## Adobe Experience Platform Launch에서 쿠키 읽기
 
@@ -17,8 +17,8 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 원하는 속성을 클릭합니다.
-3. 데이터 요소 [!UICONTROL 탭으로 이동한] 다음 원하는 데이터 요소를 클릭하거나 데이터 요소를 만듭니다.
-4. 확장 [!UICONTROL 프로그램 드롭다운을] 코어로 [!UICONTROL 설정하고]데이터 요소 [!UICONTROL 유형] 쿠키를 [!UICONTROL 쿠키로]설정합니다.
+3. 탭으로 이동한 다음 원하는 데이터 요소를 클릭합니다(또는 데이터 요소 만들기). [!UICONTROL Data Elements]
+4. 드롭다운을 [!UICONTROL Extension] 설정하고 [!UICONTROL Core]을 [!UICONTROL Data Element Type] [!UICONTROL Cookie]설정합니다.
 5. 텍스트 필드에 쿠키 이름을 입력합니다.
 
 쿠키 값은 데이터 요소에 저장됩니다. 그런 다음 규칙의 데이터 요소를 참조하여 Analytics 변수를 할당할 수 있습니다.
