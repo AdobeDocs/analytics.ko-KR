@@ -2,14 +2,14 @@
 title: usePlugins
 description: doPlugins() 함수를 활성화하거나 비활성화합니다.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # usePlugins
 
-이 `usePlugins` 옵션이 활성화되면 AppMeasurement가 컴파일되고 Adobe에 히트를 보내기 직전에 `doPlugins()` 함수가 실행됩니다. 이 `doPlugins()` 함수를 사용하는 경우 이 변수를 활성화합니다.
+이 `usePlugins` 옵션이 활성화되면 AppMeasurement가 컴파일되고 Adobe에 히트를 보내기 직전에 [`doPlugins()`](../functions/doplugins.md) 함수가 실행됩니다. 이 `doPlugins()` 함수를 사용하는 경우 이 변수를 활성화합니다.
 
 ## Adobe Experience Platform Launch에서 플러그인 사용
 
