@@ -2,7 +2,7 @@
 title: addProductEvent
 description: 제품 및 이벤트 변수에 사용자 지정 이벤트를 추가합니다.
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 > [!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 제공합니다. Adobe 고객 지원 센터에서는 설치 또는 문제 해결을 포함하여 이 플러그인을 지원하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 그들은 도움을 받기 위해 컨설턴트와 회의를 예약할 수 있다.
 
-이 `addProductEvent` 플러그인은 숫자 또는 통화 이벤트를 `products` 변수에 추가합니다. 제품 문자열 형식에 대한 걱정 없이 숫자 또는 통화 이벤트를 `products` 변수에 추가하려면 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 `products` 변수에 숫자 또는 통화 이벤트를 사용하지 않는 경우 필요하지 않습니다.
+이 `addProductEvent` 플러그인은 숫자 또는 통화 이벤트를 [`products`](../page-vars/products.md) 변수에 추가합니다. 제품 문자열 형식에 대한 걱정 없이 숫자 또는 통화 이벤트를 `products` 변수에 추가하려면 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 `products` 변수에 숫자 또는 통화 이벤트를 사용하지 않는 경우 필요하지 않습니다.
 
 ## Adobe Experience Platform Launch 익스텐션을 사용하여 플러그인 설치
 
@@ -42,7 +42,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 `s_gi`). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣습니다(사용 [`s_gi`](../functions/s-gi.md)). 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,7 +65,7 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 * **`ev`** (필수, 문자열):인수의 숫자 또는 통화 이벤트에 할당된 `en` 값입니다.  설정되지 않은 경우 기본값이 로 `1` 설정됩니다.
 * **`ap`** (선택 사항, 부울):products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우 `true` (또는 `1`) 값이 모든 제품 항목에 이벤트를 추가합니다.  설정되지 않은 경우 기본값이 로 `false` 설정됩니다.
 
-반환되는 `addProductEvent` 값이 없습니다. 대신 이벤트와 해당 값을 `products` 변수에 추가합니다. 또한 이 플러그인은 이 `events` 변수에서 필수이므로 이 변수를 자동으로 추가합니다.
+반환되는 `addProductEvent` 값이 없습니다. 대신 이벤트와 해당 값을 `products` 변수에 추가합니다. 또한 이 플러그인은 이 [`events`](../page-vars/events/events-overview.md) 변수에서 필수이므로 이 변수를 자동으로 추가합니다.
 
 ## 쿠키
 
