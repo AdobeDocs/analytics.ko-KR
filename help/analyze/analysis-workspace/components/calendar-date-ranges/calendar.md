@@ -2,8 +2,8 @@
 description: 달력에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 title: 달력 및 날짜 범위 개요
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 달력에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 
-달력 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용되는 옵션이 있습니다. 기본적으로 Workspace 달력에는 현재 달과 마지막 달이 표시됩니다.
+달력 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용되는 옵션이 있습니다. Workspace에서 날짜 범위를 클릭하면 인터페이스에 현재 달력과 이전 달력이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이 두 달력을 조정할 수 있습니다.
 
-처음 클릭하면 날짜 범위 선택이 시작됩니다. 그런 다음 날짜 범위의 끝을 선택하는 두 번째 클릭까지 범위를 양쪽 방향으로 강조 표시합니다. 첫 번째 날짜를 클릭한 채로 `Shift` 키를 누르고 있으면(또는 마우스 오른쪽 단추를 클릭하면) 이 날짜가 범위에 추가됩니다.
+![달력](assets/aw_calendar.png)
+
+달력에서 처음 클릭하면 날짜 범위 선택이 시작됩니다. 두 번째 클릭으로 날짜 범위 선택이 완료되고 강조 표시됩니다. 키를 누르고 있거나 마우스 오른쪽 단추를 클릭하는 `Shift` 경우 현재 선택한 범위에 추가됩니다.
 
 사용자는 날짜(및 시간 차원)를 Workspace 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
-![](assets/aw_calendar.png)
-
-[Analysis Workspace에서 날짜 범위 및 달력 사용 - YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)(4:07)
-
+[Analysis Workspace에서 날짜 범위 및 달력 사용 - YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28)(4:07)
 
 | 설정 | 설명 |
 |--- |--- |
