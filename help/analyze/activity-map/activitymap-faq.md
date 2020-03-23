@@ -4,7 +4,7 @@ title: Activity Map FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Activity Map 기능의 설정, 구성 및 사용과 관련하여 자주 묻는 질문입니다. 
 
-## 구현 및 AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## 구현 및 AppMeasurement
 
 **Q: 새로운 Activity Map을 활성화하기 위한 구현 절차는 무엇입니까?**
 
@@ -39,7 +39,21 @@ A: AppMeasurement는 보고서 세트 수준에서 롤아웃됩니다. 보고서
 
 A: 아니요. Activity Map 기능은 방문자 API에 따라 변하지 않습니다.
 
-## Activity Map 애플리케이션 {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map 애플리케이션
+
+**Q:Activity Map은 단일 페이지 애플리케이션(SPA)을 어떻게 지원합니까?**
+
+A:
+
+* Activity Map은 몇 초마다 웹 페이지를 스캔하여 페이지의 변경 사항을 찾습니다. ActivityMap은 새 페이지를 로드하지 않고도 페이지에서 새 컨텐츠를 찾지만, 이 새 컨텐츠는 항상 페이지를 로드할 때 발견된 첫 번째 pageName에 귀속됩니다.
+
+* Activity Map은 알고 있는 링크의 가시성이 변경되었는지 확인합니다. 가시성이 변경되면 해당 링크에 대한 [페이지 링크](/help/analyze/activity-map/activitymap-links-report.md) 테이블의 [현재] 열이 **[!UICONTROL Displayed]** 또는 **[!UICONTROL Hidden]**&#x200B;로 업데이트됩니다.
+
+* 사용자 상호 작용이 새 컨텐츠를 만들면 AppMeasurement에서 링크를 찾기 위해 찾은 모든 새로운 요소가 **[!UICONTROL Links On Page]** 표에 추가됩니다. Activity Map은 이러한 새 링크를 포함하는 새 데이터 요청을 보냅니다. 새 링크는 UI에서 데이터 요청을 처리할 때 **[!UICONTROL Links On Page]** 테이블에 표시됩니다.
+
+**Q:Activity Map은 &quot;보기&quot; 데이터를 제공합니까?**
+
+A:아니요, 각 페이지 로드에서 표시되는 모든 링크를 추적하려면 더 많은 데이터를 수집해야 합니다. Activity Map에서는 무료 Add-On으로 이 기능을 제공하지 않습니다.
 
 **Q: 이전에 내 웹 사이트에서 Visitor ClickMap을 사용하지 않았어도 Activity Map을 사용할 수 있습니까?**
 
@@ -47,7 +61,7 @@ A: 새 버전을 설치하기 위해 반드시 기존 버전(지금은 간단히
 
 **Q: Activity Map에서는 어떤 브라우저 및 버전을 지원합니까?**
 
-A: Adobe에서는 4가지 최신 주요 브라우저 버전(Chrome, Firefox, Safari 및 IE)만 지원합니다.
+A:Adobe는 최신 버전의 4개의 기본 브라우저(Chrome, Firefox, Safari 및 IE)를 지원합니다.
 
 **Q: 기본 오버레이 설정은 무엇입니까?**
 
@@ -68,12 +82,6 @@ A: 기본적으로 Activity Map에는 데이터를 수집한 모든 링크가 �
 
 A: Activity Map이 사용 중이면 링크 클릭 데이터가 Analytics 태그로 수집되지 않습니다. 이 동작은 ClickMap 플러그인의 동작을 따릅니다.
 
-**Q: 왜 지표 드롭다운에 동일한 지표가 여러 번 나열됩니까?**
-
-A: Activity Map에서는 모든 보고서 세트에 대한 지표를 나열합니다. 그 결과, 회사가 [지표 통합 프로세스](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)를 진행하지 않은 경우 중복 항목이 표시될 수 있습니다.
-
-지표 드롭다운을 사용하면 계산된 지표 목록을 방문한 페이지의 보고서 세트에 지정된 지표로 제한할 수 있습니다.
-
 **Q: Activity Map 모든 링크 보고서는 Reports &amp; Analytics Activity Map 보고와 어떻게 비교됩니까?**
 
 A: Activity Map에서 모든 링크 보고서를 가져오기 위해 다음과 같이 분류 요청을 만듭니다. Activity Map 페이지 = &quot;visitedpage&quot;, `<list of link&regions present in the page at rendering time>`에서 Activity Map 링크 및 지역으로 분류됩니다.
@@ -84,9 +92,7 @@ Reports &amp; Analytics에서 상응하는 보고서를 얻으려면, 먼저 Act
 
 **Q: Activity Map은 여러 보고서 세트를 나열하는 여러 태그가 포함된 페이지에서 어떻게 작동합니까?**
 
-A: 기본적으로 Activity Map에서는 페이지가 보내는 첫 번째 태그와 연결된 보고서 세트를 사용합니다.
-
-Activity Map 설정 > 기타 탭을 통해 서로 다른 태그가 지정된 보고서 세트를 선택할 수 있습니다.
+A: 기본적으로 Activity Map에서는 페이지가 보내는 첫 번째 태그와 연결된 보고서 세트를 사용합니다. Activity Map 설정 > 기타 탭을 통해 서로 다른 태그가 지정된 보고서 세트를 선택할 수 있습니다.
 
 **Q: Activity Map은 Analytics 태그를 얼마나 오래 검사합니까?**
 
@@ -116,27 +122,27 @@ A: 표시된 모든 데이터는 페이지 보기를 기반으로 합니다.
 
 *호환하지 않는 Analytics 태그(AppMeasurement v1.5 또는 그 이전 버전)가 있는 웹 페이지*
 
-페이지 코드를 v1.6으로 (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 업그레이드해야 함을 나타내는 경고 메시지가 표시됩니다.
+페이지 코드를 v1.6 이상으로 업그레이드해야 함을 나타내는 경고 메시지가 표시됩니다.
 
 *호환하는 Analytics 태그(AppMeasurement v1.6 이상)가 있지만, 관리 도구에 Activity Map 보고가 활성화되어 있지 않은 웹 페이지*
 
 관리자에게 \[Activity Map 보고서를 활성화\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;) 하도록 요청해야 한다고 알려주는 경고 페이지가 표시됩니다.
 
-**Q:[Analytics 데이터 피드](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)를 통해 Activity Map 데이터(contextData)를 내보낼 수 있습니까?**
+**Q:[Analytics 데이터 피드](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html)를 통해 Activity Map 데이터(contextData)를 내보낼 수 있습니까?**
 
 A: 아니요.
 
-## Activity Map의 세그멘테이션 {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Activity Map의 세그멘테이션
 
-**Q: 세그먼트가 개별 사용자 세그먼트에 연결되어 있습니까? 또는 공유된 관리자 수준 세그먼트를 Activity Map에서 사용할 수 있습니까?**
+**Q: 세그먼트가 개별 사용자 세그먼트에 연결되어 있습니까? Are shared segments available in Activity Map?**
 
-A: Activity Map은 Analytics의 관리자 수준 세그먼트(보고 세그먼트)를 상속합니다.
+A:Activity Map은 Analytics에서 보고 세그먼트를 상속합니다.
 
 **Q: 세그먼트는 라이브 모드에서 작동합니까?**
 
 A: 아니요. 세그먼트는 라이브 모드에서 작동하지 않습니다. 이 기능은 Reports &amp; Analytics의 실시간 보고 기능과 같습니다.
 
-## 가상 보고서 세트 {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## 가상 보고서 세트
 
 **Q: Activity Map은 가상 보고서 세트와 호환합니까?**
 
