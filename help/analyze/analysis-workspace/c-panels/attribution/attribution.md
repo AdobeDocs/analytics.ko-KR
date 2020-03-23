@@ -3,7 +3,7 @@ description: 'null'
 title: 기여도 분석 패널 개요
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -96,3 +96,5 @@ Analytics의 일부 차원은 하나의 히트에 여러 값을 포함할 수 �
 예를 들어 &quot;디스플레이 히트&quot; 세그먼트가 적용된 VRS를 만드는 경우 일부 기여도 분석 모델을 사용하여 테이블에서 다른 채널을 볼 수도 있습니다.
 
 ![디스플레이 전용 가상 보고서 세트](assets/vrs-aiq-example.png)
+
+> [!NOTE] 세그먼트가 지표를 포함하는 히트를 억제하면 해당 지표 인스턴스가 어떤 차원에도 기여하지 않습니다. 하지만 비슷한 보고서 필터는 속성 모델별로 처리된 지표에 영향을 주지 않고 일부 차원 값을 숨깁니다. 따라서 비교 가능한 정의가 있는 세그먼트 및 필터가 때때로 세그먼트에 대해 더 낮은 값을 반환할 수 있습니다.
