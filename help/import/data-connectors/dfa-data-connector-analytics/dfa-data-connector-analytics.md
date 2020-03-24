@@ -1,26 +1,26 @@
 ---
 description: 'null'
 keywords: DFA
-title: Adobe Analytics용 DFA Data Connectors
+title: Adobe Analytics용 DFA Data Connector
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# DFA Adobe Analytics용 Data Connectors{#dfa-data-connector-for-adobe-analytics}
+# Adobe Analytics용 DFA Data Connector{#dfa-data-connector-for-adobe-analytics}
 
-오늘날과 같이 복잡해지고 경쟁이 치열한 온라인 시장에서 온라인 광고주와 에이전시는 온라인 마케팅 환경에 대한 이해도와 광고 지출에 대한 수익률을 지속적으로 향상시켜야 합니다. 이러한 목표 달성을 지원하기 위해 광고주, 에이전시 및 게시자가 모두 개별 도구를 처리해야 하지만, 전혀 다른 데이터 시스템과 프로세스에서 수동으로 데이터를 집계하는 것이 온라인 마케팅 캠페인의 효과를 방해하여 최적이 아닌 캠페인 성과, 데이터 불일치 및 혼동을 야기할 수 있습니다.
+온라인 시장이 더 복잡해지고 경쟁이 치열해지고 있는 오늘날, 온라인 광고주와 에이전시는 온라인 마케팅 환경에 대한 이해를 높이고 광고 지출에 대한 수익률을 계속해서 향상해야 합니다. 이러한 목표 달성을 지원하기 위해 광고주, 에이전시 및 게시자가 모두 개별 도구를 처리해야 하지만, 전혀 다른 데이터 시스템과 프로세스에서 수동으로 데이터를 집계하는 것이 온라인 마케팅 캠페인의 효과를 방해하여 최적이 아닌 캠페인 성과, 데이터 불일치 및 혼동을 야기할 수 있습니다.
 
 DFA(DoubleClick for Advertisers) 통합은 Adobe® Data Connectors™를 사용하여 DoubleClick DFA가 보고 및 분석으로 데이터를 자동으로 전달할 수 있도록 함으로써 이러한 문제를 해결합니다.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 관리]** &gt; **[!UICONTROL 데이터 커넥터]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL Data Connectors]**
 
 ![](assets/data-connectors-home.png)
 
-## 핵심적인 이점{#key-benefits}
+## 주요 이점{#key-benefits}
 
 Data Connectors - DFA 통합의 주요 이점은 다음과 같습니다.
 
@@ -39,17 +39,17 @@ Data Connectors - DFA 통합의 주요 이점은 다음과 같습니다.
 
 ![](assets/Diagram1.png)
 
-방문자가 광고를 호스팅하는 게시자의 사이트에 도달합니다. 이 광고에는 광고 ID라고 하는 고유한 식별자가 있습니다. 광고는 게재자의 사이트에서 광고가 있는 위치와 방문자에게 표시된 컨텐츠를 설명하는 배치와 크리에이티브를 구성합니다. 방문자가 DFA 컨텐츠 서버에서 이 광고, 게재위치 또는 광고 소재를 가져올 때 이 방문자(1)의 DFA Floodlight Server에 대한 노출을 추적합니다.
+방문자가 광고를 호스트하는 게시자의 사이트에 도달합니다. 이 광고에는 광고 ID라고 하는 고유한 식별자가 있습니다. 광고는 게재 위치와 광고 크리에이티브, 즉, 게시자의 사이트에 광고가 게재되는 위치와 방문자에게 표시되는 컨텐츠로 구성됩니다. 방문자가 DFA 컨텐츠 서버에서 이 광고, 게재위치 또는 광고 소재를 가져올 때 이 방문자(1)의 DFA Floodlight Server에 대한 노출을 추적합니다.
 
 방문자가 광고(2)를 클릭하면 Floodlight Server가 쿼리되고, 클릭 수를 계산한 다음 302가 방문자를 랜딩 페이지로 리디렉션(3)합니다. 방문자가 랜딩 페이지에 도달한 경우에는 이를 클릭스루라고 합니다. 이 페이지에는 DFA Floodlight Server에서 데이터를 쿼리하는 Adobe 추적 코드가 들어 있습니다.
 
-Floodlight Server에서 클릭을 추적한 후 방문자가 실제로 랜딩 페이지에 도달하지 않은 경우에는 이를 클릭스루라고 하지 않습니다. 일부 광고 및 구현으로 인해 실제로 방문자의 브라우저가 302 리디렉션을 따르지 않을 수 있습니다. 이 항목에 대한 자세한 내용은 지표 [불일치 조정을 참조하십시오](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
+Floodlight Server에서 클릭을 추적한 후 방문자가 실제로 랜딩 페이지에 도달하지 않은 경우에는 이를 클릭스루라고 하지 않습니다. 일부 광고 및 구현은 방문자의 브라우저가 302 리디렉션을 준수하지 않게 되는 원인이 될 수도 있습니다. 이 항목에 대한 자세한 내용은 [지표 불일치 조정](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)을 참조하십시오.
 
 이 통합에서 캡처한 다음 지표는 방문자가 광고 노출을 받고, 클릭하지 않았지만 빠른 시일 내에 다른 방법으로 랜딩 페이지에 도달하는 경우 발생합니다.
 
 ![](assets/Viewthrough.png)
 
-이 시나리오를 뷰스루라고 합니다. 클릭스루 시나리오와 이 시나리오의 차이점은 방문자가 광고를 클릭하지 않지만 대신 랜딩 페이지(2)에 도달하기 전에 다른 활동을 계속한다는 것입니다. 가장 간단한 경우는 방문자가 브라우저에서 랜딩 페이지의 URL을 입력합니다. 다른 경우는 방문자가 계속 탐색하지만 방문자를 랜딩 페이지로 안내하는 검색 엔진을 나중에 사용합니다. 어느 경우든지 사용자가 랜딩 페이지에 도달합니다.
+이 시나리오를 뷰스루라고 합니다. 클릭스루 시나리오와 이 시나리오의 차이점은 방문자가 광고를 클릭하지 않지만 대신 랜딩 페이지(2)에 도달하기 전에 다른 활동을 계속한다는 것입니다. 가장 간단한 경우는 방문자가 브라우저에 랜딩 페이지의 URL을 입력하는 것입니다. 다른 경우는 방문자가 계속 탐색하지만 방문자를 랜딩 페이지로 안내하는 검색 엔진을 나중에 사용합니다. 어느 경우든지 사용자가 랜딩 페이지에 도달합니다.
 
 ## Adobe 통합: 실시간 데이터 수집{#adobe-integration-real-time-data-collection}
 
@@ -61,9 +61,9 @@ Adobe 통합의 데이터 수집 부분은 방문자가 랜딩 페이지(1)에 �
 
 데이터가 도착하거나 데이터가 도착하는 데 시간이 너무 오래 걸리면 Adobe 추적 서버(3)로 히트를 발생시킵니다.
 
-통합 모듈은 Adobe 이미지 비콘을 지연시키고 특정 시간 동안 타사 요청을 대기하는(`s.maxDelay` 참조). `s.maxDelay` 통합 모듈이 방문자의 브라우저로 이미지 태그를 실행하기 전에 DFA Floodlight Server의 데이터를 기다리는 시간을 정의합니다. DFA Floodlight Server가 중단되거나 부하가 심한 경우에도 기본 방문자 데이터가 여전히 수집되고 있기 때문에 이 동작은 중요합니다. Floodlight 데이터가 `s.maxDelay` 만료 전에 도착하면 Adobe 추적 데이터가 바로 실행되고, 추가 DFA 데이터가 포함됩니다.
+통합 모듈은 Adobe 이미지 비콘을 지연시키고 특정 시간 동안 타사 요청을 대기하는(`s.maxDelay` 참조). `s.maxDelay`는 방문자의 브라우저로 이미지 태그를 실행할 때까지 통합 모듈이 DFA Floodlight Server의 데이터를 기다리는 시간을 정의합니다. DFA Floodlight Server가 중단되거나 부하가 심한 경우에도 기본 방문자 데이터가 여전히 수집되고 있기 때문에 이 동작은 중요합니다. Floodlight 데이터가 `s.maxDelay` 만료 전에 도착하면 Adobe 추적 데이터가 바로 실행되고, 추가 DFA 데이터가 포함됩니다.
 
-시간 초과가 발생하면 페이지 코드가 Adobe 보고 및 분석 이벤트를 시간 초과 이벤트로 사용하도록 지정할 수 있습니다. 이 이벤트는 통합 문제를 진단할 때 또는 `s.maxDelay`. 과도한 시간 초과가 있는 경우 `s.maxDelay`. `s.maxDelay` 그러나 방문자가 `s.maxDelay` 타이머 만료 전에 사이트를 떠날 가능성이 있는 경우 너무 높게 설정할 수 있습니다..
+시간 초과가 발생하면 페이지 코드가 Adobe 보고 및 분석 이벤트를 시간 초과 이벤트로 사용하도록 지정할 수 있습니다. 이 이벤트는 통합 문제를 진단할 때 또는 `s.maxDelay`를 조정할 때 유용합니다. 과도한 시간 초과가 있는 경우 `s.maxDelay` 값을 높입니다. `s.maxDelay`를 아주 높게 설정할 수 있지만, 이 경우 방문자가 `s.maxDelay` 타이머 만료 전에 방문자가 사이트를 떠날 가능성이 있습니다.
 
 Floodlight Server가 방문자에 대해 오류로 응답하는 경우가 있습니다. 일반적으로 방문자가 아직 광고를 보지 못했거나 DFA 방문자 쿠키를 갖고 있지 않기 때문에 Floodlight Server가 해당 방문자에 대해 전혀 모르는 경우 이러한 문제가 발생합니다. 페이지 코드에서 이러한 오류를 수집하는 사용자 지정 전환 변수(eVar)를 지정하고, 구현 문제 해결을 지원하거나 Google 트랜잭션 문제를 설명할 수 있습니다. 가장 일반적인 오류는 아래 표에 설명된 대로 기록 없음, 쿠키 없음, 쿼리 오류 및 선택 해제입니다.
 
@@ -99,7 +99,7 @@ Floodlight Server가 방문자에 대해 오류로 응답하는 경우가 있습
 
 ### 버전 1.5 정보 {#section-b5a3e967cfa141ea8f740612336181be}
 
-통합 버전 1.5는 랜딩 페이지 Java Script에 통합 모듈을 도입했습니다. 통합 모듈은 이전 통합의 2K 요청 한도를 해결한 DFA 광고 서버(ad.doubleclick.net)에 대한 고정된 크기의 요청을 허용합니다. 또한 구성 가능한 시간 초과를 도입하여 *`s.maxDelay`*, to continue collecting Adobe visitor data when network outages occur. 오류 및 시간 초과를 Analytics 변수에 캡처할 수도 있습니다.
+통합 버전 1.5는 랜딩 페이지 Java Script에 통합 모듈을 도입했습니다. 통합 모듈은 이전 통합의 2K 요청 한도를 해결한 DFA 광고 서버(ad.doubleclick.net)에 대한 고정된 크기의 요청을 허용합니다. 또한 구성 가능한 시간 초과를 도입하여 *`s.maxDelay`*&#x200B;네트워크 정전 발생 시 Adobe 방문자 데이터를 계속 수집할 수 있습니다. 오류 및 시간 초과를 Analytics 변수에 캡처할 수도 있습니다.
 
 다음 그림은 버전 1.5의 랜딩 페이지에서 네트워크 상호 작용을 보여줍니다.
 
@@ -107,7 +107,7 @@ Floodlight Server가 방문자에 대해 오류로 응답하는 경우가 있습
 
 버전 1.5에서 통합 모듈(2)은 Floodlight 서버(3)에서 데이터를 요청합니다. Floodlight 서버는 DFA 광고 서버로 리디렉션되고, 방문자에 대한 데이터를 버전 1.0에서와 같은 방법으로 반환합니다. 응답 구성을 JSON 개체로 바꾸는 integrate.112.2o7.net에서의 특수한 번역기 서비스로 302 리디렉션(4)합니다. 통합 모듈은 이 JSON 개체를 사용하여 Adobe 추적(5)에 이 정보를 전달합니다.
 
-통합 버전 1.0에서 1.5로 이동하면 JavaScript가 변경됩니다. 이 JavaScript를 가져오려면 Adobe Online Marketing Suite 계정에 로그인하고, Genesis 제품을 선택한 다음, DFA 통합에서 [편집]을 선택하고 마법사를 진행합니다. 클라이언트 사이트 ID를 이전에 지정한 경우 통합을 저장하면 이메일을 통해 새 JavaScript 코드를 바로 받게 됩니다. 이 코드가 있으면 통합 모듈이 있는 핵심 s_code의 새 버전도 필요합니다. 이 코드는 계정 관리자 또는 구현 컨설턴트에게 요청할 수 있습니다.
+통합 버전 1.0에서 1.5로 이동하면 JavaScript가 변경됩니다. 이 JavaScript를 가져오려면 Adobe Online Marketing Suite 계정에 로그인하고, Genesis 제품을 선택한 다음, DFA 통합에서 편집을 선택하고 마법사를 진행합니다. 클라이언트 사이트 ID를 이전에 지정한 경우 통합을 저장하면 이메일을 통해 새 JavaScript 코드를 바로 받게 됩니다. 이 코드가 있으면 통합 모듈이 있는 핵심 s_code의 새 버전도 필요합니다. 이 코드는 계정 관리자 또는 구현 컨설턴트에게 요청할 수 있습니다.
 
 새 JavaScript 코드의 중요한 기능은 버전 1.5와 버전 2.0 간에 구현 변경이 필요하지 않다는 것입니다.
 
