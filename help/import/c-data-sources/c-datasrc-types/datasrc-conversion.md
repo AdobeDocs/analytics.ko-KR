@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 전환
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 데이터 소스는 전환으로서 처리되는 데이터 유형을 위한 다음의 전환 데이터 차원 및 지표를 지원합니다.
 
-## 전환 치수 및 지표 {#section_FA1731B232B246DABEDF5A5D84159084}
+## 전환 차원 및 지표 {#section_FA1731B232B246DABEDF5A5D84159084}
 
 보기 이벤트를 지정하면 해당 데이터 차원(eVar)도 지정해야 합니다. 예를 들어 eVar2 보기를 포함시키려면 값이 있는 eVar2를 나열해야 합니다. 보고서 세트에서 지원되는 사용자 정의 이벤트와 eVar 보기의 수는 계약과 회사에 따라 달라집니다.
 
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 날짜 | MM/DD/YYYY/HH/mm/SS(예: 01/01/2015/06/00/00) 날짜 형식을 사용합니다. |
 | 카테고리 | 카테고리 이름.  카테고리를 지정하면 제품도 선택해야 합니다. |
 | 채널 | 채널 이름. |
-| eVarn | eVar 이름. n의 유효한 값은 1-75의 정수입니다. |
+| eVarn | eVarn 이름. n의 유효한 값은 1-75의 정수입니다. |
 | 제품 | 제품 이름. |
 | 상태 | 상태 이름. |
 | Zip | Zip 이름. |
