@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 데이터 유형 및 카테고리 개요
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 데이터 소스 카테고리는 유사한 기능을 제공하는 다양한 데이터 소스 유형을 식별합니다.
 
-카테고리는 사용자의 관점에서 데이터 소스를 그룹화하는 방법을 제공합니다. 데이터 소스 UI를 통해 데이터 소스를 생성하는 경우 먼저 데이터 소스 카테고리를 선택한 후 특정 데이터 소스 유형을 선택합니다. 각 카테고리는 유사한 데이터 유형을 지원하는 데이터 소스 유형을 포함합니다. 데이터 소스에는 다음과 같은 데이터 소스 카테고리가 있습니다.
+카테고리를 사용하면 사용자의 관점에서 데이터 소스를 그룹화할 수 있습니다. 데이터 소스 UI를 통해 데이터 소스를 생성하는 경우 먼저 데이터 소스 카테고리를 선택한 후 특정 데이터 소스 유형을 선택합니다. 각 카테고리는 유사한 데이터 유형을 지원하는 데이터 소스 유형을 포함합니다. 데이터 소스에는 다음과 같은 데이터 소스 카테고리가 있습니다.
 
 ## 웹 사이트 사용 패턴 {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -33,9 +33,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col3"> <p>대부분의 웹 서버는 모든 서비스 제공 페이지를 기록하는 로그 파일을 생성합니다. 이 데이터 소스를 사용하면 대부분의 웹 서버 데이터의 로그 파일을 처리하고 이 데이터를 보고서에 추가할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Advertising Cloud 벌크 업로드 </p> </td> 
+   <td colname="col1"> <p>Advertising Cloud 일괄 업로드 </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > 전환 </a> </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud에서 수동 및 Excel 자동 벌크 업로드를 제공합니다. </p> </td> 
+   <td colname="col3"> <p>Advertising Cloud에서 수동 및 Excel 자동 일괄 업로드를 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사이트 수준 트래픽 데이터 소스 </p> </td> 
