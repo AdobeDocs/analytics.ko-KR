@@ -2,7 +2,7 @@
 description: 다음 지표는 appFigures 통합의 일부로 동기화됩니다.
 title: 지표 및 차원
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,41 +15,41 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 지표 | 설명 |
 |---|---|
 | 앱스토어 다운로드 | 모바일 애플리케이션 다운로드 수. |
-| 앱 스토어 구매(앱 내) | 인앱 구매 수. |
+| 앱스토어 구매(인앱) | 인앱 구매 수. |
 | 앱스토어 등급 | 평균 appFigures 계산된 지표를 정의하는 데 사용됩니다. 직접 사용되지 않습니다. |
 | 앱스토어 등급 분류기 | 평균 appFigures 계산된 지표를 정의하는 데 사용됩니다. 직접 사용되지 않습니다. |
 | 앱스토어 등급 | 평균 appFigures 계산된 지표를 정의하는 데 사용됩니다. 직접 사용되지 않습니다. |
 | 앱스토어 등급 분류기 | 평균 appFigures 계산된 지표를 정의하는 데 사용됩니다. 직접 사용되지 않습니다. |
-| 앱스토어 매출(앱 내) | 인앱 매출액. |
+| 앱스토어 매출(인앱) | 인앱 매출액. |
 | 앱스토어 매출(일회성) | 앱 구매와 연결된 매출액. |
-| 앱스토어 로열티(앱 내) | 가치 하락. |
-| 앱스토어 로열티(일회성) | 가치 하락. |
+| 앱스토어 로열티(인앱) | 사용하지 않음. |
+| 앱스토어 로열티(일회성) | 사용하지 않음. |
 
-다음 예약된 분류 차원은 AppFigures 개체 ID 예약 eVar에 대한 데이터 커넥터 마법사에 의해 생성됩니다.
+다음 예약된 분류 차원은 AppFigures 개체 ID 예약 eVar에 대한 Data Connectors 마법사에 의해 생성됩니다.
 
 | 분류 차원 | 설명 |
 |---|---|
 | 국가 이름 | 앱스토어 활동과 관련된 국가의 이름입니다. |
 | 장치 이름 | 앱스토어 활동과 관련된 모바일 장치의 이름입니다. |
-| Appstore 이름 | 활동을 보고한 앱스토어의 이름입니다. |
-| 애플리케이션 이름 | 모바일 응용 프로그램의 이름입니다. |
-| 인앱 이름 | 애플리케이션 내에서 구매한 항목. |
-| 카테고리 이름 | 앱스토어에 있는 앱의 기본 카테고리 |
-| 리뷰 제목 | 검토의 제목입니다. |
-| 리뷰 댓글 | 검토 주석 |
-| Application Version | 검토를 생성하는 데 사용된 애플리케이션 버전. |
-| 앱스토어 사용자 | 검토의 작성자(사용자 이름)입니다. |
+| 앱스토어 이름 | 활동을 보고한 앱스토어의 이름입니다. |
+| 애플리케이션 이름 | 모바일 애플리케이션의 이름입니다. |
+| 인앱 이름 | 애플리케이션 내에서 구매한 항목입니다. |
+| 카테고리 이름 | 앱스토어에 있는 앱의 기본 카테고리입니다. |
+| 리뷰 제목 | 리뷰의 제목입니다. |
+| 리뷰 댓글 | 리뷰에 대한 댓글입니다. |
+| 애플리케이션 버전 | 리뷰를 생성하는 데 사용된 애플리케이션 버전입니다. |
+| 앱스토어 사용자 | 리뷰 작성자(사용자 이름)입니다. |
 
-다음 계산된 지표는 데이터 커넥터 마법사에 의해 만들어집니다.
+다음 계산된 지표는 Data Connectors 마법사에 의해 만들어집니다.
 
 | 계산된 지표 | 설명 |
 |--- |--- |
-| 앱스토어 평균 등급(숫자) | 평균 앱 순위. 이 계산된 지표는 다음 공식을 사용하여 정의됩니다.  `[App Store Rank]` / `[App Store Rank Divisor]`<br> 참고: 카테고리 및 국가별 애플리케이션 수는 앱 스토어에 따라 다릅니다. 응용 프로그램의 등급이 이 임계값보다 낮으면 응용 프로그램 등급을 사용할 수 없습니다. |
-| 앱스토어 평균 등급 | 평균 앱 등급. This calculated metric is defined using the following formula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
+| 앱스토어 평균 등급(숫자) | 평균 앱 등급입니다. 이 계산된 지표는 다음 공식을 사용하여 정의됩니다. `[App Store Rank]` / `[App Store Rank Divisor]`<br> 참고: 카테고리 및 국가별로 순위가 매겨진 애플리케이션 수는 앱스토어마다 다릅니다. 애플리케이션의 등급이 임계값보다 낮으면 애플리케이션 등급을 사용할 수 없습니다. |
+| 앱스토어 평균 등급 | 평균 앱 등급입니다. 이 계산된 지표는 다음 공식을 사용하여 정의됩니다.  `[App Store Rating]` / `[App Store Rating Divisor]` |
 
 ## 각 AppFigures 지표에 대한 관련 차원 {#section-cd356d3dce04412893beed345305c247}
 
-다음 표는 어떤 지표와 관련된 보고서 차원을 보여줍니다.
+다음 표는 특정 지표와 관련된 보고서 차원을 보여줍니다.
 
 <table id="table_B9CF57EABE22449FBF1963E3F105E702"> 
  <tbody> 
@@ -93,7 +93,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Appstore 이름 </td> 
+   <td> 앱스토어 이름 </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
