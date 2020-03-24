@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [분류 규칙 세트](c-classifications2/crb/classification-rule-set.md)
       + [분류 규칙](c-classifications2/crb/classification-quickstart-rules.md)
       + [분류 규칙 - 정의](c-classifications2/crb/classification-rule-definitions.md)
-      + [하위 분류 및 규칙 빌더 - 활용 사례](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [하위 분류 및 규칙 빌더](c-classifications2/crb/sub-classification-rule-builder.md)
    + 숫자 2 분류 {#numeric2-classification}
       + [숫자 2 분류 개요](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [숫자 2 분류 만들기](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
