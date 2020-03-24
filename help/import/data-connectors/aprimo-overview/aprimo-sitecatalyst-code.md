@@ -1,8 +1,8 @@
 ---
-description: JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
+description: JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 해당 페이지의 Adobe Analytics 코드에 추가합니다.
 title: Adobe Analytics 플러그인 코드
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 # Adobe Analytics 플러그인 코드 {#adobe-analytics-plug-in-code}
 
-JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 페이지의 Adobe Analytics 코드에 추가합니다.
+JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코드 행을 복사하여 해당 페이지의 Adobe Analytics 코드에 추가합니다.
 
 `/*`
 
@@ -26,5 +26,5 @@ JavaScript 플러그인 데이터 수집 방법을 선택한 경우 다음 코�
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
-> [!NOTE] 위의 플러그인은 특정 사용자 지정 상거래 변수(eVar)를 사용할 수 있다고 가정합니다. 위의 플러그인에 지정된 변수가 Adobe Analytics 배포 내에서 사용할 수 없는 경우, 변수를 사용 가능한 변수로 교체하면 됩니다.
+> [!NOTE] 위의 플러그인은 특정 사용자 지정 상거래 변수(eVar)를 사용할 수 있다고 가정합니다. 위의 플러그인에 지정된 변수를 Adobe Analytics 배포 내에서 사용할 수 없는 경우, 해당 변수를 사용 가능한 변수로 교체하면 됩니다.
 
