@@ -1,10 +1,10 @@
 ---
-description: 데이터 소스는 온라인 데이터에 대해 오프라인으로 발생하는 이벤트를 통합할 수 있는 2가지 추가 방법을 제공합니다.
+description: 데이터 소스는 오프라인으로 발생하는 이벤트를 온라인 데이터로 통합할 수 있는 2가지 추가 방법을 제공합니다.
 subtopic: Data sources
 title: 거래 및 고객 통합
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 거래 및 고객 통합
 
-Data Sources는 온라인 데이터에 오프라인으로 발생하는 이벤트를 통합하는 두 가지 추가 방법을 제공합니다.
+데이터 소스는 오프라인으로 발생하는 이벤트를 온라인 데이터로 통합할 수 있는 2가지 추가 방법을 제공합니다.
 
 * [거래 ID 기록 활성화](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [거래 통합](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -24,7 +24,7 @@ Data Sources는 온라인 데이터에 오프라인으로 발생하는 이벤트
 
 ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정할 수 있습니다.
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL [보고서 세트 선택]]** > **[!UICONTROL 편집 설정]** > **[!UICONTROL 일반]** > **[!UICONTROL 일반 계정 설정]**&#x200B;으로 이동합니다.
 
 <!-- 
 
@@ -36,7 +36,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+거래 ID 기록이 활성화되어 있는지 확인하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 소스]**&#x200B;로 이동합니다.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -65,4 +65,4 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 이것은 거래 ID 데이터가 방문과는 연결되어 있지 않지만(오프라인 이벤트는 보통 온라인 이벤트에 속하지 않으므로), 방문자와는 연결되어 있기 때문입니다.
 
-자세한 내용은 [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+ [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
