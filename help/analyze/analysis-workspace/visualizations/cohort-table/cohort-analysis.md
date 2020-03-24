@@ -3,8 +3,8 @@ keywords: Analysis Workspace
 title: 집단 분석이란?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 집단 분석으로 수행할 수 있는 작업의 예:
 
-* 원하는 작업에 박차를 가할 수 있도록 설계된 캠페인 시작.
-* 고객 라이프사이클에서 적시에 마케팅 예산 전환.
-* 평가판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
-* 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
-* 안내가 있는 분석 보고서 내에서 집단 분석 보고서 보기.
-* 평가판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
-* 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
+* 원하는 작업에 박차를 가할 수 있도록 설계된 캠페인을 시작합니다.
+* 고객 라이프사이클에서 정확한 타이밍에 마케팅 예산 전환
+* 평가판이나 오퍼 종료 시기를 파악하여 가치를 극대화합니다.
+* 가격, 업그레이드 경로 등과 같은 영역에서 A/B 테스트에 대한 아이디어를 얻을 수 있습니다.
+* 안내 분석 보고서 내에서 집단 분석 보고서를 봅니다.
 
-집단 분석은 Analysis Workspace에 대한 액세스 권한이 있는 모든 Analytics 고객에 대해 사용할 수 있습니다.
+집단 분석은 분석 작업 공간에 대한 액세스 권한이 있는 모든 Analytics 고객이 사용할 수 있습니다.
 
-[집단 분석 - YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
+[집단 분석 - YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
 
 >[!IMPORTANT]
 >
@@ -35,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 집단 분석 기능
 
-2019년 1월 Adobe는 새롭고 크게 향상된 집단 분석 버전을 발표했습니다. 이 버전은 사용자가 구축하는 집단에 대한 미세한 조정이 가능합니다. 다음과 같은 향상된 기능을 제공합니다.
+2019년 1월 Adobe는 새롭고 크게 향상된 집단 분석 버전을 발표했습니다. 따라서 구축 중인 집단에 대해 보다 세밀하게 제어할 수 있습니다. 다음은 주요 개선 사항입니다.
 
 ### 유지 테이블
 
@@ -57,15 +55,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 지연 테이블
 
-포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이것은 이전/이후 분석을 위한 훌륭한 도구입니다. &quot;포함&quot; 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
+포함 이벤트가 발생하기 전후의 경과 시간을 측정합니다. 사전/사후 분석을 위한 탁월한 툴입니다. &quot;포함&quot; 열은 테이블 가운데에 있고 포함 이벤트가 양쪽에 표시되기 전후의 기간에 있습니다.
 
 ![](assets/cohort-latency.png)
 
 ### 사용자 지정 차원 집단
 
-기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. 마케팅 채널, 캠페인, 제품, 페이지, 영역 또는 Adobe Analytics의 다른 차원과 같은 차원을 사용하여 차원의 다양한 값을 기준으로 유지 변경 방법을 보여 줍니다.
+시간 기반 집단(기본값)이 아닌 선택한 차원을 기반으로 집단 생성 Adobe Analytics의 마케팅 채널, 캠페인, 제품, 페이지, 지역 또는 기타 차원과 같은 차원을 사용하여 이러한 차원의 다양한 값을 기반으로 고객 유지가 어떻게 달라지는지 보여줍니다.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-집단 보고서를 설정하고 실행하는 방법에 대한 지침을 확인하려면 [집단 분석 보고서 구성](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+집단 보고서를 설정하고 실행하는 방법에 대한 지침은 집단 분석 [보고서](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)구성으로 이동합니다.
 
