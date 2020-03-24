@@ -4,13 +4,13 @@ subtopic: Data sources
 title: Data Sources 사용 준비
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 데이터 소스 사용 준비
+# Data Sources 사용 준비
 
 데이터 소스 사용을 준비할 수 있는 절차
 
@@ -22,13 +22,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 지표 식별 및 이름 지정 {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
-It is important to understand the metrics or measurements that are contained in your data sources, such as *`Off-line Sales Revenue by Product`*, *`Returns by Product`*, or *`Ad Impressions by Campaign`*. 이러한 이름을 보고서 지표(이벤트, prop 및 eVar)와 연결할 수 있습니다.
+*`Off-line Sales Revenue by Product`*, *`Returns by Product`* 또는 *`Ad Impressions by Campaign`*&#x200B;와 같이 데이터 소스에 포함된 지표나 측정을 이해하는 것이 중요합니다. 이러한 이름을 보고서 지표(이벤트, prop 및 eVar)와 연결할 수 있습니다.
 
 데이터 소스 데이터에 대한 적절한 지표-이벤트 매핑을 결정했으면 해당 연결 데이터 소스 지표에 적절한 설명 이름으로 이벤트 이름을 변경하십시오.
 
-관리 도구 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)를 참조하십시오.
+관리 도구 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)를 참조하십시오.
 
-> [!NOTE] Data Sources 데이터에서 빈 이벤트를 새로 사용하는 것이 좋지만, 드물게 기존 이벤트를 사용하는 것이 적절할 수 있습니다.
+> [!NOTE] 데이터 소스 데이터에서 새로운 빈 이벤트를 사용할 것이 좋지만, 드물게 기존 이벤트를 사용하는 것이 좋은 경우가 있습니다.
 
 ## 데이터 차원 식별 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -36,15 +36,15 @@ It is important to understand the metrics or measurements that are contained in 
 
 예를 들어 데이터 소스 지표가 광고 노출 횟수를 측정하는 경우 데이터 차원은 캠페인 추적 코드일 가능성이 높습니다. 오프라인 매출을 측정하는 경우 제품 코드(또는 SKU)를 데이터 차원으로 사용할 수 있습니다.
 
-여러 데이터 차원을 지표에 정의할 수 있지만, 각 지표는 연결된 데이터 차원 각각에 대해 관련된 값 또는 값 조합을 제공해야 합니다. 예를 들어 오프라인 판매 지표를 가져와서 *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
+여러 데이터 차원을 지표에 정의할 수 있지만, 각 지표는 연결된 데이터 차원 각각에 대해 관련된 값 또는 값 조합을 제공해야 합니다. 예를 들어 오프라인 판매 지표를 가져와서 *`Product`* 및 *`Partner`* 데이터 차원과 연결하는 경우, 오프라인 판매 지표는 제품과 파트너의 각 조합과 관련성이 있어야 합니다(예: 총 매출액).
 
-> [!NOTE] 데이터 차원으로 분류할 수 없는 전체 지표를 가져올 수 있습니다.
+> [!NOTE] 데이터 차원으로 분류할 수 없는 전체 지표 수를 가져올 수 있습니다.
 
 데이터 소스에 사용할 데이터 차원을 정의한 후에는 차원 데이터를 변수에 매핑하여 마케팅 보고서에 통합하십시오. 표준 보고서(예: 제품, 추적 코드, 검색 키워드)나 전환 트래픽 변수(eVar)를 사용합니다.
 
 eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. 데이터 소스에서 데이터 차원을 수신할 eVar를 선택한 후에는 적절하게 이름을 지정하십시오. 
 
-Analytics 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)를 참조하십시오.
+Analytics 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)를 참조하십시오.
 
 ## 캠페인 추적 코드 {#section_468222796FF449ABAA90D88EB3264CB1}
 
