@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 전체 처리
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 전체 처리
 
-데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 &gt; 전체 처리).
+데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
 전체 처리 데이터 소셜 데이터는 지정된 시간에 Adobe 서버에서 수신한 것처럼 처리됩니다(각 히트에서 타임스탬프 수신).
 
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 전체 처리 데이터 소스 데이터는 분리된 방문자 프로필을 사용하여 처리되므로, 업로드한 데이터의 방문자 ID가 JavaScript나 다른 AppMeasurement 라이브러리를 사용하여 수집한 데이터와 일치하더라도 방문자 프로필들은 eVar 할당 측면에서 연결되어 있지 않습니다.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 나중에 여러분이 동일한 방문자 ID를 사용하여 거래를 업로드하는 경우, "봄맞이 세일" 캠페인은 전체 처리 데이터 소스를 사용하여 업로드한 어떤 매출이나 성공 이벤트에 대해서도 크레딧을 받지 않습니다.
+예를 들어, 방문자 ID가 `"user@example.com"`인 사용자가 캠페인 변수에 저장된 &quot;봄맞이 세일&quot;이라는 마케팅 캠페인에서 사이트를 방문하고 나중에 여러분이 동일한 방문자 ID를 사용하여 거래를 업로드하는 경우, &quot;봄맞이 세일&quot; 캠페인은 전체 처리 데이터 소스를 사용하여 업로드한 어떤 매출이나 성공 이벤트에 대해서도 크레딧을 받지 않습니다.
 
 ## 항목 참조 {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -54,7 +54,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>날짜 </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col3"> <p>ISO 8601 날짜 형식 <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code>(예: <code> 2013-09-01T12:00:00-07:00 </code>) 또는 Unix 시간 형식(1970년 1월 1일 이후 경과한 시간(초)을 나타내는 숫자)을 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
@@ -112,7 +112,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>제품 목록(예: <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -199,7 +199,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>방문자의 연결 유형( <span class="term"> LAN </span> 또는 <span class="term"> 모뎀 </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
@@ -230,7 +230,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col2"> <p>속성에 대한 속성 값. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>레퍼러 </p> </td> 
+   <td colname="col1"> <p>referrer </p> </td> 
    <td colname="col2"> <p>페이지 레퍼러의 URL. </p> </td> 
   </tr> 
   <tr> 
