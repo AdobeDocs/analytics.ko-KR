@@ -2,7 +2,7 @@
 title: Workspace의 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 공간에서 프로젝트를 만드는 방법 및 이유 알아보기
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -16,6 +16,12 @@ source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
 * 다른 두 지역의 데이터를 비교하고, 해당 데이터가 서로 다른 보고서 세트에 있습니다. 테이블 및 시각화를 작성하여 데이터를 나란히 비교할 수 있습니다.
 
 * 다른 조직에 보고할 지표 및 시각화 대시보드를 작성합니다. 이제 여러 보고서 세트의 데이터를 동일한 프로젝트로 가져올 수 있습니다.
+
+## 모든 패널에 보고서 세트 적용
+
+패널 헤더를 마우스 오른쪽 단추로 클릭하고 선택하여 모든 패널에 한 번에 보고서 세트를 적용할 수 **[!UICONTROL Apply Report Suite to All Panels]**&#x200B;있습니다.
+
+![](assets/apply-rs-all-panels.png)
 
 ## 활성 패널
 
