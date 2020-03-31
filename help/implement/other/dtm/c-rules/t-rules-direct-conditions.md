@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;direct call rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 직접 호출 규칙 조건 만들기
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 직접 호출 규칙 조건 만들기.
 
-1. 직접 호출에서 **[!UICONTROL 에 전달되는 문자열을 따옴표 없이]**조건`_satellite.track()`대화 상자에 지정합니다.
+1. 직접 호출에서 **[!UICONTROL 에 전달되는 문자열을 따옴표 없이]**&#x200B;조건`_satellite.track()` 대화 상자에 지정합니다.
 
    ![](assets/conditions-direct-call.png)
 
