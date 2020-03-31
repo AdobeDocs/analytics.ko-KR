@@ -1,7 +1,7 @@
 ---
 title: 기존 Adobe Experience Cloud Debugger
 description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, DTM 및 Launch용 태그를 검사합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # 기존 Adobe Experience Cloud Debugger
 
-> [!IMPORTANT] 이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
+> [!IMPORTANT] 이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
 
 [!UICONTROL 기존 디버거]는 대부분의 Adobe Experience Cloud 서비스용 태그를 검사합니다. 디버거를 사용하면 사이트의 지정된 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 유효성을 검사할 수 있습니다.
 
@@ -31,7 +31,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-[chrome 확장 프로그램](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)을 굳이 사용하지 않으면 기존 디버거 북마클릿을 대신 사용할 수 있습니다.
+[chrome 확장 프로그램](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)을 굳이 사용하지 않으면 기존 디버거 북마클릿을 대신 사용할 수 있습니다.
 
 1. 오른쪽 상단에 있는 세 점을 클릭한 다음, 책갈피 > 책갈피 관리자로 이동합니다. `Ctrl` + `Shift` + `O`(Windows) 또는 `Cmd` + `Shift` + `O`(Mac)을 누를 수도 있습니다.
 2. 책갈피 관리자의 오른쪽 상단에서 세 점을 클릭한 다음, &#39;새 책갈피 추가&#39;를 클릭합니다.
@@ -47,7 +47,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Edge
 
-Edge에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 북마클릿으로 편집할 수 있습니다.
+Edge에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 편집하여 북마클릿에 포함할 수는 있습니다.
 
 1. URL 필드의 오른쪽에 있는 별 아이콘을 클릭하여 현재 페이지를 책갈피로 지정합니다.
 2. 책갈피 이름을 &quot;Adobe Experience Cloud Debugger&quot;로 지정하고 원하는 위치에 저장합니다.
@@ -57,7 +57,7 @@ Edge에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을
 
 #### Safari
 
-Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 북마클릿으로 편집할 수 있습니다.
+Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL을 편집하여 북마클릿에 포함할 수는 있습니다.
 
 1. 오른쪽 상단의 공유 아이콘을 클릭하여 책갈피 모달 창을 엽니다.
 2. 책갈피 이름을 &quot;Adobe Experience Cloud Debugger&quot;로 지정하고 원하는 위치에 저장합니다.
@@ -66,7 +66,7 @@ Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL�
 
 ## 기존 디버거 사용
 
-사이트에서 원하는 페이지로 이동한 다음 북마클릿을 클릭합니다. Adobe에 전송된 데이터를 보여주는 팝업 창이 나타납니다.
+사이트에서 원하는 페이지로 이동한 다음, 북마클릿을 클릭하십시오. Adobe에 전송된 데이터를 보여주는 팝업 창이 나타납니다.
 
 > [!NOTE] 특정 광고 차단 플러그인과 팝업 차단기가 디버거 창의 로드를 방해할 수 있습니다. 브라우저에서 차단된 팝업이 있는지 확인하고 팝업을 허용하여 디버거가 제대로 작동할 수 있도록 하십시오.
 
