@@ -2,7 +2,7 @@
 title: Analytics 변수에 론치 데이터 요소 매핑
 description: 분석 작업 공간에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -38,8 +38,8 @@ Adobe Experience Platform Launch에 데이터 요소 저장소가 있으면 Anal
 1. 원하는 론치 속성을 클릭합니다.
 1. 탭을 [!UICONTROL Rules] 클릭한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 1. 아래의 [!UICONTROL Add] 단추를 클릭합니다 [!UICONTROL Actions].
-1. 드롭다운을 Adobe [!UICONTROL Extension] Analytics로 설정하고 변수를 [!UICONTROL Action Type] 설정합니다.
-1. 원하는 Analytics 변수 오른쪽에 있는 [!D데이터 요소](assets/data-element.png) 아이콘을 클릭합니다. 조직의 [솔루션 디자인 문서는](../prepare/solution-design.md) 사용할 Analytics 변수를 나타냅니다.
+1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. 원하는 ![Analytics 변수 오른쪽에 있는 데이터 요소](assets/data-element.png) 아이콘을 클릭합니다. 조직의 [솔루션 디자인 문서는](../prepare/solution-design.md) 사용할 Analytics 변수를 나타냅니다.
 1. 모달 창에서 원하는 데이터 요소를 선택합니다. 클릭 [!UICONTROL Select].
 1. 데이터 요소 이름이 `%` 기호로 둘러싸인 텍스트 필드에 추가됩니다. 예를 들어 데이터 요소의 이름을 &quot;페이지 이름&quot;으로 지정한 경우 데이터 요소를 변수에 할당할 `%Page name%` 때 문자열이 표시됩니다.
 
