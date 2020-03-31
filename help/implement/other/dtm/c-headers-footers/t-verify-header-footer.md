@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 머리글 및 바닥글 코드 확인
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 Dynamic Tag Management 라이브러리가 사이트에 제대로 로드되는지 확인합니다.
 
 1. 브라우저에서 사이트를 엽니다.
-1. 마우스 오른쪽 단추를 클릭하고 [!UICONTROL 요소 검사] > **[!UICONTROL 콘솔]**을 선택하여**[!UICONTROL &#x200B;개발자 콘솔]**을 엽니다.
-1. **[!UICONTROL Enter]**키를 누릅니다.
+1. 마우스 오른쪽 단추를 클릭하고 [!UICONTROL 요소 검사] > **[!UICONTROL 콘솔]**&#x200B;을 선택하여 **[!UICONTROL 개발자 콘솔]**&#x200B;을 엽니다.
+1. **[!UICONTROL Enter]** 키를 누릅니다.
 
-   코드가 제대로 설치되어 있으면 콘솔에 *`true`*가 표시됩니다.
+   코드가 제대로 설치되어 있으면 콘솔에 *`true`*&#x200B;가 표시됩니다.
 
    코드가 제대로 설치되지 않으면, 참조 오류가 표시됩니다.
 
