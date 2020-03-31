@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 수동 구현(이전)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -19,8 +19,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 수동 구성을 자동으로 변경하려면 도구를 편집하고 **[!UICONTROL 자동 구성 활성화를 클릭합니다]**.
 
 1. Analytics 측정 코드를 다운로드 다운로드합니다. 
-   1. In Analytics, click **[!UICONTROL Admin]**>**[!UICONTROL  Code Manager]**.
-   1. **[!UICONTROL JavaScript(신규)]**를 클릭하여 코드를 로컬로 다운로드합니다.
+   1. Analytics에서 **[!UICONTROL 관리자]** > **[!UICONTROL 코드 관리자]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL JavaScript(신규)]**&#x200B;를 클릭하여 코드를 로컬로 다운로드합니다.
 1. [!UICONTROL Dynamic Tag Management]에서 [웹 속성을 만듭니다](/help/implement/other/dtm/t-create-web-property.md).
 
    ![](assets/dtm-property.png)
@@ -28,9 +28,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
    웹 속성을 만들면, [!UICONTROL 대시보드]의 [!UICONTROL 웹 속성] 탭에서 편집할 수 있습니다. 웹 속성을 활성화할 필요는 없습니다.에서 보냅니다.
 
 1.  Analytics 도구를 속성에 추가합니다. 
-   1. **[!UICONTROL 웹 속성]**탭에서 속성을 클릭합니다.
-   1. **[!UICONTROL 개요]**탭에서**[!UICONTROL &#x200B;도구 추가]**를 클릭합니다.
-   1. **[!UICONTROL 도구 유형]**메뉴에서**[!UICONTROL  Adobe Analytics]**를 선택합니다.
+   1. **[!UICONTROL 웹 속성]** 탭에서 속성을 클릭합니다.
+   1. **[!UICONTROL 개요]** 탭에서 **[!UICONTROL 도구 추가]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL 도구 유형]** 메뉴에서 **[!UICONTROL Adobe Analytics]**&#x200B;를 선택합니다.
 
       ![](assets/dtm-add-analytics-tool.png)
 
@@ -47,15 +47,15 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
    설치된 도구는 [!UICONTROL 개요] 탭에 표시됩니다.
 
-1. 코드를 구성하려면 **[!UICONTROL 설정]**![](assets/settings_gear.png)()을 클릭합니다.
+1. 코드를 구성하려면 **[!UICONTROL 설정]**![](assets/settings_gear.png)()을 클릭합니다. 
 
-   적어도, **[!UICONTROL 쿠키]**를 클릭하고, 추적 서버와 SSL 추적 서버를 구성합니다.
+   적어도, **[!UICONTROL 쿠키]**&#x200B;를 클릭하고, 추적 서버와 SSL 추적 서버를 구성합니다.
 
-1. **[!UICONTROL 일반]**을 클릭하고[핵심 AppMeasurement 코드를 삽입](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)합니다.
+1. **[!UICONTROL 일반]**&#x200B;을 클릭하고 [핵심 AppMeasurement 코드를 삽입](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)합니다.
 1. [!DNL Analytics] 데이터를 수집할 [페이지 로드 규칙](/help/implement/other/dtm/c-rules/t-rules-create.md)을 정의합니다.
 
    이제 규칙을 정의하여 분석 데이터를 수집할 준비가 되었습니다. 먼저 몇 개의 데이터 요소를 정의할 수도 있습니다. 데이터 요소는 페이지에서 규칙을 구성하는 데 사용할 수 있는 데이터를 추출할 수 있도록 해줍니다. 시작하려면, 각 페이지에서 [!DNL Analytics] 데이터를 수집하기 위한 조건이 없는 페이지 로드 규칙을 정의할 수 있습니다.
-1. [[포함] 탭에서 머리글 및 바닥글 코드를 추가](/help/implement/other/dtm/c-headers-footers/t-header-footer-code.md)합니다.
+1. [포함 탭에서 머리글 및 바닥글 코드를 추가](/help/implement/other/dtm/c-headers-footers/t-header-footer-code.md)합니다.
 
    스테이징의 경우, 기본 Amazon 호스팅 옵션은 그대로 두어도 됩니다. 프로덕션 롤아웃 전에 필요할 경우 변경할 수 있습니다.
 1. (선택 사항) 옵션 탭에서 **[!UICONTROL 설정]**![](assets/settings_gear.png)()을 클릭하고 Adobe Analytics 코드를 구성합니다.
