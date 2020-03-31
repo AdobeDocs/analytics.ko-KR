@@ -1,7 +1,7 @@
 ---
 title: 모바일 장치용 Analytics 구현
 description: 사용할 모바일 AppMeasurement 라이브러리를 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ## 버전 4 Mobile SDK
 
-> [!CAUTION] 버전 4 Mobile SDK에 대한 지원은 2020년 9월 30일에 종료됩니다. 자세한 [내용은 버전 4 Mobile SDK의 지원 종료](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) FAQ를 참조하십시오.
+> [!CAUTION] 버전 4 Mobile SDK에 대한 지원은 2020년 9월 30일에 종료됩니다. 자세한 내용은 [버전 4 Mobile SDK의 지원 종료 FAQ](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)를 참조하십시오.
 
 * [SDK 저장소](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
-* [iOS 문서](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [Android 문서](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [iOS 문서](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)
+* [Android 문서](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/overview.html)
 
 ## AppMeasurement 3.x
 
