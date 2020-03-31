@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 조건이 트리거되는 작업 설정
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 **조건이 트리거되는 작업 설정**
 
-1. **[!UICONTROL Javascript/타사 태그]**를 클릭하여 새 스크립트를 규칙에 추가합니다.
+1. **[!UICONTROL Javascript/타사 태그]**&#x200B;를 클릭하여 새 스크립트를 규칙에 추가합니다.
 
    ![](assets/scripts-actions.png)
 
@@ -35,5 +35,5 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 1. 스크립트 이름을 지정합니다.
 1. 스크립트를 트리거할 방법을 지정하고 원하는 컨텐츠를 텍스트 영역에 붙여넣습니다. ![](assets/scripts-actions3.png)
 
-1. **[!UICONTROL 코드 저장]**을 클릭하면 스크립트가 규칙 큐에 추가됩니다.![](assets/scripts-actions4.png)
+1. **[!UICONTROL 코드 저장]**&#x200B;을 클릭하면 스크립트가 규칙 큐에 추가됩니다. ![](assets/scripts-actions4.png)
 
