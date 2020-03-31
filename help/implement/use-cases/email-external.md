@@ -1,7 +1,7 @@
 ---
 title: 외부 이메일 추적
-description: Adobe Analytics를 사용하여 이메일 컨텐츠를 추적할 수 있습니다.
-translation-type: tm+mt
+description: Adobe Analytics를 사용하여 이메일 컨텐츠를 추적합니다.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
    1. [!UICONTROL getQueryParam]을 호출하여 [!DNL s_code.js]를 사용자 지정합니다.
 
-      [!DNL s_code.js] 파일은 각 웹 페이지가 액세스할 수 있는 웹 서버에 이 파일을 보관해야 합니다. 이 파일 내에 있는 *`doPlugins`*함수는 이메일 링크에서 쿼리 문자열 매개 변수를 캡처할 수 있도록 변경해야 합니다. 예:
+      [!DNL s_code.js] 파일은 각 웹 페이지가 액세스할 수 있는 웹 서버에 이 파일을 보관해야 합니다. 이 파일 내에 있는 *`doPlugins`* 함수는 이메일 링크에서 쿼리 문자열 매개 변수를 캡처할 수 있도록 변경해야 합니다. 예:
 
       ```js
       /* Plugin Config */ 
