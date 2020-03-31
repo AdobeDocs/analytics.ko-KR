@@ -1,7 +1,7 @@
 ---
 title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 ---
