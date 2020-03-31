@@ -1,7 +1,7 @@
 ---
 title: Launch에서 Analytics 속성 만들기
 description: Adobe Experience Platform Launch를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -76,7 +76,7 @@ Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experi
 
 * [Adobe Analytics 확장 설명서](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Adobe Experience Platform Launch의 Adobe Analytics 확장에 대한 모든 내용이 들어 있는 문서입니다.
 * [Launch 시작하기](https://docs.adobelaunch.com/getting-started): 더 심층적인 시작 안내서를 포함하여 Launch에 대한 모든 내용이 들어 있는 문서입니다.
-* [Adobe Experience Platform Launch YouTube 채널](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): 동영상을 통해 Launch를 사용하는 방법을 알아봅니다.
+* [Adobe Experience Platform Launch YouTube 채널](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): 동영상을 통해 Launch를 사용하는 방법을 알아봅니다.
 
 ## 다음 단계
 
