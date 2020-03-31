@@ -1,7 +1,7 @@
 ---
 title: JavaScript용 AppMeasurement로의 마이그레이션
 description: H 코드의 구현을 마이그레이션하는 데 필요한 사항을 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -9,29 +9,29 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 # JavaScript용 AppMeasurement로의 마이그레이션
 
-구현에서 여전히 H 코드를 사용하는 경우 최신 버전의 AppMeasurement로 마이그레이션하는 것이 좋습니다. Adobe Experience [Platform Launch를 통해](../launch/overview.md) Analytics를 구현하는 것이 좋지만 업데이트된 JavaScript 구현을 사용할 수 있습니다.
+구현에서 여전히 H 코드를 사용하는 경우 최신 버전의 AppMeasurement로 마이그레이션하는 것이 좋습니다. [Adobe Experience Platform Launch](../launch/overview.md)를 통해 Analytics를 구현하는 것이 좋지만 업데이트된 JavaScript 구현을 사용할 수 있습니다.
 
-H 코드와 비교할 때 다음과 같은 주목할 만한 변경 사항이 AppMeasurement에 있습니다.
+H 코드와 비교할 때 AppMeasurement에 다음의 주목할 만한 변경 사항이 있습니다.
 
-* H 코드보다 3-7배 더 빨라진 속도
-* H 코드보다 가벼움 - 21kb 압축되지 않은 코드와 33kb 압축되지 않은 H 코드 비교
+* H 코드보다 3~7배 더 빠릅니다.
+* H 코드보다 가벼움 - 21kb 비압축과 H 코드(33kb 비압축) 비교
 * 라이브러리와 페이지 코드는 `<head>` 태그 내에 배포할 수 있습니다.
 * 기존 페이지 수준 H 코드는 AppMeasurement와 호환됩니다.
 * 라이브러리에서는 쿼리 매개 변수를 가져오고, 쿠키를 읽고 쓰고, 고급 링크 추적을 수행하는 기본 유틸리티를 제공합니다.
-* 라이브러리는 동적 계정 구성 변수( `dynamicAccountSelection`, `dynamicAccountMatch`및 `dynamicAccountList`포함)를 지원하지 않습니다.
+* 라이브러리가 동적 계정 구성 변수(`dynamicAccountSelection`, `dynamicAccountMatch` 및 `dynamicAccountList` 포함)를 지원하지 않습니다.
 * 설문 조사 모듈은 지원되지 않습니다.
 
-다음 단계는 일반적인 마이그레이션 워크플로우의 개요를 설명합니다.
+다음 절차는 일반적인 마이그레이션 워크플로우에 대한 개요입니다.
 
-1. **새 AppMeasurement 파일을**&#x200B;다운로드합니다.Adobe Analytics에 로그인한 다음 관리 > 코드 관리자로 이동하여 새 파일에 액세스합니다. 다운로드한 압축 파일에는 미디어 및 통합 모듈과 함께 축소된 `AppMeasurement.js` 파일이 포함되어 있습니다.
-1. **사용자`s_code.js``AppMeasurement.js`**정의 복사 위치:의`DO NOT ALTER ANYTHING BELOW THIS LINE`섹션 앞에 있는 모든 코드를`s_code.js`의 시작 부분으로`AppMeasurement.js`이동합니다.
-1. **모든 플러그인**&#x200B;업데이트:파일에 나열된 각 플러그인의 최신 버전을 사용하고 있는지 확인하십시오. `s_code.js` 여기에는 미디어 및 통합 모듈이 포함됩니다.
-1. **AppMeasurement.js 파일을**&#x200B;배포합니다.웹 서버에 `AppMeasurement.js` 파일을 업로드합니다.
-1. **스크립트 참조를 업데이트하여`AppMeasurement.js`**다음을 가리킵니다.모든 페이지가 참조되는`AppMeasurement.js`대신 참조되도록`s_code.js`하십시오.
+1. **새 AppMeasurement 파일 다운로드**: Adobe Analytics에 로그인한 다음, 관리 > 코드 관리자로 이동하여 새 파일에 액세스합니다. 다운로드한 압축 파일에는 미디어 및 통합 모듈과 함께 축소된 `AppMeasurement.js` 파일이 포함되어 있습니다.
+1. **`s_code.js`사용자 지정 사항을`AppMeasurement.js`**에 복사:`s_code.js`의`DO NOT ALTER ANYTHING BELOW THIS LINE`섹션 앞에 있는 모든 코드를`AppMeasurement.js`의 시작 부분으로 이동합니다.
+1. **모든 플러그인 업데이트**: `s_code.js` 파일에 나열된 각 플러그인의 최신 버전을 사용하고 있는지 확인하십시오. 여기에는 미디어 및 통합 모듈이 포함됩니다.
+1. **AppMeasurement.js 파일 배포**: 웹 서버에 `AppMeasurement.js` 파일을 업로드합니다.
+1. **스크립트 참조를 업데이트하여`AppMeasurement.js`**가리키기: 모든 페이지가`s_code.js`대신`AppMeasurement.js`를 참조하는지 확인합니다.
 
-## 예제 Appmeasurement 코드
+## Appmeasurement 코드 예
 
-일반적인 `AppMeasurement.js` 파일 구성 변수가 `doPlugins` 함수 위에 설정되어 있는지 확인합니다.
+일반적인 `AppMeasurement.js` 파일. 구성 변수가 `doPlugins` 함수 위에 설정되어 있는지 확인하십시오.
 
 ```js
 // Initialize AppMeasurement
@@ -72,9 +72,9 @@ s.trackingServer="example.sc.omtrdc.net";
 /* ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! ===============  */
 ```
 
-## 페이지 코드 예
+## 예제 페이지 코드
 
-각 페이지에 로드되는 일반적인 코드
+각 페이지에 로드되는 일반적인 코드.
 
 ```html
 <script src="AppMeasurement.js"></script>
@@ -86,4 +86,4 @@ s.t();
 </script>
 ```
 
-각 페이지의 `AppMeasurement.js` 및 `VisitorAPI.js`에도 참조를 포함해야 합니다. 자세한 [내용은 JavaScript](/help/implement/js/overview.md) 구현을 참조하십시오.
+각 페이지의 `AppMeasurement.js` 및 `VisitorAPI.js`에도 참조를 포함해야 합니다. 자세한 내용은 [JavaScript 구현](/help/implement/js/overview.md)을 참조하십시오.
