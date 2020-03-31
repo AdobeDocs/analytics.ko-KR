@@ -1,7 +1,7 @@
 ---
 title: 다양한 구현 유형 추적
-description: 서로 다른 구현 유형을 사용하고 서로 다른 방문자를 원활하게 추적할 수 있습니다.
-translation-type: tm+mt
+description: 서로 다른 구현 유형을 사용하고 이러한 유형 간에 방문자를 원활하게 추적합니다.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -16,6 +16,6 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 * *`s_account`*
 * *`s.visitorNamespace`*
 * *`s.trackingServer`*
-* *`s.trackingServerSecure`*(SSL을 사용하는 경우)
+* *`s.trackingServerSecure`* (SSL을 사용하는 경우)
 
 각각의 변수가 구현 간에 일치하지 않는 경우 사용자가 독립된 방문자로 추적될 수 있습니다.
