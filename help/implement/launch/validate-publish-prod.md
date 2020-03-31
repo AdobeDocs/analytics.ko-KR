@@ -1,7 +1,7 @@
 ---
 title: 개발 환경에 Adobe Analytics 배포
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -57,7 +57,7 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 * 콘솔에 JavaScript 오류가 없습니다. 조직의 웹 사이트 소유자와 함께 모든 JS 오류가 해결되었는지 확인합니다.
 * 헤더 코드가 올바르게 구현됨: 헤더 코드가 `<head>` 태그 내에 있고 파일이 있는지 확인합니다.
 * AppMeasurement 라이브러리가 있음: JS 소스로 직접 이동하여 JS 파일에 코드가 포함되어 있는지 확인합니다. 코드가 포함되어 있지 않으면 각 환경이 만들어졌는지, 라이브러리가 각각의 환경에 게시되었는지 확인합니다.
-* 플러그인 방해:일부 Chrome 플러그인은 이미지 요청이 실행되지 않도록 할 수 있습니다. Adobe 서버로 데이터가 전송되지 않도록 할 수 있는 플러그인을 비활성화합니다.
+* 플러그인 방해: 일부 Chrome 플러그인으로 인해 이미지 요청이 실행되지 않을 수도 있습니다. Adobe 서버로 데이터가 전송되지 않도록 하는 플러그인을 비활성화합니다.
 
 ## 다음 단계
 
