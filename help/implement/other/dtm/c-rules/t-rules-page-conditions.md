@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 페이지 로드 규칙 조건 만들기
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 1. 규칙이 실행되도록 하는 조건을 지정합니다.
 
-   예를 들어, 규칙이 실행될 특정 페이지를 식별하는 **[!UICONTROL 경로]**를 선택할 수 있습니다.
+   예를 들어, 규칙이 실행될 특정 페이지를 식별하는 **[!UICONTROL 경로]**&#x200B;를 선택할 수 있습니다.
 
    ![](assets/conditions-page-load-rules2.png)
 
