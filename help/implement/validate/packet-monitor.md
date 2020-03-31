@@ -1,7 +1,7 @@
 ---
 title: 패킷 분석기
-description: 패킷 분석기를 사용하면 구현에서 Adobe 데이터 수집 서버로 보낸 데이터를 볼 수 있습니다.
-translation-type: tm+mt
+description: 패킷 분석기를 사용하여 구현에서 Adobe 데이터 수집 서버로 보낸 데이터를 볼 수 있습니다.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # 패킷 분석기
 
-패킷 분석기를 사용하면 구현에서 Adobe 데이터 수집 서버로 보낸 데이터를 볼 수 있습니다.
+패킷 분석기를 사용하여 구현에서 Adobe 데이터 수집 서버로 보낸 데이터를 볼 수 있습니다.
 
-Adobe Experience Cloud 디버거와 마찬가지로 패킷 모니터는 이미지 요청에서 전달되는 데이터 매개 변수를 표시합니다.그러나 패킷 모니터는 다음과 같은 추가 기능을 제공합니다.
+Adobe Experience Cloud Debugger와 마찬가지로 패킷 모니터는 이미지 요청에서 전달되는 데이터 매개 변수를 표시하지만 추가 기능도 제공합니다.
 
 * 사용자 지정 링크 추적 이미지 요청 보기
 * 하드 코딩된 이미지 요청이나 [!DNL Appmeasurement]와 같이 JavaScript 외의 구현 방법을 사용하여 이미지 요청 보기
@@ -27,8 +27,8 @@ Adobe가 정식 패킷 모니터를 제공하지는 않지만 인터넷에서 �
 | Firefox | Internet Explorer | Chrome | 독립 실행형 프로그램 |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin)(태그 뷰어) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)(태그 뷰어) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpFox](https://addons.mozilla.org/ko-KR/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Tamper Data](https://addons.mozilla.org/ko-kr/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
@@ -38,7 +38,7 @@ Adobe가 정식 패킷 모니터를 제공하지는 않지만 인터넷에서 �
 
 이 오류는 링크 추적 이미지 요청이 Adobe의 데이터 수집 서버에서 오는 응답을 기다리기 전에 브라우저를 다음 페이지로 진행할 수 있게 디자인되었기 때문에 발생합니다.
 
-이미지 요청에 대한 Adobe의 응답은 페이지의 컨텐츠와 관계가 없는 1x1 투명 이미지입니다. Adobe의 패킷 모니터에 **[!UICONTROL 200 OK]**응답이나**[!UICONTROL  NS_BINDING_ABORTED]** 응답이 있는 라인 항목이 표시되면 데이터가 서버에 도착한 것이므로, 더 이상 페이지를 대기시킬 필요가 없습니다.
+이미지 요청에 대한 Adobe의 응답은 페이지의 컨텐츠와 관계가 없는 1x1 투명 이미지입니다. Adobe의 패킷 모니터에 **[!UICONTROL 200 OK]** 응답이나 **[!UICONTROL NS_BINDING_ABORTED]** 응답이 있는 라인 항목이 표시되면 데이터가 서버에 도착한 것이므로, 더 이상 페이지를 대기시킬 필요가 없습니다.
 
 플러그인으로 통합된 패킷 모니터는 전체 응답을 보는 경우가 흔치 않습니다. 모니터는 전체 응답이 수신되지 않았기 때문에 요청을 취소된 것으로 보는 경향이 있습니다. 이러한 모니터는 또한 취소된 것이 요청과 응답 중 어느 것인지 구분하지 않습니다. 독립형 패킷 모니터는 일반적으로 더 자세한 메시지를 표시하며 상태를 더 정확하게 보고합니다. 예를 들어, 사용자가 *Charles*&#x200B;로부터 &quot;전체 응답을 받기 전에 클라이언트 연결이 끊어졌습니다.&quot;와 같은 메시지를 받을 수 있습니다. 이 메시지는 데이터가 Adobe 서버에 도달했고 1x1 픽셀을 받기 전에 브라우저가 다음 페이지로 이동한 경우를 의미합니다.
 
