@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 새 규칙 만들기
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 Dynamic Tag Management에서 규칙을 만드는 방법을 설명하는 단계입니다.
 
 1. [웹 속성을 아직 만들지 않았으면](/help/implement/other/dtm/t-create-web-property.md) 만듭니다.
-1. 웹 속성에서 **[!UICONTROL 규칙]**탭을 클릭합니다.
-1. [이벤트 기반 규칙]이나 [페이지 로드 규칙]과 같은 왼쪽 탐색 창에서 만들고 싶은 규칙 유형을 선택합니다. 
-1. **[!UICONTROL 새 규칙 만들기]**를 클릭합니다.
+1. 웹 속성에서 **[!UICONTROL 규칙]** 탭을 클릭합니다.
+1. 이벤트 기반 규칙이나 페이지 로드 규칙과 같은 왼쪽 탐색 창에서 만들고 싶은 규칙 유형을 선택합니다. 
+1. **[!UICONTROL 새 규칙 만들기]**&#x200B;를 클릭합니다.
 1. 규칙 이름을 지정하고, 원할 경우 카테고리를 선택합니다.
 1. 다음으로, 규칙에 대한 조건을 설정합니다. 설정은 구현하고 있는 규칙 유형에 따라 다릅니다.
 
