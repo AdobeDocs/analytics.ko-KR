@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 레퍼러 및 캠페인
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Adobe [!DNL Analytics]에서 [!UICONTROL Dynamic Tag Management]를 배포할 때 레퍼러 및 캠페인 옵션에 대한 [!UICONTROL Dynamic Tag Management]의 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]**>![톱니바퀴 아이콘](assets/settings_gear.png)편집**[!UICONTROL 도구]**>**[!UICONTROL 레퍼러 및 캠페인]**
+**[!UICONTROL *`Property`*]**>![톱니바퀴 아이콘](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;레퍼러 및 캠페인&#x200B;]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -26,11 +26,11 @@ Adobe [!DNL Analytics]에서 [!UICONTROL Dynamic Tag Management]를 배포할 �
  <tbody>
   <tr>
    <td colname="col1"> 레퍼러 무시 </td>
-   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> 변수에 설정된 값을 무시합니다. 이 값은 일반적으로 브라우저에서 설정된 레퍼러로 채워집니다. </p> <p>[referrer](../../../vars/page-vars/referrer.md)을 참조하십시오. </p> </td>
+   <td colname="col2"> <p> <span class="varname"> s.referrer</span> 변수에 설정된 값을 무시합니다. 이 값은 일반적으로 브라우저에서 설정된 레퍼러로 채워집니다. </p> <p>참조: [referrer](../../../vars/page-vars/referrer.md) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 캠페인 </td>
-   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>[campaign](../../../vars/page-vars/campaign.md)을 참조하십시오. </p> </td>
+   <td colname="col2"> <p>사이트로 방문자를 유도하는 데 사용된 마케팅 캠페인을 식별하는 변수입니다. campaign의 값은 대개 쿼리 문자열 매개 변수에서 가져옵니다. </p> <p>참조: [campaign](../../../vars/page-vars/campaign.md) </p> </td>
   </tr>
  </tbody>
 </table>
