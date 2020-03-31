@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 데이터 요소 만들기
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -15,8 +15,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 Dynamic Tag Management에서 데이터 요소를 만듭니다.
 
 1. [웹 속성을 아직 만들지 않았으면](/help/implement/other/dtm/t-create-web-property.md) 만듭니다.
-1. 웹 속성에서 **[!UICONTROL 규칙]**>**[!UICONTROL &#x200B;데이터 요소]**를 클릭합니다.
-1. **[!UICONTROL 새 데이터 요소 만들기]**를 클릭합니다.
+1. 웹 속성에서 **[!UICONTROL 규칙]** > **[!UICONTROL 데이터 요소]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 새 데이터 요소 만들기]**&#x200B;를 클릭합니다.
 1. 다음 필드 및 옵션을 완료합니다. 
 
    <table id="choicetable_681F7D5B86534FF0B6DB67E117B8E381"> 
@@ -33,7 +33,7 @@ Dynamic Tag Management에서 데이터 요소를 만듭니다.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>유형</strong></td> 
-      <td class="chdesc stentry"> <p> JS 개체, CSS 선택기, 쿠키, URL 매개 변수 또는 사용자 지정 스크립트와 같이 데이터를 가져오는 위치를 지정합니다. </p> <p>선택한 유형에 따라 다른 옵션이 표시됩니다. 자세한 내용 및 예제는 Dynamic Tag Management 제품 설명서의 </a>데이터 요소 유형<a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">을 참조하십시오. </a></p> </td> 
+      <td class="chdesc stentry"> <p> JS 개체, CSS 선택기, 쿠키, URL 매개 변수 또는 사용자 지정 스크립트와 같이 데이터를 가져오는 위치를 지정합니다. </p> <p>선택한 유형에 따라 다른 옵션이 표시됩니다. 자세한 내용 및 예제는 Dynamic Tag Management 제품 설명서의 </a>데이터 요소 유형<a href="https://marketing.adobe.com/resources/help/ko_KR/dtm/data_elements.html">을 참조하십시오. </a></p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>기본값</strong></td> 
@@ -54,5 +54,5 @@ Dynamic Tag Management에서 데이터 요소를 만듭니다.
     </tr> 
    </table>
 
-   데이터 요소 사용 방법에 대한 자세한 내용은 Adobe 태그 관리 제품 설명서에서 [데이터 요소](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html)를 참조하십시오.
+   데이터 요소 사용 방법에 대한 자세한 내용은 Adobe 태그 관리 제품 설명서에서 [데이터 요소](https://marketing.adobe.com/resources/help/ko_KR/dtm/data_elements.html)를 참조하십시오.
 1. **[!UICONTROL 데이터 요소 저장을 클릭합니다]**.
