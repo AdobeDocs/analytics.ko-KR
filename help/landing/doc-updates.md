@@ -3,7 +3,7 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
+source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 | 2020년 2월 7일 | 크로스 [디바이스 분석 설정 업데이트](../components/cda/cda-setup.md) 및 [FAQ](../components/cda/cda-faq.md) |
 | 2020년 2월 4일 | 구현 [사용 안내서의](../implement/home.md)전체 다시 작성 |
 | 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
-| 2020년 1월 13일 | Adobe [Analytics 및 브라우저 쿠키를](../technotes/cookies.md)추가했습니다. |
+| 2020년 1월 13일 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)에 대한 새로운 항목 |
 | 2019년 11월 25일 | [내부(세션 새로 고침) 마케팅 채널](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)에 대한 새로운 항목 |
@@ -43,7 +43,7 @@ source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 | 2019년 6월 10일 | [중국용 지역 데이터 수집(RDC)](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html)에 대한 새로운 문서 |
 | 2019년 6월 4일 | [타사 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
 | 2019년 5월 30일 | [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
-| 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/optimizing-performance.md)에 대한 업데이트입니다. |
+| 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)에 대한 업데이트입니다. |
 | 2019년 3월 14일 | [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
 | 2019년 2월 7일 | ](/help/admin/admin/general-acct-settings-admin.md)일반 계정 설정[의 &quot;IP 주소의 마지막 옥텟을 0으로 바꾸기&quot; 및 &quot;IP 난독 처리&quot; 설정에 대한 부분 업데이트입니다. |
 | 2019년 2월 1일 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
