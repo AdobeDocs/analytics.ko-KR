@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -13,8 +13,8 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 + [Analytics 툴 안내서](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace 도움말](analysis-workspace/home.md)
    + [Analysis Workspace 기능](analysis-workspace/analysis-workspace-features.md)
+   + [Analysis Workspace 도움말](analysis-workspace/home.md)
    + [Analysis Workspace 활용 사례](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
    + Workspace 프로젝트 작성 {#build-workspace-project}
@@ -95,11 +95,6 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
-   + [FAQ](analysis-workspace/faq.md)
-   + [관리 요구 사항](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace 성능 최적화](analysis-workspace/optimizing-performance.md)
-   + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace 제한 사항](analysis-workspace/aw-limitations.md)
    + [기여도 분석 IQ](analysis-workspace/attribution-iq.md)
    + [세그먼트 IQ](analysis-workspace/segment-iq.md)
    + 가상 분석가 {#virtual-analyst}
@@ -118,6 +113,12 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
          + [경고 빌더](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [경고 관리자](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + 작업 영역 FAQ {#workspace-faq}
+      + [FAQ](analysis-workspace/workspace-faqs/faq.md)
+      + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faqs/optimizing-performance.md)
+      + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
+      + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faqs/aw-limitations.md)
+      + [관리 요구 사항](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 도움말](report-builder/home.md)
    + [Report Builder의 새로운 기능](report-builder/whats-new-arb.md)
