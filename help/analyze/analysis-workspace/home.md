@@ -2,10 +2,8 @@
 description: Adobe Analytics 사용을 시작하는 방법.
 keywords: Analysis Workspace
 title: 시작 안내서
-topic: Reports and analytics
-uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -30,7 +28,7 @@ Analysis Workspace를 사용하여 기본 등급 보고서를 가져오십시오
 6. 왼쪽에는 차원, 지표, 세그먼트 및 날짜 범위 목록이 표시됩니다. 페이지 차원(주황색으로 표시됨)을 찾아 &#39;차원을 여기에 드래그하여 놓습니다&#39;라는 캔버스에 드래그하여 놓으십시오.
 7. 보고서 세트에 데이터가 있는 경우 이달의 상위 페이지를 표시하는 보고서가 표시됩니다. Analysis Workspace가 자동으로 보고서를 [발생 횟수](/help/components/c-variables/c-metrics/metrics-occurrences.md) 지표로 채웠습니다.
 8. 방문 횟수 지표(녹색으로 표시됨)를 찾아서 발생 횟수 지표 머리글 **위** 또는 **옆**&#x200B;으로 드래그합니다(지표 위에 놓지 않도록 합니다.). 방문 횟수 지표를 발생 횟수 위에 드래그하면 보고에서 지표가 대체됩니다. 방문 횟수 지표를 발생 횟수 옆으로 드래그하면 두 지표가 나란히 표시됩니다.
-9. 프로젝트를 저장하려면 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트]>[!UICONTROL 저장]*을 클릭합니다.
+9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
 
 ## Workspace에서 기본 트렌드 보고서 가져오기
 
@@ -46,13 +44,13 @@ Analysis Workspace를 사용하여 기본 트렌드 보고서를 가져오십시
 8. 왼쪽의 날짜 범위 구성 요소 목록에서 주 날짜 범위(보라색으로 표시됨)를 찾습니다. 날짜 범위 제목을 클릭하여 확장하고 모든 날짜 범위 구성 요소를 보거나 검색 창을 사용하십시오.
 9. 캔버스에서 일 날짜 범위 머리글 위에 주 날짜 범위를 드래그하여 바꿉니다.
 10. 트렌드 보고서는 이제 하루가 아닌 주 단위로 집계됩니다.
-11. 프로젝트를 저장하려면 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트]>[!UICONTROL 저장]*을 클릭합니다.
+11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
 
 ## 도구 실험
 
 Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 드래그하여 놓아서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 Workspace 프로젝트에 드래그하여 사용 가능한 조합을 확인하십시오.
 
-실수로 유효하지 않은 구성 요소를 Workspace 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트]>[!UICONTROL 신규]*를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
+실수로 유효하지 않은 구성 요소를 Workspace 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
 
 ## 문제 해결
 
@@ -73,7 +71,7 @@ Workspace 보고서를 생성했지만 데이터가 없다면 확인할 수 있�
 
 * [Analysis Workspace 릴리스 노트](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): 도구에 도입된 최신 기능을 읽어 보십시오.
 * [Analysis Workspace - YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): 이 광범위한 재생 목록을 통해 Analysis Workspace에 있는 대부분의 기능에 대한 사용법을 알아보십시오.
-* 제품 내 팁: 간혹 Analysis Workspace의 오른쪽 아래에 오늘의 팁이 짧은 비디오와 함께 나타납니다. 이 팁은 무시해도 언제든지 *[!UICONTROL 도움말]>[!UICONTROL 팁]*을 통해 확인할 수 있습니다.
+* 제품 내 팁: 간혹 Analysis Workspace의 오른쪽 아래에 오늘의 팁이 짧은 비디오와 함께 나타납니다. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
 * [Analysis Workspace 커뮤니티](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): 동료 사용자와 Analysis Workspace에 대해 토론하고 도구에서 보고 싶은 기능에 투표하십시오.
 * 블로그 게시물:
    * [발전된 지능형 분석으로 조직 지원](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
@@ -89,17 +87,16 @@ Analysis Workspace를 더 깊이 이해하기 위해서는 살펴볼 측면이 �
 ### Analysis Workspace 사용법에 대한 지식을 확장하려는 최종 사용자의 경우
 
 * [Workspace UI에 대한 세부 사항](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): 이제 기본 보고서를 생성했으므로 나머지 인터페이스에 더 익숙해지도록 합니다.
-* [Workspace에서의 시각화](visualizations/freeform-analysis-visualizations.md): 자유 형식 테이블은 Analysis Workspace에서 시각화의 한 유형일 뿐입니다. 선 차트, 막대그래프 및 지리 지도와 같은 다른 시각화 형태를 사용하는 방법을 알아봅니다.
+* [Workspace에서의 시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 자유 형식 테이블은 Analysis Workspace에서 시각화의 한 유형일 뿐입니다. 선 차트, 막대그래프 및 지리 지도와 같은 다른 시각화 형태를 사용하는 방법을 알아봅니다.
 * [Workspace의 차원](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): 차원의 의미와 등급 보고서 이외에서도 차원을 사용하는 방법에 대해 자세히 알아봅니다.
 * [Workspace의 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md): 지표의 의미와 자유 형식 테이블의 다른 부분에서 지표를 사용하는 방법에 대해 자세히 알아봅니다.
 * [세그멘테이션 소개](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): 세그먼트의 의미에 대해 알아보고 세그먼트를 사용하여 기본 보고서를 가져옵니다.
 * [Workspace의 날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): 상대적 날짜와 순환 날짜에 대해 알아보고 Workspace 프로젝트에서 사용합니다.
 * Workspace에서 프로젝트 공유: 동료에게 자신이 만든 멋진 Workspace 프로젝트를 보여줍니다.
-* [Workspace의 (고급) 패널](c-panels/panels.md): 기여도 분석이나 세그먼트 비교와 같은 Workspace의 고급 기능을 사용합니다.
+* [Workspace의 (고급) 패널](/help/analyze/analysis-workspace/c-panels/panels.md): 기여도 분석이나 세그먼트 비교와 같은 Workspace의 고급 기능을 사용합니다.
 
-### 조직에서 Workspace의 품질을 개선하려는 분석가 및 관리자의 경우
+### 조직에서 작업 영역의 품질을 향상시키고자 하는 분석가 및 관리자
 
 * [Analysis Workspace 권한](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): Adobe Admin Console을 통해 Workspace에 대한 권한을 사용자에게 할당합니다.
-* [솔루션 디자인 문서 작성](/help/implement/prepare/solution-design.md): 조직에서 해당 사이트와 관련한 추가적인 차원 또는 지표를 수집하는 방법을 계획합니다.
 * [Workspace의 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): 동료가 자신의 요구에 맞는 프로젝트 공간으로 시작할 수 있도록 템플릿을 만듭니다.
-* [Workspace 큐레이션](curate-share/curate.md): 사용 가능한 구성 요소를 제한하는 프로젝트를 만들어 도구에 익숙하지 않은 사람들이 Workspace에 보다 쉽게 액세스할 수 있도록 합니다.
+* [Workspace 큐레이션](/help/analyze/analysis-workspace/curate-share/curate.md): 사용 가능한 구성 요소를 제한하는 프로젝트를 만들어 도구에 익숙하지 않은 사람들이 Workspace에 보다 쉽게 액세스할 수 있도록 합니다.
