@@ -1,9 +1,9 @@
 ---
-description: Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
+description: Activity Map 설정 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
 title: Activity Map 설정 구성
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Activity Map 설정 구성
 
-Activity Map [설정] 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
+Activity Map 설정 패널에서는 모든 유형의 오버레이 시각화에 대한 설정 및 속성을 수정할 수 있습니다.
 
 Activity Map 도구 모음에 있는 톱니바퀴 아이콘을 클릭하여 액세스하는 Activity Map [설정] 패널에 액세스하십시오.
 
