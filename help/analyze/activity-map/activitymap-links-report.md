@@ -3,7 +3,7 @@ description: 링크 보고서는 현재 페이지에서 찾은 링크에 대해 
 title: 링크 보고서
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/links_in_page.png)
 
-표준 모드에서, "페이지에 있는 링크 수" 보고서에는 전체 날짜 범위에 대해 집계한, 하루 범위에서 여러 날 범위까지의 링크 데이터가 표시됩니다. 각 링크에 대해 다음 정보가 표시됩니다.
+표준 모드에서, &quot;페이지에 있는 링크 수&quot; 보고서에는 전체 날짜 범위에 대해 집계한, 하루 범위에서 여러 날 범위까지의 링크 데이터가 표시됩니다. 각 링크에 대해 다음 정보가 표시됩니다.
 
 <table id="table_3DE41B2CFA644B70AF802A3123CE51D9"> 
  <thead> 
