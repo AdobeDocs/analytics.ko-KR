@@ -3,7 +3,7 @@ description: 오버레이 상세 정보는 링크 오버레이의 맨 위를 가
 title: 오버레이 세부정보
 topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
