@@ -3,7 +3,7 @@ description: 'Activity Map UI는 두 부분으로 구성되어 있습니다. '
 title: Activity Map 사용자 인터페이스
 topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
