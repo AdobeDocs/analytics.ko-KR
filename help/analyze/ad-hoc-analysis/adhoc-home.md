@@ -2,7 +2,7 @@
 description: 애드혹 분석 소개
 title: Ad Hoc Analysis 개요
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -17,5 +17,5 @@ Ad Hoc Analysis은 실시간 방문자 정보를 제한 없이 활용하여 가�
 ## 새롭고 인기 있는 주제
 
 * 이제 Ad Hoc Analysis 프로젝트를 Analysis Workspace 프로젝트로 원활하게 변환할 수 있습니다. [Ad Hoc Analysis 프로젝트 변환기 개요](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)로 이동하여 방법을 확인하십시오.
-* 애드혹 분석과 분석 작업 [공간에 대한 섹션을 확인하십시오](/help/analyze/analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md).분석 작업 공간은 많은 애드혹 분석 기능을 브라우저 워크플로우로 가져옵니다. 일부 용어 및 기능은 제품 간에 동일하게 유지되지만 분석 작업 공간에 도입된 몇 가지 새로운 용어 및 분석 접근 방식이 있습니다.
+* 애드혹 분석과 분석 작업 [공간에 대한 섹션을 확인하십시오](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md).분석 작업 공간은 많은 애드혹 분석 기능을 브라우저 워크플로우로 가져옵니다. 일부 용어 및 기능은 제품 간에 동일하게 유지되지만 분석 작업 공간에 도입된 몇 가지 새로운 용어 및 분석 접근 방식이 있습니다.
 * [관리](/help/analyze/ad-hoc-analysis/c-administration.md): 사용자 및 샘플 데이터를 구성하는 방법을 알아봅니다.
