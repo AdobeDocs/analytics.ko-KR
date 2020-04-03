@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -114,11 +114,11 @@ source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
          + [경고 관리자](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + 작업 영역 FAQ {#workspace-faq}
-      + [FAQ](analysis-workspace/workspace-faqs/faq.md)
-      + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faqs/optimizing-performance.md)
-      + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
-      + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faqs/aw-limitations.md)
-      + [관리 요구 사항](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
+      + [FAQ](analysis-workspace/workspace-faq/faq.md)
+      + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
+      + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 도움말](report-builder/home.md)
    + [Report Builder의 새로운 기능](report-builder/whats-new-arb.md)
