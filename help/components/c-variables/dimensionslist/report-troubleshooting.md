@@ -5,7 +5,7 @@ title: 보고 우수 사례 및 문제 해결
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: dca5bac72a2cf5f5ded5072e1867676392a7850e
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics는 다양하고 복잡한 보고서를 생성할 수 있는 유�
 
 >[!Note]
 >이러한 권장 사항은 Reports &amp; Analytics, Ad Hoc Analysis 및 Report Builder에 적용됩니다.
->Analysis Workspace에는 자체 [우수 사례](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)가 있으므로 적용되지 않습니다. Data Warehouse [우수 사례](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)에도 적용되지 않습니다. Adobe Analytics 보고 API를 위한 추가적인
+>Analysis Workspace에는 자체 [우수 사례](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)가 있으므로 적용되지 않습니다. Data Warehouse [우수 사례](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)에도 적용되지 않습니다. Adobe Analytics 보고 API를 위한 추가적인
 >[우수 사례](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) 세트가 있습니다.
 
 ## 보고서 시간 초과 및 요청 큐 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
