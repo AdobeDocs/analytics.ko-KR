@@ -2,45 +2,45 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-상거래를 사용하는 사이트의 경우 매출 및 통화는 Analytics의 중요한 부분입니다. 여러 국가를 아우르는 사이트 중 많은 사이트는 서로 다른 통화를 사용합니다. 이 `currencyCode` 변수를 사용하여 매출 속성이 올바른 통화로 나타나는지 확인합니다.
+상거래를 사용하는 사이트의 경우 매출 및 통화는 Analytics의 중요한 부분입니다. 많은 사이트, 특히 여러 국가를 아우르는 사이트는 다양한 통화를 사용합니다. 매출 기여도 분석이 올바른 통화로 표시되게 하려면 `currencyCode` 변수를 사용하십시오.
 
-이 `currencyCode` 정의되지 않은 경우, [`products`](../page-vars/products.md) 변수 및 통화 이벤트가 보고서 세트의 통화와 동일한 것으로 간주됩니다. 보고서 [세트의](/help/admin/admin/general-acct-settings-admin.md) 통화를 보려면 관리 사용 안내서의 일반 계정 설정을 참조하십시오.
+`currencyCode`가 정의되지 않으면 [`products`](../page-vars/products.md) 변수로 정의된 통화 값과 통화 이벤트가 보고서 세트의 통화와 동일한 것처럼 처리됩니다. 보고서 세트의 통화를 확인하려면 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
 
-이 `currencyCode` 정의되고 보고서 세트의 통화와 일치하는 경우 통화 전환이 적용되지 않습니다.
+`currencyCode`가 정의되어 있고 보고서 세트의 통화와 일치하는 경우 통화 전환이 적용되지 않습니다.
 
-이 `currencyCode` 정의되고 보고서 세트의 통화와 다른 경우, Adobe는 현재 날짜의 환율을 기준으로 통화 변환을 적용합니다. Adobe는 XE [와](https://xe.com) 협력하여 매일 통화를 변환합니다. 데이터 수집 서버에 저장된 모든 값은 궁극적으로 보고서 세트의 통화로 저장됩니다.
+`currencyCode`가 정의되어 있고 보고서 세트의 통화와 다른 경우에는 Adobe가 현재 날짜의 환율을 기준으로 통화 변환을 적용합니다. Adobe는 [XE](https://xe.com)와 협력하여 매일 통화를 변환합니다. 데이터 수집 서버에 저장된 모든 값은 궁극적으로 보고서 세트의 통화로 저장됩니다.
 
-> [!IMPORTANT] 잘못된 값이 포함되어 `currencyCode` 있으면 전체 히트가 삭제되어 데이터 손실이 발생합니다. 구현에서 이 변수를 사용하는 경우 이 변수가 올바르게 정의되어 있는지 확인하십시오.
+>[!IMPORTANT] `currencyCode`에 잘못된 값이 포함되어 있으면 전체 히트가 삭제되어 데이터 손실이 발생합니다. 구현에서 이 변수를 사용하는 경우 이 변수가 올바르게 정의되어 있는지 확인하십시오.
 
 이 변수는 히트 간에 지속되지 않습니다. 이 변수가 매출 또는 통화 이벤트를 포함하는 모든 페이지에서 정의되었는지 확인하십시오.
 
 ## Adobe Experience Platform Launch의 통화 코드
 
-통화 코드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL General] 아코디언 아래에 있는 필드입니다.
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. 탭으로 이동한 [!UICONTROL Extensions] 다음 Adobe Analytics 아래의 [!UICONTROL Configure] 단추를 클릭합니다.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 필드를 나타내는 [!UICONTROL General] [!UICONTROL Currency Code] 아코디언을 확장합니다.
 
-사전 설정 통화 코드 또는 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
+사전 설정된 통화 코드나 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
 
-## s.currencyCode in AppMeasurement and Launch 사용자 지정 코드 편집기
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.currencyCode
 
-이 `s.currencyCode` 변수는 페이지의 통화를 나타내는 3자로 된 대문자 코드를 포함하는 문자열입니다.
+`s.currencyCode` 변수는 페이지의 통화를 나타내는 3자로 된 대문자 코드를 포함하는 문자열입니다.
 
 ```js
 s.currencyCode = "USD";
 ```
 
-다음 통화 코드는 유효합니다.
+다음 통화 코드가 유효합니다.
 
 | 통화 코드 | 통화 설명 |
 | --- | --- |
@@ -48,7 +48,7 @@ s.currencyCode = "USD";
 | `AFA` | 아프카니스탄 아프가니 |
 | `ALL` | 알바니아 레케 |
 | `AMD` | 아르메니아 드램 |
-| `ANG` | 네덜란드 아틸레스 길더 |
+| `ANG` | 네덜란드령 앤틸리스 길더 |
 | `AOA` | 앙골라 크완자 |
 | `ARS` | 아르헨티나 페소 |
 | `AUD` | 오스트레일리아 달러 |
