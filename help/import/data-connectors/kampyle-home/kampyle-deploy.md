@@ -3,7 +3,7 @@ description: 'null'
 title: 통합 배포
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 통합 마법사를 완료한 후 통합 구성 개체를 웹 속성에 배포합니다. 대부분의 경우 통합 구성 개체를 배포하는 가장 쉬운 방법은 Adobe Analytics 배포 코드에 통합 구성 개체를 포함하는 것입니다.
 
-> [!NOTE] Adobe Experience Platform Launch를 사용하는 경우 해당 도구를 통해 통합 구성 개체를 쉽게 추가할 수 있습니다.
+>[!NOTE] Adobe Experience Platform Launch를 사용하는 경우 해당 도구를 통해 통합 구성 개체를 쉽게 추가할 수 있습니다.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. 리소스를 다운로드하고 저장합니다. **[!UICONTROL Kampyle Integration Code (JS)]** 코드는 다음과 유사합니다.
@@ -61,7 +61,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] 로그 항목은 일반적으로 배포 후 24시간 이내에 표시됩니다.
+>[!NOTE] 로그 항목은 일반적으로 배포 후 24시간 이내에 표시됩니다.
 
 ![통합 작업 로그](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 적절한 메뉴 구조 내에서 Kampyle 보고로 이동하여 Adobe Analytics에서 Kampyle 피드백 보고서를 봅니다.
 
-> [!NOTE] 통합 피드백 양식이 제출물을 적극적으로 수신하고 있다고 가정할 경우 보고 데이터는 성공적인 배포 후 24-48시간 이내에 표시되어야 합니다.
+>[!NOTE] 통합 피드백 양식이 제출물을 적극적으로 수신하고 있다고 가정할 경우 보고 데이터는 성공적인 배포 후 24-48시간 이내에 표시되어야 합니다.
 
 ![Adobe 보고 데이터](assets/adobe_reporting_data.png)
