@@ -2,8 +2,8 @@
 description: 3단계 배포 프로세스에 대해 설명합니다.
 title: 통합 배포
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
-translation-type: ht
-source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,12 +24,12 @@ source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
    ![](assets/data_connectors.png)
 
-1. Lyris HQ에서 **[!UICONTROL 통합 추가]** 아래의 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
+1. Lyris **[!UICONTROL Add Integration]** HQ에서 을 클릭합니다 **[!UICONTROL Activate]**.
 
    ![](assets/add_integration.png)
 
-1. **[!UICONTROL 일반 설정]**&#x200B;에서 원하는 보고서 세트를 선택하고 통합 이름을 제공합니다.
-1. **[!UICONTROL 사용자 지정 값]** 아래에 Lyris 계정과 관련된 모든 정보를 입력합니다.
+1. Under **[!UICONTROL General Settings]**, choose the desired Report Suite and provide a name for the integration.
+1. Fill in all your Lyris account-related information under **[!UICONTROL Custom Values]**.
 
    ![](assets/general_settings.png)
 
@@ -37,9 +37,9 @@ source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
    ![](assets/variable_mapping.png)
 
-1. 자동화된 3개의 파트너 세그먼트와 별도로 **[!UICONTROL 세그먼트]** 아래에서 고유한 세그먼트를 선택할 수 있습니다.
-1. 이 통합을 위해서 Lyris 계정에 몇 개의 데이터 포인트를 다운로드해야 할 수 있습니다. **[!UICONTROL 액세스 요청]**&#x200B;에서 이에 대한 액세스 권한을 부여할 수 있습니다.
-1. **[!UICONTROL 데이터 수집]**&#x200B;에서 자동화된 솔루션 또는 수동 솔루션(JavaScript 플러그인)을 선택하여 랜딩 페이지 URL에서 쿼리 문자열 매개 변수를 수집할 수 있습니다. 자동화된 솔루션을 선택한 경우 메시지 ID 및 수신자 ID에 대한 쿼리 문자열 매개 변수를 입력합니다. JavaScript 플러그인은 Adobe 컨설턴트에게 문의하십시오.
+1. You may choose your own segments under **[!UICONTROL Your Segments]** - apart from the 3 automated Partner segments.
+1. 이 통합을 위해서 Lyris 계정에 몇 개의 데이터 포인트를 다운로드해야 할 수 있습니다. You may choose to give access for this under **[!UICONTROL Access Request]**.
+1. Under **[!UICONTROL Data Collection]**, you can choose to have an automated or a manual solution (JavaScript Plug-in) to collect query string parameters from the landing page URL. 자동화된 솔루션을 선택한 경우 메시지 ID 및 수신자 ID에 대한 쿼리 문자열 매개 변수를 입력합니다. JavaScript 플러그인은 Adobe 컨설턴트에게 문의하십시오.
 
    ![](assets/data_collection.png)
 
@@ -47,7 +47,7 @@ source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
    ![](assets/dashboard_generation.png)
 
-1. 통합 요약을 검토하고 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
+1. Review the integration summary and click **[!UICONTROL Activate]**.
 
 ## Lyris EmailLabs 내의 구성{#configuration-within-the-lyris-emaillabs}
 
@@ -72,21 +72,21 @@ Lyris/Adobe Analytics 통합이 성공했는지 확인하는 단계입니다.
 
 모든 배포 단계가 완료되면 통합이 성공적으로 데이터를 전송하고 있는지 확인할 수 있습니다.
 
-> [!NOTE] 데이터 교환을 시작하려면 며칠이 걸립니다. 통합을 활성화한 후 Lyris에 문의하십시오.
+>[!NOTE] 데이터 교환을 시작하려면 며칠이 걸립니다. 통합을 활성화한 후 Lyris에 문의하십시오.
 
-1. Data Connectors 내에서 Lyris 통합으로 이동합니다. **[!UICONTROL 지원]** 탭 > **[!UICONTROL 통합 활동 로그]**&#x200B;에 **[!UICONTROL 지표 데이터를 가져왔습니다]** 및/또는 **[!UICONTROL 분류 데이터를 가져왔습니다]**&#x200B;와 같은 이벤트가 표시되어야 합니다.
+1. Data Connectors 내에서 Lyris 통합으로 이동합니다. 탭 **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**&#x200B;아래에서 **[!UICONTROL Metric data imported successfully]** 및/또는 **[!UICONTROL Classification data imported successfully]**:
 
    ![](assets/integration_info.png)
 
-1. 이제 해당 지표와 함께 Lyris 메시지 보고서를 봅니다. Adobe Experience Cloud에서 **[!UICONTROL Reports &amp; Analytics]**&#x200B;를 선택합니다.
+1. 이제 해당 지표와 함께 Lyris 메시지 보고서를 봅니다. In the Adobe Experience Cloud, select **[!UICONTROL Reports & Analytics]**.
 1. 적절한 보고서 세트를 선택합니다.
-1. **[!UICONTROL 사용자 지정 전환]**&#x200B;에서 **[!UICONTROL 메시지 ID 보고서]**&#x200B;를 선택하고 **[!UICONTROL 메시지 ID/메시지 이름]**&#x200B;을 선택합니다.
+1. 아래에서 **[!UICONTROL Custom Conversions]**&#x200B;을 선택하고 **[!UICONTROL Message ID Reports]** 선택합니다 **[!UICONTROL Message ID/Message Name]**.
 
 ## 쿼리 문자열 매개 변수 플러그인 코드{#query-string-param-plug-in-code}
 
 Adobe Analytics에서 사용할 Lyris 플러그인 코드를 표시합니다.
 
-> [!NOTE] 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약했는지 확인하십시오. 어떤 eVar를 예약했는지 알고 있으면 eVarN을 관련 eVar로 바꿉니다. 예: eVar10.
+>[!NOTE] 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약했는지 확인하십시오. 어떤 eVar를 예약했는지 알고 있으면 eVarN을 관련 eVar로 바꿉니다. 예: eVar10.
 
 ```
 /* 
