@@ -5,8 +5,8 @@ subtopic: Users and groups
 title: 사용자 및 그룹 권한 변경 사항
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,15 +15,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 ## 변경 사항{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]**
+**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
 
-> [!NOTE] 가능한 사용 권한 조합의 수가 많기 때문에 모든 권한 조합에서 사용할 수 있는 모든 API 방법을 설명하는 설명서를 제공할 수 없습니다. 일반적으로 웹 서비스 액세스 권한이 부여된 비 관리자 사용자에게는 API 메서드에 대한 읽기 액세스 권한만 있으며, 쓰기 액세스 권한은 없습니다.
+>[!NOTE] 가능한 사용 권한 조합의 수가 많기 때문에 모든 권한 조합에서 사용할 수 있는 모든 API 방법을 설명하는 설명서를 제공할 수 없습니다. 일반적으로 웹 서비스 액세스 권한이 부여된 관리자가 아닌 사용자에게는 API 메서드에 대한 읽기 액세스 권한만 부여됩니다. 메서드에 대한 쓰기 액세스 권한이 없습니다.
 
-API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때문에, 인터페이스(Adobe Admin Console)에서 관리자가 특정 비 관리자 사용자에게 부여한 모든 사용 권한은 사용자가 API에서 가진 권한과 동일합니다.
+API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때문에 인터페이스(Adobe Admin Console)에서 관리자가 특정 비관리자에게 허용한 권한은 API에서 사용자가 가진 권한과 동일합니다.
 
 <table id="table_D1DB0DE37752450BBCCA44DB760BB505"> 
  <thead> 
@@ -44,23 +44,23 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
     </ul> <p>예를 들면 여러 Analytics 도구(<span class="wintitle">Analysis Workspace</span>, <span class="wintitle">Reports &amp; Analytics</span>, <span class="wintitle">Report Builder</span>)에 대한 액세스 권한, 특정 지표 및 차원(eVar 포함)에 대한 권한 및 세그먼트나 계산된 지표 생성과 같은 기능을 가진 그룹을 생성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>사전 정의된 그룹 변경 </p> </td> 
-   <td colname="col2"> <p> <b>관리자 액세스:</b> 사전 정의된 그룹은 더 이상 관리자에게 필요하지 않습니다. 이제 관리자는 웹 서비스 액세스, Report Builder, Activity Map, Ad Hoc Analysis은 물론 모든 항목(도구, 지표, 측정기준)에 대한 액세스 권한을 가지고 있습니다. </p> <p>이후에도 그룹의 목적은 관리자가 아닌 사용자에게 액세스 권한을 부여하거나 액세스를 제한하는 것입니다. </p> <p> <b>사용자 지정 그룹:</b> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> <span class="term"> 모든 보고서 액세스</span>에 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
+   <td colname="col1"> <p>사전 정의된 그룹 변경 사항 </p> </td> 
+   <td colname="col2"> <p> <b>관리자 액세스:</b> 사전 정의된 그룹은 더 이상 관리자에게 필요하지 않습니다. 관리자는 이제 모든 항목(도구, 지표, 차원)뿐만 아니라 웹 서비스 액세스, 리포트 빌더, Activity Map 및 애드혹 분석에 액세스할 수 있습니다. </p> <p>앞으로 그룹의 목적은 관리자가 아닌 사용자에 대한 액세스를 허용하거나 제한하는 것입니다. </p> <p> <b>사용자 지정 그룹:</b> 사용자 지정 그룹이 사전 정의된 그룹을 대체했습니다. 기존 사전 정의된 그룹은 동일한 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 설정을 비롯하여 사용자가 만든 모든 사용자 지정 그룹은 그대로 유지됩니다. 그러나 설정 위치가 이동됩니다. 예를 들어, 회사 설정(관리 콘솔 사용자 지정)이 이제 분석 도구 사용자 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> 지정에서 제공됩니다</a>. </p> <p> <span class="term"> 모든 보고서 액세스</span>에 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
-     <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">모든 측정 기준 </li> 
+     <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">모든 차원 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">모든 지표 </li> 
      <li id="li_65ABE5C95D43444D88E63EE95C9AED05">모든 보고서 세트 </li> 
      <li id="li_7ED1505590144B38B3B9851BAA6BBB49">채널 보고서 사용 권한 </li> 
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">예외 항목 탐지 보고서 권한 </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">실시간 보고서 권한 </li> 
-     <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace 액세스 권한 </li> 
+     <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">분석 작업 공간 액세스 권한 </li> 
     </ul> <p>이전에 사전 정의된 그룹에서 사용할 수 있었던 모든 설정은 <span class="wintitle">사용자 그룹 정의</span>의 <a href="/help/admin/user-management2/c-user-groups/groups.md">보고서 액세스 권한</a> 설정에서 사용자 지정할 수 있으므로 관리자는 사용자 지정 그룹을 삭제하고 직접 생성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>측정기준-수준 권한 </p> </td> 
-   <td colname="col2"> <p>측정기준(및 지표)에 대한 액세스를 포함하거나 제외하도록 권한을 사용자 지정할 수 있습니다. </p> 
+   <td colname="col1"> <p>차원 수준 권한 </p> </td> 
+   <td colname="col2"> <p>측정 지표 외에 차원에 대한 액세스를 포함하거나 제외하도록 권한을 사용자 지정할 수 있습니다. </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
-     <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 컨텐츠 인식) 및 지표가 주어집니다. </p> </li> 
+     <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>사용자 지정 그룹 내의 모든 현재 차원 및 지표는 자동으로 새 카테고리로 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 콘텐츠 인식) 및 지표가 주어집니다. </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/c_classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 차원 권한 사용자 지정</a>을 참조하십시오. </p> </td> 
   </tr> 
@@ -73,7 +73,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
 
 ## 권한 변경에 대한 FAQ {#section_02809EFC95054B40A089E6C6E4FACA13}
 
-다음은 새 업데이트와 계획된 업데이트 및 그러한 업데이트가 관리 환경에 어떻게 영향을 주는지에 대한 새로운 중요한 정보입니다.
+다음은 새로운 업데이트 및 계획된 업데이트와 이러한 업데이트가 관리 환경에 미치는 영향에 대한 새로운 중요한 정보입니다.
 
 <table id="table_1E93F45C66E841E6882FB602509F30A3"> 
  <thead> 
@@ -84,7 +84,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b>2016년 7월</b> 릴리스에 포함된 권한 변경 사항은 무엇입니까? </td> 
+   <td colname="col1">2016년 7월 릴리스에서 변경된 <b>사용 권한은</b> 무엇입니까? </td> 
    <td colname="col2"> <p> <b>모든 보고서 세트 액세스</b> </p> <p>그룹에 포함할 보고서 세트를 추가할 때 <span class="uicontrol">모든 보고서 세트 액세스</span>를 지정할 수 있습니다. 이 설정은 그룹 권한을 현재 및 이후의 모든 보고서 세트에 적용합니다. </p> <p>이 기능을 사용하려면 <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span> &gt; <span class="uicontrol">새 사용자 그룹 추가</span>로 이동한 다음 <span class="uicontrol">모든 보고서 세트 액세스</span>를 선택합니다. </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
@@ -102,41 +102,41 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자를 마이그레이션하기 위해 수행해야 하는 작업이 있습니까? </p> </td> 
-   <td colname="col2"> <p>아니요, 모든 권한 마이그레이션은 투명하게 발생합니다. </p> <p> 
+   <td colname="col2"> <p>아니요. 모든 권한 마이그레이션은 투명하게 진행됩니다. </p> <p> 
      <ul id="ul_654F85286EC04416B3E0BA725EBE10AD"> 
-      <li id="li_8050B8941F794103B82A0ADF0930D216">사용자 지정 그룹에 있는 현재의 모든 트래픽 보고서는 새 측정기준 카테고리로 자동으로 마이그레이션됩니다. </li> 
-      <li id="li_B97079DB29A346B98D066F11AB7F94AF">사용자 지정 그룹의 지표가 이미 활성화된 경우 허용 가능한 새로운 모든 측정기준(eVar 및 솔루션 변수)에 자동으로 제공됩니다. </li> 
-      <li id="li_F1219EF490DA473BA15F2B215F2995AE"> 적어도 한 개 이상의 지표를 사용한 사용자 지정 그룹에는 사용 가능한 새 트래픽 측정기준(이전 트래픽 보고서)을 <b>제외한</b> 모든 eVar 및 다른 컨텐츠 인식 측정기준에 대한 액세스 권한이 자동으로 부여됩니다. </li> 
+      <li id="li_8050B8941F794103B82A0ADF0930D216">사용자 지정 그룹의 모든 현재 트래픽 보고서는 자동으로 새 차원 카테고리로 마이그레이션됩니다. </li> 
+      <li id="li_B97079DB29A346B98D066F11AB7F94AF">사용자 지정 그룹에 이미 활성화된 지표가 있는 경우, 모든 새로 권한을 부여할 수 있는 차원(eVar 및 솔루션 변수)이 자동으로 부여됩니다. </li> 
+      <li id="li_F1219EF490DA473BA15F2B215F2995AE"> 지표가 하나 이상 있는 사용자 지정 그룹에는 새로 사용할 수 있는 트래픽 차원(이전 트래픽 보고서)을 <b>제외한</b> 모든 eVar 및 기타 컨텐츠 인식 차원에 대한 액세스 권한이 자동으로 부여됩니다. </li> 
       <li id="li_F494CE6144A04A6199CFBBA1D7BEA32B">사전 정의된 모든 그룹이 권한으로 변경됩니다. 이러한 새 권한은 새 <span class="uicontrol">Analytics 도구</span> 카테고리에 추가됩니다. </li> 
-      <li id="li_2FCD9254FC3C4FD7871EEF9453E5CE1E">지표를 사용한 모든 사용자 지정 그룹에는 모든 Analytics 솔루션 이벤트가 새 지표로 추가됩니다. </li> 
-      <li id="li_34C4560769B64F28A4E83BAE71065DCC">모든 보고서 액세스에 사용되는 모든 사용자가 새 사용자 그룹에 추가됩니다. 모든 보고서 액세스는 더 이상 존재하지 않습니다. </li> 
+      <li id="li_2FCD9254FC3C4FD7871EEF9453E5CE1E">지표가 있는 모든 사용자 지정 그룹에는 모든 Analytics 솔루션 이벤트가 새 지표로 추가됩니다. </li> 
+      <li id="li_34C4560769B64F28A4E83BAE71065DCC">모든 보고서 액세스 권한에 있었던 모든 사용자가 새 사용자 지정 그룹에 추가됩니다. 모든 보고서 액세스 권한이 더 이상 존재하지 않습니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>변경되지 않는 내용은 무엇입니까? </p> </td> 
-   <td colname="col2"> <p>방문자 속성에는 계속 권한이 없습니다. </p> </td> 
+   <td colname="col1"> <p>무엇이 변하지 않을 것인가? </p> </td> 
+   <td colname="col2"> <p>방문자 속성은 계속 허용되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 권한 빠른 참조 {#section_A3FDD8259F524B21A5489833533D1B28}
+## 권한 부여 빠른 참조 {#section_A3FDD8259F524B21A5489833533D1B28}
 
 다음 표에는 회사의 상태에 따라 작업 및 작업이 발생할 수 있는 위치가 나열되어 있습니다.
 
-> [!NOTE] *`migrated user`* 및 *`Experience Cloud user`*&#x200B;란 Experience Cloud에 참여하기 위해 이메일 초대를 수락한 사용자를 말합니다. 이메일 초대를 수락하지 않으면 사용자는 여전히 Analytics 사용자이며 Admin Console에서 관리할 수 없습니다. (단, 마이그레이션에서 [Enterprise 또는 페더레이션된 ID](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)를 사용하는 경우는 예외입니다. 이 경우 관리자가 사용자별로 사용자를 마이그레이션하면 사용자가 마이그레이션됩니다.)
+>[!NOTE] *`migrated user`* 및 *`Experience Cloud user`*&#x200B;란 Experience Cloud에 참여하기 위해 이메일 초대를 수락한 사용자를 말합니다. 이메일 초대를 수락하지 않으면 사용자는 여전히 Analytics 사용자이며 Admin Console에서 관리할 수 없습니다. (단, 마이그레이션이 [Enterprise 또는 Federated ID를 사용하는 경우는 예외입니다](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html). 이 경우 관리자가 사용자별로 사용자를 마이그레이션할 때 사용자가 마이그레이션됩니다.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 작업 </th> 
-   <th colname="col2" class="entry"> 로그인 회사를 마이그레이션하지 않음 </th> 
-   <th colname="col3" class="entry"> 현재 회사를 마이그레이션 중 </th> 
-   <th colname="col4" class="entry"> 로그인 회사 마이그레이션 완료 </th> 
+   <th colname="col2" class="entry"> 마이그레이션 안 함 로그인 회사 </th> 
+   <th colname="col3" class="entry"> 현재 마이그레이션 회사 </th> 
+   <th colname="col4" class="entry"> 로그인 회사 마이그레이션을 완료했습니다. </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 사용자 생성 </td> 
+   <td colname="col1"> 사용자 만들기 </td> 
    <td colname="col2"> <p>Admin Console(사용자를 만들어 Analytics <a href="https://marketing.adobe.com/resources/help/ko_KR/mcloud/admin_getting_started.html"> 제품 구성</a>에 사용자를 추가해도 Analytics에 사용자 계정이 만들어짐). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 관리 도구</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
@@ -145,7 +145,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
    <td colname="col1"> 사용자 편집 </td> 
    <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 관리 도구</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 관리 도구 - 관리 도구에서 마이그레이션된 사용자에 대한 편집 작업은 API 키 관리 및 자산 삭제/전송으로 제한됩니다. </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 관리 도구 - API 키 관리 및 자산 삭제/전송으로 편집이 제한됩니다. </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 관리 도구 - 편집은 API 키 관리로 제한되며 자산을 삭제/전송하도록 제한됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 사용자 삭제 </td> 
@@ -155,7 +155,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
   </tr> 
   <tr> 
    <td colname="col1"> Analytics에 로그인 </td> 
-   <td colname="col2"> <p> <b>Experience Cloud: </b> <span class="filepath"> marketing.adobe.com</span>. Experience Cloud 사용자만 사용할 수 있습니다. </p> <p> <b>Analytics(기존):</b> <span class="filepath">sc.omniture.com</span>. Analytics 전용 사용자 및 해당 Analytics 자격 증명이 있는 Experience Cloud 사용자용 </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud: </b> marketing.adobe.com <span class="filepath"></span>. Experience Cloud 사용자만 사용할 수 있습니다. </p> <p> <b>Analytics(기존):</b> <span class="filepath">sc.omniture.com</span>. Analytics 전용 사용자 및 Analytics 자격 증명을 가진 Experience Cloud 사용자의 경우 </p> </td> 
    <td colname="col3"> <p> <span class="filepath"> marketing.adobe.com</span> - Experience Cloud 사용자만 사용할 수 있습니다. </p> <p> <span class="filepath"> sc.omniture.com</span> - Analytics 전용 사용자 및 Analytics 자격 증명이 있는 Experience Cloud 사용자가 사용할 수 있습니다. </p> <p>마이그레이션 중에 관리자가 특정 사용자에 대한 <span class="filepath">omniture.com</span> 로그인 기능을 끌 수 있습니다. </p> </td> 
    <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
