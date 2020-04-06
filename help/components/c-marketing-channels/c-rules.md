@@ -1,24 +1,24 @@
 ---
 title: 마케팅 채널의 처리 규칙
-description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
+description: 마케팅 채널 처리 규칙은 방문자 히트가 채널에 할당된 기준을 충족하는지 여부를 결정합니다. 규칙은 방문자가 사이트에서 수행하는 모든 히트를 처리합니다. 규칙이 채널에 대한 기준을 충족하지 않거나 규칙이 올바르게 구성되지 않은 경우 시스템이 히트를 식별된 채널 없음에 할당합니다.
 translation-type: tm+mt
-source-git-commit: c10a12781a8fe52b7b897cd337dc686aa0bbb240
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 마케팅 채널의 처리 규칙
 
-마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
+마케팅 채널 처리 규칙은 방문자 히트가 채널에 할당된 기준을 충족하는지 여부를 결정합니다. 규칙은 방문자가 사이트에서 수행하는 모든 히트를 처리합니다. 규칙이 채널에 대한 기준을 충족하지 않거나 규칙이 올바르게 구성되지 않은 경우 시스템이 히트를 식별된 채널 없음에 할당합니다.
 
-다음은 규칙을 만드는 중요한 지침입니다.
+다음은 규칙을 만들기 위한 중요한 지침입니다.
 
-* 처리를 원하는 순서대로 규칙을 정렬합니다.
-*  [기타]와 같은 다목적 캐치(catch-all) 규칙을 목록의 끝에 포함시킵니다. 이 규칙은 내부 트래픽을 제외하고 외부 트래픽을 식별합니다.
+* 규칙을 처리할 순서대로 정렬합니다.
+* 목록 끝에 기타 등의 모든 catch-all 규칙을 포함합니다. 이 규칙은 외부 트래픽을 식별하지만 내부 트래픽은 식별합니다.
 
    [식별된 채널 없음](/help/components/c-marketing-channels/c-faq.md)을 참조하십시오.
 
-> [!NOTE] 이러한 규칙은 마케팅 채널 외부의 보고에 영향을 주지 않지만 마케팅 채널 데이터 수집에는 영향을 줍니다. 이러한 규칙으로 수집한 데이터는 100% 영구적이며 데이터를 수집한 후에 수정한 규칙은 되돌릴 수 없습니다. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+>[!NOTE] 이러한 규칙은 마케팅 채널 외부의 보고에 영향을 주지 않지만 마케팅 채널 데이터 수집에는 영향을 줍니다. 이러한 규칙으로 수집된 데이터는 100% 영구적이며, 데이터를 수집한 후 변경된 규칙은 소급 적용되지 않습니다. 데이터가 잘못된 채널에서 수집되는 것을 줄이기 위해 저장하기 전에 모든 상황을 검토하고 고려하는 것이 좋습니다. [!UICONTROL Marketing Channel Processing Rules]
 
 ## 전제 조건
 
@@ -29,16 +29,16 @@ source-git-commit: c10a12781a8fe52b7b897cd337dc686aa0bbb240
 
 방문자 히트가 채널에 지정된 기준을 충족하는지 여부를 결정하는 마케팅 채널 처리 규칙을 만듭니다.
 
-이 절차에서는 이메일 규칙을 하나의 예로 사용합니다. 이 예에서는 마케팅 채널 관리자 페이지의 채널 목록에 이메일 채널을 추가했다고 가정합니다.
+이 절차에서는 이메일 규칙을 예로 사용합니다. 이 예에서는 마케팅 채널 관리자 페이지의 채널 목록에 이메일 채널을 추가했다고 가정합니다.
 
-1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. 보고서 세트 선택.
 
    If your report suite does not have channels defined, the [!UICONTROL Marketing Channels: Auto Setup] page displays.
 
    See [Run the Automatic Setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-1. 클릭 **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
 
    ![단계 결과](assets/marketing_channel_rules.png)
 
@@ -48,7 +48,7 @@ source-git-commit: c10a12781a8fe52b7b897cd337dc686aa0bbb240
 
    ![단계 결과](assets/example_email.png)
 
-   부울 로직(if / then 문)을 사용하여 규칙을 구성합니다. 예를 들어 이메일 채널 규칙에서, 다음 문에서 강조된 설정 또는 정보를 제공합니다.
+   부울 논리(if / then 문)를 사용하여 규칙을 구성합니다. 예를 들어 이메일 채널 규칙에서 다음 규칙 문에서 강조된 설정 또는 정보를 제공합니다.
 
    `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
 
@@ -63,7 +63,7 @@ source-git-commit: c10a12781a8fe52b7b897cd337dc686aa0bbb240
 
 >[!MORELIKETHIS]
 >
->* [FAQ 및 예제](/help/components/c-marketing-channels/c-faq.md)를 참조하십시오
+>* [FAQ 및 예제](/help/components/c-marketing-channels/c-faq.md)를 참조하십시오.
 
 
 ## 마케팅 채널 규칙 기준
@@ -72,34 +72,34 @@ source-git-commit: c10a12781a8fe52b7b897cd337dc686aa0bbb240
 
 | 용어 | 정의 |
 |--- |--- |
-| 모두 | 번호가 매겨진 형식의 모든 규칙이 참인 경우에만 이 채널을 활성화합니다. |
-| 임의 | 규칙 세트의 일부 규칙이 참이면 이 채널을 활성화합니다. 이 옵션은 번호가 매겨진 규칙에 두 개 이상의 규칙이 있는 경우에만 사용할 수 있습니다. |
+| 모두 | 번호가 매겨진 규칙의 모든 규칙이 참인 경우에만 이 채널을 활성화합니다. |
+| 임의 | 규칙 세트의 규칙 중 하나가 참이면 이 채널을 활성화합니다. 이 옵션은 번호가 매겨진 규칙에 두 개 이상의 규칙이 있는 경우에만 사용할 수 있습니다. |
 | AMO ID | Advertising Cloud 및 Advertising Analytics 통합에서 사용하는 기본 추적 코드. 이러한 통합 중 하나가 활성화되면 추적 코드 접두사를 사용하여 Advertising Cloud에 대한 채널을 식별할 수 있습니다. AMO ID는 검색의 경우 &quot;AL&quot;, 표시의 경우 &quot;AC&quot;, 소셜의 경우 &quot;AO&quot;로 시작합니다. AMO ID를 마케팅 채널에서 사용하면 클릭/비용/노출 지표가 적절한 채널에 귀속될 수 있습니다. (구성하지 않으면 이러한 지표는 직접 또는 없음으로 표시됩니다.) |
 | AMO ED ID | Advertising Cloud에서 사용하는 보조 추적 코드. 이 추적 코드의 주된 목적은 데이터를 다시 Ad Cloud로 전송하는 키의 역할을 하는 것입니다. 또한 두 개의 분리된 마케팅 채널로 보려는 경우 디스플레이 클릭스루와 디스플레이 뷰스루를 식별하는 데 사용할 수도 있습니다. 이 작업은 디스플레이 클릭스루의 경우 &quot;:d&quot;로 끝나고 디스플레이 뷰스루의 경우 &quot;:i&quot;로 끝나는 &quot;AMO EF ID&quot;에 대한 마케팅 채널 논리를 설정하여 수행할 수 있습니다. 디스플레이를 두 개의 채널로 분할하지 않으려면 AMO ID 차원을 대신 사용하십시오. |
-| 전환 변수 | 이 보고서 세트에 대해 활성화된 eVar들로 구성되며 이러한 변수가 페이지의 Adobe 코드를 통해 설정된 경우에만 적용됩니다.   구현 안내서를 참조하십시오. |
-| 존재 | 다음을 포함하여 여러 가지 선택 사항이 있습니다.<ul><li>**존재하지 않음**: 히트 속성이 요청에 존재하지 않음을 나타냅니다. 예를 들어 참조 도메인에서 사용자가 URL을 입력하거나 책갈피를 클릭할 경우, 참조 도메인 속성이 존재하지 않습니다.</li><li>**비어 있음**: eVar 또는 쿼리 문자열 매개 변수 같은 히트 속성이 존재하지만 히트 속성과 연관된 값은 없다는 것을 나타냅니다.</li><li>**포함하지 않음**: 가령 추천 도메인이 특정 값을 포함하지 않음을 지정할 수 있습니다(다음을 선택할 경우와 반대: &quot;다음 포함&quot;.)</li></ul> |
+| 전환 변수 | 이 보고서 세트에 대해 활성화된 eVar로 구성되며, 이러한 변수가 페이지의 Adobe 코드를 통해 설정된 경우에만 적용됩니다.   구현 안내서를 참조하십시오. |
+| 존재 | 다음을 포함하여 몇 가지 선택 사항을 사용할 수 있습니다.<ul><li>**존재하지 않음**: 히트 속성이 요청에 존재하지 않음을 나타냅니다. 예를 들어 참조 도메인에서 사용자가 URL을 입력하거나 책갈피를 클릭할 경우, 참조 도메인 속성이 존재하지 않습니다.</li><li>**비어 있음**: eVar 또는 쿼리 문자열 매개 변수 같은 히트 속성이 존재하지만 히트 속성과 연관된 값은 없다는 것을 나타냅니다.</li><li>**포함하지 않음**:예를 들어 참조 도메인에 특정 값이 포함되지 않도록 지정할 수 있습니다(선택 항목 &quot;포함&quot;을 사용하는 대신).</li></ul> |
 | 다음으로 채널 식별 | 마케팅 채널 관리자 페이지에 추가한 마케팅 채널과 규칙을 연관시킵니다.  마케팅 채널 추가를 참조하십시오. |
-| 유료 검색 발견 규칙 일치 | Adobe가 발견한 유료 검색. 유료 검색은 검색 엔진이 해당 기업 사이트를 나열하는 대가로 비용을 지불하는 검색 유형입니다. 유료 검색은 보통 검색 결과의 상단 또는 오른쪽에 나타납니다. |
-| 자연어 검색 발견 규칙 일치 | Adobe 보고에 의해 발견된 무료 검색 |
+| 유료 검색 발견 규칙 일치 | Adobe에서 발견한 유료 검색. 유료 검색은 검색 엔진이 사이트를 나열하는 데 필요한 비용을 지불하는 경우입니다. 유료 검색은 일반적으로 검색 결과의 상단 또는 오른쪽에 표시됩니다. |
+| 자연어 검색 발견 규칙 일치 | Adobe 보고에 의해 검색된 유료 검색. |
 | 레퍼러가 내부 URL 필터를 일치시킴 | 페이지 URL이 관리자 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하는 방문입니다. |
-| 레퍼러가 내부 URL 필터를 일치시키지 않음 | 참조하는 URL이 관리 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하지 않습니다. 이 설정을 페이지 URL 및 존재와 함께 사용하여 보고서의 식별된 채널 없음 섹션에 도착하는 방문이 없도록 다목적 캐치(catch-all) 규칙을 설정할 수 있습니다. |
-| 내부 URL 필터와 일치하는 히트 무시 | (레퍼러의 경우) 외부에서 추천한 사이트에서 온 히트만 추적합니다. 일반적으로, 내부 트래픽을 포함하기를 원하지 않는 한 이 옵션을 계속 사용하도록 설정하십시오. |
-| 방문의 첫 번째 페이지임 | Adobe 보고에 의해 발견된 첫 방문 페이지 |
+| 레퍼러가 내부 URL 필터를 일치시키지 않음 | 참조하는 URL이 관리자 도구의 보고서 세트에 대해 정의된 대로 내부 URL 필터와 일치하지 않습니다. 페이지 URL 및 존재와 함께 이 설정을 사용하여 모든 캐치(catch-all) 규칙을 설정할 수 있으므로 보고서의 식별된 채널 없음 섹션에 방문이 없습니다. |
+| 내부 URL 필터와 일치하는 히트 무시 | (레퍼러의 경우) 외부에서 참조된 사이트에서 오는 히트만 추적합니다. 일반적으로 내부 트래픽을 포함하려는 경우를 제외하고 이 설정을 사용하도록 설정합니다. |
+| 방문의 첫 번째 페이지임 | Adobe 보고에 의해 감지된 방문의 첫 번째 페이지. |
 | 페이지 | Adobe의 웹 비콘을 사용하여 태그를 추가하는 사이트 웹 페이지의 페이지 이름. 이 값은 s.pageName과 같습니다. 예로는 `Home Page` 및 `About Us`가 있습니다. |
 | 페이지 도메인 | 방문자가 들어오는 페이지의 도메인(예: `products.example.co.uk`). |
 | 페이지 도메인 및 경로 | The domain and path, such as `products.example.co.uk/mens/pants/overview.html` . |
 | 페이지 루트 도메인(TLD+1) | 방문자가 들어오는 페이지의 루트 도메인(예: example.co.uk). |
-| 페이지 URL | 사이트에서 웹 페이지의 URL |
-| 조회 도메인 | 방문자가 사용자 사이트를 방문하기 전에 있었던 도메인(예: `abcsite.com` 대 `xyzsite.com`에서 온 레퍼러). |
-| 쿼리 문자열 매개 변수 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then page and cat are both query string parameters. (THEN 연산자를 사용하여 세그먼트를 작성하는 방법에 대해서는 `https://en.wikipedia.org/wiki/Query_string`.)  규칙 세트당 하나의 쿼리 문자열 매개 변수만 지정할 수 있습니다. To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule. |
+| 페이지 URL | 사이트에 있는 웹 페이지의 URL. |
+| 참조 도메인 | 방문자가 사용자 사이트를 방문하기 전에 있었던 도메인(예: `abcsite.com` 대 `xyzsite.com`에서 온 레퍼러). |
+| 쿼리 문자열 매개 변수 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then page and cat are both query string parameters. (참조 `https://en.wikipedia.org/wiki/Query_string`.)  규칙 세트당 하나의 쿼리 문자열 매개 변수만 지정할 수 있습니다. To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule. |
 | 레퍼러 | 방문자가 사이트에 오기 전에 있었던 웹 페이지 위치(전체 URL). 레퍼러는 정의된 도메인 외부에 존재합니다. |
-| 참조 도메인 및 경로 | 참조 도메인과 URL 경로의 연결. 해당 예는 다음과 같습니다.    `www.example.com/products/id/12345` 또는 `ad.example.com/foo` |
-| 참조 매개 변수 | 레퍼러 URL의 쿼리 문자열 매개 변수. 예를 들어 방문자가 `example.com/?page=12345&cat=1`에서 온 경우 page 및 cat가 참조 매개 변수입니다. |
+| 참조 도메인 및 경로 | 참조 도메인 및 URL 경로의 연결. 예:   `www.example.com/products/id/12345` 또는 `ad.example.com/foo` |
+| 참조 매개 변수 | 레퍼러 URL의 쿼리 문자열 매개 변수입니다. 예를 들어 방문자가 `example.com/?page=12345&cat=1`에서 온 경우 page 및 cat가 참조 매개 변수입니다. |
 | 참조 루트 도메인 | 레퍼러의 루트 도메인. 레퍼러는 정의된 도메인 외부에 존재합니다. |
 | 검색 엔진 | Google이나 Yahoo! 같이 방문자를 사용자 사이트로 연결시킨 검색 엔진. |
 | 검색 키워드 | 검색 엔진을 사용하여 검색을 수행하는 데 사용되는 단어 |
-| 검색 엔진 + 키워드 | 검색 엔진을 고유하게 식별하는 검색 키워드 및 검색 엔진의 연결. 예를 들어 computer라는 단어를 검색하는 경우, 검색 엔진과 키워드는 다음과 같이 식별됩니다. `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**참고:**n = 자연어, p = 유료 |
-| 채널의 값을 다음으로 설정 | 어떤 마케팅 채널이 방문자를 사이트로 유도하는지를 파악하는 것 외에, 방문자의 사이트 활동에서 크레디트를 유발하는 배너 광고, 검색 키워드 또는 채널 내 이메일 캠페인을 파악할 수 있습니다. 이 ID는 채널과 함께 저장되는 채널 값입니다. 종종 이 값은 랜딩 페이지 또는 참조 URL에 삽입되는 캠페인 ID입니다. 또한 검색 엔진 및 검색 키워드 조합이거나 특정 채널에서 온 방문자를 가장 올바르게 식별하는 참조 URL일 수도 있습니다. |
+| 검색 엔진 + 키워드 | 검색 엔진을 고유하게 식별하는 검색 키워드 및 검색 엔진의 연결. 예를 들어 computer라는 단어를 검색하는 경우 검색 엔진과 키워드는 다음과 같이 식별됩니다.참고 `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**사항:**n = natural;p = 유료 |
+| 채널의 값을 다음으로 설정 | 어떤 마케팅 채널이 방문자를 사이트로 유도하는지를 파악하는 것 외에, 방문자의 사이트 활동에서 크레디트를 유발하는 배너 광고, 검색 키워드 또는 채널 내 이메일 캠페인을 파악할 수 있습니다. 이 ID는 채널과 함께 저장되는 채널 값입니다. 종종 이 값은 랜딩 페이지나 참조 URL에 포함된 캠페인 ID입니다.다른 경우에는 검색 엔진 및 검색 키워드 조합이거나 특정 채널에서 방문자를 가장 정확하게 식별하는 참조 URL입니다. |
 
 ## 내부(세션 새로 고침) 채널
 
