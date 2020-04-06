@@ -3,8 +3,8 @@ description: 'null'
 title: 방문당 체류 시간
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -37,6 +37,6 @@ Adobe Analytics는 Analytics 보고서에서 체류 시간을 파악하는 여�
    * 10-15시간
    * 15시간 이상
 
-> [!NOTE] [방문](../c-metrics/metrics-visit.md)은 일반적으로 12시간의 활동 후에 종료됩니다. 하지만 타임스탬프가 지정된 히트나 데이터 소스를 사용하는 경우 방문이 12시간을 초과할 수 있습니다.
+>[!NOTE] [방문](../c-metrics/metrics-visit.md)은 일반적으로 12시간의 활동 후에 종료됩니다. 하지만 타임스탬프가 지정된 히트나 데이터 소스를 사용하는 경우 방문이 12시간을 초과할 수 있습니다.
 
 이 차원은 방문을 기반으로 합니다. 이 차원을 히트 기반 차원인 [페이지에서 보낸 시간](reports-time-spent-on-page.md)과 비교해 보십시오.
