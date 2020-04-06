@@ -1,15 +1,15 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 변수는 동적 계정에서 볼 값을 결정합니다.
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dynamicAccountMatch
 
-> [!IMPORTANT] 동적 계정은 이전 JavaScript 구현(H 코드)을 사용해야만 지원됩니다. 이러한 변수는 현재 AppMeasurement 라이브러리 또는 Adobe Experience Platform Launch에서 지원되지 않습니다.
+>[!IMPORTANT] 동적 계정은 이전 JavaScript 구현(H 코드)을 사용해야만 지원됩니다. 이러한 변수는 현재 AppMeasurement 라이브러리 또는 Adobe Experience Platform Launch에서 지원되지 않습니다.
 
 `dynamicAccountMatch` 변수는 `dynamicAccountList`에서 보고 그 값을 비교하는 값입니다. `dynamicAccountSelection`이 `true`로 설정되지 않으면 이 변수는 무시됩니다.
 
