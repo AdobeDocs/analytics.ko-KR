@@ -3,8 +3,8 @@ description: s_objectID 변경을 사용하여 링크 ID를 사용자 지정하�
 title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,14 +13,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을 사용자 지정하고, AppMeasurement ActivityMap 모듈 파일을 사용자 지정하여 링크를 차별화할 수 있습니다.
 
-일례로, 동일한 링크 ID 및 영역에서 Activity Map으로 식별되는 여러 개의 &quot;Buy&quot; 링크가 있다고 하겠습니다.
+예를 들어, 동일한 링크 ID 및 지역 아래에 Activity Map에 의해 식별되는 여러 &quot;구입&quot; 링크가 있다고 가정해 봅시다.
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 코드 샘플 </th> 
    <th colname="col2" class="entry"> 링크 ID </th> 
-   <th colname="col3" class="entry"> 영역 </th> 
+   <th colname="col3" class="entry"> 지역 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -38,17 +38,17 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation Panel <p> </p> <p> </p> <p>recommendation Panel </p> <p> </p> <p> </p> <p>recommendation Panel </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>구입 <p> </p> <p> </p> <p>구입 </p> <p> </p> <p> </p> <p>구입 </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>권장 사항 패널 <p> </p> <p> </p> <p>권장 사항 패널 </p> <p> </p> <p> </p> <p>권장 사항 패널 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-사용자는 어떻게 이러한 링크의 값을 차별화하는 웹 페이지와 태그 지정을 사용자 지정할 수 있습니까? 세 가지 옵션이 있습니다. 링크 ID를 사용자 지정하거나, 영역을 사용자 지정하거나, AppMeasurement ActivityMap 모듈 파일을 사용자 지정할 수 있습니다.
+웹 페이지와 태깅을 사용자 정의하여 이러한 링크의 값을 어떻게 차별화할 수 있습니까? 다음 세 가지 옵션이 있습니다.링크 ID를 사용자 정의하거나 영역을 사용자 지정하거나 AppMeasurement ActivityMap 모듈 파일을 사용자 지정할 수 있습니다.
 
-## s_objectID를 사용하여 링크 ID 사용자 지정 {#section_01B0D463397B4837B2D46F087A6E5937}
+## s_objectID를 사용하여 링크 ID 사용자 정의 {#section_01B0D463397B4837B2D46F087A6E5937}
 
-페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대해 자세히 알려면 [여기](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/s_objectID.html)를 클릭하십시오.
+페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 만들어 Activity Map 추적을 개선하거나 Activity Map을 사용하여 링크 URL이 아닌 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대한 자세한 내용을 보려면 [여기를](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/s_objectID.html) 클릭하십시오.
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
   <tr> 
    <th colname="col02" class="entry"> 코드 샘플 </th> 
    <th colname="col2" class="entry"> 링크 ID </th> 
-   <th colname="col3" class="entry"> 영역 </th> 
+   <th colname="col3" class="entry"> 지역 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -77,24 +77,24 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>제품 2 </p> <p> </p> <p> </p> <p>제품 3 </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>추천 패널 </p> <p> </p> <p> </p> <p>추천 패널 </p> <p> </p> <p> </p> <p>추천 패널 </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 영역 사용자 지정 {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-각 &quot;buy&quot; 링크에 자체 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면, &quot;id&quot; 매개 변수를 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 추가하십시오.
+각 &quot;구입&quot; 링크에 고유한 영역이 정의되어 있도록 함으로써 영역을 사용자 지정할 수 있습니다. 이렇게 하려면 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 &quot;id&quot; 매개 변수를 추가합니다.
 
-> [!NOTE] 영역 식별자로 &quot;id&quot; 매개 변수만 사용하도록 엄격히 제한되어 있지는 않습니다. JavaScript 변수 &quot;s.ActivityMap.regionIDAttribute&quot;를 사용하여 자체 식별자를 설정할 수도 있습니다.
+>[!NOTE] 영역 식별자로 &quot;id&quot; 매개 변수만 사용하도록 엄격히 제한되어 있지는 않습니다. JavaScript 변수 &quot;s.ActivityMap.regionIDAttribute&quot;를 사용하여 자체 식별자를 설정할 수도 있습니다.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
   <tr> 
    <th colname="col02" class="entry"> 코드 샘플 </th> 
    <th colname="col2" class="entry"> 링크 ID </th> 
-   <th colname="col3" class="entry"> 영역 </th> 
+   <th colname="col3" class="entry"> 지역 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -112,7 +112,7 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>구입 </p> <p> </p> <p> </p> <p>구입 </p> <p> </p> <p> </p> <p>구입 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
