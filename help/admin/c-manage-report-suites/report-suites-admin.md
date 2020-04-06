@@ -1,25 +1,25 @@
 ---
-description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 세트에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나를 선택합니다(보고서 세트를 결합한 롤업을 사용하는 경우 제외). 또한 보고서 세트는 사이트 일부에 대한 보고서를 실행하려는 경우 웹 사이트보다 작아질 수 있습니다. Analytics 솔루션은 이러한 데이터 저장소에 대해 집계 및 보고합니다. 관리 보고서 세트 관리자를 사용하면 보고서 세트에서의 데이터 처리 방법을 제어하는 규칙을 정의할 수 있습니다.
+description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 세트에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트이지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나를 선택합니다(보고서 세트를 결합하는 롤업을 사용하는 경우 제외). 또한 보고서 세트는 사이트의 일부에 대한 보고서를 실행하려는 경우 웹 사이트보다 작을 수 있습니다. Analytics 솔루션은 이러한 데이터 저장소에 대해 집계하고 보고합니다. 관리 보고서 세트 관리자를 사용하면 보고서 세트에서 데이터가 처리되는 방식을 제어하는 규칙을 정의할 수 있습니다.
 title: 보고서 세트 관리자
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 보고서 세트 관리자
 
-보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 세트에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나를 선택합니다(보고서 세트를 결합한 롤업을 사용하는 경우 제외). 또한 보고서 세트는 사이트 일부에 대한 보고서를 실행하려는 경우 웹 사이트보다 작아질 수 있습니다. Analytics 솔루션은 이러한 데이터 저장소에 대해 집계 및 보고합니다. 관리 보고서 세트 관리자를 사용하면 보고서 세트에서의 데이터 처리 방법을 제어하는 규칙을 정의할 수 있습니다.
+보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 세트에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트이지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나를 선택합니다(보고서 세트를 결합하는 롤업을 사용하는 경우 제외). 또한 보고서 세트는 사이트의 일부에 대한 보고서를 실행하려는 경우 웹 사이트보다 작을 수 있습니다. Analytics 솔루션은 이러한 데이터 저장소에 대해 집계하고 보고합니다. 관리 보고서 세트 관리자를 사용하면 보고서 세트에서 데이터가 처리되는 방식을 제어하는 규칙을 정의할 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
-> [!NOTE] 가상 보고서 세트는 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**&#x200B;를 통해 관리됩니다. [가상 보고서 세트 설명서](/help/components/vrs/vrs-about.md)를 참조하십시오.
+>[!NOTE] 가상 보고서 세트는 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**&#x200B;를 통해 관리됩니다. [가상 보고서 세트 설명서](/help/components/vrs/vrs-about.md)를 참조하십시오.
 
 ## 보고서 세트 관리자 설명 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-다음 표에서는 [!UICONTROL 보고서 세트 관리자] 페이지의 요소에 대해 설명합니다.
+다음 표에서는 [!UICONTROL Report Suite Manager] 페이지의 요소에 대해 설명합니다.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -39,11 +39,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 검색</span> </td> 
-   <td colname="col2"> 보고서 세트 목록에서 특정 보고서 세트를 찾을 수 있습니다. 검색 도구에는 기본 이름 기반 검색과 상세한 검색을 위한 고급 검색 페이지가 모두 포함됩니다. </td> 
+   <td colname="col2"> 보고서 세트 목록에서 특정 보고서 세트를 찾을 수 있습니다. 검색 도구에는 기본 이름 기반 검색과 심층 검색을 위한 고급 검색 페이지가 모두 포함됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">그룹 </span> </td> 
-   <td colname="col2"> <p>보고서 세트를 사용자 지정 그룹으로 나눌 수 있습니다. 유사한 설정을 공유하거나 일반적으로 함께 편집하는 여러 보고서 세트에 신속하게 액세스할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>보고서 세트를 사용자 지정 그룹으로 구성할 수 있습니다. 유사한 설정을 공유하거나 일반적으로 함께 편집하는 여러 보고서 세트에 신속하게 액세스할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 저장한 검색 결과</span> </td> 
@@ -51,7 +51,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 롤업</span> </td> 
-   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p> <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> 롤업 보고서 세트</a>. </p> </td> 
+   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 설정 편집</span> </td> 
