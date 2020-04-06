@@ -4,8 +4,8 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 지표 계산
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 데이터 피드를 사용한 일반 지표 계산 방법을 설명합니다.
 
-> [!IMPORTANT] 일반적으로 Adobe Analytics에서 제외된 히트는 데이터 피드에 포함됩니다. 원시 데이터의 쿼리에서 제외된 히트를 제거하려면 `exclude_hit > 0`을 사용합니다. 데이터 소스 데이터도 데이터 피드에 포함됩니다. 데이터 소스를 제외하려면 `hit_source = 5,7,8,9`가 있는 행을 모두 제외합니다.
+>[!IMPORTANT] 일반적으로 Adobe Analytics에서 제외된 히트는 데이터 피드에 포함됩니다. 원시 데이터의 쿼리에서 제외된 히트를 제거하려면 `exclude_hit > 0`을 사용합니다. 데이터 소스 데이터도 데이터 피드에 포함됩니다. 데이터 소스를 제외하려면 `hit_source = 5,7,8,9`가 있는 행을 모두 제외합니다.
 
 ## 페이지 보기 횟수
 
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. `post_visid_high`, `post_visid_low`, `visit_num` 및 `visit_start_time_gmt`를 연결합니다.
 1. 고유 값 수를 카운트합니다.
 
-> [!NOTE] 인터넷 특이 사항, 시스템 특이 사항 또는 사용자 지정 방문자 ID의 사용은 서로 다른 방문 횟수에 대해 동일한 `visit_num` 값을 거의 사용할 수 없습니다. 방문 횟수를 카운트할 때 이러한 방문 횟수가 카운트되도록 `visit_start_time_gmt`를 사용합니다.
+>[!NOTE] 인터넷 특이 사항, 시스템 특이 사항 또는 사용자 지정 방문자 ID의 사용은 서로 다른 방문 횟수에 대해 동일한 `visit_num` 값을 거의 사용할 수 없습니다. 방문 횟수를 카운트할 때 이러한 방문 횟수가 카운트되도록 `visit_start_time_gmt`를 사용합니다.
 
 ## 방문자 수
 
