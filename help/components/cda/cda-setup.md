@@ -2,18 +2,18 @@
 title: Cross-Device Analytics 설정
 description: 전제 조건을 충족한 후 Cross-Device Analytics를 설정하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Cross-Device Analytics 설정
 
-> [!NOTE] Cross-Device Analytics 설명서는 기능이 추가로 개발되면 변경될 수 있습니다. 정기적으로 업데이트를 확인하십시오.
+>[!NOTE] Cross-Device Analytics 설명서는 기능이 추가로 개발되면 변경될 수 있습니다. 정기적으로 업데이트를 확인하십시오.
 
 모든 전제 조건이 충족되면 다음 절차에 따라 Cross-Device Analytics를 활성화하십시오. 이 절차를 수행하려면 제품 프로필 관리 그룹에 속해 있거나 Adobe Analytics에서 관리자 권한이 있어야 합니다.
 
-> [!IMPORTANT] 이 절차를 수행하기 전에 모든 전제 조건을 충족해야 합니다. 모든 전제 조건을 충족하지 않으면 기능을 사용할 수 없거나 기능이 작동하지 않습니다. 전제 조건 및 제한 사항에 대해서는 [Cross-Device Analytics](cda-home.md)를 참조하십시오.
+>[!IMPORTANT] 이 절차를 수행하기 전에 모든 전제 조건을 충족해야 합니다. 모든 전제 조건을 충족하지 않으면 기능을 사용할 수 없거나 기능이 작동하지 않습니다. 전제 조건 및 제한 사항에 대해서는 [Cross-Device Analytics](cda-home.md)를 참조하십시오.
 
 ## CDA에 사용할 수 있게 할 장치 간 보고서 세트 선택
 
