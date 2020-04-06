@@ -4,7 +4,7 @@ title: Experience Cloud에 세그먼트 게시
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,23 +15,23 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 이제는, 처리에 최대 8시간이 소요될 수 있지만, 다른 트래픽 및 세그먼트 크기에 따라 처리 속도가 훨씬 더 빨라질 수 있습니다.  그러나 현재는 언제 세그먼트를 사용할 수 있는지 알려줄 수 있는 방법이 없으므로 직접 확인해야 합니다. 또한 게시 가능한 최대 세그먼트 수를 75개(20개에서)로 늘렸습니다. 구성 요소 > 세그먼트에서 게시된 세그먼트를 볼 수 있습니다.
 
-> [!NOTE] Adobe Campaign(Classic 및 Standard)은 8시간 지연 외에 24시간 추가적인 지연을 발생시킨다는 점에서 다르게 동작합니다.
+>[!NOTE] Adobe Campaign(Classic 및 Standard)은 8시간 지연 외에 24시간 추가적인 지연을 발생시킨다는 점에서 다르게 동작합니다.
 
 
 ## 전제 조건
 
-* 이 세그먼트를 저장할 보고서 세트를 [Experience Cloud에 사용](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)할 수 있도록 합니다. 그렇게 하지 않으면 Experience Cloud에 게시할 수 없습니다.
-* [Experience Cloud 조직에 매핑](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)된 보고서 세트에서 작업 중인지 확인합니다.
+* 이 세그먼트를 저장할 보고서 세트를 [Experience Cloud에 사용](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/t-publish-audience-segment.html)할 수 있도록 합니다. 그렇게 하지 않으면 Experience Cloud에 게시할 수 없습니다.
+* [Experience Cloud 조직에 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)된 보고서 세트에서 작업 중인지 확인합니다.
 * 조직이 Experience Cloud ID를 사용하고 있는지 확인합니다.
-* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
+* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
 
 
 ## 고려 사항
 
 * **보고서 세트 제한**: 보고서 세트당 최대 75개의 세그먼트를 게시할 수 있습니다. 이 제한은 강제 적용됩니다. 이미 75개의 세그먼트를 게시한 경우 75개 임계값 아래가 되도록 세그먼트 게시를 취소해야 추가 세그먼트를 게시할 수 있습니다.
 * **멤버십 제한**: Analytics에서 [!DNL Experience Cloud]로 공유하는 대상은 2천만 명의 고유 구성원을 초과할 수 없습니다.
-* **데이터 개인 정보**: 대상은 방문자의 인증 상태에 따라 필터링되지 않습니다. 방문자가 인증되지 않음 및 인증됨 상태의 사이트를 검색할 수 있는 경우 방문자가 인증되지 않음 상태일 때 발생하는 작업 때문에 여전히 방문자가 대상에 포함될 수 있습니다. 대상을 공유할 때 파생되는 전반적인 개인 정보 문제를 이해하려면 [Adobe Experience Cloud 개인 정보 보호](https://www.adobe.com/privacy/experience-cloud.html)를 검토하십시오.
-* **[!DNL Adobe Analytics]와[!DNL Audience Manager]**에 있는 세그먼트 간의 차이에 대한 설명이 필요하면[여기](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)로 이동하십시오.
+* **데이터 개인 정보**: 대상은 방문자의 인증 상태에 따라 필터링되지 않습니다. 방문자가 인증되지 않음 및 인증됨 상태의 사이트를 검색할 수 있는 경우 방문자가 인증되지 않음 상태일 때 발생하는 작업 때문에 여전히 방문자가 대상에 포함될 수 있습니다. 대상을 공유할 때 파생되는 전반적인 개인 정보 문제를 이해하려면 [Adobe Experience Cloud 개인 정보 보호](https://www.adobe.com/kr/privacy/experience-cloud.html)를 검토하십시오.
+* **[!DNL Adobe Analytics]와[!DNL Audience Manager]**에 있는 세그먼트 간의 차이에 대한 설명이 필요하면[여기](https://docs.adobe.com/content/help/ko-KR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)로 이동하십시오.
 
 ## 세그먼트 게시 타임라인
 
@@ -68,7 +68,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 취소해야 합니다. 세그먼트 게시를 취소하려면 게시할 때 사용한 확인란을 **클릭하여 선택 취소**&#x200B;하면 됩니다.
 
-> [!NOTE] 현재 다음 Adobe 솔루션에서 사용 중인 세그먼트를 게시 취소&#x200B;**할 수 없습니다**. [!DNL Analytics]([!DNL Audience Analytics]에서), [!DNL Campaign], [!DNL Advertising Cloud]([!DNL Core Service] 및 [!DNL Audience Manager] 고객용) 및 기타 모든 외부 파트너([!DNL Audience Manager] 고객용). [!DNL Target]에서 사용 중인 세그먼트의 게시를 취소&#x200B;**할 수 있습니다**.
+>[!NOTE] 현재 다음 Adobe 솔루션에서 사용 중인 세그먼트를 게시 취소&#x200B;**할 수 없습니다**. [!DNL Analytics]([!DNL Audience Analytics]에서), [!DNL Campaign], [!DNL Advertising Cloud]([!DNL Core Service] 및 [!DNL Audience Manager] 고객용) 및 기타 모든 외부 파트너([!DNL Audience Manager] 고객용). [!DNL Target]에서 사용 중인 세그먼트의 게시를 취소&#x200B;**할 수 있습니다**.
 
 ## View segment publishing status in the [!UICONTROL Segment Manager]
 
@@ -88,7 +88,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 
 **방법 1: Adobe Experience Cloud 디버거 사용**
 
-1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)를 다운로드하여 설치합니다.
+1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/testing-and-validation/debugger.html)를 다운로드하여 설치합니다.
 1. 페이지를 로드할 때 디버거를 실행합니다.
 1. Audience Manager 섹션으로 스크롤하여 현재 브라우저 페이지에 설정된 AAM UUID를 찾습니다(아래 예에서 `50814298273775797762943354787774730612`).
 
@@ -97,7 +97,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 **방법 2: Chrome 개발자 도구 사용(또는 기타 브라우저 개발자 도구)**
 
 1. 페이지를 로드하기 전에 Chrome 개발자 도구를 실행합니다.
-1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. AAM UUID는 타사 Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html))에서 설정해야 합니다. 필드 demdex는 브라우저에 설정된 AAM UUID입니다(아래 예에서 `50814298273775797762943354787774730612`).
+1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. AAM UUID는 타사 Demdex 쿠키(아래 예에서 [adobe.demdex.net](https://marketing.adobe.com/resources/help/ko_KR/aam/demdex-calls.html))에서 설정해야 합니다. 필드 demdex는 브라우저에 설정된 AAM UUID입니다(아래 예에서 `50814298273775797762943354787774730612`).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
