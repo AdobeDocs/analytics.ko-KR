@@ -5,15 +5,15 @@ subtopic: Visitors
 title: 여러 장치에서 사용자 연결
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 여러 장치에서 사용자 연결
 
-> [!IMPORTANT] 장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. 구성 요소 사용 안내서의 [Cross-Device Analytics](/help/components/cda/cda-home.md)를 참조하십시오.
+>[!IMPORTANT] 장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. 구성 요소 사용 안내서의 [Cross-Device Analytics](/help/components/cda/cda-home.md)를 참조하십시오.
 
 상호 장치 방문자 식별은 여러 장치의 방문자들을 연결하는 데 도움이 됩니다. 교차 장치 방문자 식별에서는 `visitorID` 변수를 사용하여 여러 장치들에서 사용자를 연결합니다. `visitorID` 변수는 고유 방문자를 식별할 때 우선 순위가 가장 높습니다.
 
