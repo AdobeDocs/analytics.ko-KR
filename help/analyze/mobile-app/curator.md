@@ -1,8 +1,8 @@
 ---
 description: 모바일 앱 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 모바일 앱 큐레이터 안내서
-translation-type: ht
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+translation-type: tm+mt
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -188,7 +188,6 @@ Analytics에서 **도구** 메뉴를 클릭하고 **모바일 앱**&#x200B;을 �
    3. Testflight 앱을 설치한 후에 아래에 표시된 대로 Testflight 내에서 Adobe Analytics 모바일 앱을 찾아서 설치합니다.
 
       ![Testflight 화면](assets/testflight2.png)
-
    **Android를 사용하는 경영진 사용자:**
 
    1. 사용자의 장치에서 다음 Play 스토어 링크(**도구** > **모바일 앱** 아래에 있는 Analytics에서도 사용할 수 있음)를 탭합니다.
@@ -199,6 +198,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **모바일 앱**&#x200B;을 �
       ![Play 스토어 화면](assets/play.png)
 
    2. 다음 화면에서 **Google Play에서 다운로드** 링크를 탭합니다.
+
       ![다운로드 링크](assets/playnext.png)
 
    3. 앱을 다운로드하여 설치합니다.
