@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics의 전환 보고서
 description: Adobe Analytics에서 전환 보고서를 사용하는 방법 알아보기
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Google Analytics의 전자 상거래 보고서와 Adobe Analytics의 제품 보�
 
 다중 채널 단계 보고서는 고객 확보 보고서에서 제공하는 것 이상의 추가 마케팅 채널 데이터를 제공합니다. 이러한 보고서는 방문자가 사이트에 도달하는 방법 대신 방문자가 전환하는 방법에 중점을 둡니다.
 
-> [!NOTE]
+>[!NOTE]
 >
 > Adobe Analytics에서 다중 채널 보고서를 사용하려면 제품 변수 및 구매 이벤트를 수용하도록 마케팅 채널을 설정하고 구현을 사용자 지정해야 합니다. 이러한 기능이 보고서 세트에 대해 아직 구성되지 않은 경우 구현 컨설턴트와 함께 작업하는 것이 좋습니다.
 
