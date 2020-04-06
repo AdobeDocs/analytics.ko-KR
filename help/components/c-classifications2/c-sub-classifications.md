@@ -5,7 +5,7 @@ title: 하위 분류 정보
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
 
-> [!NOTE] 하위 분류는 분류의 분류를 만드는 기능을 의미합니다. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 분류 유형에 대한 자세한 내용은 [분류 계층](classification-hierarchies.md)을 참조하십시오.
+>[!NOTE] 하위 분류는 분류의 분류를 만드는 기능을 의미합니다. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 분류 유형에 대한 자세한 내용은 [분류 계층](classification-hierarchies.md)을 참조하십시오.
 
 예:
 
@@ -52,7 +52,7 @@ For more information about the data file, see [Classification Data Files](/help/
 
 다중 수준 분류에 대한 파일 템플릿이 더 복잡하지만 여러 수준 분류의 장점은 개별 수준을 개별 파일로 업로드할 수 있다는 것입니다. 이 방법을 사용하면 시간이 지남에 따라 변경되는 분류 수준과 변경되지 않는 분류 수준으로 데이터를 그룹화하여 주기적으로(일별, 주별 등) 업로드해야 하는 데이터의 양을 최소화할 수 있습니다.
 
-> [!NOTE] 데이터 파일의 [!UICONTROL Key] 열이 비어 있으면 Adobe는 각 데이터 행에 대해 고유한 키를 자동으로 생성합니다. 데이터 파일을 두 번째 수준 이상의 분류 데이터로 업로드할 때 파일이 손상되지 않게 하려면 [!UICONTROL Key] 열의 각 행을 별표(*)로 채웁니다.
+>[!NOTE] 데이터 파일의 [!UICONTROL Key] 열이 비어 있으면 Adobe는 각 데이터 행에 대해 고유한 키를 자동으로 생성합니다. 데이터 파일을 두 번째 수준 이상의 분류 데이터로 업로드할 때 파일이 손상되지 않게 하려면 [!UICONTROL Key] 열의 각 행을 별표(*)로 채웁니다.
 
 문제 해결 도움말은 [일반적인 분류 업로드 문제](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues)를 참조하십시오.
 
