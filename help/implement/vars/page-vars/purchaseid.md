@@ -1,8 +1,8 @@
 ---
 title: purchaseID
 description: 고유 구매 식별자를 기반으로 히트를 중복 제거합니다.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -29,4 +29,4 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 s.purchaseID = "ABC123";
 ```
 
-> [!NOTE] 구매 ID를 생성하는 데 무작위 지정 함수를 사용하지 마십시오. [데이터 계층](../../prepare/data-layer.md)을 사용하여 주어진 구매 ID를 저장하는 것이 좋습니다.
+>[!NOTE] 구매 ID를 생성하는 데 무작위 지정 함수를 사용하지 마십시오. [데이터 계층](../../prepare/data-layer.md)을 사용하여 주어진 구매 ID를 저장하는 것이 좋습니다.
