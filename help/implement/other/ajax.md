@@ -1,8 +1,8 @@
 ---
 title: AJAX를 사용하여 구현
 description: AJAX를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,13 +24,13 @@ AJAX를 사용하는 페이지는 일반적으로 다시 로드되지 않으므�
 * 답변이 **예**&#x200B;라면 페이지 보기 추적 호출(`s.t()`)을 사용하는 것이 좋습니다.
 * 대답이 **아니요**&#x200B;이면 링크 추적 호출(`s.tl()`)을 사용하여 해당 상호 작용을 추적하는 것이 좋습니다.
 
-> [!NOTE] 모든 상호 작용이나 클릭을 기록할 필요는 없습니다. 추적해야 할 가장 중요한 작업을 신중하게 고려하고 그에 따라 데이터를 Adobe로 보내십시오.
+>[!NOTE] 모든 상호 작용이나 클릭을 기록할 필요는 없습니다. 추적해야 할 가장 중요한 작업을 신중하게 고려하고 그에 따라 데이터를 Adobe로 보내십시오.
 
 ## 각 페이지에서 변수 지우기
 
 페이지가 다시 로드되지 않으므로 변수 값은 AJAX를 사용하여 페이지에서 지속됩니다. 따라서, 변수 값이 히트 간에 잘못 지속되지 않도록 지우려면 특별한 방법이 필요하므로 습니다. Adobe에서는 변수 값을 쉽게 지울 수 있는 [`clearVars`](../vars/functions/clearvars.md) 함수를 제공합니다. 각 히트를 Adobe에 보낸 후 다음 히트에 대한 변수 값을 설정하기 전에 이 함수를 사용해야 합니다.
 
-> [!TIP] `clearVars()` 함수는 H 코드에서는 사용할 수 없습니다. AppMeasurement로 업그레이드하지 않은 경우 각 Analytics 변수 값을 빈 문자열로 설정하십시오.
+>[!TIP] `clearVars()` 함수는 H 코드에서는 사용할 수 없습니다. AppMeasurement로 업그레이드하지 않은 경우 각 Analytics 변수 값을 빈 문자열로 설정하십시오.
 
 ## 예
 
