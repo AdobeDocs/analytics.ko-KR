@@ -1,17 +1,17 @@
 ---
 title: 기존 Adobe Experience Cloud Debugger
 description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, DTM 및 Launch용 태그를 검사합니다.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 기존 Adobe Experience Cloud Debugger
 
-> [!IMPORTANT] 이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
+>[!IMPORTANT] 이 디버깅 도구는 더 이상 유지 관리되지 않습니다. 대신 [Adobe Experience Cloud Debugger Chrome 확장 프로그램](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)을 사용하는 것이 좋습니다.
 
-[!UICONTROL 기존 디버거]는 대부분의 Adobe Experience Cloud 서비스용 태그를 검사합니다. 디버거를 사용하면 사이트의 지정된 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 유효성을 검사할 수 있습니다.
+The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. 디버거를 사용하면 사이트의 지정된 페이지에서 어떤 데이터가 Adobe에 전송되는지 볼 수 있습니다. 이 정보를 사용하여 조직의 구현 문제를 해결하거나 유효성을 검사할 수 있습니다.
 
 ## 기존 디버거 설치
 
@@ -68,7 +68,7 @@ Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL�
 
 사이트에서 원하는 페이지로 이동한 다음, 북마클릿을 클릭하십시오. Adobe에 전송된 데이터를 보여주는 팝업 창이 나타납니다.
 
-> [!NOTE] 특정 광고 차단 플러그인과 팝업 차단기가 디버거 창의 로드를 방해할 수 있습니다. 브라우저에서 차단된 팝업이 있는지 확인하고 팝업을 허용하여 디버거가 제대로 작동할 수 있도록 하십시오.
+>[!NOTE] 특정 광고 차단 플러그인과 팝업 차단기가 디버거 창의 로드를 방해할 수 있습니다. 브라우저에서 차단된 팝업이 있는지 확인하고 팝업을 허용하여 디버거가 제대로 작동할 수 있도록 하십시오.
 
 디버거에는 데이터 표시 방식을 사용자 지정하는 몇 가지 옵션이 있습니다. 이 옵션들은 데이터 수집에 영향을 주지 않습니다.
 
