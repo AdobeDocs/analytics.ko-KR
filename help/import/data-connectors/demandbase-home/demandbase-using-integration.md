@@ -2,8 +2,8 @@
 description: 통합이 배포되면 제공된 추가 기능을 사용할 수 있습니다.
 title: 통합 사용
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 통합이 배포되면 제공된 추가 기능을 사용할 수 있습니다.
 
-> [!NOTE] Adobe Analytics 보고 내에서 일부 Demandbase 데이터를 보려면 24-48시간이 걸릴 수 있습니다.
+>[!NOTE] Adobe Analytics 보고 내에서 일부 Demandbase 데이터를 보려면 24-48시간이 걸릴 수 있습니다.
 
 다음은 Adobe Analytics 내에서 이 통합으로 가치를 창출하는 데 사용할 수 있는 몇 가지 작업입니다.
 
