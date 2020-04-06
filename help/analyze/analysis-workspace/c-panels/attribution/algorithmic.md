@@ -2,14 +2,14 @@
 title: 알고리즘 속성
 description: Adobe Analytics의 알고리즘 속성 모델에 대한 자세한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 59ca7a8b6f067d62c4abea572c199fb95897d854
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 알고리즘 속성
 
-> [!NOTE] 알고리즘 속성은 현재 Adobe Analytics Labs를 통해서만 [제공됩니다](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). 이 기능은 결국 일반 릴리스의 일부가 됩니다.
+>[!NOTE] 알고리즘 속성은 현재 Adobe Analytics Labs를 통해서만 [제공됩니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/tech-previews/overview.html). 이 기능은 결국 일반 릴리스의 일부가 됩니다.
 
 분석 작업 공간의 알고리즘 [속성 모델은](attribution.md) 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 값에 크레딧을 할당한다는 점에서 다른 모델과 다릅니다. 분석 작업 공간의 다른 모든 기여도 모델과 마찬가지로, 차원 또는 지표에서 사용할 수 있으며 무제한 세그먼테이션 및 분류를 지원하고 테이블의 차원에 대한 변환 중 100%(&quot;분수&quot; 기여도)를 분배합니다.
 
@@ -20,4 +20,4 @@ source-git-commit: 59ca7a8b6f067d62c4abea572c199fb95897d854
 * Shapley, Lloyd S.(1953). 개인 게임에 대한 가치 *게임이론, 2(28)*, 307-317 공헌.
 * 하산이, 존 C.(1963). N-Person 협력 게임을 위한 간소화된 협상 모델 *International Economic Review 4(2)*, 194-220.
 
-> [!NOTE] 주어진 전환 창 내에 여러 터치포인트가 있을 때 알고리즘 속성의 결과는 다른 모델과 다릅니다. 단일 터치포인트를 통한 전환은 기여도 모델에 상관없이 100% 크레딧을 받습니다.
+>[!NOTE] 주어진 전환 창 내에 여러 터치포인트가 있을 때 알고리즘 속성의 결과는 다른 모델과 다릅니다. 단일 터치포인트를 통한 전환은 기여도 모델에 상관없이 100% 크레딧을 받습니다.
