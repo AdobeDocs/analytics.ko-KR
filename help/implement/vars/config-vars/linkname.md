@@ -2,33 +2,33 @@
 title: linkName
 description: 사용자 지정 링크 히트의 이름을 설정합니다.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkName
 
-다음 방법을 실행할 때 이 `linkName` [`tl()`](../functions/tl-method.md) 변수를 사용하여 사용자 지정 링크, 다운로드 링크 또는 종료 링크의 차원 값을 결정합니다.
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
-이 변수가 비어 있으면 AppMeasurement는 [`linkURL`](linkurl.md) 변수로 돌아갑니다.
+이 변수가 비어 있으면 AppMeasurement는 [`linkURL`](linkurl.md) 변수로 되돌아갑니다.
 
 ## Adobe Experience Platform Launch의 링크 이름
 
-비콘을 전송하도록 규칙을 구성할 때 링크 이름 필드를 설정할 수 있습니다.
+비콘을 전송하는 규칙을 구성할 때 링크 이름 필드를 설정할 수 있습니다.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다. [!UICONTROL Rules]
-4. 아래에서 [!UICONTROL Actions]&#39;+&#39; 아이콘을 클릭합니다.
-5. 드롭다운을 Adobe [!UICONTROL Extension] Analytics로 설정하고 비콘 전송으로 [!UICONTROL Action Type] 설정합니다.
-6. 필드를 표시하는 `s.tl()` 라디오 단추를 클릭합니다 [!UICONTROL Link Name] .
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
 
-## s.linkName in AppMeasurement 및 Launch 사용자 지정 코드 편집기
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkName
 
-이 `s.linkName` 변수는 사용자 지정 링크, 다운로드 링크 또는 종료 링크의 차원 값을 결정하는 [`s.linkType`](linktype.md) 문자열입니다. 최대 100바이트를 저장할 수 있습니다.
+`s.linkName` 변수는 사용자 지정 링크, 다운로드 링크 또는 종료 링크의 차원 값을 결정하는 문자열입니다([`s.linkType`](linktype.md) 값에 따라 다름). 최대 100바이트를 포함할 수 있습니다.
 
-> [!TIP] 이 변수는 `tl()` 메서드의 세 번째 매개 변수이며, 일반적으로 독립 실행형 변수로 설정할 필요가 없습니다. 하지만, `linkName` `tl()` 메서드에서 값을 인수로 설정하지 않으려면 변수를 사용할 수 있습니다.
+>[!TIP] 이 변수는 `tl()` 메서드의 세 번째 매개 변수이며, 일반적으로 독립 실행형 변수로 설정할 필요가 없습니다. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkName = "Example custom link";
@@ -36,7 +36,7 @@ s.linkName = "Example custom link";
 
 ## 예
 
-다음 두 가지 예제 링크 추적 호출은 기능적으로 동일합니다. 동일한 링크 추적 히트를 수행하는 방법은 다릅니다.
+다음 두 가지 링크 추적 호출 예는 기능적으로 동일하지만, 동일한 링크 추적 히트를 수행하는 방법은 다릅니다.
 
 ```js
 // Set link tracking arguments as individual variables
