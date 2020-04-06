@@ -2,7 +2,7 @@
 title: eVar
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다.
 
-> [!TIP] 대부분의 경우 prop보다 eVar를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
+>[!TIP] 대부분의 경우 prop보다 eVar를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
 
 [솔루션 디자인 문서](../../prepare/solution-design.md)에 각 eVar의 사용 방법과 해당 논리를 반드시 기록하십시오.
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 소수점 이하 자리 수가 세 자리 이상인 수가 지정되는 경우, eVar 카운터는 소수점 이하 두 자리로 반올림합니다. eVar 카운터에는 음수가 들어 있을 수 없습니다.
 
-> [!IMPORTANT] 먼저 카운터 eVar를 사용하기 전에 관리 콘솔에서 &#39;카운터&#39;에 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+>[!IMPORTANT] 먼저 카운터 eVar를 사용하기 전에 관리 콘솔에서 &#39;카운터&#39;에 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
 ## Prop 또는 eVar에 대한 고급 이점
 
