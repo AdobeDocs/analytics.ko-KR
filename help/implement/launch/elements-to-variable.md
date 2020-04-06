@@ -2,7 +2,7 @@
 title: Analytics 변수에 론치 데이터 요소 매핑
 description: 분석 작업 공간에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Platform Launch에 데이터 요소 저장소가 있으면 Anal
 
 ### 규칙에서 변수 설정
 
-규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. See [Rules](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
 1. 원하는 론치 속성을 클릭합니다.
@@ -43,7 +43,7 @@ Adobe Experience Platform Launch에 데이터 요소 저장소가 있으면 Anal
 1. 모달 창에서 원하는 데이터 요소를 선택합니다. 클릭 [!UICONTROL Select].
 1. 데이터 요소 이름이 `%` 기호로 둘러싸인 텍스트 필드에 추가됩니다. 예를 들어 데이터 요소의 이름을 &quot;페이지 이름&quot;으로 지정한 경우 데이터 요소를 변수에 할당할 `%Page name%` 때 문자열이 표시됩니다.
 
-> [!TIP] 동일한 변수에 데이터 요소를 연결할 수 있습니다. 예를 들어 &quot;호스트 이름&quot; 데이터 요소와 &quot;경로 이름&quot; 데이터 요소가 있는 경우 를 사용하여 두 요소를 하나의 변수에 결합할 수 `%Hostname%%Pathname%`있습니다.
+>[!TIP] 동일한 변수에 데이터 요소를 연결할 수 있습니다. 예를 들어 &quot;호스트 이름&quot; 데이터 요소와 &quot;경로 이름&quot; 데이터 요소가 있는 경우 를 사용하여 두 요소를 하나의 변수에 결합할 수 `%Hostname%%Pathname%`있습니다.
 
 ## 다음 단계
 
