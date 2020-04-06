@@ -1,8 +1,8 @@
 ---
 title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 지정 변수입니다.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 [솔루션 디자인 문서](../../prepare/solution-design.md)에 각 목록 변수의 사용 방법과 해당 논리를 반드시 기록하십시오.
 
-> [!NOTE] 목록 변수는 방문자당 가장 최근 250개의 값을 저장합니다. 주어진 방문자에 대해 250개가 넘는 고유값이 있는 경우 가장 오래된 값이 지표에 귀속되지 않습니다.
+>[!NOTE] 목록 변수는 방문자당 가장 최근 250개의 값을 저장합니다. 주어진 방문자에 대해 250개가 넘는 고유값이 있는 경우 가장 오래된 값이 지표에 귀속되지 않습니다.
 
 ## 보고서 세트 설정에서 목록 변수 설정
 
@@ -32,7 +32,7 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
-> [!TIP] 동일한 히트에서 중복 값을 설정하면 Adobe에서는 해당 값의 모든 인스턴스를 중복 제거합니다. 예를 들어, `s.list1 = "Example,Example";`을 설정하면 보고서에서는 하나의 인스턴스가 계산됩니다.
+>[!TIP] 동일한 히트에서 중복 값을 설정하면 Adobe에서는 해당 값의 모든 인스턴스를 중복 제거합니다. 예를 들어, `s.list1 = "Example,Example";`을 설정하면 보고서에서는 하나의 인스턴스가 계산됩니다.
 
 ## 목록 prop과 목록 변수 비교
 
