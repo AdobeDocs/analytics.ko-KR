@@ -2,14 +2,14 @@
 title: Cross-Device Analytics FAQ
 description: Cross-Device Analytics에 대한 FAQ
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # FAQ
 
-> [!NOTE] Cross-Device Analytics 설명서는 기능이 추가로 개발되면 변경될 수 있습니다. 정기적으로 업데이트를 확인하십시오.
+>[!NOTE] Cross-Device Analytics 설명서는 기능이 추가로 개발되면 변경될 수 있습니다. 정기적으로 업데이트를 확인하십시오.
 
 **사람들이 한 장치 유형에서 다른 장치 유형으로 이동하는 방법을 CDA으로 어떻게 확인할 수 있습니까?**
 
