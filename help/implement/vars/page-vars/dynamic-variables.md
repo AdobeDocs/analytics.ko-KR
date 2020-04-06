@@ -1,8 +1,8 @@
 ---
 title: 다이내믹 변수
 description: 이미지 요청 길이를 늘리지 않고 변수를 복사합니다.
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문자열 또는 HTTP 헤더 값을 자동으로 복사합니다. 이 작업은 처리 규칙 및 VISTA 규칙을 포함한 다른 처리 전에 수행됩니다.
 
-> [!TIP] 변수를 복사할 때에는 최대 문자 제한을 고려해야 합니다. 예를 들어 `eVar1`을 `prop1`에 복사하는 경우 `prop1`은 100바이트 제한이 있으므로 값이 잘릴 수 있습니다(반면에 `eVar1`에는 255바이트 제한이 있음).
+>[!TIP] 변수를 복사할 때에는 최대 문자 제한을 고려해야 합니다. 예를 들어 `eVar1`을 `prop1`에 복사하는 경우 `prop1`은 100바이트 제한이 있으므로 값이 잘릴 수 있습니다(반면에 `eVar1`에는 255바이트 제한이 있음).
 
 ## Adobe Experience Platform Launch의 동적 변수
 
@@ -25,9 +25,9 @@ Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문�
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. 아래에서 [!UICONTROL Actions]기존 [!UICONTROL Adobe Analytics - Set Variables] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
+5. 드롭다운을 [!UICONTROL Extension] Adobe Analytics로 설정하고 [!UICONTROL Action Type] 을 [!UICONTROL Set Variables]설정합니다.
 6. 원하는 차원 값을 찾습니다.
 
 텍스트 필드에 동적 변수 접두사를 배치하고 참조할 쿼리 문자열 매개 변수나 HTTP 헤더를 추가합니다. 기본적으로 동적 변수 접두사는 `D=`입니다.
@@ -48,4 +48,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] 동적 변수는 구현을 디버깅할 때 문자열로 나타납니다. 값은 Adobe 데이터 수집 서버에 의해 서버측에서 복사됩니다.
+>[!NOTE] 동적 변수는 구현을 디버깅할 때 문자열로 나타납니다. 값은 Adobe 데이터 수집 서버에 의해 서버측에서 복사됩니다.
