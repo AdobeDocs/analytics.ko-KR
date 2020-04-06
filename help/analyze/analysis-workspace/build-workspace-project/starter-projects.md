@@ -3,7 +3,7 @@ description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 이러한 사전 채워진 템플릿을 그대로 사용하거나 필요에 따라 변경(예: 지표 또는 시각화 추가 또는 교체)하고 새 이름으로 저장할 수 있습니다.
 
-[Analysis Workspace 표준 템플릿 - YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6)(2:46)
+[Analysis Workspace 표준 템플릿 - YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
 
 다음은 각 템플릿을 사용하여 해결할 수 있는 템플릿과 질문입니다.
 
@@ -106,7 +106,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 ### 사람
 
-> [!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)의 일부로서만 사용할 수 있습니다.
+>[!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ko_KR/mcdc/mcdc-people.html)의 일부로서만 사용할 수 있습니다.
 
 이 템플릿은 고유 방문자 수 지표의 중복 제거 버전인 사람 지표를 기반으로 합니다. 사람 지표는 여러 장치를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. 템플릿을 사용하면
 
@@ -122,7 +122,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-이 템플릿을 사용하면 중요한 크로스 디바이스 성능 데이터를 볼 수 있습니다. CDA(Cross-Device Analytics) [에 액세스할 수 있는 고객에게만](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) 제공됩니다.
+이 템플릿을 사용하면 중요한 크로스 디바이스 성능 데이터를 볼 수 있습니다. CDA(Cross-Device Analytics) [에 액세스할 수 있는 고객에게만](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html) 제공됩니다.
 
 * **Co-op 그래프 구성원에 대한 특수 참고**:Co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
 * **사용자**&#x200B;식별:크로스 장치 분석을 기반으로 한 방법을 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
