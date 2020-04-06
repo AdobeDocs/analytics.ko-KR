@@ -1,8 +1,8 @@
 ---
 title: 하드코딩된 이미지 요청으로 구현
 description: HTML 이미지 태그를 사용하여 Adobe Analytics를 구현합니다(하드코드된 이미지 요청)
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Adobe에서 제공하는 AppMeasurement 라이브러리는 페이지에 있는 �
 
 이 구현 방법은 외부 소스의 이미지를 표시하는 모든 플랫폼에서 사용할 수 있습니다. JavaScript은 전혀 사용하지 않습니다.
 
-> [!NOTE] 하드코딩된 이미지 요청은 설정하기 쉽지만 대규모 프로젝트에서 디버그, 유지 관리 및 확장을 수행하기는 어렵습니다. 계속하기 전에 하드코딩된 이미지 요청이 가장 적합한 옵션인지 확인하십시오.
+>[!NOTE] 하드코딩된 이미지 요청은 설정하기 쉽지만 대규모 프로젝트에서 디버그, 유지 관리 및 확장을 수행하기는 어렵습니다. 계속하기 전에 하드코딩된 이미지 요청이 가장 적합한 옵션인지 확인하십시오.
 
 ## 이미지 요청 구문
 
