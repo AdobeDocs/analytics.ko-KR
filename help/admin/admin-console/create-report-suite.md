@@ -2,7 +2,7 @@
 title: 보고서 세트 만들기
 description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이너를 만듭니다.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ## 보고서 세트 만들기
 
-> [!NOTE] 이전 관리자를 사용하여 Adobe Analytics에서 보고서 세트를 만드는 방법도 있습니다. 여기에 요약된 보고서 세트 설정 마법사를 사용하는 것이 좋습니다.
+>[!NOTE] 이전 관리자를 사용하여 Adobe Analytics에서 보고서 세트를 만드는 방법도 있습니다. 여기에 요약된 보고서 세트 설정 마법사를 사용하는 것이 좋습니다.
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
