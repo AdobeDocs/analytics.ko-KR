@@ -2,8 +2,8 @@
 description: 이 통합 배포는 다음 작업이 필요한 간단한 프로세스입니다.
 title: 통합 배포
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -65,15 +65,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    1. 표준 차원 8개의 이름(즉, Demandbase SID, 회사 이름, 업종 등)은 **수정하지 마십시오**.
 
 1. Demandbase 통합 대시보드를 자동으로 만들려면 이 확인란을 선택합니다(권장).
-1. 모든 구성 항목을 검토하고 **[!UICONTROL 지금 활성화]**&#x200B;를 클릭합니다.
+1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## 통합 코드 배포{#deploying-the-integration-code}
 
 통합 마법사를 완료한 후 통합 코드를 Adobe Analytics 배포 코드(s_code)에 배포해야 합니다.
 
-> [!NOTE] Adobe TagManager 또는 Dynamic Tag Management를 사용하여 Adobe Analytics를 배포하는 경우 이러한 도구 중 하나를 사용하여 통합 코드를 쉽게 추가할 수 있습니다.
+>[!NOTE] Adobe TagManager 또는 Dynamic Tag Management를 사용하여 Adobe Analytics를 배포하는 경우 이러한 도구 중 하나를 사용하여 통합 코드를 쉽게 추가할 수 있습니다.
 
-1. **[!UICONTROL 지원]** 탭으로 이동하여 통합의 리소스 영역에서 `integration code v2_0_1` 리소스를 다운로드하고 저장합니다.
+1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
 
 1. 해당되는 경우 코드를 필요한 대로 수정해야 합니다. 자세한 내용은 통합 코드 수정(이 페이지)을 참조하십시오.
 1. 통합 모듈이 Adobe Analytics 배포 코드에 아직 없는 경우 통합 모듈을 포함하십시오.
@@ -155,7 +155,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### AppMeasurement v1.0+의 경우 {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL CodeManager]**&#x200B;에서 다운로드한 AppMeasurement zip 파일의 압축을 해제합니다.
+1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
 1. 이름이 [!DNL AppMeasurement_Module_Integrate.js]인 파일을 엽니다.
 1. 이 파일의 내용을 복사하여 기본 [!DNL AppMeasurement.js] 파일에 붙여넣습니다.
@@ -198,7 +198,7 @@ Adobe 통합 마법사(7단계)에서 자동으로 생성된 대시보드를 사
 
 또는 Adobe Analytics 메뉴 구조 내에서 Demandbase 보고로 이동할 수 있습니다. 아래 스크린샷을 참조하십시오.
 
-> [!NOTE] 이 데이터는 성공적으로 배포한 후 24-48시간 이내에 표시됩니다.
+>[!NOTE] 이 데이터는 성공적으로 배포한 후 24-48시간 이내에 표시됩니다.
 
 ![](assets/reporting1.png)
 
