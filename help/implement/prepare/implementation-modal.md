@@ -1,8 +1,8 @@
 ---
 title: 구현 모달
 description: Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알아보십시오.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,13 +25,13 @@ Adobe ID는 Adobe Analytics와 Adobe Experience Platform Launch 모두에 액세
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 2. 맨 위에 있는 9격자 아이콘을 클릭한 다음 [!UICONTROL Adobe Analytics]를 클릭합니다.
-3. 보고서 세트를 아직 만들지 않은 경우 모달이 자동으로 나타납니다. 이 로그인 회사에 대한 보고서 세트가 있는 경우 오른쪽 상단의 도움말 아이콘을 클릭한 후 [!UICONTROL Adobe Analytics에 오신 것을 환영합니다]를 클릭합니다.
+3. 보고서 세트를 아직 만들지 않은 경우 모달이 자동으로 나타납니다. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] [!UICONTROL Adobe Analytics에 오신 것을 환영합니다] 옵션은 Adobe Experience Cloud를 통해 로그인하는 경우에만 나타납니다. 기존 도메인을 통해 로그인하는 경우에는 모달을 사용할 수 없습니다.
+>[!NOTE] 이 [!UICONTROL Welcome to Adobe Analytics] 옵션은 Adobe Experience Cloud를 통해 로그인한 경우에만 나타납니다. 기존 도메인을 통해 로그인하는 경우에는 모달을 사용할 수 없습니다.
 
 ## 보고서 세트 만들기
 
-보고서 세트 생성 워크플로우를 시작하려면 [!UICONTROL 설치 시작] 단추를 클릭하십시오.
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
 ![RS 마법사](assets/analytics-implementation-rs-wizard.png)
 
@@ -67,7 +67,7 @@ Adobe에서 보고서 세트에 대한 올바른 시간대를 감지했는지 �
 
 보고서 세트에서 통화 값을 저장하는 데 사용하는 통화를 결정합니다.
 
-> [!IMPORTANT] 매출에 대한 보고 요구 사항이 있는 경우 특히 올바른 통화를 명시해야 합니다. 데이터 수집이 시작된 후에는 기본 통화를 변경하기가 어렵습니다.
+>[!IMPORTANT] 매출에 대한 보고 요구 사항이 있는 경우 특히 올바른 통화를 명시해야 합니다. 데이터 수집이 시작된 후에는 기본 통화를 변경하기가 어렵습니다.
 
 ## 구현 리소스
 
