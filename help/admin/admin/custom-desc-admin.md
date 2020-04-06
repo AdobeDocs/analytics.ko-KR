@@ -1,34 +1,34 @@
 ---
-description: eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
+description: eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 제공할 수 있습니다. 설명은 모든 최종 사용자가 볼 수 있습니다.
 title: 사용자 지정 보고서 설명
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 사용자 지정 보고서 설명
 
-eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
+eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 제공할 수 있습니다. 설명은 모든 최종 사용자가 볼 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL *변수&#x200B;*]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *변수&#x200B;*]**
 
-> [!NOTE] 대부분의 기존 분류에 대해 설명을 추가할 수 있지만, 현재는 모바일 분류에 대해 추가할 수 없습니다.
+>[!NOTE] 대부분의 기존 분류에 대해 설명을 추가할 수 있지만, 현재는 모바일 분류에 대해 추가할 수 없습니다.
 
 ![](assets/report_descriptions.png)
 
-1. 보고서 설명을 입력합니다. 최대 문자 수는 255개입니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. 보고서에 대한 설명을 제공합니다. 최대 문자 수는 255자입니다.
+1. 클릭 **[!UICONTROL Save]**.
 
-설명은 두 곳에 표시됩니다.
+설명은 다음 두 위치에서 볼 수 있습니다.
 
-* 해당 보고서의 제목 표시줄에:
+* 해당 보고서의 제목 표시줄에서:
 
    ![](assets/report_description_2.png)
 
-* 왼쪽 탐색 창에서 마우스로 보고서를 가리키면 툴팁으로:
+* 왼쪽 탐색 창에서 보고서 위로 마우스를 가져가면 도구 팁으로 표시됩니다.
 
    ![](assets/report_description_3.png)
 
