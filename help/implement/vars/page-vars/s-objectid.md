@@ -1,8 +1,8 @@
 ---
 title: s_objectID
 description: Activity Map은 사이트에서 고유 링크를 식별하는 데 도움이 됩니다.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-> [!NOTE] 항상 JavaScript 문을 완료하는 세미콜론을 포함하십시오. Activity Map이 기능하려면 세미콜론이 필요합니다.
+>[!NOTE] 항상 JavaScript 문을 완료하는 세미콜론을 포함하십시오. Activity Map이 기능하려면 세미콜론이 필요합니다.
 
 ## 사용 사례
 
