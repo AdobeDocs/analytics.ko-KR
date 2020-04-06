@@ -3,8 +3,8 @@ description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 �
 title: 순차적 세그먼트 작성
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 시퀀스 이전에만 및 시퀀스 이후에만 {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-**[!UICONTROL 시퀀스 이전에만]** 및 **[!UICONTROL 시퀀스 이후에만]** 옵션은 지정된 시퀀스의 전 또는 후에 세그먼트를 데이터 하위 집합으로 필터링합니다.
+이 옵션을 **[!UICONTROL Only Before Sequence]** 사용하여 세그먼트를 지정된 시퀀스 전 또는 후 데이터의 하위 집합으로 **[!UICONTROL Only After Sequence]** 필터링합니다.
 
 * **시퀀스 이전에만**: 시퀀스 전의 모든 히트 수 + 시퀀스 자체의 첫 번째 히트를 포함합니다(예 1, 3 참조). 시퀀스가 경로에 여러 번 나타나면 &quot;시퀀스 이전에만&quot;은 시퀀스가 마지막으로 발생했을 때의 첫 번째 히트와 그 전에 오는 모든 히트를 포함합니다(예 2 참조).
 * **시퀀스 이후에만**: 시퀀스 후의 모든 히트 수 + 시퀀스 자체의 마지막 히트를 포함합니다(예 1, 3 참조). 시퀀스가 경로에 여러 번 나타나면 &quot;시퀀스 이후에만&quot;은 시퀀스가 처음 발생했을 때의 마지막 히트와 그 다음에 오는 모든 히트를 포함합니다(예 2 참조).
@@ -87,7 +87,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **이 세그먼트 만들기**
 
-최상위 [!UICONTROL 방문자] 컨테이너 내에 2개의 페이지 규칙을 중첩하고 [!UICONTROL THEN] 연산자를 사용하여 페이지 히트의 순서를 지정합니다.
+You nest two page rules within a top-level [!UICONTROL Visitor] container and sequence the page hits using the [!UICONTROL THEN] operator.
 
 ![](assets/segment_sequential_1.png)
 
@@ -106,7 +106,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **이 세그먼트 만들기**
 
-이 예제에서는 2개의 **[!UICONTROL 방문]** 컨테이너를 최상위 **[!UICONTROL 방문자]** 컨테이너에 중첩한 다음 [!UICONTROL THEN] 연산자를 사용하여 세그먼트 시퀀스를 지정합니다.
+This example nests two **[!UICONTROL Visit]** containers within the top-level **[!UICONTROL Visitor]** container and sequences the segment using the [!UICONTROL THEN] operator.
 
 ![](assets/visitor_seq_across_visits.png)
 
@@ -125,15 +125,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **이 세그먼트 만들기**
 
-1. 왼쪽 창에서 2개의 페이지 차원을 최상위 [!UICONTROL 방문자] 컨테이너 내에 놓습니다.
+1. Drop two Page dimensions from the left panes within a top-level [!UICONTROL Visitor] container.
 1. 사이에 THEN 연산자를 추가합니다.
-1. **[!UICONTROL 옵션]** > **[!UICONTROL 컨테이너 추가]**&#x200B;를 클릭하고 [!UICONTROL 방문] 컨테이너를 [!UICONTROL 방문자] 수준 아래에 추가한 다음 [!UICONTROL THEN] 연산자를 사용하여 시퀀스를 적용합니다.
+1. > **[!UICONTROL Options]** 를 클릭하고 **[!UICONTROL Add container]** 연산자를 사용하여 [!UICONTROL Visit] 레벨 아래에 [!UICONTROL Visitor] 컨테이너를 추가하고 순서를 지정합니다 [!UICONTROL THEN] .
 
 ![](assets/mixed_level_checkpoints.png)
 
 ## 컨테이너 합계
 
-[!UICONTROL 방문자] 컨테이너 내에 여러 개의 [!UICONTROL 히트] 컨테이너를 추가하면 같은 유형의 컨테이너 사이에 적절한 연산자를 적용하고, 페이지 및 방문 횟수와 같은 규칙과 차원을 이용하여 페이지 보기를 정의하며, [!UICONTROL 히트] 컨테이너 내에 시퀀스 차원을 제공할 수 있습니다. 히트 수준에서 논리를 적용하면 [!UICONTROL 방문자] 컨테이너 내에 있는 동일 수준의 히트에서 일치 항목을 조합하여 다양한 세그먼트 유형을 만들 수 있습니다.
+Adding multiple [!UICONTROL Hit] containers within a [!UICONTROL Visitor] container lets you employ the appropriate operators between the same type of containers, and to use rules and dimensions such as Page and Visit Number to define the page view and provide a sequence dimension within the [!UICONTROL Hit] container. Applying logic at the Hit-level lets you constrain and combine matches at a same-level of hits within the [!UICONTROL Visitor] container to build a variety of segment types.
 
 **예**: 방문자는 페이지 보기 시퀀스(예제의 페이지 D)에서 첫 번째 히트 후에 페이지 A를 방문한 다음, 방문 수에 관계없이 페이지 B나 페이지 C를 방문했습니다.
 
@@ -146,41 +146,41 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **이 세그먼트 만들기**
 
-1. 최상위 컨테이너로 [!UICONTROL 방문자] 컨테이너를 선택합니다.
-1. 다음 2개의 [!UICONTROL 히트] 수준 컨테이너(같은 [!UICONTROL 히트] 수준에서 [!UICONTROL AND] 및 [!UICONTROL OR] 연산자로 적절한 수치 차원과 연결된 차원)를 추가합니다.
-1. [!UICONTROL 방문] 컨테이너 내에 다른 [!UICONTROL 히트] 컨테이너를 추가하고 [!UICONTROL OR] 또는 [!UICONTROL AND] 연산자로 연결된 2개의 추가 [!UICONTROL 히트] 컨테이너를 중첩합니다.
+1. Select the [!UICONTROL Visitor] container as the top-level container.
+1. Add two [!UICONTROL Hit]-level containers—a dimension with an appropriate numerical dimension joined at the same [!UICONTROL Hit] level by the [!UICONTROL AND] and [!UICONTROL OR] operator.
+1. Within the [!UICONTROL Visit] container, add another [!UICONTROL Hit] container and nest two additional [!UICONTROL Hit] containers joined with an [!UICONTROL OR] or [!UICONTROL AND] operator.
 
-   [!UICONTROL THEN] 연산자로 이러한 중첩 [!UICONTROL 히트] 컨테이너의 시퀀스를 지정합니다.
+   Sequence these nested [!UICONTROL Hit] containers with the [!UICONTROL THEN] operator.
 
 ![](assets/aggregate_checkpoints2.png)
 
 ## 순차적 세그먼트에 &quot;중첩&quot;
 
-[!UICONTROL 방문]과 [!UICONTROL 히트] 수준 모두에 체크포인트를 배치함으로써 세그먼트가 특정 방문 및 특정 히트 내에 요구 사항을 충족하도록 제한할 수 있습니다. 
+By placing checkpoints at both the [!UICONTROL Visit] and [!UICONTROL Hit] level, you can constrain the segment to meet requirements within a specific visit as well as a specific hit.
 
 **예**: 방문자는 같은 방문에서 페이지 A를 방문하고 페이지 B를 방문했습니다. 새로운 방문에서는 방문자가 페이지 C로 이동했습니다.
 
 **이 세그먼트 만들기**
 
-1. 최상위 [!UICONTROL 방문] 컨테이너 아래로 2개의 페이지 차원을 드래그합니다.
-1. 두 규칙을 한꺼번에 선택하고 **[!UICONTROL 옵션]** > **[!UICONTROL 선택에서 컨테이너 추가]**&#x200B;를 클릭한 다음 [!UICONTROL 방문] 컨테이너로 변경합니다.
+1. Underneath a top-level [!UICONTROL Visit] container, drag in two page dimensions.
+1. 두 규칙을 모두 여러 번 선택하고 **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]** 을 클릭한 다음 [!UICONTROL Visit] 컨테이너로 변경합니다.
 1. [!UICONTROL THEN] 연산자로 두 차원을 연결합니다.
-1. [!UICONTROL 방문] 컨테이너의 피어로 히트 컨테이너를 만들고 페이지 차원으로 드래그합니다.
-1. 또 하나의 [!UICONTROL THEN] 연산자를 사용하여 [!UICONTROL 방문] 컨테이너의 중첩된 시퀀스를 [!UICONTROL 히트] 컨테이너와 연결합니다.
+1. Create a Hit container as a peer to the [!UICONTROL Visit] container and drag in a page dimension.
+1. Join the nested sequence in the [!UICONTROL Visit] container with the [!UICONTROL Hit] container using another [!UICONTROL THEN] operator.
 
 ![](assets/nesting_sequential_seg.png)
 
 ## 히트 제외
 
-[!UICONTROL Exclude] 규칙을 사용하여 [!UICONTROL 방문자], [!UICONTROL 방문] 또는 [!UICONTROL 히트] 데이터를 구체적으로 제외하지 않는 한 세그먼트 규칙은 모든 데이터를 포함합니다. 이를 통해 일반 데이터를 무시하고 더욱 집중적인 세그먼트를 만들 수 있습니다. 또는 검색된 그룹을 제외하는 세그먼트를 만들어서 주문을 한 성공적인 방문자를 포함시킨 다음 다시 제외시켜서 비구매자를 가려내는 것과 같이 남은 데이터 세트를 파악할 수 있습니다. 하지만 대부분의 경우 Exclude 규칙을 사용해서 특정한 포함 값을 목표로 하는 것보다 광범위한 값을 [!UICONTROL 제외]시키는 규칙을 만드는 것이 더 좋습니다.
+Segment rules include all data unless you specifically exclude [!UICONTROL Visitor], [!UICONTROL Visit], or [!UICONTROL Hit] data using the [!UICONTROL Exclude] rule. 이를 통해 일반 데이터를 무시하고 더욱 집중적인 세그먼트를 만들 수 있습니다. 또는 검색된 그룹을 제외하는 세그먼트를 만들어서 주문을 한 성공적인 방문자를 포함시킨 다음 다시 제외시켜서 비구매자를 가려내는 것과 같이 남은 데이터 세트를 파악할 수 있습니다. 하지만 대부분의 경우 규칙을 사용해서 특정한 포함 값을 목표로 하는 것보다 광범위한 값을 [!UICONTROL Exclude]제외시키는 규칙을 만드는 것이 더 좋습니다.
 
 예:
 
 * **페이지 제외**. 세그먼트 규칙을 사용하여 특정 페이지(예: *`Home Page`*)를 보고서에서 제외하고, 페이지가 &quot;홈 페이지&quot;와 같은 히트 규칙을 만든 다음 제외시킵니다. 이 규칙은 자동으로 홈 페이지를 제외한 모든 값을 포함합니다.
 * **참조 도메인 제외**. Google.com의 참조 도메인만 포함하고 나머지는 모두 제외하는 규칙을 사용합니다.
-* **비구매자 파악**. 주문이 0보다 큰 경우를 파악하고 해당 [!UICONTROL 방문자]를 제외합니다.
+* **비구매자 파악**. Identify when orders are greater than zero and then exclude the [!UICONTROL Visitor].
 
-[!UICONTROL 제외] 연산자를 사용하여 방문자가 특정 방문 또는 히트를 수행하지 않는 시퀀스를 식별할 수 있습니다. [!UICONTROL 제외 체크포인트]는 또한  [논리 그룹](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)에 포함될 수도 있습니다.
+The [!UICONTROL Exclude] operator can be employed to identify a sequence where specific visits or hits are not performed by the visitor. [!UICONTROL Exclude Checkpoints] 논리 그룹 내에 포함할 수도 [있습니다](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### 체크포인트 간 제외 
 
@@ -197,7 +197,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **이 세그먼트 만들기**
 
-단순한 세그먼트나 혼합 수준 세그먼트 또는 중첩된 순차적 세그먼트에 대해 만드는 것처럼 세그먼트를 만든 다음 컨테이너 요소에 대해 [!UICONTROL EXCLUDE] 연산자를 설정하십시오. 아래 예는 집계 세그먼트로서, 여기에서는 3개의 [!UICONTROL 히트] 컨테이너를 캔버스로 드래그하고 [!UICONTROL THEN] 연산자를 지정하여 컨테이너 논리를 연결한 다음 중간 페이지 보기 컨테이너를 제외함으로써, 시퀀스에서 페이지 A로부터 페이지 C로 이동한 방문자만 포함하게 됩니다.
+단순한 세그먼트나 혼합 수준 세그먼트 또는 중첩된 순차적 세그먼트에 대해 만드는 것처럼 세그먼트를 만든 다음 컨테이너 요소에 대해 [!UICONTROL EXCLUDE] 연산자를 설정하십시오. The example below is an aggregate segment where the three [!UICONTROL Hit] containers are dragged to the canvas, the [!UICONTROL THEN] operator assigned to join the container logic, then exclude the middle page view container to include only visitors that went from page A to Page C in the sequence.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -235,21 +235,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **이 세그먼트 만들기**
 
-단순 시퀀스 세그먼트를 만듭니다. 2개의 [!UICONTROL 히트] 컨테이너를 캔버스로 드래그하고 [!UICONTROL THEN] 연산자를 사용하여 연결함으로써 작성할 수 있습니다. 그런 다음 [!UICONTROL EXCLUDE] 연산자를 시퀀스의 두 번째 [!UICONTROL 히트] 컨테이너에 할당합니다. 
+Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to the canvas and connecting them using the [!UICONTROL THEN] operator. Then assign the [!UICONTROL EXCLUDE] operator to the second [!UICONTROL Hit] container in the sequence.
 
 ![](assets/exclude_end_sequence.png)
 
 ## 논리 그룹 컨테이너 
 
 논리 그룹 컨테이너는 조건을 하나의 순차적 세그먼트 체크포인트로 그룹화하는 데 필수입니다. 이 특별한 논리 그룹 컨테이너는 이전의 순차적 체크포인트 후와 다음에 오는 순차적 체크포인트 전에 해당 조건을 충족하기 위해 순차적 세그먼테이션에서만 사용할 수 있습니다. 논리 그룹 체크포인트 자체 내의 조건은 임의의 순서로 충족될 수 있습니다. 그와 대조적으로, 비순차적 컨테이너(히트, 방문, 방문자)는 전체 시퀀스 내에서 조건을 충족할 필요가 없으므로 THEN 연산자와 함께 사용할 경우 직관적이지 않은 결과가 나옵니다.
-[!UICONTROL 논리 그룹] 컨테이너는 그룹화된 체크포인트 간에 *순서 없이* *몇 개의 체크포인트를 그룹으로* 처리하도록 디자인되었습니다. 다시 말해, 해당 그룹 내의 체크포인트 순서에 대해서는 신경 쓸 필요가 없습니다. 예를 들어 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 중첩할 수 없습니다. 대신 [!UICONTROL 논리 그룹] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 특정 [!UICONTROL 방문] 수준 및 [!UICONTROL 히트] 수준 체크포인트와 함께 중첩할 수 있습니다.
+The [!UICONTROL Logic Group] container was designed to treat *several checkpoints as a group*, *without any ordering* among the grouped checkpoints. 다시 말해, 해당 그룹 내의 체크포인트 순서에 대해서는 신경 쓸 필요가 없습니다. For example, you can&#39;t nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
-> [!NOTE] [!UICONTROL 논리 그룹]은 순차적 세그먼트에서만 정의할 수 있으며 이는 [!UICONTROL THEN] 연산자가 표현식에서 사용됨을 의미합니다.
+>[!NOTE] 순차적 세그먼트에서만 A를 정의할 [!UICONTROL Logic Group] 수 있습니다. 즉, [!UICONTROL THEN] 연산자는 표현식 내에서 사용됩니다.
 
 | 컨테이너 계층 | 그림 | 정의 |
 |---|---|---|
-| 표준 컨테이너 계층 | ![](assets/nesting_container.png) | [!UICONTROL 방문자] 컨테이너 내에서 [!UICONTROL 방문] 및 [!UICONTROL 히트] 컨테이너는 히트, 방문 횟수, 방문자를 기준으로 세그먼트를 추출하도록 시퀀스에 중첩됩니다. |
-| 논리 컨테이너 계층 | ![](assets/logic_group_hierarchy.png) | [!UICONTROL 논리 그룹] 컨테이너 외부에서 표준 컨테이너 계층도 필요합니다. 하지만 [!UICONTROL 논리 그룹] 컨테이너 안에서는 체크포인트에 순서 또는 계층 설정이 필요 없습니다. 이러한 체크포인트는 방문자가 순서에 관계없이 충족하면 됩니다. |
+| 표준 컨테이너 계층 | ![](assets/nesting_container.png) | Within the [!UICONTROL Visitor] container, the [!UICONTROL Visit] and [!UICONTROL Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor. |
+| 논리 컨테이너 계층 | ![](assets/logic_group_hierarchy.png) | The standard container hierarchy is also required outside of the [!UICONTROL Logic Group] container. But inside the [!UICONTROL Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order. |
 
 논리 그룹은 어렵게 보일 수 있습니다. 다음은 이러한 그룹을 사용하는 방법에 대한 좋은 예입니다.
 
@@ -274,24 +274,24 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 논리 그룹 세그먼트 작성 {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-다른 컨테이너와 마찬가지로 [!UICONTROL 논리 그룹] 컨테이너도 [!UICONTROL 세그먼트 빌더] 내에서 여러 방법으로 작성할 수 있습니다. 다음은 [!UICONTROL 논리 그룹] 컨테이너 중첩에 선호되는 방법입니다. 
+다른 컨테이너와 마찬가지로 [!UICONTROL Logic Group] 컨테이너도 여러 가지 방법으로 만들 수 [!UICONTROL Segment Builder]있습니다. Here is a preferred way to nest [!UICONTROL Logic Group] containers:
 
 1. 왼쪽 창에서 차원, 이벤트 또는 세그먼트를 드래그합니다.
-1. 상단 컨테이너를 [!UICONTROL 방문자] 컨테이너로 변경합니다.
+1. Change the top container to a [!UICONTROL Visitor] container.
 1. 기본으로 삽입된 [!UICONTROL AND] 또는 [!UICONTROL OR] 연산자를 THEN 연산자로 바꿉니다.
-1. [!UICONTROL 히트] 컨테이너(차원, 이벤트 또는 항목)를 선택하고 **[!UICONTROL 옵션]** > **[!UICONTROL 선택에서 컨테이너 추가]**&#x200B;를 클릭합니다.
-1. 컨테이너 아이콘을 클릭하고 **[!UICONTROL 논리 그룹을 선택합니다]**.  ![](assets/logic_group_checkpoints.png)
-1. 이제 [!UICONTROL 계층]에 상관 없이 [!UICONTROL 히트]를 논리 그룹 컨테이너 내에 설정할 수 있습니다.
+1. 컨테이너( [!UICONTROL Hit] 차원, 이벤트 또는 항목)를 선택하고 **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**&#x200B;을 클릭합니다.
+1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
+1. You can now set the [!UICONTROL Hit] within the [!UICONTROL Logic Group] container without regard to hierarchy.
 
 ### 모든 순서의 논리 그룹 체크포인트 
 
-[!UICONTROL 논리 그룹]을 사용하면 해당 그룹 내에 시퀀스 외부에 있는 조건을 충족할 수 있습니다. [!UICONTROL 방문] 또는 [!UICONTROL 히트] 컨테이너가 일반적인 계층에 관계없이 발생하는 세그먼트를 만들 수 있습니다.
+Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.
 
 **예**: 방문자는 페이지 A를 방문한 다음 순서에 관계없이 페이지 B와 페이지 C를 방문했습니다.
 
 **이 세그먼트 만들기**
 
-페이지 B와 C는 바깥쪽 [!UICONTROL 방문자] 컨테이너 내의 [!UICONTROL 논리 그룹] 컨테이너에 중첩되어 있습니다. 그런 다음 A에 대한 [!UICONTROL 히트] 컨테이너 뒤에 [!UICONTROL AND] 연산자로 식별된 B와 C를 포함한 [!UICONTROL 논리 그룹] 컨테이너가 옵니다. [!UICONTROL 논리 그룹] 내에 있기 때문에 시퀀스가 정의되지 않고 페이지 B와 C를 임의 순서로 모두 히트하면 인수가 참이 됩니다. 
+Page B and C are nested in a [!UICONTROL Logic Group] container within the outer [!UICONTROL Visitor] container. The [!UICONTROL Hit] container for A is then followed by the [!UICONTROL Logic Group] container with B and C identified using the [!UICONTROL AND] operator. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
 
@@ -303,19 +303,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 논리 그룹 최초 일치
 
-[!UICONTROL 논리 그룹]을 사용하면 해당 그룹 내에 시퀀스 외부에 있는 조건을 충족할 수 있습니다. 이처럼 순서가 없는 최초 일치 세그먼트에서는 먼저 페이지 B 또는 페이지 C의 페이지 보기가 된 다음 필요한 페이지 A 보기가 되도록 [!UICONTROL 논리 그룹] 규칙이 정해집니다.
+Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. In this unordered first match segment, the [!UICONTROL Logic Group] rules are identified first to be either a page view of page B or page C, then the required view of page A.
 
 **예**: 방문자는 페이지 B 또는 페이지 C를 방문한 다음 페이지 A를 방문했습니다.
 
 **이 세그먼트 만들기**
 
-페이지 B와 페이지 C 차원은 [!UICONTROL 논리 그룹] 컨테이너 내에 [!UICONTROL OR] 연산자가 선택된 상태로 그룹화된 다음, 페이지 A의 페이지 보기를 값으로 식별하는 [!UICONTROL 히트] 컨테이너에 그룹화됩니다.
+Page B and page C dimensions are grouped within a [!UICONTROL Logic Group] container with the [!UICONTROL OR] operator selected, then the [!UICONTROL Hit]container identifying a page view of page A as the value.
 
 ![](assets/logic_group_1st_match.png)
 
 ### 논리 그룹 제외 AND
 
-여러 페이지 보기를 합계하여 다른 페이지가 확실히 누락된 상태에서 반드시 히트해야 하는 페이지를 정의하는 [!UICONTROL 논리 그룹]을 사용하여 세그먼트를 작성합니다. ****
+Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. ****
 
 **예**: 문자는 페이지 A를 방문한 후 페이지 B와 페이지 C를 확실히 방문하지 않았으나 페이지 D를 히트했습니다. 
 
@@ -323,23 +323,23 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 왼쪽 창에서 차원, 이벤트, 사전 작성 세그먼트를 드래그하여 이 세그먼트를 만듭니다. [논리 그룹 세그먼트 만들기](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)를 참조하십시오.
 
-[!UICONTROL 논리 그룹] 내에 값을 중첩한 다음 **[!UICONTROL 논리 그룹]** 컨테이너에 있는 [!UICONTROL 제외] 단추를 클릭합니다.
+값을 컨테이너 내에 중첩한 [!UICONTROL Logic Group]후 컨테이너 내의 **[!UICONTROL Exclude]** 단추를 클릭합니다 [!UICONTROL Logic Group] .
 
 ![](assets/logic_exclude_and.png)
 
 ### 논리 그룹 제외 OR
 
-여러 페이지 보기를 합계하여 다른 페이지가 확실히 누락된 상태에서 반드시 히트해야 하는 페이지를 정의하는 [!UICONTROL 논리 그룹]을 사용하여 세그먼트를 작성합니다.
+Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed.
 
 **예**: 방문자는 페이지 A를 방문했지만 그에 앞서 페이지 B나 페이지 C를 방문하지 않았습니다.
 
 **이 세그먼트 만들기**
 
-처음의 B와 C 페이지가 제외되는 [!UICONTROL 논리 그룹] 컨테이너에서 식별된 후 방문자에 의한 페이지 A 히트가 이어집니다.
+The initial B and C pages are identified in a [!UICONTROL Logic Group] container that is excluded, and then followed by a hit to page A by the visitor.
 
 왼쪽 창에서 차원, 이벤트, 사전 작성 세그먼트를 드래그하여 이 세그먼트를 만듭니다.
 
-[!UICONTROL 논리 그룹] 내에 값을 중첩한 다음 **[!UICONTROL 논리 그룹]** 컨테이너에 있는 [!UICONTROL 제외] 단추를 클릭합니다.
+값을 컨테이너 내에 중첩한 [!UICONTROL Logic Group]후 컨테이너 내의 **[!UICONTROL Exclude]** 단추를 클릭합니다 [!UICONTROL Logic Group] .
 
 ![](assets/logic_exclude_or.png)
 
@@ -368,13 +368,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 ### After 연산자 사용
 
 * Time After를 사용하면 연도, 월, 일, 시간 및 분별로 추적하여 방문을 일치시킬 수 있습니다.
-* Time After는 세밀한 세부기간을 정의할 수 있는 유일한 수준인 [!UICONTROL 히트] 컨테이너에서만 적용됩니다.
+* Time After can only be applied to a [!UICONTROL Hit] container because it is the only level for which such fine granularity is defined.
 
 **예**: 방문자는 페이지 A를 방문하고 2주 후에야 페이지 B를 방문했습니다.****
 
 ![](assets/time_between_after_operator.png)
 
-**세그먼트 만들기**: 이 세그먼트는 [!UICONTROL 방문자] 컨테이너를 2개의 [!UICONTROL 히트] 컨테이너와 함께 추가하여 만듭니다. 그런 다음 [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열어서 주 수를 설정할 수 있습니다.
+**세그먼트 만들기**:이 세그먼트는 두 개의 [!UICONTROL Visitor] 컨테이너가 있는 [!UICONTROL Hit] 컨테이너를 추가하여 만듭니다. 그런 다음 [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열어서 주 수를 설정할 수 있습니다.
 
 ![](assets/after_operator.png)
 
@@ -390,7 +390,7 @@ After 2 weeks로 설정되었을 때 페이지 A 히트가 2019년 6월 1일 00:
 ### Within 연산자 사용
 
 * [!UICONTROL Within]을 사용하면 연도, 월, 일, 시간 및 분별로 추적하여 방문을 일치할 수 있습니다.
-* [!UICONTROL Within]은 세밀한 세부기간을 정의할 수 있는 유일한 수준인 [!UICONTROL 히트] 컨테이너에서만 적용됩니다.
+* [!UICONTROL Within] 이러한 세부 세부기간이 정의된 유일한 수준이기 때문에 [!UICONTROL Hit] 컨테이너에만 적용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -400,7 +400,7 @@ After 2 weeks로 설정되었을 때 페이지 A 히트가 2019년 6월 1일 00:
 
 ![](assets/time_between_within_operator.png)
 
-**세그먼트 만들기**: 이 세그먼트는 [!UICONTROL 방문자] 컨테이너를 추가하고 2개의 [!UICONTROL 히트] 컨테이너와 함께 드래그하여 만듭니다. [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열고 간격: 히트, 페이지 보기, 방문, 분, 시간, 일, 주, 월, 분기 또는 년을 설정합니다.
+**세그먼트**&#x200B;만들기:이 세그먼트는 [!UICONTROL Visitor] 컨테이너를 추가한 다음 두 개의 [!UICONTROL Hit] 컨테이너와 함께 드래그하여 만듭니다. [!UICONTROL THEN] 연산자를 설정하고 [!UICONTROL AFTER] 연산자 드롭다운을 열고 간격: 히트, 페이지 보기, 방문, 분, 시간, 일, 주, 월, 분기 또는 년을 설정합니다.
 
 ![](assets/within_operator.png)
 
@@ -416,7 +416,7 @@ After 2 weeks로 설정되었을 때 페이지 A 히트가 2019년 6월 1일 00:
 
 ![](assets/time_between_using_both_operators.png)
 
-**세그먼트 만들기**: 2개의 [!UICONTROL 히트] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 시퀀스 지정하여 세그먼트를 만듭니다. 그런 다음 [!UICONTROL After] 및 [!UICONTROL Within] 연산자를 설정합니다.
+**세그먼트 만들기**:컨테이너 내에 두 개의 [!UICONTROL Hit] 컨테이너를 시퀀스 지정하여 세그먼트를 [!UICONTROL Visitor] 만듭니다. Then set the [!UICONTROL After] and [!UICONTROL Within] operators.
 
 ![](assets/within_after_together.png)
 
