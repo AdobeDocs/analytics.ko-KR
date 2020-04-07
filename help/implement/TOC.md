@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics Implementation Guide
+user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
+source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
    + [개요](vars/overview.md)
    + 구성 변수 {#config-vars}
       + [구성 변수 개요](vars/config-vars/configuration-variables.md)
-      + [중단](vars/config-vars/abort.md)
+      + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -60,9 +60,9 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + events {#events}
          + [이벤트 개요](vars/page-vars/events/events-overview.md)
          + [구매 이벤트](vars/page-vars/events/event-purchase.md)
-         + [이벤트 정리](vars/page-vars/events/event-serialization.md)
+         + [이벤트 직렬화](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
-      + [list](vars/page-vars/list.md)
+      + [목록에 있는 참조 페이지를 나타냅니다](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageUrl](vars/page-vars/pageurl.md)
@@ -118,17 +118,17 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [manageVars](vars/plugins/managevars.md)
       + [숫자 세트](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
-      + [pt](vars/plugins/pt.md)
+      + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-   + [통합 모듈](vars/integrate.md)
-+ Prepare to implement Adobe Analytics {#prepare}
+   + [모듈 통합](vars/integrate.md)
++ Adobe Analytics 구현 준비 {#prepare}
    + [데이터 계층 만들기](prepare/data-layer.md)
    + [글로벌 보고서 세트 고려 사항](prepare/global-rs.md)
    + [구현 모달](prepare/implementation-modal.md)
    + [솔루션 디자인 문서 만들기](prepare/solution-design.md)
 + JavaScript를 사용하여 Analytics 구현 {#js}
    + [JavaScript 개요](js/overview.md)
-   + [옵트아웃 링크 구현](js/opt-out.md)
+   + [구현 옵트아웃 링크](js/opt-out.md)
    + [변수 무시](js/overrides.md)
    + [H 코드에서 마이그레이션](js/migrate-from-hcode.md)
    + H 코드 {#h-code}
@@ -139,22 +139,22 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H 코드 문제 해결](js/h-code/troubleshooting.md)
-   + 기존 크로스 디바이스 식별 {#xdevice-visid}
-      + [장치 간 사용자 연결 개요](js/xdevice-visid/xdevice-connecting.md)
+   + 기존 교차 장치 식별 {#xdevice-visid}
+      + [여러 장치의 사용자 연결 개요](js/xdevice-visid/xdevice-connecting.md)
       + [변수 지속성](js/xdevice-visid/variable-persistence.md)
       + [방문 예](js/xdevice-visid/visit-example.md)
-      + [기존 크로스 디바이스 FAQ](js/xdevice-visid/xdevice-faq.md)
+      + [기존 교차 장치 FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 문제 해결](js/troubleshooting.md)
-+ Implement Analytics using Adobe Experience Platform Launch {#launch}
++ Adobe Experience Platform Launch를 사용하여 Analytics 구현 {#launch}
    + [Launch 개요](launch/overview.md)
    + [Analytics 속성 만들기](launch/create-analytics-property.md)
    + [개발 환경에 배포](launch/deploy-dev.md)
-   + [제품 검증 및 게시](launch/validate-publish-prod.md)
+   + [유효성 검사 및 프로덕션에 게시](launch/validate-publish-prod.md)
    + [데이터 레이어 개체를 데이터 요소에 매핑](launch/layer-to-elements.md)
    + [Analytics 변수에 론치 데이터 요소 매핑](launch/elements-to-variable.md)
-+ 다른 플랫폼에서 분석 구현 {#other}
-   + [하드 코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
-   + Implement Analytics using DTM {#dtm}
++ 다른 플랫폼에서 Analytics 구현 {#other}
+   + [하드코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
+   + DTM을 사용하여 Analytics 구현 {#dtm}
       + [Dynamic Tag Management 구현 개요](other/dtm/dtm-implementation-overview.md)
       + [웹 속성 만들기](other/dtm/t-create-web-property.md)
       + [호스팅 옵션 구성](other/dtm/t-configure-hosting.md)
@@ -167,7 +167,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [라이브러리 관리](other/dtm/c-aa-tool/library-management.md)
          + [핵심 AppMeasurement 코드 삽입](other/dtm/c-aa-tool/t-appmeasurement-code.md)
          + [전역 변수](other/dtm/c-aa-tool/global-variables.md)
-         + [페이지 보기 및 콘텐츠](other/dtm/c-aa-tool/pageviews-content.md)
+         + [페이지 보기 및 컨텐츠](other/dtm/c-aa-tool/pageviews-content.md)
          + [링크 추적](other/dtm/c-aa-tool/link-tracking.md)
          + [레퍼러 및 캠페인](other/dtm/c-aa-tool/referrers-campaigns.md)
          + [쿠키](other/dtm/c-aa-tool/cookies-analytics.md)
@@ -183,16 +183,16 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [조건이 트리거되는 작업 설정](other/dtm/c-rules/t-rules-actions.md)
          + [Akamai 호스팅을 위한 게시되지 않은 규칙 테스트](other/dtm/c-rules/t-test-rules-akamai.md)
          + [라이브러리 다운로드 또는 FTP에 대한 규칙 테스트](other/dtm/c-rules/t-test-rules-ftp.md)
-   + [Ajax에 대한 분석 구현](other/ajax.md)
+   + [Ajax에서 Analytics 구현](other/ajax.md)
    + [AMP에서 Analytics 구현](other/amp.md)
-   + [디지털 보조자에 대한 분석 구현](other/digital-assistants.md)
-   + [Facebook 인스턴트 아티클에 Analytics 구현](other/fb-instant-articles.md)
-+ [모바일 장치에서 Analytics 구현](mobile-device-sdk.md)
+   + [Digital Assistant에서 Analytics 구현](other/digital-assistants.md)
+   + [Facebook 인스턴트 아티클에서 Analytics 구현](other/fb-instant-articles.md)
++ [모바일 장치용 Analytics 구현](mobile-device-sdk.md)
 + 구현 사용 사례 {#use-cases}
    + [다양한 구현 유형 추적](use-cases/cross-type-implementation.md)
    + [외부 이메일 추적](use-cases/email-external.md)
-+ Validate your implementation {#validate}
-   + [기존 Adobe Experience Cloud 디버거](validate/debugger.md)
++ 구현 유효성 검사 {#validate}
+   + [기존 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [데이터 수집 쿼리 매개 변수](validate/query-parameters.md)
    + [패킷 모니터](validate/packet-monitor.md)
    + [해시 충돌](validate/hash-collisions.md)
