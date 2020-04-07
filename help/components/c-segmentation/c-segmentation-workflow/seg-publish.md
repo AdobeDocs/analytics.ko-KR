@@ -4,7 +4,7 @@ title: Experience Cloud에 세그먼트 게시
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
 
 ---
 
@@ -41,6 +41,9 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 | 멤버십이 있는 사용 가능한 세그먼트 | 게시 후 8시간까지 | [!DNL Audience Manager]의 방문자 프로필 뷰어 |
 | 트레이트 및 멤버십 인구 | 24-48시간 이내 | [!DNL Audience Manager] |
 
+>[!NOTE]
+>일주일에 한 번, 모든 데이터는 이전 주에 캡처되지 않은 모든 삭제 또는 불일치를 고려하도록 완전히 동기화됩니다.
+
 ## 세그먼트 게시 [!UICONTROL Segment Builder]
 
 1. > **[!UICONTROL Analytics > Workspace > Components > Segments]+로 이동&#x200B;**
@@ -51,7 +54,6 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->
 >Adobe Analytics 숫자를 Audience Manager 숫자와 비교할 때 총 &quot;고유 방문자 수&quot; 세그먼트 미리 보기 대신 Analytics의 세그먼트 미리 보기를 볼 경우 &quot;Experience Cloud ID를 가진 방문자&quot;를 사용하도록 하십시오.
 >
 >![](assets/seg-vis-ecid.png)
