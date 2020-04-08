@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
 
 ---
 
@@ -307,8 +307,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > "100% 스택" 시각화 설정 </a> </p> </td> 
-   <td colname="col2"> <p>스택 영역/스택 막대/가로 막대형 스택 시각화에 대한 새로운 시각화 설정은 차트를 "100% 스택" 시각화로 바꾸므로 상대 비율을 측정할 수 있습니다. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>스택 영역/스택 막대/가로 막대형 스택 시각화에 대한 새로운 시각화 설정은 차트를 "100% 스택" 시각화로 바꾸므로 상대 비율을 측정할 수 있습니다. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >예외 항목 탐지 및 기여도 분석</a>은 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> </td> 
    <td colname="col2"> <p>예외 항목 탐지 및 기여도 분석은 Reports &amp; Analytics 기능 세트에서 제거되었으며 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. </p> <p>Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 "일별 세부 기간" 예외 항목 탐지에만 액세스할 수 있습니다. </p> </td> 
