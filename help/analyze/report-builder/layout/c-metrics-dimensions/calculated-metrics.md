@@ -3,7 +3,7 @@ description: 리포트 빌더 5.2는 Adobe Analytics 통합 계산된 지표를 
 title: 계산된 지표
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 사용 가능한 필터에는 다음이 포함됩니다.
 
-![](assets/advanced_filters_(2).png)
+![](assets/advanced_filters.png)
 
 | 필터 이름 | 설명 |
 |---|---|
