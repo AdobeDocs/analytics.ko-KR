@@ -5,12 +5,20 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Analysis Workspace의 새로운 기능
+
+## 2020년 4월
+
+2020년 4월 16일에 릴리스된 새로운 기능
+
+| 기능 | 설명 |
+|--- |--- |
+| 빈 [!UICONTROL Freeform Tables] 상태에서 자동 빌드 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 드롭할 수 없었습니다.자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 만들어집니다. 또한 혼합 구성 요소 유형(예: 차원 및 지표)이 공백으로 함께 드롭될 때 처리되는 방식이 개선되었습니다. [!UICONTROL Freeform Table] |
 
 ## 2020년 3월
 
@@ -799,7 +807,7 @@ source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
   </tr> 
   <tr> 
    <td colname="col1"> <p>실행 취소/다시 실행 옵션 개선 </p> </td> 
-   <td colname="col2"> <p>이러한 목록은 분석 작업 공간에서 실행 취소/ <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > 재실행할 수 있는 기능과 실행 취소/재실행을 보여줍니다 </a>. </p> </td> 
+   <td colname="col2"> <p>이 목록은 분석 작업 공간에서 실행 취소/ <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > 재실행할 수 있는 기능과 실행 취소/재실행을 보여줍니다 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
