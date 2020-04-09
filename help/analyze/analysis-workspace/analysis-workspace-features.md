@@ -4,7 +4,7 @@ title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## 개요 비디오 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 개요 비디오
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 전체 YouTube 재생 목록은 [여기](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)에서 사용할 수 있습니다.
 
@@ -25,7 +25,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 >기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
 
-## 프로젝트 요소 및 구성 요소에 대한 모든 권한 {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## 프로젝트 요소 및 구성 요소에 대한 모든 권한
 
 분석 작업 공간은 다음과 같은 자유와 유연성을 제공합니다.
 
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)를 참조하십시오.
 
-## 프로젝트에 있는 여러 가지 시각화 {#section_B7670740C2D44130B21DAF0873280DA5}
+## 프로젝트에 있는 여러 가지 시각화
 
 프로젝트에 시각화를 원하는 만큼 드래그하여 놓으십시오.
 
@@ -49,7 +49,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)를 참조하십시오.
 
-## 패널 및 시각화에 대한 인트라 링크 {#section_253EA04E067F4A29A8B54CE2B7631086}
+## 패널 및 시각화에 대한 인트라 링크
 
 Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace/visualizations/text.md) 기능을 함께 사용하면 프로젝트 컨텐츠를 작성하는 것처럼 텍스트 상자에서 프로젝트 내의 특정 패널 및 시각화에 연결할 수 있습니다. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 선택 사항인 &quot;패널 링크 가져오기&quot; 및 &quot;시각화 링크 가져오기&quot;가 추가되었습니다. 프로젝트에 인트라 링크를 추가하려면:
 
@@ -69,17 +69,17 @@ Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace
 
 >[!NOTE] 마우스 **[!UICONTROL Edit Description]** 오른쪽 단추 클릭 옵션 내에서 이 기능을 사용할 수도 있습니다.
 
-## 기타 프로젝트에 대한 링크 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 기타 프로젝트에 대한 링크
 
 You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
 
-## 선택한 셀의 다이내믹 시각화 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 선택한 셀의 다이내믹 시각화
 
 개별 셀을 선택하고 시각화 변경 사항을 동적으로 확인합니다. [선택한 셀과 시각화 동기화 및 잠금](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) .
 
 ![](assets/visualize-selected-cells.png)
 
-## 선택 항목 또는 위치 잠금 {#section_9D66A001586F49CEB0C565581E44957C}
+## 선택 항목 또는 위치 잠금
 
 시각화를 잠그면 시각화에 해당하는 자유 형식 데이터 테이블 소스를 제어할 수 있습니다.
 
@@ -87,7 +87,7 @@ You can link users to other projects that may be of interest to them by going to
 
 [데이터 소스 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)를 참조하십시오.
 
-## 선택한 셀에서 트렌드 시각화 {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 선택한 셀에서 트렌드 시각화
 
 선택한 셀에서 시각화를 만들어 보십시오. (마우스 오른쪽 단추 클릭 > **[!UICONTROL Trend Selection]**.)
 
@@ -97,7 +97,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/trend-selection2.png)
 
-## 차원 및 차원 항목 분류 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## 차원 및 차원 항목 분류
 
 소매업체는 캠페인을 보다 심층적으로 전개하여 고객의 참여를 강화하는 방법을 파악할 수 있습니다. 특정 요구 사항에 맞게 데이터를 제한 없이 분류할 수 있습니다.관련 지표, 차원, 세그먼트, 타임라인 및 기타 분석 분류 값을 사용하여 쿼리를 작성합니다.
 
@@ -105,7 +105,7 @@ You can link users to other projects that may be of interest to them by going to
 
 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 
-## 테이블 선택의 세그먼트 {#section_73BC3688089B426D969B3D5B606DA970}
+## 테이블 선택의 세그먼트
 
 자유 형식 테이블에서 셀을 선택하고 선택 내용에서 세그먼트를 만듭니다.
 
@@ -119,7 +119,7 @@ You can link users to other projects that may be of interest to them by going to
 
 다음 [세그먼트](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)를 참조하십시오.
 
-## 프로젝트 및 구성 요소 태깅 {#section_F54D688132A541F2982326D5E022B90D}
+## 프로젝트 및 구성 요소 태깅
 
 Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 수 있습니다.
 
@@ -128,7 +128,7 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 * 구성 요소를 마우스 오른쪽 버튼으로 클릭하여 구성 요소 패널에서 태그를 지정하거나 태그를 만듭니다.
 * 검색 필드에서 #을 사용하여 태그를 찾습니다.
 
-## 구성 요소 작업 {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## 구성 요소 작업
 
 구성 요소 왼쪽 레일의 위쪽에 있는 작업 메뉴에서 구성 요소 수준의 작업을 수행합니다. Select a component and click **[!UICONTROL Actions]** to view the actions.
 
@@ -142,7 +142,7 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 
 자세한 내용은 [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)를 참조하십시오.
 
-## 추가 기능 설명 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 추가 기능 설명
 
 **드래그 및 스택할 수 있는 사항**
 
@@ -187,4 +187,4 @@ Analysis Workspace에 고유한 기본 세그먼트. *`All Visits`* 에는 테�
 
 표준 지표를 사용하는 것과 동일한 방법으로 계산을 사용하십시오.
 
-계산된 [지표를 참조하십시오](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/).
+계산된 [지표를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/cm-overview.html).
