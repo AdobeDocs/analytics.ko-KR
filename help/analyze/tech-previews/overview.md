@@ -1,8 +1,8 @@
 ---
 title: Labs 사용 안내서
 description: Adobe Analytics용 프로토타입 프로젝트 미리 보기
-translation-type: ht
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+translation-type: tm+mt
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ Labs에 액세스하려면
 
 1. 다른 프로토타입을 시도하거나 프로토타입 환경을 종료하려면 화면 오른쪽 상단에 있는 **프로토타입 남기기** 단추를 클릭하고 프로토타입에 대한 간단한 설문 조사를 완료합니다. 프로토타입 프로젝트의 모든 변경 사항은 프로토타입 환경을 종료하면 없어집니다.
 
-   ![새 피드백 상자](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![새 피드백 상자](assets/short-survey.png)
 
 1. **제출**&#x200B;을 클릭하여 기본 미리 보기 포털로 돌아갑니다.
 
