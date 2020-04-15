@@ -1,21 +1,21 @@
 ---
-description: 모바일 앱 스코어카드 설정에 대한 지침입니다.
-title: Adobe Analytics 모바일 앱 큐레이터 안내서
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+description: 대시보드 스코어카드 사용 지침
+title: Adobe Analytics 대시보드 개요
+translation-type: tm+mt
+source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
 
 ---
 
 
-# Analytics 모바일 앱: 경영진 사용자 빠른 시작 안내서
+# Adobe Analytics 대시보드:경영진 빠른 시작 가이드
 
 ## 소개
 
-Adobe Analytics 모바일 앱은 Adobe Analytics를 통해 모든 시간과 장소에 적용할 수 있는 통찰력을 제공합니다.  이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 모바일 앱은 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 통찰력을 제공합니다.  이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 대시보드는 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
 ## 이 안내서 정보
 
-이 안내서는 경영진 사용자가 Analytics 모바일 앱에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다. 이 앱을 사용하면 보유한 모바일 장치에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
+이 안내서는 경영진 사용자가 Analytics 대시보드에서 스코어카드를 읽고 해석하도록 돕기 위해 마련되었습니다. 이 앱을 사용하면 보유한 모바일 장치에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
 
 ## 용어집
 
@@ -24,30 +24,30 @@ Adobe Analytics 모바일 앱은 Adobe Analytics를 통해 모든 시간과 장�
 | 소비자 | 모바일 장치의 Analytics를 통해 주요 지표와 통찰력을 보는 경영진 사용자 |
 | 큐레이터 | Analytics에서 통찰력을 찾아 배포하고 소비자가 볼 스코어카드를 구성하는 데이터 사용 가능 사용자 |
 | 큐레이션 | 소비자에 대한 관련 지표, 차원 및 기타 구성 요소가 포함된 모바일 스코어카드를 만들거나 편집하는 작업 |
-| 득점 카드 | 한 개 이상의 타일이 포함된 모바일 앱 보기 |
+| 득점 카드 | 하나 이상의 타일이 포함된 대시보드 보기 |
 | 타일 | 스코어카드 보기 내에 있는 지표에 대한 렌더링 |
 | 분류 | 스코어카드에서 타일을 탭하여 액세스할 수 있는 보조 보기. 이 보기는 타일에 표시되는 지표를 확장하고 선택적으로 추가 분류 차원에 대해 보고합니다. |
-| 날짜 범위 | 모바일 앱 보고에 대한 기본 날짜 범위 |
+| 날짜 범위 | 대시보드 보고를 위한 기본 날짜 범위 |
 | 비교 날짜 범위 | 기본 날짜 범위와 비교되는 날짜 범위 |
 
-## 장치에 앱 설정 지원 받기
+## 디바이스에서 대시보드 설정
 
-앱을 효율적으로 사용하려면 스코어카드 큐레이터의 도움을 받아 앱을 설정해야 합니다. 이 섹션에서는 큐레이터의 도움을 받아 설정하는 데 유용한 정보를 제공합니다.
+대시보드를 효과적으로 사용하려면 Scorecard 큐레이터가 대시보드를 설정하는 데 도움이 되어야 합니다. 이 섹션에서는 큐레이터의 도움을 받아 설정하는 데 유용한 정보를 제공합니다.
 
 ### 액세스 권한 얻기
 
-앱에서 스코어카드에 액세스하려면 다음을 확인합니다.
+대시보드의 스코어카드에 액세스하려면 다음을 확인하십시오.
 
 * Adobe Analytics에 대한 유효한 로그인 권한이 있습니다.
 * 큐레이터가 모바일 스코어카드를 올바르게 작성하고 공유했습니다.
 
-### 앱 다운로드 및 설치
+### 대시보드 다운로드 및 설치
 
 앱을 다운로드하여 설치하려면 장치의 운영 체제에 따라 단계를 따릅니다.
 
 **iOS 장치의 경우:**
 
-1. 다음 공개 링크(**도구** > **모바일 앱** 아래의 Analytics 에서도 사용 가능)를 클릭합니다.
+1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
 
    [iOS 링크](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -57,13 +57,13 @@ Adobe Analytics 모바일 앱은 Adobe Analytics를 통해 모든 시간과 장�
 
 2. 화면에서 **App Store에서 보기** 링크를 탭하여 Testflight 앱을 다운로드합니다.
 
-3. Testflight 앱을 설치한 후에 아래에 표시된 대로 Testflight 내에서 Adobe Analytics 모바일 앱을 찾아서 설치합니다.
+3. Testflight 앱을 설치한 후 아래와 같이 Testflight 내에서 Adobe Analytics 대시보드를 찾아 설치합니다.
 
    ![Testflight 화면](assets/testflight2.png)
 
 **Android 장치의 경우:**
 
-1. 사용자의 장치에서 다음 Play 스토어 링크(**도구** > **모바일 앱** 아래에 있는 Analytics에서도 사용할 수 있음)를 탭합니다.
+1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -76,15 +76,15 @@ Adobe Analytics 모바일 앱은 Adobe Analytics를 통해 모든 시간과 장�
 
    ![다운로드 링크](assets/playnext.png)
 
-## 앱 사용
+## 대시보드 사용
 
-앱을 사용하려면:
+대시보드를 사용하려면
 
-1. 앱에 로그인합니다. 앱을 실행하면 로그인 화면이 나타납니다. 기존 Adobe Analytics 자격 증명을 사용하여 나타나는 메시지를 따릅니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
+1. 앱에 로그인합니다. 대시보드 시작 시 로그인 화면이 나타납니다. 기존 Adobe Analytics 자격 증명을 사용하여 나타나는 메시지를 따릅니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
 
    ![로그인 순서](assets/signseq.png)
 
-2. 회사 선택. 앱에 로그인하면 **회사 선택** 화면이 나타납니다. 이 화면에는 사용자가 속한 로그인 회사가 나열됩니다. 사용자와 공유된 스코어카드와 연결된 회사 이름을 탭합니다.
+2. 회사 선택. After you sign into dashboards, the **Choose a company** screen appears. 이 화면에는 사용자가 속한 로그인 회사가 나열됩니다. 사용자와 공유된 스코어카드와 연결된 회사 이름을 탭합니다.
 
 3. 그러면 스코어카드 목록에 사용자와 공유된 모든 스코어카드가 표시됩니다. 보려는 스코어카드를 탭합니다.
 
@@ -129,7 +129,7 @@ Adobe Analytics 모바일 앱은 Adobe Analytics를 통해 모든 시간과 장�
 
 8. 피드백 남기기. 피드백을 남기려면:
 
-   1. 앱 화면의 오른쪽 상단에서 사용자 아이콘을 탭합니다.
+   1. 대시보드 화면의 오른쪽 상단에 있는 사용자 아이콘을 누릅니다.
    2. **내 계정** 화면에서 **피드백** 옵션을 탭합니다.
    3. 피드백 남기기에 대한 옵션을 탭하여 봅니다.
    ![피드백 남기기](assets/feedback.png)
