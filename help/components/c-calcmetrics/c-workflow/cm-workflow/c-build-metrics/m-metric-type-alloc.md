@@ -1,9 +1,9 @@
 ---
-description: 지표 옆에 있는 톱니바퀴 아이콘을 선택하면 지표 유형과 속성 모델을 지정할 수 있습니다.
+description: '자세한 내용 '
 title: 지표 유형 및 기여도 분석
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 * [열 기여도 분석 모델](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [선형 할당이 작동하는 방식(2018년 7월 19일 기준)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## 지표 유형 {#section_34A86FB402F94E988724232283BF18B7}
+## 지표 유형
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 | 표준 | 이 지표들은 표준 [!DNL Analytics] 보고에서 사용된 것과 동일한 지표입니다. 공식이 단일 표준 지표로 구성된 경우 계산되지 않은 지표와 동일한 데이터가 표시됩니다. 표준 지표는 각 개별 라인 항목별 계산된 지표를 만드는 데 유용합니다. 예를 들어, [주문] / [방문 횟수]는 특정 라인 항목에 대한 주문 수를 그 항목에 대한 방문 횟수로 나눕니다. |
 | 합계 | 모든 라인 항목에서 보고 기간에 대한 합계를 사용합니다. 공식이 단일 합계 지표로 구성된 경우, 모든 라인 항목에 대해 동일한 총 수가 표시됩니다. 총 지표는 사이트 전체 데이터와 비교하는 계산된 지표를 만드는 데 유용합니다. 예를 들어, [주문] / [총 방문 횟수]는 특정 라인 항목에 대한 방문 횟수뿐만 아니라, 해당 사이트에 대한 모든 방문 횟수에 대한 주문 수의 비율을 표시합니다. |
 
-## 열 기여도 분석 모델 {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## 열 기여도 분석 모델
 
 >[!IMPORTANT]
 >
@@ -40,68 +40,25 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 ## 선형 할당이 작동하는 방식(2018년 7월 19일 기준)
 
-2018년 7월에 Adobe는 계산된 지표에 대해 선형 할당을 보고하는 방법을 변경했습니다. 이 변경 사항은 Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map 및 Reporting API에 영향을 줍니다. 변경 사항은 주로 지속성이 있는 eVars 및 기타 차원에 영향을 줍니다. 이러한 변경 사항은 계산된 지표에만 적용되며, 선형 할당을 사용하는 다른 보고서(예: Reports &amp; Analytics의 페이지 보고서)에는 영향을 주지 않습니다. 선형 할당을 사용하는 다른 보고서는 계속 기존 선형 할당 방법을 사용합니다.
+2018년 7월에 Adobe는 계산된 지표에 대해 선형 할당을 보고하는 방법을 변경했습니다. 이 변경 사항은 Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map 및 Reporting API에 영향을 줍니다. 변경 사항은 주로 지속성이 있는 eVar 및 기타 차원에 영향을 줍니다. 이러한 변경 사항은 계산된 지표에만 적용되며 선형 할당을 사용하는 다른 보고서(예: 보고 및 분석의 페이지 보고서)에는 영향을 주지 않습니다. 선형 할당을 사용하는 다른 보고서는 계속 기존 선형 할당 방법을 사용합니다.
 
 다음 예에서는 선형 할당이 있는 계산된 지표가 보고에서 어떻게 변경되는지를 보여줍니다.
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> 히트 1 </th> 
-   <th colname="col3" class="entry"> 히트 2 </th> 
-   <th colname="col4" class="entry"> 히트 3 </th> 
-   <th colname="col5" class="entry"> 히트 4 </th> 
-   <th colname="col6" class="entry"> 히트 5 </th> 
-   <th colname="col7" class="entry"> 히트 6 </th> 
-   <th colname="col8" class="entry"> 히트 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>전송된 데이터 </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>마지막 터치 eVar </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> PROMO B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>첫 번째 터치 eVar </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO A </td> 
-   <td colname="col6"> PROMO A </td> 
-   <td colname="col7"> PROMO A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>예제 prop </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 | 히트 6 | 히트 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| 전송된 데이터 | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| 마지막 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| 첫 번째 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| 예제 prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 
 이 예에서, 값 A, B 및 C는 히트 1, 3, 4 및 6에 대한 변수로 전송되어 히트 7에 $10의 구매를 수행했습니다. 두 번째 행에서 이러한 값은 마지막 터치 방문 기준에서 히트 간에 지속됩니다. 세 번째 행은 첫 번째 접촉 방문 지속성을 보여줍니다. 마지막으로 마지막 행은 지속성이 없는 prop에 대해 데이터가 기록되는 방법을 보여줍니다.
+
+## 보고 및 분석과 작업 공간에서 선형 할당이 작동하는 방식에 대한 차이점
+
+이러한 두 도구 간에는 선형 속성이 작동하는 방식에 몇 가지 차이점이 있습니다.
+
+* 보고 및 분석에서 (처리된) 선형 속성은 항상 방문을 기준으로 하는 반면, Workspace에서는 방문 또는 방문자를 기반으로 할 수 있습니다.
+* 보고 및 분석에서, 방문의 첫 번째 히트에서 값이 전달되지 않은 경우, (초기) 값은 이전 방문에서 지속됩니다. 이것은 작업 공간(속성 IQ)의 경우가 아닙니다. 방문의 첫 번째 히트에서 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.
 
 ## 선형 할당이 2018년 7월 이전에 작동한 방법
 
