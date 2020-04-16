@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Components Guide
+user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
       + [Data Warehouse 세그먼트 기능](c-segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](c-segmentation/seg-reference/seg-rights.md)
       + [문제 해결](c-segmentation/seg-reference/c-troubleshooting.md)
+   + 사용 사례 {#use-cases}
+      + [특정 날짜 제외](c-segmentation/use-cases/exclude-date-range.md)
    + [FAQ](c-segmentation/seg-transition.md)
    + [Analytics 세그먼테이션의 새로운 기능](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis를 위한 전환 안내서](c-segmentation/seg-transition-ad-hoc.md)
