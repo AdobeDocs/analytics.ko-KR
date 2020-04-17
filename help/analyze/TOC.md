@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -44,6 +44,7 @@ source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 지정 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [이벤트의 영향을 받은 날짜 비교](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
