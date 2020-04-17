@@ -2,16 +2,14 @@
 title: 분석에서 특정 날짜 제외
 description: 보고서에 날짜 또는 날짜 범위를 포함하지 않으려는 경우 날짜 또는 날짜 범위를 제외하기 위한 팁입니다.
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # 분석에서 특정 날짜 제외
 
-경우에 따라 날짜 범위에 분석하지 않을 데이터가 포함됩니다. 예를 들어, 보트는 잘못된 매출 금액이 들어 있는 이상치 히트를 전송하여 지표를 크게 부풀립니다. 사이트에서 구현 문제 또는 데이터 차이가 발생한 경우, 부분적인 데이터에 대한 결정을 내리지 않도록 보고에서 제외할 수 있습니다.
-
-세그먼트를 사용하여 보고서에 포함하지 않을 모든 날짜 범위를 제외할 수 있습니다.
+이벤트에 [의해](/help/technotes/event-impacted.md)영향을 받는 데이터가 있는 경우 세그먼트를 사용하여 보고서에 포함하지 않을 모든 날짜 범위를 제외할 수 있습니다. 이벤트 영향을 받은 날짜를 세그먼트화하면 조직에서 일부 데이터에 대한 결정을 내리지 못하도록 할 수 있습니다.
 
 ## 영향을 받는 일 격리
 
@@ -67,15 +65,3 @@ source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
 5. 오른쪽 **[!UICONTROL Continue]** 상단을 클릭한 다음 을 클릭합니다 **[!UICONTROL Save]**.
 
 ![VRS에 적용된 세그먼트](../assets/exclude_segment_vrs.png)
-
-## 다른 툴의 대체 요소
-
-보고 및 분석을 사용하는 경우 [달력 이벤트를](../../t-calendar-event.md) 사용하여 트렌드 보고서에서 영향을 받는 일을 강조 표시할 수 있습니다.
-
->[!NOTE] 이 메서드는 분석 작업 공간에 적용되지 않습니다.
-
-1. > **[!UICONTROL Components]** 으로 **[!UICONTROL Calendar events]**&#x200B;이동합니다.
-2. 원하는 제목, 날짜 범위 및 노트 텍스트를 입력합니다.
-3. 클릭 **[!UICONTROL Save]**.
-
-![달력 이벤트](../assets/exclude_calendar_event.jpg)
