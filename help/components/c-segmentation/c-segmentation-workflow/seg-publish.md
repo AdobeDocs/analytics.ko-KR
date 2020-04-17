@@ -4,14 +4,14 @@ title: Experience Cloud에 세그먼트 게시
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
+source-git-commit: 3b7e79cf26c8dccd9c8090df48a556419995ebd7
 
 ---
 
 
 # Experience Cloud에 세그먼트 게시
 
-Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 최근 업데이트는 게시 워크플로우를 상당히 최적화했습니다. 이제 8시간 이내에 Analytics 세그먼트를 Experience Cloud에 게시할 수 있습니다. 이러한 세그먼트를 사용하여 Audience Manager의 대상을 모든 다운스트림 대상에 활성화합니다.
+Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 Adobe를 비롯한 기타 활성화 채널에서 마케팅 활동을 위해 세그먼트를 사용할 [!DNL Audience Manager] 수 [!DNL Advertising Cloud][!DNL Target] [!DNL Campaign]있습니다. 최근 업데이트는 게시 워크플로우를 상당히 최적화했습니다. 이제 8시간 이내에 Analytics 세그먼트를 Experience Cloud에 게시할 수 있습니다. 이러한 세그먼트를 사용하여 Audience Manager의 대상을 모든 다운스트림 대상에 활성화합니다.
 
 또한 게시 가능한 Adobe Analytics 세그먼트의 최대 수를 75개(20개)로 늘렸습니다. 게시된 세그먼트를 에서 볼 수 [!UICONTROL Analytics > Components > Segments]있습니다.
 
