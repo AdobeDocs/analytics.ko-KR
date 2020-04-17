@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics tech notes
+user-guide-title: Analytics 기술 노트
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -26,6 +26,7 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
       + [전환](ga-to-aa/reports/conversions-reports.md)
    + [FAQ](ga-to-aa/faq.md)
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
++ [이벤트의 영향을 받는 데이터 분석](event-impacted.md)
 + [브라우저 쿠키](cookies.md)
 + [데이터 보존](data-retention.md)
 + [지연](latency.md)
