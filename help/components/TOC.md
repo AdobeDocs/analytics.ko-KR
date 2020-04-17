@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + 사용 사례 {#use-cases}
       + [특정 날짜 제외](c-segmentation/use-cases/exclude-date-range.md)
    + [FAQ](c-segmentation/seg-transition.md)
-   + [Analytics 세그먼테이션의 새로운 기능](c-segmentation/whats-new-segmentation.md)
+   + [Analytics 세그멘테이션의 새로운 기능](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis를 위한 전환 안내서](c-segmentation/seg-transition-ad-hoc.md)
 + 계산된 지표 {#calculated-metrics}
-   + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
-   + [FAQ](c-calcmetrics/cm-transition.md)
-   + [방법 비디오](c-calcmetrics/cm-videos.md)
+   + [계산된 지표 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
    + 계산된 지표 워크플로우 {#calcmetric-workflow}
       + [계산된 지표 워크플로우](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [지표 호환성](c-calcmetrics/cm-compatibility.md)
       + [계산된 지표: 역할 기반 권한](c-calcmetrics/cm-role-based-rights.md)
       + [계산된 지표 합계](c-calcmetrics/cm-totals.md)
+   + [이벤트의 영향을 받는 데이터 추출](c-calcmetrics/cm-events.md)
+   + [FAQ](c-calcmetrics/cm-transition.md)
+   + [방법 비디오](c-calcmetrics/cm-videos.md)
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
    + [가상 보고서 세트 구성 요소 큐레이션](vrs/vrs-components.md)
