@@ -2,7 +2,7 @@
 title: Labs 사용 안내서
 description: Adobe Analytics용 프로토타입 프로젝트 미리 보기
 translation-type: tm+mt
-source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
+source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 ---
 
@@ -52,7 +52,7 @@ Labs에 액세스하려면
 
 1. 프로토타입 작업 시 언제든지 메시지 상자에 피드백을 입력하려면 **피드백 제공** 단추를 클릭하십시오.
 
-   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](assets/give_feedback.png)
 
 1. **제출**&#x200B;을 클릭하여 피드백을 보냅니다.
 
