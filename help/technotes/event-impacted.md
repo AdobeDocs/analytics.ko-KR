@@ -2,7 +2,7 @@
 title: 이벤트의 영향을 받는 데이터 분석
 description: 이벤트의 영향을 받은 데이터가 전체 데이터 품질에 미치는 방식을 이해합니다.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 
 ---
 
@@ -25,16 +25,10 @@ Adobe Analytics는 세그멘테이션을 사용하여 데이터에 집중하거�
 
 시간에 따라 이벤트가 데이터에 미치는 영향을 자세히 알아보려면 분석 작업 공간에서 날짜 비교를 사용할 수 있습니다. 이 기능을 사용하면 일별, 주별, 월별로 데이터를 비교하여 이전 범위와 어떻게 비교되는지 확인할 수 있습니다. 그런 다음 이 비교를 사용하여 이벤트가 트렌드에 미치는 영향을 확인할 수 있습니다. 분석 [사용 안내서에서 이벤트의 영향을 받은 날짜와 이전 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) 비교를 참조하십시오.
 
-## 계산된 지표를 사용하여 트렌드 데이터 수정
+## 계산된 지표를 사용하여 데이터 추출
 
 세그먼트를 만들고 날짜 비교를 사용하면 이러한 두 개념을 결합하여 계산된 지표를 사용하여 트렌드 데이터를 수정할 수 있습니다. 계산된 지표 내에 세그먼트를 포함시킨 다음, 영향을 받는 요일에 날짜를 비교할 때 발견되는 오프셋에 곱합니다. 구성 [요소 사용 안내서에서 이벤트의](/help/components/c-calcmetrics/cm-events.md) 영향을 받는 데이터 추출을 참조하십시오.
 
-## 보고 및 분석에서 달력 이벤트 사용
+## 조직의 사용자에게 미치는 영향 전달
 
-보고 및 분석을 사용하는 경우 [달력 이벤트를](/help/components/t-calendar-event.md) 사용하여 트렌드 보고서에서 영향을 받는 일을 강조 표시할 수 있습니다. 이 메서드는 분석 작업 공간에 적용되지 않습니다.
-
-1. > **[!UICONTROL Components]** 으로 **[!UICONTROL Calendar events]**&#x200B;이동합니다.
-2. 원하는 제목, 날짜 범위 및 노트 텍스트를 입력합니다.
-3. 클릭 **[!UICONTROL Save]**.
-
-![달력 이벤트](assets/exclude_calendar_event.jpg)
+이벤트를 처리할 방법을 준비하면 조직의 [](event/event-communicate.md)사용자와 통신할 수 있습니다. Adobe는 Analytics 내에서 사용자에게 발생한 내용과 사용할 수 있는 구성 요소를 전달하기 위해 텍스트를 배치할 수 있는 여러 가지 위치를 제공합니다.
