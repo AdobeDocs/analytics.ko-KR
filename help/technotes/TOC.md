@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 기술 노트
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: ea1927827c0615b085a440bc86116b438594e448
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
    + [FAQ](ga-to-aa/faq.md)
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
 + [이벤트의 영향을 받는 데이터 분석](event-impacted.md)
++ 이벤트의 영향을 받는 데이터 분석 {#event}
+   + [사용자에게 미치는 영향 전달](event/event-communicate.md)
 + [브라우저 쿠키](cookies.md)
 + [데이터 보존](data-retention.md)
 + [지연](latency.md)
@@ -34,7 +36,7 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 + [개인 정보 보호 개요](privacy-overview.md)
 + [리디렉션 및 별칭](redirects.md)
 + [다중 통화 지원](multicurrency.md)
-+ 지역 데이터 수집 {rdc}
++ 지역 데이터 수집 {#rdc}
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
    + [SSL 공인 라이선스](rdc/ssl-cert-licensing.md)
 + [보안 리소스](security.md)
