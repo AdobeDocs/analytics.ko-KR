@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: 77b126b2add78113c266265f413240f27f89bced
 
 ---
 
@@ -79,6 +79,7 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
+      + [빠른 인사이트 빌더](analysis-workspace/c-panels/quickinsight.md)
       + 기여도 분석 {#attribution}
          + [기여도 분석 개요](analysis-workspace/c-panels/attribution/attribution.md)
          + [기여도 분석 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
