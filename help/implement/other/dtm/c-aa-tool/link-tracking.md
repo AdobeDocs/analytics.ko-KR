@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;link tracking;enable clickmap;track download li
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 링크 추적
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]**> **[!UICONTROL![](assets/settings_gear.png)
+**[!UICONTROL  *`Property`*]** > **[!UICONTROL   ![](assets/settings_gear.png)
 
-편집 도구]** > **[!UICONTROL 링크 추적]**
+편집 도구]* > **[!UICONTROL Link Tracking]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -28,27 +28,27 @@ Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드
  <tbody> 
   <tr> 
    <td colname="col1"> ClickMap 활성화 </td>
-   <td colname="col2"> <p>방문자 클릭 맵 데이터를 모으는지 여부를 결정합니다. </p> <p>참조: [trackInlinestats](../../../vars/config-vars/trackinlinestats.md) </p> </td>
+   <td colname="col2"> <p>방문자 클릭 맵 데이터를 모으는지 여부를 결정합니다. </p> <p>trackInlinestats <a href="../../../vars/config-vars/trackinlinestats.md">를 참조하십시오</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 다운로드 링크 추적 </td>
-   <td colname="col2"> <p>사이트의 다운로드 가능 파일에 대한 링크를 추적합니다. </p> <p>참조: [trackDownloadLinks](../../../vars/config-vars/trackdownloadlinks.md)</p> </td>
+   <td colname="col2"> <p>사이트에서 다운로드 가능한 파일에 대한 링크를 추적합니다. </p> <p>trackDownloadLinks <a href="../../../vars/config-vars/trackdownloadlinks.md">를 참조하십시오</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> 다운로드 확장자 </td> 
-   <td colname="col2"> <p>나열된 확장자를 가진 파일에 대한 링크가 사이트에 포함된 경우 해당 링크의 URL이 보고에 나타납니다. </p>참조: [linkDownloadFileTypes](../../../vars/config-vars/linkdownloadfiletypes.md) </p> </td>
+   <td colname="col2"> <p>사이트에 나열된 확장명이 있는 파일에 대한 링크가 포함되어 있으면 이러한 링크의 URL이 보고에 나타납니다. </p>linkDownloadFileTypes <a href="../../../vars/config-vars/linkdownloadfiletypes.md">를 참조하십시오</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> 아웃바운드 링크 추적 </td>
-   <td colname="col2"> <p>클릭한 링크가 종료 링크인지 여부를 결정합니다. </p> <p>참조: [trackExternalLinks](../../../vars/config-vars/trackexternallinks.md) </p> <p><b>단일 페이지 앱 고려 사항: </b>일부 SPA 웹 사이트의 코딩 방식 때문에 SPA 사이트의 페이지에 대한 내부 연결이 아웃바운드 링크로 보일 수 있습니다. </p> <p>다음 방법 중 하나를 사용해 SPA 사이트에서 유래한 아웃바운드 링크를 추적할 수 있습니다. </p>
+   <td colname="col2"> <p>클릭한 링크가 종료 링크인지 여부를 결정합니다. </p> <p>trackExternalLinks <a href="../../../vars/config-vars/trackexternallinks.md">를 참조하십시오</a>. </p> <p><b>단일 페이지 앱 고려 사항: </b>일부 SPA 웹 사이트의 코딩 방식 때문에 SPA 사이트의 페이지에 대한 내부 연결이 아웃바운드 링크로 보일 수 있습니다. </p> <p>다음 방법 중 하나를 사용해 SPA 사이트에서 유래한 아웃바운드 링크를 추적할 수 있습니다. </p>
     <ul id="ul_A4179633ED0644C3BA5F548A58CA4EC9">
      <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>SPA의 아웃바운드 링크를 추적하지 않으려면 <span class="wintitle">추적 안 함</span> 섹션에 항목을 삽입합니다. </p> <p>예: <span class="filepath">https://testsite.com/spa/#</span> </p> <p>이 호스트에 대한 모든 # 링크가 무시됩니다. 다른 호스트에 대한 모든 아웃바운드 링크는 추적됩니다(예: <span class="filepath"></span>https://www.google.com). </p> </li>
      <li id="li_37DD4D37887243FB928C9C04ACE9D39E"> <p>SPA에서 추적하려는 링크가 있으면 <span class="wintitle">항상 추적</span> 섹션을 사용합니다. </p> <p>예를 들어 <span class="filepath">spa/#/about</span> 페이지가 있으면 <span class="wintitle">항상 추적</span> 섹션에 "about"을 삽입할 수 있습니다. </p> <p>about 페이지는 유일하게 추적되는 아웃바운드 링크이며 페이지의 다른 모든 링크(예: <span class="filepath"></span>https://www.google.com)는 추적되지 않습니다. </p> </li>
-    </ul> <p>이 두 옵션은 상호 배타적인 성격으로 동시에 선택할 수 없습니다. </p> </td> 
+    </ul> <p>이 두 옵션은 함께 사용할 수 없습니다. </p> </td> 
   </tr>
   <tr>
    <td colname="col1"> URL 매개 변수 유지 </td>
-   <td colname="col2"> <p>쿼리 문자열을 유지합니다. </p> <p>참조: [linkLeaveQueryString](../../../vars/config-vars/linkleavequerystring.md) </p> </td>
+   <td colname="col2"> <p>쿼리 문자열을 유지합니다. </p> <p>linkLeaveQueryString <a href="../../../vars/config-vars/linkleavequerystring.md">을 참조하십시오</a>. </p> </td>
   </tr>
  </tbody>
 </table>
