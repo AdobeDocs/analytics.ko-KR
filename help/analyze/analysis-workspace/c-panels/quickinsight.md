@@ -2,7 +2,7 @@
 description: 'null'
 title: 빠른 인사이트 빌더
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
    * 차원(여기, 미국 주)이 수직으로 있고 지표(여기, 방문 횟수)가 맨 위에 가로로 있는 자유 형식 테이블. 다음 표를 확인하십시오.
    ![](assets/qibuilder3.png)
-
 
    * 함께 제공되는 시각화, 이 경우 [막대 차트입니다](/help/analyze/analysis-workspace/visualizations/bar.md). 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 옆에 있는 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 **[!UICONTROL Bar]**&#x200B;있습니다.
 
