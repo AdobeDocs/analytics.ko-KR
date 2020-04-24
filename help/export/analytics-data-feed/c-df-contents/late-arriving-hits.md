@@ -1,7 +1,7 @@
 ---
 title: 늦게 도착하는 히트
 description: 데이터 피드에서 늦게 도착하는 히트를 처리하는 방법을 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
