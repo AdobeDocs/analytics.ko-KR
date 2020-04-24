@@ -2,7 +2,7 @@
 description: 데이터 피드에 대한 FAQ
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 데이터 피드 FAQ
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
