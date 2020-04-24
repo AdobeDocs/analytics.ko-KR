@@ -3,7 +3,7 @@ description: '다음은 데이터 피드 처리 및 배달에 대한 몇 가지 
 keywords: Data Feed;best practices;traffic spike;hourly;ftp
 title: 우수 사례 및 일반 정보
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
