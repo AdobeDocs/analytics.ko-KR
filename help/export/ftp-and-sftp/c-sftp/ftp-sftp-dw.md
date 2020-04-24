@@ -3,7 +3,7 @@ description: Adobe는 SFTP 서버로 Data Warehouse 요청 내보내기를 지�
 keywords: ftp;sftp
 title: SFTP 서버로 Data Warehouse 요청 보내기
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ SFTP를 통해 [!DNL Data Warehouse] 요청을 성공적으로 보내는 방법:
 1. 이 파일을 얻었으면 [!DNL Data Warehouse] 요청에 사용한 자격 증명으로 FTP 사이트에 로그인합니다.
 1. 루트 디렉토리에서 [!DNL .ssh] 폴더(이 폴더가 없는 경우 만들기)로 이동하여 이 폴더에 [!DNL authorized_keys] 파일을 저장합니다.
 
-1. [!DNL Data Warehouse] 요청 관리자로 이동합니다. 원하는 대로 요청을 구성하고 **[!UICONTROL 고급 배달 선택 사항]**&#x200B;을 클릭합니다.
+1. [!DNL Data Warehouse] 요청 관리자로 이동합니다. 원하는 대로 요청을 구성한 다음 을 **[!UICONTROL Advanced Delivery Options]**&#x200B;클릭합니다.
 
 1. 팝업 창에서 **[!UICONTROL FTP]**&#x200B;를 클릭하고 포트 22를 통해 ftp 사이트([!DNL sftp://] 프로토콜 포함, 예: [!DNL sftp://ftp.omniture.com])를 지정합니다.
 
@@ -41,7 +41,7 @@ SFTP를 통해 [!DNL Data Warehouse] 요청을 성공적으로 보내는 방법:
 
 1. [폴더] 필드에 파일을 저장할 폴더 이름을 입력합니다. 폴더는 필수입니다.
 1. 2단계에서 사용한 사용자 이름과 암호를 입력합니다.
-1. **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Send]**.
 
 sftp PUT 명령은 .part 확장명이 있는 임시 파일을 지정된 디렉토리에 저장합니다. 업로드가 완료되면 파일 확장명이 최종 확장명으로 이름이 바뀝니다. 이 시점에서 파일을 사용할 수 있습니다.
 
