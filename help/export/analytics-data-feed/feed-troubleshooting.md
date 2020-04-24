@@ -3,7 +3,7 @@ description: 이 섹션은 일반적인 문제에 대한 정보를 포함합니�
 keywords: Data Feed;troubleshooting
 title: 데이터 피드 문제 해결
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
