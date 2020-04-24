@@ -3,7 +3,7 @@ description: 능동 FTP와 수동 FTP는 포트 연결이 설정되는 방식을
 keywords: ftp;sftp
 title: 수동 FTP 모드 사용
 uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
