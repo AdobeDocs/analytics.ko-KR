@@ -2,7 +2,7 @@
 title: 사용자에게 미치는 영향 전달
 description: 조직에서 이벤트의 영향력을 전달하는 효과적인 방법을 살펴볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 2. 원하는 제목, 날짜 범위 및 노트 텍스트를 입력합니다.
 3. 클릭 **[!UICONTROL Save]**.
 
-![달력 이벤트](../assets/exclude_calendar_event.jpg)
+![달력 이벤트](../assets/exclude_calendar_event.png)
