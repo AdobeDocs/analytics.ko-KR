@@ -3,7 +3,7 @@ description: Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
 keywords: ftp;sftp
 title: SFTP를 통해 Adobe FTP 계정에 연결
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
