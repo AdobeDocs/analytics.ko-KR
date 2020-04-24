@@ -1,7 +1,7 @@
 ---
 title: 데이터 피드 UI
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -14,8 +14,8 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 다음 절차에 따라 데이터 피드 관리에 액세스하십시오.
 
 1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
-2. 오른쪽 상단에 있는 9개의 격자 메뉴를 클릭한 다음, [!UICONTROL 분석]을 클릭합니다.
-3. 상단 메뉴에서 [!UICONTROL 관리자] > [!UICONTROL 데이터 피드]를 클릭합니다.
+2. Click on the 9-grid menu in the top right, then click [!UICONTROL Analytics].
+3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 
 ![데이터 피드 메뉴](assets/AdminMenu.png)
 
@@ -25,7 +25,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ![데이터 피드](assets/feeds.png)
 
-설정된 피드가 없을 경우, 페이지에 [!UICONTROL 새 데이터 피드 만들기] 단추가 표시됩니다.
+설정된 피드가 없으면 페이지에 [!UICONTROL Create New Data Feed] 단추가 표시됩니다.
 
 ### 필터 및 검색
 
@@ -45,7 +45,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ### 추가
 
-새 피드를 만들려면 피드 및 작업 탭 근처에서 + [!UICONTROL 추가] 단추를 클릭하십시오. 자세한 내용은 [피드 추가](create-feed.md)를 참조하십시오.
+Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. 자세한 내용은 [피드 추가](create-feed.md)를 참조하십시오.
 
 ### 열
 
@@ -78,7 +78,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 사용 가능한 작업을 표시되게 하려면 데이터 피드 옆에 있는 확인란을 클릭하십시오.
 
 * **작업 내역**: 이 데이터 피드에 연결된 모든 작업을 표시합니다. 자동으로 [작업 관리 인터페이스](df-manage-jobs.md)로 이동합니다.
-* **삭제**: 데이터 피드를 삭제하여 데이터 피드의 상태를 [!UICONTROL 삭제됨]으로 설정합니다.
+* **삭제**:데이터 피드의 상태를 로 설정하여 데이터 피드를 [!UICONTROL Deleted]삭제합니다.
 * **복사**: 현재 피드의 모든 설정을 사용하는 [새 피드 만들기](create-feed.md)로 이동합니다. 두 개 이상의 데이터 피드를 선택한 경우에는 복사할 수 없습니다.
-* **일시 정지**: 피드 처리를 중단하고 상태를 [!UICONTROL 비활성]으로 설정합니다.
+* **일시 중지**:피드 처리를 중단하고 상태를 로 [!UICONTROL Inactive]설정합니다.
 * **활성화**: 비활성 피드에만 사용할 수 있습니다. 데이터 처리가 중단된 바로 그 위치의 데이터 처리를 선택하고 필요한 경우 날짜를 다시 채웁니다.
