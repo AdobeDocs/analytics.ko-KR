@@ -1,5 +1,5 @@
 ---
-description: 웹 사이트, 모바일 앱에서 수집되거나 웹 서비스 API 또는 데이터 소스를 사용하여 업로드된 데이터는 Adobe의 데이터 웨어하우스에서 처리 및 저장됩니다. 이 원시 클릭스트림 데이터는 Adobe Analytics에서 사용하는 데이터 세트를 형성합니다.
+description: 웹 사이트, 모바일 앱을 통해 수집되거나 웹 서비스 API 또는 데이터 소스를 이용하여 업로드되는 데이터는 Adobe의 Data Warehouse에서 처리되고 저장됩니다. 이 원시 클릭스트림 데이터는 Adobe Analytics에서 사용되는 데이터 세트를 이룹니다.
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics 데이터 피드 개요
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
