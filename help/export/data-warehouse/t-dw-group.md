@@ -3,7 +3,7 @@ description: 관리자가 사용자 그룹에 대한 Data Warehouse 보고 액�
 title: Data Warehouse 사용자 그룹 추가
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,22 +13,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 관리자가 사용자 그룹에 대한 Data Warehouse 보고 액세스 권한을 활성화할 수 있는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 그룹 편집]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 새 사용자 그룹 추가]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 사용자 그룹 정의]** 섹션에서 그룹 이름 필드에 이름을 입력합니다. 다음 그룹 정보를 입력하십시오.
+1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. 클릭 **[!UICONTROL Edit Groups]**.
+1. 클릭 **[!UICONTROL Add New User Group]**.
+1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. 다음 그룹 정보를 입력하십시오.
 
    (예: `Data Warehouse Access`)
-1. **[!UICONTROL 그룹 설명]** 필드에 설명을 입력합니다.
-1. **[!UICONTROL 보고서 세트 액세스 권한]** 섹션에서 그룹 구성원이 액세스할 수 있게 하려는 보고서 세트를 선택합니다.
-1. [!UICONTROL 도구]에서 **[!UICONTROL 모든 도구]**&#x200B;를 활성화합니다.
+1. 필드에 설명을 **[!UICONTROL Group Description]** 입력합니다.
+1. In the **[!UICONTROL Report Suite Access]** section, select the report suites that you want group members to be able to access.
+1. 에서 [!UICONTROL Tools]활성화합니다 **[!UICONTROL All Tools]**.
 
-   또는 **[!UICONTROL 사용자 지정]**&#x200B;을 클릭한 다음 **[!UICONTROL 사용자 지정 Data Warehouse 보고서]**&#x200B;를 활성화합니다.
+   또는 을 **[!UICONTROL Customize]**&#x200B;클릭한 다음 활성화합니다 **[!UICONTROL Custom Data Warehouse Report]**.
 
-1. [!UICONTROL 사용자 로그인 지정]에서 원하는 사용자 로그인을 추가합니다.
-1. **[!UICONTROL 그룹 저장]**&#x200B;을 클릭합니다.
+1. 에서 [!UICONTROL Assign User Logins]원하는 사용자 로그인을 추가합니다.
+1. 클릭 **[!UICONTROL Save Group]**.
 
-   다음번에 이 그룹에 추가된 사용자가 로그인하면 해당 사용자는 [!UICONTROL Reports &amp; Analytics] 메뉴에 추가된 Data Warehouse 옵션을 볼 수 있습니다.
+   다음번에 이 그룹에 추가된 사용자가 로그인하면 해당 사용자는 [!UICONTROL Reports & Analytics] 메뉴에 추가된 Data Warehouse 옵션을 볼 수 있습니다.
 
    >[!NOTE]
    >
