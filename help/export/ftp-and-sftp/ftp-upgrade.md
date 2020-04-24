@@ -3,7 +3,7 @@ description: Adobe FTP Server로 업그레이드하면 특정 서버 설정을 �
 keywords: ftp;sftp
 title: Adobe FTP 서버 업그레이드
 uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
