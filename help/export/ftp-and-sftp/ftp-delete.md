@@ -3,7 +3,7 @@ description: Adobe FTP 정책은 90일간 연속해서 유휴 상태로 남아 �
 keywords: ftp;sftp
 title: FTP 데이터 및 FTP 계정 삭제
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
