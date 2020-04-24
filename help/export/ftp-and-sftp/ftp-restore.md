@@ -3,7 +3,7 @@ description: FTP 계정에서 삭제된 데이터는 Adobe에서 복원할 수 �
 keywords: ftp;sftp
 title: 삭제된 FTP 데이터 및 FTP 계정 복원
 uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
