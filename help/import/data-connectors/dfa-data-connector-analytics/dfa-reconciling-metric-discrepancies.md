@@ -4,7 +4,7 @@ keywords: DFA
 title: 지표 불일치 조정
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,11 +56,11 @@ Analytics 15 베타 고객의 데이터 샘플을 보면 일반적으로 자사 
 * Floodlight Configuration의 모든 게재위치 및 광고 크리에이티브에 랜딩 페이지 URL의 clickThroughParam을 포함합니다(예: &quot;`?CID=1`&quot;). 이 매개 변수를 설정하지 못하면 Adobe Analytics JavaScript가 첫 번째 방문 히트 이후 발생하는 클릭스루를 모두 놓치게 됩니다.
 * 모든 게재위치 및 광고 소재에 JavaScript로 태그가 지정되고 DFA 통합 모듈이 있으며 해당 랜딩 페이지의 Floodlight 구성 ID가 게재된 광고의 Floodlight 구성 ID와 일치하는지 확인합니다. 주로 광고에 대한 랜딩 페이지가 타사 사이트 또는 게재된 광고로 설정되었기 때문에 불일치가 발생합니다.
 * 리치 미디어 광고 또는 Flash(swf) 광고를 사용하는 경우 DFA clicktracker를 누를 때마다 방문자의 브라우저도 쿼리 문자열에 포함된 `clickThroughParam`이 있는 랜딩 페이지로 리디렉션되는지 확인합니다. 브라우저를 리디렉션하지 못하면 클릭스루가 기록되지 않습니다.
-* 시간 초과는 DFA 데이터를 사용할 수 있지만 JavaScript가 제 시간에 응답을 받지 못한 인스턴스를 나타냅니다. 방문자가 랜딩 페이지에 도달하면 Adobe JavaScript는 DFA의 fls.doubleclick.net 서비스에서 방문자의 정보를 요청합니다.  `s.maxDelay` 매개 변수는 JavaScript가 FLS(Floodlight 서비스) 데이터를 기다리는 기간을 결정합니다. `s.maxDelay`가 너무 높으면 Adobe가 히트 데이터를 수집하기 전에 방문자가 사이트를 나갈 수 있습니다. 즉, 클릭 데이터가 기록되지 않습니다. `s.maxDelay`가 너무 낮게 설정된 경우에는 방문자의 인터넷 연결에서 FLS 데이터를 제시간에 검색할 수 없습니다. 즉, DFA 클릭 정보 없이 Adobe로 히트가 전송됩니다. 
+* 시간 초과는 DFA 데이터를 사용할 수 있지만 JavaScript가 제 시간에 응답을 받지 못한 인스턴스를 나타냅니다. 방문자가 랜딩 페이지에 도달하면 Adobe JavaScript는 DFA의 fls.doubleclick.net 서비스에서 방문자의 정보를 요청합니다. The `s.maxDelay` 매개 변수는 JavaScript가 FLS(Floodlight 서비스) 데이터를 기다리는 기간을 결정합니다. `s.maxDelay`가 너무 높으면 Adobe가 히트 데이터를 수집하기 전에 방문자가 사이트를 나갈 수 있습니다. 즉, 클릭 데이터가 기록되지 않습니다. `s.maxDelay`가 너무 낮게 설정된 경우에는 방문자의 인터넷 연결에서 FLS 데이터를 제시간에 검색할 수 없습니다. 즉, DFA 클릭 정보 없이 Adobe로 히트가 전송됩니다. 
 * 보트 트래픽이 DFA 클릭 수를 부풀릴 수 있습니다. 보트에 광고를 클릭하는 기능이 있을 수 있지만, Analytics 비콘을 실행하거나 동기화 스크립트 태그를 실행하여 Floodlight 서버 요청 데이터를 로드하는 과정이 복잡하지 않을 수 있습니다. 이러한 보트를 클릭 수 수치에서 제거하지 않은 경우 불일치의 원인이 될 수 있습니다.
-*  `s.maxDelay` 만료 전 및 DFA 데이터 반환 전에 페이지를 나가는 방문자는 손실되어, 이들에 대한 DFA 또는 방문자 데이터가 수집되지 않습니다.
+* 이전 페이지에서 나가는 방문자 `s.maxDelay` 만료 전 및 DFA 데이터 반환 전에 페이지를 나가는 방문자는 손실되어, 이들에 대한 DFA 또는 방문자 데이터가 수집되지 않습니다.
 * Analytics는 중복 클릭스루를 식별하여 제거하려고 하므로 클릭스루가 방문당 캠페인별로 한 번만 계산됩니다. DFA는 추가 ACM 클릭 수처럼 “뒤로”를 클릭하고 광고 리디렉션을 여러 번 통과한 방문자를 계산하지만, Analytics는 이들을 복수 클릭스루로 계산하지 않습니다.
-* DFA Floodlight 태그는 활성화된 JavaScript를 사용하지 않지만, Analytics는 사용합니다. 이러한 이유로 Analytics가 히트를 기록하지 않을 때 DFA가 히트를 기록하는 경우가 있습니다. 이러한 경우가 문제가 되는지 식별하려면 방문자 프로필 메뉴에서 Analytics JavaScript 보고서를 사용합니다.
+* DFA Floodlight 태그는 활성화된 JavaScript를 사용하지 않지만, Analytics는 사용합니다. 이러한 이유로 Analytics가 히트를 기록하지 않을 때 DFA가 히트를 기록하는 경우가 있습니다. 이러한 경우가 문제가 되는지 식별하려면 [방문자 프로필] 메뉴에서 Analytics JavaScript 보고서를 사용합니다.
 
 ### DFA 노출 후 액티비티 수가 Adobe Analytics 뷰스루보다 많은 이유는 무엇입니까? {#section-5daa91039c404df48b6a3447c20406f7}
 
