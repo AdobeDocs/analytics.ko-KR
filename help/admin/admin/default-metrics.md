@@ -3,7 +3,7 @@ description: 사용자가 사용자 지정 지표 세트를 선택하지 않는 
 title: 기본 지표
 topic: Admin tools
 uuid: 85d50082-aab6-4c4f-b88b-77c9a35b3f6e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
