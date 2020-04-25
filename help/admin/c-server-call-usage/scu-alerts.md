@@ -2,7 +2,7 @@
 description: 서버에 모든 사용량 경고를 추가하거나 관리합니다. 경고를 설정하면 청구 회사의 모든 로그인 회사에 있는 모든 보고서 세트에 적용됩니다.
 title: 서버 호출 사용량 경고
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -73,6 +73,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    | 이름 변경 | 기본 경고를 제외한 모든 경고의 이름을 바꿀 수 있습니다. |
    | 승인 | 경고를 승인하여 &quot;공식적&quot;으로 만듭니다. |
    | 활성화/비활성화 | 기본 경고를 포함하여 모든 경고를 활성화하거나 비활성화할 수 있습니다. |
-   | 갱신 | 한 개 이상의 경고를 선택한 경우 갱신할 수 있습니다. 이렇게 하면 원래 만료 날짜와 상관없이 [!UICONTROL 갱신]을 클릭한 날로부터 1년으로 만료 날짜가 연장됩니다. |
+   | 갱신 | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | CSV로 내보내기 | [사용량 보고서 다운로드](/help/admin/c-server-call-usage/report-suite-usage.md)를 참조하십시오. |
 
