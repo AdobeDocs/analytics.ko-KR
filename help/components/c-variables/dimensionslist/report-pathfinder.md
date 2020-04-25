@@ -2,7 +2,7 @@
 description: 경로 탐색 보고서는 전체 경로를 단편으로 세분하여 사이트를 최적화하는 데 유용한 도구인 정밀 패턴을 파악하는 데 도움이 됩니다.
 title: 경로 탐색
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
