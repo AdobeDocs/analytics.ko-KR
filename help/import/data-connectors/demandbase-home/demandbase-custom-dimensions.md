@@ -2,7 +2,7 @@
 description: Adobe 통합 마법사의 4단계에서 지정할 수 있는 선택적 차원 식별자를 나열합니다.
 title: Demandbase 사용자 지정 차원
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
