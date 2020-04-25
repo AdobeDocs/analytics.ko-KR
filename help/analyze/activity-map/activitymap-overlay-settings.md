@@ -3,7 +3,7 @@ description: Activity Map 설정 패널에서는 모든 유형의 오버레이 �
 title: Activity Map 설정 구성
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
