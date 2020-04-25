@@ -3,7 +3,7 @@ description: 모바일 장치를 지원하는 비디오 형식 유형에 따라 
 title: 비디오 지원
 topic: Reports
 uuid: a1dcf60a-a1e5-4a0c-9aec-3fadc71c22c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
