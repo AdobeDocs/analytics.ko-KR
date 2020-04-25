@@ -15,12 +15,12 @@ Adobe offers the ability to track outbound links without manually setting the [`
 
 ## Adobe Experience Platform Launch에서 아웃바운드 링크 추적
 
-Track outbound links is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+아웃바운드 링크 추적은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 확인란입니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 확인란을 표시하는 [!UICONTROL Link Tracking] 아코디언을 [!UICONTROL Track outbound links] 확장합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+4. [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 [!UICONTROL 아웃바운드 링크 추적] 확인란이 표시됩니다.
 
 자동 종료 링크 추적을 활성화하려면 확인란을 클릭하십시오.
 
