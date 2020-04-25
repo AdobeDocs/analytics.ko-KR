@@ -3,7 +3,7 @@ description: 다양한 광고 추적 코드가 사이트의 여러 전환 이벤
 title: 추적 코드
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
