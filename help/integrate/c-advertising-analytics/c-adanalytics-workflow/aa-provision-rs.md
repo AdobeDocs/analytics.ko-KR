@@ -12,11 +12,11 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 
 Analytics에서 Advertising Analytics 검색 데이터를 보려면 Advertising Analytics 보고용 각 Experience Cloud 매핑 보고서 세트를 구성해야 합니다.
 
-1. [보고서 세트를 조직에 매핑합니다](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
-1. > **[!UICONTROL Admin]** 으로 **[!UICONTROL Report Suites]**&#x200B;이동합니다.
+1. [보고서 세트를 조직에 매핑합니다](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html).
+1. **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다.
 
 1. Experience Cloud 조직에 매핑된 보고서 세트를 선택합니다.
-1. 클릭 **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL Advertising Analytics 구성]**&#x200B;을 클릭합니다.
 
    ![보고](assets/aa_reporting.png)
 
@@ -30,5 +30,5 @@ Analytics에서 Advertising Analytics 검색 데이터를 보려면 Advertising 
    | 최근(마지막) | 표시된 마지막 값은 전에 실행된 변수에 관계없이 성공 이벤트에 대한 전체 할당 크레딧을 받습니다. |
    | 다음 시기 이후에 만료 | eVar 값이 만료된 후 기간 또는 이벤트를 지정할 수 있습니다(예: 성공 이벤트에 대한 크레딧을 더는 받지 않음).  성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다(eVar가 활성화되지 않았음). |
 
-1. 클릭 **[!UICONTROL Enable Advertising Analytics Reporting]** (처음)하거나 **[!UICONTROL Update Advertising Analytics Reporting]** (이후 시간)합니다. 이제 보고서 세트가 Advertising Analytics 검색 데이터를 받을 준비가 되었습니다. [광고 계정을 생성](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)할 준비가 되지 않았습니다.
+1. **[!UICONTROL Advertising Analytics 보고 활성화]**(맨 처음) 또는 **[!UICONTROL Advertising Analytics 보고 업데이트]**(이후)를 클릭합니다. 이제 보고서 세트가 Advertising Analytics 검색 데이터를 받을 준비가 되었습니다. [광고 계정을 생성](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)할 준비가 되지 않았습니다.
 
