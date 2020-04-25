@@ -3,7 +3,7 @@ description: Adobe Analytics에서 수집하는 데이터와 기타 개인 정�
 keywords: privacy
 title: 개인 정보 보호 개요
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
