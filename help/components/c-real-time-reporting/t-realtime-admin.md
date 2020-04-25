@@ -3,7 +3,7 @@ description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 실시간 보고서를 활성화할 보고서 세트를 선택합니다.
 
-   **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 모든 보고서 보기 > 사이트 지표]** > **[!UICONTROL 실시간]**&#x200B;으로 이동하고 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
+   **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 모두 보고서 보기 > 사이트 지표]** > **[!UICONTROL 실시간]**&#x200B;으로 이동하고 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
 
    ![](assets/report_suite_selector.png)
 
