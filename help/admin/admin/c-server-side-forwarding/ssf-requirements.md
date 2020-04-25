@@ -3,7 +3,7 @@ description: 서버측 전달을 구현하려면 이러한 Experience Cloud 솔�
 solution: Audience Manager
 title: 서버 측 전달 요구 사항
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
