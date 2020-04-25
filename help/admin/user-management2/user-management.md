@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 사용자 및 제품 관리
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
@@ -117,7 +117,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 양도</span> </td> 
-   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p> <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 사용자 계정 권한 이전</a> 참조. </p> </td> 
+   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 사용자 계정 권한 이전</a> 참조. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 이 사용자로 로그인</span> </td> 
