@@ -3,7 +3,7 @@ description: 선택된 기간 동안의 웹 사이트 주문 수를 표시합니
 title: 주문
 topic: Reports
 uuid: de7786c5-8fa3-4d96-977d-4a6b1d033028
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
