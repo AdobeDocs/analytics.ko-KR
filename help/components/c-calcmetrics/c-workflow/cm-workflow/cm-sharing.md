@@ -2,7 +2,7 @@
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 지표를 공유할 수 있습니다.
 title: 계산된 지표 공유
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
