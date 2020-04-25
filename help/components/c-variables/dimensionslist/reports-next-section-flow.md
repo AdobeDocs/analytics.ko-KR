@@ -3,7 +3,7 @@ description: 다음 섹션 흐름은 다음 페이지 흐름과 유사합니다.
 title: 다음 섹션 흐름
 topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
