@@ -15,7 +15,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **기여도 분석 모델을 사용할 때때로 보고 기간 밖의 날짜가 표시되는 이유는 무엇입니까?**
 
-이러한 추가적인 날짜는 방문자 보고 전환 확인 기간으로 인한 것입니다. 자세한 내용은 Analytics KB의 [보고 기간을 벗어나서 나타나는 데이터](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)를 참조하십시오. Adobe에서는 향후 릴리스에서 이러한 추가 행을 필터링할 계획입니다.
+이러한 추가적인 날짜는 방문자 보고 전환 확인 기간으로 인한 것입니다. 자세한 내용은 Analytics KB의 [보고 기간을 벗어나서 나타나는 데이터](https://helpx.adobe.com/kr/analytics/kb/data-appearing-outside-reporting-window.html)를 참조하십시오. Adobe에서는 향후 릴리스에서 이러한 추가 행을 필터링할 계획입니다.
 
 **내 기여도 분석 모델과 함께 사용자 지정 전환 확인 기간을 사용할 수 있습니까?**
 
