@@ -3,7 +3,7 @@ description: 온라인 서비스에 대한 액세스를 제공하는 은행 및 
 title: 금융 서비스
 topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
