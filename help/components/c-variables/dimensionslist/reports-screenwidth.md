@@ -3,7 +3,7 @@ description: 다양한 모바일 장치의 화면 너비와 각 화면 너비의
 title: 화면 너비
 topic: Reports
 uuid: 2a3258fb-c973-4a0a-b7d8-e916fcd5a30d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
