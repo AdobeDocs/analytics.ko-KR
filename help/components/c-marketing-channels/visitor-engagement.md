@@ -28,10 +28,10 @@ source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 
 방문자 참여 만료 지정
 
-1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 보고서 세트 관리자]에서 **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 만료]**&#x200B;를 클릭합니다.
 
    ![](assets/mchannel_expiration.png)
 
 1. 방문자 유도 만료 필드를 구성합니다.
-1. 확대/축소한 후에 **[!UICONTROL Save.]**
+1. **[!UICONTROL 저장을 클릭합니다.]**
