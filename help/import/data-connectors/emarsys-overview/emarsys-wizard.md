@@ -2,7 +2,7 @@
 description: Data Connectors 통합 마법사는 Data Connectors 통합 프로세스를 단계별로 안내합니다.
 title: Data Connectors 통합 마법사 실행
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
