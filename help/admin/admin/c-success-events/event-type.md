@@ -3,7 +3,7 @@ description: 데이터가 수집된 이후에 이벤트 유형 변경 결과를 
 title: 이벤트 유형 변경 정보
 topic: Admin tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
