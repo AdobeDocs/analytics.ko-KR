@@ -3,7 +3,7 @@ description: 서버 측 전달이 제대로 활성화되었는지 확인하려�
 solution: Audience Manager
 title: 서버 측 전달 구현 확인 방법
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
