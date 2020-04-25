@@ -1,6 +1,6 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # 제품 프로필 권한에 나열된 보고서 세트 도구
