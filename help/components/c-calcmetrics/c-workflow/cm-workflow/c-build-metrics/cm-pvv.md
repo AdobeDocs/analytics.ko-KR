@@ -2,7 +2,7 @@
 description: 간단한 "방문당 페이지 보기 수" 지표를 만드는 방법을 표시합니다.
 title: 간단한 "방문자 수당 페이지 보기 수" 지표 작성
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
