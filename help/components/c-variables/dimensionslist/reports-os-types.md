@@ -3,7 +3,7 @@ description: 운영 체제 보고서에서 운영 체제 보고서의 특정 버
 title: 운영 체제 유형
 topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
