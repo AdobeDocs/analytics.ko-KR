@@ -3,7 +3,7 @@ description: 웹 사이트에서 판매하거나 배포 또는 표시하는 항�
 title: 제품 보고서
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
