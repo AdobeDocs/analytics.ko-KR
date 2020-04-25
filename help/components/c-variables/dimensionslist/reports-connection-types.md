@@ -17,8 +17,8 @@ source-git-commit: b580a8cb149babd9f64ec1ac532fdff7e7c18df7
 
 ## 예
 
-다음 보고서는 지표 방문 횟수 및 페이지 [보기에 대한](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) 연결 유형을 [비교합니다](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html).
+다음 보고서는 지표 방문 횟수 및 페이지 [보기에 대한](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/metrics/metrics-visit.html) 연결 유형을 [비교합니다](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html).
 
-![보고서를 표시합니다](assets/contype_compare.png)
+![보고서](assets/contype_compare.png)
 
 이동통신사 보고서를 보면 이동통신사 연결 유형에 대한 추가 인사이트를 찾을 [**수 있습니다&#x200B;**](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile-carrier.html).
