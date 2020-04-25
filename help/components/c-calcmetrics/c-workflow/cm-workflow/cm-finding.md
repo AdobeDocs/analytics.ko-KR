@@ -2,7 +2,7 @@
 description: 지표를 찾는 두 가지 주요 방법, 즉 정렬과 필터링에 대해 설명합니다.
 title: 지표 찾기
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
