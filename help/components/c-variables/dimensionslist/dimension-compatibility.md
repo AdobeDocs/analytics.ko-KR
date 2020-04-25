@@ -1,7 +1,7 @@
 ---
 title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |---|---|
-| 타겟 분석 | targetraw |
+| Target용 Analytics | targetraw |
 | 대상 ID | mcaudiences |
 | 브라우저 | browser |
 | 브라우저 유형 | browsertype |
@@ -68,12 +68,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 모니터 해상도 | monitorresolution |
 | 운영 체제 | operatingsystem |
 | 최초 참조 도메인 | referringdomainoriginal |
-| 페이지 | page |
+| 페이지 | 페이지를 |
 | 페이지를 찾을 수 없음 | pagesnotfound |
 | 제품 | product |
 | 레퍼러 | 레퍼러 |
 | 레퍼러 유형 | referrertype |
-| 조회 도메인 | referringdomain |
+| 참조 도메인 | referringdomain |
 | 지역 | georegion |
 | 반환 주기 | returnfrequency |
 | SC-TnT | tntbase |
