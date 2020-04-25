@@ -3,7 +3,7 @@ description: 파일 다운로드는 방문자가 사이트에서 파일을 다�
 title: 파일 다운로드
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
