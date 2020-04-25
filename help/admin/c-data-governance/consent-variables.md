@@ -35,12 +35,12 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설정을 통해 개인 정보 보호 보고 변수를 활성화할 수 있습니다.
 
 각 보고서 세트는 다음과 같이 구성할 수 있습니다.
-1. 보고 및 분석에서 을 **[!UICONTROL Admin > Report Suites]**&#x200B;클릭합니다.
-1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings > Privacy Management]**.
+1. Reports &amp; Analytics에서 **[!UICONTROL 관리자 > 보고서 세트]**&#x200B;를 클릭합니다.
+1. 미디어 데이터를 수집하는 보고서 세트를 선택한 다음 **[!UICONTROL 설정 편집 > 개인 정보 관리]**&#x200B;를 클릭합니다.
 
    ![](assets/rsm-privacy-select.png)
 
-1. 단추를 **[!UICONTROL Enable Data Privacy Reports]** 클릭합니다.
+1. **[!UICONTROL 데이터 개인 정보 보고서 활성화]** 단추를 클릭합니다.
 
    > [!NOTE] 이러한 변수를 활성화하면 해제할 수 없습니다.
 
@@ -58,14 +58,14 @@ Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설�
 
 개인 정보 보호 보고 관리 예약 변수와 함께 작동하도록 3개의 컨텍스트 데이터 변수가 미리 정의되어 있습니다.  이러한 변수의 설정을 관리하고 유지하는 방법은 각 구현 엔지니어에게 달려 있습니다.
 
-컨텍스트 데이터 변수 구현에 대한 일반적인 지침은 [컨텍스트 데이터 변수](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)를 참조하십시오.
+컨텍스트 데이터 변수 구현에 대한 일반적인 지침은 [컨텍스트 데이터 변수](https://docs.adobe.com/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)를 참조하십시오.
 
 ### SSF
 
 * 컨텍스트 데이터: `contextData.['cm.ssf']`
 * 허용된 값:
-   * 1 - 값 &quot;1&quot;을 전송할 때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 함께 &quot;1&quot; 값을 지정하면 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. [AAM ePrivacy 규정 준수](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)를 참조하십시오.
-   * 0 - 선택 사항입니다. 타깃팅된 마케팅에 동의한 고객에 대해 값 &quot;0&quot;을 사용합니다. 변수를 설정하지 않으면 동일한 결과가 생성됩니다.
+   * 1 - 값 &quot;1&quot;을 전송할 때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 함께 &quot;1&quot; 값을 지정하면 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. [AAM ePrivacy 규정 준수](https://docs.adobe.com/help/ko-KR/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)를 참조하십시오.
+   * 0 - 선택 사항입니다. 타겟 마케팅에 동의한 고객에 대해 값 &quot;0&quot;을 사용합니다. 변수를 설정하지 않아도 동일한 결과가 생성됩니다.
 
 ### DMP
 
