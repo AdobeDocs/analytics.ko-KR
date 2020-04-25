@@ -27,14 +27,14 @@ For these download types, you can manually call the [`tl()`](../functions/tl-met
 
 ## Adobe Experience Platform Launch의 다운로드 확장자
 
-Download Extensions is a list of file extensions with a field to add more under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+다운로드 확장자는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 더 추가할 수 있는 필드가 있는 파일 확장자 목록입니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 필드를 나타내는 [!UICONTROL Link Tracking] [!UICONTROL Download Extensions] 아코디언을 확장합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+4. [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 [!UICONTROL 다운로드 확장자] 필드가 표시됩니다.
 
-Add file extensions to the list by entering text in the field and clicking [!UICONTROL Add]. 해당 &#39;X&#39; 아이콘을 클릭하여 목록에서 파일 확장자를 제거합니다.
+필드에 텍스트를 입력하고 [!UICONTROL 추가]를 클릭하여 목록에 파일 확장자를 추가하십시오. 해당 &#39;X&#39; 아이콘을 클릭하여 목록에서 파일 확장자를 제거합니다.
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkDownloadFileTypes
 
