@@ -3,7 +3,7 @@ description: '방문 중에 선택된 전환 이벤트가 발생하기까지 경
 title: 이벤트까지 남은 시간
 topic: Reports
 uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
