@@ -3,7 +3,7 @@ description: 게시 목록을 사용하면 별도의 예약 보고서를 여러 
 title: 게시 목록
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
