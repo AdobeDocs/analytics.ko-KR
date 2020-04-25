@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 사용자 지정 날짜 범위 만들기
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구성 요소로 저장합니다.
 
-**[!UICONTROL 구성 요소]** > **[!UICONTROL 새 데이터 범위]**
+**[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
 
 날짜 범위는 패널 수준에서 적용됩니다. 날짜 범위를 프로젝트에 추가하려면 **패널** > *`<select panel>`*&#x200B;을 클릭하고 새 날짜 범위를 지정하십시오.
 
@@ -24,7 +24,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/date-range-two-months-ago.png)
 
-사용자 지정 날짜 범위는 프로젝트의 [!UICONTROL 날짜 범위] 구성 요소 패널의 맨 위에 표시됩니다.
+The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -42,7 +42,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/create_date_range.png)
 
- *`rolling daily`*.
+사용 *`rolling daily`*.
 
 * 시작 설정은 *`current day minus 14 days`*.
 
