@@ -3,7 +3,7 @@ description: 선택된 기간 동안의 웹 사이트 주문 수. 다른 지표�
 title: 주문
 topic: Metrics
 uuid: b20ad038-370b-4343-a394-434d3c4bd111
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
