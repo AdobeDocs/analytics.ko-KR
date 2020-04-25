@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics의 동작 보고서
 description: Adobe Analytics에서 동작 보고서를 작성하는 방법 알아보기
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
