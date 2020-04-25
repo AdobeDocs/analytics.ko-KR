@@ -3,7 +3,7 @@ description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표�
 title: '페이지 상세정보 '
 topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
