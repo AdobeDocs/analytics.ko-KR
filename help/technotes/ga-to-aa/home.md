@@ -1,7 +1,7 @@
 ---
 title: 타사 분석 플랫폼에서 Adobe Analytics로 전환
 description: Google Analytics 같은 다른 플랫폼에 익숙한 사용자에 초점을 맞춰, 보고서를 얻기 위한 주요 개념을 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
