@@ -19,5 +19,5 @@ source-git-commit: f2c6dcb2151a3183cbd0d3c90522983288759250
 
 이 데이터를 사용하면 사이트에서 방문자를 가장 자주 이동시키는 컨텐츠, 기능 등에 대해 이해하는 데 도움이 됩니다.
 
-선택한 페이지 전후의 고객 경로에 대한 자세한 내용은 다음 페이지 흐름 [보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-next-page-flow.html) 도움말을 참조하십시오.
+선택한 페이지 전후의 고객 경로에 대한 자세한 내용은 [다음 페이지 흐름](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-next-page-flow.html) 보고서 도움말을 참조하십시오.
 
