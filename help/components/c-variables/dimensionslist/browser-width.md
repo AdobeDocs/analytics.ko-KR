@@ -3,7 +3,7 @@ description: 브라우저 창에서만 데이터의 가로/세로 거리를 참�
 title: 브라우저 너비/높이
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
