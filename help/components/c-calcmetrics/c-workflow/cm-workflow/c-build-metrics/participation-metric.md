@@ -1,5 +1,5 @@
 ---
-description: 계산된 지표 빌더를 사용하면 누구나 기여도 지표를 만들 수 있습니다.
+description: 계산된 지표 빌더를 사용하여 누구나 기여도 지표를 만들 수 있습니다.
 title: 기여도 지표
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
@@ -18,12 +18,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 계산된 지표 빌더에서 새 지표를 만듭니다.
 1. 성공 이벤트 &quot;주문&quot;을 정의 캔버스로 드래그합니다.
-1. Change the [attribution model](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. 룩백을 **[!UICONTROL Visit]** 선택합니다. 정의는 다음과 유사해야 합니다.
+1. 해당 이벤트의 [기여도 분석 모델](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)을 **[!UICONTROL 설정]** 톱니바퀴 아래에 있는 **[!UICONTROL 기여도]**&#x200B;로 변경합니다. **[!UICONTROL 방문]** 전환 확인을 선택합니다. 정의 모양은 다음과 같아야 합니다.
 
    ![](assets/participation.png)
 
 1. 지표를 저장합니다.
-1. Use the calculated metric in a **[!UICONTROL Pages]** report.
+1. **[!UICONTROL 페이지]** 보고서에서 계산된 지표를 사용합니다.
 
    ![](assets/participation-pages.png)
 
