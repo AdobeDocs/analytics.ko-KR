@@ -2,7 +2,7 @@
 description: 'null'
 title: 테이블 페이지 매김, 필터링 및 정렬
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 필터 아이콘을 클릭한 다음 자유 형식 테이블의 차원 옆에 있는 [고급 표시]를 클릭하면 다음 기준을 사용하여 필터링할 수 있습니다.
 
 * 다음 포함
-* 포함하지 않음
+* 다음을 포함하지 않음
 * 다음 검색어 포함
 * 검색어를 하나라도 포함
 * 구문 포함
