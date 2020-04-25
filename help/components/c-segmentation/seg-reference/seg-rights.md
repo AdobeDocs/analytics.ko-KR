@@ -3,7 +3,7 @@ description: 이제 관리자 수준 사용자가 사용할 수 있는 세그먼
 title: 역할별 세그먼트 권한
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
