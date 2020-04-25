@@ -3,7 +3,7 @@ description: 일반 웹 사이트에 대한 여러 가지 일반 변수 및 성�
 title: 기본 템플릿
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
