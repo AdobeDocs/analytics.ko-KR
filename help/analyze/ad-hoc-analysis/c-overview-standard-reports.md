@@ -3,7 +3,7 @@ description: 표준 보고서에는 웹 사이트 및 방문자 활동 데이터
 title: 보고서 개요
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Marketing Reports &amp; Analytics을 사용하는 경우에는 익숙한 보고�
 
 [!UICONTROL 합계 보고서]와 같이 빠른 개요를 위해 설계된 데이터를 보여주는 보고서를 포함합니다. 데이터에 대한 일반적인 개요가 필요한 경영진에게 유용한 보고서입니다.
 
-**전환 보고서**
+**변환 보고서**
 
 전환 보고서로 고객 활동을 간편하고 정확하게 세부적으로 분석할 수 있습니다. 캠페인 관리, 영업 주기, 고객 폴아웃 및 고객 전환과 같은 지표로 전자 상거래, 영업 소스, 광고 효과, 고객 충성도 등을 측정할 수 있습니다.
 
