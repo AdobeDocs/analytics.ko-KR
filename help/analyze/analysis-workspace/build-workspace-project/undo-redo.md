@@ -2,7 +2,7 @@
 description: Analysis Workspace의 실행 취소 옵션에 대한 변경 사항 및 개선 사항.
 title: 실행 취소 및 다시 실행 설정
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 실행 취소 및 다시 실행 설정
 
-**[!UICONTROL Workspace]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 실행 취소/다시 실행]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* **[!UICONTROL 다시 실행]** 선택 사항(실행 취소를 다시 실행)은 **[!UICONTROL 편집]** 메뉴에 있습니다.
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* **[!UICONTROL 저장]**&#x200B;을 클릭해도 **[!UICONTROL 실행 취소]** 스택이 지워지지 않습니다.
+* 을 **[!UICONTROL Save]** 클릭해도 **[!UICONTROL Undo]** 스택이 지워지지 않습니다.
 
-* **[!UICONTROL 새 프로젝트]** 또는 **[!UICONTROL 기존 프로젝트 열기]**&#x200B;를 사용하면 **[!UICONTROL 실행 취소]** 스택이 지워집니다.
+* **[!UICONTROL New Project]** 또는 **[!UICONTROL Open Existing Project]** 스택 **[!UICONTROL Undo]** 지우기
 
 * 보고서 세트 변경을 실행 취소/다시 실행할 수 있습니다.
 * 프로젝트 이름 근처에 실행 취소/다시 실행 메시지가 표시됩니다. 이 메시지는 실행 취소나 다시 실행이 진행 중이면 표시됩니다.
