@@ -2,7 +2,7 @@
 description: 다음 지표는 appFigures 통합의 일부로 동기화됩니다.
 title: 지표 및 차원
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
