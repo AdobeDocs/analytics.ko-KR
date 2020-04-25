@@ -3,7 +3,7 @@ description: 모바일 장치를 휴대 전화, 태블릿, e-reader, 게임 콘�
 title: 장치 유형
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
