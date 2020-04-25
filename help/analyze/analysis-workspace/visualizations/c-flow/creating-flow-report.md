@@ -2,7 +2,7 @@
 description: 'null'
 title: 플로우 시각화 구성
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,12 +32,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 다이어그램의 경로들은 비례합니다. 활동이 많은 경로일수록 더 두껍게 표시됩니다. 
 
-다이어그램에 있는 노드를 클릭하면 해당 노드에 대한 세부 사항이 표시됩니다. 예를 들어, 위의 맨 위 다이어그램에서 오른쪽에 있는 **[!UICONTROL 검색 결과]**&#x200B;를 클릭하면 다이어그램이 확장되어 검색 결과 노드에 대한 세부 사항이 더 많이 표시됩니다. 축소하려면 노드를 다시 클릭하십시오. 
+다이어그램에 있는 노드를 클릭하면 해당 노드에 대한 세부 사항이 표시됩니다. For example, if you click **[!UICONTROL Search Results]** at the top right in the top diagram above, the diagram expands to show more details about the search results node. 축소하려면 노드를 다시 클릭하십시오. 
 
 ![](assets/flow3.jpg)
 
-기본적으로 다이어그램에는 상위 5개의 흐름이 표시됩니다. 다이어그램의 맨 아래에 있는 **[!UICONTROL 자세히]** 노드를 클릭하면 아래쪽으로 다이어그램이 확장되어 5개의 흐름이 더 표시됩니다. 계속하여 **[!UICONTROL 자세히]**&#x200B;를 클릭하여 표시되는 추가 흐름이 없을 때까지 확장하십시오. 
+기본적으로 다이어그램에는 상위 5개의 흐름이 표시됩니다. If you click on the **[!UICONTROL More]** node at the bottom of the diagram, the diagram expands down to show five more flows. Continue clicking **[!UICONTROL More]** to expand until there are no additional flows to show.
 
 흐름 다이어그램 내에서 탐색할 수 있는 양에는 제한이 없습니다.
 
-**[!UICONTROL 프로젝트]** > **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 프로젝트의 .CSV 파일의 일부로서 플로우 다이어그램을 내보내고 추가로 분석할 수도 있습니다.
+You can also export and further analyze your Flow diagram as part of a project&#39;s .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
