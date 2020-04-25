@@ -3,7 +3,7 @@ description: 마케팅 채널 개요 보고서는 고객이 가장 효율적으�
 title: 마케팅 채널 개요
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
