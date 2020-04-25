@@ -2,7 +2,7 @@
 description: 이 통합 배포는 간단한 3단계 프로세스입니다.
 title: 통합 배포
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
