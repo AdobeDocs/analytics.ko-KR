@@ -3,7 +3,7 @@ description: 계산 및 고급 계산(또는 파생) 지표는 기존의 지표�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 계산 및 고급 계산(파생) 지표
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
