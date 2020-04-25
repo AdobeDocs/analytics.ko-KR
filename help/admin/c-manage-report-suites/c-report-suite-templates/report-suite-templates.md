@@ -3,7 +3,7 @@ description: 보고서 세트 템플릿은 여러 유형의 보고서 세트에 
 title: 보고서 세트 템플릿 개요
 topic: Admin tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
