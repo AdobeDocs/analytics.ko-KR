@@ -3,7 +3,7 @@ description: 특정 기간 동안 모든 제품에서 생성된 수입 금액을
 title: '수입 '
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
