@@ -1,7 +1,7 @@
 ---
 title: 개발 환경에 Adobe Analytics 배포
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
