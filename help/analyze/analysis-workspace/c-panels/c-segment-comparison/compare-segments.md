@@ -1,7 +1,7 @@
 ---
 title: 리디렉션
 description: 이 페이지는 이동되었습니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
