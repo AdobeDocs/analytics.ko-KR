@@ -2,7 +2,7 @@
 description: 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다.
 title: 텍스트
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
