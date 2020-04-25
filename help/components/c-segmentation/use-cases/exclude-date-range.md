@@ -15,7 +15,7 @@ source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 영향을 받는 날짜 또는 날짜 범위를 격리하는 세그먼트를 만듭니다. 이 세그먼트는 영향을 받는 부분에 대한 자세한 정보를 보기 위해 문제 일에만 집중하려는 경우에 유용합니다.
 
-1. > **[!UICONTROL Components]** 로 이동하여 세그먼트 빌더를 **[!UICONTROL Segments]**&#x200B;연 다음 을 **[!UICONTROL Add]**&#x200B;클릭합니다.
+1. 구성 요소 > **[!UICONTROL 세그먼트로 이동하여]** 세그먼트 **[!UICONTROL 빌더를]**&#x200B;연 **[!UICONTROL 다음 추가를]**&#x200B;클릭합니다.
 2. &#39;일&#39; 차원을 정의 캔버스로 드래그하고 분리할 날짜와 동일하게 설정합니다.
 3. 보고서에서 분리하려는 매일 위의 단계를 반복합니다.
 
@@ -29,8 +29,8 @@ source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 영향을 받는 일 또는 날짜 범위를 제외하는 세그먼트를 만듭니다. 이 세그먼트는 문제가 발생한 날을 제외하여 전체 보고에 미치는 영향을 최소화하려는 경우에 유용합니다.
 
-1. > **[!UICONTROL Components]** 로 이동하여 세그먼트 빌더를 **[!UICONTROL Segments]**&#x200B;연 다음 을 **[!UICONTROL Add]**&#x200B;클릭합니다.
-2. 세그먼트 정의 캔버스의 오른쪽 맨 위에서 **[!UICONTROL Options]** > **[!UICONTROL Exclude]**&#x200B;을 클릭합니다.
+1. 구성 요소 > **[!UICONTROL 세그먼트로 이동하여]** 세그먼트 **[!UICONTROL 빌더를]**&#x200B;연 **[!UICONTROL 다음 추가를]**&#x200B;클릭합니다.
+2. 세그먼트 정의 캔버스의 오른쪽 맨 위에서 옵션 > **[!UICONTROL 제외를]** **[!UICONTROL 클릭합니다]**.
 3. &#39;일&#39; 차원을 정의 캔버스로 드래그하고 제거할 날짜와 동일하게 설정합니다.
 4. 보고서에서 제거할 매일 위의 단계를 반복합니다.
 
@@ -50,7 +50,7 @@ source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 &#39;영향을 받는 일 수 제외&#39; 세그먼트를 작업 공간 프로젝트에 적용할 수 있습니다. 제외 세그먼트를 작업 영역 캔버스 섹션으로 드래그하여 여기에 *세그먼트를*&#x200B;놓습니다.
 
->[!TIP] 제외된 데이터에 대한 메모를 패널의 설명에 포함시켜 보고서를 보는 데 도움이 됩니다. 패널 제목을 마우스 오른쪽 단추로 클릭한 다음 을 클릭합니다 **[!UICONTROL Edit description]**.
+>[!TIP] 제외된 데이터에 대한 메모를 패널의 설명에 포함시켜 보고서를 보는 데 도움이 됩니다. 패널 제목을 마우스 오른쪽 단추로 클릭한 다음 설명 **[!UICONTROL 편집을 클릭합니다]**.
 
 ![패널에 적용된 세그먼트](../assets/exclude_segment_panel.jpg)
 
@@ -58,10 +58,10 @@ source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 가상 보고서 세트의 [](../../vrs/vrs-about.md) 세그먼트를 사용하여 보다 편리하게 데이터를 제외할 수 있습니다. 이 옵션은 영향을 받는 날짜 범위를 포함하는 각 보고서에 세그먼트를 적용할 필요가 없다는 점에서 이상적입니다. 이미 가상 보고서 세트를 기본 데이터 소스로 사용하는 경우 기존 VRS에 세그먼트를 추가할 수 있습니다.
 
-1. > **[!UICONTROL Components]** 으로 **[!UICONTROL Virtual report suites]**&#x200B;이동합니다.
-2. 클릭 **[!UICONTROL Add]**.
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 3. 가상 보고서 세트에 대해 원하는 이름과 설명을 입력합니다.
-4. 제외 세그먼트를 레이블이 지정된 영역으로 드래그합니다 **[!UICONTROL Add segment]**.
-5. 오른쪽 **[!UICONTROL Continue]** 상단을 클릭한 다음 을 클릭합니다 **[!UICONTROL Save]**.
+4. 제외 세그먼트를 세그먼트 **[!UICONTROL 추가라는 레이블이 있는 영역으로]**&#x200B;드래그합니다.
+5. 오른쪽 **[!UICONTROL 위에서]** 계속을 클릭한 다음 저장을 **[!UICONTROL 클릭합니다]**.
 
 ![VRS에 적용된 세그먼트](../assets/exclude_segment_vrs.png)
