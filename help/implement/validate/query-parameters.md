@@ -1,7 +1,7 @@
 ---
 title: 데이터 수집 쿼리 매개 변수
 description: 이미지 요청에 사용된 모든 쿼리 문자열 매개 변수를 나열합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
