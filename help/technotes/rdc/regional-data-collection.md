@@ -1,7 +1,7 @@
 ---
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 ---
