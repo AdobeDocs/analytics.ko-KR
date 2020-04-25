@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Data Sources FAQ
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -60,7 +60,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 트래픽 데이터 소스는 적절한 테이블로 요약 값을 업데이트하므로 훨씬 빠르게 업로드됩니다. 전환 데이터를 포함한 범용 데이터 소스(이벤트 등)는 열의 모든 값을 처리할 수 있는 히트를 생성합니다.
 
-샘플 파일:
+샘플  파일:
 
 <table id="table_D5408E0BDB984229B4C60A66BB53CEBB"> 
  <tbody> 
