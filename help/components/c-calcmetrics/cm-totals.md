@@ -1,7 +1,7 @@
 ---
 title: 계산된 지표 합계
 description: Analytics 도구에서 계산된 지표 합계가 어떻게 다른지 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
