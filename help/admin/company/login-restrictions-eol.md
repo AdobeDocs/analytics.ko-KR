@@ -1,7 +1,7 @@
 ---
 title: '[!UICONTROL IP 로그인 제한 적용] 기간 종료'
 description: '[!UICONTROL IP 로그인 제한 적용]에 대한 종료 시기 및 의미에 대해 알아봅니다.'
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
