@@ -3,7 +3,7 @@ description: 실시간 보고서에서 지원하는 지표와 차원을 나열�
 title: 지원되는 실시간 지표 및 차원
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * Page
 * 검색 키워드
 * 검색 엔진
-* 조회 도메인
+* 참조 도메인
 * 지리 특성 - 국가
 * 지리 특성 - 지역
 * 지리 특성 - 시
