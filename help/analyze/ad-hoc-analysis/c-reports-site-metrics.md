@@ -3,7 +3,7 @@ description: 방문자가 특정 페이지를 본 횟수, 특정 페이지에서
 title: 사이트 지표 보고서
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
