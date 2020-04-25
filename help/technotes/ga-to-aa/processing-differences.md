@@ -1,7 +1,7 @@
 ---
 title: Analytics 플랫폼 간 처리 및 아키텍처 차이점
 description: 일부 데이터가 수집되고 표시되는 방식이 Adobe Analytics 및 Google Analytics와 같은 플랫폼에 따라 어떻게 다른지 알아보십시오.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
