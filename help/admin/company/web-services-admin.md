@@ -3,7 +3,7 @@ description: 웹 서비스 API를 사용하면 Analytics 인터페이스를 통�
 title: 웹 서비스
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
