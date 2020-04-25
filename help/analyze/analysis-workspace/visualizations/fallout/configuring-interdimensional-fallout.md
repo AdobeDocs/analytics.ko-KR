@@ -2,7 +2,7 @@
 description: Analysis Workspace의 폴아웃을 사용하면 단계 및 워크플로우의 터치포인트로서 차원과 지표를 짜 맞출 수 있습니다. 따라서 조사할 사용자 단계를 더욱 유연하게 정의할 수 있습니다.
 title: 차원 간 폴아웃
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
