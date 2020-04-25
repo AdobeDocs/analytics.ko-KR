@@ -3,7 +3,7 @@ description: 유료 검색 감지는 검색 엔진 및 검색 키워드 보고�
 title: 유료 검색 감지
 topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
