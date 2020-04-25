@@ -3,7 +3,7 @@ description: 그룹은 액세스 및 권한의 공통적인 설정을 제공하�
 title: 그룹 관리
 topic: Admin tools
 uuid: e5596397-f07b-4887-bd8c-6a6dea44a07c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
