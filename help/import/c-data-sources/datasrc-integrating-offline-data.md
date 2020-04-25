@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 거래 및 고객 통합
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -65,4 +65,4 @@ ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정
 
 이것은 거래 ID 데이터가 방문과는 연결되어 있지 않지만(오프라인 이벤트는 보통 온라인 이벤트에 속하지 않으므로), 방문자와는 연결되어 있기 때문입니다.
 
- [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+자세한 내용은 [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
