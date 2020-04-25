@@ -3,7 +3,7 @@ description: 사이트를 찾는 데 사용한 각 유료 검색 키워드의 �
 title: 유료 검색 키워드
 topic: Reports
 uuid: e8a2c075-e6e4-41ce-8e1f-0b77d278e9aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
