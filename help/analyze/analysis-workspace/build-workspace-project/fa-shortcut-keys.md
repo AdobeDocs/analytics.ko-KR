@@ -23,7 +23,7 @@ Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 �
 | 모두 삭제 | Alt + w |
 | 모든 패널 축소/확장 | alt + m |
 | 활성 패널 축소/확장 | alt + ctrl + m |
-| 수정했습니다 | ctrl(또는 cmd) + c |
+| 복사 | ctrl(또는 cmd) + c |
 | 경고 만들기 | ctrl(또는 cmd) + shift + a |
 | 계산된 지표 만들기 | ctrl(또는 cmd) + shift + c |
 | 날짜 범위 만들기 | ctrl(또는 cmd) + shift + d |
