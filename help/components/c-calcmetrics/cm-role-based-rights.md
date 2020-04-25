@@ -2,7 +2,7 @@
 description: 계산된 지표 권한은 관리자 수준 사용자와 관리자가 아닌 사용자 간에 다릅니다.
 title: 계산된 지표  역할 기반 권한
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
