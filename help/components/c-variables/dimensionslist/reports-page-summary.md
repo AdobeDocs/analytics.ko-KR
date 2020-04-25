@@ -3,7 +3,7 @@ description: 한 페이지의 고유한 정보를 수집하여 하나의 보고�
 title: 페이지 요약
 topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
