@@ -13,39 +13,39 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 관리자 수준 사용자가 조직 전체에서 예약된 보고서를 보고 관리할 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
+**[!UICONTROL Analytics]** **[!UICONTROL 구성 요소]** > **[!UICONTROL 예약된 보고서]**
 
 예약된 보고서 관리자에는 다음과 같은 관리 수준 기능이 있습니다.
 
-* 조직에서 예약된 [보고서를 모두 표시하는](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) 옵션.
-* [조직 전체의 고급](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) 필터링 기능
-* 보고 [서버에서](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) 실행되도록 큐에 있는 모든 보고서를 나열하는 새 보고서 큐 탭.
-* 보고서 [큐](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) 인터페이스에서 예약 ID 노출.
+* 조직에서 [예약된 보고서를 모두 표시](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)하는 옵션.
+* 조직 전체에 적용되는 [고급 필터링 기능](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275).
+* 보고 서버에서의 실행을 위해 큐에 있는 모든 보고서를 나열하는 새로운 [보고서 큐](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) 탭.
+* 보고서 큐 인터페이스에서 [예약 ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) 노출.
 
-## Show all Scheduled Reports {#section_3F167CAAEEC24140B476CF95B7402690}
+## 예약된 보고서 모두 표시 {#section_3F167CAAEEC24140B476CF95B7402690}
 
-이 **[!UICONTROL Report List]** 탭에서 개인적으로 예약한 조직 외에 조직에서 **[!UICONTROL Show All Scheduled Reports]** 사용할 수 있습니다.
+**[!UICONTROL 보고서 목록]** 탭에서 개인적으로 예약한 보고서 이외에, 조직의 **[!UICONTROL 예약된 보고서 모두 표시]**&#x200B;할 수 있습니다.
 
->[!NOTE] 이 **[!UICONTROL Report Name]** 열에는 예약되는 보고서의 이름이 표시되고, **[!UICONTROL File Name]** 열에는 고급 배달 옵션에서 사용자가 설정한 사용자 지정 파일 이름이 표시됩니다. 따라서 동일한 보고서 유형의 여러 보고서를 예약하고 각각에 대해 사용자 지정된 이름을 지정하는 경우 예약된 보고서 관리자는 같은 보고서 이름과 다른 파일 이름으로 여러 항목을 표시합니다. 이는 예약되는 백엔드 보고서가 동일하기 때문에 보고서 이름 열에는 사용자 지정된 파일 이름(설정된 대로)을 제외한 모든 파일 이름에 대해 동일한 보고서 이름이 표시됩니다.
+>[!NOTE] **[!UICONTROL 보고서 이름]** 열에는 예약되는 보고서의 이름이 표시되며, **[!UICONTROL 파일 이름]** 열에는 고급 배달 옵션에서 설정한 사용자 지정 파일 이름이 표시됩니다. 이렇게 되면, 동일한 보고서 유형의 보고서를 여러 개 예약하고, 각각에 대해 사용자 지정된 이름을 지정하는 경우, 예약된 보고서 관리자에 파일 이름은 서로 다르지만 보고서 이름은 동일한 항목이 여러 개 표시됩니다. 이것은 예약되는 백엔드 보고서가 동일하기 때문이며, 따라서 보고서 이름 열에는 사용자 지정된 파일 이름(설정대로)을 제외한 모두 파일 이름에 대해 동일한 보고서 이름이 표시됩니다.
 
 ![](assets/show_all_scheduled_reports.png)
 
 ## 고급 필터링 기능 {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-For example, if you wanted to filter on all reports that are scheduled hourly, you would specify **[!UICONTROL Frequency equals Hourly]** in the **[!UICONTROL Advanced]** filter and click **[!UICONTROL Apply]**:
+예를 들어 시간별로 예약된 모두 보고서를 필터링하려면 **[!UICONTROL 고급]** 필터에서 **[!UICONTROL 빈도가 시간 단위]**&#x200B;를 지정하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
 ## 보고서 큐 {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-이 큐를 사용하면 큐를 &quot;막고 있는&quot; 예약된 보고서를 관리하고 잠재적으로 삭제할 수 있습니다. (일반적으로 보고서는 4시간 후 시간 초과입니다.)
+이 큐를 사용하면 큐를 &quot;막고 있는&quot; 모든 예약된 보고서를 관리하고 경우에 따라 삭제할 수도 있습니다. (일반적으로, 보고서는 4시간 후 시간이 초과됩니다.)
 
 ![](assets/scheduled_reports_2.png)
 
-보고서 큐는 &quot;예약된 보고서를 한 번 건너뛰기&quot;도 제공합니다. Just click the blue icon in the **[!UICONTROL Manage]** column.
+보고서 큐를 사용하면 &quot;예약된 보고서를 한 번 건너뛸&quot; 수 있습니다. **[!UICONTROL 관리]** 열의 파란색 아이콘을 클릭하면 됩니다.
 
 ## 예약 ID {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-Having the **[!UICONTROL Schedule ID]** exposed in the Report Queue interface helps when you need to contact Adobe Client Care for resolution of a scheduled reports issue.
+보고서 큐 인터페이스에 **[!UICONTROL 예약 ID]**&#x200B;가 노출되어 있으면 예약된 보고서의 문제 해결을 위해 클라이언트 지원팀에 문의해야 할 때 도움이 됩니다.
 
 ![](assets/schedule_id.png)
