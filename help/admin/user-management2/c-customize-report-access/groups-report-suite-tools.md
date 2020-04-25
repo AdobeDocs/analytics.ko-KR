@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: 보고서 세트 도구 권한 사용자 지정
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
