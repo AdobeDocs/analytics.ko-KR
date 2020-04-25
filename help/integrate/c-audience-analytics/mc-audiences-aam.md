@@ -3,7 +3,7 @@ description: AAM(Adobe Audience Manager)은 퍼스트 파티, 세컨드 파티/�
 solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ Audience Analytics의 통합은 다음과 같은 주요 이점을 제공합니�
 ![](assets/mc-aud-dataflow.png)
 
 1. 방문자가 귀하의 디지털 속성에 방문할 때마다 히트 수가 수집되어 Analytics으로 전송됩니다.
-1. 포함 [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md), Analytics에서 수신한 각 히트 수는 자동으로 실시간으로 AAM으로 전송됩니다.
+1. With [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md), each hit that Analytics receives is automatically sent to AAM in real time.
 1. Audience Analytics 통합을 통해 각 히트에 대해 AAM에서 방문자의 대상 멤버십을 조회하고 세그먼트 ID 목록을 실시간으로 처리하기 위해 Analytics에 반환됩니다.
 
 AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문자에 대해 사용할 수 있는 데이터가 누락되지 않고 해당 히트에 대해 최신 상태인지 확인할 수 있습니다. 이 기능은 플러그인이 (현재 히트가 아닌) 다음 히트에서만 사용할 수 있는 세그먼트를 만들 수 있으므로 AppMeasurement 플러그인보다 뛰어납니다.
