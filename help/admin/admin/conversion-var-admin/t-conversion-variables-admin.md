@@ -3,7 +3,7 @@ description: 전환 변수를 추가 또는 편집하는 방법을 설명하는 
 title: 전환 변수 편집
 topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
