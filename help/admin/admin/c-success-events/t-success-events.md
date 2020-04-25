@@ -3,7 +3,7 @@ description: 성공 이벤트를 구성하는 방법을 설명하는 단계입�
 title: 성공 이벤트 구성
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
