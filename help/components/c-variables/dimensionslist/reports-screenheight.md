@@ -3,7 +3,7 @@ description: 다양한 모바일 장치의 화면 높이와 각 화면 높이의
 title: 화면 높이
 topic: Reports
 uuid: d7e50b3a-073b-42af-81b5-1512f169a505
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
