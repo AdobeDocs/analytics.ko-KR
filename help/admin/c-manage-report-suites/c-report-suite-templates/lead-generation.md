@@ -3,7 +3,7 @@ description: 일반적으로 향후 계약을 통해 판매되는 서비스 및 
 title: 리드 생성
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
