@@ -20,18 +20,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **Analytics 사용자를 마이그레이션하려면**
 
-1. > **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 ID 마이그레이션]**&#x200B;으로 이동합니다.
 
    ![](assets/migration-progress.png)
 
-   사용자 ID 마이그레이션 페이지에는 다음 두 섹션이 있습니다.마이그레이션 *진행* 및 *사용자 정보*.
+   [사용자 ID 마이그레이션] 페이지에는 *마이그레이션 진행* 및 *사용자 정보*&#x200B;와 같은 두 개의 섹션이 있습니다.
 
-   **마이그레이션 진행률**
+   **마이그레이션 진행**
 
    <table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
    <thead> 
    <tr> 
-      <th colname="col1" class="entry"> 위상 </th> 
+      <th colname="col1" class="entry"> 단계 </th> 
       <th colname="col2" class="entry"> 설명 </th> 
    </tr>
    </thead>
@@ -41,15 +41,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
       <td colname="col2"> <p>사용자가 초대를 수락했습니다. </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>기존 로그인 비활성화 </p> </td> 
-      <td colname="col2"> <p>회사 ID를 사용한 기존 로그인이 비활성화됩니다. 이제 사용자는 Adobe ID 또는 Enterprise ID를 사용하여 Experience Cloud에 액세스합니다. 모든 사용자가 이 단계에 도달하면 마이그레이션을 완료했습니다. </p> <p>마이그레이션 시 기존 로그인이 비활성화됩니다. 사용자는 <span class="filepath"> experiencecloud.adobe.com</span>으로 리디렉션되며 Adobe ID 또는 Enterprise ID를 사용하여 로그인해야 합니다. </p> </td> 
+      <td colname="col1"> <p>기존 로그인이 비활성화됨 </p> </td> 
+      <td colname="col2"> <p>회사 ID를 사용하는 기존 로그인이 비활성화되었습니다. 이제 사용자는 Adobe ID 또는 Enterprise ID를 사용하여 Experience Cloud에 액세스합니다. 모든 사용자가 이 단계에 도달했으면 마이그레이션을 완료했습니다. </p> <p>마이그레이션 시 기존 로그인이 비활성화됩니다. 사용자는 <span class="filepath"> experiencecloud.adobe.com</span>으로 리디렉션되며 Adobe ID 또는 Enterprise ID를 사용하여 로그인해야 합니다. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
    **사용자 정보**
 
-   사용자 정보는 조직의 사용자를 도메인 이름으로 구분하여 대략적으로 설명합니다.
+   사용자 정보는 조직의 사용자를 도메인 이름으로 구분하여 설명합니다.
 
    <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
    <thead> 
@@ -61,7 +61,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <tbody> 
    <tr> 
       <td colname="col1"> <p>도메인 </p> </td> 
-      <td colname="col2"> <p>도메인은 현재 Analytics 사용자 기반의 이메일 ID에만 적용됩니다. 하나의 조직에서만 도메인을 요구할 수 있으며 시스템 관리자만 도메인을 요구할 수 있습니다. 자세한 내용은 <a href="https://helpx.adobe.com/kr/enterprise/help/request-access-to-claimed-domain.html">요구한 도메인에 대한 액세스 권한 요청</a>을 참조하십시오. </p> </td> 
+      <td colname="col2"> <p>도메인은 현재 Analytics 사용자 기반의 이메일 ID에 해당합니다. 하나의 조직에서만 도메인을 요구할 수 있으며 시스템 관리자만 도메인을 요구할 수 있습니다. 자세한 내용은 <a href="https://helpx.adobe.com/kr/enterprise/help/request-access-to-claimed-domain.html">요구한 도메인에 대한 액세스 권한 요청</a>을 참조하십시오. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>승인 요청한 도메인 </p> </td> 
@@ -70,10 +70,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    </tbody> 
    </table>
 
-1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
-1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
+1. 마이그레이션하려는 사용자 ID를 포함하는 도메인을 찾은 다음 **[!UICONTROL 마이그레이션 요구]**&#x200B;에서 **[!UICONTROL 사용자 선택]**&#x200B;을 클릭합니다.
+1. [!DNL Users] 페이지에서 마이그레이션할 사용자를 선택한 다음 **[!UICONTROL 마이그레이션]**&#x200B;을 클릭합니다.
 
-   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. 이렇게 하면 사용자 ID가 마이그레이션 완료됨으로 이동합니다. 그런 다음 `[!DNL my.omniture.com].`에 대한 기존 액세스를 중단할 수 있습니다.
+   **[!UICONTROL 마이그레이션]**&#x200B;을 클릭하면 사용자는 초대를 받으며(마이그레이션이 시작됨) 이를 수락해야 합니다. 이렇게 하면 사용자 ID가 마이그레이션 완료됨으로 이동합니다. 그런 다음 `[!DNL my.omniture.com].`에 대한 기존 액세스를 중단할 수 있습니다.
 
    ![](assets/user-info.png)
 
