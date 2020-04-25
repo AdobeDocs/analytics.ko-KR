@@ -3,7 +3,7 @@ description: 일련의 사용자 지정 전환 변수(eVar)와 사용자 지정 
 title: 비디오 관리
 topic: Admin tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
