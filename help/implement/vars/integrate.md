@@ -30,7 +30,7 @@ Adobe 파트너와 협력하는 조직은 이러한 단계를 사용하여 모�
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
-1. In the top navigation, click [!UICONTROL Admin] > [!UICONTROL Code Manager].
+1. 상단 탐색에서 [!UICONTROL 관리자] > [!UICONTROL 코드 관리자]를 클릭합니다.
 1. 최신 JavaScript AppMeasurement 라이브러리를 다운로드합니다.
 1. 이 라이브러리가 다운로드되면 파일의 압축을 풀고 `AppMeasurement_Module_Integrate.js`를 찾습니다.
 
