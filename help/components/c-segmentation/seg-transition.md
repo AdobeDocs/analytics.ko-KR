@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: FAQ
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -110,7 +110,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 * 보유한 세그먼트를 검토합니다.
 * 적용 가능한 경우 세그먼트 라이브러리에 추가합니다.
 * 표준 세그먼트를 승인합니다.
-*  [우수 사례](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)에 따라 세그먼트에 태그를 지정합니다.
+* 세그먼트를 [모범 사례에 따라 태깅합니다](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## 이전 세그먼트 관리 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -174,7 +174,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 * 이전 방문 횟수가 5회 이상인 방문*
 * Facebook에서 찾아온 방문*
 
-이러한 세그먼트 대부분(별표*가 표시된 세그먼트 제외)은 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다.
+이러한 세그먼트(별표 *로 표시된 세그먼트 제외)는 대부분 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다.
 
 이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
 
