@@ -3,7 +3,7 @@ description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Wareho
 title: Data Warehouse 세그먼트 기능
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
