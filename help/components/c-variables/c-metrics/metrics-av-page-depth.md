@@ -3,7 +3,7 @@ description: 방문 내에서 각 값이 평균적으로 어디까지 실행되�
 title: 평균 페이지 깊이
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
