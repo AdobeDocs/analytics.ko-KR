@@ -3,7 +3,7 @@ description: 내부 URL 필터는 사이트 내부로 간주되는 참조를 식
 title: 내부 URL 필터
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
