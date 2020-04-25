@@ -3,7 +3,7 @@ description: 보류 중인 작업 관리 페이지에서는 Analytics 환경의 
 title: 보류 중인 작업
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
