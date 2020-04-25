@@ -3,7 +3,7 @@ description: 방문자가 속한 시간대를 표시합니다. 그래프는 전�
 title: 시간대
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
