@@ -3,7 +3,7 @@ description: 차원은 보고서에서 보고, 분류하고 비교할 수 있는
 title: 차원
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
