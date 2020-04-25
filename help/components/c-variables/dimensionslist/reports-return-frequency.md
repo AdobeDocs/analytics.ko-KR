@@ -3,7 +3,7 @@ description: 재방문자의 방문 간격과 각 시간 카테고리별 방문 
 title: 반환 주기
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
