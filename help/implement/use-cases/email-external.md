@@ -1,7 +1,7 @@
 ---
 title: 외부 이메일 추적
 description: Adobe Analytics를 사용하여 이메일 컨텐츠를 추적합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
