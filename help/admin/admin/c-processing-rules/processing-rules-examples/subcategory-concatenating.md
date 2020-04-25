@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 카테고리와 페이지 이름을 연결하여 하위 카테고리 추가
 topic: Admin tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
