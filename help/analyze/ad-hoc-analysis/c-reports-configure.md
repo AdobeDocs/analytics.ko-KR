@@ -2,7 +2,7 @@
 description: 차트 구성, 그래프, 분류 및 데이터 추출과 같이, 보고서에서 수행할 수 있는 다양한 작업에 대해 알아 보십시오.
 title: 기존 보고서 구성
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
