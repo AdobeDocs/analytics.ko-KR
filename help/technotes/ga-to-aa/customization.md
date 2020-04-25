@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics의 보고서 사용자 지정
 description: Adobe Analytics에서 보고서를 사용자 지정하는 방법 알아보기
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
