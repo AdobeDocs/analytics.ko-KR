@@ -3,7 +3,7 @@ description: 끊긴 링크가 포함된 페이지를 식별하고 존재하지 �
 title: 페이지를 찾을 수 없음
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
