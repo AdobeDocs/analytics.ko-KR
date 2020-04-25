@@ -3,7 +3,7 @@ description: 고유 방문자는 특정 기간에 처음으로 사이트를 방�
 title: 주간 고유 방문자 수
 topic: Metrics
 uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
