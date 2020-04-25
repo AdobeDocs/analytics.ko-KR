@@ -61,6 +61,6 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 1. (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
 
-   * 세그먼트를 만들 위치: [세그먼트 빌더](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * 경고를 작성할 위치: [경고 빌더](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * 세그먼트를 만들 위치: [세그먼트 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * 경고를 작성할 위치: [경고 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/alerts/alert-builder.html).
