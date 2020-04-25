@@ -3,7 +3,7 @@ description: 세그먼트 빌더로 만들고 세그먼트 관리자를 통해 �
 title: 세그먼테이션 워크플로우 개요
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
