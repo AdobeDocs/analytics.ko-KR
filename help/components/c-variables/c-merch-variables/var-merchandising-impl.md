@@ -3,7 +3,7 @@ description: 머천다이징 변수를 활성화하고 구현하는 방법을 �
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: 머천다이징 변수 구현
 topic: Developer and implementation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
