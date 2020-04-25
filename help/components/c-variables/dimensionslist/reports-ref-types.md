@@ -3,7 +3,7 @@ description: 방문할 때마다 방문자의 조회 사이트를 추적하여 �
 title: 레퍼러 유형
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
