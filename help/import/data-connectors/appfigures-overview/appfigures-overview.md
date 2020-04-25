@@ -3,7 +3,7 @@ description: 이 Adobe Data Connectors 통합에서는 appFigures 통합 모바�
 keywords: AppFigures
 title: Adobe Analytics용 appFigures Data Connector
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
