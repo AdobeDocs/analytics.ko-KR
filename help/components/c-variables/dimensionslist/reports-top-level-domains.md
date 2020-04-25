@@ -3,7 +3,7 @@ description: 여러 국가의 고객이 성공 지표에 영향을 주는 방식
 title: 최상위 수준 도메인
 topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
