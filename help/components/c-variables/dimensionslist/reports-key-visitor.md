@@ -3,7 +3,7 @@ description: 이 보고서를 사용하면 웹 사이트를 방문하는 최대 
 title: 주요 방문자
 topic: Reports
 uuid: 77cf330f-1f2f-460f-b0b4-b537e5d222ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
