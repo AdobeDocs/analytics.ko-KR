@@ -3,7 +3,7 @@ description: 미국을 마케팅 영역으로 구분합니다. 각 마케팅 지
 title: DMA(지정 시장 지역)
 topic: Reports
 uuid: c1fea458-9a90-4440-b62f-d8d85090e9f8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
