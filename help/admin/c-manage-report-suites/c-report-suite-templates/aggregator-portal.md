@@ -3,7 +3,7 @@ description: 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 
 title: 누적 포털
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
