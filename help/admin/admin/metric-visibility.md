@@ -2,7 +2,7 @@
 description: 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
 title: 지표 가시성
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 <table id="table_26814F83F39C47D08361365E2658D249"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 이 예에서 </th> 
+   <th colname="col1" class="entry"> 설정 </th> 
    <th colname="col2" class="entry"> 표시되는 위치 </th> 
    <th colname="col3" class="entry"> 표시되지 않는 위치 </th> 
   </tr> 
