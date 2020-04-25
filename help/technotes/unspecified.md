@@ -1,7 +1,7 @@
 ---
 description: Adobe Analytics의 다양한 보고서에는 조회하는 보고서에 따라 지정되지 않음, 기타 또는 알 수 없음이 표시됩니다. 일반적으로 이 라인 항목은 변수가 정의되지 않았거나 달리 사용할 수 없음을 의미합니다.
 title: 보고에서 지정되지 않음, 기타 및 알 수 없음
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
