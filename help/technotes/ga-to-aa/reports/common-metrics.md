@@ -1,7 +1,7 @@
 ---
 title: 다른 플랫폼 전환 안내서에서 자주 사용되는 지표
 description: Google Analytics 사용자에게 더 익숙한 용어를 사용하여 여러 일반 보고서의 지표 데이터를 가져오는 방법을 이해합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
