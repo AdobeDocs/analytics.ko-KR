@@ -3,7 +3,7 @@ description: 롤업 보고서 세트의 생성 방법을 설명하는 단계입�
 title: 롤업 보고서 세트 만들기
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
