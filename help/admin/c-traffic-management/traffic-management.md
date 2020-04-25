@@ -3,7 +3,7 @@ description: 트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변�
 title: 트래픽 관리
 topic: Admin tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
