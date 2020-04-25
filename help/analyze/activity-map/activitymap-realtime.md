@@ -26,19 +26,19 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 라이브 모드에서 대부분의 클릭이 수행되는 요소를 확인하려면:
 
-1. 도구 모음의 **[!UICONTROL Live Mode]** 트렌드 라인에서 분석할 기간을 선택합니다.
+1. 도구 모음의 라이브 모드 **[!UICONTROL 트렌드 라인에서]** 분석할 기간을 선택합니다.
 1. 도구 모음에서 &quot;눈&quot; 아이콘을 클릭하여 링크 보고서 테이블에 액세스합니다.
 1. 링크를 기준으로 표를 정렬합니다.
 
 ## A4T 구성 결과로 데이터 지연
 
-After the [A4T integration](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) is enabled in Adobe Target, you will experience an additional 5-10 minutes of latency in Adobe Analytics. 추가적인 지연 시간으로 인해 Analytics 및 Target의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
+After the [A4T integration](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html) is enabled in Adobe Target, you will experience an additional 5-10 minutes of latency in Adobe Analytics. 추가적인 지연 시간으로 인해 Analytics 및 Target의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
 
 추가적인 지연 시간은 라이브 스트림 및 실시간 보고를 비롯하여 모든 Adobe Analytics 서비스 및 도구에서 반영되며 다음과 같은 시나리오에서 적용됩니다.
 
 * 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
-이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
+이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
 
 자세한 내용은 [여기를](/help/analyze/activity-map/activitymap-standard-live.md)참조하십시오.
