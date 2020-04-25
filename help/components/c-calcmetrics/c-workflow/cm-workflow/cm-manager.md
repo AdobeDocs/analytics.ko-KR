@@ -2,7 +2,7 @@
 description: 계산된 지표 관리자는 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 다양한 지표 처리 작업 방식을 제공합니다.
 title: 계산된 지표 관리자
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
