@@ -3,7 +3,7 @@ description: 제품 지원 기사 및 비디오를 제공하는 웹 사이트에
 title: 지원 미디어
 topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
