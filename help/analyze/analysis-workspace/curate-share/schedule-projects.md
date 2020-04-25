@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 예약된 프로젝트 관리자
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 예약된 Analysis Workspace 프로젝트를 관리합니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 예약된 프로젝트]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**.
 
 ![](assets/components-scheduled-projects.png)
 
