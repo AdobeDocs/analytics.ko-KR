@@ -3,7 +3,7 @@ description: 올바른 브라우저 플러그인이 설치되어 있다면, 웹 
 title: Activity Map 시작
 topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
