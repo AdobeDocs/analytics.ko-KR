@@ -3,7 +3,7 @@ description: 이전 섹션 흐름 보고서는 이전 페이지 흐름 보고서
 title: 이전 섹션 흐름
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
