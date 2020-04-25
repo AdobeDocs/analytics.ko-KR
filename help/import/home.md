@@ -23,7 +23,7 @@ source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [고객 지원 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
 * [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
