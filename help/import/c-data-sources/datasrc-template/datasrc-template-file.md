@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Data Sources 템플릿 개요
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,4 +31,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Data Source 템플릿은 모든 텍스트 편집기로 열 수 있는 [!DNL .txt] 파일입니다. 하지만 Microsoft Excel이나 다른 스프레드시트 응용 프로그램을 사용하여 템플릿 작업을 하는 것이 더 쉽습니다. 템플릿 내용은 [!UICONTROL 데이터 소스 활성화 마법사]에서 선택한 사항에 따라 달라집니다.
 
- [가져오기 파일 참조](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md).
+자세한 내용은 [가져오기 파일 참조](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md).
