@@ -3,7 +3,7 @@ description: 양력 모델이 아닌 달력 옵션입니다. 해당 옵션에는
 title: 사용자 지정 달력
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
