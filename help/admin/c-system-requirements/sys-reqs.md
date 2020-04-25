@@ -2,7 +2,7 @@
 description: 이 항목에서는 각 Adobe Analytics 사용자 인터페이스에 대한 시스템 요구 사항에 대해 자세히 설명합니다.
 title: 시스템 요구 사항
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
