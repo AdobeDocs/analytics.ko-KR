@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
