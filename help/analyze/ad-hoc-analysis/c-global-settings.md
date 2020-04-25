@@ -2,7 +2,7 @@
 description: 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 title: 설정
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
