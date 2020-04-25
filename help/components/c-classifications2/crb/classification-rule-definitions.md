@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류 규칙 - 정의
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -129,7 +129,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 일치 그룹 | 캠페인 ID에서 위치를 분류할 수 있도록 정규 표현식이 캠페인 ID 문자에 대응하는 방식을 표시합니다. |
 | 일치 결과 | 정규 표현식과 일치하는 문자열의 각 부분을 표시합니다. |
 
- [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+자세한 내용은 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## 테스트 페이지 {#section_EC926F97901C4E65901413F9683AA70A}
 
