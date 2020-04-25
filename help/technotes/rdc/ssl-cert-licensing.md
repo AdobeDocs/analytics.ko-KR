@@ -1,7 +1,7 @@
 ---
 title: SSL 인증서 라이센싱
 description: 고객 관리 인증서에 대한 인증서 절차
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
