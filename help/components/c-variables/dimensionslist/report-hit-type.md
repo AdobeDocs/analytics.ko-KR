@@ -2,7 +2,7 @@
 description: 히트 유형 차원은 히트가 수집되었을 때 앱이 전경에 있었는지 배경에 있었는지를 나타냅니다.
 title: 히트 유형
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
