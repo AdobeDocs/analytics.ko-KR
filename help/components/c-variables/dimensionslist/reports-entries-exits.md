@@ -3,7 +3,7 @@ description: 시작 페이지 보고서는 사이트에서 새 방문자들이 �
 title: 시작 및 종료
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
