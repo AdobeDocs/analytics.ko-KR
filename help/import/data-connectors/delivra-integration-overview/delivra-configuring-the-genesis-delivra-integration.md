@@ -2,7 +2,7 @@
 description: Data Connectors 통합 마법사를 실행하여 Data Connectors 통합을 구현하기 전에 수행해야 하는 작업 및 정보입니다.
 title: Data Connectors 이메일 통합 준비
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
