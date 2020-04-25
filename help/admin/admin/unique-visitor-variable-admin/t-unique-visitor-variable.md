@@ -3,7 +3,7 @@ description: 각 eVar에 방문자 식별자가 포함되는지 지정하는 방
 title: 고유 방문자 변수 지정
 topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
