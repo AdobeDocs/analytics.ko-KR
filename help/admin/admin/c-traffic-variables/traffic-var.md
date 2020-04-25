@@ -15,4 +15,4 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 [!UICONTROL 트래픽 변수] 페이지를 사용하여 트래픽 변수 보고서를 활성화하거나 비활성화하거나 이름을 바꿉니다. 비활성화되면 트래픽 변수에 대한 보고서가 사용자 인터페이스에 표시되지 않습니다.
 
-자세한 내용은 를 [참조하십시오](../../../implement/vars/page-vars/prop.md) .
+자세한 내용은 also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
