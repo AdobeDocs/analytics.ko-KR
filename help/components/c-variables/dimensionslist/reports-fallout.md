@@ -3,7 +3,7 @@ description: 방문자가 페이지의 사전 지정된 순서를 떠나고(폴�
 title: 폴아웃
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
