@@ -3,7 +3,7 @@ description: 사이트의 마지막 방문자에 대한 방문자 정보를 표�
 title: 방문자 세부정보
 topic: Reports
 uuid: a599f855-d8fe-48a9-aa77-3ee89ba2953c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
