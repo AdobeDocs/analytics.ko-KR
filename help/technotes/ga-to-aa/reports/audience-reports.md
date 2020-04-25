@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics의 대상 보고서
 description: Analysis Workspace를 사용하여 대상 기반 보고서를 만드는 방법을 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
