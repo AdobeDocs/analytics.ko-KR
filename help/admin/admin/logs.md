@@ -3,7 +3,7 @@ description: 사용자가 로그인하는 시점, 사용자의 사용, 액세스
 title: 로그
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
