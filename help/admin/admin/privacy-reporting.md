@@ -2,7 +2,7 @@
 description: 개인 정보 보고를 활성화할 수 있습니다.
 title: 개인 정보 보고
 topic: Admin tools
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
