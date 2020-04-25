@@ -3,7 +3,7 @@ description: 보고서 세트를 생성하고 보고서 세트의 설정을 새 
 title: 보고서 세트 만들기
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
