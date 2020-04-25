@@ -3,7 +3,7 @@ description: Reports & Analytics에서 사용할 수 있는 사전 정의된 보
 title: 차원 설명
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
