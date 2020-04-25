@@ -20,7 +20,7 @@ source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 사용자는 날짜(및 시간 차원)를 Workspace 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
-[Analysis Workspace에서 날짜 범위 및 달력 사용 - YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28)(4:07)
+[Analysis Workspace에서 날짜 범위 및 달력 사용 - YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)(4:07)
 
 | 설정 | 설명 |
 |--- |--- |
