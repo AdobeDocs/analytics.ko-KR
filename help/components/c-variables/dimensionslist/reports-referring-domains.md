@@ -3,7 +3,7 @@ description: 사이트의 성공 지표에 가장 큰 영향을 미친 고객을
 title: 참조 도메인
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
