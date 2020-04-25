@@ -3,7 +3,7 @@ description: 선택된 보고서 세트에 대한 모든 설정이 들어 있는
 title: 보고서 세트 설정 다운로드
 topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
