@@ -1,7 +1,7 @@
 ---
 title: Virtual Analyst
 description: Adobe Analytics의 어떤 기능이 Virtual Analyst에 기여하는지 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
