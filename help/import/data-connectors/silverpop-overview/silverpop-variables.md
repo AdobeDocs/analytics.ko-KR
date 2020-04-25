@@ -2,7 +2,7 @@
 description: Silverpop용 Data Connectors 통합은 Analytics 변수를 사용하여 다양한 Silverpop 지표를 추적합니다.
 title: Analytics 통합 변수
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
