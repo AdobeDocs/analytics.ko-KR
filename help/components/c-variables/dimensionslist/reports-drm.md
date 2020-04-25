@@ -3,7 +3,7 @@ description: 모바일 장치를 지원하는 DRM(디지털 권한 관리) 유�
 title: DRM(디지털 권한 관리)
 topic: Reports
 uuid: 8064b942-8f5c-433a-a793-1e16496ab59c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
