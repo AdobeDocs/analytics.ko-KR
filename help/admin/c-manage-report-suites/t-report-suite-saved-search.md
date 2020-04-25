@@ -3,7 +3,7 @@ description: 보고서 세트 검색의 구성원을 결정하는 기준 세트�
 title: 보고서 세트 검색 저장
 topic: Admin tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
