@@ -30,11 +30,11 @@ Analysis Workspace에 대한 시스템 요구 사항입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 관리자 </td> 
-   <td colname="col2"> <p>분석 작업 공간에 대한 전체 액세스 권한. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace에 대한 전체 액세스 권한을 갖습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 사용자 참조 </td> 
-   <td colname="col2"> <p>Analytics의 작업 공간 탭에 액세스할 수 있게 하려면 관리자는 <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt;<span class="uicontrol">그룹</span>에서 <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Analysis Workspace 액세스</a> 그룹에 사용자를 추가해야 합니다. </p> </td> 
+   <td colname="col2"> <p>Analytics의 작업 공간 탭에 액세스할 수 있게 하려면 관리자는 <span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt;<span class="uicontrol">그룹</span>에서 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html"  >Analysis Workspace 액세스</a> 그룹에 사용자를 추가해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 프로젝트 전송 </td> 
@@ -44,8 +44,8 @@ Analysis Workspace에 대한 시스템 요구 사항입니다.
    <td colname="col1"> 브라우저 </td> 
    <td colname="col2"> <p> 브라우저: </p> 
     <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
-     <li id="li_5A905B0F5342443B96433FDBB1015CA9">기본 설정:최신 버전의 Firefox, Chrome, Safari 또는 Edge. </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> 최신 버전의 Microsoft Internet Explorer 11 <p> 참고: Adobe는 2018년 11월 13일에 Adobe Analytics 내에서 Internet Explorer 11에 대한 지원을 종료했습니다. Microsoft Edge 또는 지원되는 다른 브라우저로 최대한 빨리 전환하십시오.</p> </li> 
+     <li id="li_5A905B0F5342443B96433FDBB1015CA9">권장: 최신 버전의 Firefox, Chrome, Safari 또는 Edge. </li> 
+     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> 최신 버전의 Microsoft Internet Explorer 11. <p> 참고: Adobe는 2018년 11월 13일에 Adobe Analytics 내에서 Internet Explorer 11에 대한 지원을 종료했습니다. 가능한 빨리 Microsoft Edge 또는 다른 지원되는 브라우저로 전환하십시오.</p> </li> 
     </ul> 
     <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
      <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> 쿠키와 JavaScript가 활성화되어 있어야 합니다. </li> 
