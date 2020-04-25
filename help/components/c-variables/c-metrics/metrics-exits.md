@@ -3,7 +3,7 @@ description: 주어진 값이 방문에서 마지막 값으로 캡처된 횟수�
 title: 종료
 topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
