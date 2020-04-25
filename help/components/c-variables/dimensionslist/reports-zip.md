@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics의
 description: 성공 지표에 가장 큰 영향을 준 고객을 제공한 우편 번호를 표시합니다. 이 보고서에 대한 정보는 일반적으로 구매가 진행되는 곳의 우편 번호를 알고 있을 때 구매 프로세스 중에 획득됩니다. 이 보고서를 사용하여 특정 도시에서 실시하는 지역별 광고 캠페인의 성공 여부를 확인할 수 있습니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
