@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
 
-표준 지표, 계산된 지표 또는 계산된 지표 템플릿을 [!UICONTROL Components] 메뉴에서 테이블로 드래그할 수 있습니다.
+You can either drag a standard metric, calculated metric, or calculated metric template from the [!UICONTROL Components] menu to the table:
 
 ![](assets/metrics_icons.png)
 
