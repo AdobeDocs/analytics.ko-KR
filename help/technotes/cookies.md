@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 및 브라우저 쿠키
 description: Adobe Analytics에서 브라우저 쿠키를 처리하는 방법을 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
 
 ---
