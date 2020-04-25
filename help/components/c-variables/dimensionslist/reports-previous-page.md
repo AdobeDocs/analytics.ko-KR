@@ -3,7 +3,7 @@ description: 방문자가 사이트에서 선택한 페이지를 보기 전에 �
 title: 이전 페이지
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
