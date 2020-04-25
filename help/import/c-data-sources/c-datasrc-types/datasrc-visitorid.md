@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 방문자 ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,10 +24,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 날짜 | MM/DD/YYYY/hh/mm/ss(예: 07/14/2017/06/00/00) 날짜 형식을 사용합니다. |
 | 추적 코드 | 추적 코드 이름. |
 | 카테고리 | 카테고리 이름.  카테고리를 지정하면 제품도 선택해야 합니다. |
-| 채널 | 채널 이름. |
+| Channel | 채널 이름. |
 | eVarn | eVarn 이름. n의 유효한 값은 1-75의 정수입니다. |
 | 제품 | 제품 이름. |
-| 상태 | 상태 이름. |
+| 주/도 | 상태 이름. |
 | Zip | Zip 이름. |
 
 **방문자 ID 지표**
