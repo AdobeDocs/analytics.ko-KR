@@ -3,7 +3,7 @@ description: Activity Map 도구 모음 내에서 Adobe Analytics의 전체 지�
 title: 전체 지표 세트
 topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
