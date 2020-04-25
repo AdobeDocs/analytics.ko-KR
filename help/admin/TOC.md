@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
@@ -81,7 +81,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
    + 서버 측 전달 {#server-side-forwarding}
       + [서버 측 전달 개요](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy 준수 및 서버 측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
+      + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [서버 측 전달 요구 사항](admin/c-server-side-forwarding/ssf-requirements.md)
       + [서버 측 전달 데이터 및 코드 참조](admin/c-server-side-forwarding/ssf-reference.md)
       + [서버 측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
