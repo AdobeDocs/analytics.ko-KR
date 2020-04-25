@@ -2,7 +2,7 @@
 description: 'null'
 title: 지능형 경고 - 활용 사례
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Update screenshots for better readability.
 
 ## 표 선택에서 경고 만들기 {#section_AE6D42E1255D498D908A2FA60370A419}
 
-이제 자유 형식 테이블에서 표 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 선택 항목으로 경고 만들기를 선택하여 컨텍스트 내 경고를 만들 수 있습니다]**.
+In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
 
 ![](assets/alert_selection.png)
 
