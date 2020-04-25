@@ -3,7 +3,7 @@ description: 다음 표에는 국가에 지역 또는 우편 번호가 있는지
 title: 국가별 지리 특성 지역 및 우편 번호 사용
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
