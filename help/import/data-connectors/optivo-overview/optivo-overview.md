@@ -2,7 +2,7 @@
 description: 이 통합에는 이메일 마케팅 소프트웨어 통합 피드백 시스템의 기능과 Adobe Analytics의 행동 보고가 결합되어 조직을 위한 강력한 분석 및 최적화 기회를 만듭니다.
 title: Adobe Analytics용 optivo® broadmail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
