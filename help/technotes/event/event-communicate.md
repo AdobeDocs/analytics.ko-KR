@@ -13,7 +13,7 @@ source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ## 패널 또는 시각화 설명을 통해 커뮤니케이션
 
-조직 내 사용자 간에 Workspace 프로젝트를 공유하는 경우 패널 또는 시각화 설명을 통해 이벤트의 영향을 알릴 수 있습니다. 패널 또는 시각화 헤더를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Edit description]**&#x200B;선택합니다.
+조직 내 사용자 간에 Workspace 프로젝트를 공유하는 경우 패널 또는 시각화 설명을 통해 이벤트의 영향을 알릴 수 있습니다. 패널 또는 시각화 헤더를 마우스 오른쪽 단추로 클릭한 다음 설명 **[!UICONTROL 편집을]**&#x200B;선택합니다.
 
 ![패널 설명](../assets/panel_description.png)
 
@@ -27,8 +27,8 @@ source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 보고 및 분석을 사용하는 경우 [달력 이벤트를](/help/components/t-calendar-event.md) 사용하여 트렌드 보고서에서 영향을 받는 일을 강조 표시할 수 있습니다. 이 메서드는 분석 작업 공간에 적용되지 않습니다.
 
-1. > **[!UICONTROL Components]** 으로 **[!UICONTROL Calendar events]**&#x200B;이동합니다.
+1. 구성 요소 **[!UICONTROL >]** 달력 **[!UICONTROL 이벤트로]**&#x200B;이동합니다.
 2. 원하는 제목, 날짜 범위 및 노트 텍스트를 입력합니다.
-3. 클릭 **[!UICONTROL Save]**.
+3. **[!UICONTROL 저장을]** 클릭합니다.
 
 ![달력 이벤트](../assets/exclude_calendar_event.png)
