@@ -3,7 +3,7 @@ description: 사용자 에이전트 문자열에 의해 식별된, 사이트를 
 title: 브라우저
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
