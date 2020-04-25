@@ -3,7 +3,7 @@ description: '구매, 장바구니 및 사용자 지정 이벤트 보고 섹션�
 title: 장기간
 topic: Reports
 uuid: 4cd8492b-319e-4a55-8d99-70dd6ec9b4ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
