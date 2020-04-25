@@ -2,7 +2,7 @@
 description: 계산된 지표를 만드는 데 필요한 절차를 알아봅니다.
 title: 계산된 지표 워크플로우
 uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
