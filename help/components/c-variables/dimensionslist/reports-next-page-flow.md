@@ -3,7 +3,7 @@ description: 경로 보기 횟수나, 경로 제한 내에서 페이지를 본 �
 title: 다음 페이지 흐름
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
