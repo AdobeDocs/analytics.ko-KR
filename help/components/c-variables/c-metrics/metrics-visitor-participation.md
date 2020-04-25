@@ -3,7 +3,7 @@ description: 방문자 기여도는 마케팅 채널, 캠페인, 매출 등에�
 title: 방문자 기여도 - Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
