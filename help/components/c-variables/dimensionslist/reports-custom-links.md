@@ -3,7 +3,7 @@ description: 방문자가 선호하는 링크를 표시합니다. 예를 들어 
 title: 사용자 지정 링크
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
