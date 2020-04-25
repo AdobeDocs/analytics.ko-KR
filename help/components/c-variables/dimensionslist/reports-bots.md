@@ -3,7 +3,7 @@ description: 해당 기간 동안 사이트를 방문한 스파이더 및 보트
 title: 보트
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
