@@ -3,7 +3,7 @@ description: Analytics에서 AEM 자산 보고를 활성화하는 관리 단계�
 title: AEM Assets 보고
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
