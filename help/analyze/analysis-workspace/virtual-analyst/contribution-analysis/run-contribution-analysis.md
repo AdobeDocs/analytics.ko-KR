@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 기여도 분석 실행
 
-기여도 분석은 Adobe Analytics에서 관찰된 예외 항목에 대한 기여자를 파악하기 위해 고안된 집중적인 기계 학습 프로세스입니다. 사용자가 집중된 영역이나 추가 분석 기회를 다른 경우보다 훨씬 빠르게 찾을 수 있도록 지원하기 위한 것입니다.
+기여도 분석은 Adobe Analytics에서 관찰된 예외 항목에 기여한 사항을 드러내도록 설계된 집중 기계 학습 프로세스입니다. 이 프로세스의 목적은 사용자가 집중 영역이나 추가 분석 기회를 원래 가능한 것보다 훨씬 더 빨리 찾는 것을 돕는 것입니다. 
 
 ## 기여도 분석 실행 {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -30,18 +30,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
-1. 기여도 분석이 로드되는 동안 기다립니다. 이 작업은 보고서 세트의 크기와 차원 수에 따라 상당한 시간이 걸릴 수 있습니다. 기여도 분석은 차원당 상위 50,000개 항목에 대한 분석을 수행합니다.
-1. 그런 다음 분석 작업 공간이 이 프로젝트 내에서 직접 새 기여도 분석 패널을 로드합니다. 이전에 보고 및 분석에서 기여도 분석을 사용한 경우 익숙한 패널이 많이 표시됩니다.
+1. 기여도 분석이 로드되는 동안 기다려 주십시오. 이 작업은 보고서 세트의 크기와 차원의 수에 따라 상당한 시간이 걸릴 수 있습니다. 기여도 분석에서는 차원당 상위 50,000개의 항목을 분석합니다.
+1. 그런 다음 Analysis Workspace에서는 이 프로젝트 내에서 바로 새 기여도 분석 패널을 로드합니다. 전에 Reports &amp; Analytics에서 기여도 분석을 사용한 적이 있다면 익숙한 패널이 많이 표시됩니다.
 
-   * 해당 날의 방문 수를 **보여주는** 시각화
-   * 컨텍스트에 **대한 월별 방문 트렌드 라인** .
-   * **이** 예외 항목에 기여한 상위 항목, [기여도 점수](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_contribution_score.html), 해당 지표 및 크기 조정 관점에서 지표를 컨텍스트에 넣는 고유 방문자 수 지표를 표시합니다.
+   * 해당 일의 **방문** 수를 보여 주는 시각화.
+   * 컨텍스트에 대한 월별 **방문 횟수 꺾은 선형**.
+   * 이 예외 항목에 기여하고, [기여도 점수](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_contribution_score.html)와 해당 지표, 고유 방문자 수 지표로 정렬되어 크기 조정 관점의 문맥에서 지표를 적용하기 위한 **상위 항목**.
 
-   * 생성된 [세그먼트](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_workflow_premium.html) (상위 항목 클러스터) 테이블은 기여도 점수, 예외 항목 발생 및 예외 항목 지표에 기여하는 전체 비율을 기준으로 상위 항목의 연결을 식별합니다. 그러면 대상 세그먼트로 캡처됩니다(기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot;(정보) 단추를 클릭하면 각 자동 세그먼트의 정의를 볼 수 있습니다. 여기에는 자동 세그먼트가 구성하는 상위 항목이 포함됩니다.
+   * [생성된 세그먼트](https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_workflow_premium.html)(상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다(기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot;(정보) 단추를 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다. 
 
       ![](assets/auto_segment.png)
 
-1. 기여도 분석은 이제 분석 작업 공간의 일부이므로 표의 마우스 오른쪽 단추 클릭 메뉴에서 여러 기능을 활용하여 다음과 같이 보다 의미 있는 분석을 만들 수 있습니다.
+1. 이제 기여도 분석은 Analysis Workspace의 일부이므로 다음과 같이 표의 마우스 오른쪽 단추 클릭 메뉴에 있는 많은 기능을 사용하여 분석을 훨씬 더 의미 있게 할 수 있습니다. 
 
    * [각 차원 항목을 다른 차원으로 분석](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [하나 이상의 행에 대한 트렌드 표시](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
@@ -53,7 +53,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 기여도 분석에서 차원 제외 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
-기여도 분석에서 일부 차원을 제외하려는 경우가 있을 수 있습니다. 예를 들어 브라우저 또는 하드웨어 관련 차원은 전혀 신경 쓰지 않을 수 있으며 이러한 차원을 제거하여 분석 속도를 높이고자 합니다.
+기여도 분석에서 일부 차원을 제외하고자 하는 경우가 있을 수 있습니다. 예를 들어, 브라우저 또는 하드웨어와 관련된 차원을 전혀 고려하지 않을 수 있으며, 이를 제거하여 분석 속도를 높이고 싶을 수도 있습니다.
 
 1. 라인 차트에서 **[!UICONTROL Run Contribution Analysis]** 또는 **[!UICONTROL Analyze]** 을 클릭하면 **[!UICONTROL Excluded Dimensions]** 패널이 표시됩니다.
 
