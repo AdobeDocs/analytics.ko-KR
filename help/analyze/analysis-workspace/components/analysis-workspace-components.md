@@ -1,5 +1,5 @@
 ---
-description: 분석 작업 공간의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 세그먼트 및 시간 세부기간으로 구성됩니다. 사용자가 만드는 사용자 지정 구성 요소는 사용자 지정 날짜 범위와 같은 이러한 패널에 추가됩니다.
+description: Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 세그먼트 및 시간 세부기간으로 구성됩니다. 사용자 지정 날짜 범위와 같은 만든 사용자 지정 구성 요소는 이러한 패널에 추가됩니다.
 title: 구성 요소 개요
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 구성 요소 개요
 
-분석 작업 공간의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 세그먼트 및 시간 세부기간으로 구성됩니다. 사용자가 만드는 사용자 지정 구성 요소는 사용자 지정 날짜 범위와 같은 이러한 패널에 추가됩니다.
+Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 세그먼트 및 시간 세부기간으로 구성됩니다. 사용자 지정 날짜 범위와 같은 만든 사용자 지정 구성 요소는 이러한 패널에 추가됩니다.
 
 To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. 왼쪽 레일 아이콘이나 [핫키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)를 사용하여 패널(빈 패널, [자유 형식 패널](/help/analyze/analysis-workspace/visualizations/freeform-table.md) 또는 [세그먼트 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) 패널), [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 및 구성 요소 간을 전환할 수 있습니다.
 
@@ -28,7 +28,7 @@ To access the Components panel, click the **[!UICONTROL Components]** icon in th
 |--- |--- |
 | 태그 | 구성 요소에 태그를 적용하여 구성 요소를 구성하거나 관리합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
 | 즐겨찾기 | 구성 요소를 즐겨찾기 목록에 추가합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
-| 승인 | 구성 요소를 승인하여 표준으로 지정합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
+| 승인 | 정형화되도록 구성 요소를 승인합니다. 그러면 각 구성 요소 관리자에 Analytics > 구성 요소 > 세그먼트 또는 Analytics > 구성 요소 > 프로젝트와 같이 표시됩니다. |
 | 공유 | 세그먼트에만 적용됩니다. |
 | 삭제 | 세그먼트에만 적용됩니다. |
 
