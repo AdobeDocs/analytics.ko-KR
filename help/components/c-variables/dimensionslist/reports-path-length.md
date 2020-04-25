@@ -3,7 +3,7 @@ description: 각 사이트 방문의 깊이를 백분율과 총 계수로 나타
 title: 경로 길이
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
