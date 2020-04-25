@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace 프로젝트 만들기
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 프로젝트를 생성하고 조정하는 사용자 권한을 지정합니다.
 
-   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [그룹](https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html)).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [그룹](https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html)).
 
-1. [!DNL Experience Cloud]에서 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**&#x200B;를 클릭합니다.
+1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +30,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/analysis-app-search.png)
 
-1. **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Create New Project]**.
 
    프로젝트를 다음 중 어느 방법으로 작성할지 선택할 수 있습니다.
 
@@ -40,10 +40,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/start_modal.png)
 
-1. 빈 프로젝트에서 프로젝트를 생성하려면 **[!UICONTROL 빈 프로젝트]**&#x200B;를 클릭하십시오.
+1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
 
-   * 그런 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭하거나,
-   * 간단히 **[!UICONTROL Enter를 클릭합니다]**.
+   * 그런 다음 **[!UICONTROL Create]**&#x200B;또는
+   * 간단하게 **[!UICONTROL Enter]**&#x200B;클릭합니다.
    자유 형식 패널과 데이터 테이블 시각화를 보여주는 빈 프로젝트가 표시됩니다.
 
    ![](assets/fa_project_new.png)
@@ -75,7 +75,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-1. 프로젝트를 저장하십시오. 프로젝트 이름을 지정하고 (선택 사항이지만 유용한) 설명을 제공하고 프로젝트에 태그를 달고(선택 사항) **[!UICONTROL 프로젝트 저장을 클릭하십시오]**.
+1. 프로젝트를 저장하십시오. Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
 
    ![](assets/save_project.png)
 
@@ -124,7 +124,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **[시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-[!UICONTROL 시각화] 패널은 표준 분석 그래프, 차트, 도넛, 데이터 테이블, [집단](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 테이블, 벤 다이어그램 등을 제공합니다. 여러 시각화를 프로젝트로 드래그하여 놓을 수 있습니다.
+The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. 여러 시각화를 프로젝트로 드래그하여 놓을 수 있습니다.
 
 ![단계 결과](assets/visualizations.png)
 
