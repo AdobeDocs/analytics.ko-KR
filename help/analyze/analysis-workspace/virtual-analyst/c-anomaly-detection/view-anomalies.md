@@ -2,7 +2,7 @@
 description: 표 또는 선 차트에서 예외 항목을 볼 수 있습니다.
 title: Analysis Workspace에서 예외 항목 보기
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 예외 항목 탐지 신뢰 구간은 차트를 읽기 쉽게 만들기 위해 시각화의 y축 크기를 자동으로 조절하지 않습니다.
 
-신뢰 구간에서 차트의 크기를 조정할 수 있습니다. 설정(톱니바퀴) 아이콘을 클릭하고 **[!UICONTROL 예외 항목 탐지를 허용하여 Y축의 크기 조절을 선택하십시오]**.
+신뢰 구간에서 차트의 크기를 조정할 수 있습니다. 설정(톱니바퀴) 아이콘을 클릭하고 **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**&#x200B;확인하기만 하면 됩니다.
 
 ![](assets/scale-y-axis.png)
 
