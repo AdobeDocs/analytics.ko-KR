@@ -3,7 +3,7 @@ description: 모바일 관리를 활성화하면 모바일 애플리케이션에
 title: 모바일 관리
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
