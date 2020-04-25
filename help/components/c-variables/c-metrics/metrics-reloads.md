@@ -3,7 +3,7 @@ description: 동일한 페이지 이름이 두 번 연이어 로드되면 계산
 title: 다시 로드
 topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
