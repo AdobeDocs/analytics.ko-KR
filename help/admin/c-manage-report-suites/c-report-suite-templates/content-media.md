@@ -3,7 +3,7 @@ description: 원래 컨텐트를 개발하고 기사 및 비디오를 표시하�
 title: 컨텐츠 및 미디어
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
