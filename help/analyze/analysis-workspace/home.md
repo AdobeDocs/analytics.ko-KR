@@ -97,6 +97,6 @@ Analysis Workspace를 더 깊이 이해하기 위해서는 살펴볼 측면이 �
 
 ### 조직에서 작업 영역의 품질을 향상시키고자 하는 분석가 및 관리자
 
-* [Analysis Workspace 권한](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): Adobe Admin Console을 통해 Workspace에 대한 권한을 사용자에게 할당합니다.
+* [Analysis Workspace 권한](https://marketing.adobe.com/resources/help/ko_KR/mcloud/admin_getting_started.html): Adobe Admin Console을 통해 Workspace에 대한 권한을 사용자에게 할당합니다.
 * [Workspace의 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): 동료가 자신의 요구에 맞는 프로젝트 공간으로 시작할 수 있도록 템플릿을 만듭니다.
 * [Workspace 큐레이션](/help/analyze/analysis-workspace/curate-share/curate.md): 사용 가능한 구성 요소를 제한하는 프로젝트를 만들어 도구에 익숙하지 않은 사람들이 Workspace에 보다 쉽게 액세스할 수 있도록 합니다.
