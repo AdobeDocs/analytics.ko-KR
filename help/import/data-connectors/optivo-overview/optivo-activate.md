@@ -2,7 +2,7 @@
 description: Adobe Data Connectors 구성 마법사를 사용하여 통합을 설정합니다.
 title: 통합 활성화
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
