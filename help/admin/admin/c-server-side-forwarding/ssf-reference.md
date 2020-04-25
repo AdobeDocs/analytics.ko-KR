@@ -2,7 +2,7 @@
 description: 서버 측 전달 호출의 구성 변수, HTTP 헤더 및 데이터 신호에 대한 종합 목록 및 설명.
 title: 서버 측 전달 데이터 및 코드 참조
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
