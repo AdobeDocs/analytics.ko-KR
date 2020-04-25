@@ -51,8 +51,8 @@ Adobe는 중요한 크로스 디바이스 성능 데이터를 볼 수 있는 템
 
 1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com)으로 이동한 다음 AdobeID 자격 증명을 사용하여 로그인합니다.
 1. 맨 위에 있는 9격자 아이콘을 클릭한 다음 Analytics를 클릭합니다.
-1. 맨 [!UICONTROL Workspace] 위에서 을 클릭한 다음 을 클릭합니다 [!UICONTROL Create New Project].
-1. &quot;Journey IQ:장치 간 분석&quot; 템플릿을 클릭한 다음 을 [!UICONTROL Create]클릭합니다.
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. &quot;Journey IQ:장치 간 분석&quot; 템플릿을 클릭한 다음 만들기를 [!UICONTROL 클릭합니다].
 1. 메시지가 표시되면 보고서 세트를 CDA를 지원하는 보고서 세트로 변경합니다.
 
 여러 패널이 포함된 분석 작업 공간 프로젝트가 만들어집니다. 맨 위에는 보고서 컨텍스트와 개별 보고서에 대한 탐색을 허용하는 목차 및 소개가 표시됩니다. 목차에서 링크를 클릭하거나 패널의 아코디언을 확장하여 해당 보고서를 봅니다.
