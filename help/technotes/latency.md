@@ -48,7 +48,7 @@ Adobe Experience Cloud의 일부 기능은 표준 처리 시간 외에 기본적
    * 동일한 페이지에서 20개 이상의 이벤트 구현
    * 복잡한 VISTA 규칙
    * 제품 변수에서 값 20개 초과
-   * 이벤트 정리
+   * 이벤트 직렬화
 
 * IAB 보트 필터링 활성화: [보트 필터링](/help/admin/admin/bot-removal/bot-removal.md)은 보고서 세트에 보트나 크롤러가 많이 등장하는 경우 지연을 줄이는 데 효과적입니다. IAB 보트 목록은 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab)에서 업데이트 및 유지 관리되므로 이 목록을 사용하는 것이 좋습니다. 사용자가 보트 규칙을 사용자 지정하여 IAB의 규칙을 보완할 수도 있습니다.
 
