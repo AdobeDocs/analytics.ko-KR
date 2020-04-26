@@ -1,7 +1,7 @@
 ---
 title: channel
 description: '''사이트 섹션'' 차원을 채웁니다.'
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 ---
