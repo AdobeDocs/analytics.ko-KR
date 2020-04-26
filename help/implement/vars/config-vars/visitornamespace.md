@@ -17,12 +17,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch의 방문자 네임스페이스
 
-[!UICONTROL Visitor Namespace] 는 Adobe Analytics 확장 기능을 구성할 때 아코디언 아래의 [!UICONTROL Cookies] 필드입니다.
+[!UICONTROL 방문자 네임스페이스]는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 필드입니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 필드를 나타내는 [!UICONTROL Cookies] [!UICONTROL Visitor Namespace] 아코디언을 확장합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+4. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 방문자 네임스페이스] 필드가 표시됩니다.
 
 이 필드는 사용하지 않는 것이 좋습니다. 대신 `trackingServer` 및 `trackingServerSecure`를 사용하십시오.
 
