@@ -1,7 +1,7 @@
 ---
 title: trackInlineStats
 description: 구현에서 Activity Map을 활성화하거나 비활성화합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ---
