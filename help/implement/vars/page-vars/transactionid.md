@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `transactionID` 변수는 Data Sources를 통해 업로드된 데이터에 히트가 연결할 수 있도록 거래를 고유하게 식별합니다. 이 변수는 다른 채널의 데이터를 사용하고 이 데이터를 AppMeasurement로 수집한 데이터에 연결하려는 경우에 유용합니다.
 
->[!NOTE] 이 변수를 사용하기 전에 보고서 [!UICONTROL Transaction ID Storage] 세트에서 활성화되어 있는지 확인하십시오. 자세한 내용은 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
+>[!NOTE] 이 변수를 사용하기 전에 보고서 세트에서 [!UICONTROL 거래 ID 스토리지]가 활성화되어 있는지 확인하십시오. 자세한 내용은 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
 
 히트에서 `transactionID`를 설정하면 Adobe는 해당 시점에서 설정하거나 지속되는 모든 Analytics 변수의 &quot;스냅샷&quot;을 만듭니다. 일치하는 거래 ID로 Data Sources를 통해 업로드된 데이터는 해당 변수 값에 영구적으로 연결됩니다.
 
@@ -23,10 +23,10 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 거�
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. 아래에서 [!UICONTROL Actions]기존 [!UICONTROL Adobe Analytics - Set Variables] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 드롭다운을 [!UICONTROL Extension] Adobe Analytics로 설정하고 [!UICONTROL Action Type] 을 [!UICONTROL Set Variables]설정합니다.
-6. Locate the [!UICONTROL Transaction ID] section.
+3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
+5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
+6. [!UICONTROL 거래 ID] 섹션을 찾습니다.
 
 거래 ID를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
 
