@@ -25,13 +25,13 @@ Adobe ID는 Adobe Analytics와 Adobe Experience Platform Launch 모두에 액세
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 2. 맨 위에 있는 9격자 아이콘을 클릭한 다음 [!UICONTROL Adobe Analytics]를 클릭합니다.
-3. 보고서 세트를 아직 만들지 않은 경우 모달이 자동으로 나타납니다. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
+3. 보고서 세트를 아직 만들지 않은 경우 모달이 자동으로 나타납니다. 이 로그인 회사에 대한 보고서 세트가 있는 경우 오른쪽 상단의 도움말 아이콘을 클릭한 후 [!UICONTROL Adobe Analytics에 오신 것을 환영합니다]를 클릭합니다.
 
->[!NOTE] 이 [!UICONTROL Welcome to Adobe Analytics] 옵션은 Adobe Experience Cloud를 통해 로그인한 경우에만 나타납니다. 기존 도메인을 통해 로그인하는 경우에는 모달을 사용할 수 없습니다.
+>[!NOTE] [!UICONTROL Adobe Analytics에 오신 것을 환영합니다] 옵션은 Adobe Experience Cloud를 통해 로그인하는 경우에만 나타납니다. 기존 도메인을 통해 로그인하는 경우에는 모달을 사용할 수 없습니다.
 
 ## 보고서 세트 만들기
 
-Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
+보고서 세트 생성 워크플로우를 시작하려면 [!UICONTROL 설치 시작] 단추를 클릭하십시오.
 
 ![RS 마법사](assets/analytics-implementation-rs-wizard.png)
 
