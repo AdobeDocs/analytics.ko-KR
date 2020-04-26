@@ -23,8 +23,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 * Adobe Experience Platform Launch에서:
    1. [launch.adobe.com](https://launch.adobe.com)에 로그인하고 원하는 속성을 클릭합니다.
-   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-   3. 아코디언을 [!UICONTROL General] 클릭하고 [!UICONTROL Tracking Server] 값을 확인합니다.
+   2. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
+   3. [!UICONTROL 일반] 아코디언을 클릭하고 [!UICONTROL 추적 서버] 값을 확인합니다.
 
 * JavaScript 구현에서:
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
@@ -32,8 +32,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 * [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html) 사용:
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
-   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
-   3. Note the [!UICONTROL Request URL - Hostname] value.
+   2. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
+   3. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:
 
