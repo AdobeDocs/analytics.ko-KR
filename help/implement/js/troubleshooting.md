@@ -1,7 +1,7 @@
 ---
 title: JavaScript 구현 문제 해결
 description: JavaScript 구현 문제 해결을 위한 일반적인 문제 및 우수 사례에 대해 알아봅니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
 
 ---
