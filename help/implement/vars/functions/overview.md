@@ -1,6 +1,6 @@
 ---
 title: 함수 및 메서드
-description: 구현에서 Adobe가 제공하는 함수와 방법을 사용하는 방법을 알아봅니다.
+description: Adobe가 구현에서 제공하는 함수와 메서드를 사용할 수 있는 방법을 알아봅니다.
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
