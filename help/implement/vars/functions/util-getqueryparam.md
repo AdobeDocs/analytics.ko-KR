@@ -17,8 +17,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. 드롭다운을 [!UICONTROL Extension] 설정하고 [!UICONTROL Core]을 [!UICONTROL Data Element Type] [!UICONTROL Query String Parameter]설정합니다.
+3. [!UICONTROL 데이터 요소] 탭으로 이동한 다음, 원하는 데이터 요소를 클릭하거나 데이터 요소를 만듭니다.
+4. [!UICONTROL 확장] 드롭다운을 [!UICONTROL 코어]로 설정하고 [!UICONTROL 데이터 요소 유형]을 [!UICONTROL 쿼리 문자열 매개 변수]로 설정합니다.
 5. 텍스트 필드에 쿼리 문자열 매개 변수를 입력합니다.
 
 쿼리 문자열 매개 변수 값은 데이터 요소에 저장됩니다. 그러면 규칙의 데이터 요소를 참조하여 Analytics 변수를 할당할 수 있습니다.
