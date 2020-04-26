@@ -18,12 +18,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch의 자사 도메인 마침표
 
-First-party Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
+자사 도메인 마침표는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 필드입니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 필드를 나타내는 [!UICONTROL Cookies] [!UICONTROL First-party Domain Periods] 아코디언을 확장합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+4. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 자사 도메인 마침표] 필드가 표시됩니다.
 
 접미사에 마침표를 포함하는 도메인에서만 이 필드를 `3`으로 설정하십시오. 다른 경우에는 이 필드를 비워 둘 수 있습니다.
 
