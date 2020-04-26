@@ -27,8 +27,8 @@ Adobe Experience Platform Launch에 데이터 요소 저장소가 있으면 Anal
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
 1. 원하는 론치 속성을 클릭합니다.
-1. 을 [!UICONTROL Extensions tab]클릭한 다음 Adobe Analytics [!UICONTROL Configure] 확장 프로그램 아래에서 을 클릭합니다.
-1. 전역 변수를 할당할 인터페이스를 표시하는 [!UICONTROL Global variables] 아코디언을 클릭합니다.
+1. 확장 [!UICONTROL 탭을]클릭한 다음 Adobe [!UICONTROL Analytics] 확장 프로그램 아래에 있는 구성을 클릭합니다.
+1. 전역 [!UICONTROL 변수] 아코디언을 클릭합니다. 아코디언에는 전역 변수를 할당하는 인터페이스가 표시됩니다.
 
 ### 규칙에서 변수 설정
 
@@ -36,11 +36,11 @@ Adobe Experience Platform Launch에 데이터 요소 저장소가 있으면 Anal
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
 1. 원하는 론치 속성을 클릭합니다.
-1. 탭을 [!UICONTROL Rules] 클릭한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-1. 아래의 [!UICONTROL Add] 단추를 클릭합니다 [!UICONTROL Actions].
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. 규칙 [!UICONTROL 탭을] 클릭한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+1. 작업 [!UICONTROL 아래의] 추가 단추를 [!UICONTROL 클릭합니다].
+1. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 변수 설정으로 설정합니다.
 1. 원하는 ![Analytics 변수 오른쪽에 있는 데이터 요소](assets/data-element.png) 아이콘을 클릭합니다. 조직의 [솔루션 디자인 문서는](../prepare/solution-design.md) 사용할 Analytics 변수를 나타냅니다.
-1. 모달 창에서 원하는 데이터 요소를 선택합니다. 클릭 [!UICONTROL Select].
+1. 모달 창에서 원하는 데이터 요소를 선택합니다. 선택을 [!UICONTROL 클릭합니다].
 1. 데이터 요소 이름이 `%` 기호로 둘러싸인 텍스트 필드에 추가됩니다. 예를 들어 데이터 요소의 이름을 &quot;페이지 이름&quot;으로 지정한 경우 데이터 요소를 변수에 할당할 `%Page name%` 때 문자열이 표시됩니다.
 
 >[!TIP] 동일한 변수에 데이터 요소를 연결할 수 있습니다. 예를 들어 &quot;호스트 이름&quot; 데이터 요소와 &quot;경로 이름&quot; 데이터 요소가 있는 경우 를 사용하여 두 요소를 하나의 변수에 결합할 수 `%Hostname%%Pathname%`있습니다.
