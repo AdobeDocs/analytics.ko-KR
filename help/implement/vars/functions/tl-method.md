@@ -19,9 +19,9 @@ Launch에는 링크 추적 호출을 설정하는 전용 위치가 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-1. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+1. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+1. [!UICONTROL 작업] 아래에서 &#39;+&#39; 아이콘을 클릭합니다.
+1. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 비콘 보내기로 설정합니다.
 1. `s.tl()` 라디오 단추를 클릭합니다.
 
 Launch에서는 선택적 인수를 설정할 수 없습니다.
