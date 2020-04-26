@@ -24,12 +24,12 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 |  | **&quot;adobeanalytics&quot; 템플릿** | **&quot;adobeanalytics_nativeConfig&quot; 템플릿** |
 |---|---|---|
-| 기존 보고서 세트의 방문자/방문수 | 높은 인플레이션 | 최소 인플레이션 |
-| 별도의 보고서 세트 사용 | 권장 | 필요 없음 |
-| 신규 방문자와 재방문자 | 지원되지 않음 | 지원됨 |
+| 기존 보고서 세트의 방문자/방문수 | 높은 인플레이션 | 최소한의 인플레이션 |
+| 별도의 보고서 세트 사용 | 권장 | 불필요 |
+| 새 방문자와 재방문자 | 지원되지 않음 | 지원됨 |
 | 방문자 ID 서비스 | 지원되지 않음 | 지원됨 |
 | 비디오 및 링크 추적 | 부분 지원 | 아직 지원되지 않음 |
-| 구현의 어려움 | 다소 어려움 | 비교적 수월함 |
+| 구현의 어려움 | 약간 어려움 | 상대적으로 쉬움 |
 | Adobe Experience Cloud 통합 | 지원되지 않음 | 부분 지원 |
 
 조직 내에서 장단점을 따져 사용할 방법을 결정하십시오. 샘플 코드가 필요하면 Adobe의 GitHub 저장소에서 [AMP 예](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web)를 참조하십시오.
@@ -161,7 +161,7 @@ AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별
 
 **AMP 방문자를 데이터에 있는 다른 방문자와 구별하려면 어떻게 해야 합니까?**
 
-For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. 사용자 지정 차원을 &#39;AMP&#39;로 설정하여 이러한 방문자를 세그먼트화할 수도 있습니다.
+모든 AMP 페이지의 경우 [!UICONTROL JavaScript 버전] 차원은 `AMP vX.X`와 유사한 값을 수집합니다. 사용자 지정 차원을 &#39;AMP&#39;로 설정하여 이러한 방문자를 세그먼트화할 수도 있습니다.
 
 **이 구현 방법은 Facebook 인스턴트 아티클과 어떻게 비교할 수 있습니까?**
 
