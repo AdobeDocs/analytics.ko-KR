@@ -15,19 +15,19 @@ AppMeasurement에서 설정하는 쿠키는 일반적으로 만료 기한이 2�
 
 ## Adobe Experience Platform Launch의 쿠키 라이프타임
 
-Cookie Lifetime is a dropdown under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
+쿠키 라이프타임은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 드롭다운입니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 드롭다운을 표시하는 [!UICONTROL Cookies] 아코디언을 [!UICONTROL Cookie Lifetime] 확장합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+4. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 쿠키 라이프타임] 드롭다운이 표시됩니다.
 
 이 드롭다운에는 다음 값이 포함되어 있습니다.
 
 * **기본값**: 쿠키가 2년 후 만료됩니다.
 * **없음**: AppMeasurement가 쿠키를 설정하지 않습니다.
 * **세션**: 쿠키가 방문자 세션이 끝날 때 만료됩니다.
-* **초**: 지정된 초 수가 경과하면 쿠키가 만료됩니다. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
+* **초**: 지정된 초 수가 경과하면 쿠키가 만료됩니다. 예를 들어 이 드롭다운을 [!UICONTROL 초]로 설정하고 `86400`을 사용자 지정 필드에 배치하면 쿠키가 정확히 24시간 후에 만료됩니다.
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.cookieLifetime
 
