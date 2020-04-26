@@ -13,12 +13,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch의 s_gi()
 
-Analytics 확장은 추적 개체를 인스턴스화하고 관리합니다. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+Analytics 확장은 추적 개체를 인스턴스화하고 관리합니다. 그러나 Adobe Analytics 확장을 구성할 때 [!UICONTROL 라이브러리 관리] 아코디언에서 전역 추적 개체를 설정할 수도 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 아코디언을 [!UICONTROL Library Management] 확장하고 다른 라디오 단추를 선택합니다 [!UICONTROL Manage the library for me].
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+4. [!UICONTROL 라이브러리 관리] 아코디언을 확장하고 [!UICONTROL 라이브러리 자동 관리]를 제외한 임의의 라디오 단추를 선택합니다.
 
 전역 변수 텍스트 필드를 사용하면 사용자 지정 추적 개체를 설정할 수 있습니다. 기본값은 `s`입니다.
 
