@@ -17,10 +17,10 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. 아래에서 [!UICONTROL Actions]기존 [!UICONTROL Adobe Analytics - Set Variables] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. 드롭다운을 [!UICONTROL Extension] Adobe Analytics로 설정하고 [!UICONTROL Action Type] 을 [!UICONTROL Set Variables]설정합니다.
-6. Locate the [!UICONTROL Events] section.
+3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
+5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
+6. [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 다음과 같은 몇 가지 기능을 사용할 수 있습니다.
 
