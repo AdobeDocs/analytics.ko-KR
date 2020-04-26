@@ -1,7 +1,7 @@
 ---
 title: dynamicVariablePrefix
 description: 동적 변수를 식별하는 문자열을 사용자 지정할 수 있습니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 03a4c0d5e080219a7fd96dff33ce122669351ac3
 
 ---
