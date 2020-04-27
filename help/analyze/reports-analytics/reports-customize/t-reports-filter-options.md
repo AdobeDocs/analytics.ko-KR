@@ -17,7 +17,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/filter.png)
 
-단순 필터는 대부분의 보고서에 표시되며 특정 라인 항목을 신속히 찾는 데 사용됩니다. 단순 필터에서는 특수 문자를 사용하지 않으므로 `-, ", ', +` 및 기타 특수 문자는 보고서에서 리터럴 값에 일치합니다. 공백을 사용하여 여러 용어가 포함된 라인 항목을 찾을 수 있습니다.
+단순 필터는 대부분의 보고서에 표시되며 특정 라인 항목을 신속히 찾는 데 사용됩니다. 단순 필터에서는 특수 문자를 사용하지 않으므로 `-, ", ', +` 및 기타 특수 문자는 보고서에서 리터럴 값에 일치합니다. 공백을 사용하여 여러 용어가 들어 있는 라인 항목을 찾을 수 있습니다.
 
 예:
 
@@ -37,28 +37,28 @@ help:Internal Search Term
 
 ## 고급 필터 {#section_E016626C084640E8A066B2FDA5B932BF}
 
-고급 필터를 사용하면 필터 모음을 사용하여 검색 범위를 제어할 수 있습니다. 모든 필터 또는 모든 필터를 일치하도록 선택할 수 있습니다.
+고급 필터를 사용하면 필터 컬렉션을 사용하여 검색 범위를 제어할 수 있습니다. 모든 필터 또는 특정 필터에 일치하도록 선택할 수 있습니다.
 
 ![](assets/advanced_filter.png)
 
 **다음 포함**
 
-라인 항목의 아무 곳에나 해당 용어가 있는 경우 일치합니다. 단순 필터와 동일하게 작동합니다.
+라인 항목에 해당 용어가 있으면 일치합니다. 단순 필터와 동일한 방식으로 작동합니다.
 
 >[!NOTE] 공백은 검색에서 구분 기호로 인식하기 때문에 필터에 사용할 수 없습니다.
 
 **다음을 포함하지 않음**
 
-라인 항목에서 용어가 없는 경우 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://marketing.adobe.com/resources/help/ko_KR/reference/none-unspecified-unknown-other.html)을 필터링할 수 있습니다.
+라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://marketing.adobe.com/resources/help/ko_KR/reference/none-unspecified-unknown-other.html)을 필터링할 수 있습니다.
 
 다음을 포함하지 않음: `none`
 
-보다 정확한 필터의 경우 고급(특수 문자) 필터를 사용할 수 있습니다.
+더 구체적인 필터가 필요하면 고급(특수 문자) 필터를 사용할 수 있습니다.
 
 * 고급(특수 문자): `-^none$`
 * 고급(특수 문자): `-"keyword unavailable"`
 
-예를 들어 다음 라인 항목은 &quot;포함하지 않음&quot; 기준으로 필터링되지만 &quot;고급(특수 문자)&quot; 기준으로 필터링되지 않습니다.
+예를 들어, 다음 라인 항목은 &quot;포함하지 않음&quot; 기준으로 필터링되지만, &quot;고급(특수 문자)&quot; 기준으로는 필터링되지 않습니다.
 
 ```
 help:Rename the None classification key
@@ -66,9 +66,9 @@ help:Rename the None classification key
 
 **다음 중 하나 포함**
 
-라인 항목에 공백으로 구분된 용어가 있으면 일치합니다. 다음 필터는 &quot;mens&quot; 또는 &quot;sale&quot;이 포함된 모든 페이지를 보여줍니다.
+라인 항목에 공백으로 구분된 용어 중 하나라도 있으면 일치합니다. 다음 필터는 &quot;mens&quot; 또는 &quot;sale&quot;이 들어 있는 모든 페이지를 보여 줍니다.
 
-다음 중 하나 포함: `mens sale`
+다음 중 하나 포함`mens sale` 위에 다음 코드를 추가할 것을 권장합니다.
 
 다음 페이지에 일치합니다.
 
@@ -81,15 +81,15 @@ Sale & Values
 
 **같음**
 
-공백과 기타 문자를 포함한 전체 라인 항목이 지정된 구와 일치하는 경우 일치합니다.
+공백과 기타 문자를 포함한 라인 항목 전체가 지정된 구와 일치하는 경우 일치합니다.
 
-같음: `mens:desk & travel`
+같음`mens:desk & travel` 위에 다음 코드를 추가할 것을 권장합니다.
 
 `Mens:Desk & Travel`
 
 **다음으로 시작**
 
-공백과 기타 문자를 포함한 라인 항목이 지정된 구문으로 시작하는 경우 일치합니다.
+공백과 기타 문자를 포함한 라인 항목이 지정된 구로 시작하는 경우 일치합니다.
 
 다음으로 시작: `mens`
 
@@ -105,7 +105,7 @@ Mens Hemp/Bamboo Flip Flops
 
 **종료 문자**
 
-공백과 기타 문자를 포함한 라인 항목이 지정된 구문으로 끝나는 경우 일치합니다.
+공백과 기타 문자를 포함한 라인 항목이 지정된 구로 끝나는 경우 일치합니다.
 
 종료 문자: `jean`
 
@@ -121,7 +121,7 @@ Ocean Blue Jean
 
 ## 고급(특수 문자) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
-고급 기능을 사용하면 와일드카드 및 기타 복잡한 검색을 수행할 수 있습니다.
+고급 필터를 사용하면 와일드카드 및 기타 복잡한 검색을 수행할 수 있습니다.
 
 | 고급(특수 문자) | 설명 |
 |--- |--- |
@@ -142,7 +142,7 @@ t_reports_filter_specific.xml
 
  -->
 
-특정 보고서에는 해당 보고서와 관련된 필터가 포함되어 있습니다. 예를 들어 웹 페이지별로 필터링할 [!UICONTROL Purchase Conversion Funnel Report] 수 있습니다. A [!UICONTROL Geosegmentation Report] 를 사용하면 지리적 영역별로 필터링할 수 있습니다. 추가 보고서에는 해당 보고서와 관련된 다른 필터가 있습니다.
+일부 보고서는 해당 보고서 고유의 필터를 가지고 있습니다. 예를 들어 웹 페이지별로 필터링할 [!UICONTROL Purchase Conversion Funnel Report] 수 있습니다. A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. 그 외 보고서에도 해당 보고서 고유의 필터가 있습니다.
 
 이러한 필터에 액세스하면 목록에 지정된 항목에 대한 보고서 지표를 볼 수 있습니다.
 
@@ -156,7 +156,7 @@ t_reports_filter_specific.xml
 
 ## 상관 관계 필터 추가 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
-상관 관계 필터를 추가하는 방법을 설명하는 단계입니다.
+상관 관계 필터를 추가하는 방법을 설명하는 단계입니다
 
 <!-- 
 
@@ -164,11 +164,11 @@ t_reports_correlation_filter.xml
 
  -->
 
-특정 보고서에서는 사용자 지정 상관 관계 필터를 추가할 수 있습니다. 예를 들어, 여성 페이지와 상관 관계가 있는 사이트 섹션이 있는 보고서 세트에 [!UICONTROL Pages Report] 대한 을 보고 있는 경우 사이트 섹션 = 여성일 때 가장 빈도가 높은 페이지를 표시하는 보고서를 생성하는 필터 규칙을 만들 수 있습니다.
+일부 보고서에서는 사용자 지정 상관 관계 필터를 추가할 수 있습니다. For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
 
-사용 가능한 상관 관계를 사용하여 상관 관계 보고서에 표시된 데이터를 필터링할 수 있습니다. 이 예에서는 검색 엔진 상관 관계 필터를 추가하는 방법을 보여줍니다.
+사용 가능한 상관 관계를 사용하여 상관 관계 보고서에 표시되는 데이터를 필터링할 수 있습니다. 이 예제에서는 검색 엔진 상관 관계 필터를 추가하는 방법을 보여줍니다.
 
-**상관 관계 필터를 추가하려면**
+**상관 관계 필터 추가**
 
 1. 상관 관계를 지원하는 보고서를 실행합니다. [상세 분류 보고서 실행](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)을 참조하십시오.
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
