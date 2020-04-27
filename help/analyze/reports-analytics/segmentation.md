@@ -3,7 +3,7 @@ description: 세그먼트는 데이터의 사용자 지정 하위 세트이거�
 title: Analytics 세그멘테이션
 topic: Reports and analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
