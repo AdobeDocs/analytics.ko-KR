@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 공유할 Report Builder Excel 통합 문서를 업로드합니다.
 
-The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. 공유 통합 문서를 다운로드 및 편집할 수 있습니다. ExcelClient에서 리포트 빌더로 마이그레이션할 때 ExcelClient 보관소에서 통합 문서를 다운로드한 다음 리포트 빌더 보관소에 업로드하는 것이 좋습니다.
+The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. 공유 통합 문서를 다운로드 및 편집할 수 있습니다. ExcelClient에서 Report Builder로 마이그레이션할 때에는 ExcelClient 보관소에서 통합 문서를 다운로드한 다음 Report Builder 보관소에 업로드하는 것이 좋습니다.
 
->[!NOTE] Report Builder 요청이 있는 통합 문서만 업로드할 수 있습니다. 또한 리포트 빌더를 사용하지 않는 사용자에게 리포트 빌더 보고서를 배포할 수 있습니다. (데이터를 보는 데에는 로그인이 필요하지 않습니다.)
+>[!NOTE] Report Builder 요청이 있는 통합 문서만 업로드할 수 있습니다. 또한 Report Builder를 사용하지 않는 사용자에게 Report Builder 보고서를 배포할 수 있습니다. (데이터를 보는 데에는 로그인이 필요하지 않습니다.)
 
 1. 요청을 만들고 실행합니다.
 1. After you have saved the report, click **[!UICONTROL Share]**.
