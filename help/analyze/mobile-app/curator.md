@@ -188,7 +188,6 @@ Scorecard를 공유한 후 수신자가 Analytics 대시보드에서 액세스�
    3. Testflight 앱을 설치한 후 아래와 같이 Testflight 내에서 Adobe Analytics 대시보드를 찾아 설치합니다.
 
       ![Testflight 화면](assets/testflight2.png)
-   
    **Android를 사용하는 경영진 사용자:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
