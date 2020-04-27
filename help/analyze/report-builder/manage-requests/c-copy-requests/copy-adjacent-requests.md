@@ -13,10 +13,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 요청을 복사하고 붙여넣는 것과 같은 방식으로, 바로 가기 메뉴에서 요청 잘라내기를 선택하여 요청의 위치를 스프레드시트의 다른 부분으로 변경할 수도 있습니다.
 
-Cutting a request removes it from its original location and places it in the new location after you select [!UICONTROL Paste Request]. 특정 요청을 잘라낸 후 마음이 바뀌어서 다른 셀에서 다른 요청을 복사하거나 잘라내려고 하면, 리포트 빌더는 첫 번째 요청을 원래 셀에 그대로 두고 두 번째 요청만(복사 또는 잘라내기)합니다.
+Cutting a request removes it from its original location and places it in the new location after you select [!UICONTROL Paste Request]. 특정 요청을 잘라낸 후 마음이 바뀌어서 다른 셀의 다른 요청을 복사하거나 잘라내려고 하면, Report Builder가 첫 번째 요청은 원래 셀에 그대로 두고 두 번째 요청에 대한 작업(복사 또는 잘라내기)만 수행합니다.
 
->[!NOTE] Report Builder는 요청 잘라내기나 붙여넣기에 대한 Excel 실행 취소 명령을 지원하지 않습니다. 따라서 요청을 잘라낼 때는 주의하십시오.
+>[!NOTE] Report Builder는 요청 잘라내기나 붙여넣기에 대한 Excel 실행 취소 명령을 지원하지 않습니다. 그러므로 요청을 잘라낼 때에는 신중하십시오.
 
-통합 문서의 동일한 시트에서 복사 및 붙여넣기로 제한되지 않습니다. 한 시트에서 요청을 복사하고 동일한 통합 문서의 다른 시트에 붙여넣을 수 있습니다.
+통합 문서의 동일한 시트에서 복사하고 붙여넣어야 하는 것은 아닙니다. 한 시트에서 요청을 복사하고 동일한 통합 문서의 다른 시트에 붙여넣을 수 있습니다.
 
-한 번에 하나의 요청을 복사하고 붙여넣어야 하는 것은 아닙니다. 스프레드시트에서 두 개 이상의 요청을 선택하고 스프레드시트의 빈 영역에 붙여넣을 수 있습니다. 하나의 요청을 복사하고 붙여넣는 것과 마찬가지로, 붙여넣기 영역에 요청이 있는 셀이 없도록 하십시오. 요청이 있으면 붙여넣기 작업으로 대체됩니다. 대상 붙여넣기 영역에 이미 하나 이상의 요청이 들어 있는 경우, 리포트 빌더는 복사되거나 잘라낸 요청에 대한 [!UICONTROL Paste Requests] 메뉴를 표시하지 않습니다. 요청이 겹치지 않도록 다른 셀을 붙여넣기 작업의 대상으로 선택해야 합니다.
+한 번에 하나의 요청을 복사하고 붙여넣어야 하는 것은 아닙니다. 스프레드시트에서 두 개 이상의 요청을 선택하고 스프레드시트의 빈 영역에 붙여넣을 수 있습니다. 하나의 요청을 복사하고 붙여넣을 때처럼, 붙여넣기 영역에 요청이 있는 셀이 없도록 하십시오. 요청이 있으면 해당 요청이 붙여넣기 작업으로 인해 대체되게 됩니다. If the system finds that the target paste region already contains one or more requests, report builder does not display the [!UICONTROL Paste Requests] menu for any copied or cut requests. 요청이 겹치지 않도록 다른 셀을 붙여넣기 작업의 대상으로 선택해야 합니다.
