@@ -3,7 +3,7 @@ description: 지표 및 차원을 요청 마법사 2단계에 추가하여 요�
 title: 지표 및 차원 개요
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 지표 및 차원을 요청 마법사 2단계에 추가하여 요청에서 데이터의 분석 레이아웃을 정의할 수 있습니다. Report Builder의 지표 및 차원 목록은 Reports &amp; Analytics에 표시된 메뉴 레이아웃 다음에 나옵니다.
 
-지표는 숫자 값입니다. 이것은 [!UICONTROL 페이지 뷰 수], [!UICONTROL 방문자 프로필], [!UICONTROL 클릭스루], [!UICONTROL 다시 로드], [!UICONTROL 평균 체류 시간], [!UICONTROL 날짜], [!UICONTROL 단위] 등과 같은, 웹사이트에서의 활동에 대한 수량 정보로 구성됩니다. 리포트 빌더는 Analytics의 표준 그룹화 방법에 따라 지표를 몇 개의 그룹으로 분류합니다.
+지표는 숫자 값입니다. 이러한 정보는 웹 사이트의 활동(예: [!UICONTROL Page Views], [!UICONTROL Visitor Profile], [!UICONTROL Click-throughs][!UICONTROL Reloads], [!UICONTROL Average Time Spent][!UICONTROL Date], [!UICONTROL Units],,등)에 대한 수량 정보로 구성됩니다. 리포트 빌더는 Analytics의 표준 그룹화 방법에 따라 지표를 몇 개의 그룹으로 분류합니다.
 
 * 표준 트래픽: 지정된 라인 항목을 기반으로 지표를 표시합니다. 예를 들어, 페이지 보고서에서, 방문 횟수 지표에는 해당 특정 페이지의 방문 횟수가 표시됩니다.
 * 표준 상거래: 매출, 주문 및 체크아웃 수와 같은 지표.
