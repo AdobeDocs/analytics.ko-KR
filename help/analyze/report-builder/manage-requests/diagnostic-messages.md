@@ -3,7 +3,7 @@ description: 진단 메시지에서는 새로 고칠 때 요청의 상태에 대
 title: 진단 메시지
 topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
