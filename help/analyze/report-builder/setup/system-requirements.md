@@ -3,7 +3,7 @@ description: 시스템 권장 사항 및 필수 조건입니다.
 title: 시스템 요구 사항
 topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 시스템 요구 사항
 
-시스템 권장 사항 및 필수 조건
+시스템 권장 사항 및 필수 조건입니다.
 
 * Windows XP 이상
 * 32비트 또는 64비트 Microsoft Excel 2007 이상
