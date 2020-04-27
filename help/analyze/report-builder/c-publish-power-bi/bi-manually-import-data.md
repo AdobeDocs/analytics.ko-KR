@@ -2,7 +2,7 @@
 description: Power BI를 통해 수동으로 Analytics 데이터를 가져오려면, 다음 지침을 따르십시오.
 title: 수동으로 Power BI에 데이터 가져오기
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,8 +12,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Power BI를 통해 수동으로 Analytics 데이터를 가져오려면, 다음 지침을 따르십시오.
 
-1. Power BI에서 왼쪽 하단 화면에서 **[!UICONTROL 데이터 가져오기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 데이터 가져오기 또는 데이터에 연결]** > **[!UICONTROL 파일]** 아래의 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
+1. In Power BI, click **[!UICONTROL Get Data]** in the lower left screen.
+1. Under **[!UICONTROL Import or Connect to Data]** > **[!UICONTROL Files]**, click **[!UICONTROL Get]**.
 
    ![](assets/get-data.png)
 
@@ -21,8 +21,8 @@ Power BI를 통해 수동으로 Analytics 데이터를 가져오려면, 다음 �
 
    ![](assets/local-file.png)
 
-1. 업로드할 파일을 선택하고 **[!UICONTROL 열기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL Excel 파일을 Power BI에 업로드]** 아래의 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
+1. Choose which file to upload and click **[!UICONTROL Open]**.
+1. 아래에서 을 **[!UICONTROL Upload]** 클릭합니다 **[!UICONTROL Upload your Excel file to Power BI]**.
 
    ![](assets/upload-excel-file.png)
 
