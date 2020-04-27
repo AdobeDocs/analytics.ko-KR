@@ -1,9 +1,9 @@
 ---
-description: Excel의 [서식] > 셀 (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
+description: Excel의 서식 > 셀 (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 리포트 빌더로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
 title: 날짜 형식 지정
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,13 +11,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 날짜 형식 지정
 
-Excel의 서식 > 셀 (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 Report Builder로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
+Excel의 서식 > 셀 (Ctrl+1) 기능을 통해 사용할 수 있는 표준 셀 서식 지정 선택 사항 이외에도, 제한된 서식 지정 기능을 리포트 빌더로 셀 범위에 적용할 수 있습니다. 이러한 서식 지정 선택 사항은 선택한 지표에 따라 다릅니다.
 
-Row Labels 그리드에 [차원을 추가](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)한 후 **[!UICONTROL 서식]**&#x200B;을 클릭합니다.
+After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
 
-**[!UICONTROL 서식]** 메뉴에서 **[!UICONTROL 사용자 지정 형식]**&#x200B;을 클릭하여 프리펜드 및 포스트펜드 기능과 유사한, 날짜에 대한 사용자 지정된 형식을 적용합니다. 예를 들어 날짜 다음에 항상 표시되는 텍스트(A.D. B.C.E. A.H. 등)를 입력할 수 있습니다. 날짜 앞에 [!UICONTROL 시작 날짜] 및 [!UICONTROL 시작 및 종료 날짜]와 같은 텍스트를 추가할 수도 있습니다. 이 이외에도 일, 월 및 연도 약자로 사용자 지정 날짜 표현식을 만들고 날짜의 부분들 사이에 사용자 지정 구분 문자를 사용할 수 있습니다. 모든 날짜 형식은 대괄호만으로 묶여 있는 세 개의 약자로 구성되어야 합니다.
+In the **[!UICONTROL Format]** menu, click **[!UICONTROL Custom Format]** to apply customized formats for dates similar to the prepend and postpend feature. 예를 들어 날짜 다음에 항상 표시되는 텍스트(A.D. B.C.E. A.H. 등)를 입력할 수 있습니다. 날짜 앞에 [!UICONTROL Start Date] 및 등의 텍스트를 추가할 수 [!UICONTROL Start and End Date]있습니다. 이 이외에도 일, 월 및 연도 약자로 사용자 지정 날짜 표현식을 만들고 날짜의 부분들 사이에 사용자 지정 구분 문자를 사용할 수 있습니다. 모든 날짜 형식은 대괄호만으로 묶여 있는 세 개의 약자로 구성되어야 합니다.
 
-다음 표에서는 [!UICONTROL 사용자 지정 형식] 필드에서 날짜 약자를 사용할 수 있는 방법에 대해 설명합니다.
+The following table describes how you can use date abbreviations in the [!UICONTROL Custom Format] field:
 
 | 약자 | 의미 | 예   2012년 3월 14일 수요일 사용 |
 |--- |--- |--- |
