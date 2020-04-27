@@ -3,7 +3,7 @@ description: Report Builder 업그레이드 절차 및 고려 사항입니다.
 title: Report Builder 업그레이드
 topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,18 +30,18 @@ A: 아니요. 인증 설정을 포함한 모든 설정이 계속 작동합니다
 ## 업그레이드 지침 {#section_73B8110A619549189A30079735E81867}
 
 1. 현재 버전의 Report Builder에 로그인합니다.
-1. **[!UICONTROL [옵션]]** 메뉴로 이동하여 최신 버전으로 업그레이드합니다. 현재 버전 번호는 [옵션] 대화 상자의 하단 쪽에 표시됩니다.
+1. Go to the **[!UICONTROL Options]** menu to upgrade to the latest version. 현재 버전 번호는 [옵션] 대화 상자의 하단 쪽에 표시됩니다.
 
    ![](assets/upgrade.png)
 
-1. 새 버전을 사용할 수 있으면 **[!UICONTROL [업데이트...]]**&#x200B;를 클릭합니다. 이 단추는 &quot;버전 5.0.50으로 업데이트&quot;처럼 업데이트하게 될 버전을 보여줍니다.
+1. If a new version is available, click **[!UICONTROL Update...]**. 이 단추는 &quot;버전 5.0.50으로 업데이트&quot;처럼 업데이트하게 될 버전을 보여줍니다.
 
    >[!NOTE]
    >
    >이 단추가 회색으로 표시되면 사용 가능한 Report Builder의 새 버전이 없다는 뜻입니다.
 
-1. 선택 사항으로 **[!UICONTROL 새 버전을 사용할 수 있으면 업데이트]** 확인란을 선택할 수 있습니다. 이렇게 하면 나중에 사용 가능한 새 버전이 있을 때 업데이트 프로세스가 자동으로 시작됩니다.
-1. 설치 화면이 나타나면 **[!UICONTROL 다음 >]**&#x200B;을 클릭합니다.
+1. 선택적으로 **[!UICONTROL Update when a new version is available]** 확인란을 선택합니다. 이렇게 하면 나중에 사용 가능한 새 버전이 있을 때 업데이트 프로세스가 자동으로 시작됩니다.
+1. When the setup screen appears, click **[!UICONTROL Next >]**.
 
    ![](assets/setup.png)
 
@@ -51,8 +51,8 @@ A: 아니요. 인증 설정을 포함한 모든 설정이 계속 작동합니다
 
 Adobe Analytics에서 항상 최신 버전의 Report Builder를 가져올 수 있습니다.
 
-1. Adobe Analytics에 로그인하고 **[!UICONTROL 도구]**&#x200B;로 이동합니다.
-1. **[!UICONTROL Report Builder]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL [개요]]** 화면에서 32비트나 64비트 버전을 선택합니다.
-1. **[!UICONTROL 지금 다운로드!]**.
+1. Log in to Adobe Analytics and go to **[!UICONTROL Tools]**.
+1. 클릭 **[!UICONTROL Report Builder]**.
+1. On the **[!UICONTROL Overview]** screen, select the 32-bit or 64-bit version.
+1. 클릭 **[!UICONTROL Download Now!]**.
 
