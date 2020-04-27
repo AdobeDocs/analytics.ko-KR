@@ -2,7 +2,7 @@
 description: 여러 요청에 대한 지표 편집 기능을 사용하면 기존 요청 또는 여러 요청에 대한 지표를 쉽게 추가, 제거 또는 교체할 수 있습니다.
 title: 여러 요청에 대한 지표 편집
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
@@ -17,14 +17,14 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 주의 사항
 
 * 지표는 피벗 레이아웃 요청에만 추가할 수 있습니다. 선택한 요청 중 일부가 사용자 지정 레이아웃인 경우에는 지표를 추가할 수 없습니다. 레이아웃이 사용자 지정되어 있어서 스프레드시트에서 새 지표를 배치할 위치를 Report Builder가 알지 못하기 때문입니다.
-* 따라서 사용자 지정 레이아웃 요청만 선택한 경우 **[!UICONTROL 지표 추가]** 옵션을 사용할 수 없습니다.
+* Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
 * 지표를 추가하면 요청 크기가 증가하고 이 요청이 다른 요청과 겹칠 수 있습니다. 지표를 추가할 수 있는 충분한 공간이 요청에 있는지 확인하십시오.
 * 추가된 지표가 이미 선택된 요청 중 하나에 있으면 해당 요청에 추가되지 않습니다.
 
 하나 이상의 지표를 추가하려면 다음을 수행하십시오.
 
-1. Excel에서 하나 이상의 요청을 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 지표 편집]**&#x200B;을 선택합니다. (또는 **[!UICONTROL 관리]** > **[!UICONTROL 복수 편집]** > `<choose metric>` > **[!UICONTROL 그룹 편집]**&#x200B;을 클릭하여 수정할 요청 그룹을 선택합니다.)
-1. [!UICONTROL 지표 추가]**를 선택하고 추가할 지표를 선택합니다.
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (또는 > **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** 을 클릭하여 수정할 요청 그룹을 선택합니다.)
+1. **[!UICONTROL Add Metric(s)]**를 선택하고 추가할 지표를 선택합니다.
 
    ![](assets/add_metric.png)
 
@@ -45,9 +45,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 지표를 바꾸려면 다음을 수행하십시오.
 
-1. Excel에서 하나 이상의 요청을 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 지표 편집]**&#x200B;을 선택합니다. (또는 **[!UICONTROL 관리]** > **[!UICONTROL 복수 편집]** > **`<choose metric>`** > **[!UICONTROL 그룹 편집]**&#x200B;을 클릭하여 수정할 요청 그룹을 선택합니다.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (또는 > **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** 을 클릭하여 수정할 요청 그룹을 선택합니다.)
 
-1. **[!UICONTROL 지표 바꾸기]**&#x200B;를 선택합니다.
+1. 선택 **[!UICONTROL Replace Metric]**.
 
    ![](assets/replace_metric.png)
 
@@ -65,9 +65,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 지표를 제거하려면 다음을 수행하십시오.
 
-1. Excel에서 하나 이상의 요청을 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 지표 편집]**&#x200B;을 선택합니다. (또는 **[!UICONTROL 관리]** > **[!UICONTROL 복수 편집]** > **`<choose metric>`** > **[!UICONTROL 그룹 편집]**&#x200B;을 클릭하여 수정할 요청 그룹을 선택합니다.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (또는 > **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** 을 클릭하여 수정할 요청 그룹을 선택합니다.)
 
-1. **[!UICONTROL 지표 제거]**&#x200B;를 선택합니다.
+1. 선택 **[!UICONTROL Remove Metric(s)]**.
 
    ![](assets/remove_metric.png)
 
