@@ -3,7 +3,7 @@ description: 한 스프레드시트를 동일한 통합 문서에 있는 다른 
 title: 워크시트 복사
 topic: Report builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,8 +13,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 한 스프레드시트를 동일한 통합 문서에 있는 다른 스프레드시트로 복사합니다.
 
-1. 스프레드시트에서 임의의 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 요청이 포함된 워크시트 복사]**&#x200B;를 선택합니다.
-1. 다시 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 요청이 포함된 워크시트 붙여넣기]**&#x200B;를 선택합니다.
+1. 스프레드시트의 아무 곳이나 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy Worksheet w/Requests]**&#x200B;선택합니다.
+1. 다시 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Paste Worksheet w/Requests]**&#x200B;선택합니다.
 
    새 워크시트가 통합 문서에 추가됩니다. 기본적으로, 워크시트의 이름은 원본 워크시트와 동일하지만 접미사 (2)가 붙습니다. 붙여넣기 작업을 반복하면 새 워크시트에 접미사 (3)이 붙고 이런 식으로 계속 됩니다. 복사한 스프레드시트를 붙여넣을 때 새 스프레드시트는 활성 상태의 워크시트의 오른쪽(바로 다음)에 위치합니다.
 
