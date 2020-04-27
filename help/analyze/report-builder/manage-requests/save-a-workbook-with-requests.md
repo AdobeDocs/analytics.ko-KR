@@ -3,7 +3,7 @@ description: 포함된 요청이 있는 보고서를 만든 후 Excel에서 [파
 title: 요청이 있는 통합 문서 저장
 topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Windows 애플리케이션에서 폭넓게 사용하려면 자주 그리고 정기적으로 스프레드시트에 사용자의 요청 사항을 저장하여 워크시트에서의 예상치 못한 요청 손실을 방지할 것을 권장합니다.
 * 통합 문서의 이름을 지정할 때에는 작업 내역을 유지할 수 있도록 파일 이름에 버전 번호를 사용하는 것을 고려해 보십시오. 예를 들어, 첫 번째 통합 문서의 이름은 [!DNL web_forecast_01_01.xlsx]로 지정할 수 있습니다.
-* 이미 보고서를 저장한 경우에는 보고서를 두 번째 저장할 때 [!UICONTROL 템플릿 저장] 양식이 표시되지 않습니다. 보고서에 요청이 들어 있지 않으면 이 대화 상자는 표시되지 않습니다. 대신, 표준 Excel [!UICONTROL 다른 이름으로 저장] 대화 상자가 표시됩니다.
+* If you have already saved the report, the [!UICONTROL Save Template] form is not displayed when saving the report a second time. 보고서에 요청이 들어 있지 않으면 이 대화 상자는 표시되지 않습니다. Instead, the standard Excel [!UICONTROL Save As] form is displayed.
 
 ## 파일 이름 및 위치 {#section_2406629E9B644CE08430826948977D5D}
 
-[!UICONTROL 템플릿 저장] 양식에는 기존의 [!DNL .xls] 파일 확장명을 사용하여 스프레드시트의 파일 이름을 입력하도록 하는 텍스트 상자와 같이, Excel의 [!UICONTROL 파일] > [!UICONTROL 다른 이름으로 저장] 대화 상자와 동일한 기능이 일부 있습니다.
+The [!UICONTROL Save Template] form has some of the same functions as the standard Excel [!UICONTROL File] > [!UICONTROL Save As] dialog box, such as a text box for entering the file name of the spreadsheet report using the conventional [!DNL .xls] file extension.
 
 사용하는 모든 파일 이름의 길이는 255자 이하여야 합니다. 또한 파일 이름에는 다음 문자를 사용할 수 없습니다.
 
@@ -27,4 +27,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 마지막으로, 확장된 ASCII 문자 세트 이외에 유니코드 문자는 사용할 수 없습니다.
 
-파일을 로컬 드라이브나 네트워크 드라이브에 저장할 때 텍스트 상자에 전체 경로를 입력하거나 [!UICONTROL 다른 이름으로 저장] 텍스트 상자 근처에 있는 찾아보기 단추 ![browse_button.gif](assets/browse_button.gif)를 클릭합니다.
+When saving the file to a location on your local or network drives, you may enter the full path in the text box, or click on the browse button  ![browse_button.gif](assets/browse_button.gif) adjacent to the [!UICONTROL Save As] text box.
