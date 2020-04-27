@@ -2,7 +2,7 @@
 title: 이벤트의 영향을 받는 데이터 분석
 description: 이벤트의 영향을 받은 데이터가 전체 데이터 품질에 미치는 방식을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Adobe Analytics는 세그멘테이션을 사용하여 데이터에 집중하거�
 이 비디오는 위의 각 단계를 안내합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**:세그멘테이션을 사용하여 데이터 제외
+* **2:55**:이전 범위와 이벤트 비교
+* **8:42**:계산된 지표를 사용하여 데이터 추출
+* **11:46**:사용자에게 미치는 영향 전달
