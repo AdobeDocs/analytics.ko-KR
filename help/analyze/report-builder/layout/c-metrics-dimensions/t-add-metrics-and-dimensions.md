@@ -3,7 +3,7 @@ description: 지표 및 차원을 요청에 추가하는 절차.
 title: 지표 및 차원 추가
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,14 +13,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 지표 및 차원을 요청에 추가하는 절차.
 
-1. [데이터 요청을 만든](/help/analyze/report-builder/data-requests/data-requests.md) 다음([!UICONTROL 요청 마법사: 1단계]에서) **[!UICONTROL 다음을 클릭합니다]**.
-1. [!UICONTROL 요청 마법사: 2단계]에서 지표를 두 번 클릭하거나 지표를 원하는 위치로 드래그합니다.
+1. [에서 데이터 요청을](/help/analyze/report-builder/data-requests/data-requests.md) 만든 [!UICONTROL Request Wizard: Step 1]다음 을 클릭합니다 **[!UICONTROL Next]**.
+1. On the [!UICONTROL Request Wizard: Step 2], double-click metrics, or drag them to the desired position.
 
    ![단계 정보](assets/adding_metrics.png)
 
-   요청 내에서 지표를 여러 번 표시할 수 있으므로 지표를 추가하면 이 지표는 [!UICONTROL 지표] 탭에서 제거되지 않습니다. 예를 들어, 각 값 이외에도 지표 소계를 표시할 수 있습니다. 하지만 사용할 수 있는 지표 목록은 차원을 추가 또는 제거할 때마다 달라집니다.
+   When you add metrics, they are not removed from the [!UICONTROL Metrics] tab, because you can display metrics multiple times within a request. 예를 들어, 각 값 이외에도 지표 소계를 표시할 수 있습니다. 하지만 사용할 수 있는 지표 목록은 차원을 추가 또는 제거할 때마다 달라집니다.
 
-   [!UICONTROL 지표] 레이아웃 섹션에는 지표만 추가할 수 있습니다. 지표가 [!UICONTROL 열 레이블] 레이아웃에 [!UICONTROL 지표 머리글]로 추가되었습니다. [!UICONTROL 열 레이아웃]에서 [!UICONTROL 행 레이아웃]으로 [!UICONTROL 지표 머리글]을 이동하면 해당 위치에 표시되며 분류에 대한 지표로 사용됩니다.
+   You can add only metrics to the [!UICONTROL Metrics] layout section. 지표는 [!UICONTROL Column Label] 레이아웃에 a로 추가됩니다 [!UICONTROL Metric Header]. If you move a [!UICONTROL Metric Header] from [!UICONTROL Column Layout] to [!UICONTROL Row Layout], it is displayed there and is used as a metric as a breakdown.
 
    검색 창은 지표 목록 바로 위 지표 탭에 표시됩니다.
 
@@ -50,9 +50,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. (선택 사항) 지표별로 요청을 정렬하려면 지표 레이블을 클릭하면 됩니다.
 1. 지표를 추가하는 것과 같은 방식으로 차원을 추가합니다.
 
-[!UICONTROL 차원] 탭에서 시스템은 분류되거나 1단계와 보고서 세트의 구성에서 선택하는 모든 기본 보고서의 분류가 되는 차원을 표시합니다. 차원을 레이아웃 격자에 놓으면 트리 보기에서 차원이 제거되고 사용할 수 있는 남은 차원의 목록이 다시 계산됩니다.
+On the [!UICONTROL Dimensions] tab, the system displays dimensions that break down or are a classification of any base report you select on Step 1, and on the configuration of the report suite. 차원을 레이아웃 격자에 놓으면 트리 보기에서 차원이 제거되고 사용할 수 있는 남은 차원의 목록이 다시 계산됩니다.
 
-[!UICONTROL 날짜] 차원이 자동으로 추가됩니다. 사용할 수 있는 날짜 차원은 [!UICONTROL 요청 마법사: 1단계]에서 선택한 세부기간에 따라 달라집니다. (유효한 값:
+The [!UICONTROL Date] dimension is added automatically. Available date dimensions change depending on the selected granularity from the [!UICONTROL Request Wizard: Step 1]. (유효한 값:
 
     * 시간
     * 일
@@ -62,7 +62,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     * 날짜 범위(세부기간이 지정되지 않은 경우)
 
 1. [서식 선택 사항](/help/analyze/report-builder/layout/t-format-display-headers.md) 및 필터를 구성하여 지표 및 차원을 수정합니다.
-1. **[!UICONTROL 마침을 클릭합니다]**.
-다음 예에서는 [!UICONTROL 페이지] 지표와 관련된 차원입니다. 여기에서 [!UICONTROL 참조 도메인] 차원은 [!UICONTROL 페이지]와 [!UICONTROL 참조 도메인] 간 분류 보고서를 만듭니다. 분류 보고서에 추가할 수 있는 차원들로만 [!UICONTROL 차원] 탭이 업데이트됩니다.
+1. 클릭 **[!UICONTROL Finish]**.
+In the following example, dimensions relate to the [!UICONTROL Page] metric. 여기에서, [!UICONTROL Referring Domain] 차원은 [!UICONTROL Page] 및 [!UICONTROL Referring Domain]사이에 분류 보고서를 만듭니다. The [!UICONTROL Dimension] tab is updated with only dimensions that you can add to a breakdown report.
 
 ![](assets/page_pageview_02.png)
