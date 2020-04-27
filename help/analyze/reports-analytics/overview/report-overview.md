@@ -3,7 +3,7 @@ description: 도구 모음, 달력 및 세부 사항 테이블을 포함한 보�
 title: 보고서 기능
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 도구 모음, 달력 및 세부 사항 테이블을 포함한 보고서 기능에 대한 소개입니다.
 
-이 예는 [!UICONTROL 페이지 보고서]를 보여줍니다. 구성 옵션은 실행하는 보고서에 따라 달라질 수 있습니다. 예를 들어, [!UICONTROL 사이트 컨텐츠] 보고서에서 트렌드나 등급을 선택하는 대신 세부기간을 지정하고 [!UICONTROL 사이트 지표] 보고서의 이름을 지정할 수 있습니다.
+This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
 
 ## 페이지 보고서 예 {#section_288CC85536684C2DB184141358481EF0}
 
-페이지 보고서의 예(**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지 보고서]** > **[!UICONTROL 페이지]**).
+페이지 보고서의 예( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -77,4 +77,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 세부 사항 테이블에서 데이터를 필터링하고, 분류를 만들고, 지표를 추가하는 등의 작업을 수행할 수 있습니다.
 
- [보고서 사용자 지정.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
+[보고서 사용자 지정](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)을 참조하십시오.
