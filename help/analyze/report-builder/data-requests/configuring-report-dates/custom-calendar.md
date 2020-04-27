@@ -3,7 +3,7 @@ description: Report Builder는 Analytics 사용자 지정 달력을 사용합니
 title: 사용자 지정 달력
 topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
