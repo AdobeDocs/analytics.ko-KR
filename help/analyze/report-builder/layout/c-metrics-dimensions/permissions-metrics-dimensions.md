@@ -3,7 +3,7 @@ description: 이제 Adobe Report Builder에는 Analytics 관리 도구의 권한
 title: 차원 및 지표의 사용자 액세스 권한
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 통합 문서를 엽니다.
 1. 모든 요청 새로 고침.
-1. 사용자 액세스 권한 오류가 표시되면 **[!UICONTROL CSV 파일 열기]**&#x200B;를 클릭하여 제한된 권한 오류 목록에 액세스할 수 있습니다.
+1. If you get prompted with a User Access Permission error, click **[!UICONTROL Open CSV File]** to get access to the list of restricted permissions errors.
 1. 파일 “AllRestrictedPermissionErrors.xlsx”를 만들고 CSV 파일의 제한된 권한 오류 목록을 복사한 후 이 파일에 붙여넣습니다.
 1. Report Builder 통합 문서를 닫습니다.
 
