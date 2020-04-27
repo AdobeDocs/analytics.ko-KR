@@ -20,7 +20,7 @@ Report Builder 설치 방법을 설명하는 절차입니다.
 1. Open/Restart MS Excel to get the [!UICONTROL Add-Ins] menu to show up.
 1. Go to **[!UICONTROL Add-Ins]** > **[!UICONTROL Sign In]**.
 
-   리포트 빌더 [로그인의 지침을 따르십시오](/help/analyze/report-builder/setup/login.md).
+   [Report Builder 로그인](/help/analyze/report-builder/setup/login.md)의 지침을 따르십시오.
 
 ## 권한
 
