@@ -3,7 +3,7 @@ description: 모든 시트의 요청 또는 여러 요청을 새로 고칠 수 �
 title: 모든 시트에 대한 요청 새로 고침
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 여로 요청을 새로 고치면 시스템은 요청이 원본 요청인지 종속 요청인지 여부를 기반으로 요청을 수집하여 우선 순위를 매깁니다. 새로 고침 진행 상태에 대한 메시지가 표시됩니다. 새로 고침 프로세스는 요청하는 데이터 양에 따라 수 분까지 소요될 수 있습니다.
 
-1. **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 모든 시트]**&#x200B;를 활성화합니다.
-1.  **[!UICONTROL 새로 고침]**&#x200B;을 클릭합니다. 
-1. 날짜 참조를 지정한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Manage]**.
+1. 활성화 **[!UICONTROL All Sheets]**.
+1. 클릭 **[!UICONTROL Refresh]**.
+1. Specify a date reference, then click **[!UICONTROL OK]**.
