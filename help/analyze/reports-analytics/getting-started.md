@@ -4,7 +4,7 @@ subtopic: Get started
 title: Reports and Analytics 시작하기
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,14 +56,14 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 1. 인터넷에 액세스할 수 있는 컴퓨터에서 브라우저를 시작합니다.
 1. [!DNL https://login.experiencecloud.adobe.com/] 으로 이동합니다.
-1. [!UICONTROL 로그인] 페이지에서 **[!UICONTROL 단일 사인온]**&#x200B;을 클릭합니다.
-1. 다음 정보를 작성한 후 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
+1. 페이지에서 [!UICONTROL Sign In] 을 클릭합니다 **[!UICONTROL Single Sign-On]**.
+1. Complete the following information, then click **[!UICONTROL Sign In]**.
 
-   **[!UICONTROL 회사]**: 회사 ID를 지정합니다.
+   **[!UICONTROL Company]**:회사 ID를 지정합니다.
 
-   **[!UICONTROL 사용자 이름]**: 계정 ID를 지정합니다.
+   **[!UICONTROL Username]**:계정 ID를 지정합니다.
 
-   **[!UICONTROL 암호]**: 계정 암호를 지정합니다.
+   **[!UICONTROL Password]**:계정 암호를 지정합니다.
 1. Experience Cloud 홈 페이지에서 **Analytics > 보고서**&#x200B;로 이동합니다.
 
    Experience Cloud는 활동하지 않는 시간이 30분이 지나면 자동으로 로그아웃됩니다.
@@ -72,11 +72,11 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 보고서를 생성하는 방법을 설명하는 단계입니다.
 
-1. [!UICONTROL Reports &amp; Analytics]에 로그인합니다.
+1. Log in to [!UICONTROL Reports & Analytics].
 
    보고서 메뉴 또는 [대시보드](/help/analyze/reports-analytics/dashboard.md)를 설정한 경우 둘 중 하나가 표시됩니다.
 
-1.  **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**(예)를 클릭합니다. 
+1. > **[!UICONTROL Site Content]** 를 **[!UICONTROL Pages]** 클릭합니다(예:).
 
    ![](assets/pages_report.png)
 
@@ -88,9 +88,9 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 연락처 정보를 보고 편집하고, 암호를 지정하고, 웹 서비스 정보를 볼 수 있습니다. 또한 이 컴퓨터를 데이터 수집에서 제외할 수 있습니다.
 
-오른쪽 상단에 있는 계정 아이콘 ![](assets/account.png)을 클릭한 다음, 로그인 이름 옆에 있는 **[!UICONTROL 계정 설정]**(바퀴)을 클릭합니다.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
-모든 사용자는 [!UICONTROL 계정 정보] 페이지에 대한 액세스 권한을 가지고 있습니다. 다음 정보는 보거나 편집할 수 있습니다.
+All users have access to the [!UICONTROL Account Information] page. 다음 정보는 보거나 편집할 수 있습니다.
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -130,7 +130,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 인터페이스 언어를 변경하는 방법을 설명하는 단계입니다. 선택한 언어로 Reports &amp; Analytics 인터페이스를 볼 수 있습니다.
 
-1. Analytics에 로그인하고 **[!UICONTROL 보고서]** 탭을 선택합니다.
-1. 페이지 바닥글의 **[!UICONTROL 언어]** 메뉴에서 활성 언어를 클릭한 다음 기본 언어를 선택합니다.
+1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
+1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
 
-Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다. (**[!UICONTROL 도움말]** > **[!UICONTROL 도움말 홈]**)
+Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
