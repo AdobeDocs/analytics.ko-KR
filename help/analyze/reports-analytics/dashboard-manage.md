@@ -22,19 +22,19 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 대시보드 관리자를 사용하여 배달할 대시보드를 복사, 공유, 보관 및 예약하십시오 .
 
-Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
 | 요소 | 설명 |
 |--- |--- |
-| 공유됨 | 대시보드를 공유할지 여부를 표시합니다. |
+| 공유 | 대시보드가 공유되는지 여부를 표시합니다. |
 | 예약됨 | 대시보드 배달을 예약할 수 있습니다. |
 | 아카이브 보기 | 이 기능은 더 이상 사용할 수 없습니다. |
-| 사용자에게 푸시 | 대시보드를 공유할 수 있습니다. |
-| 관리 | 대시보드를 편집, 복사 및 삭제할 수 있습니다. |
+| 사용자에게 전달 | 대시보드를 공유할 수 있습니다. |
+| 관리 | 대시보드를 편집, 복사, 삭제할 수 있습니다. |
 
 ## 공유 대시보드 관리
 
-공유 대시보드 관리 옵션을 사용하는 방법을 설명하는 단계입니다.
+공유 대시보드 관리 옵션을 사용하는 방법을 설명하는 절차입니다.
 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
@@ -50,11 +50,11 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>대시보드 플레이어</strong></td> 
-  <td class="chdesc stentry"> <p>SiteCatalyst 14 서버는 더 이상 대시보드 플레이어 데이터 요청에 응답하지 않습니다. 현재 대시보드 플레이어에 표시되는 모든 대시보드는 표준 보고 및 분석 인터페이스에서 액세스하거나 실시간 대시보드로 다시 만들 수 있습니다. 실시간 대시보드는 연속적인 디스플레이를 위해 특별히 고안되었으며 TV 또는 다른 대형 화면 장치에 표시할 수 있도록 전체 화면 모드를 포함합니다. </p> <p>필요한 사용자 작업:대시보드 플레이어 사용을 중단해야 합니다. </p> </td> 
+  <td class="chdesc stentry"> <p>SiteCatalyst 14 서버는 더 이상 대시보드 플레이어 데이터 요청에 응답하지 않습니다. 현재 대시보드 플레이어에 표시되는 모든 대시보드는 표준 Reports &amp; Analytics 인터페이스에서 액세스하거나 실시간 대시보드로서 다시 만들 수 있습니다. 실시간 대시보드는 지속적인 표시를 위해 특별히 설계되었으며, TV나 다른 대형 화면 장치에서 표시할 수 있도록 하기 위해 전체 화면 모드를 포함합니다. </p> <p>필요한 사용자 작업: 대시보드 플레이어 사용을 중단해야 합니다. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>나를 복사</strong></td> 
-  <td class="chdesc stentry"> 원본과 동일한 이름을 사용하여 대시보드 목록에 복사본을 추가합니다. 그러나 대시보드 소유자가 수행한 업데이트/변경 사항은 볼 수 없습니다. 기존 대시보드를 복사하면 기존 컨텐츠를 추가할 수 있는 빈 대시보드가 열립니다. <p>중요: 대시보드 공유 사용자가 대시보드에서 수행한 변경 사항을 볼 수 없는 경우에는 대시보드 관리자에서 <span class="uicontrol">나를 복사</span> 옵션을 선택했는지 확인하십시오. 이 옵션을 선택한 사용자는 다른 사용자가 수행한 업데이트/변경 사항을 볼 수 없습니다. 모든 업데이트/변경 사항을 보려는 공유 사용자는 대시보드 관리자에서 <span class="uicontrol">메뉴에서</span> 옵션을 선택해야 합니다. </p> </td> 
+  <td class="chdesc stentry"> 사본을 원본과 동일한 이름을 사용하여 대시보드 목록에 추가합니다. 하지만, 대시보드 소유자가 수행한 업데이트/변경은 볼 수 없습니다. 기존 대시보드를 복사하면 기존 컨텐츠를 추가할 수 있는 빈 대시보드가 열립니다. <p>중요: 대시보드 공유 사용자가 대시보드에서 수행한 변경 사항을 볼 수 없는 경우에는 대시보드 관리자에서 <span class="uicontrol">나를 복사</span> 옵션을 선택했는지 확인하십시오. 이 옵션을 선택한 사용자는 다른 사용자가 수행한 업데이트/변경 사항을 볼 수 없습니다. 모든 업데이트/변경 사항을 보려는 공유 사용자는 대시보드 관리자에서 <span class="uicontrol">메뉴에서</span> 옵션을 선택해야 합니다. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>메뉴에서</strong></td> 
@@ -68,26 +68,26 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 
 ## 기존 대시보드 마이그레이션
 
-기존 기존 대시보드는 계속 실행되고 편집, 다운로드 및 예약할 수 있습니다.그러나 더 이상 새 기존 대시보드를 만들 수 없습니다. 기존 대시보드를 최신 대시보드 형식으로 업그레이드하는 것이 좋습니다.
+기존의 이전 대시보드는 계속 실행되고, 여전히 편집, 다운로드 및 예약할 수 있지만, 더 이상 새로운 이전 버전의 대시보드를 만들 수는 없습니다. 기존의 대시보드는 최신 대시보드 형식으로 업그레이드하는 것이 좋습니다.
 
 >[!NOTE] 계속 진행하여 [Analysis Workspace 프로젝트](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/)와 다운로드 및 예약할 기능을 사용해 보십시오.
 
-기존 대시보드를 복사할 때 시스템은 기존 컨텐츠 또는 새 컨텐츠를 추가할 수 있는 편집을 위한 기존 대시보드를 엽니다. 기존 대시보드를 복사하면 원본이 기존 대시보드 목록에 유지됩니다.
+기존 대시보드를 복사할 때 시스템은 기존 컨텐츠 또는 새 컨텐츠를 추가할 수 있도록 편집 가능한 기존 대시보드가 열립니다. 기존 대시보드를 복사할 경우 기존 대시보드 목록에 원본이 그대로 유지됩니다.
 
->[!NOTE] 기존 컨텐츠를 대시보드에 추가하면 최신 대시보드 기능을 기반으로 한 대시보드가 만들어집니다. 그러나 기존 reportlet에는 이전 데이터 플랫폼을 기반으로 하는 데이터가 포함될 수 있습니다.
+>[!NOTE] 기존 컨텐츠를 대시보드에 추가하면 최신 대시보드 기능을 기반으로 한 대시보드가 만들어집니다. 그러나 기존 reportlet에는 이전 데이터 플랫폼을 기반으로 한 데이터가 포함되어 있을 수도 있습니다.
 
-**버전 14.x 기존 대시보드를 마이그레이션하려면**
+**버전 14.x의 기존 대시보드를 마이그레이션하려면**
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
+1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. 열의 아래에서 을 [!UICONTROL Manage] 클릭합니다 [!UICONTROL Legacy Dashboards]**[!UICONTROL Copy to New Dashboard]**.
 
    복사한 대시보드가 대시보드 레이아웃 편집기에서 열립니다.
 
-   See [Editing Dashboard and Reportlet Data](/help/analyze/reports-analytics/dashboard.md).
+   자세한 내용은 [대시보드 및 Reportlet 데이터 편집](/help/analyze/reports-analytics/dashboard.md).
 
 ## 대시보드 공유
 
-관리자가 여러 사용자에게 대시보드를 공유(또는 푸시)할 수 있는 방법을 설명하는 단계입니다. 사용자에게 대시보드를 푸시하면 사용자의 [!UICONTROL Shared Dashboards] 메뉴에서 대시보드를 사용할 수 있게 됩니다.
+관리자가 여러 사용자에게 대시보드를 공유(또는 전달)할 수 있는 방법을 설명하는 단계입니다. When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
 
 1. 에서 [!UICONTROL Dashboard Manager]대시보드를 찾은 다음 활성화합니다 **[!UICONTROL Shared]**.
 1. 클릭 **[!UICONTROL Push To Users]**.  ![](assets/push.png)
@@ -99,7 +99,7 @@ If shared users of your dashboard cannot see changes you made in the dashboard, 
 
 ## 대시보드 배달 예약
 
-대시보드가 [!UICONTROL Dashboard Manager]배달되도록 예약되었는지 여부를 확인하고 일정을 편집할 수 있습니다. 대시보드 배달 옵션은 보고서 배달 옵션과 동일합니다.
+In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. 대시보드 배달 옵션은 보고서 배달 옵션과 동일합니다.
 
 1. 대시보드를 엽니다.
 1. 클릭 **[!UICONTROL More]** > **[!UICONTROL Send]**.
@@ -110,7 +110,7 @@ If shared users of your dashboard cannot see changes you made in the dashboard, 
 
 >[!NOTE] 이 기능은 2020년 1월부터 더 이상 제공되지 않습니다.
 
-전송된 대시보드를 PDF 파일로 보관하는 방법을 설명하는 단계입니다. 시스템에서는 보관 파일을 2년 동안 보관하거나 보관된 보고서의 최대 한도인 4GB에 도달할 때까지 보관합니다.
+보낸 대시보드를 PDF 파일로 보관하는 방법을 설명하는 단계입니다. 시스템에서는 처음 들어오는 순서부터 보관된 보고서의 크기가 최대 한도인 4GB에 도달할 때까지 또는 2년 동안의 보관 파일을 저장합니다.
 
 1. 대시보드를 엽니다.
 1. 클릭 **[!UICONTROL More]** > **[!UICONTROL Send]**.
