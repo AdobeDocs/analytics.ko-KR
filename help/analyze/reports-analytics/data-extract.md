@@ -4,7 +4,7 @@ subtopic: Schedule
 title: 데이터 추출
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,5 +32,5 @@ t_data_extract.xml
 
 보고서에서 데이터를 추출하고 이메일로 보내는 방법을 설명하는 단계입니다.
 
-1. 보고서를 실행한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 데이터 추출]**&#x200B;을 클릭합니다.
+1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Extract Data]**.
 1. 데이터 추출 마법사에서 해당 단계를 수행합니다.
