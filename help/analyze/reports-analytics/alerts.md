@@ -4,7 +4,7 @@ subtopic: Alerts
 title: 경고
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,14 +14,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 경고 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도와 함께 완료할 수 있습니다. 
+모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도와 함께 완료할 수 있습니다. You can
 
 * 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95% 또는 99% 임계값, % 변경, 초과/미만).
 * 경고가 트리거되는 빈도를 미리 봅니다.
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 생성합니다.
 
-이 새로운 경고 시스템은 Reports &amp; Analytics의 모든 보고서에서 **[!UICONTROL 자세히]** > **[!UICONTROL 경고]**&#x200B;를 통해 액세스할 수 있습니다.
+You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
 자세한 내용은 [지능형 경고](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/intellligent_alerts.html)의 Analysis Workspace 문서를 참조하십시오.
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** 메뉴에서 새 경고 빌더로 이동합니다. 하지만 Reports &amp; Analytics 내에서 여전히 액세스할 수 있습니다.
+Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. 하지만 Reports &amp; Analytics 내에서 여전히 액세스할 수 있습니다.
 
 1. Reports &amp; Analytics에서 경고를 설정할 보고서를 엽니다.
-1. **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. 이렇게 하면 [새 경고 빌더](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/alert-builder.html)로 이동합니다.
 
 ## 기존 경고 보기 또는 편집 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 작업 컨텍스트
 
-1. **[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**&#x200B;로 이동합니다. 이렇게 하면 새 [경고 관리자](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/alert-manager.html)로 이동합니다.
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 이렇게 하면 새 [경고 관리자](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/alert-manager.html)로 이동합니다.
 
 ## 이전 경고 마이그레이션 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
