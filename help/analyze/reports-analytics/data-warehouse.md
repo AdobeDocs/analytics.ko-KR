@@ -3,7 +3,7 @@ description: Data Warehouse는 데이터를 필터링하여 실행할 수 있는
 title: Data Warehouse 요청
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
