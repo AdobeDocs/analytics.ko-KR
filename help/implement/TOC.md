@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
+source-git-commit: 31efa43043120b68de90e817a7980addbe2ded39
 
 ---
 
@@ -197,3 +197,5 @@ source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
    + [패킷 모니터](validate/packet-monitor.md)
    + [해시 충돌](validate/hash-collisions.md)
 + [FAQ](faq.md)
++ Analytics에서 XDM 데이터 사용 {#aep-edge}
+   + [AEP 웹 SDK 사용](aep-edge/xdmoverview.md)
