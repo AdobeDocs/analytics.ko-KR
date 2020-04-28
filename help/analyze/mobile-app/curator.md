@@ -188,6 +188,7 @@ Scorecard를 공유한 후 수신자가 Analytics 대시보드에서 액세스�
    3. Testflight 앱을 설치한 후 아래와 같이 Testflight 내에서 Adobe Analytics 대시보드를 찾아 설치합니다.
 
       ![Testflight 화면](assets/testflight2.png)
+
    **Android를 사용하는 경영진 사용자:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -203,6 +204,7 @@ Scorecard를 공유한 후 수신자가 Analytics 대시보드에서 액세스�
 
    3. 앱을 다운로드하여 설치합니다.
 다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
+
    ![앱 시작 화면](assets/welcome.png)
 
 2. 경영진 사용자가 스코어카드에 액세스할 수 있도록 지원합니다. 경영진 사용자가 앱에 로그인하면 **회사 선택** 화면이 표시됩니다. 이 화면에 경영진 사용자가 속한 로그인 회사가 나열됩니다. 경영진 사용자가 스코어카드에 도달하도록 지원하려면:
@@ -210,6 +212,7 @@ Scorecard를 공유한 후 수신자가 Analytics 대시보드에서 액세스�
    * 공유한 스코어카드에 적용되는 로그인 회사 또는 Experience Cloud 조직의 이름을 탭합니다. 스코어카드 목록에는 해당 로그인 회사 아래에 경영진과 공유된 모든 스코어카드가 표시됩니다.
    * 해당되는 경우 **가장 최근에 수정됨**&#x200B;별로 이 목록을 정렬할 수 있습니다.
    * 스코어카드의 이름을 탭하여 봅니다.
+
    ![회사 선택](assets/accesscard.png)
 
    참고: 경영진 사용자가 로그인했을 때 아무 것도 공유되지 않았다는 메시지가 표시되는 경우:
@@ -218,6 +221,7 @@ Scorecard를 공유한 후 수신자가 Analytics 대시보드에서 액세스�
    * 스코어카드가 경영진 사용자와 공유되지 않았을 수 있음
 
       ![아무 것도 공유되지 않음](assets/nothing.png)
+
    경영진 사용자가 올바른 Analytics 인스턴스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.
 
 3. 경영진 사용자에게 공유한 스코어카드에 타일이 어떻게 표시되는지 설명합니다.
