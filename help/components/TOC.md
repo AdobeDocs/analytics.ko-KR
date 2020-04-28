@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
 
 ---
 
@@ -288,6 +288,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
       + [장바구니 보기](c-variables/c-metrics/metrics-cart-views.md)
       + [체크아웃](c-variables/c-metrics/metrics-checkouts.md)
       + [클릭스루](c-variables/c-metrics/metrics-click-throughs.md)
+      + [컨텐츠 속도](c-variables/c-metrics/metrics-content-velocity.md)
       + [사용자 지정 지표](c-variables/c-metrics/metrics-custom.md)
       + [일일 고유 방문자 수](c-variables/c-metrics/metrics-daily-unique-visitors.md)
       + [항목](c-variables/c-metrics/metrics-entries.md)
