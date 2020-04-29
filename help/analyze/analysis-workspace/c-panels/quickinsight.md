@@ -2,7 +2,7 @@
 description: 빠른 통찰력 빌더는 새로운 작업 영역 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 빌더
 translation-type: tm+mt
-source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** 현재 베타 테스트 중이며 아직 모든 Adobe Analytics 고객이 일반적으로 사용할 수 있는 것은 아닙니다.
+>**[!UICONTROL Quick Insights]** 는 현재 제한된 테스트 중이며 아직 모든 Adobe Analytics 고객에게 일반적으로 제공되지 않습니다.
 
 [!UICONTROL Quick Insights] 비분석가 및 새로운 사용자에게 비즈니스 질문에 빠르고 손쉽게 대답하는 방법을 [!UICONTROL Analysis Workspace] 소개하는 지침을 제공합니다. 또한 표를 직접 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
