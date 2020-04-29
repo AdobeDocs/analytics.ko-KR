@@ -6,7 +6,7 @@ title: 보고서 세트 도구 권한 사용자 지정
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다.
 
-**[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL 보고서 액세스]** > **[!UICONTROL 보고서 세트 도구]** > **[!UICONTROL 사용자 지정]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-[!UICONTROL 보고서 세트 도구 사용자 지정] 페이지에서 그룹 구성원에게 다음 항목에 대한 액세스 권한을 제공합니다.
+이 [!UICONTROL Customize Report Suite Tools] 페이지는 그룹 구성원에게 다음 항목에 대한 액세스 권한을 부여합니다.
 
 ![](assets/report-suite-tools.png)
 
 ## 필드 설명
 
-이 페이지의 설정은 [!UICONTROL 사용자 그룹 정의] 페이지에서 선택한 보고서 세트와 관련된 것입니다.
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | 요소 | 설명 |
 |--- |--- |
@@ -65,8 +65,8 @@ API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항�
 | [예외 항목 탐지](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/anomaly_detection.html) | 주어진 지표가 이전 데이터와 관련하여 어떻게 변했는지 파악하는 통계적 방법을 제공하는 예외 항목 탐지에 대한 권한을 부여합니다. |
 | [채널 보고서](https://marketing.adobe.com/resources/help/ko_KR/mchannel/index.html) | 보고서 > 마케팅 채널 보고서에 있는 마케팅 채널 보고서에 대한 권한을 부여합니다. |
 | [실시간 보고서](/help/admin/admin/realtime/t-realtime-admin.md) | 실시간 보고서에 대한 액세스 권한을 부여합니다. |
-| [보트 페이지](/help/admin/admin/bot-removal/bot-rules.md) | 보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
-| [보트](/help/admin/admin/bot-removal/bot-rules.md) | 보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
+| [보트 페이지](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트 페이지는 보트 규칙 관리가 아니라 특정 보고 및 분석 보고서용입니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.**&#x200B;보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
+| [보트](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트는 보트 규칙 관리가 아니라 특정 보고 및 분석 보고서용입니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.** 보트를 사용하면 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
 | [사용자 지정 데이터 웨어하우스 보고서](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터 사본을 참조합니다. 특별한 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다. |
 | [일별 재방문](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | 특정 날짜에 웹 사이트에 여러 번 방문한 방문자의 수를 보여주는 보고서. 하루는 마지막 24시간으로 정의됩니다. |
 | [데이터 소스 관리자](/help/admin/admin/data-sources.md) | 데이터 소스 기능을 사용하면 오프라인 소스의 데이터를 Analytics로 가져올 수 있습니다. |
