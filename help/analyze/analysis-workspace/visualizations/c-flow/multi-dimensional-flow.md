@@ -3,7 +3,7 @@ description: '차원 간 흐름을 이용하면 다양한 차원에 걸친 사�
 title: 차원 간 흐름
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ The [!UICONTROL Action Name] dimension was added to the flow, with the top retur
 이제 해당 캠페인이 트래픽을 유도하는 페이지를 확인하려 하므로, 페이지 차원을 시각화에 추가할 흐름 결과의 오른쪽으로 드래그합니다. 
 
 ![](assets/multi-dimensional-flow9.png)
-
-그런 다음, 수입, 방문 횟수 등, 다른 차원이나 지표를 사용하여 결과를 분류할 수 있습니다. 
