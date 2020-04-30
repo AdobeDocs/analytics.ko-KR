@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: 분류
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 분류 FTP 옵션은 여러 보고서 세트로 데이터를 업로드하고 50,000개 이상의 행이 있는 데이터 세트를 업로드하는 기능을 포함하여 큰 분류 데이터 세트를 융통성 있게 업로드하도록 해 줍니다.
 
-FTP를 통해 분류 데이터를 다운로드하는 방법 및 FTP를 통해 데이터 파일을 업로드하는 방법에 대한 단계(FTP 계정을 만드는 단계 포함)에 대해서는 [분류](https://marketing.adobe.com/resources/help/ko_KR/reference/c_working_with_saint.html)를 참조하십시오.
+FTP를 통해 분류 데이터를 다운로드하는 방법 및 FTP를 통해 데이터 파일을 업로드하는 방법에 대한 단계(FTP 계정을 만드는 단계 포함)에 대해서는 [분류](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html)를 참조하십시오.
 
 시스템에서 이러한 파일을 가져오는 데 필요한 시간은 여러 가지 요인에 따라 다릅니다. 업로드한 파일이 6시간이 지난 후에도 여전히 FTP 서버에 있는 경우 조직의 지원 사용자와 함께 Adobe 고객 지원 팀에 문의하십시오.
 
