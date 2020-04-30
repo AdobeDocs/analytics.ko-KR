@@ -3,7 +3,7 @@ description: 'null'
 title: 마이그레이션의 영향을 받는 API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,5 +44,5 @@ Adobe는 모든 Analytics 로그인 기업을 [!DNL my.omniture.com]에서 Adobe
 * [일반 사용자 관리 정보](https://helpx.adobe.com/kr/enterprise/help/users.html)
 * [adobe.io를 통한 사용자 관리 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [사용자 관리 API 포럼](https://forums.adobe.com/community/umapi/overview)
-* [Experience Cloud로 Analytics 사용자 액세스 및 관리 마이그레이션](https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/)
+* [Experience Cloud로 Analytics 사용자 액세스 및 관리 마이그레이션](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
