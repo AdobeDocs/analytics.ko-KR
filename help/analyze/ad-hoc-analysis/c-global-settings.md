@@ -3,7 +3,7 @@ description: 글로벌 행동 설정을 구성합니다. 예를 들어 자동 �
 title: 설정
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 
-**[!UICONTROL 도구]** > **[!UICONTROL 설정]**&#x200B;을 클릭하여 [!UICONTROL 글로벌 설정]에 액세스합니다.
+> **[!UICONTROL Tools]** 을 **[!UICONTROL Settings]** 클릭하여 액세스합니다 [!UICONTROL Global Settings].
 
 ## 일반 설정 탭 - 정의를 참조하십시오{#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
@@ -38,7 +38,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 데이터 설정 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> 반복 인스턴스 계산</span>: 인스턴스가 보고서에서 계산되는지 여부를 지정합니다. 즉, 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. </p> <p>예를 들어 웹 사이트의 페이지가 한 번의 방문 중에 다시 로드되거나 새로 고쳐지는 횟수인 반복적인 페이지 재로드가 표시될 수 있습니다. 이 옵션을 사용하면 동일한 페이지의 다중 히트를 하나로 계산할지 또는 다중 페이지 보기로 계산할지를 지정할 수 있습니다. </p> <p> <span class="uicontrol"> <span class="keyword"> 애드혹</span> </span>: <span class="keyword">애드혹</span>을 유일한 보고 데이터 소스로 지정합니다. 이 데이터는 웹 페이지에 의해 생성된 이미지 요청에서 나옵니다. </p> <p> <span class="uicontrol"> <span class="keyword">데이터 소스</span> </span>: 다른 Adobe 소스 또는 사용자 지정 데이터 소스 중 어디에서 업로드한 데이터를 사용할지 여부를 지정합니다. 이 데이터는 <span class="keyword">Experience Cloud</span>의 제품에서 사용할 수 있습니다. 자세한 내용은 <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/datasources/index.html"  >데이터 소스</a>를 참조하십시오.. </p> <p> <span class="uicontrol"> 모두</span>: (기본값) <span class="keyword">Ad Hoc Analysis</span> 및 기타 데이터 소스의 데이터를 사용합니다. </p> <p>참고: 이러한 옵션을 변경하면 <span class="keyword">Ad Hoc Analysis</span> 데이터와 <span class="keyword">Marketing Reports &amp; Analytics 데이터</span> 간의 보고에 불일치가 생길 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> 반복 인스턴스 계산</span>: 인스턴스가 보고서에서 계산되는지 여부를 지정합니다. 즉, 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. </p> <p>예를 들어 웹 사이트의 페이지가 한 번의 방문 중에 다시 로드되거나 새로 고쳐지는 횟수인 반복적인 페이지 재로드가 표시될 수 있습니다. 이 옵션을 사용하면 동일한 페이지의 다중 히트를 하나로 계산할지 또는 다중 페이지 보기로 계산할지를 지정할 수 있습니다. </p> <p> <span class="uicontrol"> <span class="keyword"> 애드혹</span> </span>: <span class="keyword">애드혹</span>을 유일한 보고 데이터 소스로 지정합니다. 이 데이터는 웹 페이지에 의해 생성된 이미지 요청에서 나옵니다. </p> <p> <span class="uicontrol"> <span class="keyword">데이터 소스</span> </span>: 다른 Adobe 소스 또는 사용자 지정 데이터 소스 중 어디에서 업로드한 데이터를 사용할지 여부를 지정합니다. 이 데이터는 <span class="keyword">Experience Cloud</span>의 제품에서 사용할 수 있습니다. 자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/import/data-sources/datasrc-home.html"  >데이터 소스</a>를 참조하십시오.. </p> <p> <span class="uicontrol"> 모두</span>: (기본값) <span class="keyword">Ad Hoc Analysis</span> 및 기타 데이터 소스의 데이터를 사용합니다. </p> <p>참고: 이러한 옵션을 변경하면 <span class="keyword">Ad Hoc Analysis</span> 데이터와 <span class="keyword">Marketing Reports &amp; Analytics 데이터</span> 간의 보고에 불일치가 생길 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 자동 저장 설정 </p> </td> 
