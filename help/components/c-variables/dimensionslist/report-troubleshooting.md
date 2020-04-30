@@ -5,7 +5,7 @@ title: 보고 우수 사례 및 문제 해결
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있도록 해주는 유연한 보고 인터페이스를 제공합니다. 대부분의 보고서가 매우 신속히 생성되므로 시간이 초과되거나 성공적으로 생성되지 않는 보고서가 발생할 수 있습니다. 이 섹션에서는 보고서 생성 실패를 방지하는 데 도움이 되기 위해 보고서 생성 속도에 영향을 주는 많은 요인에 대해 설명하고 있습니다. 이 정보를 이해하면 보고서를 더 성공적으로 생성할 수 있도록 구성하는 데 도움이 됩니다.
 
->[!Note]
+>[!NOTE]
 >이러한 권장 사항은 Reports &amp; Analytics, Ad Hoc Analysis 및 Report Builder에 적용됩니다.
->Analysis Workspace에는 자체 [우수 사례](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)가 있으므로 적용되지 않습니다. Data Warehouse [우수 사례](https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse_bp.html)에도 적용되지 않습니다. Adobe Analytics 보고 API를 위한 추가적인
->[우수 사례](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) 세트가 있습니다.
+>Analysis Workspace에는 자체 [우수 사례](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)가 있으므로 적용되지 않습니다. Data Warehouse [우수 사례](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)에도 적용되지 않습니다. Adobe Analytics 보고 API를 위한 추가적인
+>[우수 사례](https://www.adobe.io) 세트가 있습니다.
 
 ## 보고서 시간 초과 및 요청 큐 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
