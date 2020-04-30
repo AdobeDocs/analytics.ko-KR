@@ -4,7 +4,7 @@ title: 링크 추적 방식
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
 
 >[!IMPORTANT]
 >
->텍스트(href 아님)에 개인 식별 정보(PII)를 포함할 수 있는 모든 링크는 [s_objectID](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/s_objectID.html)를 사용하거나 [s.ActivityMap.linkExclusions 또는 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)로 ActivityMap 링크 컬렉션을 제외하여 명시적으로 구현해야 합니다. Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](/help/analyze/activity-map/lnk-tracking-overview.md)에서 확인하십시오.
+>텍스트(href 아님)에 개인 식별 정보(PII)를 포함할 수 있는 모든 링크는 [s_objectID](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 사용하거나 [s.ActivityMap.linkExclusions 또는 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)로 ActivityMap 링크 컬렉션을 제외하여 명시적으로 구현해야 합니다. Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](/help/analyze/activity-map/lnk-tracking-overview.md)에서 확인하십시오.
 
 Activity Map은 다음 두 ID를 기반으로 링크를 추적합니다.
 
