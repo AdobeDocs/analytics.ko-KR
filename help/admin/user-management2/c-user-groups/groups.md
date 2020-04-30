@@ -5,7 +5,7 @@ title: 사용자 그룹 설정
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 사용자 그룹 정의 페이지의 요소 설명
 
-**[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL 새 사용자 그룹 추가]**
+**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -114,7 +114,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager(모든 액세스 권한, 사용자 지정, 액세스 권한 없음) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://marketing.adobe.com/resources/help/ko_KR/dtm/atm_migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
+   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>사용자 로그인 지정</b> </td> 
