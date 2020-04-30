@@ -3,7 +3,7 @@ description: 현재 및 이전 릴리스와 해당 기능을 나열합니다.
 title: Report Builder의 새로운 기능
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,15 +44,15 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 ## Report Builder 5.3{#rb-5-3-section}
 
-* [가상 보고서 세트](https://marketing.adobe.com/resources/help/ko_KR/reference/virtual-report-suites.html)
-* [Analytics의 Experience Cloud 대상](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
-* [AEM 자산 보고](https://marketing.adobe.com/resources/help/ko_KR/reference/aem-assets-reporting.html)
+* [가상 보고서 세트](https://docs.adobe.com/help/ko-KR/analytics/components/virtual-report-suites/vrs-about.html)
+* [Analytics의 Experience Cloud 대상](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [AEM 자산 보고](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2{#rb-5-2-section}
 
 * **Calculated Metrics** Report Builder 5.2는 Adobe Analytics [Unified Calculated Metrics](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md)를 지원합니다. 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
 
-* **보고서 및 지표 검색 기능 향상** 더 많은 [eVar 및 이벤트](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/evars_events.html)가 Adobe Analytics에 추가되면서 Adobe Report Builder에서 제공하는 보고서와 지표의 수가 많이 증가하고 있습니다. 검색을 단순화하기 위해 새 검색 막대 몇 개가 요청 마법사에 추가되었습니다. [보고서 검색](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)용 한 개와 [지표](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)용 한 개.
+* **보고서 및 지표 검색 기능 향상** 더 많은 [eVar 및 이벤트](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html)가 Adobe Analytics에 추가되면서 Adobe Report Builder에서 제공하는 보고서와 지표의 수가 많이 증가하고 있습니다. 검색을 단순화하기 위해 새 검색 막대 몇 개가 요청 마법사에 추가되었습니다. [보고서 검색](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)용 한 개와 [지표](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)용 한 개.
 
-* **사용자 특성** 사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다. 사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://marketing.adobe.com/resources/help/ko_KR/mcloud/attributes.html)을 참조하십시오.
+* **사용자 특성** 사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다. 사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
