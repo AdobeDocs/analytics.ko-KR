@@ -3,7 +3,7 @@ description: 이전에 Target Classic에서 수행한 동일한 방법으로 Ado
 title: Target 상승도 및 신뢰도
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -12,16 +12,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 이전에 [!DNL Target Classic]에서 수행한 동일한 방법으로 Adobe Analytics 캠페인이 성공했는지 평가할 수 있도록 해줍니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 모든 보고서 보기]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL 타겟 분석]** > **[!UICONTROL Target 활동]** .
+**[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics for Target]** > **[!UICONTROL Target Activities]** .
 
-Adobe Target 설명서에는 [상승도](https://marketing.adobe.com/resources/help/ko_KR/target/target/c_estimating_lift_in_revenue.html) 및 [신뢰도](https://marketing.adobe.com/resources/help/ko_KR/rec/c_Confidence_Level_and_Confidence_Interval.html)에 대한 추가 정보가 들어 있습니다.
+Adobe Target 설명서에는 [상승도](https://docs.adobe.com/content/help/en/target/using/administer/preferences/estimating-lift-in-revenue.html) 및 [신뢰도](https://docs.adobe.com/help/en/target/using/reports/settings/average-lift-bounds-and-confidence-interval.html)에 대한 추가 정보가 들어 있습니다.
 
 상승도 및 신뢰도를 계산하려면:
 
-1. **[!UICONTROL 타겟 활동]** 보고서에서 세부 사항을 가져올 활동을 클릭합니다.
-1. 보고서 유형에서 **[!UICONTROL 상승도 및 신뢰도를 선택합니다]**.
-1. **[!UICONTROL 지표 표시]**&#x200B;를 클릭하여 지표 하나를 추가합니다. 이것은 한 지표로만 테스트를 평가하는 우수 사례이므로 이 유형의 보고서에는 지표를 두 개 이상 추가할 수 없습니다. 추가 지표는 노이즈를 추가하고 테스트 신호만 줄일 뿐입니다.
-1. (선택 사항) **[!UICONTROL 표준화 지표]**&#x200B;에서 방문자 수, 방문 횟수, 또는 노출 횟수 중 하나를 선택하십시오. 대부분의 경우, 방문자 수가 기본값이 됩니다.
+1. In the **[!UICONTROL Target Activities]** report, click on an activity to bring up its details.
+1. 보고서 유형에서 을 **[!UICONTROL Lift and Confidence]**&#x200B;선택합니다.
+1. 지표를 **[!UICONTROL Show Metrics]** 추가하려면 클릭합니다. 이것은 한 지표로만 테스트를 평가하는 우수 사례이므로 이 유형의 보고서에는 지표를 두 개 이상 추가할 수 없습니다. 추가 지표는 노이즈를 추가하고 테스트 신호만 줄일 뿐입니다.
+1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. 대부분의 경우, 방문자 수가 기본값이 됩니다.
 
 1. 보고서는 지표와 표준화 지표 간 비율을 포함하여, 이러한 지표들을 추가하게 됩니다.
 
