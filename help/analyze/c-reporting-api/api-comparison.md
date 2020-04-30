@@ -3,7 +3,7 @@ description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서�
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
    <td colname="col5"> 가져온 대용량 데이터 내보내기에 사용되는 완료된 데이터로, 완전히 처리되었습니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > 지연</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > 지연</a> </p> </td> 
    <td colname="col2"> 30-90분 </td> 
    <td colname="col3"> * 초 -10분 </td> 
    <td colname="col4"> 초 -10분 </td> 
@@ -47,7 +47,7 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
    <td colname="col5"> 전체 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/"  > 보고 인터페이스</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html"  > 보고 인터페이스</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Reports &amp; Analytics, Report Builder, API의 실시간 보고서 </td> 
    <td colname="col4"> API 전용 </td> 
@@ -86,7 +86,7 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > 웹 서비스</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 실시간 보고서</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > 라이브 스트리밍 개요</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
