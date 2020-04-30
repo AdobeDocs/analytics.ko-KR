@@ -5,7 +5,7 @@ title: Data Sources 사용 준비
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 데이터 소스 데이터에 대한 적절한 지표-이벤트 매핑을 결정했으면 해당 연결 데이터 소스 지표에 적절한 설명 이름으로 이벤트 이름을 변경하십시오.
 
-관리 도구 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)를 참조하십시오.
+관리 도구 도움말의 [성공 이벤트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
 
 >[!NOTE] 데이터 소스 데이터에서 새로운 빈 이벤트를 사용할 것이 좋지만, 드물게 기존 이벤트를 사용하는 것이 좋은 경우가 있습니다.
 
@@ -44,7 +44,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. 데이터 소스에서 데이터 차원을 수신할 eVar를 선택한 후에는 적절하게 이름을 지정하십시오. 
 
-Analytics 도움말의 [성공 이벤트](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)를 참조하십시오.
+Analytics 도움말의 [성공 이벤트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
 
 ## 캠페인 추적 코드 {#section_468222796FF449ABAA90D88EB3264CB1}
 
