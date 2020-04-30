@@ -4,7 +4,7 @@ title: 사이트 지표 보고서
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 지표 보고서는 시간에 따른 트렌드 보고서입니다. 시간 및 요일 세부기간을 이 보고서에 적용할 수 있습니다. 또는 사이트에서 보낸 시간, 구매 횟수, 매출액 및 유사 지표를 분석할 수 있습니다.
 
-다음 사이트 지표 보고서는 [!UICONTROL 사이트 지표] 메뉴에서 이용할 수 있습니다.
+The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
 
 ## 페이지 보기 수 보고서 {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +29,7 @@ c_reports_pageviews.xml
 
  -->
 
-선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동안 웹 사이트 페이지를 본 횟수를 표시하는 트렌드 보고서입니다. [!UICONTROL 페이지 보기]는 이미지나 비디오와 같은 페이지 요소가 아니라 전체 페이지 문서에 대한 요청입니다. 예를 들어 한 명의 방문자가 1회 방문 시 15페이지를 보는 경우 15회의 페이지 보기로 계산됩니다. 한 명의 방문자가 1회 방문 시 동일한 페이지를 3번 보는 경우 페이지 보기 횟수는 3회로 계산됩니다. 이 보고서를 이용하면 사이트의 전체 페이지 보기 수 집계뿐 아니라 사이트의 각 페이지에 대한 페이지 보기 수도 추적할 수 있습니다.
+선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동안 웹 사이트 페이지를 본 횟수를 표시하는 트렌드 보고서입니다. A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. 예를 들어 한 명의 방문자가 1회 방문 시 15페이지를 보는 경우 15회의 페이지 보기로 계산됩니다. 한 명의 방문자가 1회 방문 시 동일한 페이지를 3번 보는 경우 페이지 보기 횟수는 3회로 계산됩니다. 이 보고서를 이용하면 사이트의 전체 페이지 보기 수 집계뿐 아니라 사이트의 각 페이지에 대한 페이지 보기 수도 추적할 수 있습니다.
 
 ## 방문 보고서 {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +41,7 @@ c_reports_visits.xml
 
  -->
 
-Marketing Reports &amp; Analytics으로 선택한 페이지에서 [!UICONTROL 방문 보고서]를 실행할 수 있습니다. Ad Hoc Analysis에서는 데이터를 세그먼트화하여 특정 페이지를 볼 수 있습니다.
+In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. Ad Hoc Analysis에서는 데이터를 세그먼트화하여 특정 페이지를 볼 수 있습니다.
 
 ## 고유 방문자 보고서 {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +69,7 @@ c_reports_visitors.xml
 
  -->
 
-테이블 하단에 표시되는 합계 값은 지정된 기간의 모든 방문자 수 합계이며 고유 방문자 수를 항상 반영하지는 않습니다. 예를 들어 시간대가 여러 날인 [!UICONTROL 일일 고유 방문자 보고서]를 실행하는 경우 합계에 재방문자 수가 포함될 수 있습니다. 다음날 동일한 방문자가 재방문하여 카운트될 수 있기 때문입니다. 그러나 [!UICONTROL 월간 고유 방문자 보고서]를 실행하는 경우 합계 열의 값에는 해당 월의 고유 방문자 수가 정확히 반영됩니다.
+테이블 하단에 표시되는 합계 값은 지정된 기간의 모든 방문자 수 합계이며 고유 방문자 수를 항상 반영하지는 않습니다. For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
 
 ## 방문당 체류 시간 보고서 {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +112,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-[!UICONTROL 장바구니 보고서]를 사용하여 다음을 수행할 수 있습니다.
+다음을 사용할 수 [!UICONTROL Carts Report] 있습니다.
 
 * 사이트에서 열린 장바구니 수의 패턴, 높음 또는 낮음을 확인합니다.
 * 특정 기간을 조사하여 장바구니를 여는 데 특별히 기여한 지표에 대한 추가 정보를 확인합니다.
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-각 분석 보고서 세트가 다르므로 이 보고서 세트는 각 클라이언트마다 다르게 사용됩니다. [!UICONTROL 사용자 지정 이벤트] 보고서는 이벤트 발생 횟수를 보여주는 카운터로 사용할 수 있습니다. 예를 들어 **[!UICONTROL event1]**&#x200B;이 문서 다운로드 횟수를 계산하도록 설정된 경우 이벤트 1에 대한 [!UICONTROL 사용자 지정 이벤트] 보고서는 이벤트(또는 다운로드)의 총 발생 횟수를 보여줍니다. 여러 사용자 지정 이벤트 보고서를 사용할 수 있습니다.
+각 분석 보고서 세트가 다르므로 이 보고서 세트는 각 클라이언트마다 다르게 사용됩니다. A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. 여러 사용자 지정 이벤트 보고서를 사용할 수 있습니다.
 
 ## 변환 보고서 {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +159,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL 첫 번째 또는 마지막 접촉 채널 보고서]**: 특정 첫 번째 접촉 또는 마지막 접촉 채널에 대한 데이터를 알려주는 지표를 표시합니다. 이러한 보고서에서 채널을 세분하고 각 채널의 상세 정보를 표시할 수 있습니다. AdLens를 사용하는 경우에는 Marketing Reports &amp; Analytics 채널 보고서에 분류가 표시됩니다.
+**[!UICONTROL First or Last Touch Channel Report]**:특정 첫 번째 접촉 또는 마지막 접촉 채널에 대한 데이터를 보여주는 지표를 표시합니다. 이러한 보고서에서 채널을 세분하고 각 채널의 상세 정보를 표시할 수 있습니다. AdLens를 사용하는 경우에는 Marketing Reports &amp; Analytics 채널 보고서에 분류가 표시됩니다.
 
-**[!UICONTROL 첫 번째 또는 마지막 접촉 채널 상세 보고서]**: 규칙을 구성할 때 [!UICONTROL 채널의 값을 다음으로 설정] 옵션에서 사용자가 설정한 채널 값을 기준으로 페이지 이름, 레퍼러 등의 상세 정보를 표시합니다. 채널 상세 보고서에서 개요 보고서의 채널 상세 정보 값을 면밀하게 검토할 수 있습니다.
+**[!UICONTROL First or Last Touch Channel Detail Reports]**:규칙을 구성할 때 옵션에서 설정한 채널 값에서 가져온 페이지 이름 및 레퍼러 등의 세부 사항을 [!UICONTROL Set the channel's value to] 표시합니다. 채널 상세 보고서에서 개요 보고서의 채널 상세 정보 값을 면밀하게 검토할 수 있습니다.
 
-마케팅 보고 및 분석에서 마케팅 채널을 구성하는 자세한 방법은 [마케팅 채널 도움말](https://marketing.adobe.com/resources/help/ko_KR/mchannel/index.html)을 참조하십시오.
+마케팅 보고 및 분석에서 마케팅 채널을 구성하는 자세한 방법은 [마케팅 채널 도움말](/help/components/c-marketing-channels/analyze-mc.md)을 참조하십시오.
