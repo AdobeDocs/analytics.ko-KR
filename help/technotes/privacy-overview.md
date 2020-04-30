@@ -4,7 +4,7 @@ keywords: privacy
 title: 개인 정보 보호 개요
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 유럽 </td> 
-   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨(x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값(x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. </p> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/ko_KR/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨(x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값(x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
