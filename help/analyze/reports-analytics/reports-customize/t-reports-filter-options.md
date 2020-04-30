@@ -4,7 +4,7 @@ title: 보고서 데이터 필터링
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **다음을 포함하지 않음**
 
-라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://marketing.adobe.com/resources/help/ko_KR/reference/none-unspecified-unknown-other.html)을 필터링할 수 있습니다.
+라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)을 필터링할 수 있습니다.
 
 다음을 포함하지 않음: `none`
 
