@@ -4,7 +4,7 @@ title: 바운스 비율
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 기존 구현에는 때로 Analytics 기본 지표와 다른 계산된 지표가 포함되어 있을 수 있습니다. 계산된 지표 정의를 확인하여 차이가 없도록 하십시오.
 
-자세한 내용은 [기술 자료](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access)를 참조하십시오.
+자세한 내용은 [기술 자료](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html)를 참조하십시오.
