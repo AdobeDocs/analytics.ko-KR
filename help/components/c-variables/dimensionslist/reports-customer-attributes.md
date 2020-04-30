@@ -4,7 +4,7 @@ solution: Experience Cloud,Analytics
 title: 고객 속성
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,22 +13,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 사용자 특성에 대한 Analytics FAQ 및 사용자 특성 보고서 실행 방법.
 
-**[!UICONTROL 보고서]** **[!UICONTROL > 방문자 프로필]** > **[!UICONTROL 사용자 특성]**
+**[!UICONTROL Reports]** **[!UICONTROL > Visitor Profile]** > **[!UICONTROL Customer Attributes]**
 
 CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데이터를 캡처하는 경우, 이 데이터를 Experience Cloud의 고객 속성 데이터 소스에 업로드할 수 있습니다. 데이터가 업로드된 후 Reports &amp; Analytics에서 사용자 특성 보고서를 실행할 수 있습니다.
 
 * [Analytics의 사용자 특성 및 보고 지표](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [FAQ - Analytics의 사용자 특성](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-사용자 특성 데이터 업로드에 대한 자세한 내용은 Experience Cloud 도움말의 [사용자 특성](https://marketing.adobe.com/resources/help/ko_KR/mcloud/attributes.html)을 참조하십시오.
+사용자 특성 데이터 업로드에 대한 자세한 내용은 Experience Cloud 도움말의 [사용자 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
 ## Analytics의 사용자 특성 및 보고 지표 {#section_EF343662146B460A882D3DF772ADD86D}
 
-사용자 특성을 업로드하고 스키마를 확인하면(Experience Cloud에서), 시스템에서는 특성 문자열과 정수에 매핑되는 친근한 이름(예: *`age`* 또는 *`gender`*)을 기반으로 지표를 생성합니다. 이 지표들은 **[!UICONTROL [방문자 프로필]]** >**[!UICONTROL [사용자 특성]]** 보고서에 표시됩니다.
+사용자 특성을 업로드하고 스키마를 확인하면(Experience Cloud에서), 시스템에서는 특성 문자열과 정수에 매핑되는 친근한 이름(예: *`age`* 또는 *`gender`*)을 기반으로 지표를 생성합니다. 이러한 지표는 **[!UICONTROL Visitor Profile]** > **[!UICONTROL Customer Attributes]** 보고서에 표시됩니다.
 
 예:
 
-**[!UICONTROL [방문자 프로필]]** >**[!UICONTROL [사용자 특성]]** > **[!UICONTROL [연령]]**
+**[!UICONTROL Visitor Profile]** > **[!UICONTROL Customer Attributes]** > **[!UICONTROL Age]**
 
 ![](assets/report_age.png)
 
@@ -40,7 +40,7 @@ CRM(고객 관계 관리) 데이터베이스에서 엔터프라이즈 고객 데
 * 연령 지표: 고유 방문자 수 보고서와 같이 보고서에 추가할 수 있는 지표입니다.
 * 연령 카운트 지표: 예를 들어 방문자가 양식에 *`age`* 값을 지정한 경우 이해할 수 있도록 해줍니다.
 
-지표는 보고서 표에서 합계이므로 평균 연령을 알려주는 [계산된 지표를 생성](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/)해야 합니다. 이 지표의 공식은 `Age / Count of Age`입니다.
+지표는 보고서 표에서 합계이므로 평균 연령을 알려주는 [계산된 지표를 생성](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/cm-overview.html)해야 합니다. 이 지표의 공식은 `Age / Count of Age`입니다.
 
 ## FAQ - Analytics의 사용자 특성 {#section_E29641D1F3D649C1AC9EA5231921F038}
 
