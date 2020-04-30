@@ -4,7 +4,7 @@ title: 보고서 개요
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Marketing Reports &amp; Analytics을 사용하는 경우에는 익숙한 보고�
 
 **요약 보고서**
 
-[!UICONTROL 합계 보고서]와 같이 빠른 개요를 위해 설계된 데이터를 보여주는 보고서를 포함합니다. 데이터에 대한 일반적인 개요가 필요한 경영진에게 유용한 보고서입니다.
+Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. 데이터에 대한 일반적인 개요가 필요한 경영진에게 유용한 보고서입니다.
 
 **변환 보고서**
 
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-이 보고서는 보통 사용자 지정되며 따라서 분석가마다 다릅니다. 자세한 내용은 [!DNL Admin Console] 도움말의 [캠페인 관리자](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html)를 참조하십시오.
+이 보고서는 보통 사용자 지정되며 따라서 분석가마다 다릅니다. 자세한 내용은 [관리 콘솔 도움말을](https://helpx.adobe.com/kr/enterprise/using/admin-console.html) 참조하십시오.
 
 ## 통계적 계산 {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +74,12 @@ c_Statistical_Calculation_ad_hoc.xml
 
 **등급 보고서용의 통계적 계산을 열려면**
 
-1. 메뉴에서 **[!UICONTROL 도구]** > **[!UICONTROL 등급]**&#x200B;을 선택합니다.
+1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
 
-1. **[!UICONTROL 설정]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 기본 통계]**&#x200B;를 선택합니다.
+1. 선택 **[!UICONTROL Settings]**.
+1. 선택 **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL 통계 계산에서 0 무시]**. 0을 무시하고 다른 지표를 추가해도 이미 계산된 평균이 변경되지 않게 하려면 이 옵션을 선택하십시오. 모든 통계가 이 설정의 영향을 받습니다(합계에는 영향이 없는 경우에도).
+**[!UICONTROL Ignore zeros in statistical calculations]** 구문을 사용하는 키-값 쌍으로 전달됩니다. 0을 무시하고 다른 지표를 추가해도 이미 계산된 평균이 변경되지 않게 하려면 이 옵션을 선택하십시오. 모든 통계가 이 설정의 영향을 받습니다(합계에는 영향이 없는 경우에도).
 
 | 계산 | 설명 |
 |--- |--- |
@@ -141,15 +141,15 @@ c_overlay_calculations.xml
 
  -->
 
-일정 기간 동안의 데이터를 식별하는 보고서에서, **[!UICONTROL 통계]** 단추를 사용하면 보고서 타임라인에서 오버레이로 표시되는 계산을 선택할 수 있습니다.
+In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
 
 ![](assets/overlay_calculations.png)
 
-표준 [통계적 계산](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585) 이외에, 오버레이에서는 첫째, 둘째 및 셋째 표준 편차를 선택할 수 있습니다.
+In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
 
 ## 그룹 관리자 {#concept_E1433974A61144858E87334C006982B2}
 
-보고서에서 하나의 페이지를 사용하는 대신, 여러 페이지를 그룹화하여 [!UICONTROL 폴아웃] 및 [!UICONTROL 사이트 분석] 보고서에서 시작, 중간 또는 대상 위치에 대한 카테고리로 사용할 수 있습니다. 주 메뉴 또는 보고서 내에서 그룹을 편집할 수 있습니다. Marketing Reports &amp; Analytics에서 만든 카테고리는 [!UICONTROL 체크포인트 선택기] 목록에도 나타납니다.
+Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. 주 메뉴 또는 보고서 내에서 그룹을 편집할 수 있습니다. Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-**[!UICONTROL 도구]** > **[!UICONTROL 그룹 관리자]**&#x200B;를 클릭합니다.
+클릭 **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
