@@ -3,7 +3,7 @@ description: 실시간 페이지 분석(라이브 모드)에서는 실시간으�
 title: 실시간(라이브) 페이지 분석
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 라이브 모드에서 대부분의 클릭이 수행되는 요소를 확인하려면:
 
-1. 도구 모음의 라이브 모드 **[!UICONTROL 트렌드 라인에서]** 분석할 기간을 선택합니다.
+1. 도구 모음의 **[!UICONTROL Live Mode]** 트렌드 라인에서 분석할 기간을 선택합니다.
 1. 도구 모음에서 &quot;눈&quot; 아이콘을 클릭하여 링크 보고서 테이블에 액세스합니다.
 1. 링크를 기준으로 표를 정렬합니다.
 
@@ -39,6 +39,6 @@ After the [A4T integration](https://docs.adobe.com/content/help/ko-KR/target/usi
 * 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
-이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
+이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
 
 자세한 내용은 [여기를](/help/analyze/activity-map/activitymap-standard-live.md)참조하십시오.
