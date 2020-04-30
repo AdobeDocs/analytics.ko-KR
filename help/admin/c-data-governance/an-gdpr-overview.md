@@ -3,7 +3,7 @@ description: 이 문서에서는 데이터 주체의 GDPR 액세스 및 삭제 �
 title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -41,8 +41,8 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
 ## 전제 조건 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * [GDPR 용어](/help/admin/c-data-governance/gdpr-terminology.md)를 숙지합니다.
-* Experience Cloud 조직에 로그인 회사를 연결하지 않은 경우 연결합니다. Adobe 고객 지원 센터에 문의하여 [조직 및 계정 연결](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)을 참조하십시오.
-* 데이터 거버넌스에 대해 설정하려는 모든 Adobe Analytics 보고서 세트를 [Experience Cloud 조직](https://marketing.adobe.com/resources/help/ko_KR/mcloud/report-suite-mapping.html)에 매핑합니다.
+* Experience Cloud 조직에 로그인 회사를 연결하지 않은 경우 연결합니다. Adobe 고객 지원 센터에 문의하여 [조직 및 계정 연결](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html)을 참조하십시오.
+* 데이터 거버넌스에 대해 설정하려는 모든 Adobe Analytics 보고서 세트를 [Experience Cloud 조직](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)에 매핑합니다.
 * GDPR 삭제 및 액세스 요청을 적용할 수 있도록 각 보고서 세트에 대한 데이터 유지 정책을 설정합니다.
 
    > [!NOTE] Adobe Analytics에 데이터 유지 기간을 설정하지 않은 경우 Adobe Analytics에서는 GDPR API에 대한 요청 처리, 즉 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Customer Success Manager에 문의하십시오.
