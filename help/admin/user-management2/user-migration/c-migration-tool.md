@@ -3,7 +3,7 @@ description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용�
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -73,7 +73,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder 업데이트 </p> </td> 
-   <td colname="col2"> <p> <p>중요: <a href="https://marketing.adobe.com/resources/help/ko_KR/arb/t_install_arb.html">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
+   <td colname="col2"> <p> <p>중요: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션은 언제 시작됩니까? </p> </td> 
@@ -95,7 +95,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_418476105FE341229CE146E730AAB33D">Analytics의 기존 권한 그룹은 Admin Console에서 보고서 세트, 지표, 차원, Analytics 및 보고서 세트 도구에 대한 설명 및 세분화된 권한을 포함한 제품 프로필로서 자동으로 복제됩니다. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">현재 Analytics 사용자 중 Admin Console에서 생성된 사용자가 있는 경우(즉, 연결된 Adobe/Enterprise ID가 있는 경우) Admin Console의 해당 제품 프로필에 추가됩니다. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics의 [관리] 탭에 있는 [사용자 관리] 섹션은 <span class="term"> 읽기 전용</span>입니다. 여기에서는 새 사용자 또는 권한 그룹을 더 이상 만들 수 없으며 이 두 기능을 모두 Admin Console에서 수행해야 합니다. 자세한 내용은 <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console에서 지원되지 않는 Analytics 기능</a>을 참조하십시오. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">관리자는 <a href="https://marketing.adobe.com/resources/help/ko_KR/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">사용자 ID 마이그레이션 도구에 대한 액세스 권한을 부여 받습니다</a>. 또한 도움말 컨텐츠 및 FAQ 링크 외에 마이그레이션 종료 날짜(일반적으로 60일 후)가 포함된 제품 내 알림도 표시됩니다. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">관리자는 <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">사용자 ID 마이그레이션 도구에 대한 액세스 권한을 부여 받습니다</a>. 또한 도움말 컨텐츠 및 FAQ 링크 외에 마이그레이션 종료 날짜(일반적으로 60일 후)가 포함된 제품 내 알림도 표시됩니다. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Admin Console의 권한 탭에 대한 액세스 권한을 부여받아 Analytics에서 익숙한 모든 세분화된 옵션으로 제품 프로필을 만들 수 있습니다. </li> 
     </ul> </td> 
   </tr> 
@@ -314,7 +314,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 이 마이그레이션 계획을 현재 사용자에게 사전에 알리고 싶을 수 있습니다. 현재 Analytics 사용자를 모두 보내도록 사용자 지정할 수 있는 템플릿은 다음과 같습니다.
 
-모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://marketing.adobe.com/resources/help/ko_KR/reference/t_email_users.html)로 이동하십시오.
+모든 사용자를 이메일로 전송하려면 > **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** 이메일 사용자로 [이동합니다](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
 
 **제목:** 예고 - Adobe Analytics 및 Adobe Experience Cloud에 로그인하는 새로운 방법
 
@@ -326,9 +326,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 **유용한 자료:**
 
-[로그인 및 프로필 설정 관리](https://marketing.adobe.com/resources/help/ko_KR/mcloud/getting-started-experience-cloud.html).
-
-Experience Cloud의 [클라우드, 핵심 서비스 및 솔루션에 대하여](https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html)
+[로그인 및 프로필 설정 관리](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
 
 질문이나 문제가 있으면 Analytics 관리자에게 문의하십시오.
 
