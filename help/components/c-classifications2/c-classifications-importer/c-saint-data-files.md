@@ -5,7 +5,7 @@ title: 분류 데이터 파일
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -109,19 +109,19 @@ Numeric 2 분류를 사용한 데이터 업로드에 대한 내용은 [Numeric 2
 
 ### 분류 열 제목
 
-예를 들어 Reports &amp; Analytics 기능에는 [!UICONTROL 캠페인] 변수의 두 가지 분류인 [!UICONTROL 캠페인]과 [!UICONTROL 크리에이티브 요소]가 자동으로 포함됩니다. [!UICONTROL 캠페인] 분류에 데이터를 추가하려면 분류 데이터 파일의 열 제목이 [!UICONTROL 캠페인]이어야 합니다.
+예를 들어, 보고 및 분석에는 [!UICONTROL Campaign] 변수에 대한 두 가지 분류가 자동으로 포함됩니다. [!UICONTROL Campaigns] 및 [!UICONTROL Creative Elements]Adobe To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
->[!NOTE] [!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다.
+>[!NOTE] 열 머리글의 값은 [!UICONTROL Classifications] 분류의 이름 지정 규칙과 정확히 일치해야 합니다. 그렇지 않으면 가져오기에 실패합니다. 예를 들어 관리자가 에서 로 [!UICONTROL Campaigns] 변경하면 파일 열 머리글이 일치하도록 변경해야 [!UICONTROL Internal Campaign Names] [!UICONTROL Campaign Set-up Manager]합니다.
 
 또한 데이터 파일은 다음 추가 제목 규칙이 하위 분류와 기타 특수 데이터 열과 일치하도록 지원합니다.
 
 ### 하위 분류 제목
 
-예를 들어 [!UICONTROL 캠페인 소유자]는 [!UICONTROL 캠페인 소유자] 값을 포함하는 열에 대한 열 제목입니다. 또한 [!UICONTROL 크리에이티브 요소 크기]는 [!UICONTROL 크리에이티브 요소] 분류의 [!UICONTROL 크기] 하위 분류를 포함하는 열에 대한 열 제목입니다.
+예를 들어 [!UICONTROL Campaigns^Owner] [!UICONTROL Campaign Owner] 는 값이 들어 있는 열의 열 제목입니다. 마찬가지로 [!UICONTROL Creative Elements^Size] 는 [!UICONTROL Size] 분류의 [!UICONTROL Creative Elements] 하위 분류를 포함하는 열의 열 제목입니다.
 
 ### 분류 지표 제목
 
-예를 들어 [!UICONTROL Campaigns^~Cost]는 [!UICONTROL 캠페인] 분류의 [!UICONTROL 비용] 지표를 나타냅니다.
+For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric in the [!UICONTROL Campaigns] classification.
 
 ### PER 수정자 제목
 
@@ -141,9 +141,9 @@ Numeric 2 분류를 사용한 데이터 업로드에 대한 내용은 [Numeric 2
 
 **REVENUE:** 보고서의 라인 항목에 대한 매출액에 값을 곱합니다.
 
-**SCADD:** 보고서의 라인 항목당 [!UICONTROL 장바구니 추가] 이벤트를 호출한 횟수에 값을 곱합니다.
+**SCADD:** 보고서의 라인 항목당 이벤트가 호출된 횟수에 값을 곱합니다. [!UICONTROL Shopping Cart Add]
 
-**SCREMOVE:** 보고서의 라인 항목당 [!UICONTROL 장바구니 제거] 이벤트를 호출한 횟수에 값을 곱합니다.
+**화면 이동:** 보고서의 라인 항목당 이벤트가 호출된 횟수에 값을 곱합니다. [!UICONTROL Shopping Cart Remove]
 
 **INSTANCE:** 보고서의 라인 항목에 대한 인스턴스 수에 값을 곱합니다.
 
@@ -151,30 +151,30 @@ Numeric 2 분류를 사용한 데이터 업로드에 대한 내용은 [Numeric 2
 
 **EVENT:** 보고서의 라인 항목당 지정된 사용자 지정 이벤트가 발생한 횟수에 값을 곱합니다.
 
-**예:** 캠페인 A 비용이 10,000달러인 경우, [!UICONTROL Campaigns^~Cost] 열에는 값 10000이 포함되며 [!UICONTROL Campaigns^~Cost~per] 열에는 [!UICONTROL FIXED]가 포함됩니다. 캠페인 A의 비용을 보고서에 표시할 때 보고서의 날짜 범위 동안 10,000달러가 캠페인 A의 고정 비용으로 표시됩니다.
+**예:** 캠페인 A의 비용이 $10,000인 경우 [!UICONTROL Campaigns^~Cost] 열에는 값이 10000이고 [!UICONTROL Campaigns^~~비용] 열에는 [!UICONTROL FIXED]다음이 포함됩니다. 캠페인 A의 비용을 보고서에 표시할 때 보고서의 날짜 범위 동안 10,000달러가 캠페인 A의 고정 비용으로 표시됩니다.
 
-**예:** 캠페인 B 비용이 클릭당 2달러인 경우 [!UICONTROL Campaigns^~Cost] 열에는 2가 포함되며 **[!UICONTROL Campaigns^~Cost~per]** 열에는 [!UICONTROL CLICK]이 포함됩니다. 캠페인 B의 비용을 보고서에 표시할 때 Adobe는 보고서의 날짜 범위에 대해 (2 * [클릭 횟수])로 바로 계산합니다. 이렇게 하면 캠페인 B가 수행한 클릭 횟수를 기반으로 한 총 비용 계산이 제공됩니다.
+**예:** Campaign B에 클릭당 약 2달러가 드는 경우, [!UICONTROL Campaigns^~Cost] 열에는 2가 포함되고 **[!UICONTROL Campaigns^~~Costper]** 열에는 [!UICONTROL CLICK]다음이 포함됩니다. 캠페인 B의 비용을 보고서에 표시할 때 Adobe는 보고서의 날짜 범위에 대해 (2 * [클릭 횟수])로 바로 계산합니다. 이렇게 하면 캠페인 B가 수행한 클릭 횟수를 기반으로 한 총 비용 계산이 제공됩니다.
 
 ### 날짜
 
 캠페인 날짜는 일반적으로 개별 캠페인과 관련된 범위(시작 및 종료일)입니다. 날짜는 YYYY/MM/DD 형식이어야 합니다. 예를 들면 2013/06/15-2013/06/30입니다.
 
-자세한 내용은 [전환 분류](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)를 참조하십시오.
+자세한 내용은 [전환 분류](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)를 참조하십시오.
 
 >[!NOTE] Adobe는 2018년 5월 10일, [!DNL Analytics] 유지 관리 릴리스에서 날짜 사용 및 숫자 분류 기능에 대한 제한을 시작했습니다. 이러한 분류 유형은 관리자 및 분류 가져오기 인터페이스에서 제거되었습니다. 날짜 사용 및 숫자 분류를 새로 추가할 수 없습니다. 기존 분류는 여전히 표준 분류 워크플로우를 통해 관리(업로드, 삭제)할 수 있으며 보고에서 계속 사용할 수 있습니다.
 
-## [!UICONTROL 분류]와 함께 날짜 사용 {#section_966A07B228CD4643B258E73FB8BA150A}
+## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL 분류]를 사용하여 날짜 범위를 캠페인이나 다른 전환 [!UICONTROL 분류]에 지정할 수 있습니다. 이렇게 하면 더 정확한 캠페인 측정이 가능합니다. 값의 날짜 범위를 지정하면 해당 날짜 범위를 벗어나서 발생하는 모든 일치하는 값은 분류되지 않습니다. 이 기능은 캠페인 자체와 일치하는 모든 히트가 아니라, 캠페인이 라이브였던 정확한 날짜를 사용하려는 캠페인 측정에 유용합니다. 값을 날짜 범위를 사용하여 성공적으로 분류하기 위해서는 다음 조건이 충족되어야 합니다.
+[!UICONTROL Classifications] 날짜 범위를 캠페인이나 다른 전환에 할당하는 데 사용할 수 있으므로 보다 정확한 캠페인 측정을 [!UICONTROL classifications]할 수 있습니다. 값의 날짜 범위를 지정하면 해당 날짜 범위를 벗어나서 발생하는 모든 일치하는 값은 분류되지 않습니다. 이 기능은 캠페인 자체와 일치하는 모든 히트가 아니라, 캠페인이 라이브였던 정확한 날짜를 사용하려는 캠페인 측정에 유용합니다. 값을 날짜 범위를 사용하여 성공적으로 분류하기 위해서는 다음 조건이 충족되어야 합니다.
 
-* [!UICONTROL 분류]는 전환 변수를 기반으로 해야 합니다.
-* 사용된 [!UICONTROL 분류]는 날짜가 활성화된 날짜나 숫자 2로 설정해야 합니다.
+* The [!UICONTROL classification] must be based on a conversion variable.
+* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * 관련된 날짜 범위에는 시작 날짜와 종료 날짜(선택 사항)가 포함되어야 합니다.
 
 날짜 범위를 기반으로 한 캠페인 분류
 
 1. [!DNL Analytics]에 로그인하고 관리자 > 분류로 이동합니다.
-1. **[!UICONTROL 브라우저 내보내기]** 탭을 클릭하고, 날짜 활성화 분류에 대한 설정이 올바른지 확인한 다음, 파일 내보내기를 클릭합니다.
+1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
 1. Microsoft Excel이나 익숙한 다른 스프레드시트 편집기에서 이 파일을 엽니다.
 1. 열 중에
 
