@@ -6,7 +6,7 @@ title: 고유 방문자 수 식별
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,12 +37,12 @@ Adobe Analytics에서는 방문자를 식별하는 메커니즘을 몇 가지 �
 
 방문자를 식별하는 고유한 방법이 있으면 사이트에서 사용자 지정 방문자 ID를 사용할 수 있습니다. 사용자가 사용자 이름과 암호를 사용하여 웹 사이트에 로그인할 때 생성되는 ID가 그 예입니다.
 
-사용자의 [!UICONTROL 방문자 ID]를 추출하고 관리할 수 있을 경우, 다음 방법을 사용하여 ID를 설정할 수 있습니다.
+Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
 
 | 메서드 | 설명 |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) 변수 | 브라우저에서 JavaScript를 사용하거나, 다른 AppMeasurement 라이브러리를 사용 중일 경우, 데이터 수집 변수에 방문자 ID를 설정할 수 있습니다. |
-| 이미지 요청 시 쿼리 문자열 매개 변수 | 이 기능을 통해 [!UICONTROL 방문자 ID]를 하드 코딩된 이미지 요청에서 [!UICONTROL vid 쿼리 문자열] 매개 변수를 통해 Adobe로 전달할 수 있습니다. |
+| 이미지 요청 시 쿼리 문자열 매개 변수 | 이렇게 하면 하드 코딩된 이미지 요청에 [!UICONTROL visitor ID] 대한 [!UICONTROL vid query string] 매개 변수를 통해 Adobe로 전송할 수 있습니다. |
 | 데이터 삽입 API | JavaScript를 허용하지 않는 무선 프로토콜을 사용하는 장치에서는 `<visitorid/>` XML 요소가 들어 있는 XML 게시물을 해당 서버로부터 Adobe 수집 서버로 보낼 수 있습니다. |
 | URL 다시 쓰기 및 VISTA | 일부 배포 아키텍처에서는 쿠키를 설정할 수 없는 경우 세션 상태를 유지할 수 있도록 URL 다시 쓰기를 지원합니다. 이와 같은 경우, Adobe 엔지니어링 서비스에서는 페이지의 URL에서 세션 값을 찾는 [!DNL VISTA] 규칙을 구현한 다음 형식을 지정하여 [!UICONTROL visid] 값에 삽입할 수 있습니다. |
 >[!CAUTION]
@@ -58,7 +58,7 @@ Adobe 데이터 수집 서버로 요청이 전송되면 헤더에 방문자 ID �
 
 Apple Safari와 같은 일부 브라우저는 현재 웹 사이트의 도메인과 일치하지 않는 도메인의 HTTP 헤더에 설정된 쿠키를 더 이상 보관하지 않습니다(타사 컨텍스트에 사용된 쿠키이거나 타사 쿠키). 예를 들어 `mysite.com`을 방문 중이고 데이터 수집 서버가 `mysite.omtrdc.net`인 경우 브라우저가 `mysite.omtrdc.net`의 HTTP 헤더에서 반환되는 쿠키를 거부할 수 있습니다.
 
-이를 방지하기 위해 많은 고객들이 [자사 쿠키 구현](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)의 일부로서 데이터 수집 서버에 대한 CNAME 레코드를 구현했습니다. CNAME 레코드가 고객 도메인을 데이터 수집 서버로 호스트 이름을 매핑하도록 구성된 경우(예: `metrics.mysite.com`을 `mysite.omtrdc.net`으로 매핑) 데이터 수집 도메인이 웹 사이트 도메인과 일치하므로 방문자 ID 쿠키가 저장됩니다. 이는 방문자 ID 쿠키가 저장될 가능성을 높이긴 하지만 CNAME 레코드를 구성하고 데이터 수집 서버에 대한 SSL 인증서를 유지해야 하므로 약간의 오버헤드를 유발합니다.
+이를 방지하기 위해 많은 고객들이 [자사 쿠키 구현](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)의 일부로서 데이터 수집 서버에 대한 CNAME 레코드를 구현했습니다. CNAME 레코드가 고객 도메인을 데이터 수집 서버로 호스트 이름을 매핑하도록 구성된 경우(예: `metrics.mysite.com`을 `mysite.omtrdc.net`으로 매핑) 데이터 수집 도메인이 웹 사이트 도메인과 일치하므로 방문자 ID 쿠키가 저장됩니다. 이는 방문자 ID 쿠키가 저장될 가능성을 높이긴 하지만 CNAME 레코드를 구성하고 데이터 수집 서버에 대한 SSL 인증서를 유지해야 하므로 약간의 오버헤드를 유발합니다.
 
 ### 모바일 장치의 쿠키 {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -66,9 +66,9 @@ Apple Safari와 같은 일부 브라우저는 현재 웹 사이트의 도메인�
 
 ## ID 서비스
 
-ID 서비스는 레거시 Analytics 방문자 ID 메커니즘을 대체하며, 하트비트 비디오 측정, Target용 Analytics 및 향후 Experience Cloud 핵심 서비스 및 통합에 필요합니다.
+The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 
-이 서비스에 대한 제품 설명서가 필요하면 [Identity Service](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 참조하십시오.
+이 서비스에 대한 제품 설명서가 필요하면 [Identity Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 참조하십시오.
 
 ## 모바일 장치 식별
 
@@ -76,7 +76,7 @@ ID 서비스는 레거시 Analytics 방문자 ID 메커니즘을 대체하며, �
 
 Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP 가입자 ID 헤더를 확인해 왔습니다. 이러한 헤더에는 종종 장치 전화 번호(또는 번호에 우물 정자를 사용한 버전)나 다른 식별자가 포함됩니다. 현재 장치의 대부분에는 장치를 고유하게 식별하는 헤더가 하나 이상 있으며, 모든 Adobe 데이터 수집 서버는 방문자 ID 대신 자동으로 이러한 헤더를 사용합니다.
 
-전형적인 이미지 요청에서 경로(`/b/ss/rsid/1`)의 &#39;1&#39;은 Adobe 서버가 gif 이미지를 반환하고 영구 [!UICONTROL 방문자 ID] 쿠키(`AMCV_` 또는 `s_vi`)의 설정을 시도하도록 합니다. 하지만, 장치가 HTTP 헤더를 기반으로 하는 모바일 장치로 인식되는 경우, &#39;5&#39;가 &#39;1&#39; 대신 전달되고, 이것은 wbmp 형식 이미지를 반환해야 하고, 인식된 무선 헤더(쿠키 아님) 목록을 사용하여 장치를 식별해야 함을 나타냅니다.
+In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). 하지만, 장치가 HTTP 헤더를 기반으로 하는 모바일 장치로 인식되는 경우, &#39;5&#39;가 &#39;1&#39; 대신 전달되고, 이것은 wbmp 형식 이미지를 반환해야 하고, 인식된 무선 헤더(쿠키 아님) 목록을 사용하여 장치를 식별해야 함을 나타냅니다.
 
 다음 표에는 경로에 이미지 반환 유형 값(&#39;1&#39; 또는 &#39;5&#39;)을 기반으로 사용된 ID 방법의 순서가 나열됩니다.
 
