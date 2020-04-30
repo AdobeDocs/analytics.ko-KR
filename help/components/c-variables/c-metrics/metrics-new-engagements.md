@@ -4,7 +4,7 @@ title: 새 참여 횟수
 topic: Metrics
 uuid: 2d1dc194-10f3-4bfd-ba60-2a57fc2ad2a8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,4 +13,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 새 참여 횟수는 첫 번째 접촉 채널이 방문자로 새로 설정되었음을 표시하는 마케팅 채널 보고 지표입니다. 이는 방문자가 사이트를 처음 방문하거나 이전의 첫 번째 접촉 채널이 만료된 후 방문자가 사이트로 돌아올 때 발생할 수 있습니다. (마케팅 채널 만료는 관리자 도구의 방문자 참여 만료를 조정하여 보고서 세트에서 원하는 대로 설정할 수 있습니다. 보고서 세트에서 설정하지 않으면, 만료 기본값은 방문자의 마지막 방문 또는 히트 후 30일입니다.)
 
-[마케팅 채널 도움말](https://marketing.adobe.com/resources/help/ko_KR/mchannel/)
+[마케팅 채널 도움말](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/marketing-channels-admin.html)
