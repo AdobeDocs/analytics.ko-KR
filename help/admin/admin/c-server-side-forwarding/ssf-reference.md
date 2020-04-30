@@ -3,7 +3,7 @@ description: 서버 측 전달 호출의 구성 변수, HTTP 헤더 및 데이�
 title: 서버 측 전달 데이터 및 코드 참조
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 구성 변수 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-`d_*`라는 접두사가 있는 매개 변수는 DCS([데이터 수집 서버](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html))에서 사용되는 특별한 시스템 수준의 키-값 쌍을 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)을 참조하십시오.
+`d_*`라는 접두사가 있는 매개 변수는 DCS([데이터 수집 서버](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html))에서 사용되는 특별한 시스템 수준의 키-값 쌍을 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)을 참조하십시오.
 
 | 매개 변수 | 설명 |
 |--- |--- |
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 고객 정의 신호 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-`c_` 접두사가 있는 매개 변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)을 참조하십시오.
+`c_` 접두사가 있는 매개 변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)을 참조하십시오.
 
 | 신호 | 설명 |
 |--- |--- |
