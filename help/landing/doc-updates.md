@@ -3,7 +3,7 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 | 날짜 | 설명 |
 |---|---|
+| 2020년 2월 27일 | Adobe Analytics Labs에 대한 [설명서를 추가했습니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/tech-previews/overview.html). |
 | 2020년 2월 25일 | 변수가 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 추가되었습니다. |
 | 2020년 2월 18일 | 변수가 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 추가되었습니다. |
 | 2020년 2월 12일 | 마케팅 채널 설명서 업데이트 및 [재구성](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
