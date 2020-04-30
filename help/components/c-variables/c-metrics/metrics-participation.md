@@ -4,7 +4,7 @@ title: 기여도
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ Ad Hoc Analysis에서 기여도를 사용하는 방법에 대한 자세한 내�
 * **비활성화**: 각 전환 이벤트의 기본 상태입니다. 이 이벤트에 대한 기여도 데이터는 수집되지 않습니다.
 * **활성화**: 이 이벤트에 대한 기여도 데이터가 수집됩니다. 
 
->[!NOTE] 최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/participation_metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
+>[!NOTE] 최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html) 빌더에서 기여도 지표를 만들 수 있습니다.
 
 활성화된 기여도 지표는 모든 전환 보고서에서 자동으로 사용할 수 있습니다. 요청에 따라 특정 트래픽 보고서에서도 기여도 지표를 볼 수 있습니다. 선택적으로, 일부 사용자 지정 트래픽 보고서에서 기여도 지표 사용하게 해 달라고 요청할 수 있습니다. 
 
