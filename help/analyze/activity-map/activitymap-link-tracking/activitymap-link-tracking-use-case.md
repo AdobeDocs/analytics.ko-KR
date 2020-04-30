@@ -4,7 +4,7 @@ title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -48,7 +48,7 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 ## s_objectID를 사용하여 링크 ID 사용자 지정 {#section_01B0D463397B4837B2D46F087A6E5937}
 
-페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대해 자세히 알려면 [여기](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/s_objectID.html)를 클릭하십시오.
+페이지의 링크 또는 링크 위치에 대한 고유 개체 ID를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여, 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다. s_objectID 변수에 대해 자세히 알려면 [여기](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 클릭하십시오.
 
 >[!IMPORTANT]
 >
