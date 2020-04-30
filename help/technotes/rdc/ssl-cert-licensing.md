@@ -2,16 +2,16 @@
 title: SSL 인증서 라이센싱
 description: 고객 관리 인증서에 대한 인증서 절차
 translation-type: tm+mt
-source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # SSL/TLS 인증서 라이센싱
 
-Adobe에서는 [Adobe 관리 인증서 프로그램](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)을 통해 추가 비용 없이 인증서를 관리할 것을 권장합니다.  Adobe 관리 인증서 프로그램은 완전히 자동화되어 있으며 적시에 갱신되므로 인증서 만료로 영향을 받지 않습니다.
+Adobe에서는 [Adobe 관리 인증서 프로그램](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)을 통해 추가 비용 없이 인증서를 관리할 것을 권장합니다. Adobe 관리 인증서 프로그램은 완전히 자동화되어 있으며 적시에 갱신되므로 인증서 만료로 영향을 받지 않습니다.
 
-[Adobe 관리 인증서 프로그램](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)을 사용하지 않을 경우에는 자사 쿠키에 사용할 SSL/TLS 인증서를 제공해야 합니다.
+[Adobe 관리 인증서 프로그램](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)을 사용하지 않을 경우에는 자사 쿠키에 사용할 SSL/TLS 인증서를 제공해야 합니다.
 
 자체 인증서를 제공하는 경우 인증서를 구매하고 유지 관리하는 것은 본인의 책임입니다.  자체 SSL/TLS 인증서에 무제한 서버 라이선스가 포함되어 있어야 합니다.
 
