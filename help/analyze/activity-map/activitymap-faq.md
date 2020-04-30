@@ -4,7 +4,7 @@ title: Activity Map FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ A: Adobe SiteCatalyst 고객은 관리 콘솔의 Activity Map 지원 페이지�
 
 **Q: 새로운 AppMeasurement 코드는 DTM(다이내믹 태그 관리)을 통해 구성할 수 있습니까?**
 
-A: 예. 새로운 AppMeasurement 코드를 [수동으로 구현](https://marketing.adobe.com/resources/help/ko_KR/dtm/analytics_dtm.html)할 수 있습니다.
+A: 예. 새로운 AppMeasurement 코드를 [수동으로 구현](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)할 수 있습니다.
 
 **Q: AppMeasurement v1.6 라이브러리의 큰 변경 사항은 무엇입니까?**
 
