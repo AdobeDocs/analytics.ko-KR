@@ -5,7 +5,7 @@ title: FTP 가져오기
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계�
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 
-**[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 다음 권장 한계를 고려해야 합니다.
 
@@ -49,9 +49,9 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
-1. 사용하려는 FTP 계정 옆의 **[!UICONTROL 보기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
 1. FTP 액세스 정보(호스트, 로그인, 암호)를 사용하여 선택하려는 FTP 클라이언트를 사용하는 FTP 서버에 액세스합니다.
 1. 데이터 파일([!DNL .tab] 또는 [!DNL .txt])을 FTP 서버에 업로드합니다.
 1. 데이터 파일을 업로드한 후 파일이 처리할 준비가 되었음을 나타내는 FIN 파일을 업로드합니다.
@@ -70,11 +70,11 @@ t_create_an_ftp_account.xml
 
  -->
 
-Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/ftp/)를 참조하십시오.
+Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html)를 참조하십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
-1. ****&#x200B;파일 가져오기 탭에서 **[!UICONTROL 새로 추가를 클릭합니다]**.
+1. 클릭 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. 탭에서 을 **[!UICONTROL Import File]** 클릭합니다 **[!UICONTROL Add New]**.
 1.  FTP 계정 세부 사항을 지정합니다. 
 
    | 요소 | 설명 |
@@ -87,6 +87,6 @@ Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://marketing.ado
    | 알림 수신자 | 이 FTP 계정에 대한 알림을 수신할 이메일 주소를 지정합니다. |
    | 승인 | (필수) Adobe에서 새로운 FTP 계정에 보낸 모든 데이터 파일을 자동으로 가져오도록 허가합니다. |
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. 클릭 **[!UICONTROL Save]**.
 
 만든 후에, 원하는 FTP 계정 옆의 해당하는 링크를 클릭하여 FTP 계정을 편집하거나 삭제합니다.
