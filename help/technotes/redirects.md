@@ -6,7 +6,7 @@ title: 리디렉션 및 별칭
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -31,18 +31,18 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 사용자가 리디렉션을 발견하지 않는 다음 가설 시나리오를 고려하십시오.
 
-1. 사용자가 자신의 브라우저를 `www.google.com`을 가리키게 하고, 검색 필드에 &quot;할인 항공 티켓&quot;을 입력한 다음 **[!UICONTROL 검색]** 단추를 클릭합니다.
+1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. 브라우저가 해당 사이트( [!DNL https://www.example.com/] )에 대한 링크를 포함하는 검색 결과를 표시합니다. 검색 결과가 표시되고 브라우저의 주소 표시줄에 사용자가 검색 필드(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)에 입력한 검색어가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다.
 1. 사용자가 가설 사이트( [!DNL https://www.example.com/] )로 이동하는 링크를 클릭합니다. 사용자가 이 링크를 클릭하고 [!DNL example.com] 웹 사이트로 이동하면 [!DNL Analytics]는 JavaScript를 사용하여 참조 URL(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)과 현재 URL(`https://www.example.com/`)을 수집합니다.
-1. [!DNL Analytics]는 [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진] 및 [!DNL Search Keywords] 등의 여러 보고서에 이러한 상호 작용 중에 수집된 정보를 보고합니다.
+1. [!DNL Analytics] 보고서는 이 상호 작용 중에 수집된 정보를 [!UICONTROL Referring Domains], [!UICONTROL Search Engines]및 [!DNL Search Keywords]같은 다양한 보고서에서 보고합니다.
 
 ## 예: 리디렉션을 사용하여 찾아보기 {#section_921DDD32932847848C4A901ACEF06248}
 
 리디렉션으로 인해 브라우저는 실제 참조 URL을 완전히 지울 수 있습니다. 다음 시나리오를 참조하십시오.
 
-1. 사용자는 브라우저가 `https://www.google.com`을 가리키게 하고 검색 필드에 *할인 항공 티켓*&#x200B;을 입력한 다음 **[!UICONTROL 검색]** 단추를 클릭합니다.
+1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어(`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나( [!DNL https://www.flytohawaiiforfree.com/] )에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.example.com/` 으로 리디렉션하도록 구성되었습니다.
-1. 사용자가 `https://www.flytohawaiiforfree.com/` 링크를 클릭하면 서버가 사용자를 주 사이트인 `https://www.example.com`으로 리디렉션합니다. 리디렉션이 발생할 때 브라우저가 참조 URL을 지우므로 [!DNL Analytics] 데이터 수집에 중요한 데이터가 유실됩니다. 따라서 [!DNL Analytics] 보고서(예: [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진], [!UICONTROL 검색 키워드])에 사용된 원래 검색 정보가 유실됩니다.
+1. 사용자가 `https://www.flytohawaiiforfree.com/` 링크를 클릭하면 서버가 사용자를 주 사이트인 `https://www.example.com`으로 리디렉션합니다. 리디렉션이 발생할 때 브라우저가 참조 URL을 지우므로 [!DNL Analytics] 데이터 수집에 중요한 데이터가 유실됩니다. 따라서 [!DNL Analytics] 보고서에 사용된 원래 검색 정보(예: [!UICONTROL Referring Domains], [!UICONTROL Search Engines][!UICONTROL Search Keywords])가 유실됩니다.
 
 ## 구현 리디렉션 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 테스트를 실행하여 레퍼러, 원래 URL(*`s_server`*) 및 캠페인 변수가 캡처되고 있는지 확인합니다.
 
-이러한 변수는 [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)에 다음 매개 변수로 표현되지 않습니다.
+이러한 변수는 [Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)에 다음 매개 변수로 표현되지 않습니다.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
