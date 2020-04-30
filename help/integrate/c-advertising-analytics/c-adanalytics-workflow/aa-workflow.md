@@ -3,7 +3,7 @@ description: 'null'
 title: 워크플로우 개요
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step1_icon.png) Google/Bing 검색 데이터를 보기 원하는 Analytics 보고서 세트를 Experience Cloud 조직에 매핑합니다.
 
-[조직에 보고서 세트 매핑](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)을 확인하십시오.
+[조직에 보고서 세트 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)을 확인하십시오.
 
 ![](assets/step2_icon.png) [보고서 세트당 Advertising Analytics 보고 활성화](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
