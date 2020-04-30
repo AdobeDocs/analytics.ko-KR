@@ -4,7 +4,7 @@ title: 실시간 보고서
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 모든 사용자 지정 이벤트, 장바구니 이벤트 또는 인스턴스를 사용할 수 있습니다.
 * 최대 20시간의 내역, 실시간 데이터를 볼 수 있습니다.
 
-실시간은 사용자 및 그룹에 대한 권한을 고려합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다. eVar(전환 지표)가 지원되지 않습니다. 실시간 권한은 [관리 도구](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)에서 활성화됩니다.
+실시간은 사용자 및 그룹에 대한 권한을 고려합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다. eVar(전환 지표)가 지원되지 않습니다. 실시간 권한은 [관리 도구](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)에서 활성화됩니다.
 
->[!NOTE] 이 [!UICONTROL Real-Time Reports] 기능은 [이전에 릴리스된 현재 데이터 포함](https://marketing.adobe.com/resources/help/ko_KR/arb/options.html) (최근 데이터) 기능과 같지 않습니다. 이 기능은 완료되기 전에 데이터를 표시하여 표준 보고에 대한 지연을 줄였습니다.
+>[!NOTE] 이 [!UICONTROL Real-Time Reports] 기능은 [이전에 릴리스된 현재 데이터 포함](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (최근 데이터) 기능과 같지 않습니다. 이 기능은 완료되기 전에 데이터를 표시하여 표준 보고에 대한 지연을 줄였습니다.
 
