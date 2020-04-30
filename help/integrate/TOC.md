@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 통합 안내서
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [광고 계정 관리](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 문제 해결](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [FAQ](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/ko_KR/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)
 + [Adobe Campaign 보고](adobe-campaign.md)
 + [AEM Assets 보고](aem-assets-reporting.md)
 + [Activity Map 보고](activitmap-reporting.md)
