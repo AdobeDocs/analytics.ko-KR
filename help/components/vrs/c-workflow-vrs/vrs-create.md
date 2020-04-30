@@ -5,7 +5,7 @@ title: 가상 보고서 세트 만들기
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 가상 보고서 세트를 공유할 수 없습니다. &quot;공유&quot;는 그룹/권한을 통해 수행됩니다.
 * 가상 보고서 세트 관리자에서는 자신의 가상 보고서 세트만 볼 수 있습니다. 다른 모든 사용자의 가상 보고서 세트를 표시하려면 &quot;모두 표시&quot;를 클릭해야 합니다.
 
-1. **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**&#x200B;로 이동합니다.
-1. **[!UICONTROL 추가를 클릭합니다 +]**.
+1. > **[!UICONTROL Components]** 으로 **[!UICONTROL Virtual Report Suites]**&#x200B;이동합니다.
+1. 클릭 **[!UICONTROL Add +]**.
 
    ![](assets/new_vrs.png)
 
@@ -59,7 +59,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 세그먼트 </td> 
-   <td colname="col2"> <p>한 개 세그먼트를 추가하거나 <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/seg_stack.html"  >세그먼트를 스택</a>할 수 있습니다. </p> <p> <p>참고: 2개의 세그먼트를 스택할 때 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다. </p> </p> <p>현재 가상 보고서 세트에 사용된 세그먼트를 삭제하거나 수정하려고 하면 경고가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>한 개 세그먼트를 추가하거나 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html"  >세그먼트를 스택</a>할 수 있습니다. </p> <p> <p>참고: 2개의 세그먼트를 스택할 때 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다. </p> </p> <p>현재 가상 보고서 세트에 사용된 세그먼트를 삭제하거나 수정하려고 하면 경고가 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
