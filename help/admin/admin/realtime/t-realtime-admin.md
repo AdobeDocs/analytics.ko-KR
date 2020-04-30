@@ -4,7 +4,7 @@ title: 실시간 보고서 구성
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -17,7 +17,7 @@ Reports &amp; Analytics 내에서 실시간 보고서를 설정하는 절차에�
 
 1. 실시간 보고서를 활성화할 보고서 세트를 선택합니다.
 
-   **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 모두 보고서 보기 > 사이트 지표]** > **[!UICONTROL 실시간]**&#x200B;으로 이동하고 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
+   > **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** 로 이동하고 맨 위의 드롭다운에서 보고서 세트를 선택합니다.
 
    ![](assets/report_suite_selector.png)
 
@@ -25,11 +25,11 @@ Reports &amp; Analytics 내에서 실시간 보고서를 설정하는 절차에�
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. **[!UICONTROL 구성]**(톱니바퀴 아이콘)을 클릭하여 [!UICONTROL 보고서 세트 관리자]를 실행합니다.
+1. (톱니바퀴 **[!UICONTROL Configure]** 아이콘)을 클릭하여 [!UICONTROL Report Suite Manager]실행합니다.
 
-   (**[!UICONTROL Analytics]** > **[!UICONTROL 관리 > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간에서도 이용 가능합니다]**.)
+   ( **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**&#x200B;아래에서도 사용할 수 있습니다.)
 
-1. **[!UICONTROL 실시간 활성화]** 설정을 켭니다.
+1. 설정을 **[!UICONTROL Enable Real-Time]** 켜세요.
 1. 최대 3개의 보고서(보고서당 지표 한 개와 차원 또는 분류 세 개가 있음)에 대한 실시간 데이터 수집을 설정합니다.
 
    ![](assets/real_time_admin.png)
@@ -52,8 +52,8 @@ Reports &amp; Analytics 내에서 실시간 보고서를 설정하는 절차에�
 
    ![](assets/warning_dimensions.png)
 
-1. **[!UICONTROL 저장]**&#x200B;이나 **[!UICONTROL 보고서 저장 및 보기]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
-   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://marketing.adobe.com/resources/help/ko_KR/sc/user/reports_realtime.html)을 참조하십시오.
+   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)을 참조하십시오.
 
 1. 기본적으로 실시간 보고서에 대한 액세스 권한은 모든 사용자에게 있습니다.
