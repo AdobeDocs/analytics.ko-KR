@@ -2,7 +2,7 @@
 title: 광고 계정 설정
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,14 +15,14 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
 
 ![](assets/aa_accounts.png)
 
-1. Adobe Analytics에서 **[!UICONTROL 관리]** > **[!UICONTROL 광고 계정]**&#x200B;으로 이동합니다.
+1. Adobe Analytics에서 **[!UICONTROL Admin]** >으로 이동합니다 **[!UICONTROL Advertising Accounts]**.
 1. (처음 사용 시에만 해당) 최종 사용자 라이센스 계약서 약관에 동의합니다.
-1. **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.
-1. [!UICONTROL 새 검색 엔진 계정] 대화 상자가 표시됩니다.
+1. 클릭 **[!UICONTROL + Add]**.
+1. 대화 [!UICONTROL New Search Engine Account] 상자가 표시됩니다.
 
    ![](assets/aa_new_se_account.png)
 
-1. 다음 지침에 따라 **[!UICONTROL 검색 엔진 설정]**&#x200B;을 입력합니다.
+1. 다음 지침을 **[!UICONTROL Search Engine Settings]** 입력합니다.
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,8 +54,8 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
     </tbody> 
     </table>
 
-1. **[!UICONTROL 추적]** 섹션에서 Adobe Analytics 구현으로 검색 엔진 데이터를 추적하는 방법에 대한 정보를 제공합니다. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
-다음 지침에 따라 **[!UICONTROL 추적 설정]**&#x200B;을 입력합니다.
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
+다음 지침을 **[!UICONTROL Tracking Settings]** 입력합니다.
 
    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
     <thead> 
@@ -80,13 +80,13 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
     </tbody> 
     </table>
 
-1. **[!UICONTROL 매핑]** 섹션에서 이 검색 엔진 계정에 연결할 보고서 세트를 선택합니다. 광고 계정을 저장하기 전에 한 개 이상의 보고서 세트를 제공해야 합니다. 여러 개의 계정을 여러 보고서 세트(일대일, 일대다, 다대다)에 매핑할 수 있습니다. AMO가 검색 엔진에서 가져오는 데이터는 매핑된 보고서 세트에 복사되므로 데이터를 분할하지 않습니다.
+1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. 광고 계정을 저장하기 전에 한 개 이상의 보고서 세트를 제공해야 합니다. 여러 개의 계정을 여러 보고서 세트(일대일, 일대다, 다대다)에 매핑할 수 있습니다. AMO가 검색 엔진에서 가져오는 데이터는 매핑된 보고서 세트에 복사되므로 데이터를 분할하지 않습니다.
 
    >[!IMPORTANT]
    >
-   >[Experience Cloud 조직](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)에 매핑된 보고서 세트만 선택할 수 있습니다. 해당 보고서 세트가 표시되지 않으면 [Advertising Analytics 문제 해결](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)을 참조하십시오.
+   >[Experience Cloud 조직](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)에 매핑된 보고서 세트만 선택할 수 있습니다. 해당 보고서 세트가 표시되지 않으면 [Advertising Analytics 문제 해결](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)을 참조하십시오.
 
-   **[!UICONTROL 매핑 설정]**&#x200B;에 대해 다음 지침을 따르십시오.
+   다음 **[!UICONTROL Mapping Settings]** 지침에 대해 다음을 수행합니다.
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -98,13 +98,13 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>보고서 세트 매핑 </p> </td> 
-      <td colname="col2"> <p>보고서 세트 매핑은 이 검색 엔진 계정에 연결되는 보고서 세트를 결정합니다. 즉, 검색 엔진 데이터가 전송되는 보고서 세트를 결정합니다. </p> <p>해당 보고서 세트가 표시되지 않으면 이 도구를 사용하여 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >Experience Cloud 조직에 보고서 세트를 매핑</a>할 수 있습니다. </p> </td> 
+      <td colname="col2"> <p>보고서 세트 매핑은 이 검색 엔진 계정에 연결되는 보고서 세트를 결정합니다. 즉, 검색 엔진 데이터가 전송되는 보고서 세트를 결정합니다. </p> <p>해당 보고서 세트가 표시되지 않으면 이 도구를 사용하여 <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html"  >Experience Cloud 조직에 보고서 세트를 매핑</a>할 수 있습니다. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
-1. 저장하면 면책조항에 경고 목록이 표시됩니다. 이 계약을 읽고 이해했는지 확인하는 메시지가 표시됩니다. 확인란을 클릭한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Save]**.
+1. 저장하면 면책조항에 경고 목록이 표시됩니다. 이 계약을 읽고 이해했는지 확인하는 메시지가 표시됩니다. Click the checkbox, then click **[!UICONTROL OK]**.
 
    이제 새로 작성한 계정이 나열된 광고 계정 [관리 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)로 이동합니다.
 
