@@ -3,7 +3,7 @@ description: 'null'
 title: Advertising Analytics 문제 해결
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 보고서 세트가 매핑 섹션에 표시되지 않음 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-[새 광고 계정을 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)하려고 하는데 보고서 세트가 **[!UICONTROL 보고서 세트 선택]** 드롭다운 목록에 표시되지 않습니다. 다음과 같은 두 가지 가능한 이유가 있습니다.
+You are trying to [set up a new Advertising Account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) and you do not see your report suite listed in the **[!UICONTROL Select Report Suite]** drop-down list. 다음과 같은 두 가지 가능한 이유가 있습니다.
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 보고서 세트가 로그인 사용자의 Experience Cloud 조직 ID에 매핑되지 않았습니다. </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >조직 보고서 세트 매핑</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html"  >조직 보고서 세트 매핑</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 보고서 세트가 Advertising Analytics 보고에 제공되지 않았습니다. </p> </td> 
