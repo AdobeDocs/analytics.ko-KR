@@ -5,7 +5,7 @@ title: 방문
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 방문이 끝나면, 방문 만료가 있는 모든 변수는 만료되고 더 이상 지속되지 않습니다. 방문 번호 지표는 이 방문자에 대해 다음 방문 시 증가합니다.
 
->[!NOTE] Analytics를 Adobe Target에 대한 보고 출처로 사용하는 경우, [ 설명서의 ](https://marketing.adobe.com/resources/help/ko_KR/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)A4T에서 부풀려진 방문 및 방문자 카운트 최소화[!DNL Target]를 참조하십시오.
+>[!NOTE] Analytics를 Adobe Target에 대한 보고 출처로 사용하는 경우, [ 설명서의 ](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)A4T에서 부풀려진 방문 및 방문자 카운트 최소화[!DNL Target]를 참조하십시오.
 
-자세한 내용은 Adobe Analytics 구현 안내서의 [고유 방문자 식별](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/visid_overview.html)을 참조하십시오.
+자세한 내용은 Adobe Analytics 구현 안내서의 [고유 방문자 식별](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/visitor-identification.html)을 참조하십시오.
 
 **기간**
 
