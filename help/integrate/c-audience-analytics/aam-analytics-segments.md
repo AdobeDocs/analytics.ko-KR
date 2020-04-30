@@ -3,7 +3,7 @@ description: Analytics와 Audience Manager는 모두 세그먼트를 사용합�
 title: Analytics 및 Audience Manager의 세그먼트 이해
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ Audience Manager 세그먼트 멤버십은 유동적입니다. 사용자는 현�
 
 Audience Manager 세그먼트는 Analytics의 대상으로 표시됩니다.
 
-자세한 내용은 [세그먼트 빌더의 트레이트 및 세그먼트 채우기 데이터](https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html) 및 [신호, 트레이트 및 세그먼트](https://marketing.adobe.com/resources/help/en_US/aam/c_signal_trait_segment.html)를 참조하십시오.
+자세한 내용은 [세그먼트 빌더의 트레이트 및 세그먼트 채우기 데이터](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) 및 [신호, 트레이트 및 세그먼트](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html)를 참조하십시오.
 
 ## Analytics 세그먼트 {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -42,4 +42,4 @@ Analytics 세그먼트는 보고서의 데이터를 필터링하는 메커니�
 
    반대로 Analytics에서 방문자는 보고 날짜 범위에 따라 세그먼트에 포함되거나 제외됩니다. 예를 들어 한 방문자가 지난달에 구매했습니다. AAM에서 해당 방문자는 날짜 범위와 관계없이 &quot;구매자&quot; 세그먼트에 포함됩니다. Analytics에서 이번 달을 기준으로 한 보고서에는 세그먼트에 방문자를 포함하지 않습니다. 그러나 이번 달과 지난 달을 기준으로 한 보고서에는 세그먼트에 방문자가 포함됩니다.
 
-자세한 내용은 [Analytics 세그멘테이션 안내서](https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/)를 참조하십시오.
+자세한 내용은 [Analytics 세그멘테이션 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오.
