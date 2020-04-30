@@ -2,7 +2,7 @@
 description: 분류 규칙 빌더를 하위 분류와 결합할 수 없습니다.
 title: 하위 분류 및 규칙 빌더
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 >
 >이 절차에서는 [하위 분류 및 규칙 빌더](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)에 설명된 사용 사례를 완수하는 방법을 설명합니다.
 
-1. [분류 관리자](https://marketing.adobe.com/resources/help/ko_KR/reference/classifications.html)에서 분류 및 하위 분류를 만듭니다.
+1. [분류 관리자](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)에서 분류 및 하위 분류를 만듭니다.
 
    예:
 
