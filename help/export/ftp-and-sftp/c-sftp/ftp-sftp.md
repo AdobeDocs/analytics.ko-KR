@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Secure File Transfer Protocol - 개요
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,7 +17,7 @@ SFTP는 본인을 제외한 누구도 본인의 데이터를 볼 수 없도록 �
 
 이는 Adobe 서버에서 사용자 서버로 파일을 &quot;푸시&quot;하는 것을 의미합니다. 기본적으로 Adobe에서 사용자의 끝 포인트에 배달합니다.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 및 [Analytics 데이터 피드](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)는 SFTP를 통해 데이터를 푸시할 수 있습니다.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 및 [Analytics 데이터 피드](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-overview.html)는 SFTP를 통해 데이터를 푸시할 수 있습니다.
 
 SFTP를 통해 데이터를 푸시할 수 **없는** Analytics 도구는 다음과 같습니다.
 
