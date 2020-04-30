@@ -5,7 +5,7 @@ title: 타임스탬프 옵션 사용
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE]타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
 
-추가적인 설정에 대해서는 [타임스탬프 옵션](https://marketing.adobe.com/resources/help/ko_KR/reference/timestamp-optional.html)을 참조하십시오.
+추가적인 설정에 대해서는 [타임스탬프 옵션](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/timestamp-optional.html)을 참조하십시오.
 
 ## 타임스탬프 옵션: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터 통합 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    순서가 잘못된 데이터에는 오프라인 데이터 수집에서 늦게 도착하는 데이터와 늦게 도착하는 조회수, 또는 오프라인 모바일 장치에서 동기화가 되지 않은 시계가 포함될 수 있습니다. 데이터 순서가 잘못되면 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 번호/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
-* [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
+* [s.visitorID](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/visitor-identification.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
 
 * 웹 브라우저(타임스탬프가 지정되지 않은 라이브 데이터)를 여는 앱(타임스탬프가 지정된 오프라인 데이터)으로 구성된 하이브리드 앱에서는 타임스탬프를 사용하지 말아야 합니다. 그렇게 하면 세션에 대한 보고가 부정확해집니다.
 
