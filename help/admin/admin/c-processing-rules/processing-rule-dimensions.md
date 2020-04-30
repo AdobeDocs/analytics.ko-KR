@@ -5,7 +5,7 @@ title: 처리 규칙에 사용 가능한 차원
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 </p> </td> 
-   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고 변수로 복사되어야 보고서에 표시됩니다. 컨텍스트 데이터 변수가 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> eVar에 컨텍스트 데이터 변수 복사 </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/implement/context_data_variables.html"> 컨텍스트 데이터 변수</a> </p> </td> 
+   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고 변수로 복사되어야 보고서에 표시됩니다. 컨텍스트 데이터 변수가 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> eVar에 컨텍스트 데이터 변수 복사 </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> 컨텍스트 데이터 변수</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
