@@ -4,7 +4,7 @@ title: 추적 코드
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 * 이 보고서는 [s.campaign](/help/implement/vars/page-vars/campaign.md)에서 직접 데이터를 참조합니다.
 * 이 보고서가 기반으로 하는 변수는 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)입니다. 즉, 페이지 보기를 넘어서까지 지속되며 지정된 기간 내의 지표와 연결됩니다.
-* 보고서의 기본 지표는 매출입니다. [!UICONTROL 관리자 도구]의 [!UICONTROL 보고서 세트 관리자]에서 이 기본값을 변경할 수 있습니다. ( **[!UICONTROL 설정 편집]** > **[!UICONTROL 개별 보고서 설정]** > **[!UICONTROL 기본 지표]**.)
+* 보고서의 기본 지표는 매출입니다. 에서 이 기본값을 변경할 수 [!UICONTROL Report Suite Manager] 있습니다 [!UICONTROL Admin Tools].( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**)
 
 * 이 보고서는 트렌드 및 등급 형식 모두로 볼 수 있습니다.
 * 이 보고서에서 검색 필터를 사용하여 특정 라인 항목을 찾을 수 있습니다.
-* [!UICONTROL 캠페인] 및 [!UICONTROL 크리에이티브 요소] 보고서는 이 보고서를 기반으로 한 분류이며 각 보고서 세트와 함께 자동으로 생성됩니다.
+* The [!UICONTROL Campaigns] and [!UICONTROL Creative Elements] reports are classifications based on this report, and are automatically created with each report suite.
 
 * 이 보고서에서 SAINT 분류를 사용하면 라인 항목을 통합하고 이름을 변경할 수 있습니다.
 * 조직 및 보고서 세트 설정에 따라 이 보고서를 다음 보고서로 분류할 수 있습니다.
@@ -43,9 +43,9 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 **Reports &amp; Analytics 속성**
 
-* 메뉴를 사용자 지정하지 않은 경우는 **[!UICONTROL 전환]** > **[!UICONTROL 캠페인]** > **[!UICONTROL 추적 코드]**&#x200B;를 클릭하여 이 보고서를 찾습니다.
+* 메뉴를 사용자 지정하지 않은 경우 **[!UICONTROL Conversion]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** 을 클릭하여 이 보고서를 찾습니다.
 
-* 이 보고서는 모든 [목록 변수](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)로도 분류할 수 있습니다.
+* 이 보고서는 모든 [목록 변수](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html)로도 분류할 수 있습니다.
 * 페이지 보기, 방문, 및 고유 방문자를 지표로 사용할 수 있습니다.
 * 이 보고서는 세그먼트를 사용할 수 있습니다.
 
