@@ -5,7 +5,7 @@ title: 대시보드 관리자
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 기존의 이전 대시보드는 계속 실행되고, 여전히 편집, 다운로드 및 예약할 수 있지만, 더 이상 새로운 이전 버전의 대시보드를 만들 수는 없습니다. 기존의 대시보드는 최신 대시보드 형식으로 업그레이드하는 것이 좋습니다.
 
->[!NOTE] 계속 진행하여 [Analysis Workspace 프로젝트](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/)와 다운로드 및 예약할 기능을 사용해 보십시오.
+>[!NOTE] 계속 진행하여 [Analysis Workspace 프로젝트](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html)와 다운로드 및 예약할 기능을 사용해 보십시오.
 
 기존 대시보드를 복사할 때 시스템은 기존 컨텐츠 또는 새 컨텐츠를 추가할 수 있도록 편집 가능한 기존 대시보드가 열립니다. 기존 대시보드를 복사할 경우 기존 대시보드 목록에 원본이 그대로 유지됩니다.
 
