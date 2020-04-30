@@ -3,14 +3,14 @@ description: 'null'
 title: Data Sources 처리 시간
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Data Sources 처리 시간
 
->[!Note]
+>[!NOTE]
 >모든 데이터 처리 기간은 대략적인 것으로 간주되어야 하며 SLA(서비스 수준 계약)를 구성하지 않습니다.
 
 데이터 처리 시간은 다음 지침에 따라 다릅니다.
