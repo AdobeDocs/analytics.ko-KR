@@ -3,7 +3,7 @@ description: 사용자를 구성하고 데이터 샘플링에 대해 알 수 있
 title: 관리
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 사용자를 구성하고 데이터 샘플링에 대해 알 수 있습니다.
 
-[!DNL Admin Console] 도움말을 보려면 [Analytics 참조 자료](https://marketing.adobe.com/resources/help/ko_KR/reference/index.html)를 참조하십시오.
+[!DNL Admin Console] 도움말을 보려면 [Analytics 참조 자료](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html)를 참조하십시오.
 
 ## 사용자 라이센스 {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -37,14 +37,14 @@ t_user_licenses.xml
  -->
 
 1. [!DNL Experience Cloud]에 로그인합니다.
-1. **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 그룹 편집]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. 클릭 **[!UICONTROL Edit Groups]**.
 
-   회사에서 사용자 라이센스를 구입한 경우 [!UICONTROL Ad Hoc Analysis 라이센스 사용자] 그룹이 [!UICONTROL 그룹 이름] 열에 나타납니다. 사용자 로그인에 대한 사용 가능한 라이센스 수도 표시됩니다.
+   회사에서 사용자 라이센스를 구입한 경우 [!UICONTROL Ad Hoc Analysis License Users] 그룹이 [!UICONTROL Group Name] 열에 나타납니다. 사용자 로그인에 대한 사용 가능한 라이선스 수도 표시됩니다.
 
-1. **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
-1. [!UICONTROL 사용자 로그인 지정]에서 그룹에 추가할 사용자를 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 그룹 저장]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Edit]**.
+1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
+1. 클릭 **[!UICONTROL Save Group]**.
 
    라이선스 시스템은 그룹에 추가되는 사용자 수를 제한하지 않습니다. 구입한 사용자 라이센스 수는 동시 사용을 제한합니다.
 
@@ -58,10 +58,10 @@ t_managing_users.xml
 
  -->
 
-1. **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]**&#x200B;를 클릭한 다음 **[!UICONTROL 사용자 관리]**&#x200B;를 클릭합니다.
-1. 사용자를 찾은 다음 **[!UICONTROL 종료]**&#x200B;를 클릭합니다.
+1. > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**&#x200B;을 클릭한 다음 **[!UICONTROL Manage Users]**&#x200B;을 클릭합니다.
+1. Locate the user, then click **[!UICONTROL Terminate.]**
 
-   [!UICONTROL 활성 Ad Hoc Analysis 세션] 페이지에서, 가장 오랫동안 유휴 상태였던 사용자가 목록의 맨 위에 표시됩니다.
+   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
 
 ## 권한 {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -84,10 +84,10 @@ t_permissions.xml
  -->
 
 1. **[!UICONTROL Experience Cloud]**&#x200B;에 로그인합니다.
-1. **[!UICONTROL Adobe Analytics > 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 모든 보고서 액세스]**&#x200B;를 클릭합니다.
-1. [!UICONTROL 사용 가능한 사용자]에서 사용자를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 그룹 저장]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+1. 클릭 **[!UICONTROL All Report Access]**.
+1. 에서 사용자를 [!UICONTROL Available Users]선택한 다음 **[!UICONTROL Add.]**
+1. 클릭 **[!UICONTROL Save Group]**.
 
 ## 권한 그룹 만들기 {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -100,10 +100,10 @@ t_permission_groups.xml
  -->
 
 1. **[!UICONTROL Experience Cloud]**&#x200B;에 로그인합니다.
-1. **[!UICONTROL Adobe Analytics > 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 1. 액세스를 허용할 비관리 사용자에 대해 Ad Hoc Analysis이 활성화된 보고서 세트를 포함하는 권한 그룹을 만듭니다.
 
-   사용자가 사용할 수 있는 보고서 세트는 새 프로젝트를 만들 때 [!UICONTROL 보고서 클라우드] 메뉴에 표시됩니다.
+   The report suites available to the user are displayed in the [!UICONTROL Report Cloud] menu when you create a new project.
 
 ## Java로 프록시 정책 설정 {#task_3B03F58519544025B55CF54FACF8F4F5}
 
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis에서는 HTTP를 사용하여 서버와 통신합니다. 이것은 다른 HTTP 트래픽과 동일한 프록시 정책을 따릅니다.
 
-1. [!DNL Windows Control Panel]에서 [!UICONTROL Java 제어판]을 시작합니다.
-1. **[!UICONTROL 일반]** 탭에서 **[!UICONTROL 네트워크 설정]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 브라우저 설정 사용]**&#x200B;을 선택하거나 수동으로 프록시 설정을 구성합니다.
-1. **[!UICONTROL 확인]**&#x200B;을 클릭한 다음 [!UICONTROL Java 제어판]에서 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. 에서 [!DNL Windows Control Panel]를 [!UICONTROL Java Control Panel]실행합니다.
+1. 탭에서 을 **[!UICONTROL General]** 클릭합니다 **[!UICONTROL Network Settings]**.
+1. 프록시 설정을 **[!UICONTROL Use browser settings]**&#x200B;선택하거나 수동으로 구성합니다.
+1. 을 **[!UICONTROL OK]**&#x200B;클릭한 다음 **[!UICONTROL OK]** 을 [!UICONTROL Java Control Panel]클릭합니다.
 
 ## 데이터 샘플링 방식 {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
