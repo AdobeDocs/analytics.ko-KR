@@ -2,7 +2,7 @@
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. He
 
 | 새 항목 및 중요 항목 | 주요 Analytics 리소스 |
 | --- | --- |
-| <ul><li>[지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)</li><li> [Adobe Analytics YouTube 채널](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics 자습서 및 비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[강의실 교육 및 가상 수업](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원 문의](https://helpx.adobe.com/kr/support/analytics.html)</li></ul> |
+| <ul><li>[지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics YouTube 채널](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics 자습서 및 비디오](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[강의실 교육 및 가상 수업](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원 문의](https://helpx.adobe.com/kr/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
