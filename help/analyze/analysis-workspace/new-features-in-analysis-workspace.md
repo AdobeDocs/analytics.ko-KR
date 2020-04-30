@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -169,7 +169,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>새 템플릿: 오디오 소비</b> </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >오디오 분석</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >오디오 분석</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +468,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
    <td colname="col2"> <p>이전에는 프로젝트를 복사하거나 "다른 이름으로 저장"한 경우 프로젝트에 저장된 모든 인트라 링크가 복사한 프로젝트가 아닌 원래 프로젝트를 가리켰습니다. </p> <p>이제 인트라 링크는 복사/다른 이름으로 저장한 후에 활성 상태인 프로젝트를 기준으로 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>기여도 분석: <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/contribution/ca_main.html"  >토큰 알림 </a> </p> </td> 
+   <td colname="col1"> <p>기여도 분석: <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >토큰 알림 </a> </p> </td> 
    <td colname="col2"> <p>이제는 회사에 기여도 분석 토큰 수가 제한되어 있는 경우 토큰을 사용하면 Analysis Workspace UI에 알림이 표시됩니다. 이를 통해 남은 토큰 수를 알 수 있습니다.&amp;nbsp; </p> <p>(관리자 사용자: 그룹 권한을 편집하여 이러한 토큰을 사용할 수 있는 사용자를 제한할 수 있습니다. 이 권한을 "예외 항목 탐지 및 기여도 분석"이라고 합니다(<span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹 편집</span> &gt; <span class="uicontrol">모든 보고서 액세스 편집</span> &gt; <span class="uicontrol">보고서 세트 도구 사용자 지정</span> &gt; <span class="uicontrol">도구 및 보고서</span>).  </p> </td> 
   </tr> 
   <tr> 
@@ -803,7 +803,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 사람 템플릿 </a> </p> </td> 
-   <td colname="col2"> <p>참고: 사람 템플릿과 관련 사람 지표는 <a href="https://marketing.adobe.com/resources/help/ko_KR/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a>의 일부로서만 사용할 수 있습니다 . </p> <p>템플릿은 다시 말해, 고유 방문자 수 지표의 중복이 제거된 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 장치를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. </p> </td> 
+   <td colname="col2"> <p>참고: 사람 템플릿과 관련 사람 지표는 <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a>의 일부로서만 사용할 수 있습니다 . </p> <p>템플릿은 다시 말해, 고유 방문자 수 지표의 중복이 제거된 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 장치를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>실행 취소/다시 실행 옵션 개선 사항 </p> </td> 
@@ -973,7 +973,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 2016년 6월 16일 릴리스된 새로운 기능:
 
-* [관리자가 사용자에 대해 >](https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html) 탭에 대한 액세스를 허용하거나 거부할 수 있는 새 그룹 권한 **[!UICONTROL Analytics]** **[!UICONTROL Workspace]** . 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
+* [관리자가 사용자에 대해 >](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html) 탭에 대한 액세스를 허용하거나 거부할 수 있는 새 그룹 권한 **[!UICONTROL Analytics]** **[!UICONTROL Workspace]** . 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
 * The [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
