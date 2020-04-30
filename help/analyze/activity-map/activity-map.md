@@ -4,14 +4,14 @@ title: Activity Map 개요
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Activity Map 개요
 
->[!Note]
+>[!NOTE]
 >FAQ 페이지에서 Activity Map이 단일 페이지 애플리케이션(SPA)을 지원하는 [방법을](/help/analyze/activity-map/activitymap-faq.md) 살펴보십시오.
 
 >[!IMPORTANT]
