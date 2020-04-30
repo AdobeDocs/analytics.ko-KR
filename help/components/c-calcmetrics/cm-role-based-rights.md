@@ -3,7 +3,7 @@ description: 계산된 지표 권한은 관리자 수준 사용자와 관리자�
 title: 계산된 지표  역할 기반 권한
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
  <tbody> 
   <tr> 
    <td colname="col1"> <b>관리자 수준 사용자</b> </td> 
-   <td colname="col02"> 관리자는 계산된 지표를 만들 수 있을 뿐만 아니라 사용자 권한을 제한하는 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html"  >그룹</a>을 만들어 계산된 지표를 만들 수도 있습니다. </td> 
+   <td colname="col02"> 관리자는 계산된 지표를 만들 수 있을 뿐만 아니라 사용자 권한을 제한하는 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html"  >그룹</a>을 만들어 계산된 지표를 만들 수도 있습니다. </td> 
    <td colname="col2"> 전체 회사, 사용자 그룹 및 개별 사용자와 공유할 수 있습니다. </td> 
    <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>: 보기/편집/삭제 등을 수행할 수 있습니다. 자신의 계산된 지표 및 다른 사용자의 계산된 지표를 보거나 편집하거나 삭제할 수 있습니다. <p> <span class="keyword"> Ad Hoc Analysis</span> 및 <span class="keyword">Report Builder</span>: 자신의 계산된 지표 및 자신과 공유된 지표를 보거나 편집하거나 삭제할 수 있습니다. </p> </td> 
    <td colname="col4"> 계산된 지표를 표준으로 승인할 수 있습니다. </td> 
