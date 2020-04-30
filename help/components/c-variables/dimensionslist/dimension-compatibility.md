@@ -2,7 +2,7 @@
 title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -369,7 +369,7 @@ Reports &amp; Analytics에는 특정 차원에 매핑되지 않는 여러 개의
 
 ### Nielsen 통합
 
-이 통합을 구현하는 방법에 관한 자세한 내용은 [Nielsen 파트너 관계](https://marketing.adobe.com/resources/help/ko_KR/sc/appmeasurement/hbvideo/nielsen-partnership.html)를 참조하십시오.
+이 통합을 구현하는 방법에 관한 자세한 내용은 [Nielsen 파트너 관계](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)를 참조하십시오.
 
 | 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
