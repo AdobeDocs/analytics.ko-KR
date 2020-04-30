@@ -4,7 +4,7 @@ title: Analytics에서의 Activity Map 보고
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,12 +18,12 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 사용자가 Activity Map 차원에 대해 보고하려면 먼저 관리자가 다음을 수행해야 합니다.
 
 * [사용자를 Activity Map 액세스 그룹에 추가합니다](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* 이 그룹에 액세스할 보고서 세트를 추가합니다. **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL Activity Map 액세스]** > **[!UICONTROL 편집]**&#x200B;으로 이동합니다.
+* 이 그룹에 액세스할 보고서 세트를 추가합니다. > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**&#x200B;으로 이동합니다.
 * 차원에 대한 사용자 액세스를 사용자 지정합니다. 아래 섹션을 참조하십시오.
 
 ## Analytics Activity Map 차원 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-[차원에 대한 사용자 액세스를 세분화된 수준에서 사용자 정의](https://marketing.adobe.com/resources/help/ko_KR/reference/groups-dimensions.html)할 수 있습니다. 다음은 Analytics에서 사용할 수 있는 Activity Map 차원입니다.
+[차원에 대한 사용자 액세스를 세분화된 수준에서 사용자 정의](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)할 수 있습니다. 다음은 Analytics에서 사용할 수 있는 Activity Map 차원입니다.
 
 | 차원 | 설명 |
 |---|---|
@@ -34,7 +34,7 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 | Activity Map XY | 사용 안 함 |
 
 * 이러한 차원은 Analysis Workspace, Reports &amp; Analytics, Report Builder에서 사용할 수 있어야 합니다(Analytics 구현이 [Activity Map에 활성화된 경우](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)).
-* Reports &amp; Analytics에서 **[!UICONTROL 모든 보고서 보기]** > **[!UICONTROL Activity Map]**&#x200B;으로 이동합니다.
+* 보고 및 분석에서 > **[!UICONTROL View All Reports]** 로 이동합니다 **[!UICONTROL Activity Map]**.
 
 * 특정 페이지에 대한 링크 및 영역을 보기 위해 해야 할 일은 원하는 Activity Map 페이지의 분류를 Activity Map 링크 및 영역에 만드는 것입니다.
 
