@@ -5,7 +5,7 @@ title: 집단 분석 보고서 실행
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -46,7 +46,7 @@ Analysis Workspace에서 집단을 만들고 집단 분석 보고서를 실행�
 
    셀(연속 또는 인접하지 않음)을 선택한 다음 마우스 오른쪽 단추 클릭 > **[!UICONTROL Create Segment From Selection]**&#x200B;을 클릭합니다.
 
-1. In the [Segment Builder](https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/seg_build.html), further edit the segment, then click **[!UICONTROL Save]**.
+1. In the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), further edit the segment, then click **[!UICONTROL Save]**.
 
    The saved segment is available for use in the [!UICONTROL Segment] panel in Analysis Workspace.
 1. 집단 프로젝트에 이름을 지정하고 저장합니다.
