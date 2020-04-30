@@ -3,7 +3,7 @@ description: 지표는 보기 수, 클릭스루 횟수, 재로드 횟수, 평균
 title: 지표
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * **전환**: 웹 사이트의 성공 이벤트에 대한 데이터를 보여줍니다. 성공 이벤트에는 구매, 다운로드 또는 웹 사이트에서 사용자가 수행하기를 원하는 기타 작업이 포함될 수 있습니다.
 * **계산됨**: 다른 지표를 결합하여 만들어진 사용자 지정 가능한 지표. 예를 들어 매출액에서 키워드 비용과 상품 비용을 빼는 지표를 만들어 순 매출액을 얻을 수 있습니다. 그런 다음 이 금액을 총 주문 수로 나누어 주문당 평균 순 매출액을 얻을 수 있습니다.
 
-[!DNL Experience Cloud]에서 지표 사용 방법에 대한 자세한 내용은 *분석 참조 자료*&#x200B;의 [지표 정의](https://marketing.adobe.com/resources/help/ko_KR/reference/metrics.html)를 참조하십시오.
+[!DNL Experience Cloud]에서 지표 사용 방법에 대한 자세한 내용은 *분석 참조 자료*&#x200B;의 [지표 정의](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html)를 참조하십시오.
 
-[!UICONTROL 지표 구성] 도구를 사용하여 지표에 대한 새 폴더를 만들 수 있습니다. 그런 다음 원하는 대로 지표를 그룹화할 수 있습니다. 구성기를 사용하면 드래그 앤 드롭을 사용하여 사용자 지정 폴더에 기존의 지표를 복사할 수 있습니다.
+You can use the [!UICONTROL Organize Metrics] tool to create new folders for your metrics. 그런 다음 원하는 대로 지표를 그룹화할 수 있습니다. 구성기를 사용하면 드래그 앤 드롭을 사용하여 사용자 지정 폴더에 기존의 지표를 복사할 수 있습니다.
 
 폴더를 만들고 이름을 지정하고 원하는 대로 지표를 구성할 수 있지만 즐겨찾기와 계산된 지표 폴더를 제외하고는 기본 폴더로 변경할 수 없습니다.
 
@@ -38,13 +38,13 @@ t_organize_metrics.xml
 
  -->
 
-1. [!UICONTROL 지표] 도구 창에서 **[!UICONTROL 추가 작업]**&#x200B;을 클릭합니다(![](assets/tools_icon.png)
+1. 도구 [!UICONTROL Metrics] 창에서 을 클릭합니다 **[!UICONTROL More Actions]**.( ![](assets/tools_icon.png)
 
    ).
-1. **[!UICONTROL 지표 구성]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 새 폴더]**&#x200B;를 클릭하여 폴더를 만듭니다.
+1. 클릭 **[!UICONTROL Organize Metrics]**.
+1. Click **[!UICONTROL New]** to create a folder.
 1. 다른 폴더에서 지표를 선택한 다음 선택 사항을 새 폴더로 드래그합니다.
-1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
@@ -60,15 +60,15 @@ t_add_metrics_dsc.xml
 
  -->
 
-1. [!UICONTROL 지표] 도구 창에서 지표를 찾습니다.
+1. In the [!UICONTROL Metrics] tool pane, locate the metric.
 
    검색 필드 또는 지표 폴더로 드릴다운하여 지표를 찾을 수 있습니다.
 
-1. 보고서 테이블 또는 [!UICONTROL 테이블 빌더]로 지표를 드래그합니다.
+1. Drag the metric to the report table or [!UICONTROL Table Builder].
 
-   보고서에 지표를 반복적으로 추가해야 하는 필요성을 줄이고자 하는 경우 [!UICONTROL 설정]에서 미리 기본 지표를 지정할 수도 있습니다.
+   You may want to specify default metrics in [!UICONTROL Settings] in advance, if you want to reduce the need to repeatedly add metrics to a report.
 
-   자세한 내용은 [등급 탭 - 정의](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   See [Ranked Tab - Definitions](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## 계산된 지표 빌더에서 계산된 지표를 작성합니다.{#concept_F8E213CE786A43FB93847C5BA883A29C}
 
@@ -80,11 +80,11 @@ c_calc_metric_builder.xml
 
  -->
 
-계산된 지표가 만들어지고 관리되는 방법에 대한 자세한 내용은 [계산된 지표 안내서](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/)를 참조하십시오.
+계산된 지표가 만들어지고 관리되는 방법에 대한 자세한 내용은 [계산된 지표 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/cm-overview.html)를 참조하십시오.
 
 다음은 Ad Hoc Analysis의 계산된 지표 빌더에 액세스하는 방법입니다.
 
-1. [!UICONTROL 지표] 창에서 **[!UICONTROL 추가 옵션]**&#x200B;을 클릭한 다음 **[!UICONTROL 계산된 지표 빌더]**&#x200B;를 클릭합니다.
+1. 창에서 을 [!UICONTROL Metrics] 클릭한 다음 **[!UICONTROL More Options]****[!UICONTROL Calculated Metrics Builder]**&#x200B;을 클릭합니다.
 
    ![](assets/more_options_calc.png)
 
