@@ -3,7 +3,7 @@ description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -110,7 +110,7 @@ source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ### 사람
 
->[!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ko_KR/mcdc/mcdc-people.html)의 일부로서만 사용할 수 있습니다.
+>[!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html)의 일부로서만 사용할 수 있습니다.
 
 이 템플릿은 고유 방문자 수 지표의 중복 제거 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 장치를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. 템플릿을 사용하면 다음 작업을 수행할 수 있습니다.
 
