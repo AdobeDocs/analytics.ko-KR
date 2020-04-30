@@ -3,7 +3,7 @@ description: 관리 도구의 데이터 거버넌스 대화 상자는 데이터 
 title: 보고서 세트의 데이터 거버넌스 설정 보기/관리
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 관리 도구의 데이터 거버넌스 대화 상자는 데이터 거버넌스에 대해 구성된 보고서 세트, 해당 보고서 세트가 Experience Cloud 조직에 매핑되었는지 여부 및 데이터 보존 정책이 이 보고서 세트에 적용되어 있는지 여부에 대한 개요를 제공합니다.
 
 1. Adobe Experience Cloud에 로그인합니다.
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;로 이동합니다.
+1. > **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**&#x200B;으로 이동합니다.
 
    로그인 회사의 일부인 모든 보고서 세트가 표시됩니다.
 
@@ -36,7 +36,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>매핑됨</b>: 이 보고서 세트는 로그인한 Analytics 로그인 회사와 동일한 Experience Cloud 조직에 이미 매핑되었습니다. 이 설정이 있는 보고서 세트만 레이블을 지정할 수 있습니다. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>보고서 세트 매핑</b>: 이 링크를 클릭하면 Experience Cloud 조직에 <a href="https://marketing.adobe.com/resources/help/ko_KR/mcloud/report-suite-mapping.html">보고서 세트를 매핑</a>할 수 있습니다. <p>즉, 사용자가 보고서 세트를 찾고 이를 해당 조직에 지정해야 하는 Experience Cloud 조직 - 보고서 세트 매핑 관리 페이지로 리디렉션됩니다. 완료되면 이 데이터 거버넌스 UI로 다시 이동됩니다. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>보고서 세트 매핑</b>: 이 링크를 클릭하면 Experience Cloud 조직에 <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html">보고서 세트를 매핑</a>할 수 있습니다. <p>즉, 사용자가 보고서 세트를 찾고 이를 해당 조직에 지정해야 하는 Experience Cloud 조직 - 보고서 세트 매핑 관리 페이지로 리디렉션됩니다. 완료되면 이 데이터 거버넌스 UI로 다시 이동됩니다. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"></b>다른 조직에 매핑됨<b>: 다른 Experience Cloud 조직이 이 보고서 세트를 해당 조직에 이미 매핑했습니다. </b></li> 
     </ul> </td> 
   </tr> 
