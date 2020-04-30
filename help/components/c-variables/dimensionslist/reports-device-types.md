@@ -4,7 +4,7 @@ title: 장치 유형
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 이 보고서에 대한 데이터는 방문자의 사용자 에이전트 문자열을 사용하여 채워집니다.
 
->[!Note]
+>[!NOTE]
 >기존 모바일 ID에 대한 변경 사항만 소급 대상입니다. 새 장치에 모바일 ID가 아직 없는 경우, 이 장치에 연결할 데이터만 장치 데이터베이스에 ID가 추가된 날짜에 시작됩니다.
