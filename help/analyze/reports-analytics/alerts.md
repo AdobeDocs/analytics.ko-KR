@@ -5,7 +5,7 @@ title: 경고
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
-자세한 내용은 [지능형 경고](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/intellligent_alerts.html)의 Analysis Workspace 문서를 참조하십시오.
+자세한 내용은 [지능형 경고](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)의 Analysis Workspace 문서를 참조하십시오.
 
 ## 경고 추가 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -39,13 +39,13 @@ Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONT
 
 1. Reports &amp; Analytics에서 경고를 설정할 보고서를 엽니다.
 1. 클릭 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. 이렇게 하면 [새 경고 빌더](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/alert-builder.html)로 이동합니다.
+1. 이렇게 하면 [새 경고 빌더](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)로 이동합니다.
 
 ## 기존 경고 보기 또는 편집 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 작업 컨텍스트
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 이렇게 하면 새 [경고 관리자](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/alert-manager.html)로 이동합니다.
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 이렇게 하면 새 [경고 관리자](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)로 이동합니다.
 
 ## 이전 경고 마이그레이션 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>ASI 슬롯이 보고서 세트로 포함된 경고 </p> </td> 
-   <td colname="col2"> <p>더 이상 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/ASI_slots_admin.html"  >ASI 슬롯을 생성하거나 편집</a>할 수 없으며 Analysis Workspace에서 사용할 수 없습니다. 따라서 새 경고에서 지원되지 않습니다. </p> <p> </p> </td> 
+   <td colname="col2"> <p>더 이상 ASI 슬롯을 생성하거나 편집할 수 없으며 Analysis Workspace에서 사용할 수 없습니다. 따라서 새 경고에서 지원되지 않습니다. </p> <p> </p> </td> 
    <td colname="col3"> <p>새 경고 관리자에서 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>기여도 지표를 사용하는 경고 </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/metrics_participation.html"  > 기여도 지표</a>는 Reports &amp; Analytics에서 사용할 수 있지만 현재 Analysis Workspace의 새 경고 시스템에서 사용할 수 없습니다. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  > 기여도 지표</a>는 Reports &amp; Analytics에서 사용할 수 있지만 현재 Analysis Workspace의 새 경고 시스템에서 사용할 수 없습니다. </p> <p> </p> </td> 
    <td colname="col3"> <p>새 경고 관리자에서 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 지정 달력 보고서 세트용 월별 경고 </p> </td> 
-   <td colname="col2"> <p>이 기능은 <a href="https://marketing.adobe.com/resources/help/ko_KR/arb/custom_calendar.html"  >사용자 지정 월 시작일</a>(전국 소매 연합/NRF 및 사용자 지정 달력 유형)을 가진 보고서 세트용 경고를 설정한 고객에게만 영향을 미칩니다. </p> <p>태양력 또는 수정된 태양력 보고서 세트의 경고에는 영향을 미치지 않습니다. 이전에 이러한 경고는 태양력 달의 첫날(예: 1월 1일, 2월 1일 등)로 전송되었습니다. 이 기능은 예외 항목을 탐지할 때 이전 달의 데이터를 고려하는 새 경고 예외 항목 탐지 기능에서는 작동하지 않습니다. 차후에 사용자 지정 달력에 예약 시스템 지원을 추가하여 경고 및 예약된 프로젝트 모두에서 태양력 달의 첫날에만 보내는 대신 사용자 지정 달력의 첫날에도 보내기를 예약할 수 있도록 합니다. </p> <p> </p> </td> 
+   <td colname="col2"> <p>이 기능은 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >사용자 지정 월 시작일</a>(전국 소매 연합/NRF 및 사용자 지정 달력 유형)을 가진 보고서 세트용 경고를 설정한 고객에게만 영향을 미칩니다. </p> <p>태양력 또는 수정된 태양력 보고서 세트의 경고에는 영향을 미치지 않습니다. 이전에 이러한 경고는 태양력 달의 첫날(예: 1월 1일, 2월 1일 등)로 전송되었습니다. 이 기능은 예외 항목을 탐지할 때 이전 달의 데이터를 고려하는 새 경고 예외 항목 탐지 기능에서는 작동하지 않습니다. 차후에 사용자 지정 달력에 예약 시스템 지원을 추가하여 경고 및 예약된 프로젝트 모두에서 태양력 달의 첫날에만 보내는 대신 사용자 지정 달력의 첫날에도 보내기를 예약할 수 있도록 합니다. </p> <p> </p> </td> 
    <td colname="col3"> <p>새 경고 관리자에서 아직 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
