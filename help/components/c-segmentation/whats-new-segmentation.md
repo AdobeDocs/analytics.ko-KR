@@ -3,7 +3,7 @@ description: Adobe Analytics Workspace의 새로운 기능
 title: Analytics 세그먼테이션의 새로운 기능
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Analytics Workspace의 새로운 기능
    <td colname="col2"> <p>within 절, THEN 문 사이에 "1개 이내의 검색 키워드 인스턴스", "1개 이내의 eVar 47 인스턴스" 등을 추가할 수 있습니다. 이 경우 차원의 한 개 인스턴스 이내로 세그먼트를 제한합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/fallout_flow.html"  >폴아웃 분석에서 세그먼트 사용 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  >폴아웃 분석에서 세그먼트 사용 </a> </p> </td> 
    <td colname="col2"> <p>터치포인트에서 세그먼트를 만들고, 세그먼트를 터치포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로우를 비교할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; 세그먼트 비교 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace의 <a href="https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/segment-comparison.html"  >세그먼트 비교</a>(세그먼트 IQ) 패널에서 고객이 두 Analytics 세그먼트를 빠르게 비교하여 모든 데이터 포인트에서 이들 세그먼트 간에 가장 중요한 차이점을 찾을 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace의 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  >세그먼트 비교</a>(세그먼트 IQ) 패널에서 고객이 두 Analytics 세그먼트를 빠르게 비교하여 모든 데이터 포인트에서 이들 세그먼트 간에 가장 중요한 차이점을 찾을 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 세그먼트 만들기</span> 권한 </p> </td> 
-   <td colname="col2"> <p>사용자에게 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html"  >세그먼트 만들기 권한</a>이 없는 경우, 사용자는 더 이상 세그먼트 빌더에 액세스할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>사용자에게 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html"  >세그먼트 만들기 권한</a>이 없는 경우, 사용자는 더 이상 세그먼트 빌더에 액세스할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Adobe Analytics Workspace의 새로운 기능
  <tbody> 
   <tr> 
    <td colname="col1"> <p>세그먼트 빌더에서의 권한 변경 사항 </p> </td> 
-   <td colname="col2"> <p>관리자 사용자는 새 세그먼트를 만들 수 있는 사용자를 제한할 수 있습니다. 기본적으로 모든 사용자는 세그먼트를 만들 수 있습니다. <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html"  > 자세히...</a> </p> </td> 
+   <td colname="col2"> <p>관리자 사용자는 새 세그먼트를 만들 수 있는 사용자를 제한할 수 있습니다. 기본적으로 모든 사용자는 세그먼트를 만들 수 있습니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html"  > 자세히...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
