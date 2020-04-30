@@ -3,7 +3,7 @@ description: 통합이 배포되면 제공된 추가 기능을 사용할 수 있
 title: 통합 사용
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 대상은 SMB와 같습니다.
 
-세그먼트를 만드는 방법에 대한 자세한 내용은 [Analytics 세그멘테이션 안내서](https://marketing.adobe.com/resources/help/ko_KR/analytics/segment/)를 참조하십시오.
+세그먼트를 만드는 방법에 대한 자세한 내용은 [Analytics 세그멘테이션 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 
 이 세그먼트는 실질적으로 모든 보고서에 적용할 수 있습니다. 한 가지 예를 들자면 여기에 표시된 방문당 체류 시간 보고서입니다. ![](assets/segment_applied_report.png)
