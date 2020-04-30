@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,7 +44,7 @@ AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문�
 * Audience Manager와 Adobe Analytics의 고객입니다.
 * Audience Manager 관리자입니다.
 * Identity Service v1.5 이상을 사용하고 있습니다.
-* AAM 및 Adobe Analytics 보고서 세트는 [동일한 Experience Cloud 조직에 매핑](https://marketing.adobe.com/resources/help/ko_KR/mcloud/report-suite-mapping.html)됩니다.
-* [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)(DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
+* AAM 및 Adobe Analytics 보고서 세트는 [동일한 Experience Cloud 조직에 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)됩니다.
+* [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)(DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
 
 이러한 전제 조건은 [Audience Analytics 워크플로우](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)에 설명되어 있습니다.
