@@ -2,7 +2,7 @@
 title: 마케팅 채널 세부 사항 - 첫 번째 및 마지막 터치
 description: 성공 지표와 매출을 다양한 채널 세부 정보에 할당하면 전체 채널에 관계없이 됩니다.
 translation-type: tm+mt
-source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
 
 * 이 보고서는 마케팅 채널에 정의된 규칙에 따라 실행됩니다. [채널 및 규칙](/help/components/c-marketing-channels/c-channels.md)을 참조하십시오.
 
-   이 보고서는 특별히 각 규칙의 **[!UICONTROL 채널의 값을 다음으로 설정]** 부분을 사용합니다. 이 규칙이나 채널의 값이 설정되는 방식을 변경하면 이 보고서의 데이터를 계산하는 방법도 변경됩니다. 자세한 내용은 마케팅 채널 처리 규칙 [ FAQ](/help/components/c-marketing-channels/c-faq.md)를 참조하십시오.
+   특히, 보고서는 각 규칙의 **[!UICONTROL Set the channel's value to]** 부분을 사용합니다. 이 규칙이나 채널의 값이 설정되는 방식을 변경하면 이 보고서의 데이터를 계산하는 방법도 변경됩니다. 자세한 내용은 마케팅 채널 처리 규칙 [ FAQ](/help/components/c-marketing-channels/c-faq.md)를 참조하십시오.
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +32,4 @@ source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
    * 모든 표준 전자 상거래 지표: 매출, 주문, 판매량, 장바구니, 장바구니 보기, 체크아웃, 장바구니 추가, 장바구니 제거
    * 모든 사용자 지정 이벤트: 이벤트 1-80, H22 코드 이상인 경우는 이벤트 81-100도 포함
    * 방문 및 방문자: 조직 및 보고서 세트에 따라 사용 가능 여부가 결정됩니다. 자세한 내용은 해당 계정 관리자에게 문의하십시오.
-   [!UICONTROL 마케팅 채널] 도움말에서 [지표](https://marketing.adobe.com/resources/help/ko_KR/mchannel/c_overview_metrics.html)를 참조하십시오.
+   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
