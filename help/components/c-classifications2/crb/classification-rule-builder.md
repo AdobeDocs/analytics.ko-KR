@@ -5,7 +5,7 @@ title: 분류 규칙 빌더 워크플로우
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: f6b528f8a1b89a008a736fa62d58d6e83f13e4e4
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -27,16 +27,16 @@ source-git-commit: f6b528f8a1b89a008a736fa62d58d6e83f13e4e4
 
 ## 분류 규칙 시작하기 {#section_3FF666EF9D5B4E37A23B3FB400CDA2E6}
 
-**[!UICONTROL 관리]** > **[!UICONTROL 분류 규칙 빌더]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
 분류 규칙을 구현할 수 있는 높은 수준의 단계는 다음과 같습니다.
 
 | 단계.  | 수행 위치 | 설명 |
 |--- |--- |--- |
-| 1단계(전제 조건): [분류 스키마를 설정합니다](https://marketing.adobe.com/resources/help/ko_KR/reference/c_classifications.html). | [!UICONTROL 관리자] > [!UICONTROL 보고서 세트] > [!UICONTROL 설정 편집] > &lt;트래픽 분류 또는 전환 분류> | 변수를 선택하고 해당 변수에 사용할 분류를 정의하십시오. <br>변수에는 변수가 규칙에 사용되기 전에 만들어진 분류 열이 최소 1개 있어야 합니다.<br>분류가 활성화되면, 가져오기 및 규칙 빌더를 사용하여 특정 값을 분류할 수 있습니다. |
-| 2단계: [규칙 세트를 만듭니다](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL 관리자] > [!UICONTROL 분류 규칙 빌더] > [!UICONTROL 규칙 세트 추가] | 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. |
-| 3단계: 보고서 세트 및 변수를 구성합니다. | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 규칙 세트를 보고서 세트 및 변수에 적용합니다. |
-| 4단계: [세트에 분류 규칙을 추가합니다](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 조건을 분류에 일치시킨 다음 규칙에 적용할 작업을 지정합니다.  [규칙 처리 방법](/help/components/c-classifications2/crb/classification-quickstart-rules.md)의 정보를 숙지하십시오. |
+| 1단계(전제 조건): [분류 스키마를 설정합니다](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;트래픽 분류 또는 전환 분류> | 변수를 선택하고 해당 변수에 사용할 분류를 정의하십시오. <br>변수에는 변수가 규칙에 사용되기 전에 만들어진 분류 열이 최소 1개 있어야 합니다.<br>분류가 활성화되면, 가져오기 및 규칙 빌더를 사용하여 특정 값을 분류할 수 있습니다. |
+| 2단계: [규칙 세트를 만듭니다](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. |
+| 3단계: 보고서 세트 및 변수를 구성합니다. | [!UICONTROL Classification Rule Builder] >  &lt;규칙 세트> | 규칙 세트를 보고서 세트 및 변수에 적용합니다. |
+| 4단계: [세트에 분류 규칙을 추가합니다](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] >  &lt;규칙 세트> | 조건을 분류에 일치시킨 다음 규칙에 적용할 작업을 지정합니다.  [규칙 처리 방법](/help/components/c-classifications2/crb/classification-quickstart-rules.md)의 정보를 숙지하십시오. |
 | 5단계: [분류 규칙 세트를 테스트합니다](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!DNL Testing Page] | 초안 모드에서 규칙을 편집하여 유효성 확인을 위한 규칙을 테스트하려고 합니다. 초안 모드에서는 규칙을 실행할 수 없습니다.<br>이 단계는 [정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md)을 사용할 때 중요합니다. |
 | 6단계: [유효한 규칙을 활성화합니다](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 규칙이 유효하면 규칙 세트를 활성화합니다.  필요하면 기존의 키를 덮어쓸 수 있습니다. 자세한 내용은 [규칙 처리 방법](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
 | 7단계(선택 사항): [원치 않는 규칙을 삭제합니다](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 세트에서 원하지 않는 규칙을 삭제합니다.<br>참고: 규칙을 삭제해도 업로드된 분류 데이터는 삭제되지 않습니다.  분류된 데이터를 삭제해야 할 경우 [분류 데이터 삭제](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md)를 참조하십시오. |
@@ -49,4 +49,4 @@ source-git-commit: f6b528f8a1b89a008a736fa62d58d6e83f13e4e4
 
 **블로그**: 이 기능에 대한 추가 정보를 보려면 디지털 마케팅 블로그: [규칙 기반 분류](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29)를 참조하십시오.
 
-**비디오**: [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I)를 방문하여 [!UICONTROL 분류 개요] 비디오를 보십시오.
+**비디오**:YouTube [를](https://www.youtube.com/watch?v=6laI5SBXY-I) 방문하여 [!UICONTROL Classifications Overview] 비디오를 보십시오.
