@@ -4,7 +4,7 @@ title: 폴아웃
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,14 +21,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **Analysis Workspace**
 
-[고객의 움직임 - 폴아웃](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/fallout_flow.html)을 참조하십시오.
+[고객의 움직임 - 폴아웃](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)을 참조하십시오.
 
 **Reports and Analytics**
 
-구성 정보는 도움말의 [폴아웃 보고서 실행](https://marketing.adobe.com/resources/help/ko_KR/sc/user/t_reports_fallout.html)을 참조하십시오.
+구성 정보는 도움말의 [폴아웃 보고서 실행](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)을 참조하십시오.
 
 **Ad Hoc Analysis**
 
 방문 또는 방문자 수준에서 폴아웃 데이터를 분석합니다. 특정 기간 동안의 폴아웃 그래프를 나타내는 트렌드 경로도 표시됩니다. 단일 페이지 또는 페이지 그룹을 보고서 체크포인트로 설정하거나 조합 또는 순서에서 임의의 차원 또는 지표를 추가할 수 있습니다. 마케팅 보고서에서 구성하는 카테고리를 이 보고서의 체크포인트로 사용할 수도 있습니다.
 
-구성 정보는 도움말의 [폴아웃 보고서](https://marketing.adobe.com/resources/help/ko_KR/dsc/c_reports_fallout.html)를 참조하십시오.
+구성 정보는 도움말의 [폴아웃 보고서](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html)를 참조하십시오.
