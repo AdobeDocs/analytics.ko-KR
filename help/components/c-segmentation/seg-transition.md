@@ -5,7 +5,7 @@ title: FAQ
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace의 세그먼테이션:
 
-   * [세그먼트를 비교](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/segment-comparison.html)할 수 있습니다.
-   * 비교에서 [세그먼트를 차원으로](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/segments_as_dimensions.html) 사용합니다.
-   * [폴아웃 분석](https://marketing.adobe.com/resources/help/ko_KR/analytics/analysis-workspace/graphics/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
+   * [세그먼트를 비교](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)할 수 있습니다.
+   * 비교에서 [세그먼트를 차원으로](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 사용합니다.
+   * [폴아웃 분석](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
 
 * [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)할 수 있습니다.
 * 세그먼트는 모든 보고서 세트에 범용입니다.
@@ -40,9 +40,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 다음 작업을 수행하여 세그먼트 빌더에 액세스할 수 있습니다.
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. In the segment rail that displays, then click **[!UICONTROL Add]**, or
 
-* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
    또는
 
@@ -52,9 +52,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 세그먼트 빌더 액세스 방법:
 
-* 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
+* Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. 그런 다음 **[!UICONTROL Segments]**&#x200B;또는
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL Manage]**&#x200B;또는
 
 * 인터페이스의 어디에서든지 슬래시 키 &#39;/&#39;를 누르고 세그먼트 관리자를 검색합니다.
 
@@ -74,7 +74,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만, 관리자는 [세그먼트를 만들 수 있는 권한](https://marketing.adobe.com/resources/help/ko_KR/reference/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만, 관리자는 [세그먼트를 만들 수 있는 권한](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
