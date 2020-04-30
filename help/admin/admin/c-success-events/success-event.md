@@ -5,7 +5,7 @@ title: 성공 이벤트 개요
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. [!UICONTROL 관리] > [!UICONTROL 보고서 세트]로 이동합니다
-4. 원하는 보고서 세트를 선택한 다음 설정 편집 > [!UICONTROL 전환] > [!UICONTROL 성공] 이벤트로 [!UICONTROL 이동합니다].
-5. 원하는 이벤트를 찾고 고유 이벤트 기록 [!UICONTROL 드롭다운을 수정하여] 방문당 [!UICONTROL 한 번 기록] 또는 이벤트 [!UICONTROL ID]사용을수정합니다.
+3. > [!UICONTROL Admin] 으로 이동 [!UICONTROL Report Suites]
+4. 원하는 보고서 세트를 선택한 다음 [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events]로 이동합니다.
+5. 원하는 이벤트를 찾아 [!UICONTROL Unique Event Recording] 드롭다운을 [!UICONTROL Record Once Per Visit] 또는 [!UICONTROL Use Event ID]로 수정합니다.
 
 웹 사이트 유형에 따라 다양한 성공 이벤트가 있습니다. 여기에는 다음과 같은 예가 포함됩니다.
 
@@ -32,11 +32,11 @@ source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
 * **첨단 기술**: 백서 다운로드, RFP, 양식 완성, 지원 요청
 * **자동차**: 리드 제출, 견적 요청, 브로셔 다운로드
 
-[s.events](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/events.html) 변수는 성공 이벤트를 정의합니다.
+[s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) 변수는 성공 이벤트를 정의합니다.
 
 ## 성공 이벤트 페이지 - 설명 {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 성공 이벤트]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
 
 성공 이벤트 페이지를 사용하여 사이트에서 사용되는 이벤트 변수를 구성할 수 있습니다. 최대 1,000개의 성공 이벤트를 추가할 수 있습니다. H22 이상의 코드에 있는 경우 이벤트 81-1,000만 작동합니다.
 
