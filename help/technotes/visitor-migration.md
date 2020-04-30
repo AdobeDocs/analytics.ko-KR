@@ -5,7 +5,7 @@ title: 방문자 마이그레이션
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 방문자 마이그레이션을 통해 데이터 수집 도메인을 변경할 때 방문자 식별 쿠키를 보존할 수 있습니다. 데이터 수집 도메인은 다음 이유로 변경될 수 있습니다.
 
-* `2o7.net`에서 `omtrdc.net`([지역별 데이터 수집](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/rdc/))으로 이동하는 경우
+* `2o7.net`에서 `omtrdc.net`([지역별 데이터 수집](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))으로 이동하는 경우
 
-* [Experience Cloud 방문자 ID 서비스](https://marketing.adobe.com/resources/help/ko_KR/mcvid/)를 구현하고 CNAME/퍼스트 파티 데이터 수집 도메인에서 `2o7.net` 또는 `omtrdc.net`([지역별 데이터 수집](https://marketing.adobe.com/resources/help/ko_KR/whitepapers/rdc/))으로 이동하는 경우
+* [Experience Cloud 방문자 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 구현하고 CNAME/퍼스트 파티 데이터 수집 도메인에서 `2o7.net` 또는 `omtrdc.net`([지역별 데이터 수집](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))으로 이동하는 경우
 
-* `2o7.net` 또는 `omtrdc.net`에서 CNAME/자사 데이터 수집([자사 쿠키](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/))으로 이동하는 경우
+* `2o7.net` 또는 `omtrdc.net`에서 CNAME/자사 데이터 수집([자사 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html))으로 이동하는 경우
 
 * 특정 CNAME에서 다른 CNAME으로 이동하는 경우(도메인 변경)
 
