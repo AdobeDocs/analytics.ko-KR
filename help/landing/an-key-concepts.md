@@ -2,7 +2,7 @@
 description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 title: Adobe Analytics - 주요 개념
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Reports &amp; Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션. Analytics 패키지의 초급자 도구입니다. | [Reports &amp; Analytics 홈](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Adobe Analytics 데이터에서 사용자 지정 요청을 작성하고 Microsoft Excel을 사용하여 이 요청을 시각화할 수 있는 Excel 추가 기능입니다. | [Report Builder 홈](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석용 Java 기반 도구입니다. | [Ad Hoc Analysis 홈](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [Data Workbench 클라이언트](https://marketing.adobe.com/resources/help/ko_KR/insight/client/) |
+| Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [Data Workbench 클라이언트](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 처리되지 않은 원시 데이터입니다. 히트 수준은 아닙니다. | [Data Warehouse 홈](https://docs.adobe.com/content/help/ko-KR/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. | [Mobile Services 홈](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors(이전 Genesis) | 타사 애플리케이션의 추적 데이터를 Analytics로 가져와서 하나의 중앙 위치에서 종단 간 가시성을 제공합니다. | [Data Connectors 홈](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
@@ -48,7 +48,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 
 | 보고서 | 설명 | 설명서 링크 |
 |--- |--- |--- |
-| 전체 차원/보고서 목록 | Adobe Analytics에서 사용 가능한 모든 차원/보고서에 대한 정의입니다. | [차원](https://marketing.adobe.com/resources/help/ko_KR/reference/reports_descriptions.html) |
+| 전체 차원/보고서 목록 | Adobe Analytics에서 사용 가능한 모든 차원/보고서에 대한 정의입니다. | [차원](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) |
 | Advertising Analytics | Adobe Analytics 내에서 모든 Google 및 Bing 유료 검색 데이터를 나란히 분석합니다. 통합을 통해 생성된 차원에는 광고 플랫폼, 키워드, 일치 유형 등이 포함됩니다. 생성된 지표는 AMO 노출 횟수, AMO 클릭 수, AMO 비용, 평균 위치 및 평균 품질 점수입니다. | [Advertising Analytics](https://docs.adobe.com/help/ko-KR/analytics/integration/advertising-analytics/overview.html) |
 | Audience Analytics | AAM에서 사용자 대상 멤버십으로 수신 Analytics 히트를 풍부하게 합니다. 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터와 같은 AAM 대상 데이터를 Analytics 워크플로우에 통합할 수 있습니다. 이 통합을 통해 생성된 차원은 대상 ID 및 대상자 이름입니다. | [Audience Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | 기여도 분석 IQ | 고객 움직임에서 어떻게 의미 있는 참여가 발생하는지를 이해하여 고객을 타겟 결과로 이끄는 변곡점을 지능적으로 식별하며 마케팅 이니셔티브를 효과적으로 최적화할 수 있도록 해줍니다. 모델에는 첫 번째, 마지막, 선형, 기여도, j자형, 역 j자형, u자형, 동일 터치, 사용자 지정 및 시간 감소가 포함됩니다. | [기여도 분석 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution.html) |
@@ -81,8 +81,8 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 
 | 옵션 | 설명 | 설명서 링크 |
 |---|---|---|
-| 분류 가져오기 | 브라우저나 FTP 업로드를 통해 캡처된 차원을 기준으로 메타데이터를 가져오십시오. 규칙 빌더와 비교되는 수동 방식입니다. | [분류 가져오기](https://marketing.adobe.com/resources/help/ko_KR/reference/c_working_with_saint.html) |
-| 규칙 빌더 | 사용자 정의된 규칙을 기반으로 차원의 메타데이터 분류를 자동으로 생성합니다. | [분류 규칙 빌더](https://marketing.adobe.com/resources/help/ko_KR/reference/classification_rule_builder.html) |
+| 분류 가져오기 | 브라우저나 FTP 업로드를 통해 캡처된 차원을 기준으로 메타데이터를 가져오십시오. 규칙 빌더와 비교되는 수동 방식입니다. | [분류 가져오기](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) |
+| 규칙 빌더 | 사용자 정의된 규칙을 기반으로 차원의 메타데이터 분류를 자동으로 생성합니다. | [분류 규칙 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
 | 사용자 특성 | Adobe Analytics 및 Adobe Target에서 사용하기 위해 Experience Cloud에 업로드된 CRM 데이터. | [사용자 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html) |
 | 데이터 소스 | 오프라인 지표를 차원을 기준으로 하거나 일별로 Analytics에 가져옵니다. | [데이터 소스](https://docs.adobe.com/content/help/ko-KR/analytics/import/data-sources/datasrc-home.html) |
 | Adobe Exchange Data Connectors | [Analytics 도구](/help/landing/an-key-concepts.md)를 참조합니다. |  |
@@ -107,7 +107,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](ht
 | App Measurement(s_code) | 전역 변수 관리 | [AppMeasurement](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM 및 Adobe Launch | Analytics 도구를 참조하십시오. |  |
-| VISTA | 수집된 데이터를 변경하거나 세그먼트화하는 서버측 로직을 적용할 수 있습니다. | [VISTA 규칙](https://marketing.adobe.com/resources/help/ko_KR/reference/VISTA.html) |
+| VISTA | 수집된 데이터를 변경하거나 세그먼트화하는 서버측 로직을 적용할 수 있습니다. | [VISTA 규칙](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html) |
 | 처리 규칙 | Analytics UI에서 변수를 설정, 수정 및 복사하여 수집된 데이터를 변경하는 기능. | [처리 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
 | 디버거 옵션 | Adobe Experience Cloud 디버거를 비롯하여 구현의 유효성을 확인하는 데 도움이 될 수 있는 디버거 및 패킷 스니퍼에는 몇 가지가 있습니다. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
 | 데이터 삽입 API | 데이터 삽입 API는 서버측 데이터 수집과 Experience Cloud 서버에 데이터를 제출하기 위한 메커니즘을 제공합니다. 서버측 데이터 수집에서는 각 웹 페이지에서 JavaScript 비콘을 사용하여 방문자 데이터를 Experience Cloud 서버에 전송하는 대신 웹 브라우저 요청과 웹 서버 응답만 기준으로 해서 데이터를 수집합니다. | [POST를 사용하여 Adobe Analytics 데이터 삽입 API를 구현하는 절차](https://helpx.adobe.com/kr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
