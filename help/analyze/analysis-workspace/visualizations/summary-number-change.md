@@ -3,7 +3,7 @@ description: 'null'
 title: 요약 번호 및 요약 변경 사항
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * 셀 범위를 선택하면 범위에서 선택한 첫 번째 셀과 마지막 셀을 비교합니다.
 * 열을 선택하면 첫 번째 값과 자신을 비교하여 0이 표시됩니다.
 * 요약 변경의 녹색 및 빨간색 색상은 다음을 통해 제어할 수 있습니다.
-   * [사용자 지정 이벤트 극성](https://marketing.adobe.com/resources/help/ko_KR/reference/success_event.html)
-   * 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://marketing.adobe.com/resources/help/ko_KR/analytics/calcmetrics/cm_build_metrics.html) 옵션.
+   * [사용자 지정 이벤트 극성](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html)
+   * 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) 옵션.
 
 ## 요약 변경 설정 {#section_2581AC0107634FB4990AB8347E5897AA}
 
