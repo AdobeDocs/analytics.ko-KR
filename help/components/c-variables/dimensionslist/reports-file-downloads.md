@@ -4,7 +4,7 @@ title: 파일 다운로드
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **탐색**
 
-**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 링크]** > **[!UICONTROL 파일 다운로드]**
+**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
 
 이 보고서가 기본 위치에 없을 경우에는 관리자에게 문의하십시오. 관리자가 조직에 맞게 기본 메뉴 구조를 변경했을 수 있습니다.
 
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 사이트에서 글로벌 JavaScript 파일을 찾습니다. [!DNL s_code.js]라는 이름을 많이 사용하지만 다른 이름으로 변경되었을 수도 있습니다. 이름이 변경된 경우는 사이트의 JavaScript 파일에서 값 *`s.account`*&#x200B;를 찾습니다. 이 값은 JavaScript 코드에 들어 있습니다.
 
-1. 이 파일에서 [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 변수를 찾습니다. *true*&#x200B;로 설정되어 있는지 확인합니다.
+1. 이 파일에서 [s.trackDownloadLinks](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/trackdownloadlinks.html) 변수를 찾습니다. *true*&#x200B;로 설정되어 있는지 확인합니다.
 
-1. [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/c_linkdownfiletypes.html) 변수를 찾습니다. 원하는 파일 확장자가 모두 이 목록에 있는지 확인합니다. 필요한 경우 [!DNL .zip].[!DNL .pdf] 등의 누락된 확장자를 추가합니다.
+1. [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html) 변수를 찾습니다. 원하는 파일 확장자가 모두 이 목록에 있는지 확인합니다. 필요한 경우 [!DNL .zip].[!DNL .pdf] 등의 누락된 확장자를 추가합니다.
 
-이러한 변수가 올바르게 구성된 것 같은데도 [!UICONTROL 파일 다운로드 보고서]에서 데이터를 받지 않는 경우는 조직에서 지원되는 사용자가 고객 지원 센터에 문의해야 합니다.
+If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
