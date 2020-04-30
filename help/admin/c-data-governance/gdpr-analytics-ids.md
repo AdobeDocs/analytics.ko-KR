@@ -3,7 +3,7 @@ description: 'null'
 title: 레이블 지정 우수 사례
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -43,14 +43,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   <tr> 
    <td colname="col1"> <p>쿠키 ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/ko_KR/whitepapers/cookies/cookies_analytics.html"> (기존) Analytics 쿠키 </a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> 이전에 MCID(Marketing Cloud ID)로 알려진 ECID(<a href="https://marketing.adobe.com/resources/help/ko_KR/mcvid/">Identity Service 쿠키</a>) </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html"> (기존) Analytics 쿠키 </a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> 이전에 MCID(Marketing Cloud ID)로 알려진 ECID(<a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html">Identity Service 쿠키</a>) </li> 
     </ul> </td> 
    <td colname="col2"> <p>이러한 쿠키는 장치, 그중에서도 장치 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 장치의 경우 이 ID는 장치의 모든 사용자에게 적용될 수 있습니다. Adobe는 사용자가 이러한 쿠키를 데이터 개인 정보 보호 요청에 사용할 수 있도록 하려는 경우 해당 쿠키를 수집하기 위해 웹 사이트에 배치할 수 있는 일부 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">통합 JavaScript</a>를 만들었습니다. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID(Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽는 API 호출이 있으므로, 데이터 개인 정보 보호 요청에 대해 해당 ID를 수집하도록 앱을 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 장치의 ID로 간주합니다. 따라서 이러한 회사에서는 해당 법률팀과 상의하여 데이터 개인 정보 보호 요청에 허용 가능한 ID로 이러한 ID를 사용하는 것을 지원하지 않도록 하거나, 이러한 ID가 사용될 때 매우 제한된 양의 데이터만 반환하도록 하거나, 삭제 요청에 대해서만 수락하도록 할 수 있습니다. </p> <p>이러한 쿠키에는 I2 및 DEL-DEVICE 레이블뿐만 아니라 변경할 수 없는 ID-DEVICE 레이블이 있습니다. 기본 Adobe Analytics 구성은 장치 유형, OS, 브라우저 등과 같은 장치에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 데이터 개인 정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우, 아래 설명된 대로 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인 정보 보호 액세스 요청에 대해 반환하려는 정확한 필드 집합을 구성할 수 있습니다. </p> <p>특히 보고서 세트가 모바일 앱에 해당되고 모바일 앱에 로그인이 필요한 경우에는 장치에 대한 Experience Cloud ID가 특정 사용자에 해당한다고 판단할 수 있으므로 방문한 페이지 이름, 확인한 제품 등을 비롯하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> <p>참고: 데이터 개인 정보 보호 요청에 "expandIds" 옵션을 지정하는 경우 요청에 사용자가 지정한 다른 ID 외에도 항상 쿠키 ID가 포함됩니다. 자세한 내용은 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 확장</a>을 참조하십시오. 이러한 경우 쿠키 ID만 있고 다른 ID는 없는 히트는 액세스 요청의 일부로 데이터 레이블이 지정된 ACC-ALL만 반환합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 지정 변수의 ID </p> </td> 
-   <td colname="col2"> <p>일부 고객은 ID를 <a href="https://marketing.adobe.com/resources/help/ko_KR/sc/implement/props_eVars.html">사용자 지정 트래픽 변수(props) 또는 사용자 지정 전환 변수(eVars)</a>에 배치합니다. 가장 일반적인 것은 CRM ID이지만 이메일 주소, 사용자 로그인 이름, 고객 충성도 번호 또는 이러한 값의 해시를 포함합니다. </p> 
+   <td colname="col2"> <p>일부 고객은 ID를 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/evar.html">사용자 지정 트래픽 변수(props) 또는 사용자 지정 전환 변수(eVars)</a>에 배치합니다. 가장 일반적인 것은 CRM ID이지만 이메일 주소, 사용자 로그인 이름, 고객 충성도 번호 또는 이러한 값의 해시를 포함합니다. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">데이터 개인 정보 보호 요청에 이러한 ID 중 하나를 사용하려면 해당 ID가 포함된 필드에 ID-PERSON 레이블을 지정해야 합니다. </li> 
      <li id="li_94541340B054436297C5565F074413DC">덜 일반적이긴 하지만, 이러한 사용자 지정 변수 중 하나에 있는 ID만 여러 사용자가 공유할 수 있는 장치를 식별하는 경우에는 ID-DEVICE 레이블을 대신 사용할 수 있습니다. </li> 
