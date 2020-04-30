@@ -5,7 +5,7 @@ title: 분류 정보
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 [분석 분류](https://video.tv.adobe.com/v/16853/?captions=kor)의 비디오 개요
 
-**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > *`<Traffic or Conversion>`*
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
 
 분류 시 변수 및 해당 변수와 관련된 메타데이터 간의 관계를 설정하려고 합니다. 분류는 캠페인에서 가장 흔하게 사용됩니다. 변수(eVars, prop 및 이벤트) 정보를 사용하여 수집된 데이터는 변수에서 수집된 값에 메타데이터를 적용하여 롤업할 수 있습니다.
 
 ![단계 정보](assets/sub_class_create.png)
 
-한 번 분류하면, 키 변수를 사용하여 생성할 수 있는 모든 보고서를 연관된 특성을 사용하여 생성할 수 있습니다. 예를 들어 제품 이름, 색상, 크기, 설명 및 SKU와 같은 추가 제품 특성을 사용하여 [!UICONTROL 제품 ID]를 분류할 수 있습니다. 추가 특성을 사용하여 Reports &amp; Analytics 데이터를 늘리면 보다 심도 있고 복잡한 보고 기회를 제공할 수 있습니다.
+한 번 분류하면, 키 변수를 사용하여 생성할 수 있는 모든 보고서를 연관된 특성을 사용하여 생성할 수 있습니다. For example, you can classify [!UICONTROL Product IDs] with additional product attributes, such as product name, color, size, description, and SKU. 추가 특성을 사용하여 Reports &amp; Analytics 데이터를 늘리면 보다 심도 있고 복잡한 보고 기회를 제공할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Reports &amp; Analytics에는 추적 코드 변수를 위해 사전 정의된 분류가 포함되어 있으며, 크리에이티브 요소 및 캠페인이라고 하는 분류 기반 보고서를 제공합니다. 다른 모든 전환 및 트래픽 변수에 대한 분류를 수동으로 구성해야 합니다.
 
-[트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://marketing.adobe.com/resources/help/ko_KR/reference/conversion_classifications.html)를 참조하십시오.
+[트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)를 참조하십시오.
 
 다음 표는 사용 가능한 분류의 다양한 유형과 각 분류를 지원하는 변수 유형을 나타냅니다. 데이터 파일을 업로드하기 전에 [일반 파일 구조](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)의 정보를 검토하십시오.
 
