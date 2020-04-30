@@ -5,7 +5,7 @@ title: 요구 사항 및 업로드 제한
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://marketing.adobe.com/resources/help/ko_KR/reference/new_report_suite.html"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Byte Order Mark(EF BB BF)를 포함한 UTF-8 </td> 
