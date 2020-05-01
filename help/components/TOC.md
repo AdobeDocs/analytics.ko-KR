@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -35,8 +35,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Data Warehouse 세그먼트 기능](c-segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](c-segmentation/seg-reference/seg-rights.md)
       + [문제 해결](c-segmentation/seg-reference/c-troubleshooting.md)
-   + 사용 사례 {#use-cases}
-      + [특정 날짜 제외](c-segmentation/use-cases/exclude-date-range.md)
    + [FAQ](c-segmentation/seg-transition.md)
    + [Analytics 세그멘테이션의 새로운 기능](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis를 위한 전환 안내서](c-segmentation/seg-transition-ad-hoc.md)
@@ -64,7 +62,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [지표 호환성](c-calcmetrics/cm-compatibility.md)
       + [계산된 지표: 역할 기반 권한](c-calcmetrics/cm-role-based-rights.md)
       + [계산된 지표 합계](c-calcmetrics/cm-totals.md)
-   + [이벤트의 영향을 받는 데이터 추출](c-calcmetrics/cm-events.md)
    + [FAQ](c-calcmetrics/cm-transition.md)
    + [방법 비디오](c-calcmetrics/cm-videos.md)
 + 가상 보고서 세트 {#virtual-report-suites}
