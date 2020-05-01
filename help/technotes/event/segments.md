@@ -2,7 +2,7 @@
 title: 분석에서 특정 날짜 제외
 description: 보고서에 날짜 또는 날짜 범위를 포함시키지 않으려는 경우 제외하기 위한 팁입니다.
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 표 또는 시각화에 0을 표시하지 않으려면(dips 발생) 열 설정에서 **[!UICONTROL Interpret zero as no value]** 활성화합니다.
 
-![해석 0](../assets/interpret_zero.png)
+![해석 0](assets/interpret_zero.png)
 
 ### 프로젝트에 제외 세그먼트 적용
 
