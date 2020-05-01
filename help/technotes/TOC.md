@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 기술 노트
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ea1927827c0615b085a440bc86116b438594e448
+source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
 
@@ -26,9 +26,12 @@ source-git-commit: ea1927827c0615b085a440bc86116b438594e448
       + [전환](ga-to-aa/reports/conversions-reports.md)
    + [FAQ](ga-to-aa/faq.md)
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
-+ [이벤트의 영향을 받는 데이터 분석](event-impacted.md)
 + 이벤트의 영향을 받는 데이터 분석 {#event}
-   + [사용자에게 미치는 영향 전달](event/event-communicate.md)
+   + [이벤트 개요의 영향을 받는 데이터 분석](event/overview.md)
+   + [분석에서 특정 날짜 제외](event/segments.md)
+   + [날짜를 이전 범위와 비교](event/compare-dates.md)
+   + [이벤트의 영향을 받는 데이터 가져오기](event/calcmetrics.md)
+   + [사용자에게 이벤트 전달](event/communicate.md)
 + [브라우저 쿠키](cookies.md)
 + [데이터 보존](data-retention.md)
 + [지연](latency.md)
