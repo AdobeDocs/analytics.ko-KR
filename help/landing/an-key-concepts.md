@@ -2,7 +2,7 @@
 description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 title: Adobe Analytics - 주요 개념
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 제품 | 설명 | 설명서 링크 |
 |--- |--- |--- |
-| Analysis Workspace | 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여주기 위한 브라우저 솔루션입니다. Reports &amp; Analytics보다 더 많은 보고서 유연성을 제공합니다. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Analysis Workspace | 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여주기 위한 브라우저 솔루션입니다. Reports &amp; Analytics보다 더 많은 보고서 유연성을 제공합니다. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Reports &amp; Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션. Analytics 패키지의 초급자 도구입니다. | [Reports &amp; Analytics 홈](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Adobe Analytics 데이터에서 사용자 지정 요청을 작성하고 Microsoft Excel을 사용하여 이 요청을 시각화할 수 있는 Excel 추가 기능입니다. | [Report Builder 홈](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석용 Java 기반 도구입니다. | [Ad Hoc Analysis 홈](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
