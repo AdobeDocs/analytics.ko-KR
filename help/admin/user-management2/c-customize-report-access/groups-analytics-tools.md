@@ -6,7 +6,7 @@ title: Analytics 도구 권한 사용자 지정
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -58,7 +58,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Ad Hoc Analysis 라이선스 사용자](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Grants permission to access [!UICONTROL Ad Hoc Analysis]. |
 | 웹 서비스 액세스 | 관리자가 아닌 사용자에 대한 웹 서비스 액세스를 활성화합니다. 웹 서비스 자격 증명을 생성합니다. |
 | [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Grants members of this group access to [!UICONTROL Report Builder] licenses. |
-| [Analysis Workspace 액세스](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) | [!DNL Adobe Analytics]에 대한 권장 보고 인터페이스인 Analysis Workspace에 액세스할 권한을 사용자에게 부여합니다. |
+| [Analysis Workspace 액세스](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) | [!DNL Adobe Analytics]에 대한 권장 보고 인터페이스인 Analysis Workspace에 액세스할 권한을 사용자에게 부여합니다. |
 | [Reports &amp; Analytics](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | 사용자에게 Reports &amp; Analytics에 액세스할 권한을 부여합니다. |
 | [계산된 지표 생성](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/cm-overview.html) | 사용자에게 계산된 지표를 생성할 권한을 부여합니다. |
 | [세그먼트 생성](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html) | 사용자에게 세그먼트를 생성할 권한을 부여합니다. |
