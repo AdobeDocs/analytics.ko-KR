@@ -5,7 +5,7 @@ title: Workspace 프로젝트 만들기
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
 
    * 그런 다음 **[!UICONTROL Create]**&#x200B;또는
-   * 간단하게 **[!UICONTROL Enter]**&#x200B;클릭합니다.
+   * 클릭만으로 가능합니다 **[!UICONTROL Enter]**.
    자유 형식 패널과 데이터 테이블 시각화를 보여주는 빈 프로젝트가 표시됩니다.
 
    ![](assets/fa_project_new.png)
@@ -185,7 +185,7 @@ The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > 트렌드 선택</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > 트렌드 선택</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
