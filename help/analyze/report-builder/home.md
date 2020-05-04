@@ -3,7 +3,7 @@ title: Adobe Report Builder 도움말
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -51,6 +51,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## Reports &amp; Analytics 도움말
 
-* [Analysis Workspace 도움말](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Analysis Workspace 도움말](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
 * [Reports &amp; Analytics 도움말](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html)
 * [Analytics 참조](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html) 관리 도구, 보고서 및 지표에 대한 도움말입니다.
