@@ -3,7 +3,7 @@ description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Bu
 title: Analytics 제품 비교 및 요구 사항
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
  <tbody> 
   <tr> 
    <td> <b>제품 이름 및 도움말 링크</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> Analysis Workspace </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Analysis Workspace </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/ad-hoc-analysis/adhoc-home.html"> Ad Hoc Analysis </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html"> Report Builder </a> </td> 
@@ -108,7 +108,7 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>향상된 시각화 옵션</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> 예 </a> </td> 
    <td> 아니오 </td> 
    <td> 예 </td> 
    <td> 예 </td> 
@@ -117,7 +117,7 @@ Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Da
   </tr> 
   <tr> 
    <td> <b>사용자 지정 가능한 레이아웃</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html"> 예 </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> 예 </a> </td> 
    <td> 예 - <a href="https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html">대시보드 </a> </td> 
    <td> 아니오 </td> 
    <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/configure-the-custom-layout.html"> 예 </a> </td> 
