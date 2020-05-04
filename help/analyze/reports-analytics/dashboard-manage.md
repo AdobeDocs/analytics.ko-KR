@@ -5,7 +5,7 @@ title: 대시보드 관리자
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 기존의 이전 대시보드는 계속 실행되고, 여전히 편집, 다운로드 및 예약할 수 있지만, 더 이상 새로운 이전 버전의 대시보드를 만들 수는 없습니다. 기존의 대시보드는 최신 대시보드 형식으로 업그레이드하는 것이 좋습니다.
 
->[!NOTE] 계속 진행하여 [Analysis Workspace 프로젝트](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html)와 다운로드 및 예약할 기능을 사용해 보십시오.
+>[!NOTE] 계속 진행하여 [Analysis Workspace 프로젝트](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)와 다운로드 및 예약할 기능을 사용해 보십시오.
 
 기존 대시보드를 복사할 때 시스템은 기존 컨텐츠 또는 새 컨텐츠를 추가할 수 있도록 편집 가능한 기존 대시보드가 열립니다. 기존 대시보드를 복사할 경우 기존 대시보드 목록에 원본이 그대로 유지됩니다.
 
@@ -79,7 +79,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 **버전 14.x의 기존 대시보드를 마이그레이션하려면**
 
 1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. 열의 아래에서 을 [!UICONTROL Manage] 클릭합니다 [!UICONTROL Legacy Dashboards]**[!UICONTROL Copy to New Dashboard]**.
+1. 열에서 아래 [!UICONTROL Manage] 를 [!UICONTROL Legacy Dashboards]클릭합니다 **[!UICONTROL Copy to New Dashboard]**.
 
    복사한 대시보드가 대시보드 레이아웃 편집기에서 열립니다.
 
@@ -89,10 +89,10 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 관리자가 여러 사용자에게 대시보드를 공유(또는 전달)할 수 있는 방법을 설명하는 단계입니다. When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
 
-1. 에서 [!UICONTROL Dashboard Manager]대시보드를 찾은 다음 활성화합니다 **[!UICONTROL Shared]**.
+1. 에서 대시보드 [!UICONTROL Dashboard Manager]를 찾은 다음 활성화합니다 **[!UICONTROL Shared]**.
 1. 클릭 **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
-1. 페이지에서 타겟 사용자를 [!UICONTROL Push Dashboard] 선택하거나 을 클릭합니다 **[!UICONTROL Check All]**.
+1. 페이지에서 [!UICONTROL Push Dashboard] 대상 사용자를 선택하거나 을 클릭합니다 **[!UICONTROL Check All]**.
 1. 클릭 **[!UICONTROL Save]**.
 
 If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. 이 옵션을 선택한 사용자는 다른 사용자가 수행한 업데이트/변경 사항을 볼 수 없습니다. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
@@ -117,4 +117,4 @@ In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is schedu
 1. 그룹에서 [!UICONTROL Email Report] 활성화합니다 **[!UICONTROL Archive]**.
 1. Specify delivery options, then click **[!UICONTROL Send]**.
 
-   대시보드 관리자에서 보관된 대시보드를 볼 수 있습니다. 또는 대시보드를 열고 **[!UICONTROL More]** > 를 클릭합니다 **[!UICONTROL View Archive]**.
+   대시보드 관리자에서 보관된 대시보드를 볼 수 있습니다. 또는, 대시보드를 열고 **[!UICONTROL More]** >을 클릭합니다 **[!UICONTROL View Archive]**.
