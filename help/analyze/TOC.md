@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 ---
 
@@ -13,8 +13,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 + [Analytics 툴 안내서](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace 기능](analysis-workspace/analysis-workspace-features.md)
-   + [Analysis Workspace 도움말](analysis-workspace/home.md)
+   + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [Analysis Workspace 활용 사례](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
    + Workspace 프로젝트 작성 {#build-workspace-project}
