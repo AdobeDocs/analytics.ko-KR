@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -18,27 +18,27 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 기능 | 설명 |
 |--- |--- |
-| 빈 [!UICONTROL Freeform Tables] 상태에서 자동 빌드 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| 빈 상태 [!UICONTROL Freeform Tables] 에서 자동으로 빌드 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
 
 ## 2020년 3월
 
-202 파섹
+2020년 3월 12일 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
 | 작업 공간에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와 나란히 볼 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| 교육 자습서 템플릿 | 이 새로운 표준 템플릿은 작업 공간에서 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [추가 정보...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 교육 자습서 템플릿 | 이 새로운 표준 템플릿은 작업 공간에서 첫 번째 분석을 작성하기 위한 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [추가 정보...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020년 2월
 
-2020년 2월 20일에 릴리스된 새로운 기능
+2020년 2월 20일 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
-| 크로스 디바이스 분석을 사용하는 조직을 위한 새로운 작업 영역 템플릿 | 이 템플릿에서는 CDA가 방문 횟수를 합치는 데 얼마나 효과적인지를 보여주며 CDA 전용 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 장치 Analytics 설정](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-setup.html)을 참조하십시오. |
+| 장치 간 분석을 사용하는 조직을 위한 새로운 작업 공간 템플릿 | 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여주며 CDA를 제외한 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 장치 Analytics 설정](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-setup.html)을 참조하십시오. |
 | Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| 기타 작업 영역 개선 사항 | <ul><li>패널이나 시각화를 작업 영역으로 가져오면 왼쪽 레일이 구성 요소로 자동 전환되어 보다 매끄러운 작업 과정이 이루어집니다.</li><li>이제 템플릿 구성 요소에 액세스할 수 있습니다(예: 태그, 즐겨찾기, 승인).</li><li>필터링된 지표 및 세그먼트 목록은 + 단추를 제공하여 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가합니다.</li></ul> |
-| 작업 영역 디버거 | Workspace 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 기타 작업 영역 개선 사항 | <ul><li>패널이나 시각화를 작업 영역으로 가져오면 왼쪽 레일이 구성 요소로 자동 전환되어 보다 매끄러운 작업 과정을 진행할 수 있습니다.</li><li>이제 템플릿 구성 요소에 액세스할 수 있습니다(예: 태그, 즐겨찾기, 승인).</li><li>필터링된 지표 및 세그먼트 목록은 + 단추를 제공하여 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가합니다.</li></ul> |
+| 작업 공간 디버거 | Workspace 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020년 1월
 
@@ -54,9 +54,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 자유 형식 테이블 합계 업데이트 | 이제 자유 형식 테이블에 두 개의 합계, **[!UICONTROL Table total]** a와 **[!UICONTROL Grand total]** a가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세한](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>내용 **[!UICONTROL Show Totals]** 및 **[!UICONTROL Show Grand Total]** 옵션이 에 추가되었습니다 **[!UICONTROL Column Settings]**.<br/>자유 형식 합계가 변경되면 종속 시각화(예: 연결된 **[!UICONTROL Summary Number]** 시각화)와 내보낸 CSV 및 PDF 데이터가 업데이트됩니다. |
+| 자유 형식 테이블 합계 업데이트 | 이제 자유 형식 테이블에 두 개의 합계, a와 **[!UICONTROL Table total]** 가 **[!UICONTROL Grand total]**&#x200B;포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세한](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>내용 **[!UICONTROL Show Totals]** 과 **[!UICONTROL Show Grand Total]** 옵션이 **[!UICONTROL Column Settings]**&#x200B;추가되었습니다.<br/>자유 형식 합계에 이 변경 사항이 적용되면 종속 시각화는 내보낸 CSV 및 PDF 데이터뿐만 아니라(예: 연결된 **[!UICONTROL Summary Number]** 시각화) 업데이트됩니다. |
 | 지정되지 않음/없음 제거 옵션 | 다음 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
-| 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL Time]** 섹션도 **[!UICONTROL Date Ranges]**&#x200B;로 이름이 변경되었습니다. |
+| 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이러한 변경 사항으로 자주색 **[!UICONTROL Time]** 섹션도 이름이 변경되었습니다 **[!UICONTROL Date Ranges]**. |
 
 ## 2019월 8일
 
@@ -682,7 +682,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>텍스트 상자 시각화 및 패널 / 시각화 설명 내의 글꼴 설정(굵기, 기울임체 등)과 하이퍼링크를 변경할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > 인트라 링크(빠른 시각화 링크) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > 인트라 링크(빠른 시각화 링크) </a></b> </p> </td> 
    <td colname="col2"> <p><b>인트라 링크</b>를 사용하면 프로젝트 목차를 작성하는 것처럼 텍스트 상자에서 프로젝트 내의 특정 패널 및 시각화에 연결할 수 있습니다. 프로젝트 링크를 공유하는 것처럼 이 링크를 공유하여 프로젝트 내의 특정 시각화 또는 패널을 다른 사람에게 표시할 수 있습니다. 마우스 오른쪽 버튼으로 클릭하는 새로운 선택 사항인 "패널 링크 가져오기" 및 "시각화 링크 가져오기"가 추가되었습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -973,12 +973,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 2016년 6월 16일 릴리스된 새로운 기능:
 
-* [관리자가 사용자에 대해 >](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html) 탭에 대한 액세스를 허용하거나 거부할 수 있는 새 그룹 권한 **[!UICONTROL Analytics]** **[!UICONTROL Workspace]** . 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
+* [관리자가 사용자에 대한](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html) > **[!UICONTROL Analytics]** **[!UICONTROL Workspace]** 탭 액세스를 허용하거나 거부할 수 있는 새로운 그룹 권한 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
 * The [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형
-* 이제 등급 테이블의 [트렌드 선택](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)(선 차트)가 연결됩니다.
+* 이제 등급 테이블의 [트렌드 선택](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)(선 차트)가 연결됩니다.
 * [&quot;시각화 만들기&quot; 아이콘](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 이 아이콘을 클릭하면 다음 작업 시 지능적인 추측이 제공됩니다(막대 차트, 벤...).
 * 확장된 [수동 행](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 기능
 * [세그먼트 추가](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) 드롭 영역
@@ -1042,7 +1042,7 @@ To undo, click **[!UICONTROL Undo]** from the action menu.
 
 실행 취소할 수 없는(*`not`*) 작업:
 
-* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). 그러나 클릭 **[!UICONTROL Undo]** 후 클릭할 수 **[!UICONTROL Run]**&#x200B;있습니다.
+* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). 그러나 클릭한 **[!UICONTROL Undo]** 후 클릭할 수 있습니다 **[!UICONTROL Run]**.
 
 * 패널 및 하위 패널 크기 조정 또는 이동
 
@@ -1095,7 +1095,7 @@ When editing an existing (saved) segment the Analysis Workspace Segment Builder,
 
 The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL Components] panel.
 
-*`Save As`* 를 [!UICONTROL Calculated Metric Builder] 및 에 사용할 수도 [!UICONTROL Date Range Builder]있습니다.
+*`Save As`* 및 [!UICONTROL Calculated Metric Builder] 에 대해서도 사용할 수 있습니다 [!UICONTROL Date Range Builder].
 
 ## 새 세그먼트 추가 단추 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
@@ -1147,13 +1147,13 @@ In the [!UICONTROL Dimensions] component panel, you can hover over the informati
 
 ## 범례 표시 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-이 [!UICONTROL Visualization Settings] **[!UICONTROL Legend Visible]** 옵션에서 시각화의 범례를 표시하거나 숨깁니다.
+이 옵션 [!UICONTROL Visualization Settings] **[!UICONTROL Legend Visible]** 에서 시각화의 범례를 표시하거나 숨깁니다.
 
 ![](assets/legend-visible.png)
 
 ## Y축 0에 연결 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-라인 및 영역 차트에 대한 숫자가 무엇인지에 따라 Y축의 밑면이 0이 아닐 수 있습니다. Y축을 **[!UICONTROL Anchor Y Axis at Zero]** 0으로 [!UICONTROL Visualization Settings] 설정하면 트렌드를 보다 정확하게 파악할 수 있습니다. 다음 예에서는 이러한 설정의 활성화 여부에 따라 매출 차트가 달라지는 방식을 보여줍니다.
+라인 및 영역 차트에 대한 숫자가 무엇인지에 따라 Y축의 밑면이 0이 아닐 수 있습니다. Y축 **[!UICONTROL Anchor Y Axis at Zero]** 을 [!UICONTROL Visualization Settings] 0으로 강제 설정하면 트렌드를 보다 정확하게 파악할 수 있습니다. 다음 예에서는 이러한 설정의 활성화 여부에 따라 매출 차트가 달라지는 방식을 보여줍니다.
 
 **Y축 0에 연결 비활성화**
 
@@ -1171,4 +1171,4 @@ In the [!UICONTROL Dimensions] component panel, you can hover over the informati
 
 관리자는 사용자 간에 [!UICONTROL Analysis Workspace] 프로젝트를 전송할 수 있습니다.
 
-> **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** 로 이동하여 프로젝트를 전송합니다.
+프로젝트를 전송하려면 **[!UICONTROL Admin]** > **[!UICONTROL User Management]****[!UICONTROL Transfer]** 로 이동합니다.
