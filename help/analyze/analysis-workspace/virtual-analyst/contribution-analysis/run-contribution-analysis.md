@@ -3,7 +3,7 @@ description: 'null'
 title: 기여도 분석 실행
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 1. 이제 기여도 분석은 Analysis Workspace의 일부이므로 다음과 같이 표의 마우스 오른쪽 단추 클릭 메뉴에 있는 많은 기능을 사용하여 분석을 훨씬 더 의미 있게 할 수 있습니다. 
 
    * [각 차원 항목을 다른 차원으로 분석](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [하나 이상의 행에 대한 트렌드 표시](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [하나 이상의 행에 대한 트렌드 표시](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [새 시각화 추가](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [경고 만들기 ](/help/components/c-alerts/intellligent-alerts.md)
    * [세그먼트 만들기 또는 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -55,7 +55,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 기여도 분석에서 일부 차원을 제외하고자 하는 경우가 있을 수 있습니다. 예를 들어, 브라우저 또는 하드웨어와 관련된 차원을 전혀 고려하지 않을 수 있으며, 이를 제거하여 분석 속도를 높이고 싶을 수도 있습니다.
 
-1. 라인 차트에서 **[!UICONTROL Run Contribution Analysis]** 또는 **[!UICONTROL Analyze]** 을 클릭하면 **[!UICONTROL Excluded Dimensions]** 패널이 표시됩니다.
+1. 라인 차트 **[!UICONTROL Run Contribution Analysis]** 에서 또는 **[!UICONTROL Analyze]** 을 클릭하면 **[!UICONTROL Excluded Dimensions]** 패널이 표시됩니다.
 
 1. 원하지 않는 크기를 **[!UICONTROL Excluded Dimensions]** 패널로 드래그한 다음 클릭하여 목록을 저장합니다 **[!UICONTROL Set as Default]**. Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
 
