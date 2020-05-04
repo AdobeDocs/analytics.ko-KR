@@ -2,7 +2,7 @@
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -19,9 +19,9 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. He
 
 [![구성 요소](assets/components_50px.png)](/help/components/home.md) [구성 요소 안내서](/help/components/home.md) – 데이터를 구성하는 데 도움이 되는 기능을 이해합니다. 구성 요소에는 세그먼트, 계산된 지표, 가상 보고서 세트, 경고 등이 포함됩니다. 이 안내서에는 사용 가능한 모든 차원 및 지표를 설명하는 변수 참조도 포함되어 있습니다.
 
-[![내보내기](assets/export_50px.png)](/help/export/home.md)[가이드](/help/export/home.md) - Adobe Analytics에서 데이터 내보내기:원시 데이터의 시간별 또는 일별 내보내기를 받는 [!UICONTROL Data Feeds] 데 사용합니다. Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
+[![내보내기](assets/export_50px.png)](/help/export/home.md)[가이드](/help/export/home.md) - Adobe Analytics에서 데이터 내보내기: 원시 데이터 [!UICONTROL Data Feeds] 의 시간별 또는 일별 내보내기를 받는 데 사용합니다. Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
 
-[![가져오기](assets/import_50px.png)](/help/import/home.md) [가져오기 안내서](/help/import/home.md) – 외부 소스에서 Analytics로 데이터를 대량으로 또는 실시간으로 가져옵니다. 포함 [!UICONTROL Data Sources]및 [!UICONTROL Data Insertion API]를 [!UICONTROL Data Connectors]포함합니다.
+[![가져오기](assets/import_50px.png)](/help/import/home.md) [가져오기 안내서](/help/import/home.md) – 외부 소스에서 Analytics로 데이터를 대량으로 또는 실시간으로 가져옵니다. 포함 [!UICONTROL Data Sources], [!UICONTROL Data Insertion API]및 [!UICONTROL Data Connectors]Type
 
 [![통합](assets/integrate_50px.png)](/help/integrate/home.md) [통합 안내서](/help/integrate/home.md) – Audience Manager, Advertising Cloud 및 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 
@@ -41,7 +41,7 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. He
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
