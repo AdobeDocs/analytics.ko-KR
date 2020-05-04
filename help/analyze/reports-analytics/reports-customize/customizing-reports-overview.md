@@ -4,7 +4,7 @@ title: 보고서 사용자 지정 개요
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -64,7 +64,7 @@ t_reports_select_date.xml
    * 날짜에서 커서를 드래그하여 범위를 선택합니다.
    * 날짜를 수동으로 입력합니다.
    * 달 이름을 클릭하여 달을 선택합니다.
-   * 사전 설정 날짜를 **[!UICONTROL Select Preset]** 클릭하여 선택합니다.
+   * 사전 설정 날짜 **[!UICONTROL Select Preset]** 를 클릭하여 선택합니다.
    * 날짜 비교.
 
 1. 클릭 **[!UICONTROL Run Report]**.
@@ -121,7 +121,7 @@ t_reports_normalize.xml
 **보고서 데이터를 정규화하려면**
 
 1. 날짜 비교를 지원하는 보고서를 실행합니다
-1. 을 **[!UICONTROL Compare Dates]**&#x200B;클릭한 다음 날짜 비교를 지정합니다.
+1. 을 **[!UICONTROL Compare Dates]**&#x200B;클릭하고 날짜 비교를 지정합니다.
 1. 클릭 **[!UICONTROL Run Report]**.
 1. 클릭 **[!UICONTROL Normalize Data: Yes]**.
 
@@ -135,7 +135,7 @@ t_reports_select_page.xml
 
  -->
 
-1. 보고서(예: a [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**)를 생성합니다.
+1. 보고서(예: [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**)를 생성합니다.
 1. Click the **[!UICONTROL Selected Page]** link.
 1. On [!UICONTROL Choose Page], select the pages you want to display.
 1. 페이지를 찾습니다.
@@ -202,7 +202,7 @@ t_reports_day_of_week.xml
 이 기능은 날짜 범위가 주 또는 일인 트렌드 보고서에만 적용됩니다.
 
 1. 지정된 날짜 범위에서 추세 보고서를 실행합니다.
-1. 링크를 클릭한 다음 요일을 **[!UICONTROL Day of Week]** 클릭합니다.
+1. 링크를 **[!UICONTROL Day of Week]** 클릭한 다음 요일을 클릭합니다.
 
 ## &#39;작업 공간에서 시도&#39; 버튼 {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
@@ -218,4 +218,4 @@ Reports &amp; Analytics의 대부분의 보고서에는 이후의 사용자 지�
 
 현재 이 버튼은 사용자가 Analysis Workspace에 대한 모든 권한을 보유하는 경우에만 사용할 수 있습니다.
 
-보고서를 사용자 지정할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) 가이드를 참조하십시오.
+보고서를 사용자 지정할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) 가이드를 참조하십시오.
