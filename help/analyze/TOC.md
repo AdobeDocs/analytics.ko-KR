@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
@@ -327,8 +327,8 @@ source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
    + [시간](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 개요](tech-previews/overview.md)
-+ dashboards {#mobapp}
-   + [대시보드 개요](mobile-app/home.md)
++ Adobe Analytics 대시보드 {#mobapp}
+   + [Adobe Analytics 대시보드 개요](mobile-app/home.md)
    + [큐레이터 가이드](mobile-app/curator.md)
    + [경영진 빠른 시작 가이드](mobile-app/executive.md)
 + 점진적 웹 앱 {#pwa}
