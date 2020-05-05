@@ -1,13 +1,13 @@
 ---
-title: 대시보드 개요
+title: Adobe Analytics 대시보드 - 개요
 description: Adobe Analytics 대시보드에 대한 제품 설명서 및 자체 도움말
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 ---
 
 
-# Adobe Analytics 대시보드 개요
+# Adobe Analytics 대시보드 - 개요
 
 >[!IMPORTANT]
 >
