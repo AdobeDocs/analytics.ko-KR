@@ -4,16 +4,19 @@ title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 98%
 
 ---
 
 
 # Analysis Workspace 개요
 
-Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 제한이 적용되지 않습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 비교하고, 플로우 및 폴아웃 분석을 하고, 회사 동료와 공유할 보고서를 조정 및 예약하십시오.
+Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 제한이 적용되지 않습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 비교하고, 플로우 및 폴아웃 분석을 하고, 회사 동료와 공유할 보고서를 조정 및 예약하십시오. 고급 기능에는 기여도 IQ,
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**
 
 ## 개요 비디오
 
@@ -59,7 +62,7 @@ Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace
    ![](assets/intra-linking1.png)
 
 1. 해당 패널 또는 시각화로 스크롤하고 패널의 헤더를 마우스 오른쪽 버튼으로 클릭합니다.
-1. 아래로 스크롤하고 **[!UICONTROL Get Panel Link]** 또는 **[!UICONTROL Get Visualization Link]**&#x200B;다음을 선택합니다.
+1. 아래로 스크롤하여 **[!UICONTROL 패널 링크 가져오기]** 또는 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 선택하십시오.
 
    ![](assets/intra-linking2.png)
 
@@ -67,11 +70,11 @@ Analysis Workspace의 [리치 텍스트 편집](/help/analyze/analysis-workspace
 
 프로젝트 내에서 패널 또는 시각화가 축소된 경우 링크를 클릭하면 패널/시각화가 확장되어 사용자가 볼 수 있습니다.
 
->[!NOTE] 마우스 오른쪽 단추 클릭 옵션 내에서 이 기능을 사용할 수도 **[!UICONTROL Edit Description]** 있습니다.
+>[!NOTE] 이 기능은 **[!UICONTROL 설명 편집]** 오른쪽 클릭 선택 사항에서 사용할 수도 있습니다.
 
 ## 기타 프로젝트에 대한 링크
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+예를 들어, **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 링크 가져오기]**&#x200B;로 이동하여 이 링크를 프로젝트 설명에 포함시키면 사용자가 관심이 있는 기타 프로젝트에 사용자를 연결할 수 있습니다.
 
 ## 선택한 셀의 다이내믹 시각화
 
@@ -89,7 +92,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 선택한 셀에서 트렌드 시각화
 
-선택한 셀에서 시각화를 만들어 보십시오. (마우스 오른쪽 단추 클릭 > **[!UICONTROL Trend Selection]**.)
+선택한 셀에서 시각화를 만들어 보십시오. 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 트렌드 선택]**&#x200B;을 선택합니다.
 
 ![](assets/trend-selection.png)
 
@@ -130,7 +133,7 @@ Analysis Workspace에서 프로젝트 및 구성 요소에 태그를 적용할 �
 
 ## 구성 요소 작업
 
-구성 요소 왼쪽 레일의 위쪽에 있는 작업 메뉴에서 구성 요소 수준의 작업을 수행합니다. Select a component and click **[!UICONTROL Actions]** to view the actions.
+구성 요소 왼쪽 레일의 위쪽에 있는 작업 메뉴에서 구성 요소 수준의 작업을 수행합니다. 구성 요소를 선택하고 **[!UICONTROL 작업]**&#x200B;을 클릭하여 작업을 봅니다.
 
 | 구성 요소 작업 | 설명 |
 |--- |--- |
