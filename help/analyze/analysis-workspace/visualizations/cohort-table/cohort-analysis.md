@@ -4,7 +4,10 @@ title: 집단 분석이란?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 >[!IMPORTANT]
 >
->집단 분석은 계산된 지표를 지원하지 않습니다.
+>집단 분석은 계산된 지표, 정수가 아닌 지표 또는 발생과 같이 세그먼트화할 수 없는 지표를 지원하지 [!UICONTROL 않습니다]. 세그먼트에서 사용할 수 있는 지표만 집단 분석에서 사용할 수 있으며 한 번에 1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
 
