@@ -2,7 +2,10 @@
 title: 타사 분석 플랫폼에서 Adobe Analytics로 전환
 description: Google Analytics 같은 다른 플랫폼에 익숙한 사용자에 초점을 맞춰, 보고서를 얻기 위한 주요 개념을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +21,7 @@ Adobe Analytics에는 Adobe Experience Cloud에 로그인한 후 기본 보고�
 * **Reports &amp; Analytics**&#x200B;는 기본 보고서를 가져오는 이전 방법입니다. 왼쪽 메뉴에 미리 작성된 보고서 목록이 표시되어 사용자가 원하는 보고서를 탐색하고 데이터를 가져올 수 있습니다. 세그먼트와 지표는 추가 사용자 지정을 제공할 수 있습니다. Google Analytics 보고서를 사용한 적이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
 * **Analysis Workspace**&#x200B;는 현재 대부분의 보고서를 가져오는 데 권장되는 방법입니다. 왼쪽 메뉴를 사용하여 사용자는 구성 요소를 끌어 놓아 자신의 보고서를 작성할 수 있습니다. 이렇게 하면 훨씬 자유롭게 정확한 보고 요구 사항을 충족할 수 있습니다. Google Analytics 대시보드 및 사용자 지정 보고서를 만든 경험이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
 
-대부분의 보고서는 Reports &amp; Analytics와 Analysis Workspace 모두에서 만들 수 있습니다. 그러나 일부 보고서는 한 플랫폼 또는 다른 플랫폼을 사용해서만 가져올 수 있습니다. 특정 기능을 Reports &amp; Analytics에서만 사용할 수 있는 경우가 아니라면 대부분 Analysis Workspace를 사용하는 것이 좋습니다.
+Most reports can be created in both [!UICONTROL Reports &amp; Analytics] and [!UICONTROL Analysis Workspace]. 그러나 일부 보고서는 한 플랫폼 또는 다른 플랫폼을 사용해서만 가져올 수 있습니다. In most cases, Adobe recommends using [!UICONTROL Analysis Workspace], unless a specific feature is only available in [!UICONTROL Reports &amp; Analytics].
 
 ## 권장 학습 경로
 
@@ -26,7 +29,7 @@ Adobe Analytics에는 Adobe Experience Cloud에 로그인한 후 기본 보고�
 
 * [GA 사용자를 위한 Analysis Workspace에서 기본 보고서 만들기](reports/create-report.md)
 
-Analysis Workspace의 구성 요소를 잘 알고 있으면 올바른 구성 요소를 사용하여 대부분의 보고서를 다시 만드는 방법을 배울 수 있습니다.
+Once you are familiar with components in [!UICONTROL Analysis Workspace], you can learn how to recreate most reports using the right components.
 
 * [Adobe Analytics에서 실시간 보고서 만들기](reports/realtime-reports.md)
 * [Adobe Analytics에서 대상 보고서 만들기](reports/audience-reports.md)
