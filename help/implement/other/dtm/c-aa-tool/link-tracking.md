@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 링크 추적
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Analytics를 배포할 때 링크 추적을 위한 Dynamic Tag Management 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]**> **[!UICONTROL![](assets/settings_gear.png)
-
-편집 도구]** > **[!UICONTROL 링크 추적]**
+**[!UICONTROL 속성]** > ![톱니바퀴 아이콘](assets/settings_gear.png) **[!UICONTROL 편집 도구]** > **[!UICONTROL 링크 추적]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
