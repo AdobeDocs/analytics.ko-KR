@@ -2,7 +2,10 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +32,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 2. 원하는 속성을 클릭합니다.
 3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
 4. [!UICONTROL 일반] 아코디언을 확장합니다. 그러면 [!UICONTROL 통화 코드] 필드가 표시됩니다.
+
+사전 설정된 통화 코드나 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
+
+## Adobe Experience Platform Mobile SDK의 통화 코드
+
+통화 코드는 Adobe Analytics 확장 기능의 컨텍스트 데이터 변수를 통해 Adobe Experience Platform Mobile SDK로 전달됩니다.
+
+1. 또는 중에 컨텍스트 데이터 변수에 통화 코드를 `trackState` 설정합니다 `trackAction`.
+2. 보고서 세트에 대한 Adobe Analytics 관리 콘솔에서 처리 규칙을 만듭니다. 통화 코드 변수를 덮어쓰도록 규칙을 설정합니다.
+3. 통화 코드를 호출에서 또는 `products` 으로 변수에 `trackState` 전달합니다 `trackAction`.
 
 사전 설정된 통화 코드나 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
 
