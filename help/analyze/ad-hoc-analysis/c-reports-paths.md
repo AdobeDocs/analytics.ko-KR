@@ -3,7 +3,7 @@ description: 웹 사이트 페이지에 액세스하는 순서에 대한 정보�
 title: 경로 보고서
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
