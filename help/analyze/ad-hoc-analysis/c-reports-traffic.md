@@ -3,7 +3,7 @@ description: 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 
 title: 트래픽 소스 보고서
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **공통 지속성**
 
-In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. 이전에는 키워드와 참조 도메인만 지속되었습니다. 예를 들어 방문자가 Google 검색을 통해 $100의 구매를 위해 사이트로 가져오는 &quot;DVD&quot;를 수행하는 경우 보고서는 $100 크레딧을 키워드 &quot;DVD&quot;와 Google 검색 엔진에도 할당합니다. 이 기능은 [!DNL Admin Console] 설정에 관계 없이 변경되지 않습니다.
+[!UICONTROL 트래픽 소스]에서는 덮어쓰기 또는 방문 종료 중 먼저 발생하는 시점까지 모든 보고서 값이 지속되고 크레딧을 받습니다. 이전에는 키워드와 참조 도메인만 지속되었습니다. 예를 들어 방문자가 &quot;DVD&quot;에 대한 Google 검색을 수행하여 $100를 구매하면 $100 크레딧을 키워드 &quot;DVD&quot;와 Google 검색 엔진에 할당합니다. 이 기능은 [!DNL Admin Console] 설정에 관계 없이 변경되지 않습니다.
 
 ## 검색 키워드 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Search Keywords - All]**: 사이트를 찾는 데 사용한 각 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+**[!UICONTROL 검색 키워드 - 모두]**: 사이트를 찾는 데 사용한 각 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
 
-**[!UICONTROL Search Keywords - Paid]**:사이트를 찾는 데 사용되는 각 유료 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+**[!UICONTROL 검색 키워드 - 유료]**: 사이트를 찾는 데 사용한 각 유료 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
 
-**[!UICONTROL Search Keywords - Natural]**:사이트를 찾는 데 사용되는 각 자연어 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
+**[!UICONTROL 검색 키워드 - 자연어]**: 사이트를 찾는 데 사용한 각 자연어 검색 키워드의 분류를 표시합니다. 목록 위에 있는 열 제목을 클릭하여 페이지 보기 수 또는 검색 키워드별로 이 목록을 정렬할 수 있습니다. 사이트에 대한 검색 결과를 보려면 검색 키워드 옆에 있는 확대경을 클릭합니다.
 
 ## 검색 엔진 {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -54,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Search Engines - All]**: 사람들이 웹 페이지를 찾기 위해 사용하는 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+**[!UICONTROL 검색 엔진 - 모두]**: 사람들이 웹 페이지를 찾기 위해 사용하는 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
 
-**[!UICONTROL Search Engines - Paid]**: 사람들이 웹 페이지를 찾기 위해 사용하는 유료 키워드 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+**[!UICONTROL 검색 엔진 - 유료]**: 사람들이 웹 페이지를 찾기 위해 사용하는 유료 키워드 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
 
-**[!UICONTROL Search Engines - Natural]**: 사람들이 웹 페이지를 찾기 위해 사용하는 자연어 키워드 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
+**[!UICONTROL 검색 엔진 - 자연어]**: 사람들이 웹 페이지를 찾기 위해 사용하는 자연어 키워드 검색 엔진을 표시합니다. 그래프는 사이트를 찾는 데 사용된 검색 엔진의 비율을 보여줍니다.
 
 ## 참조 도메인 {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -94,7 +94,7 @@ c_reports_referrers.xml
 
 정의된 도메인과 URL의 일부가 아닌 도메인 또는 URL은 레퍼러로 간주됩니다. 예를 들어, 웹 페이지 A와 웹 페이지 B는 내부 URL 필터에 추가되지만 웹 페이지 C는 추가되지 않습니다. 이 경우, 웹 페이지 C는 레퍼러로 간주됩니다.
 
-자세한 내용은 [!DNL Admin Console] 도움말의 [내부 URL 필터](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html)를 참조하십시오.
+자세한 내용은 [!DNL Admin Console] 도움말의 [내부 URL 필터](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/internal-url-filter-admin.html)를 참조하십시오.
 
 >[!NOTE] Marketing Reports &amp; Analytics는 방문자가 프로토콜 [!DNL imap://] 또는 [!DNL mail://]이 포함된 이메일 메시지 링크를 클릭하고 사이트에 도달하면 참조 도메인을 이메일로 기록합니다. 예를 들어 [!DNL https://mail.yahoo.com] 에서 오는 모든 것은 프로토콜이 [!DNL https://]이기 때문에 이메일 레퍼러로 계산되지 않습니다. Outlook의 이메일은 입력/책갈피 표시 행에 보고되며 도메인이 알려진 검색 엔진인 HTTP 프로토콜을 가진 레퍼러는 검색 엔진 행에 보고됩니다.
 
@@ -129,5 +129,5 @@ c_reports_ref_types.xml
 
 **USENET(뉴스그룹)**: 레퍼러의 URL이 `news://`로 시작하는 경우를 의미합니다. 따라서 참조 링크는 웹 페이지가 아닌 Usenet 뉴스그룹에 게시되었습니다.
 
->[!NOTE] 레퍼러 유형 로직은 [!UICONTROL Referrers] 및 [!UICONTROL Referring Domains]같은 다른 트래픽 소스 보고서와 일치합니다. This should reduce or eliminate the occurrences of the Inside Your Site and No JavaScript line items in the [!UICONTROL Referrer Type] report.
+>[!NOTE] 레퍼러 유형 로직은 다른 트래픽 소스 보고서([!UICONTROL 레퍼러] 및 [!UICONTROL 참조 도메인] 등)와 일치합니다. 이를 통해 [!UICONTROL 레퍼러 유형] 보고서에서 사용자 사이트 내 및 JavaScript 없음 라인 항목의 발생을 줄이거나 방지할 수 있습니다.
 
