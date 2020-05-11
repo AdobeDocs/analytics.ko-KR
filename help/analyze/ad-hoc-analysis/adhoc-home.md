@@ -1,7 +1,7 @@
 ---
-description: 애드혹 분석 소개
+description: Ad Hoc Analysis을 시작합니다
 title: Ad Hoc Analysis 개요
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
