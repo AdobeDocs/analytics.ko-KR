@@ -1,7 +1,7 @@
 ---
 description: Java 11을 사용하여 Ad Hoc Analysis를 실행하는 방법에 대한 지침
 title: Java 11에서 Ad Hoc Analysis 실행
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
