@@ -3,7 +3,7 @@ description: Audience Analytics을 구현할 때 나올 수 있는 질문에 대
 solution: Experience Cloud
 title: FAQ
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -22,7 +22,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">prop 또는 eVar에 이메일/주소/등이 있는 경우 수집 중에 데이터 해싱을 고려하십시오. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">해당 국가에서 IP 주소 PII로 고려하는 경우 <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/exclude-ip.html"  >IP 난독화를 켭니다</a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">해당 국가에서 IP 주소 PII로 고려하는 경우 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/exclude-ip.html"  >IP 난독화를 켭니다</a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Analytics 관리자에게 사용자가 수집 중인 것을 확인하라고 말합니다. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">법률 부서에 그들이 PII에 대해 고려하는 것을 확인하라고 말합니다. </li> 
     </ul> </td> 
@@ -45,7 +45,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: Audience Manager에서 Analytics 대상을 만들려면 어떻게 합니까?</b> </p> </td> 
-   <td colname="col2"> <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >AAM에서 Analytics 대상 구성</a>을 참조하십시오. </td> 
+   <td colname="col2"> <a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >AAM에서 Analytics 대상 구성</a>을 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Analytics 대상을 만들고 저장한 후 선택한 보고서 세트에 데이터가 나타날 때까지 얼마나 걸립니까?</b> </p> </td> 
