@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Analytics 기술 노트
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
       + [GA 사용자를 위한 Analysis Workspace에서 기본 보고서 만들기](ga-to-aa/reports/create-report.md)
       + [다른 Analytics 플랫폼에 사용되는 일반적인 지표](ga-to-aa/reports/common-metrics.md)
       + [실시간](ga-to-aa/reports/realtime-reports.md)
-      + [Audience](ga-to-aa/reports/audience-reports.md)
+      + [대상](ga-to-aa/reports/audience-reports.md)
       + [획득](ga-to-aa/reports/acquisition-reports.md)
       + [동작](ga-to-aa/reports/behavior-reports.md)
       + [전환](ga-to-aa/reports/conversions-reports.md)
