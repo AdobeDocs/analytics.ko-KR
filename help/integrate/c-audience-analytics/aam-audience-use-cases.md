@@ -2,7 +2,7 @@
 description: 'null'
 title: Audience Analytics 활용 사례
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 전망 분석 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-B2B 소매업체로서 [순차적 세그멘테이션](https://docs.adobe.com/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)을 사용하여 구매하기 직전에 잠재 대상의 행동을 심층적으로 분석할 수 있으므로 전환을 유도하는 작업을 파악하는 데 도움이 됩니다.
+B2B 소매업체로서 [순차적 세그멘테이션](https://docs.adobe.com/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)을 사용하여 구매하기 직전에 잠재 대상의 행동을 심층적으로 분석할 수 있으므로 전환을 유도하는 작업을 파악하는 데 도움이 됩니다.
 
 ## 인구 통계학 타깃팅 {#section_F034DB721A06419283DBD29D4A1B444B}
 
-대상 리조트로서 [Analysis Workspace의 막대 그래프](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/histogram.html)를 사용하여 나이별로 분포된 구매를 볼 수 있습니다. 이렇게 하면 각 리조트 속성별로 적합한 잠재 고객을 찾을 수 있습니다.
+대상 리조트로서 [Analysis Workspace의 막대 그래프](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/histogram.html)를 사용하여 나이별로 분포된 구매를 볼 수 있습니다. 이렇게 하면 각 리조트 속성별로 적합한 잠재 고객을 찾을 수 있습니다.
