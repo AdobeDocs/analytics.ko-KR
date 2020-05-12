@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
    * 추적 코드 차원의 기본 분류. 모든 보고서 세트에 대해 자동으로 만들어집니다.
    * Adobe Experience Cloud에 포함된 Adobe Campaign. [Adobe.com](https://www.adobe.com/kr/marketing/campaign.html)에 대한 자세한 정보입니다.
 * **채널:** 다음을 의미할 수 있습니다.
-   * 사이트 섹션 차원을 채우는 채널 변수. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
+   * 사이트 섹션 차원을 채우는 채널 변수. 구현 사용 안내서에서 [페이지 변수](/help/implement/vars/page-vars/page-variables.md)를 참조하십시오.
    * 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소인 마케팅 채널. 구성 요소 사용 안내서에서 [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.
 * **분류:** 차원 값을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/c-classifications2/c-classifications.md)를 참조하십시오.
 * **Clickmap:** 더 이상 사용하지 않습니다. 사이트에서 가장 많이 클릭한 영역을 표시하는 기존 브라우저 플러그인입니다. 이 도구는 Activity Map이 마련되어 사용이 중단되었습니다.
