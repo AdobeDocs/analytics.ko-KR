@@ -2,7 +2,7 @@
 description: 'null'
 title: Adobe Campaign 보고
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ Adobe Analytics와 Adobe Campaign을 통합하면
 
 * KPI(핵심 성능 지표) 데이터를 Adobe Campaign Standard에서 Adobe Analytics에 공유할 수 있습니다.
 * Adobe Analytics 매개 변수를 사용하는 수식 추적 기능이 향상됩니다.
-* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL Adobe Campaign]** 아래에 새 보고서가 추가됩니다.
+* **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]**&#x200B;에서 새 보고서 추가
 * 5개의 새로운 Adobe Campaign 분류가 추가됩니다.
 * 10개의 새로운 Adobe Campaign 지표가 추가됩니다.
 * 6개의 새로운 Adobe Campaign 차원이 추가됩니다.
@@ -26,14 +26,14 @@ Adobe Analytics와 Adobe Campaign을 통합하면
 
 Analytics에서 Campaign 데이터를 보려면 먼저 Campaign 보고를 활성화해야 합니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign 보고]**&#x200B;로 이동합니다 .
-1. **[!UICONTROL Campaign 보고 활성화]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL Enable Campaign Reporting]**&#x200B;을 클릭합니다.
 
    ![](assets/enable-campaign.png)
 
 ## 2단계. Adobe Campaign 보고서 보기 {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
-Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** 아래에 다음 보고서가 추가됩니다.
+Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** 아래에 다음 보고서가 추가됩니다.
 
 <table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
  <thead> 
@@ -52,7 +52,7 @@ Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analyti
 
 ## 3단계. Adobe Campaign 분류 사용 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign 분류]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 
 보고서 세트가 Adobe Campaign에 대해 활성화되면 다음의 분류를 사용할 수 있습니다.
 
