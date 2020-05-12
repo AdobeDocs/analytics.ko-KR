@@ -2,7 +2,7 @@
 description: Analytics와 Audience Manager는 모두 세그먼트를 사용합니다. 그러나 Analytics 세그먼트는 Audience Manager 세그먼트와 정확히 일치하지 않습니다. 이러한 차이는 부분적으로 Analytics와 Audience Manager 보고서에서 나타나는 불일치에 기인합니다. 결과적으로 이러한 두 가지 솔루션에서 세그먼트로 작업을 시작할 때 이러한 차이점을 이해하는 것이 중요하고 유용합니다.
 title: Analytics 및 Audience Manager의 세그먼트 이해
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ Audience Manager 세그먼트 멤버십은 유동적입니다. 사용자는 현�
 
 Audience Manager 세그먼트는 Analytics의 대상으로 표시됩니다.
 
-자세한 내용은 [세그먼트 빌더의 트레이트 및 세그먼트 채우기 데이터](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) 및 [신호, 트레이트 및 세그먼트](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html)를 참조하십시오.
+자세한 내용은 [세그먼트 빌더의 트레이트 및 세그먼트 채우기 데이터](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/segments/segment-builder-data.html) 및 [신호, 트레이트 및 세그먼트](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/reference/signal-trait-segment.html)를 참조하십시오.
 
 ## Analytics 세그먼트 {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
