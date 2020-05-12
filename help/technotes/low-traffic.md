@@ -3,7 +3,7 @@ description: Adobe는 보고서에 고유 값이 많으면 그중 가장 중요�
 title: Adobe Analytics의 낮은 트래픽 값
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
