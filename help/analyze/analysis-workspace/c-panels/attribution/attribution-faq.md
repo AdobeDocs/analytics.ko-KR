@@ -2,7 +2,10 @@
 title: 기여도 분석 FAQ
 description: 기여도 분석과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -11,15 +14,11 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **기여도 분석을 사용할 때 &quot;없음&quot; 라인 항목은 무엇입니까?**
 
-&#39;없음&#39; 라인 항목은 조회 창 내의 터치 지점 없이 발생한 모든 전환을 나타내는 모든 캡처 항목 보고 기간에 더 긴 시간 범위를 포함해 보십시오.
+&#39;없음&#39; 라인 항목은 조회 창 내의 터치 지점 없이 발생한 모든 전환을 나타내는 다목적 캐치 항목입니다. 보고 기간에 더 긴 시간 범위를 포함해 보십시오.
 
 **기여도 분석 모델을 사용할 때때로 보고 기간 밖의 날짜가 표시되는 이유는 무엇입니까?**
 
 이러한 추가적인 날짜는 방문자 보고 전환 확인 기간으로 인한 것입니다. 자세한 내용은 Analytics KB의 [보고 기간을 벗어나서 나타나는 데이터](https://helpx.adobe.com/kr/analytics/kb/data-appearing-outside-reporting-window.html)를 참조하십시오. Adobe에서는 향후 릴리스에서 이러한 추가 행을 필터링할 계획입니다.
-
-**내 기여도 분석 모델과 함께 사용자 지정 전환 확인 기간을 사용할 수 있습니까?**
-
-기여도 분석 모델은 현재 방문자 또는 방문 전환 확인 기간에 따라 다릅니다. 전환 확인 기간은 보고 날짜 범위(방문자 전환 확인)를 변경하거나 가상 보고서 세트의 일부로서 사용자 지정 방문 정의를 사용하여 조정할 수 있습니다. 자세한 내용은 [보고서 처리 시간](../../../../components/vrs/vrs-report-time-processing.md)을 참조하십시오.
 
 **언제 방문과 방문자 기여도 분석 전환 확인을 사용해야 합니까?**
 
@@ -58,7 +57,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **내 기여도 분석 모델과 함께 사용자 지정 전환 확인 기간을 사용할 수 있습니까?**
 
-예. 사용자 지정 조회 창 옵션을 사용하면 보고 창 90일 전까지 조회 창을 모든 날짜 범위로 구성할 수 있습니다. 자세한 내용은 [보고서 처리 시간](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)을 참조하십시오.
+예. 사용자 지정 전환 창 옵션을 사용하면 보고 창 90일 전까지 검색 창을 원하는 날짜 범위로 구성할 수 있습니다. 자세한 내용은 [보고서 처리 시간](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)을 참조하십시오.
 
 **기여도 분석은 분류와 함께 작동합니까?**
 
