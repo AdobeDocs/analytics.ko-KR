@@ -3,7 +3,7 @@ description: Report Builder 전달을 최적화하는 방법 및 때때로 발�
 title: Report Builder 문제 해결 및 우수 사례
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -98,7 +98,7 @@ Excel 시트 이름에 아포스트로피나 작은따옴표가 있으면 Report
 
 * [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
 
-* Report Builder: Click **[!UICONTROL Management]** in the [!UICONTROL Add-ins] tab in Excel.
+* Report Builder: Excel의 [!UICONTROL Add-ins] 탭에서 **[!UICONTROL Management]**&#x200B;를 클릭합니다.
 
 ## 오류 메시지 설명 {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -110,15 +110,15 @@ Report Builder 사용 시 간혹 발생할 수 있는 오류 메시지 목록입
 
 Excel에 열려 있는 통합 문서(스프레드시트 문서)가 없고 Report Builder 도구 모음에서 아이콘 하나를 클릭하면 이 메시지가 표시됩니다. 도구 모음은 스프레드시트를 열기 전까지 비활성화됩니다. 하지만, 이 오류가 표시되지 않고 여전히 도구 모음이 활성화되어 있으면 온라인 도움말을 클릭합니다.
 
-**를 활성화하기[!UICONTROL Request Wizard]전에 먼저 를 종료해야[!UICONTROL Request Manager]합니다.**
+**[!UICONTROL Request Wizard][!UICONTROL Request Manager]를 활성화하기 전에 먼저 종료해야 합니다.**
 
-및 이 [!UICONTROL Request Manager] 및 [!UICONTROL Request Wizard] 가 기능적으로 연결되어 있는 동안에는 에서 수행한 작업을 완료하거나 취소하기 [!UICONTROL Request Manager] 전에 작업을 시작할 수 없습니다 [!UICONTROL Request Wizard].
+[!UICONTROL Request Manager] 및 [!UICONTROL Request Wizard]는 기능적으로 연결되어 있지만 [!UICONTROL Request Wizard]에서 조치된 작업을 완료하거나 취소하기 전에 [!UICONTROL Request Manager]에 대한 작업을 시작할 수 없습니다.
 
 **이 범위와 연관된 요청이 없습니다.**
 
-This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
+이 오류 메시지는 스프레드시트에 요청이 포함되어 있지 않을 때 [!UICONTROL Request Manager]에서 [!UICONTROL From Sheet] 단추를 클릭하면 표시됩니다.
 
-To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. 요청이 셀과 연결되어 있을 경우 테이블에서 요청을 선택하면 해당 셀이 강조 표시된 채 나타납니다.
+스프레드시트에서 요청이 포함된 셀을 식별하려면 [!UICONTROL Request Manager]에서 테이블에 나열된 개별 요청을 클릭합니다 . 요청이 셀과 연결되어 있을 경우 테이블에서 요청을 선택하면 해당 셀이 강조 표시된 채 나타납니다.
 
 **선택한 범위가 유효하지 않습니다. 다른 범위를 선택하십시오.**
 
@@ -128,12 +128,12 @@ To identify which cells in the spreadsheet contain requests, click individual re
 
 **이 기능을 사용하기 전에 포커스가 있는 Excel 셀을 종료하십시오.**
 
-Excel 셀에서 *편집 모드*&#x200B;이고 Report Builder 아이콘 하나를 클릭하면 이 오류 메시지가 표시됩니다. Excel 셀의 편집 모드는 셀이 선택되어 있고 커서가 셀 내부에 나타남을 의미합니다. You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
+Excel 셀에서 *편집 모드*&#x200B;이고 Report Builder 아이콘 하나를 클릭하면 이 오류 메시지가 표시됩니다. Excel 셀의 편집 모드는 셀이 선택되어 있고 커서가 셀 내부에 나타남을 의미합니다. Excel의 상단에 있는 [!UICONTROL Formula] 모음이나 [!UICONTROL Name Box]에 바로 입력하는 경우에도 Excel 셀에서 편집 모드에 있는 것입니다.
 
 **선택한 범위가 다른 요청의 범위와 교차합니다. 선택 내용을 변경하십시오.**
 
 이미 셀들을 스프레드시트에 매핑했다면 이 오류가 표시됩니다.
 
-One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. 그런 다음 요청 요약 테이블에 나열된 항목을 하나씩 선택합니다. 목록에서 요청을 선택할 때마다 스프레드시트에서 요청 매핑을 포함하고 있는 해당 셀들이 강조 표시됩니다.
+새 요청을 추가하기 전에 매핑되어 있는 셀을 판단하는 한 가지 방법은 [!UICONTROL Request Wizard]를 닫고 [!UICONTROL Request Manager]를 여는 것입니다 . 그런 다음 요청 요약 테이블에 나열된 항목을 하나씩 선택합니다. 목록에서 요청을 선택할 때마다 스프레드시트에서 요청 매핑을 포함하고 있는 해당 셀들이 강조 표시됩니다.
 
 이렇게 되려면 여러 개의 셀을 여러 영역에 매핑하기 전에 강조 표시, 행 또는 열 정보 또는 서식 스타일로 셀을 표시하는 것을 고려해야 합니다.
