@@ -2,7 +2,7 @@
 description: 'null'
 title: Power BI에 게시 - 개요
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -36,14 +36,14 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 **Report Builder에서 통합 문서 게시**
 
 1. Report Builder에서, 통합 문서를 생성하고 저장합니다.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
-1. 기본 예약 마법사에서 옆에 있는 상자를 선택합니다 **[!UICONTROL Publish Workbook to Microsoft Power BI]**.
+1. 기본 예약 마법사에서, **[!UICONTROL Microsoft Power BI에 통합 문서 게시]** 옆에 있는 상자를 선택합니다.
 
    ![](assets/simple-schedule-wizard.png)
 
 1. 이메일을 지정하고 즉시 전송하거나 예약 빈도를 지정합니다(시간별, 일별 등).
-1. 게시하려면 **[!UICONTROL OK]** 클릭합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 게시합니다.
 1. 이제 Microsoft 계정에 로그인하라는 메시지가 표시됩니다. 자격 증명을 제공합니다.
 1. Report Builder 통합 문서가 예약되어 Power BI에 게시됩니다.
 
@@ -51,7 +51,7 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
 **Power BI에서 Report Builder 통합 문서 데이터 보기**
 
-1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
+1. Power BI의 [!UICONTROL 통합 문서] 메뉴에서 통합 문서를 두 번 클릭합니다.
 
    ![](assets/workbooks-power-bi.png)
 
@@ -70,12 +70,12 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 **Report Builder에서 형식이 지정된 표 게시**
 
 1. Report Builder에서, 뒤에 데이터 행이 오는 머리글 행을 포함하는 데이터 표를 생성합니다.
-1. 표를 선택하고 **[!UICONTROL Format as Table]** 메뉴에서 [!UICONTROL Home] 선택합니다. The table gets named by default (Table 1, Table 2, etc.), but you can change the name on the [!UICONTROL Design]menu.
+1. 표를 선택하고 [!UICONTROL 홈] 메뉴에서 **[!UICONTROL 표로 형식 지정]**&#x200B;을 선택합니다. 표는 기본적으로 이름이 지정되지만(표 1, 표 2 등), [!UICONTROL 디자인 ]메뉴에서 이름을 변경할 수 있습니다.
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
-1. 기본 예약 마법사에서 을 클릭합니다 **[!UICONTROL Advanced Scheduling Options]**.
-1. 의 [!UICONTROL Scheduling Wizard - Advanced]탭에서 **[!UICONTROL Publishing Options]** 옆에 있는 상자를 선택합니다 **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. 기본 예약 마법사에서 **[!UICONTROL 고급 예약 옵션]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 예약 마법사 - 고급]의 **[!UICONTROL 게시 옵션]** 탭에서 **[!UICONTROL 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시]** 옆에 있는 상자를 선택합니다.
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -83,11 +83,11 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
 **Power BI에서 표 데이터 보기**
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. Power BI에서 **[!UICONTROL 작업 공간]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
 
    ![](assets/datasets-menu.png)
 
-1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. 표가 필드로 나타납니다.
+1. 게시한 데이터 세트를 선택하고 그 옆에 있는 [!UICONTROL 보고서 만들기] 아이콘을 클릭합니다. 표가 필드로 나타납니다.
 
    ![](assets/formatted-tables.png)
 
@@ -95,7 +95,7 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
    ![](assets/view-table-dataset.png)
 
-1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. 예를 들어 데이터를 선 그래프로 표시하도록 선택할 수 있습니다.
+1. [!UICONTROL 시각화] 메뉴에서 Power BI에서 표를 시각화하는 방법을 선택할 수 있습니다. 예를 들어 데이터를 선 그래프로 표시하도록 선택할 수 있습니다.
 
    ![](assets/bi-line-graph.png)
 
@@ -110,22 +110,22 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 >통합 문서가 100개가 넘는 요청을 포함하는 경우, 처음 100개 요청만 Power BI에 게시됩니다. 또한, Power BI에 게시된 각 요청에 대해, 데이터의 처음 10,000개 행만 게시됩니다. 따라서 이 요청이 예약을 통해 성공적으로 제공되면, Power BI에 대한 게시 범위가 제한됩니다.
 
 1. Report Builder에서 Report Builder 요청으로 통합 문서를 열거나 만듭니다.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Report Builder 도구 모음에서 **[!UICONTROL 예약]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
-1. 기본 예약 마법사에서 을 클릭합니다 **[!UICONTROL Advanced Scheduling Options]**.
-1. 의 [!UICONTROL Scheduling Wizard - Advanced]탭에서 다음 상자를 선택합니다 **[!UICONTROL Publishing Options]** **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]**![](assets/advanced-schedule-wizard2.png)
+1. 기본 예약 마법사에서 **[!UICONTROL 고급 예약 옵션]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 예약 마법사 - 고급]의 **[!UICONTROL 게시 옵션]** 탭에서 **[!UICONTROL 모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시]** 옆에 있는 상자를 선택합니다.![](assets/advanced-schedule-wizard2.png)
 
-1. 클릭 **[!UICONTROL OK]**.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 **Power BI에서 요청 데이터 보기**
 
-각각의 예약된 Report Builder 요청은 데이터 세트에서 표로 게시됩니다. Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
+각각의 예약된 Report Builder 요청은 데이터 세트에서 표로 게시됩니다. 각 요청 표의 이름은 요청에서 기본 차원 다음에 지정되고 여기에는 [!UICONTROL 보고서 세트]와 [!UICONTROL 세그먼트] 열이 있습니다.
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. Power BI에서 **[!UICONTROL 작업 공간]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
 
-1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
+1. 게시한 요청을 선택하고 그 옆에 있는 [!UICONTROL 보고서 만들기] 아이콘을 클릭합니다.
 
-   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
+   요청은 [!UICONTROL 필드] 메뉴에서 표로 나타납니다.
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
    >
    >워크시트에서 레이아웃(표시되는 피벗 레이아웃, 사용자 지정 레이아웃, 일부 열)을 지정할 Report Builder 요청을 구성한 방법에 상관없이, Report Builder는 항상 동일한 2차원, 단일 머리글 행 형식(날짜, 차원, 지표, 보고서 세트, 세그먼트)으로 요청을 게시합니다.
 
-1. Also notice that there is an additional table called **[!UICONTROL Legend]**. 요청을 Report Builder 컨텍스트에서 떨어뜨리면, 각 요청이 나타내는 사항을 기억하기 어려울 수 있습니다. 범례 표의 목적은 표 ID 아래에 각 요청의 이름을 사용자에게 보여주는 것입니다. 다른 범례 열을 추가하여 요청의 전체 모습을 알 수도 있습니다.
+1. 또한 **[!UICONTROL 범례]**&#x200B;라는 추가적인 표가 있습니다. 요청을 Report Builder 컨텍스트에서 떨어뜨리면, 각 요청이 나타내는 사항을 기억하기 어려울 수 있습니다. 범례 표의 목적은 표 ID 아래에 각 요청의 이름을 사용자에게 보여주는 것입니다. 다른 범례 열을 추가하여 요청의 전체 모습을 알 수도 있습니다.
 
    ![](assets/legend-table.png)
 
