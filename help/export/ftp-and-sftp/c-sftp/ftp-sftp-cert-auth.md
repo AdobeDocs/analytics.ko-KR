@@ -3,7 +3,7 @@ description: 암호 없이 FTP 계정에 연결하려면 SFTP 연결과 대체 �
 keywords: ftp;sftp
 title: SFTP를 통해 암호 없이 Adobe에 연결
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
