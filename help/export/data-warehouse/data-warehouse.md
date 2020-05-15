@@ -3,7 +3,7 @@ description: Data Warehouse는 데이터를 필터링하여 실행할 수 있는
 title: Data Warehouse 개요
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -27,7 +27,7 @@ Data Warehouse는 개별적으로 예약하고 다운로드한 보고서를 한 
 
 ## Data Warehouse 요청 설명 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab.
+다음 표에서는 [!UICONTROL Data Warehouse 요청] 탭에 대한 필드 및 옵션에 대해 설명합니다.
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 
