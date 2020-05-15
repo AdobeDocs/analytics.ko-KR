@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Adobe Analytics 설명서
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: aaeeeeb2598359f5e4c0e2323ae5f9344edb0f8d
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 89%
+source-wordcount: '142'
+ht-degree: 90%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 89%
 * [고객 경로 분석 가이드](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)
 * [Analytics 설명서 업데이트](doc-updates.md)
 * [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
-* [Adobe Analytics - 기능 릴리스 전략](an-releases.md)
+* [Adobe Analytics 기능 릴리스](an-releases.md)
