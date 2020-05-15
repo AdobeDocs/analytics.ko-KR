@@ -3,7 +3,7 @@ description: Adobe에서 호스팅하는 FTP 계정을 설정하고 사용합니
 keywords: ftp;sftp
 title: FTP 계정 설정 - 개요
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
