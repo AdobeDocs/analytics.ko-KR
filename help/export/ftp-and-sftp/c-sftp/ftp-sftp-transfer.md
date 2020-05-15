@@ -3,7 +3,7 @@ description: Adobe 엔지니어링 서비스 그룹은 SFTP를 사용하여 외�
 keywords: ftp;sftp
 title: SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
