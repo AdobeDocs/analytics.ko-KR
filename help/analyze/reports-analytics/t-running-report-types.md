@@ -3,7 +3,7 @@ description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. 보고서(예: a [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**)를 생성합니다.
-1. In the report header, click **[!UICONTROL Ranked.]**
+1. [!UICONTROL 페이지 보고서](**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**)와 같은 보고서를 생성합니다. 
+1. 보고서 헤더에서 **[!UICONTROL 등급]**&#x200B;을 클릭합니다.
 1. 보고서의 등급을 지정하려면 테이블의 열 제목을 클릭합니다.
 
    등급 보고서의 테이블에는 최대 200개의 항목(예: 제품, 카테고리, 웹 페이지 등)과 10개의 지표(매출액, 주문, 보기 등)를 표시할 수 있습니다.
@@ -40,12 +40,12 @@ t_reports_trended.xml
 
  -->
 
-대부분의 전환 및 트래픽 보고서에서 트렌드 보기를 사용할 수 있습니다. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. 트렌드 보고서는 최대 5개 항목(예: 제품, 카테고리, 웹 페이지 등)에 대한 1개의 지표(매출, 주문, 보기 등)에 대한 트렌드를 보여줍니다.
+대부분의 전환 및 트래픽 보고서에서 트렌드 보기를 사용할 수 있습니다. [!UICONTROL 달력]을 사용하면 매달 지정된 일, 연중 주간, 분기별 주간, 연중 월간 등을 포함하여 세부 분류된 기간에 따른 개선 사항을 표시할 수 있습니다. 트렌드 보고서는 최대 5개 항목(예: 제품, 카테고리, 웹 페이지 등)에 대한 1개의 지표(매출, 주문, 보기 등)에 대한 트렌드를 보여줍니다.
 
 **트렌드 보고서를 실행하려면**
 
-1. 전환 또는 트래픽 보고서(예: **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**)를 실행합니다.
-1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+1. **[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**&#x200B;와 같은 전환 또는 트래픽 보고서를 실행합니다.
+1. **[!UICONTROL 보고서 유형]** 아래에서 **[!UICONTROL 트렌드]**&#x200B;를 클릭합니다.
 
 ## 전환 단계 보고서 실행 {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,13 +57,13 @@ t_reports_conversion_funnel.xml
 
  -->
 
-이 보고서를 실행하려면 보고서(예: 페이지 보고서)를 선택합니다( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
+이 보고서를 실행하려면 보고서(예: 페이지 보고서)를 선택합니다(**[!UICONTROL 보고서]** > **[!UICONTROL 캠페인]** > **[!UICONTROL 추적 코드]** > **[!UICONTROL 캠페인 전환 단계]**).
 
-설명은 [전환 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)를 참조하십시오.
+설명은 [전환 보고서](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-conversion.html)를 참조하십시오.
 
 ## 폴아웃 보고서 실행 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
-The [!UICONTROL Fallout Report] shows the number of visitors who visited a pre-specified sequence of pages. 이는 또한 각 단계 간 전환 및 폴아웃 비율을 보여주기도 합니다.
+[!UICONTROL 폴아웃 보고서]는 순서가 미리 정해진 페이지들의 방문자 수를 보여줍니다. 이는 또한 각 단계 간 전환 및 폴아웃 비율을 보여주기도 합니다.
 
 <!-- 
 
@@ -73,19 +73,19 @@ t_reports_fallout.xml
 
 Analysis Workspace에서 새 [폴아웃 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 패널을 확인하십시오!
 
-1. 에서 [!UICONTROL Adobe Analytics]> **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** 를 클릭합니다 **[!UICONTROL Fallout]**.
-1. 페이지에서 [!UICONTROL Fallout Report] 을 클릭합니다 **[!UICONTROL Launch the Fallout Report Builder]**.
+1. [!UICONTROL Adobe Analytics]에서 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 폴아웃]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 폴아웃 보고서] 페이지에서 **[!UICONTROL 폴아웃 보고서 빌더 시작]**&#x200B;을 클릭합니다. 
 
    ![단계 결과](assets/fallout_add_items.png)
 
-1. On the [!UICONTROL Define Checkpoints] page, specify the checkpoints that you want to use for the report.
-1. 클릭 **[!UICONTROL Run Report]**.
+1. [!UICONTROL 체크포인트 정의] 페이지에서 보고서에 사용할 체크포인트를 지정합니다.
+1. **[!UICONTROL 보고서 실행]**&#x200B;을 클릭합니다.
 
    ![단계 결과](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
->* [폴아웃 보고서 설명](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [폴아웃 보고서 설명](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## 페이지 흐름 보고서 실행 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -96,7 +96,7 @@ Analysis Workspace에서 새 [흐름 시각화](https://docs.adobe.com/content/h
 
 [경로](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-paths.html) 보고서를 실행합니다.
 
-예를 들어 > **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**&#x200B;를 클릭합니다.
+예를 들어 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 다음 페이지 흐름]**&#x200B;을 클릭합니다.
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ Analysis Workspace에서 새 [흐름 시각화](https://docs.adobe.com/content/h
 
 페이지 이름 옆에 각 후속 페이지를 본 백분율이 표시됩니다. 다음 각 페이지에 연결된 라인 너비는 이러한 상대적 백분율을 나타냅니다.
 
-**[!UICONTROL Path Views]**:표시된 경로로 제한될 때 페이지를 본 횟수를 나타냅니다.
+**[!UICONTROL 경로 보기 횟수]**: 표시된 경로에 한정되어 있을 때 페이지를 본 횟수를 나타냅니다.
 
 예를 들어 개인정보 보호정책 페이지에는 총 10,000개의 페이지 보기가 있을 수 있지만 이 페이지 중 500페이지만이 홈 페이지 바로 다음에 발생했습니다. 따라서 경로 보기라는 용어가 사용됩니다.
 
@@ -112,7 +112,7 @@ Analysis Workspace에서 새 [흐름 시각화](https://docs.adobe.com/content/h
 
 ## 단계 보고서 실행 {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
-성공 이벤트를 선택하고 [!UICONTROL Purchase Conversion Funnel] 보고서나 [!UICONTROL Product Conversion Funnel] 보고서에 추가할 수 있습니다.
+성공 이벤트를 선택하고 [!UICONTROL 구매 전환 단계] 보고서나 [!UICONTROL 제품 전환 단계] 보고서에 추가할 수 있습니다.
 
 <!-- 
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. **[!UICONTROL 보고서]** > **[!UICONTROL 제품]** > [제품 전환 단계](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)를 클릭합니다.
 
 ## 마케팅 채널 보고서 실행 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -146,11 +146,11 @@ t_anomaly_view.xml
 
 Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능을 확인하십시오!
 
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
+**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 예외 항목 탐지]** .
 
 >[!NOTE] Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)를 참조하십시오.
+예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)를 참조하십시오.
 
 예외 항목 탐지에는 요약 차트와 개별 지표 차트, 이렇게 두 종류의 차트가 표시됩니다. 개별 지표 차트는 해당 지표에 대해 하나 이상의 예외 항목이 탐지된 경우에만 표시됩니다.
 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 각 보고서 세트에 대해 독립적으로 예외 항목 탐지를 설정할 수 있습니다.
 
-1. 로 **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** 이동합니다.
+1. **[!UICONTROL Analytics > 보고서 > 사이트 지표 > 예외 항목 탐지]**&#x200B;로 이동합니다.
 1. 일일 예외 항목 탐지를 추적할 보고서 세트를 선택합니다. 보고서 세트 목록을 표시하려면, 보고서 세트 선택기 드롭다운 메뉴를 클릭합니다.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. 지표를 선택하거나 필터링된 지표를 정의하려면 화면의 오른쪽 상단에 있는 **[!UICONTROL 지표 편집]**&#x200B;을 클릭합니다.  ![](assets/metrics_icon.png)
 
-   모든 지표 목록(계산된 지표 포함) 또는 추적된 지표 목록에서 지표를 선택할 수 있습니다. 목록의 범위를 좁히려면 특정 용어로 필터링할 수도 있습니다. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (훈련 기간을 알고리즘에 대한 &quot;학습 기간&quot;으로 생각합니다.)
+   모든 지표 목록(계산된 지표 포함) 또는 추적된 지표 목록에서 지표를 선택할 수 있습니다. 목록의 범위를 좁히려면 특정 용어로 필터링할 수도 있습니다. 1. 보고서가 생성되면 예외 항목 탐지를 위해 **[!UICONTROL 훈련 기간]** 및 **[!UICONTROL 기간 보기]**&#x200B;를 정의합니다. (훈련 기간을 알고리즘에 대한 &quot;학습 기간&quot;으로 생각합니다.)
 
    ![](assets/view_training_periods.png)
 
@@ -226,7 +226,7 @@ t_anomaly_config.xml
 * 훈련 기간을 연장하면 데이터가 더 큰 컨텍스트에서 이해되므로 예외 항목의 크기를 줄일 수 있습니다.
 
    예외 항목 탐지 지표 보고서는 매개 변수를 변경할 때마다 새로 고침됩니다.
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. (선택 사항)보고서에 세그먼트를 적용하려면 **[!UICONTROL 세그먼트 보기]**&#x200B;를 클릭하고 하나 이상의 기존 세그먼트를 선택하거나 새 세그먼트를 만들어 적용합니다.
 
    ![](assets/ad_top_menu.png)
 
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Reports > Site Metrics > Real-Time]** .
+**[!UICONTROL 보고서 > 사이트 지표 > 실시간]** .
 
 실시간 보고에서는 개요 보고서와 세부 사항 보고서, 이렇게 두 개의 기본 보고서를 제공합니다. 이 보고서들은 각각 많은 reportlet으로 구성됩니다.
 
-실시간 보고서 구성에 대한 자세한 내용은 [Analytics 참조 안내서](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)를 참조하십시오.
+실시간 보고서 구성에 대한 자세한 내용은 [Analytics 참조 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html#RealTime_Reports_Configuration)를 참조하십시오.
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. **[!UICONTROL 개요]** 보고서 및 그 구성 요소를 살펴 봅니다.  ![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 세트 선택</strong></td> 
-   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >실시간 보고서 구성</a>을 참조하십시오 . </td> 
+   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >실시간 보고서 구성</a>을 참조하십시오 . </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 간 전환</strong></td> 
@@ -314,7 +314,7 @@ reports_realtime.xml
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. 기본 Reportlet에 있는 목록 항목을 클릭하여 목록 항목의 **[!UICONTROL 세부 사항]** 보기를 실행합니다.  ![](assets/rtr_detail_report.png)
 
    | **항목 트렌드 Reportlet** | 지난 N분 동안 개요 보고서에서 선택한 항목의 꺾은 선형을 보여 줍니다. N은 시간 범위 선택기를 통해 구성할 수 있습니다. |
    |---|---|
