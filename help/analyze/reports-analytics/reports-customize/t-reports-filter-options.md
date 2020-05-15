@@ -3,7 +3,7 @@ description: 필터 기능을 통해 필터에 일치하는 라인 항목을 포
 title: 보고서 데이터 필터링
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **다음을 포함하지 않음**
 
-라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)을 필터링할 수 있습니다.
+라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/unspecified.html)을 필터링할 수 있습니다.
 
 다음을 포함하지 않음: `none`
 
@@ -142,17 +142,17 @@ t_reports_filter_specific.xml
 
  -->
 
-일부 보고서는 해당 보고서 고유의 필터를 가지고 있습니다. 예를 들어 웹 페이지별로 필터링할 [!UICONTROL Purchase Conversion Funnel Report] 수 있습니다. A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. 그 외 보고서에도 해당 보고서 고유의 필터가 있습니다.
+일부 보고서는 해당 보고서 고유의 필터를 가지고 있습니다. 예를 들어 [!UICONTROL 구매 전환 단계 보고서]를 사용하면 웹 페이지별로 필터링할 수 있습니다. [!UICONTROL 지리 특성 보고서]를 사용하면 지역별로 필터링할 수 있습니다. 그 외 보고서에도 해당 보고서 고유의 필터가 있습니다.
 
 이러한 필터에 액세스하면 목록에 지정된 항목에 대한 보고서 지표를 볼 수 있습니다.
 
 **보고서별 필터를 만들려면**
 
-1. 보고서(예: a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**)를 생성합니다.
-1. In the report header, click the **[!UICONTROL Filter]** link.
-1. 페이지에서 [!UICONTROL Filter Selector] 을 클릭한 **[!UICONTROL Apply a Filter]**&#x200B;다음 필터 유형을 선택합니다.
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
-1. 클릭 **[!UICONTROL OK]**.
+1. [!UICONTROL 구매 보고서]와 같은 보고서를 생성합니다(**[!UICONTROL 사이트 지표]** > **[!UICONTROL 구매]** > **[!UICONTROL 구매 전환 단계]**).
+1. 보고서 헤더에서 **[!UICONTROL 필터]** 링크를 클릭합니다.
+1. [!UICONTROL 필터 선택기] 페이지에서 **[!UICONTROL 필터 적용]**&#x200B;을 클릭한 다음 필터 유형을 선택합니다.
+1. 항목을 검색하려면 **[!UICONTROL 검색]** 필드에 문자열을 입력합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 상관 관계 필터 추가 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-일부 보고서에서는 사용자 지정 상관 관계 필터를 추가할 수 있습니다. For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+일부 보고서에서는 사용자 지정 상관 관계 필터를 추가할 수 있습니다. 예를 들어 사이트 섹션이 여성 페이지와 상관된 보고서 세트의 [!UICONTROL 페이지 보고서]를 보고 있는 경우 사이트 섹션과 여성이 동일할 때 가장 빈도가 높은 페이지를 표시하는 보고서를 생성하는 필터 규칙을 만들 수 있습니다.
 
 사용 가능한 상관 관계를 사용하여 상관 관계 보고서에 표시되는 데이터를 필터링할 수 있습니다. 이 예제에서는 검색 엔진 상관 관계 필터를 추가하는 방법을 보여줍니다.
 
 **상관 관계 필터 추가**
 
 1. 상관 관계를 지원하는 보고서를 실행합니다. [상세 분류 보고서 실행](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)을 참조하십시오.
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
-1. 아래에서 [!UICONTROL Filter Rule Creator]항목과 상호 연관시킬 범주를 선택합니다.
-1. 확대/축소한 후에 **[!UICONTROL OK.]**
+1. 보고서 헤더에서 **[!UICONTROL 상관 관계 필터]** 링크를 클릭합니다.
+1. [!UICONTROL 필터 규칙 작성기]에서 항목과 상호 연결할 카테고리를 선택합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
