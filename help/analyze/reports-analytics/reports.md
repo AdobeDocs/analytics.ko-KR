@@ -3,7 +3,7 @@ description: 트래픽, 전환 및 경로를 포함한 기본 보고서 유형�
 title: 보고서 유형
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> 변환 </td> 
-   <td colname="col2"> <p>사용자가 정의하는 성공 지표에 대한 정보를 표시합니다. 처음 라이선스를 획득하면 지표를 정의할 수 있는 옵션이 나타나며, 이를 통해 성공적인 판매나 컨텐츠 전달로 이르는 통찰력을 얻을 수 있습니다. 이 보고서는 이러한 지표에 대한 수치를 보여줍니다. 그러한 예로 결재 유형, 배송 비용 및 사용된 온라인 쿠폰이 있습니다. </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html"  >전환 보고서</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>사용자가 정의하는 성공 지표에 대한 정보를 표시합니다. 처음 라이선스를 획득하면 지표를 정의할 수 있는 옵션이 나타나며, 이를 통해 성공적인 판매나 컨텐츠 전달로 이르는 통찰력을 얻을 수 있습니다. 이 보고서는 이러한 지표에 대한 수치를 보여줍니다. 그러한 예로 결재 유형, 배송 비용 및 사용된 온라인 쿠폰이 있습니다. </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-conversion.html"  >전환 보고서</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 경로 </td> 
@@ -38,4 +38,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 인터페이스 기능에 대한 자세한 내용은 [보고서 기능](/help/analyze/reports-analytics/overview/report-overview.md)을 참조하십시오.
 
-설명은 *`Analytics Reference Help`*&#x200B;의 [보고서 설명](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)을 참조하십시오.
+설명은 *`Analytics Reference Help`*&#x200B;의 [보고서 설명](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/c-variables.html)을 참조하십시오.
