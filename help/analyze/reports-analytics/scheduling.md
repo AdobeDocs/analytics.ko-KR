@@ -4,7 +4,7 @@ subtopic: Schedule
 title: 보고서 예약 및 배포
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -38,7 +38,7 @@ Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예�
 
 여러 가지 형식으로 보고서를 다운로드하고 이메일로 보내고, 보고서 배달을 예약하는 방법을 설명하는 단계입니다.
 
-1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. 보고서를 실행한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 전송]**&#x200B;을 클릭합니다.
 1. 배달 옵션을 지정합니다.
 
    | 옵션 | 설명 |
@@ -48,17 +48,17 @@ Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예�
    | 제목 | 이메일 제목과 같습니다. |
    | 예약 | 보고서를 즉시 보낼지 또는 간격을 두고 보낼지 선택합니다. |
 
-1. 을 **[!UICONTROL Advanced Delivery Options]** 클릭하여 배달 일정을 지정합니다.
+1. **[!UICONTROL 고급 배달 옵션]**&#x200B;을 클릭하여 배달 일정을 지정합니다.
 
 | 옵션 | 설명 |
 |--- |--- |
-| 보고서 파일 이름 | 보고서 이름을 지정합니다. 기본 형식은 `<report name> for <suite> - <report date range>`입니다. To specify a custom name, select [!UICONTROL Custom]. |
+| 보고서 파일 이름 | 보고서 이름을 지정합니다. 기본 형식은 `<report name> for <suite> - <report date range>`입니다. 사용자 지정 이름을 지정하려면 [!UICONTROL 사용자 지정]을 선택합니다. |
 | 보고서 형식 | 배달할 PDF, CSV, Excel, HTML, Word 또는 Mobile 형식을 지정할 수 있도록 해줍니다. CSV를 선택하는 경우 CSV용 인코딩도 지정할 수 있습니다.<ul><li>Shift-JIS: 일본어 문자 인코딩에 사용됩니다.</li><li>EUC-JP: 확장 Unix 코드용으로 주로 일본어, 한국어 및 중국어 간체에 사용됩니다.</li></ul> |
 | 보고서 내용 | <ul><li>표의 행 수: 전송하는 보고서의 테이블에서 표시되는 행의 수를 지정합니다.</li><li>머리글과 바닥글 언어: 머리글과 바닥글의 언어를 지정합니다.</li><li>설명: 보고서 시작 부분에 나타나는 텍스트를 지정합니다.</li></ul> |
 | 디지털 서명 파일 전송 | 책갈피가 표시된 보고서와 같은 보고서를 요청하거나 Data Warehouse 요청을 수행할 때 데이터 서명을 요청할 수 있습니다. Adobe의 디지털 서명은 데이터에 액세스할 수 있는 사용자를 제한하지 않으며 디지털 서명 파일(.sig)의 용도는 배달된 보고서 파일의 유효성을 확인하는 것입니다. 보고서 수신자는 디지털 서명을 사용하여 Adobe에서 파일을 보내고 해당 파일이 변경되지 않았는지 확인할 수 있습니다. |
 | 보고서 대상 | <ul><li>이메일: 이메일 주소 설정, 제목 줄 및 참고 정보를 구성할 수 있습니다.</li><li>FTP: 호스트, 포트, 디렉토리, 사용자 이름 및 암호를 포함하는 FTP 설정을 구성할 수 있습니다.</li></ul> |
 
-1. 클릭 **[!UICONTROL Scheduling Options]**.
+1. **[!UICONTROL 예약 옵션]**.을 클릭합니다  
 
 | 옵션 | 설명 |
 |--- |--- |
@@ -73,14 +73,14 @@ Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예�
 보고서를 인쇄하는 방법을 설명하는 단계입니다.
 
 1. 보고서 실행.
-1. 클릭 **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
+1. **[!UICONTROL 자세히]** > **[!UICONTROL 인쇄]**&#x200B;를 클릭합니다. ![](assets/print.png) 
 
 ## 기본 옵션을 사용하여 보고서 다운로드 {#task_43660107A1C9485D92981CD75B562577}
 
 PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고서에 대한 세부 정보를 다운로드합니다.
 
-1. > **[!UICONTROL Analytics]** 에서 **[!UICONTROL Reports]** 볼 보고서를 선택합니다.
-1. 클릭 **[!UICONTROL Download]**.
+1. **[!UICONTROL 분석]** > **[!UICONTROL 보고서]**&#x200B;에서 보려는 보고서를 선택합니다.
+1. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
    ![](assets/download_basic.png)
 
@@ -98,11 +98,11 @@ PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고�
 
 예약된 보고서 관리에 대한 정보입니다.
 
-In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. 이메일이나 FTP를 통해 지정된 주소로 보고서를 전송하는 배달 예약을 작성할 수 있습니다. 특정 시간 동안 또는 무한정으로 지정된 간격에 따라 보고서를 자동 전송하도록 하거나 되풀이되는 보고서 배달을 중지하도록 예약을 구성할 수 있습니다.
+[!UICONTROL 예약 보고서 관리자]에서 반복되는 보고서 배달을 편집하고 삭제할 수 있습니다. 이메일이나 FTP를 통해 지정된 주소로 보고서를 전송하는 배달 예약을 작성할 수 있습니다. 특정 시간 동안 또는 무한정으로 지정된 간격에 따라 보고서를 자동 전송하도록 하거나 되풀이되는 보고서 배달을 중지하도록 예약을 구성할 수 있습니다.
 
-The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. 응용 프로그램에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
+[!UICONTROL 보고서 예약 관리자]는 특정 사용자가 만든 항목을 보여줍니다. 응용 프로그램에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 
-1. 관리자에 액세스하려면 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**&#x200B;을 클릭합니다.
+1. 해당 관리자에 액세스하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 예약된 보고서]**&#x200B;를 클릭합니다.
 
 ## 보고서 링크 공유 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
@@ -113,7 +113,7 @@ The [!UICONTROL Schedule Report Manager] shows the items that a specific user ha
 **보고서 링크를 공유하려면**
 
 1. 보고서 실행.
-1. 클릭 **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
+1. **[!UICONTROL 자세히]** > **[!UICONTROL 이 보고서에 대한 링크]**&#x200B;를 클릭합니다.
 
 ## 예약된 보고서에서 가입 해지 {#concept_6B48360F935740B6851BA85D32DEF637}
 
@@ -129,7 +129,7 @@ The [!UICONTROL Schedule Report Manager] shows the items that a specific user ha
 
    ![](assets/unsubscribe-email.png)
 
-1. 옆에 있는 **[!UICONTROL click here]** 링크를 클릭합니다 **[!UICONTROL To cancel automatic delivery of this report]**.
+1. **[!UICONTROL 이 보고서의 자동 배달을 취소하려면]** 옆에 있는 **[!UICONTROL 여기를 클릭하십시오]** 링크를 클릭합니다.
 
 1. 보고서 배달 취소를 확인합니다.
 
