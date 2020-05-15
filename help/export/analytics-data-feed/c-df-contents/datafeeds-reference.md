@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 데이터 열 참조
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -167,7 +167,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `quarterly_visitor` | 히트가 새 분기별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | `ref_domain` | 레퍼러 열을 기반으로 합니다. 히트의 참조 도메인입니다. | varchar(100) |
 | `ref_type` | 히트에 대한 참조 유형을 나타내는 숫자 ID입니다.<br>1: 사이트 내부<br>2: 기타 웹 사이트 <br>3: 검색 엔진 <br>4: 하드 드라이브 <br>5: USENET <br>6: 입력/책갈피 표시(레퍼러 없음) <br>7: 이메일 <br>8: JavaScript 없음 <br>9: 소셜 네트워크 | tinyint 부호 없음 |
-| `referrer` | 이전 페이지의 페이지 URL입니다. varchar(255)의 데이터 유형을 `referrer` 사용하는 동안 `post_referrer` varchar(244)의 데이터 유형을 사용합니다. | varchar(255) |
+| `referrer` | 이전 페이지의 페이지 URL입니다. `referrer`에서 varchar(255)의 데이터 유형을 사용하는 동안 `post_referrer`에서는 varchar(244)의 데이터 유형을 사용합니다. | varchar(255) |
 | `resolution` | 모니터의 해상도를 나타내는 숫자 ID입니다. 모니터 해상도 차원을 채웁니다. resolution.tsv 조회 테이블을 사용합니다. | smallint 부호 없음 |
 | `s_kwcid` | Adobe Advertising Cloud 통합에 사용되는 키워드 ID입니다. | varchar(255) |
 | `s_resolution` | Raw 화면 해상도 값입니다. JavaScript 함수 screen.width x screen.height를 사용하여 수집합니다. | char(20) |
@@ -206,7 +206,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `user_hash` | 사용하지 않습니다. 보고서 세트 ID의 해시. 대신 사용자 이름을 사용하십시오. | int 부호 없음 |
 | `user_server` | 서버 차원에 사용되는 변수입니다. | varchar(100) |
 | `userid` | 사용하지 않습니다. 보고서 세트 ID의 숫자 ID입니다. 대신 사용자 이름을 사용하십시오. | int 부호 없음 |
-| `username` | 히트에 대한 보고서 세트 ID입니다. | char(40) |
+| `username` | 히트에 대한 보고서 세트 ID. | char(40) |
 | `va_closer_detail` | 마지막 터치 세부 사항 차원에 사용되는 변수입니다. | varchar(255) |
 | `va_closer_id` | 마지막 터치 채널 차원을 식별하는 숫자 ID입니다. 이 ID에 대한 조회는 마케팅 채널 관리자에서 찾을 수 있습니다. | tinyint 부호 없음 |
 | `va_finder_detail` | 첫 번째 터치 세부 사항 차원에 사용되는 변수입니다. | varchar(255) |
@@ -269,7 +269,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `visit_referrer` | 방문의 첫 번째 레퍼러입니다. | varchar(255) |
 | `visit_search_engine` | 방문의 첫 번째 검색 엔진에 대한 숫자 ID입니다. search_engines.tsv 조회 테이블을 사용합니다. | smallint 부호 없음 |
 | `visit_start_page_url` | 방문의 첫 번째 URL입니다. | varchar(255) |
-| `visit_start_pagename` | 방문의 첫 번째 페이지 이름. | varchar(100) |
+| `visit_start_pagename` | 방문의 첫 번째 페이지 이름입니다. | varchar(100) |
 | `visit_start_time_gmt` | 방문의 첫 번째 히트 타임스탬프(Unix 시간)입니다. | int |
 | `weekly_visitor` | 히트가 새 주별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | `yearly_visitor` | 히트가 새 연별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
