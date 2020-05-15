@@ -3,7 +3,10 @@ description: 'null'
 title: 기여도 분석 실행
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 프로젝트에서 기여도 분석을 호출하는 데에는 두 가지 방법이 있습니다.
 
-* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. 예외 항목을 표시하지 않는 행에서 실행할 수도 있습니다.
+* 일별 세부기간을 사용하는 자유 형식 테이블에서 임의 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 선택합니다. 예외 항목을 표시하지 않는 행에서 실행할 수도 있습니다.
 
    >[!NOTE]
    >
@@ -24,11 +27,11 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/run_ca.png)
 
-* 라인 차트에서는, 라인 차트의 예외 항목 데이터 포인트 위로 마우스를 가져갑니다. Click the **[!UICONTROL Analyze]** link that appears.
+* 라인 차트에서는, 라인 차트의 예외 항목 데이터 포인트 위로 마우스를 가져갑니다. 표시되는 **[!UICONTROL 분석]** 링크를 클릭합니다.
 
    ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (선택 사항) 라인 차트나 표에서 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭한 후에 [차원을 제외](#section_F6932F4BF74544B5872164E7B1E0C6FC)하여 분석 범위를 좁힐 수 있습니다(따라서 분석 속도가 빨라짐).
 
 1. 기여도 분석이 로드되는 동안 기다려 주십시오. 이 작업은 보고서 세트의 크기와 차원의 수에 따라 상당한 시간이 걸릴 수 있습니다. 기여도 분석에서는 차원당 상위 50,000개의 항목을 분석합니다.
 1. 그런 다음 Analysis Workspace에서는 이 프로젝트 내에서 바로 새 기여도 분석 패널을 로드합니다. 전에 Reports &amp; Analytics에서 기여도 분석을 사용한 적이 있다면 익숙한 패널이 많이 표시됩니다.
@@ -55,16 +58,16 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 기여도 분석에서 일부 차원을 제외하고자 하는 경우가 있을 수 있습니다. 예를 들어, 브라우저 또는 하드웨어와 관련된 차원을 전혀 고려하지 않을 수 있으며, 이를 제거하여 분석 속도를 높이고 싶을 수도 있습니다.
 
-1. 라인 차트 **[!UICONTROL Run Contribution Analysis]** 에서 또는 **[!UICONTROL Analyze]** 을 클릭하면 **[!UICONTROL Excluded Dimensions]** 패널이 표시됩니다.
+1. **[!UICONTROL 기여도 분석 실행]**(또는 라인 차트에서 **[!UICONTROL 분석]**)을 클릭하면 **[!UICONTROL 제외된 차원]** 패널이 표시됩니다.
 
-1. 원하지 않는 크기를 **[!UICONTROL Excluded Dimensions]** 패널로 드래그한 다음 클릭하여 목록을 저장합니다 **[!UICONTROL Set as Default]**. Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
+1. 원하지 않는 차원을 **[!UICONTROL 제외된 차원]** 패널로 드래그한 다음 **[!UICONTROL 기본값으로 설정]**&#x200B;을 클릭하여 목록을 저장하면 됩니다. 또는 **[!UICONTROL 모두 지우기]**&#x200B;를 클릭하여 제외할 차원을 선택하여 다시 시작합니다.
 
    ![](assets/exclude_dimensions.png)
 
-1. After you have added dimensions to exclude (or chosen not to), click **[!UICONTROL Run Contribution Analysis]** again.
+1. 제외할 차원을 추가한(또는 제외하지 않도록 선택한) 후, 다시 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭합니다.
 1. 제외된 차원 목록을 수정해야 하는 경우, 차원을 두 번 클릭하면 제외된 차원 목록이 표시됩니다.
 
    ![](assets/excluded-dimensions.png)
 
-1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
+1. 원하지 않는 차원 옆에 있는 x를 클릭하여 삭제한 다음 **[!UICONTROL 기본값으로 설정을 클릭하여 목록을 저장합니다]**.
 
