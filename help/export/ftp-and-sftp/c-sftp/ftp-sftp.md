@@ -3,7 +3,7 @@ description: SFTP는 본인을 제외한 누구도 본인의 데이터를 볼 �
 keywords: ftp;sftp
 title: Secure File Transfer Protocol - 개요
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
