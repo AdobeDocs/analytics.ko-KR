@@ -2,8 +2,11 @@
 title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
+translation-type: tm+mt
+source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 2019년 1월 이후에는 Adobe Analytics 설명서 세트에 대한 컨텐츠 업데이트입니다.
 
-* [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용을 확인하려면 [여기](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)로 이동하십시오.
+* 고객 [!UICONTROL 여정 분석에 대한 자세한 내용은]여기를 [](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)참조하십시오.
 * 새로운 Adobe Analytics 기능, 관리자 공지 및 버그 수정에 대한 포괄적인 목록이 필요하면 최신 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
 * 새로운 기능에 대한 자세한 내용은 도구 사용자 안내서에서 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
 * 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)을 참조하십시오.
@@ -21,13 +24,13 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 | 날짜 | 설명 |
 |---|---|
-| 2020년 4월 28일 | [컨텐트 속도](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/metrics/metrics-content-velocity.html) 지표에 대한 설명서를 추가했습니다. |
-| 2020년 3월 12일 | [Experience Cloud에 세그먼트 게시](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-publish.html)에 대한 업데이트를 추가했습니다. |
+| 2020년 4월 28일 | [컨텐트 속도](/help/components/c-variables/c-metrics/metrics-content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
+| 2020년 3월 12일 | [Experience Cloud에 세그먼트 게시](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)에 대한 업데이트를 추가했습니다. |
 | 2020년 3월 12일 | CDA 결합 지연에 대한 업데이트. |
 | 2020년 2월 27일 | [Adobe Analytics Labs](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/tech-previews/overview.html)에 대한 설명서를 추가했습니다. |
 | 2020년 2월 25일 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 변수를 추가했습니다. |
 | 2020년 2월 18일 | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 변수를 추가했습니다. |
-| 2020년 2월 12일 | [마케팅 채널](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 설명서에 대한 업데이트 및 재구성. |
+| 2020년 2월 12일 | [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 설명서에 대한 업데이트 및 재구성. |
 | 2020년 2월 7일 | [교차 장치 분석 설정](../components/cda/cda-setup.md) 및 [FAQ](../components/cda/cda-faq.md)에 대한 업데이트 |
 | 2020년 2월 4일 | [구현 사용 안내서](../implement/home.md)의 전체적인 재작성. |
 | 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
