@@ -3,7 +3,7 @@ description: 트래픽 변수 보고서를 추가하고 활성화하는 방법�
 title: 트래픽 변수 보고서 활성화
 topic: Admin tools
 uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
