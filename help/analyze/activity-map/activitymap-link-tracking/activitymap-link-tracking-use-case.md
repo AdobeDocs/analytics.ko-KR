@@ -3,7 +3,7 @@ description: s_objectID 변경을 사용하여 링크 ID를 사용자 지정하�
 title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
