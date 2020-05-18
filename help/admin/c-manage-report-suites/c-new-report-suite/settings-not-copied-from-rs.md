@@ -3,7 +3,7 @@ description: 기존 보고서 세트에서 설정을 복사한 경우 시스템 
 title: 소스 보고서 세트에서 복사되지 않은 설정
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p>분류 데이터(분류 구조가 복사됨) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>거래 ID 기록 활성화 </p> </td> 
@@ -68,7 +68,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>방문자 ClickMap 관리자 </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Activity Map으로 업그레이드</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Activity Map으로 업그레이드</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 </p> </td> 
