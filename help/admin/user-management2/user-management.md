@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 사용자 및 제품 관리
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -16,7 +16,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 ## Admin Console 관리자에 대한 도움말 리소스 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -41,7 +41,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
 
 ## 사용자 관리 설명 {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-다음 표에서는 의 [!UICONTROL Users] 탭에 있는 요소에 대해 설명합니다 [!UICONTROL User Management].
+다음 표에서는 [!UICONTROL 사용자 관리]의 [!UICONTROL 사용자] 탭에 있는 요소에 대해 설명합니다.
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
@@ -117,7 +117,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 양도</span> </td> 
-   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p>자세한 내용은 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 사용자 계정 권한 이전</a> 참조. </p> </td> 
+   <td colname="col2">한 사용자 계정의 권한(권한 및 리소스 액세스)을 다른 계정에 지정합니다. <p> <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 사용자 계정 권한 이전</a> 참조. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 이 사용자로 로그인</span> </td> 
