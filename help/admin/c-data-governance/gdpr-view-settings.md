@@ -2,7 +2,7 @@
 description: 관리 도구의 데이터 거버넌스 대화 상자는 데이터 거버넌스에 대해 구성된 보고서 세트, 해당 보고서 세트가 Experience Cloud 조직에 매핑되었는지 여부 및 데이터 보존 정책이 이 보고서 세트에 적용되어 있는지 여부에 대한 개요를 제공합니다.
 title: 보고서 세트의 데이터 거버넌스 설정 보기/관리
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 관리 도구의 데이터 거버넌스 대화 상자는 데이터 거버넌스에 대해 구성된 보고서 세트, 해당 보고서 세트가 Experience Cloud 조직에 매핑되었는지 여부 및 데이터 보존 정책이 이 보고서 세트에 적용되어 있는지 여부에 대한 개요를 제공합니다.
 
 1. Adobe Experience Cloud에 로그인합니다.
-1. > **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**&#x200B;으로 이동합니다.
 
    로그인 회사의 일부인 모든 보고서 세트가 표시됩니다.
 
