@@ -3,7 +3,7 @@ description: 롤업 보고서 세트는 여러 하위 보고서 세트에서 데
 title: 롤업 및 글로벌 보고서 세트
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
