@@ -3,7 +3,7 @@ description: 링크 보고서는 현재 페이지에서 찾은 링크에 대해 
 title: 링크 보고서
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
   </tr> 
   <tr> 
    <td colname="col1"> 링크 ID </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
+   <td colname="col2">링크의 기본 ID(기본 ID가 <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">새로운 링크 추적 방법</a>에 의해 정의되는 방식에 대한 자세한 정보) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 클릭 수 </td> 
@@ -82,7 +82,7 @@ source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
   </tr> 
   <tr> 
    <td colname="col1"> 링크 ID </td> 
-   <td colname="col2">링크의 기본 ID. For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
+   <td colname="col2">링크의 기본 ID. 기본 ID가 새로운 <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">링크 추적 방법</a>에 의해 정의되는 방식에 대한 자세한 정보. </td>
   </tr> 
   <tr> 
    <td colname="col1"> 링크 클릭 </td> 
