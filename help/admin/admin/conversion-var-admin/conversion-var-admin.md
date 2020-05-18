@@ -4,7 +4,7 @@ keywords: eVar
 title: 전환 변수(eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -84,7 +84,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> eVar 값을 제품에 연결합니다. 참고: 제품 구문을 선택한 경우 머천다이징 바인딩 이벤트 섹션이 비활성화되므로 선택하여 편집할 수 없습니다. 이 구문에는 바인딩 이벤트를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> eVar 값을 제품에 연결합니다. 참고: 제품 구문을 선택한 경우 머천다이징 바인딩 이벤트 섹션이 비활성화되므로 선택하여 편집할 수 없습니다. 이 구문에는 바인딩 이벤트를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/merchandising-variables/var-merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p>(eVar만) </p> </td> 
@@ -100,11 +100,11 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 다음과 같은 두 가지 eVar 만료 방법이 있습니다.
 
 * 지정된 시간이나 이벤트 후 eVar가 만료되도록 설정할 수 있습니다.
-* eVar를 재설정하여 강제 만료 기능을 사용할 수 있습니다. 이 기능은 변수를 재활용할 때 유용합니다.
+* 재설정하여 eVar의 강제 만료 기능을 사용할 수 있으며, 이 기능은 변수를 다른 목적에 사용할 때 유용합니다.
 
-예를 들어 eVar 만료를 30일에서 90일로 변경하면 수집된 eVar 값은 새 만료 세트의 기간(이 경우 90일)에 계속 유지됩니다. 시스템은 현재 만료 설정 및 수집된 eVar 값의 마지막 세트 타임스탬프를 보고 만료를 결정합니다. 옵션만 값을 **[!UICONTROL Reset]** 만료하고 즉시 만료됩니다.
+예를 들어 eVar의 만료를 30일에서 90일로 변경하면 수집된 eVar 값은 새 만료 세트의 기간(이 경우 90일) 동안 계속 유지됩니다. 시스템은 현재 만료 설정 및 수집된 eVar 값의 마지막 세트 타임스탬프를 보고 만료를 확인합니다. **[!UICONTROL 재설정]** 옵션만 값을 만료하고 즉시 만료됩니다.
 
-다른 예:eVar를 내부 판촉 행사를 반영하기 위해 5월에 사용하고 6월에 내부 검색 키워드를 캡처하는 데 사용하는 경우 6월 1일에 변수를 강제로 만료하거나 재설정해야 합니다. 이렇게 하면 내부 판촉 행사 값을 6월의 보고서에서 빼는 데 유용합니다.
+다른 예: eVar를 내부 판촉 행사 반영을 위해 5월에 사용하고 6월에 내부 검색 키워드를 캡처하는 데 사용한다면, 6월 1일에 변수를 강제로 만료하거나 재설정해야 합니다. 이렇게 하면 내부 판촉 행사 값을 6월의 보고서에서 빼는 데 유용합니다.
 
 **대/소문자 구분**
 
