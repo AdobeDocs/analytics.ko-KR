@@ -1,29 +1,29 @@
 ---
-description: s.tl() 메서드를 사용하여 사용자 지정 요소를 추적하고 동적 내용에 대한 오버레이 렌더링을 구성할 수 있습니다.
+description: s.tl() 메서드를 사용하여 사용자 지정 요소를 추적하고 다이내믹 컨텐츠에 대한 오버레이 렌더링을 구성할 수 있습니다.
 title: s.tl() 메서드 사용
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# 메서드 `tl()` 사용
+# `tl()` 메서드 사용
 
-You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content.
+`tl()` 메서드를 사용하여 사용자 지정 요소를 추적하고 다이내믹 컨텐츠에 대한 오버레이 렌더링을 구성할 수 있습니다.
 
 ## 사용자 지정 요소 추적 {#section_5D6688DFFFC241718249A9A0C632E465}
 
-Using the [`tl()` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. s.tl을 사용하면, 페이지 로드를 발생시키지 않는 모든 사용자 지정 요소를 추적할 수 있습니다.
+[`tl()` 메서드](/help/implement/vars/functions/tl-method.md)를 Activity Map AppMeasurement 모듈의 일부로 사용하면 클릭한 개체를 추적할 수 있습니다. 앵커 태그나 이미지 요소가 아닌 개체도 추적할 수 있습니다. s.tl을 사용하면, 페이지 로드를 발생시키지 않는 모든 사용자 지정 요소를 추적할 수 있습니다.
 
-In the `tl()` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. 지금 Activity Map 변수용 링크 ID를 식별하는 데에도 사용됩니다.
+`tl()` 메서드에서 현재 종료 링크, 사용자 지정 링크 등을 식별하는 데 사용하는 `linkName` 매개 변수 지금 Activity Map 변수용 링크 ID를 식별하는 데에도 사용됩니다.
 
 ```js
 s.tl(this,linkType,linkName,variableOverrides)
 ```
 
-In other words, if you use `s.tl()` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl()` method. Activity Map에서 [기본 추적](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)에 사용되는 표준 링크 추적 알고리즘에서는 가져오지 않습니다.
+다시 말해, `s.tl()`을 사용하여 사용자 지정 요소를 추적하는 경우, 링크 ID는 `s.tl()` 메서드에서 세 번째 매개 변수(linkName)로 전달된 값에서 가져옵니다. Activity Map에서 [기본 추적](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)에 사용되는 표준 링크 추적 알고리즘에서는 가져오지 않습니다.
 
 ## 다이내믹 컨텐츠를 위한 오버레이 렌더링 {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
@@ -33,9 +33,9 @@ s.tl() 함수가 HTML 요소의 클릭 이벤트에서 바로 호출되면 웹 �
 <div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
 ```
 
-Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. 그런 다음 새 링크 컬렉션 프로세스가 Activity Map에서 트리거됩니다.
+초기 페이지 로드 후 웹 페이지 컨텐츠가 페이지에 추가될 때마다 `tl()` 메서드가 간접적으로 호출되고 Adobe에서는 새 컨텐츠가 명시적으로 활성화되거나 클릭되지 않는 한 해당 새 컨텐츠에 대한 오버레이를 표시할 수 없습니다. 그런 다음 새 링크 컬렉션 프로세스가 Activity Map에서 트리거됩니다.
 
-When the `tl()` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
+`tl()` 메서드가 HTML 요소의 클릭 이벤트에서 바로 호출되지 않으면 사용자가 해당 요소를 클릭한 후에만 Acitivity Map에서 오버레이를 표시할 수 있습니다. 다음은 `tl()` 메서드가 간접적으로 호출되는 예입니다.
 
 ```html
 <div onclick="someFn(event)"></div>
@@ -46,7 +46,7 @@ When the `tl()` method is not called directly from the HTML element&#39;s on-cli
 </script>
 ```
 
-The best way for Activity Map to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to `s.tl`. 예:
+Activity Map이 다이내믹 컨텐츠 링크를 오버레이하는 가장 좋은 방법은 반환 값이 `s.tl`로 전달되는 함수와 동일한 함수를 호출하도록 사용자 지정된 ActivityMap.link 함수를 설정하는 것입니다. 예:
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
