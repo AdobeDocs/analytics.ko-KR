@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 세 가지 방법
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
