@@ -2,7 +2,7 @@
 description: 이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors(이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
 title: 데이터 개인 정보 보호 및 Data Connectors(Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -73,7 +73,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>DREAMmail 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Email eVar </p> </td> 
+   <td colname="col2"> <p>이메일 eVar </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
