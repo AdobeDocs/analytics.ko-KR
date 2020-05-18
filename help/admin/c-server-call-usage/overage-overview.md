@@ -2,7 +2,7 @@
 description: 'null'
 title: 서버 호출 사용량 개요
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -61,7 +61,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 조직 </p> </td> 
-   <td colname="col2"> <p> 조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>서버 호출 약정 </p> </td> 
