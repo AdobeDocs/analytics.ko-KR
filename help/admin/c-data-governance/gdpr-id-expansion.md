@@ -2,7 +2,7 @@
 description: '제출하는 ID가 Analytics에서 데이터 주체와 연결할 수 있는 모든 히트 데이터를 항상 포함하는 것은 아닙니다. Analytics에서는 연결된 데이터를 데이터 개인 정보 보호 요청에 포함하도록 확장된 ID 세트를 만들 수 있습니다. 제출한 각 데이터 개인 정보 보호 요청에 대해 선택적 매개 변수와 함께 이 옵션을 요청하여 JSON 요청에 추가할 수 있습니다. '
 title: ID 확장
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
  <tbody> 
   <tr> 
    <td colname="col1"> <p>쿠키 ID 확장 </p> </td> 
-   <td colname="col2"> <p>원래 기존 <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html">Analytics 쿠키</a>를 사용했던 많은 Analytics 고객이 지금은 이전에 MCID(Marketing Cloud ID Service)로 알려졌던 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html">ECID(Identity Service)</a>를 사용합니다. 전환 후 처음 방문한 해당 웹 사이트 방문자의 경우 ECID만 존재합니다. 하지만 기존 쿠키만 사용할 수 있을 때 처음 방문하고 이후에 방문한 방문자의 경우에는 일부 데이터에 두 쿠키가 모두 있지만, 드문 경우, 이전 데이터에는 Analytics 쿠키만 있고 최신 데이터에는 ECID만 있을 수 있습니다. </p> <p>Analytics(방문자 ID) 쿠키 또는 ECID를 통해 식별된 방문자에 대한 모든 데이터를 찾으려고 합니다. 따라서 현재 ECID를 사용하고 이전에 Analytics 쿠키를 사용한 경우 두 가지 유형의 ID 중 하나를 사용하여 요청을 제출할 때마다 두 ID를 요청에 포함하거나 expandIds 옵션을 지정해야 합니다. expandIds를 지정하면 Adobe는 사용자가 제공한 쿠키 ID에 해당하는 다른 ECID 또는 Analytics 쿠키를 확인합니다. 새로 식별된 쿠키 ID를 포함하도록 요청이 자동으로 확장됩니다. </p> </td> 
+   <td colname="col2"> <p>원래 기존 <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-privacy.html">Analytics 쿠키</a>를 사용했던 많은 Analytics 고객이 지금은 이전에 MCID(Marketing Cloud ID Service)로 알려졌던 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html">ECID(Identity Service)</a>를 사용합니다. 전환 후 처음 방문한 해당 웹 사이트 방문자의 경우 ECID만 존재합니다. 하지만 기존 쿠키만 사용할 수 있을 때 처음 방문하고 이후에 방문한 방문자의 경우에는 일부 데이터에 두 쿠키가 모두 있지만, 드문 경우, 이전 데이터에는 Analytics 쿠키만 있고 최신 데이터에는 ECID만 있을 수 있습니다. </p> <p>Analytics(방문자 ID) 쿠키 또는 ECID를 통해 식별된 방문자에 대한 모든 데이터를 찾으려고 합니다. 따라서 현재 ECID를 사용하고 이전에 Analytics 쿠키를 사용한 경우 두 가지 유형의 ID 중 하나를 사용하여 요청을 제출할 때마다 두 ID를 요청에 포함하거나 expandIds 옵션을 지정해야 합니다. expandIds를 지정하면 Adobe는 사용자가 제공한 쿠키 ID에 해당하는 다른 ECID 또는 Analytics 쿠키를 확인합니다. 새로 식별된 쿠키 ID를 포함하도록 요청이 자동으로 확장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿠키 ID 확장에 대한 사용자 지정 ID </p> </td> 
