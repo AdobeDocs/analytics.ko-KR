@@ -2,7 +2,7 @@
 description: 'null'
 title: Analytics 변수의 데이터 개인 정보 보호 레이블
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -208,8 +208,8 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 로그인 회사의 모든 보고서 세트에 있는 다른 변수에 ID 레이블을 이전에 할당한 경우 이러한 기존 네임스페이스 중 하나를 선택할 수 있습니다. 이 변수에 이 네임스페이스로 이미 레이블이 지정된 다른 변수와 동일한 유형의 ID가 포함되어 있고 요청을 제출할 때 이 변수를 모두 검색하려면 네임스페이스를 다시 사용해야 합니다.
 
-1. **[!UICONTROL 네임스페이스 선택]**&#x200B;을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.
-1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Select Namespace]**&#x200B;을 클릭하고 기존 네임스페이스 중 하나를 선택합니다.
+1. 클릭 **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
 
@@ -217,12 +217,12 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 새 네임스페이스를 정의할 수도 있습니다. 네임스페이스 문자열을 영숫자와 밑줄, 대시 및 공백으로 제한하는 것이 좋습니다. 이 문자열은 소문자로 변환됩니다.
 
-1. **[!UICONTROL 네임스페이스 선택]**&#x200B;을 클릭하고 네임스페이스 제목을 입력합니다.
+1. **[!UICONTROL Select Namespace]**&#x200B;을 클릭하고 네임스페이스 제목을 입력합니다.
 
    ![](assets/namespace2.png)
 
 1. **[!UICONTROL Enter]** 키를 눌러 이 네임스페이스를 추가합니다. 현재는 적용 단추만 활성화됩니다.
-1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Apply]**.
 
 네임스페이스로 지정하는 문자열은 데이터 개인 정보 보호 API를 통해 요청을 &quot;네임스페이스&quot; 매개 변수 값으로 제출할 때 사용해야 하는 것과 동일한 문자열입니다. 그러면 이 요청은 Adobe Analytics가 이 네임스페이스를 공유하는 모든 보고서 세트의 모든 변수에서 요청으로 지정한 ID를 검색하도록 합니다.
 
