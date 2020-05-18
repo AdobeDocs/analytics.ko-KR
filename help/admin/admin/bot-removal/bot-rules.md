@@ -4,7 +4,7 @@ subtopic: Bot rules
 title: 보트 규칙 개요
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 보트 규칙이 정의된 후, 모든 들어오는 트래픽이 정의된 규칙과 비교됩니다. 이러한 규칙과 일치하는 트래픽은 보고서 세트에서 수집되지 않고 트래픽 지표에 포함되지 않습니다.
 
-보트 규칙을 업데이트하거나 업로드하려면 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**&#x200B;으로 이동합니다. 올바른 보고서 세트를 선택한 다음 **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**&#x200B;로 이동합니다.
+보트 규칙을 업데이트하거나 업로드하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다. 올바른 보고서 세트를 선택한 다음 **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 보트 규칙]**&#x200B;으로 이동합니다.
 
 일반적으로 보트 트래픽을 제거하면 트래픽 양과 전환 지표가 줄어듭니다. 대부분의 고객이 보트 트래픽을 제거하면 전환율이 증가하고 기타 유용성 지표도 증가함을 확인할 수 있습니다. 보트 트래픽을 제거하기 전에 이해 당사자들과 소통하여 이러한 변경의 결과로 핵심 성능 지표(KPI)에 필요한 조정을 할 수 있음을 확인하십시오. 가능하면 작은 보고서 세트에서 먼저 보트 트래픽을 제거하여 잠재적 영향을 추정하는 것이 좋습니다.
 
@@ -24,12 +24,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 규칙 유형 | 설명 |
 |--- |--- |
-| 표준 IAB 보트 규칙 | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
+| 표준 IAB 보트 규칙 | [!UICONTROL IAB 보트 필터링 규칙 사용]을 선택하면 [IAB](https://www.iab.com)(International Advertising Bureau) International Spiders &amp; Bots List를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
 | 사용자 지정 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 하여 사용자 지정 보트 규칙을 정의하고 추가할 수 있습니다. |
 
 ## 표준 IAB 보트 규칙
 
-확인란을 선택하여 표준 IAB 보트 규칙을 설정할 수 [!UICONTROL Enable IAB Bot Filtering Rules] 있습니다. 이 옵션을 선택하면 IAB(International Advertising Bureau)의 International Spiders &amp; Bots List에 있는 보트를 제거하여 보트 트래픽을 제거합니다. IAB는 이 목록을 매달 업데이트합니다.
+[!UICONTROL IAB 보트 필터링 규칙 활성화] 확인란을 선택하여 표준 IAB 보트 규칙을 설정할 수 있습니다. 이 옵션을 선택하면 IAB(International Advertising Bureau)의 International Spiders &amp; Bots List에 있는 보트를 제거하여 보트 트래픽을 제거합니다. IAB는 이 목록을 매달 업데이트합니다.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -51,11 +51,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ### 사용자 에이전트
 
-A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
+사용자 에이전트 조건은 사용자 에이전트 값을 확인하여 지정된 문자열로 **[!UICONTROL 시작하는지]** 또는 이 문자열을 **[!UICONTROL 포함하는지]** 확인합니다. **[!UICONTROL 포함]**&#x200B;을 선택하면 위치에 관계없이 사용자 에이전트에서 발견될 경우 해당 하위 문자열과 일치됩니다.
 
-Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. 한 줄에 값을 하나씩 포함하여 여러 값을 지정할 수 있습니다. 사용자 에이전트가 일치 문자열에 지정된 기준을 충족하지만, 포함하지 않음 목록의 문자열을 포함할 경우에는 일치로 간주되지 않습니다.
+**[!UICONTROL 포함하지 않음]** 목록에 선택적인 값을 포함하여 사용자 에이전트가 포함해서는 안 되는 값을 정의할 수 있습니다. 한 줄에 값을 하나씩 포함하여 여러 값을 지정할 수 있습니다. 사용자 에이전트가 일치 문자열에 지정된 기준을 충족하지만, 포함하지 않음 목록의 문자열을 포함할 경우에는 일치로 간주되지 않습니다.
 
-The **[!UICONTROL contains]** field is limited to 100 characters. 포함하지 않음 목록은 255자 - 각 줄바꿈에 대한 구문 문자로 제한됩니다. 이것은 문자열 수 - 1과 같습니다. *4개의 포함하지 않음* 문자열을 지정할 경우 3개의 구분 문자가 필요합니다. 모든 문자열 일치는 대/소문자를 구분하지 않습니다.
+**[!UICONTROL 포함 필드는 100자로 제한됩니다.]** 포함하지 않음 목록은 255자 - 각 줄바꿈에 대한 구문 문자로 제한됩니다. 이것은 문자열 수 - 1과 같습니다. *4개의 포함하지 않음* 문자열을 지정할 경우 3개의 구분 문자가 필요합니다. 모든 문자열 일치는 대/소문자를 구분하지 않습니다.
 
 ### IP 주소(와일드카드 일치 포함)
 
@@ -72,9 +72,9 @@ The **[!UICONTROL contains]** field is limited to 100 characters. 포함하지 �
 
 ### 사용자 지정 보트 규칙 정의
 
-1. > **[!UICONTROL Analytics]** 로 **[!UICONTROL Admin]**&#x200B;이동하고 하나 이상의 보고서 세트를 선택하고 **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**&#x200B;을 클릭합니다.
-1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
-1. 클릭 **[!UICONTROL Save]**. 변경은 30분 이내에 적용됩니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]**&#x200B;로 이동하고, 하나 이상의 보고서 세트를 선택한 다음 **[!UICONTROL 일반]** > **[!UICONTROL 보트 규칙]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 일치 조건을 한 개 이상 정의합니다.
+1. **[!UICONTROL 저장을 클릭합니다]**. 변경은 30분 이내에 적용됩니다.
 
 ## 보트 규칙 업로드
 
@@ -106,11 +106,11 @@ OR로 결합된 규칙의 조합을 사용하여 보트를 일치시키려면(�
 
 ### 업로드 파일로 모든 규칙 덮어쓰기
 
-Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
+모든 기존 규칙을 삭제하고 업로드 파일에 정의된 규칙으로 대체하려면 **[!UICONTROL 기존 규칙 덮어쓰기]** 확인란을 선택하십시오.
 
 ### 규칙 내보내기
 
-The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
+**[!UICONTROL 업로드된 보트 파일 내보내기]** 단추를 누르면 UI에 정의된 모든 규칙을 CSV 형식으로 내보냅니다.
 
 
 ## 보트 규칙이 데이터 수집에 미치는 영향 {#section_F01A3130E7A04A9993371CF26F6586F2}
