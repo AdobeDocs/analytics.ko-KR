@@ -2,7 +2,7 @@
 description: 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 레이블 및 해당 정의를 숙지하십시오.
 title: 보고서 세트 데이터에 레이블 지정
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **예**: 데이터 제어자는 해당 데이터 개인 정보 보호 요청을 처리하기 위해 데이터 주체의 이메일 주소와 쿠키 ID를 수집하도록 계획합니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다. 이메일 주소 및 쿠키 ID에 대한 레이블을 작성하려면 Analytics에서 Adobe Cloud Platform의 DULE(Data Usage Labeling &amp; Enforcement) 프레임워크를 사용해야 합니다.
 
-1. Analytics에서 **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]** > **[!UICONTROL (보고서 세트 선택)]**&#x200B;으로 이동합니다.![](assets/privacy_rs_settings.png)
+1. Analytics에서 **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)로 이동합니다.
 
 1. 레이블을 지정할 변수 그룹을 선택합니다.
 
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/info.png)
 
-1. 확인란을 클릭하여 하나 이상의 변수를 선택한 다음 오른쪽에 있는 **[!UICONTROL 편집]** 아이콘을 선택하여 하나 이상의 변수를 편집합니다.
+1. 확인란을 클릭하여 하나 이상의 변수를 선택한 다음 오른쪽에 있는 **[!UICONTROL Edit]** 아이콘을 선택하여 하나 이상의 변수를 편집합니다.
 
    ![](assets/edit.png)
 
@@ -57,7 +57,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/privacy_labels.png)
 
-1. 모든 레이블 지정을 완료한 후 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+1. 모든 레이블 지정을 완료한 후 **[!UICONTROL Apply]**&#x200B;을 클릭합니다.
 
 ## 보고서 세트에 레이블 복사 {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -65,11 +65,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 변수 그룹(표준 차원, 전환 차원 등)을 선택합니다. 복사하려는 변수가 포함되어 있습니다. 한 번에 하나의 변수 그룹에 대한 레이블만 복사할 수 있습니다.
 1. 이 그룹에서 변수 중 일부 또는 전체를 선택합니다.
-1. 데이터 거버넌스 대화 상자의 오른쪽 맨 위에 있는 **[!UICONTROL 보고서 세트에 레이블 복사]**&#x200B;를 클릭합니다.
+1. 데이터 거버넌스 대화 상자 오른쪽 상단에서 **[!UICONTROL Copy Labels to Report Suite(s)]**&#x200B;을 클릭합니다.
 
    ![](assets/apply_as_template.png)
 
-1. **[!UICONTROL 모두 선택]**&#x200B;을 선택하여 선택된 변수의 레이블을 모든 보고서 세트에 복사하거나 레이블을 복사할 개별 보고서 세트를 선택합니다.
+1. **[!UICONTROL Select All]**&#x200B;을 선택하여 선택된 변수의 레이블을 모든 보고서 세트에 복사하거나 레이블을 복사할 개별 보고서 세트를 선택합니다.
 
    >[!IMPORTANT]
    >
@@ -87,5 +87,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    >
    >항상 대상 보고서 세트를 검사하여 레이블이 올바르게 복사되었는지 확인해야 합니다. 이는 ID 또는 DEL 레이블이 있는 변수에 특히 중요합니다.
 
-1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Apply]**.
 
