@@ -1,7 +1,7 @@
 ---
 title: 목록 변수
 description: 보고에 사용할 목록 변수를 만들고 구성합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # 목록 변수
 
-보고에 사용할 목록 변수를 만들고 구성합니다. 여기에서 구분 기호, 만료, 할당 및 최대 값을 설정합니다.
+보고에 사용할 목록 변수를 만들고 구성합니다. 구분 기호, 만료, 할당 및 최대값을 여기에서 설정합니다.
 
 관리 콘솔에서 구성에 액세스할 수 있습니다.
 
