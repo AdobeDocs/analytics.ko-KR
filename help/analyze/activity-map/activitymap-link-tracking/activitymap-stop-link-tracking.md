@@ -3,7 +3,7 @@ description: Activity Map 또는 레거시 ClickMap에서의 링크 추적을 �
 title: 링크 추적 중지
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -40,7 +40,7 @@ Activity Map 또는 레거시 ClickMap에서의 링크 추적을 중지하는 �
   </tr> 
   <tr> 
    <td colname="col1">  ClickMap(이전 Visitor ClickMap) </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 변수를 false(기본값)로 설정하십시오. 구문은 다음과 같습니다. 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 변수를 false(기본값)로 설정하십시오. 구문은 다음과 같습니다. 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
