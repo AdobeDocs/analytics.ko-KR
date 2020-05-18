@@ -2,7 +2,7 @@
 description: 'null'
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## 소비자 동의 관리 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-데이터 제어자는 데이터 주체에 대한 데이터(Adobe Analytics 데이터 포함 가능)를 수집하기 전에 데이터 주체로부터 명시적 동의를 받고 웹 사이트에서 [옵트아웃 메커니즘을 구현](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html)할 책임이 있습니다. 이렇게 하면 데이터 주체가 향후 Adobe Experience Cloud 데이터 수집을 옵트 아웃할 수 있습니다.
+데이터 제어자는 데이터 주체에 대한 데이터(Adobe Analytics 데이터 포함 가능)를 수집하기 전에 데이터 주체로부터 명시적 동의를 받고 웹 사이트에서 [옵트아웃 메커니즘을 구현](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/opt-in.html)할 책임이 있습니다. 이렇게 하면 데이터 주체가 향후 Adobe Experience Cloud 데이터 수집을 옵트 아웃할 수 있습니다.
 
 ## 사용자 및 해당 데이터의 유효성 검사 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
