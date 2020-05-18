@@ -3,7 +3,7 @@ description: 'Activity Map 기능의 설정, 구성 및 사용과 관련하여 �
 title: Activity Map FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ A: Adobe SiteCatalyst 고객은 관리 콘솔의 Activity Map 지원 페이지�
 
 **Q: 새로운 AppMeasurement 코드는 DTM(다이내믹 태그 관리)을 통해 구성할 수 있습니까?**
 
-A: 예. 새로운 AppMeasurement 코드를 [수동으로 구현](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)할 수 있습니다.
+A: 예. 새로운 AppMeasurement 코드를 [수동으로 구현](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/analytics-dtm.html)할 수 있습니다.
 
 **Q: AppMeasurement v1.6 라이브러리의 큰 변경 사항은 무엇입니까?**
 
@@ -51,9 +51,9 @@ A:
 
 * When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
-**Q:Activity Map은 &quot;보기&quot; 데이터를 제공합니까?**
+**Q: Activity Map에서 &quot;보기&quot;에 데이터를 제공합니까?**
 
-A:아니요. Adobe는 본 링크를 추적하지 않습니다.
+A: 아니요. Adobe는 열람한 링크를 추적하지 않습니다.
 
 **Q: 이전에 내 웹 사이트에서 Visitor ClickMap을 사용하지 않았어도 Activity Map을 사용할 수 있습니까?**
 
@@ -61,7 +61,7 @@ A: 새 버전을 설치하기 위해 반드시 기존 버전(지금은 간단히
 
 **Q: Activity Map에서는 어떤 브라우저 및 버전을 지원합니까?**
 
-A:Adobe는 최신 버전의 4개의 기본 브라우저(Chrome, Firefox, Safari 및 IE)를 지원합니다.
+A: Adobe에서는 4가지 최신 주요 브라우저 버전(Chrome, Firefox, Safari 및 IE)만 지원합니다.
 
 **Q: 기본 오버레이 설정은 무엇입니까?**
 
@@ -80,7 +80,7 @@ A: 기본적으로 Activity Map에는 데이터를 수집한 모든 링크가 �
 
 **Q: Activity Map이 실행 중일 때 왜 링크 클릭 데이터가 수집되지 않습니까?**
 
-A: Activity Map이 사용 중이면 링크 클릭 데이터가 Analytics 태그로 수집되지 않습니다. 이 동작은 ClickMap 플러그인의 동작을 따릅니다.
+A: Activity Map이 사용 중이면 링크 클릭 데이터가 Analytics 태그로 수집되지 않습니다. 이 동작은 ClickMap 플러그인의 동작 후 이루어집니다.
 
 **Q: Activity Map 모든 링크 보고서는 Reports &amp; Analytics Activity Map 보고와 어떻게 비교됩니까?**
 
@@ -122,7 +122,7 @@ A: 표시된 모든 데이터는 페이지 보기를 기반으로 합니다.
 
 *호환하지 않는 Analytics 태그(AppMeasurement v1.5 또는 그 이전 버전)가 있는 웹 페이지*
 
-페이지 코드를 v1.6 이상으로 업그레이드해야 함을 나타내는 경고 메시지가 표시됩니다.
+페이지 코드를 v1.6 이상으로 업그레이드해야 한다고 알려주는 경고 페이지가 표시됩니다.
 
 *호환하는 Analytics 태그(AppMeasurement v1.6 이상)가 있지만, 관리 도구에 Activity Map 보고가 활성화되어 있지 않은 웹 페이지*
 
@@ -134,9 +134,9 @@ A: 아니요.
 
 ## Activity Map의 세그멘테이션
 
-**Q: 세그먼트가 개별 사용자 세그먼트에 연결되어 있습니까? Are shared segments available in Activity Map?**
+**Q: 세그먼트가 개별 사용자 세그먼트에 연결되어 있습니까? 공유된 세그먼트를 Activity Map에서 사용할 수 있습니까?**
 
-A:Activity Map은 Analytics에서 보고 세그먼트를 상속합니다.
+A: Activity Map은 Analytics의 보고 세그먼트를 상속합니다.
 
 **Q: 세그먼트는 라이브 모드에서 작동합니까?**
 
