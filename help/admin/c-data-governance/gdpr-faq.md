@@ -2,7 +2,7 @@
 description: 'null'
 title: FAQ
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -50,7 +50,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>데이터 제어자는 데이터 개인 정보 보호와 관련하여 데이터 보존에 대해 어떻게 생각해야 합니까?</b> </p> </td> 
-   <td colname="col2"> <p>데이터 개인 정보 보호는 일반적으로 개인 데이터가 수집된 목적을 달성하는 데 필요한 기간보다 오래 해당 데이터를 보존하지 않도록 합니다. </p> <p>2월에 고객 커뮤니케이션에서 자세히 설명했듯이 Adobe는 다른 합의를 하지 않는 한 대부분의 고객에게 25개월의 데이터 보존 계획을 적용합니다(고객 알림 및 승인을 따름). Adobe에서 데이터 개인 정보 보호 요청을 처리할 수 있으려면 먼저 고객이 데이터 보존 정책을 설정해야 합니다. </p> <p>Adobe Analytics에서는 고객이 데이터 보존 정책을 설정하여 데이터 개인 정보 보호 요청을 처리하도록 합니다. 각 보고서 세트의 현재 데이터 보존 정책이 새 데이터 거버넌스 관리 UI에 표시됩니다. 고객은 데이터 보존 정책을 조정해야 하는 경우 Adobe 담당자에게 문의해야 합니다. <a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html">Adobe Analytics 데이터 유지 FAQ</a>를 참조하십시오.  </p> </td> 
+   <td colname="col2"> <p>데이터 개인 정보 보호는 일반적으로 개인 데이터가 수집된 목적을 달성하는 데 필요한 기간보다 오래 해당 데이터를 보존하지 않도록 합니다. </p> <p>2월에 고객 커뮤니케이션에서 자세히 설명했듯이 Adobe는 다른 합의를 하지 않는 한 대부분의 고객에게 25개월의 데이터 보존 계획을 적용합니다(고객 알림 및 승인을 따름). Adobe에서 데이터 개인 정보 보호 요청을 처리할 수 있으려면 먼저 고객이 데이터 보존 정책을 설정해야 합니다. </p> <p>Adobe Analytics에서는 고객이 데이터 보존 정책을 설정하여 데이터 개인 정보 보호 요청을 처리하도록 합니다. 각 보고서 세트의 현재 데이터 보존 정책이 새 데이터 거버넌스 관리 UI에 표시됩니다. 고객은 데이터 보존 정책을 조정해야 하는 경우 Adobe 담당자에게 문의해야 합니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/technotes/latency.html">Adobe Analytics 데이터 유지 FAQ</a>를 참조하십시오.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>고객이 기본 데이터 보존 기간을 줄이거나 연장할 수 있습니까?</b> </p> </td> 
