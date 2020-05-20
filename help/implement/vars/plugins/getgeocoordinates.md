@@ -1,7 +1,7 @@
 ---
 title: getGeoCoordinates
 description: 방문자의 geoLocation을 추적합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
