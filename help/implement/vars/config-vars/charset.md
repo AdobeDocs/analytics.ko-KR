@@ -1,7 +1,7 @@
 ---
 title: charSet
 description: charSet 변수는 Adobe가 이미지 요청을 구문 분석하는 데 사용하는 인코딩을 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ---
