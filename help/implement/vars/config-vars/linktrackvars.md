@@ -1,7 +1,7 @@
 ---
 title: linkTrackVars
 description: 링크 추적 이미지 요청에 포함할 변수를 지정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 일부 구현에서는 모든 링크 추적 이미지 요청에 모든 변수를 포함할 필요가 없습니다. [`tl()`](../functions/tl-method.md) 호출에 차원 및 지표를 선택적으로 포함하려면 `linkTrackVars` 및 [`linkTrackEvents`](linktrackevents.md) 변수를 사용하십시오.
 
-This variable is not used for page view calls (`t()` method).
+이 변수는 페이지 보기 호출(`t()` 메서드)에 사용되지 않습니다.
 
 ## Adobe Experience Platform Launch를 사용한 링크 추적 호출의 변수
 
@@ -21,7 +21,7 @@ Launch는 인터페이스에 설정된 변수를 기반으로 백엔드에서 �
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkTrackVars
 
-The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). 링크 추적 히트에 차원을 포함하려면 다음 두 기준을 모두 충족해야 합니다.
+`s.linkTrackVars` 변수는 링크 추적 이미지 요청(`tl()` 메서드)에 포함할 쉼표로 구분된 변수 목록이 포함된 문자열입니다. 링크 추적 히트에 차원을 포함하려면 다음 두 기준을 모두 충족해야 합니다.
 
 * 원하는 변수 값을 설정합니다. (예: `s.eVar1 = "Example value";`)
 * `linkTrackVars` 변수에서 원하는 변수를 설정합니다. (예: `s.linkTrackEvents = "eVar1";`)
