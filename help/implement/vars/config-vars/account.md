@@ -1,7 +1,7 @@
 ---
 title: account
 description: 계정 변수를 사용하여 보낸 데이터를 받을 보고서 세트를 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
