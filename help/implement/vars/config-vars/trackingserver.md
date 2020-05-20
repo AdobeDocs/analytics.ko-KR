@@ -1,7 +1,7 @@
 ---
 title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Adobe Analytics를 사용하는 다른 조직에서 선택할 가능성이 없고 조직에 고유한 하위 도메인을 선택하십시오. 조직의 모든 구현에서 동일한 추적 서버를 사용하도록 합니다. 이렇게 하면 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 이 정보를 유지하는 데 도움이 될 수 있습니다.
 
->[!NOTE] 하위 도메인을 더 깊이 사용하지 마십시오 `example.sc.omtrdc.net`. 예를 들어, 은 `custom.example.sc.omtrdc.net` 올바른 추적 서버가 아닙니다.
+>[!NOTE] `example.sc.omtrdc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.sc.omtrdc.net`은 올바른 추적 서버가 아닙니다.
