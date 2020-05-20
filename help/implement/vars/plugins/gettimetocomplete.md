@@ -1,7 +1,7 @@
 ---
 title: getTimeToComplete
 description: 작업을 완료하는 데 걸린 시간을 측정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
