@@ -1,7 +1,7 @@
 ---
 title: forceOnline
 description: AppMeasurement의 온라인 상태를 수동으로 설정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `forceOnline()` 메서드를 사용하면 자동으로 감지된 AppMeasurement 상태를 무시할 수 있습니다.
 
->[!IMPORTANT] 이 메서드를 사용할 수 [`trackOffline`](../config-vars/trackoffline.md) 있는 경우에만 사용하십시오. 오프라인 추적의 외부에서 이 함수를 사용하면 데이터가 손실될 수 있습니다.
+>[!IMPORTANT] [`trackOffline`](../config-vars/trackoffline.md)이 활성화되어 있을 때에만 이 메서드를 사용하십시오. 오프라인 추적의 외부에서 이 함수를 사용하면 데이터가 손실될 수 있습니다.
 
 AppMeasurement는 장치의 온라인 상태를 자동으로 감지합니다. `forceOnline()` 메서드를 사용하여 AppMeasurement가 히트를 장치가 온라인 상태인 것처럼 처리하도록 할 수 있습니다. 이 메서드는 인수를 사용하지 않으며 값을 반환하지 않습니다. AppMeasurement에서 온라인 상태를 무시하는 것이 이 메서드의 유일한 목적입니다.
 
