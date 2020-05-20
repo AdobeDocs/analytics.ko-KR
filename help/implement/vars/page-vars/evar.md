@@ -1,7 +1,7 @@
 ---
 title: eVar
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # eVar
 
-*이 도움말 페이지에서는 eVar 구현 방법에 대해 설명합니다. eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성[요소](../../../components/c-variables/dimensionslist/reports-conversion.md)사용 안내서의 eVar를 참조하십시오.*
+*이 도움말 페이지에서는 eVar 구현 방법에 대해 설명합니다. eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의[eVar](../../../components/c-variables/dimensionslist/reports-conversion.md)를 참조하십시오.*
 
 eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다.
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 소수점 이하 자리 수가 세 자리 이상인 수가 지정되는 경우, eVar 카운터는 소수점 이하 두 자리로 반올림합니다. eVar 카운터에는 음수가 들어 있을 수 없습니다.
 
->[!IMPORTANT] 먼저 카운터 eVar를 사용하기 전에 관리 콘솔에서 &#39;카운터&#39;에 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+>[!IMPORTANT] 먼저 카운터 eVar를 사용하기 전에 Admin Console에서 eVar를 &#39;카운터&#39;로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
 ## Prop 또는 eVar에 대한 고급 이점
 
@@ -65,4 +65,4 @@ s.eVar1 = "+12.49";
 * prop의 데이터는 수 분 내에 보고에서 사용할 수 있습니다. eVar는 보고에 표시되는 데 30분 이상 소요될 수 있습니다.
 * prop은 보고서에서 100바이트로 제한됩니다. eVar는 255바이트로 제한됩니다.
 * prop은 동일한 히트에서 여러 값을 수락하는 목록 prop이 될 수 있습니다. 목록 변수는 별개의 변수이며 사용할 수 있는 목록 변수는 세 개뿐입니다.
-* 기본적으로 prop은 prop이 설정된 히트 이후에 지속되지 않습니다. eVar에는 사용자 지정 만료가 있으므로, eVar가 후속 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 그러나 [보고서 시간 처리를](../../../components/vrs/vrs-report-time-processing.md)사용하는 경우 prop과 eVar 모두 사용자 지정 속성 모델을 사용할 수 있습니다.
+* 기본적으로 prop은 prop이 설정된 히트 이후에 지속되지 않습니다. eVar에는 사용자 지정 만료가 있으므로, eVar가 후속 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 하지만 [보고서 시간 처리](../../../components/vrs/vrs-report-time-processing.md)를 사용하는 경우 속성과 eVar 모두 사용자 지정 속성 모델을 사용할 수 있습니다.
