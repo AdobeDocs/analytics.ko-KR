@@ -1,7 +1,7 @@
 ---
 title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
