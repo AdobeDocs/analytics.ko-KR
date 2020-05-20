@@ -1,7 +1,7 @@
 ---
 title: trackingServerSecure
 description: HTTPS 페이지에서 이미지 요청이 전송되는 위치를 파악합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
