@@ -1,7 +1,7 @@
 ---
 title: offlineThrottleDelay
 description: 장치가 다시 온라인으로 돌아올 때의 히트 빈도를 설정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 ---
