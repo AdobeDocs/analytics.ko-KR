@@ -1,7 +1,7 @@
 ---
 title: 솔루션 디자인 문서 만들기
 description: 솔루션 디자인 문서가 무엇이고 솔루션 디자인 문서를 조직에서 사용하는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -46,4 +46,4 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 솔루션 디자인 문서에서 변수를 구현합니다.
 
-[데이터 레이어](data-layer.md)만들기:디자인 문서의 변수를 사이트의 JavaScript 변수로 변환합니다.
+[데이터 레이어 만들기](data-layer.md): 디자인 문서의 변수를 사이트의 JavaScript 변수로 변환합니다.
