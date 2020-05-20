@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: 링크 추적 차원에 쿼리 문자열을 유지할 수 있습니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkLeaveQueryString
 
-AppMeasurement는 기본적으로 링크 추적 URL에서 쿼리 문자열을 제거합니다. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
+AppMeasurement는 기본적으로 링크 추적 URL에서 쿼리 문자열을 제거합니다. 링크 추적 차원의 쿼리 문자열을 유지하려면 `linkLeaveQueryString` 변수를 사용하십시오.
 
 일부 종료 링크 및 다운로드 링크의 경우 URL의 중요한 부분이 쿼리 문자열에 있을 수 있습니다. 예를 들어, `https://example.com/download.asp?filename=myfile.exe`와 같은 다운로드 링크의 쿼리 문자열에는 중요한 링크 정보가 들어 있습니다.
 
