@@ -1,7 +1,7 @@
 ---
 title: registerPreTrackCallback
 description: Adobe에 히트를 보내기 전 콜백 함수를 만듭니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `registerPreTrackCallback` 변수를 사용하면 이미지 요청 URL이 컴파일된 후 전송되기 전에 조직에서 JavaScript 함수를 후크할 수 있습니다. 이 변수를 사용하여 AppMeasurement에서 수집한 데이터를 파트너 또는 사내 인프라에 보낼 수 있습니다.
 
->[!IMPORTANT] 변수 [`t()`](t-method.md) 내나 같은 추적 호출을 호출하지 마십시오 [`tl()`](tl-method.md) [`registerPostTrackCallback`](registerposttrackcallback.md) . 이 변수에서 추적 함수를 사용하면 이미지 요청의 무한 루프가 발생합니다.
+>[!IMPORTANT] [`t()`](t-method.md) 변수 내에서 [`tl()`](tl-method.md) 또는 [`registerPostTrackCallback`](registerposttrackcallback.md) 같은 추적 호출을 호출하지 마십시오. 이 변수에서 추적 함수를 사용하면 이미지 요청의 무한 루프가 발생합니다.
 
 `registerPreTrackCallback` 변수를 호출할 때마다 이미지 요청 URL이 컴파일될 때 해당 함수를 실행하도록 후크합니다. 동일한 페이지 로드에서 동일한 함수를 여러 번 등록하지 마십시오.
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-중첩 함수에서 사용할 수 있는 추가 인수를 `s.registerPreTrackCallback` 함수에 포함할 수 있습니다.
+`s.registerPreTrackCallback` 함수에서 추가 인수를 포함할 수 있으며 이 인수는 중첩 함수에서 사용할 수 있습니다.
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
->[!NOTE] 페이지 변수를 설정하거나 이 함수 내에서 `requestUrl` 문자열을 변경해도 이 함수 호출 직후 전송된 이미지 요청에는 영향을 주지 **않습니다.** 대신 [`doPlugins()`](doplugins.md) 변수를 사용하십시오.
+>[!NOTE] 페이지 변수를 설정하거나 이 함수 내에서 `requestUrl` 문자열을 변경해도 이 함수 호출 직후 전송된 이미지 요청에는 영향을 주지 **않습니다**. [`doPlugins()`](doplugins.md) 변수를 대신 사용하십시오.
