@@ -1,7 +1,7 @@
 ---
 title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
