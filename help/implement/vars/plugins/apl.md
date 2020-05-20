@@ -1,7 +1,7 @@
 ---
 title: apl(appendToList)
 description: 여러 값을 지원하는 변수에 값을 추가합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
-The `apl` plug-in allows you to safely add new values to list-delimited variables, such as [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md), and others.
+`apl` 플러그인을 사용하면 [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md) 및 기타 변수와 같은 목록 구분 변수에 새 값을 안전하게 추가할 수 있습니다.
 
 * 추가하려는 값이 변수에 없으면 코드는 값을 문자열 끝에 추가합니다.
 * 추가하려는 값이 변수에 이미 있으면 이 플러그인은 값을 변경하지 않습니다. 이 기능을 사용하면 구현에서 중복 값을 방지할 수 있습니다.
