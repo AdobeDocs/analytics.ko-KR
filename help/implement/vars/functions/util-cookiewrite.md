@@ -1,7 +1,7 @@
 ---
 title: Util.cookieWrite
 description: 쿠키 값을 씁니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
