@@ -1,7 +1,7 @@
 ---
 title: inList
 description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확인합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
