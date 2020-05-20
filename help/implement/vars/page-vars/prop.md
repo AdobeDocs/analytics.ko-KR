@@ -1,7 +1,7 @@
 ---
 title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -57,4 +57,4 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT] 목록 prop은 여전히 100바이트라는 최대 길이의 영향을 받습니다. 목록 prop은 여러 값을 포함할 수 있으므로 이 제한에 더 쉽게 도달하고 잘립니다. 이 100바이트 제한에 도달할 수 있는 경우에는 약어 또는 단축 값을 사용하는 것이 좋습니다.
 
-목록 Prop에서 동일한 값을 두 번 이상 설정하면 보고에서 중복 제거됩니다. 분석 작업 공간은 값이 표시되는 히트 수와 값이 데이터에 존재하는 횟수를 카운트하지 않습니다.
+목록 속성에서 동일한 값을 두 번 이상 설정하면 보고에서 중복되지 않습니다. Analysis Workspace는 값이 표시되는 히트 수를 계산하며, 데이터에 값이 존재하는 회수를 계산하지 않습니다.
