@@ -1,7 +1,7 @@
 ---
 title: linkTrackEvents
 description: 링크 추적 이미지 요청에 포함할 이벤트를 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 일부 구현에서는 모든 링크 추적 이미지 요청에 모든 변수를 포함할 필요가 없습니다. [`tl()`](../functions/tl-method.md) 호출에 차원 및 지표를 선택적으로 포함하려면 [`linkTrackVars`](linktrackvars.md) 및 `linkTrackEvents` 변수를 사용하십시오.
 
-This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
+이 변수는 페이지 보기 호출([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
 
 ## Adobe Experience Platform Launch를 사용한 링크 추적 호출의 이벤트
 
@@ -21,7 +21,7 @@ Launch는 인터페이스에 정의된 이벤트를 자동으로 감지하여 �
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkTrackEvents
 
-The `s.linkTrackEvents` variable is a string containing a comma-delimited list of events that you want to include in link tracking image requests (`tl()` method). 링크 추적 히트에 지표를 포함하려면 다음 세 가지 기준을 충족해야 합니다.
+`s.linkTrackEvents` 변수는 링크 추적 이미지 요청(`tl()` 메서드)에 포함할 쉼표로 구분된 이벤트 목록이 포함된 문자열입니다. 링크 추적 히트에 지표를 포함하려면 다음 세 가지 기준을 충족해야 합니다.
 
 * [`events`](../page-vars/events/events-overview.md) 변수에서 원하는 이벤트를 설정합니다. (예: `s.events = "event1";`)
 * `linkTrackVars`에서 `events` 변수를 설정합니다. (예: `s.linkTrackVars = "events";`)
