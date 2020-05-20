@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics의 글로벌 보고서 세트
 description: 글로벌 보고서 세트 사용에 대한 장점과 요구 사항을 이해합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
