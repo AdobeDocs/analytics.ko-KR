@@ -1,7 +1,7 @@
 ---
 title: getAndPersistValue
 description: 언제든지 나중에 검색할 수 있는 값을 저장합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
