@@ -1,7 +1,7 @@
 ---
 title: 숫자 세트
 description: 다른 JavaScript 변수에서 사용할 숫자를 생성하고 조작합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
