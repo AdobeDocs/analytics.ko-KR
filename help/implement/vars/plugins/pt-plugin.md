@@ -1,7 +1,7 @@
 ---
 title: pt
 description: 변수 목록에 대해 함수를 실행합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e2afe854a4141510fe2ecd85aa6df59f6751d0f5
 
 ---
