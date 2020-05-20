@@ -1,7 +1,7 @@
 ---
 title: sa
 description: 구현에서 언제든지 보고서 세트를 변경합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
