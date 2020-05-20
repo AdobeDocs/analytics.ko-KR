@@ -1,7 +1,7 @@
 ---
 title: usePlugins
 description: doPlugins() 함수를 활성화하거나 비활성화합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
