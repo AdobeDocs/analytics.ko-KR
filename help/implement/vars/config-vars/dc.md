@@ -1,7 +1,7 @@
 ---
 title: dc
 description: 사용할 데이터 센터를 결정할 수 있도록 해주는 폐기된 변수입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
