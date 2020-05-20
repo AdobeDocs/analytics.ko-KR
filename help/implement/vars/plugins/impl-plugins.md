@@ -1,7 +1,7 @@
 ---
 title: 플러그인 개요
 description: 사이트에 코드를 붙여 넣어 새로운 기능을 도입할 수 있습니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
