@@ -1,7 +1,7 @@
 ---
 title: getQueryParam
 description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
