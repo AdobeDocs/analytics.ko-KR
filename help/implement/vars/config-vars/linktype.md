@@ -1,7 +1,7 @@
 ---
 title: linkType
 description: linkType 변수를 사용하여 히트가 속하는 링크 추적 차원을 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,13 +32,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkType
 
-`s.linkType` 변수는 `o`, `d` 또는 `e`, 이렇게 세 개의 단일 문자 값 중 하나를 받는 문자열입니다. If a `tl()` method is called without a link type, it defaults to Custom link.
+`s.linkType` 변수는 `o`, `d` 또는 `e`, 이렇게 세 개의 단일 문자 값 중 하나를 받는 문자열입니다. 링크 유형 없이 `tl()` 메서드가 호출되는 경우 이 변수의 기본값은 사용자 지정 링크로 설정됩니다.
 
 * `o` - 사용자 지정 링크
 * `d` - 다운로드 링크
 * `e` - 종료 링크
 
->[!TIP] 이 변수는 `tl()` 메서드의 두 번째 매개 변수이며, 일반적으로 독립 실행형 변수로 설정할 필요가 없습니다. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] 이 변수는 `tl()` 메서드의 두 번째 매개 변수이며, 일반적으로 독립형 변수로 설정할 필요가 없습니다. 그러나 `linkType` 메서드에서 값을 인수로 설정하지 않으려는 경우에는 `tl()` 변수를 사용할 수 있습니다.
 
 ```js
 s.linkType = "e";
