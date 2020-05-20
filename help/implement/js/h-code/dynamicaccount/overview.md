@@ -1,7 +1,7 @@
 ---
 title: 동적 계정 개요
 description: H 코드를 사용하여 보고서 세트를 동적으로 선택하는 방법에 대한 워크플로우에 대해 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
