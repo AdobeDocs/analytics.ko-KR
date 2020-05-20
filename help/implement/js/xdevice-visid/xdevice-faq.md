@@ -1,7 +1,7 @@
 ---
 title: 교차 장치 방문자 식별 FAQ
 description: 교차 장치 방문자 식별 FAQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
