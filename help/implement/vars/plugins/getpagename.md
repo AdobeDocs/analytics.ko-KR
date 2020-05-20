@@ -1,7 +1,7 @@
 ---
 title: getPageName
 description: 현재 웹 사이트 경로에서 읽기 쉬운 pageName을 만듭니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
