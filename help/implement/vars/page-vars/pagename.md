@@ -1,7 +1,7 @@
 ---
 title: pageName
 description: 사이트에 있는 페이지의 이름입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
