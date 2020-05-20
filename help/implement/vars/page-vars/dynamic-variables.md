@@ -1,7 +1,7 @@
 ---
 title: 다이내믹 변수
 description: 이미지 요청 길이를 늘리지 않고 변수를 복사합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
