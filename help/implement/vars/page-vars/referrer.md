@@ -1,7 +1,7 @@
 ---
 title: 레퍼러
 description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
