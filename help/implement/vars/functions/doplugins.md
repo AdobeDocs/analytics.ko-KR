@@ -1,7 +1,7 @@
 ---
 title: doPlugins
 description: 히트가 컴파일되고 Adobe에 전송되기 바로 전에 논리를 구성합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # doPlugins
 
-`doPlugins` 변수는 구현에서 값을 설정하는 &#39;마지막 호출&#39; 역할을 합니다. If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
+`doPlugins` 변수는 구현에서 값을 설정하는 &#39;마지막 호출&#39; 역할을 합니다. [`usePlugins`](../config-vars/useplugins.md)가 활성화된 경우 다음을 포함한 모든 유형의 이미지 요청이 컴파일되어 Adobe에 전송되기 바로 전에 자동으로 실행됩니다.
 
 * 모든 페이지 보기([`t()`](t-method.md)) 호출
 * 자동 다운로드 링크 및 종료 링크를 포함한 모든 링크 추적([`tl()`](tl-method.md)) 호출
