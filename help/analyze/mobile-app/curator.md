@@ -1,8 +1,11 @@
 ---
-description: 대시보드 스코어카드 설정에 대한 지침
-title: Adobe Analytics 대시보드 큐레이터 가이드
+description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
+title: Adobe Analytics 대시보드 큐레이터 안내서
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '2286'
+ht-degree: 98%
 
 ---
 
@@ -10,38 +13,36 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 # Adobe Analytics 대시보드에 대한 큐레이터 가이드
 
->[!IMPORTANT]
->
->Adobe Analytics 대시보드는 출시되지 않으며 초대받은 고객 간의 베타 테스트에만 사용할 수 있습니다. 이 설명서는 >베타 사용자에게만 제공되며 기능의 전체 기능은 설명하지 않습니다. 이 >기능에 대한 베타 사용자가 되고자 하는 경우 Ashok Gorrepati(gorrepati@adobe.com)에 문의하십시오.
+다음 정보는 Adobe Analytics 데이터 큐레이터에게 관리자 사용자를 위한 대시보드를 구성하고 표시하는 방법을 알려줍니다.
 
 ## 소개
 
 Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하면 사용자 모바일에서는 Adobe Analytics의 데스크탑 UI에서 만들고 공유하는 직관적인 스코어카드에 액세스를 할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 본인에게 가장 중요한 데이터에 따라 스코어카드를 조정할 수 있습니다. Analytics 대시보드는 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
-## 이 안내서 정보
+## 이 안내서에 대한 자세한 내용
 
-이 안내서는 Adobe Analytics 데이터 큐레이터가 Analytics 대시보드에서 관리자 사용자의 스코어카드를 구성하는 데 도움이 되도록 구성되었습니다. 큐레이터는 앱 스코어카드 설정을 담당하는 조직의 관리자나 다른 역할을 맡고 있는 사람일 수 있으며, 이를 통해 경영진 사용자가 자신의 모바일 장치에서 중요한 요약 데이터에 대한 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다. 경영진 사용자는 Analytics 대시보드의 최종 사용자이지만 이 가이드는 데이터 큐레이터가 해당 사용자를 위해 앱을 효과적으로 설정하는 데 도움이 됩니다.
+이 안내서는 Adobe Analytics 데이터 큐레이터가 Analytics 대시보드에서 경영진 사용자를 위해 스코어카드를 구성할 수 있도록 돕기 위한 것입니다. 큐레이터는 앱 스코어카드 설정을 담당하는 조직의 관리자나 다른 역할을 맡고 있는 사람일 수 있으며, 이를 통해 경영진 사용자가 자신의 모바일 장치에서 중요한 요약 데이터에 대한 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다. 경영진 사용자는 Analytics 대시보드의 최종 사용자이지만 이 안내서는 데이터 큐레이터가 그러한 사용자를 위해 앱을 효과적으로 설정하는 데 도움을 줍니다.
 
 
 ## 용어집
 
-다음 표에서는 Analytics 대시보드의 대상, 기능 및 작업을 이해하는 용어에 대해 설명합니다.
+다음 표에서는 Analytics 대시보드의 대상, 기능 및 작업을 이해하는 데 도움이 되는 용어를 설명합니다.
 
 | 용어 | 정의 |
 |--- |--- |
 | 소비자 | 모바일 장치의 Analytics를 통해 주요 지표와 통찰력을 보는 경영진 사용자 |
 | 큐레이터 | Analytics에서 통찰력을 찾아 배포하고 소비자가 볼 스코어카드를 구성하는 데이터 사용 가능 사용자 |
-| 큐레이션 | 소비자에 대한 관련 지표, 차원 및 기타 구성 요소가 포함된 모바일 스코어카드를 만들거나 편집하는 행위 |
-| 득점 카드 | 하나 이상의 타일이 포함된 대시보드 보기 |
+| 큐레이션 | 소비자에 대한 관련 지표, 차원 및 기타 구성 요소가 포함된 모바일 스코어카드를 만들거나 편집하는 작업 |
+| 득점 카드 | 한 개 이상의 타일이 포함된 대시보드 보기 |
 | 타일 | 스코어카드 보기 내에 있는 지표에 대한 렌더링 |
 | 분류 | 스코어카드에서 타일을 탭하여 액세스할 수 있는 보조 보기. 이 보기는 타일에 표시되는 지표를 확장하고 선택적으로 추가 분류 차원에 대해 보고합니다. |
-| 날짜 범위 | 대시보드 보고를 위한 기본 날짜 범위 |
+| 날짜 범위 | 대시보드 보고에 대한 기본 날짜 범위 |
 | 비교 날짜 범위 | 기본 날짜 범위와 비교되는 날짜 범위 |
 
  
 ## 경영진 사용자를 위한 스코어카드 만들기
 
-성과 기록표는 아래와 같이 타일 레이아웃에서 경영진 사용자를 위한 주요 데이터 시각화를 표시합니다.
+스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
 
 
 ![스코어카드의 예](assets/intro_scorecard.png)
@@ -82,7 +83,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 **Analytics 도구 사용**
 
-In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나오는 화면에서 **스코어카드 만들기** 단추를 클릭합니다.
+Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 선택합니다. 다음에 나오는 화면에서 **스코어카드 만들기** 단추를 클릭합니다.
 
 ### 데이터를 사용하여 스코어카드 구성 및 저장
 
@@ -152,7 +153,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나�
 ![Share_Scorecards](assets/new_share.png)
 
 
-성과 기록표를 공유한 후 수신자가 Analytics 대시보드에서 해당 스코어카드에 액세스할 수 있습니다. 스코어카드 빌드에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
+스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌드에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
 
 *참고: 새 구성 요소를 추가하여 스코어카드를 업데이트하는 경우 경영진 사용자가 이러한 변경 사항에 액세스할 수 있도록 스코어카드를 다시 공유(및&#x200B;**수신자와 임베드된 구성요소 자동 공유**선택)할 수 있습니다.*
 
@@ -178,7 +179,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나�
 
    **iOS를 사용하는 경영진 사용자:**
 
-   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
+   1. 다음 공개 링크(**도구** > **대시보드** 아래의 Analytics 에서도 사용 가능)를 클릭합니다.
 
       [iOS 링크](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -188,13 +189,12 @@ In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나�
 
    2. 화면에서 **App Store에서 보기** 링크를 탭하여 Testflight 앱을 다운로드합니다.
 
-   3. Testflight 앱을 설치한 후 아래와 같이 Testflight 내에서 Adobe Analytics 대시보드를 찾아 설치합니다.
+   3. Testflight 앱을 설치한 후에 아래에 표시된 대로 Testflight 내에서 Adobe Analytics 대시보드를 찾아서 설치합니다.
 
       ![Testflight 화면](assets/testflight2.png)
-
    **Android를 사용하는 경영진 사용자:**
 
-   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
+   1. 사용자의 장치에서 다음 Play 스토어 링크(**도구** > **대시보드** 아래에 있는 Analytics에서도 사용할 수 있음)를 탭합니다.
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       링크를 탭한 후에 다음 화면에서 테스트 되기 링크를 탭합니다.
@@ -207,7 +207,6 @@ In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나�
 
    3. 앱을 다운로드하여 설치합니다.
 다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
-
    ![앱 시작 화면](assets/welcome.png)
 
 2. 경영진 사용자가 스코어카드에 액세스할 수 있도록 지원합니다. 경영진 사용자가 앱에 로그인하면 **회사 선택** 화면이 표시됩니다. 이 화면에 경영진 사용자가 속한 로그인 회사가 나열됩니다. 경영진 사용자가 스코어카드에 도달하도록 지원하려면:
@@ -215,7 +214,6 @@ In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나�
    * 공유한 스코어카드에 적용되는 로그인 회사 또는 Experience Cloud 조직의 이름을 탭합니다. 스코어카드 목록에는 해당 로그인 회사 아래에 경영진과 공유된 모든 스코어카드가 표시됩니다.
    * 해당되는 경우 **가장 최근에 수정됨**&#x200B;별로 이 목록을 정렬할 수 있습니다.
    * 스코어카드의 이름을 탭하여 봅니다.
-
    ![회사 선택](assets/accesscard.png)
 
    참고: 경영진 사용자가 로그인했을 때 아무 것도 공유되지 않았다는 메시지가 표시되는 경우:
@@ -224,7 +222,6 @@ In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나�
    * 스코어카드가 경영진 사용자와 공유되지 않았을 수 있음
 
       ![아무 것도 공유되지 않음](assets/nothing.png)
-
    경영진 사용자가 올바른 Analytics 인스턴스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.
 
 3. 경영진 사용자에게 공유한 스코어카드에 타일이 어떻게 표시되는지 설명합니다.
@@ -260,7 +257,6 @@ In Analytics, click the **Tools** menu and select **dashboards**. 다음에 나�
    1. 앱 화면의 오른쪽 상단에서 사용자 아이콘을 탭합니다.
    2. **내 계정** 화면에서 **피드백** 옵션을 탭합니다.
    3. 피드백 남기기에 대한 옵션을 탭하여 봅니다.
-
    ![피드백 남기기](assets/feedback.png)
    ![피드백 옵션](assets/feedback_option.png)
 
