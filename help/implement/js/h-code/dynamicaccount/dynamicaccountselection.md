@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountSelection
 description: dynamicAccountSelection 변수는 동적 계정 선택을 활성화하거나 비활성화합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
