@@ -1,7 +1,7 @@
 ---
 title: H 코드 JavaScript 구현 개요
 description: 사이트에서 H 코드를 구현하는 워크플로우에 대해 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
