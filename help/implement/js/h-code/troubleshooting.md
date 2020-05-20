@@ -1,7 +1,7 @@
 ---
 title: H 코드 구현 문제 해결
 description: 이전 JavaScript 구현과 관련된 몇 가지 일반적인 문제를 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
