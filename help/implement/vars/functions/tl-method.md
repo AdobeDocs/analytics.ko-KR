@@ -1,7 +1,7 @@
 ---
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -99,13 +99,13 @@ HTML 링크 내에서 바로 기본 링크 추적 호출을 전송하십시오.
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-JavaScript를 사용하여 메서드 인수를 사용하여 기본 링크 추적 호출을 만듭니다.
+메서드 인수를 사용하여 기본 링크 추적 호출을 만들도록 JavaScript를 사용합니다.
 
 ```JavaScript
 s.tl(true,"o","Example link");
 ```
 
-JavaScript를 사용하여 별도의 변수를 사용하여 동일한 기본 링크 추적 호출을 만듭니다.
+별도의 변수를 사용하여 동일한 기본 링크 추적 호출을 만들도록 JavaScript를 사용합니다.
 
 ```js
 s.linkType = "o";
