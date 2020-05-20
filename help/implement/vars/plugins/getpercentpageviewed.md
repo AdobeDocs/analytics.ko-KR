@@ -1,7 +1,7 @@
 ---
 title: getPercentPageViewed
 description: 방문자가 본 페이지의 비율을 검색합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
