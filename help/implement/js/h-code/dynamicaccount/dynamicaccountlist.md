@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
 description: 구현에서 보고서 세트를 결정하는 방법에 대한 논리를 설정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
