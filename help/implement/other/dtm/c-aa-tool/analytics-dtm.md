@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adobe Analytics 도구 추가
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -18,7 +18,7 @@ Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또�
 
 ## Adobe Analytics 도구 추가 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. 클릭  **[!UICONTROL  *`Web Property Name`*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
+1. **[!UICONTROL *`Web Property Name`*]**>**[!UICONTROL &#x200B;개요&#x200B;]**>**[!UICONTROL &#x200B;도구 추가&#x200B;]**>**[!UICONTROL  Adobe Analytics ]**를 클릭합니다.
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -49,7 +49,7 @@ Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>수동</b>: AppMeasurement 코드를 수동으로 관리합니다. <span class="keyword"></span>관리 도구<span class="keyword"> &gt; </span>코드 관리자<span class="ignoretag"><span class="uicontrol">에서 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 코드를 다운로드할 수 있습니다. </p> <p><a href="/help/implement/other/dtm/c-aa-tool/library-management.md">라이브러리 관리</a>의 <span class="wintitle">코드 편집</span> 필드에 복사하여 붙여넣을 코드를 로컬로 다운로드하기에 대한 내용을 보려면 <a href="https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html">JavaScript (신규)</a>를 클릭합니다. </p> <p>수동 구성에 해당하는 필드 입력: </p> 
+   <td colname="col2"> <p> <b>수동</b>: AppMeasurement 코드를 수동으로 관리합니다. <span class="ignoretag"><span class="uicontrol">관리 도구</span> &gt; <span class="uicontrol">코드 관리자</span></span>에서 <span class="keyword">Analytics</span><span class="keyword"> AppMeasurement</span> 코드를 다운로드할 수 있습니다. </p> <p><a href="/help/implement/other/dtm/c-aa-tool/library-management.md">라이브러리 관리</a>의 <span class="wintitle">코드 편집</span> 필드에 복사하여 붙여넣을 코드를 로컬로 다운로드하기에 대한 내용을 보려면 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/js/migrate-from-hcode.html">JavaScript (신규)</a>를 클릭합니다. </p> <p>수동 구성에 해당하는 필드 입력: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>프로덕션 계정 ID: </b>(필수) 데이터 수집에 사용할 프로덕션 계정입니다. Analytics의 경우 보고서 세트 ID입니다. Dynamic Tag Management는 프로덕션 및 스테이징 환경에서 올바른 계정을 자동으로 설치합니다. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>스테이징 계정 ID: </b>(필수) 개발 또는 테스트 환경에서 사용합니다. Analytics의 경우 보고서 세트 ID입니다. 스테이징 계정은 테스트 데이터를 프로덕션과 분리시킵니다. </p> </li> 
@@ -60,11 +60,11 @@ Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또�
  </tbody> 
 </table>
 
-1. Click **[!UICONTROL Create Tool]** to create the tool and display it for editing.
+1. **[!UICONTROL 도구 만들기]**&#x200B;를 클릭하여 도구를 만들고 편집할 수 있도록 표시합니다.
 
-   도구는 [!UICONTROL Overview] 탭의 아래에 표시됩니다 [!UICONTROL Installed Tools].
+   도구는 [!UICONTROL 개요] 탭의 [!UICONTROL 설치된 도구] 아래에 표시됩니다.
 
-1. (조건부) 아래 링크(, [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns][!UICONTROL Cookies], [!UICONTROL Customize Page Code]추적,등)의 지침에 따라 필요한 만큼 도구를추가로 구성합니다.
+1. (조건부) 필요한 경우 아래 링크([!UICONTROL 일반], [!UICONTROL 라이브러리 관리], [!UICONTROL 전역 변수], [!UICONTROL 페이지 보기 횟수 및 컨텐츠], [!UICONTROL 링크 추적], [!UICONTROL 레퍼러 및 캠페인], [!UICONTROL 쿠키] 및 [!UICONTROL 페이지 코드 사용자 지정])의 안내에 따라 도구를 추가로 구성합니다.
 
 이 도구에 대한 자세한 내용은 [Adobe Analytics 도구에 대해 자주 묻는 질문](/help/implement/faq.md)을 참조하십시오.
 
@@ -72,7 +72,7 @@ Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또�
 
 기존 Adobe Analytics 도구를 편집하여 구성 설정을 변경할 수 있습니다.
 
-1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab.
+1. ![](assets/settings_gear.png)개요 탭에서 설치된 도구 옆의  아이콘을 클릭합니다.
 1. 원하는 대로 필드를 편집합니다.
 
    아래 표에는 위에서 설명한 Analytics 도구를 만들 때 사용할 수 있는 요소 이외의 다른 요소만 표시됩니다. 하지만 두 표에서 설명한 대로 페이지의 요소를 변경할 수 있습니다.
@@ -96,5 +96,5 @@ Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또�
  </tbody> 
 </table>
 
-1. (조건부) 아래 링크(, [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns][!UICONTROL Cookies], [!UICONTROL Customize Page Code]추적,등)의 지침에 따라 필요한 만큼 도구를추가로 구성합니다.
-1. 클릭 **[!UICONTROL Save Changes]**.
+1. (조건부) 필요한 경우 아래 링크([!UICONTROL 일반], [!UICONTROL 라이브러리 관리], [!UICONTROL 전역 변수], [!UICONTROL 페이지 보기 횟수 및 컨텐츠], [!UICONTROL 링크 추적], [!UICONTROL 레퍼러 및 캠페인], [!UICONTROL 쿠키] 및 [!UICONTROL 페이지 코드 사용자 지정])의 안내에 따라 도구를 추가로 구성합니다.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
