@@ -1,7 +1,7 @@
 ---
 title: addProductEvar
 description: products 변수에 머천다이징 eVar를 추가합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
