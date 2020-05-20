@@ -1,7 +1,7 @@
 ---
 title: visitorID
 description: 사용자 지정 방문자 ID를 사용합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
