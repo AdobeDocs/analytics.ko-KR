@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 일반
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -47,12 +47,12 @@ Adobe Analytics 배포를 위한 DTM의 일반 설정에 대한 필드 설명입
    <td colname="col2"> <p>선택할 수 있는 지원되는 통화 코드를 표시합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Tracking Server </p> </td> 
+   <td colname="col1"> <p>추적 서버 </p> </td> 
    <td colname="col2"> <p>이미지 요청 및 쿠키가 작성되는 도메인. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL 추적 서버 </p> </td> 
-   <td colname="col2"> <p>이미지 요청 및 쿠키가 작성되는 도메인. 보안 페이지에 사용됩니다. If 정의되지 않으면 SSL 데이터가 <span class="term"> trackingServer </span>. </p> </td> 
+   <td colname="col2"> <p>이미지 요청 및 쿠키가 작성되는 도메인. 보안 페이지에 사용됩니다.  정의되지 않으면 SSL 데이터가 <span class="term"> trackingServer </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>데이터 센터 </p> </td> 
