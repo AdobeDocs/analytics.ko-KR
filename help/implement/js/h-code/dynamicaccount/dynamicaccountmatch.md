@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 변수는 동적 계정에서 볼 값을 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
