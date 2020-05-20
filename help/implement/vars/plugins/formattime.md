@@ -1,7 +1,7 @@
 ---
 title: formatTime
 description: 초 수를 그에 해당하는 분, 시간 등으로 변환합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
