@@ -1,7 +1,7 @@
 ---
 title: pageType
 description: 현재 페이지가 404 오류인지 판단합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
