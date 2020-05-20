@@ -1,7 +1,7 @@
 ---
 title: timestamp
 description: 히트의 타임스탬프를 수동으로 설정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
