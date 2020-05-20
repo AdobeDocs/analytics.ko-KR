@@ -1,7 +1,7 @@
 ---
 title: getPreviousValue
 description: 변수에 전달된 마지막 값을 가져옵니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
