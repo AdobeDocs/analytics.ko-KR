@@ -1,7 +1,7 @@
 ---
 title: s_objectID
 description: Activity Map은 사이트에서 고유 링크를 식별하는 데 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
