@@ -1,7 +1,7 @@
 ---
 title: JavaScript용 AppMeasurement로의 마이그레이션
 description: H 코드의 구현을 마이그레이션하는 데 필요한 사항을 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
