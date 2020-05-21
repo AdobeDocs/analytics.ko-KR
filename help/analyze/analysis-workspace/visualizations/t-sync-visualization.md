@@ -2,7 +2,7 @@
 description: 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 데이터 소스 관리
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 1. 데이터 테이블과 [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 [프로젝트를 만듭니다](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 1. 데이터 테이블에서 시각화와 연결할 셀(데이터 소스)을 선택합니다.
-1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. 또는 **[!UICONTROL Show Data Source]** 를 **[!UICONTROL Lock Selection]**&#x200B;선택합니다.
+1. 시각화에서 제목 옆에 있는 점을 클릭하여 **[!UICONTROL Data Source]** 대화 상자를 표시합니다. **[!UICONTROL Show Data Source]** 또는&#x200B;**[!UICONTROL Lock Selection]**&#x200B;를 선택합니다.
 
    ![](assets/manage-data-source.png)
 
