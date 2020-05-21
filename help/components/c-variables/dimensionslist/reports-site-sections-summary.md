@@ -3,7 +3,7 @@ description: 이전 페이지 시작 지점, 다음 페이지 종료 지점, 인
 title: 사이트 섹션 요약
 topic: Reports
 uuid: 5bee04ea-5414-4538-b0d1-120700982762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
