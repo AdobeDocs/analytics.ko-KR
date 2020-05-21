@@ -3,7 +3,7 @@ description: 특정 서버에서 호스팅하는 페이지를 그룹화할 수 �
 title: 서버
 topic: Reports
 uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
