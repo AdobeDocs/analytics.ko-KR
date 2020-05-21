@@ -3,7 +3,7 @@ description: '지정된 기간 동안의 전체 웹 사이트 방문 횟수를 �
 title: 방문 횟수
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 방문은 새 방문자에게서 오는 첫 번째 이미지 요청, 또는 방문 만료 직후에 기존 사용자에게서 오는 이미지 요청으로 시작됩니다. 이것을 시작 페이지라고 합니다.
 * 방문 종료는 방문이 만료되기 전의 마지막 이미지 요청입니다. 이것을 종료 페이지라고 합니다.
 
-   자세한 내용은 [시작 및 종료 보고서](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+    [시작 및 종료 보고서](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * 시간별 분류는 보고서 세트의 시간대를 따릅니다.
 * 이 보고서에는 라인 항목이 없습니다. 트렌드 형식으로만 볼 수 있습니다.
 * 시간, 일, 주, 월, 분기 및 연도 단위를 적용할 수 있습니다. 이러한 단위는 보고 날짜 범위에 적합한 단위 설정으로만 사용할 수 있습니다.
