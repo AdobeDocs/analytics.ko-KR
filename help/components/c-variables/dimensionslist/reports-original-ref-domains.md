@@ -3,7 +3,7 @@ description: 사이트로 고객을 유도한 원래 레퍼러를 보여줍니�
 title: 최초 참조 도메인
 topic: Reports
 uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
