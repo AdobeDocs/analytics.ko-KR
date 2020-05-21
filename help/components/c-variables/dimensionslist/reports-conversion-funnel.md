@@ -3,7 +3,7 @@ description: 전환 비율은 일반적으로 시작, 종료 및 중대한 이�
 title: 전환 단계
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
