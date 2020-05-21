@@ -1,7 +1,7 @@
 ---
 title: 마케팅 채널에서의 분류
 description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 이 절차에서 추가하는 분류는 [!UICONTROL 채널 값]으로 [!UICONTROL 마케팅 채널 개요] 보고서에 표시됩니다. 채널 값은 채널 세부 사항에서 분류되지 않은 값입니다.
 
->[!NOTE] 분류에서 분류 만들기에 익숙한지 [확인합니다](/help/components/c-classifications2/c-classifications.md).
+>[!NOTE] [분류](/help/components/c-classifications2/c-classifications.md)의 분류 만들기를 잘 알고 있는지 확인합니다.
 
 >[!IMPORTANT]
 >
@@ -27,9 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 |  이름  | 분류의 이름. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다 . |
 | 옵션 | 분류의 이름. 추가하는 분류는 마케팅 채널 관리자에서 채널 분류 옵션으로 나타납니다 . |
 
-## Create Marketing Channels classifications {#create-mktg-channel-classifications}
+## 마케팅 채널 분류 만들기 {#create-mktg-channel-classifications}
 
-마케팅 채널에 대한 분류를 [!UICONTROL 만듭니다].
+[!UICONTROL 마케팅 채널]에 대한 분류를 만듭니다.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. [!UICONTROL 보고서 세트 관리자]에서, **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 분류]**&#x200B;를 클릭합니다.
