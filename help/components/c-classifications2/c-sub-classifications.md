@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 하위 분류 정보
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # 하위 분류 정보
 
-Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 모두 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
+Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
 
->[!NOTE] 하위 분류는 분류의 분류를 만드는 기능을 의미합니다. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 분류 유형에 대한 자세한 내용은 [분류 계층](classification-hierarchies.md)을 참조하십시오.
+>[!NOTE] 하위 분류는 분류의 분류를 만드는 기능을 의미합니다. 하지만 [!UICONTROL 계층] 보고서를 만들 때 사용하는 [!UICONTROL 분류 계층]과 같지는 않습니다. 분류 유형에 대한 자세한 내용은 [분류 계층](classification-hierarchies.md)을 참조하십시오.
 
 예:
 
@@ -35,7 +35,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 모두 지�
 
 **상위 분류:**&#x200B;상위 분류는 하위 분류와 연관된 모든 분류입니다. 분류는 상위 및 하위 분류 모두가 될 수 있습니다. 최상위 수준의 상위 분류는 단일 수준 분류에 해당합니다 [단일 수준 분류](/help/components/c-classifications2/c-sub-classifications.md)).
 
-**하위 분류:**&#x200B;하위 분류는 변수 대신 상위로 다른 분류를 가지는 모든 분류입니다. 하위 분류는 상위 분류에 대한 추가 정보를 제공합니다. For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] 분류도 분류 보고서에서 지표로 작동합니다.
+**하위 분류:**&#x200B;하위 분류는 변수 대신 상위로 다른 분류를 가지는 모든 분류입니다. 하위 분류는 상위 분류에 대한 추가 정보를 제공합니다. 예를 들어 [!UICONTROL 캠페인] 분류는 캠페인 소유자 하위 분류를 가질 수 있습니다. 또한 [!UICONTROL 숫자] 분류는 분류 보고서에서 지표로 기능합니다.
 
 상위 또는 하위의 각 분류는 데이터 파일에서 하나의 데이터 열을 구성합니다. 하위 분류의 열 제목은 다음 명명 규칙을 사용합니다.
 
@@ -52,7 +52,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 모두 지�
 
 복수 수준 분류의 파일 템플릿이 보다 복잡하지만 복수 수준 분류는 개별 수준을 개별 파일로 업로드할 수 있다는 장점이 있습니다. 이 방법을 사용하면 시간이 지남에 따라 변경되는 분류 수준과 변경되지 않는 분류 수준으로 데이터를 그룹화함으로써 주기적으로(일일, 주별 등) 업로드해야 하는 데이터의 양을 최대한 줄일 수 있습니다.
 
->[!NOTE] 데이터 파일의 [!UICONTROL Key] 열이 비어 있으면 Adobe는 각 데이터 행에 대해 고유한 키를 자동으로 생성합니다. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
+>[!NOTE] 데이터 파일의 [!UICONTROL 키] 열이 비어 있는 경우, Adobe는 각 데이터 행에 자동으로 고유 값을 생성합니다.  데이터 파일을 두 번째 수준 또는 두 번째 수준 이상의 분류 파일로 업로드할 때 파일이 손상되지 않게 하려면 [!UICONTROL 키] 열의 각 행을 별표(*)로 채웁니다.
 
 문제 해결 도움말은 [일반적인 분류 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html)를 참조하십시오.
 
