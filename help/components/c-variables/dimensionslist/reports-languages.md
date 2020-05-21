@@ -3,7 +3,7 @@ description: 방문자의 브라우저에서 언어 설정을 캡처하여, 언�
 title: 언어
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
