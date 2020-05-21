@@ -1,7 +1,7 @@
 ---
 title: 사용자 지정 트래픽
-description: 사용자 지정 트래픽 변수를 기반으로 보고서를 봅니다.
-translation-type: tm+mt
+description: 사용자 지정 트래픽 변수를 기반으로 하여 보고서를 봅니다.
+translation-type: ht
 source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 
 사용자 지정 트래픽 보고서를 사용하면 각 조직이 기본값으로 구현되지 않는 추가 차원에서 보고할 수 있습니다. 사용자 지정 트래픽 보고서는 여러 방법으로 사용될 수 있으며, 가장 일반적으로는 트래픽과 경로를 측정하는 데 사용됩니다.
 
-## 사용자 지정 트래픽 보고서의 속성
+## 사용자 지정 트래픽 보고서 속성
 
 * 사용자 지정 트래픽 보고서는 전적으로 [prop](/help/implement/vars/page-vars/prop.md)(트래픽 변수)에 따라 결정됩니다.
 * 기본 지표는 인스턴스입니다.
