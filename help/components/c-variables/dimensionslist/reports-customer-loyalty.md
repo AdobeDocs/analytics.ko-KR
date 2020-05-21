@@ -3,7 +3,7 @@ description: 고객 충성도는 고객의 구매 패턴을 보여줍니다.
 title: 고객 충성도
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
