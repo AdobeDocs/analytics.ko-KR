@@ -1,7 +1,7 @@
 ---
 title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -68,10 +68,10 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 모니터 해상도 | monitorresolution |
 | 운영 체제 | operatingsystem |
 | 최초 참조 도메인 | referringdomainoriginal |
-| 페이지 | 페이지를 |
+| 페이지 | page |
 | 페이지를 찾을 수 없음 | pagesnotfound |
 | 제품 | product |
-| 레퍼러 | 레퍼러 |
+| 레퍼러 | referrer |
 | 레퍼러 유형 | referrertype |
 | 참조 도메인 | referringdomain |
 | 지역 | georegion |
