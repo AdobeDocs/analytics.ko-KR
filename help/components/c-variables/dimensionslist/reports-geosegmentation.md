@@ -3,7 +3,7 @@ description: 방문자 위치 데이터를 표시합니다. 지리 특성 보고
 title: 지리 특성
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
@@ -45,7 +45,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
   </tr> 
   <tr> 
    <td colname="col1"> 보고서 정확성 </td> 
-   <td colname="col2"> <p>Adobe는 IP 인텔리전스 및 인증 솔루션 분야의 강자인 Digital Envoy와 협력하여 최종 사용자의 IP 주소를 기반으로 지리적인 위치를 측정하는 지리 특성 기능을 제공합니다. 개별 데이터 집합에 따라 정확성에 편차가 있지만, 일반적으로 Digital Envoy는 국가 수준에서 99%, 지역 수준에서 97% 이상, 도시 수준에서 90% 이상의 정확성을 제공합니다. </p> <p>Note: These numbers assume that <a href="/help/admin/admin/general-acct-settings-admin.md">the setting</a> to remove the last octet of the IP address is NOT enabled. </p> <p>IP 주소는 우편 번호에 매핑되고, 각 도시는 "지역 당국"이 그 도시의 일부로 정의한 우편 번호에 의해 정의됩니다. 예를 들어 베를린의 교외가 베를린 정의에 포함되지 않지만 각 도시는 별도로 나열되므로 IP 주소를 그러한 도시 중 하나의 우편 번호로 정확하게 매핑할 수 있다고 가정합니다. </p> <p> 지리 특성 데이터에 영향을 줄 수 있는 요인에는 다음과 같은 것이 포함됩니다. </p> 
+   <td colname="col2"> <p>Adobe는 IP 인텔리전스 및 인증 솔루션 분야의 강자인 Digital Envoy와 협력하여 최종 사용자의 IP 주소를 기반으로 지리적인 위치를 측정하는 지리 특성 기능을 제공합니다. 개별 데이터 집합에 따라 정확성에 편차가 있지만, 일반적으로 Digital Envoy는 국가 수준에서 99%, 지역 수준에서 97% 이상, 도시 수준에서 90% 이상의 정확성을 제공합니다. </p> <p>참고: 이러한 수치는 IP 주소의 마지막 옥텟을 제거하는 <a href="/help/admin/admin/general-acct-settings-admin.md">설정</a>이 활성화되지 않았다고 가정한 것입니다. </p> <p>IP 주소는 우편 번호에 매핑되고, 각 도시는 "지역 당국"이 그 도시의 일부로 정의한 우편 번호에 의해 정의됩니다. 예를 들어 베를린의 교외가 베를린 정의에 포함되지 않지만 각 도시는 별도로 나열되므로 IP 주소를 그러한 도시 중 하나의 우편 번호로 정확하게 매핑할 수 있다고 가정합니다. </p> <p> 지리 특성 데이터에 영향을 줄 수 있는 요인에는 다음과 같은 것이 포함됩니다. </p> 
     <ul id="ul_1B05024AD5174232A8DB8145753FB09B"> 
      <li id="li_C3A21E7C1186490EB9A236634DB45E7F">기업 프록시를 나타내는 IP 주소. 사용자가 원격으로 근무하는 경우 실제로 다른 위치에 있더라도 사용자의 기업 네트워크에서 트래픽이 오는 것처럼 보일 수 있습니다. </li> 
      <li id="li_56FC36B3598C420F9246D4E8772822A7">모바일 IP 주소. 모바일 IP 타게팅은 위치와 네트워크에 따라 다양한 수준에서 작동합니다. 이동통신업체 중에는 중앙 또는 지역 POP를 통해 IP 트래픽을 역수송하는 곳도 많습니다. </li> 
