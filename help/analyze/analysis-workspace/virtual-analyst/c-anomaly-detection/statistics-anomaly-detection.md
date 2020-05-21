@@ -2,7 +2,7 @@
 description: Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기법을 사용하여 관찰 내용을 예외적인 것으로 간주해야 하는지 여부를 결정합니다.
 title: 예외 항목 탐지에서 사용된 통계 기법
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기�
 모델 선택 후에는 알고리즘이 휴일과 연 단위 시즌을 기반으로 결과를 조정합니다. 휴일의 경우, 알고리즘에서는 다음 휴일 중 보고 날짜 범위에 있는 것이 있는지 확인합니다. 
 
 * 메모리얼 데이
-* 4년 7월
+* 7월 4일
 * 추수감사절
 * 블랙 프라이데이
 * 사이버 먼데이
