@@ -3,7 +3,7 @@ description: 장치의 JavaScript 사용 설정 여부 또는 장치가 "식별�
 title: JavaScript 지원
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
