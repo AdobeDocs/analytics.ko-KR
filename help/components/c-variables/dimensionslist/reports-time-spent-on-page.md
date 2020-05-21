@@ -2,7 +2,7 @@
 description: 방문자가 페이지에서 보낸 시간을 표시합니다.
 title: 페이지에서 보낸 시간
 topic: Reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
