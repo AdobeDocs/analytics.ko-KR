@@ -3,7 +3,7 @@ description: 관리자는 특정 지표와 특정 날짜 범위 등으로 보고
 title: 사용자 지정
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -21,4 +21,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 또한 중요한 보고서를 저장할 수도 있습니다. 이러한 보고서를 책갈피라고 합니다. 여러 보고서를 단일 캠퍼스로 가져와 가장 중요한 보고서를 빠르게 찾아볼 수도 있습니다. 이러한 보고서를 대시보드라고 하며 역시 사용자마다 다릅니다. 인터페이스에서는 그래프 위에 책갈피와 대시보드가 나열된 막대가 표시됩니다.
 
-See [Bookmarks Manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.
+자세한 내용은 [책갈피 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/bookmarks.html) 및 [대시보드 및 Reportlet](https://docs.adobe.com/content/help/ko-KR/analytics/admin/server-call-usage/server-call-usage-dashboard.html)을 참조하십시오.
