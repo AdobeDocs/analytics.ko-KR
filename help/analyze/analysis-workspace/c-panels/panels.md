@@ -2,7 +2,7 @@
 description: 'null'
 title: 패널 개요
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -43,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/dropdown.png)
 
-1. 드롭다운에서 선택 사항 중 하나를 선택하여 아래 패널에서 데이터를 변경할 수 있습니다. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
+1. 드롭다운에서 선택 사항 중 하나를 선택하여 아래 패널에서 데이터를 변경할 수 있습니다. (**[!UICONTROL No filter]**&#x200B;을 선택하여 패널 데이터를 필터링하지 않도록 선택할 수도 있습니다 .)
 1. 예를 들어, 마케팅 채널별로 데이터를 분할하려는 경우 &#39;마케팅 채널&#39;이라는 다른 드롭다운을 추가할 수 있습니다.
 
    ![](assets/mc_dropdown.png)
