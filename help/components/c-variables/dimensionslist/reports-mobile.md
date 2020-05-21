@@ -3,7 +3,7 @@ description: '모바일 장치에서의 웹 사이트 액세스에 대한 정보
 title: 모바일
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
