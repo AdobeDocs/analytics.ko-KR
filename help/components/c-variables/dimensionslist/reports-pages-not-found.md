@@ -3,7 +3,7 @@ description: 끊긴 링크가 포함된 페이지를 식별하고 존재하지 �
 title: 페이지를 찾을 수 없음
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **속성**
 
-* 이 보고서는 웹 사이트에 구현된 [pageType](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagetype.html) 변수에서 직접 데이터를 참조합니다.
+* 이 보고서는 웹 사이트에 구현된 [pageType](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/pagetype.html) 변수에서 직접 데이터를 참조합니다.
 * 이 보고서는 트렌드 및 등급 형식 모두로 볼 수 있습니다.
 * 확대경 아이콘을 클릭하면 특정 페이지에 대한 최상위 레퍼러가 표시됩니다.
 
