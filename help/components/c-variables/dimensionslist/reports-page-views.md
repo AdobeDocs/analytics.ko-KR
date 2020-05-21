@@ -3,7 +3,7 @@ description: 선택한 시간(시간, 일, 주, 월, 분기 또는 연도) 동�
 title: 페이지 보기 수
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
@@ -17,14 +17,14 @@ source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ## 보고서 속성
 
-* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
-* 메서드를 사용하는 링크 추적 호출은 이 보고서에서 계산되지 않습니다. [`tl()`](/help/implement/vars/functions/tl-method.md)
+* 이 보고서는 사이트에서 [`t()`](/help/implement/vars/functions/t-method.md) 메서드가 호출된 횟수를 참조합니다.
+* [`tl()`](/help/implement/vars/functions/tl-method.md) 메서드를 사용하는 링크 추적 호출은 이 보고서에서 계산되지 않습니다.
 * 사용자가 페이지를 새로 고치거나 뒤로 단추를 누를 때마다 이미지 요청이 전송되므로 이러한 작업도 이 보고서에 포함됩니다.
 * 시간별 분류는 보고서 세트의 시간대를 따릅니다.
 * 이 보고서에는 라인 항목이 없습니다. 따라서 보고서를 트렌드 형식으로만 볼 수 있습니다.
 * 시간, 일, 주, 월, 분기 및 연도 단위를 적용할 수 있습니다. 이러한 단위는 보고 날짜 범위에 맞게 사용할 수 있습니다.
 
-## 제품별 정보
+## 제품 특정 정보
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
