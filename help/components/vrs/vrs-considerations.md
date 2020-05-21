@@ -4,7 +4,7 @@ keywords: Virtual Report Suite,VRS
 title: 가상 보고서 세트와 다중 세트 태깅 고려 사항
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
