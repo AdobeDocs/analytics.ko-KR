@@ -3,7 +3,7 @@ description: 세그먼트 관리자는 공유, 필터링, 태깅, 승인, 복사
 title: 세그먼트 관리
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
