@@ -3,7 +3,7 @@ description: 사이트 지표 > 사이트 개요 보고서는 로그인 시 표�
 title: 사이트 개요
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
