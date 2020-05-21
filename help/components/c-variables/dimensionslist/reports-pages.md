@@ -3,7 +3,7 @@ description: 트래픽이 가장 많은 사이트 페이지를 기준으로 페�
 title: 페이지
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
