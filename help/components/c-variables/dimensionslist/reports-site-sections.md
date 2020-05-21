@@ -3,7 +3,7 @@ description: 방문자가 가장 많이 액세스한 사이트 영역을 보여�
 title: 사이트 섹션
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,21 +13,21 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 방문자가 가장 많이 액세스한 사이트 영역을 보여줍니다. 사이트 섹션에는 카테고리처럼 사용자가 정의하는 제품 그룹이 포함될 수 있습니다. 카메라 페이지 그룹, 컴퓨터 그룹 등을 예로 들 수 있습니다. 전환 사이트 섹션 보고서용 데이터는 트래픽 그룹의 사이트 섹션에서 가져옵니다. 추적 코드에 있는 채널 변수의 정보를 표시합니다. 이 보고서를 사용하면 다양한 사이트 섹션의 항목에서 사이트 통계에 가장 큰 영향을 미치는 요소를 파악할 수 있습니다.
 
-* 이 보고서는 웹 사이트에 구현된 [s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) 변수에서 직접 데이터를 참조합니다.
+* 이 보고서는 웹 사이트에 구현된 [s.channel](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/channel.html) 변수에서 직접 데이터를 참조합니다.
 * 이 보고서는 트렌드 및 등급 형식 모두로 볼 수 있습니다.
 * 이 보고서에서 검색 필터를 사용하여 특정 라인 항목을 찾을 수 있습니다.
 * 이 보고서에서 분류를 사용하면 라인 항목을 통합하고 이름을 변경할 수 있습니다.
 * 상관 관계는 관리자 도구를 통해 다른 트래픽 변수와 함께 생성할 수 있습니다.
 * 이 보고서는 다음 지표를 활용할 수 있습니다.
 
-   * **페이지 보기**: [pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) 변수 또는 URL이 정의된 횟수(기본 지표로 설정)
+   * **페이지 보기**: [pageName](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/pagename.html) 변수 또는 URL이 정의된 횟수(기본 지표로 설정)
 
    * **모든 경로 지정 지표**: 방문, 평균 페이지 깊이, 페이지에서 보낸 평균 시간, 시작, 종료, 다시 로드, 및 단일 액세스.
    * 조직 및 보고서 세트 설정에 따라 이 보고서에서 일일, 주별, 월별 및 분기별 고유 방문자를 활성화할 수 있습니다.
    * **모든 표준 전자 상거래 지표**: 매출, 주문, 판매량, 장바구니, 장바구니 보기, 체크아웃, 장바구니 추가, 및 장바구니 제거.
    * **모든 사용자 지정 이벤트**: 이벤트 1-80, H22 코드 이상인 경우는 이벤트 81-100도 포함.
 
-마지막 할당 사용에 있는 모든 전환 [!UICONTROL Site Sections Report] 이벤트. 구현에 성공 이벤트가 포함되지 않은 페이지 간에 전환이 나뉘어 표시됩니다. 선형 할당을 사용하는 [페이지 보고서](/help/components/c-variables/dimensionslist/reports-pages.md)와는 다릅니다.
+[!UICONTROL 사이트 섹션 보고서]의 모든 전환 이벤트는 마지막 할당을 사용합니다. 구현에 성공 이벤트가 포함되지 않은 페이지 간에 전환이 나뉘어 표시됩니다. 선형 할당을 사용하는 [페이지 보고서](/help/components/c-variables/dimensionslist/reports-pages.md)와는 다릅니다.
 
 **제품별 정보**
 
