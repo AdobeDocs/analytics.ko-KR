@@ -2,7 +2,7 @@
 description: Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 title: Ad Hoc Analysis와 비교한 Analysis Workspace
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -14,7 +14,7 @@ Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 
 Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워크플로우에 제공합니다. 두 제품의 일부 용어와 기능은 같지만, 분석에 대한 몇 가지 새로운 용어와 접근 방식이 Analysis Workspace에 도입되었습니다.
 
-이 두 제품의 주요 기능과 시스템 요구 사항에 대한 기술 비교는 [여기](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)에서 확인하십시오.
+이 두 제품의 주요 기능과 시스템 요구 사항에 대한 기술 비교는 [여기](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-overview/analytics-product-comparison.html)에서 확인하십시오.
 
 ## 주요 용어 비교 {#section_6109406B83B043A18E46D38F130B1D2E}
 
