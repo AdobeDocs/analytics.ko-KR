@@ -3,7 +3,7 @@ description: 사이트 지표 보고서에는 웹 사이트에 대한 수량 정
 title: 사이트 지표
 topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
