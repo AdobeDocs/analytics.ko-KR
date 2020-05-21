@@ -3,7 +3,7 @@ description: 사이트에 액세스한 고유 방문자 수를 표시합니다. 
 title: 고유 방문자 수
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
