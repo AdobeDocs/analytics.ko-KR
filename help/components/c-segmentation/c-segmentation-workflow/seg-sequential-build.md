@@ -3,7 +3,7 @@ description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 �
 title: 순차적 세그먼트 작성
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
