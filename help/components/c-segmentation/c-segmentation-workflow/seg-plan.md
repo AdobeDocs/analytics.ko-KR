@@ -3,7 +3,7 @@ description: 세그먼트를 계획할 때 따라야 하는 단계 및 모범 �
 title: 계획 세그먼트
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
