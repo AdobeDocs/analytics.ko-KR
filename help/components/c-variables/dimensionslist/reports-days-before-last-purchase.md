@@ -3,7 +3,7 @@ description: 이 보고서는 고객이 반복 구매에 소요하는 평균적�
 title: 마지막 구매 이후 일 수
 topic: Reports
 uuid: 7abd7f10-f16c-454b-99d3-7dd08db7892e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
