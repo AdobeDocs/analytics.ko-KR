@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 조정/공유 개요
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -24,18 +24,18 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 1. 프로젝트를 생성하고 조정하는 권한을 지정하십시오.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
+   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 [ 권한이 활성화된 ](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)그룹&#x200B;**[!UICONTROL Analysis Workspace Access]**&#x200B;이나 **[!UICONTROL All Report Access]** 사용자 그룹에 여러분을 추가해야 합니다(**[!UICONTROL Admin]** >**[!UICONTROL User Management]** >**[!UICONTROL Groups]**).
 
-1. [프로젝트를 만들어 저장한](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 다음 **[!UICONTROL Share]** >를 **[!UICONTROL Curate Project Data]**&#x200B;클릭합니다.
-1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
+1. 프로젝트를 [만들고 저장한](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 다음 **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**&#x200B;를 클릭합니다.
+1. 공유하려는 구성 요소를 왼쪽의 드래그 가능한 구성 요소 스택에서 **[!UICONTROL Curated Components]** 필드로 드래그합니다.
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >구성 요소 조정은 프로젝트 공유에 필수가 아닙니다. 모든 사용 가능한 기본 구성 요소나 선택한 구성 요소와 프로젝트를 공유할 수 있습니다. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 일단 프로젝트에서 구성 요소를 조정하면, 해당 프로젝트에 기타 구성 요소를 더 이상 사용할 수 없습니다.
+   >구성 요소 조정은 프로젝트 공유에 필수가 아닙니다. 모든 사용 가능한 기본 구성 요소나 선택한 구성 요소와 프로젝트를 공유할 수 있습니다. 프로젝트에 있는 모든 기본 구성 요소를 보존하기 위해 가장 좋은 방법은 구성 요소를 조정하기 전에 직접 프로젝트 사본을 만드는 것입니다(**[!UICONTROL Save As]** 사용). 일단 프로젝트에서 구성 요소를 조정하면, 해당 프로젝트에 기타 구성 요소를 더 이상 사용할 수 없습니다.
 
-1. 클릭 **[!UICONTROL Done]**.
+1. **[!UICONTROL Done]**&#x200B;을 클릭합니다.
 
 결과 프로젝트는 Analysis Workspace에서 전형적인 프로젝트처럼 동작하지만, 선택하도록 지정된 구성 요소들만 사용합니다.
 
@@ -60,7 +60,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
    >
    >이 설정은 유지되지 않습니다. 공유 시의 단일 작업입니다.
 
-1. 클릭 **[!UICONTROL Share]**.
+1. **[!UICONTROL Share]**&#x200B;를 클릭합니다.
 
 <!-- 
 
