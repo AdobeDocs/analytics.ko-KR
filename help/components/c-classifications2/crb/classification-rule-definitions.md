@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류 규칙 - 정의
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 및 변수 선택 </p> </td> 
-   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p>예를 들어, <span class="term">페이지</span>를 규칙 세트에 변수로 사용할 수 있도록 하려면, 보고서 세트에 <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >트래픽 분류</a>가 <span class="term">페이지</span>에 대해 구현되어 있는지 확인하십시오. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span>(또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >트래픽 분류</a> 및 <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >전환 분류</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p>예를 들어, <span class="term">페이지</span>를 규칙 세트에 변수로 사용할 수 있도록 하려면, 보고서 세트에 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/traffic-classifications.html"  >트래픽 분류</a>가 <span class="term">페이지</span>에 대해 구현되어 있는지 확인하십시오. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span>(또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/traffic-classifications.html"  >트래픽 분류</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >전환 분류</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 활성화</span> </p> </td> 
@@ -117,7 +117,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 정규 표현식 페이지 {#section_C932A5469E774841B2229965A154163C}
 
-You can edit regular expressions on the [!UICONTROL Regular Expression] page.
+[!UICONTROL 정규 표현식] 페이지에서 정규 표현식을 편집할 수 있습니다.
 
 ![](assets/regex_tracking_code.png)
 
@@ -129,7 +129,7 @@ You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 | 일치 그룹 | 캠페인 ID에서 위치를 분류할 수 있도록 정규 표현식이 캠페인 ID 문자에 대응하는 방식을 표시합니다. |
 | 일치 결과 | 정규 표현식과 일치하는 문자열의 각 부분을 표시합니다. |
 
-자세한 내용은 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+ [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## 테스트 페이지 {#section_EC926F97901C4E65901413F9683AA70A}
 
@@ -140,5 +140,5 @@ You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 | 요소 | 설명 |
 |---|---|
 | 테스트 실행 | 규칙 세트를 테스트할 때 보고서의 키를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. |
-| 필터 | Filters the values in the [!UICONTROL Results] panel. |
+| 필터 | [!UICONTROL 결과] 패널에서 값을 필터링합니다. |
 
