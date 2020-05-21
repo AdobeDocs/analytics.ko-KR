@@ -1,7 +1,7 @@
 ---
 title: 기여도 분석 IQ
 description: '기여도 분석 IQ는 마케팅 활동이 전환에 기여하는 방식에 대한 추가적인 통찰력을 제공하는 Adobe Analytics의 기능 세트입니다. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
