@@ -3,7 +3,7 @@ description: Experience Cloud에서 사용되는 보고서 카테고리 설명�
 title: 보고서 카테고리
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
