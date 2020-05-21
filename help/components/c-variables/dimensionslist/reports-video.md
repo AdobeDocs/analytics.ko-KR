@@ -3,7 +3,7 @@ description: 온라인 미디어 액세스 통계에 대한 정보를 표시합�
 title: 비디오
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
