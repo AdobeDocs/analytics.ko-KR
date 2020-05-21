@@ -3,7 +3,7 @@ description: 세그먼트 관리자 내에서 다양한 애플리케이션 수�
 title: 세그먼트 승인
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,5 +23,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/seg_approved.png)
 
-1. **[!UICONTROL 비승인을 클릭하여 승인된 세그먼트의 승인을 취소할 수도 있습니다]**.
+1. **[!UICONTROL 비승인]**&#x200B;을 클릭하여 승인된 세그먼트의 승인을 취소할 수도 있습니다.
 
