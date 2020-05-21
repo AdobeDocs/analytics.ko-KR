@@ -2,7 +2,7 @@
 title: 세그먼트 비교 패널 개요
 description: Analysis Workspace에서 세그먼트 IQ의 일부인 세그먼트 비교 패널을 사용하는 방법을 알아봅니다.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -27,11 +27,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![대상 비교](assets/compare-audiences.png)
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. 이 세그먼트는 비교 패널에서 자주 사용되지만 자유롭게 제거하고 선택한 다른 세그먼트를 비교할 수 있습니다.
+   세그먼트를 패널로 드래그하면 선택한 세그먼트에 없는 모든 사람을 포함하는 [!UICONTROL 'Everyone Else'] 세그먼트가 자동으로 만들어집니다. 이 세그먼트는 비교 패널에서 자주 사용되지만 자유롭게 제거하고 선택한 다른 세그먼트를 비교할 수 있습니다.
 
    ![기타 사용자](assets/everyone-else.png)
 
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
+1. 비교할 두 개의 세그먼트를 결정했으면 [!UICONTROL Build]을 클릭합니다.
 
    그러면 선택한 두 세그먼트와 모든 차원, 지표 및 기타 세그먼트 간의 통계적 차이를 찾는 백엔드 프로세스가 시작됩니다. 패널의 맨 위에 있는 진행률 표시줄은 모든 지표 및 차원이 분석될 때까지 남은 시간을 나타냅니다. 가장 자주 사용되는 지표, 차원 및 세그먼트는 가장 연관성 있는 결과가 적시에 반환되도록 먼저 실행되는 우선순위가 지정됩니다.
 
@@ -39,12 +39,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 때로는 세그먼트 비교에서 일부 차원, 지표 또는 세그먼트를 제외하는 것이 좋습니다. 예를 들어 &#39;미국 모바일 사용자&#39; 세그먼트를 &#39;독일 모바일 사용자&#39; 세그먼트와 비교하려고 하는 경우, 이 세그먼트들은 이미 차이점을 암시하고 있으므로 지리적 위치 관련 차원을 포함시키는 것은 적절하지 않습니다.
 
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. 원하는 두 개의 세그먼트가 패널에 있으면 [!UICONTROL 'Show Advanced Options']를 클릭합니다.
+1. 제외할 구성 요소를 [!UICONTROL Excluded Components] 패널에 드래그하여 놓습니다.
 
    ![제외된 구성 요소](assets/excluded-components.png)
 
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. 제외된 구성 요소를 편집하려면 구성 요소 유형을 클릭한 다음, 분석에 다시 포함할 구성 요소 옆에 있는 &#39;X&#39;를 클릭합니다. 세그먼트 비교에 모든 구성 요소를 다시 포함하려면 &#39;모두 지우기&#39;를 클릭하십시오.
+모든 향후 세그먼트 비교에서 현재 구성 요소를 자동으로 제외하려면 [!UICONTROL 'Set as default']을 클릭합니다. 제외된 구성 요소를 편집하려면 구성 요소 유형을 클릭한 다음, 분석에 다시 포함할 구성 요소 옆에 있는 &#39;X&#39;를 클릭합니다. 세그먼트 비교에 모든 구성 요소를 다시 포함하려면 &#39;모두 지우기&#39;를 클릭하십시오.
 
 ![제외된 차원](assets/excluded-dimensions.png)
 
