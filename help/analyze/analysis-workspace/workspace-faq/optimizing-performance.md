@@ -2,7 +2,7 @@
 description: 'null'
 title: Analysis Workspace 성능 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
