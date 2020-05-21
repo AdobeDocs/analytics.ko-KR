@@ -3,7 +3,7 @@ description: 터치 포인트에서 세그먼트를 만들고, 세그먼트를 �
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: 폴아웃 분석에서 세그먼트 적용
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 터치 포인트에서 세그먼트 만들기 {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 특별히 관심이 있고, 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치 포인트로부터 세그먼트를 만듭니다. 터치포인트를 마우스 오른쪽 단추로 클릭하고 선택하여 **[!UICONTROL Create segment from touchpoint]**&#x200B;수행합니다.
+1. 특별히 관심이 있고, 다른 보고서에 적용하는 데 유용할 수 있는 특정 터치 포인트로부터 세그먼트를 만듭니다. 터치포인트를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Create segment from touchpoint]**&#x200B;을 선택하여 이를 수행합니다.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -45,7 +45,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 폴아웃 시각화에서는 세그먼트를 무제한으로 비교할 수 있습니다.
 
-1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. 이 예에서는 미국 사용자와 비미국 사용자, 이렇게 2개의 세그먼트를 선택했습니다. 
+1. 왼쪽의 [!UICONTROL Segments] 레일에서 비교할 세그먼트를 선택합니다. 이 예에서는 미국 사용자와 비미국 사용자, 이렇게 2개의 세그먼트를 선택했습니다. 
 1. 이 세그먼트들을 맨 위의 세그먼트 놓기 영역에 드래그합니다. 
 
    ![](assets/segment-drop.png)
