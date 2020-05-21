@@ -3,7 +3,7 @@ description: 방문자가 유료 검색에 사용하는 검색 엔진을 표시�
 title: 유료 검색 엔진
 topic: Reports
 uuid: 82f27eea-f72b-48a9-ba5d-5968c212b536
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
