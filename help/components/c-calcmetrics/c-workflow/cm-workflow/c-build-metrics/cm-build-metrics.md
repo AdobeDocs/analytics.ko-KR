@@ -2,7 +2,7 @@
 description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단한 계산된 지표나 복잡한 고급 계산된 지표를 빌드하고 저장할 수 있습니다.
 title: 지표 작성
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 다음 몇 가지 방법으로 계산된 지표 빌더에 액세스할 수 있습니다.
 
-* 분석 작업 공간에서 프로젝트를 열고 **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** 을 클릭합니다.
-* 에서 [!DNL Analytics]> **[!UICONTROL Components]** 로 **[!UICONTROL Calculated Metrics]**&#x200B;이동합니다.
+* Analysis Workspace에서 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 지표 만들기]**&#x200B;를 클릭합니다 .
+* [!DNL Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**&#x200B;로 이동합니다.
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
+* **[!UICONTROL 계산된 지표 관리자]**&#x200B;의 상단에서 [+ 추가](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)를 클릭하거나
 
-* Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
+* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 ![](assets/cm_builder_ui.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 제품 호환성 </span> </td> 
-   <td colname="col3"> <p>제품 호환성은 지표가 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >현재 데이터</a>와 호환되는지, 완전히 처리된 데이터와 호환되는지 또는 마케팅 채널 보고서와 호환되는지를 보여줍니다(첫 번째 터치 할당). <p>참고: 현재 데이터는 일부 데이터를 지원하지 않습니다. 세그먼트나 함수가 들어 있는 지표는 현재 데이터와 호환하지 않습니다. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 자세히... </a> </p> </p> </td> 
+   <td colname="col3"> <p>제품 호환성은 지표가 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/current-data.html"  >현재 데이터</a>와 호환되는지, 완전히 처리된 데이터와 호환되는지 또는 마케팅 채널 보고서와 호환되는지를 보여줍니다(첫 번째 터치 할당). <p>참고: 현재 데이터는 일부 데이터를 지원하지 않습니다. 세그먼트나 함수가 들어 있는 지표는 현재 데이터와 호환하지 않습니다. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 자세히... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 </span> </td> 
@@ -128,7 +128,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col2"> <p>세그먼트 목록 </p> </td> 
-   <td colname="col3"> <p>(고급 계산된 지표만 해당) 관리자로서, 이 목록은 로그인 회사에서 만든 모든 세그먼트를 보여줍니다. 사용자가 관리 사용자가 아닐 경우, 이 목록에는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트가 표시됩니다. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > 자세히... </a> </p> </td> 
+   <td colname="col3"> <p>(고급 계산된 지표만 해당) 관리자로서, 이 목록은 로그인 회사에서 만든 모든 세그먼트를 보여줍니다. 사용자가 관리 사용자가 아닐 경우, 이 목록에는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트가 표시됩니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segment-reference/seg-rights.html"  > 자세히... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>함수 목록 </p> </td> 
