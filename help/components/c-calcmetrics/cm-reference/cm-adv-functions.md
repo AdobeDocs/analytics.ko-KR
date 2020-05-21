@@ -2,7 +2,7 @@
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 title: 참조  고급 함수
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # 참조: 고급 함수
 
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+**[!UICONTROL 함수]** 드롭다운 목록에서 **[!UICONTROL 고급 표시]**&#x200B;를 선택하여 이 함수들에 액세스하십시오.
 
 ## 테이블 함수 대 행 함수 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -65,7 +65,7 @@ Approximate Count Distinct (dimension)
 
 ## 고유 수 초과됨 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count() 및 RowCount()와 마찬가지로 근사 고유 개수()는 [&quot;고유 수 초과&quot; 한도](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
+Count() 및 RowCount()와 마찬가지로 근사 고유 개수()는 [&quot;고유 수 초과&quot; 한도](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/low-traffic.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
 
 ## 계수 함수 비교 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
