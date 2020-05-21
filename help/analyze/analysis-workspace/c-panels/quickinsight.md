@@ -1,20 +1,20 @@
 ---
 description: 빠른 통찰력 빌더는 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 가능하게 해주는 도구입니다
-title: 빠른 인사이트 빌더
+title: Quick Insights 빌더
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 2%
+source-wordcount: '1050'
+ht-degree: 3%
 
 ---
 
 
-# 빠른 인사이트 빌더
+# Quick Insights 빌더
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 빠른 인사이트]** (Quick Insights)는 현재 제한된 테스트 중이며 아직 모든 Adobe Analytics 고객에게 제공되지 않습니다.
+>**[!UICONTROL 빠른 인사이트]** 테스트는 현재 제한적입니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL 빠른 통찰력] 은 분석 작업 공간의 비분석가 및 새로운 사용자가 비즈니스 질문에 빠르고 손쉽게 대답하는 방법을  배울 수 있도록 도움을 줍니다. 또한 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
@@ -38,8 +38,8 @@ ht-degree: 2%
 | [!UICONTROL 차원] | 차원은 프로젝트에서 보고 분류하고 비교할 수 있는 지표 데이터의 설명 또는 특성입니다. 숫자가 아닌 값 및 차원 항목으로 분류되는 날짜입니다. 예를 들어 &quot;browser&quot; 또는 &quot;page&quot;는 차원입니다. |
 | [!UICONTROL 차원 항목] | 차원 항목은 차원의 개별 값입니다. 예를 들어 브라우저 차원의 차원 항목은 &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot; 등이 됩니다. |
 | [!UICONTROL 지표] | 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다. |
-| [!UICONTROL 시각화] | 작업 공간 [은 막대 차트, 도넛 차트, 히스토그램, 라인 차트, 지도, 스캐터플로](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 등과 같은 데이터를 시각적으로 표시하는 여러 가지 시각화를 제공합니다. |
-| [!UICONTROL 분류] | 분류는 차원을 다른 차원으로 문자 그대로 분류하는 방법입니다. 이 예에서는 미국 주를 모바일 장치별로 분류하여 주별 모바일 장치 방문을 받거나 모바일 장치 유형별로, 지역별, 내부 캠페인 등으로 분류할 수 있습니다. |
+| [!UICONTROL 시각화] | Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. |
+| [!UICONTROL 차원 분류] | 차원 분류는 차원을 다른 차원으로 문자 그대로 분류하는 방법입니다. 이 예에서는 미국 주를 모바일 장치별로 분류하여 주별 모바일 장치 방문을 받거나 모바일 장치 유형별로, 지역별, 내부 캠페인 등으로 분류할 수 있습니다. |
 | [!UICONTROL 세그먼트] | 세그먼트를 사용하면 특성 또는 웹 사이트 상호 작용을 기반으로 방문자의 하위 집합을 식별할 수 있습니다. 예를 들어 속성을 기반으로 [!UICONTROL 방문자] 세그먼트를 만들 수 있습니다. 브라우저 유형, 장치, 방문 횟수, 국가, 성별 또는 상호 작용에 따라 다릅니다. 캠페인, 키워드 검색, 검색 엔진 또는 종료 및 항목 기반: Facebook의 방문자, 정의된 랜딩 페이지, 참조 도메인 또는 사용자 지정 변수 기반: 양식 필드, 정의된 카테고리, 고객 ID. |
 
 ## 빠른 인사이트 시작하기
@@ -66,7 +66,7 @@ ht-degree: 2%
    * 세로 차원(미국 주)과 맨 위에 가로로 지표(여기, 방문)가 있는 자유 형식 테이블. 다음 표를 확인하십시오.
    ![](assets/qibuilder3.png)
 
-   * 함께 제공되는 시각화(이 경우 [막대 차트](/help/analyze/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 막대 옆에 있는 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 **[!UICONTROL 있습니다]**.
+   * 함께 제공되는 시각화(이 경우 [막대 차트](/help/analyze/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/ [!UICONTROL 월당 방문] 수)는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: 장치당 [!UICONTROL 방문] 수 )는 기본적으로 [!UICONTROL 막대] 차트가됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
 
 
 1. (선택 사항) 차원 옆에 있는 > 오른쪽 화살표를 클릭하여 차원을 드릴다운하고 차원 항목을 봅니다.
@@ -94,10 +94,6 @@ ht-degree: 2%
 * **세그먼트 추가**: AND 또는 OR 연산자를 사용하여 테이블을 추가하여 최대 2개의 세그먼트를 추가할 수 있습니다. 모바일 사용자 또는 단골 방문자를 추가할 때 표에 나타나는 상황을 살펴봅니다. 지표 위에 서로 나란히 있습니다. 모바일 사용자 및 단골 방문자를 추가한 경우 두 세그먼트의 결과를 함께 볼 수 있으며 표의 서로 겹치게 됩니다.
 
    ![](assets/qibuilder7.png)
-
-## 빠른 인사이트 프로젝트 열기/로드
-
-
 
 ## 알려진 제한 사항
 
