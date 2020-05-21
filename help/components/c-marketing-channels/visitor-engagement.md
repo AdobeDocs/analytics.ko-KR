@@ -4,7 +4,7 @@ subtopic: Marketing channels
 title: 방문자 유도 만료
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 
 ---
