@@ -1,9 +1,9 @@
 ---
-description: 방문자가 사이트에서 선택한 페이지를 본 후 본 페이지를 표시합니다.
+description: 방문자가 사이트에서 선택한 페이지를 본 후 확인한 페이지를 보여줍니다.
 title: 다음 페이지
 topic: Reports
 uuid: 4abecb9c-efc4-4844-9712-f352b2570936
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2c6dcb2151a3183cbd0d3c90522983288759250
 
 ---
