@@ -1,7 +1,7 @@
 ---
 title: 자유 형식 테이블
 description: 자유 형식 테이블 및 자유 형식 테이블 빌더에 대해 알아보기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
@@ -25,14 +25,14 @@ Analysis Workspace에서 자유 형식 테이블은 데이터 테이블일 뿐�
 
 ## 자유 형식 테이블 빌더
 
-먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 자유 형식 테이블 빌더를 활성화할 수 있습니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 더 복잡한 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. Data will not update on-the-fly, it will update once you click **[!UICONTROL Build]**.
+먼저 테이블에 여러 구성 요소를 추가한 다음 데이터를 렌더링하려는 경우 자유 형식 테이블 빌더를 활성화할 수 있습니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 더 복잡한 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않고 **[!UICONTROL Build]**&#x200B;를 클릭하면 업데이트됩니다 .
 
 테이블 빌더는 데이터에 대한 복잡한 질문이 있고 질문에 답변하기 위해 구성할 표에 대한 아이디어가 있을 때 시간을 절약할 수 있는 옵션입니다. 그 외에도 테이블 빌더에는 다음을 수행할 수 있는 기능이 포함되어 있습니다.
 
 * 각 작업이 렌더링될 때까지 기다리지 않고 필요한 정확한 형식으로 표를 배열합니다.
 * 최대 4가지 수준의 분류를 신속하게 수행합니다.
 * 모든 테이블 행 및 차원 열에 대한 행 및 분류 설정을 정의합니다.
-* **[!UICONTROL Breakdown by Position]** 기본적으로 테이블의 모든 수준에 대해(기존 자유 형식 테이블에서 기본값은 **[!UICONTROL Breakdown by Item]**&#x200B;입니다.)
+* **[!UICONTROL Breakdown by Position]** 기본적으로 테이블의 모든 수준에 대해 해당됩니다(일반 자유 형식 테이블에서 기본값은 **[!UICONTROL Breakdown by Item]**&#x200B;입니다).
 * 테이블에서 정적 행의 순서를 수동으로 지정합니다. 예를 들어 지표 행을 특정 순서로 표시하려는 경우 이 방법을 사용합니다.
 * 실제 데이터를 렌더링하기 전에 테이블 형식을 미리 봅니다.
 
@@ -42,6 +42,6 @@ Analysis Workspace에서 자유 형식 테이블은 데이터 테이블일 뿐�
 
 자유 형식 테이블의 데이터는 다음과 같은 몇 가지 방법으로 Analysis Workspace에서 복사할 수 있습니다.
 
-* 표 머리글을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy to Clipboard]**&#x200B;선택합니다. 이 경우 전체(표시된) 테이블을 내보냅니다.
-* Highlight specific cells in the table, right-click and select **[!UICONTROL Copy to Clipboard]**, or use the Ctrl + C hotkey.
+* 테이블 헤더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy to Clipboard]**&#x200B;를 선택합니다. 이 경우 전체(표시된) 테이블을 내보냅니다.
+* 테이블에서 특정 셀을 강조 표시하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL Copy to Clipboard]**&#x200B;를 선택하거나, Ctrl+C 핫키를 사용합니다.
 * **[!UICONTROL Project > Download CSV]** 구문을 사용하는 키-값 쌍으로 전달됩니다. 이렇게 하면 프로젝트에 표시된 모든 테이블을 CSV로 내보냅니다.
