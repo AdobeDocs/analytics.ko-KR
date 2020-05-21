@@ -1,7 +1,7 @@
 ---
 description: 마케팅 채널용으로 설정할 수 있는 다양한 규칙을 채우는 방법에 대한 우수 사례 및 예제를 참조하십시오.
 title: 마케팅 채널 FAQ 및 예제
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -72,7 +72,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/example_paid_search.png)
 
-자세한 내용은 관리의 [유료 검색 감지](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
+자세한 내용은 관리의 [유료 검색 감지](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 ## 자연어 검색 {#natural-search}
 
@@ -84,7 +84,7 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 ![](assets/example_natural_search.png)
 
-자세한 내용은 관리의 [유료 검색 감지](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
+자세한 내용은 관리의 [유료 검색 감지](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 ## 제휴 {#afilliates}
 
