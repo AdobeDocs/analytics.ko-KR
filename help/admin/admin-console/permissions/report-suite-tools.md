@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '650'
+ht-degree: 98%
 
 ---
 # 제품 프로필 권한에 나열된 보고서 세트 도구
@@ -59,3 +62,4 @@ translation-type: tm+mt
 | 사용 요약 리포트릿 | 사용되지 않습니다. |
 | 웹 리소스 | 사용되지 않습니다. |
 | 소셜 | 사용되지 않습니다. |
+| 데이터 복구 API | 데이터 복구 API에 대한 액세스 권한 부여(향후 릴리스) |
