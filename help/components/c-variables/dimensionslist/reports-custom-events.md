@@ -3,7 +3,7 @@ description: 방문자가 완료해야 하는 사이트에서의 전환 작업. 
 title: 사용자 지정 이벤트
 topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
