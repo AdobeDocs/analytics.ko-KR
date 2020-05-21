@@ -2,7 +2,7 @@
 description: 'null'
 title: 폴아웃 시각화 구성
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 추가할 수 있는 단계의 수나 사용된 차원의 수에 대한 제한은 없습니다. 
 
-머천다이징 eVar 및 [listVars](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 포함한 eVar에 대해 경로를 지정할 수 있습니다(제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 히트당 여러 개의 값이 있을 수 있는 변수). 예를 들어, 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다. 
+머천다이징 eVar 및 [listVars](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 포함한 eVar에 대해 경로를 지정할 수 있습니다(제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 히트당 여러 개의 값이 있을 수 있는 변수). 예를 들어, 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
 
-1. 시각화 드롭다운에서 [!UICONTROL Fallout] 시각화를 드래그하여 [!UICONTROL Freeform Table]만듭니다.
+1. 시각화 드롭다운에서 [!UICONTROL Fallout] 시각화를 [!UICONTROL Freeform Table]로 드래그합니다.
 
-1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL Add TouchPoint]** field as the first touchpoint.
+1. 페이지 차원을 자유 형식 테이블로 드래그하고, 거기에서 페이지(이 경우, 홈 - JJEsquire)를 **[!UICONTROL Add TouchPoint]** 필드에 첫 번째 터치 포인트로서 드래그합니다.
 
    ![](assets/fallout1.png)
 
@@ -71,6 +71,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 터치포인트 트렌드 | 터치포인트에 대한 트렌드 데이터를 사전 빌드된 일부 예외 항목 탐지 데이터가 있는 선 그래프로 확인하십시오. |
 | 터치포인트 트렌드(%) | 총 폴아웃 비율의 트렌드를 표시합니다. |
 | 모든 터치포인트의 트렌드 표시(%) | 동일한 차트에서 폴아웃(&quot;모든 방문&quot;이 포함된 경우 &quot;모든 방문&quot; 제외)의 모든 터치포인트 비율의 트렌드를 표시합니다. |
-| 이 터치포인트에서 폴스루 분류 | 방문자가 다음 터치포인트를 계속 진행할 경우 두 터치포인트(이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이렇게 하면 차원을 보여 주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 교체할 수 있습니다.  |
+| 이 터치포인트에서 폴스루 분류 | 방문자가 다음 터치포인트로 계속 이동할 경우 두 터치포인트(이 터치포인트와 다음 터치포인트) 간 수행한 작업을 봅니다. 이렇게 하면 차원을 보여 주는 자유 형식 테이블이 만들어집니다. 차원과 테이블의 다른 요소를 교체할 수 있습니다.  |
 | 이 터치포인트에서 폴아웃 분류 | 단계를 통과하지 않은 사람이 선택된 단계 직후 무엇을 했는지 볼 수 있습니다.  |
 | 터치포인트에서 세그먼트 만들기  | 선택한 터치포인트에서 새 세그먼트를 만듭니다.  |
