@@ -2,9 +2,9 @@
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 82%
 
 ---
@@ -113,6 +113,8 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
 4. 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 직접 끌어서 놓습니다. 스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe [Analytics Workspace에서와 동일한 방식으로 스코어카드에](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 대한 필터를 구성하고 적용할 수 있습니다.
 
+   ![필터용 세그먼트 작성](assets/segment_ui.png)
+
 5. 마찬가지로 전체 스코어카드에 적용된 구성 요소를 제거하려면 타일 바깥쪽에 있는 스코어카드의 아무 곳이나 클릭한 다음 **모바일 고객** 세그먼트에 대해 아래에 표시된 대로 구성 요소를 마우스로 가리키면 표시되는 **x**&#x200B;를 클릭하여 제거합니다.
 
    ![Remove_components](assets/new_remove.png)
@@ -174,14 +176,14 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    **iOS를 사용하는 경영진 사용자:**
 
-   1. 다음 링크(도구 **>** 대시보드 ****&#x200B;아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
+   * 다음 링크(도구 **>** 대시보드 ****&#x200B;아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
 
       [iOS 링크](https://apple.co/2zXq0aN)
    **Android를 사용하는 경영진 사용자:**
 
-   1. 다음 링크(도구 **>** 대시보드 ****&#x200B;아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
+   * 다음 링크(도구 **>** 대시보드 ****&#x200B;아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Android 링크](https://bit.ly/2LM38Oo)
    다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
 
    ![앱 시작 화면](assets/welcome.png)
