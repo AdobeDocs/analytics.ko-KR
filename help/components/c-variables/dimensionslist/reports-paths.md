@@ -3,7 +3,7 @@ description: 웹 사이트 페이지에 액세스하는 순서에 대한 정보�
 title: 경로
 topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
