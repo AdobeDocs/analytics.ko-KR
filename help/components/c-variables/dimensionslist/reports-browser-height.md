@@ -3,7 +3,7 @@ description: 브라우저 창에서 데이터의 수직 거리를 나타냅니�
 title: 브라우저 높이
 topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
