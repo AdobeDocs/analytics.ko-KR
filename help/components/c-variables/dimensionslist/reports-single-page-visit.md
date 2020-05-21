@@ -3,7 +3,7 @@ description: Ad Hoc Analysis의 단일 페이지 방문 지표와는 다릅니�
 title: 단일 페이지 방문
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Ad Hoc Analysis의 단일 페이지 방문 지표와는 다릅니다. 단일 페
 
 * 단일 페이지 방문은 단일 이미지 요청이 아닌 하나의 고유 값이 포함된 방문으로 간주됩니다.
 
-   * In the context of a [페이지 보고서](/help/components/c-variables/dimensionslist/reports-pages.md) 컨텍스트에서는 방문 내에서 하나의 고유 페이지만 실행할 수 있습니다.
+   *  [페이지 보고서](/help/components/c-variables/dimensionslist/reports-pages.md) 컨텍스트에서는 방문 내에서 하나의 고유 페이지만 실행할 수 있습니다.
    *  [사이트 섹션 보고서](/help/components/c-variables/dimensionslist/reports-site-sections.md) 컨텍스트에서는 방문 내에서 하나의 고유 사이트 섹션만 실행됩니다.
    * 한편 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md) 컨텍스트에서는 단일 고유 값이 실행된 경우만 이 보고서에 방문이 표시됩니다.
 
