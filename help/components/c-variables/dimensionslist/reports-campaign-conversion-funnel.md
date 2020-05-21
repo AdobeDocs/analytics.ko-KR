@@ -3,7 +3,7 @@ description: 캠페인 보고 그룹의 지표 평균을 보여줍니다. 기본
 title: 캠페인 전환 단계
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
