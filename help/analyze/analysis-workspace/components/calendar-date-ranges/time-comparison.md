@@ -2,7 +2,7 @@
 description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 title: 날짜 비교
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 분석하려면 컨텍스트가 필요하며, 해당 컨텍스트를 이전 기간에서 제공하는 경우가 종종 있습니다. 예를 들어, &quot;작년 이맘때보다 얼마나 좋아질까요/나빠질까요?&quot;라는 질문은 비즈니스를 이해하는 데 기본적인 질문입니다. 날짜 비교에 &quot;차이점&quot; 열이 자동으로 포함되는데, 이 열은 지정된 기간과 비교한 백분율 변경을 표시합니다.
 
 1. 기간을 비교할 차원 및 지표를 사용하여 자유 형식 테이블을 만듭니다.
-1. 표 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Compare Time Periods]**&#x200B;선택합니다.
+1. 표 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Compare Time Periods]**&#x200B;를 선택합니다.
 
    ![](assets/compare-time.png)
 
@@ -35,7 +35,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    >[!NOTE]
    >
-   >사용자 지정 일 수(예: 10월 7일 - 10월 20일(14일 범위)를 선택하면 다음 두 가지 옵션만 제공됩니다.및 **[!UICONTROL Prior 14 days before this date range]**&#x200B;를 **[!UICONTROL Select range]**&#x200B;참조하십시오.
+   >사용자 지정 일 수(예: 10월 7일 - 10월 20일(14일 범위))를 선택하면 **[!UICONTROL Prior 14 days before this date range]** 및 **[!UICONTROL Select range]**&#x200B;의 2가지 옵션만 제공됩니다.
 
 1. 결과 비교 모양은 다음과 같습니다.
 
@@ -47,13 +47,13 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    ![](assets/compare-time-barchart.png)
 
-   Note that in order to show the percentage change in the bar chart, you have to have the [!UICONTROL Percentages] setting checked in the [!UICONTROL Visualization Settings].
+   막대 차트에 백분율 변경을 표시하려면 [!UICONTROL Percentages]시각화 설정에서 [!UICONTROL Visualization Settings] 설정을 선택해야 합니다 .
 
 ## 비교할 기간 열 추가 {#section_93CC2B4F48504125BEC104046A32EB93}
 
 이제 테이블의 각 열에 기간을 추가하여 달력에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
 
-1. 표에서 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
+1. 표에서 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)를 클릭합니다.
 
 1. 테이블의 날짜 범위를 설정한 방법에 따라 비교에 대한 다음 옵션이 제공됩니다.
 
@@ -65,7 +65,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    >[!NOTE]
    >
-   >사용자 지정 일 수(예: 10월 7일 - 10월 20일(14일 범위)를 선택하면 다음 두 가지 옵션만 제공됩니다.및 **[!UICONTROL Prior 14 days before this date range]**&#x200B;를 **[!UICONTROL Select range]**&#x200B;참조하십시오.
+   >사용자 지정 일 수(예: 10월 7일 - 10월 20일(14일 범위))를 선택하면 **[!UICONTROL Prior 14 days before this date range]** 및 **[!UICONTROL Select range]**&#x200B;의 2가지 옵션만 제공됩니다.
 
 1. 선택한 열 맨 위에 기간이 삽입됩니다.
 
@@ -79,7 +79,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 ## 열 날짜를 같은 행의 시작으로 정렬 {#section_5085E200082048CB899C3F355062A733}
 
-모든 표에 대한 새로운 설정을 사용하면 모든 표를 사용할 수 **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**&#x200B;있습니다. 예를 들어, &quot;전체 테이블에 적용&quot;이란 테이블에서 분류를 수행하는 경우 및 분류에 대한 이 설정을 변경하는 경우 전체 테이블에 대한 설정이 변경됨을 의미합니다.
+모든 표에 대한 새로운 설정을 사용하면 **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**&#x200B;을 수행할 수 있습니다. 예를 들어, &quot;전체 테이블에 적용&quot;이란 테이블에서 분류를 수행하는 경우 및 분류에 대한 이 설정을 변경하는 경우 전체 테이블에 대한 설정이 변경됨을 의미합니다.
 
 ![](assets/date-comparison-setting.png)
 
