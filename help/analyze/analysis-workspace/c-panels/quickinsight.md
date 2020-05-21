@@ -4,8 +4,8 @@ title: Quick Insights 빌더
 translation-type: tm+mt
 source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
