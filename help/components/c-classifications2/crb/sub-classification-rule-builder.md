@@ -1,7 +1,7 @@
 ---
 description: 분류 규칙 빌더를 하위 분류와 결합할 수 없습니다.
 title: 하위 분류 및 규칙 빌더
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 # 하위 분류 및 규칙 빌더
 
-모든 하위 분류에 상위 값이 있는지 확인하는 경우 분류 규칙 빌더를 하위 분류와 결합할 수 있습니다.
+모든 하위 분류에 상위 값이 있는지 확인한 경우에는 분류 규칙 빌더를 하위 분류와 결합할 수 있습니다.
 
-분류 규칙 빌더를 하위 분류와 결합하면 분류 관리를 간소화하고 필요한 규칙 수를 줄일 수 있습니다. 추적 코드가 따로 분류하려는 코드로 구성되어 있는 경우 이러한 작업을 원할 수 있습니다.
+분류 규칙 빌더를 하위 분류와 결합하여 분류 관리를 단순화하고 필요한 규칙 수를 줄일 수 있습니다. 추적 코드가 따로 분류하려는 코드로 구성되어 있는 경우 이러한 작업을 원할 수 있습니다.
 
 하위 분류에 대한 개념적 정보가 필요하면 [하위 분류](/help/components/c-classifications2/c-sub-classifications.md)를 참조하십시오.
 
@@ -37,7 +37,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 >
 >이 절차에서는 [하위 분류 및 규칙 빌더](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)에 설명된 사용 사례를 완수하는 방법을 설명합니다.
 
-1. [분류 관리자](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)에서 분류 및 하위 분류를 만듭니다.
+1. [분류 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/c-classifications.html)에서 분류 및 하위 분류를 만듭니다.
 
    예:
 
