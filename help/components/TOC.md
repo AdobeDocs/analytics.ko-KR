@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
    + [Analytics 세그멘테이션의 새로운 기능](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis를 위한 전환 안내서](c-segmentation/seg-transition-ad-hoc.md)
 + 계산된 지표 {#calculated-metrics}
-   + [계산된 지표 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
+   + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
    + 계산된 지표 워크플로우 {#calcmetric-workflow}
       + [계산된 지표 워크플로우](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -77,10 +77,10 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
-   + [Cross-Device Analytics 개요](cda/cda-home.md)
-   + [Cross-Device Analytics 설정](cda/cda-setup.md)
-   + [Cross-Device Analytics FAQ](cda/cda-faq.md)
++ 교차 디바이스 분석 {#cda}
+   + [교차 디바이스 분석 개요](cda/cda-home.md)
+   + [교차 디바이스 분석 설정](cda/cda-setup.md)
+   + [교차 디바이스 분석 FAQ](cda/cda-faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)
    + [경고 빌더](c-alerts/alert-builder.md)
@@ -328,7 +328,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
    + [실시간 보고서 구성](c-real-time-reporting/t-realtime-admin.md)
    + [지원되는 실시간 지표 및 차원](c-real-time-reporting/realtime-metrics.md)
 + 마케팅 채널 {#marketing-channels}
-   + [마케팅 채널 시작하기](c-marketing-channels/c-getting-started-mchannel.md)
+   + [마케팅 채널 시작](c-marketing-channels/c-getting-started-mchannel.md)
    + [마케팅 채널 관리](c-marketing-channels/c-channels.md)
    + [마케팅 채널의 처리 규칙](c-marketing-channels/c-rules.md)
    + [마케팅 채널에서의 분류](c-marketing-channels/classifictions-mchannel.md)
