@@ -3,7 +3,7 @@ description: 경로 분석을 기반으로 한 보고서 그룹. 기술적으로
 title: 경로 지정
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 보다 유연한 경로 지정 옵션이 필요하면 [Analysis Workspace 흐름](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)을 사용하십시오.
 
->[!NOTE] 경로 지정을 활성화하려면 로 **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**&#x200B;이동합니다. 사이트 섹션 및 서버 보고서에서 경로 지정을 활성화하려면 고객 지원에 문의하십시오.
+>[!NOTE] 경로 지정을 활성화하려면 **[!UICONTROL 관리자 > 보고서 세트 > 설정 편집 > 트래픽 > 트래픽 변수]**&#x200B;로 이동하십시오. 사이트 섹션 및 서버 보고서에서 경로 지정을 활성화하려면 고객 지원에 문의하십시오.
 
 값이 수집되는 순서를 알아야 하는 경우는 해당 값을 수집하는 변수의 경로 지정을 활성화해야 합니다. 경로 지정은 기본적으로 페이지에 대해 활성화됩니다. prop에 대해서는 경로 지정이 적절하지 않은 경우도 많기 때문에 기본적으로 활성화되지 않습니다. prop에 대해 경로 지정을 활성화하려면 고객 지원 센터에 문의하십시오.
 
@@ -27,7 +27,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ![](assets/path_sections.png)
 
-Pathing is then available in various paths reports, such as [!UICONTROL Next Site Section Flow], which displays how visitors move through page groups, or sections of your site.
+그러고 나면 방문자가 페이지 그룹 또는 사이트의 섹션 사이를 이동하는 방식을 표시할 [!UICONTROL 다음 사이트 섹션 흐름] 등의 다양한 경로 보고서에서 경로 지정을 사용할 수 있습니다.
 
 ![](assets/paths_report.png)
 
