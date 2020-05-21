@@ -3,7 +3,7 @@ description: 세그먼트를 즐겨찾기로 표시하는 것은 쉽게 사용�
 title: 세그먼트를 즐겨찾기로 표시
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
