@@ -3,7 +3,7 @@ description: 사이트에 서버 간 탐색 데이터를 표시합니다. 사이
 title: 다음 서버 흐름
 topic: Reports
 uuid: d2ead6a9-9b64-434b-963e-6c66b94ae662
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
