@@ -3,8 +3,11 @@ description: 방문자 위치 데이터를 표시합니다. 지리 특성 보고
 title: 지리 특성
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-translation-type: ht
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 99%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 방문자 위치 데이터를 표시합니다. 지리 특성 보고서에는 국가, 지역, 시, 미국 주 및 미국 DMA(디지털 마케팅 영역)가 포함되어 있습니다. 지리 특성 보고서는 모든 고객에 대해 사용 가능합니다.
 
-계산된 지표는 물론 전환 및 방문 기반 지표 등, Reports &amp; Analytics의 다른 곳에서 사용할 수 있는 모든 지표가 자동으로 국가, 지역, 도시, 미국 주(州) 및 DMA 보고서에 포함됩니다. 자세한 내용은 이 Adobe [블로그](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/) 게시물을 참조하십시오.
+계산된 지표는 물론 전환 및 방문 기반 지표 등, Reports &amp; Analytics의 다른 곳에서 사용할 수 있는 모든 지표가 자동으로 국가, 지역, 도시, 미국 주(州) 및 DMA 보고서에 포함됩니다. 자세한 내용은 이 Adobe [블로그](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/) 게시물을 참조하십시오.
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
