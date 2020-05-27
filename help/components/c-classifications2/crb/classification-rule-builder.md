@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 분류 규칙 빌더 워크플로우
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +41,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 3단계: 보고서 세트 및 변수를 구성합니다. | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 규칙 세트를 보고서 세트 및 변수에 적용합니다. |
 | 4단계: [세트에 분류 규칙을 추가합니다](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 조건을 분류에 일치시킨 다음 규칙에 적용할 작업을 지정합니다.  [규칙 처리 방법](/help/components/c-classifications2/crb/classification-quickstart-rules.md)의 정보를 숙지하십시오. |
 | 5단계: [분류 규칙 세트를 테스트합니다](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!DNL Testing Page] | 초안 모드에서 규칙을 편집하여 유효성 확인을 위한 규칙을 테스트하려고 합니다. 초안 모드에서는 규칙을 실행할 수 없습니다.<br>이 단계는 [정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md)을 사용할 때 중요합니다. |
-| 6단계: [유효한 규칙을 활성화합니다](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 규칙이 유효하면 규칙 세트를 활성화합니다.  필요하면 기존의 키를 덮어쓸 수 있습니다.  [규칙 처리 방법](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
+| 6단계: [유효한 규칙을 활성화합니다](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 규칙이 유효하면 규칙 세트를 활성화합니다.  필요하면 기존의 키를 덮어쓸 수 있습니다. 자세한 내용은 [규칙 처리 방법](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
 | 7단계(선택 사항): [원치 않는 규칙을 삭제합니다](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 세트에서 원하지 않는 규칙을 삭제합니다.<br>참고: 규칙을 삭제해도 업로드된 분류 데이터는 삭제되지 않습니다.  분류된 데이터를 삭제해야 할 경우 [분류 데이터 삭제](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md)를 참조하십시오. |
 
 >[!NOTE]
@@ -47,6 +50,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 **추가 리소스**
 
-**블로그**: 이 기능에 대한 추가 정보를 보려면 디지털 마케팅 블로그: [규칙 기반 분류](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29)를 참조하십시오.
+**블로그**: 이 기능에 대한 추가 정보를 보려면 디지털 마케팅 블로그: [규칙 기반 분류](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)를 참조하십시오.
 
 **비디오**: [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I)를 방문하여 [!UICONTROL 분류 개요] 비디오를 보십시오.
