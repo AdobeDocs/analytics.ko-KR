@@ -1,8 +1,11 @@
 ---
 title: 마케팅 채널 세부 사항 - 첫 번째 및 마지막 터치
 description: 성공 지표와 매출을 현재 있는 전체 채널에 관계 없이 다양한 채널 세부 사항에 할당합니다.
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 100%
 
 ---
 
@@ -32,4 +35,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * 모든 표준 전자 상거래 지표: 매출, 주문, 판매량, 장바구니, 장바구니 보기, 체크아웃, 장바구니 추가, 장바구니 제거
    * 모든 사용자 지정 이벤트: 이벤트 1-80, H22 코드 이상인 경우는 이벤트 81-100도 포함
    * 방문 및 방문자: 조직 및 보고서 세트에 따라 사용 가능 여부가 결정됩니다. 자세한 내용은 해당 계정 관리자에게 문의하십시오.
-   [!UICONTROL 마케팅 채널] 도움말에서 [지표](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html)를 참조하십시오.
+   [!UICONTROL 마케팅 채널] 도움말에서 [지표](/help/components/c-marketing-channels/c-rules.md)를 참조하십시오.
