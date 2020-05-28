@@ -1,16 +1,16 @@
 ---
-description: 빠른 통찰력 빌더는 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 가능하게 해주는 도구입니다
-title: Quick Insights 빌더
+description: 빠른 통찰력은 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
+title: 빠른 인사이트 패널
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1046'
+ht-degree: 2%
 
 ---
 
 
-# Quick Insights 빌더
+# 빠른 인사이트 패널
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## 알려진 제한 사항
 
-표 내에서 직접 편집하려고 하면 [!UICONTROL 빠른 인사이트] 패널(빈 칸 채우기 도구)이 동기화되지 않습니다. 패널 오른쪽 상단에 있는 빌더 [!UICONTROL 재동기화를] 클릭하여 이전 **[!UICONTROL 빠른 인사이트]** 설정으로 복원할 수 있습니다.
+표 내에서 바로 편집하려고 하면 [!UICONTROL 빠른 인사이트] 패널이 동기화되지 않습니다. 패널 오른쪽 상단에 있는 빌더 [!UICONTROL 재동기화를] 클릭하여 이전 **[!UICONTROL 빠른 인사이트]** 설정으로 복원할 수 있습니다.
 
 ![](assets/qibuilder9.png)
 
