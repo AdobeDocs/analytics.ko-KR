@@ -1,18 +1,20 @@
 ---
 description: 'null'
 title: 패널 개요
-uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 87%
 
 ---
 
 
 # 패널 개요
 
-패널은 테이블과 시각화 요소의 컬렉션입니다. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 기간, 사업 단위, 지역 등에 따라 프로젝트를 구성하려는 경우 패널이 유용합니다. 빈 패널, 기여도 분석, 자유 형식 패널, 세그먼트 비교와 같은 네 가지 유형의 패널은 Analysis Workspace에서 사용할 수 있습니다.
+패널은 테이블과 시각화 요소의 컬렉션입니다. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 기간, 사업 단위, 지역 등에 따라 프로젝트를 구성하려는 경우 패널이 유용합니다. 분석 작업 공간에서 다음 6가지 유형의 패널을 사용할 수 있습니다. [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md), [빠른 패널](/help/analyze/analysis-workspace/c-panels/quickinsight.md) (곧 예정), [타겟 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) 분석(곧 예정), [인사이트](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)분석 패널 [, 통찰력 패널](/help/analyze/analysis-workspace/c-panels/freeform-panel.md), FreeformInsights 패널, FreeformSegment 비교 패널Facebook [](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)을 제공합니다.
 
-빈 패널 및 자유 형식 패널은 분석을 시작할 위치이며, 기여도 분석 IQ 및 세그먼트 비교는 고급 분석을 위해 자체 렌더링합니다. 또한 &#39;+&#39; 패널 단추를 추가하여 언제든지 빈 패널을 추가할 수 있습니다.
+빠른 인사이트, 빈 칸 및 자유 형식 패널은 분석을 시작할 수 있는 좋은 위치이며, Analytics for Target, Attribution IQ 및 세그먼트 비교에서는 더 고급 분석에 활용할 수 있습니다. 또한 &#39;+&#39; 패널 단추를 추가하여 언제든지 빈 패널을 추가할 수 있습니다.
 
 기본 시작 패널은 자유 형식 패널이지만 [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md)을 기본값으로 설정할 수 있습니다.
 
@@ -43,7 +45,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/dropdown.png)
 
-1. 드롭다운에서 선택 사항 중 하나를 선택하여 아래 패널에서 데이터를 변경할 수 있습니다. (**[!UICONTROL No filter]**&#x200B;을 선택하여 패널 데이터를 필터링하지 않도록 선택할 수도 있습니다 .)
+1. 드롭다운에서 선택 사항 중 하나를 선택하여 아래 패널에서 데이터를 변경할 수 있습니다. (**[!UICONTROL 필터 없음]**&#x200B;을 선택하여 패널 데이터를 필터링하지 않도록 선택할 수도 있습니다.)
 1. 예를 들어, 마케팅 채널별로 데이터를 분할하려는 경우 &#39;마케팅 채널&#39;이라는 다른 드롭다운을 추가할 수 있습니다.
 
    ![](assets/mc_dropdown.png)
