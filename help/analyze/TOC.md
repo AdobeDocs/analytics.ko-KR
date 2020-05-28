@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -73,18 +76,19 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [산포도](analysis-workspace/visualizations/scatterplot.md)
       + [요약 번호 및 요약 변경 사항](analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](analysis-workspace/visualizations/text.md)
-      + [트리맵](analysis-workspace/visualizations/treemap.md)
+      + [트리 맵](analysis-workspace/visualizations/treemap.md)
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
-      + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
-      + [빠른 인사이트 빌더](analysis-workspace/c-panels/quickinsight.md)
-      + 기여도 분석 {#attribution}
+      + [Analytics for Target(A4T) 패널](analysis-workspace/c-panels/a4t-panel.md)
+      + 기여도 분석 패널 {#attribution}
          + [기여도 분석 개요](analysis-workspace/c-panels/attribution/attribution.md)
          + [기여도 분석 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [기여도 분석 FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
          + [알고리즘 속성](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
-      + 세그먼트 비교 {#segment-comparison}
+      + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
          + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -98,7 +102,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [기여도 분석 IQ](analysis-workspace/attribution-iq.md)
    + [세그먼트 IQ](analysis-workspace/segment-iq.md)
    + 가상 분석가 {#virtual-analyst}
-      + [가상 애널리스트 개요](analysis-workspace/virtual-analyst/overview.md)
+      + [Virtual Analyst 개요](analysis-workspace/virtual-analyst/overview.md)
       + 예외 항목 탐지 {#anomaly-detection}
          + [예외 항목 탐지 개요](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Analysis Workspace에서 예외 항목 보기](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -329,8 +333,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Labs 개요](tech-previews/overview.md)
 + Adobe Analytics 대시보드 {#mobapp}
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)
-   + [큐레이터 가이드](mobile-app/curator.md)
-   + [경영진 빠른 시작 가이드](mobile-app/executive.md)
+   + [큐레이터 안내서](mobile-app/curator.md)
+   + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + 점진적 웹 앱 {#pwa}
    + [점진적 웹 앱](pwa/pwa.md)
 + Analytics 보고 API {#analytics-reporting-api}
