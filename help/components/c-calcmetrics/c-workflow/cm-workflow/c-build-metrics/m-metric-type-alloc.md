@@ -1,9 +1,12 @@
 ---
-description: '자세한 내용 '
+description: '알아보기 '
 title: 지표 유형 및 기여도 분석
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 82%
 
 ---
 
@@ -11,10 +14,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 # 지표 유형 및 기여도 분석
 
 지표 옆에 있는 톱니바퀴 아이콘을 선택하여 지표 유형 및 속성 모델을 지정할 수 있습니다.
-
-* [지표 유형](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [열 기여도 분석 모델](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [선형 할당 작동 방식(2018년 7월 19일 자)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## 지표 유형
 
@@ -29,9 +28,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->2018년 7월에 [!DNL Analytics]에서 계산된 지표의 할당 모델을 평가하는 방법을 수정한 [기여도 분석 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)를 도입했습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
+>2018년 7월에 [!DNL Analytics]에서 계산된 지표의 할당 모델을 평가하는 방법을 수정한 [기여도 분석 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)를 도입했습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
 >
->* 기본이 아닌 기여도 분석 모델 및 전환 확인 기간 창의 전체 목록에 대해서는 [기여도 분석 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 설명서를 참조하십시오.
+>* 기본이 아닌 기여도 분석 모델 및 전환 확인 기간 창의 전체 목록에 대해서는 [기여도 분석 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 설명서를 참조하십시오.
 >* &quot;마케팅 채널 마지막 터치&quot; 및 &quot;마케팅 채널 첫 번째 터치&quot; 할당 모델은 새 &quot;마지막 터치&quot; 및 &quot;첫 번째 터치&quot; 기여도 분석 모델로 마이그레이션됩니다. 참고: &quot;마케팅 채널&quot;은 더 이상 사용되지 않으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용됩니다.
 >* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. 고객이 &quot;선형&quot; 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이러한 변경 내용은 Analysis Workspace, Reports &amp; Analytics, Reporting API, Report Builder 및 Ad Hoc Analysis에 반영됩니다. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
 >
@@ -53,14 +52,14 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 이 예에서, 값 A, B, C는 히트 7에서 $10를 구매하기 전에 히트 1, 3, 4, 6에 있는 변수로 전송되었습니다. 두 번째 행에서 그러한 값은 마지막 터치 방문을 기준으로 하여 히트에서 유지됩니다. 세 번째 행은 첫 번째 터치 방문 지속성을 보여 줍니다. 마지막으로, 마지막 행은 지속성이 없는 prop에 대해 데이터가 기록되는 방식을 보여줍니다.
 
-## 보고 및 분석과 작업 공간에서 선형 할당이 작동하는 방식에 대한 차이점
+## 보고 및 분석과 작업 공간에서 선형 할당이 작동하는 방법의 차이
 
-이러한 두 도구 간에는 선형 속성이 작동하는 방식에 몇 가지 차이점이 있습니다.
+이러한 두 도구 간에는 선형 속성이 작동하는 방법에는 몇 가지 차이점이 있습니다.
 
-* 보고 및 분석에서 (처리된) 선형 속성은 항상 방문을 기준으로 하는 반면, Workspace에서는 방문 또는 방문자를 기반으로 할 수 있습니다.
-* 보고 및 분석에서, 방문의 첫 번째 히트에서 값이 전달되지 않은 경우, (초기) 값은 이전 방문에서 지속됩니다. 이것은 작업 공간(속성 IQ)의 경우가 아닙니다. 방문의 첫 번째 히트에서 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.
+* 보고 및 분석에서(처리된) 선형 속성은 항상 방문을 기준으로 하는 반면 Workspace에서는 방문 또는 방문자를 기반으로 할 수 있습니다.
+* 보고 및 분석에서, 방문의 첫 번째 히트에서 값이 전달되지 않은 경우 (초기) 값은 이전 방문에서 지속됩니다. 이는 작업 공간(속성 IQ)의 경우가 아닙니다. 방문의 첫 번째 히트에 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.
 
-## 선형 할당이 2018년 7월 이전에 작동한 방법
+## 2018년 7월 이전에 선형 할당이 작동되었던 방법
 
 2018년 7월 19일 이전에 선형 속성은 첫 번째 터치 또는 마지막 터치 지속이 발생한 후에 계산됩니다. 즉, 위의 마지막 터치 eVar의 경우 $10는 다음과 같이 분산됩니다. A = 10 * (3/6) = $5, B = 10 * (2/6) = $3.33, C = 10 * (1/6) = $1.67.
 
