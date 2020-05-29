@@ -2,7 +2,7 @@
 description: 빠른 통찰력은 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 빠른 인사이트]** 테스트는 현재 제한적입니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL 빠른 인사이트]** 테스트는 현재 제한적입니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL 빠른 통찰력] 은 분석 작업 공간의 비분석가 및 새로운 사용자가 비즈니스 질문에 빠르고 손쉽게 대답하는 방법을  배울 수 있도록 도움을 줍니다. 또한 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
