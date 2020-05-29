@@ -2,17 +2,19 @@
 title: 알고리즘 속성
 description: Adobe Analytics의 알고리즘 속성 모델에 대한 자세한 정보입니다.
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: 5c5e442face936ccf1ff2a3d1580e362d42e0acb
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 
 # 알고리즘 속성
 
->[!NOTE] 알고리즘 속성은 현재 제한된 테스트 중입니다.
+>[!IMPORTANT]
+>
+>**[!UICONTROL 알고리즘]** 어트리뷰션은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 분석 작업 공간의 알고리즘 [속성 모델](attribution.md) 은 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 값에 크레디트를 할당한다는 점에서 다른 모델과 다릅니다. 분석 작업 공간의 다른 모든 속성 모델과 마찬가지로, 차원 또는 지표에서 사용할 수 있으며 무제한 세그먼테이션 및 분류를 지원하고 테이블의 차원에 대해 100%의 전환(&quot;분수&quot; 기여도)을 분배합니다.
 
