@@ -5,12 +5,17 @@ title: 전체 처리
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 93%
 
 ---
 
 
 # 전체 처리
+
+>[!NOTE] Adobe에서는 고객이 전체 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 를 사용하는 것이 좋습니다. 전체 처리 데이터 소스는 나중에 더 이상 사용되지 않습니다.
 
 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
@@ -64,7 +69,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
+   <td colname="col3"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
