@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: f29a9eef7dcdb0568a947521ca32f7aa0c2ce5b7
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 98%
+source-wordcount: '1096'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,7 @@ ht-degree: 98%
       + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [분석 작업 공간의 액세스 가능성](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 도움말](report-builder/home.md)
    + [Report Builder의 새로운 기능](report-builder/whats-new-arb.md)
