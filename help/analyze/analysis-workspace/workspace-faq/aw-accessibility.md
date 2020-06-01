@@ -2,9 +2,9 @@
 description: 분석 작업 공간의 액세스 가능성 지원 기능
 title: 분석 작업 공간의 액세스 가능성
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL 분석 작업 공간에서]�
 
 액세서빌러티(Accessibility) 는 제품이 시각, 청각, 모터 및 기타 장애가 있는 사람들에게 유용하게 사용되는 것을 말합니다. 소프트웨어 제품의 액세서빌러티 기능에는 화면 판독기 지원, 그래픽에 상응하는 텍스트, 키보드 단축키, 디스플레이 색상을 대비로 변경 등이 포함됩니다.
 
-[!UICONTROL 분석 작업 공간은] 액세스 가능하게 해주는 일부 도구와 액세스 가능한 컨텐츠를 만드는 데 도움이 되는 도구를 제공합니다.
+[!UICONTROL 분석 작업] 공간은 다음을 포함하여 사용할 수 있도록 해주는 일부 도구를 제공합니다.
 
 ## 키보드를 [!UICONTROL 사용하여 작업] 영역 탐색
 
@@ -34,7 +34,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL 분석 작업 공간에서]�
 
 1. 왼쪽 레일에 있는 구성 요소에 탭으로 이동합니다.
 1. 을 눌러 `Enter` 선택합니다.
-1. 화살표 키를 사용하여 구성 요소를 삭제할 영역으로 이동합니다.
+1. 화살표 키를 사용하여 구성 요소를 놓을 영역으로 이동합니다.
 1. 을 눌러 구성 요소 `Enter` 를 배치합니다.
 
 ### 키보드 단축키(핫키)
@@ -60,7 +60,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL 분석 작업 공간에서]�
 | Ctrl + Shift + D | 새 날짜 범위 |
 | Ctrl + Shift + E | 새 세그먼트 |
 | Ctrl + Z | 실행 취소 |
-| Shift 키(패널 세그먼트 드롭존) | 드롭다운 [필터를 만듭니다](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). |
+| Shift 키(패널 세그먼트 드롭존) | 드롭다운 [필터 만들기](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### 민주화
 
