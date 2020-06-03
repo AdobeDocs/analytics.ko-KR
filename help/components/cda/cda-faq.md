@@ -1,15 +1,16 @@
 ---
 title: 교차 디바이스 분석 FAQ
 description: 교차 디바이스 분석에 대한 FAQ
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 100%
 
 ---
 
 
 # FAQ
-
->[!NOTE] 교차 디바이스 분석 설명서는 기능이 추가로 개발되면 변경될 수 있습니다. 정기적으로 업데이트를 확인하십시오.
 
 **사람들이 한 장치 유형에서 다른 장치 유형으로 이동하는 방법을 CDA으로 어떻게 확인할 수 있습니까?**
 
