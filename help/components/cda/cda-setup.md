@@ -1,15 +1,16 @@
 ---
 title: 교차 디바이스 분석 설정
 description: 전제 조건을 충족한 후 교차 디바이스 분석을 설정하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
 
 
 # 교차 디바이스 분석 설정
-
->[!NOTE] 교차 디바이스 분석 설명서는 기능이 추가로 개발되면 변경될 수 있습니다. 정기적으로 업데이트를 확인하십시오.
 
 모든 전제 조건이 충족되면 다음 절차에 따라 교차 디바이스 분석을 활성화하십시오. 이 절차를 수행하려면 제품 프로필 관리 그룹에 속해 있거나 Adobe Analytics에서 관리자 권한이 있어야 합니다.
 
