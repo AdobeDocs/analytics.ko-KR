@@ -2,10 +2,10 @@
 description: 분석 작업 공간의 액세스 가능성 지원 기능
 title: 분석 작업 공간의 액세스 가능성
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 5%
+source-wordcount: '553'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL 분석 작업 공간에서]�
 * 개별 요소 간에 `Tab` 키가 이동합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 초점 표시기를 적용합니다. 표시기는 선택한 요소 주위에 파란색 테두리입니다.
 
-   ![](assets/focus-indicator.png)
+   ![초점 표시기](assets/focus-indicator.png)
 
 ### 드래그 앤 드롭 상호 작용을 위한 키보드 탐색
 
@@ -75,11 +75,11 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL 분석 작업 공간에서]�
 
 ## 화면 판독기 및 화면 돋보기 지원
 
-화면 판독기는 컴퓨터 화면에 표시되는 텍스트를 지웁니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 단추 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
+화면 판독기는 컴퓨터 화면에 나타나는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 단추 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
 
 ## 색상 팔레트 및 대비
 
-[!UICONTROL 분석 작업 공간에서] WCAG AA 색상 대비 준수를 위해 노력하고 있습니다.
+[!UICONTROL Analysis Workspace] 는 색상 대비가 필요한 요구 사항을 포함하여 WCAG 2.1 AA 준수 여부를 위해 노력하고 있습니다.
 
 또한 프로젝트 > 프로젝트 설정 **[!UICONTROL >]** 프로젝트 색상 팔레트 **[!UICONTROL 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수]** 있습니다 [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
 
@@ -89,8 +89,8 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL 분석 작업 공간에서]�
 
 구성 요소의 유효성이 완전히 확인되면 을 눌러 빌더를 `Save` 닫습니다.
 
-![](assets/error-validation.png)
+![오류 유효성 검사](assets/error-validation.png)
 
 ## 운영 체제 액세서빌러티 기능 지원
 
-분석 작업 공간은 고대비 모드 및 화면 판독기(MS Windows용 내레이터 및 macOS용 VoiceOver)와 같은 내장된 MS Windows 및 macOS 접근성 기능을 지원합니다.
+Analysis Workspace는 고대비 모드, 고정 키, 느린 키/필터 키와 같은 내장된 MS Windows 및 macOS 액세스 가능성 기능을 지원합니다. 또한 운영 체제에 대한 사용자 인터페이스에 대한 정보를 제공하여 macOS용 VoiceOver 및 Windows용 NVDA와 같은 보조 기술과 상호 작용할 수 있도록 합니다.
