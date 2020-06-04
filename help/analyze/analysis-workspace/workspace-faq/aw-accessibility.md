@@ -2,9 +2,9 @@
 description: 분석 작업 공간의 액세스 가능성 지원 기능
 title: 분석 작업 공간의 액세스 가능성
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Adobe Analytics의 고급 분석 툴인 [!UICONTROL 분석 작업 공간에서]액세스 가능성 지원에 대해 알아봅니다.
 
-액세서빌러티(Accessibility) 는 제품이 시각, 청각, 모터 및 기타 장애가 있는 사람들에게 유용하게 사용되는 것을 말합니다. 소프트웨어 제품의 액세서빌러티 기능에는 화면 판독기 지원, 그래픽에 상응하는 텍스트, 키보드 단축키, 디스플레이 색상을 대비로 변경 등이 포함됩니다.
+액세서빌러티(Accessibility) 는 제품이 시각, 청각, 인지, 모터 및 기타 장애가 있는 사람들에게 유용하게 사용되는 것을 말합니다. 소프트웨어 제품의 액세서빌러티 기능에는 화면 판독기 지원, 그래픽에 상응하는 텍스트, 키보드 단축키, 디스플레이 색상을 대비로 변경 등이 포함됩니다.
 
 [!UICONTROL 분석 작업] 공간은 다음을 포함하여 사용할 수 있도록 해주는 일부 도구를 제공합니다.
 
