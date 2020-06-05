@@ -2,8 +2,11 @@
 description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 함수들에 액세스하십시오.
 title: 참조  고급 함수
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+workflow-type: tm+mt
+source-wordcount: '2911'
+ht-degree: 100%
 
 ---
 
@@ -119,8 +122,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
@@ -237,8 +240,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 지수 회귀: 기울기(테이블) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -250,8 +253,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 내림(행) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -382,8 +385,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 로그 회귀: 예측된 Y(행) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -397,8 +400,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 로그 회귀: 기울기(테이블) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -410,8 +413,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_A* | 종속 데이터로 지정할 지표. |
-| *metric_B* | 독립 데이터로 지정할 지표. |
+| *metric_A* | 독립 데이터로 지정할 지표. |
+| *metric_B* | 종속 데이터로 지정할 지표. |
 
 ## 자연 로그 {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -491,8 +494,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 거듭제곱 회귀: 예측된 Y(행) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -504,8 +507,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 거듭제곱 회귀: 기울기(테이블) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -517,8 +520,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 이차 회귀: 상관 계수(테이블) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -543,8 +546,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 이차 회귀: 예측된 Y(행) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -556,7 +559,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_A* | 종속 데이터로 지정할 지표. |
+| *metric_A* | 독립 데이터로 지정할 지표. |
 | *metric_B* | 종속 데이터로 지정할 지표. |
 
 ## 이차 회귀: 기울기(테이블) {#concept_0023321DA8E84E6D9BCB06883CA41645}
@@ -569,8 +572,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 역수 회귀: 상관 계수(테이블) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -595,8 +598,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 역수 회귀: 예측된 Y(행) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -608,8 +611,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 역수 회귀: 기울기(테이블) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -621,8 +624,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | 인수 | 설명 |
 |---|---|
-| *metric_X* | 종속 데이터로 지정할 지표. |
-| *metric_Y* | 독립 데이터로 지정할 지표. |
+| *metric_X* | 독립 데이터로 지정할 지표. |
+| *metric_Y* | 종속 데이터로 지정할 지표. |
 
 ## 사인(행) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
