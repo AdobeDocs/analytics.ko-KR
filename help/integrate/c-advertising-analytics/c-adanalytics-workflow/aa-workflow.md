@@ -1,22 +1,24 @@
 ---
-description: 'null'
+description: 광고 분석 작업 과정 개요.
 title: 워크플로우 개요
-uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 75%
 
 ---
 
 
 # 워크플로우 개요
 
-![](assets/step1_icon.png) Google/Bing 검색 데이터를 보기 원하는 Analytics 보고서 세트를 Experience Cloud 조직에 매핑합니다.
+![](assets/step1_icon.png) Google/Bing 검색 데이터를 보려는 Adobe Analytics 보고서 세트를 Experience Cloud 조직에 매핑합니다.
 
 [조직에 보고서 세트 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)을 확인하십시오.
 
 ![](assets/step2_icon.png) [보고서 세트당 Advertising Analytics 보고 활성화](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Experience Cloud 활성화 보고서 세트에 Advertising Analytics 보고를 사용합니다.
+Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
 
 ![](assets/step3_icon.png) [Advertising Analytics 계정 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -28,7 +30,7 @@ Analytics 관리 도구에서 설정합니다.
 
 보고 기능은 다음에서 사용할 수 있습니다.
 
-* Analysis Workspace &quot;유료 검색 실적&quot; 템플릿
+* Analysis Workspace: [!UICONTROL Paid Search Performance] template
 * Reports &amp; Analytics
 * Report Builder
 * Analytics 보고 API
