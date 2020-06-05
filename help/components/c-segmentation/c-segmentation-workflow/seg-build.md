@@ -3,8 +3,11 @@ description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연�
 title: 세그먼트 작성
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+workflow-type: tm+mt
+source-wordcount: '2436'
+ht-degree: 100%
 
 ---
 
@@ -60,8 +63,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * ****&#x200B;비반복 인스턴스: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다.
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL 차원]**: 차원은 차원 목록(주황색 사이드바)에서 드래그하여 놓습니다.
 1. **[!UICONTROL 비교]**: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
+1. **[!UICONTROL 차원]**: 차원은 차원 목록(주황색 사이드바)에서 드래그하여 놓습니다.
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
 1. **[!UICONTROL And/Or/Then]**: 컨테이너나 규칙 사이에 [!UICONTROL AND/OR/THEN] 연산자를 지정합니다. THEN 연산자를 사용하여 [순차적 세그먼트를 정의](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)할 수 있습니다.
 1. **[!UICONTROL 지표]**:(녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다.
