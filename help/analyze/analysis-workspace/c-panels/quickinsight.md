@@ -2,9 +2,9 @@
 description: 빠른 통찰력은 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 translation-type: tm+mt
-source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 빠른 인사이트]** 테스트는 현재 제한적입니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL 빠른 통찰력] 은 분석 작업 공간의 비분석가 및 새로운 사용자가 비즈니스 질문에 빠르고 손쉽게 대답하는 방법을  배울 수 있도록 도움을 줍니다. 또한 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
@@ -64,6 +64,7 @@ ht-degree: 2%
 1. 하나 이상의 차원과 지표를 추가한 경우 다음을 생성합니다.
 
    * 세로 차원(미국 주)과 맨 위에 가로로 지표(여기, 방문)가 있는 자유 형식 테이블. 다음 표를 확인하십시오.
+
    ![](assets/qibuilder3.png)
 
    * 함께 제공되는 시각화(이 경우 [막대 차트](/help/analyze/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터(예: 일/ [!UICONTROL 월당 방문] 수)는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터(예: 장치당 [!UICONTROL 방문] 수 )는 기본적으로 [!UICONTROL 막대] 차트가됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
