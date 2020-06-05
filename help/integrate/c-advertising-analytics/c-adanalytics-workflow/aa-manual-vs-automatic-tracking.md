@@ -1,9 +1,11 @@
 ---
 description: 추적은 Adobe Analytics 구현에 따라 검색 엔진 데이터를 추적하는 방법을 결정합니다. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
 title: 추적 수동 모드 및 자동 모드
-uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +22,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 따라서 [자동 모드]를 선택할 때 먼저 계정 설정을 저장하기 전에 확인란을 선택해야 합니다.
 
-
 자동 모드에서 검색 엔진 계정을 구성하려면 다음 조치를 수행해야 합니다.
 
-* &quot;s_kwcid&quot; 매개 변수 및 값이 추가되는 계정의 계정 추적 템플릿 또는 랜딩 페이지 URL에 추가됩니다. URL의 끝에 삽입됩니다. 웹 서버에서 URL 끝에 특정 키=값 쌍이 필요하거나 URL에 새 키=값 쌍을 지원하는 업데이트가 필요한 경우 추가 작업이 필요할 수도 있습니다. **추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다.**
-* 또한 &quot;s_kwcid&quot; 값의 일부로 랜딩 URL에 키워드를 삽입할 수 있습니다. 특수 문자 또는 기호를 포함하는 경우 웹 서버에서 이러한 문자를 지원할 수 있는지 확인하십시오. 일반적인 특수 문자의 예는 &quot;Broad Match Modified&quot; 키워드에서 사용되는 &quot;+&quot;입니다.
+* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. URL의 끝에 삽입됩니다. 웹 서버에서 URL 끝에 특정 키=값 쌍이 필요하거나 URL에 새 키=값 쌍을 지원하는 업데이트가 필요한 경우 추가 작업이 필요할 수도 있습니다. **추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다.**
+* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. 특수 문자 또는 기호를 포함하는 경우 웹 서버에서 이러한 문자를 지원할 수 있는지 확인하십시오. 일반적인 특수 문자의 예는 &quot;Broad Match Modified&quot; 키워드에서 사용되는 &quot;+&quot;입니다.
+
+>[!IMPORTANT]
+>
+>매개 변수를 `s_kwcid` Content Security 정책 [](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)에 추가할지 여부를 자세히 알아보십시오.
 
 ## 수동 모드 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
