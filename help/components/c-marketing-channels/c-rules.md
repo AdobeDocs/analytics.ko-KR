@@ -2,7 +2,7 @@
 title: 마케팅 채널의 처리 규칙
 description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 74%
@@ -150,6 +150,8 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 가장 좋은 방법은 모든 유료 채널 규칙에 따라 &quot;기타 캠페인&quot; 채널을 포함하는 것입니다. 이 채널은 분류되지 않은 유료 트래픽에 대한 다목적 역할을 합니다.
 
+![](assets/other-campaigns.png)
+
 ### 소셜 네트워크 {#social-networks}
 
 이 규칙은 Facebook* 같은 소셜 네트워크에서 온 방문자를 식별합니다. 채널은 종종 유기 소셜로 이름이 바뀝니다. 설정은 다음과 같습니다.
@@ -174,3 +176,4 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 참조 도메인 채널은 참조 도메인이 있는 방문자를 식별합니다. 함께, 내부, 직접 및 참조 도메인 채널은 아직 채널로 분류되지 않은 나머지 모든 히트에 대한 다목적 캐치 역할을 합니다.
 
+![](assets/referring-domains.png)
