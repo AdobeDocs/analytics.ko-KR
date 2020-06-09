@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: 고유 방문자 수 식별
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +21,7 @@ Adobe에서는 쿠키를 사용하여 고유한 브라우저/장치를 추적합
 
 Adobe Analytics에서는 방문자를 식별하는 메커니즘을 몇 가지 제공합니다. 다음 표에는 Analytics에서 방문자를 식별할 수 있는 다양한 방법이 나열되어 있습니다(선호도 순).
 
-| 사용된 순서 | 쿼리 매개 변수(컬렉션 방법) | 존재할 때 |
+| 사용된 명령 | 쿼리 매개 변수(수집 방법) | 제공 시점 |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID가 설정되어 있습니다. |
 | 2 | aid (s_vi 쿠키) | 방문자는 방문자 ID 서비스를 배포하기 전에 기존 s_vi 쿠키가 있었거나 구성된 방문자 ID 유예 기간이 있습니다. |
@@ -117,7 +119,7 @@ Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP 가
 
 구독자 ID 방식은 일반적으로 사용자 식별에 있어 쿠키보다 안정적입니다. 쿠키는 삭제 문제, 승인 문제, 게이트웨이 쿠키 관리 문제가 있기 때문입니다.
 
-모바일 방문자가 사용하는 통신사에 대한 허용 목록에 추가되면 방문자 식별의 변경 사항이 개선됩니다. 통신사의 방문자 ID에 액세스하려면 통신사에 연락하여 도메인을 허용 목록에 추가하십시오. 통신사 허용 목록에 등록된 경우 액세스할 수 없었던 가입자 ID 헤더에도 액세스할 수 있습니다.
+모바일 방문자가 사용하는 통신사의 &quot;허용&quot; 목록에 추가되므로 방문자 식별의 변경 사항을 향상시킬 수 있습니다. 통신사의 방문자 ID에 액세스하려면 통신사에 연락하여 자신의 도메인을 &quot;허용&quot; 목록에 추가하십시오. 이동통신사의 허용 목록에 있는 경우 액세스할 수 없는 가입자 ID 헤더에도 액세스할 수 있습니다.
 
 다음의 헤더 목록은 무선 장치를 식별하는 데 사용됩니다. 헤더 처리 알고리즘은 다음과 같습니다.
 
@@ -145,7 +147,7 @@ Adobe는 다수의 모바일 장치를 고유하게 식별하는 많은 HTTP 가
 
 예를 들어 &quot;callinglineid&quot;는 &quot;X-Up-Calling-Line-ID&quot; 및 &quot;nokia-callinglineid&quot;와 일치합니다. 헤더에서 기대할 내용은 헤더 유형을 통해 알 수 있습니다. 헤더 우선 순위는 다음과 같습니다(&quot;callinglineid&quot; 헤더가 있을 경우, &quot;subno&quot; 대신 &quot;callinglineid&quot;가 사용됨).
 
- [다이내믹 변수](../implement/vars/page-vars/dynamic-variables.md)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
+사용 가능 [다이내믹 변수](../implement/vars/page-vars/dynamic-variables.md)를 사용하여 헤더에서 특정 값을 추출할 수 있습니다.
 
 ## 대체 ID 방법
 
