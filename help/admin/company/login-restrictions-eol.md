@@ -1,21 +1,24 @@
 ---
-title: '[!UICONTROL IP 로그인 제한 적용]의 사용 종료'
-description: 수명 종료 시간 및 [!UICONTROL Enforce IP 로그인 제한]에 대한 의미
+title: '[!UICONTROL IP 로그인 제한 적용] 기간 종료'
+description: '[!UICONTROL IP 로그인 제한 적용]에 대한 종료 시기 및 의미에 대해 알아봅니다.'
 translation-type: tm+mt
-source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 85%
 
 ---
 
 
-# 사용 종료 [!UICONTROL Enforce IP login restrictions]
+# [!UICONTROL IP 로그인 제한 적용] 기간 종료
 
-Adobe Analytics의 **[IP 로그인 제한 적용](/help/admin/company/security-manager.md)**기능을 사용하면 안전한 것으로 간주되는 특정 IP 주소를 허용 목록에 추가하여 Adobe Analytics 환경에 성공적으로 로그인하고 액세스할 수 있습니다. 많은 경우 이 기능은 사용자가 로그인할 수 있는 유일한 보안 IP 주소로서 회사 IP 주소를 설정하는 데 사용됩니다. 따라서 Adobe Analytics를 사용하려면 사용자가 회사 사무실에 있거나 VPN을 통해 네트워크에 로그인해야 합니다.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. 많은 경우 이 기능은 사용자가 로그인할 수 있는 유일한 보안 IP 주소로서 회사 IP 주소를 설정하는 데 사용됩니다. 따라서 Adobe Analytics를 사용하려면 사용자가 회사 사무실에 있거나 VPN을 통해 네트워크에 로그인해야 합니다.
 
 이 기능은 2021년 1월에 사용이 종료됩니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
-이 기능은 Experience Cloud 로그인 마이그레이션 및/또는 Experience Cloud 로그인으로 인해 일부 상황에서 중단됩니다. 또는 를 사용하는 고객의 경우 중단되는 것으로 **[!UICONTROL Customer Attributes]** 알려져 **[!UICONTROL Audience Library]**&#x200B;있습니다.
+이 기능은 Experience Cloud 로그인 마이그레이션 및/또는 Experience Cloud 로그인으로 인해 일부 상황에서 중단됩니다. **[!UICONTROL 사용자 특성]** 또는 **[!UICONTROL 대상 라이브러리]**&#x200B;를 사용하는 고객에 대해 중단하는 것으로 알려졌습니다.
 
 또한, 여러 Experience Cloud 솔루션이 있을 경우 이 기능이 존재하지 않거나 Analytics 자체 외부에서 지원되지 않는다면 다른 솔루션 중 하나를 사용하여 Experience Cloud에 로그인함으로써 이 요구 사항을 우회할 수 있습니다. 사용자는 IP 스푸핑을 통해 이 문제를 처리할 수도 있습니다.
 
@@ -23,15 +26,15 @@ Adobe Analytics의 **[IP 로그인 제한 적용](/help/admin/company/security-m
 
 ## 이 기능을 제거하면 어떤 영향이 있습니까?
 
-설정한 모든 고객의 경우 이 **[!UICONTROL Enforce IP login restrictions]** 기능은 2021년 1월에 제거됩니다. 이때 여전히 존재하는 IP 로그인 제한이 더 이상 적용되지 않습니다. 여전히 IP 주소로 로그인을 제한해야 하는 경우에는 단일 사인온 및 Federated ID의 권장 솔루션을 검토하고 구현해야 합니다(자세한 정보 및 리소스는 아래에 있음).
+For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. 이때 여전히 존재하는 IP 로그인 제한이 더 이상 적용되지 않습니다. 여전히 IP 주소로 로그인을 제한해야 하는 경우에는 단일 사인온 및 Federated ID의 권장 솔루션을 검토하고 구현해야 합니다(자세한 정보 및 리소스는 아래에 있음).
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
+또한 **[!UICONTROL IP 로그인 제한 적용]** 설정은 Analytics UI의 **[!UICONTROLA관리자 > 회사 설정 > 보안 관리자]**&#x200B;에서 제거됩니다(아래 참조).
 
 ![](assets/sec-manager2.png)
 
 ## 다른 선택 사항은 무엇입니까?
 
-위에 서술했듯이 이 Analytics 기능은 종료될 예정입니다. SSO 및 Federated ID를 구현할 수 있는 시간을 제공하기 위해 EOL 날짜가 2021년 1월로 연기되었습니다.
+위에 서술했듯이 이 Analytics 기능은 종료될 예정입니다. SSO 및 Federated ID를 구현할 시간을 주기 위해 EOL 날짜를 2021년 1월로 연기했습니다.
 
 SSO와 Federated ID는 모두 현재 사용 중인 IP 로그인 제한 기능보다 뛰어난 솔루션이며 더 효과적인 제어, 보안 및 기능을 제공하게 됩니다. SSO/Federated ID 설정 방법에 대한 자세한 내용은 다음 도움말 설명서를 참조하십시오. 이 설명서를 완전히 읽고 IT 부서와 함께 구현할 것을 권장합니다.
 
