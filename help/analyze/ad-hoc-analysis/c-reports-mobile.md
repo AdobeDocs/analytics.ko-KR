@@ -3,7 +3,10 @@ description: '모바일 장치에서의 웹 사이트 액세스에 대한 정보
 title: 모바일 보고서
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1379'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 모바일 장치에서의 웹 사이트 액세스에 대한 정보를 표시합니다. 모바일 보고서는 사이트를 보는 데 사용된 모바일 장치에 대한 데이터를 수집하여 방문자 식별 정확도를 높입니다. 모바일 보고서는 장치의 제조업체 및 기능(예: 화면 크기, 비디오, 오디오, 쿠키 지원 및 기타 지표)을 식별할 수 있습니다. 모바일 보고서는 모든 보고서 세트에 사용할 수 있습니다.
 
-모바일 장치에 대한 방문자 식별 정확도를 높이려면 도메인으로 가입자 ID를 전송할 수 있도록 이동통신사 목록(우수 목록)에 속해야 합니다 (이동통신사는 **[!UICONTROL 방문자 프로필]** > **[!UICONTROL 도메인]** 보고서에 표시됩니다).
+모바일 장치에 대한 방문자 식별 정확도를 높이려면 도메인으로 가입자 ID를 전송하기 위해 통신사 목록(&quot;허용&quot; 목록)에 있어야 합니다. (이동통신사는 **[!UICONTROL 방문자 프로필]** > **[!UICONTROL 도메인]** 보고서에 표시됩니다).
 
 >[!NOTE] 모바일 장치에서 보고서를 보려면 [Experience Cloud](https://login.experiencecloud.adobe.com)에 로그인하십시오.
 
