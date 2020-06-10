@@ -1,66 +1,63 @@
 ---
-description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다. 프로젝트 및 그 구성 요소들을 비즈니스에 있는 마케터 및 다른 비분석가와 공유할 수 있습니다. 프로젝트에 주석을 달고 태그를 적용합니다.
-keywords: Analysis Workspace
-title: 조정/공유 개요
-topic: Reports and analytics
-uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
+description: 조정 기능을 사용하면 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다.
+keywords: Analysis Workspace curation
+title: 작업 공간 프로젝트 조정
 translation-type: tm+mt
-source-git-commit: 1e7d36e48f6ee3b9066e3933d831dd4d28f670c6
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 39%
 
 ---
 
 
-# 조정/공유 개요
+# 작업 공간 프로젝트 조정
 
-조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다. 프로젝트 및 그 구성 요소들을 비즈니스에 있는 마케터 및 다른 비분석가와 공유할 수 있습니다. 프로젝트에 주석을 달고 태그를 적용합니다.
+조정 기능을 사용하면 프로젝트를 공유하기 전에 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한할 수 있습니다. 수신자가 프로젝트를 열면 해당 프로젝트를 위해 선별한 제한된 구성 요소 세트가 표시됩니다. 조정 작업은 선택 사항이지만 프로젝트를 공유하기 전에 권장되는 단계입니다.
 
-**비디오 개요**
+>[!NOTE]
+> 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, Admin Console을 통해 관리됩니다. 큐레이션은 보조 필터입니다.
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+## 프로젝트 조정 적용
 
-**[!UICONTROL 작업 공간]** > **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**
-
-## 프로젝트 데이터 조정
-
-1. 프로젝트를 생성하고 조정하는 권한을 지정하십시오.
-
-   Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 [Analysis Workspace 액세스](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html) 권한이 활성화된 **[!UICONTROL 그룹]**&#x200B;이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 여러분을 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]**).
-
-1. [프로젝트를 생성 및 저장](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)하고 **[!UICONTROL 공유]** >**[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 클릭합니다.
-1. 공유하려는 구성 요소를 왼쪽의 드래그 가능한 구성 요소 스택에서 **[!UICONTROL 조정된 구성 요소]** 필드로 드래그합니다.
-
-   ![](assets/curated-components.png)
-
-   >[!IMPORTANT]
-   >
-   >구성 요소 조정은 프로젝트 공유에 필수가 아닙니다. 모든 사용 가능한 기본 구성 요소나 선택한 구성 요소와 프로젝트를 공유할 수 있습니다. 프로젝트에 있는 모든 기본 구성 요소를 보존하기 위해 가장 좋은 방법은 구성 요소를 조정하기 전에 직접 프로젝트 사본을 만드는 것입니다(**[!UICONTROL 다른 이름으로 저장]** 사용). 일단 프로젝트에서 구성 요소를 조정하면, 해당 프로젝트에 기타 구성 요소를 더 이상 사용할 수 없습니다.
-
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+프로젝트에 사용되는 구성 요소가 자동으로 추가됩니다.
+   **참고**: 프로젝트에 여러 보고서 세트가 있는 경우 프로젝트의 각 보고서 세트에 대한 조정 필드가 표시됩니다.
+1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 레일에서 공유할 구성 요소를 구성 요소 조정 [!UICONTROL 필드로] 드래그합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
-결과 프로젝트는 Analysis Workspace에서 전형적인 프로젝트처럼 동작하지만, 선택하도록 지정된 구성 요소들만 사용합니다.
+![](assets/curation-field.png)
 
-## 조정된 프로젝트 공유
+받는 사람이 선별된 프로젝트를 열면 사용자가 정의한 선별된 구성 요소 집합만 표시됩니다.
 
-공유를 하면 이 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있습니다. 수행한 조정 결과는 다른 사용자가 프로젝트를 사용할 때 반영됩니다.
+![](assets/curate-project.png)
 
-1. 보고서의 구성 요소들을 조정한 후, **[!UICONTROL 공유]** > **[!UICONTROL 프로젝트 공유]**&#x200B;를 클릭합니다.
+조정 및 공유를 클릭하여 [!UICONTROL 공유] 메뉴에서 조정 **[!UICONTROL 을 적용할 수도 있습니다]**. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
 
-   ![](assets/share_component.png)
+## 프로젝트 조정 제거
 
-1. 수신자를 추가합니다.
-1. (옵션) 모든 수신자와 포함된 구성 요소(세그먼트, 계산된 지표 및 날짜 범위)를 공유할 수 있습니다. 이러한 구성 요소가 공유되면 수신자 Workspace의 구성 요소 드롭다운에 표시됩니다.
+프로젝트 큐레이션을 제거하고 왼쪽 레일에 있는 전체 구성 요소 세트를 복원하려면 다음을 수행하십시오.
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. 조정 **[!UICONTROL 제거를 클릭합니다]**.
+1. **[!UICONTROL 완료를 클릭합니다]**.
 
-   >[!IMPORTANT]
-   >
-   >이 설정은 유지되지 않습니다. 공유 시의 단일 작업입니다.
+## VRS(가상 보고서 세트) 조정
 
-1. 선택적으로 이 페이지를 수신자의 랜딩 페이지로 설정할 수 있습니다.
+한 번에 많은 프로젝트에 적용되도록 보고서 세트 수준에서 조정을 적용하려면 VRS(가상 보고서 세트)에서 구성 [요소를 조정할 수 있습니다](https://docs.adobe.com/content/help/ko-KR/analytics/components/virtual-report-suites/vrs-components.html).
 
-   >[!IMPORTANT]
-   >
-   >이 설정은 유지되지 않습니다. 공유 시의 단일 작업입니다.
+>[!NOTE]
+> VRS 조정은 항상 프로젝트 조정 전에 적용됩니다. 즉, 조정된 프로젝트에 특정 구성 요소가 포함되어 있더라도 조정된 VRS에 해당 구성 요소가 포함되어 있지 않으면 필터링됩니다.
 
-1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
+### 모든 구성 요소 표시
+
+선별된 프로젝트 또는 VRS에서 수신자에게 왼쪽 레일에 **[!UICONTROL 모든]** 구성 요소 표시 옵션이 표시됩니다. [!UICONTROL 모두] 표시를 선택하면 다음 항목에 따라 다른 구성 요소 세트가 표시됩니다.
+
+* 사용자의 권한 수준(관리자 또는 비관리자)
+* 프로젝트 역할(소유자/편집기 아님)
+* 적용된 큐레이션 유형
+
+| 큐레이션 유형 | 관리자 | 관리자가 아닌 프로젝트 소유자 | 비관리자 |
+|---|---|---|---|
+| 조정된 VRS | 조정되지 않은 모든 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 |
+| 조정된 프로젝트 | 조정되지 않은 모든 프로젝트 구성 요소 | 조정되지 않은 모든 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 프로젝트 구성 요소 |
+| 조정된 VRS에서 조정된 프로젝트 | All non-corporated components, shown under **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 VRS 구성 요소]** 아래에 표시된 모든 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 모든 조정되지 않은 모든 구성 요소와 조정되지 않은 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 및 프로젝트 구성 요소 |
