@@ -5,7 +5,10 @@ title: 전환
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 날짜 | MM/DD/YYYY/HH/mm/SS(예: 01/01/2015/06/00/00) 날짜 형식을 사용합니다. |
 | 카테고리 | 카테고리 이름.  카테고리를 지정하면 제품도 선택해야 합니다. |
 | Channel | 채널 이름. |
-| eVarn | eVarn 이름. n의 유효한 값은 1-75의 정수입니다. |
+| eVarn | eVarn 이름. n의 유효한 값은 1-250의 정수입니다. |
 | 제품 | 제품 이름. |
 | 주/도 | 상태 이름. |
 | Zip | Zip 이름. |
@@ -42,7 +45,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 장바구니 보기 | 장바구니 보기 수. |
 | 체크아웃 | 체크아웃 수. |
 | 이벤트 n | 이벤트 n의 발생 횟수. n의 유효한 값은 1-100의 정수입니다.  보기 이벤트를 지정하면 해당 데이터 차원(eVar)도 지정해야 합니다. 예를 들어 eVar2 보기를 포함시키려면 값이 있는 eVar2를 나열해야 합니다. |
-| eVarn 보기 | eVarn을(를) 본 횟수. n의 유효한 값은 1-75의 정수입니다. |
+| eVarn 보기 | eVarn을(를) 본 횟수. n의 유효한 값은 1-250의 정수입니다. |
 | 가격 | 제품 가격.  |
 | 주문 | 발생한 주문 수. |
 | 제품 보기 | 제품 보기 횟수. |
