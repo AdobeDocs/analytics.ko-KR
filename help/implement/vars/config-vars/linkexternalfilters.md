@@ -2,9 +2,9 @@
 title: linkExternalFilters
 description: linkExternalFilters 변수를 사용하여 자동 종료 링크 추적을 돕습니다.
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 95%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적하는 기능을 제공합니다. [`trackExternalLinks`](trackexternallinks.md)가 활성화된 경우 방문자가 링크를 클릭하여 사이트를 떠날 때 이미지 요청이 Adobe로 바로 전송됩니다. `linkExternalFilters` 및 [`linkInternalFilters`](linkinternalfilters.md) 변수는 내부/외부로 간주되는 링크를 파악합니다.
 
-이 변수에 값이 포함되어 있는 경우 자동 종료 링크 추적은 &quot;허용&quot; 목록처럼 작동합니다. 링크 클릭이 `linkExternalFilters` 값과 일치하지 않으면 종료 링크로 간주되지 않습니다. 전체 URL은 이 변수에 따라 검사됩니다. [`linkLeaveQueryString`](linkleavequerystring.md)이 활성화된 경우 쿼리 문자열도 검사됩니다.
+이 변수에 값이 포함되어 있는 경우 자동 종료 링크 추적은 허용 목록입니다. 링크 클릭이 `linkExternalFilters` 값과 일치하지 않으면 종료 링크로 간주되지 않습니다. 전체 URL은 이 변수에 따라 검사됩니다. [`linkLeaveQueryString`](linkleavequerystring.md)이 활성화된 경우 쿼리 문자열도 검사됩니다.
 
 >[!TIP] 종료 링크로 간주할 도메인을 정확히 알고 있는 경우에만 이 변수를 사용하십시오. 많은 조직은 종료 링크 추적 요구 사항에 대해 `linkInternalFilters`를 사용하는 것으로 충분하다는 알고 `linkExternalFilters`를 사용하지 않습니다.
 
@@ -50,6 +50,6 @@ s.linkExternalFilters = "example.com,example.net,example.org";
 <!-- The following link is NOT considered an exit link, even though the link is outside adobe.com -->
 <a href = "example.org">Example link 1</a>
 
-<!-- The following link is an exit link because it matches the linkExternalFilters "allowed" list -->
+<!-- The following link is an exit link because it matches the linkExternalFilters allowlist -->
 <a href = "example.com">Example link 2</a>
 ```
