@@ -2,9 +2,9 @@
 title: '[!UICONTROL IP 로그인 제한 적용] 기간 종료'
 description: '[!UICONTROL IP 로그인 제한 적용]에 대한 종료 시기 및 의미에 대해 알아봅니다.'
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 85%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # [!UICONTROL IP 로그인 제한 적용] 기간 종료
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. 많은 경우 이 기능은 사용자가 로그인할 수 있는 유일한 보안 IP 주소로서 회사 IP 주소를 설정하는 데 사용됩니다. 따라서 Adobe Analytics를 사용하려면 사용자가 회사 사무실에 있거나 VPN을 통해 네트워크에 로그인해야 합니다.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. 많은 경우 이 기능은 사용자가 로그인할 수 있는 유일한 보안 IP 주소로서 회사 IP 주소를 설정하는 데 사용됩니다. 따라서 Adobe Analytics를 사용하려면 사용자가 회사 사무실에 있거나 VPN을 통해 네트워크에 로그인해야 합니다.
 
 이 기능은 2021년 1월에 사용이 종료됩니다.
 
