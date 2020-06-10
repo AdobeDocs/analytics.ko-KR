@@ -4,21 +4,17 @@ title: 세그먼트 작성
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
 workflow-type: tm+mt
-source-wordcount: '2436'
-ht-degree: 100%
+source-wordcount: '2139'
+ht-degree: 92%
 
 ---
 
 
 # 세그먼트 빌더
 
-[!UICONTROL 세그먼트 빌더]는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 방문자로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
-
->[!IMPORTANT]
->
->2019년 6월 릴리스에서는 차원 기여도 분석 모델이 도입되었습니다. 아래의 웹 UI 기능에 있는 6번을 참조하십시오.
+[!UICONTROL 세그먼트 빌더]를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성할 수 있습니다. 여기서는 계층 구조 논리, 규칙 및 연산자에 따라 방문자를 세그먼트화하기 위해 지표 차원, 이벤트 또는 기타 세그먼트를 드래그하여 놓을 수 있는 캔버스를 제공합니다.
 
 세그먼트 빌더에 액세스하는 방법에는 여러 가지가 있습니다.
 
@@ -28,42 +24,39 @@ ht-degree: 100%
 * **[!UICONTROL Ad Hoc Analysis]**: [Ad Hoc Analysis에서 세그먼트를 만듭니다](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
 * **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/data-requests/segmentation.html).
 
-## 세그먼트 빌더 사용자 인터페이스 {#concept_643F2DF74C544796B58F4656ABC5F726}
+## 빌더 기준 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-[!UICONTROL 세그먼트 빌더]를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성할 수 있습니다. 여기서는 계층 구조 논리, 규칙 및 연산자에 따라 방문자를 세그먼트화하기 위해 지표 차원, 이벤트 또는 기타 세그먼트를 드래그하여 놓을 수 있는 캔버스를 제공합니다.
-
-## 웹 UI 기능 {#section_F61C4268A5974C788629399ADE1E6E7C}
-
-[!UICONTROL 세그먼트 빌더]를 사용하여 웹 UI(또는 [Ad Hoc Analysis의 Java UI](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md))에서 세그먼트를 작성 및 편집할 수 있습니다. 규칙 정의 및 컨테이너를 추가하여 세그먼트를 세분화하고 스택하고 중첩하여 개선할 수 있습니다. 또한 현재 세그먼트 정의에서 파생된 페이지 보기, 방문 및 고유한 방문자 결과가 유효한지 검증할 수도 있습니다. 또 나중에 사용할 수 있도록 세그먼트를 저장할 수 있습니다.
-
-세그먼트 빌더 액세스 방법:
-
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가를 클릭합니다]**.
-
-* 세그먼트 관리자 내에서 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.
-* 세그먼트 관리자에서 기존 세그먼트 제목을 클릭하여 세그먼트 빌더에서 세그먼트 편집
+규칙 정의 및 컨테이너를 추가하여 세그먼트를 정의할 수 있습니다.
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL 제목]**: 세그먼트 이름을 지정하거나 변경할 수 있습니다.
-1. **[!UICONTROL 설명]**: 세그먼트에 대한 설명을 입력합니다. 세그먼트를 공유하려면 설명을 제공해야 합니다.
+1. **[!UICONTROL 제목]**: 세그먼트 이름을 지정합니다.
+1. **[!UICONTROL 설명]**: 세그먼트에 대한 설명을 입력합니다.
 1. **[!UICONTROL 태그]**: 기존 태그 목록에서 선택하거나 새 태그를 만들어 작성하고 있는 [세그먼트에 태깅](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)할 수 있습니다.
-1. **[!UICONTROL 정의]**: [세그먼트 작성](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 및 구성, 규칙 추가, 컨테이너 중첩 및 시퀀스 지정을 수행하는 곳입니다. 컨테이너를 선택하고 차원, 세그먼트 또는 지표를 드래그하여 정의에 드롭하는 식으로 새 세그먼트 설명을 입력할 수 있습니다.
+1. **[!UICONTROL 정의]**: [세그먼트 작성](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 및 구성, 규칙 추가, 컨테이너 중첩 및 시퀀스 지정을 수행하는 곳입니다.
 1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/c-segmentation/seg-overview.md)([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
 1. **[!UICONTROL 옵션]**:(톱니바퀴) 아이콘
 
    * **[!UICONTROL + 컨테이너 추가]**: 세그먼트 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.
-   * **[!UICONTROL + 선택 항목에서 컨테이너 추가]**: 정의 필드에서 (다중) 선택한 요소로부터 새 컨테이너를 만들 수 있습니다.
    * **[!UICONTROL 제외]**: 하나 이상의 차원, 세그먼트 또는 지표를 제외하는 식으로 세그먼트를 정의합니다.
 
-1. **[!UICONTROL 기여도 분석 모델]**: 차원 세그먼테이션용. 차원 모델은 플로우 시각화를 지원하는 경우와 같이 순차적 세그먼테이션에서 특히 유용합니다.
+1. **[!UICONTROL 속성 모델]**: 차원에만 사용할 수 있으며, 이러한 모델은 세그먼트화할 차원의 값을 결정합니다. 차원 모델은 순차적 세그먼테이션에서 특히 유용합니다.
 
-   * **[!UICONTROL 반복]** ((기본값)): 차원의 인스턴스와 지속적인 값을 포함합니다.
+   * **[!UICONTROL 반복]** (기본값): 차원에 대한 인스턴스 및 지속적인 값을 포함합니다.
    * ****&#x200B;인스턴스: 차원의 인스턴스를 포함합니다.
-   * ****&#x200B;비반복 인스턴스: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다.
+   * ****&#x200B;비반복 인스턴스: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.
+
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL 비교]**: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
+   **예: eVar1 = A인 히트 세그먼트**
+
+   | 예 | A | A | A(지속적인) | B | A | C |
+   |---|---|---|---|---|---|---|
+   | 반복 | X | X | X | - | X | - |
+   | 인스턴스 | X | X | - | - | X | - |
+   | 반복되지 않는 인스턴스 | X | - | - | - | X | - |
+
+1. **[!UICONTROL 연산자]**: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 1. **[!UICONTROL 차원]**: 차원은 차원 목록(주황색 사이드바)에서 드래그하여 놓습니다.
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
 1. **[!UICONTROL And/Or/Then]**: 컨테이너나 규칙 사이에 [!UICONTROL AND/OR/THEN] 연산자를 지정합니다. THEN 연산자를 사용하여 [순차적 세그먼트를 정의](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)할 수 있습니다.
@@ -113,7 +106,7 @@ ht-degree: 100%
 
 이제 여러 가지 방법으로 세그먼트에 태깅하고, 세그먼트를 공유 및 관리할 수 있는 [세그먼트 관리자](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)가 표시합니다.
 
-## 컨테이너 작성 및 중첩 {#section_1C38F15703B44474B0718CEF06639EFD}
+## 컨테이너 추가 {#section_1C38F15703B44474B0718CEF06639EFD}
 
 [컨테이너 프레임워크를 작성한 다음](/help/components/c-segmentation/seg-overview.md) 사이에 논리 규칙 및 연산자를 배치할 수 있습니다.
 
@@ -133,7 +126,7 @@ ht-degree: 100%
 
    하나 이상의 규칙을 선택하고 **[!UICONTROL 옵션]** > **[!UICONTROL 선택에서 컨테이너 추가]**&#x200B;를 클릭합니다. 이렇게 하면 선택 영역이 별도의 컨테이너로 바뀝니다.
 
-## 세그먼트에서 날짜 범위 사용 {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## 날짜 범위 사용 {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
 진행 중인 캠페인 또는 이벤트에 대한 질문에 답변하는 순서로 롤링 날짜 범위를 포함하는 세그먼트를 작성할 수 있습니다.
 
@@ -145,7 +138,7 @@ ht-degree: 100%
 
 ## 세그먼트 스택 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-세그먼트 스택은 &#39;and&#39; 연산자를 사용하여 각 세그먼트에서 기준을 조합한 다음 조합된 기준을 적용하는 방식으로 진행됩니다.
+세그먼트 스택은 &#39;and&#39; 연산자를 사용하여 각 세그먼트에서 기준을 조합한 다음 조합된 기준을 적용하는 방식으로 진행됩니다. 작업 공간 프로젝트에서 직접 또는 세그먼트 빌더에서 수행할 수 있습니다.
 
 예를 들어 &quot;휴대폰 사용자&quot; 세그먼트 및 &quot;미국 지리&quot; 세그먼트는 미국의 휴대폰 사용자에 대한 데이터만 반환합니다.
 
@@ -175,17 +168,11 @@ ht-degree: 100%
 
    단계 결과
 
-## 세그먼트 템플릿 사용 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
+## Segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-템플릿은 미리 구성된 이전 Suite 세그먼트를 나타냅니다.
+세그먼트 템플릿은 &quot;처음 방문&quot; 또는 &quot;모바일 장치에서 방문&quot;과 같은 일반적인 세그멘테이션 사용 사례를 제공합니다. Workspace 프로젝트 및 세그먼트 빌더에서 새 세그먼트를 위한 기본 요소로 사용할 수 있습니다.
 
-세그먼트 관리자에서 **[!UICONTROL 추가]**&#x200B;를 클릭하면 세그먼트 빌더가 표시됩니다. 이제 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭하여 
-
-세그먼트 레일을 표시합니다. 세그먼트 템플릿이 세그먼트 목록 아래쪽에 나타납니다. 이러한 템플릿은 템플릿 이름 왼쪽의 폴더 아이콘으로 구별할 수 있습니다.
-
-![](assets/seg_template.png)
-
-이러한 템플릿을 정의 캔버스로 드래그한 후 정의한 다음 사용하거나 수정할 수 있습니다.
+템플릿은 Adobe &quot;A&quot; 로고로 표시됩니다. 템플릿의 예는 아래에 나와 있습니다.
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -270,14 +257,3 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 예: 캠페인 방문자 세그먼트 {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
-
-자주 사용되는 이 세그먼트의 예를 표시합니다.
-
-많은 고객들은 특정 캠페인에 반응한 방문자의 지표를 보기 원합니다. 캠페인 방문자 세그먼트를 만들면 이 데이터를 쉽게 얻을 수 있습니다.
-
-세그먼트 빌더에서 이 세그먼트를 작성할 경우 최상위 방문 컨테이너에서 캠페인 차원(이 경우 캠페인 이름)을 드래그합니다.
-
-![](assets/seg_campaign_visitor.png)
-
-(선택 사항) 모든 캠페인 관련 세그먼트를 쉽게 필터링하려는 경우 이 세그먼트에 캠페인 태그를 적용할 수도 있습니다.
