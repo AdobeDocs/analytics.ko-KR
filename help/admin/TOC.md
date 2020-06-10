@@ -3,8 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/en/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 99%
 
 ---
 
@@ -41,8 +44,8 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [로그](admin/logs.md)
    + [마케팅 채널](admin/marketing-channels-admin.md)
    + [메뉴 사용자 지정](admin/customize-menus.md)
-   + [지표 수준](admin/metric-visibility.md)
-   + [모바일 관리](admin/mobile-management.md)
+   + [지표 가시성](admin/metric-visibility.md)
+   + [앱 관리](admin/mobile-management.md)
    + 유료 검색 감지 {#paid-search-detection}
       + [유료 검색 탐지 개요](admin/paid-search-detection/paid-search-detection.md)
       + [유료 검색 탐지 구성](admin/paid-search-detection/t-paid-search-detection.md)
