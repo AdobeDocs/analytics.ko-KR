@@ -1,8 +1,11 @@
 ---
 title: getValOnce
 description: Analytics 변수가 한 행에서 동일한 값으로 두 번 설정되지 않도록 합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 627a10830d73d21323f247fcaadfb462858637d3
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 99%
 
 ---
 
@@ -46,8 +49,8 @@ Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getValOnce v2.0 */
-s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:ep);return vtc}return""};
+/* Adobe Consulting Plugin: getValOnce v2.01 */
+s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:e);return vtc}return""};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -85,6 +88,10 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 이 코드는 사용자 세션 전체에서 동일한 값이 연달아 두 번 이상 s.eVar2로 전달되지 않도록 합니다. 또한 만료 시간이 0으로 설정되므로 이 코드는 ep 인수의 &quot;m&quot; 값도 무시합니다(호출 종료 시). 또한 이 코드는 s_ev2 쿠키에 비교 값을 저장합니다.
 
 ## 버전 기록
+
+### 2.01
+
+* 쿠키 쓰기 문제를 수정했습니다.
 
 ### 2.0
 
