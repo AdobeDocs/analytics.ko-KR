@@ -4,10 +4,10 @@ title: 세그먼트 작성
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 92%
+source-wordcount: '2037'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,6 @@ ht-degree: 92%
    * **[!UICONTROL 반복]** (기본값): 차원에 대한 인스턴스 및 지속적인 값을 포함합니다.
    * ****&#x200B;인스턴스: 차원의 인스턴스를 포함합니다.
    * ****&#x200B;비반복 인스턴스: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.
-
    ![](assets/attribution-models.jpg)
 
    **예: eVar1 = A인 히트 세그먼트**
@@ -75,19 +74,7 @@ ht-degree: 92%
 
  포함된 날짜 범위가 있는 세그먼트는 Analysis Workspace와 Reports &amp; Analytics에서 계속하여 다르게 작동합니다. Workspace에서 포함된 날짜 범위가 있는 세그먼트는 패널 날짜 범위를 무시합니다. 반대로 [!UICONTROL Reports &amp; Analytics]는 보고서 날짜 범위와 세그먼트의 포함된 날짜 범위의 교차 날짜를 제공합니다.
 
-**[!UICONTROL Experience Cloud에 게시(`<report suite name>`용)]**: (화면에 표시되지 않음) 이 옵션은 이 세그먼트를 저장할 보고서 세트를 [Experience Cloud에 사용할 수 있는](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 경우에만 나타납니다. Experience Cloud에 세그먼트를 게시하면 [!UICONTROL 대상 라이브러리], [!DNL Target] 및 [!DNL Audience Manager].의 마케팅 활동에 세그먼트를 사용할 수 있습니다. 세그먼트 제목 및 설명이 필요합니다.
-
->[!NOTE] Analytics에서 게시된 세그먼트를 편집하거나 삭제할 수 있습니다. 세그먼트가 사용 중인 경우 세그먼트를 편집할 때 경고 메시지가 표시됩니다. 게시된 세그먼트가 Adobe [!DNL Target]에서 사용 중이면 삭제할 수 없습니다.
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->처리가 지연되는 것을 방지하기 위해 Analytics에서 공유하는 대상 수를 20명으로 제한해야 합니다. Analytics에서 Experience Cloud로 공유하는 대상은 2천만 명의 고유 구성원을 초과할 수 없습니다. 또한 캐싱으로 인해, Analytics의 삭제된 보고서 세트가 Experience Cloud에 표시되려면 12시간이 필요합니다.
-
->[!IMPORTANT]
->
->방문자가 Analytics에서 공유한 대상 자격을 얻으면 24~ 48시간이 지연된 후에 [!DNL Target], [!DNL Advertising Cloud] 및 [!DNL Campaign]에서 정보를 실행할 수 있습니다.
+**[!UICONTROL Experience Cloud 게시]**: (화면에 표시되지 않음) 이 세그먼트를 저장할 보고서 세트가 Experience Cloud에 대해 [활성화된 경우에만 이 옵션이 표시됩니다](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Experience Cloud에 세그먼트를 게시하면 [!UICONTROL 대상 라이브러리], [!DNL Target] 및 [!DNL Audience Manager].의 마케팅 활동에 세그먼트를 사용할 수 있습니다. [Experience CLud 게시에 대해 자세히](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 알아보십시오.
 
 ## 세그먼트 작성 {#build-segments}
 
