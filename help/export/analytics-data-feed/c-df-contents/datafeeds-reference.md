@@ -5,8 +5,11 @@ subtopic: data feeds
 title: 데이터 열 참조
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -256,8 +259,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `videoshow` | 비디오 표시 | varchar(255) |
 | `videoshowtype` | 비디오 표시 유형 | varchar(255) |
 | `videostreamtype` | 비디오 스트림 유형 | varchar(255) |
-| `visid_high` | 방문을 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. | bigint 부호 없음 |
-| `visid_low` | 방문을 고유하게 식별하기 위해 visid_high와 함께 사용됩니다. | bigint 부호 없음 |
+| `visid_high` | visid_low와 결합하여 방문자를 고유하게 식별합니다. | bigint 부호 없음 |
+| `visid_low` | visid_high와 결합하여 방문자를 고유하게 식별합니다. | bigint 부호 없음 |
 | `visid_new` | 히트에 새로 생성된 방문자 ID가 있는지 여부를 식별하는 플래그입니다. | char(1) |
 | `visid_timestamp` | 방문자 ID가 새로 생성된 경우 방문자 ID가 생성된 시간의 타임스탬프(Unix 시간)를 제공합니다. | int |
 | `visid_type` | 방문자를 식별하는 데 사용된 방법을 나타내는 숫자 ID입니다. <br>0: 사용자 지정 방문자 ID <br>1: IP 및 사용자 에이전트 폴백 <br>2: HTTP 모바일 가입자 헤더 <br>3: 기존 쿠키 값(s_vi) <br>4: 대체 쿠키 값(s_fid) <br>5: ID 서비스 | tinyint 부호 없음 |
