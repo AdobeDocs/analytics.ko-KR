@@ -4,6 +4,9 @@ title: 가상 보고서 세트 구성 요소 큐레이션
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -12,14 +15,14 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 가상 보고서 세트는 Analysis Workspace에 구성 요소를 포함하거나 제외하도록 큐레이션할 수 있습니다.
 
->[!NOTE]구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. 이전에는, 누구나 아이콘을 클릭하여 조정되지 않은 구성 요소를 볼 수 **[!UICONTROL Show all Components]**&#x200B;있었습니다. [업데이트된 조정 환경](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
+>[!NOTE]구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. 이전에는 **[!UICONTROL 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다]**. [업데이트된 조정 환경](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
 
 구성 요소 큐레이션을 사용하려면 다음을 수행하십시오.
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
-1. 을 정의한 **[!UICONTROL Settings]**&#x200B;후 **[!UICONTROL Components]** 탭을 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]** > **[!UICONTROL 새 가상 보고서 세트 만들기]**&#x200B;로 이동합니다.
+1. **[!UICONTROL 설정]**&#x200B;을 정의한 후 **[!UICONTROL 구성 요소 탭을 클릭합니다.]**
 
-1. 확인란을 **[!UICONTROL Enable Customization of Virtual Report Suite Components]**&#x200B;선택합니다.
+1. **[!UICONTROL 가상 보고서 세트 구성 요소의 사용자 지정 사용]** 확인란을 선택합니다.
 
    ![](assets/vrs-enable.png)
 
@@ -27,7 +30,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    >
    >**** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
 
-   * [!UICONTROL Reports & Analytics]
+   * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
@@ -42,7 +45,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    >
    >조정된 구성 요소(세그먼트, 계산된 지표, 날짜 범위)를 더 이상 *공유*&#x200B;하지 않아도 됩니다. 이러한 구성 요소가 공유되지 않아도 가상 보고서 세트에 대해 조정된 경우 항상 Analysis Workspace에 표시됩니다.
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. 또한 **[!UICONTROL 모두 추가를 클릭하여 구성 요소를 필터링하거나 검색하고 필터링된 전체 선택을 포함된 열에 추가할 수 있습니다]**.
 
    ![](assets/vrs-add-all.png)
 
