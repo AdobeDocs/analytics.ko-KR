@@ -4,10 +4,10 @@ title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Analysis Workspace에서는 단일 Analytics 보고서의 모든 일반적인 제한이 적용되지 않습니다. 사용자 지정 분석 프로젝트를 작성하기 위한 강력하고 유연한 캔버스를 제공합니다. 원하는 수의 데이터 테이블, 시각화 및 구성 요소(차원, 지표, 세그먼트 및 시간 세부기간)를 프로젝트에 드래그하여 놓으십시오. 즉시 분류 및 세그먼트를 만들고, 분석할 집단을 만들고, 경고를 만들고, 세그먼트를 비교하고, 플로우 및 폴아웃 분석을 하고, 회사 동료와 공유할 보고서를 조정 및 예약하십시오.
 
-이 페이지에는 시작할 수 있는 기본 지침이 포함되어 있습니다. 기본 사항을 익힌 후에는 작업 공간의 고급 기능으로 전환할 수 있습니다. 여기에는 기여도 IQ, [예외 항목 탐지](/help/analyze/analysis-workspace/attribution-iq.md), [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [세그먼트 IQ,Intelligent Alerts가 포함됩니다](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)[](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
+이 페이지에는 시작할 수 있는 기본 지침이 포함되어 있습니다. 기본 사항을 익힌 후에는 작업 공간의 고급 기능으로 전환할 수 있습니다. 여기에는 기여도 IQ, [예외 항목 탐지](/help/analyze/analysis-workspace/attribution/overview.md), [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [세그먼트 IQ,Intelligent Alerts가 포함됩니다](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)[](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
 작업 공간에 대한 비디오 개요는 다음과 같습니다.
 
