@@ -2,7 +2,7 @@
 title: Adobe Analytics의 보고서 사용자 지정
 description: Adobe Analytics에서 보고서를 사용자 지정하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 78%
@@ -68,7 +68,7 @@ Google Analytics에서 사용자 지정 보고서를 만들 때 필수 필드는
 4. 계산된 지표에 원하는 공식이 포함되면 저장을 클릭하여 작업 공간으로 다시 돌아갑니다.
 5. 새로 정의된 계산된 지표를 작업 공간으로 끌어서 놓습니다.
 
-   구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-variables/c-metrics/calculated-metric.md)에 대해 자세히 알아보십시오.
+   구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)에 대해 자세히 알아보십시오.
 
 ## 사용자 지정 경고
 
