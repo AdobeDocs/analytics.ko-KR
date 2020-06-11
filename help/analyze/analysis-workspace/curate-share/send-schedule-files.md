@@ -1,18 +1,21 @@
 ---
 description: 프로젝트를 공유 및 조정하고 프로젝트 파일(PDF 또는 CSV 형식)을 즉시 또는 일정에 따라 보낼 수 있습니다.
-title: 프로젝트 파일 공유 및 예약
+title: 공유 메뉴
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 
 
-# 프로젝트 파일 공유 및 예약
+# 공유 메뉴
 
 프로젝트를 공유 및 조정하고 프로젝트 파일(PDF 또는 CSV 형식)을 즉시 또는 일정에 따라 보낼 수 있습니다.
 
-**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
+**[!UICONTROL Workplace]** > **[!UICONTROL 공유]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
@@ -24,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 프로젝트 공유 </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > 추가 정보</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > 추가 정보</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 프로젝트 링크 가져오기 </td> 
