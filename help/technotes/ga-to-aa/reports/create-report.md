@@ -2,7 +2,10 @@
 title: Analysis Workspace에서 기본 보고서 만들기
 description: Google Analytics 등 타사 도구에 익숙한 사용자에 초점을 맞춘 방식으로 Analysis Workspace에서 기본 보고서를 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Analysis Workspace는 미리 작성된 보고서라기보다는 캔버스와 더
 1. 새 프로젝트 만들기 단추를 클릭합니다.
 1. 양식 팝업에서 &#39;빈 프로젝트&#39;가 선택되어 있는지 확인한 다음 만들기를 클릭합니다.
 1. 왼쪽에 차원, 지표, 세그먼트 및 날짜 범위 목록이 표시됩니다. 페이지 차원(주황색으로 표시됨)을 찾아 &#39;여기에 차원 놓기&#39;라는 캔버스에 끌어서 놓습니다.
-1. 이달의 최고 페이지를 보여주는 보고서를 볼 수 있습니다. Analysis Workspace가 자동으로 보고서를 [발생 횟수](/help/components/c-variables/c-metrics/metrics-occurrences.md) 지표로 채웁니다.
+1. 이달의 최고 페이지를 보여주는 보고서를 볼 수 있습니다. Analysis Workspace가 자동으로 보고서를 [발생 횟수](/help/components/metrics/occurrences.md) 지표로 채웁니다.
 1. Google Analytics의 테이블에는 일반적으로 7~8개의 지표가 있습니다. 바운스 비율 지표(녹색으로 표시됨)를 찾아 발생 횟수 지표 헤더 옆에 끌어서 놓습니다. 방문 횟수 지표를 발생 횟수 옆으로 끌어 놓으면 두 지표가 나란히 표시됩니다.
 1. 기존 지표 헤더 옆으로 지표를 끌어 놓아 여러 지표를 나란히 배치할 수 있습니다. 일반적으로 Google Analytics에서 사용되는 지표를 가져오는 방법에 대한 자세한 내용은 [자주 사용되는 지표](common-metrics.md)를 참조하십시오.
 
