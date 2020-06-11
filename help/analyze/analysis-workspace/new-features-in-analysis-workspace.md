@@ -3,7 +3,7 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 44112013e049e6e76554530ba438c71fee902841
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 99%
@@ -109,7 +109,7 @@ ht-degree: 99%
 |--- |--- |
 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
-| [기여도 분석 IQ에서 여러 값 변수 지원](attribution-iq.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 기여도 분석 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
+| [기여도 분석 IQ에서 여러 값 변수 지원](attribution/overview.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 기여도 분석 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
 
 ## 2018년 11월
@@ -210,7 +210,7 @@ ht-degree: 99%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > 기여도 분석 IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > 기여도 분석 IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>기여도 분석 IQ를 사용하면 마케팅 성과에 대해 보다 정교하고 지능적인 분석을 수행할 수 있습니다. 새 기여도 분석 모델은 Analysis Workspace의 지표(표 또는 분류) 및 계산된 지표에서 사용할 수 있습니다. 새로운 [기여도 분석 패널]을 사용하면 더 나은 시각화 및 비교가 가능합니다. </p> </td> 
   </tr> 
   <tr> 
