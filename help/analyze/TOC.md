@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
+source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1101'
 ht-degree: 97%
 
 ---
@@ -295,12 +295,14 @@ ht-degree: 97%
    + [대시보드 및 Reportlet](reports-analytics/dashboard.md)
    + [대시보드 관리자](reports-analytics/dashboard-manage.md)
    + [데이터 추출](reports-analytics/data-extract.md)
+   + [단계 보고서](reports-analytics/funnels.md)
    + [지표](reports-analytics/metrics.md)
    + [타겟](reports-analytics/targets.md)
    + [경고](reports-analytics/alerts.md)
    + [달력 이벤트](reports-analytics/t-calendar-event.md)
    + [Data Warehouse 요청](reports-analytics/data-warehouse.md)
    + [FAQ](reports-analytics/frequently-asked-questions.md)
+   + [문제 해결](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
    + Ad Hoc Analysis 프로젝트 전환기 {#aha-project-converter}
       + [Ad Hoc Analysis 프로젝트 전환기 개요](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
