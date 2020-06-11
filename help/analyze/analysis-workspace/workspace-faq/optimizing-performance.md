@@ -2,8 +2,11 @@
 description: 'null'
 title: Analysis Workspace 성능 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: ht
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+translation-type: tm+mt
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 100%
 
 ---
 
@@ -103,5 +106,5 @@ Analysis Workspace와 상호 작용할 때 오류가 발생할 수 있습니다.
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe에서 해결해야 하는 문제가 발생했습니다. 고객 지원 요청을 통해 오류 코드를 제출하는 것이 좋습니다. |
 | `The request is too complex.` | 보고 요청이 너무 커서 실행할 수 없습니다. 이 오류에 기여하는 요소는 요청의 크기로 인한 시간 초과, 세그먼트 또는 검색 필터에 일치하는 항목이 너무 많음, 포함된 지표가 너무 많음, 호환되지 않는 차원과 지표 조합 등입니다. 요청을 간소화하는 것이 좋습니다. |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | 검색 텍스트 기준을 좁히고 요청을 다시 시도하는 것이 좋습니다. |
-| `This dimension does not currently support non-default attribution models.` | 테이블의 차원을 [기여도 분석 IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)와 호환되는 차원으로 바꾸는 것이 좋습니다. |
+| `This dimension does not currently support non-default attribution models.` | 테이블의 차원을 [기여도 분석 IQ](../attribution/overview.md)와 호환되는 차원으로 바꾸는 것이 좋습니다. |
 | `Your request failed as a result of too many columns or pre-configured rows.` | 일부 열이나 행을 제거하거나 별도의 시각화로 분할하는 것이 좋습니다. |
