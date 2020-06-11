@@ -3,9 +3,9 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1102'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 * 데이터를 Adobe Analytics에 업로드해야 할 때 사용해야 하며, Adobe AppMeasurement나 모바일 SDK 코드는 사용할 수 없습니다.
 
-**[사용자 특성](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**은 다음 경우에 사용합니다.
+**[사용자 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)**은 다음 경우에 사용합니다.
 
 * 고객 관계 관리(CRM) 데이터베이스에서 기업 고객 데이터를 캡처하고, 이 데이터를 Experience Cloud에 업로드하려는 경우.
 * CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타깃팅 기준으로 사용하려는 경우.
