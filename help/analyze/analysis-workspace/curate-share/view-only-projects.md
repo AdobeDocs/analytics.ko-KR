@@ -3,9 +3,9 @@ description: 작업 공간에서 보기 전용 프로젝트
 keywords: View-only projects
 title: 보기 전용 작업 공간 프로젝트
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ ht-degree: 2%
 
 * 숨겨진 왼쪽 레일
 * 보고서 세트
-* 패널 달력 날짜 범위참고: 받는 사람에게 달력 컨트롤을 부여하려면 날짜 범위의 [드롭다운 필터에 추가합니다](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* 패널 달력 날짜 범위. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 날짜 범위의 [드롭다운 필터에 추가합니다](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
 * 자유 형식 필터링
 * 보이는 행의 자유 형식 수
 * 자유 형식 행, 열 또는 시각화 설정
 * 패널 세그먼트
 * 편집, 삽입 및 구성 요소 메뉴
+* 작업 영역 팁
 
 ## 활성화된 상호 작용
 
