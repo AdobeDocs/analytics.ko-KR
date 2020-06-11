@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -80,11 +80,7 @@ ht-degree: 97%
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [Analytics for Target(A4T) 패널](analysis-workspace/c-panels/a4t-panel.md)
-      + 기여도 분석 패널 {#attribution}
-         + [기여도 분석 개요](analysis-workspace/c-panels/attribution/attribution.md)
-         + [기여도 분석 패널 사용](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [기여도 분석 FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [알고리즘 속성](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [기여도 분석 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 97%
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
-   + [기여도 분석 IQ](analysis-workspace/attribution-iq.md)
+   + 속성 IQ {#attribution}
+      + [기여도 분석 개요](analysis-workspace/attribution/overview.md)
+      + [기여도 모델 및 조회 창](analysis-workspace/attribution/models.md)
+      + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
+      + [FAQ](analysis-workspace/attribution/faq.md)
    + [세그먼트 IQ](analysis-workspace/segment-iq.md)
    + 가상 분석가 {#virtual-analyst}
       + [Virtual Analyst 개요](analysis-workspace/virtual-analyst/overview.md)
