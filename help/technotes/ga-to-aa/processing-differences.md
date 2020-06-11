@@ -2,7 +2,7 @@
 title: Analytics 플랫폼 간 처리 및 아키텍처 차이점
 description: 일부 데이터가 수집되고 표시되는 방식이 Adobe Analytics 및 Google Analytics와 같은 플랫폼에 따라 어떻게 다른지 알아보십시오.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 66%
@@ -25,7 +25,7 @@ Adobe Analytics와 Google Analytics는 모두 Analytics 도구이지만 플랫�
 
 To achieve better parity between reporting tools, use the [!UICONTROL Single Page Visits] metric in Adobe Analytics instead of [!UICONTROL Bounces] as part of a calculated metric. The [!UICONTROL Single Page Visits] metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
 
-자세한 내용은 구성 요소 사용 안내서의 [바운스 비율](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) 지표를 참조하십시오.
+자세한 내용은 구성 요소 사용 안내서의 [바운스 비율](/help/components/metrics/bounce-rate.md) 지표를 참조하십시오.
 
 ## [!UICONTROL 방문 횟수 및 세션]
 
@@ -36,4 +36,4 @@ To achieve better parity between reporting tools, use the [!UICONTROL Single Pag
 * **수동 세션 재정의:** `sessionControl`을 사용하여 세션을 수동으로 시작하거나 종료하는 경우 Google Analytics에 새 세션이 시작됩니다. [!UICONTROL Adobe Analytics에서는 방문을 수동으로 종료할 수 없습니다.]
 * **Adobe Analytics의 이상치 방문 감지:** Adobe Analytics의 새로운 [!UICONTROL 방문] 기능은 사용자가 12시간 연속 활동, 2500회 히트 또는 100초 내에 히트 수가 도달하면 자동으로 시작됩니다. 이러한 각 탐지 기준은 일반적으로 보트 활동에 의해 트리거됩니다.
 
-자세한 내용은 구성 요소 사용 안내서의 [방문 횟수](/help/components/c-variables/c-metrics/metrics-visit.md) 지표를 참조하십시오.
+자세한 내용은 구성 요소 사용 안내서의 [방문 횟수](/help/components/metrics/visits.md) 지표를 참조하십시오.
