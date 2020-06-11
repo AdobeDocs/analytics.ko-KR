@@ -3,8 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 기술 노트
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
@@ -48,5 +51,4 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 + [로그인 문제 해결](troubleshoot-login.md)
 + [로그아웃 문제 해결](troubleshoot-sessions.md)
 + [지정되지 않음, 기타 및 알 수 없음](unspecified.md)
-+ [방문자 식별](visitor-identification.md)
 + [방문자 마이그레이션](visitor-migration.md)
