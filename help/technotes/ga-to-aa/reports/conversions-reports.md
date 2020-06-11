@@ -2,7 +2,10 @@
 title: Adobe Analytics의 전환 보고서
 description: Adobe Analytics에서 전환 보고서를 사용하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Analysis Workspace에서 이 데이터는 폴아웃 시각화를 사용하여 �
 
 전자 상거래 보고서는 일반적으로 제품 또는 서비스를 판매하는 사이트에서 구매한 항목에 대한 주문과 매출을 측정하는 데 사용됩니다. 이 기능은 Adobe Analytics에서 사용할 수 있으며, 제품 보고서라고 합니다.
 
-Google Analytics의 전자 상거래 보고서와 Adobe Analytics의 제품 보고서를 모두 사용하려면 사용자 정의된 구현 변경 사항이 필요합니다. 자세한 내용은 구성 요소 사용 안내서의 [제품](/help/components/c-variables/dimensionslist/reports-products.md) 차원을 참조하십시오.
+Google Analytics의 전자 상거래 보고서와 Adobe Analytics의 제품 보고서를 모두 사용하려면 사용자 정의된 구현 변경 사항이 필요합니다. 자세한 내용은 구성 요소 사용 안내서의 [제품](/help/components/dimensions/product.md) 차원을 참조하십시오.
 
 ## 다중 채널 단계 보고서
 
