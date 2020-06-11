@@ -3,7 +3,7 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 98%
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 | 날짜 | 설명 |
 |---|---|
-| 2020년 4월 28일 | [컨텐트 속도](/help/components/c-variables/c-metrics/metrics-content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
+| 2020년 4월 28일 | [컨텐트 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
 | 2020년 3월 12일 | [Experience Cloud에 세그먼트 게시](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)에 대한 업데이트를 추가했습니다. |
 | 2020년 3월 12일 | CDA 결합 지연에 대한 업데이트. |
 | 2020년 2월 27일 | [Adobe Analytics Labs](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/tech-previews/overview.html)에 대한 설명서를 추가했습니다. |
