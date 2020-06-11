@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
-translation-type: ht
-source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
+translation-type: tm+mt
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+workflow-type: tm+mt
+source-wordcount: '2458'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 * **AppMeasurement:** 데이터를 수집하여 Adobe로 전송하는 데 사용되는 코드 라이브러리. 구현 사용 안내서의 [홈 페이지](/help/implement/home.md)를 참조하십시오.
 * **ASI 슬롯:** 더 이상 존재하지 않습니다. 이전 버전의 Adobe Analytics에서 ASI 슬롯은 세그먼트화된 데이터를 보기 위한 임시 보고서 세트 컨테이너를 제공했습니다. 현재 Adobe Analytics 버전에서는 세그먼트를 모든 보고서에 즉시 적용할 수 있습니다.
 * **분류:** 다른 차원의 컨텍스트 내에서 차원을 볼 수 있습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
-* **바운스:** 단일 히트로 구성된 방문. 구성 요소 사용 안내서에서 [바운스 수](/help/components/c-variables/c-metrics/metrics-bounces.md)를 참조하십시오. 단일 액세스를 참조하십시오.
+* **바운스:** 단일 히트로 구성된 방문. 구성 요소 사용 안내서에서 [바운스 수](/help/components/metrics/bounces.md)를 참조하십시오. 단일 액세스를 참조하십시오.
 * **계산된 지표:** 보고에 사용할 기존 지표, 통계 함수 및 수식의 조합을 사용할 수 있습니다. 구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)를 참조하십시오.
 * **캠페인:** 다음을 의미할 수 있습니다.
    * 추적 코드 차원을 채우는 캠페인 변수. 구현 사용 안내서에서 [캠페인](../implement/vars/page-vars/campaign.md)을 참조하십시오.
@@ -35,7 +38,7 @@ source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 * **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 분석 사용 안내서에서 [집단 분석이란?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)을 참조하십시오.
 * **수집 서버:** 데이터 수집 서버를 참조하십시오.
 * **컨텍스트 데이터 변수:** 처리 규칙에만 사용되는 임시 변수입니다. 처리 규칙이 컨텍스트 데이터 변수 값을 전환 또는 트래픽 변수에 복사하지 않으면 이 값이 영구적으로 손실됩니다. 구현 사용 안내서에서 [컨텍스트 데이터 변수](../implement/vars/page-vars/contextdata.md)를 참조하십시오.
-* **전환 변수:** 흔히 eVar라고 합니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 사용 안내서에서 [전환 변수](/help/components/c-variables/dimensionslist/reports-conversion.md)를 참조하십시오.
+* **전환 변수:** eVar라고도 합니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 [사용자 안내서의 eVar](/help/components/dimensions/evar.md) 차원을 참조하십시오.
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **현재 데이터:** 아직 완전히 처리되지 않은, 최근 수집된 데이터를 포함할 수 있는 일부 보고서의 옵션입니다. 분석 사용 안내서에서 [현재 데이터](/help/analyze/reports-analytics/current-data.md)를 참조하십시오.
 * **사용자 지정 링크:** 페이지 보기 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl() 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
@@ -66,16 +69,16 @@ source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 * **지연:** 데이터가 수집되는 시간과 보고서에서 사용할 수 있는 시간 사이의 대기 시간입니다. 보고서 세트의 일반적인 지연 시간은 30~90분입니다. 기술 정보 사용 안내서에서 [지연](/help/technotes/latency.md)을 참조하십시오.
 * **Launch:** Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 약어입니다. Adobe Experience Platform Launch 사용 안내서의 [개요](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)를 참조하십시오.
 * **목록 속성:** 일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 이 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 속성이 될 수 있습니다. 구현 사용 안내서에서 [속성](../implement/vars/page-vars/prop.md)을 참조하십시오.
-* **목록 변수:** 전환 변수와 별도의 고유한 변수입니다. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 변수 값은 전환 변수와 마찬가지로 방문 시 보존됩니다. 조직에서는 목록 변수를 세 개만 사용할 수 있습니다. 구현 사용 안내서에서 [목록](../implement/vars/page-vars/list.md)을 참조하십시오.
+* **목록 변수:** 전환 변수와 별도의 고유한 변수입니다. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 변수 값은 전환 변수와 마찬가지로 방문 시 보존됩니다. 조직에서는 목록 변수를 세 개만 사용할 수 있습니다. 구현 사용 안내서에서 [목록](/help/implement/vars/page-vars/list.md)을 참조하십시오.
 * **로그인 회사:** 조직에서 사용한 보고서 세트들의 모음입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다.
 * **마케팅 채널:** 히트가 사이트에 도착한 방법별로 히트를 분류하는 Adobe Analytics의 기능입니다. 히트를 분류하는 데 사용되는 로직은 마케팅 채널 처리 규칙을 사용하여 사용자 지정할 수 있습니다. 구성 요소 사용 안내서에서 [마케팅 채널 시작하기](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오.
 * **지표:** 수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 수, 방문 횟수 및 매출과 같은 숫자가 포함됩니다. 차원은 일반적으로 차원 상대가 있습니다.
 * **다중 세트 태깅:** 동일한 히트를 여러 보고서 세트로 보내는 방법입니다. 가상 보고서 세트를 도입하면서 이 방법은 더 이상 필요하지 않습니다. 대부분의 다중 세트 태깅 작업은 전역 보고서 세트를 만드는 데 도움이 됩니다.
 * **표준화:** 모든 지표를 가져와 동일한 비율로 적용함으로써 트렌드를 보다 쉽게 비교할 수 있도록 시각화를 구성하는 방법입니다.
-* **발생 횟수:** 차원 값이 설정되거나 지속된 히트 수를 보여주는 지표 유형입니다. 구성 요소 사용 안내서에서 [발생 횟수](/help/components/c-variables/c-metrics/metrics-occurrences.md)를 참조하십시오.
+* **발생 횟수:** 차원 값이 설정되거나 지속된 히트 수를 보여주는 지표 유형입니다. 구성 요소 [사용자 안내서의 발생](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
 * **Omniture:** 더 이상 사용하지 않는 용어입니다. 2009년 Adobe가 인수하기 전에 Adobe Analytics를 소유한 조직입니다.
 * **경로 지정:** 흐름을 참조하십시오.
-* **페이지 보기:** 페이지 보기 수를 늘리는 히트 유형입니다. 구성 요소 사용 안내서에서 [페이지 보기 수](/help/components/c-variables/c-metrics/metrics-page-view.md)를 참조하십시오. 히트도 참조하십시오.
+* **페이지 보기:** 페이지 보기 수를 늘리는 히트 유형입니다. 구성 요소 [사용자 안내서의 페이지 보기](/help/components/metrics/page-views.md) 지표를 참조하십시오. 히트도 참조하십시오.
 * **지속성:** 변수 값과 개별 히트에서 발생하는 이벤트 간 연결을 허용하는 전환 변수에 대한 추상적인 개념입니다. 만료도 참조하십시오.
 * **주 서버 호출:** 대부분 다중 세트 태깅 및 청구 컨텍스트에서 사용되는 이미지 요청 또는 히트에 대한 대체 이름입니다. 동일한 히트가 여러 보고서 세트로 전송되면 첫 번째 보고서 세트가 주 서버 호출이고 나머지는 보조 서버 호출입니다. 이 규칙은 페이지 보기 및 링크 추적을 포함하여 모든 히트 유형에 적용됩니다. 보조 서버 호출도 참조하십시오.
 * **처리 규칙:** 다음을 의미할 수 있습니다.
@@ -96,16 +99,16 @@ source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 * **세그먼트 컨테이너:** 가져올 데이터의 양을 결정하는 세그먼트의 일부입니다. 컨테이너는 페이지 보기, 방문 또는 방문자를 기반으로 할 수 있습니다. 구성 요소 사용 안내서에서 [세그멘테이션](/help/components/c-segmentation/seg-overview.md)을 참조하십시오.
 * **일련화:**&#x200B;이벤트 일련화를 참조하십시오.
 * **서버 호출:** 주로 청구 컨텍스트에서 사용되는 이미지 요청 또는 히트에 대한 대체 이름입니다.
-* **단일 액세스:** 차원에 하나의 고유 값만 있는 방문입니다. 여러 개의 고유 값이 없는 한 방문에 여러 개의 히트가 있을 수 있습니다. 구성 요소 사용 안내서에서 [단일 액세스](/help/components/c-variables/c-metrics/metrics-single-access.md)를 참조하십시오. 바운스도 참조하십시오.
+* **단일 액세스:** 차원에 하나의 고유 값만 있는 방문입니다. 여러 개의 고유 값이 없는 한 방문에 여러 개의 히트가 있을 수 있습니다. 구성 요소 [사용자 안내서의 단일 액세스](/help/components/metrics/single-access.md) 지표를 참조하십시오. 바운스도 참조하십시오.
 * **SiteCatalyst:** 더 이상 사용하지 않는 용어입니다. Adobe Analytics의 이전 제품 이름입니다.
 * **솔루션 디자인 문서:** 솔루션 디자인 참조 또는 SDR이라고도 합니다. 조직에서 유지 관리하는 내부 문서로, 사용자 지정 변수의 사용 방법과 이 변수를 채우는 데 사용된 로직에 대해 대략적으로 설명합니다. 구현 사용 안내서에서 [솔루션 디자인 문서 만들기](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * **하위 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 하위 관계는 전환 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
-* **성공 이벤트:** 사용자가 수행한 추적 작업입니다. 조직은 추적할 이벤트와 이를 추적하는 데 사용하는 성공 이벤트 변수를 결정합니다. 구성 요소 사용 안내서에서 [사용자 지정 이벤트](/help/components/c-variables/c-metrics/metrics-custom.md)를 참조하십시오.
+* **성공 이벤트:** 사용자가 수행한 추적 작업입니다. 조직은 추적할 이벤트와 이를 추적하는 데 사용하는 성공 이벤트 변수를 결정합니다. 구성 요소 사용 안내서에서 [사용자 지정 이벤트](/help/components/metrics/custom-events.md)를 참조하십시오.
 * **지원되는 사용자:** 고객 지원 담당자를 참조하십시오.
-* **트래픽 변수:** 흔히 속성(property)이라고 합니다. 단일 히트에 대한 사용자 지정 값을 저장합니다. 이전 버전의 Adobe Analytics에서는 속성(property)에 고유한 값을 제공했지만, 플랫폼 개선 사항으로 사용자 지정 트래픽 변수가 필요하지 않게 되었습니다. 대부분의 경우 사용자 지정 전환 변수(eVar)를 사용하는 것이 좋습니다. 구성 요소 사용 안내서에서 [사용자 지정 트래픽 변수](/help/components/c-variables/dimensionslist/reports-custom-traffic.md)를 참조하십시오.
+* **트래픽 변수:** prop이라고도 합니다. 단일 히트에 대한 사용자 지정 값을 저장합니다. 이전 버전의 Adobe Analytics에서는 속성(property)에 고유한 값을 제공했지만, 플랫폼 개선 사항으로 사용자 지정 트래픽 변수가 필요하지 않게 되었습니다. 대부분의 경우 사용자 지정 전환 변수(eVar)를 사용하는 것이 좋습니다. 구성 요소 [사용자 안내서의](/help/components/dimensions/prop.md) Prop 차원을 참조하십시오.
 * **트렌드 보고서:** 일반적으로 지표가 있는 여러 날짜 범위를 표시하는 보고서 형식입니다. 이 유형의 보고서에서는 시간이 지남에 따라 지표가 수행되는 방식을 볼 수 있습니다. 등급 보고서도 참조하십시오.
-* **고유 방문자:** 사이트를 방문한 고유한 개인 수를 나타냅니다. 한 고유 방문자가 여러 번의 방문 횟수를 가질 수 있습니다. 구성 요소 사용 안내서에서 [고유 방문자](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)를 참조하십시오.
+* **고유 방문자:** 사이트를 방문한 고유한 개인 수를 나타냅니다. 한 고유 방문자가 여러 번의 방문 횟수를 가질 수 있습니다. See the [Unique visitors](/help/components/metrics/unique-visitors.md) metric in the Components user guide.
 * **가상 보고서 세트:** 일반 보고서 세트를 참조하고 데이터를 구체화할 수 있는 데이터의 가상 컨테이너입니다. 데이터는 가상 보고서 세트로 전송되지 않습니다. 대신 데이터는 일반 보고서 세트로 전송되고 가상 보고서 세트는 수집된 해당 데이터를 기반으로 만들어집니다. 구성 요소 사용 안내서의 [가상 보고서 세트](/help/components/vrs/vrs-about.md)를 참조하십시오.
-* **방문:** 사이트에서 발생한 고유 세션 수를 나타냅니다. 구성 요소 사용 안내서에서 [방문 횟수](/help/components/c-variables/c-metrics/metrics-visit.md)를 참조하십시오.
+* **방문:** 사이트에서 발생한 고유 세션 수를 나타냅니다. See the [Visits](/help/components/metrics/visits.md) metric in the Components user guide.
 * **VISTA 규칙:**&#x200B;데이터 서버측 복사, 구문 분석 또는 필터링에 대한 고객의 요청에 대해 Adobe가 만든 사용자 지정 로직입니다. VISTA 규칙은 일반적으로 추가 비용을 발생시킵니다. 처리 규칙도 참조하십시오.
 * **웹 비콘:** 이미지 요청을 참조하십시오.
