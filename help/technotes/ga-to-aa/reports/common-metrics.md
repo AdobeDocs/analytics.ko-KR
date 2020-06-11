@@ -2,7 +2,10 @@
 title: 다른 플랫폼 전환 안내서에서 자주 사용되는 지표
 description: Google Analytics 사용자에게 더 익숙한 용어를 사용하여 여러 일반 보고서의 지표 데이터를 가져오는 방법을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Google Analytics와 같은 다른 플랫폼에서는 많은 보고서가 공통 
 
 ## 고객 확보 지표
 
-**사용자**&#x200B;는 Workspace의 **고유 방문자 수**&#x200B;와 거의 같습니다. 자세한 내용은 구성 요소 사용 안내서의 [고유 방문자 수](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) 지표를 참조하십시오.
+**사용자**&#x200B;는 Workspace의 **고유 방문자 수**&#x200B;와 거의 같습니다. 자세한 내용은 구성 요소 사용 안내서의 [고유 방문자 수](/help/components/metrics/unique-visitors.md) 지표를 참조하십시오.
 
 **새 사용자**&#x200B;는 다음과 같은 방법으로 얻을 수 있습니다.
 
@@ -26,13 +29,13 @@ Google Analytics와 같은 다른 플랫폼에서는 많은 보고서가 공통 
 
    ![최초 방문](../assets/first_time_visits.png)
 
-**세션**&#x200B;은 Analysis Workspace의 **방문 횟수**&#x200B;와 거의 같습니다. 자세한 내용은 구성 요소 사용 안내서의 [방문 횟수](/help/components/c-variables/c-metrics/metrics-visit.md) 지표를 참조하십시오.
+**세션**&#x200B;은 Analysis Workspace의 **방문 횟수**&#x200B;와 거의 같습니다. 자세한 내용은 구성 요소 사용 안내서의 [방문 횟수](/help/components/metrics/visits.md) 지표를 참조하십시오.
 
 ![고객 확보 지표](../assets/acquisition_metrics.png)
 
 ## 동작 지표
 
-**바운스 비율**&#x200B;은 Analysis Workspace에서 지표로 사용할 수 있습니다. 자세한 내용은 구성 요소 사용 안내서의 [바운스 비율](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) 지표를 참조하십시오.
+**바운스 비율**&#x200B;은 Analysis Workspace에서 지표로 사용할 수 있습니다. 자세한 내용은 구성 요소 사용 안내서의 [바운스 비율](/help/components/metrics/bounce-rate.md) 지표를 참조하십시오.
 
 **페이지/세션**&#x200B;은 계산된 지표입니다. 다음 방법으로 가져올 수 있습니다.
 
@@ -48,9 +51,9 @@ Google Analytics와 같은 다른 플랫폼에서는 많은 보고서가 공통 
 7. 저장을 클릭하여 작업 공간으로 돌아갑니다.
 8. 새로 정의된 계산된 지표를 작업 공간으로 끌어서 놓습니다.
 
-   구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-variables/c-metrics/calculated-metric.md)에 대해 자세히 알아보십시오.
+   구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)에 대해 자세히 알아보십시오.
 
-**평균 세션 기간**&#x200B;은 **방문당 체류 시간(초)**&#x200B;과 거의 같습니다. 구성 요소 사용 안내서에서 [체류 시간](/help/components/c-variables/c-metrics/metrics-time-spent.md) 지표에 대해 자세히 알아보십시오.
+**평균 세션 기간**&#x200B;은 **방문당 체류 시간(초)**&#x200B;과 거의 같습니다. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## 전환 지표
 
