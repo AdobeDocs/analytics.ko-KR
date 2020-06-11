@@ -3,7 +3,10 @@ description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, �
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 열 설정 {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+[!UICONTROL 열 설정]에 액세스하려면 자유 형식 테이블을 프로젝트로 드래그한 다음 열 제목에서 톱니바퀴 아이콘을 클릭합니다.
 
 ![](assets/column_settings.png)
 
@@ -46,6 +49,19 @@ To access [!UICONTROL Column Settings], drag a Freeform Table to the project, th
 | 자동 생성 | 조건부 서식에 대한 제한을 자동으로 생성합니다. 상한은 이 열에서 가장 큰 값입니다. 하한은 가장 낮은 값이며, 중간점은 상한과 하한의 평균입니다. |
 | 사용자 지정 | 조건부 서식에 대해 상한, 중간점 및 하한 필드 값을 수동으로 할당할 수 있습니다. 이렇게 하면 열 값이 양호, 평균 또는 나쁨일 때를 유연하게 확인할 수 있습니다. |
 | 테이블 셀 미리 보기 | 각 셀이 현재 선택된 서식 선택 사항이 적용되면 어떻게 나타나는지 미리 보기를 표시합니다. |
+
+## 비기본 속성 모델 사용
+
+분석 작업 공간은 거의 모든 지표에 [대한](../../attribution/overview.md) 속성을 지원합니다.
+
+1. 자유 형식 테이블 열 옆의 [설정] (기어) 아이콘을 클릭합니다.
+
+   ![속성 확인란](assets/attribution-checkbox.png)
+
+2. **[!UICONTROL 데이터 설정]**&#x200B;에서 **[!UICONTROL 기본값이 아닌 기여도 분석 모델 사용]**&#x200B;을 선택합니다. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![속성 모델 선택](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
