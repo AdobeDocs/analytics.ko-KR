@@ -4,8 +4,11 @@ keywords: eVar
 title: 전환 변수(eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1579'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +91,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>머천다이징이 <span class="uicontrol">전환 변수 구문</span>으로 설정된 경우, 선택한 이벤트는 현재 eVar 값을 제품에 바인딩합니다. </p> <p>바인딩 이벤트를 사용하려면 <span class="uicontrol">할당을 가장 최근</span>으로 설정합니다. <span class="uicontrol">할당이 원래 값</span>인 경우 첫 번째 eVar 제품 바인딩은 eVar가 만료될 때까지 유지됩니다. </p> </td> 
+   <td colname="col2"> <p>머천다이징이 <span class="uicontrol">전환 변수 구문</span>으로 설정된 경우, 선택한 이벤트는 현재 eVar 값을 제품에 바인딩합니다. </p> <p>바인딩 이벤트를 사용하려면 <span class="uicontrol">할당을 가장 최근</span>으로 설정합니다. <span class="uicontrol">할당이 원래 값</span>인 경우 첫 번째 eVar 제품 바인딩은 eVar가 만료될 때까지 유지됩니다. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. "전환 변수 구문"이 선택된 경우에만 이벤트를 선택할 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
