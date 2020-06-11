@@ -2,7 +2,10 @@
 title: Adobe Analytics의 고객 확보 보고서
 description: Analysis Workspace를 사용하여 고객 확보 기반 보고서를 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ Adobe Analytics에서는 이러한 보고서를 **마케팅 채널**&#x200B;이�
 
 각 차원에 대한 자세한 내용은 구성 요소 사용 안내서의 다음 페이지를 참조하십시오.
 
-* [참조 도메인](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [레퍼러 유형](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [검색 키워드](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [참조 도메인](/help/components/dimensions/referring-domain.md)
+* [레퍼러 유형](/help/components/dimensions/referrer-type.md)
+* [검색 키워드](/help/components/dimensions/search-keyword.md)
 
 ## 모든 트래픽 - 참조
 
@@ -65,7 +68,7 @@ Adobe Analytics에서는 이러한 보고서를 **마케팅 채널**&#x200B;이�
 1. 구성 요소 메뉴에서 **참조 도메인** 또는 **시작 페이지** 차원을 찾아 &#39;여기에 차원 놓기&#39;라는 큰 자유 형식 테이블 영역으로 끌어서 놓습니다.
 2. 원하는 지표를 자동으로 생성된 **발생 횟수** 지표와 함께 작업 공간으로 끌어서 놓습니다. 각 지표를 얻는 방법에 대한 자세한 내용은 [지표 변환 안내서](common-metrics.md)를 참조하십시오.
 
-자세한 내용은 구성 요소 사용 안내서의 [참조 도메인](/help/components/c-variables/dimensionslist/reports-referring-domains.md) 차원을 참조하십시오.
+자세한 내용은 구성 요소 사용 안내서의 [참조 도메인](/help/components/dimensions/referring-domain.md) 차원을 참조하십시오.
 
 ## Google 광고 보고서 및 검색 콘솔 보고서
 
