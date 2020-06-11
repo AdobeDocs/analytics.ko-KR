@@ -4,7 +4,10 @@ title: 지표
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)는 지표를 결합하여 만들어집니다.
 
-자세한 내용은 [지표 개요](/help/components/c-variables/c-metrics/metricslist.md)를 참조하십시오.
+전체 지표 목록은 구성 요소 사용자 안내서의 [지표 개요를](/help/components/metrics/overview.md) 참조하십시오.
 
 ## 기본 보고서 지표 선택
 
@@ -35,12 +38,12 @@ t_metrics_set_default.xml
 
 1. 보고서 실행.
 1. 기본 지표로 저장할 지표를 추가합니다.
-1. 드롭다운 **[!UICONTROL Add Metrics]** 목록을 클릭한 다음 **[!UICONTROL Set as Default]**&#x200B;선택합니다.
+1. **[!UICONTROL 지표 추가]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL 기본값으로 설정]**&#x200B;을 선택합니다.
 
    선택한 지표가 이 보고서의 기본값으로 저장됩니다. 다음 정보가 기본 지표에 적용됩니다.
 
 * 기본 지표는 모든 사용자 계정에서 적용되지만 보고서 및 보고서 세트별로 적용됩니다. 예를 들어 같은 보고서 세트의 특정 보고서를 보는 모든 사용자는 이전 절차를 사용하는 지표 집합을 표시합니다.
-* 보고서 간에 이동하는 경우 최근에 본 보고서에 표시된 지표가 지속됩니다. To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
+* 보고서 간에 이동하는 경우 최근에 본 보고서에 표시된 지표가 지속됩니다. 새 보고서에서 기본 지표를 표시하려면 [!UICONTROL 지표 추가] 드롭다운 목록을 클릭한 다음 [!UICONTROL 기본값 표시]를 클릭합니다.
 
-* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
+* [!UICONTROL 기본값 지우기]를 클릭하면 해당 보고서에 대한 기본 지표를 제거하고 이 보고서에 대한 원래 기본 지표로 되돌립니다(prop에 대한 [!UICONTROL 페이지 보기 횟수] 및 eVar에 대해 관리 도구에서 설정한 모든 항목).
 
