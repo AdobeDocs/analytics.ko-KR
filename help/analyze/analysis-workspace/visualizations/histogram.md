@@ -3,7 +3,10 @@ description: '히스토그램은 Analysis Workspace의 새로운 시각화 유�
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 97%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 히스토그램을 만드는 방법:
 
-1. Click **[!UICONTROL Visualizations]** in the left rail.
-1. Drag **[!UICONTROL Histogram]** to the panel.
-1. Choose a Metric to drag to the Histogram visualization and click **[!UICONTROL Build]**.
+1. 왼쪽 레일에서 **[!UICONTROL 시각화]**&#x200B;를 클릭합니다. 
+1. **[!UICONTROL 히스토그램]**&#x200B;을 패널로 드래그합니다. 
+1. 히스토그램 시각화로 드래그할 지표를 선택하고 **[!UICONTROL 작성]**&#x200B;을 클릭합니다.
 
 ![](assets/histogram.png)
 
@@ -37,7 +40,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨).  |
 | 지표 버킷 | 데이터 범위(버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
 | 지표 버킷 크기 | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다.  |
-| 계산 방법 | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
+| 계산 방법 | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -48,11 +51,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 히스토그램 데이터 보기 및 편집 {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-To view or change the data source for the histogram chart, click the dot next to the Histogram header to go to **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
+히스토그램 차트에 대한 데이터 소스를 보거나 변경하려면, 히스토그램 헤더의 옆에 있는 점을 클릭하여 **[!UICONTROL 데이터 소스 설정]** > **[!UICONTROL 데이터 소스 표시]**&#x200B;로 이동합니다. 
 
 ![](assets/manage-data-source.png)
 
-표에 표시되는 사전에 작성된 세그먼트는 내부 세그먼트이며, 세그먼트 선택기에 나타나지 않습니다. Click the &quot;i&quot; icon next to the segment name, then click **[!UICONTROL Make public]** to make the segment public.
+표에 표시되는 사전에 작성된 세그먼트는 내부 세그먼트이며, 세그먼트 선택기에 나타나지 않습니다. 세그먼트 이름의 옆에 있는 &quot;i&quot; 아이콘을 클릭한 다음, **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 세그먼트를 공개로 만듭니다.
 
 ![](assets/prebuilt_segments.png)
 
