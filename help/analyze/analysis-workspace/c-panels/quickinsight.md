@@ -2,10 +2,10 @@
 description: 빠른 통찰력은 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 5%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL 빠른 인사이트]** 패널은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
 
-[!UICONTROL 빠른 통찰력] 은 분석 작업 공간의 비분석가 및 새로운 사용자가 비즈니스 질문에 빠르고 손쉽게 대답하는 방법을  배울 수 있도록 도움을 줍니다. 또한 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
+[!UICONTROL Quick Insights]는 [!UICONTROL Analysis Workspace]의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. 또한 표 자체를 만들지 않고도 간단한 질문에 신속하게 답변하고자 하는 고급 사용자에게는 탁월한 툴입니다.
 
 이 [!UICONTROL 분석 작업 공간]사용을 처음 시작할 때 어떤 시각화가 가장 유용한지, 어떤 차원과 지표를 통해 통찰력을 얻을 수 있는지, 항목을 드래그 앤 드롭할 위치, 세그먼트를 만들 위치 등이 궁금해질 수 있습니다.
 
-이를 돕기 위해 [!UICONTROL 분석 작업 공간에서]자체 회사의 데이터 구성 요소 사용을 기반으로 [!UICONTROL 빠른 통찰력은] 회사에서 사용하는 가장 인기 있는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다.
+이를 돕기 위해 [!UICONTROL 분석 작업 공간에서]자체 회사의 데이터 구성 요소 사용을 기반으로 [!UICONTROL 빠른 통찰력은] 회사에서 사용하는 가장 인기 있는 차원, 지표, 세그먼트 및 날짜 범위를 제공하는 알고리즘을 활용합니다. 실제로 다음과 같이 자주 사용됨으로 태그가 지정된 차원, 지표 및 [!UICONTROL 세그먼트를] 드롭다운 목록에 볼 수 있습니다.
+
+![](assets/popular-tag.png)
 
 [!UICONTROL 빠른 인사이트를] 통해
 
