@@ -3,17 +3,17 @@ description: 작업 공간의 프로젝트 공유 및 프로젝트 역할
 keywords: Analysis Workspace sharing
 title: 작업 공간 프로젝트 공유
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 9%
 
 ---
 
 
 # 작업 공간 프로젝트 공유
 
-공유하면 조직의 다른 분석 작업 공간 사용자가 프로젝트를 사용할 수 있게 됩니다. 수행한 조정 작업은 받는 사람이 프로젝트를 열면 반영됩니다.
+공유하면 조직의 다른 분석 작업 공간 사용자가 프로젝트를 사용할 수 있게 됩니다. 적용한 모든 [조정](curate.md) 기능은 받는 사람이 프로젝트를 열 때 반영됩니다.
 
 ## 프로젝트 역할
 
@@ -28,15 +28,15 @@ ht-degree: 8%
 | 복제 가능 | 수신자는 다른 이름으로 저장을 할 수 있고 왼쪽 레일에 액세스할 수 있습니다. 상호 작용이 제한되지 않습니다.<br>이 역할은 조직의 데이터를 이해하고 분석 작업 공간을 사용하는 방법을 알고 있지만 저장된 프로젝트를 변경하지 않으려는 사용자에게 프로젝트를 공유하려는 경우에 유용합니다. |
 | 보기 가능 | 받는 사람은 다른 이름으로 저장할 수 없으며 왼쪽 레일에 액세스할 수 없습니다. 상호 작용도 제한됩니다.<br>이 역할은 일반적으로 조직의 데이터 구조, 분석 작업 공간 또는 Adobe Analytics에 익숙하지 않은 사용자에게 프로젝트를 공유하려는 경우에 유용합니다. 그러나 안전한 환경에서 데이터와 통찰력을 소비해야 합니다.<br>프로젝트 경험 [을 볼 수 있음에 대해 자세히 알아보십시오](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
-**할당된 역할 없음**
+### 할당된 역할 없음
 
 받는 사람에게 역할이 할당되지 않고 프로젝트에 대한 링크([!UICONTROL 공유][!UICONTROL > 프로젝트]가져오기 링크 [!UICONTROL )를 받는 경우] &quot;볼 수있는&quot; 역할에 기본적으로 배치됩니다.
 
-**여러 역할 할당**
+### 여러 역할 할당
 
 받는 사람이 여러 역할에 배치되면 항상 가장 높은 제어력을 받게 됩니다. 이는 사용자가 개별 및 그룹의 일부로 모두 추가되는 경우에 발생할 수 있습니다. 예를 들어 사용자 1에 편집 가능 및 [!UICONTROL &quot;볼 수] &quot; 역할이 주어지면  프로젝트에 대한 &quot;편집 가능&quot;컨트롤이 부여됩니다.
 
-**관리자 및 역할**
+### 관리자 및 역할
 
 &quot;복제 [!UICONTROL가능&quot;][!UICONTROL 또는] &quot;볼 수있음&quot;에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 원하는 경우 관리자는 구성 요소 [!UICONTROL > 프로젝트] 를 통해 [!UICONTROL 언제든지 자신의 역할을] &quot;편집 가능&quot;으로 [!UICONTROL 늘릴 수]있습니다.
 
@@ -76,7 +76,3 @@ ht-degree: 8%
    * 프로젝트 A: 1, 2, 3, 4, 7
    * 프로젝트 B: 4, 5, 6, 7
    ![](assets/mult-proj-sharing.png)
-
-## 프로젝트 예약
-
-또한 [ [!UICONTROL 공유] ] 메뉴에서 [지금 [!UICONTROL 으로 파일 보내기] 또는 [일정에 따라] 파일 [!UICONTROL 보내기]로 프로젝트를 예약할 수]있습니다. 배달된 파일의 형식은 PDF 또는 CSV일 수 있습니다. 프로젝트 예약에 대한 자세한 [내용을 살펴보십시오](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
