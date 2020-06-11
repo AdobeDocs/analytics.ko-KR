@@ -2,8 +2,11 @@
 description: Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 title: Ad Hoc Analysis와 비교한 Analysis Workspace
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -100,7 +103,7 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
   </tr> 
   <tr> 
    <td colname="col1"> <p>기여도 분석 IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution-iq.md"  >기여도 분석 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 기여도 분석 모델 유형을 추가할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >기여도 분석 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 기여도 분석 모델 유형을 추가할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>포함되지 않음 </p> </td> 
