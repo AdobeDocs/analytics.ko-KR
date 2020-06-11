@@ -1,8 +1,11 @@
 ---
 title: visitorID
 description: 사용자 지정 방문자 ID를 사용합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
@@ -33,3 +36,5 @@ Adobe에서는 여러 메서드를 사용하여 사이트의 방문자를 식별
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] 사용자 지정 방문자 ID의 구현이 잘못되면 데이터가 잘못되고 보고 성능이 저하될 수 있습니다. 이 변수에 기본값(예: `"0"` 또는 `"NULL"`)이 포함된 경우 Adobe는 이러한 히트를 동일한 방문자로 취급합니다. 이 경우 방문자 수가 적고 방문자 수준 세그먼트가 예상대로 작동하지 않아 데이터가 잘못됩니다. 사용자 지정 방문자 ID를 잘못 구현하여 처리 서버에서 무거운 로드가 발생하고 [지연이](/help/technotes/latency.md) 증가하고 보고서 성능이 저하됩니다.
