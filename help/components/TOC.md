@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 75%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 75%
    + [첫 번째 터치 채널](dimensions/first-touch-channel.md)
    + [첫 번째 터치 채널 세부 사항](dimensions/first-touch-detail.md)
    + [히트 깊이](dimensions/hit-depth.md)
+   + [히트 유형](dimensions/hit-type.md)
    + [하루 중 시간](dimensions/hour-of-day.md)
    + [시간](dimensions/hour.md)
    + [Java 활성화](dimensions/java-enabled.md)
