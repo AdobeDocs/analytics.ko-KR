@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 92%
+source-wordcount: '443'
+ht-degree: 98%
 
 ---
 
@@ -60,19 +60,20 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [다이내믹 변수](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar(머천다이징)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [이벤트 개요](vars/page-vars/events/events-overview.md)
          + [구매 이벤트](vars/page-vars/events/event-purchase.md)
          + [이벤트 직렬화](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
-      + [목록에 있는 참조 페이지를 나타냅니다](vars/page-vars/list.md)
+      + [list](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageUrl](vars/page-vars/pageurl.md)
       + [products](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
-      + [레퍼러](vars/page-vars/referrer.md)
+      + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
       + [state](vars/page-vars/state.md)
@@ -154,7 +155,7 @@ ht-degree: 92%
    + [개발 환경에 배포](launch/deploy-dev.md)
    + [유효성 검사 및 프로덕션에 게시](launch/validate-publish-prod.md)
    + [데이터 레이어 개체를 데이터 요소에 매핑](launch/layer-to-elements.md)
-   + [Analytics 변수에 론치 데이터 요소 매핑](launch/elements-to-variable.md)
+   + [Analytics 변수에 Launch 데이터 요소 매핑](launch/elements-to-variable.md)
 + 다른 플랫폼에서 Analytics 구현 {#other}
    + [하드코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
    + DTM을 사용하여 Analytics 구현 {#dtm}
@@ -201,5 +202,5 @@ ht-degree: 92%
    + [해시 충돌](validate/hash-collisions.md)
 + [FAQ](faq.md)
 + Analytics에서 XDM 데이터 사용 {#aep-edge}
-   + [AEP 웹 SDK 사용](aep-edge/xdmoverview.md)
-   + [XDM 데이터를 Analytics에 수동으로 매핑](aep-edge/xdm-manual.md)
+   + [AEP Web SDK 사용](aep-edge/xdmoverview.md)
+   + [XDM 데이터를 수동으로 Analytics에 매핑](aep-edge/xdm-manual.md)
