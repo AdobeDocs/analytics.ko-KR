@@ -35,12 +35,14 @@ ht-degree: 100%
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics 보고 API
+
    이 옵션을 선택하면 &quot;제외된 구성 요소&quot; 열의 해당 구성 요소를 &quot;포함된 구성 요소&quot; 열로 드래그하여 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함하거나 제외할 수 있는 구성 요소는 다음과 같습니다.
 
    * 차원
    * 지표
    * 세그먼트
    * 데이터 범위
+
    >[!NOTE]
    >
    >조정된 구성 요소(세그먼트, 계산된 지표, 날짜 범위)를 더 이상 *공유*&#x200B;하지 않아도 됩니다. 이러한 구성 요소가 공유되지 않아도 가상 보고서 세트에 대해 조정된 경우 항상 Analysis Workspace에 표시됩니다.
