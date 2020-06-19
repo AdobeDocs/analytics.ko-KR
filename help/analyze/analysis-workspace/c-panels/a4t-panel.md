@@ -2,10 +2,10 @@
 description: Target(A4T)용 Analytics 패널을 사용하면 Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다.
 title: Target(A4T) 패널의 Analytics
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 �
 | 질문 | 답변 |
 |---|---|
 | A4T에서 지원되는 활동 유형은 무엇입니까? | [지원되는 활동 유형에 대해 자세히](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) 알아보십시오. |
-| A4T 보고에서 계산된 지표가 지원됩니까? | 아니요. [계산된 지표가 지원되지 않는 이유에 대해 자세히](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 알아보십시오. |
+| 상승도 및 신뢰도 계산에서 계산된 지표가 지원됩니까? | 아니요. [향상도 및 신뢰도에서 계산된 지표가 지원되지 않는 이유에 대해 자세히](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 알아보십시오. 하지만 계산된 지표는 이러한 지표 외부의 A4T 보고에서 사용할 수 있습니다. |
 | Target과 Analytics 간에 고유 방문자가 다른 이유는 무엇입니까? | [제품 간 고유 방문자 차이에 대해 자세히](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) 알아보십시오. |
 | 내 분석에서 특정 Target 활동에 대해 히트 세그먼트를 적용하면 반환된 관련 없는 경험이 왜 표시됩니까? | A4T 차원은 목록 변수입니다. 이는 한 번에 많은 활동(및 경험)을 포함할 수 있음을 의미합니다. [추가 정보](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 신뢰도 지표는 예외적인 주문을 고려합니까? 또는 여러 오퍼에 대해 Bonferroni 수정을 적용합니까? | 아니요. [Analytics이 신뢰도를 계산하는 방법에 대해 자세히](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 알아보십시오. |
 
 Target 보고를 위한 Analytics에 대한 자세한 내용은 [A4T 보고를 참조하십시오.](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
