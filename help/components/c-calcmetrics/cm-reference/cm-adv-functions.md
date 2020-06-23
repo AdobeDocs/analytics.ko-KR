@@ -3,7 +3,7 @@ description: 함수 드롭다운 목록에서 고급 표시를 선택하여 이 
 title: 참조  고급 함수
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *차원* | 근사 고유 항목 개수를 위한 차원입니다. |
 
-## 사용 사례 예제 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### 사용 사례 예제 {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 근사 고유 개수(고객 ID eVar)는 이 기능의 일반적인 사용 사례입니다.
 
@@ -66,11 +66,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-## 고유 수 초과됨 {#section_9C583858A9F94FF7BA054D1043194BAA}
+### 고유 수 초과됨 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Count() 및 RowCount()와 마찬가지로 근사 고유 개수()는 [&quot;고유 수 초과&quot; 한도](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/low-traffic.html)에 속합니다. 특정 차원의 특정 월에 &quot;고유 수 초과&quot; 한도에 도달하면 이 값은 1개의 차원 항목으로 집계됩니다.
 
-## 계수 함수 비교 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### 계수 함수 비교 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 근사 고유 개수()는 생성된 지표를 어떤 차원 보고서에서나 사용하여 개별 차원에 대한 대략적인 항목 수를 렌더링하므로 Count() 및 RowCount() 함수보다 향상되었습니다. 예를 들어 모바일 장치 유형 보고서에 사용된 고객 ID의 수입니다.
 
