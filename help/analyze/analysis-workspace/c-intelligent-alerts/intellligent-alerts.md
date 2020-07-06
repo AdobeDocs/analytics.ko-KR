@@ -2,8 +2,11 @@
 description: 새로운 지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 title: 지능형 경고 개요
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -25,19 +28,21 @@ Analysis Workspace의 새로운 경고 빌더와 경고 관리자는 Reports &am
 
 경고 빌더를 여는 방법에는 네 가지가 있습니다. 
 
-* 경고 빌더로 직접 이동  **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
-* Workspace에서 키보드 단축키 사용: `Ctrl + Shift + A`(Windows) 또는 `Cmd + Shift + A`(Mac)
-* 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL Create Alert from Selection]** 선택. 이렇게 하면 경고 빌더가 열리고 테이블에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
+* 경고 빌더로 직접 이동: **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**
+* Workspace에서 키보드 단축키 사용: `Ctrl + Shift + A` (Windows) 또는 `Cmd + Shift + A` (Mac)
+* 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기]** 선택. 이렇게 하면 경고 빌더가 열리고 테이블에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
 
    ![선택 항목으로 경고 만들기](assets/create-alert-from-selection.png)
 
-* Reports &amp; Analytics 내에서 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**&#x200B;로 이동합니다. 이렇게 하면 경고 빌더가 열리고 보고서에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
+* Reports &amp; Analytics 보고서에서, **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동. 이렇게 하면 경고 빌더가 열리고 보고서에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
 
    ![경고 추가](assets/add-alert.png)
 
 퍼센트 임계값은 표준 편차입니다. 예를 들어, 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준(norm)에서 얼마나 떨어져 있는지(표준 편차 수) 계산합니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99.75%)을 설정하는 경우보다 많은 예외 항목이 생깁니다.
 
->[!IMPORTANT] 경고를 생성하는 타임스탬프가 지정된 데이터를 사용하면 경고가 잘못 표시될 수 있습니다. 지능형 경고에는 타임스탬프가 지정되지 않은 데이터를 사용하는 것이 좋습니다.
+>[!IMPORTANT]
+>
+> 경고를 생성하는 타임스탬프가 지정된 데이터를 사용하면 경고가 잘못 표시될 수 있습니다. 지능형 경고에는 타임스탬프가 지정되지 않은 데이터를 사용하는 것이 좋습니다.
 
 ## 경고 예외 항목 살펴보기
 
