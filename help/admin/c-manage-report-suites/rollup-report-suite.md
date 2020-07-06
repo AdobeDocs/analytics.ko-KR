@@ -3,8 +3,11 @@ description: 롤업 보고서 세트는 여러 하위 보고서 세트에서 데
 title: 롤업 및 글로벌 보고서 세트
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **보조 서버 호출**: 롤업은 단일 보고서 세트에서 수집하는 것 이외에 추가적인 서버 호출을 발생시키지 않습니다. 조직에서 다중 세트 태깅을 사용하는 경우 이미지 요청에 포함된 각 추가 보고서 세트에 대해 보조 서버 호출이 수행됩니다.
 
->[!TIP] [가상 보고서 세트](../../components/vrs/vrs-considerations.md)와 함께 글로벌 보고서 세트만 사용하면 보조 서버 호출이 필요하지 않습니다.
+>[!TIP]
+>
+>[가상 보고서 세트](../../components/vrs/vrs-considerations.md)와 함께 글로벌 보고서 세트만 사용하면 보조 서버 호출이 필요하지 않습니다.
 
 **구현 변경**: 롤업은 구현 변경이 필요하지 않지만 글로벌 보고서 세트는 구현에 글로벌 보고서 세트 ID를 포함할 것을 요구합니다.
 
