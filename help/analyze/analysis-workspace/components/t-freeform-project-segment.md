@@ -2,8 +2,11 @@
 description: 'null'
 title: 세그먼트
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -32,12 +35,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] 이러한 방식으로 생성된 세그먼트는 프로젝트 내부에서 사용됩니다.
+>[!NOTE]
+>
+>이러한 방식으로 생성된 세그먼트는 프로젝트 내부에서 사용됩니다.
 
 다음 단계를 수행하여 이러한 세그먼트를 공개(전역)로 지정하도록 선택할 수 있습니다.
 
 1. 드롭 영역의 세그먼트 위에 커서를 놓고 &quot;i&quot; 아이콘을 클릭합니다.
-1. 표시되는 정보 패널에서 **[!UICONTROL Make public]**&#x200B;를 클릭합니다 .
+1. 표시되는 정보 패널에서 **[!UICONTROL 공개하기를 클릭합니다]**.
 
    ![](assets/segment-info.png)
 
