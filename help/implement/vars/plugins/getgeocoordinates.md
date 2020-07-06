@@ -1,15 +1,20 @@
 ---
 title: getGeoCoordinates
 description: 방문자의 geoLocation을 추적합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 플러그인: getGeoCoordinates
 
->[!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getGeoCoordinates` 플러그인을 사용하면 방문자 장치의 위도와 경도를 캡처할 수 있습니다. Analytics 변수에서 지리적 위치 데이터를 캡처하려면 이 플러그인을 사용하는 것이 좋습니다.
 
@@ -59,7 +64,9 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 * `"error retrieving geo coordinates"`: 장치의 위치를 검색하려고 할 때 플러그인에 오류가 발생하는 경우.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: 여기서 [LATITUDE]/[LONGITUDE]는 각각 위도와 경도입니다.
 
->[!NOTE] 좌표 값은 가장 가까운 소수 넷째 자리로 반올림됩니다. 예를 들어 `"40.438635333"`이라는 값은 캡처할 고유 값들의 개수를 제한하기 위해 `"40.4386"`으로 반올림됩니다. 이러한 값은 약 20피트 내에서 장치의 정확한 위치를 찾아낼 수 있을 만큼 가깝습니다.
+>[!NOTE]
+>
+>좌표 값은 가장 가까운 소수 넷째 자리로 반올림됩니다. 예를 들어 `"40.438635333"`이라는 값은 캡처할 고유 값들의 개수를 제한하기 위해 `"40.4386"`으로 반올림됩니다. 이러한 값은 약 20피트 내에서 장치의 정확한 위치를 찾아낼 수 있을 만큼 가깝습니다.
 
 이 플러그인은 필요한 경우 `"s_ggc"`라는 쿠키를 사용하여 히트 간 좌표를 저장합니다.
 
