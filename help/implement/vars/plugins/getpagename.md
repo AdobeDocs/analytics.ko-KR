@@ -1,15 +1,20 @@
 ---
 title: getPageName
 description: 현재 웹 사이트 경로에서 읽기 쉬운 pageName을 만듭니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 플러그인: getPageName
 
->[!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getPageName` 플러그인을 사용하면 현재 URL의 읽기 쉽고 친숙한 형식의 버전을 만들 수 있습니다. 보고 시 쉽게 설정하고 이해할 수 있는 [`pageName`](../page-vars/pagename.md) 값을 원하는 경우 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 데이터 계층 사용과 같이 `pageName` 변수에 대한 이름 지정 구조를 이미 가지고 있는 경우에는 불필요하고, `pageName` 변수를 설정하는 다른 해결 방법이 없을 때 사용하는 것이 가장 좋습니다.
 
