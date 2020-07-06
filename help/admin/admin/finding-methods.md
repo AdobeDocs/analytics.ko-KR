@@ -4,7 +4,10 @@ title: 검색 방법
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
  </tbody> 
 </table>
 
->[!NOTE] 모든 검색 방법은 방문이 종료될 때 만료됩니다. 다른 이벤트(예: 장바구니 체크아웃) 이후에 만료되도록 선택하면 방문 중에 장바구니 체크아웃이 발생할 때 검색 방법이 만료됩니다. 방문 중에 장바구니 체크아웃이 발생하지 않으면 방문이 종료될 때 검색 방법이 만료됩니다.
+>[!NOTE]
+>
+>모든 검색 방법은 방문이 종료될 때 만료됩니다. 다른 이벤트(예: 장바구니 체크아웃) 이후에 만료되도록 선택하면 방문 중에 장바구니 체크아웃이 발생할 때 검색 방법이 만료됩니다. 방문 중에 장바구니 체크아웃이 발생하지 않으면 방문이 종료될 때 검색 방법이 만료됩니다.
 
