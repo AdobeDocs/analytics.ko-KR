@@ -5,7 +5,7 @@ title: 전환 변수(eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 98%
@@ -27,7 +27,9 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 
 트래픽 측정 또는 경로 지정을 원하는 경우 트래픽 변수 사용이 권장됩니다.
 
->[!NOTE] 단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용하려는 경우에는 [목록 변수(list vars)](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 구현하는 것이 좋습니다.
+>[!NOTE]
+>
+>단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용하려는 경우에는 [목록 변수(list vars)](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 구현하는 것이 좋습니다.
 
 ## 전환 변수 - 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
