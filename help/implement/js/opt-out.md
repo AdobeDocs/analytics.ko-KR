@@ -1,21 +1,28 @@
 ---
 title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
 # 구현 옵트아웃 링크
 
->[!IMPORTANT] 특히 GDPR 관련 조직의 경우 옵트인 서비스를 사용하는 것이 좋습니다. Experience Cloud ID 서비스 사용 안내서의 [옵트인 서비스 개요](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/opt-in-service/optin-overview.html)를 참조하십시오.
+>[!IMPORTANT]
+>
+>특히 GDPR 관련 조직의 경우 옵트인 서비스를 사용하는 것이 좋습니다. Experience Cloud ID 서비스 사용 안내서의 [옵트인 서비스 개요](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/opt-in-service/optin-overview.html)를 참조하십시오.
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe에서는 웹 사이트 방문자가 정보 수집을 옵트아웃할 수 있는 기능을 제공합니다. 모든 구현 유형이 수용됩니다. 조직은 자체 개인정보 보호정책과 서명한 약관 준수 유지에 대한 책임을 져야 합니다.
 
 방문자가 옵트아웃 URL에 도달하면 옵트아웃 쿠키를 설치하라는 메시지가 표시됩니다. 사용자가 추적되지 않도록 선택하고 옵트아웃 쿠키가 설정된 경우 JavaScript 파일이 계속해서 Adobe 서버에 데이터를 보냅니다. 하지만 이 데이터는 처리되거나 보고서에 포함되지 않습니다.
 
->[!TIP] 또한 Adobe에서는 보고서 세트별로 개인정보 설정을 제공합니다. 관리자 가이드의 [개인정보 설정](../../admin/admin/privacy-settings.md)을 참조하십시오.
+>[!TIP]
+>
+>또한 Adobe에서는 보고서 세트별로 개인정보 설정을 제공합니다. 관리자 가이드의 [개인정보 설정](../../admin/admin/privacy-settings.md)을 참조하십시오.
 
 ## 옵트아웃 URL
 
@@ -73,7 +80,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 예를 들어 `https://example.sc.omtrdc.net/optout.html?locale=ko_KR`은 옵트아웃 페이지를 한국어로 로드합니다.
 
->[!TIP] 기본적으로 페이지가 영어로 로드되므로 `en_US` 쿼리 문자열 값은 필요하지 않습니다.
+>[!TIP]
+>
+>기본적으로 페이지가 영어로 로드되므로 `en_US` 쿼리 문자열 값은 필요하지 않습니다.
 
 ### 팝업
 
@@ -81,7 +90,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 예를 들어 `https://example.sc.omtrdc.net/optout.html?popup=1`은 &#39;창 닫기&#39; 단추가 있는 옵트아웃 페이지를 로드합니다.
 
->[!NOTE] 이전에는 이 쿼리 문자열 매개 변수를 사용하여 팝업 창을 만들었습니다. 그러나 대부분의 최신 브라우저는 최종 사용자가 팝업을 제어할 수 있도록 합니다.
+>[!NOTE]
+>
+>이전에는 이 쿼리 문자열 매개 변수를 사용하여 팝업 창을 만들었습니다. 그러나 대부분의 최신 브라우저는 최종 사용자가 팝업을 제어할 수 있도록 합니다.
 
 ### 옵트아웃 한 번 클릭
 
