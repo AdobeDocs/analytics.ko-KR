@@ -2,7 +2,7 @@
 title: 검색 키워드
 description: 방문자가 사이트에 도달하는 데 사용한 검색 키워드.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 &#39;검색 키워드&#39; 차원은 방문자가 사이트에 도달하는 데 사용하는 검색 키워드를 보고합니다.
 
->[!IMPORTANT] 개인 정보 보호 정책이 증가함에 따라 대부분의 검색 엔진이 더 이상 검색 키워드를 전달하지 않습니다. Adobe가 검색 엔진을 인식하지만 차원 값 아래에 키워드 그룹이 없는 히트 `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>개인 정보 보호 정책이 증가함에 따라 대부분의 검색 엔진이 더 이상 검색 키워드를 전달하지 않습니다. Adobe가 검색 엔진을 인식하지만 차원 값 아래에 키워드 그룹이 없는 히트 `"Keyword unavailable"`.
 
 레퍼러는 검색 키워드로 분류하려면 다음 모두를 충족해야 합니다.
 
