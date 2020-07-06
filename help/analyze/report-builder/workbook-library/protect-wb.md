@@ -4,7 +4,10 @@ title: 통합 문서 잠금/잠금 해제
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 분석가는 통합 문서를 잠궈서 조직 내의 다른 사용자들이 통합 문서 요청을 조작하지 못하게 보호할 수 있습니다. 그러면서도 이러한 사용자들은 통합 문서의 요청을 여전히 새로 고칠 수 있습니다.
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
+통합 문서를 편집하지 못하게 보호하려면 Report Builder 도구 모음에서 **[!UICONTROL 잠김]**(![](assets/locked_icon.png))을 클릭합니다.
 
 로도 알려짐)에 대한 릴리스 정보도 포함합니다.
 
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+통합 문서의 보호를 해제하려면 **[!UICONTROL 잠금 해제됨]**(![](assets/unlocked_icon.png))을 클릭합니다.
 
 로도 알려짐)에 대한 릴리스 정보도 포함합니다.
 
@@ -28,7 +31,9 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * 관리자인 경우
 * 처음에 통합 문서를 잠근 사람인 경우. 이 경우에는 관리자일 필요가 없습니다.
 
->[!NOTE] 통합 문서의 잠금을 해제할 권한이 없으면 보호된 통합 문서에 요청을 추가할 수도 없습니다.
+>[!NOTE]
+>
+>통합 문서의 잠금을 해제할 권한이 없으면 보호된 통합 문서에 요청을 추가할 수도 없습니다.
 
 통합 문서가 요청을 편집할 수 없게 잠긴 경우
 
@@ -39,7 +44,7 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * 사용자는 개인적으로나 그룹의 일부로 요청을 새로 고칠 수 있습니다.
 * 요청 사용자가 셀에서 값을 입력하면(날짜 범위, 세그먼트, 필터) 셀에서 이러한 값을 변경할 수 있으므로 요청을 새로 고쳐 간접적으로 편집할 수 있습니다.
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+보호된 통합 문서를 컨텍스트 메뉴, **[!UICONTROL 요청 관리자]** 또는 **[!UICONTROL 여러 요청 편집]**&#x200B;을 통해 편집하려고 하면 다음 작업이 허용되거나 허용되지 않을 수 있습니다.
 
 * 요청의 잠금을 해제할 권한이 없으면 다음 메시지가 표시됩니다.
 
