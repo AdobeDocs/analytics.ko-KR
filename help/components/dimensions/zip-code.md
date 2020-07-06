@@ -2,7 +2,7 @@
 title: 우편 번호
 description: 방문자의 우편번호입니다.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 [ [!UICONTROL 일반 계정 설정] ] 아래의 [ [Zip] 옵션은](/help/admin/admin/general-acct-settings-admin.md) 이 차원을 채울 방법을 제어합니다.
 
->[!IMPORTANT] 이 차원을 채우는 방법을 완전히 제어하려는 경우 보고서 세트 설정이 중요합니다.
+>[!IMPORTANT]
+>
+>이 차원을 채우는 방법을 완전히 제어하려는 경우 보고서 세트 설정이 중요합니다.
 
 ## 차원 값
 
