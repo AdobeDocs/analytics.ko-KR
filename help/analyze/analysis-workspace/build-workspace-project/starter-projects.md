@@ -2,8 +2,11 @@
 description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 * **빈 프로젝트(기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)를 참조하십시오.
 * **표준 템플릿**: 이러한 템플릿은 Adobe에서 만들어 제품과 함께 제공됩니다.
-* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: Save as Template] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/permissions/product-profile.html)
+* **사용자 지정 템플릿**: 이러한 템플릿은 관리자 권한이 있는 사용자 또는 관리자가 아닌 사용자가 만들거나, 공유하거나, 삭제할 수 있습니다. 단, 이러한 템플릿은 [!UICONTROL Analysis Workspace이 부여된 경우 가능합니다. Admin Console에서 템플릿으로] 저장 권한 [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +26,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 관리자 권한이 있는 사용자는 자신이 만드는 프로젝트를 사용자 지정 템플릿으로 만들 수 있습니다. 방법은 다음과 같습니다.
 
 1. 프로젝트를 엽니다.
-1. **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL 프로젝트]** > **[!UICONTROL 템플릿으로 저장]**&#x200B;으로 이동합니다.
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +34,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    >[!NOTE]
    >
-   >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. (**[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**&#x200B;로 이동하여 태그 및 설명을 편집합니다.)
+   >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. (태그와 설명을 편집하려면 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동하십시오.)
 
 ### 사용자 지정 템플릿에서 수행할 수 있는 작업
 
@@ -110,7 +113,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ### 사람
 
->[!NOTE] 사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/data/people.html)의 일부로서만 사용할 수 있습니다.
+>[!NOTE]
+>
+>사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/data/people.html)의 일부로서만 사용할 수 있습니다.
 
 이 템플릿은 다시 말해, 고유 방문자 수 지표의 중복이 제거된 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 장치를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. 템플릿을 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -129,14 +134,14 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 이 템플릿을 사용하면 중요한 장치 간 성능 데이터를 볼 수 있습니다. CDA([Cross-Device Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html))에 액세스할 수 있는 고객에게만 제공됩니다.
 
 * **Co-op 그래프의 구성원을 위한 특수 참고 사항**: co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
-* **사용자 식별**: 장치 간 분석을 기반으로 한 방법을 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
-* **대상 크기 측정**: &#39;사용자&#39;과 &#39;고유 장치&#39;의 비교를 보여줍니다. 이 두 숫자의 비율은 이 패널에 표시되는 계산된 지표인 &#39;장치 간 압축&#39;이라고 합니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.
+* **사용자 식별**: 교차 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
+* **대상 크기 측정**: &#39;사람&#39; 대비 &#39;고유 장치&#39;의 비교를 보여줍니다. 이 두 숫자의 비율을 &#39;교차 장치 압축&#39;이라고 하며, 이 패널에 표시되는 계산된 지표입니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.
    * **Co-op 그래프 또는 Private 그래프 사용: 일반적으로 얘기하자면, Device Co-op을 사용하는 조직은 Private 그래프를 사용하는 조직보다 압축률이 더 높은 경향이 있습니다.**
    * **로그인 비율**: 사이트에 로그인하는 사용자가 많을수록 Adobe가 장치들 간에 더 많은 방문자를 식별하고 결합할 수 있습니다. 로그인 비율이 낮은 사이트는 압축률도 낮습니다.
    * **Experience Cloud ID 범위**: ECID가 있는 방문자만 결합할 수 있습니다. ECID를 사용하는 사이트에 대한 방문자의 낮은 비율은 낮은 압축률과 상호 연관성이 있습니다.
    * **여러 장치 사용**: 사이트 방문자가 여러 장치를 사용하지 않는다면 압축률도 낮습니다.
    * **보고 세부기간**: 일별 압축은 일반적으로 월별 또는 연별 압축보다 작습니다. 개인이 여러 장치를 사용할 가능성은 범위가 한 달일 때보다 하루일 때 더 작아집니다. 세그먼트화, 필터링 또는 분류 차원 사용 시에도 압축률이 더 낮아질 수 있습니다.
-* **사용자 기반 세그먼트**: 장치별 데이터를 볼 수 있는 세그먼트 드롭다운이 포함되어 있습니다. 이 패널에서는 장치 유형을 포함하거나 제외하는 것이 보고서에 영향을 미치는 방식을 세그먼트로 실험해 볼 것을 권장합니다.
-* **장치 간 여정 분석**: 장치 유형에 따라 흐름 및 폴아웃 보고서를 제공합니다.
-* **장치 간 속성**: Journey IQ와 Attribution IQ의 기능을 함께 결합합니다.
-* **기타 팁 및 기법**: CDA를 최대한 활용할 수 있는 유용한 주제입니다.
+* **사람 기반 세그먼트**: 장치별 데이터를 볼 수 있는 세그먼트 드롭다운이 포함되어 있습니다. 이 패널에서는 장치 유형을 포함하거나 제외하는 것이 보고서에 어떤 영향을 미치는지 세그먼트로 실험해 볼 것을 권장합니다.
+* **교차 장치 움직임 분석**: 장치 유형에 따라 흐름 및 폴아웃 보고서를 제공합니다.
+* **교차 장치 속성**: 움직임 IQ와 속성 IQ의 기능을 결합합니다.
+* **기타 팁과 트릭**: CDA를 최대한 활용할 수 있는 유용한 항목입니다.
