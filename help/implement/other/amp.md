@@ -2,7 +2,10 @@
 title: AMP를 사용한 구현
 description: AMP 페이지에서 Adobe Analytics를 구현합니다.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 조직 내에서 장단점을 따져 사용할 방법을 결정하십시오. 샘플 코드가 필요하면 Adobe의 GitHub 저장소에서 [AMP 예](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web)를 참조하십시오.
 
->[!WARNING] AMP를 사용하여 `"adobeanalytics"` 템플릿과 `"adobeanalytics_nativeConfig"` 템플릿을 동일한 페이지에서 모두 사용하지 마십시오. 그럴 경우 브라우저 콘솔에서 오류가 생성되고 방문자가 두 번 카운트될 수 있습니다.
+>[!WARNING]
+>
+>AMP를 사용하여 `"adobeanalytics"` 템플릿과 `"adobeanalytics_nativeConfig"` 템플릿을 동일한 페이지에서 모두 사용하지 마십시오. 그럴 경우 브라우저 콘솔에서 오류가 생성되고 방문자가 두 번 카운트될 수 있습니다.
 
 ## 방법 1: &quot;adobeanalytics&quot; 템플릿에서 amp-analytics 태그 사용
 
@@ -77,11 +82,15 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 또한, `amp-analytics`에서는 AMP에서 인식하는 데이터 값을 제공할 수 있도록 많은 수의 변수 대체를 지원합니다. 자세한 내용은 GitHub에서 [amp-analytics에서 지원되는 변수](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)를 참조하십시오.
 
->[!NOTE] 이 방법을 사용하여 Adobe에 보내는 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 자세한 내용은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
+>[!NOTE]
+>
+> 이 방법을 사용하여 Adobe에 보내는 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 자세한 내용은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
 
 Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `adobe_amp_id`를 설정합니다. 이 방문자 ID는 Adobe Analytics에서 설정한 다른 모든 ID(예: `s_vi` 쿠키)에 대해 고유합니다. Adobe Experience Cloud ID 서비스는 이 구현 방법을 사용하여 지원되지 않습니다.
 
->[!NOTE] AMP는 CDN을 사용하여 컨텐츠를 전달합니다. AMP는 방문자가 컨텐츠를 검색하는 각 CDN에 대해 서로 다른 고유한 방문자를 카운트하도록 구성되어 있어서 고유 방문자 수를 부풀릴 수 있습니다.
+>[!NOTE]
+>
+>AMP는 CDN을 사용하여 컨텐츠를 전달합니다. AMP는 방문자가 컨텐츠를 검색하는 각 CDN에 대해 서로 다른 고유한 방문자를 카운트하도록 구성되어 있어서 고유 방문자 수를 부풀릴 수 있습니다.
 
 AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별도의 보고서 세트를 사용하는 것이 좋습니다.
 
@@ -147,7 +156,9 @@ AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별
 
 `"adobeanalytics_nativeConfig"` 템플릿에서도 amp-analytics 태그의 `extraUrlParams` 섹션에 나열된 변수를 기반으로 쿼리 문자열 매개 변수를 추가합니다. 위의 예에는 `pageName` 및 `v1` 매개 변수가 포함되어 있습니다.
 
->[!IMPORTANT] `stats.html` 페이지는 AMP 자체가 호스팅되는 도메인과는 별도의 하위 도메인에서 호스팅되어야 합니다. AMP 프레임워크는 AMP 페이지 자체가 존재하고 있는 것과 동일한 하위 도메인의 iframe을 허용하지 않습니다. 예를 들어 AMP가 `amp.example.com`에서 호스팅된다면, `stats.html` 페이지를 반드시 `ampmetrics.example.com`과 같은 별도의 하위 도메인에서 호스팅하십시오.
+>[!IMPORTANT]
+>
+> `stats.html` 페이지는 AMP 자체가 호스팅되는 도메인과는 별도의 하위 도메인에서 호스팅되어야 합니다. AMP 프레임워크는 AMP 페이지 자체가 존재하고 있는 것과 동일한 하위 도메인의 iframe을 허용하지 않습니다. 예를 들어 AMP가 `amp.example.com`에서 호스팅된다면, `stats.html` 페이지를 반드시 `ampmetrics.example.com`과 같은 별도의 하위 도메인에서 호스팅하십시오.
 
 이 방법을 사용하면 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 AMP의 추적 또한 옵트 아웃하게 됩니다. 또한 이 유틸리티 페이지를 사용하는 것은 AMP가 Adobe Experience Cloud ID 서비스를 지원할 수 있음을 의미합니다. 별도의 보고서 세트는 필요하지 않습니다.
 
