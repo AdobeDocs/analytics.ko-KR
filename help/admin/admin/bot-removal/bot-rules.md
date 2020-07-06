@@ -4,8 +4,11 @@ subtopic: Bot rules
 title: 보트 규칙 개요
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +40,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 사용자 지정 보트 규칙
 
->[!NOTE] 사용자 인터페이스를 통해 500개의 규칙을 수동으로 정의할 수 있습니다. 이 한도에 도달하면 파일 가져오기 및 보트 규칙 내보내기 옵션을 통해 규칙을 일괄적으로 관리해야 합니다.
+>[!NOTE]
+>
+>사용자 인터페이스를 통해 500개의 규칙을 수동으로 정의할 수 있습니다. 이 한도에 도달하면 파일 가져오기 및 보트 규칙 내보내기 옵션을 통해 규칙을 일괄적으로 관리해야 합니다.
 
 사용자 지정 보트 규칙을 사용하여 사용자가 정의한 조건을 기준으로 트래픽을 필터링할 수 있습니다.
 
@@ -121,7 +126,9 @@ VISTA 규칙은 보트 규칙 다음에 적용됩니다([ 처리 순서](/help/a
 
 **하이 히트 방문 처리:** 한 번의 방문에 100개 이상 히트가 발생하는 경우, 보고는 방문 시간(초)이 해당 방문의 히트 수와 같은지 또는 미만인지 파악합니다. 이런 상황에서 길고 집중적인 방문을 처리하는 비용 때문에, 보고는 새 방문으로 다시 시작합니다. 일반적으로 하이 히트 방문은 보트 공격으로 인해 발생하며 일반적인 방문 검색으로 간주되지 않습니다.
 
->[!NOTE] *`bots`*&#x200B;로 표시된 히트는 [서버 호출](/help/admin/c-server-call-usage/overage-overview.md)로 청구됩니다.
+>[!NOTE]
+>
+>*`bots`*&#x200B;로 표시된 히트는 [서버 호출](/help/admin/c-server-call-usage/overage-overview.md)로 청구됩니다.
 
 ## IP 난독화가 보트 필터링에 미치는 영향 {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
