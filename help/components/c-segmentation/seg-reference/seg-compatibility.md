@@ -4,9 +4,9 @@ title: Data Warehouse 세그먼트 기능
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 96%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 96%
   <tr> 
    <td> <b>세그먼트 스택</b> </td> 
    <td> 지원됨 </td> 
-   <td> 지원되지 않음 </td> 
+   <td> 지원됨 </td> 
   </tr>
   <tr>
     <td><b>'Equals any of' 및 'Does not equal any of' 연산자</b></td>
