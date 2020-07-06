@@ -3,8 +3,11 @@ description: 보고서에서 내부 웹 사이트 활동, 사이트 테스트 �
 title: IP 주소별로 제외
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL IP별로 제외]**
 
->[!NOTE] IP별로 제외된 히트는 [서버 호출](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/terms.html)로 청구됩니다.
+>[!NOTE]
+>
+>IP별로 제외된 히트는 [서버 호출](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/terms.html)로 청구됩니다.
 
 ## 쿠키별로 제외 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,7 +32,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 |--- |--- |
 | [!UICONTROL CNAME 추가] | 도메인을 제외하는 데 사용할 수 있는 옵트아웃 링크를 생성합니다. 지원이 필요할 경우 해당 회사의 지원 사용자에게 문의하십시오. <br>회사의 옵트아웃 페이지를 방문하여 사용 중인 브라우저를 측정에서 제외하도록 선택함으로써 트래픽이 보고서 세트에서 보고되지 않도록 제외할 수 있습니다. <br>구현에 타사 쿠키를 사용하는 경우, 옵트아웃 페이지는 [여기](https://democorp.112.2o7.net/optout.html?locale=ko_KR&amp;popup=true)입니다. |
 
->[!NOTE] 컴퓨터에 의한 제외는 다음 경우에만 작동합니다.
+>[!NOTE]
+>
+> 컴퓨터에 의한 제외는 다음 경우에만 작동합니다.
 >
 > * 동일한 워크스테이션에서 웹 사이트에 액세스합니다.
 > * 사용 중인 브라우저에서 쿠키가 활성화되어 있습니다.
