@@ -2,7 +2,7 @@
 title: 고유 방문자 수
 description: 고유 개인(또는 장치)의 수입니다.
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ Analysis Workspace은 보고서의 세부기간을 기준으로 고유 방문자
 | 4 | `fid` | 방문자에게 기존 [`s_fid`](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키가 있거나, 어떤 이유에서든 `aid` 설정할 수 `mid` 없을 경우. |
 | 5 | IP 주소, 사용자 에이전트, 게이트웨이 IP 주소 | 방문자의 브라우저가 쿠키를 수락하지 않는 경우 고유 방문자를 식별하는 마지막 방법입니다. |
 
->[!NOTE] 각 Analytics 방문자 ID는 Adobe 서버의 프로필에 연결되어 있습니다. 이러한 방문자 프로필은 방문자 ID 쿠키 만료와 상관없이 최소 13개월 동안 활동이 없는 경우 삭제됩니다.
+>[!NOTE]
+>
+>각 Analytics 방문자 ID는 Adobe 서버의 프로필에 연결되어 있습니다. 이러한 방문자 프로필은 방문자 ID 쿠키 만료와 상관없이 최소 13개월 동안 활동이 없는 경우 삭제됩니다.
 
 ## 고유 방문자 수에 영향을 주는 동작
 
