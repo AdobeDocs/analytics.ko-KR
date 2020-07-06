@@ -1,8 +1,11 @@
 ---
 title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다. 이 통합은 양방향 데이터 연결을 위한 기회를 제공합니다. 일반적으로 모듈 통합 사용은 Adobe 파트너에 의해 결정됩니다.
 
->[!NOTE] 구현에서 파트너 데이터를 요청하면 페이지 로드와 Adobe 데이터 수집 서버로 전송된 데이터 간의 지연이 늘어날 수 있습니다. 방문자가 데이터를 보내기 전에 새 페이지를 로드하면 해당 페이지가 기록되지 않습니다.
+>[!NOTE]
+>
+>구현에서 파트너 데이터를 요청하면 페이지 로드와 Adobe 데이터 수집 서버로 전송된 데이터 간의 지연이 늘어날 수 있습니다. 방문자가 데이터를 보내기 전에 새 페이지를 로드하면 해당 페이지가 기록되지 않습니다.
 
 ## 모듈 통합 워크플로우
 
