@@ -5,7 +5,10 @@ title: 가상 보고서 세트 관리
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/vrs-manage.png)
 
->[!NOTE] 가상 보고서 세트 관리자에서는 자신의 가상 보고서 세트만 볼 수 있습니다. 모든 사용자의 가상 보고서 세트를 표시하려면 **[!UICONTROL 모두 표시]**&#x200B;를 클릭해야 합니다.
+>[!NOTE]
+>
+>가상 보고서 세트 관리자에서는 자신의 가상 보고서 세트만 볼 수 있습니다. 모든 사용자의 가상 보고서 세트를 표시하려면 **[!UICONTROL 모두 표시]**&#x200B;를 클릭해야 합니다.
 
 | 작업 | 설명 |
 |--- |--- |
