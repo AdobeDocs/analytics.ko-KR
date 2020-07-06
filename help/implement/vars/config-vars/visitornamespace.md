@@ -1,19 +1,26 @@
 ---
 title: visitorNameSpace
 description: 쿠키 도메인을 결정하던 폐기된 변수입니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
 
 # visitorNamespace
 
->[!IMPORTANT] 이 변수는 사용이 중단되었습니다. 대신 [`trackingServer`](trackingserver.md)를 사용하십시오.
+>[!IMPORTANT]
+>
+>이 변수는 사용이 중단되었습니다. 대신 [`trackingServer`](trackingserver.md)를 사용하십시오.
 
 이전 Adobe Analytics 버전에서 AppMeasurement는 `visitorNameSpace` 변수를 사용하여 방문자 쿠키가 저장된 `2o7.net`의 하위 도메인을 파악했습니다. 최신 브라우저에서 개인 정보 보호 정책을 강화하면 타사 쿠키의 신뢰성이 떨어집니다. `trackingServer` 및 [`trackingServerSecure`](trackingserversecure.md) 변수를 도입하면 `visitorNameSpace`가 더 이상 필요하지 않습니다.
 
->[!TIP] 사이트에서는 자사 쿠키를 사용하는 것이 좋습니다. 자사 쿠키는 이 변수를 사용하지 않습니다.
+>[!TIP]
+>
+>사이트에서는 자사 쿠키를 사용하는 것이 좋습니다. 자사 쿠키는 이 변수를 사용하지 않습니다.
 
 ## Adobe Experience Platform Launch의 방문자 네임스페이스
 
