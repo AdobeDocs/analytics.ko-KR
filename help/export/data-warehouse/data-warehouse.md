@@ -3,8 +3,11 @@ description: Data Warehouse는 데이터를 필터링하여 실행할 수 있는
 title: Data Warehouse 개요
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,9 @@ Data Warehouse는 크기가 1MB를 초과하는 모든 파일을 자동으로 �
 
 Data Warehouse는 개별적으로 예약하고 다운로드한 보고서를 한 번 요청하여 행 수에 관계없이 처리할 수 있습니다.
 
->[!NOTE] Data Warehouse는 보고 기간에 발생한 첫 번째 값을 보고합니다.
+>[!NOTE]
+>
+>Data Warehouse는 보고 기간에 발생한 첫 번째 값을 보고합니다.
 
 >[!IMPORTANT]
 >
