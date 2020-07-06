@@ -5,7 +5,10 @@ title: FAQ
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 예를 들어, 광고주 ID Z가 있는 보고서 세트 A에 CSID가 할당되는 통합이 있다고 가정합니다. 다른 통합은 광고주 Z가 있는 보고서 세트 B에서 나중에 설정되는 경우 이 최신 통합이 CSID에 재할당되지 않습니다. 이 경우 Google 티켓이 필요합니다. 하지만 광고주 ID Z를 통해 보고서 세트 A에서 통합의 예를 가져오고 나중에 다른 통합을 보고서 세트 A에 가져오면 광고주 Z가 설정됩니다. 첫 번째 통합만 통합에 대한 데이터를 받습니다. 하지만, 이 경우 첫 번째 통합을 비활성화하면 데이터가 두 번째 통합에 입력됩니다.
 
->[!NOTE] CSID는 통합 버전 2.0에서 사용되지 않으므로, CSID 협상 처리가 적용되지 않습니다.
+>[!NOTE]
+>
+>CSID는 통합 버전 2.0에서 사용되지 않으므로, CSID 협상 처리가 적용되지 않습니다.
 
 ## 통합 버전 2.0을 사용하는 데 내 DFA 광고에 대한 비용 지표가 표시되지 않습니다. 이유가 무엇입니까? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
