@@ -2,8 +2,11 @@
 description: 'null'
 title: Power BI에 게시 - 개요
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,9 @@ Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다
 
 ## 통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시 {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] 통합 문서에 매크로가 있을 경우, &quot;통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시&quot;가 비활성화됩니다.
+>[!NOTE]
+>
+>통합 문서에 매크로가 있을 경우, &quot;통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시&quot;가 비활성화됩니다.
 
 전체 통합 문서를 가져오는 대신 통합 문서 내의 모든 형식이 지정된 표의 컨텐츠만 가져올 수 있습니다.
 
