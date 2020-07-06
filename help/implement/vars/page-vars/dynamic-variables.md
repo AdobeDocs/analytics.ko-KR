@@ -1,8 +1,11 @@
 ---
 title: 다이내믹 변수
 description: 이미지 요청 길이를 늘리지 않고 변수를 복사합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문자열 또는 HTTP 헤더 값을 자동으로 복사합니다. 이 작업은 처리 규칙 및 VISTA 규칙을 포함한 다른 처리 전에 수행됩니다.
 
->[!TIP] 변수를 복사할 때에는 최대 문자 제한을 고려해야 합니다. 예를 들어 `eVar1`을 `prop1`에 복사하는 경우 `prop1`은 100바이트 제한이 있으므로 값이 잘릴 수 있습니다(반면에 `eVar1`에는 255바이트 제한이 있음).
+>[!TIP]
+>
+>변수를 복사할 때에는 최대 문자 제한을 고려해야 합니다. 예를 들어 `eVar1`을 `prop1`에 복사하는 경우 `prop1`은 100바이트 제한이 있으므로 값이 잘릴 수 있습니다(반면에 `eVar1`에는 255바이트 제한이 있음).
 
 ## Adobe Experience Platform Launch의 동적 변수
 
@@ -48,4 +53,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] 동적 변수는 구현을 디버깅할 때 문자열로 나타납니다. 값은 Adobe 데이터 수집 서버에 의해 서버측에서 복사됩니다.
+>[!NOTE]
+>
+>동적 변수는 구현을 디버깅할 때 문자열로 나타납니다. 값은 Adobe 데이터 수집 서버에 의해 서버측에서 복사됩니다.
