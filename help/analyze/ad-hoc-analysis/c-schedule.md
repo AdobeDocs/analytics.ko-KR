@@ -4,7 +4,10 @@ title: 예약 관리자
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 보고서에 대한 배달 일정을 사용자 지정할 수 있습니다. 특정 시간에 배달을 중지하거나 보고서를 전송할 횟수를 지정할 수 있습니다. 새 일정에서는 보고서에 정의된 날짜 범위를 사용합니다. 예를 들어, 지난 90일에 대한 보고서를 만들어 일일 실행 일정을 지정하는 경우 지난 90일의 각 날에 대한 보고서를 받습니다. 달력에서 정적 날짜 범위로 보고서를 만드는 경우 전송될 때마다 동일한 보고서를 보게 됩니다.
 
->[!NOTE] 사용자 계정이 비활성화되면 해당 사용자가 만든 예약 보고서 배달이 일시 중단됩니다.
+>[!NOTE]
+>
+>사용자 계정이 비활성화되면 해당 사용자가 만든 예약 보고서 배달이 일시 중단됩니다.
 
 분류에서 라인 항목이 지속적으로 보고서에 저장되고 예약되도록 하려면 [테이블 빌더](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)의 **[!UICONTROL 항목 편집]** 기능을 사용하여 분류에 고정 차원 목록을 만듭니다.
 
