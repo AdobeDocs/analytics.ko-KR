@@ -1,15 +1,20 @@
 ---
 title: getTimeBetweenEvents
 description: 두 이벤트 사이의 시간을 측정합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 플러그인: getTimeBetweenEvents
 
->[!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getTimeBetweenEvents` 플러그인을 사용하면 장바구니 및 사용자 지정 이벤트를 포함하여 두 Analytics 이벤트 간의 시간을 추적할 수 있습니다. 이 플러그인은 체크아웃 프로세스가 완료되는 데 걸리는 시간이나 시간을 측정하려는 기타 프로세스를 추적하는 데 유용하며, 소요 시간을 측정하려는 변환 프로세스가 없는 경우에는 필요하지 않습니다.
 
