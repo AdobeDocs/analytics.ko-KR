@@ -1,15 +1,20 @@
 ---
 title: 주/도
 description: Reports and Analytics에서 '방문자 주 보고서'를 채웁니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 100%
 
 ---
 
 
 # state
 
->[!IMPORTANT] 이 변수는 사용이 중단되었으며 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. AppMeasurement가 방문자의 위치를 기반으로 자동으로 수집하는 &#39;미국 주&#39; 차원을 대신 사용하십시오.
+>[!IMPORTANT]
+>
+>이 변수는 사용이 중단되었으며 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. AppMeasurement가 방문자의 위치를 기반으로 자동으로 수집하는 &#39;미국 주&#39; 차원을 대신 사용하십시오.
 
 이전 버전의 Adobe Analytics에서는 방문자가 소매 사이트에서 배송 정보를 입력할 때 `state` 변수가 사용되었습니다. 이 변수는 기능적으로 prop과 동일하지만 Analysis Workspace에서 사용할 수는 없습니다.
 
