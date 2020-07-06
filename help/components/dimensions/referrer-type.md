@@ -2,7 +2,7 @@
 title: 레퍼러 유형
 description: 방문자의 위치에 따라 레퍼러 유형입니다.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,9 +31,11 @@ ht-degree: 0%
 
 ### 소셜 네트워크
 
-다음 목록은 Adobe에서 사용하는 &#39;소셜 네트워크&#39; 조회 테이블을 참조합니다. Adobe는 Adobe Analytics 고객을 위한 편의를 위해 이 목록을 제공합니다. Adobe에서 이 목록에 도메인을 추가하도록 권장하려면 조직의 지원 위임자가 고객 지원 센터에 연락하도록 하십시오.
+다음 목록은 Adobe에서 사용하는 &#39;소셜 네트워크&#39; 조회 테이블을 참조합니다. Adobe는 Adobe Analytics 고객을 위해 이 목록을 제공합니다. Adobe에서 이 목록에 도메인을 추가하도록 권장하려면 조직의 지원 위임자가 고객 지원 센터에 연락하도록 하십시오.
 
->[!NOTE] 이 목록은 [마케팅 채널 처리 규칙의 기본 소셜 네트워크 목록과 다릅니다](../c-marketing-channels/c-rules.md).
+>[!NOTE]
+>
+>이 목록은 [마케팅 채널 처리 규칙의 기본 소셜 네트워크 목록과 다릅니다](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
