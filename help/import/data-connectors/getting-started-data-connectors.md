@@ -1,8 +1,11 @@
 ---
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
 title: Analytics Data Connectors 시작하기
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Adobe Analytics는 이 파일을 별도의 일별 파일로 데이터 웨어하�
    * 구매: `purchase` 이벤트
    * 제품 보기: `prodView` 이벤트
 
->[!NOTE] 연결된 이벤트 없이 제품이 정의된 경우 prodView 이벤트가 자동으로 실행됩니다.
+>[!NOTE]
+>
+>연결된 이벤트 없이 제품이 정의된 경우 prodView 이벤트가 자동으로 실행됩니다.
 위의 요구 사항을 충족하지 않으면 해당 리마케팅 세그먼트가 올바르게 보고되지 않습니다.
 
 [!UICONTROL  장바구니 포기]: 사용자가 제품을 장바구니에 추가한 후에 실행됩니다.
@@ -104,4 +109,6 @@ s.events="purchase";
 | 리마케팅 세그먼트 파일을 받지 않았습니다. | 파일을 받지 않은 경우 조직의 지원 사용자 중 한 명에게 ClientCare에 연락하여 보고서를 제대로 받지 못한 이유를 조사하도록 합니다. |
 
 
->[!IMPORTANT] 일반적으로 컨설턴트는 표준 Data Connectors 통합 리마케팅 세그먼트 파일 외에 매일 예약된 보고서로 데이터 웨어하우스 요청을 설정합니다. 이 데이터 웨어하우스 요청에 Data Connectors 변수뿐만 아니라 Data Connectors 이외 변수가 포함되며, 조직의 특별한 요청이 있을 때만 이 요청을 예약할 수 있습니다. 문제 해결 시 혼동하지 않도록 문제가 있는 파일이 실제 리마케팅 세그먼트 파일인지 아니면 Genesis 이외의 변수가 포함된 데이터 웨어하우스 요청인지 지정합니다.
+>[!IMPORTANT]
+>
+>일반적으로 컨설턴트는 표준 Data Connectors 통합 리마케팅 세그먼트 파일 외에 매일 예약된 보고서로 데이터 웨어하우스 요청을 설정합니다. 이 데이터 웨어하우스 요청에 Data Connectors 변수뿐만 아니라 Data Connectors 이외 변수가 포함되며, 조직의 특별한 요청이 있을 때만 이 요청을 예약할 수 있습니다. 문제 해결 시 혼동하지 않도록 문제가 있는 파일이 실제 리마케팅 세그먼트 파일인지 아니면 Genesis 이외의 변수가 포함된 데이터 웨어하우스 요청인지 지정합니다.
