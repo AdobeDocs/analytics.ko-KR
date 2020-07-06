@@ -2,7 +2,7 @@
 title: Experience Cloud ID를 가진 방문자 수
 description: Adobe Experience Cloud ID 서비스를 사용하는 고유 방문자 수.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -12,9 +12,11 @@ ht-degree: 19%
 
 # Experience Cloud ID를 가진 방문자 수
 
-&#39;Experience Cloud ID가 있는 방문자 수&#39; 지표는 Adobe가 [Experience Cloud ID 서비스를 사용하여 식별한 고유 방문자 수를 보여줍니다](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html). 이 차원은 사이트 방문자의 대다수가 ID 서비스를 사용하도록 하기 위해 [고유 방문자](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 ID 서비스 쿠키를 사용하지 않는 경우 구현 내의 문제를 나타낼 수 있습니다.
+&#39;Experience Cloud ID가 있는 방문자 수&#39; 지표는 [Experience Cloud ID 서비스를 사용하여 Adobe가 식별한 고유 방문자 수를 보여줍니다](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html). 이 차원은 사이트 방문자의 대다수가 ID 서비스를 사용하도록 하기 위해 [고유 방문자](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 ID 서비스 쿠키를 사용하지 않는 경우 구현 내의 문제를 나타낼 수 있습니다.
 
->[!NOTE] 이 지표는 Adobe Target 또는 Adobe Audience Manager와 같은 여러 Experience Cloud 서비스를 사용하는 경우 디버깅에 특히 중요합니다. Experience Cloud 제품 간에 공유된 세그먼트에는 Experience Cloud ID가 없는 방문자가 포함되지 않습니다.
+>[!NOTE]
+>
+>이 지표는 Adobe Target 또는 Adobe Audience Manager과 같은 여러 Experience Cloud 서비스를 사용하는 경우 디버깅에 특히 중요합니다. Experience Cloud 제품 간에 공유된 세그먼트에는 Experience Cloud ID가 없는 방문자가 포함되지 않습니다.
 
 ## 이 지표의 계산 방법
 
@@ -22,13 +24,13 @@ ht-degree: 19%
 
 ## Experience Cloud ID 설정 디버그
 
-&#39;Experience Cloud ID가 있는 방문자 수&#39; 지표는 Experience Cloud 통합 문제를 해결하거나 ID 서비스가 배포되지 않은 사이트의 영역을 식별하는 데 유용합니다.
+&#39;Experience Cloud ID가 있는 방문자&#39; 지표는 Experience Cloud 통합 문제 해결 또는 ID 서비스가 배포되지 않은 사이트의 영역을 식별하는 데 유용합니다.
 
 &#39;Experience Cloud ID가 있는 방문자&#39;를 고유 방문자와 나란히 드래그하여 비교할 수 있습니다.
 
 ![고유 방문자 비교](assets/metric-mcvid1.png)
 
-이 예에서 각 페이지의 &#39;고유 방문자 수&#39;와 &#39;Experience Cloud ID가 있는 방문자 수&#39;가 같음을 알 수 있습니다. 고유 방문자 수의 총계는 Experience Cloud ID가 있는 방문자 수의 총계보다 큽니다. ID 서비스를 설정하지 않는 페이지를 찾기 위해 [계산된 지표를](../c-calcmetrics/cm-overview.md) 만들 수 있습니다. 다음 정의를 사용할 수 있습니다.
+이 예에서는 각 페이지의 &#39;고유 방문자 수&#39;와 Experience Cloud ID가 있는 &#39;방문자 수&#39;가 같음을 알 수 있습니다. 고유 방문자 수의 총계는 Experience Cloud ID가 있는 방문자 수의 총계보다 큽니다. ID 서비스를 설정하지 않는 페이지를 찾기 위해 [계산된 지표를](../c-calcmetrics/cm-overview.md) 만들 수 있습니다. 다음 정의를 사용할 수 있습니다.
 
 ![계산된 지표 정의](assets/metric-mcvid2.png)
 
