@@ -4,8 +4,11 @@ subtopic: Classifications
 title: FTP 가져오기
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ Adobe에서는 보고서 세트에서 특정 변수나 보고서에 대해 초�
 
 월 고유 수를 초과하는 경우, 초과한 고유 값에 해당하는 분류 데이터는 보고에 표시되지 않습니다. Data Warehouse 또는 Ad Hoc Analysis에서 해당 분류를 확인할 수 있습니다.
 
->[!NOTE] 분류 데이터 파일을 처리하는 데 필요한 시간은 파일 크기와 Adobe 서버에서 미리 처리되는 파일의 현재 수에 따라 다릅니다. 데이터 파일 처리에 걸리는 시간은 보통 72시간 이내입니다.
+>[!NOTE]
+>
+>분류 데이터 파일을 처리하는 데 필요한 시간은 파일 크기와 Adobe 서버에서 미리 처리되는 파일의 현재 수에 따라 다릅니다. 데이터 파일 처리에 걸리는 시간은 보통 72시간 이내입니다.
 
 FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. 자세한 내용은 [FTP 계정 만들기](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)를 참조하십시오.
 
