@@ -1,8 +1,11 @@
 ---
 title: contextData
 description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,9 @@ s.contextData["example_variable"] = "Example value";
 
 ## 처리 규칙을 사용하여 분석 변수 채우기
 
->[!IMPORTANT] 컨텍스트 데이터 변수는 처리 규칙 실행 후 무시됩니다. 값을 변수에 배치하는 처리 규칙이 활성화되어 있지 않으면 해당 데이터가 영구적으로 손실됩니다.
+>[!IMPORTANT]
+>
+>컨텍스트 데이터 변수는 처리 규칙 실행 후 무시됩니다. 값을 변수에 배치하는 처리 규칙이 활성화되어 있지 않으면 해당 데이터가 영구적으로 손실됩니다.
 
 1. 구현을 업데이트하여 컨텍스트 데이터 변수 이름 및 값을 설정합니다.
 2. Adobe Analytics에 로그인하고 관리 > 보고서 세트로 이동합니다.
