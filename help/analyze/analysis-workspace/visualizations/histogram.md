@@ -3,7 +3,7 @@ description: '히스토그램은 Analysis Workspace의 새로운 시각화 유�
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 97%
@@ -25,7 +25,9 @@ ht-degree: 97%
 
 ![](assets/histogram.png)
 
->[!NOTE] 히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다. 
+>[!NOTE]
+>
+> 히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다. 
 
 여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째(왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다. 
 
