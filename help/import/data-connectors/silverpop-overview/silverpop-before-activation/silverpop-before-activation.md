@@ -3,7 +3,10 @@ description: 이 통합을 활성화하기 전에 Adobe Analytics® 및 이메�
 title: 이 통합을 활성화하기 전에
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Silverpop과 관련된 이 Data Connector 통합에 대한 다음 정보를 검�
 * **유효한 Silverpop 계정:** Data Connectors 이메일 통합을 사용하려면 클라이언트에 이메일이 설정된 활성 Silverpop 계정과 활성 사용자 자격 증명이 있어야 합니다.
 * **Silverpop 담당자에게 문의하십시오**. 이 통합은 Silverpop에서 자동으로 활성화되지 않습니다. Analytics에서 데이터를 가져오거나 내보내려면 먼저 Silverpop 담당자에게 연락하여 Silverpop 설정을 시작해야 합니다.
 
->[!NOTE] 이 통합은 Engage 조직(Transact가 아님)에서만 작동합니다.
+>[!NOTE]
+>
+> 이 통합은 Engage 조직(Transact가 아님)에서만 작동합니다.
 
 ## 가격 책정{#pricing}
 
