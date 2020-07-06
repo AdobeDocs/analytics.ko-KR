@@ -3,7 +3,10 @@ description: 'null'
 title: 경고 빌더
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * Analysis Workspace에서 다음의 바로 가기 사용:
 
    `ctrl (or cmd) + shift + a`
-* > **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**&#x200B;로 이동합니다.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* 보고 및 분석 보고서 내에서 > **[!UICONTROL More]** 로 **[!UICONTROL Add Alert]**&#x200B;이동합니다.
+* **[!UICONTROL 작업 공간]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**&#x200B;로 이동.
+* 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**.
+* Reports &amp; Analytics 보고서에서, **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동.
 
 ## 경고 작성
 
@@ -41,7 +44,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 지표를 확인할 시기(시간별, 일별, 주별 또는 월별)를 지정합니다.
 
->[!NOTE] 사용자 지정 달력을 사용하는 보고서 세트에 대해, Adobe에서는 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
+>[!NOTE]
+>
+>사용자 지정 달력을 사용하는 보고서 세트에 대해, Adobe에서는 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
 
 **수신자**
 
@@ -75,6 +80,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    * 아래 또는 같음
    * 변경
    * 90%, 95%, 99%, 99.75% 및 99.9%의 임계값을 설정할 수 있습니다.
+
    계산된 지표를 사용할 수도 있습니다.
 
 *... 다음 필터 사용*
