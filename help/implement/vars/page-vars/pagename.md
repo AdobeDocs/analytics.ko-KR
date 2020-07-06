@@ -1,8 +1,11 @@
 ---
 title: pageName
 description: 사이트에 있는 페이지의 이름입니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `pageName` 변수는 일반적으로 주어진 페이지의 이름을 저장합니다. 이 변수는 가장 인기 있는 개별 페이지를 결정하는 데 유용합니다. 이 변수는 &#39;페이지 이름&#39; 차원을 채웁니다.
 
->[!NOTE] 이 차원은 항상 링크 추적 호출에서 제거됩니다. 링크가 추적된 페이지 이름을 보려면 이 변수를 eVar에 복사하는 것이 좋습니다.
+>[!NOTE]
+>
+>이 차원은 항상 링크 추적 호출에서 제거됩니다. 링크가 추적된 페이지 이름을 보려면 이 변수를 eVar에 복사하는 것이 좋습니다.
 
 이 변수가 주어진 페이지 추적 호출에 정의되어 있지 않은 경우 [`pageURL`](pageurl.md) 변수가 대신 사용됩니다.
 
