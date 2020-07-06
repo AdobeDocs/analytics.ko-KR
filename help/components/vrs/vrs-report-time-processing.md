@@ -3,7 +3,10 @@ description: 보고서 처리 시간은 데이터를 비파괴적이고 소급�
 title: 보고서 처리 시간
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1426'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 보고서 처리 시간은 데이터를 비파괴적이고 소급적인 방식으로 처리할 수 있는 가상 보고서 세트 설정입니다.
 
->[!NOTE] 보고서 처리 시간은 Analysis Workspace에만 사용할 수 있습니다.
+>[!NOTE]
+>
+>보고서 처리 시간은 Analysis Workspace에만 사용할 수 있습니다.
 
 보고서 처리 시간은 가상 보고서 세트의 데이터에만 영향을 주고 기본 보고서 세트의 데이터 또는 데이터 수집에는 영향을 주지 않습니다.  보고서 처리 시간과 기존 Analytics 처리 간의 차이점은 다음 다이어그램을 사용하여 가장 잘 이해할 수 있습니다.
 
