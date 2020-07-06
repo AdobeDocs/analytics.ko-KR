@@ -2,7 +2,7 @@
 title: linkTrackVars
 description: 링크 추적 이미지 요청에 포함할 변수를 지정합니다.
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 Launch는 인터페이스에 설정된 변수를 기반으로 백엔드에서 이 변수를 자동으로 채우며, 따라서 Launch를 사용하여 구현에서 항상 설정됩니다.
 
->[!IMPORTANT] 사용자 지정 코드 편집기를 사용하여 Launch에서 변수를 설정하는 경우 사용자 지정 코드도 사용하여 `linkTrackVars`에서 변수를 포함해야 합니다.
+>[!IMPORTANT]
+>
+>사용자 지정 코드 편집기를 사용하여 Launch에서 변수를 설정하는 경우 사용자 지정 코드도 사용하여 `linkTrackVars`에서 변수를 포함해야 합니다.
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkTrackVars
 
@@ -38,7 +40,9 @@ s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 * 이 변수가 정의되지 않거나 빈 문자열로 설정되면 *모든* 변수가 링크 추적 이미지 요청에 포함됩니다.
 * 이 변수가 `"None"`으로 설정되면 어떠한 변수도 링크 추적 이미지 요청에 포함되어 *않습니다*.
 
->[!TIP] 이 변수에서 변수를 지정할 때 Analytics 개체 식별자(`s.`)를 사용하지 마십시오. 예를 들어, `s.linkTrackVars = "eVar1";`은 올바르지만 `s.linkTrackVars = "s.eVar1";`은 틀립니다.
+>[!TIP]
+>
+>이 변수에서 변수를 지정할 때 Analytics 개체 식별자(`s.`)를 사용하지 마십시오. 예를 들어, `s.linkTrackVars = "eVar1";`은 올바르지만 `s.linkTrackVars = "s.eVar1";`은 틀립니다.
 
 ## 예
 
