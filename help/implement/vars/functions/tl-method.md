@@ -1,8 +1,11 @@
 ---
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 링크 개체 인수는 브라우저가 최대 500밀리초를 기다린 후에 페이지에서 나가는지 여부를 결정합니다. 이미지 요청이 500밀리초 이내로 전송되면 페이지가 클릭한 링크로 즉시 이동합니다.
 
->[!NOTE] AppMeasurement는 종료 링크에 대해 [`useBeacon`](../config-vars/usebeacon.md) 변수를 자동으로 활성화하므로 최신 브라우저에서 이 인수가 더 이상 필요하지 않게 됩니다. 이 인수는 이전 버전의 AppMeasurement에서 더 일반적으로 사용되었습니다.
+>[!NOTE]
+>
+>AppMeasurement는 종료 링크에 대해 [`useBeacon`](../config-vars/usebeacon.md) 변수를 자동으로 활성화하므로 최신 브라우저에서 이 인수가 더 이상 필요하지 않게 됩니다. 이 인수는 이전 버전의 AppMeasurement에서 더 일반적으로 사용되었습니다.
 
 * `this`: AppMeasurement에 이미지 요청을 전송할 시간을 제공하기 위해 최대 500밀리초를 대기합니다. 기본값.
 * `true`: 기다리지 않습니다.
