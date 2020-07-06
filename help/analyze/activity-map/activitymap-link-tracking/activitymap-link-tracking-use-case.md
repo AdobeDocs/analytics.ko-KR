@@ -3,8 +3,11 @@ description: s_objectID 변경을 사용하여 링크 ID를 사용자 지정하�
 title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -87,7 +90,9 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 각 &quot;buy&quot; 링크에 자체 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면, &quot;id&quot; 매개 변수를 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 추가하십시오.
 
->[!NOTE] 영역 식별자로 &quot;id&quot; 매개 변수만 사용하도록 엄격히 제한되어 있지는 않습니다. JavaScript 변수 &quot;s.ActivityMap.regionIDAttribute&quot;를 사용하여 자체 식별자를 설정할 수도 있습니다.
+>[!NOTE]
+>
+>영역 식별자로 &quot;id&quot; 매개 변수만 사용하도록 엄격히 제한되어 있지는 않습니다. JavaScript 변수 &quot;s.ActivityMap.regionIDAttribute&quot;를 사용하여 자체 식별자를 설정할 수도 있습니다.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
