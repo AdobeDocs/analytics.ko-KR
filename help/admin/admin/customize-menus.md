@@ -4,7 +4,10 @@ title: 메뉴 사용자 지정
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 메뉴 변경 사항은 보고서 세트에 액세스하는 모든 사용자에게 적용됩니다. 하지만 사용자는 보고서 세트를 사용하는 동안 메뉴의 기본 구성을 복원할 수 있습니다.
 
->[!NOTE] 메뉴 구조의 변경 사항은 Report Builder 및 Ad Hoc Analysis에 영향을 주지 않습니다. 하지만 보고서 이름을 바꾸면 두 도구에 반영됩니다.
+>[!NOTE]
+>
+>메뉴 구조의 변경 사항은 Report Builder 및 Ad Hoc Analysis에 영향을 주지 않습니다. 하지만 보고서 이름을 바꾸면 두 도구에 반영됩니다.
 
 ## 메뉴 사용자 지정 설명 {#section_B0D224DACB914A378902A4E0E1234889}
 
