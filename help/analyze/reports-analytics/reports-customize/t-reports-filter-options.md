@@ -3,8 +3,11 @@ description: 필터 기능을 통해 필터에 일치하는 라인 항목을 포
 title: 보고서 데이터 필터링
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,9 @@ help:Internal Search Term
 
 라인 항목에 해당 용어가 있으면 일치합니다. 단순 필터와 동일한 방식으로 작동합니다.
 
->[!NOTE] 공백은 검색에서 구분 기호로 인식하기 때문에 필터에 사용할 수 없습니다.
+>[!NOTE]
+>
+> 공백은 검색에서 구분 기호로 인식하기 때문에 필터에 사용할 수 없습니다.
 
 **다음을 포함하지 않음**
 
