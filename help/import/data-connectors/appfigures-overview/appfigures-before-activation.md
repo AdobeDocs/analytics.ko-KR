@@ -3,7 +3,10 @@ description: 이 통합을 활성화하기 전에 Adobe Analytics® 및 이메�
 title: 이 통합을 활성화하기 전에
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ appFigures용 Data Connectors 통합은 Analytics 변수를 사용하여 다양�
 
 ### 필수 변수 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] 이 통합에서는 앱스토어 데이터에 전용 변수를 사용하므로 사용자 지정 상거래 변수 및 이벤트를 할당할 필요가 없습니다.
+>[!NOTE]
+>
+>이 통합에서는 앱스토어 데이터에 전용 변수를 사용하므로 사용자 지정 상거래 변수 및 이벤트를 할당할 필요가 없습니다.
 
 | 변수 유형 |  이름  | 채우기 방법 | 설명 |
 |---|---|---|---|
