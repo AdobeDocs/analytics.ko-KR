@@ -1,8 +1,11 @@
 ---
 title: doPlugins
 description: 히트가 컴파일되고 Adobe에 전송되기 바로 전에 논리를 구성합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE] 함수를 구현에서 한 번만 `doPlugins` 변수로 설정하십시오. `doPlugins` 변수를 두 번 이상 설정하면 가장 최근 코드만 사용됩니다.
+>[!NOTE]
+>
+>함수를 구현에서 한 번만 `doPlugins` 변수로 설정하십시오. `doPlugins` 변수를 두 번 이상 설정하면 가장 최근 코드만 사용됩니다.
 
 ## 예
 
@@ -44,4 +49,6 @@ s.doPlugins = function() {
 }
 ```
 
->[!NOTE] 이전 버전의 AppMeasurement에는 약간 다른 `doPlugins()` 코드가 있었습니다. 위의 형식을 우수 사례로 사용하는 것이 좋습니다.
+>[!NOTE]
+>
+>이전 버전의 AppMeasurement에는 약간 다른 `doPlugins()` 코드가 있었습니다. 위의 형식을 우수 사례로 사용하는 것이 좋습니다.
