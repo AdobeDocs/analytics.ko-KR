@@ -2,7 +2,10 @@
 title: 데이터 피드 만들기 또는 편집
 description: 데이터 피드를 만들거나 편집하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +62,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * eu-west-1
 * sa-east-1
 
->[!NOTE] cn-north-1 지역은 지원되지 않습니다.
+>[!NOTE]
+>
+>cn-north-1 지역은 지원되지 않습니다.
 
 ### Azure Blob
 
@@ -67,7 +72,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![Azure 정보](assets/azure.png)
 
->[!NOTE] 피드 대상의 디스크 공간을 관리하려면 자체 프로세스를 구현해야 합니다. Adobe는 서버에서 데이터를 삭제하지 않습니다.
+>[!NOTE]
+>
+>피드 대상의 디스크 공간을 관리하려면 자체 프로세스를 구현해야 합니다. Adobe는 서버에서 데이터를 삭제하지 않습니다.
 
 ## 데이터 열 정의
 
@@ -77,6 +84,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * **압축 포맷**: 사용된 압축 종류입니다. Gzip은 파일을 `.tar.gz` 형식으로 출력합니다. Zip은 파일을 `.zip` 형식으로 출력합니다.
 * **패키징 타입**: 단일 파일이 `hit_data.tsv` 파일을 하나의 파일로 출력합니다. 이 파일은 매우 클 수 있습니다. 여러 파일이 데이터를 2GB 청크(압축되지 않음)로 페이지를 매깁니다. 여러 파일을 선택하고 보고 기간의 압축되지 않은 데이터가 2GB 미만이면 하나의 파일이 전송됩니다. 대부분의 데이터 피드에서 여러 파일을 사용하는 것이 좋습니다.
 * **열 템플릿**: 많은 데이터 피드를 만들 때는 열 템플릿을 만드는 것이 좋습니다. 열 템플릿을 선택하면 지정된 열이 템플릿에 자동으로 포함됩니다. Adobe도 기본적으로 여러 템플릿을 제공합니다.
-* **사용 가능한 열**: Adobe Analytics에서 사용 가능한 모든 데이터 열. Click [!UICONTROL Add all] to include all columns in a data feed.
-* **포함된 열**: 데이터 피드에 포함할 열. Click [!UICONTROL Remove all] to remove all columns from a data feed.
+* **사용 가능한 열**: Adobe Analytics에서 사용 가능한 모든 데이터 열. 데이터 피드에 모든 열을 포함하려면 [!UICONTROL 모두 추가]를 클릭하십시오.
+* **포함된 열**: 데이터 피드에 포함할 열. 데이터 피드에 모든 열을 제거하려면 [!UICONTROL 모두 제거]를 클릭하십시오.
 * **CSV 다운로드**: 포함된 모든 열이 들어 있는 CSV 파일을 다운로드합니다.
