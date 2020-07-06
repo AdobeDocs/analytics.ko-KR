@@ -1,8 +1,11 @@
 ---
 title: transactionID
 description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `transactionID` 변수는 Data Sources를 통해 업로드된 데이터에 히트가 연결할 수 있도록 거래를 고유하게 식별합니다. 이 변수는 다른 채널의 데이터를 사용하고 이 데이터를 AppMeasurement로 수집한 데이터에 연결하려는 경우에 유용합니다.
 
->[!NOTE] 이 변수를 사용하기 전에 보고서 세트에서 [!UICONTROL 거래 ID 스토리지]가 활성화되어 있는지 확인하십시오. 자세한 내용은 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
+>[!NOTE]
+>
+>이 변수를 사용하기 전에 보고서 세트에서 [!UICONTROL 거래 ID 스토리지]가 활성화되어 있는지 확인하십시오. 자세한 내용은 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
 
 히트에서 `transactionID`를 설정하면 Adobe는 해당 시점에서 설정하거나 지속되는 모든 Analytics 변수의 &quot;스냅샷&quot;을 만듭니다. 일치하는 거래 ID로 Data Sources를 통해 업로드된 데이터는 해당 변수 값에 영구적으로 연결됩니다.
 
@@ -44,4 +49,6 @@ s.transactionID = "ABC123";
 s.transactionID = "ABC123,XYZ456";
 ```
 
->[!NOTE] 이 변수를 사용하여 여러 오프라인 채널을 통합하는 경우 다른 채널이 거래 ID와 겹치지 않도록 하십시오. 예를 들어, `1234`라는 콜 센터 거래 ID 값과 `1234`라는 영업 리드 거래 ID 값이 있는 경우, 이 값들이 충돌하여 예상치 않은 결과가 발생할 수 있습니다. 거래 ID에 각 오프라인 채널에 대해 고유한 형식이 포함되어 있는지 확인하고 필요한 경우 구분해야 합니다. 예를 들어, Data Sources와 AppMeasurement 모두에서 콜 센터 거래 ID를 `call_1234`로 설정하고 영업 리드 거래 ID를 `lead_1234`로 설정합니다.
+>[!NOTE]
+>
+>이 변수를 사용하여 여러 오프라인 채널을 통합하는 경우 다른 채널이 거래 ID와 겹치지 않도록 하십시오. 예를 들어, `1234`라는 콜 센터 거래 ID 값과 `1234`라는 영업 리드 거래 ID 값이 있는 경우, 이 값들이 충돌하여 예상치 않은 결과가 발생할 수 있습니다. 거래 ID에 각 오프라인 채널에 대해 고유한 형식이 포함되어 있는지 확인하고 필요한 경우 구분해야 합니다. 예를 들어, Data Sources와 AppMeasurement 모두에서 콜 센터 거래 ID를 `call_1234`로 설정하고 영업 리드 거래 ID를 `lead_1234`로 설정합니다.
