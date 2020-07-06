@@ -2,7 +2,7 @@
 title: 평균 페이지 깊이
 description: 차원에 있는 평균 페이지 수입니다.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] 소수점이 있는 평균 페이지 깊이를 보려면 이 지표를 공식 내의 유일한 요소로 사용하여 계산된 지표를 만드십시오. 계산된 지표의 소수점 자리를 원하는 소수로 늘립니다.
+>[!TIP]
+>
+>소수점이 있는 평균 페이지 깊이를 보려면 이 지표를 공식 내의 유일한 요소로 사용하여 계산된 지표를 만드십시오. 계산된 지표의 소수점 자리를 원하는 소수로 늘립니다.
 
 ## 백분율이 100%를 초과합니다.
 
