@@ -1,11 +1,11 @@
 ---
 title: 집단 분석이란?
-description: 분석 작업 공간의 집단 분석에 대해 알아봅니다.
+description: Analysis Workspace의 집단 분석에 대한 자세한 내용
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -24,13 +24,15 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
 * View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-[!UICONTROL 집단 분석] 기능은 분석 작업 공간에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에게 [!UICONTROL 제공됩니다].
+[!UICONTROL 집단 분석] 기능은 [!UICONTROL Analysis Workspace에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객이 사용할 수 있습니다].
 
 [집단 분석 - YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
 
 >[!IMPORTANT]
 >
->[!UICONTROL 집단 분석은] 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출 등) 또는 발생을 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만
+>[!UICONTROL 집단 분석]
+>
+>은 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만
 >[!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
