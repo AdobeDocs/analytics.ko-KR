@@ -2,8 +2,11 @@
 description: 이 문서에서는 데이터 주체의 GDPR 액세스 및 삭제 권한을 지원하기 위해 Adobe Analytics에서 수행해야 하는 작업에 대해 설명합니다.
 title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## Adobe 개요 {#section_E582A1D77583410EBB790BB646854A2C}
 
->[!IMPORTANT] 이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 자세한 내용은 회사의 법무 부서에 문의하십시오.
+>[!IMPORTANT]
+>
+>이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 자세한 내용은 회사의 법무 부서에 문의하십시오.
 
 2018년 5월 25일에 유럽 연합의 GDPR(General Data Protection Regulation)가 발효되었습니다. Adobe의 대응 및 Adobe 고객에게 GDPR이 의미하는 바에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html)를 참조하십시오.
 
