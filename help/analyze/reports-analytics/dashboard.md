@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: 대시보드 및 Reportlet
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 실시간 보고서
 * 기타 대시보드
 
->[!NOTE] Reports &amp; Analytics에 더 이상 **[!UICONTROL 사이트 개요]**&#x200B;대시보드가 나열되지 않습니다. 하지만 여전히 일부 또는 모든 Reportlet을 보게 되는 2가지 상황이 있습니다.
+>[!NOTE]
+>
+>Reports &amp; Analytics에 더 이상 **[!UICONTROL 사이트 개요]**&#x200B;대시보드가 나열되지 않습니다. 하지만 여전히 일부 또는 모든 Reportlet을 보게 되는 2가지 상황이 있습니다.
 
 * 자주 본 보고서가 3개뿐인 경우 Reports &amp; Analytics에서는 사이트 개요 대시보드에서 보고서 2개를 가져와 **[!UICONTROL 내 권장 보고서]** 대시보드를 완료합니다.
 * 새 보고서 세트는 자주 보는 보고서로 대체될 때까지 처음의 사이트 개요 Reportlet 기능을 가지고 있습니다. 그렇지만 이제 대시보드는 **[!UICONTROL 내 권장 보고서]**&#x200B;라고 불리게 됩니다.
@@ -55,7 +60,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
- [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md).
+자세한 내용은 [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## 대시보드 만들기 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
