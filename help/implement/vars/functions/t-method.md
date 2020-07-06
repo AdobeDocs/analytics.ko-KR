@@ -1,8 +1,11 @@
 ---
 title: t
 description: Adobe에 페이지 보기 추적 호출을 보냅니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 100%
 
 ---
 
@@ -60,4 +63,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] 이전 버전의 AppMeasurement에서는 이 함수를 호출하기 위해 여러 줄의 코드를 사용했습니다. 지금까지는 추가적인 코드가 다양한 브라우저에 대한 해결 방법을 제공했습니다. 최신 브라우저의 표준화와 우수 사례를 통해 더 이상 이 코드 블록이 필요하지 않게 되었습니다. 이제 메서드 호출 `s.t()`만 있으면 됩니다.
+>[!NOTE]
+>
+>이전 버전의 AppMeasurement에서는 이 함수를 호출하기 위해 여러 줄의 코드를 사용했습니다. 지금까지는 추가적인 코드가 다양한 브라우저에 대한 해결 방법을 제공했습니다. 최신 브라우저의 표준화와 우수 사례를 통해 더 이상 이 코드 블록이 필요하지 않게 되었습니다. 이제 메서드 호출 `s.t()`만 있으면 됩니다.
