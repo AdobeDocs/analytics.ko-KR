@@ -4,15 +4,20 @@ keywords: Analytics Implementation
 title: 속성 및 지속성
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 100%
 
 ---
 
 
 # 속성 및 지속성
 
->[!IMPORTANT] 장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. 구성 요소 사용 안내서의 [Cross-Device Analytics](/help/components/cda/cda-home.md)를 참조하십시오.
+>[!IMPORTANT]
+>
+>장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. 구성 요소 사용 안내서의 [Cross-Device Analytics](/help/components/cda/cda-home.md)를 참조하십시오.
 
 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
 
@@ -40,7 +45,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 다른 방법에 의해 만료되도록 설정된 eVar는 인증된 프로필에 복사됩니다. 값 `apple`은 지속됩니다.
 * 지속되는 eVar의 경우 인스턴스 지표가 기록되지 않습니다. 이것은 장치 간 방문자 식별을 사용할 때 eVar 값에 대한 고유 방문 수 지표가 인스턴스 지표보다 클 때 보고서를 볼 수 있음을 의미합니다.
 
->[!NOTE] 사용자가 사이트를 처음 방문하고(이 장치에서 전에 방문한 적이 없음) 도착 후 약 3분 내에 인증되는 경우 값이 인증된 프로필로 지속되지 않습니다.
+>[!NOTE]
+>
+>사용자가 사이트를 처음 방문하고(이 장치에서 전에 방문한 적이 없음) 도착 후 약 3분 내에 인증되는 경우 값이 인증된 프로필로 지속되지 않습니다.
 
 ## 예제 2
 
