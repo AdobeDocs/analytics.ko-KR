@@ -1,8 +1,11 @@
 ---
 title: zip
 description: 보고서 세트 설정이 허용하는 경우 '우편번호' 차원을 수동으로 채웁니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 보고서 세트 설정의 [!UICONTROL Zip 옵션]이 허용하는 경우 `zip` 변수를 사용하여 &#39;우편번호&#39; 차원을 수동으로 채울 수 있습니다. 이전 버전의 Adobe Analytics에서는 일반적으로 소매 사이트에 배송 정보를 입력할 때 이 변수를 수동으로만 설정할 수 있었습니다. Adobe Analytics의 개선된 기능을 사용하면 지리적 위치 데이터를 사용하여 이 변수를 자동으로 설정할 수 있습니다. 이 변수는 이 변수가 설정된 히트 이후로 지속되지 않습니다.
 
->[!IMPORTANT] 보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. 이 변수는 [!UICONTROL geo zip](지리적 우편번호) 이 항상 사용되는 경우에는 사용할 수 없습니다. 자세한 내용은 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
+>[!IMPORTANT]
+>
+>보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. 이 변수는 [!UICONTROL geo zip](지리적 우편번호) 이 항상 사용되는 경우에는 사용할 수 없습니다. 자세한 내용은 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
 
 ## Adobe Experience Platform Launch의 우편번호
 
