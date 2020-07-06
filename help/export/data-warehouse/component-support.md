@@ -2,7 +2,10 @@
 title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Data Warehouse의 고유한 처리 아키텍처를 통해 일반적으로 Adobe 
 
 일부 차원 및 지표는 Data Warehouse에서 지원되지 않습니다.
 
->[!NOTE] 차원 또는 지표가 Data Warehouse에서 지원되지 않는 경우 이러한 구성 요소를 사용하는 세그먼트도 지원되지 않습니다. 세그먼트를 만들거나 편집할 때 항상 제품 호환성을 확인하십시오.
+>[!NOTE]
+>
+>차원 또는 지표가 Data Warehouse에서 지원되지 않는 경우 이러한 구성 요소를 사용하는 세그먼트도 지원되지 않습니다. 세그먼트를 만들거나 편집할 때 항상 제품 호환성을 확인하십시오.
 
 ### 차원이 지원되지 않음
 
