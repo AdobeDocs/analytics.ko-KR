@@ -2,8 +2,11 @@
 description: 'null'
 title: 서버 호출 사용량 개요
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 100%
 
 ---
 
@@ -82,7 +85,9 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
 
 서버 통화 사용량 권한은 자동으로 분석 관리자에게 부여됩니다. 이를 통해 사용자는 대시보드를 보고 서버 호출 경고를 작성할 수 있습니다. 관리자는 이 권한을 관리자가 아닌 사용자에게 부여하도록 선택할 수 있습니다.
 
->[!NOTE] 귀사는 서버 호출 사용량에 접근할 수 있는 로그인 회사를 선택할 수 있습니다.
+>[!NOTE]
+>
+>귀사는 서버 호출 사용량에 접근할 수 있는 로그인 회사를 선택할 수 있습니다.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
