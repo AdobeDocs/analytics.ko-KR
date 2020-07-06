@@ -4,7 +4,10 @@ title: 참조 요청 복사
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 100%
 
 ---
 
@@ -17,20 +20,22 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 동일한 통합 문서의 서로 다른 워크시트에 있는 요청의 입력 필터를 참조하는 요청을 만들 수도 있습니다. 예를 들어, 시트 2의 요청은 시트 1에 있는 지정된 셀의 보고서 세트와 시트 2의 요청에 있는 셀의 날짜 범위를 사용할 수 있습니다. 새 출력은 동일한 통합 문서 내에서 기존 시트나 새 시트에 배치될 수 있습니다. 상대적 요청을 붙여넣을 때, 입력 필터가 복사된 요청 출력이 있는 워크시트와 다른 워크시트에 있을 경우 이 필터는 절대 필터로 붙여넣게 됩니다.
 
->[!NOTE] 단일 요청을 여러 워크시트로 출력할 수 없습니다. 그리고, 요청에 다른 워크시트의 입력 필터가 들어 있으므로 시스템은 복사된 요청 중 일부를 새 통합 문서에 붙여넣을 수 없습니다. 입력 필터에는 셀의 보고서 세트, 셀의 날짜 범위, 셀의 필터 및 기타 관련 매개 변수가 포함되어 있습니다.
+>[!NOTE]
+>
+>단일 요청을 여러 워크시트로 출력할 수 없습니다. 그리고, 요청에 다른 워크시트의 입력 필터가 들어 있으므로 시스템은 복사된 요청 중 일부를 새 통합 문서에 붙여넣을 수 없습니다. 입력 필터에는 셀의 보고서 세트, 셀의 날짜 범위, 셀의 필터 및 기타 관련 매개 변수가 포함되어 있습니다.
 
 **참조 요청 복사 방법**
 
 1. 입력 셀이나 참조된 셀을 비롯하여 복사할 요청이 들어 있는 셀을 선택합니다.
-1. Right-click within the highlighted cells and select **[!UICONTROL Copy Requests]** from the shortcut menu.
+1. 강조 표시된 셀 내부를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **[!UICONTROL 요청 복사]**&#x200B;를 선택합니다.
 
    요청과 입력 셀이 있는 영역을 선택하면 시스템이 이 요소들이 있는 셀을 강조 표시합니다.
 1. 셀 하나나 연속적인 셀 범위를 선택하여 붙여넣기가 수행된 요청으로 채웁니다.
 
    선택하는 셀 또는 셀 범위에 데이터나 요청이 없도록 합니다.
-1. Right-click the single cell or the top left-most cell in the range of cells and select **[!UICONTROL Paste Requests]**.
+1. 단일 셀이나, 셀 범위에서 맨 위의 왼쪽 끝에 있는 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 요청 붙여넣기]**&#x200B;를 선택합니다.
 
-   When pasting requests that include an input cell, the options under [!UICONTROL Paste Requests] include:
+   입력 셀이 포함되어 있는 요청을 붙여넣을 때 [!UICONTROL 요청 붙여넣기] 아래의 선택 사항은 다음과 같습니다.
 
    **절대 입력 셀 사용:** 요청의 사본과, 선택한 셀과 연결된 서식을 강조 표시한 붙여넣기 영역에 붙여넣습니다. 입력 셀(원본 요청 중 하나에서 참조된 셀)은 붙여넣기가 되지 않습니다. 대신 이 입력 셀은 전과 동일한 위치를 유지합니다.
 
