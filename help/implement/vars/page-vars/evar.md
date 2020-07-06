@@ -2,7 +2,7 @@
 title: eVar
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 86%
@@ -57,4 +57,6 @@ s.eVar1 = "+12.49";
 
 소수점 이하 자리 수가 세 자리 이상인 수가 지정되는 경우, eVar 카운터는 소수점 이하 두 자리로 반올림합니다. eVar 카운터에는 음수가 들어 있을 수 없습니다.
 
-> [!IMPORTANT] 먼저 카운터 eVar를 사용하기 전에 Admin Console에서 eVar를 &#39;카운터&#39;로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+>[!IMPORTANT]
+>
+>먼저 카운터 eVar를 사용하기 전에 Admin Console에서 eVar를 &#39;카운터&#39;로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
