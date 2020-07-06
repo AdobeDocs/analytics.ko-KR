@@ -1,8 +1,11 @@
 ---
 title: useLinkTrackSessionStorage
 description: 링크 추적 데이터를 쿠키 대신 세션 저장소에 저장합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 프로토콜 간에 세션 저장소가 작동하지 않습니다. 예를 들어 HTTP에서 제공되는 페이지가 한 개 있고 HTTPS에서 제공되는 다음 페이지가 있습니다. 프로토콜 차이로 인해 AppMeasurement가 세션 저장소의 링크 추적 데이터에 액세스할 수 없습니다.
 * 하위 도메인 간에 세션 저장소가 작동하지 않습니다. 예를 들어 방문자가 `store.example.com`로 이동한 다음 `toys.example.com`로 이동합니다. 다른 하위 도메인으로 인해 AppMeasurement가 세션 저장소의 링크 추적 데이터에 액세스할 수 없습니다.
 
->[!TIP] 링크 추적에 세션 저장소를 사용하는 가장 안정적인 구현은 단일 하위 도메인에서 HTTPS를 통해 모든 컨텐츠를 제공합니다.
+>[!TIP]
+>
+>링크 추적에 세션 저장소를 사용하는 가장 안정적인 구현은 단일 하위 도메인에서 HTTPS를 통해 모든 컨텐츠를 제공합니다.
 
 AppMeasurement는 Adobe에 히트를 보낸 후 세션 저장소 링크 추적 데이터를 제거합니다. 또한 브라우저 탭이 닫히면 자동으로 만료됩니다.
 
