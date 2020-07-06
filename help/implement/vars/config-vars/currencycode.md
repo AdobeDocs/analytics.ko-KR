@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ ht-degree: 90%
 
 `currencyCode`가 정의되어 있고 보고서 세트의 통화와 다른 경우에는 Adobe가 현재 날짜의 환율을 기준으로 통화 변환을 적용합니다. Adobe는 [XE](https://xe.com)와 협력하여 매일 통화를 변환합니다. 데이터 수집 서버에 저장된 모든 값은 궁극적으로 보고서 세트의 통화로 저장됩니다.
 
->[!IMPORTANT] `currencyCode`에 잘못된 값이 포함되어 있으면 전체 히트가 삭제되어 데이터 손실이 발생합니다. 구현에서 이 변수를 사용하는 경우 이 변수가 올바르게 정의되어 있는지 확인하십시오.
+>[!IMPORTANT]
+>
+>`currencyCode`에 잘못된 값이 포함되어 있으면 전체 히트가 삭제되어 데이터 손실이 발생합니다. 구현에서 이 변수를 사용하는 경우 이 변수가 올바르게 정의되어 있는지 확인하십시오.
 
 이 변수는 히트 간에 지속되지 않습니다. 이 변수가 매출 또는 통화 이벤트를 포함하는 모든 페이지에서 정의되었는지 확인하십시오.
 
