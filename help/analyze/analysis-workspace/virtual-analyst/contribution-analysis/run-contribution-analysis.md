@@ -3,7 +3,7 @@ description: 'null'
 title: 기여도 분석 실행
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
@@ -52,7 +52,9 @@ ht-degree: 100%
    * [경고 만들기 ](/help/components/c-alerts/intellligent-alerts.md)
    * [세그먼트 만들기 또는 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE] 기여도 분석 내에서 파란색 점이 있는 분석되는 예외 항목과 이 항목에 연결된 지능형 경고 프로젝트를 강조 표시합니다. 이렇게 하면 분석되는 예외 항목이 더 명확히 표시됩니다.
+>[!NOTE]
+>
+>기여도 분석 내에서 파란색 점이 있는 분석되는 예외 항목과 이 항목에 연결된 지능형 경고 프로젝트를 강조 표시합니다. 이렇게 하면 분석되는 예외 항목이 더 명확히 표시됩니다.
 
 ## 기여도 분석에서 차원 제외 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
