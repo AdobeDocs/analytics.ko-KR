@@ -3,8 +3,11 @@ description: 서버 측 전달은 Analytics의 데이터를 다른 Experience Cl
 solution: Audience Manager
 title: 서버 측 전달 개요
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 100%
 
 ---
 
@@ -66,5 +69,7 @@ Analytics에서 어떤 데이터가 공유되는지를 더 세부적으로 제�
 * **비활성화됨** 상태라면, 새 서버 측 전달이 설정되어 있지 않았습니다. 페이지의 컨텐츠를 읽은 다음, 기능을 활성화하십시오.
 * **활성화됨** 상태라면, 사용자는 새 서버 측 전달을 위해 프로비저닝되었습니다. 이 Audience Analytics 통합을 설정할 수도 있습니다.
 
->[!NOTE] 3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/aam-home.html) 또는 [Audiences](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)와 같은 다른 Experience Cloud 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
+>[!NOTE]
+>
+>3개의 단계가 모두 완료되기 전까지는 [Audience Manager](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/aam-home.html) 또는 [Audiences](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)와 같은 다른 Experience Cloud 솔루션에 데이터가 표시되지 않습니다. 활성화한 후 이 설정이 적용되는 데에는 몇 시간이 걸립니다.
 
