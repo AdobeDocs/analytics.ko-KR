@@ -1,8 +1,11 @@
 ---
 title: Analytics 변수에 Launch 데이터 요소 매핑
 description: Analysis Workspace에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,9 @@ Adobe Experience Platform Launch에 데이터 요소가 저장되어 있으면 A
 1. 모달 창에서 원하는 데이터 요소를 선택합니다. [!UICONTROL 선택]을 클릭합니다.
 1. 데이터 요소 이름이 `%` 기호로 둘러싸인 텍스트 필드에 추가됩니다. 예를 들어 데이터 요소의 이름을 &quot;페이지 이름&quot;으로 지정한 경우 데이터 요소를 변수에 할당할 때 `%Page name%` 문자열이 표시됩니다.
 
->[!TIP] 동일한 변수에 데이터 요소를 연결할 수 있습니다. 예를 들어 &quot;호스트 이름&quot; 데이터 요소와 &quot;경로 이름&quot; 데이터 요소가 있는 경우 `%Hostname%%Pathname%`를 사용하여 두 요소를 모두 단일 변수에 결합할 수 있습니다.
+>[!TIP]
+>
+>동일한 변수에 데이터 요소를 연결할 수 있습니다. 예를 들어 &quot;호스트 이름&quot; 데이터 요소와 &quot;경로 이름&quot; 데이터 요소가 있는 경우 `%Hostname%%Pathname%`를 사용하여 두 요소를 모두 단일 변수에 결합할 수 있습니다.
 
 ## 다음 단계
 
