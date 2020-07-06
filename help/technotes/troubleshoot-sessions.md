@@ -2,7 +2,10 @@
 title: Adobe Analytics의 세션 문제 해결
 description: Adobe Analytics에서 로그아웃되는 것과 관련된 문제를 해결하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,9 @@ Adobe는 Adobe에 요청할 때 인증 헤더를 사용합니다. Bluecoat(현�
 
 이 문제를 해결하려면 조직의 IT 팀과 함께 조직의 프록시를 통해 인증 헤더를 허용하는 것이 좋습니다.
 
->[!NOTE] Analytics 커뮤니티의 구성원은 다음 링크가 유용하다고 판단했지만, 그러한 링크는 Adobe가 소유하고 있지 않습니다. 이런 컨텐츠를 볼 때 이 점을 고려하십시오.
+>[!NOTE]
+>
+>Analytics 커뮤니티의 구성원은 다음 링크가 유용하다고 판단했지만, 그러한 링크는 Adobe가 소유하고 있지 않습니다. 이런 컨텐츠를 볼 때 이 점을 고려하십시오.
 
 Symantec 프록시 및 인증 헤더에 대한 정보는 다음을 참조하십시오.
 
