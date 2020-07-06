@@ -4,7 +4,10 @@ title: 사용자 지정 보고서 설명
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL *변수&#x200B;*]**
 
->[!NOTE] 대부분의 기존 분류에 대해 설명을 추가할 수 있지만, 현재는 모바일 분류에 대해 추가할 수 없습니다.
+>[!NOTE]
+>
+>대부분의 기존 분류에 대해 설명을 추가할 수 있지만, 현재는 모바일 분류에 대해 추가할 수 없습니다.
 
 ![](assets/report_descriptions.png)
 
