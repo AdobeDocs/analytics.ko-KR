@@ -2,7 +2,7 @@
 title: eVar(머천다이징)
 description: 개별 제품에 연결된 사용자 지정 변수.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 29%
@@ -18,7 +18,9 @@ ht-degree: 29%
 
 구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 원하는 구문으로 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
->[!IMPORTANT] 머천다이징 eVar를 올바르게 구성하지 않으면 변수에 대한 예기치 않은 값이나 데이터 손실이 발생합니다. 구현에 맞게 올바르게 구성되었는지 확인하십시오.
+>[!IMPORTANT]
+>
+>머천다이징 eVar를 올바르게 구성하지 않으면 변수에 대한 예기치 않은 값이나 데이터 손실이 발생합니다. 구현에 맞게 올바르게 구성되었는지 확인하십시오.
 
 ## 제품 구문을 사용하여 구현
 
