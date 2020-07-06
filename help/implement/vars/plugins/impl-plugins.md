@@ -1,8 +1,11 @@
 ---
 title: 플러그인 개요
 description: 사이트에 코드를 붙여 넣어 새로운 기능을 도입할 수 있습니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 플러그인은 Analytics 구현에 도움이 되는 몇 가지 고급 기능을 수행하는 코드 조각입니다. 이러한 플러그인은 JavaScript의 기능을 확장함으로써, 기본 구현으로는 사용할 수 없는 기능들을 브라우저에서 사용할 수 있도록 해줍니다. Adobe에서는 고급 솔루션의 일부로서 다른 플러그인도 많이 제공하고 있습니다.
 
->[!IMPORTANT] 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이러한 플러그인에 대한 지원을 제공하지 않습니다. 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+>[!IMPORTANT]
+>
+>플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이러한 플러그인에 대한 지원을 제공하지 않습니다. 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 Adobe에서는 특정 플러그인을 설치하는 몇 가지 방법을 제공합니다.
 
