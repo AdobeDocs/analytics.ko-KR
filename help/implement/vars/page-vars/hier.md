@@ -1,8 +1,11 @@
 ---
 title: hier
 description: Adobe Analytics에서 계층 변수를 구현합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 계층 변수는 사이트의 구조를 볼 수 있도록 해주는 사용자 지정 변수입니다.
 
->[!TIP] 이 변수는 이전 버전의 Adobe Analytics에서 더 일반적이었습니다. Adobe에서는 대신 [eVar](evar.md) 및 분류를 사용하는 것이 좋습니다.
+>[!TIP]
+>
+>이 변수는 이전 버전의 Adobe Analytics에서 더 일반적이었습니다. Adobe에서는 대신 [eVar](evar.md) 및 분류를 사용하는 것이 좋습니다.
 
 이 변수는 사이트 구조의 수준이 4 이상인 사이트에 유용합니다. 예를 들어 미디어 사이트의 스포츠 섹션에는 4개 수준(`Sports`, `Local Sports`, `Baseball`및 `Team name`)이 있을 수 있습니다. 누군가 야구 페이지를 방문하면 스포츠, 해외 스포츠 및 야구가 해당 방문을 모두 반영합니다.
 
