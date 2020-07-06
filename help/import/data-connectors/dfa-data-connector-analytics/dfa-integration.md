@@ -5,7 +5,10 @@ title: DFA 통합
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2598'
+ht-degree: 100%
 
 ---
 
@@ -109,7 +112,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> 시간 초과 이벤트 </td> 
-   <td colname="col3"> <p>Analytics 카운터 이벤트 <span class="varname"> s.maxDelay </span> 타이머가 만료되고 DFA 서버에서 응답을 받지 못할 때마다 늘어나는 Analytics 카운트 이벤트입니다. 이 이벤트를 사용하여 <span class="varname"> s.maxDelay </span> 변수를 구성합니다(s.maxDelay </a> 조정). </p> </td> 
+   <td colname="col3"> <p>The Analytics Counter Event that including each time the <span class="varname"> s.maxDelay </span> 타이머가 만료되고 DFA 서버에서 응답을 받지 못할 때마다 늘어나는 Analytics 카운트 이벤트입니다. 이 이벤트를 사용하여 <span class="varname"> s.maxDelay </span> 변수를 구성합니다(s.maxDelay </a> 조정). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -138,7 +141,9 @@ DFA 광고 캠페인에 대한 DFA 데이터에서 뷰스루와 클릭스루 데
 
 DFA용 Genesis 통합은 DFA Floodlight 구성 ID(dfa_SPOTID)를 활용하여 DFA와 Adobe 데이터 수집 시스템 간에 보고서 일관성을 향상시킵니다.
 
->[!NOTE] Spotlight라는 용어가 Google DFA 최신 릴리스에서는 Floodlight로 변경되었습니다. JavaScript 매개 변수 `dfa_SPOTID`는 Spotlight 용어를 기반으로 명명되었지만 두 버전에 모두 사용됩니다.
+>[!NOTE]
+>
+>Spotlight라는 용어가 Google DFA 최신 릴리스에서는 Floodlight로 변경되었습니다. JavaScript 매개 변수 `dfa_SPOTID`는 Spotlight 용어를 기반으로 명명되었지만 두 버전에 모두 사용됩니다.
 
 웹 사이트에서 DFA 통합을 활성화하려면 다음을 추가하여 JavaScript 데이터 수집 코드를 업데이트해야 합니다.
 
