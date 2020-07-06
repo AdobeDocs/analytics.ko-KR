@@ -2,7 +2,7 @@
 title: 바운스 수
 description: 정확히 하나의 히트가 있는 방문 수입니다.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -18,4 +18,6 @@ ht-degree: 1%
 
 방문이 정확히 하나의 히트로 구성된 경우 히트는 바운스로 간주됩니다.
 
->[!NOTE] 방문자가 페이지 보기 및 링크 추적 호출을 모두 실행하는 경우 이 방문은 바운스로 간주되지 않습니다. 대신 [단일 페이지 방문](single-page-visits.md) 사용을 고려하십시오.
+>[!NOTE]
+>
+>방문자가 페이지 보기 및 링크 추적 호출을 모두 실행하는 경우 이 방문은 바운스로 간주되지 않습니다. 대신 [단일 페이지 방문](single-page-visits.md) 사용을 고려하십시오.
