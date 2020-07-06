@@ -1,8 +1,11 @@
 ---
 title: linkLeaveQueryString
 description: 링크 추적 차원에 쿼리 문자열을 유지할 수 있습니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ AppMeasurement는 기본적으로 링크 추적 URL에서 쿼리 문자열을 �
 
 `linkLeaveQueryString` 활성화는 모든 링크 추적 차원(사용자 지정 링크, 종료 링크 및 다운로드 링크 포함)에 적용됩니다.
 
->[!TIP] 이 변수는 링크 추적 외부의 차원에는 영향을 주지 않고, 사용자 지정 링크, 종료 링크 및 다운로드 링크에만 영향을 줍니다.
+>[!TIP]
+>
+> 이 변수는 링크 추적 외부의 차원에는 영향을 주지 않고, 사용자 지정 링크, 종료 링크 및 다운로드 링크에만 영향을 줍니다.
 
 ## Adobe Experience Platform Launch에서 URL 매개 변수 유지
 
