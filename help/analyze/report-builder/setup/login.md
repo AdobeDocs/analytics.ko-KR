@@ -3,8 +3,11 @@ description: Report Builder에 로그인하는 세 가지 방법에 대한 정�
 title: Report Builder 로그인
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사�
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] Experience Cloud 로그인은 세션을 기반으로 하며 30일 후에 토큰이 만료됩니다.
+>[!NOTE]
+>
+>Experience Cloud 로그인은 세션을 기반으로 하며 30일 후에 토큰이 만료됩니다.
 
