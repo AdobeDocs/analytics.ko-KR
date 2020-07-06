@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Data Sources 사용 준비
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 관리 도구 도움말의 [성공 이벤트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
 
->[!NOTE] 데이터 소스 데이터에서 새로운 빈 이벤트를 사용할 것이 좋지만, 드물게 기존 이벤트를 사용하는 것이 좋은 경우가 있습니다.
+>[!NOTE]
+>
+>데이터 소스 데이터에서 새로운 빈 이벤트를 사용할 것이 좋지만, 드물게 기존 이벤트를 사용하는 것이 좋은 경우가 있습니다.
 
 ## 데이터 차원 식별 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 여러 데이터 차원을 지표에 정의할 수 있지만, 각 지표는 연결된 데이터 차원 각각에 대해 관련된 값 또는 값 조합을 제공해야 합니다. 예를 들어 오프라인 판매 지표를 가져와서 *`Product`* 및 *`Partner`* 데이터 차원과 연결하는 경우, 오프라인 판매 지표는 제품과 파트너의 각 조합과 관련성이 있어야 합니다(예: 총 매출액).
 
->[!NOTE] 데이터 차원으로 분류할 수 없는 전체 지표 수를 가져올 수 있습니다.
+>[!NOTE]
+>
+>데이터 차원으로 분류할 수 없는 전체 지표 수를 가져올 수 있습니다.
 
 데이터 소스에 사용할 데이터 차원을 정의한 후에는 차원 데이터를 변수에 매핑하여 마케팅 보고서에 통합하십시오. 표준 보고서(예: 제품, 추적 코드, 검색 키워드)나 전환 트래픽 변수(eVar)를 사용합니다.
 
