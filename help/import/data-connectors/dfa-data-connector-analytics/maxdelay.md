@@ -2,7 +2,10 @@
 title: maxDelay
 description: AppMeasurement가 이미지 요청을 보내기 전에 DFA의 응답을 기다리는 최대 시간을 결정합니다.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -31,4 +34,6 @@ s.maxDelay = 750;
 * 대기 시간을 줄이면 Analytics 히트 데이터를 잃을 위험은 낮아지지만, 히트 데이터로 전송된 DFA 데이터의 양이 줄어들 수 있습니다.
 * `s.maxDelay` 기간이 DFA 호스트가 응답할 충분한 시간을 수용하지 못하는 경우 DFA 통합 데이터가 손실됩니다.
 
->[!NOTE] Adobe에서는 DFA 응답 시간을 제어하지 않습니다. 최대 지연 시간을 합리적인 시간 범위로 올린 후에도 문제가 지속되는 경우에는 조직의 DFA 계정 관리자에게 문의하십시오.
+>[!NOTE]
+>
+>Adobe에서는 DFA 응답 시간을 제어하지 않습니다. 최대 지연 시간을 합리적인 시간 범위로 올린 후에도 문제가 지속되는 경우에는 조직의 DFA 계정 관리자에게 문의하십시오.
