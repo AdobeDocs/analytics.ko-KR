@@ -1,8 +1,11 @@
 ---
 title: 마케팅 채널에서의 분류
 description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 이 절차에서 추가하는 분류는 [!UICONTROL 채널 값]으로 [!UICONTROL 마케팅 채널 개요] 보고서에 표시됩니다. 채널 값은 채널 세부 사항에서 분류되지 않은 값입니다.
 
->[!NOTE] [분류](/help/components/c-classifications2/c-classifications.md)의 분류 만들기를 잘 알고 있는지 확인합니다.
+>[!NOTE]
+>
+>[분류](/help/components/c-classifications2/c-classifications.md)의 분류 만들기를 잘 알고 있는지 확인합니다.
 
 >[!IMPORTANT]
 >
