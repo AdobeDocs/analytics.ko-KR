@@ -1,8 +1,11 @@
 ---
 title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 데이터를 수집합니다. `trackingServer` 변수는 이미지 요청이 전송되는 위치를 파악합니다. 이 변수가 올바르게 정의되지 않으면 구현에서 데이터 손실이 발생할 수 있습니다.
 
->[!IMPORTANT] 이 값을 변경하면 AppMeasurement가 다른 위치에서 쿠키를 찾습니다. 방문자 쿠키가 새 위치에 설정되면 보고에서 고유 방문자 수가 일시적으로 급증할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 값을 변경하면 AppMeasurement가 다른 위치에서 쿠키를 찾습니다. 방문자 쿠키가 새 위치에 설정되면 보고에서 고유 방문자 수가 일시적으로 급증할 수 있습니다.
 
 ## Adobe Experience Platform Launch의 추적 서버
 
@@ -28,7 +33,9 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 
 `s.trackingServer` 변수는 데이터를 보낼 위치를 포함하는 문자열입니다.
 
->[!TIP] 일부 구현은 데이터를 `2o7.net`에 보냅니다. 이 도메인은 유효한 데이터 수집 도메인이지만 지역 데이터 수집은 이용하지 않습니다. `2o7.net`을 사용하는 구현은 이미지 요청 응답 시간이 약간 더 깁니다.
+>[!TIP]
+>
+> 일부 구현은 데이터를 `2o7.net`에 보냅니다. 이 도메인은 유효한 데이터 수집 도메인이지만 지역 데이터 수집은 이용하지 않습니다. `2o7.net`을 사용하는 구현은 이미지 요청 응답 시간이 약간 더 깁니다.
 
 ## trackingServer의 값 확인
 
@@ -48,7 +55,9 @@ s.trackingServer = "data.example.com";
 
 ### 타사 쿠키
 
->[!TIP] 최신 브라우저에서 개인 정보 보호 정책을 강화하면 타사 쿠키의 신뢰성이 떨어집니다. 자사 쿠키 워크플로우에 따라 설정하는 것이 좋습니다.
+>[!TIP]
+>
+>최신 브라우저에서 개인 정보 보호 정책을 강화하면 타사 쿠키의 신뢰성이 떨어집니다. 자사 쿠키 워크플로우에 따라 설정하는 것이 좋습니다.
 
 타사 쿠키 구현을 사용하는 경우 `trackingServer`의 값은 `sc.omtrdc.net`의 하위 도메인입니다.  예:
 
@@ -58,4 +67,6 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Adobe Analytics를 사용하는 다른 조직에서 선택할 가능성이 없고 조직에 고유한 하위 도메인을 선택하십시오. 조직의 모든 구현에서 동일한 추적 서버를 사용하도록 합니다. 이렇게 하면 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 이 정보를 유지하는 데 도움이 될 수 있습니다.
 
->[!NOTE] `example.sc.omtrdc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.sc.omtrdc.net`은 올바른 추적 서버가 아닙니다.
+>[!NOTE]
+>
+> `example.sc.omtrdc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.sc.omtrdc.net`은 올바른 추적 서버가 아닙니다.
