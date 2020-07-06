@@ -2,8 +2,11 @@
 description: 'null'
 title: 관리 도구
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]**
 
->[!IMPORTANT] 동일한 브라우저에서 관리자 탭을 여러 개 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어, 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
+>[!IMPORTANT]
+>
+>동일한 브라우저에서 관리자 탭을 여러 개 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어, 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
 
 + [과금](billing-admin.md)
 + [보트 규칙 개요](bot-removal/bot-rules.md)
