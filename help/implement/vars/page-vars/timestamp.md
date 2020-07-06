@@ -1,8 +1,11 @@
 ---
 title: timestamp
 description: 히트의 타임스탬프를 수동으로 설정합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `timestamp` 변수는 타임스탬프가 활성화된 보고서 세트에 대한 히트의 타임스탬프를 수동으로 설정합니다.
 
->[!WARNING] 보고서 세트가 타임스탬프가 지정된 히트를 수락하도록 명시적으로 구성되지 않은 경우 이 변수를 사용하지 마십시오. AppMeasurement는 타임스탬프가 지정된 히트를 지원하지 않는 보고서 세트에 대해 히트 시간을 자동으로 설정합니다. 타임스탬프를 지원하지 않는 보고서 세트에 이 변수를 사용하는 히트를 전송하면 해당 데이터가 영구적으로 유실됩니다.
+>[!WARNING]
+>
+>보고서 세트가 타임스탬프가 지정된 히트를 수락하도록 명시적으로 구성되지 않은 경우 이 변수를 사용하지 마십시오. AppMeasurement는 타임스탬프가 지정된 히트를 지원하지 않는 보고서 세트에 대해 히트 시간을 자동으로 설정합니다. 타임스탬프를 지원하지 않는 보고서 세트에 이 변수를 사용하는 히트를 전송하면 해당 데이터가 영구적으로 유실됩니다.
 
 ## Adobe Experience Platform Launch의 타임스탬프
 
