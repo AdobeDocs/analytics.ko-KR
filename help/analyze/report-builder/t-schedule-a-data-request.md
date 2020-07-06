@@ -4,7 +4,10 @@ title: 데이터 요청 예약
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 예를 들어, 즉시 또는 반복 일정으로 배달할 통합 문서를 예약하고 파일 형식을 [!DNL Advanced Delivery Options]으로 지정할 수 있습니다. 파일 크기 제한은 한 번의 통합 문서 업로드에 대해 5MB입니다.
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (Reports &amp; Analytics 도움말에서 [보고서 예약 및 배포](/help/analyze/reports-analytics/scheduling.md)를 참조하십시오.)
+또한, Report Builder에서 통합 문서를 예약한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;에서 이 일정을 보고 편집할 수 있습니다. (Reports &amp; Analytics 도움말에서 [보고서 예약 및 배포](/help/analyze/reports-analytics/scheduling.md)를 참조하십시오.)
 
->[!NOTE] 통합 문서를 예약하려면 Excel 2007이나 호환 팩이 설치되어 있어야 합니다. Report Builder 라이센스당 최대 10개의 예약된 통합 문서를 보유할 수 있습니다. 그렇지만 다른 라이센스에서 공제하여 이 수를 늘릴 수 있습니다. 이렇게 하려면 **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**&#x200B;로 이동합니다. 예약했지만(또는 통합 문서 라이브러리에 업로드했지만) 28개월 동안 수정(업데이트, 대체)한 적이 없는 통합 문서는 삭제됩니다.
+>[!NOTE]
+>
+>통합 문서를 예약하려면 Excel 2007이나 호환 팩이 설치되어 있어야 합니다. Report Builder 라이센스당 최대 10개의 예약된 통합 문서를 보유할 수 있습니다. 그렇지만 다른 라이센스에서 공제하여 이 수를 늘릴 수 있습니다. 이렇게 하려면 **[!UICONTROL 관리]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL Report Builder 보고서]**&#x200B;로 이동합니다. 예약했지만(또는 통합 문서 라이브러리에 업로드했지만) 28개월 동안 수정(업데이트, 대체)한 적이 없는 통합 문서는 삭제됩니다.
 
->[!NOTE] 사용자가 입력한 &quot;배달 시간&quot;/&quot;하루 중 시간&quot;은 통합 문서가 실제로 배달될 시간이 아니라 처리를 시작할 시간을 지정합니다. 통합 문서가 배달되는 실제 시간은 주로 처리하는 데 걸리는 시간을 기반으로 합니다(복잡한 대형 통합 문서 및 복잡한 통합 문서 처리 시간이 더 오래 걸립니다). 예를 들어 통합 문서를 처리하는 데 15분이 걸리는 경우 실제 배달 시간은 원래 지정된 &quot;배달 시간&quot;/&quot;하루 중 시간&quot;보다 최소 15분이 걸립니다.
+>[!NOTE]
+>
+>사용자가 입력한 &quot;배달 시간&quot;/&quot;하루 중 시간&quot;은 통합 문서가 실제로 배달될 시간이 아니라 처리를 시작할 시간을 지정합니다. 통합 문서가 배달되는 실제 시간은 주로 처리하는 데 걸리는 시간을 기반으로 합니다(복잡한 대형 통합 문서 및 복잡한 통합 문서 처리 시간이 더 오래 걸립니다). 예를 들어 통합 문서를 처리하는 데 15분이 걸리는 경우 실제 배달 시간은 원래 지정된 &quot;배달 시간&quot;/&quot;하루 중 시간&quot;보다 최소 15분이 걸립니다.
 >또한, 통합 문서가 실제로 배달되기 전에 지연을 더 높일 수 있는 여러 가지 다른 요인이 있습니다.
 >
 > * **같은 유형의 여러 다른 일정을 동시에 실행**&#x200B;하면 시스템이 과부하가 될 수 있습니다. 일정 관리 시스템은 한 유형의 5-10개 통합 문서를 동시에 실행할 수만 있으므로 5-10개 이상이 한 번에 예약된 경우 일부 통합 문서는 처리를 시작하기 전에 다른 통합 문서가 완료될 때까지 인라인으로 대기해야 합니다. 이 문제는 회사의 통합 문서를 동시간대 보다는 하루 또는 시간 동안 서로 다른 시간에 예약함으로써 완화될 수 있습니다.
@@ -31,15 +38,15 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 ## 통합 문서 예약
 
 1. 통합 문서를 생성하여 저장합니다.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. Report Builder 도구 모음에서 **[!UICONTROL 예약]**&#x200B;을 클릭합니다.
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. 탭에서 을 **[!UICONTROL Scheduled Reports]** 클릭합니다 **[!UICONTROL New]**.
+   [!UICONTROL 예약된 보고서] 탭에 남은 작업의 수는 물론 생성한 모든 작업이 요약됩니다.
+1. **[!UICONTROL 예약된 보고서]** 탭에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 1. 기본 예약 마법사가 표시됩니다. 
 
    ![](assets/simple-schedule-wizard.png)
 
-1. 에서 [!UICONTROL Basic Scheduling Wizard]다음 옵션을 구성합니다.
+1. [!UICONTROL 기본 예약 마법사]에서 다음 옵션을 구성합니다. 
 
 | 필드 | 설명 |
 |--- |--- |
@@ -55,7 +62,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 ## 고급 배달 옵션
 
-1. 파일 및 게시 옵션을 **[!UICONTROL Advanced Delivery Options]** 구성하려면 클릭하십시오.
+1. **[!UICONTROL 고급 배달 옵션]**&#x200B;을 클릭하여 파일 및 게시 옵션을 구성합니다. 
 
 | 필드 | 설명 |
 |--- |--- |
@@ -72,7 +79,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Power BI에 게시 | <ul><li>Power BI에 통합 문서 게시</li><li>모든 Report Builder 요청을 Power BI 데이터 세트로 게시</li><li>형식이 지정된 표를 모두 Power BI 데이터 세트로 게시</li></ul> |
 | 이 Power BI 보고서를 다음과 같이 레이블 지정 | 레이블 지정 세부 사항 |
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭한 다음 **[!UICONTROL 종료]**&#x200B;를 클릭합니다.
 
    Report Builder가 [예약된 작업 관리자](/help/analyze/report-builder/r-arb-scheduled-reports.md)에 예약된 통합 문서를 표시합니다.
 
