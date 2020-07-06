@@ -2,10 +2,10 @@
 title: Prop
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 28%
 
 prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 설정된 히트 이후로 지속되지 않습니다.
 
-> [!TIP][ 대부분의 경우 eVar를 사용하는 것이 좋습니다. ](evar.md) 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
 
 솔루션 디자인 문서 [](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
