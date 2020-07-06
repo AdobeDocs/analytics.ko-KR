@@ -3,7 +3,10 @@ description: 'null'
 title: 제한 사항 및 사양
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Power BI 게시 제한 사항 {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] 이 제한 사항은 &quot;Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션에만 적용됩니다.
+>[!NOTE]
+>
+> 이 제한 사항은 &quot;Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션에만 적용됩니다.
 
 * 통합 문서당 최대 100개의 Report Builder 요청을 Power BI에 내보낼 수 있습니다.
 * 예약 프로세스에서는 101번째 요청에 도달하면 요청 내보내기가 중단됩니다.
@@ -20,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Power BI에 게시 후 Report Builder 요청 편집 {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] 이 사양은 &quot;모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션과 &quot;통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시&quot; 옵션에 적용됩니다.
+>[!NOTE]
+>
+> 이 사양은 &quot;모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션과 &quot;통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시&quot; 옵션에 적용됩니다.
 
 Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할 수 있습니다.
 
@@ -62,5 +69,5 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
 
 * 레이블은 행 및 열 주소용의 틀릴 수 있는 문자와 숫자의 조합일 수 없습니다. 예를 들어, A100은 워크시트에 있는 셀 주소이므로 레이블이 될 수 없습니다.
 * 문자 &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39; &#39;은 유효한 레이블 문자가 아닙니다. 이 문자들은 밑줄 문자로 대체됩니다.
-* 유효하지 않은 이름을 입력하면 자동으로 생성된 이름을 제시하는 경고 메시지가 표시됩니다. If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* 유효하지 않은 이름을 입력하면 자동으로 생성된 이름을 제시하는 경고 메시지가 표시됩니다. **[!UICONTROL 예]**&#x200B;를 클릭하면, 이 이름이 사용됩니다. **[!UICONTROL 아니요]**&#x200B;를 클릭하면, 고급 마법사 UI를 통해 새 이름을 입력할 수 있습니다.
 
