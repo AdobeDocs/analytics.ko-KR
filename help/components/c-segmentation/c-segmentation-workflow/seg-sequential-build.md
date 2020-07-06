@@ -3,8 +3,11 @@ description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 �
 title: 순차적 세그먼트 작성
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3842'
+ht-degree: 100%
 
 ---
 
@@ -244,7 +247,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 논리 그룹 컨테이너는 조건을 하나의 순차적 세그먼트 체크포인트로 그룹화하는 데 필수입니다. 이 특별한 논리 그룹 컨테이너는 이전의 순차적 체크포인트 후와 다음에 오는 순차적 체크포인트 전에 해당 조건을 충족하기 위해 순차적 세그먼테이션에서만 사용할 수 있습니다. 논리 그룹 체크포인트 자체 내의 조건은 임의의 순서로 충족될 수 있습니다. 그와 대조적으로, 비순차적 컨테이너(히트, 방문, 방문자)는 전체 시퀀스 내에서 조건을 충족할 필요가 없으므로 THEN 연산자와 함께 사용할 경우 직관적이지 않은 결과가 나옵니다.
 [!UICONTROL 논리 그룹] 컨테이너는 그룹화된 체크포인트 간에 *순서 없이* *몇 개의 체크포인트를 그룹으로* 처리하도록 디자인되었습니다. 다시 말해, 해당 그룹 내의 체크포인트 순서에 대해서는 신경 쓸 필요가 없습니다. 예를 들어 [!UICONTROL 방문자] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 중첩할 수 없습니다. 대신 [!UICONTROL 논리 그룹] 컨테이너를 [!UICONTROL 방문자] 컨테이너 내에 특정 [!UICONTROL 방문] 수준 및 [!UICONTROL 히트] 수준 체크포인트와 함께 중첩할 수 있습니다.
 
->[!NOTE] [!UICONTROL 논리 그룹]은 순차적 세그먼트에서만 정의할 수 있으며 이는 [!UICONTROL THEN] 연산자가 표현식에서 사용됨을 의미합니다.
+>[!NOTE]
+>
+>[!UICONTROL 논리 그룹]은 순차적 세그먼트에서만 정의할 수 있으며 이는 [!UICONTROL THEN] 연산자가 표현식에서 사용됨을 의미합니다.
 
 | 컨테이너 계층 | 그림 | 정의 |
 |---|---|---|
