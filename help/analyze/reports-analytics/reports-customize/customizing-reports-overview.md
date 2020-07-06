@@ -4,7 +4,10 @@ title: 보고서 사용자 지정 개요
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 100%
 
 ---
 
@@ -28,14 +31,14 @@ t_reports_custom.xml
 **사용자 지정 보고서를 만들려면**
 
 1. 보고서를 실행하고 필요에 따라 구성합니다.
-1. 클릭 **[!UICONTROL More]** > **[!UICONTROL Create Custom Report]**.
-1. Name the report, then click **[!UICONTROL Save.]**
+1. **[!UICONTROL 자세히]** > **[!UICONTROL 사용자 지정 보고서 만들기]**&#x200B;를 클릭합니다.
+1. 보고서 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    기존 보고서 이름과 동일하지 않도록 확인합니다.
 
 >[!MORELIKETHIS]
 >
->* [메뉴 사용자 지정](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
+>* [메뉴 사용자 지정](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 날짜 또는 날짜 범위 선택 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -64,10 +67,10 @@ t_reports_select_date.xml
    * 날짜에서 커서를 드래그하여 범위를 선택합니다.
    * 날짜를 수동으로 입력합니다.
    * 달 이름을 클릭하여 달을 선택합니다.
-   * 사전 설정 날짜 **[!UICONTROL Select Preset]** 를 클릭하여 선택합니다.
+   * **[!UICONTROL 사전 설정 선택]**&#x200B;을 선택하여 미리 정한 날짜를 선택합니다.
    * 날짜 비교.
 
-1. 클릭 **[!UICONTROL Run Report]**.
+1. **[!UICONTROL 보고서 실행]**&#x200B;을 클릭합니다.
 
 ## 날짜 비교 {#task_95155C3700774B709F5FB81AE96B0824}
 
@@ -81,15 +84,17 @@ t_reports_comparing_dates.xml
 
 트렌드 보고서들 간에는 날짜를 비교할 수 없습니다.
 
->[!NOTE] 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
+>[!NOTE]
+>
+> 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
 
 Reports &amp; Analytics에서 등급 보고서 간 날짜 비교:
 
 1. 보고서 실행.
 1. 오른쪽 상단에 있는 달력을 클릭합니다.
-1. 클릭 **[!UICONTROL Compare Dates]**.
+1. **[!UICONTROL 날짜 비교]**&#x200B;를 클릭합니다.
 1. 사용할 날짜를 선택합니다.
-1. 클릭 **[!UICONTROL Run Report]**.
+1. **[!UICONTROL 보고서 실행]**&#x200B;을 클릭합니다.
 
 ## 비율을 그래프로 표시 {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -103,8 +108,8 @@ t_reports_graph_percent.xml
 
 시각화 옵션은 대시보드 reportlet에서도 사용할 수 있습니다.
 
-1. Run a report that supports percentages, such as a [!UICONTROL Pages Report].
-1. 클릭 **[!UICONTROL Percent Shown As: Graph]**.
+1. [!UICONTROL 페이지 보고서]와 같이 비율을 지원하는 보고서를 실행합니다.
+1. **[!UICONTROL 백분율 표시: 그래프]**&#x200B;를 클릭합니다.
 
 ## 보고서 데이터 정규화 {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
@@ -121,9 +126,9 @@ t_reports_normalize.xml
 **보고서 데이터를 정규화하려면**
 
 1. 날짜 비교를 지원하는 보고서를 실행합니다
-1. 을 **[!UICONTROL Compare Dates]**&#x200B;클릭하고 날짜 비교를 지정합니다.
-1. 클릭 **[!UICONTROL Run Report]**.
-1. 클릭 **[!UICONTROL Normalize Data: Yes]**.
+1. **[!UICONTROL 날짜 비교]**&#x200B;를 클릭한 다음 날짜 비교를 지정합니다.
+1. **[!UICONTROL 보고서 실행]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 데이터 정규화: 예]**&#x200B;를 클릭합니다.
 
 ## 보고서 페이지 선택 {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
@@ -135,11 +140,11 @@ t_reports_select_page.xml
 
  -->
 
-1. 보고서(예: [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**)를 생성합니다.
-1. Click the **[!UICONTROL Selected Page]** link.
-1. On [!UICONTROL Choose Page], select the pages you want to display.
+1. [!UICONTROL 페이지 보기 횟수 보고서](**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 페이지 보기]**)와 같은 보고서를 생성합니다. 
+1. **[!UICONTROL 선택한 페이지]** 링크를 클릭합니다.
+1. [!UICONTROL 페이지 선택]에서 표시할 페이지를 선택합니다.
 1. 페이지를 찾습니다.
-1. 확대/축소한 후에 **[!UICONTROL OK.]**
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 보고서 세트 비교 {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -168,9 +173,9 @@ t_reports_compare_suites.xml
 **보고서 세트를 비교하려면**
 
 1. 보고서를 비교할 수 있도록 해주는 보고서를 생성합니다.
-1. Click the **[!UICONTROL Compare to Site]** link.
+1. **[!UICONTROL 사이트에 비교]** 링크를 클릭합니다.
 1. 보고서 세트를 찾습니다.
-1. 확대/축소한 후에 **[!UICONTROL OK.]**
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 보고서 세부기간 지정 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
@@ -182,12 +187,12 @@ t_reports_granularity.xml
 
  -->
 
-보고서의 기간은 사용 가능한 세부기간 옵션을 결정합니다. For example, you can select only **[!UICONTROL Hourly]** if you have a one or two day time frame selected. You can select only **[!UICONTROL Yearly]** granularity if you have more than one year selected.
+보고서의 기간은 사용 가능한 세부기간 옵션을 결정합니다. 예를 들어 1 또는 2일 시간대를 선택한 경우에만 **[!UICONTROL 시간별]** 옵션을 선택할 수 있습니다. 2년 이상의 연도를 선택한 경우에만 **[!UICONTROL 연간]** 세부기간을 선택할 수 있습니다.
 
 **보고서 세부기간을 지정하려면**
 
-1. 트렌드 보고서 생성(예: **[!UICONTROL Site Content]** >) **[!UICONTROL Pages.]**
-1. Click the **[!UICONTROL View by]** link, then click a granularity.
+1. **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**&#x200B;와 같은 트렌드 보고서를 생성합니다.
+1. **[!UICONTROL 보기 방법]** 링크를 클릭한 다음 세부기간을 클릭합니다.
 
 ## 요일 보고서 실행 {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
@@ -202,11 +207,11 @@ t_reports_day_of_week.xml
 이 기능은 날짜 범위가 주 또는 일인 트렌드 보고서에만 적용됩니다.
 
 1. 지정된 날짜 범위에서 추세 보고서를 실행합니다.
-1. 링크를 **[!UICONTROL Day of Week]** 클릭한 다음 요일을 클릭합니다.
+1. **[!UICONTROL 요일]** 링크를 클릭한 다음 요일을 클릭합니다.
 
 ## &#39;작업 공간에서 시도&#39; 버튼 {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Clicking the **[!UICONTROL Try In Workspace]** button at the top of a report will load the same report in Analysis Workspace.
+보고서 상단의 **[!UICONTROL 작업 공간에서 시도]** 버튼을 클릭하면 Analysis Workspace에서 동일한 보고서가 로드됩니다.
 
 <!-- 
 
@@ -218,4 +223,4 @@ Reports &amp; Analytics의 대부분의 보고서에는 이후의 사용자 지�
 
 현재 이 버튼은 사용자가 Analysis Workspace에 대한 모든 권한을 보유하는 경우에만 사용할 수 있습니다.
 
-보고서를 사용자 지정할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) 가이드를 참조하십시오.
+보고서를 사용자 지정할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html) 가이드를 참조하십시오.
