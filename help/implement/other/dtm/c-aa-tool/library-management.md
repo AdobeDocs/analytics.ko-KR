@@ -4,8 +4,11 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: 라이브러리 관리
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Dynamic Tag Management의 라이브러리 관리 설정에 있는 필드 및 옵
 
 **[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;라이브러리 관리&#x200B;]**
 
->[!NOTE] 단일 웹 속성에서 Adobe Analytics 도구를 두 개 이상 사용하는 경우 도구마다 고유한 추적기 변수 이름이 있어야 합니다. 단일 웹 속성 내에서 Adobe Analytics 도구 간에 개체 변수 이름이 중복 사용되면 충돌을 일으킵니다.
+>[!NOTE]
+>
+>단일 웹 속성에서 Adobe Analytics 도구를 두 개 이상 사용하는 경우 도구마다 고유한 추적기 변수 이름이 있어야 합니다. 단일 웹 속성 내에서 Adobe Analytics 도구 간에 개체 변수 이름이 중복 사용되면 충돌을 일으킵니다.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
