@@ -4,7 +4,10 @@ title: Microsoft Excel 함수에서 Report Builder 기능 호출
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 예를 들어, 다른 원본에서 Excel로 가져온 데이터를 기반으로 하는 입력 필터가 포함된 Report Builder 요청을 자동으로 새로 고치고 싶을 수 있습니다. 이제 string RefreshRequestsInCellsRange(..) 함수를 사용하여 이 작업을 수행할 수 있습니다. 모든 호출은 비동기 상태입니다. 즉, 결과를 즉시 반환하고 한 호출이 완전히 실행될 때까지 기다리지 않습니다.
 
->[!NOTE] 이 기능을 사용하려면 Report Builder 5.0 이상이 설치되어 있어야 합니다.
+>[!NOTE]
+>
+>이 기능을 사용하려면 Report Builder 5.0 이상이 설치되어 있어야 합니다.
 
 다음은 노출된 함수 목록을 포함하는 표입니다.
 
@@ -29,7 +34,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | string AsyncRefreshWorksheetAltTextParam(); | Ms 양식 컨트롤의 대체 텍스트를 통과하는 특정 워크시트 이름에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | string GetLastRunStatus() | 마지막 실행의 상태를 설명하는 문자열을 반환합니다. |
 
-리포트 빌더 내에서 이러한 기능에 액세스하려면 [!UICONTROL Formulas] > [!UICONTROL Insert Function]로 이동하십시오. 카테고리 목록 아래쪽에서 Adobe.Report Builder.Bridge를 찾을 수 있습니다.
+Report Builder 내에서 이러한 함수에 액세스하려면 [!UICONTROL 수식] > [!UICONTROL 함수 삽입]으로 이동합니다. 카테고리 목록 아래쪽에서 Adobe.Report Builder.Bridge를 찾을 수 있습니다.
 
 ![](assets/arb_functions.png)
 
@@ -48,7 +53,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 이제 만든 컨트롤에 매크로를 할당할 수 있으며 해당 컨트롤은 통합 문서 요청을 새로 고치는 함수가 될 수 있습니다. 예를 들어 함수 AsyncRefreshActiveWorksheet는 워크시트의 모든 요청을 새로 고칩니다. 그렇지만 전체가 아니라 특정 요청만 새로 고치고 싶은 경우가 있을 수 있습니다.
 
 1. 매크로 매개 변수를 설정합니다.
-1. Right-click the control and select **[!UICONTROL Assign Macro]**.
+1. 컨트롤을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Assign Macro]**.
 1. Report Builder 함수 이름을 입력합니다(매개 변수 또는 괄호 제외).
 
 ![](assets/assign_macro.png)
@@ -60,16 +65,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string worksheetName)
 
-1. Right-click the control and select **[!UICONTROL Format Control]**.
+1. 컨트롤을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 컨트롤 서식]**&#x200B;을 선택합니다.
 
    ![](assets/format_control.png)
 
-1. Click the [!UICONTROL Alt Text] tab.
+1. [!UICONTROL 대체 텍스트] 탭을 클릭합니다.
 
    ![](assets/alt_text.png)
 
-1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed.
-1. > [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge]아래에서 리포트 빌더 매개 변수 목록을 엽니다.
+1. [!UICONTROL 대체 텍스트]에서 새로 고치려는 셀 범위를 입력합니다.
+1. [!UICONTROL 수식] >[!UICONTROL  함수 삽입 ]> [!UICONTROL Adobe.Report Builder.Bridge]에서 Report Builder 매개 변수 목록을 엽니다.
 
-1. Pick one of the two functions that end with AltTextParam and click **[!UICONTROL OK]**.
+1. AltTextParam으로 끝나는 두 함수 중 하나를 선택하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
