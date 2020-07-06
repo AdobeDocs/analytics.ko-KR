@@ -1,8 +1,11 @@
 ---
 title: s_gi()
 description: AppMeasurement 인스턴스를 생성하고 추적합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Analytics 확장은 추적 개체를 인스턴스화하고 관리합니다. 그�
 
 추적 개체를 인스턴스화하려면 `s_gi()` 함수를 호출하십시오. 이 함수의 유일한 인수에는 쉼표로 구분된 보고서 세트 ID 문자열이 들어 있습니다. 보고서 세트 ID 인수는 필수입니다.
 
->[!TIP] `s` 변수를 추적 개체로 사용하는 것이 좋습니다. Adobe에서는 설명서, 구현 예 및 플러그인에서 `s`를 사용합니다. 하지만 사이트 전체에서 일관적이기만 하다면 어떤 변수든 사용할 수 있습니다.
+>[!TIP]
+>
+> `s` 변수를 추적 개체로 사용하는 것이 좋습니다. Adobe에서는 설명서, 구현 예 및 플러그인에서 `s`를 사용합니다. 하지만 사이트 전체에서 일관적이기만 하다면 어떤 변수든 사용할 수 있습니다.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] 다음 섹션 및 예에는 복잡한 구현 주제가 포함되어 있습니다. 구현을 철저히 테스트하고 조직의 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 중요한 사용자 지정 사항을 추적하십시오.
+>[!CAUTION]
+>
+>다음 섹션 및 예에는 복잡한 구현 주제가 포함되어 있습니다. 구현을 철저히 테스트하고 조직의 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 중요한 사용자 지정 사항을 추적하십시오.
 
 ## 다양한 추적 개체를 사용한 여러 구현 관리
 
