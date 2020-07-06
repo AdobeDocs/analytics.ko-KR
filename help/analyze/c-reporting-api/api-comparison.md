@@ -2,8 +2,11 @@
 description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 
->[!NOTE] 지연과 관련하여 타겟 분석(A4T)은 통합 보고를 위해 같은 히트에 분석 데이터와 타겟 데이터를 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
+>[!NOTE]
+>
+>지연과 관련하여 타겟 분석(A4T)은 통합 보고를 위해 같은 히트에 분석 데이터와 타겟 데이터를 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
