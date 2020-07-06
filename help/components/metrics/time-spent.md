@@ -2,7 +2,7 @@
 title: 체류 시간
 description: 체류 시간 차원 및 지표의 집계된 페이지입니다.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ Adobe Analytics 제품 전체에서 다양한 [!UICONTROL &#39;체류 시간&#39
 
 Adobe Analytics는 명시적 값(링크 이벤트 및 비디오 보기 횟수 포함)을 사용하여 [!UICONTROL 체류 시간]을 계산합니다.
 
->[!NOTE][!UICONTROL  비디오 보기 횟수] 또는 [!UICONTROL 종료 링크]와 같은 링크 이벤트가 없을 경우 방문의 마지막 히트 시 체류 시간을 알 수 없습니다. 비슷한 이유로 [!UICONTROL 바운스 방문 횟수](즉, 히트가 한 개인 방문 횟수)에는 &#39;체류 시간&#39;도 연결되어 있지 않습니다.
+>[!NOTE]
+>
+>[!UICONTROL 비디오 보기 횟수] 또는 [!UICONTROL 종료 링크]와 같은 링크 이벤트가 없을 경우 방문의 마지막 히트 시 체류 시간을 알 수 없습니다. 비슷한 이유로 [!UICONTROL 바운스 방문 횟수](즉, 히트가 한 개인 방문 횟수)에는 &#39;체류 시간&#39;도 연결되어 있지 않습니다.
 
 모든 체류 시간 계산에 사용된 **분자**&#x200B;는 총 체류 시간(초)입니다.
 
