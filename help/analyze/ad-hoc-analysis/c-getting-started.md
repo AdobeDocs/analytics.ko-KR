@@ -3,7 +3,10 @@ description: Ad Hoc Analysis를 시작합니다.
 title: 시작하기
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1384'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,9 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE] Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 보수 릴리스 이후 Java 7에서 Ad Hoc Analysis를 실행하도록 선택하면 Adobe는 Ad Hoc Analysis 구현을 더 이상 지원하지 않습니다.
+>[!NOTE]
+>
+>Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 보수 릴리스 이후 Java 7에서 Ad Hoc Analysis를 실행하도록 선택하면 Adobe는 Ad Hoc Analysis 구현을 더 이상 지원하지 않습니다.
 
 * OpenGL 2.0을 지원하는 비디오 카드
 * 쿠키: 필수
@@ -88,8 +93,8 @@ Adobe의 .jar 파일은 1.7.0_76 이하의 Java 버전에서 지원되지 않는
 * 컴퓨터에 프로그램 설치가 허용되는 경우
 
    1. https://www.java.com으로 이동합니다.
-   1. 클릭 **[!UICONTROL Free Java Download]**.
-   1. 클릭 **[!UICONTROL Agree and Start Free Download]**.
+   1. **[!UICONTROL 무료 Java 다운로드]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL 동의 및 무료 다운로드 시작]**&#x200B;을 클릭합니다.
    1. 사용 중인 운영 체제용의 최신 Java 버전을 설치합니다.
 
 * 컴퓨터에 프로그램 설치가 허용되지 **않는** 경우
@@ -117,11 +122,11 @@ t_login_suite.xml
  -->
 
 1. 브라우저에서 [!DNL marketing.adobe.com]으로 이동합니다.
-1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. 클릭 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
+1. 회사 이름, 사용자 이름 및 암호를 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 도구]** > **[!UICONTROL Ad Hoc Analysis]**&#x200B;를 클릭합니다.
 
    이 페이지에서 **Ad Hoc Analysis 시작** 단추가 보이지 않는 경우에는 관리 도구에서 관리자가 사용자를 *Ad Hoc Analysis 라이선스 사용자* 그룹에 추가했는지 확인하십시오.
-1. 클릭 **[!UICONTROL Launch Ad Hoc Analysis]**.
+1. **[!UICONTROL Ad Hoc Analysis 시작]**&#x200B;을 클릭합니다.
 1. 로컬에 [!DNL discover.jnlp] 파일을 저장합니다.
 
    Ad Hoc Analysis를 실행하려 할 때마다 이렇게 저장된 파일을 실행할 수 있습니다.
@@ -142,7 +147,7 @@ c_projects.xml
 
 한 번에 한 프로젝트만 열 수 있습니다. 하지만 프로젝트에서는 여러 작업 공간을 열 수 있습니다. 각 작업 공간에서는 몇 개의 보고서를 열어둘 수 있습니다.
 
-The default date range for a new project is [!UICONTROL Last 90 Days].
+새 프로젝트에 대한 기본적인 날짜 범위는 [!UICONTROL 최근 90일]입니다.
 
 ## 프로젝트 시작 {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -155,7 +160,7 @@ t_project_start.xml
  -->
 
 1. 로그인합니다.
-1. Open a saved project or click **[!UICONTROL Create Project]**.
+1. 저장된 프로젝트를 열거나 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭합니다.
 1. 보고서를 검색하거나 템플릿을 선택합니다.
 
 ## 최근 저장한 작업 공간 열기 {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +173,7 @@ t_recent_workspace.xml
 
  -->
 
-1. 클릭 **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 최근 작업 공간]**&#x200B;을 클릭합니다.
 
    최대 다섯 개의 최근 작업 공간을 열 수 있습니다. 최근 작업 공간은 세션을 종료한 후에는 사용할 수 없습니다.
 
@@ -182,14 +187,14 @@ t_share_projects.xml
 
  -->
 
-1. Go to **[!UICONTROL File]** > **[!UICONTROL Save As]**.
-1. 드롭다운에서 **[!UICONTROL Shared Projects]** **[!UICONTROL Save in:]** 선택합니다.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 다른 이름으로 저장]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL 저장 위치:]** 드롭다운에서 **[!UICONTROL 공유 프로젝트]**&#x200B;를 선택합니다.
 
    ![](assets/shared_projects.png)
 
-1. Click **[!UICONTROL Save]** to save the project.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 프로젝트를 저장합니다.
 
-   공유 프로젝트는 **[!UICONTROL File]** > **[!UICONTROL Open]** > **[!UICONTROL Shared Projects]**&#x200B;를 통해 열 수 있습니다.
+   공유 프로젝트는 **[!UICONTROL 파일]** > **[!UICONTROL 열기]** > **[!UICONTROL 공유 프로젝트]**&#x200B;를 통해 열 수 있습니다.
 
    >[!NOTE]
    >
@@ -206,8 +211,8 @@ t_rename_workspace.xml
  -->
 
 1. 작업 공간 이름을 마우스 오른쪽 단추로 클릭합니다.
-1. 선택 **[!UICONTROL Rename Workspace]**.
-1. Type a name, then click **[!UICONTROL OK]**.
+1. **[!UICONTROL 작업 공간 이름 변경]**&#x200B;을 선택합니다.
+1. 이름을 입력한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 로컬 프로젝트 열기 {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,8 +224,8 @@ t_open_local_project.xml
 
  -->
 
-1. 클릭 **[!UICONTROL File]** > **[!UICONTROL Open Local Copy]**.
-1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 로컬 복사본 열기]**&#x200B;를 클릭합니다.
+1. 로컬 [!DNL .dproj] 파일로 이동한 다음 **[!UICONTROL 열기]**&#x200B;를 클릭합니다.
 
 ## 보고서 템플릿 {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +237,7 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
+프로젝트를 만들 때(**[!UICONTROL 파일]** > **[!UICONTROL 새 프로젝트]**), 또는 작업 공간이나 보고서를 추가하여 템플릿에 액세스할 수 있습니다.
 
 | 템플릿 | 설명 |
 |--- |--- |
@@ -257,6 +262,6 @@ t_reports_opening.xml
 
 보고서를 여는 방법에는 다음과 같이 몇 가지가 있습니다.
 
-* On the [!UICONTROL New Report] page, search for a report or choose a template.
-* Click **[!UICONTROL Reports]** from the menu, then select a report or report template.
-* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.
+* [!UICONTROL 새 보고서] 페이지에서 보고서를 검색하거나 템플릿을 선택합니다.
+* 메뉴에서 **[!UICONTROL 보고서]**&#x200B;를 클릭한 다음 보고서나 보고서 템플릿을 선택합니다.
+* 차원에서 보고서 실행: 차원 이름을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 보고서 실행]** > **`report name`**.
