@@ -5,7 +5,10 @@ title: 타임스탬프 옵션 사용
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 타임스탬프가 지정된 데이터를 모바일 앱에서 전역 보고서 세트로 보낼 수 있습니다.
 * 새 보고서 세트를 만들지 않고도 타임스탬프를 적용하도록 앱을 업그레이드하십시오.
 
->[!NOTE]타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
+>[!NOTE]
+>
+>타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
 
 추가적인 설정에 대해서는 [타임스탬프 옵션](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/timestamp-optional.html)을 참조하십시오.
 
@@ -52,7 +57,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 데이터를 전역 보고서 세트에 결합하는 일은 다중 세트 태깅, Vista 규칙, 그리고 오프라인 소스에서 가져온 배치 파일을 포함하여, 여러 가지 방식으로 수행할 수 있습니다.
 
->[!IMPORTANT] 전역 보고서 세트에서 결합이 적절하도록 각 구성 요소 데이터 세트에 대한 설계를 신중히 계획하십시오.
+>[!IMPORTANT]
+>
+>전역 보고서 세트에서 결합이 적절하도록 각 구성 요소 데이터 세트에 대한 설계를 신중히 계획하십시오.
 
 ## 타임스탬프를 적용하는 우수 사례 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
