@@ -1,8 +1,11 @@
 ---
 title: pageType
 description: 현재 페이지가 404 오류인지 판단합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `pageType` 변수는 404 오류와 같이 사이트에서 오류 페이지를 지정하는 데 사용되는 플래그입니다. 이 변수에 문자열 `errorPage`가 포함되어 있으면 &#39;페이지를 찾을 수 없음&#39; 차원이 채워집니다.
 
->[!IMPORTANT] 오류가 아닌 페이지에서 이 변수를 설정하지 마십시오.
+>[!IMPORTANT]
+>
+>오류가 아닌 페이지에서 이 변수를 설정하지 마십시오.
 
 ## Adobe Experience Platform Launch의 페이지 유형
 
@@ -25,4 +30,6 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 s.pageType = "errorPage";
 ```
 
->[!TIP] 방문자가 사이트에서 당면하는 특정 오류에 대한 자세한 정보를 사용자가 알 수 있도록 오류 코드를 수집하려면 eVar를 사용하십시오.
+>[!TIP]
+>
+>방문자가 사이트에서 당면하는 특정 오류에 대한 자세한 정보를 사용자가 알 수 있도록 오류 코드를 수집하려면 eVar를 사용하십시오.
