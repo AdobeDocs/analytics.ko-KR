@@ -3,7 +3,10 @@ description: Analysis Workspace 템플릿과 Reports & Analytics 및 Report Buil
 title: Adobe Analytics의 광고 데이터에 대한 보고서
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
@@ -12,11 +15,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analysis Workspace 템플릿과 Reports &amp; Analytics 및 Report Builder의 보고에 대한 세부 사항입니다.
 
->[!NOTE] 검색 엔진 데이터가 Analytics 보고서에 채우기를 시작할 때까지 최소 24시간 대기해야 합니다. AMO 데이터가 시간별 단위를 지원하지 않으므로 Analytics 보고에서 시간별 단위 데이터를 반환하지 않습니다.
+>[!NOTE]
+>
+>검색 엔진 데이터가 Analytics 보고서에 채우기를 시작할 때까지 최소 24시간 대기해야 합니다. AMO 데이터가 시간별 단위를 지원하지 않으므로 Analytics 보고에서 시간별 단위 데이터를 반환하지 않습니다.
 
 ## Analysis Workspace: 검색 엔진 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-이 템플릿을 사용하면 이 검색 엔진 통합을 구현하는 모든 사용자가 Analytics 내에서 방대한 검색 엔진 데이터에 액세스할 수 있습니다. **[!UICONTROL Workspace]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 광고]** > **[!UICONTROL 검색 엔진]**&#x200B;을 통해 액세스할 수 있습니다.
+이 템플릿을 사용하면 이 검색 엔진 통합을 구현하는 모든 사용자가 Analytics 내에서 방대한 검색 엔진 데이터에 액세스할 수 있습니다. **[!UICONTROL 작업 공간]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 광고]** > **[!UICONTROL 검색 엔진]**&#x200B;을 통해 액세스할 수 있습니다.
 
 >[!NOTE]
 >
