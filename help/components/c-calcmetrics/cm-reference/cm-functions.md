@@ -2,8 +2,11 @@
 description: '[계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.'
 title: 참조  기본 함수
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 다음은 함수 및 그 정의를 알파벳 순서로 나열한 것입니다.
 
->[!NOTE] [!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits).]에도 허용됩니다.
+>[!NOTE]
+>
+>[!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits).]에도 허용됩니다.
 
 ## 테이블 함수 대 행 함수 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -214,7 +219,7 @@ ROUND(metric)
 
 | 인수 | 설명 |
 |---|---|
-| *수* | 반올림할 지표. |
+| *number* | 반올림할 지표. |
 
 자리 매개 변수가 없는 반올림은 자리 매개 변수가 0인 반올림과 같습니다. 즉 가장 가까운 정수로 반올림하는 것과 같습니다. 자리 매개 변수를 사용하면 소수의 오른쪽에 그만큼 많은 자리를 반환합니다. 자리가 음수이면, 소수의 왼쪽에 0들을 반환합니다.
 
@@ -251,7 +256,7 @@ SQRT(metric)
 
 | 인수 | 설명 |
 |---|---|
-| *수* | 제곱근이 필요한 지표. |
+| *number* | 제곱근이 필요한 지표. |
 
 ## 표준 편차(테이블) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
