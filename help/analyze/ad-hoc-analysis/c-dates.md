@@ -3,7 +3,10 @@ description: 달력에서 날짜와 날짜 범위를 지정하거나 사전 설�
 title: 날짜 및 날짜 범위
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] 기존 보고서를 실행하는 데 도움이 필요하면 계정 관리자에게 문의하십시오.
+>[!NOTE]
+>
+>기존 보고서를 실행하는 데 도움이 필요하면 계정 관리자에게 문의하십시오.
 
 ## 기존 날짜 구획 {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [프로젝트를 만들거나 엽니다.](/help/analyze/ad-hoc-analysis/c-getting-started.md)
 1. [달력](/help/analyze/ad-hoc-analysis/c-dates.md)을 연 다음 **[!UICONTROL 분기]** 또는 **[!UICONTROL 연도]**&#x200B;를 선택합니다.
 
->[!NOTE] 이전 날짜 구획은 분기 및 연도 제한 내에 있습니다. 기존 구획과 새로운 처리 플랫폼 사이의 경계를 넘어 데이터를 볼 수 없습니다. 오류의 두 결과에 걸쳐 있는 날짜 범위입니다. 또한 날짜 범위는 사용자 지정 달력이 아닌 태양력에만 적용됩니다.
+>[!NOTE]
+>
+>이전 날짜 구획은 분기 및 연도 제한 내에 있습니다. 기존 구획과 새로운 처리 플랫폼 사이의 경계를 넘어 데이터를 볼 수 없습니다. 오류의 두 결과에 걸쳐 있는 날짜 범위입니다. 또한 날짜 범위는 사용자 지정 달력이 아닌 태양력에만 적용됩니다.
 
