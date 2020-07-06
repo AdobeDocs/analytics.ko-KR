@@ -6,7 +6,10 @@ title: 사용자 및 그룹 권한 변경 사항
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1562'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +18,15 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 ## 변경 사항{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
+**[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]**
 
->[!NOTE] 가능한 사용 권한 조합의 수가 많기 때문에 모든 권한 조합에서 사용할 수 있는 모든 API 방법을 설명하는 설명서를 제공할 수 없습니다. 일반적으로 웹 서비스 액세스 권한이 부여된 비 관리자 사용자에게는 API 메서드에 대한 읽기 액세스 권한만 있으며, 쓰기 액세스 권한은 없습니다.
+>[!NOTE]
+>
+>가능한 사용 권한 조합의 수가 많기 때문에 모든 권한 조합에서 사용할 수 있는 모든 API 방법을 설명하는 설명서를 제공할 수 없습니다. 일반적으로 웹 서비스 액세스 권한이 부여된 비 관리자 사용자에게는 API 메서드에 대한 읽기 액세스 권한만 있으며, 쓰기 액세스 권한은 없습니다.
 
 API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때문에, 인터페이스(Adobe Admin Console)에서 관리자가 특정 비 관리자 사용자에게 부여한 모든 사용 권한은 사용자가 API에서 가진 권한과 동일합니다.
 
@@ -61,7 +66,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
    <td colname="col2"> <p>측정기준(및 지표)에 대한 액세스를 포함하거나 제외하도록 권한을 사용자 지정할 수 있습니다. </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 콘텐츠 인식) 및 지표가 주어집니다. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/c-classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 차원 권한 사용자 지정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +128,9 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
 
 다음 표에는 회사의 상태에 따라 작업 및 작업이 발생할 수 있는 위치가 나열되어 있습니다.
 
->[!NOTE] *`migrated user`* 및 *`Experience Cloud user`*&#x200B;란 Experience Cloud에 참여하기 위해 이메일 초대를 수락한 사용자를 말합니다. 이메일 초대를 수락하지 않으면 사용자는 여전히 Analytics 사용자이며 Admin Console에서 관리할 수 없습니다. (단, 마이그레이션에서 [Enterprise 또는 페더레이션된 ID](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)를 사용하는 경우는 예외입니다. 이 경우 관리자가 사용자별로 사용자를 마이그레이션하면 사용자가 마이그레이션됩니다.)
+>[!NOTE]
+>
+> *`migrated user`* 및 *`Experience Cloud user`*&#x200B;란 Experience Cloud에 참여하기 위해 이메일 초대를 수락한 사용자를 말합니다. 이메일 초대를 수락하지 않으면 사용자는 여전히 Analytics 사용자이며 Admin Console에서 관리할 수 없습니다. (단, 마이그레이션에서 [Enterprise 또는 페더레이션된 ID](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)를 사용하는 경우는 예외입니다. 이 경우 관리자가 사용자별로 사용자를 마이그레이션하면 사용자가 마이그레이션됩니다.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
