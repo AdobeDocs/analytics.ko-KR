@@ -3,8 +3,11 @@ description: 사전 정의된 템플릿을 선택하거나 기존 보고서 세�
 title: 새 보고서 세트 - 설정
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 [보고서 세트를 만들](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) 때 사용되는 요소에 대한 설명입니다.
 
->[!NOTE] [가상 보고서 세트 설명서](/help/components/vrs/c-workflow-vrs/vrs-create.md)는 가상 보고서 세트를 생성하는 방법을 보여줍니다.
+>[!NOTE]
+>
+>[가상 보고서 세트 설명서](/help/components/vrs/c-workflow-vrs/vrs-create.md)는 가상 보고서 세트를 생성하는 방법을 보여줍니다.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
