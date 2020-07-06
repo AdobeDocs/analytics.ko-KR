@@ -3,7 +3,10 @@ description: 'null'
 title: 현재 서버 호출 사용량 보기
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 서버 호출 사용량]** > **[!UICONTROL 현재 사용량]**
 
->[!IMPORTANT] 표시되는 모든 사용량 및 약정 번호는 모든 로그인 회사 및 보고서 세트에 누적됩니다.
+>[!IMPORTANT]
+>
+>표시되는 모든 사용량 및 약정 번호는 모든 로그인 회사 및 보고서 세트에 누적됩니다.
 
 현재 사용량 대시보드
 
