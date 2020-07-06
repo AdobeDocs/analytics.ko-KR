@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adobe Analytics 도구 추가
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또는 수동으로 페이지 코드를 구성하여 Adobe Analytics를 배포합니다. 대부분의 사용자에게는 자동 방법이 권장됩니다.
 
->[!NOTE] 방문자 추적을 개선하려면 [Identity Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 활성화하는 것이 좋습니다.
+>[!NOTE]
+>
+>방문자 추적을 개선하려면 [Identity Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 활성화하는 것이 좋습니다.
 
 ## Adobe Analytics 도구 추가 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
