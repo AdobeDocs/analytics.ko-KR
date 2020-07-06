@@ -1,15 +1,20 @@
 ---
 title: cookieDomain
 description: cookieDomain 변수는 쿠키를 설정할 도메인을 결정하는 데 도움이 됩니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
 
 # cookieDomain
 
->[!IMPORTANT] 이 변수는 사용이 중단되었습니다. 대신 [`trackingServer`](trackingserver.md)를 사용하십시오.
+>[!IMPORTANT]
+>
+>이 변수는 사용이 중단되었습니다. 대신 [`trackingServer`](trackingserver.md)를 사용하십시오.
 
 `cookieDomain` 변수는 AppMeasurement가 쿠키를 설정하는 도메인을 결정합니다. 이 변수를 사용하면 [`cookieDomainPeriods`](cookiedomainperiods.md) 변수를 사용하는 대신 쿠키 도메인을 명시적으로 설정할 수 있습니다.
 
