@@ -4,7 +4,10 @@ title: 예외 항목 탐지
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 비디오 버퍼 이벤트의 스파이크
 * 낮은 비디오 비트율의 스파이크
 
->[!NOTE] 예외 항목 탐지는 일 세부기간을 선택하는 경우에만 사용할 수 있습니다.
+>[!NOTE]
+>
+>예외 항목 탐지는 일 세부기간을 선택하는 경우에만 사용할 수 있습니다.
 
 <p class="head"> <b>예외 항목 탐지 지표</b> </p>
 
