@@ -3,7 +3,7 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: 44112013e049e6e76554530ba438c71fee902841
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 99%
@@ -39,7 +39,7 @@ ht-degree: 99%
 | 장치 간 분석을 사용하는 조직을 위한 새로운 작업 공간 템플릿 | 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여주며 CDA 독점 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 장치 Analytics 설정](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-setup.html)을 참조하십시오. |
 | Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 작업 공간의 기타 향상된 기능 | <ul><li>패널이나 시각화가 작업 공간으로 드롭되면 왼쪽 레일이 이제 구성 요소로 자동 전환되므로 더 원활한 워크플로우가 가능합니다.</li><li>이제 템플릿 구성 요소를 활성화할 수 있습니다(예: 태그됨, 즐겨찾기됨, 승인됨).</li><li>필터링된 지표 및 세그먼트 목록은 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가하기 위한 버튼을 제공합니다.</li></ul> |
-| 작업 공간 디버거 | Workspace 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 작업 공간 디버거 | 작업 공간 디버거가 도움말 메뉴에 추가되어 작업 공간 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020년 1월
 
@@ -118,7 +118,7 @@ ht-degree: 99%
 
 | 기능 | 설명 |
 |--- |--- |
-| [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
+| [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 작업 공간 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
 
 ## 2018년 10월 일
 
@@ -257,8 +257,8 @@ ht-degree: 99%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>새 Workspace 기능 양식 </b> </p> </td> 
-   <td colname="col2"> <p>지난 달에 소개된 오늘의 팁과 마찬가지로, 이 양식은 새로운 릴리스 이후 Workspace에 처음 로그인할 때 새로운 Workspace 기능을 보여줍니다. </p> </td> 
+   <td colname="col1"> <p><b>새 작업 공간 기능 양식 </b> </p> </td> 
+   <td colname="col2"> <p>지난 달에 소개된 오늘의 팁과 마찬가지로, 이 양식은 새로운 릴리스 이후 작업 공간에 처음 로그인할 때 새로운 작업 공간 기능을 보여줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -649,7 +649,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > 프로젝트 랜딩 페이지의 태그 열 </a> </p> </td> 
-   <td colname="col2"> <p>Workspace 프로젝트 목록 페이지에 <span class="wintitle">태그</span> 열을 추가했습니다. 이 열에는 각 프로젝트의 태그가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>작업 공간 프로젝트 목록 페이지에 <span class="wintitle">태그</span> 열을 추가했습니다. 이 열에는 각 프로젝트의 태그가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >.CSV 파일로 플로우 시각화 내보내기</a> </p> </td> 
@@ -1058,7 +1058,9 @@ ht-degree: 99%
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE] 회사에서 단일 사인온을 사용하는 경우(기존 단일 사인온을 사용하고 Experience Cloud를 통해 로그인) 보고서 링크를 공유할 수 없습니다.
+>[!NOTE]
+>
+> 회사에서 단일 사인온을 사용하는 경우(기존 단일 사인온을 사용하고 Experience Cloud를 통해 로그인) 보고서 링크를 공유할 수 없습니다.
 
 ## 글머리 기호 그래프, 산포도, 트리맵 시각화 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1078,7 +1080,9 @@ ht-degree: 99%
 
 제공된 노출 횟수와 해당 노출 횟수에서 확인된 고유한 사용자 수를 표시합니다. 각 데이터 포인트의 크기는 조회자가 광고에 노출된 평균 횟수에 대한 시각적인 단서를 제공합니다. 크기 및 데이터는 차원, 날짜 범위, 선택한 필터에 따라 달라집니다.
 
->[!NOTE] 산포도 차트와 연관된 테이블에는 하나 이상의 열이 필요합니다. 첫 번째 열은 X축을 정의하고 두 번째 열은 Y축을 정의합니다. 사용 가능한 세 번째 열이 있으면 산포도 차트는 이 열을 사용하여 점의 반경을 결정합니다. 즉, 열 *1*, *2* 및 *3*&#x200B;은 *X*, *Y* 및 *점 반경*&#x200B;에 해당됩니다.
+>[!NOTE]
+>
+>산포도 차트와 연관된 테이블에는 하나 이상의 열이 필요합니다. 첫 번째 열은 X축을 정의하고 두 번째 열은 Y축을 정의합니다. 사용 가능한 세 번째 열이 있으면 산포도 차트는 이 열을 사용하여 점의 반경을 결정합니다. 즉, 열 *1*, *2* 및 *3*&#x200B;은 *X*, *Y* 및 *점 반경*&#x200B;에 해당됩니다.
 
 **트리맵**
 
