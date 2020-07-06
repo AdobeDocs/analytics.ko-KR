@@ -1,8 +1,11 @@
 ---
 title: linkDownloadFileTypes
 description: 다운로드 링크로 자동 추적되는 파일 확장자를 결정합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
@@ -13,12 +16,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 다운로드 링크로 카운트할 파일 확장자를 사용자 지정하려면 `linkDownloadFileTypes`를 사용하십시오.
 
->[!NOTE] 실제 클릭만 자동으로 추적됩니다. 다음 유형의 링크는 자동으로 추적되지 않습니다.
+>[!NOTE]
+>
+>실제 클릭만 자동으로 추적됩니다. 다음 유형의 링크는 자동으로 추적되지 않습니다.
 >
 > * 페이지가 로드될 때 자동으로 시작되는 파일 다운로드
 > * 리디렉션 후 트리거되는 다운로드
 > * 마우스 오른쪽 단추를 클릭하고 &#39;다른 이름으로 대상 저장...&#39; 선택
 > * JavaScript를 사용하는 링크(예: `javascript:openLink()`)
+
 >
 > 
 이러한 다운로드 유형의 경우 [`tl()`](../functions/tl-method.md) 메서드를 수동으로 호출할 수 있습니다.
