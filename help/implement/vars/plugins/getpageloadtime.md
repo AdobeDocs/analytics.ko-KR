@@ -1,15 +1,20 @@
 ---
 title: getPageLoadTime
 description: 페이지를 로드하는 데 걸리는 시간을 추적합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 플러그인: getPageLoadTime
 
->[!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getPageLoadTime` 플러그인은 JavaScript 성능 개체를 사용하여 페이지를 완전히 로드하는 데 걸리는 시간을 측정할 수 있도록 해줍니다. 페이지를 로드하는 데 걸리는 시간을 측정하려면 이 플러그인을 사용하는 것이 좋습니다.
 
