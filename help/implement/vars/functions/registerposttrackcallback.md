@@ -1,8 +1,11 @@
 ---
 title: registerPostTrackCallback
 description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +26,7 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.registerPostTrackCallback
 
-`s.registerPostTrackCallback`은 함수를 유일한 인수로 사용하는 함수입니다. 중첩 함수는 이미지 요청이 전송되기 바로 전에 실행됩니다.
+`s.registerPostTrackCallback`은 함수를 유일한 인수로 사용하는 함수입니다. 중첩 함수는 이미지 요청이 성공적으로 전송된 직후에 실행됩니다.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
