@@ -1,15 +1,20 @@
 ---
 title: formatTime
 description: 초 수를 그에 해당하는 분, 시간 등으로 변환합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '817'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 플러그인: formatTime
 
->[!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `formatTime` 플러그인을 사용하면 초 수를 전체 형식의 원하는 벤치마크 값으로 반올림하여 표시할 수 있습니다. 초 단위의 시간 값을 캡처하여 전체 형식(예: 분, 일 또는 주)으로 변환하려는 경우 이 플러그인을 사용하는 것이 좋습니다. 초 기반 값을 시간이 반올림된 형식으로 변환하는 것을 원치 않으면 이 플러그인은 불필요합니다.
 
