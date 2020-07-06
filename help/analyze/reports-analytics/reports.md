@@ -1,8 +1,8 @@
 ---
 title: 보고서
-description: 보고 및 분석에서 각 보고서에 사용하는 차원 및 지표.
+description: 보고 및 Analytics이 각 보고서에 사용하는 차원 및 지표.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -12,9 +12,11 @@ ht-degree: 1%
 
 # 보고서
 
-보고 및 분석의 각 보고서는 전용 차원 및 기본 지표를 사용합니다. 각 보고서에서 지표를 변경하고 원할 경우 분류를 추가할 수 있습니다. 다음 목록은 각 보고서에서 사용되는 차원을 제공합니다.
+보고 및 Analytics의 각 보고서는 전용 차원 및 기본 지표를 사용합니다. 각 보고서에서 지표를 변경하고 원할 경우 분류를 추가할 수 있습니다. 다음 목록은 각 보고서에서 사용되는 차원을 제공합니다.
 
-> [!NOTE] 보고서 메뉴는 조직의 관리자가 사용자 정의한 내용에 따라 다르게 표시될 수 있습니다. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>보고서 메뉴는 조직의 관리자가 사용자 정의한 내용에 따라 다르게 표시될 수 있습니다. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 ## 사이트 지표
 
@@ -35,7 +37,7 @@ ht-degree: 1%
 * 방문당 체류 시간: 방문당 [체류 시간 - 버킷 차원을](/help/components/dimensions/time-spent-per-visit.md) 사용합니다.
 * 이벤트까지 남은 시간: 이전 [시간 차원을](/help/components/dimensions/time-prior-to-event.md) 사용합니다.
 * 구매: 구매 기반 지표에 대한 보고서를 포함합니다.
-   * 구매 전환 단계: 방문 횟수 [,](/help/components/metrics/visits.md)장바구니 [, 주문](/help/components/metrics/carts.md)수, 매출 [, 및](/help/components/metrics/orders.md)[](/help/components/metrics/revenue.md)[](/help/components/metrics/units.md) 단계 단위 보고서에 대한 보고서입니다. 폴아웃 시각화를 사용하여 분석 작업 공간에서 유사한 시각화가 [이루어집니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+   * 구매 전환 단계: 방문 횟수 [,](/help/components/metrics/visits.md)장바구니 [, 주문](/help/components/metrics/carts.md)수, 매출 [, 및](/help/components/metrics/orders.md)[](/help/components/metrics/revenue.md)[](/help/components/metrics/units.md) 단계 단위 보고서에 대한 보고서입니다. 폴아웃 시각화를 사용하는 Analysis Workspace에서 유사한 시각화가 [이루어집니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
    * 매출: 시간에 따른 지표 [매출](/help/components/metrics/revenue.md) 트렌드를 표시합니다.
    * 주문: 시간에 따른 지표 [주문](/help/components/metrics/orders.md) 트렌드를 표시합니다.
    * 판매량: 시간에 따른 지표 [판매량](/help/components/metrics/units.md) 트렌드를 표시합니다.
@@ -86,13 +88,13 @@ ht-degree: 1%
 
 방문자에 대한 경로 지정 데이터를 볼 수 있는 보고서를 포함합니다.
 
-* 다음 페이지 흐름: 상단 페이지 차원 값에 흐름 보고서를 사용합니다. 경로 보기는 인스턴스와 [유사합니다](/help/components/metrics/instances.md). 보고된 차원 값을 변경할 수 있습니다. 분석 작업 공간의 유사한 보고서는 [흐름 시각화를 사용하여 사용할 수 있습니다](../analysis-workspace/visualizations/c-flow/flow.md).
+* 다음 페이지 흐름: 상단 페이지 차원 값에 흐름 보고서를 사용합니다. 경로 보기는 인스턴스와 [유사합니다](/help/components/metrics/instances.md). 보고된 차원 값을 변경할 수 있습니다. 흐름 시각화를 사용하여 Analysis Workspace에서 유사한 보고서를 사용할 [수 있습니다](../analysis-workspace/visualizations/c-flow/flow.md).
 * 다음 페이지: 상위 페이지 차원 값을 가져와서 방문자가 방문한 다음 페이지를 표시합니다.
-* 이전 페이지 흐름: 상위 페이지 차원 값에 대한 흐름 보고서 사용 분석 작업 공간의 유사한 보고서는 [흐름 시각화를 사용하여 사용할 수 있습니다](../analysis-workspace/visualizations/c-flow/flow.md).
+* 이전 페이지 흐름: 상위 페이지 차원 값에 흐름 보고서 사용 흐름 시각화를 사용하여 Analysis Workspace의 유사한 보고서를 사용할 수 [있습니다](../analysis-workspace/visualizations/c-flow/flow.md).
 * 이전 페이지: 상위 페이지 차원 값을 가져와서 방문자의 이전 페이지를 표시합니다.
-* 폴아웃: 단계에서 페이지 차원 값을 선택할 수 있도록 하며, 해당 경로를 따르고 따르지 않은 사람들의 비율을 표시합니다. 분석 작업 공간의 유사한 보고서는 폴아웃 시각화를 사용하여 사용할 [수 있습니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* 전체 경로: 개별 경로를 차원 값으로 표시합니다. 분석 작업 공간에서 사용 중단; 흐름 [시각화를](../analysis-workspace/visualizations/c-flow/flow.md) 대신 사용하십시오.
-* 경로 탐색: 경로(분석 작업 공간에서 중단)를 분석할 수 있는 여러 유형의 보고서를 제공합니다.
+* 폴아웃: 단계에서 페이지 차원 값을 선택할 수 있도록 하며, 해당 경로를 따르고 따르지 않은 사람들의 비율을 표시합니다. 폴아웃 시각화를 사용하여 Analysis Workspace의 유사한 보고서를 사용할 [수 있습니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* 전체 경로: 개별 경로를 차원 값으로 표시합니다. Analysis Workspace에서 은퇴한 흐름 [시각화를](../analysis-workspace/visualizations/c-flow/flow.md) 대신 사용하십시오.
+* 경로 탐색: 경로(Analysis Workspace에서 사용 중단)를 분석할 수 있도록 해주는 다양한 유형의 보고서를 제공합니다.
 * 경로 길이: 방문 [깊이](/help/components/dimensions/visit-depth.md) 차원을 사용합니다.
 * 페이지 분석
    * 페이지 요약: 상위 페이지 차원 값을 가져와 트렌드 보기를 표시합니다. 또한 해당 상위 페이지 차원 값에 대한 시작 지점, 이전 페이지, 종료 지점 및 다음 페이지를 표시합니다.
@@ -105,7 +107,9 @@ ht-degree: 1%
    * 단일 페이지 방문: Adobe에서 제공한 [단일](/help/components/dimensions/page.md) 페이지 방문 횟수&#39; 세그먼트가 적용된 페이지 차원을 사용합니다.
    * 종료 페이지: 종료 페이지 [차원을](/help/components/dimensions/exit-dimensions.md) 사용합니다.
 
-> [!NOTE] 다른 보고서가 이 폴더에 표시될 수 있습니다. 보고서 세트 설정에서 [경로 지정을 활성화한](../../admin/admin/c-traffic-variables/traffic-var.md) prop과 같은 다른 차원입니다.
+>[!NOTE]
+>
+>다른 보고서가 이 폴더에 표시될 수 있습니다. 보고서 세트 설정에서 [경로 지정을 활성화한](../../admin/admin/c-traffic-variables/traffic-var.md) prop과 같은 다른 차원입니다.
 
 ## 트래픽 소스
 
@@ -127,16 +131,16 @@ ht-degree: 1%
 
 주로 [추적 코드](/help/components/dimensions/tracking-code.md) 차원과 관련된 보고서를 포함합니다.
 
-* 캠페인 전환 단계: 단계 보고서에서 클릭스루, 체크아웃 [,](/help/components/metrics/checkouts.md)주문 [및](/help/components/metrics/orders.md)매출 [을](/help/components/metrics/revenue.md) 보고합니다. 클릭스루 지표는 [추적 코드](/help/components/metrics/instances.md) 차원 컨텍스트에서 인스턴스 [지표와](/help/components/dimensions/tracking-code.md) 유사합니다. 폴아웃 시각화를 사용하여 분석 작업 공간에서 유사한 시각화가 [이루어집니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* 캠페인 전환 단계: 단계 보고서에서 클릭스루, 체크아웃 [,](/help/components/metrics/checkouts.md)주문 [및](/help/components/metrics/orders.md)매출 [을](/help/components/metrics/revenue.md) 보고합니다. 클릭스루 지표는 [추적 코드](/help/components/metrics/instances.md) 차원 컨텍스트에서 인스턴스 [지표와](/help/components/dimensions/tracking-code.md) 유사합니다. 폴아웃 시각화를 사용하는 Analysis Workspace에서 유사한 시각화가 [이루어집니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * 추적 코드: 추적 [코드](/help/components/dimensions/tracking-code.md) 차원을 사용합니다.
 
 ## 제품
 
 주로 [제품](/help/components/dimensions/product.md) 차원 관련 보고서를 포함합니다.
 
-* 제품 전환 단계: 보고서 [제품 보기](/help/components/metrics/product-views.md), [장바구니 추가](/help/components/metrics/cart-additions.md), [체크아웃](/help/components/metrics/checkouts.md),Publications, Publications Units, 및 Foundle Revenue보고서 [](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) 의 매출. 폴아웃 시각화를 사용하여 분석 작업 공간에서 유사한 시각화가 [이루어집니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* 제품 전환 단계: 보고서 [제품 보기](/help/components/metrics/product-views.md), [장바구니 추가](/help/components/metrics/cart-additions.md), [체크아웃](/help/components/metrics/checkouts.md),Publications, Publications Units, 및 Foundle Revenue보고서 [](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) 의 매출. 폴아웃 시각화를 사용하는 Analysis Workspace에서 유사한 시각화가 [이루어집니다](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * 제품: 제품 [차원을](/help/components/dimensions/product.md) 사용합니다.
-* 크로스셀: 일반적으로 함께 판매되는 제품(분석 작업 공간에서 사용 중단)을 표시합니다.
+* 크로스셀: 일반적으로 함께 판매되는 제품(Analysis Workspace에서 사용 중단)을 표시합니다.
 * 카테고리: 카테고리 [차원을](/help/components/dimensions/category.md) 사용합니다.
 
 ## 방문자 유지
@@ -167,9 +171,9 @@ ht-degree: 1%
    * 미국 주: 미국 [상태](/help/components/dimensions/us-states.md) 차원을 사용합니다.
    * 미국 DMA: 미국 [DMA](/help/components/dimensions/us-dma.md) 차원을 사용합니다.
 * 언어: 언어 [차원을](/help/components/dimensions/language.md) 사용합니다.
-* 시간대: 시간대 차원(분석 작업 공간에서 사용 중단)을 사용합니다. 차원 값은 히트의 GMT 오프셋입니다.
+* 시간대: 시간대 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 값은 히트의 GMT 오프셋입니다.
 * 도메인: 도메인 [차원을](/help/components/dimensions/domain.md) 사용합니다.
-* 최상위 도메인: 최상위 도메인 차원을 사용합니다(분석 작업 공간에서 중단). 도메인 [](/help/components/dimensions/domain.md) 차원을 상위 수준 카테고리로 그룹화합니다(일반적으로 도메인 국가별로).
+* 최상위 도메인: 최상위 도메인 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 도메인 [](/help/components/dimensions/domain.md) 차원을 상위 수준 카테고리로 그룹화합니다(일반적으로 도메인 국가별로).
 * 기술: 사이트에 액세스하는 데 사용한 보고서에 대한 보고서가 들어 있는 폴더입니다.
    * 브라우저: 브라우저 [차원을](/help/components/dimensions/browser.md) 사용합니다.
    * 브라우저 유형: 브라우저 [유형](/help/components/dimensions/browser-type.md) 차원을 사용합니다.
@@ -180,12 +184,12 @@ ht-degree: 1%
    * 모니터 색상 깊이: 색상 [심도](/help/components/dimensions/color-depth.md) 차원을 사용합니다.
    * 모니터 해상도: 모니터 [해상도](/help/components/dimensions/monitor-resolution.md) 차원을 사용합니다.
    * Java: Java [활성화](/help/components/dimensions/java-enabled.md) 차원을 사용합니다.
-   * JavaScript: JavaScript 활성화 차원(분석 작업 공간에서 사용 중단)을 사용합니다. 차원 값은 브라우저에 JavaScript가 활성화되어 있는지 여부에 따라 &#39;Enabled&#39;, &#39;Disabled&#39; 또는 &#39;Unknown&#39;입니다.
-   * JavaScript 버전: 는 JavaScript 버전 차원(분석 작업 공간에서 사용 중단)을 사용합니다. 차원 값은 브라우저가 사용하는 JavaScript 버전을 보여 줍니다.
+   * JavaScript: JavaScript 활성화 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 값은 브라우저에 JavaScript가 활성화되어 있는지 여부에 따라 &#39;Enabled&#39;, &#39;Disabled&#39; 또는 &#39;Unknown&#39;입니다.
+   * JavaScript 버전: 는 JavaScript 버전 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 값은 브라우저가 사용하는 JavaScript 버전을 보여 줍니다.
    * 쿠키: 쿠키 [지원](/help/components/dimensions/cookie-support.md) 차원을 사용합니다.
    * 연결 유형: 연결 유형 [차원을](/help/components/dimensions/connection-type.md) 사용합니다.
    * 이동통신사: 이동통신사 [차원을](/help/components/dimensions/mobile-dimensions.md) 사용합니다.
-* 방문자 주: 상태 차원(분석 작업 공간에서 사용 중단)을 사용합니다. 차원 값은 변수에서 [`state`](../../implement/vars/page-vars/state.md) 가져옵니다.
+* 방문자 주: 상태 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 값은 변수에서 [`state`](../../implement/vars/page-vars/state.md) 가져옵니다.
 * 방문자 ZIP/우편 번호: Zip [코드](/help/components/dimensions/zip-code.md) 차원을 사용합니다.
 
 ## 사용자 지정 전환
@@ -200,7 +204,7 @@ ht-degree: 1%
 
 마케팅 채널과 관련된 보고서 [를 포함합니다](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* 채널 개요 보고서: 보고 및 분석과 관련된 사용자 지정 보고서입니다. 첫 번째 또는 마지막 터치 속성을 사용하는 지표와 함께 마케팅 채널을 차원 값으로 사용합니다.
+* 채널 개요 보고서: 보고 및 Analytics에 관련된 사용자 지정 보고서입니다. 첫 번째 또는 마지막 터치 속성을 사용하는 지표와 함께 마케팅 채널을 차원 값으로 사용합니다.
 * 첫 번째 터치 채널: 첫 [번째 접촉 채널](/help/components/dimensions/first-touch-channel.md) 차원을 사용합니다.
 * 첫 번째 터치 채널 세부 사항: 첫 [번째 터치 채널 세부 사항](/help/components/dimensions/first-touch-detail.md) 차원을 사용합니다.
 * 마지막 접촉 채널: 마지막 [접촉 채널](/help/components/dimensions/last-touch-channel.md) 차원을 사용합니다.
@@ -218,4 +222,6 @@ ht-degree: 1%
 
 만든 타겟을 포함합니다. See [Targets](targets.md) for more information.
 
-> [!NOTE] 이 도움말 페이지에서 보고서를 찾을 수 없는 경우 관리자의 이름을 바꾸거나 폴더를 조정했을 수 있습니다. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>이 도움말 페이지에서 보고서를 찾을 수 없는 경우 관리자의 이름을 바꾸거나 폴더를 조정했을 수 있습니다. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
