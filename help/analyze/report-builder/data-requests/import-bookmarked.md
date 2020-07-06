@@ -4,7 +4,10 @@ title: 북마크가 지정된 보고서 및 대시보드 리포트릿 가져오�
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +22,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/import_dashboard_reportlet.png)
 
-또는 을 클릭하면 기존 대시보드 **[!UICONTROL Retrieve your Dashboards]** **[!UICONTROL Retrieve your Bookmarks]**&#x200B;및/또는 책갈피 데이터가 검색되어 워크시트에 붙여넣어집니다.
+**[!UICONTROL [대시보드 검색]]**&#x200B;이나 **[!UICONTROL [책갈피 검색]]**&#x200B;을 클릭하면, 기존 대시보드 및/또는 책갈피 데이터가 검색되고 워크시트에 붙여넣어집니다.
 
->[!NOTE] Report Builder에서 사용할 수 있는 대시보드 및 책갈피 목록은 사용자로 제한되어 있지만, 마법사의 1단계에서 선택한 보고서 세트에 적용되는 것으로도 제한됩니다. 그에 반해 마케팅 Reports &amp; Analytics에서는 대시보드 및 책갈피에서 사용하는 보고서 세트에 상관없이 사용자가 액세스할 수 있는 모든 책갈피 및 대시보드에 대한 액세스 권한을 줍니다.
+>[!NOTE]
+>
+>Report Builder에서 사용할 수 있는 대시보드 및 책갈피 목록은 사용자로 제한되어 있지만, 마법사의 1단계에서 선택한 보고서 세트에 적용되는 것으로도 제한됩니다. 그에 반해 마케팅 Reports &amp; Analytics에서는 대시보드 및 책갈피에서 사용하는 보고서 세트에 상관없이 사용자가 액세스할 수 있는 모든 책갈피 및 대시보드에 대한 액세스 권한을 줍니다.
 
->[!NOTE] 데이터만 가져오므로 책갈피에 차트가 포함되어 있거나 대시보드 리포트릿이 차트로만 구성된 경우 차트를 채우는 데 사용되는 데이터만 가져옵니다.
+>[!NOTE]
+>
+>데이터만 가져오므로 책갈피에 차트가 포함되어 있거나 대시보드 리포트릿이 차트로만 구성된 경우 차트를 채우는 데 사용되는 데이터만 가져옵니다.
 
 대시보드 Reportlet(또는 책갈피)를 가져와 요청을 만들었으므로 요청은 Reportlet(또는 책갈피)의 기본 차원에 연결됩니다. 따라서 요청을 편집하는 경우 트리 보기는 더 이상 대시보드 Reportlet 트리 보기 노드(또는 책갈피 노드)를 선택하지 않으며 대신 기본 차원을 선택합니다.
 
