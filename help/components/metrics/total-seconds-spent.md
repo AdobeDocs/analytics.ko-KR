@@ -2,7 +2,7 @@
 title: 총 체류 시간(초)
 description: 차원 값에 소요된 총 시간(초)입니다.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
@@ -26,6 +26,8 @@ ht-degree: 9%
 
 eVar와 같은 지속적인 변수 [](../dimensions/evar.md)는 총 체류 시간(초)에 계산됩니다. prop과 같은 트래픽 변수는 [이후 링크 추적 호출](../dimensions/prop.md)간 체류 시간(초)을 포함합니다.
 
->[!TIP] 경과 시간을 측정하는 후속 이미지 요청이 없기 때문에 방문의 마지막 히트에 대해 체류 시간이 측정되지 않습니다. 이 개념은 단일 히트(바운스)로 구성된 방문에도 적용됩니다.
+>[!TIP]
+>
+>경과 시간을 측정하는 후속 이미지 요청이 없기 때문에 방문의 마지막 히트에 대해 체류 시간이 측정되지 않습니다. 이 개념은 단일 히트(바운스)로 구성된 방문에도 적용됩니다.
 
 체류 [시간에 대한 일반적인 정보는 체류 시간 개요를](time-spent.md) 참조하십시오.
