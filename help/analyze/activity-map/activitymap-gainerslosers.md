@@ -4,7 +4,10 @@ title: 사용자 지정 가능 오버레이
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,9 @@ Activity Map에서는 다음과 같이 세 가지 오버레이를 제공합니�
 
 ![](assets/bubble_overlay.png)
 
->[!NOTE] 하위 메뉴에 대한 버블 오버레이는 하위 메뉴를 표시한 경우에만 표시됩니다.
+>[!NOTE]
+>
+> 하위 메뉴에 대한 버블 오버레이는 하위 메뉴를 표시한 경우에만 표시됩니다.
 >
 >![](assets/bubbles_submenu.png)>
 
