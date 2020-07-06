@@ -1,8 +1,11 @@
 ---
 title: linkName
 description: 사용자 지정 링크 히트의 이름을 설정합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `s.linkName` 변수는 사용자 지정 링크, 다운로드 링크 또는 종료 링크의 차원 값을 결정하는 문자열입니다([`s.linkType`](linktype.md) 값에 따라 다름). 최대 100바이트를 포함할 수 있습니다.
 
->[!TIP] 이 변수는 `tl()` 메서드의 세 번째 매개 변수이며, 일반적으로 독립형 변수로 설정할 필요가 없습니다. 그러나 `tl()` 메서드에서 값을 인수로 설정하지 않으려는 경우에는 `linkName` 변수를 사용할 수 있습니다.
+>[!TIP]
+>
+>이 변수는 `tl()` 메서드의 세 번째 매개 변수이며, 일반적으로 독립형 변수로 설정할 필요가 없습니다. 그러나 `linkName` 메서드에서 값을 인수로 설정하지 않으려는 경우에는 `tl()` 변수를 사용할 수 있습니다.
 
 ```js
 s.linkName = "Example custom link";
