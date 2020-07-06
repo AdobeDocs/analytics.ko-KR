@@ -3,7 +3,10 @@ description: 3단계 배포 프로세스에 대해 설명합니다.
 title: 통합 배포
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -72,7 +75,9 @@ Lyris/Adobe Analytics 통합이 성공했는지 확인하는 단계입니다.
 
 모든 배포 단계가 완료되면 통합이 성공적으로 데이터를 전송하고 있는지 확인할 수 있습니다.
 
->[!NOTE] 데이터 교환을 시작하려면 며칠이 걸립니다. 통합을 활성화한 후 Lyris에 문의하십시오.
+>[!NOTE]
+>
+>데이터 교환을 시작하려면 며칠이 걸립니다. 통합을 활성화한 후 Lyris에 문의하십시오.
 
 1. Data Connectors 내에서 Lyris 통합으로 이동합니다. **[!UICONTROL 지원]** 탭 > **[!UICONTROL 통합 활동 로그]**&#x200B;에 **[!UICONTROL 지표 데이터를 가져왔습니다]** 및/또는 **[!UICONTROL 분류 데이터를 가져왔습니다]**&#x200B;와 같은 이벤트가 표시되어야 합니다.
 
@@ -86,7 +91,9 @@ Lyris/Adobe Analytics 통합이 성공했는지 확인하는 단계입니다.
 
 Adobe Analytics에서 사용할 Lyris 플러그인 코드를 표시합니다.
 
->[!NOTE] 아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약했는지 확인하십시오. 어떤 eVar를 예약했는지 알고 있으면 eVarN을 관련 eVar로 바꿉니다. 예: eVar10.
+>[!NOTE]
+>
+>아래 코드를 사용하여 작업하기 전에 Adobe Analytics의 관리 도구에서 필요한 eVar를 예약했는지 확인하십시오. 어떤 eVar를 예약했는지 알고 있으면 eVarN을 관련 eVar로 바꿉니다. 예: eVar10.
 
 ```
 /* 
