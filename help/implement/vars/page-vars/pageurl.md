@@ -1,8 +1,11 @@
 ---
 title: pageUrl
 description: 사이트에서 자동으로 수집된 페이지 URL을 무시합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 AppMeasurement는 각 히트에서 페이지 URL을 자동으로 수집합니다. AppMeasurement에서 자동으로 수집한 페이지 URL을 무시하려면 이 변수를 사용할 수 있습니다. 대부분의 경우 이 변수를 설정할 필요가 없습니다.
 
->[!NOTE] 이 변수는 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. 이 변수는 Data Warehouse 및 데이터 피드에서만 사용할 수 있습니다. Analysis Workspace에서 페이지 URL을 차원으로 사용하려면 모든 히트에서 `pageURL` 변수를 eVar에 전달하는 것이 좋습니다.
+>[!NOTE]
+>
+>이 변수는 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. 이 변수는 Data Warehouse 및 데이터 피드에서만 사용할 수 있습니다. Analysis Workspace에서 페이지 URL을 차원으로 사용하려면 모든 히트에서 `pageURL` 변수를 eVar에 전달하는 것이 좋습니다.
 
 경우에 따라 URL이 255바이트보다 길 수 있습니다. AppMeasurement는 이미지 요청에 있는 URL의 처음 255바이트에 대해 `g` 쿼리 문자열 매개 변수를 사용합니다. URL이 255바이트보다 긴 경우 URL의 나머지 부분은 `-g` 쿼리 문자열 매개 변수에 저장됩니다. URL의 프로토콜 및 쿼리 문자열은 이 변수에 포함됩니다.
 
