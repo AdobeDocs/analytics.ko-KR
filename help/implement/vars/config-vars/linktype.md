@@ -1,8 +1,11 @@
 ---
 title: linkType
 description: linkType 변수를 사용하여 히트가 속하는 링크 추적 차원을 결정합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * `d` - 다운로드 링크
 * `e` - 종료 링크
 
->[!TIP] 이 변수는 `tl()` 메서드의 두 번째 매개 변수이며, 일반적으로 독립형 변수로 설정할 필요가 없습니다. 그러나 `linkType` 메서드에서 값을 인수로 설정하지 않으려는 경우에는 `tl()` 변수를 사용할 수 있습니다.
+>[!TIP]
+>
+>이 변수는 `tl()` 메서드의 두 번째 매개 변수이며, 일반적으로 독립형 변수로 설정할 필요가 없습니다. 그러나 `linkType` 메서드에서 값을 인수로 설정하지 않으려는 경우에는 `tl()` 변수를 사용할 수 있습니다.
 
 ```js
 s.linkType = "e";
