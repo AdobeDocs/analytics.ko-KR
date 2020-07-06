@@ -3,8 +3,11 @@ description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 100%
 
 ---
 
@@ -148,7 +151,9 @@ Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https:/
 
 **[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 예외 항목 탐지]** .
 
->[!NOTE] Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>[!NOTE]
+>
+>Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)를 참조하십시오.
 
