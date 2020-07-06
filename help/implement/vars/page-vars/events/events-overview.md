@@ -2,7 +2,7 @@
 title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 92%
@@ -45,7 +45,9 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 * `scView`: 장바구니 보기 [지표를](/help/components/metrics/cart-views.md) 증가시킵니다.
 * `scCheckout`: 체크아웃 지표 [를](/help/components/metrics/checkouts.md) 증가시킵니다.
 
->[!NOTE] 이 변수는 대/소문자를 구분합니다. 정확한 데이터 수집을 위해 이벤트 값을 대/소문자로 잘못 변경하지 마십시오.
+>[!NOTE]
+>
+>이 변수는 대/소문자를 구분합니다. 정확한 데이터 수집을 위해 이벤트 값을 대/소문자로 잘못 변경하지 마십시오.
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] 카운터 이벤트는 통화 또는 소수점 값을 지원하지 않습니다. 통화에는 통화 이벤트를 사용하고, 소수점 값에는 숫자 이벤트를 사용하십시오.
+>[!NOTE]
+>
+>카운터 이벤트는 통화 또는 소수점 값을 지원하지 않습니다. 통화에는 통화 이벤트를 사용하고, 소수점 값에는 숫자 이벤트를 사용하십시오.
 
 ### 통화 이벤트 사용
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] `events` 변수와 `products` 변수 모두에서 통화 값을 설정하는 경우 `events`의 통화 값이 사용됩니다. 통화 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
+>[!NOTE]
+>
+> `events` 변수와 `products` 변수 모두에서 통화 값을 설정하는 경우 `events`의 통화 값이 사용됩니다. 통화 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
 
 ### 숫자 이벤트 사용
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] `events` 변수와 `products` 변수 모두에서 숫자 값을 설정하는 경우 `events`의 숫자 값이 사용됩니다. 숫자 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
+>[!NOTE]
+>
+> `events` 변수와 `products` 변수 모두에서 숫자 값을 설정하는 경우 `events`의 숫자 값이 사용됩니다. 숫자 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
