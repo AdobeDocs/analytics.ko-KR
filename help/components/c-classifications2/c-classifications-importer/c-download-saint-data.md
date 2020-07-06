@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 분류 템플릿
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 템플릿은 각 분류와 관련된 데이터를 포함하지 않고 특정 데이터 세트의 현재 정의된 분류 열 제목을 포함합니다.
 
->[!NOTE] 템플릿 메서드는 분류 데이터 다운로드를 단일 보고서 세트로 제한합니다.
+>[!NOTE]
+>
+>템플릿 메서드는 분류 데이터 다운로드를 단일 보고서 세트로 제한합니다.
 
 데이터 파일 구조에 대한 자세한 내용은 [분류 데이터 파일 정보](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)를 참조하십시오.
 
@@ -38,7 +43,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 이 템플릿은 분류에 대해 따라야 할 파일 형식을 제공합니다.
 
->[!NOTE] 템플릿 메서드는 데이터 다운로드를 단일 보고서 세트로 제한합니다.
+>[!NOTE]
+>
+>템플릿 메서드는 데이터 다운로드를 단일 보고서 세트로 제한합니다.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 템플릿 다운로드]** 탭에서 [데이터 템플릿 구성](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)을 지정합니다.
