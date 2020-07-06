@@ -2,7 +2,7 @@
 title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 92%
@@ -14,7 +14,9 @@ ht-degree: 92%
 
 `products` 변수는 제품과 제품에 연결된 속성을 추적하는데 일반적으로 개별 제품 페이지, 장바구니 페이지 및 구매 확인 페이지에서 설정됩니다. 이 변수는 여러 값을 갖는 변수입니다. 이것은 동일한 히트에서 여러 제품을 보낼 수 있고 Adobe가 값을 별도의 차원 값으로 구문 분석함을 의미합니다.
 
-> [!NOTE] 이 변수가 변수의 장바구니 이벤트 없이 히트에서 설정된 경우 [`events`](events/events-overview.md) 제품 보기 [](/help/components/metrics/product-views.md) 지표는 1씩 증가합니다. 변수가 있는 각 히트에서 적절한 장바구니 이벤트를 설정해야 `products` 합니다.
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. 변수가 있는 각 히트에서 적절한 장바구니 이벤트를 설정해야 `products` 합니다.
 
 ## Adobe Experience Platform Launch의 제품
 
@@ -50,7 +52,9 @@ s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eV
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] 제품 이름, 카테고리 및 머천다이징 eVar 값에서 모든 세미콜론, 쉼표 및 파이프를 제거하십시오. 제품 이름에 쉼표가 포함되어 있으면 AppMeasurement가 해당 쉼표를 새 제품의 시작으로 구문 분석합니다. 이렇게 잘못된 구문 분석이 제품 문자열의 나머지 부분에서 발생하면 차원 및 보고서에서 잘못된 데이터가 생성됩니다.
+>[!IMPORTANT]
+>
+>제품 이름, 카테고리 및 머천다이징 eVar 값에서 모든 세미콜론, 쉼표 및 파이프를 제거하십시오. 제품 이름에 쉼표가 포함되어 있으면 AppMeasurement가 해당 쉼표를 새 제품의 시작으로 구문 분석합니다. 이렇게 잘못된 구문 분석이 제품 문자열의 나머지 부분에서 발생하면 차원 및 보고서에서 잘못된 데이터가 생성됩니다.
 
 ## 예
 
