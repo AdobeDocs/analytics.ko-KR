@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 웹 속성 만들기
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 웹 속성은 한 개의 포함 코드에 포함된 규칙 라이브러리로 된 하나 이상의 도메인 및 서브 도메인 그룹일 수 있습니다.
 
->[!NOTE] 관리자 권한이 있는 사용자만 속성을 만들 수 있습니다. 역할에 대한 자세한 내용은 Dynamic Tag Management 제품 설명서의 [DTM에서 그룹 만들기 및 관리](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/groups.html)를 참조하십시오.
+>[!NOTE]
+>
+>관리자 권한이 있는 사용자만 속성을 만들 수 있습니다. 역할에 대한 자세한 내용은 Dynamic Tag Management 제품 설명서의 [DTM에서 그룹 만들기 및 관리](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/groups.html)를 참조하십시오.
 
 DTM을 사용하여 이러한 자산을 관리하고 추적할 수 있습니다. 예를 들어 하나의 템플릿을 기반으로 한 여러 개의 웹 사이트가 있고 이러한 웹 사이트 모두에서 동일한 자산을 추적하려 하는 경우, 여러 도메인에 하나의 웹 속성을 적용할 수 있습니다.
 
