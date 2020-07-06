@@ -1,15 +1,20 @@
 ---
 title: dc
 description: 사용할 데이터 센터를 결정할 수 있도록 해주는 폐기된 변수입니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 100%
 
 ---
 
 
 # dc
 
->[!IMPORTANT] 이 변수는 사용이 중단되었습니다. 대신 [`trackingServer`](trackingserver.md)를 사용하십시오.
+>[!IMPORTANT]
+>
+>이 변수는 사용이 중단되었습니다. 대신 [`trackingServer`](trackingserver.md)를 사용하십시오.
 
 이전 버전의 Adobe Analytics에서는 보낸 데이터를 받을 데이터 센터를 지정해야 했습니다. 히트를 잘못된 데이터 센터에 보내는 경우에는 데이터 손실도 발생했습니다.
 
