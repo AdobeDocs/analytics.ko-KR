@@ -1,8 +1,11 @@
 ---
 title: Facebook 인스턴트 아티클로 구현
 description: Facebook 인스턴트 아티클 페이지에서 Adobe Analytics를 구현합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 100%
 
 ---
 
@@ -83,7 +86,9 @@ Facebook 인스턴트 아티클 컨텐츠를 만들 때 분석 HTML 컨텐츠를
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
->[!NOTE] 레퍼러 차원은 iframe의 특성으로 인해 자동으로 추적되지 않습니다. 추적하려는 경우 이 차원을 쿼리 문자열의 일부로 포함하도록 하십시오.
+>[!NOTE]
+>
+>레퍼러 차원은 iframe의 특성으로 인해 자동으로 추적되지 않습니다. 추적하려는 경우 이 차원을 쿼리 문자열의 일부로 포함하도록 하십시오.
 
 ## Facebook 인스턴트 아티클 및 개인 정보
 
