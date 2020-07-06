@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 분류 규칙
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [규칙이 키를 분류하지 않는 경우](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [규칙 우선 순위 정보](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] [!UICONTROL 규칙 빌더]는 Numeric 2 분류를 지원하지 않습니다.
+>[!NOTE]
+>
+>[!UICONTROL 규칙 빌더]는 Numeric 2 분류를 지원하지 않습니다.
 
 ## 규칙에 관한 중요한 정보
 
@@ -61,9 +66,9 @@ about_classification_rules.xml
 
 * **보고서 세트**: 최소 1개의 보고서 세트를 선택할 때까지 분류를 선택할 수 없습니다. 규칙 세트를 만들고 변수를 할당할 때까지 보고서 세트를 적용할 수 없습니다.
 
-   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오.  [키](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
+   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다.  [규칙 우선 순위 정보](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. 자세한 내용은 [규칙 우선 순위 정보](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -78,7 +83,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/c-classifications2/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-    [](/help/components/c-classifications2/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+   분류 덮어쓰기 [](/help/components/c-classifications2/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/c-classifications2/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [정규 표현식 - &quot;포함되지 않음&quot; 예](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [정규 표현식 - 참조 테이블](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] 우수 사례로서, 정규 표현식은 구분 기호를 사용하는 추적 코드에 가장 적합합니다.
+>[!NOTE]
+>
+>우수 사례로서, 정규 표현식은 구분 기호를 사용하는 추적 코드에 가장 적합합니다.
 
 ## 정규 표현식 - 추적 코드 예 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] 추적 코드가 URL로 인코딩되어 있으면 규칙 빌더에 의해 분류되지 **않습니다**.
+>[!NOTE]
+>
+>추적 코드가 URL로 인코딩되어 있으면 규칙 빌더에 의해 분류되지 **않습니다**.
 
 이 예에서 다음 캠페인 ID를 분류하려고 한다고 가정해봅시다.
 
@@ -370,6 +379,7 @@ t_classifications_test_rule.xml
 
    * 추적 코드
    * 검색 키워드 또는 구
+
    정규 표현식 테스트에 대한 자세한 내용은 [분류 규칙의 정규 표현식](/help/components/c-classifications2/crb/classification-quickstart-rules.md)을 참조하십시오.
 1. **[!UICONTROL 테스트 실행]**&#x200B;을 클릭합니다.
 
