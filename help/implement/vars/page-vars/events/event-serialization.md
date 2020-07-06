@@ -1,8 +1,11 @@
 ---
 title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 이벤트 직렬화는 중복 이벤트 중복 이벤트가 Analytics 보고에 들어가지 않도록 하는 방법을 구현하는 프로세스입니다. 페이지를 새로 고치는 방문자에 의해 지표가 부풀려지는 것을 원하지 않는 경우 이벤트 중복 제거가 중요합니다.
 
->[!NOTE] 데이터 소스는 이벤트 직렬화 또는 중복제거를 지원하지 않습니다.
+>[!NOTE]
+>
+>데이터 소스는 이벤트 직렬화 또는 중복제거를 지원하지 않습니다.
 
 ## 이벤트 직렬화 설정
 
@@ -23,7 +28,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 중복 제거는 모든 방문자에 대해 전체적으로 수행됩니다. 방문자 A가 `event1:ABC`를 전송한 후 방문자 B도 `event1:ABC`를 전송하는 경우 Adobe에서는 방문자 B의 두 번째 인스턴스를 무시합니다.
 * 중복 제거는 만료되지 않습니다. 방문자가 `event1:ABC`를 전송하고 2년 후 다시 와서 `event1:ABC`를 전송하는 경우 Adobe에서는 두 번째 인스턴스를 무시합니다.
 
->[!TIP] [`purchase`](event-purchase.md) 이벤트를 중복 제거하려면 [`purchaseID`](../purchaseid.md) 변수를 대신 사용하십시오.
+>[!TIP]
+>
+> [`purchase`](event-purchase.md) 이벤트를 중복 제거하려면 [`purchaseID`](../purchaseid.md) 변수를 대신 사용하십시오.
 
 ## Adobe Experience Platform Launch에서 이벤트 ID 사용
 
