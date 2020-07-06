@@ -3,7 +3,10 @@ title: JavaScript 릴리스 노트의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +35,7 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 릴리스 날짜: **2020년 2월 13일**
 
-* 이제 AppMeasurement는 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 변수를 설정하여 쿠키를 강제로 Secure 속성을 포함할 수 있습니다. 이 변수에 대한 요구 사항은 전체 클라이언트 웹 사이트가 안전하게 제공된다는 것입니다(HTTPS). (AN-204604)
+* 이제 AppMeasurement는 변수를 설정하여 쿠키가 Secure 속성을 포함하도록 할 수 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 있습니다. 이 변수에 대한 요구 사항은 전체 클라이언트 웹 사이트가 안전한(HTTPS)으로 제공된다는 것입니다. (AN-204604)
 
 ## 버전 2.17.0
 
@@ -102,7 +105,9 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 릴리스 날짜: **2018년 5월 24일**
 
->[!NOTE][!DNL Experience Cloud] ID 서비스를 사용하는 고객은 방문자 API 3.0 이상이 필요합니다. 연관된 코드 라이브러리([!DNL at.js] 등)가 업데이트될 때마다 최신 방문자 API 버전으로 업그레이드할 수 있습니다.[!DNL AppMeasurement.js]
+>[!NOTE]
+>
+>[!DNL Experience Cloud] ID 서비스를 사용하는 고객은 방문자 API 3.0 이상이 필요합니다. 연관된 코드 라이브러리([!DNL at.js] 등)가 업데이트될 때마다 최신 방문자 API 버전으로 업그레이드할 수 있습니다.[!DNL AppMeasurement.js]
 
 * ID 요청에 업데이트된 방문자 인터페이스를 사용하도록 [!DNL AppMeasurement]가 업데이트되었습니다. (AN-151483)
 * 링크 추적이 해제된 후에도 링크 추적 쿠키가 계속 작성되는 문제가 수정되었습니다. (AN-156332)
@@ -216,7 +221,9 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 * AMCV 쿠키를 읽고 쓸 수 있도록 [!DNL AppMeasurement]가 업데이트되었습니다. (AN-127098)
 * 방문자 API 1.7.0 포함.
 
->[!NOTE][!DNL JavaScript] 버전 1.6.3에 대한 릴리스 노트를 참조하십시오. 이 릴리스 노트에는 Experience Cloud ID 서비스에 대해 업데이트된 요구 사항이 포함되어 있습니다.
+>[!NOTE]
+>
+>[!DNL JavaScript] 버전 1.6.3에 대한 릴리스 노트를 참조하십시오. 이 릴리스 노트에는 Experience Cloud ID 서비스에 대해 업데이트된 요구 사항이 포함되어 있습니다.
 
 ## 버전 1.6.3
 
@@ -224,7 +231,9 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 * [!DNL AppMeasurement]에서 요청 연결을 너무 빨리 종료한 문제가 수정되었습니다. (AN-126448)
 
->[!IMPORTANT][!DNL Experience Cloud] ID 서비스 버전 1.6.0을 사용하려면 *용* 버전 1.6.3 이상이 [!DNL AppMeasurement]필요합니다[!DNL JavaScript]. Experience Cloud ID 서비스 버전 1.6.0으로 업그레이드하려면 코드 [!DNL AppMeasurement] 버전 1.6.3 이상을 사용하는지 확인하십시오.
+>[!IMPORTANT]
+>
+>[!DNL Experience Cloud] ID 서비스 버전 1.6.0을 사용하려면 [!DNL JavaScript]용 [!DNL AppMeasurement] 버전 1.6.3 이상이 *필요합니다*. Experience Cloud ID 서비스 버전 1.6.0으로 업그레이드하려면 코드 [!DNL AppMeasurement] 버전 1.6.3 이상을 사용하는지 확인하십시오.
 
 ## 버전 1.6.2
 
@@ -293,7 +302,9 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 * 방문자 API 1.4 포함.
 * DIL 버전 6.0을 사용하도록 AudienceManagement 모듈을 업데이트했습니다.
 
->[!NOTE] **알려진 문제**: 방문자 API/[!DNL AppMeasurement] [!DNL Audience Manager] 모듈 통합에서 IE6-9에 두 개의 대상 게시 iFrame 요청(`//fast.<subdomain>.demdex.net/dest5.html` 및 `//fast.<subdomain>.demdex.net/dest4.html`)이 있습니다. 다른 브라우저에 표시될 때 올바른 동작은 `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**알려진 문제**: 방문자 API/[!DNL AppMeasurement] [!DNL Audience Manager] 모듈 통합에서 IE6-9에 두 개의 대상 게시 iFrame 요청(`//fast.<subdomain>.demdex.net/dest5.html` 및 `//fast.<subdomain>.demdex.net/dest4.html`)이 있습니다. 다른 브라우저에 표시될 때 올바른 동작은 `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## 버전 1.4.4
 
@@ -349,7 +360,9 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 * 다운로드 zip에서 **[!UICONTROL AudienceManagement]** 모듈 추가.
 * 추가 eVars(76 - 250) 및 이벤트(101-1000)에 대한 지원을 추가했습니다.
 
->[!NOTE] H-Code는 추가 eVar 및 이벤트를 지원하지 않습니다.
+>[!NOTE]
+>
+>H-Code는 추가 eVar 및 이벤트를 지원하지 않습니다.
 
 ## 버전 1.3.2
 
