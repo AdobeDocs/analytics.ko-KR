@@ -5,7 +5,10 @@ title: 통합 기능
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * (선택 사항) DFA 비용 데이터
 * (선택 사항) DFA 쿼리 오류, 시간 초과
 
->[!NOTE] 이 통합은 클릭 추적기(이전 클릭 명령)를 지원하지 않습니다. 클릭 추적 광고는 텍스트 링크, 이메일 메시지의 링크 또는 웹 사이트에 하드코드된 다른 요소의 클릭 수를 기록하는 데 사용됩니다.
+>[!NOTE]
+>
+> 이 통합은 클릭 추적기(이전 클릭 명령)를 지원하지 않습니다. 클릭 추적 광고는 텍스트 링크, 이메일 메시지의 링크 또는 웹 사이트에 하드코드된 다른 요소의 클릭 수를 기록하는 데 사용됩니다.
 
 Data Connectors DFA 통합은 DFA에서 반환된 데이터의 DFA 추적 코드를 자동으로 구성합니다. 이러한 추적 코드는 연관된 게재위치 및 광고 소재와 함께 광고를 고유하게 식별하도록 구성됩니다. 다음은 통합 버전에 따른 추적 코드 구조를 요약한 것입니다. 버전 1.5 모양은 다음과 같습니다.
 
@@ -55,5 +60,7 @@ DFA 통합은 이제 Adobe SearchCenter에서 확인됩니다. Data Connectors �
 
 * DFA 뷰스루의 경우 통합은 SCM eVar에 문자열 “DFA 뷰스루”를 입력합니다.
 
->[!NOTE] SearchCenter > DFA 중복 제거를 활성화하고 SearchCenter 쿼리 문자열 매개 변수를 설정한 경우 방문은 DFA 처리로 간주되지 않습니다. 즉, SearchCenter 쿼리 문자열 매개 변수는 DFA 클릭스루 매개 변수와 달라야 하며, 디스플레이 광고에서 SearchCenter 쿼리 문자열 매개 변수를 설정하지 않아야 합니다.
+>[!NOTE]
+>
+>SearchCenter > DFA 중복 제거를 활성화하고 SearchCenter 쿼리 문자열 매개 변수를 설정한 경우 방문은 DFA 처리로 간주되지 않습니다. 즉, SearchCenter 쿼리 문자열 매개 변수는 DFA 클릭스루 매개 변수와 달라야 하며, 디스플레이 광고에서 SearchCenter 쿼리 문자열 매개 변수를 설정하지 않아야 합니다.
 
