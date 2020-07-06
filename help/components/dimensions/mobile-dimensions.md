@@ -2,7 +2,7 @@
 title: 모바일 차원
 description: 장치의 사용자-에이전트 문자열을 기반으로 하는 차원입니다.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -18,11 +18,13 @@ ht-degree: 4%
 
 ## 데이터로 차원 채우기
 
-이러한 차원은 Adobe 내부 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 `User-Agent` HTTP 헤더를 기반으로 합니다. Adobe는 [DeviceAtlas와](https://deviceatlas.com/) 파트너 관계를 맺고 사용자 에이전트와 모바일 차원 간을 조회할 수 있습니다. AppMeasurement 라이브러리(예: Adobe Experience Platform Launch)를 사용하는 경우 모든 모바일 차원이 즉시 작동합니다.
+이러한 차원은 Adobe 내부 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 `User-Agent` HTTP 헤더를 기반으로 합니다. Adobe는 [DeviceAtlas와](https://deviceatlas.com/) 파트너 관계를 맺고 사용자 에이전트와 모바일 차원 간을 조회할 수 있습니다. AppMeasurement 라이브러리(예: Adobe Experience Platform 시작을 통해)를 사용하는 경우 모든 모바일 차원은 즉시 작동합니다.
 
 ## 모바일 차원 설명
 
->[!NOTE] 레이블이 지정된 차원 값 `"None"` 은 비모바일 장치입니다. 모바일 장치만 포함하는 보고서를 만들려면 [모바일 장치] 차원을 [작업 영역] 캔버스의 세그먼트 영역으로 드래그합니다.
+>[!NOTE]
+>
+>레이블이 지정된 차원 값 `"None"` 은 비모바일 장치입니다. 모바일 장치만 포함하는 보고서를 만들려면 [모바일 장치] 차원을 [작업 영역] 캔버스의 세그먼트 영역으로 드래그합니다.
 
 * **모바일 오디오 지원**: 장치가 재생할 수 있는 파일 형식을 결정합니다. 예제 값에는 `"MP3"`, `"AAC"`및 `"MIDI Monophonic"`. 이 차원의 값은 함께 사용할 수 없습니다. 단일 히트는 여러 차원 값에 적용할 수 있습니다.
 * **이동통신사**: 사용자 에이전트가 통신사별 장치를 포함할 경우 통신사는 차원 값입니다. 예제 값에는 `"Reliance Jio"`, `"Airtel"`및 `"Vodafone"`가 포함됩니다 `"Verizon"`.
