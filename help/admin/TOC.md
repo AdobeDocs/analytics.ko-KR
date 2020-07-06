@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 99%
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Analytics 관리 개요 {#admin-overview}
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [시스템 요구 사항](c-system-requirements/sys-reqs.md)
++ [시스템 요구 사항](sys-reqs.md)
 + 관리 도구 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
