@@ -5,7 +5,7 @@ title: 마케팅 채널 관리
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 86%
@@ -44,7 +44,9 @@ ht-degree: 86%
 
 마케팅 채널 관리자에서 마케팅 채널을 추가합니다.
 
->[!NOTE] 채널은 삭제할 수 없습니다. 채널을 사용하지 않으려면 비활성화하거나 이름을 바꾼 후 나중에 사용하도록 예약해 두십시오.
+>[!NOTE]
+>
+> 채널은 삭제할 수 없습니다. 채널을 사용하지 않으려면 비활성화하거나 이름을 바꾼 후 나중에 사용하도록 예약해 두십시오.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. [!UICONTROL 보고서 세트 관리자 페이지에서 보고서 세트를 선택합니다.]
@@ -77,7 +79,7 @@ ht-degree: 86%
 | 마지막 접촉 채널 무시 | 영구적인 기존의 마지막 접촉 채널을 선택한 채널로 대체할지 여부를 선택할 수 있습니다. 이 확인란을 선택하면 모든 채널(직접 및 내부 포함)이 기존 마지막 접촉 채널을 덮어씁니다. 크레딧을 받은 자격이 없는 채널이 전환되는 문제가 발생할 수 있습니다. 예를 들어 이 옵션은 자연어 검색 채널을 통해 사용자를 이미 획득한 경우, 직접 채널이 전환 크레딧을 받지 못하도록 할 수 있습니다. |
 | 채널 분류 | 이 값을 기준으로 채널을 분류할 수 있습니다. [마케팅 채널 분류](/help/components/c-marketing-channels/classifictions-mchannel.md)를 만들 때 가능한 채널 분류(하위 채널)를 추가할 수 있습니다. |
 | 유형 | 사용자를 사이트로 인도한 방식을 지정합니다. 온라인 또는 오프라인을 선택할 수 있습니다. 검색 엔진 또는 이메일 캠페인을 통해 방문한 방문자에 대해 온라인 채널을 사용합니다. 오프라인 채널은 신문 쿠폰이나 잡지 광고를 보고 사이트를 방문한 방문자에게 적용됩니다. 오프라인 채널에는 일반적으로 보고 데이터 소스를 통해 가져온 데이터가 포함됩니다. [ 데이터 소스](https://docs.adobe.com/content/help/ko-KR/analytics/import/data-sources/datasrc-home.html)를 참조하십시오. [오프라인 데이터 추가](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오. |
-| 색상 | 보고 및 분석 전용: 이 마케팅 채널과 연결된 색상 이 색상은 마케팅 채널 보고서의 채널을 나타냅니다. |
+| 색상 | 보고 및 Analytics만 해당: 이 마케팅 채널과 연결된 색상 이 색상은 마케팅 채널 보고서의 채널을 나타냅니다. |
 
 ### 무시 권장 사항
 
