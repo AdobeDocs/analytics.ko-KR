@@ -1,8 +1,11 @@
 ---
 title: cookieLifetime
 description: AppMeasurement가 만드는 쿠키의 만료를 무시합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 AppMeasurement에서 설정하는 쿠키는 일반적으로 만료 기한이 2년입니다. AppMeasurement에서 설정한 쿠키의 만료 날짜를 무시하려면 `cookieLifetime` 변수를 사용하십시오.
 
->[!NOTE] 이 변수는 고유 방문자 수 및 기여도 분석에 영향을 줍니다. 따라서 이 변수를 설정할 때에는 주의하십시오.
+>[!NOTE]
+>
+>이 변수는 고유 방문자 수 및 기여도 분석에 영향을 줍니다. 따라서 이 변수를 설정할 때에는 주의하십시오.
 
 ## Adobe Experience Platform Launch의 쿠키 라이프타임
 
