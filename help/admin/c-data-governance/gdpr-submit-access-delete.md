@@ -2,8 +2,11 @@
 description: 'null'
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Adobe의 [데이터 개인 정보 보호 UI 포털](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) 또는 [데이터 개인 정보 보호 API](https://www.adobe.io/apis/experienceplatform/gdpr.html)를 통해 데이터 개인 정보 보호 액세스를 제출하고 요청을 삭제할 수 있습니다.
 
->[!NOTE] 데이터 개인 정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
+>[!NOTE]
+>
+>데이터 개인 정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
 
 ## 샘플 JSON 요청 {#sample-json-request}
 
