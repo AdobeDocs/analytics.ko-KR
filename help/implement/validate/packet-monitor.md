@@ -2,7 +2,10 @@
 title: 패킷 분석기
 description: 패킷 분석기를 사용하여 구현에서 Adobe 데이터 수집 서버로 보낸 데이터를 볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Analytics 요청을 보려면 &quot;b/ss&quot;를 사용하여 발신 요청을 
 
 Adobe가 정식 패킷 모니터를 제공하지는 않지만 인터넷에서 다양한 패킷 모니터를 찾아볼 수 있습니다. 다음은 다른 사용자가 유용하다고 여기는 일부 패킷 모니터입니다.
 
->[!NOTE] 이러한 목록은 전체 목록이 아니라 자주 사용하는 모니터에 대한 정보입니다. 성공적으로 사용하고 있는 유용한 패킷 모니터가 있는 경우 이 창 오른쪽에 있는 [!UICONTROL 피드백] 단추를 사용하여 피드백을 제공해 주십시오.
+>[!NOTE]
+>
+>이러한 목록은 전체 목록이 아니라 자주 사용하는 모니터에 대한 정보입니다. 성공적으로 사용하고 있는 유용한 패킷 모니터가 있는 경우 이 창 오른쪽에 있는 [!UICONTROL 피드백] 단추를 사용하여 피드백을 제공해 주십시오.
 
 | Firefox | Internet Explorer | Chrome | 독립 실행형 프로그램 |
 |---|---|---|---|
@@ -32,7 +37,9 @@ Adobe가 정식 패킷 모니터를 제공하지는 않지만 인터넷에서 �
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE] Adobe는 이러한 패킷 모니터와 관련하여 발생할 수 있는 문제를 지원하거나 해결하지 않습니다. 대신 패킷 모니터 제공 사이트에서 지원을 문의하십시오.
+>[!NOTE]
+>
+>Adobe는 이러한 패킷 모니터와 관련하여 발생할 수 있는 문제를 지원하거나 해결하지 않습니다. 대신 패킷 모니터 제공 사이트에서 지원을 문의하십시오.
 
 ## 응답 코드의 NS_BINDING_ABORTED
 
