@@ -2,7 +2,7 @@
 title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -14,9 +14,13 @@ ht-degree: 92%
 
 이 페이지에는 해당 Analytics 기능에서 지원되는 차원이 나열됩니다.
 
->[!NOTE] 사용자 지정 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 값은 개별 보고서 세트에만 적용됩니다.
+>[!NOTE]
+>
+>사용자 지정 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 값은 개별 보고서 세트에만 적용됩니다.
 
->[!NOTE] Analytics 도구에서 유사한 차원에 대해 다른 용어를 사용하는 부분과 겹칩니다. 예를 들어, 분석 작업 공간에서 사용하는 `browserwidth` 동안 보고 및 분석에서 사용합니다 `browserwidthbucketed`.
+>[!NOTE]
+>
+>Analytics 도구에서 유사한 차원에 대해 다른 용어를 사용하는 부분과 겹칩니다. 예를 들어, 보고 및 Analytics은 Analysis Workspace에서 사용하는 `browserwidth` 동안 사용됩니다 `browserwidthbucketed`.
 
 ## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 차원
 
