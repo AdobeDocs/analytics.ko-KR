@@ -1,15 +1,20 @@
 ---
 title: inList
 description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확인합니다.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 플러그인: inList
 
->[!IMPORTANT] 이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `inList` 플러그인을 사용하면 구분된 문자열 또는 JavaScript 배열 개체 내에 값이 이미 있는지 확인할 수 있습니다. 몇 가지 다른 플러그인은 `inList` 플러그인에 따라 다르게 작동합니다. 이 플러그인은 부분 문자열과 일치하지 않는 JavaScript 메서드 `indexOf()`에 비해 구별되는 이점을 제공합니다. 예를 들어 이 플러그인을 사용하여 `"event2"`를 확인한 경우 이 플러그인은 `"event25"`를 포함하는 문자열과 일치하지 않습니다. 구분 기호로 구분된 문자열 또는 배열의 값을 확인하지 않아도 되거나 자신만의 `indexOf()` 논리를 사용하려는 경우에는 이 플러그인이 필요하지 않습니다.
 
