@@ -4,7 +4,10 @@ title: 타임스탬프 선택 사항
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +22,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 타임스탬프가 지정된 데이터를 모바일 앱에서 전역 보고서 세트로 보낼 수 있습니다.
 * 새 보고서 세트를 만들지 않고도 오프라인 추적을 사용하도록 앱을 업그레이드할 수 있습니다.
 
->[!IMPORTANT] 타임스탬프 옵션을 사용하는 경우 이미 타임스탬프가 지정된 데이터에 [s.visitorID를](/help/implement/vars/config-vars/visitorid.md) 설정하지 마십시오. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 횟수/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
+>[!IMPORTANT]
+>
+>If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 횟수/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
->[!NOTE] 타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다. 즉, 방문/세션이 92일 동안 &quot;열려 있음&quot;으로 표시되고, 이전 히트(히트 시간) 이후 30분이 지나지 않은 추가 히트는 여전히 동일한 방문/세션에 포함될 수 있습니다. 많은 요소(세그먼테이션, 할당, 만료 등)가 이러한 히트의 보고서 포함 여부에 영향을 주므로, 잘못된 순서로 수신되는 &quot;이전&quot; 히트는 &quot;알 수 없는&quot; 결과를 생성합니다.
+>[!NOTE]
+>
+>타임스탬프 사용 세션 데이터는 최대 92일 동안 유지됩니다. 즉, 방문/세션이 92일 동안 &quot;열려 있음&quot;으로 표시되고, 이전 히트(히트 시간) 이후 30분이 지나지 않은 추가 히트는 여전히 동일한 방문/세션에 포함될 수 있습니다. 많은 요소(세그먼테이션, 할당, 만료 등)가 이러한 히트의 보고서 포함 여부에 영향을 주므로, 잘못된 순서로 수신되는 &quot;이전&quot; 히트는 &quot;알 수 없는&quot; 결과를 생성합니다.
 
 ## 새 보고서 세트 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -41,5 +48,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    이렇게 하면 보고서 세트가 타임스탬프 옵션으로 변경됩니다.
 
->[!NOTE] 보고서 세트가 **타임스탬프 선택 사항**&#x200B;으로 설정된 경우 이 설정을 다른 설정으로 변경하려면 Adobe Client Care에 문의하십시오.
+>[!NOTE]
+>
+>보고서 세트가 **타임스탬프 선택 사항**&#x200B;으로 설정된 경우 이 설정을 다른 설정으로 변경하려면 Adobe Client Care에 문의하십시오.
 
