@@ -3,10 +3,10 @@ title: JavaScript 릴리스 노트의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 98%
+source-wordcount: '2123'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,12 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 [코드 관리자](/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 수 있습니다.
+
+## 버전 2.21.0
+
+릴리스 날짜: **2020년 6월 24일**
+
+* Activity Map linkExclusions 필터가 Firefox에 항상 적용되지 않는 문제가 해결되었습니다.
 
 ## 버전 2.20.0
 
