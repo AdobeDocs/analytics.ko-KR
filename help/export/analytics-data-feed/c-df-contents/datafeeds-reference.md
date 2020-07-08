@@ -6,10 +6,10 @@ title: 데이터 열 참조
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ ht-degree: 99%
 | `visid_low` | visid_high와 결합하여 방문자를 고유하게 식별합니다. | bigint 부호 없음 |
 | `visid_new` | 히트에 새로 생성된 방문자 ID가 있는지 여부를 식별하는 플래그입니다. | char(1) |
 | `visid_timestamp` | 방문자 ID가 새로 생성된 경우 방문자 ID가 생성된 시간의 타임스탬프(Unix 시간)를 제공합니다. | int |
-| `visid_type` | 방문자를 식별하는 데 사용된 방법을 나타내는 숫자 ID입니다. <br>0: 사용자 지정 방문자 ID <br>1: IP 및 사용자 에이전트 폴백 <br>2: HTTP 모바일 가입자 헤더 <br>3: 기존 쿠키 값(s_vi) <br>4: 대체 쿠키 값(s_fid) <br>5: ID 서비스 | tinyint 부호 없음 |
+| `visid_type` | 외부 사용 금지; Adobe가 내부적으로 사용하여 최적화할 수 있습니다. 방문자를 식별하는 데 사용되는 방법을 나타내는 숫자 ID.<br>0: 사용자 지정 visitorID 또는 알 수 없음/해당<br>없음 1: IP 및 사용자 에이전트 폴백 <br>2: HTTP 모바일 구독자 헤더 <br>3: 기존 쿠키 값(s_vi) <br>4: 폴백 쿠키 값(s_fid) <br>5: ID 서비스 | tinyint 부호 없음 |
 | `visit_keywords` | 검색 키워드 차원에 사용되는 변수입니다. 이 열은 Adobe에서 사용하는 백엔드 로직을 수용하기 위해 비표준 문자 제한을 사용합니다. | varchar(244) |
 | `visit_num` | 방문 번호 차원에 사용되는 변수입니다. 1에서 시작하여 새 방문이 방문자별로 시작될 때마다 증가합니다. | int 부호 없음 |
 | `visit_page_num` | 히트 깊이 차원에 사용되는 변수입니다. 사용자가 생성하는 각 히트에 대해 1씩 증가합니다. 각 방문을 재설정합니다. | int 부호 없음 |
