@@ -2,7 +2,7 @@
 description: Target(A4T)용 Analytics 패널을 사용하면 Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다.
 title: Target(A4T) 패널의 Analytics
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ Analytics for Target(A4T) 패널을 사용하면 Analysis Workspace에서 Adobe 
 | 성공 지표 | 드롭다운에서 최대 3개의 표준(계산되지 않은) 성공 이벤트를 선택하거나 왼쪽 레일에서 지표를 드래그하여 놓습니다. 각 지표에는 렌더링된 패널에 전용 테이블과 시각화가 있습니다. |
 | 달력 날짜 범위 | Adobe Target의 활동 날짜 범위를 기반으로 자동으로 채워집니다. 필요한 경우 변경할 수 있습니다. |
 
-![패널 빌더](assets/a4t-panel-builder.png)
+![패널 빌더](assets/a4t-panel-builder2.png)
 
 ## 패널 출력 {#Output}
 
