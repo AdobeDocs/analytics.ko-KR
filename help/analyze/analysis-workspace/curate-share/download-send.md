@@ -3,7 +3,10 @@ description: PDF 및 CSV 형식으로 저장된 프로젝트와 저장되지 않
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 61%
 
 ---
 
@@ -18,20 +21,21 @@ PDF 또는 CSV 파일 이름이 프로젝트의 현재 이름과 일치합니다
 
 * CSV 형식의 폴아웃 시각화도 지원합니다.
 * 프로젝트를 PDF에 렌더링할 때 Adobe에서는 페이지에 있는 내용만 렌더링합니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 컨텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정(오른쪽 상단 모서리의 단추)되도록 변경해야 합니다.
-* 브라우저에서 다운로드한 PDF를 내보내는 데 몇 분이 걸릴 수 있습니다. 이는 전체 프로젝트를 PDF 형식으로 렌더링하기 전에 서버에서 다시 실행해야 하기 때문입니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다.
-* 매우 긴 작업 영역 프로젝트가 있는 경우 PDF는 현재 페이지 매김된 문서가 아니라 하나의 큰 페이지로 내보내집니다. 페이지 매김을 허용하는 작업 영역 PDF 내보내기 개선 작업을 진행 중입니다.
+* 브라우저에서 다운로드한 PDF를 내보내는 데 몇 분이 걸릴 수 있습니다. 이는 PDF 형식으로 렌더링하기 전에 서버에서 전체 프로젝트를 다시 실행해야 하기 때문입니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다.
+* 매우 긴 작업 공간 프로젝트가 있는 경우 현재 PDF는 페이지로 구분된 문서가 아닌 하나의 거대한 페이지로 내보내집니다. 페이지 매김을 허용하는 작업 공간 PDF 내보내기 개선 작업을 진행 중입니다.
 
 1. 프로젝트를 만들거나 엽니다.
-1. 클릭 **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
+1. **[!UICONTROL 프로젝트]** > **[!UICONTROL CSV 다운로드(또는 PDF 다운로드)]**&#x200B;를 클릭합니다.
 
-2019년 4월 11일부터, Analysis Workspace의 **[!CSV 다운로드]**(및 **[!C클립보드로 복사]**)가 변경되어 내보낸 데이터의 형식을 제거할 수 있습니다.
-* 천 단위 구분 기호가 더 이상 포함되지 않습니다. (The decimal separator will continue to be included, and will adhere to the format defined under **[!UICONTROL Components > Report Settings > Thousands Separator]**).
+On April 11, 2019, several changes were made to **[!UICONTROL CSV downloads]** (and **[!UICONTROL Copy to Clipboard]**) from Analysis Workspace to remove formatting from exported data.
+* The  **[!UICONTROL Thousands Separator]** is no longer included. (소수점 구분 기호는 계속해서 포함되며, **[!UICONTROL 구성 요소 > 보고서 설정 > 천 단위 구분 기호]**&#x200B;에 정의된 형식을 따릅니다.)
 * 통화 기호가 표시되지 않습니다.
 * 퍼센트 기호가 표시되지 않습니다.
 * 백분율은 십진법입니다. 예를 들어, 75%는 0.75로 표시됩니다.
 * 시간은 초 단위로 표시됩니다.
 * 집단 테이블은 원시 값만 표시합니다. 백분율은 제거됩니다.
 * 숫자가 올바르지 않으면 빈 셀이 표시됩니다.
+* 반올림은 적용되지 않습니다(계산된 지표에 지정된 경우라도). 원시 값이 표시됩니다.
 
 >[!N참고:]
 >
