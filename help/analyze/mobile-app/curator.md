@@ -2,9 +2,9 @@
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
 translation-type: tm+mt
-source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2307'
 ht-degree: 78%
 
 ---
@@ -13,15 +13,15 @@ ht-degree: 78%
 
 # Adobe Analytics 대시보드에 대한 큐레이터 가이드
 
-다음 정보는 Adobe Analytics 데이터 큐레이터에게 관리자 사용자를 위한 대시보드를 구성하고 표시하는 방법을 알려줍니다. 이 정보를 보여 주는 비디오를 보려면 [Adobe Analytics 대시보드 스코어카드 빌더를 참조하십시오](https://youtu.be/tnnl6hrcP94).
+다음 정보는 Adobe Analytics의 큐레이터에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 이 정보를 보여주는 비디오를 보려면 [Adobe Analytics 대시보드 Scorecard Builder를 참조하십시오](https://youtu.be/tnnl6hrcP94).
 
 ## 소개
 
-Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하면 사용자가 만들고 Adobe Analytics의 데스크탑 UI에서 공유하는 직관적인 스코어카드에 모바일로 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 본인에게 가장 중요한 데이터에 따라 스코어카드를 조정할 수 있습니다. Analytics 대시보드는 iOS 및 Android 운영 체제에서 모두 지원됩니다.
+Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 통찰력을 제공합니다. 이 앱을 사용하면 Adobe Analytics 데스크탑 UI에서 만들고 공유하는 직관적인 스코어카드에 모바일로 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 본인에게 가장 중요한 데이터에 따라 스코어카드를 조정할 수 있습니다. Analytics 대시보드는 iOS 및 Android 운영 체제에서 모두 지원됩니다.
 
 ## 이 안내서에 대한 자세한 내용
 
-이 안내서는 Adobe Analytics 데이터 큐레이터가 대시보드에서 관리자 사용자에 대한 스코어카드를 구성하는 데 도움이 되도록 하기 위해 마련되었습니다. 큐레이터는 앱 스코어카드 설정을 담당하는 조직의 관리자나 다른 역할을 맡고 있는 사람일 수 있으며, 이를 통해 경영진 사용자가 자신의 모바일 장치에서 중요한 요약 데이터에 대한 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다. 경영진 사용자는 Analytics 대시보드의 최종 사용자이지만 이 안내서는 데이터 큐레이터가 그러한 사용자를 위해 앱을 효과적으로 설정하는 데 도움을 줍니다.
+이 안내서는 Adobe Analytics 데이터 큐레이터가 대시보드에서 관리자 사용자에 대한 스코어카드를 구성하는 데 도움이 되도록 구성되었습니다. 큐레이터는 앱 스코어카드 설정을 담당하는 조직의 관리자나 다른 역할을 맡고 있는 사람일 수 있으며, 이를 통해 경영진 사용자가 자신의 모바일 장치에서 중요한 요약 데이터에 대한 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다. 경영진 사용자는 Analytics 대시보드의 최종 사용자이지만 이 안내서는 데이터 큐레이터가 그러한 사용자를 위해 앱을 효과적으로 설정하는 데 도움을 줍니다.
 
 ## 용어집
 
@@ -110,7 +110,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
    타일에 추가된 각 차원은 앱의 세부 보기에 있는 드롭다운 목록에 표시됩니다. 그러면 경영진 사용자는 드롭다운 목록에 나열된 옵션 중에서 선택할 수 있습니다.
 
-4. 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 직접 끌어서 놓습니다. 스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe [Analytics Workspace에서와 동일한 방식으로 스코어카드에](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 대한 필터를 구성하고 적용할 수 있습니다.
+4. 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 직접 끌어서 놓습니다. 스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe [Analytics 작업 공간에서 수행한](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 것과 동일한 방식으로 스코어카드에 대한 필터를 구성하고 적용합니다.
 
    ![필터용 세그먼트 작성](assets/segment_ui.png)
 
@@ -142,12 +142,10 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
    * 스코어카드에 대한 설명 제공
    * 관련 태그 추가
    * 스코어카드 수신자 지정
-   * 경영진 사용자가 스코어카드의 모든 구성 요소에 액세스할 수 있도록 하려면 **수신자와 임베드된 구성요소 공유** 옵션을 선택합니다.
 
 3. **공유**&#x200B;를 클릭합니다.
 
 ![Share_Scorecards](assets/new_share.png)
-
 
 스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌드에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
 
@@ -192,6 +190,7 @@ If you update the Scorecard by adding new components, you may want to share the 
    * 공유한 스코어카드에 적용되는 로그인 회사 또는 Experience Cloud 조직의 이름을 탭합니다. 스코어카드 목록에는 해당 로그인 회사 아래에 경영진과 공유된 모든 스코어카드가 표시됩니다.
    * 해당되는 경우 **가장 최근에 수정됨**&#x200B;별로 이 목록을 정렬할 수 있습니다.
    * 스코어카드의 이름을 탭하여 봅니다.
+
    ![회사 선택](assets/accesscard.png)
 
    관리자 사용자가 로그인하여 공유된 항목이 없다는 메시지가 표시되는 경우:
