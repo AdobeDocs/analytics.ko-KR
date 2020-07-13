@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 가져오기 안내서
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: 61da40f8b2c95b0ce34543ac0ff8b4cf598adb2f
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 99%
 
 ---
 
@@ -38,6 +41,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 + [데이터 삽입 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Analytics Data Connectors 시작](data-connectors/getting-started-data-connectors.md)
+   + [Analytics 데이터 커넥터에 대한 수명 종료](data-connectors/data-connectors-eol.md)
    + Adobe Analytics용 appFigures Data Connector {#appfigures}
       + [appFigures 개요](data-connectors/appfigures-overview/appfigures-overview.md)
       + [이 통합을 활성화하기 전에](data-connectors/appfigures-overview/appfigures-before-activation.md)
