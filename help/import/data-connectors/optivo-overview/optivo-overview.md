@@ -3,12 +3,19 @@ description: 이 통합에는 이메일 마케팅 소프트웨어 통합 피드�
 title: Adobe Analytics용 optivo® broadmail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Analytics용 optivo® broadmail Data Connector{#optivo-broadmail-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Adobe 데이터 커넥터 기술은 2021년 중반에 사용이 종료됩니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 이 통합에는 이메일 마케팅 소프트웨어 통합 피드백 시스템의 기능과 Adobe Analytics의 행동 보고가 결합되어 조직을 위한 강력한 분석 및 최적화 기회를 만듭니다.
 
