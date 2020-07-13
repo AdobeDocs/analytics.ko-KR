@@ -2,10 +2,10 @@
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
 title: Analytics Data Connectors 시작하기
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '977'
+ht-degree: 98%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 Adobe는 디지털 전략 및 마케팅 이니셔티브에 대하여 실용적인 실시간 인텔리전스를 조직에 제공합니다. Data Connectors를 사용하면 타사 애플리케이션의 추적 데이터를 Analytics로 가져와 중앙의 위치에서 데이터를 모으고 사용할 수 있습니다.  파트너 제품 중 하나를 사용할 경우 애플리케이션 데이터를 마케팅 보고에 가져오는 통합을 만들 수 있습니다. 통합되면 사용 중인 애플리케이션의 데이터를 포함하는 보고서를 생성할 수 있습니다.
 
 예를 들어, 이메일 통합은 이메일 파트너를 사용하여 이메일 캠페인을 배포해야 할 수 있습니다. 방문자가 웹 사이트에 들어올 때 이메일 캠페인에 대한 응답으로 들어온 방문자를 알고 싶어합니다. Data Connectors는 이메일 파트너의 데이터를 마케팅 보고에 통합하므로, 이 정보를 확인하여 이메일 캠페인의 효과를 측정할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>Adobe 데이터 커넥터 기술은 2021년 중반에 사용이 종료됩니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 **시스템 요구 사항**
 
