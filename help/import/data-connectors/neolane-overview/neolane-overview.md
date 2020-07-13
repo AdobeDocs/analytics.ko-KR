@@ -3,12 +3,19 @@ description: 이 Adobe® Data Connectors™ 이메일 통합은 Adobe Analytics�
 title: Adobe Analytics용 Neolane Ozon Data Connector
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Analytics용 Neolane Ozon Data Connector{#neolane-ozon-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Adobe 데이터 커넥터 기술은 2021년 중반에 사용이 종료됩니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 이 Adobe® Data Connectors™ 이메일 통합은 Adobe Analytics®의 행동 정보를 이메일 마케팅과 결합하여 강력한 도구를 만들고 성공 측정 및 타겟 대상을 더 연관성 있는 메시징으로 재정의합니다.
 
