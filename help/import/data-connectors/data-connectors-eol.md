@@ -2,10 +2,10 @@
 description: Analytics 데이터 커넥터의 사용 종료 시점과 이유를 주의하십시오.
 title: Analytics 데이터 커넥터에 대한 수명 전 알림 종료
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 7a6337efdbf08d31f2e2c632b57c781d0b566828
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 26%
 
 ---
 
@@ -24,6 +24,6 @@ Data Connectors를 사용하면 타사 애플리케이션의 추적 데이터를
 
 ## 이 기능을 제거하면 어떤 영향이 있습니까?
 
-Adobe 파트너인 경우 통합을 마이그레이션 또는 중단할지 여부를 Adobe에 알려줄 수 있습니다.
+Adobe 파트너인 경우 통합을 마이그레이션 또는 중단할지 여부를 Adobe에 알려줄 수 있습니다. Adobe의 새로운 Adobe Exchange 프로그램으로 통합 마이그레이션에 대한 자세한 내용은 설명서 [에서](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) 참조할 수 있습니다.
 
 데이터 커넥터 고객이고 사용하는 통합을 마이그레이션해야 한다고 요청하려면 모든 요청을 통합 파트너로 직접 라우팅해야 합니다. 고객 지원 센터를 통해 Adobe로 요청을 전송하는 경우에도 동일한 효과가 나타나지 않습니다.
