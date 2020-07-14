@@ -3,8 +3,11 @@ description: 기존 보고서 세트에서 설정을 복사한 경우 시스템 
 title: 소스 보고서 세트에서 복사되지 않은 설정
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -55,15 +58,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
      <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span>에서 보고서 세트를 선택합니다. </li> 
      <li id="li_B19C4112D57D4D329A0774EBB345473B"><span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 변수</span>를 클릭합니다. </li> 
      <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">확인란을 선택하고 <span class="uicontrol">경로 지정 보고서</span>에서 설정을 선택합니다. </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>고유한 이벤트 관리자 </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
-     <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span>에서 보고서 세트를 선택합니다. </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957"><span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">전환</span> &gt; <span class="uicontrol">성공 이벤트</span>를 클릭합니다. </li> 
-     <li id="li_F224713229D74D9BB5BEEE30BF2C7343">확인란을 선택하고 <span class="uicontrol">고유 이벤트 기록</span>에서 설정을 선택합니다. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
