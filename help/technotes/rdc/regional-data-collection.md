@@ -1,8 +1,11 @@
 ---
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
-translation-type: ht
-source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
+translation-type: tm+mt
+source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -10,6 +13,10 @@ source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 # 지역 데이터 수집
 
 Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 최종 사용자와 Adobe Experience Cloud 간의 상호 작용이 최종 사용자에게 가까운 위치에서 발생할 수 있습니다. 이렇게 하면 사이트/앱 성능이 향상되고 데이터가 가능한 한 빨리 수집되므로 최종 사용자 환경이 최적화됩니다. 디지털 속성의 데이터가 DCC(데이터 수집 센터)에 지역적으로 수집되면 보안 연결을 통해 DPC(데이터 처리 센터)로 전달되며, 여기서 처리되고 Adobe Experience Cloud의 제품에서 사용할 수 있게 됩니다.
+
+>[!IMPORTANT]
+>
+>China RDC(China Performance Optimization) Add-On Package는 Adobe Analytics의 유료 추가 기능입니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
 
 현재 RDC에는 다음 위치(변경될 수 있음)가 포함되어 있습니다.
 
