@@ -2,10 +2,10 @@
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 translation-type: tm+mt
-source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 94%
+source-wordcount: '471'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 최종
 
 >[!IMPORTANT]
 >
->China RDC(China Performance Optimization) Add-On Package는 Adobe Analytics의 유료 추가 기능입니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
+>China RDC(China Performance Optimization) Add-On Package는 Adobe Analytics의 유료 추가 기능입니다. 중국 본토의 Adobe 성능 최적화를 통해 중국 내 고객은 전 세계 다른 위치가 아니라 중국 에지 노드로 데이터를 직접 전송할 수 있습니다. 이렇게 하면 중국 외부의 노드로 데이터를 전송할 때보다 페이지 로드 시간과 데이터 정확도가 향상됩니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
 
 현재 RDC에는 다음 위치(변경될 수 있음)가 포함되어 있습니다.
 
