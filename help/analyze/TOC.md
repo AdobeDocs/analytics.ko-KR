@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [Analysis Workspace 활용 사례](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
-   + Workspace 프로젝트 작성 {#build-workspace-project}
+   + 작업 공간 프로젝트 작성 {#build-workspace-project}
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Workspace 프로젝트 만들기](analysis-workspace/build-workspace-project/t-freeform-project.md)
+      + [작업 공간 프로젝트 만들기](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Workspace의 여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 열 및 행 설정 {#column-row-settings}
@@ -79,7 +79,7 @@ ht-degree: 96%
       + [트리 맵](analysis-workspace/visualizations/treemap.md)
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
-      + [Analytics for Target(A4T) 패널](analysis-workspace/c-panels/a4t-panel.md)
+      + [Target(A4T) 패널의 Analytics](analysis-workspace/c-panels/a4t-panel.md)
       + [기여도 분석 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
@@ -98,7 +98,7 @@ ht-degree: 96%
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
    + 속성 IQ {#attribution}
       + [기여도 분석 개요](analysis-workspace/attribution/overview.md)
-      + [기여도 모델 및 조회 창](analysis-workspace/attribution/models.md)
+      + [기여도 분석 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
    + [세그먼트 IQ](analysis-workspace/segment-iq.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [분석 작업 공간의 액세스 가능성](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Analysis Workspace 액세스 가능 여부](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 도움말](report-builder/home.md)
    + [Report Builder의 새로운 기능](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [타겟](reports-analytics/targets.md)
    + [경고](reports-analytics/alerts.md)
    + [달력 이벤트](reports-analytics/t-calendar-event.md)
-   + [Data Warehouse 요청](reports-analytics/data-warehouse.md)
    + [FAQ](reports-analytics/frequently-asked-questions.md)
    + [문제 해결](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
