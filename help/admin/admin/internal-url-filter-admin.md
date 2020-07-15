@@ -4,15 +4,17 @@ title: 내부 URL 필터
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
 
 # 내부 URL 필터
+
+**[!UICONTROL 관리 > 보고서 세트 > 설정 편집 > 일반 > 내부 URL 필터 > 필터 추가]**
 
 내부 URL 필터는 사이트 내부로 간주되는 참조를 식별합니다. 이 필터들은 트래픽 소스 보고서가 데이터를 채우도록 하고 내부 트래픽을 필터링하는 데 도움이 됩니다.
 
