@@ -4,10 +4,10 @@ title: 순차적 세그먼트 작성
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -262,9 +262,9 @@ ht-degree: 100%
 순차적 체크포인트를 그룹화하려 한다면 &quot;컨테이너&quot;는 논리 그룹입니다. 그러나 이러한 순차적 체크포인트가 단일 히트 또는 방문 범위 내에서 발생해야 한다면 &#39;히트&#39; 또는 &#39;방문&#39; 컨테이너가 필요합니다. 물론, 하나의 히트가 둘 이상의 체크포인트를 크레딧할 수 있으면 순차적 체크포인트 그룹에 대해 &#39;히트&#39;는 적절하지 않습니다.
 
 **논리 그룹이 순차적 세그먼트 작성을 간소화합니까?**
-네, 가능합니다. **방문자가 페이지 A 다음에 페이지 B, 또는 페이지 C, 또는 페이지 D를 보았습니까?**&#x200B;라는 질문에 답하려고 한다고 가정해 봅시다.
+네, 가능합니다. 이 방문자 세그먼트를 식별하려고 한다고 가정합니다. **페이지 A를 본 다음 B, C 및 D의 각 페이지를 본 방문자**
 
-이 세그먼트를 논리 그룹 컨테이너 없이 만들 수는 있지만 그렇게 하는 것은 복잡하고 힘든 일입니다.
+논리 그룹 컨테이너 없이 이 세그먼트를 작성할 수 있지만 복잡하고 부담스럽습니다. 방문자가 볼 수 있는 모든 페이지 시퀀스를 지정해야 합니다.
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
