@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: ht
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+translation-type: tm+mt
+source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 94%
 
 ---
 
@@ -63,3 +66,6 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP 서버로 Data Warehouse 요청 보내기](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [SFTP를 통해 암호 없이 Adobe에 연결](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
++ [Analysis Workspace 다운로드](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
++ [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html)
