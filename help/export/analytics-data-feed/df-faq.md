@@ -3,7 +3,10 @@ description: 데이터 피드에 대한 FAQ
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 데이터 피드 FAQ
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
@@ -23,3 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Adobe Analytics에서는 대부분의 변수가 보고 목적으로 대소문자를 구분하지 않는 것으로 간주됩니다. 예를 들어 &#39;snow&#39;, &#39;Snow&#39;, &#39;SNOW&#39; 및 &#39;sNow&#39;는 모두 동일한 값으로 간주됩니다. 대소문자 구분은 데이터 피드에서 유지됩니다.
 
 이후가 아닌 열과 이후 열 간에 동일한 값의 대소문자가 다르게 되어 있다면(예: 이전 열에는 &quot;snow&quot;, 이후 열에는 &quot;Snow&quot;) 구현은 사이트 전체에서 대문자 값과 소문자 값을 모두 사용합니다. 이후 열에서 대소문자가 다른 값은 이전에 전달되어 가상 쿠키에 저장되어 있거나, 해당 보고서 세트에 대해 동일한 시간 동안 처리되었습니다.
+
+## 보트는 관리 콘솔 보트 규칙으로 필터링됩니까?
+
+데이터 피드에는 관리 콘솔 보트 규칙으로 필터링된 보트 [가 포함되지 않습니다](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html).
