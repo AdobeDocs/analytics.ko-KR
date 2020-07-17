@@ -3,9 +3,9 @@ description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 �
 title: 가상 보고서 세트 구성 요소 큐레이션
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 100%
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
+   * [!UICONTROL Activity Map]
    * Analytics 보고 API
 
    이 옵션을 선택하면 &quot;제외된 구성 요소&quot; 열의 해당 구성 요소를 &quot;포함된 구성 요소&quot; 열로 드래그하여 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함하거나 제외할 수 있는 구성 요소는 다음과 같습니다.
