@@ -6,7 +6,7 @@ title: 교차 장치 방문자 식별 예
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. 구성 요소 사용 안내서의 [Cross-Device Analytics](/help/components/cda/cda-home.md)를 참조하십시오.
+>장치 간에 방문자를 식별하는 이 방법은 더 이상 권장되지 않습니다. 구성 요소 사용 안내서의 [Cross-Device Analytics](/help/components/cda/overview.md)를 참조하십시오.
 
 다음 예에서는 일반적인 고객 상호 작용에서 전송된 서버 호출 샘플을 사용하여 교차 장치 방문자 식별이 작동하는 방식을 보여줍니다.
 
