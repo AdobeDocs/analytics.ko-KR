@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 구성 요소 안내서
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 75%
+source-wordcount: '632'
+ht-degree: 73%
 
 ---
 
@@ -205,9 +205,13 @@ ht-degree: 75%
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
 + 교차 디바이스 분석 {#cda}
-   + [교차 디바이스 분석 개요](cda/cda-home.md)
-   + [교차 디바이스 분석 설정](cda/cda-setup.md)
-   + [교차 디바이스 분석 FAQ](cda/cda-faq.md)
+   + [교차 디바이스 분석 개요](cda/overview.md)
+   + [현장 기반 연결](cda/field-based-stitching.md)
+   + [장치 그래프](cda/device-graph.md)
+   + [장치 간 Analytics 설정](cda/setup.md)
+   + [재생 방식](cda/replay.md)
+   + [CDA 작업 공간 템플릿](cda/workspace-template.md)
+   + [교차 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)
    + [경고 빌더](c-alerts/alert-builder.md)
