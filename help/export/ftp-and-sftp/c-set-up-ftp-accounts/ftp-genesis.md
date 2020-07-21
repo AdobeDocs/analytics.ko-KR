@@ -2,14 +2,20 @@
 description: Data Connectors를 사용하여 Adobe 파트너와 통합할 때 Adobe는 재마케팅 또는 기타 데이터를 사용자나 파트너가 다운로드할 수 있는 FTP 계정에 푸시할 수 있습니다.
 keywords: ftp;sftp
 title: Data Connectors
-uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 91%
 
 ---
 
 
 # Data Connectors
+
+>[!IMPORTANT]
+>
+>Adobe는 2021년 중반에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)를 사용하여 Adobe 파트너와 통합할 때 Adobe는 재마케팅 또는 기타 데이터를 사용자나 파트너가 다운로드할 수 있는 FTP 계정에 푸시할 수 있습니다.
 
