@@ -2,7 +2,7 @@
 title: 종료 링크
 description: 종료 링크의 이름입니다.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,6 +24,6 @@ AppMeasurement를 사용하여 데이터를 이 차원으로 보내려면:
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"e"`.
 * 이미지 [`tl()`](/help/implement/vars/functions/tl-method.md) 요청 전송
 
-## 차원 값
+## 차원 항목
 
-이 변수는 구현의 사용자 지정 문자열을 기반으로 하므로 조직에서 차원 값이 무엇인지 결정합니다. 보고 요구 사항에 따라 링크를 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
+이 변수는 구현의 사용자 지정 문자열을 기반으로 하므로 조직에서 차원 항목을 결정합니다. 보고 요구 사항에 따라 링크를 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
