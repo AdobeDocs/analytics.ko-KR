@@ -2,7 +2,7 @@
 title: 카테고리
 description: 히트의 제품 카테고리.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 이 차원은 변수의 문자열 첫 부분을 [`products`](/help/implement/vars/page-vars/products.md) 참조합니다. 첫 번째 세미콜론(`;`)에 있는 모든 항목이 이 차원을 채웁니다.
 
-## 차원 값
+## 차원 항목
 
-이 변수는 구현의 사용자 지정 문자열을 기반으로 하므로 조직에서 차원 값이 무엇인지 결정합니다. &#39;제품&#39; 및 &#39;카테고리&#39; 차원을 모두 사용하여 개별 제품을 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
+이 변수는 구현의 사용자 지정 문자열을 기반으로 하므로 조직에서 차원 항목을 결정합니다. &#39;제품&#39; 및 &#39;카테고리&#39; 차원을 모두 사용하여 개별 제품을 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
 
 >[!TIP]
 >
