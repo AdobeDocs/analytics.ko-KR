@@ -1,8 +1,8 @@
 ---
 title: 기여도 분석 모델 및 전환 확인 기간
-description: 다양한 유형의 속성이 차원 값 간에 크레딧을 나누는 방법입니다.
+description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나누는 방법입니다.
 translation-type: tm+mt
-source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 93%
