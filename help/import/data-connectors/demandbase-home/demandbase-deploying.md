@@ -3,10 +3,10 @@ description: 이 통합 배포는 다음 작업이 필요한 간단한 프로세
 title: 통합 배포
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Demandbase 차원 값을 Adobe Analytics로 전송할 때 구분하는 구분 기호로 사용됩니다. 이 설정을 변경하면 기본 분류 규칙이 제대로 작동하지 않을 수 있습니다. </td> 
+   <td colname="col2"> Adobe Analytics으로 보낼 때 Demandbase 차원 항목을 구분하는 데 사용되는 구분 기호입니다. 이 설정을 변경하면 기본 분류 규칙이 제대로 작동하지 않을 수 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
