@@ -2,7 +2,7 @@
 title: 추적 코드
 description: 추적 코드 또는 캠페인의 이름입니다.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 이 차원은 이미지 요청의 [`v0` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 검색합니다. AppMeasurement는 변수를 사용하여 이 데이터를 [`campaign`](/help/implement/vars/page-vars/campaign.md) 수집합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 사이트의 추적 코드 이름이 포함됩니다. 조직에서 사용할 특정 차원 값을 결정합니다.
+차원 항목에는 사이트의 추적 코드 이름이 포함됩니다. 조직에서 사용할 특정 차원 항목을 결정합니다.
