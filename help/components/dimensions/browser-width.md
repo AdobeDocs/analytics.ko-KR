@@ -2,7 +2,7 @@
 title: 브라우저 너비 - 버킷
 description: 브라우저 창의 너비(픽셀 단위).
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 ## 데이터로 이 차원 채우기
 
-이 차원은 이미지 요청의 [`bw` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수를 사용하여 이 데이터 `window.innerWidth` 를 수집합니다. AppMeasurement 라이브러리(예: Adobe Experience Platform Launch)를 사용하는 경우 이 차원은 기본적으로 작동합니다. AppMeasurement 외부(예: API를 통해) 데이터 수집 메서드를 사용하는 경우 각 방문의 첫 번째 히트에 `bw` 쿼리 문자열 매개 변수를 포함해야 합니다.
+이 차원은 이미지 요청의 [`bw` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수를 사용하여 이 데이터 `window.innerWidth` 를 수집합니다. AppMeasurement 라이브러리(예: Adobe Experience Platform 론치를 통해)를 사용하는 경우 이 차원은 기본적으로 작동합니다. AppMeasurement 외부(예: API를 통해) 데이터 수집 메서드를 사용하는 경우 각 방문의 첫 번째 히트에 `bw` 쿼리 문자열 매개 변수를 포함해야 합니다.
 
 Adobe는 방문에 대해 브라우저 너비를 유지합니다. 브라우저 너비를 중간에 조정하면 조정이 기록되지 않습니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 100픽셀 그룹으로 분류된 수집된 모든 브라우저 너비가 포함됩니다. 예를 들어 히트의 브라우저 너비가 있는 경우, `1280`차원 값으로 그룹화됩니다 `1200 to 1299`.
+차원 항목에는 100픽셀 그룹으로 분류된 수집된 모든 브라우저 너비가 포함됩니다. 예를 들어 히트의 브라우저 너비가 있는 경우, `1280`차원 항목으로 그룹화됩니다 `1200 to 1299`.
