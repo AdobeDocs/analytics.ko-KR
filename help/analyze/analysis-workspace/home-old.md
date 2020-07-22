@@ -3,10 +3,10 @@ description: Adobe Analytics 사용을 시작하는 방법.
 keywords: Analysis Workspace
 title: 시작 안내서
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Analysis Workspace는 Adobe의 주요 도구 중 하나로, 조직에서 실행 
 
 ## Workspace에서 기본 등급 보고서 가져오기
 
-Analysis Workspace를 사용하여 기본 등급 보고서를 가져오십시오. 등급 보고서는 각 차원값의 집계된 합계 보기를 가장 큰 값을 먼저 표시하는 방식으로 보여줍니다. 이러한 유형의 보고서는 가장 많은 트래픽을 발생시키는 페이지 또는 가장 많이 팔리는 제품과 같이 사이트의 어떤 구성 요소가 가장 효과적인지를 확인하는 데 유용합니다.
+Analysis Workspace를 사용하여 기본 등급 보고서를 가져오십시오. 등급 보고서는 각 차원 항목의 집계된 총 보기를 보여주며 가장 큰 값을 먼저 표시합니다. 이러한 유형의 보고서는 가장 많은 트래픽을 발생시키는 페이지 또는 가장 많이 팔리는 제품과 같이 사이트의 어떤 구성 요소가 가장 효과적인지를 확인하는 데 유용합니다.
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 2. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
@@ -51,9 +51,9 @@ Analysis Workspace를 사용하여 기본 트렌드 보고서를 가져오십시
 
 ## 도구 실험
 
-Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 드래그하여 놓아서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 Workspace 프로젝트에 드래그하여 사용 가능한 조합을 확인하십시오.
+Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 드래그하여 놓아서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 작업 공간 프로젝트에 드래그하여 사용 가능한 조합을 확인하십시오.
 
-실수로 유효하지 않은 구성 요소를 Workspace 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트]>[!UICONTROL 신규]*&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
+실수로 유효하지 않은 구성 요소를 작업 공간 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트]>[!UICONTROL 신규]*&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
 
 ## 문제 해결
 
@@ -63,7 +63,7 @@ Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 �
 
 **지표를 드래그하면 실제 데이터가 표시되지 않고, 0만 표시됩니다.**
 
-Workspace 보고서를 생성했지만 데이터가 없다면 확인할 수 있는 몇 가지 사항이 있습니다.
+작업 공간 보고서를 생성했지만 데이터가 없다면 확인할 수 있는 몇 가지 사항이 있습니다.
 
 * 보고서 세트를 다시 확인하여 데이터가 채워져 있는지 확인하십시오.
 * 보고서에서 세그먼트를 사용하고 있다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.
@@ -89,17 +89,17 @@ Analysis Workspace를 더 깊이 이해하기 위해서는 살펴볼 측면이 �
 
 ### Analysis Workspace 사용법에 대한 지식을 확장하려는 최종 사용자의 경우
 
-* [Workspace UI에 대한 세부 사항](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): 이제 기본 보고서를 생성했으므로 나머지 인터페이스에 더 익숙해지도록 합니다.
+* [작업 공간 UI에 대한 세부 사항](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): 이제 기본 보고서를 생성했으므로 나머지 인터페이스에 더 익숙해지도록 합니다.
 * [Workspace에서의 시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 자유 형식 테이블은 Analysis Workspace에서 시각화의 한 유형일 뿐입니다. 선 차트, 막대그래프 및 지리 지도와 같은 다른 시각화 형태를 사용하는 방법을 알아봅니다.
 * [Workspace의 차원](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): 차원의 의미와 등급 보고서 이외에서도 차원을 사용하는 방법에 대해 자세히 알아봅니다.
 * [Workspace의 지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md): 지표의 의미와 자유 형식 테이블의 다른 부분에서 지표를 사용하는 방법에 대해 자세히 알아봅니다.
 * [세그멘테이션 소개](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): 세그먼트의 의미에 대해 알아보고 세그먼트를 사용하여 기본 보고서를 가져옵니다.
-* [Workspace의 날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): 상대적 날짜와 순환 날짜에 대해 알아보고 Workspace 프로젝트에서 사용합니다.
-* Workspace에서 프로젝트 공유: 동료에게 자신이 만든 멋진 Workspace 프로젝트를 보여줍니다.
+* [작업 공간의 날짜 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): 상대적 날짜와 순환 날짜에 대해 알아보고 작업 공간 프로젝트에서 사용합니다.
+* 작업 공간에서 프로젝트 공유: 동료에게 자신이 만든 멋진 작업 공간 프로젝트를 보여줍니다.
 * [Workspace의 (고급) 패널](/help/analyze/analysis-workspace/c-panels/panels.md): 기여도 분석이나 세그먼트 비교와 같은 Workspace의 고급 기능을 사용합니다.
 
 ### 조직에서 Workspace의 품질을 개선하려는 분석가 및 관리자의 경우
 
 * [Analysis Workspace 권한](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html): Adobe Admin Console을 통해 Workspace에 대한 권한을 사용자에게 할당합니다.
 * [Workspace의 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): 동료가 자신의 요구에 맞는 프로젝트 공간으로 시작할 수 있도록 템플릿을 만듭니다.
-* [Workspace 큐레이션](/help/analyze/analysis-workspace/curate-share/curate.md): 사용 가능한 구성 요소를 제한하는 프로젝트를 만들어 도구에 익숙하지 않은 사람들이 Workspace에 보다 쉽게 액세스할 수 있도록 합니다.
+* [작업 공간 큐레이션](/help/analyze/analysis-workspace/curate-share/curate.md): 사용 가능한 구성 요소를 제한하는 프로젝트를 만들어 도구에 익숙하지 않은 사람들이 작업 공간에 보다 쉽게 액세스할 수 있도록 합니다.
