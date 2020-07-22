@@ -2,7 +2,7 @@
 title: 우편 번호
 description: 방문자의 우편번호입니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -27,6 +27,6 @@ ht-degree: 0%
 >
 >이 차원을 채우는 방법을 완전히 제어하려는 경우 보고서 세트 설정이 중요합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 방문자의 우편 번호가 포함됩니다.
+차원 항목에는 방문자의 우편 번호가 포함됩니다.
