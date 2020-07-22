@@ -2,7 +2,7 @@
 title: 교차 디바이스 분석 FAQ
 description: 교차 디바이스 분석에 대한 FAQ
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -92,4 +92,4 @@ CDA 식별 방법을 전환하려면 조직의 계정 관리자에게 문의하�
 
 ## Adobe는 필드 기반 스티칭에 사용되는 eVar에 대한 고유 제한을 어떻게 처리합니까?
 
-CDA는 eVar 차원 값을 보고에 최적화되기 전에 가져옵니다. CDA를 위한 고유한 제한에 대해 걱정할 필요는 없습니다. 하지만 작업 공간 프로젝트에서 해당 prop/eVar를 사용하려고 하면 여전히 [(트래픽 낮음)](/help/technotes/low-traffic.md) 차원 값을 볼 수 있습니다.
+CDA는 eVar 차원 항목을 보고에 최적화되기 전에 가져옵니다. CDA를 위한 고유한 제한에 대해 걱정할 필요는 없습니다. 하지만 작업 공간 프로젝트에서 해당 prop/eVar를 사용하려고 하면 여전히 [(트래픽 낮음)](/help/technotes/low-traffic.md) 차원 항목을 볼 수 있습니다.
