@@ -2,7 +2,7 @@
 title: Experience Cloud ID를 가진 방문자 수
 description: Adobe Experience Cloud ID 서비스를 사용하는 고유 방문자 수.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -38,4 +38,4 @@ ht-degree: 19%
 
 ![ID 서비스가 없는 페이지](assets/metric-mcvid3.png)
 
-&quot;제품 빠른 보기&quot; 차원 값은 ID 서비스와 함께 제대로 구현되지 않습니다. 조직 내의 적절한 팀과 함께 이러한 페이지를 가능한 한 빨리 업데이트할 수 있습니다. 브라우저 유형, [사이트 섹션](../dimensions/browser-type.md)또는 [eVar와 같은 차원](../dimensions/site-section.md)유형을 갖는 유사한 보고서를 만들 수 [있습니다](../dimensions/evar.md).
+&quot;제품 빠른 보기&quot; 차원 항목이 ID 서비스와 함께 제대로 구현되지 않습니다. 조직 내의 적절한 팀과 함께 이러한 페이지를 가능한 한 빨리 업데이트할 수 있습니다. 브라우저 유형, [사이트 섹션](../dimensions/browser-type.md)또는 [eVar와 같은 차원](../dimensions/site-section.md)유형을 갖는 유사한 보고서를 만들 수 [있습니다](../dimensions/evar.md).
