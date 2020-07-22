@@ -3,10 +3,10 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -345,7 +345,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 새 행 설정 </a> </p> </td> 
-   <td colname="col2"> <p>새로운 <span class="uicontrol">행별 백분율 계산</span> 설정을 사용하면 자유 형식 테이블이 열 방향이 아니라 행 방향으로 셀 백분율을 계산합니다. 이 설정은 한 차원값이 나머지 경과 시간을 나타내는 방법 트렌드처럼 트렌드 백분율에 특히 유용합니다. 이 설정은 <span class="uicontrol">시각화</span> 아이콘을 클릭할 때 기본적으로 설정됩니다. </p> </td> 
+   <td colname="col2"> <p>새로운 <span class="uicontrol">행별 백분율 계산</span> 설정을 사용하면 자유 형식 테이블이 열 방향이 아니라 행 방향으로 셀 백분율을 계산합니다. 이는 특정 차원 항목이 시간 경과에 따라 어떻게 나타나는지 트렌드 분석과 같이, 트렌드 비율에 특히 유용합니다. 이 설정은 <span class="uicontrol">시각화</span> 아이콘을 클릭할 때 기본적으로 설정됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > "100% 스택" 시각화 설정 </a> </p> </td> 
@@ -515,7 +515,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>없음/지정되지 않음 변경 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace의 Reports &amp; Analytics, 세그먼트 빌더 및 차원 값 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식이 변경되었습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p>Analytics의 보고서 및 Analysis Workspace, 세그먼트 빌더 및 차원 항목 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식을 변경했습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
