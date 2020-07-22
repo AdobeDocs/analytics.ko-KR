@@ -2,7 +2,7 @@
 title: 히트 유형
 description: 히트가 전경 또는 배경 히트인지 확인합니다.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -16,8 +16,8 @@ ht-degree: 2%
 
 ## 데이터로 이 차원 채우기
 
-이 차원은 버전 4.13.6 이상에서 모든 모바일 SDK 구현에 적합합니다. 모바일 SDK를 사용하지 않는 경우 &quot;전경&quot; 차원 값 아래의 모든 히트 목록이 표시됩니다. If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+이 차원은 버전 4.13.6 이상에서 모든 모바일 SDK 구현에 적합합니다. 모바일 SDK를 사용하지 않는 경우 &quot;전경&quot; 차원 항목 아래의 모든 히트 목록이 표시됩니다. If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
 
-## 차원 값
+## 차원 항목
 
-차원 값은 `"Foreground"` 및 `"Background"`를 포함합니다. 모바일 응용 프로그램 백그라운드에서 전송되지 않은 모든 히트는 `"Foreground"` 차원 값에 속합니다. 모바일 애플리케이션이 백그라운드에 있었던 곳에서 전송된 모든 히트는 `"Background"` 차원 값에 속합니다.
+차원 항목에는 `"Foreground"` 및 `"Background"`이 포함됩니다. 모바일 응용 프로그램 백그라운드에서 전송되지 않은 모든 히트는 `"Foreground"` 차원 항목에 속합니다. 모바일 애플리케이션이 백그라운드에 있었던 곳에서 전송된 모든 히트는 `"Background"` 차원 항목에 속합니다.
