@@ -2,7 +2,7 @@
 title: Prop
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -28,9 +28,9 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 JavaScript 변수를 데이터 수집에 대한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `prop1` -를 사용합니다 `prop75`. 구현 [가이드라인에](/help/implement/vars/page-vars/prop.md) 대해서는 구현 사용 안내서의 prop을 참조하십시오.
 
-## 차원 값
+## 차원 항목
 
-Prop에는 구현에 사용자 지정 문자열이 포함되어 있으므로 조직은 각 prop에 대한 차원 값을 결정합니다. 각 prop의 용도와 일반적인 차원 값을 [솔루션 디자인 문서에 기록해야 합니다](/help/implement/prepare/solution-design.md).
+Prop에는 구현에 사용자 지정 문자열이 포함되어 있으므로 조직은 각 prop에 대한 차원 항목을 결정합니다. 각 prop 및 일반 차원 항목의 용도를 [솔루션 디자인 문서에 기록해야 합니다](/help/implement/prepare/solution-design.md).
 
 ## eVar에 대한 prop 값
 
