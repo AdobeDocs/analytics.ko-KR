@@ -3,10 +3,10 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * UI보다 세부적인 데이터에 액세스(비정규화된 표보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터 다운로드
 * 클라이언트에서 Adobe 데이터를 타사 데이터 시각화 도구에 입력하려는 경우(히트 수준은 아니며 약간 요약됨)
-* Adobe Analytics에서 &quot;낮은 트래픽&quot;으로 실행 중인 경우 모든 고유 차원 값에 액세스
+* Adobe Analytics의 &quot;낮은 트래픽&quot;으로 실행 중인 경우 모든 고유한 차원 항목에 액세스하려면
 
 **[Analytics 데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**는 다음 경우에 사용해야 합니다.
 
