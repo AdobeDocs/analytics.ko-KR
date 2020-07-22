@@ -2,8 +2,11 @@
 description: Analysis Workspace에서 시각화 및 시각화 설정에 대해 알아봅니다.
 keywords: Analysis Workspace
 title: 시각화 개요
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ YouTube 비디오: [Analysis Workspace의 시각화 유형](https://www.youtube.
 | [가로 막대형](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [라인](/help/analyze/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다. |
 | [맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해줍니다. |
-| [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 차원 값과 최대 3개 지표 간의 관계를 표시합니다. |
+| [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 합계와 요약을 표시합니다. |
 | [요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 셀을 서로 비교합니다. |
 | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다. |
@@ -37,7 +40,7 @@ YouTube 비디오: [Analysis Workspace의 시각화 유형](https://www.youtube.
 
 ## 시각화 패널 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-시각화 패널을 표시하려면 사이드 패널에서 **[!UICONTROL Visualizations]**&#x200B;를 클릭합니다.
+시각화 패널을 표시하려면 사이드 패널에서 **[!UICONTROL 시각화]**&#x200B;를 클릭합니다.
 
 ![단계 결과](assets/visualizations.png)
 
@@ -45,7 +48,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 
 ## 시각화 설정 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-[!UICONTROL Visualization Settings]에 액세스하려면 시각화를 [!UICONTROL Freeform Panel]로 드래그한 다음 [!UICONTROL Visualization Settings] 톱니바퀴 아이콘을 클릭합니다.
+[!UICONTROL 시각화 설정]에 액세스하려면 시각화를 [!UICONTROL 자유 형식 패널]로 드래그한 다음 [!UICONTROL 시각화 설정] 톱니바퀴 아이콘을 클릭합니다. 
 
 >[!IMPORTANT]
 >
@@ -66,7 +69,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 
 ## 시각화 만들기 아이콘 {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-어떤 시각화를 선택해야 할지 모를 경우 테이블 행에서 **[!UICONTROL Create Visual]** 아이콘을 클릭합니다. 이 아이콘은 테이블 행 위로 마우스를 가져가면 나타납니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 최대 3개의 세그먼트를 선택한 경우 벤 다이어그램이 생성됩니다. 세그먼트가 4개 이상이면 막대 차트가 생성됩니다. 다른 유형의 데이터에서는 선 그래프가 생성될 수 있습니다.
+어떤 시각화를 선택해야 할지 모를 경우 테이블 행에서 **[!UICONTROL 시각화 만들기]** 아이콘을 클릭합니다. 이 아이콘은 테이블 행 위로 마우스를 가져가면 나타납니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 최대 3개의 세그먼트를 선택한 경우 벤 다이어그램이 생성됩니다. 세그먼트가 4개 이상이면 막대 차트가 생성됩니다. 다른 유형의 데이터에서는 선 그래프가 생성될 수 있습니다.
 
 ![](assets/create-visual.png)
 
@@ -99,7 +102,7 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 라인 차트에서 범례 레이블을 편집하려면 다음을 수행하십시오.
 
 1. 범례 레이블 중 하나를 마우스 오른쪽 단추로 클릭합니다.
-1. **[!UICONTROL Edit Label]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 레이블 편집을 클릭합니다]**.
 
    ![](assets/edit-label.png)
 
