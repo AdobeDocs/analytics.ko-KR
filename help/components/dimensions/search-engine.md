@@ -2,7 +2,7 @@
 title: 검색 엔진
 description: 방문자가 사이트에 도달하는 데 사용한 검색 엔진.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ ht-degree: 1%
 
 이 차원은 Adobe 내부 여러 조회 테이블을 참조합니다. 각 값은 히트의 [레퍼러를](referrer.md) 기반으로 하며, 이것은 [내부 URL 필터에 따라 달라집니다](/help/admin/admin/internal-url-filter-admin.md). 레퍼러 차원과 내부 URL 필터가 올바르게 구성되어 있는지 확인합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 사이트에 도달하는 데 사용되는 검색 엔진이 포함됩니다. 예제 값에는 `"Google"`, `"Microsoft Bing"`및 `"DuckDuckGo"`. 차원 `"Unspecified"` 값은 모두 검색되지 않는 트래픽입니다.
+차원 항목에는 사이트에 도달하는 데 사용되는 검색 엔진이 포함됩니다. 예제 값에는 `"Google"`, `"Microsoft Bing"`및 `"DuckDuckGo"`. 차원 `"Unspecified"` 항목은 모두 검색되지 않는 트래픽입니다.
