@@ -2,7 +2,7 @@
 title: 페이지 보기 횟수
 description: 페이지를 본 횟수입니다.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # 페이지 보기 횟수
 
-&#39;페이지 보기 횟수&#39; 지표는 주어진 차원 값이 페이지에 설정되거나 지속된 횟수를 보여줍니다. 보고서에서 가장 일반적이고 기본적인 지표 중 하나입니다.
+&#39;페이지 보기 횟수&#39; 지표는 주어진 차원 항목이 페이지에 설정되거나 지속된 횟수를 보여줍니다. 보고서에서 가장 일반적이고 기본적인 지표 중 하나입니다.
 
 ## 이 지표의 계산 방법
 
-이 지표는 보고서 세트의 모든 페이지 보기 추적 호출([`t()`](/help/implement/vars/functions/t-method.md))을 계산합니다. 차원의 경우 차원 값이 정의되거나 지속된 히트가 포함됩니다. 여기에는 링크 추적 호출([`tl()`](/help/implement/vars/functions/tl-method.md))이 포함되지 않습니다.
+이 지표는 보고서 세트의 모든 페이지 보기 추적 호출([`t()`](/help/implement/vars/functions/t-method.md))을 계산합니다. 차원의 경우 차원 항목이 정의되거나 지속된 히트가 포함됩니다. 여기에는 링크 추적 호출([`tl()`](/help/implement/vars/functions/tl-method.md))이 포함되지 않습니다.
 
 ## 유사한 지표와 비교
 
