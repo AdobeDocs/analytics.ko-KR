@@ -2,7 +2,10 @@
 title: 이벤트의 영향을 받은 날짜와 이전 범위 비교
 description: 이전 트렌드와 비교하여 구현 문제 또는 중단과 같은 이벤트의 영향에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 해당 이벤트의 영향을 탐색하기 시작할 이벤트를 포함하는 날짜 범위를 만듭니다.
 
-1. > **[!UICONTROL Components]** 로 **[!UICONTROL Date ranges]**&#x200B;이동합니다.
-2. 클릭 **[!UICONTROL Add]**.
-3. 이벤트가 발생한 날짜 범위를 선택합니다. 클릭 **[!UICONTROL Save]**.
+1. 구성 **[!UICONTROL 요소]** > **[!UICONTROL 날짜 범위로 이동합니다]**.
+2. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+3. 이벤트가 발생한 날짜 범위를 선택합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![날짜 범위 빌더](assets/date_range_builder.png)
 
@@ -29,7 +32,7 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
    ![날짜 범위 지표](assets/date_range_metric.png)
 
-2. 날짜 범위를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Add time period column]** > 를 클릭합니다 **[!UICONTROL Custom date range to this date range]**.
+2. 날짜 범위를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 기간 추가 열]** > **[!UICONTROL 이 날짜 범위에 대한 사용자 지정 날짜 범위를 클릭합니다]**.
    * 일주일 간 비교를 위해 이벤트 범위를 빼기 7일을 선택합니다. 이벤트와 이 날짜 범위 사이의 요일이 정렬되었는지 확인하십시오.
    * 월정액 비교를 위해 지난 달 이벤트 범위를 선택합니다. 요일을 정렬하려는 경우 이벤트 범위를 빼기 28일을 선택할 수도 있습니다.
    * 1년 이상 비교의 경우 작년 이벤트 범위를 선택합니다.
@@ -39,13 +42,13 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ## 이벤트와 유사한 이전 범위 간의 백분율 차이 계산
 
-자유 형식 테이블 시각화를 사용하여 이벤트의 날짜 범위와 비슷한 이전 날짜 범위 간의 차원 값을 비교합니다. 다음 단계는 다음을 수행할 수 있는 주 단위 예를 보여 줍니다.
+자유 형식 테이블 시각화를 사용하여 이벤트의 날짜 범위와 비슷한 이전 날짜 범위 간의 차원 항목을 비교합니다. 다음 단계는 다음을 수행할 수 있는 주 단위 예를 보여 줍니다.
 
 1. 작업 공간 프로젝트를 열고 자유 형식 테이블에 **비시간 차원을** 추가합니다. 예를 들어 &#39;모바일 장치 유형&#39; 차원을 사용할 수 있습니다. &#39;발생 횟수&#39;와 같이 지표에 스택된 최근 만든 날짜 범위를 적용합니다.
 
    ![영향을 받는 날짜 범위별 모바일 장치 유형](assets/mobile_device_type.png)
 
-2. 날짜 범위를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Compare time periods]** > 를 클릭합니다 **[!UICONTROL Custom date range to this date range]**. 이벤트의 범위를 7일 이내로 선택합니다. 이벤트와 이 날짜 범위 사이의 요일이 정렬되었는지 확인하십시오.
+2. 날짜 범위를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 기간 비교]** > **[!UICONTROL 사용자 지정 날짜 범위를 이 날짜 범위로 클릭합니다]**. 이벤트의 범위를 7일 이내로 선택합니다. 이벤트와 이 날짜 범위 사이의 요일이 정렬되었는지 확인하십시오.
 
    ![기간 비교 메뉴](assets/compare_time_custom.png)
 
@@ -68,6 +71,6 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
    ![테이블 빌더 세그먼트](assets/table_builder_segments.png)
 
-4. 클릭 **[!UICONTROL Build]**. 결과 테이블에서 원하는 모든 세그먼트에서 영향을 받는 범위와 이전 주, 월 및 연도를 볼 수 있습니다.
+4. **[!UICONTROL 작성을 클릭합니다]**. 결과 테이블에서 원하는 모든 세그먼트에서 영향을 받는 범위와 이전 주, 월 및 연도를 볼 수 있습니다.
 
    ![완성된 표](assets/table_builder_finished.png)
