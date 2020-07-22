@@ -2,7 +2,7 @@
 title: 마지막 접촉 채널
 description: 방문자의 참여 만료 내 가장 최근 마케팅 채널
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -22,10 +22,10 @@ Adobe 데이터 수집 서버로 전송된 모든 히트는 보고서 세트의 
 
 이 차원을 특정 값으로 설정하려면 다음 단계가 필요합니다.
 
-* 원하는 차원 값을 보고서 세트 설정 아래의 마케팅 채널 관리자에서 채널로 설정합니다.
+* 원하는 차원 항목을 보고서 세트 설정 아래의 마케팅 채널 관리자에서 채널로 설정합니다.
 * 히트에 대해 원하는 기준을 포함하는 마케팅 채널 처리 규칙을 설정합니다.
 * 사이트에 대한 방문자의 히트는 마케팅 채널 처리 규칙에 설명된 기준과 일치해야 합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 마케팅 채널 관리자의 채널 이름이 포함됩니다. 기본적으로 값에는 `"Paid search"`, `"Natural search"``"Display"`, `"Email"``"Affiliate"`, Facebook, `"Direct"`Facebook 및 Facebook이 포함됩니다 `"Internal"``"Social networks"``"Referring domains"`. 마케팅 채널 관리자에서 채널을 추가하거나 삭제할 수 있습니다. 이 채널은 이 차원의 값에 영향을 줍니다.
+차원 항목에는 마케팅 채널 관리자의 채널 이름이 포함됩니다. 기본적으로 값에는 `"Paid search"`, `"Natural search"``"Display"`, `"Email"``"Affiliate"`, Facebook, `"Direct"`Facebook 및 Facebook이 포함됩니다 `"Internal"``"Social networks"``"Referring domains"`. 마케팅 채널 관리자에서 채널을 추가하거나 삭제할 수 있습니다. 이 채널은 이 차원의 값에 영향을 줍니다.
