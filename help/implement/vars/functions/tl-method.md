@@ -2,10 +2,10 @@
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### 링크 이름
 
-링크 이름 인수는 링크 추적 차원 값을 결정하는 문자열로서, [`linkName`](../config-vars/linkname.md) 변수를 설정하는 것과 같습니다.
+링크 이름 인수는 링크 추적 차원 항목을 결정하는 문자열입니다. [`linkName`](../config-vars/linkname.md) 변수를 설정하는 것과 같습니다.
 
 ```js
 s.tl(true,"d","Example download link");
