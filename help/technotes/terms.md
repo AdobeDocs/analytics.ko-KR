@@ -2,10 +2,10 @@
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 * **채널:** 다음을 의미할 수 있습니다.
    * 사이트 섹션 차원을 채우는 채널 변수. 구현 사용 안내서에서 [페이지 변수](/help/implement/vars/page-vars/page-variables.md)를 참조하십시오.
    * 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소인 마케팅 채널. 구성 요소 사용 안내서에서 [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.
-* **분류:** 차원 값을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/c-classifications2/c-classifications.md)를 참조하십시오.
+* **분류:** 차원 항목을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/c-classifications2/c-classifications.md)를 참조하십시오.
 * **Clickmap:** 더 이상 사용하지 않습니다. 사이트에서 가장 많이 클릭한 영역을 표시하는 기존 브라우저 플러그인입니다. 이 도구는 Activity Map이 마련되어 사용이 중단되었습니다.
 * **클릭스트림 데이터 피드:** 데이터 피드를 참조하십시오.
 * **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 분석 사용 안내서에서 [집단 분석이란?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)을 참조하십시오.
@@ -75,7 +75,7 @@ ht-degree: 96%
 * **지표:** 수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 수, 방문 횟수 및 매출과 같은 숫자가 포함됩니다. 차원은 일반적으로 차원 상대가 있습니다.
 * **다중 세트 태깅:** 동일한 히트를 여러 보고서 세트로 보내는 방법입니다. 가상 보고서 세트를 도입하면서 이 방법은 더 이상 필요하지 않습니다. 대부분의 다중 세트 태깅 작업은 전역 보고서 세트를 만드는 데 도움이 됩니다.
 * **표준화:** 모든 지표를 가져와 동일한 비율로 적용함으로써 트렌드를 보다 쉽게 비교할 수 있도록 시각화를 구성하는 방법입니다.
-* **발생 횟수:** 차원 값이 설정되거나 지속된 히트 수를 보여주는 지표 유형입니다. 구성 요소 [사용자 안내서의 발생](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
+* **발생:** 차원 항목이 설정되거나 지속된 히트 수를 보여주는 지표 유형입니다. 구성 요소 [사용자 안내서의 발생](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
 * **Omniture:** 더 이상 사용하지 않는 용어입니다. 2009년 Adobe가 인수하기 전에 Adobe Analytics를 소유한 조직입니다.
 * **경로 지정:** 흐름을 참조하십시오.
 * **페이지 보기:** 페이지 보기 수를 늘리는 히트 유형입니다. 구성 요소 [사용자 안내서의 페이지 보기](/help/components/metrics/page-views.md) 지표를 참조하십시오. 히트도 참조하십시오.
