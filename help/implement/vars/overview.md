@@ -2,8 +2,11 @@
 title: 변수, 함수, 메서드 및 플러그인 개요
 description: 보고를 개선하기 위해 Adobe에 보내는 데이터에 포함할 수 있는 변수를 알아봅니다.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니다. 이 섹션의 변수는 몇 가지 섹션으로 분류됩니다.
 
 * **페이지 변수**&#x200B;는 일반적으로 보고에서 바로 사용되는 값입니다. 일반적인 페이지 변수에는 `props`, `eVars` 및 `events`가 포함됩니다.
-* **구성 변수**&#x200B;는 올바른 데이터가 Adobe에 도달하는지 확인하는 데 도움이 되는 설정 값입니다. 일반적인 구성 변수에는 `trackingServerSecure`, `charSet` 및 `linkTrackVars`가 포함됩니다. 구성 변수는 일반적으로 차원 값을 채우지 않습니다.
+* **구성 변수**&#x200B;는 올바른 데이터가 Adobe에 도달하는지 확인하는 데 도움이 되는 설정 값입니다. 일반적인 구성 변수에는 `trackingServerSecure`, `charSet` 및 `linkTrackVars`가 포함됩니다. 구성 변수는 일반적으로 차원 항목을 채우지 않습니다.
 * **함수 및 메서드**&#x200B;는 참조 시 특정 작업을 수행하는 코드 조각입니다. 일반적인 함수에는 `t()`, `tl()` 및 `clearVars()`가 포함됩니다.
 
 ## 변수 및 구현 방법
