@@ -2,7 +2,7 @@
 title: 페이지를 찾을 수 없음
 description: 사이트에서 오류를 반환하는 URL.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -23,6 +23,6 @@ ht-degree: 2%
 
 이 차원은 이미지 요청의 [`pageType` 및 `g` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 검색합니다. 쿼리 `pageType` 문자열이 같은 `errorPage`경우 `g` 쿼리 문자열(페이지 URL)이 기록됩니다. AppMeasurement는 변수를 사용하여 이 데이터를 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 수집합니다. 변수가 `pageType` 정의되지 않았거나 다른 변수로 설정되어 `errorPage`있으면 이 차원에 대한 데이터가 수집되지 않습니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 오류가 발생한 사이트의 페이지 URL이 포함됩니다.
+차원 항목에는 오류가 발생한 사이트의 페이지 URL이 포함됩니다.
