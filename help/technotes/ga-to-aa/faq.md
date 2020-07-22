@@ -2,17 +2,17 @@
 title: FAQ
 description: 타사 플랫폼에서 Adobe로 이동할 때 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 75%
+ht-degree: 66%
 
 ---
 
 
 # FAQ
 
-**내 기존 데이터를 타사 플랫폼에서 Adobe Analytics로 마이그레이션하려면 어떻게 해야 합니까?**
+**제3자 플랫폼에서 Adobe Analytics으로 내역 데이터를 마이그레이션하려면 어떻게 해야 합니까?**
 
 모든 Analytics 플랫폼에는 데이터를 수집, 처리 및 저장하는 다양한 방법이 있습니다. 이전 데이터를 마이그레이션하지 않고 Adobe Analytics 내에서 데이터를 수집하고 사용하기 시작하려면 명확한 전환 날짜를 설정하는 것이 좋습니다. 자주 사용되는 전환 날짜는 회계 연도의 시작 날짜, 해당 연도의 시작 날짜 또는 달력의 시작 날짜입니다. 사용자가 이전 데이터를 보려는 경우 타사 플랫폼에 로그인하여 구체적인 이전 보고 내용을 볼 수 있습니다.
 
@@ -29,6 +29,6 @@ Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Works
 
 Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
-**이전에는 차원 값을 클릭해서 드릴다운을 확인했습니다. Analysis Workspace에서 이러한 간편한 워크플로우를 복제하려면 어떻게 합니까?**
+**드릴 다운을 보기 위해 차원 항목을 클릭하는 데 익숙합니다. Analysis Workspace에서 이러한 간편한 워크플로우를 복제하려면 어떻게 합니까?**
 
-분석 작업 공간 [!UICONTROL 의] 차원 값에는 간편한 분류 워크플로우가 있습니다. 마우스 왼쪽 단추 클릭 대신 마우스 오른쪽 단추를 클릭하여 액세스합니다. Right-click on a dimension value, click **[!UICONTROL Breakdown], then select the desired component. 각 값을 ctrl+클릭(Windows)하거나 cmd+클릭(Mac)하여 여러 차원 값에 동일한 분류를 적용할 수 있습니다.
+Analysis Workspace의 [!UICONTROL 차원] 항목도 쉽게 분류할 수 있습니다. 마우스 왼쪽 단추 클릭 대신 마우스 오른쪽 단추를 클릭하여 액세스합니다. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 각 값에 대해 ctrl+클릭(Windows) 또는 cmd+클릭(Mac)을 사용하여 동일한 분류를 여러 차원 항목에 적용할 수 있습니다.
