@@ -2,7 +2,7 @@
 title: 마지막 구매 이후 일 수
 description: 현재 히트와 마지막으로 구매한 기간 사이의 일 수입니다.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 Adobe는 구현의 이벤트를 기반으로 이 차원을 자동으로 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 채웁니다. 사이트에서 `purchase` 이벤트를 구현하는 경우 이 차원은 항상 작동합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 방문자의 최근 구매와 현재 히트 사이의 일 수가 포함됩니다. 각 일 수는 방문자의 최근 구매와 현재 히트가 같은 날에 발생한 경우 &quot;같은 날&quot;이 발생하는 별도의 차원 값입니다.
+차원 항목에는 방문자의 최근 구매와 현재 히트 사이의 일 수가 포함됩니다. 각 일 수는 방문자의 최근 구매와 현재 히트가 같은 날에 발생한 경우 &quot;같은 날&quot;이 발생하는 별도의 차원 항목입니다.
