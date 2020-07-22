@@ -2,7 +2,7 @@
 title: Adobe Analytics의 대상 보고서
 description: Analysis Workspace를 사용하여 대상 기반 보고서를 만드는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 97%
@@ -185,6 +185,6 @@ See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimens
 흐름 보고서는 두 플랫폼 모두에서 사용할 수 있습니다. 흐름 보고서를 만들려면:
 
 1. 왼쪽의 시각화 아이콘을 클릭하고 흐름 시각화를 자유 형식 테이블 위의 작업 공간으로 끌어서 놓습니다.
-2. **페이지** 차원을 찾은 다음 화살표 아이콘을 클릭하여 페이지 값을 표시합니다. 차원 값은 노란색으로 표시됩니다.
+2. **페이지** 차원을 찾은 다음 화살표 아이콘을 클릭하여 페이지 값을 표시합니다. 차원 항목은 노란색으로 표시됩니다.
 3. 시작할 페이지 값을 찾아 가운데 있는 &#39;차원 또는 항목&#39;이라는 공간으로 끌어서 놓습니다.
 4. 이 플로우 보고서는 대화형입니다. 플로우를 다음 또는 이전 페이지로 확장하려면 값을 클릭합니다. 마우스 오른쪽 단추 클릭 메뉴를 사용하여 열을 확장하거나 축소하십시오. 동일한 플로우 보고서 내에서 다양한 차원을 사용할 수도 있습니다.
