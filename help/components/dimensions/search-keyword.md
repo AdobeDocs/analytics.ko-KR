@@ -2,7 +2,7 @@
 title: 검색 키워드
 description: 방문자가 사이트에 도달하는 데 사용한 검색 키워드.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->개인 정보 보호 정책이 증가함에 따라 대부분의 검색 엔진이 더 이상 검색 키워드를 전달하지 않습니다. Adobe가 검색 엔진을 인식하지만 차원 값 아래에 키워드 그룹이 없는 히트 `"Keyword unavailable"`.
+>개인 정보 보호 정책이 증가함에 따라 대부분의 검색 엔진이 더 이상 검색 키워드를 전달하지 않습니다. Adobe가 검색 엔진을 인식하지만 차원 항목 아래에 키워드 그룹이 없는 히트 `"Keyword unavailable"`.
 
 레퍼러는 검색 키워드로 분류하려면 다음 모두를 충족해야 합니다.
 
 * 참조 도메인은 Adobe에서 유효한 [검색 엔진으로 인식합니다](search-engine.md).
-* 키워드 쿼리 문자열 매개 변수가 참조 URL에 있습니다. 키워드 쿼리 문자열이 존재하지만 값이 포함되어 있지 않으면 차원 값 아래에 그룹화됩니다 `"Keyword unavailable"`.
+* 키워드 쿼리 문자열 매개 변수가 참조 URL에 있습니다. 키워드 쿼리 문자열이 존재하지만 값이 포함되어 있지 않으면 차원 항목 아래에 그룹화됩니다 `"Keyword unavailable"`.
 
 유료 검색과 자연어 검색을 구분하려면 [유료 검색 감지가](/help/admin/admin/paid-search-detection/paid-search-detection.md) 필요합니다. 검색 키워드에 여러 차원을 사용할 수 있습니다.
 
@@ -33,6 +33,6 @@ ht-degree: 0%
 
 이 차원은 Adobe 내부 여러 조회 테이블을 참조합니다. 각 값은 히트의 [레퍼러를](referrer.md) 기반으로 하며, 이것은 [내부 URL 필터에 따라 달라집니다](/help/admin/admin/internal-url-filter-admin.md). 레퍼러 차원과 내부 URL 필터가 올바르게 구성되어 있는지 확인합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 사이트에 도달하는 데 사용되는 검색 키워드가 포함됩니다. 차원 `"Unspecified"` 값은 모두 검색되지 않는 트래픽입니다.
+차원 항목에는 사이트에 도달하는 데 사용되는 검색 키워드가 포함됩니다. 차원 `"Unspecified"` 항목은 모두 검색되지 않는 트래픽입니다.
