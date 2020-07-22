@@ -2,7 +2,7 @@
 title: eVar
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 72%
@@ -24,9 +24,9 @@ eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 JavaScript 변수를 데이터 수집에 대한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `eVar1` -를 사용합니다 `eVar250`. 구현 [가이드라인에](/help/implement/vars/page-vars/evar.md) 대해서는 구현 사용 안내서의 eVar를 참조하십시오.
 
-## 차원 값
+## 차원 항목
 
-eVar에는 구현에 사용자 지정 문자열이 들어 있으므로, 조직에서 각 eVar에 대한 차원 값이 무엇인지 결정합니다. 각 eVar의 용도와 일반 차원 값을 [솔루션 디자인 문서에 기록해야 합니다](/help/implement/prepare/solution-design.md).
+eVar에는 구현에 사용자 지정 문자열이 들어 있으므로 조직은 각 eVar에 대한 차원 항목을 결정합니다. 각 eVar의 용도와 일반 차원 항목을 [솔루션 디자인 문서에 기록해야 합니다](/help/implement/prepare/solution-design.md).
 
 ## eVar 작동 방식
 
