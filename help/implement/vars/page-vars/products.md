@@ -2,17 +2,17 @@
 title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
 
 # products
 
-`products` 변수는 제품과 제품에 연결된 속성을 추적하는데 일반적으로 개별 제품 페이지, 장바구니 페이지 및 구매 확인 페이지에서 설정됩니다. 이 변수는 여러 값을 갖는 변수입니다. 이것은 동일한 히트에서 여러 제품을 보낼 수 있고 Adobe가 값을 별도의 차원 값으로 구문 분석함을 의미합니다.
+`products` 변수는 제품과 제품에 연결된 속성을 추적하는데 일반적으로 개별 제품 페이지, 장바구니 페이지 및 구매 확인 페이지에서 설정됩니다. 다중 값 변수입니다. 즉, 동일한 히트에서 여러 제품을 보내고 Adobe가 값을 별도의 차원 항목으로 구문 분석할 수 있습니다.
 
 >[!NOTE]
 >
