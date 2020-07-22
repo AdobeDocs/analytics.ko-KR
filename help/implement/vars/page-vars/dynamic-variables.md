@@ -2,10 +2,10 @@
 title: 다이내믹 변수
 description: 이미지 요청 길이를 늘리지 않고 변수를 복사합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,14 @@ Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문�
 
 ## Adobe Experience Platform Launch의 동적 변수
 
-문자열을 허용하는 차원 필드에서 동적 변수를 사용할 수 있습니다. 차원 값은 일반적으로 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 설정됩니다.
+문자열을 허용하는 차원 필드에서 동적 변수를 사용할 수 있습니다. 차원 항목은 일반적으로 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 설정됩니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
-6. 원하는 차원 값을 찾습니다.
+6. 원하는 차원 항목을 찾습니다.
 
 텍스트 필드에 동적 변수 접두사를 배치하고 참조할 쿼리 문자열 매개 변수나 HTTP 헤더를 추가합니다. 기본적으로 동적 변수 접두사는 `D=`입니다.
 
