@@ -2,7 +2,7 @@
 title: 이벤트까지 남은 시간
 description: 방문의 첫 번째 히트와 지표 사이의 시간.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 이 차원은 모든 구현에 대해 기술적으로 완전히 사용되지만 사용자 지정 및 구매 이벤트와 가장 잘 작동합니다. 사이트에서 사용자 지정 이벤트를 구현하는 것이 좋습니다. 사용자 지정 이벤트를 구현하는 경우 이 차원에 대해 추가 구현이 필요하지 않습니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 시간 기반 버킷이 포함됩니다( `"Less than 1 minute"` 부터 까지) `"More than 15 hours"`. 예를 들어 방문자가 첫 번째 히트에서 구매까지 23분이 소요되면 차원 값 아래에 `"10 to 30 minutes"` 속합니다.
+차원 항목에는 시간 기반 버킷이 포함되어 `"Less than 1 minute"` 있습니다 `"More than 15 hours"`. 예를 들어 방문자가 첫 번째 히트에서 구매까지 23분이 소요되면 차원 항목 아래에 `"10 to 30 minutes"` 속합니다.
