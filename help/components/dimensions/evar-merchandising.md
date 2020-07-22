@@ -2,7 +2,7 @@
 title: eVar(머천다이징)
 description: 제품 차원에 연결된 사용자 지정 변수.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 25%
@@ -48,7 +48,7 @@ If merchandising is enabled for the eVar in the previous example, the search ter
 인스턴스 [지표는 머천다이징](../metrics/instances.md) 변수에서 사용하지 않는 것이 좋습니다.
 
 * 제품 구문을 사용하는 머천다이징 변수의 경우 인스턴스가 전혀 증가하지 않습니다.
-* 전환 변수 구문을 사용하는 머천다이징 변수의 경우 eVar가 설정될 때마다 인스턴스가 카운트됩니다. 하지만 동일한 히트에서 다음 사항이 모두 발생하지 `"None"` 않는 한 차원 값에 속성이 적용됩니다.
+* 전환 변수 구문을 사용하는 머천다이징 변수의 경우 eVar가 설정될 때마다 인스턴스가 카운트됩니다. 하지만 동일한 히트에서 다음 `"None"` 이 모두 발생하지 않는 한 차원 항목에 속성이 적용됩니다.
    * 머천다이징 eVar는 값으로 설정됩니다.
    * 이 `products` 변수는 값으로 정의됩니다.
    * 결합 이벤트가 설정되었습니다.
