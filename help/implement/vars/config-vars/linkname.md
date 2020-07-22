@@ -2,17 +2,17 @@
 title: linkName
 description: 사용자 지정 링크 히트의 이름을 설정합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 
 # linkName
 
-다음 `linkName` 메서드를 실행할 때 사용자 지정 링크, 다운로드 링크 또는 종료 링크의 차원 값을 결정하려면 [`tl()`](../functions/tl-method.md) 변수를 사용하십시오.
+Use the `linkName` variable to determine the dimension item of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
 이 변수가 비어 있으면 AppMeasurement는 [`linkURL`](linkurl.md) 변수로 되돌아갑니다.
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkName
 
-`s.linkName` 변수는 사용자 지정 링크, 다운로드 링크 또는 종료 링크의 차원 값을 결정하는 문자열입니다([`s.linkType`](linktype.md) 값에 따라 다름). 최대 100바이트를 포함할 수 있습니다.
+The `s.linkName` variable is a string that determines the dimension item for custom links, download links, or exit links (depending on what [`s.linkType`](linktype.md) is). 최대 100바이트를 포함할 수 있습니다.
 
 >[!TIP]
 >
