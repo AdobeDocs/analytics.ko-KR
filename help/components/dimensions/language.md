@@ -2,7 +2,7 @@
 title: 언어
 description: 브라우저의 기본 언어 설정입니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -22,6 +22,6 @@ ht-degree: 1%
 
 이 차원은 Adobe 내부 조회 테이블을 참조합니다. 조회 값은 이미지 요청의 `Accept-Language` HTTP 헤더를 기반으로 합니다. AppMeasurement 라이브러리(예: Adobe Experience Platform 론치를 통해)를 사용하는 경우 이 차원은 기본적으로 작동합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 방문자 기본 언어의 친숙한 이름이 포함됩니다. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. 이미지 요청에 HTTP 헤더에 올바른 언어가 포함되어 있지 않으면 차원 값이 됩니다 `"None"`.
+차원 항목에는 방문자 기본 언어의 친숙한 이름이 포함됩니다. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. 이미지 요청에 HTTP 헤더에 올바른 언어가 포함되어 있지 않으면 차원 항목이 됩니다 `"None"`.
