@@ -2,7 +2,7 @@
 title: 페이지
 description: 페이지 이름.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 이 차원은 이미지 요청의 [`pageName` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 검색합니다. AppMeasurement는 변수를 사용하여 이 데이터를 `pageName` 수집합니다. 변수가 `pageName` 정의되지 않은 경우 페이지의 URL을 사용하는 것으로 돌아갑니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 사이트의 페이지 이름이 포함됩니다. 조직에서 사용할 특정 차원 값을 결정합니다. 어떤 조직들은 직접 사용하는 반면, 다른 조직들은 `document.title`맞춤형 곡창들을 만들어 냅니다. 어떤 방법을 사용하더라도 일관된 컨텐츠를 [솔루션 디자인 문서에](/help/implement/prepare/solution-design.md)기록할 수 있습니다.
+차원 항목에는 사이트의 페이지 이름이 포함됩니다. 조직에서 사용할 특정 차원 항목을 결정합니다. 어떤 조직들은 직접 사용하는 반면, 다른 조직들은 `document.title`맞춤형 곡창들을 만들어 냅니다. 어떤 방법을 사용하더라도 일관된 컨텐츠를 [솔루션 디자인 문서에](/help/implement/prepare/solution-design.md)기록할 수 있습니다.
 
 >[!NOTE]
 >
