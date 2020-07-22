@@ -2,7 +2,7 @@
 title: 유료 검색
 description: 유료 및 자연어 검색과 지표를 구분합니다.
 translation-type: tm+mt
-source-git-commit: d71edc74644907b47bfb6492e7a6c47c06d5984f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 이 차원이 제대로 작동하기 위한 유일한 요구 사항은 보고서 세트 설정에서 [유료 검색 감지를](/help/admin/admin/paid-search-detection/paid-search-detection.md) 올바르게 구성해야 하는 것입니다. 유료 검색 감지가 올바르게 구성되고 보고서 세트에 데이터가 있는 경우 이 차원은 항상 작동합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 두 개의 정적 값이 포함됩니다. `"Natural"` 및 `"Paid"`. 방문이 검색 엔진의 기준과 일치하고 유료 검색 감지도 일치하는 경우, 차원 값에 `"Paid"` 속합니다. 방문이 검색 엔진에 대한 기준과 일치하고 유료 검색 감지와 일치하지 *않는* 경우 `"Natural"` 차원 값에 속합니다.
+차원 항목에는 두 개의 정적 값이 포함됩니다. `"Natural"` 및 `"Paid"`. 방문이 검색 엔진의 기준과 일치하고 유료 검색 감지도 일치하는 경우, 차원 항목에 `"Paid"` 속합니다. 방문이 검색 엔진에 대한 기준과 일치하고 유료 검색 감지와 일치하지 *않는* 경우 `"Natural"` 차원 항목에 속합니다.
