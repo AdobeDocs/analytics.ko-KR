@@ -2,7 +2,7 @@
 title: 지역
 description: 방문자의 지리적 영역.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 7%
@@ -22,9 +22,9 @@ ht-degree: 7%
 >
 >조직에서 IP 주소 [](/help/admin/admin/general-acct-settings-admin.md) 난독화가 충분하지 않은 엄격한 개인 정보 보호 규정을 준수하는 경우 지리적 위치 데이터를 완전히 비활성화하도록 요청할 수 있습니다. 보고서 세트 ID로 고객 지원 센터에 문의하고 보고서 세트에 대해 &#39;지역&#39;을 끄도록 요청합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값에는 지역 및 지역이 있는 국가가 포함됩니다. 예제 값에는 `"California (United States)"`, `"Tokyo (Japan)"`또는 `"Sao Paulo (Brazil)"`.
+차원 항목에는 지역 및 지역이 거주하는 지역이 포함됩니다. 예제 값에는 `"California (United States)"`, `"Tokyo (Japan)"`또는 `"Sao Paulo (Brazil)"`.
 
 ## 보고된 위치와 실제 위치 간의 차이
 
