@@ -2,7 +2,7 @@
 title: 고객 충성도
 description: 방문자가 이전에 구매한 횟수 기반 카테고리.
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Adobe는 구현의 이벤트를 기반으로 이 차원을 자동으로 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 채웁니다. 사이트에서 `purchase` 이벤트를 구현하는 경우 이 차원은 항상 작동합니다.
 
-## 차원 값
+## 차원 항목
 
-차원 값은 다음과 같습니다.
+차원 항목에는 다음이 포함됩니다.
 
 * **고객이 아님**: 히트 시 방문자는 이전에 구매한 적이 없습니다.
 * **신규 고객**: 히트 시 방문자는 이전에 한 번 구매했습니다.
 * **재방문 고객**: 히트 시 방문자는 이전에 두 번 구매했습니다.
 * **단골 고객**: 히트 시 방문자는 이전에 3회 이상 구매했습니다.
 
-방문자가 구매(이벤트 트리거) 시, 해당 히트와 모든 후속 히트가 다음 &quot;버킷&quot;으로 이동합니다. `purchase` 예를 들어 방문자가 사이트에서 제품을 처음 구입하는 경우 &quot;신규 고객&quot;으로 인한 주문과 함께 &quot;고객이 아님&quot;에서 &quot;신규 고객&quot;으로 이동합니다. 차원 값 &quot;고객이 아님&quot;은 해당 주문에 대한 주문을 가질 수 없습니다.
+방문자가 구매(이벤트 트리거) 시, 해당 히트와 모든 후속 히트가 다음 &quot;버킷&quot;으로 이동합니다. `purchase` 예를 들어 방문자가 사이트에서 제품을 처음 구입하는 경우 &quot;신규 고객&quot;으로 인한 주문과 함께 &quot;고객이 아님&quot;에서 &quot;신규 고객&quot;으로 이동합니다. 차원 항목 &quot;고객이 아님&quot;은 해당 항목에 속하는 주문을 가질 수 없습니다.
