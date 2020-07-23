@@ -2,9 +2,9 @@
 title: 발생 횟수
 description: 변수가 설정되거나 지속된 히트 수.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 이 지표의 계산 방법
 
-보고서 세트의 모든 히트 중에서 차원 항목이 정의되거나 지속되는 히트를 포함합니다. eVar [와](../dimensions/evar.md)같은 일부 차원은 설정된 히트를 넘어서까지 지속됩니다. 페이지 [보기 횟수](page-views.md) 및 발생 횟수 [와 같은](occurrences.md) 지표는 초기 값과 지속적인 값을 모두 계산합니다. 이 지표는 지속적인 값을 계산하지 않습니다.
+보고서 세트의 모든 히트 중에서 차원 항목이 정의되거나 지속되는 히트를 포함합니다. eVar [와](../dimensions/evar.md)같은 일부 차원은 설정된 히트를 넘어서까지 지속됩니다. 페이지 [보기 횟수](page-views.md) 및 발생 횟수 [와 같은](occurrences.md) 지표는 초기 값과 지속적인 값을 모두 계산합니다.
 
 ## 유사한 지표와 비교
 
