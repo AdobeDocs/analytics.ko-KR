@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
+source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 94%
+source-wordcount: '258'
+ht-degree: 92%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 94%
       + [데이터 피드 컨텐츠 개요](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [지표 계산](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [데이터 열 참조](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [헤더 리소스](analytics-data-feed/c-df-contents/headers.md)
       + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [모바일 속성 조회](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [특수 문자](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [늦게 도착하는 조회수](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [데이터 피드 FAQ](analytics-data-feed/df-faq.md)
