@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 98%
 
 ---
@@ -101,6 +101,7 @@ ht-degree: 98%
       + [기여도 분석 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
+   + [Journey IQ](analysis-workspace/journey-iq.md)
    + [세그먼트 IQ](analysis-workspace/segment-iq.md)
    + 가상 분석가 {#virtual-analyst}
       + [Virtual Analyst 개요](analysis-workspace/virtual-analyst/overview.md)
