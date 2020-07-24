@@ -1,10 +1,10 @@
 ---
-title: 동적 차원과 정적 차원 항목
+title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목
 description: 표의 동적 및 정적 차원 항목과 상호 작용하는 방법.
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 2%
 
 동적 차원 항목에는 행 필터 옵션이 있으며, 잠금 및 X 아이콘이 **없습니다** .
 
+![](assets/dynamic-items.png)
+
 ## 정적 차원 항목
 
 정적 차원 항목은 시간에 따라 변경되지 않습니다. 자유 형식 테이블에서 항상 반환되는 고정 구성 요소입니다. 정적 차원 항목은 특정 캠페인이든 주의 특정 요일이든 항상 동일한 항목을 분석하려는 경우 선호됩니다.
@@ -37,9 +39,13 @@ ht-degree: 2%
 
 정적 차원 항목에는 행 필터 옵션이 **없습니다** . 대신 각 항목에 잠금 및 X 아이콘이 표시됩니다. 테이블에서 해당 차원 항목을 제거하려면 X 아이콘을 클릭합니다.
 
+![](assets/static-items.png)
+
 ## 혼합 차원 항목
 
 다른 차원의 차원 항목을 동일한 테이블에 추가할 수 있습니다. 이러한 경우 행 헤더에는 &quot;혼합 차원&quot;이 표시됩니다. 이러한 차원 항목은 정적입니다. 예를 들어 브라우저 유형 차원의 특정 차원 항목과 브라우저 차원의 기타 차원 항목을 추가하는 것이 좋습니다.
+
+![](assets/mixed-dimensions.png)
 
 ## 자유 형식 총 행
 
