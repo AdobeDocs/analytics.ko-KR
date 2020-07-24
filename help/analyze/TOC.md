@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 98%
@@ -27,7 +27,7 @@ ht-degree: 98%
       + 열 및 행 설정 {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [수동 행과 다이내믹 행 비교](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [동적 항목과 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [실행 취소 및 다시 실행 설정](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace에서 사용할 수 있는 핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
