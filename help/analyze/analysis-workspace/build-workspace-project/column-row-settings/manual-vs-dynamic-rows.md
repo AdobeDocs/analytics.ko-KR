@@ -2,9 +2,9 @@
 title: 동적 차원과 정적 차원 항목
 description: 표의 동적 및 정적 차원 항목과 상호 작용하는 방법.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ ht-degree: 2%
 동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로:
 
 * 동적 행은 방문 또는 방문자와 같은 서버 측 및 중복 제거 지표를 합합니다
-* 정적 행은 클라이언트측에서 합해지며 지표 중복을 **해제하지** 않습니다.
-
-[동적 및 정적 행에 대한 작업 공간 전체](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) 옵션에 대해 자세히 알아보십시오.
+* 정적 행은 클라이언트측에서 합해지며 지표 중복을 **해제하지** 않습니다. 총 행 서버측을 계산하려면 행 설정을 총 합계 **표시로 변경하십시오**. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
