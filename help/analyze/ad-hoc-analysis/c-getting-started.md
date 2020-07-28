@@ -3,10 +3,10 @@ description: Ad Hoc Analysis를 시작합니다.
 title: 시작하기
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -93,8 +93,8 @@ Adobe의 .jar 파일은 1.7.0_76 이하의 Java 버전에서 지원되지 않는
 * 컴퓨터에 프로그램 설치가 허용되는 경우
 
    1. https://www.java.com으로 이동합니다.
-   1. **[!UICONTROL 무료 Java 다운로드]**&#x200B;를 클릭합니다.
-   1. **[!UICONTROL 동의 및 무료 다운로드 시작]**&#x200B;을 클릭합니다.
+   1. Click **[!UICONTROL Java Download]**.
+   1. Click **[!UICONTROL Agree and Start Download]**.
    1. 사용 중인 운영 체제용의 최신 Java 버전을 설치합니다.
 
 * 컴퓨터에 프로그램 설치가 허용되지 **않는** 경우
