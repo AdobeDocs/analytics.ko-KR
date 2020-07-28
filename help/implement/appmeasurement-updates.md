@@ -3,7 +3,7 @@ title: JavaScript 릴리스 노트의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 97%
@@ -356,7 +356,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 * 방문자 API에 필요한 값이 아직 없을 경우 링크 onclick 함수에서 s.t가 호출될 때 이중 페이지 보기 카운트를 초래하던 문제를 수정했습니다.
 * HTTP POST 지원.
 
-   > [!IMPORTANT] [!DNL Analytics] 호출이 [!DNL AppMeasurement]에서 GET 메서드([IE의 잘린 URL](https://helpx.adobe.com/kr/analytics/kb/shortening-image-request-urls.html)을 해결하는 메서드) 대신 POST 메서드를 사용하도록 하려면 Experience Cloud에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
+   >[!IMPORTANT] [!DNL Analytics] 호출이 [!DNL AppMeasurement]에서 GET 메서드([IE의 잘린 URL](https://helpx.adobe.com/kr/analytics/kb/shortening-image-request-urls.html)을 해결하는 메서드) 대신 POST 메서드를 사용하도록 하려면 Experience Cloud에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
 
 ## 버전 1.4
 
