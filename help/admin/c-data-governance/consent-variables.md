@@ -2,8 +2,11 @@
 description: 데이터 개인 정보 보호에서 개인 정보 보호 보고를 위한 변수.
 title: 개인 정보 보호 보고 변수
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -35,14 +38,14 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설정을 통해 개인 정보 보호 보고 변수를 활성화할 수 있습니다.
 
 각 보고서 세트는 다음과 같이 구성할 수 있습니다.
-1. Reports &amp; Analytics에서 **[!UICONTROL Admin > Report Suites]**&#x200B;을 클릭합니다.
-1. 미디어 데이터를 수집하는 보고서 세트를 선택한 다음 **[!UICONTROL Edit Settings > Privacy Management]**&#x200B;를 클릭합니다 .
+1. Reports &amp; Analytics에서 **[!UICONTROL 관리자 > 보고서 세트]**&#x200B;를 클릭합니다.
+1. 미디어 데이터를 수집하는 보고서 세트를 선택한 다음 **[!UICONTROL 설정 편집 > 개인 정보 관리]**&#x200B;를 클릭합니다.
 
    ![](assets/rsm-privacy-select.png)
 
-1. **[!UICONTROL Enable Data Privacy Reports]** 단추를 클릭합니다.
+1. **[!UICONTROL 데이터 개인 정보 보고서 활성화]** 단추를 클릭합니다.
 
-   > [!NOTE] 이러한 변수를 활성화하면 해제할 수 없습니다.
+   >[!NOTE] 이러한 변수를 활성화하면 해제할 수 없습니다.
 
    ![](assets/rsm-privacy-enable.png)
 
