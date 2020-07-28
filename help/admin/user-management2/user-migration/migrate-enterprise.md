@@ -3,7 +3,10 @@ description: Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 100%
 
 ---
 
@@ -60,9 +63,9 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
       다음 단계에 설명된 [!DNL sample.csv] 파일에 *`Email`*, *`First Name`* 및 *`Last Name`* 값을 복사할 수 있도록 준비하십시오.
 
-      > [!IMPORTANT] CSV 파일의 값은 쉼표로 구분해야 합니다.
+      >[!IMPORTANT] CSV 파일의 값은 쉼표로 구분해야 합니다.
 
-      > [!TIP] 이 단계에서는 사용자 목록을 정리하여 유효한 이메일 ID가 있는 사용자만 Enterprise 또는 Federated ID 마이그레이션에 포함할 것을 권장합니다.
+      >[!TIP] 이 단계에서는 사용자 목록을 정리하여 유효한 이메일 ID가 있는 사용자만 Enterprise 또는 Federated ID 마이그레이션에 포함할 것을 권장합니다.
 
 1. [!UICONTROL Admin Console]에서 Admin Console 사용자 목록을 다운로드합니다.
 
@@ -72,7 +75,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
    1. 내보낸 [!DNL .csv] 파일의 기존 Admin Console 사용자를(이 예에서 [!DNL sample.csv]) Analytics [!DNL User Logins List.csv] 파일의 사용자와 비교합니다.
 
-      > [!IMPORTANT] 중복 항목을 찾으면 Analytics [!DNL User Logins List.csv] 파일에서 삭제하십시오. 이 단계는 Admin Console에서 Experience Cloud 사용자 권한을 겹쳐 쓰지 못하게 하고 마이그레이션할 계정 목록을 제공하는 데 도움이 됩니다.
+      >[!IMPORTANT] 중복 항목을 찾으면 Analytics [!DNL User Logins List.csv] 파일에서 삭제하십시오. 이 단계는 Admin Console에서 Experience Cloud 사용자 권한을 겹쳐 쓰지 못하게 하고 마이그레이션할 계정 목록을 제공하는 데 도움이 됩니다.
 
 1. Admin Console에서 CSV 템플릿 다운로드:
    1. 사용자 탭에서 **[!UICONTROL CSV로 사용자 추가]**&#x200B;를 클릭한 다음 **[!UICONTROL CSV 템플릿 다운로드]**&#x200B;를 클릭합니다.
@@ -130,7 +133,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
 [!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/kr/enterprise/using/users.html)을 참조하십시오.
 
-> [!NOTE] [!UICONTROL 제품 구성] 및 [!UICONTROL 관리자 역할]과 같은 다른 열은 비어 있을 수 있습니다.
+>[!NOTE] [!UICONTROL 제품 구성] 및 [!UICONTROL 관리자 역할]과 같은 다른 열은 비어 있을 수 있습니다.
 
 1. Admin Console의 사용자 탭에서 **[!UICONTROL CSV로 사용자 추가]**&#x200B;를 클릭하여 템플릿 파일을 업로드합니다(3단계에서 설명).
 1. [Analytics 사용자 계정 마이그레이션](/help/admin/user-management2/user-migration/t-migrate-users.md)에 설명된 대로 Analytics에서 마이그레이션 도구를 실행합니다.
