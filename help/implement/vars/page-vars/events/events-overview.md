@@ -2,17 +2,19 @@
 title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 92%
+source-wordcount: '676'
+ht-degree: 80%
 
 ---
 
 
 # events
 
-차원 및 지표는 보고서에 중요한 구성 요소입니다. `events` 변수는 사이트에서 많은 지표의 데이터 수집을 담당합니다.
+차원 및 지표는 보고서에 중요한 구성 요소입니다. `events` 변수는 사이트에서 많은 지표의 데이터 수집을 담당합니다. 이벤트는 일반적으로 보고서에서 [지표를](/help/components/metrics/overview.md) 증가시킵니다.
+
+이벤트를 구현하기 전에 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md) 아래에서 이벤트를 만들고 구성해야 합니다. 링크 추적 히트에서 사용자 지정 이벤트를 사용할 계획인 경우, [`linkTrackVars`](../../config-vars/linktrackvars.md) 및 [`linkTrackEvents`](../../config-vars/linktrackevents.md) 이 올바르게 설정되었는지 확인하십시오.
 
 ## Adobe Experience Platform Launch의 이벤트
 
@@ -77,12 +79,14 @@ s.events = "event1=2,event2";
 
 사용자 지정 이벤트를 변경하여 정수 대신 통화를 사용할 수 있습니다. 보고서 세트 통화와 `currencyCode` 변수가 일치하지 않는 경우 통화 이벤트가 보고서 세트의 통화로 자동 변환됩니다. 이 이벤트는 배송비, 할인 또는 환불을 계산하는 데 유용합니다. 이벤트를 해당 제품에만 연결하려는 경우 `products` 변수에서 통화 이벤트를 설정할 수 있습니다.
 
+통화 이벤트를 구현하기 전에 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md) 아래에 원하는 이벤트를 &#39;통화&#39;로 설정해야 합니다.
+
 ```js
-// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1=9.99";
 
-// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
@@ -96,11 +100,13 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 사용자 지정 이벤트를 변경하여 정수 대신 소수점 값을 허용할 수 있습니다. 숫자 이벤트는 통화 변환을 사용하지 않는다는 점을 제외하면 통화 이벤트와 유사하게 동작합니다. 이벤트를 해당 제품에만 연결하려는 경우 `products` 변수에서 숫자 이벤트를 설정할 수 있습니다.
 
+숫자 이벤트를 구현하기 전에 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md) 아래에 원하는 이벤트를 &#39;숫자&#39;로 설정해야 합니다.
+
 ```js
-// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1=4.5";
 
-// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
