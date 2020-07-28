@@ -2,7 +2,7 @@
 title: Adobe Analytics의 글로벌 보고서 세트
 description: 글로벌 보고서 세트 사용에 대한 장점과 요구 사항을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 1. Adobe Analytics에서 글로벌 보고서 세트를 만듭니다. 자세한 내용은 관리자 사용 안내서의 [보고서 세트 만들기](../../admin/admin-console/create-report-suite.md)를 참조하십시오.
 2. 각 도메인을 담당하는 조직의 팀과 작업합니다. 많은 팀에는 해당 비즈니스 영역에만 해당하는 보고 요구 사항이 있습니다.
 3. 이러한 모든 요구 사항을 [솔루션 디자인 문서](solution-design.md)에서 기록하고 집계합니다. 여러 팀에 차원에 대한 유사한 요구 사항이 있는 경우 동일한 사용자 지정 변수를 사용할 수 있습니다. 예를 들어 사이트 A와 사이트 B가 모두 탐색 표시 차원을 필요로 하는 경우 두 사이트에 대한 구현은 eVar1을 통해 해당 데이터를 전송할 수 있습니다.
-   > [!IMPORTANT] 주어진 사용자 지정 변수가 도메인 간에 유사하게 사용되는지 확인하십시오. 동일한 eVar 또는 이벤트를 여러 사이트 간에 서로 다른 목적으로 사용하지 마십시오.
+   >[!IMPORTANT] 주어진 사용자 지정 변수가 도메인 간에 유사하게 사용되는지 확인하십시오. 동일한 eVar 또는 이벤트를 여러 사이트 간에 서로 다른 목적으로 사용하지 마십시오.
 4. 각 도메인에 데이터 수집을 간소화하는 데이터 레이어가 있는지 확인합니다. 데이터 레이어 없이도 여전히 데이터를 수집할 수는 있지만 특히 사이트의 재디자인 시에는 구현의 안정성과 수명이 줄어듭니다.
 5. Adobe Experience Platform Launch를 사용하여 Analytics를 구현합니다. 서로 다른 사이트는 서로 다른 데이터 요소를 필요로 할 수 있습니다. 각 도메인에 대한 규칙을 사용하여 각 데이터 요소가 올바로 채워졌는지 확인한 다음, 해당 데이터 요소를 각각의 해당 eVar 및 이벤트에 지정하십시오. Adobe Experience Platform Launch 사용 안내서의 [Launch 개요](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)를 참조하십시오.
 6. [Adobe Experience Cloud ID Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 포함하고 [appendVisitorIDsTo](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/methods/appendvisitorid.html) 함수를 사용합니다. 이 함수는 사용자가 한 도메인에서 다른 도메인으로 클릭하여 이동할 때 방문자 데이터를 병합합니다.
