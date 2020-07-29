@@ -2,10 +2,10 @@
 title: Prop
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 26%
+source-wordcount: '467'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 >
 >Adobe recommends using [eVars](evar.md) in most cases. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
 
-솔루션 디자인 문서 [](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
+솔루션 디자인 문서 [](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe과의 계약에 따라 달라집니다. Adobe과의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
 ## 데이터로 prop 채우기
 
@@ -28,9 +28,19 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 JavaScript 변수를 데이터 수집에 대한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `prop1` -를 사용합니다 `prop75`. 구현 [가이드라인에](/help/implement/vars/page-vars/prop.md) 대해서는 구현 사용 안내서의 prop을 참조하십시오.
 
-## 차원 항목
+## Dimension 항목
 
 Prop에는 구현에 사용자 지정 문자열이 포함되어 있으므로 조직은 각 prop에 대한 차원 항목을 결정합니다. 각 prop 및 일반 차원 항목의 용도를 [솔루션 디자인 문서에 기록해야 합니다](/help/implement/prepare/solution-design.md).
+
+## 대소문자 구분
+
+기본적으로 Prop은 대/소문자를 구분하지 않습니다. 같은 값을 다른 경우(예: `"DOG"` 및 `"Dog"`) 보낼 경우 Analysis Workspace은 같은 차원 항목으로 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대/소문자가 사용됩니다. Data warehouse은 요청 기간 동안 발견된 첫 번째 값을 표시합니다.
+
+prop 대/소문자를 구분하도록 지정할 수 있습니다. 활성화되면 모든 prop에 대해 대소문자 구분을 비활성화할 수도 있습니다. 보고서 세트 ID와 원하는 변수를 사용하여 Adobe 고객 지원 센터에 연락하여 대/소문자 구분을 전환합니다.
+
+>[!IMPORTANT]
+>
+>대/소문자 구분을 전환하면 차원 항목을 클리프할 수 있고, 세그먼트에 예기치 않은 결과가 발생하며, 필터에 문제가 발생할 수 있습니다. Adobe은 이 설정을 한 달 또는 년의 시작과 같이 두 주요 기간 간에 전환하는 것이 좋습니다.
 
 ## eVar에 대한 prop 값
 
@@ -40,4 +50,4 @@ Prop에는 구현에 사용자 지정 문자열이 포함되어 있으므로 조
 * prop은 동일한 히트에서 여러 값을 수락하는 목록 prop이 될 수 있습니다. 목록 변수는 별개의 변수이며 사용할 수 있는 목록 변수는 세 개뿐입니다.
 * prop에 대한 경로 지정을 활성화하면 [시작](entry-dimensions.md) 및 [종료](exit-dimensions.md) 차원을 즉시 사용할 수 있게 됩니다. eVar에 대한 시작 및 종료 차원을 수동으로 만들 수 있습니다.
 
-prop [과 eVar](evar.md) 간의 더 많은 비교는 eVar를 참조하십시오.
+prop과 eVar를 더 [비교하려면 eVar을](evar.md) 참조하십시오.
