@@ -5,10 +5,10 @@ user-guide-title: Analytics 기술 노트
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
 + 이벤트의 영향을 받는 데이터 분석 {#event}
    + [이벤트 개요의 영향을 받는 데이터 분석](event/overview.md)
+   + [데이터의 스파이크/드롭 문제 해결](event/spikes-drops.md)
    + [분석에서 특정 날짜 제외](event/segments.md)
    + [날짜를 이전 범위와 비교](event/compare-dates.md)
    + [이벤트의 영향을 받는 데이터 가져오기](event/calcmetrics.md)
