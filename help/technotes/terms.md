@@ -2,7 +2,7 @@
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 95%
@@ -32,13 +32,13 @@ ht-degree: 95%
 * **채널:** 다음을 의미할 수 있습니다.
    * 사이트 섹션 차원을 채우는 채널 변수. 구현 사용 안내서에서 [페이지 변수](/help/implement/vars/page-vars/page-variables.md)를 참조하십시오.
    * 사용자가 사이트에 도착하는 방법을 이해하는 데 도움이 되는 구성 요소인 마케팅 채널. 구성 요소 사용 안내서에서 [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.
-* **분류:** 차원 항목을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/c-classifications2/c-classifications.md)를 참조하십시오.
+* **분류:** 차원 항목을 그룹화할 수 있는 Adobe Analytics의 기능입니다. 구성 요소 사용 안내서에서 [분류](/help/components/classifications/c-classifications.md)를 참조하십시오.
 * **Clickmap:** 더 이상 사용하지 않습니다. 사이트에서 가장 많이 클릭한 영역을 표시하는 기존 브라우저 플러그인입니다. 이 도구는 Activity Map이 마련되어 사용이 중단되었습니다.
 * **클릭스트림 데이터 피드:** 데이터 피드를 참조하십시오.
 * **집단:** 주어진 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 분석 사용 안내서에서 [집단 분석이란?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)을 참조하십시오.
 * **수집 서버:** 데이터 수집 서버를 참조하십시오.
 * **컨텍스트 데이터 변수:** 처리 규칙에만 사용되는 임시 변수입니다. 처리 규칙이 컨텍스트 데이터 변수 값을 전환 또는 트래픽 변수에 복사하지 않으면 이 값이 영구적으로 손실됩니다. 구현 사용 안내서에서 [컨텍스트 데이터 변수](../implement/vars/page-vars/contextdata.md)를 참조하십시오.
-* **전환 변수:** eVar라고도 합니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 [사용자 안내서의 eVar](/help/components/dimensions/evar.md) 차원을 참조하십시오.
+* **전환 변수:** eVar라고도 합니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 사용 안내서의 [eVar](/help/components/dimensions/evar.md) 차원을 참조하십시오.
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **현재 데이터:** 아직 완전히 처리되지 않은, 최근 수집된 데이터를 포함할 수 있는 일부 보고서의 옵션입니다. 분석 사용 안내서에서 [현재 데이터](/help/analyze/reports-analytics/current-data.md)를 참조하십시오.
 * **사용자 지정 링크:** 페이지 보기 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl() 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
