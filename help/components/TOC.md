@@ -5,7 +5,7 @@ user-guide-title: Analytics 구성 요소 안내서
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 73%
@@ -17,8 +17,8 @@ ht-degree: 73%
 
 + [Analytics 구성 요소 도움말](home.md)
 + 차원 {#dimensions}
-   + [차원 개요](dimensions/overview.md)
-   + [차원 호환성](dimensions/compatibility.md)
+   + [Dimension 개요](dimensions/overview.md)
+   + [Dimension 호환성](dimensions/compatibility.md)
    + [모든 검색 페이지 등급](dimensions/all-search-page-rank.md)
    + [오전/오후](dimensions/am-pm.md)
    + [브라우저 높이](dimensions/browser-height.md)
@@ -219,33 +219,33 @@ ht-degree: 73%
    + [경고 관리자](c-alerts/alert-manager.md)
    + [지능형 경고 - 활용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
-   + [분류 정보](c-classifications2/c-classifications.md)
-   + [하위 분류 정보](c-classifications2/c-sub-classifications.md)
-   + [전환 분류](c-classifications2/conversion-classifications.md)
-   + [트래픽 분류](c-classifications2/traffic-classifications.md)
-   + [분류 계층](c-classifications2/classification-hierarchies.md)
+   + [분류 정보](classifications/c-classifications.md)
+   + [하위 분류 정보](classifications/c-sub-classifications.md)
+   + [전환 분류](classifications/conversion-classifications.md)
+   + [트래픽 분류](classifications/traffic-classifications.md)
+   + [분류 계층](classifications/classification-hierarchies.md)
    + 분류 가져오기 도구(업로드) {#classifications-importer}
-      + [분류 가져오기 도구 - 개요](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [분류 데이터 파일](c-classifications2/c-classifications-importer/c-saint-data-files.md)
-      + [분류 데이터 삭제](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
-      + [분류 데이터 이스케이프 처리](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [분류되지 않는 키](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [분류 템플릿](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [브라우저 및 FTP 가져오기](c-classifications2/c-classifications-importer/import-file.md)
-      + [브라우저 가져오기](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTP 가져오기](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+      + [분류 가져오기 도구 - 개요](classifications/c-classifications-importer/c-working-with-saint.md)
+      + [분류 데이터 파일](classifications/c-classifications-importer/c-saint-data-files.md)
+      + [분류 데이터 삭제](classifications/c-classifications-importer/t-delete-classification-data.md)
+      + [분류 데이터 이스케이프 처리](classifications/c-classifications-importer/t-classifications-escape-data.md)
+      + [분류되지 않는 키](classifications/c-classifications-importer/nonclassified-keys.md)
+      + [분류 템플릿](classifications/c-classifications-importer/c-download-saint-data.md)
+      + [브라우저 및 FTP 가져오기](classifications/c-classifications-importer/import-file.md)
+      + [브라우저 가져오기](classifications/c-classifications-importer/browser-import.md)
+      + [FTP 가져오기](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + 분류 규칙 빌더 {#classifications-rulebuilder}
-      + [분류 규칙 빌더 워크플로우](c-classifications2/crb/classification-rule-builder.md)
-      + [분류 규칙 세트](c-classifications2/crb/classification-rule-set.md)
-      + [분류 규칙](c-classifications2/crb/classification-quickstart-rules.md)
-      + [분류 규칙 - 정의](c-classifications2/crb/classification-rule-definitions.md)
-      + [하위 분류 및 규칙 빌더](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [분류 규칙 빌더 워크플로우](classifications/crb/classification-rule-builder.md)
+      + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
+      + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
+      + [분류 규칙 - 정의](classifications/crb/classification-rule-definitions.md)
+      + [하위 분류 및 규칙 빌더](classifications/crb/sub-classification-rule-builder.md)
    + 숫자 2 분류 {#numeric2-classification}
-      + [숫자 2 분류 개요](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [숫자 2 분류 만들기](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [숫자 2 분류 가져오기](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [예](c-classifications2/c-numeric-2/c-examples.md)
-   + [분류 문제 해결](c-classifications2/c-classifications-troubleshooting.md)
+      + [숫자 2 분류 개요](classifications/c-numeric-2/c-numeric-2-classifications.md)
+      + [숫자 2 분류 만들기](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [숫자 2 분류 가져오기](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [예](classifications/c-numeric-2/c-examples.md)
+   + [분류 문제 해결](classifications/c-classifications-troubleshooting.md)
 + [달력 이벤트](t-calendar-event.md)
 + 실시간 보고 {#real-time-reporting}
    + [실시간 보고 개요](c-real-time-reporting/realtime.md)
