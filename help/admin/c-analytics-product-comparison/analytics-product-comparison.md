@@ -2,10 +2,10 @@
 description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 55%
+source-wordcount: '672'
+ht-degree: 54%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 55%
 | **표시 행 제한(페이지 매김 전)** | 400 | 200 | 50000 | 제한 없음 | 제한 없음 | 제한 없음 | 50000 |
 | **여러 보고서 세트** | [예](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | 예, 제한 사항 | 예 | 아니오 | 예 | 아니오 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리 실행 |
-| &quot;**세그멘테이션** <br>[자세한 내용](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 예 | 예 | 예 | 예, [제한](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 예 | 아니오 | 예 |
+| **세그멘테이션** 자세한 <br>[내용](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 예 | 예 | 예 | 예, [제한](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 예 | 아니오 | 예 |
 | **계산된 지표** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/cm-overview.html) | 예, [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 예 | 예 | 아니오 | 예 | 아니오 | 예, [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **마케팅 채널** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 예 | 예 | 예 | 예 | 예 | 예 - va_finder, va_closer | 예 |
+| **마케팅 채널** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 예 | 예 | 예 | 예 | 예 | 예 - [va_finder, va_closer](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | 예 |
 | **집단 분석** | [예](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | 아니오 | 아니오 | 아니오 | 예 | 아니오 | 아니오 |
 | **속성** | 예, [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 제한적 | 제한적 | 아니오 | 예 | 아니오 | 예, [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **가상 애널리스트 기능** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | 예 | 아니오 | 아니오 | 아니오 | 아니오 | 아니오 | 예 |
