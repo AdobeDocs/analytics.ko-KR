@@ -3,7 +3,7 @@ description: 'null'
 title: Analysis Workspace 성능 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
 * 연산자의 경우 &quot;같음&quot;이 &quot;포함&quot;보다 빠르며 &quot;다음 중 1개 이상의 항목과 같음&quot;이 &quot;다음 중 1개 이상의 항목 포함&quot;보다 빠릅니다.
 * 많은 기준을 사용하면 AND 연산자가 일련의 OR 연산자보다 빠릅니다. 또한 많은 OR 구문을 하나의 &quot;다음 중 1개 이상의 항목과 같음&quot; 구문으로 줄일 수 있는 기회를 찾으십시오.
 
-또한 [분류](/help/components/c-classifications2/c-classifications.md)를 사용하면 많은 값을 세그먼트를 생성할 수 있는 간결한 그룹으로 통합하는 데 도움이 될 수 있습니다. 분류 그룹에 대한 세그멘테이션을 사용하면 많은 OR 구문 또는 &quot;포함&quot; 기준을 포함하는 세그먼트에 대해 성능적인 이점이 있습니다.
+또한 [분류](/help/components/classifications/c-classifications.md)를 사용하면 많은 값을 세그먼트를 생성할 수 있는 간결한 그룹으로 통합하는 데 도움이 될 수 있습니다. 분류 그룹에 대한 세그멘테이션을 사용하면 많은 OR 구문 또는 &quot;포함&quot; 기준을 포함하는 세그먼트에 대해 성능적인 이점이 있습니다.
 
 ## 요청한 데이터 범위
 
