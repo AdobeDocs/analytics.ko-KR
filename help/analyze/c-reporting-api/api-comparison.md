@@ -3,10 +3,10 @@ description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서�
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -53,8 +53,8 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html"  > 보고 인터페이스</a> </td> 
-   <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
-   <td colname="col3"> Reports &amp; Analytics, Report Builder, API의 실시간 보고서 </td> 
+   <td colname="col2"> Analysis Workspace, 보고 및 Analytics, Report Builder, API </td> 
+   <td colname="col3"> 보고 및 Analytics, Report Builder, 1.4 API의 실시간 보고서 </td> 
    <td colname="col4"> API 전용 </td> 
    <td colname="col5"> Data Warehouse 및 API </td> 
   </tr> 
@@ -79,18 +79,11 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
    <td colname="col4"> 아니오 </td> 
    <td colname="col5"> 예(단, Data Warehouse 호환 가능한 세그먼트만) </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <b>Analytics SKU</b> </td> 
-   <td colname="col2"> 표준+ </td> 
-   <td colname="col3"> 표준+ </td> 
-   <td colname="col4"> 프리미엄 완료 또는 예측 인텔리전스 </td> 
-   <td colname="col5"> 표준+ </td> 
-  </tr> 
-  <tr> 
+   <tr> 
    <td colname="col1"> <b>설명서</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > 웹 서비스</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 실시간 보고서</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > 라이브 스트리밍 개요</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > 실시간 보고서</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > 라이브 스트리밍 개요</a> </p> </td> 
    <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
