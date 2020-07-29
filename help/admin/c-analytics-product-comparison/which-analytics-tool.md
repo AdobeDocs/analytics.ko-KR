@@ -3,7 +3,7 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 98%
@@ -48,7 +48,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 ## Adobe Analytics로 데이터 가져오기 {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[분류](/help/components/c-classifications2/c-classifications.md)**는 다음 경우에 사용합니다.
+**[분류](/help/components/classifications/c-classifications.md)**는 다음 경우에 사용합니다.
 
 * eVar, Prop, 마케팅 채널 등의 수집 값에 연결하려는 메타데이터가 있는 경우
 * 옵션:
