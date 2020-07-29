@@ -2,7 +2,10 @@
 title: Adobe Analytics 첫 번째 관리 안내서
 description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 90%
 
 ---
 
@@ -15,10 +18,11 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 조직에서 Adobe Analytics를 구입한 경우 고려해야 할 몇 가지 주요 역할이 있습니다.
 
-- **Adobe Analytics 관리자:** 이 사용자는 보고서 세트 설정 및 사용자 권한을 포함하여 Adobe Analytics의 모든 항목에 액세스할 수 있습니다. 조직의 구성 방식에 따라 다른 사용자나 팀이 Analytics 관리의 여러 측면을 담당할 수 있습니다. 예를 들면 한 사람은 구현에서 사용할 변수를 지정합니다. 다른 사람은 모든 사람의 권한이 올바른지 확인하여 사용자가 보고서를 올바르게 가져올 수 있도록 담당합니다. Analytics 보고서 세트 설정 및 사용자 권한을 담당할 수 있는 사용자를 한 명 이상 식별하고, 이들이 여기서 다른 Analytics 관리자를 초대할 수 있습니다.
-- **Adobe Experience Platform Launch 관리자:** 이 사용자는 게시 권한, 컨테이너 만들기 및 사용자 권한 등 Experience Platform Launch의 모든 기능에 액세스할 수 있습니다. 이러한 사용자가 반드시 프로그래머일 필요는 없지만 적어도 HTML, CSS 및 JavaScript에 대한 초보 지식이 있는 것이 유용합니다. 이들은 조직의 웹 사이트 소유자와 협력하여 사이트에 Experience Platform Launch 코드를 구현하는 일을 담당합니다. 조직의 구현 담당자를 최소 한 명 이상 확인하고, 여기서 다른 Experience Platform Launch 관리자를 초대할 수 있습니다.
-- **웹 사이트 소유자:** 이 역할을 맡는 개인이나 팀은 웹 사이트의 코딩 및 개발을 담당합니다. 이들은 계정이 필요하지 않지만 Experience Platform Launch 관리자와 함께 Experience Platform Launch 코드를 받아서 웹 사이트에 구현해야 합니다.
-- **최종 사용자:** 이 사용자는 일반적으로 보고서를 보고 비즈니스 질문에 대한 답변을 찾습니다. Analytics 관리자는 이러한 사용자에게 제품에서 작업할 수 있는 권한을 부여합니다.
+* **Adobe Analytics 관리자:** 이 사용자는 보고서 세트 설정 및 사용자 권한을 포함하여 Adobe Analytics의 모든 항목에 액세스할 수 있습니다. 조직의 구성 방식에 따라 다른 사용자나 팀이 Analytics 관리의 여러 측면을 담당할 수 있습니다. 예를 들면 한 사람은 구현에서 사용할 변수를 지정합니다. 다른 사람은 모든 사람의 권한이 올바른지 확인하여 사용자가 보고서를 올바르게 가져올 수 있도록 담당합니다. Analytics 보고서 세트 설정 및 사용자 권한을 담당할 수 있는 사용자를 한 명 이상 식별하고, 이들이 여기서 다른 Analytics 관리자를 초대할 수 있습니다.
+* **Adobe Experience Platform Launch 관리자:** 이 사용자는 게시 권한, 컨테이너 만들기 및 사용자 권한 등 Experience Platform Launch의 모든 기능에 액세스할 수 있습니다. 이러한 사용자가 반드시 프로그래머일 필요는 없지만 적어도 HTML, CSS 및 JavaScript에 대한 초보 지식이 있는 것이 유용합니다. 이들은 조직의 웹 사이트 소유자와 협력하여 사이트에 Experience Platform Launch 코드를 구현하는 일을 담당합니다. 조직의 구현을 담당하는 사용자를 한 명 이상 식별하고 다른 Experience Platform Launch 관리자를 해당 사용자로부터 초대할 수 있습니다.
+* **지원 위임**: 지원되는 사용자라고도 하는 Analytics 인터페이스에 추가 권한이 없습니다. 대신 Adobe 고객 지원 센터와 통신할 때 추가 권한을 받습니다. 이러한 사용자는 거의 항상 Analytics 관리자입니다. 이는 고객 지원 센터에서 문제를 해결하는 데 도움이 됩니다. 최종 사용자와 Adobe 고객 지원 센터 간의 원활한 상호 작용을 담당하는 Analytics 관리자를 한 명 이상 식별할 수 있습니다.
+* **웹 사이트 소유자:** 이 역할을 맡는 개인이나 팀은 웹 사이트의 코딩 및 개발을 담당합니다. 이들은 계정이 필요하지 않지만 Experience Platform Launch 관리자와 함께 Experience Platform Launch 코드를 받아서 웹 사이트에 구현해야 합니다.
+* **최종 사용자:** 이 사용자는 일반적으로 보고서를 보고 비즈니스 질문에 대한 답변을 찾습니다. Analytics 관리자는 이러한 사용자에게 제품에서 작업할 수 있는 권한을 부여합니다.
 
 첫 번째 관리자의 역할은 이러한 역할 중 하나 이상 겹칠 수 있습니다. 이러한 기본 책임이 각각 모두 배치되면 조직의 나머지 사람이 시작하고 실행할 수 있도록 권한을 부여할 수 있습니다.
 
