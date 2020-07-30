@@ -2,9 +2,9 @@
 description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 translation-type: tm+mt
-source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
+source-git-commit: 54d6b4c2993c5b0391b9243c76661db1da4087b8
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '714'
 ht-degree: 54%
 
 ---
@@ -18,8 +18,10 @@ ht-degree: 54%
 
 | 제품 이름 및 도움말 링크 | [Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/ko-KR/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [데이터 피드](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-overview.html) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **액세스 방법** | [브라우저](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html) | [브라우저](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html) | [Windows용 MS Excel](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | 브라우저를 통해 설정 지원되는 대상은 FTP입니다. 고객 지원 센터에 문의하십시오. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html) | [Windows 64비트](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/install/c-data-workbench-client-install.html) | 브라우저를 통해 설정합니다. 지원되는 대상은 FTP, SFTP, Azure Blob, S3입니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-overview.html) | RESTful API 툴. Adobe I/O 자격 증명으로 로그인합니다. [추가 정보](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-| **데이터 형식(세부기간)** | 집계됨 | 집계됨 | 집계됨 | ECID라고 합니다 | 타임스탬프 + ECID | 타임스탬프 + ECID | 집계됨 |
+| **액세스 방법** | [브라우저](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html) | [브라우저](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html) | [Windows용 MS Excel](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | 브라우저를 통해 설정합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/admin/sys-reqs.html) | [Windows 64비트](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/install/c-data-workbench-client-install.html) | 브라우저를 통해 설정합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-overview.html) | RESTful API 툴. Adobe I/O 자격 증명으로 로그인합니다. [추가 정보](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **데이터 세부기간** | 집계됨 | 집계됨 | 집계됨 | 집계됨 | 히트 | 히트 | 집계됨 |
+| **사용 가능한 Experience Cloud ID(ECID)** | 아니오 | 아니오 | 아니오 | 예 | 예 | 예 | 아니오 |
+| **사용 가능한 타임스탬프** | 아니오 | 아니오 | 아니오 | 아니오 | 예 | 예 | 아니오 |
 | **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 [실시간 보고서 포함](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | 완전히 처리됨, 별도의 [실시간 보고서 포함](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
 | **관리 보트 필터 데이터 포함** 자세한 <br>[내용](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html) | 아니요 | 예 - 보트 보고서 분리 | 예 - 보트 보고서 분리 | 아니오 | 아니오 | 아니오 | 아니오 |
 | **낮은 트래픽(고유 수가 초과되었습니다)이** 나타나는 <br>[자세한 정보](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/low-traffic.html) | 예 | 예 | 예 | 아니오 | 아니오 | 아니오 | 예 |
@@ -34,5 +36,6 @@ ht-degree: 54%
 | **가상 애널리스트 기능** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | 예 | 아니오 | 아니오 | 아니오 | 아니오 | 아니오 | 예 |
 | **조정** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html) | 예 - 프로젝트 및 VRS | 아니오 | 아니오 | 아니오 | 아니오 | 아니오 | 예 - VRS만 해당 |
 | **프로젝트 공유** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 예, 프로젝트 역할 포함 | 예 | 예 | 아니오 | 예 | 아니오 | 아니오 |
-| **예약된 배달** | 예 | 예 | 예 | 예 | 예 | 예 | 아니오 |
+| **예약된 배달** | 예 | 예 | 예 | 예 | 아니오 | 예 | 아니오 |
+| **배달 대상** | 이메일 | 이메일 | 이메일, FTP, SFTP, [Microsoft PowerBI에 게시](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/publish-powerbi/power-bi.html) | 이메일, FTP. 고객 지원 센터에 연락하여 SFTP, Azure Blob, Amazon S3 등 추가 대상 지원을 받으십시오. | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
 | **VRS 보고서 시간 처리** 자세한 <br>[내용](https://docs.adobe.com/content/help/ko-KR/analytics/components/virtual-report-suites/vrs-report-time-processing.html) | 예 | 아니오 | 아니오 | 아니오 | 아니오 | 아니오 | 예 |
