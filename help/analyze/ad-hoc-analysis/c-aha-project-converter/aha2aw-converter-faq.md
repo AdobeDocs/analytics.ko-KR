@@ -2,8 +2,11 @@
 description: 'null'
 title: 프로젝트 변환기 FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -50,9 +53,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>A: 차트 및 그래프는 Workspace에서 "시각화"라고 합니다. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>설정</b>: "항목 수" 또는 "막대 수"와 같은 시각화 설정은 Workspace에서 지원되지 않습니다. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>파이 차트</b>: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >도넛</a> 시각화로 내보냅니다. Workspace에서 이 시각화는 19개 섹션으로 제한됩니다. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>거품 차트</b>: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >산포도</a> 시각화로 내보냅니다. 기본적으로 산포도는 x축의 첫 번째 지표와 y축의 두 번째 지표를 그립니다. 지표가 하나만 있는 경우 거품 차트가 선 시각화로 변환됩니다. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>막대 그래프</b>: Workspace와 Ad Hoc Analysis에서 다른 그룹 로직을 지원합니다. 따라서 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >막대</a> 시각화로 변환됩니다. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>파이 차트</b>: <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/donut.html"  >도넛</a> 시각화로 내보냅니다. Workspace에서 이 시각화는 19개 섹션으로 제한됩니다. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>거품 차트</b>: <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >산포도</a> 시각화로 내보냅니다. 기본적으로 산포도는 x축의 첫 번째 지표와 y축의 두 번째 지표를 그립니다. 지표가 하나만 있는 경우 거품 차트가 선 시각화로 변환됩니다. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>막대 그래프</b>: Workspace와 Ad Hoc Analysis에서 다른 그룹 로직을 지원합니다. 따라서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/bar.html"  >막대</a> 시각화로 변환됩니다. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>산포도</b>: Analysis Workspace의 내보낸 프로젝트에서 Y축은 첫 번째 열로, X축은 두 번째 열로, 지름은 세 번째 열로 설정됩니다. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>폴아웃 표</b>: 폴스루 또는 폴아웃 표를 표시하려면 체크포인트를 마우스 오른쪽 단추로 클릭하고 분류 옵션을 선택합니다. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>폴아웃 보고서 수준 날짜 범위</b>: 사용자 정의된 보고서 날짜 범위가 폴아웃 시각화에 적용되지 않았습니다. </li> 
