@@ -3,9 +3,9 @@ description: 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 
 title: 트래픽 소스 보고서
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
 ht-degree: 100%
 
