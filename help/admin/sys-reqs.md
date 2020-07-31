@@ -1,11 +1,11 @@
 ---
 title: 시스템 요구 사항
-description: Adobe Analytics을 사용하기 위한 시스템 요구 사항입니다.
-translation-type: tm+mt
+description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입니다.
+translation-type: ht
 source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -16,14 +16,14 @@ Adobe Analytics에서 다양한 제품 솔루션을 사용하기 위한 시스�
 
 ## 브라우저 기반 솔루션을 위한 시스템 요구 사항
 
-Analysis Workspace을 포함한 대부분의 Adobe Analytics 솔루션은 브라우저 기반입니다. 따라서 Adobe Analytics을 사용하기 위한 가장 중요한 요구 사항은 최신 웹 브라우저입니다. Adobe는 이러한 브라우저의 최신 안정적인 버전을 지원합니다.
+Analysis Workspace를 포함한 대부분의 Adobe Analytics 솔루션은 브라우저 기반입니다. 따라서 Adobe Analytics를 사용하기 위한 가장 중요한 요구 사항은 최신 웹 브라우저입니다. Adobe는 다음 브라우저의 최신 안정적인 버전을 지원합니다.
 
 * Microsoft Edge
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE] Adobe는 2018년 11월 13일에 Adobe Analytics에서 Microsoft Internet Explorer 11에 대한 지원을 중단했습니다.
+>[!NOTE] Adobe는 13년 11월 일에 Adobe Analytics 내에서 Microsoft Internet Explorer 11에 대한 지원을 종료했습니다.
 
 ## 비브라우저 솔루션에 대한 시스템 요구 사항
 
