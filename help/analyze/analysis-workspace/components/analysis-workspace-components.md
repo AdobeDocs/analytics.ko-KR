@@ -2,9 +2,9 @@
 description: Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 지표, 차원, 세그먼트 및 시간 세부기간으로 구성됩니다. 사용자 지정 날짜 범위와 같은 만든 사용자 지정 구성 요소는 이러한 패널에 추가됩니다.
 title: 구성 요소 개요
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
