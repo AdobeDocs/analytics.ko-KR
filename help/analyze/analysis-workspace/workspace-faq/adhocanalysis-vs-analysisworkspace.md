@@ -99,8 +99,8 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
    <td colname="col2"> <p>Analysis Workspace의 단일 프로젝트에 여러 보고서 세트를 추가할 수 있습니다.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > 비디오: 작업 공간의 여러 보고서 세트</a> </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>기여도 분석 IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >기여도 분석 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 기여도 분석 모델 유형을 추가할 수 있습니다. 10개 이상의 규칙 기반 및 알고리즘 모델이 포함되어 있습니다. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 비디오: 자유 형식 테이블의 속성 IQ</a> </p> </td> 
+   <td colname="col1"> <p>속성 IQ </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >속성 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 속성 모델 유형을 추가할 수 있습니다. 10개 이상의 규칙 기반 및 알고리즘 모델이 포함되어 있습니다. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 비디오: 자유 형식 테이블의 Attribution IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
