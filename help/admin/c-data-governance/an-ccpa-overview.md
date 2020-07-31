@@ -2,9 +2,9 @@
 description: 이 문서에서는 데이터 주체의 CCPA 액세스 및 삭제 권한을 지원하기 위해 Adobe Analytics에서 수행해야 하는 작업에 대해 설명합니다.
 title: Adobe Analytics 및 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. CCPA에 대한 자세한 내용은 회사의 법무 부서에 문의하십시오.
+>이 문서의 컨텐츠는 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. CCPA에 대한 자세한 내용은 회사의 법무 부서에 문의하십시오.
 
 2020년 1월 1일부터 CCPA(California Consumer Privacy Act)가 시행됩니다. Adobe의 대응 및 Adobe 고객에게 CCPA가 의미하는 바에 대한 자세한 내용은 [Adobe 개인 정보 센터](https://www.adobe.com/kr/privacy.html)를 참조하십시오.
 
 Adobe에서는 기업에 소프트웨어 및 서비스를 제공할 때 서비스 제공의 일부로 고객을 대신하여 수신 및 저장하는 개인 데이터에 대한 데이터 처리자 역할을 합니다. Adobe는 데이터 처리자로서 귀사의 허가 및 지침(예: Adobe와의 계약에 명시된 내용)에 따라 개인 데이터를 처리합니다.
 
-귀하는 데이터 제어자로서 Adobe가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다. Adobe Experience Cloud 솔루션을 사용하는 경우 Adobe에서는 사용자가 사용하는 솔루션 및 Adobe Experience Cloud 계정에 전송하기 위해 선택한 정보에 따라 개인 데이터를 호스팅할 수 있습니다. 예제 목록은 [Adobe Experience Cloud 개인 정보](https://www.adobe.com/kr/privacy/marketing-cloud.html#collect)를 참조하십시오.
+귀하는 데이터 제어자로서 Adobe가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다. Adobe Experience Cloud 솔루션을 사용하는 경우 Adobe에서는 사용자가 사용하는 솔루션 및 Adobe Experience Cloud 계정에 전송하기 위해 선택한 정보에 따라 개인 데이터를 호스팅할 수 있습니다. 예제 목록은 [Adobe Experience Cloud 개인 정보](https://www.adobe.com/privacy/marketing-cloud.html#collect)를 참조하십시오.
 
 ## Adobe에서 CCPA 데이터를 처리하는 방법
 
