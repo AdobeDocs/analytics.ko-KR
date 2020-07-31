@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
       + 열 및 행 설정 {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [동적 항목과 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [동적 및 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [실행 취소 및 다시 실행 설정](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace에서 사용할 수 있는 핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [트리 맵](analysis-workspace/visualizations/treemap.md)
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
-      + [Target(A4T) 패널의 Analytics](analysis-workspace/c-panels/a4t-panel.md)
-      + [기여도 분석 패널](analysis-workspace/c-panels/attribution.md)
+      + [A4T(Analytics for Target) 패널](analysis-workspace/c-panels/a4t-panel.md)
+      + [속성 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + 세그먼트 비교 패널{#segment-comparison}
          + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -98,8 +98,8 @@ ht-degree: 98%
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
       + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
    + 속성 IQ {#attribution}
-      + [기여도 분석 개요](analysis-workspace/attribution/overview.md)
-      + [기여도 분석 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
+      + [속성 개요](analysis-workspace/attribution/overview.md)
+      + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
@@ -297,7 +297,7 @@ ht-degree: 98%
    + [대시보드 및 Reportlet](reports-analytics/dashboard.md)
    + [대시보드 관리자](reports-analytics/dashboard-manage.md)
    + [데이터 추출](reports-analytics/data-extract.md)
-   + [단계 보고서](reports-analytics/funnels.md)
+   + [유입 경로 보고서](reports-analytics/funnels.md)
    + [지표](reports-analytics/metrics.md)
    + [타겟](reports-analytics/targets.md)
    + [경고](reports-analytics/alerts.md)
