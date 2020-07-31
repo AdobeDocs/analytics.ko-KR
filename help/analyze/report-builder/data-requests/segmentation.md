@@ -3,11 +3,11 @@ description: Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, �
 title: 세그먼트 관리
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 >[!NOTE]
 >
->세그먼트를 추가하거나 편집할 수 있게 리포트 빌더 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
+>세그먼트를 추가하거나 편집할 수 있게 Report Builder 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
 
 1. 요청 마법사 1단계의 세그먼트 패널에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. For information on how to build segments, refer to [Analytics segmentation](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html).
+1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 1. 세그먼트를 정의하고 저장한 후에 요청 마법사로 돌아갑니다.
 1. 새로 고침 아이콘을 클릭하여 세그먼트 목록을 새로 고칩니다.
 
