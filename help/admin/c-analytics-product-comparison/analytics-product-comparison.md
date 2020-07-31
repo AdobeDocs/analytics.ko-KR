@@ -2,7 +2,7 @@
 description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -17,7 +17,7 @@ ht-degree: 54%
 사용할 Adobe Analytics 제품에 대해 알아보려면.[여기](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)로 이동합니다.
 
 | 제품 이름 및 도움말 링크 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) | [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|---|---|---|---|---|
 | **액세스 방법** | [브라우저](/help/admin/sys-reqs.md) | [브라우저](/help/admin/sys-reqs.md) | [Windows용 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 브라우저를 통해 설정합니다. [추가 정보](/help/admin/sys-reqs.md) | [Windows 64비트](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/install/c-data-workbench-client-install.html) | 브라우저를 통해 설정합니다. [추가 정보](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 툴. Adobe I/O 자격 증명으로 로그인합니다. [추가 정보](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **데이터 세부기간** | 집계됨 | 집계됨 | 집계됨 | 집계됨 | 히트 | 히트 | 집계됨 |
 | **사용 가능한 Experience Cloud ID(ECID)** | 아니오 | 아니오 | 아니오 | 예 | 예 | 예 | 아니오 |
