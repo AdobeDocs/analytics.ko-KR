@@ -2,8 +2,11 @@
 title: Adobe Report Builder 도움말
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 * [Adobe Analytics 커뮤니티](https://helpx.adobe.com/kr/marketing-cloud/analytics.html)
 * [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)
 * [제품 설명서 홈](https://docs.adobe.com/content/help/ko-KR/experience-cloud/user-guides/home.html)
-* [Developer](https://www.adobe.io/apis/experiencecloud.html)
+* [개발자](https://www.adobe.io/apis/experiencecloud.html)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe 교육 및 자습서](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)
 * [주요 솔루션 센터](https://www.omniture.com/kr/products/online_business_optimization)
@@ -51,6 +54,6 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ## Reports &amp; Analytics 도움말
 
-* [Analysis Workspace 도움말](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
+* [Analysis Workspace 도움말](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)
 * [Reports &amp; Analytics 도움말](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html)
 * [Analytics 참조](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html) 관리 도구, 보고서 및 지표에 대한 도움말입니다.
