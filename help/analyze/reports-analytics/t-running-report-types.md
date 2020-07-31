@@ -3,9 +3,9 @@ description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 이 보고서를 실행하려면 보고서(예: 페이지 보고서)를 선택합니다(**[!UICONTROL 보고서]** > **[!UICONTROL 캠페인]** > **[!UICONTROL 추적 코드]** > **[!UICONTROL 캠페인 전환 단계]**).
 
-설명은 [전환 보고서](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-conversion.html)를 참조하십시오.
+설명은 [전환 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)를 참조하십시오.
 
 ## 폴아웃 보고서 실행 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://docs.adobe.com/content/h
 
 >[!MORELIKETHIS]
 >
->* [폴아웃 보고서 설명](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [폴아웃 보고서 설명](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## 페이지 흐름 보고서 실행 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -97,7 +97,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://docs.adobe.com/content/h
 
 Analysis Workspace에서 새 [흐름 시각화](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)를 확인하십시오!
 
-[경로](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-paths.html) 보고서를 실행합니다.
+[경로](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) 보고서를 실행합니다.
 
 예를 들어 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 다음 페이지 흐름]**&#x200B;을 클릭합니다.
 
@@ -123,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. **[!UICONTROL 보고서]** > **[!UICONTROL 제품]** > [제품 전환 단계](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)를 클릭합니다.
+1. **[!UICONTROL 보고서]** > **[!UICONTROL 제품]** > [제품 전환 단계](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)를 클릭합니다.
 
 ## 마케팅 채널 보고서 실행 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -276,7 +276,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 구성</strong></td> 
-   <td class="chdesc stentry"> 이 톱니바퀴 아이콘 링크는 관리자 권한이 있어야 볼 수 있습니다. 이 링크를 클릭하면 <span class="ignoretag"><span class="uicontrol">관리 도구</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">실시간</span></span> 아래의 보고서 세트 관리자가 표시됩니다  . </td> 
+   <td class="chdesc stentry"> 이 톱니바퀴 아이콘 링크는 관리자 권한이 있어야 볼 수 있습니다. 이 링크를 클릭하면 <span class="ignoretag"><span class="uicontrol">관리 도구</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">실시간</span></span> 아래의 보고서 세트 관리자가 표시됩니다. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>전체 화면 보기</strong></td> 
