@@ -2,11 +2,11 @@
 description: 'null'
 title: 기여도 분석 개요
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 다음은 몇 가지 사용 사례입니다.
 
-* 제품 수요의 변화를 모니터링하여 재마케팅 가능성을 식별합니다.
+* 제품 수요 변화를 모니터링하여 재마케팅 가능성을 식별합니다.
 * 특정 대상의 관심에 반응하여 고객 경험을 증진합니다.
 * 범위를 벗어나는 보고서로 신속하게 부정 주문을 식별합니다.
 * 높은 사용량 및 다운로드를 식별하여 산업 스파이로부터 사용자 자신을 보호합니다.
@@ -55,7 +55,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe에서 토큰을 도입한 이유는 무엇입니까? </b> </p> </td> 
-   <td colname="col2"> <p>기여도 분석은 Adobe Analytics에서 가장 잘 작동하는 기능 중 하나입니다. 일부 Analytics 제품의 경우 3차원이 아닌 매월 "전체" 실행 횟수가 적어 무제한 전체 기여도 분석을 통해 어떤 효과가 있는지 알 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>Contribution Analysis는 Adobe Analytics에서 가장 공감스러운 기능 중 하나입니다. 일부 Analytics 제품의 경우 3차원이 아닌 매월 "전체" 실행 횟수가 적어 무제한 전체 기여도 분석을 통해 어떤 효과가 있는지 알 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>기여도 분석에서 토큰은 어떻게 작동합니까? 기존 기여도 분석을 사용하여 프로젝트를 로드하는 데 토큰 비용이 듭니까? 또는 새로운 기여도 분석을 실행할 때만 토큰 비용이 필요합니까?</b> </p> </td> 
@@ -134,7 +134,7 @@ ht-degree: 97%
    <td colname="col3"> <p>월별 2개 토큰 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium(360, 기여도) </p> </td> 
+   <td colname="col1"> <p>Premium(360, 속성) </p> </td> 
    <td colname="col2"> <p>예 </p> </td> 
    <td colname="col3"> <p>월별 2개 토큰 </p> </td> 
   </tr> 
