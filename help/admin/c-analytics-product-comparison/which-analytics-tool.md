@@ -37,7 +37,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * 프로젝트 작업의 탭 구성이 필요한 경우.
 * 사이트 분석 보고서를 사용해야 하는 경우(3D 경로 지정 보고서).
 
-**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**는 다음 경우에 사용합니다.
+**[Data Workbench](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html)**는 다음 경우에 사용합니다.
 
 * 가장 유연한 Analytics 도구 옵션(방문자 수준, 히트 수준 분석까지).
 * CRM에서 POS 웹에 이르는 온라인 및 오프라인 상호 작용의 다중 채널 데이터 세트 생성.
@@ -73,7 +73,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 * 데이터를 Adobe Analytics에 업로드해야 할 때 사용해야 하며, Adobe AppMeasurement나 모바일 SDK 코드는 사용할 수 없습니다.
 
-**[사용자 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)**은 다음 경우에 사용합니다.
+**[고객 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)**은 다음 경우에 사용합니다.
 
 * 고객 관계 관리(CRM) 데이터베이스에서 기업 고객 데이터를 캡처하고, 이 데이터를 Experience Cloud에 업로드하려는 경우.
 * CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타깃팅 기준으로 사용하려는 경우.
