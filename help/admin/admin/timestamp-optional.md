@@ -3,11 +3,11 @@ description: 타임스탬프가 지정된 데이터와 지정되지 않은 데�
 title: 타임스탬프 선택 사항
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 횟수/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
+>타임스탬프 옵션을 사용 중이면 이미 타임스탬프가 지정된 데이터에 대해 [s.visitorID](/help/implement/vars/config-vars/visitorid.md)를 설정하지 마십시오. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 횟수/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
 >[!NOTE]
 >
