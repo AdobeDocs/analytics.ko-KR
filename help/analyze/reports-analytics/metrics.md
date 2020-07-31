@@ -3,11 +3,11 @@ description: 지표는 보고서의 기반으로, 데이터 관계를 보고 이
 title: 지표
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)는 지표를 결합하여 만들어집니다.
 
-전체 지표 목록은 구성 요소 사용자 안내서의 [지표 개요를](/help/components/metrics/overview.md) 참조하십시오.
+전체 지표 목록은 구성 요소 사용자 안내서의 [지표 개요](/help/components/metrics/overview.md)를 참조하십시오.
 
 ## 기본 보고서 지표 선택
 
