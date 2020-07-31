@@ -2,9 +2,9 @@
 description: 'null'
 title: Analytics 변수의 데이터 개인 정보 보호 레이블
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
 ht-degree: 100%
 
