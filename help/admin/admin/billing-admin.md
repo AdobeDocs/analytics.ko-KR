@@ -3,9 +3,9 @@ description: 과금 페이지에서는 각 보고서 세트에 대한 트래픽 
 title: 과금
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
