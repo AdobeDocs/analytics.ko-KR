@@ -2,11 +2,11 @@
 description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 96%
 
 ## 비기본 속성 모델 사용
 
-분석 작업 공간은 거의 모든 지표에 [대한](../../attribution/overview.md) 속성을 지원합니다.
+Analysis Workspace은 거의 모든 지표에 대한 [속성](../../attribution/overview.md)을 지원합니다.
 
-1. 자유 형식 테이블 열 옆의 [설정] (기어) 아이콘을 클릭합니다.
+1. 자유 형식 테이블 열 옆의 설정 (기어) 아이콘을 클릭합니다.
 
    ![속성 확인란](assets/attribution-checkbox.png)
 
-2. **[!UICONTROL 데이터 설정]**&#x200B;에서 **[!UICONTROL 기본값이 아닌 기여도 분석 모델 사용]**&#x200B;을 선택합니다. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. **[!UICONTROL 데이터 설정]**&#x200B;에서 **[!UICONTROL 기본값이 아닌 속성 모델 사용]**&#x200B;을 선택합니다. 다른 속성 모델에 대한 자세한 내용은 [속성 모델](../../attribution/models.md)을 참조하십시오.
 
    ![속성 모델 선택](assets/attribution-select.png)
 
