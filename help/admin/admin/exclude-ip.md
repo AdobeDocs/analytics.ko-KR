@@ -3,9 +3,9 @@ description: 보고서에서 내부 웹 사이트 활동, 사이트 테스트 �
 title: IP 주소별로 제외
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
