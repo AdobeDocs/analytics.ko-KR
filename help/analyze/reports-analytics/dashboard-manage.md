@@ -4,9 +4,9 @@ subtopic: Dashboards
 title: 대시보드 관리자
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
    복사한 대시보드가 대시보드 레이아웃 편집기에서 열립니다.
 
-   자세한 내용은 [대시보드 및 Reportlet 데이터 편집](/help/analyze/reports-analytics/dashboard.md).
+    [대시보드 및 Reportlet 데이터 편집](/help/analyze/reports-analytics/dashboard.md)을 참조하십시오.
 
 ## 대시보드 공유
 
