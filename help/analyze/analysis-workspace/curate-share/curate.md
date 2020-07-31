@@ -2,9 +2,9 @@
 description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다.
 keywords: Analysis Workspace curation
 title: 작업 공간 프로젝트 조정
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ ht-degree: 100%
 ## 프로젝트 조정 제거
 
 프로젝트 조정을 제거하고 왼쪽 레일에 있는 전체 구성 요소 세트를 복원하려면 다음을 수행하십시오.
+
 1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**을 클릭합니다.
 
 1. **[!UICONTROL 조정 제거]**&#x200B;를 클릭합니다.
@@ -63,4 +64,4 @@ ht-degree: 100%
 |---|---|---|---|
 | 조정된 VRS | 조정되지 않은 모든 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 |
 | 조정된 프로젝트 | 조정되지 않은 모든 프로젝트 구성 요소 | 조정되지 않은 모든 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 프로젝트 구성 요소 |
-| 조정된 VRS에서 조정된 프로젝트 |  **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 VRS 구성 요소]** 아래에 표시된 모든 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 모든 조정되지 않은 모든 구성 요소와 조정되지 않은 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 및 프로젝트 구성 요소 |
+| 조정된 VRS에서 조정된 프로젝트 | All non-corporated components, shown under **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 VRS 구성 요소]** 아래에 표시된 모든 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 모든 조정되지 않은 모든 구성 요소와 조정되지 않은 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 및 프로젝트 구성 요소 |
