@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 63%
+ht-degree: 93%
 
 ---
 
@@ -32,8 +32,8 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
 [차원 분류 - YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13)(2:02)
 
-## 분류에 기여도 분석 모델 적용
+## 분류에 속성 모델 적용
 
-테이블 내의 모든 분류에는 모든 속성 모델이 적용될 수 있습니다. 이 속성 모델은 상위 열과 동일하거나 다를 수 있습니다. 예를 들어 마케팅 채널 차원에서 선형 주문을 분석할 수 있지만 채널 내의 특정 추적 코드에 U자 모양 주문을 적용할 수 있습니다. To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
+테이블 내의 모든 분류에는 모든 속성 모델이 적용될 수 있습니다. 이 속성 모델은 상위 열과 동일하거나 다를 수 있습니다. 예를 들어, 마케팅 채널 차원에서 선형 주문을 분석하고 채널 내 특정 추적 코드에 U자형 주문을 적용할 수 있습니다. 분류에 적용되는 속성 모델을 편집하려면 다음과 같이 분류 모델 위로 마우스를 이동하고&#x200B;**[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
 ![분류 설정](assets/breakdown_settings.png)
