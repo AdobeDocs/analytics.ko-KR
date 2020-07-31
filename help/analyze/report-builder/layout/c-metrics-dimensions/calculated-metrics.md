@@ -2,9 +2,9 @@
 description: Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니다. 가장 주목할 만한 혁신 사항은 모든 계산된 지표에는 전역 ID가 있으며 이것이 계산된 지표가 더 이상 하나의 보고서 세트로 제한되지 않음을 의미한다는 것입니다.
 title: 계산된 지표
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
