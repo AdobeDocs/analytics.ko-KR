@@ -2,9 +2,9 @@
 description: 'null'
 title: 기여도 분석 실행
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
 ht-degree: 100%
 
@@ -71,5 +71,5 @@ ht-degree: 100%
 
    ![](assets/excluded-dimensions.png)
 
-1. 원하지 않는 차원 옆에 있는 x를 클릭하여 삭제한 다음 **[!UICONTROL 기본값으로 설정을 클릭하여 목록을 저장합니다]**.
+1. 원하지 않는 차원 옆에 있는 x를 클릭하여 삭제한 다음 **[!UICONTROL 기본값으로 설정]**&#x200B;을 클릭하여 목록을 저장합니다.
 
