@@ -1,29 +1,29 @@
 ---
 description: 'null'
 title: 패널 개요
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # 패널 개요
 
-패널은 테이블과 시각화 요소의 컬렉션입니다. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 기간, 사업 단위, 지역 등에 따라 프로젝트를 구성하려는 경우 패널이 유용합니다. 분석 작업 공간에서 다음 6가지 유형의 패널을 사용할 수 있습니다.
+패널은 테이블과 시각화 요소의 컬렉션입니다. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 기간, 사업 단위, 지역 등에 따라 프로젝트를 구성하려는 경우 패널이 유용합니다. Analysis Workspace에서는 6가지 유형의 패널을 사용할 수 있습니다.
 
 * [빈 패널](blank-panel.md)
 * [빠른 인사이트 패널](quickinsight.md)
-* [Analytics for Target 패널](a4t-panel.md) (준비 중)
-* [기여도 분석 패널](attribution.md)
+* [Analytics for Target 패널](a4t-panel.md)(준비 중)
+* [속성 패널](attribution.md)
 * [자유 형식 패널](freeform-panel.md)
 * [세그먼트 비교 패널](c-segment-comparison/segment-comparison.md)
 
-빠른 인사이트, 빈 칸 및 자유 형식 패널은 분석을 시작할 수 있는 좋은 위치이며, Analytics for Target, Attribution IQ 및 세그먼트 비교에서는 더 고급 분석에 활용할 수 있습니다. 프로젝트에서 `"+"` 버튼을 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
+빠른 인사이트, 빈 패널 및 자유 형식 패널은 분석을 시작할 수 있는 좋은 위치이며 Target, 속성 IQ 및 세그먼트 비교는 더 고급 분석에 도움이 됩니다. 프로젝트에서 `"+"` 단추를 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+기본 시작 패널은 자유 형식 패널이지만 [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md)을 기본값으로 설정할 수 있습니다.
 
 ## 패널의 드롭다운 필터 {#section_D2828EEDD52944528E87F470EAB581CF}
 
