@@ -4,11 +4,11 @@ keywords: eVar
 title: 전환 변수(eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,11 +89,11 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> eVar 값을 제품에 연결합니다. 참고: 제품 구문을 선택한 경우 머천다이징 바인딩 이벤트 섹션이 비활성화되므로 선택하여 편집할 수 없습니다. 이 구문에는 바인딩 이벤트를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/merchandising-variables/var-merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> eVar 값을 제품에 연결합니다. 참고: 제품 구문을 선택한 경우 머천다이징 바인딩 이벤트 섹션이 비활성화되므로 선택하여 편집할 수 없습니다. 이 구문에는 바인딩 이벤트를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>머천다이징이 <span class="uicontrol">전환 변수 구문</span>으로 설정된 경우, 선택한 이벤트는 현재 eVar 값을 제품에 바인딩합니다. </p> <p>바인딩 이벤트를 사용하려면 <span class="uicontrol">할당을 가장 최근</span>으로 설정합니다. <span class="uicontrol">할당이 원래 값</span>인 경우 첫 번째 eVar 제품 바인딩은 eVar가 만료될 때까지 유지됩니다. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. "전환 변수 구문"이 선택된 경우에만 이벤트를 선택할 수 있습니다.</p> </td> 
+   <td colname="col2"> <p>머천다이징이 <span class="uicontrol">전환 변수 구문</span>으로 설정된 경우, 선택한 이벤트는 현재 eVar 값을 제품에 바인딩합니다. </p> <p>바인딩 이벤트를 사용하려면 <span class="uicontrol">할당을 가장 최근</span>으로 설정합니다. <span class="uicontrol">할당이 원래 값</span>인 경우 첫 번째 eVar 제품 바인딩은 eVar가 만료될 때까지 유지됩니다. <code>ctrl</code>(Windows) 또는 <code>cmd</code>(Mac)을 누른 채로 목록의 항목을 클릭하면 여러 개의 이벤트를 선택할 수 있습니다. 전환 변수 구문이 선택된 경우에만 이벤트를 선택할 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
