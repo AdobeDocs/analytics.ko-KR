@@ -3,9 +3,9 @@ description: Analytics 관리자가 Activity Map 링크 컬렉션 및 사용자 
 title: Activity Map 활성화
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -60,4 +60,4 @@ Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다(파일의 맨
 
 >[!NOTE]
 >
-> 관리자가 아닌 사용자가 Activity Map을 다운로드하도록 하려면 &#39;도구&#39; 및 &#39;레거시 ClickMap 설치&#39;에 대한 권한을 제공하는 새 사용자 그룹을 만드십시오. 이 수준의 권한은 Activity Map 액세스와 함께 결합되어 도구를 다운로드하고 사용할 수 있는 권한을 제공합니다.
+>관리자가 아닌 사용자가 Activity Map을 다운로드하도록 하려면 &#39;도구&#39; 및 &#39;레거시 ClickMap 설치&#39;에 대한 권한을 제공하는 새 사용자 그룹을 만드십시오. 이 수준의 권한은 Activity Map 액세스와 함께 결합되어 도구를 다운로드하고 사용할 수 있는 권한을 제공합니다.
