@@ -1,9 +1,9 @@
 ---
 description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록
 title: Analysis Workspace의 알려진 제한 사항
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 ## 구성 요소 > 계산된 지표
 
 * 계산된 지표는 특정 시각화에 사용할 수 없습니다. 위의 &#39;시각화&#39;를 참조하십시오.
-* 계산된 지표 자체가 별도의 기여도 분석 모델을 포함할 수 있으므로 계산된 지표는 [!UICONTROL 기여도 분석] 패널에서 사용할 수 없습니다.
+* 계산된 지표 자체가 별도의 속성 모델을 포함할 수 있으므로 계산된 지표는 [!UICONTROL 속성] 패널에서 사용할 수 없습니다.
 * 계산된 지표가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 > 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 [!UICONTROL IP 주소]가 그렇습니다.
 
 ## 구성 요소 > 날짜 범위
@@ -55,6 +55,6 @@ ht-degree: 100%
 
 * [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분 문자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분 문자]만 사용합니다.
 
-## 기여도 분석 IQ
+## 속성 IQ
 
-* 지표의 하위 세트는 [!UICONTROL 기여도 IQ]에서 지원되지 않습니다. 전체 목록이 필요하면 [기여도 분석 IQ FAQ](../attribution/faq.md)를 참조하십시오.
+* 지표의 하위 세트는 [!UICONTROL 속성 IQ]에서 지원되지 않습니다. 전체 목록이 필요하면 [속성 IQ FAQ](../attribution/faq.md)를 참조하십시오.
