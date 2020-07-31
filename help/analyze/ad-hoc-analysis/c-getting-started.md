@@ -92,7 +92,7 @@ Adobe의 .jar 파일은 1.7.0_76 이하의 Java 버전에서 지원되지 않는
 
 * 컴퓨터에 프로그램 설치가 허용되는 경우
 
-   1. https://www.java.com으로 이동합니다.
+   1. https://www.java.com 으로 이동합니다.
    1. Click **[!UICONTROL Java Download]**.
    1. Click **[!UICONTROL Agree and Start Download]**.
    1. 사용 중인 운영 체제용의 최신 Java 버전을 설치합니다.
