@@ -3,9 +3,9 @@ description: 서버 측 전달은 Analytics의 데이터를 다른 Experience Cl
 solution: Audience Manager
 title: 서버 측 전달 개요
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '850'
 ht-degree: 100%
 
