@@ -3,9 +3,9 @@ description: 정의한 시간 및 파일 형식에 따라 보고서를 전송하
 title: 데이터 요청 예약
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
 
