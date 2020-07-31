@@ -4,9 +4,9 @@ subtopic: Schedule
 title: 보고서 예약 및 배포
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1661'
 ht-degree: 100%
 
