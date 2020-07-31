@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 프로젝트 만들기 - 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
 ht-degree: 100%
 
