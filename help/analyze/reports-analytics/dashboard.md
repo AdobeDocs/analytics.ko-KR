@@ -4,9 +4,9 @@ subtopic: Dashboards
 title: 대시보드 및 Reportlet
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1819'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
-자세한 내용은 [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md).
+ [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.
 
 ## 대시보드 만들기 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -148,7 +148,8 @@ t_dashboard_content.xml
       지표, 그래프 유형, 색상 범위 및 임계값을 선택할 수 있습니다. 지표의 개수가 임계값 보다 큼인 경우 측정은 reportlet의 초과 필드 위에 있는 색을 사용하여 reportlet임을 가리킵니다. 지표의 개수가 임계값 보다 작음인 경우 측정은 미만 필드 위에 있는 색을 사용하여 reportlet임을 가리킵니다. 이 필드에서 지정하는 값은 페이지 보기, 달러 금액, 장바구니 보기 횟수 등과 같이 계산할 수 있는 지표 값입니다. (특수 문자는 사용하지 마십시오.)
    * 보고서 세트 요약: 선택한 지표와 보고서 세트의 전체 또는 높은 값과 낮은 값을 표시합니다.
    * 사용 요약: 조직 내의 사람들이 인터페이스에서 액세스하는 데이터를 보여줍니다. 이 reportlet은 사용자 이름 액세스, 보고서 액세스 또는 보고서 세트 액세스별로 데이터를 보여줄 수 있습니다.
-URL을 제공하여 다음 사용자 컨텐츠 reportlet을 만들 수 있습니다. 이미지 또는 기타 리소스 URL이 https://로 시작되지 않는 경우 Internet Explorer는 혼합 컨텐츠 경고를 표시할 수 있습니다. 브라우저의 보안 설정에서 혼합 컨텐츠에 대한 경고를 비활성화할 수 있습니다.
+URL을 제공하여 다음 사용자 컨텐츠 reportlet을 만들 수 있습니다. 이미지 또는 기타 리소스 URL이 https:// 로 시작되지 않는 경우 Internet Explorer는 혼합 컨텐츠 경고를 표시할 수 있습니다. 브라우저의 보안 설정에서 혼합 컨텐츠에 대한 경고를 비활성화할 수 있습니다.
+
    *사용자 컨텐츠:*
 
    * 외부 보고서: .xml 및 .csv 형식으로 외부 보고서를 추가할 수 있습니다.
@@ -156,6 +157,7 @@ URL을 제공하여 다음 사용자 컨텐츠 reportlet을 만들 수 있습니
    * 이미지: 이미지 URL로부터 대시보드를 만들 수 있습니다. URL이 HTTP 프로토콜을 사용하는 경우 Internet Explorer에 혼합 컨텐츠 경고가 나타납니다. HTTPS가 있는 URL을 사용하면 경고가 제거됩니다. 모든 기타 프로토콜은 `Specified URL could not be retrieved` 오류가 발생합니다.
    * RSS: RSS 웹 피드를 추가할 수 있습니다. HTTP 또는 HTTPS여야 합니다. 그렇지 않은 경우 `Specified URL could not be retrieved` 오류가 표시됩니다. 
    * 텍스트: XHTML 코드를 사용하여 자신의 데이터를 만들 수 있습니다. URL에 HTTP 또는 HTTPS를 사용합니다. HTTP 프로토콜이 있는 텍스트 reportlet 컨텐츠에 이미지를 사용하면 IE 사용자에게 혼합된 컨텐츠에 대한 경고 메시지가 표시됩니다. 다른 프로토콜을 사용하여 포함된 이미지는 reportlet에 표시되지 않습니다.
+
    **내 대시보드**
 
    컨텐트를 새 대시보드로 이동시킬 수 있는 업그레이드된 대시보드를 나열합니다.
