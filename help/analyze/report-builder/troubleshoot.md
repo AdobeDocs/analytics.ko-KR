@@ -3,9 +3,9 @@ description: Report Builder 전달을 최적화하는 방법 및 때때로 발�
 title: Report Builder 문제 해결 및 우수 사례
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
 ht-degree: 100%
 
