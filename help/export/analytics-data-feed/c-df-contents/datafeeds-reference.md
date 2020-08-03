@@ -6,10 +6,10 @@ title: 데이터 열 참조
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 97%
+source-wordcount: '3674'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
-> 열 대부분은 `post_`라는 접두어가 있는 유사한 열을 포함합니다. 이후 열에는 서버 측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. 자세한 내용은 [데이터 피드 FAQ](../df-faq.md)를 참조하십시오.
+>열 대부분은 `post_`라는 접두어가 있는 유사한 열을 포함합니다. 이후 열에는 서버 측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. 자세한 내용은 [데이터 피드 FAQ](../df-faq.md)를 참조하십시오.
 
 | 열 이름 | 열 설명 | 데이터 유형 |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ ht-degree: 97%
 | `geo_region` | IP를 기반으로 한, 히트가 발생한 시/도 또는 지역의 이름입니다. Adobe에서는 IP 주소를 시/도 또는 지역에 일치시키기 위해 Digital Envoy와 파트너 관계를 맺습니다. | char(32) |
 | `geo_zip` | IP를 기반으로 하며 히트가 발생한 지역의 우편 번호입니다. Adobe에서는 IP 주소를 우편 번호에 일치시키기 위해 Digital Envoy와 파트너 관계를 맺습니다. | varchar(16) |
 | `hier1 - hier5` | 계층 변수에서 사용됩니다. 구분된 값 목록을 포함합니다. 구분 기호는 보고서 세트 설정에서 선택합니다. | varchar(255) |
-| `hit_source` | 히트가 발생한 소스를 나타냅니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 있는 표준 이미지 요청 <br>3: 타임스탬프가 있는 라이브 데이터 소스 업로드 <br>4: 사용되지 않음 <br>5: 일반 데이터 소스 업로드 <br>6: 데이터 소스 업로드 전체 처리 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음, Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음, Adobe Social 요약 지표 <br>10: Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
+| `hit_source` | 히트가 발생한 소스를 나타냅니다. Hit_sources 0, 1, 2 및 6이 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 <br>3인 표준 이미지 요청: 타임스탬프 <br>4를 사용한 라이브 데이터 소스 업로드: 사용되지 않음 <br>5: 범용 데이터 소스 업로드 <br>6: 전체 처리 데이터 소스 업로드 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음; Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음; Adobe Social 요약 지표 <br>10: Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
 | `hit_time_gmt` | 히트 Adobe 데이터 수집 서버의 타임스탬프가 Unix 시간을 기준으로 히트를 받았습니다. | int |
 | `hitid_high` | 히트를 고유하게 식별하기 위해 hitid_low와 함께 사용됩니다. | bigint 부호 없음 |
 | `hitid_low` | 히트를 고유하게 식별하기 위해 hitid_high와 함께 사용됩니다. | bigint 부호 없음 |
@@ -263,11 +263,11 @@ ht-degree: 97%
 | `videoshow` | 비디오 표시 | varchar(255) |
 | `videoshowtype` | 비디오 표시 유형 | varchar(255) |
 | `videostreamtype` | 비디오 스트림 유형 | varchar(255) |
-| `visid_high` | visid_low와 결합하여 방문자를 고유하게 식별합니다. | bigint 부호 없음 |
-| `visid_low` | visid_high와 결합하여 방문자를 고유하게 식별합니다. | bigint 부호 없음 |
+| `visid_high` | 방문자를 고유하게 식별하기 위해 visid_low와 함께 사용됩니다. | bigint 부호 없음 |
+| `visid_low` | 방문자를 고유하게 식별하기 위해 visid_high와 함께 사용됩니다. | bigint 부호 없음 |
 | `visid_new` | 히트에 새로 생성된 방문자 ID가 있는지 여부를 식별하는 플래그입니다. | char(1) |
 | `visid_timestamp` | 방문자 ID가 새로 생성된 경우 방문자 ID가 생성된 시간의 타임스탬프(Unix 시간)를 제공합니다. | int |
-| `visid_type` | 외부 사용 금지; Adobe가 내부적으로 사용하여 최적화할 수 있습니다. 방문자를 식별하는 데 사용되는 방법을 나타내는 숫자 ID.<br>0: 사용자 지정 visitorID 또는 알 수 없음/해당<br>없음 1: IP 및 사용자 에이전트 폴백 <br>2: HTTP 모바일 구독자 헤더 <br>3: 기존 쿠키 값(s_vi) <br>4: 폴백 쿠키 값(s_fid) <br>5: ID 서비스 | tinyint 부호 없음 |
+| `visid_type` | 외부용이 아닙니다. Adobe가 최적화 처리를 위해 내부적으로 사용합니다. 방문자를 식별하는 데 사용된 방법을 나타내는 숫자 ID입니다.<br>0: 사용자 지정 방문자 ID 또는 알 수 없음/적용할 수 없음<br>1: IP 및 사용자 에이전트 폴백 <br>2: HTTP 모바일 가입자 헤더 <br>3: 기존 쿠키 값(s_vi) <br>4: 대체 쿠키 값(s_fid) <br>5: ID 서비스 | tinyint 부호 없음 |
 | `visit_keywords` | 검색 키워드 차원에 사용되는 변수입니다. 이 열은 Adobe에서 사용하는 백엔드 로직을 수용하기 위해 비표준 문자 제한을 사용합니다. | varchar(244) |
 | `visit_num` | 방문 번호 차원에 사용되는 변수입니다. 1에서 시작하여 새 방문이 방문자별로 시작될 때마다 증가합니다. | int 부호 없음 |
 | `visit_page_num` | 히트 깊이 차원에 사용되는 변수입니다. 사용자가 생성하는 각 히트에 대해 1씩 증가합니다. 각 방문을 재설정합니다. | int 부호 없음 |
