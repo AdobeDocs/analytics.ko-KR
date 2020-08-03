@@ -6,7 +6,7 @@ title: 데이터 열 참조
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
+source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
 ht-degree: 98%
@@ -84,7 +84,7 @@ ht-degree: 98%
 | `geo_region` | IP를 기반으로 한, 히트가 발생한 시/도 또는 지역의 이름입니다. Adobe에서는 IP 주소를 시/도 또는 지역에 일치시키기 위해 Digital Envoy와 파트너 관계를 맺습니다. | char(32) |
 | `geo_zip` | IP를 기반으로 하며 히트가 발생한 지역의 우편 번호입니다. Adobe에서는 IP 주소를 우편 번호에 일치시키기 위해 Digital Envoy와 파트너 관계를 맺습니다. | varchar(16) |
 | `hier1 - hier5` | 계층 변수에서 사용됩니다. 구분된 값 목록을 포함합니다. 구분 기호는 보고서 세트 설정에서 선택합니다. | varchar(255) |
-| `hit_source` | 히트가 발생한 소스를 나타냅니다. Hit_sources 0, 1, 2 및 6이 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 <br>3인 표준 이미지 요청: 타임스탬프 <br>4를 사용한 라이브 데이터 소스 업로드: 사용되지 않음 <br>5: 범용 데이터 소스 업로드 <br>6: 전체 처리 데이터 소스 업로드 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음; Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음; Adobe Social 요약 지표 <br>10: Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
+| `hit_source` | 히트가 발생한 소스를 나타냅니다. 히트 소스 1, 2 및 6이 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 <br>3인 표준 이미지 요청: 타임스탬프 <br>4를 사용한 라이브 데이터 소스 업로드: 사용되지 않음 <br>5: 범용 데이터 소스 업로드 <br>6: 전체 처리 데이터 소스 업로드 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음; Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음; Adobe Social 요약 지표 <br>10: Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
 | `hit_time_gmt` | 히트 Adobe 데이터 수집 서버의 타임스탬프가 Unix 시간을 기준으로 히트를 받았습니다. | int |
 | `hitid_high` | 히트를 고유하게 식별하기 위해 hitid_low와 함께 사용됩니다. | bigint 부호 없음 |
 | `hitid_low` | 히트를 고유하게 식별하기 위해 hitid_high와 함께 사용됩니다. | bigint 부호 없음 |
