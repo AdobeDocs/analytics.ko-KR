@@ -1,10 +1,10 @@
 ---
 description: 'null'
 title: 패널 개요
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '481'
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 * [빈 패널](blank-panel.md)
 * [빠른 인사이트 패널](quickinsight.md)
-* [Analytics for Target 패널](a4t-panel.md)(준비 중)
+* [Analytics for Target 패널](a4t-panel.md)
 * [속성 패널](attribution.md)
 * [자유 형식 패널](freeform-panel.md)
 * [세그먼트 비교 패널](c-segment-comparison/segment-comparison.md)
