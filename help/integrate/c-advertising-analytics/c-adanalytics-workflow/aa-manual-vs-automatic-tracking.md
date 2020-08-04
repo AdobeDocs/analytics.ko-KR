@@ -2,10 +2,10 @@
 description: 추적은 Adobe Analytics 구현에 따라 검색 엔진 데이터를 추적하는 방법을 결정합니다. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
 title: 추적 수동 모드 및 자동 모드
 translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 90%
+source-wordcount: '594'
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 90%
 
 자동 모드에서 검색 엔진 계정을 구성하려면 다음 조치를 수행해야 합니다.
 
-* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. URL의 끝에 삽입됩니다. 웹 서버에서 URL 끝에 특정 키=값 쌍이 필요하거나 URL에 새 키=값 쌍을 지원하는 업데이트가 필요한 경우 추가 작업이 필요할 수도 있습니다. **추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다.**
-* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. 특수 문자 또는 기호를 포함하는 경우 웹 서버에서 이러한 문자를 지원할 수 있는지 확인하십시오. 일반적인 특수 문자의 예는 &quot;Broad Match Modified&quot; 키워드에서 사용되는 &quot;+&quot;입니다.
+* `s_kwcid` 매개 변수 및 값이 추가되는 계정의 계정 추적 템플릿 또는 랜딩 페이지 URL에 추가됩니다. URL의 끝에 삽입됩니다. 웹 서버에서 URL 끝에 특정 키=값 쌍이 필요하거나 URL에 새 키=값 쌍을 지원하는 업데이트가 필요한 경우 추가 작업이 필요할 수도 있습니다. **추가된 URL 매개 변수가 최종 랜딩 페이지에 올바르게 유지되는지는 사용자가 확인해야 합니다.**
+* 또한 `s_kwcid` 값의 일부로 랜딩 URL에 키워드를 삽입할 수 있습니다. 특수 문자 또는 기호를 포함하는 경우 웹 서버에서 이러한 문자를 지원할 수 있는지 확인하십시오. 일반적인 특수 문자의 예는 &quot;Broad Match Modified&quot; 키워드에서 사용되는 &quot;+&quot;입니다.
 
 >[!IMPORTANT]
 >
->매개 변수를 `s_kwcid` Content Security 정책 [](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)에 추가할지 여부를 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP(컨텐츠 보안 정책)](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/csp.html)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 모드 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -101,7 +101,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 **{lpurl}**
 
 ```
-{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`
+{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **`{lpurl}`추가 URL 매개 변수 사용&#x200B;**
@@ -111,10 +111,10 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**타사(DoubleClick) `{unescapedlpurl}**
+**타사(DoubleClick)`{unescapedlpurl}`**
 
-```https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
-
+```
+https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **타사(DoubleClick)`{lpurl}`**
