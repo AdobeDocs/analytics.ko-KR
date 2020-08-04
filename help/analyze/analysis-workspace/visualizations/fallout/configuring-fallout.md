@@ -2,8 +2,11 @@
 description: 'null'
 title: 폴아웃 시각화 구성
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 머천다이징 eVar 및 [listVars](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 포함한 eVar에 대해 경로를 지정할 수 있습니다(제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 히트당 여러 개의 값이 있을 수 있는 변수). 예를 들어, 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
 
-1. 시각화 드롭다운에서 [!UICONTROL Fallout] 시각화를 [!UICONTROL Freeform Table]로 드래그합니다.
+1. 시각화 드롭다운의 [!UICONTROL 폴아웃] 시각화를 [!UICONTROL 자유 형식 테이블]로 드래그합니다. 
 
-1. 페이지 차원을 자유 형식 테이블로 드래그하고, 거기에서 페이지(이 경우, 홈 - JJEsquire)를 **[!UICONTROL Add TouchPoint]** 필드에 첫 번째 터치 포인트로서 드래그합니다.
+1. 페이지 차원을 자유 형식 테이블로 드래그하고, 거기에서 페이지(이 경우, 홈 - JJEsquire)를 **[!UICONTROL 터치 포인트 추가]** 필드에 첫 번째 터치 포인트로서 드래그합니다. 
 
    ![](assets/fallout1.png)
 
@@ -62,7 +65,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 설정 | 설명 |
 |--- |--- |
 | 폴아웃 컨테이너 <ul><li>방문</li><li>방문자</li></ul> | 방문과 방문자 간을 전환하여 방문자 이동 경로를 분석할 수 있도록 합니다. 기본값은 방문자입니다. 이 설정은 방문들에 대해 방문자 수준에서 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다.  |
-| 첫 번째 터치 포인트로 &quot;전체 방문자 수&quot;를 표시 | 첫 번째 체크포인트로 &quot;모든 방문 횟수&quot;를 가지고 있지 않은 경우에는 이 확인란을 선택 취소할 수 있습니다.  |
 
 **터치 포인트를 마우스 오른쪽 단추로 클릭**&#x200B;하면 다음 선택 사항이 표시됩니다.
 
