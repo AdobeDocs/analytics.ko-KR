@@ -3,9 +3,9 @@ description: 성공 이벤트를 구성하는 방법을 설명하는 단계입�
 title: 성공 이벤트 구성
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,9 @@ ht-degree: 100%
 1. **[!UICONTROL 이름]** 열에서 각 항목 옆의 확인란을 선택하여 편집을 활성화한 다음 원하는 이름을 지정합니다.
 1. **[!UICONTROL 유형]** 열에서 각 항목 옆의 확인란을 선택하여 드롭다운 목록을 활성화하고 원하는 유형을 선택합니다.
 
-   >[!NOTE] 이벤트 유형을 변경하기 전에 [이벤트 유형 변경](/help/admin/admin/c-success-events/event-type.md)을 참조하십시오.
+   >[!NOTE]
+   >
+   >이벤트 유형을 변경하기 전에 [이벤트 유형 변경](/help/admin/admin/c-success-events/event-type.md)을 참조하십시오.
 
    이 요소에 대한 자세한 내용은 [성공 이벤트 페이지 - 설명](/help/admin/admin/c-success-events/success-event.md)을 참조하십시오.
 
@@ -37,7 +39,9 @@ ht-degree: 100%
 1. 이벤트를 항상 기록할 것인지 여부를 확인합니다.
 1. 기여도 지표를 활성화 또는 비활성화합니다.
 
-   >[!NOTE] 최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) 빌더에서 기여도 지표를 만들 수 있습니다.
+   >[!NOTE]
+   >
+   >최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) 빌더에서 기여도 지표를 만들 수 있습니다.
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
