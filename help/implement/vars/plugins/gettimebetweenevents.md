@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: 두 이벤트 사이의 시간을 측정합니다.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 100%
@@ -70,7 +70,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 * **`rt`** (필수, 부울): 타이머 다시 시작 옵션. `events` 변수에 타이머 시작 이벤트가 포함될 때마다 타이머를 다시 시작하려는 경우 `true`로 설정하십시오. 타이머 시작 이벤트가 표시될 때 타이머가 다시 시작되지 않도록 하려면 `false`로 설정하십시오.
 * **`stp`** (필수, 문자열): 타이머 중지 이벤트. 타이머를 중지하는 Analytics 이벤트들을 쉼표로 구분한 문자열입니다.
 * **`res`** (필수, 부울): 타이머 재설정 옵션. 타이머가 시작된 이후의 시간을 기록하고 타이머가 중지된 후에 재설정하려면 `true`로 설정하십시오. 시간을 기록하되 타이머를 중지하지 않으려면 `false`로 설정하십시오. `false`로 설정하면 이벤트 변수가 중지 이벤트를 기록한 후에도 타이머가 계속 실행됩니다.
-   >[!TIP] 이 인수를 `false`로 설정하면 아래의 `rte` 인수를 설정하는 것이 좋습니다.
+
+   >[!TIP]
+   >
+   >이 인수를 `false`로 설정하면 아래의 `rte` 인수를 설정하는 것이 좋습니다.
 * **`cn`** (선택 사항, 문자열): 첫 번째 이벤트의 시간이 저장되는 쿠키 이름입니다. 기본값은 `"s_tbe"`입니다.
 * **`etd`** (선택 사항, 정수): 일 단위의 쿠키 만료 시간입니다. 브라우저 세션이 끝날 때 만료되도록 하려면 `0`으로 설정하십시오. 설정하지 않으면 기본값이 1일로 설정됩니다.
 * **`fmt`** (선택 사항, 문자열): 초 수가 반환되는 시간 형식(기본값은 nothing)입니다.
