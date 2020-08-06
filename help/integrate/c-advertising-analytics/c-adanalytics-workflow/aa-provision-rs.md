@@ -3,7 +3,7 @@ description: 'null'
 title: Advertising Analytics용 보고서 세트 활성화
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
@@ -23,7 +23,9 @@ Analytics에서 Advertising Analytics 검색 데이터를 보려면 Advertising 
 
    ![보고](assets/aa_reporting.png)
 
-   >[!IMPORTANT] AMO ID는 검색 데이터를 삽입할 Adobe Advertising Cloud 변수를 참조합니다.
+   >[!IMPORTANT]
+   >
+   >AMO ID는 검색 데이터를 삽입할 Adobe Advertising Cloud 변수를 참조합니다.
 
 1. AMO ID 변수에 사용할 변수 할당 및 만료를 설정합니다. Adobe Analytics에서 전환 변수(eVar)를 사용하면 성공 이벤트를 특정 변수 값에 의한 것으로 처리할 수 있습니다. 때때로 변수에서 성공 이벤트를 생성하기 전에 두 개 이상의 값을 받을 수 있습니다. 이런 경우, 해당 이벤트에 대해 크레딧을 받는 변수 값은 할당이 결정합니다.
 
