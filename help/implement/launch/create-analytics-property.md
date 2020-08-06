@@ -2,10 +2,10 @@
 title: Launch에서 Analytics 속성 만들기
 description: Adobe Experience Platform Launch를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -36,18 +36,21 @@ Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experi
 데이터 요소는 변수 값을 수집하기 위한 사이트의 특정 부분에 대한 참조입니다.
 
 1. [launch.adobe.com](https://launch.adobe.com)으로 이동한 후 메시지가 나타나면 로그인합니다.
-2. 사이트에서 구현할 Launch 속성을 클릭합니다.
-3. 데이터 요소 탭을 클릭한 다음 새 데이터 요소 만들기를 클릭합니다.
-4. 데이터 요소에 다음 설정을 지정합니다.
+1. 사이트에서 구현할 Launch 속성을 클릭합니다.
+1. 데이터 요소 탭을 클릭한 다음 새 데이터 요소 만들기를 클릭합니다.
+1. 데이터 요소에 다음 설정을 지정합니다.
+
    * 이름: 페이지 이름
    * 확장: 핵심
    * 데이터 요소 유형: JavaScript 변수
    * 변수 경로: `window.document.title`
 
-      >[!NOTE] 참고: 시작하는 데 도움이 되는 예제 값입니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
+      >[!NOTE]
+      >
+      >시작하는 데 도움이 되는 예제 값입니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
    * 텍스트 정리 선택
    * 기간: 페이지 보기
-5. 저장을 클릭합니다.
+1. 저장을 클릭합니다.
 
 ## Adobe Analytics에 대한 규칙 만들기
 
