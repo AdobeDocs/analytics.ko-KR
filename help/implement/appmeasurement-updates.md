@@ -3,10 +3,10 @@ title: JavaScript 릴리스 노트의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,25 +23,25 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 릴리스 날짜: **2020년 6월 24일**
 
-* Activity Map linkExclusions 필터가 Firefox에 항상 적용되지 않는 문제가 해결되었습니다.
+* Activity Map linkExclusions 필터가 Firefox에 대해 항상 적용되지 않던 문제를 해결했습니다.
 
 ## 버전 2.20.0
 
 릴리스 날짜: **2020년 3월 5일**
 
-* JSLint 경고를 표시하지 않도록 Internet Explorer 검색을 업데이트하여 보안 관련 문제를 해결했습니다.
+* JSLint 경고를 표시하지 않도록 Internet Explorer 감지를 업데이트하여 보안 관련 문제를 해결했습니다.
 
 ## 버전 2.19.0
 
 릴리스 날짜: **2020년 2월 21일**
 
-* 대상 관리 모듈이 DIL 9.4로 업데이트되었습니다. (AN-209341)
+* 대상자 관리 모듈이 DIL 9.4로 업데이트되었습니다. (AN-209341)
 
 ## 버전 2.18.0
 
 릴리스 날짜: **2020년 2월 13일**
 
-* 이제 AppMeasurement는 변수를 설정하여 쿠키가 Secure 속성을 포함하도록 할 수 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 있습니다. 이 변수에 대한 요구 사항은 전체 클라이언트 웹 사이트가 안전한(HTTPS)으로 제공된다는 것입니다. (AN-204604)
+* 이제 AppMeasurement는 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 변수를 설정하여 쿠키가 보안 속성을 포함하도록 강제할 수 있습니다. 이 변수에 대한 요구 사항은 전체 클라이언트 웹 사이트가 안전하게(HTTPS) 제공되는 것입니다. (AN-204604)
 
 ## 버전 2.17.0
 
@@ -84,7 +84,7 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 
 릴리스 날짜: **2019년 2월 22일**
 
-* 대상 관리 모듈이 DIL 9.1로 업데이트되었습니다. (AN-175255)
+* 대상자 관리 모듈이 DIL 9.1로 업데이트되었습니다. (AN-175255)
 * GTM 보안 정책이 Activity Map 모듈을 허용하지 않습니다. (AN-174679)
 * ID 서비스가 옵트인에서 승인되지 않은 경우 옵트아웃을 허용하도록 AppMeasurement가 개선되었습니다. (AN-175259)
 
@@ -356,7 +356,9 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 * 방문자 API에 필요한 값이 아직 없을 경우 링크 onclick 함수에서 s.t가 호출될 때 이중 페이지 보기 카운트를 초래하던 문제를 수정했습니다.
 * HTTP POST 지원.
 
-   >[!IMPORTANT] [!DNL Analytics] 호출이 [!DNL AppMeasurement]에서 GET 메서드([IE의 잘린 URL](https://helpx.adobe.com/kr/analytics/kb/shortening-image-request-urls.html)을 해결하는 메서드) 대신 POST 메서드를 사용하도록 하려면 Experience Cloud에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
+   >[!IMPORTANT]
+   >
+   > [!DNL Analytics] 호출이 [!DNL AppMeasurement]에서 GET 메서드([IE의 잘린 URL](https://helpx.adobe.com/kr/analytics/kb/shortening-image-request-urls.html)을 해결하는 메서드) 대신 POST 메서드를 사용하도록 하려면 Experience Cloud에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
 
 ## 버전 1.4
 
