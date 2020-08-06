@@ -2,7 +2,7 @@
 title: H 코드 JavaScript 구현 개요
 description: 사이트에서 H 코드를 구현하는 워크플로우에 대해 알아봅니다.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
@@ -25,12 +25,14 @@ ht-degree: 100%
 1. **코어 JS 파일 변수 업데이트**: `s_code.js` 파일을 편집하고 다음 변수가 업데이트되었는지 확인합니다.
    * `s_account`에는 전송하는 데이터를 받을 보고서 세트 ID가 포함되어 있습니다. 참조
    * `s.trackingServer`에는 위치 쿠키가 저장되어 있습니다. [trackingServer](../../vars/config-vars/trackingserver.md)를 참조하십시오.
-2. **사이트에서`s_code.js`파일 호스팅**: 이 파일은 일반적으로 웹 서버에 다른 스크립트와 함께 있습니다.
-3. **모든 페이지에서`s_code.js`참조**: 모든 개별 페이지가 코어 JavaScript 파일을 호출하고 HTML `<body>` 태그(`<head>` 태그 아님) 내에서 호출하는지 확인하십시오.
+1. **사이트에서`s_code.js`파일 호스팅**: 이 파일은 일반적으로 웹 서버에 다른 스크립트와 함께 있습니다.
+1. **모든 페이지에서`s_code.js`참조**: 모든 개별 페이지가 코어 JavaScript 파일을 호출하고 HTML `<body>` 태그(`<head>` 태그 아님) 내에서 호출하는지 확인하십시오.
 
-   >[!TIP] H 코드를 사용하려면 `s_code.js` 스크립트가 `<body>` 태그 내에 호출되어 있어야 합니다. 이는 다른 구현 메서드와 다르며, 대부분은 스크립트 참조가 `<head>` 태그에 있어야 합니다.
-4. **각 페이지에서 페이지별 변수 정의**: 각 페이지에는 페이지 이름이나 eVar와 같은 개별 변수가 정의되어 있어야 합니다. 개별 변수는 일반적으로 각 페이지에서 인라인 `<script>` 태그로 정의됩니다.
-5. **디버거를 사용하여 데이터 수집 확인**: [Experience Cloud Debugger](../../validate/debugger.md)를 다운로드하고 설치하여 데이터가 Adobe에 전송되고 페이지 변수가 올바로 정의되어 있는지 확인합니다.
+   >[!TIP]
+   >
+   >H 코드를 사용하려면 `s_code.js` 스크립트가 `<body>` 태그 내에 호출되어 있어야 합니다. 이는 다른 구현 메서드와 다르며, 대부분은 스크립트 참조가 `<head>` 태그에 있어야 합니다.
+1. **각 페이지에서 페이지별 변수 정의**: 각 페이지에는 페이지 이름이나 eVar와 같은 개별 변수가 정의되어 있어야 합니다. 개별 변수는 일반적으로 각 페이지에서 인라인 `<script>` 태그로 정의됩니다.
+1. **디버거를 사용하여 데이터 수집 확인**: [Experience Cloud Debugger](../../validate/debugger.md)를 다운로드하고 설치하여 데이터가 Adobe에 전송되고 페이지 변수가 올바로 정의되어 있는지 확인합니다.
 
 ## 캐시
 
