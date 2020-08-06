@@ -3,7 +3,7 @@ description: 데이터 개인 정보 보호에서 개인 정보 보호 보고를
 title: 개인 정보 보호 보고 변수
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -45,7 +45,9 @@ Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설�
 
 1. **[!UICONTROL 데이터 개인 정보 보고서 활성화]** 단추를 클릭합니다.
 
-   >[!NOTE] 이러한 변수를 활성화하면 해제할 수 없습니다.
+   >[!NOTE]
+   >
+   >이러한 변수를 활성화하면 해제할 수 없습니다.
 
    ![](assets/rsm-privacy-enable.png)
 
