@@ -2,7 +2,7 @@
 title: CDA 작업 공간 템플릿
 description: Analysis Workspace 내의 CDA 템플릿의 각 필드에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 97%
@@ -22,7 +22,7 @@ Adobe는 중요한 교차 장치 성능 데이터를 볼 수 있는 템플릿을
 
 여러 패널이 포함된 Analysis Workspace 프로젝트가 만들어집니다. 맨 위에는 컨텐츠와 소개 표가 표시되어 보고서에 대한 컨텍스트와 개별 보고서에 대한 탐색을 허용할 수 있습니다. 목차 내의 링크를 클릭하거나 패널의 아코디언을 확장하여 그러한 보고서를 봅니다.
 
-<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
+<!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **공동 작업 그래프의 구성원에 대한 특수 참고**: 공동 작업 그래프가 지원되는 지역과 지원되지 않는 지역에 방문자가 포함된 보고서 세트의 부분을 표시합니다.
 * **사용자 식별**: 교차 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
