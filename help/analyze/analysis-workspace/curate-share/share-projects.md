@@ -2,11 +2,11 @@
 description: 작업 공간의 프로젝트 공유 및 프로젝트 역할
 keywords: Analysis Workspace sharing
 title: 작업 공간 프로젝트 공유
-translation-type: ht
-source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ### 할당된 역할 없음(프로젝트 링크 수신자)
 
-수신자에게 역할이 할당되지 않고 프로젝트에 대한 링크를 받은 경우(**[!UICONTROL 공유]>[!UICONTROL 프로젝트 링크 가져오기]**) 기본적으로 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다.
+If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다.
 
 ### 여러 역할 할당
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 ## 프로젝트 링크 공유 {#Links}
 
-**[!UICONTROL 공유]>[!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다.
+**[!UICONTROL 공유]>[!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다. [작업 공간 프로젝트에 공유 가능한 링크를 만드는 방법에 대해 자세히](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 알아보십시오.
 
 ## 프로젝트 관리자에서 프로젝트 공유 {#Manager}
 
