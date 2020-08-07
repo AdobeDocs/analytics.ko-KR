@@ -16,7 +16,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 
-> **[!UICONTROL Tools]** 을 **[!UICONTROL Settings]** 클릭하여 액세스합니다 [!UICONTROL Global Settings].
+**[!UICONTROL Tools]** 을 > **[!UICONTROL Settings]** 클릭하여 액세스합니다 [!UICONTROL Global Settings].
 
 ## 일반 설정 탭 - 정의를 참조하십시오{#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
