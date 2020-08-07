@@ -2,9 +2,9 @@
 description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 ### 여정 IQ: 장치 간 분석 템플릿
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 이 템플릿을 사용하면 중요한 장치 간 성능 데이터를 볼 수 있습니다. CDA([Cross-Device Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html))에 액세스할 수 있는 고객에게만 제공됩니다.
 
