@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 필터 정의 - 값 및 특수 문자 {#section_15840216A4044C40974945FAA435AD93}
 
-> **[!UICONTROL Most Popular Filter]** **[!UICONTROL Define Filter]** 패널의 필터에 대한 정보입니다.
+**[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** 패널의 필터에 대한 정보입니다.
 
 ![](assets/define_filter.png)
 
