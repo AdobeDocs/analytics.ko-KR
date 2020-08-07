@@ -2,10 +2,10 @@
 description: PDF 및 CSV 형식으로 저장된 프로젝트와 저장되지 않은 프로젝트를 다운로드할 수 있습니다.
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ PDF 또는 CSV 파일 이름이 프로젝트의 현재 이름과 일치합니다
 * 숫자가 올바르지 않으면 빈 셀이 표시됩니다.
 * 반올림은 적용되지 않습니다(계산된 지표에 지정된 경우라도). 원시 값이 표시됩니다.
 
->[!N참고:]
+>[!NOTE]
 >
-> 쉼표를 소수점 구분 기호로 사용하는 숫자 값은 내보낸 CSV에서 계속 따옴표로 표시됩니다.
+>쉼표를 소수점 구분 기호로 사용하는 숫자 값은 내보낸 CSV에서 계속 따옴표로 표시됩니다.
