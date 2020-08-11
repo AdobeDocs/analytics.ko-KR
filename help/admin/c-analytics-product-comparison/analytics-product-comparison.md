@@ -2,7 +2,7 @@
 description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 translation-type: tm+mt
-source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
+source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # Analytics 제품 비교 및 요구 사항
 
-이 페이지에는 다양한 Adobe Analytics 제품 비교가 포함되어 있습니다. Analysis Workspace, 보고 및 Analytics, Report Builder, Data warehouse, Data Workbench, 데이터 피드 및 Analytics API 2.0
+이 페이지에는 다양한 Adobe Analytics 제품 비교가 포함되어 있습니다.Analysis Workspace, 보고 및 분석, Report Builder, Data Warehouse, Data Workbench, 데이터 피드 및 분석 API 2.0
 
 사용할 Adobe Analytics 제품에 대해 알아보려면.[여기](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)로 이동합니다.
 
