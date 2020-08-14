@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 07652c76120fae6b3e7b10bbe55b84a9cfe8b8c7
+source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
    + 작업 공간 프로젝트 작성 {#build-workspace-project}
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [작업 공간 프로젝트 만들기](analysis-workspace/build-workspace-project/t-freeform-project.md)
+      + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Workspace의 여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 열 및 행 설정 {#column-row-settings}
