@@ -5,10 +5,10 @@ title: 분류 규칙 - 정의
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 100%
+source-wordcount: '878'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 및 변수 선택 </p> </td> 
-   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p>예를 들어, <span class="term">페이지</span>를 규칙 세트에 변수로 사용할 수 있도록 하려면, 보고서 세트에 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/traffic-classifications.html"  >트래픽 분류</a>가 <span class="term">페이지</span>에 대해 구현되어 있는지 확인하십시오. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span>(또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/traffic-classifications.html"  >트래픽 분류</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >전환 분류</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span>(또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >트래픽 분류</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >전환 분류</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 활성화</span> </p> </td> 
