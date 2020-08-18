@@ -4,7 +4,10 @@ title: 사용자 지정 달력
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 양력 모델이 아닌 달력 옵션입니다. 해당 옵션에는 4-4-5, 4-5-4 및 5-4-4 달력 모델이 있으며 모든 모델이 소매 산업의 표준으로 사용됩니다. 또한 보고 기능은 사용자가 모든 항목을 직접 설정할 수 있는 사용자 지정 가능 달력 옵션을 제공합니다.
 
-**[!UICONTROL 관리]** >**[!UICONTROL 보고서 세트]** > **[!UICONTROL [보고서 세트 선택]]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 사용자 지정 달력]**
+**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > 보고서 **[!UICONTROL 세트 선택]** > 설정 **[!UICONTROL 편집]** > 일반 **[!UICONTROL > 사용자 지정 달력]**
 
 >[!CAUTION]
 >
