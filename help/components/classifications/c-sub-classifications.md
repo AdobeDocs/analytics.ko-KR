@@ -5,7 +5,7 @@ title: 하위 분류 정보
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지�
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
- 데이터 파일에 대한 자세한 내용은 [분류 데이터 파일](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)을 참조하십시오.
+ 데이터 파일에 대한 자세한 내용은 [분류 데이터 파일](/help/components/classifications/importer/c-saint-data-files.md)을 참조하십시오.
 
 복수 수준 분류는 상위 및 하위 분류로 구성되어 있습니다. 예:
 
@@ -46,7 +46,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지�
 
 `<parent_name>^<child_name>`
 
-데이터 파일 형식에 대한 자세한 내용은 [분류 데이터 파일](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)을 참조하십시오.
+데이터 파일 형식에 대한 자세한 내용은 [분류 데이터 파일](/help/components/classifications/importer/c-saint-data-files.md)을 참조하십시오.
 
 예:
 
