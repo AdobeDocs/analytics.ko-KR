@@ -3,7 +3,10 @@ description: 개별 지표에 대한 세그먼트화는 동일한 보고서 내�
 title: 세그먼트화된 지표
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -28,11 +31,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    >[!NOTE]
    >
-   >[세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)에서도 이 작업을 수행할 수 있지만 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로우를 간소화했습니다.
+   >[세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)에서도 이 작업을 수행할 수 있지만 계산된 지표 빌더에서 차원을 사용 가능하도록 설정하여 워크플로우를 간소화했습니다.
 
    >[!NOTE]
    >
-   >&quot;Internal&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the &quot;i&quot; icon next to it and clicking **[!UICONTROL Make public]**.
+   >&quot;내부&quot;는 세그먼트가 왼쪽 레일의 **[!UICONTROL 세그먼트]** 목록에 표시되지 않음을 의미합니다. 그러나 그 옆에 있는 &quot;i&quot; 아이콘 위에 마우스를 올려놓고 **[!UICONTROL 공개하기]**&#x200B;를 클릭하여 공개할 수 있습니다.
 
 1. 비교 가능한 세그먼트가 없을 경우에는 &quot;해외 방문자&quot;라는 세그먼트를 만드십시오. 여기서 &quot;국가&quot;는 &quot;독일&quot;과 같지 않습니다.
 1. 독일 방문자 세그먼트를 [정의] 캔버스로 드래그하고 고유 방문자 수 지표를 그 안에 드래그하여 &quot;미국 방문자&quot;라는 지표를 만들고 저장하십시오.
@@ -44,7 +47,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. 혹은 [!UICONTROL Reports &amp; Analytics]에서 [!UICONTROL 페이지] 보고서를 열고 **[!UICONTROL 지표 표시]**&#x200B;를 클릭한 다음, 새 미국 방문자와 해외 방문자로 세그먼트화된 지표들을 적용하여 컨텐츠 탐색 행동이 어떻게 비교되는지 보십시오.
 
    ![](assets/pages-report.png)
 
@@ -65,7 +68,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 미국 방문자의 탐색 행동과 해외 방문자의 탐색 행동 간의 가장 큰 차이를 한눈에 보려는 경우, 서로 백분율을 빼는 다른 지표를 만들 수 있습니다. 그렇게 하려면, 두 지표 세트를 둘러싸는 괄호로서 효과적으로 동작하는 컨테이너 기능을 사용할 수 있습니다.
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** > **[!UICONTROL Container]**:
+1. [!UICONTROL 정의] 캔버스에서 **[!UICONTROL 추가]** > **[!UICONTROL 컨테이너]**&#x200B;를 클릭하십시오.
 
    ![](assets/cm_add_container.png)
 
