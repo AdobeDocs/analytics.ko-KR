@@ -3,10 +3,10 @@ description: 라인 시각화를 사용하여 트렌드(시간 기반) 데이터
 title: 라인
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 78ed02b7bb7a4dc042c837817d36fc8ce30dce79
+source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '446'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
-> 트렌드 라인 추가와 같은 일부 라인 시각화 설정이 현재 제한된 테스트에 있습니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html).
+> 트렌드라인 표시와 같은 일부 라인 시각화 설정이 현재 제한된 테스트에 있습니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html).
 
 라인 시각화의 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하여 [**시각화 설정에**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) 액세스합니다. 설정은 다음과 같이 분류됩니다.
 
@@ -29,11 +29,15 @@ ht-degree: 17%
 
 ### 세부기간 변경
 
-[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)의 세부기간 드롭다운을 사용하면 트렌드 시각화(예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
+[시각화 설정](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)의 세부기간 드롭다운을 사용하면 트렌드 시각화(예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다. 세부기간은 데이터 소스 테이블에서도 업데이트됩니다.
 
-### 트렌드 오버레이 추가
+### 최소 또는 최대 표시
 
-시각화 **설정 > 오버레이 > 트렌드**&#x200B;추가 아래에서 회귀 트렌드를 라인 시리즈에 추가하도록 선택할 수 있습니다. 트렌드라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다.
+시각화 **설정 > 오버레이 > 최소/최대**&#x200B;표시에서 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점 및 계율을 빠르게 강조 표시할 수 있습니다.
+
+### 트렌드 오버레이 표시
+
+시각화 **설정 > 오버레이 > 트렌드**&#x200B;표시 아래에서 회귀 트렌드를 라인 시리즈에 추가하도록 선택할 수 있습니다. 트렌드라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다.
 
 모든 모델은 보통 최소 제곱을 사용하여 적합합니다.
 
