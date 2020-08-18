@@ -4,7 +4,10 @@ title: 세그먼트 작성
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 94%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Ad Hoc Analysis는 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성하고, 공유하고, 관리하고, 적용할 수 있습니다. Ad Hoc Analysis는 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용의 Java 기반 사용자 인터페이스를 제공하여, 일치하는 서버 호출을 찾고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
 
-Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 관리 [워크플로우](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)를 설정하는 데 사용되는 [세그먼트 관리자](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html)와 같은 새로운 기능 업그레이드가 포함됩니다. 또한 [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)에서 세그먼트를 작성하고 저장하거나 Ad Hoc Analysis 콘솔에서 [폴아웃 보고서로부터 세그먼트를 생성](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)한 다음, 새 세그먼트나 확장된 세그먼트를 일반적인 액세스 및 애플리케이션용의 대상 라이브러리에 저장할 수 있습니다. ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 관리 [워크플로우](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)를 설정하는 데 사용되는 [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html)와 같은 새로운 기능 업그레이드가 포함됩니다. 또한 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)에서 세그먼트를 작성하고 저장하거나 Ad Hoc Analysis 콘솔에서 [폴아웃 보고서로부터 세그먼트를 생성](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)한 다음, 새 세그먼트나 확장된 세그먼트를 일반적인 액세스 및 애플리케이션용의 대상 라이브러리에 저장할 수 있습니다. ![](assets/seg__overview_ad_hoc.png)
 
 ## Ad Hoc Analysis에서의 통합 세그멘테이션 {#section_5FA03A06DE054448AD519CE30C39E294}
 
-애드혹 분석 기능을 포함하는 통합 세그멘테이션 환경에서 세그먼트를 작성하고 관리하는 방법에 대한 정보 및 지침은 [통합 세그멘테이션](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) 설명서를 참조하십시오.
+애드혹 분석 기능을 포함하는 통합 세그멘테이션 환경에서 세그먼트를 작성하고 관리하는 방법에 대한 정보 및 지침은 [통합 세그멘테이션](/help/components/segmentation/segmentation-workflow/seg-build.md) 설명서를 참조하십시오.
 
 * [새로운 기능](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [기존 세그먼트에 발생한 결과](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
@@ -33,8 +36,8 @@ Ad Hoc Analysis에는 익숙한 세그먼트 작성용 기능과 세그먼트 �
 ## 기능 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * [세그먼트](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)는 모든 보고서 세트에 범용입니다. 이전에는 세그먼트가 보고서 세트별로 달랐습니다.
-* [세그먼트 관리자](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)를 설정할 수 있습니다.
-* [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)가 세그먼트 생성을 간소화하도록 업데이트되었습니다.
+* [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)를 설정할 수 있습니다.
+* [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)가 세그먼트 생성을 간소화하도록 업데이트되었습니다.
 * [세그먼트를 태그 지정](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. 이전에는 폴더([!DNL ad hoc analysis])를 사용하여 세그먼트를 구성했습니다.
 * Ad Hoc Analysis 외부에서 [순차적 세그먼트](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)를 만들 수 있습니다.
 
@@ -66,7 +69,7 @@ Ad Hoc Analysis 세그먼트 관리자 내에서 사용자는 사용자에게 �
 
 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
-관리자는 세그먼트를 편집하고, 그룹과 [세그먼트를 공유](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)하고, 조직의 세그먼트에 액세스할 [권한을 설정](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html)할 수 있습니다.
+관리자는 세그먼트를 편집하고, 그룹과 [세그먼트를 공유](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)하고, 조직의 세그먼트에 액세스할 [권한을 설정](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segment-reference/seg-rights.html)할 수 있습니다.
 
 ## 이름은 같지만 정의는 다른 중복 세그먼트가 있는 경우 어떻게 해야 합니까? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
