@@ -3,11 +3,11 @@ description: Analytics 관리자가 Activity Map 링크 컬렉션 및 사용자 
 title: Activity Map 활성화
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다(파일의 맨
 
 먼저, 보고서 세트 수준에서 Activity Map 보고서를 활성화해야 합니다.
 
-1. Adobe Analytics에 로그인하고 **[!UICONTROL Analytics]** > **[!UICONTROL 관리> 보고서 세트 >[보고서 세트 선택]> 설정 편집 > Activity Map]**>**[!UICONTROL  Activity Map 보고&#x200B;]**로 이동합니다.
+1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 1. Activity Map에서는 Activity Map 보고서에 있는 링크 데이터를 수집합니다. 활성화가 수행되도록 하려면, **[!UICONTROL Activity Map 보고서 활성화]**&#x200B;를 클릭하여 변수를 먼저 활성화합니다.
 
    이 단계에서는 데이터를 수집하는 데 필요한 모든 Analytics 차원이 추가됩니다.
