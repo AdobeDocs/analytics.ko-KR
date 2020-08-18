@@ -5,7 +5,7 @@ title: 분류 정보
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Reports &amp; Analytics에는 추적 코드 변수를 위해 사전 정의된 �
 
 [트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)를 참조하십시오.
 
-다음 표는 사용 가능한 분류의 다양한 유형과 각 분류를 지원하는 변수 유형을 나타냅니다. 데이터 파일을 업로드하기 전에 [일반 파일 구조](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)의 정보를 검토하십시오.
+다음 표는 사용 가능한 분류의 다양한 유형과 각 분류를 지원하는 변수 유형을 나타냅니다. 데이터 파일을 업로드하기 전에 [일반 파일 구조](/help/components/classifications/importer/c-saint-data-files.md)의 정보를 검토하십시오.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
