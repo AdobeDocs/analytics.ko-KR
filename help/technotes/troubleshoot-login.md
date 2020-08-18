@@ -2,45 +2,59 @@
 title: Adobe Analytics 로그인 문제 해결
 description: Adobe Analytics에 로그인할 수 없을 때 수행되는 단계입니다.
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 5%
+source-wordcount: '511'
+ht-degree: 3%
 
 ---
 
 
 # Adobe Analytics 로그인 문제 해결
 
-Adobe Analytics은 Adobe ID을 사용하여 Experience Cloud에 인증합니다.
+Adobe Analytics은 여러 인증 방법을 사용하여 로그인합니다.
 
-정기적으로 Analytics에 액세스하고 로그인 문제가 발생하는 경우 브라우저의 쿠키 및 캐시를 지우면 이러한 문제가 대부분 해결됩니다.
+* Adobe ID의 Experience Cloud
+* 기존 분석 ID
+* 단일 사인온
 
-## experience.adobe.com에 액세스
+**Analytics에 정기적으로 액세스하고 로그인 문제가 발생하는 경우 브라우저의 쿠키 및 캐시를 지우면 대부분의 문제가 해결됩니다.**
 
-experience.adobe.com [으로 이동합니다](https://experience.adobe.com).
+종종 사용 가능한 문제가 로그인 기능에 영향을 줄 수 있습니다. 상태 [가 열려 있는지](https://status.adobe.com) 확인합니다. 그렇지 않으면 조직의 인증 방법에 따라 적절한 섹션을 사용하십시오.
 
-이 사이트에 액세스할 수 없는 경우:
+## Adobe ID
 
-* 조직에서 방화벽을 통해 이 도메인을 허용하지 않을 수 있습니다. 조직의 IT 팀과 공동 작업하여 가능합니다. IT [팀에 제공하는 유용한 정보는 Adobe Experience Cloud](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html) 에서 사용되는 IP 및 도메인을 참조하십시오.
-* status.adobe.com [](https://status.adobe.com) 에서 사용 가능한 문제가 없는지 확인하십시오.
+Experience Cloud을 사용하여 Adobe Analytics에 로그인하는 문제 해결
 
-## Adobe ID을 사용하여 인증
+1. experience.adobe.com [으로 이동합니다](https://experience.adobe.com). 이 사이트에 액세스할 수 없는 경우 조직에서 방화벽을 통해 이 도메인을 허용하지 않을 수 있습니다. 조직의 IT 팀과 공동 작업하여 가능합니다. IT [팀에 제공하는 유용한 정보는 Adobe Experience Cloud](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html) 에서 사용되는 IP 및 도메인을 참조하십시오.
 
-**[!UICONTROL Adobe ID로 로그인]**&#x200B;을 클릭합니다.
+2. Adobe ID을 사용하여 인증:Adobe ID으로 **[!UICONTROL 로그인을 클릭합니다]**. 로그인할 수 없는 경우 이메일 주소가 올바르게 입력되었는지 다시 확인하십시오. 그렇지 않은 경우 **[!UICONTROL 암호]** 재설정을 클릭하고 프롬프트에 따라 Adobe ID 암호를 재설정합니다.
 
-로그인할 수 없는 경우:
+3. 인증 후 분석 액세스:오른쪽 상단의 9그리드 아이콘을 클릭한 다음 분석을 클릭합니다. 이 옵션이 없거나 회색으로 표시되면 조직 내의 제품 관리자와 함께 Analytics에 액세스할 수 있는 올바른 권한이 있는지 확인하십시오.
 
-* 이메일 주소가 올바르게 입력되었는지 다시 확인하십시오.
-* 암호 **[!UICONTROL 재설정을]** 클릭하고 프롬프트에 따라 Adobe ID을 재설정합니다.
+## 기존 분석 ID
 
-## 인증 후 Analytics에 액세스할 수 없음
+조직의 사용자가 로그인할 때 다음과 같은 오류 메시지가 표시되는 경우가 있습니다.
 
-오른쪽 상단에 있는 9그리드 아이콘을 클릭한 다음 Analytics을 클릭합니다.
+*보안 규정에 따라, 로그인 시도가 너무 많아 이 계정이 잠겼습니다.*
 
-이 옵션이 없거나 회색으로 표시되면 조직 내의 제품 관리자와 함께 Analytics에 액세스할 수 있는 올바른 권한이 있는지 확인하십시오.
+브라우저의 쿠키/캐시를 지워도 문제가 해결되지 않는 경우 조직의 Analytics 관리자에게 문의하여 사용자의 암호를 재설정하십시오.
 
-## 기타 Edge-case 로그인 문제
+>[!IMPORTANT]
+>
+>사용자 암호를 재설정하는 다음 단계는 기존 Analytics ID에만 적용되며 Adobe ID은 적용되지 않습니다.조직에서 Adobe ID 계정을 사용하는 경우 adminconsole.adobe.com에서 사용자 계정을 관리할 수 [있습니다](https://adminconsole.adobe.com).
+
+1. 관리 권한이 있는 계정으로 Adobe Analytics에 로그인합니다.
+2. 관리 **** > **[!UICONTROL 사용자 관리로]**&#x200B;이동합니다.
+3. 사용자 **[!UICONTROL 탭을]** 클릭한 다음 원하는 사용자 **[!UICONTROL 옆의]** 편집을클릭합니다.
+4. 암호를 모든 값으로 변경하고 [다음 로그인 **[!UICONTROL 에 사용자가 암호를 변경하도록 요구] 확인란을 선택합니다]**.
+5. 사용자에게 새 암호를 알립니다.
+
+## 단일 사인온
+
+Single Sign-On 문제를 해결하려면 조직의 관리자에게 문의하십시오.
+
+## 기타 로그인 문제
 
 위 단계 중 아무 것도 작동하지 않는 경우 로그인 문제의 폭을 결정합니다.
 
