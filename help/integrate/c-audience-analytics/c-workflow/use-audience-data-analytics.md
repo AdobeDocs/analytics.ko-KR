@@ -3,8 +3,11 @@ description: 'Analytics 전체에서 AAM 대상 차원을 사용할 수 있습�
 solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +72,7 @@ AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해
 
 ## 세그먼트 빌더 {#section_2AA81852A1404AB894472CA8959461B6}
 
-Analytics에서 수집한 동작 정보와 함께 Analytics [세그먼트 빌더](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)에서 대상 차원을 통합할 수 있습니다.
+Analytics에서 수집한 동작 정보와 함께 Analytics [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)에서 대상 차원을 통합할 수 있습니다.
 
 1. **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;로 이동합니다 .
 1. **[!UICONTROL 추가]**&#x200B;를 클릭하여 새 세그먼트를 만듭니다. 
