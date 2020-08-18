@@ -2,7 +2,7 @@
 description: Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
 translation-type: tm+mt
-source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -28,7 +28,7 @@ ht-degree: 54%
 | **표시 행 제한(페이지 매김 전)** | 400 | 200 | 50000 | 제한 없음 | 제한 없음 | 제한 없음 | 50000 |
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예, 제한 사항 | 예 | 아니오 | 예 | 아니오 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리 실행 |
-| **세그먼테이션** <br> [추가 정보](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | 예 | 예 | 예 | 예, [제한](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | 예 | 아니오 | 예 |
+| **세그먼테이션** <br> [추가 정보](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 예 | 예 | 예 | 예, [제한](/help/components/segmentation/seg-reference/seg-compatibility.md) | 예 | 아니오 | 예 |
 | **계산된 지표** <br> [추가 정보](/help/components/c-calcmetrics/cm-overview.md) | 예, [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 예 | 예 | 아니오 | 예 | 아니오 | 예, [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **마케팅 채널** <br> [추가 정보](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 예 | 예 | 예 | 예 | 예 | 예 - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 예 |
 | **집단 분석** | [예](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 아니오 | 아니오 | 아니오 | 예 | 아니오 | 아니오 |
