@@ -2,7 +2,7 @@
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 [![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) [Media Analytics 안내서](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) – 오디오 또는 비디오 소스에 대한 Analytics를 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench 안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 가이드 등이 포함되어 있습니다.
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) [Data Workbench 안내서](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 가이드 등이 포함되어 있습니다.
 
 [![TechNote](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics TechNote](/help/technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
@@ -69,7 +69,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
 *   [Mobile App SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)  
 *   [Real-time reporting](/help/components/c-real-time-reporting/realtime.md)
-*   [Segmentation](/help/components/c-segmentation/seg-home.md)
+*   [Segmentation](/help/components/segmentation/seg-home.md)
 *   [Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 *   [Video Tracking](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 *   [Virtual Report Suites](/help/components/vrs/vrs-about.md)
