@@ -5,10 +5,10 @@ user-guide-title: Analytics 구성 요소 안내서
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 97%
+source-wordcount: '612'
+ht-degree: 96%
 
 ---
 
@@ -219,11 +219,7 @@ ht-degree: 97%
    + [경고 관리자](c-alerts/alert-manager.md)
    + [지능형 경고 - 활용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
-   + [분류 정보](classifications/c-classifications.md)
-   + [하위 분류 정보](classifications/c-sub-classifications.md)
-   + [전환 분류](classifications/conversion-classifications.md)
-   + [트래픽 분류](classifications/traffic-classifications.md)
-   + [분류 계층](classifications/classification-hierarchies.md)
+   + [분류 개요](classifications/c-classifications.md)
    + Classifications importer {#classifications-importer}
       + [분류 가져오기 도구 - 개요](classifications/importer/c-working-with-saint.md)
       + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
@@ -242,6 +238,8 @@ ht-degree: 97%
       + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
       + [분류 규칙 - 정의](classifications/crb/classification-rule-definitions.md)
       + [하위 분류 및 규칙 빌더](classifications/crb/sub-classification-rule-builder.md)
+   + [하위 분류](classifications/c-sub-classifications.md)
+   + [분류 FAQ](classifications/faq.md)
 + [달력 이벤트](t-calendar-event.md)
 + 실시간 보고 {#real-time-reporting}
    + [실시간 보고 개요](c-real-time-reporting/realtime.md)
