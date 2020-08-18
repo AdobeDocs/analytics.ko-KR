@@ -5,7 +5,10 @@ title: 거래 및 고객 통합
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정할 수 있습니다.
 
-**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL [보고서 세트 선택]]** > **[!UICONTROL 편집 설정]** > **[!UICONTROL 일반]** > **[!UICONTROL 일반 계정 설정]**&#x200B;으로 이동합니다.
+Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
