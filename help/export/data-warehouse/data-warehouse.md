@@ -4,7 +4,7 @@ title: Data Warehouse 개요
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Data Warehouse는 개별적으로 예약하고 다운로드한 보고서를 한 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 사용 가능한 세그먼트</span> </td> 
-   <td colname="col2"> <p>복잡한 세그먼트를 검사 및 생성할 방문자 인구의 일부를 선택할 수 있도록 해줍니다. 사전 구성된 세그먼트를 로드하고 새 세그먼트를 만들고 추가 세그먼트를 작성하는 데 사용할 세그먼트 구성 요소를 라이브러리에 저장할 수 있습니다. </p> <p>이제 세그먼트를 스택할 수 있습니다. 여러 개의 세그먼트를 선택할 때 미리 보기 영역, 요청 관리자 및 요청 세부 사항 팝업에 쉼표로 구분된 이름 목록이 표시됩니다(예: Segment1, Segment2). </p> <p>자세한 내용은 <a href="/help/components/c-segmentation/seg-home.md">세그멘테이션 안내서</a>를 참조하십시오. </p> <p>참고: 세그먼트 필터와 분류를 동일한 Data Warehouse 보고서의 동일한 세그먼트에 포함할 수 없습니다. 그러면 오류가 발생합니다. </p> </td> 
+   <td colname="col2"> <p>복잡한 세그먼트를 검사 및 생성할 방문자 인구의 일부를 선택할 수 있도록 해줍니다. 사전 구성된 세그먼트를 로드하고 새 세그먼트를 만들고 추가 세그먼트를 작성하는 데 사용할 세그먼트 구성 요소를 라이브러리에 저장할 수 있습니다. </p> <p>이제 세그먼트를 스택할 수 있습니다. 여러 개의 세그먼트를 선택할 때 미리 보기 영역, 요청 관리자 및 요청 세부 사항 팝업에 쉼표로 구분된 이름 목록이 표시됩니다(예: Segment1, Segment2). </p> <p>자세한 내용은 <a href="/help/components/segmentation/seg-home.md">세그멘테이션 안내서</a>를 참조하십시오. </p> <p>참고: 세그먼트 필터와 분류를 동일한 Data Warehouse 보고서의 동일한 세그먼트에 포함할 수 없습니다. 그러면 오류가 발생합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 분류</span> </td> 
