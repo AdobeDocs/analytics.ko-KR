@@ -2,8 +2,11 @@
 description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단한 계산된 지표나 복잡한 고급 계산된 지표를 빌드하고 저장할 수 있습니다.
 title: 지표 작성
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
       <li id="li_A8815F2D8D284874AD701A7B103D82A3"><b>팀 이름</b>을 기반으로 하는 태그(예: 소셜 마케팅, 모바일 마케팅) </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>프로젝트</b> 태그(분석 태그)(예: 시작 페이지 분석) </li> 
       <li id="li_B4605470A7094026AC168420B64BBCC3"><b>카테고리</b> 태그: 남성용, 지역 </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>워크플로우</b> 태그: 승인용, 처리됨(특정 비즈니스 단위) </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>워크플로우 태그: 승인용, 처리됨(특정 비즈니스 단위)</b> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +105,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + 신규 </span> </td> 
-   <td colname="col3"> <p>새로운 세그먼트(<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >세그먼트 빌더</a>로 이동)와 같은 새 구성 요소를 만듭니다. </p> </td> 
+   <td colname="col3"> <p>새로운 세그먼트(<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >세그먼트 빌더</a>로 이동)와 같은 새 구성 요소를 만듭니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>구성 요소 검색 </p> </td> 
