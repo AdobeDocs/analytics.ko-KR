@@ -5,10 +5,10 @@ title: 분류 규칙 빌더 워크플로우
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 | 4단계: [세트에 분류 규칙을 추가합니다](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 조건을 분류에 일치시킨 다음 규칙에 적용할 작업을 지정합니다.  [규칙 처리 방법](/help/components/classifications/crb/classification-quickstart-rules.md)의 정보를 숙지하십시오. |
 | 5단계: [분류 규칙 세트를 테스트합니다](/help/components/classifications/crb/classification-quickstart-rules.md). | [!DNL Testing Page] | 초안 모드에서 규칙을 편집하여 유효성 확인을 위한 규칙을 테스트하려고 합니다. 초안 모드에서는 규칙을 실행할 수 없습니다.<br>이 단계는 [정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md)을 사용할 때 중요합니다. |
 | 6단계: [유효한 규칙을 활성화합니다](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 규칙이 유효하면 규칙 세트를 활성화합니다.  필요하면 기존의 키를 덮어쓸 수 있습니다. 자세한 내용은 [규칙 처리 방법](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| 7단계(선택 사항): [원치 않는 규칙을 삭제합니다](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 세트에서 원하지 않는 규칙을 삭제합니다.<br>참고: 규칙을 삭제해도 업로드된 분류 데이터는 삭제되지 않습니다.  분류된 데이터를 삭제해야 할 경우 [분류 데이터 삭제](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md)를 참조하십시오. |
+| 7단계(선택 사항): [원치 않는 규칙을 삭제합니다](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 세트에서 원하지 않는 규칙을 삭제합니다.<br>참고: 규칙을 삭제해도 업로드된 분류 데이터는 삭제되지 않습니다.  분류된 데이터를 삭제해야 할 경우 [분류 데이터 삭제](/help/components/classifications/importer/t-delete-classification-data.md)를 참조하십시오. |
 
 >[!NOTE]
 >
