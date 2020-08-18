@@ -3,7 +3,7 @@ title: 변수, 함수, 메서드 및 플러그인 개요
 description: 보고를 개선하기 위해 Adobe에 보내는 데이터에 포함할 수 있는 변수를 알아봅니다.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ JavaScript 변수에는 다음 문자와 문자열을 사용할 수 없습니다
 * 줄바꿈 (`0x0A`)
 * HTML 태그(예:`<b></b>` 또는 `&#153`)
 
-일부 변수에는 추가적인 제한 사항이나 구문 요구 사항이 있습니다. 예를 들어 `products` 변수는 세미콜론과 쉼표를 사용하여 제품과 카테고리를 구분합니다.
+일부 변수에는 추가적인 제한 사항이나 구문 요구 사항이 있습니다. 예를 들어 [`products`](page-vars/products.md) 변수는 세미콜론과 쉼표를 사용하여 제품과 카테고리를 구분합니다.
