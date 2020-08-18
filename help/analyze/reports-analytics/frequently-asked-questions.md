@@ -4,7 +4,7 @@ keywords: Troubleshooting Analytics
 title: FAQ
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -46,7 +46,7 @@ Apple 장치는 장치 버전이 아니라 사용자 에이전트 문자열에 �
 
 **값을 합할 때 보고서 하단의 합계가 일치하지 않는 이유는 무엇입니까?**
 
-차원 항목은 여러 위치에 종종 적용할 수 있습니다. 예를 들어 자정 또는 단일 주문에 속하는 여러 제품에 걸쳐 있는 방문 차원 항목은 적용 가능한 모든 라인 항목에 걸쳐 보고되지만 보고서의 합계에 중복 제거됩니다. 자세한 내용은 Analytics KB의 [라인 항목 합계와 보고서 합계 비교](https://helpx.adobe.com/kr/analytics/kb/sum-line-items-different-from-total.html)를 참조하십시오.
+Dimension 항목은 여러 곳에 적용될 수 있습니다.예를 들어 자정 또는 단일 주문에 속하는 여러 제품에 걸쳐 있는 방문 차원 항목은 적용 가능한 모든 라인 항목에 걸쳐 보고되지만 보고서의 합계에 중복 제거됩니다. 자세한 내용은 Analytics KB의 [라인 항목 합계와 보고서 합계 비교](https://helpx.adobe.com/kr/analytics/kb/sum-line-items-different-from-total.html)를 참조하십시오.
 
 **내 보고서 세트에 있는 특정 IP 주소에서 데이터를 제외하려면 어떻게 합니까?**
 
@@ -58,8 +58,8 @@ Apple 장치는 장치 버전이 아니라 사용자 에이전트 문자열에 �
 
 **세그멘테이션을 사용할 때 페이지 보기, 방문 또는 방문자 중 어떤 컨테이너를 사용해야 합니까?**
 
-사용하는 세그먼트 컨테이너는 데이터를 캡처하려는 범위에 따라 다릅니다. 페이지 보기 컨테이너는 세그먼트 기준과 일치하는 히트만 가져오므로 관련이 없는 방문 수 부분을 필터링하는 데 유용합니다. 방문 컨테이너는 하나 이상의 히트가 세그먼트 기준과 일치하는 방문의 모든 히트를 가져오므로 일반적으로 세션을 보는 데 유용합니다. 방문자 컨테이너는 히트가 세그먼트 기준과 일치하는 모든 방문 수를 가져오므로 사람을 보는 데 유용합니다. 분석가로서 가장 사용하기 좋은 세그먼트 컨테이너를 결정할 수 있습니다. 자세한 내용은 구성 요소 사용 안내서의 [세그멘테이션 개요](/help/components/c-segmentation/seg-overview.md)를 참조하십시오.
+사용하는 세그먼트 컨테이너는 데이터를 캡처하려는 범위에 따라 다릅니다. 페이지 보기 컨테이너는 세그먼트 기준과 일치하는 히트만 가져오므로 관련이 없는 방문 수 부분을 필터링하는 데 유용합니다. 방문 컨테이너는 하나 이상의 히트가 세그먼트 기준과 일치하는 방문의 모든 히트를 가져오므로 일반적으로 세션을 보는 데 유용합니다. 방문자 컨테이너는 히트가 세그먼트 기준과 일치하는 모든 방문 수를 가져오므로 사람을 보는 데 유용합니다. 분석가로서 가장 사용하기 좋은 세그먼트 컨테이너를 결정할 수 있습니다. 자세한 내용은 구성 요소 사용 안내서의 [세그멘테이션 개요](/help/components/segmentation/seg-overview.md)를 참조하십시오.
 
 **내 세그먼트가 Data Warehouse에 표시되지 않는 이유는 무엇입니까?**
 
-Data Warehouse의 고유한 처리 아키텍처로 인해 플랫폼은 경로 지정과 같은 일부 유형의 데이터를 처리하도록 최적화되지 않았습니다. 자세한 내용은 구성 요소 사용 안내서의 [Data Warehouse 세그먼트 호환성](/help/components/c-segmentation/seg-reference/seg-compatibility.md)을 참조하십시오.
+Data Warehouse의 고유한 처리 아키텍처로 인해 플랫폼은 경로 지정과 같은 일부 유형의 데이터를 처리하도록 최적화되지 않았습니다. 자세한 내용은 구성 요소 사용 안내서의 [Data Warehouse 세그먼트 호환성](/help/components/segmentation/seg-reference/seg-compatibility.md)을 참조하십시오.
