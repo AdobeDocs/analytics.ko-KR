@@ -5,7 +5,7 @@ title: 분류 규칙
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 100%
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * **보고서 세트**: 최소 1개의 보고서 세트를 선택할 때까지 분류를 선택할 수 없습니다. 규칙 세트를 만들고 변수를 할당할 때까지 보고서 세트를 적용할 수 없습니다.
 
-   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
+   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](/help/components/classifications/importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
 
 * **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. 자세한 내용은 [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
 ## 규칙이 키를 분류하지 않는 경우
 
-규칙을 활성화하면 기존 분류를 덮어쓸 수 있습니다. 다음과 같은 경우에는 분류 규칙이 [키](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)(변수)를 분류하지 않습니다.
+규칙을 활성화하면 기존 분류를 덮어쓸 수 있습니다. 다음과 같은 경우에는 분류 규칙이 [키](/help/components/classifications/importer/c-saint-data-files.md)(변수)를 분류하지 않습니다.
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
