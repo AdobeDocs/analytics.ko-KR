@@ -3,10 +3,10 @@ description: Ad Hoc Analysis를 시작합니다.
 title: 시작하기
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 보수 릴리스 이후 Java 7에서 Ad Hoc Analysis를 실행하도록 선택하면 Adobe는 Ad Hoc Analysis 구현을 더 이상 지원하지 않습니다.
+>2018년 7월 현재 Ad Hoc Analysis은 Java 8 이상만 지원합니다. Adobe은 Java 7 이하에서 Ad Hoc Analysis 실행을 지원하지 않습니다.
 
 * OpenGL 2.0을 지원하는 비디오 카드
 * 쿠키: 필수
@@ -80,13 +80,11 @@ c_sys_reqs.xml
 * JavaScript: 활성화
 * Java 버전: Java 1.7 이상 (위 참고 참조)
 
-   올바른 Java 버전이 설치되지 않은 경우 자동으로 설치됩니다. 호환되지 않는 Java 버전이 설치된 경우 Ad Hoc Analysis은 업데이트를 다운로드하고 설치 여부를 묻습니다.
+   올바른 Java 버전이 설치되지 않은 경우 자동으로 설치됩니다. 호환되지 않는 Java 버전이 설치되어 있는 경우 Ad Hoc Analysis은 업데이트를 다운로드하고 설치 여부를 묻습니다.
 
 ## Java 업그레이드 지침 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Ad Hoc Analysis는 2018년 7월부터 Java 8 이후 버전만 지원합니다. 2018년 7월 유지 보수 릴리스 이후 Java 7에서 Ad Hoc Analysis를 실행하도록 선택하면 Adobe는 Ad Hoc Analysis 구현을 더 이상 지원하지 않습니다.
-
-Adobe의 .jar 파일은 1.7.0_76 이하의 Java 버전에서 지원되지 않는 보안 256비트 암호화로 서명됩니다. 이 256비트 인증서를 사용하면 향상된 보안을 활용할 수 있습니다.
+Adobe .jar 파일은 1.7.0_76 미만의 Java 버전에서 지원되지 않는 안전한 256비트 암호화를 사용하여 서명됩니다. 이 256비트 인증서를 사용하면 향상된 보안을 활용할 수 있습니다.
 
 아직 Java 7가 설치되어 있다면, 2018년 7월 유지관리 버전이 릴리스되기 전에 업그레이드해야 합니다. 방법은 다음과 같습니다.
 
