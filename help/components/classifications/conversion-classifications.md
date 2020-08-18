@@ -5,7 +5,7 @@ title: 전환 분류
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 전환 분류를 사용하면 전환 변수를 분류할 수 있습니다. 한 번 분류하면, 키 데이터를 사용하여 생성할 수 있는 어떤 보고서도 관련 데이터 속성을 사용하여 생성할 수 있습니다.
 
-분류를 활성화한 후에 [분류 가져오기](/help/components/classifications/c-classifications-importer/c-working-with-saint.md)를 사용하여 해당 분류에 특정 값을 할당할 수 있었습니다.
+분류를 활성화한 후에 [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md)를 사용하여 해당 분류에 특정 값을 할당할 수 있었습니다.
 
 ## 전환 분류 설명 {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
