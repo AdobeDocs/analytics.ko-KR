@@ -4,8 +4,11 @@ keywords: Dynamic Tag Management;customize page code;open editor;execute
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 페이지 코드 사용자 지정
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Analytics를 배포할 때 Dynamic Tag Management의 필드 설명을 사용하여 페이지 코드를 사용자 지정합니다.
 
-**[!UICONTROL *`Property`*]**> **[!UICONTROL![](assets/settings_gear.png)
-
-편집 도구]** > **[!UICONTROL 페이지 코드 사용자 지정]**
+**[!UICONTROL `Property`]** > **[!UICONTROL 편집 도구]** ![](assets/settings_gear.png) > **[!UICONTROL 페이지 코드 사용자 지정]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
