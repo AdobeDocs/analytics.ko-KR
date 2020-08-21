@@ -2,9 +2,9 @@
 description: Analysis Workspace 템플릿과 Reports & Analytics 및 Report Builder의 보고에 대한 세부 사항입니다.
 title: Adobe Analytics의 광고 데이터에 대한 보고서
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
