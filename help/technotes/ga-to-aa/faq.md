@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
 
 # FAQ
 
-**제3자 플랫폼에서 Adobe Analytics으로 내역 데이터를 마이그레이션하려면 어떻게 해야 합니까?**
+**타사 플랫폼에서 Adobe Analytics로 이전 데이터를 마이그레이션하려면 어떻게 해야 합니까?**
 
 모든 Analytics 플랫폼에는 데이터를 수집, 처리 및 저장하는 다양한 방법이 있습니다. 이전 데이터를 마이그레이션하지 않고 Adobe Analytics 내에서 데이터를 수집하고 사용하기 시작하려면 명확한 전환 날짜를 설정하는 것이 좋습니다. 자주 사용되는 전환 날짜는 회계 연도의 시작 날짜, 해당 연도의 시작 날짜 또는 달력의 시작 날짜입니다. 사용자가 이전 데이터를 보려는 경우 타사 플랫폼에 로그인하여 구체적인 이전 보고 내용을 볼 수 있습니다.
 
@@ -20,15 +20,15 @@ ht-degree: 66%
 
 이전 데이터를 새 플랫폼으로 이전하는 것은 복잡한 과정이며 조직에 너무 많은 비용 부담을 주기 때문에 Adobe에서는 권장하지 않습니다. 방문자 정보는 플랫폼마다 서로 다른 쿠키에 저장되고 서로 다른 형식으로 저장되므로 방문자 ID를 Adobe로 원활하게 옮길 수도 없습니다.
 
-**이전에는 많은 보고서에서 세그멘테이션 드롭다운을 사용했습니다. How can I recreate that in[!UICONTROL Analysis Workspace]?**
+**이전에는 많은 보고서에서 세그멘테이션 드롭다운을 사용했습니다.[!UICONTROL Analysis Workspace]에서 이를 다시 만들 수 있습니까?**
 
-Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation dropdown. 작업 영역 프로젝트에서 다음을 수행하십시오.
+드롭다운 필터는 세그멘테이션 드롭다운을 허용하는 [!UICONTROL Analysis Workspace]의 유연하고 강력한 기능입니다. 작업 영역 프로젝트에서 다음을 수행하십시오.
 
 1. 드롭다운에 포함할 구성 요소를 ctrl+클릭(Windows)하거나 cmd+클릭(Mac)합니다. 세그먼트에만 국한되지 않고, 모든 구성 요소를 드롭다운 필터에 포함할 수 있습니다.
 2. 구성 요소 그룹을 &#39;여기에 세그먼트 놓기&#39;라는 작업 공간 영역으로 끌어 놓습니다. 이동하기 전에 Shift 키를 누릅니다.
 
-Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
+이제 이 [!UICONTROL Workspace] 프로젝트에 액세스하는 사용자는 이 드롭다운을 사용하여 세그먼트 또는 다른 구성 요소를 프로젝트에 적용할 수 있습니다. 자세한 내용은 Adobe Analytics 도구 안내서의 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md)를 참조하십시오.
 
 **드릴 다운을 보기 위해 차원 항목을 클릭하는 데 익숙합니다. Analysis Workspace에서 이러한 간편한 워크플로우를 복제하려면 어떻게 합니까?**
 
-Analysis Workspace의 [!UICONTROL 차원] 항목도 쉽게 분류할 수 있습니다. 마우스 왼쪽 단추 클릭 대신 마우스 오른쪽 단추를 클릭하여 액세스합니다. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 각 값에 대해 ctrl+클릭(Windows) 또는 cmd+클릭(Mac)을 사용하여 동일한 분류를 여러 차원 항목에 적용할 수 있습니다.
+Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. 마우스 왼쪽 단추 대신 마우스 오른쪽 단추를 클릭하여 액세스합니다. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 각 값에 대해 ctrl+클릭(Windows) 또는 cmd+클릭(Mac)을 사용하여 동일한 분류를 여러 차원 항목에 적용할 수 있습니다.
