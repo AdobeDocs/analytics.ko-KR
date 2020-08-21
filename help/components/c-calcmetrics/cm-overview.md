@@ -5,6 +5,9 @@ title: 계산 및 고급 계산(파생) 지표
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '783'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->2018년 7월, Adobe에서는 계산된 지표의 할당 모델을 평가하는 방법을 수정한 [기여도 분석 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)를 도입했습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
+>2018년 7월, Adobe에서는 계산된 지표의 할당 모델을 평가하는 방법을 수정한 [속성 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)를 도입했습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
 >
 >* 마케팅 채널 마지막 터치 및 마케팅 채널 첫 번째 터치 할당 모델은 새 &quot;마지막 터치&quot; 및 &quot;첫 번째 터치&quot; 기여도 분석 모델로 마이그레이션되었습니다. 참고로, &quot;마케팅 채널&quot;은 더 이상 사용되지 않았으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용되었습니다.
 >* 또한 선형 할당이 계산되는 방법을 수정했습니다. 고객이 &quot;선형&quot; 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이러한 변경 내용은 [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], Reporting API, Report Builder 및 Ad Hoc Analysis에 반영되었습니다. 자세한 내용은 [2018년 7월 19일부터 선형 할당이 작동하는 방식](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)을 참조하십시오.
