@@ -1,33 +1,33 @@
 ---
-title: 브라우저 높이 - 버킷
-description: 브라우저 창의 높이(픽셀 단위)
+title: 브라우저 높이 - 전체기간
+description: 브라우저 창의 높이(픽셀 단위)입니다.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
 
 # 브라우저 높이
 
-&#39;Browser height - bucketed&#39; 차원은 100픽셀 단위로 분류되는 브라우저 창의 높이를 표시합니다. 이 차원은 사이트에서 방문자에게 폴드(fold)가 있는 위치를 이해하려는 경우 유용합니다. 접힌 부분을 이해하면 컨텐츠를 볼 수 있도록 최적화할 수 있습니다.
+브라우저 높이 - 전체기간 차원은 100픽셀 그룹으로 분류된 브라우저 창의 높이를 보여줍니다. 이 차원은 방문자에 대한 사이트에서 폴드(fold)가 있는 위치를 알려 할 때 유용합니다. 폴드 위치를 알면 컨텐츠를 보는 데 최적화할 수 있습니다.
 
-이 차원은 화면 높이와 다릅니다. Browser height는 볼 수 있는 브라우저 공간 내의 픽셀 수이며 화면 높이는 전체 모니터 높이(픽셀 단위)입니다. 사용자 시스템에서 이러한 두 변수 간의 차이점을 보려면 브라우저 콘솔(대부분의 브라우저에서 F12)을 열고 다음 코드를 콘솔에 복사하여 붙여 넣습니다.
+이 차원은 화면 높이와 다릅니다. 브라우저 높이는 볼 수 있는 브라우저 공간 내의 픽셀 수이며 화면 높이는 전체 모니터 높이(픽셀 단위)입니다. 컴퓨터에서 이러한 두 변수 간의 차이점을 보려면 브라우저 콘솔(대부분의 브라우저에서 F12)을 열고 다음 코드를 콘솔에 복사하여 붙여 넣습니다.
 
 ```javascript
 "Browser height: " + window.innerHeight + " pixels\nScreen height: " + screen.height + " pixels";
 ```
 
-브라우저 높이는 브라우저 탐색이나 테두리를 포함하지 않기 때문에 항상 화면 높이보다 작거나 같습니다.
+브라우저 높이는 브라우저 탐색 영역이나 테두리가 포함되지 않으므로 항상 화면 높이보다 작거나 같습니다.
 
-## 데이터로 이 차원 채우기
+## 이 차원을 데이터로 채우기
 
-이 차원은 이미지 요청의 [`bh` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수를 사용하여 이 데이터 `window.innerHeight` 를 수집합니다. AppMeasurement 라이브러리(예: Adobe Experience Platform 론치를 통해)를 사용하는 경우 이 차원은 기본적으로 작동합니다. AppMeasurement 외부(예: API를 통해) 데이터 수집 메서드를 사용하는 경우 각 방문의 첫 번째 히트에 `bh` 쿼리 문자열 매개 변수를 포함해야 합니다.
+이 차원은 이미지 요청의 [`bh` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `window.innerHeight`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우(API 등을 통해)에는 각 방문의 첫 번째 히트에서 `bh` 쿼리 문자열 매개 변수를 포함해야 합니다.
 
-Adobe는 방문에 대한 브라우저 높이를 유지합니다. 브라우저 높이를 중간 방문으로 조정하면 조정이 기록되지 않습니다.
+Adobe는 방문에 대해 브라우저 높이를 유지합니다. 브라우저 높이를 중간에 조정하면 조정이 기록되지 않습니다.
 
-## 차원 항목
+## Dimension 항목
 
-차원 항목에는 100픽셀 그룹으로 분류된 수집된 모든 브라우저 높이가 포함됩니다. 예를 들어, 히트의 브라우저 높이가 `720`인 경우 차원 항목으로 그룹화됩니다 `700 to 799`.
+Dimension 항목에는 100픽셀의 그룹으로 분류된 수집된 모든 브라우저 높이가 포함됩니다. For example, if the browser height of a hit is `720`, then it is grouped in the dimension item `700 to 799`.
