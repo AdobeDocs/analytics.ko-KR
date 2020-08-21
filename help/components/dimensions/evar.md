@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 67%
 
 *이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의[eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 사용자 지정할 수 있습니다.
 
-사용 가능한 eVar 수는 Adobe과의 계약에 따라 다릅니다. Adobe과의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
+사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 
-eVar는 대소문자를 구분하지 않습니다. 같은 값을 다른 경우(예: `"DOG"` 및 `"Dog"`) 보낼 경우 Analysis Workspace은 같은 차원 항목으로 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대/소문자가 사용됩니다. Data warehouse은 요청 기간 동안 발견된 첫 번째 값을 표시합니다.
+eVar는 대소문자를 구분하지 않습니다. 같은 값을 다른 경우(예: `"DOG"` 및 `"Dog"`) 보낼 경우, Analysis Workspace은 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대/소문자가 사용됩니다. Data Warehouse은 요청 기간 동안 발견된 첫 번째 값을 표시합니다.
 
 ## 데이터로 eVar 채우기
 
-각 eVar은 이미지 요청의 [`v1` - `v250` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 수집합니다. 예를 들어 쿼리 `v1` 문자열 매개 변수는 eVar1에 대한 데이터를 수집하는 반면 `v222` 쿼리 문자열 매개 변수는 eVar222에 대한 데이터를 수집합니다.
+각 eVar는 이미지 요청의 [`v1` - `v250` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 예를 들어 `v1` 쿼리 문자열 매개 변수는 eVar1에 대한 데이터를 수집하는 반면 `v222` 쿼리 문자열 매개 변수는 eVar222에 대한 데이터를 수집합니다.
 
-JavaScript 변수를 데이터 수집에 대한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `eVar1` -를 사용합니다 `eVar250`. 구현 가이드라인에 대해서는 [구현](/help/implement/vars/page-vars/evar.md) 사용 안내서의 eVar을 참조하십시오.
+JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `eVar1` - `eVar250`을 사용합니다. 구현 지침이 필요하면 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.
 
 ## Dimension 항목
 
-eVar에는 구현에 사용자 지정 문자열이 들어 있으므로 조직은 각 eVar에 대한 차원 항목을 결정합니다. 각 eVar 및 일반 차원 항목의 용도를 [솔루션 디자인 문서에 기록해야 합니다](/help/implement/prepare/solution-design.md).
+eVar에는 구현에 사용자 지정 문자열이 들어 있으므로 조직은 각 eVar에 대한 차원 항목을 결정합니다. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## eVar 작동 방식
 
@@ -84,14 +84,14 @@ Analysis Workspace에서 다음 논리를 사용하여 이 보고서를 가져�
 * 기본적으로 eVar는 마지막 할당을 사용합니다. 새 값이 유지된 값을 덮어씁니다.
 * 기본적으로 eVar는 방문 만료를 사용합니다. 방문이 종료되면 `post_evar` 열의 행에서 행으로 값 복사가 중지됩니다.
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar 할당 및 만료를 변경할 수 있습니다.
 
-## prop보다 eVar의 값
+## prop에 대한 eVar의 값
 
-대부분의 경우 다음을 통해 지원되는 eVar를 사용하는 것이 좋습니다.
+대부분의 경우 다음과 같이 지원되는 eVar를 사용하는 것이 좋습니다.
 
-* eVar는 보고서에서 255바이트 제한을 갖습니다. Prop에는 100바이트 제한이 있습니다.
+* eVar는 보고서에서 255바이트로 제한됩니다. Prop은 100바이트로 제한됩니다.
 * 기본적으로 prop은 prop이 설정된 히트 이후에 지속되지 않습니다. eVar에는 사용자 지정 만료가 있으므로, eVar가 후속 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 하지만 [보고서 시간 처리](/help/components/vrs/vrs-report-time-processing.md)를 사용하는 경우 속성과 eVar 모두 사용자 지정 속성 모델을 사용할 수 있습니다.
-* Adobe은 최대 250개의 eVar를 지원하고 75개의 prop만 지원합니다.
+* Adobe는 최대 250개의 eVar를 지원하며 prop은 75개만 지원합니다.
 
-prop과 eVar 간의 [더 많은 비교는 prop](prop.md) 을 참조하십시오.
+prop과 eVar 간의 비교 내용을 더 알려면 [prop](prop.md)을 참조하십시오.
