@@ -60,7 +60,7 @@ s_kwcid=AL!
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`추가 URL 매개 변수 사용&#x200B;**
+**`{lpurl}`추가 URL 매개 변수 사용**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
@@ -104,7 +104,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**`{lpurl}`추가 URL 매개 변수 사용&#x200B;**
+**`{lpurl}`추가 URL 매개 변수 사용**
 
 ```
 {lpurl}?campaign=PPC&
