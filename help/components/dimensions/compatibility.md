@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 
 # Analytics 차원 호환성
 
-이 페이지에는 해당 Analytics 기능에서 지원되는 차원이 나열됩니다.
+이 페이지에는 각각의 Analytics 기능에서 지원되는 차원이 나열됩니다.
 
 >[!NOTE]
 >
@@ -20,32 +20,32 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->Analytics 도구에서 유사한 차원에 대해 다른 용어를 사용하는 부분과 겹칩니다. 예를 들어, 보고 및 Analytics은 Analysis Workspace에서 사용하는 `browserwidth` 동안 사용됩니다 `browserwidthbucketed`.
+>Analytics 도구에서 유사한 차원에 대해 다른 용어를 사용하는 공통 부분이 있습니다. 예를 들어, Reports &amp; Analytics는 `browserwidth`를 사용하는 반면 Analysis Workspace에서는 `browserwidthbucketed`를 사용합니다.
 
 ## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 차원
 
 | 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |---|---|
 | Target용 Analytics | `targetraw` |
-| 대상 ID | `mcaudiences` |
+| 대상자 ID | `mcaudiences` |
 | 브라우저 | `browser` |
 | 브라우저 유형 | `browsertype` |
 | 카테고리 | `category` |
-| 시 | `geocity` |
+| 도시 | `geocity` |
 | 색상 깊이 | `colordepth` |
 | 연결 유형 | `connectiontype` |
 | 쿠키 지원 | `cookie` |
 | 국가 | `geocountry` |
 | 고객 충성도 | `customerloyalty` |
-| 사용자 지정 전환 변수 | `evar1`, `evar2`, etc. |
-| 사용자 지정 인사이트 변수 | `prop1`, `prop2`, etc. |
+| 사용자 지정 전환 변수 | `evar1`, `evar2` 등 |
+| 사용자 지정 인사이트 변수 | `prop1`, `prop2` 등 |
 | 사용자 지정 링크 | `customlink` |
 | 첫 구매까지 소요된 일 수 | `daysbeforefirstpurchase` |
 | 마지막 구매 이후 일 수 | `dayssincelastpurchase` |
 | 도메인 | `filtereddomain` |
 | 다운로드 링크 | `downloadlink` |
 | 시작 페이지 | `entrypage` |
-| 시작 페이지 원본 | `entrypageoriginal` |
+| 원래 시작 페이지 | `entrypageoriginal` |
 | 종료 링크 | `exitlink` |
 | 첫 번째 터치 채널 | `firsttouchchannel` |
 | 첫 번째 터치 채널 세부 사항 | `firsttouchchanneldetail` |
@@ -94,27 +94,27 @@ ht-degree: 92%
 | 사이트 섹션 | `sitesections` |
 | 방문당 체류 시간 - 세부기간 | `sitetime` |
 | 추적 코드 | `campaign` |
-| 미국 DMA | `geodma` |
+| US DMA | `geodma` |
 | 미국 주 | `state` |
 | 이벤트까지 남은 시간 | `timeprior` |
 | 방문당 체류 시간 - 그룹화됨 | `timespent` |
 | 방문 깊이 | `pathlength` |
 | 방문 횟수 | `visitnumber` |
-| 우편번호 | `zip` |
+| 우편 번호 | `zip` |
 
 ## Analysis Workspace에서만 지원되는 차원
 
 | 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
 | 오전/오후 | `timepartampm` |
-| 브라우저 높이 - Bucketed | `browserheightbucketed` |
-| 브라우저 너비 - Bucketed | `browserwidthbucketed` |
+| 브라우저 높이 - 전체기간 | `browserheightbucketed` |
+| 브라우저 너비 - 전체기간 | `browserwidthbucketed` |
 | 일 | `daterangeday` |
 | 날짜 | `timepartdayofmonth` |
 | 요일 | `dayofweek` |
 | 요일 | `timepartdayofweek` |
 | 일 | `timepartdayofyear` |
-| 마지막 방문 이후의 일수 | `dayssincelastvisit` |
+| 마지막 방문 이후의 일 수 | `dayssincelastvisit` |
 | 시작 사용자 지정 인사이트 | `entryprops` |
 | 시작 목록 변수 | `entrylistvariables` |
 | 시작 서버 | `entryserver` |
@@ -127,7 +127,7 @@ ht-degree: 92%
 | 히트 깊이 | `hitdepth` |
 | 히트 유형 | `hittype` |
 | 시간 | `daterangehour` |
-| 시간 | `timeparthourofday` |
+| 시간(일 기준) | `timeparthourofday` |
 | 마케팅 채널 세부 사항 | `marketingchanneldetail` |
 | 분 | `daterangeminute` |
 | 모바일 최대 책갈피 길이 | `mobilebookmarklength` |
@@ -139,7 +139,7 @@ ht-degree: 92%
 | 모바일 네트 프로토콜 | `mobilenetprotocols` |
 | 모바일 Push To Talk | `mobilepushtotalk` |
 | 월 | `daterangemonth` |
-| 월 | `timepartmonthofyear` |
+| 월(연 기준) | `timepartmonthofyear` |
 | 운영 체제 유형 | `operatingsystemgroup` |
 | 유료 검색 | `paidsearch` |
 | 영구적 쿠키 지원 | `persistentcookie` |
@@ -148,7 +148,7 @@ ht-degree: 92%
 | 설문 조사 | `surveybase` |
 | 페이지 체류 시간 - 버킷 지정됨 | `averagepagetime` |
 | 페이지 체류 시간 - 세부기간 | `pagetimeseconds` |
-| 옵트아웃 이유 추적 중 | `optoutreason` |
+| 옵트아웃 이유 추적 | `optoutreason` |
 | 평일/주말 | `timepartweekdayweekend` |
 | 주 | `daterangeweek` |
 | 년 | `daterangeyear` |
@@ -310,7 +310,7 @@ ht-degree: 92%
 
 ### Nielsen 통합
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+이 통합을 구현하는 방법에 관한 자세한 내용은 [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html)을 참조하십시오.
 
 | 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
 |--- |--- |
