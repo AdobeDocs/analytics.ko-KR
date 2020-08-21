@@ -94,7 +94,7 @@ about_classification_rules.xml
 
 ![](assets/overwrite_keys.png)
 
-## 분류 규칙의 정규 표현식{#regex-in-classification-rules}에서 볼 수 있습니다 
+## 분류 규칙의 정규 표현식에서 볼 수 있습니다 {#regex-in-classification-rules}
 
 정규 표현식을 사용하여 일관된 서식의 문자열 값과 분류를 일치시킵니다. 예를 들면 추적 코드의 특정 문자로부터 분류를 만들 수 있습니다. 특정 문자, 단어 또는 문자 패턴을 일치시킬 수 있습니다.
 
