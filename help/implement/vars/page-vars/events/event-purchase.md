@@ -1,11 +1,11 @@
 ---
 title: 구매 이벤트
 description: 구매 이벤트를 사용하여 '주문', '판매량' 및 '수입' 지표에 대한 데이터를 수집합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 92%
 
 구매 이벤트를 설정하면 다음 지표에 영향을 줍니다.
 
-* &#39;주문&#39; 지표는 1씩 증가합니다.
-* &#39;판매량&#39; 지표는 `products` 변수의 제품 수만큼 증가합니다.
-* &#39;수입&#39; 지표는 `products` 변수에 있는 가격 매개 변수의 합만큼 증가합니다.
+* 주문 지표는 1씩 증가합니다.
+* 판매량 지표는 `products` 변수의 제품 수만큼 증가합니다.
+* 매출 지표는 `products` 변수에 있는 가격 매개 변수의 합만큼 증가합니다.
 
 >[!NOTE]
 >
->매출에 수량 필드를 곱하지 않습니다. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. (예: `s.products="Womens;Socks;5;22.50"`)
+>매출에는 수량 필드를 곱하지 않습니다. 예를 들어, `s.products="Womens;Socks;5;4.50"`은 $22.50를 메출에 전달하지 않고 $4.50를 전달합니다. 구현에서 나열된 수량에 대한 총 수입을 전달하도록 구현하십시오. (예: `s.products="Womens;Socks;5;22.50"`)
 
 ## Adobe Experience Platform Launch에서 구매 이벤트 설정
 
