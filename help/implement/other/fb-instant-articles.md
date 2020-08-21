@@ -1,9 +1,9 @@
 ---
 title: Facebook 인스턴트 아티클로 구현
 description: Facebook 인스턴트 아티클 페이지에서 Adobe Analytics를 구현합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
