@@ -5,7 +5,10 @@ title: 처리 순서
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 |--- |--- |
 | 동적 변수 조회 | HTTP 헤더 또는 기타 변수에서 정보를 가져와서 변수를 동적으로 채웁니다. 예를 들어 `s.eVar5="D=c1"`은 prop1의 값을 eVar5에 넣습니다. |
 | AppMeasurement | AppMeasurement에서 사용되는 함수 및 플러그인은 브라우저 또는 클라이언트 애플리케이션에서 실행됩니다. |
-| Dynamic Tag Management | Dynamic Tag Management에 정의된 규칙은 정의대로 실행됩니다. |
+| 태그 관리 | Adobe 실행 또는 다이내믹 태그 관리에 정의된 규칙은 정의된 대로 실행됩니다. |
 | 보트 규칙 | [보트 규칙](/help/admin/admin/bot-removal/bot-rules.md)을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. |
 
 ## 처리 규칙 이후
@@ -40,6 +43,6 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## VISTA를 사용하여 히트를 복사할 때 처리 규칙이 적용되는 방식 {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-히트를 다른 보고서 세트에 복사하도록 VISTA 규칙을 구성한 경우 히트가 다른 보고서 세트에 정의된 처리 규칙을 통해 전송됩니다.
+히트를 다른 보고서 세트에 복사하도록 VISTA 규칙을 구성한 경우 히트가 다른 보고서 세트에 정의된 모든 처리 규칙을 통해 전송됩니다.
 
 원래 보고서 세트에 처리 규칙을 정의했으면 엔지니어링 서비스에서 VISTA 규칙을 구성한 방식을 기준으로 이러한 규칙이 적용되거나 적용되지 않을 수 있습니다. VISTA 규칙이 &quot;pre&quot; 또는 &quot;post&quot; 값을 추가 보고서 세트에 복사하는지 구현 전문가에게 물어볼 수 있습니다. &quot;pre&quot; 값이 복사되면 원래 보고서 세트에 정의된 처리 규칙은 적용되지 않습니다. &quot;post&quot; 값이 복사되면 히트가 복사되기 전에 처리 규칙이 적용됩니다.
