@@ -1,9 +1,9 @@
 ---
 title: Util.getQueryParam
 description: 쿼리 문자열 매개 변수의 값을 반환합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
@@ -55,4 +55,4 @@ s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 
 >[!TIP]
 >
->이름이 [`s.getQueryParam`](../plugins/getqueryparam.md)인 유사한 플러그인을 사용할 수 있습니다. 이 플러그인에는 더 많은 고급 기능이 포함되어 있지만 보다 복잡하고 기본적으로 AppMeasurement에 포함되지 않습니다.
+>이름이 [`s.getQueryParam`](../plugins/getqueryparam.md)인 유사한 플러그인을 사용할 수 있습니다. 이 플러그인에는 더 많은 고급 기능이 포함되어 있지만, 보다 복잡하고 기본적으로 AppMeasurement에 포함되지 않습니다.
