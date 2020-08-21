@@ -1,9 +1,9 @@
 ---
 title: s_gi()
 description: AppMeasurement 인스턴스를 생성하고 추적합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Analytics 확장은 추적 개체를 인스턴스화하고 관리합니다. 그�
 
 >[!TIP]
 >
-> `s` 변수를 추적 개체로 사용하는 것이 좋습니다. Adobe에서는 설명서, 구현 예 및 플러그인에서 `s`를 사용합니다. 하지만 사이트 전체에서 일관적이기만 하다면 어떤 변수든 사용할 수 있습니다.
+>`s` 변수를 추적 개체로 사용하는 것이 좋습니다. Adobe에서는 설명서, 구현 예 및 플러그인에서 `s`를 사용합니다. 하지만 사이트 전체에서 일관적이기만 하다면 어떤 변수든 사용할 수 있습니다.
 
 ```js
 // Instantiate the tracking object with a single report suite
