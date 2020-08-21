@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Data Sources 사용 준비
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
