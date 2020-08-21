@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -39,13 +39,13 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 `s.events` 변수는 히트에 포함할 이벤트에 대한 쉼표로 구분된 목록을 포함하는 문자열입니다. 이 변수에는 바이트 제한이 없으므로 잘리지 않습니다. 유효 값 항목:
 
 * `event1` - `event1000`: 원하는 대로 설정하는 사용자 지정 이벤트입니다. 조직의 [솔루션 디자인 문서](../../../prepare/solution-design.md)에서 각 이벤트를 사용하는 방법을 기록하십시오. 사용 가능한 이벤트 수는 조직의 Analytics 계약에 따라 다릅니다. 비 레거시 계약에 있는 대부분의 조직에는 사용할 수 있는 사용자 지정 이벤트 1,000개가 있습니다. 사용 가능한 사용자 지정 이벤트의 수를 모를 경우에는 조직의 계정 관리자에게 문의하십시오.
-* `purchase`: 주문 지표 [를](/help/components/metrics/orders.md) 1로 증가시키고 변수 `products` 에 설정된 값을 가져와 [](/help/components/metrics/units.md) 판매량 및 매출 [을 계산합니다](/help/components/metrics/revenue.md). 자세한 내용은 [구매 이벤트](event-purchase.md)를 참조하십시오.
-* `prodView`: 제품 보기 횟수 지표 [를](/help/components/metrics/product-views.md) 증가시킵니다.
-* `scOpen`: 장바구니 [지표를](/help/components/metrics/carts.md) 증가시킵니다.
-* `scAdd`: 장바구니 추가 [지표를](/help/components/metrics/cart-additions.md) 증가시킵니다.
-* `scRemove`: 장바구니 제거 [지표를](/help/components/metrics/cart-removals.md) 증가시킵니다.
-* `scView`: 장바구니 보기 [지표를](/help/components/metrics/cart-views.md) 증가시킵니다.
-* `scCheckout`: 체크아웃 지표 [를](/help/components/metrics/checkouts.md) 증가시킵니다.
+* `purchase`: [&#39;주문&#39;](/help/components/metrics/orders.md) 지표를 1씩 증가시키고, `products` 변수에 설정된 값을 사용하여 [&#39;판매량&#39;](/help/components/metrics/units.md) 및 [&#39;수입&#39;](/help/components/metrics/revenue.md)을 계산합니다. 자세한 내용은 [구매 이벤트](event-purchase.md)를 참조하십시오.
+* `prodView`: [&#39;제품 보기&#39;](/help/components/metrics/product-views.md) 지표를 증가시킵니다.
+* `scOpen`: [&#39;장바구니 수&#39;](/help/components/metrics/carts.md) 지표를 증가시킵니다.
+* `scAdd`: [&#39;장바구니 추가&#39;](/help/components/metrics/cart-additions.md) 지표를 증가시킵니다.
+* `scRemove`: [&#39;장바구니 제거 수&#39;](/help/components/metrics/cart-removals.md) 지표를 증가시킵니다.
+* `scView`: [&#39;장바구니 보기 수&#39;](/help/components/metrics/cart-views.md) 지표를 증가시킵니다.
+* `scCheckout`: [&#39;체크아웃&#39;](/help/components/metrics/checkouts.md) 지표를 증가시킵니다.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 >[!NOTE]
 >
-> `events` 변수와 `products` 변수 모두에서 통화 값을 설정하는 경우 `events`의 통화 값이 사용됩니다. 통화 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
+>`events` 변수와 `products` 변수 모두에서 통화 값을 설정하는 경우 `events`의 통화 값이 사용됩니다. 통화 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
 
 ### 숫자 이벤트 사용
 
@@ -113,4 +113,4 @@ s.products = "Example category;Example product;1;0;event1=4.5";
 
 >[!NOTE]
 >
-> `events` 변수와 `products` 변수 모두에서 숫자 값을 설정하는 경우 `events`의 숫자 값이 사용됩니다. 숫자 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
+>`events` 변수와 `products` 변수 모두에서 숫자 값을 설정하는 경우 `events`의 숫자 값이 사용됩니다. 숫자 값을 `events` 및 `products` 변수 모두에서 설정하지 마십시오.
