@@ -1,9 +1,9 @@
 ---
 title: Analytics에서 XDM 데이터 사용
 description: 'Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 개요 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Analytics는 다음 두 가지 메서드를 통해 XDM 데이터를 수집합니
 
 ## 자동 매핑
 
-[](xdm-manual.md)자동 매핑은 일반적인 Analytics 데이터 수집에 포함된 JSON 개체를 자동으로 채우는 XDM의 기본 [스키마](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html)를 사용합니다. XDM에서 구성된 보고서 세트에 자동으로 매핑된 Analytics 변수에서는 개발자 지원을 통합할 필요가 없습니다.
+[자동 매핑은](xdm-manual.md) 일반적인 Analytics 데이터 수집에 포함된 JSON 개체를 자동으로 채우는 XDM의 기본 [스키마](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html)를 사용합니다. XDM에서 구성된 보고서 세트에 자동으로 매핑된 Analytics 변수에서는 개발자 지원을 통합할 필요가 없습니다.
 
 ## 수동 매핑
 
