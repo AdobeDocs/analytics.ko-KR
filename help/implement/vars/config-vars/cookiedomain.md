@@ -1,9 +1,9 @@
 ---
 title: cookieDomain
 description: cookieDomain 변수는 쿠키를 설정할 도메인을 결정하는 데 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
