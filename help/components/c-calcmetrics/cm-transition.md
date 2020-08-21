@@ -2,9 +2,9 @@
 description: 계산된 지표가 Analytics에서 작동하는 방식에 대한 다음의 변경 사항은 사용자에게 영향을 줄 수 있습니다.
 title: FAQ
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2148'
 ht-degree: 100%
 
