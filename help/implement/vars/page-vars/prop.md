@@ -1,26 +1,26 @@
 ---
 title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # prop
 
-*이 도움말 페이지에서는 prop을 구현하는 방법을 설명합니다. For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
+*이 도움말 페이지에서는 prop 구현 방법에 대해 설명합니다. prop이 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의[prop](/help/components/dimensions/prop.md)을 참조하십시오.*
 
-prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 설정된 히트 이후로 지속되지 않습니다.
+prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
+>대부분의 경우 [eVar](evar.md)를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
 
-솔루션 디자인 문서 [](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
+[솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
 ## Adobe Experience Platform Launch의 prop
 
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 >[!TIP]
 >
-> 구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 구분 기호를 사용할 수 있습니다.
+>구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 구분 기호를 사용할 수 있습니다.
 
 ### 목록 Prop 설정
 
