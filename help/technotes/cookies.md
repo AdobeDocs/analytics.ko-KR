@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics 및 브라우저 쿠키
 description: Adobe Analytics에서 브라우저 쿠키를 처리하는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Adobe Analytics는 전체 속성과 솔루션에서 지속적인 사용자 식�
 
 ### 자사 쿠키(First-party cookies)
 
-자사 쿠키는 고객 웹 사이트(도메인별)에서 생성되며 사용자가 고객 웹 사이트를 방문할 때 클라이언트 브라우저에 저장됩니다. 모든 브라우저는 일반적으로 자사 쿠키를 수락합니다. 자사 쿠키 Analytics 구현 시 방문자 ID 쿠키는 호스트 이름이 [CNAME](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/analytics-reference/cname.html)을 사용하여 도메인과 일치될 때 Adobe 노드에 생성됩니다. 그러면 브라우저가 자사 컨텍스트에서 쿠키를 수락합니다. 자세한 내용은 [자사 쿠키 정보](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html)를 참조하십시오.
+자사 쿠키는 고객 웹 사이트(도메인별)에서 생성되며 사용자가 고객 웹 사이트를 방문할 때 클라이언트 브라우저에 저장됩니다. 모든 브라우저는 일반적으로 자사 쿠키를 수락합니다. 자사 쿠키 Analytics 구현 시 방문자 ID 쿠키는 호스트 이름이 [CNAME](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/analytics-reference/cname.html)을 사용하여 도메인과 일치될 때 Adobe 노드에 생성됩니다. 그러면 브라우저가 자사 컨텍스트에서 쿠키를 수락합니다. 자세한 내용은 [자사 쿠키 정보](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)를 참조하십시오.
 
 ### 타사 쿠키(Third-party cookies)
 
@@ -139,7 +142,7 @@ CNAME을 사용하는 경우 방문자 ID 서비스는 ECID를 서버측 자사 
 
 ## 방문자가 가장 많이 사용하는 브라우저는 무엇입니까?
 
-방문자가 사용하는 브라우저에 대해 자세히 알고 싶은 경우 Analytics [ 브라우저 차원](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-browsers.html)을 사용하여 사이트에 가장 많이 사용되는 브라우저를 확인할 수 있습니다. Analytics 차원을 사용하여 지리적 지역에 따라 가장 많이 사용하는 브라우저를 확인할 수도 있습니다. 자세한 내용은 [지리 특성](https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)을 참조하십시오.
+방문자가 사용하는 브라우저에 대해 자세히 알고 싶은 경우 Analytics [ 브라우저 차원](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-browsers.html)을 사용하여 사이트에 가장 많이 사용되는 브라우저를 확인할 수 있습니다. Analytics 차원을 사용하여 지리적 지역에 따라 가장 많이 사용하는 브라우저를 확인할 수도 있습니다. 자세한 내용은 [지리 특성](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)을 참조하십시오.
 
 [statcounter](https://gs.statcounter.com/browser-market-share/all)에 따르면 2019년 말 각 브라우저의 전세계 시장 점유율은 다음과 같습니다.
 
