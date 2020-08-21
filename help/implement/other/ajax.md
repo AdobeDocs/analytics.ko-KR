@@ -1,9 +1,9 @@
 ---
 title: AJAX를 사용하여 구현
 description: AJAX를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ AJAX를 사용하는 페이지는 일반적으로 다시 로드되지 않으므�
 
 >[!TIP]
 >
-> `clearVars()` 함수는 H 코드에서는 사용할 수 없습니다. AppMeasurement로 업그레이드하지 않은 경우 각 Analytics 변수 값을 빈 문자열로 설정하십시오.
+>`clearVars()` 함수는 H 코드에서는 사용할 수 없습니다. AppMeasurement로 업그레이드하지 않은 경우 각 Analytics 변수 값을 빈 문자열로 설정하십시오.
 
 ## 예
 
