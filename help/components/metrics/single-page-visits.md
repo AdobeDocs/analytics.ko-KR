@@ -1,23 +1,23 @@
 ---
-title: 단일 페이지 방문
+title: 단일 페이지 방문 횟수
 description: 방문에서 '페이지' 차원 항목이 변경되지 않은 횟수입니다.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
 
-# 단일 페이지 방문
+# 단일 페이지 방문 횟수
 
-*이 도움말 페이지에서는 &#39;단일 페이지 방문 횟수&#39;가 지표로 작동하는 방식을 설명합니다. 자세한 내용은[단일 페이지 방문](../dimensions/single-page-visits.md)차원을 참조하십시오.*
+*이 도움말 페이지에서는 &#39;단일 페이지 방문 횟수&#39;가 지표로 작동하는 방식을 설명합니다. 자세한 내용은[단일 페이지 방문 횟수](../dimensions/single-page-visits.md)차원을 참조하십시오.*
 
-&#39;단일 페이지 방문 횟수&#39; 지표는 [페이지](../dimensions/page.md) 차원 항목에 전체 방문에 대한 단일 고유 값만 포함된 방문 횟수를 보여줍니다. 이 지표는 짧은 방문을 보려는 차원 컨텍스트에서 유용하지만 바운스 수 만큼 엄격한 규칙은 [없습니다](bounces.md).
+The &#39;Single page visits&#39; metric shows the number of visits where the [Page](../dimensions/page.md) dimension item contained only a single unique value for the entire visit. 이 지표는 짧은 방문을 보려는 차원 컨텍스트에서 유용하지만 [바운스 수](bounces.md) 만큼 엄격한 규칙은 이 지표에 없습니다.
 
 ## 이 지표의 계산 방법
 
-이 지표는 &#39;페이지&#39; 차원 항목에 전체 방문에 대한 단일 고유 값만 포함된 방문 횟수를 카운트합니다. 방문자가 페이지를 다시 로드하거나 링크 추적 호출을 실행하는 경우에도 단일 페이지 방문으로 카운트됩니다. 페이지 차원이 두 번째 고유 값으로 바뀌면 더 이상 단일 페이지 방문으로 분류되지 않습니다.
+이 지표는 &#39;페이지&#39; 차원 항목에 전체 방문에 대한 단일 고유 값만 포함된 방문 횟수를 카운트합니다. 방문자가 페이지를 다시 로드하거나 링크 추적 호출을 실행하는 경우에도 여전히 단일 페이지 방문으로 계산됩니다. 페이지 차원이 두 번째 고유 값으로 바뀌자마자 이 방문은 더 이상 단일 페이지 방문으로 분류되지 않습니다.
 
-지표 간 [의 비교는](single-access.md) 단일 액세스를 참조하십시오.
+지표 간의 비교에 대해서는 [단일 액세스](single-access.md)를 참조하십시오.
