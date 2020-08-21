@@ -1,11 +1,11 @@
 ---
 title: 모바일 장치용 Analytics 구현
 description: 사용할 모바일 AppMeasurement 라이브러리를 결정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
