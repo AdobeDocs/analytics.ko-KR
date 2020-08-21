@@ -4,11 +4,11 @@ subtopic: Data sources
 title: 파일 가져오기 참조
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 열 머리글은 데이터 소스 파일의 각 열에 있는 데이터를 식별하는 데 사용됩니다. 열 머리글에는 3가지 종류가 있습니다.
 
-**날짜**: (필수) 파일의 각 데이터 행에 대한 타임스탬프(형식) `m/d/yyyy`.
+**날짜**: (필수) 파일의 각 데이터 행에 대한 `m/d/yyyy` 형식의 타임스탬프.
 
 **변수**: 데이터 소스의 데이터 차원에 매핑되는 보고 변수의 이름.
 
