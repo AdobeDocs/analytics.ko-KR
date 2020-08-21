@@ -4,11 +4,11 @@ subtopic: Marketing channels
 title: 마케팅 채널 만료
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 81%
 
 방문자 유도는 사이트에서 방문자가 이전에 수행한 활동이 첫 번째 접촉 채널에 속하는 것으로 허용하려는 시간 길이입니다. 기본 만료 설정값은 30일입니다.
 
-방문자가 사이트를 자주 사용하는 경우 참여 기간이 방문자와 함께 표시됩니다. 기간이 만료되어 채널이 재설정되려면 30일 동안 비활성화 상태여야 합니다. 방문자에 대한 첫 번째 및 마지막 접촉 채널 모두 해당 브라우저에서의 30일 동안 활동이 없는 후 재설정됩니다.
+방문자가 사이트를 자주 사용하는 경우 참여 기간이 방문자와 함께 표시됩니다. 기간이 만료되어 채널이 재설정되려면 30일 동안 비활성화 상태여야 합니다. 방문자에 대한 첫 번째 및 마지막 터치 채널은 모두 해당 브라우저에서 30일 동안 사용되지 않으면 재설정됩니다.
 
 예:
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 ## 마케팅 채널 만료 설정
 
-만료 설정은 다음과 같습니다.
+만료 설정은 다음과 같이 구성됩니다.
 
 | 필드 | 정의 |
 |--- |--- |
