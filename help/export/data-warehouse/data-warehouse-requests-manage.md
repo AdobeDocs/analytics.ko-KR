@@ -3,9 +3,9 @@ description: 요청 관리자에서 요청을 보고, 복제하고, 요청의 �
 title: Data Warehouse 요청 관리
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
