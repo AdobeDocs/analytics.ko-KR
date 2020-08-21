@@ -1,9 +1,9 @@
 ---
 title: transactionID
 description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
