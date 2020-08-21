@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Data Sources 작동 방식
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Adobe에서 데이터 소스에 대한 액세스 권한을 제공하는 방법�
 
 >[!NOTE]
 >
-> 가져온 데이터가 데이터 소스를 통해 전송되면 JavaScript 비콘, ActionSource, 데이터 삽입 API 등과 같은 다른 수단으로 수집한 보고 데이터와 구별할 수 없게 됩니다. 가져온 데이터는 삭제할 수 없습니다.
+>가져온 데이터가 데이터 소스를 통해 전송되면 JavaScript 비콘, ActionSource, 데이터 삽입 API 등과 같은 다른 수단으로 수집한 보고 데이터와 구별할 수 없게 됩니다. 가져온 데이터는 삭제할 수 없습니다.
 
 ![](assets/data_sources_overview.png)
 
