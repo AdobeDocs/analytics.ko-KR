@@ -1,9 +1,9 @@
 ---
 title: 주/도
 description: Reports and Analytics에서 '방문자 주 보고서'를 채웁니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
 ht-degree: 100%
 
