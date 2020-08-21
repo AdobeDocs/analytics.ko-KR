@@ -3,9 +3,9 @@ description: 달력 이벤트를 추가하고, 공유 이벤트를 관리하는 
 title: 달력 이벤트
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -29,12 +29,12 @@ ht-degree: 100%
    1. 이 이벤트가 적용되는 **[!UICONTROL 보고서 세트]**&#x200B;를 선택합니다.
    1. (선택 사항) 이 이벤트를 위한 **[!UICONTROL 참고 텍스트]**&#x200B;를 추가합니다.
    1. 표시 아이콘 및 색상을 선택합니다.
-   1. **[!UICONTROL 저장을 클릭합니다]**.
+   1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. (선택 사항) 달력 이벤트는 공유되지 않는 한 사용자별로 다릅니다. 이 이벤트를 공유하려면 **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 1. (선택 사항) 캘린더 이벤트를 사용자에게 적용합니다. 이제 공유됨으로 표시된 달력 이벤트에는 다른 사용자에게 &quot;전달&quot;하는 옵션이 있습니다. 달력 이벤트를 적용하면 이 이벤트가 받는 사용자의 트렌드 및 시간별 그래프에 나타납니다.
    1. **[!UICONTROL 사용자에게 전달]**&#x200B;을 클릭합니다.
    1. **[!UICONTROL 모두 선택]**&#x200B;을 클릭하거나 사용자 이름의 옆에 있는 상자를 선택합니다.
-   1. **[!UICONTROL 저장을 클릭합니다]**.
+   1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이렇게 되면 달력 이벤트를 훨씬 다양하게 사용할 수 있게 됩니다. 이제 분석가는 사용자의 보고서에 오버레이를 적용하여 더 많은 컨텍스트를 제공할 수 있습니다.
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 달력 이벤트]**&#x200B;를 클릭합니다.
