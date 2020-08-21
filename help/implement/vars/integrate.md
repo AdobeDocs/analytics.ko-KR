@@ -1,9 +1,9 @@
 ---
 title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ s.Integrate.<partner_name>.setVars = function (s,p) {
 
 일반적으로 조직은 Adobe 파트너와 함께 파트너가 사용하는 변수 및 파트너 이름에 대한 값을 결정합니다.
 
-### 스크립트
+### script
 
 이 `script` 메서드를 사용하면 Adobe 파트너가 특정 조건이 충족되는 경우(예: 캠페인 변수가 설정된 경우) 파트너 사이트에서 추가 JavaScript를 호출할 수 있습니다.
 
