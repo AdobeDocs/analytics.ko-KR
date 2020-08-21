@@ -1,32 +1,32 @@
 ---
 title: 히트 깊이
-description: 방문의 히트 수.
+description: 방문의 히트 수입니다.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 7%
+ht-degree: 75%
 
 ---
 
 
 # 히트 깊이
 
-&#39;히트 깊이&#39; 차원은 주어진 히트의 방문 범위를 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 유용합니다. 히트 깊이는 페이지 보기([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
+히트 깊이 차원은 주어진 히트가 방문으로 이어질 때까지의 깊이를 보고합니다. 이 차원은 방문자가 사이트에서 작업을 수행하는 방문까지의 거리를 이해하는 데 중요합니다. 히트 깊이는 페이지 보기([`t()`](/help/implement/vars/functions/t-method.md))와 링크 추적 히트([`tl()`](/help/implement/vars/functions/tl-method.md))를 포함하여 모든 유형의 히트를 계산합니다.
 
-## 데이터로 이 차원 채우기
+## 이 차원을 데이터로 채우기
 
-이 차원은 모든 구현에서 기본적으로 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
+이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
 
-## 차원 항목
+## Dimension 항목
 
-차원 항목에는 문자열 `"Hit Depth"` 뒤에 방문의 히트 수를 나타내는 숫자가 포함됩니다. 방문의 차원 항목 `"Hit Depth 1"` 은 첫 번째 히트를, 차원 항목은 방문의 8번째 히트를 `"Hit Depth 8"` 나타냅니다.
+Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
 
-## 방문 심도를 비교한 결과
+## 방문 깊이와 비교
 
-히트 깊이는 페이지 보기 및 링크 추적 히트를 포함하여 모든 유형의 히트를 계산합니다. 페이지 보기 히트에 대한 방문 깊이만 증분되며 __ 페이지 [](page.md) 차원 항목이 이전 페이지의 값과 같지 않습니다. 방문 깊이는 방문의 모든 히트에 대해 동일한 값임을 의미하는 방문 기반 차원이기도 합니다. 다음 표에서는 예제 방문에 대해 설명하고 히트 깊이 + 방문 깊이를 고려하는 방법에 대해 설명합니다.
+히트 깊이는 페이지 보기와 링크 추적 히트를 포함하여 모든 유형의 히트를 계산합니다. Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension item is not the same as the value on the previous page. 또한 방문 깊이는 방문 기반 차원으로서, 이것은 방문 깊이가 방문의 모든 히트에 대해 동일한 값임을 의미합니다. 다음 표에서는 방문 예와 방문이 히트 깊이 + 방문 깊이를 고려하는 방식에 대해 설명합니다.
 
-| 페이지 시퀀스 | 히트 깊이 | 방문 깊이를 측정합니까? | 방문 깊이 |
+| 페이지 시퀀스 | 히트 깊이 | 방문 깊이에 포함됩니까? | 방문 깊이 |
 | --- | --- | --- | --- |
 | 홈 페이지 | 1 | 예 | 4 |
 | 제품 페이지 | 2 | 예 | 4 |
