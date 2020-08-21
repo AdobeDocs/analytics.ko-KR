@@ -4,9 +4,9 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 웹 속성 만들기
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -87,4 +87,4 @@ DTM을 사용하여 이러한 자산을 관리하고 추적할 수 있습니다.
     </tbody> 
     </table>
 
-1. **[!UICONTROL 속성 만들기를 클릭합니다]**.
+1. **[!UICONTROL 속성 만들기]**&#x200B;를 클릭합니다.
