@@ -18,7 +18,7 @@ Adobe는 디지털 전략 및 마케팅 이니셔티브에 대하여 실용적�
 
 >[!IMPORTANT]
 >
->Adobe는 2021년 중반에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>우리는 2021년 중반에 Adobe 데이터 커넥터 기술을 무용지물로 만들 것입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 **시스템 요구 사항**
 
