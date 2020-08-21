@@ -1,9 +1,9 @@
 ---
 title: pageUrl
 description: 사이트에서 자동으로 수집된 페이지 URL을 무시합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
 ht-degree: 100%
 
