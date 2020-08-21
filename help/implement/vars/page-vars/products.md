@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
 
 # products
 
-`products` 변수는 제품과 제품에 연결된 속성을 추적하는데 일반적으로 개별 제품 페이지, 장바구니 페이지 및 구매 확인 페이지에서 설정됩니다. 다중 값 변수입니다. 즉, 동일한 히트에서 여러 제품을 보내고 Adobe가 값을 별도의 차원 항목으로 구문 분석할 수 있습니다.
+`products` 변수는 제품과 제품에 연결된 속성을 추적하는데 일반적으로 개별 제품 페이지, 장바구니 페이지 및 구매 확인 페이지에서 설정됩니다. 다중 값 변수입니다. 즉, 동일한 히트에서 여러 제품을 보내고 Adobe이 값을 별도의 차원 항목으로 구문 분석할 수 있습니다.
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. 변수가 있는 각 히트에서 적절한 장바구니 이벤트를 설정해야 `products` 합니다.
+>이 변수가 [`events`](events/events-overview.md) 변수의 장바구니 이벤트 없이 히트에 설정되어 있으면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에서 적절한 장바구니 이벤트를 설정하도록 하십시오.
 
 ## Adobe Experience Platform Launch의 제품
 
