@@ -4,11 +4,11 @@ subtopic: Data sources
 title: 전체 처리
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Adobe에서는 고객이 전체 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 를 사용하는 것이 좋습니다. 전체 처리 데이터 소스는 나중에 더 이상 사용되지 않습니다.
+>고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. 전체 처리 데이터 소스는 미래에는 더 이상 사용되지 않습니다.
 
 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
@@ -174,7 +174,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다.  </p> <p>전체 목록은 <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다.  </p> <p>전체 목록은 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
