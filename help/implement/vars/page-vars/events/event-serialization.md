@@ -1,9 +1,9 @@
 ---
 title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> [`purchase`](event-purchase.md) 이벤트를 중복 제거하려면 [`purchaseID`](../purchaseid.md) 변수를 대신 사용하십시오.
+>[`purchase`](event-purchase.md) 이벤트를 중복 제거하려면 [`purchaseID`](../purchaseid.md) 변수를 대신 사용하십시오.
 
 ## Adobe Experience Platform Launch에서 이벤트 ID 사용
 
