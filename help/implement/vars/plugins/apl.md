@@ -1,9 +1,9 @@
 ---
 title: apl(appendToList)
 description: 여러 값을 지원하는 변수에 값을 추가합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
 ht-degree: 100%
 
