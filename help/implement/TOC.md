@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -204,4 +204,4 @@ ht-degree: 98%
 + [FAQ](faq.md)
 + Analytics에서 XDM 데이터 사용 {#aep-edge}
    + [AEP Web SDK 사용](aep-edge/xdmoverview.md)
-   + [XDM 데이터를 수동으로 Analytics에 매핑](aep-edge/xdm-manual.md)
+   + [XDM 데이터를 Analytics에 수동으로 매핑](aep-edge/xdm-manual.md)
