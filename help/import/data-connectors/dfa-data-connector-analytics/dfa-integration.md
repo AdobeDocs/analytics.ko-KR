@@ -241,7 +241,7 @@ DFA 지원 `s_code.js` 파일을 배포한 후 네트워크 트래픽 뷰어를 
 
 어느 경우든지 요청이 성공하면 vX 매개 변수(여기서 X는 뷰스루 eVar 번호)가 있는 Adobe 데이터 수집 서버로 요청이 전달됩니다. 이 매개 변수 값은 DFA-XXXX-XXXX- XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX 형식을 사용합니다. 이 문자열에는 마지막 클릭 및 현재 방문자의 마지막 노출에 대한 정보가 들어 있습니다.
 
-## s.maxDelay 조정{#tuning-s-maxdelay}을 참조하십시오
+## s.maxDelay 조정을 참조하십시오{#tuning-s-maxdelay}
 
 DFA를 성공적으로 구현하면 특정 사이트에 맞게 s.maxDelay가 최적화됩니다.
 
