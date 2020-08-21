@@ -1,9 +1,9 @@
 ---
 title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 
 >[!TIP]
 >
-> 일부 구현은 데이터를 `2o7.net`에 보냅니다. 이 도메인은 유효한 데이터 수집 도메인이지만 지역 데이터 수집은 이용하지 않습니다. `2o7.net`을 사용하는 구현은 이미지 요청 응답 시간이 약간 더 깁니다.
+>일부 구현은 데이터를 `2o7.net`에 보냅니다. 이 도메인은 유효한 데이터 수집 도메인이지만 지역 데이터 수집은 이용하지 않습니다. `2o7.net`을 사용하는 구현은 이미지 요청 응답 시간이 약간 더 깁니다.
 
 ## trackingServer의 값 확인
 
