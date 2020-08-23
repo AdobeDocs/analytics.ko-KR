@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: 특정 동작이 발생하는 시간을 측정합니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '822'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 Analysis Workspace는 형식이 이 플러그인과 약간 다르게 지정된 유사한 기본 차원을 제공합니다. 자세한 내용은 분석 사용 안내서의 [시간 분할 차원](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)을 참조하십시오. 일부 조직에서는 Analysis Workspace의 기본 제공 차원으로 충분하다는 것을 판단합니다.
 
->[중요] 이 플러그인의 버전 4.0 이상은 이전 버전과 상당히 다릅니다. 따라서 이 플러그인을 &quot;처음부터&quot;로 새로 구현하는 것이 좋습니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
+>[!IMPORTANT]
+>
+>이 플러그인의 버전 4.0+은 이전 버전과 크게 다릅니다. 따라서 이 플러그인을 &quot;처음부터&quot;로 새로 구현하는 것이 좋습니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
 
 ## Adobe Experience Platform Launch 확장을 사용하여 플러그인 설치
 
