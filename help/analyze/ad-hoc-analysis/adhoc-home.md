@@ -1,10 +1,10 @@
 ---
 description: Ad Hoc Analysis을 시작합니다
 title: Ad Hoc Analysis 개요
-translation-type: ht
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
-workflow-type: ht
-source-wordcount: '176'
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,8 @@ ht-degree: 100%
 
 Ad Hoc Analysis은 실시간 방문자 정보를 제한 없이 활용하여 가치가 높은 고객 세그먼트를 식별할 수 있도록 돕기 때문에 데이터를 심층 분석하여 고객을 더 깊고 정확하고 종합적인 방식으로 이해할 수 있습니다.
 
->[!I중요]
+>[!IMPORTANT]
+>
 >2018년 8월 6일, Adobe는 Ad Hoc Analysis를 종료할 예정이라는 발표를 했습니다. 수명 종료 날짜는 확정된 후 공유될 예정입니다. 이 기간 동안의 Java 호환 버전 등 자세한 정보는 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오.
 
 ## 새롭고 인기 있는 주제
