@@ -3,9 +3,9 @@ description: Ad Hoc Analysis를 시작합니다.
 title: 시작하기
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1329'
 ht-degree: 94%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 94%
 
 # Ad Hoc Analysis 시작하기{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!I중요]
+>[!IMPORTANT]
+>
 >2018년 8월 6일, Adobe는 Ad Hoc Analysis를 종료할 예정이라는 발표를 했습니다. 수명 종료 날짜는 확정된 후 공유될 예정입니다. 이 기간 동안의 Java 호환 버전 등 자세한 정보는 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오.
 
 웹 사이트 활동에 대한 즉각적인 고급 분석을 수행할 수 있습니다. 여러 보고서를 동시에 보고 여러 차원에 대한 세그먼트를 적용할 수 있습니다. 미시적 관점과 거시적 관점 모두에서 데이터를 분석하여 중요한 비즈니스 지표에 대한 영향을 볼 수 있습니다.
@@ -80,7 +81,7 @@ c_sys_reqs.xml
 * JavaScript: 활성화
 * Java 버전: Java 1.7 이상 (위 참고 참조)
 
-   올바른 Java 버전이 설치되지 않은 경우 자동으로 설치됩니다. 호환되지 않는 Java 버전이 설치되어 있는 경우 Ad Hoc Analysis은 업데이트를 다운로드하고 설치 여부를 묻습니다.
+   올바른 Java 버전이 설치되지 않은 경우 자동으로 설치됩니다. 호환되지 않는 버전의 Java가 설치되어 있는 경우 Ad Hoc Analysis은 업데이트를 다운로드하고 설치 여부를 묻습니다.
 
 ## Java 업그레이드 지침 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
