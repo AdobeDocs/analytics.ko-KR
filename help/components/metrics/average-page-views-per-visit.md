@@ -2,10 +2,10 @@
 title: 방문당 평균 페이지 보기 수
 description: 주어진 차원 항목이 방문에서 나타난 평균 횟수입니다.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 53%
+source-wordcount: '212'
+ht-degree: 46%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 53%
 
 방문당 평균 페이지 보기 수 차원은 원하는 차원에 대해 평균적으로 발생한 페이지 보기 수를 보여줍니다. 시간 기반 차원의 경우 시간 경과에 따른 방문 트렌드 내 평균 페이지 보기 수를 확인할 수 있습니다. 이 지표는 방문에서 차원 항목이 표시되는 빈도를 이해하려는 경우 유용합니다.
 
->[팁] 이 지표를 다른 지표(예: [방문 횟수](visits.md))와 함께 사용하면 더 나은 통찰력을 얻을 수 있습니다. 이 지표를 단독으로 사용하는 경우, 방문당 예외 항목 페이지 보기가 포함된 차원 항목을 얻는데, 이것은 일반적으로 가치가 없습니다.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 이 지표를 단독으로 사용하는 경우, 방문당 예외 항목 페이지 보기가 포함된 차원 항목을 얻는데, 이것은 일반적으로 가치가 없습니다.
 
 ## 이 지표의 계산 방법
 
