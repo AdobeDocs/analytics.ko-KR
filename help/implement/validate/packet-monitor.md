@@ -3,10 +3,10 @@ title: 패킷 분석기
 description: 패킷 분석기를 사용하여 구현에서 Adobe 데이터 수집 서버로 보낸 데이터를 볼 수 있습니다.
 keywords: packet sniffer, http status, 200, 302, charles
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -33,8 +33,8 @@ Adobe가 정식 패킷 모니터를 제공하지는 않지만 인터넷에서 �
 | Firefox | Internet Explorer | Chrome | 독립 실행형 프로그램 |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin)(태그 뷰어) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)(태그 뷰어) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/ko-KR/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/ko-kr/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
