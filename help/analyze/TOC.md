@@ -5,10 +5,10 @@ user-guide-title: Analytics 툴 안내서
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 99%
+source-wordcount: '1102'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,6 @@ ht-degree: 99%
       + [Analysis Workspace 액세스 가능 여부](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 도움말](report-builder/home.md)
-   + [Report Builder의 새로운 기능](report-builder/whats-new-arb.md)
    + Report Builder 설정 {#report-builder-setup}
       + [시스템 요구 사항](report-builder/setup/system-requirements.md)
       + [Report Builder 설치](report-builder/setup/t-install-arb.md)
@@ -241,8 +240,9 @@ ht-degree: 99%
       + [우수 사례](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 통합 문제 해결](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI용 Adobe Analytics 콘텐츠 팩](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Report Builder 문제 해결 및 우수 사례](report-builder/troubleshoot.md)
    + [Visual Basic 매크로](report-builder/vba.md)
+   + [Report Builder 문제 해결](report-builder/troubleshoot.md)
+   + [Report Builder FAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map 개요](activity-map/activity-map.md)
    + 시작하기 {#getting-started}
