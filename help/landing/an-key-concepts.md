@@ -2,9 +2,9 @@
 description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 title: Adobe Analytics - 주요 개념
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | 세그먼트 | 강력하고 집중된 대상 세그먼트를 빌드, 관리, 공유하고 Analytics 보고서에 적용하는 기능입니다. 세그먼트는 Analytics 제품들 간에 공유되고 Experience Cloud에서도 공유할 수 있습니다. | [세그먼테이션](/help/components/segmentation/seg-home.md) |
 | 시간(날짜 범위) | 날짜를 원하는 기간으로 필터링하고 분석에 다시 사용할 수 있는 사용자 지정 날짜 범위를 생성하는 기능. | [데이터 범위](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | 시각화 | 프로젝트에서 데이터에 생기를 불어넣을 수 있는 풍부한 시각적 요소. | [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| 큐레이션 | 프로젝트나 가상 보고서 세트에서 액세스할 수 있는 구성 요소를 제한하는 기능. | [VRS 큐레이션](/help/components/vrs/vrs-components.md) <br> [프로젝트 조정](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [비교](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| 큐레이션 | 프로젝트나 가상 보고서 세트에서 액세스할 수 있는 구성 요소를 제한하는 기능. | [VRS 큐레이션](/help/components/vrs/vrs-components.md) <br> [프로젝트 조정](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## 주요 보고서
 
