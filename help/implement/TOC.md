@@ -5,10 +5,10 @@ user-guide-title: Analytics 구현 안내서
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
@@ -194,6 +194,7 @@ ht-degree: 100%
    + [Facebook 인스턴트 아티클에서 Analytics 구현](other/fb-instant-articles.md)
 + [모바일 장치용 Analytics 구현](mobile-device-sdk.md)
 + 구현 사용 사례 {#use-cases}
+   + [iFrame에서 AppMeasurement 사용](use-cases/iframe.md)
    + [다양한 구현 유형 추적](use-cases/cross-type-implementation.md)
    + [외부 이메일 추적](use-cases/email-external.md)
 + 구현 유효성 검사 {#validate}
