@@ -2,10 +2,10 @@
 description: 'null'
 title: Power BI에 게시 - 개요
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Microsoft Power BI는 데이터를 분석하고 통찰력을 공유할 수 있�
 Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결합하면 조직의 모든 구성원이 정보에 더 쉽게 액세스할 수 있습니다. 또한 Power BI를 사용하여 Adobe Analytics를 다른 데이터 소스(예: 매장, CRM)와 통합하여 특별한 고객 통찰력, 연결 및 기회를 발견할 수도 있습니다.
 
 ![](assets/aaplusbi.png)
-
-Adobe Report Builder와의 통합을 통해 다음을 수행할 수 있습니다.
-
-* [예약된 Report Builder 통합 문서를 Power BI에 게시](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## 시스템 요구 사항 {#section_0B71092D853446F38FA36447DAC0D32B}
 
