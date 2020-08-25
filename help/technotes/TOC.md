@@ -5,10 +5,10 @@ user-guide-title: Analytics 기술 노트
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 93%
+source-wordcount: '147'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 93%
    + [사용자에게 이벤트 전달](event/communicate.md)
 + [브라우저 쿠키](cookies.md)
 + [데이터 보존](data-retention.md)
++ [데이터 제외](exclude-data.md)
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)
 + [개인 정보 보호 개요](privacy-overview.md)
