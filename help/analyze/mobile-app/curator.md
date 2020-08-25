@@ -2,7 +2,7 @@
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
 translation-type: tm+mt
-source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
+source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 97%
@@ -145,7 +145,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
 3. **공유**&#x200B;를 클릭합니다.
 
-![Share_Scorecards](assets/new_share2.png)
+![Share_Scorecards](assets/new_share.png)
 
 스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌드에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
 
