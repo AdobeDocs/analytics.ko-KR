@@ -2,10 +2,10 @@
 title: writeSecureCookies
 description: AppMeasurement가 Secure 속성을 사용하여 쿠키를 설정할 수 있도록 허용합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: defb701d01747685a421b89a553f47efe40f1432
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,12 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch에서 보안 쿠키 작성
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+[!UICONTROL 보안 쿠키] 쓰기는 Adobe Analytics 익스텐션을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래에 있는 확인란입니다.
+
+1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
+2. 원하는 속성을 클릭합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+4. 쿠키  아코디언을 확장합니다. 그러면 [!UICONTROL 보안 쿠키] 쓰기 확인란이 표시됩니다.
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.writeSecureCookies
 
