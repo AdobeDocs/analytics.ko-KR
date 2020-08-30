@@ -1,16 +1,16 @@
 ---
-title: 동시 뷰어 패널
-description: Analysis Workspace에서 동시 뷰어 패널을 사용하고 해석하는 방법
+title: 미디어 동시 뷰어 패널
+description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용하고 해석하는 방법
 translation-type: tm+mt
-source-git-commit: 807c5e31b376799f4494ecc24cebfd9498c39e63
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
 
 
-# 동시 뷰어 패널
+# 미디어 동시 뷰어 패널
 
 >[!IMPORTANT]
 >
