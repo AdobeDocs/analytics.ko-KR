@@ -5,10 +5,10 @@ user-guide-title: Analytics 기술 노트
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: 35952706f89bf70cd4fd5d33f83b4b2df5b8ffee
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 91%
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,10 @@ ht-degree: 91%
 + [데이터 제외](exclude-data.md)
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)
++ [Mobile Services 처리 규칙을 Adobe Analytics으로 마이그레이션](migrate-mobile.md)
++ [다중 통화 지원](multicurrency.md)
 + [개인 정보 보호 개요](privacy-overview.md)
 + [리디렉션 및 별칭](redirects.md)
-+ [다중 통화 지원](multicurrency.md)
 + 지역 데이터 수집 {#rdc}
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
    + [SSL 공인 라이선스](rdc/ssl-cert-licensing.md)
