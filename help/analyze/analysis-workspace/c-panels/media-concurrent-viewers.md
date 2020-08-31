@@ -2,10 +2,10 @@
 title: 미디어 동시 뷰어 패널
 description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용하고 해석하는 방법
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->이 기능은 Media Analytics 고객을 위해 단계별 롤아웃에 포함되어 있습니다.
+>이 기능은 미디어 분석 고객을 위한 제한된 테스트에 포함되어 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
 
 Media Analytics 고객은 동시 시청 경험을 분석하여 시청 횟수가 가장 적은 상황 또는 이탈이 발생한 상황을 파악하여 컨텐츠 및 뷰어 참여의 품질에 대한 중요한 통찰력을 제공하고 볼륨 또는 규모에 대한 문제 해결 또는 계획을 수립할 수 있습니다.
 
