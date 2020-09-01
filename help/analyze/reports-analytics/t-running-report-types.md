@@ -27,7 +27,7 @@ t_reports_ranked.xml
 
  -->
 
-1. [!UICONTROL 페이지 보고서](**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**)와 같은 보고서를 생성합니다. 
+1. [!UICONTROL 페이지 보고서] (**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**)와 같은 보고서를 생성합니다. 
 1. 보고서 헤더에서 **[!UICONTROL 등급]**&#x200B;을 클릭합니다.
 1. 보고서의 등급을 지정하려면 테이블의 열 제목을 클릭합니다.
 
