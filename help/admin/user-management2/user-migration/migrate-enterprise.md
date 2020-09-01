@@ -38,7 +38,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 * **[!UICONTROL Admin Console]** > **[!UICONTROL 사용자]**&#x200B;에서 현재 사용자 목록을 다운로드합니다.
 
 * 목록을 비교합니다(Admin Console에서 계정 데이터를 겹쳐 쓰지 않도록 중복되는 항목 검색).
-* Enterprise ID 또는 Federated ID 사용자의 완료된 [!DNL .csv](**[!UICONTROL Admin Console]** > **[!UICONTROL 사용자]**&#x200B;에 위치)를 Admin Console에 업로드합니다.
+* Enterprise ID 또는 Federated ID 사용자의 완료된 [!DNL .csv] (**[!UICONTROL Admin Console]** > **[!UICONTROL 사용자]**&#x200B;에 위치)를 Admin Console에 업로드합니다.
 
 기존 Adobe ID 사용자 계정을 Enterprise ID 또는 Federated ID로 마이그레이션해야 하는 경우, Adobe 고객 지원 센터에 문의하여 [대량 사용자 ID 전환](https://helpx.adobe.com/kr/enterprise/using/bulk-operations.html)을 요청하십시오.
 
