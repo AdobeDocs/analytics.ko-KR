@@ -150,7 +150,7 @@ Country = United States + Order = True
 
 ## 순차적 세그먼트의 컨테이너 {#section_324AF503F51A4A62806151FE440F3B2E}
 
-순차적 세그먼테이션은 계층적으로 중첩된 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트](페이지 보기 또는 기타 차원 포함)를 포함하는 동일한 기본 컨테이너를 사용합니다.
+순차적 세그먼테이션은 계층적으로 중첩된 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트] (페이지 보기 또는 기타 차원 포함)를 포함하는 동일한 기본 컨테이너를 사용합니다.
 
 ![](assets/nesting_container.png)
 
