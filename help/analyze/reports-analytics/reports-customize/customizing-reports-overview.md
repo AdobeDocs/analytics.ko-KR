@@ -140,7 +140,7 @@ t_reports_select_page.xml
 
  -->
 
-1. [!UICONTROL 페이지 보기 횟수 보고서](**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 페이지 보기]**)와 같은 보고서를 생성합니다. 
+1. [!UICONTROL 페이지 보기 횟수 보고서] (**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 페이지 보기]**)와 같은 보고서를 생성합니다. 
 1. **[!UICONTROL 선택한 페이지]** 링크를 클릭합니다.
 1. [!UICONTROL 페이지 선택]에서 표시할 페이지를 선택합니다.
 1. 페이지를 찾습니다.
