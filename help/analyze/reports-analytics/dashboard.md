@@ -89,7 +89,7 @@ t_dashboard_add.xml
    [Reportlet 만들기](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 및 [대시보드 설정 편집](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)을 참조하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   대시보드를 저장하면 **[!UICONTROL 대시보드]** 메뉴에서 사용할 수 있게 됩니다. 새로운 대시보드는 [!UICONTROL 대시보드 관리자](**[!UICONTROL 책갈피]** > **[!UICONTROL 대시보드]** > **[!UICONTROL 관리자]**)에서도 사용할 수 있으며 여기에서 대시보드를 편집, 구성, 공유, 예약, 보관하는 등의 작업도 할 수 있습니다. ([대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.)
+   대시보드를 저장하면 **[!UICONTROL 대시보드]** 메뉴에서 사용할 수 있게 됩니다. 새로운 대시보드는 [!UICONTROL 대시보드 관리자] (**[!UICONTROL 책갈피]** > **[!UICONTROL 대시보드]** > **[!UICONTROL 관리자]**)에서도 사용할 수 있으며 여기에서 대시보드를 편집, 구성, 공유, 예약, 보관하는 등의 작업도 할 수 있습니다. ([대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.)
 
 1. (선택 사항) 대시보드를 랜딩 페이지로 설정하려면 **[!UICONTROL 더 많은 옵션]** > **[!UICONTROL 랜딩 페이지로 설정]**&#x200B;을 클릭합니다.
 
