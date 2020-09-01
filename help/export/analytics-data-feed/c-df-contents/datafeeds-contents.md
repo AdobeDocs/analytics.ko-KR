@@ -79,7 +79,7 @@ Datafeed-Manifest-Version: 1.0
 * [!DNL resolution.tsv]
 * [!DNL referrer_type.tsv]
 * [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv](이 데이터 피드에 대해 사용자 정의됨)
+* [!DNL event_lookup.tsv] (이 데이터 피드에 대해 사용자 정의됨)
 
 ## 히트 데이터 파일
 
