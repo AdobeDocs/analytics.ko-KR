@@ -66,7 +66,7 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv](이 데이터 피드에 대해 사용자 정의됨)
+* [!DNL column_headers.tsv] (이 데이터 피드에 대해 사용자 정의됨)
 * [!DNL browser.tsv]
 * [!DNL browser_type.tsv]
 * [!DNL color_depth.tsv]
