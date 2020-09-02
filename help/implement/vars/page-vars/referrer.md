@@ -1,11 +1,11 @@
 ---
 title: 레퍼러
 description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,15 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 레�
 s.referrer = "https://example.com";
 ```
 
-이 변수를 URL이 아닌 값으로 설정하지 마십시오.
+`digitalData` 데이터 [레이어를 사용하는 경우](../../prepare/data-layer.md):
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>이 변수를 URL이 아닌 값으로 설정하지 마십시오.
 
 ## 예
 
