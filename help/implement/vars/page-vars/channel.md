@@ -1,8 +1,11 @@
 ---
 title: channel
 description: '''사이트 섹션'' 차원을 채웁니다.'
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
@@ -30,4 +33,10 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 채�
 
 ```js
 s.channel = "Example site section";
+```
+
+`digitalData` 데이터 [레이어를 사용하는 경우](../../prepare/data-layer.md):
+
+```js
+s.channel = digitalData.page.category.primaryCategory;
 ```
