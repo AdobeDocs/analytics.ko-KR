@@ -2,10 +2,10 @@
 title: 데이터 계층 만들기
 description: Analytics 구현에서 데이터 계층이 무엇이고 Adobe Analytics에서 이 데이터 계층을 사용하여 변수를 매핑하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 91%
 
 ---
 
@@ -61,14 +61,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -77,13 +77,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -124,13 +125,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -139,10 +140,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -154,19 +155,19 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-각 개체 및 하위 개체에 대해 자세히 알려면 [고객 경험 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf) 보고서를 사용하십시오. 일부 사이트에서는 모든 개체를 사용하지 않습니다. 예를 들어 뉴스 사이트를 호스팅하는 경우 `digitalData.product` 개체를 사용할 가능성이 없습니다.
+각 개체 및 하위 개체에 대해 자세히 알려면 [고객 경험 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf) 보고서를 사용하십시오. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
 
 데이터 계층은 확장 가능합니다. 조직만의 고유한 요구 사항이 있다면 해당 요구 사항에 맞게 데이터 계층에 개체를 포함할 수 있습니다.
 
