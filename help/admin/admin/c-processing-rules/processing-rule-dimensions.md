@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 86%
 
 ---
 
@@ -88,11 +91,11 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 이름 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 페이지 보기는 페이지 이름이 비어 있지 않은 모든 히트에서 계산에 포함됩니다. 링크가 추적되면, 페이지 보기가 계산에 포함되지 않도록 데이터 수집 서버가 히트에서 페이지 이름을 제거합니다. 처리 규칙을 사용하여 이 호출에 페이지 이름을 다시 삽입하면, 페이지 보기가 계산에 포함됩니다. 페이지 이름이 이미 설정되어 있다는 것을 확실히 하려면 페이지 이름을 수정하기 전에 확인하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 링크 추적 호출은 처리 규칙에 도달하기 전에 <code>pageName</code> 변수를 제거합니다. 처리 규칙을 사용하여 페이지 이름 값을 다시 삽입하면 이 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. 페이지 이름을 수정하기 전에 페이지 이름이 이미 설정되어 있는지 확인하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 또는 <code> s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL </td> 
+   <td colname="col2"> <code> s.pageURL</code> 또는 <code> s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL <p>참고: 링크 추적 호출은 처리 규칙에 도달하기 전에 <code>pageURL</code> 변수를 제거합니다. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하면 이 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. 페이지 URL을 수정하기 전에 페이지 URL이 이미 설정되어 있는지 확인하는 것이 좋습니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿼리 문자열 매개 변수 </p> </td> 
