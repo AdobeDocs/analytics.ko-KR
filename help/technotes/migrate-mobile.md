@@ -2,9 +2,9 @@
 description: Mobile Services 처리 규칙을 Adobe Analytics으로 마이그레이션하는 방법 살펴보기
 title: Mobile Services 처리 규칙을 Adobe Analytics으로 마이그레이션
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '700'
 ht-degree: 18%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 18%
 Adobe Mobile Services 기능의 예정된 (아직 예고 없이) 일몰을 앞두고, 이 문서에서는 Mobile Services UI에서 만든 라이프사이클 지표를 넘어 추가 처리 규칙을 Adobe Analytics으로 마이그레이션하는 방법에 대한 지침을 제공합니다.
 
 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 prop 및 eVar로 이동합니다. 예를 들어 &quot;search-term&quot; 컨텍스트 데이터 변수의 값을 상거래 변수 eVar의 값으로 가져와서 모든 히트에 해당 값을 덮어쓸 수 있습니다. 처리 규칙이 없으면 컨텍스트 데이터 변수는 의미가 없으며 Analytics에 보고서를 채우지 않습니다.
+
+또한 이 문서에서는 Analysis Workspace의 모바일 사용량 보고에 대해 설명하고 다른 Mobile Services 기능의 마이그레이션 가능성에 대해서도 설명합니다.
 
 ## 처리 규칙 마이그레이션
 
