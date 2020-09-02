@@ -2,9 +2,9 @@
 description: Mobile Services 처리 규칙을 Adobe Analytics으로 마이그레이션하는 방법 살펴보기
 title: Mobile Services 처리 규칙을 Adobe Analytics으로 마이그레이션
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '680'
 ht-degree: 18%
 
 ---
@@ -47,6 +47,10 @@ Adobe Mobile Services 기능의 예정된 (아직 예고 없이) 일몰을 앞�
 * 성능: 앱이 수행되는 방식과 사용자에게 문제가 발생하는 위치
 * 유지: 충성스런 사용자 식별과 이들이 수행하는 작업
 * 움직임: 내 앱에 대해 두드러진 사용 패턴 식별
+
+다음은 모바일 앱 사용 템플릿의 일부입니다.
+
+![모바일 앱 사용](assets/mobile-app-usage.png)
 
 템플릿에 액세스하려면
 
