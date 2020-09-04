@@ -3,7 +3,10 @@ description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용�
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '3131'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +76,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder 업데이트 </p> </td> 
-   <td colname="col2"> <p> <p>중요: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
+   <td colname="col2"> <p> <p>중요: <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a>의 설치를 최신 버전으로 업데이트합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션은 언제 시작됩니까? </p> </td> 
@@ -126,17 +129,12 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션 시작 날짜를 연기할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> 
-    <draft-comment> 
-     <p>시작 날짜의 현재 Analytics 사용자 및 권한 관리에 대한 변경 사항 설명은 아래를 참조하십시오. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p><p>시작 날짜의 현재 Analytics 사용자 및 권한 관리에 대한 변경 사항 설명은 아래를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이제 내 회사가 Admin Console로 마이그레이션 중입니다. 마이그레이션 시작 날짜 전에는 새 사용자 및 권한 그룹을 어디에서 만듭니까? </p> </td> 
-   <td colname="col2"> <p>마이그레이션 시작 날짜 전에는 Admin Console이나 Analytics &gt; [사용자 관리]에서 사용자를 만들 수 있습니다. </p> <p>마이그레이션이 시작되면 Admin Console에서만 사용자와 권한 그룹을 만들 수 있습니다. </p> 
-    <draft-comment> 
-     <p>마이그레이션 시작 날짜에 발생하는 사항에 대한 자세한 내용은 아래 마이그레이션 섹션을 참조하십시오. </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>마이그레이션 시작 날짜 전에는 Admin Console이나 Analytics &gt; [사용자 관리]에서 사용자를 만들 수 있습니다. </p> <p>마이그레이션이 시작되면 Admin Console에서만 사용자와 권한 그룹을 만들 수 있습니다. </p><p>마이그레이션 시작 날짜에 발생하는 사항에 대한 자세한 내용은 아래 마이그레이션 섹션을 참조하십시오. </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 언제 Federated ID를 사용하여 단일 사인온을 구현할 수 있습니까? </p> </td> 
@@ -167,10 +165,8 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션되지 않은 사용자의 권한 그룹 구성원 자격을 업데이트할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>예. Analytics [사용자 관리] 섹션에서 마이그레이션되지 않은 사용자의 그룹 구성원 자격을 변경할 수 있습니다. </p> 
-    <draft-comment> 
-     <p>변경 작업이 수행된 위치에 대해서는 Ashok로부터 명확한 답변을 기다리는 중입니다.  </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>예. Analytics [사용자 관리] 섹션에서 마이그레이션되지 않은 사용자의 그룹 구성원 자격을 변경할 수 있습니다. </p><p>변경 작업이 수행된 위치에 대해서는 Ashok로부터 명확한 답변을 기다리는 중입니다.  </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션이 시작된 후에 Analytics에서 사용자 및 권한 그룹을 만든 다음 마이그레이션 도구를 사용하여 이것을 Admin Console로 이동할 수 있습니까? </p> </td> 
@@ -314,7 +310,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 이 마이그레이션 계획을 현재 사용자에게 사전에 알리고 싶을 수 있습니다. 현재 Analytics 사용자를 모두 보내도록 사용자 지정할 수 있는 템플릿은 다음과 같습니다.
 
-모든 사용자를 이메일로 전송하려면 > **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** 이메일 사용자로 [이동합니다](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
+모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)로 이동하십시오.
 
 **제목:** 예고 - Adobe Analytics 및 Adobe Experience Cloud에 로그인하는 새로운 방법
 
