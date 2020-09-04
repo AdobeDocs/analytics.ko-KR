@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 머리글 및 바닥글 코드 추가
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Dynamic Tag Management는 스테이징 환경에서 변경 사항을 테스트�
 
    ![](assets/dtm-embed.png)
 
-   이 코드를 가능한 한 [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] 태그에 가깝게 배치하십시오. 이 코드 조각은 라이브 프로덕션 사이트의 모든 페이지에 넣어야 합니다.
+   이 코드를 가능한 한 `<head>` 태그에 가깝게 포함했습니다. 이 코드 조각은 라이브 프로덕션 사이트의 모든 페이지에 넣어야 합니다.
 
    >[!NOTE]
    >
