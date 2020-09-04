@@ -1,10 +1,10 @@
 ---
 title: 광고 계정 설정
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth 토큰 </p> </td> 
-      <td colname="col2"> <p>참고: OAuth는 액세스 위임에 대한 개방형 표준으로, 일반적으로 웹 사이트 또는 응용 프로그램에 다른 웹 사이트에 있는 해당 정보에 액세스할 권한을 부여하는 방법으로 사용되지만, 암호를 제공하지 않습니다. </p> <p>참고: 사용자는 타사 URL(efrontier.com)로 라우팅됩니다. Adobe는 efrontier를 사용하여 세 개의 검색 엔진 모두에 대한 OAuth 인증 프로세스를 진행합니다. </p> <p>참고: Internet Explorer 11(또는 이전 버전)을 사용하는 경우 세 개의 검색 엔진에 대한 Oauth 토큰을 성공적으로 검색할 수 없습니다. 대신 다른 웹 브라우저를 사용하십시오. </p> <p><span class="uicontrol">검색 토큰</span>을 클릭하면 OAuth2 인증 프로세스가 실행됩니다. 즉, 사용자의 자격 증명을 사용하여 /Google/Bing 검색 계정에 로그인하라는 메시지가 표시됩니다. 선택한 검색 엔진에 따라 프로세스가 약간 다릅니다. </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Google 계정 ID를 제공합니다. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Bing 계정 ID 및 Bing 고객 ID를 제공합니다. </li> 
-        </ul> <p>이러한 ID에 대한 자세한 내용은 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > 계정 ID 찾기</a>를 참조하십시오. </p> <p>성공적으로 로그인되면 OAuth 토큰 필드에 다음이 표시됩니다. 
-        <systemoutput>
-          검색
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>참고: OAuth는 액세스 위임에 대한 개방형 표준으로, 일반적으로 웹 사이트 또는 응용 프로그램에 다른 웹 사이트에 있는 해당 정보에 액세스할 권한을 부여하는 방법으로 사용되지만, 암호를 제공하지 않습니다. </p> <p>참고: 사용자는 타사 URL(efrontier.com)로 라우팅됩니다. Adobe는 efrontier를 사용하여 세 개의 검색 엔진 모두에 대한 OAuth 인증 프로세스를 진행합니다. </p> <p>참고: Internet Explorer 11(또는 이전 버전)을 사용하는 경우 세 개의 검색 엔진에 대한 Oauth 토큰을 성공적으로 검색할 수 없습니다. 대신 다른 웹 브라우저를 사용하십시오. </p> <p><span class="uicontrol">검색 토큰</span>을 클릭하면 OAuth2 인증 프로세스가 실행됩니다. 즉, 사용자의 자격 증명을 사용하여 /Google/Bing 검색 계정에 로그인하라는 메시지가 표시됩니다. 선택한 검색 엔진에 따라 프로세스가 약간 다릅니다. </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Google 계정 ID를 제공합니다. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Bing 계정 ID 및 Bing 고객 ID를 제공합니다. </li> 
+       </ul> <p>이러한 ID에 대한 자세한 내용은 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > 계정 ID 찾기</a>를 참조하십시오. </p> <p>성공적으로 로그인되면 OAuth 토큰 필드에 다음이 표시됩니다. <code>Retrieved</code>)로 식별됩니다. </p> </td> 
       </tr> 
     </tbody> 
     </table>
