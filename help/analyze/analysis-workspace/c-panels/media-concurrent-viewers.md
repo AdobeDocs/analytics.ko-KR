@@ -2,10 +2,10 @@
 title: 미디어 동시 뷰어 패널
 description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용하고 해석하는 방법
 translation-type: tm+mt
-source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
+source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 11%
 
 ---
 
@@ -77,6 +77,7 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 | 예외 항목 탐지를 실행할 수 있습니까? | 아니요.  이 패널에서는 예외 항목 탐지를 사용할 수 없습니다. |
 | 활성 세션 대신 고유 방문자를 사용하는 이유는 무엇입니까? | 고유 방문자를 사용하면 표시 경계(세션이 종료되고 동시에 시작되는 경우)에서 원하지 않는 스파이크를 제거할 수 있습니다. |
 | 분보다 높은 세부기간에 동시 뷰어를 갖는다는 것은 무슨 의미입니까? | 세부기간이 1분보다 큰 경우 동시 뷰어는 해당 시간 범위 내의 모든 분 동안의 고유한 동시 뷰어의 합계입니다.  예를 들어 시간 수준 세부기간 동시 뷰어는 시간 내 모든 분 동안의 고유한 동시 뷰어의 합계입니다. |
-| 1일 이상의 세부기간을 분 단위로 보려면 어떻게 해야 합니까? | 한 번에 최대 1개월 동안 분단위로 데이터에 액세스하려면 분석 보고 API(2.0 또는 1.4)를 사용할 수 있습니다. Analytics API에 대한 자세한 내용은 [Analytics API 보고서 사용자 안내서를 참조하십시오](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md). |
+| 1일 이상의 세부기간을 분 단위로 보려면 어떻게 해야 합니까? | 한 번에 최대 1개월 동안 분단위로 데이터에 액세스하려면 Analytics 2.0 API를 사용할 수 있습니다. 자세한 내용은 [Analytics 2.0 API를 참조하십시오](https://www.adobe.io/apis/experiencecloud/analytics/docs.html). |
+| 작업 공간 패널에 동시 뷰어 보고서와 동일한 정보가 표시됩니까? | 아니요.  Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시점에 미디어 스트림을 보는 고유 방문자 수로 정의됩니다.<br></br>이는 동시 활성 세션을 사용하는 보고서 섹션의 동시 뷰어 보고 기능과 다릅니다.  고유 방문자 수를 사용하면 세션이 종료되고 동시에 시작하는 표시 경계에서 원하지 않는 스파이크를 제거할 수 있습니다. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
