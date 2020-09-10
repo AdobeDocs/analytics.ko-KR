@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Builder, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: ad91f03a510f0d3d796502df77718c3bbd063f99
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1103'
 ht-degree: 98%
 
 ---
@@ -99,7 +99,6 @@ ht-degree: 98%
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
       + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
-      + [예약된 프로젝트 관리자](analysis-workspace/curate-share/schedule-projects.md)
    + 속성 IQ {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
