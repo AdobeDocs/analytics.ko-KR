@@ -3,10 +3,10 @@ title: JavaScript 릴리스 노트의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 100%
+source-wordcount: '2142'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,12 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 노트입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 [코드 관리자](/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 수 있습니다.
+
+## 버전 2.22.0
+
+릴리스 날짜: **2020년 8월 4일**
+
+* 사용자의 옵트아웃 기본 설정으로 인해 첫 번째 히트가 전송되지 않았을 때 누락된 레퍼러에 대한 수정
 
 ## 버전 2.21.0
 
