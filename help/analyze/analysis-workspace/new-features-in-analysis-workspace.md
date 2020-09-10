@@ -3,7 +3,7 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 기능 | 설명 |
 |--- |--- |
-| 새로운 날짜 범위 사전 설정 | 4개의 새 날짜 범위를 추가했습니다. ([!UICONTROL 이번 주/월/분기/연도(오늘 제외)]). 이렇게 하면 오늘부터 하루 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
+| 새로운 날짜 범위 사전 설정 | 4개의 새 날짜 범위를 추가했습니다.([!UICONTROL 이번 주/월/분기/연도(오늘 제외)]). 이렇게 하면 오늘부터 하루 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 
 ## 2020년 6월
 
@@ -515,7 +515,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>없음/지정되지 않음 변경 </p> </td> 
-   <td colname="col2"> <p>Analytics의 보고서 및 Analysis Workspace, 세그먼트 빌더 및 차원 항목 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식을 변경했습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의 보고 및 분석, 세그먼트 빌더 및 차원 항목 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식을 변경했습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ ht-degree: 98%
    <td colname="col2"> <p>이전에는 Experience Cloud 자격 증명으로 로그인하여 분석으로 이동한 경우 <span class="ignoretag"><span class="uicontrol">공유</span> &gt; <span class="uicontrol">프로젝트 링크 가져오기</span></span> 기능을 사용할 수 없었습니다. 이 문제를 해결했습니다. 여전히 이 선택 사항을 클릭하려면 먼저 프로젝트를 저장해야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >예약된 프로젝트 관리자의 '만료된 프로젝트' 필터</a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >예약된 프로젝트 관리자의 '만료된 프로젝트' 필터</a></b> </p> </td> 
    <td colname="col2"> <p>이제 예약된 프로젝트 관리자에서 만료된 프로젝트를 필터링할 수 있습니다. 그런 다음 이 프로젝트를 다시 시작하거나 삭제할지 여부를 결정할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
