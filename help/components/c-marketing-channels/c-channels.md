@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: 마케팅 채널 관리
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,9 @@ ht-degree: 100%
 
 ## 전제 조건 {#prereqs}
 
-필요한 경우 고객 지원팀에 연락하여 이러한 전제 조건에 대한 도움을 받으십시오.
-
-* 관리자 콘솔(일반 계정 설정)에서 보고서 세트에 대한 **[!UICONTROL 전환 수준]**(전자 상거래) 옵션을 활성화합니다.
-
-   자세한 내용은 Analytics 도움말의 [일반 계정 설정](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/general-acct-settings-admin.html)을 참조하십시오.
-
 * 마케팅 채널 차원에 대한 액세스 권한을 설정합니다.
 
    [마케팅 채널 권한](/help/components/c-marketing-channels/c-channel-report-access.md)을 참조하십시오.
-
-* 계정 관리자가 보고서 세트에 대한 **[!UICONTROL 채널 보고서]**&#x200B;를 활성화했는지 확인합니다.
 
 ## 마케팅 채널 추가를 참조하십시오 {#add-mktg-channels}
 
