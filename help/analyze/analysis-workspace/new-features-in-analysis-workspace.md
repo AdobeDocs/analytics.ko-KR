@@ -3,9 +3,9 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7821'
 ht-degree: 98%
 
 ---
@@ -1135,9 +1135,9 @@ ht-degree: 98%
 
 *`Save As`* 기능은 [!UICONTROL 계산된 지표 빌더] 및 [!UICONTROL 날짜 범위 빌더]에서도 사용할 수 있습니다.
 
-## 새 세그먼트 추가 단추 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## 새 세그먼트 추가
 
-**[!UICONTROL 새 세그먼트 추가]** 단추가 세그먼트를 드래그하여 프로젝트에 놓는 위치에 추가되었습니다.
+세그먼트를 **[!UICONTROL 프로젝트에 드래그하여 놓을 수 있도록 여기에]** 세그먼트 놓기 드롭 영역이 추가되었습니다.
 
 ![](assets/add-new-segment.png)
 
