@@ -2,7 +2,7 @@
 description: A4T(Analytics for Target) 패널을 사용하면 Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다.
 title: A4T(Analytics for Target) 패널
 translation-type: tm+mt
-source-git-commit: 3d9bfabba6752f85173814c0e18d485122f7aa76
+source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 87%
