@@ -1,11 +1,11 @@
 ---
 description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록
 title: Analysis Workspace의 알려진 제한 사항
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 87%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 ## 구성 요소 > 세그먼트
 
 * 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 세그멘테이션할 수 없습니다.
-* 세그먼트가 Workspace에서 만들어지는 경우([!UICONTROL 구성 요소 > 세그먼트]에서 만드는 것이 아니라) 특정 구성 요소 및 연산자를 사용할 수 없습니다. 예를 들어 IP 주소가 그렇습니다.
+* 패널 [드롭존에서](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) 만들어진 임시 세그먼트는 공개되지 않는 한 작업 공간 또는 세그먼트 구성 요소 관리자의 왼쪽 레일에 나타나지 않습니다. 이 작업은 세그먼트를 편집하고 이 세그먼트 공개 **[!UICONTROL 를 선택하여 수행할 수 있습니다]**.
 
 ## 구성 요소 > 계산된 지표
 
