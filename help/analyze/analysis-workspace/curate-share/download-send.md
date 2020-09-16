@@ -3,9 +3,9 @@ description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV �
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
+source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '985'
 ht-degree: 8%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 8%
 # PDF 또는 CSV 파일 다운로드 작업 공간에서
 
 도구 외부에서 분석하려는 데이터 세트와 정보를 받아야 하는 사람에 따라 Analysis Workspace에서 데이터를 내보낼 수 있는 방법에는 여러 가지가 있습니다. 내보낸 데이터는 복사된 데이터, CSV 또는 PDF 파일 형태로 될 수 있습니다. PDF는 일반적으로 시각화를 파일에 포함하려는 경우 선호되지만 CSV(또는 복사된 데이터)는 단순히 일반 텍스트 데이터를 원하는 경우에 선호됩니다.
-
->[!IMPORTANT]
->
-> CSV로 항목 **다운로드**&#x200B;등 이 페이지에서 참조되는 일부 옵션은 현재 제한된 테스트 중입니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
 
 ## 프로젝트를 CSV 또는 PDF로 다운로드 {#download-project}
 
