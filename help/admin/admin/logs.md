@@ -4,7 +4,7 @@ title: 로그
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
+source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 72%
@@ -39,7 +39,7 @@ ht-degree: 72%
 ### 이벤트 유형
 
 | 이벤트 유형 | 설명 |
-| --- |--- |
+| --- | --- |
 | 카테고리 없음 | 이벤트 유형일 수 있습니다. |
 | 로그인 실패 | 사용자 로그인 프로세스가 실패했습니다. |
 | 로그인 성공 | 사용자가 로그인했습니다. |
