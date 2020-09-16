@@ -5,10 +5,10 @@ title: Analysis Workspace에서 사용 가능한 핫키(단축키)
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: bbc137a8914afeba02af326fb3bb9b92c0f16eb3
+source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 77%
+source-wordcount: '285'
+ht-degree: 58%
 
 ---
 
@@ -17,14 +17,16 @@ ht-degree: 77%
 
 Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 완벽한 내비게이션, 분석 및 민주화를 수행할 수 있습니다.
 
-참고: `CTRL` = Windows 및 `command` = Mac
+참고:
+* `Ctrl` = Windows 및 `Command` = Mac
+* `Alt` = Windows 및 `Option` = Mac
 
 ## 탐색 작업
 
 | 작업 | 단축키 |
 |---|---|
-| 새 프로젝트 만들기 | ctrl(또는 cmd) + shift + p |
-| 기존 프로젝트 열기 | ctrl(또는 cmd) + o |
+| 새 프로젝트 만들기 | ctrl + shift + p |
+| 기존 프로젝트 열기 | ctrl + o |
 | [패널] 창으로 이동 | alt + shift + 1 |
 | [시각화] 창으로 이동 | alt + shift + 2 |
 | [구성 요소] 창으로 이동 | alt + shift + 3 |
@@ -38,17 +40,17 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 | 작업 | 단축키 |
 |---|---|
 | 왼쪽 레일 검색 | ctrl + / |
-| 경고 만들기 | ctrl(또는 cmd) + shift + a |
-| 계산된 지표 만들기 | ctrl(또는 cmd) + shift + c |
-| 날짜 범위 만들기 | ctrl(또는 cmd) + shift + d |
-| 세그먼트 만들기 | ctrl(또는 cmd) + shift + e |
+| 경고 만들기 | ctrl + shift + a |
+| 계산된 지표 만들기 | ctrl + shift + c |
+| 날짜 범위 만들기 | ctrl + shift + d |
+| 세그먼트 만들기 | ctrl + shift + e |
 | 모두 삭제 | Alt + w |
-| 복사 | ctrl(또는 cmd) + c |
-| 다시 실행 | ctrl(또는 cmd) + shift + z |
-| 실행 취소 | ctrl(또는 cmd) + z |
+| 복사 | ctrl + c |
+| 다시 실행 | ctrl + shift + z |
+| 실행 취소 | ctrl + z |
 | 구성 요소 새로 고침 | alt + shift + r |
 | 프로젝트 새로 고침 | alt + r |
-| 랜딩 페이지로 설정 | ctrl(또는 cmd) + shift + l |
+| 랜딩 페이지로 설정 | ctrl + shift + l |
 
 ## 패널 및 시각화 동작 추가
 
@@ -69,13 +71,13 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 
 | 작업 | 단축키 |
 |---|---|
-| 프로젝트 저장 | ctrl(또는 cmd) + s |
-| 다른 이름으로 프로젝트 저장 | ctrl(또는 cmd) + shift + s |
+| 프로젝트 저장 | ctrl + s |
+| 다른 이름으로 프로젝트 저장 | ctrl + shift + s |
 | 템플릿으로 저장 | alt + t |
-| CSV로 다운로드 | ctrl(또는 cmd) + shift + v |
-| PDF로 다운로드 | ctrl(또는 cmd) + shift + b |
-| 프로젝트 데이터 조정 | ctrl(또는 cmd) + shift + g |
-| 프로젝트 공유 | ctrl(또는 cmd) + g |
+| CSV로 다운로드 | ctrl + shift + v |
+| PDF로 다운로드 | ctrl + shift + b |
+| 프로젝트 데이터 조정 | ctrl + shift + g |
+| 프로젝트 공유 | ctrl + g |
 | 프로젝트 링크 가져오기 | alt + l |
 | 지금 파일 보내기 | alt + s |
 | 일정에 따라 파일 보내기 | Shift +Alt + s |
