@@ -4,15 +4,19 @@ title: 세그먼트 작성
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 93%
 
 ---
 
 
 # 세그먼트 작성
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 Ad Hoc Analysis는 Analytics 세그멘테이션 환경과 통합되므로 Adobe 제품 간에 방문자 세그먼트를 작성하고, 공유하고, 관리하고, 적용할 수 있습니다. Ad Hoc Analysis는 다른 Analytics 도구에서 사용하는 웹 기반 도구와 동일한 세그먼트 빌더 및 세그먼트 관리자용의 Java 기반 사용자 인터페이스를 제공하여, 일치하는 서버 호출을 찾고 Java 기반 콘솔에서 동일한 기능을 제공합니다.
 
