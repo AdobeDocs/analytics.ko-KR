@@ -3,16 +3,20 @@ description: 방문자 수, 고객 충성도, 방문자 특성 등 방문자와 
 title: 방문자 보고서
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '870'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 98%
 
 ---
 
 
 # 방문자 보고서
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 방문자 수, 고객 충성도, 방문자 특성 등 방문자와 관련된 정보를 표시합니다.
 
