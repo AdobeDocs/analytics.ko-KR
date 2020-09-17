@@ -3,9 +3,9 @@ description: 가장 방문 횟수가 많은 사이트 페이지 및 영역과 �
 title: 사이트 컨텐츠 보고서
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '545'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+>Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다.
 
