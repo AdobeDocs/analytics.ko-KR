@@ -2,7 +2,7 @@
 title: 내부 검색어 캡처
 description: 사용자 지정 변수를 사용하여 내부 검색어를 캡처합니다.
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). 개발 환경에서 작동 중임을 확인한 후 개발 구현 [의 유효성을 확인하고 프로덕션에 게시할 수 있습니다](../launch/validate-publish-prod.md).
 
-## 작업 공간에서 보고를 참조하십시오.
+## 작업 공간에서 보고
 
 구현을 통해 데이터를 수집하는 시간을 지정한 다음 Analysis Workspace에서 차원 사용을 시작할 수 있습니다.
 
