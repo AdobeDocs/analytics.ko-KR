@@ -2,10 +2,10 @@
 title: 주
 description: 지표가 발생한 주입니다.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 58%
+source-wordcount: '141'
+ht-degree: 42%
 
 ---
 
@@ -20,4 +20,6 @@ ht-degree: 58%
 
 ## Dimension 항목
 
-Dimension 항목에는 주의 첫째 날의 날짜(월, 일 및 연도)가 포함됩니다.
+Analysis Workspace에서 차원 항목에는 주의 첫째 날의 날짜(월, 일 및 연도)가 포함됩니다.
+
+Data Warehouse에서 차원 항목에는 요청의 날짜 범위를 기반으로 번호가 매겨진 주일이 포함됩니다. 예를 들어 첫 번째 전체 주는 입니다 `"Week 1"`. 요청에 부분 주가 포함된 경우 데이터는 차원 항목으로 그룹화됩니다 `"Week 0"`.
