@@ -1,8 +1,11 @@
 ---
-title: 개발 환경에 Adobe Analytics 배포
-description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
-translation-type: ht
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+title: 개발 구현 유효성 검사 및 프로덕션에 게시
+description: Adobe Experience Platform Launch을 사용하여 프로덕션 환경에 Adobe Analytics을 배포하는 방법을 살펴볼 수 있습니다.
+translation-type: tm+mt
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 93%
 
 ---
 
@@ -61,7 +64,7 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 
 ## 다음 단계
 
-기본 구현이 설정되었으므로 조직 내에서 귀하의 역할이 다음 사항에 대해 학습할 경로에 영향을 줄 수 있습니다.
+기본 구현이 설정되었으므로 조직 내 역할은 다음 사항에 대해 학습할 경로에 영향을 줄 수 있습니다.
 
 * [솔루션 디자인 문서 만들기](../prepare/solution-design.md): 사용자 지정 변수를 사용할 방법을 계획한 다음 구현에 포함시킵니다.
 * [Analysis Workspace 사용하기](/help/analyze/analysis-workspace/home.md): 도구의 주요 기능을 사용하여 Adobe Analytics를 바로 사용해 보십시오.
