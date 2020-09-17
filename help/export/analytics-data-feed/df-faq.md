@@ -3,10 +3,10 @@ description: 데이터 피드에 대한 FAQ
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 데이터 피드 FAQ
 translation-type: tm+mt
-source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '318'
+ht-degree: 66%
 
 ---
 
@@ -30,3 +30,9 @@ Adobe Analytics에서는 대부분의 변수가 보고 목적으로 대소문자
 ## 보트는 관리 콘솔 보트 규칙으로 필터링됩니까?
 
 데이터 피드에는 관리 콘솔 보트 규칙으로 필터링된 보트 [가 포함되지 않습니다](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+
+## 데이터 피드 열 `000` 또는 `event_list` `post_event_list` 데이터 피드 열에 여러 값이 표시되는 이유는 무엇입니까?
+
+일부 스프레드시트 편집자, 특히 Microsoft Excel은 매우 많은 수의 파일을 자동으로 전달합니다. 열에는 쉼표로 구분된 숫자가 많이 포함되어 있어 Excel에서 이 값을 큰 수로 처리하는 경우가 있습니다. `event_list` 마지막 몇 자리를 다음으로 회전합니다 `000`.
+
+Adobe은 Microsoft Excel에서 파일을 자동으로 열지 않도록 `hit_data.tsv` 권장합니다. 대신 Excel의 데이터 가져오기 대화 상자를 사용하여 모든 필드가 텍스트로 취급되었는지 확인합니다.
