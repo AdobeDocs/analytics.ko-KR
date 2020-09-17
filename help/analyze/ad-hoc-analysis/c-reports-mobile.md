@@ -3,9 +3,9 @@ description: '모바일 장치에서의 웹 사이트 액세스에 대한 정보
 title: 모바일 보고서
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+>Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 모바일 장치에서의 웹 사이트 액세스에 대한 정보를 표시합니다. 모바일 보고서는 사이트를 보는 데 사용된 모바일 장치에 대한 데이터를 수집하여 방문자 식별 정확도를 높입니다. 모바일 보고서는 장치의 제조업체 및 기능(예: 화면 크기, 비디오, 오디오, 쿠키 지원 및 기타 지표)을 식별할 수 있습니다. 모바일 보고서는 모든 보고서 세트에 사용할 수 있습니다.
 
