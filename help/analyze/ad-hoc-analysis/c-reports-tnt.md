@@ -4,12 +4,19 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 92%
 
 ---
 
 
 # Adobe Target
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 Analytics 보고서에서 Adobe Target 트래픽 데이터를 보고 세그먼트화할 수 있습니다.
 
