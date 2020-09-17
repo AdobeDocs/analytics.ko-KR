@@ -3,10 +3,10 @@ description: Ad Hoc Analysis를 시작합니다.
 title: 시작하기
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 94%
+source-wordcount: '1305'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->2018년 8월 6일, Adobe는 Ad Hoc Analysis를 종료할 예정이라는 발표를 했습니다. 수명 종료 날짜는 확정된 후 공유될 예정입니다. 이 기간 동안의 Java 호환 버전 등 자세한 정보는 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오.
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 웹 사이트 활동에 대한 즉각적인 고급 분석을 수행할 수 있습니다. 여러 보고서를 동시에 보고 여러 차원에 대한 세그먼트를 적용할 수 있습니다. 미시적 관점과 거시적 관점 모두에서 데이터를 분석하여 중요한 비즈니스 지표에 대한 영향을 볼 수 있습니다.
 
