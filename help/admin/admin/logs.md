@@ -2,9 +2,8 @@
 description: 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다.
 title: 로그
 topic: Admin tools
-uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
+source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 72%
