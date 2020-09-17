@@ -3,15 +3,19 @@ description: 달력에서 날짜와 날짜 범위를 지정하거나 사전 설�
 title: 날짜 및 날짜 범위
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
 
 # 날짜 및 날짜 범위
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 달력에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다. 프로젝트, 작업 공간 및 보고서 수준에서 일정을 선택할 수 있습니다. 프로젝트의 날짜 범위는 기본 날짜입니다. 하지만 작업 공간 날짜 범위는 프로젝트의 날짜 범위를 덮어씁니다. 유사하게 보고서의 날짜 범위는 작업 공간과 프로젝트의 날짜 설정을 덮어씁니다. 데이터 가용성 범위 밖의 날짜 범위는 선택할 수 없습니다.
 
