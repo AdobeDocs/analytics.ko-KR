@@ -3,16 +3,20 @@ description: 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 
 title: 트래픽 소스 보고서
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 99%
 
 ---
 
 
 # 트래픽 소스 보고서
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 트래픽 소스 보고서로 방문자와 웹 사이트의 상호 작용을 세부적으로 파악할 수 있습니다.
 
