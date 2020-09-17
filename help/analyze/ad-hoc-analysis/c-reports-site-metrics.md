@@ -4,9 +4,9 @@ title: 사이트 지표 보고서
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1413'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+>Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 방문자가 특정 페이지를 본 횟수, 특정 페이지에서 발생한 총 구매 횟수, 온 시간 및 유사한 수량 데이터와 같이, 웹 사이트에 대한 수량적 정보를 제공합니다. 이러한 보고서 각각은 다른 항목 기반 보고서에 배치할 수 있는 지표입니다.
 
