@@ -2,16 +2,20 @@
 description: 'null'
 title: Ad Hoc Analysis 프로젝트 변환기 개요
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 93%
 
 ---
 
 
 # Ad Hoc Analysis 프로젝트 변환기 개요
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 Ad Hoc Analysis 프로젝트 변환기는 모든 Ad Hoc 프로젝트를 Analysis Workspace로 원활하게 변환할 수 있습니다.
 
