@@ -3,9 +3,9 @@ description: 테이블 빌더를 사용하면 원하는 지표, 차원 및 세�
 title: 테이블 빌더
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+>Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 테이블 빌더를 사용하면 원하는 지표, 차원 및 세그먼트 구성으로 보고서를 만들 수 있습니다. 예를 들어 테이블 빌더에 여러 지표를 추가한 다음 세그먼트를 모든 지표에 동시에 적용할 수 있습니다. 도구 창의 항목을 행과 분류 또는 열로 적용하고 다른 보기용으로 표를 간단하게 회전할 수 있습니다. 테이블을 빌드한 후 추가적인 분석을 위해 결과 데이터 테이블과 직접 상호 작용할 수 있습니다. 테이블 빌더에서 데이터 테이블을 생성하면 쿼리가 실행되고 새로운 데이터 테이블이 만들어진다는 것을 기억하십시오.
 
