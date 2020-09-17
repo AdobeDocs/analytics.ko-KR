@@ -3,10 +3,10 @@ description: 라인 시각화를 사용하여 트렌드(시간 기반) 데이터
 title: 라인
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 12%
 라인 시각화는 일정 기간 동안 값이 변경되는 방법을 보여주기 위해 행을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다.
 
 ![선 시각화](assets/line-viz.png)
-
->[!IMPORTANT]
->
->트렌드 표시 [!UICONTROL 와]같은 일부 라인 시각화 설정이 현재 제한된 테스트에 있습니다. [추가 정보](/help/landing/an-releases.md)
 
 라인 시각화의 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하여 [**시각화 설정에**](freeform-analysis-visualizations.md) 액세스합니다. 설정은 다음과 같이 분류됩니다.
 
@@ -42,6 +38,10 @@ ht-degree: 12%
 ## 트렌드 오버레이 표시
 
 시각화 **[!UICONTROL 설정]** > **[!UICONTROL 오버레이]** > **[!UICONTROL 트렌드]**&#x200B;표시아래에서 회귀 트렌드를 라인 시리즈에 추가할 수 있습니다. 트렌드라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다.
+
+>[!TIP]
+>
+>트렌드는 트렌드를 왜곡하므로 오늘(부분 데이터) 또는 미래 날짜가 포함되지 않은 데이터에 트렌드를 적용하는 것이 좋습니다. 하지만 이후 날짜를 포함해야 하는 경우 데이터에서 0을 제거하여 해당 날짜에 대한 기울기를 방지합니다. 이렇게 하려면 시각화의 데이터 소스 테이블로 이동하여 지표 열을 선택합니다. 그런 다음 [!UICONTROL 열 설정으로] 이동하여 **[!UICONTROL 0을 값]**&#x200B;없음으로 해석합니다.)
 
 ![선형 트렌드라인](assets/show-linear-trendline.png)
 
