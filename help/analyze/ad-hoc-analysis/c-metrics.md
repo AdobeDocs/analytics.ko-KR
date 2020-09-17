@@ -3,9 +3,9 @@ description: 지표는 보기 수, 클릭스루 횟수, 재로드 횟수, 평균
 title: 지표
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+>Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 지표는 보기 수, 클릭스루 횟수, 재로드 횟수, 평균 체류 시간, 날짜, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량적 정보입니다. 지표와 관련 데이터는 보고서 열에 표시됩니다.
 
