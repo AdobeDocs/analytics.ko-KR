@@ -4,9 +4,9 @@ title: 예약 관리자
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 98%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+>Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 보고서에 대한 배달 일정을 사용자 지정할 수 있습니다. 특정 시간에 배달을 중지하거나 보고서를 전송할 횟수를 지정할 수 있습니다. 새 일정에서는 보고서에 정의된 날짜 범위를 사용합니다. 예를 들어, 지난 90일에 대한 보고서를 만들어 일일 실행 일정을 지정하는 경우 지난 90일의 각 날에 대한 보고서를 받습니다. 달력에서 정적 날짜 범위로 보고서를 만드는 경우 전송될 때마다 동일한 보고서를 보게 됩니다.
 
