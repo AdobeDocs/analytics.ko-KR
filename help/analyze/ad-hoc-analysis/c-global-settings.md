@@ -3,12 +3,19 @@ description: 글로벌 행동 설정을 구성합니다. 예를 들어 자동 �
 title: 설정
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
 
 # 설정
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 
@@ -16,7 +23,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 글로벌 행동 설정을 구성합니다. 예를 들어 자동 저장, 차트 및 테이블 설정을 구성하고, 글꼴과 로케일을 지정할 수 있습니다.
 
-**[!UICONTROL Tools]** 을 > **[!UICONTROL Settings]** 클릭하여 액세스합니다 [!UICONTROL Global Settings].
+**[!UICONTROL 도구]** > **[!UICONTROL 설정]**&#x200B;을 클릭하여 [!UICONTROL 글로벌 설정]에 액세스합니다.
 
 ## 일반 설정 탭 - 정의를 참조하십시오{#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
