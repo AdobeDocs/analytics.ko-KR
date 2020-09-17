@@ -3,12 +3,19 @@ description: 시간은 시간, 일, 주 및 데이터 범위에 대한 트렌드
 title: 시간
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 97%
 
 ---
 
 
 # 시간
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 시간은 시간, 일, 주 및 데이터 범위에 대한 트렌드를 표시하는 데 유용한 보고 차원입니다. 예를 들어 제품 보고서는 선택한 기간 동안 제품이 올린 매출을 표시합니다. [일] 차원을 추가하여 보고 기간 내의 각 날에 대한 트렌드를 확인할 수 있습니다. [시간]은 시간, 일, 주, 월, 분기 및 년으로 이루어진 세부기간 설정을 제공합니다. 날짜 범위 사전 설정에는 오늘, 어제 및 최근 7일과 같은 설정이 포함되어 있습니다.
 
