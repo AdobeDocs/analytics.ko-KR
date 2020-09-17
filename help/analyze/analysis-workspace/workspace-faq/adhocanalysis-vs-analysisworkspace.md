@@ -3,10 +3,10 @@ description: Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합
 title: Ad Hoc Analysis와 비교한 Analysis Workspace
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 86%
+source-wordcount: '931'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+>Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 Ad Hoc Analysis 용어와 작업을 Analysis Workspace와 비교합니다.
 
