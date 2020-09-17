@@ -5,7 +5,7 @@ title: Analysis Workspace에서 사용 가능한 핫키(단축키)
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 58%
@@ -24,7 +24,7 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 ## 탐색 작업
 
 | 작업 | 단축키 |
-|---|---|
+| --- | --- |
 | 새 프로젝트 만들기 | ctrl + shift + p |
 | 기존 프로젝트 열기 | ctrl + o |
 | [패널] 창으로 이동 | alt + shift + 1 |
@@ -38,7 +38,7 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 ## 분석 작업
 
 | 작업 | 단축키 |
-|---|---|
+| --- | --- |
 | 왼쪽 레일 검색 | ctrl + / |
 | 경고 만들기 | ctrl + shift + a |
 | 계산된 지표 만들기 | ctrl + shift + c |
@@ -55,7 +55,7 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 ## 패널 및 시각화 동작 추가
 
 | 작업 | 단축키 |
-|---|---|
+| ---|---|
 | 새 Target 패널 분석 | alt + g |
 | 새 기여도 분석 패널 | alt + e |
 | 새 빈 패널 | Alt + b |
@@ -70,7 +70,7 @@ Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 
 ## 민주화 운동
 
 | 작업 | 단축키 |
-|---|---|
+| --- | --- |
 | 프로젝트 저장 | ctrl + s |
 | 다른 이름으로 프로젝트 저장 | ctrl + shift + s |
 | 템플릿으로 저장 | alt + t |
