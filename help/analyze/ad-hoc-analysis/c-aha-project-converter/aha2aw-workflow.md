@@ -2,18 +2,22 @@
 description: 'null'
 title: Ad Hoc Analysis에서 프로젝트 변환
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
 
 # Ad Hoc Analysis에서 프로젝트 변환
 
-## Ad Hoc Analysis에서 프로젝트 변환 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
+
+## 프로젝트 변환 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 프로젝트를 변환하기 전에 다음 사항을 확인하십시오.
 
@@ -28,7 +32,7 @@ Ad Hoc Analysis 프로젝트 변환과 관련된 옵션이 두 개 있습니다.
 * 목록에서 변환할 프로젝트를 선택합니다.
 * 현재 열려 있는 프로젝트만 변환합니다.
 
-**목록에서 프로젝트 선택**
+### 목록에서 프로젝트 선택
 
 1. Ad Hoc Analysis에서 **[!UICONTROL 파일]** > **[!UICONTROL 프로젝트를 Analysis Workspace로 변환]**&#x200B;을 클릭합니다.
 
@@ -43,7 +47,7 @@ Ad Hoc Analysis 프로젝트 변환과 관련된 옵션이 두 개 있습니다.
 
    ![](assets/export_summary.png)
 
-**현재 프로젝트 변환**
+### 현재 프로젝트 변환
 
 1. Ad Hoc Analysis에서 변환할 프로젝트를 엽니다.
 1. **[!UICONTROL 현재 프로젝트를 Analysis Workspace로 변환]**&#x200B;을 클릭합니다. ![](assets/export_current.png)
