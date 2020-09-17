@@ -2,16 +2,20 @@
 description: 'null'
 title: 프로젝트 변환기 FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 98%
 
 ---
 
 
 # 프로젝트 변환기 FAQ
+
+>[!IMPORTANT]
+>
+>Adobe은 Ad Hoc Analysis을 2021년 3월 1일 삶의 종료로 이동시키고 있다. [추가 정보...](https://adobe.ly/discoverworkspace).
 
 ## 프로젝트 변환기 FAQ {#topic_8231595303AD403E9322645A63632D57}
 
