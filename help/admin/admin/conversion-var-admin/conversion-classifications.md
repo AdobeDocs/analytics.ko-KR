@@ -2,10 +2,10 @@
 description: 분류는 값을 그룹으로 분류하고 그룹 수준으로 보고하는 데 사용됩니다. 예를 들어 모든 유료 검색 캠페인을 "팝 뮤직 용어" 같은 카테고리로 분류하고 인스턴스(클릭스루라고도 함) 같은 지표와 관련한 해당 카테고리의 성공 및 성공 이벤트로의 전환을 보고합니다.
 title: 전환 분류
 translation-type: tm+mt
-source-git-commit: de7dd41bba6907d6af7a59dc385ca6a185d503ae
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 전환 분류를 사용하면 전환 변수를 분류할 수 있습니다. 한 번 분류하면, 키 데이터를 사용하여 생성할 수 있는 어떤 보고서도 관련 데이터 속성을 사용하여 생성할 수 있습니다.
 
 분류를 활성화한 후에 [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md)를 사용하여 해당 분류에 특정 값을 할당할 수 있었습니다.
+
+>[!WARNING]
+>
+>분류 이름을 바꾸면 분류 규칙 빌더에서 만든 기존 규칙에 문제가 [발생할 수 있습니다](/help/components/classifications/crb/classification-rule-builder.md). 분류 규칙이 있는 분류 이름을 변경하는 경우 이름이 변경된 분류를 가리키도록 각 규칙을 수정하십시오.
 
 ## 전환 분류 설명
 
