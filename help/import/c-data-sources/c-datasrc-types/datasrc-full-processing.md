@@ -4,20 +4,20 @@ subtopic: Data sources
 title: 전체 처리
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 96%
 
 ---
 
 
 # 전체 처리
 
->[!NOTE]
+>[!IMPORTANT]
 >
->고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. 전체 처리 데이터 소스는 미래에는 더 이상 사용되지 않습니다.
+>고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. Adobe은 향후 전체 처리 데이터 소스를 더 이상 사용하지 않을 계획이다.
 
 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
@@ -114,12 +114,12 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p>pageUrl </p> </td> 
    <td colname="col2"> <p>pageUrl </p> </td> 
-   <td colname="col3"> <p>페이지 URL(예: <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>페이지 URL(예: <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>제품 목록(예: <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). 행당 최대 4096바이트 값을 보유할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
