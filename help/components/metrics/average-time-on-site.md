@@ -2,10 +2,10 @@
 title: 사이트의 평균 시간
 description: 히트 사이에 주어진 차원 항목이 존재한 평균 시간입니다.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 `Product page A`에 대한 총 체류 시간은 `00:03:10`가 됩니다. 이 방문에는 두 개의 연속 값에 대한 첫 번째 시퀀스와 체크아웃 전 두 번째 시퀀스, 이렇게 두 개의 시퀀스가 있습니다. 종료 타임스탬프가 없으므로 방문의 마지막 히트는 시퀀스가 아닙니다.
 
 `Product page A`에 대한 사이트의 평균 시간은 `00:01:35`입니다.
+
+>[!NOTE]
+>
+>이 지표는 차원 항목에 방문에서 마지막으로 있었던 히트만 포함된 `"Invalid"` 경우 값을 보여줍니다. 이 지표는 체류 시간을 추적하려면 후속 히트가 필요합니다.
 
 ## 사이트에서 보낸 평균 시간(초)
 
