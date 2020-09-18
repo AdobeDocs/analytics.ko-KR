@@ -5,10 +5,10 @@ title: FTP 가져오기
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -95,3 +95,7 @@ Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://docs.adobe.co
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 만든 후에, 원하는 FTP 계정 옆의 해당하는 링크를 클릭하여 FTP 계정을 편집하거나 삭제합니다.
+
+>[!NOTE]
+>
+>가져오기가 분류를 변경하지 않으면 알림이 전송되지 않습니다. 이메일은 성공적으로 분류가 변경된 경우에만 전송됩니다.
