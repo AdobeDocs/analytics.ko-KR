@@ -6,10 +6,10 @@ title: 데이터 열 참조
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
-ht-degree: 98%
+source-wordcount: '3667'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
 | `ef_id` | Adobe Advertising Cloud 통합에 사용되는 ef_id입니다. | varchar(255) |
 | `evar1 - evar250` | 사용자 지정 변수 1-250입니다. 각 조직은 eVar을 다르게 사용합니다. 조직이 각 eVar을 채우는 방법에 대한 자세한 정보는 조직별 솔루션 설계 문서를 참조하십시오. | varchar(255) |
 | `event_list` | 히트로 트리거된 이벤트를 나타내는 숫자 ID들을 쉼표로 구분한 목록입니다. 기본 이벤트와 사용자 지정 이벤트 1-1000을 모두 포함합니다. event.tsv 조회를 사용합니다. | text |
-| `exclude_hit` | 히트가 보고에서 제외됨을 나타내는 플래그입니다. visit_num 열은 제외된 히트에 대해 증가하지 않습니다.<br>1: 사용되지 않음. 스크랩된 기능 일부입니다.<br>2: 사용되지 않음. 스크랩된 기능 일부입니다.<br>3: 더 이상 사용되지 않음. 사용자 에이전트 제외<br>4: IP 주소에 따라 제외<br>5: page_url, pagename, page_event 또는 event_list와 같은 중요한 히트 정보가 없음<br>6: JavaScript가 현재 히트를 제대로 처리하지 않음<br>7: VISTA 규칙에서와 같이 계정별 제외<br>8: 사용되지 않음. 대체 계정별 제외.<br>9: 사용되지 않음. 스크랩된 기능 일부입니다.<br>10: 잘못된 통화 코드<br>11: 타임스탬프 전용 보고서 세트에서 히트에 타임스탬프가 없거나 히트에 타임스탬프가 아닌 보고서 세트의 타임스탬프가 포함됨<br>12: 사용되지 않음. 스크랩된 기능 일부입니다.<br>13: 사용되지 않음. 스크랩된 기능 일부입니다.<br>14: Analytics 히트와 일치하지 않는 Target 히트<br>15: 현재 사용되지 않음.<br>16: Analytics 히트와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
+| `exclude_hit` | 히트가 보고에서 제외됨을 나타내는 플래그입니다. visit_num 열은 제외된 히트에 대해 증가하지 않습니다.<br>1: 사용되지 않음. 스크랩된 기능 일부입니다.<br>2: 사용되지 않음. 스크랩된 기능 일부입니다.<br>3: 더 이상 사용되지 않음. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as `page_url`, `pagename`, `page_event`, or `event_list`<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. 대체 계정별 제외.<br>9: 사용되지 않음. 스크랩된 기능 일부입니다.<br>10: 잘못된 통화 코드<br>11: 타임스탬프 전용 보고서 세트에서 히트에 타임스탬프가 없거나 히트에 타임스탬프가 아닌 보고서 세트의 타임스탬프가 포함됨<br>12: 사용되지 않음. 스크랩된 기능 일부입니다.<br>13: 사용되지 않음. 스크랩된 기능 일부입니다.<br>14: Analytics 히트와 일치하지 않는 Target 히트<br>15: 현재 사용되지 않음.<br>16: Analytics 히트와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
 | `first_hit_page_url` | 방문자의 첫 번째 URL입니다. | varchar(255) |
 | `first_hit_pagename` | 원래 시작 페이지 차원에 사용되는 변수입니다. 방문자의 원래 시작 페이지 이름입니다. | varchar(100) |
 | `first_hit_ref_domain` | 최초 참조 도메인 차원에 사용되는 변수입니다. first_hit_referrer를 기반으로 합니다. 방문자의 첫 번째 참조 도메인입니다. | varchar(100) |
