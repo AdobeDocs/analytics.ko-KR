@@ -3,8 +3,11 @@ description: 보고서 세트를 생성하고 보고서 세트의 설정을 새 
 title: 보고서 세트 만들기
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 87%
 
 ---
 
@@ -25,7 +28,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. [새 보고서 세트](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)에 설명된 필드를 채웁니다.
 1. **[!UICONTROL 보고서 세트 만들기]**&#x200B;를 클릭합니다.
 
->[!MORELIKETHIS]
->
->* [가상 보고서 세트 만들기](/help/components/vrs/c-workflow-vrs/vrs-create.md)
-
+보고서 세트 ID의 최대 길이는 40바이트입니다. 보고서 세트에 친숙한 이름의 최대 길이는 255바이트입니다.
