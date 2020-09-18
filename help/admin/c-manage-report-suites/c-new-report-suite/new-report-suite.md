@@ -3,11 +3,11 @@ description: 사전 정의된 템플릿을 선택하거나 기존 보고서 세�
 title: 새 보고서 세트 - 설정
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 페이지</span> </td> 
-   <td colname="col2"> <p>(선택 사항) <span class="wintitle">기본 페이지</span> 값이 발생하는 URL에서 해당 값을 제거합니다. <span class="wintitle">가장 방문 빈도가 높은 페이지</span> 보고서가 페이지 이름이 아닌 URL을 포함하는 경우 이 설정은 동일한 웹 페이지에 대한 여러 URL을 방지합니다. </p> <p>예를 들어 URL <span class="filepath">https://mysite.com</span> 및 <span class="filepath">https://mysite.com/index.html</span>은 일반적으로 동일한 페이지입니다. 필요 없는 파일 이름을 제거하여 보고서에서 이러한 URL을 모두 <span class="filepath">https://mysite.com</span>으로 표시되도록 할 수 있습니다. </p> <p>이 값을 설정하지 않으면 Analytics는 URL에서 파일 이름 <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> 및<span class="filepath"> home.asp</span>를 자동으로 제거합니다. </p> <p>파일 이름 제거를 비활성화하려면 URL에서 발생하지 않는 기본 페이지 값을 지정합니다.  </p> </td> 
+   <td colname="col2"> <p>(선택 사항) <span class="wintitle">기본 페이지</span> 값이 발생하는 URL에서 해당 값을 제거합니다. <span class="wintitle">가장 방문 빈도가 높은 페이지</span> 보고서가 페이지 이름이 아닌 URL을 포함하는 경우 이 설정은 동일한 웹 페이지에 대한 여러 URL을 방지합니다. </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>이 값을 설정하지 않으면 Analytics는 URL에서 파일 이름 <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> 및<span class="filepath"> home.asp</span>를 자동으로 제거합니다. </p> <p>파일 이름 제거를 비활성화하려면 URL에서 발생하지 않는 기본 페이지 값을 지정합니다.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live 날짜 </p> </td> 
