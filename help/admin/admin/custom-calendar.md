@@ -4,10 +4,10 @@ title: 사용자 지정 달력
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->달력을 변경하면 데이터 처리 방법(예: 주별 및 월별 고유 방문자의 정의)이 변경됩니다. 달력의 주 및 월 정의가 변경되어도 내역 데이터는 바뀌지 않습니다.
+>달력을 변경하면 데이터 처리 방법(예: 주별 및 월별 고유 방문자의 정의)이 변경됩니다. 달력의 주 및 월 정의가 변경되어도 내역 데이터는 바뀌지 않습니다. 이 설정은 날짜 범위를 기반으로 한 세그먼트에도 영향을 줍니다.
 
 달력을 사용하여 주 및 연도의 첫째 날을 정의하거나 다른 소매 달력 스타일을 사용할 수 있습니다. 판매 비교와 예측 표준화, 급여 비용 분석 또는 물리적 재고 개수 규정 등 다양한 목적에 달력 형식을 사용할 수 있습니다. 예를 들어 소매 업종은 4-5-4 회계 달력을 사용하여 소매 업종 고유의 판매 시즌을 지원합니다. 각 달력 형식은 아래에서 설명합니다.
 
