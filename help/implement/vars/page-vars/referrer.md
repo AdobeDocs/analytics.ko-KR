@@ -2,10 +2,10 @@
 title: 레퍼러
 description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+source-wordcount: '258'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->이 변수를 URL이 아닌 값으로 설정하지 마십시오.
+>이 변수를 URL이 아닌 값으로 설정하지 마십시오. URL의 프로토콜을 제거하지 마십시오.
 
 ## 예
 
