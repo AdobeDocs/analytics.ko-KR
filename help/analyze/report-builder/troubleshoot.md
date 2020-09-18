@@ -4,10 +4,10 @@ title: Report Builder 문제 해결 및 우수 사례
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 83%
+source-wordcount: '1399'
+ht-degree: 78%
 
 ---
 
@@ -86,3 +86,4 @@ Report Builder 사용 시 간혹 발생할 수 있는 오류 메시지 목록입
    3. 삭제 `calcChain.xml`.
    4. 컨텐츠를 다시 압축하고 파일 확장자를 다시 로 변경합니다 `.xlsx`.
    5. Excel에서 통합 문서를 열고 모든 Report Builder 요청을 새로 고칩니다.
+* **입력 필터 또는 출력 범위와 연관된 Excel 셀이 삭제되었을 수 있습니다**.Report Builder은 Excel 이름을 사용하여 데이터 요청을 셀에 첨부합니다. 이름 관리자에서 Excel 이름을 삭제하면 이 오류가 표시됩니다. Excel 이름이 삭제된 경우 요청을 복구할 수 없습니다. 통합 문서가 예약된 경우 예약 관리자에서 사본을 다운로드하거나 통합 문서의 이전에 배달된 사본을 열 수 있습니다.
