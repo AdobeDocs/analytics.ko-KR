@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: linkInternalFilters 변수를 사용하여 자동 종료 링크 추적을 돕습니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,8 @@ AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적
 이 변수에 값이 있으면 자동 종료 링크 추적은 차단 목록과 같은 방식으로 동작합니다. 링크 클릭이 `linkInternalFilters` 값과 일치하지 않으면 종료 링크로 간주됩니다. 전체 URL은 이 변수에 따라 검사됩니다. [`linkLeaveQueryString`](linkleavequerystring.md)이 활성화된 경우 쿼리 문자열도 검사됩니다.
 
 `linkInternalFilters`와 `linkExternalFilters`를 동시에 사용하는 경우 클릭한 링크는 `linkExternalFilters`를 **만족하고** 종료 링크로 간주되는 `linkInternalFilters`는 만족하지 않아야 합니다. 클릭한 링크가 종료 링크와 다운로드 링크 기준을 모두 만족하는 경우에는 다운로드 링크 유형이 우선합니다.
+
+Activity Map에서는 이 변수를 사용하여 사이트 내부 링크를 결정합니다. Adobe에서는 Activity map을 사용하는 구현에 대해 이 변수를 설정하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적
 `s.linkInternalFilters` 변수는 사이트 내부로 간주하는 필터(예: 도메인)가 포함된 문자열입니다. 여러 필터는 공백 없이 쉼표로 구분하십시오.
 
 ```js
-s.linkInternalFilters = "example.com,example.net,example.org";
+s.linkInternalFilters = "example.com,example.net";
 ```
 
 다음 구현 예를 `adobe.com`에 있는 것처럼 간주하십시오.
@@ -50,5 +52,5 @@ s.linkInternalFilters = "example.com,example.net,example.org";
 </script>
 
 <!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
-<a href = "example.com">Example link 2</a>
+<a href = "example.org">Example link 2</a>
 ```
