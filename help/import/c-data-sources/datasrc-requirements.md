@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 요구 사항 및 업로드 제한
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -92,8 +95,8 @@ UTF-8 또는 ISO-8859-1 파일을 전송할 때 보고서 세트가 이를 지�
 * 웹 로그 데이터를 보기에 가장 유용한 보고서는 페이지 보기 횟수와 같은 트래픽 보고서입니다.
 * 페이지 이름은 쿼리 문자열을 포함한 전체 URL로 표시됩니다.
 * 각 파일 요청은 스타일 시트와 이미지 파일을 포함한 별도의 페이지 보기로 표시됩니다.
-* URL에 정보를 첨부하면 파일이 별도 페이지로 기록되지 않을 수 있습니다. 예를 들어 마케팅 보고서는 다음 URL을 두 개의 분리된 페이지로 기록합니다.
+* URL에 정보를 첨부하면 파일이 별도 페이지로 기록되지 않을 수 있습니다. 예를 들어 Adobe은 다음 URL을 두 개의 개별 페이지로 기록합니다.
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
