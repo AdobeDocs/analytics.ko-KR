@@ -4,7 +4,10 @@ title: 롤업 보고서 세트 만들기
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 92%
 
 ---
 
@@ -23,3 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    **[!UICONTROL 시간대:]** 데이터가 보고되는 시간대입니다.
 1. **[!UICONTROL 롤업 만들기]**&#x200B;를 클릭합니다.
+
+>[!NOTE]
+>
+>롤업은 Analysis Workspace에서 지원되지 않습니다.
