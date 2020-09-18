@@ -2,10 +2,10 @@
 title: 레퍼러
 description: 방문자가 사이트를 클릭스루하기 전에 있었던 URL입니다.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 49%
+source-wordcount: '448'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 49%
 
 이 차원에서는 Analytics 인터페이스에서의 구성과 이미지 요청의 데이터가 필요합니다.
 
-* 구현 내에서 이 차원은 이미지 요청의 [`r` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `document.referrer`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우(API 등을 통해)에는 이미지 요청에 `r` 쿼리 문자열 매개 변수를 포함해야 합니다.
+* 구현 내에서 이 차원은 이미지 요청의 [`r` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `document.referrer`를 사용하여 이 데이터를 수집합니다. 변수 [`referrer`](/help/implement/vars/page-vars/referrer.md) 재정의를 사용하여 수동으로 설정할 수 있습니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우(API 등을 통해)에는 이미지 요청에 `r` 쿼리 문자열 매개 변수를 포함해야 합니다.
 * Analytics 인터페이스 내에서는 보고서 세트의 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 URL이 포함되거나 외부 URL이 표시되지 않을 수 있습니다.
 
 ## Dimension 항목
