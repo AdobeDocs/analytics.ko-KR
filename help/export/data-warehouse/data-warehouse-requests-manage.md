@@ -3,11 +3,11 @@ description: 요청 관리자에서 요청을 보고, 복제하고, 요청의 �
 title: Data Warehouse 요청 관리
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,6 @@ Data Warehouse에서 **[!UICONTROL 요청 관리자]** 탭을 선택합니다.
 * 큐 내의 새 위치로 보고서를 드래그해다 놓는 방법으로 보고서 우선 순위 변경.
 * 요청 처리가 언제 시작되었는지 보려면 예약된 요청 ID를 클릭하고 열리는 팝업을 확인합니다.
 
->[!NOTE]
->
->Data Warehouse 요청을 취소하려면 [이 단계를 따르십시오](https://helpx.adobe.com/kr/analytics/kb/cancel-data-warehouse-requests.html).
+작업을 클릭하여 해당 작업에 대한 개별 요청을 봅니다.
 
+* 비율 제한:실행 중인 Data Warehouse 요청이 너무 많습니다. 다른 데이터 요청이 완료될 때까지 요청이 일시 중지됩니다.
