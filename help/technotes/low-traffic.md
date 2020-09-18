@@ -3,11 +3,11 @@ description: Adobe는 보고서에 고유 값이 많으면 그중 가장 중요�
 title: Adobe Analytics의 낮은 트래픽 값
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 94%
 
 ---
 
@@ -50,4 +50,5 @@ Adobe는 보고서에 고유 값이 많으면 그중 가장 중요한 값이 보
    * 일부 제한된 시나리오에서는 낮은 트래픽 값이 여전히 표시될 수 있습니다. 예를 들면 목록 변수, 목록 속성, 머천다이징 eVar 및 마케팅 채널 세부사항 차원이 있습니다.
 * **세그멘테이션:** 세그먼트 기준에 고유 값이 많은 변수가 포함된 경우 낮은 트래픽으로 캡처된 값은 포함되지 않습니다.
 * **분류:** 분류 보고서는 고유한 제한을 받습니다. 분류의 상위 변수 값이 낮은 트래픽에 포함되는 경우 값이 분류되지 않습니다.
-   * 값이 데이터에 표시되기 전에 값을 분류하면 해당 값은 해당 달의 고유 임계값 계산에 포함됩니다.
+   * 가져오기를 통해 얻은 낮은 트래픽 분류 값은 Data Warehouse에서 볼 수 있습니다. <!-- AN-115871 -->
+   * 규칙 빌더를 통해 얻은 낮은 트래픽 분류 값은 Data Warehouse에서 볼 수 *없습니다* . <!-- AN-122872 -->
