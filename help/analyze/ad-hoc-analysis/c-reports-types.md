@@ -4,7 +4,7 @@ title: 보고서 유형
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-예를 들어 다른 서버에 특정 데이터를 가지고 있거나 별도의 서버에 데이터를 미러링한 경우 보고서에는 사용자가 히트한 서버들 사이의 경로가 표시됩니다. 웹 사이트 내 도메인에 대해서도 마찬가지입니다. 예를 들어 `https://www.mysite.com`에서 `https://info.mysite.com` 또는 `https://sales.mysite.com`으로 간 사용자 수를 확인할 수 있습니다.
+예를 들어 다른 서버에 특정 데이터를 가지고 있거나 별도의 서버에 데이터를 미러링한 경우 보고서에는 사용자가 히트한 서버들 사이의 경로가 표시됩니다. 웹 사이트 내 도메인에 대해서도 마찬가지입니다. 예를 들어 `https://www.example.com`에서 `https://info.example.com` 또는 `https://sales.example.com`으로 간 사용자 수를 확인할 수 있습니다.
 
 ## 다음 섹션 흐름 {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-예를 들어 다른 서버에 특정 데이터를 가지고 있거나 별도의 서버에 데이터를 미러링한 경우 보고서에는 사용자가 히트한 서버들 사이의 경로가 표시됩니다. 웹 사이트 내 도메인에 대해서도 마찬가지입니다. 예를 들어 `www.mysite.com`에서 `info.mysite.com` 또는 `sales.mysite.com`으로 간 사용자 수를 확인할 수 있습니다.
+예를 들어 다른 서버에 특정 데이터를 가지고 있거나 별도의 서버에 데이터를 미러링한 경우 보고서에는 사용자가 히트한 서버들 사이의 경로가 표시됩니다. 웹 사이트 내 도메인에 대해서도 마찬가지입니다. 예를 들어 `www.example.com`에서 `info.example.com` 또는 `sales.example.com`으로 간 사용자 수를 확인할 수 있습니다.
 
 ## 변환 단계 보고서 {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
