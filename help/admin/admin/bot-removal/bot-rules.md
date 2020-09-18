@@ -4,11 +4,11 @@ subtopic: Bot rules
 title: 보트 규칙 개요
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 표준 IAB 보트 규칙
 
-[!UICONTROL IAB 보트 필터링 규칙 활성화] 확인란을 선택하여 표준 IAB 보트 규칙을 설정할 수 있습니다. 이 옵션을 선택하면 IAB(International Advertising Bureau)의 International Spiders &amp; Bots List에 있는 보트를 제거하여 보트 트래픽을 제거합니다. IAB는 이 목록을 매달 업데이트합니다.
+[!UICONTROL IAB 보트 필터링 규칙 활성화] 확인란을 선택하여 표준 IAB 보트 규칙을 설정할 수 있습니다. 이 옵션을 선택하면 IAB(International Advertising Bureau)의 International Spiders &amp; Bots List에 있는 보트를 제거하여 보트 트래픽을 제거합니다. Adobe은 IAB에서 매월 이 목록을 업데이트합니다.
 
 ![](assets/bot-iab-checkbox.png)
 
