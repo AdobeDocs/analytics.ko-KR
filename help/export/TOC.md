@@ -6,10 +6,10 @@ breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
 breadcrumb-url: /docs/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 95%
+source-wordcount: '264'
+ht-degree: 94%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 95%
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
    + [차원이 Data Warehouse 세그먼트와 호환되지 않음](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
+   + [Data Warehouse FAQ](data-warehouse/faq.md)
    + [Data Warehouse 우수 사례](data-warehouse/data-warehouse-bp.md)
 + FTP 및 SFTP {#ftp-and-sftp}
    + [Adobe Experience Cloud와 FTP 및 SFTP 사용](ftp-and-sftp/ftp-overview.md)
