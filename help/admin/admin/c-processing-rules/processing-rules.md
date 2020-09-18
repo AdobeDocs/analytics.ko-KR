@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 처리 규칙 개요
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 87%
 
 ---
 
@@ -40,11 +43,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->처리 규칙은 Analytics 데이터에 영구적으로 영향을 주므로, 처리 규칙 관리자는 Adobe Analytics에서 인증 교육을 받고, 보고서 세트용 데이터의 모든 소스(표준 웹 사이트, 모바일 사이트, 모바일 앱, 데이터 삽입 API 등)를 잘 알고 있어야 합니다. 다양한 플랫폼에서 입력한 컨텍스트 데이터 변수 및 표준 변수에 대한 지식은 데이터를 실수로 삭제하거나 변경하는 일이 없도록 하는 데 도움이 됩니다.
+>처리 규칙은 Analytics 데이터에 영구적으로 영향을 주므로, Adobe은 처리 규칙 관리자가 Adobe Analytics에서 인증 교육을 받고 보고서 세트에 대한 모든 데이터 소스(표준 웹 사이트, 모바일 사이트, 모바일 앱, 데이터 삽입 API 등)에 익숙해야 합니다. 다양한 플랫폼에서 입력한 컨텍스트 데이터 변수 및 표준 변수에 대한 지식은 데이터를 실수로 삭제하거나 변경하는 일이 없도록 하는 데 도움이 됩니다.
 
 ## 컨텍스트 데이터를 사용하여 데이터 수집 단순화 {#section_09EEA03612D24C15839631AA9E9668D8}
 
-컨텍스트 데이터 변수는 처리 규칙에만 사용할 수 있는 새로운 유형의 변수입니다. 컨텍스트 데이터 변수를 사용하기 위해, 키/값 데이터 쌍이 구현에 의해 전송되며, 처리 규칙을 사용하여 표준 Analytics 변수에서 이러한 변수를 캡처합니다. 이를 통해 프로그래머가 어떤 prop 및/또는 eVar가 어떤 값을 포함해야 하는지 정확하게 이해할 필요가 없습니다.
+컨텍스트 데이터 변수는 처리 규칙에만 사용할 수 있는 변수 유형입니다. 컨텍스트 데이터 변수를 사용하기 위해, 키/값 데이터 쌍이 구현에 의해 전송되며, 처리 규칙을 사용하여 표준 Analytics 변수에서 이러한 변수를 캡처합니다. 이를 통해 프로그래머가 어떤 prop 및/또는 eVar가 어떤 값을 포함해야 하는지 정확하게 이해할 필요가 없습니다.
 
 ![](assets/evar-context-map.png)
 
