@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Data Sources FAQ
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 95%
 
 ---
 
@@ -133,3 +136,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 아니요. 거래 ID 데이터 소스를 통해 업로드된 eVar는 저장된 프로필 정보에서만 읽히게 되고, 프로필을 업데이트하지는 않습니다.
 아니요. eVar은 방문자 프로필의 스냅숏에 저장되는 유일한 변수입니다.
+
+## 숫자 및 통화 이벤트는 데이터 소스와 어떻게 연동됩니까?
+
+전체 처리는 이벤트 목록에서 직접 숫자/통화/카운터(1개 이상) 이벤트 값을 제외한 이전 이벤트 목록 형식만 지원하며, 그렇지 `"eventNN,eventKK"` 않습니다 `"eventNN=#.##"`. 즉, 카운터 이벤트는 데이터 소스 파일의 이벤트 열로 전달되고 1씩 증가하는 경우에만 지원됩니다.
+
+숫자, 통화 또는 카운터(1 이상) 이벤트가 필요한 경우 제품 목록을 사용하십시오.
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
