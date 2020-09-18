@@ -2,10 +2,10 @@
 title: 구현 FAQ
 description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 67%
+source-wordcount: '499'
+ht-degree: 48%
 
 ---
 
@@ -47,5 +47,15 @@ var s = new Object();
 >
 >* Adobe 서버에서 불필요한 로드를 생성하므로 보고서 세트를 잘못된 값으로 변경합니다.
 >* 각 페이지에서 파일에 대한 모든 참조를 제거하지 않는 한 파일을 모두 `s_code.js` 제거합니다.
->* 변수를 Adobe에서 `trackingServer` 멀리 가리키도록 변경합니다. AppMeasurement는 여전히 404 오류를 반환하는 이미지 요청을 전송합니다.
+>* 변수를 Adobe에서 멀리 가리키도록 `trackingServer` 변경합니다. AppMeasurement는 여전히 404 오류를 반환하는 이미지 요청을 전송합니다.
 
+
+## 코드 분석기를 통해 AppMeasurement를 실행했으며, 코드 분석기의 사용을 잠재적 보안 위험 `Math.random()` 으로 간주했습니다. 민감한 데이터에 `Math.random()` 사용됩니까?
+
+아니요. 민감한 데이터를 마스크 처리, 전송 또는 받는 데 사용되지 `Math.random()` 않는 숫자입니다. Adobe 데이터 수집 서버로 전송된 데이터는 기본 HTTPS 연결의 보안에 의존합니다. <!-- AN-173590 -->
+
+AppMeasurement는 다음 세 가지 주요 영역 `Math.random()` 에서 사용합니다.
+
+* **샘플링**:구현에 따라 일부 정보는 사이트 방문자의 소수에 대해서만 수집될 수 있습니다. `Math.random()` 는 주어진 방문자가 데이터를 전송해야 하는지 여부를 결정하는 데 사용됩니다. 대부분의 구현에서는 샘플링을 사용하지 않습니다.
+* **방문자 ID 대체**:쿠키에서 방문자 ID를 검색할 수 없는 경우 무작위 방문자 ID가 생성됩니다. AppMeasurement의 이 부분에서는 두 개의 호출을 사용합니다 `Math.random()`.
+* **캐시 빌드**:브라우저 캐싱을 방지하는 데 도움이 되도록 이미지 요청 URL의 끝에 무작위 숫자가 추가됩니다.
