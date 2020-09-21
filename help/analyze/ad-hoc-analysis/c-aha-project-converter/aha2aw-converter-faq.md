@@ -3,10 +3,10 @@ description: 'null'
 title: 프로젝트 변환기 FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 98%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>산포도</b>: Analysis Workspace의 내보낸 프로젝트에서 Y축은 첫 번째 열로, X축은 두 번째 열로, 지름은 세 번째 열로 설정됩니다. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>폴아웃 표</b>: 폴스루 또는 폴아웃 표를 표시하려면 체크포인트를 마우스 오른쪽 단추로 클릭하고 분류 옵션을 선택합니다. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>폴아웃 보고서 수준 날짜 범위</b>: 사용자 정의된 보고서 날짜 범위가 폴아웃 시각화에 적용되지 않았습니다. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>흐름 보고서</b>: 흐름이 별도의 패널로 이동하여 날짜 범위 및 세그멘테이션을 유지합니다. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>흐름 보고서</b>: 흐름이 별도의 패널로 이동하여 날짜 범위 및 세그멘테이션을 유지합니다. 반복 인스턴스는 흐름 설정에서 포함 또는 제외할 수 있습니다. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>제품 전환 유도</b>: Analysis Workspace에서 지원되지 않으므로 자유 형식 테이블로 변환됩니다. 폴아웃 시각화는 제품 전환 유도에 대한 권장 교체 대상이지만, 약간 다른 방식으로 작동합니다. </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 98%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">세그먼트는 변환된 프로젝트 내부에 있습니다(공용 아님). 다음과 같이 공용으로 설정하도록 선택할 수 있습니다. <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis 작업 공간 수준 세그먼트는 Workspace의 프로젝트/작업 공간 수준에서 적용됩니다. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis 보고서 수준 세그먼트는 Workspace의 표 열 수준에서 적용됩니다. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis 표 세그먼트는 Workspace의 표 열 수준에서 적용됩니다. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis 테이블 세그먼트는 작업 공간의 테이블 열 수준에서 적용됩니다. </li> 
     </ul> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html"  >세그먼트 빌더</a>에서 세그먼트를 편집할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 날짜 범위는 어떻게 변환됩니까?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis의 '최근 X일' 날짜 범위는 오늘을 <i>제외</i>하지만, Analysis Workspace는 오늘을 <i>포함</i>합니다. 따라서 '최근 90일'과 같은 날짜 범위가 도구마다 일치하지 않을 수 있습니다. 사용자 지정 날짜 범위를 사용하여 Analysis Workspace에서 동일한 기간을 검색합니다. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis의 '최근 X일' 날짜 범위는 오늘을 <i>제외</i>하지만, Analysis Workspace는 오늘을 <i>포함</i>합니다. 따라서 '지난 90일'과 같은 날짜 범위가 도구 간에 정확히 일치하지 않을 수 있습니다. 대신 Analysis Workspace에서 '마지막 <b>X일 </b> 기간'을 적용합니다. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis 작업 공간 수준 날짜 범위는 Workspace의 프로젝트/작업 공간 수준에서 적용됩니다. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis 보고서 수준 날짜 범위는 Workspace의 표 열 수준에서 적용됩니다. </li> 
     </ul> <p><span class="uicontrol">분석</span> &gt; <span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol">날짜 범위</span>에서 사용자 지정 날짜 범위를 편집할 수 있습니다. </p> </td> 
