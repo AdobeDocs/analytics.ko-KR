@@ -1,11 +1,14 @@
 ---
-description: Dynamic Tag Management를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동(이전) 구현에 대해 설명합니다.
+description: Dynamic Tag Management를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동(기존) 구현에 대해 설명합니다.
 keywords: Dynamic Tag Management
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Adobe Analytics 수동 구현(이전)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 100%
 
 ---
 
