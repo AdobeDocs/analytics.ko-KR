@@ -1,11 +1,14 @@
 ---
 description: Dynamic Tag Management에서 규칙을 만드는 방법을 설명하는 단계입니다.
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 새 규칙 만들기
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +27,6 @@ Dynamic Tag Management에서 규칙을 만드는 방법을 설명하는 단계�
    * **이벤트 기반 규칙:** [이벤트 기반 규칙에 대한 조건 만들기](/help/implement/other/dtm/c-rules/t-rules-event-conditions.md)
    * **페이지 로드 규칙:** [페이지 로드 규칙에 대한 조건 만들기](/help/implement/other/dtm/c-rules/t-rules-page-conditions.md)
    * **직접 호출 규칙:** [직접 호출 규칙에 대한 조건 만들기](/help/implement/other/dtm/c-rules/t-rules-direct-conditions.md)
+
    카테고리 필드는 자신의 조직적 목적만을 위한 것으로서, 필수가 아닙니다. 카테고리에서 x 아이콘을 클릭하여 카테고리를 삭제할 수 있습니다.
 1. [조건이 트리거되는 작업 설정](/help/implement/other/dtm/c-rules/t-rules-actions.md).
