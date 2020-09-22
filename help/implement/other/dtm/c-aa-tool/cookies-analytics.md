@@ -1,11 +1,14 @@
 ---
 description: Adobe Analytics에서 Dynamic Tag Management를 배포하는 데 사용되는 쿠키 전역 설정에 대한 필드 설명입니다.
 keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: 쿠키
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Adobe Analytics에서 [!UICONTROL Dynamic Tag Management]를 배포하는 데 �
  <tbody> 
   <tr> 
    <td colname="col1"> 방문자 ID </td> 
-   <td colname="col2"> <p>온라인 및 오프라인 시스템 모두에서 고객을 나타내는 고유한 값. </p> </td> 
+   <td colname="col2"> <p>온라인과 오프라인 시스템 모두에서 고객을 나타내는 고유한 값입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 방문자 네임스페이스 </td> 
@@ -45,7 +48,7 @@ Adobe Analytics에서 [!UICONTROL Dynamic Tag Management]를 배포하는 데 �
    <td colname="col2"> <p>오프라인 활동을 일으킨 온라인 거래를 나타내는 고유한 값. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 쿠키 라이프타임 </td> 
+   <td colname="col1"> 쿠키 수명 </td> 
    <td colname="col2"> <p>쿠키의 수명을 결정합니다. </p> </td> 
   </tr> 
  </tbody> 
