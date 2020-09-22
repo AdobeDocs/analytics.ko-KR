@@ -1,11 +1,14 @@
 ---
 description: 규칙이 트리거되는 페이지를 결정하는 규칙을 만듭니다.
 keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 페이지 로드 규칙 조건 만들기
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 100%
 
 ---
 
