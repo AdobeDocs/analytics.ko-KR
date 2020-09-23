@@ -2,9 +2,9 @@
 title: 일반적인 보트 서명
 description: 보트의 일반 식별자를 인식합니다.
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ IP 주소, 페이지 보기 및 고유 방문자로 Data Warehouse 보고서를 
 
 ## 국가 + 표준 시간대 불일치
 
-원래 국가와 표준 시간대 사이에 불일치가 있을 것입니다. 예를 들어 미국 위치에는 GMT 표준 시간대가 있습니다.
+원래 국가와 표준 시간대 간에 불일치가 발생하는 것을 확인할 수 있습니다. 예를 들어 위치는 미국이 될 수 있지만 표준 시간대는 GMT일 수 있습니다.
 
 ![](assets/bots-country-time-zone.png)
 
