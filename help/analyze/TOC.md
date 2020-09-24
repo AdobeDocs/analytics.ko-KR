@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions to Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
+user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 98%
+source-wordcount: '1105'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [Analysis Workspace 활용 사례](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
-   + 작업 공간 프로젝트 작성 {#build-workspace-project}
+   + 작업 공간 프로젝트 만들기 {#build-workspace-project}
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [작업 공간 프로젝트 만들기](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
