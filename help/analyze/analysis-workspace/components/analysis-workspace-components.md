@@ -2,9 +2,9 @@
 description: 'Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다. '
 title: 구성 요소 개요
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ To access the Components menu, click the **[!UICONTROL Components]** icon in the
 
 [**지표는**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) 방문자 행동에 대한 수량 측정값입니다. 왼쪽 구성 요소 레일(녹색 섹션)에서 찾을 수 있으며 일반적으로 표의 열로 적용됩니다.
 
-지표의 예로는 [!UICONTROL 페이지 보기 횟수, [!UICONTROL 방문], [!UICONTROL 주문 수], [!UICONTROL 평균 체류]시간 [!UICONTROL 및 매출/주문]시간이 있습니다. 지표는 Adobe에서 제공하거나 사용자 지정 구현([!UICONTROL 성공 이벤트])을 통해 캡처하거나 [계산된 지표 빌더를 사용하여 만듭니다](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+지표의 예로는 [!UICONTROL 페이지 보기], [!UICONTROL 방문], [!UICONTROL 주문], 평균 체류 시간,및Revenue/Order가 있습니다. 지표는 Adobe에서 제공하거나 사용자 지정 구현([!UICONTROL 성공 이벤트])을 통해 캡처하거나 [계산된 지표 빌더를 사용하여 만듭니다](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
