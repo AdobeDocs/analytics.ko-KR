@@ -1,18 +1,18 @@
 ---
 description: Adobe Analytics의 새로운 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Adobe Analytics 기능 릴리스
-translation-type: ht
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 79%
 
 ---
 
 
 # Adobe Analytics 기능 릴리스
 
-지금까지 Adobe Analytics 기능 릴리스는 고정된 월별 일정을 따랐습니다. 2020년 4월부터 Adobe Analytics는 기능 배포에 대한 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델로 전환했습니다.
+지금까지 Adobe Analytics 기능 릴리스는 고정된 월별 일정을 따랐습니다. 2020년 4월부터 Adobe Analytics은 기능 배포에 대한 확장 가능하고 단계적인 접근 방식을 제공하는 지속적인 전달 모델로 전환했습니다.
 
 ## 출시 전략
 
@@ -25,6 +25,12 @@ ht-degree: 100%
 * **GA(일반 배포)**: 권한이 있는 Experience Cloud 조직의 100%가 이 기능을 사용할 수 있으며 기능 릴리스가 완료되었습니다.
 
 각 기능 릴리스 시 RTP에서 GA로의 타임라인은 달라질 수 있습니다. 릴리스 시작(RTP) 2개월 이내에 기능이 GA 상태가 되도록 릴리스를 짧게 유지하는 것이 목표입니다.
+
+## 기능 플래그
+
+기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe은 릴리스 중 최적의 환경을 위해 app.launchdarkly.com을 방화벽의 [허용 목록](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) 에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
+
+도움말 > 작업 공간 정보 > 활성 기능 플래그 **에서 언제든지 활성 기능 플래그를 볼 수 있습니다**.
 
 ## 이점
 
