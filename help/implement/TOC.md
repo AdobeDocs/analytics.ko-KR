@@ -5,7 +5,7 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: Implementation Guide
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Analytics 구현 안내서 {#implementation}
 
-+ [Analytics 구현 도움말](home.md)
++ [Adobe Analytics 구현](home.md)
 + [AppMeasurement 릴리스 노트](appmeasurement-updates.md)
 + Analytics 변수, 함수 및 메서드 {#vars}
    + [개요](vars/overview.md)
