@@ -5,7 +5,7 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: Admin Guide
 user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Analytics 관리 안내서 {#admin}
 
-+ [Analytics 관리 도움말](home.md)
++ [Analytics 관리 안내서](home.md)
 + Analytics 관리 개요 {#admin-overview}
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](c-analytics-product-comparison/analytics-product-comparison.md)
