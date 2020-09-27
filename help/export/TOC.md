@@ -5,7 +5,7 @@ user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 94%
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 # Analytics 내보내기 안내서 {#export}
 
-+ [Analytics 내보내기 홈](home.md)
++ [Analytics 내보내기 안내서](home.md)
 + Analytics 데이터 피드 {#analytics-data-feed}
    + [데이터 피드 개요](analytics-data-feed/data-feed-overview.md)
    + [데이터 피드 만들기 또는 편집](analytics-data-feed/create-feed.md)
