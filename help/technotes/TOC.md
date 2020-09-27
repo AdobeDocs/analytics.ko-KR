@@ -5,7 +5,7 @@ user-guide-title: Analytics 기술 노트
 breadcrumb-title: Tech Notes
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 83%
@@ -13,9 +13,9 @@ ht-degree: 83%
 ---
 
 
-# Analytics 설명서 {#technotes}
+# Analytics 기술 노트 {#technotes}
 
-+ [Analytics 기술 노트 도움말](home.md)
++ [Analytics 기술 노트](home.md)
 + Google Analytics 사용자를 위한 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 사용자를 위한 Adobe Analytics 도움말](ga-to-aa/home.md)
    + [계정 및 보고서 세트](ga-to-aa/accounts.md)
