@@ -1,9 +1,9 @@
 ---
-title: Analytics 관리 도움말
+title: Analytics 관리 안내서
 description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정 등 Adobe Analytics 관리자를 위한 관리 도움말.
-translation-type: ht
-source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
