@@ -5,7 +5,7 @@ user-guide-title: Analytics 가져오기 안내서
 breadcrumb-title: Import Guide
 user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Analytics 가져오기 안내서 {#import}
 
-+ [Analytics 가져오기 도움말](home.md)
++ [Analytics 가져오기 안내서](home.md)
 + Data Sources {#data-sources}
    + [Data Sources 개요](c-data-sources/datasrc-home.md)
    + [Data Sources 작동 방식](c-data-sources/datasrc-how-data-sources-works.md)
