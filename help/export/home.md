@@ -1,11 +1,11 @@
 ---
-title: 분석 내보내기 도움말
-description: 'null'
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+title: Analytics 내보내기 안내서
+description: 이 안내서에서는 데이터 피드 및 Data Warehouse을 사용하여 Adobe Analytics에서 데이터를 내보내는 방법을 간략하게 설명합니다.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 88%
 
 ---
 
