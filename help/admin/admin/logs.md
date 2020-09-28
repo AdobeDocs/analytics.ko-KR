@@ -3,9 +3,9 @@ description: 사용자가 로그인하는 시점, 사용자의 사용, 액세스
 title: 로그
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 72%
 
 ---
@@ -68,11 +68,6 @@ ht-degree: 72%
 | 날짜 범위 | 날짜 범위를 생성/편집했습니다. |
 | 가상 보고서 세트 | 가상 보고서 세트를 생성/편집했습니다. |
 | 기여도 분석 | 기여도 분석 작업이 실행되었습니다. |
-| Excel 데이터 블록 요청 |  |
-| Excel 로그인 실패 |  |
-| Excel 로그인 성공 |  |
-| 모바일 로그인 실패 |  |
-| 모바일 로그인 성공 |  |
 | API 메서드 | API 호출이 수행되었습니다. |
 
 
