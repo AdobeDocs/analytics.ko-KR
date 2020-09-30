@@ -3,9 +3,9 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '7821'
+source-wordcount: '7790'
 ht-degree: 98%
 
 ---
@@ -989,9 +989,7 @@ ht-degree: 98%
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->다음과 같은 작업을 하는 기능인 태그, 즐겨찾기, 승인, <b>공유(새로운 기능!)"작업" 버튼을 왼쪽 내비게이션 레일에 추가했습니다. </b>, <b>삭제(새로운 기능!)</b>과 같은 작업을 포함하는 왼쪽 탐색 레일에 "작업" 단추를 추가했습니다. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">태그, 즐겨찾기, 승인된 항목 및 구성 요소에 대해 필터링할 수 있도록 해주는 검색 막대에 필터를 추가했습니다. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">세그먼트, 지표, 날짜 범위를 미리 볼 수 있도록 해주는 미리 보기 아이콘을 수동 행(측정 기준 항목을 나열하는 다이내믹 행이 아님)에 추가했습니다. </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Analysis Workspace 자습서에 대한 YouTube 링크를 다음과 같이 업데이트했습니다. <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS </a>. </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">세그먼트, 지표, 날짜 범위를 미리 볼 수 있도록 해주는 미리 보기 아이콘을 수동 행(측정 기준 항목을 나열하는 다이내믹 행이 아님)에 추가했습니다. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->시각화를 위해 컨텍스트 메뉴에서 <span class="uicontrol">시작</span>이라는 마우스 오른쪽 단추로 클릭하여 표시되는 선택 사항을 추가했습니다(흐름, 벤, 히스토그램에 대해 작동하게 됨). 이 선택 사항을 사용하면 현재 시각화에 대한 구성이 삭제되고, 다시 구성할 수 있는 새 패널이 열립니다. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">새로운 시각화 설정 "범례 표시"를 사용하면 요약 번호/요약 변경 사항 시각화에 대한 필터 세부 사항을 숨길 수 있습니다. </li> 
