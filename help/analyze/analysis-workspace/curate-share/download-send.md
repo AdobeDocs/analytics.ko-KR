@@ -3,10 +3,10 @@ description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV �
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '987'
+ht-degree: 7%
 
 ---
 
@@ -88,5 +88,5 @@ ht-degree: 0%
 | --- | --- |
 | 다운로드한 PDF가 한 페이지인 이유는 무엇입니까? | 현재 작업 공간은 다운로드한 PDF에 페이지를 매기지 않습니다. |
 | &quot;항목을 CSV로 다운로드&quot; 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 더 긴 꼬리 항목을 검색하기 위해 표 정렬을 변경하거나 필터를 적용하여 보다 구체적인 항목을 다운로드할 수 있습니다. |
-| 복사 시각화 **[!UICONTROL 는]** 어떤 기능을 합니까? | **[!UICONTROL 시각화]** 복사는 내보내기 옵션이 아닙니다. 시각화 또는 패널을 작업 공간의 한 위치에서 다른 위치로 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 패널 간 또는 하나의 프로젝트에서 다른 프로젝트로 이어지는 경우입니다. [비디오 보기](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| 복사 시각화 **[!UICONTROL 는]** 어떤 기능을 합니까? | **[!UICONTROL 시각화]** 복사는 내보내기 옵션이 아닙니다. 시각화 또는 패널을 작업 공간의 한 위치에서 다른 위치로 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 패널 간 또는 하나의 프로젝트에서 다른 프로젝트로 이어지는 경우입니다. [인사이트 연결 비디오](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
