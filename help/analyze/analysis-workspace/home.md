@@ -4,10 +4,10 @@ title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: a4e50c13ea8f567a38b0912ce7dc06d457c684a1
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 15%
+source-wordcount: '545'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace은 분석 및 인사이트 공유를 신속하게 수행할 �
 
 몇 분 밖에 시간이 없다면 이 간단한 개요를 통해 가능한 작업을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
 
 ## Adobe Analytics{#login}에 로그인합니다 
 
@@ -64,5 +64,5 @@ Analysis Workspace을 사용하려면 experience.adobe.com/analytics으로 이�
 
 ## 추가 리소스 {#resources}
 
-* 전체 비디오 교육 가이드는 [여기](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)Adobe Analytics YouTube 채널에서 확인할 수 있습니다.
+* Adobe은 수백 개의 [Analytics 비디오 트레이닝 자습서를 제공합니다](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html).
 * 새로운 기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
