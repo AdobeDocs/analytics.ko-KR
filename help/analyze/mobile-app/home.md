@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics 대시보드 - 개요
 description: Adobe Analytics 대시보드에 대한 제품 설명서 및 자체 도움말
-translation-type: ht
-source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
-workflow-type: ht
-source-wordcount: '224'
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ Adobe Analytics [!UICONTROL 대시보드에]대한 자세한 내용은 다음 �
 
 * [큐레이터 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/curator.html)[!UICONTROL : 이 안내서는 데이터 큐레이터가 대시보드에서 경영진 사용자를 위해 스코어카드를 구성할 수 있도록 돕기 위한 것입니다]. 큐레이터는 조직 관리자이거나 스코어카드 설정을 담당하는 다른 역할의 사람일 수 있습니다.
 
-   이 안내서의 비디오 개요를 보려면 [Adobe Analytics 대시보드 스코어카드 빌더](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)를 참조하십시오.
+   이 안내서의 비디오 개요를 보려면 [Adobe Analytics 대시보드 스코어카드 빌더](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html)를 참조하십시오.
 
 
 * [경영진 사용자 빠른 시작 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/executive.html)[!UICONTROL : 이 안내서는 경영진 사용자가 대시보드에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다]. 이 앱을 사용하면 보유한 모바일 장치에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
 
-   이 정보를 강조 표시하는 비디오를 보려면 [Adobe Analytics 대시보드 인앱 경험](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)을 참조하십시오.
+   이 정보를 강조 표시하는 비디오를 보려면 [Adobe Analytics 대시보드 인앱 경험](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html)을 참조하십시오.
