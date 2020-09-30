@@ -4,10 +4,10 @@ title: 세그먼트 및 컨테이너 정보
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '3709'
-ht-degree: 100%
+source-wordcount: '3697'
+ht-degree: 99%
 
 ---
 
@@ -60,11 +60,7 @@ ht-degree: 100%
 
 ## 방법 비디오 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-YouTube 비디오에서는 세그먼트 컨테이너의 의미와 세그먼트 컨테이너를 사용하는 방법에 대한 간단한 개요를 제공합니다.
-
-| 비디오 이름 | 비디오 링크 |
-|---|---|
-| 세그먼트 컨테이너 | [Adobe Analytics의 세그먼트 컨테이너](https://www.youtube.com/watch?v=A513j-ej0oc&amp;index=2&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
+이 비디오에서는 세그먼트 컨테이너가 무엇이고 세그먼트 컨테이너를 사용하는 방법에 대한 간단한 개요를 제공합니다. [Adobe Analytics의 세그먼트 컨테이너](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 컨테이너 정보 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
