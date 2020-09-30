@@ -1,17 +1,17 @@
 ---
 description: 작업 공간의 프로젝트 공유 및 프로젝트 역할
 keywords: Analysis Workspace sharing
-title: 작업 공간 프로젝트 공유
+title: 프로젝트 공유
 translation-type: tm+mt
-source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 작업 공간 프로젝트 공유
+# 프로젝트 공유
 
 공유를 하면 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있습니다. 적용한 모든 [조정](curate.md) 기능은 수신자이 프로젝트를 열 때 반영됩니다.
 
