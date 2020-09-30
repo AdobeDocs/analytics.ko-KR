@@ -5,10 +5,10 @@ title: 프로젝트 만들기 - 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 88%
+source-wordcount: '758'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 | [새 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
 | 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 랜딩 페이지로 설정 | 이 페이지를 작업 공간 랜딩 페이지로 바꿉니다. |
-| 자습서 보기 | [Analysis Workspace YouTube 비디오](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)로 이동합니다. |
+| 자습서 보기 | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | 이름 | 작업 공간 프로젝트의 이름. |
 | 소유자 | 이 프로젝트를 만든 사람(귀하 또는 프로젝트를 귀하와 공유한 사용자) |
 | 유형 | 이것이 작업 공간 프로젝트인지 [모바일 스코어카드인지를 나타냅니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/home.html). |
