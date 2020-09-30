@@ -2,11 +2,11 @@
 description: 새로운 지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 title: 지능형 경고 개요
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 지능형 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 
-[지능형 경고 - YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA)(5:34)
+지능형 경고에 대한 비디오 자습서 [(5:34)](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html)
 
 ## 개요
 
