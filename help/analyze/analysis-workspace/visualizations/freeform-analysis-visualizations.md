@@ -3,10 +3,10 @@ description: Analysis Workspace에서 시각화 및 시각화 설정에 대해 �
 keywords: Analysis Workspace
 title: 시각화 개요
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 98%
+source-wordcount: '1058'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. 각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 자세한 내용을 보려면 시각화의 이름을 클릭합니다.
 
-YouTube 비디오: [Analysis Workspace의 시각화 유형](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:57)
+Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | 시각화 이름 | 설명 |
 |---|---|
@@ -109,4 +109,4 @@ Adobe Analytics를 사용하는 경우 대부분의 시각화 유형(예: 면적
 1. 새 레이블 텍스트를 입력합니다.
 1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
 
-다음은 이 항목의 [비디오에 대한 링크](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)입니다.
+다음은 이 항목의 [비디오에 대한 링크](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)입니다.
