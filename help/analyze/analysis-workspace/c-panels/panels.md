@@ -2,9 +2,9 @@
 description: 패널은 테이블 및 시각화의 집합입니다
 title: 패널 개요
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '766'
 ht-degree: 15%
 
 ---
@@ -78,4 +78,4 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 1. 지표, 세그먼트 또는 날짜 범위와 같은 다른 구성 요소를 사용하여 드롭다운 필터를 만들려면 왼쪽 레일의 구성 요소 유형 중 하나를 선택하고 Shift 키를 누른 **채 패널 드롭 영역에 드롭합니다**.
 1. 드롭다운에서 옵션 중 하나를 선택하여 패널의 데이터를 변경합니다. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
-[이 비디오를](https://www.youtube.com/watch?v=vpJywtsFVPI) 통해 프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보십시오.
+[이 비디오를](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 통해 프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보십시오.
