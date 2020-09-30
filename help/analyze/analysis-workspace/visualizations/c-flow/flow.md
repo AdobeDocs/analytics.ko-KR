@@ -2,11 +2,11 @@
 description: 'null'
 title: 흐름 개요
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >
 >흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics/Ad Hoc Analysis에서 어떻게 다를 수 있는지에 대해서는 [흐름 및 폴아웃을 위한 기초로서의 세그멘테이션](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
 
-[플로우 시각화 - YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[흐름 시각화 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
 ## 차원 간 흐름 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
