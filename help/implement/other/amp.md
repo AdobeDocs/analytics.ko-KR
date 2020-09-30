@@ -1,9 +1,9 @@
 ---
 title: AMP를 사용한 구현
 description: AMP 페이지에서 Adobe Analytics를 구현합니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
+workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
       "triggers": {
         "pageLoad": {
           "on": "visible",
-          "request": "pageView"
+          "request": "pageview"
         },
         "click": {
           "on": "click",
