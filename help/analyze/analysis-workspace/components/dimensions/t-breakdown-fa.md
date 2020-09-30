@@ -5,10 +5,10 @@ title: 차원 분류
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 93%
+source-wordcount: '226'
+ht-degree: 76%
 
 ---
 
@@ -30,9 +30,9 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
    >
    >테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
-[Analysis Workspace 차원 - YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:54)
+[Analysis Workspace에서 프로젝트에 Dimension 및 지표 추가](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[차원 분류 - YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13)(2:02)
+[자유 형식 테이블에서 Dimension 작업](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## 분류에 속성 모델 적용
 
