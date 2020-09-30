@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace 프로젝트를 이메일로 전송하거나 배달 일정을 예약할 수 있습니다.
 keywords: Analysis Workspace
-title: 예약된 프로젝트
+title: 프로젝트 예약
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 예약된 프로젝트
+# 프로젝트 예약
 
 [작업 영역 **공유] 메뉴에서**&#x200B;선택한 수신자에게 Analysis Workspace 프로젝트를 이메일로 보낼 수 있습니다. 파일을 CSV 또는 PDF 형식으로 보낼 수 있습니다.
 
