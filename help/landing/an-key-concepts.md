@@ -2,10 +2,10 @@
 description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 title: Adobe Analytics - 주요 개념
 translation-type: tm+mt
-source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -113,5 +113,5 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | DTM 및 Adobe Launch | Analytics 도구를 참조하십시오. |  |
 | VISTA | 수집된 데이터를 변경하거나 세그먼트화하는 서버측 로직을 적용할 수 있습니다. | [VISTA 규칙](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 처리 규칙 | Analytics UI에서 변수를 설정, 수정 및 복사하여 수집된 데이터를 변경하는 기능. | [처리 규칙](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| 디버거 옵션 | Adobe Experience Cloud 디버거를 비롯하여 구현의 유효성을 확인하는 데 도움이 될 수 있는 디버거 및 패킷 스니퍼에는 몇 가지가 있습니다. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
+| 디버거 옵션 | Adobe Experience Cloud 디버거를 비롯하여 구현의 유효성을 확인하는 데 도움이 되는 디버거 및 패킷 스니퍼에는 몇 가지가 있습니다. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
 | 데이터 삽입 API | 데이터 삽입 API는 서버측 데이터 수집과 Experience Cloud 서버에 데이터를 제출하기 위한 메커니즘을 제공합니다. 서버측 데이터 수집에서는 각 웹 페이지에서 JavaScript 비콘을 사용하여 방문자 데이터를 Experience Cloud 서버에 전송하는 대신 웹 브라우저 요청과 웹 서버 응답만 기준으로 해서 데이터를 수집합니다. | [POST를 사용하여 Adobe Analytics 데이터 삽입 API를 구현하는 절차](https://helpx.adobe.com/kr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
