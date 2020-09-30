@@ -5,10 +5,10 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,13 +92,13 @@ ht-degree: 97%
          + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 프로젝트 조정 및 공유 {#curate-share}
-      + [작업 공간 프로젝트 조정](analysis-workspace/curate-share/curate.md)
-      + [작업 공간 프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
+      + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
+      + [프로젝트 조정](analysis-workspace/curate-share/curate.md)
+      + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
-      + [보기 전용 작업 공간 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
+      + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
-      + [프로젝트 파일 공유 및 예약](analysis-workspace/curate-share/send-schedule-files.md)
-      + [파일 보내기 - 프로젝트를 게재할 일정 예약](analysis-workspace/curate-share/t-schedule-report.md)
+      + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
    + 속성 IQ {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
