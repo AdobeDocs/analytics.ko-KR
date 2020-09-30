@@ -3,16 +3,19 @@ description: 'null'
 title: 테이블 페이지 매김, 필터링 및 정렬
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 81%
 
 ---
 
 
 # 테이블 페이지 매김, 필터링 및 정렬
 
-개요를 보려면 YouTube에서 다음 비디오를 시청하십시오.
+개요를 보려면 이 비디오 자습서를 참조하십시오.
 
-[Analysis Workspace에서 테이블 페이지 매김, 필터링 및 정렬](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Analysis Workspace에서 테이블 페이지 매김, 필터링 및 정렬](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## 고급 필터링 선택 사항 {#section_36E92E31442B4EBCB052073590C1F025}
 
