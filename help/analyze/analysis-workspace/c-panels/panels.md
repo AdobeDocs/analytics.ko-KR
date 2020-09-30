@@ -2,10 +2,10 @@
 description: 패널은 테이블 및 시각화의 집합입니다
 title: 패널 개요
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 15%
+source-wordcount: '803'
+ht-degree: 14%
 
 ---
 
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## 패널 보고서 세트 {#report-suite}
 
 패널 내의 표 및 시각화는 패널 오른쪽 상단에서 선택한 [!UICONTROL 보고서 세트에서] 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에 사용할 수 있는 구성 요소도 결정합니다. 프로젝트 내에서 분석 사용 사례에 따라 하나 또는 [여러 보고서 세트를](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) 사용할 수 있습니다.
+
+보고서 세트 목록은 연관성을 기준으로 정렬되며, Adobe은 현재 사용자가 해당 세트를 사용한 빈도 및 조직 내에서 해당 세트가 사용되는 빈도를 기준으로 정의됩니다.
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 **드롭다운 필터 만들기 및 사용:**
 
-![](assets/create-dropdown.png)
-
 1. 마케팅 채널 [!UICONTROL 차원 내의 값 등]Dimension 항목을  사용하여 드롭다운 필터를 만들려면 왼쪽 레일의 차원 옆에 있는 오른쪽 화살표 아이콘을 클릭합니다. 사용 가능한 모든 항목이 표시됩니다. 왼쪽 레일에서 하나 이상의 구성 요소 항목을 선택하고 Shift 키를 누른 **상태에서 패널 드롭 영역에 놓습니다**. 이렇게 하면 구성 요소가 단일 세그먼트가 아닌 드롭다운 필터로 바뀝니다.
 1. 지표, 세그먼트 또는 날짜 범위와 같은 다른 구성 요소를 사용하여 드롭다운 필터를 만들려면 왼쪽 레일의 구성 요소 유형 중 하나를 선택하고 Shift 키를 누른 **채 패널 드롭 영역에 드롭합니다**.
 1. 드롭다운에서 옵션 중 하나를 선택하여 패널의 데이터를 변경합니다. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [이 비디오를](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 통해 프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보십시오.
+
