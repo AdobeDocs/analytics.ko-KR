@@ -3,7 +3,10 @@ description: 새로운 지능형 경고 시스템에서는 경고를 더욱 세�
 title: 지능형 경고
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -32,12 +35,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * Analysis Workspace에서 다음의 바로 가기 사용:
 
    `ctrl (or cmd) + shift + a`
-* 경고 빌더로 직접 이동합니다. > **[!UICONTROL Workspace]** > **[!UICONTROL Components]** **[!UICONTROL New Alert]** .
-* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 이렇게 하면 경고 빌더가 열리고, 테이블에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. 
+* 경고 빌더로 이동: **[!UICONTROL 작업 공간]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**. 
+* 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**. 이렇게 하면 경고 빌더가 열리고, 테이블에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. 
 
    ![](assets/create-alert-from-selection.png)
 
-* 보고서 내에서 [!UICONTROL Reports & Analytics] > **[!UICONTROL More]** **[!UICONTROL Add Alert]** 로 이동합니다. 이렇게 하면 새 경고 빌더가 열리고, 보고서에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. 
+* [!UICONTROL Reports &amp; Analytics] 보고서에서 **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동합니다. 이렇게 하면 새 경고 빌더가 열리고, 보고서에서 적용된 적절한 지표와 필터로 빌더가 사전에 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. 
 
    ![](assets/add-alert.png)
 
@@ -73,7 +76,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 점선을 구성하는 "예상값" 테이블이나 그러한 값에 대한 일종의 출력을 얻을 수 있습니까? </b> </p> </td> 
-   <td colname="col2"> <p>Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다(<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder의 예외 항목 탐지</a>에서 이 비디오 참조 ). </p> <p>Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. 이 방법은 고정된 30일 교육 기간, 고정된 95% 간격을 사용하며 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  > <span class="uicontrol">Reports &amp; Analytics</span> 예외 항목 탐지</a>와 유사합니다. </p> </td> 
+   <td colname="col2"> <p>Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다(<a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder의 예외 항목 탐지</a>에서 이 비디오 참조 ). </p> <p>Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. 고정된 30일 교육 기간인 95% 간격을 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
