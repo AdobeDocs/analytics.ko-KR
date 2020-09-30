@@ -3,10 +3,10 @@ description: 'null'
 title: Analysis Workspace 성능 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 85%
+source-wordcount: '1313'
+ht-degree: 84%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 85%
 
 **날짜 범위에 대한 우수 사례**
 
-가능하면 필요 이상의 데이터를 가져오지 마십시오. 분석 관련 날짜로 패널 달력의 범위를 좁히거나 자유 형식 테이블에서 날짜 범위 구성 요소(자주색 구성 요소)를 사용합니다. 표에 사용된 날짜 범위는 패널 날짜 범위를 덮어씁니다. 예를 들어 지난 달, 지난 주 및 어제 데이터를 테이블 열에 추가하여 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://www.youtube.com/watch?v=MIkT6FZ5gKk)에서 확인하십시오 .
+가능하면 필요 이상의 데이터를 가져오지 마십시오. 분석 관련 날짜로 패널 달력의 범위를 좁히거나 자유 형식 테이블에서 날짜 범위 구성 요소(자주색 구성 요소)를 사용합니다. 표에 사용된 날짜 범위는 패널 날짜 범위를 덮어씁니다. 예를 들어 지난 달, 지난 주 및 어제 데이터를 테이블 열에 추가하여 특정 데이터 범위를 요청할 수 있습니다. Analysis Workspace에서 날짜 범위 작업에 대한 자세한 내용은 [이 비디오](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)에서 확인하십시오 .
 
 프로젝트에서 사용한 연간 비교 횟수를 최소화할 수 있습니다. 1년 대비 비교가 계산되면 관심 개월 사이의 전체 13개월 데이터를 검색합니다. 패널 날짜 범위를 지난 13개월로 변경하는 것과 동일한 영향을 줍니다.
 
@@ -79,7 +79,7 @@ ht-degree: 85%
 
 프로젝트 하나에 모든 것을 추가하려고 하지 말고, 이해 당사자의 특정 목적이나 그룹을 지원하는 고유한 프로젝트를 만드십시오. 태그를 사용하여 프로젝트를 주요 테마로 구성하고 관련 프로젝트를 이해 당사자 그룹과 공유합니다.
 
-더 많은 프로젝트 구성이 필요한 경우 프로젝트에 대한 [직접 연결](https://www.youtube.com/watch?v=6IOEewflG2U)을 선택할 수도 있습니다. 이해 당사자가 필요한 것을 쉽게 찾을 수 있도록 프로젝트의 내부 색인을 만드십시오.
+더 많은 프로젝트 구성이 필요한 경우 프로젝트에 대한 [직접 연결](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html)을 선택할 수도 있습니다. 이해 당사자가 필요한 것을 쉽게 찾을 수 있도록 프로젝트의 내부 색인을 만드십시오.
 
 하나의 프로젝트에 여러 패널이 필요한 경우 저장하고 공유하기 전에 패널을 축소합니다. 프로젝트가 로드되면 Analysis Workspace는 확장된 패널에 대한 내용만 로드합니다. 축소된 패널은 사용자가 확장할 때까지 로드되지 않습니다. 이 방법은 다음과 같은 두 가지 점에서 도움이 됩니다.
 
@@ -88,7 +88,7 @@ ht-degree: 85%
 
 ## 보고서 세트 크기
 
-보고서 세트 크기가 영향력이 큰 요인으로 보일 수 있지만, 실제로는 Adobe의 데이터 처리 방법으로 인해 프로젝트 성능에 미치는 영향은 미미합니다.. 이 규칙에는 예외가 있을 수 있습니다. Adobe Analytics의 전반적인 경험을 개선하기 위해 구현 방법이 개선되는지 확인하려면 구현 팀 또는 Adobe 전문가와 문의하십시오.
+보고서 세트 크기가 영향력이 큰 요인으로 보일 수 있지만, 실제로는 Adobe의 데이터 처리 방법으로 인해 프로젝트 성능에 미치는 영향은 미미합니다.. 이 규칙에는 예외가 있을 수 있습니다.adobe analytics의 전반적인 경험을 개선하기 위해 구현 방법이 개선되는지 확인하려면 구현 팀 또는 Adobe 전문가와 문의하십시오.
 
 ## Analysis Workspace를 동시에 액세스하는 사용자 수
 
