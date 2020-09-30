@@ -1,11 +1,11 @@
 ---
 title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 94%
 
 ---
 
@@ -52,12 +52,10 @@ ht-degree: 100%
 
 서로 다른 속성 모델을 적용할 때 동일한 지표(온라인 주문)가 다른 결과를 어떻게 생성하는지 확인하십시오.
 
-다음은 속성 IQ를 자세히 설명하는 몇 가지 비디오입니다. [속성 IQ 재생 목록](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)입니다.
-
 ## 교차 탭 마케팅 분석
 
 기존의 첫 번째 접촉 채널과 마지막 접촉 채널을 사용하여 채널 상호 작용에 대한 유용한 보기를 얻을 수 있습니다.
 
 ![](assets/mc-viz6.png)
 
-[이 비디오](https://www.youtube.com/watch?v=M3EOdONa-3E)에서 교차 탭 마케팅 분석에 대해 자세히 알아보십시오.
+이 비디오에서 탭 간 마케팅 분석에 대한 자세한 내용을 살펴보십시오. [크로스탭 분석을 사용하여 Analysis Workspace에서 기본 마케팅 속성을 탐색합니다](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
