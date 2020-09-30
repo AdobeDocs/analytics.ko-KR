@@ -1,17 +1,17 @@
 ---
 description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다.
 keywords: Analysis Workspace curation
-title: 작업 공간 프로젝트 조정
+title: 프로젝트 조정
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 작업 공간 프로젝트 조정
+# 프로젝트 조정
 
 조정 기능을 사용하면 프로젝트를 공유하기 전에 구성 요소(차원, 지표, 세그먼트, 날짜 범위)를 제한할 수 있습니다. 수신자가 프로젝트를 열면 해당 프로젝트를 위해 선별한 제한된 구성 요소 세트가 표시됩니다. 조정 작업은 선택 사항이지만 프로젝트를 공유하기 전에 권장되는 단계입니다.
 
