@@ -3,10 +3,10 @@ description: 'null'
 title: Ad Hoc Analysis 프로젝트 변환기 개요
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 62abc14883f678771d9b192efc4192f58f97a64b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 93%
+source-wordcount: '82'
+ht-degree: 52%
 
 ---
 
@@ -17,19 +17,12 @@ ht-degree: 93%
 >
 >Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
 
-Ad Hoc Analysis 프로젝트 변환기는 모든 Ad Hoc 프로젝트를 Analysis Workspace로 원활하게 변환할 수 있습니다.
+The Ad Hoc Analysis Project Converter seamlessly converts your Ad Hoc Analysis projects to [Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html). 프로젝트는 한 번에 하나씩 또는 일괄적으로 변환할 수 있습니다.
 
-* [프로젝트를 변환해야 하는 이유는 무엇입니까?](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
 * [Ad Hoc Analysis 프로젝트를 변환하는 방법](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
 * [Analysis Workspace에서 변환된 프로젝트 보기](/help/analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
 * [프로젝트 변환기 FAQ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
 
-## 프로젝트를 변환해야 하는 이유는 무엇입니까? {#section_173A6297E20641D0B68B7AF199557CA6}
 
-프로젝트를 변환하면 다음과 같은 장점이 있습니다.
 
-* 프로젝트를 최신 분석 보고 도구인 [Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html)로 변환합니다. 이 도구는 새로운 시각화 및 기타 필요한 기능으로 지속적으로 향상됩니다.
-* [어떤 분석 도구를 사용해야 합니까?](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-overview/which-analytics-tool.html)에 나열된 Analysis Workspace에서 제공하는 편리한 기능을 모두 이용할 수 있습니다.
-* Analysis Workspace에서 프로젝트를 수동으로 다시 빌드하지 않고도 프로젝트를 대량으로 변환할 수 있습니다.
-* Ad Hoc Analysis가 몇 년 동안 매우 유용한 도구였지만, 이제 새 기능이 추가되지 않고 유지 보수 모드에 있습니다.
 
