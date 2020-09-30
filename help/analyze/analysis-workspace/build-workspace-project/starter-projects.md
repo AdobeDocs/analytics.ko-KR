@@ -3,10 +3,10 @@ description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 99%
+source-wordcount: '1389'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. 
 
-[Analysis Workspace 표준 템플릿 - YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
+Analysis Workspace의 [표준 템플릿에 대한 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)입니다.
 
 다음은 템플릿과 각 템플릿을 사용하여 해결할 수 있는 질문입니다.
 
@@ -65,7 +65,7 @@ ht-degree: 99%
 
 * **교육 자습서 - 내부 검색 분석**: 내부 검색 자습서는 방문자가 웹사이트 또는 앱에서 찾고 있는 항목을 지원하고 이해합니다. 이러한 유형의 데이터를 분석하면 컨텐츠 최적화의 기회를 포착할 수 있습니다.
 
-* **교육 자습서 - 마케팅 분석**: 이 자습서에서는 사용자 지정 차원 및 지표가 중요한 사항을 포함하여 경영진을 위한 마케팅 분석을 구성하는 방법을 보여줍니다.
+* **교육 자습서 - 마케팅 분석**:이 자습서에서는 사용자 지정 차원 및 지표가 중요한 것을 포함하여 임원을 위한 마케팅 분석을 구성하는 방법을 보여줍니다.
 
 ### 광고
 
@@ -77,9 +77,9 @@ ht-degree: 99%
 
 ### 상거래
 
-* **마젠토: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 속성으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 비디오 개요는 다음을 참조하십시오.
+* **Magento:마케팅 및 상거래**:이 템플릿은 마케팅 채널 기여도에 따라 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 기준으로 통찰력을 제공합니다. 비디오 개요는 다음을 참조하십시오.
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### 미디어
 
