@@ -5,10 +5,10 @@ title: 처리 규칙 개요
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 87%
+source-wordcount: '362'
+ht-degree: 80%
 
 ---
 
@@ -24,20 +24,11 @@ ht-degree: 87%
 * 철자가 틀린 사이트 섹션 정리
 * 쿼리 문자열에서 eVar까지의 내부 검색어 또는 캠페인 ID 가져오기
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Adobe Summit에서 처리 규칙 개요 및 교육을 보고 처리 규칙을 사용해야 하는 이유를 알아 보십시오.*
+## 처리 규칙 권한 {#section_8A4846688050453784DAE4D89355169A}
 
-## 처리 규칙 사용을 위한 인증 받기 {#section_8A4846688050453784DAE4D89355169A}
-
-2017년 4월 20일 이전에는, 모든 사용자(관리자 포함)가 시험에 통과하고 처리 규칙을 사용할 수 있도록 Adobe 고객 지원 센터에서 인증을 받아야 했습니다.
-
-이제 관리자는 **기본적으로** 처리 규칙을 사용할 수 있는 권한이 있습니다. 시험은 더 이상 필요하지 않습니다. 관리자는 관리 도구 인터페이스를 통해 관리자가 아닌 사용자에게 이러한 권한을 부여할 수도 있습니다. 방법은 다음과 같습니다.
-
-1. 아직 권한을 부여하지 않은 경우, 처리 규칙을 사용할 권한을 가져야 하는 비 관리자 사용자만 포함하는 [그룹을 만듭니다](/help/admin/user-management2/c-user-groups/groups.md).
-1. [관리자가 아닌 사용자를 해당 그룹에 추가](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)합니다.
-1. 그런 다음 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL `group name`]** > **[!UICONTROL 편집]** > **[!UICONTROL 보고서 액세스]** > **[!UICONTROL 보고서 세트 도구]** > **[!UICONTROL 사용자 지정]** > **[!UICONTROL 보고서 세트 관리]**&#x200B;로 이동합니다.
-1. [!UICONTROL 처리 규칙] 옆의 확인란을 선택하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+Administrators have rights to use processing rules **by default**. 관리자는 관리 도구 인터페이스를 통해 관리자가 아닌 사용자에게 이러한 권한을 부여할 수도 있습니다. 자세한 내용은 []
 
 ![](assets/processing-rules.png)
 
