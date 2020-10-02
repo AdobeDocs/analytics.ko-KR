@@ -4,9 +4,9 @@ title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '535'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace은 분석 및 인사이트 공유를 신속하게 수행할 �
 
 몇 분 밖에 시간이 없다면 이 간단한 개요를 통해 가능한 작업을 확인하십시오.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
 
 ## Adobe Analytics{#login}에 로그인합니다 
 
