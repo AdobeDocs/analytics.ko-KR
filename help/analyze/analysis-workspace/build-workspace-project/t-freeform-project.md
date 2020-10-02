@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: 작업 공간 프로젝트 만들기
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 
-이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여줍니다. 특정 사용 사례에 대해서는 [Analysis Workspace 사용 사례](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)를 참조하십시오.
+이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여줍니다.
 
 ## 프로젝트를 만듭니다.
 
@@ -117,7 +117,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 세그먼트(파란색) </td> 
-   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Analysis Workspace 사용 사례</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 세그먼트 </a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 날짜 범위 및 세부기간(자주색) </td> 
