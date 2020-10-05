@@ -2,10 +2,10 @@
 title: 장치 간 분석 설정
 description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 91%
+ht-degree: 83%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 91%
 가상 보고서 세트에서 교차 디바이스 분석이 활성화되면 다음 변경 사항에 유의하십시오.
 
 * 가상 보고서 세트 이름 옆에 새 장치 간 아이콘이 나타납니다. 이 아이콘은 장치 간 가상 보고서 세트에만 사용할 수 있습니다.
-* &#39;식별된 상태&#39;라는 새 차원을 사용할 수 있습니다. 이 차원은 해당 히트에 대한 Experience Cloud ID를 해당 시간에 장치 그래프에서 알고 있는지 확인합니다.
-* 레이블이 &#39;사람&#39; 및 &#39;고유 장치&#39;로 지정된 새 지표를 사용할 수 있습니다.
-* &#39;고유 방문자 수&#39; 지표는 &#39;사람&#39; 및 &#39;고유 장치&#39;로 대체되므로 사용할 수 없습니다&#39;.
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. 이 차원은 해당 히트에 대한 Experience Cloud ID를 해당 시간에 장치 그래프에서 알고 있는지 확인합니다.
+* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
+* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
 * 세그먼트를 작성할 때 &#39;방문자&#39; 세그먼트 컨테이너는 &#39;사람&#39; 컨테이너로 대체됩니다.
