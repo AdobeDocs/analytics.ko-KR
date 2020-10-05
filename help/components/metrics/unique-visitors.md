@@ -1,11 +1,11 @@
 ---
 title: 고유 방문자 수
-description: 고유한 개인(또는 장치)의 수입니다.
+description: 고유 방문자 ID 수.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 87%
+source-wordcount: '564'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 &#39;고유 방문자 수&#39; 지표는 차원 항목에 대한 방문자 ID 수를 보여줍니다. 이것은 차원 항목의 인기에 대한 높은 수준의 개요를 제공하므로 트래픽을 결정할 때 사용되는 가장 일반적인 지표 중 하나입니다. 예를 들어 방문자는 한 달 동안 매일 사이트를 방문할 수 있지만 여전히 하나의 고유 방문자로 계산됩니다.
 
-[교차 장치 분석](../cda/overview.md)을 사용하는 경우 이 지표의 이름은 &#39;고유 장치&#39;로 변경됩니다.
+장치 [간 분석을](../cda/overview.md)사용하는 경우 이 지표가 [고유 장치](unique-devices.md) 지표로 대체됩니다.
 
 ## 일별, 주별, 월별, 분기별 및 연간 고유 방문자 수
 
