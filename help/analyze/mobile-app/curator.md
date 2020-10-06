@@ -2,18 +2,23 @@
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
 translation-type: tm+mt
-source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
+source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 97%
+source-wordcount: '2376'
+ht-degree: 92%
 
 ---
 
 
-
 # Adobe Analytics 대시보드에 대한 큐레이터 안내서
 
-다음 정보는 Adobe Analytics의 조정자에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 이 정보를 보여주는 비디오를 보려면 [Adobe Analytics 대시보드 스코어카드 빌더](https://youtu.be/tnnl6hrcP94)를 참조하십시오.
+>[!IMPORTANT]
+>
+>2020년 10월부터 Adobe은 &quot;Adobe Analytics 대시보드&quot; 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 점차 출시하고 있습니다. 이 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다(현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 그만두려면 CSM에 문의하십시오.
+
+다음 정보는 Adobe Analytics의 조정자에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 이 정보를 보여주는 비디오를 보려면 Adobe Analytics 대시보드 Scorecard Builder 비디오를 참조하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## 소개
 
@@ -38,25 +43,20 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 | 날짜 범위 | 대시보드 보고에 대한 기본 날짜 범위 |
 | 비교 날짜 범위 | 기본 날짜 범위와 비교되는 날짜 범위 |
 
- 
 ## 경영진 사용자를 위한 스코어카드 만들기
 
 스코어카드는 아래에 표시된 대로 타일 레이아웃에 경영진 사용자에 대한 주요 데이터 시각화를 표시합니다.
 
-
 ![스코어카드의 예](assets/intro_scorecard.png)
-
 
 이 스코어카드의 큐레이터로서 스코어카드 빌더를 사용하여 소비자의 스코어카드에 표시되는 타일을 구성할 수 있습니다. 또한 타일을 탭하여 세부 보기 또는 분류를 조정하는 방법을 구성할 수 있습니다. 스코어카드 빌더 인터페이스가 아래에 표시되어 있습니다.
 
 ![스코어카드 빌더](assets/scorecard_builder.png)
 
-
 스코어카드 빌더를 만들려면 다음을 수행해야 합니다.
 
 1. 빈 모바일 스코어카드 템플릿에 액세스합니다.
 2. 데이터를 사용하여 스코어카드를 구성하고 저장합니다.
-
 
 ### 빈 모바일 스코어카드 템플릿에 액세스
 
@@ -151,7 +151,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
 If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
-## 앱을 사용하여 경영진 사용자 설정
+## 앱을 사용하여 경영진 설정
 
 경우에 따라 경영진 사용자는 앱에 액세스하고 앱을 사용하기 위해 추가 지원이 필요할 수 있습니다. 이 섹션에서는 그러한 지원을 제공하는 데 도움이 되는 정보를 제공합니다.
 
@@ -205,7 +205,7 @@ If you update the Scorecard by adding new components, you may want to share the 
    * 경영진 사용자가 올바른 Analytics 인스턴스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.
 
 
-3. 공유하는 스코어카드에 타일이 표시되는 방식을 경영진 사용자에게 설명합니다(아래 첫 번째 스코어카드가 어두운 모드로 설정됨. 경영진 사용자가 이 보기 옵션을 선호한다고 생각되면 아래 **환경 설정**&#x200B;을 참조하십시오.)
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
 
    ![타일 설명](assets/newexplain.png)
 
