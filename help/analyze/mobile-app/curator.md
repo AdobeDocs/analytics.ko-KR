@@ -2,7 +2,7 @@
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 92%
@@ -11,10 +11,6 @@ ht-degree: 92%
 
 
 # Adobe Analytics 대시보드에 대한 큐레이터 안내서
-
->[!IMPORTANT]
->
->2020년 10월부터 Adobe은 &quot;Adobe Analytics 대시보드&quot; 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 점차 출시하고 있습니다. 이 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다(현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 그만두려면 CSM에 문의하십시오.
 
 다음 정보는 Adobe Analytics의 조정자에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 이 정보를 보여주는 비디오를 보려면 Adobe Analytics 대시보드 Scorecard Builder 비디오를 참조하십시오.
 
@@ -263,3 +259,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 **질문하려면:**
 
 옵션을 탭하고 맨 위 필드에 전자 메일 주소를 입력하고 그 아래 필드에 질문을 입력합니다. 스크린샷이 메시지에 자동으로 첨부되지만 원할 경우 첨부 이미지에서 **X**&#x200B;를 탭하여 이 스크린샷을 삭제할 수 있습니다. 또한 화면 기록을 촬영하거나 더 많은 스크린샷을 추가하거나 파일을 첨부하는 옵션이 제공됩니다. 질문을 보내려면 양식 오른쪽 상단에 있는 종이 비행기 아이콘을 탭합니다.
+
+>[!IMPORTANT]
+>
+>2020년 10월부터 Adobe은 &quot;Adobe Analytics 대시보드&quot; 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 점차 출시하고 있습니다. 이 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다(현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 그만두려면 CSM에 문의하십시오.
