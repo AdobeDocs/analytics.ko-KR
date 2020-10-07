@@ -9,17 +9,21 @@ getting-started-title: 시작하기
 getting-started-url: https://helpx.adobe.com/kr/analytics/get-started.html
 tutorials-title: 자습서
 tutorials-url: https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/analytics.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.ko-KR
+type: Documentation
 index: true
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
 
 # 내부용 메타데이터
 
-metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 콘텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행합니다.
+metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 컨텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행합니다.
 
 | 메타데이터 | 기능 |
 |--- |--- |
