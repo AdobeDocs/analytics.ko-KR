@@ -3,7 +3,7 @@ description: 'null'
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 93%
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 프로젝트를 다음 중 어느 방법으로 작성할지 선택할 수 있습니다.
 
-* **빈 프로젝트(기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)를 참조하십시오.
+* **빈 프로젝트(기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/home.md)를 참조하십시오.
 * **표준 템플릿**: 이러한 템플릿은 Adobe에서 만들어 제품과 함께 제공됩니다.
 * **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/permissions/product-profile.html)
 
