@@ -2,10 +2,10 @@
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
 title: Analytics Data Connectors 시작하기
 translation-type: tm+mt
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 98%
+source-wordcount: '975'
+ht-degree: 97%
 
 ---
 
@@ -86,8 +86,9 @@ Adobe Analytics는 이 파일을 별도의 일별 파일로 데이터 웨어하�
 
 >[!NOTE]
 >
->연결된 이벤트 없이 제품이 정의된 경우 prodView 이벤트가 자동으로 실행됩니다.
-위의 요구 사항을 충족하지 않으면 해당 리마케팅 세그먼트가 올바르게 보고되지 않습니다.
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>위의 요구 사항을 충족하지 않으면 해당 리마케팅 세그먼트가 올바르게 보고되지 않습니다.
 
 [!UICONTROL  장바구니 포기]: 사용자가 제품을 장바구니에 추가한 후에 실행됩니다.
 
