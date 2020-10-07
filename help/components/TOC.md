@@ -5,10 +5,10 @@ user-guide-title: Analytics 구성 요소 안내서
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 96%
+source-wordcount: '622'
+ht-degree: 95%
 
 ---
 
@@ -214,6 +214,7 @@ ht-degree: 96%
    + [장치 간 분석 설정](cda/setup.md)
    + [재생 방식](cda/replay.md)
    + [CDA 작업 공간 템플릿](cda/workspace-template.md)
+   + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [교차 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)
