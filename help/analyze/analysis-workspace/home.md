@@ -4,10 +4,10 @@ title: Analysis Workspace 개요
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 14%
+source-wordcount: '525'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace은 분석 및 인사이트 공유를 신속하게 수행할 �
 
 몇 분 밖에 시간이 없다면 이 간단한 개요를 통해 가능한 작업을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Adobe Analytics{#login}에 로그인합니다 
 
@@ -46,7 +46,7 @@ Analysis Workspace을 사용하려면 experience.adobe.com/analytics으로 이�
 
 ### 구성 요소
 
-**구성** 요소는 차원, 지표, 세그먼트 또는 날짜 범위이며, 이 모든 것을 **[!UICONTROL 자유 형식 테이블에서]** 결합하여 비즈니스 질문에 답할 수 있습니다. 분석으로 들어가기 전에 각 [구성 요소 유형에](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) 익숙해져야 합니다. 구성 요소 용어를 마스터하면 드래그 앤 드롭하여 분석 [을](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) 자유 형식 테이블로 **[!UICONTROL 만들 수 있습니다]**.
+**구성** 요소는 차원, 지표, 세그먼트 또는 날짜 범위이며, 이 모든 것을 **[!UICONTROL 자유 형식 테이블에서]** 결합하여 비즈니스 질문에 답할 수 있습니다. 분석으로 들어가기 전에 각 [구성 요소 유형에](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 익숙해져야 합니다. 구성 요소 용어를 마스터하면 드래그 앤 드롭하여 분석 [을](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) 자유 형식 테이블로 **[!UICONTROL 만들 수 있습니다]**.
 
 ![](assets/build-components.png)
 
