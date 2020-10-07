@@ -5,7 +5,7 @@ title: 프로젝트 만들기 - 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 86%
@@ -33,7 +33,7 @@ Analysis Workspace에서는 이전에는 가능하지 않던 방식으로 데이
 
 | 요소 | 설명 |
 |---|---|
-| [새 프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
+| [새 프로젝트 만들기](/help/analyze/analysis-workspace/home.md) | 새 프로젝트를 처음부터 시작하려면 이 링크를 클릭하십시오. |
 | 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자(**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 랜딩 페이지로 설정 | 이 페이지를 작업 공간 랜딩 페이지로 바꿉니다. |
 | 자습서 보기 | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
