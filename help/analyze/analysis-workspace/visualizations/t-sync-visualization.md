@@ -2,8 +2,11 @@
 description: 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 데이터 소스 관리
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 데이터 소스를 관리하면 데이터 소스를 표시하거나 선택을 잠글 수 있습니다. 이러한 설정은 새 데이터가 유입될 때 시각화가 변경되는(또는 변경되지 않는) 방식을 결정합니다.
 
-1. 데이터 테이블과 [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 [프로젝트를 만듭니다](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+1. 데이터 테이블과 [시각화](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)로 [프로젝트를 만듭니다](//help/analyze/analysis-workspace/home.md).
 1. 데이터 테이블에서 시각화와 연결할 셀(데이터 소스)을 선택합니다.
-1. 시각화에서 제목 옆에 있는 점을 클릭하여 **[!UICONTROL Data Source]** 대화 상자를 표시합니다. **[!UICONTROL Show Data Source]** 또는&#x200B;**[!UICONTROL Lock Selection]**&#x200B;를 선택합니다.
+1. 시각화에서 제목 옆에 있는 점을 클릭하여 **[!UICONTROL 데이터 소스]** 대화 상자를 표시합니다. **[!UICONTROL 데이터 소스 표시]** 또는 **[!UICONTROL 선택 잠금]**&#x200B;을 선택하십시오.
 
    ![](assets/manage-data-source.png)
 
