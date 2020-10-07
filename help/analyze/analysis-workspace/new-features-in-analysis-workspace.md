@@ -3,9 +3,9 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7786'
 ht-degree: 98%
 
 ---
@@ -414,8 +414,7 @@ ht-degree: 98%
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 사용자 지정 작업 공간 템플릿 </a> </p> </td> 
    <td colname="col2"> <p>이제 고유한 작업 공간 템플릿을 작성하고 저장하면 조직의 다른 사용자가 이러한 템플릿과 관련된 데이터로 시작할 수 있습니다. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 새 프로젝트 시작 양식 </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>다음과 같이 시작할 항목을 선택할 수 있는 새 화면을 표시하려면 "새 프로젝트"를 클릭합니다. </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">빈 프로젝트 또는 </li> 
@@ -498,7 +497,7 @@ ht-degree: 98%
    <td colname="col2"> <p>이제 2017년 10월에 도입된 지도 시각화를 PDF로 렌더링할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 프로젝트 복사/다른 이름으로 저장 시 <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >상대 인트라 링크</a> </p> </td> 
+   <td colname="col1"> <p> 프로젝트 복사/다른 이름으로 저장 시 <a href="/help/analyze/analysis-workspace/home.md"  >상대 인트라 링크</a> </p> </td> 
    <td colname="col2"> <p>이전에는 프로젝트를 복사하거나 "다른 이름으로 저장"한 경우 프로젝트에 저장된 모든 인트라 링크가 복사한 프로젝트가 아닌 원래 프로젝트를 가리켰습니다. </p> <p>이제 인트라 링크는 복사/다른 이름으로 저장한 후에 활성 상태인 프로젝트를 기준으로 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ ht-degree: 98%
    <td colname="col2"> <p>자유 형식 또는 집단 테이블에 시각화가 연결된 경우 왼쪽 상단 점(데이터 소스 설정)에 연결된 시각화가 나열됩니다. 마우스를 이동하면 연결된 시각화가 강조 표시되고, 클릭하면 해당 시각화로 이동합니다. </p> <p>또한 데이터 테이블을 표시하거나 숨길 수 있는 "데이터 테이블 표시/숨기기" 확인란이 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 왼쪽 레일 이벤트 이름에 추가된 이벤트 번호 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 왼쪽 레일 이벤트 이름에 추가된 이벤트 번호 </a> </p> </td> 
    <td colname="col2"> <p>2017년 10월 이전에 evar# 및 prop#이 차원 이름에 추가되었으므로 해당 숫자를 검색할 수 있습니다. 이제 동일한 기능을 이벤트에 사용할 수 있습니다. </p> <p>예: 이제 "구독"이 왼쪽 레일에 "구독(event1)"으로 표시됩니다. </p> <p>다음 사항에 주의하십시오. </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">이벤트 번호가 테이블에 표시되지 않습니다(제목을 짧게 지정). </li> 
@@ -576,7 +575,7 @@ ht-degree: 98%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 기본적으로 논리적 순서로 정렬된 특별 차원 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 기본적으로 논리적 순서로 정렬된 특별 차원 </a> </p> </td> 
    <td colname="col2"> <p>다음과 같은 경우 일부 특별 차원의 기본 정렬 순서가 업데이트되었습니다. </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">자유 형식 테이블로 끌었을 경우. </li> 
@@ -677,7 +676,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 저장하는 동안 프로젝트에 태그 지정 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 저장하는 동안 프로젝트에 태그 지정 </a> </p> </td> 
    <td colname="col2"> <p>이제 프로젝트를 저장하는 동안 프로젝트에 태그를 추가할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
