@@ -5,10 +5,10 @@ title: 분류 규칙
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
 workflow-type: tm+mt
 source-wordcount: '2018'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -326,11 +326,14 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >다음 조건이 충족될 때에&#x200B;*`only`*&#x200B;만 보고서 세트가 이 페이지에 표시됩니다. >
-
-   * [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
-   ( 전제 조건에 대한 자세한 내용은 *`Variable`*&#x200B;분류 규칙 세트[의 ](/help/components/classifications/crb/classification-rule-set.md)을 참조하십시오.)
-
+   >Report suites display on this page *`only`* when the following conditions are met:
+   >
+   >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
+      >
+      >   
+      ( 전제 조건에 대한 자세한 내용은 *`Variable`*&#x200B;분류 규칙 세트[의 ](/help/components/classifications/crb/classification-rule-set.md)을 참조하십시오.)
+      >
+      >
    * 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/classifications/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
 
 
