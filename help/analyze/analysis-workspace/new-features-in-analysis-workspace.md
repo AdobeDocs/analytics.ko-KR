@@ -3,7 +3,7 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
 ht-degree: 96%
@@ -33,7 +33,6 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 | [단일 차원에 맞는 50K 항목 다운로드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
 | [선 시각화 개선 사항](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>모든 선 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 선 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다. </li></ul> |
 | 새 날짜 범위 | 5개의 새 날짜 범위를 추가했으므로 오늘부터 일부 날짜 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다.지난 7일 전체 일, 지난 14일 전체 일, 지난 30일, 지난 60일 전체 일, 지난 90일 |
-
 
 ## 2020월 8일
 
