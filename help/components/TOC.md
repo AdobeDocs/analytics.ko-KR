@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 구성 요소 안내서
-breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+breadcrumb-title: 구성 요소 안내서
+user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
 translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '640'
 ht-degree: 95%
 
 ---
