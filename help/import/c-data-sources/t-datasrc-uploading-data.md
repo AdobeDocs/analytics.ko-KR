@@ -5,14 +5,15 @@ title: Data Sources 파일 업로드
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 87%
 
 ---
 
 
 # Data Sources 파일 업로드
-
-데이터 소스 파일을 업로드하는 방법을 설명하는 절차입니다.
 
 데이터 소스 데이터 파일을 준비한 후에는 처리를 위해 데이터 소스로 전송합니다. Adobe는 데이터 소스 파일을 업로드할 수 있도록 다수의 데이터 소스 FTP 서버를 운영합니다. 데이터 소스 FTP 서버에 관해 다음에 유의하십시오.
 
@@ -31,6 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    [!DNL .fin] 파일의 이름은 파일 확장자를 제외하고 Data Sources 파일과 완전히 같아야 합니다. [!DNL .fin] 파일을 업로드할 때까지 해당 Data Sources 파일이 처리 대기열에 추가되지 않습니다.
 
    데이터 소스 파일이 업로드를 마치기 전까지는 파일을 업로드하지 마십시오. 그렇지 않으면, 데이터 소스가 불완전한 파일을 처리할 수 있습니다.
+1. .fin 파일이 업로드되면 Data Sources FTP 사이트에서 로그아웃해야 합니다. Analytics에서 로그아웃 이벤트를 트리거로 사용하여 파일이 처리할 준비가 되었음을 나타냅니다.
 1. 데이터 소스 파일이 처리되는 동안 나타나는 메시지를 확인하십시오.
 
    데이터 소스 관리자는 파일 처리 중에 발생하는 모든 오류를 표시합니다.
