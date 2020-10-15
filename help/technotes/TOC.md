@@ -2,13 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Analytics 기술 노트
-breadcrumb-title: Tech Notes
-user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+breadcrumb-title: 기술 노트
+user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 83%
+source-wordcount: '180'
+ht-degree: 85%
 
 ---
 
