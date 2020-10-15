@@ -4,8 +4,11 @@ subtopic: Get started
 title: Reports and Analytics 시작하기
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 100%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 # Reports &amp; Analytics 시작하기
 
 Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
-
-## Reports &amp; Analytics 시작하기
-
-Reports &amp; Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 
 보고 기능을 통해 모바일, 비디오 및 소셜 네트워킹과 같이 계속 변화하는 채널을 물론 종래의 웹 기반 채널들에 대해서도 통찰력을 가질 수 있습니다. 마케팅 보고의 일부 예에는 다음과 같습니다.
 
