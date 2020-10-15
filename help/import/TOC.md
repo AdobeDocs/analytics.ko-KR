@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 가져오기 안내서
-breadcrumb-title: Import Guide
-user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
+breadcrumb-title: 가져오기 안내서
+user-guide-description: '데이터를 일괄 방식 또는 실시간으로 외부 소스에서 Analytics로 가져옵니다. '
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '515'
 ht-degree: 99%
 
 ---
