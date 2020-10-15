@@ -1,9 +1,9 @@
 ---
 title: 보고서 세트 만들기
 description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이너를 만듭니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 [Analytics 첫 번째 관리 시작 안내서](first-admin-guide.md): 시스템 수준 관리자가 Experience Cloud Admin Console을 통해 Adobe Analytics에 대한 액세스 권한을 부여했는지 확인
 
-## 보고서 세트 만들기
+## 보고서 세트 만들기 {#create-report-suite}
 
 >[!NOTE]
 >
