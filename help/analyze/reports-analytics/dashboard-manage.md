@@ -4,10 +4,10 @@ subtopic: Dashboards
 title: 대시보드 관리자
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '807'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >대시보드 관리자를 사용할 때 가장 좋은 방법은 단일 사용자에 대해 300개 이하의 대시보드를 보유하는 것입니다. 또한 관리자는 아래의 모든 공유 대시보드를 로드하므로 대시보드 공유를 신중하게 해야 합니다.
-
-## 대시보드 관리자
-
-대시보드 관리자를 사용하여 배달할 대시보드를 복사, 공유, 보관 및 예약하십시오 .
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 대시보드]**&#x200B;를 클릭합니다.
 
@@ -90,7 +86,7 @@ ht-degree: 100%
 
    복사한 대시보드가 대시보드 레이아웃 편집기에서 열립니다.
 
-    [대시보드 및 Reportlet 데이터 편집](/help/analyze/reports-analytics/dashboard.md)을 참조하십시오.
+   자세한 내용은 [대시보드 및 Reportlet 데이터 편집](/help/analyze/reports-analytics/dashboard.md)을 참조하십시오.
 
 ## 대시보드 공유
 
