@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 툴 안내서
-breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
+breadcrumb-title: 도구 안내서
+user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Report Builder 및 Activity Map과 같은 도구를 제공합니다.
 translation-type: tm+mt
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1112'
 ht-degree: 97%
 
 ---
