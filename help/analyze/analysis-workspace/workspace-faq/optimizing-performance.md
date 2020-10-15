@@ -3,7 +3,7 @@ description: 작업 공간 성능 및 최적화에 영향을 주는 요인
 title: Analysis Workspace 성능 요소 및 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 24%
@@ -11,7 +11,7 @@ ht-degree: 24%
 ---
 
 
-# Analysis Workspace 성능 최적화
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 다양한 요소들이 Analysis Workspace 내의 프로젝트 성과에 영향을 줄 수 있다. 프로젝트를 가장 최적의 방식으로 계획 및 구축할 수 있도록 프로젝트를 빌드하기 전에 이러한 기여자가 어떤 사람인지 아는 것이 중요합니다. 이 페이지에는 Analysis Workspace의 최고 성능을 보장하기 위해 수행할 수 있는 성능 및 최적화에 영향을 주는 요소 목록이 포함되어 있습니다.
 
@@ -19,9 +19,10 @@ ht-degree: 24%
 >
 >Analysis Workspace의 성능 페이지는 제한된 릴리스에 있습니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-releases.html)
 
-## 도움말 > Analysis Workspace 성능
+## [!UICONTROL 도움말] > Analysis Workspace [!UICONTROL 의] 성능
 
-네트워크, 브라우저, 프로젝트 요소 등 **[!UICONTROL Analysis Workspace]**> 도움말 > 성능에서 프로젝트 성능에 영향을 주는 요인을 확인할 수 있습니다. 가장 정확한 결과를 위해 성능 페이지를 열기 전에 프로젝트를 완전히 로드할 수 있도록 합니다.
+Analysis Workspace > **도움말 [!UICONTROL >] 성능 [!UICONTROL 아래에서 네트워크, 브라우저, 프로젝트 요소 등 프로젝트 성능에 영향을 주는 요인을 확인할 수 있습니다]**. 가장 정확한 결과를 위해 성능 페이지를 열기 전에 프로젝트를 완전히 로드할 수 있도록 합니다.
+
 * 현재 프로젝트 열에는 현재 프로젝트 및 사용자 환경에 대한 결과가 표시됩니다.
 * 지침 열에는 각 요소에 대한 Adobe 권장 임계값이 표시됩니다.
 
@@ -35,7 +36,7 @@ ht-degree: 24%
 
 ## 네트워크 요소
 
-도움말 > 성능 네트워크 요인은 다음과 같습니다.
+[!UICONTROL 도움말] > [!UICONTROL 성능] 네트워크 요인은 다음과 같습니다.
 
 | 요소 | 정의 | 영향 | 최적화 |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ ht-degree: 24%
 
 ## 브라우저 요소
 
-도움말 > 성능 브라우저 요인은 다음과 같습니다.
+[!UICONTROL 도움말] > [!UICONTROL 성능] 브라우저 요인은 다음과 같습니다.
 
 | 요소 | 정의 | 영향 | 최적화 |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ ht-degree: 24%
 
 ## 프로젝트 요소
 
-도움말 > 성능 프로젝트 요소는 다음과 같습니다.
+[!UICONTROL 도움말] > [!UICONTROL 성능] 프로젝트 요소에는 다음이 포함됩니다.
 
 | 요소 | 정의 | 최적화 |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ Analysis Workspace과 상호 작용할 때 오류가 발생할 수 있으며 이
 | [!UICONTROL 시스템 오류가 발생했습니다. 도움말 > 지원 티켓 제출 아래에 고객 지원 요청을 로그인하여 오류 코드를 포함시키십시오.] | Adobe에서 해결해야 하는 문제가 발생했습니다. | 오류 코드를 고객 지원 센터에 제출합니다. |
 | [!UICONTROL 요청이 너무 복잡합니다.] | 보고 요청이 너무 커서 실행할 수 없습니다. 이 오류에 기여하는 요소는 요청의 크기로 인한 시간 초과, 세그먼트 또는 검색 필터에 일치하는 항목이 너무 많음, 포함된 지표가 너무 많음, 호환되지 않는 차원과 지표 조합 등입니다. | 테이블의 일부 열 또는 행을 제거하여 요청을 단순화하거나 테이블을 별도의 요청으로 분할하는 것을 고려해 보십시오. |
 | [!UICONTROL 세그먼트 중 하나 또는 이 시각화의 검색에는 너무 많은 결과를 반환하는 텍스트 검색이 포함되어 있습니다.] | 세그먼트 기준이나 보고서 필터가 너무 넓습니다. | 검색 텍스트 기준을 좁히고 요청을 다시 시도하십시오. |
-| [!UICONTROL 이 차원은 현재 기본이 아닌 속성 모델을 지원하지 않습니다.] | 사용 중인 차원에 대해 기본이 아닌 속성이 지원되지 않습니다. | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL 이 차원은 현재 기본이 아닌 속성 모델을 지원하지 않습니다.] | 사용 중인 차원에 대해 기본이 아닌 속성이 지원되지 않습니다. | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL 너무 많은 열 또는 사전 구성된 행으로 인해 요청이 실패했습니다.] | 표에 자유 형식 셀이 너무 많습니다(행 * 열). | 테이블에서 열 또는 행을 제거하거나 표를 별도의 요청으로 분할하는 것을 고려해 보십시오. |
