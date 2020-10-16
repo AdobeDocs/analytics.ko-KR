@@ -1,9 +1,9 @@
 ---
-source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '514'
-ht-degree: 91%
+source-wordcount: '644'
+ht-degree: 72%
 
 ---
 # Adobe Analytics의 제품 프로필
@@ -54,4 +54,6 @@ Analytics 도구 권한 항목은 보고서 세트 설정과 독립적인 기능
 
 ## 제품 프로필 개발자
 
-개발자는 Adobe I/O에서 Experience Cloud API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)를 참조하십시오.
+개발자는 Adobe I/O에서 Experience Cloud API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)를 참조하십시오. 사용자에게 프로필에 대한 개발자 액세스 권한이 부여된 경우 개발 콘솔(console.adobe.io)에 액세스하고 Adobe Analytics 통합을 편집할 수 있습니다. 사용자에 대해 허가된 Analytics API 호출 및 응답은 해당 사용자가 개발자 액세스 권한을 가지고 있는 모든 프로필의 순 권한에 따라 달라집니다.
+
+예를 들어, Analysis Workspace 액세스 권한, 모든 지표, 모든 차원 및 하나의 보고서 세트에 대한 사용 권한을 통해 해당 사용자는 해당 세트 내의 모든 보고서에 대해 /reporting endpoint에 대한 성공적인 API 호출을 수행할 수 있습니다. 예외 항목 감지가 추가되면 보고서에 전체 응답을 포함하여 예외 항목 데이터에 추가할 수 있습니다. 경험상, 프로필에서 Adobe Analytics 인터페이스 내의 시나리오에 대한 액세스 권한을 부여하는 경우 동일한 프로필에 대한 개발자 액세스는 해당 API 호출 및 응답을 활성화합니다.
