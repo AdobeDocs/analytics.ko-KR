@@ -1,12 +1,16 @@
 ---
-source-git-commit: 18d57362af9e0667d26fde67e37671cf6bb6bab6
+source-git-commit: 373d58b67e943b90b39c33d61a9c816bab6e727e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '517'
+ht-degree: 85%
 
 ---
 # 기여자 문서
+
+| EXL-PR | EXL | 미리 보기 | 활성화 | 게시됨 | 도움말 |
+|--- |--- |--- |--- |--- |--- |
+| [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_pr-exl/lastBuild/) | [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_exl/lastBuild/lastBuild) | [미리 보기 URL](https://experienceleague.corp.adobe.com/docs/analytics/analyze/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [라이브 URL](https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=en) | [Authoring 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe는 설명서 팀 외부 직원뿐만 아니라 커뮤니티 기여를 환영합니다.
 
