@@ -1,18 +1,18 @@
 ---
 title: 검색 결과
 description: 히트가 외부 검색 기준과 일치한 횟수입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # 검색 결과
 
-검색 지표는 Adobe의 외부 검색 감지와 일치하는 히트의 수를 보여줍니다. 이 지표는 검색되지 않는 차원 항목을 보고 검색 엔진 트래픽에 기여한 방법을 확인하려는 경우 유용합니다.
+검색 지표는 Adobe의 외부 검색 감지와 일치하는 히트의 수를 보여줍니다. 이 지표는 비검색 차원 항목을 보고 이 값이 검색 엔진 트래픽에 어떻게 기여했는지 보려는 경우 유용합니다.
 
 ## 이 지표의 계산 방법
 
