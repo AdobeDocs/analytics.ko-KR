@@ -1,11 +1,11 @@
 ---
 title: 다이내믹 변수
 description: 이미지 요청 길이를 늘리지 않고 변수를 복사합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문�
 
 ## Adobe Experience Platform Launch의 동적 변수
 
-문자열을 허용하는 차원 필드에서 동적 변수를 사용할 수 있습니다. Dimension 항목은 일반적으로 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 설정됩니다.
+문자열을 허용하는 차원 필드에서 동적 변수를 사용할 수 있습니다. 차원 항목은 일반적으로 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 설정됩니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
