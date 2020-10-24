@@ -2,11 +2,11 @@
 description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html"  > 보고 인터페이스</a> </td> 
-   <td colname="col2"> Analysis Workspace, 보고 및 Analytics, Report Builder, API </td> 
-   <td colname="col3"> 보고 및 Analytics, Report Builder, 1.4 API의 실시간 보고서 </td> 
+   <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
+   <td colname="col3"> Reports &amp; Analytics, Report Builder, 1.4 API의 실시간 보고서 </td> 
    <td colname="col4"> API 전용 </td> 
    <td colname="col5"> Data Warehouse 및 API </td> 
   </tr> 
