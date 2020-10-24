@@ -3,9 +3,9 @@ description: 세그먼트 관리자 내에서 다양한 애플리케이션 수�
 title: 세그먼트 승인
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
