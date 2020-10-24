@@ -1,22 +1,22 @@
 ---
-description: 본 특정 보고서에 따라 Adobe Analytics의 다양한 보고서에 지정되지 않음, 없음, 기타 또는 알 수 없음을 표시할 수 있습니다. 일반적으로 이 라인 항목은 변수가 정의되지 않았거나 달리 사용할 수 없음을 의미합니다.
+description: Adobe Analytics의 다양한 보고서에는 조회하는 보고서에 따라 지정되지 않음, 없음, 기타 또는 알 수 없음이 표시됩니다. 일반적으로 이 라인 항목은 변수가 정의되지 않았거나 달리 사용할 수 없음을 의미합니다.
 title: 보고에서 지정되지 않음, 없음, 기타 및 알 수 없음
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# 보고의 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;기타&quot; 및 &quot;알 수 없음&quot;
+# 보고에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;기타&quot; 및 &quot;알 수 없음&quot;
 
 Adobe Analytics의 다양한 보고서에는 조회하는 보고서에 따라 &quot;지정되지 않음&quot;, &quot;기타&quot; 또는 &quot;알 수 없음&quot;이 표시됩니다. 일반적으로 이 라인 항목은 변수가 정의되지 않았거나 달리 사용할 수 없음을 의미합니다. 다음은 각 보고서에서 이러한 라인 항목 중 하나를 가질 수 있는 방법에 대한 포괄적인 목록을 제공합니다.
 
 ## 보고의 &quot;지정되지 않음&quot;(또는 &quot;없음&quot;)
 
-보고서에서 &quot;지정되지 않음&quot;은 매우 일반적인 라인 항목입니다. &quot;없음&quot;이라고도 합니다.
+보고서에서 &quot;지정되지 않음&quot;은 매우 일반적인 라인 항목으로서, 종종 &quot;없음&quot;이라고도 합니다.
 
 * **전환 변수 없이 이벤트가 실행됨:** 예를 들어 사용자가 사이트를 방문하여 eVar1 값 없이 구입합니다. eVar1 차원을 사용하여 주문을 확인하면 이 주문을 표시할 값이 없습니다. 따라서 자동으로 &quot;지정되지 않음&quot;으로 표시됩니다.
 * **분류 보고서에서 지정되지 않은 데이터:**&#x200B;분류 데이터를 볼 때 해당 특정 분류와 연관된 데이터가 없는 값은 &quot;지정되지 않음&quot;을 반환합니다. 이 문제를 해결하려면 상위 변수 값을 분류하십시오.
