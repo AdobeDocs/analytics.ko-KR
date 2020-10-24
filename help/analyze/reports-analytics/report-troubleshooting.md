@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 보고 우수 사례 및 문제 해결
 
-*이 도움말 페이지는 Reports &amp; Analytics 우수 사례를 참조합니다. Analysis Workspace의 경우[Analysis Workspace 성능 최적화](../analysis-workspace/workspace-faq/optimizing-performance.md)를 참조하십시오. Data Warehouse의 경우[Data Warehouse 우수 사례](/help/export/data-warehouse/data-warehouse-bp.md)를 참조하십시오.*
+*이 도움말 페이지는 Reports &amp; Analytics 우수 사례를 참조합니다. Analysis Workspace의 경우 [Analysis Workspace 성능 최적화](../analysis-workspace/workspace-faq/optimizing-performance.md)를 참조하십시오. Data Warehouse의 경우 [Data Warehouse 우수 사례](/help/export/data-warehouse/data-warehouse-bp.md)를 참조하십시오.*
 
 Adobe Analytics에서는 다양하고 복잡한 보고서를 생성할 수 있도록 해주는 유연한 보고 인터페이스를 제공합니다. 대부분의 보고서가 매우 신속히 생성되므로 시간이 초과되거나 성공적으로 생성되지 않는 보고서가 발생할 수 있습니다. 이 페이지에서는 보고서 생성 속도에 영향을 주는 요인에 대해 설명합니다. 이 정보를 이해하면 보고서를 더 성공적으로 생성할 수 있도록 구성하는 데 도움이 됩니다.
 
