@@ -1,24 +1,24 @@
 ---
 title: eVar
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # eVar
 
-*이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의[eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
+*이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
 eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 사용자 지정할 수 있습니다.
 
 사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 
-eVar는 대소문자를 구분하지 않습니다. 같은 값을 다른 경우(예: `"DOG"` 및 `"Dog"`) 보낼 경우, Analysis Workspace은 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대/소문자가 사용됩니다. Data Warehouse은 요청 기간 동안 발견된 첫 번째 값을 표시합니다.
+eVar는 대소문자를 구분하지 않습니다. 같은 값을 대소문자를 달리하여(예: `"DOG"` 및 `"Dog"`)에 보낼 경우, Analysis Workspace는 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대소문자가 사용됩니다. Data Warehouse는 요청 기간 동안 발생한 첫 번째 값을 표시합니다.
 
 ## 데이터로 eVar 채우기
 
@@ -26,9 +26,9 @@ eVar는 대소문자를 구분하지 않습니다. 같은 값을 다른 경우(�
 
 JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `eVar1` - `eVar250`을 사용합니다. 구현 지침이 필요하면 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.
 
-## Dimension 항목
+## 차원 항목
 
-eVar에는 구현에 사용자 지정 문자열이 들어 있으므로 조직은 각 eVar에 대한 차원 항목을 결정합니다. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+eVar는 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오.
 
 ## eVar 작동 방식
 
