@@ -1,18 +1,18 @@
 ---
 title: eVar(머천다이징)
 description: 제품 차원에 연결된 사용자 지정 변수입니다.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # eVar(머천다이징)
 
-*이 도움말 페이지에서는 머천다이징 eVar가 차원으로 작동하는 방식을 설명합니다. 머천다이징 eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의[eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
+*이 도움말 페이지에서는 머천다이징 eVar가 차원으로 작동하는 방식을 설명합니다. 머천다이징 eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
 일반적으로 외부 캠페인 또는 외부 검색 용어의 성공을 측정할 때는 하나의 값이 성공 이벤트 발생 요인으로 인정되기를 원할 것입니다. 예를 들어 고객이 이메일 캠페인의 링크를 클릭하여 웹 사이트를 방문하면 그에 따라 이루어진 모든 구매가 해당 캠페인 덕분인 것으로 됩니다.
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 [인스턴스](../metrics/instances.md) 지표는 머천다이징 변수에서 사용하지 않는 것이 좋습니다.
 
 * 제품 구문을 사용하는 머천다이징 변수의 경우 인스턴스가 전혀 증가하지 않습니다.
-* 전환 변수 구문을 사용하는 머천다이징 변수의 경우 eVar가 설정될 때마다 인스턴스가 계산됩니다. However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+* 전환 변수 구문을 사용하는 머천다이징 변수의 경우 eVar가 설정될 때마다 인스턴스가 계산됩니다. 하지만 이것은 동일한 히트에서 다음 경우가 모두 발생하지 않는 한 차원 항목 `"None"`에 기여합니다.
    * 머천다이징 eVar가 값으로 설정되어 있습니다.
    * `products` 변수가 값으로 정의되어 있습니다.
    * 결합 이벤트가 설정되었습니다.
