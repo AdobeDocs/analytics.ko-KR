@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: 사용자 계정 항목 양도
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -20,8 +23,8 @@ source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 사용자 편집]**&#x200B;을 클릭합니다.
-1. 자산을 전송할 사용자를 찾고 이 사용자의 행 옆에 있는 확인란을 선택합니다.
-1. 맨 **[!UICONTROL 위의 작업]** 표시줄에서 자산 전송을 선택합니다.
+1. 전송할 자산의 사용자를 찾아서 이 사용자의 행 옆에 있는 확인란을 선택합니다.
+1. 맨 위에 있는 작업 막대에서 **[!UICONTROL 자산 전송]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 양도]** 페이지에서 이 사용자 계정 항목을 받을 사용자 계정을 선택합니다.
 1. 양도할 계정 항목을 선택하고 **[!UICONTROL 양도]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 선택된 계정 리소스를 양도한다는 것을 확인합니다.
