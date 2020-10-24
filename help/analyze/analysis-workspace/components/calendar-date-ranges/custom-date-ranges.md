@@ -6,6 +6,9 @@ topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구성 요소로 저장합니다.
 
-**[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
+**[!UICONTROL 구성 요소]** > **[!UICONTROL 새 데이터 범위]**
 
 날짜 범위는 패널 수준에서 적용됩니다. 날짜 범위를 프로젝트에 추가하려면 **패널** > *`<select panel>`*&#x200B;을 클릭하고 새 날짜 범위를 지정하십시오.
 
@@ -24,7 +27,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/date-range-two-months-ago.png)
 
-사용자 지정 날짜 범위는 프로젝트의 [!UICONTROL Date Range] 구성 요소 패널의 맨 위에 표시됩니다.
+사용자 지정 날짜 범위는 프로젝트의 [!UICONTROL 날짜 범위] 구성 요소 패널의 맨 위에 표시됩니다.
 
 ![](assets/date-range-panel-two-months-ago.png)
 
