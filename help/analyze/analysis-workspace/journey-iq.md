@@ -1,9 +1,9 @@
 ---
 title: Journey IQ
 description: Adobe Analytics의 일부인 기능들의 세트인 Journey IQ를 구성하는 기능들을 이해하십시오.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 
