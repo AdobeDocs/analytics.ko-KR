@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
  s.contextData['search_term']
 ```
 
-The [!UICONTROL Context Variables] list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking **[!UICONTROL Add variable name context data]**:
+[!UICONTROL 컨텍스트 변수] 목록은 이전 30일 동안 보고서 세트로 전송된 모든 변수를 포함합니다. 컨텍스트 데이터 변수 이름은 알지만, 현재 보고서 세트로 보내지 않았다면 변수 이름을 입력하고 **[!UICONTROL 변수 이름 컨텍스트 데이터 추가]**&#x200B;를 클릭하여 값을 추가할 수 있습니다.
 
 ![](assets/add-context-variable.png)
 
@@ -35,4 +38,4 @@ The [!UICONTROL Context Variables] list contains all variables that were sent to
 
 ![](assets/processing_rule_set_event.png)
 
-구현 도움말에서 [컨텍스트 데이터 변수](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html)를 참조하십시오.
+구현 도움말에서 [컨텍스트 데이터 변수](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/contextdata.html)를 참조하십시오.
