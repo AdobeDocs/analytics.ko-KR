@@ -3,9 +3,9 @@ description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값�
 title: 세그먼트의 비교 연산자
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
 ht-degree: 100%
 
