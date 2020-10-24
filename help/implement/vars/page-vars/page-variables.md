@@ -3,6 +3,9 @@ title: 페이지 변수
 description: 개별 페이지에서 값을 설정합니다.
 translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: ht
+source-wordcount: '69'
+ht-degree: 100%
 
 ---
 
