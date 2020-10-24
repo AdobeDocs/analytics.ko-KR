@@ -1,9 +1,9 @@
 ---
 title: 캠페인
 description: 명확화 페이지입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '37'
 ht-degree: 100%
 
