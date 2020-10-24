@@ -2,8 +2,11 @@
 description: 'null'
 title: 경고 관리자
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
@@ -12,11 +15,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ![](assets/alert-manager.png)
 
-The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
+경고 관리자(**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) 및 [계산된 지표 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해줍니다.
 
 ![](assets/alert-manager-tasks.png)
 
-* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
+* **[!UICONTROL + 추가]**&#x200B;를 클릭하여 경고 빌더에 액세스합니다.
 * 경고에 태그 지정. 경고를 쉽게 사용할 수 있도록 구성할 수 있습니다.
 * 경고 삭제
 * 경고 이름 변경
