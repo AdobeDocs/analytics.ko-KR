@@ -3,8 +3,11 @@ description: 도구 모음, 달력 및 세부 사항 테이블을 포함한 보�
 title: 보고서 기능
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '328'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 도구 모음, 달력 및 세부 사항 테이블을 포함한 보고서 기능에 대한 소개입니다.
 
-This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
+이 예는 [!UICONTROL 페이지 보고서]를 보여줍니다. 구성 옵션은 실행하는 보고서에 따라 달라질 수 있습니다. 예를 들어, [!UICONTROL 사이트 컨텐츠] 보고서에서 트렌드나 등급을 선택하는 대신 세부기간을 지정하고 [!UICONTROL 사이트 지표] 보고서의 이름을 지정할 수 있습니다.
 
 ## 페이지 보고서 예 {#section_288CC85536684C2DB184141358481EF0}
 
-페이지 보고서의 예( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
+페이지 보고서의 예(**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지 보고서]** > **[!UICONTROL 페이지]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
