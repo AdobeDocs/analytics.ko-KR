@@ -2,8 +2,11 @@
 description: 보고서 세트 사용량 탭은 현재 사용 기간 동안 청구 회사에 연결된 모든 로그인 회사의 각 보고서 세트에 서버 사용량 데이터를 제공합니다.
 title: 보고서 세트 사용량 보기
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '441'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 보고서 세트 사용량 탭은 현재 사용 기간 동안 청구 회사에 연결된 모든 로그인 회사의 각 보고서 세트에 서버 사용량 데이터를 제공합니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 서버 호출 사용량]** > **[!UICONTROL 보고서 세트 사용량]**
 
 >[!IMPORTANT]
 >
@@ -24,7 +27,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 * 서버 호출 범주별 전체 사용량의 백분율을 표시합니다.
 * 매일 업데이트됩니다.
 * 다운로드 가능합니다.
-* UI에 액세스할 수 **[!UICONTROL Manage Alerts]** 있습니다.
+* **[!UICONTROL 경고 관리]** UI에 액세스할 수 있습니다.
 
 ![](assets/report-suite-usage.png)
 
@@ -43,7 +46,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 이 옵션을 사용하면 현재 사용량 데이터 및 현재 사용 기간 이전까지의 데이터(2015년 1월 1일부터)를 다운로드할 수 있습니다. 보고서는 .csv 파일로 다운로드됩니다.
 
 1. 하나 이상의 보고서 세트를 선택합니다.
-1. 클릭 **[!UICONTROL Download Report]**.
+1. **[!UICONTROL 보고서 다운로드를 클릭합니다]**.
 
    ![](assets/download_report.png)
 
@@ -52,9 +55,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 파일 이름 | 하드 코드된 이름: 사용 보고서 `day and time of report creation.csv` |
 | 포함된 보고서 세트 | 보고서 서버 사용량 페이지에서 선택한 모든 보고서 세트는 이 목록에 포함됩니다. |
 | 포함된 호출 유형 | 모든 호출(기본값), 기본, 보조, 모바일 기본, 모바일 보조의 조합을 지정합니다. |
-| 시간 범위 | 현재 사용 기간을 선택하거나 사용자 지정 범위를 선택할 수 있습니다.  사용자 지정 범위의 경우 범위 시작 및 범위 종료를 지정합니다. <br>**참고:**2015년 1월 이전의 사용량 데이터는 다운로드할 수 없습니다</br>. |
+| 시간 범위 | 현재 사용 기간을 선택하거나 사용자 지정 범위를 선택할 수 있습니다.  사용자 지정 범위의 경우 범위 시작 및 범위 종료를 지정합니다. <br>**참고:** 2015년 1월 이전의 사용량 데이터는 다운로드할 수 없습니다 </br>. |
 
-1. 클릭 **[!UICONTROL Download]**.
+1. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
 다음은 다운로드한 .csv 파일의 스크린샷입니다. 여기에 보고서 세트 ID에 대한 열이 포함되어 있습니다. 보고서 세트 ID는 영숫자만 사용할 수 있는 고유한 ID를 지정합니다. 보고서 세트를 만든 후에는 이 ID를 변경할 수 없습니다.
 
