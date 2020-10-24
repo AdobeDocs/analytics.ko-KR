@@ -3,8 +3,11 @@ description: 모든 보고서가 표시되는 방식과 기본 메뉴 옵션을 
 title: 보고서 표시 설정 및 탐색
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 보고서 표시 설정 및 탐색 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 보고서 설정]**
 
 | 요소 | 설명 |
 |--- |--- |
