@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 98%
 * **지표:** 수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 수, 방문 횟수 및 매출과 같은 숫자가 포함됩니다. 차원은 일반적으로 차원 상대가 있습니다.
 * **다중 세트 태깅:** 동일한 히트를 여러 보고서 세트로 보내는 방법입니다. 가상 보고서 세트를 도입하면서 이 방법은 더 이상 필요하지 않습니다. 대부분의 다중 세트 태깅 작업은 전역 보고서 세트를 만드는 데 도움이 됩니다.
 * **표준화:** 모든 지표를 가져와 동일한 비율로 적용함으로써 트렌드를 보다 쉽게 비교할 수 있도록 시각화를 구성하는 방법입니다.
-* **발생:** 차원 항목이 설정되거나 지속된 히트 수를 보여주는 지표 유형입니다. 구성 요소 사용 안내서에서 [발생 횟수](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
+* **발생 횟수:** 차원 항목이 설정되거나 지속된 히트 수를 보여주는 지표 유형입니다. 구성 요소 사용 안내서에서 [발생 횟수](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
 * **Omniture:** 더 이상 사용하지 않는 용어입니다. 2009년 Adobe가 인수하기 전에 Adobe Analytics를 소유한 조직입니다.
 * **경로 지정:** 흐름을 참조하십시오.
 * **페이지 보기:** 페이지 보기 수를 늘리는 히트 유형입니다. 구성 요소 사용 안내서에서 [페이지 보기 수](/help/components/metrics/page-views.md) 지표를 참조하십시오. 히트도 참조하십시오.
