@@ -1,11 +1,11 @@
 ---
 title: 이벤트까지 남은 시간
 description: 방문의 첫 번째 히트와 지표 사이의 시간입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 78%
 
 이 차원은 모든 구현에 대해 기술적으로 즉시 작동하지만 사용자 지정 및 구매 이벤트에 가장 잘 작동합니다. 사이트에서는 사용자 지정 이벤트를 구현하는 것이 좋습니다. 사용자 지정 이벤트를 구현하는 경우 이 차원에 대해 추가적인 구현은 필요하지 않습니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension items include time-based buckets ranging from `"Less than 1 minute"` to `"More than 15 hours"`. For example, if it took a visitor 23 minutes from their first hit to a purchase, it would belong under the `"10 to 30 minutes"` dimension item.
+차원 항목에는 `"Less than 1 minute"`부터 `"More than 15 hours"` 범위의 시간 기반 버킷이 포함됩니다. 예를 들어 방문자가 첫 번째 히트에서 구매까지 23분을 소요했다면 `"10 to 30 minutes"` 차원 항목 아래에 속합니다.
