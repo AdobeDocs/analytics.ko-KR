@@ -2,8 +2,11 @@
 description: '차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. '
 title: 차원 간 흐름
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
+workflow-type: ht
+source-wordcount: '305'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ## 사용 사례 1: 앱 {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
+맨 위의 반환되는 항목이 [!UICONTROL ItemAdded]인 [!UICONTROL 동작 이름] 차원이 흐름에 추가되었습니다. 
 
 ![](assets/multi-dimensional-flow.png)
 
