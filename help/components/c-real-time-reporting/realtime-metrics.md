@@ -3,8 +3,11 @@ description: 실시간 보고서에서 지원하는 지표와 차원을 나열�
 title: 지원되는 실시간 지표 및 차원
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 지원되는 차원 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
-* Page
+* 페이지
 * 검색 키워드
 * 검색 엔진
 * 참조 도메인
