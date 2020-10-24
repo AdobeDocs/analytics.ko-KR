@@ -1,18 +1,18 @@
 ---
 title: Prop
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
-translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # Prop
 
-*이 도움말 페이지에서는 prop이 차원으로 작동하는 방식을 설명합니다. prop 구현 방법에 대한 자세한 내용은 구현 사용 안내서의[prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.*
+*이 도움말 페이지에서는 prop이 차원으로 작동하는 방식을 설명합니다. prop 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.*
 
 prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
 
@@ -28,19 +28,19 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일하는 AppMeasurement는 변수 `prop1` - `prop75`을 사용합니다. 구현 지침이 필요하면 구현 사용 안내서의 [prop](/help/implement/vars/page-vars/prop.md)을 참조하십시오.
 
-## Dimension 항목
+## 차원 항목
 
-Prop에는 구현에 사용자 지정 문자열이 포함되어 있으므로 조직은 각 prop에 대한 차원 항목을 결정합니다. Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 prop에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 prop의 목적과 일반적인 차원 항목을 반드시 기록하십시오.
 
-## 대소문자 구분
+## 대/소문자 구분
 
-기본적으로 Prop은 대/소문자를 구분하지 않습니다. 같은 값을 다른 경우(예: `"DOG"` 및 `"Dog"`) 보낼 경우, Analysis Workspace은 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대/소문자가 사용됩니다. Data Warehouse은 요청 기간 동안 발견된 첫 번째 값을 표시합니다.
+기본적으로 Prop은 대/소문자를 구분하지 않습니다. 같은 값을 대소문자를 달리하여(예: `"DOG"` 및 `"Dog"`)에 보낼 경우, Analysis Workspace는 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대소문자가 사용됩니다. Data Warehouse는 요청 기간 동안 발생한 첫 번째 값을 표시합니다.
 
-prop 대/소문자를 구분하도록 지정할 수 있습니다. 활성화되면 모든 prop에 대해 대소문자 구분을 비활성화할 수도 있습니다. 보고서 세트 ID와 원하는 변수를 사용하여 Adobe 고객 지원 센터에 연락하여 대/소문자 구분을 전환합니다.
+prop 대/소문자를 구분하도록 지정할 수 있습니다. 어떤 prop에 대해서든 대소문자 구분을 활성화한 후 비활성화할 수도 있습니다. 대/소문자 구분을 전환하려면 보고서 세트 ID와 원하는 변수를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
 
 >[!IMPORTANT]
 >
->대/소문자 구분을 전환하면 차원 항목을 클리프할 수 있고, 세그먼트에 예기치 않은 결과가 발생하며, 필터에 문제가 발생할 수 있습니다. Adobe은 이 설정을 한 달 또는 년의 시작과 같이 두 주요 기간 간에 전환하는 것이 좋습니다.
+>대/소문자 구분을 전환하면 차원 항목을 클리프할 수 있고, 세그먼트에 예기치 않은 결과가 발생하며, 필터에 문제가 발생합니다. 이 설정은 한 달 또는 1년의 시작과 같이 주요한 두 기간 간에 전환하는 것이 좋습니다.
 
 ## eVar에 대한 prop 값
 
