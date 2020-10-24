@@ -3,6 +3,9 @@ title: 거래 ID 데이터 소스
 description: 거래 ID 데이터 소스를 사용하는 일반적인 워크플로우에 대해 알아봅니다.
 translation-type: ht
 source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
