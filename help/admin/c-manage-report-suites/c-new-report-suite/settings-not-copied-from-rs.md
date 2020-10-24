@@ -3,9 +3,9 @@ description: 기존 보고서 세트에서 설정을 복사한 경우 시스템 
 title: 소스 보고서 세트에서 복사되지 않은 설정
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
