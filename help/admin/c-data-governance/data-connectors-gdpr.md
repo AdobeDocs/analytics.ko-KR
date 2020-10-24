@@ -3,7 +3,7 @@ description: 이 페이지에는 데이터 주체의 직접 또는 간접적으�
 title: 데이터 개인 정보 보호 및 Data Connectors(Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
