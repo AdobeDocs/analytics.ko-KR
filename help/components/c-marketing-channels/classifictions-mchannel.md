@@ -1,9 +1,9 @@
 ---
 title: 마케팅 채널에서의 분류
 description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고하는 데 분류를 사용합니다. 예를 들어 모든 유료 검색 캠페인을 비디오 카드와 같은 카테고리로 분류할 수 있습니다. 그런 다음 인스턴스(또는 클릭스루)와 같은 지표와 관련하여 해당 카테고리의 성공 여부를 보고할 수 있습니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
