@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # eVar(머천다이징)
 
-*이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의[eVar(머천다이징)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
+*이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar(머천다이징)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
 
 ## 보고서 세트 설정에서 eVar 설정
 
