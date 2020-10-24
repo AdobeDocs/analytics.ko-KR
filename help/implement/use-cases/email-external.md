@@ -1,8 +1,11 @@
 ---
 title: 외부 이메일 추적
 description: Adobe Analytics를 사용하여 이메일 컨텐츠를 추적합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
    * sc_cid=A1123A321 > &quot;A&quot;는 제휴 캠페인에 대한 플래그
    * sc_cid=EM033007 > &quot;EM&quot;은 이메일 캠페인에 대한 플래그
    * sc_cid=GG987123 > &quot;GG&quot;는 Google을 의미하며, 유료 검색 캠페인임
+
    추적 코드 설정 및 사용에 대한 자세한 내용은 Adobe [!DNL Customer Care]에 문의하십시오.
 
 1. 쿼리 문자열 매개 변수를 HTML 이메일 링크에 추가합니다.
