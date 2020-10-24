@@ -1,11 +1,11 @@
 ---
 title: 페이지에서 보낸 시간
 description: 방문자가 페이지에서 보낸 시간입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 92%
 
 이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
 
-## Dimension 항목
+## 차원 항목
 
 페이지에서 보낸 시간에 대해 여러 차원이 존재합니다.
 
-* **페이지 체류 시간 - 그룹**: 시간이 버킷됩니다. Dimension items range from `"Less than 15 seconds"` to `"More than 30 minutes"`. 페이지 보기 사이의 시간은 일반적으로 30분을 넘지 않습니다. 그러나 타임스탬프가 지정된 히트 또는 데이터 소스를 사용하는 경우 페이지 보기 사이의 시간은 30분을 초과할 수 있습니다.
-* **페이지에서 보낸 시간 - 세부기간**:각 시간(초)은 고유한 차원 항목입니다.
+* **페이지 체류 시간 - 그룹**: 시간이 버킷됩니다. 차원 항목의 범위는 `"Less than 15 seconds"`부터 `"More than 30 minutes"`까지 입니다. 페이지 보기 사이의 시간은 일반적으로 30분을 넘지 않습니다. 그러나 타임스탬프가 지정된 히트 또는 데이터 소스를 사용하는 경우 페이지 보기 사이의 시간은 30분을 초과할 수 있습니다.
+* **페이지 체류 시간 - 세부기간**: 각각의 초 수는 고유한 차원 항목입니다.
 
 체류 시간에 대한 일반적인 정보가 필요하면 [체류 시간 개요](../metrics/time-spent.md)를 참조하십시오.
