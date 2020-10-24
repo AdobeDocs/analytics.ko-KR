@@ -2,11 +2,11 @@
 title: 변수, 함수, 메서드 및 플러그인 개요
 description: 보고를 개선하기 위해 Adobe에 보내는 데이터에 포함할 수 있는 변수를 알아봅니다.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
