@@ -1,9 +1,9 @@
 ---
 title: 기존 Adobe Experience Cloud Debugger
 description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, DTM 및 Launch용 태그를 검사합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
