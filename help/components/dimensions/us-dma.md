@@ -1,11 +1,11 @@
 ---
 title: US DMA
 description: 히트의 지정 시장권(DMA)입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ US DMA 차원은 방문자의 지정된 시장권(DMA)을 보고합니다. 이 �
 >
 >조직에서 [IP 주소 난독화](/help/admin/admin/general-acct-settings-admin.md)가 충분하지 않은 엄격한 개인 정보 보호 규정을 따르는 경우 지리적 위치 데이터를 완전히 비활성화하도록 요청할 수 있습니다. 보고서 세트에 대해 &#39;지리적 위치&#39;를 해제하려면 보고서 세트 ID로 고객 지원 팀에 연락하여 요청하십시오.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 방문자의 DMA 및 DMA 코드가 포함됩니다. 3자리 코드는 우편 번호가 아니라 Nielsen의 DMA 코드입니다. 값의 예로는 `"Dallas-Ft. Worth (623)"`, `"New York (501)"` 또는 `"Los Angeles (803)"`이 있습니다. The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.
+차원 항목에는 방문자의 DMA와 DMA 코드가 포함됩니다. 3자리 코드는 우편 번호가 아니라 Nielsen의 DMA 코드입니다. 값의 예로는 `"Dallas-Ft. Worth (623)"`, `"New York (501)"` 또는 `"Los Angeles (803)"`이 있습니다. 차원 항목 `"No Metro (0)"`은 미국 외부의 모든 국제 트래픽을 포함합니다.
 
 ## 보고된 위치와 실제 위치 간의 차이
 
