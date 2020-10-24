@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: 사용자 관리 개요
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '407'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | [!UICONTROL 성] | 사용자의 성입니다. |
 | [!UICONTROL 직함] | (선택 사항) 사용자의 직함입니다. |
 | [!UICONTROL 전화 번호] | (선택 사항) 사용자의 비즈니스 전화 번호입니다. |
-| [!UICONTROL 이메일 주소] | 사용자의 비즈니스 이메일 주소입니다. |
+| [!UICONTROL Email Address] | 사용자의 비즈니스 이메일 주소입니다. |
 
 **기본 대시보드**
 
