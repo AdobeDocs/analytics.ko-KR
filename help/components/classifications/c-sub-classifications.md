@@ -4,11 +4,11 @@ subtopic: Classifications
 title: 하위 분류 정보
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지�
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**상위 분류:**&#x200B;상위 분류는 하위 분류와 연관된 모든 분류입니다. 분류는 상위 및 하위 분류 모두가 될 수 있습니다. 최상위 상위 분류는 단일 수준 분류에 해당합니다.
+**상위 분류:**&#x200B;상위 분류는 하위 분류와 연관된 모든 분류입니다. 분류는 상위 및 하위 분류 모두가 될 수 있습니다. 최상위 수준의 상위 분류는 단일 수준 분류에 해당합니다.
 
 **하위 분류:**&#x200B;하위 분류는 변수 대신 상위로 다른 분류를 가지는 모든 분류입니다. 하위 분류는 상위 분류에 대한 추가 정보를 제공합니다. 예를 들어 [!UICONTROL 캠페인] 분류는 캠페인 소유자 하위 분류를 가질 수 있습니다. 또한 [!UICONTROL 숫자] 분류는 분류 보고서에서 지표로 기능합니다.
 
