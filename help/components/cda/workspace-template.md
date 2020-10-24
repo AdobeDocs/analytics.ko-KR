@@ -1,11 +1,11 @@
 ---
 title: CDA 작업 공간 템플릿
-description: Analysis Workspace 내의 CDA 템플릿의 각 필드에 대해 설명합니다.
-translation-type: tm+mt
+description: Analysis Workspace 내의 CDA 템플릿에 있는 각 필드에 대해 설명합니다.
+translation-type: ht
 source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
