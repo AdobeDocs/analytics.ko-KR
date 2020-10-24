@@ -3,7 +3,7 @@ description: '제출하는 ID가 Analytics에서 데이터 주체와 연결할 �
 title: ID 확장
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '1354'
 ht-degree: 100%
