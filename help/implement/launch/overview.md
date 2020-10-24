@@ -3,6 +3,9 @@ title: Launch를 사용한 구현 개요
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
 translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+workflow-type: ht
+source-wordcount: '302'
+ht-degree: 100%
 
 ---
 
