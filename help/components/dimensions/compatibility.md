@@ -1,11 +1,11 @@
 ---
 title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->사용자 지정 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에만 적용됩니다.
+>사용자 지정 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에 따라 다릅니다.
 
 >[!NOTE]
 >
