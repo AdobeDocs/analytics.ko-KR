@@ -1,11 +1,11 @@
 ---
 title: contextData
 description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ s.tl(true,"o","Example context data link");
 
 ## 컨텍스트 데이터 변수를 사용하여 이벤트 증가
 
-처리 규칙을 만들 때 컨텍스트 데이터 변수를 이벤트에 할당할 수 있습니다.
+처리 규칙을 만들 때 컨텍스트 데이터 변수를 이벤트에 지정할 수 있습니다.
 
-* 컨텍스트 데이터 변수에 모든 종류의 텍스트가 포함되어 있으면 이벤트가 하나씩 증가합니다.
+* 컨텍스트 데이터 변수에 텍스트가 포함되어 있으면 이벤트가 하나씩 증가합니다.
 * 컨텍스트 데이터 변수에 정수가 들어 있으면 이벤트가 해당 정수 단위로 증가합니다.
 
 ```js
