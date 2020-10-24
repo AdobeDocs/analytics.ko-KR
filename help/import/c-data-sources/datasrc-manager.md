@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 데이터 소스 관리자
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '471'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [!UICONTROL 만들기] 탭에서 현재 선택한 보고서 세트에 대해 새로운 데이터 소스를 구성할 수 있습니다. 데이터 소스를 활성화하면 [!UICONTROL 데이터 소스 마법사]에서 안내하는 데이터 소스 템플릿 생성 프로세스에 따라 데이터 업로드를 위한 FTP 위치를 만듭니다.
 
-만들기 탭에서 선택하는 사항에 따라 만들어지는 템플릿의 초기 필드가 달라집니다. See [Generating an Import File Template](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
+만들기 탭에서 선택하는 사항에 따라 만들어지는 템플릿의 초기 필드가 달라집니다. [파일 가져오기 템플릿 생성](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)을 참조하십시오.
 
 ## 관리 탭 {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
