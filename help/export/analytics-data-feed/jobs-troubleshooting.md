@@ -3,8 +3,11 @@ description: 오류가 발생하면 작업 상태 열에 오류가 보고됩니�
 keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 title: 작업 문제 해결
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '454'
+ht-degree: 100%
 
 ---
 
