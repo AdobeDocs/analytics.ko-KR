@@ -3,7 +3,7 @@ description: '알아보기 '
 title: 지표 유형 및 기여도 분석
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: ht
-source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '914'
 ht-degree: 100%
@@ -58,7 +58,7 @@ ht-degree: 100%
 이 두 도구 간에 선형 속성이 작동하는 방식에는 몇 가지 차이점이 있습니다.
 
 * Reports &amp; Analytics에서 (처리된) 선형 속성은 항상 방문을 기준으로 하는 반면 Workspace에서는 방문 또는 방문자를 기반으로 할 수 있습니다.
-* Reports &amp; Analytics에서는 방문의 첫 번째 히트에서 값이 전달되지 않으면 (초기) 값이 이전 방문부터 지속됩니다. Workspace(속성 IQ)에서는 그렇지 않습니다. 방문의 첫 번째 히트에서 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.
+* Reports &amp; Analytics에서는 방문의 첫 번째 히트에서 값이 전달되지 않으면 (초기) 값이 이전 방문부터 지속됩니다. Analysis Workspace(속성 IQ)에서는 그렇지 않습니다. 방문의 첫 번째 히트에서 값이 전달되지 않으면 &#39;없음&#39;이 초기 값입니다.
 
 ## 2018년 7월 이전의 선형 할당 작동 방식
 
