@@ -1,11 +1,11 @@
 ---
 title: 마지막 방문 이후의 일 수
 description: 현재 히트와 마지막으로 방문한 시간 사이의 일 수입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 74%
 
 이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 방문자의 마지막 방문과 현재 히트 사이의 일 수가 포함됩니다. Each number of days is a separate dimension item, with `"Same day"` occurring where a visitor&#39;s last visit and the current hit happened on the same day.
+차원 항목에는 방문자의 마지막 방문과 현재 히트 사이의 일 수가 포함됩니다. 각 일 수는 방문자의 마지막 방문과 현재 히트가 같은 날 발생한 경우 `"Same day"` 발생하는 별도의 차원 항목입니다.
