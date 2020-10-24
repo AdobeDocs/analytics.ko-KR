@@ -1,9 +1,9 @@
 ---
 title: H 코드 JavaScript 구현 개요
 description: 사이트에서 H 코드를 구현하는 워크플로우에 대해 알아봅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 1. **코어 JS 파일 변수 업데이트**: `s_code.js` 파일을 편집하고 다음 변수가 업데이트되었는지 확인합니다.
    * `s_account`에는 전송하는 데이터를 받을 보고서 세트 ID가 포함되어 있습니다. 참조
    * `s.trackingServer`에는 위치 쿠키가 저장되어 있습니다. [trackingServer](../../vars/config-vars/trackingserver.md)를 참조하십시오.
-1. **사이트에서`s_code.js`파일 호스팅**: 이 파일은 일반적으로 웹 서버에 다른 스크립트와 함께 있습니다.
-1. **모든 페이지에서`s_code.js`참조**: 모든 개별 페이지가 코어 JavaScript 파일을 호출하고 HTML `<body>` 태그(`<head>` 태그 아님) 내에서 호출하는지 확인하십시오.
+1. **사이트에서 `s_code.js` 파일 호스팅**: 이 파일은 일반적으로 웹 서버에 다른 스크립트와 함께 있습니다.
+1. **모든 페이지에서 `s_code.js` 참조**: 모든 개별 페이지가 코어 JavaScript 파일을 호출하고 HTML `<body>` 태그(`<head>` 태그 아님) 내에서 호출하는지 확인하십시오.
 
    >[!TIP]
    >
