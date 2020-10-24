@@ -3,9 +3,9 @@ description: 이제 관리자 수준 사용자가 사용할 수 있는 세그먼
 title: 역할별 세그먼트 권한
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
