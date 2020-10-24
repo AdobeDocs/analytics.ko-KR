@@ -1,11 +1,11 @@
 ---
 title: 국가
 description: 히트가 발생한 국가입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 96%
 >
 >조직에서 [IP 주소 난독화](/help/admin/admin/general-acct-settings-admin.md)가 충분하지 않은 엄격한 개인 정보 보호 규정을 따르는 경우 지리적 위치 데이터를 완전히 비활성화하도록 요청할 수 있습니다. 보고서 세트에 대해 &#39;지리적 위치&#39;를 해제하려면 보고서 세트 ID로 고객 지원 팀에 연락하여 요청하십시오.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 품목에는 전 세계의 나라들이 포함됩니다. 값의 예로는 `"United States"`, `"United Kingdom"` 또는 `"India"`이 있습니다.
+차원 항목에는 전 세계 국가가 모두 포함됩니다. 값의 예로는 `"United States"`, `"United Kingdom"` 또는 `"India"`이 있습니다.
 
 ## 보고된 위치와 실제 위치 간의 차이
 
