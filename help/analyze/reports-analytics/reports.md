@@ -1,11 +1,11 @@
 ---
 title: 보고서
 description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지표입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -89,18 +89,18 @@ Reports &amp; Analytics의 각 보고서는 전용 차원 및 기본 지표를 �
 방문자에 대한 경로 지정 데이터를 볼 수 있는 보고서를 포함합니다.
 
 * 다음 페이지 흐름: 상단 페이지 차원 항목에 흐름 보고서를 사용합니다. 경로 보기는 [인스턴스](/help/components/metrics/instances.md)와 유사합니다. 보고된 차원 항목을 변경할 수 있습니다. [흐름 시각화](../analysis-workspace/visualizations/c-flow/flow.md)를 사용하여 Analysis Workspace에서 유사한 보고서를 사용할 수 있습니다.
-* 다음 페이지: 상위 페이지 차원 항목을 선택하고 방문자가 방문한 다음 페이지를 표시합니다.
-* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
+* 다음 페이지: 상위 페이지 차원 항목을 가져와서 방문자가 방문한 다음 페이지를 표시합니다.
+* 이전 페이지 흐름: 상위 페이지 차원 항목에서 흐름 보고서를 사용합니다. [흐름 시각화](../analysis-workspace/visualizations/c-flow/flow.md)를 사용하여 Analysis Workspace의 유사한 보고서를 사용할 수 있습니다.
 * 이전 페이지: 상위 페이지 차원 항목을 가져와서 방문자의 이전 페이지를 표시합니다.
-* 폴아웃: 단계에서 페이지 차원 항목을 선택할 수 있으며, 해당 경로를 따라 이동했거나 따르지 않은 사람들의 비율을 표시합니다. [폴아웃 시각화](../analysis-workspace/visualizations/fallout/fallout-flow.md)를 사용하여 Analysis Workspace의 유사한 보고서를 사용할 수 있습니다.
+* 폴아웃: 단계에서 페이지 차원 항목을 선택할 수 있도록 하며, 해당 경로를 따르는 사용자 및 따르지 않은 사용자의 비율을 표시합니다. [폴아웃 시각화](../analysis-workspace/visualizations/fallout/fallout-flow.md)를 사용하여 Analysis Workspace의 유사한 보고서를 사용할 수 있습니다.
 * 전체 경로: 개별 경로를 차원 항목으로 표시합니다. Analysis Workspace에서 사용되지 않음, [흐름 시각화](../analysis-workspace/visualizations/c-flow/flow.md)를 대신 사용하십시오.
 * 경로 탐색: 경로(Analysis Workspace에서 사용되지 않음)를 분석할 수 있도록 해주는 다양한 유형의 보고서를 제공합니다.
 * 경로 길이: [방문 깊이](/help/components/dimensions/visit-depth.md) 차원을 사용합니다.
 * 페이지 분석
-   * 페이지 요약: 상위 페이지 차원 항목을 가져와서 트렌드 보기를 표시합니다. 또한 해당 상위 페이지 차원 항목에 대한 시작 지점, 이전 페이지, 종료 지점 및 다음 페이지도 표시됩니다.
+   * 페이지 요약: 상위 페이지 차원 항목을 가져와 트렌드 보기를 표시합니다. 또한, 해당 상위 페이지 차원 항목에 대한 시작 지점, 이전 페이지, 종료 지점 및 다음 페이지를 표시합니다.
    * 다시 로드: [다시 로드 ](/help/components/dimensions/page.md)지표와 함께 [페이지](/help/components/metrics/reloads.md) 차원을 사용합니다.
    * 페이지 체류 시간: [페이지에 체류 시간 - 버킷된](/help/components/dimensions/time-spent-on-page.md) 차원을 사용합니다.
-   * 페이지 클릭 수: 상위 페이지 차원 항목을 가져와서 주어진 방문에서 해당 페이지로 이동하는 데 걸린 클릭 수를 표시합니다.
+   * 페이지 클릭 수: 상위 페이지 차원 항목을 가져와서 주어진 방문에서 해당 페이지에 도달하는 데 걸린 클릭 수를 표시합니다.
 * 시작 및 종료
    * 시작 페이지: [시작 페이지 차원](/help/components/dimensions/entry-dimensions.md)을 사용합니다.
    * 원래 시작 페이지: [원래 시작 페이지](/help/components/dimensions/entry-dimensions.md) 차원을 사용합니다.
@@ -171,7 +171,7 @@ Reports &amp; Analytics의 각 보고서는 전용 차원 및 기본 지표를 �
    * 미국 주: [미국 주](/help/components/dimensions/us-states.md) 차원을 사용합니다.
    * 미국 DMA: [미국 DMA](/help/components/dimensions/us-dma.md) 차원을 사용합니다.
 * 언어: [언어](/help/components/dimensions/language.md) 차원을 사용합니다.
-* 시간대: 시간대 차원(Analysis Workspace에서 사용 중단)을 사용합니다. Dimension 항목은 히트의 GMT 오프셋입니다.
+* 시간대: 시간대 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 항목은 히트의 GMT 오프셋입니다.
 * 도메인: [도메인](/help/components/dimensions/domain.md) 차원을 사용합니다.
 * 최상위 도메인: 최상위 도메인 차원(Analysis Workspace에서 사용 중단)을 사용합니다. [도메인 ](/help/components/dimensions/domain.md) 차원을 상위 수준 카테고리로 그룹화합니다(일반적으로 도메인 국가별로).
 * 기술: 사이트에 액세스하는 데 사용한 보고서에 대한 보고서가 들어 있는 폴더입니다.
@@ -184,12 +184,12 @@ Reports &amp; Analytics의 각 보고서는 전용 차원 및 기본 지표를 �
    * 모니터 색상 깊이: [색상 심도](/help/components/dimensions/color-depth.md) 차원을 사용합니다.
    * 모니터 해상도: [모니터 해상도](/help/components/dimensions/monitor-resolution.md) 차원을 사용합니다.
    * Java: [Java 활성화](/help/components/dimensions/java-enabled.md) 차원을 사용합니다.
-   * JavaScript: JavaScript 활성화 차원(Analysis Workspace에서 사용 중단)을 사용합니다. Dimension 항목은 브라우저에 JavaScript가 활성화되어 있는지 여부에 따라 &#39;Enabled&#39;, &#39;Disabled&#39; 또는 &#39;Unknown&#39;입니다.
-   * JavaScript 버전: JavaScript 버전 차원(Analysis Workspace에서 사용 중단)을 사용합니다. Dimension 항목에는 브라우저가 사용하는 JavaScript 버전이 표시됩니다.
+   * JavaScript: JavaScript 활성화 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 항목은 브라우저에 JavaScript가 활성화되어 있는지 여부에 따라 &#39;활성화&#39;, &#39;비활성화&#39; 또는 &#39;알 수 없음&#39;입니다.
+   * JavaScript 버전: JavaScript 버전 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 항목은 브라우저가 사용하는 JavaScript 버전을 보여 줍니다.
    * 쿠키: [쿠키 지원](/help/components/dimensions/cookie-support.md) 차원을 사용합니다.
    * 연결 유형: [연결 유형](/help/components/dimensions/connection-type.md) 차원을 사용합니다.
    * 이동통신사: [이동통신사](/help/components/dimensions/mobile-dimensions.md) 차원을 사용합니다.
-* 방문자 주: 주 차원(Analysis Workspace에서 사용 중단)을 사용합니다. Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* 방문자 주: 주 차원(Analysis Workspace에서 사용 중단)을 사용합니다. 차원 항목은 [`state`](../../implement/vars/page-vars/state.md) 변수에서 가져옵니다.
 * 방문자 ZIP/우편 번호: [우편 번호](/help/components/dimensions/zip-code.md) 차원을 사용합니다.
 
 ## 사용자 지정 전환
