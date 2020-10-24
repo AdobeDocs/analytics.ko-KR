@@ -1,11 +1,11 @@
 ---
 title: JavaScript 구현 문제 해결
 description: JavaScript 구현 문제 해결을 위한 일반적인 문제 및 우수 사례에 대해 알아봅니다.
-translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -82,14 +82,17 @@ s.pageName = "        Home Page";
 
 이 두 변수 값은 Adobe Analytics에서 별개로 간주됩니다. 하지만 이 공백은 표시를 위해 자동으로 제거됩니다. 그 결과, 겉보기에 동일한 두 개의 &quot;홈 페이지&quot; 라인 항목을 표시하는 보고서가 생깁니다. 변수 값에 원하는 값의 앞 또는 뒤로 공백이 없는지 확인하십시오.
 
-## 잘린 이미지 요청
+## 이미지 요청 잘림
 
-많은 변수를 긴 값으로 채우는 구현은 경우에 따라 잘린 이미지 요청으로 실행될 수 있습니다. Internet Explorer와 같은 일부 이전 브라우저는 이미지 요청 URL에 2083자 제한을 적용합니다. 조직에서 매우 긴 이미지 요청이 발생하는 경우 다음을 시도해 보십시오.
+많은 변수를 긴 값으로 채우는 구현의 경우 때로 이미지 요청이 잘릴 수 있습니다. Internet Explorer와 같은 일부 이전 브라우저는 이미지 요청 URL에 2083자 제한을 적용합니다. 조직에서 매우 긴 이미지 요청이 발생하는 경우 다음을 시도해 보십시오.
 
-* **Experience Cloud ID 서비스**&#x200B;사용:AppMeasurement 라이브러리 1.4.1 이상 버전은 너무 긴 경우 HTTP POST을 사용하여 이미지 요청을 자동으로 전송합니다. 이 방법을 사용하여 전송된 데이터는 길이에 관계없이 잘리지 않습니다. See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html) for more information.
-* **처리 규칙 사용**: [처리 규칙은](/help/admin/admin/c-processing-rules/processing-rules.md) 한 변수에서 다른 변수로 값을 복사할 수 있습니다. 이 방법을 사용하면 여러 변수에서 동일한 값을 설정하지 않아도 됩니다. 예:
+* **Experience Cloud ID 서비스 사용**: AppMeasurement 라이브러리 1.4.1 이상은 요청이 너무 긴 경우 HTTP POST를 사용하여 이미지 요청을 자동으로 전송합니다. 이 방법을 사용하여 전송된 데이터는 길이에 관계없이 잘리지 않습니다. 자세한 내용은 [Adobe Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 참조하십시오.
+* **처리 규칙 사용**: [처리 규칙](/help/admin/admin/c-processing-rules/processing-rules.md)은 한 변수의 값을 다른 변수에 값을 복사할 수 있습니다. 이 방법을 사용하면 여러 변수에서 동일한 값을 설정하지 않아도 됩니다. 예를 들어,
 
-   항상 실행:<br>prop1의 값을 eVar1<br>로 덮어쓰기 eVar2의 값을 eVar1<br>로 덮어쓰기 prop2의 값을 eVar1로 덮어쓰기<br>
+   항상 다음 작업을 실행하십시오.<br>
+prop1의 값을 eVar1로 덮어쓰기<br>
+eVar2의 값을 eVar1로 덮어쓰기<br>
+prop2의 값을 eVar1로 덮어쓰기<br>
 
    그런 다음 구현에서 eVar1을 설정합니다.
 
@@ -97,7 +100,7 @@ s.pageName = "        Home Page";
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
    ```
 
-* **동적 변수 사용**:구현에서 동일한 값으로 많은 변수를 채우는 경우, [동적 변수를](/help/implement/vars/page-vars/dynamic-variables.md) 사용하여 요청 URL을 단축할 수 있습니다.
+* **동적 변수 사용**: 구현에서 동일한 값으로 많은 변수를 채우는 경우, [동적 변수를](/help/implement/vars/page-vars/dynamic-variables.md) 사용하여 요청 URL을 단축할 수 있습니다.
 
    ```js
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
@@ -106,4 +109,4 @@ s.pageName = "        Home Page";
    s.prop2 = "D=v1";
    ```
 
-* **분류 사용**:제품 또는 페이지 이름이 비정상적으로 길면 식별 값 또는 코드를 사용할 수 있으며 [분류를](/help/components/classifications/c-classifications.md) 사용하여 보다 친숙한 이름을 표시할 수 있습니다.
+* **분류 사용**: 제품이나 페이지 이름이 비정상적으로 길면 식별 값이나 코드를 사용한 후 [분류](/help/components/classifications/c-classifications.md)를 사용하여 더 친숙한 이름을 표시할 수 있습니다.
