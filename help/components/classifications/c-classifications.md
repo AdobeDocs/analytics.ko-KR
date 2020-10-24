@@ -1,11 +1,11 @@
 ---
 title: 분류 개요
-description: 차원 항목 그룹 사용자 지정을 참조하십시오.
-translation-type: tm+mt
+description: 차원 항목 그룹을 사용자 지정합니다.
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
