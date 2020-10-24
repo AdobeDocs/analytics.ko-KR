@@ -1,11 +1,11 @@
 ---
 title: 다운로드 링크
 description: 다운로드 링크의 이름입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ AppMeasurement를 사용하여 데이터를 이 차원에 보내려면
 * [`linkType`](/help/implement/vars/config-vars/linktype.md) 변수를 `"d"`로 설정합니다.
 * [`tl()`](/help/implement/vars/functions/tl-method.md) 이미지 요청을 보냅니다.
 
-## Dimension 항목
+## 차원 항목
 
-이 변수는 구현의 사용자 지정 문자열을 기반으로 하므로 조직에서 차원 항목을 결정합니다. 보고 요구 사항에 따라 링크를 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
+이 변수는 구현의 사용자 지정 문자열에 기반하므로 조직에서 차원 항목을 결정합니다. 보고 요구 사항에 따라 링크를 의미 있는 카테고리로 그룹화하는 것이 좋습니다.
