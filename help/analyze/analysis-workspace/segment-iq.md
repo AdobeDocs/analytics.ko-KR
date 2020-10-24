@@ -2,8 +2,11 @@
 title: 세그먼트 IQ 개요
 description: Adobe Analytics 세그먼트 IQ가 무엇인지, 그리고 이것이 조직에 어떻게 유용할 수 있는지 알아봅니다.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
+workflow-type: ht
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
