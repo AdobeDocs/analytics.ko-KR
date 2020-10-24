@@ -3,7 +3,7 @@ description: 이 문서에서는 데이터 주체의 CCPA 액세스 및 삭제 �
 title: Adobe Analytics 및 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
