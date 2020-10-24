@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: 가상 보고서 세트 만들기
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '360'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +21,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 가상 보고서 세트를 공유할 수 없습니다. &quot;공유&quot;는 그룹/권한을 통해 수행됩니다.
 * 가상 보고서 세트 관리자에서는 자신의 가상 보고서 세트만 볼 수 있습니다. 다른 모든 사용자의 가상 보고서 세트를 표시하려면 &quot;모두 표시&quot;를 클릭해야 합니다.
 
-1. > **[!UICONTROL Components]** 으로 **[!UICONTROL Virtual Report Suites]**&#x200B;이동합니다.
-1. 클릭 **[!UICONTROL Add +]**.
+1. **[!UICONTROL 구성 요소]** > **[!UICONTROL 가상 보고서 세트]**&#x200B;로 이동합니다.
+1. **[!UICONTROL 추가를 클릭합니다 +]**.
 
    ![](assets/new_vrs.png)
 
