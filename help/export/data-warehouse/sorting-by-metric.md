@@ -2,8 +2,11 @@
 description: Data Warehouse에서 내림차순 지표 값을 기준으로 정렬되는 등급 분류 보고서를 제공합니다.
 title: 지표로 정렬
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
