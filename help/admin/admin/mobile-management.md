@@ -3,7 +3,7 @@ description: 앱 관리를 활성화하면 모바일 애플리케이션에서 �
 title: 앱 관리
 topic: Admin tools
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
