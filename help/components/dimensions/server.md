@@ -1,11 +1,11 @@
 ---
 title: 서버
 description: 서버 이름입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 85%
 
 이 차원은 이미지 요청의 [`server` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 [`server`](/help/implement/vars/page-vars/server.md) 변수를 사용하여 이 데이터를 수집합니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 사이트의 서버가 포함됩니다. 조직에서 사용할 특정 차원 항목을 결정합니다. 일부 조직에서는 `window.location.hostname`을 사용하는 반면, 다른 조직에서는 사용자 지정 값을 만듭니다. 어떤 방법을 사용하든 일관된 방법을 사용하고 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 기록하도록 하십시오.
+차원 항목은 사이트의 서버를 포함합니다. 조직은 사용자가 사용하려는 특정 차원 항목을 파악합니다. 일부 조직에서는 `window.location.hostname`을 사용하는 반면, 다른 조직에서는 사용자 지정 값을 만듭니다. 어떤 방법을 사용하든 일관된 방법을 사용하고 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 기록하도록 하십시오.
