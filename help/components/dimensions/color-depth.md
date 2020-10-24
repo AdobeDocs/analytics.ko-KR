@@ -1,11 +1,11 @@
 ---
 title: 색상 깊이
 description: 장치의 색상 깊이입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 94%
 
 이 차원은 조회 테이블을 참조하며 비트 값을 보다 읽기 쉬운 형식으로 변환하며 이미지 요청의 [`c` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 수집합니다. AppMeasurement는 `screen.colorDepth` 변수를 사용하여 이미지 요청 쿼리 문자열을 채웁니다. AppMeasurement를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우(API 등을 통해)에는 유효한 비트 값으로 각 히트에서 `c` 쿼리 문자열 매개 변수를 포함해야 합니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 장치에서 지원하는 색상 수가 포함됩니다. 값의 예로는 `"16 million (24-bit)"`, `"16 million (32-bit)"` 및 `"65,536 (16-bit)"`이 있습니다. AppMeasurement에서 색상 깊이를 파악할 수 없는 경우 이 차원은 `"None"`으로 표시됩니다.
+차원 항목에는 장치에서 지원하는 색상 수가 포함됩니다. 값의 예로는 `"16 million (24-bit)"`, `"16 million (32-bit)"` 및 `"65,536 (16-bit)"`이 있습니다. AppMeasurement에서 색상 깊이를 파악할 수 없는 경우 이 차원은 `"None"`으로 표시됩니다.
 
 >[!TIP]
 >
