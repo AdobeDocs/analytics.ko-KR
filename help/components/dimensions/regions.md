@@ -1,11 +1,11 @@
 ---
 title: 지역
 description: 방문자의 지리적 영역입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 80%
 >
 >조직에서 [IP 주소 난독화](/help/admin/admin/general-acct-settings-admin.md)가 충분하지 않은 엄격한 개인 정보 보호 규정을 따르는 경우 지리적 위치 데이터를 완전히 비활성화하도록 요청할 수 있습니다. 보고서 세트에 대해 &#39;지리적 위치&#39;를 해제하려면 보고서 세트 ID로 고객 지원 팀에 연락하여 요청하십시오.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 지역 및 해당 지역이 거주하는 지역이 포함됩니다. 값의 예로는 `"California (United States)"`, `"Tokyo (Japan)"` 또는 `"Sao Paulo (Brazil)"`이 있습니다.
+차원 항목에는 지역과 해당 지역이 있는 국가가 포함됩니다. 값의 예로는 `"California (United States)"`, `"Tokyo (Japan)"` 또는 `"Sao Paulo (Brazil)"`이 있습니다.
 
-일부 차원 항목에는 전화 접속 `"AOL"`인터넷 서비스 제공업체가 포함될 수 있습니다. 이 서비스 가입자에게는 계정 번호가 설정된 국가를 기준으로 액세스 포인트가 할당됩니다. AOL 사용자는 이 액세스 포인트의 IP 주소를 사용합니다. 이 차원은 IP 주소를 기반으로 하므로 방문자의 실제 위치 대신 액세스 포인트의 지리적 위치가 사용됩니다.
+일부 차원 항목에는 전화 접속 인터넷 서비스 공급자인 `"AOL"`이 포함될 수 있습니다. 이 서비스 가입자에게는 계정 번호가 설정된 국가를 기준으로 액세스 포인트가 지정됩니다. AOL 사용자는 이 액세스 포인트의 IP 주소를 사용합니다. 이 차원은 IP 주소를 기반으로 하므로 방문자의 실제 위치 대신 액세스 포인트의 지리적 위치가 사용됩니다.
 
 ## 보고된 위치와 실제 위치 간의 차이
 
