@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # prop
 
-*이 도움말 페이지에서는 prop 구현 방법에 대해 설명합니다. prop이 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의[prop](/help/components/dimensions/prop.md)을 참조하십시오.*
+*이 도움말 페이지에서는 prop 구현 방법에 대해 설명합니다. prop이 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [prop](/help/components/dimensions/prop.md)을 참조하십시오.*
 
 prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
 
