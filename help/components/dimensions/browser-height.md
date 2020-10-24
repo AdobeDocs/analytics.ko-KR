@@ -1,11 +1,11 @@
 ---
 title: 브라우저 높이 - 전체기간
 description: 브라우저 창의 높이(픽셀 단위)입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 Adobe는 방문에 대해 브라우저 높이를 유지합니다. 브라우저 높이를 중간에 조정하면 조정이 기록되지 않습니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 100픽셀의 그룹으로 분류된 수집된 모든 브라우저 높이가 포함됩니다. For example, if the browser height of a hit is `720`, then it is grouped in the dimension item `700 to 799`.
+차원 항목에는 100픽셀 그룹으로 분류된 수집된 모든 브라우저 높이가 포함됩니다. 예를 들어 히트의 브라우저 높이가 `720`이라면 차원 항목 `700 to 799`로 그룹화됩니다.
