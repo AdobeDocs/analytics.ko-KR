@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 쿼리 문자열 매개 변수에서 캠페인 ID 채우기
 topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+workflow-type: ht
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
