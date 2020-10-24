@@ -1,9 +1,9 @@
 ---
 title: t
 description: Adobe에 페이지 보기 추적 호출을 보냅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 
