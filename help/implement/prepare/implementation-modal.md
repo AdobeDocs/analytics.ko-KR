@@ -1,18 +1,18 @@
 ---
 title: 구현 모달
 description: Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알아보십시오.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
 # 구현 모달
 
-보고서 세트 [만들기를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html).
+[보고서 세트 만들기](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/create-report-suite.html)를 참조하십시오.
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
