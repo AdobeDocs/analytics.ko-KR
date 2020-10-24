@@ -3,6 +3,9 @@ description: 마케팅 채널 보고서를 실행하고, 보고서에 대한 제
 title: 마케팅 채널 권한
 translation-type: ht
 source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
+workflow-type: ht
+source-wordcount: '220'
+ht-degree: 100%
 
 ---
 
