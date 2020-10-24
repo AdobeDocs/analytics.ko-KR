@@ -2,7 +2,7 @@
 title: 장바구니 보기 수
 description: 방문자가 장바구니를 본 히트의 수입니다.
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
