@@ -2,9 +2,9 @@
 description: 'null'
 title: 레이블 지정 예
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
-source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '802'
 ht-degree: 100%
 
