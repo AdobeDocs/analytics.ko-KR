@@ -1,11 +1,11 @@
 ---
 title: 검색 엔진
 description: 방문자가 사이트에 도달하기 위해 사용한 검색 엔진입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 91%
 
 이 차원은 Adobe 내부의 여러 조회 테이블을 참조합니다. 각 값은 히트의 [레퍼러](referrer.md)를 기반으로 하는데, 이것은 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)에 따라 달라집니다. 레퍼러 차원과 내부 URL 필터가 올바로 구성되어 있는지 확인하십시오.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 사이트에 도달하는 데 사용되는 검색 엔진이 포함됩니다. 값의 예로는 `"Google"`, `"Microsoft Bing"` 및 `"DuckDuckGo"`이 있습니다. The `"Unspecified"` dimension item is all non-search traffic.
+차원 항목에는 사이트에 도달하기 위해 사용되는 검색 엔진이 포함됩니다. 값의 예로는 `"Google"`, `"Microsoft Bing"` 및 `"DuckDuckGo"`이 있습니다. `"Unspecified"` 차원 항목은 모든 비검색 트래픽입니다.
