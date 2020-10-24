@@ -1,11 +1,11 @@
 ---
 title: 방문 횟수
 description: 방문자의 n번째 방문입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 59%
 
 이 차원은 모든 구현에 대해 즉시 작동합니다. 보고서 세트에 데이터가 포함되어 있으면 이 차원이 작동합니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension items include the string `"Visit number"` followed by the numeric representation of the visit the visitor is currently on. For example, if the visitor has never been to your site before, their first visit belongs to the dimension item `"Visit number 1"`. If this is the visitor&#39;s 13th visit to your site, they belong to the dimension item `"Visit number 13"`.
+차원 항목에는 뒤에 현재 방문자가 있는 방문에 대한 숫자 표현이 있는 문자열 `"Visit number"`가 포함됩니다. 예를 들어 방문자가 전에 사이트에 방문한 적이 없다면 첫 번째 방문은 차원 항목 `"Visit number 1"`에 속합니다. 방문자가 사이트에 13번째 방문하는 경우 이 방문은 차원 항목 `"Visit number 13"`에 속합니다.
