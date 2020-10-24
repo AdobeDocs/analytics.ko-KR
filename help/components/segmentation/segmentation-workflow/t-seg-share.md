@@ -3,9 +3,9 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 세그먼트 공유
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
 ht-degree: 100%
 
