@@ -1,15 +1,18 @@
 ---
-title: Workspace의 여러 보고서 세트
+title: Analysis Workspace의 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 공간에서 프로젝트를 만드는 방법 및 이유 알아보기
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
 
-# Workspace의 여러 보고서 세트
+# Analysis Workspace의 여러 보고서 세트
 
-이제 Analysis Workspace에서 두 개 이상의 보고서 세트의 데이터를 사용하여 프로젝트를 만들 수 있습니다. 보고서 세트는 이제 패널 수준에서 선택되므로 동일한 Workspace 프로젝트 내에서 각 패널에 대해 다른 보고서 세트를 선택할 수 있습니다.
+이제 Analysis Workspace에서 두 개 이상의 보고서 세트의 데이터를 사용하여 프로젝트를 만들 수 있습니다. 보고서 세트는 이제 패널 수준에서 선택되므로 동일한 작업 공간 프로젝트 내에서 각 패널에 대해 다른 보고서 세트를 선택할 수 있습니다.
 
 이 기능은 예를 들면 다음과 같은 경우에 유용합니다.
 
@@ -19,7 +22,7 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ## 모든 패널에 보고서 세트 적용
 
-패널 헤더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Apply Report Suite to All Panels]**&#x200B;를 선택하여 모든 패널에 보고서 세트를 적용할 수 있습니다.
+패널 헤더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 모든 패널에 보고서 세트 적용]**&#x200B;을 선택하여 모든 패널에 보고서 세트를 적용할 수 있습니다.
 
 ![](assets/apply-rs-all-panels.png)
 
@@ -40,7 +43,7 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ![](assets/mrs-ui.png)
 
-1. Workspace에서 2개 이상의 패널을 사용하여 새 프로젝트를 만듭니다.
+1. Analysis Workspace에서 2개 이상의 패널을 사용하여 새 프로젝트를 만듭니다.
 
 1. 구성 요소(지표, 차원, 세그먼트, 날짜 범위)를 패널로 끌어서 놓습니다. 패널에 데이터와 보고서 세트에만 적용되는 시각화가 있는지 확인합니다.
 
