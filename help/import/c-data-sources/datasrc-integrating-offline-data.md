@@ -4,11 +4,11 @@ subtopic: Data sources
 title: 거래 및 고객 통합
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정할 수 있습니다.
 
-Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > 보고서 세트 선택 > **[!UICONTROL 편집 설정]** > **[!UICONTROL 일반]** > **[!UICONTROL 일반 계정 설정]**&#x200B;으로 이동합니다.
 
 <!-- 
 
@@ -68,4 +68,4 @@ Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report su
 
 이것은 거래 ID 데이터가 방문과는 연결되어 있지 않지만(오프라인 이벤트는 보통 온라인 이벤트에 속하지 않으므로), 방문자와는 연결되어 있기 때문입니다.
 
-자세한 내용은 [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+ [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
