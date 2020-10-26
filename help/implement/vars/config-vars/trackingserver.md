@@ -1,11 +1,11 @@
 ---
 title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 91%
 
 ---
 
@@ -51,22 +51,22 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 s.trackingServer = "data.example.com";
 ```
 
-일반적으로 CNAME 레코드는 이미 설정되어 있고 `sc.omtrdc.net`을 가리킵니다. 도메인 `2o7.net`도 유효한 CNAME 대상이며, 주로 이전 Adobe Analytics 버전에서 사용됩니다.
-
 ### 타사 쿠키
 
 >[!TIP]
 >
 >최신 브라우저에서 개인 정보 보호 정책을 강화하면 타사 쿠키의 신뢰성이 떨어집니다. 자사 쿠키 워크플로우에 따라 설정하는 것이 좋습니다.
 
-타사 쿠키 구현을 사용하는 경우 `trackingServer`의 값은 `sc.omtrdc.net`의 하위 도메인입니다.  예:
+타사 쿠키 구현을 사용하는 경우 `trackingServer`의 값은 `data.adobedc.net`의 하위 도메인입니다.  예:
 
 ```js
-s.trackingServer = "example.sc.omtrdc.net";
+s.trackingServer = "example.data.adobedc.net";
 ```
 
-Adobe Analytics를 사용하는 다른 조직에서 선택할 가능성이 없고 조직에 고유한 하위 도메인을 선택하십시오. 조직의 모든 구현에서 동일한 추적 서버를 사용하도록 합니다. 이렇게 하면 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 이 정보를 유지하는 데 도움이 될 수 있습니다.
+Adobe Analytics를 사용하는 다른 조직에서 선택할 가능성이 없고 조직에 고유한 하위 도메인을 선택하십시오.  조직에 할당된 방문자 네임스페이스가 권장됩니다.  조직의 모든 구현에서 동일한 추적 서버를 사용하도록 합니다. 이렇게 하면 [솔루션 디자인 문서](../../prepare/solution-design.md)에서 이 정보를 유지하는 데 도움이 될 수 있습니다.
+
+조직에서 이미 `sc.omtrdc.net` 또는 도메인에서 타사 추적 서버를 사용하고 있을 수 `2o7.net` 있습니다.  이러한 템플릿은 주로 이전 버전의 Adobe Analytics에서 사용되었으며 여전히 유효합니다.
 
 >[!NOTE]
 >
-> `example.sc.omtrdc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.sc.omtrdc.net`은 올바른 추적 서버가 아닙니다.
+> `example.data.adobedc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.data.adobedc.net`은 올바른 추적 서버가 아닙니다.
