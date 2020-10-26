@@ -2,10 +2,10 @@
 title: trackingServerSecure
 description: HTTPS 페이지에서 이미지 요청이 전송되는 위치를 파악합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -41,4 +41,4 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME 레코드는 일반적으로 `ssl.d1.sc.omtrdc.net`의 하위 도메인을 가리킵니다.
+CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.omtrdc.net` or `2o7.net`.
