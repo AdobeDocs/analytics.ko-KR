@@ -4,9 +4,9 @@ title: 트래픽 증가에 대한 필수 리드 타임
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a114bef4679da24d4fd6323a55c9ccf52ac772ed
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ Adobe에서는 새 계정 설정, 트래픽 스파이크 및 트래픽 증가에
    * 일당 예상 히트 수
    * Go Live 날짜
 
-* 클라이언트 경고는 트래픽이 감소하거나 특정 보고서 세트가 삭제되었을 때도 필요합니다.
+* 클라이언트 경고는 트래픽이 감소하거나 특정 보고서 세트를 더 이상 사용하지 않을 때에도 필요합니다.
 
 ## 트래픽 미실현으로 인한 하드웨어 할당 취소
 
