@@ -5,10 +5,10 @@ user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 94%
+source-wordcount: '283'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
       + [지표 계산](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [데이터 열 참조](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [모바일 속성 조회](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [모바일 특성 조회](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [특수 문자](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [늦게 도착하는 조회수](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [데이터 피드 FAQ](analytics-data-feed/df-faq.md)
@@ -43,7 +43,6 @@ ht-degree: 94%
    + [반복 요청 예약](data-warehouse/dw-schedule-recurring.md)
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
-   + [차원이 Data Warehouse 세그먼트와 호환되지 않음](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Data Warehouse FAQ](data-warehouse/faq.md)
    + [Data Warehouse 우수 사례](data-warehouse/data-warehouse-bp.md)
 + FTP 및 SFTP {#ftp-and-sftp}
