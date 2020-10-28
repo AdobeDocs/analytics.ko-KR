@@ -1,11 +1,11 @@
 ---
 title: 교차 디바이스 분석 FAQ
 description: 교차 디바이스 분석에 대한 FAQ
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe에서는 타임스탬프가 지정된 히트를 Adobe가 히트를 수신�
 2. 원하는 패널에서 디버그 아이콘을 클릭한 다음 원하는 시각화 및 요청 시간을 선택합니다.
 3. API에서 Adobe를 호출하는 데 사용할 수 있는 JSON 요청을 찾습니다.
 
-## 교차 디바이스 분석은 고유 방문자 수를 함께 결합할 수 있습니다. 방문자 수를 함께 결합할 수 있습니까?
+## 교차 디바이스 분석은 고유 방문자 수를 함께 결합할 수 있습니다. 방문자를 연결할 수 있습니까?
 
 예. 개별 사용자가 가상 보고서 세트의 방문 제한 시간(기본적으로 30분) 내에 두 개의 개별 장치에서 히트를 전송하는 경우 동일한 방문에 결합됩니다.
 
