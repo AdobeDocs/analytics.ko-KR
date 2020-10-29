@@ -5,10 +5,10 @@ user-guide-title: Analytics 구성 요소 안내서
 breadcrumb-title: 구성 요소 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
 translation-type: tm+mt
-source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
+source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 95%
+source-wordcount: '643'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 95%
    + [마지막 터치 채널](dimensions/last-touch-channel.md)
    + [마지막 터치 채널 세부 사항](dimensions/last-touch-detail.md)
    + [마케팅 채널](dimensions/marketing-channel.md)
+   + [마케팅 채널 세부 정보](dimensions/marketing-detail.md)
    + [분](dimensions/minute.md)
    + [모바일 차원](dimensions/mobile-dimensions.md)
    + [모니터 해상도](dimensions/monitor-resolution.md)
@@ -209,10 +210,10 @@ ht-degree: 95%
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
 + 교차 디바이스 분석 {#cda}
    + [교차 디바이스 분석 개요](cda/overview.md)
-   + [현장 기반 연결](cda/field-based-stitching.md)
-   + [장치 그래프](cda/device-graph.md)
-   + [장치 간 분석 설정](cda/setup.md)
-   + [재생 방식](cda/replay.md)
+   + [필드 기반 결합](cda/field-based-stitching.md)
+   + [Device Graph](cda/device-graph.md)
+   + [교차 장치 분석 설정](cda/setup.md)
+   + [재생 작동 방식](cda/replay.md)
    + [CDA 작업 공간 템플릿](cda/workspace-template.md)
    + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [교차 디바이스 분석 FAQ](cda/faq.md)
@@ -223,8 +224,8 @@ ht-degree: 95%
    + [지능형 경고 - 활용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/c-classifications.md)
-   + Classifications importer {#classifications-importer}
-      + [분류 가져오기 도구 - 개요](classifications/importer/c-working-with-saint.md)
+   + 분류 임포터 {#classifications-importer}
+      + [분류 임포터 - 개요](classifications/importer/c-working-with-saint.md)
       + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
       + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
       + [분류 데이터 이스케이프 처리](classifications/importer/t-classifications-escape-data.md)
