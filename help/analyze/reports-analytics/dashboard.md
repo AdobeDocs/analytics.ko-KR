@@ -43,11 +43,11 @@ ht-degree: 100%
 
 사용자가 만든 대시보드 이외에 사용자 각각에 대해 다음과 같은 미리 패키지한 대시보드가 포함됩니다.
 
-**[!UICONTROL 구성 요소]>[!UICONTROL 대시보드]>[!UICONTROL 공유 대시보드]>[!UICONTROL 로컬 사이트]**
+**[!UICONTROL 구성 요소] > [!UICONTROL 대시보드] > [!UICONTROL 공유 대시보드] > [!UICONTROL 로컬 사이트]**
 
 사용자 지정 가능한 이 대시보드에서는 reportlet을 제공된 템플릿에 적용하는 방법을 제공합니다.
 
-**[!UICONTROL 구성 요소]>[!UICONTROL 대시보드]>[!UICONTROL 공유 대시보드]>[!UICONTROL 사이트 작업 대시보드]**
+**[!UICONTROL 구성 요소] > [!UICONTROL 대시보드] > [!UICONTROL 공유 대시보드] > [!UICONTROL 사이트 작업 대시보드]**
 
 이 대시보드는 웹 사이트 작업과 관련된 주요 지표의 개요를 제공합니다. 이 대시보드의 보고서에는 다음이 포함되어 있습니다.
 
