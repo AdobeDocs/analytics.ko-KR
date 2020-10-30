@@ -3,11 +3,11 @@ description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연�
 title: 세그먼트 작성
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '2051'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,18 +34,18 @@ ht-degree: 96%
 1. **[!UICONTROL 설명]**: 세그먼트에 대한 설명을 입력합니다.
 1. **[!UICONTROL 태그]**: 기존 태그 목록에서 선택하거나 새 태그를 만들어 작성하고 있는 [세그먼트에 태깅](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
 1. **[!UICONTROL 정의]**: [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 및 구성, 규칙 추가, 컨테이너 중첩 및 시퀀스 지정을 수행하는 곳입니다.
-1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/segmentation/seg-overview.md)([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
-1. **[!UICONTROL 옵션]**:(톱니바퀴) 아이콘
+1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/segmentation/seg-overview.md) ([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
+1. **[!UICONTROL 옵션]**: (톱니바퀴) 아이콘
 
    * **[!UICONTROL + 컨테이너 추가]**: 세그먼트 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.
    * **[!UICONTROL 제외]**: 하나 이상의 차원, 세그먼트 또는 지표를 제외하는 식으로 세그먼트를 정의합니다.
 
-1. **[!UICONTROL Dimension]**:구성 요소를 Dimension 목록에서 드래그하여 놓습니다(주황색 사이드바).
+1. **[!UICONTROL 차원]**: 구성 요소는 차원 목록(주황색 사이드바)에서 드래그하여 놓습니다.
 1. **[!UICONTROL 연산자]**: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
 1. **[!UICONTROL 속성 모델]**: 차원에만 사용할 수 있으며, 이 모델은 차원에서 어떤 값에 대해 세그먼테이션할지 결정합니다. 차원 모델은 순차적 세그먼테이션에서 특히 유용합니다.
 
-   * **[!UICONTROL 반복]**(기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.
+   * **[!UICONTROL 반복]** (기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.
    * **[!UICONTROL 인스턴스]**: 차원의 인스턴스를 포함합니다.
    * **[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다. 반복 인스턴스가 제외될 때 흐름에 적용되는 모델입니다.
 
@@ -59,17 +59,17 @@ ht-degree: 96%
    | 인스턴스 | X | X | - | - | X | - |
    | 비반복 인스턴스 | X | - | - | - | X | - |
 1. **[!UICONTROL And/Or/Then]**: 컨테이너나 규칙 사이에 [!UICONTROL AND/OR/THEN] 연산자를 지정합니다. THEN 연산자를 사용하여 [순차적 세그먼트를 정의](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)할 수 있습니다.
-1. **[!UICONTROL 지표]**:(녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다.
+1. **[!UICONTROL 지표]**: (녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다.
 1. **[!UICONTROL 비교]** 연산자: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
-1. **[!UICONTROL X]**:(삭제) 이 세그먼트 정의 부분을 삭제할 수 있습니다.
-1. **[!UICONTROL Experience Cloud 게시]**:Experience Cloud에 Adobe Analytics 세그먼트를 게시하면 세그먼트가 다른 활성화 채널에서 마케팅 활동 [!DNL Audience Manager] 에 사용될 수 있습니다. [추가 정보...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 대상 라이브러리]**:Adobe 대상 서비스는 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL X]**: (삭제) 이 세그먼트 정의 부분을 삭제할 수 있습니다.
+1. **[!UICONTROL Experience Cloud 게시]**: Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를 [!DNL Audience Manager]의 마케팅 활동과 기타 활성화 채널에서 사용할 수 있습니다. [추가 정보...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상 세그멘테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL 검색]**: 차원, 세그먼트 또는 지표 목록을 검색합니다.
 1. **[!UICONTROL 차원]**: (목록) 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 지표]**: 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 세그먼트]**: 확장할 헤더를 클릭합니다.
-1. **[!UICONTROL 보고서 세트 선택기]**:이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
+1. **[!UICONTROL 보고서 세트 선택기]**: 이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
 1. **[!UICONTROL 세그먼트 미리 보기]**: 주요 지표를 미리 보기하여 세그먼트가 유효한지와 세그먼트가 얼마나 광범위한지 확인할 수 있습니다. 이 세그먼트를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 데이터 세트에 대해 실행된 세그먼트와 일치하는 [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL 방문자] 수 및 비율을 표시합니다. 이 차트는 세그먼트 정의를 만들거나 변경한 직후에 업데이트됩니다.
 1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품(Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]**: 세그먼트를 저장하거나 취소합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하면 세그먼트를 관리할 수 있는 세그먼트 관리자로 이동됩니다.
@@ -101,7 +101,7 @@ ht-degree: 96%
 
    ![](assets/add_container.png)
 
-   새로운 [!UICONTROL 히트] 컨테이너가 식별된 [!UICONTROL 히트](페이지 보기) 없이 열립니다.
+   새로운 [!UICONTROL 히트] 컨테이너가 식별된 [!UICONTROL 히트] (페이지 보기) 없이 열립니다.
 
    ![](assets/new_container.png)
 
