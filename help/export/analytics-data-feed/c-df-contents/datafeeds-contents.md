@@ -7,6 +7,9 @@ topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '732'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,7 @@ Datafeed-Manifest-Version: 1.0
 
 ## 조회 파일
 
-일부 데이터 피드 열은 실제 값에 해당하는 숫자를 출력합니다. 조회 파일은 데이터 피드 열의 숫자를 연결하고 실제 값과 연결하는 데 사용됩니다. 예를 들어 `browser` 히트 데이터 열의 값 &#39;497&#39;은 `browser.tsv` 조회 시 히트가 &quot;Microsoft Internet Explorer 8&quot;에서 왔음을 나타냅니다.
+일부 데이터 피드 열은 실제 값에 해당하는 숫자를 출력합니다. 조회 파일은 데이터 피드 열의 숫자를 연결하고 실제 값과 연결하는 데 사용됩니다. 예를 들어 `browser` 히트 데이터 열의 값 &quot;497&quot;은 `browser.tsv` 조회 시 히트가 &quot;Microsoft Internet Explorer 8&quot;에서 왔음을 나타냅니다.
 
 `column_headers.tsv`와 `event_list.tsv`는 데이터 피드와 보고서 세트에 한정됩니다. `browser.tsv`와 같은 다른 파일은 일반적입니다.
 
@@ -87,11 +90,11 @@ Datafeed-Manifest-Version: 1.0
 
 Adobe가 배달하는 파일은 사용자가 구성한 데이터 피드 유형에 따라 달라집니다. 모든 파일은 ISO-8859-1을 사용하여 인코딩됩니다.
 
-* `[rsid]`는 데이터 피드를 가져온 보고서 세트 ID를 나타냅니다.
-* `[index]`는 여러 파일 피드에서만 사용되며 페이지 번호를 매긴 파일의 올바른 순서를 나타냅니다.
-* `[YYYY-mm-dd]`는 데이터 피드가 사용되는 시작일을 나타냅니다.
-* `[HHMMSS]`는 시간별 피드에서만 사용되며 데이터 피드가 사용되는 시작 시간을 나타냅니다.
-* `[compression_suffix]`는 사용된 압축 유형을 나타냅니다. 일반적으로 데이터 피드는 `tar.gz` 또는 `zip` 파일로 압축됩니다.
+* `[rsid]` 는 데이터 피드를 가져온 보고서 세트 ID를 나타냅니다.
+* `[index]` 는 여러 파일 피드에서만 사용되며 페이지 번호를 매긴 파일의 올바른 순서를 나타냅니다.
+* `[YYYY-mm-dd]` 는 데이터 피드가 사용되는 시작일을 나타냅니다.
+* `[HHMMSS]` 는 시간별 피드에서만 사용되며 데이터 피드가 사용되는 시작 시간을 나타냅니다.
+* `[compression_suffix]` 는 사용된 압축 유형을 나타냅니다. 일반적으로 데이터 피드는 `tar.gz` 또는 `zip` 파일로 압축됩니다.
 
 ### 일별, 단일 파일
 
