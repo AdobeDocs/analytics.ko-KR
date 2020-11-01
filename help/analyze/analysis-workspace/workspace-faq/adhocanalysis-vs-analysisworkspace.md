@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -60,8 +60,8 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
     </ol> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project.html"  > 비디오: 작업 공간에서 세그먼트 사용</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/panel-level-segments.html"  > 비디오: 패널에 세그먼트 적용</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>임시("임시") 세그먼트 만들기 </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 또한 패널 드롭 영역에 드롭다운 필터를 추가하여 여러 개의 임시 세그먼트를 한 번에 만들 수 있으므로 제어된 프로젝트 상호 작용을 구현할 수 있습니다. </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/ad-hoc-temporary-segments.html"  > 비디오:Analysis Workspace의 애드혹 세그먼트</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-drop-down-filters.html"  > 비디오:Analysis Workspace의 드롭다운 필터</a> </p> </td> 
+   <td colname="col1"> <p>임시("애드혹") 세그먼트 만들기 </p> </td> 
+   <td colname="col2"> <p>차원 항목을 패널 위쪽에 세그먼트 드롭 영역으로 드래그하여 Analysis Workspace에서 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >인스턴스, 임시("ad-hoc") 세그먼트를 생성</a>할 수 있습니다. 또한 패널 드롭 영역에 드롭다운 필터를 추가하여 여러 개의 임시 세그먼트를 한 번에 만들 수 있으므로 제어된 프로젝트 상호 작용을 가능하게 할 수 있습니다. </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/ad-hoc-temporary-segments.html"  > 비디오:Analysis Workspace의 애드혹 세그먼트</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-drop-down-filters.html"  > 비디오: Analysis Workspace의 드롭다운 필터</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>날짜 범위 및 세부기간 선택 </p> </td> 
@@ -87,7 +87,7 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">플로우는 방문 또는 방문자를 확장할 수 있습니다. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">키 통계가 % 경로 보기 측면에서 표시됩니다. </li> 
-    </ul> <p>또한 플로우는 Ad Hoc Analysis에 대한 개선 사항인 <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 혼합 차원</a>과 마우스 오른쪽 단추로 클릭하여 세그먼트를 생성할 수 있는 기능을 사용할 수 있습니다. Ad Hoc Analysis보다 개선된 기능입니다. </p> <p>현재 Analysis Workspace의 흐름에서는 사용자가 성공 이벤트를 선택할 수 <b>없습니다</b> . </li> 
+    </ul> <p>또한 플로우는 Ad Hoc Analysis에 대한 개선 사항인 <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 혼합 차원</a>과 마우스 오른쪽 단추로 클릭하여 세그먼트를 생성할 수 있는 기능을 사용할 수 있습니다. Ad Hoc Analysis보다 개선된 기능입니다. </p> <p>현재 Analysis Workspace의 플로우에서는 사용자가 성공 이벤트를 선택할 수 <b>없습니다</b>. </li> 
     </ul> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html"  > 비디오: 플로우 시각화 개요</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow.html"  > 비디오: 다차원 플로우</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/expanding-on-flow-visualization.html"  > 비디오: 플로우에서 세그먼트 만들기</a> </p> </td> 
   </tr> 
   <tr> 
@@ -100,11 +100,11 @@ Analysis Workspace는 여러 가지 Ad Hoc Analysis 기능을 브라우저 워�
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 선택 </p> </td> 
-   <td colname="col2"> <p>여러 보고서 세트를 Analysis Workspace의 단일 프로젝트에 추가할 수 있습니다.  </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html"  > 비디오:작업 공간의 여러 보고서 세트</a> </p></td> 
+   <td colname="col2"> <p>여러 보고서 세트를 Analysis Workspace의 단일 프로젝트에 추가할 수 있습니다.  </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html"  > 비디오: Workspace의 여러 보고서 세트</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>속성 IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >속성 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 속성 모델 유형을 추가할 수 있습니다. 10개 이상의 규칙 기반 및 알고리즘 모델이 포함되어 있습니다. </p>  <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables.html"  > 비디오:자유 형식 테이블의 Attribution IQ</a> </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의 <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >속성 IQ</a>에서는 자유 형식 테이블, 시각화 및 계산된 지표에 다양한 새로운 속성 모델 유형을 추가할 수 있습니다. 여기에는 10개 이상의 규칙 기반 및 알고리즘 모델이 포함되어 있습니다. </p>  <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables.html"  > 비디오: 자유 형식 테이블의 속성 IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
