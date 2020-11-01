@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Analytics를 배포할 때 페이지 보기 및 콘텐츠 설정을 위한 Dynamic Tag Management 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]**>![톱니바퀴 아이콘](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;페이지 보기 수 및 컨텐츠&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![톱니바퀴 아이콘](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;페이지 보기 수 및 컨텐츠&#x200B;]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
