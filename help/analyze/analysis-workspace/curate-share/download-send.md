@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 프로젝트 다운로드 시 주의하십시오.
 
-* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장할 수 있습니다. 그러나 저장된 프로젝트만 [예약할 수 있습니다](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장할 수 있습니다. 그러나 저장된 프로젝트만 [예약할 수 있습니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되므로 브라우저에서 다운로드한 PDF를 내보내는 데 몇 분이 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. PDF를 렌더링하는 데 5분 이상 걸리는 경우 대신 이메일로 전송하라는 메시지가 표시됩니다.
 * PDF 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
 * 프로젝트가 PDF로 렌더링되면 페이지의 내용이 렌더링됩니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 컨텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정(오른쪽 상단 모서리의 단추)되도록 변경해야 합니다.
@@ -88,5 +88,5 @@ ht-degree: 7%
 | --- | --- |
 | 다운로드한 PDF가 한 페이지인 이유는 무엇입니까? | 현재 작업 공간은 다운로드한 PDF에 페이지를 매기지 않습니다. |
 | &quot;항목을 CSV로 다운로드&quot; 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 더 긴 꼬리 항목을 검색하기 위해 표 정렬을 변경하거나 필터를 적용하여 보다 구체적인 항목을 다운로드할 수 있습니다. |
-| 복사 시각화 **[!UICONTROL 는]** 어떤 기능을 합니까? | **[!UICONTROL 시각화]** 복사는 내보내기 옵션이 아닙니다. 시각화 또는 패널을 작업 공간의 한 위치에서 다른 위치로 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 패널 간 또는 하나의 프로젝트에서 다른 프로젝트로 이어지는 경우입니다. [인사이트 연결 비디오](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| 복사 시각화 **[!UICONTROL 는]** 어떤 기능을 합니까? | **[!UICONTROL 시각화]** 복사는 내보내기 옵션이 아닙니다. 시각화 또는 패널을 작업 공간의 한 위치에서 다른 위치로 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 패널 간 또는 하나의 프로젝트에서 다른 프로젝트로 이어지는 경우입니다. [인사이트 연결 비디오](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
