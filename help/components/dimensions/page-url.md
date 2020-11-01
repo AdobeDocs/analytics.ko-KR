@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -32,6 +32,6 @@ AppMeasurement는 페이지의 URL에 따라 이 데이터를 자동으로 수�
 
 eVar가 Data Warehouse의 &#39;페이지 URL&#39; 차원과 정확히 일치하도록 하려면 [동적 변수](/help/implement/vars/page-vars/dynamic-variables.md)를 사용하고 각 히트에서 eVar를 `D=g`로 설정할 수 있습니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 사이트의 페이지 URL이 포함됩니다.
+차원 항목에는 사이트의 페이지 URL이 포함됩니다.
