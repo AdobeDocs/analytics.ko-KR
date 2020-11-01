@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Analytics에서는 대부분의 변수가 보고 목적으로 대소문자
 
 이후가 아닌 열과 이후 열 간에 동일한 값의 대소문자가 다르게 되어 있다면(예: 이전 열에는 &quot;snow&quot;, 이후 열에는 &quot;Snow&quot;) 구현은 사이트 전체에서 대문자 값과 소문자 값을 모두 사용합니다. 이후 열에서 대소문자가 다른 값은 이전에 전달되어 가상 쿠키에 저장되어 있거나, 해당 보고서 세트에 대해 동일한 시간 동안 처리되었습니다.
 
-## 보트는 관리 콘솔 보트 규칙으로 필터링됩니까?
+## 보트는 데이터 피드에 포함된 Admin Console 보트 규칙으로 필터링됩니까?
 
-데이터 피드에는 관리 콘솔 보트 규칙으로 필터링된 보트 [가 포함되지 않습니다](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+데이터 피드는 [Admin Console 보트 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/bot-removal/bot-removal.html)으로 필터링된 보트를 포함하지 않습니다.
 
 ## 데이터 피드 열 `000` 또는 `event_list` `post_event_list` 데이터 피드 열에 여러 값이 표시되는 이유는 무엇입니까?
 
