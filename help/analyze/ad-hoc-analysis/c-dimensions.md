@@ -32,7 +32,7 @@ ht-degree: 95%
 * 모니터 해상도
 * 사용자 지정 eVar 및 s.prop 값
 
-**[!UICONTROL 차원]창**
+**[!UICONTROL 차원] 창**
 
 [!UICONTROL 차원] 창에는 Marketing Reports &amp; Analytics 구현의 모든 제품 차원이 나열 및 구성됩니다. 원하는 차원 항목을 기반으로 보고서를 작성할 수 있습니다. 이제 차원을 다른 차원으로 세분화하는 방식으로 거의 모든 것을 분석 및 비교할 수 있습니다.
 
