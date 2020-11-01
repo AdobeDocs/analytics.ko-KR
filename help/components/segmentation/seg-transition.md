@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
    * [세그먼트를 비교](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)할 수 있습니다.
    * 비교에서 [세그먼트를 차원으로](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html) 사용합니다.
-   * [폴아웃 분석](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
+   * [폴아웃 분석](https://docs.adobe.com/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
 
 * [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
 * 세그먼트는 모든 보고서 세트에 범용입니다.
