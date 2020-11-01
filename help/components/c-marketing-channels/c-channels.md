@@ -32,7 +32,7 @@ ht-degree: 100%
 
    [마케팅 채널 권한](/help/components/c-marketing-channels/c-channel-report-access.md)을 참조하십시오.
 
-## 마케팅 채널 추가를 참조하십시오 {#add-mktg-channels}
+## 마케팅 채널 추가{#add-mktg-channels}
 
 마케팅 채널 관리자에서 마케팅 채널을 추가합니다.
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 | 채널 이름 | 마케팅 채널에 대한 알기 쉬운 이름입니다. |
 | 마지막 접촉 채널 무시 | 영구적인 기존의 마지막 접촉 채널을 선택한 채널로 대체할지 여부를 선택할 수 있습니다. 이 확인란을 선택하면 모든 채널(직접 및 내부 포함)이 기존 마지막 접촉 채널을 덮어씁니다. 크레딧을 받은 자격이 없는 채널이 전환되는 문제가 발생할 수 있습니다. 예를 들어 이 옵션은 자연어 검색 채널을 통해 사용자를 이미 획득한 경우, 직접 채널이 전환 크레딧을 받지 못하도록 할 수 있습니다. |
 | 채널 분류 | 이 값을 기준으로 채널을 분류할 수 있습니다. [마케팅 채널 분류](/help/components/c-marketing-channels/classifictions-mchannel.md)를 만들 때 가능한 채널 분류(하위 채널)를 추가할 수 있습니다. |
-| 유형 | 사용자를 사이트로 인도한 방식을 지정합니다. 온라인 또는 오프라인을 선택할 수 있습니다. 검색 엔진 또는 이메일 캠페인을 통해 방문한 방문자에 대해 온라인 채널을 사용합니다. 오프라인 채널은 신문 쿠폰이나 잡지 광고를 보고 사이트를 방문한 방문자에게 적용됩니다. 오프라인 채널에는 일반적으로 보고 데이터 소스를 통해 가져온 데이터가 포함됩니다. [ 데이터 소스](https://docs.adobe.com/content/help/ko-KR/analytics/import/data-sources/datasrc-home.html)를 참조하십시오. [오프라인 데이터 추가](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오. |
+| 유형 | 사용자를 사이트로 인도한 방식을 지정합니다. 온라인 또는 오프라인을 선택할 수 있습니다. 검색 엔진 또는 이메일 캠페인을 통해 방문한 방문자에 대해 온라인 채널을 사용합니다. 오프라인 채널은 신문 쿠폰이나 잡지 광고를 보고 사이트를 방문한 방문자에게 적용됩니다. 오프라인 채널에는 일반적으로 보고 데이터 소스를 통해 가져온 데이터가 포함됩니다. [데이터 소스](https://docs.adobe.com/content/help/ko-KR/analytics/import/data-sources/datasrc-home.html)를 참조하십시오. [오프라인 데이터 추가](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오. |
 | 색상 | Reports &amp; Analytics만 해당: 이 마케팅 채널과 연관된 색상입니다. 이 색상은 마케팅 채널 보고서의 채널을 나타냅니다. |
 
 ### 무시 권장 사항
