@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 48%
+ht-degree: 71%
 
 ---
 
@@ -32,10 +32,10 @@ AppMeasurement는 HTML 페이지 내에 이미지 개체를 만들며, 그렇게
 
 ## Analytics 구현을 무효화하거나 제거하려면 어떻게 합니까?
 
-조직이 계약 만료 또는 서버 호출 수를 줄이기 위해 구현을 제거하려는 경우가 있습니다.
+조직이 계약 만료 때문에 또는 서버 호출 수를 줄이기 위해 구현을 제거하려는 경우가 있습니다.
 
-* **Launch를 사용한 구현**:확장 탭에서 Adobe Analytics 확장 기능을 [!UICONTROL 비활성화하거나 제거한] 다음 게시합니다.
-* **기존 AppMeasurement 구현**:파일의 전체 내용을 다음 코드 줄로 `s_code.js` 바꿉니다.
+* **Launch를 사용한 구현**: [!UICONTROL 확장] 탭에서 Adobe Analytics 확장 기능을 비활성화하거나 제거한 다음 게시합니다.
+* **이전 AppMeasurement 구현**: `s_code.js` 파일의 전체 컨텐츠를 다음 코드 줄로 바꿉니다.
 
 ```js
 var s = new Object();
@@ -43,11 +43,11 @@ var s = new Object();
 
 >[!WARNING]
 >
->다음을 하지 마십시오.
+>금지 사항:
 >
->* Adobe 서버에서 불필요한 로드를 생성하므로 보고서 세트를 잘못된 값으로 변경합니다.
->* 각 페이지에서 파일에 대한 모든 참조를 제거하지 않는 한 파일을 모두 `s_code.js` 제거합니다.
->* 변수를 Adobe에서 멀리 가리키도록 `trackingServer` 변경합니다. AppMeasurement는 여전히 404 오류를 반환하는 이미지 요청을 전송합니다.
+>* Adobe 서버에서 불필요한 로드를 생성하므로 보고서 세트를 잘못된 값으로 변경하지 마십시오.
+>* 각 페이지에서 `s_code.js` 파일에 대한 모든 참조를 제거하지 않는 한 이 파일을 모두 제거하지 마십시오.
+>* `trackingServer` 변수를 Adobe에서 멀리 가리키도록 변경하지 마십시오. AppMeasurement가 여전히 404 오류를 반환하는 이미지 요청을 전송합니다.
 
 
 ## 코드 분석기를 통해 AppMeasurement를 실행했으며, 코드 분석기의 사용을 잠재적 보안 위험 `Math.random()` 으로 간주했습니다. 민감한 데이터에 `Math.random()` 사용됩니까?
