@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 85%
       + [전환](ga-to-aa/reports/conversions-reports.md)
    + [FAQ](ga-to-aa/faq.md)
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
-   + [데이터를 타사 제품과 비교](ga-to-aa/compare-data.md)
+   + [데이터와 타사 제품 비교](ga-to-aa/compare-data.md)
 + 이벤트의 영향을 받는 데이터 분석 {#event}
    + [이벤트 개요의 영향을 받는 데이터 분석](event/overview.md)
-   + [데이터의 스파이크/드롭 문제 해결](event/spikes-drops.md)
+   + [데이터 증가/감소 문제 해결](event/spikes-drops.md)
    + [분석에서 특정 날짜 제외](event/segments.md)
    + [날짜를 이전 범위와 비교](event/compare-dates.md)
    + [이벤트의 영향을 받는 데이터 가져오기](event/calcmetrics.md)
