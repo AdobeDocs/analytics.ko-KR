@@ -21,7 +21,7 @@ Dynamic Tag Management를 사용하여 Adobe Analytics를 배포할 때의 변�
 
 ## 전역 변수 - 필드 설명 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;전역 변수&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;전역 변수&#x200B;]**
 
 | 요소 | 설명 |
 |--- |--- |
