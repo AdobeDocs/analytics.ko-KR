@@ -6,16 +6,16 @@ translation-type: tm+mt
 source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
 
 # [!UICONTROL 열 설정]
 
-[!UICONTROL 열 설정을] 사용하면 열 서식을 구성할 수 있으며, 일부 열은 조건부 서식으로 사용할 수 있습니다.
+[!UICONTROL 열 설정]을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 
-## 열 [!UICONTROL 설정 편집] {#edit-column-settings}
+## [!UICONTROL 열 설정] 편집 {#edit-column-settings}
 
 [!UICONTROL 열 설정]에 액세스하려면 자유 형식 테이블을 프로젝트로 드래그한 다음 열 제목에서 톱니바퀴 아이콘을 클릭합니다.
 
