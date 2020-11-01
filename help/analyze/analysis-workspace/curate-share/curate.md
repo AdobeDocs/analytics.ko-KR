@@ -5,8 +5,8 @@ title: 프로젝트 조정
 translation-type: tm+mt
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
