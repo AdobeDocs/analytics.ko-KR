@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 | 날짜 | 설명 |
 |---|---|
-| 2020년 7월 21일 | 크로스 디바이스 [분석의 주요 업데이트 및 개정판](/help/components/cda/overview.md). 필드 [기반 스티칭이 추가되었습니다](/help/components/cda/field-based-stitching.md). |
+| 2020년 7월 21일 | [교차 장치 분석](/help/components/cda/overview.md)의 주요 업데이트 및 개정 버전. [필드 기반 결합](/help/components/cda/field-based-stitching.md)을 추가했습니다. |
 | 2020년 4월 28일 | [컨텐트 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
 | 2020년 3월 12일 | [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)에 대한 업데이트를 추가했습니다. |
 | 2020년 3월 12일 | CDA 결합 지연에 대한 업데이트. |
