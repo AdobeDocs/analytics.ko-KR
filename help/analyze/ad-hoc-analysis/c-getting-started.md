@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '1306'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->2018년 7월 현재 Ad Hoc Analysis은 Java 8 이상만 지원합니다. Adobe은 Java 7 이하에서 Ad Hoc Analysis 실행을 지원하지 않습니다.
+>Ad Hoc Analysis는 2018년 7월부터 Java 8 이상만 지원합니다. Adobe에서는 Java 7 이하에서의 Ad Hoc Analysis 실행을 지원하지 않습니다.
 
 * OpenGL 2.0을 지원하는 비디오 카드
 * 쿠키: 필수
@@ -81,19 +81,19 @@ c_sys_reqs.xml
 * JavaScript: 활성화
 * Java 버전: Java 1.7 이상 (위 참고 참조)
 
-   올바른 Java 버전이 설치되지 않은 경우 자동으로 설치됩니다. 호환되지 않는 버전의 Java가 설치되어 있는 경우 Ad Hoc Analysis은 업데이트를 다운로드하고 설치 여부를 묻습니다.
+   올바른 Java 버전이 설치되지 않은 경우 자동으로 설치됩니다. 호환되지 않는 Java 버전이 설치된 경우 Ad Hoc Analysis는 업데이트를 다운로드하고 설치 여부를 묻습니다.
 
 ## Java 업그레이드 지침 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Adobe .jar 파일은 1.7.0_76 미만의 Java 버전에서 지원되지 않는 안전한 256비트 암호화를 사용하여 서명됩니다. 이 256비트 인증서를 사용하면 향상된 보안을 활용할 수 있습니다.
+Adobe의 .jar 파일은 1.7.0_76 이하의 Java 버전에서 지원되지 않는 보안 256비트 암호화로 서명됩니다. 이 256비트 인증서를 사용하면 향상된 보안을 활용할 수 있습니다.
 
 아직 Java 7가 설치되어 있다면, 2018년 7월 유지관리 버전이 릴리스되기 전에 업그레이드해야 합니다. 방법은 다음과 같습니다.
 
 * 컴퓨터에 프로그램 설치가 허용되는 경우
 
    1. https://www.java.com 으로 이동합니다.
-   1. Click **[!UICONTROL Java Download]**.
-   1. Click **[!UICONTROL Agree and Start Download]**.
+   1. **[!UICONTROL Java 다운로드]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL 동의하고 다운로드 시작]**&#x200B;을 클릭합니다.
    1. 사용 중인 운영 체제용의 최신 Java 버전을 설치합니다.
 
 * 컴퓨터에 프로그램 설치가 허용되지 **않는** 경우
