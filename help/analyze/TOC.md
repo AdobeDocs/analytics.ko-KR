@@ -23,7 +23,7 @@ ht-degree: 97%
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Workspace의 여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [Analysis Workspace의 여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 열 및 행 설정 {#column-row-settings}
          + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
