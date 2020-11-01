@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.c
 | [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
 | [요약 번호](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 합계와 요약을 표시합니다. |
 | [요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 선택한 셀에 따라 이 시각화는 셀을 서로 비교합니다. |
-| [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Workspace에 추가할 수 있게 합니다. |
+| [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. |
 | [트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md) | 계층형(트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) | 최대 3개의 세그먼트(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다. |
 
