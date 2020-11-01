@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: f3b227e7d2f239076f7c38abd42af6e1a86b0069
 workflow-type: tm+mt
 source-wordcount: '3403'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 79%
 | `geo_region` | IP를 기반으로 한, 히트가 발생한 시/도 또는 지역의 이름입니다. Used in the [Regions](/help/components/dimensions/regions.md) dimension. | char(32) |
 | `geo_zip` | IP를 기반으로 하며 히트가 발생한 지역의 우편 번호입니다. Zip 코드 [차원을 채우는 데](/help/components/dimensions/zip-code.md) 도움이 됩니다. See also `zip`. | varchar(16) |
 | `hier1 - hier5` | 계층 변수에서 사용됩니다. 구분된 값 목록을 포함합니다. 구분 기호는 보고서 세트 설정에서 선택합니다. | varchar(255) |
-| `hit_source` | 히트가 발생한 소스를 나타냅니다. 히트 소스 1, 2 및 6이 청구됩니다. <br>1:타임스탬프가 없는 표준 이미지 요청 <br>2:타임스탬프가 <br>3인 표준 이미지 요청:타임스탬프 <br>4를 사용한 라이브 데이터 소스 업로드:사용되지 않음 <br>5:범용 데이터 소스 업로드 <br>6:전체 처리 데이터 소스 업로드 <br>7:TransactionID 데이터 소스 업로드 <br>8:더 이상 사용되지 않음;Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9:더 이상 사용되지 않음;Adobe Social 요약 지표 <br>10:Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
+| `hit_source` | 히트가 발생한 소스를 나타냅니다. 히트 소스 1, 2 및 6이 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 있는 표준 이미지 요청 <br>3: 타임스탬프가 있는 라이브 데이터 소스 업로드 <br>4: 사용되지 않음 <br>5: 일반 데이터 소스 업로드 <br>6: 데이터 소스 업로드 전체 처리 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음, Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음, Adobe Social 요약 지표 <br>10: Audience Manager 서버 측 전달이 사용됨 | tinyint 부호 없음 |
 | `hit_time_gmt` | 히트 Adobe 데이터 수집 서버의 타임스탬프가 Unix 시간을 기준으로 히트를 받았습니다. | int |
 | `hitid_high` | Used in combination with `hitid_low` to uniquely identify a hit. | bigint 부호 없음 |
 | `hitid_low` | Used in combination with `hitid_high` to uniquely identify a hit. | bigint 부호 없음 |
@@ -114,11 +114,11 @@ ht-degree: 79%
 | `mobilebeaconminor` | Mobile Services 비콘 Minor | varchar(100) |
 | `mobilebeaconproximity` | Mobile Services 비콘 Proximity | varchar(255) |
 | `mobilebeaconuuid` | Mobile Services 비콘 UUID | varchar(100) |
-| `mobilecampaigncontent` | 링크를 표시한 콘텐츠의 이름 또는 ID입니다. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
-| `mobilecampaignmedium` | 배너 또는 이메일과 같은 마케팅 매체입니다. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
+| `mobilecampaigncontent` | 링크를 표시한 컨텐츠의 이름 또는 ID. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
+| `mobilecampaignmedium` | 배너 또는 이메일과 같은 마케팅 매체. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
 | `mobilecampaignname` | 캠페인의 이름으로, 캠페인 변수에도 저장됩니다. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
-| `mobilecampaignsource` | 뉴스레터 또는 소셜 미디어 네트워크와 같은 원본 레퍼러입니다. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
-| `mobilecampaignterm` | 이 획득을 사용하여 추적하려는 유료 키워드 또는 기타 용어입니다. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
+| `mobilecampaignsource` | 뉴스레터 또는 소셜 미디어 네트워크와 같은 원본 레퍼러. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
+| `mobilecampaignterm` | 이 획득으로 추적할 유료 키워드 또는 기타 조건입니다. 모바일 앱 획득을 통해 채워집니다. | varchar(255) |
 | `mobiledayofweek` | 앱을 시작한 요일의 수입니다. | varchar(255) |
 | `mobiledayssincefirstuse` | 앱을 처음 실행한 이후 경과일 수입니다. | varchar(255) |
 | `mobiledayssincelastupgrade` | 컨텍스트 데이터 변수 a.DaysSinceLastUpgrade에서 수집됩니다. 이전 세션 이후 경과된 일 수입니다. | varchar(255) |
