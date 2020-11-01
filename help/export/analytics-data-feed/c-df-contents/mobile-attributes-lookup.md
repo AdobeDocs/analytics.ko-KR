@@ -1,18 +1,18 @@
 ---
-title: 모바일 속성 조회
-description: 모바일 속성에 대한 조회 파일입니다.
+title: 모바일 특성 조회
+description: 모바일 특성에 대한 조회 파일입니다.
 translation-type: tm+mt
 source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# 모바일 속성 조회
+# 모바일 특성 조회
 
-모바일 속성은 히트에서 모바일 장치의 속성을 보여줍니다. 이 파일은 다음 경우에 나타납니다.
+모바일 특성은 히트에서 모바일 장치의 속성을 보여줍니다. 이 파일은 다음 경우에 나타납니다.
 
 * 동적 조회가 가능합니다. 조직의 지원 대표는 원하는 피드 ID를 사용하여 고객 지원 팀에 연락하여 동적 조회를 가능하게 할 수 있습니다.
 * `mobile_id` 열이 포함되어 있습니다.
