@@ -1,22 +1,22 @@
 ---
-title: 장치 간 분석 설정
+title: 교차 장치 분석 설정
 description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 translation-type: tm+mt
 source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
 
-# 장치 간 분석 설정
+# 교차 장치 분석 설정
 
 모든 전제 조건이 충족되면 다음 절차에 따라 교차 디바이스 분석을 활성화하십시오. 이 절차를 수행하려면 제품 프로필 관리 그룹에 속해 있거나 Adobe Analytics에서 관리자 권한이 있어야 합니다.
 
 >[!IMPORTANT]
 >
->이 절차를 수행하기 전에 모든 전제 조건을 충족해야 합니다. 모든 전제 조건을 충족하지 않으면 기능을 사용할 수 없거나 기능이 작동하지 않습니다. 사전 요구 사항 및 제한 사항에 대해서는 [개요 페이지](overview.md) 및 원하는 연결 방법([필드 기반 스티칭](field-based-stitching.md) 또는 [장치 그래프](device-graph.md))을참조하십시오.
+>이 절차를 수행하기 전에 모든 전제 조건을 충족해야 합니다. 모든 전제 조건을 충족하지 않으면 기능을 사용할 수 없거나 기능이 작동하지 않습니다. 사전 요구 사항 및 제한 사항에 대해서는 [개요 페이지](overview.md)와 원하는 연결 방법([필드 기반 결합](field-based-stitching.md) 또는 [Device Graph](device-graph.md))을 참조하십시오.
 
 ## CDA에 사용할 수 있게 할 장치 간 보고서 세트 선택
 
