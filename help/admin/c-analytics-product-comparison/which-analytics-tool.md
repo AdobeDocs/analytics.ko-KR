@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * UI보다 세부적인 데이터에 액세스(비정규화된 표보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터 다운로드
 * 클라이언트에서 Adobe 데이터를 타사 데이터 시각화 도구에 입력하려는 경우(히트 수준은 아니며 약간 요약됨)
-* Adobe Analytics의 &quot;낮은 트래픽&quot;으로 실행 중인 경우 모든 고유한 차원 항목에 액세스하려면
+* Adobe Analytics에서 &quot;낮은 트래픽&quot;으로 실행 중인 경우 모든 고유 차원 항목에 액세스
 
 **[Analytics 데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;는 다음 경우에 사용해야 합니다.
 
