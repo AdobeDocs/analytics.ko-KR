@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 71%
 >
 >이 차원을 채우는 방법을 완전히 제어하려는 경우 보고서 세트 설정이 필수적입니다.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 방문자의 우편 번호가 포함됩니다.
+차원 항목에는 방문자의 우편 번호가 포함됩니다.
 
 ## Adobe Analytics에서 어떤 국가의 우편번호를 신고할 수 있습니까?
 
@@ -64,7 +64,7 @@ Dimension 항목에는 방문자의 우편 번호가 포함됩니다.
 * 그리스
 * 그레나다
 * 과테말라
-* 중국 홍콩 특별 행정구
+* 중화인민공화국 홍콩특별행정구
 * 헝가리
 * 인도
 * 인도네시아
