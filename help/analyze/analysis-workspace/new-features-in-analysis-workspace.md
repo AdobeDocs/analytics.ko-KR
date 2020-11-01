@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 
 | 기능 | 설명 |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다.]** 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) | ****&#x200B;이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
 | [성능 도움말 페이지](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
 
 ## 2020년 9월
@@ -40,11 +40,11 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 
 ## 7월 2020일
 
-2020년 7월 16일 새로운 기능이 출시되었습니다.
+2020년 7월 16일에 릴리스된 새로운 기능.
 
 | 기능 | 설명 |
 | --- | --- |
-| 새로운 날짜 범위 사전 설정 | 4개의 새 날짜 범위를 추가했습니다.([!UICONTROL 이번 주/월/분기/연도(오늘 제외)]). 이렇게 하면 오늘부터 하루 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
+| 새 날짜 범위 사전 설정 | 4개의 새 날짜 범위를 추가함: ([!UICONTROL 이번 주/월/분기/연도(오늘 제외)]). 오늘부터 하루의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 
 ## 2020년 6월
 
@@ -53,18 +53,18 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 | 기능 | 설명 |
 |--- |--- |
 | 속성 IQ: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 속성 IQ: 사용자 지정 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 속성 IQ: 사용자 지정 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 이제 작업 공간 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 보기 전용 작업 공간 프로젝트 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 작업 공간 프로젝트 공동 편집 기능 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로우를 선택하는 보다 매끄러운 방법을 제공합니다. |
+| 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로우를 선택하는 더 원활한 방법을 제공합니다. |
 | 빠른 인사이트 패널(2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | 작업 공간의 Analytics for Target 패널 (2020년 6월 25일) | Analytics for Target(A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
-| Workspace 정보 페이지 | Workaspace 정보 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. Workspace > 도움말 > Workspace 정보에서 찾아볼 수 있습니다. |
+| Analysis Workspace 정보 페이지 | Workaspace 정보 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보(지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. Workspace > 도움말 > Workspace 정보에서 찾아볼 수 있습니다. |
 
-## 2020년 6월
+## 2020년 5월
 
-2020년 5월 21일 릴리스된 새로운 기능
+2020년 5월 21일 릴리스된 새로운 기능.
 
 | 기능 | 설명 |
 |--- |--- |
@@ -95,7 +95,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 | 기능 | 설명 |
 |--- |--- |
 | 장치 간 분석을 사용하는 조직을 위한 새로운 작업 공간 템플릿 | 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여주며 CDA 독점 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 장치 Analytics 설정](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-setup.html)을 참조하십시오. |
-| Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Analysis Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 작업 공간의 기타 향상된 기능 | <ul><li>패널이나 시각화가 작업 공간으로 드롭되면 왼쪽 레일이 이제 구성 요소로 자동 전환되므로 더 원활한 워크플로우가 가능합니다.</li><li>이제 템플릿 구성 요소를 활성화할 수 있습니다(예: 태그됨, 즐겨찾기됨, 승인됨).</li><li>필터링된 지표 및 세그먼트 목록은 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가하기 위한 버튼을 제공합니다.</li></ul> |
 | 작업 공간 디버거 | 작업 공간 디버거가 도움말 메뉴에 추가되어 작업 공간 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -371,7 +371,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 새 행 설정 </a> </p> </td> 
-   <td colname="col2"> <p>새로운 <span class="uicontrol">행별 백분율 계산</span> 설정을 사용하면 자유 형식 테이블이 열 방향이 아니라 행 방향으로 셀 백분율을 계산합니다. 이는 특정 차원 항목이 시간 경과에 따라 어떻게 나타나는지 트렌드 분석과 같이, 트렌드 비율에 특히 유용합니다. 이 설정은 <span class="uicontrol">시각화</span> 아이콘을 클릭할 때 기본적으로 설정됩니다. </p> </td> 
+   <td colname="col2"> <p>새로운 <span class="uicontrol">행별 백분율 계산</span> 설정을 사용하면 자유 형식 테이블이 열 방향이 아니라 행 방향으로 셀 백분율을 계산합니다. 이 설정은 한 차원 항목이 나머지 경과 시간을 나타내는 방법 트렌드처럼 트렌드 백분율에 특히 유용합니다. 이 설정은 <span class="uicontrol">시각화</span> 아이콘을 클릭할 때 기본적으로 설정됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > "100% 스택" 시각화 설정 </a> </p> </td> 
@@ -540,7 +540,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
   </tr> 
   <tr> 
    <td colname="col1"> <p>없음/지정되지 않음 변경 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace의 보고 및 분석, 세그먼트 빌더 및 차원 항목 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식을 변경했습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의  Reports &amp; Analytics, 세그먼트 빌더 및 차원 항목 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식이 변경되었습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
