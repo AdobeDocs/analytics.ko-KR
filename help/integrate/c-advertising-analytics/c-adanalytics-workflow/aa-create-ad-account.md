@@ -49,7 +49,7 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
       <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: Google 계정 ID를 제공합니다. </li> 
        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Bing 계정 ID 및 Bing 고객 ID를 제공합니다. </li> 
-       </ul> <p>이러한 ID에 대한 자세한 내용은 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > 계정 ID 찾기</a>를 참조하십시오. </p> <p>성공적으로 로그인되면 OAuth 토큰 필드에 다음이 표시됩니다. <code>Retrieved</code>)로 식별됩니다. </p> </td> 
+       </ul> <p>이러한 ID에 대한 자세한 내용은 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > 계정 ID 찾기</a>를 참조하십시오. </p> <p>성공적으로 로그인되면 OAuth 토큰 필드에 다음이 표시됩니다. <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
