@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 양력 모델이 아닌 달력 옵션입니다. 해당 옵션에는 4-4-5, 4-5-4 및 5-4-4 달력 모델이 있으며 모든 모델이 소매 산업의 표준으로 사용됩니다. 또한 보고 기능은 사용자가 모든 항목을 직접 설정할 수 있는 사용자 지정 가능 달력 옵션을 제공합니다.
 
-**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > 보고서 **[!UICONTROL 세트 선택]** > 설정 **[!UICONTROL 편집]** > 일반 **[!UICONTROL > 사용자 지정 달력]**
+**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > 보고서 세트 선택 > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 사용자 지정 달력]**
 
 >[!CAUTION]
 >
