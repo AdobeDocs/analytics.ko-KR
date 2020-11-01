@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe는 디지털 전략 및 마케팅 이니셔티브에 대하여 실용적�
 
 >[!IMPORTANT]
 >
->우리는 2021년 중반에 Adobe 데이터 커넥터 기술을 무용지물로 만들 것입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe에서는 2021년 중반부터 Adobe Data Connector 기술을 사용하지 않을 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 **시스템 요구 사항**
 
