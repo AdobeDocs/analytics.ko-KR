@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
 스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌드에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
+새 구성 요소를 추가하여 스코어카드를 업데이트하는 경우 경영진 사용자가 이러한 변경 사항에 액세스할 수 있도록 스코어카드를 다시 공유(그리고 **포함된 구성 요소 공유** 옵션 선택)할 수 있습니다.
 
 ## 앱을 사용하여 경영진 설정
 
@@ -159,7 +159,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 * 경영진 사용자에게 Adobe Analytics에 대한 유효한 로그인 권한이 있습니다.
 * 경영진 사용자에 대한 모바일 스코어카드를 올바르게 생성하고 이러한 스코어카드를 해당 사용자와 공유합니다
 * Analysis Workspace 및 스코어카드가 기반으로 하는 보고서 세트에 액세스할 수 있습니다.
-* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
+* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **포함된 구성 요소 공유** 옵션을 선택할 수 있습니다.
 
 ### 앱을 사용하여 경영진 사용자 지원
 
