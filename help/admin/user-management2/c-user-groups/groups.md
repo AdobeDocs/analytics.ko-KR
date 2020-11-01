@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 98%
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager(모든 액세스 권한, 사용자 지정, 액세스 권한 없음) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
+   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>사용자 로그인 지정</b> </td> 
