@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
-1. **[!UICONTROL Analytics > 작업 공간 > 구성 요소 > 세그먼트]> +**&#x200B;로 이동합니다.
+1. **[!UICONTROL Analytics > 작업 공간 > 구성 요소 > 세그먼트] > +**&#x200B;로 이동합니다.
 1. [!UICONTROL 세그먼트 빌더]에서 세그먼트를 만듭니다.
 1. 세그먼트용 제목과 설명을 입력합니다. 이렇게 하지 않으면 저장할 수 없습니다.
 1. **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시(*보고서 세트*용)]**&#x200B;을 선택합니다.
@@ -133,5 +133,5 @@ AAM에서, Analytics가 Experience Cloud와 세그먼트를 공유할 때 주어
 
 Adobe Analytics의 세그먼트 작성 프로세스 동안 [!UICONTROL 이 세그먼트를 Experience Cloud에 게시] 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target의 활동에 사용할 수 있습니다. 예를 들어 Analytics에서 만들어진 대상 세그먼트 및 Analytics 전환 지표에 따라 캠페인 활동을 만들 수 있습니다.
 
-1. Click [!UICONTROL Audiences].
+1. [!UICONTROL 대상]을 클릭합니다.
 1. [!UICONTROL 대상] 페이지에서 [!DNL Experience Cloud]에서 가져온 대상을 찾습니다. 이러한 대상은 [!DNL Target] 활동에서 사용할 수 있습니다.
