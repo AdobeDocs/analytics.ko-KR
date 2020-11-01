@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 76%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 
    ![단계 결과](assets/fa_data_table_actions.png)
 
-   선택한 기간에 대해 차원 항목이나 대상 세그먼트별로 지표를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
+   선택한 기간에 대해 차원 항목이나 대상 세그먼트를 분류할 수 있습니다. 더 세부적인 수준으로 드릴다운할 수도 있습니다.
 
    >[!NOTE]
    >
