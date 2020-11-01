@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 + [데이터 삽입 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Analytics Data Connectors 시작](data-connectors/getting-started-data-connectors.md)
-   + [Analytics 데이터 커넥터를 위한 수명 종료](data-connectors/data-connectors-eol.md)
+   + [Analytics Data Connectors 수명 종료](data-connectors/data-connectors-eol.md)
    + Adobe Analytics용 appFigures Data Connector {#appfigures}
       + [appFigures 개요](data-connectors/appfigures-overview/appfigures-overview.md)
       + [이 통합을 활성화하기 전에](data-connectors/appfigures-overview/appfigures-before-activation.md)
