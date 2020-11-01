@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Dynamic Tag Management의 라이브러리 관리 설정에 있는 필드 및 옵션에 대한 설명입니다.
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;라이브러리 관리&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;라이브러리 관리&#x200B;]**
 
 >[!NOTE]
 >
