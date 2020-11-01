@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 71%
+ht-degree: 82%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 71%
 
 AppMeasurement는 [`pageName`](/help/implement/vars/page-vars/pagename.md) 변수를 사용하여 이 데이터를 수집합니다. If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
-## Dimension 항목
+## 차원 항목
 
-Dimension 항목에는 사이트의 페이지 이름이 포함됩니다. 조직에서 사용할 특정 차원 항목을 결정합니다. 일부 조직에서는 `document.title`을 바로 사용하는 반면, 다른 조직에서는 사용자 지정 탐색 표시를 만듭니다. 어떤 방법을 사용하든 일관된 방법을 사용하고 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 기록하도록 하십시오.
+차원 항목에는 사이트의 페이지 이름이 포함됩니다. 조직은 사용자가 사용하려는 특정 차원 항목을 파악합니다. 일부 조직에서는 `document.title`을 바로 사용하는 반면, 다른 조직에서는 사용자 지정 탐색 표시를 만듭니다. 어떤 방법을 사용하든 일관된 방법을 사용하고 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 기록하도록 하십시오.
 
 >[!NOTE]
 >
