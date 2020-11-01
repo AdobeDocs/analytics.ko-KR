@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Adobe [!DNL Analytics]에서 [!UICONTROL Dynamic Tag Management]를 배포할 때 레퍼러 및 캠페인 옵션에 대한 [!UICONTROL Dynamic Tag Management]의 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]**>![톱니바퀴 아이콘](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;레퍼러 및 캠페인&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![톱니바퀴 아이콘](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;레퍼러 및 캠페인&#x200B;]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
