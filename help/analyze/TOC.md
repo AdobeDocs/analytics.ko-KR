@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Report Builder 및 Activity Map과 같은 도구를 제공합니다.
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1114'
 ht-degree: 97%
 
 ---
@@ -123,6 +123,7 @@ ht-degree: 97%
    + 작업 영역 FAQ {#workspace-faq}
       + [FAQ](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)
       + [Ad Hoc Analysis와 비교한 Analysis Workspace](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)
       + [관리 요구 사항](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
