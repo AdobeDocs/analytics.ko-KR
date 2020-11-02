@@ -47,6 +47,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 | 트레이트 및 멤버십 인구 | 24-48시간 이내 | [!DNL Audience Manager] |
 
 >[!NOTE]
+>
 >일주일에 한 번, 모든 데이터는 이전 주에 캡처되지 않은 모든 델타 또는 불일치를 고려하여 완전히 동기화됩니다.
 
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
@@ -59,6 +60,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
+>
 >Adobe Analytics 숫자를 Audience Manager 숫자와 비교할 때 총 &quot;고유 방문자 수&quot; 세그먼트 미리 보기 대신 Analytics의 세그먼트 미리 보기를 볼 경우 &quot;Experience Cloud ID를 가진 방문자&quot;를 사용하도록 하십시오.
 >
 >![](assets/seg-vis-ecid.png)
