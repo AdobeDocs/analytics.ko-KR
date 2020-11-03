@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Report Builder 및 Activity Map과 같은 도구를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1107'
 ht-degree: 97%
 
 ---
@@ -23,17 +23,10 @@ ht-degree: 97%
       + [프로젝트 만들기 - 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Analysis Workspace의 여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + 열 및 행 설정 {#column-row-settings}
-         + [열 설정](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [행 설정](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [동적 및 정적 항목](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [실행 취소 및 다시 실행 설정](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Analysis Workspace에서 사용할 수 있는 핫키](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
-      + [작업 공간 합계](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 구성 요소 {#components}
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
       + 차원 {#dimensions}
@@ -49,7 +42,14 @@ ht-degree: 97%
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table.md)
+      + 자유 형식 테이블 {#freeform-table}
+         + [자유 형식 테이블](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + 열 및 행 설정 {#column-row-settings}
+            + [열 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [작업 공간 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
