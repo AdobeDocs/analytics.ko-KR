@@ -1,21 +1,19 @@
 ---
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
 keywords: Analysis Workspace
-title: Analysis Workspace에서 사용할 수 있는 핫키(단축키)
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: 핫키(단축키)
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 82%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# Analysis Workspace에서 사용할 수 있는 핫키(단축키)
+# 핫키(단축키)
 
-Analysis Workspace에서 핫키(키보드 단축키)를 사용하여 원활한 탐색, 분석 및 민주화를 수행할 수 있습니다.
+Analysis Workspace에서 바로 가기 키(키보드 단축키)를 사용하여 원활한 탐색, 분석, 패널 및 시각화 추가, 민주화(공유)를 수행할 수 있습니다.
 
 참고:
 * `Ctrl` = Windows 및 `Command` = Mac
