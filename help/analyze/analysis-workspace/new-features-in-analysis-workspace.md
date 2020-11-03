@@ -3,9 +3,9 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '8103'
+source-wordcount: '8106'
 ht-degree: 98%
 
 ---
@@ -105,7 +105,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 
 | 기능 | 설명 |
 |--- |--- |
-| [자유 형식 테이블 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_(기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
+| [자유 형식 테이블 빌더](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_(기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 
 ## 2019년 10월
 
@@ -113,7 +113,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
+| 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
 | 지정되지 않음/없음 제거 옵션 | 다음 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
 | 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 
@@ -366,11 +366,11 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 머리글 텍스트 줄바꿈을 기본적으로 사용할 수 있음 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 머리글 텍스트 줄바꿈을 기본적으로 사용할 수 있음 </a> </p> </td> 
    <td colname="col2"> <p>이제 자유 형식 테이블에 대해 <span class="uicontrol">머리글 텍스트 줄바꿈</span> 열 설정을 기본적으로 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 새 행 설정 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 새 행 설정 </a> </p> </td> 
    <td colname="col2"> <p>새로운 <span class="uicontrol">행별 백분율 계산</span> 설정을 사용하면 자유 형식 테이블이 열 방향이 아니라 행 방향으로 셀 백분율을 계산합니다. 이 설정은 한 차원 항목이 나머지 경과 시간을 나타내는 방법 트렌드처럼 트렌드 백분율에 특히 유용합니다. 이 설정은 <span class="uicontrol">시각화</span> 아이콘을 클릭할 때 기본적으로 설정됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 머리글 텍스트 줄바꿈 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 머리글 텍스트 줄바꿈 </a> </p> </td> 
    <td colname="col2"> <p>이제 자유 형식 테이블의 머리글 텍스트를 줄바꿈하여 머리글을 더 읽기 쉽게 하고 테이블을 더 공유하기 쉽게 할 수 있습니다. 열 설정에서 "머리글 텍스트 줄바꿈"이라는 선택 사항을 추가했습니다. 이 기능은 특히 .pdf 렌더링 및 긴 이름을 사용하는 지표에 유용합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
    <td colname="col2"> <p>셀/표를 일관되게 복사할 수 있도록 마우스 오른쪽 단추 클릭에 "클립보드에 복사" 옵션을 추가했습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >열 비율 개선</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >열 비율 개선</a> </p> </td> 
    <td colname="col2"> <p>열에 표시된 "합계의 백분율"은 특정 시나리오가 (평균과 마찬가지로) 합계의 100%를 초과하는 행으로 연결되더라도 100%로 제한되었습니다. </p> <p>정확하게 말하자면 이제 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열 너비가 아주 크게 늘어날 수 있도록 상한을 1,000%로 이동하려고 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 분류에 조건부 서식 지정 사용 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 분류에 조건부 서식 지정 사용 </a> </p> </td> 
    <td colname="col2"> <p>자유 형식 테이블 내 조건부 서식(예: 색상)은 이제 "사용자 지정" 제한을 선택하지 않은 경우 분류에서 자동으로 적용할 수 있게 됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>자유 형식 테이블에서 추가 차원 항목 <a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >필터링 선택 사항</a> </p> </td> 
+   <td colname="col1"> <p>자유 형식 테이블에서 추가 차원 항목 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  >필터링 선택 사항</a> </p> </td> 
    <td colname="col2"> <p>차원 항목에 대한 다음과 같은(고급) 필터링 옵션이 추가됨(기존 "포함" 및 "포함하지 않음" 옵션 제외). </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">다음 검색어 포함 </li> 
@@ -515,7 +515,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
    <td colname="col2"> <p>맨 왼쪽 열의 크기를 조정할 때 이제 오른쪽에 있는 다음 열 너비만 조정하는 것이 아니라 작업 공간이 나머지 열의 너비 백분율을 유지 관리합니다. 이러한 변경은 분석과 공유 모두에서 표 작성 속도를 높여 줍니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>표에 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400개 행</a> 표시 </p> </td> 
+   <td colname="col1"> <p>표에 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  >400개 행</a> 표시 </p> </td> 
    <td colname="col2"> <p>이제 표에 365일 추세를 허용할 수 있도록 기존에 200개까지였던 행을 400개까지 표시할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 자유 형식 테이블에서 한 번에 여러 열 관리 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 자유 형식 테이블에서 한 번에 여러 열 관리 </a> </p> </td> 
    <td colname="col2"> <p>이제 한 번에 여러 열의 설정을 변경할 수 있습니다. 여러 열을 선택하고 그러한 열 중 하나의 설정 아이콘을 클릭하면 됩니다. 변경 사항은 셀이 선택된 모든 열에 적용됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 비율 제한 사용 확인란 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 비율 제한 사용 확인란 </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 특히 비율 기반 지표에 대해 비율 경계를 표시하는 확인란이 추가되었습니다(비율 이외 기반 지표에서도 작동). </li> 
@@ -866,7 +866,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
   </tr> 
   <tr> 
    <td colname="col1"> <p>실행 취소/다시 실행 옵션 개선 사항 </p> </td> 
-   <td colname="col2"> <p>이 목록에는 <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > Analysis Workspace에서 실행 취소/다시 실행</a>할 수 있는 작업과 할 수 없는 작업이 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>이 목록에는  Analysis Workspace에서 실행 취소/다시 실행</a>할 수 있는 작업과 할 수 없는 작업이 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 위치별 분류 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 위치별 분류 </a> </p> </td> 
    <td colname="col2"> <p>테이블 위치별로 분류할 수 있습니다. 예: "자유 형식 테이블의 상위 7개 행을 항상 분류하고 싶습니다." 이제 자유 형식 테이블을 만들 때 "위치별 분류"를 활성화할 수 있는 확인란이 있습니다. 이 설정은 기본적으로 비활성화되어 있습니다. </p> <p>이전에는 분류에 있는 값 목록이 "잠겨"있었습니다. 이에 따라 <span class="wintitle">페이지</span>로 <span class="wintitle">날짜</span> 분류 등을 수행한 경우 선택한 날짜 범위에 대해 상위 50페이지 목록이 표시되었습니다. </p> <p>해당 보기를 저장하고 한 달 후 실행한 경우, 상위 50페이지가 변경되었을 것입니다. 하지만 Analysis Workspace에서는 원래의 분류로 인한 결과를 "신뢰"하여 동일한 페이지를 반환하긴 했지만, 현재 달을 날짜 범위로 사용했습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형
 * 이제 등급 테이블의 [트렌드 선택](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)(선 차트)가 연결됩니다.
 * [&quot;시각화 만들기&quot; 아이콘](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 이 아이콘을 클릭하면 다음 작업 시 지능적인 추측이 제공됩니다(막대 차트, 벤...).
-* 확장된 [수동 행](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 기능
+* 확장된 [수동 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) 기능
 * [세그먼트 추가](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) 드롭 영역
 * 부분적인 업데이트:
 
