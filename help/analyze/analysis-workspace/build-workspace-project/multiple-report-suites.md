@@ -1,16 +1,16 @@
 ---
-title: Analysis Workspace의 여러 보고서 세트
+title: 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 공간에서 프로젝트를 만드는 방법 및 이유 알아보기
-translation-type: ht
-source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
-workflow-type: ht
-source-wordcount: '527'
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
 
 
-# Analysis Workspace의 여러 보고서 세트
+# 여러 보고서 세트
 
 이제 Analysis Workspace에서 두 개 이상의 보고서 세트의 데이터를 사용하여 프로젝트를 만들 수 있습니다. 보고서 세트는 이제 패널 수준에서 선택되므로 동일한 작업 공간 프로젝트 내에서 각 패널에 대해 다른 보고서 세트를 선택할 수 있습니다.
 
