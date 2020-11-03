@@ -5,7 +5,7 @@ title: 작업 공간 프로젝트 만들기
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 99%
@@ -73,7 +73,7 @@ ht-degree: 99%
    <td colname="col2"> <p>패널이나 인터페이스의 프로젝트 영역에 드래그할 수 있는 항목입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 자유 형식 패널 </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 자유 형식 패널 </a> </td> 
    <td colname="col2"> <p>Analysis Workspace에서 상호 작용하는 캔버스 또는 작업 공간입니다. </p> </td> 
   </tr> 
  </tbody> 
