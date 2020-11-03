@@ -2,7 +2,10 @@
 title: 계산된 지표 합계
 description: Analytics 도구에서 계산된 지표 합계가 어떻게 다른지 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 100%
 
 ---
 
@@ -35,5 +38,5 @@ Analysis Workspace에서 데이터를 볼 때 대부분의 경우 계산된 지�
 
 합계는 표시될 때 종종 서버 측에서 계산되는데, 이것은 합계가 방문 횟수나 방문자 수와 같은 지표에 대한 중복 제거를 수행함을 의미합니다. 특정 상황에서 계산된 지표는 테이블의 행들을 합하여 클라이언트 측에서 생성되는데, 이것은 이 합계가 방문 횟수 또는 방문자 수와 같은 지표에 대한 중복 제거를 수행하지 않음을 의미합니다.  이 문제는 다음 상황에서 발생합니다.
 
-* 자유 형식 테이블에 [정적 행](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)을 사용하고 **[!UICONTROL 현재 행의 합계로 표시]** 옵션(기본값)을 선택한 경우
+* 자유 형식 테이블에 [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 사용하고 **[!UICONTROL 현재 행의 합계로 표시]** 옵션(기본값)을 선택한 경우
 * [도넛 시각화](/help/analyze/analysis-workspace/visualizations/donut.md)에서 숫자가 최대 100%까지 추가되도록 하는 경우
