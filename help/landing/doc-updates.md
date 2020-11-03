@@ -3,7 +3,7 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
 | 2020년 2월 12일 | [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 설명서에 대한 업데이트 및 재구성. |
 | 2020년 2월 7일 | [교차 장치 분석 설정](/help/components/cda/setup.md) 및 [FAQ](/help/components/cda/faq.md)에 대한 업데이트 |
 | 2020년 2월 4일 | [구현 사용 안내서](/help/implement/home.md)의 전체적인 재작성. |
-| 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
+| 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies.md)를 추가했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
