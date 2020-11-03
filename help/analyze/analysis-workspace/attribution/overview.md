@@ -1,9 +1,9 @@
 ---
 title: 속성 개요
 description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 분석하는 개념입니다.
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -41,6 +41,6 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 속성 IQ는 다음 기능으로 구성됩니다.
 
 * [속성 패널](../c-panels/attribution.md): 모든 차원과 지표를 가져와 다양한 속성 모델과 신속하게 비교할 수 있습니다.
-* [지표에 속성 적용](../build-workspace-project/column-row-settings/column-settings.md): 프로젝트의 모든 지표에 대해 기본이 아닌 속성을 사용합니다.
+* [지표에 속성 적용](../visualizations/freeform-table/column-row-settings/column-settings.md): 프로젝트의 모든 지표에 대해 기본이 아닌 속성을 사용합니다.
 * [분류에 속성 적용](../components/dimensions/t-breakdown-fa.md): 분류에서 기본이 아닌 속성을 사용합니다.
 * [속성 모델 비교](../components/apply-create-metrics.md): 모든 지표에 대해 다양한 속성 모델을 비교하는 방법을 신속하게 확인할 수 있습니다.
