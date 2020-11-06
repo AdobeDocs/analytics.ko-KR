@@ -2,7 +2,7 @@
 title: Analytics에서 XDM 데이터 사용
 description: 'Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 개요 '
 translation-type: tm+mt
-source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 96%
@@ -21,11 +21,11 @@ Analytics는 다음 두 가지 메서드를 통해 XDM 데이터를 수집합니
 
 ## 자동 매핑
 
-[자동 매핑은](xdm-manual.md) 일반적인 Analytics 데이터 수집에 포함된 JSON 개체를 자동으로 채우는 XDM의 기본 [스키마](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html)를 사용합니다. XDM에서 구성된 보고서 세트에 자동으로 매핑된 Analytics 변수에서는 개발자 지원을 통합할 필요가 없습니다.
+자동 매핑은 일반적인 Analytics 데이터 수집에 포함된 JSON 개체를 자동으로 채우는 XDM의 기본 [스키마](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html)를 사용합니다. XDM에서 구성된 보고서 세트에 자동으로 매핑된 Analytics 변수에서는 개발자 지원을 통합할 필요가 없습니다.
 
 ## 수동 매핑
 
-Analytics에 대한 XDM 데이터의 수동 매핑은 [Analytics 컨텍스트 데이터](../vars/page-vars/contextdata.md) 변수를 사용합니다. 이러한 변수는 적용 가능한 스키마에 해당하는 JSON 개체에 배치됩니다. 일반적으로 개발 팀은 구현 시 컨텍스트 데이터를 추가한 다음 관리자가 [처리 규칙](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)을 설정하여 해당 데이터를 지정된 보고서 세트에 적용합니다.
+[](xdm-manual.md)Analytics에 대한 XDM 데이터의 수동 매핑은 [Analytics 컨텍스트 데이터](../vars/page-vars/contextdata.md) 변수를 사용합니다. 이러한 변수는 적용 가능한 스키마에 해당하는 JSON 개체에 배치됩니다. 일반적으로 개발 팀은 구현 시 컨텍스트 데이터를 추가한 다음 관리자가 [처리 규칙](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)을 설정하여 해당 데이터를 지정된 보고서 세트에 적용합니다.
 
 ## 설정
 
