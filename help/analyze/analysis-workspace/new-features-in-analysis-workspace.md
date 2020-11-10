@@ -2,39 +2,39 @@
 description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8106'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Analysis Workspace의 새로운 기능
 
-Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하십시오](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
+Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)로 이동하십시오.
 
-## 2020년 10월 일
+## 2020년 10월
 
-2020년 10월에 릴리스된 새로운 기능
+2020년 10월에 릴리스된 새로운 기능입니다.
 
 | 기능 | 설명 |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) | ****&#x200B;이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
+| 선 시각화: [평균 트렌드 라인 이동 옵션](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) | ****&#x200B;이동 평균이 선 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
 | [성능 도움말 페이지](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
 
 ## 2020년 9월
 
-2020년 9월에 출시된 새로운 기능
+2020년 9월에 릴리스된 새로운 기능입니다.
 
 | 기능 | 설명 |
 | --- | --- |
-| [단일 차원에 맞는 50K 항목 다운로드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
+| [단일 차원에 맞는 5만개의 항목 다운로드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
 | [선 시각화 개선 사항](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>모든 선 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 선 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다. </li></ul> |
-| 새 날짜 범위 | 5개의 새 날짜 범위를 추가했으므로 오늘부터 일부 날짜 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다.지난 7일 전체 일, 지난 14일 전체 일, 지난 30일, 지난 60일 전체 일, 지난 90일 |
+| 새 날짜 범위 | 5개의 새 날짜 범위를 추가했으므로 오늘의 일부 일 데이터를 포함하지 않는 다음 날짜 범위 중에서 선택할 수 있습니다. 지난 7일, 지난 14일, 지난 30일, 지난 60일, 지난 90일 |
 
-## 2020월 8일
+## 2020월 8월
 
 2020년 8월에 릴리스된 새로운 기능은 없습니다.
 
@@ -105,7 +105,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 
 | 기능 | 설명 |
 |--- |--- |
-| [자유 형식 테이블 빌더](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_(기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
+| [자유 형식 테이블 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_(기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 
 ## 2019년 10월
 
@@ -113,7 +113,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
+| 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트(예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
 | 지정되지 않음/없음 제거 옵션 | 다음 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
 | 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 
@@ -347,7 +347,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
    <td colname="col2"> <p>구성 요소를 새 위치로 드래그하는 동안 위아래로 스크롤할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>추가 정보: <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 예외 항목 </a></b>에 대한 추가 정보 </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 예외 항목</a></b>에 대한 추가 정보 </p> </td> 
    <td colname="col2"> <p>라인 차트에서 예외 항목에 커서를 가져가면 이제 정보에는 예외 항목의 날짜 및 원시 값이 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -540,7 +540,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
   </tr> 
   <tr> 
    <td colname="col1"> <p>없음/지정되지 않음 변경 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace의  Reports &amp; Analytics, 세그먼트 빌더 및 차원 항목 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식이 변경되었습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace의 Reports &amp; Analytics, 세그먼트 빌더 및 차원 항목 메뉴와 일치하도록 Analysis Workspace에서 없음/지정되지 않음이 작동하는 방식이 변경되었습니다. </p> <p>이는 값이 Analysis Workspace의 대부분의 프로젝트에서 "없음"이 아닌 "지정되지 않음"으로 표시됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -866,7 +866,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
   </tr> 
   <tr> 
    <td colname="col1"> <p>실행 취소/다시 실행 옵션 개선 사항 </p> </td> 
-   <td colname="col2"> <p>이 목록에는  Analysis Workspace에서 실행 취소/다시 실행</a>할 수 있는 작업과 할 수 없는 작업이 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>이 목록에는 Analysis Workspace에서 실행 취소/다시 실행</a>할 수 있는 작업과 할 수 없는 작업이 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1031,7 +1031,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 2016년 6월 16일 릴리스된 새로운 기능:
 
 * 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL 작업 공간]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
-* The [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
+*  [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다. 
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형
@@ -1160,7 +1160,7 @@ Adobe Experience Cloud 릴리스 정보 전체를 보려면 [여기로 이동하
 
 ## 새 세그먼트 추가
 
-세그먼트를 **[!UICONTROL 프로젝트에 드래그하여 놓을 수 있도록 여기에]** 세그먼트 놓기 드롭 영역이 추가되었습니다.
+세그먼트를 드래그하여 프로젝트에 놓을 수 있도록 **[!UICONTROL 여기에 세그먼트 놓기]** 드롭존을 추가했습니다.
 
 ![](assets/add-new-segment.png)
 
