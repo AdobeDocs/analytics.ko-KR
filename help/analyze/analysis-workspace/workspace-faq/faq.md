@@ -2,7 +2,7 @@
 description: 작업 공간 FAQ
 title: FAQ 및 Analysis Workspace 문제 해결
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
