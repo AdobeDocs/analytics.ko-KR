@@ -5,10 +5,10 @@ user-guide-title: Analytics 가져오기 안내서
 breadcrumb-title: 가져오기 안내서
 user-guide-description: '데이터를 일괄 방식 또는 실시간으로 외부 소스에서 Analytics로 가져옵니다. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 98%
 
 ---
 
@@ -128,3 +128,5 @@ ht-degree: 100%
       + [Analytics 통합 변수](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 통합](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics 플러그인 코드](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ 사용 사례 가져오기 {#use-cases}
+   + [데이터 소스를 사용하여 유료 검색 지표 가져오기](use-cases/paid-search-metrics.md)
