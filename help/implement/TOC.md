@@ -5,10 +5,10 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -131,6 +131,7 @@ ht-degree: 99%
    + [글로벌 보고서 세트 고려 사항](prepare/global-rs.md)
    + [구현 모달](prepare/implementation-modal.md)
    + [솔루션 디자인 문서 만들기](prepare/solution-design.md)
+   + [기존 Adobe Analytics 구현 관리](prepare/existing-implementation.md)
 + JavaScript를 사용하여 Analytics 구현 {#js}
    + [JavaScript 개요](js/overview.md)
    + [구현 옵트아웃 링크](js/opt-out.md)
