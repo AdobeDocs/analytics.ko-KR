@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 ## 주요 Analytics 구현 문서
 
+* [기존 Adobe Analytics 구현 관리](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [Experience Platform Launch에서 속성 만들기](launch/create-analytics-property.md)
 * [AppMeasurement 업데이트](appmeasurement-updates.md)
