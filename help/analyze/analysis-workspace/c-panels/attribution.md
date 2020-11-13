@@ -2,22 +2,22 @@
 title: 속성 패널
 description: Analysis Workspace에서 속성 패널을 사용하고 해석하는 방법
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 
 # 속성 패널
 
-속성 패널은 다양한 속성 모델을 비교하는 분석을 쉽게 구축할 수 있는 방법입니다. 속성 모델을 사용하고 비교할 수 있는 전용 작업 공간을 제공하는 [속성 IQ](../attribution/overview.md)의 기능입니다.
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. 속성 모델을 사용하고 비교할 수 있는 전용 작업 공간을 제공하는 [속성 IQ](../attribution/overview.md)의 기능입니다.
 
 ## 속성 패널 만들기
 
 1. 왼쪽의 패널 아이콘을 클릭합니다.
-1. 속성 패널을 Analysis Workspace 프로젝트로 드래그합니다.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![새 속성 패널](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ ht-degree: 72%
 * **성능 세부 정보**:산포도를 사용하여 시각적으로 최대 3개의 속성 모델을 비교할 수 있습니다.
 * **트렌드 성능**:상위 차원 항목에 대한 속성 변환 트렌드를 표시합니다. 인접 자유 형식 테이블에서 다른 행을 선택하면 선택 사항을 반영하도록 시각화가 업데이트됩니다.
 * **흐름**:가장 일반적으로 상호 작용하는 채널과 방문자 경로 간의 순서를 확인할 수 있습니다.
+
