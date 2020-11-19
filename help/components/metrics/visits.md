@@ -1,11 +1,11 @@
 ---
 title: 방문 횟수
 description: 중단 없는 일련의 페이지 보기입니다.
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 89%
 
 ---
 
@@ -55,3 +55,7 @@ ht-degree: 100%
 ## 차원의 방문 횟수와 총 방문 횟수
 
 차원 컨텍스트(예: [마케팅 채널](../dimensions/marketing-channel.md))의 방문 횟수는 언제든지 특정 차원 항목을 포함한 방문 횟수를 보여줍니다. 여러 차원 항목이 동일한 방문의 서로 다른 히트에 있는 경우가 빈번합니다. 일반적으로 차원 항목에 대해 보고하는 방문 횟수들을 합산하려는 시도는 적절하지 않습니다.
+
+## Data Warehouse의 모든 방문자 방문
+
+&#39;방문 횟수 - 모든 방문자 수&#39; 지표는 &#39;방문 횟수&#39; 지표 외에 Data Warehouse에서 사용할 수 있습니다. &#39;방문 횟수 - 모든 방문자 수&#39; 지표는 다른 Analytics 도구의 &#39;방문 횟수&#39; 지표와 비교할 수 있습니다. Data Warehouse의 &#39;방문 횟수&#39; 지표는 지속적인 쿠키가 없는 방문자를 제외합니다. Adobe은 방문이 지표로 원하는 Data Warehouse 요청에서 &#39;방문 - 모든 방문자&#39;를 사용하는 것이 좋습니다.
