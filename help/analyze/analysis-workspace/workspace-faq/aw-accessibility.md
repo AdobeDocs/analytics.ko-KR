@@ -1,11 +1,11 @@
 ---
 description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
-translation-type: ht
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
@@ -22,11 +22,20 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 [!UICONTROL Analysis Workspace]에서 탐색은 위쪽 > 아래쪽, 왼쪽 > 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 용이하게 합니다.
 
-* 중요한 단축키를 사용하는 `F6` 키
-* `Tab` 키를 사용하면 개별 요소 간에 이동할 수 있습니다.
+* 중요한 단축키를 사용하는 `Tab` 키, 작업 공간 내의 큰 섹션 간 이동. 왼쪽 레일에서 드래그 가능한 옵션 `Tab` 에서 다음 옵션으로 이동할 수도 있습니다.
+* 개별 요소 간 `left/right arrows` 이동 시 강조 `Tab` 표시되었습니다.
+* 프로젝트의 첫 번째 패널로 `F6` 이동하고 해당 패널 내의 시각화 간을 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 선택한 요소 주위에 파란색 테두리가 표시됩니다.
 
    ![포커스 표시기](assets/focus-indicator.png)
+
+### 메뉴 모음의 키보드 탐색
+
+1. 메뉴 모음에 도착할 때까지 탭합니다.
+1. 왼쪽/오른쪽 화살표 키를 사용하여 원하는 메뉴로 이동합니다.
+1. 메뉴 `Enter` 를 눌러 선택하고 해당 옵션을 표시합니다.
+1. 위쪽/아래쪽 화살표 키를 사용하여 원하는 메뉴 옵션으로 이동합니다.
+1. 옵션 `Enter` 을 눌러 선택합니다.
 
 ### 드래그 앤 드롭 상호 작용을 위한 키보드 탐색
 
