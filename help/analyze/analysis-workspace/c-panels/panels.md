@@ -2,7 +2,7 @@
 description: 패널은 테이블 및 시각화의 집합입니다
 title: 패널 개요
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 11%
@@ -84,7 +84,11 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## 마우스 오른쪽 단추 클릭 메뉴 {#right-click}
 
-패널 헤더를 마우스 오른쪽 단추로 클릭하여 패널의 추가 기능을 사용할 수 있습니다. 다음 설정을 사용할 수 있습니다.
+패널 헤더를 마우스 오른쪽 단추로 클릭하여 패널의 추가 기능을 사용할 수 있습니다.
+
+![](assets/right-click-menu.png)
+
+다음 설정을 사용할 수 있습니다.
 
 | 설정 | 설명 |
 | --- | --- |
