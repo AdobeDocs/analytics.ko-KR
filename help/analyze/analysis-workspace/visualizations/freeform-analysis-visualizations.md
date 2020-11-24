@@ -3,9 +3,9 @@ description: 시각화로 데이터를 시각적으로 나타냅니다.
 keywords: Analysis Workspace
 title: 시각화 개요
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1089'
 ht-degree: 42%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 42%
 
 작업 공간에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해주는 다양한 시각화를 제공합니다. Adobe Analytics을 사용하면 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
-작업 공간의 왼쪽 위 아이콘, [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)또는 워크플로우의 오른쪽 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다. 다음 시각화 유형을 Analysis Workspace에서 사용할 수 있습니다.
+작업 공간의 왼쪽 위 아이콘, [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)또는 워크플로우의 오른쪽 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
+
+![](assets/viz-rail.png)
+
+다음 시각화 유형을 Analysis Workspace에서 사용할 수 있습니다.
 
 | 시각화 이름 | 설명 |
 | --- | --- |
@@ -40,20 +44,22 @@ ht-degree: 42%
 
 ## 설정 {#settings}
 
-각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 시각화 [!UICONTROL 설정에]액세스하려면 [!UICONTROL 시각화 설정] 톱니바퀴 아이콘을 클릭합니다. 일부 설정은 다음과 같습니다.
+각 시각화에는 관리할 수 있는 자체 설정이 있습니다. 시각화 [!UICONTROL 설정에]액세스하려면 [!UICONTROL 시각화 설정] 톱니바퀴 아이콘을 클릭합니다.
+
+![](assets/settings.png)
 
 | 설정 | 설명 |
 | --- | --- |
 | 시각화 유형 | 데이터를 나타내기 위해 사용되는 시각적 유형을 변경합니다. |
 | 세부기간 | 트렌드 시각화의 경우 시간 세부기간(일, 주, 월 등)을 변경할 수 있습니다. 이 드롭다운에서 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | 백분율 | 값을 백분율로 표시합니다. |
-| 100% 누적 | 스택형 영역, 스택형 막대 또는 스택형 가로 막대 시각화에 대한 이 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다. 예: ![](assets/stacked_100_percent.png) |
+| 100% 누적 | 스택형 영역, 스택형 막대 또는 스택형 가로 막대 시각화에 대한 이 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다. 예: ![누적 100%](assets/stacked_100_percent.png) |
 | 범례 표시 | 요약 번호/요약 변경 사항 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 | 최대 항목 수 제한 | 시각화에 표시되는 항목 수를 제한할 수 있습니다. |
 | Y축 0에 연결 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐).  |
 | 표준화 | 지표를 등분 비례에 강제 적용합니다. 이는 플로팅된 지표가 매우 다른 경우 유용합니다. |
 | 이중 축 표시 | 지표가 두 개일 경우에만 적용됩니다. 왼쪽(한 지표에 대해)과 오른쪽(다른 지표에 대해)에 y축을 놓을 수 있습니다. 이는 플로팅된 지표가 매우 다른 경우 유용합니다. |
-| 예외 항목 표시 | 예외 항목 선택을 표시하여 라인 그래프와 자유 형식 테이블을 향상시킵니다. 라인 시각화의 예외 항목 탐지는 예상 값(점선)과 예상 범위(음영 처리된 밴드)를 포함합니다. |
+| 예외 항목 표시 | 예외 항목 탐지를 표시하여 라인 그래프와 자유 형식 테이블을 향상시킵니다. 라인 시각화의 예외 항목 탐지는 예상 값(점선)과 예상 범위(음영 처리된 밴드)를 포함합니다. |
 
 ## 범례 {#legend}
 
@@ -77,7 +83,7 @@ ht-degree: 42%
 
 시각화 헤더를 마우스 오른쪽 단추로 클릭하여 시각화에 대한 추가 기능을 사용할 수 있습니다. 설정은 시각화에 따라 다릅니다. 사용 가능한 설정 중 일부는 다음과 같습니다.
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | 설정 | 설명 |
 | --- | --- |
@@ -94,4 +100,4 @@ ht-degree: 42%
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). 시각화를 추가하는 가장 빠른 방법입니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 1개의 행을 선택한 경우 트렌드 라인 그래프가 만들어집니다. 3개의 세그먼트 행을 선택한 경우 벤 다이어그램을 만듭니다.
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
