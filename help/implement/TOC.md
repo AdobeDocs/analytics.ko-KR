@@ -5,10 +5,10 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
+source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 97%
+source-wordcount: '488'
+ht-degree: 93%
 
 ---
 
@@ -204,6 +204,10 @@ ht-degree: 97%
    + [패킷 모니터](validate/packet-monitor.md)
    + [해시 충돌](validate/hash-collisions.md)
 + [FAQ](faq.md)
++ 구현 검토 {#review}
+   + [간단한 구현 검토(각 웹 사이트 릴리스 이후)](review/minor-review.md)
+   + [주요 구현 검토(6개월마다)](review/major-review.md)
+   + [상위 5개 KPI 정의](review/define-kpis.md)
 + Analytics에서 XDM 데이터 사용 {#aep-edge}
    + [AEP Web SDK 사용](aep-edge/xdmoverview.md)
    + [XDM 데이터를 Analytics에 수동으로 매핑](aep-edge/xdm-manual.md)
