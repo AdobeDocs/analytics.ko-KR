@@ -2,24 +2,24 @@
 description: 패널은 테이블 및 시각화의 집합입니다
 title: 패널 개요
 translation-type: tm+mt
-source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
+source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 14%
+source-wordcount: '1003'
+ht-degree: 11%
 
 ---
 
 
 # 패널 개요
 
-A [!UICONTROL panel] is a collection of tables and visualizations. 작업 공간의 왼쪽 상단 아이콘에서 패널에 액세스할 수 있습니다. 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성할 때 유용합니다. Analysis Workspace에서는 다음 패널 유형을 사용할 수 있습니다.
+A [!UICONTROL panel] is a collection of tables and visualizations. 작업 영역의 왼쪽 위 아이콘 또는 [빈 패널에서 패널에 액세스할 수 있습니다](blank-panel.md). 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성할 때 유용합니다. Analysis Workspace에서는 다음 패널 유형을 사용할 수 있습니다.
 
 | 패널 이름 | 설명 |
-|---|---|
+| --- | --- |
 | [빈 패널](blank-panel.md) | 사용 가능한 패널 및 시각화 중에서 선택하여 분석을 시작합니다. |
 | [빠른 인사이트 패널](quickinsight.md) | 인사이트를 더 빨리 분석하고 발견할 수 있도록 자유 형식 테이블과 함께 제공되는 시각화를 신속하게 구축하십시오. |
 | [Analytics for Target 패널](a4t-panel.md) | Analysis Workspace에서 타겟 활동 및 경험을 분석합니다. |
-| [속성 패널](attribution.md) | 차원 및 변환 지표를 사용하여 여러 속성 모델을 빠르게 비교하고 시각화합니다. |
+| [속성 패널](attribution.md) | 모든 차원 및 전환 지표를 사용하여 다양한 기여도 모델을 신속하게 비교하고 시각화할 수 있습니다. |
 | [자유 형식 패널](freeform-panel.md) | 무제한 비교 및 분류를 수행한 다음 시각화를 추가하여 풍부한 데이터 스토리를 전달합니다. |
 | [미디어 동시 뷰어 패널](media-concurrent-viewers.md) | 최대 동시성 및 분류 및 비교 기능에 대한 세부 정보로 시간 경과에 따른 동시 뷰어를 분석합니다. |
 | [세그먼트 비교 패널](c-segment-comparison/segment-comparison.md) | 모든 데이터 포인트에서 두 개의 세그먼트를 신속하게 비교하여 연관성 있는 차이점을 자동으로 찾을 수 있습니다. |
@@ -30,15 +30,15 @@ A [!UICONTROL panel] is a collection of tables and visualizations. 작업 공간
 
 The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
-## 패널 보고서 세트 {#report-suite}
+## 보고서 세트 {#report-suite}
 
-패널 내의 표 및 시각화는 패널 오른쪽 상단에서 선택한 [!UICONTROL 보고서 세트에서] 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에 사용할 수 있는 구성 요소도 결정합니다. 프로젝트 내에서 분석 사용 사례에 따라 하나 또는 [여러 보고서 세트를](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) 사용할 수 있습니다.
+패널 내의 표 및 시각화는 패널 오른쪽 상단에서 선택한 [!UICONTROL 보고서 세트에서] 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에 사용할 수 있는 구성 요소도 결정합니다. 프로젝트 내에서 분석 사용 사례에 따라 하나 또는 [여러 보고서 세트를](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) 사용할 수 있습니다. 프로젝트의 모든 패널에 단일 보고서 세트를 적용하려면 패널 헤더 > 모든 패널에 보고서 세트 적용을 **마우스 오른쪽 단추로 클릭합니다**.
 
 보고서 세트 목록은 연관성을 기준으로 정렬되며, Adobe은 현재 사용자가 해당 세트를 사용한 빈도 및 조직 내에서 해당 세트가 사용되는 빈도를 기준으로 정의됩니다.
 
 ![](assets/panel-report-suite.png)
 
-## 패널 달력 {#calendar}
+## 달력 {#calendar}
 
 패널 달력은 패널 내의 표 및 시각화에 대한 보고 범위를 제어합니다.
 
@@ -46,7 +46,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ![](assets/panel-calendar.png)
 
-## 패널 드롭존 {#dropzone}
+## Dropzone {#dropzone}
 
 패널 드롭존을 사용하면 패널 내의 모든 테이블 및 시각화에 세그먼트 및 드롭다운 필터를 적용할 수 있습니다. 하나 이상의 필터를 패널에 적용할 수 있습니다. 각 필터 위의 제목은 연필 편집을 클릭하여 수정할 수도 있고, 마우스 오른쪽 단추를 클릭하여 모두 제거할 수도 있습니다.
 
@@ -58,7 +58,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ### 애드혹 세그먼트 필터
 
-세그먼트가 아닌 구성 요소를 드롭 영역으로 바로 드래그하여 **애드혹 세그먼트를**&#x200B;만들 수도 있으므로 세그먼트 빌더로 이동하는 시간과 노력을 절약할 수 있습니다. 이렇게 만들어진 세그먼트는 히트 수준 세그먼트로 자동 정의됩니다. 세그먼트 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양 편집 아이콘을 클릭하고 세그먼트 빌더에서 편집하여 이 정의를 수정할 수 있습니다.
+세그먼트가 아닌 구성 요소를 드롭 영역으로 바로 드래그하여 임시 세그먼트를 만들 수도 있으므로 세그먼트 빌더로 이동하는 시간과 노력을 절약할 수 있습니다. 이렇게 만들어진 세그먼트는 히트 수준 세그먼트로 자동 정의됩니다. 세그먼트 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양 편집 아이콘을 클릭하고 세그먼트 빌더에서 편집하여 이 정의를 수정할 수 있습니다.
 
 애드혹 세그먼트는 프로젝트의 로컬이며, 공개하지 않는 한 왼쪽 레일에 표시되지 않습니다.
 
@@ -66,13 +66,13 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ### 드롭다운 필터 {#dropdown-filter}
 
-세그먼트 필터 외에도 **드롭다운** 필터를 사용하면 제어된 방식으로 데이터와 상호 작용할 수 있습니다. 예를 들어 모바일 장치 유형에 대한 드롭다운 필터를 추가하여 태블릿, 휴대폰 또는 데스크탑별로 패널을 세그먼트화할 수 있습니다.
+드롭다운 필터를 사용하면 세그먼트 필터 외에도 제어 방식으로 데이터와 상호 작용할 수 있습니다. 예를 들어 모바일 장치 유형에 대한 드롭다운 필터를 추가하여 태블릿, 휴대폰 또는 데스크탑별로 패널을 세그먼트화할 수 있습니다.
 
 드롭다운 필터를 사용하여 여러 프로젝트를 하나로 통합할 수도 있습니다. 예를 들어 서로 다른 국가 세그먼트가 적용된 동일한 프로젝트의 여러 버전이 있는 경우 모든 버전을 단일 프로젝트에 통합하고 국가 드롭다운 필터를 추가할 수 있습니다.
 
 ![](assets/dropdown-filter-intro.png)
 
-**드롭다운 필터 만들기 및 사용:**
+드롭다운 필터를 만들려면
 
 1. 마케팅 채널 [!UICONTROL 차원 내의 값 등]Dimension 항목을  사용하여 드롭다운 필터를 만들려면 왼쪽 레일의 차원 옆에 있는 오른쪽 화살표 아이콘을 클릭합니다. 사용 가능한 모든 항목이 표시됩니다. 왼쪽 레일에서 하나 이상의 구성 요소 항목을 선택하고 Shift 키를 누른 **상태에서 패널 드롭 영역에 놓습니다**. 이렇게 하면 구성 요소가 단일 세그먼트가 아닌 드롭다운 필터로 바뀝니다.
 1. 지표, 세그먼트 또는 날짜 범위와 같은 다른 구성 요소를 사용하여 드롭다운 필터를 만들려면 왼쪽 레일의 구성 요소 유형 중 하나를 선택하고 Shift 키를 누른 **채 패널 드롭 영역에 드롭합니다**.
@@ -82,3 +82,17 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 [이 비디오를](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 통해 프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보십시오.
 
+## 마우스 오른쪽 단추 클릭 메뉴 {#right-click}
+
+패널 헤더를 마우스 오른쪽 단추로 클릭하여 패널의 추가 기능을 사용할 수 있습니다. 다음 설정을 사용할 수 있습니다.
+
+| 설정 | 설명 |
+| --- | --- |
+| 복사한 패널/시각화 삽입 | 복사한 패널 또는 시각화를 프로젝트 내의 다른 위치에 붙여넣거나 완전히 다른 프로젝트에 붙여넣을 수 있습니다(&quot;삽입&quot;). |
+| 패널 복사 | 패널을 마우스 오른쪽 단추로 클릭하고 복사하여 프로젝트 내의 다른 위치에 삽입하거나 완전히 다른 프로젝트에 삽입할 수 있도록 해줍니다. |
+| 모든 패널에 보고서 세트 적용 | 프로젝트의 모든 패널에 활성 패널 보고서 세트를 적용할 수 있습니다. |
+| 복제 패널 | 현재 패널을 정확히 복제한 다음 수정할 수 있습니다. |
+| 모든 패널 축소/확장 | 모든 프로젝트 패널을 축소하고 내보냅니다. |
+| 패널의 모든 시각화 축소/확장 | 현재 패널에서 축소하거나 모든 시각화를 확장합니다. |
+| 설명 편집 | 패널의 텍스트 설명을 추가(또는 편집)합니다. |
+| 패널 링크 가져오기 | 프로젝트 내의 특정 패널로 사용자를 안내할 수 있습니다. 링크를 클릭하면 수신자가 로그인하여 연결된 정확한 패널로 이동해야 합니다. |
