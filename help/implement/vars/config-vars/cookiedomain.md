@@ -1,9 +1,9 @@
 ---
 title: cookieDomain
 description: cookieDomain 변수는 쿠키를 설정할 도메인을 결정하는 데 도움이 됩니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 이 변수는 다음 조건을 **모두** 충족할 때만 사용해야 합니다.
 
-* 구현에서 자사 쿠키를 사용하는 경우. 이 변수는 `sc.omtrdc.net`을 포함하는 [`trackingServer`](trackingserver.md) 값을 사용하는 구현에는 필요하지 않습니다.
+* 구현에서 자사 쿠키를 사용하는 경우. 이 변수는 `sc.adobedc.net`을 포함하는 [`trackingServer`](trackingserver.md) 값을 사용하는 구현에는 필요하지 않습니다.
 * 도메인 접미사에 마침표가 있는 경우. 예를 들어, `example.co.uk`가 `cookieDomain` 변수를 사용하여 쿠키 도메인이 `co.uk`가 아니고 `example.co.uk`라고 명시할 수 있습니다.
 
 적은 수의 구현만 `cookieDomain` 변수를 사용할 수 있으며, 그러한 때에도 [`cookieDomainPeriods`](cookiedomainperiods.md)같은 대체 변수를 대신 사용할 수 있습니다.
