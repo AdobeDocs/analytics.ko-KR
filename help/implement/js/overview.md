@@ -1,9 +1,9 @@
 ---
 title: JavaScript용 AppMeasurement
 description: 태그 관리 시스템 없이 JavaScript를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 �
    var s_account = "examplersid";
    var s=s_gi(s_account);
    // Make sure data is sent to the correct location
-   s.trackingServer = "example.omtrdc.net";
+   s.trackingServer = "example.adobedc.net";
    ```
 
 3. 사이트의 페이지 코드 내에서 페이지 수준 변수를 정의하십시오. 이 변수가 Adobe에 전송되는 특정 차원과 지표를 결정합니다. 정의할 수 있는 변수의 전체 목록이 필요하면 [페이지 변수](../vars/page-vars/page-variables.md)를 참조하십시오.
