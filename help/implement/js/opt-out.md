@@ -1,9 +1,9 @@
 ---
 title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:
 
-* 타사 쿠키: `https://example.sc.omtrdc.net/optout.html`
+* 타사 쿠키: `https://example.sc.adobedc.net/optout.html`
 * 자사 쿠키: `https://stats.example.com/optout.html`
 
 ## 옵트아웃 쿼리 문자열 매개 변수
@@ -78,7 +78,7 @@ ht-degree: 100%
 * sk_SK(슬로바키아어)
 * es_ES(스페인어)
 
-예를 들어 `https://example.sc.omtrdc.net/optout.html?locale=ko_KR`은 옵트아웃 페이지를 한국어로 로드합니다.
+예를 들어 `https://example.sc.adobedc.net/optout.html?locale=ko_KR`은 옵트아웃 페이지를 한국어로 로드합니다.
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 페이지에 &#39;창 닫기&#39; 단추를 추가하여 옵트아웃 페이지를 팝업 창으로 만들 수 있습니다. `popup` 쿼리 문자열 매개 변수를 사용하고 값을 `1`로 지정하십시오.
 
-예를 들어 `https://example.sc.omtrdc.net/optout.html?popup=1`은 &#39;창 닫기&#39; 단추가 있는 옵트아웃 페이지를 로드합니다.
+예를 들어 `https://example.sc.adobedc.net/optout.html?popup=1`은 &#39;창 닫기&#39; 단추가 있는 옵트아웃 페이지를 로드합니다.
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ ht-degree: 100%
 
 이렇게 하면 사용자가 즉시 추적을 그만둘 수 있습니다(옵트아웃). 두 쿼리 문자열 매개 변수 `opt_out` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
 
-예를 들어 `https://example.sc.omtrdc.net/optout.html?opt_out=1&confirm_change=1`은 방문자의 페이지에 옵트아웃 쿠키를 즉시 설치합니다.
+예를 들어 `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1`은 방문자의 페이지에 옵트아웃 쿠키를 즉시 설치합니다.
 
 ### 옵트인 한 번 클릭
 
 이렇게 하면 사용자가 옵트아웃 쿠키를 삭제하여 즉시 추적을 다시 수행할 수 있습니다(옵트인). 두 쿼리 문자열 매개 변수 `opt_in` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
 
-예를 들어 `https://example.sc.omtrdc.net/optout.html?opt_in=1&confirm_change=1`은 방문자에 대한 옵트아웃 쿠키를 즉시 삭제합니다.
+예를 들어 `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1`은 방문자에 대한 옵트아웃 쿠키를 즉시 삭제합니다.
