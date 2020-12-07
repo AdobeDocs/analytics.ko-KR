@@ -2,10 +2,10 @@
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 최종
 
 >[!IMPORTANT]
 >
->China RDC(China Performance Optimization) Add-On Package는 Adobe Analytics의 유료 추가 기능입니다. 중국 본토의 Adobe 성능 최적화를 통해 중국 내 고객은 전 세계 다른 위치가 아니라 중국 에지 노드로 데이터를 직접 전송할 수 있습니다. 이렇게 하면 중국 외부의 노드로 데이터를 전송할 때보다 페이지 로드 시간과 데이터 정확도가 향상됩니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
+>중국 RDC(China Performance Optimization) 애드온 패키지는 Adobe Analytics의 유료 애드온입니다. 중국 본토의 Adobe의 성능 최적화를 통해 중국 내 고객은 전 세계 다른 위치가 아니라 중국 에지 노드로 데이터를 직접 전송할 수 있습니다. 이렇게 하면 중국 외부의 노드로 데이터를 전송할 때보다 페이지 로드 시간과 데이터 정확도가 향상됩니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
 
 현재 RDC에는 다음 위치(변경될 수 있음)가 포함되어 있습니다.
 
@@ -26,7 +26,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 최종
 |---------------------|-------------------|
 | 기본값 | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
 
-참고: Analytics 이미지 요청이 `2o7.net` 또는 `omtdrc.net` 종단점으로 전송되면 타사 데이터 수집이 제공됩니다. 요청 URL에 종단점이 표시되면 이를 확인할 수 있습니다.
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. 요청 URL에 종단점이 표시되면 이를 확인할 수 있습니다.
 
 ## 자사 HTTPS 데이터 수집
 
