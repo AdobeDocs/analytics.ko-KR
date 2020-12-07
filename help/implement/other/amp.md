@@ -2,7 +2,7 @@
 title: AMP를 사용한 구현
 description: AMP 페이지에서 Adobe Analytics를 구현합니다.
 translation-type: tm+mt
-source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.omtrdc.net",
+        "host": "example.sc.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -109,7 +109,7 @@ AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.omtrdc.net"
+        "host": "example.sc.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -133,7 +133,7 @@ AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_trackingServer = "example.sc.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);
