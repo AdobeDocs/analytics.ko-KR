@@ -5,7 +5,10 @@ title: 방문자 마이그레이션
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 방문자 마이그레이션을 통해 데이터 수집 도메인을 변경할 때 방문자 식별 쿠키를 보존할 수 있습니다. 데이터 수집 도메인은 다음 이유로 변경될 수 있습니다.
 
-* `2o7.net`에서 `omtrdc.net`([지역별 데이터 수집](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))으로 이동하는 경우
+* `2o7.net`에서 `adobedc.net`([지역별 데이터 수집](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html))으로 이동하는 경우
 
-* [Experience Cloud 방문자 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 구현하고 CNAME/퍼스트 파티 데이터 수집 도메인에서 `2o7.net` 또는 `omtrdc.net`([지역별 데이터 수집](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))으로 이동하는 경우
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html))
 
-* `2o7.net` 또는 `omtrdc.net`에서 CNAME/자사 데이터 수집([자사 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html))으로 이동하는 경우
+* `2o7.net` 또는 `adobedc.net`에서 CNAME/자사 데이터 수집([자사 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html))으로 이동하는 경우
 
 * 특정 CNAME에서 다른 CNAME으로 이동하는 경우(도메인 변경)
 
@@ -48,7 +51,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>구성 변경 후 6시간 이상</b>: Analytics JavaScript 코드에서 <code> s.trackingServer</code> 및 <code> s.trackingServerSecure</code> 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 
