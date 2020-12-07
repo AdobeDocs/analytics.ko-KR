@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 및 브라우저 쿠키
 description: Adobe Analytics에서 브라우저 쿠키를 처리하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
-workflow-type: ht
-source-wordcount: '2286'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
+workflow-type: tm+mt
+source-wordcount: '2285'
+ht-degree: 93%
 
 ---
 
@@ -103,7 +103,7 @@ CNAME을 사용하는 경우 방문자 ID 서비스는 ECID를 서버측 자사 
 * ECID(Experience Cloud ID) 서비스 라이브러리에서 설정한 AMCV 쿠키
 * Analytics 기존 폴백 쿠키 `s_fid`
 
-2o7.net 또는 omtrdc.net의 컬렉션 대상을 포함한 타사 쿠키로서 Analytics 기존 `s_vi` 쿠키는 이전 버전의 ITP를 기반으로 하여 계속 차단됩니다.
+Analytics legacy `s_vi` cookie as a third party cookie, including collection targets of adobedc.net, 2o7.net or omtrdc.net, continues to be blocked based on earlier versions of ITP.
 
 요약하면 다음과 같습니다.
 
@@ -111,7 +111,7 @@ CNAME을 사용하는 경우 방문자 ID 서비스는 ECID를 서버측 자사 
 
 * 자사 컨텍스트에서 자사 CNAME을 사용하고 방문자 ID 서비스를 사용하지 않는 경우 구현에 영향을 주지 않습니다.
 
-* 자사 쿠키 도메인을 타사 컨텍스트에서 사용하거나 표준 타사 도메인 이름(예: 2o7.net, omtrdc.net 등)과 함께 사용하는 경우 Safari는 현재 상태 그대로 이를 차단합니다.
+* If you use a first party cookie domain in the third party context, or with the standard third-party domain names (e.g `adobedc.net`, `2o7.net`, `omtrdc.net`, etc), Safari will continue to block it as it has.
 
 * 사용자 지정 방문자 ID를 사용하는 경우 - 이는 방문자 ID를 저장하는 방식에 따라 달라집니다. 자사 &quot;클라이언트측&quot; 쿠키에 ID를 저장하는 경우 7일 만료 기간이 적용됩니다. 다른 방법을 사용하여 사용자 지정 ID를 저장하는 경우 영향을 받는지 평가해야 합니다.
 
@@ -134,11 +134,11 @@ CNAME을 사용하는 경우 방문자 ID 서비스는 ECID를 서버측 자사 
 
 * 최신 Safari 브라우저에서 개발자 콘솔을 엽니다. 자사 도메인에 설정된 위에 나열된 쿠키가 표시되는 경우 이러한 변경 사항의 영향을 받을 수 있습니다.
 
-* `s_vi` 쿠키가 표시되지만 CNAME의 컨텍스트에서 `AMCV` 쿠키가 설정되지 않은 경우 방문자 식별에 CNAME을 사용하고 Analytics 사용이 이러한 변경 사항의 영향을 받지 않습니다. CNAME 컨텍스트에서 `s_vi` 쿠키 및 `AMCV` 쿠키 세트가 모두 표시되는 경우 최근 또는 현재 유예 기간을 사용하고 있으며 일부 Analytics 트래픽에 영향을 줄 수 있습니다.
+* `s_vi` 쿠키가 표시되지만 CNAME의 컨텍스트에서 `AMCV` 쿠키가 설정되지 않은 경우 방문자 식별에 CNAME을 사용하고 Analytics 사용이 이러한 변경 사항의 영향을 받지 않습니다. If you see both an `s_vi` cookie and an `AMCV` cookie set in the context of a CNAME, you have recently or currently are using Grace Period and some of your Adobe Analytics traffic may be impacted.
 
-* Analytics를 사용하여 7일 이내에 재방문하지 않는 방문자의 비율을 측정합니다. 방문자가 7일 이내에 반복해서 재방문하는 경우 트래픽에 큰 영향을 주지 않을 수 있습니다. Analtyics를 사용하여 이를 확인하는 방법에 대한 자세한 내용은 [Safari ITP 2.1이 Adobe Experience Cloud 및 Experience Platform 고객에게 미치는 영향](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)을 참조하십시오.
+* Analytics를 사용하여 7일 이내에 재방문하지 않는 방문자의 비율을 측정합니다. 방문자가 7일 이내에 반복해서 재방문하는 경우 트래픽에 큰 영향을 주지 않을 수 있습니다. For instructions on using Adobe Analytics to figure this out, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
-* Safari 브라우저에서 트래픽 비율을 측정하여 변경 사항이 충분한지 확인합니다. Analtyics를 사용하여 사이트에 대한 Safari 트래픽 비율을 확인하는 방법에 대한 지침은 [Safari ITP 2.1이 Adobe Experience Cloud 및 Experience Platform 고객에게 미치는 영향](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)을 참조하십시오.
+* Safari 브라우저에서 트래픽 비율을 측정하여 변경 사항이 충분한지 확인합니다. For instructions on using Analytics to figure out the percentage of Safari traffic to your sites, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## 방문자가 가장 많이 사용하는 브라우저는 무엇입니까?
 
