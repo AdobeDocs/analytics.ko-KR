@@ -5,7 +5,7 @@ title: 프로젝트 개요
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 21%
@@ -44,6 +44,8 @@ When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, th
 
 프로젝트 내에서 메뉴는 프로젝트 관리, 구성 요소 추가, 도움말 찾기 등의 옵션을 제공합니다. 각 메뉴 옵션은 키보드 [단축키로 액세스할 수도 있습니다](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html).
 
+![](assets/menu.png)
+
 | 메뉴 항목 | 설명 |
 |---|---|
 | 프로젝트 | 새로 만들기, 열기, 저장, 다른 이름으로 저장, 다른 이름으로 저장 템플릿 [을 포함하여 프로젝트 관리를 위한 일반적인 작업을 포함합니다](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터와 정의를 검색할 수도 있습니다. [CSV 및 PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) 다운로드 옵션을 사용하면 작업 공간에서 데이터를 내보낼 수 있습니다. [프로젝트 정보 및 설정은](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) 프로젝트를 관리하기 위한 다양한 옵션을 제공합니다. |
@@ -81,6 +83,8 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 왼쪽 레일의 구성 요소(Dimension, 지표, 세그먼트, 날짜 범위)가 활성 패널 보고서 세트와 관련됩니다. 활성 패널에는 주위에 파란색 테두리가 있고 활성 보고서 세트는 구성 요소 레일 상단에 나열됩니다.
 
+![](assets/left-rail.png)
+
 ## 프로젝트 캔버스 {#canvas}
 
 프로젝트 캔버스는 분석 작성을 위해 패널, 테이블, 시각화 및 구성 요소를 함께 가져오는 곳입니다. 프로젝트에는 여러 패널이 포함될 수 있으며 각 패널에는 많은 테이블과 시각화가 포함될 수 있습니다.
@@ -89,11 +93,15 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 프로젝트에서 선택한 시작 지점에 따라 [자유 형식 테이블](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 또는 [빈 패널이 캔버스에](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) 있습니다. 분석을 시작하는 가장 빠른 방법은 하나 이상의 구성 요소를 선택하고 프로젝트 캔버스로 드래그하여 놓는 것입니다. 데이터 테이블이 자동으로 렌더링됩니다. [표 작성을 위한 다양한 옵션에 대한 자세한](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 내용을 살펴보거나 간단한 프로젝트 작성에 대한 자세한 내용을 살펴보려면 [교육 튜토리얼을](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) 활용하십시오.
 
+![](assets/canvas.png)
+
 ## 프로젝트 관리자 {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. 프로젝트 관리자는 특정 사용자가 만든 항목을 표시합니다. 프로젝트 소유권은 관리 > 분석 사용자 및 자산 > 자산 전송에서 새 사용자에게 양도할 수 있습니다.
 
 프로젝트 관리자에서 추가, 태그 지정, 공유, 복제/복사 등을 수행할 수 있습니다. 검색 막대에서 또는 왼쪽 레일의 필터 옵션을 사용하여 프로젝트를 검색합니다. 태그, 소유자, 프로젝트 유형 등을 기준으로 필터링할 수 있습니다.
+
+![](assets/project-manager.png)
 
 다음은 프로젝트 관리자의 일반적인 작업이며 한 번에 하나 이상의 프로젝트에서 수행할 수 있습니다.
 
