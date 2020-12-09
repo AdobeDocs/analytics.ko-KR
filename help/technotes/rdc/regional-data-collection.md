@@ -2,10 +2,10 @@
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 77%
 
 ---
 
@@ -46,18 +46,3 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 1. DNS는 방문자에게 가장 가까운 데이터 수집 센터의 IP 주소에 대한 수집 호스트 이름을 자동으로 확인합니다.
 1. 방문자가 이 위치로 데이터를 보냅니다.
 1. 데이터는 보안 연결을 통해 데이터 처리 센터로 즉시 전달되어 처리되고, Adobe Experience Cloud의 제품에 사용할 수 있게 됩니다.
-
-## RDC의 이점
-
-| 이점 | 설명 |
-|---------|-----------|
-| 성능 | RDC를 통해 방문자는 가장 가까운 DCC로 연결됩니다. 즉, 페이지의 응답 시간이 줄어들어 추적이 더욱 정확해지고 로드 시간이 빨라지게 됩니다. |
-| 중복 | DCC와의 통신이 중단되면 데이터 수집이 그다음으로 가장 가까운 DCC로 자동 라우팅되므로 서비스 지속성이 보장됩니다. |
-| 중복 | DCC와 DPC 간의 통신이 중단되면 Adobe의 RDC 인프라에서 데이터를 로컬에 저장했다가 통신이 복원될 때 DPC로 전달합니다. |
-
-## 설명서 개정 내역
-
-| 업데이트 | 설명 |
-|--------|---------|
-| 2020년 2월 4일 | RDC 위치 업데이트 |
-| 2019년 2월 20일 | 완전히 다시 작성되었습니다. RDC 네트워크 정보가 추가되었습니다. |
