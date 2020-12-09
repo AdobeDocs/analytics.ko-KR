@@ -2,10 +2,10 @@
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 77%
+source-wordcount: '475'
+ht-degree: 57%
 
 ---
 
@@ -24,9 +24,11 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 최종
 
 | RDC 유형 | 데이터 수집 센터 |
 |---------------------|-------------------|
-| 기본값 | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니 |
+| 기본값 | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니, 중국* |
 
 Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. 요청 URL에 종단점이 표시되면 이를 확인할 수 있습니다.
+
+*중국 RDC는 중국 애드온 패키지를 요구한다. 위의 &#39;중요&#39; 참고 사항을 참조하십시오.
 
 ## 자사 HTTPS 데이터 수집
 
@@ -36,8 +38,19 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | 아메리카만 | 오리건, 버지니아 |
 | 유럽만 | 아일랜드, 파리 |
 | 아시아 태평양만 | 뭄바이, 싱가포르, 도쿄, 시드니 |
+| 중국만 해당* | 베이징 |
 
-참고: Experience Edge Global은 최종 사용자에게 최고의 성능을 제공합니다.  대체 RDC 유형을 사용하려면 Adobe 고객 지원 팀에 문의하십시오.
+*중국 RDC는 중국 애드온 패키지를 요구한다. 위의 &#39;중요&#39; 참고 사항을 참조하십시오.
+
+참고: Experience Edge Global은 최종 사용자에게 최고의 성능을 제공합니다.  대체 RDC 유형을 사용하려면 Adobe 고객 지원 센터에 문의하십시오.
+
+## RDC의 이점
+
+| 이점 | 설명 |
+| --- | --- |
+| 성능 | RDC를 사용하면 방문자가 가장 가까운 DCC에 연결할 수 있습니다. 따라서 응답 시간이 가장 빠릅니다. 따라서 보다 정확한 추적 및 로드 시간이 단축됩니다. |
+| 중복 | DCC와의 통신이 중단되는 경우 데이터 수집은 다음 DCC로 자동 라우팅되어 서비스 연속성을 보장합니다. |
+| 중복 | DCC와 DPC 간의 통신이 중단된 경우 Adobe의 RDC 인프라는 데이터를 로컬에 저장한 다음 통신이 복구될 때 DPC로 전달합니다. |
 
 ## RDC 작동 방식
 
