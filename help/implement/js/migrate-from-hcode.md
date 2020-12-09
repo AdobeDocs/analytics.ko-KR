@@ -2,9 +2,9 @@
 title: JavaScript용 AppMeasurement로의 마이그레이션
 description: H 코드의 구현을 마이그레이션하는 데 필요한 사항을 결정합니다.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ H 코드와 비교할 때 AppMeasurement에 다음의 주목할 만한 변경 �
 * 기존 페이지 수준 H 코드는 AppMeasurement와 호환됩니다.
 * 라이브러리에서는 쿼리 매개 변수를 가져오고, 쿠키를 읽고 쓰고, 고급 링크 추적을 수행하는 기본 유틸리티를 제공합니다.
 * 라이브러리가 동적 계정 구성 변수(`dynamicAccountSelection`, `dynamicAccountMatch` 및 `dynamicAccountList` 포함)를 지원하지 않습니다.
-* 설문 조사 모듈은 지원되지 않습니다.
 
 다음 절차는 일반적인 마이그레이션 워크플로우에 대한 개요입니다.
 
@@ -62,7 +61,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.adobedc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
