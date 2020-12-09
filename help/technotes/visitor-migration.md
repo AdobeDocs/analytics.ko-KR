@@ -5,10 +5,10 @@ title: 방문자 마이그레이션
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 78%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 84%
 
 방문자 마이그레이션을 통해 데이터 수집 도메인을 변경할 때 방문자 식별 쿠키를 보존할 수 있습니다. 데이터 수집 도메인은 다음 이유로 변경될 수 있습니다.
 
-* `2o7.net`에서 `adobedc.net`([지역별 데이터 수집](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html))으로 이동하는 경우
+* 이동 `2o7.net` 중 `adobedc.net`.
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/rdc/regional-data-collection.html))
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net`, `2o7.net` or `omtrdc.net`
 
-* `2o7.net` 또는 `adobedc.net`에서 CNAME/자사 데이터 수집([자사 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html))으로 이동하는 경우
+* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * 특정 CNAME에서 다른 CNAME으로 이동하는 경우(도메인 변경)
 
@@ -51,7 +51,7 @@ ht-degree: 84%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>구성 변경 후 6시간 이상</b>: Analytics JavaScript 코드에서 <code> s.trackingServer</code> 및 <code> s.trackingServerSecure</code> 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 
@@ -63,7 +63,3 @@ ht-degree: 84%
   </tr> 
  </tbody> 
 </table>
-
-## visitorMigrationKey 및 visitorMigrationServer 변수의 가치 하락 {#section_32FCEE2575944D039EA0FEBFB5814259}
-
-2013년 3월 현재 `visitorMigrationKey`, `visitorMigrationServer` 및 `visitorMigrationServerSecure` 데이터 수집 변수는 더 이상 사용되지 않습니다. 이러한 변수에 포함되었던 데이터는 이제 보안 향상을 위해 Adobe 서버에 저장됩니다.
