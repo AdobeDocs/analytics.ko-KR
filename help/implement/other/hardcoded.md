@@ -2,7 +2,7 @@
 title: 하드코딩된 이미지 요청으로 구현
 description: HTML 이미지 태그를 사용하여 Adobe Analytics를 구현합니다(하드코드된 이미지 요청)
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -25,11 +25,11 @@ Adobe에서 제공하는 AppMeasurement 라이브러리는 페이지에 있는 �
 다음은 HTML을 사용하여 하드코딩된 이미지 요청의 예입니다.
 
 ```html
-<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://`는 프로토콜을 지정합니다. 이미지 요청에 사용된 프로토콜을 나머지 사이트에서 사용하는 프로토콜과 일치시키십시오.
-* `example.sc.adobedc.net`은 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 변수에 포함된 값입니다.
+* `example.data.adobedc.net`은 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 변수에 포함된 값입니다.
 * `/b/ss/`는 모든 이미지 요청에 포함됩니다. 이 항목은 Adobe 데이터 수집 서버에 저장된 이미지용 파일 구조의 일부입니다.
 * `examplersid`는 전송한 데이터를 받을 보고서 세트 ID입니다.
 * `/1/`은 히트 소스입니다. 내보내기 사용 안내서의 [데이터 열 참조](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) 아래에서 `hit_source`를 참조하십시오. 방문자 식별을 위해 쿠키와 기타 방법에 의해 사용되는 순서를 제어합니다.
