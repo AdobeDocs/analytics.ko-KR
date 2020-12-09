@@ -2,7 +2,7 @@
 title: Facebook 인스턴트 아티클로 구현
 description: Facebook 인스턴트 아티클 페이지에서 Adobe Analytics를 구현합니다.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Adobe Analytics를 구현하는 주요 워크플로우는 다음과 같습니다
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.adobedc.net";
+      var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
 
