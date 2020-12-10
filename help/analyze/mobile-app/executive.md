@@ -1,11 +1,11 @@
 ---
 description: 대시보드 스코어카드 사용 지침
 title: Adobe Analytics 대시보드 경영진 안내서
-translation-type: ht
-source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: ht
-source-wordcount: '1287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+workflow-type: tm+mt
+source-wordcount: '1293'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,13 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크(**도구** > **대시보드** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [iOS 링크](https://apple.co/2zXq0aN)
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크(**도구** > **대시보드** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [Android 링크](https://bit.ly/2LM38Oo)
 
@@ -75,7 +75,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
    ![로그인 순서](assets/signseq.png)
 
-2. 회사 선택. 대시보드에 로그인하면 **회사 선택** 화면이 나타납니다. 이 화면에는 사용자가 속한 로그인 회사가 나열됩니다. 사용자와 공유된 스코어카드와 연결된 회사 이름을 탭합니다.
+2. 회사 선택. 대시보드에 로그인하면 **[!UICONTROL 회사 선택]** 화면이 나타납니다. 이 화면에는 사용자가 속한 로그인 회사가 나열됩니다. 사용자와 공유된 스코어카드와 연결된 회사 이름을 탭합니다.
 
 3. 그러면 스코어카드 목록에 사용자와 공유된 모든 스코어카드가 표시됩니다. 보려는 스코어카드를 탭합니다.
 
@@ -88,7 +88,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
    ![아무 것도 공유되지 않음](assets/nothing.png)
 
-4. 스코어카드에 타일이 표시되는 방식을 검사합니다(첫 번째 스코어카드는 다크 모드로 표시됨. 자세한 내용은 아래 **환경 설정**&#x200B;을을 참조하십시오.)
+4. 스코어카드에 타일이 표시되는 방식을 검사합니다(첫 번째 스코어카드는 다크 모드로 표시됨. 자세한 내용은 아래 **[!UICONTROL 환경 설정]**&#x200B;을을 참조하십시오.)
 
    ![타일 설명](assets/newexplain.png)
 
@@ -118,7 +118,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
    * 같은 방법으로 위에 표시된 분류 보기 내에서 날짜 범위를 변경할 수도 있습니다.
 
-   * 탭한 간격(**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션(현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **비교 대상** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **완료**&#x200B;를 탭합니다. **날짜 범위** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
+   * 탭한 간격(**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션(현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
 7. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 조정이 구성한 세그먼트를 선택합니다. 앱의 [필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
@@ -129,12 +129,12 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 9. 이 앱에 대한 피드백을 남기려면:
 
    1. 앱 화면의 오른쪽 상단에서 설정 아이콘을 누릅니다.
-   2. **설정** 화면에서 **피드백** 옵션을 탭합니다.
+   2. **[!UICONTROL 설정]** 화면에서 **[!UICONTROL 피드백]** 옵션을 탭합니다.
    3. 피드백 남기기에 대한 옵션을 탭하여 봅니다.
 
       ![설정 화면](assets/settings.png)
 
-10. 환경 설정을 변경하려면 위에 표시된 **환경 설정** 옵션을 누릅니다. 환경 설정에서 생체 인식 로그인을 켜거나 아래에 표시된 대로 다크 모드로 앱을 설정할 수 있습니다.
+10. 환경 설정을 변경하려면 위에 표시된 **[!UICONTROL 환경 설정]** 옵션을 누릅니다. 환경 설정에서 생체 인식 로그인을 켜거나 아래에 표시된 대로 다크 모드로 앱을 설정할 수 있습니다.
 
    ![다크 모드](assets/darkmode.png)
 
