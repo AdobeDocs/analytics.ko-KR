@@ -2,10 +2,10 @@
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 83%
 
 ---
 
@@ -51,40 +51,40 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 스코어카드 빌더를 만들려면 다음을 수행해야 합니다.
 
-1. 빈 모바일 스코어카드 템플릿에 액세스합니다.
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. 데이터를 사용하여 스코어카드를 구성하고 저장합니다.
 
-### 빈 모바일 스코어카드 템플릿에 액세스
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-다음 방법 중 하나로 빈 모바일 스코어카드 템플릿에 액세스할 수 있습니다.
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **새 프로젝트 만들기**
 
-1. Adobe Analytics를 열고 **작업 공간** 탭을 클릭합니다.
-2. **새 프로젝트 만들기** 단추를 클릭하고 빈 **빈 모바일 스코어카드** 프로젝트 템플릿을 선택합니다.
-3. **만들기** 단추를 클릭합니다.
+1. Adobe Analytics를 열고 **[!UICONTROL 작업 공간]** 탭을 클릭합니다.
+2. **[!UICONTROL 새 프로젝트 만들기]** 단추를 클릭하고 빈 **[!UICONTROL 빈 모바일 스코어카드]** 프로젝트 템플릿을 선택합니다.
+3. **[!UICONTROL 만들기]** 단추를 클릭합니다.
 
 ![스코어카드 템플릿](assets/new_template.png)
 
 **프로젝트 추가**
 
-**프로젝트** 화면의 **구성 요소** 탭에서 **추가** 단추를 클릭하고 **모바일 스코어카드**&#x200B;를 선택합니다.
+**[!UICONTROL 프로젝트]** 화면의 **[!UICONTROL 구성 요소]** 탭에서 **[!UICONTROL 추가]** 단추를 클릭하고 **[!UICONTROL 모바일 스코어카드]**&#x200B;를 선택합니다.
 
 ![프로젝트 추가](assets/add_project.png)
 
-**Analytics 도구 사용**
+**툴 [!DNL Analytics] 사용**
 
-Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 선택합니다. 다음에 나오는 화면에서 **스코어카드 만들기** 단추를 클릭합니다.
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### 데이터를 사용하여 스코어카드 구성 및 저장
 
 스코어카드 템플릿을 구현하려면:
 
-1. **속성**(오른쪽 레일)에서 데이터를 사용할 **프로젝트 보고서 세트**&#x200B;를 지정합니다.
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![보고서 세트 선택](assets/properties_save.png)
 
-2. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **여기에 지표 끌어다 놓기** 영역으로 끌어다 놓습니다. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
 
    ![타일 추가](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
    *각 타일에서 관련 차원 목록에 대한 최상위 항목 등, 지표에 대한 추가 정보를 표시하는 상세 보기에 액세스할 수 있습니다.*
 
 
-3. 지표에 관련 차원을 추가하려면 왼쪽 패널에서 차원을 끌어서 타일에 놓습니다. 예를 들면 적절한 차원(이 예제의 경우 **DMA 영역**)을 타일에 끌어다 놓아 **고유 방문자 수** 지표에 추가할 수 있습니다. 추가한 차원은 타일별 **속성**&#x200B;의 분류 섹션에 표시됩니다. 각 타일에 여러 차원을 추가할 수 있습니다.
+3. 지표에 관련 차원을 추가하려면 왼쪽 패널에서 차원을 끌어서 타일에 놓습니다. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. 각 타일에 여러 차원을 추가할 수 있습니다.
 
    ![차원 추가](assets/layer_dimensions.png)
 
    차원을 스코어카드 캔버스에 끌어다 놓아 모든 타일에 추가할 수도 있습니다.
 
-   스코어카드 빌더에서 타일을 클릭하면 오른쪽 레일에 해당 타일과 연관된 속성 및 특성이 표시됩니다. 이 레일에서 타일에 새 **제목**&#x200B;을 제공하고, 왼쪽 레일에서 끌어다 놓는 대신 구성 요소를 지정하여 타일을 구성할 수 있습니다.
+   스코어카드 빌더에서 타일을 클릭하면 오른쪽 레일에 해당 타일과 연관된 속성 및 특성이 표시됩니다. 이 레일에서 타일에 새 **[!UICONTROL 제목]**&#x200B;을 제공하고, 왼쪽 레일에서 끌어다 놓는 대신 구성 요소를 지정하여 타일을 구성할 수 있습니다.
 
    또한 타일을 클릭하면 앱에서 분류 보기가 경영진 사용자에게 표시되는 방법이 동적 팝업에 나타납니다. 차원이 타일에 적용되지 않은 경우 분류 차원은 기본 날짜 범위에 따라 **시간** 또는 **일**&#x200B;이 됩니다.
 
@@ -106,21 +106,21 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
    타일에 추가된 각 차원이 앱의 상세 보기에서 드롭다운 목록에 어떻게 표시되는지 확인합니다. 그러면 경영진 사용자는 드롭다운 목록에 나열된 옵션 중에서 선택할 수 있습니다.
 
-4. 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 직접 끌어서 놓습니다. 스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics 작업 공간에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)합니다.
+4. 세그먼트를 개별 타일에 적용하려면 왼쪽 패널의 세그먼트를 타일 위에 직접 끌어서 놓습니다. 스코어카드의 모든 타일에 세그먼트를 적용하려면 스코어카드의 맨 위에 타일을 놓습니다. 또는 날짜 범위 아래의 필터 메뉴에서 세그먼트를 선택하여 세그먼트를 적용할 수도 있습니다. Adobe Analytics 작업 공간에서 수행한 것과 동일한 방식으로 [스코어카드에 필터를 구성하고 적용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)합니다.
 
    ![필터용 세그먼트 빌드](assets/segment_ui.png)
 
-5. 마찬가지로 전체 스코어카드에 적용된 구성 요소를 제거하려면 타일 바깥쪽에 있는 스코어카드의 아무 곳이나 클릭한 다음 **모바일 고객** 세그먼트에 대해 아래에 표시된 대로 구성 요소를 마우스로 가리키면 표시되는 **x**&#x200B;를 클릭하여 제거합니다.
+5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
 
    ![Remove_components](assets/new_remove.png)
 
-6. 스코어카드 **속성**&#x200B;에서 다음을 선택적으로 지정할 수도 있습니다.
+6. 스코어카드 **[!UICONTROL 속성]**&#x200B;에서 다음을 선택적으로 지정할 수도 있습니다.
 
-   * **기본 날짜 범위**. 여기서 지정하는 범위는 경영진 사용자가 앱에 있는 스코어카드에 처음 액세스할 때 적용된 것과 동일합니다.
+   * A **[!UICONTROL Default date range]**. 여기서 지정하는 범위는 경영진 사용자가 앱에 있는 스코어카드에 처음 액세스할 때 적용된 것과 동일합니다.
 
-   * **비교 날짜 범위**
+   * A **[!UICONTROL Comparison date range]**
 
-   * 전체 스코어카드에 적용할 모든 **세그먼트**
+   * 전체 스코어카드에 적용할 모든 **[!UICONTROL 세그먼트]**
 
 7. 스코어카드에 이름을 지정하려면 화면 왼쪽 상단의 네임스페이스를 클릭하고 새 이름을 입력합니다.
 
@@ -130,22 +130,22 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
 스코어카드를 경영진 사용자와 공유하려면:
 
-1. **공유** 메뉴를 클릭하고 **스코어카드 공유**&#x200B;를 선택합니다.
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. **공유** 양식에서 다음 방법으로 필드를 작성합니다.
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * 스코어카드의 이름 제공
    * 스코어카드에 대한 설명 제공
    * 관련 태그 추가
    * 스코어카드 수신자 지정
 
-3. **공유**&#x200B;를 클릭합니다.
+3. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
 ![Share_Scorecards](assets/new_share.png)
 
 스코어카드를 공유하면 수신자가 자신의 Analytics 대시보드에서 액세스할 수 있습니다. 스코어카드 빌드에서 스코어카드를 추가로 변경하면 공유 스코어카드에서 자동으로 업데이트됩니다. 경영진 사용자가 자신의 앱에서 스코어카드를 새로 고치면 변경 사항이 표시됩니다.
 
-새 구성 요소를 추가하여 스코어카드를 업데이트하는 경우 경영진 사용자가 이러한 변경 사항에 액세스할 수 있도록 스코어카드를 다시 공유(그리고 **포함된 구성 요소 공유** 옵션 선택)할 수 있습니다.
+새 구성 요소를 추가하여 스코어카드를 업데이트하는 경우 경영진 사용자가 이러한 변경 사항에 액세스할 수 있도록 스코어카드를 다시 공유(그리고 **[!UICONTROL 포함된 구성 요소 공유]** 옵션 선택)할 수 있습니다.
 
 ## 앱을 사용하여 경영진 설정
 
@@ -159,7 +159,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 * 경영진 사용자에게 Adobe Analytics에 대한 유효한 로그인 권한이 있습니다.
 * 경영진 사용자에 대한 모바일 스코어카드를 올바르게 생성하고 이러한 스코어카드를 해당 사용자와 공유합니다
 * Analysis Workspace 및 스코어카드가 기반으로 하는 보고서 세트에 액세스할 수 있습니다.
-* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **포함된 구성 요소 공유** 옵션을 선택할 수 있습니다.
+* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **[!UICONTROL 포함된 구성 요소 공유]** 옵션을 선택할 수 있습니다.
 
 ### 앱을 사용하여 경영진 사용자 지원
 
@@ -169,22 +169,22 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
    **iOS를 사용하는 경영진 사용자:**
 
-   * 다음 링크(**도구** > **대시보드** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [iOS 링크](https://apple.co/2zXq0aN)
    **Android를 사용하는 경영진 사용자:**
 
-   * 다음 링크(**도구** > **대시보드** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드, 설치 및 엽니다.
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Android 링크](https://bit.ly/2LM38Oo)
    다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
 
    ![앱 시작 화면](assets/welcome.png)
 
-2. 경영진 사용자가 스코어카드에 액세스할 수 있도록 지원합니다. 경영진 사용자가 앱에 로그인하면 **회사 선택** 화면이 표시됩니다. 이 화면에 경영진 사용자가 속한 로그인 회사가 나열됩니다. 경영진 사용자가 스코어카드에 도달하도록 지원하려면:
+2. 경영진 사용자가 스코어카드에 액세스할 수 있도록 지원합니다. 경영진 사용자가 앱에 로그인하면 **[!UICONTROL 회사 선택]** 화면이 표시됩니다. 이 화면에 경영진 사용자가 속한 로그인 회사가 나열됩니다. 경영진 사용자가 스코어카드에 도달하도록 지원하려면:
 
    * 공유한 스코어카드에 적용되는 로그인 회사 또는 Experience Cloud 조직의 이름을 탭합니다. 스코어카드 목록에는 해당 로그인 회사 아래에 경영진과 공유된 모든 스코어카드가 표시됩니다.
-   * 해당되는 경우 **가장 최근에 수정됨**&#x200B;별로 이 목록을 정렬할 수 있습니다.
+   * 해당되는 경우 **[!UICONTROL 가장 최근에 수정됨]**&#x200B;별로 이 목록을 정렬할 수 있습니다.
    * 스코어카드의 이름을 탭하여 봅니다.
 
    ![회사 선택](assets/accesscard.png)
@@ -201,7 +201,7 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
    * 경영진 사용자가 올바른 Analytics 인스턴스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![타일 설명](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Analytics에서 **도구** 메뉴를 클릭하고 **대시보드**&#x200B;를 �
 
    * 같은 방법으로 위에 표시된 분류 보기 내에서 날짜 범위를 변경할 수도 있습니다.
 
-   * 탭한 간격(**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션(현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **비교 대상** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **완료**&#x200B;를 탭합니다. **날짜 범위** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
+   * 탭한 간격(**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션(현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
 6. 이 앱에 대한 피드백을 남기려면:
 
    1. 앱 화면의 오른쪽 상단에서 설정 아이콘을 누릅니다.
-   2. **설정** 화면에서 **피드백** 옵션을 탭합니다.
+   2. **[!UICONTROL 설정]** 화면에서 **[!UICONTROL 피드백]** 옵션을 탭합니다.
    3. 피드백 남기기에 대한 옵션을 탭하여 봅니다.
 
       ![설정 화면](assets/settings.png)
 
-7. 환경 설정을 변경하려면 위에 표시된 **환경 설정** 옵션을 누릅니다. 환경 설정에서 생체 인식 로그인을 켜거나 아래에 표시된 대로 다크 모드로 앱을 설정할 수 있습니다.
+7. 환경 설정을 변경하려면 위에 표시된 **[!UICONTROL 환경 설정]** 옵션을 누릅니다. 환경 설정에서 생체 인식 로그인을 켜거나 아래에 표시된 대로 다크 모드로 앱을 설정할 수 있습니다.
 
    ![다크 모드](assets/darkmode.png)
 
