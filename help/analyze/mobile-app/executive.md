@@ -1,11 +1,11 @@
 ---
 description: 대시보드 스코어카드 사용 지침
 title: Adobe Analytics 대시보드 경영진 안내서
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,13 +53,13 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 **iOS를 사용하는 경영진 사용자:**
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [iOS 링크](https://apple.co/2zXq0aN)
 
 **Android를 사용하는 경영진 사용자:**
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [Android 링크](https://bit.ly/2LM38Oo)
 
