@@ -1,20 +1,20 @@
 ---
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2380'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Analytics 대시보드에 대한 큐레이터 안내서
 
-다음 정보는 Adobe Analytics의 조정자에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 이 정보를 보여주는 비디오를 보려면 Adobe Analytics 대시보드 Scorecard Builder 비디오를 참조하십시오.
+다음 정보는 Adobe Analytics의 조정자에게 경영진 사용자를 위한 대시보드를 구성하고 제공하는 방법에 대해 설명합니다. 이 정보를 보여주는 비디오를 보려면 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/34544?captions=kor)
 
 ## 소개
 
@@ -51,12 +51,12 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 스코어카드 빌더를 만들려면 다음을 수행해야 합니다.
 
-1. Access the [!UICONTROL Blank Mobile Scorecard] template.
+1. [!UICONTROL 빈 모바일 스코어카드] 템플릿에 액세스합니다.
 2. 데이터를 사용하여 스코어카드를 구성하고 저장합니다.
 
-### Access the [!UICONTROL Blank Mobile Scorecard] template
+### [!UICONTROL 빈 모바일 스코어카드] 템플릿에 액세스
 
-You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
+다음 방법 중 하나로 [!UICONTROL 빈 모바일 스코어카드] 템플릿에 액세스할 수 있습니다.
 
 **새 프로젝트 만들기**
 
@@ -72,19 +72,19 @@ You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the fo
 
 ![프로젝트 추가](assets/add_project.png)
 
-**툴 [!DNL Analytics] 사용**
+**[!DNL Analytics] 도구 사용**
 
-In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
+[!DNL Analytics]에서 **[!UICONTROL 도구]** 메뉴를 클릭하고 **[!UICONTROL Analytics 대시보드(모바일 앱)를 선택합니다]**. 다음에 나오는 화면에서 **[!UICONTROL 새 스코어카드 만들기]** 단추를 클릭합니다.
 
 ### 데이터를 사용하여 스코어카드 구성 및 저장
 
 스코어카드 템플릿을 구현하려면:
 
-1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
+1. **[!UICONTROL 속성]**(오른쪽 레일)에서 데이터를 사용할 **[!UICONTROL 프로젝트 보고서 세트]**&#x200B;를 지정합니다.
 
    ![보고서 세트 선택](assets/properties_save.png)
 
-2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
+2. 스코어카드에 새 타일을 추가하려면 왼쪽 패널의 지표를 **[!UICONTROL 여기에 지표 끌어다 놓기]** 영역으로 끌어다 놓습니다. 비슷한 작업 과정을 사용하여 두 타일 사이에 지표를 삽입할 수도 있습니다.
 
    ![타일 추가](assets/build_list.png)
 
@@ -92,7 +92,7 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
    *각 타일에서 관련 차원 목록에 대한 최상위 항목 등, 지표에 대한 추가 정보를 표시하는 상세 보기에 액세스할 수 있습니다.*
 
 
-3. 지표에 관련 차원을 추가하려면 왼쪽 패널에서 차원을 끌어서 타일에 놓습니다. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. 각 타일에 여러 차원을 추가할 수 있습니다.
+3. 지표에 관련 차원을 추가하려면 왼쪽 패널에서 차원을 끌어서 타일에 놓습니다. 예를 들면 적절한 차원(이 예제의 경우 **[!DNL DMA Region]**)을 타일에 끌어다 놓아 **[!UICONTROL 고유 방문자 수]** 지표에 추가할 수 있습니다. 추가한 차원은 타일별 **[!UICONTROL 속성]**&#x200B;의 분류 섹션에 표시됩니다. 각 타일에 여러 차원을 추가할 수 있습니다.
 
    ![차원 추가](assets/layer_dimensions.png)
 
@@ -110,15 +110,15 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
    ![필터용 세그먼트 빌드](assets/segment_ui.png)
 
-5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
+5. 마찬가지로 전체 스코어카드에 적용된 구성 요소를 제거하려면 타일 바깥쪽에 있는 스코어카드의 아무 곳이나 클릭한 다음 **[!DNL Mobile Customers]** 세그먼트에 대해 아래에 표시된 대로 구성 요소를 마우스로 가리키면 표시되는 **x**&#x200B;를 클릭하여 제거합니다.
 
    ![Remove_components](assets/new_remove.png)
 
 6. 스코어카드 **[!UICONTROL 속성]**&#x200B;에서 다음을 선택적으로 지정할 수도 있습니다.
 
-   * A **[!UICONTROL Default date range]**. 여기서 지정하는 범위는 경영진 사용자가 앱에 있는 스코어카드에 처음 액세스할 때 적용된 것과 동일합니다.
+   * **[!UICONTROL 기본 날짜 범위]**. 여기서 지정하는 범위는 경영진 사용자가 앱에 있는 스코어카드에 처음 액세스할 때 적용된 것과 동일합니다.
 
-   * A **[!UICONTROL Comparison date range]**
+   * **[!UICONTROL 비교 날짜 범위]**
 
    * 전체 스코어카드에 적용할 모든 **[!UICONTROL 세그먼트]**
 
@@ -130,9 +130,9 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
 스코어카드를 경영진 사용자와 공유하려면:
 
-1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
+1. **[!UICONTROL 공유]** 메뉴를 클릭하고 **[!UICONTROL 스코어카드 공유]**&#x200B;를 선택합니다.
 
-2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
+2. **[!UICONTROL 모바일 스코어카드 공유]** 양식에서 다음 방법으로 필드를 작성합니다.
 
    * 스코어카드의 이름 제공
    * 스코어카드에 대한 설명 제공
@@ -147,7 +147,7 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
 새 구성 요소를 추가하여 스코어카드를 업데이트하는 경우 경영진 사용자가 이러한 변경 사항에 액세스할 수 있도록 스코어카드를 다시 공유(그리고 **[!UICONTROL 포함된 구성 요소 공유]** 옵션 선택)할 수 있습니다.
 
-## 앱을 사용하여 경영진 설정
+## 앱을 사용하여 경영진 준비
 
 경우에 따라 경영진 사용자는 앱에 액세스하고 앱을 사용하기 위해 추가 지원이 필요할 수 있습니다. 이 섹션에서는 그러한 지원을 제공하는 데 도움이 되는 정보를 제공합니다.
 
@@ -169,12 +169,12 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
    **iOS를 사용하는 경영진 사용자:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * 다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
       [iOS 링크](https://apple.co/2zXq0aN)
    **Android를 사용하는 경영진 사용자:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * 다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
       [Android 링크](https://bit.ly/2LM38Oo)
    다운로드하여 설치했으면 경영진 사용자가 자신의 기존 Adobe Analytics 자격 증명을 사용하여 앱에 로그인할 수 있습니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
@@ -201,7 +201,7 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
    * 경영진 사용자가 올바른 Analytics 인스턴스에 로그인할 수 있으며 스코어카드가 공유되었는지 확인합니다.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
+3. 공유하는 스코어카드에 타일이 표시되는 방식을 경영진 사용자에게 설명합니다(아래 첫 번째 스코어카드가 어두운 모드로 설정됨. 경영진 사용자가 이 보기 옵션을 선호한다고 생각되면 아래 **[!UICONTROL 환경 설정]** 참조).
 
    ![타일 설명](assets/newexplain.png)
 
@@ -262,4 +262,4 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
 >[!IMPORTANT]
 >
->2020년 10월부터 Adobe은 &quot;Adobe Analytics 대시보드&quot; 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 점차 출시하고 있습니다. 이 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다(현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 그만두려면 CSM에 문의하십시오.
+>2020년 10월부터 Adobe에서는 &quot;Adobe Analytics 대시보드&quot; 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 출시하고 있습니다. 이러한 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다(현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 사용하지 않으려면 CSM에 문의하십시오.
