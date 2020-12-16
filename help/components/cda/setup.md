@@ -2,10 +2,10 @@
 title: 교차 장치 분석 설정
 description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,16 @@ ht-degree: 91%
 >
 >이 절차를 수행하기 전에 모든 전제 조건을 충족해야 합니다. 모든 전제 조건을 충족하지 않으면 기능을 사용할 수 없거나 기능이 작동하지 않습니다. 사전 요구 사항 및 제한 사항에 대해서는 [개요 페이지](overview.md)와 원하는 연결 방법([필드 기반 결합](field-based-stitching.md) 또는 [Device Graph](device-graph.md))을 참조하십시오.
 
-## CDA에 사용할 수 있게 할 장치 간 보고서 세트 선택
+## 고객 성공 관리자에게 문의하여 CDA가 크로스 디바이스 보고서 세트에 제공되도록 하십시오.
 
-조직에 CDA를 사용할 수 있는 권한이 제공되면 사용할 보고서 세트를 선택합니다. 이 선택 내용은 Adobe 계정 관리자를 통해 전달될 수 있습니다. 그러면 선택한 보고서 세트를 CDA 처리가 가능하도록 Adobe에서 활성화합니다.
+CDA는 Adobe 엔지니어링을 통해 크로스 디바이스 보고서 세트에 구축됩니다. 다음 정보는 고객 성공 관리자에게 문의하십시오.
+
+* Adobe Experience Cloud 조직 ID(@AdobeOrg으로 끝나는 영숫자 문자열)
+* CDA로 활성화할 장치 간 보고서 세트에 대한 보고서 세트 ID
+* 사용할 CDA의 방법(필드 기반 스티칭, Adobe 전용 그래프 또는 Adobe 협력 그래프)
+* 필드 기반 스티칭을 사용하려면 사용자 ID가 포함된 prop 또는 eVar
+
+CSM에 이 정보를 제공하면, CDA 처리를 위해 선택한 보고서 세트를 사용하도록 Adobe 엔지니어링 센터에서 작업합니다.
 
 ## 장치 간 가상 보고서 세트를 만들어 장치 간 보기 표시
 
@@ -43,7 +50,7 @@ ht-degree: 91%
 가상 보고서 세트에서 교차 디바이스 분석이 활성화되면 다음 변경 사항에 유의하십시오.
 
 * 가상 보고서 세트 이름 옆에 새 장치 간 아이콘이 나타납니다. 이 아이콘은 장치 간 가상 보고서 세트에만 사용할 수 있습니다.
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. 이 차원은 해당 히트에 대한 Experience Cloud ID를 해당 시간에 장치 그래프에서 알고 있는지 확인합니다.
-* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
-* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
+* [식별된 상태](../dimensions/identified-state.md)라는 레이블이 지정된 새 차원을 사용할 수 있습니다. 이 차원은 해당 히트에 대한 Experience Cloud ID를 해당 시간에 장치 그래프에서 알고 있는지 확인합니다.
+* [사람](../metrics/people.md) 및 [고유 장치](../metrics/unique-devices.md)로 레이블이 지정된 새 지표를 사용할 수 있습니다.
+* 지표 [고유 방문자](../metrics/unique-visitors.md)은 &#39;사람&#39; 및 &#39;고유 장치&#39;로 대체되므로 사용할 수 없습니다.
 * 세그먼트를 작성할 때 &#39;방문자&#39; 세그먼트 컨테이너는 &#39;사람&#39; 컨테이너로 대체됩니다.
