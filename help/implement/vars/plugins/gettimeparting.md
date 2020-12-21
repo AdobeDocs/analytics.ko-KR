@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 특정 동작이 발생하는 시간을 측정합니다.
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 82%
+source-wordcount: '814'
+ht-degree: 84%
 
 ---
 
@@ -23,10 +23,6 @@ Analysis Workspace는 형식이 이 플러그인과 약간 다르게 지정된 �
 >[!IMPORTANT]
 >
 >이 플러그인의 버전 4.0+은 이전 버전과 상당히 다릅니다. 따라서 이 플러그인을 &quot;처음부터&quot;로 새로 구현하는 것이 좋습니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
-
->[!IMPORTANT]
->
->이 플러그인의 이전 버전은 향후 몇 년 동안 제공되지 않았습니다. 이 플러그인의 이전 버전을 사용하는 경우 JavaScript 오류 및 데이터 손실을 방지하기 위해 최신 버전으로 업그레이드할 것을 적극 권장합니다. 이 플러그인을 업그레이드할 수 없는 경우 플러그인 코드의 `s._tpdst` 변수에 향후 적절한 연도가 포함되어 있는지 확인하십시오. 이 변수는 최신 버전의 플러그인에 없거나 필요하지 않습니다.
 
 ## Adobe Experience Platform Launch 확장을 사용하여 플러그인 설치
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * 포인트 릴리스(다시 컴파일됨, 더 작은 코드 크기)
 * 일광 절약 시간제 시작/종료 날짜가 이제 자동으로 검색되므로 `tpDST` 매개 변수를 사용할 필요가 없어졌습니다.
+
+>[!CAUTION]
+>
+>이 플러그인의 이전 버전은 향후 몇 년 동안 제공되지 않았습니다. 이 플러그인의 이전 버전을 사용하는 경우 JavaScript 오류 및 데이터 손실을 방지하기 위해 최신 버전으로 업그레이드할 것을 적극 권장합니다. 이 플러그인을 업그레이드할 수 없는 경우 플러그인 코드의 `s._tpdst` 변수에 향후 적절한 연도가 포함되어 있는지 확인하십시오.
 
 ### 4.0(2016년 8월 22일)
 
