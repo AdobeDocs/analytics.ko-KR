@@ -2,11 +2,11 @@
 description: '[계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.'
 title: 참조  기본 함수
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits).]에도 허용됩니다.
+>[!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]은 [!DNL MAXV(PageViews + Visits)]에도 사용할 수 있습니다.
 
 ## 테이블 함수 대 행 함수 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -101,9 +101,9 @@ EXP(metric)
 
 거듭제곱 연산자
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y회)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## 평균(테이블) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -161,24 +161,10 @@ modulo(modulo(x,y)+y,y)
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 인수 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>지표</i> </td> 
-   <td colname="col2"> 상대적 순위를 정의하는 지표 열. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> 0에서 100까지 범위의 백분위수 값. </td> 
-  </tr> 
- </tbody> 
-</table>
+| 인수 | 설명 |
+| --- | --- |
+| *지표* | 상대적 순위를 정의하는 지표 열. |
+| *k* | 0에서 100까지 범위의 백분위수 값. |
 
 ## 사분위수(테이블) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ PERCENTILE(metric,k)
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 인수 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>지표</i> </td> 
-   <td colname="col2"> 사분위수 값이 필요한 지표. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> 반환할 *값을 나타냅니다. </td> 
-  </tr> 
- </tbody> 
-</table>
+| 인수 | 설명 |
+| --- | --- |
+| *지표* | 사분위수 값이 필요한 지표. |
+| *quart* | 반환할 *값을 나타냅니다. |
 
 **quart* = 0일 경우, QUARTILE은 최소값을 반환합니다. *quart* = 1일 경우, QUARTILE은 첫 번째 사분위수(25번째 백분위수)를 반환합니다. *quart* = 2일 경우, QUARTILE은 첫 번째 사분위수(50번째 백분위수)를 반환합니다. *quart* = 3일 경우, QUARTILE은 첫 번째 사분위수(75번째 백분위수)를 반환합니다. *quart* = 4일 경우에는, QUARTILE이 최대값을 반환합니다.
 
@@ -224,9 +196,9 @@ ROUND(metric)
 자리 매개 변수가 없는 반올림은 자리 매개 변수가 0인 반올림과 같습니다. 즉 가장 가까운 정수로 반올림하는 것과 같습니다. 자리 매개 변수를 사용하면 소수의 오른쪽에 그만큼 많은 자리를 반환합니다. 자리가 음수이면, 소수의 왼쪽에 0들을 반환합니다.
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | 인수 | 설명 |
-|---|---|
+| --- | --- |
 | *number* | 제곱근이 필요한 지표. |
 
 ## 표준 편차(테이블) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ STDEV 방정식은 다음과 같습니다.
 
 ![](assets/std_dev.png)
 
-여기서 x는 샘플 평균(*지표*)이고 *n*&#x200B;은 샘플의 크기입니다.
+여기서 *x*&#x200B;은 각 샘플(*지표*)의 값입니다. *x̄*&#x200B;은 모집단 평균이고 *n*&#x200B;은 모집단 크기입니다.
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> 인수</b> </td> 
-   <td> <b> 설명</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> metric</i> </b> </td> 
-   <td> <p> 표준 편차에 필요한 지표. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 인수 | 설명 |
+| --- | --- |
+| *지표* | 표준 편차에 필요한 지표. |
 
 ## 분산(테이블) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ VARIANCE 방정식은 다음과 같습니다.
 
 ![](assets/variance_eq.png)
 
-여기서 x는 샘플 평균 MEAN(*지표*)이고 *n*&#x200B;은 샘플의 크기입니다.
+여기서 *x*&#x200B;은 각 샘플(*지표*)의 값입니다. *x̄*&#x200B;은 모집단 평균이고 *n*&#x200B;은 모집단 크기입니다.
 
 ```
 VARIANCE(metric)
 ```
 
 | 인수 | 설명 |
-|---|---|
+| --- | --- |
 | *지표* | 분산이 필요한 지표. |
 
 변량을 계산하려면 전체 숫자 열을 확인합니다. 그 숫자 목록에서 먼저 평균을 계산합니다. 평균을 계산한 다음 각 항목으로 이동하여 다음을 수행합니다.
 
 1. 숫자에서 평균을 뺍니다.
-
-2. 계산 결과를 제곱합니다.
-
-3. 그 값을 총계에 더합니다.
+1. 계산 결과를 제곱합니다.
+1. 그 값을 총계에 더합니다.
 
 전체 열에 대해 반복하여 총계 값을 하나 얻습니다. 그 총계를 열의 항목 수(열 개수)로 나눕니다. 이렇게 해서 얻은 숫자가 열의 변량입니다. 이 값은 하나의 값이지만 숫자 열로 표시됩니다.
 
@@ -321,10 +282,4 @@ VARIANCE(metric)
 
 3
 
-이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다. Ad Hoc Analysis에서는 다음과 같이 표시됩니다.
-
-1 2/3
-
-2 2/3
-
-3 2/3
+이 열의 평균은 2입니다. 열의 변량은 (1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3입니다.
