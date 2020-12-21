@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 특정 동작이 발생하는 시간을 측정합니다.
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '828'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,11 @@ Analysis Workspace는 형식이 이 플러그인과 약간 다르게 지정된 �
 
 >[!IMPORTANT]
 >
->이 플러그인의 버전 4.0+은 이전 버전과 크게 다릅니다. 따라서 이 플러그인을 &quot;처음부터&quot;로 새로 구현하는 것이 좋습니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
+>이 플러그인의 버전 4.0+은 이전 버전과 상당히 다릅니다. 따라서 이 플러그인을 &quot;처음부터&quot;로 새로 구현하는 것이 좋습니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
+
+>[!IMPORTANT]
+>
+>이 플러그인의 이전 버전은 향후 몇 년 동안 제공되지 않았습니다. 이 플러그인의 이전 버전을 사용하는 경우 JavaScript 오류 및 데이터 손실을 방지하기 위해 최신 버전으로 업그레이드할 것을 적극 권장합니다. 이 플러그인을 업그레이드할 수 없는 경우 플러그인 코드의 `s._tpdst` 변수에 향후 적절한 연도가 포함되어 있는지 확인하십시오. 이 변수는 최신 버전의 플러그인에 없거나 필요하지 않습니다.
 
 ## Adobe Experience Platform Launch 확장을 사용하여 플러그인 설치
 
@@ -105,11 +109,11 @@ s.eVarX = getTimeParting("America/Los_Angeles");
 s.eVarX = getTimeParting();
 ```
 
-가나는 UTC/GMT 시간대 내에 있습니다. 이 예에서는 이러한 상황에서는 플러그인 인수가 필요하지 않음을 보여줍니다.
+가나는 UTC/GMT 시간대 내에 있습니다. 이 예에서는 UTC/GMT에 플러그인 인수가 필요하지 않음을 보여줍니다.
 
 ### Internet Explorer 브라우저 소재 확인
 
-Internet Explorer 방문자의 시간 분할 데이터(IE 브라우저에서 반환된 값은 방문자의 현지 시간만 사용하므로)를 제외하려면 다음 샘플을 사용하십시오.
+Internet Explorer 방문자의 시간 분할 데이터를 제외하려면 다음 샘플을 사용합니다. IE 브라우저에서 반환되는 값은 방문자의 로컬 시간에만 표시됩니다.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,39 +122,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### 호출 결과
 
-콜로라도의 덴버 출신 방문자가 2020년 8월 31일 오전 9:15에 사이트를 방문하는 경우,
-
-다음 코드를 실행하면...
+Denver Colorado의 방문자가 2020년 8월 31일 오전 9:15에 사이트를 방문하는 시나리오를 생각해 보십시오.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-...s.eVar10이 &quot;year=2020 | month=August | date=31 | day=Friday | time=6:15 PM&quot;과 동일하게 설정됩니다.
-
-다음 코드를 실행하면...
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-...s.eVar10이 &quot;year=2020 | month=August | date=31 | day=Friday | time=6:15 AM&quot;과 동일하게 설정됩니다.
-
-다음 코드...
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-...를 실행하면 s.eVar10이 &quot;year=2020 | month=August | date=31 | day=Friday | time=8:45 PM&quot;과 동일하게 설정됩니다.
-
-그리고 다음 코드를 실행하면...
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-...s.eVar10이 &quot;year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM&quot;과 동일하게 설정됩니다.
 
 ## 버전 기록
 
