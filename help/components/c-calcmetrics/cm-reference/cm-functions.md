@@ -2,11 +2,11 @@
 description: '[계산된 지표 빌더]를 사용하면 [고급 계산 지표]에 통계 및 수학 함수를 적용할 수 있습니다.'
 title: 참조  기본 함수
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->[!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]은 [!DNL MAXV(PageViews + Visits)]에도 사용할 수 있습니다.
+>[!DNL metric]가 함수에서 인수로 식별되는 경우, 지표의 다른 표현식도 허용됩니다. 예를 들어 [!DNL MAXV(metrics)]는 [!DNL MAXV(PageViews + Visits)]에도 허용됩니다.
 
 ## 테이블 함수 대 행 함수 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -238,7 +238,7 @@ STDEV 방정식은 다음과 같습니다.
 
 ![](assets/std_dev.png)
 
-여기서 *x*&#x200B;은 각 샘플(*지표*)의 값입니다. *x̄*&#x200B;은 모집단 평균이고 *n*&#x200B;은 모집단 크기입니다.
+여기서 *x*&#x200B;는 각 표본(*metric*)의 값입니다. *x̄*&#x200B;는 모집단 평균이고 *n*&#x200B;은 모집단 크기입니다.
 
 ```
 STDEV(metric)
@@ -256,7 +256,7 @@ VARIANCE 방정식은 다음과 같습니다.
 
 ![](assets/variance_eq.png)
 
-여기서 *x*&#x200B;은 각 샘플(*지표*)의 값입니다. *x̄*&#x200B;은 모집단 평균이고 *n*&#x200B;은 모집단 크기입니다.
+여기서 *x*&#x200B;는 각 표본(*metric*)의 값입니다. *x̄*&#x200B;는 모집단 평균이고 *n*&#x200B;은 모집단 크기입니다.
 
 ```
 VARIANCE(metric)
