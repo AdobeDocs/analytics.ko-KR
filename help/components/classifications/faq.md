@@ -1,11 +1,11 @@
 ---
 title: 분류 FAQ
 description: 분류 사용에 대한 FAQ입니다.
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## 특수 문자가 포함된 값을 분류하려면 어떻게 해야 합니까?
 
-보고에 쉼표나 큰따옴표와 같은 특수 문자를 사용하는 것은 일반적으로 권장되지 않습니다. 그러나 사용해야 하는 경우가 있습니다. 보고 값에 분류할 문자가 포함되어 있는 경우 다음 절차를 수행하십시오.
+보고에 쉼표나 큰따옴표와 같은 특수 문자를 사용하는 것은 일반적으로 권장되지 않습니다. 그러나 사용해야 하는 경우가 있습니다. 보고 값에 분류할 문자를 포함하는 경우 다음 단계를 수행하십시오.
 
 1. Adobe Analytics에 로그인한 다음, **[!UICONTROL 관리]** > **[!UICONTROL 분류 임포터]**&#x200B;로 이동합니다.
 2. **[!UICONTROL 브라우저 내보내기]** 탭을 클릭합니다.
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 ## Numeric 2 분류란?
 
-Numeric 2 분류를 사용하면 차원 항목을 시간 기반 지표로 분류할 수 있습니다. 이 분류는 2019년 7월에 Analytics UI에서 사용이 중단되었습니다.
+Numeric 2 분류를 사용하면 차원 항목을 시간 기반 지표로 분류할 수 있습니다. 2019년 7월 Adobe Analytics UI에서 중단되었습니다.
