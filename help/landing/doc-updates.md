@@ -2,11 +2,11 @@
 title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -20,10 +20,11 @@ ht-degree: 100%
 * 새로운 기능에 대한 자세한 내용은 도구 사용자 안내서에서 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
 * 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)을 참조하십시오.
 
-## 업데이트 세부 사항
+## 주요 업데이트 세부 사항
 
 | 날짜 | 설명 |
 |---|---|
+| 2020년 11월 | 새로운 구현 검토 문서: <ul><li>[전체 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[집중 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | 2020년 7월 21일 | [교차 장치 분석](/help/components/cda/overview.md)의 주요 업데이트 및 개정 버전. [필드 기반 결합](/help/components/cda/field-based-stitching.md)을 추가했습니다. |
 | 2020년 4월 28일 | [컨텐트 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
 | 2020년 3월 12일 | [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)에 대한 업데이트를 추가했습니다. |
@@ -38,7 +39,7 @@ ht-degree: 100%
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies.md)를 추가했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
-| 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
+| 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
 | 2019년 9월 28일 | [Javascript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
 | 2019년 9월 12일 | [Journey IQ: 교차 장치 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](/help/analyze/pwa/pwa.md)에 대한 새로운 문서 |
