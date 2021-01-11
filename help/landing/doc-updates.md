@@ -2,11 +2,11 @@
 title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies.md)를 추가했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
-| 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
+| 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
 | 2019년 9월 28일 | [Javascript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
 | 2019년 9월 12일 | [Journey IQ: 교차 장치 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](/help/analyze/pwa/pwa.md)에 대한 새로운 문서 |
