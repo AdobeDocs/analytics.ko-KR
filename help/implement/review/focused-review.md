@@ -2,9 +2,9 @@
 title: 집중 검토(각 웹 사이트 릴리스 이후)
 description: 다음 단계에 따라 구현 시 오류가 발생하지 않고 KPI에 맞게 유지되도록 하십시오.
 translation-type: tm+mt
-source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
+source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,9 @@ ht-degree: 0%
 
 시간의 경과에 따른 코드 업데이트는 의도하지 않은 결과를 초래할 수 있습니다. [상위 5개의 KPI](/help/implement/review/define-kpis.md)에 연결된 모든 지표 및 차원이 여전히 제대로 작동하는지 확인해야 합니다. 가장 좋은 방법은 웹 사이트 릴리스 직후 수행하는 것입니다.지난 몇 달 동안 작업을 수행하지 않았다면 *지금*&#x200B;하십시오. 이렇게 하려면:
 
-* 이러한 중요한 지표 및 변수의 시간별 트렌드 보기를 보려면 대시보드를 만들거나 각 지표에 대한 지능형 경고를 설정합니다. 하루 이틀 동안 모니터링하여 원하는 데이터를 얻고 데이터가 정확한지 확인합니다.\
-   변곡점을 찾습니다. 모든 중요한 문제를 즉시 해결할 준비를 하세요. 불일치가 발견되면 데이터 레이어, 태그 관리자 규칙 및 처리 규칙을 검색하여 그 이유를 확인하십시오.
+* 이러한 중요한 지표 및 변수의 시간별 트렌드 보기를 보려면 대시보드를 만듭니다(또는 각 지표에 대해 [지능형 경고](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)를 설정). 하루 이틀 동안 모니터링하여 원하는 데이터를 얻고 데이터가 정확한지 확인합니다. 변곡점을 찾습니다. 모든 중요한 문제를 즉시 해결할 준비를 하세요. 불일치가 발견되면 데이터 레이어, 태그 관리자 규칙 및 처리 규칙을 검색하여 그 이유를 확인하십시오.
 * [Analytics 상태 대시보드](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)를 다시 실행하여 KPI 지표 및 변수의 광범위한 트렌드를 모니터링합니다.
-
-*지표와 변수가 제대로 작동하는지 확인하는 방법에 대한 자세한 내용은 Adobe Analytics Champion Sarah Owen [의 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 팁을 참조하십시오.*
+   *지표와 변수가 제대로 작동하는지 확인하는 방법에 대한 자세한 내용은 Adobe Analytics Champion Sarah Owen [의 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 팁을 참조하십시오.*
 
 ## 3. 사이트의 업데이트된 섹션에서 데이터를 철저히 검사합니다.
 
@@ -41,8 +39,6 @@ ht-degree: 0%
 ## 5. 데이터 품질에서 발견되는 차이를 즉시 해결합니다.
 
 상황을 평가하고 데이터를 수정할 계획을 세우시오. 필요한 사항을 변경하고 설명서를 업데이트한 다음 이해 관계자에게 변경 내용을 알립니다.
-
-
 
 *Adobe Analytics 챔피언 사라 오웬이 바쁜 일정에 따른 검토 작업에 시간을 맞출 수 있는 시간을 소개합니다.*
 
