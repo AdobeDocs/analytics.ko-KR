@@ -2,9 +2,9 @@
 title: 전체 검토
 description: 6개월마다 구현을 검토하여 비즈니스 요구 사항 및 KPI에 맞게 계속 조정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 2. 지표 및 변수가 여전히 제대로 작동하는지 확인합니다.
 
-비즈니스에 중요한 순서대로 모든 지표와 변수를 간단히 검토하여 데이터가 올바르게 수집되는지 확인합니다. 상위 5개의 KPI와 연관된 가장 중요한 지표와 변수로 시작합니다. 이렇게 하려면:
+비즈니스에 중요한 순서대로 모든 지표와 변수를 간단히 검토하여 데이터가 올바르게 수집되는지 확인합니다. 가장 중요한 지표 및 변수(최고 5개의 KPI[와 연관된 지표 및 변수)로 시작합니다. ](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review) 이렇게 하려면:
 
 * 대시보드를 만들어 지표와 변수의 월별 트렌드 보기를 보거나 각 요소에 대한 지능형 경고를 설정하여 예상한 데이터를 얻고 데이터가 정확한지 확인할 수 있습니다. 불일치가 발견되면 데이터 레이어, 태그 관리자 규칙 및 처리 규칙을 검토하여 그 이유를 확인하십시오.
 * 지표 및 변수의 광범위한 트렌드를 모니터링하려면 [Analytics 상태 대시보드](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)를 다시 실행하십시오.
