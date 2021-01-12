@@ -3,9 +3,9 @@ description: 'null'
 title: Adobe Analytics용 Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '895'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe 데이터 커넥터 기술은 2021년 중반에 사용이 종료됩니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 이 통합에는 다음과 같은 주요 이점이 포함됩니다.
 
