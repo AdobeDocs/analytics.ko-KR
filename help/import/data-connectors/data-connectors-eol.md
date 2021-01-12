@@ -2,9 +2,9 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 22%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 지난 10여 년 동안 Adobe Analytics은 고객의 요구 사항을 충족하는 최상의 웹 및 마케팅 분석 솔루션을 제공하고자 노력해 왔습니다. 기술 및 비즈니스 요구 사항이 발전함에 따라 Adobe는 지속적으로 최고 표준을 충족하기 위해 노력하고 있습니다.  안타깝게도 이 통합의 강력한 기능은 이러한 표준을 더 이상 충족하지 않으며 최신 Adobe Analytics 기술 인프라에서는 지원되지 않습니다.
 
-2021년 8월 1일부터 Adobe은 데이터 커넥터 통합을 중단합니다. EOL(End-of-Life)은 모든 기술 제품의 라이프사이클의 일부이며 Adobe은 고객과 파트너에게 가능한 한 원활하게 전환할 계획입니다. 이러한 통합을 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
+**2021년** 8월 1일부터 Adobe은 데이터 커넥터 통합을 중단합니다. EOL(End-of-Life)은 모든 기술 제품의 라이프사이클의 일부이며 Adobe은 고객과 파트너에게 가능한 한 원활하게 전환하는 것을 목표로 하고 있습니다. 이러한 통합을 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
@@ -41,7 +41,7 @@ Adobe 파트너인 경우 Adobe의 새로운 Adobe Exchange 프로그램으로 �
 | Appfigures | Adobe Exchange로 마이그레이션 |
 | Appsee | Adobe Exchange에서 사용 가능 |
 | AppsFlyer | Adobe Exchange로 마이그레이션 |
-| Aprimo 엔터프라이즈 마케팅 참여 |
+| Aprimo 엔터프라이즈 마케팅 참여 | 사용 중단 |
 | Apteligent | Exchange에서 사용 가능 |
 | BlueHornet eMarketing Suite | 사용 중단 |
 | 분기 | Exchange로 마이그레이션 |
