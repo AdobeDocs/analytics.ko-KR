@@ -3,9 +3,9 @@ description: 'null'
 title: Adobe Analytics용 Demandbase Data Connector
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '328'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe 데이터 커넥터 기술은 2021년 중반에 사용이 종료됩니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 이 Adobe® Data Connectors 통합은 Demandbase의 실시간 ID 서비스와 Adobe Analytics의 행동 정보를 결합하여 B2B 조직을 위한 강력한 분석, 최적화 및 컨텐츠 개인화 기회를 만듭니다.
 
