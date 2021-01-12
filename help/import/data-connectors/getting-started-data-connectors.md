@@ -2,10 +2,10 @@
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
 title: Analytics Data Connectors 시작하기
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe는 디지털 전략 및 마케팅 이니셔티브에 대하여 실용적�
 
 >[!IMPORTANT]
 >
->Adobe에서는 2021년 중반부터 Adobe Data Connector 기술을 사용하지 않을 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 **시스템 요구 사항**
 
@@ -86,7 +86,7 @@ Adobe Analytics는 이 파일을 별도의 일별 파일로 데이터 웨어하�
 
 >[!NOTE]
 >
->If the product is defined without an associated event, the `prodView` event automatically fires.
+>연결된 이벤트 없이 제품이 정의된 경우 `prodView` 이벤트가 자동으로 실행됩니다.
 >
 >위의 요구 사항을 충족하지 않으면 해당 리마케팅 세그먼트가 올바르게 보고되지 않습니다.
 
