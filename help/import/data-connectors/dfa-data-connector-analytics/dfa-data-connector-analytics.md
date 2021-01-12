@@ -4,11 +4,11 @@ keywords: DFA
 title: Adobe Analytics용 DFA Data Connector
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe에서는 2021년 중반부터 Adobe Data Connector 기술을 사용하지 않을 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 온라인 시장이 더 복잡해지고 경쟁이 치열해지고 있는 오늘날, 온라인 광고주와 에이전시는 온라인 마케팅 환경에 대한 이해를 높이고 광고 지출에 대한 수익률을 계속해서 향상해야 합니다. 이러한 목표 달성을 지원하기 위해 광고주, 에이전시 및 게시자가 모두 개별 도구를 처리해야 하지만, 전혀 다른 데이터 시스템과 프로세스에서 수동으로 데이터를 집계하는 것이 온라인 마케팅 캠페인의 효과를 방해하여 최적이 아닌 캠페인 성과, 데이터 불일치 및 혼동을 야기할 수 있습니다.
 
@@ -118,7 +118,7 @@ Floodlight Server가 방문자에 대해 오류로 응답하는 경우가 있습
 
 새 JavaScript 코드의 중요한 기능은 버전 1.5와 버전 2.0 간에 구현 변경이 필요하지 않다는 것입니다.
 
-### 버전 2.0 정보 {#section-afd56de0c56c4489bb5ddc5798d6709a}
+### 버전 2.0 정보  {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 최신 DFA 통합 버전은 전체 Floodlight 구성에 대한 데이터를 통합으로 가져옵니다. 2.0 이전 버전에서는 개별 통합이 단일 DFA 광고주에게 연결되었습니다. 이러한 변경 사항을 사용하면 Floodlight 구성 전체에 대한 클릭 수, 노출 횟수 및 비용 지표가 통합된 보고서 세트에 포함됩니다. 또한 그러한 두 사이트가 같은 Floodlight 구성 내에 있을 경우 사이트 간 뷰스루를 추적할 수도 있습니다.
 
@@ -128,7 +128,7 @@ Floodlight Server가 방문자에 대해 오류로 응답하는 경우가 있습
 
 Floodlight 구성이 DFA에서 공유한 구성인 경우 버전 1. 5에서 2.0으로 업그레이드하면 Floodlight 구성 내에서 공유한 모든 광고주가 보고서 세트에 포함됩니다.
 
-### 버전 2.0으로 업그레이드 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### 버전 2.0으로 업그레이드  {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 다음 표는 최신 버전의 통합으로 마이그레이션하는 소유자에 대해 요약한 것입니다.
 
