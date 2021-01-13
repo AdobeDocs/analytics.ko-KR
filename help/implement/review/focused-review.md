@@ -2,7 +2,7 @@
 title: 집중 검토(각 웹 사이트 릴리스 이후)
 description: 다음 단계에 따라 구현 시 오류가 발생하지 않고 KPI에 맞게 유지되도록 하십시오.
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -24,7 +24,8 @@ ht-degree: 0%
 
 * 이러한 중요한 지표 및 변수의 시간별 트렌드 보기를 보려면 대시보드를 만듭니다(또는 각 지표에 대해 [지능형 경고](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)를 설정). 하루 이틀 동안 모니터링하여 원하는 데이터를 얻고 데이터가 정확한지 확인합니다. 변곡점을 찾습니다. 모든 중요한 문제를 즉시 해결할 준비를 하세요. 불일치가 발견되면 데이터 레이어, 태그 관리자 규칙 및 처리 규칙을 검색하여 그 이유를 확인하십시오.
 * [Analytics 상태 대시보드](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)를 다시 실행하여 KPI 지표 및 변수의 광범위한 트렌드를 모니터링합니다.
-   *지표와 변수가 제대로 작동하는지 확인하는 방법에 대한 자세한 내용은 Adobe Analytics Champion Sarah Owen [의 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 팁을 참조하십시오.*
+
+*지표와 변수가 제대로 작동하는지 확인하는 방법에 대한 자세한 내용은 Adobe Analytics Champion Sarah Owen [의 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 팁을 참조하십시오.*
 
 ## 3. 사이트의 업데이트된 섹션에서 데이터를 철저히 검사합니다.
 
