@@ -2,7 +2,7 @@
 title: 집중 검토(각 웹 사이트 릴리스 이후)
 description: 다음 단계에 따라 구현 시 오류가 발생하지 않고 KPI에 맞게 유지되도록 하십시오.
 translation-type: tm+mt
-source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
+source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
