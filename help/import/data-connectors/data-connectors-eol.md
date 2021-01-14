@@ -2,10 +2,10 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 22%
+source-wordcount: '536'
+ht-degree: 25%
 
 ---
 
@@ -34,68 +34,68 @@ Adobe 파트너인 경우 Adobe의 새로운 Adobe Exchange 프로그램으로 �
 
 | 파트너 | 상태 |
 | --- | --- |
-| Acxiom | Adobe Exchange에서 사용 가능 |
-| Adform | Adobe Exchange에서 사용 가능 |
+| Acxiom | 사용 중단 |
+| Adform | 사용 중단 |
 | 조정 | Adobe Exchange로 마이그레이션 |
 | Adobe Campaign | Adobe Exchange로 마이그레이션 |
 | Appfigures | Adobe Exchange로 마이그레이션 |
-| Appsee | Adobe Exchange에서 사용 가능 |
+| Appsee | 사용 중단 |
 | AppsFlyer | Adobe Exchange로 마이그레이션 |
 | Aprimo 엔터프라이즈 마케팅 참여 | 사용 중단 |
-| Apteligent | Exchange에서 사용 가능 |
+| Apteligent | 사용 중단 |
 | BlueHornet eMarketing Suite | 사용 중단 |
 | 분기 | Exchange로 마이그레이션 |
-| BrightEdge 2.0 | Exchange에서 사용 가능 |
+| BrightEdge 2.0 | 사용 중단 |
 | Bronto Software | 사용 중단 |
 | CheetahMail by Experian | Exchange로 마이그레이션 |
-| ClickTale | Exchange에서 사용 가능 |
+| ClickTale | 사용 중단 |
 | Clicktale CA | 사용 중단 |
-| 지휘자 2.0 | Exchange에서 사용 가능 |
-| ContactLab 2.0(연락처 보내기 커넥터) | Exchange에서 사용 가능 |
-| Coradiant TrueSight | Exchange에서 사용 가능 |
-| D&amp;B 방문자 인텔리전스 | Exchange에서 사용 가능 |
+| 지휘자 2.0 | 사용 중단 |
+| ContactLab 2.0(연락처 보내기 커넥터) | 사용 중단 |
+| Coradiant TrueSight | 사용 중단 |
+| D&amp;B 방문자 인텔리전스 | 사용 중단 |
 | Datran Media | 사용 중단 |
-| Decibel Insight | Exchange에서 사용 가능 |
-| 암호 해독기 | Exchange에서 사용 가능 |
+| Decibel Insight | 사용 중단 |
+| 암호 해독기 | 사용 중단 |
 | Delivra | 사용 중단 |
-| Demandbase CA | Exchange에서 사용 가능 |
+| Demandbase CA | 사용 중단 |
 | Demandbase v3 | 사용 중단 |
-| DialogTech | Exchange에서 사용 가능 |
+| DialogTech | 사용 중단 |
 | 광고주(DFA)를 위한 두 번 클릭 | 사용 중단(여기에 추가 정보&#x200B;**DFA EOL 페이지 링크**) |
 | DREAM | 사용 중단 |
 | DREAMmail 2.0 | 사용 중단 |
 | 동적 신호(Digital Vora) | Exchange로 마이그레이션 |
 | eDialog Precision Central | 사용 중단 |
 | eC-messenger | 사용 중단 |
-| Emailvision Campaign Commander | Exchange에서 사용 가능 |
+| Emailvision Campaign Commander | 사용 중단 |
 | emarsys xpress | 사용 중단 |
 | Epsilon Harmony | Exchange로 마이그레이션 |
-| Adobe Analytics용 EveryoneSocial | Exchange에서 사용 가능 |
+| Adobe Analytics용 EveryoneSocial | 사용 중단 |
 | Fiksu | 사용 중단 |
 | Foresee(v2.0) | 사용 중단 |
-| Foresee Feedback | Exchange에서 사용 가능 |
-| Gigya | Exchange에서 사용 가능 |
+| Foresee Feedback | 사용 중단 |
+| Gigya | 사용 중단 |
 | 하이브리스 | 사용 중단 |
 | Kampyle(현재 Medallia) 피드백 분석(1.1) | 사용 중단 |
 | Listrak | Exchange로 마이그레이션 |
 | Lyris HQ | 사용 중단 |
-| MaritzCX(V 2.0) | Exchange에서 사용 가능 |
-| Merkle | Exchange에서 사용 가능 |
+| MaritzCX(V 2.0) | 사용 중단 |
+| Merkle | 사용 중단 |
 | oracle 정식 웅변가 통합 | 사용 중단 |
 | optivo 브로드메일(감독자) | Exchange로 마이그레이션 |
 | Qualtrics v2 | Exchange로 마이그레이션 |
 | Responsys 2.0 | 사용 중단 |
-| Selligent | Exchange에서 사용 가능 |
-| seoClarity 2.0 | Exchange에서 사용 가능 |
+| Selligent | 사용 중단 |
+| seoClarity 2.0 | 사용 중단 |
 | Silverpop Engage(v2.0) | 사용 중단 |
-| 시즈메크 | Exchange에서 사용 가능 |
-| SpotEffects | Exchange에서 사용 가능 |
+| 시즈메크 | 사용 중단 |
+| SpotEffects | 사용 중단 |
 | StrongMail Systems, Inc | 사용 중단 |
 | 징게리!360년 | 사용 중단 |
 | ThinData EMS | 사용 중단 |
-| 조정 | Exchange에서 사용 가능 |
+| 조정 | 사용 중단 |
 | Urban Airship | 사용 중단 |
-| UserZoom Survey 도구 | Exchange에서 사용 가능 |
-| WhatCounts Email | Exchange에서 사용 가능 |
+| UserZoom Survey 도구 | 사용 중단 |
+| WhatCounts Email | 사용 중단 |
 | wywy | 사용 중단 |
-| Yesmail Enterprise | Exchange에서 사용 가능 |
+| Yesmail Enterprise | 사용 중단 |
