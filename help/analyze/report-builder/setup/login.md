@@ -4,25 +4,55 @@ title: Report Builder 로그인
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 70%
 
 ---
 
 
 # Report Builder 로그인
 
-Report Builder에 로그인하는 세 가지 방법에 대한 정보입니다.
+>[!IMPORTANT]
+>
+>Report Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 Site Catalyst Single Sign-on 또는 표준 로그인과 같은 기존 로그인은 지원하지 않습니다. 2021년 4월 30일까지 모든 Report Builder 사용자는 로그인 프로세스의 중요 업데이트를 포함하는 Report Builder Add-in을 버전 5.6.47 이상으로 업데이트해야 합니다.
 
-현재 Report Builder **[!UICONTROL 로그인]**&#x200B;을 클릭하면 다음 로그인 옵션이 표시됩니다.
+Report Builder에 로그인하려면 Experience Cloud 로그인 계정을 사용하십시오.
 
-![](assets/login_screen.png)
+## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+
+Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. **[!UICONTROL 로그인]** > **[!UICONTROL Enterprise ID로 로그인]**&#x200B;을 클릭하여 회사의 Single Sign-On으로 리디렉션할 수 있습니다. Enterprise ID에 대한 자세한 내용을 보려면 [여기](https://helpx.adobe.com/kr/enterprise/kb/enterprise-id-faq.html#whatis)를 클릭하십시오.
+
+![](assets/adobe_id_login.png)
+
+>[!NOTE]
+>
+>Experience Cloud 로그인은 세션을 기반으로 하며 30일 후에 토큰이 만료됩니다.
+
+## Report Builder에 로그인
+
+Report Builder에 로그인하려면
+
+1. Excel에서 **[!UICONTROL 추가 기능]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 다음과 같은 방법으로 로그인할 수도 있습니다.
+
+   * **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+   * [요청 관리자에서 요청을 선택한](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) 다음 추가  **** 관리자를  **[!UICONTROL 클릭합니다]**.
+   * Excel에서 요청을 두 번 클릭합니다.
+
+1. [!UICONTROL 로그인] 페이지에서 필드를 완료한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+
+## 기존 로그인 유형
+
+>[!IMPORTANT]
+>
+>2021년 4월 30일까지 기존 로그인 유형이 작동하지 않습니다. 모든 Report Builder 사용자는 로그인 프로세스의 중요 업데이트를 포함하는 Report Builder 추가 기능을 버전 5.6.47 이상으로 업데이트해야 합니다. **Report Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 표준 로그인 또는 Site Catalyst Single Sign-On과 같은 기존 로그인을 지원하지 않습니다.**
+
+<!-- ![](assets/login_screen.png) -->
 
 * [표준](/help/analyze/report-builder/setup/login.md#section_6D54B8ADAE7F416BB83F5082B3771CFA)
-* [단일 사인온](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
-* [Experience Cloud 및 Single Sign-on](/help/analyze/report-builder/setup/login.md#section_1FA230F35AB54021A874A7A28DE4C850)
+* [Site Catalyst 단일 사인온](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
 
 ## 표준 {#section_6D54B8ADAE7F416BB83F5082B3771CFA}
 
@@ -43,14 +73,3 @@ Adobe Analytics 자격 증명을 사용하여 Report Builder에 로그인하려�
 이 (이전)단일 사인온은 Adobe Analytics에만 로그인되며, 전체 Experience Cloud로 로그인되지 않습니다.
 
 도메인에 입력할 수도 있으며 시스템에서 도메인을 인식하면 Adobe Analytics에 로그인하는 회사의 로그인 페이지로 리디렉션됩니다.
-
-## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
-
-Experience Cloud 로그인을 통해 Enterprise ID(이메일 및 암호)를 사용하여 Adobe Experience Cloud에 로그인할 수 있습니다. **[!UICONTROL 로그인]** > **[!UICONTROL Enterprise ID로 로그인]**&#x200B;을 클릭하여 회사의 Single Sign-On으로 리디렉션할 수 있습니다. Enterprise ID에 대한 자세한 내용을 보려면 [여기](https://helpx.adobe.com/kr/enterprise/kb/enterprise-id-faq.html#whatis)를 클릭하십시오.
-
-![](assets/adobe_id_login.png)
-
->[!NOTE]
->
->Experience Cloud 로그인은 세션을 기반으로 하며 30일 후에 토큰이 만료됩니다.
-
