@@ -1,11 +1,11 @@
 ---
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
 title: Analytics Data Connectors 시작하기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '973'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe는 디지털 전략 및 마케팅 이니셔티브에 대하여 실용적�
 
 >[!IMPORTANT]
 >
->Adobe는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe는 2021년 8월 1일부터 Adobe Data Connector 기술의 사용을 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 **시스템 요구 사항**
 
