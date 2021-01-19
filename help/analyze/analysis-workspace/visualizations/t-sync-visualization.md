@@ -2,11 +2,11 @@
 description: 시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 데이터 소스 관리
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
