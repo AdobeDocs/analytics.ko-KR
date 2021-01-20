@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe Analytics에서 데이터 액세스 및 요청 삭제 방법
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1302'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 데이터 제어자는 데이터 주체에 대한 데이터(Adobe Analytics 데이터 포함 가능)를 수집하기 전에 데이터 주체로부터 명시적 동의를 받고 웹 사이트에서 [옵트아웃 메커니즘을 구현](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/opt-in.html)할 책임이 있습니다. 이렇게 하면 데이터 주체가 향후 Adobe Experience Cloud 데이터 수집을 옵트 아웃할 수 있습니다.
 
-## 사용자 및 해당 데이터의 유효성 검사 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## 사용자 및 해당 데이터의 유효성 검사  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 사용자는 데이터 제어자로서, 데이터 주체가 실제로 그 주체가 맞는지, 해당 주체에게 요청하는 데이터에 대한 권한이 있는지 확인할 책임이 있습니다. 또한 데이터 주체에 올바른 데이터가 반환되고 다른 데이터 주체에 대한 데이터를 실수로 수신하지 않도록 할 책임이 있습니다.
 
@@ -40,7 +40,7 @@ Adobe의 [데이터 개인 정보 보호 UI 포털](https://www.adobe.io/apis/ex
 >
 >데이터 개인 정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
 
-## 샘플 JSON 요청 {#sample-json-request}
+## 샘플 JSON 요청  {#sample-json-request}
 
 다음은 데이터 개인 정보 보호 API 또는 UI를 통해 제출할 수 있는 JSON이며, 세 명의 사용자에 대한 데이터 개인 정보 보호 처리를 요청합니다.
 
