@@ -2,17 +2,17 @@
 title: Device Graph
 description: Device Graph를 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
 # Device Graph
 
-교차 장치 분석에서는 데이터를 서로 결합하는 두 가지 서로 다른 방법을 제공합니다. 이 방법에서는 Adobe Experience Platform ID 서비스 공동 작업 그래프나 개인 그래프를 사용하여 데이터를 하나로 결합합니다. CDA는 Device Graph와 정기적으로 통신하여 장치들을 함께 연결합니다.
+장치 간 분석에서는 데이터를 서로 연결하는 두 가지 서로 다른 방법을 제공합니다. 이 방법에서는 Adobe Experience Platform ID 서비스 공동 작업 그래프나 개인 그래프를 사용하여 데이터를 하나로 결합합니다. CDA는 Device Graph와 정기적으로 통신하여 장치들을 함께 연결합니다.
 
 ## 공동 작업 그래프와 개인 그래프 간의 차이점
 
