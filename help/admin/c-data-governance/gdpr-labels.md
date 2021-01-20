@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe Analytics 변수에 대한 데이터 개인 정보 레이블의 예
 title: Analytics 변수의 데이터 개인 정보 보호 레이블
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '3641'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '3649'
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
  </tbody> 
 </table>
 
-## 중요 데이터 레이블(DULE) {#sensitive-data-labels}
+## 중요 데이터 레이블(DULE)  {#sensitive-data-labels}
 
 중요 데이터 &quot;S&quot; 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가 민감한 데이터 레이블은 다른 유형의 민감한 정보를 식별하기 위해 나중에 도입됩니다.
 
@@ -205,7 +205,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
  </tbody> 
 </table>
 
-## 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스 제공 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스 제공  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공하라는 메시지가 표시됩니다. 이전에 정의된 네임스페이스를 사용하거나 새 네임스페이스를 정의할 수 있습니다.
 
@@ -295,7 +295,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
  </tbody> 
 </table>
 
-## ACC-ALL/ACC-PERSON 이외의 레이블을 지정할 수 있는 변수/수정됨 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## ACC-ALL/ACC-PERSON 이외의 레이블을 지정할 수 있는 변수/수정됨  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -358,7 +358,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
  </tbody> 
 </table>
 
-## 삭제 처리 {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 삭제 처리  {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 데이터 개인 정보 보호 삭제 요청에 대한 Adobe Analytics 지원은 보고에 미치는 영향을 최소화하도록 설계되었습니다. 대부분의 경우 보고서에 표시된 지표는 변경되지 않아야 합니다. 데이터 개인 정보 보호 삭제 전에 실행된 기록 보고서는 삭제가 수행된 후 실행된 동일한 보고서와 일치합니다. 이 작업은 보고된 값이 일관되게 유지될 수 있도록 식별할 수 없는 데이터를 그대로 두면서 데이터 주체에서 삭제된 데이터를 완전히 분리하여 수행됩니다.
 
@@ -446,7 +446,7 @@ ID(I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-
  </tbody> 
 </table>
 
-## 액세스 요청에 대한 날짜 필드 {#section_6678FB4FF42B481C9B78E64F61782397}
+## 액세스 요청에 대한 날짜 필드  {#section_6678FB4FF42B481C9B78E64F61782397}
 
 타임스탬프를 포함하는 다음과 같은 5개의 표준 변수가 있습니다.
 
