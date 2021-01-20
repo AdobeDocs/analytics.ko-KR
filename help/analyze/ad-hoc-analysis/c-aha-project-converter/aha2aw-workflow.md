@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Ad Hoc Analysis 프로젝트 변환기 워크플로우
 title: Ad Hoc Analysis에서 프로젝트 변환
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 94%
+source-wordcount: '300'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
+>Adobe에서는 2021년 3월 1일에 Ad Hoc Analysis를 단종할 예정입니다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 ## 프로젝트 변환 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
