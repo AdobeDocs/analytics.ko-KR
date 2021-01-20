@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: Analysis Workspace에서 변환된 프로젝트를 보는 방법
 title: Analysis Workspace에서 변환된 프로젝트 보기
-uuid: 5f8b6d0a-1a2c-42da-b51d-ecb355f470af
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 88%
+source-wordcount: '107'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
+>Adobe에서는 2021년 3월 1일에 Ad Hoc Analysis를 단종할 예정입니다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 Workspace에서 프로젝트를 보기 전에 [FAQ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)를 참조하고 Ad Hoc Analysis와 Workspace의 [용어 차이점](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)을 검토하십시오.
 
