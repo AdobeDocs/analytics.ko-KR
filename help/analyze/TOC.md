@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Report Builder 및 Activity Map과 같은 도구를 제공합니다.
-translation-type: ht
-source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
-workflow-type: ht
-source-wordcount: '1099'
+translation-type: tm+mt
+source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+workflow-type: tm+mt
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -135,6 +135,7 @@ ht-degree: 100%
       + [Report Builder 설치](report-builder/setup/t-install-arb.md)
       + [Report Builder 업그레이드](report-builder/setup/upgrade-arb.md)
       + [Report Builder 로그인](report-builder/setup/login.md)
+      + [Report Builder에 로그인](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Report Builder 제거](report-builder/setup/t-uninstall-arb.md)
       + [Microsoft Excel 함수에서 Report Builder 기능 호출](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 도구 모음](report-builder/reportbuilder-toolbar.md)
