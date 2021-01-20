@@ -2,7 +2,7 @@
 title: 교차 장치 분석 설정
 description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 translation-type: tm+mt
-source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 68%
