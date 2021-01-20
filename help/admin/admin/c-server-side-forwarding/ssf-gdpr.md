@@ -1,20 +1,23 @@
 ---
-description: 'null'
+description: EU 쿠키 준수 규정에 의해 유발된 서버 측 전달의 개선 사항을 설명합니다.
 title: GDPR/ePrivacy 준수 및 서버 측 전달
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 91%
 
 ---
 
 
 # GDPR/ePrivacy 준수 및 서버 측 전달
 
-이 섹션에서는 2017년 9월 30일에 시행된 [EU 쿠키 준수 규정](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)에서 촉발된 서버 측 전달에 대한 최근 개선된 내용을 설명합니다.
+이 섹션에서는 2017년 9월 30일에 시행된 [EU 쿠키 준수 규정](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)에 의해 유발된 서버 측 전달의 개선 사항에 대해 설명합니다.
 
 서버 측 전달은 Adobe Analytics의 데이터를 Audience Manager와 같은 다른 [!DNL Experience Cloud Solutions]과 실시간으로 공유하는 데 사용됩니다. 이 기능이 활성화되어 있을 때 서버 측 전달을 사용하면 Analytics에서 데이터를 다른 Experience Cloud 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션으로 데이터를 Analytics에 푸시할 수 있습니다.
 
-최근까지 서버 측 전달은 동의와 사전 동의 이벤트/히트를 설명할 방법이 없었습니다. 2018년 11월 1일부터, 데이터 컨트롤러(Adobe Analytics 고객)로서 데이터 사전 동의를 Adobe Analytics로 제한하여 AAM으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 AAM에 전송되지 않습니다.
+이전에는 서버 측 전달에서 동의와 사전 동의 이벤트/히트 간을 지정할 수 없었습니다. 2018년 11월 1일부터, 데이터 컨트롤러(Adobe Analytics 고객)로서 데이터 사전 동의를 Adobe Analytics로 제한하여 AAM으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 AAM에 전송되지 않습니다.
 
 이 새 컨텍스트 변수 `cm.ssf=1`이 히트에 있으면 이 히트에 플래그가 지정되고 서버 측에서 AAM으로 전달되지 않습니다. 반대로 이 문자열이 히트에 표시되지 않으면 히트가 AAM에 전달됩니다.
 
