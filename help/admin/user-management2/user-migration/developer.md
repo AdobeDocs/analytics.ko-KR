@@ -1,16 +1,17 @@
 ---
-description: 'null'
-title: 마이그레이션의 영향을 받는 API
+description: 사용자 마이그레이션의 영향을 받는 API 목록 표시
+title: 사용자 마이그레이션의 영향을 받는 API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 92%
 
 ---
 
 
-# 마이그레이션의 영향을 받는 API{#apis-affected-by-the-migration}
-
-## 마이그레이션의 영향을 받는 API {#topic-8d34296a67d74b1081c3f7e8f650f3ce}
+# 사용자 마이그레이션{#apis-affected-by-the-migration}의 영향을 받는 API
 
 Adobe는 모든 Analytics 로그인 기업을 [!DNL my.omniture.com]에서 Adobe Experience Cloud를 통한 인증 방식으로 마이그레이션하고 있습니다. 기업에서 마이그레이션을 시작하면 Analytics 관련 권한 및 Analytics Admin API v1.3 및 v1.4에서 사용할 수 있는 `GetLoginKey` 메서드를 통한 프로그래밍 방식의 사용자 생성 및 관리가 더 이상 지원되지 않습니다. 이제 이러한 작업은 이제 [!DNL adobe.io]를 통해 Experience Cloud에서 사용할 수 있습니다.
 
