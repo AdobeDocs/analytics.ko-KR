@@ -1,15 +1,15 @@
 ---
-description: 'null'
+description: 이전 권한 콘텐트
 keywords: groups;permissions
 subtopic: Users and groups
 title: 사용자 및 그룹 권한 변경 사항
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1562'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1564'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)으로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 ## 변경 사항{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -169,8 +169,8 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
   <tr> 
    <td colname="col1"> 그룹 만들기 </td> 
    <td colname="col2"> <p>Admin Console - 그룹이 Admin Console에 생성되면 Analytics의 매핑된 그룹이 관리 도구에 표시되지만, 이 매핑된 그룹의 이름을 관리 도구에서 변경하거나 삭제할 수 없습니다. </p> <p>관리 도구. </p> </td> 
-   <td colname="col3"> <p>Admin Console(<a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console(<a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console(<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console(<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 그룹의 사용자 편집 </td> 
