@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 조직에서 관리하는 모든 보고서 세트에 적용되는 설정을 구성하기 위한 개요 페이지입니다.
 title: 회사 설정 개요
 uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 75%
 
 ---
 
