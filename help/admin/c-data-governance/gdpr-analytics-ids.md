@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Analytics 데이터에 캡처된 ID를 이해하고 데이터 개인 정보 보호 요청에 사용할 ID를 결정합니다.
 title: 레이블 지정 우수 사례
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2689'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '2706'
+ht-degree: 99%
 
 ---
 
