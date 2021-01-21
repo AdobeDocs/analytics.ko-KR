@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: 색상 팔레트
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: Analysis Workspace에서 시각화 색상 팔레트를 사용하는 방법
+title: 시각화 색상 팔레트란 무엇이며 어떻게 작동합니까?
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
