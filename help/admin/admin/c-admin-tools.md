@@ -2,11 +2,11 @@
 description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
