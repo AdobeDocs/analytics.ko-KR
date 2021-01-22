@@ -1,12 +1,12 @@
 ---
-description: Ad Hoc Analysis에서 Analysis Workspace으로 프로젝트 변환기 FAQ
+description: Ad Hoc Analysis 대 Analysis Workspace 프로젝트 변환기 FAQ
 title: 프로젝트 변환기 FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,14 +74,14 @@ ht-degree: 94%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">세그먼트는 변환된 프로젝트 내부에 있습니다(공용 아님). 다음과 같이 공용으로 설정하도록 선택할 수 있습니다. <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis 작업 공간 수준 세그먼트는 Workspace의 프로젝트/작업 공간 수준에서 적용됩니다. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis 보고서 수준 세그먼트는 Workspace의 표 열 수준에서 적용됩니다. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis 테이블 세그먼트는 작업 공간의 테이블 열 수준에서 적용됩니다. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis 표 세그먼트는 Workspace의 표 열 수준에서 적용됩니다. </li> 
     </ul> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html"  >세그먼트 빌더</a>에서 세그먼트를 편집할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 날짜 범위는 어떻게 변환됩니까?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis의 '최근 X일' 날짜 범위는 오늘을 <i>제외</i>하지만, Analysis Workspace는 오늘을 <i>포함</i>합니다. 따라서 '지난 90일'과 같은 날짜 범위는 도구 간에 정확히 일치하지 않을 수 있습니다. 대신 Analysis Workspace에서 '마지막 X <b>전체 </b>일' 범위를 적용합니다. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis의 '최근 X일' 날짜 범위는 오늘을 <i>제외</i>하지만, Analysis Workspace는 오늘을 <i>포함</i>합니다. 따라서 '최근 90일'과 같은 날짜 범위가 도구마다 일치하지 않을 수 있습니다. 대신 Analysis Workspace에서 '마지막 X <b>전체 </b>일' 범위를 적용합니다. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis 작업 공간 수준 날짜 범위는 Workspace의 프로젝트/작업 공간 수준에서 적용됩니다. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis 보고서 수준 날짜 범위는 Workspace의 표 열 수준에서 적용됩니다. </li> 
     </ul> <p><span class="uicontrol">분석</span> &gt; <span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol">날짜 범위</span>에서 사용자 지정 날짜 범위를 편집할 수 있습니다. </p> </td> 
