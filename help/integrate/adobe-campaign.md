@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: Adobe Campaign 보고
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: Adobe Analytics에서 Adobe Campaign 보고를 활성화하는 방법 살펴보기
+title: Adobe Campaign Reporting을 Adobe Analytics에 통합하려면 어떻게 해야 합니까?
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Analytics에서 Campaign 데이터를 보려면 먼저 Campaign 보고를 활성
 
 Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** 아래에 다음 보고서가 추가됩니다.
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 보고서 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Campaign 수행된 배달 ID </p> </td> 
-   <td colname="col2"> <p>Adobe 캠페인에서 전송된 이메일에 대한 Adobe Campaign에서 가져온 데이터를 표시합니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 보고서 | 정의 |
+|--- |--- |
+| Adobe Campaign 수행된 배달 ID | Adobe 캠페인에서 전송된 이메일에 대한 Adobe Campaign에서 가져온 데이터를 표시합니다. |
 
 ## 3단계. Adobe Campaign 분류 사용 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
