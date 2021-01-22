@@ -1,12 +1,11 @@
 ---
-description: Ad Hoc Analysis 대 Analysis Workspace 프로젝트 변환기 FAQ
-title: 프로젝트 변환기 FAQ
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: ht
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: ht
-source-wordcount: '941'
-ht-degree: 100%
+description: Ad Hoc Analysis에서 Analysis Workspace으로 프로젝트 변환기에 대해 자주 묻는 질문
+title: Ad Hoc Analysis-Analysis Workspace 프로젝트 변환기에 대한 FAQ
+translation-type: tm+mt
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 ## 알려진 변환 문제 {#section_39C922A58B2E49C9877B363042801361}
 
 | 문제 | 설명 |
-|--- |--- |
+| --- | --- |
 | 분 세부 기간에 분류가 적용되었거나 분 세부 기간이 열에 있음 | 분 세부 기간에 분류가 적용되었거나 분 세부 기간이 열에 있는 경우 프로젝트를 Analysis Workspace로 변환할 수 없습니다.  해결 방법은 분 세부 기간에 대한 분류를 제거하고 열에서 제거한 다음 프로젝트를 변환하는 것입니다. 그런 다음 Analysis Workspace에서 분 세부 기간에 분류를 적용할 수 있습니다. |
 | 열 세그먼트와 함께 사용된 내부 계산된 지표 | 열 세그먼트와 함께 내부 계산된 지표를 사용하는 경우 프로젝트를 Analysis Workspace로 변환할 수 없습니다. 이 문제를 해결하려면 변환 전에 프로젝트에서 내부 계산된 지표를 제거한 다음 Analysis Workspace에서 다시 추가하십시오. |
 
