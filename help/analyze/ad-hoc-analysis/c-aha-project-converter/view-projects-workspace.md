@@ -1,11 +1,11 @@
 ---
 description: Analysis Workspace에서 변환된 프로젝트를 보는 방법
 title: Analysis Workspace에서 변환된 프로젝트 보기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
