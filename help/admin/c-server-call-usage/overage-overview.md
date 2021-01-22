@@ -2,11 +2,11 @@
 description: Adobe Analytics 서버 호출 사용 기능에 대한 개요.
 title: 서버 호출 사용량 개요
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
