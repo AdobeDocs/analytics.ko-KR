@@ -3,11 +3,11 @@ description: AppMeasurement 라이브러리 및 Activity Map 모듈이 결합되
 title: 샘플 구현 코드
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '42'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
