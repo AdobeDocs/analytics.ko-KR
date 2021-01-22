@@ -5,10 +5,10 @@ user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud, Target 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: 41d3cfb510fb7cac77abbe0a80046c96042d0946
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,8 @@ ht-degree: 100%
       + [Advertising Analytics 문제 해결](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [FAQ](c-advertising-analytics/aa-faq.md)
 + [Analytics for Target - A4T](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t.html)
-+ [Adobe Campaign 보고](adobe-campaign.md)
++ [Analytics의 Adobe Campaign 보고](adobe-campaign.md)
++ [Campaign Classic과 분석 데이터 통합](analytics-to-campaign-classic.md)
 + [AEM Assets 보고](aem-assets-reporting.md)
 + [Activity Map 보고](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
