@@ -2,11 +2,11 @@
 description: Ad Hoc Analysis 프로젝트 변환기 워크플로우
 title: Ad Hoc Analysis에서 프로젝트 변환
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
