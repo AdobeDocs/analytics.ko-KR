@@ -2,11 +2,11 @@
 description: 히트 데이터, 액세스 요청, 삭제 요청에 대한 데이터에 레이블을 지정하는 방법에 대한 예를 보여줍니다.
 title: 레이블 지정 예
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 98%
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | 존 | 88 | E | N | U |
-|  | 존 | 44 | F | Q | V |
-|  | 존 | 55 | G | R | X |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
 ## 샘플 액세스 요청
@@ -43,12 +43,12 @@ ht-degree: 98%
 | AAID=77 | false | 장치 | 변수 없음 | 77 | 변수 없음 | M, P | X, W |
 | AAID=77 | true | 장치 | 변수 없음 | 77 | 변수 없음 | M, P | X, W |
 | user=Mary | false | 사람 | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | 사람 | Mary | 77,88,99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true | 사람 | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | 장치 | 없음 | 77, 88 | 없음 | N, P | U, W |
-| user=Mary AAID=66 | true | 사람 | Mary | 77,88,99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true | 사람 | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary AAID=66 | true | 장치 | 없음 | 66, 77, 88 | 없음 | N, P | U, W, Z |
 | xyz=X | false | 장치 | 없음 | 55, 77 | 없음 | M, R | X |
-| xyz=X | true | 장치 | 없음 | 55,77 | 없음 | M, P, R | W, X |
+| xyz=X | true | 장치 | 없음 | 55, 77 | 없음 | M, P, R | W, X |
 
 expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미치지 않습니다.
 
@@ -62,11 +62,11 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 | Mary | 42 | A | 개인 정보 보호-7398 | 개인 정보 보호-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
-| 존 | 42 | D | 개인 정보 보호-1866 | 개인 정보 보호-8216 |
-| 존 | 88 | E | N | U |
-| 존 | 44 | F | Q | V |
-| 존 | 55 | G | R | X |
-| 앨리스 | 66 | A | N | W |
+| John | 42 | D | 개인 정보 보호-1866 | 개인 정보 보호-8216 |
+| John | 88 | E | N | U |
+| John | 44 | F | Q | V |
+| John | 55 | G | R | X |
+| Alice | 66 | A | N | W |
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 | 개인 정보 보호-0523 | 77 | 개인 정보 보호-1866 | 개인 정보 보호-3681 | X |
 | 개인 정보 보호-0523 | 88 | 개인 정보 보호-2178 | 개인 정보 보호-1975 | Y |
 | 개인 정보 보호-0523 | 99 | 개인 정보 보호-9045 | 개인 정보 보호-2864 | Z |
-| 존 | 77 | D | P | W |
-| 존 | 88 | E | N | U |
-| 존 | 44 | F | Q | V |
-| 존 | 55 | G | R | X |
-| 앨리스 | 66 | A | N | W |
+| John | 77 | D | P | W |
+| John | 88 | E | N | U |
+| John | 44 | F | Q | V |
+| John | 55 | G | R | X |
+| Alice | 66 | A | N | W |
 
 >[!NOTE]
 >
@@ -94,11 +94,11 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 | 개인 정보 보호-5782 | 09 | 개인 정보 보호-0859 | 개인 정보 보호-8183 | 개인 정보 보호-9152 |
 | 개인 정보 보호-5782 | 16 | 개인 정보 보호-6104 | 개인 정보 보호-2911 | 개인 정보 보호-6821 |
 | 개인 정보 보호-5782 | 83 | 개인 정보 보호-2714 | 개인 정보 보호-0219 | 개인 정보 보호-4395 |
-| 존 | 09 | D | 개인 정보 보호-8454 | 개인 정보 보호-8216 |
-| 존 | 16 | E | 개인 정보 보호-2911 | 개인 정보 보호-2930 |
-| 존 | 44 | F | Q | V |
-| 존 | 55 | G | R | X |
-| 앨리스 | 66 | A | N | W |
+| John | 09 | D | 개인 정보 보호-8454 | 개인 정보 보호-8216 |
+| John | 16 | E | 개인 정보 보호-2911 | 개인 정보 보호-2930 |
+| John | 44 | F | Q | V |
+| John | 55 | G | R | X |
+| Alice | 66 | A | N | W |
 
 다음을 참조하십시오.
 
