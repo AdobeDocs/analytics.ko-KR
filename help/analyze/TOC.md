@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Report Builder 및 Activity Map과 같은 도구를 제공합니다.
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 100%
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 프로젝트 조정 및 공유 {#curate-share}
       + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
-      + [프로젝트 조정](analysis-workspace/curate-share/curate.md)
+      + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
       + [공유 가능한 링크 만들기](analysis-workspace/curate-share/shareable-links.md)
       + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
@@ -135,7 +135,6 @@ ht-degree: 100%
       + [Report Builder 설치](report-builder/setup/t-install-arb.md)
       + [Report Builder 업그레이드](report-builder/setup/upgrade-arb.md)
       + [Report Builder 로그인](report-builder/setup/login.md)
-      + [Report Builder에 로그인](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Report Builder 제거](report-builder/setup/t-uninstall-arb.md)
       + [Microsoft Excel 함수에서 Report Builder 기능 호출](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 도구 모음](report-builder/reportbuilder-toolbar.md)
