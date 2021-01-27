@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 87%
 
 ---
 
@@ -34,16 +34,10 @@ Launch에서는 선택적 인수를 설정할 수 없습니다.
 추적 호출을 Adobe에 보내려면 `s.tl()` 메서드를 호출하십시오.
 
 ```js
-s.tl();
-```
-
-원할 경우 이 메서드는 다음과 같은 몇 가지 인수를 수락합니다.
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### 링크 개체
+### 링크 개체(필수)
 
 링크 개체 인수는 브라우저가 최대 500밀리초를 기다린 후에 페이지에서 나가는지 여부를 결정합니다. 이미지 요청이 500밀리초 이내로 전송되면 페이지가 클릭한 링크로 즉시 이동합니다.
 
@@ -55,37 +49,42 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 * `true`: 기다리지 않습니다.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### 링크 유형
+### 링크 유형 (필수)
 
-링크 유형 인수는 링크 추적 호출 유형을 결정하는 단일 문자 문자열로서, [`linkType`](../config-vars/linktype.md) 변수를 설정하는 것과 같습니다.
+링크 유형 인수는 링크 추적 호출 유형을 결정하는 단일 문자열입니다. 유효한 값은 3개입니다.
+
+* `o`:링크는  [사용자 지정 링크입니다](/help/components/dimensions/custom-link.md).
+* `d`:링크는  [다운로드 링크입니다](/help/components/dimensions/download-link.md).
+* `e`:링크는  [종료 링크입니다](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### 링크 이름
+### 링크 이름(권장)
 
-링크 이름 인수는 링크 추적 차원 항목을 결정하는 문자열로서, [`linkName`](../config-vars/linkname.md) 변수를 설정하는 것과 같습니다.
+링크 이름 인수는 링크 추적 차원 항목을 결정하는 문자열로서, 보고에서 [사용자 지정 링크](/help/components/dimensions/custom-link.md), [다운로드 링크](/help/components/dimensions/download-link.md) 또는 [종료 링크](/help/components/dimensions/exit-link.md) 차원을 사용할 때 이 문자열에는 차원 항목이 포함됩니다. 이 인수가 설정되어 있지 않으면 [linkURL](../config-vars/linkurl.md) 변수가 사용됩니다.
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### 변수 무시
+### 변수 무시(선택 사항)
 
 단일 호출에 대한 변수 값을 변경할 수 있습니다. 자세한 내용은 [변수 무시](../../js/overrides.md)를 참조하십시오.
 
@@ -108,14 +107,6 @@ HTML 링크 내에서 바로 기본 링크 추적 호출을 전송하십시오.
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-별도의 변수를 사용하여 동일한 기본 링크 추적 호출을 만들도록 JavaScript를 사용합니다.
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### 사용자 지정 함수 내에서 링크 추적 호출 만들기
