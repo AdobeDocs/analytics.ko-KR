@@ -5,10 +5,10 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 94%
+source-wordcount: '483'
+ht-degree: 95%
 
 ---
 
@@ -34,10 +34,8 @@ ht-degree: 94%
       + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
       + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
       + [linkLeaveQueryString](vars/config-vars/linkleavequerystring.md)
-      + [linkName](vars/config-vars/linkname.md)
       + [linkTrackEvents](vars/config-vars/linktrackevents.md)
       + [linkTrackVars](vars/config-vars/linktrackvars.md)
-      + [linkType](vars/config-vars/linktype.md)
       + [linkURL](vars/config-vars/linkurl.md)
       + [offlineHitLimit](vars/config-vars/offlinehitlimit.md)
       + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
