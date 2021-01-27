@@ -1,11 +1,11 @@
 ---
 title: 종료 링크
 description: 종료 링크의 이름입니다.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '152'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 100%
 
 이 차원은 `lnk_e` 값과 함께 `pe` 쿼리 문자열이 있는 히트의 이미지 요청에 있는 [`pev2` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 수집합니다. 히트에서 `pe` 쿼리 문자열에 다른 값이 있는 경우 이 차원은 데이터를 수집하지 않습니다.
 
-AppMeasurement를 사용하여 데이터를 이 차원에 보내려면
-
-* 원하는 값으로 [`linkName`](/help/implement/vars/config-vars/linkname.md) 변수를 채웁니다.
-* [`linkType`](/help/implement/vars/config-vars/linktype.md) 변수를 `"e"`로 설정합니다.
-* [`tl()`](/help/implement/vars/functions/tl-method.md) 이미지 요청을 보냅니다.
+AppMeasurement를 사용하여 데이터를 이 차원으로 보내려면 [`tl()`](/help/implement/vars/functions/tl-method.md) 이미지 요청을 `"e"`의 링크 유형 인수로 보냅니다. 링크 이름 인수를 원하는 값으로 채웁니다.
 
 ## 차원 항목
 
