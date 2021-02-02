@@ -2,9 +2,9 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 translation-type: tm+mt
-source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
+source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Delivra | 사용 중단 |
 | Demandbase CA | 사용 중단 |
 | Demandbase v3 | 사용 중단 |
-| DialogTech | 사용 중단 |
+| DialogTech | Adobe Exchange에서 사용 가능 |
 | DoubleClick for Advertisers(DFA) | 사용 중단 |
 | DREAM | 사용 중단 |
 | DREAMmail 2.0 | 사용 중단 |
