@@ -1,10 +1,10 @@
 ---
 title: getPercentPageViewed
 description: 방문자가 본 페이지의 비율을 검색합니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '798'
+translation-type: tm+mt
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+workflow-type: tm+mt
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 100%
 `getPercentPageViewed` 플러그인은 방문자의 스크롤 활동을 측정하여 다른 페이지로 이동하기 전에 표시되는 페이지 양을 확인합니다. 페이지 높이가 작거나 스크롤 활동을 측정하지 않으려는 경우에는 이 플러그인이 필요하지 않습니다.
 
 ## Launch 사용자 지정 코드 편집기를 사용하여 플러그인 설치
-
-플러그인 확장을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
