@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics 첫 번째 관리 안내서
 description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는 방법을 알아봅니다.
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ Experience Platform Launch에 대한 제품 관리자 액세스 권한은 Analyt
 
 ## 다음 단계
 
-[보고서 세트 만들기](create-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
+[보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
 
 [Experience Platform Launch에서 속성 만들기](/help/implement/launch/create-analytics-property.md): Experience Platform Launch 관리자가 도구에 로그인하고 사이트에서 구현할 속성을 만들 수 있습니다.
