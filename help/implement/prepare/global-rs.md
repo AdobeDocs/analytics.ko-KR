@@ -2,7 +2,7 @@
 title: Adobe Analytics의 글로벌 보고서 세트
 description: 글로벌 보고서 세트 사용에 대한 장점과 요구 사항을 이해합니다.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 96%
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 글로벌 보고서 세트를 구현하는 프로세스를 이해하려면 다음의 일반 지침을 사용하십시오.
 
-1. Adobe Analytics에서 글로벌 보고서 세트를 만듭니다. 자세한 내용은 관리자 사용 안내서의 [보고서 세트 만들기](../../admin/admin-console/create-report-suite.md)를 참조하십시오.
+1. Adobe Analytics에서 글로벌 보고서 세트를 만듭니다. 자세한 내용은 관리자 사용 안내서의 [보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)를 참조하십시오.
 1. 각 도메인을 담당하는 조직의 팀과 작업합니다. 많은 팀에는 해당 비즈니스 영역에만 해당하는 보고 요구 사항이 있습니다.
 1. 이러한 모든 요구 사항을 [솔루션 디자인 문서](solution-design.md)에서 기록하고 집계합니다. 여러 팀에 차원에 대한 유사한 요구 사항이 있는 경우 동일한 사용자 지정 변수를 사용할 수 있습니다. 예를 들어 사이트 A와 사이트 B가 모두 탐색 표시 차원을 필요로 하는 경우 두 사이트에 대한 구현은 eVar1을 통해 해당 데이터를 전송할 수 있습니다.
 
