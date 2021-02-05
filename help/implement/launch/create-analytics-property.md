@@ -2,7 +2,7 @@
 title: Launch에서 Analytics 속성 만들기
 description: Adobe Experience Platform Launch를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 82%
@@ -16,20 +16,20 @@ Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experi
 
 ## 전제 조건
 
-[보고서 세트 만들기](/help/admin/admin-console/create-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기
+[보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기
 
 ## 속성 만들기 및 중요한 확장 설치
 
 속성은 태그를 관리하는 데 사용하는 중요한 컨테이너입니다. 확장을 사용하면 제품별 태그를 설치하고 구성할 수 있습니다.
 
 1. [launch.adobe.com](https://launch.adobe.com)으로 이동한 후 메시지가 나타나면 로그인합니다.
-1. Click **[!UICONTROL New Property]**.
+1. **[!UICONTROL 새 속성]**&#x200B;을 클릭합니다.
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 새로 만든 속성을 클릭하여 해당 설정을 입력합니다.
-1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
-1. Locate Identity Service, then click **[!UICONTROL Install]**.
+1. **[!UICONTROL 확장]** 탭을 클릭한 다음 **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
+1. ID 서비스를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
+1. 확장 카탈로그로 돌아가 Adobe Analytics을 찾아 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 
 ## Adobe Analytics용 데이터 요소 만들기
 
@@ -37,7 +37,7 @@ Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experi
 
 1. [launch.adobe.com](https://launch.adobe.com)으로 이동한 후 메시지가 나타나면 로그인합니다.
 1. 사이트에서 구현할 Launch 속성을 클릭합니다.
-1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Create New Data Element]**.
+1. **[!UICONTROL 데이터 요소]** 탭을 클릭한 다음 **[!UICONTROL 새 데이터 요소 만들기]**&#x200B;를 클릭합니다.
 1. 데이터 요소에 다음 설정을 지정합니다.
 
    * 이름: 페이지 이름
@@ -58,26 +58,26 @@ Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experi
 
 1. [launch.adobe.com](https://launch.adobe.com)으로 이동한 후 메시지가 나타나면 로그인합니다.
 1. 사이트에서 구현할 Launch 속성을 클릭합니다.
-1. Click **[!UICONTROL Create New Rule]** and name it `Global Rule`.
-1. Click **[!UICONTROL Add]** next to events, and enter the following settings:
+1. **[!UICONTROL 새 규칙 만들기]**&#x200B;를 클릭하고 이름을 `Global Rule`로 지정합니다.
+1. 이벤트 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭하고 다음 설정을 입력합니다.
    * 확장: 핵심
    * 이벤트 유형: 라이브러리가 로드됨(페이지 상단)
    * 이름: 핵심 - 라이브러리가 로드됨(페이지 상단)
    * 주문: 50
-1. Click **[!UICONTROL Keep Changes]**.
-1. Under **[!UICONTROL Actions]**, click **[!UICONTROL Add]**, and enter the following settings:
+1. **[!UICONTROL 변경 내용 유지]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 작업]**&#x200B;에서 **[!UICONTROL 추가]**&#x200B;를 클릭하고 다음 설정을 입력합니다.
    * 확장: Adobe Analytics
    * 작업 유형: 변수 설정
    * 페이지 이름: 컨테이너 아이콘을 클릭하고 `Page Name` 데이터 요소를 선택합니다.
    * 캠페인: 값이 `cid`인 쿼리 매개 변수
-1. Click **[!UICONTROL Keep Changes]**.
+1. **[!UICONTROL 변경 내용 유지]**&#x200B;를 클릭합니다.
 1. 다른 작업을 추가할 작업 옆에 있는 더하기 기호를 클릭하고 다음 설정을 입력합니다.
    * 확장: Adobe Analytics
    * 작업 유형: 비콘 전송
    * 이름: Adobe Analytics - 비콘 전송
    * 추적: s.t()
-1. Click **[!UICONTROL Keep Changes]**.
-1. Verify that you have the event and two actions set, then click **[!UICONTROL Save]**.
+1. **[!UICONTROL 변경 내용 유지]**&#x200B;를 클릭합니다.
+1. 이벤트와 두 개의 작업 세트가 있는지 확인한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 문서 및 추가 리소스
 
