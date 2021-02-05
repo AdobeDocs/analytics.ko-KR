@@ -3,10 +3,10 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 >[!IMPORTANT]
 >
->Adobe은 2021년 3월 1일, Ad Hoc Analysis을 종신형으로 전환할 예정이다. [추가 정보](https://adobe.ly/discoverworkspace)
+>Adobe에서는 2021년 3월 1일에 Ad Hoc Analysis를 단종할 예정입니다. [추가 정보](https://adobe.ly/discoverworkspace)
 
 * 프로젝트 작업의 탭 구성이 필요한 경우.
 * 사이트 분석 보고서를 사용해야 하는 경우(3D 경로 지정 보고서).
@@ -68,13 +68,17 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
    * 거래 ID: 온라인 종단점을 오프라인 데이터에 연결하고 가져온 데이터를 온라인으로 캡처한 방문자 스냅숏에 완전히 연관시키는 데이터 업로드(예: 온라인으로 주문하고 오프라인으로 반환)
    * 전체 처리: Adobe 서버에서 수집한 히트처럼 처리되었으며 타임스탬프가 있는 데이터 소스입니다. 즉, 데이터가 방문자 움직임에 직접 삽입됩니다.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(이전의 Genesis)**&#x200B;는 다음 경우에 사용해야 합니다.
+**[데이터 ](https://www.adobeexchange.com/experiencecloud.html)** 연결을 사용해야 합니다.
 
 * 지원되는 Adobe Analytics 연결을 구축한 타사 공급자와 일하는 경우. Data Connectors는 일반적으로 요약 수준 데이터를 Adobe Analytics에 영구적으로, 자동으로 그리고 반복적으로 통합합니다.
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;는 다음 경우에 사용해야 합니다.
 
 * 데이터를 Adobe Analytics에 업로드해야 할 때 사용해야 하며, Adobe AppMeasurement나 모바일 SDK 코드는 사용할 수 없습니다.
+
+**[대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* 데이터 삽입 API 및 벌크 데이터 삽입 API는 모두 서버측 수집 데이터를 Adobe Analytics에 제출하는 방법입니다. 데이터 삽입 API 호출은 한 번에 하나의 이벤트로 수행됩니다. 벌크 데이터 삽입 API는 이벤트 데이터가 포함된 CSV 형식 파일을 행당 하나의 이벤트로 허용합니다. 서버측 컬렉션의 새로운 구현 작업을 수행하는 경우 벌크 데이터 삽입 API를 사용하는 것이 좋습니다.
 
 **[고객 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)**&#x200B;은 다음 경우에 사용합니다.
 
@@ -86,7 +90,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 또는 광고 노출 데이터와 같은 Adobe Audience Manager(AAM) 대상 데이터를 Analytics 워크플로우에 통합하려는 경우.
 * 이 통합에서는 새 정보를 조회수별로 Analytics에 전송하므로 업로드한 CRM 데이터를 시간 기반으로 변환하려는 경우.
 
-## Adobe Analytics에서 데이터 내보내기 {#section_901C06ABF2014E92B2952906723DF235}
+## Adobe Analytics에서 데이터 내보내기  {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)**&#x200B;는 다음 경우에 사용해야 합니다.
 
