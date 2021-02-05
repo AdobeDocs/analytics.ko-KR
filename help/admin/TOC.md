@@ -5,9 +5,9 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 99%
 
 ---
@@ -115,7 +115,6 @@ ht-degree: 99%
       + [보고서 세트 도구 권한 항목](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구 권한 항목](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
-   + [보고서 세트 만들기](admin-console/create-report-suite.md)
 + 회사 설정 {#company-settings}
    + [회사 설정 개요](company/c-company-settings.md)
    + [기능 액세스 수준](company/feature-access-levels.md)
