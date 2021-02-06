@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '558'
-ht-degree: 98%
+source-wordcount: '559'
+ht-degree: 97%
 
 ---
 # 분석 도구에 대한 제품 프로필 권한
@@ -39,7 +39,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | Analysis Workspace 액세스 | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹(기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |
 | Reports &amp; Analytics 액세스 | Reports &amp; Analytics에 액세스할 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹(기본 설정)에 속해야 합니다. |
 | Analysis Workspace: 템플릿으로 저장 | Analysis Workspace 내에서 프로젝트 > 템플릿으로 저장에 대한 액세스 권한을 부여합니다. |
-| Labs 액세스 | 현재 개발 중입니다. 출시되면 Labs에 대한 액세스 권한을 부여합니다. |
+| Labs 액세스 | Labs에서 Labs 및 프로토타입을 이용할 수 있습니다. |
 | 계산된 지표 생성 | 모든 Analytics 기능에 대해 계산된 지표를 만들 수 있는 기능을 부여합니다. |
 | 세그먼트 생성 | 모든 Analytics 기능에 대해 세그먼트를 만들고 공유할 수 있는 기능을 부여합니다. |
 | Advertising Analytics 관리 | 사용되지 않습니다. |
