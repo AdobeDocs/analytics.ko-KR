@@ -1,9 +1,12 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '558'
+ht-degree: 98%
 
 ---
-# Analytics 도구 권한 항목
+# 분석 도구에 대한 제품 프로필 권한
 
 Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세스 권한을 부여합니다. Analytics 도구 권한 항목은 보고서 세트에 적용되지 않고 Adobe Analytics 전체에 적용됩니다.
 
