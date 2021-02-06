@@ -1,12 +1,12 @@
 ---
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-translation-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
-# 제품 프로필 권한에 나열된 보고서 세트 도구
+# 보고서 세트 도구에 대한 제품 프로필 권한
 
 보고서 세트 도구 아래 있는 각 권한 항목을 이해하려면 이 페이지를 사용합니다.
 
