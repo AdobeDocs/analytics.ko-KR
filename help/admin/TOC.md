@@ -5,10 +5,10 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
 translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 99%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -108,12 +108,12 @@ ht-degree: 99%
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
-+ Experience Cloud Admin Console {#admin-console}
-   + [Experience Cloud Admin Console 도움말](admin-console/home.md)
++ Admin Console의 Adobe Analytics {#admin-console}
+   + [Admin Console의 Adobe Analytics](admin-console/home.md)
    + 권한 {#permissions}
-      + [제품 프로필 도움말](admin-console/permissions/product-profile.md)
-      + [보고서 세트 도구 권한 항목](admin-console/permissions/report-suite-tools.md)
-      + [Analytics 도구 권한 항목](admin-console/permissions/analytics-tools.md)
+      + [Adobe Analytics 제품 프로필](admin-console/permissions/product-profile.md)
+      + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
+      + [분석 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
 + 회사 설정 {#company-settings}
    + [회사 설정 개요](company/c-company-settings.md)
