@@ -1,18 +1,18 @@
 ---
 title: 필드 기반 결합
 description: 필드 기반 결합을 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # 필드 기반 결합
 
-장치 간 분석에서는 데이터를 서로 연결하는 두 가지 서로 다른 방법을 제공합니다. 이 방법은 [prop](/help/implement/vars/page-vars/prop.md)이나 [eVar](/help/implement/vars/page-vars/evar.md)과 같은 Analytics 변수를 사용하여 사람 식별자를 포함합니다. 해당 변수는 장치를 함께 연결하는 기준으로 사용됩니다.
+교차 장치 분석에서는 데이터를 서로 결합하는 두 가지 서로 다른 방법을 제공합니다. 이 방법은 [prop](/help/implement/vars/page-vars/prop.md)이나 [eVar](/help/implement/vars/page-vars/evar.md)과 같은 Analytics 변수를 사용하여 사람 식별자를 포함합니다. 해당 변수는 장치를 함께 연결하는 기준으로 사용됩니다.
 
 ## 필드 기반 결합에 대한 사전 요구 사항
 
