@@ -1,11 +1,11 @@
 ---
 title: 교차 디바이스 분석 FAQ
 description: 교차 디바이스 분석에 대한 FAQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe에서는 타임스탬프가 지정된 히트를 Adobe가 히트를 수신�
 
 ## CDA의 사람 지표와 CDA 외부의 고유 방문자 수 지표의 차이점은 무엇입니까?
 
-[사람](/help/components/metrics/people.md) 지표는 고유한 개인의 수를 보고한다는 점에서 [고유 방문자 수](/help/components/metrics/unique-visitors.md) 지표와 유사합니다. 그러나 교차 디바이스 분석을 사용하는 경우 고유 방문자 수가 CDA 외부에 2명의 별도 고유 방문자 수로 달리 기록되면 결합됩니다. 장치 간 분석이 활성화되면 &#39;사람&#39; 지표가 &#39;고유 방문자 수&#39; 지표를 대체합니다. 장치 간 분석을 제외한 고유 방문자와 거의 동일한 새 지표 [고유 장치](/help/components/metrics/unique-devices.md)를 사용할 수 있습니다.
+[사람](/help/components/metrics/people.md) 지표는 고유한 개인의 수를 보고한다는 점에서 [고유 방문자 수](/help/components/metrics/unique-visitors.md) 지표와 유사합니다. 그러나 교차 디바이스 분석을 사용하는 경우 고유 방문자 수가 CDA 외부에 2명의 별도 고유 방문자 수로 달리 기록되면 결합됩니다. 교차 장치 분석이 활성화되면 &#39;사람&#39; 지표가 &#39;고유 방문자 수&#39; 지표를 대체합니다. 교차 장치 분석을 제외한 고유 방문자와 거의 동일한 새 지표 [고유 장치](/help/components/metrics/unique-devices.md)를 사용할 수 있습니다.
 
 ## CDA의 &#39;고유 장치&#39; 지표와 CDA 외부의 &#39;고유 방문자 수&#39; 지표의 차이점은 무엇입니까?
 
@@ -75,7 +75,7 @@ Adobe에서는 타임스탬프가 지정된 히트를 Adobe가 히트를 수신�
 2. 원하는 패널에서 디버그 아이콘을 클릭한 다음 원하는 시각화 및 요청 시간을 선택합니다.
 3. API에서 Adobe를 호출하는 데 사용할 수 있는 JSON 요청을 찾습니다.
 
-## 교차 디바이스 분석은 고유 방문자 수를 함께 결합할 수 있습니다. 방문자를 연결시킬 수 있습니까?
+## 교차 디바이스 분석은 고유 방문자 수를 함께 결합할 수 있습니다. 방문자 수를 함께 결합할 수 있습니까?
 
 예. 개별 사용자가 가상 보고서 세트의 방문 제한 시간(기본적으로 30분) 내에 두 개의 개별 장치에서 히트를 전송하는 경우 동일한 방문에 결합됩니다.
 
