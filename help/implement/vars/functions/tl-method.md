@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ s.tl(true,"e","Example exit link");
 
 ### 링크 유형 (필수)
 
-링크 유형 인수는 링크 추적 호출 유형을 결정하는 단일 문자열입니다. 유효한 값은 3개입니다.
+링크 유형 인수는 링크 추적 호출 유형을 결정하는 단일 문자 문자열로서, 3개의 유효한 값이 있습니다.
 
-* `o`:링크는  [사용자 지정 링크입니다](/help/components/dimensions/custom-link.md).
-* `d`:링크는  [다운로드 링크입니다](/help/components/dimensions/download-link.md).
-* `e`:링크는  [종료 링크입니다](/help/components/dimensions/exit-link.md).
+* `o`: 링크는 [사용자 지정 링크](/help/components/dimensions/custom-link.md)입니다.
+* `d`: 링크는 [다운로드 링크](/help/components/dimensions/download-link.md)입니다.
+* `e`: 링크는 [종료 링크](/help/components/dimensions/exit-link.md)입니다.
 
 ```js
 // Send a custom link
