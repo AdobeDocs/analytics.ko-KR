@@ -1,11 +1,11 @@
 ---
 description: Adobe Analytics에서 Adobe Campaign 보고를 활성화하는 방법 살펴보기
-title: Adobe Campaign Reporting을 Adobe Analytics에 통합하려면 어떻게 해야 합니까?
-translation-type: tm+mt
+title: Adobe Campaign 보고를 Adobe Analytics에 통합하려면 어떻게 합니까?
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
