@@ -1,9 +1,9 @@
 ---
 title: 데이터 수집 쿼리 매개 변수
 description: 이미지 요청에 사용된 모든 쿼리 문자열 매개 변수를 나열합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 | `c` | 없음 | 색상 품질(비트). [색상 깊이](/help/components/dimensions/color-depth.md) 차원에 사용됩니다. |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | 컨텍스트 데이터 변수의 시작을 나타냅니다. 값을 포함하지 않습니다. |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | 컨텍스트 데이터 변수의 끝을 나타냅니다. 값을 포함하지 않습니다. |
-| `c1` - `c75` | [`prop1` -  `prop75`](../vars/page-vars/prop.md) | [Prop](/help/components/dimensions/prop.md) 또는 사용자 지정 트래픽 변수입니다. |
+| `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Prop](/help/components/dimensions/prop.md) 또는 사용자 지정 트래픽 변수입니다. |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | 히트에서 사용되는 통화 유형. |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | 도메인에 있는 점의 수. 쿠키를 올바로 저장하는 데 사용됩니다. |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | 이미지 요청의 문자 인코딩. |
@@ -41,11 +41,11 @@ ht-degree: 100%
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 255바이트보다 긴 URL은 분할됩니다. 처음 255바이트는 `g` 매개 변수에 나타나고 나머지 모든 바이트는 `-g` 매개 변수에 나타납니다. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` 쿼리 문자열의 축약. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` 쿼리 문자열의 축약. |
-| `h1` -  `h5` | [`hier1` -  `hier5`](../vars/page-vars/hier.md) | 계층 차원입니다. |
+| `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 계층 차원입니다. |
 | `hp` | 없음 | 더 이상 사용되지 않습니다. 이전 버전의 Adobe Analytics에서 현재 URL이 브라우저의 홈 페이지인지 확인했습니다. |
 | `j` | 없음 | 브라우저에 설치된 JavaScript 버전. |
 | `k` | 없음 | [쿠키 지원](/help/components/dimensions/cookie-support.md) 차원에 사용됩니다. |
-| `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | 목록 변수. |
+| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | 목록 변수. |
 | `mid` | 없음 | Experience Cloud 방문자 ID. |
 | `ndh` | 없음 | 이미지 요청이 AppMeasurement에서 발생했는지 여부를 나타내는 플래그. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | 쿠키가 설정된 위치를 확인하는 데 도움이 됩니다. |
@@ -74,7 +74,7 @@ ht-degree: 100%
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | 히트와 함께 설정된 사용자 지정 타임스탬프. 보통 오프라인 추적에 사용됩니다. |
 | `v` | 없음 | [Java 활성화](/help/components/dimensions/java-enabled.md) 차원에 사용됩니다. |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [추적 코드 차원.](/help/components/dimensions/tracking-code.md) |
-| `v1` -  `v250` | [`evar1` -  `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) 또는 사용자 지정 전환 차원입니다. |
+| `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) 또는 사용자 지정 전환 차원입니다. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 방문자 ID 변수. |
 | `vmk` | `vmk` | 더 이상 사용되지 않습니다. 구현을 타사 쿠키에서 자사 쿠키로 마이그레이션하는 데 도움을 준 방문자 마이그레이션 키입니다. |
 | `vvp` | `variableProvider` | Data Connectors에서 사용됩니다. |
