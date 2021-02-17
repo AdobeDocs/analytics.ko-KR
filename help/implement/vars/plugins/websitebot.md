@@ -1,36 +1,36 @@
 ---
 title: websiteBot
-description: 마우스 움직임을 사용하여 동적으로 보트 식별
-translation-type: tm+mt
+description: 마우스 움직임을 사용하여 동적으로 보트를 식별합니다.
+translation-type: ht
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
-# Adobe 플러그인:websiteBot
+# Adobe 플러그인: websiteBot
 
 >[!IMPORTANT]
 >
 >이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
-`websiteBot` 플러그인을 사용하면 데스크탑 방문자가 봇인지 동적으로 식별할 수 있습니다. 이 데이터를 사용하여 모든 유형의 보고에서 보다 정확성을 높일 수 있으므로 올바른 사이트 트래픽을 측정하는 더 나은 방법을 제공합니다.
+`websiteBot` 플러그인을 통해 데스크탑 방문자가 보트인지를 동적으로 식별할 수 있습니다. 이 데이터를 사용하면 모든 유형의 보고에서 정확성을 더 높일 수 있으므로 올바른 사이트 트래픽을 더 정확하게 측정할 수 있습니다.
 
 이 플러그인은 다음 두 가지 검사를 수행합니다.
 
-* 먼저, 장치가 데스크톱 장치인지 또는 `navigator.UserAgent` 변수를 사용하는 모바일 장치인지 결정합니다. 모바일 장치는 무시됩니다.
-* 데스크톱 장치인 경우 마우스 이동에 대한 이벤트 리스너를 추가합니다.
+* 먼저, `navigator.UserAgent` 변수를 사용하여 장치가 데스크탑 장치인지 또는 모바일 장치인지를 확인합니다. 모바일 장치는 무시됩니다.
+* 데스크탑 장치인 경우 마우스 움직임에 대한 이벤트 리스너를 추가합니다.
 
-사용자 에이전트가 데스크탑에 있고 마우스 이동이 감지되지 않으면 플러그인은 `websiteBot` 변수를 `true`으로 설정합니다. 사용자 에이전트가 모바일 장치이거나 마우스 이동이 감지되면 플러그인은 `websiteBot` 변수를 `false`으로 설정합니다.
+사용자 에이전트가 데스크탑에 있고 마우스 움직임이 감지되지 않으면 플러그인은 `websiteBot` 변수를 `true`로 설정합니다. 사용자 에이전트가 모바일 장치이거나 마우스 움직임이 감지되면 플러그인은 `websiteBot` 변수를 `false`로 설정합니다.
 
 ## 전제 조건
 
 이 플러그인을 사용하기 전에 다음 사항을 권장합니다.
 
-* **eVar 설정 구성**:보고서 세트 설정의  [전환 ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 변수 아래에 eVar을 설정합니다. 만료를 **&quot;방문자&quot;**&#x200B;로 설정하고 할당은 **&quot;원래 값(처음)&quot;**&#x200B;으로 설정합니다.
-* **별도의 변수에 사용자 에이전트 수집**:사용자 에이전트 문자열을 별도의 변수에 수집하여 이 플러그인의 효과를 모니터링합니다. 이 데이터를 수집하려면 모든 히트에서 eVar을 `navigator.UserAgent`으로 설정합니다.
+* **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **&quot;방문자&quot;**&#x200B;로 설정하고 할당은 **&quot;원래값(처음)&quot;**&#x200B;으로 설정합니다.
+* **사용자 에이전트를 별도의 변수로 수집**: 사용자 에이전트 문자열을 별도의 변수로 수집하여 이 플러그인의 효과를 모니터링합니다. 이 데이터를 수집하려면 모든 히트에서 eVar를 `navigator.UserAgent`로 설정합니다.
 
 ## Launch 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
@@ -54,7 +54,7 @@ websiteBot=true;if(!/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|bla
 
 ## 플러그인 사용
 
-`websiteBot` 변수는 부울입니다. 플러그인이 보트를 감지하면 `true`을 반환합니다.그렇지 않으면 `false`을 반환합니다.
+`websiteBot` 변수는 부울입니다. 이 변수는 플러그인이 보트를 감지하면 `true`를 반환하고, 그렇지 않으면 `false`를 반환합니다.
 
 ## 예
 
