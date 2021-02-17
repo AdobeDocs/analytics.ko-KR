@@ -1,11 +1,11 @@
 ---
-description: Ad Hoc Analysis에서 Analysis Workspace으로 프로젝트 변환기에 대해 자주 묻는 질문
-title: Ad Hoc Analysis-Analysis Workspace 프로젝트 변환기에 대한 FAQ
-translation-type: tm+mt
+description: Ad Hoc Analysis에서 Analysis Workspace로 프로젝트 변환기에 대해 자주 묻는 질문
+title: Ad Hoc Analysis에서 Analysis Workspace로 프로젝트 변환기에 대한 FAQ
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
