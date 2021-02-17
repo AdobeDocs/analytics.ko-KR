@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics 구현 코드에서 AppMeasurement 라이브러리 및 Activity Map 모듈이 결합되는 방법의 예
+description: Adobe Analytics 구현 코드에서 AppMeasurement 라이브러리와 Activity Map 모듈이 결합되는 방식의 예
 title: 샘플 Activity Map 구현 코드 보기
 topic: Activity map
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '51'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
