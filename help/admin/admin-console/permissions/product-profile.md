@@ -1,12 +1,12 @@
 ---
 source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '646'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
-# Adobe Analytics 제품 프로필
+# Adobe Analytics의 제품 프로필
 
 제품 프로필은 제품 관리자가 조직 내의 사용자에게 할당할 수 있는 권한 사전 설정입니다. 제품 프로필을 만들고 해당 제품 프로필에 Experience Cloud 사용자를 할당하면 해당 사용자는 제품 프로필에 포함된 권한 항목을 상속받습니다.
 
@@ -18,8 +18,8 @@ ht-degree: 67%
 
 * 제품 프로필 관리자는 Adobe Analytics에 대한 전체 액세스 권한이 없습니다. Adobe Analytics에 대한 전체 액세스 권한은 제품 관리자를 위해 예약되어 있습니다.
 * 제품 프로필 관리자는 제품 프로필의 권한 항목을 조정할 수 있습니다.
-* 제품 프로필 관리자는 사용자 그룹에 제품 프로필을 할당하거나 제거할 수 있습니다.
-* 제품 프로필 관리자는 팀을 위해 Adobe Analytics에 대한 액세스 권한을 부여하고 관리해야 하는 팀 리드 또는 관리자에게 이상적입니다. 개인이 Adobe Analytics에 대한 액세스 권한을 부여하기 위해 시스템 관리자나 제품 관리자를 귀찮게 할 필요는 없습니다.
+* 제품 프로필 관리자는 제품 프로필을 사용자 그룹에 할당하거나 제거할 수 있습니다.
+* 제품 프로필 관리자는 팀을 위해 Adobe Analytics에 대한 액세스 권한을 부여하거나 관리해야 하는 팀 리더 또는 관리자에게 이상적입니다. 개인이 Adobe Analytics에 대한 액세스 권한을 부여하기 위해 시스템 관리자나 제품 관리자를 귀찮게 할 필요는 없습니다.
 
 ## Adobe Analytics 권한 항목
 
@@ -50,10 +50,10 @@ eVar와 같은 사용자 지정 변수는 보고서 세트와 독립적으로 �
 
 ### Analytics 도구
 
-Analytics 도구 권한 항목은 보고서 세트 설정과 독립적인 기능에 대한 액세스 권한을 부여합니다. 권한 항목 및 설명에 대한 전체 목록은 [분석 도구에 대한 제품 프로필 권한](analytics-tools.md)을 참조하십시오.
+Analytics 도구 권한 항목은 보고서 세트 설정과 독립적인 기능에 대한 액세스 권한을 부여합니다. 권한 항목 및 설명의 전체 목록은 [Analytics 도구에 대한 제품 프로필 권한](analytics-tools.md)을 참조하십시오.
 
 ## 제품 프로필 개발자
 
-개발자는 Adobe I/O에서 Experience Cloud API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)를 참조하십시오. 사용자에게 프로파일에 대한 개발자 액세스 권한이 부여된 경우 개발 콘솔(console.adobe.io)에 액세스하고 Adobe Analytics 통합을 편집할 수 있습니다. 사용자에 대해 허가된 Analytics API 호출 및 응답은 해당 사용자에게 개발자 액세스 권한이 있는 모든 프로필의 순 권한에 따라 달라집니다.
+개발자는 Adobe I/O에서 Experience Cloud API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)를 참조하십시오. 사용자에게 프로필에 대한 개발자 액세스 권한이 부여된 경우 Dev Console(console.adobe.io)에 액세스하고 Adobe Analytics 통합을 편집할 수 있습니다. 사용자에 대해 승인된 Analytics API 호출 및 응답은 해당 사용자가 개발자 액세스 권한을 가지는 모든 프로필의 순 권한에 따라 달라집니다.
 
-예를 들어 모든 지표, 모든 차원 및 하나의 보고서 세트를 포함하는 프로필 권한이 있는 프로필의 개발자 액세스 구성원은 관련 세트 내의 모든 구성 요소와 관련된 API 호출을 수행할 수 있습니다. 예외 항목 감지가 추가되면 보고서에 전체 응답이 포함될 수 있으며 예외 항목 데이터에 추가할 수 있습니다. 경험상 프로필에서 Adobe Analytics 인터페이스 내의 시나리오에 대한 액세스 권한을 부여하는 경우 유사한 정의된 프로필의 개발자 액세스는 해당 API 호출 및 응답을 활성화합니다.
+예를 들어, 모든 지표, 모든 차원 및 하나의 보고서 세트를 포함하는 프로필 권한으로, 프로필의 개발자 액세스 구성원은 관련 세트 내 구성요소와 관련한 API 호출을 만들 수 있습니다. 예외 항목 탐지가 추가되었으면, 보고서는 예외 데이터에 추가하여 풀러 응답을 포함할 수 있습니다. 일반적으로, 프로필에서 Adobe Analytics 인터페이스 내의 시나리오에 대한 액세스 권한을 부여하면, 유사하게 정의된 프로필의 개발자 액세스가 해당 API 호출 및 응답을 활성화합니다.
