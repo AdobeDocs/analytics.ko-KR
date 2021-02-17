@@ -2,9 +2,9 @@
 title: Adobe Analytics에 Google 디스플레이 광고 데이터 통합
 description: null
 translation-type: tm+mt
-source-git-commit: b3fa13990807294f22414acb2e0eb44c08202b43
+source-git-commit: caa4042cbef2f588452f9fdd70c5f4bca976ca83
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 이 통합을 통해 고객 행동을 Google AdWords의 캠페인 및 비용 데이터와 연결할 수 있습니다.
 
 
-1. Google 캠페인 관리자로 이동합니다.
+1. Google 캠페인 관리자를 엽니다.
 1. 가장 세분화된 ID(광고 ID)로 분류된 디스플레이 지표(노출 수, 클릭 수, 비용)의 분류를 업로드할 수 있도록 디스플레이 광고 데이터의 반복 내보내기를 설정합니다.
 1. 캠페인, 사이트 등과 같은 광고 ID 메타데이터의 전체 세트를 업로드합니다.
 1. 모든 메타데이터를 사용하여 광고 ID를 분류합니다.
