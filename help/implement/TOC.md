@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 94%
    + [패킷 모니터](validate/packet-monitor.md)
    + [해시 충돌](validate/hash-collisions.md)
 + [FAQ](faq.md)
-+ 구현 {#review} 검토
++ 구현 검토 {#review}
    + [집중 검토(각 웹 사이트 릴리스 이후)](review/focused-review.md)
    + [전체 검토(6개월마다)](review/full-review.md)
    + [상위 5개의 KPI 정의](review/define-kpis.md)
