@@ -4,11 +4,11 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 96%
    + 보트 제거 {#bot-removal}
       + [보트 제거](admin/bot-removal/bot-removal.md)
       + [보트 규칙 개요](admin/bot-removal/bot-rules.md)
-      + [일반적인 보트 서명](admin/bot-removal/bot-signatures.md)
-      + [보트 제외 메서드](admin/bot-removal/bot-exclusion-methods.md)
+      + [일반 보트 서명](admin/bot-removal/bot-signatures.md)
+      + [보트 제외 방법](admin/bot-removal/bot-exclusion-methods.md)
    + [코드 관리자](admin/code-manager-admin.md)
    + 전환 변수 {#conversion-variables}
       + [전환 변수(eVar)](admin/conversion-var-admin/conversion-var-admin.md)
@@ -108,12 +108,12 @@ ht-degree: 96%
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
-+ Admin Console의 Adobe Analytics {#admin-console}
-   + [Admin Console의 Adobe Analytics](admin-console/home.md)
++ Adobe Admin Console의 Analytics {#admin-console}
+   + [Adobe Admin Console의 Analytics](admin-console/home.md)
    + 권한 {#permissions}
-      + [Adobe Analytics 제품 프로필](admin-console/permissions/product-profile.md)
+      + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
-      + [분석 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
+      + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
 + 회사 설정 {#company-settings}
    + [회사 설정 개요](company/c-company-settings.md)
