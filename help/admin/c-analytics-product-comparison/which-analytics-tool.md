@@ -2,11 +2,11 @@
 description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 필요를 충족하지 못하면 다음 도구로 이동하여 고려하십시오.
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,14 +81,14 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 또는 광고 노출 데이터와 같은 Adobe Audience Manager(AAM) 대상 데이터를 Analytics 워크플로우에 통합하려는 경우.
 * 이 통합에서는 새 정보를 조회수별로 Analytics에 전송하므로 업로드한 CRM 데이터를 시간 기반으로 변환하려는 경우.
 
-## Adobe Analytics에서 데이터 내보내기  {#export}
+## Adobe Analytics에서 데이터 내보내기 {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * Workspace의 사용자 정의 레이아웃 옵션이 제한적인 경우(Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
 * 사용자 입력 또는 오프라인 데이터 소스(노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
 * 서로 다른 측정기준의 보고서의 데이터 병합(예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
-* 같은 테이블에 나란히 추가하거나 표시하여 서로 다른 보고서 세트에서 데이터를 병합합니다.
+* 서로 다른 보고서 세트의 데이터를 합치거나 나란히 같은 테이블에 표시하여 병합합니다.
 * 예약을 통한 자동화가 필요한 경우(XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**&#x200B;는 다음 경우에 사용합니다.
