@@ -2,10 +2,10 @@
 description: A4T(Analytics for Target) 패널을 사용하면 Analysis Workspace에서 Adobe Target 활동 및 경험을 분석할 수 있습니다.
 title: A4T(Analytics for Target) 패널
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 86%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
@@ -45,12 +45,12 @@ Analytics for Target 패널은 Adobe Target 활동 및 경험의 성과를 더 �
 | 성공 지표 | 빌더에서 선택한 지표 |
 | 전환율 | 성공 지표/정규화 지표 |
 | 상승도 | 통제 경험을 기준으로 각 경험의 전환율을 비교합니다. 참고: 상승도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다. |
-| 향상도(하한) | 95% 신뢰 구간에 있는 변형 경험이 컨트롤을 넘을 수 있는 최악의 리프트 수를 나타냅니다.<br>계산:(x/y - 1.96 std_err(x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control)). 여기 std_err(x,y)은 square(xx/y - (x/y)^2)이며 여기서 xx는 제곱의 합계를 나타냅니다. |
+| 향상도(하한) | 95% 신뢰 구간에 컨트롤을 통해 변형 경험이 가질 수 있는 최악의 리프트 수를 나타냅니다.<br>계산:(x/y - 1.96 std_err(x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control)) 여기 std_err(x,y)은 sqrt(xx/y - (x/y)^2)이며 여기서 xx는 제곱의 합계를 나타냅니다. |
 | 향상도(중간) | 95% 신뢰 구간에서 변형 경험을 통해 제어할 수 있는 중간 향상도를 나타냅니다. Reports &amp; Analytics의 &quot;상승도&quot;입니다.<br>계산:(x/y)/(x_control/y_control) - 1 |
 | 향상도(상한) | 95% 신뢰 구간에 컨트롤을 통해 변형 경험이 얻을 수 있는 최상의 리프트 수를 나타냅니다.<br>계산:리프트(아래)를 참조하십시오. |
-| 신뢰도 | 학생 T-테스트에서는 다시 테스트를 실행하면 결과가 복제될 가능성을 나타내는 신뢰 수준을 계산합니다. 고정 조건부 서식 범위(75%/85%/95%)가 지표에 적용되었습니다. 열 설정에서 필요한 경우 이 형식을 사용자 지정할 수 있습니다. 참고: 신뢰도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다.<br>계산:y+y_control-2도의 자유도를 사용하여 2측 검증 t-테스트를 적용하여 x/y가 x_control/y_control과 같은지 p-값을 찾습니다. t-score를 계산합니다. 여기서 stderr는 sqrt((xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control)입니다. 1-p를 서로 다른 신뢰로 반환합니다. |
+| 신뢰도 | 학생 T-테스트에서는 다시 테스트를 실행하면 결과가 복제될 가능성을 나타내는 신뢰 수준을 계산합니다. 고정 조건부 서식 범위(75%/85%/95%)가 지표에 적용되었습니다. 열 설정에서 필요한 경우 이 형식을 사용자 지정할 수 있습니다. 참고: 신뢰도는 Target 경험에 대해 &quot;잠긴 지표&quot;입니다. 분류하거나 다른 차원과 함께 사용할 수 없습니다.<br>계산:y+y_control-2도의 자유도를 사용하여 2개의 검증 t 테스트를 적용하여 x/y가 x_control/y_control과 같은지 여부를 p-값을 찾습니다. stderr가 sqrt((xx/y-(x/y)^2)/y +(xx_control/y_control-(x_control/y_control)^2)/y_control)인 t-score를 계산합니다. 1-p를 다른 신뢰도로 반환합니다. |
 
-Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 분석하는 데 도움이 되는 추가 테이블 및 [시각화](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)를 추가하여 분석을 계속할 수 있습니다.
+Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 분석하는 데 도움이 되는 추가 테이블 및 [시각화](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)를 추가하여 분석을 계속할 수 있습니다. 패널 수준 또는 자유 형식 테이블 내에서 세그먼트를 적용할 수도 있습니다. 자유 형식 테이블 내에 추가하는 경우 리프트 및 신뢰도 계산을 보존하려면 전체 테이블에 오버레이해야 합니다. 지금은 열 수준 세그먼트가 지원되지 않습니다.
 
 ## FAQ {#FAQ}
 
@@ -59,8 +59,8 @@ Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 �
 | A4T에서 지원되는 활동 유형은 무엇입니까? | 지원되는 활동 유형에 대해 [자세히](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) 알아보십시오. |
 | 상승도 및 신뢰도 계산에서 계산된 지표가 지원됩니까? | 아니요. 향상도 및 신뢰도에서 계산된 지표가 지원되지 않는 이유에 대해 [자세히](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 알아보십시오. 하지만 계산된 지표는 이러한 지표 외부의 A4T 보고에서 사용할 수 있습니다. |
 | Target과 Analytics 간에 고유 방문자가 다른 이유는 무엇입니까? | 제품 간 고유 방문자 차이에 대해 [자세히](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) 알아보십시오. |
-| 내 분석에서 특정 Target 활동에 대해 히트 세그먼트를 적용하면 반환된 관련 없는 경험이 표시되는 이유가 무엇입니까? | A4T 차원은 목록 변수입니다. 이는 한 번에 많은 활동(및 경험)을 포함할 수 있음을 의미합니다. [추가 정보](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 신뢰도 지표는 예외적인 주문을 고려합니까? 또는 여러 오퍼에 대해 Bonferroni 수정을 적용합니까? | 아니요. Analytics이 신뢰도를 계산하는 방법에 대해 [자세히](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 알아보십시오. |
+| 내 분석에서 특정 Target 활동에 대해 히트 세그먼트를 적용하면 반환된 관련 없는 경험이 표시되는 이유가 무엇입니까? | A4T 차원은 목록 변수입니다. 이는 한 번에 많은 활동(및 경험)을 포함할 수 있음을 의미합니다. [추가 정보](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 신뢰도 지표는 예외적인 주문을 고려합니까? 또는 여러 오퍼에 대해 Bonferroni 수정을 적용합니까? | 아니요. Analytics이 신뢰도를 계산하는 방법에 대해 [자세히](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 알아보십시오. |
 | 향상도와 신뢰도 지표를 다른 차원이나 분류와 함께 사용할 수 있습니까? | 향상도와 신뢰도는 계산할 제어 및 변형을 필요로 하므로 타겟 경험 차원에 대해 &quot;잠긴 지표&quot;입니다. 따라서 분류하거나 다른 차원과 사용할 수 없습니다. |
 | 향상도와 신뢰도는 언제 다시 계산됩니까? | 패널을 실행(또는 재실행)하거나, 패널 날짜 범위가 변경되거나, 세그먼트가 패널이나 테이블에 적용될 때마다 향상도와 신뢰도는 다시 계산됩니다. |
 
