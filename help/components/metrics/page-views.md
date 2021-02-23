@@ -1,16 +1,16 @@
 ---
-title: 페이지 보기 수
-description: 페이지를 본 횟수입니다.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+title: '페이지 보기 횟수 지표 설명 | Adobe Analytics '
+description: 페이지 보기 지표가 Adobe Analytics에서 어떻게 작성되는지 알아보고 페이지 보기와 방문 횟수 간의 차이에 대해 이해합니다.
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 80%
 
 ---
 
 
-# 페이지 보기 수
+# Adobe Analytics을 사용한 페이지 보기 횟수 알아보기
 
 페이지 보기 수 지표는 주어진 차원 항목이 페이지에 설정되거나 지속된 횟수를 보여줍니다. 보고서에서 가장 일반적이고 기본적인 지표 중 하나입니다.
 
