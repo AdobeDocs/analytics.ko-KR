@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: Advertising Analytics 개요
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+description: 필요한 권한, 사용 가능한 차원 및 지표 등 Advertising Analytics을 사용하여 할 수 있는 모든 작업을 이 세부 안내서에서 살펴볼 수 있습니다.
+title: Advertising Analytics 안내서
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
 
-# Advertising Analytics 개요
+# Advertising Analytics 가이드
 
 Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 유료 검색 데이터를 나란히 볼 수 있습니다. 이전에는 모든 Google AdWords/DFA 또는 Microsoft Bing 광고 데이터를 AAC(Adobe Advertising Cloud) 또는 Google/Bing에서 확인해야 했습니다. 이제는 Adobe Analytics 내의 노출 횟수, 클릭 수, 비용, 품질 점수 및 평균 위치 데이터를 검색 엔진과 AMO ID 인스턴스(클릭 인스턴스)에서 직접 가져옵니다.
 
@@ -19,7 +18,7 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 >
 >Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 병합되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.
 
-이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다.  [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
+이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로운 [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
 
 ![](assets/aa_aw.png)
 
