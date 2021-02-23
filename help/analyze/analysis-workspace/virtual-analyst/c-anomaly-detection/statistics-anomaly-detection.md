@@ -1,9 +1,11 @@
 ---
-description: Analysis Workspace의 예외 항목 탐지에서는 일련의 고급 통계 기법을 사용하여 관찰 내용을 예외적인 것으로 간주해야 하는지 여부를 결정합니다.
+description: 데이터 불일치는 큰 문제를 초래할 수 있습니다. Adobe에서 예외 항목 탐지 기술을 사용하여 통계적 예외 항목을 식별하는 방법을 알아봅니다. 지금 바로 시작해 보십시오.
 title: 예외 항목 탐지에서 사용된 통계 기법
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
