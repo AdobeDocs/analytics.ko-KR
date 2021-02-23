@@ -1,23 +1,20 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
-subtopic: Get started
 title: Reports and Analytics 시작하기
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 97%
 
 ---
 
 
-# Reports &amp; Analytics 시작하기
+# 보고 및 분석 시작하기
 
 Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
 
-보고 기능을 통해 모바일, 비디오 및 소셜 네트워킹과 같이 계속 변화하는 채널을 물론 종래의 웹 기반 채널들에 대해서도 통찰력을 가질 수 있습니다. 마케팅 보고의 일부 예에는 다음과 같습니다.
+보고 기능을 통해 모바일, 비디오 및 소셜 네트워킹과 같이 계속 변화하는 채널을 물론 종래의 웹 기반 채널들에 대해서도 통찰력을 가질 수 있습니다. 보고서의 몇 가지 예는 다음과 같습니다.
 
 * 사이트 방문자 수
 * 해당 방문자 중 고유 방문자 수(한 번만 카운트)
@@ -91,39 +88,12 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 모든 사용자는 [!UICONTROL 계정 정보] 페이지에 대한 액세스 권한을 가지고 있습니다. 다음 정보는 보거나 편집할 수 있습니다.
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 정보 종류 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>연락처 </p> </td> 
-   <td> <p>자신의 계정에 대해 다음 개인 정보를 지정하십시오. </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">이름(필수) </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">성(필수) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">직함 </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">이메일 주소(필수) </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">전화번호 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> 로그인 </p> </td> 
-   <td> <p>계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. </p> <p><a href="https://helpx.adobe.com/kr/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Reports &amp; Analytics 계정 암호를 재설정하는 방법</a>을 참조하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>웹 서비스 </p> </td> 
-   <td> <p>이 계정과 연결된 웹 서비스 사용자 이름과 공유 암호가 표시됩니다. 웹 서비스 API를 통해 Experience Cloud에 액세스할 때 이러한 자격 증명을 사용합니다. 자세한 내용은 <a href="https://marketing.adobe.com/developer/ko_KR"  >Developer Connection</a>을 참조하십시오. </p> <p> <p>참고: 이 정보는 계정이 웹 서비스 사용자로 인증되는 경우에만 표시됩니다. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> 이 컴퓨터 제외 </p> </td> 
-   <td> <p>쿠키를 현재 컴퓨터에 적용하여 데이터 수집에서 제외합니다. 이 기능은 도메인에서 페이지 보기나 방문자 수에 영향을 주는 온라인 활동을 원하지 않는 경우 유용합니다. </p> <p> <p>참고: 이 기능을 사용하려면 브라우저에 쿠키 기능이 활성화되어 있어야 합니다. 컴퓨터에서 쿠키를 삭제하는 경우 제외 쿠키를 재설정해야 합니다. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 정보 종류 | 정의 |
+| --- | --- |
+| 연락처 | 자신의 계정에 대해 다음 개인 정보를 지정하십시오.<ul><li>이름(필수)</li><li>성(필수)</li><li>직함</li><li>이메일 주소(필수)</li><li>전화번호</li></ul> |
+| 로그인 | 계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. [Reports &amp; Analytics 계정 암호를 재설정하는 방법](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en)을 참조하십시오. |
+| 웹 서비스 | 이 계정과 연결된 웹 서비스 사용자 이름과 공유 암호가 표시됩니다. 웹 서비스 API를 통해 Experience Cloud에 액세스할 때 이러한 자격 증명을 사용합니다. 자세한 내용은 Developer Connection을 참조하십시오. **참고:** 이 정보는 계정이 웹 서비스 사용자로 인증되는 경우에만 표시됩니다. |
+| 이 컴퓨터 제외 | 쿠키를 현재 컴퓨터에 적용하여 데이터 수집에서 제외합니다. 이 기능은 도메인에서 페이지 보기나 방문자 수에 영향을 주는 온라인 활동을 원하지 않는 경우 유용합니다. **참고:** 이 기능을 사용하려면 브라우저에 쿠키 기능이 활성화되어 있어야 합니다. 컴퓨터에서 쿠키를 삭제하는 경우 제외 쿠키를 재설정해야 합니다. |
 
 ## 인터페이스 언어 변경
 
