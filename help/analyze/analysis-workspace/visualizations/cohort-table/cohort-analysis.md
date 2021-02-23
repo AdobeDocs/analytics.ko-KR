@@ -1,16 +1,16 @@
 ---
-title: 집단 분석이란?
-description: Analysis Workspace의 집단 분석에 대한 자세한 내용
+title: 집단 분석이란 무엇이며 어떻게 작동합니까?
+description: 집단 분석을 통해 고객에 대한 데이터를 심층적으로 분석하여 관련 그룹으로 분류할 수 있습니다. Analysis Workspace의 집단 분석에 대한 자세한 내용.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 90%
 
 ---
 
 
-# [!UICONTROL 집단 분석]이란?
+# Adobe Analytics의 [!UICONTROL 집단 분석]에 대해 알아봅니다.
 
 *`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다. ] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://en.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
