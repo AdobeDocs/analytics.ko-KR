@@ -2,10 +2,10 @@
 title: AMP를 사용한 구현
 description: AMP 페이지에서 Adobe Analytics를 구현합니다.
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Analytics는 JavaScript 라이브러리를 사용하여 이미지 요청�
 
 ## AMP를 사용하여 페이지에서 Adobe Analytics를 구현할 방법 결정
 
-Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두 가지 방법을 만들었습니다. 둘 다 `<amp-analytics>` HTML 태그를 사용합니다. 자세한 내용은 ampproject GitHub의 [amp-analytics 태그](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics)를 참조하십시오.
+Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두 가지 방법을 만들었습니다. 둘 다 `<amp-analytics>` HTML 태그를 사용합니다. 자세한 내용은 AMP의 설명서에서 [amp-analytics 태그](https://amp.dev/documentation/components/amp-analytics)를 참조하십시오.
 
 * **`"adobeanalytics"` 추적 템플릿 사용**: 페이지에서 바로 Analytics 요청 구성
 * **`"analytics_nativeConfig"` 추적 템플릿 사용**: 일반 사이트에 배포하는 것과 동일한 AppMeasurement 코드가 들어 있는 iframe 사용
