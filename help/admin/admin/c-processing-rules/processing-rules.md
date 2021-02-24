@@ -5,7 +5,7 @@ title: 처리 규칙 개요
 topic: 관리 도구
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ s.contextData['genre'] = "Youth";
 
 컨텍스트 데이터 변수가 구현 내에 정의된 경우 해당 변수를 eVar과 같은 변수에 복사해야 보고에 사용할 수 있습니다.
 
-자세한 내용은 [컨텍스트 데이터 변수를 eVar](processing-rules-examples/processing-rules-copy-context-data.md)에 복사 및 [컨텍스트 데이터 변수](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)를 사용하여 이벤트 설정을 참조하십시오.
+자세한 내용은 [컨텍스트 데이터 변수를 eVar](processing-rules-examples/processing-rules-copy-context-data.md)에 복사 및 [컨텍스트 데이터 변수](processing-rules-examples/processing-rules-copy-context-data-event.md)를 사용하여 이벤트 설정을 참조하십시오.
