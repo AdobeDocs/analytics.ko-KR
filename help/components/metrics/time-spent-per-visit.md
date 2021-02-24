@@ -1,11 +1,11 @@
 ---
 title: 방문당 체류 시간
 description: 차원 항목에 대한 방문당 체류 시간입니다.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
+workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 이 지표의 계산 방법
 
-이 지표는 공식 [`Total seconds spent`](total-seconds-spent.md) `divided by` ([`Visits`](visits.md) `minus` [`Bounces`](bounces.md))을 사용합니다.
+이 지표는 [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)` 공식을 사용합니다.
 
 ## 사이트의 평균 시간과 비교
 
