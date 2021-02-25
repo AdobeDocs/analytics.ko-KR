@@ -5,9 +5,9 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
 translation-type: tm+mt
-source-git-commit: 35f0f3fb9a349b7fceb035be771ee462ec0799aa
+source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '734'
 ht-degree: 98%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 98%
       + [차원 권한 사용자 지정](user-management2/c-customize-report-access/groups-dimensions.md)
    + [이메일 사용자](user-management2/t-email-users.md)
 + 데이터 거버넌스 {#data-governance}
-   + [Adobe Analytics 및 GDPR 개요](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics 및 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)
    + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
    + [FAQ](c-data-governance/gdpr-faq.md)
