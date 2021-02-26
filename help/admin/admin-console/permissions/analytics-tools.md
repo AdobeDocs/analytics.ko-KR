@@ -1,9 +1,9 @@
 ---
-source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
-workflow-type: ht
-translation-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '547'
+ht-degree: 98%
 
 ---
 # Analytics 도구에 대한 제품 프로필 권한
@@ -32,7 +32,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | Excel 라이센스 사용자 | 사용되지 않습니다. |
 | Activity Map | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
 | 현재 데이터 | Reports &amp; Analytics 보고서에서 현재 데이터를 보는 옵션을 활성화합니다. |
-| Ad Hoc Analysis 라이선스 사용자 | 도구 > Ad Hoc Analysis에서 다운로드 단추를 활성화하고 사용자가 도구를 인증할 수 있도록 합니다. [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오. |
+| Ad Hoc Analysis 라이선스 사용자 | Ad Hoc Analysis은 사용이 중단되었습니다. [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오. |
 | 모바일 앱 관리 | 사용되지 않습니다. |
 | 웹 서비스 액세스 | 타사 사이트에서의 인증 및 API 호출 전송을 포함하여 API를 사용할 수 있는 권한을 부여합니다. |
 | Report Builder | 도구 > Report Builder 아래의 다운로드 단추를 활성화하고 사용자가 Microsoft Excel 내에서 인증할 수 있도록 합니다. |
