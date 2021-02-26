@@ -1,13 +1,13 @@
 ---
 description: 관리 기능의 일반 계정 설정 보고서 세트에 대한 필드 설명입니다.
 title: 일반 계정 설정
-topic: Admin tools
+topic: 관리 도구
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: d4ecb31e7a79546c97207772e9df3eb4d673c35f
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 87%
+source-wordcount: '672'
+ht-degree: 86%
 
 ---
 
@@ -29,5 +29,4 @@ ht-degree: 87%
 | IP 주소의 마지막 옥텟을 0으로 바꾸기 | IP 필터링/제외 전, 보트 규칙을 확인하기 전, 지리 특성 조회 전 등 히트에 대한 처리가 완료되기 전에 마지막 8진수를 제거합니다. 따라서 마지막 옥텟은 0으로 대체되고, IP 제외 규칙은 끝에 0이 있는 IP 주소와 일치하도록 업데이트해야 합니다. 일치 *는 0과 일치해야 합니다. 예를 들어, IP 주소 11.22.33.44은 11.22.33.0으로 변경됩니다. 지리 특성 데이터는 전체 IP 주소를 사용할 때만큼 정확하지는 않습니다. 특히 도시 정확성은 국가 또는 지역 정확성보다 더 많은 영향을 받습니다. 전체 IP 주소는 봇 규칙과 VISTA 규칙에 사용할 수 없으므로 두 규칙 모두 영향을 받습니다. 또한, 마케팅 채널 규칙과 보고서 세트 처리 규칙을 포함하여 IP 기반의 모든 처리 규칙도 이 설정의 영향을 받습니다. <br> **참고**: 이 설정은 2019년 1월 이후 런던 데이터 센터에서 생성된 새 보고서 세트에 대해 기본적으로 활성화되어 있지만, 그러한 보고서 세트의 설정이 Admin Console에 나열된 템플릿에서 복사된 경우에만 가능합니다. 다른 보고서 세트와 중복되는 설정이 있는 보고서 세트는 선택한 보고서 세트에서 모든 설정을 상속합니다. |
 | IP 난독화 | IP 주소가 인식할 수 없는 문자열로 바뀌어 결국 Adobe 데이터 저장소에서 제거됩니다. 유사 IP 탐지가 활성화되면 원래 IP 주소는 영구적으로 손실됩니다.  <br> **참고**: IP 주소는 Data Warehouse를 포함하여 Analytics의 모든 곳에서 난독화되었습니다. 하지만 Target의 IP 설정은 별도로 제어되므로 이 설정은 Target에 영향을 주지 않습니다.<br> IP 난독화가 활성화되면 IP 주소가 난독화되기 전에 IP 필터링/제외, 보트 규칙 및 지리 특성 조회를 포함하여 필요한 모든 처리가 수행됩니다. IP 난독화를 활성화하면 변경할 필요가 없습니다.<ul><li>**비활성화됨**&#x200B;을 선택하면 데이터에 IP 주소가 남습니다.</li><li>**IP 주소 난독화를 선택하면 IP가 두 개의 콜론, 해시된 값(예: `::1932023538`)으로 변경됩니다.**</li><li>지역 조회 후 **IP 주소 제거**&#x200B;를 선택하면 IP 주소가 데이터의 `::X.X.X.X`로 바뀝니다.</li></ul>****&#x200B;참고: 이 설정을 사용하려면 사용자 지정 [ 보트 규칙](/help/admin/admin/bot-removal/bot-rules.md) 또는[ IP 제외를 변경해야 할 수 있습니다](/help/admin/admin/exclude-ip.md). |
 | 거래 ID 스토리지 | [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) 데이터 소스를 사용할 수 있습니다. |
-| Ad Hoc Analysis 활성화 | 문제의 보고서 세트가 Ad Hoc Analysis에서 사용 가능한 보고서 세트로 표시되는지 여부를 나타냅니다. 이 설정을 사용하여 Ad Hoc Analysis에 대한 옵션으로 표시할 보고서 세트를 제한하십시오. 예를 들어, 개발 및 QA 보고서 세트에 대한 Ad Hoc Analysis을 비활성화할 수 있습니다. |
 | Data Warehouse 활성화 | 도구 > Data Warehouse에서 Data Warehouse UI를 활성화합니다. |
