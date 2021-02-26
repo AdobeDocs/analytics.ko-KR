@@ -2,8 +2,11 @@
 description: 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼트로 분할하므로 각 세그먼트에 대한 액세스를 제어할 수 있습니다.
 title: 가상 보고서 세트 개요
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 데이터에 대한 단일 고객 보기(향후)
 * 무제한의 가상 보고서 세트를 생성하여 데이터를 구분할 수 있는 기능
 
-## 가상 보고서 세트의 한계 {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## 가상 보고서 세트의 한계  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 가상 보고서 세트에는 다음과 같은 한계가 있습니다.
 
@@ -48,12 +51,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 실시간 보고서
 * 전체 보고서 세트에서처럼 설정 및 변수 이름을 사용자 지정할 수 없습니다.
 
-## 가상 보고서 세트와 다중 세트 태깅 {#section_317E4D21CCD74BC38166D2F57D214F78}
+## 가상 보고서 세트와 다중 세트 태깅  {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | 기능 | 가상 보고서 세트 | 다중 세트 태깅 |
 |--- |--- |--- |
 | 실시간 또는 &quot;현재 데이터&quot; 보고 제공 | 아니오 | 예 |
-| 모든 Analytics 도구(Analysis Workspace, Report Builder, Ad Hoc Analysis 등)에서 작동 | 예. 참고: 이러한 도구를 Reports &amp; Analytics에서 가상 보고서 세트로만 편집하고 식별할 수 있습니다. 하지만 다른 도구의 보고서 세트 드롭다운에서 선택할 수 있습니다. | 예 |
+| 모든 분석 도구(Analysis Workspace, Report Builder 등)에서 작동 | 예. **참고:** 이러한 도구를 Reports &amp; Analytics에서 가상 보고서 세트로만 편집하고 식별할 수 있습니다. 하지만 다른 도구의 보고서 세트 드롭다운에서 선택할 수 있습니다. | 예 |
 | 데이터를 업로드할 수 있음( 분류, 데이터 피드 등을 통해) | 아니오 | 예 |
 | DL 보고서, 책갈피, 대시보드, 타겟, 경고, 세그먼트, 계산된 지표 만들기 지원... | 예 | 예 |
 | 권한 그룹에 개별적으로 추가할 수 있음 | 예 | 예 |
