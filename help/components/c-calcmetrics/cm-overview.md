@@ -1,13 +1,13 @@
 ---
 description: 계산 및 고급 계산(또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다.
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: 계산된 지표;파생 지표;고급 계산된 지표
 title: 계산 및 고급 계산(파생) 지표
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
@@ -39,16 +39,11 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 다음을 수행할 수 있습니다.
 
-* [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]에서 지표를 만들 수 있습니다.
+* [!UICONTROL Analysis Workspace], [!UICONTROL 보고 및 분석], [!UICONTROL Report Builder], [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]에 지표를 만듭니다.
 * [구현을 변경하지 않고도](https://youtu.be/CuQTm9RaUpY) 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다.
 * 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
 * (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 이번이 첫 번째 세션인 사람의 수로, &quot;새 방문자 수&quot;에 대한 지표를 만들 수 있습니다.
 * (고급 계산 지표만 해당) 통계 함수를 통합하여 데이터를 더욱 효율적으로 설명할 수 있습니다. 예를 들어, 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
-* 다른 [!DNL Analytics] 도구의 [!UICONTROL Ad Hoc Analysis]에서 만든 지표를 활용할 수 있고 그 반대의 경우도 가능합니다.
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis에서 계속하여 지표를 만들 수 있습니다. 이제 이 분석의 계산된 지표 빌더 사용자 인터페이스는 새 지표 빌더와 비슷합니다.
 
 ## 제한 {#section_CB878B02451541D68A68B508D4DBD19A}
 
