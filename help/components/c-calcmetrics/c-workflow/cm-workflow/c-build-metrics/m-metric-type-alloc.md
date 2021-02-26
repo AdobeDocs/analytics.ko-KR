@@ -2,11 +2,11 @@
 description: '알아보기 '
 title: 지표 유형 및 기여도 분석
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 97%
 
 ---
 
@@ -32,14 +32,15 @@ ht-degree: 100%
 >
 >* 기본이 아닌 기여도 분석 모델 및 전환 확인 기간 창의 전체 목록에 대해서는 [속성 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 설명서를 참조하십시오.
 >* &quot;마케팅 채널 마지막 터치&quot; 및 &quot;마케팅 채널 첫 번째 터치&quot; 할당 모델은 새 &quot;마지막 터치&quot; 및 &quot;첫 번째 터치&quot; 기여도 분석 모델로 마이그레이션됩니다. 참고: &quot;마케팅 채널&quot;은 더 이상 사용되지 않으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용됩니다.
->* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. 고객이 &quot;선형&quot; 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이러한 변경 내용은 Analysis Workspace, Reports &amp; Analytics, Reporting API, Report Builder 및 Ad Hoc Analysis에 반영됩니다. 자세한 내용은 아래의 **선형 할당 작동 방식(2018년 7월 19일 현재)**&#x200B;을 참조하십시오.
+>* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. 고객이 &quot;선형&quot; 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이 변경 사항은 Analysis Workspace, 보고 및 분석, 보고 API 및 Report Builder에 반영됩니다. 자세한 내용은 아래의 **선형 할당 작동 방식(2018년 7월 19일 현재)**&#x200B;을 참조하십시오.
+
 >
 
 
 
 ## 선형 할당 작동 방식(2018년 7월 19일 현재)
 
-2018년 7월에 Adobe는 계산된 지표에 대해 선형 할당을 보고하는 방법을 변경했습니다. 이 변경 사항은 Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map 및 Reporting API에 영향을 줍니다. 변경 사항은 주로 지속성이 있는 eVars 및 기타 차원에 영향을 줍니다. 이러한 변경 사항은 계산된 지표에만 적용되며, 선형 할당을 사용하는 다른 보고서(예: Reports &amp; Analytics의 페이지 보고서)에는 영향을 주지 않습니다. 선형 할당을 사용하는 다른 보고서는 계속해서 기존의 선형 할당 방법을 사용합니다.
+2018년 7월에 Adobe는 계산된 지표에 대해 선형 할당을 보고하는 방법을 변경했습니다. 이 변경 사항은 Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map 및 Reporting API에 영향을 줍니다. 변경 사항은 주로 지속성이 있는 eVars 및 기타 차원에 영향을 줍니다. 이러한 변경 사항은 계산된 지표에만 적용되며, 선형 할당을 사용하는 다른 보고서(예: Reports &amp; Analytics의 페이지 보고서)에는 영향을 주지 않습니다. 선형 할당을 사용하는 다른 보고서는 계속해서 기존의 선형 할당 방법을 사용합니다.
 
 다음 예제는 선형 할당을 사용하여 계산된 지표가 보고에서 변경되는 방식을 보여줍니다.
 
