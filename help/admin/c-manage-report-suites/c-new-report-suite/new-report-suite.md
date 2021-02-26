@@ -1,13 +1,13 @@
 ---
 description: 사전 정의된 템플릿을 선택하거나 기존 보고서 세트 중 하나를 모델로 사용하여 새 보고서 세트를 생성할 수 있습니다.
 title: 새 보고서 세트 - 설정
-topic: Admin tools
+topic: 관리 도구
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 페이지</span> </td> 
-   <td colname="col2"> <p>(선택 사항) <span class="wintitle">기본 페이지</span> 값이 발생하는 URL에서 해당 값을 제거합니다. <span class="wintitle">가장 방문 빈도가 높은 페이지</span> 보고서가 페이지 이름이 아닌 URL을 포함하는 경우 이 설정은 동일한 웹 페이지에 대한 여러 URL을 방지합니다. </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>이 값을 설정하지 않으면 Analytics는 URL에서 파일 이름 <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> 및<span class="filepath"> home.asp</span>를 자동으로 제거합니다. </p> <p>파일 이름 제거를 비활성화하려면 URL에서 발생하지 않는 기본 페이지 값을 지정합니다.  </p> </td> 
+   <td colname="col2"> <p>(선택 사항) <span class="wintitle">기본 페이지</span> 값이 발생하는 URL에서 해당 값을 제거합니다. <span class="wintitle">가장 방문 빈도가 높은 페이지</span> 보고서가 페이지 이름이 아닌 URL을 포함하는 경우 이 설정은 동일한 웹 페이지에 대한 여러 URL을 방지합니다. </p> <p>예를 들어 URL<span class="filepath"> https://example.com</span> 및 <span class="filepath"> https://example.com/index.html</span>은 일반적으로 동일한 페이지입니다. 외부 파일 이름을 제거하여 보고서에서 이러한 URL이 모두 <span class="filepath"> https://example.com</span>으로 표시되도록 할 수 있습니다. </p> <p>이 값을 설정하지 않으면 Analytics는 URL에서 파일 이름 <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> 및<span class="filepath"> home.asp</span>를 자동으로 제거합니다. </p> <p>파일 이름 제거를 비활성화하려면 URL에서 발생하지 않는 기본 페이지 값을 지정합니다.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live 날짜 </p> </td> 
@@ -65,11 +65,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <span class="wintitle"> 멀티바이트 문자 지원 비활성화 </span> </td> 
    <td colname="col2"> <p>보고서 세트에 대한 멀티바이트 문자 지원을 비활성화합니다. 멀티바이트 문자 지원을 비활성화하면 시스템에서는 데이터를 ISO-8859-1 형식으로 간주합니다. 웹 페이지는 <span class="varname"> charSet</span> JavaScript 변수에 해당 문자 집합을 지정해야 합니다. </p> <p>멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신할 때, 시스템에서는 웹 페이지의 문자 집합 데이터를 UTF-8 문자 집합으로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다. </p> <p>기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 계정 관리자 또는 고객 지원 센터에 문의하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 이 세트에 대한 Ad Hoc Analysis 활성화</span> </td> 
-   <td colname="col2"> Ad Hoc Analysis를 수행할 때 이 보고서 세트를 볼 수 있도록 합니다. </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
