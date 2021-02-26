@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
-translation-type: ht
-source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 [![통합](assets/integrate_50px.png)](/help/integrate/home.md) [통합 안내서](/help/integrate/home.md) – Audience Manager, Advertising Cloud 및 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 
-[![스트리밍 미디어 분석](assets/media_50px.png)](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) [스트리밍 미디어 분석 안내서](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) - 스트리밍 미디어용 Adobe Analytics을 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
+[![스트리밍 미디어 분석](assets/media_50px.png)](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) [스트리밍 미디어 분석 안내서](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - 스트리밍 미디어용 Adobe Analytics을 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) [Data Workbench 안내서](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 가이드 등이 포함되어 있습니다.
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) [Data Workbench 안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 가이드 등이 포함되어 있습니다.
 
 [![TechNote](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics TechNote](/help/technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
@@ -50,7 +50,6 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
-* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
 ### Analytics feature list
 
