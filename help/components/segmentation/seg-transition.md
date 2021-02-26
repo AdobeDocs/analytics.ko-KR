@@ -1,13 +1,13 @@
 ---
 description: 'null'
 title: FAQ
-topic: Segments
+topic: 세그먼트
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,8 @@ ht-degree: 100%
 * 세그먼트는 모든 보고서 세트에 범용입니다.
 * [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-workflow.md)는 세그먼트 생성을 단순화합니다.
 * [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
-
-* [세그먼트를 태그 지정](/help/components/segmentation/segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다. 이전에는 폴더([!DNL Ad Hoc Analysis])를 사용하여 세그먼트를 구성했습니다.
-
-* Ad Hoc Analysis 외부에서 [순차적 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
+* [세그먼트를 태그 지정](/help/components/segmentation/segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다.
+* [순차적 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
 * 페이지 보기 컨테이너는 단지 페이지 보기가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 히트 컨테이너로 이름이 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다. 이 컨테이너가 작동하는 방식은 변경되지 않았으며 이름만 바뀌었습니다.
 
 자세한 내용은 디지털 마케팅 블로그의 [Adobe Analytics에서의 세그먼테이션 개선](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) 게시물을 참조하십시오.
@@ -88,11 +86,11 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 소유한 세그먼트와 사
 
 **세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?**
 
-예, 모든 세그먼트는 Analysis Workspace, Reports &amp; Analytics 및 Ad Hoc Analysis의 세그먼트 관리자에서 관리할 수 있습니다. 세그먼트 관리자는 소유자(세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
+예. 세그먼트 관리자에서 모든 세그먼트를 관리할 수 있습니다. 세그먼트 관리자는 소유자(세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
 
 관리자는 Analysis Workspace 및[!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
 
-Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 공유한 세그먼트만 표시합니다.
+Report Builder은 사용자가 작성한 세그먼트나 특별히 사용자와 공유한 세그먼트만 표시합니다.
 
 **이 세그먼트를 삭제할 수 없는 이유**
 
@@ -126,10 +124,6 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 ![](assets/seg_templates.png)
 
-**기존 세그먼트 폴더에 발생한 결과**
-
-세그먼트 관리자는 (Ad Hoc Analysis) 폴더 대신 태그 사이에 Analytics JavaScript 코드를 배치했습니다. 폴더 이름은 자동으로 태그로 변환되고 해당 태그는 해당 세그먼트에 적용됩니다.
-
 **세그먼트가 적용된 예약된 보고서에 발생한 결과**
 
 예약된 보고서는 정의한 세그먼트에서 계속 잘 실행됩니다.
@@ -144,15 +138,9 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 
 **Data Warehouse 세그먼트에 나타나는 결과**
 
-모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace, Ad Hoc Analysis 및 Reports &amp; Analytics와 같은 기타 구성 요소에서 여전히 작동합니다.
+모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace 및 보고 및 분석과 같은 다른 구성 요소에서도 작동합니다.
 
 세그먼트 빌더/관리자에서 새 Data Warehouse 세그먼트를 만들거나 편집할 수 있습니다. 세그먼트 빌더의 제품 호환성 메커니즘은 세그먼트가 Data Warehouse와 호환되는지의 여부를 자동으로 확인합니다.
-
-**즐겨찾는 세그먼트(Ad Hoc Analysis)에 나타나는 결과**
-
-이러한 Ad Hoc Analysis 세그먼트는 Adobe Analytics에 일반 세그먼트로 표시됩니다.
-
-세그먼트를 즐겨찾기로 표시할 수 있는 세그먼트 관리자의 즐겨찾기 기능과 혼동하지 않도록 합니다.
 
 **사전 구성된 세그먼트에 나타나는 결과**
 
@@ -162,9 +150,7 @@ Ad Hoc Analysis 및 Report Builder는 사용자가 작성한 세그먼트나 특
 * **유료 검색을 통한 방문 수**
 * **방문자 ID를 갖는 방문**
 
-이러한 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다.
-
-이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
+이러한 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
 
 **Experience Cloud (Suite) 세그먼트에 나타나는 결과:**
 
@@ -351,7 +337,7 @@ seg_definition.xml
 | 모바일 책갈피 길이 | Java 활성화 | 유료 검색 |
 | 모바일 URL 길이 | language |  |
 
-## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 알려진 값 세트를 갖는 정수 기반 차원(예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여줍니다.
 
