@@ -2,10 +2,10 @@
 description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
-source-wordcount: '159'
+translation-type: tm+mt
+source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
+workflow-type: tm+mt
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
 + [IP 주소별 제외](exclude-ip.md)
 + [검색 방법](finding-methods.md)
 + [일반 계정 설정](general-acct-settings-admin.md)
-+ [그룹 관리](group.md)
 + [내부 URL 필터](internal-url-filter-admin.md)
 + [로그](logs.md)
 + [마케팅 채널](marketing-channels-admin.md)
