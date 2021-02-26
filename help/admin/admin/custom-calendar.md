@@ -1,13 +1,13 @@
 ---
 description: 양력 모델이 아닌 달력 옵션입니다. 해당 옵션에는 4-4-5, 4-5-4 및 5-4-4 달력 모델이 있으며 모든 모델이 소매 산업의 표준으로 사용됩니다. 또한 보고 기능은 사용자가 모든 항목을 직접 설정할 수 있는 사용자 지정 가능 달력 옵션을 제공합니다.
 title: 사용자 지정 달력
-topic: Admin tools
+topic: 관리 도구
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: 1월에 4주, 2월에 5주, 3월에 4주가 있는 방식입니다. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: 1월에 4주, 2월에 4주, 3월에 5주가 있는 방식입니다. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>: 1월에 5주, 2월에 4주, 3월에 4주가 있는 방식입니다. </li> 
-    </ul> <p>참고: 이 달력 옵션은 사용자 지정 달력을 지원하지 않는 Data Warehouse를 제외한 모든 Adobe Analytics 도구(Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map, Ad Hoc Analysis)에서 지원됩니다. </p> </td> 
+    </ul> <p>참고: 이 달력 옵션은 사용자 지정 달력을 지원하지 않는 Data Warehouse을 제외한 모든 Adobe Analytics 도구(Analysis Workspace, 보고 및 분석, Report Builder, Activity Map)에서 지원됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
