@@ -1,14 +1,14 @@
 ---
 description: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다.
-keywords: groups;permissions
+keywords: 그룹,권한
 subtopic: Users and groups
 title: Analytics 도구 권한 사용자 지정
-topic: Admin tools
+topic: 관리 도구
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '673'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 100%
 | [보고서 세트 숨기기](/help/admin/company/c-hide-report-suites.md) | Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 권한을 부여합니다. |
 | **도구** | 이러한 설정은 Analytics 도구(인터페이스와 애플리케이션) 및 고급 기능(세그멘테이션 및 계산된 지표)에 대한 액세스 권한을 부여합니다. |
 | [현재 데이터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/current-data.html) | 보고에 현재 데이터 기능을 사용할 권한을 부여합니다. |
-| [Ad Hoc Analysis 라이선스 사용자](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | [!UICONTROL Ad Hoc Analysis]에 대한 액세스 권한을 부여합니다. |
 | 웹 서비스 액세스 | 관리자가 아닌 사용자에 대한 웹 서비스 액세스를 활성화합니다. 웹 서비스 자격 증명을 생성합니다. |
 | [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | 이 그룹 구성원에게 [!UICONTROL Report Builder] 라이선스에 대한 액세스 권한을 부여합니다. |
 | [Analysis Workspace 액세스](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html) | [!DNL Adobe Analytics]에 대한 권장 보고 인터페이스인 Analysis Workspace에 액세스할 권한을 사용자에게 부여합니다. |
