@@ -1,12 +1,12 @@
 ---
 description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 방문자로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
 title: 세그먼트 작성
-topic: Segments
+topic: 세그먼트
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '2051'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '2040'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 * **Analytics 위쪽 탐색**: **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;를 클릭합니다.
 * **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 세그먼트 만들기]**&#x200B;를 클릭합니다.
 * **[!UICONTROL Reports &amp; Analytics]**: **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 기존 보고서를 열고 왼쪽 탐색 창에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-* **[!UICONTROL Ad Hoc Analysis]**: [Ad Hoc Analysis에서 세그먼트를 만듭니다](/help/components/segmentation/segmentation-workflow/seg-build.md#build-segments).
 * **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## 빌더 기준 {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -71,7 +70,7 @@ ht-degree: 100%
 1. **[!UICONTROL 세그먼트]**: 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 보고서 세트 선택기]**: 이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
 1. **[!UICONTROL 세그먼트 미리 보기]**: 주요 지표를 미리 보기하여 세그먼트가 유효한지와 세그먼트가 얼마나 광범위한지 확인할 수 있습니다. 이 세그먼트를 적용할 경우 표시될 것으로 예상되는 데이터 분류를 표시합니다. 3개의 동심원 및 목록을 표시하여 데이터 세트에 대해 실행된 세그먼트와 일치하는 [!UICONTROL 히트], [!UICONTROL 방문] 및 [!UICONTROL 방문자] 수 및 비율을 표시합니다. 이 차트는 세그먼트 정의를 만들거나 변경한 직후에 업데이트됩니다.
-1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품(Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
+1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품(Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품(특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]**: 세그먼트를 저장하거나 취소합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하면 세그먼트를 관리할 수 있는 세그먼트 관리자로 이동됩니다.
 
  포함된 날짜 범위가 있는 세그먼트는 Analysis Workspace와 Reports &amp; Analytics에서 계속하여 다르게 작동합니다. Workspace에서 포함된 날짜 범위가 있는 세그먼트는 패널 날짜 범위를 무시합니다. 반대로 [!UICONTROL Reports &amp; Analytics]는 보고서 날짜 범위와 세그먼트의 포함된 날짜 범위의 교차 날짜를 제공합니다.
@@ -205,7 +204,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 열람되었지만 장바구니에 추가되지 않은 제품 </td> 
-   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>Then </p> <p> 장바구니 추가는 0입니다. </p> </td> 
+   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>그런 다음 </p> <p> 장바구니 추가는 0입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인에서 방문 </td> 
