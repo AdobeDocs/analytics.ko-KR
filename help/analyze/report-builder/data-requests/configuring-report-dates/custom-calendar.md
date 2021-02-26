@@ -1,10 +1,13 @@
 ---
 description: Report Builder는 Analytics 사용자 지정 달력을 사용합니다. 달력을 사용하여 주 및 연도의 첫째 날을 정의하거나 다른 소매 달력 스타일을 사용할 수 있습니다. 판매 비교와 예측 표준화, 급여 비용 분석 또는 물리적 재고 개수 규정 등 다양한 목적에 달력 형식을 사용할 수 있습니다.
 title: 사용자 지정 달력
-topic: Report builder
+topic: Report Builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -42,7 +45,7 @@ Report Builder는 Analytics 사용자 지정 달력을 사용합니다. 달력�
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: 1월에 4주, 2월에 5주, 3월에 4주가 있는 방식입니다. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: 1월에 4주, 2월에 4주, 3월에 5주가 있는 방식으로 계속됩니다. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: 1월에 5주, 2월에 4주, 3월에 4주가 있는 방식으로 계속됩니다. </li> 
-    </ul> <p>참고: 이 달력 옵션은 사용자 지정 달력을 지원하지 않는 데이터 웨어하우스를 제외한 모든 Adobe Analytics 도구(Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map, Ad Hoc Analysis)에서 지원됩니다. </p> </td> 
+    </ul> <p>참고: 이 달력 옵션은 모든 Adobe Analytics 도구(Analysis Workspace, 보고 및 분석, Report Builder 및 Activity Map)에서 지원됩니다. 단, 사용자 지정 달력을 지원하지 않는 Data Warehouse은 예외입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
