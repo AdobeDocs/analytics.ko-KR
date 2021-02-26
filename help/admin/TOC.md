@@ -5,10 +5,10 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
 translation-type: tm+mt
-source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 98%
    + [IP 주소별 제외](admin/exclude-ip.md)
    + [검색 방법](admin/finding-methods.md)
    + [일반 계정 설정](admin/general-acct-settings-admin.md)
-   + [그룹 관리](admin/group.md)
    + [내부 URL 필터](admin/internal-url-filter-admin.md)
    + [로그](admin/logs.md)
    + [마케팅 채널](admin/marketing-channels-admin.md)
@@ -111,7 +110,7 @@ ht-degree: 98%
 + Adobe Admin Console의 Analytics {#admin-console}
    + [Adobe Admin Console의 Analytics](admin-console/home.md)
    + 권한 {#permissions}
-      + [Admin Console의 분석 권한](admin-console/permissions/summary-tables.md)
+      + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
@@ -164,7 +163,6 @@ ht-degree: 98%
          + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/migrate-enterprise.md)
          + [기존 로그인 비활성화](user-management2/user-migration/t-disable-legacy-login.md)
          + [마이그레이션의 영향을 받는 API](user-management2/user-migration/developer.md)
-      + [Ad Hoc Analysis 사용자 관리](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + 사용자 그룹 {#user-groups}
       + [사용자 그룹 추가](user-management2/c-user-groups/t-user-group.md)
       + [사용자 그룹 설정](user-management2/c-user-groups/groups.md)
