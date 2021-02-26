@@ -2,12 +2,12 @@
 description: 한 사용자 계정의 사용자 계정 항목(대시보드, 계산된 지표, 달력 이벤트, 책갈피, 세그먼트, Analysis Workspace 프로젝트 및 예약된 프로젝트 )을 다른 사용자의 사용자 계정 항목에 할당하는 방법을 설명하는 단계입니다.
 subtopic: Users and groups
 title: 사용자 계정 항목 양도
-topic: Admin tools
+topic: 관리 도구
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '233'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,3 @@ ht-degree: 100%
 1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 선택된 계정 리소스를 양도한다는 것을 확인합니다.
 
    수신 사용자는 예약된 보고서의 권한을 제외하고 원래 사용자가 소유한 선택된 계정 자원에 대한 모든 권리를 수신합니다.
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis 리소스는 양도할 수 없습니다. 조직에서 여러 개의 로그인 회사를 사용하는 경우, 로그인 회사 간에 어떤 것도 양도할 수 없습니다.
-
