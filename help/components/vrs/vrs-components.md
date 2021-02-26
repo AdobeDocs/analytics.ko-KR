@@ -3,9 +3,9 @@ description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 �
 title: 가상 보고서 세트 구성 요소 큐레이션
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,6 @@ ht-degree: 100%
    >**** 구성 요소 사용자 지정을 활성화한 경우 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있고, 다음에서는 액세스할 수 없습니다.
    >
    >* [!UICONTROL Reports &amp; Analytics]
-   >* [!UICONTROL Ad Hoc Analysis]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
@@ -73,4 +72,4 @@ Analysis Workspace에서 포함된 구성 요소의 정보 아이콘을 클릭�
 
 ## 작업 공간 행동 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Analysis Workspace에서 조정에 대한 자세한 내용은 [프로젝트 조정 및 공유](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html)를 참조하십시오.
+Analysis Workspace의 조정에 대한 자세한 내용은 [프로젝트 조정 및 공유](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html)를 참조하십시오.
