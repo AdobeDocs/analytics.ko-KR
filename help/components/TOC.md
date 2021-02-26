@@ -5,10 +5,10 @@ user-guide-title: Analytics 구성 요소 안내서
 breadcrumb-title: 구성 요소 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 97%
+source-wordcount: '637'
+ht-degree: 98%
 
 ---
 
@@ -54,13 +54,13 @@ ht-degree: 97%
    + [히트 유형](dimensions/hit-type.md)
    + [시간(일 기준)](dimensions/hour-of-day.md)
    + [시간](dimensions/hour.md)
-   + [식별된 상태](dimensions/identified-state.md)
+   + [확인된 상태](dimensions/identified-state.md)
    + [Java 활성화](dimensions/java-enabled.md)
    + [언어](dimensions/language.md)
    + [마지막 터치 채널](dimensions/last-touch-channel.md)
    + [마지막 터치 채널 세부 사항](dimensions/last-touch-detail.md)
    + [마케팅 채널](dimensions/marketing-channel.md)
-   + [마케팅 채널 세부 정보](dimensions/marketing-detail.md)
+   + [마케팅 채널 세부 사항](dimensions/marketing-detail.md)
    + [분](dimensions/minute.md)
    + [모바일 차원](dimensions/mobile-dimensions.md)
    + [모니터 해상도](dimensions/monitor-resolution.md)
@@ -168,7 +168,6 @@ ht-degree: 97%
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
    + [FAQ](segmentation/seg-transition.md)
    + [우수 사례](segmentation/best-practices.md)
-   + [Ad Hoc Analysis를 위한 전환 안내서](segmentation/seg-transition-ad-hoc.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
    + [FAQ](c-calcmetrics/cm-transition.md)
@@ -215,7 +214,7 @@ ht-degree: 97%
    + [교차 장치 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
    + [CDA 작업 공간 템플릿](cda/workspace-template.md)
-   + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
+   + [특정 날짜로 VRS 제한](cda/limit-vrs-date.md)
    + [교차 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)
