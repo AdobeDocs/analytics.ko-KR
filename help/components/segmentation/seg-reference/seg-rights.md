@@ -1,13 +1,13 @@
 ---
 description: 이제 관리자 수준 사용자가 사용할 수 있는 세그먼트 기능과 관리자가 아닌 사용자가 사용할 수 있는 세그먼트 기능이 크게 다릅니다.
 title: 역할별 세그먼트 권한
-topic: Segments
+topic: 세그먼트
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <b>관리자 수준 사용자</b> </td> 
    <td colname="col2"> 전체 회사, 사용자 그룹 및 개별 사용자와 공유할 수 있습니다. </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: 자신의 세그먼트 및 다른 사용자의 세그먼트를 보거나 편집하거나 삭제할 수 있습니다. <p> <span class="keyword"> Ad Hoc Analysis</span> 및 <span class="keyword">Report Builder</span>: 자신의 세그먼트 및 자신과 공유된 세그먼트를 보거나 편집하거나 삭제할 수 있습니다. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: 자신의 세그먼트 및 다른 사용자의 세그먼트를 보거나 편집하거나 삭제할 수 있습니다. <p> <span class="keyword"> Report Builder  </span>:보기/편집/삭제 등을 수행할 수 있습니다. 자체 세그먼트와 공유된 세그먼트입니다. </p> </td> 
    <td colname="col4"> 세그먼트를 표준 세그먼트로 승인할 수 있습니다. </td> 
    <td colname="col5"> 전체 조직 내에서 어떤 세그먼트도 적용할 수 있습니다. </td> 
   </tr> 
