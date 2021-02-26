@@ -1,13 +1,13 @@
 ---
 description: 세그먼트 관리자는 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 다양한 세그먼트 처리 작업을 제공합니다.
 title: 세그먼트 관리
-topic: Segments
+topic: 세그먼트
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 97%
 
 ---
 
@@ -45,15 +45,3 @@ Analytics 세그먼트 관리자는 사용자가 보유하는 모든 세그먼�
 | 12 | 공유됨 아이콘 | 이 세그먼트를 사용자가 공유했거나 이 세그먼트가 사용자와 공유되고 있음을 가리킵니다. |
 | 13 | 승인됨 아이콘 | 관리자가 이 세그먼트를 승인했음을 가리킵니다. |
 | 14 | 필터 | 태그, 보고서 세트, 소유자 및 기타(모두 표시, 내 소유, 나에게 공유됨, 승인됨, 즐겨찾기) 필터를 보고 선택합니다. |
-
-## Ad Hoc Analysis의 세그먼트 관리자 {#section_CC8BDC968EBC4BC1919870869D8443A9}
-
-Ad Hoc Analysis의 Segment Organizer는 사용자가 소유하거나 사용자와 공유된 모든 세그먼트를 표시합니다.
-
-[!DNL ad hoc analysis]에서 Segment Organizer에 액세스하려면
-
-* 왼쪽 패널의 **[!UICONTROL 세그먼트]** 탭으로 이동한 다음 공구모양 아이콘 ![](assets/wrench_icon.png)을 클릭하고 메뉴에서 **[!UICONTROL 세그먼트 구성]**&#x200B;을 선택합니다.
-
-![](assets/ad_hoc_organize_segments.png)
-
-웹 사용자 인터페이스의 세그먼트 관리자와 마찬가지로 이 콘솔은 세그먼트 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등의 여러 기능을 제공합니다.
