@@ -1,10 +1,10 @@
 ---
 description: 작업 공간 FAQ
 title: FAQ 및 Analysis Workspace 문제 해결
-translation-type: ht
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
-workflow-type: ht
-source-wordcount: '541'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
 | Analysis Workspace이 Adobe Analytics에서 사전 구성된 보고서를 변경합니까? | 아니요. 이것은 별도의 환경이므로, Adobe Analytics에서 기존의 보고서나 사전 구성된 보고서에 대한 변경 사항이 없습니다. 여전히 Analysis Workspace을 사용하여 표준 Reports &amp; Analytics과 Report Builder 보고서를 채택할 수 있습니다. |
 | Data Warehouse에 Analysis Workspace을 사용할 수 있습니까? | Analysis Workspace은 벌크 데이터 내보내기에 권장되지 않습니다. 대시보드와 유사한 분석 프로젝트를 만드는 시각화 작업 공간입니다. |
 | Analysis Workspace의 성능을 최적화하려면 어떻게 해야 합니까? | [성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)를 참조하십시오. |
-| Analysis Workspace 기능은 어떻게 Ad Hoc Analysis와 비교됩니까? | 자세한 내용은 [Ad Hoc Analysis와 비교한 Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md). |
 
 ## 문제 해결
 
