@@ -1,15 +1,15 @@
 ---
 description: 이전 권한 콘텐트
-keywords: groups;permissions
+keywords: 그룹,권한
 subtopic: Users and groups
 title: 사용자 및 그룹 권한 변경 사항
-topic: Admin tools
+topic: 관리 도구
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
   </tr> 
   <tr> 
    <td colname="col1"> <p>사전 정의된 그룹 변경 </p> </td> 
-   <td colname="col2"> <p> <b>관리자 액세스:</b> 사전 정의된 그룹은 더 이상 관리자에게 필요하지 않습니다. 이제 관리자는 웹 서비스 액세스, Report Builder, Activity Map, Ad Hoc Analysis은 물론 모든 항목(도구, 지표, 측정기준)에 대한 액세스 권한을 가지고 있습니다. </p> <p>이후에도 그룹의 목적은 관리자가 아닌 사용자에게 액세스 권한을 부여하거나 액세스를 제한하는 것입니다. </p> <p> <b>사용자 지정 그룹:</b> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> <span class="term"> 모든 보고서 액세스</span>에 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
+   <td colname="col2"> <p> <b>관리자 액세스:</b> 사전 정의된 그룹은 더 이상 관리자에게 필요하지 않습니다. 이제 관리자는 웹 서비스 액세스, Report Builder 및 Activity Map뿐만 아니라 모든 항목(도구, 지표, 차원)에 액세스할 수 있습니다. </p> <p>이후에도 그룹의 목적은 관리자가 아닌 사용자에게 액세스 권한을 부여하거나 액세스를 제한하는 것입니다. </p> <p> <b>사용자 지정 그룹:</b> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> <span class="term"> 모든 보고서 액세스</span>에 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">모든 측정 기준 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">모든 지표 </li> 
