@@ -2,11 +2,11 @@
 description: 계산된 지표가 Analytics에서 작동하는 방식에 대한 다음의 변경 사항은 사용자에게 영향을 줄 수 있습니다.
 title: FAQ
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2148'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '2055'
+ht-degree: 98%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 100%
 [왜 마케팅 채널 보고서에 내 계산된 지표가 표시되지 않습니까?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [왜 일부 계산된 지표는 내가 추가한 괄호가 없는 채로 공식을 표시합니까?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
-
-[(Ad Hoc Analysis만 해당) 포함된 세그먼트 정의나 인라인 세그먼트 정의가 있는 계산된 지표가 여전히 지원됩니까?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [(Report Builder만 해당) 왜 계산된 지표가 내 요청에서 사라졌습니까?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -120,7 +118,7 @@ ht-degree: 100%
 
 이제 Numeric 또는 Numeric2 분류를 사용하는 계산된 지표는 [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] 및 API에서 계속 볼 수 있습니다. 하지만, 세그먼트가 적용된 모든 보고서에서 지원되지 않습니다.
 
-또한 [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL 실시간] 보고서, [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]과 같은 구성 요소에서는 Numeric 또는 Numeric2 분류를 사용하는 계산된 지표가 지원되지 않습니다. Numeric 또는 Numeric2 분류를 사용하는 계산된 지표를 만들거나 편집할 때에는 계산된 지표가 특정 제품 영역과 호환하지 않는다는 호환성 경고가 표시됩니다.
+또한 Numeric 또는 Numeric2 분류를 사용하는 계산된 지표는 다음 구성 요소에서 지원되지 않습니다.[!UICONTROL Analysis Workspace], [!UICONTROL 실시간] 보고서, [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]. Numeric 또는 Numeric2 분류를 사용하는 계산된 지표를 만들거나 편집할 때에는 계산된 지표가 특정 제품 영역과 호환하지 않는다는 호환성 경고가 표시됩니다.
 
 **해야 할 작업**
 
@@ -183,14 +181,6 @@ API와 계산된 지표 빌더를 모두 사용해야 할 경우에는 ReportSui
 ## 왜 일부 계산된 지표는 내가 추가한 괄호가 없는 채로 공식을 표시합니까? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 마이그레이션 동안 Adobe에서는 일부 공식의 불필요한 괄호들을 제거했습니다. 지표가 계산되는 방식에 영향을 주지 않는 괄호들만 제거했습니다. 이렇게 해도 데이터는 변경되지 않고, 공식만 간단해집니다.
-
-## (Ad Hoc Analysis만 해당) 포함된 세그먼트 정의나 인라인 세그먼트 정의가 있는 계산된 지표가 여전히 지원됩니까? {#section_B25C924A282F49388AB604E3D826F44C}
-
-Ad Hoc Analysis에서 만든 계산된 지표는 이전부터 인라인 세그먼트 정의를 포함할 수 있었습니다. 이것은 더 이상 불가능합니다.
-
-**해야 할 작업**
-
-세그먼트를 꼭 저장해야 합니다. 인라인 세그먼트 정의가 있는 기존의 계산된 지표는 계속하여 올바른 실행되며 Ad Hoc Analysis에서 볼 수 있지만, 세그먼트를 명시적으로 저장하지 않고는 저장할 수 없습니다.
 
 ## (Report Builder만 해당) 왜 계산된 지표가 내 요청에서 사라졌습니까? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
