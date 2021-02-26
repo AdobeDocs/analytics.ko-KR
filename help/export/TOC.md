@@ -5,9 +5,9 @@ user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 98%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 98%
       + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [데이터 피드](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Ad Hoc Analysis 게재된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Data Warehouse 게재된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 배달된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [FTP로 엔지니어링 서비스 참여](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
