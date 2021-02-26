@@ -1,12 +1,12 @@
 ---
 description: Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필터링 방법
 title: 세그먼트 관리
-topic: Report builder
+topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '919'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '918'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
    ![](assets/seg_in_context.png)
 
-   컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오.
+   컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 
 1. 이제 세그먼트 빌더 UI가 Internet Explorer에서 시작됩니다. 세그먼트 빌더 UI는 사용자가 지정한 컨테이너 및 필터로 초기화됩니다.
 1. 세그먼트에 이름 및 설명을 추가한 후에 저장합니다.
@@ -53,7 +53,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 ## 세그먼트 검색 및 적용 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 또는 데이터 웨어하우스에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭합니다.
+Reports &amp; Analytics, Report Builder 또는 데이터 웨어하우스에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭합니다.
 
 지정된 요청에 하나 또는 여러 개의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
@@ -83,7 +83,7 @@ Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 또는 데이터 웨어
 | 기타 필터 > 즐겨찾기 | 즐겨찾기로 표시한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 승인됨 | 공식적으로 승인한 모든 세그먼트를 표시합니다. |
 
-## 통합 문서에 세그먼트 컨트롤 추가 {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 통합 문서에 세그먼트 컨트롤 추가  {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 세그먼트 컨트롤을 추가하면 요청 마법사로 이동할 필요 없이 통합 문서 내에서 세그먼트 간을 전환할 수 있습니다.
 
@@ -102,7 +102,7 @@ Reports &amp; Analytics, Ad Hoc Analysis, Report Builder 또는 데이터 웨어
 
    ![](assets/seg_control2.png)
 
-## 세그먼트 목록 새로 고침 {#section_22E4A86789444B4A998532396B476EFB}
+## 세그먼트 목록 새로 고침  {#section_22E4A86789444B4A998532396B476EFB}
 
 언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭하여 캐시에 저장된 세그먼트 목록을 새로 고쳐야 합니다.
 
