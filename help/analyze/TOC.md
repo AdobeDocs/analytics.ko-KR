@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Report Builder 및 Activity Map과 같은 도구를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
+source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -313,29 +313,6 @@ ht-degree: 100%
       + [Analysis Workspace에서 전환된 프로젝트 보기](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [프로젝트 전환기 FAQ](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
    + [Ad Hoc Analysis 개요](ad-hoc-analysis/adhoc-home.md)
-   + [시작하기](ad-hoc-analysis/c-getting-started.md)
-   + [관리](ad-hoc-analysis/c-administration.md)
-   + [Java 11에서 Ad Hoc Analysis 실행](ad-hoc-analysis/adhoc-java.md)
-   + [기존 보고서 구성](ad-hoc-analysis/c-reports-configure.md)
-   + [날짜 및 날짜 범위](ad-hoc-analysis/c-dates.md)
-   + [차원](ad-hoc-analysis/c-dimensions.md)
-   + [로그 파일](ad-hoc-analysis/c-log-file.md)
-   + [지표](ad-hoc-analysis/c-metrics.md)
-   + [보고서 개요](ad-hoc-analysis/c-overview-standard-reports.md)
-   + [보고서 유형](ad-hoc-analysis/c-reports-types.md)
-   + [사이트 지표 보고서](ad-hoc-analysis/c-reports-site-metrics.md)
-   + [사이트 콘텐츠 보고서](ad-hoc-analysis/c-reports-site-content.md)
-   + [모바일 보고서](ad-hoc-analysis/c-reports-mobile.md)
-   + [트래픽 소스 보고서](ad-hoc-analysis/c-reports-traffic.md)
-   + [경로 보고서](ad-hoc-analysis/c-reports-paths.md)
-   + [제품 보고서](ad-hoc-analysis/c-reports-product.md)
-   + [방문자 보고서](ad-hoc-analysis/c-reports-visitor.md)
-   + [Adobe Target](ad-hoc-analysis/c-reports-tnt.md)
-   + [세그먼트 작성](ad-hoc-analysis/c-content-ref.md)
-   + [설정](ad-hoc-analysis/c-global-settings.md)
-   + [예약 관리자](ad-hoc-analysis/c-schedule.md)
-   + [테이블 빌더](ad-hoc-analysis/c-tablebuilder.md)
-   + [시간](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 개요](tech-previews/overview.md)
 + Adobe Analytics 대시보드 {#mobapp}
