@@ -1,10 +1,10 @@
 ---
 description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 title: Adobe Analytics - 주요 개념
-translation-type: ht
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
-workflow-type: ht
-source-wordcount: '1876'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '1858'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 | Analysis Workspace | 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여주기 위한 브라우저 솔루션입니다. Reports and Analytics보다 더 많은 보고서 유연성을 제공합니다. | [Analysis Workspace 홈](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션. Analytics 패키지의 초급자 도구입니다. | [Reports and Analytics 홈](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Adobe Analytics 데이터에서 사용자 지정 요청을 작성하고 Microsoft Excel을 사용하여 이 요청을 시각화할 수 있는 Excel 추가 기능입니다. | [Report Builder 홈](/help/analyze/report-builder/home.md) |
-| Ad Hoc Analysis(이전 Discover) | 고급 디지털 분석용 Java 기반 도구입니다. EOL 날짜: 2021년 3월 1일 | [Ad Hoc Analysis 홈](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [Data Workbench 클라이언트](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 처리되지 않은 원시 데이터입니다. 히트 수준은 아닙니다. | [Data Warehouse 홈](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. | [Mobile Services 홈](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html) |
@@ -61,7 +60,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | 고객 움직임 보고서 | 사용자가 사이트 또는 앱을 통해 이동하는 경로에 대한 정보를 표시합니다. Analysis Workspace에서 이 분석을 하는 데 Prop, eVar 및 이벤트를 사용할 수 있습니다. | [Analysis Workspace 폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 경로](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 마케팅 채널 | 사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. 이것은 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다(캠페인이나 트래픽 소스보다 선호됨). | [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 모바일 | 모바일 장치나 태블릿에서 액세스한 웹 사이트에 대한 정보를 표시합니다. | [모바일 보고서](/help/components/dimensions/mobile-dimensions.md) |
-| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  [여기](https://mobilemarketing.adobe.com)에서 인터페이스에 액세스합니다. | [Adobe Mobile Services](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html) |
+| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  [여기](https://mobilemarketing.adobe.com)에서 인터페이스에 액세스합니다. | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | 제품 | 개별 제품 및 제품 그룹(카테고리)이 매출액 또는 체크아웃 횟수와 같은 다양한 전환 지표에 기여하는 정도를 알 수 있습니다. | [제품 보고서](/help/components/dimensions/product.md) |
 | 세그먼트 비교 | 사용자가 액세스하는 모든 개별 지표 및 차원에 대한 자동화된 분석을 통해 세그먼트 간의 통계적으로 가장 유의미한 차이를 알아냅니다. | [세그먼트 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | 사이트 컨텐츠 보고서 | 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다. | [사이트 컨텐츠 보고서](/help/components/dimensions/page.md) |
