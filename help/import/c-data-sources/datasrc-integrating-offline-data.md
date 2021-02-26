@@ -2,13 +2,13 @@
 description: 데이터 소스는 오프라인으로 발생하는 이벤트를 온라인 데이터로 통합할 수 있는 2가지 추가 방법을 제공합니다.
 subtopic: Data sources
 title: 거래 및 고객 통합
-topic: Developer and implementation
+topic: 개발자 및 구현
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: ht
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 84%
 
 ---
 
@@ -64,8 +64,6 @@ ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정
 
 고객이 온라인에서 오프라인으로 이동할 때 익명인 경우가 많습니다.
 
-거래 ID 이벤트는 방문 기여도 지표(마케팅 보고서에 표시된 것)에 포함되어 있지 않지만, 방문자 기여도 지표(애드혹 분석에만 사용 가능)에는 포함되어 있습니다.
+거래 ID 이벤트는 방문 기여도 지표(마케팅 보고서에 표시된 것)에 포함되지 않습니다. 이것은 거래 ID 데이터가 방문과 연결되지 않지만(오프라인 이벤트는 대개 온라인 이벤트에 속하지 않으므로) 방문자와 연결되어 있기 때문입니다.
 
-이것은 거래 ID 데이터가 방문과는 연결되어 있지 않지만(오프라인 이벤트는 보통 온라인 이벤트에 속하지 않으므로), 방문자와는 연결되어 있기 때문입니다.
-
- [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+[거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)를 참조하십시오.
