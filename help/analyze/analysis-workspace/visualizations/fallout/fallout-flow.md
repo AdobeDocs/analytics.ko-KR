@@ -3,10 +3,10 @@ description: 'null'
 title: 폴아웃 개요
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 97%
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 97%
 * 일반적이고 폭 넓은 범위의 트래픽 흐름: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
 * 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인 정보 보호 정책을 본 방문자 중 제품을 구매한 비율을 보여줍니다.
 
-[폴아웃 시각화 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[폴아웃 시각화 비디오 자습서](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## 흐름 및 폴아웃을 위한 기초로서의 세그멘테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-작업 공간 패널에 적용된 세그먼트는 Reports &amp; Analytics 및 Ad Hoc Analysis의 폴아웃 및 흐름 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만, 주된 차이점은 Reports &amp; Analytics 및 Ad Hoc Analysis의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
+작업 공간 패널에 적용된 세그먼트는 보고 및 분석의 폴아웃 및 흐름 보고서에 적용된 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만, 주요 차이점은 보고 및 분석은 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
 
 다음 두 단계를 사용하여 폴아웃의 예를 살펴보겠습니다.
 
@@ -47,13 +47,13 @@ ht-degree: 97%
 
 ![](assets/fallout_seg.png)
 
-반대로 Reports &amp; Analytics와 Ad Hoc Analysis에서 세그먼트를 계산할 때에는 세그먼트가 다음과 같은 방식으로 결합됩니다.
+반대로 보고 및 분석에서 세그먼트를 계산할 때 세그먼트가 다음과 같이 결합됩니다.
 
 ![](assets/fallout_segments3.png)
 
-Reports &amp; Analytics와 Ad Hoc Analysis는 세그먼트를 각 단계와 결합합니다. 컨테이너가 폴아웃과 동일한 수준에 있으면(예: 방문 또는 방문자 수준) 방문 또는 방문자 수가 일치하게 됩니다.
+보고 및 분석은 세그먼트를 각 단계와 결합합니다. 컨테이너가 폴아웃과 동일한 수준에 있으면(예: 방문 또는 방문자 수준) 방문 또는 방문자 수가 일치하게 됩니다.
 
-그러나 패널에 적용된 세그먼트가 폴아웃의 수준보다 작으면(예: 히트 수준) 세그먼트는 보고서에서 결합된 방식으로 인해 다른 결과를 보여줍니다. 다시 말해·대부분의 경우 Analysis Workspace의 숫자가 Reports &amp; Analytics 및 Ad Hoc Analysis의 숫자와 일치합니다. 이 숫자들은 아래의 모든 경우가 참인 경우에만 일치하지 **않습니다**.
+그러나 패널에 적용된 세그먼트가 폴아웃의 수준보다 작으면(예: 히트 수준) 세그먼트는 보고서에서 결합된 방식으로 인해 다른 결과를 보여줍니다. 반복하기 위해 대부분의 상황에서 Analysis Workspace의 숫자는 보고 및 분석의 숫자와 일치합니다. 이 숫자들은 아래의 모든 경우가 참인 경우에만 일치하지 **않습니다**.
 
 * 세그먼트가 폴아웃과 같은 수준에 있지 않습니다.
 * 방문/방문자에 여러 값이 있는 세그먼트에는 변수가 있습니다.
