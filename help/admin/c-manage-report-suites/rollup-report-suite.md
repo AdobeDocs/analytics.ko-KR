@@ -1,13 +1,13 @@
 ---
 description: 롤업 보고서 세트는 여러 하위 보고서 세트에서 데이터를 집계하여 요약된 데이터 세트에 표시합니다.
 title: 롤업 및 글로벌 보고서 세트
-topic: Admin tools
+topic: 관리 도구
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 98%
 
 ---
 
@@ -53,6 +53,6 @@ ht-degree: 100%
 
 **보고서**: 글로벌 보고서 세트는 모든 차원에 대한 데이터를 제공하는 반면, 롤업은 높은 수준의 보고서에만 집계 데이터를 제공합니다.
 
-**지원되는 제품**: 롤업은 Reports &amp; Analytics에서만 사용할 수 있습니다. Analysis Workspace, Data Warehouse 또는 Ad Hoc Analysis에서는 지원되지 않습니다. 글로벌 보고서 세트는 모든 제품에서 사용할 수 있습니다.
+**지원되는 제품**: 롤업은 Reports &amp; Analytics에서만 사용할 수 있습니다. Analysis Workspace 또는 Data Warehouse에서는 지원되지 않습니다. 글로벌 보고서 세트는 모든 제품에서 사용할 수 있습니다.
 
 **집계된 보고서 세트 수**: 롤업은 최대 40개의 하위 보고서 세트만 지원합니다. 글로벌 보고서 세트는 소유하고 있는 도메인 또는 앱에서 그 수에 상관없이 구현할 수 있습니다.
