@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
-user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Report Builder 및 Activity Map과 같은 도구를 제공합니다.
+user-guide-description: Analytics를 위한 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 방법 지침뿐만 아니라 Adobe Analytics 대시보드, Report Builder 및 Activity Map과 같은 도구를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
+source-git-commit: a52f2f916db322ddb6226a5d3aa1f5585bf09539
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 97%
 
 ---
 
@@ -306,15 +306,6 @@ ht-degree: 100%
    + [달력 이벤트](reports-analytics/t-calendar-event.md)
    + [FAQ](reports-analytics/frequently-asked-questions.md)
    + [문제 해결](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
-   + Ad Hoc Analysis 프로젝트 전환기 {#aha-project-converter}
-      + [Ad Hoc Analysis 프로젝트 전환기 개요](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
-      + [Ad Hoc Analysis에서 프로젝트 전환](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
-      + [Analysis Workspace에서 전환된 프로젝트 보기](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
-      + [프로젝트 전환기 FAQ](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
-   + [Ad Hoc Analysis 개요](ad-hoc-analysis/adhoc-home.md)
-+ Labs {#tech-previews}
-   + [Labs 개요](tech-previews/overview.md)
 + Adobe Analytics 대시보드 {#mobapp}
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 안내서](mobile-app/curator.md)
@@ -325,3 +316,5 @@ ht-degree: 100%
    + [Analytics 보고 API 개요](c-reporting-api/c-reporting-api.md)
    + [Analytics 보고 API 비교](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
++ Labs {#tech-previews}
+   + [Labs 개요](tech-previews/overview.md)
