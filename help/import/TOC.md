@@ -129,4 +129,4 @@ ht-degree: 98%
       + [Silverpop 통합](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics 플러그인 코드](data-connectors/silverpop-overview/silverpop-analytics-code.md)
 + 사용 사례 가져오기 {#use-cases}
-   + [데이터 소스를 사용하여 유료 검색 지표 가져오기](use-cases/paid-search-metrics.md)
+   + [Data Sources를 사용하여 유료 검색 지표 가져오기](use-cases/paid-search-metrics.md)
