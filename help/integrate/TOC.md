@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud, Target 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 41d3cfb510fb7cac77abbe0a80046c96042d0946
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
