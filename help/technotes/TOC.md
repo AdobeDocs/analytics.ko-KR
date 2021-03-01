@@ -44,7 +44,7 @@ ht-degree: 90%
 + [Adobe Analytics에서 사용하는 IP 및 도메인](ip-addresses.md)
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)
-+ [Mobile Services 처리 규칙을 Adobe Analytics으로 마이그레이션](migrate-mobile.md)
++ [Adobe Analytics으로 Mobile Services 처리 규칙 마이그레이션](migrate-mobile.md)
 + [다중 통화 지원](multicurrency.md)
 + [개인 정보 보호 개요](privacy-overview.md)
 + [리디렉션 및 별칭](redirects.md)
