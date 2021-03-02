@@ -132,7 +132,7 @@ ht-degree: 99%
    + [롤업 보고서 세트 만들기](c-manage-report-suites/t-rollups.md)
    + 보고서 세트 템플릿 {#report-suite-templates}
       + [보고서 세트 템플릿 개요](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [누적 포털](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+      + [애그리게이터 포털](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
       + [상거래](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
       + [콘텐츠 및 미디어](c-manage-report-suites/c-report-suite-templates/content-media.md)
       + [기본 템플릿](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
