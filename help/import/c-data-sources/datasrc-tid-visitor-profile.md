@@ -1,10 +1,13 @@
 ---
-description: 'null'
+description: 데이터 소스의 거래 ID를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
 title: 거래 ID 및 방문자 프로필
-topic: Developer and implementation
+topic: 개발자 및 구현
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
