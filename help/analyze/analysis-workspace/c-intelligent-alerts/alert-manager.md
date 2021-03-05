@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 경고를 만들거나 편집하거나 삭제합니다.
 title: 경고 관리자
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 96%
 
 ---
 
