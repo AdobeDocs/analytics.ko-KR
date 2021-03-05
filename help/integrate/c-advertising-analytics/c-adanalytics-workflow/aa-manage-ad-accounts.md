@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Advertising Analytics에서 계정을 관리합니다.
 title: 광고 계정 관리
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 96%
 
 ---
 
