@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: 보고 및 분석에서 경고를 사용합니다.
 subtopic: Alerts
 title: 경고
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '881'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '888'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 경고 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도와 함께 완료할 수 있습니다. 
+모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도와 함께 완료할 수 있습니다. 다음을 수행할 수 있습니다.
 
 * 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95% 또는 99% 임계값, % 변경, 초과/미만).
 * 경고가 트리거되는 빈도를 미리 봅니다.
