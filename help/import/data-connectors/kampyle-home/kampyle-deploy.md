@@ -1,39 +1,39 @@
 ---
-description: 'null'
+description: Adobe Analytics에서 Kampyle 데이터 커넥터를 배포합니다.
 title: 통합 배포
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 46%
 
 ---
 
 
 # 통합 배포{#deploying-the-integration}
 
-이 통합 배포는 Adobe 통합 마법사 완료, 플러그인 코드(JavaScript) 배포 및 통합 확인에 대한 간단한 과정입니다.
+이 통합 배포는 Adobe 통합 마법사를 완료하고 플러그인 코드(JavaScript)를 배포하고 통합을 확인하는 간단한 과정으로 이루어집니다.
 
 ## Adobe 통합 마법사 완료{#complete-the-adobe-integration-wizard}
 
 통합을 활성화하려면 데이터 커넥터 인터페이스에서 구성 마법사를 완료합니다.
 
 1. Adobe Experience Cloud에 로그인합니다.
-1. 데이터 커넥터 **[!UICONTROL 로 이동합니다]**.
+1. **[!UICONTROL 데이터 커넥터]**&#x200B;로 이동합니다.
 1. Kampyle 통합 마법사를 시작합니다.
 1. 원하는 보고서 세트를 선택하고 통합 이름을 제공합니다.
 1. 다음 항목을 구성합니다.
-   1. **[!UICONTROL 이메일 주소]**: 기본 연락처의 이메일 주소입니다.
-   1. **[!UICONTROL 설명]** (선택 사항): 이 통합 설정에 대한 설명입니다.
-   1. **[!UICONTROL Kampyle 키]**: Kampyle 애플리케이션에서 피드백 양식 > **[!UICONTROL 피드백 양식 사용자 지정]** 아래의 이 키를 **[!UICONTROL 찾습니다]**.
-   1. **[!UICONTROL 추적 서버]**: Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버 값.
-   1. **[!UICONTROL 추적 서버 보안]**: 보안/https 트래픽에 대해 추적 서버가 다른 경우 여기에 해당 설정을 제공하십시오.
+   1. **[!UICONTROL 이메일 주소]**:기본 연락처의 이메일 주소입니다.
+   1. **[!UICONTROL 설명]** (선택 사항):이 통합 설정에 대한 설명입니다.
+   1. **[!UICONTROL Kampyle 키]**:Kampyle 응용 프로그램에서  **[!UICONTROL 피드백 양식]** >  **[!UICONTROL 피드백 양식 사용자 지정]** 아래에 있는 이 키를 찾습니다.
+   1. **[!UICONTROL 추적 서버]**:Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버 값입니다.
+   1. **[!UICONTROL 추적 서버 보안]**:보안/https 트래픽에 대한 추적 서버가 다른 경우 여기에 해당 설정을 제공하십시오.
 1. 다음 **[!UICONTROL 변수 매핑]** 항목을 구성합니다.
-   1. **[!UICONTROL Kampyle 피드백 ID]**: 보고서 세트에서 사용 가능한 eVar 변수 선택
-   1. **[!UICONTROL 피드백 등급]**: 보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 입력)를 선택합니다.
-   1. **[!UICONTROL 피드백 항목]**: 보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 입력)를 선택합니다.
-   1. **[!UICONTROL 등급을 사용한 피드백]**: 보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 입력)를 선택합니다.
+   1. **[!UICONTROL Kampyle 피드백 ID]**:보고서 세트에서 사용 가능한 eVar 변수 선택
+   1. **[!UICONTROL 피드백 등급]**:보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 유형)를 선택합니다.
+   1. **[!UICONTROL 피드백 항목]**:보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 유형)를 선택합니다.
+   1. **[!UICONTROL 등급]** 피드백:보고서 세트에서 사용 가능한 성공 이벤트(&quot;카운터&quot; 유형)를 선택합니다.
 1. Kampyle 통합 대시보드를 자동으로 만들려면 이 확인란을 선택합니다(권장).
 1. 모든 구성 항목을 검토하고 **[!UICONTROL 지금 활성화]**&#x200B;를 클릭합니다.
 
@@ -43,7 +43,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->Adobe Experience Platform 론치를 사용하는 경우 해당 도구를 통해 통합 구성 개체를 쉽게 추가할 수 있습니다.
+>Adobe Experience Platform Launch을 사용하는 경우 해당 도구를 통해 통합 구성 객체를 쉽게 추가할 수 있습니다.
 
 1. 통합에서 **[!UICONTROL 리소스]** > **[!UICONTROL 지원]** 탭으로 이동합니다.
 1. **[!UICONTROL Kampyle 통합 코드(JS)]** 리소스를 다운로드하여 저장합니다. 코드는 다음과 유사합니다.
@@ -55,12 +55,12 @@ ht-degree: 47%
 
 1. 다음 방법 중 하나를 사용하여 코드를 배포합니다.
 
-   * Adobe Experience Platform 론치 사용을 참조하십시오.
+   * Adobe Experience Platform Launch 사용
    * Adobe Analytics 배포를 유지하는 조직 리소스에 코드를 전달할 수 있습니다.
 
 ## 통합 확인{#verify-the-integration}
 
-통합이 두 가지 검사를 완료하여 데이터를 성공적으로 전송하는지 확인합니다.
+통합이 두 개의 검사를 완료하여 데이터를 성공적으로 전송하는지 확인합니다.
 
 ### 통합 활동 로그 {#section-0472df9180db4f218db5f6040cab07af}
 
