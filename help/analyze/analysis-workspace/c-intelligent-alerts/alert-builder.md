@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경고가 표시됩니다.
 title: 경고 빌더
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '450'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
