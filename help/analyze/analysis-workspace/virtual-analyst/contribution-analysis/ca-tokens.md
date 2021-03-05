@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 기여도 분석을 사용하여 데이터의 통계적 예외 항목 및 상관 관계를 식별합니다.
 title: 기여도 분석 개요
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
