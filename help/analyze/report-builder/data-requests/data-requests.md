@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Report Builder에서 요청을 만들 때의 첫 번째 단계입니다.
 title: 데이터 요청 - 요청 마법사 1단계
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
-source-wordcount: '411'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 97%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 100%
 
 ![](assets/rw1_overview.png)
 
-1. **[!UICONTROL 보고서 세트]**: 로그인 자격 증명을 기반으로 사용할 수 있는 보고서 세트 목록.  [보고서 세트 선택](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **[!UICONTROL 보고서 세트]**: 로그인 자격 증명을 기반으로 사용할 수 있는 보고서 세트 목록. See [보고서 세트 선택](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **범위 선택기**: Excel의 셀에서 보고서 세트 ID를 선택할 수 있습니다.  [보고서 세트 선택](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **범위 선택기**: Excel의 셀에서 보고서 세트 ID를 선택할 수 있습니다. 자세한 내용은 [보고서 세트 선택](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **세그먼트**: 는 데이터의 사용자 지정 하위 세트이거나 작성한 규칙으로 필터링된 데이터입니다. 세그먼트는 히트 수, 방문 횟수 및 방문자 수를 기반으로 합니다. 세그먼트에 대한 자세한 내용은 [Analytics 세그멘테이션 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 
    예를 들어 [!UICONTROL 페이지 보고서]를 실행한 다음 최초 방문 세그먼트를 적용할 수 있습니다.
 
-1. **게시 목록 무시 허용**: 보고서를 예약할 때 배포에 사용할 게시 목록을 선택할 수 있습니다. 게시 목록은 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]**&#x200B;에서 설정합니다. 이 요청에 대한 보고서 세트는 게시 목록에서 각 수신자에게 지정된 보고서 세트 ID로 대체됩니다.  [게시 목록 무시 허용](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
+1. **게시 목록 무시 허용**: 보고서를 예약할 때 배포에 사용할 게시 목록을 선택할 수 있습니다. 게시 목록은 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]**&#x200B;에서 설정합니다. 이 요청에 대한 보고서 세트는 게시 목록에서 각 수신자에게 지정된 보고서 세트 ID로 대체됩니다. 자세한 내용은 [게시 목록 무시 허용](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
 
-1. **보고서 유형**: 데이터 요청에서 실행할 기본 보고서를 지정합니다. 요청당 하나의 보고서를 실행하며 이 보고서는 일 대 다 차원 및 일 대 다 지표를 가질 수 있습니다. 보고서 유형에 대한 지표 및 차원은 [!UICONTROL 요청 마법사: 2단계] 인터페이스에 표시됩니다.  [보고서 유형을 선택](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)합니다.
+1. **보고서 유형**: 데이터 요청에서 실행할 기본 보고서를 지정합니다. 요청당 하나의 보고서를 실행하며 이 보고서는 일 대 다 차원 및 일 대 다 지표를 가질 수 있습니다. 보고서 유형에 대한 지표 및 차원은 [!UICONTROL 요청 마법사: 2단계] 인터페이스에 표시됩니다. 자세한 내용은 [보고서 유형을 선택](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)합니다.
 
 1. **날짜 범위**: 요청이 적용되는 시간 범위를 정의합니다. 사전 설정, 고정 및 롤링과 같이 몇 가지 유형의 요청 기간을 사용할 수 있습니다. 기간의 최대 개수는 366개입니다. 셀에서 지정된 날짜 범위를 선택할 수도 있고, 날짜 범위를 나중에 사용할 수 있도록 템플릿으로 저장할 수도 있습니다. [보고서 날짜 구성](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)을 참조하십시오.
 
