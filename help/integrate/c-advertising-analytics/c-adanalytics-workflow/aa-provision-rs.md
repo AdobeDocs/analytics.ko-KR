@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Advertising Analytics에서 사용할 Experience Cloud 매핑 보고서 세트를 구성합니다.
 title: Advertising Analytics용 보고서 세트 활성화
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 95%
 
 ---
 
