@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 작업 공간 프로젝트에서 기여도 분석 보고서를 실행합니다.
 title: 기여도 분석 실행
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '593'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 98%
 
 ---
 
