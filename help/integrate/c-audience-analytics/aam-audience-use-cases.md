@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Advertising Analytics 관련 사용 사례
 title: Audience Analytics 활용 사례
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 97%
 
 ---
 
@@ -22,10 +25,10 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 멀티 미디어 퍼블리셔로서 [세그먼트 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)를 사용하여 타사 대상을 비교하여 차별화된 주요 특성을 이해할 수 있습니다. 이렇게 하면 가치가 높은 자사 세그먼트를 구축하여 타깃팅에 사용할 수 있습니다.
 
-## 전망 분석 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
+## 전망 분석  {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
 B2B 소매업체로서 [순차적 세그멘테이션](https://docs.adobe.com/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)을 사용하여 구매하기 직전에 잠재 대상의 행동을 심층적으로 분석할 수 있으므로 전환을 유도하는 작업을 파악하는 데 도움이 됩니다.
 
-## 인구 통계학 타깃팅 {#section_F034DB721A06419283DBD29D4A1B444B}
+## 인구 통계학 타깃팅  {#section_F034DB721A06419283DBD29D4A1B444B}
 
 대상 리조트로서 [Analysis Workspace의 막대 그래프](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/histogram.html)를 사용하여 나이별로 분포된 구매를 볼 수 있습니다. 이렇게 하면 각 리조트 속성별로 적합한 잠재 고객을 찾을 수 있습니다.
