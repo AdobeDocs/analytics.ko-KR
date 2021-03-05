@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe Analytics에서 동적 신호 음성 스톰 데이터 커넥터를 사용합니다.
 title: Adobe Analytics용 Dynamic Signal VoiceStorm Data Connector
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 95%
+source-wordcount: '232'
+ht-degree: 90%
 
 ---
 
