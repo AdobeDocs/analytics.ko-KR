@@ -1,11 +1,11 @@
 ---
 title: Analytics 통합
-description: 'null'
+description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 92%
 
 ---
 
