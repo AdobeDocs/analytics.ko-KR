@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 작업 공간 프로젝트에서 맵 시각화를 사용합니다.
 title: 맵
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +25,7 @@ Analysis Workspace의 맵 시각화
 
 ## 맵 시각화 작성 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
+1. 시각화 목록에서 **[!UICONTROL 맵]**&#x200B;을 자유 형식 패널로 드래그합니다.
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +45,7 @@ Analysis Workspace의 맵 시각화
  </tbody> 
 </table>
 
-1. 클릭 **[!UICONTROL Build]**.
+1. **[!UICONTROL 작성을 클릭합니다]**.
 
    당신이 보게 될 첫 번째 보기는 다음과 유사한 버블 맵을 사용하는 세계 보기입니다.
 
