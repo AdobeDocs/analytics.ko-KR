@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: DFA 데이터 커넥터 관련 FAQ
 keywords: DFA
 title: FAQ
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 >
 >CSID는 통합 버전 2.0에서 사용되지 않으므로, CSID 협상 처리가 적용되지 않습니다.
 
-## 통합 버전 2.0을 사용하는 데 내 DFA 광고에 대한 비용 지표가 표시되지 않습니다. 이유가 무엇입니까? {#section-805748111bbe4bbf918d6dbbb2641fff}
+## 통합 버전 2.0을 사용하는 데 내 DFA 광고에 대한 비용 지표가 표시되지 않습니다. 이유가 무엇입니까?  {#section-805748111bbe4bbf918d6dbbb2641fff}
 
 비용 지표는 양쪽 Google DFA 쪽에서 켜져 있고 DFA 인터페이스에서 제공해야 할 뿐만 아니라 Data Connectors 마법사에서 켜져 있어야 합니다. 먼저 DFA 미디어 비용에 대한 Analytics 이벤트를 매핑하고 통화 코드를 제공했는지 확인합니다. 미디어 비용 이벤트를 매핑하고 마법사를 완료한 후 저장하면 DFA omnitureCostData 플래그가 DFA API에서 켜집니다. 이는 밤마다 파일로 지표를 보내야 한다는 것을 Google에 알리는 것입니다. 통합된 Floodlight에서 속성을 보고 omnitureCostData가 활성화되었는지 DFA 인터페이스를 통해 다시 확인할 수 있습니다. 마지막으로, 이러한 두 위치를 확인한 후에 통합된 Floodlight에 포함된 광고에서 비용 데이터와 비용 구조를 지정하는지 확인합니다. 비용 데이터가 DFA 인터페이스에 제공되지 않으면 분석에 표시되지 않습니다.
 
-## 특정 광고에 DFA 노출 횟수 또는 뷰스루가 표시되지 않지만 클릭 수 및 클릭스루가 표시되는 이유는 무엇입니까? {#section-39b2eeeefd7f43d1a373df0b987bacef}
+## 특정 광고에 DFA 노출 횟수 또는 뷰스루가 표시되지 않지만 클릭 수 및 클릭스루가 표시되는 이유는 무엇입니까?  {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
 clicktrackers라고 하는 클릭 데이터만 기록하는 몇 가지 광고가 있습니다. 이러한 유형의 광고는 Floodlight 서버에 쿼리하면 마지막 노출 횟수 데이터를 반환하지 않습니다. 특정 광고가 clicktracker이거나 클릭 전용 광고인지 확인하려면 DFA 에이전시 또는 Google 지원 담당자에게 문의하십시오.
 
