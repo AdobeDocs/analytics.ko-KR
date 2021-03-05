@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 작업 공간 프로젝트에서 가로 막대 시각화를 사용합니다.
 title: 가로 막대 및 스택 가로 막대
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 스택 가로 막대 {#section_50C08E9E20A94024A6553BC352ADB597}
 
-This visualization is like the [!UICONTROL Horizontal Bar Chart], but the series bars appear stacked.
+이 시각화는 [!UICONTROL 가로 막대 차트]와 유사하지만 시리즈 막대가 스택되어 나타납니다.
 
 ![](assets/horizontal-bar-stacked.png)
 
-The [!UICONTROL Horizontal Bar Stacked] visualization setting on bar stacked visualizations turns the chart into a &quot;100% stacked&quot; visualization:
+스택 막대 시각화에 대한 [!UICONTROL 스택 가로 막대] 시각화 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다.
 
 ![](assets/horizstacked100.png)
 
