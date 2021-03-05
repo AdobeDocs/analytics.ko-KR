@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Data Warehouse의 요청을 반복 기준으로 실행하도록 예약합니다.
 title: 반복 요청 예약
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 85%
 
 ---
 
@@ -14,14 +17,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 [일별]/[매월]/[연간] Data Warehouse 요청을 예약하려면 *사전 설정*이 올바르게 선택되었는지 확인하십시오.
 
-1. 아래에서 [!UICONTROL Reporting Date]을 선택합니다 **[!UICONTROL Preset]**.
+1. [!UICONTROL 보고 날짜]에서 **[!UICONTROL 사전 설정]**&#x200B;을 선택합니다.
 
-1. [!UICONTROL Schedule Delivery]에서 **[!UICONTROL Advanced Delivery Options]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 배달 예약]에서 **[!UICONTROL 고급 배달 옵션]**&#x200B;을 클릭합니다.
 
-1. 예약 옵션 탭으로 이동하여 **[!UICONTROL Schedule for later]**&#x200B;선택합니다.
-1. 및 에 대해 원하는 설정을 [!UICONTROL Delivery Frequency] 선택합니다 [!UICONTROL End Delivery Options].
+1. [예약 옵션] 탭으로 이동하여 **[!UICONTROL 나중에 예약]**&#x200B;을 선택합니다.
+1. [!UICONTROL 배달 빈도] 및 [!UICONTROL 배달 종료 옵션]에 원하는 설정을 선택합니다.
 
    ![](assets/dw_schedule.png)
 
-1. 클릭 **[!UICONTROL Schedule]**.
+1. **[!UICONTROL 예약을 클릭합니다]**.
 
