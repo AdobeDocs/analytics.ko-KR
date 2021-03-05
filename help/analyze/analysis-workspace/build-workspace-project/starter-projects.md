@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 표준 또는 사용자 정의 템플릿을 기반으로 작업 영역 프로젝트를 만들 수 있습니다.
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 93%
+source-wordcount: '1397'
+ht-degree: 92%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정(예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다. 
 
-Analysis Workspace의 [표준 템플릿에 대한 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)입니다.
+다음은 Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)(2:46)의 [표준 템플릿에 대한 비디오 자습서입니다.
 
 다음은 템플릿과 각 템플릿을 사용하여 해결할 수 있는 질문입니다.
 
@@ -77,7 +77,7 @@ Analysis Workspace의 [표준 템플릿에 대한 비디오 자습서](https://d
 
 ### 상거래
 
-* **Magento:마케팅 및 상거래**:이 템플릿은 마케팅 채널 기여도에 따라 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 기준으로 통찰력을 제공합니다. 비디오 개요는 다음을 참조하십시오.
+* **Magento:마케팅 및 상거래**:이 템플릿은 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 인사이트를 제공할 뿐만 아니라 마케팅 채널 속성을 통해 전자 상거래 전환을 분석합니다. 비디오 개요는 다음을 참조하십시오.
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
