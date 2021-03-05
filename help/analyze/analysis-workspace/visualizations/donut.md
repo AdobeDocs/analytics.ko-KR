@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: 작업 공간 프로젝트에서 도넛 시각화를 사용합니다.
 title: 도넛
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '36'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 81%
 
 ---
 
