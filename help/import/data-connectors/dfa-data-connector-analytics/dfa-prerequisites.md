@@ -1,11 +1,14 @@
 ---
-description: 'null'
+description: Adobe Analytics에서 DFA 데이터 커넥터를 사용하기 위한 사전 요구 사항입니다.
 keywords: DFA
 title: 전제 조건
 topic: Data connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 97%
 
 ---
 
