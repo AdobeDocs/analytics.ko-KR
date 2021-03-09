@@ -1,18 +1,18 @@
 ---
 title: 방문자당 체류 시간(초)
-description: null
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+description: 방문자당 체류 시간(초) 지표는 방문자가 방문자의 전체 라이프타임 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여줍니다.
+translation-type: tm+mt
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 85%
 
 ---
 
 
 # 방문자당 체류 시간(초)
 
-방문자당 체류 시간(초) 지표는 방문자가 방문자의 전체 라이프타임 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여줍니다.
+[!UICONTROL 방문자당 체류 시간(초)] 지표는 방문자가 방문자 전체 라이프타임 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여줍니다.
 
 이 지표는 처리 아키텍처가 달라서 Data Warehouse에서는 사용할 수 없습니다.
 
