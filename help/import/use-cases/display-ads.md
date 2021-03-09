@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics에 Google 디스플레이 광고 데이터 통합
-description: null
+description: 이 통합을 통해 고객 행동을 Google AdWords의 캠페인 및 비용 데이터와 연결할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: caa4042cbef2f588452f9fdd70c5f4bca976ca83
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
