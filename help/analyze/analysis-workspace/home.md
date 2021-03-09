@@ -1,13 +1,11 @@
 ---
-keywords: Analysis Workspace
-title: Analysis Workspace 개요
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
+title: Analysis Workspace 소개 및 사용 방법
+description: Analysis Workspace은 Adobe Analytics의 최고의 분석 툴입니다. 패널, 표, 시각화 및 기타 구성 요소를 사용하여 데이터를 보다 생동감 있게 만들고 데이터 세트를 조정하며 프로젝트를 공유 및 예약할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 95%
+source-wordcount: '567'
+ht-degree: 89%
 
 ---
 
@@ -58,11 +56,11 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ### 패널
 
-**패널**&#x200B;은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 표와 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 맨 왼쪽 레일에서 맨 위의 **[!UICONTROL 패널]** 아이콘을 선택하여 사용 가능한 [패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)의 전체 목록을 확인합니다.
+**패널**&#x200B;은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 표와 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 맨 왼쪽 레일에서 맨 위의 **[!UICONTROL 패널]** 아이콘을 선택하여 사용 가능한 [패널](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/panels.html)의 전체 목록을 확인합니다.
 
 ![](assets/build-panels.png)
 
 ## 추가 리소스 {#resources}
 
-* Adobe는 수백 개의 [분석 비디오 교육 자습서](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html)를 제공합니다.
+* Adobe는 수백 개의 [분석 비디오 교육 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)를 제공합니다.
 * 새로운 기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
