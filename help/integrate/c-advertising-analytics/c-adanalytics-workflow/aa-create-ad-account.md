@@ -1,11 +1,11 @@
 ---
-title: 광고 계정 설정
-uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
+title: Advertising Analytics에서 광고 계정을 설정하는 방법
+description: 새 광고 계정을 만들고 여러 계정을 여러 보고서 세트에 매핑할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>보고서 세트 매핑 </p> </td> 
-      <td colname="col2"> <p>보고서 세트 매핑은 이 검색 엔진 계정에 연결되는 보고서 세트를 결정합니다. 즉, 검색 엔진 데이터가 전송되는 보고서 세트를 결정합니다. </p> <p>해당 보고서 세트가 표시되지 않으면 이 도구를 사용하여 <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html"  >Experience Cloud 조직에 보고서 세트를 매핑</a>할 수 있습니다. </p> </td> 
+      <td colname="col2"> <p>보고서 세트 매핑은 이 검색 엔진 계정에 연결되는 보고서 세트를 결정합니다. 즉, 검색 엔진 데이터가 전송되는 보고서 세트를 결정합니다. </p> <p>해당 보고서 세트가 표시되지 않으면 이 도구를 사용하여 <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >Experience Cloud 조직에 보고서 세트를 매핑</a>할 수 있습니다. </p> </td> 
       </tr> 
     </tbody> 
     </table>
