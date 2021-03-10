@@ -5,10 +5,10 @@ title: FAQ
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -47,6 +47,6 @@ clicktrackers라고 하는 클릭 데이터만 기록하는 몇 가지 광고가
 
 두 번째, [성공적인 DFA 통합 확인](../dfa-data-connector-analytics/dfa-integration.md)의 단계를 수행하여 작동 중인 통합이 있는지 확인합니다. 랜딩 페이지에서 Adobe 히트를 통해 DFA 추적 코드가 도착한 것이 보이면 클릭스루가 DFA 캠페인 보고서에 표시되는 것을 볼 수 있습니다. 표시되지 않는 경우 보고서 세트가 랜딩 페이지의 *`s.account`* 변수와 Reports &amp; Analytics에 표시 중인 보고서 세트 간에 일치하는지 확인하십시오. 이들이 일치하면 뷰스루 eVar 보고서에서 추적 코드가 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX 형식인지 확인합니다.
 
-이들은 DFA에서 원시 데이터를 다이제스트하는 DFA VISTA 규칙 오류를 나타냅니다. 이 문제는 Adobe 계정 담당자를 통해 지원 티켓을 열어서 해결할 수 있습니다.
+이들은 DFA에서 원시 데이터를 다이제스트하는 DFA VISTA 규칙 오류를 나타냅니다. 이 문제는 Adobe 계정 담당자를 통해 지원 티켓을 열어 수정할 수 있습니다.
 
-위의 어떤 해결 방법으로도 문제가 설명되지 않으면 [지표 불일치 조정](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)에서 다른 가능성을 확인하십시오.
+위의 솔루션이 문제를 설명하지 않는 경우 [지표 불일치 조정](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)을 참조하여 다른 가능성을 모색하십시오.
