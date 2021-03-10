@@ -5,10 +5,10 @@ user-guide-title: Analytics 가져오기 안내서
 breadcrumb-title: 가져오기 안내서
 user-guide-description: '데이터를 일괄 방식 또는 실시간으로 외부 소스에서 Analytics로 가져옵니다. '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 98%
       + [Demandbase 표준 차원](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Demandbase 사용자 지정 차원](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Adobe Analytics용 DFA Data Connector {#dfa}
+      + [DFA 통합 종단 정보](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Adobe Analytics용 DFA Data Connector](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [전제 조건](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [통합 기능](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
