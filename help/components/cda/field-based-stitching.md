@@ -1,11 +1,11 @@
 ---
 title: 필드 기반 결합
 description: 필드 기반 결합을 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,8 @@ ht-degree: 100%
 ## 필드 기반 결합에 대한 제한 사항
 
 * 필드 기반 결합은 높은 사용자 식별 비율이 있는 보고서 세트에 가장 적합합니다. 보고서 세트의 식별 또는 로그인 비율이 낮은 경우 [공동 작업 그래프](device-graph.md) 사용을 고려하십시오.
+* prop 및 eVar에는 보고를 위해 대문자 및 소문자 문자가 처리되는 방식에 대한 규칙이 있지만 필드 기반 스티칭은 어떤 방법으로든 스티칭에 사용되는 prop 또는 eVar을 변형하지 않습니다. 필드 기반 스티칭은 이후 VISTA 규칙 및 사후 처리 규칙이 존재하므로 지정된 필드의 값을 사용합니다. 예를 들어 때로 &#39;Bob&#39;이라는 단어가 prop/eVar에 나타나고, 때때로 &#39;BOB&#39;이라는 단어가 나타나면, 두 명의 개별 사용자로 처리됩니다.
 
 ## 다음 단계
 
-조직이 모든 요구 사항을 충족하고 제한 사항을 이해하면 [교차 장치 분석 설정](setup.md)을 시작할 수 있습니다.
+조직에서 모든 요구 사항을 충족하고 제한 사항을 이해하면 [장치 간 분석 설정](setup.md)을 시작할 수 있습니다.
