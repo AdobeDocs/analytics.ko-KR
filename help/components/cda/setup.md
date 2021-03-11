@@ -1,10 +1,10 @@
 ---
 title: 교차 장치 분석 설정
 description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '477'
+translation-type: tm+mt
+source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
+workflow-type: tm+mt
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,7 @@ CDA는 Adobe 엔지니어링 팀을 통해 교차 장치 보고서 세트에 생
 * CDA를 활성화할 교차 장치 보고서 세트에 대한 보고서 세트 ID
 * 사용할 CDA의 방법(필드 기반 스티칭, Adobe 개인 그래프 또는 Adobe 공동 작업 그래프)
 * 필드 기반 스티칭을 사용하려면 prop 또는 eVar에 사용자 ID가 포함되어야 합니다.
+* 재생 빈도 및 전환 길이에 대한 사용자 기본 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다.
 
 CSM에 이 정보를 제공하면, CDA 처리를 위해 선택한 보고서 세트를 사용하도록 Adobe 엔지니어링 팀과 작업합니다.
 
