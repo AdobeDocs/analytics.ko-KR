@@ -1,10 +1,11 @@
 ---
 description: Adobe Experience Cloud의 단일 사인온은 Admin Console을 통해 구현됩니다.
 title: 단일 사인온
-topic: Admin tools
-uuid: 4f20dcfa-d148-42ec-9399-1c8d1720333e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: ae73165513fd8ba27fcf32d58e7f114bb43a5136
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 83%
 
 ---
 
@@ -13,4 +14,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Adobe Experience Cloud의 단일 사인온은 Admin Console을 통해 구현됩니다.
 
-도움이 필요한 경우 [관리 사용 안내서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)를 참조하십시오.
+도움이 필요한 경우 [관리 사용 안내서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html)를 참조하십시오.
