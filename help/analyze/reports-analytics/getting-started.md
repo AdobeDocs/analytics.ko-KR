@@ -1,16 +1,16 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 title: Reports and Analytics 시작하기
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 보고 및 분석 시작하기
+# Reports &amp; Analytics 시작하기
 
 Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
 
@@ -19,12 +19,12 @@ Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그�
 * 사이트 방문자 수
 * 해당 방문자 중 고유 방문자 수(한 번만 카운트)
 * 방문자의 사이트 방문 경로(예: 링크를 따라 사이트를 방문했는지 또는 사이트에 직접 방문했는지 여부)
-* 방문자가 사이트 컨텐츠를 검색하는 데 사용한 키워드
+* 방문자가 사이트 콘텐츠를 검색하는 데 사용한 키워드
 * 특정 페이지 또는 전체 사이트에서 머문 시간
 * 방문자가 클릭한 링크와 사이트를 떠난 시점
 * 매출 생성이나 전환 이벤트 생성에 가장 효과적인 마케팅 채널
 * 비디오 보는 데 걸린 시간
-* 방문자가 사이트를 방문하는 데 사용한 브라우저 및 장치
+* 방문자가 사이트를 방문하는 데 사용한 브라우저 및 디바이스
 
 ## 브라우저 및 시스템 요구 사항
 
@@ -72,7 +72,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
    보고서 메뉴 또는 [대시보드](/help/analyze/reports-analytics/dashboard.md)를 설정한 경우 둘 중 하나가 표시됩니다.
 
-1.  **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**(예)를 클릭합니다. 
+1. 예를 들어 **[!UICONTROL 사이트 콘텐츠]** > **[!UICONTROL 페이지]**&#x200B;를 클릭합니다.
 
    ![](assets/pages_report.png)
 
@@ -91,7 +91,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 | 정보 종류 | 정의 |
 | --- | --- |
 | 연락처 | 자신의 계정에 대해 다음 개인 정보를 지정하십시오.<ul><li>이름(필수)</li><li>성(필수)</li><li>직함</li><li>이메일 주소(필수)</li><li>전화번호</li></ul> |
-| 로그인 | 계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. [Reports &amp; Analytics 계정 암호를 재설정하는 방법](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en)을 참조하십시오. |
+| 로그인 | 계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. [Reports &amp; Analytics 계정 암호를 재설정하는 방법](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=ko-KR)을 참조하십시오. |
 | 웹 서비스 | 이 계정과 연결된 웹 서비스 사용자 이름과 공유 암호가 표시됩니다. 웹 서비스 API를 통해 Experience Cloud에 액세스할 때 이러한 자격 증명을 사용합니다. 자세한 내용은 Developer Connection을 참조하십시오. **참고:** 이 정보는 계정이 웹 서비스 사용자로 인증되는 경우에만 표시됩니다. |
 | 이 컴퓨터 제외 | 쿠키를 현재 컴퓨터에 적용하여 데이터 수집에서 제외합니다. 이 기능은 도메인에서 페이지 보기나 방문자 수에 영향을 주는 온라인 활동을 원하지 않는 경우 유용합니다. **참고:** 이 기능을 사용하려면 브라우저에 쿠키 기능이 활성화되어 있어야 합니다. 컴퓨터에서 쿠키를 삭제하는 경우 제외 쿠키를 재설정해야 합니다. |
 
