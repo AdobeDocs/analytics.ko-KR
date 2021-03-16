@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 | 비용 | x |  |  |  | 보고서 세트 관리자의 마케팅 채널 > 마케팅 채널 비용에 대한 액세스 권한을 부여합니다. |
 | 사용자 정의 달력 | x |  |  |  | 보고서 세트 관리자의 일반 > 사용자 정의 달력에 대한 액세스 권한을 부여합니다. |
 | 데이터 피드 관리자 | x |  |  |  | Analytics 상단 탐색의 관리 > 데이터 피드에 대한 액세스 권한을 부여합니다. |
-| 데이터 복구 API | x |  |  |  | 데이터 복구 API에 대한 액세스 권한을 부여합니다. |
+| 데이터 복구 API | x |  |  |  | 데이터 복구 API에 대한 액세스 권한 부여 |
 | 데이터 소스 관리자 | x |  |  |  | Analytics 상단 탐색에서 관리자 > 데이터 소스에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;보고서 세트 관리&#39;가 필요합니다. |
 | 기본 지표 | x |  |  |  | 보고서 세트 관리자의 개별 보고서 세트 설정 > 기본 지표에 대한 액세스 권한을 부여합니다. |
 | IP 주소별로 제외 | x |  |  |  | Analytics 상단 탐색의 관리자 > IP별로 제외에 대한 액세스 권한을 부여합니다. |
@@ -89,7 +89,7 @@ ht-degree: 98%
 | 트래픽 관리 | x |  |  |  | 관리자 > 트래픽 관리에 대한 액세스 권한을 부여합니다. |
 | 웹 서비스 | x |  |  |  | 관리자 > 회사 설정 > 웹 서비스에 대한 액세스 권한을 부여합니다. |
 | Activity Map |  | x |  |  | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
-| Ad Hoc Analysis 라이선스 사용자 |  | x |  |  | Ad Hoc Analysis은 사용이 중단되었습니다. [추가 정보](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Ad Hoc Analysis 라이선스 사용자 |  | x |  |  | Ad Hoc Analysis 서비스가 중단되었습니다. [추가 정보](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace 액세스 |  | x |  |  | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹(기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |
 | Analysis Workspace: 템플릿으로 저장 |  | x |  |  | Analysis Workspace 내의 프로젝트 > 템플릿으로 저장에 대한 액세스 권한을 부여합니다. |
 | 계산된 지표 생성 |  | x |  |  | 모든 Analytics 기능에 대해 계산된 지표를 만들 수 있는 기능을 부여합니다. |
