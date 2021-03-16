@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -28,15 +28,15 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 [![통합](assets/integrate_50px.png)](/help/integrate/home.md) [통합 안내서](/help/integrate/home.md) – Audience Manager, Advertising Cloud 및 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 
-[![스트리밍 미디어 분석](assets/media_50px.png)](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) [스트리밍 미디어 분석 안내서](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) - 스트리밍 미디어용 Adobe Analytics을 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
+[![스트리밍 미디어 분석](assets/media_50px.png)](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) [스트리밍 미디어 분석 안내서](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - 스트리밍 미디어용 Adobe Analytics을 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) [Data Workbench 안내서](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 가이드 등이 포함되어 있습니다.
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html) [Data Workbench 안내서](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 가이드 등이 포함되어 있습니다.
 
 [![TechNote](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics TechNote](/help/technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
 | 새 항목 및 중요 항목 | 주요 Analytics 리소스 |
 | --- | --- |
-| <ul><li>[전체 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[집중 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li><li>[지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)</li><li>[작업 공간 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics 비디오 자습서](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[강의실 교육 및 가상 수업](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원 문의](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[전체 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ko-KR)</li><li>[집중 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ko-KR)</li><li>[지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)</li><li>[작업 공간 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 제품 비교](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 참고 항목: [2019 설명서 업데이트](doc-updates.md) | <ul><li> [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html)</li><li>[Analytics 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[강의실 교육 및 가상 수업](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[고객 지원 문의](https://helpx.adobe.com/kr/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
