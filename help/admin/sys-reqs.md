@@ -1,9 +1,9 @@
 ---
 title: 시스템 요구 사항
 description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 564263be46b8c4fef996381819b4b13abb865b7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
