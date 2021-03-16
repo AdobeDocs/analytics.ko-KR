@@ -1,21 +1,21 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics 구성 요소 안내서
-breadcrumb-title: 구성 요소 안내서
+user-guide-title: Analytics Components 안내서
+breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Analytics] 구성 요소 안내서 {#components}
+# [!DNL Analytics] Components 안내서 {#components}
 
-+ [Analytics 구성 요소 안내서](home.md)
++ [Analytics Components 안내서](home.md)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)
@@ -60,7 +60,7 @@ ht-degree: 98%
    + [마지막 터치 채널](dimensions/last-touch-channel.md)
    + [마지막 터치 채널 세부 사항](dimensions/last-touch-detail.md)
    + [마케팅 채널](dimensions/marketing-channel.md)
-   + [마케팅 채널 세부 사항](dimensions/marketing-detail.md)
+   + [마케팅 채널 세부 정보](dimensions/marketing-detail.md)
    + [분](dimensions/minute.md)
    + [모바일 차원](dimensions/mobile-dimensions.md)
    + [모니터 해상도](dimensions/monitor-resolution.md)
@@ -114,7 +114,7 @@ ht-degree: 98%
    + [장바구니 보기 수](metrics/cart-views.md)
    + [장바구니](metrics/carts.md)
    + [체크아웃](metrics/checkouts.md)
-   + [컨텐츠 속도](metrics/content-velocity.md)
+   + [콘텐츠 속도](metrics/content-velocity.md)
    + [사용자 지정 이벤트](metrics/custom-events.md)
    + [항목](metrics/entries.md)
    + [종료](metrics/exits.md)
@@ -138,7 +138,7 @@ ht-degree: 98%
    + [방문자당 체류 시간](metrics/time-spent-per-visitor.md)
    + [체류 시간 개요](metrics/time-spent.md)
    + [총 체류 시간(초)](metrics/total-seconds-spent.md)
-   + [고유 장치](metrics/unique-devices.md)
+   + [고유 디바이스](metrics/unique-devices.md)
    + [고유 방문자 수](metrics/unique-visitors.md)
    + [판매량](metrics/units.md)
    + [Experience Cloud ID를 가진 방문자 수](metrics/visitors-with-ecid.md)
@@ -147,8 +147,8 @@ ht-degree: 98%
    + [Analytics 세그먼테이션](segmentation/seg-home.md)
    + [세그먼트 및 컨테이너 정보](segmentation/seg-overview.md)
    + [Analysis Workspace의 세그먼테이션 기능](segmentation/segmentation-in-analysis-workspace.md)
-   + 세그먼테이션 워크플로우 {#segmentation-workflow}
-      + [세그먼테이션 워크플로우 개요](segmentation/segmentation-workflow/seg-workflow.md)
+   + 세그먼테이션 워크플로 {#segmentation-workflow}
+      + [세그먼테이션 워크플로 개요](segmentation/segmentation-workflow/seg-workflow.md)
       + [계획 세그먼트](segmentation/segmentation-workflow/seg-plan.md)
       + [세그먼트 작성](segmentation/segmentation-workflow/seg-build.md)
       + [순차적 세그먼트 작성](segmentation/segmentation-workflow/seg-sequential-build.md)
@@ -172,8 +172,8 @@ ht-degree: 98%
    + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
    + [FAQ](c-calcmetrics/cm-transition.md)
    + [방법 비디오](c-calcmetrics/cm-videos.md)
-   + 계산된 지표 워크플로우 {#calcmetric-workflow}
-      + [계산된 지표 워크플로우](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+   + 계산된 지표 워크플로 {#calcmetric-workflow}
+      + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
@@ -202,8 +202,8 @@ ht-degree: 98%
    + [보고서 처리 시간](vrs/vrs-report-time-processing.md)
    + [VRS FAQ](vrs/vrs-faq.md)
    + [VRS 및 글로벌/다중 세트 태깅 고려 사항](vrs/vrs-considerations.md)
-   + VRS 워크플로우 {#vrs-workflow}
-      + [가상 보고서 세트 워크플로우](vrs/c-workflow-vrs/vrs-workflow.md)
+   + VRS 워크플로 {#vrs-workflow}
+      + [가상 보고서 세트 워크플로](vrs/c-workflow-vrs/vrs-workflow.md)
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
@@ -211,10 +211,10 @@ ht-degree: 98%
    + [교차 디바이스 분석 개요](cda/overview.md)
    + [필드 기반 결합](cda/field-based-stitching.md)
    + [Device Graph](cda/device-graph.md)
-   + [교차 장치 분석 설정](cda/setup.md)
+   + [교차 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
    + [CDA 작업 공간 템플릿](cda/workspace-template.md)
-   + [특정 날짜로 VRS 제한](cda/limit-vrs-date.md)
+   + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [교차 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)
@@ -236,7 +236,7 @@ ht-degree: 98%
       + [처리 시간](classifications/importer/processing-time.md)
       + [문제 해결](classifications/importer/troubleshooting.md)
    + 분류 규칙 빌더 {#classifications-rulebuilder}
-      + [분류 규칙 빌더 워크플로우](classifications/crb/classification-rule-builder.md)
+      + [분류 규칙 빌더 워크플로](classifications/crb/classification-rule-builder.md)
       + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
       + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
       + [분류 규칙 - 정의](classifications/crb/classification-rule-definitions.md)
