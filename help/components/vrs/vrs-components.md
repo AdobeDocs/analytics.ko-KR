@@ -36,7 +36,7 @@ ht-degree: 100%
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
-   >* Analytics 보고 API
+   >* Analytics Reporting API
 
 
    이 옵션을 선택하면 &quot;제외된 구성 요소&quot; 열의 해당 구성 요소를 &quot;포함된 구성 요소&quot; 열로 드래그하여 가상 보고서 세트에 포함할 구성 요소를 추가할 수 있습니다. 포함하거나 제외할 수 있는 구성 요소는 다음과 같습니다.
