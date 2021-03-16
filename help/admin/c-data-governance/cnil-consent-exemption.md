@@ -16,16 +16,16 @@ ht-degree: 83%
 
 가이드라인은 동의 요구 사항에 대한 제한적인 면제를 규정합니다(“동의 면제”). 동의 면제는 웹 게시자를 대신하여 사이트 또는 앱의 잠재고객만 측정하는 제한적인 용도를 가진 분석 쿠키에 적용됩니다. 가이드라인은 동의 면제를 적용하려면 다음 조건을 구현해야 한다고 규정합니다.
 
-* 최대 25개월 데이터 보존.  분석 > 관리 > 데이터 거버넌스에서 현재 데이터 보존 설정을 검토할 수 있습니다.  [데이터 유지](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html)
+* 최대 25개월 데이터 보존.  분석 > 관리 > 데이터 거버넌스에서 현재 데이터 보존 설정을 검토할 수 있습니다.  [데이터 유지](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=ko-KR)
 * ECID에서 타사 쿠키를 비활성화합니다. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api), disable [ThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api) 및 disableIdSyncs  [](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
-* 13개월 쿠키 제한은 롤링이 아니라 정적 날짜로 설정됩니다.  `cookieLifetime` 변수를 사용하여 분석 쿠키 만료를 재정의할 수 있습니다.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html)
+* 13개월 쿠키 제한은 롤링이 아니라 정적 날짜로 설정됩니다.  `cookieLifetime` 변수를 사용하여 분석 쿠키 만료를 재정의할 수 있습니다.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=ko-KR)
 * 제한적 범위. 쿠키의 범위는 단일 사이트 또는 애플리케이션으로 제한되어야 합니다. [브라우저 쿠키](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=ko-KR&quot;\l&quot;third-party-cookie-implementations)
-* 익명화. IP 주소의 마지막 옥텟을 익명화합니다. [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
+* 익명화. IP 주소의 마지막 옥텟을 익명화합니다. [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ko-KR)
 * 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)에 의해 제한될 수 있습니다.
 * 지리적 위치 매개 변수. 지리적 위치는 우편 번호 수준보다 정확할 수 없습니다. [우편 번호 옵션](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=ko-KR&quot;\l&quot;zip-in-adobe-experience-platform-launch) 및 [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ko-KR&quot;\l&quot;admin-tools)
-* 옵트인 옵션 설정.  옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다. [옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
+* 옵트인 옵션 설정.  옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다. [옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)
 * 데이터 공유 방지.  Adobe Audience Manager에 대한 데이터 공유를 금지하려면 `opt.dmp` [개인 정보 보고 변수](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=ko-KR&quot;\l&quot;variables)에 대해 컨텍스트 변수를 사용하여 히트가 공유되지 않도록 차단합니다.
-* 액세스 및 삭제 기능. 액세스 및 삭제 요청을 위해 Privacy Service를 활용하십시오. [Analytics &amp; Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html)
+* 액세스 및 삭제 기능. 액세스 및 삭제 요청을 위해 Privacy Service를 활용하십시오. [Analytics &amp; Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=ko-KR)
 
 ## 데이터 수집에 대한 추가 고려 사항
 
