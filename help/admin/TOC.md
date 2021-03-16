@@ -4,11 +4,11 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,8 +55,8 @@ ht-degree: 99%
    + [게시 목록](admin/publishing-list.md)
    + [게시 위젯](admin/publishing-widgets-admin.md)
    + [기본 설정 관리자](admin/preferences-manager.md)
-   + [개인 정보 설정](admin/privacy-settings.md)
-   + [개인 정보 설정](admin/privacy-reporting.md)
+   + [개인 정보 보호 설정](admin/privacy-settings.md)
+   + [개인 정보 보호 설정](admin/privacy-reporting.md)
    + 처리 규칙 {#processing-rules}
       + [처리 규칙 개요](admin/c-processing-rules/processing-rules.md)
       + 처리 규칙 구성 {#processing-rules-configuration}
@@ -178,7 +178,7 @@ ht-degree: 99%
    + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)
    + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
    + [FAQ](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics 데이터 개인 정보 보호 워크플로우](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics 데이터 개인 정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
    + [보고서 세트의 데이터 거버넌스 설정 보기/관리](c-data-governance/gdpr-view-settings.md)
    + [보고서 세트 데이터에 레이블 지정](c-data-governance/gdpr-setup-reportsuite.md)
    + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
