@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 97%
 * [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
 * 세그먼트는 모든 보고서 세트에 범용입니다.
 * [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-workflow.md)는 세그먼트 생성을 단순화합니다.
-* [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로우](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
+* [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
 * [세그먼트를 태그 지정](/help/components/segmentation/segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다.
-* [순차적 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
+* [순차적인 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
 * 페이지 보기 컨테이너는 단지 페이지 보기가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 히트 컨테이너로 이름이 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다. 이 컨테이너가 작동하는 방식은 변경되지 않았으며 이름만 바뀌었습니다.
 
 자세한 내용은 디지털 마케팅 블로그의 [Adobe Analytics에서의 세그먼테이션 개선](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) 게시물을 참조하십시오.
@@ -80,17 +80,17 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 **회사의 세그먼트를 볼 수 있습니까?**
 
-예, 관리자는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
+예. 관리자는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
 
 Ad Hoc Analysis 및 Report Builder는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트를 표시합니다.
 
 **세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?**
 
-예. 세그먼트 관리자에서 모든 세그먼트를 관리할 수 있습니다. 세그먼트 관리자는 소유자(세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
+예. 모든 세그먼트는 세그먼트 관리자에서 관리할 수 있습니다. 세그먼트 관리자는 소유자(세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
 
 관리자는 Analysis Workspace 및[!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
 
-Report Builder은 사용자가 작성한 세그먼트나 특별히 사용자와 공유한 세그먼트만 표시합니다.
+Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 공유한 세그먼트만 표시합니다.
 
 **이 세그먼트를 삭제할 수 없는 이유**
 
@@ -138,7 +138,7 @@ Report Builder은 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 **Data Warehouse 세그먼트에 나타나는 결과**
 
-모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace 및 보고 및 분석과 같은 다른 구성 요소에서도 작동합니다.
+모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace 및 Reports &amp; Analytics와 같은 다른 구성 요소에서도 작동합니다.
 
 세그먼트 빌더/관리자에서 새 Data Warehouse 세그먼트를 만들거나 편집할 수 있습니다. 세그먼트 빌더의 제품 호환성 메커니즘은 세그먼트가 Data Warehouse와 호환되는지의 여부를 자동으로 확인합니다.
 
@@ -172,7 +172,7 @@ Report Builder은 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 이러한 세그먼트의 소유자는 로그인 회사의 관리자 사용자 목록에서 계정이 가장 오래된 관리자로 설정되지만 모든 관리자가 이러한 세그먼트를 삭제, 편집 및 공유할 수 있습니다.
 
-관리자가 이러한 전역 세그먼트를 만들고 관리하는 관리자 콘솔의 세그먼트 관리 인터페이스는 더 이상 사용 가능하지 않습니다. 관리자는 이제 새 세그먼트 빌더를 사용하여 세그먼트를 만들고 해당 그룹이나 개인 또는 모든 사람과 공유하는 것이 좋습니다.
+관리자가 이러한 전역 세그먼트를 만들고 관리하는 Admin Console의 세그먼트 관리 인터페이스는 더 이상 사용 가능하지 않습니다. 관리자는 이제 새 세그먼트 빌더를 사용하여 세그먼트를 만들고 해당 그룹이나 개인 또는 모든 사람과 공유하는 것이 좋습니다.
 
 <!-- 
 
@@ -268,8 +268,8 @@ seg_definition.xml
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 모바일 장치 </td> 
-   <td colname="col2"> 모바일 장치 이름 </td> 
+   <td colname="col1"> 모바일 디바이스 </td> 
+   <td colname="col2"> 모바일 디바이스 이름 </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
@@ -285,7 +285,7 @@ seg_definition.xml
   <tr> 
    <td colname="col1"> 모바일 운영 체제(더 이상 사용되지 않음) </td> 
    <td colname="col2"> 모바일 OS </td> 
-   <td colname="col3"> 대신 운영 체제 차원을 사용하고 모바일 장치 세그먼트의 방문을 적용합니다. </td> 
+   <td colname="col3"> 대신 운영 체제 차원을 사용하고 모바일 디바이스 세그먼트의 방문을 적용합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 모바일 Push To Talk </td> 
@@ -323,11 +323,11 @@ seg_definition.xml
 
 | 모바일 제조업체 | 모바일 이메일 길이 | 색상 깊이 |
 |---|---|---|
-| 모바일 화면 크기 | 모바일 장치 번호 | 모니터 해상도 |
+| 모바일 화면 크기 | 모바일 디바이스 번호 | 모니터 해상도 |
 | 모바일 화면 높이 | 모바일 Push To Talk | 플러그인을 사용하는 것이 좋습니다 |
 | 모바일 쿠키 지원 | 모바일 메일 데코레이션 | 운영 체제 |
 | 모바일 이미지 지원 | 모바일 정보 서비스 | 레퍼러 유형 |
-| 모바일 색상 깊이 | 모바일 장치 유형 | 검색 엔진 |
+| 모바일 색상 깊이 | 모바일 디바이스 유형 | 검색 엔진 |
 | 모바일 오디오 지원 | 브라우저 유형 | state |
 | 모바일 비디오 지원 | browser | 지역 - 국가 |
 | 모바일 DRM | 연결 유형 | 지역 - 지역 |
@@ -339,7 +339,7 @@ seg_definition.xml
 
 ## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
-알려진 값 세트를 갖는 정수 기반 차원(예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여줍니다.
+알려진 값 세트를 갖는 정수 기반 차원(예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여 줍니다.
 
 ![](assets/seg_browser_dimension.png)
 
