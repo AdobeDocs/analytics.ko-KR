@@ -3,11 +3,11 @@ description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Wareho
 title: Data Warehouse 세그먼트 기능
 topic: 세그먼트
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, 보고 및 분석 </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <b>차원</b> </td> 
-   <td>세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어 이러한 차원은 Analysis Workspace, 보고 및 분석에서만 지원됩니다. 
+   <td>세그먼트 빌더의 <span class="uicontrol">정의</span> 필드로 차원을 드래그하여 놓아 제품 호환성을 확인합니다. 예를 들어 다음 차원은 Analysis Workspace, Reports &amp; Analytics에서만 지원됩니다. 
     <ul> 
      <li>시작 서버 </li> 
      <li>시작 카테고리 </li> 
