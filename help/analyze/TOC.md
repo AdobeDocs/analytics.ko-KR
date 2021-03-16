@@ -30,7 +30,7 @@ ht-degree: 100%
    + 구성 요소 {#components}
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
       + 차원 {#dimensions}
-         + [차원 미리 보기](analysis-workspace/components/dimensions/view-dimensions.md)
+         + [차원 미리보기](analysis-workspace/components/dimensions/view-dimensions.md)
          + [차원 분류](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [차원 시간 분할](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [지표](analysis-workspace/components/apply-create-metrics.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Power BI에 게시 - 개요](report-builder/c-publish-power-bi/power-bi.md)
       + [제한 사항 및 사양](report-builder/c-publish-power-bi/specifications-limits.md)
       + [수동으로 Power BI에 데이터 가져오기](report-builder/c-publish-power-bi/bi-manually-import-data.md)
-      + [게시된 자산을 Power BI Desktop에 가져오기](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
+      + [게시된 에셋을 Power BI Desktop에 가져오기](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
       + [우수 사례](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 통합 문제 해결](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI용 Adobe Analytics 콘텐츠 팩](report-builder/c-publish-power-bi/integration-power-bi.md)
