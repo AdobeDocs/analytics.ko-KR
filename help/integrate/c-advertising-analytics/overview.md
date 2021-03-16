@@ -1,11 +1,11 @@
 ---
-description: 필요한 권한, 사용 가능한 차원 및 지표 등 Advertising Analytics을 사용하여 할 수 있는 모든 작업을 이 세부 안내서에서 살펴볼 수 있습니다.
-title: Advertising Analytics 안내서
-translation-type: tm+mt
+description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하여 이 상세한 가이드에서 Advertising Analytics로 할 수 있는 모든 작업을 알아보십시오.
+title: Advertising Analytics 가이드
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1282'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 >
 >Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 병합되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.
 
-이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로운 [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
+이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로 [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
 
 ![](assets/aa_aw.png)
 
@@ -92,15 +92,15 @@ Advertising Analytics는 Analysis Workspace, Reports &amp; Analytics, Report Bui
 | 키워드(AMO ID) | 검색 엔진 계정의 키워드 값 |
 | 일치 유형(AMO ID) | 키워드에 할당된 키워드 일치 유형입니다. 일반적으로 값은 광범위, 구문, 정확 또는 없음(광고 유형에 일치 유형이 없는 경우)이 됩니다. |
 | 광고 유형(AMO ID) | 제공되는 광고의 유형이며, 일반적으로 &quot;텍스트 광고&quot;입니다. |
-| 광고 제목(AMO ID) | 광고에 사용된 제목 개체입니다. |
-| 광고 설명(AMO ID) | 광고에서 사용되는 광고 설명 개체입니다. |
-| 광고 표시 URL(AMO ID) | 광고에 사용되는 광고 표시 URL 개체입니다. |
+| 광고 제목(AMO ID) | 광고에 사용된 제목 오브젝트입니다. |
+| 광고 설명(AMO ID) | 광고에서 사용되는 광고 설명 오브젝트입니다. |
+| 광고 표시 URL(AMO ID) | 광고에 사용되는 광고 표시 URL 오브젝트입니다. |
 | 광고 대상 URL(AMO ID) | 광고에 할당된 랜딩 페이지 URL 또는 최종 URL입니다. |
 | 네트워크(AMO ID) | 광고가 게재되는 네트워크입니다. Advertising Analytics의 경우 이 값은 항상 “Search”입니다. |
-| 게재위치(AMO ID) | 관리되는 게재위치 웹 사이트입니다(컨텐츠 네트워크의 경우). 관리되는 게재위치만 이 차원을 사용합니다. |
+| 게재위치(AMO ID) | 관리되는 게재위치 웹 사이트입니다(콘텐츠 네트워크의 경우). 관리되는 게재위치만 이 차원을 사용합니다. |
 | 제품 대상(AMO ID) | PLA 광고에 사용되는 제품 대상 이름입니다(실제 제품을 구매하지 않음). |
 | 최적화(AMO ID) | Advertising Analytics에서는 사용되지 않습니다. Advertising Cloud 고객만 사용합니다. |
-| 장치(AMO ID) | 현재는 사용되지 않습니다. 광고의 지정된 대상 장치 유형(예: 모바일, 데스크탑)에 대한 잠재적 향후 제품 개선을 위한 자리표시자(방문자의 실제 장치가 아님)입니다. |
+| 디바이스(AMO ID) | 현재는 사용되지 않습니다. 광고의 지정된 대상 디바이스 유형(예: 모바일, 데스크탑)에 대한 잠재적 향후 제품 개선을 위한 자리표시자(방문자의 실제 디바이스가 아님)입니다. |
 
 **지표**
 
