@@ -3,11 +3,11 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 및 컨테이너 정보
 topic: 세그먼트
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 98%
 
 세그먼트는 중첩 컨테이너 모델을 사용하여 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트] 수준 계층을 기준으로 합니다. 중첩된 컨테이너를 사용하여 컨테이너 간 규칙 및 컨테이너 내부 규칙에 따라 방문자 속성 및 작업을 정의할 수 있습니다. Analytics 세그먼트는 [!DNL Adobe Experience Cloud]의 여러 제품 및 기능에서 작성, 승인, 공유, 저장 및 실행할 수 있습니다. 보고서에서 세그먼트를 생성하거나, 대시보드 보고서로 작성하거나, 빠른 액세스를 위해 책갈피를 지정할 수 있습니다.
 
-세그먼트 빌더에서 세그먼트를 작성 및 저장하거나 폴아웃 보고서( Analysis Workspace)에서 세그먼트를 생성할 수 있습니다. 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md)로 함께 사용할 수도 있습니다.
+세그먼트 빌더에서 세그먼트를 작성하고 저장하거나 폴아웃 보고서( Analysis Workspace)에서 세그먼트를 생성할 수 있습니다. 중첩된 컨테이너 간 특정 규칙에 따라 미리 작성한 세그먼트를 사용 및 확장하고 결과를 필터링하여 보고서에 적용할 수 있습니다. 또한 세그먼트를 [스택 세그먼트](/help/components/segmentation/segmentation-workflow/seg-workflow.md)로 함께 사용할 수도 있습니다.
 
 ## 세그먼트 {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
-세그먼트는 방문자가 누구인지(국가, 성별, 커피숍), 어떤 장치 및 서비스를 사용하는지(브라우저, 검색 엔진, 모바일 장치), 탐색을 시작한 위치(검색 엔진, 이전 종료 페이지, 자연어 검색) 등을 식별합니다.
+세그먼트는 방문자가 누구인지(국가, 성별, 커피숍), 어떤 디바이스 및 서비스를 사용하는지(브라우저, 검색 엔진, 모바일 디바이스), 탐색을 시작한 위치(검색 엔진, 이전 종료 페이지, 자연어 검색) 등을 식별합니다.
 
 ![](assets/seg.png)
 
 세그먼트는 다음 값을 기반으로 할 수 있습니다.
 
-* 특성 기준 방문자: 브라우저 유형, 장치, 방문 수, 국가, 성별
+* 특성 기준 방문자: 브라우저 유형, 디바이스, 방문 수, 국가, 성별
 * 상호 작용 기준 방문자: 캠페인, 키워드 검색, 검색 엔진
 * 종료 및 시작 기준 방문자: Facebook, 정의된 랜딩 페이지, 참조 도메인의 방문자
 * 사용자 지정 변수 기준 방문자: 양식 필드, 정의된 카테고리, 고객 ID
@@ -56,11 +56,11 @@ ht-degree: 98%
 
 ![](assets/sequential_segmentation_containers_view.png)
 
-순차적 세그먼트는 [!UICONTROL THEN] 연산자를 사용하여 사용자 작업을 기준으로 데이터 세트를 필터링합니다. 
+순차적 세그먼트는 [!UICONTROL THEN] 연산자를 사용하여 사용자 작업을 기준으로 데이터 세트를 필터링합니다.
 
 ## 방법 비디오 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-이 비디오에서는 세그먼트 컨테이너의 의미와 세그먼트 컨테이너를 사용하는 방법에 대한 간단한 개요를 제공합니다.[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)의 세그먼트 컨테이너
+이 비디오는 세그먼트 컨테이너가 정의와 사용 방법에 대한 간략한 개요를 제공합니다. [Adobe Analytics의 세그먼트 컨테이너](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 컨테이너 정보 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -109,7 +109,7 @@ ht-degree: 98%
 
 **논리 그룹 컨테이너**
 
-논리 그룹 컨테이너를 사용하면 세그먼트 규칙 내의 별도 컨테이너를 제공하여 계층 구조를 기반으로 하지 않는 개체들을 필터링할 수 있습니다. 예를 들어, 방문자를 기반으로 필터링을 수행하는 세그먼트 내의 중첩된 컨테이너를 제공할 수 있습니다. 이런 유형의 논리에서는 선택한 방문자들에 대해서만 계층 구조를 세분화하여(이미 최상위 방문자 컨테이너를 가지고 있으므로) 필터링해야 합니다. 이 작업은 논리 그룹 컨테이너를 사용하여 완수할 수 있습니다. 자세한 내용은 [논리 그룹 예](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 참조하십시오.
+논리 그룹 컨테이너를 사용하면 세그먼트 규칙 내의 별도 컨테이너를 제공하여 계층 구조를 기반으로 하지 않는 개체들을 필터링할 수 있습니다. 예를 들어 방문자를 기반으로 필터링을 수행하는 세그먼트 내의 중첩된 컨테이너를 제공할 수 있습니다. 이런 유형의 논리에서는 선택한 방문자들에 대해서만 계층 구조를 세분화하여(이미 최상위 방문자 컨테이너를 가지고 있으므로) 필터링해야 합니다. 이 작업은 논리 그룹 컨테이너를 사용하여 완수할 수 있습니다. 자세한 내용은 [논리 그룹 예](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 참조하십시오.
 
 ## 컨테이너 중첩 {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -156,7 +156,7 @@ Country = United States + Order = True
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-이 컨테이너 계층에 대한 유일한 예외는  [논리 그룹 컨테이너](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 사용하는 경우입니다. [!UICONTROL 논리 그룹] 컨테이너를 통해 이벤트 및 차원 캡처 순서 없이 순차적 순서를 벗어나서 히트를 컨테이너 내에 중첩할 수 있습니다.
+이 컨테이너 계층에 대한 유일한 예외는 [논리 그룹 컨테이너](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 사용하는 경우입니다. [!UICONTROL 논리 그룹] 컨테이너를 통해 이벤트 및 차원 캡처 순서 없이 순차적 순서를 벗어나서 히트를 컨테이너 내에 중첩할 수 있습니다.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -224,7 +224,7 @@ Country = United States + Order = True
 
 데이터의 기본 범위에 따라 세그먼트 컨테이너를 적용하면 라인 항목이 세그먼트 규칙과 일치하는 경우 예상되는 결과가 나타납니다.
 
-* **페이지가 &quot;겨울 코트&quot;인 경우의 히트 컨테이너***: 이 세그먼트를 사용한 페이지 보기 보고서는 &quot;겨울 코트&quot;와 동일한 값만 반환됩니다.* 다른 모든 페이지는 보고에서 제외됩니다.
+* **페이지가 &quot;겨울 코트&quot;인 경우의 히트 컨테이너**: 이 세그먼트를 사용한 *페이지* 보기 보고서는 &quot;겨울 코트&quot;와 동일한 값만 반환됩니다. 다른 모든 페이지는 보고에서 제외됩니다.
 * **시작 페이지가 &quot;겨울 의류&quot;인 방문 컨테이너***: 이 세그먼트를 사용한 시작 페이지 보기 보고서는 해당 시작 페이지가 세그먼트 규칙과 일치하므로 두 번째 방문만 반환합니다.*
 * **방문 수가 1인 경우의 방문 컨테이너**: 첫 번째 방문의 모두 방문 보기 페이지 보기는 세그먼트 규칙과 일치하므로 보고서에 포함됩니다.
 
@@ -249,7 +249,7 @@ Country = United States + Order = True
 
 캠페인 eVar 또는 참조 차원과 같이 페이지 범위에 걸쳐 지속되는 차원별로 수행한 필터링은 컨테이너 수준에서 수집된 데이터에 적용되며, 보고의 정확성 측면에서 이해되어야 합니다.
 
-세그먼트 데이터는 차원의 지속성 또는 선택한 여러 페이지에 적용된 변수에 따라 다를 수 있습니다. 페이지 차원과 같은 일부 차원은 페이지 수준에서 고유한 값을 제공하며 히트 컨테이너의 데이터를 기준으로 필터링됩니다. (자세한 내용은  [컨테이너 데이터 기반 보고서](/help/components/segmentation/seg-overview.md) 예제 참조). 참조 도메인 차원과 같은 기타 차원은 한 번에 방문한 여러 페이지에서 지속됩니다. 일부 차원 또는 적용된 변수(예: Visit Duration)는 방문자의 전체 내역 내에서 그대로 유지됩니다.
+세그먼트 데이터는 차원의 지속성 또는 선택한 여러 페이지에 적용된 변수에 따라 다를 수 있습니다. 페이지 차원과 같은 일부 차원은 페이지 수준에서 고유한 값을 제공하며 히트 컨테이너의 데이터를 기준으로 필터링됩니다. (자세한 내용은 [컨테이너 데이터 기반 보고서](/help/components/segmentation/seg-overview.md) 예제 참조). 참조 도메인 차원과 같은 기타 차원은 한 번에 방문한 여러 페이지에서 지속됩니다. 일부 차원 또는 적용된 변수(예: Visit Duration)는 방문자의 전체 내역 내에서 그대로 유지됩니다.
 
 ![](assets/RefDomain_aol.png)
 
