@@ -1,11 +1,11 @@
 ---
 title: AMP를 사용한 구현
 description: AMP 페이지에서 Adobe Analytics를 구현합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 `"adobeanalytics"` 추적 템플릿은 `<amp-analytics>` HTML 태그를 사용하여 추적 요청을 바로 구성합니다. 페이지 표시 또는 클릭과 같이 특정 페이지 이벤트에서 실행되는 히트 요청을 지정할 수 있습니다. 선택기를 지정하여 특정 요소 ID나 클래스에 적용되도록 클릭 이벤트를 사용자 지정할 수 있습니다. `type="adobeanalytics"`를 amp-analytics 태그에 추가하여 템플릿을 로드할 수 있습니다.
 
-다음의 코드 예제에는 두 개의 트리거(`pageLoad`, `click`)가 정의되어 있습니다. `pageLoad` 트리거는 문서가 표시될 때 실행되며 `vars` 섹션에 정의되어 있는 대로 `pageName` 변수를 포함합니다. 두 번째 트리거인 `click`은 단추를 클릭하면 실행됩니다. `eVar1`은 값이 `button clicked`인 이 이벤트에 대해 설정됩니다.
+다음의 코드 예제에는 두 개의 트리거(`pageLoad`, `click`)가 정의되어 있습니다. `pageLoad` 트리거는 문서가 표시될 때 실행되며 `vars` 섹션에 정의되어 있는 대로 `pageName` 변수를 포함합니다. 두 번째 트리거인 `click`은 버튼을 클릭하면 실행됩니다. `eVar1`은 값이 `button clicked`인 이 이벤트에 대해 설정됩니다.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -78,23 +78,23 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 </amp-analytics>
 ```
 
-`click` 트리거에서는 특정 DOM 요소를 클릭할 때마다(이 경우, 임의 단추 클릭), `buttonClick` 요청이 실행되어 이 히트를 비 링크 추적 호출로 나타내도록 자동으로 설정되게 하는 선택기를 지정할 수 있습니다.
+`click` 트리거에서는 특정 DOM 요소를 클릭할 때마다(이 경우, 임의 버튼 클릭), `buttonClick` 요청이 실행되어 이 히트를 비 링크 추적 호출로 나타내도록 자동으로 설정되게 하는 선택기를 지정할 수 있습니다.
 
 또한, `amp-analytics`에서는 AMP에서 인식하는 데이터 값을 제공할 수 있도록 많은 수의 변수 대체를 지원합니다. 자세한 내용은 GitHub에서 [amp-analytics에서 지원되는 변수](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)를 참조하십시오.
 
 >[!NOTE]
 >
-> 이 방법을 사용하여 Adobe에 보내는 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 자세한 내용은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
+>이 방법을 사용하여 Adobe에 보내는 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 자세한 내용은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
 
 Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `adobe_amp_id`를 설정합니다. 이 방문자 ID는 Adobe Analytics에서 설정한 다른 모든 ID(예: `s_vi` 쿠키)에 대해 고유합니다. Adobe Experience Cloud ID 서비스는 이 구현 방법을 사용하여 지원되지 않습니다.
 
 >[!NOTE]
 >
->AMP는 CDN을 사용하여 컨텐츠를 전달합니다. AMP는 방문자가 컨텐츠를 검색하는 각 CDN에 대해 서로 다른 고유한 방문자를 카운트하도록 구성되어 있어서 고유 방문자 수를 부풀릴 수 있습니다.
+>AMP는 CDN을 사용하여 콘텐츠를 전달합니다. AMP는 방문자가 콘텐츠를 검색하는 각 CDN에 대해 서로 다른 고유한 방문자를 카운트하도록 구성되어 있어서 고유 방문자 수를 부풀릴 수 있습니다.
 
 AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별도의 보고서 세트를 사용하는 것이 좋습니다.
 
-이 솔루션을 사용하려면 `host` 속성에서 지정하는 추적 서버가 주 사이트의 추적 서버와 일치하여 기존의 개인정보 보호정책 제어 사항이 준수되도록 해야 한다는 것입니다. 아니면, AMP를 사용하여 페이지에 대한 개인정보 보호정책을 만드십시오.
+이 솔루션을 사용하려면 `host` 속성에서 지정하는 추적 서버가 주 사이트의 추적 서버와 일치하여 기존의 개인정보 보호정책 제어 사항이 준수되도록 해야 한다는 것입니다. 아니면 AMP를 사용하여 페이지에 대한 개인정보 보호정책을 만드십시오.
 
 ## 방법 2: &quot;adobeanalytics_nativeConfig&quot; 템플릿에서 amp-analytics 태그 사용
 
@@ -158,7 +158,7 @@ AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별
 
 >[!IMPORTANT]
 >
-> `stats.html` 페이지는 AMP 자체가 호스팅되는 도메인과는 별도의 하위 도메인에서 호스팅되어야 합니다. AMP 프레임워크는 AMP 페이지 자체가 존재하고 있는 것과 동일한 하위 도메인의 iframe을 허용하지 않습니다. 예를 들어 AMP가 `amp.example.com`에서 호스팅된다면, `stats.html` 페이지를 반드시 `ampmetrics.example.com`과 같은 별도의 하위 도메인에서 호스팅하십시오.
+>`stats.html` 페이지는 AMP 자체가 호스팅되는 도메인과는 별도의 하위 도메인에서 호스팅되어야 합니다. AMP 프레임워크는 AMP 페이지 자체가 존재하고 있는 것과 동일한 하위 도메인의 iframe을 허용하지 않습니다. 예를 들어 AMP가 `amp.example.com`에서 호스팅된다면 `stats.html` 페이지를 반드시 `ampmetrics.example.com`과 같은 별도의 하위 도메인에서 호스팅하십시오.
 
 이 방법을 사용하면 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 AMP의 추적 또한 옵트 아웃하게 됩니다. 또한 이 유틸리티 페이지를 사용하는 것은 AMP가 Adobe Experience Cloud ID 서비스를 지원할 수 있음을 의미합니다. 별도의 보고서 세트는 필요하지 않습니다.
 
