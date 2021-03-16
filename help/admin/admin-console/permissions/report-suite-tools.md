@@ -1,9 +1,9 @@
 ---
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # 보고서 세트 도구에 대한 제품 프로필 권한
@@ -37,7 +37,7 @@ ht-degree: 98%
 | 처리 규칙 | 보고서 세트 관리자의 일반 > 처리 규칙 및 일반 > 보트 규칙에 대한 액세스 권한을 부여합니다. |
 | Advertising Analytics 구성 | 사용되지 않습니다. |
 | 예외 항목 탐지 | Analysis Workspace에서 예외 항목 탐지에 대한 액세스 권한을 부여합니다. |
-| 기여도 분석 | Analysis Workspace에서 마우스 오른쪽 단추 클릭 메뉴 &#39;기여도 분석 실행&#39;에 대한 액세스 권한을 부여합니다. |
+| 기여도 분석 | Analysis Workspace에서 마우스 오른쪽 버튼 클릭 메뉴 &#39;기여도 분석 실행&#39;에 대한 액세스 권한을 부여합니다. |
 | 채널 보고서 | Reports &amp; Analytics의 마케팅 채널 > 채널 개요 보고서에 대한 액세스 권한을 부여합니다. |
 | 실시간 보고서 | Reports &amp; Analytics의 사이트 지표 > 실시간에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;실시간 보고서 구성&#39;을 사용하여 이 보고서 설정에 대한 액세스 권한을 부여합니다. |
 | 보트 페이지 | Reports &amp; Analytics의 사이트 지표 > 보트 > 보트 페이지 보고서에 대한 액세스 권한을 부여합니다. |
@@ -62,4 +62,4 @@ ht-degree: 98%
 | 사용 요약 리포트릿 | 사용되지 않습니다. |
 | 웹 리소스 | 사용되지 않습니다. |
 | 소셜 | 사용되지 않습니다. |
-| 데이터 복구 API | 데이터 복구 API에 대한 액세스 권한을 부여합니다. |
+| 데이터 복구 API | 데이터 복구 API에 대한 액세스 권한 부여 |
