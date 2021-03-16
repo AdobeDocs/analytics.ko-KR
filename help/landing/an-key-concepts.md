@@ -1,9 +1,9 @@
 ---
 description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 title: Adobe Analytics - 주요 개념
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 100%
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 | 제품 | 설명 | 설명서 링크 |
 | --- | --- | --- |
-| Analysis Workspace | 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여주기 위한 브라우저 솔루션입니다. Reports and Analytics보다 더 많은 보고서 유연성을 제공합니다. | [Analysis Workspace 홈](/help/analyze/analysis-workspace/home.md) |
+| Analysis Workspace | 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여 주기 위한 브라우저 솔루션입니다. Reports and Analytics보다 더 많은 보고서 유연성을 제공합니다. | [Analysis Workspace 홈](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics(이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션. Analytics 패키지의 초급자 도구입니다. | [Reports and Analytics 홈](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Adobe Analytics 데이터에서 사용자 지정 요청을 작성하고 Microsoft Excel을 사용하여 이 요청을 시각화할 수 있는 Excel 추가 기능입니다. | [Report Builder 홈](/help/analyze/report-builder/home.md) |
 | Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [Data Workbench 클라이언트](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 처리되지 않은 원시 데이터입니다. 히트 수준은 아닙니다. | [Data Warehouse 홈](/help/export/data-warehouse/data-warehouse.md) |
-| Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해줍니다. | [Mobile Services 홈](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html) |
+| Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다. | [Mobile Services 홈](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors(이전 Genesis) | 타사 애플리케이션의 추적 데이터를 Analytics로 가져와서 하나의 중앙 위치에서 종단 간 가시성을 제공합니다. 2021년 8월 1일부터 Adobe는 Data Connector 통합을 중단합니다. | [Data Connectors 홈](/help/import/data-connectors/data-connectors-eol.md) |
 | Dynamic Tag Management (DTM) | 도메인 수에 관계없이 모든 사이트의 분석, 타겟 및 기타 태그를 관리할 수 있도록 도와줍니다. | [DTM 홈](/help/implement/other/dtm/dtm-implementation-overview.md) |
 | Adobe Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능. | [Adobe Launch 홈](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html) |
@@ -52,20 +52,20 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | --- | --- | --- |
 | 전체 차원/보고서 목록 | Adobe Analytics에서 사용 가능한 모든 차원/보고서에 대한 정의입니다. | [차원](/help/components/dimensions/overview.md) |
 | Advertising Analytics | Adobe Analytics 내에서 모든 Google 및 Bing 유료 검색 데이터를 나란히 분석합니다. 통합을 통해 생성된 차원에는 광고 플랫폼, 키워드, 일치 유형 등이 포함됩니다. 생성된 지표는 AMO 노출 횟수, AMO 클릭 수, AMO 비용, 평균 위치 및 평균 품질 점수입니다. | [Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md) |
-| Audience Analytics | AAM에서 사용자 대상 멤버십으로 수신 Analytics 히트를 풍부하게 합니다. 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터와 같은 AAM 대상 데이터를 Analytics 워크플로우에 통합할 수 있습니다. 이 통합을 통해 생성된 차원은 대상 ID 및 대상자 이름입니다. | [Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
-| 속성 IQ | 고객 움직임에서 어떻게 의미 있는 참여가 발생하는지를 이해하여 고객을 타겟 결과로 이끄는 변곡점을 지능적으로 식별하며 마케팅 이니셔티브를 효과적으로 최적화할 수 있도록 해줍니다. 모델에는 첫 번째, 마지막, 선형, 기여도, j자형, 역 j자형, u자형, 동일 터치, 사용자 지정 및 시간 감소가 포함됩니다. | [속성 IQ](/help/analyze/analysis-workspace/c-panels/attribution.md) |
+| Audience Analytics | AAM에서 사용자 대상 멤버십으로 수신 Analytics 히트를 풍부하게 합니다. 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터와 같은 AAM 대상 데이터를 Analytics 워크플로에 통합할 수 있습니다. 이 통합을 통해 생성된 차원은 대상 ID 및 대상자 이름입니다. | [Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
+| 속성 IQ | 고객 움직임에서 어떻게 의미 있는 참여가 발생하는지를 이해하여 고객을 타겟 결과로 이끄는 변곡점을 지능적으로 식별하며 마케팅 이니셔티브를 효과적으로 최적화할 수 있도록 해 줍니다. 모델에는 첫 번째, 마지막, 선형, 기여도, j자형, 역 j자형, u자형, 동일 터치, 사용자 지정 및 시간 감소가 포함됩니다. | [속성 IQ](/help/analyze/analysis-workspace/c-panels/attribution.md) |
 | 예외 항목 탐지 | 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법. AD(예외 항목 탐지)는 Analysis Workspace의 모든 트렌드 시각화에 대해 기본적으로 켜져 있습니다. | [예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | 기여도 분석 | 사용자가 액세스하는 모든 개별 지표 및 차원에 대해 자동화된 분석을 실행함으로써 예외 항목이 발생하는 &quot;원인&quot;을 탐구합니다. | [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
 | 집단 분석 | 집단은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 사용자의 유지 및 이탈을 분석하는 데 도움이 됩니다. | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |
 | 고객 움직임 보고서 | 사용자가 사이트 또는 앱을 통해 이동하는 경로에 대한 정보를 표시합니다. Analysis Workspace에서 이 분석을 하는 데 Prop, eVar 및 이벤트를 사용할 수 있습니다. | [Analysis Workspace 폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 흐름](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 경로](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 마케팅 채널 | 사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. 이것은 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다(캠페인이나 트래픽 소스보다 선호됨). | [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
-| 모바일 | 모바일 장치나 태블릿에서 액세스한 웹 사이트에 대한 정보를 표시합니다. | [모바일 보고서](/help/components/dimensions/mobile-dimensions.md) |
-| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  [여기](https://mobilemarketing.adobe.com)에서 인터페이스에 액세스합니다. | [Adobe Mobile Services](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html) |
+| 모바일 | 모바일 디바이스나 태블릿에서 액세스한 웹 사이트에 대한 정보를 표시합니다. | [모바일 보고서](/help/components/dimensions/mobile-dimensions.md) |
+| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  [여기](https://mobilemarketing.adobe.com)에서 인터페이스에 액세스합니다. | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | 제품 | 개별 제품 및 제품 그룹(카테고리)이 매출액 또는 체크아웃 횟수와 같은 다양한 전환 지표에 기여하는 정도를 알 수 있습니다. | [제품 보고서](/help/components/dimensions/product.md) |
 | 세그먼트 비교 | 사용자가 액세스하는 모든 개별 지표 및 차원에 대한 자동화된 분석을 통해 세그먼트 간의 통계적으로 가장 유의미한 차이를 알아냅니다. | [세그먼트 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
-| 사이트 컨텐츠 보고서 | 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다. | [사이트 컨텐츠 보고서](/help/components/dimensions/page.md) |
+| 사이트 콘텐츠 보고서 | 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다. | [사이트 콘텐츠 보고서](/help/components/dimensions/page.md) |
 | 사이트 지표 보고서 | 고유 방문자, 주문, 매출 등과 같은 웹 사이트에 대한 정량적 정보를 표시합니다. 각 지표는 항목 기반의 다른 보고서에서 대체될 수 있습니다. | [사이트 지표 보고서](/help/components/metrics/overview.md) |
-| 방문자 프로필 | 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 프로필 범주에 속하는 고객의 구매 패턴을 보여주는 보고서입니다. | [방문자 프로필](/help/components/dimensions/language.md) |
+| 방문자 프로필 | 국가, 주, ZIP/우편 번호 및 도메인과 같은 다양한 프로필 범주에 속하는 고객의 구매 패턴을 보여 주는 보고서입니다. | [방문자 프로필](/help/components/dimensions/language.md) |
 | 방문자 유지 | 사이트로 돌아오는 방문자의 수와 돌아오는 빈도와 같은, 고객 충성도에 대한 정보를 표시합니다. | [방문자 유지](/help/components/dimensions/customer-loyalty.md) |
 | 프로젝트 링크, 공유 및 예약 | Analytics 인터페이스에서 작업을 저장하거나 다른 사람과 공유하는 방법입니다. | [파일 보내기 및 예약](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md) |
 
@@ -105,7 +105,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 
 | 방법/리소스 | 설명 | 설명서 링크 |
 | --- | --- | --- |
-| 개발자 리소스 | 모든 사용 가능한 플랫폼(웹, 모바일 앱, 동영상, 플래시 등)에 걸쳐서 Analytics 데이터를 수집하는 데 사용할 수 있는 라이브러리에 대해 대략적으로 설명하는 설명서입니다. | [개발자 설명서](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 개발자 리소스 | 모든 사용 가능한 플랫폼(웹, 모바일 앱, 비디오, 플래시 등)에 걸쳐서 Analytics 데이터를 수집하는 데 사용할 수 있는 라이브러리에 대해 대략적으로 설명하는 설명서입니다. | [개발자 설명서](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](/help/implement/home.md) |
 | App Measurement(s_code) | 전역 변수 관리 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
@@ -113,4 +113,4 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | VISTA | 수집된 데이터를 변경하거나 세그먼트화하는 서버측 로직을 적용할 수 있습니다. | [VISTA 규칙](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 처리 규칙 | Analytics UI에서 변수를 설정, 수정 및 복사하여 수집된 데이터를 변경하는 기능. | [처리 규칙](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | 디버거 옵션 | Adobe Experience Cloud 디버거를 비롯하여 구현의 유효성을 확인하는 데 도움이 될 수 있는 디버거 및 패킷 스니퍼에는 몇 가지가 있습니다. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ko-KR) |
-| 데이터 삽입 API | 데이터 삽입 API는 서버측 데이터 수집과 Experience Cloud 서버에 데이터를 제출하기 위한 메커니즘을 제공합니다. 서버측 데이터 수집에서는 각 웹 페이지에서 JavaScript 비콘을 사용하여 방문자 데이터를 Experience Cloud 서버에 전송하는 대신 웹 브라우저 요청과 웹 서버 응답만 기준으로 해서 데이터를 수집합니다. | [POST를 사용하여 Adobe Analytics 데이터 삽입 API를 구현하는 절차](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
+| 데이터 삽입 API | 데이터 삽입 API는 서버측 데이터 수집과 Experience Cloud 서버에 데이터를 제출하기 위한 메커니즘을 제공합니다. 서버측 데이터 수집에서는 각 웹 페이지에서 JavaScript 비콘을 사용하여 방문자 데이터를 Experience Cloud 서버에 전송하는 대신 웹 브라우저 요청과 웹 서버 응답만 기준으로 해서 데이터를 수집합니다. | [POST를 사용하여 Adobe Analytics 데이터 삽입 API를 구현하는 절차](https://helpx.adobe.com/kr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
