@@ -1,18 +1,18 @@
 ---
 description: 대상 데이터를 제공, 공유 및 사용하는 방법입니다.
 solution: Experience Cloud
-title: 워크플로우 개요
+title: 워크플로 개요
 uuid: 211e079b-46ee-4238-856d-7cac40620717
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
 ht-degree: 100%
 
 ---
 
 
-# 워크플로우 개요
+# 워크플로 개요
 
 대상 데이터를 제공, 공유 및 사용하는 방법입니다.
 
