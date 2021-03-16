@@ -3,9 +3,9 @@ description: 세그먼트를 삭제하기 전에 알아야 하는 몇 가지 고
 title: 세그먼트 삭제
 topic: 세그먼트
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
 ht-degree: 100%
 
