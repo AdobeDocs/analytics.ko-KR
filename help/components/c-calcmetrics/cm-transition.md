@@ -2,11 +2,11 @@
 description: 계산된 지표가 Analytics에서 작동하는 방식에 대한 다음의 변경 사항은 사용자에게 영향을 줄 수 있습니다.
 title: FAQ
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 98%
 
 (이전에는 관리자가 관리자 도구를 통해 보고서 세트에서 계산된 지표(&quot;전역 계산된 지표&quot; 또는 &quot;보고서 세트 계산된 지표&quot;로 알려짐)를 만들 수도 있었습니다.
 
-전역 계산된 지표는 이제 로그인 회사의 관리자 사용자 목록의 첫 번째 관리자 사용자가 소유합니다. 이러한 지표는 기본적으로 &quot;모든 사람&quot;과 공유됩니다. 이 패턴은 세그먼트와 동일한 공유 모델 및 마이그레이션 계획들을 따릅니다.
+전역 계산된 지표는 이제 로그인 회사의 관리자 사용자 목록의 첫 번째 관리자 사용자가 소유합니다. 이러한 지표는 기본적으로 &quot;모든 사람&quot;과 공유됩니다. 이 패턴은 세그먼트와 동일한 공유 모델 및 마이그레이션 플랜을 따릅니다.
 
 **해야 할 작업**
 
@@ -118,7 +118,7 @@ ht-degree: 98%
 
 이제 Numeric 또는 Numeric2 분류를 사용하는 계산된 지표는 [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] 및 API에서 계속 볼 수 있습니다. 하지만, 세그먼트가 적용된 모든 보고서에서 지원되지 않습니다.
 
-또한 Numeric 또는 Numeric2 분류를 사용하는 계산된 지표는 다음 구성 요소에서 지원되지 않습니다.[!UICONTROL Analysis Workspace], [!UICONTROL 실시간] 보고서, [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]. Numeric 또는 Numeric2 분류를 사용하는 계산된 지표를 만들거나 편집할 때에는 계산된 지표가 특정 제품 영역과 호환하지 않는다는 호환성 경고가 표시됩니다.
+또한 [!UICONTROL Analysis Workspace], [!UICONTROL 실시간] 보고서, [!UICONTROL 예외 항목 탐지], [!UICONTROL 기여도 분석]과 같은 구성 요소에서는 Numeric 또는 Numeric2 분류를 사용하는 계산된 지표가 지원되지 않습니다. Numeric 또는 Numeric2 분류를 사용하는 계산된 지표를 만들거나 편집할 때에는 계산된 지표가 특정 제품 영역과 호환하지 않는다는 호환성 경고가 표시됩니다.
 
 **해야 할 작업**
 
@@ -132,7 +132,7 @@ ht-degree: 98%
 
 ## 일별/주별/월별/분기별/연간 고유 방문자 지표를 기반으로 한 계산된 지표에 대해 무엇을 알아야 합니까?{#section_E9A77EBB41CE4881B196CC1C282B2DF3}
 
-고유 방문자 수 지표를 기반으로 하는 계산된 지표는 [!DNL Analytics] 구성 요소인 [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] 그리고 보고 API에 표시됩니다.
+고유 방문자 수 지표를 기반으로 하는 계산된 지표는 [!DNL Analytics] 구성 요소인 [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] 및 Reporting API에 표시됩니다.
 
 하지만 이 지표들은 [!UICONTROL 세그먼트], [!UICONTROL Analysis Workspace], [!UICONTROL 실시간] 보고서, [!UICONTROL 예외 항목 탐지] 및 [!UICONTROL 기여도 분석]과 같은 구성 요소에서는 지원되지 않게 됩니다. 고유 방문자 수 지표를 기반으로 하는 계산된 지표를 만들거나 편집할 때 이 지표가 특정 제품 영역과 호환하지 않는다는 호환성 경고가 표시됩니다.
 
@@ -140,9 +140,9 @@ ht-degree: 98%
 
 ## 이전 보고서 세트 API 메서드로 만들어지거나 관리된 계산된 지표는 어떻게 됩니까? {#section_13ED1BAD02634674BDAEB479B060A4B6}
 
-이전에는, (1.3 또는 1.4) API 메서드 ReportSuite.SaveCalculatedMetrics로 계산된 지표를 저장하는 것은 관리자 콘솔에서 계산된 지표를 만들거나 업데이트하는 것과 같았습니다. ReportSuite.DeleteCalculatedMetrics도 마찬가지였습니다. 또한, 관리자 콘솔에 표시되었거나 ReportSuite.GetCalculatedMetrics를 호출할 때의 계산된 지표 목록은 같았습니다.
+이전에는, (1.3 또는 1.4) API 메서드 ReportSuite.SaveCalculatedMetrics로 계산된 지표를 저장하는 것은 Admin Console에서 계산된 지표를 만들거나 업데이트하는 것과 같았습니다. ReportSuite.DeleteCalculatedMetrics도 마찬가지였습니다. 또한, Admin Console에 표시되었거나 ReportSuite.GetCalculatedMetrics를 호출할 때의 계산된 지표 목록은 같았습니다.
 
-이제, ReportSuite CalculatedMetrics API 메서드(1.3 또는 1.4)는 이전 스토어를 사용하여 계속하여 계산된 지표를 저장, 삭제 및 검색하게 됩니다. 기존의 계산된 지표는 새로운 계산된 지표 빌더를 통해 마이그레이션되며 이 빌더에서 볼 수 있게 됩니다. **API 메서드에서 만들어진 새 계산된 지표는 API에서만 볼 수 있게 됩니다. 이 지표는 여전히 보고 API에서 사용할 수 있습니다.**
+이제, ReportSuite CalculatedMetrics API 메서드(1.3 또는 1.4)는 이전 스토어를 사용하여 계속하여 계산된 지표를 저장, 삭제 및 검색하게 됩니다. 기존의 계산된 지표는 새로운 계산된 지표 빌더를 통해 마이그레이션되며 이 빌더에서 볼 수 있게 됩니다. **API 메서드에서 만들어진 새 계산된 지표는 API에서만 볼 수 있게 됩니다. 이 지표는 여전히 Reporting API에서 사용할 수 있습니다.**
 
 **해야 할 작업**
 
@@ -176,7 +176,7 @@ API와 계산된 지표 빌더를 모두 사용해야 할 경우에는 ReportSui
 
 (이전에는, 모든 계산된 지표가 첫 번째 터치 및 마지막 터치 옵션이 있는 마케팅 채널 보고서의 지표 선택기에 나열되었습니다.)
 
-이제는, 계산된 지표 빌더에서 첫 번째 터치 또는 마지막 터치로 특별히 설정된 할당 유형이 있는 이러한 계산된 지표만 마케팅 채널 보고서의 지표 선택기에서 사용할 수 있게 됩니다. 이미 마케팅 채널 보고서에 적용된 모든 계산된 지표는 전과 같이 계속 적용되고 작동합니다. 마케팅 채널을 위한 계산된 지표를 만들려면, 지표 빌더에서 구성 아이콘을 클릭하고 할당 유형으로서 첫 번째 터치나 마지막 터치를 선택하십시오. 이렇게 하면 마케팅 채널 보고서와만 호환하는 계산된 지표가 만들어지고 다른 보고서에서는 이 지표를 사용할 수 없다는 것을 잊지 마십시오.
+이제는, 계산된 지표 빌더에서 첫 번째 터치 또는 마지막 터치로 특별히 설정된 할당 유형이 있는 이러한 계산된 지표만 마케팅 채널 보고서의 지표 선택기에서 사용할 수 있게 됩니다. 이미 마케팅 채널 보고서에 적용된 모든 계산된 지표는 전과 같이 계속 적용되고 작동합니다. 마케팅 채널을 위한 계산된 지표를 만들려면 지표 빌더에서 구성 아이콘을 클릭하고 할당 유형으로서 첫 번째 터치나 마지막 터치를 선택하십시오. 이렇게 하면 마케팅 채널 보고서와만 호환하는 계산된 지표가 만들어지고 다른 보고서에서는 이 지표를 사용할 수 없다는 것을 잊지 마십시오.
 
 ## 왜 일부 계산된 지표는 내가 추가한 괄호가 없는 채로 공식을 표시합니까? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
