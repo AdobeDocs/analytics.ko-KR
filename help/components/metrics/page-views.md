@@ -1,18 +1,18 @@
 ---
-title: '페이지 보기 횟수 지표 설명 | Adobe Analytics '
-description: 페이지 보기 지표가 Adobe Analytics에서 어떻게 작성되는지 알아보고 페이지 보기와 방문 횟수 간의 차이에 대해 이해합니다.
-translation-type: tm+mt
+title: '페이지 조회수 지표 설명 | Adobe Analytics '
+description: Adobe Analytics에서 페이지 조회수 지표가 어떻게 작동하는지 알아보고 페이지 조회수와 방문수의 차이를 파악하십시오.
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics을 사용한 페이지 보기 횟수 알아보기
+# Adobe Analytics를 페이지 조회수에 대해 알아보기
 
-페이지 보기 수 지표는 주어진 차원 항목이 페이지에 설정되거나 지속된 횟수를 보여줍니다. 보고서에서 가장 일반적이고 기본적인 지표 중 하나입니다.
+페이지 보기 수 지표는 주어진 차원 항목이 페이지에 설정되거나 지속된 횟수를 보여 줍니다. 보고서에서 가장 일반적이고 기본적인 지표 중 하나입니다.
 
 ## 이 지표의 계산 방법
 
