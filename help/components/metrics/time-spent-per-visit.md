@@ -1,11 +1,11 @@
 ---
 title: 방문당 체류 시간
 description: 차원 항목에 대한 방문당 체류 시간입니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *이 도움말 페이지에서는 &#39;방문당 체류 시간&#39;이 지표로 작동하는 방식을 설명합니다. 자세한 내용은 [방문당 체류 시간](../dimensions/time-spent-per-visit.md) 차원을 참조하십시오.*
 
-방문당 체류 시간(초) 지표는 방문자가 각 방문 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여줍니다.
+방문당 체류 시간(초) 지표는 방문자가 각 방문 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여 줍니다.
 
 이 지표는 처리 아키텍처가 달라서 Data Warehouse에서는 사용할 수 없습니다.
 
