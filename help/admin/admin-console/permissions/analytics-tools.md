@@ -1,9 +1,9 @@
 ---
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '547'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Analytics 도구에 대한 제품 프로필 권한
@@ -29,13 +29,13 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | 공동 브랜딩 | 더 이상 사용되지 않습니다. 관리자 > 회사 설정 > 공동 브랜딩에 대한 액세스 권한을 부여합니다. |
 | 기본 설정 | 사용되지 않습니다. |
 | 보고서 세트 숨기기 | 관리자 > 회사 설정 > 보고서 세트 숨기기에 대한 액세스 권한을 부여합니다. 보고서 세트 액세스 권한에 상관없이 조직에서 보고서 세트를 숨길 수 있는 권한을 부여합니다. |
-| Excel 라이센스 사용자 | 사용되지 않습니다. |
+| Excel 라이선스 사용자 | 사용되지 않습니다. |
 | Activity Map | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
 | 현재 데이터 | Reports &amp; Analytics 보고서에서 현재 데이터를 보는 옵션을 활성화합니다. |
-| Ad Hoc Analysis 라이선스 사용자 | Ad Hoc Analysis은 사용이 중단되었습니다. [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오. |
+| Ad Hoc Analysis 라이선스 사용자 | Ad Hoc Analysis 서비스가 중단되었습니다. [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오. |
 | 모바일 앱 관리 | 사용되지 않습니다. |
 | 웹 서비스 액세스 | 타사 사이트에서의 인증 및 API 호출 전송을 포함하여 API를 사용할 수 있는 권한을 부여합니다. |
-| Report Builder | 도구 > Report Builder 아래의 다운로드 단추를 활성화하고 사용자가 Microsoft Excel 내에서 인증할 수 있도록 합니다. |
+| Report Builder | 도구 > Report Builder 아래의 다운로드 버튼을 활성화하고 사용자가 Microsoft Excel 내에서 인증할 수 있도록 합니다. |
 | Analysis Workspace 액세스 | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹(기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |
 | Reports &amp; Analytics 액세스 | Reports &amp; Analytics에 액세스할 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹(기본 설정)에 속해야 합니다. |
 | Analysis Workspace: 템플릿으로 저장 | Analysis Workspace 내에서 프로젝트 > 템플릿으로 저장에 대한 액세스 권한을 부여합니다. |
