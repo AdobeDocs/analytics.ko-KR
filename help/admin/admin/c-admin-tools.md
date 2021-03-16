@@ -2,9 +2,9 @@
 description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->동일한 브라우저에서 관리자 탭을 여러 개 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어, 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
+>동일한 브라우저에서 관리자 탭을 여러 개 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
 
 + [과금](billing-admin.md)
 + [보트 규칙 개요](bot-removal/bot-rules.md)
@@ -41,7 +41,7 @@ ht-degree: 100%
 + [게시 목록](publishing-list.md)
 + [게시 위젯](publishing-widgets-admin.md)
 + [기본 설정 관리자](preferences-manager.md)
-+ [개인 정보 설정](privacy-settings.md)
++ [개인 정보 보호 설정](privacy-settings.md)
 + [처리 규칙 개요](c-processing-rules/processing-rules.md)
 + [실시간 보고서 개요](realtime/realtime.md)
 + [예약된 보고서 큐](scheduled-reports-admin.md)
