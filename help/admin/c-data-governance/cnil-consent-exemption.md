@@ -2,10 +2,10 @@
 description: 디바이스 또는 브라우저에서 필수적이지 않은 쿠키를 저장하거나 읽기 위한 사용자 동의에 대한 가이드라인 및 권장 사항에 대해 살펴보십시오.
 title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입니까
 translation-type: tm+mt
-source-git-commit: 36259e3a36cad221d7264e5caa0a09a757dc4fe8
+source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 83%
+source-wordcount: '637'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 83%
 * 13개월 쿠키 제한은 롤링이 아니라 정적 날짜로 설정됩니다.  `cookieLifetime` 변수를 사용하여 분석 쿠키 만료를 재정의할 수 있습니다.  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=ko-KR)
 * 제한적 범위. 쿠키의 범위는 단일 사이트 또는 애플리케이션으로 제한되어야 합니다. [브라우저 쿠키](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=ko-KR&quot;\l&quot;third-party-cookie-implementations)
 * 익명화. IP 주소의 마지막 옥텟을 익명화합니다. [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ko-KR)
-* 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)에 의해 제한될 수 있습니다.
+* 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)에 의해 제한될 수 있습니다. 및 [데이터 피드 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
 * 지리적 위치 매개 변수. 지리적 위치는 우편 번호 수준보다 정확할 수 없습니다. [우편 번호 옵션](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=ko-KR&quot;\l&quot;zip-in-adobe-experience-platform-launch) 및 [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ko-KR&quot;\l&quot;admin-tools)
 * 옵트인 옵션 설정.  옵트인 서비스를 사용하면 방문자가 사용자의 사이트를 방문할 때 사용자의 디바이스 또는 브라우저에 쿠키를 설정할 수 있는지 확인할 수 있도록 프로토콜을 설정할 수 있습니다. [옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)
 * 데이터 공유 방지.  Adobe Audience Manager에 대한 데이터 공유를 금지하려면 `opt.dmp` [개인 정보 보고 변수](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=ko-KR&quot;\l&quot;variables)에 대해 컨텍스트 변수를 사용하여 히트가 공유되지 않도록 차단합니다.
@@ -33,7 +33,7 @@ ht-degree: 83%
 
 * 세그멘테이션, 가상 보고서 세트를 위해 옵트아웃 데이터와 옵트아웃 데이터를 구분하거나 별도의 종단점으로 라우팅하려면 Analytics 변수에서 옵트인 상태를 수집하는 것을 고려하십시오.
 * 사전 동의 없이 사이트 또는 앱 외부에서 측정하지 않습니다. 예를 들어 오프사이트 캠페인, 이메일 캠페인 또는 iFrame이 금지됩니다.
-* 사용자 동의 없이는 개인 정보 변수의 수집이 허용되지 않습니다.
+* 사용자 동의 없이는 개인 정보 변수의 수집이 허용되지 않습니다. [사용자 동의에 따라 Experience Cloud 활동 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22implementation#implementation)
 * 데이터는 다른 데이터와 결합하지 않고 익명 통계를 생성하는 데만 사용됩니다.
 * 데이터는 상호 참조 작업에 사용되지 않습니다.
 * GPS 지리적 위치 데이터는 수집되지 않습니다.
