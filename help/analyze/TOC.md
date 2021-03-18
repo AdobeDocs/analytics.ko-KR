@@ -5,10 +5,10 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,6 +120,7 @@ ht-degree: 100%
          + [경고 빌더](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [경고 관리자](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + [사용자 환경 설정](analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [FAQ](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
