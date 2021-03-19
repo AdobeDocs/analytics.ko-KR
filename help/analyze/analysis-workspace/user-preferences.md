@@ -2,10 +2,10 @@
 title: Analysis Workspace에서 사용자 환경 설정을 지정하는 방법
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 프로젝트 환경 설정
 
-프로젝트 환경 설정은 Analysis Workspace에서 만든 새 패널과 새 프로젝트에 적용됩니다.환경 설정은 작업 공간 > 프로젝트 > 프로젝트 정보 및 설정에서 프로젝트별로 관리할 수도 있습니다.
+프로젝트 환경 설정은 Analysis Workspace에서 만든 새 패널과 새 프로젝트에 적용됩니다.환경 설정은 [!UICONTROL 작업 공간] > [!UICONTROL 프로젝트] > [!UICONTROL 프로젝트 정보 및 설정]에서 프로젝트별로 관리할 수도 있습니다.
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
@@ -42,5 +42,5 @@ ht-degree: 0%
 |  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>가장 최근(기본값)</li><li>특정 - 목록에서 선택</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | **[!UICONTROL 이번 달]**(기본값)을 포함한 기본 날짜 범위 목록 |
 |  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>자유 형식(기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
-|  | 숫자 형식 | <ul><li>1,000.00(기본값)</li><li>1.000,000</li><li>1 000,000</li></ul> |
+|  | 번호 형식 | <ul><li>1,000.00(기본값)</li><li>1.000,000</li><li>1 000,000</li></ul> |
 |  | CSV 구분 기호 | <ul><li>쉼표(기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
