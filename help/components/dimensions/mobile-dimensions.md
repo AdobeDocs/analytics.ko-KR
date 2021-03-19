@@ -1,11 +1,11 @@
 ---
 title: 모바일 차원
-description: 장치의 사용자-에이전트 문자열을 기반으로 하는 차원입니다.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+description: 장치의 IP 주소를 기반으로 하는 Dimension.
+translation-type: tm+mt
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 100%
 
 ## 데이터로 이 차원 채우기
 
-이 차원은 Adobe 내부 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 `User-Agent` HTTP 헤더를 기반으로 합니다. Adobe는 사용자 에이전트와 모바일 차원 간 조회를 유지 관리하기 위해 [DeviceAtlas](https://deviceatlas.com/)와 파트너 관계를 맺고 있습니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 모든 모바일 차원이 즉시 작동합니다.
+이 차원은 Adobe 내부 조회 규칙을 참조합니다. [!UICONTROL 모바일 ] 캐리어 조회는 NetAccess(디지털 요소 제품)에서 얻은 데이터를 사용하여 IP 주소로 결정됩니다.
+AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 모든 모바일 차원이 즉시 작동합니다.
 
 ## 모바일 차원 설명
 
