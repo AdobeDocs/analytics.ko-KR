@@ -1,10 +1,10 @@
 ---
-title: null
-description: null
+title: 전체 처리 데이터 소스의 수명 종료
+description: 벌크 데이터 삽입 API와 전체 처리 데이터 소스 간의 비교 및 실행이 종료되는 이유.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '732'
 ht-degree: 13%
 
 ---
