@@ -2,10 +2,10 @@
 title: p_fo(첫 번째 페이지만)
 description: 특정 루틴이 페이지당 한 번만 실행되도록 합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v2.0 */
-s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo[on]={};return!0};
+/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v3.0 (Requires AppMeasurement) */
+function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c){a=b;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.p_fo="3.0");window.__fo||(window.__fo={});if(window.__fo[c])return!1;window.__fo[c]={};return!0};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -82,6 +82,10 @@ if(s.p_fo("myobject"))
 **참고:** 새 페이지 개체/DOM이 로드되거나 현재 페이지가 다시 로드될 때마다 on 인수에 지정된 개체가 더 이상 존재하지 않으므로 페이지 로드가 완료된 후 처음 실행될 때 p_fo 플러그인은 다시 true를 반환합니다.
 
 ## 버전 기록
+
+### 3.0(2021년 3월 19일)
+
+* 컨텍스트 데이터로 버전 번호를 추가했습니다.
 
 ### 2.0
 
