@@ -10,13 +10,14 @@ getting-started-url: https://helpx.adobe.com/kr/analytics/get-started.html
 tutorials-title: 자습서
 tutorials-url: https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.ko-KR
-type: Documentation
+type: 설명서
 index: true
-translation-type: ht
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
-workflow-type: ht
-source-wordcount: '135'
-ht-degree: 100%
+description: 보고서에서 사용자 안내선 TOC.md 파일로 전달되는 보고서 수준 메타데이터를 포함합니다.
+translation-type: tm+mt
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 90%
 
 ---
 
