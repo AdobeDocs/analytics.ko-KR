@@ -1,11 +1,11 @@
 ---
 title: getPreviousValue
 description: 변수에 전달된 마지막 값을 가져옵니다.
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 99%
 
 ---
 
@@ -50,9 +50,8 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여 넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
-/******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPreviousValue v2.0 */
-s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setTime(b.getTime()+18E5);s.c_r(c)&&(d=s.c_r(c)); v?s.c_w(c,v,b):s.c_w(c,d,b);return d};
+/* Adobe Consulting Plugin: getPreviousValue v3.0 */
+function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviousValue",version:"3.0"};var a=function(){if("undefined"!==typeof window.s_c_il)for(var c=0,b;c<window.s_c_il.length;c++)if(b=window.s_c_il[c],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof a&&(a.contextData.getPreviousValue="3.0");window.cookieWrite=window.cookieWrite||function(c,b,f){if("string"===typeof c){var h=window.location.hostname,a=window.location.hostname.split(".").length-1;if(h&&!/^[0-9.]+$/.test(h)){a=2<a?a:2;var e=h.lastIndexOf(".");if(0<=e){for(;0<=e&&1<a;)e=h.lastIndexOf(".",e-1),a--;e=0<e?h.substring(e):h}}g=e;b="undefined"!==typeof b?""+b:"";if(f||""===b)if(""===b&&(f=-60),"number"===typeof f){var d=new Date;d.setTime(d.getTime()+6E4*f)}else d=f;return c&&(document.cookie=encodeURIComponent(c)+"="+encodeURIComponent(b)+"; path=/;"+(f?" expires="+d.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(c)===b:!1}};window.cookieRead=window.cookieRead||function(c){if("string"===typeof c)c=encodeURIComponent(c);else return"";var b=" "+document.cookie,a=b.indexOf(" "+c+"="),d=0>a?a:b.indexOf(";",a);return(c=0>a?"":decodeURIComponent(b.substring(a+2+c.length,0>d?b.length:d)))?c:""};var l;d=d||"s_gpv";a=new Date;a.setTime(a.getTime()+18E5);window.cookieRead(d)&&(l=window.cookieRead(d));k?window.cookieWrite(d,k,a):window.cookieWrite(d,l,a);return l};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -134,6 +133,10 @@ s.t();
 s.t() 호출 함수가 실행되면, s.pageName=&quot;page 2&quot;이고 s.prop7이 &quot;happy value&quot;인 이미지 요청이 만들어집니다. 이때  &quot;happy value&quot;는 getPreviousValue에 대한 마지막 호출이 수행되었을 때 s.pageName의 값이었습니다. s.pageName에 전달된 첫 번째 값이 &quot;home&quot;이지만 &quot;home&quot;이라는 s.prop7 값은 어떠한 실제 이미지 요청에도 포함되지 않았습니다.
 
 ## 버전 기록
+
+### 3.0(2021년 3월 19일)
+
+* 컨텍스트 데이터로 버전 번호를 추가했습니다.
 
 ### v2.0(2019년 10월 7일)
 
