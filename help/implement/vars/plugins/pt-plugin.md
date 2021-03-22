@@ -2,10 +2,10 @@
 title: pt
 description: 변수 목록에 대해 함수를 실행합니다.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '602'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: pt v2.01 */
- s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: pt v3.0 */
+function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var c;a<window.s_c_il.length;a++)if(c=window.s_c_il[a],c._c&&"s_c"===c._c){a=c;break a}}a=void 0}if("undefined"!==typeof a&&(a.contextData.pt="3.0",b&&a[f])){b=b.split(d||",");d=b.length;for(var e=0;e<d;e++)if(c=a[f](b[e],g))return c}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -74,7 +74,7 @@ Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용
 다음 코드는 getQueryParam 플러그인의 일부입니다. 이 코드는 URL의 쿼리 문자열(fullQueryString)에 들어 있는 각 키-값 쌍에 대해 getParameterValue 도우미 함수를 실행합니다. 각 키-값 쌍을 추출하려면 fullQueryString을 앰퍼샌드 &quot;&amp;&quot; 문자로 구분하여 분리해야 합니다. parameterKey는 플러그인이 쿼리 문자열에서 특별히 추출하려고 하는 쿼리 문자열 매개 변수를 참조합니다.
 
 ```javascript
-returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
+returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
 위의 줄은 다음과 유사한 코드를 실행하는 간단한 방법입니다.
@@ -91,6 +91,10 @@ for(var i = 0; i < parametersLength; i++)
 ```
 
 ## 버전 기록
+
+### 3.0(2021년 3월 19일)
+
+* 컨텍스트 데이터로 버전 번호를 추가했습니다.
 
 ### 2.01(2019년 9월 24일)
 
