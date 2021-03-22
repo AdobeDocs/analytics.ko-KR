@@ -1,11 +1,11 @@
 ---
 title: Analysis Workspace에서 사용자 환경 설정을 지정하는 방법
-description: null
+description: 하나의 중앙 위치에서 랜딩 페이지와 프로젝트 참조를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 17%
+source-wordcount: '220'
+ht-degree: 16%
 
 ---
 
