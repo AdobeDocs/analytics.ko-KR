@@ -1,12 +1,12 @@
 ---
-description: 작업 공간 프로젝트에서 흐름 시각화를 사용합니다.
+description: Workspace 프로젝트에서 플로우 시각화를 사용합니다.
 title: 흐름 개요
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
