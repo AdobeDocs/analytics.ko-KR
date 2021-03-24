@@ -7,8 +7,8 @@ user-guide-description: '데이터를 일괄 방식 또는 실시간으로 외�
 translation-type: tm+mt
 source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 96%
       + [Demandbase 표준 차원](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Demandbase 사용자 지정 차원](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Adobe Analytics용 DFA Data Connector {#dfa}
-      + [DFA 통합 종단 정보](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
+      + [DFA 통합 서비스 종료 정보](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Adobe Analytics용 DFA Data Connector](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [전제 조건](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [통합 기능](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
@@ -130,5 +130,5 @@ ht-degree: 96%
       + [Analytics 통합 변수](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 통합](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics 플러그인 코드](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ 사용 사례 가져오기 {#use-cases}
-   + [Data Sources를 사용하여 유료 검색 지표 가져오기](use-cases/paid-search-metrics.md)
++ 가져오기 사용 사례 {#use-cases}
+   + [데이터 소스를 사용하여 유료 검색 지표 가져오기](use-cases/paid-search-metrics.md)
