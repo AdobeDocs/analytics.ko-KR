@@ -1,12 +1,12 @@
 ---
-description: 세그먼트와 관련된 문제 해결 및 수정
+description: 세그먼트와 관련된 문제를 해결 및 수정합니다.
 title: 세그먼테이션 문제 해결
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 * 보고서가 세그먼테이션을 지원하지 않습니다.
 * 세그멘테이션 기준과 일치하는 데이터가 없습니다.
 
-## 왜 내가 세그먼트 관리자에서 만든 세그먼트가 표시되지 않습니까?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## 왜 내가 세그먼트 관리자에서 만든 세그먼트가 표시되지 않습니까? {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 가능한 원인:
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 * 세그먼트가 저장되지 않았습니다.
 * IP 주소가 사용자 측에서 차단되어 있을 수 있습니다.
 
-## 세그먼트 적용 후 표시된 페이지 데이터가 왜 잘못되어 보입니까?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## 세그먼트 적용 후 표시된 페이지 데이터가 왜 잘못되어 보입니까? {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 가능한 원인:
 
