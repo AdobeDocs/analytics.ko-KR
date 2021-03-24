@@ -1,11 +1,11 @@
 ---
-description: 모든 시각화를 위한 시작점으로 빈 패널을 만듭니다.
+description: 시각화의 시작 지점으로 빈 패널을 만듭니다.
 title: 빈 패널
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
