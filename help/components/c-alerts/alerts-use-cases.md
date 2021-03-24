@@ -1,12 +1,12 @@
 ---
-description: 지능형 경고를 만들고 관리하는 데 사용 사례
+description: 지능형 경고 생성 및 관리에 대한 활용 사례.
 title: 지능형 경고 - 활용 사례
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Update screenshots for better readability.
 
 ## 표 선택에서 경고 만들기 {#section_AE6D42E1255D498D908A2FA60370A419}
 
-이제 자유 형식 테이블에서 표 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 선택 항목으로 경고 만들기를 선택하여 컨텍스트 내 경고를 만들 수 있습니다]**.
+이제 자유 형식 테이블에서 표 행을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 선택 항목으로 경고 만들기를 선택하여 컨텍스트 내 경고를 만들 수 있습니다]**.
 
 ![](assets/alert_selection.png)
 
