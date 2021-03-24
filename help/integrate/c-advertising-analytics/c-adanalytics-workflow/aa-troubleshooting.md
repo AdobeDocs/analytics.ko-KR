@@ -1,12 +1,12 @@
 ---
-description: Advertising Analytics 관련 문제 해결 및 수정
+description: Advertising Analytics와 관련된 문제를 해결 및 수정합니다.
 title: Advertising Analytics 문제 해결
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
