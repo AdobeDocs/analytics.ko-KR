@@ -2,11 +2,11 @@
 description: Advertising Analytics에서 계정을 관리합니다.
 title: 광고 계정 관리
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 96%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 이름  </p> </td> 
+   <td colname="col1"> <p>이름 </p> </td> 
    <td colname="col2"> <p>이 광고 계정에 지정한 이름입니다. </p> </td> 
   </tr> 
   <tr> 
