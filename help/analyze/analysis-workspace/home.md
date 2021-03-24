@@ -1,11 +1,11 @@
 ---
-title: Analysis Workspace 소개 및 사용 방법
-description: Analysis Workspace은 Adobe Analytics의 최고의 분석 툴입니다. 패널, 표, 시각화 및 기타 구성 요소를 사용하여 데이터를 보다 생동감 있게 만들고 데이터 세트를 조정하며 프로젝트를 공유 및 예약할 수 있습니다.
-translation-type: tm+mt
+title: Analysis Workspace란 무엇이며 어떻게 사용할 수 있습니까?
+description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 도구입니다. 여러 다른 기능들이 있지만 특히, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터에 생명을 불어넣고, 데이터 세트를 큐레이팅하고, 프로젝트를 공유 및 예약할 수 있습니다.
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](http://ex
 
 ![](assets/login-analytics.png)
 
-## 교육 자습서 사용 {#training-tutorial}
+## 교육 튜토리얼 사용 {#training-tutorial}
 
-로그인하고 나면 먼저 Workspace에서 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내하는 Analysis Workspace 교육 자습서를 방문하여야 합니다. 자습서를 시작하려면 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭한 다음 새 프로젝트 모달 내에서 **교육 자습서**&#x200B;를 선택합니다.
+로그인하고 나면 먼저 Workspace에서 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내하는 Analysis Workspace 교육 튜토리얼을 방문해야 합니다. 튜토리얼을 시작하려면 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭한 다음 새 프로젝트 모달 내에서 **교육 튜토리얼**&#x200B;을 선택합니다.
 
 ![](assets/training-tutorial.png)
 
 ## 새 프로젝트 만들기 {#new-project}
 
-자습서가 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
+튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
 
 ![](assets/create-new-project.png)
 
@@ -44,7 +44,7 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ### 구성 요소
 
-**구성 요소**&#x200B;는 차원, 지표, 세그먼트 또는 날짜 범위입니다. 모두 비즈니스 질문에 답변하기 위해 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 결합할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)할 수 있습니다.
+**구성 요소**&#x200B;는 차원, 지표, 세그먼트 또는 날짜 범위입니다. 모두 비즈니스 질문에 답변하기 위해 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 결합할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)할 수 있습니다.
 
 ![](assets/build-components.png)
 
@@ -62,5 +62,5 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ## 추가 리소스 {#resources}
 
-* Adobe는 수백 개의 [분석 비디오 교육 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)를 제공합니다.
+* Adobe는 수백 개의 [분석 비디오 교육 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html)을 제공합니다.
 * 새로운 기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
