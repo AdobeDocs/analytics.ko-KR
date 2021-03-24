@@ -1,12 +1,12 @@
 ---
-description: 작업 공간 프로젝트에서 가로 막대 시각화를 사용합니다.
+description: Workspace 프로젝트에서 가로 막대 시각화를 사용합니다.
 title: 가로 막대 및 스택 가로 막대
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 ## 가로 막대형 {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
 
-이 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여줍니다.
+이 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다.
 
 ![](assets/horizontal_bar.png)
 
