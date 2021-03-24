@@ -1,5 +1,5 @@
 ---
-description: 세그멘테이션에 대한 FAQ
+description: 세분화에 대해 자주 묻는 질문.
 title: FAQ
 topic: 세그먼트
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만, 관리자는 [세그먼트를 만들 수 있는 권한](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](/help/components/segmentation/seg-reference/seg-rights.md)
 
