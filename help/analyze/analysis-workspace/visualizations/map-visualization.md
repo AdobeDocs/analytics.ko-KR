@@ -1,12 +1,12 @@
 ---
-description: 작업 공간 프로젝트에서 맵 시각화를 사용합니다.
+description: Workspace 프로젝트에서 맵 시각화를 사용합니다.
 title: 맵
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 Analysis Workspace의 맵 시각화
 
-* 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해줍니다.
+* 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 줍니다.
 * 지리적으로 다른 지역들의 지표 데이터를 식별하고 비교하는 데 유용합니다.
 * 모바일 사용에 따른 위도/경도 또는 웹 사용을 위한 지리적 차원, 이렇게 2가지 데이터 소스를 지원할 수 있습니다.
 * PDF 내보내기를 지원합니다.
@@ -36,7 +36,7 @@ Analysis Workspace의 맵 시각화
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>모바일 위도/경도</b> </p> </td> 
-   <td colname="col2"> <p>이 옵션은 모바일 앱 데이터를 나타냅니다. </p> <p><span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">&lt;보고서 세트 선택&gt;</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">모바일 관리</span> &gt; <span class="uicontrol">위치 추적 활성화</span></span>에서 보고서 세트에 대해 이 선택 사항을 활성화한 경우에만 이 선택 사항이 표시됩니다. </p> <p>기본 설정입니다(위치 추적이 활성화된 경우). </p> </td> 
+   <td colname="col2"> <p>이 옵션은 모바일 앱 데이터를 나타냅니다. </p> <p><span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">&lt;보고서 세트 선택&gt;</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">모바일 관리</span> &gt; <span class="uicontrol">위치 추적 활성화</span></span>에서 보고서 세트에 대해 이 옵션을 활성화한 경우에만 이 옵션이 표시됩니다. </p> <p>기본 설정입니다(위치 추적이 활성화된 경우). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>지역 차원</b> </p> </td> 
@@ -53,7 +53,7 @@ Analysis Workspace의 맵 시각화
 
 1. 이제
 
-   * **확대/축소** - 맵을 두 번 클릭하거나 스크롤 휠을 사용하여 특정 영역을 확대하도록 이 맵을 확대할 수 있습니다. 맵은 커서를 놓은 위치에 따라 확대됩니다. 확대/축소 상호 작용을 통해 확대/축소 수준에 따라 필요한 차원(국가 > 시/도 > 구/군/시)이 자동으로 업데이트됩니다.
+   * **확대/축소** - 맵을 더블 클릭하거나 스크롤 휠을 사용하여 특정 영역을 확대하도록 이 맵을 확대할 수 있습니다. 맵은 커서를 놓은 위치에 따라 확대됩니다. 확대/축소 상호 작용을 통해 확대/축소 수준에 따라 필요한 차원(국가 > 시/도 > 구/군/시)이 자동으로 업데이트됩니다.
    * **비교** - 동일한 프로젝트에서 두 개 이상의 맵 시각화를 나란히 배치하여 비교할 수 있습니다.
    * **기간별(예: 연도별) 비교 표시**:
 
@@ -84,7 +84,7 @@ Analysis Workspace의 맵 시각화
 |--- |--- |
 | 버블 | 버블을 사용하여 이벤트를 그립니다. 버블 차트는 산포도와 비례 영역 차트의 중간에 있는 다중 변수 그래프입니다. 이 보기가 기본 보기입니다. |
 | 히트맵 | 히트맵을 사용하여 이벤트를 그립니다. 히트맵은 표에 포함된 개별 값이 색상으로 표현되는 데이터 그래픽 표현입니다. |
-| 스타일: 색상 테마 | 히트맵 및 버블의 색상 구성표를 보여줍니다. 코랄, 빨강, 녹색, 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
+| 스타일: 색상 테마 | 히트맵 및 버블의 색상 구성표를 보여 줍니다. 코랄, 빨강, 녹색, 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
 | 스타일: 맵 스타일 | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택할 수 있습니다. |
 | 클러스터 반경 | 지정된 픽셀 수 내에 있는 데이터 포인트를 그룹화합니다. 기본값은 50입니다. |
-| 사용자 지정 최대 값 | 맵의 최대 값에 대한 임계값을 변경할 수 있도록 해줍니다. 이 값을 조정하면 설정된 사용자 지정 최대 값에 비례하여 버블/히트맵 값(색상 및 크기)의 크기가 조정됩니다. |
+| 사용자 지정 최대 값 | 맵의 최대 값에 대한 임계값을 변경할 수 있도록 해 줍니다. 이 값을 조정하면 설정된 사용자 지정 최대 값에 비례하여 버블/히트맵 값(색상 및 크기)의 크기가 조정됩니다. |
