@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: 인스턴스 개체에서 다음 값을 지웁니다. 이 함수는 요소를 제거합니다(요소를 "정의되지 않음"으로 설정).
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+description: 추적 개체에서 변수 값을 지웁니다.
+translation-type: tm+mt
+source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 95%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 이 메서드는 인수를 사용하지 않으며 값을 반환하지 않습니다. 인스턴스 개체에서 변수 값을 지우는 것이 이 메서드의 유일한 목적입니다. 이 메서드는 다음 요소를 `undefined`로 설정합니다.
 
 * `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
-* `list1` - `list3`
+* `eVar` -  `eVar250`
+* `hier1` -  `hier5`
+* `list1` -  `list3`
 * `events`
 * `products`
 * `channel`
