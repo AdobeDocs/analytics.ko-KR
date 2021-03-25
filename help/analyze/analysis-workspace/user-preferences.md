@@ -2,9 +2,9 @@
 title: Analysis Workspace에서 사용자 환경 설정을 지정하는 방법
 description: 하나의 중앙 위치에서 랜딩 페이지와 프로젝트 참조를 설정할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
+source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '224'
 ht-degree: 27%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 27%
 
 # 사용자 환경 설정
 
-[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서 사용자에 대한 Analysis Workspace 설정 및 관련 구성 요소를 관리할 수 있습니다. 사용자 환경 설정은 모든 *new* 프로젝트 또는 패널에 적용됩니다.
+[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서 사용자 수준에서 Analysis Workspace 및 관련 구성 요소에 대한 설정을 관리할 수 있습니다. 사용자 환경 설정은 모든 *new* 프로젝트 또는 패널에 적용됩니다.
 
 ![사용자 환경 설정](assets/user-preferences.png)
 
