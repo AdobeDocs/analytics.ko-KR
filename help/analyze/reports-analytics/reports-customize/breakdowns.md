@@ -1,10 +1,14 @@
 ---
 description: 보고서 항목 또는 세그먼트가 다른 보고서와 관련되는 방식에 대해 자세히 알아보려면 분류를 사용하십시오. 이러한 경우 특정 보고서를 다른 보고서로 “분류한다”고 합니다.
 title: 분류
-topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
 
 만약에 *`Referrer Type`*&#x200B;별로 보고서를 분류할 경우 *`Inside Your Site`*&#x200B;에 대한 데이터 포인트가 표시될 수 있습니다. 이 값은 내부 URL 필터 목록에 있는 레퍼러 페이지를 나타냅니다. 관리 참조에서 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)를 확인하십시오.
 
-Analytics 변수(eVar 또는 prop)는 다른 변수로 분류할 수 있습니다. The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
+Analytics 변수(eVar 또는 prop)는 다른 변수로 분류할 수 있습니다. 보고서 테이블의 **[!UICONTROL 분류 기준]** 메뉴는 표준 Analytics 보고 메뉴와 일치하여 선택 사항을 일관되게 유지합니다.
 
 ## 분류 보고서 실행을 참조하십시오 {#task_F685624830E64C829C8BE6435A107F69}
 
@@ -29,11 +33,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. > **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**&#x200B;같은 보고서를 엽니다.
-1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**&#x200B;로 이동하여 보고서를 엽니다.
+1. 보고서 테이블에서 **[!UICONTROL 분류 기준]** 아이콘을 클릭합니다.
 
-   If the **[!UICONTROL Breakdown By]** icon is not visible, the feature is either not available or not enabled.
+   **[!UICONTROL 분류 기준]** 아이콘이 보이지 않을 경우 이 기능은 사용할 수 없으며 또는 활성화되지 않습니다.
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.
+   **[!UICONTROL 분류 기준]** 메뉴는 현재 보고서에 사용할 수 있는 모든 분류 옵션을 표시합니다.
