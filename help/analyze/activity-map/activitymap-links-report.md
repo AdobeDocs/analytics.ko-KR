@@ -1,13 +1,14 @@
 ---
 description: 링크 보고서는 현재 페이지에서 찾은 링크에 대해 보고합니다. 이 보고서는 해당 페이지에 대해 수집한 모든 링크에 대해 보고하지는 않습니다.
 title: 링크 보고서
-topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 99%
 
 ---
 
