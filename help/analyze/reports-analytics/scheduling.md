@@ -2,13 +2,14 @@
 description: 보고서 예약, 다운로드 및 배포에 대한 정보입니다.
 subtopic: Schedule
 title: 보고서 예약 및 배포
-topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1661'
-ht-degree: 100%
+feature: 보고서, Reports & Analytics
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1668'
+ht-degree: 99%
 
 ---
 
