@@ -1,10 +1,12 @@
 ---
 description: Analysis Workspace에서 시각화 색상 팔레트를 사용하는 방법
 title: 시각화 색상 팔레트란 무엇이며 어떻게 작동합니까?
-translation-type: ht
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
-workflow-type: ht
-source-wordcount: '214'
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
