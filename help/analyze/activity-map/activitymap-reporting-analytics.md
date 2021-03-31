@@ -1,13 +1,14 @@
 ---
 description: Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 방법에 대해 설명합니다.
 title: Analytics에서의 Activity Map 보고
-topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +34,7 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 | Activity Map 페이지 | 링크를 클릭한 페이지를 나열합니다. |
 | Activity Map 영역 | 전체 웹 사이트에서 수집한 모든 링크 영역을 나열합니다. 영역이 여러 페이지에 나타나는 경우, 지표가 모든 해당 페이지에 대해 집계됩니다. |
 | Activity Map 링크 | 전체 웹 사이트에서 수집한 모든 링크를 나열합니다. |
-| Activity Map 링크 및 영역 | 전체 웹 사이트에서 해당 영역으로 수집한 모든 링크를 나열합니다. |
+| Activity Map 링크 및 영역 | 전체 웹 사이트에서 해당 영역과 함께 수집된 모든 링크를 나열합니다. |
 | Activity Map XY | 사용 안 함 |
 
 * 이러한 차원은 Analysis Workspace, Reports &amp; Analytics, Report Builder에서 사용할 수 있어야 합니다(Analytics 구현이 [Activity Map에 활성화된 경우](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)).
