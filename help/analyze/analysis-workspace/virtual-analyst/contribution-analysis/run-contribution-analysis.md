@@ -2,11 +2,13 @@
 description: Workspace 프로젝트에서 기여도 분석 보고서를 실행합니다.
 title: 기여도 분석 실행
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+feature: AI 툴
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 99%
 
 ---
 
