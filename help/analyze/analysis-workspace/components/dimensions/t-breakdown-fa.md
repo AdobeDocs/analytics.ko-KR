@@ -2,13 +2,14 @@
 description: Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 keywords: Analysis Workspace
 title: 차원 분류
-topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 88%
+source-wordcount: '233'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +31,7 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
    >
    >테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
-[Analysis Workspace에서 프로젝트에 Dimension 및 지표 추가](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[Analysis Workspace에서 프로젝트에 Dimension 및 지표 추가](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
 [자유 형식 테이블에서 Dimension 작업](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
