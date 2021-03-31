@@ -2,10 +2,12 @@
 description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '8206'
+source-wordcount: '8211'
 ht-degree: 99%
 
 ---
