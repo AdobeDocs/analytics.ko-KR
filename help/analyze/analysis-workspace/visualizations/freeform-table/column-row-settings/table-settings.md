@@ -2,11 +2,13 @@
 description: 행 설정은 테이블로 드래그한 구성 요소에 따라 다릅니다.
 title: 행 설정
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
+feature: 자유 형식 테이블
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 99%
 
 ---
 
