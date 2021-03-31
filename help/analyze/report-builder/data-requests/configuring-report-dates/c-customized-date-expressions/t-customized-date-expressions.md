@@ -1,10 +1,14 @@
 ---
 description: 사용자 지정 표현식을 만들어 복합적인 날짜 범위를 지정할 수 있습니다.
 title: 사용자 지정된 날짜 표현식 - 개요
-topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 30%
 
 ---
 
@@ -17,23 +21,23 @@ source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
 
 **사용자 지정 표현식을 활성화하는 방법**
 
-이 예는 를 사용하는 **[!UICONTROL Rolling Dates]**&#x200B;예입니다.
+이것은 **[!UICONTROL 롤링 날짜]**&#x200B;를 사용하는 예입니다.
 
-1. 를 사용하는 [!UICONTROL Request Wizard: Step 1]대신 **[!UICONTROL Preset Dates]**&#x200B;에서 을 선택합니다 **[!UICONTROL Rolling Dates]**.
+1. [!UICONTROL 요청 마법사에서:1단계], **[!UICONTROL 사전 설정 날짜]**&#x200B;를 사용하는 대신 **[!UICONTROL 롤링 날짜]**&#x200B;를 선택합니다.
 
    ![](assets/rolldates1.png)
 
-1. 주별, 월별, 분기별 또는 연간으로 전환할 수 있습니다. 아래 옵션이 어떻게 변경되는지 확인하십시오.
-1. 추가 사용자 정의 옵션을 보려면 을 클릭합니다 **[!UICONTROL Show Advanced Options]**.
+1. 주별, 월별, 분기별 또는 연도별로 전환합니다. 아래 옵션이 어떻게 변경되었는지 확인하십시오.
+1. 추가 사용자 정의 옵션을 보려면 **[!UICONTROL 고급 옵션 표시]**&#x200B;를 클릭합니다.
 
    ![](assets/rolldates2.png)
 
-1. 예를 들어, 위의 날짜를 3개월 전 첫 번째 날부터 이번 달의 첫 번째 날로 변경하는 경우, 사전 옵션 부분에 있는 날짜는 이를 반영하도록 자체적으로 업데이트됩니다.
+1. 예를 들어 3개월 전 첫 날부터 이번 달 첫 번째 날로 위의 날짜를 월별로 변경하면 고급 옵션 부분에 있는 날짜가 다음을 반영하도록 자체적으로 업데이트됩니다.
 
    ![](assets/rolldatesfor3.png)
 
-1. 활성화 **[!UICONTROL Customize Expression]**. 아래에서 옵션을 선택하면 사용자 지정 날짜 표현식의 구문을 쉽게 볼 수 **[!UICONTROL Rolling Dates]**&#x200B;있습니다.
+1. **[!UICONTROL 표현식 사용자 지정]**&#x200B;을 활성화합니다. **[!UICONTROL 롤링 날짜]** 아래의 옵션을 선택하면 사용자 지정 날짜 표현식에 대한 구문을 쉽게 볼 수 있습니다.
 
    ![](assets/rolldatesfor5.png)
 
-   고급 옵션을 사용하여 사용자 지정 날짜 표현식을 혼합하고 일치시킬 수 있습니다. 예를 들어 연도의 첫 번째부터 마지막 전체 월의 끝까지 데이터를 보려면 다음을 입력할 수 있습니다. `From: cy``To: cm-1d`5. 마법사에서 이러한 날짜는 2020년 1월 1일/1/31/2020으로 표시됩니다.
+   고급 옵션을 사용하여 사용자 지정 날짜 표현식을 혼합하고 일치시킬 수 있습니다. 예를 들어 연도의 첫 번째 데이터와 마지막 전체 월의 마지막 끝까지 데이터를 보려면 다음을 입력할 수 있습니다.`From: cy` `To: cm-1d` 마법사에서 해당 날짜는 1/1/2020-1/31/2020으로 표시됩니다.
