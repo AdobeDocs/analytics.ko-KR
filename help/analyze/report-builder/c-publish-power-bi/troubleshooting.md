@@ -2,11 +2,13 @@
 description: Power BI에서 Report Builder을 사용할 때 발생하는 일반적인 문제
 title: Power BI 통합 문제 해결
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 3aae3b00db1d7f720641ed5ccbefd8acc03460e3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 51%
+source-wordcount: '375'
+ht-degree: 50%
 
 ---
 
@@ -35,10 +37,10 @@ Report Builder 요청을 Power BI에 게시한 후 시각화가 손상될 수 �
 * 지표나 차원 변경과 같은 요청을 Report Builder에서 편집한 다음, Power BI에 다시 게시했습니다. 요청을 편집하면 시각화가 손상될 수 있습니다.
 * 시각화에 사용된 요청을 삭제했습니다.
 
-## 조직 리소스에 액세스하려면 Report Builder이 인증되어야 합니다. 이 액세스 권한은 관리자만 부여할 수 있습니다. 관리자에게 권한을 요청하십시오.
+## 조직 리소스에 액세스하려면 Report Builder을 인증해야 합니다. 이 액세스 권한은 관리자만 부여할 수 있습니다. 관리자에게 권한을 요청하십시오.
 
-Microsoft 관리자가 아래 있는 &quot;사용자가 응용 프로그램을 등록할 수 있음&quot; 설정을 검토하도록 합니다. **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure]** Active Directory **[!UICONTROL >]**&#x200B;사용자 설정은 옵션을 허용합니다. 이 옵션을 아니요로 설정하면 해당 관리자가 이러한 유형의 애플리케이션을 등록할 수 있습니다.
+Microsoft 관리자가 아래 있는 &quot;사용자가 응용 프로그램을 등록할 수 있음&quot; 설정을 검토하도록 합니다.**[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 사용자 설정은 옵션]**&#x200B;을 허용합니다. 이 옵션을 아니요로 설정하면 해당 관리자가 이러한 유형의 애플리케이션을 등록할 수 있습니다.
 
-사용자는 다음 [링크를 사용하여 액세스 권한을 부여할 수 있습니다](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+사용자는 다음 [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)을 사용하여 액세스 권한을 부여할 수 있습니다.
 
-관리자는 다음 [링크를 사용하여 모든 사용자에 대한 액세스 권한을 부여받았습니다](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+관리자는 다음 [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)을 사용하여 모든 사용자에 대한 액세스 권한을 부여받았습니다.
