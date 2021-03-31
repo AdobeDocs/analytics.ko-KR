@@ -2,10 +2,12 @@
 description: Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
 title: 지표
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '257'
 ht-degree: 85%
 
 ---
@@ -33,7 +35,7 @@ Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니�
 
 ## 다양한 속성 모델과 지표 비교
 
-If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
+한 속성 모델을 빠르고 쉽게 다른 속성 모델과 비교하려면 지표를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 속성 모델 비교]**&#x200B;를 선택합니다.
 
 ![속성 비교](assets/compare-attribution.png)
 
