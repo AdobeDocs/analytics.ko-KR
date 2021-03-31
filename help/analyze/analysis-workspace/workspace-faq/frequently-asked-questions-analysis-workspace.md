@@ -2,12 +2,13 @@
 description: Analysis Workspace에 대한 시스템 요구 사항입니다.
 keywords: Analysis Workspace
 title: 관리 요구 사항
-topic: Reports and Analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: ht
-source-git-commit: 26620ed59941721d65bdf57d0971a6e02eb01648
-workflow-type: ht
-source-wordcount: '148'
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
