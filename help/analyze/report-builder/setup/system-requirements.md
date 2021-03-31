@@ -1,10 +1,14 @@
 ---
 description: 시스템 권장 사항 및 필수 조건입니다.
 title: 시스템 요구 사항
-topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 95%
 
 ---
 
