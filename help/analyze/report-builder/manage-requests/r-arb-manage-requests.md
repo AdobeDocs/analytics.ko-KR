@@ -1,13 +1,14 @@
 ---
 description: Report Builder의 요청 관리를 위한 필드 설명
 title: 요청 관리 - 정의
-topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +38,7 @@ Report Builder의 요청 관리를 위한 필드 설명
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>모든 시트 </p> </td> 
+   <td colname="col1"> <p>모두 시트 </p> </td> 
    <td colname="col2"> <p>활성화 상태의 통합 문서에 있는 모든 시트의 요청을 표시합니다. 특정 시트의 요청을 보려면 이 선택 사항은 끄십시오. 이 선택 사항을 끄면 Excel 보고서의 하단에서 시트 탭을 클릭하여 <span class="wintitle">Request Manager</span>의 해당 시트와 관련된 요청을 표시해야 합니다. 확인란 옆에 있는 레이블은 통합 문서에서 현재 표시된 시트를 가리킵니다. </p> </td> 
   </tr> 
   <tr> 
