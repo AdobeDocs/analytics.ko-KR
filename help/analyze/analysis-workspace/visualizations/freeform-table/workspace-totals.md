@@ -1,11 +1,13 @@
 ---
 description: 작업 공간 합계를 계산하는 방법.
 title: 작업 공간 합계
+feature: 자유 형식 테이블
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 97%
+source-wordcount: '519'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +27,9 @@ ht-degree: 97%
 
 ![](assets/column-settings-total.png)
 
-## 정적 행 합계 설정 {#static-row-total}
+## 정적 행 합계 설정  {#static-row-total}
 
-[정적 행](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) 합계는 별도로 동작하며 **[!UICONTROL 행 설정]**&#x200B;에서 제어합니다.
+[정적 행](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) 합계는 별도로 동작하며 **[!UICONTROL 행 설정]**&#x200B;에서 제어합니다.
 
 * **[!UICONTROL 현재 행의 합계를 합계로 표시]** - 테이블에서 행의 클라이언트측 합계를 보여 주므로 이것은 합계가 방문 또는 방문자와 같은 지표에 대한 중복 제거를 수행하지 **않음**&#x200B;을 의미합니다.
 * **[!UICONTROL 총계 표시]** - 서버측 합계를 보여 줍니다. 이것은 합계가 방문 또는 방문자와 같은 지표에 대한 중복 제거를 수행함을 의미합니다.
