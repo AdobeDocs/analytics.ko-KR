@@ -1,11 +1,13 @@
 ---
 description: 자유 형식 패널에 대해 알아봅니다
 title: 자유 형식 패널
-translation-type: ht
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
-workflow-type: ht
-source-wordcount: '24'
-ht-degree: 100%
+feature: 패널
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 89%
 
 ---
 
