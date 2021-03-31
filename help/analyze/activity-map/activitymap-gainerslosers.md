@@ -1,13 +1,14 @@
 ---
 description: 오버레이는 페이지에 있는 링크들의 인기도를 쉽게 보고 이해할 수 있도록 데이터 시각화를 구성하는 여러 방법을 제공합니다.
 title: 사용자 지정 가능 오버레이
-topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '359'
+ht-degree: 99%
 
 ---
 
