@@ -1,11 +1,13 @@
 ---
 description: 빠른 인사이트는 새로운 작업 공간 사용자가 데이터 테이블 및 시각화 작성을 안내하는 도구입니다
 title: 빠른 인사이트 패널
-translation-type: ht
-source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
-workflow-type: ht
-source-wordcount: '1048'
-ht-degree: 100%
+feature: 패널
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1052'
+ht-degree: 99%
 
 ---
 
