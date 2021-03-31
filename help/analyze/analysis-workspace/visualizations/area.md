@@ -2,11 +2,13 @@
 description: 이 Workspace는 선 그래프 모양이며 선 아래에 색칠된 영역이 있습니다.
 title: 영역 및 스택 영역
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: ht
-source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
-workflow-type: ht
-source-wordcount: '99'
-ht-degree: 100%
+feature: 시각화
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
