@@ -1,13 +1,14 @@
 ---
 description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
-topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '2358'
-ht-degree: 100%
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '2364'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +96,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://docs.adobe.com/content/h
 
 페이지 흐름 보고서는 방문자가 페이지를 액세스하여 사이트를 탐색하는 순서를 보여줍니다. 이 보고서는 응답하는 데 도움이 됩니다.
 
-Analysis Workspace에서 새 [흐름 시각화](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)를 확인하십시오!
+Analysis Workspace에서 새 [흐름 시각화](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)를 확인하십시오!
 
 [경로](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) 보고서를 실행합니다.
 
@@ -153,7 +154,7 @@ Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https:/
 
 >[!NOTE]
 >
->Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)를 참조하십시오.
 
@@ -182,7 +183,7 @@ Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https:/
         <li id="li_4090357A0D214BC7B1C3DE0615875554">하한과 예상 값이 동일하면 편차 비율은 –100%입니다. </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">그 외의 경우 편차 비율은 ((하한 값 – 실제 값)/(예상 값 – 하한 값)) * -100입니다. </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html"  >추가 정보</a>. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  >추가 정보</a>. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60"><span class="uicontrol">지표 편집</span>을 클릭하면 예외 항목을 탐지할 지표를 선택하거나 선택 취소할 수 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
