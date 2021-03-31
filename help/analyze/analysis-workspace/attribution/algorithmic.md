@@ -1,11 +1,13 @@
 ---
 title: 알고리즘 속성
 description: 알고리즘 속성 모델에 대한 세부 사항입니다.
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+feature: 속성
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 98%
 
 ---
 
