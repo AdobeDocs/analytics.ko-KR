@@ -2,10 +2,14 @@
 description: 책갈피를 이용하여 가장 많이 사용하는 보고서에 액세스할 수 있습니다. 사용자가 만드는 책갈피는 Experience Cloud에 추가되고 Data Connectors와 같은 통합 기능에서 사용할 수 있습니다.
 subtopic: Bookmarks
 title: 북마크 관리자
-topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +28,7 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. 보고서를 실행한 다음 **[!UICONTROL 책갈피]**&#x200B;를 클릭합니다.
 
        |이름|이 책갈피에 대해 알기 쉬운 이름으로 지정합니다.|
        |---|---|
@@ -34,7 +38,7 @@ t_bookmarks_creating.xml
    
 ## 책갈피 관리 {#task_1EE793CB52EA467787817BBD98DEF150}
 
-After you create report bookmarks, you can manage them in the [!UICONTROL Bookmark Manager]. 중앙에서 책갈피와 폴더를 편집, 삭제 및 구성할 수 있습니다. 
+보고서 책갈피를 만든 후에 [!UICONTROL 책갈피 관리자]에서 해당 책갈피를 관리할 수 있습니다. 중앙에서 책갈피와 폴더를 편집, 삭제 및 구성할 수 있습니다. 
 
 <!-- 
 
@@ -42,7 +46,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
+**[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 책갈피]**.
 
 **내 책갈피**
 
