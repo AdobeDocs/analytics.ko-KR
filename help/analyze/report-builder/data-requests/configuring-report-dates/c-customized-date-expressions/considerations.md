@@ -1,10 +1,14 @@
 ---
 description: '사용자 지정 표현식을 사용하여 날짜 범위를 설정할 때의 두 가지 고려 사항 '
 title: 사용자 지정 날짜 고려 사항
-topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 99%
 
 ---
 
@@ -18,13 +22,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 데이터의 가용성은 보고서의 시간대와 보고서에서 요청을 새로 고치는 날짜 모두에 민감하므로 보고서를 적절한 날에 실행하여 원하는 정보를 추출하도록 하십시오. 아래의 예는 이 두 가지 고려 사항을 모두 보여줍니다.
 
-Assume you make a request for [!UICONTROL Page Views] using Aggregated granularity. 북미에서는 일주일이 일요일에 시작됩니다. 일요일부터 토요일까지의 기간(예: 2008년 11월 23일-11월 29일)에 대해 새로 고쳐진 보고서를 획득하려면 일요일(11월 30일)에 이전 주(11/23-11/29)에 대해 보고서를 실행합니다(요청을 새로 고침).
+집계된 세부기간을 사용하여 [!UICONTROL 페이지 뷰 수]에 대한 요청을 한다고 가정해 보십시오. 북미에서는 일주일이 일요일에 시작됩니다. 일요일부터 토요일까지의 기간(예: 2008년 11월 23일-11월 29일)에 대해 새로 고쳐진 보고서를 획득하려면 일요일(11월 30일)에 이전 주(11/23-11/29)에 대해 보고서를 실행합니다(요청을 새로 고침).
 
 다음의 사용자 지정된 표현식을 사용하십시오.
 
 *From:* cw-1w *To:* cw-1d
 
-An analysis of the customize expression when the inclusive [!UICONTROL End Date] for the request is 11/30:
+요청에 대한 전체 [!UICONTROL 종료 날짜]가 11/30일 때 사용자 지정 표현식의 분석:
 
 *From:* cw-1w
 
@@ -34,17 +38,17 @@ An analysis of the customize expression when the inclusive [!UICONTROL End Date]
 
 11월 30일 일요일에 시작하는 현재 주의 날 빼기 1일 = 11월 29일 토요일
 
-After the customized expression is mapped to the spreadsheet, refresh the request using Sunday, November 30, 2008 as the inclusive [!UICONTROL End Date] for the floating request. 이 데이터는 일주일 기간을 반영합니다.
+사용자 지정된 표현식이 스프레드시트에 매핑되면 유동 요청에 대해 전체 [!UICONTROL 종료 날짜]인 2008년 11월 30일 일요일을 사용하여 요청을 새로 고칩니다. 이 데이터는 일주일 기간을 반영합니다.
 
-If instead you refresh the expression and specify Saturday, November 29 as the [!UICONTROL End Date] for the floating request, the data will reflect the week 11/16 to 11/22. 이것은 요청 새로 고침을 위한 참조 날짜가 하루 이르기 때문입니다.
+대신 표현식을 새로 고치고 유동 요청에 대한 [!UICONTROL 종료 날짜]로서 11월 29일 토요일을 지정하는 경우 데이터는 11/16부터 11/22까지의 일주일을 반영합니다. 이것은 요청 새로 고침을 위한 참조 날짜가 하루 이르기 때문입니다.
 
-Here are the differences when the inclusive [!UICONTROL End Date] for the request is 11/29:
+다음은 요청에 대한 전체 [!UICONTROL 종료 날짜]가 11/29일 때의 차이입니다.
 
-*From:* cw-1w
+*보낸 사람:* cw-1w
 
 11월 23일 일요일에 시작하는 현재 주의 날 빼기 7일 = 11월 16일 일요일에 시작하는 지난 주의 날
 
-*To:* cw-1d
+*받는 사람:* cw-1d
 
 11월 23일 일요일에 시작하는 현재 주의 날 빼기 1일 = 11월 22일 토요일
 
