@@ -1,10 +1,12 @@
 ---
 description: Adobe Analysis Workspace 및 관련 구성 요소의 오류 메시지 목록
 title: Analysis Workspace의 일반 오류 메시지
-translation-type: ht
-source-git-commit: 5514e98703442fa68c8f19edce07fb3f2c74b874
-workflow-type: ht
-source-wordcount: '446'
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
