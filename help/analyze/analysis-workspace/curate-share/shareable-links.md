@@ -1,12 +1,14 @@
 ---
 description: 프로젝트 또는 시각화에 공유 가능한 링크를 만드는 방법을 알아봅니다.
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspace 공유
 title: 공유 가능한 링크 만들기
+feature: 조정 및 공유
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +30,7 @@ Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대�
 * 패널 헤더에서 **[!UICONTROL 패널 링크 가져오기]**&#x200B;를 마우스 오른쪽 단추로 클릭합니다.
 * 테이블 또는 시각화 헤더에서 **[!UICONTROL 시각화 링크 가져오기]**&#x200B;를 마우스 오른쪽 단추로 클릭합니다.
 
-[비디오 보기](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)에서 링크를 만들고 이를 사용하여 수신자를 프로젝트의 특정 부분으로 유도하는 방법에 대해 알아봅니다.
+[비디오 보기](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)에서 링크를 만들고 이를 사용하여 수신자를 프로젝트의 특정 부분으로 유도하는 방법에 대해 알아봅니다.
 
 ![](assets/get-viz-link.png)
 
@@ -36,6 +38,6 @@ Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대�
 
 다양한 링크 옵션을 활용하는 한 가지 팁은 작업 공간 프로젝트 상단에 항상 목차를 포함하는 것입니다. 목차에서는 다른 관련 프로젝트, 특정 패널 및 특정 시각화에 연결할 수 있습니다. 이렇게 하면 프로젝트의 수신자가 보다 쉽게 탐색할 수 있습니다.
 
-[비디오 보기](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)에서 링크 및 작업 공간의 리치 텍스트 편집기를 사용하여 목차를 구성하는 방법에 대해 알아봅니다.
+[비디오 보기](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)에서 링크 및 작업 공간의 리치 텍스트 편집기를 사용하여 목차를 구성하는 방법에 대해 알아봅니다.
 
 ![](assets/toc.png)
