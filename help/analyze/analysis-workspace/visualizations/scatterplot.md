@@ -1,11 +1,13 @@
 ---
 title: 산포도
 description: 최대 3개의 지표 간 관계를 보여주는 시각화입니다.
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+feature: 시각화
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
