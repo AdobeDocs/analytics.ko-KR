@@ -1,13 +1,14 @@
 ---
 description: 이 섹션은 Adobe Analytics 관리자용으로서, 새로운 링크 추적 매개 변수를 집중적으로 살펴보고, 이 매개 변수들이 여러 브라우저와 장치에서 링크 고유성 및 일관성을 보장하고 페이지에서 링크 위치 변경 처리를 개선하는 방식에 대해 살펴봅니다.
 title: 링크 추적 방식
-topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1000'
-ht-degree: 100%
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +36,7 @@ HTML에 s_objectid가 있다면, 기본 ID의 기본값은 s_objectid로 지정�
 * Src
 * Action
 
-## InnerText 사용과 링크 동작(URL) 사용 {#section_70C3573E22274522A8CC035BF18EC468}
+## InnerText 사용과 링크 동작(URL) 사용  {#section_70C3573E22274522A8CC035BF18EC468}
 
 링크 동작은 링크를 클릭할 때 웹 페이지(일반적으로 링크를 클릭한 후 방문하는 URL)가 취하는 동작입니다. 링크 동작을 사용할 때 다음과 같은 문제가 발생할 수 있습니다.
 
