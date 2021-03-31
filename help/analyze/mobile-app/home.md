@@ -1,11 +1,13 @@
 ---
 title: Adobe Analytics 대시보드 - 개요
 description: Adobe Analytics 대시보드에 대한 제품 설명서 및 자체 도움말
-translation-type: ht
-source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+feature: 분석 대시보드
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 97%
 
 ---
 
