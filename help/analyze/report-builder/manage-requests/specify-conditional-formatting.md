@@ -1,13 +1,14 @@
 ---
 description: 포함된 요청이 있는 보고서를 만든 후 조건부 서식을 통합 문서의 셀에 적용할 수 있습니다.
 title: 조건부 서식 지정
-topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 98%
 
 ---
 
