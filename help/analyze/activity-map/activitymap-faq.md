@@ -1,12 +1,13 @@
 ---
 description: 'Activity Map 기능의 설정, 구성 및 사용과 관련하여 자주 묻는 질문입니다. '
 title: Activity Map FAQ
-topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '508'
 ht-degree: 45%
 
 ---
@@ -18,19 +19,19 @@ Activity Map 기능의 설정, 구성 및 사용과 관련하여 자주 묻는 �
 
 ## 모든 Analytics 고객이 관리 도구 ActivityMap 지원 페이지에 액세스할 수 있습니까?
 
-Adobe Analytics Standard, Premium 및 Ultimate와 계약을 맺은 조직은 Activity Map을 이용할 수 있습니다.
+Adobe Analytics Standard, Premium 및 Ultimate에 대한 계약을 보유한 조직은 Activity Map을 이용할 수 있습니다.
 
 ## Activity Map은 &quot;보기&quot;에 대한 데이터를 제공합니까?
 
 아니요. Adobe는 열람한 링크를 추적하지 않습니다.
 
-## Activity Map은 어떤 브라우저 및 버전을 지원합니까?
+## Activity Map에서 지원하는 브라우저 및 버전은 무엇입니까?
 
 Activity Map은 최신 버전의 브라우저를 지원합니다.
 
-## Activity Map이 서버 호출을 증가시키나요?
+## Activity Map은 서버 호출을 증가시키나요?
 
-Activity Map은 서버 호출을 자체적으로 전송하지 않습니다. 대신, Activity Map 컨텍스트 데이터 변수는 이후 페이지의 Analytics 페이지 보기 호출에 포함됩니다.
+Activity Map은 자체 서버 호출을 전송하지 않습니다. 대신 Activity Map 컨텍스트 데이터 변수는 이후 페이지의 Analytics 페이지 보기 호출에 포함됩니다.
 
 ## 왜 일부 등급 항목 오버레이가 누락되어 있습니까?**
 
@@ -39,19 +40,19 @@ Activity Map은 서버 호출을 자체적으로 전송하지 않습니다. 대�
 ## 모든 링크 보고서에서 링크 등급은 어떻게 결정됩니까?**
 
 * **그라디언트 및 버블 모드에서**:등급은 지표 열에 의해 결정됩니다. 동일한 지표 값이 있는 링크의 경우, 등급은 추가적으로 링크 ID 알파벳순을 기반으로 합니다.
-* **승자 및 패자 모드에서**:등급은 주로 % 증가 열에 의해 결정됩니다. 동일한 게인이 있는 링크의 경우 등급은 링크 ID 알파벳순을 기반으로 합니다.
+* **승자 및 패자 모드에서**:등급은 주로 % 게인 열에 의해 결정됩니다. 동일한 게인이 있는 링크의 경우 등급은 추가적으로 링크 ID 알파벳순을 기반으로 합니다.
 
 ## Activity Map은 여러 보고서 세트를 사용하는 페이지에서 어떻게 작동합니까?
 
 기본적으로 Activity Map에서는 페이지가 보내는 첫 번째 태그와 연결된 보고서 세트를 사용합니다. **[!UICONTROL Activity Map 설정]** > **[!UICONTROL 기타]** 탭을 통해 서로 다른 태그가 지정된 보고서 세트를 선택할 수 있습니다.
 
-## 이 페이지에서 Activity Map은 Adobe Analytics을 얼마나 오래 검사합니까?
+## Activity Map은 페이지에서 Adobe Analytics을 검색하는 데 얼마나 걸립니까?
 
-Activity map은 페이지 전체 이벤트 후 최대 20초 동안 Adobe Analytics의 존재 여부를 검색합니다.
+Activity Map은 페이지 완료 이벤트 후 최대 20초 동안 Adobe Analytics이 있는지 검색합니다.
 
 ## Activity Map은 어떻게 다이내믹 컨텐츠를 처리합니까?
 
-Activity Map은 2초마다 다음과 같은 웹 페이지 상태에서 변경 사항이 발견되었는지 확인합니다.
+Activity Map은 2초마다 다음과 같은 웹 페이지의 상태에 변경 사항이 있는지 확인합니다.
 
 * 표시된 HTML 컨텐츠
 * 숨겨진 HTML 컨텐츠
@@ -65,7 +66,7 @@ Activity Map은 2초마다 다음과 같은 웹 페이지 상태에서 변경 �
 
 ## 데이터 피드를 통해 Activity Map 컨텍스트 데이터 변수를 내보낼 수 있습니까?
 
-Activity map 컨텍스트 데이터 변수는 데이터 피드에서 사용할 수 없습니다.
+Activity Map 컨텍스트 데이터 변수는 데이터 피드에서 사용할 수 없습니다.
 
 ## 세그먼트는 라이브 모드에서 작동합니까?
 
