@@ -1,11 +1,13 @@
 ---
 description: 대시보드 스코어카드 사용 지침
 title: Adobe Analytics 대시보드 경영진 안내서
+feature: 분석 대시보드
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 99%
 
 ---
 
