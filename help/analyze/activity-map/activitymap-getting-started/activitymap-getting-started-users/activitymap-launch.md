@@ -1,13 +1,14 @@
 ---
 description: 올바른 브라우저 플러그인이 설치되어 있다면, 웹 페이지에서 바로 Activity Map을 시작할 수 있습니다.
 title: Activity Map 시작
-topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '75'
-ht-degree: 100%
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 96%
 
 ---
 
