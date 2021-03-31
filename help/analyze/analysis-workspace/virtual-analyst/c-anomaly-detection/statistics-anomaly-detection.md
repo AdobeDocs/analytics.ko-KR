@@ -1,11 +1,13 @@
 ---
 description: 데이터 불일치는 큰 문제를 일으킬 수 있습니다. Adobe의 예외 항목 탐지 기술을 사용하여 통계 이상을 식별하는 방법을 알아보십시오. 지금 시작하십시오.
 title: 예외 항목 탐지에서 사용된 통계 기법
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+feature: AI 툴
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 99%
 
 ---
 
