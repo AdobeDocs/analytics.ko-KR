@@ -1,13 +1,14 @@
 ---
 description: 실시간으로 웹 페이지 트래픽을 표시하고 페이지 보기 수 등급을 지정하므로 사이트의 트렌드를 더욱 빠르게 파악할 수 있습니다.
 title: 실시간 보고서
-topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 96%
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
