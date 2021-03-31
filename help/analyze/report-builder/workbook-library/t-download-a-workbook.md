@@ -1,10 +1,14 @@
 ---
 description: 공유 통합 문서를 다운로드 및 편집합니다.
 title: 통합 문서 다운로드
-topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 96%
 
 ---
 
@@ -13,13 +17,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 공유 통합 문서를 다운로드 및 편집합니다.
 
-1. In Excel, click **[!UICONTROL Share]**.
-1. 아래에서 **[!UICONTROL Uploaded Workbooks]**&#x200B;통합 문서를 선택하고 을 클릭합니다 **[!UICONTROL Download]**.
+1. Excel에서 **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 업로드된 통합 문서]**&#x200B;에서 통합 문서를 선택하고 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 1. 파일을 저장합니다.
+
 >다음 선택 사항은 통합 문서 소유자만 사용할 수 있습니다.
 >
 >* **편집:** 편집할 통합 문서를 다운로드하여 엽니다. 편집을 위해 다운로드한 통합 문서를 업로드하려면 수동으로 해야 합니다.
 >* **삭제:** 업로드한 통합 문서를 삭제할 수 있도록 해줍니다. 삭제하려면 해당 통합 문서의 소유자라야 합니다.
+
 >
 
 
