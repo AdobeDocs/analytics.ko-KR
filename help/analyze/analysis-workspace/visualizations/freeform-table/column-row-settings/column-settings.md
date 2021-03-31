@@ -2,11 +2,13 @@
 description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
+feature: 자유 형식 테이블
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: f2c6cda9743094cf198b4449b9163e3004d9e151
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 94%
+source-wordcount: '725'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +28,8 @@ ht-degree: 94%
 | 요소 | 설명 |
 | --- | --- |
 | **합계 셀** |  |
-| 합계 표시 | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다. |
-| 합계 표시 | 이 합계는 수집되어 &#39;보고서 세트 합계&#39;라고도 하는 모든 히트를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+| 합계 표시 | 이 합계는 일반적으로 [!UICONTROL Grand Total]의 하위 집합과 같거나 같습니다. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다. |
+| 합계 표시 | 이 합계는 수집되어 &#39;보고서 세트 합계&#39;라고도 하는 모든 히트를 나타냅니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. 총 합계는 [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 표 또는 분류에는 지원되지 않습니다. |
 | **테이블 셀** |  |
 | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어, 지표가 페이지 보기 횟수이면, 숫자 값은 행 항목에 대한 페이지 보기의 횟수입니다. |
 | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어, 지표가 페이지 보기 횟수이면, 퍼센트 값은 행 항목에 대한 페이지 보기 횟수를 해당 열에 대한 총 페이지 보기 횟수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열의 너비를 크게 늘릴 수 있도록 상한을 1,000%로 옮겼습니다. |
