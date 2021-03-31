@@ -1,12 +1,14 @@
 ---
-description: 작업 공간 프로젝트에서 폴아웃 시각화를 사용합니다.
+description: Workspace 프로젝트에서 폴아웃 시각화를 사용합니다.
 title: 폴아웃 개요
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
+feature: 시각화
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 98%
+source-wordcount: '506'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +39,7 @@ ht-degree: 98%
 
 ## 흐름 및 폴아웃을 위한 기초로서의 세그멘테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Analysis Workspace 패널에 적용된 세그먼트는 Reports &amp; Analytics의 폴아웃 및 흐름 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만, 주요 차이점은 Reports &amp; Analytics의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
+Analysis Workspace 패널에 적용된 세그먼트는 Reports &amp; Analytics의 폴아웃 및 흐름 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만 주요 차이점은 Reports &amp; Analytics의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
 
 다음 두 단계를 사용하여 폴아웃의 예를 살펴보겠습니다.
 
