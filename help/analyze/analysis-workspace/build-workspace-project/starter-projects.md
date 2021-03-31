@@ -2,10 +2,12 @@
 description: 표준 또는 맞춤형 템플릿을 기반으로 Workspace 프로젝트를 만듭니다.
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1397'
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1402'
 ht-degree: 100%
 
 ---
