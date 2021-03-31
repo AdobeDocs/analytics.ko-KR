@@ -1,10 +1,14 @@
 ---
 description: 요청의 보고서 세트, 세부기간 및 날짜 범위를 기반으로 몇 개의 요청을 동시에 변경할 수 있습니다.
 title: 여러 요청 편집
-topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 99%
 
 ---
 
@@ -17,25 +21,25 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **여러 요청을 편집하려면**
 
-1. In Excel, click **[!UICONTROL Manage]**.
+1. Excel에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
-   >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL All Sheets] option on the [!UICONTROL Request Manager]. 기본적으로 이 상자는 몇 개의 워크시트에 요청이 있을 때 선택합니다.
+   >개별 워크시트의 셀에 들어 있는 요청을 편집하려면 [!UICONTROL 요청 관리자]에서 [!UICONTROL 모든 시트] 선택 사항을 지우십시오. 기본적으로 이 상자는 몇 개의 워크시트에 요청이 있을 때 선택합니다.
 
-1. 양식에서 두 개 이상의 요청을 [!UICONTROL Request Manager] 선택한 다음 을 클릭합니다 **[!UICONTROL Edit Multiple]**.
+1. [!UICONTROL 요청 관리자] 양식에서, 요청을 두 개 이상 선택한 다음 **[!UICONTROL 복수 편집]**&#x200B;을 클릭합니다.
 
-   이 [!UICONTROL Edit Multiple Requests] 양식에는 정보 열이 표시됩니다. [!UICONTROL By Report Suite]및 [!UICONTROL By Segment], [!UICONTROL By Metric][!UICONTROL By Date Range and Granularity], [!UICONTROL By Group]및
+   [!UICONTROL 복수 요청 편집] 양식에 [!UICONTROL  보고서 세트별], [!UICONTROL 세그먼트별], [!UICONTROL 지표별], [!UICONTROL 날짜 범위 및 세부기간별], [!UICONTROL 그룹별] 정보 열이 표시됩니다.
 1. 요청 표시를 그룹화하려면 다음 선택 사항 중 클릭합니다:  
 
    * **보고서 세트:** 요청 표시를 보고서 세트별로 그룹화합니다.
    * **세그먼트**: 세그먼트 이름을 기준으로 요청을 그룹화합니다.
 
-      * **세그먼트 선택**: 요청에 대한 세그먼트가 없는 경우 표시합니다. 세그먼트를 추가하려면 을 클릭하고 **[!UICONTROL Edit Group]** [!UICONTROL Edit Group] 패널에서 세그먼트를 선택합니다.
+      * **세그먼트 선택**: 요청에 대한 세그먼트가 없는 경우 표시합니다. 세그먼트를 추가하려면 **[!UICONTROL 그룹 편집]**&#x200B;을 클릭하고 [!UICONTROL 그룹 편집] 패널에서 세그먼트를 선택합니다.
    * **지표별:** [복수 요청의 지표 편집](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)을 참조하십시오.
 
    * **날짜 범위 및 세부기간:** 날짜 범위 및 세부기간을 기준으로 요청을 그룹화하여 표시합니다.
    * **그룹:** 그룹화 요청 세트를 기준으로 요청을 그룹화하여 표시합니다.
 
 
-1. 양식에서 을 [!UICONTROL Edit Multiple Requests] 클릭합니다 **[!UICONTROL OK]**.
+1. [!UICONTROL 복수 요청 편집] 양식에서, **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
