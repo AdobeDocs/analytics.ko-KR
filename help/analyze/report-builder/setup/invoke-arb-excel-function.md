@@ -1,12 +1,13 @@
 ---
 description: 이 기능을 사용하면 Report Builder 사용자 인터페이스에 액세스하지 않고도 일반 Excel 워크플로우 내에 Report Builder를 통합할 수 있습니다.
 title: Microsoft Excel 함수에서 Report Builder 기능 호출
-topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '497'
 ht-degree: 99%
 
 ---
