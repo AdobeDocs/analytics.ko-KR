@@ -1,13 +1,14 @@
 ---
 description: 보고서를 예약할 때 배포에 사용할 게시 목록을 선택할 수 있습니다.
 title: 게시 목록 무시 허용
-topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 94%
+source-wordcount: '169'
+ht-degree: 92%
 
 ---
 
