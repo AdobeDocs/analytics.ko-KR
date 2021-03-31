@@ -2,11 +2,13 @@
 description: Report Builder 및 Microsoft Power BI 사용 시 제한 사항.
 title: 제한 사항 및 사양
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 97%
+source-wordcount: '629'
+ht-degree: 96%
 
 ---
 
