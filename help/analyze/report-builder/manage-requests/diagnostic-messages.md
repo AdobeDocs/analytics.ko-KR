@@ -1,10 +1,14 @@
 ---
 description: 진단 메시지에서는 새로 고칠 때 요청의 상태에 대한 정보를 알 수 있습니다.
 title: 진단 메시지
-topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 97%
 
 ---
 
