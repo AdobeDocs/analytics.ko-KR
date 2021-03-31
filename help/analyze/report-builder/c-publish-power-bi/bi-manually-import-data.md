@@ -2,8 +2,13 @@
 description: Power BI를 통해 수동으로 Analytics 데이터를 가져오려면, 다음 지침을 따르십시오.
 title: 수동으로 Power BI에 데이터 가져오기
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 96%
 
 ---
 
