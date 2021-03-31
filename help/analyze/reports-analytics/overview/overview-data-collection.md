@@ -2,13 +2,14 @@
 description: Adobe Analytics에 대한 데이터를 수집하는 방법에 대해 알아봅니다.
 subtopic: Get started
 title: 데이터 수집 정보
-topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 96%
 
 ---
 
