@@ -1,13 +1,14 @@
 ---
 description: 시간 약자는 기간의 범위가 아니라 기간이 시작하는 특정 날짜를 나타냅니다. 기간의 범위는 두 개의 시간 약자(또는 용어)에 대해 시작 및 종료 날짜를 지정하여 표현됩니다.
 title: 날짜 약자
-topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '146'
-ht-degree: 100%
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 98%
 
 ---
 
