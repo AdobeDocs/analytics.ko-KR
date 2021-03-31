@@ -1,13 +1,14 @@
 ---
 description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표시되며, 페이지 흐름 보고서가 나비넥타이 모양으로 표시됩니다.
 title: '페이지 상세정보 '
-topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
