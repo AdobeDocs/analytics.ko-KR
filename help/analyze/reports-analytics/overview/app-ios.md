@@ -1,13 +1,14 @@
 ---
 description: iPad 애플리케이션에 대한 소개입니다.
 title: iOS용 Adobe Analytics
-topic: Reports and analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '107'
-ht-degree: 100%
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 94%
 
 ---
 
