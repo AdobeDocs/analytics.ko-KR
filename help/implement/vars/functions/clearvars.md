@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: 추적 개체에서 변수 값을 지웁니다.
+description: 인스턴스 개체에서 다음 값을 지웁니다. 이 함수는 요소를 제거합니다(요소를 "정의되지 않음"으로 설정).
 translation-type: tm+mt
-source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 95%
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
