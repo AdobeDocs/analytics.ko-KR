@@ -2,11 +2,13 @@
 description: Reports & Analytics의 보고서 메뉴에 대한 개요.
 title: 보고서 메뉴
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 99%
 
 ---
 
