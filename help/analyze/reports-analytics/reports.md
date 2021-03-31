@@ -1,11 +1,13 @@
 ---
 title: 보고서
 description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지표입니다.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+feature: 보고서 & Analytics 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1869'
+ht-degree: 99%
 
 ---
 
