@@ -1,10 +1,12 @@
 ---
 description: Adobe Analytics 대시보드 스코어카드 설정에 대한 지침입니다.
 title: Adobe Analytics 대시보드 큐레이터 안내서
+feature: 분석 대시보드
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: ea1915fa48a2da55684b7aa9f81fbe0c7d91171b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2404'
 ht-degree: 87%
 
 ---
