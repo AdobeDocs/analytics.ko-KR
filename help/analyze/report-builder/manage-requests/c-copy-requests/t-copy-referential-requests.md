@@ -1,13 +1,14 @@
 ---
 description: 참조 요청에서는 데이터 필터나 관계 필터와 같은 매개 변수에 대한 입력으로 셀의 값들을 사용합니다.
 title: 참조 요청 복사
-topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
 
