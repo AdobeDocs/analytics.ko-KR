@@ -1,10 +1,14 @@
 ---
 description: 대상을 사용하면 웹 사이트 성능을 측정하고 대상이 되는 목표를 기준으로 진행 상황을 추적할 수 있습니다. 예를 들어 지리적 영역에서 오는 방문자 수, 주문당 매출 또는 특정 레퍼러에서 오는 히트 수를 증가시킬 수 있습니다.
 title: 타겟
-topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '608'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +25,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 예를 들어 웹 사이트의 고유 방문자 수를 측정하고 이것을 대상으로 사용할 수 있습니다. 이 경우 전체 웹 사이트를 선택합니다. 그러나 시카고의 웹 사이트를 방문하는 고유 방문자 수를 대상으로 지정하려면 전체 사이트를 확인하는 대신 해당 eVar를 지정할 수 있습니다.
 
-## 대상 필드 설명 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## 대상 필드 설명  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+**[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 대상]**.
 
-페이지의 필드 및 옵션에 대한 [!UICONTROL Add/Edit Target] 설명입니다.
+[!UICONTROL 대상 추가/편집] 페이지의 필드 및 옵션에 대한 설명입니다.
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -36,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Target 이름  </td> 
+   <td colname="col1"> 대상 이름 </td> 
    <td colname="col2"><span class="wintitle">대상 관리자</span> 페이지에 표시되는 대상 이름이 표시됩니다. </td> 
   </tr> 
   <tr> 
@@ -72,14 +76,14 @@ t_add_a_target.xml
 
  -->
 
-1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. 페이지에서 [!UICONTROL Target Manager] 을 클릭합니다 **[!UICONTROL Add New]**.
+1. **[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 타겟]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 대상 관리자] 페이지에서 **[!UICONTROL 새로 추가]**&#x200B;를 클릭합니다. 
 1. [타겟 필드 설명](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)에 설명되어 있는 옵션을 구성합니다.
-1. 클릭 **[!UICONTROL OK]**.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 대상 편집 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
+1. **[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 타겟]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 관리]** 열에서 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 1. [타겟 필드 설명](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)에 설명되어 있는 옵션을 구성합니다.
-1. 클릭 **[!UICONTROL OK]**.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
