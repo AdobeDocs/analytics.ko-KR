@@ -2,13 +2,13 @@
 description: 대시보드는 reportlet이라고 부르는 썸네일 보고서의 콜렉션입니다. 대시보드는 검색 방법, 방문자 프로파일 등과 같은 사이트의 특정 측면에 대한 전체 개요를 설명하는 관련 reportlet이 들어 있을 때 가장 유용합니다.
 subtopic: Dashboards
 title: 대시보드 및 Reportlet
-topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1819'
-ht-degree: 100%
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1822'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
- [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.
+See [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.
 
 ## 대시보드 만들기 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
