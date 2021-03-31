@@ -2,13 +2,14 @@
 description: Reports & Analytics 메뉴의 현재 데이터 포함 옵션을 사용하면 일반적으로 데이터가 모두 처리되고 완료되기 전에 최신 Analytics 데이터를 볼 수 있습니다. 현재 데이터에는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다.
 subtopic: Current Data
 title: 현재 데이터
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: 보고 및 분석 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
