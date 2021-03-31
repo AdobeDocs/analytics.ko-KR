@@ -1,13 +1,14 @@
 ---
 description: Activity Map은 다음 웹 브라우저에서 지원됩니다.
 title: 지원되는 시스템 및 요구 사항
-topic: Activity map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 60%
+source-wordcount: '116'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +21,7 @@ Activity Map은 다음 웹 브라우저에서 지원됩니다.
 |--- |--- |
 | Internet Explorer | 최신 버전 |
 | Firefox | 최신 버전 |
-| Chrome | 최신 버전. 참고:  Activity Map Chrome 플러그인은 현재 &quot;개발자 모드&quot; 플러그인입니다. 이 플러그인을 실행하면 개발자 모드 익스텐션을 비활성화하라는 메시지가 표시됩니다. 이 메시지는 플러그인을 실행할 때마다 표시됩니다. |
+| Chrome | 최신 버전. 참고: Activity Map Chrome 플러그인은 현재 &quot;개발자 모드&quot; 플러그인입니다. 이 플러그인을 실행하면 개발자 모드 확장 기능을 비활성화하라는 메시지가 표시됩니다. 이 메시지는 플러그인이 시작될 때마다 표시됩니다. |
 
 >[!NOTE]
 >
