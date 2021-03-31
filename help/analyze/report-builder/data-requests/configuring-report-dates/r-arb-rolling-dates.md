@@ -1,17 +1,21 @@
 ---
 description: Report Builder에 있는 롤링 날짜에 대한 필드 정의.
 title: 요청 마법사 정의 - 순환 날짜
-topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 86%
 
 ---
 
 
 # 요청 마법사 정의 - 순환 날짜
 
-리포트 빌더에서 롤링 날짜에 대한 필드 정의.
+Report Builder의 롤링 날짜에 대한 필드 정의.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -23,7 +27,7 @@ source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>표현식 사용자 지정 </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 사용자 지정된 날짜 표현식</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 사용자 지정된 날짜 표현식</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 기준 날짜 </p> </td> 
