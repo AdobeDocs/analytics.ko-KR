@@ -2,11 +2,13 @@
 description: '히스토그램은 Analysis Workspace의 새로운 시각화 유형입니다. '
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+feature: 시각화
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 99%
 
 ---
 
