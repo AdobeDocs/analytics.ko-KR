@@ -1,18 +1,20 @@
 ---
 description: 패널은 테이블 및 시각화의 모음입니다
 title: 패널 개요
+feature: 패널
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 11%
+source-wordcount: '1008'
+ht-degree: 13%
 
 ---
 
 
 # 패널 개요
 
-[!UICONTROL panel]은 테이블 및 시각화의 모음입니다. 작업 영역의 왼쪽 위 아이콘 또는 [빈 패널](blank-panel.md)에서 패널에 액세스할 수 있습니다. 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성할 때 유용합니다. Analysis Workspace에서는 다음 패널 유형을 사용할 수 있습니다.
+[!UICONTROL panel]은 테이블 및 시각화의 모음입니다. 작업 영역의 왼쪽 위 아이콘 또는 [빈 패널](blank-panel.md)에서 패널에 액세스할 수 있습니다. 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. Analysis Workspace에서는 다음 패널 유형을 사용할 수 있습니다.
 
 | 패널 이름 | 설명 |
 | --- | --- |
