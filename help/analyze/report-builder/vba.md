@@ -1,11 +1,13 @@
 ---
 title: Report Builder의 Visual Basic 매크로
 description: VBA를 사용하여 Excel 통합 문서와 Report Builder의 기능을 확장합니다.
-translation-type: ht
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 98%
 
 ---
 
