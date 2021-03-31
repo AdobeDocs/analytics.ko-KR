@@ -2,8 +2,12 @@
 description: 사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
 title: 고객 속성
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 97%
 
 ---
 
