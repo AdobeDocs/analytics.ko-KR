@@ -2,11 +2,12 @@
 description: Report Builder에서 요청을 만들 때의 첫 번째 단계입니다.
 title: 데이터 요청 - 요청 마법사 1단계
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 97%
+source-wordcount: '423'
+ht-degree: 96%
 
 ---
 
