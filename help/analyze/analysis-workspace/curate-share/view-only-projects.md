@@ -1,12 +1,14 @@
 ---
 description: 작업 공간에서 보기 전용 프로젝트
-keywords: View-only projects
+keywords: 보기 전용 프로젝트
 title: 보기 전용 프로젝트
+feature: 조정 및 공유
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '254'
+ht-degree: 97%
 
 ---
 
