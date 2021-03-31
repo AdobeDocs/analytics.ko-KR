@@ -1,13 +1,14 @@
 ---
 description: s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을 사용자 지정하고, AppMeasurement ActivityMap 모듈 파일을 사용자 지정하여 링크를 차별화할 수 있습니다.
 title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
-topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -41,8 +42,8 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation Panel <p> </p> <p> </p> <p>recommendation Panel </p> <p> </p> <p> </p> <p>recommendation Panel </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>구입 </p> <p> </p> <p> </p> <p>구입 </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation Panel <p> </p> <p> </p> <p>권장 사항 패널 </p> <p> </p> <p> </p> <p>권장 사항 패널 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,12 +82,12 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>추천 패널 </p> <p> </p> <p> </p> <p>추천 패널 </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 영역 사용자 지정 {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## 영역 사용자 지정  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 각 &quot;buy&quot; 링크에 자체 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면, &quot;id&quot; 매개 변수를 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 추가하십시오.
 
@@ -117,13 +118,13 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>구입 </p> <p> </p> <p> </p> <p>구입 </p> <p> </p> <p> </p> <p>구입 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## AppMeasurement ActivityMap 모듈 파일 사용자 지정 {#section_B933BB9F944E4D5389002908A5A881F8}
+## AppMeasurement ActivityMap 모듈 파일 사용자 지정  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
