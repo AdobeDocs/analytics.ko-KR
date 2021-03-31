@@ -1,10 +1,12 @@
 ---
 title: 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 공간에서 프로젝트를 만드는 방법 및 이유 알아보기
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
@@ -35,7 +37,7 @@ ht-degree: 100%
 
 | 작업 | 활성 패널 | 비활성 패널 |
 |---|---|---|
-| 보고서 세트 변경 | 예 | 아니오 |
+| 보고서 세트 변경 | 예 | 아니요 |
 | 구성 요소 끌어서 놓기 | 예 | 예, 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |
 | 시각화 끌어서 놓기 | 예 | 예, 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |
 
