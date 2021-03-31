@@ -2,10 +2,12 @@
 description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
-source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: ht
-source-wordcount: '282'
+feature: API
+role: 개발자
+translation-type: tm+mt
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+workflow-type: tm+mt
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -68,14 +70,14 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
   <tr> 
    <td colname="col1"> <b>방문자 프로필 처리</b> </td> 
    <td colname="col2"> 예 </td> 
-   <td colname="col3"> 아니오 </td> 
-   <td colname="col4"> 아니오 </td> 
+   <td colname="col3"> 아니요 </td> 
+   <td colname="col4"> 아니요 </td> 
    <td colname="col5"> 예 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>세그먼트 지원</b> </td> 
    <td colname="col2"> 예 </td> 
-   <td colname="col3"> 아니오 </td> 
+   <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 아니오 </td> 
    <td colname="col5"> 예(단, Data Warehouse 호환 가능한 세그먼트만) </td> 
   </tr> 
