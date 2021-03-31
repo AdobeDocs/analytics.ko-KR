@@ -2,11 +2,13 @@
 description: 새로운 지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 title: 지능형 경고 개요
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
+feature: AI 툴
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 95%
+source-wordcount: '370'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +17,7 @@ ht-degree: 95%
 
 지능형 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 
-지능형 경고에 대한 비디오 자습서 [(5:34)](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html)
+다음은 [지능형 경고](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html)(5:34)에 대한 비디오 자습서입니다.
 
 ## 개요
 
