@@ -1,13 +1,14 @@
 ---
 description: Report Builder 도구 모음에 있는 단추들의 기능을 이해하는 데 도움이 되는 정보
 title: Report Builder 도구 모음
-topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 846a6a2d08f2f0a97ed44d724d16c852f5d8088c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 93%
+source-wordcount: '306'
+ht-degree: 92%
 
 ---
 
