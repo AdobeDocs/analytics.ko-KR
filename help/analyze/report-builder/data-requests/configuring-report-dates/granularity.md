@@ -1,10 +1,14 @@
 ---
 description: 요청 마법사 1단계에서는 세부기간 수준을 데이터 요청에 적용할 수 있습니다. 세부기간은 보고서에 포함되어 있는 시간 기반 세부 사항의 수준을 지정합니다.
 title: 세부기간
-topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 98%
 
 ---
 
@@ -17,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Report Builder가 세부기간을 처리하는 방법
 
-Suppose you choose a date range for a month with [!UICONTROL Month] granularity. 요청은 데이터 중 정확히 한 달의 가치를 기반으로 지표에 대한 합계를 보여줍니다. 요청의 날짜 범위가 한 분기일 경우 보고서는 세 개의 수치를 보여주며 각각은 각 월 단위 또는 그 일부에 대한 것입니다. 오늘이 3월 18일일 경우 마지막 분기를 선택하면 1월 1일 - 1월 31일에 대해 하나, 2월 1일 - 2월 28일에 대해 하나, 그리고 3월 1일 - 3월 17일에 대해 마지막 하나가 반환됩니다.
+[!UICONTROL 월] 세부기간으로 월에 대한 날짜 범위를 선택한다고 가정합니다. 요청은 데이터 중 정확히 한 달의 가치를 기반으로 지표에 대한 합계를 보여줍니다. 요청의 날짜 범위가 한 분기일 경우 보고서는 세 개의 수치를 보여주며 각각은 각 월 단위 또는 그 일부에 대한 것입니다. 오늘이 3월 18일일 경우 마지막 분기를 선택하면 1월 1일 - 1월 31일에 대해 하나, 2월 1일 - 2월 28일에 대해 하나, 그리고 3월 1일 - 3월 17일에 대해 마지막 하나가 반환됩니다.
