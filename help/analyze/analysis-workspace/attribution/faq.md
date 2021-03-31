@@ -1,11 +1,13 @@
 ---
 title: 속성 FAQ
 description: 속성과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
-translation-type: ht
-source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+feature: 속성
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
