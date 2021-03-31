@@ -1,12 +1,13 @@
 ---
 description: Experience Cloud 로그인 계정을 사용하여 Report Builder에 로그인하는 방법을 알아봅니다.
 title: Report Builder 로그인 방법
-topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 7e659a0c2b2e5c9ba30b3875bc5d19b5309bfe38
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '214'
 ht-degree: 48%
 
 ---
