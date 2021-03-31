@@ -1,13 +1,14 @@
 ---
 description: 지표 및 차원을 요청 마법사 2단계에 추가하여 요청에서 데이터의 분석 레이아웃을 정의할 수 있습니다. Report Builder의 지표 및 차원 목록은 Reports & Analytics에 표시된 메뉴 레이아웃 다음에 나옵니다.
 title: 지표 및 차원 개요
-topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
