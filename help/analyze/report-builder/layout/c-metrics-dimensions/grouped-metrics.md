@@ -1,13 +1,14 @@
 ---
 description: 이제 별도의 요청을 만들 필요 없이 2개의 지표 유형을 동일한 단일 요청에 통합할 수 있습니다.
 title: 트래픽 및 상거래 지표를 동일한 요청에 통합
-topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
