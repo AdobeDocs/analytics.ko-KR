@@ -1,13 +1,14 @@
 ---
 description: Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, 적용 및 필터링 방법
 title: 세그먼트 관리
-topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 99%
 
 ---
 
@@ -121,7 +122,7 @@ Report Builder 5.4에서는 여러 요청에 대해 세그먼트 추가, 제거,
 
    | 옵션 | 설명 |
    |---|---|
-   | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에  세그먼트 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
+   | 추가 세그먼트 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
    | 세그먼트 바꾸기 | 한 개 이상의 세그먼트로 교체할 세그먼트를 선택합니다. |
    | 다음으로 모든 세그먼트를 바꾸기 | 현재 세그먼트를 대체할 한 개 이상의 세그먼트를 선택합니다. |
    | 세그먼트 제거 | 요청에서 세그먼트를 제거합니다. |
