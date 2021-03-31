@@ -1,10 +1,14 @@
 ---
 description: 오버레이 상세 정보는 링크 오버레이의 맨 위를 가리키면 표시됩니다.
 title: 오버레이 세부정보
-topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
+feature: Activity Map
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 95%
 
 ---
 
