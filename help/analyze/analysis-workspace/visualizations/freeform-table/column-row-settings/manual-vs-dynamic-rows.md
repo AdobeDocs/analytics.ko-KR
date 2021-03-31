@@ -1,11 +1,13 @@
 ---
 title: 자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교
 description: 테이블의 동적 차원 항목 및 정적 차원 항목과 상호 작용하는 방법입니다.
+feature: 자유 형식 테이블
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 97%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
@@ -52,4 +54,4 @@ ht-degree: 97%
 동적 및 정적 행은 자유 형식 합계 행에서 다르게 동작합니다. 기본적으로
 
 * 동적 행은 방문 횟수나 방문자 수와 같이 합계로서 계산된 서버 측 및 중복 제거 지표입니다.
-* 정적 행은 클라이언트 측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버 측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [추가 정보](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 정적 행은 클라이언트 측에서 합해지며 지표에 대해 중복 제거를 수행하지 **않습니다**. 합계 행 서버 측을 계산하려면 행 설정을 **총계 표시**&#x200B;로 변경하십시오. [추가 정보](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
