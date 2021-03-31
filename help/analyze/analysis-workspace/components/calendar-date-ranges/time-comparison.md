@@ -2,8 +2,13 @@
 description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 title: 날짜 비교
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '643'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +22,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 분석하려면 컨텍스트가 필요하며, 해당 컨텍스트를 이전 기간에서 제공하는 경우가 종종 있습니다. 예를 들어, &quot;작년 이맘때보다 얼마나 좋아질까요/나빠질까요?&quot;라는 질문은 비즈니스를 이해하는 데 기본적인 질문입니다. 날짜 비교에 &quot;차이점&quot; 열이 자동으로 포함되는데, 이 열은 지정된 기간과 비교한 백분율 변경을 표시합니다.
 
 1. 기간을 비교할 차원 및 지표를 사용하여 자유 형식 테이블을 만듭니다.
-1. 표 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Compare Time Periods]**&#x200B;를 선택합니다.
+1. 테이블 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기간 비교를 선택합니다]**.
 
    ![](assets/compare-time.png)
 
@@ -29,13 +34,13 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    | 옵션 | 설명 |
    |---|---|
-   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | 이 날짜 범위로부터 주/달 전 등을 비교합니다. |
-   | **[!UICONTROL This week/month/quarter/year last year]** | 1년 전의 같은 날짜 범위와 비교합니다. |
-   | **[!UICONTROL Select range]** | 사용자 지정 날짜 범위를 선택할 수 있습니다. |
+   | **[!UICONTROL 이 날짜 범위에 대한 이전 주/달/분기/년]** | 이 날짜 범위로부터 주/달 전 등을 비교합니다. |
+   | **[!UICONTROL 이번 주/달/분기/년과 작년]** | 1년 전의 같은 날짜 범위와 비교합니다. |
+   | **[!UICONTROL 범위 선택]** | 사용자 지정 날짜 범위를 선택할 수 있습니다. |
 
    >[!NOTE]
    >
-   >사용자 지정 일 수(예: 10월 7일 - 10월 20일(14일 범위))를 선택하면 **[!UICONTROL Prior 14 days before this date range]** 및 **[!UICONTROL Select range]**&#x200B;의 2가지 옵션만 제공됩니다.
+   >사용자 지정 일수를 선택한 경우 예를 들어, 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
 
 1. 결과 비교 모양은 다음과 같습니다.
 
@@ -43,29 +48,29 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
    [퍼센트 변경] 열의 행은 음수 값인 경우 빨간색으로 표시되고 양수 값인 경우 녹색으로 표시됩니다.
 
-1. (선택 사항) 다른 Workspace 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어, 다음은 막대 그래프입니다.
+1. (선택 사항) 다른 작업 공간 프로젝트에서와 마찬가지로 이러한 시간 비교에 기반을 두고 시각화를 만들 수 있습니다. 예를 들어, 다음은 막대 그래프입니다.
 
    ![](assets/compare-time-barchart.png)
 
-   막대 차트에 백분율 변경을 표시하려면 [!UICONTROL Percentages]시각화 설정에서 [!UICONTROL Visualization Settings] 설정을 선택해야 합니다 .
+   막대 차트에 백분율 변경을 표시하려면 [!UICONTROL 시각화 설정]에서 [!UICONTROL 백분율] 설정을 선택해야 합니다.
 
 ## 비교할 기간 열 추가 {#section_93CC2B4F48504125BEC104046A32EB93}
 
 이제 테이블의 각 열에 기간을 추가하여 달력에 설정된 기간과 다른 기간을 추가할 수 있습니다. 날짜를 비교할 수 있는 다른 방법입니다.
 
-1. 표에서 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)를 클릭합니다.
+1. 테이블에서 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기간 열 추가를 선택합니다.]**![](assets/add-time-period-column.png) 
 
 1. 테이블의 날짜 범위를 설정한 방법에 따라 비교에 대한 다음 옵션이 제공됩니다.
 
    | 옵션 | 설명 |
    |---|---|
-   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | 이 날짜 범위로부터 주/달 전 등의 열을 추가합니다. |
-   | **[!UICONTROL This week/month/quarter/year last year]** | 1년 전의 같은 날짜 범위를 추가합니다. |
-   | **[!UICONTROL Select range]** | 사용자 지정 날짜 범위를 선택할 수 있습니다. |
+   | **[!UICONTROL 이 날짜 범위에 대한 이전 주/달/분기/년]** | 이 날짜 범위로부터 주/달 전 등의 열을 추가합니다. |
+   | **[!UICONTROL 이번 주/달/분기/년과 작년]** | 1년 전의 같은 날짜 범위를 추가합니다. |
+   | **[!UICONTROL 범위 선택]** | 사용자 지정 날짜 범위를 선택할 수 있습니다. |
 
    >[!NOTE]
    >
-   >사용자 지정 일 수(예: 10월 7일 - 10월 20일(14일 범위))를 선택하면 **[!UICONTROL Prior 14 days before this date range]** 및 **[!UICONTROL Select range]**&#x200B;의 2가지 옵션만 제공됩니다.
+   >사용자 지정 일수를 선택한 경우 예를 들어, 10월 7일 - 10월 20일(14일 범위)을 선택한 경우 **[!UICONTROL 이 날짜 범위부터 14일 전]**&#x200B;과 **[!UICONTROL 범위 선택]**, 이렇게 두 가지 선택 사항만 제공됩니다.
 
 1. 선택한 열 맨 위에 기간이 삽입됩니다.
 
@@ -79,7 +84,7 @@ Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 �
 
 ## 열 날짜를 같은 행의 시작으로 정렬 {#section_5085E200082048CB899C3F355062A733}
 
-모든 표에 대한 새로운 설정을 사용하면 **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**&#x200B;을 수행할 수 있습니다. 예를 들어, &quot;전체 테이블에 적용&quot;이란 테이블에서 분류를 수행하는 경우 및 분류에 대한 이 설정을 변경하는 경우 전체 테이블에 대한 설정이 변경됨을 의미합니다.
+모든 테이블에 새 설정을 사용하여 **[!UICONTROL 날짜를 각 열에서 동일한 행의 시작으로 정렬합니다(전체 테이블에 적용)]**. 예를 들어, &quot;전체 테이블에 적용&quot;이란 테이블에서 분류를 수행하는 경우 및 분류에 대한 이 설정을 변경하는 경우 전체 테이블에 대한 설정이 변경됨을 의미합니다.
 
 ![](assets/date-comparison-setting.png)
 
