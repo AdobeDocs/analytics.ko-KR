@@ -1,10 +1,14 @@
 ---
 description: Report Builder가 경로 지정 및 폴아웃 보고서를 지원하는 방법과 해당 구현이 Reports & Analytics와 어떻게 다른지를 설명합니다.
 title: Report Builder의 경로 및 경로 폴아웃 보고서
-topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
+feature: Report Builder
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +25,7 @@ Report Builder가 경로 지정 및 폴아웃 보고서를 지원하는 방법�
 | 전체 경로 | 지원되지 않음. |
 | 경로 탐색 | 독립 실행형 보고서로 제공되지 않습니다. 필터를 사용하여 단일 경로 보고서로 재현할 수 있습니다. |
 | 경로 길이 | 페이지 차원에 대해서만 지원됩니다. |
-| 페이지 분석 >  차원 요약 | 독립 실행형 보고서로 제공되지 않습니다. 필터를 사용하여 경로 차원이 있는 여러 개의 보고서로 재현할 수 있습니다. |
+| 페이지 분석 > 차원 요약 | 독립 실행형 보고서로 제공되지 않습니다. 필터를 사용하여 경로 차원이 있는 여러 개의 보고서로 재현할 수 있습니다. |
 | 페이지 분석 > 다시 로드 | 독립 실행형 보고서로 제공되지 않습니다. 다시 로드 지표를 사용하여 차원 보고서로 재현할 수 있습니다. |
 | 페이지 분석 > 차원 깊이 | 페이지 차원에 대해서만 지원됩니다. |
 | 페이지 분석 > 차원에서 보낸 시간 | 지원되지 않음. |
