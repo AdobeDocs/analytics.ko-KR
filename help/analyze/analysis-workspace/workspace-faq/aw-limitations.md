@@ -1,10 +1,12 @@
 ---
 description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록
 title: Analysis Workspace의 알려진 제한 사항
-translation-type: ht
-source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
-workflow-type: ht
-source-wordcount: '415'
+feature: Workspace 기본 사항
+role: 비즈니스 전문가, 관리자
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
