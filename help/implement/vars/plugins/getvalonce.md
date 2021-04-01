@@ -1,11 +1,11 @@
 ---
 title: getValOnce
 description: Analytics 변수가 한 행에서 동일한 값으로 두 번 설정되지 않도록 합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a81754ca6137d7bc1e790fe537acbb4bbdb8efb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 99%
 
 `getValOnce` 플러그인을 사용하면 변수가 동일한 값에 두 번 이상 설정되지 않습니다. 방문자가 페이지를 새로 고치거나 지정된 페이지를 여러 번 방문하는 경우 발생 수를 중복 제거하려면 이 플러그인을 사용하는 것이 좋습니다. Analysis Workspace에서 &#39;발생 수&#39; 지표가 걱정되지 않는 경우에는 이 플러그인은 필요하지 않습니다.
 
-## Adobe Experience Platform Launch 확장을 사용하여 플러그인 설치
+## Adobe Experience Platform Launch 확장 기능을 사용하여 플러그인 설치
 
-Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 단추를 클릭합니다.
-1. [!UICONTROL 일반적인 Analytics 플러그인] 확장을 설치 및 게시합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
+1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
    * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
@@ -36,18 +36,18 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## Launch 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
-플러그인 확장을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
-1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 단추가 표시됩니다.
-1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
+1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
+1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
 1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여 넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -91,11 +91,11 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 
 이 코드는 사용자 세션 전체에서 동일한 값이 연달아 두 번 이상 s.eVar2로 전달되지 않도록 합니다. 또한 만료 시간이 0으로 설정되므로 이 코드는 ep 인수의 &quot;m&quot; 값도 무시합니다(호출 종료 시). 또한 이 코드는 s_ev2 쿠키에 비교 값을 저장합니다.
 
-## 버전 기록
+## 버전 내역
 
 ### 3.0(2021년 3월 19일)
 
-* 컨텍스트 데이터로 버전 번호를 추가했습니다.
+* 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
 ### 2.01
 
