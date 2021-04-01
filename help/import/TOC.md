@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 가져오기 안내서
 breadcrumb-title: 가져오기 안내서
 user-guide-description: '데이터를 일괄 방식 또는 실시간으로 외부 소스에서 Analytics로 가져옵니다. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '535'
+ht-degree: 100%
 
 ---
 
