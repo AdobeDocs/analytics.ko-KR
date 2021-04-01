@@ -1,11 +1,11 @@
 ---
 title: getTimeSinceLastVisit
 description: 두 방문 사이의 경과 시간을 측정합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 98%
 
 `getTimeSinceLastVisit` 플러그인을 사용하면 방문자가 마지막 방문 후 사이트를 다시 방문하는 시간을 추적할 수 있습니다.
 
-## Adobe Experience Platform Launch 확장을 사용하여 플러그인 설치
+## Adobe Experience Platform Launch 확장 기능을 사용하여 플러그인 설치
 
-Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 단추를 클릭합니다.
-1. [!UICONTROL 일반적인 Analytics 플러그인] 확장을 설치 및 게시합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
+1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
    * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
@@ -36,18 +36,18 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## Launch 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
-플러그인 확장을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
-1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 단추가 표시됩니다.
-1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
+1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
+1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
 1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여 넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,9 +60,9 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 `getTimeSinceLastVisit` 메서드는 인수를 사용하지 않습니다. 이 메서드는 방문자가 마지막으로 사이트를 방문한 이후 경과된 시간을 반환합니다(다음 형식으로 변환됨).
 
-* 마지막 방문 이후 30분에서 1시간 사이의 시간이 가장 가까운 0.5분 벤치마크로 설정됩니다. 예, `"30.5 minutes"`, `"53 minutes"`
-* 1시간과 1일 사이의 시간은 가장 가까운 1/4시간 벤치마크로 반올림됩니다. 예, `"2.25 hours"`, `"7.5 hours"`
-* 하루보다 큰 시간은 가장 가까운 일 벤치마크로 반올림됩니다. 예, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
+* 마지막 방문 이후 30분에서 1시간 사이의 시간이 가장 가까운 0.5분 벤치마크로 설정됩니다. 예: `"30.5 minutes"`, `"53 minutes"`
+* 1시간과 1일 사이의 시간은 가장 가까운 1/4시간 벤치마크로 반올림됩니다. 예: `"2.25 hours"`, `"7.5 hours"`
+* 하루보다 큰 시간은 가장 가까운 일 벤치마크로 반올림됩니다. 예: `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
 * 방문자가 전에 방문한 적이 없거나 경과 시간이 2년을 넘는 경우 이 값은 `"New Visitor"`로 설정됩니다.
 
 >[!NOTE]
@@ -88,11 +88,11 @@ s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be i
 
 4일 동안 더 활동이 없었다가 그후 동일한 도메인에서 동일한 코드가 실행되는 경우 s.prop1의 값은 &quot;4일&quot;과 동일하게 설정됩니다.
 
-## 버전 기록
+## 버전 내역
 
 ### 2.0(2021년 3월 19일)
 
-* 컨텍스트 데이터로 버전 번호를 추가했습니다.
+* 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
 ### 1.0(2018년 4월 16일)
 
