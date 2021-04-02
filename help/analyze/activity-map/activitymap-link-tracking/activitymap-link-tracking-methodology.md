@@ -5,7 +5,7 @@ uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 99%
@@ -73,47 +73,45 @@ HTML에 s_objectid가 있다면, 기본 ID의 기본값은 s_objectid로 지정�
 아래에서는 기본 영역 ID 속성 &quot;id&quot;를 사용하는 샘플 HTML을 볼 수 있습니다.
 
 ```
-<div id="content"> 
-  <div id="breaking_news"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
- <div id="todays_top_headlines"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
+<div id="content">
+  <div id="breaking_news">
+    <a href="breaking-news.html">...</a>
+  </div>
+  <div id="todays_top_headlines">
+    <a href="breaking-news.html">...</a>
+  </div>
 ```
 
 원할 경우, 이 경우 &quot;lpos&quot;와 같이 임의의 문자열 식별자가 있는 요소에 태그를 지정한 다음, &quot;lpos&quot;라는 이름의 속성을 추가할 수 있습니다.
 
 ```
 <script language="JavaScript" type="text/javascript">
-s.ActivityMap.regionIDAttribute="lpos";
-</script> 
-   
-<div id="nav" lpos="navbar"> 
-  <ul> 
-     <li> Menu Category A 
-    <ul> 
-      <li><a href="">Menu Item A 1</a> 
-      <li><a href="">Menu Item A 2</a> 
-     </ul> 
-    </li> 
-     <li> Menu Category B 
-     <ul> 
-      <li><a href="">Menu Item B 1</a>  
-      <li><a href="">Menu Item B 2</a> 
-  
-   </ul> 
-</ul> 
+s.ActivityMap.regionIDAttribute = "lpos";
+</script>
+<div id="nav" lpos="navbar">
+  <ul>
+    <li>Menu Category A
+      <ul>
+        <li><a href="">Menu Item A 1</a>
+        <li><a href="">Menu Item A 2</a>
+      </ul>
+    </li>
+    <li>Menu Category B
+      <ul>
+        <li><a href="">Menu Item B 1</a>
+        <li><a href="">Menu Item B 2</a>
+      </ul>
+    </li>
+  </ul>
 </div> 
   
-<div id="content" > 
-  <div id="breaking_news" lpos="breaking_news> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
- <div id="todays_top_headlines"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
-</div>
+<div id="content">
+  <div id="breaking_news" lpos="breaking_news>
+    <a href="breaking-news.html">...</a>
+  </div>
+  <div id="todays_top_headlines">
+    <a href="breaking-news.html">...</a>
+  </div>
 ```
 
 ## 구성 변수 {#configuration-vars}
@@ -137,34 +135,85 @@ s.ActivityMap.regionIDAttribute="lpos";
   <tr> 
    <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
-    </code> </td> 
-   <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭한 링크</b>를 나타내는 문자열 값을 반환해야 하는 함수. <p>반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
+    <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags</code><br/>
+    <code>function(clickedElement)&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;linkId;</code><br/>
+    <code>&nbsp;&nbsp;if&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A')&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title');</code><br/>
+    <code>&nbsp;&nbsp;}</code><br/>
+    <code>&nbsp;&nbsp;return&nbsp;linkId;</code><br/>
+    <code>}</code> </td>
+   <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭한 링크</b>를 나타내는 문자열 값을 반환해야 하는 함수. <br/>
+      <br/>
+     반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </td>
+  </tr>
+  <tr>
    <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
-    </code> </td> 
-   <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭했을 때 링크가 있었던 영역</b>을 나타내는 문자열 값을 반환해야 하는 함수. <p>반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
+        <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region</code><br/>
+    <code>function(clickedElement)&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;regionId,&nbsp;className;</code><br/>
+    <code>&nbsp;&nbsp;while&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement&nbsp;=&nbsp;clickedElement.parentNode))&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(regionId)&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;regionId.toLowerCase();</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;}</code><br/>
+    <code>&nbsp;&nbsp;}</code><br/>
+    <code>}</code> </td> 
+   <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭했을 때 링크가 있었던 영역</b>을 나타내는 문자열 값을 반환해야 하는 함수. <br/>
+      <br/>
+     반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </td>
+  </tr>
+  <tr>
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
-    </code> </td> 
-   <td colname="col3"> <p>링크 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
+     <code>//&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class</code><br/>
+    <code>&lt;style&gt;</code><br/>
+    <code>.linkExcluded&nbsp;{</code><br/>
+    <code>&nbsp;&nbsp;display:&nbsp;block;</code><br/>
+    <code>&nbsp;&nbsp;height:&nbsp;1px;</code><br/>
+    <code>&nbsp;&nbsp;left:&nbsp;-9999px;</code><br/>
+    <code>&nbsp;&nbsp;overflow:&nbsp;hidden;</code><br/>
+    <code>&nbsp;&nbsp;position:&nbsp;absolute;</code><br/>
+    <code>&nbsp;&nbsp;width:&nbsp;1px;</code><br/>
+    <code>}</code><br/>
+    <code>&lt;/style&gt;</code><br/>
+    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;</code><br/>
+    <code>&lt;/a&gt;</code><br/>
+    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt;</code><br/>
+    <code>&lt;/a&gt;</code><br/>
+    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt;</code><br/>
+    <code>&lt;/a&gt;</code><br/>
+    <code>&lt;script&gt;</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
+    <code>&nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2';</code><br/>
+    <code>&lt;/script&gt;</code> </td> 
+   <td colname="col3"> 링크 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </td>
+  </tr>
+  <tr>
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
    <td colname="col2"> 
-    <code>
-      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
-    </code> </td> 
-   <td colname="col3"> <p>영역 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </p> </td> 
-  </tr> 
- </tbody> 
+    <code>//&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap</code><br/>
+    <code>&lt;div&nbsp;id="links-included"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
+    <code>&lt;/div&gt;</code><br/>
+    <code>&lt;div&nbsp;id="links-excluded"&gt;&nbsp;</code><br/>
+    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
+    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.</code><br/>
+    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
+    <code>&lt;/div&gt;</code><br/>
+    <code>&lt;script&gt;</code><br/>
+    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
+    <code>&nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded';</code><br/>
+    <code>&lt;/script&gt;</code> </td> 
+   <td colname="col3"> 영역 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </td>
+  </tr>
+ </tbody>
 </table>
