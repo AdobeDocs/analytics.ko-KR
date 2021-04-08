@@ -1,14 +1,14 @@
 ---
 description: 디바이스 또는 브라우저에서 필수적이지 않은 쿠키를 저장하거나 읽기 위한 사용자 동의에 대한 가이드라인 및 권장 사항에 대해 살펴보십시오.
 title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입니까
+exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 translation-type: tm+mt
-source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
-
 
 # CNIL 동의 면제
 
