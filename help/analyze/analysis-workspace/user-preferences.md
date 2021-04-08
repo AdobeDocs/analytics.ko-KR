@@ -1,30 +1,30 @@
 ---
-title: Analysis Workspace에서 사용자 환경 설정을 지정하는 방법
+title: Analysis Workspace에서 사용자 환경 설정을 설정하는 방법
 feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
+exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 30%
+source-wordcount: '214'
+ht-degree: 65%
 
 ---
 
-
 # 사용자 환경 설정
 
-[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서 사용자 수준에서 Analysis Workspace 및 관련 구성 요소에 대한 설정을 관리할 수 있습니다. 사용자 환경 설정은 모든 *new* 프로젝트 또는 패널에 적용됩니다.
+[!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서 사용자 수준에서 Analysis Workspace 및 관련 구성 요소에 대한 설정을 관리할 수 있습니다. 사용자 환경 설정은 모든&#x200B;** 새 프로젝트 또는 패널에 적용됩니다.
 
 ![사용자 환경 설정](assets/user-preferences.png)
 
 ## 일반 환경 설정
 
-일반 기본 설정은 브라우저에서 Adobe Analytics 환경에 적용됩니다.
+일반 환경 설정은 브라우저의 Adobe Analytics 환경에 적용됩니다.
 
 | 환경 설정 | 옵션 |
 | --- | --- |
-| 랜딩 페이지 | <ul><li>프로젝트 목록(기본값)</li><li>빈 프로젝트</li><li>목록에서 선택한 특정 프로젝트</li></ul> |
-| 팁 | <ul><li>활성화됨(기본값)</li><li>비활성화됨</li></ul> |
+| 랜딩 페이지 | <ul><li>프로젝트 목록 (기본값)</li><li>빈 프로젝트</li><li>특정 프로젝트 목록에서 선택됨</li></ul> |
+| 팁 | <ul><li>활성화됨 (기본값)</li><li>비활성화됨</li></ul> |
 
 ## 프로젝트 환경 설정
 
@@ -33,11 +33,11 @@ ht-degree: 30%
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **표시** |  |  |
-|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | <ul><li>컴팩트</li><li>편안함</li><li>확장(기본값)</li></ul> |
-|  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | <ul><li>Adobe 제공 팔레트(기본값)</li><li>사용자 정의 팔레트</li></ul> |
+|  | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | <ul><li>콤팩트</li><li>편안함</li><li>확장됨 (기본값)</li></ul> |
+|  | [색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | <ul><li>Adobe 제공 팔레트 (기본값)</li><li>사용자 정의 팔레트</li></ul> |
 | **데이터** |  |  |
-|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>가장 최근(기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
+|  | [보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>가장 최근 (기본값)</li><li>목록에서 선택한 특정 보고서 세트</li></ul> |
 |  | [달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | 다음 목록에서 선택합니다. <ul><li>Adobe 제공 범위(기본값은 이번 달)</li><li>사용자 지정 범위</li></ul> |
-|  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>자유 형식(기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
-|  | 번호 형식 | <ul><li>1,000.00(기본값)</li><li>1.000,000</li><li>1 000,000</li></ul> |
-|  | CSV 구분 문자 | <ul><li>쉼표(기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
+|  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>자유형 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
+|  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
+|  | CSV 구분 기호 character | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
