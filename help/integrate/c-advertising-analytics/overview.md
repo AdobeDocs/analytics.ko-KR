@@ -1,18 +1,18 @@
 ---
 description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하여 이 상세한 가이드에서 Advertising Analytics로 할 수 있는 모든 작업을 알아보십시오.
 title: Advertising Analytics 가이드
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Advertising Analytics 가이드
 
-Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 유료 검색 데이터를 나란히 볼 수 있습니다. 이전에는 모든 Google AdWords/DFA 또는 Microsoft Bing 광고 데이터를 AAC(Adobe Advertising Cloud) 또는 Google/Bing에서 확인해야 했습니다. 이제는 Adobe Analytics 내의 노출 횟수, 클릭 수, 비용, 품질 점수 및 평균 위치 데이터를 검색 엔진과 AMO ID 인스턴스(클릭 인스턴스)에서 직접 가져옵니다.
+Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 유료 검색 데이터를 나란히 볼 수 있습니다. 이전에는 모든 Google AdWords/DFA 또는 Microsoft Bing 광고 데이터를 AAC(Adobe Advertising Cloud) 또는 Google/Bing에서 확인해야 했습니다. 이제 Adobe Analytics 내에서 다음 데이터를 받게 됩니다.AMO ID 인스턴스는 물론 검색 엔진에서 직접 노출 횟수, 클릭 수, 비용 데이터를 가져옵니다(인스턴스 클릭). Google이 2019년 9월에 이러한 지표를 정의했기 때문에 품질 점수 및 평균 Position은 더 이상 수집되지 않습니다.
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics는 Analysis Workspace, Reports &amp; Analytics, Report Bui
 | AMO 노출 횟수 | 검색 엔진에서 보고한 광고 노출 횟수. |
 | AMO 클릭 수 | 검색 엔진에서 보고한 광고 클릭 수. |
 | AMO 비용 | 검색 엔진에서 보고한 각 키워드/광고에 대해 지불된 비용. |
-| 평균 Pos | 검색 엔진에서 보고한 광고의 평균 위치를 반영하는 계산된 지표. |
-| 평균 품질 점수입니다 | 검색 엔진에서 보고한 평균 품질 점수를 반영하는 계산된 지표. |
