@@ -1,20 +1,20 @@
 ---
 title: 전체 처리 데이터 소스의 수명 종료
 description: 벌크 데이터 삽입 API와 전체 처리 데이터 소스 간의 비교 및 실행이 종료되는 이유.
+exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1208'
 ht-degree: 31%
 
 ---
-
 
 # 전체 처리 데이터 소스의 수명 종료
 
 몇 년 동안 전체 처리 데이터 소스를 통해 히트 수준 데이터를 Adobe Analytics에 제출할 수 있습니다. 이 데이터는 JavaScript 라이브러리 및 모바일 앱 SDK를 통해 수집한 데이터와 같은 방식으로 처리되었습니다. 2020년, Adobe은 전체 처리 데이터 소스와 동일한 기능을 하지만 추가 기능을 제공하는 [벌크 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 출시했습니다. 이 항목에서는 벌크 데이터 삽입 API에서 제공하는 추가 기능에 대한 세부 사항을 제공하며 파일 형식 차이에 대한 개요를 설명합니다.
 
-2021년 3월 25일부터 Adobe은 새로운 전체 처리 데이터 소스 연결을 만들지 못하게 됩니다. 기존 연결은 서비스를 완전히 사용하지 않을 때까지 계속 지원됩니다. 세부 사용 날짜는 아직 결정되지 않았지만 2021년에 있을 것이다.
+2021년 3월 25일부터 Adobe은 새로운 전체 처리 데이터 소스 연결을 만들지 못하게 됩니다. 기존 연결은 2021년 7월 31일에 서비스가 완전히 중단되기 전까지는 계속 지원됩니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
