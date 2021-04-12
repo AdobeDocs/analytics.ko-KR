@@ -2,20 +2,20 @@
 description: 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 title: 전체 처리
 topic: 개발자 및 구현
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
-
 
 # 전체 처리
 
 >[!IMPORTANT]
 >
->고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. Adobe는 향후 전체 프로세싱 데이터 소스에 대한 사용을 중단할 예정입니다. [추가 정보](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. Adobe은 2021년 7월 31일에 전체 처리 데이터 소스를 더 이상 사용하지 않을 계획이다. [추가 정보](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
@@ -256,4 +256,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-
