@@ -1,14 +1,14 @@
 ---
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
-translation-type: ht
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: ht
-source-wordcount: '531'
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
+translation-type: tm+mt
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+workflow-type: tm+mt
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Data Connectors 사용 종료
 
@@ -81,7 +81,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Lyris HQ | 사용 중단 |
 | MaritzCX(V 2.0) | 사용 중단 |
 | Merkle | 사용 중단 |
-| Official Oracle Eloqua Integration | 사용 중단 |
+| Official Oracle Eloqua Integration | Exchange로 마이그레이션 |
 | optivo broadmail(Episerver) | Exchange로 마이그레이션 |
 | Qualtrics v2 | Exchange로 마이그레이션 |
 | Responsys 2.0 | 사용 중단 |
