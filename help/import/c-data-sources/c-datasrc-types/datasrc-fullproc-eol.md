@@ -3,7 +3,7 @@ title: 전체 처리 데이터 소스의 수명 종료
 description: 벌크 데이터 삽입 API와 전체 처리 데이터 소스 간의 비교 및 실행이 종료되는 이유.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 31%
@@ -65,7 +65,7 @@ BDIA(Bulk Data Insertion API)는 전체 처리에서 지원되는 모든 사용 
 | linkName | linkName | 링크 이름. |
 | linkType | linkType | 링크 유형. 지원되는 값은 다음과 같습니다. `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | 링크의 HREF. |
-| listn 예: list2. | 지원되지 않음 | 변수로 전달된 후 보고를 위해 개별 라인 항목으로 보고되는 구분 기호로 구분된 값의 목록입니다. |
+| listn 예: list2. | 지원되지 않음 | 변수로 전달된 후 보고를 위해 개별 라인 항목으로 보고되는 구분 기호로 구분된 값의 목록입니다 |
 | marketingCloudVisitorID | 지원되지 않음 | Marketing Cloud ID. [방문자 식별](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) 및 Marketing Cloud 방문자 ID 서비스를 참조하십시오. |
 | 지원되지 않음 | charSet | 웹 사이트에 지원되는 문자 집합입니다. 예를 들어 UTF-8, ISO-8859-1 등입니다.  |
 | 지원되지 않음 | clickAction | 방문자 클릭 맵에 대한 개체 식별자(oid) |
@@ -76,7 +76,7 @@ BDIA(Bulk Data Insertion API)는 전체 처리에서 지원되는 모든 사용 
 | 지원되지 않음 | clickTag | 방문자 클릭 맵에 대한 개체 태그 이름(ot) |
 | 지원되지 않음 | scXmlVer | 마케팅 보고서 XML 요청 버전 번호(예: 1.0). |
 | 지원되지 않음 | timezone | 방문자의 시간대와 GMT의 시차, 시간 단위(예: -8). |
-| pageName | pageName | 페이지의 이름입니다. |
+| pageName | pageName | 페이지 이름 |
 | pageType | pageType | 페이지 유형(예: &quot;오류 페이지&quot;). |
 | pageUrl | pageUrl | 페이지 URL(예: https://www.example.com/index.html). |
 | plugins | plugins | 세미콜론으로 구분된 브라우저 플러그인 이름 목록. |
