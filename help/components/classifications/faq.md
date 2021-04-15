@@ -1,14 +1,14 @@
 ---
 title: 분류 FAQ
 description: 분류 사용에 대한 FAQ입니다.
-translation-type: ht
-source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
+translation-type: tm+mt
+source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 92%
 
 ---
-
 
 # 분류 FAQ
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 * 분류 규칙 빌더를 사용하면 존재하지 않는 항목은 분류하지 않으므로 추가 비용이 발생하지 않습니다.
 
 ## 특수 문자가 포함된 값을 분류하려면 어떻게 해야 합니까?
+
+Adobe Analytics에서 이러한 데이터에서 빈 문자가 잘리기 때문에 분류 데이터 및 히트 데이터에서 선행 및 후행 공백 문자는 사용할 수 없습니다.
 
 보고에 쉼표나 큰따옴표와 같은 특수 문자를 사용하는 것은 일반적으로 권장되지 않습니다. 그러나 사용해야 하는 경우가 있습니다. 보고 값에 분류할 문자가 포함되어 있는 경우 다음 절차를 수행하십시오.
 
