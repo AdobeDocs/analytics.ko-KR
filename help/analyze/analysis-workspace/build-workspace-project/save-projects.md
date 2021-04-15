@@ -2,12 +2,13 @@
 description: 자동 저장, 다른 이름으로 저장, 템플릿으로 저장 등 다양한 저장 옵션에 대해 알아봅니다.
 title: 프로젝트 저장
 feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
+exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +23,7 @@ ht-degree: 100%
 | 작업 | 설명 |
 |---|---| 
 | **[!UICONTROL 저장]** | 프로젝트에 변경 사항을 저장합니다. 프로젝트가 공유되면 프로젝트의 수신자도 변경 내용을 보게 됩니다. 프로젝트를 처음 저장할 때 프로젝트에 이름, 설명(선택 사항) 및 태그를 추가(선택 사항)하라는 메시지가 표시됩니다. |
+| **[!UICONTROL 메모와 함께 저장]** | 프로젝트가 저장되기 전에 프로젝트에서 변경된 사항에 대한 메모를 추가합니다. 메모는 프로젝트 버전과 함께 저장되며 프로젝트 > 이전 버전 열기 아래의 모든 편집자가 사용할 수 있습니다. |
 | **[!UICONTROL 다른 이름으로 저장]** | 프로젝트의 복제본을 만듭니다. 원본 프로젝트는 영향을 받지 않습니다. |
 | **[!UICONTROL 템플릿으로 저장]** | 프로젝트를 **[!UICONTROL 프로젝트 > 새로 만들기]** 아래에서 조직에서 사용할 수 있게 되는 [사용자 지정 템플릿](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)으로 저장합니다. |
 
@@ -52,3 +54,12 @@ Adobe에서는 페이지를 떠나기 전에 저장할 수 있는 옵션을 제�
 ![](assets/project-recovery.png)
 
 저장되지 않은 **새** 프로젝트의 경우 저장하지 않은 변경 사항은 복구할 수 없습니다.
+
+## 이전 버전 열기 {#previous-version}
+
+프로젝트의 이전 버전을 열려면 다음을 수행하십시오.
+
+1. 프로젝트 > 이전 버전 열기를 선택합니다.
+1. 사용 가능한 이전 버전 목록을 검토합니다. 편집기가 저장될 때 추가된 메모와 함께 타임스탬프와 편집기가 제공됩니다. 노트 없는 버전은 90일 동안 저장됩니다.메모가 있는 버전은 1년 동안 저장됩니다.
+1. 이전 버전을 선택하고 로드를 클릭합니다.
+1. 이전 버전은 알림과 함께 로드됩니다. 저장을 클릭해야만 이전 버전이 프로젝트의 현재 저장된 버전이 됩니다. 로드된 버전을 벗어나는 경우, 돌아오면 마지막으로 저장된 버전의 프로젝트가 표시됩니다.
