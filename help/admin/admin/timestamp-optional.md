@@ -1,16 +1,16 @@
 ---
 description: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터를 모두 하나의 보고서 세트에 결합하십시오.
 title: 타임스탬프 선택 사항
-topic: Admin tools
+feature: 관리 도구
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '319'
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # 타임스탬프 선택 사항
 
@@ -51,4 +51,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >보고서 세트가 **타임스탬프 선택 사항**&#x200B;으로 설정된 경우 이 설정을 다른 설정으로 변경하려면 Adobe Client Care에 문의하십시오.
-
