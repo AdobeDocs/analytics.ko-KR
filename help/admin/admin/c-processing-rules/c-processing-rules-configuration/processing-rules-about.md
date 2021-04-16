@@ -2,16 +2,16 @@
 description: 처리 규칙을 사용하여 정의된 조건을 기준으로 데이터를 변경할 수 있습니다. 속성 또는 값이 정의된 조건과 일치하는 경우 값을 설정하고 삭제할 수 있으며 이벤트를 설정할 수 있습니다.
 subtopic: Processing rules
 title: 처리 규칙 작동 방식
-topic: Admin tools
+feature: 관리 도구
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '690'
+exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '692'
 ht-degree: 100%
 
 ---
-
 
 # 처리 규칙 작동 방식
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 작업이 발생하기 전에 변수에서 값이 자동으로 확인되지 않습니다. 예를 들어 Prop1에는 &quot;something&quot;의 값이 포함되고, eVar1은 비어 있습니다. Prop1이 eVar1과 동일하도록 설정하는 경우 두 값 모두 비어 있게 됩니다. 이를 방지해야 하는 경우 값의 존재를 확인하기 위한 조건을 추가합니다.
 
-## 처리 규칙 작업 {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## 처리 규칙 작업  {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 작업은 페이지 변수를 설정하거나, 페이지 변수를 삭제하거나 이벤트를 트리거합니다. 또한 작업은 보고서에 표시할 값을 연결할 수 있습니다. 
 
