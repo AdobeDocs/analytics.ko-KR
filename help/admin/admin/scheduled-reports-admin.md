@@ -1,16 +1,16 @@
 ---
 description: 관리자 수준 사용자가 조직 전체에서 예약된 보고서를 보고 관리할 수 있습니다.
 title: 예약된 보고서 큐
-topic: Reports
+topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
+exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # 예약된 보고서 큐
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ![](assets/show_all_scheduled_reports.png)
 
-## 고급 필터링 기능 {#section_206A52A85DE84947AAB3AD082FBF6275}
+## 고급 필터링 기능  {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 예를 들어 시간별로 예약된 모두 보고서를 필터링하려면 **[!UICONTROL 고급]** 필터에서 **[!UICONTROL 빈도가 시간 단위]**&#x200B;를 지정하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
