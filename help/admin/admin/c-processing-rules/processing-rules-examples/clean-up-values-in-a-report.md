@@ -2,16 +2,16 @@
 description: '일반적인 철자 오류에 대해 값을 일치시키고 해당 값을 업데이트하여 보고서에 올바르게 표시할 수 있습니다. '
 subtopic: Processing rules
 title: 보고서에서 값 정리
-topic: Admin tools
+feature: 관리 도구
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '113'
+exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # 보고서에서 값 정리
 
@@ -27,4 +27,3 @@ ht-degree: 100%
 예:
 
 ![](assets/clean-up-values-in-report.png)
-
