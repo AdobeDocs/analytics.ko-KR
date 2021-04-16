@@ -1,16 +1,16 @@
 ---
 description: 트래픽 변수 보고서를 추가하고 활성화하는 방법을 설명하는 단계입니다.
 title: 트래픽 변수 보고서 활성화
-topic: Admin tools
+feature: 관리 도구
 uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '58'
+exl-id: 6c28c1ed-76ec-4df8-a583-3b7ac923569a
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '60'
 ht-degree: 100%
 
 ---
-
 
 # 트래픽 변수 보고서 활성화
 
