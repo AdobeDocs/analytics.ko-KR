@@ -1,16 +1,16 @@
 ---
 description: 세그먼트 빌더는 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 지표 차원, 세그먼트 및 이벤트를 세그먼트 방문자로 드래그하여 놓을 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 방문과 페이지 히트에 걸쳐 방문자 특성 및 작업을 식별하는 간단하거나 복잡한 세그먼트를 작성하고 저장할 수 있습니다.
 title: 세그먼트 작성
-topic: 세그먼트
+feature: 세그먼트
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 100%
 
 ---
-
 
 # 세그먼트 빌더
 
@@ -204,7 +204,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 열람되었지만 장바구니에 추가되지 않은 제품 </td> 
-   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>Then </p> <p> 장바구니 추가는 0입니다. </p> </td> 
+   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>그런 다음 </p> <p> 장바구니 추가는 0입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인에서 방문 </td> 
@@ -244,4 +244,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
