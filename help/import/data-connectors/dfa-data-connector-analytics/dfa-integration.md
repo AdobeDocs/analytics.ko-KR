@@ -2,16 +2,16 @@
 description: 'DFA 통합 구성에 다음 작업이 포함됩니다. '
 keywords: DFA
 title: DFA 통합
-topic: Data connectors
+feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
+exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2601'
 ht-degree: 100%
 
 ---
-
 
 # DFA 통합{#dfa-integration}
 
@@ -112,7 +112,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> 시간 초과 이벤트 </td> 
-   <td colname="col3"> <p>The Analytics Counter Event that including each time the <span class="varname"> s.maxDelay </span> 타이머가 만료되고 DFA 서버에서 응답을 받지 못할 때마다 늘어나는 Analytics 카운트 이벤트입니다. 이 이벤트를 사용하여 <span class="varname"> s.maxDelay </span> 변수를 구성합니다(s.maxDelay </a> 조정). </p> </td> 
+   <td colname="col3"> <p>The Analytics Counter Event that increments each time the <span class="varname"> s.maxDelay </span> 타이머가 만료되고 DFA 서버에서 응답을 받지 못할 때마다 늘어나는 Analytics 카운트 이벤트입니다. 이 이벤트를 사용하여 <span class="varname"> s.maxDelay </span> 변수를 구성합니다(s.maxDelay </a> 조정). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -224,7 +224,7 @@ DFA 통합 설정 블록은 DFA 통합에 필요한 변수를 설정합니다. �
 >
 >플러그인이 불필요한 DFA 쿼리를 제거할 때 사용하는 매커니즘 중 하나는 도메인 기반 방문 쿠키입니다. 여러 도메인을 포괄하는 통합 보고서 세트는 방문자가 DFA의 영향을 받는 뷰스루 또는 클릭스루 이후 도메인을 교차하면 클릭스루 및 뷰스루 데이터를 늘립니다.
 
-## 성공적인 DFA 통합 확인의 단계에 따라 작동 중인 통합이 있는지 확인합니다{#confirming-a-successful-dfa-integration}
+## 성공적인 DFA 통합 확인의 단계에 따라 작동 중인 통합이 있는지 확인합니다 {#confirming-a-successful-dfa-integration}
 
 필요한 웹 사이트 업데이트를 모두 완료한 후 Charles*, Chrome Developer Tools 또는 Firebug*와 같은 네트워크 트래픽 뷰어를 사용하여 DFA가 Adobe 수집 서버와 통신하는지 확인할 수 있습니다.
 
@@ -241,7 +241,7 @@ DFA 지원 `s_code.js` 파일을 배포한 후 네트워크 트래픽 뷰어를 
 
 어느 경우든지 요청이 성공하면 vX 매개 변수(여기서 X는 뷰스루 eVar 번호)가 있는 Adobe 데이터 수집 서버로 요청이 전달됩니다. 이 매개 변수 값은 DFA-XXXX-XXXX- XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX 형식을 사용합니다. 이 문자열에는 마지막 클릭 및 현재 방문자의 마지막 노출에 대한 정보가 들어 있습니다.
 
-## s.maxDelay 조정을 참조하십시오{#tuning-s-maxdelay}
+## s.maxDelay 조정 {#tuning-s-maxdelay}
 
 DFA를 성공적으로 구현하면 특정 사이트에 맞게 s.maxDelay가 최적화됩니다.
 
