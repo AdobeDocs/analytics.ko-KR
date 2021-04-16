@@ -1,16 +1,16 @@
 ---
 description: 태그, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
 title: 세그먼트 필터링
-topic: Segments
+feature: 세그먼트
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '154'
+exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # 세그먼트 필터링
 
@@ -31,7 +31,6 @@ ht-degree: 100%
    | 기타 필터 > 모두 표시 | **(관리자만)** 모든 세그먼트, 해당 소유자 및 마지막으로 수정한 날짜가 표시됩니다. |
    | 기타 필터 > 내 소유 | 소유한 모든 세그먼트를 표시합니다. |
    | 기타 필터 > 나와 공유 | 다른 사람이 사용자와 [공유한](/help/components/segmentation/segmentation-workflow/t-seg-share.md) 모든 세그먼트를 표시합니다. |
-   | 기타 필터 > 즐겨찾기 |  [즐겨찾기](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | 기타 필터 > 즐겨찾기 | Shows all segments you marked as [즐겨찾기](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
    | 기타 필터 > 승인됨 | 공식적으로 [승인된](/help/components/segmentation/segmentation-workflow/seg-approve.md) 모든 세그먼트를 표시합니다. |
    | 세그먼트 검색 | 이름별로 세그먼트를 검색할 수 있습니다. |
-
