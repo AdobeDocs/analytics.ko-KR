@@ -2,16 +2,16 @@
 description: 쿼리 문자열 매개 변수를 사용하여 변수를 채울 수 있습니다.
 subtopic: Processing rules
 title: 쿼리 문자열 매개 변수에서 캠페인 ID 채우기
-topic: Admin tools
+feature: 관리 도구
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
-translation-type: ht
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
-workflow-type: ht
-source-wordcount: '112'
+exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
-
 
 # 쿼리 문자열 매개 변수에서 캠페인 ID 채우기
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 예:
 
 ![](assets/set-campaign-conditionally.png)
-
