@@ -1,13 +1,16 @@
 ---
 description: Data Warehouse는 방문자 ID 목록을 추출할 수 있는 기능을 제공합니다. 이러한 ID는 쿠키 ID가 아니고 전환 변수 중 하나에서 캡처한 ID입니다. 이 정보를 다른 방법으로 얻을 수도 있지만, 다음 방법을 사용하면 간단하게 Data Warehouse 요청을 생성할 수 있습니다.
 title: 사용 사례 - 방문자 ID 추출
-topic: Admin tools
+feature: 관리 도구
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
+exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
-
 
 # 사용 사례 - 방문자 ID 추출
 
