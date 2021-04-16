@@ -2,16 +2,16 @@
 description: 보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다.
 subtopic: Bot rules
 title: 보트 규칙 개요
-topic: Admin tools
+feature: 관리 도구
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
+exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1358'
 ht-degree: 99%
 
 ---
-
 
 # 보트 규칙 개요
 
