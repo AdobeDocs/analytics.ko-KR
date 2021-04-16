@@ -2,16 +2,16 @@
 description: 브라우저를 사용하여 분류 데이터를 가져올(다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
 subtopic: Classifications
 title: 브라우저 가져오기
-topic: Admin tools
+feature: 관리 도구
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '305'
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # 브라우저 가져오기
 
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. 처리 메시지가 표시되는 상태 창을 확인하십시오.
 1. (조건부) **[!UICONTROL 업로드가 완료된 후 분류 파일을 자동으로 다운로드합니다]**&#x200B;를 선택한 경우 처리가 완료되었을 때 결과 파일을 저장할 위치를 지정합니다.
 >가져오기에 성공하면 해당하는 변경 내용이 내보내기에 바로 표시됩니다. 하지만 보고서에서 데이터를 변경하면 브라우저 가져오기를 사용하는 경우 최대 4시간, FTP 가져오기를 사용하는 경우 최대 24시간이 걸립니다.
-
