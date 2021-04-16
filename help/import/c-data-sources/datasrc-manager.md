@@ -2,16 +2,16 @@
 description: 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
 subtopic: Data sources
 title: 데이터 소스 관리자
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: a63137b8-deeb-4865-9be9-322416b00186
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
 ---
-
 
 # 데이터 소스 관리자
 
