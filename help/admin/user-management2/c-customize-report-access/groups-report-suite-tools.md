@@ -1,18 +1,18 @@
 ---
 description: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다.
-keywords: groups;permissions
+keywords: 그룹,권한
 subtopic: Users and groups
 title: 보고서 세트 도구 권한 사용자 지정
-topic: Admin tools
+feature: 관리 도구
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
+exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1166'
 ht-degree: 93%
 
 ---
-
 
 # 보고서 세트 도구 권한 사용자 지정
 
@@ -59,7 +59,7 @@ API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항�
 | [검색 방법](/help/admin/admin/finding-methods.md) | 여러 검색 방법 보고서가 사용자 사이트에서 전환 성공 이벤트에 대한 크레딧을 받는지 확인할 수 있습니다. |
 | [전환 분류](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | 분류([도구 및 보고서] 아래에 있음)로 통합되었습니다. |
 | [고유 방문자 수](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 고유한 방문자 변수를 지정할 권한을 부여합니다. |
-| [성공 이벤트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html) | 제품 보기, 체크아웃 및 구매처럼 추적이 가능한 작업입니다. |
+| [성공 이벤트](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | 제품 보기, 체크아웃 및 구매처럼 추적이 가능한 작업입니다. |
 | [분류 계층](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | 분류([도구 및 보고서] 아래에 있음)로 통합되었습니다. |
 | [목록 변수](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html) | List Var라고도 합니다. 목록 Prop과 마찬가지로 목록 변수는 같은 이미지 요청에서 여러 값을 사용할 수 있도록 허용합니다.  |
 | [기본 지표](/help/admin/admin/default-metrics.md) | 사용자가 사용자 지정 지표 세트를 선택하지 않는 경우 Reports &amp; Analytics 기능은 모든 전환 보고서에 기본 지표 세트를 표시합니다. 선택된 지표가 연관된 보고서 세트의 모든 사용자에게 표시됩니다. |
@@ -68,8 +68,8 @@ API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항�
 | [예외 항목 탐지](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | 주어진 지표가 이전 데이터와 관련하여 어떻게 변했는지 파악하는 통계적 방법을 제공하는 예외 항목 탐지에 대한 권한을 부여합니다. |
 | [채널 보고서](/help/components/c-marketing-channels/analyze-mc.md) | 보고서 > 마케팅 채널 보고서에 있는 마케팅 채널 보고서에 대한 권한을 부여합니다. |
 | [실시간 보고서](/help/admin/admin/realtime/t-realtime-admin.md) | 실시간 보고서에 대한 액세스 권한을 부여합니다. |
-| [보트 페이지](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트 페이지는 특정 보고 및 분석 보고서용이지 보트 규칙 관리용이 아닙니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.**&#x200B;보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
-| [보트](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트는 특정 보고 및 분석 보고서용이지 보트 규칙 관리용이 아닙니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.** 보트를 사용하면 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
+| [보트 페이지](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트 페이지는 보트 규칙 관리가 아니라 특정 보고 및 분석 보고서용입니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.**&#x200B;보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
+| [보트](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트는 보트 규칙 관리가 아니라 특정 보고 및 분석 보고서용입니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.** 보트를 사용하면 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
 | [사용자 지정 데이터 웨어하우스 보고서](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터 사본을 참조합니다. 특별한 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다. |
 | 일별 재방문 | 특정 날짜에 웹 사이트에 여러 번 방문한 방문자의 수를 보여주는 보고서. 하루는 마지막 24시간으로 정의됩니다. |
 | [데이터 소스 관리자](/help/admin/admin/data-sources.md) | 데이터 소스 기능을 사용하면 오프라인 소스의 데이터를 Analytics로 가져올 수 있습니다. |
