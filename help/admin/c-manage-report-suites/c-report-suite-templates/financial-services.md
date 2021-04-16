@@ -1,13 +1,16 @@
 ---
 description: 온라인 서비스에 대한 액세스를 제공하는 은행 및 기타 기관에 대한 일반 설정을 정의합니다.
 title: 금융 서비스
-topic: Admin tools
+feature: 관리 도구
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
+exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
-
 
 # 금융 서비스
 
@@ -43,4 +46,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 페이지 보기 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 일별 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
-
