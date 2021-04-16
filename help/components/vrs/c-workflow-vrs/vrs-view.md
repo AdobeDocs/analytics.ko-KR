@@ -1,17 +1,17 @@
 ---
 description: 보고서 세트 이름 옆에 있는 i(정보) 아이콘을 클릭하여 보고서 세트에 대한 정보를 얻습니다.
-keywords: Virtual Report Suite
+keywords: 가상 보고서 세트
 title: 가상 보고서 세트 정보 보기
-topic: Reports and analytics
+feature: 보고 및 분석 기본 사항
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 97%
 
 ---
-
 
 # 가상 보고서 세트 정보 보기
 
@@ -27,4 +27,3 @@ ht-degree: 100%
 * 총 고유한 방문자 카운트.
 
 ![](assets/vrs-info.png)
-
