@@ -1,17 +1,17 @@
 ---
 description: 다음은 가상 보고서 세트 만들기를 시작하기 전에 주의해야 할 몇 가지 사항입니다.
-keywords: Virtual Report Suite
+keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
-topic: Reports and analytics
+feature: 보고 및 분석 기본 사항
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 99%
 
 ---
-
 
 # 가상 보고서 세트 만들기
 
@@ -66,4 +66,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
