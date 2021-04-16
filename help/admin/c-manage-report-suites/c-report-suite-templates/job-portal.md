@@ -1,13 +1,16 @@
 ---
 description: 구직 포털 또는 경력 검색 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 구직 포털
-topic: Admin tools
+feature: 관리 도구
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
-
 
 # 구직 포털
 
@@ -43,4 +46,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 페이지 보기 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 일별 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
-
