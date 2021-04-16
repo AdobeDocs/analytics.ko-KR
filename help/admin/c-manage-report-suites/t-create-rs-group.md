@@ -1,13 +1,16 @@
 ---
 description: 보고서 세트 그룹을 만드는 방법을 설명하는 단계입니다.
 title: 보고서 세트 그룹 만들기
-topic: Admin tools
+feature: 관리 도구
 uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
+exl-id: ad4c3f06-72ef-4ffd-86c4-0d2a4c7a4e9d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 100%
 
 ---
-
 
 # 보고서 세트 그룹 만들기
 
