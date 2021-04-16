@@ -5,7 +5,7 @@ feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
+source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 54%
@@ -64,6 +64,9 @@ Adobe에서는 페이지를 떠나기 전에 저장할 수 있는 옵션을 제�
 프로젝트의 이전 버전을 열려면 다음을 수행하십시오.
 
 1. **[!UICONTROL 프로젝트]** > **[!UICONTROL 이전 버전 열기]**&#x200B;로 이동합니다.
+
+   ![](assets/previous-versions.png)
+
 1. 사용 가능한 이전 버전 목록을 검토합니다.
    [!UICONTROL 편집자] 가   저장될 때   추가된 경우 메모와 함께 타임스탬프와 편집기가   표시됩니다. 노트 없는 버전은 90일 동안 저장됩니다.메모가 있는 버전은 1년 동안 저장됩니다.
 1. 이전 버전을 선택하고 **[!UICONTROL 로드]**를 클릭합니다.
