@@ -1,18 +1,18 @@
 ---
 description: '상호 장치 방문자 식별은 여러 장치의 방문자들을 연결하는 데 도움이 됩니다. 상호 장치 방문자 식별에서는 방문자 ID 변수 s.visitorID를 사용하여 여러 장치의 사용자를 연결합니다. '
-keywords: Analytics Implementation
+keywords: Analytics 구현
 subtopic: Visitors
 title: 여러 장치에서 사용자 연결
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '399'
+exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '401'
 ht-degree: 100%
 
 ---
-
 
 # 여러 장치에서 사용자 연결
 
