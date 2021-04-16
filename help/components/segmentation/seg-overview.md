@@ -1,16 +1,16 @@
 ---
 description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 방문자 하위 집합을 식별할 수 있습니다. 세그먼트는 특정 요구에 대해 작성한 다음 확인, 편집 및 다른 팀 구성원과 공유하거나 다른 Adobe 제품 및 Analytics 기능에서 사용할 수 있는 정리된 대상 인사이트로 디자인됩니다.
 title: 세그먼트 및 컨테이너 정보
-topic: 세그먼트
+feature: 세그먼트
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3700'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # 세그먼트 및 컨테이너 정보
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 **논리 그룹 컨테이너**
 
-논리 그룹 컨테이너를 사용하면 세그먼트 규칙 내의 별도 컨테이너를 제공하여 계층 구조를 기반으로 하지 않는 개체들을 필터링할 수 있습니다. 예를 들어 방문자를 기반으로 필터링을 수행하는 세그먼트 내의 중첩된 컨테이너를 제공할 수 있습니다. 이런 유형의 논리에서는 선택한 방문자들에 대해서만 계층 구조를 세분화하여(이미 최상위 방문자 컨테이너를 가지고 있으므로) 필터링해야 합니다. 이 작업은 논리 그룹 컨테이너를 사용하여 완수할 수 있습니다. 자세한 내용은 [논리 그룹 예](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 참조하십시오.
+논리 그룹 컨테이너를 사용하면 세그먼트 규칙 내의 별도 컨테이너를 제공하여 계층 구조를 기반으로 하지 않는 개체들을 필터링할 수 있습니다. 예를 들어 방문자를 기반으로 필터링을 수행하는 세그먼트 내의 중첩된 컨테이너를 제공할 수 있습니다. 이런 유형의 논리에서는 선택한 방문자들에 대해서만 계층 구조를 세분화하여(이미 최상위 방문자 컨테이너를 가지고 있으므로) 필터링해야 합니다. 이 작업은 논리 그룹 컨테이너를 사용하여 완수할 수 있습니다. 자세한 내용은 [논리 그룹 예제](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 참조하십시오.
 
 ## 컨테이너 중첩 {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -297,4 +297,3 @@ Country = United States + Order = True
 
 * 방문 컨테이너는 적어도 한 페이지가 조건을 충족하는 방문에서 본 모든 페이지를 반환합니다. 따라서 특정 페이지를 첫째 날, 방문 1에서만 열람했다고 해도 전체 방문에서 열람한 모든 페이지가 데이터에 포함됩니다.
 * 세그먼트화하는 조건이 eVar 또는 다른 유형의 지속형 변수와 관련된 경우에는 유의하시기 바랍니다. 예를 들어 조건 &quot;where campaign contains email&quot;을 사용할 수 있으며 7일 이후에는 만료됩니다. 따라서 이 캠페인이 첫 번째 방문에서 설정된 경우 7일 더 지속됩니다. 이 캠페인이 첫 번째 방문에서만 설정되었더라도 각 방문이 포함됩니다. 다른 방문도 포함됩니다(보고서의 날짜 범위에 포함되는 경우). 지속되는 값을 포함하지 않으려면 이벤트 &quot;instance of&quot; 또는 동급의 Prop 변수(사용 가능한 경우)를 사용합니다.
-
