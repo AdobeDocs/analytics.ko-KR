@@ -1,16 +1,16 @@
 ---
 description: 양력 모델이 아닌 달력 옵션입니다. 해당 옵션에는 4-4-5, 4-5-4 및 5-4-4 달력 모델이 있으며 모든 모델이 소매 산업의 표준으로 사용됩니다. 또한 보고 기능은 사용자가 모든 항목을 직접 설정할 수 있는 사용자 지정 가능 달력 옵션을 제공합니다.
 title: 사용자 지정 달력
-topic: 관리 도구
+feature: 관리 도구
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
+exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 92%
 
 ---
-
 
 # 사용자 지정 달력
 
@@ -57,4 +57,3 @@ ht-degree: 92%
   </tr> 
  </tbody> 
 </table>
-
