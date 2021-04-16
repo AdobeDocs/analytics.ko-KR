@@ -2,16 +2,16 @@
 description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
 subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
-topic: Admin tools
+feature: 관리 도구
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '745'
 ht-degree: 86%
 
 ---
-
 
 # 처리 규칙에 사용 가능한 차원
 
@@ -176,7 +176,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>목록 변수 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구매 ID </p> </td> 
@@ -210,8 +210,8 @@ ht-degree: 86%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Event 1-1000 </p> <p>(SiteCatalyst 15 고객이면 이벤트 1-100) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
+   <td colname="col1"> <p>이벤트 1-1000 </p> <p>(SiteCatalyst 15 고객이면 이벤트 1-100) </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구매, scView, scAdd 및 기타 장바구니 이벤트 </p> </td> 
@@ -219,4 +219,3 @@ ht-degree: 86%
   </tr> 
  </tbody> 
 </table>
-
