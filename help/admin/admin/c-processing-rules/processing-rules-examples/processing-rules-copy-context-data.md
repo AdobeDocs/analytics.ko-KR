@@ -2,16 +2,16 @@
 description: 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 props 및 eVars로 이동합니다.
 subtopic: Processing rules
 title: eVar에 컨텍스트 데이터 변수 복사
-topic: Admin tools
+feature: 관리 도구
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
-translation-type: ht
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
-workflow-type: ht
-source-wordcount: '229'
+exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # eVar에 컨텍스트 데이터 변수 복사
 
