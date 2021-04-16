@@ -2,16 +2,16 @@
 description: 사용자 관리 페이지의 보고서 사용자 및 그룹 관리를 통해 사용자와 그룹을 관리하고 보고서, 도구 및 보고서 세트에 대한 액세스 권한을 제어할 수 있습니다.
 subtopic: Users and groups
 title: 사용자 관리 개요
-topic: Admin tools
+feature: 관리 도구
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '407'
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # 사용자 관리 개요
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 | [!UICONTROL 사용자에게 암호 변경 요구] | (선택 사항) 선택하면 사용자가 다음 로그인할 때 암호를 변경해야 합니다. |
 | [!UICONTROL 로그인 유효 기간] | (선택 사항) 임시 계정이 유효한 날짜입니다. |
 
-**액세스 권한**
+**액세스**
 
 <table id="table_5CAF9AAAE7E648B4887CEB7D682292F2"> 
  <thead> 
@@ -95,4 +95,3 @@ ht-degree: 100%
 | [!UICONTROL 사용자 지정 메시지] | 환영 메시지에 부가적인 컨텐츠를 추가합니다. 사용자 지정 메시지 필드는 HTML을 지원하지만, 첨부 파일을 포함할 수 없습니다. |
 | [!UICONTROL 이메일 미리 보기] | 별도의 브라우저 창에서 환영 이메일을 표시합니다. |
 | [!UICONTROL 기본 환영 메시지로 설정] | 사용자 지정 메시지 창에서 지정된 사용자 지정 컨텐츠를 포함하도록 기본 환영 메시지를 수정합니다. |
-
