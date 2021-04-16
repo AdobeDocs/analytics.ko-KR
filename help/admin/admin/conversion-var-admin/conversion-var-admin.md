@@ -2,16 +2,16 @@
 description: 사용자 지정 인사이트 전환 변수(또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 지정 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. eVar는 방문 기준이며 쿠키와 유사한 기능을 수행할 수 있습니다. eVar 변수로 전달된 값은 사전 결정된 기간 동안 사용자를 따릅니다.
 keywords: eVar
 title: 전환 변수(eVar)
-topic: Admin tools
+feature: 관리 도구
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1579'
-ht-degree: 100%
+exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1582'
+ht-degree: 98%
 
 ---
-
 
 # 전환 변수(eVar)
 
@@ -76,7 +76,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">월 만료: eVar이 월요일 오전 7시 15분부터 31일 후에 만료됩니다. </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>특정 전환 이벤트.</b> 특정 이벤트가 지정된 후 실행되는 다른 전환 이벤트가 eVar과 연결됩니다. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>절대 안 함.</b> 이 <span class="varname"> visitorID</span> 쿠키가 그대로 있는 경우 eVar와 이벤트 간에 시간이 경과할 수 있습니다. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>절대 안 함.</b> visitorIDcookie가  <span class="varname"> </span> 손상되지 않은 한, eVar과 이벤트 사이에 모든 시간이 경과할 수 있습니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
