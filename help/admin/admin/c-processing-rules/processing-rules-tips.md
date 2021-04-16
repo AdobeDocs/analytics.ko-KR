@@ -2,16 +2,16 @@
 description: 이 섹션에는 처리 규칙을 테스트하기 위한 지침과 피해야 할 일반적인 실수 목록이 들어 있습니다.
 subtopic: Processing rules
 title: 처리 규칙 팁과 트릭
-topic: Admin tools
+feature: 관리 도구
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '490'
+exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
-
 
 # 처리 규칙 팁과 트릭
 
@@ -43,7 +43,7 @@ prop1이 &quot;news&quot;를 포함하는 경우처럼 검색을 기반으로 �
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## 값 덮어쓰기 피하기 {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## 값 덮어쓰기 피하기  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 다음 예에서는 두 개의 컨텍스트 데이터 변수가 사이트에 사용되어 search_keyword 검색어와 search_term 검색어를 캡처합니다. 그러나 구성에 기준하여 search_term이 빈 경우에도, search_keyword 값이 항상 덮어쓰기됩니다.
 
@@ -51,13 +51,13 @@ prop1이 &quot;news&quot;를 포함하는 경우처럼 검색을 기반으로 �
 
 ![](assets/tips-search-keyword.png)
 
-## 검색어를 UTF-8 또는 유니코드로 인코딩 {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## 검색어를 UTF-8 또는 유니코드로 인코딩  {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 쿼리 문자열에서 가져온 검색어를 올바르게 인코딩해야 합니다. 그렇지 않으면 처리 규칙과 일치하지 않습니다.
 
 ![](assets/tips-multibyte.png)
 
-## 다음으로 시작, 포함 및 다음으로 끝남 {#section_80CE853244FC435B844A09EA51868D8D}
+## 다음으로 시작, 포함 및 다음으로 끝남  {#section_80CE853244FC435B844A09EA51868D8D}
 
 올바른 일치 조건을 선택하여 올바르게 일치하는 가장 제한적인 조건을 찾습니다. 규칙을 만들기 전에 보고서에서 값을 검색하여 상관 없는 일치사항이 없음을 확인할 수 있습니다. 예를 들어 Prop2 보고서를 검색하여 이 규칙을 활성화하기 전에 이 조건과 일치하는 모든 위치를 찾으십시오.
 
