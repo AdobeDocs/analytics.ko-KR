@@ -1,16 +1,16 @@
 ---
 description: 세그먼트를 계획할 때 따라야 하는 단계 및 모범 사례에 대해 설명합니다.
 title: 계획 세그먼트
-topic: Segments
+feature: 세그먼트
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '208'
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # 계획 세그먼트
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 
 1. **승인 프로세스**&#x200B;를 제시할 방법을 고려합니다. 단일 사용자가 세그먼트를 검토하고 승인합니까? 아니면 위원회에서 결정을 내립니까?
 1. 비즈니스 사용자에게 모듈 방식으로 세그먼트 부분 또는 구성 요소를 스택하고 재사용할 수 있도록 하는 **세그먼트 라이브러리**&#x200B;에 대한 보기를 사용하여 세그먼트를 정의합니다. [](/help/components/segmentation/segmentation-workflow/seg-build.md) 이 라이브러리를 실현하기 위해 정의해야 하는 &quot;모듈&quot;은 무엇입니까?
-
