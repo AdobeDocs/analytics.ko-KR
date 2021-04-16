@@ -2,16 +2,16 @@
 description: 데이터 소스는 오프라인으로 발생하는 이벤트를 온라인 데이터로 통합할 수 있는 2가지 추가 방법을 제공합니다.
 subtopic: Data sources
 title: 거래 및 고객 통합
-topic: 개발자 및 구현
+topic-fix: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '313'
 ht-degree: 84%
 
 ---
-
 
 # 거래 및 고객 통합
 
