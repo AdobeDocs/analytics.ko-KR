@@ -1,15 +1,15 @@
 ---
 description: 데이터 피드에 대한 FAQ
-keywords: Data Feed;job;pre column;post column;case sensitivity
+keywords: 데이터 피드;작업;이전 열;이후 열;대/소문자 구분
 title: 데이터 피드 FAQ
+exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '420'
+ht-degree: 58%
 
 ---
-
 
 # 데이터 피드 FAQ
 
@@ -31,8 +31,14 @@ Adobe Analytics에서는 대부분의 변수가 보고 목적으로 대소문자
 
 데이터 피드는 [Admin Console 보트 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/bot-removal/bot-removal.html)으로 필터링된 보트를 포함하지 않습니다.
 
-## 데이터 피드 열 `000` 또는 `event_list` `post_event_list` 데이터 피드 열에 여러 값이 표시되는 이유는 무엇입니까?
+## `event_list` 또는 `post_event_list` 데이터 피드 열에 `000` 값이 여러 개 표시되는 이유는 무엇입니까?
 
-일부 스프레드시트 편집자, 특히 Microsoft Excel은 매우 많은 수의 파일을 자동으로 전달합니다. 열에는 쉼표로 구분된 숫자가 많이 포함되어 있어 Excel에서 이 값을 큰 수로 처리하는 경우가 있습니다. `event_list` 마지막 몇 자리를 다음으로 회전합니다 `000`.
+일부 스프레드시트 편집자, 특히 Microsoft Excel은 매우 많은 수의 파일을 자동으로 반올림합니다. `event_list` 열에는 쉼표로 구분된 숫자가 많이 들어 있어 Excel에서 이 숫자를 큰 숫자로 간주하기도 합니다. 마지막 몇 자리가 `000`으로 반올림됩니다.
 
-Adobe은 Microsoft Excel에서 파일을 자동으로 열지 않도록 `hit_data.tsv` 권장합니다. 대신 Excel의 데이터 가져오기 대화 상자를 사용하여 모든 필드가 텍스트로 취급되었는지 확인합니다.
+Microsoft Excel에서 `hit_data.tsv` 파일을 자동으로 열지 않는 것이 좋습니다. 대신 Excel의 [데이터 가져오기] 대화 상자를 사용하여 모든 필드가 텍스트로 처리되었는지 확인합니다.
+
+## 7일이 넘는 데이터에서 &quot;시간별&quot; 파일을 추출할 수 없는 이유는 무엇입니까?
+
+7일이 넘는 데이터의 경우 일별 &quot;시간별&quot; 파일이 단일 &quot;일별&quot; 파일로 결합됩니다.
+
+예:새 데이터 피드는 2021년 3월 9일에 만들어지며, 2021년 1월 1일부터 3월 9일까지 데이터는 &quot;시간별&quot;로 전달됩니다. 그러나 2021년 3월 2일 이전의 &quot;시간별&quot; 파일은 하나의 &quot;일별&quot; 파일로 결합됩니다. 작성 날짜로부터 7일 미만의 데이터에서만 &quot;시간별&quot; 파일을 추출할 수 있습니다. 이 경우 3월 2일부터 3월 9일까지
