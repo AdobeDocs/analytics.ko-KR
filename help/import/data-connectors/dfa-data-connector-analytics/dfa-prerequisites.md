@@ -2,16 +2,16 @@
 description: Adobe Analytics에서 DFA 데이터 커넥터를 사용하기 위한 사전 요구 사항입니다.
 keywords: DFA
 title: 전제 조건
-topic: Data connectors
+feature: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
+exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 97%
 
 ---
-
 
 # 전제 조건{#prerequisites}
 
@@ -31,4 +31,3 @@ DFA에 대한 Adobe Data Connectors 통합을 시작하기 전에 다음을 수�
 * (선택 사항) DFA 비용 데이터를 저장할 보고 및 분석 이벤트를 식별합니다. 이러한 이벤트의 이름을 적절하게 바꾸어야 할 수 있습니다.
 * (선택 사항) DFA 오류 및 시간 초과를 저장할 보고 및 분석 사용자 지정 변수와 성공 이벤트를 식별합니다. 이러한 변수는 통합에서 발생할 수 있는 문제를 진단하는 데 도움이 됩니다.
 * (선택 사항) DFA에 대한 Data Connectors 통합과 관련된 정보 및 알림을 받을 특수 이메일 계정을 만듭니다.
-
