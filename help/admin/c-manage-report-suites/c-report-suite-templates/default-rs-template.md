@@ -1,13 +1,16 @@
 ---
 description: 일반 웹 사이트에 대한 여러 가지 일반 변수 및 성공 이벤트를 구성합니다.
 title: 기본 템플릿
-topic: Admin tools
+feature: 관리 도구
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
+exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
-
 
 # 기본 템플릿
 
@@ -50,4 +53,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 페이지 보기 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 일별 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
-
