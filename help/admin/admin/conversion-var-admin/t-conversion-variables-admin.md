@@ -1,16 +1,16 @@
 ---
 description: 전환 변수를 추가 또는 편집하는 방법을 설명하는 단계입니다.
 title: 전환 변수 편집
-topic: Admin tools
+feature: 관리 도구
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '107'
+exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # 전환 변수 편집
 
