@@ -2,13 +2,16 @@
 description: DFA용 Data Connectors 통합은 Analytics 변수를 사용하여 DFA 캠페인 결과를 추적합니다.
 keywords: DFA
 title: Analytics 변수 및 이벤트
-topic: Data connectors
+feature: Data Connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
+exl-id: 8c3df2e8-84cd-4a14-b15b-42233d874c19
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
-
 
 # Analytics 변수 및 이벤트{#analytics-variables-and-events}
 
@@ -16,7 +19,7 @@ DFA용 Data Connectors 통합은 Analytics 변수를 사용하여 DFA 캠페인 
 
 캠페인 변수 외에 Analytics 이벤트 및 eVar을 사용할 수 있습니다. 이 DFA 통합에 사용할 이벤트 및 eVar을 확인했으면 Analytics 관리 콘솔을 사용하여 활성화하십시오. DFA 통합을 활성화하려면 먼저 통합 변수를 활성화해야 합니다. 아래 표는 DFA 통합에 필요한 Analytics 변수를 설명합니다.
 
-| 변수 | 친숙한 이름 | 채우기 방법 | 설명 |
+| 변수 | 친숙한 이름 | 모집단 방법 | 설명 |
 |---|---|---|---|
 | s.campaign 또는 eVar | 광고 추적 코드 | DFA 캠페인에 대한 Data Connectors에 의해 자동으로 입력됩니다. | 모든 캠페인에 대해 클릭스루 전환을 추적합니다. |
 | eVar* | 뷰스루 | DFA 캠페인용 VISTA 및 DFA를 통해 자동으로 입력됩니다. | DFA ID에 대한 뷰스루 데이터를 추적합니다. 이 eVar에는 *`s.campaign`* 변수를 채우는 방법을 설명합니다. 변수 공급자 ID에서 확인된 것과 같은 전환 변수여야 합니다. eVar에 전체 하위 관계가 활성화되어 있는지 확인합니다. 이 기능을 활성화하는 비용은 Data Connectors 통합 요금에 포함됩니다. |
