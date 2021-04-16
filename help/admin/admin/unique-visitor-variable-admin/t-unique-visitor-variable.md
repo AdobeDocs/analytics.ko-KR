@@ -1,13 +1,16 @@
 ---
 description: 각 eVar에 방문자 식별자가 포함되는지 지정하는 방법을 설명하는 단계입니다.
 title: 고유 방문자 변수 지정
-topic: Admin tools
+feature: 관리 도구
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
+exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 100%
 
 ---
-
 
 # 고유 방문자 변수 지정
 
