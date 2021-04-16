@@ -2,16 +2,16 @@
 description: FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 subtopic: Classifications
 title: FTP 가져오기
-topic: 관리자 도구
+feature: 관리 도구
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # FTP 가져오기
 
@@ -50,7 +50,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
  -->
 
-FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
+ FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
