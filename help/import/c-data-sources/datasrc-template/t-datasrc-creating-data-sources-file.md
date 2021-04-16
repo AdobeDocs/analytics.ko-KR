@@ -2,16 +2,16 @@
 description: 가져오기 템플릿 파일은 가져오기를 시작할 수 있도록 만들어졌습니다.
 subtopic: Data sources
 title: 파일 가져오기 템플릿 생성
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: c2717936-a011-4224-8a9e-94753abbcb33
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # 파일 가져오기 템플릿 생성
 
@@ -45,4 +45,3 @@ ht-degree: 100%
 1. 템플릿 생성 후에는 데이터를 적절한 데이터 소스 템플릿 열로 복사하십시오. 이때 해당 데이터 열에 필요한 데이터 형식을 따라야 합니다.
 
    단계 결과 1. 원하는 명명 규칙에 따라 데이터 소스 파일을 저장하십시오. 모든 데이터 소스 파일에 대해 일관된 명명 규칙을 사용하는 것이 좋습니다. 확장자를 사용하지 않거나 사용하려면 .txt 또는 .tsv와 같은 일반적인 파일 확장자를 사용하십시오.
-
