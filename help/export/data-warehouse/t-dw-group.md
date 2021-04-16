@@ -1,16 +1,16 @@
 ---
 description: 관리자가 사용자 그룹에 대한 Data Warehouse 보고 액세스 권한을 활성화할 수 있는 방법을 설명하는 단계입니다.
 title: Data Warehouse 사용자 그룹 추가
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '205'
+exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # Data Warehouse 사용자 그룹 추가
 
