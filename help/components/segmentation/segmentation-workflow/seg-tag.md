@@ -1,16 +1,16 @@
 ---
 description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
 title: 세그먼트 태깅
-topic: Segments
+feature: 세그먼트
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '185'
+exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '186'
 ht-degree: 100%
 
 ---
-
 
 # 세그먼트 태깅
 
