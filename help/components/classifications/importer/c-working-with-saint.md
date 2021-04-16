@@ -2,16 +2,16 @@
 description: 가져오기 도구를 사용하여 분류를 Adobe Analytics에 업로드합니다. 데이터를 가져오기 전에 업데이트를 위해 데이터를 내보낼 수도 있습니다.
 subtopic: Classifications
 title: 분류 가져오기 도구 - 개요
-topic: Admin tools
+feature: 관리 도구
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '145'
+exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
-
 
 # 분류 가져오기 도구 - 개요
 
