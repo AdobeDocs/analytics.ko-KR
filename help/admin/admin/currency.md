@@ -1,13 +1,16 @@
 ---
 description: Experience Cloud에 사용된 통화 코드입니다.
 title: 통화 코드
-topic: Admin tools
+feature: 관리 도구
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
+exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
-
 
 # 통화 코드
 
@@ -199,4 +202,3 @@ Experience Cloud에 사용된 통화 코드입니다.
 | SDG | 수단 파운드 |
 | VEF | 베네수엘라 볼리바르 푸에르테 |
 | TMT | 투르크메니스탄 뉴 마나트 |
-
