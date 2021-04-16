@@ -1,16 +1,16 @@
 ---
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 세그먼트를 공유할 수 있습니다.
 title: 세그먼트 공유
-topic: Segments
+feature: 세그먼트
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '276'
+exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '277'
 ht-degree: 100%
 
 ---
-
 
 # 세그먼트 공유
 
