@@ -1,16 +1,16 @@
 ---
 description: 달력 이벤트를 추가하고, 공유 이벤트를 관리하는 절차입니다.
 title: 달력 이벤트
-topic: Reports and analytics
+feature: 보고 및 분석 기본 사항
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 99%
 
 ---
-
 
 # 달력 이벤트
 
@@ -44,4 +44,3 @@ ht-degree: 100%
    |---|---|
    | **보고서에서** | 이벤트 소유자가 수행한 업데이트/변경을 볼 수 있도록 해줍니다. |
    | **공유 안 함** | 공유 이벤트 목록에서 이 이벤트를 제거합니다. |
-
