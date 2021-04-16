@@ -1,16 +1,16 @@
 ---
 description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 사용하여 작성됩니다. THEN은 하나의 세그먼트 기준이 발생하고 그 뒤에 다른 하나의 세그먼트 기준이 있음을 의미합니다. 기본적으로 순차적 세그먼트는 일치하는 모든 데이터를 식별하고 "모든 사용자 포함" 필터를 표시합니다. 순차적 세그먼트는 추가적으로 "시퀀스 이전에만" 및 "시퀀스 이후에만" 옵션을 사용하여 일치하는 항목의 하위 집합으로 필터링될 수 있습니다.
 title: 순차적 세그먼트 작성
-topic: Segments
+feature: 세그먼트
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '3857'
+exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '3858'
 ht-degree: 100%
 
 ---
-
 
 # 순차적 세그먼트 작성
 
@@ -356,7 +356,7 @@ ht-degree: 100%
 
 [!UICONTROL Within] 및 [!UICONTROL After] 컨테이너를 사용하고 세부기간 및 카운트를 지정함으로써 지정된 길이의 시간으로 일치를 제한할 수 있습니다. [!UICONTROL Within] 연산자는 두 체크포인트 사이의 시간에 대한 최대 한도 지정에 사용됩니다. [!UICONTROL After] 연산자는 두 체크포인트 사이의 시간에 대한 최소 한도 지정에 사용됩니다.
 
-### After 및 Within 연산자 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 및 Within 연산자  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 세부기간을 나타내는 하나의 대문자와 세부기간의 반복 횟수를 나타내는 숫자를 차례로 지정하여 기간을 지정합니다.
 
