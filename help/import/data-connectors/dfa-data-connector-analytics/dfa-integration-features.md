@@ -2,16 +2,16 @@
 description: '활성화되면 Data Connectors DFA 통합은 Adobe Analytics 보고서에 대한 다음 지표를 제공합니다. '
 keywords: DFA
 title: 통합 기능
-topic: Data connectors
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # 통합 기능{#integration-features}
 
@@ -63,4 +63,3 @@ DFA 통합은 이제 Adobe SearchCenter에서 확인됩니다. Data Connectors �
 >[!NOTE]
 >
 >SearchCenter > DFA 중복 제거를 활성화하고 SearchCenter 쿼리 문자열 매개 변수를 설정한 경우 방문은 DFA 처리로 간주되지 않습니다. 즉, SearchCenter 쿼리 문자열 매개 변수는 DFA 클릭스루 매개 변수와 달라야 하며, 디스플레이 광고에서 SearchCenter 쿼리 문자열 매개 변수를 설정하지 않아야 합니다.
-
