@@ -2,16 +2,16 @@
 description: 웹 로그 데이터 소스를 통해 표준 웹 서버 로그 파일을 가져올 수 있습니다.
 subtopic: Data sources
 title: 웹 로그
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: 11c4f21a-de07-436e-a05e-ab6769cb3e21
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
 ---
-
 
 # 웹 로그
 
