@@ -2,16 +2,16 @@
 description: DoubleClick for Advertisers 통합을 Adobe Analytics과 사용합니다.
 keywords: DFA
 title: Adobe Analytics용 DFA Data Connector
-topic: Data connectors
+feature: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
+exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
 
 ---
-
 
 # Adobe Analytics용 DFA Data Connector{#dfa-data-connector-for-adobe-analytics}
 
@@ -95,14 +95,14 @@ Floodlight Server가 방문자에 대해 오류로 응답하는 경우가 있습
 |---|---|---|---|
 | 매일 밤 DFA 클릭 및 노출 지표 | 예 | 예 | 예 |
 | 클릭스루 및 뷰스루 추적 | 예 | 예 | 예 |
-| 통합은 광고주 수준에서 데이터 수신 | 아니오 | 예 | 예 |
-| 통합은 Floodlight 구성 수준에서 데이터 수신 | 아니오 | 아니오 | 예 |
-| 비용 지표 | 아니오 | 아니오 | 예 |
-| 광고 소재 지표 | 아니오 | 아니오 | 예 |
-| 2kb 이상의 쿼리 문자열 | 아니오 | 예 | 예 |
-| 최적의 타사 데이터 수집에 통합 모듈 사용 | 아니오 | 예 | 예 |
-| 시간 초과 및 오류 추적 | 아니오 | 예 | 예 |
-| 협의된 클라이언트측 ID에는 필요하지 않음 | 아니오 | 아니오 | 예 |
+| 통합은 광고주 수준에서 데이터 수신 | 아니요 | 예 | 예 |
+| 통합은 Floodlight 구성 수준에서 데이터 수신 | 아니요 | 아니요 | 예 |
+| 비용 지표 | 아니요 | 아니요 | 예 |
+| 광고 소재 지표 | 아니요 | 아니요 | 예 |
+| 2kb 이상의 쿼리 문자열 | 아니요 | 예 | 예 |
+| 최적의 타사 데이터 수집에 통합 모듈 사용 | 아니요 | 예 | 예 |
+| 시간 초과 및 오류 추적 | 아니요 | 예 | 예 |
+| 협의된 클라이언트측 ID에는 필요하지 않음 | 아니요 | 아니요 | 예 |
 
 ### 버전 1.5 정보 {#section-b5a3e967cfa141ea8f740612336181be}
 
