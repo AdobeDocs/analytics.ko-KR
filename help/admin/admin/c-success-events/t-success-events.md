@@ -1,16 +1,16 @@
 ---
 description: 성공 이벤트를 구성하는 방법을 설명하는 단계입니다.
 title: 성공 이벤트 구성
-topic: Admin tools
+feature: 관리 도구
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '201'
+exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # 성공 이벤트 구성
 
@@ -44,4 +44,3 @@ ht-degree: 100%
    >최대 100개의 사용자 지정 이벤트에 대한 기여도를 활성화할 수 있습니다. 그 외에도 [계산된 지표](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) 빌더에서 기여도 지표를 만들 수 있습니다.
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
-
