@@ -1,16 +1,16 @@
 ---
 description: 이 섹션은 일반적인 문제에 대한 정보를 포함합니다.
-keywords: Data Feed;troubleshooting
+keywords: 데이터 피드;문제 해결
 title: 데이터 피드 문제 해결
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
+translation-type: tm+mt
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 91%
 
 ---
-
 
 # 데이터 피드 문제 해결
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 * 가능할 경우 날짜 변경
 * 가능할 경우 보고서 세트 변경
 
-## Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정  {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 Amazon S3에 대한 일반적인 사용 사례는 AWS(Amazon 웹 서비스) 계정 소유자가 버킷을 만들고, 해당 버킷에 개체를 만들 권한이 있는 사용자를 만든 다음 해당 사용자에 대한 자격 증명을 제공하는 것입니다. 이 경우 사용자의 개체는 같은 계정에 속하며, 계정 소유자에게 암시적으로 개체에 대한 모든 권한(읽기, 삭제 등)이 있습니다. 이는 FTP 배달 작동 방식과 비슷합니다.
 
@@ -54,7 +54,7 @@ STD -> DST 시간 전환 시(&#39;Spring Forward&#39;) 고객은 23개의 파일
 
 DST -> STD 전환 시(&#39;Fall Back&#39;) 고객은 24개의 파일을 받게 됩니다. 하지만 전환 시간에는 실제로 2시간 분량의 데이터가 포함됩니다. 예를 들어 오전 2시에 전환이 이루어진 경우 1시에 대한 파일이 한 시간 동안 지연되면서 두 시간 분량의 데이터를 포함하게 됩니다. 1:00 DST부터 2:00 STD(3:00 DST가 되었을 시간)까지의 데이터를 포함하는 것입니다. 다음 파일은 2:00 STD에 시작됩니다.
 
-## 기간에 대한 데이터 없음 {#section_72510794694D42A9A75C966B812AEB0F}
+## 기간에 대한 데이터 없음  {#section_72510794694D42A9A75C966B812AEB0F}
 
 특정 기간에 대해 수집된 데이터가 없으면 매니페스트 파일을 배달하도록 데이터 피드를 구성할 수도 있습니다. 이 옵션을 활성화하면 다음과 비슷한 매니페스트 파일을 받게 됩니다.
 
@@ -65,10 +65,16 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## 도메인 보고에 대한 도메인 정보가 없음 {#section_B7508D65370442C7A314EAED711A2C75}
+## 도메인 보고에 대한 도메인 정보가 없음  {#section_B7508D65370442C7A314EAED711A2C75}
 
 일부 이동통신사(T-Mobile 및 O1 등)에서는 더 이상 역-DNS 조회용 도메인 정보를 제공하지 않습니다. 따라서 도메인 보고에 해당 데이터를 사용할 수 없습니다.
 
 ## 데이터 처리 개요 {#section_6346328F8D8848A7B81474229481D404}
 
 시간별 또는 일별 데이터를 처리하기 전에 데이터 피드는 시간(일 또는 시간) 내에 데이터 수집에 입력된 모든 히트가 Data Warehouse에 작성될 때까지 대기합니다. 이후 데이터 피드는 해당 기간에 맞는 타임스탬프를 포함한 데이터를 수집하여 압축하고 FTP를 통해 발송합니다. 시간별 피드의 경우 파일은 해당 시간 이후 15~30분 내에 Data Warehouse로 작성되지만 기간이 정해져 있지는 않습니다. 기간에 해당하는 타임스탬프를 가진 데이터가 없는 경우 다음 기간을 다시 시도하게 됩니다. 현재 데이터 피드 프로세스는 `date_time` 필드를 사용하여 어떤 히트가 시간에 속하는지 결정합니다. 이 필드는 보고서 세트의 시간대를 기반으로 합니다.
+
+## &quot;시간별&quot;과 &quot;일별&quot; 데이터 피드 형식 비교
+
+7일이 넘는 데이터의 경우 일별 &quot;시간별&quot; 파일이 단일 &quot;일별&quot; 파일로 결합됩니다.
+
+예:새 데이터 피드는 2021년 3월 9일에 만들어지며, 2021년 1월 1일부터 3월 9일까지 데이터는 &quot;시간별&quot;로 전달됩니다. 그러나 2021년 3월 2일 이전의 &quot;시간별&quot; 파일은 하나의 &quot;일별&quot; 파일로 결합됩니다. 작성 날짜로부터 7일 미만의 데이터에서만 &quot;시간별&quot; 파일을 추출할 수 있습니다. 이 경우 3월 2일부터 3월 9일까지
