@@ -1,16 +1,16 @@
 ---
 description: 이제 관리자 수준 사용자가 사용할 수 있는 세그먼트 기능과 관리자가 아닌 사용자가 사용할 수 있는 세그먼트 기능이 크게 다릅니다.
 title: 역할별 세그먼트 권한
-topic: 세그먼트
+feature: 세그먼트
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 
 ---
-
 
 # 역할별 세그먼트 권한
 
@@ -43,5 +43,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
-
