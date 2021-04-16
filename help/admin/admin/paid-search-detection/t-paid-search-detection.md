@@ -1,16 +1,16 @@
 ---
 description: 유료 검색 감지를 구성하는 방법을 설명하는 단계입니다.
 title: 유료 검색 감지 구성
-topic: Admin tools
+feature: 관리 도구
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '78'
+exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '80'
 ht-degree: 100%
 
 ---
-
 
 # 유료 검색 감지 구성
 
@@ -23,4 +23,3 @@ ht-degree: 100%
 1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 [!UICONTROL 현재 유료 검색 감지 규칙] 목록에서 현재 유료 검색 감지 규칙을 표시합니다.
-
