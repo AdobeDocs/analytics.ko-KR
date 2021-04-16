@@ -1,17 +1,17 @@
 ---
 description: Dynamic Tag Management를 통해 Adobe Analytics 도구를 만들고 자동 또는 수동으로 페이지 코드를 구성하여 Adobe Analytics를 배포합니다. 대부분의 사용자에게는 자동 방법이 권장됩니다.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
+keywords: Analytics 구현;구현 메서드;dynamic tag management;dtm;analytics 도구;속성;도구 유형;도구 이름;구성 방법;analytics premium;evars;이벤트
 title: Adobe Analytics 도구 추가
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '750'
+exl-id: 3f5e13f6-19d1-46b9-9011-6010b455007e
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '771'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 도구 추가
 
