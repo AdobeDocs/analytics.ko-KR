@@ -1,18 +1,18 @@
 ---
 description: 일반적인 고객 상호 작용에서 전송된 서버 호출의 샘플이 들어 있는 예
-keywords: Analytics Implementation
+keywords: Analytics 구현
 subtopic: Visitors
 title: 교차 장치 방문자 식별 예
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '361'
+exl-id: c68bb745-29de-48e3-8731-d714503a2447
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
-
 
 # 교차 장치 방문자 식별 예
 
