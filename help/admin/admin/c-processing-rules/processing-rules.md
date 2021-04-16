@@ -2,16 +2,16 @@
 description: 처리 규칙은 데이터 수집을 간소화하고 데이터가 보고 기능으로 전송될 때 컨텐츠를 관리합니다.
 subtopic: Processing rules
 title: 처리 규칙 개요
-topic: 관리 도구
+feature: 관리 도구
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt
-source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
 
 ---
-
 
 # 처리 규칙 개요
 
