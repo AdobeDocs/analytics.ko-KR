@@ -2,16 +2,16 @@
 description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
 subtopic: Classifications
 title: 분류 규칙 - 정의
-topic: Admin tools
+feature: 관리 도구
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '878'
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # 분류 규칙 - 정의
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 | 일치 그룹 | 캠페인 ID에서 위치를 분류할 수 있도록 정규 표현식이 캠페인 ID 문자에 대응하는 방식을 표시합니다. |
 | 일치 결과 | 정규 표현식과 일치하는 문자열의 각 부분을 표시합니다. |
 
- [분류 규칙의 정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md).
+자세한 내용은 [분류 규칙의 정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## 테스트 페이지 {#section_EC926F97901C4E65901413F9683AA70A}
 
@@ -144,4 +144,3 @@ ht-degree: 100%
 |---|---|
 | 테스트 실행 | 규칙 세트를 테스트할 때 보고서의 키를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. |
 | 필터 | [!UICONTROL 결과] 패널에서 값을 필터링합니다. |
-
