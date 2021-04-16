@@ -1,16 +1,16 @@
 ---
 description: 데이터가 수집된 이후에 이벤트 유형 변경 결과를 설명합니다.
 title: 이벤트 유형 변경 정보
-topic: Admin tools
+feature: 관리 도구
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '43'
+exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '45'
 ht-degree: 100%
 
 ---
-
 
 # 이벤트 유형 변경 정보
 
