@@ -2,13 +2,16 @@
 description: 회사에서 모든 사용자에게 이메일 메시지를 보내는 방법을 설명하는 단계입니다.
 subtopic: Users and groups
 title: 이메일 사용자
-topic: Admin tools
+feature: 관리 도구
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
+exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
-
 
 # 이메일 사용자
 
