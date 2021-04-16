@@ -1,17 +1,17 @@
 ---
 description: 웹 속성은 한 개의 포함 코드에 포함된 규칙 라이브러리로 된 하나 이상의 도메인 및 서브 도메인 그룹일 수 있습니다.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
+keywords: Analytics 구현;구현 방법;dynamic tag management;dtm;웹 속성;속성
 title: 웹 속성 만들기
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '466'
+exl-id: f89381d0-bdf7-4e01-96a3-2ea160da2b44
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
-
 
 # 웹 속성 만들기
 
