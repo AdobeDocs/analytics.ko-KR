@@ -2,16 +2,16 @@
 description: 데이터 소스 카테고리는 유사한 기능을 제공하는 다양한 데이터 소스 유형을 식별합니다.
 subtopic: Data sources
 title: 데이터 유형 및 카테고리 개요
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
 
 ---
-
 
 # 데이터 유형 및 카테고리 개요
 
@@ -106,7 +106,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 고객 만족 {#section_1058CA3860044630B0B06EEDA261DBA2}
+## 고객 만족  {#section_1058CA3860044630B0B06EEDA261DBA2}
 
 <table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
  <thead> 
@@ -125,7 +125,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 사이트 실적 {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## 사이트 실적  {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
 
 <table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
  <thead> 
@@ -144,7 +144,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 범용 {#section_9B9A2A9871894B6491032AE1E961629A}
+## 범용  {#section_9B9A2A9871894B6491032AE1E961629A}
 
 <table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
  <thead> 
@@ -202,7 +202,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 리드 및 견적 {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## 리드 및 견적  {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
@@ -230,4 +230,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
