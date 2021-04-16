@@ -2,16 +2,16 @@
 description: 범용(트랜잭션 ID) 카테고리를 선택하여 방문자 ID를 통합할 수 있습니다.
 subtopic: Data sources
 title: 방문자 ID
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # 방문자 ID
 
