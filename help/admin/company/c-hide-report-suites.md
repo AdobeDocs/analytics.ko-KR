@@ -1,14 +1,17 @@
 ---
 description: Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 수 있습니다.
-keywords: delete report suite
+keywords: 보고서 세트 삭제
 title: 보고서 세트 숨기기
-topic: Admin tools
+feature: 관리 도구
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 100%
 
 ---
-
 
 # 보고서 세트 숨기기
 
