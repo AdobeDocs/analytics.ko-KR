@@ -7,7 +7,7 @@ feature: 보고 및 분석 기본 사항
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 98%
@@ -116,7 +116,7 @@ Adobe가 배달하는 파일은 사용자가 구성한 데이터 피드 유형�
 
 한 시간 동안 데이터가 수집되면 압축된 한 개의 데이터 파일과 매니페스트 파일을 받게 됩니다. 데이터 파일의 이름은 다음과 같습니다.
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 데이터 파일의 압축을 해제하면 해당 시간의 모든 데이터가 포함된 단일 `hit_data.tsv` 파일과 필요한 열에 대한 조회 파일이 포함됩니다.
 
@@ -124,7 +124,7 @@ Adobe가 배달하는 파일은 사용자가 구성한 데이터 피드 유형�
 
 한 시간 동안 데이터가 수집되면 압축된 한 개 이상의 데이터 파일과 매니페스트 파일을 받게 됩니다. 데이터 파일의 이름은 다음과 같습니다.
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 각 데이터 파일의 압축을 해제하면 약 2GB의 압축되지 않은 데이터가 포함된 단일 `hit_data.tsv` 파일과 필요한 열에 대한 조회 파일이 포함됩니다.
 
