@@ -1,17 +1,17 @@
 ---
 description: Data Warehouse는 사용자 지정 보고서를 실행할 수 있는 유연한 인터페이스를 제공합니다. 다음 지침을 따르면 데이터를 검색할 때 소요되는 시간을 줄이는 데 도움이 될 수 있습니다.
-keywords: best practices;failure;timeout;troubleshooting
+keywords: 우수 사례;실패;시간 초과;문제 해결
 title: Data Warehouse 우수 사례
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '285'
-ht-degree: 100%
+exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 98%
 
 ---
-
 
 # Data Warehouse 우수 사례
 
