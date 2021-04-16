@@ -2,16 +2,16 @@
 description: '[내역]에서 처리 규칙을 복원할 수 있습니다.'
 subtopic: Processing rules
 title: 처리 규칙 복원
-topic: Admin tools
+feature: 관리 도구
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '60'
+exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
-
 
 # 처리 규칙 복원
 
