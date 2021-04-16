@@ -2,16 +2,16 @@
 description: 'eVar 값을 Prop에 복사하여 경로 지정을 활성화할 수 있습니다. '
 subtopic: Processing rules
 title: eVar 값을 prop에 복사하여 경로 결정
-topic: Admin tools
+feature: 관리 도구
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '128'
+exl-id: 23c978b9-a159-4364-9214-561a255d23e4
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # eVar 값을 prop에 복사하여 경로 결정
 
@@ -34,4 +34,3 @@ Prop1 값이 아직 다음과 유사한 값을 포함하지 않는 경우에만,
 예:
 
 ![](assets/overwrite-empty-prop.png)
-
