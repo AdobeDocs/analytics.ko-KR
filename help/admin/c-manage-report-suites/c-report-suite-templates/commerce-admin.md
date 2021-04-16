@@ -1,13 +1,16 @@
 ---
 description: 전자 상거래 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 상거래
-topic: Admin tools
+feature: 관리 도구
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
-
 
 # 상거래
 
@@ -47,4 +50,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 페이지 보기 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 일별 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
-
