@@ -1,16 +1,16 @@
 ---
 description: '[검색 방법] 페이지에서는 다양한 검색 방법 보고서가 사용자 사이트에서의 전환 성공 이벤트에 대한 크레딧을 받는 방법을 식별합니다. 예를 들어 검색 엔진이 구매하는 방문자를 해당 사이트로 안내하는 경우, 검색 방법은 검색 엔진이 참조에 대한 크레딧을 받는 방법을 지정합니다.'
 title: 검색 방법
-topic: Admin tools
+feature: 관리 도구
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
-
 
 # 검색 방법
 
@@ -58,4 +58,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >모든 검색 방법은 방문이 종료될 때 만료됩니다. 다른 이벤트(예: 장바구니 체크아웃) 이후에 만료되도록 선택하면 방문 중에 장바구니 체크아웃이 발생할 때 검색 방법이 만료됩니다. 방문 중에 장바구니 체크아웃이 발생하지 않으면 방문이 종료될 때 검색 방법이 만료됩니다.
-
