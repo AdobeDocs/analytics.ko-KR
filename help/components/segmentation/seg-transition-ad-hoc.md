@@ -1,13 +1,13 @@
 ---
 description: Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경우 이 FAQ를 통해 기존 세그먼트와 폴더의 변경 사항과 수행해야 하는 작업을 확인할 수 있습니다.
-keywords: segmentation;segments
+keywords: 세그먼테이션;세그먼트
 title: Ad Hoc Analysis를 위한 전환 안내서
-topic: Segments
+feature: 세그먼트
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '829'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '832'
 ht-degree: 100%
 
 ---
@@ -35,29 +35,29 @@ Ad Hoc Analysis에서 세그먼트 빌더를 사용하는 것이 익숙한 경�
 
 세그먼트 관리자는 Ad Hoc Analysis의 폴더 대신 태그를 사용합니다. 폴더 이름은 자동으로 태그로 변환되고 해당 태그는 해당 세그먼트에 적용됩니다.
 
-## 세그먼트가 적용된 예약된 보고서에 발생한 결과 {#section_81D1B215533C46E99E17BAE7A3376FDF}
+## 세그먼트가 적용된 예약된 보고서에 발생한 결과  {#section_81D1B215533C46E99E17BAE7A3376FDF}
 
 예약된 보고서는 정의한 세그먼트에서 계속 잘 실행됩니다.
 
 세그먼트를 삭제할 때 이 세그먼트가 적용된 예약된 보고서 및 대시보드는 정상적으로 계속 작동합니다(예: 세그먼트 또는 대시보드는 삭제된 세그먼트를 계속 사용함).
 
-## 히트 컨테이너란? 페이지 보기 컨테이너와 다른 점 {#section_65BBE60A836C4001938830DDA15DC256}
+## 히트 컨테이너란? 페이지 보기 컨테이너와 다른 점  {#section_65BBE60A836C4001938830DDA15DC256}
 
 페이지 보기 컨테이너는 단지 페이지 보기가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 히트 컨테이너로 이름이 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다.
 
 이 컨테이너가 작동하는 방식은 변경되지 않았으며 이름만 바뀌었습니다.
 
-## 세그먼트를 사용하고 만들고 관리하는 데 필요한 권한 {#section_648DFA3A882146C485A84ED014EEC707}
+## 세그먼트를 사용하고 만들고 관리하는 데 필요한 권한  {#section_648DFA3A882146C485A84ED014EEC707}
 
 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다. Ad Hoc Analysis 사용자는 각자 만든 세그먼트와, 사용자와 직접 공유한 세그먼트를 볼 수 있습니다.
 
 통합 세그멘테이션 웹 콘솔에서 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다.
 
-## 회사의 세그먼트를 볼 수 있습니까? {#section_AC2D328C7410419E80C7C17971CD95B3}
+## 회사의 세그먼트를 볼 수 있습니까?  {#section_AC2D328C7410419E80C7C17971CD95B3}
 
 자신이 소유한 모든 Ad Hoc Analysis 세그먼트와, 특별히 자신과 공유한 세그먼트가 표시됩니다.
 
-## 세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## 세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?  {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공유한 세그먼트만 표시합니다. Ad Hoc Analysis의 경우 세그먼트 관리자(세그먼트 구성)를 사용하여 Ad Hoc Analysis 세그먼트를 관리할 수 있습니다. 통합 세그먼테이션의 세그먼트 관리자를 사용하여 모든 Analytics의 세그먼트를 관리합니다.
 
@@ -68,7 +68,7 @@ Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공�
 * 이름이 같지만 정의가 다른 세그먼트의 이름을 변경합니다. 또는
 * 더 이상 필요하지 않은 세그먼트를 삭제합니다.
 
-## 권장되는 세그먼트 정리 방법 {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## 권장되는 세그먼트 정리 방법  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * 모든 세그먼트에 레거시 태그를 태깅합니다.
 * 보유한 세그먼트를 검토합니다.
@@ -79,7 +79,7 @@ Ad Hoc Analysis은 자신이 작성한 세그먼트나 특별히 자신과 공�
 
 세그먼트가 Experience Cloud로 게시된 경우 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
 
-## 기존 세그먼트에 발생하는 결과에 대한 자세한 내용 {#section_83ACAB256F394DCD8B424D8920BDD853}
+## 기존 세그먼트에 발생하는 결과에 대한 자세한 내용  {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
