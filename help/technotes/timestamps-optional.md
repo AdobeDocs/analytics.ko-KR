@@ -1,17 +1,17 @@
 ---
 description: 타임스탬프 옵션 설정 사용에 대한 이점 및 제한 사항에 대해 알아봅니다.
-keywords: Analytics Implementation
+keywords: Analytics 구현
 title: 타임스탬프 옵션 사용
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
-
 
 # 타임스탬프 옵션 사용
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    순서가 잘못된 데이터에는 오프라인 데이터 수집에서 늦게 도착하는 데이터와 늦게 도착하는 조회수, 또는 오프라인 모바일 장치에서 동기화가 되지 않은 시계가 포함될 수 있습니다. 데이터 순서가 잘못되면 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 번호/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
-* [s.visitorID](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/visitor-identification.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
+* [s.visitorID](https://docs.adobe.com/content/help/ko/analytics/technotes/visitor-identification.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
 
 * 웹 브라우저(타임스탬프가 지정되지 않은 라이브 데이터)를 여는 앱(타임스탬프가 지정된 오프라인 데이터)으로 구성된 하이브리드 앱에서는 타임스탬프를 사용하지 말아야 합니다. 그렇게 하면 세션에 대한 보고가 부정확해집니다.
 
