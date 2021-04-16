@@ -2,16 +2,16 @@
 description: 동적 태그 관리를 사용하여 Adobe Analytics를 구현합니다.
 keywords: Analytics 구현;구현 방법;dynamic tag management;dtm
 title: DTM 구현 개요
-topic: 개발자 및 구현
+topic-fix: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '225'
+exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
-
 
 # DTM 구현 개요
 
@@ -32,4 +32,3 @@ Dynamic Tag Management를 사용하여 태그를 관리하고 디지털 마케�
 1. [데이터 요소](/help/implement/other/dtm/t-data-element.md), [규칙 및 조건](/help/implement/other/dtm/c-rules/t-rules-create.md) 및 [작업](/help/implement/other/dtm/c-rules/t-rules-actions.md)을 만듭니다.
 
 1. 도구 및 규칙을 프로덕션 서버에 게시합니다.
-
