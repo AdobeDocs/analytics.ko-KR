@@ -1,16 +1,16 @@
 ---
 description: 세그먼트 관리자 내에서 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 세그먼트 승인이 포함된 워크플로우를 보고 정책과 일관되게 설정할 수 있습니다.
 title: 세그먼트 승인
-topic: Segments
+feature: 세그먼트
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '124'
+exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
-
 
 # 세그먼트 승인
 
@@ -27,4 +27,3 @@ ht-degree: 100%
    ![](assets/seg_approved.png)
 
 1. **[!UICONTROL 비승인]**&#x200B;을 클릭하여 승인된 세그먼트의 승인을 취소할 수도 있습니다.
-
