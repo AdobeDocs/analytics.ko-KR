@@ -1,16 +1,16 @@
 ---
 description: 과금 페이지에서는 각 보고서 세트에 대한 트래픽 세부 사항을 포함하여 과금 정보에 액세스할 수 있습니다. 권한이 있는 관리자만 이 페이지에 액세스할 수 있습니다.
 title: 과금
-topic: Admin tools
+feature: 관리 도구
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '503'
+exl-id: cea802e4-99c4-491e-99c2-8476870001f7
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
-
 
 # 과금
 
