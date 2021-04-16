@@ -1,16 +1,16 @@
 ---
 description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 title: 세그먼트의 비교 연산자
-topic: Segments
+feature: 세그먼트
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '1021'
+exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # 세그먼트의 비교 연산자
 
@@ -55,4 +55,3 @@ ht-degree: 100%
 | 보다 작음 | 고유 카운트가 입력한 값보다 작은 차원 항목을 반환합니다. |
 | 다음보다 크거나 같음 | 고유 카운트가 입력한 값보다 크거나 같은 차원 항목을 반환합니다. |
 | 다음보다 작거나 같음 | 고유 카운트가 입력한 값보다 작거나 같은 차원 항목을 반환합니다. |
-
