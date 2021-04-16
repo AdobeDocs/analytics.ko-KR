@@ -1,13 +1,16 @@
 ---
 description: 원래 컨텐트를 개발하고 기사 및 비디오를 표시하는 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 컨텐츠 및 미디어
-topic: Admin tools
+feature: 관리 도구
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
-
 
 # 컨텐츠 및 미디어
 
@@ -50,4 +53,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 페이지 보기 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 일별 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
 | 고유 방문자 수 | 카운터(하위 관계 없음) | 해당 없음 |
-
