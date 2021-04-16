@@ -2,16 +2,16 @@
 description: 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다(최대 25개).
 subtopic: Marketing channels
 title: 마케팅 채널 관리
-topic: Reports and analytics
+feature: 보고 및 분석 기본 사항
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
+exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 99%
 
 ---
-
 
 # 마케팅 채널 관리
 
@@ -90,4 +90,3 @@ Adobe는 [자동 설정](/help/components/c-marketing-channels/c-getting-started
 >Adobe에서는 테스트 목적의 템플릿으로 사용할 수 있도록 보고서 세트에서 보고서를 설정할 것을 권장합니다. 템플릿을 사용하여 하나 이상의 생산 보고서 세트에 전역으로 채널 및 규칙 세트를 적용할 수 있습니다.
 >
 >자세한 내용은 [여러 보고서 세트에 템플릿 보고서 세트 설정 적용](/help/components/c-marketing-channels/c-getting-started-mchannel.md)을 참조하십시오.
-
