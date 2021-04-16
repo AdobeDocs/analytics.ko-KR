@@ -1,17 +1,17 @@
 ---
 description: Dynamic Tag Management를 사용하여 사이트의 JavaScript 및 페이지 컨텐츠 로드를 결정하는 머리글 및 바닥글 코드를 추가합니다. 사용한 호스팅 옵션에 상관없이 사이트의 모든 페이지에 머리글 코드와 바닥글 코드를 모두 설치해야 합니다.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
+keywords: Analytics 구현;구현 방법;dynamic tag management;dtm;코드;페이지 코드;머리글 코드;바닥글 코드;포함 코드;포함 탭;포함
 title: 머리글 및 바닥글 코드 추가
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
+exl-id: 170c28fb-8884-4c44-b586-f88a7583083e
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
-
 
 # 머리글 및 바닥글 코드 추가
 
@@ -47,4 +47,3 @@ Dynamic Tag Management는 스테이징 환경에서 변경 사항을 테스트�
    >[!NOTE]
    >
    >프로덕션 코드 조각과 스테이징 코드 조각의 차이는 스테이징 버전에서 파일 이름에 [!DNL -staging]을 추가하는 것입니다. 바닥글 코드는 스테이징과 프로덕션에서 동일하게 유지됩니다.
-
