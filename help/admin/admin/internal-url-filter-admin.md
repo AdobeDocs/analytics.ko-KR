@@ -1,16 +1,16 @@
 ---
 description: 내부 URL 필터는 사이트 내부로 간주되는 참조를 식별합니다. 이 필터들은 트래픽 소스 보고서가 데이터를 채우도록 하고 내부 트래픽을 필터링하는 데 도움이 됩니다.
 title: 내부 URL 필터
-topic: Admin tools
+feature: 관리 도구
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: ht
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
-workflow-type: ht
-source-wordcount: '214'
+exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # 내부 URL 필터
 
