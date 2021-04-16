@@ -1,16 +1,16 @@
 ---
 description: 유료 검색 감지는 검색 엔진 및 검색 키워드 보고서에서 유료 검색과 자연어 검색을 구별합니다. 유료 광고를 사용할 검색 엔진을 지정하고 유료 광고에서 방문 URL에 있는 문자열을 지정할 수 있습니다.
 title: 유료 검색 감지
-topic: Admin tools
+feature: 관리 도구
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '217'
+exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # 유료 검색 감지
 
