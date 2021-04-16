@@ -2,13 +2,16 @@
 description: 통합 마법사를 완료하려면 토큰이 필요합니다. 이 ID를 찾으려면 다음을 완료하십시오.
 subtopic: Qualtrics
 title: Qualtrics Adobe Analytics 토큰 생성
-topic: Data connectors
+feature: Data Connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
+exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
-
 
 # Qualtrics Adobe Analytics 토큰 생성{#generating-your-qualtrics-adobe-analytics-token}
 
@@ -30,4 +33,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >[!NOTE]
    >
    >Adobe Analytics 토큰을 생성하는 옵션이 표시되지 않는 경우 Qualtrics 계정 관리자에게 문의하여 해당 계정에 대한 적절한 권한을 활성화하십시오.
-
