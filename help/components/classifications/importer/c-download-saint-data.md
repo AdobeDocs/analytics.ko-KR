@@ -2,12 +2,12 @@
 description: (선택 사항) 분류를 마케팅 보고서로 가져오기 전에, 분류 데이터 파일을 만드는 데 도움이 되는 템플릿을 다운로드할 수 있습니다. 데이터 파일은 원하는 분류를 열 머리글로 사용한 다음, 적합한 분류 머리글 아래에 보고 데이터 세트를 구성합니다.
 subtopic: Classifications
 title: 분류 템플릿
-topic: Admin tools
+feature: 관리 도구
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '318'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
