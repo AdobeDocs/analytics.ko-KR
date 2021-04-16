@@ -1,18 +1,18 @@
 ---
 description: 다음 정보는 분석 데이터의 보고서 세트 지연 문제를 해결하는 데 도움이 될 수 있습니다.
-keywords: missing data;slow
+keywords: 데이터 누락;느림
 subtopic: Current data
 title: 데이터 가용성 및 지연
-topic: Reports
+topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
-translation-type: ht
-source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 99%
 
 ---
-
 
 # Adobe Analytics의 데이터 가용성 및 지연
 
