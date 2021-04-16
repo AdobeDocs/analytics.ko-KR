@@ -2,13 +2,16 @@
 description: 이 통합 배포는 다음 작업이 필요한 간단한 프로세스입니다.
 subtopic: Qualtrics
 title: 통합 배포
-topic: Data connectors
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 98%
 
 ---
-
 
 # 통합 배포{#deploying-the-integration}
 
@@ -32,7 +35,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. **마법사 2단계 - 변수 매핑**|  Qualtrics 응답 목록  | 보고서 세트에서 사용 가능한 목록 변수를 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
 |---|---|
 |  Qualtrics 응답 ID  | 보고서 세트에서 사용 가능한 eVar 또는 prop을 선택합니다 (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
-|  추적 서버  |Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. 표준 추적 서버 설정과 다른 경우 `trackingServerSecure` 추적 서버를 사용합니다.  |
+|  추적 서버  |Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. Use the 
+`trackingServerSecure` 추적 서버가 표준 추적 서버 설정과 다른 경우 추적 서버.  |
 |  Qualtrics 설문 조사 제출  | 보고서 세트에서 사용 가능한 이벤트를 선택합니다(보고서 세트 관리자 내에서 새 이벤트를 활성화해야 할 수 있습니다).  |
 
 1. **마법사 3단계**: 필요한 것이 없으며 정보 제공용입니다.
@@ -60,6 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. Adobe Analytics 구성을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 사용할 수 있는 구성이 없다면 Adobe 통합 마법사를 아직 완료하지 않았을 수 있습니다.
    1. **[!UICONTROL 부분 응답 포함]** 확인란을 사용하여 각 부분 설문 조사 화면이 완료된 후 Adobe Analytics로 데이터를 캡처할 것임을 나타낼 수 있습니다. 선택하지 않으면 완료된 설문 조사에 대해서만 데이터가 전송됩니다.
    1. **[!UICONTROL 타임스탬프를 비콘으로 보내기]** 확인란은 타임스탬프가 지정된 데이터를 수신하도록 구성된 보고서 세트와 통합할 때만 사용해야 합니다(일반적이지 않음).
+
    ![](assets/integration_config.png)
 
 ## 통합 확인{#verifying-the-integration}
@@ -81,5 +86,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >통합 설문 조사가 응답을 적극적으로 수신한다고 가정할 경우 이 데이터는 성공적인 배포 후 24-48시간 이내에 나타나야 합니다.
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-
