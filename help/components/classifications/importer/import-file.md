@@ -2,16 +2,16 @@
 description: 분류 템플릿 파일에 적절한 데이터를 복사한 후 Adobe 데이터 수집 서버에 가져올(다운로드) 수 있습니다.
 subtopic: Classifications
 title: 브라우저 및 FTP 가져오기
-topic: Admin tools
+feature: 관리 도구
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '114'
+exl-id: 3b5eb6b4-42a2-4cf7-864b-33a5a7766255
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
-
 
 # 브라우저 및 FTP 가져오기
 
