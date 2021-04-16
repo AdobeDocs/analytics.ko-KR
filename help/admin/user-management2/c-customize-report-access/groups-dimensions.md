@@ -1,18 +1,18 @@
 ---
-description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분된 수준에서 사용자 액세스를 사용자 지정합니다.
-keywords: groups;permissions
+description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분화된 수준에서 사용자 액세스를 사용자 지정합니다.
+keywords: 그룹,권한
 subtopic: Users and groups
 title: 차원 권한 사용자 지정
-topic: Admin tools
+feature: 관리 도구
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
+exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 98%
 
 ---
-
 
 # 차원 권한 사용자 지정
 
@@ -43,7 +43,7 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
 * 사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 콘텐츠 인식) 및 지표가 주어집니다.
 * 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 [변수](https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/c-classifications.html)에 대한 액세스 권한으로 결정됩니다. 
 
-자세한 내용은 [사용자 및 그룹 권한 변경을 참조하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-management/permissions-changes.html).
+자세한 내용은 [사용자 및 그룹 권한 변경](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-management/permissions-changes.html)을 참조하십시오.
 
 **측정기준 사용자 지정**
 
@@ -63,14 +63,14 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/evar.html"> Prop </a> </p> </td> 
-   <td colname="col2"> <p>Prop는 사용자 지정 트래픽 변수입니다. </p> <p>분석 구현에서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/evar.html">트래픽 prop 및 전환 eVar</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Prop는 사용자 지정 트래픽 변수입니다. </p> <p>분석 구현에서 <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">트래픽 prop 및 전환 eVar</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html"> 계층 </a> </p> </td> 
    <td colname="col2"> <p> 계층(hierN) 변수는 사이트의 계층 또는 페이지 구조에서 페이지의 위치를 결정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> 목록 Prop 함수와 마찬가지로 목록 변수는 같은 이미지 요청에서 여러 값을 사용할 수 있도록 허용합니다.  </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 �
    <td colname="col2"> <p>이 파트너 통합은 더 이상 활성화되어 있지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>이 파트너 통합은 더 이상 활성화되어 있지 않습니다. </p> </td> 
   </tr> 
   <tr> 
