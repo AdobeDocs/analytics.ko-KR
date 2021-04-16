@@ -2,16 +2,16 @@
 description: Adobe Analytics 보고서는 단일 수준 및 다중 수준 분류 모델을 둘 다 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
 subtopic: Classifications
 title: 하위 분류 정보
-topic: Admin tools
+feature: 관리 도구
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
-source-wordcount: '651'
+exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '653'
 ht-degree: 100%
 
 ---
-
 
 # 하위 분류 정보
 
@@ -52,8 +52,8 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지�
 
 | 키 | 속성 1 | 속성 1^속성 1-1 | 속성 1^속성 1-2 | 속성 2 |
 |---|---|---|---|---|
-| 123 | ABC | 녹색 | 작음 | A12B |
-| 456 | DEF | 빨간색 | 큼 | C3D4 |
+| 123년 | ABC | 녹색 | 작음 | A12B |
+| 456년 | DEF | 빨간색 | 큼 | C3D4 |
 
 복수 수준 분류의 파일 템플릿이 보다 복잡하지만 복수 수준 분류는 개별 수준을 개별 파일로 업로드할 수 있다는 장점이 있습니다. 이 방법을 사용하면 시간이 지남에 따라 변경되는 분류 수준과 변경되지 않는 분류 수준으로 데이터를 그룹화함으로써 주기적으로(일일, 주별 등) 업로드해야 하는 데이터의 양을 최대한 줄일 수 있습니다.
 
@@ -87,7 +87,7 @@ Adobe Analytics는 단일 수준 및 다중 수준 분류 모델을 둘 다 지�
 | 410390014 | 폴로-SS | 남성용 폴로 셔츠, 반팔(L,03) | M | L | 03 |
 | 410390015 | 폴로-LS | 여성용 폴로 셔츠, 긴팔(S,23) | F | S | 23 |
 
-### 제품 분류 - 다중 파일(파일 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### 제품 분류 - 다중 파일(파일 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
 | 키 | 코드 | 코드^색상 |
 |---|---|---|
