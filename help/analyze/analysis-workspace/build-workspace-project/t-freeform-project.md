@@ -2,12 +2,12 @@
 description: 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
 title: 작업 공간 프로젝트 만들기
-topic: Reports and analytics
+feature: 보고 및 분석 기본 사항
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '756'
 ht-degree: 99%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 99%
 
    ![](assets/save_project.png)
 
-1. 이제 시각화 또는 패널을 마우스 오른쪽 단추로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다.
+1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다.
 
    이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot;(사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
 
@@ -117,11 +117,11 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> 세그먼트(파란색) </td> 
-   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 세그먼트 </a> 를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >세그먼트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 날짜 범위 및 세부기간(자주색) </td> 
-   <td colname="col2"> <p>패널 수준에서 드래그할 수 있습니다. 날짜 범위를 구성할 때 [일정]에서 프로젝트를 만들 수 있습니다. </p> <p><img  src="assets/date-ranges.png" id="image_A1750DA921234AD0BB02166865EB8FCC" /> </p> </td> 
+   <td colname="col2"> <p>패널 수준에서 드래그할 수 있습니다. 날짜 범위를 구성할 때 일정에서 프로젝트를 만들 수 있습니다. </p> <p><img  src="assets/date-ranges.png" id="image_A1750DA921234AD0BB02166865EB8FCC" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
