@@ -1,16 +1,16 @@
 ---
 description: 보고서 세트 유형에 대한 설명과 글로벌 보고서 세트 및 롤업 보고서 세트의 비교입니다.
 title: 보고서 세트 접근 방식
-topic: 관리자 도구
+feature: 관리 도구
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
+exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 translation-type: tm+mt
-source-git-commit: 9bc2e0425fa99efb32561ad1f80605e078eb7650
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 27%
 
 ---
-
 
 # 보고서 세트 접근 방식
 
