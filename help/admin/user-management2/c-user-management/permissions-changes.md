@@ -3,10 +3,10 @@ description: 이전 권한 콘텐트
 keywords: 그룹,권한
 subtopic: Users and groups
 title: 사용자 및 그룹 권한 변경 사항
-topic: 관리 도구
+feature: 관리 도구
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 97%
