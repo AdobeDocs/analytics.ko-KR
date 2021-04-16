@@ -2,12 +2,12 @@
 description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
 subtopic: Classifications
 title: 분류 규칙
-topic: Admin tools
+feature: 관리 도구
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2020'
 ht-degree: 99%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 99%
 |---|---|---|---|
 | 다음으로 시작 | em: | Channel | 이메일 |
 | 종료 문자 | 판매 | 유형 | 판매 |
-| 다음 포함 | 2013 | 년 | 2013 |
+| 다음 포함 | 2013 | 년 | 2013년 |
 
-## 규칙 처리 방법의 정보를 숙지하십시오 {#how-rules-are-processed}
+## 규칙 처리 방법{#how-rules-are-processed}의 정보를 숙지하십시오 
 
 분류 규칙 처리 방법에 관한 중요 정보입니다.
 
@@ -68,7 +68,7 @@ about_classification_rules.xml
 
    규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](/help/components/classifications/importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. 자세한 내용은 [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. See [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -83,7 +83,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-   분류 덮어쓰기 [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+   You can overwrite classifications when [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -94,7 +94,7 @@ about_classification_rules.xml
 
 ![](assets/overwrite_keys.png)
 
-## 분류 규칙의 정규 표현식에서 볼 수 있습니다 {#regex-in-classification-rules}
+## 분류 규칙의 정규 표현식{#regex-in-classification-rules}에서 볼 수 있습니다 
 
 정규 표현식을 사용하여 일관된 서식의 문자열 값과 분류를 일치시킵니다. 예를 들면 추적 코드의 특정 문자로부터 분류를 만들 수 있습니다. 특정 문자, 단어 또는 문자 패턴을 일치시킬 수 있습니다.
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
 | 1 | 다음 포함 | Cowboys | 검색 유형 | Team |
-| 2 | 다음 포함 | Fantasy | 검색 유형 | Fantasy |
+| 2 | 다음 포함 | Fantasy | 검색 유형 | 판타지 |
 | 3 | 다음 포함 | Romo | 검색 유형 | Player |
 
 사용자가 *`Cowboys fantasy Tony Romo`*&#x200B;를 검색하는 경우, 용어 *`Player`*&#x200B;는 분류 설정 열에 표시된 마지막 분류 항목에 일치하기 때문에 분류됩니다.
@@ -326,7 +326,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >Report suites display on this page *`only`* when the following conditions are met:
+   >다음 조건이 충족되면 보고서 세트가 이 페이지 *`only`*&#x200B;에 표시됩니다.
    >
    >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
       >
