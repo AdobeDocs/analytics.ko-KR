@@ -3,13 +3,13 @@ description: 데이터 피드의 열을 설명하는 테이블 데이터
 keywords: 데이터 피드;열
 subtopic: data feeds
 title: 데이터 열 참조
-feature: 보고 및 분석 기본 사항
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
