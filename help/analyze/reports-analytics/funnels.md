@@ -2,16 +2,16 @@
 description: 전환 비율은 일반적으로 시작, 종료 및 중대한 이벤트 사이의 전환이나 전환 프로세스의 지점을 측정합니다. 사이트에 성공 이벤트를 코딩하고 나면 보고서가 이러한 여러 성공 이벤트 사이의 비율을 생성하고 전환 단계 보고서에 표시합니다.
 title: 전환 단계
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 98%
 
 ---
-
 
 # 전환 단계
 
@@ -36,4 +36,3 @@ ht-degree: 98%
 >[!NOTE]
 >
 >이러한 보고서의 컨텍스트에서 인스턴스는 eVar 또는 이벤트가 정의된 총 방문 횟수와 같습니다.
-
