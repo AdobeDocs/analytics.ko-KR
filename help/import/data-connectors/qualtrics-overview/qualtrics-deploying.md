@@ -32,12 +32,12 @@ ht-degree: 98%
    | Qualtrics 조직 ID | [Qualtrics 조직 ID 조회](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst 토큰 | [Qualtrics Adobe Analytics 토큰 생성](../qualtrics-overview/qualtrics-token.md) |
 
-1. **마법사 2단계 - 변수 매핑**|  Qualtrics 응답 목록  | 보고서 세트에서 사용 가능한 목록 변수를 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
-|---|---|
-|  Qualtrics 응답 ID  | 보고서 세트에서 사용 가능한 eVar 또는 prop을 선택합니다 (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
-|  추적 서버  |Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. Use the 
-`trackingServerSecure` 추적 서버가 표준 추적 서버 설정과 다른 경우 추적 서버.  |
-|  Qualtrics 설문 조사 제출  | 보고서 세트에서 사용 가능한 이벤트를 선택합니다(보고서 세트 관리자 내에서 새 이벤트를 활성화해야 할 수 있습니다).  |
+1. **마법사 2단계 - 변수 매핑**
+   |  Qualtrics 응답 목록  | 보고서 세트에서 사용 가능한 목록 변수를 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
+   |---|---|
+   |  Qualtrics 응답 ID  | 보고서 세트에서 사용 가능한 eVar 또는 prop을 선택합니다 (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
+   |  추적 서버  |Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. Use the `trackingServerSecure` 추적 서버가 표준 추적 서버 설정과 다른 경우 추적 서버.  |
+   |  Qualtrics 설문 조사 제출  | 보고서 세트에서 사용 가능한 이벤트를 선택합니다(보고서 세트 관리자 내에서 새 이벤트를 활성화해야 할 수 있습니다).  |
 
 1. **마법사 3단계**: 필요한 것이 없으며 정보 제공용입니다.
 
