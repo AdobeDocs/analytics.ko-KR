@@ -1,11 +1,11 @@
 ---
 description: 대상 라이브러리, Target 및 Audience Manager에서 마케팅 활동에 세그먼트를 사용할 수 있습니다.
 title: Experience Cloud에 세그먼트 게시
-feature: 세그먼트
+feature: 세그멘테이션
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 100%
