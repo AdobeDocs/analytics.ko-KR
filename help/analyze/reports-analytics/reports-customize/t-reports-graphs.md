@@ -2,16 +2,16 @@
 description: 그래프를 목표 대상에게 가장 유용한 방식으로 사용자 지정하는 방법을 설명하는 단계입니다.
 title: 보고서 그래프 변경
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # 보고서 그래프 변경
 
@@ -68,4 +68,3 @@ ht-degree: 98%
    **[!UICONTROL 버블]**: 버블 그래프는 서로 관련하여 선택하는 지표의 버블 표시를 보여줍니다. 버블의 위치는 세로축과 가로축에 있는 지표 사이의 관계를 보여주며 버블 크기는 주요 보고서 지표를 보여줍니다. 버블 그래프를 사용하면 데이터를 2차원으로 시각화함으로써 어느 항목이 비정상적인지 식별할 수 있습니다.
 
    ![](assets/graph_bubble.png)
-
