@@ -2,16 +2,16 @@
 description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2363'
 ht-degree: 99%
 
 ---
-
 
 # 다른 보고서 유형 실행
 
