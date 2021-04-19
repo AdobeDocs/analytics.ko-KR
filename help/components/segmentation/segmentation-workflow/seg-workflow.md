@@ -1,11 +1,11 @@
 ---
 description: 세그먼트 빌더로 만들고 세그먼트 관리자를 통해 관리되는 세그먼트에 대해 제안되는 워크플로에 대해 설명합니다.
 title: 세그먼테이션 워크플로 개요
-feature: 세그먼트
+feature: 세그멘테이션
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
