@@ -2,16 +2,16 @@
 description: 지표는 보고서의 기반으로, 데이터 관계를 보고 이해하는 데 도움이 되며 웹 사이트에 대한 다양한 데이터 세트를 동시에 비교할 수 있도록 지원합니다. 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
 title: 지표
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 98%
 
 ---
-
 
 # 지표
 
@@ -47,4 +47,3 @@ t_metrics_set_default.xml
 * 보고서 간에 이동하는 경우 최근에 본 보고서에 표시된 지표가 지속됩니다. 새 보고서에서 기본 지표를 표시하려면 [!UICONTROL 지표 추가] 드롭다운 목록을 클릭한 다음 [!UICONTROL 기본값 표시]를 클릭합니다.
 
 * [!UICONTROL 기본값 지우기]를 클릭하면 해당 보고서에 대한 기본 지표를 제거하고 이 보고서에 대한 원래 기본 지표로 되돌립니다(prop에 대한 [!UICONTROL 페이지 보기 횟수] 및 eVar에 대해 관리 도구에서 설정한 모든 항목).
-
