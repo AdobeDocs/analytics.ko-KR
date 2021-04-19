@@ -3,14 +3,14 @@ description: 이 섹션은 데이터 피드 배달에서 발견되는 파일을 
 keywords: 데이터 피드;작업;내용;매니페스트;파일;조회;히트 데이터;배달 내용
 subtopic: data feeds
 title: 데이터 피드 콘텐츠 - 개요
-feature: 보고 및 분석 기본 사항
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 98%
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
