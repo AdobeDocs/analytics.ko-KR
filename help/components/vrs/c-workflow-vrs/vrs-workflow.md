@@ -2,13 +2,13 @@
 description: 가상 보고서 세트 구현을 계획하는 데 필요한 단계에 대한 개요입니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 워크플로우
-feature: 보고 및 분석 기본 사항
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 98%
 
 ---
