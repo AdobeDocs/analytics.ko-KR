@@ -1,16 +1,16 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 title: Reports and Analytics 시작하기
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 99%
 
 ---
-
 
 # Reports &amp; Analytics 시작하기
 
