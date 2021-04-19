@@ -2,14 +2,14 @@
 description: 데이터 피드를 사용한 일반 지표 계산 방법을 설명합니다.
 keywords: 데이터 피드;작업;지표;사전 열;이후 열;보트;날짜 필터링;이벤트 문자열;공통;공식
 title: 지표 계산
-feature: 보고 및 분석 기본 사항
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
