@@ -2,16 +2,16 @@
 description: 데이터 추출을 사용하면 보고서의 X-축과 Y-축에 모두 나타낼 매개 변수와 보고서를 필터링하는 기준 항목을 선택할 수 있습니다.
 subtopic: Schedule
 title: 데이터 추출
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 95%
+source-wordcount: '141'
+ht-degree: 96%
 
 ---
-
 
 # 데이터 추출
 
