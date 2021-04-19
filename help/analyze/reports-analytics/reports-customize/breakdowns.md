@@ -2,16 +2,16 @@
 description: 보고서 항목 또는 세그먼트가 다른 보고서와 관련되는 방식에 대해 자세히 알아보려면 분류를 사용하십시오. 이러한 경우 특정 보고서를 다른 보고서로 “분류한다”고 합니다.
 title: 분류
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 97%
+source-wordcount: '298'
+ht-degree: 98%
 
 ---
-
 
 # 분류
 
