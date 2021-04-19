@@ -2,16 +2,16 @@
 description: 마케팅 보고에서 일반적으로 사용되는 웹 분석 용어에 대한 소개입니다.
 title: 공통 용어
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: 보고서, Reports & Analytics
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항,보고 및 분석
+role: Business Practitioner, Administrator
+exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 99%
 
 ---
-
 
 # 공통 용어
 
@@ -71,4 +71,3 @@ ht-degree: 99%
   </tr> 
  </tbody> 
 </table>
-
