@@ -1,11 +1,11 @@
 ---
 description: 세그먼트를 삭제하기 전에 알아야 하는 몇 가지 고려 사항을 표시합니다.
 title: 세그먼트 삭제
-feature: 세그먼트
+feature: 세그멘테이션
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
