@@ -1,13 +1,13 @@
 ---
 description: 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
-title: 작업 공간 프로젝트 만들기
-feature: 보고 및 분석 기본 사항
+title: 작업 영역 프로젝트 만들기
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '758'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 
    Analysis Workspace 프로젝트를 만들거나 조정하기 전에 관리자가 **[!UICONTROL Analysis Workspace에서 프로젝트 만들기 / 조정]** 권한이 활성화된 그룹이나 **[!UICONTROL 모든 보고서 액세스]** 사용자 그룹에 사용자를 추가해야 합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [그룹](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)).
 
-1. [!DNL Experience Cloud]에서 **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**&#x200B;를 클릭합니다.
+1. [!DNL Experience Cloud]에서 **[!UICONTROL Analytics]** > **[!UICONTROL 작업 영역]**&#x200B;을 클릭합니다.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -74,7 +74,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 자유 형식 패널 </a> </td> 
-   <td colname="col2"> <p>Analysis Workspace에서 상호 작용하는 캔버스 또는 작업 공간입니다. </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace에서 상호 작용하는 캔버스 또는 작업 영역입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
