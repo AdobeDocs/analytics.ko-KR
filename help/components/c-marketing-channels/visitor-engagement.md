@@ -2,14 +2,14 @@
 description: 마케팅 채널에서 방문자 유도 만료를 지정하는 방법을 알아봅니다.
 subtopic: Marketing channels
 title: 마케팅 채널 만료
-feature: 보고 및 분석 기본 사항
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 99%
+source-wordcount: '343'
+ht-degree: 98%
 
 ---
 
