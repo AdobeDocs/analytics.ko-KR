@@ -2,12 +2,12 @@
 description: 데이터 테이블, 세그먼트, Analysis Workspace에 대한 사용 사례 아이디어를 사용하는 방법의 예입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace 활용 사례
-feature: 보고 및 분석 기본 사항
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 99%
 
 ---
