@@ -2,16 +2,16 @@
 description: 전체 하위 관계는 모든 전환 보고서에서 활성화되므로 다른 eVar로 eVar를 분류할 수 있습니다. 보고서 테이블의 분류 기준 메뉴는 표준 분석 보고 메뉴에 일치시켜 선택 사항을 일관되게 유지합니다.
 title: 하위 관계
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: 보고 및 분석 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # 하위 관계
 
@@ -56,4 +56,3 @@ Adobe의 백엔드는 post_campaign 및 post_evar1이 캠페인 및 evar1에서 
 * 보고서에서 보고 있는 성공 이벤트를 포함하는 이미지 요청을 분리합니다.
 * 하위 관계에 사용된 각 전환 변수로부터 지속적인 값을 반환합니다.
 * 하위 관계의 순서를 기반으로 값을 구성합니다. 변수에 지속적인 값이 없을 경우(eVar이 정의 또는 만료되지 않은 경우처럼), &#39;없음&#39; 아래에서 버킷으로 처리됩니다.
-
