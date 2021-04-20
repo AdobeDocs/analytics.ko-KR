@@ -1,15 +1,15 @@
 ---
 title: Analytics용 PWA
 description: Adobe Analytics용 PWA(Progressive Web App)
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '291'
+ht-degree: 88%
 
 ---
-
 
 # Adobe Analytics용 PWA
 
@@ -27,7 +27,7 @@ Adobe Analytics는 기존 웹 사이트에서와 마찬가지로 PWA와도 매�
 
 ## 오프라인 추적을 추가하여 PWA 효율성 향상
 
-Adobe Analytics [오프라인 추적 기능](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html)을 사용하여 PWA의 효율성을 높일 수 있습니다. 기본적으로 이 기능은 꺼져 있지만 다음 속성을 AppMeasurement.js 파일에 추가하여 켤 수 있습니다. `s.trackOffline=true;`
+Adobe Analytics [오프라인 추적 기능](/help/implement/vars/config-vars/trackoffline.md)을 사용하여 PWA의 효율성을 높일 수 있습니다. 기본적으로 이 기능은 꺼져 있지만 다음 속성을 AppMeasurement.js 파일에 추가하여 켤 수 있습니다. `s.trackOffline=true;`
 
 예를 들어 다음 AppMeasurement.js 파일에서 속성이 `CONFIG SECTION` 끝에 추가됩니다.
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-AppMeasurement.js 파일 편집에 대한 자세한 내용은 [AppMeasurement.js 파일에코드 삽입](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)을 참조하십시오.
+AppMeasurement.js 파일 편집에 대한 자세한 내용은 [핵심 AppMeasurement 코드 삽입](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)을(를) 참조하십시오.
 
-AppMeasurement.js 파일의 구성 예는 [AppMeasurement.js 파일구성](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)을 참조하십시오.
+AppMeasurement.js 파일 구성에 대한 자세한 내용은 같은 하위 장의 [구성 변수 개요](/help/implement/vars/config-vars/configuration-variables.md) 및 개별 변수 관련 페이지를 참조하십시오.
 
-AppMeasurement.js 파일의 특징에 대한 자세한 내용은 [Javascript 구현 개요](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)를 참조하십시오.
+AppMeasurement.js 파일의 특징에 대한 자세한 내용은 [Javascript 구현 개요](/help/implement/js/overview.md)를 참조하십시오.
