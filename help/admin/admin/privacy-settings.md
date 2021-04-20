@@ -1,7 +1,7 @@
 ---
 description: 브라우저 쿠키에 대해 개인정보 설정을 활성화할 수 있습니다.
 title: 개인 정보 설정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 517b1d9c-d36e-43c1-a796-1787785a8747
 exl-id: cbc0d0e3-9765-4942-9179-d8f023a75258
 translation-type: tm+mt

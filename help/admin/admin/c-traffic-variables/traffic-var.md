@@ -1,7 +1,7 @@
 ---
 description: 사용자 지정 인사이트 트래픽 변수(또는 prop)를 사용하여 사용자 지정 데이터를 특정 트래픽 관련 이벤트에 연관시킬 수 있습니다. prop 변수는 웹 사이트의 각 페이지에 있는 구현 코드에 삽입됩니다.
 title: 트래픽 변수(prop) 개요
-feature: 관리 도구
+feature: Admin Tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
 translation-type: tm+mt

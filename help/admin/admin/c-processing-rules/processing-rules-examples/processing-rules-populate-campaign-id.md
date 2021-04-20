@@ -2,7 +2,7 @@
 description: 쿼리 문자열 매개 변수를 사용하여 변수를 채울 수 있습니다.
 subtopic: Processing rules
 title: 쿼리 문자열 매개 변수에서 캠페인 ID 채우기
-feature: 관리 도구
+feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
 translation-type: tm+mt

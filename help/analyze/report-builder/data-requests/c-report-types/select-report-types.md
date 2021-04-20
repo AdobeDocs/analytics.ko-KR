@@ -3,7 +3,7 @@ description: 사이트 지표, 사이트 컨텐츠 및 비디오와 같은, 데�
 title: 보고서 유형 개요
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 세그먼트를 삭제하기 전에 알아야 하는 몇 가지 고려 사항을 표시합니다.
 title: 세그먼트 삭제
-feature: 세그멘테이션
+feature: Segmentation
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
 translation-type: tm+mt

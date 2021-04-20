@@ -2,7 +2,7 @@
 description: 다른 값을 통합하는 연결 옵션을 사용하여 값을 채울 수 있습니다.
 subtopic: Processing rules
 title: 카테고리와 페이지 이름을 연결하여 하위 카테고리 추가
-feature: 관리 도구
+feature: Admin Tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
 translation-type: tm+mt

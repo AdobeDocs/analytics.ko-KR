@@ -2,7 +2,7 @@
 description: 'q와 같은 일반적인 변수를 사용하는 경우, 검색어를 채우기 위해 처리 규칙을 사용하여 해당 값으로 내부 검색어 evar를 채울 수 있습니다. '
 subtopic: Processing rules
 title: 쿼리 문자열 매개 변수를 사용하여 내부 검색어 채우기
-feature: 관리 도구
+feature: Admin Tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 translation-type: tm+mt

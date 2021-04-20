@@ -3,7 +3,7 @@ description: 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서�
 keywords: 그룹,권한
 subtopic: Users and groups
 title: Analytics 도구 권한 사용자 지정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt

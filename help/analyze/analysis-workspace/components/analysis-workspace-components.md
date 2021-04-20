@@ -1,8 +1,8 @@
 ---
 description: 'Analysis Workspace의 구성 요소는 프로젝트로 드래그하여 놓을 수 있는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다. '
 title: 구성 요소 개요
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

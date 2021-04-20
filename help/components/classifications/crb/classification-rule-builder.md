@@ -2,7 +2,7 @@
 description: 코드 변경을 추적할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
 subtopic: Classifications
 title: 분류 규칙 빌더 워크플로우
-feature: 관리 도구
+feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 translation-type: tm+mt

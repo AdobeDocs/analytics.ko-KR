@@ -3,7 +3,7 @@ description: 통합 문서를 편집하면서 새 요청에 사용할 공간을 
 title: 출력 매핑 삭제
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

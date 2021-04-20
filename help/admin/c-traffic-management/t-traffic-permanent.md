@@ -1,7 +1,7 @@
 ---
 description: 영구 트래픽 섹션에서 예상되는 트래픽 수준을 변경하면 Adobe에서 리소스를 재지정하여 새 트래픽 수준을 처리할 수 있습니다.
 title: 영구 트래픽 증가 지정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt

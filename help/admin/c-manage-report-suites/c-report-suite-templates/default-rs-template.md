@@ -1,7 +1,7 @@
 ---
 description: 일반 웹 사이트에 대한 여러 가지 일반 변수 및 성공 이벤트를 구성합니다.
 title: 기본 템플릿
-feature: 관리 도구
+feature: Admin Tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: '처리 규칙을 효과적으로 사용하려면 데이터 수집 중에 언제 처리 규칙이 적용되는지 이해하는 것이 중요합니다. '
 subtopic: Processing rules
 title: 처리 순서
-feature: 관리 도구
+feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt

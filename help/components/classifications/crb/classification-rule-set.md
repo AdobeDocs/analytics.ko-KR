@@ -2,7 +2,7 @@
 description: 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. 규칙 세트에 변수를 적용합니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다.
 subtopic: Classifications
 title: 분류 규칙 세트
-feature: 관리 도구
+feature: Admin Tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -3,7 +3,7 @@ description: 정의한 시간 및 파일 형식에 따라 보고서를 전송하
 title: 데이터 요청 예약
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

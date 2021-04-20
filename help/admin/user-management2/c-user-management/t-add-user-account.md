@@ -2,7 +2,7 @@
 description: 사용자 계정을 추가하는 방법에 대해 설명하는 단계입니다.
 subtopic: Users and groups
 title: 사용자 계정 추가
-feature: 관리 도구
+feature: Admin Tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 exl-id: b81f175d-5684-4eb4-b63b-9ee889fe76f1
 translation-type: tm+mt

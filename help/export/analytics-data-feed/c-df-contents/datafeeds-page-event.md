@@ -2,7 +2,7 @@
 description: 테이블을 조회하여 page_event 값을 기준으로 히트의 유형을 파악하십시오.
 keywords: 데이터 피드;페이지;이벤트;page_event;post_page_event;data Feed;page;event;page_event
 title: 페이지 이벤트 조회
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt

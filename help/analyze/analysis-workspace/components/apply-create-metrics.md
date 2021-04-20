@@ -2,8 +2,8 @@
 description: Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
 title: 지표
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

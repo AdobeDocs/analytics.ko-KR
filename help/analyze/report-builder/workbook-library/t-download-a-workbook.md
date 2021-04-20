@@ -3,7 +3,7 @@ description: 공유 통합 문서를 다운로드 및 편집합니다.
 title: 통합 문서 다운로드
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

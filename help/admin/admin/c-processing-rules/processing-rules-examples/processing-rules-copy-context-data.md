@@ -2,7 +2,7 @@
 description: 처리 규칙을 사용하여 컨텍스트 데이터 변수의 값을 props 및 eVars로 이동합니다.
 subtopic: Processing rules
 title: eVar에 컨텍스트 데이터 변수 복사
-feature: 관리 도구
+feature: Admin Tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
 translation-type: tm+mt

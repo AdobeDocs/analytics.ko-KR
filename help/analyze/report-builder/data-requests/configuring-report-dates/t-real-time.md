@@ -3,7 +3,7 @@ description: 실시간 요청 날짜를 구성하는 방법을 설명하는 단�
 title: 실시간 요청 구성
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

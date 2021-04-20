@@ -2,8 +2,8 @@
 description: Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 title: 날짜 비교
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
 title: 세그먼트 태깅
-feature: 세그멘테이션
+feature: Segmentation
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 translation-type: tm+mt

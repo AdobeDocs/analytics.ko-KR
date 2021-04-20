@@ -1,7 +1,7 @@
 ---
 title: 보고서
 description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지표입니다.
-feature: 보고서 & Analytics 기초 및 분석 기초
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt

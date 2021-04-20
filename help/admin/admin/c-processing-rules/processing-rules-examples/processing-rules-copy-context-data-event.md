@@ -2,7 +2,7 @@
 description: '처리 규칙은 컨텍스트 데이터 변수에 따라 이벤트를 트리거할 수 있습니다. '
 subtopic: Processing rules
 title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 translation-type: tm+mt

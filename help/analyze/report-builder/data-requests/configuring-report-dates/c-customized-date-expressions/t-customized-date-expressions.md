@@ -3,7 +3,7 @@ description: 사용자 지정 표현식을 만들어 복합적인 날짜 범위�
 title: 사용자 지정된 날짜 표현식 - 개요
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

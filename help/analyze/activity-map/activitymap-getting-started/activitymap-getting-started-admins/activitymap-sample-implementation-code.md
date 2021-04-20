@@ -2,7 +2,7 @@
 description: Adobe Analytics 구현 코드에서 AppMeasurement 라이브러리와 Activity Map 모듈이 결합되는 방식의 예
 title: 샘플 Activity Map 구현 코드 보기
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

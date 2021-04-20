@@ -2,7 +2,7 @@
 description: 활성 처리 규칙은 관리에서 봅니다.
 subtopic: Processing rules
 title: 활성 처리 규칙 보기
-feature: 관리 도구
+feature: Admin Tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 translation-type: tm+mt

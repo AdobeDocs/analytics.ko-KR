@@ -3,7 +3,7 @@ description: 이 섹션은 Adobe Analytics 관리자용으로서, 새로운 링�
 title: 링크 추적 방식
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

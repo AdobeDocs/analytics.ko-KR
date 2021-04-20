@@ -2,7 +2,7 @@
 description: 이 섹션에는 처리 규칙을 테스트하기 위한 지침과 피해야 할 일반적인 실수 목록이 들어 있습니다.
 subtopic: Processing rules
 title: 처리 규칙 팁과 트릭
-feature: 관리 도구
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 기본 설정 관리자 페이지에서 Excel 및 쉼표 구분 값(CSV) 보고서 출력의 렌더링 방법을 구성할 수 있습니다.
 title: 기본 설정 관리자
-feature: 관리 도구
+feature: Admin Tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
 exl-id: 9ead47e3-ab43-4789-ba8e-a6b7be7f750e
 translation-type: tm+mt

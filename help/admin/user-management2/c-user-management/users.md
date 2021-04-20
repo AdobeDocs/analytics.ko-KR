@@ -2,7 +2,7 @@
 description: 사용자 관리 페이지의 보고서 사용자 및 그룹 관리를 통해 사용자와 그룹을 관리하고 보고서, 도구 및 보고서 세트에 대한 액세스 권한을 제어할 수 있습니다.
 subtopic: Users and groups
 title: 사용자 관리 개요
-feature: 관리 도구
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt

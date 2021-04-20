@@ -2,7 +2,7 @@
 description: '일반적인 철자 오류에 대해 값을 일치시키고 해당 값을 업데이트하여 보고서에 올바르게 표시할 수 있습니다. '
 subtopic: Processing rules
 title: 보고서에서 값 정리
-feature: 관리 도구
+feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 translation-type: tm+mt

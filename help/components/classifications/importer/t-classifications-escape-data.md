@@ -2,7 +2,7 @@
 description: 분류 파일에 있는 분류 데이터를 이스케이프 처리하는 방법을 설명하는 절차입니다.
 subtopic: Classifications
 title: 분류 데이터 이스케이프 처리
-feature: 관리 도구
+feature: Admin Tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 translation-type: tm+mt

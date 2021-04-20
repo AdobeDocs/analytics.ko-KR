@@ -1,7 +1,7 @@
 ---
 description: 보고 데이터에 대한 액세스를 제어할 수 있도록 해줍니다. 강력한 암호, 암호 만료일, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다.
 title: 보안 관리자
-feature: 관리 도구
+feature: Admin Tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 translation-type: tm+mt

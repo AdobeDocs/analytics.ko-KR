@@ -3,7 +3,7 @@ description: 항목을 스프레드시트에 매핑하기 전에 스프레드시
 title: 지표 및 차원을 셀에 매핑
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

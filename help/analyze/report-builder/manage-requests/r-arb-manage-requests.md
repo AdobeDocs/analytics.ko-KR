@@ -3,7 +3,7 @@ description: Report Builder의 요청 관리를 위한 필드 설명
 title: 요청 관리 - 정의
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

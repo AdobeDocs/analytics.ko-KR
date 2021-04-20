@@ -2,7 +2,7 @@
 description: 실시간 페이지 분석(라이브 모드)에서는 실시간으로 매우 세부적인 결과를 획득할 수 있습니다.
 title: 실시간(라이브) 페이지 분석
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

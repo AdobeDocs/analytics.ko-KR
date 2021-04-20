@@ -3,7 +3,7 @@ description: 설치 프로세스는 사용 중인 브라우저에 따라 다릅�
 title: Activity Map 브라우저 플러그인 설치
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

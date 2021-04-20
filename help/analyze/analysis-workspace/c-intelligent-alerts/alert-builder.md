@@ -2,8 +2,8 @@
 description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경고를 받습니다.
 title: 경고 빌더
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI 툴
-role: 비즈니스 전문가, 관리자
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

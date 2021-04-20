@@ -1,7 +1,7 @@
 ---
 description: Experience Cloud에 사용된 통화 코드입니다.
 title: 통화 코드
-feature: 관리 도구
+feature: Admin Tools
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 translation-type: tm+mt

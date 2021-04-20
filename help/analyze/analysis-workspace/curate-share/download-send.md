@@ -2,8 +2,8 @@
 description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV 형식으로 다운로드할 수 있습니다.
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: 조정 및 공유
-role: 비즈니스 전문가, 관리자
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

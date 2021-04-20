@@ -2,7 +2,7 @@
 description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
 subtopic: Classifications
 title: 분류 규칙
-feature: 관리 도구
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -1,8 +1,8 @@
 ---
 description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

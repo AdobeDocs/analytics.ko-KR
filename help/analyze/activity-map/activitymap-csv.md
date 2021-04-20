@@ -3,7 +3,7 @@ description: 표준 모드에서 Activity Map의 Analytics 데이터를 CSV(쉼�
 title: CSV 파일로 내보내기
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

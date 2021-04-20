@@ -1,7 +1,7 @@
 ---
 description: 과금 페이지에서는 각 보고서 세트에 대한 트래픽 세부 사항을 포함하여 과금 정보에 액세스할 수 있습니다. 권한이 있는 관리자만 이 페이지에 액세스할 수 있습니다.
 title: 과금
-feature: 관리 도구
+feature: Admin Tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt

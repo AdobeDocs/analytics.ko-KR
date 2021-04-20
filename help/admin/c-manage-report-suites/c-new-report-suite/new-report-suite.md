@@ -1,7 +1,7 @@
 ---
 description: 사전 정의된 템플릿을 선택하거나 기존 보고서 세트 중 하나를 모델로 사용하여 새 보고서 세트를 생성할 수 있습니다.
 title: 새 보고서 세트 - 설정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt

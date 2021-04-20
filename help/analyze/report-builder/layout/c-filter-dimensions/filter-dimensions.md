@@ -3,7 +3,7 @@ description: 행 레이블 그리드에 추가할 차원을 필터링할 수 있
 title: 차원 필터링 개요
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

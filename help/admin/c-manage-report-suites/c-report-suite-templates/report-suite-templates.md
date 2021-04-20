@@ -1,7 +1,7 @@
 ---
 description: 보고서 세트 템플릿은 여러 유형의 보고서 세트에 가장 일반적인 설정을 구성합니다.
 title: 보고서 세트 템플릿 개요
-feature: 관리 도구
+feature: Admin Tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
 translation-type: tm+mt

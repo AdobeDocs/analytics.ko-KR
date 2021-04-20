@@ -2,7 +2,7 @@
 description: '[내역]에서 처리 규칙을 복원할 수 있습니다.'
 subtopic: Processing rules
 title: 처리 규칙 복원
-feature: 관리 도구
+feature: Admin Tools
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
 exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 translation-type: tm+mt

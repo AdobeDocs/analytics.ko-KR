@@ -3,7 +3,7 @@ description: Activity Map 또는 레거시 ClickMap에서의 링크 추적을 �
 title: 링크 추적 중지
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

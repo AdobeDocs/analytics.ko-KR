@@ -2,7 +2,7 @@
 description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
 subtopic: Classifications
 title: 분류 규칙 - 정의
-feature: 관리 도구
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt

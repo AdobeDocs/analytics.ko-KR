@@ -2,8 +2,8 @@
 description: '차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. '
 title: 차원 간 흐름
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: 시각화
-role: 비즈니스 전문가, 관리자
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 가상 보고서 세트와 다중 세트 태깅에는 다양한 이점이 있습니다. 어느 것이 조직에 가장 적합한지 알아보십시오.
 keywords: 가상 보고서 세트,VRS
 title: 가상 보고서 세트와 다중 세트 태깅 고려 사항
-feature: 보고서 세트 설정
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt

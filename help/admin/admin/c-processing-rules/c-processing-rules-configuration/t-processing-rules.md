@@ -2,7 +2,7 @@
 description: 처리 규칙은 보고서 세트에서 설정합니다.
 subtopic: Processing rules
 title: 처리 규칙 만들기
-feature: 관리 도구
+feature: Admin Tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
 translation-type: tm+mt

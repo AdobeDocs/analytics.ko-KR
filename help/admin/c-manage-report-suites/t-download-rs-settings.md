@@ -1,7 +1,7 @@
 ---
 description: 선택된 보고서 세트에 대한 모든 설정이 들어 있는 Excel 스프레드시트를 생성하는 방법을 설명하는 단계입니다.
 title: 보고서 세트 설정 다운로드
-feature: 관리 도구
+feature: Admin Tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 translation-type: tm+mt

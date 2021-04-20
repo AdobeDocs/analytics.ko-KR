@@ -2,7 +2,7 @@
 description: 마케팅 보고에서 일반적으로 사용되는 웹 분석 용어에 대한 소개입니다.
 title: 공통 용어
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: 보고 및 분석 기본 사항,보고 및 분석
+feature: Reports & Analytics Basics,Reports and analytics
 role: Business Practitioner, Administrator
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 translation-type: tm+mt

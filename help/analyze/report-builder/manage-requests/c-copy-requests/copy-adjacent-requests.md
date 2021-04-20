@@ -3,7 +3,7 @@ description: 요청을 복사하고 붙여넣는 것과 같은 방식으로, 바
 title: 인접 요청 복사
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

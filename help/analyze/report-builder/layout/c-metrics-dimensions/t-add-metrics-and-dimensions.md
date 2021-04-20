@@ -3,7 +3,7 @@ description: 지표 및 차원을 요청에 추가하는 절차.
 title: 지표 및 차원 추가
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

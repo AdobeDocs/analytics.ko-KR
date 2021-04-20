@@ -3,7 +3,7 @@ description: s_objectID 변경을 사용하여 링크 ID를 사용자 지정하�
 title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

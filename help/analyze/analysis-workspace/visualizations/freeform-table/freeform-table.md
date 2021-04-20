@@ -1,8 +1,8 @@
 ---
 title: 자유 형식 테이블
 description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 분석하는 기반입니다.
-feature: 자유 형식 테이블
-role: 비즈니스 전문가, 관리자
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

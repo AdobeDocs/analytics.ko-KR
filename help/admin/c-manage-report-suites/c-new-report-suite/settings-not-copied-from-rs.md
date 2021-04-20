@@ -1,7 +1,7 @@
 ---
 description: 기존 보고서 세트에서 설정을 복사한 경우 시스템 메시지는 새 보고서 세트에 복사되지 않은 설정을 식별합니다.
 title: 소스 보고서 세트에서 복사되지 않은 설정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt

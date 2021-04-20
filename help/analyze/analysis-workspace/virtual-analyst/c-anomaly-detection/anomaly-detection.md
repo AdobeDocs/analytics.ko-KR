@@ -2,8 +2,8 @@
 description: Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
 title: 예외 항목 탐지 개요
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: AI 툴
-role: 비즈니스 전문가, 관리자
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

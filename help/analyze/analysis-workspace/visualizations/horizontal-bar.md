@@ -2,8 +2,8 @@
 description: Workspace 프로젝트에서 가로 막대 시각화를 사용합니다.
 title: 가로 막대 및 스택 가로 막대
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-feature: 시각화
-role: 비즈니스 전문가, 관리자
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

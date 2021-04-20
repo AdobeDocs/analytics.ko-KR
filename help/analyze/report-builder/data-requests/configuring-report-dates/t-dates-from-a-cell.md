@@ -3,7 +3,7 @@ description: 요청이 들어 있는 워크시트에서 셀을 선택하여 날�
 title: 셀의 날짜
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

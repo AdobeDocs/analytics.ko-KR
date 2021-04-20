@@ -2,8 +2,8 @@
 description: 경고를 생성, 편집 또는 삭제합니다.
 title: 경고 관리자
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI 툴
-role: 비즈니스 전문가, 관리자
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

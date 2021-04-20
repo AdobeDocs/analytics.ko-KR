@@ -2,8 +2,8 @@
 description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: 자유 형식 테이블
-role: 비즈니스 전문가, 관리자
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

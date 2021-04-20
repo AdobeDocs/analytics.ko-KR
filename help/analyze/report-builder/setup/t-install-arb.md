@@ -3,7 +3,7 @@ description: Report Builder 설치 방법을 설명하는 절차입니다.
 title: Report Builder 설치
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

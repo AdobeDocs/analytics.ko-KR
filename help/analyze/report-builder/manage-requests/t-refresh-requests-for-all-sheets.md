@@ -3,7 +3,7 @@ description: 모든 시트의 요청 또는 여러 요청을 새로 고칠 수 �
 title: 모든 시트에 대한 요청 새로 고침
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

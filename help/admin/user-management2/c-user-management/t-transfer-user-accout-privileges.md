@@ -2,7 +2,7 @@
 description: 한 사용자 계정의 사용자 계정 항목(대시보드, 계산된 지표, 달력 이벤트, 책갈피, 세그먼트, Analysis Workspace 프로젝트 및 예약된 프로젝트 )을 다른 사용자의 사용자 계정 항목에 할당하는 방법을 설명하는 단계입니다.
 subtopic: Users and groups
 title: 사용자 계정 항목 양도
-feature: 관리 도구
+feature: Admin Tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 translation-type: tm+mt

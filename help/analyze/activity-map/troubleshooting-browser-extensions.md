@@ -3,7 +3,7 @@ description: Activity Map 사용과 호환하지 않는 브라우저 매개 변�
 title: 브라우저 확장 문제 해결
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

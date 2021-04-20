@@ -3,7 +3,7 @@ description: 사용자 지정된 표현식에서 날짜 범위를 사용하는 �
 title: 사용자 지정된 표현식을 사용한 날짜 범위의 예
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

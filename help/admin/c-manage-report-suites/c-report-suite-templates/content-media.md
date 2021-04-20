@@ -1,7 +1,7 @@
 ---
 description: 원래 컨텐트를 개발하고 기사 및 비디오를 표시하는 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 컨텐츠 및 미디어
-feature: 관리 도구
+feature: Admin Tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
 exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 translation-type: tm+mt

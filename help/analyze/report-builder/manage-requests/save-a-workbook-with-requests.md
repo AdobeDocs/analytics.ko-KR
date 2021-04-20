@@ -3,7 +3,7 @@ description: 포함된 요청이 있는 보고서를 만든 후 Excel에서 [파
 title: 요청이 있는 통합 문서 저장
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

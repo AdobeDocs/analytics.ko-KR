@@ -2,7 +2,7 @@
 description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
 subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
-feature: 관리 도구
+feature: Admin Tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt

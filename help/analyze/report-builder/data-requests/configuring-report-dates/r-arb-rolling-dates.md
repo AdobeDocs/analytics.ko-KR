@@ -3,7 +3,7 @@ description: Report Builder에 있는 롤링 날짜에 대한 필드 정의.
 title: 요청 마법사 정의 - 순환 날짜
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

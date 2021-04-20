@@ -2,7 +2,7 @@
 description: 여러 요청에 대한 지표 편집 기능을 사용하면 기존 요청 또는 여러 요청에 대한 지표를 쉽게 추가, 제거 또는 교체할 수 있습니다.
 title: 여러 요청에 대한 지표 편집
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

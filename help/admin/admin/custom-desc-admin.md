@@ -1,7 +1,7 @@
 ---
 description: eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
 title: 사용자 지정 보고서 설명
-feature: 관리 도구
+feature: Admin Tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt

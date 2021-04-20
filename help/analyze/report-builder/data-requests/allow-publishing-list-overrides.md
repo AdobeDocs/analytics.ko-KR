@@ -3,7 +3,7 @@ description: 보고서를 예약할 때 배포에 사용할 게시 목록을 선
 title: 게시 목록 무시 허용
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

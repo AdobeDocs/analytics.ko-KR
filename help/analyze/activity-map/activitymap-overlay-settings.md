@@ -3,7 +3,7 @@ description: Activity Map 설정 패널에서는 모든 유형의 오버레이 �
 title: Activity Map 설정 구성
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

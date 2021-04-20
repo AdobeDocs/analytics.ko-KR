@@ -3,7 +3,7 @@ description: 경로 지정 보고서에 필터를 적용하는 단계에 대해 
 title: 요청 마법사를 사용하여 경로 보고서 필터링
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

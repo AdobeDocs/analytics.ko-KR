@@ -3,7 +3,7 @@ description: 데이터 피드에서 사용된 특수 문자에 대한 정보입�
 keywords: 데이터 피드;작업;특수 문자;히트_데이터;다중값 변수;이벤트_목록;제품_목록;mvvars
 subtopic: data feeds
 title: 데이터 피드의 특수 문자
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt

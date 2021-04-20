@@ -2,7 +2,7 @@
 description: 그래프를 목표 대상에게 가장 유용한 방식으로 사용자 지정하는 방법을 설명하는 단계입니다.
 title: 보고서 그래프 변경
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt

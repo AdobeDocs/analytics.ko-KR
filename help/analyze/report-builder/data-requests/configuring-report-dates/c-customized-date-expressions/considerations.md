@@ -3,7 +3,7 @@ description: '사용자 지정 표현식을 사용하여 날짜 범위를 설정
 title: 사용자 지정 날짜 고려 사항
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

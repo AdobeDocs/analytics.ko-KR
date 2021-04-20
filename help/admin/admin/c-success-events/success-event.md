@@ -2,7 +2,7 @@
 description: 성공 이벤트는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
 keywords: 이벤트를 사용할 것을 권장합니다
 title: 성공 이벤트 개요
-feature: 관리 도구
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 translation-type: tm+mt

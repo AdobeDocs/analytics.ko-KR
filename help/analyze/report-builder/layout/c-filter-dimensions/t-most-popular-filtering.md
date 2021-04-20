@@ -3,7 +3,7 @@ description: AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구
 title: 가장 자주 사용하는 필터링
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

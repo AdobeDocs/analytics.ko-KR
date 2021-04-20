@@ -2,8 +2,8 @@
 description: 작업 공간 성능 및 적용할 수 있는 최적화에 영향을 주는 요소
 title: Analysis Workspace 성능 요소 및 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: 보고 및 분석에서 경고를 사용합니다.
 subtopic: Alerts
 title: 경고
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: 경고
-role: 비즈니스 전문가, 관리자
+feature: Alerts
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 방문자 하위 집합을 식별할 수 있습니다. 세그먼트는 특정 요구에 대해 작성한 다음 확인, 편집 및 다른 팀 구성원과 공유하거나 다른 Adobe 제품 및 Analytics 기능에서 사용할 수 있는 정리된 대상 인사이트로 디자인됩니다.
 title: 세그먼트 및 컨테이너 정보
-feature: 세그멘테이션
+feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 구직 포털 또는 경력 검색 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 구직 포털
-feature: 관리 도구
+feature: Admin Tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt

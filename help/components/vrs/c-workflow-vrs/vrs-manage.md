@@ -2,7 +2,7 @@
 description: 가상 보고서 세트 관리자를 사용하여 관리자가 가상 보고서 세트를 편집, 추가, 태그 지정, 삭제, 이름 변경, 승인, 복사, 내보내기 및 필터링할 수 있습니다. 관리자가 아닌 사용자에게는 표시되지 않습니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 관리
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt

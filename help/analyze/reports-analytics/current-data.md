@@ -3,7 +3,7 @@ description: Reports & Analytics 메뉴의 현재 데이터 포함 옵션을 사
 subtopic: Current Data
 title: 현재 데이터
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 translation-type: tm+mt

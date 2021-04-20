@@ -2,7 +2,7 @@
 description: 이벤트를 페이지 값 또는 변수의 특정 값을 기준으로 설정할 수 있습니다.
 subtopic: Processing rules
 title: 제품 개요 페이지에서 제품 보기 이벤트 설정
-feature: 관리 도구
+feature: Admin Tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
 translation-type: tm+mt

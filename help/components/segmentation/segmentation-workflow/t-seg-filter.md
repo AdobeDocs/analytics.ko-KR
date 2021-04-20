@@ -1,7 +1,7 @@
 ---
 description: 태그, 소유자 및 기타 필터 기준 필터링(모두, 내 세그먼트, 나와 공유, 즐겨찾기 및 승인됨 표시)
 title: 세그먼트 필터링
-feature: 세그멘테이션
+feature: Segmentation
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 translation-type: tm+mt

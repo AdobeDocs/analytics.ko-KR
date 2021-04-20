@@ -2,7 +2,7 @@
 title: Labs 사용 안내서
 description: Adobe Analytics용 프로토타입 프로젝트 미리 보기
 feature: Labs
-role: 관리자
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 온라인 서비스에 대한 액세스를 제공하는 은행 및 기타 기관에 대한 일반 설정을 정의합니다.
 title: 금융 서비스
-feature: 관리 도구
+feature: Admin Tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt

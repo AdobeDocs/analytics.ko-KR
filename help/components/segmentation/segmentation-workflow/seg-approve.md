@@ -1,7 +1,7 @@
 ---
 description: 세그먼트 관리자 내에서 다양한 애플리케이션 수준이나 특정 부서 또는 그룹에 대한 세그먼트 승인이 포함된 워크플로우를 보고 정책과 일관되게 설정할 수 있습니다.
 title: 세그먼트 승인
-feature: 세그멘테이션
+feature: Segmentation
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 translation-type: tm+mt

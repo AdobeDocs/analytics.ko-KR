@@ -3,7 +3,7 @@ description: 사용자 지정 레이아웃에서는, 지표 열을 해당 백분
 title: 마이크로차트 만들기
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

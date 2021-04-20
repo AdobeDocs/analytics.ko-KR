@@ -3,7 +3,7 @@ description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표�
 title: '페이지 상세정보 '
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

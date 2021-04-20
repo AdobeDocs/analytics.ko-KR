@@ -3,7 +3,7 @@ description: Activity Map은 시각적 오버레이를 사용하여 링크 활�
 title: Activity Map 개요
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

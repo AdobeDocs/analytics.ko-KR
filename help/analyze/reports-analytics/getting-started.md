@@ -1,7 +1,7 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 title: Reports and Analytics 시작하기
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt

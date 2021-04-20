@@ -2,7 +2,7 @@
 description: 사용자 그룹 정의 페이지의 요소 설명
 subtopic: Users and groups
 title: 사용자 그룹 설정
-feature: 관리 도구
+feature: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt

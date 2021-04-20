@@ -1,7 +1,7 @@
 ---
 description: 세그먼트 레일에서 보고서에 하나 이상의 세그먼트를 적용하는 방법
 title: 세그먼트 선택 및 적용
-feature: 세그멘테이션
+feature: Segmentation
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Adobe Analytics에 대한 데이터를 수집하는 방법에 대�
 subtopic: Get started
 title: 데이터 수집 정보
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 translation-type: tm+mt

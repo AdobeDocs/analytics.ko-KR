@@ -2,7 +2,7 @@
 description: 처리 규칙을 사용하여 정의된 조건을 기준으로 데이터를 변경할 수 있습니다. 속성 또는 값이 정의된 조건과 일치하는 경우 값을 설정하고 삭제할 수 있으며 이벤트를 설정할 수 있습니다.
 subtopic: Processing rules
 title: 처리 규칙 작동 방식
-feature: 관리 도구
+feature: Admin Tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 translation-type: tm+mt

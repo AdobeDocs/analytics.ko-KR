@@ -3,7 +3,7 @@ description: 한 소스 통합 문서의 한 스프레드시트 전체를 하나
 title: 통합 문서 간 요청 및 워크시트 복사
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Adobe Analytics 보고서는 단일 수준 및 다중 수준 분류 모델을 둘 다 지원합니다. 분류 계층을 사용하면 분류에 분류를 적용할 수 있습니다.
 subtopic: Classifications
 title: 하위 분류 정보
-feature: 관리 도구
+feature: Admin Tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 translation-type: tm+mt

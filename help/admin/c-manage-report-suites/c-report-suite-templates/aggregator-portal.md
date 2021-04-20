@@ -1,7 +1,7 @@
 ---
 description: 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 누적 포털
-feature: 관리 도구
+feature: Admin Tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 translation-type: tm+mt

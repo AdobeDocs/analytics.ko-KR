@@ -3,7 +3,7 @@ description: 종속 요청은 기존 요청에 의존하는 요청입니다.
 title: 종속 요청 추가
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

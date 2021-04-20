@@ -3,7 +3,7 @@ description: Activity Map에서의 링크 추적에 대한 FAQ.
 title: 링크 추적 FAQ
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

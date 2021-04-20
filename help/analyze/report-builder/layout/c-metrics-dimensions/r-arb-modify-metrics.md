@@ -3,7 +3,7 @@ description: Report Builder에서 지표를 구성하기 위한 필드 설명
 title: 지표 수정 - 필드 정의
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

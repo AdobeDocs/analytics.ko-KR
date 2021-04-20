@@ -3,7 +3,7 @@ description: '요청 마법사: 2단계 창을 사용하면 출력에 대한 보
 title: 레이아웃 - 요청 마법사 2단계
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

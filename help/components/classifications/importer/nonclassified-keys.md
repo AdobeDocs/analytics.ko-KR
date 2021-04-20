@@ -2,7 +2,7 @@
 description: 분류되지 않는 키는 분류 보고서에 없음으로 레이블이 지정된 단일 라인 항목으로 모두 그룹화됩니다. 이렇게 하면 없음을 좀 더 설명적인 이름으로 바꾸는 데 유용할 수 있습니다.
 subtopic: Classifications
 title: 분류되지 않는 키
-feature: 관리 도구
+feature: Admin Tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 translation-type: tm+mt

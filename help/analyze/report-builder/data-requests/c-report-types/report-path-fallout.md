@@ -3,7 +3,7 @@ description: Report Builder가 경로 지정 및 폴아웃 보고서를 지원�
 title: Report Builder의 경로 및 경로 폴아웃 보고서
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

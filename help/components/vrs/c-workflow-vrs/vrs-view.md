@@ -2,7 +2,7 @@
 description: 보고서 세트 이름 옆에 있는 i(정보) 아이콘을 클릭하여 보고서 세트에 대한 정보를 얻습니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 정보 보기
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

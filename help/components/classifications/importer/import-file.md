@@ -2,7 +2,7 @@
 description: 분류 템플릿 파일에 적절한 데이터를 복사한 후 Adobe 데이터 수집 서버에 가져올(다운로드) 수 있습니다.
 subtopic: Classifications
 title: 브라우저 및 FTP 가져오기
-feature: 관리 도구
+feature: Admin Tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 exl-id: 3b5eb6b4-42a2-4cf7-864b-33a5a7766255
 translation-type: tm+mt

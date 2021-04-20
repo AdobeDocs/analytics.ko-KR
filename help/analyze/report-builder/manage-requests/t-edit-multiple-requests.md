@@ -3,7 +3,7 @@ description: 요청의 보고서 세트, 세부기간 및 날짜 범위를 기�
 title: 여러 요청 편집
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

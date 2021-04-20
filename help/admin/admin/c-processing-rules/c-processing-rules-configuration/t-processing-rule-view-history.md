@@ -2,7 +2,7 @@
 description: 처리 규칙에 대한 변경 사항은 [내역]에서 볼 수 있습니다.
 subtopic: Processing rules
 title: 처리 규칙 내역 보기
-feature: 관리 도구
+feature: Admin Tools
 uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 translation-type: tm+mt

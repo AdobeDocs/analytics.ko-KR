@@ -1,7 +1,7 @@
 ---
 description: 관리 기능의 일반 계정 설정 보고서 세트에 대한 필드 설명입니다.
 title: 일반 계정 설정
-feature: 관리 도구
+feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: 사용자를 그룹에 추가하는 방법에 대해 설명하는 단계입니다.
 subtopic: Users and groups
 title: 그룹에 사용자 추가
-feature: 관리 도구
+feature: Admin Tools
 uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
 exl-id: f15696a9-3475-4ef6-8d23-3e4e12732b31
 translation-type: tm+mt

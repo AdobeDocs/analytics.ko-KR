@@ -3,7 +3,7 @@ description: 보고서 예약, 다운로드 및 배포에 대한 정보입니다
 subtopic: Schedule
 title: 보고서 예약 및 배포
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: 보고 및 분석 기본 사항,보고 및 분석
+feature: Reports & Analytics Basics,Reports and analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 translation-type: tm+mt

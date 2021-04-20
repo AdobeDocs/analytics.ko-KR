@@ -3,7 +3,7 @@ description: 이 절차는 머리글을 숨기거나 표시하는 방법에 대�
 title: 머리글 숨기기 또는 표시
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

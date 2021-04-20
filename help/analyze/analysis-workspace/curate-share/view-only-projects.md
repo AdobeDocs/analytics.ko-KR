@@ -2,8 +2,8 @@
 description: 작업 공간에서 보기 전용 프로젝트
 keywords: 보기 전용 프로젝트
 title: 보기 전용 프로젝트
-feature: 조정 및 공유
-role: 비즈니스 전문가, 관리자
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

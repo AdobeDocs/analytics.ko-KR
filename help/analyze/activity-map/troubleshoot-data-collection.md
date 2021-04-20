@@ -2,7 +2,7 @@
 title: Activity Map 데이터 수집 문제 해결
 description: 이미지 요청에 Activity Map 데이터가 표시되지 않는 이유 확인
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

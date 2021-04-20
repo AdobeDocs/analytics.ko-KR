@@ -2,8 +2,8 @@
 description: Workspace 프로젝트에서 막대 시각화를 사용합니다.
 title: 막대 및 스택 막대
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: 시각화
-role: 비즈니스 전문가, 관리자
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

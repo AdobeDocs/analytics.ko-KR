@@ -2,7 +2,7 @@
 description: FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 subtopic: Classifications
 title: FTP 가져오기
-feature: 관리 도구
+feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다.
 title: 로그
-feature: 관리 도구
+feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

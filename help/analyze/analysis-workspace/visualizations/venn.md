@@ -2,8 +2,8 @@
 description: 벤 시각화를 사용하여 최대 3개의 세그먼트(구성 요소)와 1개의 지표를 드래그하여 벤 다이어그램을 작성할 수 있습니다.
 title: 벤
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-feature: 시각화
-role: 비즈니스 전문가, 관리자
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

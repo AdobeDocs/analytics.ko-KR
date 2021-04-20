@@ -3,7 +3,7 @@ description: 참조 요청이 아닌 간단한 요청을 복사합니다. 단순
 title: 단순 요청 복사
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

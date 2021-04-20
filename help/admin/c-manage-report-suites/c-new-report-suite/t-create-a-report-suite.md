@@ -1,7 +1,7 @@
 ---
 description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이너를 만듭니다
 title: 보고서 세트 만들기
-feature: 관리 도구
+feature: Admin Tools
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

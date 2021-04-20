@@ -2,7 +2,7 @@
 description: 위쪽의 각 비교 테이블에는 수행되는 비교에 따라 몇 가지 통계 테스트에 의해 계산되는 차이점 점수가 표시됩니다. 그렇지만 사용되는 테스트에 관계없이, 차이점 점수는 0과 1 사이의 값으로 표시됩니다.
 keywords: Analysis Workspace;세그먼트 IQ
 title: 세그먼트 비교에 사용되는 통계 테스트
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 role: Business Practitioner, Administrator
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03

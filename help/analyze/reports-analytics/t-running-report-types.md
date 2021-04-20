@@ -2,7 +2,7 @@
 description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 translation-type: tm+mt

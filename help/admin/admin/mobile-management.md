@@ -1,7 +1,7 @@
 ---
 description: 앱 관리를 활성화하면 모바일 애플리케이션에서 라이프사이클 및 기타 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
 title: 앱 관리
-feature: 관리 도구
+feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

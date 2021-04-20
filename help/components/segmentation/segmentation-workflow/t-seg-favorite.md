@@ -1,7 +1,7 @@
 ---
 description: 세그먼트를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다.
 title: 세그먼트를 즐겨찾기로 표시
-feature: 세그멘테이션
+feature: Segmentation
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 translation-type: tm+mt

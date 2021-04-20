@@ -2,7 +2,7 @@
 description: 사용자 지정 인사이트 전환 변수(또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 지정 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. eVar는 방문 기준이며 쿠키와 유사한 기능을 수행할 수 있습니다. eVar 변수로 전달된 값은 사전 결정된 기간 동안 사용자를 따릅니다.
 keywords: eVar
 title: 전환 변수(eVar)
-feature: 관리 도구
+feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 translation-type: tm+mt

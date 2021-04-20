@@ -2,7 +2,7 @@
 title: 보고 우수 사례 및 문제 해결
 description: 보고서를 생성할 때 모범 사례 및 문제 해결 팁입니다.
 keywords: 우수 사례;실패;시간 초과;문제 해결;느림
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

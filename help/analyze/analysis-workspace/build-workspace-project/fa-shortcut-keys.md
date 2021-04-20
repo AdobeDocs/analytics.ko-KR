@@ -2,8 +2,8 @@
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 바로 가기 키 및 마우스로 이용할 수 있는 동작.
 keywords: Analysis Workspace
 title: 핫키(단축키)
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

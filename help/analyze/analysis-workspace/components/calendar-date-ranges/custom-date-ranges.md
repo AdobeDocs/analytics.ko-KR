@@ -3,8 +3,8 @@ description: Analysis Workspace에서 사용자 지정 날짜 범위를 만든 �
 keywords: Analysis Workspace
 title: 사용자 지정 날짜 범위 만들기
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 오버레이 상세 정보는 링크 오버레이의 맨 위를 가
 title: 오버레이 세부정보
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 분류 데이터를 삭제하거나 제거하는 방법을 설명하는 단계입니다.
 subtopic: Classifications
 title: 분류 데이터 삭제
-feature: 관리 도구
+feature: Admin Tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 description: 조직의 수신자에게 PDF/CSV 프로젝트를 조정, 공유 및 예약할 수 있습니다.
 title: 공유 메뉴
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: 조정 및 공유
-role: 비즈니스 전문가, 관리자
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

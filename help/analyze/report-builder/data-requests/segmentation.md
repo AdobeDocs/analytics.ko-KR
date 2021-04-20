@@ -3,7 +3,7 @@ description: Report Builder에서 Adobe Analytics 세그먼트 추가, 편집, �
 title: 세그먼트 관리
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

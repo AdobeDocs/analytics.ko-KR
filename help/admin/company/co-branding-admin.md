@@ -1,7 +1,7 @@
 ---
 description: 공동 브랜딩 이미지 관리 페이지에서 다운로드한 보고서에 회사 로고를 표시할 수 있습니다.
 title: 공동 브랜딩
-feature: 관리 도구
+feature: Admin Tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: 이제 별도의 요청을 만들 필요 없이 2개의 지표 유�
 title: 트래픽 및 상거래 지표를 동일한 요청에 통합
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

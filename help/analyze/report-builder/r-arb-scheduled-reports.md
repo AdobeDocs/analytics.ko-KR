@@ -3,7 +3,7 @@ description: 예약된 작업 관리자에 대한 필드 설명입니다.
 title: 예약된 작업 관리자
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

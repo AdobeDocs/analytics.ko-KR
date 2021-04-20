@@ -1,7 +1,7 @@
 ---
 description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
-feature: 관리 도구
+feature: Admin Tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 translation-type: tm+mt

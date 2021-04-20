@@ -3,7 +3,7 @@ description: 오프라인 모드는 요청을 만들고 편집하는 과정을 �
 title: 요청을 만들고 편집하기 위한 오프라인 모드
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

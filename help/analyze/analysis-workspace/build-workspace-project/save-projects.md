@@ -1,7 +1,7 @@
 ---
 description: 자동 저장, 다른 이름으로 저장, 템플릿으로 저장 및 이전 버전 열기를 비롯한 다양한 저장 옵션에 대해 알아봅니다.
 title: 프로젝트 저장
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

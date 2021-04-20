@@ -3,7 +3,7 @@ description: 보고서 요청을 예약하고, 고급 전달 선택 사항을 �
 title: 보고서 요청 예약
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

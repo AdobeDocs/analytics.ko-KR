@@ -3,7 +3,7 @@ description: 보고서 세트의 ID를 모를 경우 보고서 세트 메뉴의 
 title: Excel을 사용하여 보고서 세트 ID 찾기
 uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

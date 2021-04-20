@@ -3,7 +3,7 @@ description: 대부분의 FAQ 질문 중 일부에 대한 답변 및 문제 해�
 keywords: Analytics 문제 해결
 title: FAQ
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

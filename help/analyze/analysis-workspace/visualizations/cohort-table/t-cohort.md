@@ -3,8 +3,8 @@ description: Analysis Workspace에서 집단을 만들고 집단 분석 보고�
 keywords: Analysis Workspace
 title: 집단 분석 보고서 실행
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: 시각화
-role: 비즈니스 전문가, 관리자
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

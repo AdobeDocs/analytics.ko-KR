@@ -3,7 +3,7 @@ description: Excel의 서식 > 셀 (Ctrl+1) 기능을 통해 사용할 수 있�
 title: 날짜 형식 지정
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

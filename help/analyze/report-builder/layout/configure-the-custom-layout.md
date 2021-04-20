@@ -3,7 +3,7 @@ description: 사용자 지정 레이아웃에서는 피벗 레이아웃이 가�
 title: 사용자 지정 레이아웃 구성
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

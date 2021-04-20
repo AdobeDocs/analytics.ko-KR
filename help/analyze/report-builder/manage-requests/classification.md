@@ -3,7 +3,7 @@ description: '분류는 분석 보고 데이터를 관련 속성에 매핑하는
 title: 분류
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
 title: 차원 시간 분할
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

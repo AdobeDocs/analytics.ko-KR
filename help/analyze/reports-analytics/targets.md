@@ -2,7 +2,7 @@
 description: 대상을 사용하면 웹 사이트 성능을 측정하고 대상이 되는 목표를 기준으로 진행 상황을 추적할 수 있습니다. 예를 들어 지리적 영역에서 오는 방문자 수, 주문당 매출 또는 특정 레퍼러에서 오는 히트 수를 증가시킬 수 있습니다.
 title: 타겟
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt

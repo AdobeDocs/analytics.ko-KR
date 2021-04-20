@@ -2,7 +2,7 @@
 description: 한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하는 방법을 설명하는 절차입니다.
 subtopic: Processing rules
 title: 다른 보고서 세트에 처리 규칙 복사
-feature: 관리 도구
+feature: Admin Tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 translation-type: tm+mt

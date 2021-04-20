@@ -2,8 +2,8 @@
 description: 기여도 분석은 Adobe Analytics에서 관찰된 예외 항목에 기여한 사항을 드러내도록 설계된 집중 머신 러닝 프로세스입니다. 이 프로세스의 목적은 사용자가 집중 영역이나 추가 분석 기회를 원래 가능한 것보다 훨씬 더 빨리 찾는 것을 돕는 것입니다.
 title: 기여도 분석에 사용된 통계 기법
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI 툴
-role: 비즈니스 전문가, 관리자
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

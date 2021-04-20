@@ -2,8 +2,8 @@
 description: 프로젝트에서 사용하기 전에 차원의 상위 값을 봅니다.
 title: 차원 미리 보기
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Workspace 기본 사항
-role: 비즈니스 전문가, 관리자
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 셀의 선택 영역을 채울 만큼 많은 수의 요청 사본�
 title: 두 개 이상의 요청 사본 만들기
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

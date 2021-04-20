@@ -3,7 +3,7 @@ description: 미리 정의한 필터로 경로 보고서를 만드는 방법을 
 title: 종속 요청을 추가하여 경로 보고서 필터링
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

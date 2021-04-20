@@ -1,7 +1,7 @@
 ---
 description: Reports and Analytics에서 간소화된 보고서 메뉴를 구현하는 단계입니다.
 title: 간소화된 보고서 메뉴
-feature: 관리 도구
+feature: Admin Tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 exl-id: fa383f68-9858-4d85-972a-a375b24da61a
 translation-type: tm+mt

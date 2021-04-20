@@ -1,7 +1,7 @@
 ---
 description: 일반적으로 향후 계약을 통해 판매되는 서비스 및 제품에 대한 정보를 제공하는 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 리드 생성
-feature: 관리 도구
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt

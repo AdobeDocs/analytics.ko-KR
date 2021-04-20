@@ -3,7 +3,7 @@ description: Activity Map에서는 페이지 활동의 보조 보고 기능을 �
 title: 표준 모드와 라이브 모드 비교
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

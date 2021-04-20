@@ -3,7 +3,7 @@ description: Adobe Analytics 컨텐츠 팩에서는 사이트 트래픽 및 사�
 title: Power BI용 Adobe Analytics 콘텐츠 팩
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

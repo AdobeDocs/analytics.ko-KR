@@ -3,7 +3,7 @@ description: Analytics 도구, 보고서 세트 도구, 지표 및 차원에 대
 keywords: 그룹,권한
 subtopic: Users and groups
 title: 보고서 액세스 사용자 지정 - 개요
-feature: 관리 도구
+feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt

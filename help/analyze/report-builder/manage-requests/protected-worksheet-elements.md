@@ -3,7 +3,7 @@ description: 워크시트를 보호(셀을 잠그는 방식으로)하면 요청�
 title: 보호된 워크시트 요소
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

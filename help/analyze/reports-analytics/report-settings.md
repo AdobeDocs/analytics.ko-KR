@@ -2,7 +2,7 @@
 description: 모든 보고서가 표시되는 방식과 기본 메뉴 옵션을 간소화된 메뉴에서 해당 위치에 매핑하는 정보를 정의하는 설정입니다.
 title: 보고서 표시 설정 및 탐색
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

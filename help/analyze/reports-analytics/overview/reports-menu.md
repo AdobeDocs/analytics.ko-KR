@@ -2,7 +2,7 @@
 description: Reports & Analytics의 보고서 메뉴에 대한 개요.
 title: 보고서 메뉴
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 translation-type: tm+mt

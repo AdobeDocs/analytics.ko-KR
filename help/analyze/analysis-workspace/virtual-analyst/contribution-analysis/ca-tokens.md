@@ -2,8 +2,8 @@
 description: 기여도 분석을 사용하여 데이터의 통계 이상 및 상관관계를 식별합니다.
 title: 기여도 분석 개요
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI 툴
-role: 비즈니스 전문가, 관리자
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

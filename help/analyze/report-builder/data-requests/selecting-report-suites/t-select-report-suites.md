@@ -3,7 +3,7 @@ description: Excel에서 보고서 세트를 선택하는 데 도움이 되는 �
 title: 보고서 세트 선택
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

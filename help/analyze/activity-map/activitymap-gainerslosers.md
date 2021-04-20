@@ -3,7 +3,7 @@ description: 오버레이는 페이지에 있는 링크들의 인기도를 쉽�
 title: 사용자 지정 가능 오버레이
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

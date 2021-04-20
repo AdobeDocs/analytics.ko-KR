@@ -1,7 +1,7 @@
 ---
 description: 게시 위젯은 웹 페이지에 마케팅 보고서(책갈피와 대시보드만)를 삽입할 수 있는 컨테이너입니다. 조직 내에서 마케팅 보고서에 대한 액세스 권한이 없는 사람에게 관련 데이터를 볼 수 있게 해 줍니다.
 title: 게시 위젯
-feature: 관리 도구
+feature: Admin Tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 translation-type: tm+mt

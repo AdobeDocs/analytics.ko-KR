@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 대시보드 - 개요
 description: Adobe Analytics 대시보드에 대한 제품 설명서 및 자체 도움말
-feature: 분석 대시보드
-role: 비즈니스 전문가, 관리자
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

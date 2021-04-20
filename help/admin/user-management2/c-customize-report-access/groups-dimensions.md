@@ -3,7 +3,7 @@ description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 �
 keywords: 그룹,권한
 subtopic: Users and groups
 title: 차원 권한 사용자 지정
-feature: 관리 도구
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt

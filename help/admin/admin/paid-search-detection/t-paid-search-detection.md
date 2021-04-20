@@ -1,7 +1,7 @@
 ---
 description: 유료 검색 감지를 구성하는 방법을 설명하는 단계입니다.
 title: 유료 검색 감지 구성
-feature: 관리 도구
+feature: Admin Tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 translation-type: tm+mt

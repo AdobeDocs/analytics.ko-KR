@@ -1,7 +1,7 @@
 ---
 description: 달력 이벤트를 추가하고, 공유 이벤트를 관리하는 절차입니다.
 title: 달력 이벤트
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Activity Map은 다음 웹 브라우저에서 지원됩니다.
 title: 지원되는 시스템 및 요구 사항
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

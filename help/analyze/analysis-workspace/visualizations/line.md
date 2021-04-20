@@ -2,8 +2,8 @@
 description: 라인 시각화를 사용하여 트렌드(시간 기반) 데이터 세트를 나타냅니다.
 title: 라인
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: 시각화
-role: 비즈니스 전문가, 관리자
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

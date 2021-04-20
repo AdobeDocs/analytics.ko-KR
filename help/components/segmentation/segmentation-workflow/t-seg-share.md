@@ -1,7 +1,7 @@
 ---
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 세그먼트를 공유할 수 있습니다.
 title: 세그먼트 공유
-feature: 세그멘테이션
+feature: Segmentation
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 translation-type: tm+mt

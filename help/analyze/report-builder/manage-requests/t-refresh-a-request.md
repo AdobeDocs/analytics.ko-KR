@@ -3,7 +3,7 @@ description: 요청을 편집이나 필터로 업데이트한 후 새로 고칩�
 title: 요청 새로 고침
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
 subtopic: Classifications
 title: 분류 데이터 파일
-feature: 관리 도구
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

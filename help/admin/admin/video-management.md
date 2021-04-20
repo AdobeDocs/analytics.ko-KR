@@ -1,7 +1,7 @@
 ---
 description: 일련의 사용자 지정 전환 변수(eVar)와 사용자 지정 이벤트를 비디오 추적 및 보고용으로 지정할 수 있습니다.
 title: 비디오 관리
-feature: 관리 도구
+feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: 포함된 요청이 있는 보고서를 만든 후 조건부 서식
 title: 조건부 서식 지정
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

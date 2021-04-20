@@ -1,7 +1,7 @@
 ---
 description: Adobe Social이 활성화되어 있을 때 이 옵션을 사용하면 Social 변수를 분류할 수 있습니다.
 title: 소셜 관리
-feature: 관리 도구
+feature: Admin Tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 exl-id: eeb42b17-57a6-4743-b699-ce060c454555
 translation-type: tm+mt

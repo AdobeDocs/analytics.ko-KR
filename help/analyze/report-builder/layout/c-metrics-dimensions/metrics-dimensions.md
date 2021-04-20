@@ -3,7 +3,7 @@ description: 지표 및 차원을 요청 마법사 2단계에 추가하여 요�
 title: 지표 및 차원 개요
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

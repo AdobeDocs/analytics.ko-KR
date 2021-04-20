@@ -2,8 +2,8 @@
 description: 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다.
 title: 텍스트
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: 시각화
-role: 비즈니스 전문가, 관리자
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

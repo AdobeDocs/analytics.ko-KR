@@ -3,7 +3,7 @@ description: 책갈피가 지정된 모든 보고서와 대시보드 보고서�
 title: 북마크가 지정된 보고서 및 대시보드 리포트릿 가져오기
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 도구 모음, 달력 및 세부 사항 테이블을 포함한 보고서 기능에 대한 소개입니다.
 title: 보고서 기능
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt

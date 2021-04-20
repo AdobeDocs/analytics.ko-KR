@@ -3,7 +3,7 @@ description: 이 기능을 사용하면 Report Builder 사용자 인터페이스
 title: Microsoft Excel 함수에서 Report Builder 기능 호출
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

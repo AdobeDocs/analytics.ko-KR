@@ -2,7 +2,7 @@
 description: 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다(최대 25개).
 subtopic: Marketing channels
 title: 마케팅 채널 관리
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt

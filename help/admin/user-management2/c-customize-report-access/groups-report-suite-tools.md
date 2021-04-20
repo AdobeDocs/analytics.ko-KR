@@ -3,7 +3,7 @@ description: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대�
 keywords: 그룹,권한
 subtopic: Users and groups
 title: 보고서 세트 도구 권한 사용자 지정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt

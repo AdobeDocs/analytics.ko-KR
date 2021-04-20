@@ -2,7 +2,7 @@
 description: Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
 subtopic: Users and groups
 title: 사용자 및 제품 관리
-feature: 관리 도구
+feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 translation-type: tm+mt

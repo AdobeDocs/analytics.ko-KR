@@ -3,7 +3,7 @@ description: 대시보드 관리자를 사용하여 배달할 대시보드를 �
 subtopic: Dashboards
 title: 대시보드 관리자
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: 보고 및 분석 기본 사항
+feature: Reports & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 translation-type: tm+mt

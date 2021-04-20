@@ -1,7 +1,7 @@
 ---
 description: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터를 모두 하나의 보고서 세트에 결합하십시오.
 title: 타임스탬프 선택 사항
-feature: 관리 도구
+feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: 기본 Report Builder 데이터 요청을 만드는 절차.
 title: 데이터 요청 만들기
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

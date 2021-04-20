@@ -2,7 +2,7 @@
 description: 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
 title: 작업 영역 프로젝트 만들기
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

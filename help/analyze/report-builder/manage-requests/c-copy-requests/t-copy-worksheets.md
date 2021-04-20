@@ -3,7 +3,7 @@ description: 한 스프레드시트를 동일한 통합 문서에 있는 다른 
 title: 워크시트 복사
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

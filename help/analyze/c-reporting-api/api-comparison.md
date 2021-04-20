@@ -3,7 +3,7 @@ description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서�
 title: Analytics 보고 API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
-role: 개발자
+role: Developer
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 각 eVar에 방문자 식별자가 포함되는지 지정하는 방법을 설명하는 단계입니다.
 title: 고유 방문자 변수 지정
-feature: 관리 도구
+feature: Admin Tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 translation-type: tm+mt

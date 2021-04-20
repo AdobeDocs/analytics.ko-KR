@@ -1,7 +1,7 @@
 ---
 description: 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
 title: 코드 관리자
-feature: 관리 도구
+feature: Admin Tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 translation-type: tm+mt

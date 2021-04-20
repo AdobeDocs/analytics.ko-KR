@@ -3,7 +3,7 @@ description: 책갈피를 이용하여 가장 많이 사용하는 보고서에 �
 subtopic: Bookmarks
 title: 북마크 관리자
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 translation-type: tm+mt

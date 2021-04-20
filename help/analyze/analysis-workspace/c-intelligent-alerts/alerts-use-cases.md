@@ -2,8 +2,8 @@
 description: 지능형 경고에 대한 활용 사례.
 title: 지능형 경고 - 활용 사례
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-feature: AI 툴
-role: 비즈니스 전문가, 관리자
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

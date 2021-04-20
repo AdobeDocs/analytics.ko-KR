@@ -2,7 +2,7 @@
 description: 지표는 보고서의 기반으로, 데이터 관계를 보고 이해하는 데 도움이 되며 웹 사이트에 대한 다양한 데이터 세트를 동시에 비교할 수 있도록 지원합니다. 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
 title: 지표
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: 보고 및 분석 기본 사항 및 분석 기본 사항
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt

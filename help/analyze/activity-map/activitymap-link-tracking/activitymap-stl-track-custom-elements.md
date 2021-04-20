@@ -2,7 +2,7 @@
 title: Activity Map에서 tl() 메서드 사용
 description: tl() 메서드를 사용하여 사용자 지정 요소를 추적하고 동적 내용에 대한 오버레이 렌더링을 구성할 수 있습니다.
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

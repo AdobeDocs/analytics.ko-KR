@@ -3,7 +3,7 @@ description: 특정 차원 용어를 적용하는 필터.
 title: 특정 필터
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

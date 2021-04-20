@@ -3,7 +3,7 @@ description: Analytics에서 사용할 수 있는 사용 권한 및 차원을 �
 title: Analytics에서의 Activity Map 보고
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

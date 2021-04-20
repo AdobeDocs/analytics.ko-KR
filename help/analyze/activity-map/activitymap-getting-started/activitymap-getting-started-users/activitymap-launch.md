@@ -3,7 +3,7 @@ description: 올바른 브라우저 플러그인이 설치되어 있다면, 웹 
 title: Activity Map 시작
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 feature: Activity Map
-role: 비즈니스 전문가, 관리자
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
