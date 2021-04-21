@@ -2,14 +2,14 @@
 description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 99%
+source-wordcount: '2361'
+ht-degree: 100%
 
 ---
 
