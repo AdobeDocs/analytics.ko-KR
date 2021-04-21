@@ -2,14 +2,14 @@
 description: 가상 보고서 세트의 신규 사용자를 위한 팁과 우수 사례입니다.
 keywords: 가상 보고서 세트
 title: VRS FAQ
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 기본 사항
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 99%
+source-wordcount: '904'
+ht-degree: 100%
 
 ---
 
