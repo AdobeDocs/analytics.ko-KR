@@ -2,14 +2,14 @@
 description: 그래프를 목표 대상에게 가장 유용한 방식으로 사용자 지정하는 방법을 설명하는 단계입니다.
 title: 보고서 그래프 변경
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 99%
+source-wordcount: '595'
+ht-degree: 100%
 
 ---
 
