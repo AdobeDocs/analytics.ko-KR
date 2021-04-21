@@ -1,16 +1,16 @@
 ---
 description: 데이터 피드에서 사용된 특수 문자에 대한 정보입니다.
-keywords: 데이터 피드;작업;특수 문자;히트_데이터;다중값 변수;이벤트_목록;제품_목록;mvvars
+keywords: 데이터 피드, 작업, 특수 문자, hit_data, 여러 값이 있는 변수, events_list, products_list, mvvars
 subtopic: data feeds
 title: 데이터 피드의 특수 문자
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 기본 사항
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 94%
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
