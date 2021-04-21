@@ -1,14 +1,14 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 title: Reports and Analytics 시작하기
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 99%
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 1. 인터넷에 액세스할 수 있는 컴퓨터에서 브라우저를 시작합니다.
 1. [!DNL https://login.experiencecloud.adobe.com/] 으로 이동합니다.
-1. [!UICONTROL 로그인] 페이지에서 **[!UICONTROL 단일 사인온]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 로그인] 페이지에서 **[!UICONTROL Single Sign-On]**&#x200B;을 클릭합니다.
 1. 다음 정보를 작성한 후 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
 
    **[!UICONTROL 회사]**: 회사 ID를 지정합니다.
