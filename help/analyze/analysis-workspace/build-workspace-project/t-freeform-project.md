@@ -2,13 +2,13 @@
 description: 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 keywords: Analysis Workspace
 title: 작업 영역 프로젝트 만들기
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 기본 사항
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 99%
+source-wordcount: '756'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 99%
    * 그런 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭하거나,
    * 간단히 **[!UICONTROL Enter를 클릭합니다]**.
 
-   자유 형식 패널과 데이터 테이블 시각화를 보여주는 빈 프로젝트가 표시됩니다.
+   자유 형식 패널과 데이터 테이블 시각화를 보여 주는 빈 프로젝트가 표시됩니다.
 
    ![](assets/fa_project_new.png)
 
