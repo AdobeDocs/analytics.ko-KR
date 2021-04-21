@@ -1,15 +1,15 @@
 ---
 description: 테이블을 조회하여 page_event 값을 기준으로 히트의 유형을 파악하십시오.
-keywords: 데이터 피드;페이지;이벤트;page_event;post_page_event;data Feed;page;event;page_event
+keywords: 데이터 피드, 페이지, 이벤트, page_event, post_page_event
 title: 페이지 이벤트 조회
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 기본 사항
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 93%
+source-wordcount: '209'
+ht-degree: 100%
 
 ---
 
