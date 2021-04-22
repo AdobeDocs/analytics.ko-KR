@@ -3,14 +3,14 @@ description: Audience Analytics을 구현할 때 나올 수 있는 질문에 대
 solution: Experience Cloud
 title: FAQ
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1098'
 ht-degree: 100%
 
 ---
-
 
 # FAQ
 
@@ -21,7 +21,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
 <table id="table_22037CCB516C4231BF5820004FBB351A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Q: 내 Analytics 데이터에 PII(개인식별정보)가 있는지 어떻게 알 수 있습니까? 알 수 있다면, 어떻게 해야 합니까?</b> </td> 
+   <td colname="col1"> <b>Q: 내 Analytics 데이터에 PII (개인식별정보)가 있는지 어떻게 알 수 있습니까? 알 수 있다면, 어떻게 해야 합니까?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">prop 또는 eVar에 이메일/주소/등이 있는 경우 수집 중에 데이터 해싱을 고려하십시오. </li> 
@@ -36,7 +36,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
      <li id="li_9BC3819784A9408F846D60FF0F20AAF9">이러한 사항은 Adobe Audience Manager에 Adobe Analytics 데이터 보내기에 적용되지 않습니다. </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">스스로에게 질문하기: MCA 차원과 Analytics 공유 세그먼트를 다시 Experience Cloud와 공유하시겠습니까? </li> 
-     <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">이러한 목적에 사용되는 BI(비즈니스 인텔리전스) 시스템으로 데이터 피드 등을 통해 내보내시겠습니까? </li> 
+     <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">이러한 목적에 사용되는 BI (비즈니스 인텔리전스) 시스템으로 데이터 피드 등을 통해 내보내시겠습니까? </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -98,11 +98,11 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
      <li id="li_50A9BDF612304062913370F16BC882EF">대상 및 세그먼트의 데이터 소스에 있는 AAM 데이터 내보내기 컨트롤이 충돌하여 특정 세그먼트가 전송되지 않을 수 있습니다. </li> 
-     <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">세그먼트에서 타사 데이터 트레이트를 사용하는 경우 해당 세그먼트를 개인 데이터가 포함된 대상(보고서 세트)에 공유할 수 없습니다. </li> 
+     <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">세그먼트에서 타사 데이터 트레이트를 사용하는 경우 해당 세그먼트를 개인 데이터가 포함된 대상 (보고서 세트)에 공유할 수 없습니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: 내 Analytics 보고서에 "대상 제한에 도달했습니다."가 표시되는 이유는 무엇입니까? (참고: 이 값은 또한 데이터 웨어하우스에서 Audience ID = -1 및 "::max_audiences_exceeded::"로 표시됩니다.)</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: 내 Analytics 보고서에 "대상 제한에 도달했습니다."가 표시되는 이유는 무엇입니까?  (참고: 이 값은 또한 데이터 웨어하우스에서 Audience ID = -1 및 "::max_audiences_exceeded::"로 표시됩니다.)</b> </p> </td> 
    <td colname="col2"> <p>기본적으로 AAM에 대한 Audience Analytics 통합은 방문자가 대상인 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 한 번의 히트에서 150개 이상의 AAM 세그먼트에 속하면 <b>가장 최근에 자격을 갖춘 150개의 세그먼트</b>가 Analytics로 전송되고 나머지 목록은 잘립니다. </p> <p>세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics에 전송되고, 대상 이름 차원에 "대상 제한에 도달했습니다."로 표시되고 대상 ID 차원에 "-1"로 표시됩니다. </p> <p>방문자가 특정 히트에서 150개 이상의 세그먼트에 대해 자격을 얻는 것은 거의 불가능하지만, 가끔 발생할 수 있습니다. 보고서에 "대상 제한에 도달했습니다."가 표시되면 다음 두 가지 옵션을 사용할 수 있습니다. </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>옵션 1</b>: 통합을 기본 상태로 계속 작업하면서 특정 방문자에 대해 가장 최근에 자격을 얻은 150개의 세그먼트를 전송합니다. </li> 
@@ -111,12 +111,12 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 이 통합을 위해 추가 서버 호출에 대한 비용이 Analytics에 청구됩니까?</b> </p> </td> 
-   <td colname="col2"> <p>아니요. AAM 대상은 Analytics의 히트 서버측에 통합됩니다. 이 경우 Analytics에 대한 추가 서버 호출이 발생하지 않습니다(기본 또는 보조). </p> </td> 
+   <td colname="col2"> <p>아니요. AAM 대상은 Analytics의 히트 서버측에 통합됩니다. 이 경우 Analytics에 대한 추가 서버 호출이 발생하지 않습니다 (기본 또는 보조). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## SSF(서버측 전달) FAQ {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## SSF (서버측 전달) FAQ {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
@@ -155,4 +155,3 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
   </tr> 
  </tbody> 
 </table>
-
