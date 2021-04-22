@@ -1,22 +1,22 @@
 ---
-title: 집중 검토(각 웹 사이트 릴리스 이후)
+title: 집중 검토 (각 웹 사이트 릴리스 이후)
 description: 다음 단계에 따라 구현 오류를 방지하고 KPI를 관리하십시오.
-translation-type: tm+mt
-source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: tm+mt
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
 ---
 
-
-# 집중 검토(각 웹 사이트 릴리스 이후)
+# 집중 검토 (각 웹 사이트 릴리스 이후)
 
 몇 개월마다 구현을 검토해야 하는 이유는 무엇입니까? 문제가 커지기 전에 데이터 품질 문제를 해결할 수 있습니다. 각 웹 사이트 릴리스 후에 이 집중 검토를 정기적으로 수행하면, 2년 마다 수행되는 [전체 검토](/help/implement/review/full-review.md)가 훨씬 더 수월해집니다. 또한 사소한 문제가 이해 관계자의 신뢰를 손상시킬 수 있는 대규모 데이터 문제로 번지지 않도록 방지할 수 있습니다.
 
 ## 1. 상위 5개의 KPI로 시작합니다.
 
-상위 5개의 주요 성과 지표(KPI)를 파악하면 검토해야 하는 관련 지표와 차원을 결정하는 데 도움이 됩니다. 지난 6개월 동안 KPI를 새로 고치지 않았거나 아직 회사의 KPI를 만들지 않은 경우에는 [다음 지침](/help/implement/review/define-kpis.md)을 따릅니다.
+상위 5개의 주요 성과 지표 (KPI)를 파악하면 검토해야 하는 관련 지표와 차원을 결정하는 데 도움이 됩니다. 지난 6개월 동안 KPI를 새로 고치지 않았거나 아직 회사의 KPI를 만들지 않은 경우에는 [다음 지침](/help/implement/review/define-kpis.md)을 따릅니다.
 
 ## 2. KPI 지표와 변수가 계속 제대로 작동하는지 확인합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 4. 설명서를 업데이트합니다.
 
-최근 지표나 변수를 추가하거나 변경한 경우 BRD(Business Requirements Document) 및 SDR(Solution Design Reference)을 업데이트해야 합니다.
+최근 지표나 변수를 추가하거나 변경한 경우 BRD (Business Requirements Document) 및 SDR (Solution Design Reference)을 업데이트해야 합니다.
 
 구현 설명서가 없는 경우 변수 목록을 내보내고 [이 템플릿](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ko-KR#implementation)을 사용하여 BRD 또는 SDR을 만듭니다.
 
