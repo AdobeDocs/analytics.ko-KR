@@ -1,17 +1,17 @@
 ---
 description: Dynamic Tag Management에서 규칙을 만드는 방법을 설명하는 단계입니다.
-keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
+keywords: Dynamic Tag Management;규칙;규칙 만들기;새 규칙;이벤트 기반 규칙;페이지 로드 규칙;직접 호출 규칙
 solution: Experience Cloud,Analytics,Target
 title: 새 규칙 만들기
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '160'
+exl-id: d5d2fabf-f69d-430e-bce6-da6351309289
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
-
 
 # 새 규칙 만들기
 
