@@ -1,16 +1,16 @@
 ---
 description: 웹 사이트, 모바일 앱을 통해 수집되거나 웹 서비스 API 또는 데이터 소스를 이용하여 업로드되는 데이터는 Adobe의 Data Warehouse에서 처리되고 저장됩니다. 이 원시 클릭스트림 데이터는 Adobe Analytics에서 사용되는 데이터 세트를 이룹니다.
-keywords: clickstream;data feed;datafeed;Data Feed
+keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Analytics 데이터 피드 개요
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
-workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 98%
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '577'
+ht-degree: 100%
 
 ---
-
 
 # Analytics 데이터 피드 개요
 
@@ -34,12 +34,12 @@ ht-degree: 98%
    * 이름: &quot;데이터 피드 테스트&quot;와 같이 원하는 이름을 지정합니다.
    * 보고서 세트: 원하는 보고서 세트를 선택합니다.
    * 완료 시 이메일 보내기: 이메일을 입력합니다.
-   * 피드 간격: 원하는 간격(시간별 또는 일별)을 선택합니다.
+   * 피드 간격: 원하는 간격 (시간별 또는 일별)을 선택합니다.
    * 프로세싱 지연: [!UICONTROL 지연 없음]으로 둘 수 있습니다.
    * 시작 및 종료 날짜: 이전 며칠 중에서 시작 날짜를 선택하고 오늘을 종료 날짜로 선택합니다.
 6. [!UICONTROL 대상] 필드를 채웁니다.
    * 유형: FTP
-   * 호스트: 원하는 FTP 대상 URL을 입력합니다. (예: `ftp://ftp.omniture.com`)
+   * 호스트: 원하는 FTP 대상 URL을 입력합니다.  (예: `ftp://ftp.omniture.com`)
    * 경로: 비워 둘 수 있습니다.
    * 사용자 이름: FTP 사이트에 로그인할 사용자 이름을 입력합니다.
    * 암호 및 암호 확인: FTP 사이트에 로그인할 암호를 입력합니다.
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 ## 다음 단계
 
-데이터 피드를 얻는 기본 워크플로우를 이해하면 조직 내의 팀과 함께 원시 데이터를 데이터베이스에 저장하거나 인제스트할 수 있습니다.
+데이터 피드를 얻는 기본 워크플로를 이해하면 조직 내의 팀과 함께 원시 데이터를 데이터베이스에 저장하거나 인제스트할 수 있습니다.
 
 * [데이터 피드 만들기](create-feed.md): 개별 필드를 자세히 설명하는 데이터 피드 작성을 위한 기술 세부 정보
 * [데이터 피드 관리](df-manage-feeds.md): 데이터 피드 인터페이스 탐색에 대한 자세한 정보
@@ -68,4 +68,4 @@ ht-degree: 98%
 
 데이터 피드 인터페이스를 탐색하는 비디오:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
