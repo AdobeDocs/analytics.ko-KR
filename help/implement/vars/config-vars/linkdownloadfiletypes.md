@@ -1,14 +1,14 @@
 ---
 title: linkDownloadFileTypes
 description: 다운로드 링크로 자동 추적되는 파일 확장자를 결정합니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # linkDownloadFileTypes
 
@@ -23,9 +23,11 @@ ht-degree: 100%
 > * 페이지가 로드될 때 자동으로 시작되는 파일 다운로드
 > * 리디렉션 후 트리거되는 다운로드
 > * 마우스 오른쪽 단추를 클릭하고 &#39;다른 이름으로 대상 저장...&#39; 선택
-> * JavaScript를 사용하는 링크(예: `javascript:openLink()`)
+> * JavaScript를 사용하는 링크 (예: `javascript:openLink()`)
+
 >
-> 이러한 다운로드 유형의 경우 [`tl()`](../functions/tl-method.md) 메서드를 수동으로 호출할 수 있습니다.
+> 
+이러한 다운로드 유형의 경우 [`tl()`](../functions/tl-method.md) 메서드를 수동으로 호출할 수 있습니다.
 
 클릭한 링크가 종료 링크와 다운로드 링크 기준을 모두 만족하는 경우에는 다운로드 링크 유형이 우선합니다.
 
@@ -44,7 +46,7 @@ ht-degree: 100%
 
 `s.linkDownloadFileTypes` 변수는 쉼표로 구분된 파일 확장자로 이루어진 문자열입니다. 공백은 사용하지 마십시오.
 
-이 변수가 정의되지 않으면 자동 다운로드 링크 추적이 작동하지 않습니다([`trackDownloadLinks`](trackdownloadlinks.md)가 `true`인 경우에도).
+이 변수가 정의되지 않으면 자동 다운로드 링크 추적이 작동하지 않습니다 ([`trackDownloadLinks`](trackdownloadlinks.md)가 `true`인 경우에도).
 
 ```js
 s.linkDownloadFileTypes = "doc,docx,eps,jpg,png,svg,xls,ppt,pptx,pdf,xlsx,tab,csv,zip,txt,vsd,vxd,xml,js,css,rar,exe,wma,mov,avi,wmv,mp3,wav,m4v";
