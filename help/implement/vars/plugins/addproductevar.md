@@ -1,14 +1,14 @@
 ---
 title: addProductEvar
 description: products 변수에 머천다이징 eVar를 추가합니다.
+exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 translation-type: ht
-source-git-commit: abed7197898d6c27448069350c9f2217d58293c4
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
 ---
-
 
 # Adobe 플러그인: addProductEvar
 
@@ -32,7 +32,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
+   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: AddProductEvar 초기화
@@ -51,7 +51,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,11 +64,11 @@ function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"
 
 `addProductEvar` 플러그인에서는 다음 인수를 사용합니다.
 
-* **`en`** (필수, 문자열): 현재 products 변수에 포함된 마지막 항목에 추가할 eVar입니다. products 변수가 비어 있으면 플러그인이 항목의 끝에 eVar 값이 첨부된 &quot;빈&quot; 제품 항목을 만듭니다.
-* **`ev`** (필수, 문자열): eVar에 지정된 값입니다.
-* **`ap`** (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 true(또는 1)이면 **모든** 제품 항목에 eVar가 추가됩니다. 기본값은 false(또는 0)로 설정되며, 그럴 경우 products 변수에 포함된 **마지막** 항목에만 eVar가 추가됩니다.
+* **`en`**  (필수, 문자열): 현재 products 변수에 포함된 마지막 항목에 추가할 eVar입니다. products 변수가 비어 있으면 플러그인이 항목의 끝에 eVar 값이 첨부된 &quot;빈&quot; 제품 항목을 만듭니다.
+* **`ev`**  (필수, 문자열): eVar에 지정된 값입니다.
+* **`ap`**  (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 true (또는 1)이면 **모든** 제품 항목에 eVar가 추가됩니다. 기본값은 false (또는 0)로 설정되며, 그럴 경우 products 변수에 포함된 **마지막** 항목에만 eVar가 추가됩니다.
 
-`addProductEvar` 플러그인은 아무 것도 반환하지 않습니다. 대신 `en` 및 `ev` 인수에 지정된 eVar(및 eVar 값)가 `products` 변수에 추가됩니다.
+`addProductEvar` 플러그인은 아무 것도 반환하지 않습니다. 대신 `en` 및 `ev` 인수에 지정된 eVar (및 eVar 값)가 `products` 변수에 추가됩니다.
 
 ## 예
 
@@ -99,10 +99,10 @@ s.addProductEvar("eVar1", "blue");
 
 ## 버전 내역
 
-### 2.0(2021년 3월 19일)
+### 2.0 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
-### 1.0(2019년 10월 7일)
+### 1.0 (2019년 10월 7일)
 
 * 초기 릴리스.
