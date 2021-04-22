@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics의 대상 보고서
 description: Analysis Workspace를 사용하여 대상 기반 보고서를 만드는 방법을 알아봅니다.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1715'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # 대상 보고서
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 1. 왼쪽의 시각화 아이콘을 클릭하고 선 시각화를 빈 자유 형식 테이블 위의 작업 공간으로 끌어서 놓습니다.
 2. 왼쪽의 구성 요소 아이콘을 클릭한 다음 **고유 방문자 수** 지표를 &#39;여기에 지표 놓기&#39;라는 작은 공간으로 끌어서 놓습니다.
-3. 다른 세부 기간을 원하는 경우 원하는 날짜 범위(예: **일**, **주**, **월** 등)를 기존 날짜 차원 헤더 위로 끌어서 놓습니다.
+3. 다른 세부 기간을 원하는 경우 원하는 날짜 범위 (예: **일**, **주**, **월** 등)를 기존 날짜 차원 헤더 위로 끌어서 놓습니다.
 
 Adobe가 고유 방문자 수를 계산하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [고유 방문자 수](/help/components/metrics/unique-visitors.md)를 참조하십시오.
 
@@ -89,11 +89,11 @@ Adobe에서는 인구 분포 및 관심 분야 데이터를 자동으로 수집�
 1. 구성 요소 메뉴에서 **국가** 차원을 찾아 &#39;여기에 차원 놓기&#39;라는 큰 자유 형식 테이블 영역으로 끌어서 놓습니다.
 2. 원하는 지표를 자동으로 생성된 **발생 횟수** 지표와 함께 작업 공간으로 끌어서 놓습니다. 각 지표를 얻는 방법에 대한 자세한 내용은 [지표 변환 안내서](common-metrics.md)를 참조하십시오.
 
-See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
+자세한 내용은 구성 요소 사용 안내서의 [국가](/help/components/dimensions/countries.md) 차원을 참조하십시오.
 
 ## 동작 - 신규 방문과 재방문
 
-새 방문 보고서와 재방문 보고서는 첫 번째 세션(신규 방문)과 후속 세션(재방문)에 대한 간단한 보기를 제공합니다.
+새 방문 보고서와 재방문 보고서는 첫 번째 세션 (신규 방문)과 후속 세션 (재방문)에 대한 간단한 보기를 제공합니다.
 
 신규 방문과 재방문 보고서를 만들려면:
 
@@ -104,7 +104,7 @@ See the [Countries](/help/components/dimensions/countries.md) dimensions in the 
 선 그래프도 필요한 경우:
 
 1. 왼쪽의 시각화 아이콘을 클릭하고 선 시각화를 자유 형식 테이블 위의 작업 공간으로 끌어서 놓습니다.
-2. 자유 형식 테이블의 각 행을 ctrl+클릭(Windows)하거나 cmd+클릭(Mac)하여 강조 표시합니다. 이렇게 하면 두 트렌드가 선 시각화에 나타날 수 있습니다.
+2. 자유 형식 테이블의 각 행을 ctrl+클릭 (Windows)하거나 cmd+클릭 (Mac)하여 강조 표시합니다. 이렇게 하면 두 트렌드가 선 시각화에 나타날 수 있습니다.
 3. 선 시각화의 왼쪽 맨 위 모서리에 있는 작고 둥근 컬러 점을 클릭한 다음 &#39;선택 잠금&#39; 확인란을 클릭합니다.
 
 ## 동작 - 빈도 및 최신성
@@ -161,7 +161,7 @@ See the [Countries](/help/components/dimensions/countries.md) dimensions in the 
 1. 구성 요소 메뉴에서 **모바일 장치 유형** 차원을 찾아 &#39;여기에 차원 놓기&#39;라는 큰 자유 형식 테이블 영역으로 끌어서 놓습니다.
 2. 원하는 지표를 자동으로 생성된 **발생 횟수** 지표와 함께 작업 공간으로 끌어서 놓습니다. 각 지표를 얻는 방법에 대한 자세한 내용은 [지표 변환 안내서](common-metrics.md)를 참조하십시오.
 
-See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+자세한 내용은 구성 요소 사용 안내서의 [모바일 장치 유형](/help/components/dimensions/mobile-dimensions.md)을 참조하십시오.
 
 ## 모바일 - 장치
 
@@ -170,7 +170,7 @@ See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) d
 1. 구성 요소 메뉴에서 **모바일 장치** 차원을 찾아 &#39;여기에 차원 놓기&#39;라는 큰 자유 형식 테이블 영역으로 끌어서 놓습니다.
 2. 원하는 지표를 자동으로 생성된 **발생 횟수** 지표와 함께 작업 공간으로 끌어서 놓습니다. 각 지표를 얻는 방법에 대한 자세한 내용은 [지표 변환 안내서](common-metrics.md)를 참조하십시오.
 
-See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+자세한 내용은 구성 요소 사용 안내서의 [모바일 장치](/help/components/dimensions/mobile-dimensions.md) 차원을 참조하십시오.
 
 ## 사용자 지정
 
@@ -187,4 +187,4 @@ See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimens
 1. 왼쪽의 시각화 아이콘을 클릭하고 흐름 시각화를 자유 형식 테이블 위의 작업 공간으로 끌어서 놓습니다.
 2. **페이지** 차원을 찾은 다음 화살표 아이콘을 클릭하여 페이지 값을 표시합니다. 차원 항목은 노란색으로 표시됩니다.
 3. 시작할 페이지 값을 찾아 가운데 있는 &#39;차원 또는 항목&#39;이라는 공간으로 끌어서 놓습니다.
-4. 이 플로우 보고서는 대화형입니다. 플로우를 다음 또는 이전 페이지로 확장하려면 값을 클릭합니다. 마우스 오른쪽 단추 클릭 메뉴를 사용하여 열을 확장하거나 축소하십시오. 동일한 플로우 보고서 내에서 다양한 차원을 사용할 수도 있습니다.
+4. 이 플로우 보고서는 대화형입니다. 플로우를 다음 또는 이전 페이지로 확장하려면 값을 클릭합니다. 마우스 오른쪽 버튼 클릭 메뉴를 사용하여 열을 확장하거나 축소하십시오. 동일한 플로우 보고서 내에서 다양한 차원을 사용할 수도 있습니다.
