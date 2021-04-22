@@ -1,16 +1,16 @@
 ---
 title: t
 description: Adobe에 페이지 보기 추적 호출을 보냅니다.
+exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 
 ---
 
-
-# t()
+# t ()
 
 `t()` 메서드는 Adobe Analytics의 중요한 핵심 구성 요소입니다. 이 메서드는 페이지에 정의된 모든 Analytics 변수를 가져와 이미지 요청에 컴파일한 다음, 해당 데이터를 Adobe 데이터 수집 서버에 보냅니다.
 
@@ -47,7 +47,7 @@ Launch에는 페이지 보기 추적 호출을 설정하는 전용 위치가 있
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 비콘 보내기로 설정합니다.
 6. `s.t()` 라디오 단추를 클릭합니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.t() 메서드
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.t () 메서드
 
 추적 호출을 Adobe에 보내려면 `s.t()` 메서드를 호출하십시오.
 
