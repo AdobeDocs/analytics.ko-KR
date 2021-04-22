@@ -2,14 +2,14 @@
 description: Advertising Analytics에서 사용할 Experience Cloud 매핑 보고서 세트를 구성합니다.
 title: Advertising Analytics용 보고서 세트 활성화
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Advertising Analytics용 보고서 세트 활성화
 
@@ -27,13 +27,12 @@ Analytics에서 Advertising Analytics 검색 데이터를 보려면 Advertising 
    >
    >AMO ID는 검색 데이터를 삽입할 Adobe Advertising Cloud 변수를 참조합니다.
 
-1. AMO ID 변수에 사용할 변수 할당 및 만료를 설정합니다. Adobe Analytics에서 전환 변수(eVar)를 사용하면 성공 이벤트를 특정 변수 값에 의한 것으로 처리할 수 있습니다. 때때로 변수에서 성공 이벤트를 생성하기 전에 두 개 이상의 값을 받을 수 있습니다. 이런 경우, 해당 이벤트에 대해 크레딧을 받는 변수 값은 할당이 결정합니다.
+1. AMO ID 변수에 사용할 변수 할당 및 만료를 설정합니다. Adobe Analytics에서 전환 변수 (eVar)를 사용하면 성공 이벤트를 특정 변수 값에 의한 것으로 처리할 수 있습니다. 때때로 변수에서 성공 이벤트를 생성하기 전에 두 개 이상의 값을 받을 수 있습니다. 이런 경우, 해당 이벤트에 대해 크레딧을 받는 변수 값은 할당이 결정합니다.
 
    | 설정 | 정의 |
    |--- |--- |
-   | 원래 값(처음) | 표시된 첫 번째 값은 해당 변수의 후속 값에 관계없이 전체 할당 크레딧을 받습니다. |
-   | 최근(마지막) | 표시된 마지막 값은 전에 실행된 변수에 관계없이 성공 이벤트에 대한 전체 할당 크레딧을 받습니다. |
-   | 다음 시기 이후에 만료 | eVar 값이 만료된 후 기간 또는 이벤트를 지정할 수 있습니다(예: 성공 이벤트에 대한 크레딧을 더는 받지 않음).  성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다(eVar가 활성화되지 않았음). |
+   | 원래 값 (처음) | 표시된 첫 번째 값은 해당 변수의 후속 값에 관계없이 전체 할당 크레딧을 받습니다. |
+   | 최근 (마지막) | 표시된 마지막 값은 전에 실행된 변수에 관계없이 성공 이벤트에 대한 전체 할당 크레딧을 받습니다. |
+   | 다음 시기 이후에 만료 | eVar 값이 만료된 후 기간 또는 이벤트를 지정할 수 있습니다 (예: 성공 이벤트에 대한 크레딧을 더는 받지 않음).  성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다 (eVar가 활성화되지 않았음). |
 
-1. **[!UICONTROL Advertising Analytics 보고 활성화]**(맨 처음) 또는 **[!UICONTROL Advertising Analytics 보고 업데이트]**(이후)를 클릭합니다. 이제 보고서 세트가 Advertising Analytics 검색 데이터를 받을 준비가 되었습니다. [광고 계정을 생성](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)할 준비가 되지 않았습니다.
-
+1. **[!UICONTROL Advertising Analytics 보고 활성화]** (맨 처음) 또는 **[!UICONTROL Advertising Analytics 보고 업데이트]** (이후)를 클릭합니다. 이제 보고서 세트가 Advertising Analytics 검색 데이터를 받을 준비가 되었습니다. [광고 계정을 생성](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)할 준비가 되지 않았습니다.
