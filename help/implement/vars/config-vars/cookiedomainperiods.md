@@ -1,14 +1,14 @@
 ---
 title: cookieDomainPeriods
 description: 도메인의 접미사에 마침표가 있는 경우 쿠키를 저장할 도메인을 AppMeasurement가 이해하도록 도와줍니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # cookieDomainPeriods
 
