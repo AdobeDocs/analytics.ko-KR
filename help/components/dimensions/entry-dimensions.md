@@ -1,15 +1,15 @@
 ---
 title: 시작 차원
 description: 시작 차원 및 그 사용을 나열합니다.
-keywords: entry page, entry site section, entry server, entry custom insight
+keywords: 시작 페이지, 시작 사이트 섹션, 시작 서버, 시작 고객 인사이트
+exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '234'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
-
 
 # 시작 차원
 
