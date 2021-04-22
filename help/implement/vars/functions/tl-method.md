@@ -1,14 +1,14 @@
 ---
 title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
+exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 translation-type: ht
-source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '606'
 ht-degree: 100%
 
 ---
-
 
 # tl
 
@@ -29,7 +29,7 @@ Launch에는 링크 추적 호출을 설정하는 전용 위치가 있습니다.
 
 Launch에서는 선택적 인수를 설정할 수 없습니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.tl() 메서드
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.tl () 메서드
 
 추적 호출을 Adobe에 보내려면 `s.tl()` 메서드를 호출하십시오.
 
@@ -37,7 +37,7 @@ Launch에서는 선택적 인수를 설정할 수 없습니다.
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### 링크 개체(필수)
+### 링크 개체 (필수)
 
 링크 개체 인수는 브라우저가 최대 500밀리초를 기다린 후에 페이지에서 나가는지 여부를 결정합니다. 이미지 요청이 500밀리초 이내로 전송되면 페이지가 클릭한 링크로 즉시 이동합니다.
 
@@ -56,7 +56,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### 링크 유형 (필수)
+### 링크 유형  (필수)
 
 링크 유형 인수는 링크 추적 호출 유형을 결정하는 단일 문자 문자열로서, 3개의 유효한 값이 있습니다.
 
@@ -75,7 +75,7 @@ s.tl(true,"d","Example download link");
 s.tl(true,"e","Example exit link");
 ```
 
-### 링크 이름(권장)
+### 링크 이름 (권장)
 
 링크 이름 인수는 링크 추적 차원 항목을 결정하는 문자열로서, 보고에서 [사용자 지정 링크](/help/components/dimensions/custom-link.md), [다운로드 링크](/help/components/dimensions/download-link.md) 또는 [종료 링크](/help/components/dimensions/exit-link.md) 차원을 사용할 때 이 문자열에는 차원 항목이 포함됩니다. 이 인수가 설정되어 있지 않으면 [linkURL](../config-vars/linkurl.md) 변수가 사용됩니다.
 
@@ -84,7 +84,7 @@ s.tl(true,"e","Example exit link");
 s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### 변수 무시(선택 사항)
+### 변수 무시 (선택 사항)
 
 단일 호출에 대한 변수 값을 변경할 수 있습니다. 자세한 내용은 [변수 무시](../../js/overrides.md)를 참조하십시오.
 
@@ -133,7 +133,7 @@ function trackClickInteraction(name){
 
 `trackDownloadLinks` 또는 `trackExternalLinks`가 활성화되어 있으면 올바른 필터가 일치하는 경우 AppMeasurement가 자동으로 링크 추적 호출을 생성합니다. 이러한 링크 클릭에 대해 수동으로도 `s.tl()`을 호출하는 경우 중복 데이터를 Adobe에 보낼 수 있습니다. 중복 데이터는 보고서 수치들을 부풀려서 정확성을 떨어뜨립니다.
 
-예를 들어, 다음 함수는 동일한 링크 클릭에 대해 두 개의 링크 추적 호출(수동 및 자동 다운로드 링크)을 보냅니다.
+예를 들어, 다음 함수는 동일한 링크 클릭에 대해 두 개의 링크 추적 호출 (수동 및 자동 다운로드 링크)을 보냅니다.
 
 ```JavaScript
 function trackDownload(obj) {
