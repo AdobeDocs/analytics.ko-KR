@@ -1,20 +1,20 @@
 ---
 title: linkExternalFilters
 description: linkExternalFilters 변수를 사용하여 자동 종료 링크 추적을 돕습니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # linkExternalFilters
 
 AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적하는 기능을 제공합니다. [`trackExternalLinks`](trackexternallinks.md)가 활성화된 경우 방문자가 링크를 클릭하여 사이트를 떠날 때 이미지 요청이 Adobe로 바로 전송됩니다. `linkExternalFilters` 및 [`linkInternalFilters`](linkinternalfilters.md) 변수는 내부/외부로 간주되는 링크를 파악합니다.
 
-이 변수에 값이 포함되어 있으면 자동 종료 링크 추적은허용 목록에 추가하다와 같이 동작합니다. 링크 클릭이 `linkExternalFilters` 값과 일치하지 않으면 종료 링크로 간주되지 않습니다. 전체 URL은 이 변수에 따라 검사됩니다. [`linkLeaveQueryString`](linkleavequerystring.md)이 활성화된 경우 쿼리 문자열도 검사됩니다.
+이 변수에 값이 포함 된 경우 자동 종료 링크 추적은 허용 목록과 같은 방식으로 동작합니다. 링크 클릭이 `linkExternalFilters` 값과 일치하지 않으면 종료 링크로 간주되지 않습니다. 전체 URL은 이 변수에 따라 검사됩니다. [`linkLeaveQueryString`](linkleavequerystring.md)이 활성화된 경우 쿼리 문자열도 검사됩니다.
 
 >[!TIP]
 >
@@ -24,7 +24,7 @@ AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적
 
 ## Adobe Experience Platform Launch의 아웃바운드 링크 - 추적
 
-추적 필드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 쉼표로 구분된 필터 목록(일반적으로 도메인)입니다.
+추적 필드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 쉼표로 구분된 필터 목록 (일반적으로 도메인)입니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
@@ -35,7 +35,7 @@ AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkExternalFilters
 
-`s.linkExternalFilters` 변수는 종료 링크로 간주되는 필터(예: 도메인)가 포함된 문자열입니다. 여러 도메인은 공백 없이 쉼표로 구분하십시오.
+`s.linkExternalFilters` 변수는 종료 링크로 간주되는 필터 (예: 도메인)가 포함된 문자열입니다. 여러 도메인은 공백 없이 쉼표로 구분하십시오.
 
 ```js
 s.linkExternalFilters = "example.com,example.net,example.org";
