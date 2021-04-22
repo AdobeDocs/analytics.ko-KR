@@ -4,14 +4,14 @@ title: Activity Map 시작
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 96%
+exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '77'
+ht-degree: 100%
 
 ---
-
 
 # Activity Map 시작{#launch-activity-map}
 
@@ -21,4 +21,3 @@ ht-degree: 96%
    ![](assets/an_icon.png){width=&quot;90px&quot;}
 1. 로그인 회사, 사용자 이름 및 암호로 로그인하십시오.
 1. 애플리케이션이 시작되고 도구 모음 및 오버레이가 표시됩니다.
-
