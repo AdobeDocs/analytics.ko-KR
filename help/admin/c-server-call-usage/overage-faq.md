@@ -2,14 +2,14 @@
 description: Adobe Analytics 서버 호출 사용 FAQ
 title: 서버 호출 사용량 FAQ
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
+exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '720'
 ht-degree: 100%
 
 ---
-
 
 # 서버 호출 사용량 FAQ
 
@@ -58,7 +58,7 @@ ht-degree: 100%
    <td colname="col2"> <p>A: 아니요. 이는 Adobe Analytics 계약의 일부로 명시적으로 규정하지 않고 보조 서버 호출을 사용하고 있음을 의미할 수 있습니다. 경고는 단지 이를 인식하고 필요한 경우 수정 조치를 취할 수 있도록 하기 위한 것입니다. 위의 FAQ 8을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: 어떠한 서버 호출 사용량 경고도 생성하지 않았지만, 모두 컨텐츠가 동일한 그러한 여러 경고를 받고 있습니다. 버그입니까? </b> </p> </td> 
+   <td colname="col1"> <p><b>Q: 어떠한 서버 호출 사용량 경고도 생성하지 않았지만, 모두 콘텐츠가 동일한 그러한 여러 경고를 받고 있습니다. 버그입니까? </b> </p> </td> 
    <td colname="col2"> <p>A: 아니요. 기본 경고는 관리 섹션 아래에 서버 호출 사용량 링크가 활성화된 모든 로그인 회사에 대해 트리거됩니다. 경고에는 경고를 트리거한 회사의 이름이 포함됩니다. 관리자로서 이러한 경고를 비활성화 및/또는 삭제하여 중복을 방지하거나, 수신자 목록에서 자신을 삭제하거나, 클라이언트 지원팀에서 특정 회사에 대한 서버 호출 사용량 링크를 비활성화하도록 할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
