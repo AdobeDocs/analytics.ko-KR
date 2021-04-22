@@ -1,14 +1,14 @@
 ---
 title: trackOffline
 description: 오프라인 추적을 활성화하거나 비활성화하여 AppMeasurement가 데이터를 수집하는 방식을 변경합니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '264'
 ht-degree: 100%
 
 ---
-
 
 # trackOffline
 
