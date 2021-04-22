@@ -1,18 +1,18 @@
 ---
 title: Analytics에서 XDM 데이터 사용
-description: 'Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 개요 '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
-workflow-type: tm+mt
+description: Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 개요
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-
 # Analytics에서 Adobe Experience Platform Edge 데이터 사용
 
-[AEP(Adobe Experience Platform) Web SDK](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. [XDM(Experience Data Model)](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html)을 Analytics에서 사용하는 형식으로 변환하여 작동합니다.
+[AEP (Adobe Experience Platform) Web SDK](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. [XDM (Experience Data Model)](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/home.html)을 Analytics에서 사용하는 형식으로 변환하여 작동합니다.
 
 Analytics는 다음 두 가지 메서드를 통해 XDM 데이터를 수집합니다.
 
@@ -29,7 +29,7 @@ Analytics는 다음 두 가지 메서드를 통해 XDM 데이터를 수집합니
 
 ## 설정
 
-XDM 데이터를 수신하도록 Analytics를 설정하려면
+XDM 데이터를 수신하도록 Analytics를 설정하려면 다음을 수행하십시오.
 
 1. [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/ko-KR/experience-platform/edge/fundamentals/configuring-the-sdk.html)를 설치하고 [구성](https://docs.adobe.com/content/help/ko-KR/experience-platform/edge/fundamentals/installing-the-sdk.html)합니다.
 
