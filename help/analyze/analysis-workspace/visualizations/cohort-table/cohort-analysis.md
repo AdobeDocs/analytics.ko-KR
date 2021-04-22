@@ -1,22 +1,22 @@
 ---
 title: 코호트 분석이란 무엇이며 어떻게 작동합니까?
 description: 코호트 분석을 통해 잠재고객에 대한 데이터를 더 깊이 파고들고 관련 집단으로 나눕니다. Analysis Workspace의 집단 분석에 대한 자세한 내용.
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 99%
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '493'
+ht-degree: 100%
 
 ---
 
-
 # Adobe Analytics의 [!UICONTROL 코호트 분석]에 대해 알아보기
 
-*`cohort`*&#x200B;은 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
+*`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다.  ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
-집단 보고서를 만들면 그 구성 요소(특정 차원, 지표 및 세그먼트)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. [큐레이션 및 공유](/help/analyze/analysis-workspace/curate-share/curate.md)를 참조하십시오.
+집단 보고서를 만들면 그 구성 요소 (특정 차원, 지표 및 세그먼트)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. [큐레이션 및 공유](/help/analyze/analysis-workspace/curate-share/curate.md)를 참조하십시오.
 
 [!UICONTROL 집단 분석]으로 수행할 수 있는 작업의 예:
 
@@ -28,13 +28,13 @@ ht-degree: 99%
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
 
-[코호트 분석 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[코호트 분석 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  (4:36)
 
 >[!IMPORTANT]
 >
 >[!UICONTROL 집단 분석]
 >
->세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만
+>세그먼트화할 수 없는 지표 (계산된 지표 포함), 정수가 아닌 지표 (매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만
 >[!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
@@ -72,4 +72,3 @@ ht-degree: 99%
 ![](assets/cohort-customizable-cohort-row.png)
 
 집단 보고서를 설정하고 실행하는 방법에 대한 지침은 [집단 분석 보고서 구성](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)에서 확인할 수 있습니다.
-
