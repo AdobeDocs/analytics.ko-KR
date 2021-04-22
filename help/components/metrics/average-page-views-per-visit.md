@@ -1,14 +1,14 @@
 ---
 title: 방문당 평균 페이지 보기 수
 description: 주어진 차원 항목이 방문에서 나타난 평균 횟수입니다.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # 방문당 평균 페이지 보기 수
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 이 지표를 단독으로 사용하는 경우 일반적으로 중요하지 않은 예외적인 방문당 페이지 보기 수를 포함하는 차원 항목을 얻습니다.
+>이 지표를 다른 지표 (예 [방문 횟수](visits.md))와 함께 사용하면 더 나은 통찰력을 얻을 수 있습니다. 이 지표를 단독으로 사용하는 경우 일반적으로 중요하지 않은 예외적인 방문당 페이지 보기 수를 포함하는 차원 항목을 얻습니다.
 
 ## 이 지표의 계산 방법
 
