@@ -1,14 +1,14 @@
 ---
 title: getTimeSinceLastVisit
 description: 두 방문 사이의 경과 시간을 측정합니다.
+exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 translation-type: ht
-source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '582'
 ht-degree: 100%
 
 ---
-
 
 # Adobe 플러그인: getTimeSinceLastVisit
 
@@ -28,7 +28,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
+   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getTimeSinceLastVisit 초기화
@@ -47,7 +47,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,7 +58,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## 플러그인 사용
 
-`getTimeSinceLastVisit` 메서드는 인수를 사용하지 않습니다. 이 메서드는 방문자가 마지막으로 사이트를 방문한 이후 경과된 시간을 반환합니다(다음 형식으로 변환됨).
+`getTimeSinceLastVisit` 메서드는 인수를 사용하지 않습니다. 이 메서드는 방문자가 마지막으로 사이트를 방문한 이후 경과된 시간을 반환합니다 (다음 형식으로 변환됨).
 
 * 마지막 방문 이후 30분에서 1시간 사이의 시간이 가장 가까운 0.5분 벤치마크로 설정됩니다. 예: `"30.5 minutes"`, `"53 minutes"`
 * 1시간과 1일 사이의 시간은 가장 가까운 1/4시간 벤치마크로 반올림됩니다. 예: `"2.25 hours"`, `"7.5 hours"`
@@ -90,12 +90,12 @@ s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be i
 
 ## 버전 내역
 
-### 2.0(2021년 3월 19일)
+### 2.0 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
-### 1.0(2018년 4월 16일)
+### 1.0 (2018년 4월 16일)
 
-* 포인트 릴리스(다시 컴파일된 코드 및 더 작은 크기).
-* `getDaysSinceLastVisit` 플러그인에서 파생된 코드(이제 더 이상 사용되지 않으며 이름이 변경됨).
+* 포인트 릴리스 (다시 컴파일된 코드 및 더 작은 크기).
+* `getDaysSinceLastVisit` 플러그인에서 파생된 코드 (이제 더 이상 사용되지 않으며 이름이 변경됨).
 * 이제 반환 값에 `formatTime` 및 `inList` 플러그인을 사용합니다.
