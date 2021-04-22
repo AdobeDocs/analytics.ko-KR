@@ -1,14 +1,14 @@
 ---
 title: 평균 페이지 깊이
 description: 차원이 존재하는 곳에 들어가는 평균 페이지 수입니다.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # 평균 페이지 깊이
 
@@ -16,11 +16,11 @@ ht-degree: 96%
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 이 지표를 단독으로 사용하는 경우 일반적으로 중요하지 않은 예외 페이지 깊이를 포함하는 차원 항목을 얻습니다.
+>이 지표를 다른 지표 (예 [방문 횟수](visits.md))와 함께 사용하면 더 나은 통찰력을 얻을 수 있습니다. 이 지표를 단독으로 사용하는 경우 일반적으로 중요하지 않은 예외 페이지 깊이를 포함하는 차원 항목을 얻습니다.
 
 ## 이 지표의 계산 방법
 
-방문의 첫 번째 페이지에 대한 페이지 깊이는 `0`입니다. 다음 페이지는 페이지 깊이가 1이며, 방문이 끝날 때까지 각 페이지 보기를 증가시킵니다. 이 지표는 페이지 보기([`t()`](/help/implement/vars/functions/t-method.md)) 호출만 증가시키고 링크 추적([`tl()`](/help/implement/vars/functions/tl-method.md)) 호출은 증가시키지 않습니다.
+방문의 첫 번째 페이지에 대한 페이지 깊이는 `0`입니다. 다음 페이지는 페이지 깊이가 1이며, 방문이 끝날 때까지 각 페이지 보기를 증가시킵니다. 이 지표는 페이지 보기 ([`t()`](/help/implement/vars/functions/t-method.md)) 호출만 증가시키고 링크 추적 ([`tl()`](/help/implement/vars/functions/tl-method.md)) 호출은 증가시키지 않습니다.
 
 주어진 차원 항목에 대해 해당 차원 항목에 대한 모든 페이지 깊이를 추가하고 방문 수로 나눕니다. 결과 숫자는 가장 가까운 정수로 반올림된 평균 페이지 깊이입니다. 평균 페이지 깊이가 `0`인 차원 항목은 해당 차원이 흔히 방문의 첫 페이지에 있었음을 의미합니다.
 
