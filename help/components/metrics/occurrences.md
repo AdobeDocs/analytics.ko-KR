@@ -1,14 +1,14 @@
 ---
 title: 발생 횟수
 description: 변수가 설정되었거나 지속된 히트의 수입니다.
+exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
-
 
 # 발생 횟수
 
@@ -21,4 +21,4 @@ ht-degree: 100%
 ## 유사한 지표와 비교
 
 * **발생 횟수와 [인스턴스](instances.md)** 비교: 발생 횟수는 차원 항목이 설정되어 있거나 지속된 히트를 계산합니다. 인스턴스는 차원 항목이 지속되는 히트를 포함하지 않습니다.
-* **발생 횟수와 [페이지 보기 수](page-views.md)** 비교: 발생 횟수에는 페이지 보기 추적 호출([`t()`](/help/implement/vars/functions/t-method.md))과 링크 추적 호출([`tl()`](/help/implement/vars/functions/tl-method.md))을 포함하여 모든 히트 유형이 포함됩니다. 페이지 보기 수 지표에는 페이지 보기 추적 호출만 포함되며 링크 추적 호출은 제외됩니다.
+* **발생 횟수와 [페이지 보기 수](page-views.md)** 비교: 발생 횟수에는 페이지 보기 추적 호출 ([`t()`](/help/implement/vars/functions/t-method.md))과 링크 추적 호출 ([`tl()`](/help/implement/vars/functions/tl-method.md))을 포함하여 모든 히트 유형이 포함됩니다. 페이지 보기 수 지표에는 페이지 보기 추적 호출만 포함되며 링크 추적 호출은 제외됩니다.
