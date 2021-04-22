@@ -1,16 +1,16 @@
 ---
 description: 대시보드 스코어카드 사용 지침
 title: Adobe Analytics 대시보드 경영진 안내서
-feature: Analytics Dashboards
+feature: Analytics 대시보드
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 99%
+exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1295'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 대시보드: 경영진 사용자 빠른 시작 안내서
 
@@ -23,7 +23,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 ## 이 안내서에 대한 자세한 내용
 
-이 안내서는 경영진 사용자가 Analytics 대시보드에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다. 이 앱을 사용하면 보유한 모바일 장치에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
+이 안내서는 경영진 사용자가 Analytics 대시보드에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다. 이 앱을 사용하면 보유한 모바일 디바이스에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
 
 ## 용어집
 
@@ -38,7 +38,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 | 날짜 범위 | 대시보드 보고에 대한 기본 날짜 범위 |
 | 비교 날짜 범위 | 기본 날짜 범위와 비교되는 날짜 범위 |
 
-## 장치에 대시보드 설정 지원 받기
+## 디바이스에 대시보드 설정 지원 받기
 
 대시보드를 효율적으로 사용하려면 스코어카드 큐레이터의 도움을 받아 대시보드를 설정해야 합니다. 이 섹션에서는 큐레이터의 도움을 받아 설정하는 데 유용한 정보를 제공합니다.
 
@@ -55,13 +55,13 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [iOS 링크](https://apple.co/2zXq0aN)
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크(**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드(모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [Android 링크](https://bit.ly/2LM38Oo)
 
@@ -90,7 +90,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
    ![아무 것도 공유되지 않음](assets/nothing.png)
 
-4. 스코어카드에 타일이 표시되는 방식을 검사합니다(첫 번째 스코어카드는 다크 모드로 표시됨. 자세한 내용은 아래 **[!UICONTROL 환경 설정]**&#x200B;을을 참조하십시오.)
+4. 스코어카드에 타일이 표시되는 방식을 검사합니다 (첫 번째 스코어카드는 다크 모드로 표시됨. 자세한 내용은 아래 **[!UICONTROL 환경 설정]**&#x200B;을을 참조하십시오.)
 
    ![타일 설명](assets/newexplain.png)
 
@@ -101,7 +101,7 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
       * 하루는 시간별 트렌드를 표시함
       * 이틀 이상 및 1년 미만은 일별 트렌드를 표시함
       * 1년 이상은 주별 트렌드를 표시함
-   * 비율 값 변경 수식은 지표 합계(현재 날짜 범위) – 지표 합계(비교 날짜 범위) / 지표 합계(비교 날짜 범위)입니다.
+   * 비율 값 변경 수식은 지표 합계 (현재 날짜 범위) – 지표 합계 (비교 날짜 범위) / 지표 합계 (비교 날짜 범위)입니다.
 
    * 화면을 아래로 당기면 스코어카드를 새로 고칠 수 있습니다.
 
@@ -120,9 +120,9 @@ Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 �
 
    * 같은 방법으로 위에 표시된 분류 보기 내에서 날짜 범위를 변경할 수도 있습니다.
 
-   * 탭한 간격(**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션(현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
+   * 탭한 간격 (**일**, **주**, **월** 또는 **년**)에 따라 날짜 범위에 대한 두 개 옵션 (현재 시간 범위 또는 직전 시간 범위)이 표시됩니다. 이 두 옵션 중 하나를 탭하여 첫 번째 범위를 선택합니다. **[!UICONTROL 비교 대상]** 목록에서 제공된 옵션 중 하나를 탭하여 이 기간의 데이터와 선택한 첫 번째 날짜 범위를 비교합니다. 화면의 오른쪽 상단에 있는 **[!UICONTROL 완료]**&#x200B;를 탭합니다. **[!UICONTROL 날짜 범위]** 필드와 스코어카드 타일은 선택한 새 범위의 새 비교 데이터로 업데이트됩니다.
 
-7. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 조정이 구성한 세그먼트를 선택합니다. 앱의 [필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
+7. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 조정이 구성한 세그먼트를 선택합니다. 앱의 [필터](https://docs.adobe.com/content/help/ko/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
    ![세그먼트 필터](assets/segment_filter.png)
 
