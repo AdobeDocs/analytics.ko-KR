@@ -1,14 +1,14 @@
 ---
 title: Util.getQueryParam
 description: 쿼리 문자열 매개 변수의 값을 반환합니다.
+exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
-
 
 # Util.getQueryParam
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 쿼리 문자열 매개 변수 값은 데이터 요소에 저장됩니다. 그러면 규칙의 데이터 요소를 참조하여 Analytics 변수를 할당할 수 있습니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.Util.getQueryParam()
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.Util.getQueryParam ()
 
 브라우저 URL에서 쿼리 문자열 값을 검색하려면 `s.Util.getQueryParam()` 메서드를 호출하십시오. 쿼리 문자열 매개 변수를 포함하는 문자열 인수는 필수입니다. 이 메서드는 Analytics 변수에 할당할 수 있는 문자열을 반환합니다.
 
