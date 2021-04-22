@@ -1,14 +1,14 @@
 ---
 title: visitorID
 description: 사용자 지정 방문자 ID를 사용합니다.
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # visitorID
 
@@ -43,4 +43,4 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->사용자 지정 방문자 ID가 잘못 구현되면 데이터가 올바르지 않고 보고 성능이 저하될 수 있습니다. 이 변수에 기본값(예: `"0"` 또는 `"NULL"`)이 포함되어 있으면 Adobe는 이러한 히트를 동일한 방문자인 것처럼 취급합니다. 이 경우 방문자 수가 적고 방문자 수준 세그먼트가 예상대로 작동하지 않아 올바르지 않은 데이터가 발생합니다. 사용자 지정 방문자 ID를 잘못 구현하면 처리 서버에 대한 부하도 커져서 [지연](/help/technotes/latency.md)이 증가하고 보고서 성능이 저하됩니다.
+>사용자 지정 방문자 ID가 잘못 구현되면 데이터가 올바르지 않고 보고 성능이 저하될 수 있습니다. 이 변수에 기본값 (예: `"0"` 또는 `"NULL"`)이 포함되어 있으면 Adobe는 이러한 히트를 동일한 방문자인 것처럼 취급합니다. 이 경우 방문자 수가 적고 방문자 수준 세그먼트가 예상대로 작동하지 않아 올바르지 않은 데이터가 발생합니다. 사용자 지정 방문자 ID를 잘못 구현하면 처리 서버에 대한 부하도 커져서 [지연](/help/technotes/latency.md)이 증가하고 보고서 성능이 저하됩니다.
