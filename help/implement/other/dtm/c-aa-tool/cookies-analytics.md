@@ -1,17 +1,17 @@
 ---
 description: Adobe Analytics에서 Dynamic Tag Management를 배포하는 데 사용되는 쿠키 전역 설정에 대한 필드 설명입니다.
-keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
+keywords: Dynamic Tag Management;쿠키;방문자 ID;방문자 네임스페이스;도메인 기간;fp 도메인 기간;트랜잭션 ID;쿠키 수명
 solution: Experience Cloud,Analytics
 title: 쿠키
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
-source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
-workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 79%
+exl-id: 37e707b0-c42e-4226-82b1-0b63cbff46fb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
-
 
 # 쿠키
 
@@ -41,7 +41,7 @@ Adobe Analytics에서 [!UICONTROL Dynamic Tag Management]를 배포하는 데 �
   </tr> 
   <tr> 
    <td colname="col1"> FP 도메인 마침표 </td> 
-   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> adobedc.net</span> domain, or the legacy (but still valid) <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p><a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="term"> fpCookieDomainPeriods</span>변수는 구현에서 서드파티 <span class="filepath"> adobedc.net</span> 도메인 또는 레거시 (지만 여전히 유효한) <span class="filepath"> 2o7.net</span> 또는 <span class="filepath"> omtrdc.net</span> 도메인을 사용하는 경우에도 기본적으로 자사 쿠키인 JavaScript 설정 쿠키 (<code> s_sq</code>, <code> s_cc</code>, 플러그인)에 사용됩니다. </p> <p><a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 거래 ID </td> 
@@ -53,4 +53,3 @@ Adobe Analytics에서 [!UICONTROL Dynamic Tag Management]를 배포하는 데 �
   </tr> 
  </tbody> 
 </table>
-
