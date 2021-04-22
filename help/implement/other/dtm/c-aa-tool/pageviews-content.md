@@ -1,23 +1,23 @@
 ---
 description: Analytics를 배포할 때 페이지 보기 및 콘텐츠 설정을 위한 Dynamic Tag Management 필드 설명입니다.
-keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
+keywords: Dynamic Tag Management;페이지 보기;콘텐츠;페이지 이름;페이지 url 무시;채널;사이트 섹션;계층
 solution: Experience Cloud,Analytics
 title: 페이지 보기 및 콘텐츠
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '95'
+exl-id: 7c294ac3-1674-4a58-96bc-576aa412ef57
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
-
 
 # 페이지 보기 및 콘텐츠
 
 Analytics를 배포할 때 페이지 보기 및 콘텐츠 설정을 위한 Dynamic Tag Management 필드 설명입니다.
 
-**[!UICONTROL *`Property`*]**> ![톱니바퀴 아이콘](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;페이지 보기 수 및 컨텐츠&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![톱니바퀴 아이콘](assets/settings_gear.png)**[!UICONTROL &#x200B;편집 도구&#x200B;]**>**[!UICONTROL &#x200B;페이지 보기 수 및 콘텐츠&#x200B;]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -36,7 +36,7 @@ Analytics를 배포할 때 페이지 보기 및 콘텐츠 설정을 위한 Dynam
    <td colname="col2"> <p> 페이지의 실제 URL을 무시합니다. </p> <p><a href="../../../vars/page-vars/pageurl.md">pageURL</a>을 참조하십시오. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> 채널(사이트 섹션) </td>
+   <td colname="col1"> 채널 (사이트 섹션) </td>
    <td colname="col2"> <p>사이트의 섹션을 식별합니다.  </p> <p><a href="../../../vars/page-vars/channel.md">채널</a>을 참조하십시오. </p> </td>
   </tr>
   <tr>
