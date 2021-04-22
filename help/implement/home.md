@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
-translation-type: tm+mt
-source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
-workflow-type: tm+mt
+exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 구현
 
