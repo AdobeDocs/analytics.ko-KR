@@ -1,14 +1,14 @@
 ---
 title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
+exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
 ---
-
 
 # 모듈 통합
 
@@ -18,7 +18,7 @@ Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 
 >
 >구현에서 파트너 데이터를 요청하면 페이지 로드와 Adobe 데이터 수집 서버로 전송된 데이터 간의 지연이 늘어날 수 있습니다. 방문자가 데이터를 보내기 전에 새 페이지를 로드하면 해당 페이지가 기록되지 않습니다.
 
-## 모듈 통합 워크플로우
+## 모듈 통합 워크플로
 
 1. 사이트 방문자는 파트너 데이터에 대한 `get` 요청을 시작하는 페이지를 로드합니다.
 2. Adobe 파트너는 `get` 요청을 받고 JSON 개체에 적절한 변수를 패키지화합니다. JSON 개체가 반환됩니다.
@@ -123,7 +123,7 @@ s.Integrate.<partner_name>.setVars = function (s,p) {
 
 ### script
 
-이 `script` 메서드를 사용하면 Adobe 파트너가 특정 조건이 충족되는 경우(예: 캠페인 변수가 설정된 경우) 파트너 사이트에서 추가 JavaScript를 호출할 수 있습니다.
+이 `script` 메서드를 사용하면 Adobe 파트너가 특정 조건이 충족되는 경우 (예: 캠페인 변수가 설정된 경우) 파트너 사이트에서 추가 JavaScript를 호출할 수 있습니다.
 
 ```JavaScript
 p.script("<partner_url>/script?qs1=value1&qs2=value2");
