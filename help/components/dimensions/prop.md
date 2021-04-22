@@ -1,14 +1,14 @@
 ---
 title: Prop
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
+exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # Prop
 
@@ -34,7 +34,7 @@ prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각
 
 ## 대/소문자 구분
 
-기본적으로 Prop은 대/소문자를 구분하지 않습니다. 같은 값을 대소문자를 달리하여(예: `"DOG"` 및 `"Dog"`)에 보낼 경우, Analysis Workspace는 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대소문자가 사용됩니다. Data Warehouse는 요청 기간 동안 발생한 첫 번째 값을 표시합니다.
+기본적으로 Prop은 대/소문자를 구분하지 않습니다. 같은 값을 대소문자를 달리하여 (예: `"DOG"` 및 `"Dog"`)에 보낼 경우, Analysis Workspace는 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대소문자가 사용됩니다. Data Warehouse는 요청 기간 동안 발생한 첫 번째 값을 표시합니다.
 
 prop 대/소문자를 구분하도록 지정할 수 있습니다. 어떤 prop에 대해서든 대소문자 구분을 활성화한 후 비활성화할 수도 있습니다. 대/소문자 구분을 전환하려면 보고서 세트 ID와 원하는 변수를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
 
