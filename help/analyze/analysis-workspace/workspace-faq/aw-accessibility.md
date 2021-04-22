@@ -1,16 +1,16 @@
 ---
 description: Analysis Workspace의 접근성 지원 기능
 title: Analysis Workspace 액세스 가능 여부
-feature: Workspace Basics
+feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 83%
+exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '663'
+ht-degree: 100%
 
 ---
-
 
 # Analysis Workspace 액세스 가능 여부
 
@@ -24,20 +24,20 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 [!UICONTROL Analysis Workspace]에서 탐색은 위쪽 > 아래쪽, 왼쪽 > 오른쪽으로 작동합니다. 다음 탐색 요소는 접근성을 용이하게 합니다.
 
-* 중요한 단축키를 사용하는 `Tab` 키으로 설정되어 있습니다. 왼쪽 레일에서 `Tab`을 사용하면 드래그 가능한 한 옵션을 다음 옵션으로 이동할 수도 있습니다.
-* `Tab` 이후에 개별 요소 간에 `left/right arrows` 이동이 강조 표시되었습니다.
-* `F6`은 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간을 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하고 반복합니다.
+* 중요한 단축키를 사용하는 `Tab` 키, Workspace 내의 더 큰 섹션 사이를 이동합니다. 왼쪽 레일에서 `Tab`을 사용하면 끌기 가능한 한 옵션에서 다음 옵션으로 이동할 수도 있습니다
+* `left/right arrows`는 `Tab`이 강조 표시한 후 개별 요소 사이를 이동합니다.
+* `F6`는 프로젝트의 첫 번째 패널로 이동하고 해당 패널 내의 시각화 간에 이동합니다. 그런 다음 프로젝트의 다음 패널로 이동하여 반복합니다.
 * 보이는 키보드 사용자가 현재 포커스가 있는 UI 요소를 명확하게 나타낼 수 있도록 포커스 표시기가 적용됩니다. 표시기에는 선택한 요소 주위에 파란색 테두리가 표시됩니다.
 
    ![포커스 표시기](assets/focus-indicator.png)
 
-### 메뉴 모음에 대한 키보드 탐색
+### 메뉴 모음의 키보드 탐색
 
-1. 메뉴 모음에 도착할 때까지 탭합니다.
+1. 메뉴 모음에 도달할 때까지 Tab을 누릅니다.
 1. 왼쪽/오른쪽 화살표 키를 사용하여 원하는 메뉴로 이동합니다.
-1. `Enter`을 눌러 메뉴를 선택하고 해당 옵션을 표시합니다.
-1. 위쪽/아래쪽 화살표 키를 사용하여 원하는 메뉴 옵션으로 이동합니다.
-1. `Enter`을 눌러 옵션을 선택합니다.
+1. `Enter`를 눌러 메뉴를 선택하고 옵션을 표시합니다.
+1. 위/아래 화살표 키를 사용하여 원하는 메뉴 옵션으로 이동합니다.
+1. `Enter`를 눌러 옵션을 선택합니다.
 
 ### 드래그 앤 드롭 상호 작용을 위한 키보드 탐색
 
@@ -48,9 +48,9 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 1. 화살표 키를 사용하여 구성 요소를 놓을 영역으로 이동합니다.
 1. `Enter`을 눌러 구성 요소를 배치합니다.
 
-### 키보드 단축키(핫키)
+### 키보드 단축키 (핫키)
 
-[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로우를 위해 다양한 [키보드 단축키](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
+[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
 
 #### 탐색
 
@@ -71,7 +71,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 | Ctrl + Shift + D | 새 날짜 범위 |
 | Ctrl + Shift + E | 새 세그먼트 |
 | Ctrl + Z | 실행 취소 |
-| Shift 키(패널 세그먼트 드롭존) | [드롭다운 필터](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 만들기 |
+| Shift 키 (패널 세그먼트 드롭존) | [드롭다운 필터](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 만들기 |
 
 #### 민주화
 
