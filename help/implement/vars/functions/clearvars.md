@@ -1,14 +1,14 @@
 ---
 title: clearVars
-description: 인스턴스 개체에서 다음 값을 지웁니다. 이 함수는 요소를 제거합니다(요소를 "정의되지 않음"으로 설정).
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
+description: 인스턴스 개체에서 다음 값을 지웁니다. 이 함수는 요소를 제거합니다 (요소를 "정의되지 않음"으로 설정).
+exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 
 ---
-
 
 # clearVars
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 이 메서드는 인수를 사용하지 않으며 값을 반환하지 않습니다. 인스턴스 개체에서 변수 값을 지우는 것이 이 메서드의 유일한 목적입니다. 이 메서드는 다음 요소를 `undefined`로 설정합니다.
 
 * `prop1` - `prop75`
-* `eVar` -  `eVar250`
-* `hier1` -  `hier5`
-* `list1` -  `list3`
+* `eVar` - `eVar250`
+* `hier1` - `hier5`
+* `list1` - `list3`
 * `events`
 * `products`
 * `channel`
@@ -39,7 +39,7 @@ ht-degree: 100%
 4. [!UICONTROL 작업] 아래에서 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 지우기]로 설정합니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.clearVars()
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.clearVars ()
 
 Analytics 개체 인스턴스를 인스턴스화한 후에는 구현의 어느 곳에서든 `s.clearVars()` 메서드를 호출할 수 있습니다.
 
