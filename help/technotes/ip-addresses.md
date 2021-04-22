@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics에서 사용하는 IP 및 도메인
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
-translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
-workflow-type: tm+mt
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics에서 사용하는 IP 및 도메인
 
@@ -35,9 +35,9 @@ Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 �
 
 ## 모든 Adobe Analytics IP 주소 블록
 
-다음 표에서는 Adobe Analytics에 대한 모든 표준 데이터 수집 서버 및 지역 데이터 수집 서버를 다룹니다. 개별 AWS 호스트는 포함되지 않습니다.
+다음 표는 Adobe Analytics에 대한 모든 표준 데이터 수집 서버 및 지역 데이터 수집 서버를 다룹니다. 개별 AWS 호스트는 포함되지 않습니다.
 
-| IP 블록(CIDR 표기법) |
+| IP 블록 (CIDR 표기법) |
 | --- |
 | `63.140.32.0/19` |
 | `66.117.16.0/20` |
@@ -54,7 +54,7 @@ Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 �
 
 조직에서 특정 IP 주소 범위를 허용하려면 다음 테이블을 사용할 수 있습니다. 이 섹션의 모든 범위는 위 표에 포함되어 있습니다.
 
-| 위치 | IP 범위(CIDR 표기법) |
+| 위치 | IP 범위 (CIDR 표기법) |
 | --- | --- |
 | 암스테르담 | `66.117.28.0/23` |
 | Dallas | `205.219.231.0/24` |
@@ -113,7 +113,7 @@ Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 �
 
 ## AWS 호스트
 
-Adobe Analytics은 데이터 수집 프로세스의 일환으로 Amazon 웹 서비스를 사용합니다. 다음 표에는 Adobe용으로 예약된 AWS 호스트가 포함되어 있습니다. 다음 호스트는 위의 집계 범위에 포함되지 **않습니다**.
+Adobe Analytics는 데이터 수집 프로세스의 일부로 Amazon Web Services를 사용합니다. 다음 표에는 Adobe용으로 예약된 AWS 호스트가 포함되어 있습니다. 다음 호스트는 위의 집계 범위에 포함되지 **않습니다**.
 
 | 위치 | 호스트 |
 | --- | --- |
