@@ -2,16 +2,16 @@
 description: Workspace 프로젝트에서 맵 시각화를 사용합니다.
 title: 맵
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 99%
+exl-id: a60544b4-27b6-413a-96ce-ab9487594422
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '626'
+ht-degree: 100%
 
 ---
-
 
 # 맵
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Analysis Workspace의 맵 시각화
 
-* 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 줍니다.
+* 모든 지표 (계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 줍니다.
 * 지리적으로 다른 지역들의 지표 데이터를 식별하고 비교하는 데 유용합니다.
 * 모바일 사용에 따른 위도/경도 또는 웹 사용을 위한 지리적 차원, 이렇게 2가지 데이터 소스를 지원할 수 있습니다.
 * PDF 내보내기를 지원합니다.
@@ -31,14 +31,14 @@ Analysis Workspace의 맵 시각화
 
    ![](assets/map-viz1.png)
 
-1. 지표(계산된 지표 포함) 목록에서 지표를 드래그해옵니다.
-1. 그리는 데 사용할 데이터 소스를 지정합니다. (이 대화 상자는 모바일 앱 데이터용으로 위치 추적이 활성화된 경우에만 표시됩니다.)
+1. 지표 (계산된 지표 포함) 목록에서 지표를 드래그해옵니다.
+1. 그리는 데 사용할 데이터 소스를 지정합니다.  (이 대화 상자는 모바일 앱 데이터용으로 위치 추적이 활성화된 경우에만 표시됩니다.)
 
 <table id="table_CD54B433464B4282A7524FB187016C47"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>모바일 위도/경도</b> </p> </td> 
-   <td colname="col2"> <p>이 옵션은 모바일 앱 데이터를 나타냅니다. </p> <p><span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">&lt;보고서 세트 선택&gt;</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">모바일 관리</span> &gt; <span class="uicontrol">위치 추적 활성화</span></span>에서 보고서 세트에 대해 이 옵션을 활성화한 경우에만 이 옵션이 표시됩니다. </p> <p>기본 설정입니다(위치 추적이 활성화된 경우). </p> </td> 
+   <td colname="col2"> <p>이 옵션은 모바일 앱 데이터를 나타냅니다. </p> <p><span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">&lt;보고서 세트 선택&gt;</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">모바일 관리</span> &gt; <span class="uicontrol">위치 추적 활성화</span></span>에서 보고서 세트에 대해 이 옵션을 활성화한 경우에만 이 옵션이 표시됩니다. </p> <p>기본 설정입니다 (위치 추적이 활성화된 경우). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>지역 차원</b> </p> </td> 
@@ -55,19 +55,19 @@ Analysis Workspace의 맵 시각화
 
 1. 이제
 
-   * **확대/축소** - 맵을 더블 클릭하거나 스크롤 휠을 사용하여 특정 영역을 확대하도록 이 맵을 확대할 수 있습니다. 맵은 커서를 놓은 위치에 따라 확대됩니다. 확대/축소 상호 작용을 통해 확대/축소 수준에 따라 필요한 차원(국가 > 시/도 > 구/군/시)이 자동으로 업데이트됩니다.
+   * **확대/축소** - 맵을 더블 클릭하거나 스크롤 휠을 사용하여 특정 영역을 확대하도록 이 맵을 확대할 수 있습니다. 맵은 커서를 놓은 위치에 따라 확대됩니다. 확대/축소 상호 작용을 통해 확대/축소 수준에 따라 필요한 차원 (국가 > 시/도 > 구/군/시)이 자동으로 업데이트됩니다.
    * **비교** - 동일한 프로젝트에서 두 개 이상의 맵 시각화를 나란히 배치하여 비교할 수 있습니다.
-   * **기간별(예: 연도별) 비교 표시**:
+   * **기간별 (예: 연도별) 비교 표시**:
 
       * 음수를 표시합니다. 예를 들어, 연도별 지표를 맵에 그리는 경우 뉴욕에 대해 -33%를 맵에 표시할 수 있습니다.
       * &quot;퍼센트&quot; 유형의 지표를 사용하면 클러스터링에서 백분율의 평균을 함께 계산합니다.
       * 녹색/빨간색 색상 구성표: 양수/음수
    * **회전** - [!UICONTROL Ctrl] 키를 누른 상태에서 맵을 움직여 2D 또는 3D로 맵을 회전할 수 있습니다.
 
-   * **전환** - 아래 설명된 [설정](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)을 사용하여 히트맵(열 지도)과 같은 다른 보기로 전환할 수 있습니다. 버블 보기가 기본 설정입니다.
+   * **전환** - 아래 설명된 [설정](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)을 사용하여 히트맵 (열 지도)과 같은 다른 보기로 전환할 수 있습니다. 버블 보기가 기본 설정입니다.
 
 
-1. 프로젝트를 **저장**&#x200B;하여 모든 맵 설정(좌표, 확대/축소, 회전)을 저장합니다.
+1. 프로젝트를 **저장**&#x200B;하여 모든 맵 설정 (좌표, 확대/축소, 회전)을 저장합니다.
 1. 시각화 아래의 자유 형식 테이블은 왼쪽 레일에서 위치 차원과 지표를 드래그하여 채울 수 있습니다.
 
    ![](assets/location-dimensions.png)
@@ -89,4 +89,4 @@ Analysis Workspace의 맵 시각화
 | 스타일: 색상 테마 | 히트맵 및 버블의 색상 구성표를 보여 줍니다. 코랄, 빨강, 녹색, 파랑 중에서 선택할 수 있습니다. 기본값은 코랄입니다. |
 | 스타일: 맵 스타일 | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택할 수 있습니다. |
 | 클러스터 반경 | 지정된 픽셀 수 내에 있는 데이터 포인트를 그룹화합니다. 기본값은 50입니다. |
-| 사용자 지정 최대 값 | 맵의 최대 값에 대한 임계값을 변경할 수 있도록 해 줍니다. 이 값을 조정하면 설정된 사용자 지정 최대 값에 비례하여 버블/히트맵 값(색상 및 크기)의 크기가 조정됩니다. |
+| 사용자 지정 최대 값 | 맵의 최대 값에 대한 임계값을 변경할 수 있도록 해 줍니다. 이 값을 조정하면 설정된 사용자 지정 최대 값에 비례하여 버블/히트맵 값 (색상 및 크기)의 크기가 조정됩니다. |
