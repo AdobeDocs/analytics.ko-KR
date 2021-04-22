@@ -1,14 +1,14 @@
 ---
 title: addProductEvent
 description: products 및 events 변수에 사용자 지정 이벤트를 추가합니다.
+exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 translation-type: ht
-source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
 ---
-
 
 # Adobe 플러그인: addProductEvent
 
@@ -28,7 +28,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
+   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: addProductEvent 초기화
@@ -47,7 +47,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,9 +60,9 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 `addProductEvent` 메서드에서는 다음 인수를 사용합니다.
 
-* **`en`** (필수, 문자열): `products` 변수의 마지막 항목에 추가할 이벤트입니다. `products` 변수가 비어 있으면 이벤트(및 그 값)가 첨부된 &quot;빈&quot; 제품 항목이 만들어집니다.
-* **`ev`** (필수, 문자열): `en` 인수의 숫자 또는 통화 이벤트에 지정된 값입니다.  설정하지 않으면 기본값이 `1`로 설정됩니다.
-* **`ap`** (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 `true`(또는 `1`)이면 모든 제품 항목에 이벤트가 추가됩니다. 설정하지 않으면 기본값이 `false`로 설정됩니다.
+* **`en`**  (필수, 문자열): `products` 변수의 마지막 항목에 추가할 이벤트입니다. `products` 변수가 비어 있으면 이벤트 (및 그 값)가 첨부된 &quot;빈&quot; 제품 항목이 만들어집니다.
+* **`ev`**  (필수, 문자열): `en` 인수의 숫자 또는 통화 이벤트에 지정된 값입니다.  설정하지 않으면 기본값이 `1`로 설정됩니다.
+* **`ap`**  (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 `true` (또는 `1`)이면 모든 제품 항목에 이벤트가 추가됩니다. 설정하지 않으면 기본값이 `false`로 설정됩니다.
 
 `addProductEvent`는 아무 것도 반환하지 않습니다. 대신 이벤트와 그 값을 `products` 변수에 추가합니다. 또한 이 플러그인은 [`events`](../page-vars/events/events-overview.md) 변수에서 필수이므로 이 변수에 이벤트를 자동으로 추가합니다.
 
@@ -93,7 +93,7 @@ s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-`addProductEvent` 호출의 세 번째 인수가 `true`(또는 `1`)이면 각 제품 항목에는 호출에 지정된 이벤트가 해당 값에 추가됩니다.
+`addProductEvent` 호출의 세 번째 인수가 `true` (또는 `1`)이면 각 제품 항목에는 호출에 지정된 이벤트가 해당 값에 추가됩니다.
 
 ### 예 #3
 
@@ -139,10 +139,10 @@ s.addProductEvent("event35", "25");
 
 ## 버전 내역
 
-### 2.0(2021년 3월 19일)
+### 2.0 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
-### 1.0(2019년 10월 7일)
+### 1.0 (2019년 10월 7일)
 
 * 초기 릴리스.
