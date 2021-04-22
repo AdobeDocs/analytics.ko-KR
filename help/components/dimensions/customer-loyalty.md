@@ -1,14 +1,14 @@
 ---
 title: 고객 충성도
 description: 방문자가 이전에 구매한 횟수를 기반으로 한 카테고리입니다.
+exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
 ---
-
 
 # 고객 충성도
 
@@ -27,4 +27,4 @@ Adobe에서는 구현의 [`purchase`](/help/implement/vars/page-vars/events/even
 * **재방문 고객**: 히트 당시 방문자는 이전에 두 번 구매했습니다.
 * **단골 고객**: 히트 당시 방문자는 이전에 3회 이상 구매했습니다.
 
-방문자가 구매(`purchase` 이벤트 트리거) 시, 해당 히트와 모든 후속 히트가 다음 &quot;버킷&quot;으로 이동합니다. 예를 들어 방문자가 사이트에서 제품을 처음 구입하는 경우 이 고객은 &quot;고객이 아님&quot;에서 &quot;새 고객&quot;으로 이동하고 주문은 &quot;새 고객&quot;으로 인한 것이 됩니다. 차원 항목 &quot;고객이 아님&quot;은 해당 항목에 속하는 주문을 가질 수 없습니다.
+방문자가 구매 (`purchase` 이벤트 트리거) 시, 해당 히트와 모든 후속 히트가 다음 &quot;버킷&quot;으로 이동합니다. 예를 들어 방문자가 사이트에서 제품을 처음 구입하는 경우 이 고객은 &quot;고객이 아님&quot;에서 &quot;새 고객&quot;으로 이동하고 주문은 &quot;새 고객&quot;으로 인한 것이 됩니다. 차원 항목 &quot;고객이 아님&quot;은 해당 항목에 속하는 주문을 가질 수 없습니다.
