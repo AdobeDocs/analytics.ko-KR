@@ -1,14 +1,14 @@
 ---
 title: transactionID
 description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
+exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
 ---
-
 
 # transactionID
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 히트에서 `transactionID`를 설정하면 Adobe는 해당 시점에서 설정하거나 지속되는 모든 Analytics 변수의 &quot;스냅샷&quot;을 만듭니다. 일치하는 거래 ID로 Data Sources를 통해 업로드된 데이터는 해당 변수 값에 영구적으로 연결됩니다.
 
-기본적으로 Adobe는 최대 90일 동안 모든 거래 ID 값(연결 및 연결 해제된 값)을 기억합니다. 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 이 한계를 늘리십시오.
+기본적으로 Adobe는 최대 90일 동안 모든 거래 ID 값 (연결 및 연결 해제된 값)을 기억합니다. 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 이 한계를 늘리십시오.
 
 ## Adobe Experience Platform Launch의 거래 ID
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 거래 ID를 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 거래 ID를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
