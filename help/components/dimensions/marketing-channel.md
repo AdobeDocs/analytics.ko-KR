@@ -1,14 +1,14 @@
 ---
 title: 마케팅 채널
 description: 방문자의 참여 만료 내 가장 최근 마케팅 채널입니다.
+exl-id: c833a801-b7c6-498c-8094-1a5ad6c22fe4
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '112'
 ht-degree: 100%
 
 ---
-
 
 # 마케팅 채널
 
