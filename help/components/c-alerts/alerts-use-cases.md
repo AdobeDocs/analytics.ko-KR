@@ -2,14 +2,14 @@
 description: 지능형 경고 생성 및 관리에 대한 활용 사례.
 title: 지능형 경고 - 활용 사례
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
+exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # 지능형 경고 - 활용 사례
 
@@ -33,9 +33,8 @@ Update screenshots for better readability.
 
 ![](assets/prepopulated_alert.png)
 
-## 여러 개의 경고를 만드는 대신 경고를 통합(스택) {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 여러 개의 경고를 만드는 대신 경고를 통합 (스택) {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다.
 
 ![](assets/alerts_example2.png)
-
