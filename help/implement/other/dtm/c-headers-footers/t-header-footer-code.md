@@ -1,5 +1,5 @@
 ---
-description: Dynamic Tag Management를 사용하여 사이트의 JavaScript 및 페이지 컨텐츠 로드를 결정하는 머리글 및 바닥글 코드를 추가합니다. 사용한 호스팅 옵션에 상관없이 사이트의 모든 페이지에 머리글 코드와 바닥글 코드를 모두 설치해야 합니다.
+description: Dynamic Tag Management를 사용하여 사이트의 JavaScript 및 페이지 콘텐츠 로드를 결정하는 머리글 및 바닥글 코드를 추가합니다. 사용한 호스팅 옵션에 상관없이 사이트의 모든 페이지에 머리글 코드와 바닥글 코드를 모두 설치해야 합니다.
 keywords: Analytics 구현;구현 방법;dynamic tag management;dtm;코드;페이지 코드;머리글 코드;바닥글 코드;포함 코드;포함 탭;포함
 title: 머리글 및 바닥글 코드 추가
 topic-fix: Developer and implementation
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 머리글 및 바닥글 코드 추가
 
-Dynamic Tag Management를 사용하여 사이트의 JavaScript 및 페이지 컨텐츠 로드를 결정하는 머리글 및 바닥글 코드를 추가합니다. 사용한 호스팅 옵션에 상관없이 사이트의 모든 페이지에 머리글 코드와 바닥글 코드를 모두 설치해야 합니다.
+Dynamic Tag Management를 사용하여 사이트의 JavaScript 및 페이지 콘텐츠 로드를 결정하는 머리글 및 바닥글 코드를 추가합니다. 사용한 호스팅 옵션에 상관없이 사이트의 모든 페이지에 머리글 코드와 바닥글 코드를 모두 설치해야 합니다.
 
 Dynamic Tag Management에는 머리글과 바닥글 모두에 코드 조각이 포함되어 있으므로 페이지의 시작이나 끝에서 규칙을 실행할 수 있습니다. 이 기능을 사용하면 페이지 추적을 계속 제어하면서도 테스트 도구 및 기타 기술을 구현할 수 있습니다.
 
@@ -27,7 +27,7 @@ Dynamic Tag Management는 스테이징 환경에서 변경 사항을 테스트�
 >
 >지원되지 않는 방식으로 구현하면 예기치 않은 결과가 발생하고 고객 지원 센터 및 엔지니어링 센터에서 구현을 지원할 수 없게 됩니다.
 
-1. Dynamic Tag Management 인터페이스에서 [!UICONTROL 포함] 탭을 열고 호스팅 옵션(예: Akamai)을 선택한 다음 스위치를 &quot;On&quot;으로 토글합니다. 
+1. Dynamic Tag Management 인터페이스에서 [!UICONTROL 포함] 탭을 열고 호스팅 옵션 (예: Akamai)을 선택한 다음 스위치를 &quot;On&quot;으로 토글합니다. 
 
    단계 결과 1. Dynamic Tag Management의 포함 탭에 제공된 프로덕션 머리글 코드를 복사하여 사이트 HTML의 [!DNL HEAD] 섹션에 붙여넣습니다.
 
