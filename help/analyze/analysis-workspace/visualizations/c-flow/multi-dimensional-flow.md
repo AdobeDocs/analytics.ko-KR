@@ -2,16 +2,16 @@
 description: '차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. '
 title: 차원 간 흐름
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 99%
+exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '306'
+ht-degree: 100%
 
 ---
-
 
 # 차원 간 흐름
 
@@ -31,11 +31,11 @@ ht-degree: 99%
 
 이 앱에서 화면/페이지와 동작 간 상호 작용을 탐색하기 위해, 탐색하려는 내용에 따라 페이지 차원을 여러 위치에 드래그할 수 있습니다. 
 
-* 놓기 영역(테두리가 검은색으로 표시된 직사각형 영역 내부가 나타나면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다. 
+* 놓기 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 나타나면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다. 
 
    ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
-* 끝에 있는 공백(검은색 대괄호 참조)으로 드래그하여 시각화에 **추가**&#x200B;합니다. 
+* 끝에 있는 공백 (검은색 대괄호 참조)으로 드래그하여 시각화에 **추가**&#x200B;합니다. 
 
    ![](assets/multi-dimensional-flow4.png)
 
