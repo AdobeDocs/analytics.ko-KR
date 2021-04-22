@@ -1,14 +1,14 @@
 ---
 title: 방문 깊이
 description: 방문의 깊이를 보고하는 방문 기반 차원입니다.
+exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # 방문 깊이
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 차원 항목
 
-차원 항목에는 문자열 `"Pages per visit"`가 포함되며 그 뒤에는 방문에 있는 페이지의 수를 나타내는 숫자가 옵니다. 차원 항목 `"Pages per visit: 1"`은 단일 페이지 방문을 나타내는 반면 차원 항목 `"Pages per visit: 8"`은 8개의 페이지 보기(및 임의 개수의 링크 추적 호출)가 있는 방문을 나타냅니다.
+차원 항목에는 문자열 `"Pages per visit"`가 포함되며 그 뒤에는 방문에 있는 페이지의 수를 나타내는 숫자가 옵니다. 차원 항목 `"Pages per visit: 1"`은 단일 페이지 방문을 나타내는 반면 차원 항목 `"Pages per visit: 8"`은 8개의 페이지 보기 (및 임의 개수의 링크 추적 호출)가 있는 방문을 나타냅니다.
 
 ## 히트 깊이와 비교
 
