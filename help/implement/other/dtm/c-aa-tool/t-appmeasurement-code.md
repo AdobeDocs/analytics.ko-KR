@@ -1,17 +1,17 @@
 ---
 description: Adobe Analytics에서 Dynamic Tag Management를 수동으로 배포할 때 AppMeasurement 코드를 삽입합니다.
-keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appmeasurement;appmeasurement code
+keywords: Dynamic Tag Management;연결된 계정;계정 연결;코드 편집;appmeasurement;appmeasurement 코드
 solution: Experience Cloud,Analytics,Target
 title: 핵심 AppMeasurement 코드 삽입
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '180'
+exl-id: a4d1ed76-fbbb-464e-be4a-b05178224ec7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
-
 
 # 핵심 AppMeasurement 코드 삽입
 
@@ -22,7 +22,7 @@ Adobe Analytics에서 Dynamic Tag Management를 수동으로 배포할 때 AppMe
 
    사용자 지정 라이브러리를 선택하고 창을 열면 가장 최신의 코드 버전이 이미 표시되어 나타나므로 관리 콘솔에서 zip 파일을 다운로드하지 않아도 됩니다.
 1. 텍스트 편집기에서 [!DNL AppMeasurement.js]를 엽니다.
-1. 컨텐츠를 복사해 **[!UICONTROL 코드 편집]** 창에 붙여넣습니다.
+1. 콘텐츠를 복사해 **[!UICONTROL 코드 편집]** 창에 붙여넣습니다.
 
    ![](assets/edit-code.png)
 
@@ -40,4 +40,3 @@ Adobe Analytics에서 Dynamic Tag Management를 수동으로 배포할 때 AppMe
 1. **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭합니다.
 
    미디어 모듈, 통합 모듈 또는 구현 플러그인을 사용 중인 경우, 복사하여 코드 섹션에도 붙여넣을 수 있습니다. Dynamic Tag Management의 관리되는 코드는 일반적인 구현의 JavaScript 파일처럼 구성할 수 있습니다.
-
