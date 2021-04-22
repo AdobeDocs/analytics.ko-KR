@@ -1,14 +1,14 @@
 ---
 title: 외부 이메일 추적
-description: Adobe Analytics를 사용하여 이메일 컨텐츠를 추적합니다.
+description: Adobe Analytics를 사용하여 이메일 콘텐츠를 추적합니다.
+exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # 외부 이메일 추적
 
@@ -88,11 +88,11 @@ ht-degree: 100%
 
    [!UICONTROL SAINT 캠페인 관리 도구]는 추적 코드를 사용자에게 친근한 이름으로 변환하는 데 사용할 수 있으며, 각 이메일 캠페인의 성공을 요약하는 데도 사용할 수 있습니다. 다음 5단계는 이메일 캠페인을 설정할 때 필요한 프로세스에 대한 개요를 설명합니다.
 
-1. 이메일 캠페인별로 경로 지정을 봅니다(선택 사항).
+1. 이메일 캠페인별로 경로 지정을 봅니다 (선택 사항).
 
    이메일 캠페인에 의한 경로 지정 분석은 다른 캠페인에 의한 경로 지정과 유사하게 수행할 수 있습니다. 다음 단계들에 설명된 것처럼, 변수를 사용하여 캠페인별 경로 지정을 표시할 수 있습니다.
 
-   1. [!DNL Customer Care]사용자 지정 인사이트[!UICONTROL  변수(prop)에 대한 경로 지정을 사용하는 방법에 대한 자세한 내용은 Adobe ]에 문의하십시오.
+   1. [!DNL Customer Care]사용자 지정 인사이트[!UICONTROL  변수 (prop)에 대한 경로 지정을 사용하는 방법에 대한 자세한 내용은 Adobe ]에 문의하십시오.
 
    1. 모든 페이지에서, 페이지 이름을 지정된 [!DNL s.prop]로 복사하십시오.
    1. 이메일 랜딩 페이지에서, 이메일 캠페인의 이름을 prop에 추가합니다. 결과는 아래와 같이 표시됩니다.
@@ -101,5 +101,4 @@ ht-degree: 100%
       s.prop1="Home Page : 123456"
       ```
 
-      경로 지정 기능이 [!UICONTROL 사용자 지정 인사이트] 변수에 대해 활성화되면, [!UICONTROL 경로] 보고서([!UICONTROL 다음 페이지 흐름]이나 [!UICONTROL 폴아웃] 등)를 사용하여 랜딩 페이지에서 방문자 이동을 볼 수 있습니다.
-
+      경로 지정 기능이 [!UICONTROL 사용자 지정 인사이트] 변수에 대해 활성화되면, [!UICONTROL 경로] 보고서 ([!UICONTROL 다음 페이지 흐름]이나 [!UICONTROL 폴아웃] 등)를 사용하여 랜딩 페이지에서 방문자 이동을 볼 수 있습니다.
