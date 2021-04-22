@@ -36,7 +36,7 @@ Adobe는 이스케이프 로직을 사용하여 데이터 수집 서버로 전�
 
 예를 들어 사이트 방문자는 내부 검색을 사용하고 &#39;search\nstring&#39;을 검색합니다. eVar1을 &#39;search\nstring&#39;으로 채우고 해당 값을 Adobe로 보냅니다. Adobe는 이 히트를 수신하고 문자열에 포함된 새 행을 이스케이프 처리합니다. 원시 데이터에 배치된 실제 값은 &#39;search\\nstring&#39;입니다.
 
-## 여러 값이 있는 변수의 특수 문자(events_list, products_list, mvvars)
+## 여러 값이 있는 변수의 특수 문자 (events_list, products_list, mvvars)
 
 다음 문자는 열에 여러 값을 포함할 수 있는 특별한 의미가 있습니다.
 
