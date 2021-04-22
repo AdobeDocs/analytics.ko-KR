@@ -1,22 +1,22 @@
 ---
 description: Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
-keywords: ftp;sftp
+keywords: ftp, sftp
 title: SFTP를 통해 Adobe FTP 계정에 연결
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
+exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '132'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
-
 
 # SFTP를 통해 Adobe FTP 계정에 연결
 
 Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
 
-1. Adobe에서 호스팅하는 FTP 계정을 요청합니다(50MB 할당량).
+1. Adobe에서 호스팅하는 FTP 계정을 요청합니다 (50MB 할당량).
 1. 공개/개인 RSA 키를 만듭니다. Linux에서 다음을 실행합니다.
 
    ```
@@ -25,7 +25,7 @@ Adobe FTP Server로 보안 전송을 설정하는 지침입니다.
 
    Windows 환경에서는 puttyGen을 사용하여 키를 만듭니다.
 
-1. [!DNL authorized_keys]라는 파일(확장명 없음)을 만듭니다.
+1. [!DNL authorized_keys]라는 파일 (확장명 없음)을 만듭니다.
 1. 공개 키의 콘텐츠를 [!DNL authorized_keys]에 복사합니다.
 1. [!DNL authorized_keys]를 FTP 계정에 업로드합니다.
 
