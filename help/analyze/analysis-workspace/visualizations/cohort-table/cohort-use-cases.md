@@ -3,16 +3,16 @@ description: 집단 분석 사용 사례 예입니다.
 keywords: Analysis Workspace
 title: 집단 분석 활용 사례
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 99%
+exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL 집단 분석 ]활용 사례
 
@@ -30,11 +30,11 @@ ht-degree: 99%
 
 **반환 지표**: 세션 또는 시작
 
-방문자가 세션을 사용하고 있거나 적어도 앱을 시작하고 있는 경우가 아니라면 그 다음 달은 세션을 하거나 앱을 시작하지 않는 한 다음 달에&#x200B;*`engaged`*&#x200B;입니다. 그러면 [!UICONTROL 집단 분석]에서는 *`App Install`*&#x200B;이 항상 0번째 달에 발생하는 사용의 패턴을 보여줍니다. 사용자가 언제 앱을 설치했는지에 상관없이 2번째 달에 사용량이 떨어질 수 있습니다. (2015년 1월에 앱을 설치한 사용자의 경우, 2번째 달은 2015 3월입니다. 2015년 2월에 앱을 설치한 사용자의 경우, 2번째 달은 2015 4월입니다.) 이 분석을 이용하면 앱을 설치한 후 2번째 달에 모든 사용자에게 이메일이나 푸시 메시지를 보내어 앱을 사용하도록 상기시킬 수 있습니다.
+방문자가 세션을 사용하고 있거나 적어도 앱을 시작하고 있는 경우가 아니라면 그 다음 달은 세션을 하거나 앱을 시작하지 않는 한 다음 달에&#x200B;*`engaged`*&#x200B;입니다. 그러면 [!UICONTROL 집단 분석]에서는 *`App Install`*&#x200B;이 항상 0번째 달에 발생하는 사용의 패턴을 보여줍니다. 사용자가 언제 앱을 설치했는지에 상관없이 2번째 달에 사용량이 떨어질 수 있습니다.  (2015년 1월에 앱을 설치한 사용자의 경우, 2번째 달은 2015 3월입니다. 2015년 2월에 앱을 설치한 사용자의 경우, 2번째 달은 2015 4월입니다.) 이 분석을 이용하면 앱을 설치한 후 2번째 달에 모든 사용자에게 이메일이나 푸시 메시지를 보내어 앱을 사용하도록 상기시킬 수 있습니다.
 
 ## 앱 참여 사용 사례 {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
-여러분은 Adobe.com에서 일하고 무료 Creative Cloud 가입을 제공합니다. 목표는 사용자가 무료 버전을 30일 평가판이나, (궁극적으로) 유료 버전으로 업그레이드하는 것입니다.
+여러분은 Adobe.com에서 일하고 무료 Creative Cloud 가입을 제공합니다. 목표는 사용자가 무료 버전을 30일 평가판이나,  (궁극적으로) 유료 버전으로 업그레이드하는 것입니다.
 
 **세부기간**: 월별
 
