@@ -1,18 +1,18 @@
 ---
 title: XDM 데이터를 Analytics에 수동으로 매핑
-description: 'Experience Platform의 XDM 데이터를 Adobe Analytics에 수동으로 매핑합니다. '
+description: Experience Platform의 XDM 데이터를 Adobe Analytics에 수동으로 매핑합니다.
+exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 
 ---
 
-
 # XDM 데이터를 Analytics에 수동으로 매핑
 
-Adobe Experience Platform(AEP) 웹 SDK에는 Platform과 Analytics 간에 데이터를 수동으로 매핑하는 데 도움이 되는 보조 도구가 포함되어 있습니다.
+Adobe Experience Platform (AEP) 웹 SDK에는 Platform과 Analytics 간에 데이터를 수동으로 매핑하는 데 도움이 되는 보조 도구가 포함되어 있습니다.
 
 Analytics에 자동으로 매핑되지 않는 XDM 데이터의 경우 [스키마](https://docs.adobe.com/content/help/ko-KR/experience-platform/xdm/schema/composition.html)와 일치하도록 [컨텍스트 데이터](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/contextdata.html)를 추가할 수 있습니다. 그런 다음 Analytics [처리 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)에서 이 데이터를 사용하여 Analytics 변수를 채울 수 있습니다.
 
@@ -49,7 +49,7 @@ Analytics에서 사용하기 위해 XDM 데이터는 점 표기법을 사용하�
 
 에지 네트워크에서 수집한 모든 데이터는 [처리 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)을 통해 액세스할 수 있습니다. Analytics에서는 처리 규칙을 사용하여 컨텍스트 데이터를 Analytics 변수에 통합할 수 있습니다.
 
-예를 들어 다음 규칙에서 Analytics는 **내부 검색어(eVar2)**&#x200B;를 **a.x_atag.search.term(컨텍스트 데이터)**&#x200B;과 연결된 데이터로 채우도록 설정됩니다.
+예를 들어 다음 규칙에서 Analytics는 **내부 검색어 (eVar2)**&#x200B;를 **a.x_atag.search.term (컨텍스트 데이터)**&#x200B;과 연결된 데이터로 채우도록 설정됩니다.
 
 ![](assets/examplerule.png)
 
