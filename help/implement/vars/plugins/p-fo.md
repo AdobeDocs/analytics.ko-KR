@@ -1,16 +1,16 @@
 ---
-title: p_fo(첫 번째 페이지만)
+title: p_fo (첫 번째 페이지만)
 description: 특정 루틴이 페이지당 한 번만 실행되도록 합니다.
+exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 translation-type: ht
-source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '628'
 ht-degree: 100%
 
 ---
 
-
-# Adobe 플러그인: p_fo(첫 번째 페이지만)
+# Adobe 플러그인: p_fo (첫 번째 페이지만)
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
+   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: p_fo 초기화
@@ -47,7 +47,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,7 +60,7 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 `p_fo` 메서드에서는 다음 인수를 사용합니다.
 
-* **on** (필수, 문자열): 개체가 페이지에 아직 없을 경우 플러그인이 생성하는 JavaScript 개체의 이름입니다.
+* **on**  (필수, 문자열): 개체가 페이지에 아직 없을 경우 플러그인이 생성하는 JavaScript 개체의 이름입니다.
 
 개체가 아직 없으면 이 메서드는 `true`를 반환하고 개체를 만듭니다. 개체가 이미 있으면 이 메서드는 `false`를 반환합니다.
 
@@ -68,7 +68,7 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ### 예 #1
 
-다음 코드는 페이지 내에 &quot;myobject&quot; 개체가 있는지 확인합니다. myobject 개체가 없으면 코드는 &quot;myobject&quot; 개체를 만들고 true 값을 반환합니다. 따라서 조건문(즉, Console.log(&#39;hello&#39;);) 내의 코드가 실행됩니다.
+다음 코드는 페이지 내에 &quot;myobject&quot; 개체가 있는지 확인합니다. myobject 개체가 없으면 코드는 &quot;myobject&quot; 개체를 만들고 true 값을 반환합니다. 따라서 조건문 (즉, Console.log (&#39;hello&#39;);) 내의 코드가 실행됩니다.
 
 반면에 p_fo 호출이 발생할 때 &quot;myobject&quot; 개체가 이미 있으면 p_fo 함수는 false 값을 반환하며, 따라서 조건문은 false로 간주됩니다. 이 경우 조건문 내의 코드는 실행되지 않습니다.
 
@@ -83,13 +83,13 @@ if(s.p_fo("myobject"))
 
 ## 버전 내역
 
-### 3.0(2021년 3월 19일)
+### 3.0 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
 ### 2.0
 
-* 포인트 릴리스(다시 컴파일됨, 더 작은 코드 크기).
+* 포인트 릴리스 (다시 컴파일됨, 더 작은 코드 크기).
 * 반환 값 유형을 정수에서 부울로 변경했습니다.
 
 ### 1.0
