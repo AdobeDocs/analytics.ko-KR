@@ -1,16 +1,16 @@
 ---
 description: SFTP는 본인을 제외한 누구도 본인의 데이터를 볼 수 없도록 전송 중인 데이터를 보호하는 프로토콜입니다. Adobe 엔지니어링 서비스에서 데이터를 안전하게 유지하도록 SFTP 계정을 설정할 수 있습니다.
-keywords: ftp;sftp
+keywords: ftp, sftp
 title: Secure File Transfer Protocol - 개요
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
+exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '235'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
-
 
 # Secure File Transfer Protocol - 개요
 
@@ -35,4 +35,3 @@ SFTP를 통해 데이터를 푸시할 수 **없는** Analytics 도구는 다음�
 * [SFTP를 통해 암호 없이 Adobe에 연결합니다.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 * [SFTP를 통해 Adobe FTP 계정에 연결합니다.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
 * 원하는 보고서를 Adobe의 FTP와 유사한 데이터 피드/R&amp;A/Ad Hoc 등에 푸시한 다음 가져옵니다. Adobe는 이러한 보고서를 사용자가 설정한 SFTP 서버에 전달할 수 없습니다.
-
