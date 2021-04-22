@@ -1,14 +1,14 @@
 ---
 title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: tm+mt
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # 마케팅 채널 분석
 
@@ -40,17 +40,17 @@ ht-degree: 94%
 
 ## 고급 분석
 
-마케팅 채널 세부 사항은 각 채널을 더 깊이 있게 분석하여 특정 캠페인, 배치 등을 보여줍니다. 각 마케팅 채널을 다음과 같이 세부적으로 분류할 수 있습니다.
+마케팅 채널 세부 정보는 각 채널을 더 깊이 있게 분석하여 특정 캠페인, 배치 등을 보여줍니다. 각 마케팅 채널을 다음과 같이 세부적으로 분류할 수 있습니다.
 
 ![](assets/mc-viz4.png)
 
 ## 속성 모델 적용
 
-[속성 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
+[속성 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
 
 ![](assets/mc-viz5.png)
 
-서로 다른 속성 모델을 적용할 때 동일한 지표(온라인 주문)가 다른 결과를 어떻게 생성하는지 확인하십시오.
+서로 다른 속성 모델을 적용할 때 동일한 지표 (온라인 주문)가 다른 결과를 어떻게 생성하는지 확인하십시오.
 
 ## 교차 탭 마케팅 분석
 
@@ -58,4 +58,4 @@ ht-degree: 94%
 
 ![](assets/mc-viz6.png)
 
-이 비디오에서 탭 간 마케팅 분석에 대한 자세한 내용을 살펴보십시오. [크로스탭 분석을 사용하여 Analysis Workspace에서 기본 마케팅 속성을 탐색합니다](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+이 비디오에서 교차 탭 마케팅 분석에 대해 자세히 알아보십시오. [교차 탭 분석을 사용하여 Analysis Workspace에서의 기본 마케팅 기여도 살펴보기](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
