@@ -1,14 +1,14 @@
 ---
 title: server
 description: '''서버'' 차원을 채웁니다.'
+exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '159'
 ht-degree: 100%
 
 ---
-
 
 # server
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch의 서버
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 서버를 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 서버를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
