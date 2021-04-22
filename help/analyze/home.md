@@ -1,16 +1,16 @@
 ---
 title: Analytics 툴 안내서
 description: Analysis Workspace, Adobe Analytics 대시보드, Activity Map, Report Builder, Reporting API 및 Reports & Analytics에 대한 제품 설명서 및 자체 도움말.
-feature: Workspace Basics
+feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '240'
+exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 툴 안내서
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 * [Adobe Analytics 대시보드 - 개요](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 시작](analysis-workspace/home.md)
-* [Adobe Analytics용 PWA(Progressive Web App)](/help/analyze/pwa/pwa.md)
+* [Adobe Analytics용 PWA (Progressive Web App)](/help/analyze/pwa/pwa.md)
 * [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder 시작](report-builder/home.md)
 * [활동 맵 시작](activity-map/activity-map.md)
