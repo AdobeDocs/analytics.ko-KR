@@ -1,14 +1,14 @@
 ---
 description: Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse 및 Data Workbench의 시스템 요구 사항 및 비교
 title: Analytics 제품 비교 및 요구 사항
+exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '429'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 제품 비교 및 요구 사항
 
@@ -20,12 +20,12 @@ ht-degree: 100%
 |---|---|---|---|---|---|---|---|
 | **액세스 방법** | [브라우저](/help/admin/sys-reqs.md) | [브라우저](/help/admin/sys-reqs.md) | [Windows용 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 브라우저를 통해 설정합니다. [추가 정보](/help/admin/sys-reqs.md) | [Windows 64비트](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/install/c-data-workbench-client-install.html) | 브라우저를 통해 설정합니다. [추가 정보](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 도구. Adobe I/O 자격 증명으로 로그인합니다. [추가 정보](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **데이터 세부기간** | 집계됨 | 집계됨 | 집계됨 | 집계됨 | 히트 | 히트 | 집계됨 |
-| **Experience Cloud ID(ECID) 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 예 | 예 | 아니요 |
+| **Experience Cloud ID (ECID) 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 예 | 예 | 아니요 |
 | **타임스탬프 사용 가능** | 아니요 | 아니요 | 아니요 | 아니요 | 예 | 예 | 아니요 |
 | **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 [실시간 보고서](/help/components/c-real-time-reporting/realtime.md) 사용 | 완전히 처리됨, 별도의 [실시간 보고서](/help/components/c-real-time-reporting/realtime.md) 사용 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
 | **관리 보트 필터 데이터 포함** <br> [추가 정보](/help/admin/admin/bot-removal/bot-removal.md) | 아니요 | 예 - 별도의 보트 보고서 | 예 - 별도의 보트 보고서 | 아니요 | 아니요 | 아니요 | 아니요 |
-| **낮은 트래픽(고유 수가 초과되었습니다) 표시** <br> [추가 정보](/help/technotes/low-traffic.md) | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
-| **표시 행 제한(페이지 매김 전)** | 400 | 200 | 50000 | 제한 없음 | 제한 없음 | 제한 없음 | 50000 |
+| **낮은 트래픽 (고유 수가 초과되었습니다) 표시** <br> [추가 정보](/help/technotes/low-traffic.md) | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| **표시 행 제한 (페이지 매김 전)** | 400 | 200 | 50000 | 제한 없음 | 제한 없음 | 제한 없음 | 50000 |
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예. 제한 사항 있음 | 예 | 아니요 | 예 | 아니요 | 예 |
 | **분류 수** | 제한 없음 | 최대 2 | 최대 2 | 제한 없음 | 제한 없음 | 제한 없음 | 제한 없음, 여러 쿼리에서 실행 |
 | **세그먼테이션** <br> [추가 정보](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 예 | 예 | 예 | 예. [제한 사항](/help/components/segmentation/seg-reference/seg-compatibility.md) 있음 | 예 | 아니요 | 예 |
