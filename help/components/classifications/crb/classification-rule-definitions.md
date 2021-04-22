@@ -2,7 +2,7 @@
 description: 분류 규칙 빌더에서 페이지의 인터페이스 요소를 정의한 것입니다.
 subtopic: Classifications
 title: 분류 규칙 - 정의
-feature: Admin Tools
+feature: 관리 도구
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt
@@ -35,7 +35,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 및 변수 선택 </p> </td> 
-   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span>(또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >트래픽 분류</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >전환 분류</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>보고서 세트</b> </p> <p>규칙 세트가 적용되는 보고서 세트입니다. </p> <p><b>변수</b> </p> <p>분류 규칙 세트를 만들 때 1개의 변수만 적용할 수 있습니다. 1개의 변수에 여러 규칙 세트를 만들려면 각 규칙 세트를 여러 보고서 세트에 적용해야 합니다. </p> <p>참고: 보고서 세트에 대한 액세스 권한이 있는 변수만 사용할 수 있습니다. 변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 <span class="wintitle">새 규칙 세트</span> 패널에 표시됩니다. </p> <p> <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">트래픽</span> &gt; <span class="uicontrol">트래픽 분류</span> (또는 <span class="uicontrol">전환</span> &gt; <span class="uicontrol">전환 분류</span>)에서 변수에 대한 분류를 만들 수 있습니다. 그런 다음, 변수를 선택하고 <span class="uicontrol">분류 추가</span>를 클릭합니다. </p> <p>관리자 도움말에서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >트래픽 분류</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >전환 분류</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 활성화</span> </p> </td> 
@@ -47,19 +47,19 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 및 변수 구성 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">사용 가능한 보고서 세트</span> 페이지를 표시합니다. 이 페이지에서 모든 규칙 세트에 사용할 하나 이상의 사용 가능한 보고서 세트를 선택할 수 있습니다. (<span class="wintitle">분류 규칙 빌더</span>를 처음 실행할 때에도 이 페이지가 표시됩니다.) </p> <p>사용 가능한 보고서 세트가 수백 개 있을 경우 보고서 세트 로드 시간을 줄이는 데 도움이 되기 위한 기능입니다. </p> <p>여기에서 선택하는 보고서 세트는 규칙을 만들 때 <span class="uicontrol">보고서 세트 추가</span>를 클릭하면 규칙 수준에서 사용할 수 있게 됩니다. </p> <p>참고: <span class="wintitle">관리자 도구</span>에 있는 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있을 때에<span class="term">만</span> 보고서 세트가 사용할 수 있게 됩니다. <p>이 전제 조건에 대한 자세한 내용은 <a href="/help/components/classifications/crb/classification-rule-set.md"  >분류 규칙 세트</a>의 <span class="term">변수</span>를 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">사용 가능한 보고서 세트</span> 페이지를 표시합니다. 이 페이지에서 모든 규칙 세트에 사용할 하나 이상의 사용 가능한 보고서 세트를 선택할 수 있습니다.  (<span class="wintitle">분류 규칙 빌더</span>를 처음 실행할 때에도 이 페이지가 표시됩니다.) </p> <p>사용 가능한 보고서 세트가 수백 개 있을 경우 보고서 세트 로드 시간을 줄이는 데 도움이 되기 위한 기능입니다. </p> <p>여기에서 선택하는 보고서 세트는 규칙을 만들 때 <span class="uicontrol">보고서 세트 추가</span>를 클릭하면 규칙 수준에서 사용할 수 있게 됩니다. </p> <p>참고: <span class="wintitle">관리자 도구</span>에 있는 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있을 때에<span class="term">만</span> 보고서 세트가 사용할 수 있게 됩니다. <p>이 전제 조건에 대한 자세한 내용은 <a href="/help/components/classifications/crb/classification-rule-set.md"  >분류 규칙 세트</a>의 <span class="term">변수</span>를 참조하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>규칙은 기존 값을 덮어씁니다. </p> </td> 
-   <td colname="col2"> <p> (기본 설정) Importer(SAINT)를 통해 업로드한 분류를 포함한 기존 분류 키들을 항상 덮어씁니다. </p> </td> 
+   <td colname="col2"> <p>  (기본 설정) Importer (SAINT)를 통해 업로드한 분류를 포함한 기존 분류 키들을 항상 덮어씁니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>규칙은 설정이 해제된 값만 덮어씁니다. </p> </td> 
-   <td colname="col2"> <p>빈(설정이 해제된) 셀만 채웁니다. 기존 분류는 변경되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>빈 (설정이 해제된) 셀만 채웁니다. 기존 분류는 변경되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>전환 확인 기간 </p> </td> 
-   <td colname="col2"> <p>규칙을 활성화하고 유효성을 확인할 때, 영향을 받는 키에 대해 규칙이 기존 분류를 덮어쓰도록 지정할 수 있습니다. 지정한 기간 내에 <span class="keyword">Adobe Analytics</span>로 전달된 적이 있는 분류된 키만 영향을 받습니다. </p> <p><span class="term">전환 확인 기간</span>을 지정하지 않으면 규칙은 대략 1달 이전까지 적용됩니다(현재 날짜에 따라 다름). 이 옵션을 활성화하지 않으면 기존 분류를 덮어쓰는 일은 없습니다. </p> <p><b>개발 센터</b>: 파트너는 <span class="wintitle">개발 센터</span>에서 분류 규칙을 만들 수 있습니다. 이 규칙은 고객이 통합을 활성화하면 배포됩니다. <span class="wintitle">개발 센터</span>의 <span class="uicontrol">다음 날짜 이후 덮어쓰기</span> 옵션은 고객이 통합을 활성화하거나 편집할 때 덮어쓰기 값을 결정할 수 있는지 여부를 파트너가 지정할 수 있도록 해줍니다. </p> <p>규칙 처리에 대한 자세한 내용은 <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >규칙 처리 방법</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>규칙을 활성화하고 유효성을 확인할 때, 영향을 받는 키에 대해 규칙이 기존 분류를 덮어쓰도록 지정할 수 있습니다. 지정한 기간 내에 <span class="keyword">Adobe Analytics</span>로 전달된 적이 있는 분류된 키만 영향을 받습니다. </p> <p><span class="term">전환 확인 기간</span>을 지정하지 않으면 규칙은 대략 1달 이전까지 적용됩니다 (현재 날짜에 따라 다름). 이 옵션을 활성화하지 않으면 기존 분류를 덮어쓰는 일은 없습니다. </p> <p><b>개발 센터</b>: 파트너는 <span class="wintitle">개발 센터</span>에서 분류 규칙을 만들 수 있습니다. 이 규칙은 고객이 통합을 활성화하면 배포됩니다. <span class="wintitle">개발 센터</span>의 <span class="uicontrol">다음 날짜 이후 덮어쓰기</span> 옵션은 고객이 통합을 활성화하거나 편집할 때 덮어쓰기 값을 결정할 수 있는지 여부를 파트너가 지정할 수 있도록 해줍니다. </p> <p>규칙 처리에 대한 자세한 내용은 <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >규칙 처리 방법</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > 규칙 추가 </a> </td> 
@@ -71,7 +71,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 복제</span> </td> 
-   <td colname="col2"> 규칙 세트를 다른 변수에 적용하거나 다른 보고서 세트의 동일한 변수에 적용할 수 있도록 규칙 세트를 복제(복사)합니다. </td> 
+   <td colname="col2"> 규칙 세트를 다른 변수에 적용하거나 다른 보고서 세트의 동일한 변수에 적용할 수 있도록 규칙 세트를 복제 (복사)합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > 테스트 규칙 세트 </a> </p> </td> 
