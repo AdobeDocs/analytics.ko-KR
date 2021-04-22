@@ -1,14 +1,14 @@
 ---
 title: 카테고리
 description: 히트의 제품 카테고리입니다.
+exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # 카테고리
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [`products`](/help/implement/vars/page-vars/products.md) 변수에 있는 문자열의 첫 부분을 참조합니다. 첫 번째 세미콜론(`;`) 앞의 모든 내용이 이 차원을 채웁니다.
+이 차원은 [`products`](/help/implement/vars/page-vars/products.md) 변수에 있는 문자열의 첫 부분을 참조합니다. 첫 번째 세미콜론 (`;`) 앞의 모든 내용이 이 차원을 채웁니다.
 
 ## 차원 항목
 
