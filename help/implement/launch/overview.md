@@ -1,14 +1,14 @@
 ---
 title: Launch를 사용한 구현 개요
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 translation-type: ht
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Launch를 사용한 구현 개요
 
@@ -18,7 +18,7 @@ Launch는 다른 태그 지정 요구 사항과 함께 Analytics 코드를 배�
 
 유효한 Adobe Experience Cloud 계약을 보유한 모든 고객은 Launch를 사용할 수 있습니다. 액세스 권한이 있는지 확실하지 않은 경우 조직의 Experience Cloud 시스템 관리자에게 문의하십시오.
 
-## 전체 워크플로우
+## 전체 워크플로
 
 Launch를 사용하여 구현을 실행하는 절차는 다음과 같습니다.
 
