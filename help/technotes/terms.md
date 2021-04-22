@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
+exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '2458'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics에 사용되는 용어
 
@@ -41,11 +41,11 @@ ht-degree: 100%
 * **전환 변수:** eVar라고도 합니다. 사용자 지정 값을 저장하고 만료될 때까지 변수 값을 유지합니다. 구성 요소 사용 안내서에서 [eVar](/help/components/dimensions/evar.md) 차원을 참조하십시오.
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **현재 데이터:** 아직 완전히 처리되지 않은, 최근 수집된 데이터를 포함할 수 있는 일부 보고서의 옵션입니다. 분석 사용 안내서에서 [현재 데이터](/help/analyze/reports-analytics/current-data.md)를 참조하십시오.
-* **사용자 지정 링크:** 페이지 보기 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl() 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
+* **사용자 지정 링크:** 페이지 보기 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl () 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
 * **고객 속성:** 속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 * **고객 지원 담당자:** Adobe 고객 지원 팀과 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience Cloud 기술 자료에서 [고객 지원 담당자](https://helpx.adobe.com/kr/experience-cloud/supported-users.html)를 참조하십시오.
 * **데이터 수집 서버:** 데이터를 받고 처리하는 Adobe 소유 서버입니다. 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
-* **Data Connectors:** 타사에서 Adobe Analytics로 데이터 업로드를 자동화할 수 있는 완벽한 개발 솔루션입니다. 해당 타사 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. 대부분의 Data Connectors는 데이터 소스에 사용되는 유사한 워크플로우를 사용합니다. 가져오기 사용 안내서의 Data Connectors를 참조하십시오.
+* **Data Connectors:** 타사에서 Adobe Analytics로 데이터 업로드를 자동화할 수 있는 완벽한 개발 솔루션입니다. 해당 타사 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. 대부분의 Data Connectors는 데이터 소스에 사용되는 유사한 워크플로를 사용합니다. 가져오기 사용 안내서의 Data Connectors를 참조하십시오.
 * **데이터 피드:** 모든 히트를 행으로 나열하고 변수를 별도의 열로 나열하는 원시 데이터 내보내기입니다. Adobe Analytics 데이터를 타사 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
 * **데이터 소스:** 사용자가 파일의 데이터를 Adobe Analytics에 업로드할 수 있습니다. 파일은 일반적으로 FTP 사이트에서 가져옵니다. 가져오기 사용 안내서에서 [데이터 소스](/help/import/c-data-sources/datasrc-home.md)를 참조하십시오.
 * **Data Warehouse:** 더 큰 보고서를 요청할 수 있는 Adobe Analytics의 기능입니다. 내보내기 사용 안내서에서 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)를 참조하십시오.
@@ -90,13 +90,13 @@ ht-degree: 100%
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
 * **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **RSID:** 보고서 세트 ID의 약어입니다. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
-* **s.t():** 페이지 보기 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()`을 대신 사용합니다. 구현 사용 안내서에서 [t](../implement/vars/functions/t-method.md)를 참조하십시오.
-* **s<span>.</span>tl():** 링크 추적 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.trackLink()`을 대신 사용합니다. 구현 사용 안내서에서 [tl](../implement/vars/functions/tl-method.md)을 참조하십시오.
+* **s.t ():** 페이지 보기 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()`을 대신 사용합니다. 구현 사용 안내서에서 [t](../implement/vars/functions/t-method.md)를 참조하십시오.
+* **s<span>.</span>tl ():** 링크 추적 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.trackLink()`을 대신 사용합니다. 구현 사용 안내서에서 [tl](../implement/vars/functions/tl-method.md)을 참조하십시오.
 * **s_code.js:** 이전 버전의 Adobe Analytics에 사용된 JavaScript 파일의 이름입니다. 사용되는 JavaScript 파일의 현재 이름은 AppMeasurement.js입니다.
 * **Satellite:** 더 이상 사용하지 않는 용어입니다. Dynamic Tag Management의 이전 제품 이름입니다.
 * **보조 서버 호출:** 대부분 다중 세트 태깅 및 청구 컨텍스트에서 사용되는 이미지 요청 또는 히트에 대한 대체 이름입니다. 동일한 히트가 여러 보고서 세트로 전송되면 첫 번째로 나열된 보고서 세트 이후의 모든 보고서 세트가 보조 서버 호출입니다. 기본 서버 호출도 참조하십시오.
-* **세그먼트:** 데이터의 특정 하위 세트에 중점을 둘 수 있습니다. 구성 요소 사용 안내서에서 [세그멘테이션](/help/components/segmentation/seg-overview.md)을 참조하십시오.
-* **세그먼트 컨테이너:** 가져올 데이터의 양을 결정하는 세그먼트의 일부입니다. 컨테이너는 페이지 보기, 방문 또는 방문자를 기반으로 할 수 있습니다. 구성 요소 사용 안내서에서 [세그멘테이션](/help/components/segmentation/seg-overview.md)을 참조하십시오.
+* **세그먼트:** 데이터의 특정 하위 세트에 중점을 둘 수 있습니다. 구성 요소 사용 안내서에서 [세그먼테이션](/help/components/segmentation/seg-overview.md)을 참조하십시오.
+* **세그먼트 컨테이너:** 가져올 데이터의 양을 결정하는 세그먼트의 일부입니다. 컨테이너는 페이지 보기, 방문 또는 방문자를 기반으로 할 수 있습니다. 구성 요소 사용 안내서에서 [세그먼테이션](/help/components/segmentation/seg-overview.md)을 참조하십시오.
 * **일련화:**&#x200B;이벤트 일련화를 참조하십시오.
 * **서버 호출:** 주로 청구 컨텍스트에서 사용되는 이미지 요청 또는 히트에 대한 대체 이름입니다.
 * **단일 액세스:** 차원에 하나의 고유 값만 있는 방문입니다. 여러 개의 고유 값이 없는 한 방문에 여러 개의 히트가 있을 수 있습니다. 구성 요소 사용 안내서에서 [단일 액세스](/help/components/metrics/single-access.md) 지표를 참조하십시오. 바운스도 참조하십시오.
@@ -105,7 +105,7 @@ ht-degree: 100%
 * **하위 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 하위 관계는 전환 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **성공 이벤트:** 사용자가 수행한 추적 작업입니다. 조직은 추적할 이벤트와 이를 추적하는 데 사용하는 성공 이벤트 변수를 결정합니다. 구성 요소 사용 안내서에서 [사용자 지정 이벤트](/help/components/metrics/custom-events.md)를 참조하십시오.
 * **지원되는 사용자:** 고객 지원 담당자를 참조하십시오.
-* **트래픽 변수:** 속성(property)이라고도 합니다. 단일 히트에 대한 사용자 지정 값을 저장합니다. 이전 버전의 Adobe Analytics에서는 속성(property)에 고유한 값을 제공했지만, 플랫폼 개선 사항으로 사용자 지정 트래픽 변수가 필요하지 않게 되었습니다. 대부분의 경우 사용자 지정 전환 변수(eVar)를 사용하는 것이 좋습니다. 구성 요소 사용 안내서에서 [Prop](/help/components/dimensions/prop.md) 차원을 참조하십시오.
+* **트래픽 변수:** 속성 (property)이라고도 합니다. 단일 히트에 대한 사용자 지정 값을 저장합니다. 이전 버전의 Adobe Analytics에서는 속성 (property)에 고유한 값을 제공했지만, 플랫폼 개선 사항으로 사용자 지정 트래픽 변수가 필요하지 않게 되었습니다. 대부분의 경우 사용자 지정 전환 변수 (eVar)를 사용하는 것이 좋습니다. 구성 요소 사용 안내서에서 [Prop](/help/components/dimensions/prop.md) 차원을 참조하십시오.
 * **트렌드 보고서:** 일반적으로 지표가 있는 여러 날짜 범위를 표시하는 보고서 형식입니다. 이 유형의 보고서에서는 시간이 지남에 따라 지표가 수행되는 방식을 볼 수 있습니다. 등급 보고서도 참조하십시오.
 * **고유 방문자:** 사이트를 방문한 고유한 개인 수를 나타냅니다. 한 고유 방문자가 여러 번의 방문 횟수를 가질 수 있습니다. 구성 요소 사용 안내서에서 [고유 방문자 수](/help/components/metrics/unique-visitors.md) 지표를 참조하십시오.
 * **가상 보고서 세트:** 일반 보고서 세트를 참조하고 데이터를 구체화할 수 있는 데이터의 가상 컨테이너입니다. 데이터는 가상 보고서 세트로 전송되지 않습니다. 대신 데이터는 일반 보고서 세트로 전송되고 가상 보고서 세트는 수집된 해당 데이터를 기반으로 만들어집니다. 구성 요소 사용 안내서의 [가상 보고서 세트](/help/components/vrs/vrs-about.md)를 참조하십시오.
