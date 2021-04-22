@@ -1,11 +1,14 @@
 ---
 title: Util.cookieRead
 description: 쿠키에 사용할 값을 가져옵니다.
+exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
-
 
 # Util.cookieRead
 
@@ -23,7 +26,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 쿠키 값은 데이터 요소에 저장됩니다. 그러면 규칙의 데이터 요소를 참조하여 Analytics 변수를 할당할 수 있습니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.Util.cookieRead()
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.Util.cookieRead ()
 
 원하는 쿠키 값을 읽으려면 `s.Util.cookieRead()` 메서드를 호출하십시오. 이 메서드의 유일한 인수는 문자열로서, 필수입니다. 이 메서드는 쿠키 값을 포함하는 문자열을 반환합니다. 쿠키가 존재하지 않으면 빈 문자열이 반환됩니다.
 
