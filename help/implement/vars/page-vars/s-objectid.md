@@ -1,14 +1,14 @@
 ---
 title: s_objectID
 description: Activity Map은 사이트에서 고유 링크를 식별하는 데 도움이 됩니다.
+exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
 ---
-
 
 # s_objectID
 
@@ -22,7 +22,7 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s_objectID
 
-`s_objectID` 변수는 전역 변수입니다. 이것은 이 변수가 Analytics 추적 개체(기본적으로 `s`)와는 독립적으로 작동함을 의미합니다. 이 변수에 유효한 값은 최대 100바이트 길이의 모든 문자열일 수 있습니다. 이 변수가 정의되지 않으면 Activity Map에서는 링크 URL을 링크의 식별자로 사용합니다.
+`s_objectID` 변수는 전역 변수입니다. 이것은 이 변수가 Analytics 추적 개체 (기본적으로 `s`)와는 독립적으로 작동함을 의미합니다. 이 변수에 유효한 값은 최대 100바이트 길이의 모든 문자열일 수 있습니다. 이 변수가 정의되지 않으면 Activity Map에서는 링크 URL을 링크의 식별자로 사용합니다.
 
 이 변수는 일반적으로 HTML 링크의 `onClick` 이벤트에서 설정됩니다.
 
@@ -38,9 +38,9 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 
 `s_objectID` 변수는 Activity Map 보고에서 정확도를 높이고자 할 때 유용합니다.
 
-### 수시로 바뀌는 다이내믹 컨텐츠의 링크 집계
+### 수시로 바뀌는 다이내믹 콘텐츠의 링크 집계
 
-일부 사이트에는 빈번하게 회전하는 항목이 있는 뉴스 사이트나 소매 사이트와 같이 수시로 바뀌는 다이내믹 컨텐츠가 있습니다. Activity Map에서는 기본적으로 링크 URL을 식별자로 사용하므로 링크가 빈번히 변경되는 페이지에서 가장 많이 클릭한 영역을 알기 어렵습니다. 이러한 링크 내에서 `s_objectID`를 사용하는  경우, Activity Map은 링크가 가리키는 URL에 관계없이 집계할 수 있는 링크를 파악합니다.
+일부 사이트에는 빈번하게 회전하는 항목이 있는 뉴스 사이트나 소매 사이트와 같이 수시로 바뀌는 다이내믹 콘텐츠가 있습니다. Activity Map에서는 기본적으로 링크 URL을 식별자로 사용하므로 링크가 빈번히 변경되는 페이지에서 가장 많이 클릭한 영역을 알기 어렵습니다. 이러한 링크 내에서 `s_objectID`를 사용하는  경우, Activity Map은 링크가 가리키는 URL에 관계없이 집계할 수 있는 링크를 파악합니다.
 
 ```HTML
 <a href="story1.html" onClick="s_objectID='Top left link';">Story 1</a>
