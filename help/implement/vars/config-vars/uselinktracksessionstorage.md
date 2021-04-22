@@ -1,14 +1,14 @@
 ---
 title: useLinkTrackSessionStorage
 description: 링크 추적 데이터를 쿠키 대신 세션 저장소에 저장합니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # useLinkTrackSessionStorage
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->링크 추적에 세션 저장소를 사용하는 가장 안정적인 구현은 단일 하위 도메인에서 HTTPS를 통해 모든 컨텐츠를 제공합니다.
+>링크 추적에 세션 저장소를 사용하는 가장 안정적인 구현은 단일 하위 도메인에서 HTTPS를 통해 모든 콘텐츠를 제공합니다.
 
 AppMeasurement는 Adobe에 히트를 보낸 후 세션 저장소 링크 추적 데이터를 제거합니다. 또한 브라우저 탭이 닫히면 자동으로 만료됩니다.
 
