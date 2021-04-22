@@ -1,14 +1,14 @@
 ---
 title: 우편 번호
 description: 방문자의 우편 번호입니다.
-translation-type: tm+mt
-source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
-workflow-type: tm+mt
+exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # 우편 번호
 
@@ -31,9 +31,9 @@ ht-degree: 78%
 
 차원 항목에는 방문자의 우편 번호가 포함됩니다.
 
-## Adobe Analytics에서 어떤 국가의 우편번호를 신고할 수 있습니까?
+## Adobe Analytics에서 보고할 수 있는 국가의 우편 번호는 무엇입니까?
 
-* 알란드 제도
+* 올란드 제도
 * 알바니아
 * 알제리
 * 아르헨티나
@@ -58,7 +58,7 @@ ht-degree: 78%
 * 에스토니아
 * 핀란드
 * 프랑스
-* 조지아
+* 그루지야
 * 독일
 * 지브롤터
 * 그리스
