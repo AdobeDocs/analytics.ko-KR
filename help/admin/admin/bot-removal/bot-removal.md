@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 세 가지 방법
+exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 translation-type: ht
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '708'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics에서 보트 제거
 
@@ -20,7 +20,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 | 규칙 유형 | 설명 |
 |--- |--- |
-| 표준 IAB 보트 규칙 | **[!UICONTROL IAB 보트 필터링 규칙 사용]**&#x200B;을 선택하면 [IAB](https://www.iab.com/)(International Advertising Bureau) International Spiders &amp; Bots List를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
+| 표준 IAB 보트 규칙 | **[!UICONTROL IAB 보트 필터링 규칙 사용]**&#x200B;을 선택하면 [IAB](https://www.iab.com/) (International Advertising Bureau) International Spiders &amp; Bots List를 사용하여 보트 트래픽을 제거합니다. 대부분의 고객은 최소한 이 옵션을 선택합니다. |
 | 사용자 지정 보트 규칙 | 사용자 에이전트, IP 주소 또는 IP 범위를 기반으로 하여 사용자 지정 보트 규칙을 정의하고 추가할 수 있습니다. |
 
 자세한 내용은 [보트 규칙 개요](/help/admin/admin/bot-removal/bot-rules.md)를 참조하십시오.
@@ -31,7 +31,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ### 1단계: 방문자의 Experience Cloud ID를 새로 선언된 ID에 전달
 
-시작하려면 [사람 핵심 서비스](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
+시작하려면 [사람 핵심 서비스](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ko-KR/launch/using/implement/solutions/idservice-save.html)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -39,7 +39,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-이 데이터 요소가 설정되면 [이 지침](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)에 따라 선언된 ID의 데이터 요소를 Launch의 ECID 도구에 전달합니다.
+이 데이터 요소가 설정되면 [이 지침](https://docs.adobe.com/content/help/ko-KR/launch/using/implement/solutions/idservice-save.html)에 따라 선언된 ID의 데이터 요소를 Launch의 ECID 도구에 전달합니다.
 
 ### 2단계: 세그먼테이션을 사용하여 보트 식별
 
