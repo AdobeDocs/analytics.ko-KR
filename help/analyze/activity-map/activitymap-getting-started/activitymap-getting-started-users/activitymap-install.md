@@ -4,14 +4,14 @@ title: Activity Map 브라우저 플러그인 설치
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 99%
+exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '401'
+ht-degree: 100%
 
 ---
-
 
 # Activity Map 브라우저 플러그인 설치{#install-activity-map-browser-plug-ins}
 
@@ -32,7 +32,7 @@ Activity Map 브라우저 플러그인은
 1. **[!UICONTROL Activity Map 다운로드]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL Activity Map 플러그인 설치]**&#x200B;를 클릭합니다.
 1. 보안 경고에서 Activity Map 브라우저 플러그인을 다운로드할지를 물으면 **[!UICONTROL 예]**&#x200B;라고 답합니다.
-1. 다운로드가 완료되면, .zip 파일의 위치를 찾아 컨텐츠를 압축 해제합니다.
+1. 다운로드가 완료되면, .zip 파일의 위치를 찾아 콘텐츠를 압축 해제합니다.
 1. Chrome의 주소 표시줄로 돌아가서 `chrome://extensions`를 입력합니다.
 1. 개발자 모드 상자를 선택합니다.
 1. 압축을 푼 확장 기능 로드를 클릭하고 팝업에서 압축을 해제한 폴더를 선택합니다.
