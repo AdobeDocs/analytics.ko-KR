@@ -1,15 +1,15 @@
 ---
 title: 변수, 함수, 메서드 및 플러그인 개요
 description: 보고를 개선하기 위해 Adobe에 보내는 데이터에 포함할 수 있는 변수를 알아봅니다.
-keywords: appmeasurement,variables,vars,configuration,page,implementation
+keywords: appmeasurement, 변수, vars, 구성, 페이지, 구현
+exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '318'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
-
 
 # 변수, 함수, 메서드 및 플러그인 개요
 
@@ -35,9 +35,9 @@ Adobe Analytics가 게시한 AppMeasurement 라이브러리는 데이터를 Adob
 
 JavaScript 변수에는 다음 문자와 문자열을 사용할 수 없습니다.
 
-* 탭 (`0x09`)
-* 캐리지 리턴(`0x0D`)
-* 줄바꿈 (`0x0A`)
-* HTML 태그(예:`<b></b>` 또는 `&#153`)
+* 탭  (`0x09`)
+* 캐리지 리턴 (`0x0D`)
+* 줄바꿈  (`0x0A`)
+* HTML 태그 (예:`<b></b>` 또는 `&#153`)
 
 일부 변수에는 추가적인 제한 사항이나 구문 요구 사항이 있습니다. 예를 들어 [`products`](page-vars/products.md) 변수는 세미콜론과 쉼표를 사용하여 제품과 카테고리를 구분합니다.
