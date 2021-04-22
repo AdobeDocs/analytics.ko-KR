@@ -1,20 +1,20 @@
 ---
-title: s_gi()
+title: s_gi ()
 description: AppMeasurement 인스턴스를 생성하고 추적합니다.
+exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
-
 # s_gi
 
 `s_gi()` 함수는 보고서 세트 ID로 AppMeasurement 인스턴스를 인스턴스화하거나 찾습니다. AppMeasurement는 생성된 모든 인스턴스를 추적하고 `s_gi()`는 보고서 세트에 대한 기존 인스턴스가 존재하면 이를 반환합니다. 인스턴스가 존재하지 않는 경우에는 새로운 인스턴스가 생성됩니다.
 
-## Adobe Experience Platform Launch의 s_gi()
+## Adobe Experience Platform Launch의 s_gi ()
 
 Analytics 확장은 추적 개체를 인스턴스화하고 관리합니다. 그러나 Adobe Analytics 확장을 구성할 때 [!UICONTROL 라이브러리 관리] 아코디언에서 전역 추적 개체를 설정할 수도 있습니다.
 
@@ -25,7 +25,7 @@ Analytics 확장은 추적 개체를 인스턴스화하고 관리합니다. 그�
 
 전역 변수 텍스트 필드를 사용하면 사용자 지정 추적 개체를 설정할 수 있습니다. 기본값은 `s`입니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s_gi()
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s_gi ()
 
 추적 개체를 인스턴스화하려면 `s_gi()` 함수를 호출하십시오. 이 함수의 유일한 인수에는 쉼표로 구분된 보고서 세트 ID 문자열이 들어 있습니다. 보고서 세트 ID 인수는 필수입니다.
 
