@@ -2,20 +2,20 @@
 description: 프로젝트에서 사용하기 전에 차원의 상위 값을 봅니다.
 title: 차원 미리 보기
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Workspace Basics
+feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '197'
+exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
 
-
 # 차원 미리 보기
 
-차원 옆에 있는 정보 (i) 아이콘 위에 커서를 놓습니다. 비시간 차원에 대한 상위 5개 값(시간 차원의 경우 15개 값)을 표시합니다. 이러한 값은 정적으로 유지합니다(즉, 선택된 5개 값은 변경되지 않음).
+차원 옆에 있는 정보  (i) 아이콘 위에 커서를 놓습니다. 비시간 차원에 대한 상위 5개 값 (시간 차원의 경우 15개 값)을 표시합니다. 이러한 값은 정적으로 유지합니다 (즉, 선택된 5개 값은 변경되지 않음).
 
 ![](assets/dimension-preview.png)
 
