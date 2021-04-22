@@ -1,20 +1,20 @@
 ---
 title: linkTrackEvents
 description: 링크 추적 이미지 요청에 포함할 이벤트를 결정합니다.
+exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
 ---
 
-
 # linkTrackEvents
 
 일부 구현에서는 모든 링크 추적 이미지 요청에 모든 변수를 포함할 필요가 없습니다. [`tl()`](../functions/tl-method.md) 호출에 차원 및 지표를 선택적으로 포함하려면 [`linkTrackVars`](linktrackvars.md) 및 `linkTrackEvents` 변수를 사용하십시오.
 
-이 변수는 페이지 보기 호출([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
+이 변수는 페이지 보기 호출 ([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
 
 ## Adobe Experience Platform Launch를 사용한 링크 추적 호출의 이벤트
 
@@ -26,11 +26,11 @@ Launch는 인터페이스에 정의된 이벤트를 자동으로 감지하여 �
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkTrackEvents
 
-`s.linkTrackEvents` 변수는 링크 추적 이미지 요청(`tl()` 메서드)에 포함할 쉼표로 구분된 이벤트 목록이 포함된 문자열입니다. 링크 추적 히트에 지표를 포함하려면 다음 세 가지 기준을 충족해야 합니다.
+`s.linkTrackEvents` 변수는 링크 추적 이미지 요청 (`tl()` 메서드)에 포함할 쉼표로 구분된 이벤트 목록이 포함된 문자열입니다. 링크 추적 히트에 지표를 포함하려면 다음 세 가지 기준을 충족해야 합니다.
 
-* [`events`](../page-vars/events/events-overview.md) 변수에서 원하는 이벤트를 설정합니다. (예: `s.events = "event1";`)
-* `linkTrackVars`에서 `events` 변수를 설정합니다. (예: `s.linkTrackVars = "events";`)
-* `linkTrackEvents` 변수에서 원하는 이벤트를 설정합니다. (예: `s.linkTrackEvents = "event1";`)
+* [`events`](../page-vars/events/events-overview.md) 변수에서 원하는 이벤트를 설정합니다.  (예: `s.events = "event1";`)
+* `linkTrackVars`에서 `events` 변수를 설정합니다.  (예: `s.linkTrackVars = "events";`)
+* `linkTrackEvents` 변수에서 원하는 이벤트를 설정합니다.  (예: `s.linkTrackEvents = "event1";`)
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
@@ -40,11 +40,11 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 >[!TIP]
 >
->이 변수에서 이벤트를 지정할 때 Analytics 개체 식별자(`s.`)를 사용하지 마십시오. 예를 들어, `s.linkTrackEvents = "event1";`은 올바르지만 `s.linkTrackEvents = "s.event1";`은 틀립니다.
+>이 변수에서 이벤트를 지정할 때 Analytics 개체 식별자 (`s.`)를 사용하지 마십시오. 예를 들어, `s.linkTrackEvents = "event1";`은 올바르지만 `s.linkTrackEvents = "s.event1";`은 틀립니다.
 
 ## 예
 
-다음 링크 추적 함수에는 Adobe에 전송된 이미지 요청에서 `event1`만(`event2`는 아님) 포함됩니다.
+다음 링크 추적 함수에는 Adobe에 전송된 이미지 요청에서 `event1`만 (`event2`는 아님) 포함됩니다.
 
 ```js
 s.events = "event1,event2";
