@@ -1,14 +1,14 @@
 ---
 title: forceOnline
 description: AppMeasurement의 온라인 상태를 수동으로 설정합니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
-
 
 # forceOnline
 
@@ -24,7 +24,7 @@ AppMeasurement는 장치의 온라인 상태를 자동으로 감지합니다. `f
 
 Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.forceOnline()
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.forceOnline ()
 
 Analytics 개체를 인스턴스화한 후에는 구현의 어느 곳에서든 `s.forceOnline()` 메서드를 호출할 수 있습니다.
 
