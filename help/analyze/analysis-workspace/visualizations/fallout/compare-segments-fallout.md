@@ -1,22 +1,22 @@
 ---
-description: 터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로우를 비교할 수 있습니다.
-keywords: 폴아웃 및 세그멘테이션;폴아웃 분석의 세그먼트;폴아웃의 세그먼트 비교
+description: 터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로를 비교할 수 있습니다.
+keywords: 폴아웃 및 세그먼테이션;폴아웃 분석의 세그먼트;폴아웃의 세그먼트 비교
 title: 폴아웃 분석에서 세그먼트 적용
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 99%
+exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '406'
+ht-degree: 100%
 
 ---
 
-
 # 폴아웃 분석에서 세그먼트 적용
 
-터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로우를 비교할 수 있습니다.
+터치 포인트에서 세그먼트를 만들고, 세그먼트를 터치 포인트로 추가하고, Analysis Workspace의 다양한 세그먼트 간에 주요 워크플로를 비교할 수 있습니다.
 
 >[!IMPORTANT]
 >
