@@ -1,14 +1,14 @@
 ---
 title: campaign
 description: '''추적 코드'' 차원을 채웁니다.'
+exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 translation-type: ht
-source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
 ---
-
 
 # campaign
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch의 캠페인
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 캠페인을 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 캠페인을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
