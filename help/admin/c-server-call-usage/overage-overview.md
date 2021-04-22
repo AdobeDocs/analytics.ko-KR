@@ -2,14 +2,14 @@
 description: Adobe Analytics 서버 호출 사용 기능에 대한 개요.
 title: 서버 호출 사용량 개요
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
+exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1045'
 ht-degree: 100%
 
 ---
-
 
 # 서버 호출 사용량 개요
 
@@ -17,8 +17,8 @@ ht-degree: 100%
 
 Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호출 사용량 데이터에 대한 투명성 요청을 해결합니다. 다음에 액세스할 수 있습니다.
 
-* 서버 호출 사용량 데이터를 추적하고 계약상 한계와 비교하는 서버 호출 사용량 대시보드입니다. (**[!UICONTROL Analytics > 관리 > 서버 호출 사용량]**)
-* 초과 사용을 방지하기 위해 경고를 설정할 수 있는 경고 빌더의 서버 호출 사용량 경고 유형(**[!UICONTROL Analytics > 구성 요소> 경고]**)
+* 서버 호출 사용량 데이터를 추적하고 계약상 한계와 비교하는 서버 호출 사용량 대시보드입니다.  (**[!UICONTROL Analytics > 관리 > 서버 호출 사용량]**)
+* 초과 사용을 방지하기 위해 경고를 설정할 수 있는 경고 빌더의 서버 호출 사용량 경고 유형 (**[!UICONTROL Analytics > 구성 요소> 경고]**)
 
 서버 호출 사용량의 주요 이점은 다음과 같습니다.
 
@@ -46,10 +46,10 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>서버 호출 </p> </td> 
-   <td colname="col2"> <p>서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서, "히트" 또는 "이미지 요청"이라고도 합니다. 가장 일반적인 서버 호출 유형은 페이지 보기입니다. 페이지 보기는 방문자가 웹 사이트에서 페이지를 보고 Adobe로 서버 호출이 생성되며 정보를 수집, 처리한 후 보고서 지표에 포함할 때 발생합니다. </p> <p>데이터를 처리하기 위해 Adobe로 보내지만 새 페이지 보기로 기록되지 않는 종료 링크 및 파일 다운로드 등의 다른 서버 호출 유형이 있습니다. "제외된" 페이지 보기 횟수도(예: IP 주소 범위를 구성하여 보고서에서 제외) Adobe에서 수신 및 처리하지만 보고서에는 표시되지 않기 때문에 호출로 취급됩니다. </p> <p><b>주 서버 호출</b>: 웹 사이트 방문자 브라우저 또는 데이터 삽입 API에서 직접 받은 요청입니다. 기본 방문 횟수(페이지 보기 횟수), 기본 사용자 지정 이벤트, 기본 다운로드 이벤트 및 기본 종료 이벤트를 포함합니다. </p> <p><b>보조 서버 호출</b>: 다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본입니다. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p><b>모바일 기본 서버 호출 </b> </p> <p>Mobile SDK 중 하나에서 직접 받은 요청입니다. trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease를 포함합니다.</p> <p><b>모바일 보조 서버 호출</b> </p> <p>다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p>참고: 계약에 따라 귀사에 모바일 서버 호출(기본 또는 보조)에 대해서만 권한이 부여된 경우 웹과 모바일 특정 사용량은 모두 모바일 특정 약정에 따라 계산됩니다. </p> </td> 
+   <td colname="col2"> <p>서버 호출은 데이터를 처리할 수 있도록 Adobe 서버로 보내는 인스턴스로서, "히트" 또는 "이미지 요청"이라고도 합니다. 가장 일반적인 서버 호출 유형은 페이지 보기입니다. 페이지 보기는 방문자가 웹 사이트에서 페이지를 보고 Adobe로 서버 호출이 생성되며 정보를 수집, 처리한 후 보고서 지표에 포함할 때 발생합니다. </p> <p>데이터를 처리하기 위해 Adobe로 보내지만 새 페이지 보기로 기록되지 않는 종료 링크 및 파일 다운로드 등의 다른 서버 호출 유형이 있습니다. "제외된" 페이지 보기 횟수도 (예: IP 주소 범위를 구성하여 보고서에서 제외) Adobe에서 수신 및 처리하지만 보고서에는 표시되지 않기 때문에 호출로 취급됩니다. </p> <p><b>주 서버 호출</b>: 웹 사이트 방문자 브라우저 또는 데이터 삽입 API에서 직접 받은 요청입니다. 기본 방문 횟수 (페이지 보기 횟수), 기본 사용자 지정 이벤트, 기본 다운로드 이벤트 및 기본 종료 이벤트를 포함합니다. </p> <p><b>보조 서버 호출</b>: 다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본입니다. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p><b>모바일 기본 서버 호출 </b> </p> <p>Mobile SDK 중 하나에서 직접 받은 요청입니다. trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease를 포함합니다.</p> <p><b>모바일 보조 서버 호출</b> </p> <p>다중 세트 태그로 만들었거나 VISTA 규칙으로 복사하고 이동한 주 서버 호출의 사본. 보조 서버 호출이 VISTA 규칙에 따라 다른 보고서 세트로 복사되지 않고 이동되면 누적된 보조 호출은 기본 서버 호출에서 차감됩니다. </p> <p>참고: 계약에 따라 귀사에 모바일 서버 호출 (기본 또는 보조)에 대해서만 권한이 부여된 경우 웹과 모바일 특정 사용량은 모두 모바일 특정 약정에 따라 계산됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>청구 회사(청구 ID) </p> </td> 
+   <td colname="col1"> <p>청구 회사 (청구 ID) </p> </td> 
    <td colname="col2"> <p>서버 호출에 대해 청구되는 법인입니다. 예를 들어, adobe.com이 있습니다. 각 청구 회사에는 청구 고객을 고유하게 식별하는 데 사용되는 청구 ID가 있습니다. 청구 ID는 Experience Cloud Orgs에 연결될 수 있습니다. 조직과 청구 ID 간의 관계가 항상 1:1인 것은 아닙니다. </p> </td> 
   </tr> 
   <tr> 
@@ -64,15 +64,15 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 조직 </p> </td> 
-   <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 단일 사인온을 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>조직은 관리자가 그룹과 사용자를 구성하고, Experience Cloud에서 Single Sign-On을 제어할 수 있도록 하는 항목입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. </p> <p>대부분의 경우 조직은 회사 이름입니다. 그렇지만 한 회사에 여러 조직이 있을 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>서버 호출 약정 </p> </td> 
-   <td colname="col2"> <p>귀사가 Adobe와의 계약에 서명하면 Adobe Sales 팀은 귀사, 고객, 계약 기간 과정에 발생할 것으로 예상되는 서버 호출 유형(기본, 보조, 모바일 기본, 모바일 보조) 및 수와 동일시합니다. 총 서버 호출 약정입니다. </p> </td> 
+   <td colname="col2"> <p>귀사가 Adobe와의 계약에 서명하면 Adobe Sales 팀은 귀사, 고객, 계약 기간 과정에 발생할 것으로 예상되는 서버 호출 유형 (기본, 보조, 모바일 기본, 모바일 보조) 및 수와 동일시합니다. 총 서버 호출 약정입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용 기간 </p> </td> 
-   <td colname="col2"> <p>이 총 서버 호출 약정은 서버 호출 사용량을 모니터링하기 위해 더 작은 사용 기간(예: 3개월)으로 구분되므로 매년 비교하기가 쉽습니다. </p> </td> 
+   <td colname="col2"> <p>이 총 서버 호출 약정은 서버 호출 사용량을 모니터링하기 위해 더 작은 사용 기간 (예: 3개월)으로 구분되므로 매년 비교하기가 쉽습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계약 기간 </p> </td> 
@@ -93,7 +93,7 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 권한 이름 </th> 
-   <th colname="col3" class="entry"> Adobe Analytics(기존 로그인)에 로그인한 경우 권한 부여 </th> 
+   <th colname="col3" class="entry"> Adobe Analytics (기존 로그인)에 로그인한 경우 권한 부여 </th> 
    <th colname="col4" class="entry"> Adobe Experience Cloud에 로그인한 경우 권한 부여 </th> 
   </tr> 
  </thead>
@@ -114,4 +114,3 @@ Adobe Analytics 서버 호출 사용량은 브라우저와 모바일 서버 호�
   </tr> 
  </tbody> 
 </table>
-
