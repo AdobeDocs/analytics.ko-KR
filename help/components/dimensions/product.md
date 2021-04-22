@@ -1,14 +1,14 @@
 ---
 title: 제품
 description: 제품의 이름입니다.
+exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # 제품
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [`products`](/help/implement/vars/page-vars/products.md) 변수에 있는 문자열의 두 번째 부분을 참조합니다. 첫 번째 및 두 번째 세미콜론(`;`) 사이의 문자가 이 차원을 채웁니다.
+이 차원은 [`products`](/help/implement/vars/page-vars/products.md) 변수에 있는 문자열의 두 번째 부분을 참조합니다. 첫 번째 및 두 번째 세미콜론 (`;`) 사이의 문자가 이 차원을 채웁니다.
 
 ## 차원 항목
 
