@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 78%
 
 방문자 마이그레이션을 통해 데이터 수집 도메인을 변경할 때 방문자 식별 쿠키를 보존할 수 있습니다. 데이터 수집 도메인은 다음 이유로 변경될 수 있습니다.
 
-* `2o7.net`에서 `adobedc.net`(으)로 이동하는 중입니다.
+* `2o7.net`에서 `adobedc.net`으로 이동합니다.
 
-* [Experience Cloud 방문자 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 구현하고 있으며 CNAME/퍼스트 파티 데이터 수집 도메인에서 `adobedc.net`, `2o7.net` 또는 `omtrdc.net`(으)로 이동하는 경우
+* [Experience Cloud 방문자 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 구현하고 있으며 CNAME/자사 데이터 수집 도메인에서 `adobedc.net`, `2o7.net` 또는 `omtrdc.net`으로 이동합니다.
 
-* cname/퍼스트 파티 데이터 수집( [퍼스트 파티 쿠키)](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)으로 이동하는 경우
+* cname/자사 데이터 수집 ( [자사 쿠키)](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)으로 이동하는 경우.
 
-* 특정 CNAME에서 다른 CNAME으로 이동하는 경우(도메인 변경)
+* 특정 CNAME에서 다른 CNAME으로 이동하는 경우 (도메인 변경)
 
 방문자 마이그레이션을 구성한 후에 사용자가 방문자 ID 쿠키 없이 새로운 도메인을 방문하면 서버가 이전 데이터 수집 호스트 이름으로 리디렉션하고 사용 가능한 방문자 ID 쿠키를 회수한 다음 다시 새로운 도메인으로 리디렉션합니다. 이전 호스트 이름에서 방문자 ID가 발견되지 않으면 새로운 ID가 생성됩니다. 이것은 방문자당 한 번만 이루어집니다.
 
@@ -42,7 +42,7 @@ ht-degree: 78%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>시작하기:</b> <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html"  >고객 지원 센터에 문의</a>하여 마이그레이션하려는 도메인과 활성화하려는 마이그레이션 기간(30일, 60일 또는 90일)을 알려줍니다. 비보안 및 보안 도메인을 포함하도록 하십시오. </p> </td> 
+   <td colname="col1"> <p> <b>시작하기:</b> <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html"  >고객 지원 센터에 문의</a>하여 마이그레이션하려는 도메인과 활성화하려는 마이그레이션 기간 (30일, 60일 또는 90일)을 알려줍니다. 비보안 및 보안 도메인을 포함하도록 하십시오. </p> </td> 
    <td colname="col3"> <p>마이그레이션할 대상 및 원본 도메인에 대한 <i>exact</i> 구문을 포함한 목록을 작성합니다. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -51,11 +51,11 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>구성 변경 후 6시간 이상</b>: Analytics JavaScript 코드에서 <code> s.trackingServer</code> 및 <code> s.trackingServerSecure</code> 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. </p> </td> 
-   <td colname="col3"> <p>이 변경 작업을 수행한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud 디버거</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
+   <td colname="col3"> <p>이 변경 사항을 적용한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko"> Experience Cloud debugger</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 
-   <td colname="col3"> <p>Use a  <a href="../implement/validate/packet-monitor.md"> 패킷 </a> 모니터링에서 사이트에 처음 액세스하거나 쿠키를 지운 후에 200(OK) HTTP 상태 코드 이전에 2개의 302(리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
+   <td colname="col3"> <p>Use a <a href="../implement/validate/packet-monitor.md"> 패킷 모니터</a>를 사용하여 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200 (OK) HTTP 상태 코드 앞에 두 개의 302 (리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>전체 마이그레이션 기간</b>: 이전 활성 호스트 이름에 대해 DNS 레코드를 유지합니다. </p> </td> 
