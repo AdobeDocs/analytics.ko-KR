@@ -1,17 +1,17 @@
 ---
 description: 조건은 언제 이벤트 기반 규칙이 트리거되는지 결정합니다.
-keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
+keywords: Dynamic Tag Management;규칙;규칙 만들기;새 규칙;이벤트 기반 규칙;링크 활성화 지연;요소에 이벤트 처리기 직접 적용;버블링;이벤트 버블링
 solution: Experience Cloud,Analytics,Target
 title: 이벤트 기반 규칙 조건 만들기
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '433'
+exl-id: b2873d9a-0d57-4cac-b2d4-3c50d8b18cce
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '455'
 ht-degree: 100%
 
 ---
-
 
 # 이벤트 기반 규칙 조건 만들기
 
