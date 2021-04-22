@@ -1,16 +1,16 @@
 ---
 description: 오류가 발생하면 작업 상태 열에 오류가 보고됩니다.
-keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
+keywords: 데이터 피드, 작업, 문제 해결, 오류, ftp, chdir, 연결, 로그인, 넣기
 title: 작업 문제 해결
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
+exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '454'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
-
 
 # 작업 문제 해결
 
@@ -44,7 +44,7 @@ FTP 사이트에 데이터 피드를 표시하는 데 문제가 있는 경우 �
 
 FTP 사이트에 로그인하고 파일을 업로드합니다. 대부분의 경우 이러한 단계를 사용하여 오류 지점을 확인할 수 있습니다.
 
-1. 파일 탐색기(Windows) 또는 Finder(Mac)를 사용하여 FTP 사이트에 로그인합니다. FTP 프로토콜(`ftp://`)을 사용해야 합니다. FTP 사이트에 연결할 수 없는 경우 FTP 사이트 소유자와 함께 올바른 대상을 결정할 수 있습니다.
+1. 파일 탐색기 (Windows) 또는 Finder (Mac)를 사용하여 FTP 사이트에 로그인합니다. FTP 프로토콜 (`ftp://`)을 사용해야 합니다. FTP 사이트에 연결할 수 없는 경우 FTP 사이트 소유자와 함께 올바른 대상을 결정할 수 있습니다.
 
    ![파일 탐색기](assets/file_explorer.png)
 
