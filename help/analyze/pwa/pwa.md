@@ -1,6 +1,6 @@
 ---
 title: Analytics용 PWA
-description: Adobe Analytics용 PWA(Progressive Web App)
+description: Adobe Analytics용 PWA (Progressive Web App)
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 78%
 
 # Adobe Analytics용 PWA
 
-이 페이지는 PWA(Progressive Web App)에서 Adobe Analytics를 사용하는 방법을 설명합니다.
+이 페이지는 PWA (Progressive Web App)에서 Adobe Analytics를 사용하는 방법을 설명합니다.
 
 ## 소개
 
