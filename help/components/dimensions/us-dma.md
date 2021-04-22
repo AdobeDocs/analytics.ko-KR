@@ -1,18 +1,18 @@
 ---
 title: US DMA
-description: 히트의 지정 시장권(DMA)입니다.
+description: 히트의 지정 시장권 (DMA)입니다.
+exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '306'
 ht-degree: 100%
 
 ---
 
-
 # US DMA
 
-US DMA 차원은 방문자의 지정된 시장권(DMA)을 보고합니다. 이 차원은 [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/)이 만든 미디어 시장을 기반으로 합니다.
+US DMA 차원은 방문자의 지정된 시장권 (DMA)을 보고합니다. 이 차원은 [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/)이 만든 미디어 시장을 기반으로 합니다.
 
 ## 이 차원을 데이터로 채우기
 
@@ -31,6 +31,6 @@ US DMA 차원은 방문자의 지정된 시장권(DMA)을 보고합니다. 이 �
 이 차원은 IP 주소를 기반으로 하므로 일부 시나리오는 보고된 위치와 실제 위치 간의 차이를 보여줄 수 있습니다.
 
 * **기업 프록시를 나타내는 IP 주소**: 이러한 방문자는 사용자가 원격으로 근무하는 경우 실제로 다른 위치에 있을 수 있는데 사용자의 기업 네트워크에서 트래픽이 오는 것처럼 보일 수 있습니다.
-* **모바일 IP 주소**: 모바일 IP 타깃팅은 위치와 네트워크에 따라 다양한 수준에서 작동합니다. 이동통신업체 중에는 중앙 또는 지역 거점(point of presence)을 통해 IP 트래픽을 역수송하는 곳도 많습니다.
+* **모바일 IP 주소**: 모바일 IP 타깃팅은 위치와 네트워크에 따라 다양한 수준에서 작동합니다. 이동통신업체 중에는 중앙 또는 지역 거점 (point of presence)을 통해 IP 트래픽을 역수송하는 곳도 많습니다.
 * **위성 ISP 사용자**: 이러한 사용자는 보통 업링크 위치에서 오는 것처럼 표시되므로 구체적인 위치를 식별하기가 어렵습니다.
 * **군대 및 정부 IP**: 세계 각지를 다니며 현재 배치되어 있는 기지나 사무실 대신 홈 위치를 통해 시작하는 사람을 나타냅니다.
