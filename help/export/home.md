@@ -1,14 +1,14 @@
 ---
 title: Analytics 내보내기 안내서
-description: 이 안내서에서는 데이터 피드 및 Data Warehouse을 사용하여 Adobe Analytics에서 데이터를 내보내는 방법을 간략하게 설명합니다.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+description: 이 안내서에서는 데이터 피드 및 Data Warehouse를 사용하여 Adobe Analytics에서 데이터를 가져오는 방법에 대해 설명합니다.
+exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
-
 
 # Analytics 내보내기 안내서
 
