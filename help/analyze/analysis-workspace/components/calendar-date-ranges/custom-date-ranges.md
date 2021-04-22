@@ -3,16 +3,16 @@ description: Analysis Workspace에서 사용자 지정 날짜 범위를 만든 �
 keywords: Analysis Workspace
 title: 사용자 지정 날짜 범위 만들기
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Workspace Basics
+feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '253'
+exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
-
 
 # 사용자 지정 날짜 범위 만들기
 
@@ -46,7 +46,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/create_date_range.png)
 
-Use *`rolling daily`*.
+ *`rolling daily`*.
 
 * 시작 설정은 *`current day minus 14 days`*.
 
