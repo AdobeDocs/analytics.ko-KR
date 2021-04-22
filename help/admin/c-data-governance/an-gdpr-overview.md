@@ -2,14 +2,14 @@
 description: 이 문서에서는 데이터 주체의 GDPR 액세스 및 삭제 권한을 지원하기 위해 Adobe Analytics에서 수행해야 하는 작업에 대해 설명합니다.
 title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '629'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 및 GDPR
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >
 >이 문서의 내용은 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. GDPR에 대한 자세한 내용은 회사의 법무 부서에 문의하십시오.
 
-2018년 5월 25일에 유럽 연합의 GDPR(General Data Protection Regulation)가 발효되었습니다. Adobe의 대응 및 Adobe 고객에게 GDPR이 의미하는 바에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html)를 참조하십시오.
+2018년 5월 25일에 유럽 연합의 GDPR (General Data Protection Regulation)가 발효되었습니다. Adobe의 대응 및 Adobe 고객에게 GDPR이 의미하는 바에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html)를 참조하십시오.
 
-Adobe에서는 기업에 소프트웨어 및 서비스를 제공할 때 서비스 제공의 일부로 고객을 대신하여 수신 및 저장하는 개인 데이터에 대한 데이터 처리자 역할을 합니다. Adobe는 데이터 처리자로서 귀사의 허가 및 지침(예: Adobe와의 계약에 명시된 내용)에 따라 개인 데이터를 처리합니다.
+Adobe에서는 기업에 소프트웨어 및 서비스를 제공할 때 서비스 제공의 일부로 고객을 대신하여 수신 및 저장하는 개인 데이터에 대한 데이터 처리자 역할을 합니다. Adobe는 데이터 처리자로서 귀사의 허가 및 지침 (예: Adobe와의 계약에 명시된 내용)에 따라 개인 데이터를 처리합니다.
 
 귀하는 데이터 제어자로서 Adobe가 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다. Adobe Experience Cloud 솔루션을 사용하는 경우 Adobe에서는 사용자가 사용하는 솔루션 및 Adobe Experience Cloud 계정에 전송하기 위해 선택한 정보에 따라 개인 데이터를 호스팅할 수 있습니다. 예제 목록은 [Adobe Experience Cloud 개인 정보](https://www.adobe.com/privacy/marketing-cloud.html#collect)를 참조하십시오.
 
@@ -31,7 +31,7 @@ Adobe에서는 기업에 소프트웨어 및 서비스를 제공할 때 서비�
 
 ## Adobe에서 GDPR 데이터를 처리하는 방법 {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-ACP(Adobe Cloud Platform)는 사용자 브랜드의 데이터 거버넌스 인프라와 이 인프라가 소비자 경험을 생성하고 관리하는 데 사용하는 Adobe 도구를 연결하는 통합 솔루션을 제공합니다. Adobe Cloud Platform의 데이터 거버넌스 기능을 사용하면 데이터 거버넌스 정책을 데이터 사용에 직접 연결할 수 있습니다.
+ACP (Adobe Cloud Platform)는 사용자 브랜드의 데이터 거버넌스 인프라와 이 인프라가 소비자 경험을 생성하고 관리하는 데 사용하는 Adobe 도구를 연결하는 통합 솔루션을 제공합니다. Adobe Cloud Platform의 데이터 거버넌스 기능을 사용하면 데이터 거버넌스 정책을 데이터 사용에 직접 연결할 수 있습니다.
 
 GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에 대해 나와 있는 [Adobe Analytics에서 GDPR을 처리하는 방법](https://www.adobe.com/kr/data-analytics-cloud/analytics/general-data-protection-regulation.html)을 숙지하십시오.
 
