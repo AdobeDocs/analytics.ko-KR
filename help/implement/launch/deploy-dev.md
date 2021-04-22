@@ -1,14 +1,14 @@
 ---
 title: 개발 환경에 Adobe Analytics 배포
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
+exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 translation-type: ht
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '548'
 ht-degree: 100%
 
 ---
-
 
 # 개발 환경에 Analytics 구현 배포
 
@@ -20,7 +20,7 @@ Launch에서 속성을 만들고 구성했으면 사이트에 라이브러리를
 
 ## 어댑터 및 환경 만들기
 
-Launch는 코드를 배포할 때 여러 조직의 워크플로우를 포함합니다. 다음 단계에 따라 Analytics 구현에 필요한 최소 구성 요소를 만듭니다. Launch 관리자는 조직 내에서 Adobe 솔루션을 배포하기 위해 올바른 워크플로우를 설정할 수 있습니다.
+Launch는 코드를 배포할 때 여러 조직의 워크플로를 포함합니다. 다음 단계에 따라 Analytics 구현에 필요한 최소 구성 요소를 만듭니다. Launch 관리자는 조직 내에서 Adobe 솔루션을 배포하기 위해 올바른 워크플로를 설정할 수 있습니다.
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
 2. 사이트에서 구현할 Launch 속성을 클릭합니다.
@@ -41,13 +41,13 @@ Launch는 코드를 배포할 때 여러 조직의 워크플로우를 포함합�
 4. 라이브러리 이름을 &#39;Initial changes&#39;로 지정하고 개발 환경을 선택합니다.
 5. Adobe Analytics, ID 서비스 및 핵심을 자동으로 나열하는 변경된 모든 리소스 추가를 클릭합니다.
 6. 저장을 클릭합니다.
-7. 게시 워크플로우 화면으로 돌아가서 새 라이브러리 옆에 있는 드롭다운을 클릭하고 개발용 빌드를 클릭합니다. 잠시 후에 라이브러리에 있는 노란색 점이 성공적으로 빌드되었음을 나타내는 녹색으로 바뀝니다.
+7. 게시 워크플로 화면으로 돌아가서 새 라이브러리 옆에 있는 드롭다운을 클릭하고 개발용 빌드를 클릭합니다. 잠시 후에 라이브러리에 있는 노란색 점이 성공적으로 빌드되었음을 나타내는 녹색으로 바뀝니다.
 8. 환경 탭으로 이동한 다음 개발 환경을 클릭합니다.
 9. Launch 설치 아래에서 코드 블록을 복사하여 조직의 웹 사이트 소유자에게 제공합니다.
 
 ## 웹 사이트의 개발 환경에 Launch 설치
 
-웹 사이트의 코드를 제어하는 경우 사이트의 모든 페이지에서 해당 위치(`<head>` 태그와 `</body>` 닫기 태그 바로 위)에 두 개의 코드 블록을 구현합니다. 이 코드는 일반적으로 사이트의 아주 중요한 템플릿에 배치됩니다. 구현 코드가 포함된 빈 페이지 모양은 다음과 같습니다.
+웹 사이트의 코드를 제어하는 경우 사이트의 모든 페이지에서 해당 위치 (`<head>` 태그와 `</body>` 닫기 태그 바로 위)에 두 개의 코드 블록을 구현합니다. 이 코드는 일반적으로 사이트의 아주 중요한 템플릿에 배치됩니다. 구현 코드가 포함된 빈 페이지 모양은 다음과 같습니다.
 
 ```html
 <!doctype html>
@@ -72,7 +72,7 @@ Launch는 코드를 배포할 때 여러 조직의 워크플로우를 포함합�
 
 ## 문서 및 추가 리소스
 
-- [Launch 시작하기](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html): Launch의 기본 워크플로우를 알아봅니다.
+- [Launch 시작하기](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html): Launch의 기본 워크플로를 알아봅니다.
 - [Launch 게시](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html): 게시 및 환경에 대해 자세히 알아봅니다.
 
 ## 다음 단계
