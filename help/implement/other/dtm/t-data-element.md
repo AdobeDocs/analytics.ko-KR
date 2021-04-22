@@ -1,17 +1,17 @@
 ---
 description: Dynamic Tag Management에서 데이터 요소를 만듭니다.
-keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+keywords: Dynamic Tag Management;데이터 요소;새 데이터 요소 만들기;이름;유형;기본값;소문자 값 적용;다음 기간 동안 이 값 기억
 solution: Experience Cloud,Analytics,Target
 title: 데이터 요소 만들기
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '331'
+exl-id: 6831c2a3-226c-4dd1-93c2-221983c07694
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # 데이터 요소 만들기
 
