@@ -34,7 +34,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai </p> </td> 
-   <td colname="col2"> <p> 가장 간단히 구현할 수 있는 호스팅 옵션입니다. </p> <p>글로벌하게 분산된 게재 네트워크입니다. </p> <p>추가적인 타사 인프라 종속성(DNS 조회, Akamai 가용성)을 추가합니다. </p> <p>자세한 내용은 Dynamic Tag Management 제품 설명서에서 <a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/deployment.html#concept_722B01555D0441ACBB052BC34DC5B67D">Akamai</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 가장 간단히 구현할 수 있는 호스팅 옵션입니다. </p> <p>글로벌하게 분산된 게재 네트워크입니다. </p> <p>추가적인 타사 인프라 종속성 (DNS 조회, Akamai 가용성)을 추가합니다. </p> <p>자세한 내용은 Dynamic Tag Management 제품 설명서에서 <a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/deployment.html#concept_722B01555D0441ACBB052BC34DC5B67D">Akamai</a>를 참조하십시오. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_EF148EF091A645B3962B084963B3C0B0"> 
      <li id="li_7ECE0C331EEE4907A563D581DF1DFEFE">Dynamic Tag Management는 사용자 지정 JavaScript 라이브러리를 생성합니다. </li> 
@@ -55,12 +55,12 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> 자체 호스팅: 라이브러리 다운로드 </td> 
    <td colname="col2"> <p>애플리케이션에서 사용자 지정 JavaScript 라이브러리
-     <!-- to Amazon S3-->를 내보내는 <span class="term">가져오기</span> 방식입니다. 여기에서 라이브러리는 호스팅되는 서버 측 프로세스로 액세스할 수 있습니다. </p> <p>또한 라이브러리는 Dynamic Tag Management 인터페이스에서 바로 웹 다운로드를 통해 사용할 수 있습니다. </p> <p>이 솔루션에서는 Dynamic Tag Management 라이브러리를 수동으로 검색하고 게시하거나, Akamai에서 웹 컨텐츠 서버로 라이브러리를 가져오는 자동화된 프로세스를 만들어야 합니다. </p> <p>이 접근 방식은 설정하는 데 시간이 가장 오래 걸리지만 가장 안전하고 유연한 옵션이기도 합니다. </p> <p>최신 버전의 라이브러리 파일을 참조하는지 확인하려면 명령을 사용합니다. </p> <p>자세한 내용은 Dynamic Tag Management 제품 설명서에서 <a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/deployment.html#task_B7A42F3B1D3E4B71B0BADD17C181F22A">라이브러리 다운로드</a>를 참조하십시오. </p> </td> 
+     <!-- to Amazon S3-->를 내보내는 <span class="term">가져오기</span> 방식입니다. 여기에서 라이브러리는 호스팅되는 서버 측 프로세스로 액세스할 수 있습니다. </p> <p>또한 라이브러리는 Dynamic Tag Management 인터페이스에서 바로 웹 다운로드를 통해 사용할 수 있습니다. </p> <p>이 솔루션에서는 Dynamic Tag Management 라이브러리를 수동으로 검색하고 게시하거나, Akamai에서 웹 콘텐츠 서버로 라이브러리를 가져오는 자동화된 프로세스를 만들어야 합니다. </p> <p>이 접근 방식은 설정하는 데 시간이 가장 오래 걸리지만 가장 안전하고 유연한 옵션이기도 합니다. </p> <p>최신 버전의 라이브러리 파일을 참조하는지 확인하려면 명령을 사용합니다. </p> <p>자세한 내용은 Dynamic Tag Management 제품 설명서에서 <a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/deployment.html#task_B7A42F3B1D3E4B71B0BADD17C181F22A">라이브러리 다운로드</a>를 참조하십시오. </p> </td> 
    <td colname="col3"> 
     <ol id="ol_F40B721306FE473496BD657262DFD585"> 
      <li id="li_4EA4D6B555CE4E9CA476C7550C18C061">Dynamic Tag Management는 사용자 지정 JavaScript 라이브러리를 생성합니다. </li> 
      <li id="li_BA40EBD7AD1546F29D8A209034D06477">Dynamic Tag Management는 사용자 지정 JavaScript 라이브러리를 Akamai로 내보냅니다. </li> 
-     <li id="li_E107E69E386A40F3B067F9991C2979AF">사용자 지정 Dynamic Tag Management 라이브러리는 수동으로 또는 프로그래밍 방식으로 웹 컨텐츠 서버로 이동됩니다. </li> 
+     <li id="li_E107E69E386A40F3B067F9991C2979AF">사용자 지정 Dynamic Tag Management 라이브러리는 수동으로 또는 프로그래밍 방식으로 웹 콘텐츠 서버로 이동됩니다. </li> 
      <li id="li_0809038453B544168A20CE09D7E5AC59">타겟 웹 사이트는 사용자 지정 Dynamic Tag Management 라이브러리를 로컬로 참조합니다. </li> 
     </ol> </td> 
   </tr> 
