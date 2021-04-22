@@ -1,20 +1,20 @@
 ---
 title: 동적 계정 개요
-description: H 코드를 사용하여 보고서 세트를 동적으로 선택하는 방법에 대한 워크플로우에 대해 알아봅니다.
+description: H 코드를 사용하여 보고서 세트를 동적으로 선택하는 방법에 대한 워크플로에 대해 알아봅니다.
+exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
 ---
 
-
 # 동적 계정 개요
 
 >[!IMPORTANT]
 >
-> 동적 계정은 이전 JavaScript 구현(H 코드)을 사용해야만 지원됩니다. 이러한 변수는 현재 AppMeasurement 라이브러리 또는 Adobe Experience Platform Launch에서 지원되지 않습니다.
+> 동적 계정은 이전 JavaScript 구현 (H 코드)을 사용해야만 지원됩니다. 이러한 변수는 현재 AppMeasurement 라이브러리 또는 Adobe Experience Platform Launch에서 지원되지 않습니다.
 
 동적 계정은 사용자가 정의한 기준에 따라 사용할 보고서 세트를 결정할 수 있도록 해주는 구현 기능입니다. 조직에서 두 개 이상의 보고서 세트를 필요로 하지만 사이트 간에 동일한 구현을 사용하고자 하는 경우 동적 계정을 사용하는 것이 좋습니다.
 
