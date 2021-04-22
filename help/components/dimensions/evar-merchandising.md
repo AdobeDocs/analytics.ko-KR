@@ -1,16 +1,16 @@
 ---
-title: eVar(머천다이징)
+title: eVar (머천다이징)
 description: 제품 차원에 연결된 사용자 지정 변수입니다.
+exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
 ---
 
-
-# eVar(머천다이징)
+# eVar (머천다이징)
 
 *이 도움말 페이지에서는 머천다이징 eVar가 차원으로 작동하는 방식을 설명합니다. 머천다이징 eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ![코트 예](assets/merch-example-coat.png)
 
-방문자가 이 구매를 완료하면, 고글 구매가 반영된 `"winter coat"`에 대한 내부 검색이 이루어집니다(eVar가 &#39;가장 최근 항목&#39;의 기본 할당을 사용한다고 가정). 이는 `"winter coat"`에는 좋지만 마케팅 의사 결정에는 적합하지 않습니다.
+방문자가 이 구매를 완료하면, 고글 구매가 반영된 `"winter coat"`에 대한 내부 검색이 이루어집니다 (eVar가 &#39;가장 최근 항목&#39;의 기본 할당을 사용한다고 가정). 이는 `"winter coat"`에는 좋지만 마케팅 의사 결정에는 적합하지 않습니다.
 
 | 내부 검색어 | 수입  |
 |---|---|
