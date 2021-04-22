@@ -2,20 +2,20 @@
 description: 세 가지 제품 호환성 옵션에 대해 설명합니다.
 title: 지표 호환성
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
+exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
 ---
 
-
 # 지표 호환성
 
 세 가지 제품 호환성 옵션에 대해 설명합니다.
 
-[계산된 지표 빌더]에서 [계산된 지표] 또는 [고급 계산 지표]를 만들면, 지표가 하나 이상의 옵션(현재 데이터, 완전히 처리된 데이터 또는 마케팅 채널 보고서)과 호환하는 것으로 표시됩니다.
+[계산된 지표 빌더]에서 [계산된 지표] 또는 [고급 계산 지표]를 만들면, 지표가 하나 이상의 옵션 (현재 데이터, 완전히 처리된 데이터 또는 마케팅 채널 보고서)과 호환하는 것으로 표시됩니다.
 
 <table id="table_DF7F6D55467B4B76AC34026465D44F7A"> 
  <thead> 
@@ -39,4 +39,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
