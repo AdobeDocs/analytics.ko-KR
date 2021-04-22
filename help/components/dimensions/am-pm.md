@@ -1,14 +1,14 @@
 ---
 title: 오전/오후
 description: 히트가 오전과 오후 중 언제 발생했는지를 확인합니다.
+exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # 오전/오후
 
