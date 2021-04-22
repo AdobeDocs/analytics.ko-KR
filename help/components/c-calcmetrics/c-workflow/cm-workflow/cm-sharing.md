@@ -2,11 +2,14 @@
 description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용자와 지표를 공유할 수 있습니다.
 title: 계산된 지표 공유
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
-
 
 # 계산된 지표 공유
 
@@ -31,11 +34,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/cm_share.png)
 
-   관리자는 **[!UICONTROL 모두]**&#x200B;를 선택하거나 조직의 **[!UICONTROL 그룹]** 및 (아래로 스크롤하여)**[!UICONTROL 사용자]**&#x200B;에서 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. **[!UICONTROL 검색]** 필드를 사용하여 그룹 또는 사용자를 검색합니다.
+   관리자는 **[!UICONTROL 모두]**&#x200B;를 선택하거나 조직의 **[!UICONTROL 그룹]** 및  (아래로 스크롤하여)**[!UICONTROL 사용자]**&#x200B;에서 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. **[!UICONTROL 검색]** 필드를 사용하여 그룹 또는 사용자를 검색합니다.
 
 1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
    지표 옆에 공유 아이콘이 표시됩니다.![](assets/share_icon.png)
 
 1. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 지표를 필터링할 수 있습니다.
-
