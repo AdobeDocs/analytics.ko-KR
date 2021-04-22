@@ -2,20 +2,20 @@
 description: 경고 관리.
 title: 경고 관리자
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
+exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
-
 # 경고 관리자
 
 ![](assets/alert-manager.png)
 
-경고 관리자(**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) 및 [계산된 지표 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해 줍니다.
+경고 관리자 (**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) 및 [계산된 지표 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해 줍니다.
 
 ![](assets/alert-manager-tasks.png)
 
@@ -34,4 +34,3 @@ ht-degree: 100%
 * 경고 소유자 지정/변경
 * 다른 필터 추가
 * 경고 **만료 날짜** 정의
-
