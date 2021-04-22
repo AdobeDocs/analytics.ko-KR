@@ -1,14 +1,14 @@
 ---
 title: pageUrl
 description: 사이트에서 자동으로 수집된 페이지 URL을 무시합니다.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
-
 
 # pageUrl
 
@@ -16,11 +16,11 @@ AppMeasurement는 각 히트에서 페이지 URL을 자동으로 수집합니다
 
 >[!NOTE]
 >
->이 변수는 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. 이 변수는 Data Warehouse 및 데이터 피드에서만 사용할 수 있습니다. 또한 Adobe 데이터 수집 서버는 모든 [링크 추적 이미지 요청에서 이 차원을](/help/implement/vars/functions/tl-method.md) 제거합니다. 페이지 URL을 Analysis Workspace에서 차원으로 사용하거나 링크 추적 히트에서 이 차원을 원하는 경우 모든 히트에서 `pageURL` 변수를 [eVar](evar.md) 로 전달하는 것이 좋습니다.
+>이 변수는 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. 이 변수는 Data Warehouse 및 데이터 피드에서만 사용할 수 있습니다. 또한 Adobe 데이터 수집 서버는 모든 [링크 추적](/help/implement/vars/functions/tl-method.md) 이미지 요청에서 이 차원을 제거합니다. 페이지 URL을 Analysis Workspace에서 차원으로 사용하거나 링크 추적 히트에 이 차원을 사용하려는 경우 모든 히트에서 `pageURL` 변수를 [eVar](evar.md)에 전달하는 것이 좋습니다.
 
 ## Adobe Experience Platform Launch의 페이지 URL
 
-Launch는 페이지 URL을 자동으로 채웁니다. 하지만 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 페이지 URL 무시를 설정할 수 있습니다.
+Launch는 페이지 URL을 자동으로 채웁니다. 하지만 Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 페이지 URL 무시를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
@@ -46,7 +46,7 @@ s.pageURL = "https://example.com";
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-`digitalData` 데이터 [레이어를 사용하는 경우](../../prepare/data-layer.md):
+`digitalData` [데이터 레이어](../../prepare/data-layer.md)를 사용하는 경우:
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;
