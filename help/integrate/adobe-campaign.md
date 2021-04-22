@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics에서 Adobe Campaign 보고를 활성화하는 방법 살펴보기
 title: Adobe Campaign 보고를 Adobe Analytics에 통합하려면 어떻게 합니까?
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 translation-type: ht
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign 보고
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Analytics와 Adobe Campaign을 통합하면
 
-* KPI(핵심 성능 지표) 데이터를 Adobe Campaign Standard에서 Adobe Analytics에 공유할 수 있습니다.
+* KPI (핵심 성능 지표) 데이터를 Adobe Campaign Standard에서 Adobe Analytics에 공유할 수 있습니다.
 * Adobe Analytics 매개 변수를 사용하는 수식 추적 기능이 향상됩니다.
 * **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL Adobe Campaign]** 아래에 새 보고서가 추가됩니다.
 * 5개의 새로운 Adobe Campaign 분류가 추가됩니다.
@@ -47,11 +47,11 @@ Adobe Campaign Standard와 Adobe Analytics를 통합하면 **[!UICONTROL Analyti
 
 보고서 세트가 Adobe Campaign에 대해 활성화되면 다음의 분류를 사용할 수 있습니다.
 
-* 배달 ID(Campaign에 표시되는 내부 배달 이름)
-* 배달 레이블((Campaign의 배달 - 개별 배달/반복 배달/트랜잭션 배달)
-* 캠페인 ID(Campaign에 표시되는 내부 캠페인 이름)
-* 캠페인 레이블(Adobe Campaign의 캠페인)
-* 수행된 배달 레이블(개별 수행된 배달 목록)
+* 배달 ID (Campaign에 표시되는 내부 배달 이름)
+* 배달 레이블 ( (Campaign의 배달 - 개별 배달/반복 배달/트랜잭션 배달)
+* 캠페인 ID (Campaign에 표시되는 내부 캠페인 이름)
+* 캠페인 레이블 (Adobe Campaign의 캠페인)
+* 수행된 배달 레이블 (개별 수행된 배달 목록)
 
 ## Adobe Analytics에서 사용할 수 있는 Adobe Campaign 차원 및 지표 {#section_F33385C9660644AF84172EC39601469B}
 
@@ -74,7 +74,7 @@ Adobe Analytics 보고서 세트의 Campaign에서 다음 **차원**&#x200B;을 
 |--- |--- |
 | 캠페인 ID | 기간 동안 KPI가 전송된 모든 캠페인의 ID |
 | 캠페인 레이블 | 캠페인 ID의 레이블 |
-| 배달 ID | 기간 동안 KPI가 전송된 모든 배달의 ID. 반복 배달 및 트랜잭션 배달에 대한 마스터 배달의 ID도 포함합니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다.  배달 ID는 모든 배달(DM1~DM5)의 결과를 표시합니다. |
+| 배달 ID | 기간 동안 KPI가 전송된 모든 배달의 ID. 반복 배달 및 트랜잭션 배달에 대한 마스터 배달의 ID도 포함합니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다.  배달 ID는 모든 배달 (DM1~DM5)의 결과를 표시합니다. |
 | 배달 레이블 | 배달 ID의 레이블 |
-| 수행된 배달 ID | 수행된 배달 전용 ID입니다. 반복/트랜잭션 마스터 배달의 ID가 없습니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다. 수행된 배달 ID는 DM2에서 DM5로 시작하는 모든 배달(실제로 수행된 배달)의 결과를 표시합니다. |
+| 수행된 배달 ID | 수행된 배달 전용 ID입니다. 반복/트랜잭션 마스터 배달의 ID가 없습니다. 예: 반복 배달 DM1이 예약되었으며 DM2, DM3, DM4 및 DM5는 반복 배달의 하위 배달입니다. 수행된 배달 ID는 DM2에서 DM5로 시작하는 모든 배달 (실제로 수행된 배달)의 결과를 표시합니다. |
 | 수행된 배달 레이블 | 수행된 배달 ID의 레이블 |
