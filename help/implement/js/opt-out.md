@@ -1,14 +1,14 @@
 ---
 title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # 구현 옵트아웃 링크
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:
 
-* 타사 쿠키: `https://example.data.adobedc.net/optout.html`
+* 서드파티 쿠키: `https://example.data.adobedc.net/optout.html`
 * 자사 쿠키: `https://stats.example.com/optout.html`
 
 ## 옵트아웃 쿼리 문자열 매개 변수
@@ -55,28 +55,28 @@ ht-degree: 100%
 
 `locale` 쿼리 문자열 매개 변수를 포함하여 옵트아웃 페이지의 언어를 자동으로 전환하십시오. 이 쿼리 문자열 매개 변수는 다음 값 중 하나를 지정합니다.
 
-* en_US(영어, 기본값)
-* bg_BG(불가리아어)
-* zh_CN(중국어 간체)
-* zh_TW(중국어 번체)
-* cs_CZ(체코어)
-* da_NK(덴마크어)
-* nl_NL(네덜란드어)
-* et_EE(에스토니아어)
-* fi_FI(핀란드어)
-* fr_FR(프랑스어)
-* de_DE(독일어)
-* el_GR(그리스어)
-* it_IT(이탈리아어)
-* jp_JP(일본어)
-* ko_KR(한국어)
-* lv_LV(라트비아어)
-* lt_LT(리투아니아어)
-* nb_NO(노르웨이어)
-* pl_PL(폴란드어)
-* pt_BR(포르투갈어)
-* sk_SK(슬로바키아어)
-* es_ES(스페인어)
+* en_US (영어, 기본값)
+* bg_BG (불가리아어)
+* zh_CN (중국어 간체)
+* zh_TW (중국어 번체)
+* cs_CZ (체코어)
+* da_NK (덴마크어)
+* nl_NL (네덜란드어)
+* et_EE (에스토니아어)
+* fi_FI (핀란드어)
+* fr_FR (프랑스어)
+* de_DE (독일어)
+* el_GR (그리스어)
+* it_IT (이탈리아어)
+* jp_JP (일본어)
+* ko_KR (한국어)
+* lv_LV (라트비아어)
+* lt_LT (리투아니아어)
+* nb_NO (노르웨이어)
+* pl_PL (폴란드어)
+* pt_BR (포르투갈어)
+* sk_SK (슬로바키아어)
+* es_ES (스페인어)
 
 예를 들어 `https://example.data.adobedc.net/optout.html?locale=ko_KR`은 옵트아웃 페이지를 한국어로 로드합니다.
 
@@ -96,12 +96,12 @@ ht-degree: 100%
 
 ### 옵트아웃 한 번 클릭
 
-이렇게 하면 사용자가 즉시 추적을 그만둘 수 있습니다(옵트아웃). 두 쿼리 문자열 매개 변수 `opt_out` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
+이렇게 하면 사용자가 즉시 추적을 그만둘 수 있습니다 (옵트아웃). 두 쿼리 문자열 매개 변수 `opt_out` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
 
 예를 들어 `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1`은 방문자의 페이지에 옵트아웃 쿠키를 즉시 설치합니다.
 
 ### 옵트인 한 번 클릭
 
-이렇게 하면 사용자가 옵트아웃 쿠키를 삭제하여 즉시 추적을 다시 수행할 수 있습니다(옵트인). 두 쿼리 문자열 매개 변수 `opt_in` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
+이렇게 하면 사용자가 옵트아웃 쿠키를 삭제하여 즉시 추적을 다시 수행할 수 있습니다 (옵트인). 두 쿼리 문자열 매개 변수 `opt_in` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
 
 예를 들어 `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1`은 방문자에 대한 옵트아웃 쿠키를 즉시 삭제합니다.
