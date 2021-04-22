@@ -1,5 +1,5 @@
 ---
-description: 보고서 세트 이름 옆에 있는 i(정보) 아이콘을 클릭하여 보고서 세트에 대한 정보를 얻습니다.
+description: 보고서 세트 이름 옆에 있는 i (정보) 아이콘을 클릭하여 보고서 세트에 대한 정보를 얻습니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 정보 보기
 feature: Reports & Analytics 기본 사항
