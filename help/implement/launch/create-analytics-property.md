@@ -1,18 +1,18 @@
 ---
 title: Launch에서 Analytics 속성 만들기
 description: Adobe Experience Platform Launch를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
+exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 translation-type: ht
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
 ---
 
-
 # Adobe Experience Platform Launch에서 Analytics 속성 만들기
 
-Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experience Cloud 솔루션을 통합하는 데 사용할 수 있는 도구입니다. 이 페이지에서는 Launch 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
+Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Experience Cloud 솔루션을 통합하는 데 사용할 수 있는 도구입니다. 이 페이지에서는 Launch 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
 
 ## 전제 조건
 
@@ -61,8 +61,8 @@ Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experi
 1. **[!UICONTROL 새 규칙 만들기]**&#x200B;를 클릭하고 이름을 `Global Rule`로 지정합니다.
 1. 이벤트 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭하고 다음 설정을 입력합니다.
    * 확장: 핵심
-   * 이벤트 유형: 라이브러리가 로드됨(페이지 상단)
-   * 이름: 핵심 - 라이브러리가 로드됨(페이지 상단)
+   * 이벤트 유형: 라이브러리가 로드됨 (페이지 상단)
+   * 이름: 핵심 - 라이브러리가 로드됨 (페이지 상단)
    * 주문: 50
 1. **[!UICONTROL 변경사항 유지]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 작업]**&#x200B;에서 **[!UICONTROL 추가]**&#x200B;를 클릭하고 다음 설정을 입력합니다.
@@ -75,7 +75,7 @@ Adobe Experience Platform Launch는 웹 사이트(Analytics 포함)에서 Experi
    * 확장: Adobe Analytics
    * 작업 유형: 비콘 전송
    * 이름: Adobe Analytics - 비콘 전송
-   * 추적: s.t()
+   * 추적: s.t ()
 1. **[!UICONTROL 변경사항 유지]**&#x200B;를 클릭합니다.
 1. 이벤트와 두 작업을 설정했는지 확인한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
