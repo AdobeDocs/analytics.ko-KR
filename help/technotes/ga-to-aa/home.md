@@ -1,18 +1,18 @@
 ---
 title: 타사 분석 플랫폼에서 Adobe Analytics로 전환
 description: Google Analytics 같은 다른 플랫폼에 익숙한 사용자에 초점을 맞춰, 보고서를 얻기 위한 주요 개념을 알아봅니다.
+exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 translation-type: ht
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
 ---
 
-
 # 타사 분석 플랫폼에서 Adobe Analytics로 전환
 
-이 안내서에서는 Adobe 도구와 많이 사용되는 다른 도구의 주요 유사성 및 차이점을 중심으로, Adobe Analytics의 핵심 개념과 워크플로우를 학습하는 데 도움이 되는 일반적인 보고서 유형을 제공합니다. 이 안내서는 기본 디지털 분석 개념에 익숙하지만 Adobe Analytics를 처음 사용하는 분석가를 위해 마련되었습니다. 이 안내서에서는 조직에서 Adobe 데이터 수집 서버로 데이터를 전송하는 구현을 현재 운영 중이라고 가정합니다. 조직에서 아직 Adobe Analytics 구현을 설정하지 않은 경우 [Adobe Analytics 첫 번째 관리 안내서](/help/admin/admin-console/first-admin-guide.md)로 시작하십시오.
+이 안내서에서는 Adobe 도구와 많이 사용되는 다른 도구의 주요 유사성 및 차이점을 중심으로, Adobe Analytics의 핵심 개념과 워크플로를 학습하는 데 도움이 되는 일반적인 보고서 유형을 제공합니다. 이 안내서는 기본 디지털 분석 개념에 익숙하지만 Adobe Analytics를 처음 사용하는 분석가를 위해 마련되었습니다. 이 안내서에서는 조직에서 Adobe 데이터 수집 서버로 데이터를 전송하는 구현을 현재 운영 중이라고 가정합니다. 조직에서 아직 Adobe Analytics 구현을 설정하지 않은 경우 [Adobe Analytics 첫 번째 관리 안내서](/help/admin/admin-console/first-admin-guide.md)로 시작하십시오.
 
 Google Analytics와 Adobe Analytics는 모두 웹 사이트 성능에 대한 중요한 통찰력을 얻을 수 있는 강력한 플랫폼입니다. 각 플랫폼에는 고유한 이점을 가진 자체 처리 아키텍처와 사용자 인터페이스가 있습니다. 이 안내서는 Google Analytics 사용 경험이 있는 사용자가 Adobe Analytics를 습득하는 데 도움을 주기 위해 설계되었습니다.
 
