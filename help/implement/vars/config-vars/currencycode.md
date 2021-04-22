@@ -1,14 +1,14 @@
 ---
 title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
+exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '830'
 ht-degree: 100%
 
 ---
-
 
 # currencyCode
 
@@ -220,14 +220,14 @@ s.currencyCode = "USD";
 | `VUV` | 바누아투 바투 |
 | `WST` | 사모아 탈라 |
 | `XAF` | Communauté Financière Africaine Francs B |
-| `XAG` | 은(온스) |
-| `XAU` | 금(온스) |
+| `XAG` | 은 (온스) |
+| `XAU` | 금 (온스) |
 | `XCD` | 동캐리비안 달러 |
 | `XDR` | 국제 통화 기금의 특별 인출 |
 | `XOF` | Communauté Financière Africaine Francs B |
-| `XPD` | 팔라듐(온) |
+| `XPD` | 팔라듐 (온) |
 | `XPF` | CFP 프랑 |
-| `XPT` | 백금(온스) |
+| `XPT` | 백금 (온스) |
 | `YER` | 예멘 리알 |
 | `ZAR` | 남아프리카 랜드 |
 | `ZMK` | 잠비아 콰차 |
