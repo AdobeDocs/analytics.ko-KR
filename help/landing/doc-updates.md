@@ -2,18 +2,18 @@
 title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
+exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 translation-type: ht
-source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '423'
 ht-degree: 100%
 
 ---
 
-
 # Adobe Analytics에 대한 기술 설명서 업데이트
 
-2019년 1월 이후에는 Adobe Analytics 설명서 세트에 대한 컨텐츠 업데이트입니다.
+2019년 1월 이후에는 Adobe Analytics 설명서 세트에 대한 콘텐츠 업데이트입니다.
 
 * [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용은 [여기](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)를 참조하십시오.
 * 새로운 Adobe Analytics 기능, 관리자 공지 및 버그 수정에 대한 포괄적인 목록이 필요하면 최신 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
@@ -42,7 +42,7 @@ ht-degree: 100%
 | 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
 | 2019년 9월 28일 | [Javascript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
 | 2019년 9월 12일 | [Journey IQ: 교차 장치 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
-| 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](/help/analyze/pwa/pwa.md)에 대한 새로운 문서 |
+| 2019년 8월 28일 | [Analytics용 점진적 웹 앱 (PWA)](/help/analyze/pwa/pwa.md)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
 | 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/timestamp-optional.md)에 대한 설명 |
 | 2019년 8월 5일 | [주요 개념](/help/analyze/reports-analytics/key-concepts.md) 업데이트 |
