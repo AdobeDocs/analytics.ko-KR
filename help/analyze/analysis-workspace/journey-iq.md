@@ -1,18 +1,18 @@
 ---
 title: Journey IQ
 description: Adobe Analytics의 일부인 기능들의 세트인 Journey IQ를 구성하는 기능들을 이해하십시오.
-feature: AI Tools
+feature: AI 도구
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 97%
+exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
-
-# 여정 IQ
+# Journey IQ
 
 Journey IQ는 고객 환경을 더 잘 이해하기 위해 사용하기 쉽고 완전히 사용자 지정 가능한 시각화 및 설정을 제공하는 기능 세트로서, 고객이 서로 다른 채널을 이동하더라도 고객의 동선에 있는 각 터치 포인트를 측정할 수 있도록 해줍니다. 고객을 다시 참여시키고 고객의 충성도를 유지하며 그 과정에서 고객 환경을 개인화할 위치를 더 잘 알려면 이 기능들을 사용하십시오.
 
