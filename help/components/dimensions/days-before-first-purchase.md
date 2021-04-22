@@ -1,14 +1,14 @@
 ---
 title: 첫 구매까지 소요된 일 수
 description: 방문자의 첫 방문과 첫 번째 구매 사이의 일 수입니다.
+exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
 ---
-
 
 # 첫 구매까지 소요된 일 수
 
