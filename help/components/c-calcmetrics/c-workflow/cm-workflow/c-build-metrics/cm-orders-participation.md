@@ -2,11 +2,14 @@
 description: 주문을 지원하는 마케팅 채널을 보여 주는 지표를 작성하는 방법에 대해 설명합니다. 이는 원하는 모든 차원 또는 성공 이벤트에 적용할 수 있습니다.
 title: 지원 지표 주문
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
-
 
 # 지원 지표 주문
 
@@ -17,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/attr-model.png)
 
-1. **[!UICONTROL 사용자 지정]**&#x200B;을 기여도 분석 모델로 선택합니다. 가중치를 0(시작), 100(중간), 0(종료)으로 변경합니다.
+1. **[!UICONTROL 사용자 지정]**&#x200B;을 기여도 분석 모델로 선택합니다. 가중치를 0 (시작), 100 (중간), 0 (종료)으로 변경합니다.
 
    ![](assets/custom-attr-model.png)
 
