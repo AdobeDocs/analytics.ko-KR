@@ -2,16 +2,16 @@
 description: 기여도 분석은 Adobe Analytics에서 관찰된 예외 항목에 기여한 사항을 드러내도록 설계된 집중 머신 러닝 프로세스입니다. 이 프로세스의 목적은 사용자가 집중 영역이나 추가 분석 기회를 원래 가능한 것보다 훨씬 더 빨리 찾는 것을 돕는 것입니다.
 title: 기여도 분석에 사용된 통계 기법
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI Tools
+feature: AI 도구
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '332'
+ht-degree: 100%
 
 ---
-
 
 # 기여도 분석에 사용된 통계 기법
 
@@ -23,11 +23,11 @@ ht-degree: 98%
 
    ![](assets/contingency_table.png)
 
-   표 1에서는 Cramer의 V를 사용하여 기간 1(예: 히스토리)과 기간 2(예: 예외 항목이 발생한 날)에 대한 국가별 페이지 보기 횟수 간 연관성을 측정할 수 있습니다. Cramer의 V에 대한 낮은 값은 낮은 수준의 연관성을 나타냅니다. Cramer의 V 범위는 0(연관성이 없음) ~ 1(완전한 연관성)입니다. Cramer의 V 통계를 다음과 같이 계산할 수 있습니다.
+   표 1에서는 Cramer의 V를 사용하여 기간 1 (예: 히스토리)과 기간 2 (예: 예외 항목이 발생한 날)에 대한 국가별 페이지 보기 횟수 간 연관성을 측정할 수 있습니다. Cramer의 V에 대한 낮은 값은 낮은 수준의 연관성을 나타냅니다. Cramer의 V 범위는 0 (연관성이 없음) ~ 1 (완전한 연관성)입니다. Cramer의 V 통계를 다음과 같이 계산할 수 있습니다.
 
    ![](assets/cramers-v.png)
 
-1. 각 차원 항목에 대해서는 PR(Pearson&#39;s Residual)을 사용하여 예외 항목 지표와 각 차원 항목 간의 연관성을 측정할 수 있습니다. PR은 표준 정규 분포를 따르며, 이 분포에서 알고리즘은 편차가 비교할 수 없이 작더라도 임의의 두 변수에 대한 PR을 비교할 수 있습니다. 실제로, 이 오류는 알려져 있지 않으며, 한정된 샘플 수정을 사용하여 평가됩니다. 
+1. 각 차원 항목에 대해서는 PR (Pearson&#39;s Residual)을 사용하여 예외 항목 지표와 각 차원 항목 간의 연관성을 측정할 수 있습니다. PR은 표준 정규 분포를 따르며, 이 분포에서 알고리즘은 편차가 비교할 수 없이 작더라도 임의의 두 변수에 대한 PR을 비교할 수 있습니다. 실제로, 이 오류는 알려져 있지 않으며, 한정된 샘플 수정을 사용하여 평가됩니다. 
 
    이전 예의 표 1에서, 국가 i 및 기간 2에 대한 한정된 샘플 수정이 있는 PR은 다음 식으로 주어집니다.
 
@@ -37,7 +37,6 @@ ht-degree: 98%
 
    ![](assets/pr-example.png)
 
-   (기간 1에 대해 유사한 공식을 얻을 수 있습니다.) 
+    (기간 1에 대해 유사한 공식을 얻을 수 있습니다.) 
 
    이때 최종 결과를 위한 각 차원 항목의 점수는 Cramer의 V 척도 만큼 가중 계산되며, 기여도 점수를 제공하기 위해 0과 1 사이의 숫자로 조정됩니다.
-
