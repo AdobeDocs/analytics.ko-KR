@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 첫 번째 관리 안내서
 description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는 방법을 알아봅니다.
+exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 translation-type: ht
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 첫 번째 관리 안내서
 
