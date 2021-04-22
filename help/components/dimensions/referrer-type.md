@@ -1,14 +1,14 @@
 ---
 title: 레퍼러 유형
 description: 방문자가 어디에서 왔는지에 따른 레퍼러 유형입니다.
+exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '423'
 ht-degree: 100%
 
 ---
-
 
 # 레퍼러 유형
 
