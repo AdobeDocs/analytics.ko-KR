@@ -1,14 +1,14 @@
 ---
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
 title: Analytics Data Connectors 시작하기
+exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
 translation-type: ht
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '973'
 ht-degree: 100%
 
 ---
-
 
 # Data Connectors 개요
 
@@ -29,7 +29,7 @@ Data Connectors는 자주 사용되는 브라우저와 적절히 통합되어야
 * JavaScript: 활성화
 * 운영 체제: Windows 기반
 * Macromedia Flash Player: 버전 6 이상
-* 모니터 해상도: 1024x768(800x600도 작동함)
+* 모니터 해상도: 1024x768 (800x600도 작동함)
 * 색상 깊이: 16비트 이상
 
 또한 데이터 수집은 웹 브라우저에서 JavaScript가 사용 가능하게 설정되어 있을 때 개선됩니다.
@@ -45,7 +45,7 @@ Data Connectors는 자주 사용되는 브라우저와 적절히 통합되어야
 
 ## 통합 추가
 
-[!UICONTROL Data Connectors] 랜딩 페이지(콘솔)에 액세스하려면 현재 계정이 있어야 합니다. 또한 Adobe Analytics에 익숙해지는 것이 좋습니다.
+[!UICONTROL Data Connectors] 랜딩 페이지 (콘솔)에 액세스하려면 현재 계정이 있어야 합니다. 또한 Adobe Analytics에 익숙해지는 것이 좋습니다.
 
 1. Adobe Experience Cloud에 로그인합니다.
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL Data Connectors]**&#x200B;를 클릭합니다.
@@ -66,12 +66,12 @@ Data Connectors는 자주 사용되는 브라우저와 적절히 통합되어야
 
 리마케팅 세그먼트는 Data Connectors 통합에 사용된 변수를 기반으로 하여 생성되는 데이터 파일입니다.
 
-Adobe Analytics는 이 파일을 별도의 일별 파일로 데이터 웨어하우스를 통해 Adobe가 타사를 위해 만든 FTP로 보냅니다. 그러면 타사에서 이러한 파일을 클라이언트에게 배포합니다. 회사에서는 이러한 파일을 사용하여 사이트를 방문했고 제품을 보았지만 구매하지 않은 방문자에게 리마케팅합니다. (예를 들면, 제품을 보았지만 구매하지 않은 제품에 대해 할인을 제공하는 클라이언트에게 연락할 수 있습니다).
+Adobe Analytics는 이 파일을 별도의 일별 파일로 데이터 웨어하우스를 통해 Adobe가 타사를 위해 만든 FTP로 보냅니다. 그러면 타사에서 이러한 파일을 클라이언트에게 배포합니다. 회사에서는 이러한 파일을 사용하여 사이트를 방문했고 제품을 보았지만 구매하지 않은 방문자에게 리마케팅합니다.  (예를 들면, 제품을 보았지만 구매하지 않은 제품에 대해 할인을 제공하는 클라이언트에게 연락할 수 있습니다).
 
 **세그먼트**
 
 * [!UICONTROL 장바구니 포기]: 장바구니에 항목을 추가했지만 구매하지 않은 방문자의 비율입니다. 엄밀히 말하면 주문 수를 장바구니에 추가한 횟수로 나누어 계산된 지표입니다.
-* [!UICONTROL 구매]: 특정 제품의 메시지 ID를 기반으로 하여 구입한 수신자 ID(또는 방문자 ID)입니다.
+* [!UICONTROL 구매]: 특정 제품의 메시지 ID를 기반으로 하여 구입한 수신자 ID (또는 방문자 ID)입니다.
 * [!UICONTROL 제품 보기]: [!UICONTROL 장바구니 포기]와 비슷한 계산된 지표입니다. 고객이 제품에 관심을 보였으므로 [!UICONTROL 제품 보기]를 주문으로 나눈 값을 보고합니다.
 
 **구현 예제**
