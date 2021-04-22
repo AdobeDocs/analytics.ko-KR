@@ -4,26 +4,26 @@ title: Activity Map 활성화
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '405'
+ht-degree: 100%
 
 ---
-
 
 # Activity Map 활성화{#enable-activity-map}
 
 Analytics 관리자가 Activity Map 링크 컬렉션 및 사용자 다운로드를 활성화하기 위해 완료해야 하는 절차에 대해 설명합니다.
 
-## 1단계. AppMeasurement(Javascript) 코드를 v1.6(또는 이상)으로 업데이트{#section_5D1586289DF2489289B1B6C1C80C300D}
+## 1단계. AppMeasurement (Javascript) 코드를 v1.6 (또는 이상)으로 업데이트{#section_5D1586289DF2489289B1B6C1C80C300D}
 
-Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다(파일의 맨 위에 있음). AppMeasurement 라이브러리는 Activity Map 모듈이 인스턴스화될 때 이 모듈을 로드합니다.
+Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다 (파일의 맨 위에 있음). AppMeasurement 라이브러리는 Activity Map 모듈이 인스턴스화될 때 이 모듈을 로드합니다.
 
-이 버전(또는 이상)의 AppMeasurement로 업데이트해야만 Activity Map 데이터를 수집할 수 있습니다.
+이 버전 (또는 이상)의 AppMeasurement로 업데이트해야만 Activity Map 데이터를 수집할 수 있습니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 코드 관리자]**&#x200B;로 이동하여 최신 AppMeasurement 코드(AppMeasurement_Javascript-1.6.zip)를 다운로드하고 [구현하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/js/overview.html).
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 코드 관리자]**&#x200B;로 이동하여 최신 AppMeasurement 코드 (AppMeasurement_Javascript-1.6.zip)를 다운로드하고 [구현하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/js/overview.html).
 
    Adobe에서는 Activity Map 모듈을 포함하여 코드에 수행한 변경 작업을 시각화하는 데 도움이 되기 위해 [샘플 구현 코드](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)를 일부 포함했습니다.
 
