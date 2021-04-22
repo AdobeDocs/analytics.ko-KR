@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics Permissions - 요약 표
 description: Admin Console의 사용 가능한 Adobe Analytics Permissions을 요약하는 표입니다.
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1243'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics Permissions - 요약 표
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 | 데이터 복구 API | x |  |  |  | 데이터 복구 API에 대한 액세스 권한 부여 |
 | 데이터 소스 관리자 | x |  |  |  | Analytics 상단 탐색에서 관리자 > 데이터 소스에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;보고서 세트 관리&#39;가 필요합니다. |
 | 기본 지표 | x |  |  |  | 보고서 세트 관리자의 개별 보고서 세트 설정 > 기본 지표에 대한 액세스 권한을 부여합니다. |
-| IP 주소별로 제외 | x |  |  |  | Analytics 상단 탐색의 관리자 > IP별로 제외에 대한 액세스 권한을 부여합니다. |
+| IP 주소로 제외 | x |  |  |  | Analytics 상단 탐색의 관리자 > IP별로 제외에 대한 액세스 권한을 부여합니다. |
 | 검색 방법 | x |  |  |  | 보고서 세트 관리자의 전환 > 검색 방법에 대한 액세스 권한을 부여합니다. |
 | 목록 변수 | x |  |  |  | 보고서 세트 관리자의 전환 > 목록 변수에 대한 액세스 권한을 부여합니다. |
 | 메뉴 사용자 정의 | x |  |  |  | 보고서 세트 관리자의 일반 > 메뉴 사용자 정의에 대한 액세스 권한을 부여합니다. |
@@ -60,8 +60,8 @@ ht-degree: 100%
 | 기존 Clickmap 설치 |  |  |  | x | 사용되지 않습니다. Analytics 도구에서 Activity Map을 대신 사용합니다. |
 | 모바일 앱 개요 보고서 |  |  |  | x | 사용되지 않습니다. |
 | 보고서 세트 합계 |  |  |  | x | 사용되지 않습니다. |
-| 보고서 세트(읽기) |  |  |  | x | 사용되지 않습니다. |
-| 보고서 세트(쓰기) |  |  |  | x | 사용되지 않습니다. |
+| 보고서 세트 (읽기) |  |  |  | x | 사용되지 않습니다. |
+| 보고서 세트 (쓰기) |  |  |  | x | 사용되지 않습니다. |
 | Site Catalyst |  |  |  | x | 사용되지 않습니다. 대신 &#39;Analysis Workspace&#39;를 사용합니다. |
 | 소셜 |  |  |  | x | 사용되지 않습니다. |
 | 텍스트 리포트릿 |  |  |  | x | 사용되지 않습니다. |
@@ -72,14 +72,14 @@ ht-degree: 100%
 
 ## Analytics 도구
 
-| Analytics 도구 | 관리 | 액세스 제어 | 보고 전용 기능 | 사용하지 않음 | 설명 |
+| Analytics 도구 | 관리 | Access Controls | 보고 전용 기능 | 사용하지 않음 | 설명 |
 | --- | --- | --- | --- | --- | --- |
 | 코드 관리자 | x |  |  |  | 기존 용도로 계속 사용할 수 있습니다. 관리자 > 코드 관리자에 대한 액세스 권한을 부여합니다. 대부분의 경우 Adobe Experience Platform Launch에 포함된 라이브러리를 대신 사용합니다. |
 | 코드 관리자 - 웹 서비스 | x |  |  |  | 1.4 API를 통해 코드 관리자에 대한 액세스 권한을 부여합니다. |
 | 보고서 세트 숨기기 | x |  |  |  | 관리자 > 회사 설정 > 보고서 세트 숨기기에 대한 액세스 권한을 부여합니다. 보고서 세트 액세스 권한에 상관없이 조직에서 보고서 세트를 숨길 수 있는 권한을 부여합니다. |
-| 통합(생성) | x |  |  |  | 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 Data Connectors를 만들 수 있도록 합니다. |
-| 통합(삭제) | x |  |  |  | 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 Data Connectors를 삭제할 수 있도록 합니다. |
-| 통합(업데이트) | x |  |  |  | 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 기존 커넥터 구성을 수정할 수 있도록 합니다. |
+| 통합 (생성) | x |  |  |  | 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 Data Connectors를 만들 수 있도록 합니다. |
+| 통합 (삭제) | x |  |  |  | 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 Data Connectors를 삭제할 수 있도록 합니다. |
+| 통합 (업데이트) | x |  |  |  | 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 기존 커넥터 구성을 수정할 수 있도록 합니다. |
 | 로그 | x |  |  |  | 관리자 > 로그에 대한 액세스 권한을 부여합니다. |
 | 로그 - 웹 서비스 | x |  |  |  | 1.4 API를 통해 로그 가져오기에 대한 액세스 권한을 부여합니다. |
 | 보류 중인 작업 | x |  |  |  | 관리자 > 회사 설정 > 보류 중인 작업에 대한 액세스 권한을 부여합니다. |
@@ -90,7 +90,7 @@ ht-degree: 100%
 | 웹 서비스 | x |  |  |  | 관리자 > 회사 설정 > 웹 서비스에 대한 액세스 권한을 부여합니다. |
 | Activity Map |  | x |  |  | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
 | Ad Hoc Analysis 라이선스 사용자 |  | x |  |  | Ad Hoc Analysis 서비스가 중단되었습니다. [추가 정보](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
-| Analysis Workspace 액세스 |  | x |  |  | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹(기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |
+| Analysis Workspace 액세스 |  | x |  |  | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹 (기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |
 | Analysis Workspace: 템플릿으로 저장 |  | x |  |  | Analysis Workspace 내의 프로젝트 > 템플릿으로 저장에 대한 액세스 권한을 부여합니다. |
 | 계산된 지표 생성 |  | x |  |  | 모든 Analytics 기능에 대해 계산된 지표를 만들 수 있는 기능을 부여합니다. |
 | Labs 액세스 |  | x |  |  | Labs에 대한 액세스 권한을 부여합니다. |
@@ -99,13 +99,13 @@ ht-degree: 100%
 | 세그먼트 게시 |  | x |  |  | 세그먼트를 만들거나 편집할 때 세그먼트를 Experience Cloud 대상으로 만들 수 있는 기능을 부여합니다. |
 | 웹 서비스 액세스 |  | x |  |  | 타사 사이트에서의 인증 및 API 호출 전송을 포함하여 API를 사용할 수 있는 권한을 부여합니다. |
 | 현재 데이터 |  |  | x |  | Reports &amp; Analytics 보고서에서 현재 데이터를 보는 옵션을 활성화합니다. |
-| Reports &amp; Analytics 액세스 |  |  | x |  | Reports &amp; Analytics에 액세스할 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹(기본 설정)에 속해야 합니다. |
+| Reports &amp; Analytics 액세스 |  |  | x |  | Reports &amp; Analytics에 액세스할 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹 (기본 설정)에 속해야 합니다. |
 | Advertising Analytics 관리 |  |  |  | x | 사용되지 않습니다. |
 | 공동 브랜딩 |  |  |  | x | 더 이상 사용되지 않습니다. 관리자 > 회사 설정 > 공동 브랜딩에 대한 액세스 권한을 부여합니다. |
 | Excel 라이선스 사용자 |  |  |  | x | 사용되지 않습니다. |
 | 모바일 앱 관리 |  |  |  | x | 사용되지 않습니다. |
 | 권한 관리 |  |  |  | x | 더 이상 사용되지 않습니다. 관리자 > 사용자 관리 아래의 기존 사용자 관리 인터페이스에 대한 액세스 권한을 부여합니다. |
-| 권한(읽기) - 웹 서비스 |  |  |  | x | 더 이상 사용되지 않습니다. 사용자가 관리 API를 사용하여 이전 Analytics 권한을 볼 수 있습니다. Adobe Admin Console을 대신 사용합니다. |
-| 권한(쓰기) - 웹 서비스 |  |  |  | x | 더 이상 사용되지 않습니다. 사용자가 관리 API를 사용하여 이전 Analytics 권한을 편집할 수 있습니다. Adobe Admin Console을 대신 사용합니다. |
+| 권한 (읽기) - 웹 서비스 |  |  |  | x | 더 이상 사용되지 않습니다. 사용자가 관리 API를 사용하여 이전 Analytics 권한을 볼 수 있습니다. Adobe Admin Console을 대신 사용합니다. |
+| 권한 (쓰기) - 웹 서비스 |  |  |  | x | 더 이상 사용되지 않습니다. 사용자가 관리 API를 사용하여 이전 Analytics 권한을 편집할 수 있습니다. Adobe Admin Console을 대신 사용합니다. |
 | 기본 설정 |  |  |  | x | 사용되지 않습니다. |
-| 단일 사인온 |  |  |  | x | 더 이상 사용되지 않습니다. 더 이상 사용되지 않는 단일 사인온 서비스에 대한 액세스 권한을 부여합니다. |
+| Single Sign-On |  |  |  | x | 더 이상 사용되지 않습니다. 더 이상 사용되지 않는 Single Sign-On 서비스에 대한 액세스 권한을 부여합니다. |
