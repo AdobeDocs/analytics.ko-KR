@@ -2,16 +2,16 @@
 description: Workspace 프로젝트에서 플로우 시각화를 사용합니다.
 title: 흐름 개요
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 98%
+exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '212'
+ht-degree: 100%
 
 ---
-
 
 # 흐름 개요
 
@@ -25,9 +25,9 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics간에 어떻게 다를 수 있는지에 대한 자세한 내용은 [흐름 및 폴아웃을 위한 기초로서의 세그멘테이션](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
+>흐름에 세그먼트를 적용하는 결과가 Analysis Workspace와 Reports &amp; Analytics간에 어떻게 다를 수 있는지에 대한 자세한 내용은 [흐름 및 폴아웃을 위한 기초로서의 세그먼테이션](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)을 참조하십시오.
 
-[흐름 시각화 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
+[흐름 시각화 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## 차원 간 흐름 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -37,4 +37,4 @@ ht-degree: 98%
 
 ## 플로우 다이어그램을 프로젝트 .CSV 파일의 일부로 내보내기 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-플로우 다이어그램은 **[!UICONTROL 프로젝트]**> **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel(표로 시각화됨) 또는 다른 곳에서 흐름 결과를 분석할 수 있습니다.
+플로우 다이어그램은 **[!UICONTROL 프로젝트]**> **[!UICONTROL CSV 다운로드]**&#x200B;로 이동하여 만들 수 있는 프로젝트 .CSV 파일의 일부입니다. 이를 통해 Microsoft Excel (표로 시각화됨) 또는 다른 곳에서 흐름 결과를 분석할 수 있습니다.
