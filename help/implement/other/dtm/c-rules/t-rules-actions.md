@@ -1,17 +1,17 @@
 ---
 description: 조건으로 트리거할 작업을 설정합니다.
-keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
+keywords: Dynamic Tag Management;규칙;규칙 만들기;새 규칙;javascript/타사 태그;조건에 대한 작업 설정;새 스크립트 추가;비순차적 javascript;순차적 javascript;비순차적 html
 solution: Experience Cloud,Analytics,Target
 title: 조건이 트리거되는 작업 설정
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '231'
+exl-id: e88cf3a7-3de3-45e7-b3af-44795864f36a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # 조건이 트리거되는 작업 설정
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->DTM을 통해 페이지에 사용자 지정 코드를 삽입할 수 있으므로 교차 사이트 스크립팅(XSS) 취약점이 발생하지 않도록 주의하십시오(자세한 내용은 [OWASP 안내서](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) 참조). 스크립트 내에 데이터 요소를 사용하는 경우 특별한 주의를 기울여야 합니다. 신뢰할 수 없는 소스로부터 데이터 요소 값을 가져올 수 있다는 점을 항상 유념하시기 바랍니다.
+>DTM을 통해 페이지에 사용자 지정 코드를 삽입할 수 있으므로 교차 사이트 스크립팅 (XSS) 취약점이 발생하지 않도록 주의하십시오 (자세한 내용은 [OWASP 안내서](https://www.owasp.org/index.php/Cross-site_Scripting_ (XSS)) 참조). 스크립트 내에 데이터 요소를 사용하는 경우 특별한 주의를 기울여야 합니다. 신뢰할 수 없는 소스로부터 데이터 요소 값을 가져올 수 있다는 점을 항상 유념하시기 바랍니다.
 
 **조건이 트리거되는 작업 설정**
 
@@ -38,7 +38,6 @@ ht-degree: 100%
    ![](assets/scripts-actions2.png)
 
 1. 스크립트 이름을 지정합니다.
-1. 스크립트를 트리거할 방법을 지정하고 원하는 컨텐츠를 텍스트 영역에 붙여넣습니다. ![](assets/scripts-actions3.png)
+1. 스크립트를 트리거할 방법을 지정하고 원하는 콘텐츠를 텍스트 영역에 붙여넣습니다. ![](assets/scripts-actions3.png)
 
 1. **[!UICONTROL 코드 저장]**&#x200B;을 클릭하면 스크립트가 규칙 큐에 추가됩니다. ![](assets/scripts-actions4.png)
-
