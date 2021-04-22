@@ -1,14 +1,14 @@
 ---
 title: trackingServerSecure
 description: HTTPS 페이지에서 이미지 요청이 전송되는 위치를 파악합니다.
-translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
-workflow-type: tm+mt
+exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # trackingServerSecure
 
@@ -31,7 +31,7 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.trackingServerSecure
 
-`s.trackingServerSecure` 변수는 이미지 요청을 보낼 위치를 포함하는 문자열입니다. 거의 항상 사이트의 하위 도메인입니다. 브라우저의 최신 개인 정보 보호 정책은 일반적으로 타사 쿠키를 신뢰할 수 없게 합니다. 이 변수가 비어 있으면 `s.trackingServer` 변수의 값을 사용합니다.
+`s.trackingServerSecure` 변수는 이미지 요청을 보낼 위치를 포함하는 문자열입니다. 거의 항상 사이트의 하위 도메인입니다. 브라우저의 최신 개인 정보 보호 정책은 일반적으로 서드파티 쿠키를 신뢰할 수 없게 합니다. 이 변수가 비어 있으면 `s.trackingServer` 변수의 값을 사용합니다.
 
 이 변수의 값은 거의 항상 `data.example.com`과 같은 자사 도메인입니다. 자사 쿠키 프로세스에 대한 자세한 내용은 핵심 서비스 사용 안내서에서 [Experience Cloud의 자사 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)를 참조하십시오.
 
@@ -41,4 +41,4 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
+CNAME 레코드는 일반적으로 `data.adobedc.net`, `sc.adobedc.net` 또는 `2o7.net`의 하위 도메인을 가리킵니다.
