@@ -30,7 +30,7 @@ ht-degree: 97%
 Adobe Analytics에 액세스하기 위해 제품 프로필에 필요한 최소 권한은 다음과 같습니다.
 
 * 제품 프로필에 하나 이상의 보고서 세트에 대한 액세스 권한이 있어야 합니다.
-* 제품 프로필이 Analytics 도구 권한 항목 **Analysis Workspace 액세스**(또는 **Reports &amp; Analytics 액세스**)에 속해 있어야 합니다.
+* 제품 프로필이 Analytics 도구 권한 항목 **Analysis Workspace 액세스** (또는 **Reports &amp; Analytics 액세스**)에 속해 있어야 합니다.
 
 ### 보고서 세트
 
@@ -58,6 +58,6 @@ Analytics 도구 권한 항목은 보고서 세트 설정과 독립적인 기능
 
 ## 제품 프로필 개발자
 
-개발자는 Adobe I/O에서 Experience Cloud API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)를 참조하십시오. 사용자에게 프로필에 대한 개발자 액세스 권한이 부여된 경우 Dev Console(console.adobe.io)에 액세스하고 Adobe Analytics 통합을 편집할 수 있습니다. 사용자에 대해 승인된 Analytics API 호출 및 응답은 해당 사용자가 개발자 액세스 권한을 가지는 모든 프로필의 순 권한에 따라 달라집니다.
+개발자는 Adobe I/O에서 Experience Cloud API를 사용할 수 있는 권한이 부여된다는 점을 제외하면 사용자와 유사합니다. 자세한 내용은 Enterprise 사용 안내서의 [개발자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)를 참조하십시오. 사용자에게 프로필에 대한 개발자 액세스 권한이 부여된 경우 Dev Console (console.adobe.io)에 액세스하고 Adobe Analytics 통합을 편집할 수 있습니다. 사용자에 대해 승인된 Analytics API 호출 및 응답은 해당 사용자가 개발자 액세스 권한을 가지는 모든 프로필의 순 권한에 따라 달라집니다.
 
 예를 들어, 모든 지표, 모든 차원 및 하나의 보고서 세트를 포함하는 프로필 권한으로, 프로필의 개발자 액세스 구성원은 관련 세트 내 구성요소와 관련한 API 호출을 만들 수 있습니다. 예외 항목 탐지가 추가되었으면, 보고서는 예외 데이터에 추가하여 풀러 응답을 포함할 수 있습니다. 일반적으로, 프로필에서 Adobe Analytics 인터페이스 내의 시나리오에 대한 액세스 권한을 부여하면, 유사하게 정의된 프로필의 개발자 액세스가 해당 API 호출 및 응답을 활성화합니다.
