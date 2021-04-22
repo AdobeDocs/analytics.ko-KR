@@ -1,20 +1,20 @@
 ---
 title: 변수 무시
 description: 변수 무시는 하나의 추적 또는 추적 링크 호출에 대한 변수 값을 변경할 수 있도록 해줍니다.
+exl-id: e297ef94-c5f7-42b1-a9d0-57e073f0d1a9
 translation-type: ht
-source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
 ---
 
-
 # 변수 무시
 
 변수 무시를 사용하면 페이지의 기존 변수에 영향을 주지 않고 단일 히트에 대한 Analytics 값을 변경할 수 있습니다.
 
-## 워크플로우
+## 워크플로
 
 1. 새 JavaScript 개체를 만듭니다. 개체 이름은 원하는 대로 지정할 수 있습니다.
 
