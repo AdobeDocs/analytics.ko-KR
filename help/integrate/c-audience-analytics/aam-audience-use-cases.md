@@ -2,14 +2,14 @@
 description: Advertising Analytics에 대한 활용 사례.
 title: Audience Analytics 활용 사례
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
+exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '218'
 ht-degree: 100%
 
 ---
-
 
 # Audience Analytics 활용 사례
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 전망 분석 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-B2B 소매업체로서 [순차적 세그멘테이션](https://docs.adobe.com/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)을 사용하여 구매하기 직전에 잠재 대상의 행동을 심층적으로 분석할 수 있으므로 전환을 유도하는 작업을 파악하는 데 도움이 됩니다.
+B2B 소매업체로서 [순차적 세그먼테이션](https://docs.adobe.com/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)을 사용하여 구매하기 직전에 잠재 대상의 행동을 심층적으로 분석할 수 있으므로 전환을 유도하는 작업을 파악하는 데 도움이 됩니다.
 
 ## 인구 통계학 타깃팅 {#section_F034DB721A06419283DBD29D4A1B444B}
 
