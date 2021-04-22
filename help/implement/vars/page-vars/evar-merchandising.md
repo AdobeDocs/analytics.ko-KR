@@ -1,18 +1,18 @@
 ---
-title: eVar(머천다이징)
+title: eVar (머천다이징)
 description: 개별 제품에 연결된 사용자 지정 변수입니다.
+exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
 ---
 
+# eVar (머천다이징)
 
-# eVar(머천다이징)
-
-*이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar(머천다이징)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
+*이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar (머천다이징)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
 
 ## 보고서 세트 설정에서 eVar 설정
 
@@ -56,5 +56,5 @@ s.products = "Birds;Canary";
 
 `eVar1`에 대한 값 `"Aviary"`가 제품 `"Canary"`에 지정됩니다. 이 제품과 관련된 이후의 모든 성공 이벤트는 `"Canary"`에 반영됩니다. 또한 다음 조건 중 하나가 만족될 때까지 머천다이징 변수의 현재 값이 모든 후속 제품에 연결됩니다.
 
-* eVar 만료(&#39;다음 시기 이후에 만료&#39; 설정에 따름)
+* eVar 만료 (&#39;다음 시기 이후에 만료&#39; 설정에 따름)
 * 머천다이징 eVar가 새로운 값으로 덮어쓰기됨.
