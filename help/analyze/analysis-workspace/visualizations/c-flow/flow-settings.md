@@ -2,23 +2,23 @@
 description: Workspace 프로젝트에서 플로우 시각화를 사용합니다.
 title: 흐름 설정
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+exl-id: 12a358b4-4f8e-4201-9f97-5c07c91f301e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
-
 
 # 흐름 설정
 
 | 설정 | 설명 |
 |--- |--- |
 | 흐름 컨테이너 | <ul><li>방문</li><li>방문자</li></ul> 방문과 방문자 간을 전환하여 방문자 이동 경로를 분석할 수 있도록 합니다. 이 설정은 방문들에 대해 방문자 수준에서 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다. |
-| 흐름 옵션 | <ul><li>줄 바꿈 레이블</li></ul> 대개 흐름 요소의 레이블은 화면 공간을 절약하기 위해 잘리지만 이 상자를 선택하여 전체 레이블을 표시할 수 있습니다.  기본값 = 선택 해제.<ul><li>반복 인스턴스 포함</li></ul> 플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스(예: 페이지 다시 로드)를 포함하거나 제외하는 옵션을 제공합니다. 하지만 listVars, listProp, s.product, 머천다이징 eVar 등과 같이 여러 값을 갖는 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다. |
+| 흐름 옵션 | <ul><li>줄 바꿈 레이블</li></ul> 대개 흐름 요소의 레이블은 화면 공간을 절약하기 위해 잘리지만 이 상자를 선택하여 전체 레이블을 표시할 수 있습니다.  기본값 = 선택 해제.<ul><li>반복 인스턴스 포함</li></ul> 플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스 (예: 페이지 다시 로드)를 포함하거나 제외하는 옵션을 제공합니다. 하지만 listVars, listProp, s.product, 머천다이징 eVar 등과 같이 여러 값을 갖는 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다. |
 
 ## 마우스 오른쪽 버튼 클릭 옵션
 
