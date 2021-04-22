@@ -1,25 +1,25 @@
 ---
-description: Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
-title: Analytics 보고 API 비교
+description: Analytics Reporting API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
+title: Analytics Reporting API 비교
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
-source-wordcount: '284'
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
 
+# Analytics Reporting API 비교
 
-# Analytics 보고 API 비교
-
-Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
+Analytics Reporting API에 대한 비교 표입니다. 지원 문서에 대한 링크가 제공됩니다.
 
 >[!NOTE]
 >
->지연과 관련하여 타겟 분석(A4T)은 통합 보고를 위해 같은 히트에 분석 데이터와 타겟 데이터를 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
+>지연과 관련하여 타겟 분석 (A4T)은 통합 보고를 위해 같은 히트에 분석 데이터와 타겟 데이터를 결합합니다. 분석 호출과 타겟 호출이 다른 시간에 발생하므로 두 솔루션에서 데이터를 수집하기 위해 처리가 발생하기 전에 히트가 저장됩니다. 이 프로세스에서 모든 체크포인트에 **7-10분**&#x200B;의 지연을 추가합니다.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -78,8 +78,8 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
    <td colname="col1"> <b>세그먼트 지원</b> </td> 
    <td colname="col2"> 예 </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 아니오 </td> 
-   <td colname="col5"> 예(단, Data Warehouse 호환 가능한 세그먼트만) </td> 
+   <td colname="col4"> 아니요 </td> 
+   <td colname="col5"> 예 (단, Data Warehouse 호환 가능한 세그먼트만) </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <b>설명서</b> </td> 
@@ -95,4 +95,3 @@ Analytics 보고 API에 대한 비교 표입니다. 지원 문서에 대한 링�
 
 * [Adobe/IO](https://www.adobe.io/) - Adobe 기술을 애플리케이션에 통합하는 데 필요한 기술 설명서 및 도구에 대한 포괄적인 소스입니다.
 * [Data Workbench 쿼리 API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
