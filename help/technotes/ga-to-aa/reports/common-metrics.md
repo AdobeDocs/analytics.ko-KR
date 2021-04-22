@@ -1,14 +1,14 @@
 ---
 title: 다른 플랫폼 전환 안내서에서 자주 사용되는 지표
 description: Google Analytics 사용자에게 더 익숙한 용어를 사용하여 여러 일반 보고서의 지표 데이터를 가져오는 방법을 이해합니다.
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: e95b0530-8099-4a08-9e2b-75174546277d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # 다른 플랫폼 전환 안내서에서 자주 사용되는 지표
 
@@ -35,7 +35,7 @@ Google Analytics와 같은 다른 플랫폼에서는 많은 보고서가 공통 
 
 ## 동작 지표
 
-**바운스 비율**&#x200B;은 Analysis Workspace에서 지표로 사용할 수 있습니다. 자세한 내용은 구성 요소 사용 안내서의 [바운스 비율](/help/components/metrics/bounce-rate.md) 지표를 참조하십시오.
+**바운스 비율**&#x200B;은 Analysis Workspace에서 지표로 사용할 수 있습니다. 추가 정보는 구성 요소 사용 안내서의 [바운스 비율](/help/components/metrics/bounce-rate.md) 지표를 참조하십시오.
 
 **페이지/세션**&#x200B;은 계산된 지표입니다. 다음 방법으로 가져올 수 있습니다.
 
@@ -53,14 +53,14 @@ Google Analytics와 같은 다른 플랫폼에서는 많은 보고서가 공통 
 
    구성 요소 사용 안내서에서 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)에 대해 자세히 알아보십시오.
 
-**평균 세션 기간**&#x200B;은 **방문당 체류 시간(초)**&#x200B;과 거의 같습니다. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
+**평균 세션 기간**&#x200B;은 **방문당 체류 시간 (초)**&#x200B;과 거의 같습니다. 구성 요소 사용 안내서에서 [방문당 체류 시간](/help/components/metrics/time-spent-per-visit.md) 지표에 대해 자세히 알아보십시오.
 
 ## 전환 지표
 
 **목표 전환율**, **목표 완료** 및 **목표 값**&#x200B;은 두 플랫폼 모두에서 추가 구현이 필요합니다. 구현에서 이미 제품 차원과 구매 이벤트를 수용하는 경우 다음 단계를 고려하십시오.
 
 1. **주문 수** 지표, **매출** 지표 및 **방문 횟수** 지표를 작업 공간으로 끌어서 놓습니다.
-1. **방문당 주문 수**&#x200B;에 대한 계산된 지표를 만듭니다. 두 지표 헤더를 ctrl+클릭(Windows)하거나 cmd+클릭(Mac)하여 강조 표시합니다. 머리글 중 하나를 마우스 오른쪽 단추로 클릭하고 **선택 내용에서 지표 생성**&#x200B;을 선택한 다음 **나누기**&#x200B;를 클릭합니다. 이 새 지표는 목표 전환율과 유사합니다.
+1. **방문당 주문 수**&#x200B;에 대한 계산된 지표를 만듭니다. 두 지표 헤더를 ctrl+클릭 (Windows)하거나 cmd+클릭 (Mac)하여 강조 표시합니다. 머리글 중 하나를 마우스 오른쪽 단추로 클릭하고 **선택 내용에서 지표 생성**&#x200B;을 선택한 다음 **나누기**&#x200B;를 클릭합니다. 이 새 지표는 목표 전환율과 유사합니다.
 1. 소수점 이하 자리 수가 필요한 경우 계산된 지표를 편집합니다. 지표 헤더에서 정보 단추를 클릭한 다음 연필 아이콘을 클릭합니다. 계산된 지표 빌더 창에서 1 또는 2개의 소수점 이하 자리 수를 추가한 다음 저장을 클릭합니다.
 
    ![방문당 주문 수](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
