@@ -1,14 +1,14 @@
 ---
 title: 데이터 수집 쿼리 매개 변수
 description: 이미지 요청에 사용된 모든 쿼리 문자열 매개 변수를 나열합니다.
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 translation-type: ht
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '648'
 ht-degree: 100%
 
 ---
-
 
 # 데이터 수집 쿼리 매개 변수
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 | `aid` | 없음 | Analytics 방문자 ID. |
 | `AQB` | 없음 | 이미지 요청 쿼리 문자열의 시작을 나타냅니다. |
 | `AQE` | 없음 | 이미지 요청의 끝, 즉 요청이 잘리지 않았음을 나타냅니다. |
-| `bh` | 없음 | 브라우저 높이(픽셀 단위). [브라우저 높이](/help/components/dimensions/browser-height.md) 차원에 사용됩니다. |
-| `bw` | 없음 | 브라우저 너비(픽셀 단위). [브라우저 너비](/help/components/dimensions/browser-width.md) 차원에 사용됩니다. |
-| `c` | 없음 | 색상 품질(비트). [색상 깊이](/help/components/dimensions/color-depth.md) 차원에 사용됩니다. |
+| `bh` | 없음 | 브라우저 높이 (픽셀 단위). [브라우저 높이](/help/components/dimensions/browser-height.md) 차원에 사용됩니다. |
+| `bw` | 없음 | 브라우저 너비 (픽셀 단위). [브라우저 너비](/help/components/dimensions/browser-width.md) 차원에 사용됩니다. |
+| `c` | 없음 | 색상 품질 (비트). [색상 깊이](/help/components/dimensions/color-depth.md) 차원에 사용됩니다. |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | 컨텍스트 데이터 변수의 시작을 나타냅니다. 값을 포함하지 않습니다. |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | 컨텍스트 데이터 변수의 끝을 나타냅니다. 값을 포함하지 않습니다. |
 | `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Prop](/help/components/dimensions/prop.md) 또는 사용자 지정 트래픽 변수입니다. |
@@ -70,13 +70,13 @@ ht-degree: 100%
 | `server` | [`server`](../vars/page-vars/server.md) | [서버 차원.](/help/components/dimensions/server.md) |
 | `sv` | [`server`](../vars/page-vars/server.md) | `server` 쿼리 문자열의 축약. |
 | `state` | [`state`](../vars/page-vars/state.md) | 상태 차원. |
-| `t` | 없음 | 히트의 생성 날짜/시간. `dd/mm/yyyy hh:mm:ss w o` 형식을 사용합니다.<br>- `dd/mm/yyyy hh:mm:ss`는 JavaScript의 날짜/시간입니다. 달 `0`은 1월이고 달 `11`은 12월입니다.<br>- `w`는 요일입니다. `0`은 일요일이고 `6`은 토요일입니다.<br>- `o`는 음수 GMT 오프셋(분 단위)입니다. 예를 들어 `420`은 GMT-7입니다. |
+| `t` | 없음 | 히트의 생성 날짜/시간. `dd/mm/yyyy hh:mm:ss w o` 형식을 사용합니다.<br>- `dd/mm/yyyy hh:mm:ss`는 JavaScript의 날짜/시간입니다. 달 `0`은 1월이고 달 `11`은 12월입니다.<br>- `w`는 요일입니다. `0`은 일요일이고 `6`은 토요일입니다.<br>- `o`는 음수 GMT 오프셋 (분 단위)입니다. 예를 들어 `420`은 GMT-7입니다. |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | 히트와 함께 설정된 사용자 지정 타임스탬프. 보통 오프라인 추적에 사용됩니다. |
 | `v` | 없음 | [Java 활성화](/help/components/dimensions/java-enabled.md) 차원에 사용됩니다. |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [추적 코드 차원.](/help/components/dimensions/tracking-code.md) |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) 또는 사용자 지정 전환 차원입니다. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 방문자 ID 변수. |
-| `vmk` | `vmk` | 더 이상 사용되지 않습니다. 구현을 타사 쿠키에서 자사 쿠키로 마이그레이션하는 데 도움을 준 방문자 마이그레이션 키입니다. |
+| `vmk` | `vmk` | 더 이상 사용되지 않습니다. 구현을 서드파티 쿠키에서 자사 쿠키로 마이그레이션하는 데 도움을 준 방문자 마이그레이션 키입니다. |
 | `vvp` | `variableProvider` | Data Connectors에서 사용됩니다. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | 온라인 및 오프라인 데이터를 함께 연결하기 위해 Data Sources와 함께 사용됩니다. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | [우편 번호](/help/components/dimensions/zip-code.md) 차원에서 사용됩니다. |
