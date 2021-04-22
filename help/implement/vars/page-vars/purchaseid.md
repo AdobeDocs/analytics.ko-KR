@@ -1,20 +1,20 @@
 ---
 title: purchaseID
 description: 고유 구매 식별자를 기반으로 히트를 중복 제거합니다.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # purchaseID
 
 `purchaseID` 변수는 동일한 구매를 포함하는 히트가 보고서를 부풀리지 않도록 하는 데 도움이 됩니다. 예를 들어 방문자가 구매 확인 페이지에 도달하는 경우 일반적으로 트랜잭션에서 생성된 수익 관련 데이터를 Adobe에 보내게 됩니다. 사용자가 이 페이지를 여러 번 새로 고치거나 나중에 방문하기 위해 페이지에 책갈피를 지정하면 해당 히트가 보고서를 부풀릴 수 있습니다. 둘 이상의 히트에 동일한 구매 ID가 있을 때 `purchaseID` 변수는 지표 중복을 제거합니다.
 
-Adobe가 히트를 중복 구매로 인식하면 모든 전환 데이터(예: eVar 및 이벤트)가 보고에 표시되지 않습니다. 데이터 피드에서 `duplicate_purchase` 열은 `1`로 설정됩니다.
+Adobe가 히트를 중복 구매로 인식하면 모든 전환 데이터 (예: eVar 및 이벤트)가 보고에 표시되지 않습니다. 데이터 피드에서 `duplicate_purchase` 열은 `1`로 설정됩니다.
 
 구매 ID는 모든 방문자에게 적용되며 만료되지 않습니다. 한 방문자가 주어진 구매 ID를 설정한 다음, 다른 방문자가 1년 후 동일한 구매 ID를 설정하면 두 번째 구매는 중복 제거됩니다.
 
@@ -32,7 +32,7 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 s.purchaseID = "ABC123";
 ```
 
-`digitalData` 데이터 [레이어를 사용하는 경우](../../prepare/data-layer.md):
+`digitalData` [데이터 레이어](../../prepare/data-layer.md)를 사용하는 경우:
 
 ```js
 s.purchaseID = digitalData.transaction.transactionID;
