@@ -1,14 +1,14 @@
 ---
 title: 단일 페이지 방문 횟수
 description: 방문이 하나의 페이지로 이루어졌음을 나타내는 플래그입니다.
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # 단일 페이지 방문 횟수
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 단일 페이지 방문 횟수 차원은 하나의 고유한 [페이지](page.md) 차원 항목으로 이루어진 방문 횟수를 보고합니다. [단일 페이지 방문 횟수](../metrics/single-page-visits.md) 지표의 차원 양식입니다.
 
-이 차원은 [세그멘테이션](../segmentation/seg-home.md) 내의 구성 요소로서 가장 일반적으로 사용됩니다. 일반적으로 보고서에서 차원으로 사용되지 않습니다.
+이 차원은 [세그먼테이션](../segmentation/seg-home.md) 내의 구성 요소로서 가장 일반적으로 사용됩니다. 일반적으로 보고서에서 차원으로 사용되지 않습니다.
 
 ## 이 차원을 데이터로 채우기
 
