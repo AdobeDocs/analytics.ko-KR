@@ -1,11 +1,14 @@
 ---
 title: Util.cookieWrite
 description: 쿠키 값을 씁니다.
+exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '128'
+ht-degree: 100%
 
 ---
-
 
 # Util.cookieWrite
 
@@ -15,7 +18,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 Launch는 인터페이스에서 쿠키를 설정하는 기능을 제공하지 않습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.Util.cookieWrite()
+## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.Util.cookieWrite ()
 
 쿠키를 원하는 값으로 설정하려면 `s.Util.cookieWrite()` 메서드를 호출하십시오.
 
