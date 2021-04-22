@@ -1,14 +1,14 @@
 ---
 title: Java 활성화
 description: 브라우저에서 Java가 활성화되어 있는지 여부를 결정합니다.
+exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # Java 활성화
 
@@ -16,7 +16,7 @@ Java 활성화 차원은 현재 브라우저에 Java가 활성화되어 있는�
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 이미지 요청의 [`v` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 Java가 활성화되어 있는지 여부를 감지하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우(API 등을 통해)에는 이 차원을 사용하려면 &quot;Y&quot; 또는 &quot;N&quot;을 포함하는 `v` 쿼리 문자열 매개 변수를 포함해야 합니다.
+이 차원은 이미지 요청의 [`v` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 Java가 활성화되어 있는지 여부를 감지하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우 (Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 이 차원을 사용하려면 &quot;Y&quot; 또는 &quot;N&quot;을 포함하는 `v` 쿼리 문자열 매개 변수를 포함해야 합니다.
 
 ## 차원 항목
 
