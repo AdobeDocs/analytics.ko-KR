@@ -1,17 +1,17 @@
 ---
 description: Adobe Analytics에서 Dynamic Tag Management를 배포할 때 레퍼러 및 캠페인 옵션에 대한 Dynamic Tag Management의 필드 설명입니다.
-keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
+keywords: Dynamic Tag Management;레퍼러;캠페인;레퍼러 재정의;캠페인 변수;쿼리 매개 변수
 solution: Experience Cloud,Analytics
 title: 레퍼러 및 캠페인
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '155'
+exl-id: cced5e00-ba8e-4bf4-b475-ed8ab08ab427
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # 레퍼러 및 캠페인
 
@@ -29,7 +29,7 @@ Adobe [!DNL Analytics]에서 [!UICONTROL Dynamic Tag Management]를 배포할 �
  <tbody>
   <tr>
    <td colname="col1"> 레퍼러 무시 </td>
-   <td colname="col2"> <p>Overrides the value set in the <span class="varname"> s.referrer</span> 변수에 설정된 값을 무시합니다. 이 값은 일반적으로 브라우저에서 설정된 레퍼러로 채워집니다. </p> <p><a href="../../../vars/page-vars/referrer.md">referrer</a>를 참조하십시오. </p> </td>
+   <td colname="col2"> <p> <span class="varname"> s.referrer</span> 변수에 설정된 값을 무시합니다. 이 값은 일반적으로 브라우저에서 설정된 레퍼러로 채워집니다. </p> <p><a href="../../../vars/page-vars/referrer.md">referrer</a>를 참조하십시오. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 캠페인 </td>
@@ -38,7 +38,7 @@ Adobe [!DNL Analytics]에서 [!UICONTROL Dynamic Tag Management]를 배포할 �
  </tbody>
 </table>
 
-DTM 인터페이스에서 쿼리 문자열을 사용할지 아니면 값(데이터 요소에서 끌어올 수 있음)을 사용할지 선택합니다.
+DTM 인터페이스에서 쿼리 문자열을 사용할지 아니면 값 (데이터 요소에서 끌어올 수 있음)을 사용할지 선택합니다.
 
 ![쿼리 매개 변수](assets/dtm-queryparam.png)
 
