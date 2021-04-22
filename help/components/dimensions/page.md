@@ -1,14 +1,14 @@
 ---
 title: 페이지
 description: 페이지 이름.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
-
 
 # 페이지
 
@@ -18,9 +18,9 @@ ht-degree: 82%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 페이지 보기 호출( [`pageName` )](/help/implement/validate/query-parameters.md) 의 쿼리 문자열에서 [데이터를`t()`검색합니다](/help/implement/vars/functions/t-method.md). [링크 추적 호출(`tl()`)](/help/implement/vars/functions/tl-method.md) 은 `pageName` 쿼리 문자열이 있어도 항상 이 차원을 제거하십시오.
+이 차원은 [페이지 조회수 호출 (`t()`)](/help/implement/vars/functions/t-method.md)의 [`pageName` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. [링크 추적 호출 (`tl()`)](/help/implement/vars/functions/tl-method.md)은 `pageName` 쿼리 문자열이 있는 경우에도 항상 이 차원을 제거합니다.
 
-AppMeasurement는 [`pageName`](/help/implement/vars/page-vars/pagename.md) 변수를 사용하여 이 데이터를 수집합니다. If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement는 [`pageName`](/help/implement/vars/page-vars/pagename.md) 변수를 사용하여 이 데이터를 수집합니다. `pageName` 변수가 정의되지 않은 경우 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 변수를 사용하는 방식으로 후퇴합니다.
 
 ## 차원 항목
 
