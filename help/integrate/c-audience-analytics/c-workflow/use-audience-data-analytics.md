@@ -3,14 +3,14 @@ description: 'Analytics 전체에서 AAM 대상 차원을 사용할 수 있습�
 solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Analytics에서 대상 데이터 사용
 
@@ -35,22 +35,22 @@ Analysis Workspace에서 AAM 세그먼트는 두 가지 차원으로 나타납�
 
 1. 관련 차원 항목이 표시되도록 [!UICONTROL 대상 이름]을 엽니다.
 1. 비교할 대상을 세그먼트 비교 빌더로 드래그합니다.
-1. (선택 사항): 다른 차원 항목이나 세그먼트를 가져올 수 있으며, 최대 2개를 비교할 수 있습니다.
+1.  (선택 사항): 다른 차원 항목이나 세그먼트를 가져올 수 있으며, 최대 2개를 비교할 수 있습니다.
 1. **[!UICONTROL 작성을 클릭합니다]**.
 
    대상 ID 및 이름 차원은 비교 대상인 두 세그먼트에 대한 추가 프로필 데이터이므로, &quot;상위 차원 항목&quot; 표에 자동으로 표시됩니다.
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace에서의 고객 움직임(흐름){#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Analysis Workspace에서의 고객 움직임 (흐름){#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트(예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트(예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [흐름](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)을 사용하여 방문자가 대상 사이를 이동하는 경로를 시각화할 수 있습니다.
+AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트 (예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트 (예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [흐름](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)을 사용하여 방문자가 대상 사이를 이동하는 경로를 시각화할 수 있습니다.
 
 1. **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 왼쪽 레일에서 **[!UICONTROL 흐름]** 시각화를 선택합니다.
 
 1. [!UICONTROL 대상 이름] 차원을 플로우 빌더로 드래그합니다.
 1. **[!UICONTROL 작성을 클릭합니다]**.
-1. (선택 사항): 다른 차원을 흐름 시각화로 드래그하여 [차원 간 흐름](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html)을 만듭니다.
+1.  (선택 사항): 다른 차원을 흐름 시각화로 드래그하여 [차원 간 흐름](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html)을 만듭니다.
 
 ![](assets/flow-aamaudiences.png)
 
@@ -65,7 +65,7 @@ AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해
 1. 구성 요소 메뉴에서 [!UICONTROL 대상 이름]을 검색합니다.
 1. 관련 차원 항목이 표시되도록 [!UICONTROL 대상 이름]을 엽니다.
 1. 비교할 대상을 벤 빌더로 드래그합니다.
-1. (선택 사항): 다른 차원 항목이나 세그먼트를 가져올 수 있으며, 최대 3개를 비교할 수 있습니다.
+1.  (선택 사항): 다른 차원 항목이나 세그먼트를 가져올 수 있으며, 최대 3개를 비교할 수 있습니다.
 1. **[!UICONTROL 작성을 클릭합니다]**.
 
 ![](assets/venn-viz.png)
@@ -77,7 +77,7 @@ Analytics에서 수집한 동작 정보와 함께 Analytics [세그먼트 빌더
 1. **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;로 이동합니다 .
 1. **[!UICONTROL 추가]**&#x200B;를 클릭하여 새 세그먼트를 만듭니다. 
 1. 세그먼트에 이름을 지정한 후 [!UICONTROL 대상 이름] 차원을 정의 패널로 드래그합니다.
-1. (선택 사항): 세그먼트에 다른 기준을 추가합니다.
+1.  (선택 사항): 세그먼트에 다른 기준을 추가합니다.
 1. 세그먼트를 저장합니다.
 
    ![](assets/aud-segbuilder.png)
@@ -88,4 +88,3 @@ Analytics에서 수집한 동작 정보와 함께 Analytics [세그먼트 빌더
 1. 이 폴더에서 대상 ID 및 대상 이름 차원에 모두 액세스할 수 있습니다.
 
    ![](assets/mc-audiences.png)
-
