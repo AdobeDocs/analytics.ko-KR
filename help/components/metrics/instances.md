@@ -1,14 +1,14 @@
 ---
 title: 인스턴스
-description: 변수가 설정된(지속되지 않음) 히트의 수입니다.
+description: 변수가 설정된 (지속되지 않음) 히트의 수입니다.
+exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
 ---
-
 
 # 인스턴스
 
