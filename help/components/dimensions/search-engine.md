@@ -1,21 +1,21 @@
 ---
 title: 검색 엔진
 description: 방문자가 사이트에 도달하기 위해 사용한 검색 엔진입니다.
+exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
 
-
 # 검색 엔진
 
 검색 엔진 차원은 방문자가 사이트에 도달하기 위해 사용하는 검색 엔진을 보고합니다. 레퍼러는 다음 두 항목을 모두 충족해야 검색 엔진으로 분류할 수 있습니다.
 
 * 참조 도메인이 Adobe에 의해 유효한 검색 엔진으로 인식됩니다.
-* 키워드 쿼리 문자열 매개 변수가 참조 URL에 있습니다. 쿼리 문자열 매개 변수는 비워 둘 수 있습니다(개인 정보 보호 방침으로 인해 여러 검색 엔진이 있는 경우).
+* 키워드 쿼리 문자열 매개 변수가 참조 URL에 있습니다. 쿼리 문자열 매개 변수는 비워 둘 수 있습니다 (개인 정보 보호 방침으로 인해 여러 검색 엔진이 있는 경우).
 
 유료 검색과 자연어 검색을 구분하려면 [유료 검색 감지](/help/admin/admin/paid-search-detection/paid-search-detection.md)가 필요합니다. 검색 엔진에 여러 차원을 사용할 수 있습니다.
 
