@@ -1,14 +1,14 @@
 ---
 title: Analytics 변수에 Launch 데이터 요소 매핑
 description: Analysis Workspace에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
+exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 변수에 Launch 데이터 요소 매핑
 
