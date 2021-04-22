@@ -1,7 +1,7 @@
 ---
 description: 데이터 개인 정보 보호에서 개인 정보 보호 보고를 위한 변수.
 title: 개인 정보 보호 보고 변수
-feature: Admin Tools
+feature: 관리 도구
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
