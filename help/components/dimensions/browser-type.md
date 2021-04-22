@@ -1,14 +1,14 @@
 ---
 title: 브라우저 유형
 description: 브라우저를 만든 조직입니다.
+exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
 ---
-
 
 # 브라우저 유형
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. 
+이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. AppMeasurement 라이브러리를 사용하는 경우 (Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. 
 
 ## 차원 항목
 
-차원 항목에는 브라우저를 만드는 조직이 포함됩니다. 일반적인 차원 항목에는 `"Google"`([!DNL Chrome] 작성자), `"Apple"`([!DNL Safari] 작성자), `"Microsoft"`([!DNL Edge] 작성자) 및 `"Mozilla"`([!DNL Firefox] 작성자) 등이 포함됩니다.
+차원 항목에는 브라우저를 만드는 조직이 포함됩니다. 일반적인 차원 항목에는 `"Google"` ([!DNL Chrome] 작성자), `"Apple"` ([!DNL Safari] 작성자), `"Microsoft"` ([!DNL Edge] 작성자) 및 `"Mozilla"` ([!DNL Firefox] 작성자) 등이 포함됩니다.
