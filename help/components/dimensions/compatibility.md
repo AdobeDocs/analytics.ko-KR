@@ -1,14 +1,14 @@
 ---
 title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
+exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 차원 호환성
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 차원
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |---|---|
 | Target용 Analytics | `targetraw` |
 | 대상자 ID | `mcaudiences` |
@@ -64,7 +64,7 @@ ht-degree: 100%
 | 모바일 최대 이메일 길이 | `mobileemaillength` |
 | 모바일 이미지 지원 | `mobileimagesupport` |
 | 모바일 제조업체 | `mobilemanufacturer` |
-| 모바일 운영 체제(더 이상 사용되지 않음) | `mobileos` |
+| 모바일 운영 체제 (더 이상 사용되지 않음) | `mobileos` |
 | 모바일 화면 높이 | `mobilescreenheight` |
 | 모바일 화면 크기 | `mobilescreensize` |
 | 모바일 화면 너비 | `mobilescreenwidth` |
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 ## Analysis Workspace에서만 지원되는 차원
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | 오전/오후 | `timepartampm` |
 | 브라우저 높이 - 전체기간 | `browserheightbucketed` |
@@ -127,8 +127,8 @@ ht-degree: 100%
 | 히트 깊이 | `hitdepth` |
 | 히트 유형 | `hittype` |
 | 시간 | `daterangehour` |
-| 시간(일 기준) | `timeparthourofday` |
-| 마케팅 채널 세부 사항 | `marketingchanneldetail` |
+| 시간 (일 기준) | `timeparthourofday` |
+| 마케팅 채널 세부 정보 | `marketingchanneldetail` |
 | 분 | `daterangeminute` |
 | 모바일 최대 책갈피 길이 | `mobilebookmarklength` |
 | 모바일 장치 번호 | `mobiledevicenumber` |
@@ -139,7 +139,7 @@ ht-degree: 100%
 | 모바일 네트 프로토콜 | `mobilenetprotocols` |
 | 모바일 Push To Talk | `mobilepushtotalk` |
 | 월 | `daterangemonth` |
-| 월(연 기준) | `timepartmonthofyear` |
+| 월 (연 기준) | `timepartmonthofyear` |
 | 운영 체제 유형 | `operatingsystemgroup` |
 | 유료 검색 | `paidsearch` |
 | 영구적 쿠키 지원 | `persistentcookie` |
@@ -153,20 +153,20 @@ ht-degree: 100%
 | 주 | `daterangeweek` |
 | 년 | `daterangeyear` |
 
-## Analysis Workspace에서만 지원되는 컨텐츠 인식 차원
+## Analysis Workspace에서만 지원되는 콘텐츠 인식 차원
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | Activity Map XY | `clickmapxy` |
 | 미디어 세션 ID | `videosessionid` |
 | Nielsen 액세스 방법 | `nielsenaccmethod` |
 | Nielsen 앱 ID | `nielsenappid` |
 | Channel 채널 자산 | `nielsenchannelasset` |
-| Nielsen 컨텐츠 유형 | `nielsencontenttype` |
+| Nielsen 콘텐츠 유형 | `nielsencontenttype` |
 
 ## Reports &amp; Analytics에서만 지원되는 차원
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | 브라우저 높이 | `browserheight` |
 | 브라우저 너비 | `browserwidth` |
@@ -181,15 +181,15 @@ ht-degree: 100%
 | 주간 고유 고객 수 | `weeklyuniquecustomers` |
 | 연간 고유 고객 수 | `yearlyuniquecustomers` |
 
-## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 컨텐츠 인식 차원
+## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 콘텐츠 인식 차원
 
-### 비디오(Media Analytics)
+### 비디오 (Media Analytics)
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
-| 컨텐츠 | `video` |
-| 컨텐츠 세그먼트 | `videosegment` |
-| 컨텐츠 유형 | `videocontenttype` |
+| 콘텐츠 | `video` |
+| 콘텐츠 세그먼트 | `videosegment` |
+| 콘텐츠 유형 | `videocontenttype` |
 | 광고 플레이어 이름 | `videoadplayername` |
 | Pod의 광고 위치 | `videoadinpod` |
 | 드롭된 프레임 | `videoqoedroppedframecountevar` |
@@ -202,13 +202,13 @@ ht-degree: 100%
 | 광고 Pod | `videoadpod` |
 | 미디어 경로 | `videopath` |
 | 광고 | `videoad` |
-| 컨텐츠 플레이어 이름 | `videoplayername` |
-| 컨텐츠 채널 | `videochannel` |
+| 콘텐츠 플레이어 이름 | `videoplayername` |
+| 콘텐츠 채널 | `videochannel` |
 | 챕터 | `videochapter` |
-| 컨텐츠 이름(변수) | `videoname` |
-| 컨텐츠 길이(변수) | `videolength` |
-| 광고 이름(변수) | `videoadname` |
-| 광고 길이(변수) | `videoadlength` |
+| 콘텐츠 이름 (변수) | `videoname` |
+| 콘텐츠 길이 (변수) | `videolength` |
+| 광고 이름 (변수) | `videoadname` |
+| 광고 길이 (변수) | `videoadlength` |
 | 표시 | `videoshow` |
 | 시즌 | `videoseason` |
 | 에피소드 | `videoepisode` |
@@ -235,7 +235,7 @@ ht-degree: 100%
 
 ### Adobe Social
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | 용어 | `socialterm` |
 | 소셜 플랫폼/속성 | `socialcontentprovider` |
@@ -257,27 +257,27 @@ ht-degree: 100%
 
 ### Mobile SDK
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | 첫 번째 실행 날짜 | `mobileinstalldate` |
 | 앱 ID | `mobileappid` |
 | 시작 번호 | `mobilelaunchnumber` |
 | 최초 사용 이후 일 수 | `mobiledayssincefirstuse` |
 | 마지막 사용 이후 일 수 | `mobiledayssincelastuse` |
-| 시간(SDK) | `mobilehourofday` |
-| 요일(SDK) | `mobiledayofweek` |
-| 운영 체제(SDK) | `mobileosenvironment` |
+| 시간 (SDK) | `mobilehourofday` |
+| 요일 (SDK) | `mobiledayofweek` |
+| 운영 체제 (SDK) | `mobileosenvironment` |
 | 마지막 업그레이드 이후 일 수 | `mobiledayssincelastupgrade` |
 | 마지막 업그레이드 이후 출시 | `mobilelaunchessincelastupgrade` |
-| 장치 이름(SDK) | `mobiledevice` |
-| 운영 체제 버전(SDK) | `mobileosversion` |
+| 장치 이름 (SDK) | `mobiledevice` |
+| 운영 체제 버전 (SDK) | `mobileosversion` |
 | 비콘 Major | `mobilebeaconmajor` |
 | 비콘 Minor | `mobilebeaconminor` |
 | 비콘 UUID | `mobilebeaconuuid` |
 | 비콘 Proximity | `mobilebeaconproximity` |
-| 위치(10km까지) | `latlon1` |
-| 위치(100m까지) | `latlon23` |
-| 위치(1m까지) | `latlon45` |
+| 위치 (10km까지) | `latlon1` |
+| 위치 (100m까지) | `latlon23` |
+| 위치 (1m까지) | `latlon45` |
 | 관심 영역 이름 | `pointofinterest` |
 | 관심 영역 중앙까지의 거리 | `pointofinterestdistance` |
 | 위치 정확성 | `mobileplaceaccuracy` |
@@ -292,16 +292,16 @@ ht-degree: 100%
 | 시작 비콘 Proximity | `entrymobilebeaconproximity` |
 | 종료 비콘 Proximity | `exitmobilebeaconproximity` |
 
-### AMO(Adobe Advertising Cloud)
+### AMO (Adobe Advertising Cloud)
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | AMO EF ID | `amo_ef_id` |
 | AMO ID | `amo_cid` |
 
 ### Activity Map
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | 지역별 Activity Map 링크 | `clickmaplinkbyregion` |
 | Activity Map 영역 | `clickmapregion` |
@@ -312,13 +312,13 @@ ht-degree: 100%
 
 이 통합을 구현하는 방법에 관한 자세한 내용은 [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html)을 참조하십시오.
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | Nielsen 광고 모델 | `nielsenadmodel` |
 | Nielsen 세그먼트 C | `nielsensegmentc` |
 | Nielsen 세그먼트 B | `nielsensegmentb` |
 | Nielsen 세그먼트 A | `nielsensegmenta` |
-| Nielsen 컨텐츠 ID | `nielsencontentid` |
+| Nielsen 콘텐츠 ID | `nielsencontentid` |
 | Nielsen 자산/프로그램 | `nielsenasset` |
 | Nielsen VCID | `nielsenvcid` |
 | Nielsen 옵트 아웃 | `nielsenoptout` |
@@ -331,9 +331,9 @@ ht-degree: 100%
 | 시작 Nielsen 클라이언트 ID | `entrynielsenclientid` |
 | 종료 Nielsen 클라이언트 ID | `exitnielsenclientid` |
 
-### AEM(Adobe Experience Manager)
+### AEM (Adobe Experience Manager)
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | 자산 ID | `aemassetid` |
 | 자산 소스 | `aemassetsource` |
@@ -343,6 +343,6 @@ ht-degree: 100%
 
 ### Adobe Campaign
 
-| 차원 이름(Analytics UI에 표시됨) | 차원 ID(API 요청에 사용됨) |
+| 차원 이름 (Analytics UI에 표시됨) | 차원 ID (API 요청에 사용됨) |
 |--- |--- |
 | Adobe Campaign 수행된 배달 ID | `ac_delivery_internal_name` |
