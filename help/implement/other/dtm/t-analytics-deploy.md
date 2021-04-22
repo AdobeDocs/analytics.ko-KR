@@ -1,21 +1,21 @@
 ---
-description: Dynamic Tag Management를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동(기존) 구현에 대해 설명합니다.
+description: Dynamic Tag Management를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동 (기존) 구현에 대해 설명합니다.
 keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target
-title: Adobe Analytics 수동 구현(이전)
+title: Adobe Analytics 수동 구현 (이전)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '423'
+exl-id: 7a9b3a67-64c1-42c9-94d4-ab86b9dfd038
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '426'
 ht-degree: 100%
 
 ---
 
+# Adobe Analytics 수동 구현 (이전)
 
-# Adobe Analytics 수동 구현(이전)
-
-[!UICONTROL Dynamic Tag Management]를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동(이전) 구현에 대해 설명합니다.
+[!UICONTROL Dynamic Tag Management]를 사용하여 배포할 Adobe Analytics 도구를 만듭니다. 이 절차에서는 수동 (이전) 구현에 대해 설명합니다.
 
 자동 구현 관리에 대한 자세한 내용은 [Adobe Analytics 도구 추가](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md).
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 1. Analytics 측정 코드를 다운로드 다운로드합니다. 
    1. Analytics에서 **[!UICONTROL 관리자]** > **[!UICONTROL 코드 관리자]**&#x200B;를 클릭합니다.
-   1. **[!UICONTROL JavaScript(신규)]**&#x200B;를 클릭하여 코드를 로컬로 다운로드합니다.
+   1. **[!UICONTROL JavaScript (신규)]**&#x200B;를 클릭하여 코드를 로컬로 다운로드합니다.
 1. [!UICONTROL Dynamic Tag Management]에서 [웹 속성을 만듭니다](/help/implement/other/dtm/t-create-web-property.md).
 
    ![](assets/dtm-property.png)
@@ -50,7 +50,7 @@ ht-degree: 100%
 
    설치된 도구는 [!UICONTROL 개요] 탭에 표시됩니다.
 
-1. 코드를 구성하려면 **[!UICONTROL 설정]**![](assets/settings_gear.png)()을 클릭합니다. 
+1. 코드를 구성하려면 **[!UICONTROL 설정]**![](assets/settings_gear.png) ()을 클릭합니다. 
 
    적어도, **[!UICONTROL 쿠키]**&#x200B;를 클릭하고, 추적 서버와 SSL 추적 서버를 구성합니다.
 
@@ -61,9 +61,8 @@ ht-degree: 100%
 1. [포함 탭에서 머리글 및 바닥글 코드를 추가](/help/implement/other/dtm/c-headers-footers/t-header-footer-code.md)합니다.
 
    스테이징의 경우, 기본 Amazon 호스팅 옵션은 그대로 두어도 됩니다. 프로덕션 롤아웃 전에 필요할 경우 변경할 수 있습니다.
-1. (선택 사항) 옵션 탭에서 **[!UICONTROL 설정]**![](assets/settings_gear.png)()을 클릭하고 Adobe Analytics 코드를 구성합니다.
+1.  (선택 사항) 옵션 탭에서 **[!UICONTROL 설정]**![](assets/settings_gear.png) ()을 클릭하고 Adobe Analytics 코드를 구성합니다.
 
    >[!NOTE]
    >
-   >[!UICONTROL Adobe Analytics] 페이지의 설정(일반, 쿠키 등)은 `s_code`의 설정을 무시합니다. 이러한 설정이 `s_code`에 있을 경우에는 여기에서 반복할 필요가 없습니다.
-
+   >[!UICONTROL Adobe Analytics] 페이지의 설정 (일반, 쿠키 등)은 `s_code`의 설정을 무시합니다. 이러한 설정이 `s_code`에 있을 경우에는 여기에서 반복할 필요가 없습니다.
