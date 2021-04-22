@@ -1,14 +1,14 @@
 ---
 title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
+exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
 ---
-
 
 # prop
 
@@ -24,7 +24,7 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 ## Adobe Experience Platform Launch의 prop
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop을 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 prop을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 >[!TIP]
 >
->구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 구분 기호를 사용할 수 있습니다.
+>구현에 사용되는 일반적인 구분 기호는 쉼표 (`,`), 콜론 (`:`), 세미콜론 (`;`) 또는 파이프 (`|`)입니다. 구현에 가장 적합한 구분 기호를 사용할 수 있습니다.
 
 ### 목록 Prop 설정
 
