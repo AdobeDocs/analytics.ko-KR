@@ -1,14 +1,14 @@
 ---
 title: 플러그인 개요
 description: 사이트에 코드를 붙여 넣어 새로운 기능을 도입할 수 있습니다.
+exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
 ---
-
 
 # 플러그인 개요
 
@@ -26,7 +26,7 @@ Adobe에서는 특정 플러그인을 설치하는 몇 가지 방법을 제공�
 
 각 조직에는 서로 다른 구현 요구 사항이 있으므로 구현에 이러한 요구 사항을 포함할 방법을 결정할 수 있습니다. 사이트에 코드를 포함할 때에는 다음 기준을 충족하는지 확인하십시오.
 
-1. 먼저 Analytics 추적 개체([`s_gi`](../functions/s-gi.md) 사용)를 인스턴스화합니다.
+1. 먼저 Analytics 추적 개체 ([`s_gi`](../functions/s-gi.md) 사용)를 인스턴스화합니다.
    * Launch는 Adobe Analytics가 로드될 때 추적 개체를 자동으로 인스턴스화합니다.
    * `AppMeasurement.js`를 사용하는 구현은 일반적으로 JavaScript 파일의 맨 위에 있는 추적 개체를 초기화합니다.
 2. 두 번째로 플러그인 코드를 포함합니다.
