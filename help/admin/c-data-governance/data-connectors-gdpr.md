@@ -1,19 +1,19 @@
 ---
-description: 이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors(이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
-title: 데이터 개인 정보 보호 및 Data Connectors(Genesis)
+description: 이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors (이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
+title: 데이터 개인 정보 보호 및 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
 ---
 
+# 데이터 개인 정보 보호 및 Data Connectors (Genesis)
 
-# 데이터 개인 정보 보호 및 Data Connectors(Genesis)
-
-이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors(이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
+이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors (이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
 
 이 정보를 사용하면 데이터 개인 정보 보호 요청을 받을 때 커넥터를 통해 가져온 직접 또는 간접적으로 식별 가능한 데이터를 식별할 수 있습니다.
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 정보는 [레이블이 지정](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)되어야 하는 변수를 식별하는 데 도움이 되지만, [데이터 개인 정보 보호 준비](/help/admin/c-data-governance/an-gdpr-overview.md)(예: 분류 업데이트)를 위해 적절한 레이블을 적용하거나 기타 작업을 수행하는 것은 데이터 제어자인 귀하의 책임입니다.
+>이 정보는 [레이블이 지정](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)되어야 하는 변수를 식별하는 데 도움이 되지만, [데이터 개인 정보 보호 준비](/help/admin/c-data-governance/an-gdpr-overview.md) (예: 분류 업데이트)를 위해 적절한 레이블을 적용하거나 기타 작업을 수행하는 것은 데이터 제어자인 귀하의 책임입니다.
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
@@ -116,7 +116,7 @@ ht-degree: 100%
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>ForeSee(v2.0)</b> </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>ForeSee (v2.0)</b> </p> </td> 
    <td colname="col2"> <p>Foresee Respondent ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
@@ -174,7 +174,7 @@ ht-degree: 100%
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Silverpop Engage(v2.0)</b> </p> </td> 
+   <td colname="col1"> <p><b>Silverpop Engage (v2.0)</b> </p> </td> 
    <td colname="col2"> <p>Silverpop ID </p> <p>Email Address </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
@@ -200,4 +200,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
