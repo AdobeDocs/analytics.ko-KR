@@ -1,14 +1,14 @@
 ---
 title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
+exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '318'
 ht-degree: 100%
 
 ---
-
 
 # 이벤트 ID 직렬화
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch에서 이벤트 ID 사용
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙의 작업으로 이벤트 ID 필드를 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙의 작업으로 이벤트 ID 필드를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
