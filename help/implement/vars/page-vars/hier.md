@@ -1,14 +1,14 @@
 ---
 title: hier
 description: Adobe Analytics에서 계층 변수를 구현합니다.
+exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
-
 
 # hier
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >
 >이 변수는 이전 버전의 Adobe Analytics에서 더 일반적이었습니다. Adobe에서는 대신 [eVar](evar.md) 및 분류를 사용하는 것이 좋습니다.
 
-이 변수는 사이트 구조의 수준이 4 이상인 사이트에 유용합니다. 예를 들어 미디어 사이트의 스포츠 섹션에는 4개 수준(`Sports`, `Local Sports`, `Baseball`및 `Team name`)이 있을 수 있습니다. 누군가 야구 페이지를 방문하면 스포츠, 해외 스포츠 및 야구가 해당 방문을 모두 반영합니다.
+이 변수는 사이트 구조의 수준이 4 이상인 사이트에 유용합니다. 예를 들어 미디어 사이트의 스포츠 섹션에는 4개 수준 (`Sports`, `Local Sports`, `Baseball`및 `Team name`)이 있을 수 있습니다. 누군가 야구 페이지를 방문하면 스포츠, 해외 스포츠 및 야구가 해당 방문을 모두 반영합니다.
 
 Adobe는 구현에서 최대 5개의 계층 변수를 지원합니다. 계층 활성화 시, 변수에 대한 구분 기호와 계층의 최대 수준 수를 결정합니다. 예를 들어 구분 기호가 쉼표인 경우 계층은 다음과 유사하게 보입니다.
 
