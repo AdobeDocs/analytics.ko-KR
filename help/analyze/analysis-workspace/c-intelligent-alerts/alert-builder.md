@@ -2,16 +2,16 @@
 description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경고를 받습니다.
 title: 경고 빌더
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI Tools
+feature: AI 도구
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 98%
+exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
-
 
 # 경고 빌더
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 **시간 세부기간**
 
-지표를 확인할 시기(시간별, 일별, 주별 또는 월별)를 지정합니다.
+지표를 확인할 시기 (시간별, 일별, 주별 또는 월별)를 지정합니다.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 98%
 
 * 트리거를 추가하는 지표를 캔버스에 드래그하여 놓습니다.
 
-   경고에 뜬 모든 구성 요소(지표/차원/세그먼트) 중 일부가 현재 선택된 보고서 세트와 호환하지 않을 경우 **&quot;호환하지 않는 구성 요소&quot;** 메시지가 표시됩니다.
+   경고에 뜬 모든 구성 요소 (지표/차원/세그먼트) 중 일부가 현재 선택된 보고서 세트와 호환하지 않을 경우 **&quot;호환하지 않는 구성 요소&quot;** 메시지가 표시됩니다.
 * 경고를 설정하기 전에 지표가 초과되는 임계값을 결정합니다. 이 값을 임계값으로 설정한 후 다음 조건 중 하나로 설정할 수 있습니다.
 
    * 예외 항목이 있음
