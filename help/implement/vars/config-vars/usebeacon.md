@@ -1,14 +1,14 @@
 ---
 title: useBeacon
 description: useBeacon을 사용하면 AppMeasurement에서 브라우저 sendBeacon API를 사용하도록 할 수 있습니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '229'
 ht-degree: 100%
 
 ---
-
 
 # useBeacon
 
@@ -36,4 +36,4 @@ s.useBeacon = true;
 
 >[!NOTE]
 >
-> 추적 호출이 실행된 후 이 변수는 `false`로 재설정됩니다. 구현이 동일한 페이지 로드에서 여러 이미지 요청을 전송하는 경우(예: 단일 페이지 애플리케이션) 각 추적 호출 전에 이 변수를 `true`로 설정하십시오.
+> 추적 호출이 실행된 후 이 변수는 `false`로 재설정됩니다. 구현이 동일한 페이지 로드에서 여러 이미지 요청을 전송하는 경우 (예: 단일 페이지 애플리케이션) 각 추적 호출 전에 이 변수를 `true`로 설정하십시오.
