@@ -1,14 +1,14 @@
 ---
 title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
+exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 translation-type: ht
-source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '676'
 ht-degree: 100%
 
 ---
-
 
 # events
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch의 이벤트
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이벤트를 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 이벤트를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
