@@ -1,14 +1,14 @@
 ---
 title: websiteBot
 description: 마우스 움직임을 사용하여 동적으로 보트를 식별합니다.
+exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 translation-type: ht
-source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
-
 
 # Adobe 플러그인: websiteBot
 
@@ -29,21 +29,21 @@ ht-degree: 100%
 
 이 플러그인을 사용하기 전에 다음 사항을 권장합니다.
 
-* **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **&quot;방문자&quot;**&#x200B;로 설정하고 할당은 **&quot;원래값(처음)&quot;**&#x200B;으로 설정합니다.
+* **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **&quot;방문자&quot;**&#x200B;로 설정하고 할당은 **&quot;원래값 (처음)&quot;**&#x200B;으로 설정합니다.
 * **사용자 에이전트를 별도의 변수로 수집**: 사용자 에이전트 문자열을 별도의 변수로 수집하여 이 플러그인의 효과를 모니터링합니다. 이 데이터를 수집하려면 모든 히트에서 eVar를 `navigator.UserAgent`로 설정합니다.
 
 ## Launch 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
-1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 단추가 표시됩니다.
-1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여 넣습니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
+1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
+1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
 1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여 넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -66,8 +66,8 @@ s.eVar1 = websiteBot;
 s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ```
 
-## 버전 기록
+## 버전 내역
 
-### 0.1(2021년 1월 19일)
+### 0.1 (2021년 1월 19일)
 
 * 베타 릴리스
