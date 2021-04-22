@@ -1,14 +1,14 @@
 ---
 title: 월
 description: 지표가 발생한 월입니다.
+exl-id: 77f7aa91-ea2e-482f-9a29-35912efb967a
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '98'
 ht-degree: 100%
 
 ---
-
 
 # 월
 
