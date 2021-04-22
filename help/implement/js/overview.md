@@ -1,20 +1,20 @@
 ---
 title: JavaScript용 AppMeasurement
 description: 태그 관리 시스템 없이 JavaScript를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 
 ---
 
-
 # JavaScript용 AppMeasurement
 
 AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 일반적인 방법이었습니다. 그러나 Tag Management 시스템의 인기가 높아짐에 따라 [Adobe Experience Platform Launch](../launch/overview.md) 사용이 권장됩니다.
 
-## JavaScript를 사용하여 데이터를 Adobe에 보내는 전반적인 워크플로우
+## JavaScript를 사용하여 데이터를 Adobe에 보내는 전반적인 워크플로
 
 1. `AppMeasurement.js` 파일을 로드합니다. 이 파일에는 데이터를 Adobe에 보내는 데 필요한 라이브러리가 포함되어 있습니다.
 
