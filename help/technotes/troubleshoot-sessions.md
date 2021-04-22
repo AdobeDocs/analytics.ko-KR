@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics의 세션 문제 해결
 description: Adobe Analytics에서 로그아웃되는 것과 관련된 문제를 해결하는 방법을 알아봅니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 191250ef-8313-47be-9717-046cce870998
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '345'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics의 세션 문제 해결
 
@@ -24,15 +24,15 @@ ht-degree: 100%
 
 ## 프록시로 인한 문제
 
-Adobe는 Adobe에 요청할 때 인증 헤더를 사용합니다. Bluecoat(현재 Symantec 소유)와 같은 일부 프록시는 Adobe Analytics에서 사용하는 중요한 인증 헤더 정보를 제거합니다. Adobe에서 인증 헤더를 확인하지 못하면 세션이 만료됩니다.
+Adobe는 Adobe에 요청할 때 인증 헤더를 사용합니다. Bluecoat (현재 Symantec 소유)와 같은 일부 프록시는 Adobe Analytics에서 사용하는 중요한 인증 헤더 정보를 제거합니다. Adobe에서 인증 헤더를 확인하지 못하면 세션이 만료됩니다.
 
 이 문제를 해결하려면 조직의 IT 팀과 함께 조직의 프록시를 통해 인증 헤더를 허용하는 것이 좋습니다.
 
 >[!NOTE]
 >
->Analytics 커뮤니티의 구성원은 다음 링크가 유용하다고 판단했지만, 그러한 링크는 Adobe가 소유하고 있지 않습니다. 이런 컨텐츠를 볼 때 이 점을 고려하십시오.
+>Analytics 커뮤니티의 구성원은 다음 링크가 유용하다고 판단했지만, 그러한 링크는 Adobe가 소유하고 있지 않습니다. 이런 콘텐츠를 볼 때 이 점을 고려하십시오.
 
 Symantec 프록시 및 인증 헤더에 대한 정보는 다음을 참조하십시오.
 
-* [ProxySG 또는 ASG 어플라이언스에서 프록시 체인 배포에 업스트림 프록시 인증 구성](https://support.symantec.com/en_US/article.TECH246122.html)
-* [ProxySG에서 항상 서버 인증 업스트림을 전달하도록 허용](https://support.symantec.com/en_US/article.TECH244708.html)
+* [ProxySG 또는 ASG 어플라이언스에서 프록시 체인 배포에 업스트림 프록시 인증 구성](https://support.symantec.com/ko_KR/article.TECH246122.html)
+* [ProxySG에서 항상 서버 인증 업스트림을 전달하도록 허용](https://support.symantec.com/ko_KR/article.TECH244708.html)
