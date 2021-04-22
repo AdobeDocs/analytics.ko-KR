@@ -16,8 +16,8 @@ ht-degree: 100%
 
 Adobe Experience Platform Launch를 사용하는 경우 추적기 개체에 전역적으로 액세스할 수 있는지 확인하십시오. Launch 사용 안내서의 [Adobe Analytics 확장 개요](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)를 참조하십시오.
 
->!![CAUTION]
-상위 페이지와 iframe 모두에 AppMeasurement 라이브러리를 포함하지 마십시오. 이렇게 하면 여러 이미지 요청을 전송하고 보고서를 부풀리며 청구 가능한 서버 호출이 증가하는 위험이 발생합니다.
+>[!CAUTION]
+>상위 페이지와 iframe 모두에 AppMeasurement 라이브러리를 포함하지 마십시오. 이렇게 하면 여러 이미지 요청을 전송하고 보고서를 부풀리며 청구 가능한 서버 호출이 증가하는 위험이 발생합니다.
 
 ## iframe에 있는 AppMeasurement에 액세스
 
