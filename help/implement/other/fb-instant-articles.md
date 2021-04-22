@@ -1,24 +1,24 @@
 ---
 title: Facebook 인스턴트 아티클로 구현
 description: Facebook 인스턴트 아티클 페이지에서 Adobe Analytics를 구현합니다.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
 ---
 
-
 # Facebook 인스턴트 아티클로 구현
 
-Facebook 인스턴트 아티클을 사용하면 게시자가 Facebook에서 빠른 대화형 문서를 만들기 수 있습니다. 인스턴트 아티클은 모바일 웹보다 최고 10배 더 빠르게 컨텐츠를 로드할 수 있습니다.
+Facebook 인스턴트 아티클을 사용하면 게시자가 Facebook에서 빠른 대화형 문서를 만들기 수 있습니다. 인스턴트 아티클은 모바일 웹보다 최고 10배 더 빠르게 콘텐츠를 로드할 수 있습니다.
 
-Facebook 인스턴트 아티클에 Adobe Analytics를 포함하여 방문자 행동을 추적할 수 있습니다. 게시자 컨텐츠는 게시자의 웹 사이트가 아니라 Facebook 앱 내에 있으므로, 태깅 접근 방식은 표준 Analytics 구현과는 다소 다릅니다.
+Facebook 인스턴트 아티클에 Adobe Analytics를 포함하여 방문자 행동을 추적할 수 있습니다. 게시자 콘텐츠는 게시자의 웹 사이트가 아니라 Facebook 앱 내에 있으므로, 태깅 접근 방식은 표준 Analytics 구현과는 다소 다릅니다.
 
-## 워크플로우
+## 워크플로
 
-Adobe Analytics를 구현하는 주요 워크플로우는 다음과 같습니다.
+Adobe Analytics를 구현하는 주요 워크플로는 다음과 같습니다.
 
 1. `stats.html` 페이지를 만듭니다. 이 페이지를 코딩하여 URL에서 쿼리 문자열 매개 변수를 가져오고 각 매개 변수를 Analytics 변수에 지정하십시오.
 1. 웹 서버에서 `stats.html` 페이지를 호스팅합니다.
@@ -67,7 +67,7 @@ Adobe Analytics를 구현하는 주요 워크플로우는 다음과 같습니다
 
 ### 3단계: 각 Facebook 인스턴트 아티클 페이지에서 `stats.html` 참조
 
-Facebook 인스턴트 아티클 컨텐츠를 만들 때 분석 HTML 컨텐츠를 iframe 내에 포함하십시오. 예:
+Facebook 인스턴트 아티클 콘텐츠를 만들 때 분석 HTML 콘텐츠를 iframe 내에 포함하십시오. 예:
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
