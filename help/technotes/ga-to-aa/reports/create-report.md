@@ -1,18 +1,18 @@
 ---
 title: Analysis Workspace에서 기본 보고서 만들기
 description: Google Analytics 등 타사 도구에 익숙한 사용자에 초점을 맞춘 방식으로 Analysis Workspace에서 기본 보고서를 만드는 방법을 알아봅니다.
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
 ---
 
-
 # Analysis Workspace에서 Google Analytics 사용자를 위한 기본 보고서 만들기
 
-Analysis Workspace(Adobe Analytics 내에 있는 주요 기능 중 하나)는 사용자가 수집된 데이터에 대한 통찰력을 얻을 수 있는 강력한 영역을 제공합니다. Google Analytics와 Adobe Analytics의 보고는 서로 전혀 다릅니다.
+Analysis Workspace (Adobe Analytics 내에 있는 주요 기능 중 하나)는 사용자가 수집된 데이터에 대한 통찰력을 얻을 수 있는 강력한 영역을 제공합니다. Google Analytics와 Adobe Analytics의 보고는 서로 전혀 다릅니다.
 
 * Google Analytics의 보고 구조를 사용하면 지역 위치 또는 참조 트래픽 같은 특정 유형의 데이터를 선택할 수 있습니다. 플랫폼은 이 데이터를 보는 최선의 방법을 기반으로 미리 작성된 보고 보기를 사용합니다.
 * Analysis Workspace의 보고 구조는 빈 캔버스를 제공하므로 정확한 보고 요구 사항을 더 유연하게 충족할 수 있습니다.
@@ -31,35 +31,35 @@ Analysis Workspace는 미리 작성된 보고서라기보다는 캔버스와 더
 
 ## Workspace에서 기본 보고서 만들기
 
-작업 공간 캔버스로 올바른 구성 요소를 끌어 놓아 모든 페이지 보고서(Google Analytics의 보고서와 유사)를 만듭니다.
+작업 공간 캔버스로 올바른 구성 요소를 끌어 놓아 모든 페이지 보고서 (Google Analytics의 보고서와 유사)를 만듭니다.
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
 1. 맨 위 탐색 막대에서 작업 공간을 클릭합니다.
 1. 새 프로젝트 만들기 단추를 클릭합니다.
 1. 양식 팝업에서 &#39;빈 프로젝트&#39;가 선택되어 있는지 확인한 다음 만들기를 클릭합니다.
-1. 왼쪽에 차원, 지표, 세그먼트 및 날짜 범위 목록이 표시됩니다. 페이지 차원(주황색으로 표시됨)을 찾아 &#39;여기에 차원 놓기&#39;라는 캔버스에 끌어서 놓습니다.
+1. 왼쪽에 차원, 지표, 세그먼트 및 날짜 범위 목록이 표시됩니다. 페이지 차원 (주황색으로 표시됨)을 찾아 &#39;여기에 차원 놓기&#39;라는 캔버스에 끌어서 놓습니다.
 1. 이달의 최고 페이지를 보여주는 보고서를 볼 수 있습니다. Analysis Workspace가 자동으로 보고서를 [발생 횟수](/help/components/metrics/occurrences.md) 지표로 채웁니다.
-1. Google Analytics의 테이블에는 일반적으로 7~8개의 지표가 있습니다. 바운스 비율 지표(녹색으로 표시됨)를 찾아 발생 횟수 지표 헤더 옆에 끌어서 놓습니다. 방문 횟수 지표를 발생 횟수 옆으로 끌어 놓으면 두 지표가 나란히 표시됩니다.
+1. Google Analytics의 테이블에는 일반적으로 7~8개의 지표가 있습니다. 바운스 비율 지표 (녹색으로 표시됨)를 찾아 발생 횟수 지표 헤더 옆에 끌어서 놓습니다. 방문 횟수 지표를 발생 횟수 옆으로 끌어 놓으면 두 지표가 나란히 표시됩니다.
 1. 기존 지표 헤더 옆으로 지표를 끌어 놓아 여러 지표를 나란히 배치할 수 있습니다. 일반적으로 Google Analytics에서 사용되는 지표를 가져오는 방법에 대한 자세한 내용은 [자주 사용되는 지표](common-metrics.md)를 참조하십시오.
 
    ![새 지표](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## Workspace에서 미리 작성된 보고서 템플릿으로 시작
 
-프로젝트 템플릿에 액세스하여 컨텐츠 사용량 템플릿(Google Analytics의 모든 페이지 보고서와 유사함)을 만듭니다.
+프로젝트 템플릿에 액세스하여 콘텐츠 사용량 템플릿 (Google Analytics의 모든 페이지 보고서와 유사함)을 만듭니다.
 
 1. 새 프로젝트 만들기 단추를 클릭합니다.
-1. 모든 템플릿 아래에 나열된 &#39;컨텐츠 사용량(웹)&#39; 아이콘을 찾아 두 번 클릭합니다.
+1. 모든 템플릿 아래에 나열된 &#39;콘텐츠 사용량 (웹)&#39; 아이콘을 찾아 두 번 클릭합니다.
 1. 시작 페이지 흐름, 최상위 페이지 테이블, 종료 페이지 흐름, 시작 사이트 섹션 흐름 및 최상위 사이트 섹션 테이블 등의 미리 작성된 각 시각화를 찾아봅니다.
 
    ![템플릿 선택](/help/technotes/ga-to-aa/assets/content_consumption_template.png)
 
 ## 도구 실험
 
-Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 드래그하여 놓아서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 Workspace 프로젝트에 드래그하여 사용 가능한 조합을 확인하십시오.
+Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 드래그하여 놓아서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 작업 공간 프로젝트에 드래그하여 사용 가능한 조합을 확인하십시오.
 
-실수로 유효하지 않은 구성 요소를 Workspace 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z(Windows) 또는 Cmd+Z(Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트]>[!UICONTROL 신규]*&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
+실수로 유효하지 않은 구성 요소를 작업 공간 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z (Windows) 또는 Cmd+Z (Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트] > [!UICONTROL 신규]*&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다.
 
 Adobe는 마우스 오른쪽 단추 클릭 컨텍스트 메뉴에 Analysis Workspace의 많은 기능을 배치했습니다. 대부분의 시각화 및 구성 요소를 마우스 오른쪽 단추로 클릭하여 보다 자세한 분석과 상호 작용을 수행할 수 있습니다. 작업 공간에서 구성 요소를 마우스 오른쪽 단추로 클릭하여 사용 가능한 옵션을 확인합니다.
 
