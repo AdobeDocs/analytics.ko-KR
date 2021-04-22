@@ -1,14 +1,14 @@
 ---
 title: abort
 description: abort 변수는 히트가 Adobe 데이터 수집 서버에 전송되지 않도록 하는 부울입니다.
+exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # abort
 
@@ -22,7 +22,7 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 
 `abort` 변수는 부울입니다. 기본값은 `false`입니다.
 
-* `true`로 설정하면 그 다음 추적 호출([`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md))이 데이터를 Adobe에 전송하지 않습니다.
+* `true`로 설정하면 그 다음 추적 호출 ([`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md))이 데이터를 Adobe에 전송하지 않습니다.
 * `false`로 설정하거나 정의하지 않을 경우 이 변수는 아무 작업도 하지 않습니다.
 
 ```js
