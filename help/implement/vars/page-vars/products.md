@@ -1,14 +1,14 @@
 ---
 title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # products
 
@@ -31,21 +31,21 @@ Launch에는 이 변수를 설정할 전용 필드가 없습니다. 그러나 �
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.products
 
-`s.products` 변수는 제품당 여러 개의 구분된 필드를 포함하는 문자열입니다. 각 개별 제품은 모든 필드에 최대 100바이트를 포함할 수 있습니다. 각 필드는 문자열에서 세미콜론(`;`)으로 구분하십시오.
+`s.products` 변수는 제품당 여러 개의 구분된 필드를 포함하는 문자열입니다. 각 개별 제품은 모든 필드에 최대 100바이트를 포함할 수 있습니다. 각 필드는 문자열에서 세미콜론 (`;`)으로 구분하십시오.
 
-* **카테고리**(선택 사항): 주요 제품 카테고리. 제품을 카테고리로 그룹화하는 방법은 조직이 결정합니다.
-* **제품 이름**(필수): 제품의 이름.
-* **수량**(선택 사항): 장바구니에 들어 있는 제품의 수. 이 필드는 구매 이벤트가 있는 히트에만 적용됩니다.
-* **가격**(선택 사항): 제품의 총 가격(소수). 수량이 두 개 이상인 경우 개별 제품 가격이 아니라 합계로 가격을 설정합니다. 이 값의 통화를 [`currencyCode`](../config-vars/currencycode.md) 변수와 일치하도록 맞춥니다. 이 필드에 통화 기호를 포함하지는 마십시오. 이 필드는 구매 이벤트가 있는 히트에만 적용됩니다.
-* **이벤트**(선택 사항): 제품에 연결된 이벤트. 여러 이벤트는 파이프(`|`)를 사용하여 구분하십시오. 자세한 내용은 [이벤트](events/events-overview.md)를 참조하십시오.
-* **eVar**(선택 사항): 제품에 연결된 머천다이징 eVar. 여러 머천다이징 eVar는 파이프(`|`)를 사용하여 구분하십시오. 자세한 내용은 [머천다이징 eVar](evar-merchandising.md)를 참조하십시오.
+* **카테고리** (선택 사항): 주요 제품 카테고리. 제품을 카테고리로 그룹화하는 방법은 조직이 결정합니다.
+* **제품 이름** (필수): 제품의 이름.
+* **수량** (선택 사항): 장바구니에 들어 있는 제품의 수. 이 필드는 구매 이벤트가 있는 히트에만 적용됩니다.
+* **가격** (선택 사항): 제품의 총 가격 (소수). 수량이 두 개 이상인 경우 개별 제품 가격이 아니라 합계로 가격을 설정합니다. 이 값의 통화를 [`currencyCode`](../config-vars/currencycode.md) 변수와 일치하도록 맞춥니다. 이 필드에 통화 기호를 포함하지는 마십시오. 이 필드는 구매 이벤트가 있는 히트에만 적용됩니다.
+* **이벤트** (선택 사항): 제품에 연결된 이벤트. 여러 이벤트는 파이프 (`|`)를 사용하여 구분하십시오. 자세한 내용은 [이벤트](events/events-overview.md)를 참조하십시오.
+* **eVar** (선택 사항): 제품에 연결된 머천다이징 eVar. 여러 머천다이징 eVar는 파이프 (`|`)를 사용하여 구분하십시오. 자세한 내용은 [머천다이징 eVar](evar-merchandising.md)를 참조하십시오.
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-이 변수는 동일한 히트에서 여러 제품을 지원합니다. 여러 제품이 포함된 장바구니 및 구매 시 유용합니다. 제품당 100바이트 제한이 있지만 `products` 변수에 대한 전체 길이는 64K입니다. 문자열에서 각 제품은 쉼표(`,`)로 구분하십시오.
+이 변수는 동일한 히트에서 여러 제품을 지원합니다. 여러 제품이 포함된 장바구니 및 구매 시 유용합니다. 제품당 100바이트 제한이 있지만 `products` 변수에 대한 전체 길이는 64K입니다. 문자열에서 각 제품은 쉼표 (`,`)로 구분하십시오.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -97,7 +97,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-데이터 레이어 `digitalData` 를 사용하는 경우 [](../../prepare/data-layer.md)`digitalData.product` 개체 배열을 반복할 수 있습니다.
+`digitalData` [데이터 레이어](../../prepare/data-layer.md)를 사용하는 경우 `digitalData.product` 객체 배열을 반복할 수 있습니다.
 
 ```js
 for(var i=0; i<digitalData.product.length; i++) {
