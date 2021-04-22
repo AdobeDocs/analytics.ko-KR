@@ -2,16 +2,16 @@
 description: Workspace 프로젝트에서 가로 막대 시각화를 사용합니다.
 title: 가로 막대 및 스택 가로 막대
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 95%
+exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '71'
+ht-degree: 100%
 
 ---
-
 
 # 가로 막대 및 스택 가로 막대
 
@@ -30,4 +30,3 @@ ht-degree: 95%
 스택 막대 시각화에 대한 [!UICONTROL 스택 가로 막대] 시각화 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다.
 
 ![](assets/horizstacked100.png)
-
