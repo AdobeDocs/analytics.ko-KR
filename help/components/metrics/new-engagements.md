@@ -1,14 +1,14 @@
 ---
 title: 새 참여 횟수
 description: 첫 번째 터치 채널이 설정되는 횟수입니다.
+exl-id: a419d048-9715-4d7b-9c24-d34129755371
 translation-type: ht
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '148'
 ht-degree: 100%
 
 ---
-
 
 # 새 참여 횟수
 
