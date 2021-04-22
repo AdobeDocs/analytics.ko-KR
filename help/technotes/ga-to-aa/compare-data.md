@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 데이터와 타사 제품 비교
 description: Adobe Analytics의 데이터를 다른 Analytics 솔루션에서 수집한 데이터와 직접 비교할 때 선택할 수 있는 옵션을 이해합니다.
+exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '252'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 데이터와 타사 제품 비교
 
