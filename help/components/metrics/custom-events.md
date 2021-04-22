@@ -1,14 +1,14 @@
 ---
 title: 사용자 지정 이벤트
 description: 사용자 지정 이벤트가 존재하는 히트의 수입니다.
+exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '221'
 ht-degree: 100%
 
 ---
-
 
 # 사용자 지정 이벤트
 
