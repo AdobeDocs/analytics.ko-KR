@@ -1,14 +1,14 @@
 ---
 title: 항목
 description: 방문에서 첫 번째 값의 인스턴스입니다.
+exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
 ---
-
 
 # 항목
 
@@ -22,4 +22,4 @@ ht-degree: 100%
 
 >[!TIP]
 >
->모든 방문에서 항상 설정되지는 않는 차원에 대해 이 지표를 보는 경우 Analysis Workspace에서 &#39;지정되지 않음&#39; 차원 항목을 숨길 수 있습니다. 필터 아이콘을 클릭한 후, [!UICONTROL 지정되지 않음(없음) 포함]의 선택을 취소합니다.
+>모든 방문에서 항상 설정되지는 않는 차원에 대해 이 지표를 보는 경우 Analysis Workspace에서 &#39;지정되지 않음&#39; 차원 항목을 숨길 수 있습니다. 필터 아이콘을 클릭한 후, [!UICONTROL 지정되지 않음 (없음) 포함]의 선택을 취소합니다.
