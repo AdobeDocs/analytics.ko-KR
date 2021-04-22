@@ -2,11 +2,14 @@
 description: 필터 및 가중치가 적용된 지표의 예를 보여줍니다.
 title: 필터 및 가중치가 적용된 지표
 uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '143'
+ht-degree: 100%
 
 ---
-
 
 # 필터 및 가중치가 적용된 지표
 
@@ -31,4 +34,3 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 일반적으로 바운스 비율로 정렬하려 하지만 방문 수가 많은 페이지가 목록의 상단에 있어야 합니다. 다음과 같은 모습의 가중치가 적용된 바운스 비율을 만들 수 있습니다.
 
 ![](assets/cm_wbr.png)
-
