@@ -1,14 +1,14 @@
 ---
 title: contextData
 description: 컨텍스트 데이터 변수를 사용하면 처리 규칙이 읽을 수 있는 각 페이지에서 사용자 지정 변수를 정의할 수 있습니다.
+exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
 ---
-
 
 # contextData
 
