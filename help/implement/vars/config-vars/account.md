@@ -1,14 +1,14 @@
 ---
 title: account
 description: 계정 변수를 사용하여 보낸 데이터를 받을 보고서 세트를 결정합니다.
+exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # account
 
