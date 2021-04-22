@@ -1,14 +1,14 @@
 ---
 description: 추적은 Adobe Analytics 구현에 따라 검색 엔진 데이터를 추적하는 방법을 결정합니다. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
 title: 추적 수동 모드 및 자동 모드
+exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 translation-type: ht
-source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
 ---
-
 
 # 추적: 수동 모드 및 자동 모드
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP(컨텐츠 보안 정책)](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/csp.html)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/csp.html)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 모드 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -41,7 +41,7 @@ Google 계정에 추가해야 하는 문자열이 아래에 표시되어 있습�
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` 값(아래에 **굵게** 표시됨)은 제네릭이므로, **특정 계정 ID 문자열로 대체해야** 합니다. 계정 설정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
+>`<Advertising Analytics ID>` 값 (아래에 **굵게** 표시됨)은 제네릭이므로, **특정 계정 ID 문자열로 대체해야** 합니다. 계정 설정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
 
 **캠페인에 대한 추적 문자열:**
 
@@ -66,13 +66,13 @@ s_kwcid=AL!
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**타사(DoubleClick)`{unescapedlpurl}`**
+**타사 (DoubleClick)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-**타사(DoubleClick)`{lpurl}`**
+**타사 (DoubleClick)`{lpurl}`**
 
 URL이 리디렉션을 통과하고 &quot;unescapedlpurl&quot; 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속하도록 문자열을 인코딩해야 합니다.
 
@@ -86,7 +86,7 @@ Bing 계정에 추가해야 하는 문자열이 아래에 표시되어 있습니
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` 값(아래에 **굵게** 표시됨)은 제네릭이므로, **특정 계정 ID 문자열로 대체해야** 합니다. 계정 설정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
+>`<Advertising Analytics ID>` 값 (아래에 **굵게** 표시됨)은 제네릭이므로, **특정 계정 ID 문자열로 대체해야** 합니다. 계정 설정 화면의 &quot;추적&quot; 섹션 아래에서 특정 계정 ID 문자열을 가져올 수 있습니다.
 
 **캠페인에 대한 추적 문자열:**
 
@@ -111,13 +111,13 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**타사(DoubleClick)`{unescapedlpurl}`**
+**타사 (DoubleClick)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**타사(DoubleClick)`{lpurl}`**
+**타사 (DoubleClick)`{lpurl}`**
 
 URL이 리디렉션을 통과하고 &quot;unescapedlpurl&quot; 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속하도록 문자열을 인코딩해야 합니다.
 
