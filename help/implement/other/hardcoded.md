@@ -1,14 +1,14 @@
 ---
 title: 하드코딩된 이미지 요청으로 구현
-description: HTML 이미지 태그를 사용하여 Adobe Analytics를 구현합니다(하드코드된 이미지 요청)
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+description: HTML 이미지 태그를 사용하여 Adobe Analytics를 구현합니다 (하드코드된 이미지 요청)
+exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '655'
 ht-degree: 100%
 
 ---
-
 
 # 하드코딩된 이미지 요청으로 구현
 
@@ -33,7 +33,7 @@ Adobe에서 제공하는 AppMeasurement 라이브러리는 페이지에 있는 �
 * `/b/ss/`는 모든 이미지 요청에 포함됩니다. 이 항목은 Adobe 데이터 수집 서버에 저장된 이미지용 파일 구조의 일부입니다.
 * `examplersid`는 전송한 데이터를 받을 보고서 세트 ID입니다.
 * `/1/`은 히트 소스입니다. 내보내기 사용 안내서의 [데이터 열 참조](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) 아래에서 `hit_source`를 참조하십시오. 방문자 식별을 위해 쿠키와 기타 방법에 의해 사용되는 순서를 제어합니다.
-* 쿼리 문자열 구분 기호(`?`) 뒤의 모든 내용이 보고서에 포함할 데이터입니다. 이미지 요청에 포함할 수 있는 매개 변수의 전체 목록이 필요하면 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
+* 쿼리 문자열 구분 기호 (`?`) 뒤의 모든 내용이 보고서에 포함할 데이터입니다. 이미지 요청에 포함할 수 있는 매개 변수의 전체 목록이 필요하면 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
 
 ## Microsoft Outlook의 하드코딩된 이미지 요청
 
@@ -51,7 +51,7 @@ Adobe에서 제공하는 AppMeasurement 라이브러리는 페이지에 있는 �
 5. 삽입 탭으로 이동하여 **파일 첨부**&#x200B;를 클릭합니다. 이미지 요청 HTML 파일을 선택합니다.
 6. 삽입 옆에 있는 팝업 메뉴를 클릭하고 **텍스트로 삽입**&#x200B;을 선택합니다. 팝업 메뉴 없이 삽입 단추를 클릭하면 HTML 파일이 첨부 파일이 되어 작동하지 않습니다.
 
-이미지 요청이 1x1 투명 픽셀이므로 이메일은 변경되지 않습니다. 테스트 목적으로 이미지 요청을 보려면 테두리, 추가 텍스트 또는 기타 컨텐츠를 포함하도록 HTML 파일을 수정하십시오.
+이미지 요청이 1x1 투명 픽셀이므로 이메일은 변경되지 않습니다. 테스트 목적으로 이미지 요청을 보려면 테두리, 추가 텍스트 또는 기타 콘텐츠를 포함하도록 HTML 파일을 수정하십시오.
 
 ## FAQ
 
