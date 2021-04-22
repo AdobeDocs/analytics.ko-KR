@@ -1,14 +1,14 @@
 ---
 title: channel
 description: '''사이트 섹션'' 차원을 채웁니다.'
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # channel
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 ## Adobe Experience Platform Launch의 채널
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 채널을 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 채널을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
@@ -35,7 +35,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 채�
 s.channel = "Example site section";
 ```
 
-`digitalData` 데이터 [레이어를 사용하는 경우](../../prepare/data-layer.md):
+`digitalData` [데이터 레이어](../../prepare/data-layer.md)를 사용하는 경우:
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
