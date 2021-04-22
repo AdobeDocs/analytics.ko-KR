@@ -2,14 +2,14 @@
 description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 translation-type: ht
-source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # 관리 도구
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 + [과금](billing-admin.md)
 + [보트 규칙 개요](bot-removal/bot-rules.md)
 + [코드 관리자](code-manager-admin.md)
-+ [전환 변수(eVar)](conversion-var-admin/conversion-var-admin.md)
++ [전환 변수 (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [통화 코드](currency.md)
 + [사용자 지정 보고서 설명](custom-desc-admin.md)
 + [사용자 지정 달력](custom-calendar.md)
 + [데이터 소스](data-sources.md)
 + [기본 지표](default-metrics.md)
-+ [IP 주소별 제외](exclude-ip.md)
++ [IP 주소로 제외](exclude-ip.md)
 + [검색 방법](finding-methods.md)
 + [일반 계정 설정](general-acct-settings-admin.md)
 + [내부 URL 필터](internal-url-filter-admin.md)
@@ -50,6 +50,6 @@ ht-degree: 100%
 + [소셜 관리](social-management.md)
 + [성공 이벤트 개요](c-success-events/success-event.md)
 + [타임스탬프 선택 사항](timestamp-optional.md)
-+ [트래픽 변수(prop) 개요](c-traffic-variables/traffic-var.md)
++ [트래픽 변수 (prop) 개요](c-traffic-variables/traffic-var.md)
 + [고유 방문자 변수 지정](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [비디오 관리](video-management.md)
