@@ -1,14 +1,14 @@
 ---
 title: 레퍼러
 description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # 레퍼러
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ## Adobe Experience Platform Launch의 레퍼러
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 레퍼러를 설정할 수 있습니다.
+Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 레퍼러를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
@@ -35,7 +35,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 레�
 s.referrer = "https://example.com";
 ```
 
-`digitalData` 데이터 [레이어를 사용하는 경우](../../prepare/data-layer.md):
+`digitalData` [데이터 레이어](../../prepare/data-layer.md)를 사용하는 경우:
 
 ```js
 s.referrer = digitalData.page.pageInfo.referringURL;
