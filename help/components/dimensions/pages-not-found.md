@@ -1,14 +1,14 @@
 ---
 title: 페이지를 찾을 수 없음
 description: 사이트에서 오류를 반환하는 URL입니다.
+exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # 페이지를 찾을 수 없음
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 이미지 요청의 [`pageType` 및 `g` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. `pageType` 쿼리 문자열이 `errorPage`인 경우 `g` 쿼리 문자열(페이지 URL)이 기록됩니다. AppMeasurement는 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 변수를 사용하여 이 데이터를 수집합니다. `pageType` 변수가 정의되지 않았거나 `errorPage`가 아닌 다른 변수로 설정되어 있으면 이 차원에 대한 데이터가 수집되지 않습니다.
+이 차원은 이미지 요청의 [`pageType` 및 `g` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. `pageType` 쿼리 문자열이 `errorPage`인 경우 `g` 쿼리 문자열 (페이지 URL)이 기록됩니다. AppMeasurement는 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 변수를 사용하여 이 데이터를 수집합니다. `pageType` 변수가 정의되지 않았거나 `errorPage`가 아닌 다른 변수로 설정되어 있으면 이 차원에 대한 데이터가 수집되지 않습니다.
 
 ## 차원 항목
 
