@@ -1,16 +1,16 @@
 ---
 description: 보기 밀도를 조정하는 방법을 알아봅니다.
 title: 보기 밀도
-feature: Workspace Basics
+feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '109'
+exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # 보기 밀도
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 - **[!UICONTROL 작게]**: 가장 압축된 보기 버전.
 - **[!UICONTROL 무난]**: 작은 버전보다 좀 더 큰 버전.
-- **[!UICONTROL 크게]**(기본값): 작업 공간에서 사용하는 보기.
+- **[!UICONTROL 크게]** (기본값): 작업 공간에서 사용하는 보기.
 
 ![](assets/view-density.png)
 
