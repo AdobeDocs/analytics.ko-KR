@@ -1,14 +1,14 @@
 ---
 title: 사분기
 description: 연도에 상관없이 그 해의 숫자 분기입니다.
+exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # 사분기
 
@@ -20,4 +20,4 @@ ht-degree: 100%
 
 ## 차원 항목
 
-차원 항목에는 히트가 발생한 해의 분기를 나타내는 그 연도의 숫자 분기(`1`에서 `4`까지)가 포함됩니다.
+차원 항목에는 히트가 발생한 해의 분기를 나타내는 그 연도의 숫자 분기 (`1`에서 `4`까지)가 포함됩니다.
