@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 방문자 수
 
-Adobe가 고유 방문자 수(사용자 지정 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 방법은 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
+Adobe가 고유 방문자 수 (사용자 지정 방문자 ID, Experience Cloud ID 서비스 등)를 식별하는 데 사용하는 모든 방법은 궁극적으로 모두 `post_visid_high` 및 `post_visid_low`의 값으로 계산됩니다. 이러한 두 열의 연결은 고유 방문자로 식별된 방식과 관계없이 고유 방문자 수를 식별하는 표준으로 사용될 수 있습니다. Adobe가 고유 방문자를 식별하는 데 사용한 방법을 이해하려면 열 `post_visid_type`을 사용하십시오.
 
 1. `post_visid_high`와 `post_visid_low`를 연결합니다.
 2. 고유 값 수를 카운트합니다.
@@ -61,7 +61,7 @@ Adobe가 고유 방문자 수(사용자 지정 방문자 ID, Experience Cloud ID
 1. `post_visid_high`, `post_visid_low`, `visit_num` 및 `visit_start_time_gmt`를 연결합니다.
 2. 이렇게 연결된 값으로 정렬한 다음 `visit_page_num`으로 보조 정렬을 적용합니다.
 3. 히트가 방문의 마지막 히트가 아닌 경우 후속 히트의 `post_cust_hit_time` 값에서 `post_cust_hit_time` 값을 뺍니다.
-4. 이 숫자는 히트에 걸린 시간(초)입니다. 필터를 적용하여 차원 항목 또는 이벤트에 중점을 둘 수 있습니다.
+4. 이 숫자는 히트에 걸린 시간 (초)입니다. 필터를 적용하여 차원 항목 또는 이벤트에 중점을 둘 수 있습니다.
 
 ## 주문 수, 판매량 및 매출량
 
