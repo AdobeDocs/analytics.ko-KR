@@ -1,14 +1,14 @@
 ---
 title: getPreviousValue
 description: 변수에 전달된 마지막 값을 가져옵니다.
+exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 translation-type: ht
-source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '895'
 ht-degree: 100%
 
 ---
-
 
 # Adobe 플러그인: getPreviousValue
 
@@ -28,7 +28,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
+   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getPreviousValue 초기화
@@ -47,7 +47,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /* Adobe Consulting Plugin: getPreviousValue v3.0 */
@@ -59,8 +59,8 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 `getPreviousValue` 메서드에서는 다음 인수를 사용합니다.
 
-* **`v`** (문자열, 필수): 다음 이미지 요청에 전달할 값이 있는 변수입니다. 사용되는 일반적인 변수는 이전 페이지 값을 검색하는 `s.pageName`입니다.
-* **`c`** (문자열, 선택 사항): 값을 저장하는 쿠키의 이름입니다. 이 인수를 설정하지 않으면 기본값이 `"s_gpv"`로 지정됩니다.
+* **`v`**  (문자열, 필수): 다음 이미지 요청에 전달할 값이 있는 변수입니다. 사용되는 일반적인 변수는 이전 페이지 값을 검색하는 `s.pageName`입니다.
+* **`c`**  (문자열, 선택 사항): 값을 저장하는 쿠키의 이름입니다. 이 인수를 설정하지 않으면 기본값이 `"s_gpv"`로 지정됩니다.
 
 이 메서드를 호출하면 쿠키에 포함된 문자열 값이 반환됩니다. 그러면 플러그인이 쿠키 만료를 재설정하고 여기에 `v` 인수의 변수 값을 지정합니다. 쿠키는 30분 동안 활동이 없으면 만료됩니다.
 
@@ -74,7 +74,7 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
 
-* 먼저 s.prop7을 이전 이미지 요청의 s.pageName에 전달된 값과 동일하게 설정합니다(즉, &quot;gpv_Page&quot; 쿠키에 저장된 값).
+* 먼저 s.prop7을 이전 이미지 요청의 s.pageName에 전달된 값과 동일하게 설정합니다 (즉, &quot;gpv_Page&quot; 쿠키에 저장된 값).
 * 그러면 코드가 &quot;gpv_Page&quot; 쿠키를 재설정하여 s.pageName의 현재 값과 같게 만듭니다.
 * 이 코드가 실행될 때 s.pageName이 설정되어 있지 않으면 코드가 쿠키의 현재 값에 대한 만료를 재설정합니다.
 
@@ -113,7 +113,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
 
-이 코드는 pageName 인수가 &quot;home&quot;이고 p7(prop7) 인수가 설정되지 않은 경우 서버 호출을 생성합니다. 그러나 s.getPreviousValue를 호출하면 호출에 지정된 쿠키(즉, &quot;gpv_Page&quot; 쿠키)에 s.pageName의 값(즉, &quot;home&quot;)이 저장됩니다.
+이 코드는 pageName 인수가 &quot;home&quot;이고 p7 (prop7) 인수가 설정되지 않은 경우 서버 호출을 생성합니다. 그러나 s.getPreviousValue를 호출하면 호출에 지정된 쿠키 (즉, &quot;gpv_Page&quot; 쿠키)에 s.pageName의 값 (즉, &quot;home&quot;)이 저장됩니다.
 이제, 그 직후에 같은 페이지에서 다음 코드가 어떤 이유로든 실행된다고 가정하십시오.
 
 ```js
@@ -121,7 +121,7 @@ s.pageName="happy value"
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
 
-이 코드 블록에서는 s.t() 함수가 실행되지 않으므로 다른 이미지 요청은 만들어지지 않습니다. 그러나, 이 번에 s.getPreviousValue() 함수 코드가 실행되면 s.prop7이 s.pageName의 이전 값(즉, &quot;home&quot;)과 동일하게 설정되고 s.pageName의 새 값(즉, &quot;happy value&quot;)은 &quot;gpv_Page&quot; 쿠키에 저장됩니다.
+이 코드 블록에서는 s.t () 함수가 실행되지 않으므로 다른 이미지 요청은 만들어지지 않습니다. 그러나, 이 번에 s.getPreviousValue () 함수 코드가 실행되면 s.prop7이 s.pageName의 이전 값 (즉, &quot;home&quot;)과 동일하게 설정되고 s.pageName의 새 값 (즉, &quot;happy value&quot;)은 &quot;gpv_Page&quot; 쿠키에 저장됩니다.
 방문자가 다른 페이지로 이동하고 이 페이지에서 다음 코드가 실행된다고 가정하십시오.
 
 ```js
@@ -130,14 +130,14 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
 
-s.t() 호출 함수가 실행되면 s.pageName=&quot;page 2&quot;이고 s.prop7이 &quot;happy value&quot;인 이미지 요청이 만들어집니다. 이때 &quot;happy value&quot;는 getPreviousValue에 대한 마지막 호출이 수행되었을 때 s.pageName의 값이었습니다. s.pageName에 전달된 첫 번째 값이 &quot;home&quot;이지만 &quot;home&quot;이라는 s.prop7 값은 어떠한 실제 이미지 요청에도 포함되지 않았습니다.
+s.t () 호출 함수가 실행되면 s.pageName=&quot;page 2&quot;이고 s.prop7이 &quot;happy value&quot;인 이미지 요청이 만들어집니다. 이때 &quot;happy value&quot;는 getPreviousValue에 대한 마지막 호출이 수행되었을 때 s.pageName의 값이었습니다. s.pageName에 전달된 첫 번째 값이 &quot;home&quot;이지만 &quot;home&quot;이라는 s.prop7 값은 어떠한 실제 이미지 요청에도 포함되지 않았습니다.
 
 ## 버전 내역
 
-### 3.0(2021년 3월 19일)
+### 3.0 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
-### v2.0(2019년 10월 7일)
+### v2.0 (2019년 10월 7일)
 
-* 포인트 릴리스(전체 논리 다시 작성).
+* 포인트 릴리스 (전체 논리 다시 작성).
