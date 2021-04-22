@@ -1,14 +1,14 @@
 ---
 title: 히트 유형
 description: 히트가 전경 히트인지 배경 히트인지 확인합니다.
+exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # 히트 유형
 
