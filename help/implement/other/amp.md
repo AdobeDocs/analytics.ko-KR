@@ -1,14 +1,14 @@
 ---
 title: AMP를 사용한 구현
 description: AMP 페이지에서 Adobe Analytics를 구현합니다.
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 translation-type: ht
-source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
 ---
-
 
 # AMP를 사용한 구현
 
@@ -45,7 +45,7 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 
 `"adobeanalytics"` 추적 템플릿은 `<amp-analytics>` HTML 태그를 사용하여 추적 요청을 바로 구성합니다. 페이지 표시 또는 클릭과 같이 특정 페이지 이벤트에서 실행되는 히트 요청을 지정할 수 있습니다. 선택기를 지정하여 특정 요소 ID나 클래스에 적용되도록 클릭 이벤트를 사용자 지정할 수 있습니다. `type="adobeanalytics"`를 amp-analytics 태그에 추가하여 템플릿을 로드할 수 있습니다.
 
-다음의 코드 예제에는 두 개의 트리거(`pageLoad`, `click`)가 정의되어 있습니다. `pageLoad` 트리거는 문서가 표시될 때 실행되며 `vars` 섹션에 정의되어 있는 대로 `pageName` 변수를 포함합니다. 두 번째 트리거인 `click`은 버튼을 클릭하면 실행됩니다. `eVar1`은 값이 `button clicked`인 이 이벤트에 대해 설정됩니다.
+다음의 코드 예제에는 두 개의 트리거 (`pageLoad`, `click`)가 정의되어 있습니다. `pageLoad` 트리거는 문서가 표시될 때 실행되며 `vars` 섹션에 정의되어 있는 대로 `pageName` 변수를 포함합니다. 두 번째 트리거인 `click`은 버튼을 클릭하면 실행됩니다. `eVar1`은 값이 `button clicked`인 이 이벤트에 대해 설정됩니다.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -78,15 +78,15 @@ Adobe는 AMP를 사용하여 페이지에서 Adobe Analytics를 구현하는 두
 </amp-analytics>
 ```
 
-`click` 트리거에서는 특정 DOM 요소를 클릭할 때마다(이 경우, 임의 버튼 클릭), `buttonClick` 요청이 실행되어 이 히트를 비 링크 추적 호출로 나타내도록 자동으로 설정되게 하는 선택기를 지정할 수 있습니다.
+`click` 트리거에서는 특정 DOM 요소를 클릭할 때마다 (이 경우, 임의 버튼 클릭), `buttonClick` 요청이 실행되어 이 히트를 비 링크 추적 호출로 나타내도록 자동으로 설정되게 하는 선택기를 지정할 수 있습니다.
 
 또한, `amp-analytics`에서는 AMP에서 인식하는 데이터 값을 제공할 수 있도록 많은 수의 변수 대체를 지원합니다. 자세한 내용은 GitHub에서 [amp-analytics에서 지원되는 변수](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)를 참조하십시오.
 
 >[!NOTE]
 >
->이 방법을 사용하여 Adobe에 보내는 이미지 요청에는 많은 기본 보고서(예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 자세한 내용은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
+>이 방법을 사용하여 Adobe에 보내는 이미지 요청에는 많은 기본 보고서 (예: 브라우저, 화면 크기 또는 레퍼러)에 대한 데이터가 포함되지 않습니다. 히트에 이 정보를 포함하려면 이 정보가 이미지 요청 쿼리 문자열의 일부로 포함되었는지 확인하십시오. 자세한 내용은 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
 
-Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `adobe_amp_id`를 설정합니다. 이 방문자 ID는 Adobe Analytics에서 설정한 다른 모든 ID(예: `s_vi` 쿠키)에 대해 고유합니다. Adobe Experience Cloud ID 서비스는 이 구현 방법을 사용하여 지원되지 않습니다.
+Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `adobe_amp_id`를 설정합니다. 이 방문자 ID는 Adobe Analytics에서 설정한 다른 모든 ID (예: `s_vi` 쿠키)에 대해 고유합니다. Adobe Experience Cloud ID 서비스는 이 구현 방법을 사용하여 지원되지 않습니다.
 
 >[!NOTE]
 >
