@@ -1,11 +1,14 @@
 ---
 title: 데이터 피드 작업 관리
 description: 데이터 피드에서 개별 작업을 관리하는 방법을 알아봅니다.
-translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+exl-id: b17e333e-290f-42e4-b304-1e34282237a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
-
 
 # 데이터 피드 작업 관리
 
@@ -14,8 +17,8 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 다음 절차에 따라 데이터 피드 작업 관리에 액세스하십시오.
 
 1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
-2. Click on the 9-grid menu in the top right, then click [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+2. 오른쪽 상단에 있는 9개의 격자 메뉴를 클릭한 다음, [!UICONTROL 분석]을 클릭합니다.
+3. 상단 메뉴에서 [!UICONTROL 관리자] > [!UICONTROL 데이터 피드]를 클릭합니다.
 4. 상단 근처에 있는 작업 탭을 클릭합니다.
 
 ![데이터 피드 메뉴](assets/AdminMenu.png)
