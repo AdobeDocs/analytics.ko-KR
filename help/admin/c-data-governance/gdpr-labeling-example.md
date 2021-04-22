@@ -2,14 +2,14 @@
 description: 히트 데이터, 액세스 요청, 삭제 요청에 대한 데이터에 레이블을 지정하는 방법에 대한 예를 보여줍니다.
 title: 레이블 지정 예
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
 ---
-
 
 # 레이블 지정 예
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## 샘플 액세스 요청
 
-액세스 요청을 제출하면 요약 파일에 아래 표에 표시된 값이 포함됩니다. 요청은 장치 파일만 반환하거나 개인 파일만 반환할 수 있습니다(즉, 각각에 대해 하나). 개인 ID가 사용되고 expandIds가 true인 경우에만 두 개의 요약 파일이 반환됩니다.
+액세스 요청을 제출하면 요약 파일에 아래 표에 표시된 값이 포함됩니다. 요청은 장치 파일만 반환하거나 개인 파일만 반환할 수 있습니다 (즉, 각각에 대해 하나). 개인 ID가 사용되고 expandIds가 true인 경우에만 두 개의 요약 파일이 반환됩니다.
 
 | API 값 | API 값 | 반환된 파일 유형 | 요약 액세스 <br>파일의 데이터 | 요약 액세스 <br>파일의 데이터 | 요약 액세스 <br>파일의 데이터 | 요약 액세스 <br>파일의 데이터 | 요약 액세스 <br>파일의 데이터 |
 |--- |--- |--- |---|---|---|---|---|
@@ -86,7 +86,7 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
 
 >[!NOTE]
 >
->user=Mary 및 DEL-PERSON 레이블이 있는 행의 셀만 영향을 받습니다. 또한 연습에서 A_ID를 포함하는 변수는 prop 또는 eVar이고 해당 교체 값은 &quot;개인 정보 보호-&quot;로 시작하는 문자열이며, 그 뒤에는 숫자 값을 임의의 다른 숫자 값으로 대체하지 않고 임의의 숫자(GUID)가 옵니다.
+>user=Mary 및 DEL-PERSON 레이블이 있는 행의 셀만 영향을 받습니다. 또한 연습에서 A_ID를 포함하는 변수는 prop 또는 eVar이고 해당 교체 값은 &quot;개인 정보 보호-&quot;로 시작하는 문자열이며, 그 뒤에는 숫자 값을 임의의 다른 숫자 값으로 대체하지 않고 임의의 숫자 (GUID)가 옵니다.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
