@@ -1,14 +1,14 @@
 ---
 title: 종료 링크
 description: 종료 링크의 이름입니다.
+exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
 translation-type: ht
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
-
 
 # 종료 링크
 
