@@ -2,24 +2,24 @@
 description: Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
 title: 예외 항목 탐지 개요
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: AI Tools
+feature: AI 도구
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 89%
+exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
-
 
 # 예외 항목 탐지 개요
 
 Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
 
-[예외 항목 탐지 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[예외 항목 탐지 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  (4:53)
 
-[기여도 분석 비디오 자습서](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
+[기여도 분석 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  (3:20)
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 
 예외 항목 탐지는 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
 
-예외 항목 탐지 기능을 사용하면 &quot;노이즈&quot;에서 &quot;진짜 신호&quot;를 구분한 다음, 이러한 신호 또는 이상 현상에 기여한 잠재적 요인을 식별하는 데 도움이 됩니다. 다시 말해, 통계적 변동이 문제가 되는지 여부를 식별하게 해줍니다. 그러면 진짜 예외 현상의 근본 원인을 식별할 수 있습니다. 또한 신뢰할 수 있는 지표(KPI) 예측이 가능합니다.
+예외 항목 탐지 기능을 사용하면 &quot;노이즈&quot;에서 &quot;진짜 신호&quot;를 구분한 다음, 이러한 신호 또는 이상 현상에 기여한 잠재적 요인을 식별하는 데 도움이 됩니다. 다시 말해, 통계적 변동이 문제가 되는지 여부를 식별하게 해줍니다. 그러면 진짜 예외 현상의 근본 원인을 식별할 수 있습니다. 또한 신뢰할 수 있는 지표 (KPI) 예측이 가능합니다.
 
 조사할 수 있는 이상 현상의 예에는 다음 내용이 포함됩니다.
 
@@ -38,9 +38,9 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 * 비디오 버퍼 이벤트의 스파이크
 * 낮은 비디오 비트율의 스파이크
 
-Analysis Workspace에서 예외 항목 탐지 및 [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능은 모두 핵심 워크플로우입니다. 매일 발생하는 임의의 예외 항목에 대해 [기여도 분석]을 실행하고 Analysis Workspace 프로젝트에 그 결과를 포함할 수 있습니다.
+Analysis Workspace에서 예외 항목 탐지 및 [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능은 모두 핵심 워크플로입니다. 매일 발생하는 임의의 예외 항목에 대해 [기여도 분석]을 실행하고 Analysis Workspace 프로젝트에 그 결과를 포함할 수 있습니다.
 
 Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 다음과 같습니다.
 
 * 기존의 일별 세부 기간 이외에 시간별, 주별 및 월별 세부 기간 지원.
-* 계절적 영향(예: &quot;블랙 프라이데이&quot;) 및 휴일 인식.
+* 계절적 영향 (예: &quot;블랙 프라이데이&quot;) 및 휴일 인식.
