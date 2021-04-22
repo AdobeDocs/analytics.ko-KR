@@ -1,14 +1,14 @@
 ---
 title: visitorNameSpace
 description: 쿠키 도메인을 결정하던 폐기된 변수입니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
 ---
-
 
 # visitorNamespace
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >이 변수는 사용이 중단되었습니다. 대신 [`trackingServer`](trackingserver.md)를 사용하십시오.
 
-이전 Adobe Analytics 버전에서 AppMeasurement는 `visitorNameSpace` 변수를 사용하여 방문자 쿠키가 저장된 `2o7.net`의 하위 도메인을 파악했습니다. 최신 브라우저에서 개인 정보 보호 정책을 강화하면 타사 쿠키의 신뢰성이 떨어집니다. `trackingServer` 및 [`trackingServerSecure`](trackingserversecure.md) 변수를 도입하면 `visitorNameSpace`가 더 이상 필요하지 않습니다.
+이전 Adobe Analytics 버전에서 AppMeasurement는 `visitorNameSpace` 변수를 사용하여 방문자 쿠키가 저장된 `2o7.net`의 하위 도메인을 파악했습니다. 최신 브라우저에서 개인 정보 보호 정책을 강화하면 서드파티 쿠키의 신뢰성이 떨어집니다. `trackingServer` 및 [`trackingServerSecure`](trackingserversecure.md) 변수를 도입하면 `visitorNameSpace`가 더 이상 필요하지 않습니다.
 
 >[!TIP]
 >
