@@ -2,11 +2,14 @@
 description: Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 여러 가지 이유로 인해 100% 정렬되지 않은 방문자 지표가 있습니다.
 title: 방문자 수 차이
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
+exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '292'
+ht-degree: 100%
 
 ---
-
 
 # 방문자 수 차이
 
@@ -24,11 +27,11 @@ Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: 총 세그먼트 채우기</a> </p> </td> 
-   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었던 장치(Experience Cloud ID)의 개수입니다. </p> </td> 
+   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었던 장치 (Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: 실시간 세그먼트 채우기</a> </p> </td> 
-   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었으며, 속성을 방문한 장치(Experience Cloud ID)의 개수입니다. </p> </td> 
+   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었으며, 속성을 방문한 장치 (Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: 고유 방문자 수 </p> </td> 
@@ -54,7 +57,7 @@ AAM 실시간 세그먼트 채우기 및 Audience Analytics 보고 내에 사용
  <tbody> 
   <tr> 
    <td colname="col1"> <p>시간대 </p> </td> 
-   <td colname="col2"> <p>UTC(협정 세계시) </p> </td> 
+   <td colname="col2"> <p>UTC (협정 세계시) </p> </td> 
    <td colname="col3"> <p>보고서 세트별로 지정 </p> </td> 
   </tr> 
   <tr> 
@@ -70,4 +73,4 @@ AAM 실시간 세그먼트 채우기 및 Audience Analytics 보고 내에 사용
  </tbody> 
 </table>
 
-[Analytics 및 Audience Manager의 세그먼트 이해](/help/integrate/c-audience-analytics/aam-analytics-segments.md)에서 Analytics와 Audience Manager 데이터 및 세그멘테이션의 뉘앙스에 대한 설명을 참조하십시오.
+[Analytics 및 Audience Manager의 세그먼트 이해](/help/integrate/c-audience-analytics/aam-analytics-segments.md)에서 Analytics와 Audience Manager 데이터 및 세그먼테이션의 뉘앙스에 대한 설명을 참조하십시오.
