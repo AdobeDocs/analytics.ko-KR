@@ -2,14 +2,14 @@
 description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 필요를 충족하지 못하면 다음 도구로 이동하여 고려하십시오.
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 translation-type: ht
-source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1162'
 ht-degree: 100%
 
 ---
-
 
 # 어떤 Adobe Analytics 도구를 사용해야 합니까?
 
@@ -33,11 +33,11 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 **[Data Workbench](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/home.html)**&#x200B;는 다음 경우에 사용합니다.
 
-* 가장 유연한 Analytics 도구 옵션(방문자 수준, 히트 수준 분석까지).
+* 가장 유연한 Analytics 도구 옵션 (방문자 수준, 히트 수준 분석까지).
 * CRM에서 POS 웹에 이르는 온라인 및 오프라인 상호 작용의 다중 채널 데이터 세트 생성.
-* 고급 속성(규칙 기반 및 알고리즘 모델).
-* 예측, 통계 모델링(성향 점수, 클러스터링, 상관 관계 등).
-* 지연 분석(이벤트 전/후 시간).
+* 고급 속성 (규칙 기반 및 알고리즘 모델).
+* 예측, 통계 모델링 (성향 점수, 클러스터링, 상관 관계 등).
+* 지연 분석 (이벤트 전/후 시간).
 * Adobe Experience Cloud에서 복잡한 세그먼트를 식별 및 내보내기.
 
 ## Adobe Analytics로 데이터 가져오기 {#import}
@@ -56,7 +56,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * 옵션:
 
    * 요약: 일별 또는 제한된 측정기준의 단순 데이터 업로드
-   * 거래 ID: 온라인 종단점을 오프라인 데이터에 연결하고 가져온 데이터를 온라인으로 캡처한 방문자 스냅숏에 완전히 연관시키는 데이터 업로드(예: 온라인으로 주문하고 오프라인으로 반환)
+   * 거래 ID: 온라인 종단점을 오프라인 데이터에 연결하고 가져온 데이터를 온라인으로 캡처한 방문자 스냅숏에 완전히 연관시키는 데이터 업로드 (예: 온라인으로 주문하고 오프라인으로 반환)
    * 전체 처리: Adobe 서버에서 수집한 히트처럼 처리되었으며 타임스탬프가 있는 데이터 소스입니다. 즉, 데이터가 방문자 움직임에 직접 삽입됩니다.
 
 **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;는 다음 경우에 사용합니다.
@@ -73,37 +73,37 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 **[고객 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)**&#x200B;은 다음 경우에 사용합니다.
 
-* 고객 관계 관리(CRM) 데이터베이스에서 기업 고객 데이터를 캡처하고, 이 데이터를 Experience Cloud에 업로드하려는 경우.
+* 고객 관계 관리 (CRM) 데이터베이스에서 기업 고객 데이터를 캡처하고, 이 데이터를 Experience Cloud에 업로드하려는 경우.
 * CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타깃팅 기준으로 사용하려는 경우.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* 인구 통계학적 정보(예: 성별 또는 수입 수준), 대상 데이터(예: 인구 통계 정보), 사이코그래프 정보(예: 관심사 및 취미), CRM 데이터 또는 광고 노출 데이터와 같은 Adobe Audience Manager(AAM) 대상 데이터를 Analytics 워크플로우에 통합하려는 경우.
+* 인구 통계학적 정보 (예: 성별 또는 수입 수준), 대상 데이터 (예: 인구 통계 정보), 사이코그래프 정보 (예: 관심사 및 취미), CRM 데이터 또는 광고 노출 데이터와 같은 Adobe Audience Manager (AAM) 대상 데이터를 Analytics 워크플로에 통합하려는 경우.
 * 이 통합에서는 새 정보를 조회수별로 Analytics에 전송하므로 업로드한 CRM 데이터를 시간 기반으로 변환하려는 경우.
 
 ## Adobe Analytics에서 데이터 내보내기 {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* Workspace의 사용자 정의 레이아웃 옵션이 제한적인 경우(Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
-* 사용자 입력 또는 오프라인 데이터 소스(노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
-* 서로 다른 측정기준의 보고서의 데이터 병합(예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
+* Workspace의 사용자 정의 레이아웃 옵션이 제한적인 경우 (Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
+* 사용자 입력 또는 오프라인 데이터 소스 (노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다 (Analytics로 데이터 가져오기 참조).
+* 서로 다른 측정기준의 보고서의 데이터 병합 (예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
 * 서로 다른 보고서 세트의 데이터를 합치거나 나란히 같은 테이블에 표시하여 병합합니다.
-* 예약을 통한 자동화가 필요한 경우(XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
+* 예약을 통한 자동화가 필요한 경우 (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * UI에 숨겨진 변수에 액세스 - IP 주소, Experience Cloud ID, Analytics 방문자 ID, 페이지 URL)
-* UI보다 세부적인 데이터에 액세스(비정규화된 표보기)
+* UI보다 세부적인 데이터에 액세스 (비정규화된 표보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터 다운로드
-* 클라이언트에서 Adobe 데이터를 타사 데이터 시각화 도구에 입력하려는 경우(히트 수준은 아니며 약간 요약됨)
+* 클라이언트에서 Adobe 데이터를 타사 데이터 시각화 도구에 입력하려는 경우 (히트 수준은 아니며 약간 요약됨)
 * Adobe Analytics에서 &quot;낮은 트래픽&quot;으로 실행 중인 경우 모든 고유 차원 항목에 액세스
 
 **[Analytics 데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* 제공할 수 있는 가장 세부적인 데이터 피드 활용(방문자 ID, 히트).
+* 제공할 수 있는 가장 세부적인 데이터 피드 활용 (방문자 ID, 히트).
 * 클라이언트에서 클라이언트 측 데이터베이스에 저장된 Adobe 데이터를 보낼 수 있는 가장 세부적인 수준으로 원하는 경우.
-* 클라이언트에서 비즈니스 인텔리전스(BI) 도구를 개발하거나 히트 수준의 Adobe 데이터를 타사 도구에 입력하려는 경우.
+* 클라이언트에서 비즈니스 인텔리전스 (BI) 도구를 개발하거나 히트 수준의 Adobe 데이터를 타사 도구에 입력하려는 경우.
 
 **[보고 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**&#x200B;는 다른 시각화 옵션이 사용자의 요구를 충족하지 못할 때 사용해야 합니다. 다음은 API 옵션 세 가지입니다.
 
@@ -120,6 +120,6 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * 완전히 자동화된 솔루션을 원합니다.
 * 많은 장치에 연결하려고 합니다.
 * 여러 데이터 소스가 있습니다.
-* 복잡한 데이터 ETL(Extract-Transform-Load) 요구 사항이 있습니다.
+* 복잡한 데이터 ETL (Extract-Transform-Load) 요구 사항이 있습니다.
 * 맞춤 브랜딩을 원합니다.
 * [!UICONTROL Analytics 라이브 스트림]을 시각화하려고 합니다.
