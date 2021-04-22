@@ -1,14 +1,14 @@
 ---
 title: 구성 변수
 description: 구성 변수를 사용하여 데이터를 수집하는 방법을 결정합니다.
+exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 
 ---
-
 
 # 구성 변수 개요
 
@@ -26,4 +26,4 @@ Adobe Experience Platform Launch를 사용하는 구현에서 구성 변수는 �
 
 >[!IMPORTANT]
 >
->추적 메서드([`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md))를 호출하기 전에 모든 구성 변수가 설정되었는지 확인하십시오. [`doPlugins()`](../functions/doplugins.md) 함수에서 구성 변수를 설정하지 마십시오.
+>추적 메서드 ([`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md))를 호출하기 전에 모든 구성 변수가 설정되었는지 확인하십시오. [`doPlugins()`](../functions/doplugins.md) 함수에서 구성 변수를 설정하지 마십시오.
