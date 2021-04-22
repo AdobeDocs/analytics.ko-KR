@@ -1,14 +1,14 @@
 ---
 title: linkURL
 description: 링크 추적 호출에서 AppMeasurement가 사용하는 자동으로 생성된 링크 URL을 무시합니다.
+exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 translation-type: ht
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # linkURL
 
@@ -26,4 +26,4 @@ Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasureme
 s.linkURL = "https://example.com";
 ```
 
-[tl()](../functions/tl-method.md) 메서드의 세 번째 인수가 설정되어 있지 않으면, 대신 `linkURL` 변수를 사용합니다.
+[tl ()](../functions/tl-method.md) 메서드의 세 번째 인수가 설정되어 있지 않으면, 대신 `linkURL` 변수를 사용합니다.
