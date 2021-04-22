@@ -1,14 +1,14 @@
 ---
 title: 모든 검색 페이지 등급
 description: 방문자가 사이트에 도달하기 위해 클릭한 검색 엔진의 페이지를 결정합니다.
+exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
 ---
-
 
 # 모든 검색 페이지 등급
 
