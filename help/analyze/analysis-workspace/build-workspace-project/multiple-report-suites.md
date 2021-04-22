@@ -1,16 +1,16 @@
 ---
 title: 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 공간에서 프로젝트를 만드는 방법 및 이유 알아보기
-feature: Workspace Basics
+feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '528'
+exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
-
 
 # 여러 보고서 세트
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 
 1. Analysis Workspace에서 2개 이상의 패널을 사용하여 새 프로젝트를 만듭니다.
 
-1. 구성 요소(지표, 차원, 세그먼트, 날짜 범위)를 패널로 끌어서 놓습니다. 패널에 데이터와 보고서 세트에만 적용되는 시각화가 있는지 확인합니다.
+1. 구성 요소 (지표, 차원, 세그먼트, 날짜 범위)를 패널로 끌어서 놓습니다. 패널에 데이터와 보고서 세트에만 적용되는 시각화가 있는지 확인합니다.
 
 
    >[!NOTE]
-   >프로젝트에 포함된 구성 요소의 일부만이 보고서 세트에 포함된 경우 프로젝트를 로드할 때(또는 보고서 세트로 전환할 때) 배너가 표시되는 경우가 있습니다. 누락된 구성 요소가 나열됩니다. [다음 지침](/help/admin/admin-console/permissions/product-profile.md)에 따라 필요한 지표/차원으로 권한을 설정합니다.
+   >프로젝트에 포함된 구성 요소의 일부만이 보고서 세트에 포함된 경우 프로젝트를 로드할 때 (또는 보고서 세트로 전환할 때) 배너가 표시되는 경우가 있습니다. 누락된 구성 요소가 나열됩니다. [다음 지침](/help/admin/admin-console/permissions/product-profile.md)에 따라 필요한 지표/차원으로 권한을 설정합니다.
 
    ![](assets/incompat-rs.png)
 
@@ -60,11 +60,11 @@ ht-degree: 100%
    * 보고서 세트 변경.
    * 일부 구성 요소가 누락된 상태로 계속 진행. 이렇게 하면 해당 구성 요소에 대한 데이터가 없고, 빈 시각화가 표시됩니다.
 
-1. 패널을 다른 보고서 세트로 변경하고 구성 요소 레이블(현재 활성화된 보고서 세트) 및 나열된 구성 요소가 새 보고서 세트를 기준으로 하여 어떻게 업데이트되는지 확인합니다.
+1. 패널을 다른 보고서 세트로 변경하고 구성 요소 레이블 (현재 활성화된 보고서 세트) 및 나열된 구성 요소가 새 보고서 세트를 기준으로 하여 어떻게 업데이트되는지 확인합니다.
 
-1. 키보드 단축키를 사용(`shift` 키를 누른 채 끌어오기)하여 비활성 패널을 활성 패널로 변환합니다.
+1. 키보드 단축키를 사용 (`shift` 키를 누른 채 끌어오기)하여 비활성 패널을 활성 패널로 변환합니다.
 
-1. (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
+1.  (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
 
    * 세그먼트를 만들 위치: [세그먼트 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html).
    * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
