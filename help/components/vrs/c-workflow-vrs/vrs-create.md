@@ -50,11 +50,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 그룹  </td> 
-   <td colname="col2"> <p>이 VRS에 대한 액세스 권한을 원하는 권한 그룹을 선택합니다. (<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span></span>에서 그룹 권한을 관리할 수도 있습니다.) </p> </td> 
+   <td colname="col2"> <p>이 VRS에 대한 액세스 권한을 원하는 권한 그룹을 선택합니다.  (<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span></span>에서 그룹 권한을 관리할 수도 있습니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 상위 보고서 세트 </td> 
-   <td colname="col2"> <p>이 가상 보고서 세트에 다음 설정을 상속하는 보고서 세트입니다. 대부분의 서비스 수준 및 기능(예: eVar 설정, 처리 규칙, 분류 등)이 상속됩니다. VRS에서 상속한 이러한 설정을 변경하려면 상위 보고서 세트를 편집해야 합니다(<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span></span>). </p> </td> 
+   <td colname="col2"> <p>이 가상 보고서 세트에 다음 설정을 상속하는 보고서 세트입니다. 대부분의 서비스 수준 및 기능 (예: eVar 설정, 처리 규칙, 분류 등)이 상속됩니다. VRS에서 상속한 이러한 설정을 변경하려면 상위 보고서 세트를 편집해야 합니다 (<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span></span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 시간대 </td> 
