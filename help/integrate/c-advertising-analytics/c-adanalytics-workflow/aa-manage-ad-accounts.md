@@ -2,14 +2,14 @@
 description: Advertising Analytics에서 계정을 관리합니다.
 title: 광고 계정 관리
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
+exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # 광고 계정 관리
 
@@ -59,11 +59,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>유형 </p> </td> 
-   <td colname="col2"> <p>현재는 한 개의 유형(검색)만 지원합니다. </p> </td> 
+   <td colname="col2"> <p>현재는 한 개의 유형 (검색)만 지원합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>계정 </p> </td> 
-   <td colname="col2"> <p>지원되는 두 가지 계정 유형(Google Adwords 또는 Bing 광고) 중 하나를 나열합니다. </p> </td> 
+   <td colname="col2"> <p>지원되는 두 가지 계정 유형 (Google Adwords 또는 Bing 광고) 중 하나를 나열합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>상태 </p> </td> 
@@ -75,8 +75,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>필터</b> </p> </td> 
-   <td colname="col2"> <p>(왼쪽 여백) 보고서 세트, 유형 및 상태별로 광고 계정을 필터링할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> (왼쪽 여백) 보고서 세트, 유형 및 상태별로 광고 계정을 필터링할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
