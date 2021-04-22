@@ -1,14 +1,14 @@
 ---
 title: getVisitDuration
 description: 지금까지 방문자가 사이트에서 보낸 시간을 추적합니다.
+exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 translation-type: ht
-source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '585'
 ht-degree: 100%
 
 ---
-
 
 # Adobe 플러그인: getVisitDuration
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
-`getVisitDuration` 플러그인은 방문자가 해당 시점까지 사이트에 있었던 시간(분)을 추적합니다. 사이트에서 최대 해당 시점까지 누적 시간을 추적하거나 활동을 수행하는 데 소요되는 시간을 추적하려면 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 이벤트 간의 시간을 추적하지 않습니다. 이 기능을 원하는 경우 [`getTimeBetweenEvents`](gettimebetweenevents.md) 플러그인을 사용하십시오.
+`getVisitDuration` 플러그인은 방문자가 해당 시점까지 사이트에 있었던 시간 (분)을 추적합니다. 사이트에서 최대 해당 시점까지 누적 시간을 추적하거나 활동을 수행하는 데 소요되는 시간을 추적하려면 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 이벤트 간의 시간을 추적하지 않습니다. 이 기능을 원하는 경우 [`getTimeBetweenEvents`](gettimebetweenevents.md) 플러그인을 사용하십시오.
 
 ## Adobe Experience Platform Launch 확장 기능을 사용하여 플러그인 설치
 
@@ -28,7 +28,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
    * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨(페이지 상단)
+   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getVisitDuration 초기화
@@ -47,7 +47,7 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,7 +63,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
-* `"[x] minutes"` (여기서 `[x]`는 방문자가 사이트에 도착한 이후 경과된 분 수입니다.)
+* `"[x] minutes"`  (여기서 `[x]`는 방문자가 사이트에 도착한 이후 경과된 분 수입니다.)
 
 이 플러그인은 `"s_dur"`이라는 자사 쿠키를 만듭니다. 이 값은 방문자가 사이트에 도착한 이후 경과된 밀리초 수입니다. 쿠키는 30분 동안 활동이 없으면 만료됩니다.
 
@@ -77,7 +77,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 s.eVar10 = s.getVisitDuration();
 ```
 
-...은(는) 항상 eVar10을 방문자가 사이트에 도착한 이후 경과된 분 수와 동일하게 설정합니다.
+...은 (는) 항상 eVar10을 방문자가 사이트에 도착한 이후 경과된 분 수와 동일하게 설정합니다.
 
 ### 예 #2
 
@@ -87,7 +87,7 @@ s.eVar10 = s.getVisitDuration();
 if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 ```
 
-...은(는) inList 플러그인을 사용하여 이벤트 변수에 구매 이벤트가 포함되어 있는지 여부를 확인합니다. 포함되어 있다면 eVar10은 방문자의 방문 시작과 구매 시간 사이의 분 수와 동일하게 설정됩니다.
+...은 (는) inList 플러그인을 사용하여 이벤트 변수에 구매 이벤트가 포함되어 있는지 여부를 확인합니다. 포함되어 있다면 eVar10은 방문자의 방문 시작과 구매 시간 사이의 분 수와 동일하게 설정됩니다.
 
 ### 예 #3
 
@@ -97,14 +97,14 @@ if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 s.prop10 = s.getVisitDuration();
 ```
 
-...은(는) 항상 prop10을 방문자가 사이트에 도착한 이후 경과된 분 수와 동일하게 설정합니다. 이렇게 하면 prop10에 경로 지정이 활성화되어 있는 경우에 유용합니다. prop10 보고서에 &quot;종료&quot; 지표를 추가하면 방문자가 사이트를 떠나기 전에 몇 분 동안 방문이 이루어졌는지에 대한 세부적인 &quot;산포도&quot; 보고서가 표시됩니다.
+...은 (는) 항상 prop10을 방문자가 사이트에 도착한 이후 경과된 분 수와 동일하게 설정합니다. 이렇게 하면 prop10에 경로 지정이 활성화되어 있는 경우에 유용합니다. prop10 보고서에 &quot;종료&quot; 지표를 추가하면 방문자가 사이트를 떠나기 전에 몇 분 동안 방문이 이루어졌는지에 대한 세부적인 &quot;산포도&quot; 보고서가 표시됩니다.
 
 ## 버전 내역
 
-### 2.1(2021년 3월 19일)
+### 2.1 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
 
-### 2.0(2018년 5월 2일)
+### 2.0 (2018년 5월 2일)
 
-* 포인트 릴리스(플러그인의 전체 재분석/다시 작성).
+* 포인트 릴리스 (플러그인의 전체 재분석/다시 작성).
