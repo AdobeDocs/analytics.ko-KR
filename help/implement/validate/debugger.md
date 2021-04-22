@@ -1,14 +1,14 @@
 ---
 title: 기존 Adobe Experience Cloud Debugger
 description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, DTM 및 Launch용 태그를 검사합니다.
+exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
 ---
-
 
 # 기존 Adobe Experience Cloud Debugger
 
@@ -38,14 +38,14 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 [chrome 확장 프로그램](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)을 굳이 사용하지 않으면 기존 디버거 북마클릿을 대신 사용할 수 있습니다.
 
-1. 오른쪽 상단에 있는 세 점을 클릭한 다음, 책갈피 > 책갈피 관리자로 이동합니다. `Ctrl` + `Shift` + `O`(Windows) 또는 `Cmd` + `Shift` + `O`(Mac)을 누를 수도 있습니다.
+1. 오른쪽 상단에 있는 세 점을 클릭한 다음, 책갈피 > 책갈피 관리자로 이동합니다. `Ctrl` + `Shift` + `O` (Windows) 또는 `Cmd` + `Shift` + `O` (Mac)을 누를 수도 있습니다.
 2. 책갈피 관리자의 오른쪽 상단에서 세 점을 클릭한 다음, &#39;새 책갈피 추가&#39;를 클릭합니다.
 3. 이름 필드에서 &quot;Adobe Experience Cloud Debugger&quot;로 레이블을 지정하고 코드 조각을 URL 필드에 붙여 넣습니다.
 4. 책갈피 관리자를 사용하여 새 북마클릿을 원하는 위치에 배치합니다.
 
 #### Firefox
 
-1. 오른쪽 상단에 있는 세 줄을 클릭한 다음, 라이브러리 > 책갈피 > 모든 책갈피 표시로 이동합니다. `Ctrl` + `Shift` + `B`(Windows) 또는 `Cmd` + `Shift` + `B`(Mac)을 누를 수도 있습니다.
+1. 오른쪽 상단에 있는 세 줄을 클릭한 다음, 라이브러리 > 책갈피 > 모든 책갈피 표시로 이동합니다. `Ctrl` + `Shift` + `B` (Windows) 또는 `Cmd` + `Shift` + `B` (Mac)을 누를 수도 있습니다.
 2. 구성 > 새 책갈피를 클릭합니다.
 3. 이름 필드에서 &quot;Adobe Experience Cloud Debugger&quot;로 레이블을 지정하고 코드 조각을 위치 필드에 붙여 넣습니다. 태그 및 키워드 필드는 필수가 아닙니다.
 4. 라이브러리 창을 사용하여 새 북마클릿을 원하는 위치에 배치합니다.
@@ -81,7 +81,7 @@ Safari에서는 북마클릿을 수동으로 만들 수 없지만 책갈피 URL�
 
 * **표시된 Experience Cloud 제품:** 각각의 Experience Cloud 제품에 대한 이미지 요청을 표시하거나 숨깁니다.
 * **URL 디코딩:** URL은 이미지 요청을 보고에 표시되는 내용과 일치하도록 디코딩합니다. 이 상자는 선택된 채로 두는 것이 좋습니다.
-* **자동 새로 고침:** 팝업을 몇 초마다 자동으로 새로 고쳐 페이지에서 더 많은 이미지 요청을 확인합니다. 디버거에서 컨텐츠를 복사하거나 붙여 넣으려면 선택 내용이 유지되도록 자동 새로 고침을 비활성화하십시오.
+* **자동 새로 고침:** 팝업을 몇 초마다 자동으로 새로 고쳐 페이지에서 더 많은 이미지 요청을 확인합니다. 디버거에서 콘텐츠를 복사하거나 붙여 넣으려면 선택 내용이 유지되도록 자동 새로 고침을 비활성화하십시오.
 * **친숙한 형식:** 이미지 요청에서 유용한 레이블과 원시 쿼리 문자열 간 표시 형식을 전환합니다. 자세한 내용은 [데이터 수집 쿼리 매개 변수](query-parameters.md)를 참조하십시오.
 
 디버거에 대한 기본 표시 옵션을 저장하려면 오른쪽 상단에 있는 &#39;Adobe Debugger&#39; 링크를 마우스 오른쪽 단추로 클릭한 다음, 링크 주소를 복사합니다. 현재 디버거 북마클릿을 편집하고 업데이트된 코드 조각을 URL 필드에 붙여 넣으십시오.
