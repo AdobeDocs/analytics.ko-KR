@@ -2,22 +2,22 @@
 description: 경고를 생성, 편집 또는 삭제합니다.
 title: 경고 관리자
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+feature: AI 도구
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 96%
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
-
 
 # 경고 관리자
 
 ![](assets/alert-manager.png)
 
-경고 관리자(**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) 및 [계산된 지표 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해 줍니다.
+경고 관리자 (**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) 및 [계산된 지표 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해 줍니다.
 
 ![](assets/alert-manager-tasks.png)
 
@@ -36,4 +36,3 @@ ht-degree: 96%
 * 경고 소유자 지정/변경
 * 다른 필터 추가
 * 경고 **만료 날짜** 정의
-
