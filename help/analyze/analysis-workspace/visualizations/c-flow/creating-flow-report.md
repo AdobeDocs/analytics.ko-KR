@@ -2,28 +2,28 @@
 description: Workspace 프로젝트에서 플로우 시각화를 사용합니다.
 title: 플로우 시각화 구성
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 99%
+exl-id: a4617647-237f-4178-bb87-f5321c600ca0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
-
 
 # 플로우 시각화 구성
 
 흐름을 사용하면 eVar와 같이, 페이지나 차원을 통해 경로를 추적할 수 있습니다.
 
-* 시작(차원만)
+* 시작 (차원만)
 * 차원 또는 항목
-* 종료(차원만)
+* 종료 (차원만)
 
 이러한 각각의 카테고리는 화면에 &quot;놓기 영역&quot;으로 표시됩니다. 목록의 항목을 원하는 놓기 영역으로 드래그하여 놓으십시오. 차원이 아닌 페이지 및 다른 항목은 가운데 놓기 영역에만 배치할 수 있습니다. 차원을 가운데 영역에 놓으면 해당 차원에 대한 상위 항목을 삽입하는 보고서가 자동으로 실행됩니다.
 
-항목을 놓기 영역에 놓으면 흐름 다이어그램이 열립니다. 흐름 다이어그램의 콘텐츠는 차원이나 항목을 놓는 놓기 영역에 따라 달라집니다. 종료 및 시작은 시작 또는 종료 놓기 영역에 놓는 차원(예: 페이지 수)에 대한 모든 항목을 보여 줍니다. 예를 들어, 차원을 중앙의 놓기 영역에 드롭하면 해당 차원에 대한 흐름 다이어그램이 열립니다.
+항목을 놓기 영역에 놓으면 흐름 다이어그램이 열립니다. 흐름 다이어그램의 콘텐츠는 차원이나 항목을 놓는 놓기 영역에 따라 달라집니다. 종료 및 시작은 시작 또는 종료 놓기 영역에 놓는 차원 (예: 페이지 수)에 대한 모든 항목을 보여 줍니다. 예를 들어, 차원을 중앙의 놓기 영역에 드롭하면 해당 차원에 대한 흐름 다이어그램이 열립니다.
 
 ![](assets/flow.jpg)
 
