@@ -2,20 +2,20 @@
 description: '히스토그램은 Analysis Workspace의 새로운 시각화 유형입니다. '
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-feature: Visualizations
+feature: 시각화
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 99%
+exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '372'
+ht-degree: 100%
 
 ---
 
-
 # 히스토그램
 
-히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#section_09D774C584864D4CA6B5672DC2927477)에서 설정을 변경할 수 있습니다. 
+히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다 (버킷). Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#section_09D774C584864D4CA6B5672DC2927477)에서 설정을 변경할 수 있습니다. 
 
 ## 히스토그램 작성 {#section_74647707CC984A1CB6D3097F43A30B45}
 
@@ -31,18 +31,18 @@ ht-degree: 99%
 >
 > 히스토그램은 계산된 지표는 지원하지 않고 표준 지표만 지원합니다. 
 
-여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째(왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다. 
+여기에서는 고유 방문자 수에 대한 페이지 보기 횟수를 사용했습니다. 첫 번째 (왼쪽) 버킷은 고유 방문자에 대한 1개의 페이지 보기에 해당하고 두 번째 버킷은 2개의 페이지 보기 등에 해당합니다. 
 
 ![](assets/histogram2.png)
 
 ## 고급 설정 {#section_09D774C584864D4CA6B5672DC2927477}
 
-히스토그램 설정을 조정하려면 오른쪽 상단의 설정(&quot;톱니바퀴&quot;) 아이콘을 클릭하십시오. 수정할 수 있는 설정은 다음과 같습니다. 
+히스토그램 설정을 조정하려면 오른쪽 상단의 설정 (&quot;톱니바퀴&quot;) 아이콘을 클릭하십시오. 수정할 수 있는 설정은 다음과 같습니다. 
 
 | 히스토그램 설정 | 설명 |
 |---|---|
-| 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다(음수는 안 됨).  |
-| 지표 버킷 | 데이터 범위(버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
+| 버킷 시작 | 히스토그램이 시작되는 버킷을 결정합니다. 1이 기본값입니다. 시작 숫자를 0부터 무한대까지 설정할 수 있습니다 (음수는 안 됨).  |
+| 지표 버킷 | 데이터 범위 (버킷)의 수를 늘이거나 줄일 수 있습니다. 최대 버킷 수는 50개입니다. |
 | 지표 버킷 크기 | 각 버킷의 크기를 설정할 수 있습니다. 예를 들어 버킷 크기를 페이지 보기 1개에서 페이지 보기 2개로 변경할 수 있습니다.  |
 | 계산 방법 | [방문자](/help/components/metrics/unique-visitors.md), [방문](/help/components/metrics/visits.md) 또는 [히트 유형](/help/components/dimensions/hit-type.md) 중에서 선택할 수 있습니다. 예를 들면 방문 당 페이지 보기 수, 방문자 당 페이지 보기 수 또는 히트 당 페이지 보기 수 중에서 선택할 수 있습니다. 히트의 경우 &quot;발생 횟수&quot;는 자유형 테이블에서 y축 지표로 사용됩니다. |
 
