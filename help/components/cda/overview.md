@@ -3,10 +3,10 @@ title: 교차 디바이스 분석
 description: 디바이스 데이터를 함께 결합함으로써 데이터를 디바이스 중심에서 사람 중심으로 변경합니다.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 translation-type: tm+mt
-source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 86%
+source-wordcount: '751'
+ht-degree: 85%
 
 ---
 
@@ -51,3 +51,4 @@ CDA를 사용하려면 다음 조건을 모두 충족해야 합니다. [필드 �
 * 1.4 API가 지원되지 않습니다. Power BI 커넥터와 Report Builder 모두 1.4 API에 의존하며, 따라서 CDA와 호환되지 않습니다.
 * 가상 보고서 세트의 내역 데이터는 Adobe 인식 및 결합 디바이스를 기반으로 변경됩니다. 소스 보고서 세트의 데이터는 변경되지 않습니다.
 * Adobe에 의한 CDA 스티칭 프로세스의 활성 모니터링은 프로덕션 보고서 세트로만 제한됩니다.
+* CDA는 현재 Adobe Analytics [데이터 복구 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)와 호환되지 않습니다.
