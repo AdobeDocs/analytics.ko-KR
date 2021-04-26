@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '637'
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -170,7 +170,6 @@ ht-degree: 100%
    + [우수 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
-   + [FAQ](c-calcmetrics/cm-transition.md)
    + [방법 비디오](c-calcmetrics/cm-videos.md)
    + 계산된 지표 워크플로 {#calcmetric-workflow}
       + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
