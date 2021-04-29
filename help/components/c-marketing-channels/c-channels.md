@@ -3,17 +3,20 @@ description: 마케팅 채널 관리자에서 마케팅 채널을 추가하거�
 subtopic: Marketing channels
 title: 마케팅 채널 관리
 feature: Reports & Analytics 기본 사항
-uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 100%
+source-wordcount: '752'
+ht-degree: 97%
 
 ---
 
 # 마케팅 채널 관리
+
+>[!NOTE]
+>
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 일부 [개정된 우수 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다 (최대 25개).
 
@@ -51,7 +54,7 @@ ht-degree: 100%
 
    보고서 세트에 정의된 채널이 없으면 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 페이지가 표시됩니다.
 
-1. [!UICONTROL 마케팅 채널 관리자] 페이지에서 **[!UICONTROL 채널 추가]**&#x200B;를 클릭합니다. 
+1. [!UICONTROL 마케팅 채널 관리자] 페이지에서 **[!UICONTROL 채널 추가]**&#x200B;를 클릭합니다.
 
    25개의 채널이 정의된 경우에는 이 옵션을 사용할 수 없습니다.
 
