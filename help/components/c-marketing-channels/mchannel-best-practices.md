@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 마케팅 채널 구현을 위한 모범 사례
-description: Attribution IQ 및 Customer Journey Analytics에서 마케팅 채널을 사용하기 위한 모범 사례를 업데이트했습니다.
+description: Attribution IQ 및 Customer Journey Analytics에서 마케팅 채널 사용에 대한 우수 사례를 업데이트했습니다.
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# 마케팅 채널에서 Attribution IQ 사용 - 우수 사례
+# 마케팅 채널의 Attribution IQ - 우수 사례
 
 [마케팅 ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 채널은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 대한 현재 지침은 [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)이(가) 존재하지 않았을 때 작성되었습니다.
 
@@ -38,6 +38,6 @@ Workspace에서 마케팅 채널 차원과 함께 사용되는 사용자 지정 
 
 방문자 참여 기간을 최소 &quot;1일&quot;로 설정하면 값의 지속 가능성이 최소화됩니다. AIQ(사용자 지정 속성 모델)는 유연한 전환 창을 지원하므로 이 설정의 영향을 최소화하려면 최소 값을 설정하는 것이 좋습니다.
 
-## 모범 사례 #5:마케팅 채널 처리 규칙은 활성화된 채널에만 있습니다.
+## 모범 사례 #5:마케팅 채널 처리 규칙은 활성화된 채널에만 있어야 합니다.
 
 비활성화된 채널에 대한 마케팅 채널 처리 규칙을 제거해야 합니다. 규칙은 활성화됨으로 선택된 마케팅 채널에 대해서만 존재해야 합니다.
