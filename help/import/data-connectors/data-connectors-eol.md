@@ -3,7 +3,7 @@ description: Analytics Data Connectors의 사용이 종료되는 시점과 이�
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9c8c201d4bb57f3594ca907c20e5985746b423f0
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 82%
@@ -30,12 +30,6 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 
 추가 질문 또는 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오.
 
-## 예외:Adobe Campaign Classic
-
-2021년 8월 1일의 ONE 예외는 Adobe Campaign Classic 통합입니다. 이 통합은 공식적으로 2022년 3월 1일에 폐기됩니다.
-
-2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다.그러나 기존 Campaign 통합은 2022년 3월 1일까지 데이터를 계속 수집하여 Adobe Analytics으로 전달합니다. 2022년 3월 1일, 통합은 데이터 수집이 중단되고 Adobe Analytics으로 데이터를 전달합니다. Adobe Campaign은 현재 데이터 커넥터 통합을 대체하기 위해 Adobe Exchange에 새 통합을 빌드하고 있습니다. Adobe Campaign은 2022년 3월 사용 중단 날짜 이전에 새로운 통합으로 마이그레이션할 수 있도록 이 새로운 통합을 마무리할 것을 예상하고 있습니다.
-
 ## Data Connector 파트너 상태
 
 | 파트너 | 상태 |
@@ -43,7 +37,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Acxiom | 사용 중단 |
 | Adform | 사용 중단 |
 | Adjust | Adobe Exchange로 마이그레이션 |
-| Adobe Campaign | Adobe Exchange로 마이그레이션 (위의 참고 참조) |
+| Adobe Campaign | Adobe Exchange로 마이그레이션 (아래 참고 참조) |
 | Appfigures | Adobe Exchange로 마이그레이션 |
 | Appsee | 사용 중단 |
 | AppsFlyer | Adobe Exchange로 마이그레이션 |
@@ -67,7 +61,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Demandbase CA | 사용 중단 |
 | Demandbase v3 | 사용 중단 |
 | DialogTech | Adobe Exchange에서 사용 가능 |
-| [DoubleClick for Advertisers  (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 사용 중단 |
+| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 사용 중단 |
 | DREAM | 사용 중단 |
 | DREAMmail 2.0 | 사용 중단 |
 | Dynamic Signal (Nital Vora) | Exchange로 마이그레이션 |
@@ -87,7 +81,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Lyris HQ | 사용 중단 |
 | MaritzCX (V 2.0) | 사용 중단 |
 | Merkle | 사용 중단 |
-| Official Oracle Eloqua Integration | Exchange로 마이그레이션 |
+| Official Oracle Eloqua 통합 | Exchange로 마이그레이션 |
 | optivo broadmail (Episerver) | Exchange로 마이그레이션 |
 | Qualtrics v2 | Exchange로 마이그레이션 |
 | Responsys 2.0 | 사용 중단 |
@@ -105,3 +99,9 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | WhatCounts Email | 사용 중단 |
 | wywy | 사용 중단 |
 | Yesmail Enterprise | 사용 중단 |
+
+## 예외:Adobe Campaign Classic
+
+2021년 8월 1일의 ONE 예외는 Adobe Campaign Classic 통합입니다. 이 통합은 공식적으로 2022년 3월 1일에 폐기됩니다.
+
+2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다.그러나 기존 Campaign 통합은 2022년 3월 1일까지 데이터를 계속 수집하여 Adobe Analytics으로 전달합니다. 2022년 3월 1일, 통합은 데이터 수집이 중단되고 Adobe Analytics으로 데이터를 전달합니다. Adobe Campaign은 현재 데이터 커넥터 통합을 대체하기 위해 Adobe Exchange에 새 통합을 빌드하고 있습니다. Adobe Campaign은 2022년 3월 사용 중단 날짜 이전에 새로운 통합으로 마이그레이션할 수 있도록 이 새로운 통합을 마무리할 것을 예상하고 있습니다.
