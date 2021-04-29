@@ -5,10 +5,10 @@ user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 99%
 
 ---
 
@@ -249,6 +249,7 @@ ht-degree: 100%
    + [지원되는 실시간 지표 및 차원](c-real-time-reporting/realtime-metrics.md)
 + 마케팅 채널 {#marketing-channels}
    + [마케팅 채널 시작](c-marketing-channels/c-getting-started-mchannel.md)
+   + [마케팅 채널의 Attribution IQ](c-marketing-channels/mchannel-best-practices.md)
    + [마케팅 채널 관리](c-marketing-channels/c-channels.md)
    + [마케팅 채널의 처리 규칙](c-marketing-channels/c-rules.md)
    + [마케팅 채널에서의 분류](c-marketing-channels/classifictions-mchannel.md)
