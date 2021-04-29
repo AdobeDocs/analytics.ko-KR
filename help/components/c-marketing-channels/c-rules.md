@@ -3,14 +3,18 @@ title: 마케팅 채널의 처리 규칙
 description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 98%
+source-wordcount: '2169'
+ht-degree: 97%
 
 ---
 
 # 마케팅 채널의 처리 규칙
+
+>[!NOTE]
+>
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 일부 [개정된 우수 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
 마케팅 채널 처리 규칙은 방문자가 사이트에서 수행하는 모든 히트를 처리하여 방문자 히트가 채널에 할당된 기준을 충족하는지 여부를 결정합니다. 규칙은 사용자가 지정하는 순서대로 처리되며, 규칙이 충족되면 시스템이 나머지 규칙의 처리를 중지합니다.
 
