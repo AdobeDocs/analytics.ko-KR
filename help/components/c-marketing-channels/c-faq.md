@@ -1,16 +1,20 @@
 ---
 title: 마케팅 채널 FAQ
 description: 마케팅 채널에 대한 FAQ입니다.
-translation-type: ht
-source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
-workflow-type: ht
-source-wordcount: '1465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+workflow-type: tm+mt
+source-wordcount: '1485'
+ht-degree: 98%
 
 ---
 
 
 # 마케팅 채널 FAQ
+
+>[!NOTE]
+>
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 일부 [개정된 우수 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
 마케팅 채널에 대한 FAQ입니다.
 
