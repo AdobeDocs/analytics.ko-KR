@@ -2,11 +2,11 @@
 title: 마케팅 채널의 처리 규칙
 description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+workflow-type: tm+mt
+source-wordcount: '2149'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,8 @@ ht-degree: 100%
 ![](assets/buckets_2.png)
 
 처리에 대한 추가 참고 사항:
-* 이러한 규칙으로 수집한 데이터는 100% 영구적이며 데이터를 수집한 후에 수정한 규칙은 되돌릴 수 없습니다. 데이터가 잘못된 채널에서 수집되는 일을 막을 수 있도록 [!UICONTROL 마케팅 채널 처리 규칙]을 저장하기 전에 모든 상황을 검토 및 고려하는 것이 좋습니다.
+
+* 이러한 규칙으로 수집한 데이터는 100% 영구적이며 데이터를 수집한 후에 수정한 규칙은 되돌릴 수 없습니다. 데이터가 잘못된 채널에서 수집되는 것을 완화하려면 [!UICONTROL 마케팅 채널 처리 규칙]을(를) 저장하기 전에 모든 상황을 검토하고 고려하는 것이 좋습니다.
 * 보고서는 한 번에 최대 25개의 채널을 처리할 수 있습니다.
 * 규칙은 VISTA가 설정한 변수에 액세스할 수 있지만 VISTA가 삭제한 데이터에는 액세스할 수 없습니다.
 * 두 개의 마케팅 채널이 동일 이벤트 (예: 구매 횟수 또는 클릭 수)에 대한 크레디트를 받지 않습니다. 이 방법에서, 마케팅 채널은 eVar와 다릅니다 (두 개의 eVar가 동일 이벤트에 대한 크레디트를 받을 수 있는 경우).
@@ -27,6 +28,7 @@ ht-degree: 100%
 
 * [마케팅 채널 시작](/help/components/c-marketing-channels/c-getting-started-mchannel.md)에서 개념 정보를 검토하십시오.
 * 규칙을 할당할 수 있도록 하나 이상의 채널을 만듭니다. [마케팅 채널 추가](/help/components/c-marketing-channels/c-channels.md)를 참조하십시오.
+* [!UICONTROL Attribution IQ]과 함께 [!UICONTROL 마케팅 채널]을(를) 사용하기 위한 우수 사례를 검토하십시오.
 
 ## 마케팅 채널 처리 규칙 만들기
 
@@ -122,7 +124,7 @@ ht-degree: 100%
 
 자연어 검색은 비용을 지불하지 않고 검색 엔진이 사이트 등급을 지정하는 웹 검색을 통해 방문자가 웹사이트를 찾을 때 발생합니다.
 
-Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
+Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 마케팅 채널 규칙의 경우, 자연어 검색 설정은 다음과 같습니다.
 
