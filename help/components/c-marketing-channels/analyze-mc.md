@@ -3,14 +3,18 @@ title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 86%
 
 ---
 
 # 마케팅 채널 분석
+
+>[!NOTE]
+>
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 일부 [개정된 우수 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
 어느 마케팅 채널이 가장 효과적인지 알고 싶을 것입니다. 그러한 채널을 이용하여 노력을 향상시키고 최적의 마케팅 효과를 얻을 수 있습니다. Adobe Analytics에서는 작업 공간의 마케팅 채널 차원 및 지표가 주문, 매출 등에 대한 다양한 채널의 영향을 추적하는 데 도움이 되는 도구 중 하나이며, 유용한 채널 인사이트를 제공합니다. 마케팅 채널과 관련하여 사용할 수 있는 차원 및 지표는 다음과 같습니다.
 
