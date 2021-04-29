@@ -1,16 +1,20 @@
 ---
 title: 마케팅 채널 시작
 description: 마케팅 채널 워크플로우, 자동 설정 및 템플릿 보고서 세트 설정을 여러 보고서 세트에 적용하는 방법에 대해 알아봅니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+workflow-type: tm+mt
+source-wordcount: '814'
+ht-degree: 97%
 
 ---
 
 
 # 마케팅 채널 시작
+
+>[!NOTE]
+>
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 일부 [개정된 우수 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 지정할 수 있습니다.
 
