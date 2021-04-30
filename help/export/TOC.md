@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '278'
+translation-type: tm+mt
+source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+workflow-type: tm+mt
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
       + [늦게 도착하는 조회수](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [데이터 피드 FAQ](analytics-data-feed/df-faq.md)
    + [데이터 피드 우수 사례](analytics-data-feed/data-feeds-best-practices.md)
-   + [데이터 피드 문제 해결](analytics-data-feed/feed-troubleshooting.md)
    + [작업 문제 해결](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 개요](data-warehouse/data-warehouse.md)
