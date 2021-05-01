@@ -5,11 +5,11 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 77%
 
 ---
 
@@ -20,6 +20,15 @@ Activity Map 기능의 설정, 구성 및 사용과 관련하여 자주 묻는 �
 ## 모든 Analytics 고객이 관리 도구 ActivityMap 지원 페이지에 액세스할 수 있습니까?
 
 Adobe Analytics Standard, Premium 및 Ultimate 계약을 맺은 조직은 Activity Map에 액세스할 수 있습니다.
+
+## Activity Map은 SPA(Single-Page Applications)를 어떻게 지원합니까?
+
+몇 초마다 Activity Map은 웹 페이지를 스캔하여 페이지의 변경 사항을 찾습니다. ActivityMap은 새 페이지를 로드하지 않고 페이지에서 새 컨텐츠를 찾지만 이 새 컨텐츠는 페이지를 로드할 때 발견된 첫 번째 pageName에 항상 적용됩니다.
+
+* Activity Map은 알고 있는 링크의 가시성이 변경되었는지 확인합니다. 가시성 변경 사항이 발견되면 해당 링크에 대한 [페이지에 있는 링크] 테이블의 [현재 링크] 열이 [!UICONTROL Displayed] 또는 [!UICONTROL Hidden]으로 업데이트됩니다.
+
+* 사용자 상호 작용이 새 컨텐츠를 만들면 AppMeasurement에서 링크가 될 새 요소가 [!UICONTROL 페이지에 있는 링크] 테이블에 추가됩니다. Activity Map은 이러한 새 링크를 포함하는 새 데이터 요청을 전송합니다. 데이터 요청을 UI로 처리할 때 새 링크가 [!UICONTROL 페이지에 있는 링크] 테이블에 나타나야 합니다.
+
 
 ## Activity Map에서 “보기”에 대한 데이터를 제공합니까?
 
