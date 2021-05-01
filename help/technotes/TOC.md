@@ -5,10 +5,10 @@ user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 94%
 
 ---
 
@@ -38,13 +38,15 @@ ht-degree: 90%
    + [날짜를 이전 범위와 비교](event/compare-dates.md)
    + [이벤트의 영향을 받는 데이터 가져오기](event/calcmetrics.md)
    + [사용자에게 이벤트 전달](event/communicate.md)
-+ [브라우저 쿠키](cookies.md)
++ [쿠키] {#cookies}
+   + [브라우저 쿠키](cookies/cookies.md)
+   + [브라우저 쿠키 제한의 효과를 완화시키는 옵션](cookies/cookieless.md)
 + [데이터 보존](data-retention.md)
 + [데이터 제외](exclude-data.md)
 + [Adobe Analytics에서 사용하는 IP 및 도메인](ip-addresses.md)
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)
-+ [Adobe Analytics으로 Mobile Services 처리 규칙 마이그레이션](migrate-mobile.md)
++ [모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션](migrate-mobile.md)
 + [다중 통화 지원](multicurrency.md)
 + [개인 정보 보호 개요](privacy-overview.md)
 + [리디렉션 및 별칭](redirects.md)
