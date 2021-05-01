@@ -3,9 +3,9 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
@@ -36,10 +36,10 @@ ht-degree: 100%
 | 2020년 2월 7일 | [교차 장치 분석 설정](/help/components/cda/setup.md) 및 [FAQ](/help/components/cda/faq.md)에 대한 업데이트 |
 | 2020년 2월 4일 | [구현 사용 안내서](/help/implement/home.md)의 전체적인 재작성. |
 | 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
-| 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies.md)를 추가했습니다. |
+| 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
-| 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/ko-KR/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
+| 2019년 11월 21일 | [고객 움직임 분석](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
 | 2019년 9월 28일 | [Javascript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
 | 2019년 9월 12일 | [Journey IQ: 교차 장치 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱 (PWA)](/help/analyze/pwa/pwa.md)에 대한 새로운 문서 |
