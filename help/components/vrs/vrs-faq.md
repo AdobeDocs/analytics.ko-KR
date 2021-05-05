@@ -5,9 +5,9 @@ title: VRS FAQ
 feature: Reports & Analytics 기본 사항
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
      <li>보고서 세트 ID </li> 
      <li>보고서 세트 이름 </li> 
      <li>권한 그룹 (가상 보고서 세트를 고유한 권한 그룹에 할당할 수 있음) </li> 
-    </ul> <p>참고: 여기에는 책갈피, 대시보드, 예약된 보고서처럼 사용자가 만든 대부분의 개체가 포함되지 않습니다. 이러한 항목은 상위에서 상속되지 않으며, VRS에 대해 특별히 만들고 사용할 수 있습니다 (다음 질문에 자세히 설명됨). </p> </td> 
+    </ul> <p>참고: 여기에는 책갈피, 대시보드, 예약된 보고서처럼 사용자가 만든 대부분의 개체가 포함되지 않습니다.이러한 항목은 상위에서 상속되지 않으며, VRS에 대해 특별히 만들고 사용할 수 있습니다 (다음 질문에 자세히 설명됨). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Analytics UI에서 가상 보고서 세트 작업은 기본 보고서 세트 작업과 어떻게 다릅니까?</b> </td> 
@@ -57,8 +57,8 @@ ht-degree: 100%
    <td colname="col1"> <b>가상 보고서 세트가 관리자 콘솔과 관리 API에서 어떻게 처리됩니까? 기본 보고서 세트처럼 가상 보고서 세트에 기능을 저장할 수 있습니까? </b> </td> 
    <td colname="col2"> <p>아니요, 가상 보고서 세트는 <b>대부분의 관리 기능에 대해 지원되지 않습니다</b>. 위에서 언급했듯이 VRS는 상위에서 대부분의 서비스 수준과 기능을 상속하므로 (예: eVar 설정, 처리 규칙, 분류 등) VRS에서 상속된 이러한 설정을 변경하려면 상위 보고서 세트를 변경해야 합니다. </p> <p>따라서 가상 보고서 세트는 <b>다음에만</b> UI에 표시됩니다. </p> 
     <ul> 
-     <li>VRS를 만들고 편집한 가상 보고서 세트 관리자 <p> (<span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol">가상 보고서 세트</span></span>). </p> </li> 
-     <li id="li_E2B3F61A3013402697DCF6E0D32A62DC"> 사용자 지정 권한 그룹을 편집한 사용자 관리 인터페이스. 여기서 VRS 계정을 권한 그룹에 추가할 수 있으며, 가상 보고서 세트에만 액세스할 수 있는 그룹을 만들 수 있습니다 (관리자가 상위에 대한 액세스를 거부하고 사용자만 특정 세그먼트에 액세스를 허용하는 경우). <p> ( <span class="ignoretag"> <span class="uicontrol"> 관리자</span> &gt; <span class="uicontrol">사용자 관리 </span> </span>) </p> </li> 
+     <li>VRS를 만들고 편집한 가상 보고서 세트 관리자 <p>(<span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">구성 요소</span> &gt; <span class="uicontrol">가상 보고서 세트</span></span>). </p> </li> 
+     <li id="li_E2B3F61A3013402697DCF6E0D32A62DC"> 사용자 지정 권한 그룹을 편집한 사용자 관리 인터페이스. 여기서 VRS 계정을 권한 그룹에 추가할 수 있으며, 가상 보고서 세트에만 액세스할 수 있는 그룹을 만들 수 있습니다 (관리자가 상위에 대한 액세스를 거부하고 사용자만 특정 세그먼트에 액세스를 허용하는 경우). <p>( <span class="ignoretag"> <span class="uicontrol"> 관리자</span> &gt; <span class="uicontrol">사용자 관리 </span> </span>) </p> </li> 
     </ul> <p>참고: 웹 서비스 API를 사용하고 VRS에 기능 설정을 저장하려고 하면 예외가 발생합니다. 기본 보고서 세트에 대해서만 기능을 설정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
