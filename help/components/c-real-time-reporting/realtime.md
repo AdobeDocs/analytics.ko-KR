@@ -4,9 +4,9 @@ title: 실시간 보고 개요
 topic-fix: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 **[!UICONTROL 사이트 지표]** > **[!UICONTROL 실시간]**
 
-실시간 보고서는 사이트 트렌드는 무엇이며 그러한 트렌드의 이유는 무엇인가와 같은 질문들에 대해 대답해줍니다. 실시간 보고서를 사용하면 마케터로서 신속히 대응하고 마케팅 콘텐츠와 캠페인의 성능을 관리할 수 있습니다. 보고서의 실시간 데이터는 2분 미만으로 잠재해 있다가 분 단위로 자동 업데이트됩니다.
+실시간 보고서는 사이트 트렌드는 무엇이며 그러한 트렌드의 이유는 무엇인가와 같은 질문들에 대해 대답해 줍니다. 실시간 보고서를 사용하면 마케터로서 신속히 대응하고 마케팅 콘텐츠와 캠페인의 성능을 관리할 수 있습니다. 보고서의 실시간 데이터는 2분 미만으로 잠재해 있다가 분 단위로 자동 업데이트됩니다.
 
 ![](assets/report-realtime.png)
 
