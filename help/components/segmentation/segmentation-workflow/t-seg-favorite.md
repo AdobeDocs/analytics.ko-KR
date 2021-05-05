@@ -4,9 +4,9 @@ title: 세그먼트를 즐겨찾기로 표시
 feature: 세그먼테이션
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 세그먼트를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다.
 
-1. 세그먼트 관리자에서 즐겨찾기로 표시할 세그먼트 옆의 별모양을 선택합니다. 이제 노란색 별로 표시됩니다. 
+1. 세그먼트 관리자에서 즐겨찾기로 표시할 세그먼트 옆의 별모양을 선택합니다. 이제 노란색 별로 표시됩니다.
 
    ![](assets/favorites.png)
 
