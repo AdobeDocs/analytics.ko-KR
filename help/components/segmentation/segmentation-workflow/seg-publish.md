@@ -59,7 +59,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Adobe Analytics 숫자를 Audience Manager 숫자와 비교할 때 총 &quot;고유 방문자 수&quot; 세그먼트 미리 보기 대신 Analytics의 세그먼트 미리 보기를 볼 경우 &quot;Experience Cloud ID를 가진 방문자&quot;를 사용하도록 하십시오.
+>Adobe Analytics 숫자를 Audience Manager 숫자와 비교할 때 총 &quot;고유 방문자 수&quot; 세그먼트 미리보기 대신 Analytics의 세그먼트 미리보기를 볼 경우 &quot;Experience Cloud ID를 가진 방문자&quot;를 사용하도록 하십시오.
 >
 >![](assets/seg-vis-ecid.png)
 
@@ -93,7 +93,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 * Adobe Experience Cloud Debugger
 * 브라우저의 기본 개발자 도구 (예: Chrome 개발자 도구)
 
-다음 스크린샷은 브라우저에서 AAM UUID를 검색하고 이것을 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여줍니다.
+다음 스크린샷은 브라우저에서 AAM UUID를 검색하고 이것을 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
 
 **방법 1: Adobe Experience Cloud 디버거 사용**
 
