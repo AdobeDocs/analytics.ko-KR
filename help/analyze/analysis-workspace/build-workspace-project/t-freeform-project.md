@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 작업 영역 프로젝트 만들기
 feature: Reports & Analytics 기본 사항
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 프로젝트를 만들고 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)를 자유 형식 패널에 추가합니다.
 
-이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여줍니다.
+이 문서는 Analysis Workspace 인터페이스 요소에 익숙해지도록 하고 프로젝트를 만드는 방법을 보여 줍니다.
 
 ## 프로젝트를 만듭니다.
 
@@ -83,9 +83,9 @@ ht-degree: 100%
 
    ![](assets/save_project.png)
 
-1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을(&quot;삽입&quot;) 수 있습니다.
+1. 이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 (&quot;삽입&quot;) 수 있습니다.
 
-   이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot;(사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
+   이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 &quot;문서 블록&quot; (사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다.
 
    >[!NOTE]
    >
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 ![](assets/fa_full_panel.png)
 
-1. 단계. 
+1. 단계
 
 ## 마우스 오른쪽 단추 클릭 메뉴를 사용하여 데이터 사용자 지정 {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
