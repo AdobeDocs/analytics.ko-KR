@@ -5,9 +5,9 @@ title: 방문자 마이그레이션
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 
@@ -51,11 +51,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>구성 변경 후 6시간 이상</b>: Analytics JavaScript 코드에서 <code> s.trackingServer</code> 및 <code> s.trackingServerSecure</code> 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. </p> </td> 
-   <td colname="col3"> <p>이 변경 사항을 적용한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko"> Experience Cloud debugger</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
+   <td colname="col3"> <p>이 변경 사항을 적용한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR"> Experience Cloud debugger</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 
-   <td colname="col3"> <p>Use a <a href="../implement/validate/packet-monitor.md"> 패킷 모니터</a>를 사용하여 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200 (OK) HTTP 상태 코드 앞에 두 개의 302 (리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
+   <td colname="col3"> <p> <a href="../implement/validate/packet-monitor.md"> 패킷 모니터</a>를 사용하여 처음으로 사이트에 액세스할 때 또는 쿠키를 지운 후, 200 (OK) HTTP 상태 코드 앞에 두 개의 302 (리디렉션) HTTP 상태 코드가 표시되는지 확인합니다. 리디렉션이 실패하는 경우 즉시 고객 지원 센터에 연락하여 마이그레이션이 바르게 구성되도록 하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>전체 마이그레이션 기간</b>: 이전 활성 호스트 이름에 대해 DNS 레코드를 유지합니다. </p> </td> 
