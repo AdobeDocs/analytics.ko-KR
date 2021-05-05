@@ -2,13 +2,13 @@
 description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾습니다. 규칙 일치가 발견되면 이 규칙이 해당 용어를 분류 데이터 표에 자동으로 추가합니다. 분류 규칙을 사용하여 기존의 키를 덮어쓸 수도 있습니다.
 subtopic: Classifications
 title: 분류 규칙
-feature: Admin Tools
+feature: 관리 도구
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 * **이메일** 및 **디스플레이 광고**: 이메일 캠페인과 비교하여 디스플레이 캠페인의 실적을 확인할 수 있도록 분류 규칙을 만들어 개별 디스플레이 광고 캠페인을 그룹화합니다.
 
 * **추적 코드**: 분류 규칙을 만들어 추적 코드의 문자열에서 파생된 키 값을 카테고리별로 분류하고 정의한 특정 기준에 일치시킵니다.
-* **검색어**:  [정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md) 및 와일드카드를 사용하여 검색어 분류를 단순화합니다. 예를 들어 검색어에 *`baseball`*&#x200B;이 포함된 경우 *`Sports League`* 분류를 *`MLB`*&#x200B;로 설정할 수 있습니다.
+* **검색어**: [정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md) 및 와일드카드를 사용하여 검색어 분류를 단순화합니다. 예를 들어 검색어에 *`baseball`*&#x200B;이 포함된 경우 *`Sports League`* 분류를 *`MLB`*&#x200B;로 설정할 수 있습니다.
 
 예를 들어 이메일 캠페인 ID에 대한 추적 코드가 다음과 같다고 가정해봅시다.
 
@@ -38,9 +38,9 @@ ht-degree: 99%
 |---|---|---|---|
 | 다음으로 시작 | em: | Channel | 이메일 |
 | 종료 문자 | 판매 | 유형 | 판매 |
-| 다음 포함 | 2013 | 년 | 2013년 |
+| 다음 포함 | 2013 | 년 | 2013 |
 
-## 규칙 처리 방법{#how-rules-are-processed}의 정보를 숙지하십시오 
+## 규칙 처리 방법의 정보를 숙지하십시오 {#how-rules-are-processed}
 
 분류 규칙 처리 방법에 관한 중요 정보입니다.
 
@@ -66,9 +66,9 @@ about_classification_rules.xml
 
 * **보고서 세트**: 최소 1개의 보고서 세트를 선택할 때까지 분류를 선택할 수 없습니다. 규칙 세트를 만들고 변수를 할당할 때까지 보고서 세트를 적용할 수 없습니다.
 
-   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. (The [키](/help/components/classifications/importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
+   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오.  [키](/help/components/classifications/importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. See [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다.  [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -83,7 +83,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-   You can overwrite classifications when [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+    [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -94,7 +94,7 @@ about_classification_rules.xml
 
 ![](assets/overwrite_keys.png)
 
-## 분류 규칙의 정규 표현식{#regex-in-classification-rules}에서 볼 수 있습니다 
+## 분류 규칙의 정규 표현식에서 볼 수 있습니다 {#regex-in-classification-rules}
 
 정규 표현식을 사용하여 일관된 서식의 문자열 값과 분류를 일치시킵니다. 예를 들면 추적 코드의 특정 문자로부터 분류를 만들 수 있습니다. 특정 문자, 단어 또는 문자 패턴을 일치시킬 수 있습니다.
 
@@ -155,7 +155,7 @@ regex_classification_rules.xml
 | 정규 표현식 | 문자열 또는 일치 결과 | 해당 일치 그룹 |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
-| 구문 작성 중 | `^` = 줄을 시작합니다. () = 괄호를 사용하여 문자를 그룹화하고 일치하는 문자를 추출할 수 있습니다.  `(.+)` = 한 개의 ( . ) 문자를 캡처하고 더 이상 와 ( + ) 하지 않습니다. \ = 문자열의 시작입니다.  `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
+| 구문 작성 중 | `^` = 줄을 시작합니다. () = 괄호를 사용하여 문자를 그룹화하고 일치하는 문자를 추출할 수 있습니다.  `(.+)` = 한 개의 ( . ) 문자를 캡처하고 더 이상 와 ( + ) 하지 않습니다. \ = 문자열의 시작입니다. `$` = 이전 문자(또는 문자 그룹)가 라인의 마지막 부분임을 의미합니다. |
 
 정규 표현식의 문자가 무엇을 의미하는지에 대한 자세한 내용은 [정규 표현식 - 참조 테이블](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)을 참조하십시오.
 
@@ -181,7 +181,7 @@ regex_classification_rules.xml
 
 ## 정규 표현식 - 다양한 길이의 추적 코드 일치 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
-이 예는 다양한 길이의 추적 코드가 있을 때 콜론 구분 기호 간에 특정 문자를 식별하는 방법을 보여줍니다. 각 추적 코드에 대해 하나의 정규 표현식을 사용하는 것이 좋습니다.
+이 예는 다양한 길이의 추적 코드가 있을 때 콜론 구분 기호 간에 특정 문자를 식별하는 방법을 보여 줍니다. 각 추적 코드에 대해 하나의 정규 표현식을 사용하는 것이 좋습니다.
 
 샘플 키:
 
@@ -201,12 +201,12 @@ regex_classification_rules.xml
 
 | 규칙 유형 선택 | 일치 기준 입력 | 분류 설정 | 종료 |
 |--- |--- |--- |--- |
-| 정규 표현식  일치 문자열 a:b의 경우 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 정규 표현식  일치 문자열 a:b의 경우 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 정규 표현식  일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 정규 표현식  일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 정규 표현식  일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 정규 표현식  일치 문자열 a:b:c:d의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 정규 표현식 일치 문자열 a:b의 경우 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 정규 표현식 일치 문자열 a:b의 경우 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 정규 표현식 일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 정규 표현식 일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 정규 표현식 일치 문자열 a:b:c의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 정규 표현식 일치 문자열 a:b:c:d의 경우 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 정규 표현식 - &quot;포함되지 않음&quot; 예 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -239,7 +239,7 @@ c:d:yoyo
 
 | 표현식 | 설명 |
 |---|---|
-| `(?ms)` | 전체 정규 표현식을 여러 줄 입력과 일치시켜서, 와일드 카드(.)가 모든 새 줄 문자와 일치하게 합니다. |
+| `(?ms)` | 전체 정규 표현식을 여러 줄 입력과 일치시켜서, 와일드카드가 모든 새 줄 문자와 일치하게 합니다. |
 | (`?i`) | 전체 정규 표현식에서 대/소문자를 구분하지 않게 합니다. |
 | [`abc`] | 단일 문자 a, b 또는 c |
 | [`^abc`] | a, b 또는 c를 제외한 모든 단일 문자 |
@@ -285,7 +285,7 @@ rule_priority.xml
 | 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
 | 1 | 다음 포함 | Cowboys | 검색 유형 | Team |
-| 2 | 다음 포함 | Fantasy | 검색 유형 | 판타지 |
+| 2 | 다음 포함 | Fantasy | 검색 유형 | Fantasy |
 | 3 | 다음 포함 | Romo | 검색 유형 | Player |
 
 사용자가 *`Cowboys fantasy Tony Romo`*&#x200B;를 검색하는 경우, 용어 *`Player`*&#x200B;는 분류 설정 열에 표시된 마지막 분류 항목에 일치하기 때문에 분류됩니다.
@@ -326,7 +326,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >다음 조건이 충족되면 보고서 세트가 이 페이지 *`only`*&#x200B;에 표시됩니다.
+   >다음 조건이 충족될 때에&#x200B;*`only`*&#x200B;만 보고서 세트가 이 페이지에 표시됩니다.
    >
    >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
       >
@@ -343,7 +343,7 @@ t_classification_rule.xml
    |---|---|
    | **규칙은 설정이 해제된 값만 덮어씁니다.** | 빈(설정이 해제된) 셀만 채웁니다. 기존 분류는 변경되지 않습니다. |
 
-1. [단일 규칙 또는 여러 규칙을 정의합니다](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529). 
+1. [단일 규칙 또는 여러 규칙을 정의합니다](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
    ![단계 결과](assets/classification_rules_page.png)
 
