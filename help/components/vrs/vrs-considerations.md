@@ -5,9 +5,9 @@ title: 가상 보고서 세트와 다중 세트 태깅 고려 사항
 feature: 보고서 세트 설정
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1742'
 ht-degree: 100%
 
