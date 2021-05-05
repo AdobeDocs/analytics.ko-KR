@@ -5,9 +5,9 @@ title: 머리글 및 바닥글 코드 추가
 topic-fix: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 exl-id: 170c28fb-8884-4c44-b586-f88a7583083e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Dynamic Tag Management는 스테이징 환경에서 변경 사항을 테스트�
 >
 >지원되지 않는 방식으로 구현하면 예기치 않은 결과가 발생하고 고객 지원 센터 및 엔지니어링 센터에서 구현을 지원할 수 없게 됩니다.
 
-1. Dynamic Tag Management 인터페이스에서 [!UICONTROL 포함] 탭을 열고 호스팅 옵션 (예: Akamai)을 선택한 다음 스위치를 &quot;On&quot;으로 토글합니다. 
+1. Dynamic Tag Management 인터페이스에서 [!UICONTROL 포함] 탭을 열고 호스팅 옵션 (예: Akamai)을 선택한 다음 스위치를 &quot;On&quot;으로 토글합니다.
 
    단계 결과 1. Dynamic Tag Management의 포함 탭에 제공된 프로덕션 머리글 코드를 복사하여 사이트 HTML의 [!DNL HEAD] 섹션에 붙여넣습니다.
 
@@ -41,7 +41,7 @@ Dynamic Tag Management는 스테이징 환경에서 변경 사항을 테스트�
 
 1. 프로덕션 바닥글 코드를 복사하여 사이트 HTML의 [!DNL BODY] 섹션에 넣습니다.
 
-   이 코드를 가능한 한 `</body>` 태그에 가깝게 포함했습니다. 
+   이 코드를 가능한 한 `</body>` 태그에 가깝게 포함했습니다.
 1. 스테이징 머리글 및 바닥글 코드를 복사한 다음, 스테이징 사이트에서 위의 절차를 반복합니다.
 
    >[!NOTE]
