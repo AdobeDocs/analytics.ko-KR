@@ -48,7 +48,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
    <td colname="col2"> <p>전환 변수의 친숙한 이름. 이 이름은 eVar가 일반 보고에서 참조되는 방식이며 왼쪽 메뉴에서 보고서의 이름이 됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> 유형</span> </p> <p> (eVar만) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> 유형</span> </p> <p>(eVar만) </p> </td> 
    <td colname="col2"> <p>변수 값 유형은 다음과 같습니다. </p> <p> <b>텍스트 문자열:</b></span> 사이트에서 사용되는 텍스트 값을 캡처합니다. 이것은 eVar의 가장 흔한 유형으로, 기본 설정입니다. 이것은 다른 변수와 유사하게 작동하며, 변수 내 값은 정적 텍스트 문자열입니다. 이것은 내부 캠페인 또는 내부 검색 키워드와 같은 것을 추적할 경우 권장되는 설정입니다. </p> <p> <b>카운터:</b></span> 성공 이벤트 이전의 작업 발생 횟수를 카운트합니다. 예를 들어 eVar를 사용하여 사이트에서 내부 검색을 추적하는 경우 이 값을 <span class="uicontrol">텍스트 문자열</span>로 설정하면 검색어 사용을 추적할 수 있습니다. 사용된 검색어에 관계없이 검색 횟수를 카운트하려면 이 값을 <span class="uicontrol">카운터</span>로 설정합니다. 예를 들어 카운터 eVar를 사용하여 어떤 사람이 구매를 하기 전에 내부 검색을 사용한 횟수를 추적할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> 상태</span> </p> <p> (eVar만) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> 상태</span> </p> <p>(eVar만) </p> </td> 
    <td colname="col2"> <p>eVar 상태를 정의합니다. </p> <p><b>비활성화</b>:</span> eVar를 비활성화합니다. 전환 변수 목록에서 eVar를 제거합니다. </p> <p> <b>하위 관계 없음</b>:</span> 하위 관계로 eVar를 분류할 수 없습니다. </p> <p> <b>기본 하위 관계</b>: </span>전체 하위 관계가 있는 보고서 (예: 제품 또는 캠페인)로 eVar를 분류할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -88,11 +88,11 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
    <td colname="col2"> <p>eVar에서 모든 기존 값을 재설정합니다. </p> <p>eVar의 용도를 다시 지정할 때 이 설정을 사용하여 새 보고서에 이전 값을 혼합합니다. 재설정해도 내역 데이터는 지워지지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> 머천다이징</span> </p> <p> (eVar만) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> 머천다이징</span> </p> <p>(eVar만) </p> </td> 
    <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> eVar 값을 제품에 연결합니다. 참고: 제품 구문을 선택한 경우 머천다이징 바인딩 이벤트 섹션이 비활성화되므로 선택하여 편집할 수 없습니다. 이 구문에는 바인딩 이벤트를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/merchandising-variables/var-merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p> (eVar만) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p>(eVar만) </p> </td> 
    <td colname="col2"> <p>머천다이징이 <span class="uicontrol">전환 변수 구문</span>으로 설정된 경우, 선택한 이벤트는 현재 eVar 값을 제품에 바인딩합니다. </p> <p>바인딩 이벤트를 사용하려면 <span class="uicontrol">할당을 가장 최근</span>으로 설정합니다. <span class="uicontrol">할당이 원래 값</span>인 경우 첫 번째 eVar 제품 바인딩은 eVar가 만료될 때까지 유지됩니다. <code>ctrl</code> (Windows) 또는 <code>cmd</code> (Mac)을 누른 채로 목록의 항목을 클릭하면 여러 개의 이벤트를 선택할 수 있습니다. 전환 변수 구문이 선택된 경우에만 이벤트를 선택할 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
