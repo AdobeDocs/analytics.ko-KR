@@ -2,11 +2,11 @@
 title: getQueryParam
 description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -187,12 +187,12 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 
 ### 4.0.1(2021년 3월 26일)
 
-* 쿼리 문자열에 쿼리 매개 변수가 없을 경우 &quot;&quot; 대신 undefined가 반환되는 문제가 업데이트되었습니다.
+* 쿼리 문자열에 쿼리 매개 변수가 없을 때 “” 대신 정의되지 않음이 반환되는 문제가 업데이트되었습니다.
 
 ### 4.0 (2021년 3월 19일)
 
 * 버전 번호를 컨텍스트 데이터로 추가했습니다.
-* pt 플러그인에 대한 종속성을 제거했습니다.
+* pt 플러그인에 대한 종속성이 제거되었습니다.
 
 ### 3.3 (2019년 9월 24일)
 
