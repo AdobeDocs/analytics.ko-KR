@@ -4,9 +4,9 @@ title: 세그먼트 작성
 feature: 세그먼테이션
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2040'
 ht-degree: 100%
 
@@ -33,8 +33,8 @@ ht-degree: 100%
 1. **[!UICONTROL 설명]**: 세그먼트에 대한 설명을 입력합니다.
 1. **[!UICONTROL 태그]**: 기존 태그 목록에서 선택하거나 새 태그를 만들어 작성하고 있는 [세그먼트에 태깅](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
 1. **[!UICONTROL 정의]**: [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 및 구성, 규칙 추가, 컨테이너 중첩 및 시퀀스 지정을 수행하는 곳입니다.
-1. **[!UICONTROL 표시]**:  (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/segmentation/seg-overview.md)  ([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
-1. **[!UICONTROL 옵션]**:  (톱니바퀴) 아이콘
+1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/segmentation/seg-overview.md)  ([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
+1. **[!UICONTROL 옵션]**: (톱니바퀴) 아이콘
 
    * **[!UICONTROL + 컨테이너 추가]**: 세그먼트 정의에 새 컨테이너 (최상위 컨테이너 아래)를 추가할 수 있습니다.
    * **[!UICONTROL 제외]**: 하나 이상의 차원, 세그먼트 또는 지표를 제외하는 식으로 세그먼트를 정의합니다.
@@ -58,14 +58,14 @@ ht-degree: 100%
    | 인스턴스 | X | X | - | - | X | - |
    | 비반복 인스턴스 | X | - | - | - | X | - |
 1. **[!UICONTROL And/Or/Then]**: 컨테이너나 규칙 사이에 [!UICONTROL AND/OR/THEN] 연산자를 지정합니다. THEN 연산자를 사용하여 [순차적 세그먼트를 정의](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)할 수 있습니다.
-1. **[!UICONTROL 지표]**:  (녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다.
+1. **[!UICONTROL 지표]**: (녹색 사이드바) 지표 목록에서 드래그 앤 드롭한 지표입니다.
 1. **[!UICONTROL 비교]** 연산자: 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
-1. **[!UICONTROL X]**:  (삭제) 이 세그먼트 정의 부분을 삭제할 수 있습니다.
+1. **[!UICONTROL X]**: (삭제) 이 세그먼트 정의 부분을 삭제할 수 있습니다.
 1. **[!UICONTROL Experience Cloud 게시]**: Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를 [!DNL Audience Manager]의 마케팅 활동과 기타 활성화 채널에서 사용할 수 있습니다. [추가 정보...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
 1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL 검색]**: 차원, 세그먼트 또는 지표 목록을 검색합니다.
-1. **[!UICONTROL 차원]**:  (목록) 확장할 헤더를 클릭합니다.
+1. **[!UICONTROL 차원]**: (목록) 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 지표]**: 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 세그먼트]**: 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 보고서 세트 선택기]**: 이 세그먼트가 저장될 보고서 세트를 선택할 수 있습니다. 모든 보고서 세트의 세그먼트를 계속 활용할 수 있습니다.
@@ -204,7 +204,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 열람되었지만 장바구니에 추가되지 않은 제품 </td> 
-   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>그런 다음 </p> <p> 장바구니 추가는 0입니다. </p> </td> 
+   <td colname="col2">제품을 열람했지만 장바구니에 추가하지 않은 방문자의 데이터를 표시합니다. 세그먼트 정의에서 이 컨테이너는 방문입니다. 순차적 세그먼트에 대한 규칙은 다음과 같습니다. <p>제품 보기가 null이 아닙니다. </p> <p>Then </p> <p> 장바구니 추가는 0입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 캠페인에서 방문 </td> 
