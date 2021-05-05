@@ -30,7 +30,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 구성]** (톱니바퀴 아이콘)을 클릭하여 [!UICONTROL 보고서 세트 관리자]를 실행합니다.
 
-    (**[!UICONTROL Analytics]** > **[!UICONTROL 관리 > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간에서도 이용 가능합니다]**.)
+   (**[!UICONTROL Analytics]** > **[!UICONTROL 관리 > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 실시간에서도 이용 가능합니다]**.)
 
 1. **[!UICONTROL 실시간 활성화]** 설정을 켭니다.
 1. 최대 3개의 보고서 (보고서당 지표 한 개와 차원 또는 분류 세 개가 있음)에 대한 실시간 데이터 수집을 설정합니다.
