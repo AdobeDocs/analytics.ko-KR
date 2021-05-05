@@ -3,9 +3,9 @@ description: 데이터 개인 정보 보호에서 개인 정보 보호 보고를
 title: 개인 정보 보호 보고 변수
 feature: 관리 도구
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
