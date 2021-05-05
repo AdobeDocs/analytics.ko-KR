@@ -1,12 +1,12 @@
 ---
 title: 보고서 세트 도구에 대한 제품 프로필 권한
-description: 보고서 세트 도구 아래의 각 권한 항목을 파악합니다.
+description: 보고서 세트 도구에서 각 권한 항목을 파악합니다.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
