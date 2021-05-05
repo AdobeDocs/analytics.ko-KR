@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 ## 특수 문자가 포함된 값을 분류하려면 어떻게 해야 합니까?
 
-Adobe Analytics에서 이러한 데이터에서 빈 문자가 잘리기 때문에 분류 데이터 및 히트 데이터에서 선행 및 후행 공백 문자는 사용할 수 없습니다.
+Adobe Analytics에서 해당 데이터의 빈 문자가 잘릴 수 있기 때문에 두 가지 분류 데이터의 선행/후행 빈 공백과 히트 데이트 사용은 지원되지 않습니다.
 
 보고에 쉼표나 큰따옴표와 같은 특수 문자를 사용하는 것은 일반적으로 권장되지 않습니다. 그러나 사용해야 하는 경우가 있습니다. 보고 값에 분류할 문자가 포함되어 있는 경우 다음 절차를 수행하십시오.
 
