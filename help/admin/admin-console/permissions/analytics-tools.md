@@ -1,12 +1,12 @@
 ---
 title: Analytics 도구에 대한 제품 프로필 권한
-description: Adobe Analytics 내의 기능에 대한 액세스 권한을 부여하려면 분석 도구 권한 항목을 사용하십시오.
+description: Analytics 도구 권한 항목을 사용하여 Adobe Analytics 내의 기능에 액세스 권한을 부여합니다.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
