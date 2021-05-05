@@ -5,9 +5,9 @@ title: FTP 가져오기
 feature: 관리 도구
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
  -->
 
- FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
+FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
@@ -90,7 +90,7 @@ Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://docs.adobe.co
    | 충돌 시 데이터 덮어쓰기 | 이 옵션을 선택하여 중복 데이터를 덮어씁니다. 이 옵션은 기존의 분류를 업로드하려는 경우에 유용합니다. 다른 분류를 추가하는 경우에는 이 옵션을 사용하지 않는 것이 좋습니다. |
    | 가져오기가 완료된 이후 | 가져오기가 완료된 이후 이 FTP 계정에 관한 알림을 받을 수 있도록 이메일 주소를 지정한 경우 이 옵션을 선택하면 업데이트된 데이터 세트를 동일한 FTP 계정으로 자동으로 내보냅니다. |
    | 알림 수신자 | 이 FTP 계정에 대한 알림을 수신할 이메일 주소를 지정합니다. |
-   | 승인 |  (필수) Adobe에서 새로운 FTP 계정에 보낸 모든 데이터 파일을 자동으로 가져오도록 허가합니다. |
+   | 승인 | (필수) Adobe에서 새로운 FTP 계정에 보낸 모든 데이터 파일을 자동으로 가져오도록 허가합니다. |
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
