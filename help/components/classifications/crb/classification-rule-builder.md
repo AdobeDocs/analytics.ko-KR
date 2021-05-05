@@ -34,7 +34,7 @@ ht-degree: 100%
 
 분류 규칙을 구현할 수 있는 높은 수준의 단계는 다음과 같습니다.
 
-| 단계.  | 수행 위치 | 설명 |
+| 단계 | 수행 위치 | 설명 |
 |--- |--- |--- |
 | 1단계 (전제 조건): [분류 스키마를 설정합니다](https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/c-classifications.html). | [!UICONTROL 관리자] > [!UICONTROL 보고서 세트] > [!UICONTROL 설정 편집] > &lt;트래픽 분류 또는 전환 분류> | 변수를 선택하고 해당 변수에 사용할 분류를 정의하십시오. <br>변수에는 변수가 규칙에 사용되기 전에 만들어진 분류 열이 최소 1개 있어야 합니다.<br>분류가 활성화되면, 가져오기 및 규칙 빌더를 사용하여 특정 값을 분류할 수 있습니다. |
 | 2단계: [규칙 세트를 만듭니다](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL 관리자] > [!UICONTROL 분류 규칙 빌더] > [!UICONTROL 규칙 세트 추가] | 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. |
