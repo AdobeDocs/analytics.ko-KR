@@ -5,9 +5,9 @@ title: 가상 보고서 세트 만들기
 feature: Reports & Analytics 기본 사항
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">  이름  </td> 
+   <td colname="col1"> 이름 </td> 
    <td colname="col2"> <p>가상 보고서 세트 이름은 상위 보고서 세트에서 상속되지 않으므로 구분해야 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -49,8 +49,8 @@ ht-degree: 100%
    <td colname="col2"> <p>태그를 추가하여 보고서 세트를 구성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 그룹  </td> 
-   <td colname="col2"> <p>이 VRS에 대한 액세스 권한을 원하는 권한 그룹을 선택합니다.  (<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span></span>에서 그룹 권한을 관리할 수도 있습니다.) </p> </td> 
+   <td colname="col1"> 그룹 </td> 
+   <td colname="col2"> <p>이 VRS에 대한 액세스 권한을 원하는 권한 그룹을 선택합니다. (<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span></span>에서 그룹 권한을 관리할 수도 있습니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 상위 보고서 세트 </td> 
