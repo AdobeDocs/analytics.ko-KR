@@ -5,9 +5,9 @@ title: 분류되지 않는 키
 feature: 관리 도구
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ t_rename_classification_none.xml
 
 1. 가져오기를 사용하여 분류를 로컬 파일로 내보냅니다.
 1. 파일에 행을 추가하고 키 열에 [!DNL ~none~]을 입력합니다.
-1. 추가한 행에서 적절한 분류 열에 좀 더 설명적인 이름을 입력합니다. 
+1. 추가한 행에서 적절한 분류 열에 좀 더 설명적인 이름을 입력합니다.
 
    이 설명서에 나온 예를 따르려면 [!UICONTROL 모바일 캠페인 이름]이라고 하는 열에 &quot;비모바일 캠페인&quot;을 입력할 수 있습니다.
 
