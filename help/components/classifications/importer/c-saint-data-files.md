@@ -2,11 +2,11 @@
 description: 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
 subtopic: Classifications
 title: 분류 데이터 파일
-feature: Admin Tools
+feature: 관리 도구
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1773'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
 
-유효한 데이터 파일을 만들려면 분류 데이터를 붙여 넣을 수 있는 파일 구조를 제공하는 템플릿 파일을 다운로드할 수 있습니다. 자세한 내용은 [분류 템플릿 다운로드](/help/components/classifications/importer/c-download-saint-data.md)를 참조하십시오.
+유효한 데이터 파일을 만들려면 분류 데이터를 붙여넣을 수 있는 파일 구조를 제공하는 템플릿 파일을 다운로드할 수 있습니다. 자세한 내용은 [분류 템플릿 다운로드](/help/components/classifications/importer/c-download-saint-data.md)를 참조하십시오.
 
 분류의 문자 제한에 대한 자세한 내용은 [일반 파일 구조](/help/components/classifications/importer/c-saint-data-files.md)를 참조하십시오.
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/completed-saint-file.png)
 
- 데이터 파일은 다음 구조 규칙을 준수해야 합니다.
+데이터 파일은 다음 구조 규칙을 준수해야 합니다.
 
 * 분류의 값은 0일 수 없습니다.
 * 가져오기 및 내보내기 열의 수는 30개로 제한하는 것이 좋습니다.
@@ -59,7 +59,7 @@ ht-degree: 100%
    * 따라서, 반드시 업로드하는 파일에서 헤더(셀 C1)를 변경하여 파일 형식을 v2.0으로 변경하거나, 파일 전체에서 Excel 인용 부호 사용을 제대로 구현하십시오.
 
 * 데이터 파일의 첫 번째(설명 아님) 행은 열 제목을 포함하여 해당 열의 분류 데이터를 식별하는데 사용됩니다. 가져오기 기능을 사용하려면 열 제목이 특정 형식이어야 합니다. 자세한 내용은 [열 제목 형식](/help/components/classifications/importer/c-saint-data-files.md)을 참조하십시오.
-*  데이터 파일에서 헤더 행 바로 뒤에 오는 것은 데이터 행입니다. 각 데이터 행은 각 열 제목에 대해 하나의 데이터 필드를 포함해야 합니다.
+* 데이터 파일에서 헤더 행 바로 뒤에 오는 것은 데이터 행입니다. 각 데이터 행은 각 열 제목에 대해 하나의 데이터 필드를 포함해야 합니다.
 * 데이터 파일은 Adobe가 파일에 구조를 제공하고 분류 데이터를 제대로 가져오는 데 사용하는 다음 제어 코드를 지원합니다.
 
 <table id="table_0548F2E58B6644208147434EB9B3C21B"> 
@@ -168,7 +168,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe는 2018년 5월 10일, [!DNL Analytics] 유지 관리 릴리스에서 날짜 사용 및 숫자 분류 기능에 대한 제한을 시작했습니다. 이러한 분류 유형은 관리자 및 분류 가져오기 인터페이스에서 제거되었습니다. 날짜 사용 및 숫자 분류를 새로 추가할 수 없습니다. 기존 분류는 여전히 표준 분류 워크플로우를 통해 관리(업로드, 삭제)할 수 있으며 보고에서 계속 사용할 수 있습니다.
+>Adobe는 2018년 5월 10일, [!DNL Analytics] 유지 관리 릴리스에서 날짜 사용 및 숫자 분류 기능에 대한 제한을 시작했습니다. 이러한 분류 유형은 관리자 및 분류 가져오기 인터페이스에서 제거되었습니다. 날짜 사용 및 숫자 분류를 새로 추가할 수 없습니다. 기존 분류는 여전히 표준 분류 워크플로를 통해 관리(업로드, 삭제)할 수 있으며 보고에서 계속 사용할 수 있습니다.
 
 ## [!UICONTROL 분류]와 함께 날짜 사용 {#section_966A07B228CD4643B258E73FB8BA150A}
 
@@ -203,5 +203,5 @@ ht-degree: 100%
 
 ## 분류 문제 해결
 
-* [일반적인 업로드 문제](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 컨텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
+* [일반적인 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
 
