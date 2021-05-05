@@ -5,9 +5,9 @@ title: 웹 속성 만들기
 topic-fix: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 exl-id: f89381d0-bdf7-4e01-96a3-2ea160da2b44
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >관리자 권한이 있는 사용자만 속성을 만들 수 있습니다. 역할에 대한 자세한 내용은 Dynamic Tag Management 제품 설명서의 [DTM에서 그룹 만들기 및 관리](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/groups.html)를 참조하십시오.
 
-DTM을 사용하여 이러한 자산을 관리하고 추적할 수 있습니다. 예를 들어 하나의 템플릿을 기반으로 한 여러 개의 웹 사이트가 있고 이러한 웹 사이트 모두에서 동일한 자산을 추적하려 하는 경우, 여러 도메인에 하나의 웹 속성을 적용할 수 있습니다.
+DTM을 사용하여 이러한 에셋을 관리하고 추적할 수 있습니다. 예를 들어 하나의 템플릿을 기반으로 한 여러 개의 웹 사이트가 있고 이러한 웹 사이트 모두에서 동일한 에셋을 추적하려 하는 경우, 여러 도메인에 하나의 웹 속성을 적용할 수 있습니다.
 
 웹 속성 및 모범 사례에 대한 일반 정보는 Dynamic Tag Management 제품 설명서의 [ 웹 속성 ](https://docs.adobe.com/content/help/ko-KR/dtm/using/admin/web-property.html).
 
@@ -49,12 +49,12 @@ DTM을 사용하여 이러한 자산을 관리하고 추적할 수 있습니다.
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol">이 사이트는 여러 도메인을 포괄합니다.</span> </td> 
-    <td colname="col2"> <p>방문자 데이터가 도메인 간에 유지되도록 하려는 경우 도메인을 추가 및 삭제할 수 있습니다. 이 옵션을 선택하면 방문에 대한 데이터가 서브 도메인 전체에서 유지됩니다.  </p> <p>이 설정을 사용하여 연결된 서브 도메인 또는 도메인 간의 트래픽 이동을 추적하는 방법을 지정할 수 있습니다. 서브 도메인에 대한 링크는 아웃바운드 링크로 처리됩니다. 서브 도메인에 대한 방문은 별도로 추적됩니다. </p> </td> 
+    <td colname="col2"> <p>방문자 데이터가 도메인 간에 유지되도록 하려는 경우 도메인을 추가 및 삭제할 수 있습니다. 이 옵션을 선택하면 방문에 대한 데이터가 서브 도메인 전체에서 유지됩니다. </p> <p>이 설정을 사용하여 연결된 서브 도메인 또는 도메인 간의 트래픽 이동을 추적하는 방법을 지정할 수 있습니다. 서브 도메인에 대한 링크는 아웃바운드 링크로 처리됩니다. 서브 도메인에 대한 방문은 별도로 추적됩니다. </p> </td> 
     </tr> 
     </tbody> 
     </table>
 
-1.  (선택 사항) [!UICONTROL 고급 설정]을 구성합니다.
+1. (선택 사항) [!UICONTROL 고급 설정]을 구성합니다.
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -66,7 +66,7 @@ DTM을 사용하여 이러한 자산을 관리하고 추적할 수 있습니다.
     <tbody> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 다중 규칙 승인 허용</span> </td> 
-    <td colname="col2"> <p>이 속성에 대한 여러 규칙을 한 번에 승인할 수 있도록 해줍니다. 기본 승인은 하나의 규칙만 승인할 수 있습니다. </p> </td> 
+    <td colname="col2"> <p>이 속성에 대한 여러 규칙을 한 번에 승인할 수 있도록 해 줍니다. 기본 승인은 하나의 규칙만 승인할 수 있습니다. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 선택적 게시 활성화</span> </td> 
@@ -82,7 +82,7 @@ DTM을 사용하여 이러한 자산을 관리하고 추적할 수 있습니다.
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 앵커 지연</span> </td> 
-    <td colname="col2"> <p>다음 페이지로 이동하기 전에 Dynamic Tag Management가 클릭한 링크에서 태그가 실행될 때까지 기다리는 시간을 지정합니다. 기본값은 100밀리초입니다. </p> <p>지연 시간이 길어질수록 추적 정확도는 향상됩니다. Adobe는 지연 시간을 500밀리초 이하로 설정하기를 권장하며 사용자는 이를 감지하지 못합니다. </p> <p>Dynamic Tag Management는 지정된 시간까지 기다리지만 비콘이 더 빨리 작동하는 경우 지연이 갑자기 종료됩니다.  (즉 사용자가 언제나 전체 지연 시간을 기다리는 것은 아닙니다.) </p> </td> 
+    <td colname="col2"> <p>다음 페이지로 이동하기 전에 Dynamic Tag Management가 클릭한 링크에서 태그가 실행될 때까지 기다리는 시간을 지정합니다. 기본값은 100밀리초입니다. </p> <p>지연 시간이 길어질수록 추적 정확도는 향상됩니다. Adobe는 지연 시간을 500밀리초 이하로 설정하기를 권장하며 사용자는 이를 감지하지 못합니다. </p> <p>Dynamic Tag Management는 지정된 시간까지 기다리지만 비콘이 더 빨리 작동하는 경우 지연이 갑자기 종료됩니다. (즉 사용자가 언제나 전체 지연 시간을 기다리는 것은 아닙니다.) </p> </td> 
     </tr> 
     </tbody> 
     </table>
