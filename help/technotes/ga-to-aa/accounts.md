@@ -1,12 +1,12 @@
 ---
 title: 계정 및 보고서 세트
-description: Adobe Analytics에서 로그인 회사 및 보고서 세트를 사용하여 데이터 분산을 정리하는 방법을 알아봅니다.
+description: 회사 및 보고서 세트에 로그인하여 Adobe Analytics에서 데이터 사일로를 체계적으로 관리하는 방법에 대해 알아봅니다.
 exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
