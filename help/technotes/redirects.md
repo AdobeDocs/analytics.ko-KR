@@ -6,9 +6,9 @@ title: 리디렉션 및 별칭
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ redirects_js_override.xml
 
  -->
 
-아래의 코드 조각은 두 개의 JavaScript 변수인 *`s_referrer`*&#x200B;와 *`s_pageURL`*&#x200B;을 보여줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
+아래의 코드 조각은 두 개의 JavaScript 변수인 *`s_referrer`*&#x200B;와 *`s_pageURL`*&#x200B;을 보여 줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
