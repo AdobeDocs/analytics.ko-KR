@@ -2,11 +2,11 @@
 description: 디바이스 또는 브라우저에서 필수적이지 않은 쿠키를 저장하거나 읽기 위한 사용자 동의에 대한 가이드라인 및 권장 사항에 대해 살펴보십시오.
 title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입니까
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 * 최대 25개월 데이터 보존.  분석 > 관리 > 데이터 거버넌스에서 현재 데이터 보존 설정을 검토할 수 있습니다.  [데이터 유지](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=ko-KR)
 * ECID에서 서드 파티 쿠키를 비활성화합니다. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=ko-KR#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=ko-KR#id-service-api), [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=ko-KR#id-service-api)
-* 13개월 쿠키 제한.  `cookieLifetime` 변수를 사용하여 분석 쿠키 만료를 재정의할 수 있습니다.  Analytics 및 ECID를 비롯한 Experience Cloud 쿠키는 방문할 때마다 쿠키 만료 날짜를 확장합니다.  비롤링 정적 쿠키 만료를 설정하려면 다음 중 하나를 수행합니다.(1) 사용자 정의 코드를 작성하여 쿠키를 삭제할 날짜를 설정하거나 (2) CMP를 사용하여 쿠키 재설정 날짜를 제어합니다.   [쿠키 ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=ko-KR) 라이프타임 및  [Experience Cloud 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=en#ec-cookies)
+* 13개월 쿠키 제한.  `cookieLifetime` 변수를 사용하여 분석 쿠키 만료를 재정의할 수 있습니다. Analytics, ECID가 포함된 Experience Cloud 쿠키로 인해 방문할 때마다 쿠키 만료일이 연장됩니다.  고정적이고 비순환하는 쿠키 만료일을 설정하려면 (1) 사용자 지정 코드를 작성하여 쿠키를 삭제할 날짜를 설정하거나 (2) CMP를 시용하여 쿠키 재설정 날짜를 제어합니다.   [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=) 및 [Experience Cloud 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ko-KR#ec-cookies)
 * 제한적 범위. 쿠키의 범위는 단일 사이트 또는 애플리케이션으로 제한되어야 합니다. [브라우저 쿠키](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=ko-KR&quot;\l&quot;third-party-cookie-implementations)
 * 익명화. IP 주소의 마지막 옥텟을 익명화합니다. [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ko-KR)
 * 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)에 의해 제한될 수 있습니다. 및 [데이터 피드 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ko#columns%2C-descriptions%2C-and-data-types)
