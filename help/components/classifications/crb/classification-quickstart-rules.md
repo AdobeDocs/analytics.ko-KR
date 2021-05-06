@@ -329,12 +329,10 @@ t_classification_rule.xml
    >다음 조건이 충족될 때에&#x200B;*`only`*&#x200B;만 보고서 세트가 이 페이지에 표시됩니다.
    >
    >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
-      >
-      >   
-      ( 전제 조건에 대한 자세한 내용은 *`Variable`*&#x200B;분류 규칙 세트[의 ](/help/components/classifications/crb/classification-rule-set.md)을 참조하십시오.)
-      >
-      >
-   * 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/classifications/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
+   >
+   >   ( 전제 조건에 대한 자세한 내용은 *`Variable`*&#x200B;분류 규칙 세트[의 ](/help/components/classifications/crb/classification-rule-set.md)을 참조하십시오.)
+   >
+   >* 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/classifications/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
 
 
 1. 기존 값을 덮어쓸지 여부를 지정합니다.
