@@ -5,10 +5,10 @@ user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 translation-type: tm+mt
-source-git-commit: ebed6c96d82a5a93e53e015f1e89431d2d8abae4
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 94%
+source-wordcount: '193'
+ht-degree: 92%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 94%
    + [날짜를 이전 범위와 비교](event/compare-dates.md)
    + [이벤트의 영향을 받는 데이터 가져오기](event/calcmetrics.md)
    + [사용자에게 이벤트 전달](event/communicate.md)
+   + [지능적인 데이터 매끄럽게 하기](event/intelligent-data-smoothing.md)
 + 쿠키 {#cookies}
    + [브라우저 쿠키](cookies/cookies.md)
    + [브라우저 쿠키 제한의 효과를 완화시키는 옵션](cookies/cookieless.md)
