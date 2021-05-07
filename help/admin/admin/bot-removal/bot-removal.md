@@ -2,11 +2,11 @@
 title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 세 가지 방법
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b78e8303277b08a4c693283e45416f2e104268b7
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,17 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 자세한 내용은 [보트 규칙 개요](/help/admin/admin/bot-removal/bot-rules.md)를 참조하십시오.
 
+## [!UICONTROL websiteBot] 플러그인을 사용하여 보트 식별
+
+websiteBot 플러그인을 사용하면 데스크탑 방문자가 봇인지 동적으로 식별할 수 있습니다. 이 데이터를 사용하면 모든 유형의 보고에서 정확성을 더 높일 수 있으므로 올바른 사이트 트래픽을 더 정확하게 측정할 수 있습니다.
+
+이 플러그인은 다음 두 가지 검사를 수행합니다.
+
+* 먼저 navigator.UserAgent 변수를 사용하는 데스크톱 장치인지 모바일 장치인지 결정합니다. 모바일 장치는 무시됩니다.
+* 데스크탑 장치인 경우 마우스 움직임에 대한 이벤트 리스너를 추가합니다.
+
+자세한 내용은 [Adobe Analytics 구현 안내서](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html)를 참조하십시오.
+
 ## Adobe 도구의 조합 사용
 
 또한 보트가 빠르게 변형되기 때문에 Adobe는 적절하게 정기적으로 조합해서 사용하면 이런 데이터 품질의 장애물을 제거하는 데 도움이 되는 몇 가지 강력한 기능도 제공합니다. 그러한 기능에는 Experience Cloud ID 서비스, 세그먼테이션, Data Warehouse, 사용자 특성 및 가상 보고서 세트가 있습니다. 이러한 도구를 활용하는 방법을 간략하게 살펴보겠습니다.
@@ -39,7 +50,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-이 데이터 요소가 설정되면 [이 지침](https://docs.adobe.com/content/help/ko-KR/launch/using/implement/solutions/idservice-save.html)에 따라 선언된 ID의 데이터 요소를 Launch의 ECID 도구에 전달합니다.
+이 데이터 요소가 설정되면 [이 지침](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)에 따라 선언된 ID의 데이터 요소를 Launch의 ECID 도구에 전달합니다.
 
 ### 2단계: 세그먼테이션을 사용하여 보트 식별
 
