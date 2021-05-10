@@ -3,10 +3,10 @@ description: 다중 통화 지원이 작동하도록 대상 통화 코드를 정
 title: 다중 통화 지원
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1383'
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '1358'
 ht-degree: 100%
 
 ---
@@ -429,8 +429,6 @@ s.linkTrackEvents="None"
 ***
     
 ```
-
-AppMeasurement.js 파일 편집에 대한 자세한 내용은 [AppMeasurement.js 파일에 코드 삽입](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)을 참조하십시오.
 
 ## 추가 구현 참고 사항
 
