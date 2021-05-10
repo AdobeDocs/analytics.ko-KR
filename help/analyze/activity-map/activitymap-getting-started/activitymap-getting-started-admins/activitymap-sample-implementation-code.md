@@ -1,80 +1,17 @@
 ---
-description: Adobe Analytics 구현 코드에서 AppMeasurement 라이브러리와 Activity Map 모듈이 결합되는 방식의 예
-title: 샘플 Activity Map 구현 코드 보기
+description: 론치를 사용하여 Activity Map 구현
+title: Activity Map 구현
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '53'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 843477548ae34c3253fe60263e933119caaa5837
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
 
-# 샘플 구현 코드{#sample-implementation-code}
+# Activity Map 구현
 
-## 샘플 AppMeasurement.js 파일
-
-다음은 AppMeasurement 라이브러리 및 Activity Map 모듈이 어떻게 [!DNL AppMeasurement.js] 파일에서 결합되는지에 대한 예입니다.
-
-```
-// Initialize AppMeasurement 
- var s_account="INSERT-RSID-HERE" 
- var s=s_gi(s_account)
-  
-/******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/ 
-s.visitor=Visitor.getInstance("INSERT-MCORG-ID-HERE") 
-  
-/************************** CONFIG SECTION **************************/ 
-/* You may add or alter any code config here. */ 
-/* Link Tracking Config */ 
-s.trackDownloadLinks=true 
-s.trackExternalLinks=true 
-s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,pdf,doc,docx,xls,xlsx,ppt,pptx" 
-s.linkInternalFilters="javascript:" //optional: add your internal domain here 
-s.linkLeaveQueryString=false 
-s.linkTrackVars="None" 
-s.linkTrackEvents="None" 
-/* uncomment below to use doPlugins */ 
-/* s.usePlugins=true 
-function s_doPlugins(s) { 
-// use implementation plug-ins that are defined below 
-// in this section. For example, if you copied the append 
-// list plug-in code below, you could call: 
-// s.events=s.apl(s.events,"event1",",",1); 
-} 
-s.doPlugins=s_doPlugins */ 
-  
-/* WARNING: Changing any of the below variables will cause drastic 
-changes to how your visitor data is collected. Changes should only be 
-made when instructed to do so by your account manager.*/ 
-s.trackingServer="INSERT-TRACKING-SERVER-HERE" 
-s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE" 
-  
-/************************** PLUGINS SECTION *************************/ 
-// copy and paste implementation plug-ins here - See "Implementation Plug-ins" @ 
-// https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/impl-plugins.html 
-// Plug-ins can then be used in the s_doPlugins(s) function above
-
-/****************************** START Activity Map MODULE *****************************/ 
- //The following module enables ActivityMap tracking in Adobe Analytics. ActivityMap 
-  allows you to view data overlays on your links and content to understand how 
-  users engage with your web site. If you do not intend to use ActivityMap, you 
-  can remove the following block of code from your AppMeasurement.js file.
-  Additional documentation on how to configure Activity Map is available at: 
-  https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html 
- */ 
- function AppMeasurement_Module_Activity Map(g){func 
- ...
- /* END Activity Map MODULE */ 
-/* 
- ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! =============== 
- 
-AppMeasurement for JavaScript version: 1.6 
-Copyright 1996-2016 Adobe, Inc. All Rights Reserved 
-More info available at https://www.adobe.com/marketing-cloud.html 
-*/ 
-function AppMeasurement(){var a=this;a.version= 
-...
-```
+Activity Map은 [링크 추적](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#link-tracking) 아래의 Adobe Analytics용 Adobe Experience Platform Launch 익스텐션의 확인란을 사용하여 구현할 수 있습니다.
