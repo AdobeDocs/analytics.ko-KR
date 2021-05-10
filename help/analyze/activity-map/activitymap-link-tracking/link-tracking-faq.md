@@ -4,14 +4,14 @@ title: 링크 추적 FAQ
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 62%
+source-wordcount: '518'
+ht-degree: 61%
 
 ---
-
 
 # 링크 추적 FAQ
 
@@ -28,114 +28,96 @@ Activity Map에서의 링크 추적에 대한 FAQ.
 * 금융 기관의 경우 계정 번호가 링크로 표시될 수 있습니다. 클릭하면 링크의 텍스트가 수집됩니다.
 * Healthcare 웹 사이트에는 링크로 표시된 PII 데이터가 있을 수 있습니다. 이러한 링크를 클릭하면 링크의 텍스트를 수집하므로 PII 데이터가 수집됩니다.
 
-<table id="table_0951EAC617344156BAE43000CCD838AF">
- <tbody>
-  <tr>
-   <td colname="col1"> <b>Q: 언제 링크 추적이 발생합니까?</b> </td>
-   <td colname="col2"> A: Activity Map 링크 및 영역 식별은 사용자가 페이지를 클릭하면 수행됩니다. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <b>Q: 기본적으로 추적되는 항목은 무엇입니까?</b> </td>
-   <td colname="col2"> A: 요소에서 클릭 이벤트가 발생하면, 요소는 확인 사항을 전달하여 AppMeasurement에서 이것이 링크로 처리하는지 여부를 판단해야 합니다. 확인 사항은 다음과 같습니다.
-    <ul id="ul_81B9A5A7F8534E71AEF68F2199A154F0">
-     <li id="li_49F6DDD9DC124AE5846EC5B7D7BEA20E">이 태그는 <code>&lt;A&gt;</code> 또는 <code>&lt;AREA&gt;</code> 태그이며 <code>"href"</code> 속성이 있습니까? </li>
-     <li id="li_77828D24D54343E5B9A1FF7345221781"><code>s_objectID</code> 변수를 설정하는 <code>"onclick"</code> 특성이 있습니까? </li>
-     <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">이것은 값 또는 하위 텍스트가 있는 <code>&lt;INPUT&gt;</code> 태그입니까 아니면 <code>&lt;SUBMIT&gt;</code> 단추입니까? </li>
-     <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">이 태그는 <code>&lt;IMAGE&gt;</code> 유형 및 <code>"src"</code> 속성이 있는 <code>&lt;INPUT&gt;</code> 태그입니까? </li>
-     <li id="li_F34A0C986E8040109A1DDF88C26E56D5">이것은 <code>&lt;BUTTON&gt;</code>입니까? </li>
-    </ul>
-    위의 질문 중 하나라도 답이 <b>예</b>이면, 요소가 링크로 처리되고 추적됩니다. <br/>
-     <br/>
-    중요:특성이 있는 단추 태그 <code>type="button"</code> 는 AppMeasurement에 의한 링크로 간주되지 않습니다. 버튼 태그에 <code>type="button"</code>을 제거하고 대신 <code>role="button"</code> 또는 <code>submit="button"</code>를 추가합니다. <br/>
-     <br/>
-    중요:다음으로 시작하는 앵커 태그 <code>"href"</code> 는  <code>"#"</code> 링크가 아니라 AppMeasurement에 의한 내부 대상 위치로 간주됩니다(페이지를 떠나지 않기 때문에). 기본적으로 Activity Map은 이러한 내부 대상 위치를 추적하지 않습니다. 사용자를 새 페이지로 이동하는 링크만 추적합니다. </td> 
-  </tr>
-  <tr>
-   <td colname="col1"> <b>Q: Activity Map은 어떻게 다른 시각적 HTML 요소를 추적합니까?</b> </td>
-   <td colname="col2">
-    <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5">
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b><code>s.tl()</code> 함수</b> 사용  <br/>
-       <br/>
-      호출을 통해 클릭이  <code>s.tl()</code> 발생한 경우 Activity Map은 이 클릭 이벤트를 받고  <code>linkName</code> 문자열 변수가 발견되었는지 확인합니다. <code>s.tl()</code>을(를) 실행하는 동안 <code>linkName</code>이 Activity Map 링크 ID로 설정됩니다. <code>s.tl()</code> 호출을 시작한 클릭한 요소는 지역을 결정하는 데 사용됩니다. <br/>
-       <br/>
-      예:  <br/>
-       <br/>
-      <code>&lt;img&nbsp;onclick="s.tl(true,'o','abc')"&nbsp;src="someimageurl.png"/&gt;</code><br/>
-       
-     </li>
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>변수를  <code>s_objectID</code> </b> <br/>
-       <br/>
-      통해 예: <br/>
-       <br/>
-      <code>&lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt;</code><br/>
-      <code>&lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;</code><br/>
-      <code>&nbsp;&nbsp;Link&nbsp;Text&nbsp;Here</code><br/>
-      <code>&lt;/a&gt;</code> <br/>
-       <br/>
-      중요:Activity Map에서 사용할 때는 후행 세미콜론(<code>;</code>) <code>s_objectID</code> 이 필요합니다.
-     </li>
-    </ol>
-   </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <b>Q: 추적되는 링크의 예를 제공할 수 있습니까?</b> </td>
-   <td colname="col2">
-    <ol id="ol_697E5CE0B84D4A309DD80670697A02BA">
-     <li id="li_2C511EFD10F14F438B1F3A1BAB4B45E0">
-      <code>&lt;a&nbsp;href="/home"&gt;Home&lt;/a&gt;</code>
-     </li>
-     <li id="li_76F3DB36ED734132A2386871E6EB4929">
-      <code>&lt;input&nbsp;type="submit"&nbsp;value="Submit"/&gt;</code>
-     </li>
-     <li id="li_10CF9EDA224645169E7CDF74956DB98B">
-      <code>&lt;input&nbsp;type="image"&nbsp;src="submit-button.png"/&gt;</code>
-     </li>
-     <li id="li_9FA171D7F49547E798DE21869F73A402">
-      <code>&lt;p&nbsp;onclick="var&nbsp;s_objectID='custom&nbsp;link&nbsp;id';"&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="subtitle"&gt;1.45USD&lt;/span&gt;</code><br/>
-      <code>&lt;/p&gt;</code>
-     </li>
-     <li id="li_C5D77589006E4514AA6F3AEB509A0BAF">
-      <code>&lt;div&nbsp;onclick="s.tl(true,'o','custom&nbsp;link&nbsp;id')"&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="subtitle"&gt;1.45USD&lt;/span&gt;</code><br/>
-      <code>&lt;/div&gt;</code>
-     </li>
-    </ol>
-   </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <b>Q: 추적되지 않는 링크의 예를 제공할 수 있습니까?</b> </td>
-   <td colname="col2">
-    <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547">
-     <li id="li_99372060646B43EF94C13A9C682CE693">이유:앵커 태그에 유효한 <code>"href"</code> <br/>이(가) 없습니다.
-       <br/>
-      <code>&lt;a&nbsp;name="innerAnchor"&gt;Section&nbsp;header&lt;/a&gt;</code><br/>
-       
-     </li>
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">이유:<code>s_ObjectID</code> 및 <code>s.tl()</code> 모두 <br/>가 없습니다.
-       <br/>
-      <code>&lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;</code><br/>
-      <code>&nbsp;&nbsp;&lt;span&nbsp;class="subtitle"&gt;1.45USD&lt;/span&gt;</code><br/>
-      <code>&lt;/p&gt;</code><br/>
-       
-     </li>
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">이유:<code>s_ObjectID</code> 및 <code>s.tl()</code> 모두 <br/>가 없습니다.
-       <br/>
-      <code>&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt;</code><br/>
-      <code>&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt;</code><br/>
-      <code>&lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;</code><br/>
-       
-     </li>
-     <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">이유:<code>"src"</code> 속성에 <code>input</code> 요소 <br/> 형식이 없습니다.
-       <br/>
-      <code>&lt;input&nbsp;type="image"/&gt;</code><br/>
-       
-     </li>
-    </ol>
-   </td>
-  </tr>
- </tbody>
-</table>
+## 언제 링크 추적이 발생합니까?
+
+Activity Map 링크 및 영역 식별은 사용자가 페이지를 클릭하면 수행됩니다.
+
+## 기본적으로 추적되는 항목은 무엇입니까?
+
+요소에서 클릭 이벤트가 발생하면, 요소는 확인 사항을 전달하여 AppMeasurement에서 이것이 링크로 처리하는지 여부를 판단해야 합니다. 확인 사항은 다음과 같습니다.
+
+* 이 태그는 `A` 또는 `AREA` 태그이며 `href` 속성이 있습니까?
+* `s_objectID` 변수를 설정하는 `onclick` 특성이 있습니까?
+* 이것은 값 또는 하위 텍스트가 있는 `INPUT` 태그입니까 아니면 `SUBMIT` 단추입니까?
+* 이 태그는 `IMAGE` 유형 및 `src` 속성이 있는 `INPUT` 태그입니까?
+* 이것은 `BUTTON`입니까?
+
+위의 질문 중 하나라도 답이 예이면, 요소가 링크로 처리되고 추적됩니다.
+ 
+중요: 속성 유형이 &quot;button&quot;인 단추 태그는 AppMeasurement에서 링크로 간주되지 않습니다. 버튼 태그에 type=&quot;button&quot;을 제거하고 role=&quot;button&quot; 또는 submit=&quot;button&quot;을 대신 추가해 보십시오.
+ 
+중요:&quot;#&quot;로 시작하는 &quot;href&quot;가 있는 앵커 태그는 링크가 아니라 AppMeasurement의 내부 대상 위치로 간주됩니다(페이지를 떠나지 않기 때문에). 기본적으로 Activity Map은 이러한 내부 대상 위치를 추적하지 않습니다. 사용자를 새 페이지로 이동하는 링크만 추적합니다.
+
+## Activity Map은 어떻게 다른 시각적 HTML 요소를 추적합니까?
+
+a.`s.tl()` 함수를 통해
+
+`s.tl()` 호출을 통해 클릭이 발생한 경우 Activity Map도 이 클릭 이벤트를 수신하고 `linkName` 문자열 변수가 발견되었는지 확인합니다. `s.tl()` 실행 중에 해당 linkName이 Activity Map 링크 ID로 설정됩니다. `s.tl()` 호출을 시작한 클릭한 요소는 지역을 결정하는 데 사용됩니다. 예:
+
+```
+    
+<img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
+```
+
+b.`s_objectID` 변수를 통해. 예:
+
+    &quot;
+    
+    &lt;a>&lt;img>&lt;/a>
+    
+    &lt;a>여기에 텍스트&lt;/a>
+    
+    
+    &lt;a> 연결&lt;/a>&quot;
+
+중요: Activity Map에서 `s_objectID`을 사용할 때는 후행 세미콜론(;)이 필요합니다.
+
+## 추적되는 링크의 예를 제공할 수 있습니까?
+
+* `<a hef="/home?lang=en>Home</a>`
+* `<input type="submit" value="Submit"/>`
+* `<input type="image" src="submit-button.png"/>`
+* 
+
+```
+    <p onclick="var s_objectID='custom link id';">
+      <span class="title">Current Market Rates</span>
+      <span class="subtitle">1.45USD</span>
+    </p>
+```
+
+* 
+
+```
+    <div onclick="s.tl(true,'o','custom link id')">
+      <span class="title">Current Market Rates</span>
+      <span class="subtitle">1.45USD</span>
+    </div>
+```
+
+## 추적되지 않는 링크의 예를 제공할 수 있습니까?
+
+1. 이유:앵커 태그에 유효한 `href`이(가) 없습니다.
+   `<a name="innerAnchor">Section header</a>`
+
+1. 이유:`s_ObjectID` 및 `s.tl()` 없음:
+
+   ```
+   <p onclick="showPanel('market rates')">
+     <span class="title">Current Market Rates</span>
+     <span class="subtitle">1.45USD</span>
+   </p>
+   ```
+
+1. 이유:`s_ObjectID` 및 `s.tl()` 없음:
+
+   ``` 
+   <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
+   <input type="radio" onclick="changeState(this)" name="group1" value="B"/>
+   <input type="radio" onclick="changeState(this)" name="group1" value="C"/>
+   
+   ```  
+   
+1. 이유:&quot;src&quot; 속성에 양식 입력 요소가 없습니다.
+
+   `<input type="image"/>`
