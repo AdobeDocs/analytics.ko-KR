@@ -2,13 +2,13 @@
 description: 사용자 그룹 정의 페이지의 요소 설명
 subtopic: Users and groups
 title: 사용자 그룹 설정
-feature: Admin Tools
+feature: 관리 도구
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 사용자 그룹 정의 페이지의 요소 설명
 
@@ -110,14 +110,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"><b>모든 보고서 세트</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager(모든 액세스 권한, 사용자 지정, 액세스 권한 없음) </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>활성 <span class="keyword">TagManager</span> 컨테이너가 있는 고객에 대한 권한이 지원됩니다. 새 사용자는 사용할 수 없습니다. </p> <p>배포에 <a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a>를 권장합니다. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>사용자 로그인 지정</b> </td> 
    <td colname="col2"> </td> 
