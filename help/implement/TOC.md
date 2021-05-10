@@ -5,9 +5,9 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -158,35 +158,7 @@ ht-degree: 100%
    + [Analytics 변수에 Launch 데이터 요소 매핑](launch/elements-to-variable.md)
 + 다른 플랫폼에서 Analytics 구현 {#other}
    + [하드코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
-   + DTM을 사용하여 Analytics 구현 {#dtm}
-      + [Dynamic Tag Management 구현 개요](other/dtm/dtm-implementation-overview.md)
-      + [웹 속성 만들기](other/dtm/t-create-web-property.md)
-      + [호스팅 옵션 구성](other/dtm/t-configure-hosting.md)
-      + 머리글 및 바닥글 {#headers-footers}
-         + [머리글 및 바닥글 코드 추가](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [머리글 및 바닥글 코드 확인](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Adobe Analytics 도구 {#analytics-tool}
-         + [Adobe Analytics 도구 추가](other/dtm/c-aa-tool/analytics-dtm.md)
-         + [일반](other/dtm/c-aa-tool/general-settings-analytics.md)
-         + [라이브러리 관리](other/dtm/c-aa-tool/library-management.md)
-         + [핵심 AppMeasurement 코드 삽입](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-         + [전역 변수](other/dtm/c-aa-tool/global-variables.md)
-         + [페이지 보기 및 컨텐츠](other/dtm/c-aa-tool/pageviews-content.md)
-         + [링크 추적](other/dtm/c-aa-tool/link-tracking.md)
-         + [레퍼러 및 캠페인](other/dtm/c-aa-tool/referrers-campaigns.md)
-         + [쿠키](other/dtm/c-aa-tool/cookies-analytics.md)
-         + [페이지 코드 사용자 지정](other/dtm/c-aa-tool/customize-page-code.md)
-         + [Adobe Analytics 도구에 대한 FAQ](other/dtm/c-aa-tool/dtm-faq.md)
-      + [데이터 요소 만들기](other/dtm/t-data-element.md)
-      + [Adobe Analytics 수동 구현(이전)](other/dtm/t-analytics-deploy.md)
-      + 규칙 {#rules}
-         + [새 규칙 만들기](other/dtm/c-rules/t-rules-create.md)
-         + [이벤트 기반 규칙 조건 만들기](other/dtm/c-rules/t-rules-event-conditions.md)
-         + [페이지 로드 규칙 조건 만들기](other/dtm/c-rules/t-rules-page-conditions.md)
-         + [직접 호출 규칙 조건 만들기](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [조건이 트리거되는 작업 설정](other/dtm/c-rules/t-rules-actions.md)
-         + [Akamai 호스팅을 위한 게시되지 않은 규칙 테스트](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [라이브러리 다운로드 또는 FTP에 대한 규칙 테스트](other/dtm/c-rules/t-test-rules-ftp.md)
+   + [DTM을 사용하여 Analytics 구현](other/dtm-implementation-overview.md)
    + [Ajax에서 Analytics 구현](other/ajax.md)
    + [AMP에서 Analytics 구현](other/amp.md)
    + [Digital Assistant에서 Analytics 구현](other/digital-assistants.md)
