@@ -3,18 +3,15 @@ description: Adobe Analytics에서 데이터 액세스 및 요청 삭제 방법
 title: 액세스 및 삭제 요청 제출
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
 # 액세스 및 삭제 요청 제출
-
-
-## 개요 {#section_BD70882995894C1CA19C205C49FEC23C}
 
 고객 (소비자/데이터 주체)이 자신에 대해 사용자가 관리하는 데이터에 대해 알고 싶어하거나 사용자의 Analytics 속성에서 자신이 삭제되기를 원하는 경우, 사용자는 데이터 제어자로서 그러한 요청에 응답할 책임이 있습니다. 데이터 제어자는 조직이 데이터 주체와 상호 작용하는 방법을 결정하고 (예: 데이터 주체 사용자 포털을 통해) 데이터 주체와의 상호 작용을 관리합니다. 또한 제어자는 요청이 이행될 때 데이터 주체가 있는 루프를 닫을 책임이 있습니다. 즉, Adobe Experience Cloud는 데이터 처리자로서 데이터 주체로부터 직접 요청을 받거나 데이터 주체에게 데이터를 직접 반환하지 않습니다. 대신, Adobe는 데이터 제어자인 사용자로부터만 요청을 받고 사용자에게만 데이터를 반환합니다.
 
@@ -22,9 +19,9 @@ ht-degree: 100%
 
 ## 소비자 동의 관리 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-데이터 제어자는 데이터 주체에 대한 데이터 (Adobe Analytics 데이터 포함 가능)를 수집하기 전에 데이터 주체로부터 명시적 동의를 받고 웹 사이트에서 [옵트아웃 메커니즘을 구현](https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/opt-in.html)할 책임이 있습니다. 이렇게 하면 데이터 주체가 향후 Adobe Experience Cloud 데이터 수집을 옵트 아웃할 수 있습니다.
+데이터 컨트롤러는 데이터 주체의 명시적 동의를 받은 후 데이터(Adobe Analytics 데이터 포함)에 대한 데이터를 수집하고 웹 사이트에 [옵트아웃 메커니즘](https://www.adobe.com/kr/privacy/opt-out.html#customeruse)을(를) 구현할 책임이 있습니다. 이렇게 하면 데이터 주체가 향후 Adobe Experience Cloud 데이터 수집을 옵트 아웃할 수 있습니다.
 
-## 사용자 및 해당 데이터의 유효성 검사 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## 사용자 및 해당 데이터의 유효성 검사  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 사용자는 데이터 제어자로서, 데이터 주체가 실제로 그 주체가 맞는지, 해당 주체에게 요청하는 데이터에 대한 권한이 있는지 확인할 책임이 있습니다. 또한 데이터 주체에 올바른 데이터가 반환되고 다른 데이터 주체에 대한 데이터를 실수로 수신하지 않도록 할 책임이 있습니다.
 
@@ -38,9 +35,9 @@ Adobe의 [데이터 개인 정보 보호 UI 포털](https://www.adobe.io/apis/ex
 
 >[!NOTE]
 >
->데이터 개인 정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자 (사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
+>데이터 개인 정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
 
-## 샘플 JSON 요청 {#sample-json-request}
+## 샘플 JSON 요청  {#sample-json-request}
 
 다음은 데이터 개인 정보 보호 API 또는 UI를 통해 제출할 수 있는 JSON이며, 세 명의 사용자에 대한 데이터 개인 정보 보호 처리를 요청합니다.
 
