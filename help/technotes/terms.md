@@ -2,10 +2,10 @@
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2458'
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '2433'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 100%
 * **데이터 소스:** 사용자가 파일의 데이터를 Adobe Analytics에 업로드할 수 있습니다. 파일은 일반적으로 FTP 사이트에서 가져옵니다. 가져오기 사용 안내서에서 [데이터 소스](/help/import/c-data-sources/datasrc-home.md)를 참조하십시오.
 * **Data Warehouse:** 더 큰 보고서를 요청할 수 있는 Adobe Analytics의 기능입니다. 내보내기 사용 안내서에서 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)를 참조하십시오.
 * **차원:** 텍스트와 같은 변수 값이 포함된 구성 요소 유형입니다. 예를 들면 페이지 이름, 추적 코드 또는 참조 도메인이 있습니다. 지표는 일반적으로 지표 상대가 있습니다.
-* **Dynamic Tag Management:** Adobe의 이전 태그 관리 솔루션입니다. 구현 사용 안내서에서 [DTM 구현 개요](/help/implement/other/dtm/dtm-implementation-overview.md)를 참조하십시오. Adobe Experience Platform Launch를 대신 사용하는 것이 좋습니다.
 * **이벤트 일련화:** 중복 이벤트 수집을 방지하기 위한 조치를 구현하는 프로세스입니다. 구현 사용 안내서에서 [이벤트 일련화](../implement/vars/page-vars/events/event-serialization.md)를 참조하십시오.
 * **eVar:** 전환 변수를 참조하십시오.
 * **이벤트:** 성공 이벤트를 참조하십시오.
