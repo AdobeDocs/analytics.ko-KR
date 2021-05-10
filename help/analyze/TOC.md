@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-translation-type: ht
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
+workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
             + [행 설정](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [동적 및 정적 항목](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [테이블 페이지 매김, 필터링 및 정렬](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [작업 공간 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace 합계](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -121,7 +121,7 @@ ht-degree: 100%
          + [경고 관리자](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
-   + 작업 영역 FAQ {#workspace-faq}
+   + Workspace FAQ {#workspace-faq}
       + [FAQ](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)
@@ -246,7 +246,7 @@ ht-degree: 100%
    + 시작하기 {#getting-started}
       + 관리자용 시작하기 {#get-started-admins}
          + [Activity Map 활성화](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [샘플 구현 코드](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Activity Map 구현](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 사용자용 시작하기 {#get-started-users}
          + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Activity Map 시작](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -261,8 +261,8 @@ ht-degree: 100%
    + [링크 보고서](activity-map/activitymap-links-report.md)
    + [페이지 세부정보](activity-map/activitymap-page-flow.md)
    + [전체 지표 세트](activity-map/activitymap-complete-metrics.md)
-   + [실시간(라이브) 페이지 분석](activity-map/activitymap-realtime.md)
-   + [고객 세그멘테이션](activity-map/activitymap-multiple-segments.md)
+   + [실시간 (라이브) 페이지 분석](activity-map/activitymap-realtime.md)
+   + [고객 세그먼테이션](activity-map/activitymap-multiple-segments.md)
    + [사용자 지정 가능 오버레이](activity-map/activitymap-gainerslosers.md)
    + [오버레이 세부정보](activity-map/activitymap-overlay-details.md)
    + [CSV 파일로 내보내기](activity-map/activitymap-csv.md)
