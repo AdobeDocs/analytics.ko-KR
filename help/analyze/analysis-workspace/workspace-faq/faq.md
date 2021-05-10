@@ -4,11 +4,11 @@ title: FAQ 및 Analysis Workspace 문제 해결
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 | 질문 | 답변 |
 |--- |--- |
-| Analysis Workspace을 사용하기 위한 사전 요구 사항은 무엇입니까? | [Adobe Experience Platform Launch를 사용하여 Adobe Analytics에 데이터 보내기](/help/implement/launch/validate-publish-prod.md): Analysis Workspace를 사용하려면 실제로 구현해야 합니다. 도구를 사용하기 전에 조직에서 Adobe에 데이터를 보내도록 하십시오. DTM이나 기존 수동 구현과 같은 다른 구현도 작동할 수 있습니다. |
+| Analysis Workspace을 사용하기 위한 사전 요구 사항은 무엇입니까? | [Adobe Experience Platform Launch를 사용하여 Adobe Analytics에 데이터 보내기](/help/implement/launch/validate-publish-prod.md): Analysis Workspace를 사용하려면 실제로 구현해야 합니다. 도구를 사용하기 전에 조직에서 Adobe에 데이터를 보내도록 하십시오. 기존 수동 구현과 같은 다른 구현도 작동할 수 있습니다. |
 | Analysis Workspace에 대한 관리 및 액세스 요구 사항은 무엇입니까? | 자세한 내용은 [관리 요구 사항](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | Analysis Workspace을 사용하는 것이 데이터 수집에 영향을 줍니까? | Analysis Workspace는 보고 도구이므로 데이터 수집에는 영향을 주지 않습니다. 구성 요소를 프로젝트에 마구잡이로 드래그하여 놓아서 어떤 것이 효과가 있는지를 확인하는 데에는 아무 영향이 없습니다. 다양한 차원과 지표의 조합을 작업 공간 프로젝트에 드래그하여 사용 가능한 조합을 확인하십시오. 실수로 유효하지 않은 구성 요소를 작업 공간 프로젝트에 드래그하거나 단계를 다시 수행하려면 Ctrl+Z (Windows) 또는 Cmd+Z (Mac)를 눌러 마지막으로 수행한 작업을 취소하십시오. 왼쪽 위 메뉴에서 *[!UICONTROL 프로젝트] > [!UICONTROL 신규]*&#x200B;를 클릭하여 깨끗한 슬레이트로 시작할 수도 있습니다. |
 | Analysis Workspace 프로젝트에는 몇 개의 보고서 세트를 표시할 수 있습니까? | 이제 Analysis Workspace에서 더 많은 [여러 보고서 세트](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)의 데이터를 사용하여 프로젝트를 만들 수 있습니다. |
