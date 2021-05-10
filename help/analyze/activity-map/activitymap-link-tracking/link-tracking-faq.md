@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 61%
+source-wordcount: '513'
+ht-degree: 59%
 
 ---
 
@@ -43,10 +43,14 @@ Activity Map 링크 및 영역 식별은 사용자가 페이지를 클릭하면 
 * 이것은 `BUTTON`입니까?
 
 위의 질문 중 하나라도 답이 예이면, 요소가 링크로 처리되고 추적됩니다.
- 
-중요: 속성 유형이 &quot;button&quot;인 단추 태그는 AppMeasurement에서 링크로 간주되지 않습니다. 버튼 태그에 type=&quot;button&quot;을 제거하고 role=&quot;button&quot; 또는 submit=&quot;button&quot;을 대신 추가해 보십시오.
- 
-중요:&quot;#&quot;로 시작하는 &quot;href&quot;가 있는 앵커 태그는 링크가 아니라 AppMeasurement의 내부 대상 위치로 간주됩니다(페이지를 떠나지 않기 때문에). 기본적으로 Activity Map은 이러한 내부 대상 위치를 추적하지 않습니다. 사용자를 새 페이지로 이동하는 링크만 추적합니다.
+
+>[!IMPORTANT]
+>
+>특성 유형이 &quot;button&quot;인 단추 태그는 AppMeasurement에 의한 링크로 간주되지 않습니다. 버튼 태그에 type=&quot;button&quot;을 제거하고 role=&quot;button&quot; 또는 submit=&quot;button&quot;을 대신 추가해 보십시오.
+
+>[!IMPORTANT]
+>
+>&quot;#&quot;로 시작하는 &quot;href&quot;가 있는 앵커 태그는 링크가 아닌 AppMeasurement의 내부 대상 위치로 간주됩니다(페이지를 떠나지 않기 때문에). 기본적으로 Activity Map은 이러한 내부 대상 위치를 추적하지 않습니다. 사용자를 새 페이지로 이동하는 링크만 추적합니다.
 
 ## Activity Map은 어떻게 다른 시각적 HTML 요소를 추적합니까?
 
@@ -55,7 +59,6 @@ a.`s.tl()` 함수를 통해
 `s.tl()` 호출을 통해 클릭이 발생한 경우 Activity Map도 이 클릭 이벤트를 수신하고 `linkName` 문자열 변수가 발견되었는지 확인합니다. `s.tl()` 실행 중에 해당 linkName이 Activity Map 링크 ID로 설정됩니다. `s.tl()` 호출을 시작한 클릭한 요소는 지역을 결정하는 데 사용됩니다. 예:
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -70,7 +73,9 @@ b.`s_objectID` 변수를 통해. 예:
     
     &lt;a> 연결&lt;/a>&quot;
 
-중요: Activity Map에서 `s_objectID`을 사용할 때는 후행 세미콜론(;)이 필요합니다.
+>[!IMPORTANT]
+>
+>Activity Map에서 `s_objectID`을(를) 사용할 때는 후행 세미콜론(;)이 필요합니다.
 
 ## 추적되는 링크의 예를 제공할 수 있습니까?
 
