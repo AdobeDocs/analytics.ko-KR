@@ -4,9 +4,9 @@ description: Adobe Analytics용 PWA (Progressive Web App)
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 3f3a9b7f81ce671a94b7fe71c3ef7e4ae206b875
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '277'
 ht-degree: 100%
 
 ---
@@ -46,8 +46,6 @@ s.linkTrackEvents="None"
 s.trackOffline=true
 *** 
 ```
-
-AppMeasurement.js 파일 편집에 대한 자세한 내용은 [핵심 AppMeasurement 코드 삽입](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)을 참조하십시오.
 
 AppMeasurement.js 구성에 대한 자세한 내용은 이 절에 있는 [구성 변수 개요](/help/implement/vars/config-vars/configuration-variables.md) 및 개별 변수별 페이지를 참조하십시오.
 
