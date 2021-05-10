@@ -2,7 +2,7 @@
 title: Adobe Analytics 마케팅 채널 구현을 위한 모범 사례
 description: Attribution IQ 및 Customer Journey Analytics에서 마케팅 채널 사용에 대한 우수 사례를 업데이트했습니다.
 translation-type: tm+mt
-source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
+source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 마케팅 채널의 Attribution IQ - 우수 사례
 
-[마케팅 ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 채널은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 대한 현재 지침은 [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)이(가) 존재하지 않았을 때 작성되었습니다.
+[마케팅 ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 채널은 Adobe Analytics의 귀중하고 강력한 기능입니다. 마케팅 채널 구현에 대한 현재 지침은 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) 및 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ko-KR#cja-usecases)이(가) 존재하지 않았을 때 작성되었습니다.
 
 향후 마케팅 채널 구현을 보호하고 Attribution IQ 및 Customer Journey Analytics과 일관성을 보고하기 위해 업데이트된 모범 사례를 제공합니다. 이미 마케팅 채널을 사용하고 있는 경우 이러한 새 지침 중 최상의 옵션을 선택할 수 있습니다. 마케팅 채널을 처음 사용하는 경우 모든 새로운 우수 사례를 준수할 것을 권장합니다.
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 모범 사례 #1:제어된 분석을 위한 Attribution IQ 활용
 
-마케팅 채널 분석을 세부적으로 조정하려면 기존 마케팅 채널 속성 대신 [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)을 사용하는 것이 좋습니다. 다른 모범 사례를 따라 Attribution IQ을 통해 분석에 대한 일관성과 강력한 제어를 보장합니다.
+마케팅 채널 분석을 세부적으로 조정하려면 기존 마케팅 채널 속성 대신 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)을 사용하는 것이 좋습니다. 다른 모범 사례를 따라 Attribution IQ을 통해 분석에 대한 일관성과 강력한 제어를 보장합니다.
 
 ![](assets/attribution.png)
 
