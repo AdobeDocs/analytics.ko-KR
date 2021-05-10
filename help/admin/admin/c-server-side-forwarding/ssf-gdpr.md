@@ -2,14 +2,14 @@
 description: EU 쿠키 준수 규정에 의해 유발된 서버 측 전달의 개선 사항을 설명합니다.
 title: GDPR/ePrivacy 준수 및 서버 측 전달
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 91%
+source-wordcount: '539'
+ht-degree: 90%
 
 ---
-
 
 # GDPR/ePrivacy 준수 및 서버 측 전달
 
@@ -30,7 +30,6 @@ ht-degree: 91%
 | 구현 방법 | 단계 |
 |--- |--- |
 | Adobe Experience Platform Launch | Adobe Analytics 확장 프로그램이 설치되어 있다고 가정할 경우 규칙에 다음 컨텍스트 데이터 변수 정의를 규칙의 동작 구성 내에 사용자 지정 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> 참고: 컨텍스트 데이터 변수를 정의하고, 고객이 타깃팅된 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
-| DTM | 사용자 정의 페이지 코드 편집기에 컨텍스트 데이터 변수 정의를 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 | AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다.  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 
 ## 보고(선택 사항) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
@@ -48,4 +47,3 @@ Adobe Analytics를 사용하여 동의한 트래픽 수와 그 결과 서버 측
    1. **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
    1. **[!UICONTROL 항상 실행]**&#x200B;에서 활성화한 prop 값을 컨텍스트 변수 &quot;cm.ssf(컨텍스트 데이터)&quot;로 덮어씁니다.
    1. **[!UICONTROL 저장을 클릭합니다]**.
-
