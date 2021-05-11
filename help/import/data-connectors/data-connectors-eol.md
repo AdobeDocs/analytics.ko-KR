@@ -3,10 +3,10 @@ description: Analytics Data Connectors의 사용이 종료되는 시점과 이�
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | MaritzCX (V 2.0) | 사용 중단 |
 | Merkle | 사용 중단 |
 | Official Oracle Eloqua 통합 | Exchange로 마이그레이션 |
-| optivo broadmail (Episerver) | Exchange로 마이그레이션 |
+| optivo broadmail (Episerver) | 사용 중단 |
 | Qualtrics v2 | Exchange로 마이그레이션 |
 | Responsys 2.0 | 사용 중단 |
 | Selligent | 사용 중단 |
