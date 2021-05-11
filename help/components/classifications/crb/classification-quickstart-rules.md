@@ -4,11 +4,11 @@ subtopic: Classifications
 title: 분류 규칙
 feature: 관리 도구
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '2020'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 분류 규칙 빌더]**
 
-규칙 빌더를 사용하면 *`classification rule set`* 목록인 *`classification rules`*&#x200B;를 만들 수 있습니다. 규칙이 지정한 기준에 일치시킨 다음 작업을 수행합니다.
+규칙 빌더를 사용하면 *분류 규칙*&#x200B;의 목록인 *분류 규칙 세트*&#x200B;를 만들 수 있습니다. 규칙이 지정한 기준에 일치시킨 다음 작업을 수행합니다.
 
 분류 규칙은 다음과 같은 경우에 편리합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 |---|---|---|---|
 | 다음으로 시작 | em: | Channel | 이메일 |
 | 종료 문자 | 판매 | 유형 | 판매 |
-| 다음 포함 | 2013 | 년 | 2013 |
+| 다음 포함 | 2013 | 년 | 2013년 |
 
 ## 규칙 처리 방법의 정보를 숙지하십시오 {#how-rules-are-processed}
 
@@ -66,9 +66,9 @@ about_classification_rules.xml
 
 * **보고서 세트**: 최소 1개의 보고서 세트를 선택할 때까지 분류를 선택할 수 없습니다. 규칙 세트를 만들고 변수를 할당할 때까지 보고서 세트를 적용할 수 없습니다.
 
-   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오.  [키](/help/components/classifications/importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 테이블에 있는 첫 번째 열입니다.
+   규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. [키](/help/components/classifications/importer/c-saint-data-files.md)는 분류되는 변수 또는 분류 업로드 테이블의 첫 번째 열입니다.
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다.  [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. See [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -83,7 +83,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-    [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+   You can overwrite classifications when [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -266,7 +266,7 @@ c:d:yoyo
 | `a{3,}` | 3개 이상 |
 | `a{3,6}` | 3과 6 사이 |
 
-https://rubular.com 은 정규 표현식 유효성 확인에 좋은 사이트입니다.
+정규 표현식 유효성 테스트에 적합한 리소스는 [https://rubular.com/](https://rubular.com/)입니다.
 
 ## 규칙 우선 순위 정보
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
 | 1 | 다음 포함 | Cowboys | 검색 유형 | Team |
-| 2 | 다음 포함 | Fantasy | 검색 유형 | Fantasy |
+| 2 | 다음 포함 | Fantasy | 검색 유형 | 판타지 |
 | 3 | 다음 포함 | Romo | 검색 유형 | Player |
 
 사용자가 *`Cowboys fantasy Tony Romo`*&#x200B;를 검색하는 경우, 용어 *`Player`*&#x200B;는 분류 설정 열에 표시된 마지막 분류 항목에 일치하기 때문에 분류됩니다.
@@ -326,13 +326,15 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >다음 조건이 충족될 때에&#x200B;*`only`*&#x200B;만 보고서 세트가 이 페이지에 표시됩니다.
+   >보고서 세트는 다음 조건이 충족될 때 이 페이지 *에만 표시됩니다.*
    >
    >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
-   >
-   >   ( 전제 조건에 대한 자세한 내용은 *`Variable`*&#x200B;분류 규칙 세트[의 ](/help/components/classifications/crb/classification-rule-set.md)을 참조하십시오.)
-   >
-   >* 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/classifications/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
+      >
+      >   
+      이 전제 조건에 대한 자세한 내용은 [분류 규칙 세트](/help/components/classifications/crb/classification-rule-set.md)의 *변수*&#x200B;를 참조하십시오.
+      >
+      >
+   * 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/classifications/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
 
 
 1. 기존 값을 덮어쓸지 여부를 지정합니다.
@@ -405,7 +407,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. (선택 사항) 분류를 덮어쓰려면 **[!UICONTROL 분류 덮어쓰기]***`<selection>`* 를 활성화합니다.
+1. (선택 사항) 분류를 덮어쓰려면 ]**&lt;*선택*>에 대해**[!UICONTROL &#x200B;분류 덮어쓰기
 
    이 옵션을 사용하여 영향 받는 키의 기존 분류를 덮어쓸 수 있습니다.
 
