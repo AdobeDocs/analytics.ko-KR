@@ -5,11 +5,10 @@ title: Analysis Workspace의 새로운 기능
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: ht
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
-workflow-type: ht
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+workflow-type: tm+mt
 source-wordcount: '8323'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,16 +20,14 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 목표 날짜 | 설명 |
 | --- | --- | --- |
-| [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정]은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 기본 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
-| [!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 막대 그래프 스마트 버킷 예측]은 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 메트릭 막대 그래프를 지원합니다. 낮은 카디널리티 메트릭의 경우 시각화는 이전과 동일하게 작동합니다. |
-
+| [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정] 은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 기본 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
+| [!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 막대 그래프 스마트 버킷 예측] 은 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 메트릭 막대 그래프를 지원합니다. 낮은 카디널리티 메트릭의 경우 시각화는 이전과 동일하게 작동합니다. |
 
 ## 2021년 2월
 
 | 기능 | 목표 날짜 | 설명 |
 | --- | --- | --- |
 | 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL Quick Insights]의 드롭다운/드롭 영역 구성 요소는 [!UICONTROL Workspace]의 모든 드롭 영역에 추가됩니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
-
 
 ## 2021년 1월
 
@@ -51,7 +48,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 | 기능 | 설명 |
 | --- | --- |
 | [단일 차원에 맞는 5만개의 항목 다운로드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
-| [선 시각화 개선 사항](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
+| [선 시각화 개선 사항](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
 | 새 날짜 범위 | 5개의 새 날짜 범위를 추가했으므로 오늘의 일부 일 데이터를 포함하지 않는 다음 날짜 범위 중에서 선택할 수 있습니다. 지난 7일, 지난 14일, 지난 30일, 지난 60일, 지난 90일 |
 
 ## 2020월 8월
@@ -76,7 +73,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 | 속성 IQ: 사용자 지정 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 이제 작업 공간 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다 (편집, 복제 및 보기). [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 보기 전용 작업 공간 프로젝트 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 작업 공간 프로젝트 공동 편집 기능 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 작업 공간 프로젝트 공동 편집 기능 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로를 선택하는 더 원활한 방법을 제공합니다. |
 | 빠른 인사이트 패널 (2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | 작업 공간의 Analytics for Target 패널  (2020년 6월 25일) | Analytics for Target (A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -1051,7 +1048,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 2016년 6월 16일 릴리스된 새로운 기능:
 
 * 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL 작업 공간]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
-*  [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
+* 다음 [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
 * 최대 3개의 세그먼트 및 지표를 드래그하고 벤 다이어그램을 작성할 수 있는 새로운 [](/help/analyze/analysis-workspace/visualizations/venn.md)벤 시각화 유형
@@ -1062,7 +1059,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 * 부분적인 업데이트:
 
    * 패널에 있는 모든 시각화와 프로젝트에 있는 모든 패널을 삭제하는 기능.  (이전에는 하나 이상의 시각화 또는 1개의 패널을 유지해야 했습니다.)
-   * Analysis Workspace 작업을 지원할 수 있도록 Analysis Workspace와 작업할 수 있는 [바로 가기 키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (단축키).
+   * Analysis Workspace 작업을 용이하게 할 수 있는 [단축키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(핫키)에 대한 변경 사항입니다.
    * 스타일 변경: 시각화의 좀 더 작아진 글꼴, 행의 색상 견본, 아래로 이동된 날짜 선택기 (패널에서)
 
 ## 2016년 4월
