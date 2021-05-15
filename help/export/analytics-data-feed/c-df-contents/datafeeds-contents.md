@@ -6,8 +6,7 @@ title: 데이터 피드 콘텐츠 - 개요
 feature: Reports & Analytics 기본 사항
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 이 섹션은 데이터 피드 배달에서 발견되는 파일을 설명합니다.
 
-## 매니페스트 파일
+## 매니페스트 파일 {#feed-manifest}
 
 매니페스트 파일에는 업로드된 데이터 세트의 일부인 각 파일에 대한 다음 정보가 있습니다.
 
