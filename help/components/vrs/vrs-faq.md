@@ -5,10 +5,10 @@ title: VRS FAQ
 feature: Reports & Analytics 기본 사항
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-source-git-commit: 3f8c9d0309c7d4c023e0c936e0a713b24e1482f6
+source-git-commit: c93cd1b14cd6b8e803c4e06209153c8e69af077a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 77%
+source-wordcount: '965'
+ht-degree: 75%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 77%
 | &quot;실행 시 새 방문 시작&quot;을 선택했는데 왜 계속 방문 횟수가 시작보다 훨씬 많이 표시됩니까? | 실행 시 새 방문 시작을 선택하면, 시간 제한이 계속 적용됩니다. 따라서 사용자가 각 동작 사이에 1분씩 쉬면서 10분 동안 앱을 사용하는 경우, 실행 시 새 방문이 시작되고, 그러면 방문 시간 제한을 초과할 때 9개의 추가 방문이 생성됩니다. 실행 시 새 방문 시작 옵션을 사용할 때 실행 수와 방문 횟수를 가능한 한 비슷하게 유지하려면 SDK에 설정된 세션 시간 제한보다 긴 시간 제한을 사용해야 합니다. |
 |  &quot;실행 시 새 방문 시작&quot;을 설정하고 시간 제한을 SDK보다 길게 설정했는데, 왜 여전히 내 실행 수가 방문 횟수보다 훨씬 적습니까? | 시간 제한이 SDK에 설정된 값보다 높은 경우 앱이 배경에 있는 동안 히트를 전송하고 이 히트가 새 방문 횟수로 등록될 수 있습니다. 상위 보고서 세트의 히트 유형 차원을 사용하여 배경 히트가 있는지 확인하면 이를 확인할 수 있습니다.<br>**참고**:배경 및 전경 조회수는 SDK 버전 4.13.6 이상에서만 차별화됩니다. 그 보다 아래 버전을 사용하는 경우에는 모든 히트가 전경으로 표시됩니다. 적절한 SDK 버전을 사용하는 경우에는 &quot;배경 히트 수로 새 방문이 시작되지 않도록 차단&quot; 설정을 활성화해야 합니다.    참고: 관리자 콘솔에서 배경 히트 수에 대한 레거시 처리를 비활성화한 경우 이 히트 수는 상위 보고서 세트에는 표시되지 않지만 가상 보고서 세트에는 표시됩니다. |
 | 배경 히트 수를 추적하는 데 필요한 SDK 버전은 무엇입니까? | SDK 버전 4.13.6 이상이어야 합니다. |
-| 가상 보고서 세트의 ID는 어떻게 알 수 있습니까? | [가상 보고서 세트 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md)에서. |
+| 가상 보고서 세트의 ID는 어떻게 알 수 있습니까? | <ul><li>작업 공간 프로젝트를 열고 보고서 세트 선택기를 클릭하고 검색 상자에서 가상 보고서 세트 이름을 검색합니다. ID가 검색 결과의 이름 아래에 나타납니다.<br>![](assets/vrs-id.png)</li><li> 또는 프로그래밍 방식으로 [가상 보고서 세트 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md)에 있습니다.</li></ul> |
