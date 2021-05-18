@@ -2,11 +2,10 @@
 title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '880'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Adobe 파트너와 협력하는 조직은 이러한 단계를 사용하여 모�
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
-1. 상단 탐색에서 [!UICONTROL 관리자] > [!UICONTROL 코드 관리자]를 클릭합니다.
+1. 위쪽 탐색에서 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]**&#x200B;를 클릭합니다.
 1. 최신 JavaScript AppMeasurement 라이브러리를 다운로드합니다.
 1. 이 라이브러리가 다운로드되면 파일의 압축을 풀고 `AppMeasurement_Module_Integrate.js`를 찾습니다.
 
