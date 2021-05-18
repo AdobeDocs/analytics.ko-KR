@@ -4,14 +4,13 @@ title: 데이터 요청 예약
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+source-wordcount: '1029'
+ht-degree: 98%
 
 ---
-
 
 # 통합 문서 예약
 
@@ -23,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->통합 문서를 예약하려면 Excel 2007이나 호환 팩이 설치되어 있어야 합니다. Report Builder 라이센스당 최대 10개의 예약된 통합 문서를 보유할 수 있습니다. 그렇지만 다른 라이센스에서 공제하여 이 수를 늘릴 수 있습니다. 이렇게 하려면 **[!UICONTROL 관리]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL Report Builder 보고서]**&#x200B;로 이동합니다. 예약했지만(또는 통합 문서 라이브러리에 업로드했지만) 28개월 동안 수정(업데이트, 대체)한 적이 없는 통합 문서는 삭제됩니다.
+>통합 문서를 예약하려면 Excel 2007이나 호환 팩이 설치되어 있어야 합니다. Report Builder 라이센스당 최대 10개의 예약된 통합 문서를 보유할 수 있습니다. 그렇지만 다른 라이센스에서 공제하여 이 수를 늘릴 수 있습니다. 이렇게 하려면 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL Report Builder 보고서]**&#x200B;로 이동합니다. 예약했지만(또는 통합 문서 라이브러리에 업로드했지만) 28개월 동안 수정(업데이트, 대체)한 적이 없는 통합 문서는 삭제됩니다.
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ ht-degree: 99%
 1. **[!UICONTROL 확인]**&#x200B;을 클릭한 다음 **[!UICONTROL 종료]**&#x200B;를 클릭합니다.
 
    Report Builder가 [예약된 작업 관리자](/help/analyze/report-builder/r-arb-scheduled-reports.md)에 예약된 통합 문서를 표시합니다.
-
