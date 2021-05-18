@@ -5,9 +5,9 @@ title: Analysis Workspace의 새로운 기능
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8323'
+source-wordcount: '8329'
 ht-degree: 99%
 
 ---
@@ -435,7 +435,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
    <td colname="col2"> <p>최근 릴리스된 사용자 지정 템플릿의 경우 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">편집 템플릿 모드를 템플릿을 프로젝트의 시작점으로 사용하는 것과 구분하는 데 도움이 되도록 프로젝트 맨 위 (제목 근처)에 템플릿 아이콘을 추가했습니다. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">[Analysis Workspace에서 프로젝트 생성/구성] 권한이 부여된 경우 관리자가 아닌 사용자가 Workspace 프로젝트 템플릿을 생성 (다른 이름으로 저장)하고 편집할 수 있도록 허용합니다.  (<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span> &gt; <span class="uicontrol">모든 보고서 액세스 편집</span> &gt; <span class="uicontrol">Analytics 도구 사용자 지정</span> &gt; <span class="uicontrol">Analysis Workspace에서 프로젝트 생성/구성</span> </span>) </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">[Analysis Workspace에서 프로젝트 생성/구성] 권한이 부여된 경우 관리자가 아닌 사용자가 Workspace 프로젝트 템플릿을 생성 (다른 이름으로 저장)하고 편집할 수 있도록 허용합니다. ( <span class="ignoretag"> <span class="uicontrol"> 관리 </span> &gt; <span class="uicontrol"> 모든 관리자 </span> &gt; <span class="uicontrol"> 사용자 관리 </span> &gt; <span class="uicontrol"> 그룹 </span> &gt; <span class="uicontrol"> 모든 보고서 액세스 편집 </span> &gt; <span class="uicontrol"> 분석 도구 사용자 지정 </span> 2/&gt; &gt; <span class="uicontrol"> Analysis Workspace </span> </span>에서 프로젝트 만들기/조정) </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p>기여도 분석: <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >토큰 알림 </a> </p> </td> 
-   <td colname="col2"> <p>이제는 회사에 기여도 분석 토큰 수가 제한되어 있는 경우 토큰을 사용하면 Analysis Workspace UI에 알림이 표시됩니다. 이를 통해 남은 토큰 수를 알 수 있습니다.&amp;nbsp; </p> <p> (관리자 사용자: 그룹 권한을 편집하여 이러한 토큰을 사용할 수 있는 사용자를 제한할 수 있습니다. 이 권한을 "예외 항목 탐지 및 기여도 분석"이라고 합니다 (<span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">관리자</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹 편집</span> &gt; <span class="uicontrol">모든 보고서 액세스 편집</span> &gt; <span class="uicontrol">보고서 세트 도구 사용자 지정</span> &gt; <span class="uicontrol">도구 및 보고서</span>).  </p> </td> 
+   <td colname="col2"> <p>이제는 회사에 기여도 분석 토큰 수가 제한되어 있는 경우 토큰을 사용하면 Analysis Workspace UI에 알림이 표시됩니다. 이를 통해 남은 토큰 수를 알 수 있습니다.&amp;nbsp; </p> <p> (관리자 사용자: 그룹 권한을 편집하여 이러한 토큰을 사용할 수 있는 사용자를 제한할 수 있습니다. 이 권한은 <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> 관리 </span> &gt; <span class="uicontrol"> 모든 관리자 </span> &gt; <span class="uicontrol"> 사용자 관리 </span> <span class="uicontrol"> 그룹 편집 </span> &gt; <span class="uicontrol"> 모든 보고서 편집 아래의 "예외 항목 탐지 및 기여도 분석"이라고 합니다. </span> &gt; <span class="uicontrol"> 보고서 세트 도구 사용자 지정 </span> &gt; <span class="uicontrol"> 도구 및 보고서 </span>에 액세스합니다. )  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>멀티바이트 문자가 있는 CSV 파일 </p> </td> 
@@ -1249,4 +1249,4 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 관리자는 사용자 간에 [!UICONTROL Analysis Workspace] 프로젝트를 전송할 수 있습니다.
 
-**[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 전송]**&#x200B;으로 이동하여 프로젝트를 전송합니다.
+프로젝트를 전송하려면 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 전송]**&#x200B;으로 이동합니다.
