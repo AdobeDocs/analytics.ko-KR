@@ -3,14 +3,13 @@ description: API 액세스, 보고서 세트 관리, 도구 및 보고서, 대�
 keywords: 그룹,권한
 subtopic: Users and groups
 title: 보고서 세트 도구 권한 사용자 지정
-feature: Admin Tools
+feature: 관리 도구
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 93%
+source-wordcount: '1167'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 폐기됩니다.
 
 API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항목에 대한 사용자 권한을 활성화합니다.
 
@@ -55,7 +54,7 @@ API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항�
 | [트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | 분류([도구 및 보고서] 아래에 있음)로 통합되었습니다. |
 | [채널](/help/components/c-marketing-channels/analyze-mc.md) | 보고서 세트 관리자 > 설정 편집 > 마케팅 채널의 마케팅 채널 설정에 대한 권한을 부여합니다. |
 | [비용](https://docs.adobe.com/content/help/ko-KR/analytics/components/marketing-channels/analyze-mc.html) | 보고서 세트 관리자에서 마케팅 채널 > 마케팅 채널 비용에 대한 권한을 사용하도록 설정합니다. |
-| [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | 사용자 지정 인사이트 전환 변수(또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 지정 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. |
+| [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | 사용자 지정 인사이트 전환 변수 (또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 지정 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. |
 | [검색 방법](/help/admin/admin/finding-methods.md) | 여러 검색 방법 보고서가 사용자 사이트에서 전환 성공 이벤트에 대한 크레딧을 받는지 확인할 수 있습니다. |
 | [전환 분류](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | 분류([도구 및 보고서] 아래에 있음)로 통합되었습니다. |
 | [고유 방문자 수](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 고유한 방문자 변수를 지정할 권한을 부여합니다. |
@@ -68,7 +67,7 @@ API 액세스, 보고서 세트 관리, 도구 및 보고서, 대시보드 항�
 | [예외 항목 탐지](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | 주어진 지표가 이전 데이터와 관련하여 어떻게 변했는지 파악하는 통계적 방법을 제공하는 예외 항목 탐지에 대한 권한을 부여합니다. |
 | [채널 보고서](/help/components/c-marketing-channels/analyze-mc.md) | 보고서 > 마케팅 채널 보고서에 있는 마케팅 채널 보고서에 대한 권한을 부여합니다. |
 | [실시간 보고서](/help/admin/admin/realtime/t-realtime-admin.md) | 실시간 보고서에 대한 액세스 권한을 부여합니다. |
-| [보트 페이지](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트 페이지는 보트 규칙 관리가 아니라 특정 보고 및 분석 보고서용입니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.**&#x200B;보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
+| [보트 페이지](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트 페이지는 보트 규칙 관리가 아니라 특정 보고 및 분석 보고서용입니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.** 보트 규칙을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
 | [보트](/help/admin/admin/bot-removal/bot-rules.md) | **참고:보트는 보트 규칙 관리가 아니라 특정 보고 및 분석 보고서용입니다. 현재 보트 규칙 편집을 허용할 권한이 없습니다.** 보트를 사용하면 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. 보트 트래픽을 제거하면 웹 사이트에서 사용자 활동을 더 정확하게 측정할 수 있습니다. |
 | [사용자 지정 데이터 웨어하우스 보고서](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse는 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 원시의 처리되지 않은 데이터 사본을 참조합니다. 특별한 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다. |
 | 일별 재방문 | 특정 날짜에 웹 사이트에 여러 번 방문한 방문자의 수를 보여주는 보고서. 하루는 마지막 24시간으로 정의됩니다. |
