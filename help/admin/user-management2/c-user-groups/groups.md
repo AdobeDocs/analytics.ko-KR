@@ -5,11 +5,10 @@ title: 사용자 그룹 설정
 feature: 관리 도구
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 폐기됩니다.
 
 사용자 그룹 정의 페이지의 요소 설명
 
