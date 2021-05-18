@@ -3,14 +3,13 @@ description: 모든 보고서가 표시되는 방식과 기본 메뉴 옵션을 
 title: 보고서 표시 설정 및 탐색
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1470'
 ht-degree: 99%
 
 ---
-
 
 # 보고서 표시 설정 및 탐색
 
@@ -18,7 +17,7 @@ ht-degree: 99%
 
 ## 보고서 표시 설정 및 탐색 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 보고서 설정]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL 구성 요소]** >  **[!UICONTROL 모든 구성 요소]** >  **[!UICONTROL 보고서 설정]**
 
 | 요소 | 설명 |
 |--- |--- |
@@ -149,4 +148,3 @@ nav_menu.xml
 | **사용자 지정 보고서** |  |  |
 |  | 사용자 지정 보고서는 사용자가 설정한 보고서입니다. | 사용자 지정 보고서 |
 |  |  |  |
-
