@@ -3,14 +3,13 @@ description: 대시보드 관리자를 사용하여 배달할 대시보드를 �
 subtopic: Dashboards
 title: 대시보드 관리자
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics Basics
+feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 99%
+source-wordcount: '799'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 99%
 >
 >대시보드 관리자를 사용할 때 가장 좋은 방법은 단일 사용자에 대해 300개 이하의 대시보드를 보유하는 것입니다. 또한 관리자는 아래의 모든 공유 대시보드를 로드하므로 대시보드 공유를 신중하게 해야 합니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 대시보드]**&#x200B;를 클릭합니다.
+**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]**&#x200B;를 클릭합니다.
 
 | 요소 | 설명 |
 |--- |--- |
@@ -36,7 +35,7 @@ ht-degree: 99%
 
 공유 대시보드 관리 옵션을 사용하는 방법을 설명하는 절차입니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 대시보드]**&#x200B;로 이동합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]**&#x200B;로 이동합니다.
 1.  [!UICONTROL 공유 대시보드] 아래에서, 관리하려는 공유 대시보드(또는 기존 대시보드)를 찾고, 다음 옵션 중 하나 이상을 선택합니다.
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
