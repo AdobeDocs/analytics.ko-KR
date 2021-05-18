@@ -4,14 +4,13 @@ title: Analytics에서의 Activity Map 보고
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
-
 
 # Analytics에서의 Activity Map 보고
 
@@ -22,7 +21,7 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 사용자가 Activity Map 차원에 대해 보고하려면 먼저 관리자가 다음을 수행해야 합니다.
 
 * [사용자를 Activity Map 액세스 그룹에 추가합니다](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* 이 그룹에 액세스할 보고서 세트를 추가합니다. **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL Activity Map 액세스]** > **[!UICONTROL 편집]**&#x200B;으로 이동합니다.
+* 이 그룹에 액세스할 보고서 세트를 추가합니다. **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL Activity Map 액세스]** > **[!UICONTROL 편집]**&#x200B;으로 이동합니다.
 * 차원에 대한 사용자 액세스를 사용자 지정합니다. 아래 섹션을 참조하십시오.
 
 ## Analytics Activity Map 차원 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -41,4 +40,3 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 * Reports &amp; Analytics에서 **[!UICONTROL 모든 보고서 보기]** > **[!UICONTROL Activity Map]**&#x200B;으로 이동합니다.
 
 * 특정 페이지에 대한 링크 및 영역을 보기 위해 해야 할 일은 원하는 Activity Map 페이지의 분류를 Activity Map 링크 및 영역에 만드는 것입니다.
-
