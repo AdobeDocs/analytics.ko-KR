@@ -3,14 +3,13 @@ description: eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 �
 keywords: 그룹,권한
 subtopic: Users and groups
 title: 차원 권한 사용자 지정
-feature: Admin Tools
+feature: 관리 도구
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 98%
+source-wordcount: '517'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 폐기됩니다.
 
 eVar, 트래픽 보고서, 솔루션 보고서 및 경로 지정 보고서를 포함하여 세분된 수준에서 사용자 액세스를 사용자 지정합니다.
 
