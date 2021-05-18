@@ -5,11 +5,10 @@ title: 파일 가져오기 템플릿 생성
 topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 자세한 내용은 다음을 참조하십시오. [가져오기 파일 참조](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md).
 
 1. Analytics에 로그인.
-1.  Suite 헤더에서 **[!UICONTROL 관리]** > **[!UICONTROL Data Sources]**&#x200B;를 선택합니다.
+1. Suite 헤더에서 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**&#x200B;를 선택합니다.
 1. **** 데이터 소스 생성 탭에서 템플릿 카테고리와 유형을 선택합니다. 
 1. 활성화 지침/정보를 검토한 후 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
