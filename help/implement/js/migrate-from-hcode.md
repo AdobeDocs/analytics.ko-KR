@@ -2,11 +2,10 @@
 title: JavaScript용 AppMeasurement로의 마이그레이션
 description: H 코드의 구현을 마이그레이션하는 데 필요한 사항을 결정합니다.
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +24,7 @@ H 코드와 비교할 때 AppMeasurement에 다음의 주목할 만한 변경 �
 
 다음 절차는 일반적인 마이그레이션 워크플로에 대한 개요입니다.
 
-1. **새 AppMeasurement 파일 다운로드**: Adobe Analytics에 로그인한 다음, 관리 > 코드 관리자로 이동하여 새 파일에 액세스합니다. 다운로드한 압축 파일에는 미디어 및 통합 모듈과 함께 축소된 `AppMeasurement.js` 파일이 포함되어 있습니다.
+1. **새 AppMeasurement 파일을 다운로드합니다**.Adobe Analytics에 로그인한 다음 관리 > 모든 관리 > 코드 관리자로 이동하여 새 파일에 액세스합니다. 다운로드한 압축 파일에는 미디어 및 통합 모듈과 함께 축소된 `AppMeasurement.js` 파일이 포함되어 있습니다.
 1. **`s_code.js` 사용자 지정 사항을`AppMeasurement.js`**&#x200B;에 복사: `s_code.js`의 `DO NOT ALTER ANYTHING BELOW THIS LINE` 섹션 앞에 있는 모든 코드를 `AppMeasurement.js`의 시작 부분으로 이동합니다.
 1. **모든 플러그인 업데이트**: `s_code.js` 파일에 나열된 각 플러그인의 최신 버전을 사용하고 있는지 확인하십시오. 여기에는 미디어 및 통합 모듈이 포함됩니다.
 1. **AppMeasurement.js 파일 배포**: 웹 서버에 `AppMeasurement.js` 파일을 업로드합니다.
