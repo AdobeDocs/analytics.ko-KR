@@ -2,11 +2,10 @@
 title: Adobe Analytics 로그인 문제 해결
 description: Adobe Analytics에 로그인할 수 없는 경우 취해야 할 단계입니다.
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +44,7 @@ Experience Cloud를 사용하여 Adobe Analytics에 로그인할 때 발생하�
 >사용자 암호를 재설정하는 다음의 단계는 Adobe ID가 아닌 레거시 Analytics ID에만 적용됩니다. 조직에서 Adobe ID를 사용하는 경우 [adminconsole.adobe.com](https://adminconsole.adobe.com)에서 사용자 계정을 관리할 수 있습니다.
 
 1. 관리 권한이 있는 계정으로 Adobe Analytics에 로그인합니다.
-2. **[!UICONTROL 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
+2. **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
 3. **[!UICONTROL 사용자]** 탭을 클릭한 다음 원하는 사용자 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 4. 암호를 임의의 값으로 변경하고 **[!UICONTROL 다음 로그인시 사용자가 암호를 변경해야 함]** 확인란을 선택합니다.
 5. 사용자에게 새 암호를 알립니다.
