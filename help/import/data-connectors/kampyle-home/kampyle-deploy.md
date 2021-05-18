@@ -3,10 +3,10 @@ description: Adobe Analytics에서 Kampyle 데이터 커넥터를 배포합니�
 title: 통합 배포
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 46%
+source-wordcount: '446'
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 46%
 
 통합을 활성화하려면 데이터 커넥터 인터페이스에서 구성 마법사를 완료합니다.
 
-1. Adobe Experience Cloud에 로그인합니다.
+1. [!DNL Adobe Experience Cloud]에 로그인합니다.
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 커넥터]**&#x200B;를 클릭합니다.
 1. Kampyle 통합 마법사를 시작합니다.
 1. 원하는 보고서 세트를 선택하고 통합 이름을 제공합니다.
