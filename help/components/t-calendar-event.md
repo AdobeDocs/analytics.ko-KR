@@ -4,11 +4,10 @@ title: 달력 이벤트
 feature: Reports & Analytics 기본 사항
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 시간에 따른 트렌드 보고서의 경우 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다. 달력 이벤트를 설정하는 프로세스에는 이벤트 이름 지정, 날짜 설정, 메모 추가 및 아이콘 설정이 포함됩니다.. 예를 들어, Social을 사용하는 경우 달력 이벤트를 만들어 사이트 트래픽의 증가와 Twitter를 사용하는 유명인의 제품에 대한 언급 간에 상관 관계가 있음을 보여 줄 수 있습니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 달력 이벤트]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 달력 이벤트]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 새로 추가]**&#x200B;를 클릭합니다.
    1. **[!UICONTROL 제목]** 아래에서 달력 이벤트 이름을 지정합니다.
    1. **[!UICONTROL 이벤트 날짜]**&#x200B;를 지정합니다.
@@ -37,7 +36,7 @@ ht-degree: 100%
    1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이렇게 되면 달력 이벤트를 훨씬 다양하게 사용할 수 있게 됩니다. 이제 분석가는 사용자의 보고서에 오버레이를 적용하여 더 많은 컨텍스트를 제공할 수 있습니다.
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 달력 이벤트]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 달력 이벤트]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 공유 달력 이벤트]** 아래에서 다음 옵션 중 하나를 지정합니다.
 
    | **나를 복사** | 사본을 원본과 동일한 이름을 사용하여 이벤트 목록에 추가합니다. 하지만, 이벤트 소유자가 수행한 업데이트/변경은 볼 수 없습니다. |
