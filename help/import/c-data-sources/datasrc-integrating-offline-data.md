@@ -5,11 +5,10 @@ title: 거래 및 고객 통합
 topic-fix: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 84%
+source-wordcount: '315'
+ht-degree: 79%
 
 ---
 
@@ -39,7 +38,7 @@ ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정
 
  -->
 
-거래 ID 기록이 활성화되어 있는지 확인하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 데이터 소스]**&#x200B;로 이동합니다.
+거래 ID 기록이 활성화되어 있는지 확인하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**&#x200B;로 이동합니다.
 
 ![](assets/transaction-ID-recording-active.png)
 
