@@ -2,11 +2,10 @@
 description: 타사 애플리케이션에서 Analytics로 추적 데이터를 가져옵니다.
 title: Analytics Data Connectors 시작하기
 exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '973'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +47,7 @@ Data Connectors는 자주 사용되는 브라우저와 적절히 통합되어야
 [!UICONTROL Data Connectors] 랜딩 페이지 (콘솔)에 액세스하려면 현재 계정이 있어야 합니다. 또한 Adobe Analytics에 익숙해지는 것이 좋습니다.
 
 1. Adobe Experience Cloud에 로그인합니다.
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL Data Connectors]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 커넥터]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 새로 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 통합 추가]** 인터페이스를 살펴봅니다.
 
