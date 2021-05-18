@@ -5,10 +5,9 @@ title: 가상 보고서 세트 워크플로
 feature: Reports & Analytics 기본 사항
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '266'
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -29,17 +28,8 @@ ht-degree: 100%
 
 보고서 세트 이름 옆에 있는 정보 아이콘을 클릭하여 [보고서 세트에 대한 정보를 봅니다](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png) 보고서 세트에 대한 [그룹 권한](/help/components/vrs/c-workflow-vrs/vrs-create.md)을 설정합니다.
+![](assets/step3_icon.png) 프로젝트나 보고서를 열고 세그먼트화된 데이터 보기를 제공할 가상 보고서 세트를 선택합니다.
 
-가상 보고서 세트 만들기의 일부로 그룹 권한을 추가합니다.
-
-다음 두 가지 방법으로 그룹 권한을 편집할 수 있습니다.
-
-* 가상 보고서 세트 관리자에서 가상 보고서 세트를 편집합니다.
-* 관리 > 사용자 관리 > 그룹으로 이동한 다음, 가상 보고서 세트에 대한 권한이 있는 그룹을 선택하고 편집을 클릭합니다.
-
-![](assets/step4_icon.png) 프로젝트나 보고서를 열고 세그먼트화된 데이터 보기를 제공할 가상 보고서 세트를 선택합니다.
-
-![](assets/step5_icon.png) [가상 보고서 세트를 관리합니다](/help/components/vrs/c-workflow-vrs/vrs-manage.md).
+![](assets/step4_icon.png) [가상 보고서 세트를 관리합니다](/help/components/vrs/c-workflow-vrs/vrs-manage.md).
 
 가상 보고서 세트 관리자를 사용하여 가상 보고서 세트를 편집, 추가, 태그 지정, 삭제, 이름 변경, 승인, 복사, 내보내기 및 필터링할 수 있습니다. 관리자가 아닌 사용자에게는 표시되지 않습니다.
