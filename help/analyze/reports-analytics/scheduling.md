@@ -6,11 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics 기본 사항, 보고서 및 분석
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 100%
+source-wordcount: '1669'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +108,7 @@ PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고�
 
 [!UICONTROL 보고서 예약 관리자]는 특정 사용자가 만든 항목을 보여 줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 
-1. 해당 관리자에 액세스하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 예약된 보고서]**&#x200B;를 클릭합니다.
+1. 관리자에 액세스하려면 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 예약된 보고서]**&#x200B;를 클릭합니다.
 
 ## 보고서 링크 공유 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
