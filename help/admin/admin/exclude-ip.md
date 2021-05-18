@@ -1,20 +1,19 @@
 ---
-title: IP 주소별로 제외
+title: IP 주소로 제외
 description: 특정 IP 주소로 생성된 데이터가 보고서에 표시되지 않도록 합니다.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: 315a3000-f043-434b-a677-d111aeed7971
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 85%
+source-wordcount: '223'
+ht-degree: 82%
 
 ---
-
 
 # IP 주소별로 제외
 
 보고서에서 내부 웹 사이트 활동, 사이트 테스트 및 직원 사용과 같은 특정 IP 주소의 데이터를 제거할 수 있습니다. IP 주소 데이터를 제외하여 데이터를 제외하면 보고서 정확도가 향상됩니다. 또한 보고서 데이터를 왜곡할 수 있는 서비스 거부나 기타 악의적인 이벤트의 데이터를 제거할 수 있습니다. 방화벽을 사용하여 제외를 구성할 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL IP별로 제외]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL 관리]**   **** >  **[!UICONTROL 모든 관리>IP별로 제외]**
 
 >[!NOTE]
 >
@@ -24,7 +23,7 @@ ht-degree: 85%
 
 >[!TIP]
 >
->비공개 IP 주소는 제외할 필요가 없습니다. 외부 IP 주소만 Adobe 데이터 수집 서버에 도달합니다. 비공개 주소에는 `10.*.*.*`, `192.168.*.*``172.[16-31].*.*`및 `169.254.*.*`가 포함됩니다.
+>비공개 IP 주소는 제외할 필요가 없습니다. 외부 IP 주소만 Adobe 데이터 수집 서버에 도달합니다. 개인 주소에는 `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` 및 `169.254.*.*`이 있습니다.
 
 ## IP 난독화의 영향 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
