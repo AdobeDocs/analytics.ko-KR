@@ -2,10 +2,9 @@
 description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이그레이션에 대해 알아야 할 사항.
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3133'
 ht-degree: 98%
 
 ---
@@ -121,15 +120,15 @@ Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">귀하가 Admin Console에서 Analytics 제품 관리자인지 확인하십시오. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">마이그레이션이 시작되면 로그인 환경이 변경될 것임을 사용자에게 알리십시오. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">현재 사용자 및 사용 권한을 감사하고 정리 활동을 수행하십시오. </li> 
-    </ul> <p>마이그레이션을 더 신속히 처리하려면 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>의 고객 성공 관리자에게 문의하여 더 빠른 시작일 요청을 제출하십시오. </p> </td> 
+    </ul> <p>마이그레이션을 더 신속히 처리하려면 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>의 고객 성공 관리자에게 문의하여 더 빠른 시작일 요청을 제출하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 저는 Admin Console에 대한 액세스 권한이 없는 Analytics 관리자입니다. Admin Console에 대한 액세스 권한을 받는 데 누가 도와줄 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>조직의 Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>조직의 Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션 시작 날짜를 연기할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p><p>시작 날짜의 현재 Analytics 사용자 및 권한 관리에 대한 변경 사항 설명은 아래를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p><p>시작 날짜의 현재 Analytics 사용자 및 권한 관리에 대한 변경 사항 설명은 아래를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이제 내 회사가 Admin Console로 마이그레이션 중입니다. 마이그레이션 시작 날짜 전에는 새 사용자 및 권한 그룹을 어디에서 만듭니까? </p> </td> 
@@ -143,7 +142,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
  </tbody> 
 </table>
 
-## 마이그레이션 중 알아 두어야 할 사항(FAQ) {#section-d394524aa6d046d79025bbd7499792bc}
+## 마이그레이션 중 알아 두어야 할 사항(FAQ)  {#section-d394524aa6d046d79025bbd7499792bc}
 
 마이그레이션 프로세스 및 현재 사용자 관리에 미치는 영향에 대한 중요 정보
 
@@ -232,7 +231,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
  </tbody> 
 </table>
 
-## 마이그레이션 후 알아 두어야 할 사항(FAQ) {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## 마이그레이션 후 알아 두어야 할 사항(FAQ)  {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -289,7 +288,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>단일 사인온 </p> </td> 
-   <td colname="col2"> <p> 마이그레이션을 완료하면 Analytics 단일 사인온(SSO) 구성이 제거됩니다. 마이그레이션 중에는 활성 상태로 유지됩니다. Analytics 단일 사인온을 사용하는 고객은 <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">Adobe Federated ID</a>로 업그레이드해야 합니다. </p> <p>Analytics에서는 먼저 Adobe ID로서 사용자를 마이그레이션하여 Experience Cloud 계정을 쉽게 만든 다음 해당 계정을 Federated 단일 사인온 사용자로 변환할 것을 권장합니다. </p> </td> 
+   <td colname="col2"> <p> 마이그레이션을 완료하면 Analytics 단일 사인온(SSO) 구성이 제거됩니다. 마이그레이션 중에는 활성 상태로 유지됩니다. Analytics 단일 사인온을 사용하는 고객은 <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a>로 업그레이드해야 합니다. </p> <p>Analytics에서는 먼저 Adobe ID로서 사용자를 마이그레이션하여 Experience Cloud 계정을 쉽게 만든 다음 해당 계정을 Federated 단일 사인온 사용자로 변환할 것을 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>권한 그룹 다운로드 </p> </td> 
@@ -310,7 +309,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 이 마이그레이션 계획을 현재 사용자에게 사전에 알리고 싶을 수 있습니다. 현재 Analytics 사용자를 모두 보내도록 사용자 지정할 수 있는 템플릿은 다음과 같습니다.
 
-모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)로 이동하십시오.
+모든 사용자에게 이메일을 전송하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)로 이동합니다.
 
 **제목:** 예고 - Adobe Analytics 및 Adobe Experience Cloud에 로그인하는 새로운 방법
 
