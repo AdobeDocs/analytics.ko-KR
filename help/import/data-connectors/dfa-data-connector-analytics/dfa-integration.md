@@ -5,11 +5,10 @@ title: DFA 통합
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '2601'
-ht-degree: 100%
+source-wordcount: '2602'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +23,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
 이 구성 페이지는 자세한 정보에 대한 유용한 링크와 함께 통합 개요를 제공합니다. 이 통합과 관련된 Adobe와 DoubleClick 요금이 있습니다. 두 조직의 영업 담당자에게 연락하여 요금 구성을 확인합니다.
 
 1. [!DNL Adobe Analytics]에 로그인합니다.
-1. **[!UICONTROL 관리]** > **[!UICONTROL Data Connectors]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 커넥터]**&#x200B;를 클릭합니다.
 
    ![](assets/data_connectors.png)
 
