@@ -2,11 +2,10 @@
 title: 보고서 세트 도구에 대한 제품 프로필 권한
 description: 보고서 세트 도구에서 각 권한 항목을 파악합니다.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '662'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '664'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +48,7 @@ ht-degree: 100%
 | 데이터 피드 관리자 | Analytics 상단 탐색에서 관리 > 데이터 피드에 대한 액세스 권한을 부여합니다. |
 | 사용자 지정 데이터 웨어하우스 보고서 | Analytics 상단 탐색에서 도구 > Data Warehouse에 대한 액세스 권한을 부여합니다. |
 | 일별 재방문 | Reports &amp; Analytics에서 방문자 유지 > 일별 재방문에 대한 액세스 권한을 부여합니다. |
-| 데이터 소스 관리자 | Analytics 상단 탐색에서 관리자 > 데이터 소스에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;보고서 세트 관리&#39;가 필요합니다. |
+| 데이터 소스 관리자 | Analytics 상단 탐색의 관리 > 모든 관리 > 데이터 소스에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;보고서 세트 관리&#39;가 필요합니다. |
 | IP 주소로 제외 | Analytics 상단 탐색에서 관리자 > IP별로 제외에 대한 액세스 권한을 부여합니다. |
 | 마지막 100명의 방문자 | 사용되지 않습니다. |
 | 기존 ClickMap | 사용되지 않습니다. Analytics 도구에서 Activity Map을 대신 사용합니다. |
