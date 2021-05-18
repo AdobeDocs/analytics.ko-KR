@@ -4,11 +4,10 @@ title: Data Warehouse 사용자 그룹 추가
 feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 관리자가 사용자 그룹에 대한 Data Warehouse 보고 액세스 권한을 활성화할 수 있는 방법을 설명하는 단계입니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 그룹 편집]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 새 사용자 그룹 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 사용자 그룹 정의]** 섹션에서 그룹 이름 필드에 이름을 입력합니다. 다음 그룹 정보를 입력하십시오.
@@ -39,5 +38,5 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [그룹 ](/help/admin/user-management2/c-user-groups/groups.md)
+>* [그룹](/help/admin/user-management2/c-user-groups/groups.md)
 
