@@ -2,14 +2,13 @@
 description: Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
 subtopic: Users and groups
 title: 사용자 및 제품 관리
-feature: Admin Tools
+feature: 관리 도구
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +18,7 @@ Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 폐기됩니다.
 
 ## Admin Console 관리자에 대한 도움말 리소스 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
