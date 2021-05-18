@@ -5,10 +5,10 @@ title: 가상 보고서 세트 만들기
 feature: Reports & Analytics 기본 사항
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 96%
+source-wordcount: '663'
+ht-degree: 73%
 
 ---
 
@@ -25,43 +25,50 @@ ht-degree: 96%
 
    ![](assets/new_vrs.png)
 
-1. 다음 필드를 채웁니다.
+## 설정 정의
 
-<table id="table_0F85B56480BB46CBA5BE236BBD70156D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 요소 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 이름 </td> 
-   <td colname="col2"> <p>가상 보고서 세트 이름은 상위 보고서 세트에서 상속되지 않으므로 구분해야 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 설명 </td> 
-   <td colname="col2"> <p>비즈니스 사용자의 혜택에 대한 설명을 추가합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 태그 </td> 
-   <td colname="col2"> <p>태그를 추가하여 보고서 세트를 구성할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 그룹 </td> 
-   <td colname="col2"> <p>이 VRS에 대한 액세스 권한을 원하는 권한 그룹을 선택합니다. (<span class="ignoretag"><span class="uicontrol"> 관리</span> &gt; <span class="uicontrol"> 모든 관리 </span> &gt; <span class="uicontrol"> 사용자 관리</span> &gt; <span class="uicontrol"> 그룹</span></span>에서 그룹 권한을 관리할 수도 있습니다.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 상위 보고서 세트 </td> 
-   <td colname="col2"> <p>이 가상 보고서 세트에 다음 설정을 상속하는 보고서 세트입니다. 대부분의 서비스 수준 및 기능 (예: eVar 설정, 처리 규칙, 분류 등)이 상속됩니다. VRS에서 상속한 이러한 설정을 변경하려면 상위 보고서 세트를 편집해야 합니다 (<span class="ignoretag"><span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span></span>). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 시간대 </td> 
-   <td colname="col2"> <p>시간대 선택은 선택 사항입니다. </p> <p>시간대를 선택하면 VRS와 함께 저장됩니다. 시간대를 선택하지 않으면 상위 보고서 세트의 시간대가 사용됩니다. </p> <p>VRS를 편집할 때 VRS와 함께 저장된 시간대가 드롭다운 선택기에 표시됩니다. 시간대 지원이 추가되기 전에 VRS가 생성된 경우 상위 보고서 세트의 시간대가 드롭다운 선택기에 표시됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 세그먼트 </td> 
-   <td colname="col2"> <p>한 개 세그먼트를 추가하거나 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html"  >세그먼트를 스택</a>할 수 있습니다. </p> <p> <p>참고: 2개의 세그먼트를 스택할 때 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다. </p> </p> <p>현재 가상 보고서 세트에 사용된 세그먼트를 삭제하거나 수정하려고 하면 경고가 표시됩니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+[!UICONTROL 설정] 탭에서 이러한 설정을 정의한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
+
+| 요소 | 설명 |
+| --- |--- |
+| 이름 | 가상 보고서 세트 이름은 상위 보고서 세트에서 상속되지 않으므로 구분해야 합니다. |
+| 설명 | 비즈니스 사용자의 혜택에 대한 설명을 추가합니다. |
+| 태그 | 태그를 추가하여 보고서 세트를 구성할 수 있습니다. |
+| 소스 | 이 가상 보고서 세트에 다음 설정을 상속하는 보고서 세트입니다. 대부분의 서비스 수준 및 기능 (예: eVar 설정, 처리 규칙, 분류 등)이 상속됩니다. VRS에서 상속한 이러한 설정을 변경하려면 상위 보고서 세트를 편집해야 합니다 (관리 > 보고서 세트). |
+| 시간대 | 시간대 선택은 선택 사항입니다. 시간대를 선택하면 VRS와 함께 저장됩니다. 시간대를 선택하지 않으면 상위 보고서 세트의 시간대가 사용됩니다.  VRS를 편집할 때 VRS와 함께 저장된 시간대가 드롭다운 선택기에 표시됩니다. 시간대 지원이 추가되기 전에 VRS가 생성된 경우 상위 보고서 세트의 시간대가 드롭다운 선택기에 표시됩니다. |
+| 세그먼트 | 한 개 세그먼트를 추가하거나 세그먼트를 스택할 수 있습니다.   참고: 2개의 세그먼트를 스택할 때 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다. 현재 가상 보고서 세트에 사용된 세그먼트를 삭제하거나 수정하려고 하면 경고가 표시됩니다. |
+
+## 방문 정의 정의
+
+[!UICONTROL 방문 정의] 탭에서 이러한 설정을 정의한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
+
+![](assets/visit-definition.png)
+
+| 요소 | 설명 |
+| --- |--- |
+| **방문 정의 구성** |  |
+| 보고서 시간 처리 활성화 | 보고서 시간 처리를 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [추가 정보](/help/components/vrs/vrs-report-time-processing.md) |
+| 방문 시간 초과 | 새로운 방문이 자동으로 시작되기 전에 고유 방문자가 보유해야 하는 비활성의 양을 정의합니다. 방문 횟수 지표, 방문 세그먼트 컨테이너 및 방문 시 만료되는 eVar에 영향을 미칩니다. |
+| 이벤트로 새 방문 시작 | 세션의 시간이 초과되었는지 여부와 상관없이 지정된 이벤트가 발생하는 경우 새 세션을 시작합니다. |
+| **모바일 앱 방문 설정** | Adobe의 Mobile SDK에서 수집한 모바일 앱 조회 수에 대해 방문 횟수가 정의되는 방식을 수정합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. |
+| 배경 조회 수로 인해 새로운 방문이 시작되지 않도록 차단 | 배경 조회 수로 인해 새로운 방문이 시작되지 않고 방문 횟수 및 고유 방문자 지표가 부풀려지지 않도록 차단합니다. |
+| 앱 실행 시마다 새 방문 시작 | 앱 실행이 발생하면 새 세션을 시작합니다. [추가 정보](/help/components/vrs/vrs-mobile-visit-processing.md) |
+
+## 구성 요소 포함 및 이름 바꾸기
+
+![](assets/components.png)
+
+1. [!UICONTROL 구성 요소] 탭에서 확인란을 선택하여 Analysis Workspace에 있는 이 가상 보고서 세트에 대한 구성 요소를 포함, 제외 및 이름을 변경합니다.
+VRS 큐레이션에 대한 자세한 내용은 [가상 보고서 세트 구성 요소 조정](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites)을 참조하십시오.
+
+1. VRS에 포함할 구성 요소(차원, 지표, 세그먼트 또는 날짜 범위)를 [!UICONTROL 포함된 구성 요소] 섹션으로 드래그합니다.
+
+1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+## 데이터 미리 보기
+
+각 탭의 오른쪽에서 이 가상 보고서 세트의 총 히트 수, 총 방문 수 및 총 방문자 수를 원래 보고서 세트와 비교하여 미리 볼 수 있습니다.
+
+## 제품 호환성 보기
+
+가상 보고서 세트의 일부 기능은 일부 Adobe Analytics 제품에서 지원되지 않습니다. 제품 호환성 목록을 사용하면 현재 가상 보고서 세트 설정에 따라 Adobe Analytics 내에서 지원되는 제품을 확인할 수 있습니다.
