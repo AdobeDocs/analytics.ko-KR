@@ -1,13 +1,12 @@
 ---
 description: 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다.
 title: 로그
-feature: Admin Tools
+feature: 관리 도구
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 72%
 
 사용자가 로그인하는 시점, 사용자의 사용, 액세스, 보고서 세트 및 관리 변경을 확인하는 데 도움이 되는 로그 파일입니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 로그]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL 관리]** >  **[!UICONTROL 모든 관리]** >  **[!UICONTROL 로그]**
 
 ## 관리 로그 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
