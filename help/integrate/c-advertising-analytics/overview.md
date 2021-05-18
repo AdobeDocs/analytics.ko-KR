@@ -2,11 +2,10 @@
 description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하여 이 상세한 가이드에서 Advertising Analytics로 할 수 있는 모든 작업을 알아보십시오.
 title: Advertising Analytics 가이드
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: ht
-source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +17,7 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 >
 >Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 병합되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.
 
-이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다.  [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
+이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로 [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
 
 ![](assets/aa_aw.png)
 
@@ -27,7 +26,7 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 * 유료 검색 마케터에 대한 실적 보고서를 수집해야 하는 **분석가**.
 * 다음 질문에 대한 답변해야 하는 **유료 검색 마케터**: 사이트로 전송하는 트래픽 양은 얼마나 되며, 얼마나 많은 고객이 변환 중입니까? 비용 효율적인 내 광고 캠페인은 무엇입니까?
 
-## 전제 조건 {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
+## 사전 요구 사항 {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
 * Advertising Analytics는 Adobe Analytics [Select](https://www.adobe.com/kr/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/kr/data-analytics-cloud/analytics/prime.html) 및 [Ultimate](https://www.adobe.com/kr/data-analytics-cloud/analytics/ultimate.html) SKU에서만 사용할 수 있습니다.
 
@@ -57,13 +56,13 @@ Analytics에는 Analytics 관리자에게 자동으로 부여되는 두 가지 �
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 관리 </p> </td> 
    <td colname="col2"> <p>사용자가 광고 검색 계정을 설정/편집/볼 수 있습니다. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span> &gt; <span class="uicontrol">모든 보고서 액세스 편집</span> &gt; <span class="uicontrol">Analytics 도구 사용자 지정</span> &gt; <span class="uicontrol">Advertising Analytics 관리</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리</span>  &gt;  <span class="uicontrol"> 모든 관리자  </span>  &gt;  <span class="uicontrol"> 사용자 관리</span> &gt;  <span class="uicontrol"> 그룹</span> &gt;  <span class="uicontrol"> </span>   <span class="uicontrol">  </span>   <span class="uicontrol">  편집 모든 보고서 액세스&gt;분석 도구 사용자 지정Advertising Analytics 관리</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> adminconsole.adobe.com에 로그인</span> &gt; <span class="uicontrol">제품</span> &gt; <span class="uicontrol">제품 프로필</span> &gt; <span class="uicontrol">권한 탭</span> &gt; <span class="uicontrol">Analytics 도구</span> &gt; <span class="uicontrol">Advertising Analytics 관리</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 구성 </p> </td> 
    <td colname="col2"> <p>사용자가 Advertising Analytics에 제공할 보고서 세트를 구성할 수 있습니다. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리</span> &gt; <span class="uicontrol">사용자 관리</span> &gt; <span class="uicontrol">그룹</span> &gt; <span class="uicontrol">모든 보고서 액세스 편집</span> &gt; <span class="uicontrol">보고서 세트 도구 사용자 지정</span> &gt; <span class="uicontrol">Advertising Analytics 구성</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리</span>  &gt;  <span class="uicontrol"> 모든 관리  </span>  &gt;  <span class="uicontrol"> 사용자 관리</span> &gt;  <span class="uicontrol"> 그룹</span> &gt;  <span class="uicontrol"> 그룹</span>   <span class="uicontrol">  </span>   <span class="uicontrol"> &gt; 편집 모든 보고서 액세스&gt;보고서 세트 사용자 지정 보고서 세트 도구 사용자 지정&gt; Advertising Analytics 구성</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> adminconsole.adobe.com에 로그인</span> &gt; <span class="uicontrol">제품</span> &gt; <span class="uicontrol">제품 프로필</span> &gt; <span class="uicontrol">권한 탭</span> &gt; <span class="uicontrol">보고서 세트 도구</span> &gt; <span class="uicontrol">Advertising Analytics 구성</span></span> </td> 
   </tr> 
  </tbody> 
