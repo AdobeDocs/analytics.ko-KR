@@ -2,17 +2,19 @@
 description: 작년 특정 기간 동안의 일별 서버 호출 평균과 올해 예상되는 서버 호출량 증가 볼륨을 가져올 수 있습니다. 그런 다음 이 곱하기 인자를 기반으로 하여 트래픽 스파이크를 예약할 수 있습니다.
 title: 지난 서버 호출 예측 및 트래픽 스파이크 예약
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 92%
 
 ---
-
 
 # 지난 서버 호출 예측 및 트래픽 스파이크 예약
 
 작년 특정 기간 동안의 일별 서버 호출 평균과 올해 예상되는 서버 호출량 증가 볼륨을 가져올 수 있습니다. 그런 다음 이 곱하기 인자를 기반으로 하여 트래픽 스파이크를 예약할 수 있습니다.
 
-1. Analytics에 관리자로 로그인하고 **[!UICONTROL 관리]** > **[!UICONTROL 트래픽 관리]**&#x200B;로 이동합니다.
+1. Analytics에 관리자로 로그인하고 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 트래픽 관리]**&#x200B;로 이동합니다.
 
 1. **[!UICONTROL 확장]**&#x200B;을 클릭하여 보고서 세트 목록을 확장하고 **[!UICONTROL 보고서 세트 선택]**&#x200B;을 클릭하여 여러 보고서 세트를 선택합니다.
 
@@ -30,4 +32,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    이제 선택한 각 보고서 세트에 대한 스파이크가 예약됩니다.
 
 ![](assets/past_server_calls.png)
-
