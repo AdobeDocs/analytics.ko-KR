@@ -2,19 +2,21 @@
 description: Data Connectors 통합 마법사는 Data Connectors 통합 프로세스를 단계별로 안내합니다.
 title: Data Connectors 통합 마법사 실행
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 9ba013cd-e0a5-4dbd-aad9-b6004f4a9e56
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
-
 
 # Data Connectors 통합 마법사 실행{#running-the-data-connectors-integration-wizard}
 
 Data Connectors 통합 마법사는 Data Connectors 통합 프로세스를 단계별로 안내합니다.
 
 1. [!DNL Adobe Experience Cloud]에 로그인합니다.
-1. 원하는 보고서 세트가 [!DNL Report Suite] 메뉴에서 활성화되어 있는지 확인합니다.
-1. **[!UICONTROL Adobe Experience Cloud]** > **[!UICONTROL Data Connectors]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 보고서 세트 액세스]**&#x200B;를 클릭하고 원하는 보고서 세트가 활성화되었는지 확인합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 커넥터]**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
