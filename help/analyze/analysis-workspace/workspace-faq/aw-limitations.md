@@ -4,11 +4,10 @@ title: Analysis Workspace의 알려진 제한 사항
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +52,7 @@ ht-degree: 100%
 
 * 보고서 처리 시간이 활성화되면 특정 구성 요소가 지원되지 않습니다. 전체 목록이 필요하면 [보고서 처리 시간](/help/components/vrs/vrs-report-time-processing.md)을 참조하십시오.
 
-## 구성 요소 > 보고서 설정
+## 구성 요소 > 모든 구성 요소 > 보고서 설정
 
 * [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분 문자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분 문자]만 사용합니다.
 
