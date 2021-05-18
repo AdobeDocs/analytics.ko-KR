@@ -2,11 +2,13 @@
 description: Data Connectors 통합 마법사는 Data Connectors 통합 프로세스를 단계별로 안내합니다.
 title: 통합 구성
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 5036e577-611e-4fa1-9a80-dde9753aea53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
-
 
 # 통합 구성{#configure-the-integration}
 
@@ -15,7 +17,7 @@ Data Connectors 통합 마법사는 Data Connectors 통합 프로세스를 단�
 통합 구성 방법:
 
 1. AppFigures에서 통합 계정 키를 [생성](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud)합니다.
-1. 관리 사용자로 **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]**&#x200B;로 이동하고 **[!UICONTROL + 새로 추가]**&#x200B;를 클릭하여 새 통합을 추가합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 커넥터]**&#x200B;를 관리 사용자로 이동하고 **[!UICONTROL + 새로 추가]**&#x200B;를 클릭하여 새 통합을 추가합니다.
 1. **[!UICONTROL 표시]** 목록에서 이름별을 선택하고 **appFigures** 통합을 빈 플러그인 슬롯으로 드래그합니다.
 1. AppFigures 통합 소개 페이지에서 텍스트를 검토한 **다음** 확인란을 선택하여 통합과 관련된 비용을 수락합니다.
 1. 이 통합에 사용할 보고서 세트를 선택합니다.
