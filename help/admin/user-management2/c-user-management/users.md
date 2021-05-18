@@ -2,14 +2,13 @@
 description: 사용자 관리 페이지의 보고서 사용자 및 그룹 관리를 통해 사용자와 그룹을 관리하고 보고서, 도구 및 보고서 세트에 대한 액세스 권한을 제어할 수 있습니다.
 subtopic: Users and groups
 title: 사용자 관리 개요
-feature: Admin Tools
+feature: 관리 도구
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 93%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
+>사용자 및 제품 관리를 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동 중입니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 폐기됩니다.
 
 사용자 관리 페이지의 보고서 사용자 및 그룹 관리를 통해 사용자와 그룹을 관리하고 보고서, 도구 및 보고서 세트에 대한 액세스 권한을 제어할 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 사용자 편집]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL 관리]**   **** >  **[!UICONTROL 모든 관리]** >  **[!UICONTROL 사용자 관리사용자 편집]**
 
 ## 사용자 계정 설명 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
