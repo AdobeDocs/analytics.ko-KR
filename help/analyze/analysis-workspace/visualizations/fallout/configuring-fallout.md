@@ -5,11 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: 시각화
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '683'
-ht-degree: 100%
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +52,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>최종 경로 </p> <p> (기본값) </p> </td> 
-   <td colname="col2"> <p>결국 경로에 있는 다음 페이지에 도달하지만 다음 히트에서 도달할 필요는 없는 방문자가 카운트됩니다. </p> </td> 
+   <td colname="col2"> <p>방문자는 해당 세션의 경로에 있는 다음 페이지에 도달하지만 반드시 다음 히트에는 도달하지 않는 "결국" 카운트됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음 히트 </p> </td> 
