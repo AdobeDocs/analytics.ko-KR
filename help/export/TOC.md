@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -27,8 +26,9 @@ ht-degree: 100%
       + [데이터 열 참조](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [모바일 특성 조회](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [post_product_list의 머천다이징 eVar 인스턴스 조회](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [특수 문자](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-      + [늦게 도착하는 조회수](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [늦게 도착하는 히트](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [데이터 피드 FAQ](analytics-data-feed/df-faq.md)
    + [데이터 피드 우수 사례](analytics-data-feed/data-feeds-best-practices.md)
    + [작업 문제 해결](analytics-data-feed/jobs-troubleshooting.md)
@@ -38,7 +38,7 @@ ht-degree: 100%
    + [Data Warehouse 요청 만들기](data-warehouse/t-dw-create-request.md)
    + [배달 시간 요청](data-warehouse/delivery-time.md)
    + [타블로 데이터 파일](data-warehouse/t-tableau.md)
-   + [지표로 정렬합니까](data-warehouse/sorting-by-metric.md)
+   + [지표로 정렬](data-warehouse/sorting-by-metric.md)
    + [반복 요청 예약](data-warehouse/dw-schedule-recurring.md)
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
@@ -49,7 +49,7 @@ ht-degree: 100%
    + Adobe에서 호스팅하는 FTP 계정 설정 {#set-up-ftp-accounts}
       + [FTP 계정 설정 - 개요](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [분류](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
-      + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
+      + [데이터 소스](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [데이터 피드](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse 게재된 보고서](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
