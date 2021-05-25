@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
+source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 97%
+source-wordcount: '278'
+ht-degree: 98%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 97%
       + [데이터 열 참조](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [모바일 특성 조회](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [post_product_list의 머천다이징 eVar 인스턴스 조회](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [머천다이징 eVar 조회](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [특수 문자](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [늦게 도착하는 히트](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [데이터 피드 FAQ](analytics-data-feed/df-faq.md)
-   + [데이터 피드 우수 사례](analytics-data-feed/data-feeds-best-practices.md)
+   + [데이터 피드 모범 사례](analytics-data-feed/data-feeds-best-practices.md)
    + [작업 문제 해결](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 개요](data-warehouse/data-warehouse.md)
