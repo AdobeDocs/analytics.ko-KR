@@ -2,11 +2,10 @@
 title: eVar
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 
-eVar는 대소문자를 구분하지 않습니다. 같은 값을 대소문자를 달리하여 (예: `"DOG"` 및 `"Dog"`)에 보낼 경우, Analysis Workspace는 동일한 차원 항목으로 함께 그룹화합니다. 보고 월의 시작 부분에 표시되는 첫 번째 값의 대소문자가 사용됩니다. Data Warehouse는 요청 기간 동안 발생한 첫 번째 값을 표시합니다.
+보고에 사용되는 (상위 또는 하위) 사례는 백엔드 시스템이 등록하는 첫 번째 값을 기반으로 합니다. 이 값은 보고서 세트와 연결된 데이터의 다양성과 양에 따라 몇 가지 기간(예: 월별)에 따라 보거나 다른 첫 번째 인스턴스가 될 수 있습니다.
 
 ## 데이터로 eVar 채우기
 
