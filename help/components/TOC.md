@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 99%
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
    + [FAQ](segmentation/seg-transition.md)
-   + [우수 사례](segmentation/best-practices.md)
+   + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
    + [방법 비디오](c-calcmetrics/cm-videos.md)
@@ -206,15 +206,15 @@ ht-degree: 99%
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
-+ 교차 디바이스 분석 {#cda}
-   + [교차 디바이스 분석 개요](cda/overview.md)
++ 크로스 디바이스 분석 {#cda}
+   + [크로스 디바이스 분석 개요](cda/overview.md)
    + [필드 기반 결합](cda/field-based-stitching.md)
    + [Device Graph](cda/device-graph.md)
-   + [교차 디바이스 분석 설정](cda/setup.md)
+   + [크로스 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
-   + [CDA 작업 공간 템플릿](cda/workspace-template.md)
+   + [CDA Workspace 템플릿](cda/workspace-template.md)
    + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
-   + [교차 디바이스 분석 FAQ](cda/faq.md)
+   + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
    + [지능형 경고](c-alerts/intellligent-alerts.md)
    + [경고 빌더](c-alerts/alert-builder.md)
@@ -249,7 +249,7 @@ ht-degree: 99%
    + [지원되는 실시간 지표 및 차원](c-real-time-reporting/realtime-metrics.md)
 + 마케팅 채널 {#marketing-channels}
    + [마케팅 채널 시작](c-marketing-channels/c-getting-started-mchannel.md)
-   + [마케팅 채널의 Attribution IQ](c-marketing-channels/mchannel-best-practices.md)
+   + [Attribution IQ와 마케팅 채널](c-marketing-channels/mchannel-best-practices.md)
    + [마케팅 채널 관리](c-marketing-channels/c-channels.md)
    + [마케팅 채널의 처리 규칙](c-marketing-channels/c-rules.md)
    + [마케팅 채널에서의 분류](c-marketing-channels/classifictions-mchannel.md)
