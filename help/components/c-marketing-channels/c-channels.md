@@ -4,11 +4,10 @@ subtopic: Marketing channels
 title: 마케팅 채널 관리
 feature: Reports & Analytics 기본 사항
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 일부 [개정된 우수 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다 (최대 25개).
 
@@ -29,7 +28,7 @@ ht-degree: 97%
 * 유료 채널 후와 유기 채널 전에 배치되는 모든 &quot;다른 캠페인&quot; 채널을 포함하십시오.
 
 
-## 전제 조건 {#prereqs}
+## 사전 요구 사항 {#prereqs}
 
 * 마케팅 채널 차원에 대한 액세스 권한을 설정합니다.
 
