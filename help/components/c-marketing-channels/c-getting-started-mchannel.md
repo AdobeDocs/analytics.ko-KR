@@ -1,11 +1,11 @@
 ---
 title: 마케팅 채널 시작
-description: 마케팅 채널 워크플로우, 자동 설정 및 템플릿 보고서 세트 설정을 여러 보고서 세트에 적용하는 방법에 대해 알아봅니다.
-translation-type: tm+mt
+description: 마케팅 채널 워크플로, 자동 설정 및 템플릿 보고서 세트 설정을 여러 보고서 세트에 적용하는 방법에 대해 알아봅니다.
+translation-type: ht
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 일부 [개정된 우수 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 지정할 수 있습니다.
 
 마케팅 채널은 표준 변환 지표의 구성 요소인 첫 번째 및 마지막 접촉 지표를 중심으로 진행됩니다.
 
-## 마케팅 채널 워크플로우
+## 마케팅 채널 워크플로
 
 ![](assets/step1_icon.png) 비즈니스 요구 사항을 기반으로 각 채널 정의.
 
@@ -95,5 +95,5 @@ ht-degree: 97%
    1. [!UICONTROL 보고서 세트 관리자] 페이지로 돌아갑니다.
    1. 템플릿 보고서 세트와 하나 이상의 대상 보고서 세트를 선택합니다.
    1. **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 처리 규칙]**&#x200B;을 클릭합니다.
-   1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이 단계에서 저장 단추가 비활성화되어 있으면 규칙 중 하나를 확장하여 활성화하십시오.
+   1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이 단계에서 저장 버튼이 비활성화되어 있으면 규칙 중 하나를 확장하여 활성화하십시오.
 
