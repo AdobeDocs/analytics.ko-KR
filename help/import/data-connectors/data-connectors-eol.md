@@ -2,11 +2,10 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-translation-type: tm+mt
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +36,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Acxiom | 사용 중단 |
 | Adform | 사용 중단 |
 | Adjust | Adobe Exchange로 마이그레이션 |
-| Adobe Campaign | Adobe Exchange로 마이그레이션 (아래 참고 참조) |
+| Adobe Campaign | Adobe Exchange로 마이그레이션 (아래에 참고 사항을 참조하십시오) |
 | Appfigures | Adobe Exchange로 마이그레이션 |
 | Appsee | 사용 중단 |
 | AppsFlyer | Adobe Exchange로 마이그레이션 |
@@ -100,8 +99,8 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | wywy | 사용 중단 |
 | Yesmail Enterprise | 사용 중단 |
 
-## 예외:Adobe Campaign Classic
+## 예외: Adobe Campaign Classic
 
-2021년 8월 1일의 ONE 예외는 Adobe Campaign Classic 통합입니다. 이 통합은 공식적으로 2022년 3월 1일에 폐기됩니다.
+2021년 8월 1일에 대한 한가지 예외는 Adobe Campaign Classic 통합입니다. 이 통합은 2022년 3월 1일에는 공식적으로 더 이상 사용되지 않습니다.
 
-2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다.그러나 기존 Campaign 통합은 2022년 3월 1일까지 데이터를 계속 수집하여 Adobe Analytics으로 전달합니다. 2022년 3월 1일, 통합은 데이터 수집이 중단되고 Adobe Analytics으로 데이터를 전달합니다. Adobe Campaign은 현재 데이터 커넥터 통합을 대체하기 위해 Adobe Exchange에 새 통합을 빌드하고 있습니다. Adobe Campaign은 2022년 3월 사용 중단 날짜 이전에 새로운 통합으로 마이그레이션할 수 있도록 이 새로운 통합을 마무리할 것을 예상하고 있습니다.
+2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다. 그러나 기존 캠페인 통합은 2022년 3월 1일까지 Adobe Analytics에 데이터를 계속 수집하고 전달합니다. 2022년 3월 1일에 통합에서 Adobe Analytics에 데이터를 수집하고 전달하는 것을 중단합니다. Adobe Campaign은 현재 데이터 커넥터 통합을 대체하기 위해 Adobe Exchange에 새로운 통합을 구축하고 있습니다. Adobe Campaign은 이 새로운 통합을 시간 맞춰 마무리하여 고객이 2022년 3월 중단일 이전에 새로운 통합으로 마이그레이션할 수 있을 것으로 예상합니다.
