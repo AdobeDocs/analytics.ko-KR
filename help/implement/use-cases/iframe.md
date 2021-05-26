@@ -2,9 +2,9 @@
 title: iframe과 함께 AppMeasurement 사용
 description: iframe에 있는 동안 iframe 또는 상위 페이지 내에서 Adobe Analytics 변수에 액세스합니다.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
