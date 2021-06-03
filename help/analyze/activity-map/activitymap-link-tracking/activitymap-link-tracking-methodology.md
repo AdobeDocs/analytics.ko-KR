@@ -4,14 +4,13 @@ title: 링크 추적 방식
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1000'
 ht-degree: 99%
 
 ---
-
 
 # 링크 추적 방식
 
@@ -19,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->텍스트(href 아님)에 개인 식별 정보(PII)를 포함할 수 있는 모든 링크는 [s_objectID](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 사용하거나 [s.ActivityMap.linkExclusions 또는 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)로 ActivityMap 링크 컬렉션을 제외하여 명시적으로 구현해야 합니다. Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](/help/analyze/activity-map/lnk-tracking-overview.md)에서 확인하십시오.
+>텍스트(href 아님)에 개인 식별 정보(PII)를 포함할 수 있는 모든 링크는 [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)를 사용하거나 [s.ActivityMap.linkExclusions 또는 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)로 ActivityMap 링크 컬렉션을 제외하여 명시적으로 구현해야 합니다. Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](/help/analyze/activity-map/lnk-tracking-overview.md)에서 확인하십시오.
 
 Activity Map은 다음 두 ID를 기반으로 링크를 추적합니다.
 
@@ -34,9 +33,9 @@ HTML에 s_objectid가 있다면, 기본 ID의 기본값은 s_objectid로 지정�
 * Alttext
 * 직함
 * Src
-* Action
+* 작업
 
-## InnerText 사용과 링크 동작(URL) 사용  {#section_70C3573E22274522A8CC035BF18EC468}
+## InnerText 사용과 링크 동작(URL) 사용 {#section_70C3573E22274522A8CC035BF18EC468}
 
 링크 동작은 링크를 클릭할 때 웹 페이지(일반적으로 링크를 클릭한 후 방문하는 URL)가 취하는 동작입니다. 링크 동작을 사용할 때 다음과 같은 문제가 발생할 수 있습니다.
 
