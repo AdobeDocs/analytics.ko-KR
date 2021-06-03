@@ -2,14 +2,13 @@
 description: 성공 이벤트는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
 keywords: 이벤트를 사용할 것을 권장합니다
 title: 성공 이벤트 개요
-feature: Admin Tools
+feature: 관리 도구
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 100%
 * **첨단 기술**: 백서 다운로드, RFP, 양식 완성, 지원 요청
 * **자동차**: 리드 제출, 견적 요청, 브로셔 다운로드
 
-[s.events](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/events/event-serialization.html) 변수는 성공 이벤트를 정의합니다.
+[s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) 변수는 성공 이벤트를 정의합니다.
 
 ## 성공 이벤트 페이지 - 설명 {#section_681ECEC981694CABBDBF00E18165B447}
 
