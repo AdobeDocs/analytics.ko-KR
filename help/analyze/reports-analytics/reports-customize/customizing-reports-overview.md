@@ -5,11 +5,10 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '924'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +38,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [메뉴 사용자 지정](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/customize-menus.html)
+>* [메뉴 사용자 지정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 날짜 또는 날짜 범위 선택 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -87,7 +86,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
-> 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
+> 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
 
 Reports &amp; Analytics에서 등급 보고서 간 날짜 비교:
 
@@ -224,4 +223,4 @@ Reports &amp; Analytics의 대부분의 보고서에는 이후의 사용자 지�
 
 현재 이 버튼은 사용자가 Analysis Workspace에 대한 모든 권한을 보유하는 경우에만 사용할 수 있습니다.
 
-보고서를 사용자 지정할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html) 가이드를 참조하십시오.
+보고서를 사용자 지정할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR) 가이드를 참조하십시오.
