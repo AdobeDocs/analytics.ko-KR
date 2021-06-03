@@ -3,11 +3,10 @@ description: 데이터 소스는 표준 서버 호출로서 데이터를 처리�
 title: 전체 처리
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 96%
+source-wordcount: '719'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. Adobe은 2021년 7월 31일에 전체 처리 데이터 소스를 더 이상 사용하지 않을 계획이다. [추가 정보](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. Adobe는 2021년 7월 31일 전체 프로세싱 데이터 소스에 대한 사용을 중단할 예정입니다. [추가 정보](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
@@ -69,7 +68,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
+   <td colname="col3"> <p><a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -117,7 +116,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>제품 목록(예: <code> "Sports;Ball;1;5.95"</code>). 행당 최대 4096바이트의 값을 유지할 수 있습니다.</p> </td> 
+   <td colname="col3"> <p>제품 목록(예: <code> "Sports;Ball;1;5.95"</code>). 행당 최대 4096바이트 값을 보유할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -172,7 +171,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다.  </p> <p>전체 목록은 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다.  </p> <p>전체 목록은 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
