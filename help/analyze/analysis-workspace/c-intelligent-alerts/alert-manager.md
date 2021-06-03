@@ -5,11 +5,10 @@ uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 feature: AI 도구
 role: Business Practitioner, Administrator
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ![](assets/alert-manager.png)
 
-경고 관리자 (**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) 및 [계산된 지표 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해 줍니다.
+경고 관리자 (**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**)는 구조가 [세그먼트 관리자](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) 및 [계산된 지표 관리자](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)와 매우 유사하며 다음의 작업을 할 수 있도록 해 줍니다.
 
 ![](assets/alert-manager-tasks.png)
 
