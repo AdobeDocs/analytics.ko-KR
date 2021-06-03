@@ -4,10 +4,9 @@ title: Analysis Workspace 액세스 가능 여부
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '663'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '657'
 ht-degree: 100%
 
 ---
@@ -50,7 +49,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 ### 키보드 단축키 (핫키)
 
-[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
+[!UICONTROL Analysis Workspace]는 보다 매끄러운 워크플로를 위해 다양한 [키보드 단축키](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ko-KR) 세트를 제공합니다. 탐색, 분석 제작 및 인사이트 민주화에 대한 몇 가지 일반적인 단축키가 아래에 나와 있습니다.
 
 #### 탐색
 
@@ -71,7 +70,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 | Ctrl + Shift + D | 새 날짜 범위 |
 | Ctrl + Shift + E | 새 세그먼트 |
 | Ctrl + Z | 실행 취소 |
-| Shift 키 (패널 세그먼트 드롭존) | [드롭다운 필터](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 만들기 |
+| Shift 키 (패널 세그먼트 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko) 만들기 |
 
 #### 민주화
 
@@ -92,7 +91,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 [!UICONTROL Analysis Workspace]는 색상 대비 요구 사항을 포함하여 WCAG 2.1 AA 적합성을 준수하기 위해 최선을 다합니다.
 
-또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다 .
+또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다 .
 
 ## 구성 요소 빌더의 필수 필드 유효성 검사
 
