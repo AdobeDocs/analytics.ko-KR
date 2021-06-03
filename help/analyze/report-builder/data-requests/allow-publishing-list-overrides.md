@@ -4,14 +4,13 @@ title: 게시 목록 무시 허용
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 92%
+source-wordcount: '164'
+ht-degree: 95%
 
 ---
-
 
 # 게시 목록 무시 허용
 
@@ -19,7 +18,7 @@ ht-degree: 92%
 
 게시 목록은 Analytics 관리 도구에서 설정합니다.
 
-분석 참조 [게시 목록 관리자](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)를 참조하십시오.
+분석 참조 [게시 목록 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html)를 참조하십시오.
 
 이 기능을 활성화하려면 [!UICONTROL 요청 마법사: 1단계] 창으로 이동합니다.
 
@@ -30,4 +29,3 @@ ht-degree: 92%
 >[!NOTE]
 >
 >예약된 보고서를 여러 게시 목록에 전송하면 보고서는 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다.
-
