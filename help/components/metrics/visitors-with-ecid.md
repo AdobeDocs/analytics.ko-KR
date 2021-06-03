@@ -2,17 +2,16 @@
 title: Experience Cloud ID를 가진 방문자
 description: Adobe Experience Cloud ID 서비스를 사용하는 고유 방문자의 수입니다.
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 98%
 
 ---
 
 # Experience Cloud ID를 가진 방문자
 
-Experience Cloud ID를 가진 방문자 지표는 [Experience Cloud ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 사용하여 Adobe가 식별한 고유 방문자 수를 보여줍니다. 이 차원은 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
+Experience Cloud ID를 가진 방문자 지표는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하여 Adobe가 식별한 고유 방문자 수를 보여줍니다. 이 차원은 사이트 방문자의 대다수가 이 ID 서비스를 사용하도록 하기 위해 [고유 방문자 수](unique-visitors.md) 지표와 비교하는 데 유용합니다. 방문자의 상당수가 이 ID 서비스 쿠키를 사용하지 않다면 구현 내의 문제를 나타낼 수 있습니다.
 
 >[!NOTE]
 >
@@ -20,7 +19,7 @@ Experience Cloud ID를 가진 방문자 지표는 [Experience Cloud ID 서비스
 
 ## 이 지표의 계산 방법
 
-이 지표는 [고유 방문자 수](unique-visitors.md) 지표를 기반으로 합니다. 단, [`s_ecid`](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키 기반 `mid` 쿼리 문자열을 사용하여 식별된 개인만 포함합니다.
+이 지표는 [고유 방문자 수](unique-visitors.md) 지표를 기반으로 합니다. 단, [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR) 쿠키 기반 `mid` 쿼리 문자열을 사용하여 식별된 개인만 포함합니다.
 
 ## Experience Cloud ID 설정 디버깅
 
