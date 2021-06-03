@@ -4,11 +4,10 @@ description: Analysis Workspace에서 미디어 동시 뷰어 패널을 사용�
 feature: 패널
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1061'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 99%
 
 ---
 
@@ -75,7 +74,7 @@ Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시�
 | 예외 항목 탐지를 실행할 수 있습니까? | 아니요.  이 패널에서는 예외 항목 탐지를 사용할 수 없습니다. |
 | 활성 세션 대신 고유 방문자를 사용하는 이유는 무엇입니까? | 고유 방문자를 사용하면 표시 경계 (세션이 종료되고 동시에 시작되는 위치)에서 원하지 않는 급등을 제거할 수 있습니다. |
 | 분 단위보다 세부 기간 수준이 높은 동시 시청자가 있다는 것은 무엇을 의미합니까? | 세부 기간이 1분보다 큰 경우, 동시 시청자는 해당 시간 범위 내의 모든 분에 대한 고유 동시 시청자의 합계입니다.  예를 들어, 시간 수준 세부 기간에서 동시 시청자 수는 시간 내의 모든 분에 대한 고유 동시 시청자의 합계입니다. |
-| 분 수준 세부 기간으로 하루 이상을 확인하고 싶은 경우 어떻게 해야 합니까? | 분 수준 세부 기간으로 한 번에 최대 1개월의 데이터에 액세스하려면 Analytics 2.0 API를 사용할 수 있습니다. 자세한 내용은[Analytics 2.0 API를 사용하여 동시 뷰어 JSON 보고서 데이터 가져오기](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)를 참조하십시오. |
+| 분 수준 세부 기간으로 하루 이상을 확인하고 싶은 경우 어떻게 해야 합니까? | 분 수준 세부 기간으로 한 번에 최대 1개월의 데이터에 액세스하려면 Analytics 2.0 API를 사용할 수 있습니다. 자세한 내용은[Analytics 2.0 API를 사용하여 동시 뷰어 JSON 보고서 데이터 가져오기](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)를 참조하십시오. |
 | Workspace 패널에 동시 뷰어 보고서와 동일한 정보가 표시됩니까? | 아니요.  Analysis Workspace에서 동시 뷰어는 세션 수에 관계없이 특정 시점에 미디어 스트림을 시청하는 고유 방문자 수로 정의됩니다.<br><br>동시 활성 세션을 사용하는 보고서 섹션의 동시 뷰어 보고와 다릅니다.  고유 방문자 계정을 사용하면 표시 경계 (세션이 종료되고 동시에 시작되는 위치)에서 원하지 않는 급등을 제거할 수 있습니다. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
