@@ -5,10 +5,10 @@ uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '267'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Analytics에서 사용할 수 있는 사용 권한 및 차원을 설정하는 �
 
 ## Analytics Activity Map 차원 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-[차원에 대한 사용자 액세스를 세분화된 수준에서 사용자 정의](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)할 수 있습니다. 다음은 Analytics에서 사용할 수 있는 Activity Map 차원입니다.
+[차원에 대한 사용자 액세스를 세분화된 수준에서 사용자 정의](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)할 수 있습니다. 다음은 Analytics에서 사용할 수 있는 Activity Map 차원입니다.
 
 | 차원 | 설명 |
 |---|---|
