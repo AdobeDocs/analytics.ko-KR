@@ -5,11 +5,10 @@ title: 분류 규칙 빌더 워크플로
 feature: 관리 도구
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 | 단계 | 수행 위치 | 설명 |
 |--- |--- |--- |
-| 1단계 (전제 조건): [분류 스키마를 설정합니다](https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/c-classifications.html). | [!UICONTROL 관리자] > [!UICONTROL 보고서 세트] > [!UICONTROL 설정 편집] > &lt;트래픽 분류 또는 전환 분류> | 변수를 선택하고 해당 변수에 사용할 분류를 정의하십시오. <br>변수에는 변수가 규칙에 사용되기 전에 만들어진 분류 열이 최소 1개 있어야 합니다.<br>분류가 활성화되면, 가져오기 및 규칙 빌더를 사용하여 특정 값을 분류할 수 있습니다. |
+| 1단계 (전제 조건): [분류 스키마를 설정합니다](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html). | [!UICONTROL 관리자] > [!UICONTROL 보고서 세트] > [!UICONTROL 설정 편집] > &lt;트래픽 분류 또는 전환 분류> | 변수를 선택하고 해당 변수에 사용할 분류를 정의하십시오. <br>변수에는 변수가 규칙에 사용되기 전에 만들어진 분류 열이 최소 1개 있어야 합니다.<br>분류가 활성화되면, 가져오기 및 규칙 빌더를 사용하여 특정 값을 분류할 수 있습니다. |
 | 2단계: [규칙 세트를 만듭니다](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL 관리자] > [!UICONTROL 분류 규칙 빌더] > [!UICONTROL 규칙 세트 추가] | 규칙 세트는 특정 변수에 대한 분류 규칙 그룹입니다. |
 | 3단계: 보고서 세트 및 변수를 구성합니다. | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 규칙 세트를 보고서 세트 및 변수에 적용합니다. |
 | 4단계: [세트에 분류 규칙을 추가합니다](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 조건을 분류에 일치시킨 다음 규칙에 적용할 작업을 지정합니다.  [규칙 처리 방법](/help/components/classifications/crb/classification-quickstart-rules.md)의 정보를 숙지하십시오. |
@@ -52,4 +51,4 @@ ht-degree: 100%
 
 **블로그**: 이 기능에 대한 추가 정보를 보려면 디지털 마케팅 블로그: [규칙 기반 분류](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)를 참조하십시오.
 
-**비디오**: [분류 개요](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 비디오를 보십시오.
+**비디오**: [분류 개요](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 비디오를 보십시오.
