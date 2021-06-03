@@ -2,10 +2,10 @@
 title: websiteBot
 description: 마우스 움직임을 사용하여 동적으로 보트를 식별합니다.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c4b44b573732e7bcdafdac539dec8ee7b680aa92
+source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 73%
+source-wordcount: '427'
+ht-degree: 52%
 
 ---
 
@@ -19,16 +19,19 @@ ht-degree: 73%
 
 이 플러그인은 다음 두 가지 검사를 수행합니다.
 
-* 먼저, `navigator.UserAgent` 변수를 사용하여 장치가 데스크탑 장치인지 또는 모바일 장치인지를 확인합니다. 모바일 장치는 무시됩니다.
-* 데스크탑 장치인 경우 마우스 움직임에 대한 이벤트 리스너를 추가합니다.
+* 먼저 데스크톱 장치의 경우 마우스 이동을 위한 이벤트 리스너를 추가합니다.
+* 다음으로, 장치가 `navigator.UserAgent` 변수를 사용하는 데스크탑 장치인지 모바일 장치인지를 결정합니다. 모바일 장치는 무시됩니다.
 
-사용자 에이전트가 데스크탑에 있고 마우스 움직임이 감지되지 않으면 플러그인은 `websiteBot` 변수를 `true`로 설정합니다. 사용자 에이전트가 모바일 장치이거나 마우스 움직임이 감지되면 플러그인은 `websiteBot` 변수를 `false`로 설정합니다.
+사용자 에이전트가 데스크탑에 있고 마우스 이동이 감지되지 않으면 플러그인이
+
+* [!UICONTROL 직접 호출] 규칙 호출(Adobe Experience Platform Launch용)을 만들거나,
+* 방문자가 보트가 아님을 나타내도록 `s.tl` 호출을 만듭니다.
 
 ## 전제 조건
 
 이 플러그인을 사용하기 전에 다음 사항을 권장합니다.
 
-* **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **Never**&#x200B;로 설정하고 할당을 **&quot;Original Value(First)&quot;**&#x200B;로 설정합니다.
+* **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **Never**&#x200B;로 설정하고 할당을 **&quot;Original Value(First)&quot;**&#x200B;로 설정합니다. 이 eVar은 다음 두 상황에서 모두 설정해야 합니다.[!UICONTROL 직접 호출] 규칙 또는 `s.tl` 호출이 실행된 경우입니다.
 * **사용자 에이전트를 별도의 변수로 수집**: 사용자 에이전트 문자열을 별도의 변수로 수집하여 이 플러그인의 효과를 모니터링합니다. 이 데이터를 수집하려면 모든 히트에서 eVar를 `navigator.UserAgent`로 설정합니다.
 
 ## Launch 사용자 지정 코드 편집기를 사용하여 플러그인 설치
