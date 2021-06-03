@@ -6,10 +6,9 @@ title: 리디렉션 및 별칭
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '1125'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1123'
 ht-degree: 100%
 
 ---
@@ -150,7 +149,7 @@ redirects_verify_referrer.xml
 
 테스트를 실행하여 레퍼러, 원래 URL (*`s_server`*) 및 캠페인 변수가 캡처되고 있는지 확인합니다.
 
-이러한 변수는 [Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)에 다음 매개 변수로 표현되지 않습니다.
+이러한 변수는 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)에 다음 매개 변수로 표현되지 않습니다.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
