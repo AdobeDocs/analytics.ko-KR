@@ -5,11 +5,10 @@ title: 요구 사항 및 업로드 제한
 topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Byte Order Mark(EF BB BF)를 포함한 UTF-8 </td> 
@@ -90,7 +89,7 @@ UTF-8 또는 ISO-8859-1 파일을 전송할 때 보고서 세트가 이를 지�
 * 전환 중 오류가 발생하고 UTF-8에서 ISO-8859-1로 변환하는 중 위치 18에서 잘못된 문자 발견과 같은 메시지가 표시됩니다.
 * 오류 없이 파일이 처리되지만 보고서 데이터가 왜곡됩니다.
 
-## 웹 로그 파일 업로드  {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## 웹 로그 파일 업로드 {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * 웹 로그 데이터를 보기에 가장 유용한 보고서는 페이지 보기 횟수와 같은 트래픽 보고서입니다.
 * 페이지 이름은 쿼리 문자열을 포함한 전체 URL로 표시됩니다.
