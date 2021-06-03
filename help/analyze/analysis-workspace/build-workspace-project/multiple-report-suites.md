@@ -4,11 +4,10 @@ description: 여러 보고서 세트를 사용하여 작업 공간에서 프로�
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 95%
 
 ---
 
@@ -64,8 +63,8 @@ ht-degree: 100%
 
 1. 키보드 단축키를 사용 (`shift` 키를 누른 채 끌어오기)하여 비활성 패널을 활성 패널로 변환합니다.
 
-1. (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
+1.  (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
 
-   * 세그먼트를 만들 위치: [세그먼트 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * 경고를 작성할 위치: [경고 빌더](https://docs.adobe.com/content/help/ko-KR/analytics/components/alerts/alert-builder.html).
+   * 세그먼트를 만들 위치: [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * 경고를 작성할 위치: [경고 빌더](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
