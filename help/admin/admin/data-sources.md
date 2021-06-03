@@ -1,14 +1,13 @@
 ---
 description: 데이터 소스 기능을 사용하면 오프라인 소스의 데이터를 Analytics로 가져올 수 있습니다. 가져온 데이터는 기본적으로 수집된 데이터와 비슷하게 처리 및 취급됩니다.
 title: 데이터 소스
-feature: Admin Tools
+feature: 관리 도구
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 95%
 
 ---
 
@@ -24,4 +23,4 @@ ht-degree: 100%
 
 보고서 세트에서 데이터 소스가 활성화되어 있으면 FTP 위치가 제공되어 보고 기능에 통합할 파일을 업로드할 수 있습니다. 업로드가 완료되면 Adobe 서버에서 데이터를 자동으로 처리하여 보고서 세트에 통합합니다.
 
-[데이터 소스 도움말](https://docs.adobe.com/content/help/ko-KR/analytics/import/data-sources/datasrc-home.html)을 참조하십시오.
+[데이터 소스 도움말](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html)을 참조하십시오.
