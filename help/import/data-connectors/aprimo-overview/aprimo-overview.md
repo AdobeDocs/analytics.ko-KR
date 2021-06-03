@@ -2,20 +2,19 @@
 description: 이 Adobe® Data Connectors™ 이메일 통합은 Adobe Analytics®의 행동 정보를 이메일 마케팅과 결합하여 강력한 도구를 만들고 성공 측정 및 타겟 대상을 더 연관성 있는 메시징으로 재정의합니다.
 title: Adobe Analytics용 Aprimo Data Connector
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: cd5191c9-68fb-42ad-98f6-23d5a72878da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 98%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
-
 
 # Adobe Analytics용 Aprimo Data Connector{#aprimo-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Adobe는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe에서는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용하지 않을 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
 
 이 Adobe® Data Connectors™ 이메일 통합은 Adobe Analytics®의 행동 정보를 이메일 마케팅과 결합하여 강력한 도구를 만들고 성공 측정 및 타겟 대상을 더 연관성 있는 메시징으로 재정의합니다.
 
@@ -72,4 +71,4 @@ Data Connectors 통합을 시작하기 전에 다음 요건을 충족해야 합�
 
 이 통합을 위해 지표를 추적하려면 Adobe Analytics 변수가 필요합니다.
 
-이 통합에서 사용할 이벤트 및 eVar를 식별한 후 Adobe Analytics 관리 콘솔에서 활성화되어야 합니다(지침은 [보고서 세트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/manage-report-suites/report-suites-admin.html) 참조).
+이 통합에서 사용할 이벤트 및 eVar를 식별한 후 Adobe Analytics 관리 콘솔에서 활성화되어야 합니다(지침은 [보고서 세트](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) 참조).
