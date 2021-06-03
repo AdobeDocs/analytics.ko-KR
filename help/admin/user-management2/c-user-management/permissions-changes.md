@@ -1,14 +1,14 @@
 ---
-description: 이전 권한 콘텐트
+description: 이전 권한 컨텐츠
 keywords: 그룹,권한
 subtopic: Users and groups
 title: 사용자 및 그룹 권한 변경 사항
 feature: 관리 도구
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 96%
+source-wordcount: '1556'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)으로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 폐기됩니다.
+>사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 ## 변경 사항 {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -49,7 +49,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
   </tr> 
   <tr> 
    <td colname="col1"> <p>사전 정의된 그룹 변경 </p> </td> 
-   <td colname="col2"> <p> <b>관리자 액세스:</b> 사전 정의된 그룹은 더 이상 관리자에게 필요하지 않습니다. 이제 관리자는 웹 서비스 액세스, Report Builder 및 Activity Map뿐만 아니라 모든 항목(도구, 지표, 차원)에 액세스할 수 있습니다. </p> <p>이후에도 그룹의 목적은 관리자가 아닌 사용자에게 액세스 권한을 부여하거나 액세스를 제한하는 것입니다. </p> <p> <b>사용자 지정 그룹:</b> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> <span class="term"> 모든 보고서 액세스</span>에 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
+   <td colname="col2"> <p> <b>관리자 액세스:</b> 사전 정의된 그룹은 더 이상 관리자에게 필요하지 않습니다. 이제 관리자는 웹 서비스 액세스, Report Builder 및 Activity Map은 물론 모든 항목(도구, 지표, 차원)에 액세스할 수 있습니다. </p> <p>이후에도 그룹의 목적은 관리자가 아닌 사용자에게 액세스 권한을 부여하거나 액세스를 제한하는 것입니다. </p> <p> <b>사용자 지정 그룹:</b> 사용자 지정 그룹이 사전 정의된 그룹으로 대체되었습니다. 기존의 사전 정의된 그룹은 같은 그룹 이름을 사용하여 사용자 지정 그룹으로 마이그레이션됩니다. 해당 설정을 포함하여 생성한 사용자 지정 그룹은 모두 유지됩니다. 하지만 설정 위치가 이동됩니다. 예를 들면 회사 설정(관리 콘솔 사용자 지정의)은 현재 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics 도구 사용자 지정</a>에 있습니다. </p> <p> <span class="term"> 모든 보고서 액세스</span>에 속한 사용자가 다음에 액세스할 수 있는 사용자 지정 그룹으로 마이그레이션되었습니다. </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">모든 측정 기준 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">모든 지표 </li> 
@@ -65,12 +65,12 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
    <td colname="col2"> <p>측정기준(및 지표)에 대한 액세스를 포함하거나 제외하도록 권한을 사용자 지정할 수 있습니다. </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>사용자 지정 그룹 내의 모든 현재 측정 기준 및 지표가 자동으로 새 카테고리에 마이그레이션되었습니다. 기존 그룹에 지표가 활성화되어 있을 경우, 기본적으로 모든 새로 허용할 수 있는 측정 기준(eVar 및 콘텐츠 인식) 및 지표가 주어집니다. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/classifications/c-classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 분류 가져오기(이전 SAINT) 권한: 분류에 대한 액세스 권한은 분류가 기준으로 사용하는 <a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">변수</a>에 대한 액세스 권한으로 결정됩니다.  </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> 차원 권한 사용자 지정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>새 고객이나 회사가 <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/core-services.html">Experience Cloud에 프로비저닝된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>자세한 내용은 <a href="https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html"> Admin Console의 제품 권한 관리</a>에서 확인할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>새 고객이나 회사가 <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">Experience Cloud에 프로비저닝된</a> 고객에게만 권장됩니다. 기존 <span class="keyword">Analytics</span> 고객을 <span class="keyword">Experience Cloud</span> ID 관리 시스템으로 마이그레이션할 계획입니다. </p> <p>자세한 내용은 <a href="https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html"> Admin Console의 제품 권한 관리</a>에서 확인할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,7 +143,7 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
  <tbody> 
   <tr> 
    <td colname="col1"> 사용자 생성 </td> 
-   <td colname="col2"> <p>Admin Console(사용자를 만들어 Analytics <a href="https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성</a>에 사용자를 추가해도 Analytics에 사용자 계정이 만들어짐). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 관리 도구</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console(사용자를 만들어 Analytics <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성</a>에 사용자를 추가해도 Analytics에 사용자 계정이 만들어짐). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 관리 도구</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
@@ -168,8 +168,8 @@ API와 인터페이스는 동일한 권한 부여 시스템을 사용하기 때�
   <tr> 
    <td colname="col1"> 그룹 만들기 </td> 
    <td colname="col2"> <p>Admin Console - 그룹이 Admin Console에 생성되면 Analytics의 매핑된 그룹이 관리 도구에 표시되지만, 이 매핑된 그룹의 이름을 관리 도구에서 변경하거나 삭제할 수 없습니다. </p> <p>관리 도구. </p> </td> 
-   <td colname="col3"> <p>Admin Console(<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console(<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console(<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console(<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> 제품 구성 만들기</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 그룹의 사용자 편집 </td> 
