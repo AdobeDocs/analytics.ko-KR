@@ -4,14 +4,13 @@ title: 세그먼트 관리
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 99%
+source-wordcount: '914'
+ht-degree: 98%
 
 ---
-
 
 # 세그먼트 관리
 
@@ -28,7 +27,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 >세그먼트를 추가하거나 편집할 수 있게 Report Builder 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
 
 1. 요청 마법사 1단계의 세그먼트 패널에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오.
+1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 1. 세그먼트를 정의하고 저장한 후에 요청 마법사로 돌아갑니다.
 1. 새로 고침 아이콘을 클릭하여 세그먼트 목록을 새로 고칩니다.
 
@@ -45,7 +44,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
    ![](assets/seg_in_context.png)
 
-   컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)를 참조하십시오.
+   컨테이너에 대한 자세한 내용은 [세그멘테이션 가이드](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 
 1. 이제 세그먼트 빌더 UI가 Internet Explorer에서 시작됩니다. 세그먼트 빌더 UI는 사용자가 지정한 컨테이너 및 필터로 초기화됩니다.
 1. 세그먼트에 이름 및 설명을 추가한 후에 저장합니다.
@@ -84,7 +83,7 @@ Reports &amp; Analytics, Report Builder 또는 데이터 웨어하우스에서 �
 | 기타 필터 > 즐겨찾기 | 즐겨찾기로 표시한 모든 세그먼트를 표시합니다. |
 | 기타 필터 > 승인됨 | 공식적으로 승인한 모든 세그먼트를 표시합니다. |
 
-## 통합 문서에 세그먼트 컨트롤 추가  {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 통합 문서에 세그먼트 컨트롤 추가 {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 세그먼트 컨트롤을 추가하면 요청 마법사로 이동할 필요 없이 통합 문서 내에서 세그먼트 간을 전환할 수 있습니다.
 
@@ -103,7 +102,7 @@ Reports &amp; Analytics, Report Builder 또는 데이터 웨어하우스에서 �
 
    ![](assets/seg_control2.png)
 
-## 세그먼트 목록 새로 고침  {#section_22E4A86789444B4A998532396B476EFB}
+## 세그먼트 목록 새로 고침 {#section_22E4A86789444B4A998532396B476EFB}
 
 언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭하여 캐시에 저장된 세그먼트 목록을 새로 고쳐야 합니다.
 
@@ -122,8 +121,7 @@ Report Builder 5.4에서는 여러 요청에 대해 세그먼트 추가, 제거,
 
    | 옵션 | 설명 |
    |---|---|
-   | 추가 세그먼트 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
+   | 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 세그먼트 | 현재 세그먼트 목록에 추가할 세그먼트를 한 개 이상 선택합니다. |
    | 세그먼트 바꾸기 | 한 개 이상의 세그먼트로 교체할 세그먼트를 선택합니다. |
    | 다음으로 모든 세그먼트를 바꾸기 | 현재 세그먼트를 대체할 한 개 이상의 세그먼트를 선택합니다. |
    | 세그먼트 제거 | 요청에서 세그먼트를 제거합니다. |
-
