@@ -3,14 +3,13 @@ description: Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를
 title: 계산된 지표
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 99%
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
-
 
 # 계산된 지표
 
@@ -20,7 +19,7 @@ Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니
 >
 >기존 통합 문서가 기존 지표 ID를 보유한 요청을 가리킬 수 있습니다. Report Builder 5.2 사용 시 이 기존 지표 ID들은 새로운 전역 ID로 변환됩니다. 이 통합 문서를 Report Builder v5.1 또는 그 이전 버전의 사용자와 공유하는 경우 해당 사용자는 계산된 지표를 볼 수 없게 됩니다.
 
-새 계산된 지표 빌더 및 Manager로 계산된 지표를 생성 및 관리하는 방법에 대한 자세한 내용은 [계산된 지표](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/cm-overview.html) 안내서를 참조하십시오.
+새 계산된 지표 빌더 및 Manager로 계산된 지표를 생성 및 관리하는 방법에 대한 자세한 내용은 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) 안내서를 참조하십시오.
 
 요청 마법사의 2단계에서는 계산된 지표를 필터링하고 적용할 수 있습니다.
 
@@ -49,4 +48,3 @@ Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니
 필터를 선택한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭하여 필터를 요청에 적용합니다. 이제 선택된 필터가 보고서 레이아웃에 추가됩니다.
 
 ![](assets/filtering_for_metric.png)
-
