@@ -2,11 +2,10 @@
 title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: ht
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 100%
 
 ## 속성 모델 적용
 
-[속성 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
+[속성 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
 
 ![](assets/mc-viz5.png)
 
@@ -62,4 +61,4 @@ ht-degree: 100%
 
 ![](assets/mc-viz6.png)
 
-이 비디오에서 교차 탭 마케팅 분석에 대해 자세히 알아보십시오. [교차 탭 분석을 사용하여 Analysis Workspace에서의 기본 마케팅 기여도 살펴보기](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+이 비디오에서 교차 탭 마케팅 분석에 대해 자세히 알아보십시오. [교차 탭 분석을 사용하여 Analysis Workspace에서의 기본 마케팅 기여도 살펴보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
