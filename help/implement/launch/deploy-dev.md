@@ -2,11 +2,10 @@
 title: 개발 환경에 Adobe Analytics 배포
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 97%
 
 ---
 
@@ -72,8 +71,8 @@ Launch는 코드를 배포할 때 여러 조직의 워크플로를 포함합니�
 
 ## 문서 및 추가 리소스
 
-- [Launch 시작하기](https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html): Launch의 기본 워크플로를 알아봅니다.
-- [Launch 게시](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html): 게시 및 환경에 대해 자세히 알아봅니다.
+- [Launch 시작하기](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html): Launch의 기본 워크플로를 알아봅니다.
+- [Launch 게시](https://experienceleague.adobe.com/docs/launch/using/reference/publish/overview.html): 게시 및 환경에 대해 자세히 알아봅니다.
 
 ## 다음 단계
 
