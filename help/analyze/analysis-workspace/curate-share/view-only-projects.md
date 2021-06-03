@@ -5,10 +5,9 @@ title: 보기 전용 프로젝트
 feature: 선별 및 공유
 role: Business Practitioner, Administrator
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 100%
 
 * 숨겨진 왼쪽 레일
 * 보고서 세트
-* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 제공되는 드롭다운 필터](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)에 추가합니다.
+* 패널 달력 날짜 범위입니다. 참고: 받는 사람에게 달력 컨트롤을 부여하려면 [날짜 범위가 제공되는 드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko)에 추가합니다.
 * 자유 형식 필터링
 * 보이는 행의 자유 형식 수
 * 자유 형식 행, 열 또는 시각화 설정
