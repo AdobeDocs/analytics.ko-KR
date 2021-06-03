@@ -2,10 +2,10 @@
 description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하여 이 상세한 가이드에서 Advertising Analytics로 할 수 있는 모든 작업을 알아보십시오.
 title: Advertising Analytics 가이드
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 97%
+source-wordcount: '1261'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 
 * 이 기능은 Advertising Cloud 클라우드 및 AMO를 사용하지 않는 고객도 이용할 수 있습니다.
 * Advertising Analytics에 액세스하려면 Adobe Analytics 관리자여야 합니다. 그러면 관리자가 아닌 사용자에게 [액세스 권한을 부여](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)할 수 있습니다.
-* Google/Bing 검색 데이터를 보려는 Analytics 보고서 세트는 [Experience Cloud 조직에 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)되어 있어야 합니다.
+* Google/Bing 검색 데이터를 보려는 Analytics 보고서 세트는 [Experience Cloud 조직에 매핑](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)되어 있어야 합니다.
 * 보려는 Google/Bing 검색 데이터의 보고서 세트의 경우, [해당 Advertising Analytics용 보고서 세트를 활성화](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)해야 합니다 (**[!UICONTROL 관리]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL Advertising Analytics 구성]**).
 
 * Adobe Analytics와 통합할 검색 계정에 대한 편집 권한이 있는 사용자의 로그인 자격 증명이 있어야 합니다 (예: Google 계정 ID 및 암호).
@@ -56,13 +56,13 @@ Analytics에는 Analytics 관리자에게 자동으로 부여되는 두 가지 �
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 관리 </p> </td> 
    <td colname="col2"> <p>사용자가 광고 검색 계정을 설정/편집/볼 수 있습니다. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리</span>  &gt;  <span class="uicontrol"> 모든 관리자  </span>  &gt;  <span class="uicontrol"> 사용자 관리</span> &gt;  <span class="uicontrol"> 그룹</span> &gt;  <span class="uicontrol"> </span>   <span class="uicontrol">  </span>   <span class="uicontrol">  편집 모든 보고서 액세스&gt;분석 도구 사용자 지정Advertising Analytics 관리</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리자</span>  &gt;  <span class="uicontrol"> 모든 관리자  </span>  &gt;  <span class="uicontrol"> 사용자 관리</span>  &gt;  <span class="uicontrol"> 그룹</span>  &gt;  <span class="uicontrol"> 모든 보고서 액세스 편집</span>  &gt;  <span class="uicontrol"> Analytics 도구 사용자 지정</span>  &gt;  <span class="uicontrol"> Advertising Analytics 관리</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> adminconsole.adobe.com에 로그인</span> &gt; <span class="uicontrol">제품</span> &gt; <span class="uicontrol">제품 프로필</span> &gt; <span class="uicontrol">권한 탭</span> &gt; <span class="uicontrol">Analytics 도구</span> &gt; <span class="uicontrol">Advertising Analytics 관리</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 구성 </p> </td> 
    <td colname="col2"> <p>사용자가 Advertising Analytics에 제공할 보고서 세트를 구성할 수 있습니다. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리</span>  &gt;  <span class="uicontrol"> 모든 관리  </span>  &gt;  <span class="uicontrol"> 사용자 관리</span> &gt;  <span class="uicontrol"> 그룹</span> &gt;  <span class="uicontrol"> 그룹</span>   <span class="uicontrol">  </span>   <span class="uicontrol"> &gt; 편집 모든 보고서 액세스&gt;보고서 세트 사용자 지정 보고서 세트 도구 사용자 지정&gt; Advertising Analytics 구성</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 관리</span>  &gt;  <span class="uicontrol"> 모든 관리  </span>  &gt;  <span class="uicontrol"> 사용자 관리</span>  &gt;  <span class="uicontrol"> 그룹</span>  &gt;  <span class="uicontrol"> 모든 보고서 액세스 편집</span>  &gt;  <span class="uicontrol"> 보고서 세트 도구 사용자 지정</span>  &gt;  <span class="uicontrol"> Advertising Analytics 구성</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> adminconsole.adobe.com에 로그인</span> &gt; <span class="uicontrol">제품</span> &gt; <span class="uicontrol">제품 프로필</span> &gt; <span class="uicontrol">권한 탭</span> &gt; <span class="uicontrol">보고서 세트 도구</span> &gt; <span class="uicontrol">Advertising Analytics 구성</span></span> </td> 
   </tr> 
  </tbody> 
