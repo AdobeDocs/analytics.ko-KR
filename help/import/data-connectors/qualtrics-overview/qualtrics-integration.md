@@ -5,11 +5,10 @@ title: 통합 사용
 feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 다음은 Adobe Analytics 내에서 이 통합으로 가치를 얻기 위해 수행하는 작업입니다.
 
-1. 설문 조사 응답 데이터를 사용하여 세그먼트 만들기([세그먼트 만들기](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html) 참조).
+1. 설문 조사 응답 데이터를 사용하여 세그먼트 만들기([세그먼트 만들기](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) 참조).
 1. 주요 보고서에 세그먼트를 적용합니다.
 
 ## 예 {#section-07051d0d60a44408a4e108034586c42f}
