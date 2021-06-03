@@ -3,11 +3,10 @@ description: 새로운 지능형 경고 시스템에서는 경고를 더욱 세�
 title: 지능형 경고
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 생성합니다.
 
-새 경고 시스템의 구성 요소에는 경고 빌더, 경고 관리자, 경고 미리 보기 및 경고 작성에 대한 더 나은 컨텍스트 내 액세스 기능 포함됩니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능은 [더 이상 사용할 수 없습니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/alerts.html). 
+새 경고 시스템의 구성 요소에는 경고 빌더, 경고 관리자, 경고 미리 보기 및 경고 작성에 대한 더 나은 컨텍스트 내 액세스 기능 포함됩니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능은 [더 이상 사용할 수 없습니다](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html). 
 
 경고 빌더를 여는 방법에는 네 가지가 있습니다. 
 
@@ -76,7 +75,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 점선을 구성하는 "예상값" 테이블이나 그러한 값에 대한 일종의 출력을 얻을 수 있습니까? </b> </p> </td> 
-   <td colname="col2"> <p>Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다 (<a href="https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder의 예외 항목 탐지</a>에서 이 비디오 참조 ). </p> <p>Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. 고정된 30일 교육 기간, 고정된 95% 간격을 사용합니다. </p> </td> 
+   <td colname="col2"> <p>Workspace에서는 얻을 수 없지만 Report Builder에서는 얻을 수 있습니다 (<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder의 예외 항목 탐지</a>에서 이 비디오 참조 ). </p> <p>Report Builder는 보다 덜 복잡한 예외 항목 탐지 방법을 사용한다는 점을 기억하십시오. 고정된 30일 교육 기간, 고정된 95% 간격을 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
