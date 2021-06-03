@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
-source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 96%
 
 ---
 
@@ -67,6 +67,6 @@ ht-degree: 98%
       + [SFTP를 통해 외부 FTP 계정으로 Adobe 데이터 보내기](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP 서버로 Data Warehouse 요청 보내기](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [SFTP를 통해 암호 없이 Adobe에 연결](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace 다운로드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
