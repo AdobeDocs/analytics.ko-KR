@@ -4,14 +4,13 @@ title: 링크 추적 중지
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 96%
+source-wordcount: '74'
+ht-degree: 89%
 
 ---
-
 
 # 링크 추적 중지
 
@@ -35,7 +34,7 @@ Activity Map 또는 레거시 ClickMap에서의 링크 추적을 중지하는 �
      &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
      &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
      &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
-     &nbsp;https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
+     &nbsp;https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
      */
      function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
@@ -44,11 +43,10 @@ Activity Map 또는 레거시 ClickMap에서의 링크 추적을 중지하는 �
   </tr> 
   <tr> 
    <td colname="col1">  ClickMap(이전 Visitor ClickMap) </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 변수를 false(기본값)로 설정하십시오. 구문은 다음과 같습니다. 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 변수를 false(기본값)로 설정하십시오. 구문은 다음과 같습니다. 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
