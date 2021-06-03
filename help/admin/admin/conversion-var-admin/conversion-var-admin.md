@@ -5,11 +5,10 @@ title: 전환 변수 (eVar)
 feature: 관리 도구
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 100%
+source-wordcount: '1578'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +28,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 
 >[!NOTE]
 >
->단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용하려는 경우에는 [목록 변수 (list vars)](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 구현하는 것이 좋습니다.
+>단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용하려는 경우에는 [목록 변수 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)를 구현하는 것이 좋습니다.
 
 ## 전환 변수 - 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -89,7 +88,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징</span> </p> <p>(eVar만) </p> </td> 
-   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> eVar 값을 제품에 연결합니다. 참고: 제품 구문을 선택한 경우 머천다이징 바인딩 이벤트 섹션이 비활성화되므로 선택하여 편집할 수 없습니다. 이 구문에는 바인딩 이벤트를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/variables/merchandising-variables/var-merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다. </p> <p> <b>제품 구문</b>:</span> eVar 값을 제품에 연결합니다. 참고: 제품 구문을 선택한 경우 머천다이징 바인딩 이벤트 섹션이 비활성화되므로 선택하여 편집할 수 없습니다. 이 구문에는 바인딩 이벤트를 적용할 수 없습니다. </p> </p> <p> <b>전환 변수 구문</b>:</span> 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 바인딩 이벤트처럼 동작하는 이벤트를 선택합니다. </p> <p>알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html">머천다이징 변수</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 머천다이징 바인딩 이벤트</span> </p> <p>(eVar만) </p> </td> 
