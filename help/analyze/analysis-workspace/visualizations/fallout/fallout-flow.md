@@ -5,11 +5,10 @@ uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 feature: 시각화
 role: Business Practitioner, Administrator
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 100%
 * 일반적이고 폭 넓은 범위의 트래픽 흐름: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
 * 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인 정보 보호 정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
 
-[폴아웃 시각화 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  (4:15)
+[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  (4:15)
 
 ## 흐름 및 폴아웃을 위한 기초로서의 세그먼테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
