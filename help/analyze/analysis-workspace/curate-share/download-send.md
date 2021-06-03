@@ -5,11 +5,10 @@ uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: 선별 및 공유
 role: Business Practitioner, Administrator
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '990'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 
 프로젝트 다운로드의 경우 유의해야 할 사항:
 
-* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)할 수 있습니다.
+* 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)할 수 있습니다.
 * 브라우저에서 다운로드한 PDF는 PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되기 때문에 내보내는 데 몇 분 정도 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
 * PDF 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
 * 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정 (오른쪽 상단 모서리의 단추)되도록 변경해야 합니다.
@@ -90,4 +89,4 @@ ht-degree: 100%
 | --- | --- |
 | 다운로드한 PDF가 한 페이지인 이유는 무엇입니까? | 현재 Workspace는 다운로드한 PDF에 페이지를 매기지 않습니다. |
 | “CSV로 항목 다운로드” 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 표의 정렬을 변경하여 롱테일 항목을 검색하거나 필터를 적용하여 더 많은 특정 항목을 다운로드할 수 있습니다. |
-| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어, 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어, 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
