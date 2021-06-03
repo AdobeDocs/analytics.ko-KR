@@ -5,11 +5,10 @@ uuid: 5282a5f9-0771-4974-93cb-335204bde114
 feature: AI 도구
 role: Business Practitioner, Administrator
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 97%
 
 ---
 
@@ -40,9 +39,9 @@ ht-degree: 100%
 
    * 해당 일의 **방문** 수를 보여 주는 시각화.
    * 컨텍스트에 대한 월별 **방문 횟수 꺾은 선형**.
-   * 이 예외 항목에 기여하고, [기여도 점수](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)와 해당 지표, 고유 방문자 수 지표로 정렬되어 크기 조정 관점의 문맥에서 지표를 적용하기 위한 **상위 항목**.
+   * 이 예외 항목에 기여하고, [기여도 점수](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)와 해당 지표, 고유 방문자 수 지표로 정렬되어 크기 조정 관점의 문맥에서 지표를 적용하기 위한 **상위 항목**.
 
-   * [생성된 세그먼트](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html) (상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다 (기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot; (정보) 버튼을 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다.
+   * [생성된 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다 (기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot; (정보) 버튼을 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다.
 
       ![](assets/auto_segment.png)
 
