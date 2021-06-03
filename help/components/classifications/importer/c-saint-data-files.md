@@ -4,11 +4,10 @@ subtopic: Classifications
 title: 분류 데이터 파일
 feature: 관리 도구
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '1773'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1771'
+ht-degree: 99%
 
 ---
 
@@ -164,7 +163,7 @@ ht-degree: 100%
 
 캠페인 날짜는 일반적으로 개별 캠페인과 관련된 범위(시작 및 종료일)입니다. 날짜는 YYYY/MM/DD 형식이어야 합니다. 예를 들면 2013/06/15-2013/06/30입니다.
 
-자세한 내용은 [전환 분류](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)를 참조하십시오.
+자세한 내용은 [전환 분류](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -203,5 +202,5 @@ ht-degree: 100%
 
 ## 분류 문제 해결
 
-* [일반적인 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
+* [일반적인 업로드 문제](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
 
