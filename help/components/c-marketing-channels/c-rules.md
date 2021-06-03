@@ -2,11 +2,10 @@
 title: 마케팅 채널의 처리 규칙
 description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-translation-type: ht
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
-source-wordcount: '2169'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2163'
+ht-degree: 98%
 
 ---
 
@@ -122,13 +121,13 @@ ht-degree: 100%
 
 ![](assets/example_paid_search.png)
 
-자세한 내용은 관리자의 [유료 검색 감지](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
+자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 ### 자연어 검색 {#natural-search}
 
 자연어 검색은 비용을 지불하지 않고 검색 엔진이 사이트 등급을 지정하는 웹 검색을 통해 방문자가 웹 사이트를 찾을 때 발생합니다.
 
-Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
+Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 마케팅 채널 규칙의 경우, 자연어 검색 설정은 다음과 같습니다.
 
@@ -164,13 +163,13 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 ![](assets/example_social.png)
 
-### 내부 (세션 새로 고침) 채널 {#internal}
+### 내부(세션 새로 고침) 채널 {#internal}
 
 이 규칙은 참조 URL이 Admin Console의 내부 URL 필터 설정과 일치하는 사이트 방문자를 식별합니다. 이것은 방문자가 사이트 내에서 와서 방문을 시작했음을 의미합니다. 이 채널의 이름은 종종 세션 새로 고침으로 변경되기도 합니다.
 
 ![](assets/int-channel1.png)
 
-이 채널이 발생하는 이유에 대한 자세한 내용은 [내부 (세션 새로 고침) 이유](https://docs.adobe.com/content/help/ko-KR/analytics/components/marketing-channels/c-faq.html#internal)를 참조하십시오.
+이 채널이 발생하는 이유에 대한 자세한 내용은 [내부 (세션 새로 고침) 이유](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)를 참조하십시오.
 
 ### 직접 {#direct}
 
