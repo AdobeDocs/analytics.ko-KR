@@ -4,11 +4,10 @@ title: 세그먼트 관리
 feature: 세그먼테이션
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +22,7 @@ Analytics 세그먼트 관리자는 사용자가 보유하는 모든 세그먼�
 
 ## 방법 비디오 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-이 [Adobe Analytics 비디오](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)에서는 세그먼트 관리자를 사용하는 방법에 대한 간단한 개요를 제공합니다.
+이 [Adobe Analytics 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)에서는 세그먼트 관리자를 사용하는 방법에 대한 간단한 개요를 제공합니다.
 
 ## 세그먼트 관리자 사용자 인터페이스 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
