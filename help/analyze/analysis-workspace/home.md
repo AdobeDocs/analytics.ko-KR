@@ -4,11 +4,10 @@ description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 �
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 97%
 
 ---
 
@@ -34,11 +33,11 @@ Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](http://ex
 
 ## 새 프로젝트 만들기 {#new-project}
 
-튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
+튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)에서 시작하도록 선택할 수 있습니다.
 
 ![](assets/create-new-project.png)
 
-또한 Adobe에서 제공하는 표준 템플릿 또는 조직에서 만든 사용자 정의 템플릿인 미리 빌드된 **템플릿**&#x200B;에서 분석을 시작할 수 있습니다. 분석 또는 염두에 둔 사용 사례에 따라 사용 가능한 템플릿에는 여러 가지가 있습니다. 사용 가능한 다양한 템플릿 옵션에 대해 [자세히 알아보십시오](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html).
+또한 Adobe에서 제공하는 표준 템플릿 또는 조직에서 만든 사용자 정의 템플릿인 미리 빌드된 **템플릿**&#x200B;에서 분석을 시작할 수 있습니다. 분석 또는 염두에 둔 사용 사례에 따라 사용 가능한 템플릿에는 여러 가지가 있습니다. 사용 가능한 다양한 템플릿 옵션에 대해 [자세히 알아보십시오](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR).
 
 ## 분석 빌드 {#analysis}
 
@@ -46,23 +45,23 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ### 구성 요소
 
-**구성 요소**&#x200B;는 차원, 지표, 세그먼트 또는 날짜 범위입니다. 모두 비즈니스 질문에 답변하기 위해 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 결합할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)할 수 있습니다.
+**구성 요소**&#x200B;는 차원, 지표, 세그먼트 또는 날짜 범위입니다. 모두 비즈니스 질문에 답변하기 위해 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 결합할 수 있습니다. 분석하기 전에 각 [구성 요소 유형](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)을 숙지하십시오. 구성 요소 용어를 숙지하면 드래그 앤 드롭을 시작하여 **[!UICONTROL 자유 형식 테이블]**&#x200B;에서 [분석을 빌드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)할 수 있습니다.
 
 ![](assets/build-components.png)
 
 ### 시각화
 
-그러면 막대형 차트 또는 선형 차트와 같은 **시각화**&#x200B;가 데이터 위에 추가되어 시각적으로 생동감 있게 표현됩니다. 맨 왼쪽 레일에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 [시각화](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)의 전체 목록을 확인합니다.
+그러면 막대형 차트 또는 선형 차트와 같은 **시각화**&#x200B;가 데이터 위에 추가되어 시각적으로 생동감 있게 표현됩니다. 맨 왼쪽 레일에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR)의 전체 목록을 확인합니다.
 
 ![](assets/build-visualizations.png)
 
 ### 패널
 
-**패널**&#x200B;은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 표와 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 맨 왼쪽 레일에서 맨 위의 **[!UICONTROL 패널]** 아이콘을 선택하여 사용 가능한 [패널](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/panels.html)의 전체 목록을 확인합니다.
+**패널**&#x200B;은 프로젝트 내에서 분석을 구성하는 데 사용되며 많은 표와 시각화를 포함할 수 있습니다. Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입력을 기반으로 전체 분석 집합을 생성합니다. 맨 왼쪽 레일에서 맨 위의 **[!UICONTROL 패널]** 아이콘을 선택하여 사용 가능한 [패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=)의 전체 목록을 확인합니다.
 
 ![](assets/build-panels.png)
 
 ## 추가 리소스 {#resources}
 
-* Adobe는 수백 개의 [분석 비디오 교육 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/overview.html)을 제공합니다.
+* Adobe는 수백 개의 [분석 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)을 제공합니다.
 * 새로운 기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
