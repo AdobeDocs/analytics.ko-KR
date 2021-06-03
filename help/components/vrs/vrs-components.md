@@ -3,11 +3,10 @@ description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 �
 title: 가상 보고서 세트 구성 요소 큐레이션
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 98%
 
 ---
 
@@ -72,4 +71,4 @@ Analysis Workspace에서 포함된 구성 요소의 정보 아이콘을 클릭�
 
 ## Workspace 비헤이비어 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Analysis Workspace의 조정에 대한 자세한 내용은 [프로젝트 조정 및 공유](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html)를 참조하십시오.
+Analysis Workspace의 조정에 대한 자세한 내용은 [프로젝트 조정 및 공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html)를 참조하십시오.
