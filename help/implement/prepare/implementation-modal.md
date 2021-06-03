@@ -2,17 +2,16 @@
 title: 구현 모달
 description: Adobe Analytics 구현을 구현하기 위한 최초 고객 환경에 대해 알아보십시오.
 exl-id: 46d35adf-33f3-422c-abda-5f4b56f803aa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '30'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 75%
 
 ---
 
 # 구현 모달
 
-[보고서 세트 만들기](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/create-report-suite.html)를 참조하십시오.
+[보고서 세트 만들기](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/create-report-suite.html)를 참조하십시오.
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
