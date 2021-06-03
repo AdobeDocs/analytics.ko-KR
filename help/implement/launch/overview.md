@@ -2,11 +2,10 @@
 title: Launch를 사용한 구현 개요
 description: Adobe Experience Platform Launch를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 96%
 
 ---
 
@@ -33,6 +32,6 @@ Launch를 사용하여 구현을 실행하는 절차는 다음과 같습니다.
 
 Launch를 사용자 지정할 수 있습니다. 구현에 적합한 데이터를 포함하여 Adobe Analytics를 최대한 활용할 수 있는 방법에 대해 자세히 알아봅니다.
 
-* [Launch 설명서](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html): 인터페이스 작동 방식과 사용 가능한 확장에 대해 알아봅니다.
-* [Adobe Analytics 확장](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Analytics 확장을 사용하여 데이터를 Adobe Analytics에 보냅니다.
+* [Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/overview.html): 인터페이스 작동 방식과 사용 가능한 확장에 대해 알아봅니다.
+* [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Analytics 확장을 사용하여 데이터를 Adobe Analytics에 보냅니다.
 * [구현 변수](../vars/overview.md): 데이터 수집 서버에 전송할 변수를 결정합니다.
