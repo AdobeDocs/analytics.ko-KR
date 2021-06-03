@@ -5,11 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 99%
 
 ---
 
@@ -55,7 +54,7 @@ help:Internal Search Term
 
 **다음을 포함하지 않음**
 
-라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/unspecified.html)을 필터링할 수 있습니다.
+라인 항목에 해당 용어가 없으면 일치합니다. &quot;포함하지 않음&quot;을 사용하여 보고서에서 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;사용할 수 없는 키워드&quot; 및 기타 [특수 값](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html)을 필터링할 수 있습니다.
 
 다음을 포함하지 않음: `none`
 
