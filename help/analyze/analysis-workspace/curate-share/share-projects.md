@@ -5,11 +5,10 @@ title: 프로젝트 공유
 feature: 선별 및 공유
 role: Business Practitioner, Administrator
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 ## 프로젝트 역할 {#Roles}
 
-3개의 프로젝트 역할 중 하나에 수신자를 추가할 수 있습니다. 프로젝트 역할은 사용자 및 특정 프로젝트 ID에 연결되어 있습니다. 프로젝트 역할은 [Adobe Experience Cloud 관리 콘솔](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 관리되는 사용자 권한과 독립적입니다.
+3개의 프로젝트 역할 중 하나에 수신자를 추가할 수 있습니다. 프로젝트 역할은 사용자 및 특정 프로젝트 ID에 연결되어 있습니다. 프로젝트 역할은 [Adobe Experience Cloud 관리 콘솔](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 관리되는 사용자 권한과 독립적입니다.
 
 | 역할 | 프로젝트 제어 |
 |---|---|
@@ -32,7 +31,7 @@ ht-degree: 100%
 
 ### 할당된 역할 없음 (프로젝트 링크 수신자)
 
-수신자에게 역할이 지정되지 않고 프로젝트에 대한 [링크](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)를 받은 경우 (**[!UICONTROL 공유]> [!UICONTROL 프로젝트 링크 가져오기]**) 수신자는 기본적으로 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다.
+수신자에게 역할이 지정되지 않고 프로젝트에 대한 [링크](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)를 받은 경우 (**[!UICONTROL 공유]> [!UICONTROL 프로젝트 링크 가져오기]**) 수신자는 기본적으로 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다.
 
 ### 여러 역할 할당
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 
 ### 관리자 및 역할
 
-**[!UICONTROL 복제 가능]** 또는 역할 **[!UICONTROL 볼 수 있음]**&#x200B;에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 원하는 경우 관리자는 **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]를 통해 언제든지 [!UICONTROL 편집 가능]**&#x200B;한 역할을 늘릴 수 있습니다.
+**[!UICONTROL 복제 가능]** 또는 역할 **[!UICONTROL 볼 수 있음]**&#x200B;에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 원하는 경우 관리자는 **[!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]**&#x200B;를 통해 언제든지 **[!UICONTROL 편집 가능]**&#x200B;한 역할을 늘릴 수 있습니다.
 
 ## 공유 프로젝트에 수신자 추가 {#Add}
 
@@ -55,20 +54,20 @@ ht-degree: 100%
 1.  (선택 사항) 이 페이지를 수신자의 랜딩 페이지로 설정합니다.
 이 설정은 유지되지 않습니다. 공유 시의 단일 작업입니다.
 1. 공유를 클릭합니다.
-또한 **[!UICONTROL 조정 및 공유]**&#x200B;를 클릭하여 프로젝트 조정을 자동으로 적용할 수도 있습니다. 프로젝트가 이미 공유된 경우 이 단추에는 **[!UICONTROL 업데이트]** 및 **[!UICONTROL 조정 및 업데이트]**&#x200B;가 표시됩니다. [프로젝트 조정](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/curate.html)에 대한 자세한 내용을 살펴보십시오.
+또한 **[!UICONTROL 조정 및 공유]**&#x200B;를 클릭하여 프로젝트 조정을 자동으로 적용할 수도 있습니다. 프로젝트가 이미 공유된 경우 이 단추에는 **[!UICONTROL 업데이트]** 및 **[!UICONTROL 조정 및 업데이트]**&#x200B;가 표시됩니다. [프로젝트 조정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html)에 대한 자세한 내용을 살펴보십시오.
 
 ![](assets/share-proj-modal.png)
 
 ## 수신자 그룹에 공유 {#Groups}
 
-모든 사용자는 수신자의 집합인 그룹에 프로젝트를 공유할 수 있습니다. Adobe Analytics에서 그룹은 [Adobe Experience Cloud 관리 콘솔](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 제품 프로필로 정의됩니다.
+모든 사용자는 수신자의 집합인 그룹에 프로젝트를 공유할 수 있습니다. Adobe Analytics에서 그룹은 [Adobe Experience Cloud 관리 콘솔](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 제품 프로필로 정의됩니다.
 
 * 관리자는 &quot;모두&quot;를 비롯한 모든 그룹과 공유할 수 있습니다.
 * 관리자가 아닌 사용자는 &quot;모두&quot;를 제외하고 자신이 구성원으로 있는 그룹과 공유할 수 있습니다.
 
 ## 프로젝트 링크 공유 {#Links}
 
-**[!UICONTROL 공유] > [!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다. Workspace 프로젝트에 연결된 공유 가능한 링크를 만드는 방법에 대해 [자세히 알아보십시오](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/curate-share/shareable-links.html).
+**[!UICONTROL 공유] > [!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다. Workspace 프로젝트에 연결된 공유 가능한 링크를 만드는 방법에 대해 [자세히 알아보십시오](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html).
 
 ## 프로젝트 관리자에서 프로젝트 공유 {#Manager}
 
