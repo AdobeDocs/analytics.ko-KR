@@ -4,11 +4,10 @@ title: 세그먼트 작성
 feature: 세그먼테이션
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '2040'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2036'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 * **Analytics 위쪽 탐색**: **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;를 클릭합니다.
 * **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 세그먼트 만들기]**&#x200B;를 클릭합니다.
 * **[!UICONTROL Reports &amp; Analytics]**: **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 기존 보고서를 열고 왼쪽 탐색 창에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## 빌더 기준 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -63,7 +62,7 @@ ht-degree: 100%
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
 1. **[!UICONTROL X]**: (삭제) 이 세그먼트 정의 부분을 삭제할 수 있습니다.
 1. **[!UICONTROL Experience Cloud 게시]**: Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를 [!DNL Audience Manager]의 마케팅 활동과 기타 활성화 채널에서 사용할 수 있습니다. [추가 정보...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL 검색]**: 차원, 세그먼트 또는 지표 목록을 검색합니다.
 1. **[!UICONTROL 차원]**: (목록) 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 지표]**: 확장할 헤더를 클릭합니다.
