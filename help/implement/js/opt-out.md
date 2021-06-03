@@ -2,10 +2,9 @@
 title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '590'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->특히 GDPR 관련 조직의 경우 옵트인 서비스를 사용하는 것이 좋습니다. Experience Cloud ID 서비스 사용 안내서의 [옵트인 서비스 개요](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/opt-in-service/optin-overview.html)를 참조하십시오.
+>특히 GDPR 관련 조직의 경우 옵트인 서비스를 사용하는 것이 좋습니다. Experience Cloud ID 서비스 사용 안내서의 [옵트인 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 참조하십시오.
 
 웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe에서는 웹 사이트 방문자가 정보 수집을 옵트아웃할 수 있는 기능을 제공합니다. 모든 구현 유형이 수용됩니다. 조직은 자체 개인정보 보호정책과 서명한 약관 준수 유지에 대한 책임을 져야 합니다.
 
@@ -37,7 +36,7 @@ ht-degree: 100%
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
    2. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html) 사용:
+* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 사용:
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
    2. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
    3. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
