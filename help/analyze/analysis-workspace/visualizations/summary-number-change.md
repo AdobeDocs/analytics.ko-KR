@@ -5,11 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: 시각화
 role: Business Practitioner, Administrator
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +45,7 @@ ht-degree: 100%
 
 ## 요약 변경 시각화 {#summary-change}
 
-요약 변경 시각화를 사용하여 두 숫자 간의 델타 (변화량)를 표시합니다. 요약 변경의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) 옵션을 통해 제어할 수 있습니다.
+요약 변경 시각화를 사용하여 두 숫자 간의 델타 (변화량)를 표시합니다. 요약 변경의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) 옵션을 통해 제어할 수 있습니다.
 
 이 시각화는 다음과 같은 방식으로 동작합니다.
 
