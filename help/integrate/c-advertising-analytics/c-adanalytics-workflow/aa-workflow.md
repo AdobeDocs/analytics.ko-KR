@@ -2,11 +2,10 @@
 description: Advertising Analytics 워크플로의 개요입니다.
 title: 워크플로 개요
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 ![](assets/step1_icon.png) Google/Bing 검색 데이터를 보기 원하는 Analytics 보고서 세트를 Experience Cloud 조직에 매핑합니다.
 
-[조직에 보고서 세트 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)을 확인하십시오.
+[조직에 보고서 세트 매핑](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)을 확인하십시오.
 
 ![](assets/step2_icon.png) [보고서 세트당 Advertising Analytics 보고 활성화](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
