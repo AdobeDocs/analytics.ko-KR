@@ -5,11 +5,10 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +31,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-개별 보고서에 대한 자세한 내용은 [보고서 설명](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)을 참조하십시오.
+개별 보고서에 대한 자세한 내용은 [보고서 설명](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html)을 참조하십시오.
 
 ## 보고서 검색 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -66,7 +65,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">세그먼트 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">세그먼트를 추가 또는 관리할 수 있도록 해주는 세그먼트 레일을 표시합니다. 세그먼트 레일에서는 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >세그먼트 빌더</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >세그먼트 관리자</a> 인터페이스에 액세스할 수도 있습니다. </td> 
+   <td colname="col2">세그먼트를 추가 또는 관리할 수 있도록 해주는 세그먼트 레일을 표시합니다. 세그먼트 레일에서는 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >세그먼트 빌더</a> 및 <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >세그먼트 관리자</a> 인터페이스에 액세스할 수도 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">지표 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -114,7 +113,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1">보고서 세트 선택기 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2"><a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/manage-report-suites/report-suites-admin.html"  >기본 보고서 세트</a>나 <a href="https://docs.adobe.com/help/ko-KR/analytics/components/virtual-report-suites/vrs-about.html"  >가상 보고서 세트</a>를 선택할 수 있도록 해줍니다. </td> 
+   <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >기본 보고서 세트</a>나 <a href="https://docs.adobe.com/help/ko-KR/analytics/components/virtual-report-suites/vrs-about.html"  >가상 보고서 세트</a>를 선택할 수 있도록 해줍니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1">달력 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,4 +124,4 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 ## 모든 보고서 메뉴 사용자 지정 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-관리자는 보고서 메뉴 내에 포함된 보고서를 변경할 수 있습니다. 관리 도움말에서 [메뉴 사용자 지정](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/customize-menus.html)을 참조하십시오.
+관리자는 보고서 메뉴 내에 포함된 보고서를 변경할 수 있습니다. 관리 도움말에서 [메뉴 사용자 지정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)을 참조하십시오.
