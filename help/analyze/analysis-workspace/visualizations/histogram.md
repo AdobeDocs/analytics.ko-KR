@@ -5,10 +5,9 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: 시각화
 role: Business Practitioner, Administrator
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '372'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -63,4 +62,4 @@ ht-degree: 100%
 
 ![](assets/prebuilt_segments.png)
 
-데이터 분류 수행과 같이, 자유 형식 데이터 테이블 및 기타 시각화를 관리하는 방법을 더 탐색하려면, [여기](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)로 이동하십시오. 
+데이터 분류 수행과 같이, 자유 형식 데이터 테이블 및 기타 시각화를 관리하는 방법을 더 탐색하려면, [여기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR)로 이동하십시오. 
