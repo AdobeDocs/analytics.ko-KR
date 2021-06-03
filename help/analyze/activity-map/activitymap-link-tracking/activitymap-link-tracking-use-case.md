@@ -4,14 +4,13 @@ title: 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 61%
+source-wordcount: '364'
+ht-degree: 59%
 
 ---
-
 
 # 동일한 링크 ID 및 영역을 참조하는 링크 차별화
 
@@ -45,26 +44,26 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
    <td colname="col2">
      <br/>
      <br/>
-    구입<br/>
+    Buy<br/>
      <br/>
      <br/>
-    구입<br/>
+    Buy<br/>
      <br/>
      <br/>
-    구입<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    recommendation panel<br/>
+    권장 사항 패널<br/>
      <br/>
      <br/>
-    recommendation panel<br/>
+    권장 사항 패널<br/>
      <br/>
      <br/>
-    recommendation panel<br/>
+    권장 사항 패널<br/>
      <br/>
      <br/>
    </td>
@@ -76,11 +75,11 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 ## s_objectID를 사용하여 링크 ID 사용자 지정 {#section_01B0D463397B4837B2D46F087A6E5937}
 
-페이지의 링크 또는 링크 위치에 대해 고유한 개체 ID `s_objectID`를 만들면 링크 URL이 아니라 Activity Map 추적을 개선하거나 Activity Map을 사용하여 링크 유형 또는 위치에 대해 보고할 수 있습니다.  변수에 대해 자세히 알려면 [여기](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 클릭하십시오.`s_objectID`
+페이지의 링크 또는 링크 위치에 대해 고유한 개체 ID `s_objectID`를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다.  변수에 대해 자세히 알려면 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)를 클릭하십시오.`s_objectID`
 
 >[!IMPORTANT]
 >
->Activity Map에서 `s_objectID`을(를) 사용할 때는 후행 세미콜론(`;`)이 필요합니다.
+>Activity Map에서 `s_objectID`을 사용할 때는 후행 세미콜론(`;`)이 필요합니다.
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -120,13 +119,13 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
    <td colname="col3">
      <br/>
      <br/>
-    recommendation panel<br/>
+    권장 사항 패널<br/>
      <br/>
      <br/>
-    recommendation panel<br/>
+    권장 사항 패널<br/>
      <br/>
      <br/>
-    recommendation panel<br/>
+    권장 사항 패널<br/>
      <br/>
      <br/>
    </td>
@@ -136,10 +135,10 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 ## 영역 사용자 지정 {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-각 &quot;구입&quot; 링크에 자체 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 `"id"` 매개 변수를 추가합니다.
+각 &quot;Buy&quot; 링크에 고유한 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 `"id"` 매개 변수를 추가하십시오.
 
 >[!NOTE]
->영역 식별자로 `"id"` 매개 변수에 제한되지 않습니다. JavaScript 변수 `"s.ActivityMap.regionIDAttribute"`을 사용하여 자체 식별자를 설정할 수도 있습니다.
+>영역 식별자로 `"id"` 매개 변수만 사용하도록 엄격히 제한되어 있지는 않습니다. JavaScript 변수 `"s.ActivityMap.regionIDAttribute"`를 사용하여 자신의 식별자를 설정할 수도 있습니다.
 >
 >
 ><table id="table_250DB52A869C466B942517BABA1C287B">
@@ -168,20 +167,20 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
    <td colname="col2">
      <br/>
      <br/>
-    구입<br/>
+    Buy<br/>
      <br/>
      <br/>
-    구입<br/>
+    Buy<br/>
      <br/>
      <br/>
-    구입<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    region a<br/>
+    영역<br/>
      <br/>
      <br/>
     region b<br/>
@@ -215,7 +214,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-`linkName`은(는) `s.tl()`에 대한 호출 중에 전달됩니다.
+`linkName`이 `s.tl()` 호출 중에 전달됩니다.
 
 ```
 s.ActivityMap.region = function(ele) {
