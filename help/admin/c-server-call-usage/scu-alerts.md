@@ -2,11 +2,10 @@
 description: 서버에 모든 사용량 경고를 추가하거나 관리합니다. 경고를 설정하면 청구 회사의 모든 로그인 회사에 있는 모든 보고서 세트에 적용됩니다.
 title: 서버 호출 사용량 경고
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '526'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ## 개요
 
-새 경고 카테고리인 **[!UICONTROL 서버 호출 사용량 경고]**&#x200B;는 기존 [경고 관리](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) 사용자 인터페이스의 일부입니다.
+새 경고 카테고리인 **[!UICONTROL 서버 호출 사용량 경고]**&#x200B;는 기존 [경고 관리](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) 사용자 인터페이스의 일부입니다.
 
 이 경고는 서버 호출 사용량 기능에 액세스할 수 있는 모든 로그인 회사 내에 표시되는 **1개의 기본 경고**&#x200B;로 미리 채워져 있습니다. 이 경고는 다음 기준 중 하나가 충족되는 경우 모든 로그인 회사 관리자에게 지정된 알림을 트리거합니다.
 
