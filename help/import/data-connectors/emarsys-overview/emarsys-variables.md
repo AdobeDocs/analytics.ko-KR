@@ -2,17 +2,19 @@
 description: emarsys용 Data Connectors 통합은 Analytics 변수를 사용하여 다양한 emarsys 지표를 추적합니다.
 title: Analytics 변수
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: a59216f2-047b-429b-8714-a2bdaa271911
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 97%
 
 ---
-
 
 # Analytics 변수{#analytics-variables}
 
 emarsys용 Data Connectors 통합은 Analytics 변수를 사용하여 다양한 emarsys 지표를 추적합니다.
 
-emarsys 통합에 사용할 이벤트 및 eVar를 식별한 후 [Admin Console](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/c-admin-tools.html)에서 활성화합니다.
+emarsys 통합에 사용할 이벤트 및 eVar를 식별한 후 [Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html)에서 활성화합니다.
 
 **필수 변수**
 
@@ -21,7 +23,7 @@ emarsys 통합에 사용할 이벤트 및 eVar를 식별한 후 [Admin Console](
   <tr> 
    <th colname="col1" class="entry"> 변수 유형 </th> 
    <th colname="col2" class="entry">  이름  </th> 
-   <th colname="col3" class="entry"> 채우기 방법 </th> 
+   <th colname="col3" class="entry"> 모집단 방법 </th> 
    <th colname="col4" class="entry"> 설명 </th> 
   </tr>
  </thead>
@@ -70,4 +72,3 @@ emarsys 통합에 사용할 이벤트 및 eVar를 식별한 후 [Admin Console](
   </tr> 
  </tbody> 
 </table>
-
