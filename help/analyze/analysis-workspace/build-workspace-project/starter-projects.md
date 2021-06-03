@@ -5,11 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1399'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 * **빈 프로젝트 (기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/home.md)를 참조하십시오.
 * **표준 템플릿**: 이러한 템플릿은 Adobe에서 만들어 제품과 함께 제공됩니다.
-* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-console/permissions/product-profile.html)
+* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -57,7 +56,7 @@ ht-degree: 100%
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정 (예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다.
 
-다음은 [Analysis Workspace의 표준 템플릿](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)에 대한 비디오 튜토리얼입니다 (2:46).
+다음은 [Analysis Workspace의 표준 템플릿](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)에 대한 비디오 튜토리얼입니다 (2:46).
 
 다음은 템플릿과 각 템플릿을 사용하여 해결할 수 있는 질문입니다.
 
@@ -81,7 +80,7 @@ ht-degree: 100%
 
 * **Magento: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 속성으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 비디오 개요는 다음을 참조하십시오.
 
->[!VIDEO](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### 미디어
 
@@ -119,7 +118,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/data/people.html)의 일부로서만 사용할 수 있습니다.
+>사람 템플릿과 관련 사람 지표는 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html)의 일부로서만 사용할 수 있습니다.
 
 이 템플릿은 다시 말해, 고유 방문자 수 지표의 중복이 제거된 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 디바이스를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. 템플릿을 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -135,7 +134,7 @@ ht-degree: 100%
 
 <!--This content is mirrored in the CDA doc.-->
 
-이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/components/cda/cda-home.html))에 액세스할 수 있는 고객에게만 제공됩니다.
+이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html))에 액세스할 수 있는 고객에게만 제공됩니다.
 
 * **Co-op 그래프의 구성원을 위한 특수 참고 사항**: co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
 * **사용자 식별**: 교차 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
