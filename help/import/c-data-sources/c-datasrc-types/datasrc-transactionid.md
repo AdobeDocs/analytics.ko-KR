@@ -1,14 +1,13 @@
 ---
 title: 거래 ID 데이터 소스
 description: 거래 ID 데이터 소스를 사용하는 일반적인 워크플로우에 대해 알아봅니다.
-translation-type: ht
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
-workflow-type: ht
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # 거래 ID 데이터 소스
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 다음 일반 워크플로우를 사용하여 거래 ID 데이터 소스 사용을 시작합니다.
 
 1. 데이터 소스(&#39;일반&#39; 카테고리와 &#39;일반 데이터 소스(거래 ID)&#39; 유형)를 만듭니다.
-1. 데이터 피드 설정 마법사에 따라 데이터를 업로드하고 데이터 소스 템플릿 파일을 다운로드할 FTP 위치를 가져옵니다.
+1. 데이터 소스 설정 마법사에 따라 데이터를 업로드하고 데이터 소스 템플릿 파일을 다운로드할 FTP 위치를 가져옵니다.
 1. `transactionID` 변수를 포함하도록 구현을 업데이트합니다.
 1. `.fin` 파일을 사용하여 데이터 소스 파일을 FTP 사이트로 업로드합니다.
 
