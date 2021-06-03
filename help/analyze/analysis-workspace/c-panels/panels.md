@@ -4,11 +4,10 @@ title: 패널 개요
 feature: 패널
 role: Business Practitioner, Administrator
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1005'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1001'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +33,7 @@ ht-degree: 100%
 
 ## 보고서 세트 {#report-suite}
 
-패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 [!UICONTROL 보고서 세트]에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 [여러 보고서 세트](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)를 사용할 수 있습니다. 단일 보고서 세트를 프로젝트의 모든 패널에 적용하려면 **패널 헤더를 마우스 오른쪽 버튼으로 클릭 > 모든 패널에 보고서 세트 적용**&#x200B;을 선택합니다.
+패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 [!UICONTROL 보고서 세트]에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 [여러 보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)를 사용할 수 있습니다. 단일 보고서 세트를 프로젝트의 모든 패널에 적용하려면 **패널 헤더를 마우스 오른쪽 버튼으로 클릭 > 모든 패널에 보고서 세트 적용**&#x200B;을 선택합니다.
 
 보고서 세트 목록은 관련성을 기준으로 정렬되며, Adobe는 현재 사용자가 제품군을 얼마나 최근에 그리고 얼마나 자주 사용했는지를 기준으로 정의합니다.
 
@@ -82,7 +81,7 @@ ht-degree: 100%
 
 ![](assets/create-dropdown.png)
 
-프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html).
+프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html).
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
