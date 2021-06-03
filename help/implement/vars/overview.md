@@ -3,11 +3,10 @@ title: 변수, 함수, 메서드 및 플러그인 개요
 description: 보고를 개선하기 위해 Adobe에 보내는 데이터에 포함할 수 있는 변수를 알아봅니다.
 keywords: appmeasurement, 변수, vars, 구성, 페이지, 구현
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '324'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합
 Adobe Analytics가 게시한 AppMeasurement 라이브러리는 데이터를 Adobe에 전송할 때 특정 순서를 따릅니다. 이러한 작업을 순서대로 실행하지 않을 경우 데이터가 불완전할 수 있습니다.
 
 1. 사이트에서 데이터 계층을 사용하는 경우 적용 가능한 모든 변수가 채워졌는지 우선 확인합니다. 자세한 내용은 [데이터 계층](../prepare/data-layer.md)을 참조하십시오.
-2. 데이터 계층을 사용하여 Analytics 변수를 채웁니다. Launch를 사용하는 경우 데이터 요소를 사용한 다음, 데이터 요소를 변수에 할당하여 이 작업을 쉽게 수행할 수 있습니다. Launch 사용 안내서의 [데이터 요소](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/manage-resources/data-elements.html)를 참조하십시오.
+2. 데이터 계층을 사용하여 Analytics 변수를 채웁니다. Launch를 사용하는 경우 데이터 요소를 사용한 다음, 데이터 요소를 변수에 할당하여 이 작업을 쉽게 수행할 수 있습니다. Launch 사용 안내서의 [데이터 요소](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html)를 참조하십시오.
 3. 추적 함수를 호출합니다. 대부분의 AppMeasurement 라이브러리는 `t()` 메서드를 사용하지만 일부 모바일 SDK는 `track()`을 사용합니다. 추적 함수가 호출되면 Analytics 개체에 정의된 모든 지원되는 변수가 이미지 요청 형태로 Adobe에 전송됩니다.
 
 ## 잘못된 문자
