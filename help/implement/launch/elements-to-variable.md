@@ -2,11 +2,10 @@
 title: Analytics 변수에 Launch 데이터 요소 매핑
 description: Analysis Workspace에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Adobe Experience Platform Launch에 데이터 요소가 저장되어 있으면 A
 
 ### 규칙의 변수 설정
 
-규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. Adobe Experience Platform Launch 사용 안내서의 [규칙](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/manage-resources/rules.html)을 참조하십시오.
+규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. Adobe Experience Platform Launch 사용 안내서의 [규칙](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html)을 참조하십시오.
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
 1. 원하는 Launch 속성을 클릭합니다.
