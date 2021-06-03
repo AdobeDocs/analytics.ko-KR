@@ -2,11 +2,10 @@
 title: 데이터 레이어 개체를 데이터 요소에 매핑
 description: 데이터 레이어에서 읽을 Launch를 구성합니다.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch를 사용하여 데이터 요소 만들기
 
-[데이터 요소](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)는 Launch의 구성 요소로서 도구 전체에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
+[데이터 요소](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)는 Launch의 구성 요소로서 도구 전체에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
 1. 원하는 Launch 속성을 클릭합니다.
