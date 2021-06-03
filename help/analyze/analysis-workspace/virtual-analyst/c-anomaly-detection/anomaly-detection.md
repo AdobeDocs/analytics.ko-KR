@@ -5,11 +5,10 @@ uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 feature: AI 도구
 role: Business Practitioner, Administrator
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 91%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 100%
 
 Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 보고 분석할 수 있습니다.
 
-[예외 항목 탐지 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  (4:53)
+[예외 항목 탐지 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  (4:53)
 
-[기여도 분석 비디오 튜토리얼](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  (3:20)
+[기여도 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  (3:20)
 
 >[!IMPORTANT]
 >
@@ -38,7 +37,7 @@ Analysis Workspace 내에서 데이터 예외 항목을 컨텍스트에 따라 �
 * 비디오 버퍼 이벤트의 스파이크
 * 낮은 비디오 비트율의 스파이크
 
-Analysis Workspace에서 예외 항목 탐지 및 [기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능은 모두 핵심 워크플로입니다. 매일 발생하는 임의의 예외 항목에 대해 [기여도 분석]을 실행하고 Analysis Workspace 프로젝트에 그 결과를 포함할 수 있습니다.
+Analysis Workspace에서 예외 항목 탐지 및 [기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능은 모두 핵심 워크플로입니다. 매일 발생하는 임의의 예외 항목에 대해 [기여도 분석]을 실행하고 Analysis Workspace 프로젝트에 그 결과를 포함할 수 있습니다.
 
 Analysis Workspace의 예외 항목 탐지 알고리즘에 포함된 기능은 다음과 같습니다.
 
