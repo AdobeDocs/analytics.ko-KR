@@ -2,18 +2,20 @@
 description: Adobe Data Connectors 구성 마법사를 사용하여 통합을 설정합니다.
 title: 통합 활성화
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 520a2b59-5595-4337-b71c-ea0448bf9267
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 97%
 
 ---
-
 
 # 통합 활성화 {#activate-the-integration}
 
 Adobe Data Connectors 구성 마법사를 사용하여 통합을 설정합니다.
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html)를 시작하고 **[!UICONTROL + 새로 추가]**&#x200B;를 클릭하여 [새 통합을 추가할 수 있습니다](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. **[!UICONTROL 표시]** 목록에서 **[!UICONTROL 이름별]**&#x200B;을 선택하고 [!DNL ~Partner~] 통합을 빈 플러그인 슬롯으로 드래그합니다.
 1. 다음 표의 정보를 사용하여 통합 마법사를 완료합니다.
 
 | 필드 | 설명 |
