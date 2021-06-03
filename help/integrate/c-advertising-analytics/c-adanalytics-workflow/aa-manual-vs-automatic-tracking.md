@@ -2,11 +2,10 @@
 description: 추적은 Adobe Analytics 구현에 따라 검색 엔진 데이터를 추적하는 방법을 결정합니다. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
 title: 추적 수동 모드 및 자동 모드
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://docs.adobe.com/content/help/ko-KR/id-service/using/reference/csp.html)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 모드 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
