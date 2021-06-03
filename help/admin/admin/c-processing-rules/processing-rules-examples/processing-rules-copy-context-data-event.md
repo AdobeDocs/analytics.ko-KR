@@ -2,14 +2,13 @@
 description: '처리 규칙은 컨텍스트 데이터 변수에 따라 이벤트를 트리거할 수 있습니다. '
 subtopic: Processing rules
 title: 컨텍스트 데이터 변수를 사용하여 이벤트 설정
-feature: Admin Tools
+feature: 관리 도구
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 95%
 
 ---
 
@@ -38,4 +37,4 @@ ht-degree: 100%
 
 ![](assets/processing_rule_set_event.png)
 
-구현 도움말에서 [컨텍스트 데이터 변수](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/contextdata.html)를 참조하십시오.
+구현 도움말에서 [컨텍스트 데이터 변수](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)를 참조하십시오.
