@@ -2,11 +2,10 @@
 title: Adobe Analytics의 글로벌 보고서 세트
 description: 글로벌 보고서 세트 사용에 대한 장점과 요구 사항을 이해합니다.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '872'
+ht-degree: 98%
 
 ---
 
@@ -42,8 +41,8 @@ ht-degree: 100%
    >
    >주어진 사용자 지정 변수가 도메인 간에 유사하게 사용되는지 확인하십시오. 동일한 eVar 또는 이벤트를 여러 사이트 간에 서로 다른 목적으로 사용하지 마십시오.
 1. 각 도메인에 데이터 수집을 간소화하는 데이터 레이어가 있는지 확인합니다. 데이터 레이어 없이도 여전히 데이터를 수집할 수는 있지만 특히 사이트의 재디자인 시에는 구현의 안정성과 수명이 줄어듭니다.
-1. Adobe Experience Platform Launch를 사용하여 Analytics를 구현합니다. 서로 다른 사이트는 서로 다른 데이터 요소를 필요로 할 수 있습니다. 각 도메인에 대한 규칙을 사용하여 각 데이터 요소가 올바로 채워졌는지 확인한 다음, 해당 데이터 요소를 각각의 해당 eVar 및 이벤트에 지정하십시오. Adobe Experience Platform Launch 사용 안내서의 [Launch 개요](https://docs.adobe.com/content/help/ko-KR/launch/using/overview.html)를 참조하십시오.
-1. [Adobe Experience Cloud ID Service](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 포함하고 [appendVisitorIDsTo](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/methods/appendvisitorid.html) 함수를 사용합니다. 이 함수는 사용자가 한 도메인에서 다른 도메인으로 클릭하여 이동할 때 방문자 데이터를 병합합니다.
+1. Adobe Experience Platform Launch를 사용하여 Analytics를 구현합니다. 서로 다른 사이트는 서로 다른 데이터 요소를 필요로 할 수 있습니다. 각 도메인에 대한 규칙을 사용하여 각 데이터 요소가 올바로 채워졌는지 확인한 다음, 해당 데이터 요소를 각각의 해당 eVar 및 이벤트에 지정하십시오. Adobe Experience Platform Launch 사용 안내서의 [Launch 개요](https://experienceleague.adobe.com/docs/launch/using/overview.html)를 참조하십시오.
+1. [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 포함하고 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) 함수를 사용합니다. 이 함수는 사용자가 한 도메인에서 다른 도메인으로 클릭하여 이동할 때 방문자 데이터를 병합합니다.
 
 ## 글로벌 보고서 세트로 기존 구현 수정
 
