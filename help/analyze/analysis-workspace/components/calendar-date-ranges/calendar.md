@@ -5,11 +5,10 @@ uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 
 사용자는 날짜 (및 시간 차원)를 작업 공간 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
-[Analysis Workspace에서 날짜 범위 및 달력 사용](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
+[Analysis Workspace에서 날짜 범위 및 달력 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | 설정 | 설명 |
 |--- |--- |
