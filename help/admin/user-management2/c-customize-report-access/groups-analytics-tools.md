@@ -6,10 +6,10 @@ title: Analytics 도구 권한 사용자 지정
 feature: 관리 도구
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 97%
+source-wordcount: '644'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션한 후 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 폐기됩니다.
+>사용자 및 제품 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다. 모든 고객이 마이그레이션되면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]**&#x200B;에 대한 도움말 컨텐츠가 사용되지 않습니다.
 
 일반 항목(청구, 로그 등), 회사 관리, 도구, 웹 서비스 액세스, Report Builder 및 Data Connectors 통합에 대한 사용자 권한을 활성화합니다.
 
@@ -52,18 +52,18 @@ ht-degree: 97%
 | [보안](/help/admin/company/security-manager.md) | 보고 데이터에 대한 액세스를 제어할 수 있도록 보안 관리자 페이지에 대한 권한을 부여합니다. 강력한 암호, 암호 만료일, IP 로그인 제한 및 이메일 도메인 제한 옵션이 제공됩니다. |
 | 지원 정보 | 회사 설정의 지원 정보에 대한 권한을 부여합니다. |
 | [웹 서비스](/help/admin/company/web-services-admin.md) | 관리 도구 인터페이스에서 웹 서비스 페이지에 대한 액세스를 허용합니다([!UICONTROL 회사 설정] > [!UICONTROL 웹 서비스]).<br>웹 서비스 API를 사용하면 사용자 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 Adobe Analytics 서비스에 프로그래밍 방식으로 액세스할 수 있습니다. |
-| Single Sign-On(이전) | 관리 도구의 Single Sign-On 페이지에 대한 액세스 권한을 부여합니다.<br>**참고:** Adobe Experience Cloud에서 단일 사인온은 Experience Cloud와 솔루션 간 [계정 연결](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html)을 사용하여 구현됩니다. |
+| Single Sign-On(이전) | 관리 도구의 Single Sign-On 페이지에 대한 액세스 권한을 부여합니다.<br>**참고:** Adobe Experience Cloud에서 단일 사인온은 Experience Cloud와 솔루션 간 [계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)을 사용하여 구현됩니다. |
 | [보류 중인 작업](/help/admin/company/pending-actions-admin.md) | [!UICONTROL 회사 설정]에서 보류 중인 작업을 관리할 권한을 부여합니다. |
 | [공동 브랜딩](/help/admin/company/co-branding-admin.md) | Analytics를 공동 브랜딩할 권한을 부여합니다. |
 | [기본 설정](/help/admin/admin/preferences-manager.md) | [!UICONTROL 기본 설정 관리자]에 대한 권한을 부여합니다. |
 | [보고서 세트 숨기기](/help/admin/company/c-hide-report-suites.md) | Adobe Analytics 사용자 인터페이스에서 보고서 세트를 숨길 권한을 부여합니다. |
 | **도구** | 이러한 설정은 Analytics 도구(인터페이스와 애플리케이션) 및 고급 기능(세그멘테이션 및 계산된 지표)에 대한 액세스 권한을 부여합니다. |
-| [현재 데이터](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/current-data.html) | 보고에 현재 데이터 기능을 사용할 권한을 부여합니다. |
+| [현재 데이터](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ko-KR) | 보고에 현재 데이터 기능을 사용할 권한을 부여합니다. |
 | 웹 서비스 액세스 | 관리자가 아닌 사용자에 대한 웹 서비스 액세스를 활성화합니다. 웹 서비스 자격 증명을 생성합니다. |
-| [Report Builder](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | 이 그룹 구성원에게 [!UICONTROL Report Builder] 라이선스에 대한 액세스 권한을 부여합니다. |
-| [Analysis Workspace 액세스](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/home.html) | [!DNL Adobe Analytics]에 대한 권장 보고 인터페이스인 Analysis Workspace에 액세스할 권한을 사용자에게 부여합니다. |
-| [Reports &amp; Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/landing/an-key-concepts.html) | 사용자에게 Reports &amp; Analytics에 액세스할 권한을 부여합니다. |
-| [계산된 지표 생성](https://docs.adobe.com/content/help/ko-KR/analytics/components/calculated-metrics/cm-overview.html) | 사용자에게 계산된 지표를 생성할 권한을 부여합니다. |
-| [세그먼트 생성](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html) | 사용자에게 세그먼트를 생성할 권한을 부여합니다. |
+| [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | 이 그룹 구성원에게 [!UICONTROL Report Builder] 라이선스에 대한 액세스 권한을 부여합니다. |
+| [Analysis Workspace 액세스](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR) | [!DNL Adobe Analytics]에 대한 권장 보고 인터페이스인 Analysis Workspace에 액세스할 권한을 사용자에게 부여합니다. |
+| [Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html) | 사용자에게 Reports &amp; Analytics에 액세스할 권한을 부여합니다. |
+| [계산된 지표 생성](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) | 사용자에게 계산된 지표를 생성할 권한을 부여합니다. |
+| [세그먼트 생성](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) | 사용자에게 세그먼트를 생성할 권한을 부여합니다. |
 | **Data Connectors** |  |
 | 통합(생성, 업데이트 또는 삭제) | Data Connectors 통합을 생성하고, 업데이트하고, 삭제할 권한을 부여합니다. |
