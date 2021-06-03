@@ -4,11 +4,10 @@ title: FAQ
 feature: 세그먼테이션
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 100%
+source-wordcount: '2072'
+ht-degree: 98%
 
 ---
 
@@ -20,8 +19,8 @@ ht-degree: 100%
 
 * Analysis Workspace의 세그먼테이션:
 
-   * [세그먼트를 비교](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)할 수 있습니다.
-   * 비교에서 [세그먼트를 차원으로](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/audience-library.html) 사용합니다.
+   * [세그먼트를 비교](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)할 수 있습니다.
+   * 비교에서 [세그먼트를 차원으로](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 사용합니다.
    * [폴아웃 분석](https://docs.adobe.com/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)에서 세그먼트를 사용합니다.
 
 * [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
@@ -74,7 +73,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 **세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
 
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
+기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
 
 관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](/help/components/segmentation/seg-reference/seg-rights.md)
 
@@ -337,7 +336,7 @@ seg_definition.xml
 | 모바일 책갈피 길이 | Java 활성화 | 유료 검색 |
 | 모바일 URL 길이 | language |  |
 
-## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 알려진 값 세트를 갖는 정수 기반 차원 (예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여 줍니다.
 
