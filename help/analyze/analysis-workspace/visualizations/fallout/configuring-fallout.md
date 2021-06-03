@@ -5,10 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: 시각화
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 2d30969652991564379c37801b353803e73e5f8c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 추가할 수 있는 단계의 수나 사용된 차원의 수에 대한 제한은 없습니다.
 
-머천다이징 eVar 및 [listVars](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/page-vars/page-variables.html)를 포함한 eVar에 대해 경로를 지정할 수 있습니다 (제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 히트당 여러 개의 값이 있을 수 있는 변수). 예를 들어, 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
+머천다이징 eVar 및 [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)를 포함한 eVar에 대해 경로를 지정할 수 있습니다 (제품, listVars, 머천다이징 eVar 및 목록 속성과 같이 히트당 여러 개의 값이 있을 수 있는 변수). 예를 들어, 어떤 사람이 한 페이지에서 신발, 셔츠를 보고 다른 페이지에서는 셔츠, 양말을 보는 경우, 신발의 다음 제품 흐름 보고서는 셔츠가 아니라 셔츠 및 양말이 됩니다.
 
 1. 시각화 드롭다운의 [!UICONTROL 폴아웃] 시각화를 [!UICONTROL 자유 형식 테이블]로 드래그합니다.
 
