@@ -5,11 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 100%
+source-wordcount: '2335'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 이 보고서를 실행하려면 보고서(예: 페이지 보고서)를 선택합니다(**[!UICONTROL 보고서]** > **[!UICONTROL 캠페인]** > **[!UICONTROL 추적 코드]** > **[!UICONTROL 캠페인 전환 단계]**).
 
-설명은 [전환 보고서](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)를 참조하십시오.
+설명은 [전환 보고서](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html)를 참조하십시오.
 
 ## 폴아웃 보고서 실행 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -75,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-Analysis Workspace에서 새 [폴아웃 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 패널을 확인하십시오!
+Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 패널을 확인하십시오!
 
 1. [!UICONTROL Adobe Analytics]에서 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 폴아웃]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 폴아웃 보고서] 페이지에서 **[!UICONTROL 폴아웃 보고서 빌더 시작]**&#x200B;을 클릭합니다. 
@@ -89,16 +88,16 @@ Analysis Workspace에서 새 [폴아웃 분석](https://docs.adobe.com/content/h
 
 >[!MORELIKETHIS]
 >
->* [폴아웃 보고서 설명](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [폴아웃 보고서 설명](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## 페이지 흐름 보고서 실행 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 페이지 흐름 보고서는 방문자가 페이지를 액세스하여 사이트를 탐색하는 순서를 보여줍니다. 이 보고서는 응답하는 데 도움이 됩니다.
 
-Analysis Workspace에서 새 [흐름 시각화](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)를 확인하십시오!
+Analysis Workspace에서 새 [흐름 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)를 확인하십시오!
 
-[경로](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) 보고서를 실행합니다.
+[경로](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html) 보고서를 실행합니다.
 
 예를 들어 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 다음 페이지 흐름]**&#x200B;을 클릭합니다.
 
@@ -124,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. **[!UICONTROL 보고서]** > **[!UICONTROL 제품]** > [제품 전환 단계](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)를 클릭합니다.
+1. **[!UICONTROL 보고서]** > **[!UICONTROL 제품]** > [제품 전환 단계](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)를 클릭합니다.
 
 ## 마케팅 채널 보고서 실행 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -148,15 +147,15 @@ t_anomaly_view.xml
 
  -->
 
-Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능을 확인하십시오!
+Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능을 확인하십시오!
 
 **[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 예외 항목 탐지]** .
 
 >[!NOTE]
 >
->Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)를 참조하십시오.
+예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)를 참조하십시오.
 
 예외 항목 탐지에는 요약 차트와 개별 지표 차트, 이렇게 두 종류의 차트가 표시됩니다. 개별 지표 차트는 해당 지표에 대해 하나 이상의 예외 항목이 탐지된 경우에만 표시됩니다.
 
@@ -183,7 +182,7 @@ Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https:/
         <li id="li_4090357A0D214BC7B1C3DE0615875554">하한과 예상 값이 동일하면 편차 비율은 –100%입니다. </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">그 외의 경우 편차 비율은 ((하한 값 – 실제 값)/(예상 값 – 하한 값)) * -100입니다. </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  >추가 정보</a>. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  >추가 정보</a>. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60"><span class="uicontrol">지표 편집</span>을 클릭하면 예외 항목을 탐지할 지표를 선택하거나 선택 취소할 수 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,7 +235,7 @@ t_anomaly_config.xml
 
    ![](assets/ad_top_menu.png)
 
-   세그먼트 만들기나 관리에 대한 자세한 내용은 [분석 세그멘테이션 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오. 1. (선택 사항) 보고서를 즐겨찾기 또는 책갈피로 추가합니다.
+   세그먼트 만들기나 관리에 대한 자세한 내용은 [분석 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오. 1. (선택 사항) 보고서를 즐겨찾기 또는 책갈피로 추가합니다.
 1. (선택 사항) 보기 기간의 종료 날짜를 변경합니다. 기본값은 어제입니다.
 1. 이제 보고서 해석을 시작할 수 있습니다. [예외 항목 탐지 차트를 봅니다](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
@@ -254,7 +253,7 @@ reports_realtime.xml
 
 실시간 보고에서는 개요 보고서와 세부 사항 보고서, 이렇게 두 개의 기본 보고서를 제공합니다. 이 보고서들은 각각 많은 reportlet으로 구성됩니다.
 
-실시간 보고서 구성에 대한 자세한 내용은 [Analytics 참조 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html#RealTime_Reports_Configuration)를 참조하십시오.
+실시간 보고서 구성에 대한 자세한 내용은 [Analytics 참조 안내서](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration)를 참조하십시오.
 
 1. **[!UICONTROL 개요]** 보고서 및 그 구성 요소를 살펴 봅니다.  ![](assets/rtr_overview_report.png)
 
@@ -265,7 +264,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 세트 선택</strong></td> 
-   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >실시간 보고서 구성</a>을 참조하십시오 . </td> 
+   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >실시간 보고서 구성</a>을 참조하십시오 . </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 간 전환</strong></td> 
