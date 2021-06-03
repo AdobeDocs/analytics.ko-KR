@@ -3,10 +3,10 @@ description: 다중 통화 지원이 작동하도록 대상 통화 코드를 정
 title: 다중 통화 지원
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '1358'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 ## 페이지 수준
 
-페이지 수준에서 대상 통화에 대한 JavaScript 변수를 설정할 수 있습니다. 사이트 소유자는 적절한 세 글자 ISO 4217 통화 코드 (이 문서의 아래 참조)를 사용하여 이 변수를 설정합니다. [currencyCode](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/currencycode.html) 변수가 이 수준에서 설정되지 않은 경우 기본 통화는 보고서 세트에 지정된 것과 동일합니다. 페이지 수준의 변수가 보고서 세트에 지정된 변수와 충돌하는 경우 보고서 세트의 변수가 우선합니다.
+페이지 수준에서 대상 통화에 대한 JavaScript 변수를 설정할 수 있습니다. 사이트 소유자는 적절한 세 글자 ISO 4217 통화 코드 (이 문서의 아래 참조)를 사용하여 이 변수를 설정합니다. [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) 변수가 이 수준에서 설정되지 않은 경우 기본 통화는 보고서 세트에 지정된 것과 동일합니다. 페이지 수준의 변수가 보고서 세트에 지정된 변수와 충돌하는 경우 보고서 세트의 변수가 우선합니다.
 
 
 ## 보고서 세트 수준
 
-**기본 통화**&#x200B;는 [보고서 세트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)를 만들 때 지정됩니다. 기본 통화는 통화에 대한 기본 설정이며 페이지 수준에서 설정된 통화 코드보다 우선합니다. 가령, 보고서 세트에 미국 달러, 유로, 영국 파운드를 수락하는 주문이 있으며 기본 통화 코드가 &quot;미국 달러&quot;로 설정되었으면 보고 백엔드 데이터베이스가 모든 거래를 미국 달러로 변환합니다.
+**기본 통화**&#x200B;는 [보고서 세트](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)를 만들 때 지정됩니다. 기본 통화는 통화에 대한 기본 설정이며 페이지 수준에서 설정된 통화 코드보다 우선합니다. 가령, 보고서 세트에 미국 달러, 유로, 영국 파운드를 수락하는 주문이 있으며 기본 통화 코드가 &quot;미국 달러&quot;로 설정되었으면 보고 백엔드 데이터베이스가 모든 거래를 미국 달러로 변환합니다.
 
 마케팅 보고서는 이미지 요청이 발생한 시점의 환율을 사용하여 페이지 수준 통화 값을 기본 보고서 세트 통화 값으로 변환합니다. 보고서 세트가 &quot;미국 달러&quot;를 기본 통화로 사용합니다.
 
