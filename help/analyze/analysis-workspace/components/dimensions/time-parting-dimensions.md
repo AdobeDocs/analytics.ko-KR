@@ -5,11 +5,10 @@ uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->시간 분할 차원은 Analysis Workspace에서만 사용할 수 있습니다. 다른 분석 솔루션에서 시간 분할 차원을 사용하려면 [getTimeParting 플러그인](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/plugins/gettimeparting.html)을 구현할 수 있습니다.
+>시간 분할 차원은 Analysis Workspace에서만 사용할 수 있습니다. 다른 분석 솔루션에서 시간 분할 차원을 사용하려면 [getTimeParting 플러그인](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html)을 구현할 수 있습니다.
 
 Analysis Workspace의 시간 분할 차원에는 다음 항목이 포함됩니다.
 
