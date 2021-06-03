@@ -4,10 +4,9 @@ title: Analysis Workspace의 일반 오류 메시지
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '448'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -20,7 +19,7 @@ Analysis Workspace와 상호 작용할 때 성능에도 영향을 주는 오류�
 | --- | --- | --- |
 | [!UICONTROL 시스템 오류가 발생했습니다. 도움말 > 지원 티켓 제출의 고객 지원 요청을 로그하여 오류 코드를 포함하십시오.] | Adobe에서 해결해야 하는 문제가 발생했습니다. | 오류 코드를 고객 지원에 제출합니다. |
 | [!UICONTROL 예상치 못한 오류가 발생했습니다. 프로젝트를 다시 새로 고치십시오. 문제가 지속되면 이 오류 ID를 Adobe 고객 지원 센터에 제출하여 추가 진단을 받으십시오.] | Adobe에서 해결해야 하는 문제가 발생했습니다. | 프로젝트를 다시 새로 고치고 오류 코드를 고객 지원 센터에 제출하십시오. |
-| [!UICONTROL 오류 500: 페이지 로드 실패] | 회사 [방화벽 설정](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/ip-addresses.html)과 같이 로컬 네트워크에 있는 문제가 이 오류의 발생 요소입니다. Adobe에서 해결해야 하는 문제가 발생할 수도 있습니다. | 몇 분 후에 다시 로그인해 보십시오. 문제가 계속 발생하면 EIM 인스턴스 ID 코드를 고객 지원에 제출합니다. |
+| [!UICONTROL 오류 500: 페이지 로드 실패] | 회사 [방화벽 설정](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)과 같이 로컬 네트워크에 있는 문제가 이 오류의 발생 요소입니다. Adobe에서 해결해야 하는 문제가 발생할 수도 있습니다. | 몇 분 후에 다시 로그인해 보십시오. 문제가 계속 발생하면 EIM 인스턴스 ID 코드를 고객 지원에 제출합니다. |
 | [!UICONTROL 세그먼트 중 하나 또는 이 시각화의 검색어 중에 너무 많은 검색 결과를 반환하는 텍스트가 포함되어 있습니다.] | 세그먼트 기준이나 보고서 필터가 너무 광범위합니다. | 검색 텍스트 기준을 좁히고 요청을 다시 시도하십시오. |
 | [!UICONTROL 보고서 세트에 비정상적으로 많은 보고가 발생했습니다. 나중에 다시 시도하십시오.] | 조직에서 특정 보고서 세트에 대해 너무 많은 동시 요청을 실행하려고 합니다. 이 오류에 기여하는 요소는 API 요청, 예약된 프로젝트, 예약된 보고서, 예약된 경고 및 보고 요청을 수행하는 동시 사용자입니다. | 보고서 세트에 대한 요청과 일정을 하루 전체에 더 고르게 분산시킵니다. |
 | [!UICONTROL 요청이 너무 복잡합니다.] | 보고 요청이 너무 커서 실행할 수 없습니다. 이 오류에 기여하는 요소는 요청의 크기로 인한 시간 초과, 세그먼트 또는 검색 필터에 일치하는 항목이 너무 많음, 포함된 지표가 너무 많음, 호환되지 않는 차원과 지표 조합 등입니다. | 테이블에서 일부 열 또는 행을 제거하여 요청을 단순화하거나 테이블을 별도 요청으로 분할해 보십시오. |
