@@ -2,11 +2,10 @@
 title: iframe과 함께 AppMeasurement 사용
 description: iframe에 있는 동안 iframe 또는 상위 페이지 내에서 Adobe Analytics 변수에 액세스합니다.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-translation-type: ht
-source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 하위 및 상위 iframe 모두에서 AppMeasurement 변수를 참조할 수 있습니다. AppMeasurement 라이브러리가 존재하는 동일한 위치에 모든 변수를 정의해야 합니다. 다음 예에서는 iframe 내부 및 외부에서 기본 AppMeasurement 변수 및 메서드를 설정하는 방법을 설명합니다.
 
-Adobe Experience Platform Launch를 사용하는 경우 추적기 개체에 전역적으로 액세스할 수 있는지 확인하십시오. Launch 사용 안내서의 [Adobe Analytics 확장 개요](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)를 참조하십시오.
+Adobe Experience Platform Launch를 사용하는 경우 추적기 개체에 전역적으로 액세스할 수 있는지 확인하십시오. Launch 사용 안내서의 [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)를 참조하십시오.
 
 >[!CAUTION]
 >
@@ -66,5 +65,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 다른 JavaScript 코드와 마찬가지로 iframe은 도메인과 프로토콜이 일치할 때만 통신할 수 있습니다. 이 예제는 iframe 콘텐츠가 상위 도메인과 다른 도메인에 있는 경우 작동하지 않습니다.
 * AppMeasurement가 iframe에 있는 경우 [`referrer`](../vars/page-vars/referrer.md) 변수는 실제 참조 URL이 아닌 상위 URL로 설정됩니다. `referrer` 변수를 수동으로 설정하여 이 문제를 해결할 수 있습니다.
-* [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/ko-KR/debugger/using/experience-cloud-debugger.html)는 iframe 내에서 트리거된 이미지 요청을 인식하지 않습니다.
+* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)는 iframe 내에서 트리거된 이미지 요청을 인식하지 않습니다.
 * Activity Map은 iframe 내에서 클릭된 링크 위에 히트맵을 표시하지 않습니다. 대신 전체 iframe이 강조 표시됩니다.
