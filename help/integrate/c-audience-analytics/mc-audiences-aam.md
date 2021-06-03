@@ -4,11 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +17,7 @@ AAM (Adobe Audience Manager)은 퍼스트 파티, 세컨드 파티/파트너 및
 
 Audience Analytics이 적절히 통합되면 인구 통계학 정보 (예: 성별 또는 수입 수준), 사이코그래프 정보 (예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터 등의 AAM 대상 데이터를 Analytics 워크플로에 통합할 수 있습니다.
 
-## 핵심적인 이점 {#section_94816D17283349E0BA28521BE55BB868}
+## 주요 이점 {#section_94816D17283349E0BA28521BE55BB868}
 
 Audience Analytics의 통합은 다음과 같은 주요 이점을 제공합니다.
 
@@ -40,14 +39,14 @@ AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문�
 
 또한 AAM 세그먼트 ID를 사용자에게 친숙한 이름으로 자동 분류하므로 Analytics 보고서에서 영숫자 ID를 확인하지 않아도 됩니다.
 
-## 전제 조건 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## 사전 요구 사항 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
 다음 전제 조건이 적용되었는지 확인합니다.
 
 * Audience Manager와 Adobe Analytics의 고객입니다.
 * Audience Manager 관리자입니다.
 * Identity Service v1.5 이상을 사용하고 있습니다.
-* AAM 및 Adobe Analytics 보고서 세트는 [동일한 Experience Cloud 조직에 매핑](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)됩니다.
-* [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
+* AAM 및 Adobe Analytics 보고서 세트는 [동일한 Experience Cloud 조직에 매핑](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)됩니다.
+* [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
 
 이러한 전제 조건은 [Audience Analytics 워크플로](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)에 설명되어 있습니다.
