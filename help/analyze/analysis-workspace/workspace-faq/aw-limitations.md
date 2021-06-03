@@ -4,9 +4,9 @@ title: Analysis Workspace의 알려진 제한 사항
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 98%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 98%
 ## 구성 요소 > 세그먼트
 
 * 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 세그먼테이션할 수 없습니다.
-* [패널 드롭존](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/panels.html)에 만든 임시 세그먼트는 공개하지 않으면 작업 공간 또는 세그먼트 구성 요소 관리자의 왼쪽 레일에 나타나지 않습니다. 해당 세그먼트를 공개하려면 세그먼트를 편집하고 **[!UICONTROL 이 세그먼트 공개하기]**&#x200B;를 선택하면 됩니다.
+* [패널 드롭존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=)에 만든 임시 세그먼트는 공개하지 않으면 작업 공간 또는 세그먼트 구성 요소 관리자의 왼쪽 레일에 나타나지 않습니다. 해당 세그먼트를 공개하려면 세그먼트를 편집하고 **[!UICONTROL 이 세그먼트 공개하기]**&#x200B;를 선택하면 됩니다.
 
 ## 구성 요소 > 계산된 지표
 
