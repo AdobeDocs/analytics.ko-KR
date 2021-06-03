@@ -5,11 +5,10 @@ title: Data Sources 사용 준비
 topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 
 데이터 소스 데이터에 대한 적절한 지표-이벤트 매핑을 결정했으면 해당 연결 데이터 소스 지표에 적절한 설명 이름으로 이벤트 이름을 변경하십시오.
 
-관리 도구 도움말의 [성공 이벤트](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
+관리 도구 도움말의 [성공 이벤트](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. 데이터 소스에서 데이터 차원을 수신할 eVar를 선택한 후에는 적절하게 이름을 지정하십시오. 
 
-Analytics 도움말의 [성공 이벤트](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
+Analytics 도움말의 [성공 이벤트](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
 
 ## 캠페인 추적 코드 {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +62,7 @@ Analytics 도움말의 [성공 이벤트](https://docs.adobe.com/content/help/en
 
 거래 ID는 온라인 이벤트를 오프라인 이벤트에 연결하는 데 사용됩니다.
 
-## 데이터 소스 데이터에 대한 유효한 날짜 범위 식별  {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## 데이터 소스 데이터에 대한 유효한 날짜 범위 식별 {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 데이터 소스 지표(사용자 정의 이벤트)와 데이터 차원(eVar)을 정의한 후에는 가져오려는 데이터 소스 데이터의 날짜 범위를 검토하십시오. 기존 보고 데이터 날짜 범위 밖의 데이터 소스는 가져올 수 없습니다.
 
