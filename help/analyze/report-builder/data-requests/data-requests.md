@@ -3,14 +3,13 @@ description: Report Builder에서 요청을 만들 때의 첫 번째 단계입�
 title: 데이터 요청 - 요청 마법사 1단계
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 95%
 
 ---
-
 
 # 데이터 요청 - 요청 마법사 1단계
 
@@ -22,7 +21,7 @@ ht-degree: 96%
 
 1. **범위 선택기**: Excel의 셀에서 보고서 세트 ID를 선택할 수 있습니다. 자세한 내용은 [보고서 세트 선택](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **세그먼트**: 는 데이터의 사용자 지정 하위 세트이거나 작성한 규칙으로 필터링된 데이터입니다. 세그먼트는 히트 수, 방문 횟수 및 방문자 수를 기반으로 합니다. 세그먼트에 대한 자세한 내용은 [Analytics 세그멘테이션 안내서](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/seg-home.html)를 참조하십시오.
+1. **세그먼트**: 는 데이터의 사용자 지정 하위 세트이거나 작성한 규칙으로 필터링된 데이터입니다. 세그먼트는 히트 수, 방문 횟수 및 방문자 수를 기반으로 합니다. 세그먼트에 대한 자세한 내용은 [Analytics 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 
    예를 들어 [!UICONTROL 페이지 보고서]를 실행한 다음 최초 방문 세그먼트를 적용할 수 있습니다.
 
