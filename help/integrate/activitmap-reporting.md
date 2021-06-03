@@ -4,11 +4,10 @@ title: Activity Map 보고
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 95%
 
 ---
 
@@ -30,4 +29,4 @@ Analytics를 사용하여 Activity Map (이전에 ClickMap)에서 제공된 사�
    | Activity Map 링크 | 전체 웹 사이트에서 수집한 모든 링크를 나열합니다. |
    | Activity Map 링크 및 영역 | 전체 웹 사이트에서 해당 영역과 함께 수집된 모든 링크를 나열합니다. |
 
-데이터를 채우려면 [Activity Map 설명서](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/activity-map/activity-map.html)에서 전체 구현 지침을 참조하십시오.
+데이터를 채우려면 [Activity Map 설명서](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)에서 전체 구현 지침을 참조하십시오.
