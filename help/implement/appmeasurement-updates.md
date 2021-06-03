@@ -3,11 +3,10 @@ title: JavaScript 릴리스 노트의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 노트입니다.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2142'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2132'
+ht-degree: 98%
 
 ---
 
@@ -309,8 +308,8 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 릴리스 날짜: **2015년 5월 21일**
 
-* iOS SDK 버전 4.5부터 새로운 iOS 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 iOS 확장 앱의 사용 데이터를 수집할 수 있습니다. Mobile Services 사용 안내서에서 [iOS 확장 구현](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/ios-ext/ios-ext.html)을 참조하십시오.
-* Android SDK 버전 4.5에서 시작하는 새 Android 확장 기능을 사용하면 Android 웨어러블 앱의 데이터를 수집할 수 있습니다. Mobile Services 사용 안내서에서 [Android 웨어러블](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/wearables-android/android-wearable.html)을 참조하십시오.
+* iOS SDK 버전 4.5부터 새로운 iOS 확장을 사용하면 Apple Watch 앱, 오늘 위젯, 사진 편집 위젯 및 기타 모든 iOS 확장 앱의 사용 데이터를 수집할 수 있습니다. Mobile Services 사용 안내서에서 [iOS 확장 구현](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html)을 참조하십시오.
+* Android SDK 버전 4.5에서 시작하는 새 Android 확장 기능을 사용하면 Android 웨어러블 앱의 데이터를 수집할 수 있습니다. Mobile Services 사용 안내서에서 [Android 웨어러블](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html)을 참조하십시오.
 * 방문자 API 1.4 포함.
 * DIL 버전 6.0을 사용하도록 AudienceManagement 모듈을 업데이트했습니다.
 
@@ -395,7 +394,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 릴리스 날짜: **2014년 4월 17일**
 
-* [Experience Cloud 방문자 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html) 지원.
+* [Experience Cloud 방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 지원.
 
 ## 버전 1.2.4
 
@@ -425,8 +424,8 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 릴리스 날짜: **2013년 11월 14일**
 
-* [하트비트 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)에 대한 지원을 추가했습니다.
-* [방문자 ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
+* [하트비트 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)에 대한 지원을 추가했습니다.
+* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
 
 ## 버전 1.1.1
 
