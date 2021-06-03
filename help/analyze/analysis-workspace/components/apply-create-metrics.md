@@ -5,11 +5,10 @@ uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +30,7 @@ Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니�
 
 ![](assets/calc_metrics.png)
 
-[계산된 지표: 구현 불가 지표](https://docs.adobe.com/content/help/ko-KR/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  (3:42)
+[계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  (3:42)
 
 ## 다양한 속성 모델과 지표 비교
 
