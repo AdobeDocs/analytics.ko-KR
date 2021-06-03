@@ -2,10 +2,10 @@
 title: IP 주소로 제외
 description: 특정 IP 주소로 생성된 데이터가 보고서에 표시되지 않도록 합니다.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 82%
+source-wordcount: '221'
+ht-degree: 79%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 82%
 
 보고서에서 내부 웹 사이트 활동, 사이트 테스트 및 직원 사용과 같은 특정 IP 주소의 데이터를 제거할 수 있습니다. IP 주소 데이터를 제외하여 데이터를 제외하면 보고서 정확도가 향상됩니다. 또한 보고서 데이터를 왜곡할 수 있는 서비스 거부나 기타 악의적인 이벤트의 데이터를 제거할 수 있습니다. 방화벽을 사용하여 제외를 구성할 수 있습니다.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL 관리]**   **** >  **[!UICONTROL 모든 관리>IP별로 제외]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL 관리자]**  >  **[!UICONTROL 모든 관리자]**  >  **[!UICONTROL IP별로 제외]**
 
 >[!NOTE]
 >
->IP별로 제외된 히트는 [서버 호출](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/terms.html)로 청구됩니다.
+>IP별로 제외된 히트는 [서버 호출](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)로 청구됩니다.
 
 와일드카드 표시기(*)를 사용하여 주소 범위를 제외할 수 있습니다. 예를 들어 `[!DNL 0.0.*.0]`은 `[!DNL 0.0.0.0]`과 `[!DNL 0.0.255.0]` 사이의 모든 IP 주소를 제외합니다. 최대 50개의 다른 IP 주소를 제외할 수 있습니다.
 
 >[!TIP]
 >
->비공개 IP 주소는 제외할 필요가 없습니다. 외부 IP 주소만 Adobe 데이터 수집 서버에 도달합니다. 개인 주소에는 `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` 및 `169.254.*.*`이 있습니다.
+>비공개 IP 주소는 제외할 필요가 없습니다. 외부 IP 주소만 Adobe 데이터 수집 서버에 도달합니다. 개인 주소는 `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` 및 `169.254.*.*`이 포함됩니다.
 
 ## IP 난독화의 영향 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
