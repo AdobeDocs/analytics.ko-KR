@@ -3,11 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 작성
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +87,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 제품 호환성 </span> </td> 
-   <td colname="col3"> <p>제품 호환성은 지표가 <a href="https://docs.adobe.com/content/help/ko-KR/analytics/analyze/reports-analytics/current-data.html"  >현재 데이터</a>와 호환되는지, 완전히 처리된 데이터와 호환되는지 또는 마케팅 채널 보고서와 호환되는지를 보여줍니다 (첫 번째 터치 할당). <p>참고: 현재 데이터는 일부 데이터를 지원하지 않습니다. 세그먼트나 함수가 들어 있는 지표는 현재 데이터와 호환하지 않습니다. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 자세히... </a> </p> </p> </td> 
+   <td colname="col3"> <p>제품 호환성은 지표가 <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ko-KR"  >현재 데이터</a>와 호환되는지, 완전히 처리된 데이터와 호환되는지 또는 마케팅 채널 보고서와 호환되는지를 보여줍니다 (첫 번째 터치 할당). <p>참고: 현재 데이터는 일부 데이터를 지원하지 않습니다. 세그먼트나 함수가 들어 있는 지표는 현재 데이터와 호환하지 않습니다. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 자세히... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 </span> </td> 
@@ -131,7 +130,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <p>세그먼트 목록 </p> </td> 
-   <td colname="col3"> <p> (고급 계산된 지표만 해당) 관리자로서, 이 목록은 로그인 회사에서 만든 모든 세그먼트를 보여줍니다. 사용자가 관리 사용자가 아닐 경우, 이 목록에는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트가 표시됩니다. <a href="https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segment-reference/seg-rights.html"  > 자세히... </a> </p> </td> 
+   <td colname="col3"> <p> (고급 계산된 지표만 해당) 관리자로서, 이 목록은 로그인 회사에서 만든 모든 세그먼트를 보여줍니다. 사용자가 관리 사용자가 아닐 경우, 이 목록에는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트가 표시됩니다. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > 자세히... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>함수 목록 </p> </td> 
