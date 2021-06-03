@@ -5,11 +5,10 @@ title: 타임스탬프 옵션 사용
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '618'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 >
 >타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
 
-추가적인 설정에 대해서는 [타임스탬프 옵션](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/timestamp-optional.html)을 참조하십시오.
+추가적인 설정에 대해서는 [타임스탬프 옵션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html)을 참조하십시오.
 
 ## 타임스탬프 옵션: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터 통합 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -41,7 +40,7 @@ ht-degree: 100%
 
 * 타임스탬프가 허용되지 않음 (visitorID 설정이 지원됨)
 * 타임스탬프 필수 (visitorID 설정이 지원되지 않음)
-* 타임스탬프 옵션(visitorID 설정이 지원되지만 타임스탬프가 지정된 조회수에서는 지원되지 않음)
+* 타임스탬프 옵션 (visitorID 설정이 지원되지만 타임스탬프가 지정된 조회수에서는 지원되지 않음)
 
 ## 타임스탬프 옵션 기능에 대하여 {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
@@ -69,7 +68,7 @@ ht-degree: 100%
 
    순서가 잘못된 데이터에는 오프라인 데이터 수집에서 늦게 도착하는 데이터와 늦게 도착하는 조회수, 또는 오프라인 모바일 디바이스에서 동기화가 되지 않은 시계가 포함될 수 있습니다. 데이터 순서가 잘못되면 시간 계산 (체류 시간 값 등), 속성 (eVar 지속성), 방문 번호/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
-* [s.visitorID](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/visitor-identification.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
+* [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
 
 * 웹 브라우저 (타임스탬프가 지정되지 않은 라이브 데이터)를 여는 앱 (타임스탬프가 지정된 오프라인 데이터)으로 구성된 하이브리드 앱에서는 타임스탬프를 사용하지 말아야 합니다. 그렇게 하면 세션에 대한 보고가 부정확해집니다.
 
