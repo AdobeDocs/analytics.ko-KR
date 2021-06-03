@@ -2,10 +2,9 @@
 title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '398'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -39,7 +38,7 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 
 ### 자사 쿠키
 
-자사 쿠키 구현을 사용하는 경우 조직의 누군가가 이미 자사 쿠키 프로세스를 완료했을 수 있습니다. 자사 쿠키 프로세스에 대한 자세한 내용은 핵심 서비스 사용 안내서에서 [Experience Cloud의 자사 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-first-party.html)를 참조하십시오.
+자사 쿠키 구현을 사용하는 경우 조직의 누군가가 이미 자사 쿠키 프로세스를 완료했을 수 있습니다. 자사 쿠키 프로세스에 대한 자세한 내용은 핵심 서비스 사용 안내서에서 [Experience Cloud의 자사 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=ko-KR)를 참조하십시오.
 
 처음 자사 쿠키 구현을 구성하는 개인은 사용하는 도메인과 하위 도메인도 정의합니다. 예:
 
