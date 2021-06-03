@@ -3,11 +3,10 @@ description: 보고서 세트 사용량 탭은 현재 사용 기간 동안 청�
 title: 보고서 세트 사용량 보기
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->보고서 세트가 [Experience Cloud 조직에 연결](https://docs.adobe.com/content/help/ko-KR/core-services/interface/about-core-services/report-suite-mapping.html)되지 않은 경우 해당 사용량 데이터가 이 대시보드에 반영되지 않습니다. 또한 청구 ID는 Experience Cloud Orgs에 연결될 수 있습니다. 조직과 청구 ID 간의 관계가 항상 1:1인 것은 아닙니다.
+>보고서 세트가 [Experience Cloud 조직에 연결](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)되지 않은 경우 해당 사용량 데이터가 이 대시보드에 반영되지 않습니다. 또한 청구 ID는 Experience Cloud Orgs에 연결될 수 있습니다. 조직과 청구 ID 간의 관계가 항상 1:1인 것은 아닙니다.
 
 보고서 세트 사용량 대시보드
 
