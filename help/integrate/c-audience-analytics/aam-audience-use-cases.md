@@ -3,11 +3,10 @@ description: Advertising Analytics에 대한 활용 사례.
 title: Audience Analytics 활용 사례
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 ## 유사 잠재고객 모델링 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-멀티 미디어 퍼블리셔로서 [세그먼트 IQ](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)를 사용하여 서드 파티 대상을 비교하여 차별화된 주요 특성을 이해할 수 있습니다. 이렇게 하면 가치가 높은 자사 세그먼트를 구축하여 타깃팅에 사용할 수 있습니다.
+멀티 미디어 퍼블리셔로서 [세그먼트 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)를 사용하여 서드 파티 대상을 비교하여 차별화된 주요 특성을 이해할 수 있습니다. 이렇게 하면 가치가 높은 자사 세그먼트를 구축하여 타깃팅에 사용할 수 있습니다.
 
 ## 전망 분석 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
@@ -31,4 +30,4 @@ B2B 소매업체로서 [순차적 세그먼테이션](https://docs.adobe.com/hel
 
 ## 인구 통계학 타깃팅 {#section_F034DB721A06419283DBD29D4A1B444B}
 
-대상 리조트로서 [Analysis Workspace의 막대 그래프](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/visualizations/histogram.html)를 사용하여 나이별로 분포된 구매를 볼 수 있습니다. 이렇게 하면 각 리조트 속성별로 적합한 잠재 고객을 찾을 수 있습니다.
+대상 리조트로서 [Analysis Workspace의 막대 그래프](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html)를 사용하여 나이별로 분포된 구매를 볼 수 있습니다. 이렇게 하면 각 리조트 속성별로 적합한 잠재 고객을 찾을 수 있습니다.
