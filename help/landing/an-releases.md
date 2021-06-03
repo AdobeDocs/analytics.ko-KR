@@ -2,10 +2,10 @@
 description: Adobe Analytics의 새로운 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Adobe Analytics 기능 릴리스
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ## 기능 플래그
 
-기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe은 릴리스 중 최적의 환경을 위해 app.launchdarkly.com을 방화벽의 [허용 목록](https://docs.adobe.com/content/help/ko-KR/analytics/technotes/ip-addresses.html)에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
+기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe은 릴리스 중 최적의 환경을 위해 app.launchdarkly.com을 방화벽의 [허용 목록](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
 
 **도움말 > Workspace 정보 > 활성 기능 플래그**&#x200B;에서 언제든지 활성 기능 플래그를 볼 수 있습니다.
 
@@ -39,5 +39,5 @@ ht-degree: 95%
 
 | 질문 | 답변 |
 |---|---|
-| 기능에 대한 조기 액세스를 요청할 수 있습니까? | 아니요. 조기 액세스는 허용되지 않습니다.<br>초기 Analytics 개념을 테스트하려는 경우 [Adobe Analytics Labs](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/tech-previews/overview.html)를 사용하여 업계를 선도하는 혁신적인 기술에 대한 피드백을 제공할 것을 권장합니다. |
-| 이 릴리스 전략은 기능 액세스에 영향을 줍니까? | 아니요. 기능이 GA에 도달하면 Analytics 패키지에 포함된 경우 이 기능에 액세스할 수 있습니다.<br>관리 >  [!UICONTROL 모든 관리] >  [!UICONTROL 회사 설정]   [!UICONTROL > 기능 액세스 수준]   [ ](https://docs.adobe.com/content/help/ko-KR/analytics/admin/company-settings/feature-access-levels.html)에서 Analytics 패키지의 세부 사항을 볼 수 있습니다. |
+| 기능에 대한 조기 액세스를 요청할 수 있습니까? | 아니요. 조기 액세스는 허용되지 않습니다.<br>초기 Analytics 개념을 테스트하려는 경우 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html)를 사용하여 업계를 선도하는 혁신적인 기술에 대한 피드백을 제공할 것을 권장합니다. |
+| 이 릴리스 전략은 기능 액세스에 영향을 줍니까? | 아니요. 기능이 GA에 도달하면 Analytics 패키지에 포함된 경우 이 기능에 액세스할 수 있습니다.<br>Analytics 패키지에 대한 세부 사항은  [!UICONTROL 관리]  >  [!UICONTROL 모든 관리]  >  [!UICONTROL 회사 설정]  >  [기능 액세스 수준](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)에서 볼 수 있습니다. |
