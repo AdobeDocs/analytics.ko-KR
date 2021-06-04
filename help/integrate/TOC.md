@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud, Target 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 93%
+source-wordcount: '159'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
    + [Audience Analytics 개요](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 워크플로우 {#audience-analytics-workflow}
       + [워크플로 개요](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Analytics 대상 만들기 - AAM 안내서](https://docs.adobe.com/help/ko-KR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Analytics 대상 만들기 - AAM 안내서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics에서 대상 데이터 사용](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 활용 사례](c-audience-analytics/aam-audience-use-cases.md)
       + [FAQ](c-audience-analytics/mc-audiences-faqs.md)
