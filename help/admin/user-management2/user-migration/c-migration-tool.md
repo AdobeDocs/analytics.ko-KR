@@ -2,9 +2,9 @@
 description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이그레이션에 대해 알아야 할 사항.
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3122'
 ht-degree: 97%
 
 ---
@@ -309,7 +309,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 이 마이그레이션 계획을 현재 사용자에게 사전에 알리고 싶을 수 있습니다. 현재 Analytics 사용자를 모두 보내도록 사용자 지정할 수 있는 템플릿은 다음과 같습니다.
 
-모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)로 이동합니다.
+모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html)로 이동합니다.
 
 **제목:** 예고 - Adobe Analytics 및 Adobe Experience Cloud에 로그인하는 새로운 방법
 
