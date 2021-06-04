@@ -2,9 +2,9 @@
 title: websiteBot
 description: 마우스 움직임을 사용하여 동적으로 보트를 식별합니다.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
+source-git-commit: 7b77e023e9328cd029c326d29a30f9c80b8fbcbd
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 52%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 52%
 
 이 플러그인을 사용하기 전에 다음 사항을 권장합니다.
 
-* **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **Never**&#x200B;로 설정하고 할당을 **&quot;Original Value(First)&quot;**&#x200B;로 설정합니다. 이 eVar은 다음 두 상황에서 모두 설정해야 합니다.[!UICONTROL 직접 호출] 규칙 또는 `s.tl` 호출이 실행된 경우입니다.
+* **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **Never** 또는 **Visit**&#x200B;로 설정하고 **&quot;Original Value(First)&quot;**&#x200B;로 할당하십시오. 이 eVar은 다음 두 상황에서 모두 설정해야 합니다.[!UICONTROL 직접 호출] 규칙 또는 `s.tl` 호출이 실행된 경우입니다.
 * **사용자 에이전트를 별도의 변수로 수집**: 사용자 에이전트 문자열을 별도의 변수로 수집하여 이 플러그인의 효과를 모니터링합니다. 이 데이터를 수집하려면 모든 히트에서 eVar를 `navigator.UserAgent`로 설정합니다.
 
 ## Launch 사용자 지정 코드 편집기를 사용하여 플러그인 설치
