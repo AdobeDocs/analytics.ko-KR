@@ -3,11 +3,10 @@ description: 데이터 개인 정보 보호에서 개인 정보 보호 보고를
 title: 개인 정보 보호 보고 변수
 feature: 관리 도구
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -63,13 +62,13 @@ Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인 정보 설�
 
 개인 정보 보호 보고 관리 예약 변수와 함께 작동하도록 3개의 컨텍스트 데이터 변수가 미리 정의되어 있습니다.  이러한 변수의 설정을 관리하고 유지하는 방법은 각 구현 엔지니어에게 달려 있습니다.
 
-컨텍스트 데이터 변수 구현에 대한 일반적인 지침은 [컨텍스트 데이터 변수](https://docs.adobe.com/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)를 참조하십시오.
+컨텍스트 데이터 변수 구현에 대한 일반적인 지침은 [컨텍스트 데이터 변수](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)를 참조하십시오.
 
 ### SSF
 
 * 컨텍스트 데이터: `contextData.['cm.ssf']`
 * 허용된 값:
-   * 1 - 값 &quot;1&quot;을 전송할 때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 함께 &quot;1&quot; 값을 지정하면 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. [AAM ePrivacy 규정 준수](https://docs.adobe.com/help/ko-KR/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)를 참조하십시오.
+   * 1 - 값 &quot;1&quot;을 전송할 때 서버 측 전달이 옵트아웃 상태임을 나타냅니다. 이 변수와 함께 &quot;1&quot; 값을 지정하면 Adobe Audience Manager와의 이 히트의 공유를 차단합니다. [AAM ePrivacy 규정 준수](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)를 참조하십시오.
    * 0 - 선택 사항입니다. 타겟 마케팅에 동의한 고객에 대해 값 &quot;0&quot;을 사용합니다. 변수를 설정하지 않아도 동일한 결과가 생성됩니다.
 
 ### DMP
