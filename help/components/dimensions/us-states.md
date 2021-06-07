@@ -2,10 +2,9 @@
 title: 미국 주
 description: 방문자의 미국 주입니다.
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '368'
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 100%
 ## 이 차원을 데이터로 채우기
 
 이 차원은 Adobe 내부의 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 IP 주소를 기반으로 합니다. Adobe는 IP 주소와 국가 간에 조회를 유지 관리하기 위해 [Digital Element](https://www.digitalelement.com/)와 파트너 관계를 맺고 있습니다. 이 차원은 모든 구현에 대해 즉시 작동합니다. 
-
->[!TIP]
->
->조직에서 [IP 주소 난독화](/help/admin/admin/general-acct-settings-admin.md)가 충분하지 않은 엄격한 개인 정보 보호 규정을 따르는 경우 지리적 위치 데이터를 완전히 비활성화하도록 요청할 수 있습니다. 보고서 세트에 대해 &#39;지리적 위치&#39;를 해제하려면 보고서 세트 ID로 고객 지원 팀에 연락하여 요청하십시오.
 
 ## 차원 항목
 
