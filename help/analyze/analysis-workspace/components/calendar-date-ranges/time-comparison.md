@@ -5,11 +5,10 @@ uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '640'
-ht-degree: 100%
+source-git-commit: baea0f33276b07a93144d2225935013ab7007005
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +17,9 @@ ht-degree: 100%
 Analysis Workspace의 날짜 비교를 사용하여 날짜 범위가 포함된 열을 가져오고 전년 대비, 사분기 대비, 전월 대비 등과 같은 일반 날짜 비교를 만들 수 있습니다.
 
 ## 기간 비교 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
+
+>[!NOTE]
+>[!UICONTROL 기간 비교]는 고급 계산된 지표를 활용합니다. 따라서 Analytics Select, Prime 및 Ultimate SKU를 사용하는 고객에게만 제공됩니다.
 
 분석하려면 컨텍스트가 필요하며, 해당 컨텍스트를 이전 기간에서 제공하는 경우가 종종 있습니다. 예를 들어, &quot;작년 이맘때보다 얼마나 좋아질까요/나빠질까요?&quot;라는 질문은 비즈니스를 이해하는 데 기본적인 질문입니다. 날짜 비교에 &quot;차이점&quot; 열이 자동으로 포함되는데, 이 열은 지정된 기간과 비교한 백분율 변경을 표시합니다.
 
