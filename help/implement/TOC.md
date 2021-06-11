@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 99%
 
 ---
 
@@ -56,18 +55,18 @@ ht-degree: 100%
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
-      + [다이내믹 변수](vars/page-vars/dynamic-variables.md)
+      + [동적 변수](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar(머천다이징)](vars/page-vars/evar-merchandising.md)
+      + [eVar (머천다이징)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [이벤트 개요](vars/page-vars/events/events-overview.md)
          + [구매 이벤트](vars/page-vars/events/event-purchase.md)
          + [이벤트 직렬화](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
-      + [list](vars/page-vars/list.md)
+      + [목록에 있는 참조 페이지를 나타냅니다](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
-      + [pageUrl](vars/page-vars/pageurl.md)
+      + [pageURL](vars/page-vars/pageurl.md)
       + [products](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
@@ -127,6 +126,7 @@ ht-degree: 100%
 + Adobe Analytics 구현 준비 {#prepare}
    + [데이터 계층 만들기](prepare/data-layer.md)
    + [글로벌 보고서 세트 고려 사항](prepare/global-rs.md)
+   + [다중 세트 태깅 구현](prepare/multi-suite-tagging.md)
    + [구현 모달](prepare/implementation-modal.md)
    + [솔루션 디자인 문서 만들기](prepare/solution-design.md)
    + [기존 Adobe Analytics 구현 관리](prepare/existing-implementation.md)
@@ -175,7 +175,7 @@ ht-degree: 100%
    + [해시 충돌](validate/hash-collisions.md)
 + [FAQ](faq.md)
 + 구현 검토 {#review}
-   + [집중 검토(각 웹 사이트 릴리스 이후)](review/focused-review.md)
+   + [집중 검토 (각 웹 사이트 릴리스 이후)](review/focused-review.md)
    + [전체 검토(6개월마다)](review/full-review.md)
    + [상위 5개의 KPI 정의](review/define-kpis.md)
 + Analytics에서 XDM 데이터 사용 {#aep-edge}
