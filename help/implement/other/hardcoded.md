@@ -2,11 +2,10 @@
 title: 하드코딩된 이미지 요청으로 구현
 description: HTML 이미지 태그를 사용하여 Adobe Analytics를 구현합니다 (하드코드된 이미지 요청)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Adobe에서 제공하는 AppMeasurement 라이브러리는 페이지에 있는 �
 * `https://`는 프로토콜을 지정합니다. 이미지 요청에 사용된 프로토콜을 나머지 사이트에서 사용하는 프로토콜과 일치시키십시오.
 * `example.data.adobedc.net`은 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 변수에 포함된 값입니다.
 * `/b/ss/`는 모든 이미지 요청에 포함됩니다. 이 항목은 Adobe 데이터 수집 서버에 저장된 이미지용 파일 구조의 일부입니다.
-* `examplersid`는 전송한 데이터를 받을 보고서 세트 ID입니다.
+* `examplersid`는 전송한 데이터를 받을 보고서 세트 ID입니다. 여러 보고서 세트의 경우, ID를 쉼표로(예: `examplersid1,examplersid2` 등) 구분하고 공백 없습니다.
 * `/1/`은 히트 소스입니다. 내보내기 사용 안내서의 [데이터 열 참조](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) 아래에서 `hit_source`를 참조하십시오. 방문자 식별을 위해 쿠키와 기타 방법에 의해 사용되는 순서를 제어합니다.
 * 쿼리 문자열 구분 기호 (`?`) 뒤의 모든 내용이 보고서에 포함할 데이터입니다. 이미지 요청에 포함할 수 있는 매개 변수의 전체 목록이 필요하면 [데이터 수집 쿼리 매개 변수](../validate/query-parameters.md)를 참조하십시오.
 
