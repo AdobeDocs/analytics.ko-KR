@@ -5,15 +5,15 @@ feature: 세그먼테이션
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 세그먼트의 비교 연산자
 
-세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다. 연산자 카테고리로는 표준, Data Warehouse 및 고유 개수, 이렇게 세 가지가 있습니다.
+세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다. 연산자 범주로는 표준, Data Warehouse 및 고유 개수, 이렇게 세 가지가 있습니다.
 
 유일하게 지원되는 와일드카드 문자는 별표(*)입니다. *를 검색해야 하는 경우, 백슬래시로 이스케이프 처리를 하면 됩니다.
 
@@ -26,8 +26,8 @@ ht-degree: 94%
 | 다음과 같음 | 숫자나 문자열 값에 대해 정확히 일치하는 항목을 반환합니다. 참고: 와일드카드 문자를 사용하는 경우 &quot;일치&quot; 연산자를 사용하십시오. |
 | 다음과 같지 않음 | 입력한 값의 정확한 일치를 포함하지 않는 모든 항목을 반환합니다.  참고: 와일드카드 문자를 사용하는 경우 &quot;일치하지 않음&quot; 연산자를 사용하십시오. |
 | 다음 중 1개 이상의 항목과 같음 | 입력 필드의 값 (최대 500개 항목)에 대해 정확히 일치하는 항목을 반환합니다. 예를 들어 이 연산자와 함께 &quot;검색 결과, 홈 페이지&quot;를 입력하면 &quot;검색 결과&quot; 및 &quot;홈 페이지&quot;가 일치하고 2개 항목으로 계산됩니다. 이 연산자의 입력 필드는 쉼표로 구분됩니다. |
-| 다음 중 같은 항목 없음 | 입력 필드의 값 (최대 500개 항목)에 대해 정확히 일치하는 항목을 식별한 다음, 이러한 값이 없는 항목만 반환합니다. 예를 들어 이 연산자와 함께 &quot;검색 결과, 홈 페이지&quot;를 입력하면 &quot;검색 결과&quot; 및 &quot;홈 페이지&quot;를 식별한 다음 반환된 항목에서 이 항목들을 제외합니다. 이 예는 2개 항목으로 카운트됩니다. 이 연산자의 입력 필드는 쉼표로 구분됩니다. |
-| 다음 포함 | 입력한 값의 하위 문자열에 해당하는 항목을 반환합니다. 예를 들어 &quot;Page&quot;에 대한 규칙에 &quot;Search&quot;가 포함되어 있으면 &quot;Search Results&quot;, &quot;Search&quot; 및 &quot;Searching&quot;을 비롯하여 하위 문자열 &quot;Search&quot;가 포함된 모든 페이지가 검색됩니다. &quot;contains&quot; 절은 Adobe Analytics에서 대/소문자를 구분하지 않지만, Customer Journey Analytics에서 대/소문자를 구분합니다. |
+| 다음 중 같은 항목 없음 | 입력 필드의 값 (최대 500개 항목)에 대해 정확히 일치하는 항목을 식별한 다음 이러한 값이 없는 항목만 반환합니다. 예를 들어 이 연산자와 함께 &quot;검색 결과, 홈 페이지&quot;를 입력하면 &quot;검색 결과&quot; 및 &quot;홈 페이지&quot;를 식별한 다음 반환된 항목에서 이 항목들을 제외합니다. 이 예는 2개 항목으로 카운트됩니다. 이 연산자의 입력 필드는 쉼표로 구분됩니다. |
+| 다음 포함 | 입력한 값의 하위 문자열에 해당하는 항목을 반환합니다. 예를 들어 &quot;Page&quot;에 대한 규칙에 &quot;Search&quot;가 포함되어 있으면 &quot;Search Results&quot;, &quot;Search&quot; 및 &quot;Searching&quot;을 비롯하여 하위 문자열 &quot;Search&quot;가 포함된 모든 페이지가 검색됩니다. &quot;포함&quot; 조항은 Adobe Analytics에서 대소문자를 구분하지 않지만, Customer Journey Analytics에서는 대소문자를 구분합니다. |
 | 다음을 포함하지 않음 | &quot;포함&quot; 규칙의 반대 경우를 반환합니다. 구체적으로 말하면 입력한 값과 일치하는 모든 항목이 입력된 값에서 제외됩니다. 예를 들어 &quot;Page&quot;에 대한 규칙에 &quot;Search&quot;가 포함되어 있지 않으면 &quot;Search Results&quot;, &quot;Search&quot; 및 &quot;Searching&quot;을 비롯하여 하위 문자열 &quot;Search&quot;가 포함된 모든 페이지가 검색되지 않습니다. 이러한 값은 결과에서 제외됩니다. |
 | 모두 포함 | 여러 값이 함께 연결된 경우를 비롯하여 하위 문자열에 해당하는 항목을 반환합니다. 예를 들어 이 연산자를 사용하여 &quot;Search Results&quot;를 입력하면 &quot;Search Results&quot; 및 &quot;Results of Search&quot;는 검색되지만 &quot;Search&quot; 또는 &quot;Results&quot;만 따로 나오는 경우는 검색되지 않습니다. Search와 Results가 함께 나오는 경우가 검색됩니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
 | 다음을 모두 포함하지 않음 | 부분 문자열과 비교하여 항목을 식별하고 (함께 결합된 여러 값 포함) 이 값이 없는 항목만 반환합니다. 예를 들어 이 연산자와 함께 &quot;Search Results&quot;를 입력하면 &quot;Search Results&quot; 및 &quot;Results of Search&quot;를 찾아 (하지만 &quot;Search&quot; 또는 &quot;Results&quot;만 따로 나오는 경우는 찾지 않음) 이 항목들을 제외합니다. 이 연산자의 입력 필드는 공백으로 구분합니다 (100단어). |
@@ -37,7 +37,7 @@ ht-degree: 94%
 | 다음으로 시작하지 않음 | 입력한 값의 문자 또는 문자열로 시작하지 않는 모든 항목을 반환합니다. &quot;다음으로 시작&quot; 연산자의 역입니다. |
 | 다음으로 끝남 | 입력한 값의 문자 또는 문자열로 끝나는 항목을 반환합니다. |
 | 다음으로 끝나지 않음 | 입력한 값의 문자 또는 문자열로 끝나지 않는 모든 항목을 반환합니다. &quot;다음으로 끝남&quot; 연산자의 역입니다. |
-| matches | 지정된 숫자나 문자열 값을 기반으로 정확히 일치하는 항목을 반환합니다. &quot;matches&quot; 절은 Adobe Analytics 및 Customer Journey Analytics에서 대/소문자를 구분합니다. **참고**:와일드카드(globbbing) 기능을 사용할 때 이 연산자를 사용하십시오. &quot;globing&quot;의 예:<ul><li>`a*e` 과 일치하 `ae`는  `abcde`,  `adobe`및  `a whole sentence`</li><li>`adob*` 과 일치하 `adobe`는  `adobe analytics`, 및  `adobo recipe`</li><li>`*dobe` 과 일치하 `dobe`는  `adobe`, 및  `cute little dobe`</li></ul> |
+| matches | 지정된 숫자나 문자열 값을 기반으로 정확히 일치하는 항목을 반환합니다. &quot;일치&quot; 조항은 Adobe Analytics 및 Customer Journey Analytics에서 대소문자를 구분합니다. **참고**: 와일드카드(globbing) 기능 사용 시 이 연산자를 사용하십시오. &quot;globbing&quot; 예시:<ul><li>`a*e`는 `ae`, `abcde`, `adobe`, `a whole sentence`와 일치합니다</li><li>`adob*`는 `adobe`, `adobe analytics`, `adobo recipe`와 일치합니다</li><li>`*dobe`는 `dobe`, `adobe`, `cute little dobe`와 일치합니다</li></ul> |
 | 일치하지 않음 | 입력한 값의 정확한 일치를 포함하지 않는 모든 항목을 반환합니다. 참고: 와일드카드 (globbing) 기능 사용 시 이 연산자를 사용하십시오. |
 | 존재 | 존재하는 항목의 수를 반환합니다. 예를 들어, &quot;존재&quot; 연산자를 사용하여 페이지를 찾을 수 없음 차원을 평가하는 경우, 존재하는 오류 페이지 수가 반환됩니다. |
 | 존재하지 않음 | 존재하지 않는 모든 항목을 반환합니다. 예를 들어, &quot;존재하지 않음&quot; 연산자를 사용하여 페이지를 찾을 수 없음 차원을 평가하는 경우, 이 오류 페이지가 존재하지 않았던 페이지의 수가 반환됩니다. |
