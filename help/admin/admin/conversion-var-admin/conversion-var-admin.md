@@ -5,7 +5,7 @@ title: 전환 변수 (eVar)
 feature: 관리 도구
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 84%
@@ -33,8 +33,6 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 ## 전환 변수 - 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
 [전환 변수를 편집](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md)할 때 사용되는 필드에 대한 설명입니다.
-
-
 
 | 요소 | 설명 |
 | --- | --- |
