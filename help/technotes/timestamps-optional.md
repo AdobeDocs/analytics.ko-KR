@@ -5,10 +5,10 @@ title: 타임스탬프 옵션 사용
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 
    순서가 잘못된 데이터에는 오프라인 데이터 수집에서 늦게 도착하는 데이터와 늦게 도착하는 조회수, 또는 오프라인 모바일 디바이스에서 동기화가 되지 않은 시계가 포함될 수 있습니다. 데이터 순서가 잘못되면 시간 계산 (체류 시간 값 등), 속성 (eVar 지속성), 방문 번호/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 
-* [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
+* [s.visitorID](/help/implement/vars/config-vars/visitorid.md)를 설정할 때 타임스탬프를 사용하는 것은 권장되지 않습니다. 그렇게 하면 데이터 순서가 잘못될 수 있습니다.
 
 * 웹 브라우저 (타임스탬프가 지정되지 않은 라이브 데이터)를 여는 앱 (타임스탬프가 지정된 오프라인 데이터)으로 구성된 하이브리드 앱에서는 타임스탬프를 사용하지 말아야 합니다. 그렇게 하면 세션에 대한 보고가 부정확해집니다.
 
