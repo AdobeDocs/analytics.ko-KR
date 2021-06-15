@@ -6,9 +6,9 @@ feature: AI 도구
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 기여도 분석은 사용자 데이터 안에서 숨겨진 패턴을 발견하여 통계적 예외 항목을 설명하고 전체 수렴된 대상 세그먼트에서 선택된 지표에 대해 예상치 못한 고객 작업, 범위를 벗어나는 값, 급증 또는 급감 뒤의 상관관계를 식별합니다.
 
-어떤 일이 발생했습니다. 왜일까요? 예외 항목 탐지 보고서는 비정상적인 주문 급증을 보여 주고 사용자는 그 이유를 알고 싶어 합니다. 기준에서 벗어나 무슨 일이 생겼습니까? 어떤 캠페인 또는 참조에 누가 반응하고 있습니까? 어떤 것이 입소문이 났습니까? 이러한 예외 항목에 기여한 특정 요인은 무엇입니까? 그리고 가장 중요한 것으로 손꼽는다면 고객에 대한 중요한 정보를 어떻게 캡처하고 이 활동을 어떻게 반복할 수 있습니까?  (또는 지표의 급감 또는 부정적 지표의 증가가 발생했다면 앞으로는 어떻게 이것을 피할 수 있습니까?)
+어떤 일이 발생했습니다. 왜일까요? 예외 항목 탐지 보고서는 비정상적인 주문 급증을 보여 주고 사용자는 그 이유를 알고 싶어 합니다. 기준에서 벗어나 무슨 일이 생겼습니까? 어떤 캠페인 또는 참조에 누가 반응하고 있습니까? 어떤 것이 입소문이 났습니까? 이러한 예외 항목에 기여한 특정 요인은 무엇입니까? 그리고 가장 중요한 것으로 손꼽는다면 고객에 대한 중요한 정보를 어떻게 캡처하고 이 활동을 어떻게 반복할 수 있습니까? (또는 지표의 급감 또는 부정적 지표의 증가가 발생했다면 앞으로는 어떻게 이것을 피할 수 있습니까?)
 
 기여도 분석은 예외 항목이 왜 일어났는지 대답하기 위해 사용자 데이터를 즉시 평가하도록 도와줍니다. 기존에는 몇 주가 걸리던 예외 항목에 대한 기여도를 몇 초 만에 분류하여 대상 세그먼트에 대한 패턴을 제공하고 고객 상호 작용에 대한 내러티브를 만드는 데 도움을 줍니다. 기여도 분석을 전략적으로 사용하여 의미 있는 연결을 식별하고 캡처하여 새 대상 세그먼트를 만들거나 경고를 트리거하는 영역 밖의 활동 또는 부정 활동을 식별하는 데 전략적으로 사용합니다.
 
@@ -50,10 +50,10 @@ ht-degree: 91%
 | --- | --- |
 | Adobe에서 토큰을 도입한 이유는 무엇입니까? | Contribution Analysis는 Adobe Analytics에서 가장 공감스러운 기능 중 하나입니다. 일부 Analytics 제품의 경우 3차원이 아닌 매월 &quot;전체&quot; 실행 횟수가 적어 무제한 전체 기여도 분석을 통해 어떤 효과가 있는지 알 수 있습니다. |
 | 기여도 분석에서 토큰은 어떻게 작동합니까? 기존 기여도 분석을 사용하여 프로젝트를 로드하는 데 토큰 비용이 듭니까? 또는 새로운 기여도 분석을 실행할 때만 토큰 비용이 필요합니까? | 각 로그인 회사 (각 사용자가 아님)는 한 달에 특정 수의 토큰을 얻으므로, Analysis Workspace에서 &quot;전체&quot; 기여도 분석을 실행할 수 있습니다.  새 기여도 분석을 생성할 때마다 한 개의 토큰 비용을 지불합니다. 사전 실행된 기여도 분석을 사용하여 프로젝트 로드 시 토큰 비용이 들지 않습니다. |
-| Reports &amp; Analytics의 기여도 분석에 토큰을 적용합니까? | 아니요. 기여도 분석은 2018년 4월 현재 보고 및 분석에서 더 이상 제공되지 않습니다. |
+| Reports &amp; Analytics의 기여도 분석에 토큰을 적용합니까? | 아니요. 기여도 분석은 2018년 4월 현재 Reports &amp; Analytics 릴리스에 더 이상 제공되지 않습니다. |
 | 회사에 토큰이 없고 추가 기여도 분석을 실행하려는 경우 어떻게 해야 합니까? | 다른 Adobe Analytics 제품으로 업그레이드 할 수 있습니다 (예: Standard (매달 2개 토큰)에서 Ultimate (매달 20개 토큰)로). 더 많은 토큰을 구입할 수 없으며, 기존 패키징 프레임 워크 내에서 업그레이드 해야 합니다. |
-| 기여도 분석에 대한 액세스를 어떻게 제한합니까? | 기본적으로 관리자만 기여도 분석을 실행할 수 있습니다. 그러나 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)에서 권한 그룹을 만들어 다른 사용자에게 액세스 권한을 부여할 수 있습니다. 합법적인 이유가 있고 액세스 권한을 남용하지 않을 것으로 신뢰할 수 있는 사용자에게만 기여도 분석을 사용할 수 있는 권한을 부여해야 합니다. 이 권한은 [!UICONTROL 보고서 세트 도구]에서 [!UICONTROL 기여도 분석]이라고 합니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| 한 달에 얼마나 많은 토큰을 받을 수 있고, 얼마나 많은 토큰을 현재 달에 사용했는지 어떻게 알 수 있습니까? | [!UICONTROL 관리] > [!UICONTROL 모든 관리] >[!UICONTROL 회사 설정 홈] >[!UICONTROL 기능 액세스 수준 보기]로 이동합니다. 다음 항목 보기<ul><li>기여도 분석: 월간 사용 토큰 수</li><li>기여도 분석: 이번 달에 사용된 사용 토큰 수</li></ul> |
+| 기여도 분석에 대한 액세스를 어떻게 제한합니까? | 기본적으로 관리자만 기여도 분석을 실행할 권한이 있습니다. 그러나 관리자는 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)에서 권한 그룹을 생성하여 다른 사용자에게 액세스 권한을 부여할 수 있습니다. 합법적인 이유가 있고 액세스 권한을 남용하지 않을 것으로 신뢰할 수 있는 사용자에게만 기여도 분석을 사용할 수 있는 권한을 부여해야 합니다. 이 권한은 [!UICONTROL 보고서 세트 도구] 하의 [!UICONTROL 기여도 분석]이라고 합니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| 한 달에 얼마나 많은 토큰을 받을 수 있고, 얼마나 많은 토큰을 현재 달에 사용했는지 어떻게 알 수 있습니까? | [!UICONTROL 관리자] > [!UICONTROL 모든 관리자] >[!UICONTROL 회사 설정 홈] >[!UICONTROL 기능 액세스 수준 보기]로 이동합니다. 아래를 참조하십시오<ul><li>기여도 분석: 월간 사용 토큰 수</li><li>기여도 분석: 이번 달에 사용된 사용 토큰 수</li></ul> |
 
 ## 예외 항목 탐지 및 기여도 분석 권한 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -61,7 +61,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->예외 항목 탐지 및 기여도 분석이 보고 및 분석 기능 세트에서 제거되었으며 이제 Analysis Workspace을 통해서만 사용할 수 있습니다. Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 &quot;일별 세부 기간&quot; 예외 항목 탐지에만 액세스할 수 있습니다.
+>예외 항목 탐지 및 기여도 분석은 Reports &amp; Analytics 기능에서 제거되었으며 이제 Analysis Workspace를 통해서만 사용할 수 있습니다. Adobe Analytics Select 및 Adobe Analytics Foundation 고객은 Workspace의 &quot;일별 세부 기간&quot; 예외 항목 탐지에만 액세스할 수 있습니다.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
