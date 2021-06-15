@@ -5,9 +5,9 @@ user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
       + [전환](ga-to-aa/reports/conversions-reports.md)
    + [FAQ](ga-to-aa/faq.md)
    + [플랫폼 간의 처리 차이점](ga-to-aa/processing-differences.md)
-   + [데이터와 타사 제품 비교](ga-to-aa/compare-data.md)
+   + [데이터와 서드파티 제품 비교](ga-to-aa/compare-data.md)
 + 이벤트의 영향을 받는 데이터 분석 {#event}
    + [이벤트 개요의 영향을 받는 데이터 분석](event/overview.md)
    + [데이터 증가/감소 문제 해결](event/spikes-drops.md)
@@ -37,7 +37,7 @@ ht-degree: 98%
    + [날짜를 이전 범위와 비교](event/compare-dates.md)
    + [이벤트의 영향을 받는 데이터 가져오기](event/calcmetrics.md)
    + [사용자에게 이벤트 전달](event/communicate.md)
-   + [지능형 데이터 평활](event/intelligent-data-smoothing.md)
+   + [지능성 데이터 평활화](event/intelligent-data-smoothing.md)
 + 쿠키 {#cookies}
    + [브라우저 쿠키](cookies/cookies.md)
    + [브라우저 쿠키 제안의 영향을 경감하기 위한 옵션](cookies/cookieless.md)
@@ -48,7 +48,7 @@ ht-degree: 98%
 + [낮은 트래픽 값](low-traffic.md)
 + [모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션](migrate-mobile.md)
 + [다중 통화 지원](multicurrency.md)
-+ [개인 정보 보호 개요](privacy-overview.md)
++ [개인정보 보호 개요](privacy-overview.md)
 + [리디렉션 및 별칭](redirects.md)
 + 지역 데이터 수집 {#rdc}
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
