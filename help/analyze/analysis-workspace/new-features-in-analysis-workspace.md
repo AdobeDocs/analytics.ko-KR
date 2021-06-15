@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '8283'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,14 +27,14 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 목표 날짜 | 설명 |
 | --- | --- | --- |
-| 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL Quick Insights]의 드롭다운/드롭 영역 구성 요소는 [!UICONTROL Workspace]의 모든 드롭 영역에 추가됩니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
+| 구성 요소 선택 | 2021년 2월 4일 | [!UICONTROL Quick Insights] 의 드롭다운/드롭 영역 구성 요소는 [!UICONTROL Workspace]의 모든 드롭 영역에 추가됩니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
 
 ## 2021년 1월
 
 | 기능 | 목표 날짜 | 설명 |
 | --- | --- | --- |
 | 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가할 수 있습니다. |
-| 시각화를 위한 통합 소스 및 설정 관리자 | 2021년 1월 14일 | 시각화를 위해 [!UICONTROL 데이터 소스]  관리자 (점) 및 설정 관리자 (톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다 |
+| 시각화를 위한 통합 소스 및 설정 관리자 | 2021년 1월 14일 | 시각화를 위해 [!UICONTROL 데이터 소스]  관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다 |
 
 ## 2020년 10월
 
@@ -61,7 +61,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 설명 |
 | --- | --- |
-| 새 날짜 범위 사전 설정 | 4개의 새 날짜 범위를 추가함:  ([!UICONTROL 이번 주/월/분기/연도 (오늘 제외)]). 오늘부터 하루의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
+| 새 날짜 범위 사전 설정 | 4개의 새 날짜 범위를 추가함: ([!UICONTROL 이번 주/월/분기/연도 (오늘 제외)]). 오늘부터 하루의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 
 ## 2020년 6월
 
@@ -71,12 +71,12 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 |--- |--- |
 | 속성 IQ: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | 속성 IQ: 사용자 지정 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| 공유 작업 공간 프로젝트에 대한 프로젝트 역할 | 이제 작업 공간 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다 (편집, 복제 및 보기). [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 보기 전용 작업 공간 프로젝트 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 작업 공간 프로젝트 공동 편집 기능 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 공유 Workspace 프로젝트에 대한 프로젝트 역할 | 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다 (편집, 복제 및 보기). [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 보기 전용 Workspace 프로젝트 | Workspace 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Workspace 프로젝트 공동 편집 기능 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로를 선택하는 더 원활한 방법을 제공합니다. |
 | 빠른 인사이트 패널 (2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 작업 공간의 Analytics for Target 패널  (2020년 6월 25일) | Analytics for Target (A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Workspace의 Analytics for Target 패널 (2020년 6월 25일) | Analytics for Target (A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Analysis Workspace 정보 페이지 | Workaspace 정보 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보 (지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. Workspace > 도움말 > Workspace 정보에서 찾아볼 수 있습니다. |
 
 ## 2020년 5월
@@ -102,8 +102,8 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 설명 |
 |--- |--- |
-| 작업 공간에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와서 나란히 볼 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| 교육 튜토리얼 템플릿 | 이 새로운 표준 템플릿은 작업 공간에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [추가 정보...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| Workspace에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와서 나란히 볼 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 교육 튜토리얼 템플릿 | 이 새로운 표준 템플릿은 Workspace에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [추가 정보...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020년 2월
 
@@ -111,10 +111,10 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 설명 |
 |--- |--- |
-| 디바이스 간 분석을 사용하는 조직을 위한 새로운 작업 공간 템플릿 | 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여 주며 CDA 독점 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 디바이스 Analytics 설정](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html)을 참조하십시오. |
+| 디바이스 간 분석을 사용하는 조직을 위한 새로운 Workspace 템플릿 | 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여 주며 CDA 독점 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [상호 디바이스 Analytics 설정](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html)을 참조하십시오. |
 | Analysis Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| 작업 공간의 기타 향상된 기능 | <ul><li>패널이나 시각화가 작업 공간으로 드롭되면 왼쪽 레일이 이제 구성 요소로 자동 전환되므로 더 원활한 워크플로가 가능합니다.</li><li>이제 템플릿 구성 요소를 활성화할 수 있습니다 (예: 태그됨, 즐겨찾기됨, 승인됨).</li><li>필터링된 지표 및 세그먼트 목록은 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가하기 위한 버튼을 제공합니다.</li></ul> |
-| 작업 공간 디버거 | 작업 공간 디버거가 도움말 메뉴에 추가되어 작업 공간 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| Workspace의 기타 향상된 기능 | <ul><li>패널이나 시각화가 Workspace로 드롭되면 왼쪽 레일이 이제 구성 요소로 자동 전환되므로 더 원활한 워크플로가 가능합니다.</li><li>이제 템플릿 구성 요소를 활성화할 수 있습니다 (예: 태그됨, 즐겨찾기됨, 승인됨).</li><li>필터링된 지표 및 세그먼트 목록은 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가하기 위한 버튼을 제공합니다.</li></ul> |
+| Workspace 디버거 | Workspace 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020년 1월
 
@@ -122,7 +122,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 설명 |
 |--- |--- |
-| [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리 보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
+| [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 
 ## 2019년 10월
 
@@ -182,7 +182,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 설명 |
 |--- |--- |
-| [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블 (포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원 (시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다.  (계산된 지표는 지원되지 않습니다)</li></ul> |
+| [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블 (포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원 (시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
 | [속성 IQ에서 여러 값 변수 지원](attribution/overview.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
@@ -193,7 +193,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 기능 | 설명 |
 |--- |--- |
-| [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 작업 공간 프로젝트 및 조정된 VRS (가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
+| [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
 
 ## 2018년 10월 일
 
@@ -241,11 +241,11 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>색상 팔레트</b> </p> </td> 
-   <td colname="col2"> <p>다른 색상 팔레트에서 선택하거나 사용자가 보유한 팔레트를 지정하여 작업 공간에서 사용되는 색상 스키마를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 공간의 많은 사항에 영향을 줍니다. 요약 변경 사항, 자유 형식 테이블의 조건부 서식 설정, 맵 시각화에는 영향을 <b>미치지 않습니다</b>. </p> <p>참고: 색상 팔레트 지원은 Internet Explorer 11에서 사용할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>다른 색상 팔레트에서 선택하거나 사용자가 보유한 팔레트를 지정하여 Workspace에서 사용되는 색상 스키마를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 Workspace의 많은 사항에 영향을 줍니다. 요약 변경 사항, 자유 형식 테이블의 조건부 서식 설정, 맵 시각화에는 영향을 <b>미치지 않습니다</b>. </p> <p>참고: 색상 팔레트 지원은 Internet Explorer 11에서 사용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>새 템플릿: 오디오 소비</b> </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html"  >오디오 분석</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html"  >오디오 분석</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -323,18 +323,18 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 다이내믹 차원 열 </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 동적 차원 열 </a> </b> </p> </td> 
    <td colname="col2"> <p>이전에는 열에서 차원을 삭제할 때 시간이 아닌 차원에 대한 상위 5개 값 (시간 차원의 경우 15개)을 표시하고 이러한 값을 정적 (즉, 선택된 5개 값은 변경되지 않음)으로 유지합니다. </p> <p>이제 기본적으로 정적 값 대신 정적 값으로 변경하는 옵션과 함께 동적 값을 표시합니다. 기타 참고 사항: </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
-     <li id="li_452466AB416F4737B532849C604BD4CC">다이내믹 차원에서  (i) 기호를 클릭하면 순위 (상위 1/5) 및 차원 유형이 표시됩니다. </li> 
-     <li id="li_588F6199E38D47869AC855A4C2A4D1B7">데이터가 업데이트되면 현재 5/15 차원 항목을 업데이트하도록 다이내믹 차원 열이 업데이트됩니다. </li> 
-     <li id="li_19D47638D4D94416B0DAD2B2FB835ABE">복사되거나 이동되는 다이내믹 차원 열은 정적이 됩니다. </li> 
+     <li id="li_452466AB416F4737B532849C604BD4CC">동적 차원에서 (i) 기호를 클릭하면 순위 (상위 1/5) 및 차원 유형이 표시됩니다. </li> 
+     <li id="li_588F6199E38D47869AC855A4C2A4D1B7">데이터가 업데이트되면 현재 5/15 차원 항목을 업데이트하도록 동적 차원 열이 업데이트됩니다. </li> 
+     <li id="li_19D47638D4D94416B0DAD2B2FB835ABE">복사되거나 이동되는 동적 차원 열은 정적이 됩니다. </li> 
      <li id="li_B95411689AE04774B7B9BA128F2DB96F">정적 차원 열 위로 마우스를 이동하면 정적 차원을 나타내는 잠금 아이콘이 표시됩니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>새 작업 공간 기능 양식 </b> </p> </td> 
-   <td colname="col2"> <p>지난 달에 소개된 오늘의 팁과 마찬가지로, 이 양식은 새로운 릴리스 이후 작업 공간에 처음 로그인할 때 새로운 작업 공간 기능을 보여 줍니다. </p> </td> 
+   <td colname="col1"> <p><b>새 Workspace 기능 양식 </b> </p> </td> 
+   <td colname="col2"> <p>지난 달에 소개된 오늘의 팁과 마찬가지로, 이 양식은 새로운 릴리스 이후 Workspace에 처음 로그인할 때 새로운 Workspace 기능을 보여 줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +435,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
    <td colname="col2"> <p>최근 릴리스된 사용자 지정 템플릿의 경우 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">편집 템플릿 모드를 템플릿을 프로젝트의 시작점으로 사용하는 것과 구분하는 데 도움이 되도록 프로젝트 맨 위 (제목 근처)에 템플릿 아이콘을 추가했습니다. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">[Analysis Workspace에서 프로젝트 생성/구성] 권한이 부여된 경우 관리자가 아닌 사용자가 Workspace 프로젝트 템플릿을 생성 (다른 이름으로 저장)하고 편집할 수 있도록 허용합니다. ( <span class="ignoretag"> <span class="uicontrol"> 관리 </span> &gt; <span class="uicontrol"> 모든 관리자 </span> &gt; <span class="uicontrol"> 사용자 관리 </span> 그룹 </span> &gt; <span class="uicontrol"> 모든 보고서 액세스 편집 </span> &gt; <span class="uicontrol"> Analytics 도구 사용자 지정 </span> &gt; <span class="uicontrol"> Analysis Workspace </span> <span class="uicontrol">에서 프로젝트 만들기/구성/&gt;)</span> </span></li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">[Analysis Workspace에서 프로젝트 생성/구성] 권한이 부여된 경우 관리자가 아닌 사용자가 Workspace 프로젝트 템플릿을 생성 (다른 이름으로 저장)하고 편집할 수 있도록 허용합니다. ( <span class="ignoretag"> <span class="uicontrol"> 관리 </span>  &gt; <span class="uicontrol"> 모든 관리 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>  &gt; <span class="uicontrol"> 그룹 </span>  &gt; <span class="uicontrol"> 모든 리포트 액세스 편집 </span>  &gt; <span class="uicontrol"> Analytics 도구 사용자 지정 </span>  &gt; <span class="uicontrol"> Analysis Workspace에서 프로젝트 생성/구성 </span> </span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -454,15 +454,15 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 사용자 지정 작업 공간 템플릿 </a> </p> </td> 
-   <td colname="col2"> <p>이제 고유한 작업 공간 템플릿을 작성하고 저장하면 조직의 다른 사용자가 이러한 템플릿과 관련된 데이터로 시작할 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 사용자 지정 Workspace 템플릿 </a> </p> </td> 
+   <td colname="col2"> <p>이제 고유한 Workspace 템플릿을 작성하고 저장하면 조직의 다른 사용자가 이러한 템플릿과 관련된 데이터로 시작할 수 있습니다. </p> </td> 
   </tr> 
   <tr>  
    <td colname="col2"> <p>다음과 같이 시작할 항목을 선택할 수 있는 새 화면을 표시하려면 "새 프로젝트"를 클릭합니다. </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">빈 프로젝트 또는 </li> 
-     <li id="li_23BD391D68674C299858A97BFE10598B">표준 (내장) 작업 공간 템플릿, 또는 </li> 
-     <li id="li_04D84FE375B84BF88843AA0D43A234BF">사용자 지정 작업 공간 템플릿 (위 참조) </li> 
+     <li id="li_23BD391D68674C299858A97BFE10598B">표준(빌트인) Workspace 템플릿 또는 </li> 
+     <li id="li_04D84FE375B84BF88843AA0D43A234BF">사용자 지정 Workspace 템플릿 (위 참조) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -471,7 +471,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >열 비율 개선</a> </p> </td> 
-   <td colname="col2"> <p>열에 표시된 "합계의 백분율"은 특정 시나리오가  (평균과 마찬가지로) 합계의 100%를 초과하는 행으로 연결되더라도 100%로 제한되었습니다. </p> <p>정확하게 말하자면 이제 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열 너비가 아주 크게 늘어날 수 있도록 상한을 1,000%로 이동하려고 합니다. </p> </td> 
+   <td colname="col2"> <p>열에 표시된 "합계의 백분율"은 특정 시나리오가 (평균과 마찬가지로) 합계의 100%를 초과하는 행으로 연결되더라도 100%로 제한되었습니다. </p> <p>정확하게 말하자면 이제 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열 너비가 아주 크게 늘어날 수 있도록 상한을 1,000%로 이동하려고 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 분류에 조건부 서식 지정 사용 </a> </p> </td> 
@@ -479,10 +479,10 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p>기본 <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 달력 </a> 보기 변경 사항 </p> </td> 
-   <td colname="col2"> <p>이제 작업 공간 달력에는 현재 달과 다음 달 대신 현재 달과 마지막 달이 기본적으로 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>이제 Workspace 달력에는 현재 달과 다음 달 대신 현재 달과 마지막 달이 기본적으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>작업 공간 테이블에서 마우스 오버/선택 색상 개선 </p> </td> 
+   <td colname="col1"> <p>Workspace 테이블에서 마우스 오버/선택 색상 개선 </p> </td> 
    <td colname="col2"> <p>자유 형식 테이블 셀을 마우스로 가리킬 때와 셀을 클릭할 때 색상의 차이가 더욱 뚜렸해졌습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -517,7 +517,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p> 패널 및 프로젝트에서 <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  >시각화/패널 복사 및 붙여넣기</a> </p> </td> 
-   <td colname="col2"> <p>이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음, 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 ("삽입") 수 있습니다. </p> <p>이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 "문서 블록" (사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 ("삽입") 수 있습니다. </p> <p>이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 "문서 블록" (사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >"메시지" 및 "위치"에 대한 새 모바일 템플릿</a> </p> </td> 
@@ -529,7 +529,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p>열 크기 조정 개선 </p> </td> 
-   <td colname="col2"> <p>맨 왼쪽 열의 크기를 조정할 때 이제 오른쪽에 있는 다음 열 너비만 조정하는 것이 아니라 작업 공간이 나머지 열의 너비 백분율을 유지 관리합니다. 이러한 변경은 분석과 공유 모두에서 표 작성 속도를 높여 줍니다. </p> </td> 
+   <td colname="col2"> <p>맨 왼쪽 열의 크기를 조정할 때 이제 오른쪽에 있는 다음 열 너비만 조정하는 것이 아니라 Workspace가 나머지 열의 너비 백분율을 유지 관리합니다. 이러한 변경은 분석과 공유 모두에서 표 작성 속도를 높여 줍니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>표에 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  >400개 행</a> 표시 </p> </td> 
@@ -545,7 +545,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p>기여도 분석: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >토큰 알림 </a> </p> </td> 
-   <td colname="col2"> <p>이제는 회사에 기여도 분석 토큰 수가 제한되어 있는 경우 토큰을 사용하면 Analysis Workspace UI에 알림이 표시됩니다. 이를 통해 남은 토큰 수를 알 수 있습니다.&amp;nbsp; </p> <p> (관리자 사용자: 그룹 권한을 편집하여 이러한 토큰을 사용할 수 있는 사용자를 제한할 수 있습니다. 이 권한을 "예외 항목 탐지 및 기여도 분석"이라고 합니다(<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> 관리 </span> &gt; <span class="uicontrol"> 모든 관리자 </span> &gt; <span class="uicontrol"> 사용자 관리 </span> <span class="uicontrol"> 그룹 편집 </span> &gt; <span class="uicontrol"> 모든 보고서 액세스 편집 <span class="uicontrol"> &gt;  보고서 세트 도구 사용자 지정 </span> 및 <span class="uicontrol"> &gt; </span> </span>).  </p> </td> 
+   <td colname="col2"> <p>이제는 회사에 기여도 분석 토큰 수가 제한되어 있는 경우 토큰을 사용하면 Analysis Workspace UI에 알림이 표시됩니다. 이를 통해 남은 토큰 수를 알 수 있습니다.&amp;nbsp; </p> <p>(관리자 사용자: 그룹 권한을 편집하여 이러한 토큰을 사용할 수 있는 사용자를 제한할 수 있습니다. 이 권한을 "예외 항목 탐지 및 기여도 분석"이라고 합니다(<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> 관리자 </span> &gt; <span class="uicontrol"> 모든 관리자 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>&gt; <span class="uicontrol"> 그룹 편집 </span> &gt; <span class="uicontrol"> 모든 리포트 액세스 편집 </span> &gt; <span class="uicontrol"> 보고서 세트 도구 사용자 지정 </span> &gt; <span class="uicontrol"> 도구 및 보고서 </span>. )  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>멀티바이트 문자가 있는 CSV 파일 </p> </td> 
@@ -553,7 +553,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p>event#, eVar# 및 prop# 변경 </p> </td> 
-   <td colname="col2"> <p>2017년 왼쪽 레일의 차원 이름에 추가된 Event#, eVar# 및 prop#은 구성 요소를 <b>검색</b>할 때만 표시됩니다. </p> <p> (가상 보고서 세트 빌더에도 적용됩니다.) </p> </td> 
+   <td colname="col2"> <p>2017년 왼쪽 레일의 차원 이름에 추가된 Event#, eVar# 및 prop#은 구성 요소를 <b>검색</b>할 때만 표시됩니다. </p> <p>(가상 보고서 세트 빌더에도 적용됩니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>없음/지정되지 않음 변경 </p> </td> 
@@ -631,7 +631,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md"  > 경고: <b>갱신</b> 선택 사항이 추가됨 </a> </p> </td> 
-   <td colname="col2"> <p>경고 관리자에서 하나 이상의 경고를 선택한 경우 <span class="uicontrol">갱신</span>을 클릭하여 갱신할 수 있습니다 . </p> <p>이렇게 하면 원래 만료 날짜와 상관없이 <span class="uicontrol">갱신</span>을 클릭한 날로부터 1년으로 만료 날짜가 연장됩니다. </p> </td> 
+   <td colname="col2"> <p>경고 관리자에서 하나 이상의 경고를 선택한 경우 <span class="uicontrol">갱신</span>을 클릭하여 갱신할 수 있습니다. </p> <p>이렇게 하면 원래 만료 날짜와 상관없이 <span class="uicontrol">갱신</span>을 클릭한 날로부터 1년으로 만료 날짜가 연장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI 개선사항 </p> </td> 
@@ -685,7 +685,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p> 세그먼트 비교 및 기여도 분석에 대한 <span class="uicontrol">모두 지우기</span> 버튼 </p> </td> 
-   <td colname="col2"> <p>이제 각 요소를 수동으로 삭제하는 대신, 다음 작업 공간 영역에서 모든 요소를 지울 수 있습니다. </p> 
+   <td colname="col2"> <p>이제 각 요소를 수동으로 삭제하는 대신, 다음 Workspace 영역에서 모든 요소를 지울 수 있습니다. </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 기여도 분석 제외된 구성 요소 </a> </li> 
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> 세그먼트 비교 제외된 구성 요소 </a> </li> 
@@ -724,7 +724,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > 프로젝트 랜딩 페이지의 태그 열 </a> </p> </td> 
-   <td colname="col2"> <p>작업 공간 프로젝트 목록 페이지에 <span class="wintitle">태그</span> 열을 추가했습니다. 이 열에는 각 프로젝트의 태그가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>Workspace 프로젝트 목록 페이지에 <span class="wintitle">태그</span> 열을 추가했습니다. 이 열에는 각 프로젝트의 태그가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >.CSV 파일로 플로우 시각화 내보내기</a> </p> </td> 
@@ -802,9 +802,9 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">무제한 세그먼트 비교 가능 </li> 
      <li id="li_45D709C9B04F4E6A9BD94FD03E0C80FA">터치포인트 그룹의 이름을 지정하고 더욱 쉽게 관리하는 기능이 추가되었습니다 (추가, 제거, 이동 등). </li> 
-     <li id="li_BC609CDFD9AA4EB081987922DB318040">마우스 오른쪽 버튼으로 클릭 &gt; <span class="uicontrol">트렌드 터치 포인트 %</span>: 전체 폴아웃 비율 트렌드가 표시됩니다. </li> 
-     <li id="li_C72BB725368644DDA3FCE479A918CDB3">마우스 오른쪽 버튼으로 클릭 &gt; <span class="uicontrol">트렌드 전체 터치 포인트 %</span>: 동일한 차트에 폴아웃 (<span class="wintitle">모든 방문</span>이 포함된 경우 이 방문 제외)의 모든 터치 포인트 비율 트렌드가 표시됩니다. </li> 
-     <li id="li_40D0A8B481B04F21BEC0A4E421C77865">개별 터치 포인트를 경로 내의 다음 히트로 (결과적으로 실행되는 것과 대조적으로) 제한하는 기능 </li> 
+     <li id="li_BC609CDFD9AA4EB081987922DB318040">마우스 오른쪽 버튼으로 클릭 &gt; <span class="uicontrol">트렌드 터치포인트 %</span>: 전체 폴아웃 비율 트렌드가 표시됩니다. </li> 
+     <li id="li_C72BB725368644DDA3FCE479A918CDB3">마우스 오른쪽 버튼으로 클릭 &gt; <span class="uicontrol">트렌드 전체 터치포인트 %</span>: 동일한 차트에 폴아웃 (<span class="wintitle">모든 방문</span>이 포함된 경우 이 방문 제외)의 모든 터치포인트 비율 트렌드가 표시됩니다. </li> 
+     <li id="li_40D0A8B481B04F21BEC0A4E421C77865">개별 터치포인트를 경로 내의 다음 히트로 (결과적으로 실행되는 것과 대조적으로) 제한하는 기능 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -878,8 +878,8 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 사람 템플릿 </a> </p> </td> 
-   <td colname="col2"> <p>참고: 사람 템플릿과 관련 사람 지표는 <a href="https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a>의 일부로서만 사용할 수 있습니다 . </p> <p>템플릿은 다시 말해, 고유 방문자 수 지표의 중복이 제거된 버전인 사람 지표를 기반으로 합니다. 사람 지표에서는 여러 디바이스를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 인물 템플릿 </a> </p> </td> 
+   <td colname="col2"> <p>참고: 인물 템플릿과 관련 인물 지표는 <a href="https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a>의 일부로서만 사용할 수 있습니다. </p> <p>템플릿은 다시 말해, 고유 방문자 수 지표의 중복이 제거된 버전인 인물 지표를 기반으로 합니다. 인물 지표에서는 여러 디바이스를 사용하는 소비자가 브랜드와 상호 작용하는 빈도를 측정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>실행 취소/다시 실행 옵션 개선 사항 </p> </td> 
@@ -921,7 +921,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  >프로젝트를 저장하지 않고 PDF 보내기 및 다운로드</a> </p> </td> 
-   <td colname="col2"> <p>이제 프로젝트를 저장하지 않고도 작업 영역에서 PDF를 보내고 다운로드할 수 있습니다. PDF 파일 이름은 프로젝트의 현재 이름과 일치합니다. 다운로드한 PDF에 프로젝트에 저장하지 않은 변경 사항이 포함되어 있습니다. 저장하지 않은 프로젝트를 예약할 수 없습니다.  (또한 저장하지 않은 CSV 파일을 보내고 다운로드할 수 있지만, 예약할 수 없습니다.) </p> </td> 
+   <td colname="col2"> <p>이제 프로젝트를 저장하지 않고도 Workspace에서 PDF를 보내고 다운로드할 수 있습니다. PDF 파일 이름은 프로젝트의 현재 이름과 일치합니다. 다운로드한 PDF에 프로젝트에 저장하지 않은 변경 사항이 포함되어 있습니다. 저장하지 않은 프로젝트를 예약할 수 없습니다. (또한 저장하지 않은 CSV 파일을 보내고 다운로드할 수 있지만, 예약할 수 없습니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >프로젝트 구성 요소 자동 공유</a> </p> </td> 
@@ -993,7 +993,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/components/c-alerts/intellligent-alerts.md"  > 지능형 경고 </a></b> </td> 
-   <td colname="col2"> <p>모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 Analysis Workspace에서 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도와 함께 완료할 수 있습니다. : </p> <p> </p> 
+   <td colname="col2"> <p>모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 Analysis Workspace에서 경고를 생성하고 관리할 수 있으며, 경고 미리보기 및 규칙 기여도와 함께 완료할 수 있습니다. : </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">예외 항목을 기반으로 한 경고를 만듭니다 (90%, 95% 또는 99% 임계값, % 변경, 초과/미만). </li> 
      <li id="li_9BFE2B4C429D441287F1A37A08E62A40">경고가 트리거되는 빈도를 미리 봅니다. </li> 
@@ -1003,7 +1003,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 예외 항목 탐지 및 기여도 분석 </a></b> </td> 
-   <td colname="col2"> <p>트렌드 데이터의 변경 사항이 중요한지 여부와 변경 사항을 초래한 원인을 알려줍니다. </p> <p>이제 Analysis Workspace에서 예외 항목 탐지 및 기여도 분석 기능은 모두 핵심 워크플로입니다. </p> <p>중요: 기여도 분석은 Adobe Analytics Premium 고객만 사용할 수 있습니다. </p> <p>: </p> <p> </p> 
+   <td colname="col2"> <p>트렌드 데이터의 변경 사항이 중요한지 여부와 변경 사항을 초래한 원인을 알려 줍니다. </p> <p>이제 Analysis Workspace에서 예외 항목 탐지 및 기여도 분석 기능은 모두 핵심 워크플로입니다. </p> <p>중요: 기여도 분석은 Adobe Analytics Premium 고객만 사용할 수 있습니다. </p> <p>: </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">사용자의 데이터에 있는 통계적으로 중요한 데이터 예외 항목을 자동으로 탐지할 수 있습니다. </li> 
      <li id="li_2FB3D94DEEF14DD5ADA6AD69E15F243D">매일 발생하는 임의의 예외 항목에 대해 [기여도 분석]을 실행하고 Analysis Workspace 프로젝트에 포함할 수 있습니다. </li> 
@@ -1031,7 +1031,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->다음과 같은 작업을 하는 기능인 태그, 즐겨찾기, 승인, <b>공유 (새로운 기능!)"작업" 버튼을 왼쪽 내비게이션 레일에 추가했습니다.</b>, <b>삭제 (새로운 기능!)</b>과 같은 작업을 포함하는 왼쪽 탐색 레일에 "작업" 버튼을 추가했습니다. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">태그, 즐겨찾기, 승인된 항목 및 구성 요소에 대해 필터링할 수 있도록 해 주는 검색 막대에 필터를 추가했습니다. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">세그먼트, 지표, 날짜 범위를 미리 볼 수 있도록 해 주는 미리 보기 아이콘을 수동 행 (측정 기준 항목을 나열하는 다이내믹 행이 아님)에 추가했습니다. </li>  
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">세그먼트, 지표, 날짜 범위를 미리 볼 수 있도록 해 주는 미리보기 아이콘을 수동 행 (측정 기준 항목을 나열하는 다이내믹 행이 아님)에 추가했습니다. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->시각화를 위해 컨텍스트 메뉴에서 <span class="uicontrol">시작</span>이라는 마우스 오른쪽 버튼으로 클릭하여 표시되는 선택 사항을 추가했습니다 (흐름, 벤, 히스토그램에 대해 작동하게 됨). 이 선택 사항을 사용하면 현재 시각화에 대한 구성이 삭제되고, 다시 구성할 수 있는 새 패널이 열립니다. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">새로운 시각화 설정 "범례 표시"를 사용하면 요약 번호/요약 변경 사항 시각화에 대한 필터 세부 사항을 숨길 수 있습니다. </li> 
@@ -1047,7 +1047,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 2016년 6월 16일 릴리스된 새로운 기능:
 
-* 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL 작업 공간]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
+* 관리자가 **[!UICONTROL 분석]** > **[!UICONTROL Workspace]** 탭에 대한 사용자의 액세스를 허용 또는 거부할 수 있는 [새 그룹 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) 2016년 6월 16일부터 모든 사용자는 이 탭에 액세스할 수 있는 권한이 있습니다. 액세스를 거부하려면 Analysis Workspace 액세스 그룹에서 사용자를 제거하면 됩니다.
 * 다음 [세그먼트 비교 패널](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)은 사용자가 액세스하는 모든 개별 지표 및 차원의 자동화된 분석을 통해 두 세그먼트 간의 통계적으로 가장 유의한 차이를 알아냅니다.
 * 맨 위 메뉴를 다시 정렬하고 좀 더 많이 확장 가능하게 하는 [새 프로젝트 메뉴 구조](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 예를 들어 **새 집단 패널**&#x200B;을 생성할 경우 빈 패널이 생성되며 집단 테이블 시각화로 드래그할 수 있습니다.
 * [새 왼쪽 레일](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 패널, 시각화, 구성 요소
@@ -1058,8 +1058,8 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 * [세그먼트 추가](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) 드롭 영역
 * 부분적인 업데이트:
 
-   * 패널에 있는 모든 시각화와 프로젝트에 있는 모든 패널을 삭제하는 기능.  (이전에는 하나 이상의 시각화 또는 1개의 패널을 유지해야 했습니다.)
-   * Analysis Workspace에서 작업할 수 있는 [바로 가기 키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(핫키)에 대한 변경 사항입니다.
+   * 패널에 있는 모든 시각화와 프로젝트에 있는 모든 패널을 삭제하는 기능. (이전에는 하나 이상의 시각화 또는 1개의 패널을 유지해야 했습니다.)
+   * Analysis Workspace와 작업할 수 있는 [바로 가기 키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(단축키) 변경 사항.
    * 스타일 변경: 시각화의 좀 더 작아진 글꼴, 행의 색상 견본, 아래로 이동된 날짜 선택기 (패널에서)
 
 ## 2016년 4월
@@ -1095,7 +1095,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 * [세그먼트, 지표 및 날짜에 대해 다른 이름으로 저장](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
 * [새 세그먼트 추가 버튼](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
 * [조건부 서식](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
-* [차원 미리 보기](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
+* [차원 미리보기](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
 * [범례 표시](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
 * [Y축 0에 연결](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
 * [탭 제목의 프로젝트 이름](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
@@ -1217,9 +1217,9 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
  </tbody> 
 </table>
 
-## 차원 미리 보기 {#section_F519EBF889B244E8B25BB6BA2833325A}
+## 차원 미리보기 {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-[!UICONTROL 차원] 구성 요소 패널에서 차원 옆에 있는 정보 아이콘을 마우스로 가리키면 최상위 5개 미리 보기를 볼 수 있습니다.
+[!UICONTROL 차원] 구성 요소 패널에서 차원 옆에 있는 정보 아이콘을 마우스로 가리키면 상위 5개 항목에 대한 미리보기가 표시됩니다.
 
 ![](assets/dimension-preview.png)
 
@@ -1249,4 +1249,4 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 관리자는 사용자 간에 [!UICONTROL Analysis Workspace] 프로젝트를 전송할 수 있습니다.
 
-**[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 전송]**&#x200B;으로 이동하여 프로젝트를 전송합니다.
+**[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 전송]**&#x200B;으로 이동하여 프로젝트를 전송합니다.
