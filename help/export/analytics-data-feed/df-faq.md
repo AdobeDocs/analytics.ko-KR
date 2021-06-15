@@ -44,7 +44,7 @@ Adobe Analytics에서는 대부분의 변수가 보고 목적으로 대소문자
 
 ## 보트는 데이터 피드에 포함된 Admin Console 보트 규칙으로 필터링됩니까?
 
-데이터 피드는 [Admin Console 보트 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=ko-KR)으로 필터링된 보트를 포함하지 않습니다.
+데이터 피드는 [Admin Console 보트 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=ko)으로 필터링된 보트를 포함하지 않습니다.
 
 ## 여러 개의 `000` 값이 `event_list` 또는 `post_event_list` 데이터 피드 열에 표시되는 이유는 무엇입니까?
 
