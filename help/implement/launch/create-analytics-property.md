@@ -3,9 +3,9 @@ title: Launch에서 Analytics 속성 만들기
 description: Adobe Experience Platform Launch를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 96%
 
 Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Experience Cloud 솔루션을 통합하는 데 사용할 수 있는 도구입니다. 이 페이지에서는 Launch 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 [보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기
 
@@ -25,7 +25,7 @@ Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Exper
 1. **[!UICONTROL 새 속성]**&#x200B;을 클릭합니다.
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 새로 만든 속성을 클릭하여 해당 설정을 입력합니다.
-1. **[!UICONTROL 확장]** 탭을 클릭한 다음, **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 확장]** 탭을 클릭한 다음 **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
 1. ID 서비스를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 확장 카탈로그로 돌아가 Adobe Analytics를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
@@ -80,9 +80,9 @@ Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Exper
 
 ## 문서 및 추가 리소스
 
-* [Adobe Analytics 확장 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref): Adobe Experience Platform Launch의 Adobe Analytics 확장에 대한 모든 내용이 들어 있는 문서입니다.
-* [Launch 시작하기](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started): 더 심층적인 시작 안내서를 포함하여 Launch에 대한 모든 내용이 들어 있는 문서입니다.
-* [Adobe Experience Platform Launch 채널](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): 동영상을 통해 Launch를 사용하는 방법을 알아봅니다.
+* [Adobe Analytics 확장 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ko#extensions-ref): Adobe Experience Platform Launch의 Adobe Analytics 확장에 대한 모든 내용이 들어 있는 문서입니다.
+* [Launch 시작하기](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=ko#get-started): 더 심층적인 시작 안내서를 포함하여 Launch에 대한 모든 내용이 들어 있는 문서입니다.
+* [Adobe Experience Platform Launch 채널](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): 비디오를 통해 Launch를 사용하는 방법을 알아봅니다.
 
 ## 다음 단계
 
