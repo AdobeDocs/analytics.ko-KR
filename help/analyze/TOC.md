@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 99%
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [핫키(바로 가기)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [핫키(단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [색상 팔레트](analysis-workspace/build-workspace-project/color-palettes.md)
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 구성 요소 {#components}
@@ -61,7 +60,7 @@ ht-degree: 99%
          + [폴아웃 분석에서 세그먼트 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 흐름 {#flow}
          + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)
-         + [흐름 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
          + [흐름 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
@@ -79,13 +78,13 @@ ht-degree: 99%
       + [트리 맵](analysis-workspace/visualizations/treemap.md)
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
-      + [A4T(Analytics for Target) 패널](analysis-workspace/c-panels/a4t-panel.md)
+      + [A4T (Analytics for Target) 패널](analysis-workspace/c-panels/a4t-panel.md)
       + [속성 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
-      + 세그먼트 비교 패널{#segment-comparison}
+      + 세그먼트 비교 패널 {#segment-comparison}
          + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -97,7 +96,7 @@ ht-degree: 99%
       + [보기 전용 프로젝트](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF 또는 CSV 파일 다운로드](analysis-workspace/curate-share/download-send.md)
       + [프로젝트 예약](analysis-workspace/curate-share/t-schedule-report.md)
-   + 속성 IQ {#attribution}
+   + Attribution IQ {#attribution}
       + [속성 개요](analysis-workspace/attribution/overview.md)
       + [속성 모델 및 전환 확인 기간](analysis-workspace/attribution/models.md)
       + [알고리즘 속성](analysis-workspace/attribution/algorithmic.md)
@@ -143,7 +142,7 @@ ht-degree: 99%
       + [데이터 요청 만들기](report-builder/data-requests/t-create-a-data-request.md)
       + 보고서 세트 {#report-suites}
          + [보고서 세트 선택](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Excel의 기존 요청에서 보고서 세트 선택](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [보고서 세트 선택 Excel에 있는 기존의 요청에서](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel을 사용하여 보고서 세트 ID 찾기](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [세그먼트 관리](report-builder/data-requests/segmentation.md)
       + [게시 목록 무시 허용](report-builder/data-requests/allow-publishing-list-overrides.md)
@@ -154,7 +153,7 @@ ht-degree: 99%
          + [요청 마법사를 사용하여 폴아웃 보고서 필터링](report-builder/data-requests/c-report-types/fallout-filter.md)
          + [종속 요청을 추가하여 경로 보고서 필터링](report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [보고서 유형 선택](report-builder/data-requests/c-report-types/t-select-report-type.md)
-      + [북마크가 지정된 보고서 및 대시보드 Reportlet 가져오기](report-builder/data-requests/import-bookmarked.md)
+      + [북마크가 지정된 보고서 및 대시보드 리포트릿 가져오기](report-builder/data-requests/import-bookmarked.md)
       + 날짜 범위 {#date-ranges}
          + [요청 마법사 정의 - 사전 설정 날짜](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [고정 날짜 및 저장된 날짜 범위](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
@@ -182,7 +181,7 @@ ht-degree: 99%
          + [트래픽 및 상거래 지표를 동일한 요청에 통합](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [차원 및 지표의 사용자 액세스 권한](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [지표 수정 - 필드 정의](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
-         + [고객 속성](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
+         + [사용자 특성](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [예외 항목 탐지](report-builder/layout/anomaly-detection.md)
       + [예외 항목 탐지 요청 구성](report-builder/layout/t-anomaly.md)
       + [날짜 형식 지정](report-builder/layout/format-the-data.md)
@@ -235,7 +234,7 @@ ht-degree: 99%
       + [제한 사항 및 사양](report-builder/c-publish-power-bi/specifications-limits.md)
       + [수동으로 Power BI에 데이터 가져오기](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [게시된 에셋을 Power BI Desktop에 가져오기](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [우수 사례](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [모범 사례](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 통합 문제 해결](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI용 Adobe Analytics 콘텐츠 팩](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic 매크로](report-builder/vba.md)
@@ -256,13 +255,13 @@ ht-degree: 99%
       + [링크 추적 FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
       + [동일한 링크 ID 및 영역을 참조하는 링크 차별화](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
       + [링크 추적 중지](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [s. tl() 함수 사용](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
+      + [s.tl() 함수 사용](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [표준 모드와 라이브 모드 비교](activity-map/activitymap-standard-live.md)
    + [링크 보고서](activity-map/activitymap-links-report.md)
-   + [페이지 세부정보](activity-map/activitymap-page-flow.md)
+   + [페이지 상세정보](activity-map/activitymap-page-flow.md)
    + [전체 지표 세트](activity-map/activitymap-complete-metrics.md)
-   + [실시간 (라이브) 페이지 분석](activity-map/activitymap-realtime.md)
-   + [고객 세그먼테이션](activity-map/activitymap-multiple-segments.md)
+   + [실시간(라이브) 페이지 분석](activity-map/activitymap-realtime.md)
+   + [고객 세그멘테이션](activity-map/activitymap-multiple-segments.md)
    + [사용자 지정 가능 오버레이](activity-map/activitymap-gainerslosers.md)
    + [오버레이 세부정보](activity-map/activitymap-overlay-details.md)
    + [CSV 파일로 내보내기](activity-map/activitymap-csv.md)
@@ -296,7 +295,7 @@ ht-degree: 99%
    + [Analytics 세그멘테이션](reports-analytics/segmentation.md)
    + [북마크 관리자](reports-analytics/bookmarks.md)
    + [현재 데이터](reports-analytics/current-data.md)
-   + [대시보드 및 Reportlet](reports-analytics/dashboard.md)
+   + [대시보드 및 리포트릿](reports-analytics/dashboard.md)
    + [대시보드 관리자](reports-analytics/dashboard-manage.md)
    + [데이터 추출](reports-analytics/data-extract.md)
    + [유입 경로 보고서](reports-analytics/funnels.md)
