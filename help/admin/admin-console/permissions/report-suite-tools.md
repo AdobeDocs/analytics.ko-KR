@@ -3,9 +3,9 @@ title: 보고서 세트 도구에 대한 제품 프로필 권한
 description: 보고서 세트 도구에서 각 권한 항목을 파악합니다.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -39,18 +39,18 @@ ht-degree: 87%
 | 실시간 보고서 | Reports &amp; Analytics의 사이트 지표 > 실시간에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;실시간 보고서 구성&#39;을 사용하여 이 보고서 설정에 대한 액세스 권한을 부여합니다. |
 | 보트 페이지 | Reports &amp; Analytics의 사이트 지표 > 보트 > 보트 페이지 보고서에 대한 액세스 권한을 부여합니다. |
 | 보트 | Reports &amp; Analytics의 사이트 지표 > 보트 > 보트 보고서에 대한 액세스 권한을 부여합니다. |
-| 데이터 피드 관리자 | Analytics 상단 탐색에서 관리 > 데이터 피드에 대한 액세스 권한을 부여합니다. |
-| 사용자 지정 데이터 웨어하우스 보고서 | Analytics 상단 탐색에서 도구 > Data Warehouse에 대한 액세스 권한을 부여합니다. |
+| 데이터 피드 관리자 | Analytics 상단 탐색에서 관리자 > 데이터 피드에 대한 액세스 권한을 부여합니다. |
+| 사용자 지정 Data Warehouse보고서 | Analytics 상단 탐색에서 도구 > Data Warehouse에 대한 액세스 권한을 부여합니다. |
 | 일별 재방문 | Reports &amp; Analytics에서 방문자 유지 > 일별 재방문에 대한 액세스 권한을 부여합니다. |
 | 데이터 소스 관리자 | Analytics 상단 탐색에서 관리자 > 모든 관리자 > 데이터 소스에 대한 액세스 권한을 부여합니다. 권한 항목 &#39;보고서 세트 관리&#39;가 필요합니다. |
 | IP 주소로 제외 | Analytics 상단 탐색에서 관리자 > IP별로 제외에 대한 액세스 권한을 부여합니다. |
 | 재방문 | Reports &amp; Analytics에서 방문자 유지 > 재방문에 대한 액세스 권한을 부여합니다. |
 | 분류 | 보고서 세트 관리자의 모든 분류 설정에 대한 액세스 권한을 부여합니다. 이 권한 항목에는 <br>트래픽 > 트래픽 분류<br>전환 > 전환 분류<br>전환 > 분류 계층<br>마케팅 채널 > 마케팅 채널 분류<br>앱 관리 > 앱 분류<br>미디어 관리 > 미디어 분류<br>AEM > AEM Assets 분류<br>Adobe Campaign > Adobe 분류가 포함됩니다. |
 | 내 권장 보고서 | Reports &amp; Analytics의 사이트 지표 > 내 권장 보고서에 대한 액세스 권한을 부여합니다. |
-| Reports &amp; Analytics 대시보드 이미지 Reportlet | 대시보드 Reportlet에 대한 액세스 권한을 부여합니다. |
-| Reports &amp; Analytics 대시보드 지표 측정 Reportlet | 대시보드 Reportlet에 대한 액세스 권한을 부여합니다. |
-| Reports &amp; Analytics 대시보드 보고서 세트 요약 리포트릿 | 대시보드 Reportlet에 대한 액세스 권한을 부여합니다. |
-| Reports &amp; Analytics DashboardText Reportlet | 대시보드 Reportlet에 대한 액세스 권한을 부여합니다. |
-| Reports &amp; Analytics 대시보드 보고서 세트 요약 리포트릿 | 대시보드 Reportlet에 대한 액세스 권한을 부여합니다. |
-| Reports &amp; Analytics 대시보드 외부 Reportlet | 대시보드 Reportlet에 대한 액세스 권한을 부여합니다. |
+| Reports &amp; Analytics 대시보드 이미지 리포트릿 | 대시보드 리포트릿에 대한 액세스 권한을 부여합니다. |
+| Reports &amp; Analytics 대시보드 지표 측정 리포트릿 | 대시보드 리포트릿에 대한 액세스 권한을 부여합니다. |
+| Reports &amp; Analytics 대시보드 리포트 세트 요약 리포트릿 | 대시보드 리포트릿에 대한 액세스 권한을 부여합니다. |
+| Reports &amp; Analytics DashboardText 리포트릿 | 대시보드 리포트릿에 대한 액세스 권한을 부여합니다. |
+| Reports &amp; Analytics 대시보드 리포트 세트 요약 리포트릿 | 대시보드 리포트릿에 대한 액세스 권한을 부여합니다. |
+| Reports &amp; Analytics 대시보드 외부 리포트릿 | 대시보드 리포트릿에 대한 액세스 권한을 부여합니다. |
 | 데이터 복구 API | 데이터 복구 API에 대한 액세스 권한 부여 |
