@@ -7,9 +7,9 @@ feature: Reports & Analytics 기본 사항, 보고서 및 분석
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예�
 * 데이터 추출: 50,000개 행
 * Data Warehouse: 제한 없음
 
-이러한 제한 사항은 예약 및 다운로드한 개별 보고서용이며, 대시보드는 reportlet 내에서 사용할 수 있는 공간의 크기로 제한됩니다.
+이러한 제한 사항은 예약 및 다운로드한 개별 보고서용이며, 대시보드는 리포트릿 내에서 사용할 수 있는 공간의 크기로 제한됩니다.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고�
 
 [!UICONTROL 보고서 예약 관리자]는 특정 사용자가 만든 항목을 보여 줍니다. 애플리케이션에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 
-1. 관리자에 액세스하려면 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 예약된 보고서]**&#x200B;를 클릭합니다.
+1. 해당 관리자에 액세스하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 예약된 보고서]**&#x200B;를 클릭합니다.
 
 ## 보고서 링크 공유 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
@@ -129,7 +129,7 @@ PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고�
 >
 >보고서를 다시 받으려면 새 일정을 만들어야 합니다.
 
-예약된 보고서에서 가입을 해지하려면,
+예약된 보고서에서 가입을 해지하려면
 
 1. 가입을 해지할 보고서에 대한 링크가 있는 이메일을 표시합니다.
 
@@ -145,4 +145,4 @@ PDF, CSV, Excel 또는 원시 데이터 내보내기 형식으로 특정 보고�
 
 보고서의 가입을 해지해도 예약된 보고서가 취소되지 않습니다.
 
-예약된 보고서를 취소하려면, [예약 관리자]로 이동하고, 보고서 이름 옆에 있는 빨간색 X를 클릭합니다. [자세히...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
+예약된 보고서를 취소하려면 [예약 관리자]로 이동하고, 보고서 이름 옆에 있는 빨간색 X를 클릭합니다. [자세히...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
