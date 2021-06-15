@@ -2,11 +2,10 @@
 title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-translation-type: tm+mt
 source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 94%
 
 ## 이벤트 직렬화 설정
 
-먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 가이드의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md)를 참조하십시오.
+먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 안내서의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md)를 참조하십시오.
 
 이벤트 ID를 사용할 때 중복 제거는 다음 수준에서 수행됩니다.
 
@@ -38,12 +37,12 @@ Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙의 작업�
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. 각 이벤트에 [!UICONTROL 이벤트 ID] 필드가 포함된 [!UICONTROL 이벤트] 섹션을 찾습니다.
 
-유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘립니다.
+유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘라냅니다.
 
 ## AppMeasurement 및 Launch 사용자 지정 코드 편집기에서 이벤트 ID 사용
 
