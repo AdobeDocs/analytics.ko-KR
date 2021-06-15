@@ -7,7 +7,7 @@ user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
    + [Data Warehouse 요청 관리](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse에서 지원되는 구성 요소](data-warehouse/component-support.md)
    + [Data Warehouse FAQ](data-warehouse/faq.md)
-   + [Data Warehouse 우수 사례](data-warehouse/data-warehouse-bp.md)
+   + [Data Warehouse 모범 사례](data-warehouse/data-warehouse-bp.md)
 + FTP 및 SFTP {#ftp-and-sftp}
    + [Adobe Experience Cloud와 FTP 및 SFTP 사용](ftp-and-sftp/ftp-overview.md)
    + Adobe에서 호스팅하는 FTP 계정 설정 {#set-up-ftp-accounts}
