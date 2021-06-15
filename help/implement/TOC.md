@@ -143,11 +143,11 @@ ht-degree: 99%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H 코드 문제 해결](js/h-code/troubleshooting.md)
-   + 기존 교차 장치 식별 {#xdevice-visid}
-      + [여러 장치의 사용자 연결 개요](js/xdevice-visid/xdevice-connecting.md)
+   + 기존 크로스 디바이스 식별 {#xdevice-visid}
+      + [여러 디바이스의 사용자 연결 개요](js/xdevice-visid/xdevice-connecting.md)
       + [변수 지속성](js/xdevice-visid/variable-persistence.md)
       + [방문 예](js/xdevice-visid/visit-example.md)
-      + [기존 교차 장치 FAQ](js/xdevice-visid/xdevice-faq.md)
+      + [기존 크로스 디바이스 FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 문제 해결](js/troubleshooting.md)
 + Adobe Experience Platform Launch를 사용하여 Analytics 구현 {#launch}
    + [Launch 개요](launch/overview.md)
@@ -163,7 +163,7 @@ ht-degree: 99%
    + [AMP에서 Analytics 구현](other/amp.md)
    + [Digital Assistant에서 Analytics 구현](other/digital-assistants.md)
    + [Facebook 인스턴트 아티클에서 Analytics 구현](other/fb-instant-articles.md)
-+ [모바일 장치용 Analytics 구현](mobile-device-sdk.md)
++ [모바일 디바이스용 Analytics 구현](mobile-device-sdk.md)
 + 구현 사용 사례 {#use-cases}
    + [iFrame에서 AppMeasurement 사용](use-cases/iframe.md)
    + [다양한 구현 유형 추적](use-cases/cross-type-implementation.md)
