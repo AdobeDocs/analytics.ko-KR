@@ -5,10 +5,10 @@ title: 전환 변수 (eVar)
 feature: 관리 도구
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 84%
+source-wordcount: '1579'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 | [!UICONTROL 다음 시기 이후에 만료] | eVar 값이 만료된 후 기간 또는 이벤트를 지정합니다 (더 이상 성공 이벤트에 대한 크레딧을 받지 않음). 성공 이벤트가 eVar 만료 후 발생하는 경우 값이 해당 이벤트에 대한 크레딧을 받지 않습니다 (eVar가 활성화되지 않았음).  이벤트를 만료 값으로 선택하면 이 이벤트가 발생하는 경우에만 해당 변수가 만료됩니다. 해당 이벤트가 발생하지 않으면 해당 변수가 만료되지 않습니다.  사용 가능한 만료 옵션은 다음 네 가지 기본 범주로 분류될 수 있습니다.<ul><li>**페이지 뷰 또는 방문 수준에서.** 페이지 보기 또는 방문 범주를 벗어나는 전환 이벤트는 eVar과 연결되지 않습니다.</li><li>**일, 주, 월 또는 년과 같은 기간 기준.**&#x200B;지정된 기간 이상의 전환 이벤트는 eVar과 연결되지 않습니다. 만료 기간은 변수가 설정될 때 시작됩니다. eVar은 초 (분, 시간, 일, 월 등)로 설정된 시간을 기반으로 하여 만료됩니다. <ul><li>MINUTE=60초</li><li>HOUR=3600초 (60분)</li><li>DAY=86400초 (24시간)</li><li>WEEK=604800초 (7일)</li><li>MONTH=2678400초 (31일)</li><li>QUARTER=8035200초 (93일 - 3개월 31일)</li><li>YEAR=31536000초 (365일)</li><br>방문이 월요일 오전 7시에 시작되고 eVar이 오전 7시 15분에 해당 방문 이내로 설정된 경우 만료가 아래와 같이 표시됩니다.<li>일 만료: eVar이 화요일 오전 7시 15분에 만료됩니다.</li><li>주 만료: eVar이 다음 월요일 오전 7시 15분에 만료됩니다.</li><li>월 만료: eVar이 월요일 오전 7시 15분부터 31일 후에 만료됩니다.</li></ul><li>**특정 전환 이벤트.** 특정 이벤트가 지정된 후 실행되는 다른 전환 이벤트가 eVar과 연결됩니다.</li><li>**절대 안 함.**  visitorID 쿠키가 그대로 유지되는 한 eVar와 이벤트 간에 시간이 경과할 수 있습니다.</li></ul> |
 | [!UICONTROL 상태]  (eVar 전용) | [!UICONTROL eVar] 상태를 정의합니다.<ul><li>**비활성화**[!UICONTROL : eVar를 비활성화합니다]. 전환 변수 목록에서 [!UICONTROL eVar]를 제거합니다.</li><li>**하위 관계 없음**:차원별로 eVar를 분류하지   않도록 합니다.</li><li>**기본 하위 관계**:eVar을 전체 차원(예: 제품 또는 캠페인)으로 분류할 수 있습니다.</li></ul> |
 | [!UICONTROL 재설정] | eVar에서 모든 기존 값을 재설정합니다. eVar의 용도를 다시 지정할 때 이 설정을 사용하여 새 보고서에 이전 값을 혼합합니다. 재설정해도 내역 데이터는 지워지지 않습니다. |
-| [!UICONTROL 머천다이징]  (eVar만) | 머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다.<ul><li>**[!UICONTROL 제품 구문]**: eVar 값을 제품에 연결합니다. **참고**:제품  [!UICONTROL 동기화] 를 선택한 경우 머천다이징  [!UICONTROL 바인딩 ] 이벤트 섹션이 비활성화되어 편집을 위해 선택할 수 없습니다. 이 구문에는 [!UICONTROL 바인딩 이벤트]를 적용할 수 없습니다.</li><li>**[!UICONTROL 전환 변수 구문]**: 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 [!UICONTROL 바인딩 이벤트] 역할을 하는 이벤트를 선택합니다.  알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. [머천다이징 변수](https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html)를 참조하십시오.</li></ul> |
+| [!UICONTROL 머천다이징]  (eVar만) | 머천다이징 변수는 다음 두 구문 중 하나를 따를 수 있습니다.<ul><li>**[!UICONTROL 제품 구문]**: eVar 값을 제품에 연결합니다. **참고**:제품  [!UICONTROL 동기화] 를 선택한 경우 머천다이징  [!UICONTROL 바인딩 ] 이벤트 섹션이 비활성화되어 편집을 위해 선택할 수 없습니다. 이 구문에는 [!UICONTROL 바인딩 이벤트]를 적용할 수 없습니다.</li><li>**[!UICONTROL 전환 변수 구문]**: 바인딩 이벤트가 발생하는 경우에만 eVar를 제품과 연결합니다. 이 경우 [!UICONTROL 바인딩 이벤트] 역할을 하는 이벤트를 선택합니다.  알맞게 JavaScript 코드를 업데이트하지 않고 이 설정을 변경하면 데이터가 손실됩니다. [머천다이징 변수](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.</li></ul> |
 | [!UICONTROL 머천다이징 바인딩 이벤트] (eVar만) | 머천다이징이 [!UICONTROL 전환 변수 구문]으로 설정된 경우, 선택한 이벤트는 현재 eVar 값을 제품에 바인딩합니다. [!UICONTROL 바인딩 이벤트]을 사용하려면 [!UICONTROL 할당]을 [!UICONTROL 가장 최근]으로 설정하십시오. [!UICONTROL 할당]이 [!UICONTROL 원래 값]으로 설정된 경우 첫 번째 eVar 제품 바인딩은 eVar이 만료될 때까지 유지됩니다. ctrl(Windows) 또는 cmd(Mac)를 누른 채로 목록의 항목을 클릭하면 여러 개의 이벤트를 선택할 수 있습니다. [!UICONTROL 전환 변수 구문]을 선택한 경우에만 이벤트를 선택할 수 있습니다. |
 
 **만료**
