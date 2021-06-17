@@ -4,10 +4,10 @@ title: Experience Cloud에 세그먼트 게시
 feature: 세그먼테이션
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 96%
+source-wordcount: '1325'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 
 **방법 1: Adobe Experience Cloud 디버거 사용**
 
-1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html)를 다운로드하여 설치합니다.
+1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](/help/implement/validate/debugger.md)를 다운로드하여 설치합니다.
 1. 페이지를 로드할 때 디버거를 실행합니다.
 1. Audience Manager 섹션으로 스크롤하여 현재 브라우저 페이지에 설정된 AAM UUID를 찾습니다 (아래 예에서 `50814298273775797762943354787774730612`).
 
@@ -105,7 +105,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 **방법 2: Chrome 개발자 도구 사용 (또는 기타 브라우저 개발자 도구)**
 
 1. 페이지를 로드하기 전에 Chrome 개발자 도구를 실행합니다.
-1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. AAM UUID는 타사 Demdex 쿠키 (아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR))에서 설정해야 합니다. 필드 demdex는 브라우저에 설정된 AAM UUID입니다 (아래 예에서 `50814298273775797762943354787774730612`).
+1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. AAM UUID는 타사 Demdex 쿠키 (아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko))에서 설정해야 합니다. 필드 demdex는 브라우저에 설정된 AAM UUID입니다 (아래 예에서 `50814298273775797762943354787774730612`).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
