@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '771'
 ht-degree: 95%
 
 ---
@@ -31,7 +31,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-개별 보고서에 대한 자세한 내용은 [보고서 설명](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html)을 참조하십시오.
+개별 보고서에 대한 자세한 내용은 [Dimension](/help/components/dimensions/overview.md)을 참조하십시오.
 
 ## 보고서 검색 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
