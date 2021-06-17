@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1391'
 ht-degree: 97%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 97%
 
 <!--This content is mirrored in the CDA doc.-->
 
-이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html))에 액세스할 수 있는 고객에게만 제공됩니다.
+이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en))에 액세스할 수 있는 고객에게만 제공됩니다.
 
 * **Co-op 그래프의 구성원을 위한 특수 참고 사항**: co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
 * **사용자 식별**: 교차 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
