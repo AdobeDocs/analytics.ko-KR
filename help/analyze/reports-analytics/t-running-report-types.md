@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 96%
+source-wordcount: '1299'
+ht-degree: 95%
 
 ---
 
@@ -57,23 +57,9 @@ Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.c
 
 페이지 흐름 보고서는 방문자가 페이지를 액세스하여 사이트를 탐색하는 순서를 보여줍니다. 이 보고서는 응답하는 데 도움이 됩니다.
 
-Analysis Workspace에서 새 [흐름 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)를 확인하십시오!
-
-[경로](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html) 보고서를 실행합니다.
+Analysis Workspace에서 [흐름 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)을 확인하십시오!
 
 예를 들어 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 다음 페이지 흐름]**&#x200B;을 클릭합니다.
-
-![](assets/page_flow.png)
-
-이 보고서를 선택한 페이지에서 시작하여 왼쪽에서 오른쪽으로 읽습니다. 선택한 페이지 이후에 본 페이지는 오른쪽으로 확장되는 분기로 표시됩니다.
-
-페이지 이름 옆에 각 후속 페이지를 본 백분율이 표시됩니다. 다음 각 페이지에 연결된 라인 너비는 이러한 상대적 백분율을 나타냅니다.
-
-**[!UICONTROL 경로 보기 횟수]**: 표시된 경로에 한정되어 있을 때 페이지를 본 횟수를 나타냅니다.
-
-예를 들어 개인정보 보호정책 페이지에는 총 10,000개의 페이지 보기가 있을 수 있지만 이 페이지 중 500페이지만이 홈 페이지 바로 다음에 발생했습니다. 따라서 경로 보기라는 용어가 사용됩니다.
-
-상대 백분율은 라인의 상대적 너비로 설명됩니다. 기본적으로 이 보고서에는 5개의 2차 수준 분기와 5개의 3차 수준 분기가 표시됩니다. 분기 수를 확장하면 최대 10개의 2차 수준 분기와 6개의 3차 수준 분기를 볼 수 있습니다. 이렇게 하면 보고서 높이가 증가하므로 일반적으로 전체 그래프를 보려면 스크롤해야 합니다.
 
 ## 마케팅 채널 보고서 실행 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ Analysis Workspace에서 새 [흐름 시각화](https://experienceleague.adobe.c
 
 ## 예외 항목 탐지 보고서 실행 {#task_4808C96327354D789C075823F5C3A049}
 
-예외 항목 탐지에 있는 개별 지표 차트와 요약을 해석하는 방법에 대해 설명합니다.
-
-Analysis Workspace에서 새[ 예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 기능을 확인하십시오!
-
-**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 예외 항목 탐지]** .
-
->[!NOTE]
->
->Analysis Workspace 프로젝트 내에서 예외 항목 탐지도 실행할 수 있습니다. [자세히...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-예외 항목 탐지 설정에 대한 자세한 내용은 [참조 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)를 참조하십시오.
-
-예외 항목 탐지에는 요약 차트와 개별 지표 차트, 이렇게 두 종류의 차트가 표시됩니다. 개별 지표 차트는 해당 지표에 대해 하나 이상의 예외 항목이 탐지된 경우에만 표시됩니다.
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>차트 종류 </p> </th> 
-   <th colname="col2" class="entry"> <p>역할 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>요약 차트 </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">각 상자는 아래 지표에 해당하는, 일별 추적된 하나의 예외 항목을 나타냅니다. </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">녹색은 꺾은 선형 위의 예외 항목을, 파란색은 꺾은 선형 아래의 예외 항목을 가리킵니다. </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">예외 항목의 강도를 가리킵니다. 예외 항목이 클수록 데이터 포인트 색상은 어두워지고 꺾은 선형에서 멀어집니다. </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">개별 예외 항목을 클릭하면 해당 예외 항목의 개별 지표 차트(요약 차트 아래)가 맨 위에 표시됩니다. </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">편차 비율 값(차트의 왼쪽)은 다음과 같이 계산됩니다. 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">상한과 예상 값이 동일하면, 편차 비율은 100%입니다. </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">그 외의 경우 편차 비율은 ((실제 값 – 상한 값)/(상한 값 – 예상 값)) * 100입니다. </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">하한과 예상 값이 동일하면 편차 비율은 –100%입니다. </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">그 외의 경우 편차 비율은 ((하한 값 – 실제 값)/(예상 값 – 하한 값)) * -100입니다. </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C"><span class="uicontrol">세그먼트 표시</span>를 클릭하면 세그먼트를 예외 항목 탐지 보고서에 적용할 수 있도록 해주는 세그먼트 레일이 표시됩니다.  세그멘테이션 <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  >추가 정보</a>. </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60"><span class="uicontrol">지표 편집</span>을 클릭하면 예외 항목을 탐지할 지표를 선택하거나 선택 취소할 수 있습니다. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>개별 지표 차트 </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">개별 트렌드 지표에 대한 예외 데이터 포인트(계산된 지표 포함)를 점으로 표시합니다. </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">맨 위에는 최신 예외 항목이 표시되고 부차적으로 예외 항목 수별로 순위가 표시됩니다. </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">현재 수집된 실제 데이터를 가리키는 실선이 표시됩니다. 이것은 데이터 포인트가 예외적인지를 추론하는 오차 예측 및 오차 범위와 비교됩니다. </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">내역 데이터(즉, 훈련 기간)를 기반으로 예측을 나타내는 점선이 표시됩니다. </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">위쪽 및 아래쪽 95% 신뢰 구간/제한을 회색 음영으로 표시합니다. </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">지표 이름 옆에 있는 이중 상향 및 하향 화살표를 클릭하여 개별 보고서를 축소하거나 확장할 수 있습니다. </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">지표 차트가 개요 보고서(위 참조)에서 드릴다운에 반응하여 나타나는 순서를 변경합니다. </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">모든 페이지 관련 지표에 대해 "페이지" 등의 검색어를 사용하여 차트를 필터링할 수 있습니다. </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">정의한 모든 지표나 예외 항목이 있는 지표만 표시할 수 있습니다. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## 예외 항목 탐지 설정 {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-예외 항목 탐지를 위한 보고서 세트, 지표 및 교육/보기 기간을 선택하는 절차입니다.
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-각 보고서 세트에 대해 독립적으로 예외 항목 탐지를 설정할 수 있습니다.
-
-1. **[!UICONTROL Analytics > 보고서 > 사이트 지표 > 예외 항목 탐지]**&#x200B;로 이동합니다.
-1. 일일 예외 항목 탐지를 추적할 보고서 세트를 선택합니다. 보고서 세트 목록을 표시하려면, 보고서 세트 선택기 드롭다운 메뉴를 클릭합니다.
-1. 지표를 선택하거나 필터링된 지표를 정의하려면 화면의 오른쪽 상단에 있는 **[!UICONTROL 지표 편집]**&#x200B;을 클릭합니다.  ![](assets/metrics_icon.png)
-
-   모든 지표 목록(계산된 지표 포함) 또는 추적된 지표 목록에서 지표를 선택할 수 있습니다. 목록의 범위를 좁히려면 특정 용어로 필터링할 수도 있습니다. 1. 보고서가 생성되면 예외 항목 탐지를 위해 **[!UICONTROL 훈련 기간]** 및 **[!UICONTROL 기간 보기]**&#x200B;를 정의합니다. (훈련 기간을 알고리즘에 대한 &quot;학습 기간&quot;으로 생각합니다.)
-
-   ![](assets/view_training_periods.png)
-
-   주의 사항:
-
-* 훈련 기간은 보기 기간이 시작되기 직전에 종료됩니다.
-* 두 기간의 기본값은 모두 30일이며, 60일 또는 90일로 연장할 수 있습니다.
-* 훈련 기간을 연장하면 데이터가 더 큰 컨텍스트에서 이해되므로 예외 항목의 크기를 줄일 수 있습니다.
-
-   예외 항목 탐지 지표 보고서는 매개 변수를 변경할 때마다 새로 고침됩니다.
-1. (선택 사항)보고서에 세그먼트를 적용하려면 **[!UICONTROL 세그먼트 보기]**&#x200B;를 클릭하고 하나 이상의 기존 세그먼트를 선택하거나 새 세그먼트를 만들어 적용합니다.
-
-   ![](assets/ad_top_menu.png)
-
-   세그먼트 만들기나 관리에 대한 자세한 내용은 [분석 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오. 1. (선택 사항) 보고서를 즐겨찾기 또는 책갈피로 추가합니다.
-1. (선택 사항) 보기 기간의 종료 날짜를 변경합니다. 기본값은 어제입니다.
-1. 이제 보고서 해석을 시작할 수 있습니다. [예외 항목 탐지 차트를 봅니다](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+[예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)만 Analysis Workspace에서 실행할 수 있습니다.
 
 ## 실시간 보고서 실행 {#task_5D25929C918E40B18965222FA94176B0}
 
 실시간 보고서를 보고 해석하는 방법에 대해 설명합니다.
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL 보고서 > 사이트 지표 > 실시간]** .
 
