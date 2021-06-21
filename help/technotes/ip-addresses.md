@@ -2,8 +2,8 @@
 title: Adobe Analytics에서 사용하는 IP 및 도메인
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 4460850971fe822ff8a0ebf3e3269d0e573fa1db
-workflow-type: ht
+source-git-commit: 31fa03e0d8bba457953e10aa537d22b2d69b84c1
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -127,9 +127,9 @@ Adobe Analytics는 데이터 수집 프로세스의 일부로 Amazon Web Service
 | 인도 | `65.0.114.116` |
 | 인도 | `65.0.115.179` |
 | 인도 | `65.0.25.111` |
-| 인도 | `13.233.180.137` |
-| 인도 | `65.0.111.130` |
-| 인도 | `52.66.172.181` |
+| 인도 | `3.7.24.204` |
+| 인도 | `3.108.50.194` |
+| 인도 | `3.108.177.136` |
 | 아일랜드 | `18.202.158.78` |
 | 아일랜드 | `54.72.205.114` |
 | 아일랜드 | `54.78.36.71` |
