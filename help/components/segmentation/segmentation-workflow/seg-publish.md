@@ -4,7 +4,7 @@ title: Experience Cloud에 세그먼트 게시
 feature: 세그먼테이션
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
+source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 97%
@@ -94,7 +94,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 
 다음 스크린샷은 브라우저에서 AAM UUID를 검색하고 이것을 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
 
-**방법 1: Adobe Experience Cloud 디버거 사용**
+**방법 1:Adobe Experience Cloud Debugger 사용**
 
 1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](/help/implement/validate/debugger.md)를 다운로드하여 설치합니다.
 1. 페이지를 로드할 때 디버거를 실행합니다.
