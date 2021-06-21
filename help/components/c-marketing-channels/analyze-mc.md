@@ -2,10 +2,10 @@
 title: 마케팅 채널 분석
 description: Workspace에서 마케팅 채널 차원을 사용하는 방법을 알아봅니다.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 95%
 
 ## 속성 모델 적용
 
-[속성 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
+[속성 IQ](/help/analyze/analysis-workspace/attribution/overview.md)를 사용하여 다른 속성 모델을 즉시 적용할 수 있습니다.
 
 ![](assets/mc-viz5.png)
 
