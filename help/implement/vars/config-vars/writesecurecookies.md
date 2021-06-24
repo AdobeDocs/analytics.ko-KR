@@ -2,17 +2,20 @@
 title: writeSecureCookies
 description: AppMeasurement가 Secure 속성을 사용하여 쿠키를 설정할 수 있도록 허용합니다.
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: b93cd06c2a8867f4848dc317e426b73dcfbb5dfd
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
 # writeSecureCookies
 
 `writeSecureCookies` 변수를 사용하면 AppMeasurement가 Analytics에 대한 [보안 쿠키](https://en.wikipedia.org/wiki/Secure_cookie)를 설정할 수 있습니다. 이 설정은 AppMeasurement에서 설정한 방문자 ID 쿠키와 `Util.CookieWrite()` 메서드를 사용하여 설정한 쿠키에 모두 적용됩니다. 이렇게 하려면 AppMeasurement 2.18.0 이상이 필요합니다.
+
+`writeSecureCookies` AppMeasurement JavaScript에서 설정한 쿠키(`s_fid`,  `s_cc` 및  `s_sq`)에만 적용됩니다. Adobe 고객 지원 센터에 연락하여 `https` 응답(`s_vi` 및 `s_ecid`)에서 설정한 쿠키를 &#39;보안&#39;으로 설정할 수 있습니다.
+
+Analytics 쿠키 [여기](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html)에 대해 자세히 알아보십시오.
 
 >[!IMPORTANT]
 >
