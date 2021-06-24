@@ -4,10 +4,10 @@ keywords: 데이터 피드, 우수 사례, 트래픽 스파이크, 시간별, ft
 title: 우수 사례 및 일반 정보
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 8f6c6aabf1e41cfd4b143a5d4cf14e73cdcbb603
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,6 @@ ht-degree: 66%
 
 * sFTP를 사용하는 경우 `.part` 접미사가 있는 파일을 읽거나 삭제하지 마십시오. `.part` 접미사는 파일이 부분적으로 전송되었음을 나타냅니다. 파일이 전송되면 `.part` 접미사는 사라집니다.
 
-* 피드 인제스트 프로세스를 자동화하는 경우 히트와 파일을 두 번 이상 전송할 수 있는 가능성을 고려하십시오. 피드 수집 프로세스는 데이터를 오류하거나 복제하지 않고 중복 히트와 중복 파일을 처리해야 합니다. 히트를 고유하게 식별하려면 `hitid_high` 및 `hitid_low` 열의 조합을 사용하는 것이 좋습니다.
+* 피드 수집 프로세스를 자동화하는 경우 히트 및 파일이 두 번 이상 전송될 수 있는 가능성을 고려하십시오. 피드 수집 프로세스는 오류나 데이터 중복 없이 중복 히트 및 중복 파일을 처리해야 합니다. 히트를 고유하게 식별하려면 `hitid_high` 및 `hitid_low` 열의 조합을 사용하는 것이 좋습니다.
 
-   드문 경우 중복 `hitid_high` 및 `hitid_low` 값이 표시될 수 있습니다. 이 경우 파일이 이전에 전송되고 처리되지 않았는지 확인합니다. 파일의 행 중 일부만 중복되는 경우 `visit_num` 및 visit_page_num&#39;을 추가하여 고유성을 결정하는 것이 좋습니다.
+   드문 경우지만 중복 `hitid_high` 및 `hitid_low` 값이 표시될 수 있습니다. 이 경우 파일이 이전에 전송되고 처리되지 않았는지 확인하십시오. 파일의 행 중 일부만 중복되는 경우 `visit_num` 및 `visit_page_num`을 추가하여 고유성을 결정하는 것이 좋습니다.
