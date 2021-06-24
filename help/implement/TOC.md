@@ -5,9 +5,9 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 + Adobe Analytics 구현 준비 {#prepare}
    + [데이터 계층 만들기](prepare/data-layer.md)
    + [글로벌 보고서 세트 고려 사항](prepare/global-rs.md)
-   + [다중 세트 태깅 구현](prepare/multi-suite-tagging.md)
+   + [다중 세트 태그 지정 구현](prepare/multi-suite-tagging.md)
    + [구현 모달](prepare/implementation-modal.md)
    + [솔루션 디자인 문서 만들기](prepare/solution-design.md)
    + [기존 Adobe Analytics 구현 관리](prepare/existing-implementation.md)
