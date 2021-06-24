@@ -3,9 +3,9 @@ title: 분류 개요
 description: 차원 항목 그룹을 사용자 지정합니다.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 Reports &amp; Analytics에는 추적 코드 변수를 위해 사전 정의된 분류가 포함되어 있으며, 크리에이티브 요소 및 캠페인이라고 하는 분류 기반 보고서를 제공합니다. 다른 모든 전환 및 트래픽 변수에 대한 분류를 수동으로 구성해야 합니다.
 
-[트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)를 참조하십시오.
+[트래픽 분류](/help/admin/admin/c-traffic-variables/traffic-classifications.md) 및 [전환 분류](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=ko-KR)를 참조하십시오.
 
 다음 표는 사용 가능한 분류의 다양한 유형과 각 분류를 지원하는 변수 유형을 나타냅니다. 데이터 파일을 업로드하기 전에 [일반 파일 구조](/help/components/classifications/importer/c-saint-data-files.md)의 정보를 검토하십시오.
 
