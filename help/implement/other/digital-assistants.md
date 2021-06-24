@@ -3,9 +3,9 @@ title: Analytics for Digital Assistants 구현
 description: Amazon Alexa 또는 Google Home과 같은 Digital Assistant에 Adobe Analytics를 구현합니다.
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Cache-Control: no-cache
 
 ## 사용자/방문자 식별
 
-Adobe Analytics는 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하여 시간 경과에 따른 상호 작용을 동일한 사람에게 연결합니다. 대부분의 Digital Assistant는 서로 다른 사용자에 대해 활동을 유지하는 데 사용할 수 있는 `userID`를 반환하며, 대부분의 경우 이 값은 고유 식별자로 전달할 수 있는 값입니다. 일부 플랫폼은 허용되는 100자보다 긴 식별자를 반환합니다. 이러한 경우 MD5 또는 Sha1과 같은 표준 해싱 알고리즘을 사용하여 고유 식별자를 고정 길이 값으로 해싱하는 것이 좋습니다.
+Adobe Analytics는 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 시간 경과에 따른 상호 작용을 동일한 사람에게 연결합니다. 대부분의 Digital Assistant는 서로 다른 사용자에 대해 활동을 유지하는 데 사용할 수 있는 `userID`를 반환하며, 대부분의 경우 이 값은 고유 식별자로 전달할 수 있는 값입니다. 일부 플랫폼은 허용되는 100자보다 긴 식별자를 반환합니다. 이러한 경우 MD5 또는 Sha1과 같은 표준 해싱 알고리즘을 사용하여 고유 식별자를 고정 길이 값으로 해싱하는 것이 좋습니다.
 
 ID 서비스를 사용하면 ECID를 다양한 장치에 매핑 (예: 웹을 Digital Assistant에)할 때 가장 많은 가치를 제공합니다. 앱이 모바일 앱인 경우 Experience Platform SDK를 있는 그대로 사용하고 `setCustomerID` 메서드를 사용하여 사용자 ID를 전송하십시오. 하지만 앱이 서비스인 경우에는 이 서비스에서 제공한 ID를 ECID로 사용하고 이것을 `setCustomerID`에서도 설정하십시오.
 
