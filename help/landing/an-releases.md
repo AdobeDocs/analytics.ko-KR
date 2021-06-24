@@ -2,10 +2,10 @@
 description: Adobe Analytics의 새로운 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Adobe Analytics 기능 릴리스
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,6 +38,6 @@ ht-degree: 96%
 ## FAQ
 
 | 질문 | 답변 |
-|---|---|
-| 기능에 대한 조기 액세스를 요청할 수 있습니까? | 아니요. 조기 액세스는 허용되지 않습니다.<br>초기 Analytics 개념을 테스트하려는 경우 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html)를 사용하여 업계를 선도하는 혁신적인 기술에 대한 피드백을 제공할 것을 권장합니다. |
-| 이 릴리스 전략은 기능 액세스에 영향을 줍니까? | 아니요. 기능이 GA에 도달하면 Analytics 패키지에 포함된 경우 이 기능에 액세스할 수 있습니다.<br>Analytics 패키지에 대한 세부 사항은 [!UICONTROL 관리자] > [!UICONTROL 모든 관리자] > [!UICONTROL 회사 설정] > [기능 액세스 수준](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)에서 확인할 수 있습니다. |
+| --- | --- |
+| 기능에 대한 조기 액세스를 요청할 수 있습니까? | 아니요. 조기 액세스는 허용되지 않습니다.<br>초기 Analytics 개념을 테스트하려는 경우 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html?lang=ko-KR)를 사용하여 업계를 선도하는 혁신적인 기술에 대한 피드백을 제공할 것을 권장합니다. |
+| 이 릴리스 전략은 기능 액세스에 영향을 줍니까? | 아니요. 기능이 GA에 도달하면 Analytics 패키지에 포함된 경우 이 기능에 액세스할 수 있습니다.<br>Analytics 패키지에 대한 세부 사항은 [!UICONTROL 관리자] > [!UICONTROL 모든 관리자] > [!UICONTROL 회사 설정] > [기능 액세스 수준](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html?lang=ko-KR)에서 확인할 수 있습니다. |
