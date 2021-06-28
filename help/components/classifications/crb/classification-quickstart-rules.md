@@ -5,9 +5,9 @@ title: 분류 규칙
 feature: 관리 도구
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Rule Builder는 *분류 규칙* 목록인 *분류 규칙 세트*&#x200B;를 설�
 |---|---|---|---|
 | 다음으로 시작 | em: | Channel | 이메일 |
 | 종료 문자 | 판매 | 유형 | 판매 |
-| 다음 포함 | 2013 | 년 | 2013년 |
+| 다음 포함 | 2013 | 년 | 2013 |
 
 ## 규칙 처리 방법의 정보를 숙지하십시오 {#how-rules-are-processed}
 
@@ -59,7 +59,7 @@ about_classification_rules.xml
 
 ## 규칙에 관한 중요한 정보
 
-* 분류에 사용할 [그룹 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)을 [!UICONTROL 관리자 도구]에서 지정합니다.
+* 분류에 사용할 [그룹 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR)을 [!UICONTROL 관리자 도구]에서 지정합니다.
 
 * **정규 표현식**: 도움말은 [분류 규칙의 정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md) 아래에 있습니다.
 
@@ -67,7 +67,7 @@ about_classification_rules.xml
 
    규칙 세트를 테스트할 때 보고서의 키(분류되는 변수)를 사용하여 이러한 보고서 키가 규칙 세트에 의해 어떤 영향을 받는지 확인하십시오. ([키](/help/components/classifications/importer/c-saint-data-files.md)는 분류되는 변수이거나 분류 업로드 표에 있는 첫 번째 열입니다.)
 
-* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다. See [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **규칙 우선 순위**: 어떤 하나의 키가 ([!UICONTROL 분류 설정]에서) 동일한 분류를 설정하는 여러 규칙과 일치하는 경우 해당 분류와 일치하는 마지막 규칙이 사용됩니다.  [규칙 우선 순위 정보](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **규칙 수의 제한**: 만들 수 있는 규칙 수에 대한 제한 설정은 없습니다. 그러나 규칙 수가 너무 많으면 브라우저의 성능에 영향을 줄 수 있습니다.
 * **처리**: 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
@@ -82,7 +82,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-   You can overwrite classifications when [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+    [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -294,7 +294,7 @@ rule_priority.xml
 | 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
 | 1 | 다음 포함 | Cowboys | 구/군/시 | Dallas |
-| 2개 | 다음 포함 | Broncos | 구/군/시 | Denver |
+| 2 | 다음 포함 | Broncos | 구/군/시 | Denver |
 
 사용자는 *`Cowboys vs. Broncos`*. 규칙 빌더가 규칙 일치에서 충돌을 발견할 경우 두 번째 규칙(Denver)에 대한 분류가 이 검색에 적용됩니다.
 
