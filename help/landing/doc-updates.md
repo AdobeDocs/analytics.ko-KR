@@ -4,7 +4,7 @@ description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이�
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -14,10 +14,10 @@ ht-degree: 100%
 
 2019년 1월 이후에는 Adobe Analytics 설명서 세트에 대한 콘텐츠 업데이트입니다.
 
-* [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)를 참조하십시오.
-* 새로운 Adobe Analytics 기능, 관리자 공지 및 버그 수정에 대한 포괄적인 목록이 필요하면 최신 [Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)를 참조하십시오.
+* [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR)를 참조하십시오.
+* 새로운 Adobe Analytics 기능, 관리자 공지 및 버그 수정에 대한 포괄적인 목록이 필요하면 최신 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 * 새로운 기능에 대한 자세한 내용은 도구 사용자 안내서에서 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
-* 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
+* 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)을 참조하십시오.
 
 ## 주요 업데이트 세부 사항
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
-| 2019년 11월 21일 | [고객 움직임 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
+| 2019년 11월 21일 | [고객 움직임 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR)을 위한 새로운 설명서 세트 |
 | 2019년 9월 28일 | [Javascript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
 | 2019년 9월 12일 | [Journey IQ: 크로스 디바이스 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱 (PWA)](/help/analyze/pwa/pwa.md)에 대한 새로운 문서 |
@@ -48,7 +48,7 @@ ht-degree: 100%
 | 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
 | 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
 | 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |
-| 2019년 6월 4일 | [타사 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
+| 2019년 6월 4일 | [서드파티 분석 플랫폼에서 Adobe Analytics로 전환](/help/technotes/ga-to-aa/home.md)이라는 새 안내서가 작성되었습니다. |
 | 2019년 5월 30일 | [데이터 피드 열 참조](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)에 대한 점검입니다. |
 | 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에 대한 업데이트입니다. |
 | 2019년 3월 14일 | [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
