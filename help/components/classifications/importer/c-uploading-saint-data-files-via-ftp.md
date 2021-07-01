@@ -6,9 +6,9 @@ feature: 관리 도구
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계�
 
 다음 권장 한계를 고려해야 합니다.
 
-* 작은 파일이 많으면 적은 수의 큰 파일이 있을 때보다 처리 속도가 느립니다. 이것은 작은 작업에 필요한 큐 및 우선순위의 양 때문입니다.
+* 작은 파일이 많으면 적은 수의 큰 파일이 있을 때보다 처리 속도가 느립니다. 이는 작은 작업에 필요한 큐 및 우선순위의 양 때문입니다.
 * 큰 파일은 50MB씩 자르십시오. 이 작업은 필수는 아니지만, 백엔드에서의 진행 상태를 더 잘 보여 주므로 권장됩니다. 또한 Adobe에서 사용자의 작업을 처리하는 동안 오류가 발생하면 작업이 다시 시작됩니다. 이와 같은 상황에서 큰 파일을 사용하면 다시 수행하는 작업의 크기도 커집니다.
 
 초기 설정은 몇 개의 행을 재분류하거나 행을 추가하는 것이 아니라 분류 데이터베이스를 큰 원본 데이터 세트로 채우거나 분류를 재구성합니다.
@@ -49,7 +49,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
  -->
 
- FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
+FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
@@ -74,7 +74,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)를 참조하십시오.
+Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=ko-KR)를 참조하십시오.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
