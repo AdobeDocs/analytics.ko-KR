@@ -3,7 +3,7 @@ title: 구현 FAQ
 description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ID 서비스는 Experience Cloud에 있는 다른 솔루션 간에 공유할 수
 
 ## 하트비트 비디오 추적은 어떻게 구현합니까?
 
-[Adobe Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
+[Adobe Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)을 참조하십시오.
 
 ## Adobe의 서비스 중단이 성능에 영향을 줄 수 있습니까?
 
