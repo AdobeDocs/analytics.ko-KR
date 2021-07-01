@@ -1,19 +1,19 @@
 ---
 title: 여러 보고서 세트
-description: 여러 보고서 세트를 사용하여 작업 공간에서 프로젝트를 만드는 방법 및 이유 알아보기
+description: 여러 보고서 세트를 사용하여 작업 영역에서 프로젝트를 만드는 방법 및 이유 알아보기
 feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 여러 보고서 세트
 
-이제 Analysis Workspace에서 두 개 이상의 보고서 세트의 데이터를 사용하여 프로젝트를 만들 수 있습니다. 보고서 세트는 이제 패널 수준에서 선택되므로 동일한 작업 공간 프로젝트 내에서 각 패널에 대해 다른 보고서 세트를 선택할 수 있습니다.
+이제 Analysis Workspace에서 두 개 이상의 보고서 세트의 데이터를 사용하여 프로젝트를 만들 수 있습니다. 보고서 세트는 이제 패널 수준에서 선택되므로 동일한 작업 영역 프로젝트 내에서 각 패널에 대해 다른 보고서 세트를 선택할 수 있습니다.
 
 이 기능은 예를 들면 다음과 같은 경우에 유용합니다.
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 ## 모든 패널에 보고서 세트 적용
 
-패널 헤더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 모든 패널에 보고서 세트 적용]**&#x200B;을 선택하여 모든 패널에 보고서 세트를 적용할 수 있습니다.
+패널 헤더를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 모든 패널에 보고서 세트 적용]**&#x200B;을 선택하여 모든 패널에 보고서 세트를 적용할 수 있습니다.
 
 ![](assets/apply-rs-all-panels.png)
 
@@ -37,8 +37,8 @@ ht-degree: 95%
 | 작업 | 활성 패널 | 비활성 패널 |
 |---|---|---|
 | 보고서 세트 변경 | 예 | 아니요 |
-| 구성 요소 끌어서 놓기 | 예 | 예, 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |
-| 시각화 끌어서 놓기 | 예 | 예, 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |
+| 구성 요소 끌어서 놓기 | 예 | 예. 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |
+| 시각화 끌어서 놓기 | 예 | 예. 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |
 
 ## 여러 보고서 세트로 작업
 
@@ -63,8 +63,8 @@ ht-degree: 95%
 
 1. 키보드 단축키를 사용 (`shift` 키를 누른 채 끌어오기)하여 비활성 패널을 활성 패널로 변환합니다.
 
-1.  (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
+1. (선택 사항) 다른 Analytics 구성 요소 빌더로 이동하여 다음을 나타내는 보고서 세트 레이블이 이제 표시되는지 확인합니다.
 
-   * 세그먼트를 만들 위치: [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * 경고를 작성할 위치: [경고 빌더](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
+   * 세그먼트를 만들 위치: [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR).
+   * 계산된 지표를 만들 위치: [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR).
+   * 경고를 작성할 위치: [경고 빌더](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=ko-KR).
