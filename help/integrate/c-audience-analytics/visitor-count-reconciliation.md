@@ -4,9 +4,9 @@ title: 방문자 수 차이
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 여러 가지 이유로 인해 100% 정렬되지 않은 방문자 지표가 있습니다.
 
-방문자 지표은 다음과 같습니다.
+방문자 지표는 다음과 같습니다.
 
 <table id="table_F9FE107A89934C3B854C55D7D76AC6E8"> 
  <thead> 
@@ -25,12 +25,12 @@ Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: 총 세그먼트 채우기</a> </p> </td> 
-   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었던 장치 (Experience Cloud ID)의 개수입니다. </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko-KR"  > AAM: 총 세그먼트 채우기</a> </p> </td> 
+   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 멤버였던 디바이스(Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: 실시간 세그먼트 채우기</a> </p> </td> 
-   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 회원이었으며, 속성을 방문한 장치 (Experience Cloud ID)의 개수입니다. </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko-KR"  > AAM: 실시간 세그먼트 채우기</a> </p> </td> 
+   <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 멤버였으며, 속성을 방문한 디바이스(Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: 고유 방문자 수 </p> </td> 
@@ -62,7 +62,7 @@ AAM 실시간 세그먼트 채우기 및 Audience Analytics 보고 내에 사용
   <tr> 
    <td colname="col1"> <p>사용자 지정 필터 </p> </td> 
    <td colname="col2"> <p>아니요 </p> </td> 
-   <td colname="col3"> <p>예, 예: IP 필터, 보트 필터 </p> </td> 
+   <td colname="col3"> <p>예. 예: IP 필터, 보트 필터 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>150개 세그먼트 제한 </p> </td> 
