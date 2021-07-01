@@ -3,9 +3,9 @@ description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 �
 title: Adobe Analytics - 주요 개념
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1822'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 97%
 | Analysis Workspace | 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여 주기 위한 브라우저 솔루션입니다. Reports and Analytics보다 더 많은 보고서 유연성을 제공합니다. | [Analysis Workspace 홈](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics (이전 SiteCatalyst) | 보고 및 분석을 위한 브라우저 솔루션. Analytics 패키지의 초급자 도구입니다. | [Reports and Analytics 홈](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Adobe Analytics 데이터에서 사용자 지정 요청을 작성하고 Microsoft Excel을 사용하여 이 요청을 시각화할 수 있는 Excel 추가 기능입니다. | [Report Builder 홈](/help/analyze/report-builder/home.md) |
-| Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [Data Workbench 클라이언트](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html) |
+| Data Workbench (이전 Insight) | 여러 채널에서 이루어지는 온라인 및 오프라인 고객 상호 작용 데이터를 수집, 처리, 분석 및 시각화하도록 설계되어 있습니다. | [Data Workbench 클라이언트](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html?lang=ko-KR) |
 | Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 처리되지 않은 원시 데이터입니다. 히트 수준은 아닙니다. | [Data Warehouse 홈](/help/export/data-warehouse/data-warehouse.md) |
-| Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다. | [Mobile Services 홈](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
+| Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다. | [Mobile Services 홈](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ko-KR) |
 | Adobe Exchange Data Connectors (이전 Genesis) | 서드파티 애플리케이션의 추적 데이터를 Analytics로 가져와서 하나의 중앙 위치에서 종단 간 가시성을 제공합니다. 2021년 8월 1일부터 Adobe는 Data Connector 통합을 중단합니다. | [Data Connectors 홈](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능. | [Adobe Experience Platform Launch 홈](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Adobe Experience Platform Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능. | [Adobe Experience Platform Launch 홈](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR) |
 
 ## 주요 용어 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -55,10 +55,10 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | 예외 항목 탐지 | 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법. AD (예외 항목 탐지)는 Analysis Workspace의 모든 트렌드 시각화에 대해 기본적으로 켜져 있습니다. | [예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | 기여도 분석 | 사용자가 액세스하는 모든 개별 지표 및 차원에 대해 자동화된 분석을 실행함으로써 예외 항목이 발생하는 &quot;원인&quot;을 탐구합니다. | [기여도 분석](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
 | 집단 분석 | cohort는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. 집단 분석은 사용자의 유지 및 이탈을 분석하는 데 도움이 됩니다. | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |
-| 고객 움직임 보고서 | 사용자가 사이트 또는 앱을 통해 이동하는 경로에 대한 정보를 표시합니다. Analysis Workspace에서 이 분석을 하는 데 Prop, eVar 및 이벤트를 사용할 수 있습니다. | [Analysis Workspace 폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 흐름](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 경로](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
-| 마케팅 채널 | 사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. 이것은 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다 (캠페인이나 트래픽 소스보다 선호됨). | [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
+| 고객 움직임 보고서 | 사용자가 사이트 또는 앱을 통해 이동하는 경로에 대한 정보를 표시합니다. Analysis Workspace에서 이 분석을 하는 데 Prop, eVar 및 이벤트를 사용할 수 있습니다. | [Analysis Workspace 폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 경로](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+| 마케팅 채널 | 사용자를 사이트로 유도하는 외부 채널과 전환 유도 시 가장 효과적인 사항을 아는 데 도움이 되는 보고서입니다. 첫 번째 및 마지막 터치 귀인 방식 보기가 제공됩니다. 이는 유료 채널과 유기 채널 모두를 가장 포괄적으로 볼 수 있는 보기이므로, Adobe Analytics에서 선호되는 외부 트래픽 소스 보고서입니다(캠페인이나 트래픽 소스보다 선호됨). | [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 모바일 | 모바일 디바이스나 태블릿에서 액세스한 웹 사이트에 대한 정보를 표시합니다. | [모바일 보고서](/help/components/dimensions/mobile-dimensions.md) |
-| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한, Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  [여기](https://mobilemarketing.adobe.com)에서 인터페이스에 액세스합니다. | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
+| 모바일 앱 | 모바일 앱과 관련된 기본 사용 정보를 표시합니다. 이러한 보고서는 SDK가 구현되고 보고가 설정되어 있으면 사용할 수 있습니다.  또한 Adobe Mobile Services는 보다 포괄적인 앱 데이터를 제공하는 별도의 모바일 앱 인터페이스를 만들어 사용자의 앱 사용을 이해 및 개선할 수 있도록 했습니다.  [여기](https://mobilemarketing.adobe.com)에서 인터페이스에 액세스합니다. | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ko-KR) |
 | 제품 | 개별 제품 및 제품 그룹(범주)이 매출액 또는 체크아웃 횟수와 같은 다양한 전환 지표에 기여하는 정도를 알 수 있습니다. | [제품 보고서](/help/components/dimensions/product.md) |
 | 세그먼트 비교 | 사용자가 액세스하는 모든 개별 지표 및 차원에 대한 자동화된 분석을 통해 세그먼트 간의 통계적으로 가장 유의미한 차이를 알아냅니다. | [세그먼트 비교](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | 사이트 콘텐츠 보고서 | 가장 방문 횟수가 많은 사이트 페이지 및 영역과 가장 많이 이용하는 서버에 대한 정보를 표시합니다. | [사이트 콘텐츠 보고서](/help/components/dimensions/page.md) |
@@ -84,7 +84,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | --- | --- | --- |
 | 분류 가져오기 | 브라우저나 FTP 업로드를 통해 캡처된 차원을 기준으로 메타데이터를 가져오십시오. 규칙 빌더와 비교되는 수동 방식입니다. | [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md) |
 | 규칙 빌더 | 사용자 정의된 규칙을 기반으로 차원의 메타데이터 분류를 자동으로 생성합니다. | [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md) |
-| 사용자 특성 | Adobe Analytics 및 Adobe Target에서 사용하기 위해 Experience Cloud에 업로드된 CRM 데이터. | [사용자 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) |
+| 사용자 특성 | Adobe Analytics 및 Adobe Target에서 사용하기 위해 Experience Cloud에 업로드된 CRM 데이터. | [사용자 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR) |
 | 데이터 소스 | 오프라인 지표를 차원을 기준으로 하거나 일별로 Analytics에 가져옵니다. | [데이터 소스](/help/import/c-data-sources/datasrc-home.md) |
 | Adobe Exchange Data Connectors | [Analytics 도구](/help/import/data-connectors/data-connectors-eol.md)를 참조합니다. |  |
 | 기본 통합 | Audience Analytics 및 Advertising Analytics. | 주요 보고서 섹션을 참조합니다. |
@@ -106,7 +106,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | 개발자 리소스 | 모든 사용 가능한 플랫폼 (웹, 모바일 앱, 비디오, 플래시 등)에 걸쳐서 Analytics 데이터를 수집하는 데 사용할 수 있는 라이브러리에 대해 대략적으로 설명하는 설명서입니다. | [개발자 설명서](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](/help/implement/home.md) |
 | App Measurement (s_code) | 전역 변수 관리 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
-| 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
+| 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ko-KR)</li></ul> |
 | Adobe Experience Platform Launch | Analytics 도구를 참조하십시오. |  |
 | VISTA | 수집된 데이터를 변경하거나 세그먼트화하는 서버측 로직을 적용할 수 있습니다. | [VISTA 규칙](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 처리 규칙 | Analytics UI에서 변수를 설정, 수정 및 복사하여 수집된 데이터를 변경하는 기능. | [처리 규칙](/help/admin/admin/c-processing-rules/processing-rules.md) |
