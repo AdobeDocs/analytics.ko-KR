@@ -3,9 +3,9 @@ description: 추적은 Adobe Analytics 구현에 따라 검색 엔진 데이터�
 title: 추적 수동 모드 및 자동 모드
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)에 추가해야 하는지에 대해 자세히 알아보십시오.
+>`s_kwcid` 매개 변수를 [CSP (콘텐츠 보안 정책)](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=ko-KR)에 추가해야 하는지에 대해 자세히 알아보십시오.
 
 ## 수동 모드 추적 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -65,13 +65,13 @@ s_kwcid=AL!
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**타사 (DoubleClick)`{unescapedlpurl}`**
+**서드파티 (DoubleClick)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-**타사 (DoubleClick)`{lpurl}`**
+**서드파티 (DoubleClick)`{lpurl}`**
 
 URL이 리디렉션을 통과하고 &quot;unescapedlpurl&quot; 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속하도록 문자열을 인코딩해야 합니다.
 
@@ -110,13 +110,13 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**타사 (DoubleClick)`{unescapedlpurl}`**
+**서드파티 (DoubleClick)`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**타사 (DoubleClick)`{lpurl}`**
+**서드파티 (DoubleClick)`{lpurl}`**
 
 URL이 리디렉션을 통과하고 &quot;unescapedlpurl&quot; 값을 사용하지 않는 경우, 최종 랜딩 페이지 URL로 리디렉션을 통해 지속하도록 문자열을 인코딩해야 합니다.
 
