@@ -3,15 +3,15 @@ title: Analytics에서 XDM 데이터 사용
 description: Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 개요
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Analytics에서 Adobe Experience Platform Edge 데이터 사용
 
-[AEP (Adobe Experience Platform) Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을 Analytics에서 사용하는 형식으로 변환하여 작동합니다.
+[AEP (Adobe Experience Platform) Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR)를 사용하여 데이터를 Adobe Analytics로 전송할 수 있습니다. [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)을 Analytics에서 사용하는 형식으로 변환하여 작동합니다.
 
 Analytics는 다음 두 가지 메서드를 통해 XDM 데이터를 수집합니다.
 
@@ -20,7 +20,7 @@ Analytics는 다음 두 가지 메서드를 통해 XDM 데이터를 수집합니
 
 ## 자동 매핑
 
-자동 매핑은 일반적인 Analytics 데이터 수집에 포함된 JSON 개체를 자동으로 채우는 XDM의 기본 [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)를 사용합니다. XDM에서 구성된 보고서 세트에 자동으로 매핑된 Analytics 변수에서는 개발자 지원을 통합할 필요가 없습니다.
+자동 매핑은 일반적인 Analytics 데이터 수집에 포함된 JSON 개체를 자동으로 채우는 XDM의 기본 [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR)를 사용합니다. XDM에서 구성된 보고서 세트에 자동으로 매핑된 Analytics 변수에서는 개발자 지원을 통합할 필요가 없습니다.
 
 ## 수동 매핑
 
@@ -30,6 +30,6 @@ Analytics는 다음 두 가지 메서드를 통해 XDM 데이터를 수집합니
 
 XDM 데이터를 수신하도록 Analytics를 설정하려면 다음을 수행하십시오.
 
-1. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)를 설치하고 [구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)합니다.
+1. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)를 설치하고 [구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR)합니다.
 
 2. 적용 가능한 보고서 세트가 원하는 데이터에 매핑되어 있는지 확인합니다. XDM 데이터는 Adobe Experience Platform에서 보고서 세트로 자동 전송됩니다.
