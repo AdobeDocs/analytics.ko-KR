@@ -4,9 +4,9 @@ title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * Video Daypart 및 Viewer Drop-off의 고유한 비디오 시각화에 액세스하려는 경우
 * 예약된 보고에서 게시 목록을 활용하려는 경우
 
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)**&#x200B;는 다음 경우에 사용합니다.
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR)**&#x200B;는 다음 경우에 사용합니다.
 
 * 가장 유연한 Analytics 도구 옵션 (방문자 수준, 히트 수준 분석까지).
 * CRM에서 POS 웹에 이르는 온라인 및 오프라인 상호 작용의 다중 채널 데이터 세트 생성.
@@ -60,7 +60,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;는 다음 경우에 사용합니다.
 
-* 지원되는 Adobe Analytics 연결을 구축한 타사 공급자와 일하는 경우. Data Connectors는 일반적으로 요약 수준 데이터를 Adobe Analytics에 영구적으로, 자동으로 그리고 반복적으로 통합합니다.
+* 지원되는 Adobe Analytics 연결을 구축한 서드파티 공급자와 일하는 경우. Data Connectors는 일반적으로 요약 수준 데이터를 Adobe Analytics에 영구적으로, 자동으로 그리고 반복적으로 통합합니다.
 
 **[데이터 삽입 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;는 다음 경우에 사용합니다.
 
@@ -70,10 +70,10 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 * 데이터 삽입 API 및 대량 데이터 삽입 API는 모두 서버측 컬렉션 데이터를 Adobe Analytics에 제출하는 방법입니다. 데이터 삽입 API 호출은 한 번에 하나의 이벤트로 수행됩니다. 대량 데이터 삽입 API는 한 행에 한 이벤트씩, 이벤트 데이터를 포함하는 CSV 형식의 파일을 수락합니다. 새로운 서버측 컬렉션 구현 작업을 수행하는 경우에는 대량 데이터 삽입 API를 사용하는 것이 좋습니다.
 
-**[고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**&#x200B;은 다음 경우에 사용합니다.
+**[고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)**&#x200B;은 다음 경우에 사용합니다.
 
 * 고객 관계 관리 (CRM) 데이터베이스에서 기업 고객 데이터를 캡처하고, 이 데이터를 Experience Cloud에 업로드하려는 경우.
-* CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타깃팅 기준으로 사용하려는 경우.
+* CRM 데이터를 Analytics에서 더 자세한 분석에 사용하거나 Adobe Target에서 타기팅 기준으로 사용하려는 경우.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**&#x200B;는 다음 경우에 사용합니다.
 
@@ -85,7 +85,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 **[Report Builder](/help/analyze/report-builder/home.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * Workspace의 사용자 정의 레이아웃 옵션이 제한적인 경우 (Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
-* 사용자 입력 또는 오프라인 데이터 소스 (노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다 (Analytics로 데이터 가져오기 참조).
+* 사용자 입력 또는 오프라인 데이터 소스 (노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
 * 서로 다른 측정기준의 보고서의 데이터 병합 (예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
 * 서로 다른 보고서 세트의 데이터를 합치거나 나란히 같은 테이블에 표시하여 병합합니다.
 * 예약을 통한 자동화가 필요한 경우 (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
@@ -95,14 +95,14 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * UI에 숨겨진 변수에 액세스 - IP 주소, Experience Cloud ID, Analytics 방문자 ID, 페이지 URL)
 * UI보다 세부적인 데이터에 액세스 (비정규화된 표보기)
 * 피벗 테이블 입력에 적합한 형식으로 데이터 다운로드
-* 클라이언트에서 Adobe 데이터를 타사 데이터 시각화 도구에 입력하려는 경우 (히트 수준은 아니며 약간 요약됨)
+* 클라이언트에서 Adobe 데이터를 서드파티 데이터 시각화 도구에 입력하려는 경우 (히트 수준은 아니며 약간 요약됨)
 * Adobe Analytics에서 &quot;낮은 트래픽&quot;으로 실행 중인 경우 모든 고유 차원 항목에 액세스
 
 **[Analytics 데이터 피드](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * 제공할 수 있는 가장 세부적인 데이터 피드 활용 (방문자 ID, 히트).
-* 클라이언트에서 클라이언트 측 데이터베이스에 저장된 Adobe 데이터를 보낼 수 있는 가장 세부적인 수준으로 원하는 경우.
-* 클라이언트에서 비즈니스 인텔리전스 (BI) 도구를 개발하거나 히트 수준의 Adobe 데이터를 타사 도구에 입력하려는 경우.
+* 클라이언트에서 클라이언트측 데이터베이스에 저장된 Adobe 데이터를 보낼 수 있는 가장 세부적인 수준으로 원하는 경우.
+* 클라이언트에서 비즈니스 인텔리전스 (BI) 도구를 개발하거나 히트 수준의 Adobe 데이터를 서드파티 도구에 입력하려는 경우.
 
 **[보고 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**&#x200B;는 다른 시각화 옵션이 사용자의 요구를 충족하지 못할 때 사용해야 합니다. 다음은 API 옵션 세 가지입니다.
 
@@ -117,7 +117,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * 다른 Adobe 도구가 사용자의 요구를 충족하지 못합니다.
 * 맞춤 경험을 원합니다.
 * 완전히 자동화된 솔루션을 원합니다.
-* 많은 장치에 연결하려고 합니다.
+* 많은 디바이스에 연결하려고 합니다.
 * 여러 데이터 소스가 있습니다.
 * 복잡한 데이터 ETL (Extract-Transform-Load) 요구 사항이 있습니다.
 * 맞춤 브랜딩을 원합니다.
