@@ -4,9 +4,9 @@ title: 지표 작성
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 다음 몇 가지 방법으로 계산된 지표 빌더에 액세스할 수 있습니다.
 
-* Analysis Workspace에서 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 지표 만들기]**&#x200B;를 클릭합니다 .
+* Analysis Workspace에서 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 지표 만들기]**&#x200B;를 클릭합니다.
 * [!DNL Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**&#x200B;로 이동합니다.
 
 * **[!UICONTROL 계산된 지표 관리자]**&#x200B;의 상단에서 [+ 추가](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)를 클릭하거나
@@ -41,7 +41,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 설명 </span> </td> 
-   <td colname="col3"> <p>사용자에게 친근한 설명을 지정하여 용도를 알고 유사한 지표들과 구별할 수 있도록 하십시오. </p> <p>이 설명은 보고서 내에도 나타납니다. 설명에 공식을 넣지 않는 것이 좋습니다. 대신 이 지표를 어디에 사용하고 어디에 사용하지 말아야 하는지 설명하십시오.  (공식은 지표를 만들면 요약 머리글 아래에 생성됩니다. 따라서 공식을 설명에 추가할 필요가 없습니다.) </p> </td> 
+   <td colname="col3"> <p>사용자에게 친근한 설명을 지정하여 용도를 알고 유사한 지표들과 구별할 수 있도록 하십시오. </p> <p>이 설명은 보고서 내에도 나타납니다. 설명에 공식을 넣지 않는 것이 좋습니다. 대신 이 지표를 어디에 사용하고 어디에 사용하지 말아야 하는지 설명하십시오. (공식은 지표를 만들면 요약 머리글 아래에 생성됩니다. 따라서 공식을 설명에 추가할 필요가 없습니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 형식 </span> </td> 
@@ -49,11 +49,11 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 소수점 이하 자리 수 </span> </td> 
-   <td colname="col3"> <p>보고서에 소수점 이하 몇 자리가 표시될 것인지 보여줍니다. 지정할 수 있는 소수점 이하 최대 자리수는 10자리입니다. </p> </td> 
+   <td colname="col3"> <p>보고서에 소수점 이하 몇 자리가 표시될 것인지 보여 줍니다. 지정할 수 있는 소수점 이하 최대 자리수는 10자리입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 증가 트렌드를 다음으로 표시... </span> </td> 
-   <td colname="col3"> <p>이 지표 극성 설정은 Analytics가 지표에서 증가 트렌드를 양호 (녹색)으로 간주할지 또는 불량 (빨간색)으로 간주할지를 보여줍니다. 그 결과, 보고서의 그래프는 증가할 때 녹색 또는 빨간색으로 표시됩니다. </p> </td> 
+   <td colname="col3"> <p>이 지표 극성 설정은 Analytics가 지표에서 증가 트렌드를 양호 (녹색)으로 간주할지 또는 불량 (빨간색)으로 간주할지를 보여 줍니다. 그 결과, 보고서의 그래프는 증가할 때 녹색 또는 빨간색으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 태그 </span> </td> 
@@ -61,7 +61,7 @@ ht-degree: 99%
      <ul id="ul_9A6CE5F179424687A39F2D5C1A953258"> 
       <li id="li_A8815F2D8D284874AD701A7B103D82A3"><b>팀 이름</b>을 기반으로 하는 태그 (예: 소셜 마케팅, 모바일 마케팅) </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>프로젝트</b> 태그 (분석 태그) (예: 시작 페이지 분석) </li> 
-      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>카테고리</b> 태그: 남성용, 지역 </li> 
+      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>범주</b> 태그: 남성용, 지역 </li> 
       <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>워크플로 태그: 승인용, 처리됨 (특정 비즈니스 단위)</b> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -82,19 +82,19 @@ ht-degree: 99%
    <td colname="col3"> <p>나누기 ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )는 기본 연산자이고 이외에도 +, -, x 연산자가 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 미리 보기 </span> </td> 
-   <td colname="col3"> <p>모든 가능한 오류 시 빨리 읽을 수 있도록 해줍니다. 이 미리 보기는 마지막 90일에 적용됩니다. 해당 지표에 대해 올바른 구성 요소를 선택했는지를 초기에 판단하는 방법입니다. 예상치 않은 결과는 지표 정의 시 두 번 확인해야 함을 의미합니다. </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> 미리보기 </span> </td> 
+   <td colname="col3"> <p>모든 가능한 오류 시 빨리 읽을 수 있도록 해 줍니다. 이 미리보기는 마지막 90일에 적용됩니다. 해당 지표에 대해 올바른 구성 요소를 선택했는지를 초기에 판단하는 방법입니다. 예상치 않은 결과는 지표 정의 시 두 번 확인해야 함을 의미합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 제품 호환성 </span> </td> 
-   <td colname="col3"> <p>제품 호환성은 지표가 <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ko-KR"  >현재 데이터</a>와 호환되는지, 완전히 처리된 데이터와 호환되는지 또는 마케팅 채널 보고서와 호환되는지를 보여줍니다 (첫 번째 터치 할당). <p>참고: 현재 데이터는 일부 데이터를 지원하지 않습니다. 세그먼트나 함수가 들어 있는 지표는 현재 데이터와 호환하지 않습니다. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 자세히... </a> </p> </p> </td> 
+   <td colname="col3"> <p>제품 호환성은 지표가 <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ko-KR"  >현재 데이터</a>와 호환되는지, 완전히 처리된 데이터와 호환되는지 또는 마케팅 채널 보고서와 호환되는지를 보여 줍니다(첫 번째 터치 할당). <p>참고: 현재 데이터는 일부 데이터를 지원하지 않습니다. 세그먼트나 함수가 들어 있는 지표는 현재 데이터와 호환하지 않습니다. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 자세히... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 </span> </td> 
    <td colname="col3"> <p>모든 유형의 계산된 지표의 경우, 컨테이너 및 정적 수를 정의에 추가할 수 있습니다. 고급 계산된 지표의 경우 세그먼트 및 함수를 추가할 수도 있습니다. </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">컨테이너는 수학 표현식처럼 작동하고 작업 순서를 결정합니다. 그러므로 컨테이너에 있는 모든 것은 다음 작업 전에 처리됩니다. </li> 
-      <li id="li_401A9E0D8B3B468990289DBF66A06F63">세그먼트를 컨테이너에 드래그하면 해당 컨테이너에 있는 모든 내용이 세그먼트화됩니다.  (고급 계산된 지표만) </li> 
+      <li id="li_401A9E0D8B3B468990289DBF66A06F63">세그먼트를 컨테이너에 드래그하면 해당 컨테이너에 있는 모든 내용이 세그먼트화됩니다. (고급 계산된 지표만) </li> 
       <li id="li_F191B200D7A944F9ADC0573A9A82A6DA">한 컨테이너에서 여러 세그먼트를 스택할 수 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -116,29 +116,29 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col2"> <p>지표 목록 </p> </td> 
-   <td colname="col3"> <p>지표는 3가지 카테고리로 분류됩니다. </p> 
+   <td colname="col3"> <p>지표는 3가지 범주로 분류됩니다. </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
-     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">표준 지표  ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">계산된 지표  ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
+     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">표준 지표 ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">계산된 지표 ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
      <li id="li_8735E76637ED4C3F983731A66E04C93E">지표 템플릿 (<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - 목록의 맨 아래. </li> 
     </ul> <p>마우스로 지표를 가리키면 그 오른쪽에 정보 아이콘이 표시됩니다.<img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" /> 이 아이콘을 클릭하면 다음 정보가 표시됩니다. </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">계산되는 방식에 대한 공식. </li> 
-     <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">지표의 미리 보기 트렌드. </li> 
+     <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">지표의 미리보기 트렌드. </li> 
      <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">이 계산된 지표를 편집할 수 있는 계산된 지표 빌더를 표시하는 오른쪽 상단의 편집 (연필) 아이콘. </li> 
     </ul> <p><img placement="break" align="center"  src="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>세그먼트 목록 </p> </td> 
-   <td colname="col3"> <p> (고급 계산된 지표만 해당) 관리자로서, 이 목록은 로그인 회사에서 만든 모든 세그먼트를 보여줍니다. 사용자가 관리 사용자가 아닐 경우, 이 목록에는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트가 표시됩니다. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > 자세히... </a> </p> </td> 
+   <td colname="col3"> <p>(고급 계산된 지표만 해당) 관리자로서, 이 목록은 로그인 회사에서 만든 모든 세그먼트를 보여 줍니다. 사용자가 관리 사용자가 아닐 경우, 이 목록에는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트가 표시됩니다. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=ko-KR"  > 자세히... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>함수 목록 </p> </td> 
-   <td colname="col3"> <p> (고급 계산된 지표만) 함수는 <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > 기본</a> (가장 자주 사용됨) 및 <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >고급</a>, 이렇게 두 개의 목록으로 나뉩니다. </p> </td> 
+   <td colname="col3"> <p>(고급 계산된 지표만) 함수는 <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > 기본</a> (가장 자주 사용됨) 및 <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >고급</a>, 이렇게 두 개의 목록으로 나뉩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>보고서 세트 선택기 </p> </td> 
-   <td colname="col3"> <p>다른 보고서 세트로 전환할 수 있도록 해줍니다. </p> </td> 
+   <td colname="col3"> <p>다른 보고서 세트로 전환할 수 있도록 해 줍니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
