@@ -3,7 +3,7 @@ title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->또한 Adobe에서는 보고서 세트별로 개인정보 설정을 제공합니다. 관리자 가이드의 [개인정보 설정](../../admin/admin/privacy-settings.md)을 참조하십시오.
+>또한 Adobe에서는 보고서 세트별로 개인정보 설정을 제공합니다. 관리자 안내서의 [개인정보 설정](../../admin/admin/privacy-settings.md)을 참조하십시오.
 
 ## 옵트아웃 URL
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
    2. `trackingServer` 변수 값을 확인합니다.
 
-* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 사용:
+* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR) 사용:
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
    2. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
    3. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
@@ -85,9 +85,9 @@ ht-degree: 100%
 
 ### 팝업
 
-페이지에 &#39;창 닫기&#39; 단추를 추가하여 옵트아웃 페이지를 팝업 창으로 만들 수 있습니다. `popup` 쿼리 문자열 매개 변수를 사용하고 값을 `1`로 지정하십시오.
+페이지에 &#39;창 닫기&#39; 버튼을 추가하여 옵트아웃 페이지를 팝업 창으로 만들 수 있습니다. `popup` 쿼리 문자열 매개 변수를 사용하고 값을 `1`로 지정하십시오.
 
-예를 들어 `https://example.data.adobedc.net/optout.html?popup=1`은 &#39;창 닫기&#39; 단추가 있는 옵트아웃 페이지를 로드합니다.
+예를 들어 `https://example.data.adobedc.net/optout.html?popup=1`은 &#39;창 닫기&#39; 버튼이 있는 옵트아웃 페이지를 로드합니다.
 
 >[!NOTE]
 >
@@ -95,12 +95,12 @@ ht-degree: 100%
 
 ### 옵트아웃 한 번 클릭
 
-이렇게 하면 사용자가 즉시 추적을 그만둘 수 있습니다 (옵트아웃). 두 쿼리 문자열 매개 변수 `opt_out` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
+이렇게 하면 사용자가 즉시 추적을 그만둘 수 있습니다(옵트아웃). 두 쿼리 문자열 매개 변수 `opt_out` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
 
 예를 들어 `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1`은 방문자의 페이지에 옵트아웃 쿠키를 즉시 설치합니다.
 
 ### 옵트인 한 번 클릭
 
-이렇게 하면 사용자가 옵트아웃 쿠키를 삭제하여 즉시 추적을 다시 수행할 수 있습니다 (옵트인). 두 쿼리 문자열 매개 변수 `opt_in` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
+이렇게 하면 사용자가 옵트아웃 쿠키를 삭제하여 즉시 추적을 다시 수행할 수 있습니다(옵트인). 두 쿼리 문자열 매개 변수 `opt_in` 및 `confirm_change`를 추가하고 각각 값을 `1`로 지정합니다.
 
 예를 들어 `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1`은 방문자에 대한 옵트아웃 쿠키를 즉시 삭제합니다.
