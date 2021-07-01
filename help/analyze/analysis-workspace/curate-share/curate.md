@@ -6,9 +6,9 @@ feature: 선별 및 공유
 role: Business Practitioner, Administrator
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 98%
 1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**을 클릭합니다.
 프로젝트에 사용되는 구성 요소가 자동으로 추가됩니다.
    **참고**: 프로젝트에 여러 보고서 세트가 있는 경우 프로젝트의 각 보고서 세트에 대한 조정 필드가 표시됩니다.
-1.  (선택 사항) 구성 요소를 더 추가하려면 왼쪽 레일에서 공유할 구성 요소를 [!UICONTROL 구성 요소 조정 ]필드로 드래그합니다.
+1. (선택 사항) 구성 요소를 더 추가하려면 왼쪽 레일에서 공유할 구성 요소를 [!UICONTROL 구성 요소 조정 ]필드로 드래그합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
-[!UICONTROL 조정 및 공유]를 클릭하여 **[!UICONTROL 공유]** 메뉴에서 조정을 적용할 수도 있습니다. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
+[!UICONTROL 조정 및 공유]를 클릭하여 **[!UICONTROL 공유]** 메뉴에서 조정을 적용할 수도 있습니다. 이 옵션은 프로젝트에서 사용 중인 구성 요소에 프로젝트를 자동으로 조정해 줍니다. 위의 단계에 따라 추가 구성 요소를 추가할 수 있습니다.
 
 ![](assets/curation-field.png)
 
@@ -41,14 +41,13 @@ ht-degree: 98%
 
 프로젝트 조정을 제거하고 왼쪽 레일에 있는 전체 구성 요소 세트를 복원하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**을 클릭합니다.
-
+1. **[!UICONTROL 공유]**> **[!UICONTROL 프로젝트 데이터 조정]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 조정 제거]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
 ## 가상 보고서 세트 (VRS) 조정
 
-한 번에 많은 프로젝트에 적용되도록 보고서 세트 수준에서 조정을 적용하려면 [VRS (가상 보고서 세트)에서 구성 요소를 조정](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html)할 수 있습니다.
+한 번에 많은 프로젝트에 적용되도록 보고서 세트 수준에서 조정을 적용하려면 [VRS (가상 보고서 세트)에서 구성 요소를 조정](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ko-KR)할 수 있습니다.
 
 >[!NOTE]
 > VRS 조정은 항상 프로젝트 조정 전에 적용됩니다. 즉, 조정된 프로젝트에 특정 구성 요소가 포함되어 있더라도 조정된 VRS에 해당 구성 요소가 포함되어 있지 않으면 필터링됩니다.
@@ -68,4 +67,4 @@ ht-degree: 98%
 |---|---|---|---|
 | 조정된 VRS | 조정되지 않은 모든 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 |
 | 조정된 프로젝트 | 조정되지 않은 모든 프로젝트 구성 요소 | 조정되지 않은 모든 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 프로젝트 구성 요소 |
-| 조정된 VRS에서 조정된 프로젝트 | All non-curated components, shown under **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 VRS 구성 요소]** 아래에 표시된 모든 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 모든 조정되지 않은 모든 구성 요소와 조정되지 않은 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 및 프로젝트 구성 요소 |
+| 조정된 VRS에서 조정된 프로젝트 |  **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 VRS 구성 요소]** 아래에 표시된 모든 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 모든 조정되지 않은 모든 구성 요소와 조정되지 않은 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 및 프로젝트 구성 요소 |
