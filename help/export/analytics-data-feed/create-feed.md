@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 90%
 
 ### S3
 
-피드를 Amazon S3 버킷으로 직접 보낼 수 있습니다. 이 대상 유형에는 버킷 이름, 액세스 키 ID 및 비밀 키가 필요합니다. 자세한 내용은 Amazon S3 문서 내의 [Amazon S3 버킷 이름 지정 요구 사항](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)을 참조하십시오.
+피드를 Amazon S3 버킷으로 직접 보낼 수 있습니다. 이 대상 유형에는 버킷 이름, 액세스 키 ID 및 보안 키가 필요합니다. 자세한 내용은 Amazon S3 문서 내의 [Amazon S3 버킷 이름 지정 요구 사항](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)을 참조하십시오.
 
 ![S3 정보](assets/dest-s3.jpg)
 
-데이터 피드를 업로드하기 위해 제공하는 사용자에게는 다음 [권한이 있어야 합니다](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html).
+데이터 피드 업로드를 위해 제공한 사용자는 다음 [권한](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)이 있어야 합니다.
 
 * s3:GetObject
 * s3:PutObject
@@ -55,9 +55,9 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >Amazon S3 버킷에 업로드할 때마다 버킷 소유자가 버킷에 필요한 정책이 있는지 여부에 관계없이 [!DNL Analytics]은(는) BucketOwnerFullControl ACL에 추가됩니다. 자세한 내용은 &quot;[Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정이란 무엇입니까?](df-faq.md#BucketOwnerFullControl)&quot;를 참조하십시오.
+   >Amazon S3 버킷에 대한 각 업로드의 경우 [!DNL Analytics]는 버킷에 필요한 정책이 있는지 여부에 관계없이 버킷 소유자를 BucketOwnerFullControl ACL에 추가합니다. 자세한 내용은 “[Amazon S3 데이터 피드에 대한 BucketOwnerFullControl 설정은 무엇입니까?](df-faq.md#BucketOwnerFullControl)”를 참조하십시오.
 
-다음 16개의 표준 AWS 지역이 지원됩니다 (필요한 경우 적절한 서명 알고리즘 사용).
+다음 16개의 표준 AWS 지역이 지원됩니다(필요한 경우 적절한 서명 알고리즘 사용).
 
 * us-east-2
 * us-east-1
