@@ -3,9 +3,9 @@ title: 시스템 요구 사항
 description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입니다.
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ Analysis Workspace를 포함한 대부분의 Adobe Analytics 솔루션은 브라
 해당 솔루션의 시스템 요구 사항에 대해서는 솔루션 연결 페이지를 참조하십시오.
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)
+* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=ko-KR)
