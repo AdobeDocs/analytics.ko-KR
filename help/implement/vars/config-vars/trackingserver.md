@@ -3,7 +3,7 @@ title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 
 1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
 4. [!UICONTROL 일반] 아코디언을 확장합니다. 그러면 [!UICONTROL 추적 서버] 필드가 표시됩니다.
 
 이 필드를 비워 두면 기본값은 `[rsid].data.adobedc.net`로 설정됩니다.
@@ -50,9 +50,9 @@ s.trackingServer = "data.example.com";
 
 >[!TIP]
 >
->최신 브라우저에서 개인 정보 보호 정책을 강화하면 서드파티 쿠키의 신뢰성이 떨어집니다. 자사 쿠키 워크플로에 따라 설정하는 것이 좋습니다.
+>최신 브라우저에서 개인정보 보호정책을 강화하면 서드파티 쿠키의 신뢰성이 떨어집니다. 자사 쿠키 워크플로에 따라 설정하는 것이 좋습니다.
 
-서드파티 쿠키 구현을 사용하는 경우 `trackingServer`의 값은 `data.adobedc.net`의 하위 도메인입니다.  예:
+서드파티 쿠키 구현을 사용하는 경우 `trackingServer`의 값은 `data.adobedc.net`의 하위 도메인입니다. 예:
 
 ```js
 s.trackingServer = "example.data.adobedc.net";
@@ -64,4 +64,4 @@ Adobe Analytics를 사용하는 다른 조직에서 선택할 가능성이 없�
 
 >[!NOTE]
 >
-> `example.data.adobedc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.data.adobedc.net`은 올바른 추적 서버가 아닙니다.
+>`example.data.adobedc.net`보다 더 아래의 하위 도메인은 사용하지 마십시오. 예를 들어 `custom.example.data.adobedc.net`은 올바른 추적 서버가 아닙니다.
