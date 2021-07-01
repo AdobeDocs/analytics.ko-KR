@@ -5,15 +5,15 @@ feature: 시각화
 role: Business Practitioner, Administrator
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics의 [!UICONTROL 코호트 분석]에 대해 알아보기
 
-*`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다.  ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://ko.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
+*`cohort`*&#x200B;는 지정된 기간 동안 공통적인 특성을 공유하는 사람들의 그룹입니다. [!UICONTROL 집단 분석은 예를 들어 집단이 브랜드에 어떻게 참여하는지를 알려고 할 때 유용합니다.] 트렌드 변경 사항을 쉽게 찾아 응답할 수 있습니다. ([!UICONTROL 집단 분석]에 대한 설명은 [집단 분석 101](https://en.wikipedia.org/wiki/Cohort_analysis)에서와 같이 웹에서 사용할 수 있습니다.)
 
 집단 보고서를 만들면 그 구성 요소 (특정 차원, 지표 및 세그먼트)를 조정한 다음, 모든 사람과 집단 보고서를 공유할 수 있습니다. [큐레이션 및 공유](/help/analyze/analysis-workspace/curate-share/curate.md)를 참조하십시오.
 
@@ -21,13 +21,13 @@ ht-degree: 98%
 
 * 원하는 작업에 박차를 가할 수 있도록 설계된 캠페인 시작.
 * 고객 라이프사이클에서 적시에 마케팅 예산 전환.
-* 평가판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
+* 체험판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
 * 안내가 있는 분석 보고서 내에서 [!UICONTROL 집단 분석] 보고서 보기.
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
 
-[코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  (4:36)
+[코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ko-KR)  (4:36)
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 ### [!UICONTROL 지연 테이블]
 
-포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이것은 이전/이후 분석을 위한 훌륭한 도구입니다. **[!UICONTROL 포함]** 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
+포함 이벤트가 발생한 이전 및 이후에 경과한 시간을 측정합니다. 이는 이전/이후 분석을 위한 훌륭한 도구입니다. **[!UICONTROL 포함]** 열은 테이블의 중앙에 있으며 포함 이벤트 전후의 기간이 양쪽에 표시됩니다.
 
 ![](assets/cohort-latency.png)
 
