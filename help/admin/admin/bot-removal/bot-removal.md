@@ -5,7 +5,7 @@ exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 * 먼저, UserAgent 변수를 사용하여 디바이스가 데스크탑 디바이스인지 또는 모바일 디바이스인지를 확인합니다. 모바일 디바이스는 무시됩니다.
 * 데스크탑 디바이스인 경우 마우스 움직임에 대한 이벤트 리스너를 추가합니다.
 
-자세한 정보는 [Adobe Analytics 구현 안내서](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html)를 참조하십시오.
+자세한 정보는 [Adobe Analytics 구현 안내서](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=ko-KR)를 참조하십시오.
 
 ## Adobe 도구의 조합 사용
 
@@ -41,7 +41,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ### 1단계: 방문자의 Experience Cloud ID를 새로 선언된 ID에 전달
 
-시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
+시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=ko-KR)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -53,7 +53,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ### 2단계: 세그먼테이션을 사용하여 보트 식별
 
-이제 방문자의 ECID가 선언된 ID에 전달되었으므로 [Analysis Workspace의 세그먼테이션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)을 사용하여 보트처럼 행동하는 방문자를 식별할 수 있습니다. 보트는 단일 액세스 방문, 비정상적인 사용자 에이전트, 알 수 없는 디바이스/브라우저 정보, 레퍼러 없음, 새 방문자 수, 비정상적인 랜딩 페이지 같은 그들의 행동으로 정의됩니다. Workspace 드릴다운 및 세그먼테이션의 기능을 사용하여 IAB 필터링 및 보고서 세트 보트 규칙을 회피하는 보트를 식별합니다. 다음은 사용할 수 있는 세그먼트의 스크린샷의 예입니다.
+이제 방문자의 ECID가 선언된 ID에 전달되었으므로 [Analysis Workspace의 세그먼테이션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=ko-KR)을 사용하여 보트처럼 행동하는 방문자를 식별할 수 있습니다. 보트는 단일 액세스 방문, 비정상적인 사용자 에이전트, 알 수 없는 디바이스/브라우저 정보, 레퍼러 없음, 새 방문자 수, 비정상적인 랜딩 페이지 같은 그들의 행동으로 정의됩니다. Workspace 드릴다운 및 세그먼테이션의 기능을 사용하여 IAB 필터링 및 보고서 세트 보트 규칙을 회피하는 보트를 식별합니다. 다음은 사용할 수 있는 세그먼트의 스크린샷의 예입니다.
 
 ![](assets/bot-filter-seg1.png)
 
