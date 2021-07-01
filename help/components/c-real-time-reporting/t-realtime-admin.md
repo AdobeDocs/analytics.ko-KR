@@ -5,9 +5,9 @@ feature: 관리 도구
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,6 +56,6 @@ ht-degree: 97%
 
 1. **[!UICONTROL 저장]**&#x200B;이나 **[!UICONTROL 보고서 저장 및 보기]**&#x200B;를 클릭합니다.
 
-   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html)을 참조하십시오.
+   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=ko-KR)을 참조하십시오.
 
 1. 기본적으로 실시간 보고서에 대한 액세스 권한은 모든 사용자에게 있습니다.
