@@ -2,9 +2,9 @@
 description: 분류 규칙 빌더를 하위 분류와 결합할 수 없습니다.
 title: 하위 분류 및 규칙 빌더
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 >
 >이 절차에서는 [하위 분류 및 규칙 빌더](/help/components/classifications/crb/sub-classification-rule-builder.md)에 설명된 사용 사례를 완수하는 방법을 설명합니다.
 
-1. [분류 관리자](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)에서 분류 및 하위 분류를 만듭니다.
+1. [분류 관리자](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko-KR)에서 분류 및 하위 분류를 만듭니다.
 
    예:
 
@@ -69,7 +69,7 @@ ht-degree: 98%
    | * |  | 111 | 브랜드 | Suzanne |  |
    | * |  | 222 | 브랜드 | Frank |  |
 
-1. 조회 테이블을 유지 관리하려면 작은 파일(위에 표시)을 업로드합니다. 
+1. 조회 테이블을 유지 관리하려면 작은 파일(위에 표시)을 업로드합니다.
 
    예를 들어 새 *`Broad Campaign code`* 도입 시 이 파일을 업로드합니다. 이 파일은 이전에 분류한 값이 적용될 수 있습니다. 마찬가지로 새 하위 분류(예: *`Creative Theme`*&#x200B;의 하위 분류 *`Creative code`*)를 만들 경우 전체 분류 파일이 아닌 하위 분류 파일만 업로드합니다.
 
