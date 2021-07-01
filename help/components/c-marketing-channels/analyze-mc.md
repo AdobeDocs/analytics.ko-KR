@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ ht-degree: 98%
 
 ![](assets/mc-viz6.png)
 
-이 비디오에서 교차 탭 마케팅 분석에 대해 자세히 알아보십시오. [교차 탭 분석을 사용하여 Analysis Workspace에서의 기본 마케팅 기여도 살펴보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+이 비디오에서 교차 탭 마케팅 분석에 대해 자세히 알아보십시오. [교차 탭 분석을 사용하여 Analysis Workspace에서의 기본 마케팅 기여도 살펴보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=ko-KR).
