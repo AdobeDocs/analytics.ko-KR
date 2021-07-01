@@ -5,7 +5,7 @@ feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 ## 시각화
 
 * [!UICONTROL 폴아웃], [!UICONTROL 플로우], [!UICONTROL 집단] 및 [!UICONTROL 히스토그램]과 같이 세그먼테이션을 활용하는 시각화는 계산된 지표를 입력으로 허용할 수 없습니다.
-* [!UICONTROL 흐름]: 시작/종료 차원 (예: [!UICONTROL 시작 페이지])은 흐름에서 사용할 수 없습니다.
+* [!UICONTROL 플로우]: 시작/종료 차원(예: [!UICONTROL 시작 페이지])은 플로우에서 사용할 수 없습니다.
 * [!UICONTROL 집단]: 정수가 아닌 항목은 집단 기준으로 사용할 수 없습니다.
 
 ## 패널
@@ -36,7 +36,7 @@ ht-degree: 100%
 ## 구성 요소 > 세그먼트
 
 * 특정 지표 및 차원은 [!UICONTROL 발생 횟수], [!UICONTROL 고유 방문자 수] 등과 같이 세그먼테이션할 수 없습니다.
-* [패널 드롭존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=)에 만든 임시 세그먼트는 공개하지 않으면 Workspace 또는 세그먼트 구성 요소 관리자의 왼쪽 레일에 나타나지 않습니다. 해당 세그먼트를 공개하려면 세그먼트를 편집하고 **[!UICONTROL 이 세그먼트 공개하기]**&#x200B;를 선택하면 됩니다.
+* [패널 드롭존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR)에 만든 임시 세그먼트는 공개하지 않으면 Workspace 또는 세그먼트 구성 요소 관리자의 왼쪽 레일에 나타나지 않습니다. 해당 세그먼트를 공개하려면 세그먼트를 편집하고 **[!UICONTROL 이 세그먼트 공개하기]**&#x200B;를 선택하면 됩니다.
 
 ## 구성 요소 > 계산된 지표
 
