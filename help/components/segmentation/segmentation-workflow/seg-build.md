@@ -5,9 +5,9 @@ feature: 세그먼테이션
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 99%
 세그먼트 빌더에 액세스하는 방법에는 여러 가지가 있습니다.
 
 * **Analytics 위쪽 탐색**: **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;를 클릭합니다.
-* **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** > **[!UICONTROL 작업 공간]**&#x200B;으로 이동하여 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 세그먼트 만들기]**&#x200B;를 클릭합니다.
+* **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** > **[!UICONTROL 작업 영역]**&#x200B;으로 이동하여 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 세그먼트 만들기]**&#x200B;를 클릭합니다.
 * **[!UICONTROL Reports &amp; Analytics]**: **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 기존 보고서를 열고 왼쪽 탐색 창에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Report Builder에서 세그먼트를 추가 또는 편집합니다](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=ko-KR).
 
 ## 빌더 기준 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -45,7 +45,7 @@ ht-degree: 99%
 
    * **[!UICONTROL 반복]**  (기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.
    * **[!UICONTROL 인스턴스]**: 차원의 인스턴스를 포함합니다.
-   * **[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스 (비반복)를 포함합니다. 반복 인스턴스가 제외될 때 흐름에 적용되는 모델입니다.
+   * **[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스 (비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.
 
    ![](assets/attribution-models.jpg)
 
@@ -62,7 +62,7 @@ ht-degree: 99%
 1. **[!UICONTROL 값]**: 입력했거나 선택한 차원, 세그먼트 또는 지표 값입니다.
 1. **[!UICONTROL X]**: (삭제) 이 세그먼트 정의 부분을 삭제할 수 있습니다.
 1. **[!UICONTROL Experience Cloud 게시]**: Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를 [!DNL Audience Manager]의 마케팅 활동과 기타 활성화 채널에서 사용할 수 있습니다. [추가 정보...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL 대상 라이브러리]**: Adobe의 대상 서비스는 방문자 데이터를 대상 세그먼테이션으로 변환하는 작업을 관리합니다. 이와 같이 대상을 만들고 관리하는 작업은 세그먼트를 만들고 사용하는 것과 비슷하며, Experience Cloud에 대상 세그먼트를 공유하는 기능이 추가되었다고 생각하면 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)
 1. **[!UICONTROL 검색]**: 차원, 세그먼트 또는 지표 목록을 검색합니다.
 1. **[!UICONTROL 차원]**: (목록) 확장할 헤더를 클릭합니다.
 1. **[!UICONTROL 지표]**: 확장할 헤더를 클릭합니다.
@@ -72,7 +72,7 @@ ht-degree: 99%
 1. **[!UICONTROL 제품 호환성]**: 만든 세그먼트가 호환되는 Adobe Analytics 제품 (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse) 목록을 제공합니다. 대부분의 세그먼트는 모든 제품과 호환됩니다. 하지만 모든 연산자 및 차원이 모든 Analytics 제품 (특히 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). 이 차트는 세그먼트 정의를 변경한 직후에 업데이트됩니다.
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 취소]**: 세그먼트를 저장하거나 취소합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하면 세그먼트를 관리할 수 있는 세그먼트 관리자로 이동됩니다.
 
- 포함된 날짜 범위가 있는 세그먼트는 Analysis Workspace와 Reports &amp; Analytics에서 계속하여 다르게 작동합니다. Workspace에서 포함된 날짜 범위가 있는 세그먼트는 패널 날짜 범위를 무시합니다. 반대로 [!UICONTROL Reports &amp; Analytics]는 보고서 날짜 범위와 세그먼트의 포함된 날짜 범위의 교차 날짜를 제공합니다.
+ 임베드된 날짜 범위가 있는 세그먼트는 Analysis Workspace와 Reports &amp; Analytics에서 계속하여 다르게 작동합니다. Workspace에서 포함된 날짜 범위가 있는 세그먼트는 패널 날짜 범위를 무시합니다. 반대로 [!UICONTROL Reports &amp; Analytics]는 보고서 날짜 범위와 세그먼트의 임베드된 날짜 범위의 교차 날짜를 제공합니다.
 
 ## 세그먼트 작성 {#build-segments}
 
@@ -140,7 +140,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->2개의 세그먼트를 스택할 때 기본적으로 AND 문으로 연결됩니다. 이것을 OR 문으로 변경할 수 없습니다.
+>2개의 세그먼트를 스택할 때 기본적으로 AND 문으로 연결됩니다. 이를 OR 문으로 변경할 수 없습니다.
 
 1. 세그먼트 빌더로 이동합니다.
 1. 세그먼트의 제목 및 설명을 제공합니다.
