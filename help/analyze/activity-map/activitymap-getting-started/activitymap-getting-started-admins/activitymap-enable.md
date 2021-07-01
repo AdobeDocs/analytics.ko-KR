@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Analytics 관리자가 Activity Map 링크 컬렉션 및 사용자 다운로드�
 
 ## 1단계. AppMeasurement (JavaScript) 코드를 v1.6 (또는 이상)으로 업데이트 {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다 (파일의 맨 위에 있음). AppMeasurement 라이브러리는 Activity Map 모듈이 인스턴스화될 때 이 모듈을 로드합니다.
+Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다(파일의 맨 위에 있음). AppMeasurement 라이브러리는 Activity Map 모듈이 인스턴스화될 때 이 모듈을 로드합니다.
 
 이 버전 (또는 이상)의 AppMeasurement로 업데이트해야만 Activity Map 데이터를 수집할 수 있습니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]**&#x200B;로 이동하여 최신 AppMeasurement 코드(AppMeasurement_Javascript-1.6.zip)를 다운로드하고 [구현하십시오](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]**&#x200B;로 이동하여 최신 AppMeasurement 코드(AppMeasurement_Javascript-1.6.zip)를 다운로드하고 [구현하십시오](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ko-KR).
 
    Adobe에서는 Activity Map 모듈을 포함하여 코드에 수행한 변경 작업을 시각화하는 데 도움이 되기 위해 [샘플 구현 코드](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)를 일부 포함했습니다.
 
@@ -54,7 +54,7 @@ Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다 (파일의 �
 
    이렇게 하면 Admin Console에 그룹 관리 페이지가 표시됩니다.
 
-1. [사용자를 이 그룹에 추가](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)하고 **[!UICONTROL 그룹을 저장]**&#x200B;합니다.
+1. [사용자를 이 그룹에 추가](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR)하고 **[!UICONTROL 그룹을 저장]**&#x200B;합니다.
 
 1. 이렇게 하면 관리 사용자가 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 도구]** > **[!UICONTROL ActivityMap]**&#x200B;에서 Activity Map을 다운로드할 수 있습니다.
 
