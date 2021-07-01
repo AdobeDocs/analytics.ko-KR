@@ -6,32 +6,32 @@ feature: AI 도구
 role: Business Practitioner, Administrator
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 지능형 경고 개요
 
-지능형 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
+지능형 경고는 경고를 더욱 세밀하게 제어할 수 있도록 해 주며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 
-[지능형 경고](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html)에 대한 비디오 튜토리얼  (5:34)
+[지능형 경고](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ko-KR)에 대한 비디오 튜토리얼 (5:34)
 
 ## 개요
 
 Analysis Workspace의 새로운 경고 빌더와 경고 관리자는 Reports &amp; Analytics에 있는 기존의 경고 기능을 대체합니다. 지능형 경고를 사용하면 다음 작업을 수행할 수 있습니다.
 
-* 예외 항목을 기반으로 한 경고를 만듭니다 (90%, 95%, 99%, 99.75%, 및 99.9% 임계값, % 변경률, 초과/미만)
+* 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95%, 99%, 99.75%, 및 99.9% 임계값, % 변경률, 초과/미만)
 * 경고가 트리거되는 빈도를 미리 봅니다.
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 생성합니다.
 
-경고 빌더를 여는 방법에는 네 가지가 있습니다. 
+경고 빌더를 여는 방법에는 네 가지가 있습니다.
 
 * 경고 빌더로 직접 이동: **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**
 * Workspace에서 키보드 단축키 사용: `Ctrl + Shift + A`  (Windows) 또는 `Cmd + Shift + A`  (Mac)
-* 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 단추로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기]** 선택. 이렇게 하면 경고 빌더가 열리고 테이블에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
+* 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 버튼으로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기]** 선택. 이렇게 하면 경고 빌더가 열리고 테이블에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다.
 
    ![선택 항목으로 경고 만들기](assets/create-alert-from-selection.png)
 
@@ -43,7 +43,7 @@ Analysis Workspace의 새로운 경고 빌더와 경고 관리자는 Reports &am
 
 >[!IMPORTANT]
 >
-> 경고를 생성하는 타임스탬프가 지정된 데이터를 사용하면 경고가 잘못 표시될 수 있습니다. 지능형 경고에는 타임스탬프가 지정되지 않은 데이터를 사용하는 것이 좋습니다.
+>경고를 생성하는 타임스탬프가 지정된 데이터를 사용하면 경고가 잘못 표시될 수 있습니다. 지능형 경고에는 타임스탬프가 지정되지 않은 데이터를 사용하는 것이 좋습니다.
 
 ## 경고 예외 항목 살펴보기
 
