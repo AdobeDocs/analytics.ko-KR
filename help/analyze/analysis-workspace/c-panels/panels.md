@@ -5,15 +5,15 @@ feature: 패널
 role: Business Practitioner, Administrator
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 패널 개요
 
-[!UICONTROL 패널]은 테이블 및 시각화 컬렉션입니다. Workspace의 왼쪽 상단 아이콘 또는 [빈 패널](blank-panel.md)에 액세스 할 수 있습니다. 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
+[!UICONTROL 패널]은 테이블 및 시각화 컬렉션입니다. Workspace의 왼쪽 상단 아이콘 또는 [빈 패널](blank-panel.md)에 액세스할 수 있습니다. 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 | 패널 이름 | 설명 |
 | --- | --- |
@@ -27,13 +27,13 @@ ht-degree: 98%
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL 빠른 인사이트], [!UICONTROL 빈] 패널 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기에 좋은 위치이며 [!UICONTROL Analytics for Target], [!UICONTROL Attribution IQ], [!UICONTROL 미디어 동시 뷰어 ] 및 [!UICONTROL 세그먼트 비교]는 보다 고급 분석에 적합합니다. 프로젝트에서 `"+"` 단추를 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
+[!UICONTROL 빠른 인사이트], [!UICONTROL 빈] 패널 및 [!UICONTROL 자유 형식] 패널은 분석을 시작하기에 좋은 위치이며 [!UICONTROL Analytics for Target], [!UICONTROL Attribution IQ], [!UICONTROL 미디어 동시 뷰어 ] 및 [!UICONTROL 세그먼트 비교]는 보다 고급 분석에 적합합니다. 프로젝트에서 `"+"` 버튼을 사용할 수 있으므로 언제든지 빈 패널을 추가할 수 있습니다.
 
 기본 시작 패널은 [!UICONTROL 자유 형식] 패널이지만 [빈 패널](/help/analyze/analysis-workspace/c-panels/blank-panel.md)도 기본값으로 설정할 수 있습니다.
 
 ## 보고서 세트 {#report-suite}
 
-패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 [!UICONTROL 보고서 세트]에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 [여러 보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)를 사용할 수 있습니다. 단일 보고서 세트를 프로젝트의 모든 패널에 적용하려면 **패널 헤더를 마우스 오른쪽 버튼으로 클릭 > 모든 패널에 보고서 세트 적용**&#x200B;을 선택합니다.
+패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 [!UICONTROL 보고서 세트]에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 [여러 보고서 세트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ko-KR)를 사용할 수 있습니다. 단일 보고서 세트를 프로젝트의 모든 패널에 적용하려면 **패널 헤더를 마우스 오른쪽 버튼으로 클릭 > 모든 패널에 보고서 세트 적용**&#x200B;을 선택합니다.
 
 보고서 세트 목록은 관련성을 기준으로 정렬되며, Adobe는 현재 사용자가 제품군을 얼마나 최근에 그리고 얼마나 자주 사용했는지를 기준으로 정의합니다.
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 패널 달력은 패널 내의 테이블 및 시각화에 대한 보고 범위를 제어합니다.
 
-참고:  (보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
+참고: (보라색) 날짜 범위 구성 요소가 테이블, 시각화 또는 패널 드롭 영역 내에서 사용되는 경우 패널 달력을 재정의합니다.
 
 ![](assets/panel-calendar.png)
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 
 ### 드롭다운 필터 {#dropdown-filter}
 
-세그먼트 필터 외에도 드롭다운 필터를 사용하여 제어된 방식으로 데이터와 상호 작용할 수 있습니다. 예를 들어, 태블릿, 휴대폰 또는 데스크탑 별로 패널을 분할할 수 있도록 모바일 장치 유형에 대한 드롭다운 필터를 추가할 수 있습니다.
+세그먼트 필터 외에도 드롭다운 필터를 사용하여 제어된 방식으로 데이터와 상호 작용할 수 있습니다. 예를 들어, 태블릿, 휴대폰 또는 데스크탑 별로 패널을 분할할 수 있도록 모바일 디바이스 유형에 대한 드롭다운 필터를 추가할 수 있습니다.
 
 드롭다운 필터를 사용하여 여러 프로젝트를 하나로 통합할 수도 있습니다. 예를 들어 다른 국가 세그먼트가 적용된 동일한 프로젝트의 여러 버전이 있는 경우 모든 버전을 단일 프로젝트로 통합하고 국가 드롭다운 필터를 추가할 수 있습니다.
 
@@ -81,7 +81,7 @@ ht-degree: 98%
 
 ![](assets/create-dropdown.png)
 
-프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html).
+프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko-KR).
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
