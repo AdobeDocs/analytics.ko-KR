@@ -6,9 +6,9 @@ feature: AI 도구
 role: Business Practitioner, Administrator
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 97%
 
    ![](assets/contribution-analysis.png)
 
-1.  (선택 사항) 라인 차트나 표에서 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭한 후에 [차원을 제외](#section_F6932F4BF74544B5872164E7B1E0C6FC)하여 분석 범위를 좁힐 수 있습니다 (따라서 분석 속도가 빨라짐).
+1. (선택 사항) 라인 차트나 표에서 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭한 후에 [차원을 제외](#section_F6932F4BF74544B5872164E7B1E0C6FC)하여 분석 범위를 좁힐 수 있습니다(따라서 분석 속도가 빨라짐).
 
 1. 기여도 분석이 로드되는 동안 기다려 주십시오. 이 작업은 보고서 세트의 크기와 차원의 수에 따라 상당한 시간이 걸릴 수 있습니다. 기여도 분석에서는 차원당 상위 50,000개의 항목을 분석합니다.
 1. 그런 다음 Analysis Workspace에서는 이 프로젝트 내에서 바로 새 기여도 분석 패널을 로드합니다. 전에 Reports &amp; Analytics에서 기여도 분석을 사용한 적이 있다면 익숙한 패널이 많이 표시됩니다.
 
    * 해당 일의 **방문** 수를 보여 주는 시각화.
    * 컨텍스트에 대한 월별 **방문 횟수 꺾은 선형**.
-   * 이 예외 항목에 기여하고, [기여도 점수](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)와 해당 지표, 고유 방문자 수 지표로 정렬되어 크기 조정 관점의 문맥에서 지표를 적용하기 위한 **상위 항목**.
+   * 이 예외 항목에 기여하고, [기여도 점수](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ko-KR)와 해당 지표, 고유 방문자 수 지표로 정렬되어 크기 조정 관점의 문맥에서 지표를 적용하기 위한 **상위 항목**.
 
-   * [생성된 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다 (기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot; (정보) 버튼을 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다.
+   * [생성된 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR) (상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다(기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot; (정보) 버튼을 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다.
 
       ![](assets/auto_segment.png)
 
