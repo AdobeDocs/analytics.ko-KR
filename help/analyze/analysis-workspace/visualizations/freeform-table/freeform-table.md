@@ -5,9 +5,9 @@ feature: 자유 형식 테이블
 role: Business Practitioner, Administrator
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,15 +34,15 @@ Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석�
 다음과 같은 다양한 방법으로 자유 형식 테이블과 상호 작용하고 사용자 지정할 수 있습니다.
 
 * **다른 결과를 표시했던**
-   * 프로젝트의 [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
+   * 프로젝트의 [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR)를 조정하여 더 많은 행을 단일 화면에 맞출 수 있습니다.
    * 페이지 매김이 발생하기 전에 각 차원 행에 최대 400개의 행을 표시할 수 있습니다. 행 옆의 숫자를 클릭하여 페이지에 더 많은 행을 표시합니다. 헤더의 페이지 화살표를 사용하여 다른 페이지로 이동합니다.
-   * 행을 추가 구성 요소별로 분석할 수 있습니다. 한 번에 여러 행을 분석하려면 여러 행을 선택한 다음 선택한 행 위로 다음 구성 요소를 끌어다 놓으면 됩니다. [분류](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html)에 대해 자세히 알아보십시오.
-   * 행을 [필터링](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html)에서 사용할 수 있습니다.
+   * 행을 추가 구성 요소별로 분석할 수 있습니다. 한 번에 여러 행을 분석하려면 여러 행을 선택한 다음 선택한 행 위로 다음 구성 요소를 끌어다 놓으면 됩니다. [분류](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=ko-KR)에 대해 자세히 알아보십시오.
+   * 행을 [필터링](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ko-KR)하여 축소된 항목 세트를 표시할 수 있습니다. 추가 설정은 [행 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ko-KR)에서 사용할 수 있습니다.
 
 * **열**
    * 구성 요소를 열 내에 스택하여 세그먼트화된 지표, 탭 간 분석 등을 만들 수 있습니다.
-   * 각 열의 보기는 [열 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)에서 조정할 수 있습니다.
-   * [마우스 오른쪽 버튼 클릭 메뉴](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)를 통해 몇 가지 작업을 사용할 수 있습니다. 이 메뉴는 표 머리글, 행 또는 열을 클릭하는지 여부에 따라 다른 작업을 제공합니다.
+   * 각 열의 보기는 [열 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)에서 조정할 수 있습니다.
+   * [마우스 오른쪽 버튼 클릭 메뉴](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html?lang=ko-KR)를 통해 몇 가지 작업을 사용할 수 있습니다. 이 메뉴는 표 머리글, 행 또는 열을 클릭하는지 여부에 따라 다른 작업을 제공합니다.
 
 ## 자유 형식 테이블 데이터 내보내기
 
@@ -52,6 +52,6 @@ Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experiencel
 * 마우스 오른쪽 버튼을 클릭하고 > **[!UICONTROL 데이터를 CSV로 다운로드]**&#x200B;를 클릭하면 표시된 테이블 데이터를 CSV로 다운로드합니다. 테이블을 선택하면 이 옵션에는 **[!UICONTROL CSV로 선택 항목 다운로드]**&#x200B;가 표시됩니다.
 * 마우스 오른쪽 버튼을 클릭하고 > **[!UICONTROL 프로젝트 > CSV로 항목 다운로드]**&#x200B;를 선택하면 선택한 차원에 대해 최대 50,000개의 차원 항목이 내보내집니다.
 
-Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)에 대해 자세히 알아보십시오.
+Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR)에 대해 자세히 알아보십시오.
 
 ![](assets/export-options.png)
