@@ -1,5 +1,5 @@
 ---
-description: 리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트 측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
+description: 리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
 keywords: Analytics 구현
 subtopic: Redirects
 title: 리디렉션 및 별칭
@@ -7,7 +7,7 @@ topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1123'
 ht-degree: 100%
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 # 리디렉션 및 별칭
 
-리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트 측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
+리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
 
 ## 리디렉션 및 별칭 {#concept_F4F1D53D473947FE8554897332545763}
 
-리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트 측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
+리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
 
 리디렉션은 사용자 조정이 필요 없으므로, 종종 사용자도 모르게 리디렉션이 실행됩니다. 리디렉션이 발생했음을 나타내는 유일한 단서는 브라우저의 주소 표시줄입니다. 주소 표시줄이 브라우저가 초기에 요청한 링크와 다른 URL을 표시합니다.
 
-두 가지 유형의 리디렉션만 있더라도, 다양한 방법으로 리디렉션을 구현할 수 있습니다. 예를 들어 사용자가 자신의 브라우저를 향해 있는 웹 페이지에는 브라우저를 다른 URL로 리디렉션하는 스크립팅 또는 특수 HTML 코드가 들어 있으므로 클라이언트 측 리디렉션이 발생할 수 있습니다. 서버측 리디렉션은 페이지가 서버측 스크립팅을 포함하거나 사용자가 다른 URL로 향하도록 웹 서버가 구성되었기 때문에 발생할 수 있습니다.
+두 가지 유형의 리디렉션만 있더라도, 다양한 방법으로 리디렉션을 구현할 수 있습니다. 예를 들어 사용자가 자신의 브라우저를 향해 있는 웹 페이지에는 브라우저를 다른 URL로 리디렉션하는 스크립팅 또는 특수 HTML 코드가 들어 있으므로 클라이언트측 리디렉션이 발생할 수 있습니다. 서버측 리디렉션은 페이지가 서버측 스크립팅을 포함하거나 사용자가 다른 URL로 향하도록 웹 서버가 구성되었기 때문에 발생할 수 있습니다.
 
 ## Analytics 및 리디렉션 {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 사용자가 리디렉션을 발견하지 않는 다음 가설 시나리오를 고려하십시오.
 
-1. 사용자가 자신의 브라우저를 `www.google.com`을 가리키게 하고, 검색 필드에 &quot;할인 항공 티켓&quot;을 입력한 다음 **[!UICONTROL 검색]** 단추를 클릭합니다.
+1. 사용자가 자신의 브라우저를 `www.google.com`을 가리키게 하고, 검색 필드에 &quot;할인 항공 티켓&quot;을 입력한 다음 **[!UICONTROL 검색]** 버튼을 클릭합니다.
 1. 브라우저가 해당 사이트 ( [!DNL https://www.example.com/] )에 대한 링크를 포함하는 검색 결과를 표시합니다. 검색 결과가 표시되고 브라우저의 주소 표시줄에 사용자가 검색 필드 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)에 입력한 검색어가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다.
 1. 사용자가 가설 사이트 ( [!DNL https://www.example.com/] )로 이동하는 링크를 클릭합니다. 사용자가 이 링크를 클릭하고 [!DNL example.com] 웹 사이트로 이동하면 [!DNL Analytics]는 JavaScript를 사용하여 참조 URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)과 현재 URL (`https://www.example.com/`)을 수집합니다.
 1. [!DNL Analytics]는 [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진] 및 [!DNL Search Keywords] 등의 여러 보고서에 이러한 상호 작용 중에 수집된 정보를 보고합니다.
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 리디렉션으로 인해 브라우저는 실제 참조 URL을 완전히 지울 수 있습니다. 다음 시나리오를 참조하십시오.
 
-1. 사용자는 브라우저가 `https://www.google.com`을 가리키게 하고 검색 필드에 *할인 항공 티켓*&#x200B;을 입력한 다음 **[!UICONTROL 검색]** 단추를 클릭합니다.
+1. 사용자는 브라우저가 `https://www.google.com`을 가리키게 하고 검색 필드에 *할인 항공 티켓*&#x200B;을 입력한 다음 **[!UICONTROL 검색]** 버튼을 클릭합니다.
 1. 브라우저 창의 주소 표시줄에 사용자가 검색 필드에 입력한 검색어 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)가 표시됩니다. 검색어는 `https://www.google.com/search?` 다음에 오는 URL 쿼리 문자열 매개 변수에 포함됩니다. 또한 브라우저는 도메인 이름 중 하나 ( [!DNL https://www.flytohawaiiforfree.com/] )에 대한 링크를 포함하는 검색 결과를 포함하는 페이지를 표시합니다. *vanity* 도메인은 사용자를 `https://www.example.com/` 으로 리디렉션하도록 구성되었습니다.
 1. 사용자가 `https://www.flytohawaiiforfree.com/` 링크를 클릭하면 서버가 사용자를 주 사이트인 `https://www.example.com`으로 리디렉션합니다. 리디렉션이 발생할 때 브라우저가 참조 URL을 지우므로 [!DNL Analytics] 데이터 수집에 중요한 데이터가 유실됩니다. 따라서 [!DNL Analytics] 보고서 (예: [!UICONTROL 참조 도메인], [!UICONTROL 검색 엔진], [!UICONTROL 검색 키워드])에 사용된 원래 검색 정보가 유실됩니다.
 
@@ -66,7 +66,7 @@ redirects_js_override.xml
 
  -->
 
-아래의 코드 조각은 두 개의 JavaScript 변수인 *`s_referrer`*&#x200B;와 *`s_pageURL`*&#x200B;을 보여 줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
+아래의 코드 스니펫은 두 개의 JavaScript 변수인 *`s_referrer`*&#x200B;와 *`s_pageURL`*&#x200B;을 보여 줍니다. 이 코드는 리디렉션의 최종 랜딩 페이지에 삽입됩니다.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -84,7 +84,7 @@ s.pageURL=""
 >
 >페이지에서 *`s.referrer`*&#x200B;를 한 번만 설정합니다. 모든 추적 호출이나 추적되는 모든 링크 클릭으로 두 번 이상 설정하면 검색 엔진 및 키워드와 같은 레퍼러 및 관련 차원들이 두 번씩 계산됩니다.
 
-## getQueryParam를 사용한 리디렉션 {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
+## getQueryParam을 사용한 리디렉션 {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
 [!UICONTROL getQueryParam]은 [!DNL Analytics] 변수를 쿼리 문자열 값으로 채우는 쉬운 방법이지만, 쿼리 문자열이 비어 있을 때 적합한 레퍼러가 덮어쓰이지 않도록 임시 변수와 연결해서 구현해야 합니다. [!UICONTROL getQueryParam]를 사용하는 가장 좋은 방법은 다음의 의사 코드로 설명했듯이 [!UICONTROL getValue]와 관련되어 있습니다.
 
@@ -110,9 +110,9 @@ redirects_modify_mechanism.xml
 
  -->
 
-브라우저는 URL을 참조하여 스크립트를 작성하므로, 원래 레퍼러 정보를 전달할 리디렉션 (예: 웹 서버, 서버측 코드, 클라이언트 측 코드)을 처리하는 메커니즘을 구성해야 합니다. 또한 별칭 링크 URL을 기록할 경우에도 이것을 최종 랜딩 페이지로 전달해야 합니다. 현재 URL을 대체하려면 *`s_pageURL`* 변수를 사용하십시오.
+브라우저는 URL을 참조하여 스크립트를 작성하므로, 원래 레퍼러 정보를 전달할 리디렉션 (예: 웹 서버, 서버측 코드, 클라이언트측 코드)을 처리하는 메커니즘을 구성해야 합니다. 또한 별칭 링크 URL을 기록할 경우에도 이를 최종 랜딩 페이지로 전달해야 합니다. 현재 URL을 대체하려면 *`s_pageURL`* 변수를 사용하십시오.
 
-리디렉션을 구현하는 방법으로는 여러 가지가 있으므로, 웹 운영 그룹 또는 온라인 광고 파트너과 함께 확인해서 웹 사이트에서 리디렉션을 실행하는 특정 메커니즘을 식별해야 합니다.
+리디렉션을 구현하는 방법으로는 여러 가지가 있으므로, 웹 운영 그룹 또는 온라인 광고 파트너와 함께 확인해서 웹 사이트에서 리디렉션을 실행하는 특정 메커니즘을 식별해야 합니다.
 
 ## 원래 레퍼러 캡처 {#section_7F1A77F447CF485385B456A64B174050}
 
@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 테스트를 실행하여 레퍼러, 원래 URL (*`s_server`*) 및 캠페인 변수가 캡처되고 있는지 확인합니다.
 
-이러한 변수는 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)에 다음 매개 변수로 표현되지 않습니다.
+이러한 변수는 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)에 다음 매개 변수로 표현되지 않습니다.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
