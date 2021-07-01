@@ -5,7 +5,7 @@ feature: Workspace 기본 사항
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 | Ctrl + Shift + D | 새 날짜 범위 |
 | Ctrl + Shift + E | 새 세그먼트 |
 | Ctrl + Z | 실행 취소 |
-| Shift 키 (패널 세그먼트 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko) 만들기 |
+| Shift 키 (패널 세그먼트 드롭존) | [드롭다운 필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR) 만들기 |
 
 #### 민주화
 
@@ -85,13 +85,13 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 ## 화면 판독기 및 화면 돋보기 지원
 
-화면 판독기는 컴퓨터 화면에 나타나는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 단추 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
+화면 판독기는 컴퓨터 화면에 나타나는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 버튼 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
 
 ## 색상 팔레트 및 대비
 
 [!UICONTROL Analysis Workspace]는 색상 대비 요구 사항을 포함하여 WCAG 2.1 AA 적합성을 준수하기 위해 최선을 다합니다.
 
-또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다 .
+또한 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 설정]** > [프로젝트 색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) 아래에서 프로젝트에 대해 원하는 색상 팔레트를 직접 설정할 수도 있습니다.
 
 ## 구성 요소 빌더의 필수 필드 유효성 검사
 
@@ -103,4 +103,4 @@ Adobe Analytics의 고급 분석 툴인 [!UICONTROL Analysis Workspace]의 접�
 
 ## 운영 체제 접근성 기능 지원
 
-Analysis Workspace는 고대비 모드, 고정 키 및 느린 키/필터 키와 같은 내장된 MS Windows 및 macOS 접근성 기능을 지원합니다. 또한, 운영 체제에 대한 사용자 인터페이스에 대한 정보를 제공하여 macOS용 VoiceOver 및 Windows용 NVDA와 같은 보조 기술과 상호 작용할 수 있도록 합니다.
+Analysis Workspace는 고대비 모드, 고정 키 및 느린 키/필터 키와 같은 내장된 MS Windows 및 macOS 접근성 기능을 지원합니다. 또한 운영 체제에 대한 사용자 인터페이스에 대한 정보를 제공하여 macOS용 VoiceOver 및 Windows용 NVDA와 같은 보조 기술과 상호 작용할 수 있도록 합니다.
