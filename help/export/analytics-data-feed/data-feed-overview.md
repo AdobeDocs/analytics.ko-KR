@@ -5,9 +5,9 @@ title: Analytics 데이터 피드 개요
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 데이터 피드는 Adobe Analytics에서 원시 데이터를 가져오는 강력한 방법입니다. 이러한 원시 데이터는 Adobe 외부의 다른 플랫폼에서 조직의 재량에 따라 사용할 수 있습니다. 데이터는 매 시간이 끝날 때 시간별 배치로 전달되거나, 하루가 끝날 때 일별 배치로 전달됩니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 데이터 피드를 사용하기 전에 다음 요구 사항을 모두 충족하는지 확인하십시오.
 
@@ -38,7 +38,7 @@ ht-degree: 98%
    * 시작 및 종료 날짜: 이전 며칠 중에서 시작 날짜를 선택하고 오늘을 종료 날짜로 선택합니다.
 6. [!UICONTROL 대상] 필드를 채웁니다.
    * 유형: FTP
-   * 호스트: 원하는 FTP 대상 URL을 입력합니다.  (예: `ftp://ftp.omniture.com`)
+   * 호스트: 원하는 FTP 대상 URL을 입력합니다. (예: `ftp://ftp.omniture.com`)
    * 경로: 비워 둘 수 있습니다.
    * 사용자 이름: FTP 사이트에 로그인할 사용자 이름을 입력합니다.
    * 암호 및 암호 확인: FTP 사이트에 로그인할 암호를 입력합니다.
@@ -67,4 +67,4 @@ ht-degree: 98%
 
 데이터 피드 인터페이스를 탐색하는 비디오:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html?lang=ko-KR)
