@@ -7,7 +7,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
 workflow-type: tm+mt
 source-wordcount: '1325'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,20 +22,20 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 >Adobe Campaign (Classic 및 Standard)은 8시간 지연 외에 24시간 추가적인 지연을 발생시킨다는 점에서 다르게 동작합니다.
 
 
-## 전제 조건
+## 사전 요구 사항
 
-* 이 세그먼트를 저장할 보고서 세트를 [Experience Cloud에 사용](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)할 수 있도록 합니다. 그렇게 하지 않으면 Experience Cloud에 게시할 수 없습니다.
-* [Experience Cloud 조직에 매핑](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)된 보고서 세트에서 작업 중인지 확인합니다.
+* 이 세그먼트를 저장할 보고서 세트를 [Experience Cloud에 사용](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ko-KR)할 수 있도록 합니다. 그렇게 하지 않으면 Experience Cloud에 게시할 수 없습니다.
+* [Experience Cloud 조직에 매핑](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=ko-KR)된 보고서 세트에서 작업 중인지 확인합니다.
 * 조직이 Experience Cloud ID를 사용하고 있는지 확인합니다.
-* 세그먼트를 게시하려면 먼저 관리자가 [관리자 콘솔의](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 제품 프로필에 [!UICONTROL 세그먼트 게시] 권한을 할당하고사용자를 제품 프로필에 추가해야 합니다.
+* 세그먼트를 게시하려면 먼저 관리자가 [Admin Console의](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR) 제품 프로필에 [!UICONTROL 세그먼트 게시] 권한을 할당하고 사용자를 제품 프로필에 추가해야 합니다.
 
 
 ## 고려 사항
 
 * **보고서 세트 제한**: 보고서 세트당 최대 75개의 세그먼트를 게시할 수 있습니다. 이 제한은 강제 적용됩니다. 이미 75개의 세그먼트를 게시한 경우 75개 임계값 아래가 되도록 세그먼트 게시를 취소해야 추가 세그먼트를 게시할 수 있습니다.
 * **멤버십 제한**: Adobe Analytics에서 [!DNL Experience Cloud]로 공유한 대상은 2천만 명의 고유 구성원을 초과할 수 없습니다.
-* **데이터 개인 정보**: 대상은 방문자의 인증 상태에 따라 필터링되지 않습니다. 방문자가 인증되지 않음 및 인증됨 상태의 사이트를 검색할 수 있는 경우 방문자가 인증되지 않음 상태일 때 발생하는 작업 때문에 여전히 방문자가 대상에 포함될 수 있습니다. 대상을 공유할 때 파생되는 전반적인 개인 정보 문제를 이해하려면 [Adobe Experience Cloud 개인 정보 보호](https://www.adobe.com/kr/privacy/experience-cloud.html)를 검토하십시오.
-* **[!DNL Adobe Analytics]와[!DNL Audience Manager]**&#x200B;에 있는 세그먼트 간의 차이에 대한 설명이 필요하면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)로 이동하십시오.
+* **데이터 개인정보**: 대상은 방문자의 인증 상태에 따라 필터링되지 않습니다. 방문자가 인증되지 않음 및 인증됨 상태의 사이트를 검색할 수 있는 경우 방문자가 인증되지 않음 상태일 때 발생하는 작업 때문에 여전히 방문자가 대상에 포함될 수 있습니다. 대상을 공유할 때 파생되는 전반적인 개인정보 문제를 이해하려면 [Adobe Experience Cloud 개인정보 보호](https://www.adobe.com/kr/privacy/experience-cloud.html)를 검토하십시오.
+* **[!DNL Adobe Analytics]와[!DNL Audience Manager]**&#x200B;에 있는 세그먼트 간의 차이에 대한 설명이 필요하면 [여기](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko-KR)로 이동하십시오.
 
 ## 세그먼트 게시 타임라인
 
@@ -50,7 +50,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
-1. **[!UICONTROL Analytics > 작업 공간 > 구성 요소 > 세그먼트] > +**&#x200B;로 이동합니다.
+1. **[!UICONTROL Analytics > 작업 영역 > 구성 요소 > 세그먼트] > +**&#x200B;로 이동합니다.
 1. [!UICONTROL 세그먼트 빌더]에서 세그먼트를 만듭니다.
 1. 세그먼트용 제목과 설명을 입력합니다. 이렇게 하지 않으면 저장할 수 없습니다.
 1. **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시 (*보고서 세트*용)]**&#x200B;을 선택합니다.
@@ -92,26 +92,26 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 * Adobe Experience Cloud Debugger
 * 브라우저의 기본 개발자 도구 (예: Chrome 개발자 도구)
 
-다음 스크린샷은 브라우저에서 AAM UUID를 검색하고 이것을 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
+다음 스크린샷은 브라우저에서 AAM UUID를 검색하고 이를 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
 
 **방법 1:Adobe Experience Cloud Debugger 사용**
 
 1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](/help/implement/validate/debugger.md)를 다운로드하여 설치합니다.
 1. 페이지를 로드할 때 디버거를 실행합니다.
-1. Audience Manager 섹션으로 스크롤하여 현재 브라우저 페이지에 설정된 AAM UUID를 찾습니다 (아래 예에서 `50814298273775797762943354787774730612`).
+1. Audience Manager 섹션으로 스크롤하여 현재 브라우저 페이지에 설정된 AAM UUID를 찾습니다(아래 예에서 `50814298273775797762943354787774730612`).
 
 ![](assets/debugger.jpg)
 
 **방법 2: Chrome 개발자 도구 사용 (또는 기타 브라우저 개발자 도구)**
 
 1. 페이지를 로드하기 전에 Chrome 개발자 도구를 실행합니다.
-1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. AAM UUID는 타사 Demdex 쿠키 (아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko))에서 설정해야 합니다. 필드 demdex는 브라우저에 설정된 AAM UUID입니다 (아래 예에서 `50814298273775797762943354787774730612`).
+1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. AAM UUID는 서드파티 Demdex 쿠키 (아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR))에서 설정해야 합니다. 필드 demdex는 브라우저에 설정된 AAM UUID입니다(아래 예에서 `50814298273775797762943354787774730612`).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Audience Manager [!UICONTROL 방문자 프로필 뷰어] 사용
 
-[!UICONTROL 방문자 프로필 뷰어]가 로드되면 기본적으로 브라우저의 AAM UUID가 사용됩니다. 다른 사용자에 대한 트레이트 인식을 확인하는 경우 UUID 필드에 UUID를 입력하고 [!UICONTROL 새로 고침]을 클릭합니다. 자세한 내용은 [방문자 프로필 뷰어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html)를 참조하십시오.
+[!UICONTROL 방문자 프로필 뷰어]가 로드되면 기본적으로 브라우저의 AAM UUID가 사용됩니다. 다른 사용자에 대한 트레이트 인식을 확인하는 경우 UUID 필드에 UUID를 입력하고 [!UICONTROL 새로 고침]을 클릭합니다. 자세한 내용은 [방문자 프로필 뷰어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ko-KR)를 참조하십시오.
 
 ![](assets/aam-vpv.png)
 
@@ -126,7 +126,7 @@ AAM에서, Analytics가 Experience Cloud와 세그먼트를 공유할 때 주어
 ![](assets/aam-traits.png)
 
 * 트레이트가 하나인 세그먼트가 만들어집니다. 이 세그먼트는 세그먼트가 게시된 보고서 세트와 연결된 데이터 소스를 사용합니다.
-* 이제 트레이트 만료가 16일로 설정됩니다 (이전에는 2일).
+* 이제 트레이트 만료가 16일로 설정됩니다(이전에는 2일).
 
 ## [!DNL Adobe Target]에서 세그먼트 보기
 
