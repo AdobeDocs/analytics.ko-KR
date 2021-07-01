@@ -6,9 +6,9 @@ feature: 시각화
 role: Business Practitioner, Administrator
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,20 +31,20 @@ ht-degree: 98%
 폴아웃 시각화는 다음 항목을 분석하는 데 유용합니다.
 
 * 사이트의 특정 프로세스를 통한 전환율 (예: 구매 또는 등록 프로세스)
-* 일반적이고 폭 넓은 범위의 트래픽 흐름: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
-* 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인 정보 보호 정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
+* 일반적이고 폭 넓은 범위의 트래픽 플로우: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
+* 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인정보 보호정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
 
-[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)  (4:15)
+[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ko-KR)  (4:15)
 
-## 흐름 및 폴아웃을 위한 기초로서의 세그먼테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
+## 플로우 및 폴아웃을 위한 기초로서의 세그먼테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Analysis Workspace 패널에 적용된 세그먼트는 Reports &amp; Analytics의 폴아웃 및 흐름 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만 주요 차이점은 Reports &amp; Analytics의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
+Analysis Workspace 패널에 적용된 세그먼트는 Reports &amp; Analytics의 폴아웃 및 플로우 보고서에 적용되는 세그먼트와 약간 다르게 작동합니다. 대부분의 경우 이 세그먼트들은 정확히 동일한 결과를 제공하지만 주요 차이점은 Reports &amp; Analytics의 경우 시퀀스의 각 단계에서 세그먼트를 적용한다는 것입니다. 이로 인해 결과가 다소 다를 수 있습니다.
 
 다음 두 단계를 사용하여 폴아웃의 예를 살펴보겠습니다.
 
 ![](assets/fallout_segments1.png)
 
-그런 다음 작업 공간 패널 수준에서 세그먼트를 적용하는 경우 세그먼트는 다음과 같이 폴아웃과 결합합니다.
+그런 다음 작업 영역 패널 수준에서 세그먼트를 적용하는 경우 세그먼트는 다음과 같이 폴아웃과 결합합니다.
 
 ![](assets/fallout_seg.png)
 
@@ -59,4 +59,4 @@ Reports &amp; Analytics은 세그먼트를 각 단계와 결합합니다. 컨테
 * 세그먼트가 폴아웃과 같은 수준에 있지 않습니다.
 * 방문/방문자에 여러 값이 있는 세그먼트에는 변수가 있습니다.
 
-드물지만 Analysis Workspace에서 세그먼트를 폴아웃/흐름 적용하는 Reports &amp; Analytics 방식을 일치시켜야 할 경우에는 세그먼트를 Workspace의 각 폴아웃 단계에 놓기만 하면 동일한 숫자가 생성됩니다.
+드물지만 Analysis Workspace에서 세그먼트를 폴아웃/플로우 적용하는 Reports &amp; Analytics 방식을 일치시켜야 할 경우에는 세그먼트를 Workspace의 각 폴아웃 단계에 놓기만 하면 동일한 숫자가 생성됩니다.
