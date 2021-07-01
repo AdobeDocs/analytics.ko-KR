@@ -8,7 +8,7 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 >
 >타임스탬프 선택 사항은 템플릿에서 생성된 모든 새 보고서 세트에 대한 기본 설정입니다. 기존 보고서 세트에서 복사한 새 보고서 세트는 원래 보고서 세트의 설정을 상속받게 됩니다.
 
-추가적인 설정에 대해서는 [타임스탬프 옵션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html)을 참조하십시오.
+추가적인 설정에 대해서는 [타임스탬프 옵션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=ko-KR)을 참조하십시오.
 
 ## 타임스탬프 옵션: 타임스탬프가 지정된 데이터와 지정되지 않은 데이터 통합 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -72,4 +72,4 @@ ht-degree: 98%
 
 * 웹 브라우저 (타임스탬프가 지정되지 않은 라이브 데이터)를 여는 앱 (타임스탬프가 지정된 오프라인 데이터)으로 구성된 하이브리드 앱에서는 타임스탬프를 사용하지 말아야 합니다. 그렇게 하면 세션에 대한 보고가 부정확해집니다.
 
-   또한, 하이브리드 앱은 방문자 ID를 설정하지 말아야 합니다.
+   또한 하이브리드 앱은 방문자 ID를 설정하지 말아야 합니다.
