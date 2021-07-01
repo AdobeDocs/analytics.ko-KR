@@ -5,9 +5,9 @@ title: 분류 규칙 세트
 feature: 관리 도구
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,9 +57,9 @@ ht-degree: 98%
 
 분류 규칙 세트의 이름을 지정하고, 변수를 적용하고 덮어쓰기 설정을 지정합니다.
 
-1. (전제 조건) **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;에서 분류 구조를 정의합니다.
+1. (사전 요구 사항) **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;에서 분류 구조를 정의합니다.
 
-   (분류 추가에 대한 자세한 내용은 관리자 도구 도움말의 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)를 참조하십시오.)
+   (분류 추가에 대한 자세한 내용은 관리자 도구 도움말의 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko-KR)를 참조하십시오.)
 
    변수에 대해 분류가 하나 이상 정의되어 있어야 변수가 [!UICONTROL 새 규칙 세트] 패널에 표시됩니다.
 
