@@ -3,9 +3,9 @@ description: 서버에 모든 사용량 경고를 추가하거나 관리합니�
 title: 서버 호출 사용량 경고
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ## 개요
 
-새 경고 카테고리인 **[!UICONTROL 서버 호출 사용량 경고]**&#x200B;는 기존 [경고 관리](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) 사용자 인터페이스의 일부입니다.
+새 경고 범주인 **[!UICONTROL 서버 호출 사용량 경고]**&#x200B;는 기존 [경고 관리](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=ko-KR) 사용자 인터페이스의 일부입니다.
 
 이 경고는 서버 호출 사용량 기능에 액세스할 수 있는 모든 로그인 회사 내에 표시되는 **1개의 기본 경고**&#x200B;로 미리 채워져 있습니다. 이 경고는 다음 기준 중 하나가 충족되는 경우 모든 로그인 회사 관리자에게 지정된 알림을 트리거합니다.
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 다음 두 가지 방법으로 서버 호출 사용량 경고에 액세스할 수 있습니다.
 
-* 현재 사용량 탭 또는 보고서 세트 사용량 탭의 오른쪽 상단 모서리에 있는 **[!UICONTROL 경고 관리]**&#x200B;를 클릭하거나
+* 현재 사용량 탭 또는 보고서 세트 사용량 탭의 오른쪽 상단에 있는 **[!UICONTROL 경고 관리]**&#x200B;를 클릭하거나
 * Adobe Analytics의 **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**&#x200B;로 이동합니다.
 
 ## 서버 호출 사용량 경고 작성 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
