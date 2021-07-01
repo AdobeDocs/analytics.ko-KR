@@ -3,9 +3,9 @@ title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2429'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 99%
 * **상관 관계:** 더 이상 사용하지 않는 용어입니다. 차원 분류로 대체되었습니다. 이전 버전의 Adobe Analytics에서 상관 관계는 트래픽 변수를 분류하는 기능을 부여했습니다. 분석 사용 안내서에서 [차원 분류](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)를 참조하십시오.
 * **현재 데이터:** 아직 완전히 처리되지 않은, 최근 수집된 데이터를 포함할 수 있는 일부 보고서의 옵션입니다. 분석 사용 안내서에서 [현재 데이터](/help/analyze/reports-analytics/current-data.md)를 참조하십시오.
 * **사용자 지정 링크:** 페이지 보기 데이터가 아닌 데이터가 포함된 히트 유형입니다. 구현 사용 안내서에서 [s.tl () 함수](../implement/vars/functions/tl-method.md)를 참조하십시오. 히트도 참조하십시오.
-* **고객 속성:** 속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
+* **고객 속성:** 속성 데이터를 업로드할 수 있는 Experience Cloud 기능입니다. 핵심 서비스 사용 안내서에서 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
 * **고객 지원 담당자:** Adobe 고객 지원 팀과 직접 상호 작용할 수 있는 권한이 있는 지정된 사용자입니다. Experience Cloud 기술 자료에서 [고객 지원 담당자](https://helpx.adobe.com/kr/experience-cloud/supported-users.html)를 참조하십시오.
 * **데이터 수집 서버:** 데이터를 받고 처리하는 Adobe 소유 서버입니다. 이미지 요청은 보고에 사용하기 위해 Adobe의 데이터 수집 서버로 전송됩니다.
-* **Data Connectors:** 타사에서 Adobe Analytics로 데이터 업로드를 자동화할 수 있는 완벽한 개발 솔루션입니다. 해당 타사 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. 대부분의 Data Connectors는 데이터 소스에 사용되는 유사한 워크플로를 사용합니다. 가져오기 사용 안내서의 Data Connectors를 참조하십시오.
-* **데이터 피드:** 모든 히트를 행으로 나열하고 변수를 별도의 열로 나열하는 원시 데이터 내보내기입니다. Adobe Analytics 데이터를 타사 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
+* **Data Connectors:** 서드파티에서 Adobe Analytics로 데이터 업로드를 자동화할 수 있는 완벽한 개발 솔루션입니다. 해당 서드파티 고객은 데이터 커넥터를 사용하여 Adobe Analytics에서 데이터를 보완할 수 있습니다. 대부분의 Data Connectors는 데이터 소스에 사용되는 유사한 워크플로를 사용합니다. 가져오기 사용 안내서의 Data Connectors를 참조하십시오.
+* **데이터 피드:** 모든 히트를 행으로 나열하고 변수를 별도의 열로 나열하는 원시 데이터 내보내기입니다. Adobe Analytics 데이터를 서드파티 데이터베이스로 내보내는 데 가장 일반적으로 사용됩니다. 내보내기 사용 안내서에서 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 참조하십시오.
 * **데이터 소스:** 사용자가 파일의 데이터를 Adobe Analytics에 업로드할 수 있습니다. 파일은 일반적으로 FTP 사이트에서 가져옵니다. 가져오기 사용 안내서에서 [데이터 소스](/help/import/c-data-sources/datasrc-home.md)를 참조하십시오.
 * **Data Warehouse:** 더 큰 보고서를 요청할 수 있는 Adobe Analytics의 기능입니다. 내보내기 사용 안내서에서 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)를 참조하십시오.
 * **차원:** 텍스트와 같은 변수 값이 포함된 구성 요소 유형입니다. 예를 들면 페이지 이름, 추적 코드 또는 참조 도메인이 있습니다. 지표는 일반적으로 지표 상대가 있습니다.
@@ -54,7 +54,7 @@ ht-degree: 99%
 * **이벤트:** 성공 이벤트를 참조하십시오.
 * **ExcelClient:** 더 이상 사용하지 않는 용어입니다. Report Builder의 이전 이름입니다.
 * **만료:** 전환 변수 컨텍스트에서 값이 백엔드에서 지속되는 기간입니다. 이 지속성을 사용하면 이벤트를 이벤트의 히트 전에 변수 값과 연결할 수 있습니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
-* **흐름:** 사용자가 사이트에서 어떤 경로를 사용했는지를 보여주는 Analysis Workspace의 시각화 유형입니다. 분석 사용 안내서에서 [흐름 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 참조하십시오.
+* **플로우:** 사용자가 사이트에서 어떤 경로를 사용했는지를 보여 주는 Analysis Workspace의 시각화 유형입니다. 분석 사용 안내서에서 [플로우 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 참조하십시오.
 * **Genesis:** 더 이상 사용하지 않는 용어입니다. Data Connectors의 이전 이름입니다.
 * **전역 보고서 세트:** 여러 사이트에서 히트를 수집하는 보고서 세트에 지정된 비공식적인 용어입니다.
 * **H 코드:** AppMeasurement의 이전 모델입니다. 이전 버전의 Adobe Analytics에서 코드 버전은 H.27.5, H.26 등과 같이 &quot;H 버전&quot;으로 측정되었습니다.
@@ -65,7 +65,7 @@ ht-degree: 99%
    * 사용자 지정 트래픽 변수의 이전 이름인 사용자 지정 인사이트.
 * **KPI:** 주요 성능 표시기의 약어입니다. 비즈니스가 사이트에서 수행하는 방식을 이해하는 데 도움이 되는 지표입니다. 각 조직에는 비즈니스의 서로 다른 측면을 측정하는 다른 KPI가 있습니다. 구현 사용 안내서에서 [솔루션 디자인 문서 만들기](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * **지연:** 데이터가 수집되는 시간과 보고서에서 사용할 수 있는 시간 사이의 대기 시간입니다. 보고서 세트의 일반적인 지연 시간은 30~90분입니다. 기술 정보 사용 안내서에서 [지연](/help/technotes/latency.md)을 참조하십시오.
-* **Launch:** Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 약어입니다. Adobe Experience Platform Launch 사용 안내서의 [개요](https://experienceleague.adobe.com/docs/launch/using/overview.html)를 참조하십시오.
+* **Launch:** Adobe의 현재 구현 솔루션인 Adobe Experience Platform Launch의 약어입니다. Adobe Experience Platform Launch 사용 안내서의 [개요](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko-KR)를 참조하십시오.
 * **목록 속성:** 일반적인 트래픽 변수를 동일한 히트에서 여러 값을 지원하도록 변환하는 설정입니다. 이 설정이 활성화되면 모든 사용자 지정 트래픽 변수가 목록 속성이 될 수 있습니다. 구현 사용 안내서에서 [속성](../implement/vars/page-vars/prop.md)을 참조하십시오.
 * **목록 변수:** 전환 변수와 별도의 고유한 변수입니다. 목록 변수는 동일한 히트에서 여러 값을 지원하며, 변수 값은 전환 변수와 마찬가지로 방문 시 보존됩니다. 조직에서는 목록 변수를 세 개만 사용할 수 있습니다. 구현 사용 안내서에서 [목록](/help/implement/vars/page-vars/list.md)을 참조하십시오.
 * **로그인 회사:** 조직에서 사용한 보고서 세트들의 모음입니다. 일부 조직에는 조직의 여러 부분에 해당되는 여러 로그인 회사가 있습니다.
@@ -73,9 +73,9 @@ ht-degree: 99%
 * **지표:** 수량 데이터를 포함하는 구성 요소 유형입니다. 지표 값에는 일반적으로 페이지 보기 수, 방문 횟수 및 매출과 같은 숫자가 포함됩니다. 차원은 일반적으로 차원 상대가 있습니다.
 * **다중 세트 태깅:** 동일한 히트를 여러 보고서 세트로 보내는 방법입니다. 가상 보고서 세트를 도입하면서 이 방법은 더 이상 필요하지 않습니다. 대부분의 다중 세트 태깅 작업은 전역 보고서 세트를 만드는 데 도움이 됩니다.
 * **표준화:** 모든 지표를 가져와 동일한 비율로 적용함으로써 트렌드를 보다 쉽게 비교할 수 있도록 시각화를 구성하는 방법입니다.
-* **발생 횟수:** 차원 항목이 설정되거나 지속된 히트 수를 보여주는 지표 유형입니다. 구성 요소 사용 안내서에서 [발생 횟수](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
+* **발생 횟수:** 차원 항목이 설정되거나 지속된 히트 수를 보여 주는 지표 유형입니다. 구성 요소 사용 안내서에서 [발생 횟수](/help/components/metrics/occurrences.md) 지표를 참조하십시오.
 * **Omniture:** 더 이상 사용하지 않는 용어입니다. 2009년 Adobe가 인수하기 전에 Adobe Analytics를 소유한 조직입니다.
-* **경로 지정:** 흐름을 참조하십시오.
+* **경로 지정:** 플로우를 참조하십시오.
 * **페이지 보기:** 페이지 보기 수를 늘리는 히트 유형입니다. 구성 요소 사용 안내서에서 [페이지 보기 수](/help/components/metrics/page-views.md) 지표를 참조하십시오. 히트도 참조하십시오.
 * **지속성:** 변수 값과 개별 히트에서 발생하는 이벤트 간 연결을 허용하는 전환 변수에 대한 추상적인 개념입니다. 만료도 참조하십시오.
 * **주 서버 호출:** 대부분 다중 세트 태깅 및 청구 컨텍스트에서 사용되는 이미지 요청 또는 히트에 대한 대체 이름입니다. 동일한 히트가 여러 보고서 세트로 전송되면 첫 번째 보고서 세트가 주 서버 호출이고 나머지는 보조 서버 호출입니다. 이 규칙은 페이지 보기 및 링크 추적을 포함하여 모든 히트 유형에 적용됩니다. 보조 서버 호출도 참조하십시오.
@@ -86,7 +86,7 @@ ht-degree: 99%
 * **등급 보고서:** 일반적으로 지표를 사용하여 차원을 따르는 보고서 형식입니다. 이 유형의 보고서에서는 사이트에서 가장 많이 본 페이지와 같은 상위 항목을 볼 수 있습니다. 트렌드 보고서도 참조하십시오.
 * **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/admin/realtime/realtime.md)를 참조하십시오.
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
-* **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
+* **롤링 날짜 범위:** 시간이 경과함에 따라 변경되는 상대적 날짜 범위의 유형입니다. 예를 들어 최근 7일을 보여 주는 보고서를 롤링 날짜 범위로 간주할 수 있습니다. 정적 날짜 범위도 참조하십시오.
 * **RSID:** 보고서 세트 ID의 약어입니다. 보고서 세트에는 친숙한 이름과 보고서 세트 ID가 모두 있습니다.
 * **s.t ():** 페이지 보기 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.track()`을 대신 사용합니다. 구현 사용 안내서에서 [t](../implement/vars/functions/t-method.md)를 참조하십시오.
 * **s<span>.</span>tl ():** 링크 추적 이미지 요청을 보내는 AppMeasurement 라이브러리의 함수 이름입니다. 일부 AppMeasurement 라이브러리는 `s.trackLink()`을 대신 사용합니다. 구현 사용 안내서에서 [tl](../implement/vars/functions/tl-method.md)을 참조하십시오.
