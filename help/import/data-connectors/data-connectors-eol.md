@@ -2,10 +2,10 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 95%
 
 ---
 
@@ -103,4 +103,4 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 
 2021년 8월 1일에 대한 한가지 예외는 Adobe Campaign Classic 통합입니다. 이 통합은 2022년 3월 1일에는 공식적으로 더 이상 사용되지 않습니다.
 
-2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다. 그러나 기존 캠페인 통합은 2022년 3월 1일까지 Adobe Analytics에 데이터를 계속 수집하고 전달합니다. 2022년 3월 1일에 통합에서 Adobe Analytics에 데이터를 수집하고 전달하는 것을 중단합니다. Adobe Campaign은 현재 데이터 커넥터 통합을 대체하기 위해 Adobe Exchange에 새로운 통합을 구축하고 있습니다. Adobe Campaign은 이 새로운 통합을 시간 맞춰 마무리하여 고객이 2022년 3월 중단일 이전에 새로운 통합으로 마이그레이션할 수 있을 것으로 예상합니다.
+2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다. 그러나 기존 캠페인 통합은 2022년 3월 1일까지 Adobe Analytics에 데이터를 계속 수집하고 전달합니다. 2022년 3월 1일에 통합에서 Adobe Analytics에 데이터를 수집하고 전달하는 것을 중단합니다. 이 통합을 사용하는 경우 2022년 3월 1일 전에 새 Campaign-Analytics 커넥터로 이동해야 합니다. 자세한 내용은 [Adobe Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html)를 참조하십시오.
