@@ -3,15 +3,14 @@ description: 이상 현상 발견 기능에서는 통계적 모델링 방법을 
 title: 예외 항목 탐지
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
-
 
 # 예외 항목 탐지{#anomaly-detection}
 
@@ -21,7 +20,7 @@ ht-degree: 99%
 
 * 평균 주문 가격의 급격한 하락
 * 매출액이 낮은 주문의 급등
-* 평가판 등록 급등 또는 하락
+* 체험판 등록 급등 또는 하락
 * 랜딩 페이지 보기 수의 하락
 * 비디오 버퍼 이벤트의 스파이크
 * 낮은 비디오 비트율의 스파이크
