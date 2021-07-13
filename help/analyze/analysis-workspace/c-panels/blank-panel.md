@@ -2,11 +2,10 @@
 description: 시각화의 시작 지점으로 빈 패널을 만듭니다.
 title: 빈 패널
 feature: 패널
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 100%
 
