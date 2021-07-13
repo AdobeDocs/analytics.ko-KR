@@ -3,12 +3,12 @@ description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1299'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 
 [!UICONTROL 폴아웃 보고서]는 순서가 미리 정해진 페이지들의 방문자 수를 보여줍니다. 이는 또한 각 단계 간 전환 및 폴아웃 비율을 보여주기도 합니다.
 
-Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 패널을 확인하십시오!
+Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR) 패널을 확인하십시오!
 
 1. [!UICONTROL Adobe Analytics]에서 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 폴아웃]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 폴아웃 보고서] 페이지에서 **[!UICONTROL 폴아웃 보고서 빌더 시작]**&#x200B;을 클릭합니다. 
@@ -69,7 +69,7 @@ Analysis Workspace에서 [흐름 시각화](https://experienceleague.adobe.com/d
 
 ## 예외 항목 탐지 보고서 실행 {#task_4808C96327354D789C075823F5C3A049}
 
-[예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)만 Analysis Workspace에서 실행할 수 있습니다.
+[예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko-KR)만 Analysis Workspace에서 실행할 수 있습니다.
 
 ## 실시간 보고서 실행 {#task_5D25929C918E40B18965222FA94176B0}
 
