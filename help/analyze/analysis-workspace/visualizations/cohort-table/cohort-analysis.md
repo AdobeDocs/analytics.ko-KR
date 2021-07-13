@@ -2,10 +2,10 @@
 title: 코호트 분석이란 무엇이며 어떻게 작동합니까?
 description: 코호트 분석을 통해 잠재고객에 대한 데이터를 더 깊이 파고들고 관련 집단으로 나눕니다. Analysis Workspace의 집단 분석에 대한 자세한 내용.
 feature: 시각화
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
