@@ -3,15 +3,14 @@ description: 통합 문서를 잠궈서 통합 문서의 모든 요청이 추가
 title: 통합 문서 잠금/잠금 해제
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 99%
+source-wordcount: '470'
+ht-degree: 100%
 
 ---
-
 
 # 통합 문서 잠금/잠금 해제
 
@@ -53,7 +52,7 @@ ht-degree: 99%
 
 * 필요한 권한이 있으면 메시지가 표시되지 않고 요청을 편집할 수 있습니다.
 
-## 워크플로우 {#section_260D05FF632B41DB97DB43E2ADBE2E75}
+## 워크플로 {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 
 통합 문서 A가 잠김 상태이며 사용자 A가 만든 요청이 하나 있다고 가정합니다.
 
@@ -70,4 +69,3 @@ ht-degree: 99%
 1. 사용자가 Report Builder에 로그인하고 통합 문서 A를 엽니다.
 1. 사용자는 요청을 추가/편집할 수 없습니다.
 1. 사용자는 통합 문서의 잠금을 해제할 수 없습니다.
-
