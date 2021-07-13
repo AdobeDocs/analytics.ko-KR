@@ -3,15 +3,14 @@ description: '분류는 분석 보고 데이터를 관련 속성에 매핑하는
 title: 분류
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 98%
+source-wordcount: '181'
+ht-degree: 100%
 
 ---
-
 
 # 분류
 
