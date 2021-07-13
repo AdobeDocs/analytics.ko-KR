@@ -2,10 +2,9 @@
 title: 보고서
 description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지표입니다.
 feature: 보고서 & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 100%
