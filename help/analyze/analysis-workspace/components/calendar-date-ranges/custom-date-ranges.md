@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: 사용자 지정 날짜 범위 만들기
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 날짜 범위는 패널 수준에서 적용됩니다. 날짜 범위를 프로젝트에 추가하려면 **패널** > *`<select panel>`*&#x200B;을 클릭하고 새 날짜 범위를 지정하십시오.
 
-## &quot;2개월 전&quot;에 대한 날짜 범위 {#section_C4109C57CB444BB2A79CC8082BD67294}
+## &quot;2개월 전&quot;에 대한 날짜 범위  {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 다음 사용자 지정 날짜 범위는 방향 변경을 보여주는 요약 변경 사항 시각화가 있는, &quot;2개월 전&quot;에 대한 날짜 범위를 보여줍니다.
 
@@ -46,7 +45,7 @@ Analysis Workspace에서 사용자 지정 날짜 범위를 만든 후 시간 구
 
 ![](assets/create_date_range.png)
 
- *`rolling daily`*.
+Use *`rolling daily`*.
 
 * 시작 설정은 *`current day minus 14 days`*.
 
