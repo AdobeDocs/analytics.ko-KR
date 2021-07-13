@@ -3,15 +3,14 @@ description: 책갈피가 지정된 모든 보고서와 대시보드 보고서�
 title: 북마크가 지정된 보고서 및 대시보드 리포트릿 가져오기
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 99%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
-
 
 # 북마크가 지정된 보고서 및 대시보드 리포트릿 가져오기
 
@@ -40,4 +39,3 @@ ht-degree: 99%
 >[!IMPORTANT]
 >
 >날짜 범위는 Reports &amp; Analytics 책갈피에서 순환 날짜 범위라고 해도 동일하지만 정적인 날짜 범위로 설정됩니다.
-
