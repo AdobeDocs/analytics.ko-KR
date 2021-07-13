@@ -2,10 +2,10 @@
 title: 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 영역에서 프로젝트를 만드는 방법 및 이유 알아보기
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
