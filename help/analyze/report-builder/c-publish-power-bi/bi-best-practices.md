@@ -1,19 +1,18 @@
 ---
-description: Power BI 모범 사례
-title: 우수 사례
+description: Power BI 우수 사례.
+title: 모범 사례
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 97%
 
 ---
 
-
-# 우수 사례
+# 모범 사례
 
 ## Power BI 시각화에서 참조 유지 {#section_7ED14FE64D974681A57EB91EF1B47CB6}
 
@@ -24,4 +23,3 @@ ht-degree: 95%
 * 가능하다면 Report Builder에서 생성한 요청은 삭제하지 마십시오.
 * Report Builder에서 요청을 삭제하는 경우에는 Power BI에서 그에 해당하는 시각화도 반드시 삭제하십시오.
 * 잘 모를 경우에는, 더 이상 필요하지 않은 요청을 삭제한 후 다시 게시하고 Power BI로 이동하여 손상된 시각화를 확인하십시오.
-
