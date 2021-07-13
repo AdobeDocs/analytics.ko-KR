@@ -3,15 +3,14 @@ description: 요청 관리자에 나열된 요청을 오름차순이나 내림�
 title: 오름차순 또는 내림차순 정렬
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 5589db75-f06a-455e-aa79-03b036dfdfc4
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 97%
+source-wordcount: '99'
+ht-degree: 100%
 
 ---
-
 
 # 오름차순 또는 내림차순 정렬
 
