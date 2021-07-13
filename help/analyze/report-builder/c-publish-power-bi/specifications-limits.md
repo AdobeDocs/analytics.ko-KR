@@ -3,9 +3,9 @@ description: Report Builder 및 Microsoft Power BI 사용 시 제한 사항입�
 title: 제한 사항 및 사양
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 94%
@@ -70,5 +70,5 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
 주의 사항
 
 * 레이블은 행 및 열 주소용의 틀릴 수 있는 문자와 숫자의 조합일 수 없습니다. 예를 들어, A100은 워크시트에 있는 셀 주소이므로 레이블이 될 수 없습니다.
-* 다음 문자는 올바른 레이블 문자가 아닙니다.`'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; 및 `'~', ' '` . 밑줄로 바뀝니다.
+* 다음 문자는 올바른 레이블 문자가 아닙니다. `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; 및 `'~', ' '` . 밑줄로 바뀝니다.
 * 유효하지 않은 이름을 입력하면 자동으로 생성된 이름을 제시하는 경고 메시지가 표시됩니다. **[!UICONTROL 예]**&#x200B;를 클릭하면, 이 이름이 사용됩니다. **[!UICONTROL 아니요]**&#x200B;를 클릭하면, 고급 마법사 UI를 통해 새 이름을 입력할 수 있습니다.
