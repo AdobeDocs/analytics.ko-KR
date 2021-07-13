@@ -2,10 +2,10 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Apteligent | 사용 중단 |
 | BlueHornet eMarketing Suite | 사용 중단 |
 | Branch | Exchange로 마이그레이션 |
-| BrightEdge 2.0 | 사용 중단 |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | 사용 중단 |
 | Bronto Software | 사용 중단 |
 | CheetahMail by Experian | Exchange로 마이그레이션 |
 | ClickTale | 사용 중단 |
 | Clicktale CA | 사용 중단 |
-| Conductor 2.0 | 사용 중단 |
+| Conductor 2.0, Conductor, Conductor Organic Metrics | 사용 중단 |
 | ContactLab 2.0 (Contact Send Connector) | 사용 중단 |
 | Coradiant TrueSight | 사용 중단 |
 | D&amp;B Visitor Intelligence | 사용 중단 |
@@ -62,7 +62,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | DialogTech | Adobe Exchange에서 사용 가능 |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 사용 중단 |
 | DREAM | 사용 중단 |
-| DREAMmail 2.0 | 사용 중단 |
+| DREAMmail 1.0, DREAMmail 2.0 | 사용 중단 |
 | Dynamic Signal (Nital Vora) | Exchange로 마이그레이션 |
 | eDialog Precision Central | 사용 중단 |
 | eC-messenger | 사용 중단 |
@@ -70,10 +70,11 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | emarsys xpress | 사용 중단 |
 | Epsilon Harmony | Exchange로 마이그레이션 |
 | EveryoneSocial for Adobe Analytics | 사용 중단 |
+| ExactTarget, ExactTarget 2.0 | 사용 중단 |
 | Fiksu | 사용 중단 |
-| Foresee (v2.0) | 사용 중단 |
-| Foresee Feedback | 사용 중단 |
+| Foresee (v2.0), Foresee Feedback, Foresee Results | 사용 중단 |
 | Gigya | 사용 중단 |
+| Hootsuite | 사용 중단 |
 | hybris | 사용 중단 |
 | Kampyle (현재 Medallia) Feedback Analytics (1.1) | 사용 중단 |
 | Listrak | Exchange로 마이그레이션 |
@@ -83,11 +84,13 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Official Oracle Eloqua 통합 | Exchange로 마이그레이션 |
 | optivo broadmail (Episerver) | 사용 중단 |
 | Qualtrics v2 | Exchange로 마이그레이션 |
-| Responsys 2.0 | 사용 중단 |
+| Responsys 1.0, Responsys 2.0 | 사용 중단 |
+| Salesforce.com | 사용 중단 |
 | Selligent | 사용 중단 |
-| seoClarity 2.0 | 사용 중단 |
+| seoClarity, seoClarity 2.0 | 사용 중단 |
 | Silverpop Engage (v2.0) | 사용 중단 |
 | Sizmek | 사용 중단 |
+| SmartFOCUS Digital | 사용 중단 |
 | SpotEffects | 사용 중단 |
 | StrongMail Systems, Inc | 사용 중단 |
 | Syngergy!360 | 사용 중단 |
@@ -98,6 +101,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | WhatCounts Email | 사용 중단 |
 | wywy | 사용 중단 |
 | Yesmail Enterprise | 사용 중단 |
+| 제타 인터랙티브 | 사용 중단 |
 
 ## 예외: Adobe Campaign Classic
 
