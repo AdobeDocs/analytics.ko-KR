@@ -3,11 +3,10 @@ description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경�
 title: 경고 빌더
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 feature: AI 도구
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 다음 네 가지 방법 중 하나로 경고 빌더에 액세스합니다.
 
-* Analysis Workspace에서 다음의 바로 가기 사용:
+* Analysis Workspace에서 다음의 단축키 사용:
 
    `ctrl (or cmd) + shift + a`
 * **[!UICONTROL 작업 공간]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**&#x200B;로 이동.
