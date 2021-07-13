@@ -3,10 +3,10 @@ description: 프로젝트 또는 시각화에 공유 가능한 링크를 만드�
 keywords: Analysis Workspace 공유
 title: 공유 가능한 링크 만들기
 feature: 선별 및 공유
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
