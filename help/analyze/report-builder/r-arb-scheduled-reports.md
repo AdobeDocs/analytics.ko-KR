@@ -3,15 +3,14 @@ description: 예약된 작업 관리자에 대한 필드 설명입니다.
 title: 예약된 작업 관리자
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '397'
 ht-degree: 97%
 
 ---
-
 
 # 예약된 작업 관리자
 
@@ -36,4 +35,3 @@ ht-degree: 97%
 | 상태 | 보고서가 전송되었는지 또는 전송되지 않았는지를 나타냅니다. |
 | 이메일/FTP | 보고서 수신자의 이메일 또는 FTP 주소. |
 | 파일 형식 | Excel, PDF, HTML 등과 같은 보고서의 전달 형식. |
-
