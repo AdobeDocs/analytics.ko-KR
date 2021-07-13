@@ -3,10 +3,9 @@ description: 데이터 추출을 사용하면 보고서의 X-축과 Y-축에 모
 subtopic: Schedule
 title: 데이터 추출
 feature: Reports & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
