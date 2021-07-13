@@ -3,15 +3,14 @@ description: 페이지 상세정보 탭에는 페이지 보고서가 표로 표�
 title: '페이지 상세정보 '
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 98%
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
-
 
 # 페이지 상세정보 
 
@@ -39,4 +38,3 @@ ht-degree: 98%
 | 이전 페이지 | 현재 페이지 전에 보고서 세트에서 내부 페이지에 이름을 지정합니다. |
 | 다음 페이지 | 현재 페이지를 떠난 후 방문한 페이지. |
 | 사이트 종료 수 | 페이지를 본 후 사이트를 완전히 떠난 사람의 수. |
-
