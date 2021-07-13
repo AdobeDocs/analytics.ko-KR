@@ -4,12 +4,12 @@ subtopic: Alerts
 title: 경고
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: 경고
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 95%
 
 모든 Adobe Analytics에 대한 새 경고 시스템으로 지능형 경고를 사용하여 경고를 생성하고 관리할 수 있으며, 경고 미리 보기 및 규칙 기여도와 함께 완료할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-* 예외 항목을 기반으로 한 경고를 만듭니다 (90%, 95% 또는 99% 임계값, % 변경, 초과/미만).
+* 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95% 또는 99% 임계값, % 변경, 초과/미만).
 * 경고가 트리거되는 빈도를 미리 봅니다.
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 생성합니다.
 
 이 새로운 경고 시스템은 Reports &amp; Analytics의 모든 보고서에서 **[!UICONTROL 자세히]** > **[!UICONTROL 경고]**&#x200B;를 통해 액세스할 수 있습니다.
 
-자세한 내용은 [지능형 경고](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)의 Analysis Workspace 문서를 참조하십시오.
+자세한 내용은 [지능형 경고](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=ko-KR)의 Analysis Workspace 문서를 참조하십시오.
 
 ## 경고 추가 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
