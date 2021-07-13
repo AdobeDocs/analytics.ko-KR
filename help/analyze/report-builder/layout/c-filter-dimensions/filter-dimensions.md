@@ -3,15 +3,14 @@ description: 행 레이블 그리드에 추가할 차원을 필터링할 수 있
 title: 차원 필터링 개요
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 98%
 
 ---
-
 
 # 차원 필터링 개요
 
@@ -47,19 +46,19 @@ ht-degree: 98%
    <td colname="col1"> <p>검색어를 하나라도 포함 </p> </td> 
    <td colname="col02"> <p>필터 중 하나 이상(공백으로 구분)을 포함합니다. </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>일치 항목 <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>(<span class="term"> D4</span>는 아님). </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>(<span class="term"> D4</span>는 아님). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구문 포함 </p> </td> 
    <td colname="col02"> <p>검색 필터를 포함하며 다른 검색어도 포함할 수 있습니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>일치 항목 <span class="term"> abc</span> 및 <span class="term"> abc def</span>. </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> abc</span> 및 <span class="term"> abc def</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>검색어 포함 안 함 </p> </td> 
    <td colname="col02"> <p>입력하는 값이 포함되지 않은 경우 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>일치 항목 <span class="term"> d e f</span>(<span class="term"> c d e f</span>는 아님). </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> d e f</span>(<span class="term"> c d e f</span>는 아님). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음 구문 포함 안 함 </p> </td> 
@@ -83,13 +82,13 @@ ht-degree: 98%
    <td colname="col1"> <p>다음으로 시작 </p> </td> 
    <td colname="col02"> <p>특정 값으로 시작하는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>일치 항목 <span class="term"> abcd</span>(<span class="term"> 1abc</span>는 아님) </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> abcd</span>(<span class="term"> 1abc</span>는 아님) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 끝남 </p> </td> 
    <td colname="col02"> <p>특정 값으로 끝나는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p><span class="term"> wxyz</span>과(와) 일치하지만 <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p><span class="term"> wxyz</span>와 일치하지만 <span class="term"> wxyz0</span>은 일치하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>고급(특수 문자)  </p> </td> 
