@@ -3,12 +3,12 @@ description: 표준 또는 맞춤형 템플릿을 기반으로 Workspace 프로�
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 * **빈 프로젝트 (기본값)**: 자세한 내용은 [Analysis Workspace 프로젝트 만들기](/help/analyze/analysis-workspace/home.md)를 참조하십시오.
 * **표준 템플릿**: 이러한 템플릿은 Adobe에서 만들어 제품과 함께 제공됩니다.
-* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)
+* **사용자 지정 템플릿**: Admin Console에서 [!UICONTROL Analysis Workspace: 템플릿으로 저장] 권한이 부여된 경우 이러한 템플릿은 관리자 권한이 있는 사용자 또는 비관리자가 생성, 공유 또는 삭제할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)
 
 ![](assets/start_modal.png)
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 
 ## 표준 템플릿
 
-작업 영역을 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습니다. Analysis Workspace 템플릿은 일반적인 사용 사례를 다룹니다. 이 프로젝트들은 해당 프로젝트가 속해 있는 특성으로 그룹화되고 보고서 세트에 따라 서로 다른 측정 기준, 세그먼트, 지표 및 시각화로 사전에 채워지게 됩니다.
+Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습니다. Analysis Workspace 템플릿은 일반적인 사용 사례를 다룹니다. 이 프로젝트들은 해당 프로젝트가 속해 있는 특성으로 그룹화되고 보고서 세트에 따라 서로 다른 측정 기준, 세그먼트, 지표 및 시각화로 사전에 채워지게 됩니다.
 
 이렇게 사전에 채워진 템플릿을 그대로 사용하거나 필요에 맞게 조정 (예를 들어 지표나 시각화를 추가 또는 교체하여)하고 새 이름으로 저장할 수 있습니다.
 
@@ -62,7 +62,7 @@ ht-degree: 99%
 
 ### 교육
 
-이러한 표준 템플릿은 작업 영역에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다.
+이들 표준 템플릿은 Workspace에서 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다.
 
 * **교육 튜토리얼 - 내부 검색 분석**: 내부 검색 튜토리얼은 방문자가 웹 사이트 또는 앱에서 찾고 있는 항목을 지원하고 이해합니다. 이러한 유형의 데이터를 분석하면 콘텐츠 최적화의 기회를 포착할 수 있습니다.
 
@@ -137,7 +137,7 @@ ht-degree: 99%
 이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en))에 액세스할 수 있는 고객에게만 제공됩니다.
 
 * **Co-op 그래프의 구성원을 위한 특수 참고 사항**: co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
-* **사용자 식별**: 교차 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
+* **사용자 식별**: 크로스 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
 * **대상 크기 측정**: &#39;사람&#39; 대비 &#39;고유 디바이스&#39;의 비교를 보여 줍니다. 이 두 숫자의 비율을 &#39;크로스 디바이스 압축&#39;이라고 하며, 이 패널에 표시되는 계산된 지표입니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.
    * **Co-op 그래프 또는 Private 그래프 사용: 일반적으로 서술하자면, Device Co-op을 사용하는 조직은 Private 그래프를 사용하는 조직보다 압축률이 더 높은 경향이 있습니다.**
    * **로그인 비율**: 사이트에 로그인하는 사용자가 많을수록 Adobe가 디바이스들 간에 더 많은 방문자를 식별하고 결합할 수 있습니다. 로그인 비율이 낮은 사이트는 압축률도 낮습니다.
