@@ -2,11 +2,10 @@
 title: 속성 모델 및 전환 확인 기간
 description: 다양한 유형의 속성이 차원 항목 간에 크레딧을 나누는 방법입니다.
 feature: 속성
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 100%
 
