@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace 기본 사항
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 100%
+source-wordcount: '1405'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | 마지막 수정 날짜 | 프로젝트의 마지막 수정 날짜. |
 | 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. |
 | 설명 | 설명은 프로젝트의 목적을 명확히 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. |
-| 프로젝트에서 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 참고: 이 설정은 플로우 또는 폴아웃 시각화에 적용되지 않습니다. |
+| 프로젝트에서 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 여러 개의 연속 페이지 보기를 여러 페이지 보기 수와 동일한 페이지로 처리합니다. 이 옵션을 해제하면 단일 페이지 보기로 계산됩니다(단일 페이지 방문 횟수 등의 특정 지표에만 영향을 주음). **참고**: 이 설정은 플로우 또는 폴아웃 시각화에는 적용되지 않습니다. |
 | [프로젝트 색상 팔레트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ko-KR) | 색맹 사용자에 최적화된 비맞춤형 팔레트에서 선택하거나 맞춤형 팔레트를 지정하여 Workspace에서 사용되는 범주별 색상 팔레트를 변경할 수 있습니다. 이 기능은 대부분의 시각화를 포함하여 작업 영역의 많은 사항에 영향을 줍니다. |
 | [보기 밀도](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ko-KR) | 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 화면에서 더 많은 데이터를 볼 수 있습니다. |
 
