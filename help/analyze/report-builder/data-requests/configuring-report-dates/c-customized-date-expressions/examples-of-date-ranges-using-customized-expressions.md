@@ -3,15 +3,14 @@ description: 사용자 지정된 표현식에서 날짜 범위를 사용하는 �
 title: 사용자 지정된 표현식을 사용한 날짜 범위의 예
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 99%
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
-
 
 # 사용자 지정된 표현식을 사용한 날짜 범위의 예
 
@@ -51,4 +50,3 @@ ht-degree: 99%
 * 0만으로 약자를 프리펜드하지 마십시오. 예를 들어, 0w는 사용할 수 없습니다.
 * 연산자 + 및 -는 약자들을 연결하는 데 사용됩니다.
 * 날짜 범위는 현재 기간에 대한 것으로 간주되므로 표현식에서 첫 번째 용어는 항상 c로 시작합니다.
-
