@@ -2,10 +2,9 @@
 title: Analysis Workspace에서의 사용자 환경 설정 방법
 description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있습니다.
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-translation-type: tm+mt
-source-git-commit: bfbeac56917f4ff6b907c44f083638ee1e93c17e
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
