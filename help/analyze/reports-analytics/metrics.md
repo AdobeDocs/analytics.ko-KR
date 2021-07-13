@@ -3,10 +3,9 @@ description: 지표는 보고서의 기반으로, 데이터 관계를 보고 이
 title: 지표
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 feature: Reports & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
