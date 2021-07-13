@@ -3,15 +3,14 @@ description: Report Builder 업그레이드 절차 및 고려 사항입니다.
 title: Report Builder 업그레이드
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 98%
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
-
 
 # Report Builder 업그레이드
 
@@ -59,4 +58,3 @@ Adobe Analytics에서 항상 최신 버전의 Report Builder를 가져올 수 �
 1. **[!UICONTROL Report Builder]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL [개요]]** 화면에서 32비트나 64비트 버전을 선택합니다.
 1. **[!UICONTROL 지금 다운로드!]**.
-
