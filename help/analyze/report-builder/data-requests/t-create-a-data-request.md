@@ -3,12 +3,12 @@ description: 기본 Report Builder 데이터 요청을 만드는 절차.
 title: 데이터 요청 만들기
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 1. [!UICONTROL 요청 마법사: 1단계] 창의 [보고서 세트](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)를 선택합니다.
 1. 세그먼트를 선택하여 요청에 적용합니다(선택 사항). 세그먼트를 한 개 이상 선택하면 선택한 세그먼트가 목록 맨 위로 이동합니다.
 
-   Report Builder는 Adobe Analytics가 세그먼트를 사용하는 방법과 같게 세그먼트를 사용합니다. [Analytics 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오. 1. 배포에 사용할 [게시 목록](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)을 선택합니다(선택 사항).
+   Report Builder는 Adobe Analytics가 세그먼트를 사용하는 방법과 같게 세그먼트를 사용합니다. [Analytics 세그멘테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR)를 참조하십시오. 1. 배포에 사용할 [게시 목록](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)을 선택합니다(선택 사항).
 1. [보고서 유형](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)을 선택합니다.
 1. [날짜 범위](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)를 및 보고서 [세부기간](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)을 지정합니다.
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
