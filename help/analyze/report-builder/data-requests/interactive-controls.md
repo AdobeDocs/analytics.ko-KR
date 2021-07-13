@@ -26,7 +26,6 @@ ht-degree: 100%
 >양방향 컨트롤을 사용하려면 Report Builder v5.0이 설치되어 있어야 합니다. >
 >* Windows에서 Microsoft Excel을 실행하고 있지만, Report Builder 버전이 더 낮거나, Report Builder가 설치되어 있지 않으면 양방향 컨트롤에서 해당 값을 변경할 수 있지만 연결된 요청이 새로 고침되지 않고 요청의 연결된 매개 변수도 업데이트되지 않습니다.
 >* Mac에서 Excel을 실행하고 있는 경우 제어의 값을 변경하면 다음 메시지가 표시됩니다. &quot;매크로 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’를 찾을 수 없습니다.&quot;
-
 >
 
 
