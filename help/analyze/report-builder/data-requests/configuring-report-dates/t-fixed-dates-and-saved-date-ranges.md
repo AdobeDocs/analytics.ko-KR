@@ -3,15 +3,14 @@ description: 고정 날짜나 날짜 범위를 지정하면 Report Builder에서
 title: 고정 날짜 및 저장된 날짜 범위
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b850197e-b3bd-4318-a827-61faa41b2db3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 98%
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
-
 
 # 고정 날짜 및 저장된 날짜 범위
 
