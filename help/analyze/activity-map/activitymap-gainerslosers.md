@@ -3,15 +3,14 @@ description: 오버레이는 페이지에 있는 링크들의 인기도를 쉽�
 title: 사용자 지정 가능 오버레이
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 99%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
-
 
 # 사용자 지정 가능 오버레이
 
@@ -64,4 +63,3 @@ Activity Map에서는 다음과 같이 세 가지 오버레이를 제공합니�
 이 실시간 오버레이는 이전 기간과 현재 기간 간의 지표 값 변화를 기반으로 클릭을 평가합니다.
 
 ![](assets/gainers_losers.png)
-
