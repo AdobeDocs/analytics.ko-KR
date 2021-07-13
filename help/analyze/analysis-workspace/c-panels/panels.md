@@ -2,10 +2,10 @@
 description: 패널은 테이블 및 시각화 컬렉션입니다.
 title: 패널 개요
 feature: 패널
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
 
