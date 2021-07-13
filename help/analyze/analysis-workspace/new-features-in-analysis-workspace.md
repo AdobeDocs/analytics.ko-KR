@@ -3,12 +3,12 @@ description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '8276'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 7월 2020일
 
-2020년 7월 16일에 릴리스된 새로운 기능.
+2020년 7월 16일에 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 | --- | --- |
@@ -65,32 +65,32 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2020년 6월
 
-2020년 6월 18일 릴리스된 새로운 기능.
+2020년 6월 18일 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
-| 속성 IQ: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
-| 속성 IQ: 사용자 지정 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko-KR#lookback-windows) |
-| 공유 Workspace 프로젝트에 대한 프로젝트 역할 | 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
-| 보기 전용 Workspace 프로젝트 | Workspace 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ko-KR) |
-| Workspace 프로젝트 공동 편집 기능 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 속성 IQ: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
+| 속성 IQ: 사용자 지정 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko-KR#lookback-windows) |
+| 공유 Workspace 프로젝트에 대한 프로젝트 역할 | 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
+| 보기 전용 Workspace 프로젝트 | Workspace 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ko-KR) |
+| Workspace 프로젝트 공동 편집 기능 | 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로를 선택하는 더 원활한 방법을 제공합니다. |
-| 빠른 인사이트 패널 (2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Workspace의 Analytics for Target 패널 (2020년 6월 25일) | Analytics for Target (A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [추가 정보...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 빠른 인사이트 패널 (2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Workspace의 Analytics for Target 패널 (2020년 6월 25일) | Analytics for Target (A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Analysis Workspace 정보 페이지 | Workaspace 정보 페이지에서는 Analysis Workspace 환경, Adobe Analytics 관리자에 대한 정보 (지원이 필요한 경우) 및 제품 내 피드백을 제공하는 방법을 제공합니다. Workspace > 도움말 > Workspace 정보에서 찾아볼 수 있습니다. |
 
 ## 2020년 5월
 
-2020년 5월 21일 릴리스된 새로운 기능.
+2020년 5월 21일 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
 | 빈 상태에서 자유 형식 테이블 자동 작성 | 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며, 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 자유 형식 테이블에 함께 끌어 놓을 때 혼합 구성 요소 유형 (예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
-| 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=ko-KR) |
+| 접근성 향상 | Adobe Analytics 팀은 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 분석 Analysis Workspace에 대한 액세스 가능성 향상을 수행했습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=ko-KR) |
 
 ## 2020년 4월
 
-2020년 4월 16일에 릴리스된 새로운 기능.
+2020년 4월 16일에 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
@@ -98,27 +98,27 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2020년 3월
 
-2020년 3월 12일 릴리스된 새로운 기능.
+2020년 3월 12일 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
-| Workspace에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와서 나란히 볼 수 있습니다. [추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ko-KR) |
-| 교육 튜토리얼 템플릿 | 이 새로운 표준 템플릿은 Workspace에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [추가 정보...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| Workspace에서 여러 보고서 세트 지원 | 이제 여러 보고서 세트의 데이터를 단일 프로젝트로 가져와서 나란히 볼 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ko-KR) |
+| 교육 튜토리얼 템플릿 | 이 새로운 표준 템플릿은 Workspace에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020년 2월
 
-2020년 2월 20일 릴리스된 새로운 기능.
+2020년 2월 20일 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
-| 디바이스 간 분석을 사용하는 조직을 위한 새로운 Workspace 템플릿 | 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여 주며 CDA 독점 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [교차 장치 분석 설정](/help/components/cda/setup.md)을 참조하십시오. |
-| Analysis Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[추가 정보...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ko-KR) |
+| 디바이스 간 분석을 사용하는 조직을 위한 새로운 Workspace 템플릿 | 이 템플릿은 CDA가 방문을 함께 연결하는 데 얼마나 효과적인지 보여 주며 CDA 독점 차원 및 지표에 대해 교육합니다. CDA를 사용하는 보고서 세트가 필요합니다. 자세한 내용은 [크로스 디바이스 분석 설정](/help/components/cda/setup.md)을 참조하십시오. |
+| Analysis Workspace의 새로운 핫키 | <ul><li>모든 패널 축소/확장: `alt + m`</li><li>활성 패널 축소/확장: `alt + ctrl + m`</li><li>왼쪽 레일 검색: `ctrl + /`</li><li>다음 패널로 이동: `alt + Right Key`</li><li>이전 패널로 이동: `alt + Left Key`</li></ul>[자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ko-KR) |
 | Workspace의 기타 향상된 기능 | <ul><li>패널이나 시각화가 Workspace로 드롭되면 왼쪽 레일이 이제 구성 요소로 자동 전환되므로 더 원활한 워크플로가 가능합니다.</li><li>이제 템플릿 구성 요소를 활성화할 수 있습니다(예: 태그됨, 즐겨찾기됨, 승인됨).</li><li>필터링된 지표 및 세그먼트 목록은 필요한 항목을 찾지 못할 경우 새 구성 요소를 추가하기 위한 버튼을 제공합니다.</li></ul> |
-| Workspace 디버거 | Workspace 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [추가 정보...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| Workspace 디버거 | Workspace 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [자세히 알아보기...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020년 1월
 
-2020년 1월 16일에 릴리스된 새로운 기능.
+2020년 1월 16일에 릴리스된 새로운 기능
 
 | 기능 | 설명 |
 |--- |--- |
@@ -158,7 +158,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 | 개선 사항 | 설명 |
 | --- |--- |
-| 새로운 기본 제공 필터 | 왼쪽 레일 검색에 바로 사용할 수 있는 새로운 필터가 추가되었습니다. 현재 표시되는 항목 (차원, 지표, 승인됨 등) 외에도 계산된 지표, 고객 특성, eVar, Props, 비디오 등의 새로운 필터가 추가되었으므로 필요한 구성 요소를 찾기가 쉬워집니다. |
+| 새로운 기본 제공 필터 | 왼쪽 레일 검색에 바로 사용할 수 있는 새로운 필터가 추가되었습니다. 현재 표시되는 항목 (차원, 지표, 승인됨 등) 외에도 계산된 지표, 고객 속성, eVar, Props, 비디오 등의 새로운 필터가 추가되었으므로 필요한 구성 요소를 찾기가 쉬워집니다. |
 
 ## 2019년 5월
 
@@ -195,7 +195,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 |--- |--- |
 | [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
 
-## 2018년 10월 일
+## 2018년 10월
 
 2018년 10월 11일에 출시된 새로운 기능 및 개선 사항.
 
@@ -443,7 +443,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2018년 2월
 
-2018년 2월 8일에 릴리스된 새로운 기능 및 개선된 기능.
+2018년 2월 8일에 릴리스된 새로운 기능 및 개선된 기능
 
 <table id="table_824BBE4A554B4DB092ADA9044383D0FA"> 
  <thead> 
@@ -564,7 +564,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2017년 11월
 
-2017년 11월 09일에 릴리스된 새로운 기능.
+2017년 11월 09일에 릴리스된 새로운 기능
 
 <table id="table_C502E81253634E6CBAE7F12C7B62F7B6"> 
  <thead> 
@@ -581,7 +581,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
  </tbody> 
 </table>
 
-## 2017년 10월 일
+## 2017년 10월
 
 2017년 10월 26일 릴리스된 새로운 기능
 
@@ -647,7 +647,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2017년 9월
 
-2017년 9월 21일 릴리스된 새로운 기능.
+2017년 9월 21일 릴리스된 새로운 기능
 
 <table id="table_DC0DA93B8A3B481080FCB2BA8F985753"> 
  <thead> 
@@ -708,7 +708,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2017월 8일
 
-2017년 8월 17일 릴리스된 새로운 기능.
+2017년 8월 17일 릴리스된 새로운 기능
 
 <table id="table_C29887097C894B1C91AD7086F0DAEC73"> 
  <thead> 
@@ -743,7 +743,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2017년 7월
 
-2017년 7월 20일 릴리스된 새로운 기능.
+2017년 7월 20일 릴리스된 새로운 기능
 
 <table id="table_64E3A9960F314E2F9FFC738696EACDF7"> 
  <thead> 
@@ -786,7 +786,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2017년 6월
 
-2017년 6월 8일 릴리스된 새로운 기능.
+2017년 6월 8일 릴리스된 새로운 기능
 
 <table id="table_5B859A64363A44A98FC55E7AFB3C1D0C"> 
  <thead> 
@@ -867,7 +867,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 
 ## 2017년 4월
 
-2017년 4월 20일 릴리스된 새로운 기능.
+2017년 4월 20일 릴리스된 새로운 기능
 
 <table id="table_53EEFB870ED943F5BFD71FAB2DBCE49B"> 
  <thead> 
@@ -961,7 +961,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
  </tbody> 
 </table>
 
-## 2016년 10월 일
+## 2016년 10월
 
 2016년 10월 20일 릴리스된 새로운 기능:
 
@@ -1058,7 +1058,7 @@ Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://
 * [세그먼트 추가](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) 드롭 영역
 * 부분적인 업데이트:
 
-   * 패널에 있는 모든 시각화와 프로젝트에 있는 모든 패널을 삭제하는 기능. (이전에는 하나 이상의 시각화 또는 1개의 패널을 유지해야 했습니다.)
+   * 패널에 있는 모든 시각화와 프로젝트에 있는 모든 패널을 삭제하는 기능 (이전에는 하나 이상의 시각화 또는 1개의 패널을 유지해야 했습니다.)
    * Analysis Workspace와 작업할 수 있는 [단축키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(핫키) 변경 사항.
    * 스타일 변경: 시각화의 좀 더 작아진 글꼴, 행의 색상 견본, 아래로 이동된 날짜 선택기 (패널에서)
 
