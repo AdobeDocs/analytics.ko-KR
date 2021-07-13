@@ -4,11 +4,10 @@ keywords: Analysis Workspace;세그먼트 IQ
 title: 세그먼트 비교에 사용되는 통계 테스트
 feature: Reports & Analytics 기본 사항
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
