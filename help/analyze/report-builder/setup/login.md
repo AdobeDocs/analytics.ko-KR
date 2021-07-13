@@ -1,12 +1,11 @@
 ---
 description: Experience Cloud 로그인 계정을 사용하여 Report Builder에 로그인하는 방법을 알아봅니다.
-title: Report Builder 로그인 방법
+title: Report Builder에 로그인하는 방법
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-translation-type: tm+mt
-source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 49%
@@ -17,9 +16,9 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->Report Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 Site Catalyst Single Sign-on 또는 표준 로그인과 같은 기존 로그인은 지원하지 않습니다. **2021년 7월 22일까지 모든 Report Builder 사용자는 로그인 프로세스의 중요 업데이트를 포함하는 Report Builder Add-in을 버전 5.6.47 이상으로 업데이트해야 합니다.**
+>Report Builder 버전 5.6.47 이상 버전은 Experience Cloud 로그인만 지원하며 Site Catalyst Single Sign-On 또는 표준 로그인과 같은 레거시 로그인을 지원하지 않습니다. **2021년 7월 22일까지 모든 Report Builder 사용자는 Report Builder 추가 기능을 버전 5.6.47 이상 버전으로 업데이트해야 하며, 이때 로그인 프로세스에 대한 중요한 업데이트가 포함됩니다.**
 
-Report Builder에 로그인하려면 Experience Cloud 로그인 계정을 사용하십시오.
+Report Builder에 로그인하려면 Experience Cloud 로그인 계정을 사용합니다.
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
@@ -39,7 +38,7 @@ Report Builder에 로그인하려면
 1. **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 다음과 같은 방법으로 로그인할 수도 있습니다.
 
    * **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
-   * [요청 관리자에서 요청을 선택한](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) 다음 추가  **** 관리자를  **[!UICONTROL 클릭합니다]**.
+   * [요청 관리자에서 요청을 선택한 다음](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) 추가  **** 또는  **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
    * Excel에서 요청을 두 번 클릭합니다.
 
 1. [!UICONTROL 로그인] 페이지에서 필드를 완료한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
