@@ -3,12 +3,12 @@ description: Reports & Analytics의 보고서 메뉴에 대한 개요.
 title: 보고서 메뉴
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">세그먼트 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">세그먼트를 추가 또는 관리할 수 있도록 해주는 세그먼트 레일을 표시합니다. 세그먼트 레일에서는 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >세그먼트 빌더</a> 및 <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >세그먼트 관리자</a> 인터페이스에 액세스할 수도 있습니다. </td> 
+   <td colname="col2">세그먼트를 추가 또는 관리할 수 있도록 해주는 세그먼트 레일을 표시합니다. 세그먼트 레일에서는 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >세그먼트 빌더</a> 및 <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ko-KR"  >세그먼트 관리자</a> 인터페이스에 액세스할 수도 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">지표 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -113,7 +113,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
   </tr> 
   <tr> 
    <td colname="col1">보고서 세트 선택기 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >기본 보고서 세트</a>나 <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >가상 보고서 세트</a>를 선택할 수 있도록 해줍니다. </td> 
+   <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ko-KR"  >기본 보고서 세트</a>나 <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >가상 보고서 세트</a>를 선택할 수 있도록 해줍니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1">달력 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
