@@ -3,15 +3,14 @@ description: 'Activity Map UI는 두 부분으로 구성되어 있습니다. '
 title: Activity Map 사용자 인터페이스
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 98%
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
-
 
 # Activity Map 사용자 인터페이스
 
@@ -35,4 +34,3 @@ Activity Map UI는 두 부분으로 구성되어 있습니다.
 페이지에 있는 링크 수 보고서에서는 추가적인 클릭 정보를 포함하여 현재 페이지에 있는 링크에 대한 스프레드시트 보기가 제공됩니다. 페이지 세부 사항 보고서에서는 현재 표시된 페이지로 이동하는 전후에 방문한 페이지와 관련된 분석 데이터를 제공합니다.
 
 ![](assets/bottom_panel.png)
-
