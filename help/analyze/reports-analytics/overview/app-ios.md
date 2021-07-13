@@ -3,10 +3,9 @@ description: iPad 애플리케이션에 대한 소개입니다.
 title: iOS용 Adobe Analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
 feature: Reports & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 04643de2-793f-403b-ba2f-807453efc2fe
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
