@@ -2,11 +2,10 @@
 description: Workspace 프로젝트에서 도넛 시각화를 사용합니다.
 title: 도넛
 feature: 시각화
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 100%
 
