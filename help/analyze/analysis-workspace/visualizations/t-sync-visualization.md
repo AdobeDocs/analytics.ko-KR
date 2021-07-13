@@ -3,11 +3,10 @@ description: 시각화를 동기화하면 시각화에 해당하는 데이터 �
 keywords: Analysis Workspace;시각화를 데이터 소스와 동기화
 title: 데이터 소스 관리
 feature: 시각화
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
