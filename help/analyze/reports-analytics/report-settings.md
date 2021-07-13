@@ -2,9 +2,9 @@
 description: 모든 보고서가 표시되는 방식과 기본 메뉴 옵션을 간소화된 메뉴에서 해당 위치에 매핑하는 정보를 정의하는 설정입니다.
 title: 보고서 표시 설정 및 탐색
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ## 보고서 표시 설정 및 탐색 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL 구성 요소]** >  **[!UICONTROL 모든 구성 요소]** >  **[!UICONTROL 보고서 설정]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL 구성 요소]**  >  **[!UICONTROL 모든 구성 요소]**  >  **[!UICONTROL 보고서 설정]**
 
 | 요소 | 설명 |
 |--- |--- |
