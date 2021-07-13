@@ -3,11 +3,10 @@ title: 세그먼트 비교 패널 개요
 description: Analysis Workspace에서 세그먼트 IQ의 일부인 세그먼트 비교 패널을 사용하는 방법을 알아봅니다.
 keywords: Analysis Workspace;세그먼트 IQ
 feature: 패널
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 100%
 
