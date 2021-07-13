@@ -5,11 +5,10 @@ title: 통합 배포
 feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -33,11 +32,12 @@ ht-degree: 98%
    | Adobe SiteCatalyst 토큰 | [Qualtrics Adobe Analytics 토큰 생성](../qualtrics-overview/qualtrics-token.md) |
 
 1. **마법사 2단계 - 변수 매핑**
-   |  Qualtrics 응답 목록  | 보고서 세트에서 사용 가능한 목록 변수를 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
+
+   | Qualtrics 응답 목록 | 보고서 세트에서 사용 가능한 목록 변수를 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.) |
    |---|---|
-   |  Qualtrics 응답 ID  | 보고서 세트에서 사용 가능한 eVar 또는 prop을 선택합니다 (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.)  |
-   |  추적 서버  |Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. Use the `trackingServerSecure` 추적 서버가 표준 추적 서버 설정과 다른 경우 추적 서버.  |
-   |  Qualtrics 설문 조사 제출  | 보고서 세트에서 사용 가능한 이벤트를 선택합니다(보고서 세트 관리자 내에서 새 이벤트를 활성화해야 할 수 있습니다).  |
+   | Qualtrics 응답 ID | 보고서 세트에서 사용 가능한 eVar 또는 prop을 선택합니다. (보고서 세트 관리자에서 새 listVar를 활성화해야 할 수 있습니다.) |
+   | 추적 서버 | Adobe Analytics 데이터를 추적하는 데 사용하는 추적 서버(도메인) 설정을 제공합니다. 표준 추적 서버 설정과 다른 경우 `trackingServerSecure` 추적 서버를 사용합니다. |
+   | Qualtrics 설문 조사 제출 | 보고서 세트에서 사용 가능한 이벤트를 선택합니다(보고서 세트 관리자 내에서 새 이벤트를 활성화해야 할 수 있습니다). |
 
 1. **마법사 3단계**: 필요한 것이 없으며 정보 제공용입니다.
 
