@@ -3,15 +3,14 @@ description: Report Builder 도구 모음에 있는 단추들의 기능을 이�
 title: Report Builder 도구 모음
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 92%
+source-wordcount: '303'
+ht-degree: 93%
 
 ---
-
 
 # Report Builder 도구 모음
 
@@ -21,7 +20,7 @@ Report Builder를 설치하고 Excel을 실행한 후 **[!UICONTROL 추가 기�
 
 ![](assets/report_builder_toolbar.png)
 
-**로그인:** 자격   증명이나 다른 사용자로 로그인할 수 있도록 로그인 정보를 표시합니다. 또한 로그인 후 회사 이름이 표시됩니다. See [Report Builder 로그인](/help/analyze/report-builder/setup/login.md).
+**로그인:** 자격   증명을 사용하여 로그인하거나 다른 사용자로 로그인할 수 있도록 Loginform을 표시합니다. 또한 로그인 후 회사 이름이 표시됩니다. See [Report Builder 로그인](/help/analyze/report-builder/setup/login.md).
 
 **만들기:** [!UICONTROL 요청 마법사]를 실행합니다. 로그인이 되어 있지 않으면 로그인하라는 메시지가 표시됩니다. 자세한 내용은 [데이터 요청](/help/analyze/report-builder/data-requests/data-requests.md).
 
