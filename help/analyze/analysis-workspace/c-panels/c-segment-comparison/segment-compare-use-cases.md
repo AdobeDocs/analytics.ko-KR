@@ -3,11 +3,10 @@ title: 세그먼트 비교 사용 사례
 description: 세그먼트 비교 패널을 사용하여 마케팅 전략에 대한 통찰력을 얻는 방법에 대한 실제 사용 사례를 알아봅니다.
 keywords: 세그먼트 IQ
 feature: 패널
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%
 
