@@ -3,10 +3,10 @@ description: 작업 영역 성능 및 적용할 수 있는 최적화에 영향�
 title: Analysis Workspace 성능 요소 및 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 100%
 
