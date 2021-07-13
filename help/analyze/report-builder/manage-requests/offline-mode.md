@@ -3,15 +3,14 @@ description: 오프라인 모드는 요청을 만들고 편집하는 과정을 �
 title: 요청을 만들고 편집하기 위한 오프라인 모드
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
-
 
 # 요청을 만들고 편집하기 위한 오프라인 모드
 
@@ -36,4 +35,3 @@ ht-degree: 98%
    >[!IMPORTANT]
    >
    >실제 데이터로 요청을 실행하려면 먼저 오프라인 모드를 비활성화해야 합니다. 이렇게 하려면 **[!UICONTROL 옵션]**&#x200B;으로 가서 확인 표시를 제거합니다.
-
