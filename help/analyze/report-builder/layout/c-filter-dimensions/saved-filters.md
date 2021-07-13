@@ -3,15 +3,14 @@ description: Report Builder에서 필터나 다른 매개 변수를 저장하고
 title: 저장한 필터
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 0986b6e3-8708-4513-af8d-523fe7e616a3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 97%
+source-wordcount: '104'
+ht-degree: 100%
 
 ---
-
 
 # 저장한 필터
 
@@ -20,4 +19,3 @@ Report Builder에서 필터나 다른 매개 변수를 저장하고 다른 워�
 필터를 만들면 [!UICONTROL 페이지 선택] 양식에서 필터를 저장합니다. 이 절차의 예가 필요하면 [특정 필터](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
 ![](assets/choose_page_saved.png)
-
