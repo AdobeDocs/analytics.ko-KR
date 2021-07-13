@@ -2,12 +2,12 @@
 description: 실시간 페이지 분석(라이브 모드)에서는 실시간으로 매우 세부적인 결과를 획득할 수 있습니다.
 title: 실시간(라이브) 페이지 분석
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -35,13 +35,13 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 ## A4T 구성 결과로 데이터 지연
 
-Adobe Target에서 [A4T 통합](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)이 활성화되면 Adobe Analytics에서 5~-10분 동안 지연이 추가로 발생할 수 있습니다. 추가적인 지연 시간으로 인해 Analytics 및 Target의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
+Adobe Target에서 [A4T 통합](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)이 활성화되면 Adobe Analytics에서 5~-10분 동안 지연이 추가로 발생할 수 있습니다. 추가적인 지연 시간으로 인해 Analytics 및 Target의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
 
 추가적인 지연 시간은 라이브 스트림 및 실시간 보고를 비롯하여 모든 Adobe Analytics 서비스 및 도구에서 반영되며 다음과 같은 시나리오에서 적용됩니다.
 
 * 라이브 스트림, 실시간 보고서 및 API 요청, 트래픽 변수의 현재 데이터의 경우 보충 데이터 ID가 있는 히트 수만 지연됩니다.
 * 전환 지표의 현재 데이터, 완료된 데이터, 데이터 피드의 경우 모든 히트 수가 추가적으로 5-7분 지연됩니다.
 
-이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
+이 통합을 완전히 구현하지 않았더라도 [ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 구현하면 추가적인 지연 시간이 발생하기 시작합니다.
 
 추가 정보 [여기](/help/analyze/activity-map/activitymap-standard-live.md).
