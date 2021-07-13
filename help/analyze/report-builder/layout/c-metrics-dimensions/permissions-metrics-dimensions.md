@@ -3,15 +3,14 @@ description: 이제 Adobe Report Builder에는 Analytics 관리 도구의 권한
 title: 차원 및 지표의 사용자 액세스 권한
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 98%
+source-wordcount: '206'
+ht-degree: 100%
 
 ---
-
 
 # 차원 및 지표의 사용자 액세스 권한
 
