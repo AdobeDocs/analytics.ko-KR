@@ -2,10 +2,10 @@
 title: getPercentPageViewed
 description: 방문자가 본 페이지의 비율을 검색합니다.
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 633ba0b9a3fe40bfd1b36820949810c631597397
+source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 `getPercentPageViewed` 메서드에서는 다음 인수를 사용합니다.
 
-* **`pid`**  (선택 사항, 문자열): 플러그인의 측정으로 제공된 백분율과 상호 연관시킬 수 있는 페이지 기반 식별자입니다. 기본값은 `pageName` 변수입니다.
+* **`pid`** (선택 사항, 문자열): 플러그인의 측정으로 제공된 백분율과 상호 연관시킬 수 있는 페이지 기반 식별자입니다.  기본값은 `pageName` 변수입니다.
 * **`ch`**  (선택 사항, 부울): 플러그인이 초기 로드 후 페이지 크기에 대한 변경 사항을 고려하지 않게 하려면 이 인수를 `false` (또는 `0`)로 설정하십시오. 생략하면 이 인수의 기본값이 `true`로 설정됩니다. 대부분의 경우에는 이 인수를 생략하는 것이 좋습니다.
 
 이 메서드를 호출하면 아무 것도 반환되지 않습니다. 대신 다음 변수를 설정합니다.
@@ -84,7 +84,7 @@ if(s.pageName) s.getPercentPageViewed();
 if(s._ppvPreviousPage)
 {
   s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
 }
 ```
 
@@ -92,15 +92,15 @@ if(s._ppvPreviousPage)
 * getPercentPageViewed 함수가 실행되면 위의 &quot;반환&quot; 섹션에 설명된 변수가 만들어집니다.
 * 반환 변수가 성공적으로 설정된 경우:
    * 이 코드는 s.prop1을 s._ppvPreviousPage의 값 (즉, s.pageName의 이전 값 또는 이전 페이지)과 동일하게 설정합니다.
-   * 또한 이 코드는 방문자가 도달한 접기 수 및 사용 가능했던 접기 수와 함께, s.prop2를 이전 페이지에서 가장 많이 본 비율과 이전 페이지에서 처음 본 비율과 동일하게 설정합니다.
+   * 또한 이 코드는 방문자가 도달한 접기 수 및 사용 가능했던 접기 수와 함께 s.prop2를 이전 페이지에서 가장 많이 본 비율과 이전 페이지에서 처음 본 비율과 동일하게 설정합니다.
 
-**참고**: 전체 페이지가 처음 로드될 때 표시되면 가장 많이 본 비율과 처음 본 비율이 모두 100이 되고 본 접기와 사용 가능한 접기는 모두 1이 됩니다. 페이지가 처음 로드될 때 전체 페이지가 표시되지는 않지만 방문자가 페이지를 아래로 스크롤하는 것을 끝내지 않고 다음 페이지로 이동하면 가장 많이 본 비율과 처음 본 비율 차원이 모두 같은 값이 됩니다.
+**참고**: 전체 페이지가 처음 로드될 때 표시되면 가장 많이 본 비율과 처음 본 비율이 모두 100이 되고 본 접기와 사용 가능한 접기는 모두 1이 됩니다.   페이지가 처음 로드될 때 전체 페이지가 표시되지는 않지만 방문자가 페이지를 아래로 스크롤하는 것을 끝내지 않고 다음 페이지로 이동하면 가장 많이 본 비율과 처음 본 비율 차원이 모두 같은 값이 됩니다.
 
 ### 예 #2
 
 s.prop5가 전체 페이지 이름이 아닌 롤업된 &quot;페이지 유형&quot;을 캡처하도록 따로 설정되어 있다고 가정합니다.
 
-다음 코드는 s.prop5가 설정되었는지 여부를 확인하고, 설정되어 있으면 값을 &quot;이전 페이지&quot;로 저장하여 가장 많이 본 비율 및 처음 본 비율 차원과의 상관 관계를 만듭니다. 이 값은 여전히 s._ppvPreviousPage 변수에 저장되지만 이전 페이지 이름 대신 이전 페이지 유형인 것처럼 처리할 수 있습니다.
+다음 코드는 s.prop5가 설정되었는지 여부를 확인하고, 설정되어 있으면 값을 &quot;이전 페이지&quot;로 저장하여 가장 많이 본 비율 및 처음 본 비율 차원과의 상관 관계를 만듭니다.  이 값은 여전히 s._ppvPreviousPage 변수에 저장되지만 이전 페이지 이름 대신 이전 페이지 유형인 것처럼 처리할 수 있습니다.
 
 ```js
 if(s.prop5) s.getPercentPageViewed(s.prop5);
@@ -113,9 +113,9 @@ if(s._ppvPreviousPage)
 
 ## 버전 내역
 
-### 5.0.1(2021년 6월 22일)
+### 5.0.1 (2021년 6월 22일)
 
-* 특정 특수 문자로 인해 플러그인이 중단되는 문제가 해결되었습니다
+* 일부 특수 문자로 인해 플러그인이 중단되는 문제가 해결되었습니다.
 
 ### 5.0 (2021년 3월 19일)
 
@@ -127,7 +127,7 @@ if(s._ppvPreviousPage)
 
 ### v3.01 (2018년 8월 13일)
 
-* 페이지에 여러 AppMeasurement 개체가 있는 페이지의 문제를 수정했습니다.
+* 페이지에 여러 AppMeasurement 개체가 있는 페이지의 문제가 해결되었습니다.
 
 ### v3.0 (2018년 4월 13일)
 
