@@ -3,10 +3,9 @@ description: 도구 모음, 달력 및 세부 사항 테이블을 포함한 보�
 title: 보고서 기능
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
