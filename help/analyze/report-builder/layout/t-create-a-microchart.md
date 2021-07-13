@@ -3,15 +3,14 @@ description: 사용자 지정 레이아웃에서는, 지표 열을 해당 백분
 title: 마이크로차트 만들기
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: a53f0d22-9edf-4040-a40b-bdd920a670f5
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 97%
+source-wordcount: '142'
+ht-degree: 100%
 
 ---
-
 
 # 마이크로차트 만들기
 
@@ -20,6 +19,4 @@ ht-degree: 97%
 1. Excel에서 [사용자 지정 레이아웃](/help/analyze/report-builder/layout/configure-the-custom-layout.md)을 사용하여 요청을 만듭니다.
 1. 지표 값 열을 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL 출력 표시 변경]**&#x200B;을 선택한 다음 마이크로차트 유형과 보고 싶은 표시 비율을 선택합니다.
-
 >시스템이 선택 내용과 일치하도록 열에서의 표시를 변경합니다.
-
