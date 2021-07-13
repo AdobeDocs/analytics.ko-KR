@@ -3,10 +3,10 @@ description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV �
 title: PDF 또는 CSV 파일 다운로드
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: 선별 및 공유
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 100%
 
