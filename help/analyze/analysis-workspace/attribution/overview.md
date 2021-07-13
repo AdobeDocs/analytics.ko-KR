@@ -2,11 +2,10 @@
 title: 속성 개요
 description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 분석하는 개념입니다.
 feature: 속성
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
