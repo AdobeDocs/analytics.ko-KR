@@ -2,11 +2,10 @@
 title: 속성 FAQ
 description: 속성과 관련하여 자주 묻는 질문에 대한 답변을 얻습니다.
 feature: 속성
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%
 
