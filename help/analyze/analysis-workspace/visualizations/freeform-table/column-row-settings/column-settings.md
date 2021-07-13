@@ -3,11 +3,10 @@ description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, �
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: 자유 형식 테이블
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ ht-degree: 100%
 | 배경 | 막대그래프 및 조건부 서식을 포함하여, 셀에 모든 셀 서식을 표시할지 또는 숨길지를 결정합니다. |
 | 막대그래프 | 열에 대한 합계와 상대적인 셀 값을 나타내는 수평 막대그래프를 표시합니다. |
 | 조건부 서식 | 아래 섹션을 참조하십시오. |
-| 테이블 셀 미리 보기 | 각 셀이 현재 선택된 서식 선택 사항이 적용되면 어떻게 나타나는지 미리 보기를 표시합니다. |
+| 테이블 셀 미리보기 | 각 셀이 현재 선택된 서식 선택 사항이 적용되면 어떻게 나타나는지 미리보기를 표시합니다. |
 
 ## 조건부 서식 {#conditional-formatting}
 
