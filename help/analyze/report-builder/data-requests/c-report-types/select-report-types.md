@@ -3,15 +3,14 @@ description: 사이트 지표, 사이트 컨텐츠 및 비디오와 같은, 데�
 title: 보고서 유형 개요
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 97%
+source-wordcount: '117'
+ht-degree: 100%
 
 ---
-
 
 # 보고서 유형 개요
 
@@ -22,4 +21,3 @@ ht-degree: 97%
 자동 완성 검색 창을 사용하여 보고서를 검색할 수 있습니다. 이 컨트롤에서 보고서를 선택하면 트리 보기가 일치하는 노드를 자동으로 선택합니다.
 
 ![](assets/search_reports.png)
-
