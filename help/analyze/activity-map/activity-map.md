@@ -3,11 +3,10 @@ description: Activity Map은 시각적 오버레이를 사용하여 링크 활�
 title: Activity Map 개요
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -40,10 +39,10 @@ Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식�
 * [강력한 링크 추적](lnk-tracking-overview.md)
 * [표준 모드와 라이브 모드 비교](activitymap-standard-live.md)
 * [링크 보고서](activitymap-links-report.md)
-* [페이지 세부정보](activitymap-page-flow.md)
+* [페이지 상세정보](activitymap-page-flow.md)
 * [전체 지표 세트](activitymap-complete-metrics.md)
-* [실시간 (라이브) 페이지 분석](activitymap-realtime.md)
-* [고객 세그먼테이션](activitymap-multiple-segments.md)
+* [실시간(라이브) 페이지 분석](activitymap-realtime.md)
+* [고객 세그멘테이션](activitymap-multiple-segments.md)
 * [사용자 지정 가능 오버레이](activitymap-gainerslosers.md)
 * [오버레이 세부정보](activitymap-overlay-details.md)
 * [CSV 파일로 내보내기](activitymap-csv.md)
