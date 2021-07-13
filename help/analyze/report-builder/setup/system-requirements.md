@@ -3,15 +3,14 @@ description: 시스템 권장 사항 및 필수 조건입니다.
 title: 시스템 요구 사항
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 95%
+source-wordcount: '67'
+ht-degree: 100%
 
 ---
-
 
 # 시스템 요구 사항
 
@@ -26,4 +25,3 @@ ht-degree: 95%
 * 사용자 조직의 계약에 Excel용 Report Builder가 포함되어 있습니다.
 * 사용자 이름은 사전 정의된 Report Builder 사용자 그룹의 한 부분입니다. 이 요구 사항에는 [!DNL Analytics] 관리자도 포함됩니다.
 * 사용자는 Windows를 실행하고 관리자로 로그인해야 합니다.
-
