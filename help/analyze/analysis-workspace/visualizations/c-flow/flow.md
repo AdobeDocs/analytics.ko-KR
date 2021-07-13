@@ -3,10 +3,10 @@ description: Workspace 프로젝트에서 플로우 시각화를 사용합니다
 title: 플로우 개요
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: 시각화
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
