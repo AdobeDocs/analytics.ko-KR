@@ -4,10 +4,9 @@ subtopic: Current Data
 title: 현재 데이터
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 97%
@@ -26,7 +25,7 @@ Reports &amp; Analytics 메뉴의 현재 데이터 포함 옵션을 사용하면
 
 * 완전히 처리된 데이터를 사용하는 Analysis Workspace를 사용합니다.
 * 현재 데이터 보고서 설정에서 &#39;아니요&#39;를 클릭하여 완전히 처리된 데이터만 사용합니다.
-* 관리 콘솔의 제품 프로필에서 &#39;현재 데이터&#39; 권한 항목을 제거하여 관리자가 아닌 사용자에게 이 옵션이 표시되지 않도록 합니다. 자세한 내용은 관리 사용자 안내서의 [분석 도구에 대한 제품 프로필 권한](/help/admin/admin-console/permissions/analytics-tools.md)을 참조하십시오.
+* 관리 콘솔의 제품 프로필에서 &#39;현재 데이터&#39; 권한 항목을 제거하여 관리자가 아닌 사용자에게 이 옵션이 표시되지 않도록 합니다. 자세한 내용은 관리자 가이드의 [Analytics 도구에 대한 제품 프로필 권한](/help/admin/admin-console/permissions/analytics-tools.md)을 참조하십시오.
 
 데이터 가용성 우선 순위 지정으로 인해 현재 데이터는 세그먼트, 분류, 분석, 경로 지정 및 일부 지표와 함께 사용할 수 없습니다. 이러한 기능 중 하나를 사용하면 보고서에서 현재 데이터가 &#39;아니요&#39;로 강제 설정되고 현재 데이터를 사용할 수 없는 이유를 설명하는 노란색 알림이 표시됩니다.
 
