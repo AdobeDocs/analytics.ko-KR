@@ -3,15 +3,14 @@ description: 포함된 요청이 있는 보고서를 만든 후 Excel에서 [파
 title: 요청이 있는 통합 문서 저장
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 99%
+source-wordcount: '316'
+ht-degree: 100%
 
 ---
-
 
 # 요청이 있는 통합 문서 저장
 
@@ -27,7 +26,7 @@ ht-degree: 99%
 
 사용하는 모든 파일 이름의 길이는 255자 이하여야 합니다. 또한 파일 이름에는 다음 문자를 사용할 수 없습니다.
 
-\ ? | > &lt; :/ * &#39; &quot;
+\ ? | > &lt; : / * &#39; &quot;
 
 마지막으로, 확장된 ASCII 문자 세트 이외에 유니코드 문자는 사용할 수 없습니다.
 
