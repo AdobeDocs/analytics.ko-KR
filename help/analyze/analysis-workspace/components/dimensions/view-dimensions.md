@@ -3,11 +3,10 @@ description: 프로젝트에서 사용하기 전에 차원의 상위 값을 봅�
 title: 차원 미리 보기
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 feature: Workspace 기본 사항
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -21,8 +20,8 @@ ht-degree: 100%
 
 이제 기본적으로 정적인 값 대신 동적인 값을 표시하며, 이때 정적인 값으로 변환하는 옵션을 함께 제공합니다. 기타 참고 사항:
 
-* 데이터가 업데이트되면 현재 5/15 차원 항목을 업데이트하도록 다이내믹 차원 열이 업데이트됩니다.
-* 복사되거나 이동되는 다이내믹 차원 열은 정적이 됩니다.
+* 데이터가 업데이트되면 현재 5/15 차원 항목을 업데이트하도록 동적 차원 열이 업데이트됩니다.
+* 복사되거나 이동되는 동적 차원 열은 정적이 됩니다.
 * 정적 차원 열 위로 마우스를 이동하면 정적 차원을 나타내는 잠금 아이콘이 표시됩니다.
 
 ![](assets/dimension_static.png)
