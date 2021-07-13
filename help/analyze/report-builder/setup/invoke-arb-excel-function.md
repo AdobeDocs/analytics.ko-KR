@@ -3,15 +3,14 @@ description: 이 기능을 사용하면 Report Builder 사용자 인터페이스
 title: Microsoft Excel 함수에서 Report Builder 기능 호출
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '494'
 ht-degree: 99%
 
 ---
-
 
 # Microsoft Excel 함수에서 Report Builder 기능 호출
 
@@ -78,4 +77,3 @@ Report Builder 내에서 이러한 함수에 액세스하려면 [!UICONTROL 수�
 1. [!UICONTROL 수식] >[!UICONTROL  함수 삽입 ]> [!UICONTROL Adobe.Report Builder.Bridge]에서 Report Builder 매개 변수 목록을 엽니다.
 
 1. AltTextParam으로 끝나는 두 함수 중 하나를 선택하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
-
