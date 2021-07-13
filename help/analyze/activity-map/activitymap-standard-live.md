@@ -3,15 +3,14 @@ description: Activity Map에서는 페이지 활동의 보조 보고 기능을 �
 title: 표준 모드와 라이브 모드 비교
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
-
 
 # 표준 모드와 라이브 모드 비교
 
@@ -45,4 +44,3 @@ A: 링크 데이터를 집계하는 방식에 따라 다릅니다. Activity Map�
 >가상 보고서 세트는 라이브 모드와는 호환하지 않고, 표준 모드와만 호환합니다.
 
 ![](assets/live_mode.png)
-
