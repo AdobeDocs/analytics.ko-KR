@@ -4,11 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
@@ -35,12 +34,13 @@ ht-degree: 100%
       + [전환 분류](admin/conversion-var-admin/conversion-classifications.md)
       + [분류 계층](admin/conversion-var-admin/classification-hierarchies.md)
       + [목록 변수](admin/conversion-var-admin/list-var-admin.md)
+      + [머천다이징 eVars](admin/conversion-var-admin/merchandising-evars.md)
    + [통화 코드](admin/currency.md)
    + [사용자 지정 보고서 설명](admin/custom-desc-admin.md)
    + [사용자 지정 달력](admin/custom-calendar.md)
    + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
-   + [IP 주소별 제외](admin/exclude-ip.md)
+   + [IP 주소별로 제외](admin/exclude-ip.md)
    + [검색 방법](admin/finding-methods.md)
    + [일반 계정 설정](admin/general-acct-settings-admin.md)
    + [내부 URL 필터](admin/internal-url-filter-admin.md)
@@ -50,8 +50,8 @@ ht-degree: 100%
    + [지표 가시성](admin/metric-visibility.md)
    + [앱 관리](admin/mobile-management.md)
    + 유료 검색 감지 {#paid-search-detection}
-      + [유료 검색 탐지 개요](admin/paid-search-detection/paid-search-detection.md)
-      + [유료 검색 탐지 구성](admin/paid-search-detection/t-paid-search-detection.md)
+      + [유료 검색 감지 개요](admin/paid-search-detection/paid-search-detection.md)
+      + [유료 검색 감지 구성](admin/paid-search-detection/t-paid-search-detection.md)
    + [게시 목록](admin/publishing-list.md)
    + [게시 위젯](admin/publishing-widgets-admin.md)
    + [기본 설정 관리자](admin/preferences-manager.md)
@@ -78,7 +78,7 @@ ht-degree: 100%
          + [쿼리 문자열 매개 변수를 사용하여 내부 검색어 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
          + [eVar에 컨텍스트 데이터 변수 복사](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
          + [컨텍스트 데이터 변수를 사용하여 이벤트 설정](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [조회수에서 이벤트 제거](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+         + [히트에서 이벤트 제거](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [처리 규칙 팁과 트릭](admin/c-processing-rules/processing-rules-tips.md)
    + 실시간 보고서 {#real-time-reports}
       + [실시간 보고서 개요](admin/realtime/realtime.md)
@@ -87,7 +87,7 @@ ht-degree: 100%
    + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
    + 서버 측 전달 {#server-side-forwarding}
       + [서버 측 전달 개요](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
+      + [GDPR/ePrivacy 준수 및 서버 측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [서버 측 전달 요구 사항](admin/c-server-side-forwarding/ssf-requirements.md)
       + [서버 측 전달 데이터 및 코드 참조](admin/c-server-side-forwarding/ssf-reference.md)
       + [서버 측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
@@ -107,7 +107,7 @@ ht-degree: 100%
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
-+ Adobe Admin Console의 Analytics {#admin-console}
++ Analytics Adobe Admin Console의 {#admin-console}
    + [Adobe Admin Console의 Analytics](admin-console/home.md)
    + 권한 {#permissions}
       + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)
@@ -120,7 +120,7 @@ ht-degree: 100%
    + [기능 액세스 수준](company/feature-access-levels.md)
    + [웹 서비스](company/web-services-admin.md)
    + [Report Builder 보고서](company/report-builder-reports-admin.md)
-   + [단일 사인온](company/single-signon-admin.md)
+   + [Single Sign-On](company/single-signon-admin.md)
    + [보류 중인 작업](company/pending-actions-admin.md)
    + [공동 브랜딩](company/co-branding-admin.md)
    + [보고서 세트 숨기기](company/c-hide-report-suites.md)
@@ -132,9 +132,9 @@ ht-degree: 100%
    + [롤업 보고서 세트 만들기](c-manage-report-suites/t-rollups.md)
    + 보고서 세트 템플릿 {#report-suite-templates}
       + [보고서 세트 템플릿 개요](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [애그리게이터 포털](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+      + [누적 포털](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
       + [상거래](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [콘텐츠 및 미디어](c-manage-report-suites/c-report-suite-templates/content-media.md)
+      + [컨텐츠 및 미디어](c-manage-report-suites/c-report-suite-templates/content-media.md)
       + [기본 템플릿](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
       + [금융 서비스](c-manage-report-suites/c-report-suite-templates/financial-services.md)
       + [구직 포털](c-manage-report-suites/c-report-suite-templates/job-portal.md)
@@ -156,7 +156,7 @@ ht-degree: 100%
       + [사용자 계정 추가](user-management2/c-user-management/t-add-user-account.md)
       + [사용자 및 그룹 권한 변경 사항](user-management2/c-user-management/permissions-changes.md)
       + [사용자 계정 항목 양도](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [사용자를 그룹에 추가](user-management2/c-user-management/t-add-user-to-group.md)
+      + [그룹에 사용자 추가](user-management2/c-user-management/t-add-user-to-group.md)
       + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
          + [Admin Console로 Analytics 사용자 마이그레이션](user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/t-migrate-users.md)
@@ -178,7 +178,7 @@ ht-degree: 100%
    + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)
    + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
    + [FAQ](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics 데이터 개인 정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics 데이터 개인 정보 보호 워크플로우](c-data-governance/an-gdpr-workflow.md)
    + [보고서 세트의 데이터 거버넌스 설정 보기/관리](c-data-governance/gdpr-view-settings.md)
    + [보고서 세트 데이터에 레이블 지정](c-data-governance/gdpr-setup-reportsuite.md)
    + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
@@ -187,9 +187,9 @@ ht-degree: 100%
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [레이블 지정 우수 사례](c-data-governance/gdpr-analytics-ids.md)
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
-   + [데이터 개인 정보 보호 및 Data Connectors(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [데이터 개인 정보 보호 및 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [데이터 개인 정보 보호 용어](c-data-governance/gdpr-terminology.md)
-   + [개인 정보 보고 변수](c-data-governance/consent-variables.md)
+   + [개인정보 보호 보고 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
    + [서버 호출 사용량 개요](c-server-call-usage/overage-overview.md)
    + [현재 서버 호출 사용량 보기](c-server-call-usage/server-call-usage-dashboard.md)
