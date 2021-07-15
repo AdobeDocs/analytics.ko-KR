@@ -6,7 +6,7 @@ exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Analytics 관리 콘솔에서 사용할 수 있는 새로운 개인정보 설정
 
    ![](assets/rsm-privacy-config.png)
 
-1. 이제 예약된 변수를 Reports &amp; Analytics 및 작업 영역에서 분석할 수 있습니다. 동의 관리 옵트아웃 및 동의 관리 옵트인을 참조하십시오.
+1. 이제 예약된 변수를 Reports &amp; Analytics 및 Workspace에서 분석할 수 있습니다. 동의 관리 옵트아웃 및 동의 관리 옵트인을 참조하십시오.
 
    ![](assets/consent-management.png)
 
