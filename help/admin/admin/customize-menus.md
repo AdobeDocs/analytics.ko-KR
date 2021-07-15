@@ -1,11 +1,10 @@
 ---
 description: 이 기능을 사용하면 Reports & Analytics에서 사용자가 보는 보고서 메뉴를 사용자 지정할 수 있습니다. 보고서를 표시하거나 숨길 수도 있고, 모든 사용자 간에 다른 폴더로 이동할 수도 있습니다. 이 기능은 조직에서 특정 보고서만 사용하며, 왼쪽 메뉴가 관계 없거나 사용되지 않는 데이터로 복잡하게 표시되지 않게 하려는 경우에 특히 유용합니다.
 title: 메뉴 사용자 지정
-feature: Admin Tools
+feature: 관리 도구
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 92%
@@ -20,41 +19,15 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->메뉴 구조의 변경 사항은 Report Builder에 영향을 주지 않습니다. 하지만 보고서 이름을 바꾸면 이 도구에 반영됩니다.
+>메뉴 구조의 변경 사항은 Report Builder에 영향을 주지 않습니다. 그러나 보고서 이름을 바꾸면 이 도구에 반영됩니다.
 
 ## 메뉴 사용자 지정 설명 {#section_B0D224DACB914A378902A4E0E1234889}
 
-<table id="table_E609632569EB499184E56618C2CEF742"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 달력 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 새 폴더</span> </td> 
-   <td colname="col2"> <p> 현재 선택된 항목 위에 새 폴더를 추가합니다 폴더가 표시되기 전에 하나 이상의 보고서를 폴더에 추가해야 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 이름 변경</span> </td> 
-   <td colname="col2"> <p> 현재 선택된 항목의 이름을 변경할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 기본 이름</span> </td> 
-   <td colname="col2"> <p> 현재 선택된 항목의 기본 이름을 복원합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 가시성 전환</span> </td> 
-   <td colname="col2"> <p> 현재 선택된 항목을 숨기거나 표시합니다. 숨겨진 항목은 메뉴 사용자 지정 페이지에서 회색 선 패턴으로 나타납니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 삭제</span> </td> 
-   <td colname="col2"> <p> 현재 선택된 항목을 메뉴에서 제거합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 기본값 복원</span> </td> 
-   <td colname="col2"> <p> 메뉴를 원래 상태로 복원합니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 달력 | 설명 |
+|--- |--- |
+| 새 폴더 | 현재 선택된 항목 위에 새 폴더를 추가합니다 폴더가 표시되기 전에 하나 이상의 보고서를 폴더에 추가해야 합니다. |
+| 이름 변경 | 현재 선택된 항목의 이름을 변경할 수 있습니다. |
+| 기본 이름 | 현재 선택된 항목의 기본 이름을 복원합니다. |
+| 가시성 전환 | 현재 선택된 항목을 숨기거나 표시합니다. 숨겨진 항목은 메뉴 사용자 지정 페이지에서 회색 선 패턴으로 나타납니다. |
+| 삭제 | 현재 선택된 항목을 메뉴에서 제거합니다. |
+| 기본값 복원 | 메뉴를 원래 상태로 복원합니다. |
