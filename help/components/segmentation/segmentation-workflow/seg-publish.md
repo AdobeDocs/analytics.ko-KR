@@ -7,7 +7,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
 workflow-type: tm+mt
 source-wordcount: '1325'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 ## [!UICONTROL 세그먼트 빌더]에서 세그먼트 게시
 
-1. **[!UICONTROL Analytics > 작업 영역 > 구성 요소 > 세그먼트] > +**&#x200B;로 이동합니다.
+1. **[!UICONTROL Analytics > Workspace > 구성 요소 > 세그먼트] > +**&#x200B;로 이동합니다.
 1. [!UICONTROL 세그먼트 빌더]에서 세그먼트를 만듭니다.
 1. 세그먼트용 제목과 설명을 입력합니다. 이렇게 하지 않으면 저장할 수 없습니다.
 1. **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시 (*보고서 세트*용)]**&#x200B;을 선택합니다.
@@ -94,7 +94,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 
 다음 스크린샷은 브라우저에서 AAM UUID를 검색하고 이를 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
 
-**방법 1:Adobe Experience Cloud Debugger 사용**
+**방법 1: Adobe Experience Cloud Debugger 사용**
 
 1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](/help/implement/validate/debugger.md)를 다운로드하여 설치합니다.
 1. 페이지를 로드할 때 디버거를 실행합니다.
