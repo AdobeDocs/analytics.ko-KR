@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Experience Platform (AEP) 웹 SDK에는 Platform과 Analytics 간에 데�
 
 Analytics에 자동으로 매핑되지 않는 XDM 데이터의 경우 [스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR)와 일치하도록 [컨텍스트 데이터](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=ko-KR)를 추가할 수 있습니다. 그런 다음 Analytics [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=ko-KR)에서 이 데이터를 사용하여 Analytics 변수를 채울 수 있습니다.
 
-또한 기본 작업 세트와 제품 목록을 사용하여 [AEP 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko-KR)로 데이터를 전송하거나 검색할 수 있습니다.
+또한 기본 작업 세트 및 제품 목록을 사용하여 [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)로 데이터를 전송하거나 검색할 수 있습니다.
 
 ## 컨텍스트 데이터
 
