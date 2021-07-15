@@ -6,7 +6,7 @@ exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->[속성 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html?lang=ko-KR) IQ 계산된 지표의 할당 모델을 평가하는 방법을 수정했습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
+>[기여도 분석 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html?lang=ko-KR)의 계산된 지표에 나타나는 할당 모델 평가 방식이 변경되었습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
 >
 >* 기본이 아닌 기여도 분석 모델 및 전환 확인 기간 창의 전체 목록에 대해서는 [속성 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 설명서를 참조하십시오.
 >* &quot;마케팅 채널 마지막 터치&quot; 및 &quot;마케팅 채널 첫 번째 터치&quot; 할당 모델은 새 &quot;마지막 터치&quot; 및 &quot;첫 번째 터치&quot; 기여도 분석 모델로 마이그레이션됩니다. 참고: &quot;마케팅 채널&quot;은 더 이상 사용되지 않으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용됩니다.
@@ -72,7 +72,7 @@ ht-degree: 97%
 | PROMO C | $1.67 | $0 | 2.50달러 |
 | 합계 | 10달러 | 10달러 | 10달러 |
 
-**이제 선형 할당 작동 방식에 대한 요약**
+**현재 선형 할당이 작동하는 방식에 대한 요약**
 
 [!DNL Analytics]에서는 이제 마지막 터치 또는 첫 번째 터치를 기반으로 하여 지속된 값을 사용하지 않고, 맨 위 표의 첫 번째 행에 전달된 값만 사용합니다. 따라서 차원 할당 설정은 더 이상 선형 할당이 계산되는 방식에 영향을 주지 않으며 (즉, props 및 eVars가 같은 방식으로 처리됨), 결과는 지속되었을 수 있는 첫 번째 또는 마지막 터치 값이 아닌 처음에 전달된 것을 반영합니다. 따라서 세 가지 경우 모두 A = 10 * (2/4) = $5, B = 10 * (1/4) = $2.50, C = 10 * (1/4) = $2.50입니다.
 
