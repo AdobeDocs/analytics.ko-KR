@@ -3,7 +3,7 @@ title: Adobe Analytics에서 사용하는 IP 및 도메인
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: f93ad7ec87c045956a3764c9a558bc193fa999d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
 ht-degree: 100%
 
