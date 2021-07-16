@@ -5,7 +5,7 @@ feature: 자유 형식 테이블
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -52,6 +52,6 @@ Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experiencel
 * 마우스 오른쪽 버튼을 클릭하고 > **[!UICONTROL 데이터를 CSV로 다운로드]**&#x200B;를 클릭하면 표시된 테이블 데이터를 CSV로 다운로드합니다. 테이블을 선택하면 이 옵션에는 **[!UICONTROL CSV로 선택 항목 다운로드]**&#x200B;가 표시됩니다.
 * 마우스 오른쪽 버튼을 클릭하고 > **[!UICONTROL 프로젝트 > CSV로 항목 다운로드]**&#x200B;를 선택하면 선택한 차원에 대해 최대 50,000개의 차원 항목이 내보내집니다.
 
-Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)에 대해 자세히 알아보십시오.
+Analysis Workspace용 모든 데이터 [내보내기 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR)에 대해 자세히 알아보십시오.
 
 ![](assets/export-options.png)
