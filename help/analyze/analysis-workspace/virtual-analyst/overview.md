@@ -5,13 +5,13 @@ feature: AI 도구
 role: User, Admin
 exl-id: ae4c79a4-d2eb-4383-92d3-fa5591135c73
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
 ---
 
-# 가상 분석가
+# Virtual Analyst
 
 Adobe Analytics의 일부인 기능들의 세트인 Virtual Analyst는 예측 알고리즘과 기계 학습을 사용하여 비즈니스에 영향을 주는 예외 항목에 대한 통찰력을 제공합니다. Virtual Analyst를 사용하면 가장 일반적이고 비용이 많이 드는 데이터 과학 워크플로를 자동화하여 데이터에서 비정상적인 행동을 유도하는 요인을 식별할 수 있습니다.
 
