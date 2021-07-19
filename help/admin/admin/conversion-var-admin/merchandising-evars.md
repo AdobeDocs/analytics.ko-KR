@@ -1,7 +1,7 @@
 ---
 title: 머천다이징 eVar 및 제품 검색 방법
 description: 머천다이징 eVar의 개념과 데이터 처리 및 할당 방법을 자세히 살펴봅니다.
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ Analytics 서버 호출에서 표준 eVar을 전송하면 post_evar 열의 값�
 
 요약하면 추가 구성 없이 머천다이징 eVar에 대한 기본 인스턴스 지표는 유용하지 않습니다. 다행히도, Adobe은 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en)을 발표했습니다. Adobe Analytics에서 수집하는 사용자 지정 지표에 대해 여러 속성 모델을 적용할 수 있습니다. 이러한 속성 모델을 적용하는 지표는 post_evar 열에 포함된 값이나 특정 제품에 바인딩된 값을 사용하지 않습니다. 대신, 이 지표들은 이미지 요청 자체를 통해 전달되는 값(또는 Adobe Analytics 처리 규칙을 통해 캡처되는 값)만 사용합니다. Attribution IQ의 기능을 사용하여 전환 변수 구문을 사용하는 모든 머천다이징 eVar에 대해 정확하게 인스턴스 지표를 가져올 수 있습니다.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 머천다이징 eVar에 대한 인스턴스 지표를 보고서에 추가할 때 적절한 Attribution IQ 모델은 &quot;마지막 터치&quot; 모델이 됩니다. 이 경우에는 모델에 대한 전환 확인 기간 설정이 중요하지 않습니다. 이유는 &quot;강제&quot; 마지막 터치 속성 모델이 요청을 통해 전달되는 각 개별 값에 항상 인스턴스 크레딧을 제공하기 때문입니다. 이는 eVar의 실제 속성/바인딩 설정이 &quot;가장 최근 (마지막)&quot;과 &quot;원래 값(처음)&quot;으로 설정되는지의 여부와 관계없이 적용됩니다.
