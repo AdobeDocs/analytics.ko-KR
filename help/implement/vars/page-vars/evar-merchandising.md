@@ -2,17 +2,18 @@
 title: eVar (머천다이징)
 description: 개별 제품에 연결된 사용자 지정 변수입니다.
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 93%
 
 ---
 
 # eVar (머천다이징)
 
 *이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar (머천다이징)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
+
+머천다이징 eVar 작동 방식에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)을 참조하십시오.
 
 ## 보고서 세트 설정에서 eVar 설정
 
