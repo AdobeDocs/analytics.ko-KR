@@ -1,28 +1,33 @@
 ---
 title: 데이터 레이어 개체를 데이터 요소에 매핑
-description: 데이터 레이어에서 읽을 Launch를 구성합니다.
+description: 데이터 레이어에서 읽을 태그를 구성합니다.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 57%
 
 ---
 
 # 데이터 레이어 개체를 데이터 요소에 매핑
 
-조직이 사이트에서 데이터 레이어를 설정하고 구현하면 Launch 내의 데이터 요소에 데이터 레이어 개체를 매핑할 수 있습니다.
+조직이 사이트에서 데이터 레이어를 설정하고 구현하면 태그 내의 데이터 요소에 데이터 레이어 개체를 매핑할 수 있습니다.
+
+>[!NOTE]
+>Adobe Experience Platform Launch은 Experience Platform에서 데이터 수집 기술 세트로 브랜딩되었습니다. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. 용어 변경 내용을 통합 참조하려면 다음 [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)을 참조하십시오.
 
 ## 사전 요구 사항
 
-[데이터 레이어 만들기](../prepare/data-layer.md): 사이트에 데이터 레이어가 있는지 확인합니다. 기술적으로 모든 JavaScript 개체를 매핑하거나 페이지에서 직접 CSS 요소를 스크랩할 수 있지만 Adobe에서는 이 방법을 마지막 수단으로 권장합니다. 사이트 레이아웃이 변경되면 Launch에 사용된 CSS 선택기의 작동이 중지되어 데이터가 손실됩니다.
+[데이터 레이어 만들기](../prepare/data-layer.md): 사이트에 데이터 레이어가 있는지 확인합니다. 기술적으로 모든 JavaScript 개체를 매핑하거나 페이지에서 직접 CSS 요소를 스크랩할 수 있지만 Adobe에서는 이 방법을 마지막 수단으로 권장합니다. 사이트 레이아웃이 변경되면 태그에 사용된 CSS 선택기의 작동이 중지되어 데이터가 손실됩니다.
 
-## Adobe Experience Platform Launch를 사용하여 데이터 요소 만들기
+## 태그를 사용하여 데이터 요소 만들기
 
-[데이터 요소](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html?lang=ko-KR#create-a-data-element)는 Launch의 구성 요소로서 도구 전체에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
+[데이터 ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 요소는 데이터 수집 UI에서 도구에서 사용할 수 있는 구성 요소입니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
-1. 원하는 Launch 속성을 클릭합니다.
+1. [experience.adobe.com](https://experience.adobe.com)으로 이동한 후 메시지가 표시되면 로그인합니다.
+1. **[!UICONTROL 시작 / 데이터 수집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Launch / Data Collection으로 이동]**&#x200B;을 클릭한 다음 **[!UICONTROL 태그]**&#x200B;를 선택합니다.
+1. 원하는 태그 속성을 클릭합니다.
 1. **[!UICONTROL 데이터 요소]** 탭을 클릭한 다음 **[!UICONTROL 데이터 요소 추가]**&#x200B;를 클릭합니다.
 
    ![데이터 요소 만들기](assets/createelement.png)
