@@ -5,9 +5,9 @@ title: 처리 순서
 feature: 관리 도구
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '503'
 ht-degree: 90%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 90%
 |--- |--- |
 | 동적 변수 조회 | HTTP 헤더 또는 기타 변수에서 정보를 가져와서 변수를 동적으로 채웁니다. 예를 들어 `s.eVar5="D=c1"`은 prop1의 값을 eVar5에 넣습니다. |
 | AppMeasurement | AppMeasurement에서 사용된 함수 및 플러그인은 브라우저 또는 클라이언트 애플리케이션에서 실행됩니다. |
-| 태그 관리 | Launch 또는 Dynamic Tag Management에서 정의된 규칙은 정의된 대로 실행됩니다. |
+| 태그 관리 | 데이터 수집 UI에 정의된 규칙은 정의된 대로 실행됩니다. |
 | 보트 규칙 | [보트 규칙](/help/admin/admin/bot-removal/bot-rules.md)을 사용하여 알려진 스파이더 및 보트가 생성하는 트래픽을 보고서 세트에서 제거할 수 있습니다. |
 
 ## 처리 규칙 이후
