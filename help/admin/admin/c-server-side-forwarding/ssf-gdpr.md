@@ -1,23 +1,22 @@
 ---
-description: EU 쿠키 준수 규정에 의해 유발된 서버 측 전달의 개선 사항을 설명합니다.
+description: EU 쿠키 준수 규정에서 촉발된 서버 측 전달에 대한 개선 사항을 설명합니다.
 title: GDPR/ePrivacy 준수 및 서버 측 전달
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 90%
+source-wordcount: '541'
+ht-degree: 80%
 
 ---
 
 # GDPR/ePrivacy 준수 및 서버 측 전달
 
-이 섹션에서는 2017년 9월 30일에 시행된 [EU 쿠키 준수 규정](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)에 의해 유발된 서버 측 전달의 개선 사항에 대해 설명합니다.
+이 섹션에서는 2017년 9월 30일에 시행된 [EU 쿠키 준수 규정](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)에서 촉발된 서버 측 전달에 대한 개선 사항을 설명합니다.
 
 서버 측 전달은 Adobe Analytics의 데이터를 Audience Manager와 같은 다른 [!DNL Experience Cloud Solutions]과 실시간으로 공유하는 데 사용됩니다. 이 기능이 활성화되어 있을 때 서버 측 전달을 사용하면 Analytics에서 데이터를 다른 Experience Cloud 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션으로 데이터를 Analytics에 푸시할 수 있습니다.
 
-이전에는 서버 측 전달에서 동의와 사전 동의 이벤트/히트 간을 지정할 수 없었습니다. 2018년 11월 1일부터, 데이터 컨트롤러(Adobe Analytics 고객)로서 데이터 사전 동의를 Adobe Analytics로 제한하여 AAM으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 AAM에 전송되지 않습니다.
+이전에는 서버 측 전달에서 동의와 사전 동의 이벤트/히트 간을 구분할 수 없었습니다. 2018년 11월 1일부터, 데이터 컨트롤러(Adobe Analytics 고객)로서 데이터 사전 동의를 Adobe Analytics로 제한하여 AAM으로 전달되지 않도록 하는 옵션이 제공됩니다. 새 구현 컨텍스트 변수를 사용하여 동의를 받지 못한 히트에 플래그를 지정할 수 있습니다. 변수를 설정하면 동의를 받을 때까지 이러한 히트가 AAM에 전송되지 않습니다.
 
 이 새 컨텍스트 변수 `cm.ssf=1`이 히트에 있으면 이 히트에 플래그가 지정되고 서버 측에서 AAM으로 전달되지 않습니다. 반대로 이 문자열이 히트에 표시되지 않으면 히트가 AAM에 전달됩니다.
 
@@ -29,7 +28,7 @@ ht-degree: 90%
 
 | 구현 방법 | 단계 |
 |--- |--- |
-| Adobe Experience Platform Launch | Adobe Analytics 확장 프로그램이 설치되어 있다고 가정할 경우 규칙에 다음 컨텍스트 데이터 변수 정의를 규칙의 동작 구성 내에 사용자 지정 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> 참고: 컨텍스트 데이터 변수를 정의하고, 고객이 타깃팅된 마케팅에 동의하지 않는 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
+| Adobe Experience Platform의 태그 | Adobe Analytics 확장이 설치되어 있다고 가정할 경우 규칙의 작업 구성 내에서 다음 컨텍스트 데이터 변수 정의를 사용자 지정 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고:  contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
 | AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다.  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 
 ## 보고(선택 사항) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
