@@ -1,30 +1,35 @@
 ---
-title: Launch에서 Analytics 속성 만들기
-description: Adobe Experience Platform Launch를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
+title: 태그에서 Analytics 속성 만들기
+description: 태그를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
-workflow-type: ht
-source-wordcount: '557'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 56%
 
 ---
 
-# Adobe Experience Platform Launch에서 Analytics 속성 만들기
+# Analytics 태그 속성 만들기
 
-Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Experience Cloud 솔루션을 통합하는 데 사용할 수 있는 도구입니다. 이 페이지에서는 Launch 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
+Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포함)에서 Experience Cloud 솔루션을 통합할 수 있습니다. 이 페이지에서는 태그 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
+
+>[!NOTE]
+>Adobe Experience Platform Launch은 Experience Platform에서 데이터 수집 기술 세트로 브랜딩되었습니다. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. 용어 변경 내용을 통합 참조하려면 다음 [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)을 참조하십시오.
 
 ## 사전 요구 사항
 
-[보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기
+[보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기.
 
-## 속성 만들기 및 중요한 확장 설치
+## 태그 속성을 만들고 중요한 확장을 설치합니다
 
 속성은 태그를 관리하는 데 사용하는 중요한 컨테이너입니다. 확장을 사용하면 제품별 태그를 설치하고 구성할 수 있습니다.
 
-1. [launch.adobe.com](https://launch.adobe.com)으로 이동한 후 메시지가 나타나면 로그인합니다.
+1. [experience.adobe.com](https://experience.adobe.com)으로 이동한 후 메시지가 표시되면 로그인합니다.
+1. **[!UICONTROL 시작 / 데이터 수집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Launch / Data Collection으로 이동]**&#x200B;을 클릭한 다음 **[!UICONTROL 태그]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 새 속성]**&#x200B;을 클릭합니다.
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. 새로 만든 속성을 클릭하여 해당 설정을 입력합니다.
+1. 새로 만든 태그 속성을 클릭하여 해당 설정을 입력합니다.
 1. **[!UICONTROL 확장]** 탭을 클릭한 다음 **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
 1. ID 서비스를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
@@ -34,8 +39,10 @@ Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Exper
 
 데이터 요소는 변수 값을 수집하기 위한 사이트의 특정 부분에 대한 참조입니다.
 
-1. [launch.adobe.com](https://launch.adobe.com)으로 이동한 후 메시지가 나타나면 로그인합니다.
-1. 사이트에서 구현할 Launch 속성을 클릭합니다.
+1. [experience.adobe.com](https://experience.adobe.com)으로 이동한 후 메시지가 표시되면 로그인합니다.
+1. **[!UICONTROL 시작 / 데이터 수집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Launch / Data Collection으로 이동]**&#x200B;을 클릭한 다음 **[!UICONTROL 태그]**&#x200B;를 선택합니다.
+1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 데이터 요소]** 탭을 클릭한 다음 **[!UICONTROL 새 데이터 요소 만들기]**&#x200B;를 클릭합니다.
 1. 데이터 요소에 다음 설정을 지정합니다.
 
@@ -55,8 +62,10 @@ Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Exper
 
 규칙은 데이터 요소를 Analytics 변수 값에 매핑하고, 이러한 값을 언제 Adobe의 서버로 전송해야 하는지를 결정합니다.
 
-1. [launch.adobe.com](https://launch.adobe.com)으로 이동한 후 메시지가 나타나면 로그인합니다.
-1. 사이트에서 구현할 Launch 속성을 클릭합니다.
+1. [experience.adobe.com](https://experience.adobe.com)으로 이동한 후 메시지가 표시되면 로그인합니다.
+1. **[!UICONTROL 시작 / 데이터 수집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Launch / Data Collection으로 이동]**&#x200B;을 클릭한 다음 **[!UICONTROL 태그]**&#x200B;를 선택합니다.
+1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 새 규칙 만들기]**&#x200B;를 클릭하고 이름을 `Global Rule`로 지정합니다.
 1. 이벤트 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭하고 다음 설정을 입력합니다.
    * 확장: 핵심
@@ -80,9 +89,9 @@ Adobe Experience Platform Launch는 웹 사이트 (Analytics 포함)에서 Exper
 
 ## 문서 및 추가 리소스
 
-* [Adobe Analytics 확장 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ko#extensions-ref): Adobe Experience Platform Launch의 Adobe Analytics 확장에 대한 모든 내용이 들어 있는 문서입니다.
-* [Launch 시작하기](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=ko#get-started): 더 심층적인 시작 안내서를 포함하여 Launch에 대한 모든 내용이 들어 있는 문서입니다.
-* [Adobe Experience Platform Launch 채널](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): 비디오를 통해 Launch를 사용하는 방법을 알아봅니다.
+* [Adobe Analytics 확장 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): 태그의 Adobe Analytics 확장과 관련된 전체 문서입니다.
+* [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en) 시작: 보다 심층적인 시작 안내서를 포함하여 태그에 대한 전체 문서입니다
+* [Adobe Experience Platform Launch 채널](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): 비디오를 통해 태그를 사용하는 방법 알아보기
 
 ## 다음 단계
 
