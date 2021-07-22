@@ -2,10 +2,10 @@
 title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 83%
 
 ---
 
@@ -28,16 +28,15 @@ JavaScript 코드가 이미지 요청을 Adobe 데이터 수집 서버에 전송
 
 Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 웹 사이트, 모바일 앱 또는 기타 애플리케이션 내에 코드가 있어야 합니다. 플랫폼과 조직의 요구 사항에 따라 이 코드를 구현하는 방법에는 몇 가지가 있습니다.
 
-* **Adobe Experience Platform Launch**: Adobe Analytics 구현을 위한 표준화된 권장 방법입니다. 각 페이지에 로더 태그를 배치하고 Launch 인터페이스를 사용하여 각 변수가 정의된 방식을 결정합니다.
-* **Dynamic Tag Management**: Dynamic Tag Management 서비스가 중단되었습니다.
-* **기존 JavaScript**: Adobe Analytics를 구현하는 과거의 수동 방법입니다. 구현에서 사용되는 변수 및 설정을 간략하게 설명합니다. 이는 사용자 지정 코드가 있는 규칙을 사용하는 Launch 구현에 유용합니다.
+* **태그 Adobe Experience Platform**: Adobe Analytics 구현을 위한 표준화된 권장 방법입니다. 각 페이지에 로더 태그를 배치하고 데이터 수집 UI를 사용하여 각 변수가 정의된 방식을 결정합니다.
+* **기존 JavaScript**: Adobe Analytics를 구현하는 과거의 수동 방법입니다. 구현에 사용된 변수 및 설정에 대해 설명합니다. 이 변수는 사용자 지정 코드가 있는 규칙을 사용하여 태그 구현에 유용할 수 있습니다.
 * **Mobile SDK**: 모바일 앱 내에서 데이터를 Adobe에 쉽게 전송할 수 있는 전용 라이브러리입니다.
 
 ## 주요 Analytics 구현 문서
 
 * [기존 Adobe Analytics 구현 관리](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [Experience Platform Launch에서 속성 만들기](launch/create-analytics-property.md)
+* [Experience Platform에서 태그 속성 만들기](launch/create-analytics-property.md)
 * [AppMeasurement 업데이트](appmeasurement-updates.md)
 
 ## 기타 Analytics 사용 안내서
