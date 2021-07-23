@@ -2,10 +2,10 @@
 title: Adobe Analytics 첫 번째 관리 안내서
 description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는 방법을 알아봅니다.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 91%
+source-wordcount: '949'
+ht-degree: 78%
 
 ---
 
@@ -40,23 +40,23 @@ ht-degree: 91%
 1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. 저장을 클릭합니다.
 1. 이제 사용자는 Adobe Analytics에 대한 전체 액세스 권한을 갖습니다.
 
-## Experience Platform(이전의 Launch)에서 데이터 수집에 대한 제품 관리자 액세스 권한 부여
+## Experience Platform의 데이터 수집에 대한 제품 관리자 액세스 권한 부여
 
-Experience Platform에서 태그에 대한 제품 관리자 액세스 권한은 Analytics에 대한 제품 관리자 액세스 권한을 부여하는 것과 거의 동일합니다.
+Experience Platform의 데이터 수집에 대한 제품 관리자 액세스 권한은 Analytics에 대한 제품 관리자 액세스 권한을 부여하는 것과 거의 동일합니다.
 
 1. Adobe ID 자격 증명으로 Admin Console에 로그인합니다. 
-1. 맨 위에 있는 제품 탭을 클릭합니다. 조직에서 구입한 모든 제품은 왼쪽에 있습니다. Adobe Experience Platform Launch를 클릭한 다음 새 프로필 단추를 클릭합니다.
-1. 이 프로필의 이름을 &#39;Experience Platform Launch 전체 관리자 액세스 권한&#39;으로 지정한 다음 완료를 클릭합니다.
-1. 제품 프로필 페이지로 돌아가서 새로 만든 프로필을 클릭한 다음 권한 탭을 클릭합니다.
-1. 권한 라인 항목 중 하나를 클릭합니다. 자동 포함을 사용할 수 있는 경우 활성화합니다. 자동 포함을 사용할 수 없는 경우 모두 추가를 클릭합니다. 두 옵션 모두 모든 권한 항목을 오른쪽 열로 이동합니다.
-1. 저장을 클릭합니다. 모든 권한 카테고리에 대해 위의 단계를 반복합니다.
-1. 프로필에 모든 권한 카테고리가 부여되면 맨 위의 개요를 클릭하여 개요 페이지로 돌아갑니다.
-1. Adobe Experience Platform Launch 타일 아래의 &#39;사용자 할당&#39;을 클릭합니다.
-1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. 저장을 클릭합니다.
-1. 이제 사용자는 Experience Platform Launch에 대한 전체 액세스 권한을 갖습니다.
+1. 맨 위에 있는 **[!UICONTROL 제품]** 탭을 클릭합니다. 조직에서 구입한 모든 제품은 왼쪽에 있습니다. Adobe ]**별로**[!UICONTROL  Experience Platform Launch을 클릭한 다음 **[!UICONTROL 새 프로필]**&#x200B;을 클릭합니다.
+1. 이 프로필의 이름을 &#39;Experience Platform Launch 전체 관리자 액세스 권한&#39;으로 지정한 다음 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 제품 프로필]** 페이지로 돌아가서 새로 만든 프로필을 클릭한 다음 **[!UICONTROL 권한]** 탭을 클릭합니다.
+1. 권한 라인 항목 중 하나를 클릭합니다. **[!UICONTROL 자동 포함]**&#x200B;을 사용할 수 있는 경우 활성화하십시오. 자동 포함을 사용할 수 없는 경우 **[!UICONTROL 모두 추가]**&#x200B;를 클릭하십시오. 두 옵션 모두 모든 권한 항목을 오른쪽 열로 이동합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 모든 권한 카테고리에 대해 위의 단계를 반복합니다.
+1. 프로필에 모든 권한 카테고리가 부여되면 맨 위의 **[!UICONTROL 개요]**&#x200B;를 클릭하여 개요 페이지로 돌아갑니다.
+1. [!UICONTROL Adobe] 타일에서 **[!UICONTROL 사용자 할당]**&#x200B;을 클릭합니다.
+1. 전체 Analytics 액세스 권한을 부여할 이메일 주소를 입력하고 새로 만든 전체 관리자 액세스 프로필을 지정합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 이제 사용자는 Experience Platform 데이터 수집에 대한 전체 액세스 권한을 갖습니다.
 
 ## 다음 단계
 
 [보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
 
-[Experience Platform Launch에서 속성 만들기](/help/implement/launch/create-analytics-property.md): Experience Platform Launch 관리자가 도구에 로그인하고 사이트에서 구현할 속성을 만들 수 있습니다.
+[Analytics 태그 속성을 만듭니다](/help/implement/launch/create-analytics-property.md). 데이터 수집 관리자가 도구에 로그인하고 사이트에서 구현할 속성을 만들 수 있습니다.
