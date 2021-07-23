@@ -2,11 +2,10 @@
 title: 모바일 차원
 description: 디바이스의 IP 주소를 기반으로 하는 차원입니다.
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 ## 데이터로 이 차원 채우기
 
 이 차원은 Adobe 내부 조회 규칙을 참조합니다. [!UICONTROL 이동통신사] 조회는 NetAcuity (디지털 요소 제품)에서 얻은 데이터를 사용하여 IP 주소로 결정됩니다.
-AppMeasurement 라이브러리를 사용하는 경우 (Adobe Experience Platform Launch 등을 통해) 모든 모바일 차원이 즉시 작동합니다.
+AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 모든 모바일 차원이 즉시 작동합니다.
 
 ## 모바일 차원 설명
 
