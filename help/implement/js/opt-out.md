@@ -2,10 +2,10 @@
 title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 95%
 
 ---
 
@@ -27,19 +27,22 @@ ht-degree: 100%
 
 조직에 대한 옵트아웃 페이지는 구현의 [`trackingServer`](../vars/config-vars/trackingserver.md) 변수 값에 따라 다릅니다.
 
-* Adobe Experience Platform Launch에서:
-   1. [launch.adobe.com](https://launch.adobe.com)에 로그인하고 원하는 속성을 클릭합니다.
-   2. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
-   3. [!UICONTROL 일반] 아코디언을 클릭하고 [!UICONTROL 추적 서버] 값을 확인합니다.
+* Adobe Experience Platform Data Collection UI에서:
+   1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
+   1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
+   1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
+   1. 원하는 속성을 클릭합니다.
+   1. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
+   1. [!UICONTROL 일반] 아코디언을 클릭하고 [!UICONTROL 추적 서버] 값을 확인합니다.
 
 * JavaScript 구현에서:
    1. 웹 서버에서, 사이트에서 사용되는 AppMeasurement.js 파일을 코드 또는 텍스트 편집기에서 엽니다.
-   2. `trackingServer` 변수 값을 확인합니다.
+   1. `trackingServer` 변수 값을 확인합니다.
 
 * [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR) 사용:
    1. Chrome 브라우저를 사용하여 사이트로 이동합니다.
-   2. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
-   3. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
+   1. Experience Cloud Debugger를 열고 [!UICONTROL 네트워크 탭]으로 이동합니다.
+   1. [!UICONTROL 요청 URL - 호스트 이름] 값을 확인합니다.
 
 구현의 `trackingServer` 도메인을 찾으면 경로 `/optout.html`을 끝에 추가합니다. 예:
 
