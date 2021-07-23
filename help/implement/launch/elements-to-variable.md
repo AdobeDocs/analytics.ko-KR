@@ -2,10 +2,10 @@
 title: 태그 데이터 요소를 Analytics 변수에 매핑
 description: Analysis Workspace에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 73%
+source-wordcount: '505'
+ht-degree: 62%
 
 ---
 
@@ -30,16 +30,20 @@ ht-degree: 73%
 
 전역 변수는 데이터 요소가 있는 모든 페이지에서 변수 값을 설정하려는 경우에 이상적입니다.
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
+1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
+1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
+1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 확장 탭]을 클릭한 다음 Adobe Analytics 확장 프로그램 아래에서 [!UICONTROL 구성]을 클릭합니다.
 1. [!UICONTROL 전역 변수] 아코디언을 클릭하면 전역 변수를 할당하는 인터페이스가 표시됩니다.
 
 ### 규칙의 변수 설정
 
-규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. Adobe Experience Platform Launch 사용 안내서의 [규칙](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=ko-KR)을 참조하십시오.
+규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. Adobe Experience Platform 데이터 수집 설명서에서 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)을 참조하십시오.
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
+1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
+1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
+1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭을 클릭하고 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 1. [!UICONTROL 작업] 아래의 [!UICONTROL 추가] 버튼을 클릭합니다.
