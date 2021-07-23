@@ -2,11 +2,10 @@
 title: 데이터 계층 만들기
 description: Analytics 구현에서 데이터 계층이 무엇이고 Adobe Analytics에서 이 데이터 계층을 사용하여 변수를 매핑하는 방법을 알아봅니다.
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 83%
 
 ---
 
@@ -28,8 +27,8 @@ ht-degree: 100%
    >
    >다음의 Adobe 권장 데이터 계층 사양은 선택 사항입니다. 이미 데이터 계층이 있거나 Adobe의 사양을 따르지 않기로 선택하는 경우, 따로 따라야 할 사양을 조직이 충족하도록 해야 합니다.
 1. **브라우저 콘솔을 사용하여 데이터 계층의 유효성 검사**: 데이터 계층이 만들어지면 브라우저의 개발자 콘솔을 사용하여 데이터 계층이 작동하는지 확인할 수 있습니다. `F12` 키를 사용하면 대부분의 브라우저에서 개발자 콘솔을 열 수 있습니다. 변수 값의 예는 `digitalData.page.pageInfo.pageID`입니다.
-1. **Adobe Experience Platform Launch를 사용하여 데이터 계층 개체를 Launch 데이터 요소에 매핑**: Launch에서 데이터 요소를 만들고 데이터 계층에 요약된 JavaScript 속성에 매핑합니다.
-1. **Launch에서 Adobe Analytics 확장을 사용하여 데이터 요소를 Analytics 변수에 매핑**: 솔루션 디자인 문서에 따라 각 데이터 요소를 적절한 Analytics 변수에 지정합니다.
+1. **Adobe Experience Platform 태그를 사용하여 데이터 레이어 개체를 데이터 요소에 매핑합니다**. Adobe Experience Platform의 데이터 수집 UI에서 데이터 요소를 만들고 데이터 계층에 요약된 JavaScript 속성에 매핑합니다.
+1. **Adobe Analytics 태그 확장을 사용하여 데이터 요소를 Analytics 변수에 매핑합니다**. 솔루션 디자인 문서에 따라 각 데이터 요소를 적절한 Analytics 변수에 지정합니다.
 
 ## 사양
 
@@ -177,4 +176,4 @@ digitalData = {
 
 ## 다음 단계
 
-[데이터 레이어 개체를 데이터 요소에 매핑](../launch/layer-to-elements.md): Adobe Experience Platform Launch에서 사이트의 데이터 레이어를 사용합니다.
+[데이터 레이어 개체를 데이터 요소에 매핑](../launch/layer-to-elements.md): Adobe Experience Platform에서 사이트의 데이터 레이어를 사용합니다.
