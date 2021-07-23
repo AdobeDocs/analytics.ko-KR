@@ -2,11 +2,10 @@
 title: 운영 체제
 description: 방문자의 운영 체제입니다.
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. AppMeasurement 라이브러리를 사용하는 경우 (Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. 
+이 차원은 Adobe 내부의 조회 테이블을 참조합니다. 조회 값은 이미지 요청에 있는 `User-Agent` HTTP 헤더를 기반으로 합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다.
 
 ## 차원 항목
 
