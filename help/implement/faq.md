@@ -2,10 +2,10 @@
 title: 구현 FAQ
 description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ ID 서비스는 Experience Cloud에 있는 다른 솔루션 간에 공유할 수
 
 ## Adobe의 서비스 중단이 성능에 영향을 줄 수 있습니까?
 
-아니요. JavaScript 파일은 Adobe 서버에서 호스팅되지 않으므로 Adobe 중단은 AppMeasurement 라이브러리에 영향을 주지 않습니다. Adobe Experience Platform Launch를 사용하는 경우, JavaScript 파일은 Akamai에 의해 호스팅되거나, 조직이 결정한 서버 위치에서 호스팅됩니다.
+아니요. JavaScript 파일은 Adobe 서버에서 호스팅되지 않으므로 Adobe 중단은 AppMeasurement 라이브러리에 영향을 주지 않습니다. Adobe Experience Platform에서 태그를 사용하는 경우, JavaScript 파일은 Akamai에 의해 호스트되거나, 조직이 결정한 서버 위치에서 호스트됩니다.
 
 ## 데이터를 브라우저에서 Adobe 서비스로 보내면 성능이 저하될 수 있습니까?
 
@@ -33,7 +33,7 @@ AppMeasurement는 HTML 페이지 내에 이미지 개체를 만들며, 그렇게
 
 조직이 계약 만료 때문에 또는 서버 호출 수를 줄이기 위해 구현을 제거하려는 경우가 있습니다.
 
-* **Launch를 사용한 구현**: [!UICONTROL 확장] 탭에서 Adobe Analytics 확장 기능을 비활성화하거나 제거한 다음 게시합니다.
+* **Adobe Experience Platform에서 태그를 사용하는 구현**: 확장 프로그램 탭에서 Adobe Analytics 확장 프로그램을   비활성화하거나 제거한 다음 게시합니다.
 * **이전 AppMeasurement 구현**: `s_code.js` 파일의 전체 콘텐츠를 다음 코드 줄로 바꿉니다.
 
 ```js
