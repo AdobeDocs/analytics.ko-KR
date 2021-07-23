@@ -2,14 +2,14 @@
 title: 태그에서 Analytics 속성 만들기
 description: 태그를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 56%
 
 ---
 
-# Analytics 태그 속성 만들기
+# Adobe Analytics 태그 속성 만들기
 
 Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포함)에서 Experience Cloud 솔루션을 통합할 수 있습니다. 이 페이지에서는 태그 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
 
