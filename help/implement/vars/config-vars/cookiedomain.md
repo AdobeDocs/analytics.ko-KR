@@ -2,11 +2,10 @@
 title: cookieDomain
 description: cookieDomain 변수는 쿠키를 설정할 도메인을 결정하는 데 도움이 됩니다.
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 87%
 
 ---
 
@@ -25,11 +24,11 @@ ht-degree: 100%
 
 적은 수의 구현만 `cookieDomain` 변수를 사용할 수 있으며, 그러한 때에도 [`cookieDomainPeriods`](cookiedomainperiods.md)같은 대체 변수를 대신 사용할 수 있습니다.
 
-## Adobe Experience Platform Launch의 쿠키 도메인
+## Adobe Experience Platform 데이터 컬렉션의 쿠키 도메인
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.cookieDomain
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.cookieDomain
 
 `cookieDomain` 변수는 문자열이며, 쿠키를 저장할 도메인으로 설정됩니다.
 
