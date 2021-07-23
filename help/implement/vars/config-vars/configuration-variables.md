@@ -2,11 +2,10 @@
 title: 구성 변수
 description: 구성 변수를 사용하여 데이터를 수집하는 방법을 결정합니다.
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '123'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 64%
 
 ---
 
@@ -18,11 +17,13 @@ ht-degree: 100%
 
 `AppMeasurement.js`를 사용하는 JavaScript 구현에서 구성 변수는 일반적으로 JS 파일의 맨 위에 설정됩니다.
 
-Adobe Experience Platform Launch를 사용하는 구현에서 구성 변수는 일반적으로 Adobe Analytics 확장을 구성하여 찾습니다.
+Adobe Experience Platform 태그를 사용하는 구현에서 구성 변수는 일반적으로 Adobe Analytics 확장을 구성하여 찾습니다.
 
-1. Adobe ID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
-2. 편집할 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
+1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
+1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
+1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
+1. 편집할 속성을 클릭합니다.
+1. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
 
 >[!IMPORTANT]
 >
