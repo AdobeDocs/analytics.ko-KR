@@ -2,11 +2,10 @@
 title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 95%
 
 ---
 
@@ -26,14 +25,16 @@ ht-degree: 100%
 
 이 변수는 히트 간에 지속되지 않습니다. 이 변수가 매출 또는 통화 이벤트를 포함하는 모든 페이지에서 정의되었는지 확인하십시오.
 
-## Adobe Experience Platform Launch의 통화 코드
+## Adobe Experience Platform 태그의 통화 코드
 
 통화 코드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 일반] 아코디언 아래의 필드입니다.
 
-1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
-2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
-4. [!UICONTROL 일반] 아코디언을 확장합니다. 그러면 [!UICONTROL 통화 코드] 필드가 표시됩니다.
+1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
+1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
+1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
+1. 원하는 속성을 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
+1. [!UICONTROL 일반] 아코디언을 확장합니다. 그러면 [!UICONTROL 통화 코드] 필드가 표시됩니다.
 
 사전 설정된 통화 코드나 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
 
@@ -42,12 +43,12 @@ ht-degree: 100%
 통화 코드는 Adobe Analytics 확장의 컨텍스트 데이터 변수를 통해 Adobe Experience Platform Mobile SDK에 전달됩니다.
 
 1. `trackState` 또는 `trackAction` 동안 컨텍스트 데이터 변수에 통화 코드를 설정합니다.
-2. 보고서 세트에 대한 Adobe Analytics Admin Console에서 처리 규칙을 만듭니다. 통화 코드 변수를 덮어쓰는 규칙을 설정합니다.
-3. 통화 코드를 `trackState` 또는 `trackAction` 호출에서 `products` 변수에 전달합니다.
+1. 보고서 세트에 대한 Adobe Analytics Admin Console에서 처리 규칙을 만듭니다. 통화 코드 변수를 덮어쓰는 규칙을 설정합니다.
+1. 통화 코드를 `trackState` 또는 `trackAction` 호출에서 `products` 변수에 전달합니다.
 
 사전 설정된 통화 코드나 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.currencyCode
+## AppMeasurement 및 데이터 수집 사용자 지정 코드 편집기의 s.currencyCode
 
 `s.currencyCode` 변수는 페이지의 통화를 나타내는 3자로 된 대문자 코드를 포함하는 문자열입니다.
 
