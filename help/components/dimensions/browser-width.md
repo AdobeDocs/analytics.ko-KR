@@ -2,11 +2,10 @@
 title: 브라우저 너비 - 전체기간
 description: 브라우저 창의 폭 (픽셀 단위)입니다.
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 이미지 요청의 [`bw` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `window.innerWidth`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우 (Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 각 방문의 첫 번째 히트에서 `bw` 쿼리 문자열 매개 변수를 포함해야 합니다.
+이 차원은 이미지 요청의 [`bw` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `window.innerWidth`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 각 방문의 첫 번째 히트에서 `bw` 쿼리 문자열 매개 변수를 포함해야 합니다.
 
 Adobe는 방문에 대해 브라우저 너비를 유지합니다. 브라우저 너비를 중간에 조정하면 조정이 기록되지 않습니다.
 
