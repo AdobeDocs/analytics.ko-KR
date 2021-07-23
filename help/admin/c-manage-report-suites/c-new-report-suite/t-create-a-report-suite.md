@@ -3,10 +3,10 @@ description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이�
 title: 보고서 세트 만들기
 feature: 관리 도구
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 65%
+source-wordcount: '376'
+ht-degree: 66%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 65%
 
 ## 사전 요구 사항
 
-[Adobe Analytics 첫 번째 관리 안내서](/help/admin/admin-console/first-admin-guide.md):시스템 수준 관리자가 Experience Cloud Admin Console을 통해 Adobe Analytics에 대한 액세스 권한을 부여했는지 확인합니다.
+[Adobe Analytics 첫 번째 관리 안내서](/help/admin/admin-console/first-admin-guide.md): 시스템 수준 관리자가 Experience Cloud Admin Console을 통해 Adobe Analytics에 대한 액세스 권한을 부여했는지 확인합니다.
 
 ## 보고서 세트 만들기 {#create-report-suite}
 
@@ -47,4 +47,4 @@ my.omniture.com을 통해서가 아니라 [Experience Cloud](https://experience.
 
 ## 다음 단계
 
-[Adobe Experience Platform Launch에서 Adobe Analytics에 대한 속성을 만들고 구성합니다](/help/implement/launch/create-analytics-property.md).Analytics 구현을 관리할 영역 만들기
+[Adobe Analytics 태그 속성을 만듭니다  ](/help/implement/launch/create-analytics-property.md). Analytics 구현을 관리할 영역 만들기
