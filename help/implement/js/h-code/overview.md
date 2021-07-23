@@ -2,11 +2,10 @@
 title: H 코드 JavaScript 구현 개요
 description: 사이트에서 H 코드를 구현하는 워크플로에 대해 알아봅니다.
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->이 버전의 데이터 수집은 더 이상 지원되지 않습니다. [Adobe Experience Platform Launch](../../launch/overview.md)나 [AppMeasurement for JavaScript](../overview.md)로 업그레이드하십시오.
+>이 버전의 데이터 수집은 더 이상 지원되지 않습니다. Adobe Experience Platform](../../launch/overview.md) 또는 [AppMeasurement for JavaScript](../overview.md)의 [태그로 업그레이드하십시오.
 
 데이터를 수집하기 위해 코드가 있는 페이지를 성공적으로 구현하려면 호스팅 서버에 액세스할 수 있어야 합니다. 다음은 기초 Analytics H 코드 구현 단계입니다.
 
