@@ -2,11 +2,10 @@
 title: abort
 description: abort 변수는 히트가 Adobe 데이터 수집 서버에 전송되지 않도록 하는 부울입니다.
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 79%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 `abort` 변수는 그 다음 추적 호출이 Adobe에 전송되지 않도록 하는 부울입니다.
 
-## Adobe Experience Platform Launch에서 abort 변수 사용
+## Adobe Experience Platform의 데이터 수집 UI에서 abort 변수 사용
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 구문 및 Launch의 사용자 지정 코드 편집기
+## 데이터 수집 UI의 AppMeasurement 구문 및 사용자 지정 코드 편집기
 
 `abort` 변수는 부울입니다. 기본값은 `false`입니다.
 
