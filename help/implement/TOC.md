@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 91%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 91%
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + 페이지 변수 {page-vars}
+   + 페이지 변수 {#page-vars}
       + [페이지 변수 개요](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
