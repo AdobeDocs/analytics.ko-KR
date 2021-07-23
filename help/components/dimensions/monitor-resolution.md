@@ -2,11 +2,10 @@
 title: 모니터 해상도
 description: 방문자 모니터의 해상도 (픽셀 단위)입니다.
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 이미지 요청의 [`s` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `screen.width` 및 `screen.height`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우 (Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 이미지 요청에 `s` 쿼리 문자열 매개 변수를 포함해야 합니다.
+이 차원은 이미지 요청의 [`s` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `screen.width` 및 `screen.height`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 이미지 요청에 `s` 쿼리 문자열 매개 변수를 포함해야 합니다.
 
 ## 차원 항목
 
