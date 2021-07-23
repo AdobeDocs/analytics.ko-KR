@@ -2,11 +2,10 @@
 title: 색상 깊이
 description: 장치의 색상 깊이입니다.
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 조회 테이블을 참조하며 비트 값을 보다 읽기 쉬운 형식으로 변환하며 이미지 요청의 [`c` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 수집합니다. AppMeasurement는 `screen.colorDepth` 변수를 사용하여 이미지 요청 쿼리 문자열을 채웁니다. AppMeasurement를 사용하는 경우 (Adobe Experience Platform Launch 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 유효한 비트 값으로 각 히트에서 `c` 쿼리 문자열 매개 변수를 포함해야 합니다.
+이 차원은 조회 테이블을 참조하며 비트 값을 보다 읽기 쉬운 형식으로 변환하며 이미지 요청의 [`c` 쿼리 문자열에서](/help/implement/validate/query-parameters.md) 데이터를 수집합니다. AppMeasurement는 `screen.colorDepth` 변수를 사용하여 이미지 요청 쿼리 문자열을 채웁니다. AppMeasurement를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 유효한 비트 값으로 각 히트에서 `c` 쿼리 문자열 매개 변수를 포함해야 합니다.
 
 ## 차원 항목
 
