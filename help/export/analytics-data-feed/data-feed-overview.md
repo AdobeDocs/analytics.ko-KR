@@ -4,10 +4,10 @@ keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Analytics 데이터 피드 개요
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 데이터 피드를 사용하기 전에 다음 요구 사항을 모두 충족하는지 확인하십시오.
 
 * FTP 사이트 및 자격 증명을 바로 사용할 수 있습니다. 데이터 피드는 서버 대상으로만 전송할 수 있습니다. 조직은 일반적으로 FTP 자격 증명을 제공합니다. Adobe는 요청 시 적절한 양의 저장소를 FTP 위치에 제공할 수 있습니다. 데이터 피드에 대한 FTP 대상을 요청하려면 고객 지원팀에 문의하십시오.
-* 데이터를 Adobe 데이터 수집 서버에 전송하는 작동 중인 구현. 구현 사용 안내서의 [Launch에서 구현 유효성 검사 및 게시](/help/implement/launch/validate-publish-prod.md)를 참조하십시오.
+* 데이터를 Adobe 데이터 수집 서버에 전송하는 작동 중인 구현. 구현 사용 안내서에서 [구현의 유효성 검사 및 게시](/help/implement/launch/validate-publish-prod.md)를 참조하십시오.
 * 계정이 Analytics 제품 관리자이거나 계정이 데이터 피드에 대해 액세스 권한이 있는 제품 프로필에 속합니다.
 
 ## 시작하는 절차
