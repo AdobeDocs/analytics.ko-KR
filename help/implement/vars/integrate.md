@@ -2,10 +2,10 @@
 title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '880'
-ht-degree: 100%
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe 파트너와 협력하는 조직은 이러한 단계를 사용하여 모�
 
 ### 모듈 통합 코드 얻기
 
-모듈 코드를 얻으려면 사용자에게 제품 관리자 액세스 권한이 있거나 코드 관리자에 액세스할 수 있는 제품 프로필에 속해 있어야 합니다. 모듈 코드를 얻는 방법은 Adobe Experience Platform Launch를 비롯한 모든 구현 방법에 대해 동일합니다.
+모듈 코드를 얻으려면 사용자에게 제품 관리자 액세스 권한이 있거나 코드 관리자에 액세스할 수 있는 제품 프로필에 속해 있어야 합니다. 모듈 코드를 얻는 방법은 Adobe Experience Platform의 태그를 포함하여 모든 구현 방법에 대해 동일합니다.
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
@@ -40,13 +40,15 @@ Adobe 파트너와 협력하는 조직은 이러한 단계를 사용하여 모�
 
 ### 구현에 모듈 통합 배치
 
-사이트에 모듈 통합을 구현하려면 Adobe Experience Platform Launch에 액세스해야 합니다. 기존 JavaScript 구현을 사용하는 경우 조직의 웹 사이트 소스 코드에 액세스해야 합니다.
+사이트에 모듈 통합을 구현하려면 Adobe Experience Platform의 데이터 수집 UI에 액세스해야 합니다. 기존 JavaScript 구현을 사용하는 경우 조직의 웹 사이트 소스 코드에 액세스해야 합니다.
 
-1. Adobe ID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
-2. 편집할 Launch 속성을 클릭합니다.
-3. 확장 탭을 클릭한 다음 Adobe Analytics 아래의 구성을 클릭합니다.
-4. 먼저 &#39;사용자 지정 코드를 사용하여 추적기 구성&#39; 아코디언을 열고 &#39;&lt;/> 편집기 열기&#39;를 클릭합니다.
-5. 모듈 통합 코드를 코드 모달 창에 붙여넣습니다. 완료되면 저장을 클릭합니다.
+1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
+1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
+1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
+1. 편집할 태그 속성을 클릭합니다.
+1. 확장 탭을 클릭한 다음 Adobe Analytics 아래의 구성을 클릭합니다.
+1. 먼저 &#39;사용자 지정 코드를 사용하여 추적기 구성&#39; 아코디언을 열고 &#39;&lt;/> 편집기 열기&#39;를 클릭합니다.
+1. 모듈 통합 코드를 코드 모달 창에 붙여넣습니다. 완료되면 저장을 클릭합니다.
 
 ## 모듈 통합 메서드
 
