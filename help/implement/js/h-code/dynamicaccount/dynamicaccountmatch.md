@@ -2,11 +2,10 @@
 title: dynamicAccountMatch
 description: dynamicAccountMatch 변수는 동적 계정에서 볼 값을 결정합니다.
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->동적 계정은 이전 JavaScript 구현 (H 코드)을 사용해야만 지원됩니다. 이러한 변수는 현재 AppMeasurement 라이브러리 또는 Adobe Experience Platform Launch에서 지원되지 않습니다.
+>동적 계정은 이전 JavaScript 구현 (H 코드)을 사용해야만 지원됩니다. 이러한 변수는 Adobe Experience Platform의 현재 AppMeasurement 라이브러리 또는 태그에서 지원되지 않습니다.
 
 `dynamicAccountMatch` 변수는 `dynamicAccountList`에서 보고 그 값을 비교하는 값입니다. `dynamicAccountSelection`이 `true`로 설정되지 않으면 이 변수는 무시됩니다.
 
