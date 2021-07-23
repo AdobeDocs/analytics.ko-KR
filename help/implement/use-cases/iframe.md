@@ -2,10 +2,10 @@
 title: iframe과 함께 AppMeasurement 사용
 description: iframe에 있는 동안 iframe 또는 상위 페이지 내에서 Adobe Analytics 변수에 액세스합니다.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 하위 및 상위 iframe 모두에서 AppMeasurement 변수를 참조할 수 있습니다. AppMeasurement 라이브러리가 존재하는 동일한 위치에 모든 변수를 정의해야 합니다. 다음 예에서는 iframe 내부 및 외부에서 기본 AppMeasurement 변수 및 메서드를 설정하는 방법을 설명합니다.
 
-Adobe Experience Platform Launch를 사용하는 경우 추적기 개체에 전역적으로 액세스할 수 있는지 확인하십시오. Launch 사용 안내서의 [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ko-KR)를 참조하십시오.
+Adobe Experience Platform에서 태그를 사용하는 경우 추적기 개체가 전체적으로 액세스할 수 있는지 확인하십시오. [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)를 참조하십시오.
 
 >[!CAUTION]
 >
