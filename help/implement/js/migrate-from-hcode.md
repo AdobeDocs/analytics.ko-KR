@@ -2,16 +2,16 @@
 title: JavaScript용 AppMeasurement로의 마이그레이션
 description: H 코드의 구현을 마이그레이션하는 데 필요한 사항을 결정합니다.
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 93%
 
 ---
 
 # JavaScript용 AppMeasurement로의 마이그레이션
 
-구현에서 여전히 H 코드를 사용하는 경우 최신 버전의 AppMeasurement로 마이그레이션하는 것이 좋습니다. [Adobe Experience Platform Launch](../launch/overview.md)를 통해 Analytics를 구현하는 것이 좋지만 업데이트된 JavaScript 구현을 사용할 수 있습니다.
+구현에서 여전히 H 코드를 사용하는 경우 최신 버전의 AppMeasurement로 마이그레이션하는 것이 좋습니다. Adobe Experience Platform](../launch/overview.md)에서 [태그를 통해 Analytics를 구현하는 것이 좋지만 업데이트된 JavaScript 구현을 사용할 수 있습니다.
 
 H 코드와 비교할 때 AppMeasurement에 다음의 주목할 만한 변경 사항이 있습니다.
 
