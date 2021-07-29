@@ -2,10 +2,10 @@
 title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 95%
+source-wordcount: '593'
+ht-degree: 96%
 
 ---
 
@@ -27,10 +27,8 @@ ht-degree: 95%
 
 조직에 대한 옵트아웃 페이지는 구현의 [`trackingServer`](../vars/config-vars/trackingserver.md) 변수 값에 따라 다릅니다.
 
-* Adobe Experience Platform Data Collection UI에서:
-   1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
-   1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
-   1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
+* 데이터 수집 UI에서:
+   1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
    1. 원하는 속성을 클릭합니다.
    1. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
    1. [!UICONTROL 일반] 아코디언을 클릭하고 [!UICONTROL 추적 서버] 값을 확인합니다.
