@@ -2,11 +2,10 @@
 title: linkExternalFilters
 description: linkExternalFilters 변수를 사용하여 자동 종료 링크 추적을 돕습니다.
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 92%
 
 ---
 
@@ -22,18 +21,18 @@ AppMeasurement는 사이트 외부를 가리키는 링크를 자동으로 추적
 
 `linkInternalFilters`와 `linkExternalFilters`를 동시에 사용하는 경우 클릭한 링크는 `linkExternalFilters`를 **만족하고** 종료 링크로 간주되는 `linkInternalFilters`는 만족하지 않아야 합니다. 클릭한 링크가 종료 링크와 다운로드 링크 기준을 모두 만족하는 경우에는 다운로드 링크 유형이 우선합니다.
 
-## Adobe Experience Platform Launch의 아웃바운드 링크 - 추적
+## 아웃바운드 링크 - Adobe Experience Platform에서 태그를 사용하여 추적
 
 추적 필드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 쉼표로 구분된 필터 목록 (일반적으로 도메인)입니다.
 
-1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
 3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
 4. [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 [!UICONTROL 아웃바운드 링크 - 추적] 필드가 표시됩니다.
 
 이 필드에는 항상 외부로 간주할 필터를 배치하십시오. 여러 도메인은 공백 없이 쉼표로 구분합니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkExternalFilters
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.linkExternalFilters
 
 `s.linkExternalFilters` 변수는 종료 링크로 간주되는 필터 (예: 도메인)가 포함된 문자열입니다. 여러 도메인은 공백 없이 쉼표로 구분하십시오.
 
