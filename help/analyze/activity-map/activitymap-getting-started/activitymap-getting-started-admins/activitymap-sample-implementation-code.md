@@ -1,13 +1,13 @@
 ---
-description: Launch를 사용해 Activity Map 구현
+description: Adobe Experience Platform에서 태그를 사용하여 Activity Map을 구현합니다.
 title: Activity Map 구현
 feature: Activity Map
 role: User, Admin
 exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 30%
+source-wordcount: '46'
+ht-degree: 17%
 
 ---
 
