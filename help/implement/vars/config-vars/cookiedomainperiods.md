@@ -2,10 +2,10 @@
 title: cookieDomainPeriods
 description: 도메인의 접미사에 마침표가 있는 경우 쿠키를 저장할 도메인을 AppMeasurement가 이해하도록 도와줍니다.
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 93%
+source-wordcount: '291'
+ht-degree: 92%
 
 ---
 
@@ -22,13 +22,11 @@ AppMeasurement는 도메인과 도메인 접미사를 확인하여 쿠키 위치
 >
 >이 변수에 대해 하위 도메인을 고려하지는 마십시오. 예를 들어 `cookieDomainPeriods`이라는 URL 예에서는 `store.toys.example.com`를 설정하지 마십시오. AppMeasurement는 여러 하위 도메인이 있는 URL에서도 기본적으로 쿠키가 `example.com`에 저장되어야 한다고 인식합니다.
 
-## Adobe Experience Platform Launch의 도메인 마침표
+## Adobe Experience Platform에서 태그를 사용하는 도메인 마침표
 
 도메인 마침표는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 필드입니다.
 
-1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
-1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
-1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
 1. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 도메인 마침표] 필드가 표시됩니다.
