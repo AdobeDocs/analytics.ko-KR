@@ -2,11 +2,10 @@
 title: timestamp
 description: 히트의 타임스탬프를 수동으로 설정합니다.
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 >
 >보고서 세트가 타임스탬프가 지정된 히트를 수락하도록 명시적으로 구성되지 않은 경우 이 변수를 사용하지 마십시오. AppMeasurement는 타임스탬프가 지정된 히트를 지원하지 않는 보고서 세트에 대해 히트 시간을 자동으로 설정합니다. 타임스탬프를 지원하지 않는 보고서 세트에 이 변수를 사용하는 히트를 전송하면 해당 데이터가 영구적으로 유실됩니다.
 
-## Adobe Experience Platform Launch의 타임스탬프
+## Adobe Experience Platform에서 태그를 사용한 타임스탬프
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.timestamp
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.timestamp
 
 `s.timestamp` 변수는 히트의 날짜 및 시간을 포함하는 문자열입니다. 유효한 타임스탬프 형식에는 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 및 [Unix 시간](https://en.wikipedia.org/wiki/Unix_time)이 포함됩니다.
 
