@@ -2,9 +2,9 @@
 title: 데이터 레이어 개체를 데이터 요소에 매핑
 description: 데이터 레이어에서 읽을 태그를 구성합니다.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '357'
 ht-degree: 57%
 
 ---
@@ -24,9 +24,7 @@ ht-degree: 57%
 
 [데이터 ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 요소는 데이터 수집 UI에서 도구에서 사용할 수 있는 구성 요소입니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
 
-1. [experience.adobe.com](https://experience.adobe.com)으로 이동한 후 메시지가 표시되면 로그인합니다.
-1. **[!UICONTROL 시작 / 데이터 수집]**&#x200B;을 선택합니다.
-1. **[!UICONTROL Launch / Data Collection으로 이동]**&#x200B;을 클릭한 다음 **[!UICONTROL 태그]**&#x200B;를 선택합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. **[!UICONTROL 데이터 요소]** 탭을 클릭한 다음 **[!UICONTROL 데이터 요소 추가]**&#x200B;를 클릭합니다.
 
