@@ -2,11 +2,10 @@
 title: linkTrackVars
 description: 링크 추적 이미지 요청에 포함할 변수를 지정합니다.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +15,15 @@ ht-degree: 100%
 
 이 변수는 페이지 보기 호출 ([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
 
-## Adobe Experience Platform Launch를 사용한 링크 추적 호출의 변수
+## Adobe Experience Platform에서 태그를 사용한 링크 추적 호출의 변수
 
-Launch는 인터페이스에 설정된 변수를 기반으로 백엔드에서 이 변수를 자동으로 채우며, 따라서 Launch를 사용하여 구현에서 항상 설정됩니다.
+Adobe Experience Platform은 인터페이스에 설정된 변수를 기반으로 백엔드에서 이 변수를 자동으로 채우며, 따라서 Adobe Experience Platform에서 태그를 사용하여 구현에서 항상 설정됩니다.
 
 >[!IMPORTANT]
 >
->사용자 지정 코드 편집기를 사용하여 Launch에서 변수를 설정하는 경우 사용자 지정 코드도 사용하여 `linkTrackVars`에서 변수를 포함해야 합니다.
+>사용자 지정 코드 편집기를 사용하여 변수를 설정하는 경우 사용자 지정 코드도 사용하여 `linkTrackVars`에 변수를 포함해야 합니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.linkTrackVars
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.linkTrackVars
 
 `s.linkTrackVars` 변수는 링크 추적 이미지 요청 (`tl()` 메서드)에 포함할 쉼표로 구분된 변수 목록이 포함된 문자열입니다. 링크 추적 히트에 차원을 포함하려면 다음 두 기준을 모두 충족해야 합니다.
 
