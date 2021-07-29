@@ -1,14 +1,13 @@
 ---
 title: maxDelay
 description: AppMeasurement가 이미지 요청을 보내기 전에 DFA의 응답을 기다리는 최대 시간을 결정합니다.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 154f7e34-39e7-4390-ae36-d4fbc998787f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 92%
 
 ---
-
 
 # maxDelay
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 이 변수는 DFA Data Connector를 사용하는 구현에만 사용됩니다. DFA를 사용하는 구현에서도 이 변수는 선택 사항입니다.
 
-## Adobe Experience Platform Launch의 최대 지연
+## Adobe Experience Platform에서 태그를 사용하는 최대 지연
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용합니다.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.maxDelay
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.maxDelay
 
 이 `s.maxDelay` 변수는 AppMeasurement가 DFA의 응답을 기다리는 시간(밀리초)을 나타내는 정수입니다. AppMeasurement가 DFA로부터 제 시간에 응답을 받지 못하면 이미지 요청이 DFA 데이터 없이 Adobe로 전송됩니다.
 
