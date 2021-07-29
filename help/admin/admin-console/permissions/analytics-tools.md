@@ -2,9 +2,9 @@
 title: Analytics 도구에 대한 제품 프로필 권한
 description: Analytics 도구 권한 항목을 사용하여 Adobe Analytics 내의 기능에 액세스 권한을 부여합니다.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | Analytics 도구 권한 항목 | 설명 |
 |----|----|
 | [!UICONTROL 서버 호출 사용] | 관리자 > 서버 호출 사용량에 대한 액세스 권한을 부여합니다. |
-| [!UICONTROL 코드 관리자] | 기존 용도로 계속 사용할 수 있습니다. 관리자 > 모든 관리자 > 코드 관리자에 대한 액세스 권한을 부여합니다. 대부분의 경우 Adobe Experience Platform 데이터 수집에 포함된 라이브러리를 대신 사용합니다. |
+| [!UICONTROL 코드 관리자] | 기존 용도로 계속 사용할 수 있습니다. 관리자 > 모든 관리자 > 코드 관리자에 대한 액세스 권한을 부여합니다. 대부분의 경우 데이터 수집 UI에 포함된 라이브러리를 대신 사용합니다. |
 | [!UICONTROL 코드 관리자 - 웹 서비스] | 1.4 API를 통해 코드 관리자에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 로그] | 관리자 > 모든 관리자 > 로그에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL 로그 - 웹 서비스] | 1.4 API를 통해 로그 가져오기에 대한 액세스 권한을 부여합니다. |
