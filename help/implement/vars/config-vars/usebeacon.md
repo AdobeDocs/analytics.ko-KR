@@ -2,11 +2,10 @@
 title: useBeacon
 description: useBeacon을 사용하면 AppMeasurement에서 브라우저 sendBeacon API를 사용하도록 할 수 있습니다.
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 90%
 
 ---
 
@@ -22,11 +21,11 @@ ht-degree: 100%
 
 방문자가 `useBeacon`을 지원하지 않는 브라우저를 사용하면 `navigator.sendBeacon()` 변수는 무시됩니다. 이 변수를 사용하려면 AppMeasurement 2.16.0 이상이 필요합니다.
 
-## Adobe Experience Platform Launch에서 비콘 사용
+## Adobe Experience Platform에서 태그를 사용하여 비콘 사용
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.useBeacon
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.useBeacon
 
 `s.useBeacon` 변수는 AppMeasurement가 브라우저의 `navigator.sendBeacon()` 메서드를 사용하는지 여부를 결정하는 부울입니다. 기본값은 `false`입니다. `navigator.sendBeacon()`의 비동기적 특성을 사용하려면 추적 함수를 호출하기 전에 이 변수를 `true`로 설정하십시오.
 
