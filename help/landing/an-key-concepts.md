@@ -2,10 +2,10 @@
 description: 이 섹션에는 Adobe Analytics의 주요 개념, 그 개념에 대한 간단한 설명 및 해당 주제에 대한 추가 설명이 있는 특정 설명서 링크가 포함되어 있습니다.
 title: Adobe Analytics - 주요 개념
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | Data Warehouse | 데이터를 필터링하여 실행할 수 있는 스토리지 및 사용자 지정 보고서에 대한 처리되지 않은 원시 데이터입니다. 히트 수준은 아닙니다. | [Data Warehouse 홈](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능들을 가져와서 사용자의 애플리케이션 참여를 이해하고 개선할 수 있도록 해 줍니다. | [Mobile Services 홈](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ko-KR) |
 | Adobe Exchange Data Connectors (이전 Genesis) | 서드파티 애플리케이션의 추적 데이터를 Analytics로 가져와서 하나의 중앙 위치에서 종단 간 가시성을 제공합니다. 2021년 8월 1일부터 Adobe는 Data Connector 통합을 중단합니다. | [Data Connectors 홈](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능. | [Adobe Experience Platform Launch 홈](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ko-KR) |
+| Adobe Experience Platform의 태그 | Adobe의 차세대 웹 사이트 태그 및 모바일 SDK 관리 기능. | [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
 
 ## 주요 용어 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -107,7 +107,7 @@ Adobe Analytics 용어에 대해 확대된 용어집이 필요하면 [여기](/h
 | 구현 안내서 | 데이터 수집 변수에 대한 설명과 데이터 수집 코드를 JavaScript로 구현하는 방법에 대한 자세한 설명이 포함되어 있습니다. | [구현 안내서](/help/implement/home.md) |
 | App Measurement (s_code) | 전역 변수 관리 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | 앱 SDK | 사전에 채워진 Apps에 대한 구성 파일 버전을 포함하는 사용자 지정된 패키지입니다. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ko-KR)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ko-KR)</li></ul> |
-| Adobe Experience Platform Launch | Analytics 도구를 참조하십시오. |  |
+| Adobe Experience Platform의 태그 | Analytics 도구를 참조하십시오. |  |
 | VISTA | 수집된 데이터를 변경하거나 세그먼트화하는 서버측 로직을 적용할 수 있습니다. | [VISTA 규칙](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 처리 규칙 | Analytics UI에서 변수를 설정, 수정 및 복사하여 수집된 데이터를 변경하는 기능. | [처리 규칙](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | 디버거 옵션 | Adobe Experience Cloud 디버거를 비롯하여 구현의 유효성을 확인하는 데 도움이 될 수 있는 디버거 및 패킷 스니퍼에는 몇 가지가 있습니다. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ko-KR) |
