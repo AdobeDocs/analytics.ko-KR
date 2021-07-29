@@ -2,11 +2,10 @@
 title: doPlugins
 description: 히트가 컴파일되고 Adobe에 전송되기 바로 전에 논리를 구성합니다.
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 88%
 
 ---
 
@@ -19,11 +18,11 @@ ht-degree: 100%
 
 이미지 요청이 컴파일되어 Adobe에 전송되기 바로 전에 `doPlugins` 변수를 사용하여 플러그인 코드를 호출하고 최종 변수 값을 설정하십시오.
 
-## Adobe Experience Platform Launch의 플러그인
+## Adobe Experience Platform에서 태그를 사용하는 플러그인
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드의 s.doPlugins
+## AppMeasurement 및 사용자 지정 코드의 s.doPlugins
 
 `s.doPlugins` 변수를 원하는 코드를 포함하는 함수로 설정하십시오. 추적 호출을 수행하면 함수가 자동으로 실행됩니다.
 
