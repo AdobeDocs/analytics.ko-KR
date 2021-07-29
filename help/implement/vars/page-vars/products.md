@@ -2,11 +2,10 @@
 title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 91%
 
 ---
 
@@ -18,18 +17,18 @@ ht-degree: 100%
 >
 >이 변수가 [`events`](events/events-overview.md) 변수의 장바구니 이벤트 없이 히트에 설정되어 있으면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에서 적절한 장바구니 이벤트를 설정하도록 하십시오.
 
-## Adobe Experience Platform Launch의 제품
+## Adobe Experience Platform에서 태그를 사용하는 제품
 
-Launch에는 이 변수를 설정할 전용 필드가 없습니다. 그러나 도움이 되는 타사 확장이 여러 개 있습니다.
+데이터 수집 UI에 이 변수를 설정할 전용 필드가 없습니다. 그러나 도움이 되는 타사 확장은 여러 개 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
 3. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그]를 클릭하여 사용 가능한 모든 확장을 확인합니다.
 4. product라는 용어를 검색하면 이 변수를 설정하는 데 도움이 되는 사용 가능한 몇 가지 확장이 표시됩니다.
 
 이 확장 중 하나를 사용하거나 아래의 AppMeasurement 구문에 따라 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.products
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.products
 
 `s.products` 변수는 제품당 여러 개의 구분된 필드를 포함하는 문자열입니다. 각 개별 제품은 모든 필드에 최대 100바이트를 포함할 수 있습니다. 각 필드는 문자열에서 세미콜론 (`;`)으로 구분하십시오.
 
