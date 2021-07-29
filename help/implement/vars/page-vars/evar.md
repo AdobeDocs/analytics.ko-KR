@@ -2,11 +2,10 @@
 title: eVar
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 94%
 
 ---
 
@@ -22,20 +21,20 @@ eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 각 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
-## Adobe Experience Platform Launch의 eVar
+## Adobe Experience Platform에서 태그를 사용하는 eVar
 
 Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 eVar를 설정할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL eVar] 섹션을 찾습니다.
 
 eVar를 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.eVar1 - s.eVar250
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.eVar1 - s.eVar250
 
 각 eVar는 조직에 관련된 사용자 지정 값을 포함하는 문자열입니다. 최대 길이는 255바이트이고, 255바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 
