@@ -2,10 +2,10 @@
 title: 구성 변수
 description: 구성 변수를 사용하여 데이터를 수집하는 방법을 결정합니다.
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 64%
+source-wordcount: '125'
+ht-degree: 68%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 64%
 
 Adobe Experience Platform 태그를 사용하는 구현에서 구성 변수는 일반적으로 Adobe Analytics 확장을 구성하여 찾습니다.
 
-1. `experience.adobe.com` 로 이동한 후 메시지가 표시되면 로그인합니다.
-1. [!UICONTROL 시작 / 데이터 수집]을 선택합니다.
-1. [!UICONTROL Launch / Data Collection으로 이동]을 클릭한 다음 [!UICONTROL 태그]를 선택합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 편집할 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
 
