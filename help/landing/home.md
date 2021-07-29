@@ -2,10 +2,10 @@
 title: Adobe Analytics 기술 설명서 안내서
 description: Analytics 사용 안내서 및 리소스
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 [![관리](assets/admin_50px.png)](/help/admin/home.md) [관리 안내서](/help/admin/home.md) - Experience Cloud Admin Console에서 사용자 및 제품 관리, 보고서 세트 구성, 회사 설정, 데이터 거버넌스, 서버 호출 사용, 트래픽 관리 등에 대해 알아봅니다.
 
-[![구현](assets/implement_50px.png)](/help/implement/home.md)[ 구현 안내서](/help/implement/home.md) – 효율적으로 Adobe Analytics를 활용하기 위해 수집할 데이터를 사용자 정의합니다. [!UICONTROL Adobe Experience Platform Launch] 및 JavaScript 구현에 대한 콘텐츠를 포함합니다.
+[![구현](assets/implement_50px.png)](/help/implement/home.md)[ 구현 안내서](/help/implement/home.md) – 효율적으로 Adobe Analytics를 활용하기 위해 수집할 데이터를 사용자 정의합니다. Adobe Experience Platform 및 JavaScript 구현에서 태그의 사용을 포함합니다.
 
 [![구성 요소](assets/components_50px.png)](/help/components/home.md) [구성 요소 안내서](/help/components/home.md) – 데이터를 구성하는 데 도움이 되는 기능을 이해합니다. 구성 요소에는 세그먼트, 계산된 지표, 가상 보고서 세트, 경고 등이 포함됩니다. 이 안내서에는 사용 가능한 모든 차원 및 지표를 설명하는 변수 참조도 포함되어 있습니다.
 
@@ -27,9 +27,9 @@ Adobe Analytics 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 [![통합](assets/integrate_50px.png)](/help/integrate/home.md) [통합 안내서](/help/integrate/home.md) – Audience Manager, Advertising Cloud 및 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 
-[![스트리밍 미디어 분석](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR) [스트리밍 미디어 분석 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR) - 스트리밍 미디어용 Adobe Analytics을 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
+[![스트리밍 미디어 분석](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR) [스트리밍 미디어 분석 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) - 스트리밍 미디어용 Adobe Analytics을 구현합니다. Media SDK 및 Media Collection API를 포함합니다.
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR) [Data Workbench 안내서](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 안내서 등이 포함되어 있습니다.
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR) [Data Workbench 안내서](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) - [!UICONTROL Data Workbench]의 유연하고 강력한 다중 채널 기능에 대해 알아봅니다. [!UICONTROL Data Workbench 클라이언트], 설치, [!UICONTROL 데이터 세트 구성] 안내서 등이 포함되어 있습니다.
 
 [![TechNote](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics TechNote](/help/technotes/home.md) – 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 
