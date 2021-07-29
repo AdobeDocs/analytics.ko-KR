@@ -2,11 +2,10 @@
 title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 지정 변수입니다.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '363'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
@@ -24,11 +23,11 @@ ht-degree: 100%
 
 구현에서 목록 변수를 사용하기 전에 보고서 세트 설정에서 각 목록 변수를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/list-var-admin.md)를 참조하십시오.
 
-## Adobe Experience Platform Launch의 목록 변수
+## Adobe Experience Platform에서 태그를 사용하여 변수 나열
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.list1 - s.list3
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.list1 - s.list3
 
 각 목록 변수는 조직에 관련된 사용자 지정 값을 포함하는 문자열입니다. 이 변수에는 최대 바이트 수 제한이 없습니다. 그러나 각 개별 값은 최대 255바이트입니다. 사용하는 구분 기호는 보고서 세트 설정에서 변수를 설정할 때 결정됩니다. 공백은 여러 항목을 구분할 때 사용하지 마십시오.
 
