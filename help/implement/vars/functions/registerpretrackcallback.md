@@ -2,11 +2,10 @@
 title: registerPreTrackCallback
 description: Adobe에 히트를 보내기 전 콜백 함수를 만듭니다.
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 90%
 
 ---
 
@@ -24,11 +23,11 @@ ht-degree: 100%
 >
 >`registerPreTrackCallback`과 `registerPostTrackCallback` 사이에 실행된 함수의 타이밍과 순서는 보장되지 않습니다. 이 두 함수 간에 종속성이 생기지 않도록 하십시오.
 
-## Adobe Experience Platform Launch에서 사전 추적 콜백 등록
+## Adobe Experience Platform에서 태그를 사용하여 사전 추적 콜백 등록
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.registerPreTrackCallback
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.registerPreTrackCallback
 
 `s.registerPreTrackCallback`은 함수를 유일한 인수로 사용하는 함수입니다. 중첩 함수는 이미지 요청이 전송되기 바로 전에 실행됩니다.
 
