@@ -2,10 +2,10 @@
 title: 개발 환경에 Adobe Analytics 배포
 description: 태그를 사용하여 개발 환경에 Adobe Analytics을 배포하는 방법을 알아봅니다.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 63%
+source-wordcount: '594'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 태그는 코드를 배포할 때 여러 조직의 워크플로우를 포함합니다. 다음 단계에 따라 Analytics 구현에 필요한 최소 구성 요소를 만듭니다. 태그 관리자는 조직 내에서 Adobe 솔루션을 배포하기 위해 올바른 워크플로우를 설정할 수 있습니다.
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 사이트에서 구현할 태그 속성을 클릭합니다.
 3. 어댑터 탭을 클릭한 다음 어댑터 추가를 클릭합니다.
 4. 이름을 &quot;Akamai&quot;로 지정하고 유형 드롭다운에서 Akamai를 선택합니다. 저장을 클릭합니다.
@@ -37,7 +37,7 @@ ht-degree: 63%
 
 지금까지 모든 변경 및 구성 작업을 수행했지만 실제로 어떤 코드도 게시되지 않았습니다. 일련의 변경 사항으로 대략적으로 번역된 라이브러리를 만들면 사이트에서 사용할 코드를 게시할 수 있습니다.
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com)로 이동한 후 메시지가 표시되면 로그인합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 사이트에서 구현할 태그 속성을 클릭합니다.
 3. 게시 탭을 클릭한 다음 새 라이브러리 추가를 클릭합니다.
 4. 라이브러리 이름을 &#39;Initial changes&#39;로 지정하고 개발 환경을 선택합니다.
