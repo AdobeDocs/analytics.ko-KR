@@ -2,10 +2,10 @@
 description: Adobe Analytics의 새로운 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Adobe Analytics 기능 릴리스
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 기능 플래그
 
-기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe은 릴리스 중 최적의 환경을 위해 app.launchdarkly.com을 방화벽의 [허용 목록](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
+기능 플래그는 릴리스 중 새로운 기능의 가시성을 제어하는 데 사용됩니다. Adobe은 릴리스 중 최적의 환경을 위해 `app.launchdarkly.com`을 방화벽의 [허용 목록](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ko-KR)에 추가할 것을 권장합니다. GA에 도달한 직후 플래그가 제거됩니다.
 
 **도움말 > Workspace 정보 > 활성 기능 플래그**&#x200B;에서 언제든지 활성 기능 플래그를 볼 수 있습니다.
 
