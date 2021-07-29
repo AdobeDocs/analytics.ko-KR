@@ -2,11 +2,10 @@
 title: s_objectID
 description: Activity Map은 사이트에서 고유 링크를 식별하는 데 도움이 됩니다.
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 94%
 
 ---
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 Activity Map 정확도가 조직에 중요한 경우에는 사이트에 있는 링크의 `onClick` 이벤트에 `s_objectID` 변수를 포함하는 것이 좋습니다. 자세한 내용은 분석 사용 안내서의 [Activity Map 링크 추적 사용 사례](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)를 참조하십시오.
 
-## Adobe Experience Platform Launch의 개체 ID
+## Adobe Experience Platform에서 태그를 사용한 개체 ID
 
-Launch에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s_objectID
+## AppMeasurement 및 사용자 지정 코드 편집기의 s_objectID
 
 `s_objectID` 변수는 전역 변수입니다. 이것은 이 변수가 Analytics 추적 개체 (기본적으로 `s`)와는 독립적으로 작동함을 의미합니다. 이 변수에 유효한 값은 최대 100바이트 길이의 모든 문자열일 수 있습니다. 이 변수가 정의되지 않으면 Activity Map에서는 링크 URL을 링크의 식별자로 사용합니다.
 
