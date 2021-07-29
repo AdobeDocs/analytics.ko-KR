@@ -2,11 +2,10 @@
 title: t
 description: Adobe에 페이지 보기 추적 호출을 보냅니다.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -36,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe는 이미지 요청을 받은 다음, 요청 헤더, URL 및 쿼리 문자열 매개 변수를 구문 분석합니다. 그러면 데이터 수집 서버가 사이트에는 보이지 않게 표시되는 투명한 1x1 픽셀 이미지를 반환합니다.
 
-## Adobe Experience Platform Launch의 페이지 보기 추적 호출
+## Adobe Experience Platform에서 태그를 사용한 페이지 보기 추적 호출
 
-Launch에는 페이지 보기 추적 호출을 설정하는 전용 위치가 있습니다.
+데이터 수집 UI에는 페이지 보기 추적 호출을 설정하는 전용 위치가 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업] 아래에서 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 비콘 보내기로 설정합니다.
 6. `s.t()` 라디오 단추를 클릭합니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.t () 메서드
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.t () 메서드
 
 추적 호출을 Adobe에 보내려면 `s.t()` 메서드를 호출하십시오.
 
