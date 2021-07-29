@@ -2,11 +2,10 @@
 title: Util.getQueryParam
 description: 쿼리 문자열 매개 변수의 값을 반환합니다.
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 브라우저 URL의 쿼리 문자열 매개 변수에는 Analytics에 중요한 데이터가 자주 포함됩니다. 쿼리 문자열에서 데이터를 검색하려면 `Util.getQueryParam()` 메서드를 사용하십시오.
 
-## Adobe Experience Platform Launch에서 쿼리 문자열 매개 변수 데이터 가져오기
+## Adobe Experience Platform에서 태그를 사용하여 쿼리 문자열 매개 변수 데이터 가져오기
 
 데이터 요소에서 값을 설정하여 쿼리 문자열 매개 변수 데이터를 가져올 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [launch.adobe.com](https://launch.adobe.com)에 로그인합니다.
+1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
 3. [!UICONTROL 데이터 요소] 탭으로 이동한 다음, 원하는 데이터 요소를 클릭하거나 데이터 요소를 만듭니다.
 4. [!UICONTROL 확장] 드롭다운을 [!UICONTROL 코어]로 설정하고 [!UICONTROL 데이터 요소 유형]을 [!UICONTROL 쿼리 문자열 매개 변수]로 설정합니다.
@@ -26,7 +25,7 @@ ht-degree: 100%
 
 쿼리 문자열 매개 변수 값은 데이터 요소에 저장됩니다. 그러면 규칙의 데이터 요소를 참조하여 Analytics 변수를 할당할 수 있습니다.
 
-## AppMeasurement 및 Launch 사용자 지정 코드 편집기의 s.Util.getQueryParam ()
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.Util.getQueryParam ()
 
 브라우저 URL에서 쿼리 문자열 값을 검색하려면 `s.Util.getQueryParam()` 메서드를 호출하십시오. 쿼리 문자열 매개 변수를 포함하는 문자열 인수는 필수입니다. 이 메서드는 Analytics 변수에 할당할 수 있는 문자열을 반환합니다.
 
