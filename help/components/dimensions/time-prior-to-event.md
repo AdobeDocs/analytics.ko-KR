@@ -2,11 +2,10 @@
 title: 이벤트까지 남은 시간
 description: 방문의 첫 번째 히트와 지표 사이의 시간입니다.
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +19,4 @@ ht-degree: 100%
 
 ## 차원 항목
 
-차원 항목에는 `"Less than 1 minute"`부터 `"More than 15 hours"` 범위의 시간 기반 버킷이 포함됩니다. 예를 들어 방문자가 첫 번째 히트에서 구매까지 23분을 소요했다면 `"10 to 30 minutes"` 차원 항목 아래에 속합니다.
+차원 항목에는 `"Less than 1 minute"`부터 `"More than 15 hours"` 범위의 시간 기반 버킷이 포함됩니다. 예를 들어 방문자가 첫 번째 히트에서 구매까지 23분을 소요했다면 `"10 to 30 minutes"` 차원 항목 아래에 속합니다. 이 지표에 대해 버킷을 사용자 지정할 수 없습니다.
