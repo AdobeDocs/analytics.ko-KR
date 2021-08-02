@@ -2,10 +2,10 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 10년 이상 Adobe Analytics는 고객의 요구 사항을 충족하는 최상의 웹 및 마케팅 분석 솔루션을 제공하고자 노력해 왔습니다. 기술 및 비즈니스 요구 사항이 발전함에 따라 Adobe는 지속적으로 최고 표준을 충족하기 위해 노력하고 있습니다.  안타깝게도 이 통합을 제공하는 API는 이러한 표준을 더 이상 충족하지 않으며 최신 Adobe Analytics 기술 인프라에서는 지원되지 않습니다.
 
-**2021년 8월 1일부터** Adobe은 Data Connector 통합을 중단합니다. 수명 종료는 모든 기술 제품에서 라이프사이클의 일부이며 Adobe는 고객과 파트너에게 최대한 원활한 전환을 제공하는 것을 목표로 하고 있습니다. 이러한 통합은 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
+**2021년** 8월 1일부터 Adobe은 Data Connectors 통합을 중단합니다. 수명 종료는 모든 기술 제품에서 라이프사이클의 일부이며 Adobe는 고객과 파트너에게 최대한 원활한 전환을 제공하는 것을 목표로 하고 있습니다. 이러한 통합은 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
@@ -30,6 +30,8 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 추가 질문 또는 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오.
 
 ## Data Connector 파트너 상태
+
+*최신 업데이트: 2021년 8월 2일 (Hootsuite)*
 
 | 파트너 | 상태 |
 | --- | --- |
@@ -72,9 +74,9 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | EveryoneSocial for Adobe Analytics | 사용 중단 |
 | ExactTarget, ExactTarget 2.0 | 사용 중단 |
 | Fiksu | 사용 중단 |
-| Foresee (v2.0), Foresee Feedback, Foresee Results | 사용 중단 |
+| Foresee (v2.0), Foresee 피드백, Foresee 결과 | 사용 중단 |
 | Gigya | 사용 중단 |
-| Hootsuite | 사용 중단 |
+| Hootsuite | Exchange로 마이그레이션 |
 | hybris | 사용 중단 |
 | Kampyle (현재 Medallia) Feedback Analytics (1.1) | 사용 중단 |
 | Listrak | Exchange로 마이그레이션 |
@@ -101,10 +103,10 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | WhatCounts Email | 사용 중단 |
 | wywy | 사용 중단 |
 | Yesmail Enterprise | 사용 중단 |
-| 제타 인터랙티브 | 사용 중단 |
+| Zeta Interactive | 사용 중단 |
 
 ## 예외: Adobe Campaign Classic
 
 2021년 8월 1일에 대한 한가지 예외는 Adobe Campaign Classic 통합입니다. 이 통합은 2022년 3월 1일에는 공식적으로 더 이상 사용되지 않습니다.
 
-2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다. 그러나 기존 캠페인 통합은 2022년 3월 1일까지 Adobe Analytics에 데이터를 계속 수집하고 전달합니다. 2022년 3월 1일에 통합에서 Adobe Analytics에 데이터를 수집하고 전달하는 것을 중단합니다. 이 통합을 사용하는 경우 2022년 3월 1일 전에 새 Campaign-Analytics 커넥터로 이동해야 합니다. 자세한 내용은 [Adobe Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html)를 참조하십시오.
+2021년 8월 1일에 Adobe Campaign Classic은 다른 모든 통합과 함께 데이터 커넥터 UI에서 제거됩니다. 그러나 기존 캠페인 통합은 2022년 3월 1일까지 Adobe Analytics에 데이터를 계속 수집하고 전달합니다. 2022년 3월 1일에 통합에서 Adobe Analytics에 데이터를 수집하고 전달하는 것을 중단합니다. 이 통합을 사용하는 경우 2022년 3월 1일 이전에 새 Campaign-Analytics 커넥터로 이동해야 합니다. [Adobe Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=ko-KR)에서 자세히 알아보십시오.
