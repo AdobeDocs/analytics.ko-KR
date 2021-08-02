@@ -2,10 +2,10 @@
 title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 91%
+source-wordcount: '505'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->이 변수가 [`events`](events/events-overview.md) 변수의 장바구니 이벤트 없이 히트에 설정되어 있으면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에서 적절한 장바구니 이벤트를 설정하도록 하십시오.
+>이 변수가 [`events`](events/events-overview.md) 변수 없이 히트에 설정되어 있으면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에서 적절한 이벤트를 설정하도록 하십시오.
 
 ## Adobe Experience Platform에서 태그를 사용하는 제품
 
