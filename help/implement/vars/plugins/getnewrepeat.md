@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: 신규 방문자와 재방문자의 활동을 추적합니다.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '788'
+ht-degree: 66%
 
 ---
 
@@ -69,42 +69,42 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ### 예 #1
 
-다음 코드는 신규 방문자들에 대해 s.eVar1을 &quot;New&quot;라는 값과 동일하게 설정하고, 방문자의 나머지 사이트 방문 동안 s.eVar1을 계속 &quot;New&quot;라는 값 (새 호출마다)과 동일하게 설정합니다.
+다음 코드는 신규 방문자에 대해 `eVar1`을 `"New"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 계속 `eVar1`(새 호출마다)을 `"New"` 값으로 설정합니다.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 예 #2
 
-방문자가 마지막으로 s.getNewRepeat ()이 호출된 이후 31분에서 30일 동안 언제든지 사이트로 돌아오는 경우, 다음 코드는 s.eVar1을 &quot;Repeat&quot;이라는 값과 동일하게 설정하고, 방문자의 나머지 사이트 방문 동안 s.eVar1을 계속 &quot;Repeat&quot;이라는 값 (새 호출마다)과 동일하게 설정합니다.
+방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 31분에서 30일 동안 언제든지 사이트로 돌아오는 경우, 다음 코드는 `eVar1`을 `"Repeat"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 계속해서 `eVar1` 값을 `"Repeat"` 값으로 설정합니다.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 예 #3
 
-방문자가 마지막으로 s.getNewRepeat ()이 호출된 이후 최소 30일 동안 사이트에 없었다면 다음 코드는 s.eVar1을 &quot;New&quot;라는 값과 동일하게 설정하고, 방문자의 나머지 사이트 방문 동안 s.eVar1을 계속 &quot;New&quot;라는 값 (새 호출마다)과 동일하게 설정합니다.
+방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 최소 30일 동안 사이트에 없었다면, 다음 코드는 `eVar1`을 `"New"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 계속 `eVar1`을 `"New"` 값(새 호출마다)으로 설정합니다.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 예 #4
 
-방문자가 마지막으로 s.getNewRepeat ()이 호출된 이후 31분에서 365일 (즉, 1년) 동안 언제든지 사이트로 돌아오는 경우, 다음 코드는 s.eVar1을 &quot;Repeat&quot;이라는 값과 동일하게 설정하고, 방문자의 나머지 사이트 방문 동안 s.eVar1을 계속 &quot;Repeat&quot;이라는 값 (새 호출마다)과 동일하게 설정합니다.
+방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 31분에서 365일(즉, 1년) 동안 언제든지 사이트로 돌아오는 경우, 다음 코드는 `eVar1`을 `"Repeat"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 `eVar1`을 `"Repeat"`의 값(새 호출마다)으로 계속 설정합니다.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### 예 #5
 
-방문자가 마지막으로 s.getNewRepeat ()이 호출된 이후 최소 365일 (즉, 1년) 동안 사이트에 없었다면 다음 코드는 s.eVar1을 &quot;New&quot;라는 값과 동일하게 설정하고, 방문자의 나머지 사이트 방문 동안 s.eVar1을 계속 &quot;New&quot;라는 값 (새 호출마다)과 동일하게 설정합니다.
+방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 최소 365일(즉, 1년) 동안 사이트에 없었다면, 다음 코드는 `eVar1`을 `"New"` 값으로 설정하고 방문자의 나머지 사이트 방문 동안 계속 `eVar1`을 `"New"` 값(새 호출마다)으로 설정합니다.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## 버전 내역
