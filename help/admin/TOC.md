@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 99%
@@ -34,13 +34,13 @@ ht-degree: 99%
       + [전환 분류](admin/conversion-var-admin/conversion-classifications.md)
       + [분류 계층](admin/conversion-var-admin/classification-hierarchies.md)
       + [목록 변수](admin/conversion-var-admin/list-var-admin.md)
-      + [머천다이징 eVars](admin/conversion-var-admin/merchandising-evars.md)
+      + [머천다이징 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [통화 코드](admin/currency.md)
    + [사용자 지정 보고서 설명](admin/custom-desc-admin.md)
    + [사용자 지정 달력](admin/custom-calendar.md)
    + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
-   + [IP 주소별로 제외](admin/exclude-ip.md)
+   + [IP 주소로 제외](admin/exclude-ip.md)
    + [검색 방법](admin/finding-methods.md)
    + [일반 계정 설정](admin/general-acct-settings-admin.md)
    + [내부 URL 필터](admin/internal-url-filter-admin.md)
@@ -54,9 +54,9 @@ ht-degree: 99%
       + [유료 검색 감지 구성](admin/paid-search-detection/t-paid-search-detection.md)
    + [게시 목록](admin/publishing-list.md)
    + [게시 위젯](admin/publishing-widgets-admin.md)
-   + [기본 설정 관리자](admin/preferences-manager.md)
+   + [환경 설정 관리자](admin/preferences-manager.md)
    + [개인 정보 보호 설정](admin/privacy-settings.md)
-   + [개인 정보 보호 설정](admin/privacy-reporting.md)
+   + [개인 정보 보고](admin/privacy-reporting.md)
    + 처리 규칙 {#processing-rules}
       + [처리 규칙 개요](admin/c-processing-rules/processing-rules.md)
       + 처리 규칙 구성 {#processing-rules-configuration}
@@ -72,7 +72,7 @@ ht-degree: 99%
          + [처리 규칙 예](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
          + [쿼리 문자열 매개 변수에서 캠페인 ID 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [제품 개요 페이지에서 제품 보기 이벤트 설정](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-         + [카테고리와 페이지 이름을 연결하여 하위 카테고리 추가](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+         + [범주와 페이지 이름을 연결하여 하위 범주 추가](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [eVar 값을 prop에 복사하여 경로 결정](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [보고서에서 값 정리](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
          + [쿼리 문자열 매개 변수를 사용하여 내부 검색어 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
@@ -85,13 +85,13 @@ ht-degree: 99%
       + [실시간 보고서 구성](admin/realtime/t-realtime-admin.md)
       + [지원되는 실시간 지표 및 차원](admin/realtime/realtime-metrics.md)
    + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
-   + 서버 측 전달 {#server-side-forwarding}
-      + [서버 측 전달 개요](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy 준수 및 서버 측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [서버 측 전달 요구 사항](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [서버 측 전달 데이터 및 코드 참조](admin/c-server-side-forwarding/ssf-reference.md)
-      + [서버 측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
-      + [서버 측 전달 FAQ](admin/c-server-side-forwarding/ssf-faq.md)
+   + 서버측 전달 {#server-side-forwarding}
+      + [서버측 전달 개요](admin/c-server-side-forwarding/ssf.md)
+      + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
+      + [서버측 전달 요구 사항](admin/c-server-side-forwarding/ssf-requirements.md)
+      + [서버측 전달 데이터 및 코드 참조](admin/c-server-side-forwarding/ssf-reference.md)
+      + [서버측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
+      + [서버측 전달 FAQ](admin/c-server-side-forwarding/ssf-faq.md)
    + [간소화된 보고서 메뉴](admin/t-simplified-menu.md)
    + [소셜 관리](admin/social-management.md)
    + 성공 이벤트 {#success-events}
@@ -132,9 +132,9 @@ ht-degree: 99%
    + [롤업 보고서 세트 만들기](c-manage-report-suites/t-rollups.md)
    + 보고서 세트 템플릿 {#report-suite-templates}
       + [보고서 세트 템플릿 개요](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [누적 포털](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+      + [애그리게이터 포털](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
       + [상거래](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [컨텐츠 및 미디어](c-manage-report-suites/c-report-suite-templates/content-media.md)
+      + [콘텐츠 및 미디어](c-manage-report-suites/c-report-suite-templates/content-media.md)
       + [기본 템플릿](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
       + [금융 서비스](c-manage-report-suites/c-report-suite-templates/financial-services.md)
       + [구직 포털](c-manage-report-suites/c-report-suite-templates/job-portal.md)
@@ -177,8 +177,8 @@ ht-degree: 99%
    + [Adobe Analytics 및 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)
    + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
-   + [FAQ](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics 데이터 개인 정보 보호 워크플로우](c-data-governance/an-gdpr-workflow.md)
+   + [자주 묻는 질문](c-data-governance/gdpr-faq.md)
+   + [Adobe Analytics 데이터 개인 정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
    + [보고서 세트의 데이터 거버넌스 설정 보기/관리](c-data-governance/gdpr-view-settings.md)
    + [보고서 세트 데이터에 레이블 지정](c-data-governance/gdpr-setup-reportsuite.md)
    + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
@@ -187,7 +187,7 @@ ht-degree: 99%
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [레이블 지정 우수 사례](c-data-governance/gdpr-analytics-ids.md)
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
-   + [데이터 개인 정보 보호 및 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [데이터 개인정보 보호 및 데이터 커넥터 (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [데이터 개인 정보 보호 용어](c-data-governance/gdpr-terminology.md)
    + [개인정보 보호 보고 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
