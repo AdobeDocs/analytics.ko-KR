@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-translation-type: ht
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: ht
-source-wordcount: '639'
-ht-degree: 100%
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 99%
 
 ---
 
@@ -28,15 +27,15 @@ ht-degree: 100%
    + [캠페인](dimensions/campaigns.md)
    + [카테고리](dimensions/category.md)
    + [도시](dimensions/cities.md)
-   + [색상 깊이](dimensions/color-depth.md)
+   + [색상 심도](dimensions/color-depth.md)
    + [연결 유형](dimensions/connection-type.md)
    + [쿠키 지원](dimensions/cookie-support.md)
    + [국가](dimensions/countries.md)
    + [사용자 지정 링크](dimensions/custom-link.md)
    + [고객 충성도](dimensions/customer-loyalty.md)
-   + [날짜(월 기준)](dimensions/day-of-month.md)
+   + [날짜 (월 기준)](dimensions/day-of-month.md)
    + [요일](dimensions/day-of-week.md)
-   + [일(한 해 기준)](dimensions/day-of-year.md)
+   + [일 (한 해 기준)](dimensions/day-of-year.md)
    + [일](dimensions/day.md)
    + [첫 구매까지 소요된 일 수](dimensions/days-before-first-purchase.md)
    + [마지막 구매 이후 일 수](dimensions/days-since-last-purchase.md)
@@ -45,14 +44,14 @@ ht-degree: 100%
    + [다운로드 링크](dimensions/download-link.md)
    + [시작 차원](dimensions/entry-dimensions.md)
    + [eVar](dimensions/evar.md)
-   + [eVar(머천다이징)](dimensions/evar-merchandising.md)
+   + [eVar (머천다이징)](dimensions/evar-merchandising.md)
    + [종료 차원](dimensions/exit-dimensions.md)
    + [종료 링크](dimensions/exit-link.md)
    + [첫 번째 터치 채널](dimensions/first-touch-channel.md)
    + [첫 번째 터치 채널 세부 사항](dimensions/first-touch-detail.md)
    + [히트 깊이](dimensions/hit-depth.md)
    + [히트 유형](dimensions/hit-type.md)
-   + [시간(일 기준)](dimensions/hour-of-day.md)
+   + [시간 (일 기준)](dimensions/hour-of-day.md)
    + [시간](dimensions/hour.md)
    + [확인된 상태](dimensions/identified-state.md)
    + [Java 활성화](dimensions/java-enabled.md)
@@ -64,7 +63,7 @@ ht-degree: 100%
    + [분](dimensions/minute.md)
    + [모바일 차원](dimensions/mobile-dimensions.md)
    + [모니터 해상도](dimensions/monitor-resolution.md)
-   + [월(연 기준)](dimensions/month-of-year.md)
+   + [월 (연 기준)](dimensions/month-of-year.md)
    + [월](dimensions/month.md)
    + [운영 체제 유형](dimensions/operating-system-types.md)
    + [운영 체제](dimensions/operating-systems.md)
@@ -101,8 +100,9 @@ ht-degree: 100%
    + [평일/주말](dimensions/weekday-weekend.md)
    + [년](dimensions/year.md)
    + [우편 번호](dimensions/zip-code.md)
-+ 지표 {#metrics}
++ 메트릭 {#metrics}
    + [지표 개요](metrics/overview.md)
+   + [반복 인스턴스 계산](metrics/count-repeat-instances.md)
    + [평균 페이지 깊이](metrics/average-page-depth.md)
    + [방문당 평균 페이지 보기 수](metrics/average-page-views-per-visit.md)
    + [평균 세션 길이](metrics/average-session-length.md)
@@ -130,20 +130,20 @@ ht-degree: 100%
    + [사람](metrics/people.md)
    + [제품 보기](metrics/product-views.md)
    + [다시 로드](metrics/reloads.md)
-   + [매출 ](metrics/revenue.md)
+   + [수입](metrics/revenue.md)
    + [검색 결과](metrics/searches.md)
    + [단일 액세스](metrics/single-access.md)
    + [단일 페이지 방문 횟수](metrics/single-page-visits.md)
    + [방문당 체류 시간](metrics/time-spent-per-visit.md)
    + [방문자당 체류 시간](metrics/time-spent-per-visitor.md)
    + [체류 시간 개요](metrics/time-spent.md)
-   + [총 체류 시간(초)](metrics/total-seconds-spent.md)
+   + [총 체류 시간 (초)](metrics/total-seconds-spent.md)
    + [고유 디바이스](metrics/unique-devices.md)
    + [고유 방문자 수](metrics/unique-visitors.md)
    + [판매량](metrics/units.md)
-   + [Experience Cloud ID를 가진 방문자 수](metrics/visitors-with-ecid.md)
+   + [Experience Cloud ID를 가진 방문자](metrics/visitors-with-ecid.md)
    + [방문 횟수](metrics/visits.md)
-+ 세그먼테이션 {#segmentation}
++ 세분화 {#segmentation}
    + [Analytics 세그먼테이션](segmentation/seg-home.md)
    + [세그먼트 및 컨테이너 정보](segmentation/seg-overview.md)
    + [Analysis Workspace의 세그먼테이션 기능](segmentation/segmentation-in-analysis-workspace.md)
@@ -166,16 +166,16 @@ ht-degree: 100%
       + [Data Warehouse 세그먼트 기능](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
-   + [FAQ](segmentation/seg-transition.md)
+   + [자주 묻는 질문](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
-   + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
+   + [계산 및 고급 계산 (파생) 지표](c-calcmetrics/cm-overview.md)
    + [방법 비디오](c-calcmetrics/cm-videos.md)
    + 계산된 지표 워크플로 {#calcmetric-workflow}
       + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [지표 유형 및 기여도 분석](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [간단한 &quot;방문자 수당 페이지 보기 수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [세그먼트화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -212,7 +212,7 @@ ht-degree: 100%
    + [Device Graph](cda/device-graph.md)
    + [크로스 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
-   + [CDA Workspace 템플릿](cda/workspace-template.md)
+   + [CDA 작업 공간 템플릿](cda/workspace-template.md)
    + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
@@ -223,7 +223,7 @@ ht-degree: 100%
 + 분류 {#classifications}
    + [분류 개요](classifications/c-classifications.md)
    + 분류 임포터 {#classifications-importer}
-      + [분류 임포터 - 개요](classifications/importer/c-working-with-saint.md)
+      + [분류 가져오기 도구 - 개요](classifications/importer/c-working-with-saint.md)
       + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
       + [분류 데이터 삭제](classifications/importer/t-delete-classification-data.md)
       + [분류 데이터 이스케이프 처리](classifications/importer/t-classifications-escape-data.md)
