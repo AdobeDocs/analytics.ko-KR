@@ -6,7 +6,7 @@ feature: 시각화
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ![](assets/bar.png)
 
-시각화 설정의 세부기간 드롭다운을 사용하면 트렌드 시각화 (예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
+시각화 설정의 세부 기간 드롭다운을 사용하면 트렌드 시각화 (예: 선, 막대)를 일별에서 주별, 월별 등으로 변경할 수 있습니다.
 
 ## 스택 막대 {#section_9EA83779AE964635907EE5031A785A49}
 
