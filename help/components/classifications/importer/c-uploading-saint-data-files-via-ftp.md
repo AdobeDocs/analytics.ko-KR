@@ -5,8 +5,8 @@ title: FTP 가져오기
 feature: 관리 도구
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -43,13 +43,7 @@ FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. �
 
 ## FTP를 통해 분류 가져오기 {#task_132C36830B69418B8C929E39838EF01D}
 
-<!-- 
-
-t_upload_a_saint_data_file_via_ftp.xml
-
- -->
-
-FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
+ FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
@@ -67,12 +61,6 @@ Adobe는 FIN 파일과 연관된 업로드한 데이터 파일을 정기적으�
 ## FTP 계정 만들기를 참조하십시오. {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. >
-
-<!-- 
-
-t_create_an_ftp_account.xml
-
- -->
 
 Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=ko-KR)를 참조하십시오.
 
