@@ -6,7 +6,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 Activity Map 브라우저 플러그인은
 
 * Analytics 페이지 태그로서 수동으로 주입됩니다.
-* 브라우저 도구 모음에서 단추나 메뉴 항목에 의해 시작됩니다.
+* 브라우저 도구 모음에서 버튼이나 메뉴 항목에 의해 시작됩니다.
 * 데스크탑 브라우저인 Internet Explorer, Firefox 및 Chrome의 최신 버전과만 호환합니다.
 * **[!UICONTROL 내 로그인 기억]** 기능을 지원합니다.
 * Analytics 페이지 코드를 포함하지 않는 웹 페이지에서 Activity Map 도구 모음을 **주입**&#x200B;할 수 있습니다. 페이지에 Analytics 페이지 코드가 포함되어 있지 않을 경우 오류 메시지를 표시합니다.
