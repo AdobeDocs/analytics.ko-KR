@@ -6,7 +6,7 @@ feature: AI 도구
 role: User, Admin
 exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
 ht-degree: 100%
 
@@ -34,8 +34,8 @@ Update screenshots for better readability.
 
 ![](assets/prepopulated_alert.png)
 
-## 여러 경고를 만드는 대신 경고를 통합 (스택)  {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 여러 경고를 만드는 대신 경고를 통합 (스택) {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
-경고를 스택하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다.
+경고를 스태킹하면 경고들이 결합되고 별도의 경고 수를 얻지 못합니다.
 
 ![](assets/alerts_example2.png)
