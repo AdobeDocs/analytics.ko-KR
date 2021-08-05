@@ -6,7 +6,7 @@ feature: 시각화
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Analysis Workspace의 맵 시각화
    ![](assets/map-viz1.png)
 
 1. 지표 (계산된 지표 포함) 목록에서 지표를 드래그해옵니다.
-1. 그리는 데 사용할 데이터 소스를 지정합니다.  (이 대화 상자는 모바일 앱 데이터용으로 위치 추적이 활성화된 경우에만 표시됩니다.)
+1. 그리는 데 사용할 데이터 소스를 지정합니다. (이 대화 상자는 모바일 앱 데이터용으로 위치 추적이 활성화된 경우에만 표시됩니다.)
 
 <table id="table_CD54B433464B4282A7524FB187016C47"> 
  <tbody> 
