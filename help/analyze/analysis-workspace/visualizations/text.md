@@ -6,7 +6,7 @@ feature: 시각화
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 하이퍼링크 추가 {#hyperlinks}
 
-하이퍼링크를 추가하려면 텍스트를 강조 표시하고 메뉴에서 하이퍼링크 아이콘을 클릭합니다. 하이퍼링크는 프로젝트 수신자를 지원하기 위해 외부 웹 사이트, 문서 페이지, [Workspace 프로젝트/패널/시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 등에 연결할 수 있습니다.
+하이퍼링크를 추가하려면 텍스트를 강조 표시하고 메뉴에서 하이퍼링크 아이콘을 클릭합니다. 하이퍼링크는 프로젝트 수신자를 지원하기 위해 외부 웹 사이트, 문서 페이지, [Workspace 프로젝트/패널/시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ko-KR) 등에 연결할 수 있습니다.
 
 ![](assets/hyperlink.png)
 
