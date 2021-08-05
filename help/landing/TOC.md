@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Adobe Analytics 설명서
 source-git-commit: 4868278e88807e0f34f78f5063643f3a0b4de3df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 # Adobe Analytics 설명서 {#landing}
 
 * [홈](home.md)
-* [ Analytics의 새로운 랜딩 페이지](an-landing.md)
+* [Analytics의 새로운 랜딩 페이지](an-landing.md)
 * [Adobe Analytics 주요 개념](an-key-concepts.md)
 * [도구 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=ko-KR)
 * [관리 안내서](https://experienceleague.adobe.com/docs/analytics/admin/home.html?lang=ko-KR)
