@@ -6,7 +6,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 **Power BI에서 Report Builder 통합 문서 데이터 보기**
 
-1. Power BI의 [!UICONTROL 통합 문서] 메뉴에서 통합 문서를 두 번 클릭합니다.
+1. Power BI의 [!UICONTROL 통합 문서] 메뉴에서 통합 문서를 더블 클릭합니다.
 
    ![](assets/workbooks-power-bi.png)
 
@@ -79,11 +79,11 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1.  (선택 사항) Power BI에서 게시된 에셋의 이름을 사용자 지정할 수 있습니다. 이렇게 하는 것은 통합 문서 이름으로서 버전을 매기되  (예: myworkbook_v1.1.xlsx), 게시된 Power BI 에셋의 이름에 버전 번호를 표시하지 않으려 하는 경우 유용할 수 있습니다. 버전 번호가 변화하는 경우, 게시된 에셋은 변화하지 않는다는 추가적인 장점이 있습니다.  (여기에서 [사양](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)을 보십시오.)
+1. (선택 사항) Power BI에서 게시된 에셋의 이름을 사용자 지정할 수 있습니다. 이렇게 하는 것은 통합 문서 이름으로서 버전을 매기되(예: myworkbook_v1.1.xlsx), 게시된 Power BI 에셋의 이름에 버전 번호를 표시하지 않으려 하는 경우 유용할 수 있습니다. 버전 번호가 변화하는 경우, 게시된 에셋은 변화하지 않는다는 추가적인 장점이 있습니다. (여기에서 [사양](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)을 보십시오.)
 
 **Power BI에서 표 데이터 보기**
 
-1. Power BI에서 **[!UICONTROL 작업 공간]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
+1. Power BI에서 **[!UICONTROL Workspace]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
 
    ![](assets/datasets-menu.png)
 
@@ -121,7 +121,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 각각의 예약된 Report Builder 요청은 데이터 세트에서 표로 게시됩니다. 각 요청 표의 이름은 요청에서 기본 차원 다음에 지정되고 여기에는 [!UICONTROL 보고서 세트]와 [!UICONTROL 세그먼트] 열이 있습니다.
 
-1. Power BI에서 **[!UICONTROL 작업 공간]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
+1. Power BI에서 **[!UICONTROL Workspace]** > **[!UICONTROL 데이터 세트]** 메뉴로 이동합니다.
 
 1. 게시한 요청을 선택하고 그 옆에 있는 [!UICONTROL 보고서 만들기] 아이콘을 클릭합니다.
 
