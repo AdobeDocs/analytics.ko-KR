@@ -1,14 +1,14 @@
 ---
-description: FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
+description: FTP를 통해 데이터 파일을 업로드하는 방법.
 subtopic: Classifications
 title: FTP 가져오기
 feature: 관리 도구
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: '718'
+ht-degree: 99%
 
 ---
 
