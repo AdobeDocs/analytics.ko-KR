@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 99%
 
 ---
@@ -233,6 +233,7 @@ ht-degree: 99%
       + [브라우저 가져오기](classifications/importer/browser-import.md)
       + [브라우저 내보내기](classifications/importer/browser-export.md)
       + [FTP 가져오기](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+      + [FTP 내보내기](classifications/importer/ftp-export.md)
       + [처리 시간](classifications/importer/processing-time.md)
       + [문제 해결](classifications/importer/troubleshooting.md)
    + 분류 규칙 빌더 {#classifications-rulebuilder}
