@@ -3,10 +3,10 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
+source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 71%
+source-wordcount: '2859'
+ht-degree: 69%
 
 ---
 
@@ -47,8 +47,15 @@ ht-degree: 71%
 | 2021년 1월 14일 | Analytics 대시보드 언어 선택 옵션이 추가되었습니다. |
 | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 작업 공간 프로젝트에 이미지를 추가하는 방법에 대한 설명서입니다. |
 | 2021년 1월 14일 | 작업 공간 시각화를 위한 통합 소스 및 설정 관리자: 시각화를 위한 [!UICONTROL 데이터 소스] 관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
+| **2020년 12월** |  |
+| 2020년 12월 7일 | &quot;adobedc.net&quot; 종단점을 포함하거나 대체하도록 관련 있는 모든 페이지가 수정되었습니다. |
+| 2020년 12월 8일 | 작업 공간에서 [새 프로젝트 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ko-KR) 페이지에 대한 업데이트. |
 | **2020년 11월** |  |
-| 2020년 11월 | 새로운 구현 검토 문서: <ul><li>[전체 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ko-KR)</li><li>[집중 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ko-KR)</li></ul> |
+| 2020년 11월 24일 | Workspace의 [패널 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR) 페이지에 대한 업데이트. |
+| 2020년 11월 24일 | 새로운 구현 검토 문서: <ul><li>[전체 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ko-KR)</li><li>[집중 구현 검토](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ko-KR)</li></ul> |
+| 2020년 11월 24일 | Analysis Workspace [시각화 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR) 페이지를 업데이트했습니다. |
+| 2020년 11월 12일 | [상속된 Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en)의 새 페이지입니다. |
+| 2020년 11월 2일 | [FTP에서 분류](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en)에 대한 문서가 업데이트되었습니다. |
 | **2020년 10월** |  |
 | 2020년 10월 23일 | 작업 공간 라인 시각화: [평균 트렌드 라인 이동 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ko-KR): 이 설정은 [!UICONTROL 선] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트 (**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
 | 2020년 10월 23일 | 작업 공간 [성능 도움말 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ko-KR)에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
@@ -94,12 +101,15 @@ ht-degree: 71%
 | 2020년 2월 20일 | 작업 공간 디버거가 도움말 메뉴에 추가되어 Workspace 요청 디버깅에 더 원활하게 사용할 수 있습니다. [자세히 알아보기...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020년 2월 18일 | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 변수를 추가했습니다. |
 | 2020년 2월 12일 | [마케팅 채널](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 설명서에 대한 업데이트 및 재구성. |
+| 2020년 2월 12일 | [이 Workspace 페이지](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)에 새 핫키가 추가되었습니다. |
 | 2020년 2월 7일 | [크로스 디바이스 분석 설정](/help/components/cda/setup.md) 및 [FAQ](/help/components/cda/faq.md)에 대한 업데이트 |
 | 2020년 2월 4일 | [구현 사용 안내서](/help/implement/home.md)의 전체적인 재작성. |
 | 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
 | **2020년 1월** |  |
+| 2020년 1월 24일 | Workspace의 [행 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en) 페이지에 대한 업데이트. |
 | 2020년 1월 16일 | [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko-KR)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 Workspace에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
+| 2020년 1월 13일 | ](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-overview/which-analytics-tool.html) 페이지를 사용해야 하는 도구를 수정했습니다.[ |
 | **2019년** |  |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
