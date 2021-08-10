@@ -3,7 +3,7 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 71%
@@ -22,7 +22,7 @@ ht-degree: 71%
 ## 주요 설명서 업데이트에 대한 세부 사항
 
 | 날짜 | 설명 |
-|---|---|
+| --- | --- |
 | 2021년 8월 5일 | [반복 인스턴스 계산](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)에 대한 새 항목 |
 | 2021년 7월 23일 | [머천다이징 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)에 대한 심층적인 토론 |
 | 2021년 7월 15일 | [Adobe Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ko-KR)에 새 설명서를 추가했습니다 |
