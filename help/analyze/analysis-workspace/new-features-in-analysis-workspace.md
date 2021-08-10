@@ -5,14 +5,17 @@ title: Analysis Workspace의 새로운 기능
 feature: Workspace 기본 사항
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
 workflow-type: tm+mt
-source-wordcount: '8276'
-ht-degree: 100%
+source-wordcount: '8290'
+ht-degree: 99%
 
 ---
 
 # Analysis Workspace의 새로운 기능
+
+>[!IMPORTANT]
+>추가 Analysis Workspace 업데이트가 [Adobe Analytics 설명서 업데이트](/help/landing/doc-updates.md) 페이지에 롤아웃되었습니다.
 
 Adobe Experience Cloud 릴리스 정보를 전체를 보려면 [여기](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)로 이동하십시오.
 
