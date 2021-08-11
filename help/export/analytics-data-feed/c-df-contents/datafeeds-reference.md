@@ -6,9 +6,9 @@ title: 데이터 열 참조
 feature: Reports & Analytics 기본 사항
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 99%
 | `hier1 - hier5` | 계층 변수에서 사용됩니다. 구분된 값 목록을 포함합니다. 구분 기호는 보고서 세트 설정에서 선택합니다. | varchar (255) |
 | `hit_source` | 히트가 발생한 소스를 나타냅니다. 히트 소스 1, 2 및 6이 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 있는 표준 이미지 요청 <br>3: 타임스탬프가 있는 라이브 데이터 소스 업로드 <br>4: 사용되지 않음 <br>5: 일반 데이터 소스 업로드 <br>6: 데이터 소스 업로드 전체 처리 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음, Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음, Adobe Social 요약 지표 <br>10: Audience Manager 서버 측 전달이 사용됨 | tinyint 부호 없음 |
 | `hit_time_gmt` | 히트 Adobe 데이터 수집 서버의 타임스탬프가 Unix 시간을 기준으로 히트를 받았습니다. | int |
-| `hitid_high` | 히트를 고유하게 식별하기 위해 `hitid_low`와 함께 사용됩니다. | bigint 부호 없음 |
-| `hitid_low` | 히트를 고유하게 식별하기 위해 `hitid_high`와 함께 사용됩니다. | bigint 부호 없음 |
+| `hitid_high` | 히트를 식별하기 위해 `hitid_low` 과 함께 사용됩니다. | bigint 부호 없음 |
+| `hitid_low` | 히트를 식별하기 위해 `hitid_high` 과 함께 사용됩니다. | bigint 부호 없음 |
 | `homepage` | 더 이상 사용되지 않습니다. 현재 URL이 브라우저의 홈 페이지인지 여부를 나타냅니다. | char (1) |
 | `hourly_visitor` | 히트가 새 시간별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | `ip` | 이미지 요청의 HTTP 헤더를 기반으로 한 IP 주소입니다. | char (20) |
