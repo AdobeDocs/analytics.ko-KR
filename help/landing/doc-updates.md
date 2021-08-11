@@ -3,10 +3,10 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
-source-wordcount: '2845'
-ht-degree: 68%
+source-wordcount: '2930'
+ht-degree: 65%
 
 ---
 
@@ -41,10 +41,10 @@ ht-degree: 68%
 | 2021년 3월 25일 | [데이터 복구 ](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) API 업데이트(URL, 쿼리 문자열, 기호로 필터링 등) |
 | 2021년 3월 25일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
 | **2021년 2월** |  |
-| 2021년 2월 4일 | 구성 요소 선택: [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소는 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가됩니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
+| 2021년 2월 4일 | 구성 요소 선택: [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 공간]의 모든 놓기 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 드롭 영역으로 계속 사용할 수 있습니다. |
 | **2021년 1월** |  |
-| 2021년 1월 14일 | Analytics 대시보드 언어 선택 옵션이 추가되었습니다. |
-| 2021년 1월 14일 | 공개 이미지 URL을 참조하여 작업 공간 프로젝트에 이미지를 추가하는 방법에 대한 설명서입니다. |
+| 2021년 1월 14일 | Analytics 대시보드 설명서에 언어 선택 옵션을 추가했습니다. |
+| 2021년 1월 14일 | 공개 이미지 URL을 참조하여 작업 공간 프로젝트에 이미지를 추가하는 방법에 대한 설명서를 추가했습니다. |
 | 2021년 1월 14일 | 작업 공간 시각화를 위한 통합 소스 및 설정 관리자: 시각화를 위한 [!UICONTROL 데이터 소스] 관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다. |
 | **2020년 12월** |  |
 | 2020년 12월 7일 | &quot;adobedc.net&quot; 종단점을 포함하거나 대체하도록 관련 있는 모든 페이지가 수정되었습니다. |
@@ -110,14 +110,20 @@ ht-degree: 68%
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
 | 2020년 1월 13일 | [내가](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) 페이지를 사용해야 하는 Adobe Analytics 도구를 수정했습니다. |
 | **2019년** |  |
+| 2020년 12월 19일 | 기본 [FTP 데이터 저장소 제한](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en)을 10GB로 변경했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
 | 2019년 11월 21일 | [고객 움직임 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
+| 2019년 11월 21일 | LiveStream에서 가용성을 나타내도록 [Audience Analytics 워크플로우 FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en)가 업데이트되었습니다. |
+| 2019년 10월 25일 | [Adobe Analytics 주요 개념](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html?lang=en) 페이지가 업데이트되었습니다. |
 | 2019년 10월 10일 | 자유 형식 테이블 합계 업데이트: 여기에는 **[!UICONTROL 테이블 합계]**&#x200B;와 **[!UICONTROL 총합계]**&#x200B;의 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ko-KR)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko-KR)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
 | 10,2019년 10월 | Workspace에서 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
-| 10,2019년 10월 | Workspace에서 자주색 세부 기간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
+| 10,2019년 10월 | Workspace에서 자주색 세부 기간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
+| 2019년 10월 1일 | [작업 공간 합계](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en)에 대한 새 문서. |
 | 2019년 9월 28일 | [Javascript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
+| 2019년 9월 19일 | [논리 그룹 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=en#logic-group-containers)를 설명하기 위해 세그먼테이션 설명서를 수정했습니다. |
 | 2019년 9월 12일 | [Journey IQ: 크로스 디바이스 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
+| 2019년 9월 12일 | [계산된 지표 합계](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=en) 문서를 업데이트합니다. |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱 (PWA)](/help/analyze/pwa/pwa.md)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
 | 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | Workspace에서 Adobe은 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 활용 사례를 포용합니다. |
