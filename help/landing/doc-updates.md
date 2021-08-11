@@ -1,12 +1,12 @@
 ---
 title: Adobe Analytics에 대한 기술 설명서 업데이트
-description: Adobe Analytics 설명서 저장소의 주목할 만한 업데이트.
+description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
 workflow-type: tm+mt
-source-wordcount: '2930'
-ht-degree: 65%
+source-wordcount: '2886'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 65%
 | 2021년 8월 5일 | [템플릿](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [브라우저 가져오기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) 및 [브라우저 내보내기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)에서 새 분류 아키텍처에 대해 활성화된 보고서 세트에 사용할 수 없는 옵션을 나타내도록 분류 설명서를 업데이트했습니다. |
 | 2021년 8월 2일 | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)의 리브랜딩을 반영하도록 여러 페이지가 업데이트되었습니다. |
 | **2021년 7월** |  |
-| 2021년 7월 23일 | [머천다이징 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)에 대한 심층적인 토론 |
+| 2021년 7월 23일 | [머천다이징 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)에 대한 새로운 심층적인 토론 |
 | 2021년 7월 15일 | 새 [Adobe Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ko-KR)에 새 설명서를 추가했습니다 |
 | **2021년 6월** |  |
 | 2021년 6월 15일 | 업데이트됨 [마케팅 채널 우수 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
@@ -70,19 +70,18 @@ ht-degree: 65%
 | 2020년 7월 21일 | [크로스 디바이스 분석](/help/components/cda/overview.md)의 주요 업데이트 및 개정 버전. [필드 기반 결합](/help/components/cda/field-based-stitching.md)을 추가했습니다. |
 | 2020년 7월 16일 | Workspace에서 새 날짜 범위 사전 설정. 4개의 새 날짜 범위를 추가함: ([!UICONTROL 이번 주/월/분기/연도 (오늘 제외)]). 오늘부터 하루의 일부 데이터를 포함하지 않는 날짜 범위에서 선택할 수 있습니다. |
 | **2020년 6월** |  |
-| 2020년 6월 25일 | Workspace의 Quick Insights 패널에서는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 2020년 6월 25일 | Analysis Workspace의 Analytics for Target 패널을 사용하면 향상도와 신뢰도로 Adobe Target 활동 및 경험을 분석할 수 있습니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 2020년 6월 25일 | 작업 공간의 [빠른 인사이트 패널](/help/analyze/analysis-workspace/c-panels/quickinsight.md)에 대한 새 설명서입니다. Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. |
+| 2020년 6월 25일 | Workspace의 [Target 패널](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)에 대한 새 설명서입니다. 향상도와 신뢰도로 Adobe Target 활동 및 경험을 분석할 수 있도록 해줍니다. |
 | 2020년 6월 18일 | [Attribution IQ에 대한 새 설명서: 알고리즘 속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
 | 2020년 6월 18일 | [Attribution IQ에 대한 새 설명서: 사용자 지정 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
-| 2020년 6월 18일 | 공유 Workspace 프로젝트에 대한 프로젝트 역할. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
-| 2020년 6월 18일 | 작업 공간 프로젝트를 &quot;볼 수 있음&quot;으로만 사용자에게 공유하는 방법에 대한 설명서입니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ko-KR) |
-| 2020년 6월 18일 | 공유 작업 공간 프로젝트에 대한 프로젝트 역할에 대한 새 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 2020년 6월 18일 | 보기 전용 작업 공간 프로젝트: 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일과 제한된 상호 작용 없이 더 제한적인 프로젝트 경험을 받게 됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 2020년 6월 18일 | Workspace 프로젝트 공동 편집 기능. 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 2020년 6월 18일 | 공유 작업 공간 프로젝트에 대한 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)에 대한 새 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기).  |
+| 2020년 6월 18일 | 작업 공간 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ko-KR)에 대한 새 설명서입니다. [ 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 제한된 상호 작용으로 프로젝트 경험이 더 제한적입니다. |
+| 2020년 6월 18일 | 공유 작업 공간 프로젝트에 대한 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)에 대한 새 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기).  |
+| 2020년 6월 18일 | [작업 공간 프로젝트 공동 편집](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)에 대한 새 설명서입니다. 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. |
 | **2020년 6월** |  |
 | 2020년 5월 31일 | [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)에 대한 새 설명서입니다. |
 | 2020년 5월 21일 | [Adobe Analytics 대시보드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)에 대한 새 설명서 |
-| 2020년 5월 21일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace의 접근성 개선 사항에 대한 설명서입니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=ko-KR) |
+| 2020년 5월 21일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace에 대한 [액세서빌러티 개선](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=ko-KR)에 대한 새 설명서입니다. |
 | **2020년 4월** |  |
 | 2020년 4월 28일 | [콘텐츠 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
 | 2020년 4월 16일 | 빈 상태에서 [!UICONTROL 자유 형식 테이블]을 자동으로 작성하는 방법에 대한 설명서입니다. 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 [!UICONTROL 자유 형식 테이블]에 함께 끌어 놓을 때 혼합 구성 요소 유형 (예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
