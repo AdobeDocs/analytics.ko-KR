@@ -2,22 +2,24 @@
 description: 새로운 랜딩 페이지는 Analysis Workspace와 Reports & Analytics를 Workspace umbrella 하의 단일 인터페이스와 액세스 포인트에 통합하는 방법을 설명합니다.
 title: Adobe Analytics의 새로운 랜딩 페이지
 role: User, Admin
-source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
+source-git-commit: ebf11e981da25ab154968acda49456862f38874f
 workflow-type: tm+mt
 source-wordcount: '3046'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Adobe Analytics의 새로운 랜딩 페이지
 
-Adobe Analytics의 새 랜딩 페이지는 Analysis Workspace과 Reports &amp; Analytics를 모두 작업 공간 우산 아래 단일 인터페이스 및 액세스 포인트로 가져옵니다. 여기에는 새로운 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴 및 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 새로운 학습 섹션도 포함되어 있습니다.
+Adobe Analytics의 새로운 랜딩 페이지는 Analysis Workspace와 Reports &amp; Analytics를 Workspace umbrella 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 새로운 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴 및 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 새로운 학습 섹션도 포함되어 있습니다.
 
 새 페이지는 검색 기능을 개선하고 Report &amp; Analytics 사용자에게 Workspace의 향상된 보고 경험을 안내합니다.
 
 >[!IMPORTANT]
 >
 >이 랜딩 페이지는 2021년 7월 21일부터 Open Beta에 게시됩니다. 시작점으로 선택할 수 있습니다. 원하는 경우 Workspace인지 보고서인지 여부와 관계없이 기존 랜딩 페이지를 사용할 수 있습니다. Beta 프로그램에 옵트인하기로 결정한 경우 페이지에 액세스하고 화면 상단의 **[!UICONTROL 피드백 제공]**&#x200B;을 클릭하여 피드백 및 발생 가능한 버그를 기록합니다. 언제든지 Beta 프로그램에서 옵트아웃했다가 다시 옵트인할 수 있습니다. Beta 사용자 인터페이스에서 수행된 모든 작업은 기존/현재 Workspace 환경으로 이어집니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 ## 새 랜딩 페이지 액세스 {#access-landing}
 
