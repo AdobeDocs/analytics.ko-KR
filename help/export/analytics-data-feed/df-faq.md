@@ -3,10 +3,10 @@ description: 데이터 피드에 대한 FAQ
 keywords: 데이터 피드, 작업, 이전 열, 이후 열, 대소문자 구분
 title: 데이터 피드 FAQ
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+workflow-type: tm+mt
+source-wordcount: '1440'
+ht-degree: 95%
 
 ---
 
@@ -51,6 +51,10 @@ Adobe Analytics에서는 대부분의 변수가 보고 목적으로 대소문자
 일부 스프레드시트 편집기, 특히 Microsoft Excel에서 큰 수는 자동으로 반올림됩니다. `event_list` 열에는 쉼표로 구분된 숫자가 많이 포함되어있어 Excel에서 이 숫자를 큰 숫자로 처리하는 경우가 있습니다. 마지막 몇 자릿수를 `000`으로 반올림합니다.
 
 Adobe는 Microsoft Excel에서 `hit_data.tsv` 파일을 자동으로 열지 않는 것을 권장합니다. 대신 Excel의 데이터 가져오기 대화 상자를 사용하고 모든 필드가 텍스트로 처리되는지 확인하십시오.
+
+## `hitid_high`, `hitid_low`, `visid_high` 및 `visid_low` 등의 열이 히트 또는 방문에 고유해야 합니까?
+
+거의 모든 경우 `hitid_high` 과 `hitid_low` 의 연결이 히트를 고유하게 식별합니다. 동일한 개념이 방문에 대한 `visid_high` 및 `visid_low` 의 연결에 적용됩니다. 하지만 처리 예외 항목이 발생하면 두 개의 히트가 동일한 히트 ID를 공유하는 경우는 거의 없습니다. Adobe은 고유한 모든 히트에 효과적으로 의존하는 데이터 피드 워크플로우를 생성하지 않도록 권장합니다.
 
 ## 일부 이동통신사의 도메인 열에서 정보가 누락된 이유는 무엇입니까? {#section_B7508D65370442C7A314EAED711A2C75}
 
