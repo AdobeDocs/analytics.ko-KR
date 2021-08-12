@@ -2,11 +2,10 @@
 title: 차원 개요
 description: 문자열 값을 포함하는 변수입니다.
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 85%
 
 ---
 
@@ -23,3 +22,9 @@ ht-degree: 100%
 | `Purchase page` | `100` |
 
 각 차원은 사이트의 다른 부분 또는 측면을 나타냅니다. 이러한 차원 중 하나 이상을 하나 이상의 지표와 결합하여 원하는 보고서를 만들 수 있습니다.
+
+## 차원 설명 추가
+
+다음은 Adobe Analytics에서 차원(및 지표) 설명을 추가하는 방법을 설명하는 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
