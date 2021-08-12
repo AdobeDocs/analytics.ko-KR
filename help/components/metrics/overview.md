@@ -2,11 +2,10 @@
 title: 지표 개요
 description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니다.
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 88%
 
 ---
 
@@ -26,3 +25,9 @@ ht-degree: 100%
 
 * 지표가 사용자 지정 이벤트인 경우 조직 내의 Analytics 관리자에게 문의하거나 보고서 세트의 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * 지표가 계산된 지표인 경우 정보 아이콘을 클릭하여 공식을 확인합니다.
+
+## 지표 설명 추가
+
+다음은 Adobe Analytics에서 지표(및 차원) 설명을 추가하는 방법을 설명하는 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
