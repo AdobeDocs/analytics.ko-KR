@@ -2,11 +2,10 @@
 title: Adobe Admin Console의 Analytics
 description: Adobe Admin Console을 사용하여 Analytics 제품 및 사용자를 관리하는 방법에 대해 알아봅니다.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '106'
+ht-degree: 83%
 
 ---
 
@@ -21,3 +20,9 @@ Analytics 제품 및 사용자를 관리하려면 [Adobe Admin Console](https://
    * [Adobe Analytics의 제품 프로필](/help/admin/admin-console/permissions/product-profile.md)
    * [보고서 세트 도구에 대한 제품 프로필 권한](/help/admin/admin-console/permissions/report-suite-tools.md)
    * [Analytics 도구에 대한 제품 프로필 권한](/help/admin/admin-console/permissions/analytics-tools.md)
+
+## Adobe Analytics에서 관리자 추가
+
+다음은 프로세스에 대한 짧은 비디오입니다.
+
+https://video.tv.adobe.com/v/37648/?quality=12
