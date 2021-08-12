@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급을 매기고 실시간 분석 대시보드를 제공하여 웹 페이지에 대한 대상 참여를 모니터링하도록 설계된 Adobe Analytics 애플리케이션입니다.
 
 Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고 대상의 필요 사항과 행동에 따라 대응할 수 있습니다.
+
+다음은 Activity Map에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
 
 **관리자용 시작하기**
 
