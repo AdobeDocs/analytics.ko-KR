@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: 시각화
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '100'
-ht-degree: 100%
+source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 93%
 
 ---
 
@@ -29,3 +29,7 @@ ht-degree: 100%
 스택 영역 시각화에 대한 새로운 시각화 설정은 차트를 &quot;100% 누적&quot; 시각화로 바꿉니다.
 
 ![](assets/areastacked100.png)
+
+다음은 &quot;100% 누적 시각화&quot;에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
