@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2132'
-ht-degree: 100%
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,12 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 [코드 관리자](/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 수 있습니다.
+
+## 버전 2.22.1
+
+릴리스 날짜: **2021년 8월 12일**
+
+* 옵트아웃을 사용하는 고객은 링크를 추적할 때 서버 측 전달 옵트아웃 매개 변수가 적용되지 않는 것을 봤을 수 있습니다. 이 릴리스의 수정 사항으로 인해 링크를 추적할 때 옵트아웃 플래그가 있는 경우 전송됩니다.
 
 ## 버전 2.22.0
 
@@ -425,7 +431,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 날짜: **2013년 11월 14일**
 
 * [하트비트 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)에 대한 지원을 추가했습니다.
-* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
+* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
 
 ## 버전 1.1.1
 
