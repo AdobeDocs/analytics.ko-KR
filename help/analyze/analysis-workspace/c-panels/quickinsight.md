@@ -4,10 +4,10 @@ title: 빠른 인사이트 패널
 feature: 패널
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 99%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 * 기본 구성 요소 및 [!UICONTROL Analysis Workspace]조각에 대한 용어 및 용어를 알아봅니다.
 * 간단하게 차원을 분류하거나, 여러 지표를 추가하거나, [!UICONTROL 자유 형식 테이블] 내에서 세그먼트를 쉽게 비교할 수 있습니다.
 * 다양한 시각화 유형을 변경하거나 테스트하여 분석에 필요한 찾기 툴을 빠르고 직관적으로 찾을 수 있습니다.
+
+다음은 [!UICONTROL 빠른 인사이트] 패널에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## 기본 키 용어
 
