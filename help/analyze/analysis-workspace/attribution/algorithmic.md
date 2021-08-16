@@ -4,8 +4,8 @@ description: 알고리즘 속성 모델에 대한 세부 사항입니다.
 feature: 속성
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # 알고리즘 속성
 
 Analysis Workspace의 알고리즘 [속성 모델](models.md)은 통계적 기법을 사용하여 보고서나 자유 형식 테이블의 차원 항목에 크레딧을 할당한다는 점에서 다른 모델과 다릅니다. Analysis Workspace의 다른 모든 속성 모델과 마찬가지로 모든 차원이나 지표에서 사용할 수 있으며 무제한 세그먼테이션 및 분류를 지원하고 테이블의 차원에 대한 100% 전환 (&quot;분수&quot; 속성)을 분배합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
 
 속성에 사용되는 알고리즘은 협업 게임 이론의 Harsanyi 배당을 기반으로 합니다. Harsanyi 배당은 결과에 불평등한 기여와 함께 플레이어들 간의 크레딧을 분배하기 위해 Shapley 값 솔루션 (노벨 경제학상 수상자인 Lloyd Shapley의 이름을 따서 이름이 지어짐)의 일반화입니다.
 
