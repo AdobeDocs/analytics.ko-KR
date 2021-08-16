@@ -3,10 +3,10 @@ description: 이 문서에서는 데이터 주체의 GDPR 액세스 및 삭제 �
 title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 97%
 
 ---
 
@@ -54,3 +54,9 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
    >데이터 보존 기간을 Adobe Analytics에 설정하지 않은 경우 Adobe Analytics에서 GDPR API에 대한 요청 처리, 즉 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Customer Success Manager에 문의하십시오.
 
 * 사용 권한을 확인합니다. Adobe Analytics의 데이터 거버넌스 관리 인터페이스를 사용하려면 Adobe Analytics 관리자여야 합니다.
+
+## AdobePrivacyJS: GDPR 요청에 대한 클라이언트측 ID 확인
+
+다음은 이 항목에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
