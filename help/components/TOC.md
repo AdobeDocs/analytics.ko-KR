@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 97%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 99%
       + [계산된 지표 합계](c-calcmetrics/cm-totals.md)
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
-   + [가상 보고서 세트 구성 요소 큐레이션](vrs/vrs-components.md)
+   + [가상 보고서 세트 - 구성 요소 큐레이션](vrs/vrs-components.md)
    + [Mobile Services의 VRS 지원](vrs/vrs-mobile-services.md)
    + [컨텍스트 인식 세션](vrs/vrs-mobile-visit-processing.md)
    + [보고서 처리 시간](vrs/vrs-report-time-processing.md)
+   + [A4T 고려 사항](vrs/vrs-a4t.md)
    + [VRS FAQ](vrs/vrs-faq.md)
    + [VRS 및 글로벌/다중 세트 태깅 고려 사항](vrs/vrs-considerations.md)
    + VRS 워크플로 {#vrs-workflow}
