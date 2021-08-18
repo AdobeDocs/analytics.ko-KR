@@ -3,10 +3,10 @@ description: 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼�
 title: 가상 보고서 세트 개요
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: fb5de8ad4eee3e9017ab547823a7fa9132fa2457
-workflow-type: ht
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
