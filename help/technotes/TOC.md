@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Analytics 기술 노트 {#technotes}
 
 + [Analytics 기술 노트](home.md)
++ [설명서 업데이트](doc-updates.md)
 + Google Analytics 사용자를 위한 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 사용자를 위한 Adobe Analytics 도움말](ga-to-aa/home.md)
    + [계정 및 보고서 세트](ga-to-aa/accounts.md)
@@ -43,12 +44,14 @@ ht-degree: 100%
    + [브라우저 쿠키 제안의 영향을 경감하기 위한 옵션](cookies/cookieless.md)
 + [데이터 보존](data-retention.md)
 + [데이터 제외](exclude-data.md)
++ [기능 릴리스](releases.md)
 + [Adobe Analytics에서 사용하는 IP 및 도메인](ip-addresses.md)
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)
 + [모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션](migrate-mobile.md)
 + [다중 통화 지원](multicurrency.md)
 + [개인정보 보호 개요](privacy-overview.md)
++ [점진적 웹 앱](pwa.md)
 + [리디렉션 및 별칭](redirects.md)
 + 지역 데이터 수집 {#rdc}
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
