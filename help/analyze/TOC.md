@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '985'
 ht-degree: 99%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 99%
 # Analytics 툴 안내서 {#analyze}
 
 + [Analytics 툴 안내서](home.md)
++ [랜딩 페이지](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
    + [Analysis Workspace의 새로운 기능](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -273,10 +274,8 @@ ht-degree: 99%
    + [Analytics에서의 Activity Map 보고](activity-map/activitymap-reporting-analytics.md)
    + [브라우저 확장 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [데이터 수집 문제 해결](activity-map/troubleshoot-data-collection.md)
-   + [기술 자료 리소스](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Reports and Analytics 시작하기](reports-analytics/getting-started.md)
-   + [Adobe Analytics - 주요 개념](reports-analytics/key-concepts.md)
    + 보고 인터페이스 개요 {#reporting-interface}
       + [데이터 수집 정보](reports-analytics/overview/overview-data-collection.md)
       + [보고서 메뉴](reports-analytics/overview/reports-menu.md)
@@ -310,11 +309,5 @@ ht-degree: 99%
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 안내서](mobile-app/curator.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
-+ 점진적 웹 앱 {#pwa}
-   + [점진적 웹 앱](pwa/pwa.md)
-+ Analytics Reporting API {#analytics-reporting-api}
-   + [Analytics Reporting API 개요](c-reporting-api/c-reporting-api.md)
-   + [Analytics Reporting API 비교](c-reporting-api/api-comparison.md)
-   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-   + [Labs 개요](tech-previews/overview.md)
++ [보고 API](reporting-api.md)
++ [Labs](labs.md)
