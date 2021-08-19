@@ -1,22 +1,22 @@
 ---
 description: 내부 URL 필터는 사이트 내부로 간주되는 참조를 식별합니다. 이 필터들은 트래픽 소스 보고서가 데이터를 채우도록 하고 내부 트래픽을 필터링하는 데 도움이 됩니다.
 title: 내부 URL 필터
-feature: Admin Tools
+feature: 관리 도구
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 95%
 
 ---
 
+
 # 내부 URL 필터
 
-**[!UICONTROL 관리 > 보고서 세트 > 설정 편집 > 일반 > 내부 URL 필터 > 필터 추가]**
-
 내부 URL 필터는 사이트 내부로 간주되는 참조를 식별합니다. 이 필터들은 트래픽 소스 보고서가 데이터를 채우도록 하고 내부 트래픽을 필터링하는 데 도움이 됩니다.
+
+**[!UICONTROL 관리자]**  >  **[!UICONTROL 보고서 세트]**  >  **[!UICONTROL 설정 편집]**  >  **[!UICONTROL 일반]**  >  **[!UICONTROL 내부 URL 필터]**
 
 참조 또는 참조 페이지는 일반적으로 방문자가 해당 페이지로부터 사용자의 사이트에 들어가게 되는 페이지입니다. 데이터 왜곡을 막기 위해 내부 참조를 필터링할 수 있습니다. 보고서는 필터링된 참조를 [레퍼러](/help/components/dimensions/referrer.md) 차원, [참조 도메인](/help/components/dimensions/referring-domain.md) 차원 및 기타 트래픽 소스 차원.
 
