@@ -3,9 +3,9 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
+source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2905'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 63%
 | 날짜 | 설명 |
 | --- | --- |
 | **2021년 8월** |  |
+| 2021년 8월 18일 | 최상위 구조를 수정하고 단일 [랜딩 페이지](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)로 통합했습니다. |
 | 2021년 8월 18일 | [A4T 및 가상 보고서 세트의 새 항목](/help/components/vrs/vrs-a4t.md) |
 | 2021년 8월 18일 | [속성 우수 사례](/help/analyze/analysis-workspace/attribution/best-practices.md)에 대한 새 항목 |
 | 2021년 8월 5일 | [반복 인스턴스 계산](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)에 대한 새 항목 |
