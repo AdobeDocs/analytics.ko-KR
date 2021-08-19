@@ -4,9 +4,9 @@ description: Analysis Workspace, Adobe Analytics 대시보드, Activity Map, Rep
 feature: Workspace 기본 사항
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '237'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -28,14 +28,13 @@ ht-degree: 100%
 
 * [Adobe Analytics 대시보드 - 개요](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 시작](analysis-workspace/home.md)
-* [Adobe Analytics용 PWA(프로그레시브 웹 앱)](/help/analyze/pwa/pwa.md)
 * [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder 시작](report-builder/home.md)
 * [Activity Map 시작](activity-map/activity-map.md)
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용 안내서](/help/landing/home.md)
+[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## 주요 Analytics 리소스
 
