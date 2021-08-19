@@ -5,9 +5,9 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 97%
 
 ---
@@ -57,4 +57,3 @@ Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식�
 * [Activity Map 사용자 인터페이스](activitymap-user-interface.md)
 * [Analytics에서의 Activity Map 보고](activitymap-reporting-analytics.md)
 * [브라우저 확장 문제 해결](troubleshooting-browser-extensions.md)
-* [기술 자료 리소스](activitymap-info-resources.md)
