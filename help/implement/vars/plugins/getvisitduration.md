@@ -2,10 +2,10 @@
 title: getVisitDuration
 description: 지금까지 방문자가 사이트에서 보낸 시간을 추적합니다.
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '466'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 `getVisitDuration` 플러그인은 방문자가 해당 시점까지 사이트에 있었던 시간 (분)을 추적합니다. 사이트에서 최대 해당 시점까지 누적 시간을 추적하거나 활동을 수행하는 데 소요되는 시간을 추적하려면 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 이벤트 간의 시간을 추적하지 않습니다. 이 기능을 원하는 경우 [`getTimeBetweenEvents`](gettimebetweenevents.md) 플러그인을 사용하십시오.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getVisitDuration 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## 플러그인 사용
 
-`getVisitDuration` 메서드는 인수를 사용하지 않으며 다음 값 중 하나를 반환합니다.
+`getVisitDuration` 함수에서는 인수를 사용하지 않습니다. 다음 값 중 하나를 반환합니다.
 
 * `"first hit of visit"`
 * `"less than a minute"`
@@ -66,37 +66,16 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 이 플러그인은 `"s_dur"`이라는 자사 쿠키를 만듭니다. 이 값은 방문자가 사이트에 도착한 이후 경과된 밀리초 수입니다. 쿠키는 30분 동안 활동이 없으면 만료됩니다.
 
-## 호출 예
-
-### 예 #1
-
-다음 코드...
+## 예
 
 ```js
-s.eVar10 = s.getVisitDuration();
+// Always sets eVar10 to the number of minutes passed since the visitor first landed on the site
+s.eVar10 = getVisitDuration();
+
+// Checks if the events variable contains the purchase event.
+// If it does, sets eVar56 to the number of minutes between the start of the visit and the time of purchase
+if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 ```
-
-...은 (는) 항상 eVar10을 방문자가 사이트에 도착한 이후 경과된 분 수와 동일하게 설정합니다.
-
-### 예 #2
-
-다음 코드...
-
-```js
-if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
-```
-
-...은 (는) inList 플러그인을 사용하여 이벤트 변수에 구매 이벤트가 포함되어 있는지 여부를 확인합니다. 포함되어 있다면 eVar10은 방문자의 방문 시작과 구매 시간 사이의 분 수와 동일하게 설정됩니다.
-
-### 예 #3
-
-다음 코드...
-
-```js
-s.prop10 = s.getVisitDuration();
-```
-
-...은 (는) 항상 prop10을 방문자가 사이트에 도착한 이후 경과된 분 수와 동일하게 설정합니다. 이렇게 하면 prop10에 경로 지정이 활성화되어 있는 경우에 유용합니다. prop10 보고서에 &quot;종료&quot; 지표를 추가하면 방문자가 사이트를 떠나기 전에 몇 분 동안 방문이 이루어졌는지에 대한 세부적인 &quot;산포도&quot; 보고서가 표시됩니다.
 
 ## 버전 내역
 
