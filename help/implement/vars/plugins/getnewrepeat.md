@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: 신규 방문자와 재방문자의 활동을 추적합니다.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 66%
+source-wordcount: '552'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 66%
 
 `getNewRepeat` 플러그인을 사용하면 원하는 일 수 내에 사이트 방문자가 신규 방문자인지 재방문자인지를 파악할 수 있습니다. 사용자 지정 일 수를 사용하여 방문자를 &quot;신규&quot;로 식별하려면 이 플러그인을 사용하는 것이 좋습니다. Analysis Workspace의 신규/재방문자 차원이 조직의 요구 사항에 맞는 경우 이 플러그인은 불필요합니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getNewRepeat 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,54 +57,22 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## 플러그인 사용
 
-`getNewRepeat` 메서드에서는 다음 인수를 사용합니다.
+`getNewRepeat` 함수는 다음 인수를 사용합니다.
 
 * **`d`**  (정수, 선택 사항): 방문자를 다시 `"New"`로 재설정하기 위해 방문 간 필요한 최소 일 수입니다. 이 인수를 설정하지 않으면 기본값은 30일로 지정됩니다.
 
-이 메서드는 플러그인으로 설정된 쿠키가 없거나 만료된 경우 값 `"New"`을 반환합니다. 플러그인에 의해 설정된 쿠키가 존재하고 현재 히트 이후의 시간과 쿠키에 설정된 시간이 30분을 넘는 경우 값 `"Repeat"`을 반환합니다. 이 메서드는 전체 방문에 대해 동일한 값을 반환합니다.
+이 함수는 플러그인으로 설정된 쿠키가 없거나 만료된 경우 `"New"` 값을 반환합니다. 플러그인에 의해 설정된 쿠키가 존재하고 현재 히트 이후의 시간과 쿠키에 설정된 시간이 30분을 넘는 경우 값 `"Repeat"`을 반환합니다. 이 함수는 전체 방문에 대해 동일한 값을 반환합니다.
 
 이 플러그인은 `[LENGTH]`가 `d` 인수와 동일한 경우 `"s_nr[LENGTH]"`라는 쿠키를 사용합니다. 쿠키에는 현재 시간을 나타내는 Unix 타임스탬프와 방문자의 현재 상태 (`"New"` 또는 `"Repeat"`)가 포함되어 있습니다.
 
-## 호출 예
-
-### 예 #1
-
-다음 코드는 신규 방문자에 대해 `eVar1`을 `"New"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 계속 `eVar1`(새 호출마다)을 `"New"` 값으로 설정합니다.
+## 예
 
 ```js
+// Sets eVar1 to "New" if it is the visitor's first visit to the site, or they have not visited in at least 30 days. Otherwise, sets eVar1 to "Repeat".
 s.eVar1 = getNewRepeat();
-```
 
-### 예 #2
-
-방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 31분에서 30일 동안 언제든지 사이트로 돌아오는 경우, 다음 코드는 `eVar1`을 `"Repeat"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 계속해서 `eVar1` 값을 `"Repeat"` 값으로 설정합니다.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### 예 #3
-
-방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 최소 30일 동안 사이트에 없었다면, 다음 코드는 `eVar1`을 `"New"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 계속 `eVar1`을 `"New"` 값(새 호출마다)으로 설정합니다.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### 예 #4
-
-방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 31분에서 365일(즉, 1년) 동안 언제든지 사이트로 돌아오는 경우, 다음 코드는 `eVar1`을 `"Repeat"` 값으로 설정하고, 방문자의 나머지 사이트 방문 동안 `eVar1`을 `"Repeat"`의 값(새 호출마다)으로 계속 설정합니다.
-
-```js
-s.eVar1 = getNewRepeat(365);
-```
-
-### 예 #5
-
-방문자가 마지막으로 `getNewRepeat()`이 호출된 이후 최소 365일(즉, 1년) 동안 사이트에 없었다면, 다음 코드는 `eVar1`을 `"New"` 값으로 설정하고 방문자의 나머지 사이트 방문 동안 계속 `eVar1`을 `"New"` 값(새 호출마다)으로 설정합니다.
-
-```js
-s.eVar1 = getNewRepeat(365);
+// Sets eVar2 to "New" if it is the visitor's first visit to the site, or they have not visited in at least a year (365 days). Otherwise, sets eVar2 to "Repeat".
+s.eVar2 = getNewRepeat(365);
 ```
 
 ## 버전 내역
