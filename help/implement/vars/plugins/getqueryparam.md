@@ -2,10 +2,10 @@
 title: getQueryParam
 description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 92%
+source-wordcount: '666'
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 92%
 
 `getQueryParam` 플러그인을 사용하면 URL에 포함된 모든 쿼리 문자열 매개 변수의 값을 추출할 수 있습니다. 이 플러그인은 랜딩 페이지 URL에서 내부와 외부의 캠페인 코드를 모두 추출하는 데 유용하며, 검색어 또는 기타 쿼리 문자열 매개 변수를 추출할 때에도 유용합니다.
 
-이 플러그인은 여러 쿼리 문자열 매개 변수를 포함하는 해시 및 URL을 포함하여 복잡한 URL을 구문 분석하는 데 강력한 기능을 제공합니다. 간단한 쿼리 문자열 매개 변수만 필요한 경우에는 Adobe Experience Platform에서 태그를 사용하거나 AppMeasurement에 포함된 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 메서드를 사용하여 URL 매개 변수 기능을 사용하는 것이 좋습니다.
+이 플러그인은 여러 쿼리 문자열 매개 변수를 포함하는 해시 및 URL을 포함하여 복잡한 URL을 구문 분석하는 데 강력한 기능을 제공합니다. 간단한 쿼리 문자열 매개 변수만 필요한 경우에는 Adobe Experience Platform의 태그를 사용하는 URL 매개 변수 기능이나 AppMeasurement에 포함된 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 메서드를 사용하는 것이 좋습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -33,9 +33,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getQueryParam 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -55,132 +55,58 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## 플러그인 사용
 
-`getQueryParam` 메서드에서는 다음 인수를 사용합니다.
+`getQueryParam` 함수는 다음 인수를 사용합니다.
 
 * **`qsp`**  (필수): URL 내에서 찾을 쿼리 문자열 매개 변수의 쉼표로 구분된 목록입니다. 대/소문자를 구분하지 않습니다.
 * **`de`**  (선택 사항): 여러 쿼리 문자열 매개 변수가 일치하는 경우 사용할 구분 기호입니다. 기본값은 빈 문자열입니다.
 * **`url`**  (선택 사항): 쿼리 문자열 매개 변수 값을 추출할 사용자 지정 URL, 문자열 또는 변수입니다. 기본값은 `window.location`입니다.
 
-이 메서드를 호출하면 위의 인수 및 URL에 따라 값이 반환됩니다.
+이 함수를 호출하면 위의 인수 및 URL에 따라 값이 반환됩니다.
 
-* 일치하는 쿼리 문자열 매개 변수를 찾을 수 없으면 이 메서드는 빈 문자열을 반환합니다.
-* 일치하는 쿼리 문자열 매개 변수를 찾으면 이 메서드는 쿼리 문자열 매개 변수 값을 반환합니다.
-* 일치하는 쿼리 문자열 매개 변수를 찾았지만 값이 비어 있으면 이 메서드는 `true`를 반환합니다.
-* 일치하는 쿼리 문자열 매개 변수를 여러 개 찾으면 이 메서드는 `de` 인수의 문자열로 각 매개 변수 값이 구분된 문자열을 반환합니다.
+* 일치하는 쿼리 문자열 매개 변수를 찾을 수 없으면 이 함수는 빈 문자열을 반환합니다.
+* 일치하는 쿼리 문자열 매개 변수를 찾으면 이 함수는 쿼리 문자열 매개 변수 값을 반환합니다.
+* 일치하는 쿼리 문자열 매개 변수를 찾았지만 값이 비어 있으면 이 함수는 `true`을 반환합니다.
+* 일치하는 쿼리 문자열 매개 변수를 여러 개 찾으면 이 함수는 `de` 인수의 문자열로 각 매개 변수 값이 구분된 문자열을 반환합니다.
 
-## 호출 예
-
-### 예 #1
-
-현재 URL이 다음과 같은 경우
+## 예
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-다음 코드는 s.campaign을 &quot;trackingcode1&quot;과 동일하게 설정합니다.
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### 예 #2
-
-현재 URL이 다음과 같은 경우
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-다음 코드는 s.campaign을 &quot;trackingcode1:123456&quot;과 동일하게 설정합니다.
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### 예 #3
-
-현재 URL이 다음과 같은 경우
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-다음 코드는 s.campaign을 &quot;trackingcode1123456&quot;과 동일하게 설정합니다.
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### 예 #4
-
-현재 URL이 다음과 같은 경우
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-다음 코드는 s.campaign을 &quot;123456&quot;과 동일하게 설정합니다.
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### 예 #5
-
-현재 URL이 다음과 같은 경우
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-다음 코드는 s.campaign을 &quot;123456&quot;과 동일하게 설정합니다.
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**참고:** 이 플러그인은 물음표가 없는 경우 검사할 URL의 해시 문자를 물음표로 바꿉니다. URL에 해시 문자 앞에 오는 물음표가 포함되어 있으면 이 플러그인은 검사할 URL의 해시 문자를 앰퍼샌드로 바꿉니다.
-
-### 예 #6
-
-현재 URL이...
-
-```js
-http://www.abc123.com/
-```
-
-...인 경우와 변수 s.testURL이 다음과 같이 설정된 경우
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-다음 코드는 s.campaign을 전혀 설정하지 않습니다.
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-하지만 다음 코드는 s.campaign을 &quot;trackingcode1&quot;과 동일하게 설정합니다.
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**참고:** 세 번째 매개 변수는 코드가 쿼리 문자열 매개 변수를 찾는 데 사용할 문자열/변수일 수 있습니다.
-
-다음 코드는 s.eVar2를 &quot;123456|trackingcode1|true|300&quot;과 동일하게 설정합니다.
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* 123456이라는 값은 s.testURL 변수의 ecid 매개 변수에서 가져옵니다.
-* trackingcode1이라는 값은 s.testURL 변수의 cid 매개 변수에서 가져옵니다.
-* true라는 값은 s.testURL 변수의 해시 문자 뒤에 위치 매개 변수의 존재 (하지만 값은 아님)에서 옵니다.
-
-300이라는 값은 s.testURL 변수의 pos 매개 변수의 값에서 가져옵니다.
 
 ## 버전 내역
 
