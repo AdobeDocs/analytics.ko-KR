@@ -2,10 +2,10 @@
 title: getPageLoadTime
 description: 페이지를 로드하는 데 걸리는 시간을 추적합니다.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 93%
+source-wordcount: '478'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 `getPageLoadTime` 플러그인은 JavaScript 성능 개체를 사용하여 페이지를 완전히 로드하는 데 걸리는 시간을 측정할 수 있도록 해 줍니다. 페이지를 로드하는 데 걸리는 시간을 측정하려면 이 플러그인을 사용하는 것이 좋습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getPageLoadTime 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## 플러그인 사용
 
-`getPageLoadTime` 메서드는 인수를 사용하지 않습니다. 이 메서드를 호출하면 아무 것도 반환되지 않고 대신 다음 변수를 설정합니다.
+`getPageLoadTime` 함수에서는 인수를 사용하지 않습니다. 이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 다음 변수를 설정합니다.
 
 * `s._pltPreviousPage`: 로드 시간을 이전 페이지에 상호 연관시킬 수 있도록 이전 페이지를 설정합니다.
 * `s._pltLoadTime`: 이전 페이지가 로드되는 데 걸린 시간 (초)을 설정합니다.
@@ -67,29 +67,22 @@ getPageLoadTime 플러그인은 다음과 같이 두 개의 자사 쿠키를 만
 * `s_plt`: 이전 페이지가 로드되는 데 걸린 시간 (초)입니다. 브라우저 세션이 끝날 때 만료됩니다.
 * `s_pltp`: 이전 Adobe Analytics 이미지 요청에 기록된 `s.pageName` 변수의 값입니다. 브라우저 세션이 끝날 때 만료됩니다.
 
-## 호출 예
-
-### 예 #1
-
-다음 코드를 실행하면...
+## 예
 
 ```js
+// 1. Run the getPageLoadTime function if the pageName variable is set
+// 2. Set prop10 to the load time of the previous page
+// 3. Set eVar10 to the name of the previous page
+// 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
+// You can then use event100 in calculated metrics to obtain the average page load time per page.
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
   s.prop10 = s._pltLoadTime;
-  s.prop11 = s._pltPreviousPage
-  s.eVar10 = prop11;
+  s.eVar10 = s._pltPreviousPage
   s.events = "event100=" + s._pltLoadTime;
 }
 ```
-
-...다음 작업이 수행됩니다.
-
-* s.pageName이 설정되어 있으면 getPageLoadTime 플러그인 실행
-* s.prop10을 이전 페이지의 로드 시간과 동일하게 설정
-* s.prop11 및 s.eVar10을 이전 페이지의 이름과 동일하게 설정 (s.pageName에 기록된 대로).
-* 사용자 지정 숫자 이벤트인 event100을 이전 페이지의 로드 시간과 동일하게 설정   이 경우 사용자 지정 이벤트의 사용은 이전 페이지의 모든 페이지 로드 (모든 방문자/방문으로 인한 페이지 로드)에 대한 총 시간을 구할 수 있도록 해 주며, 따라서 계산된 지표를 사용하여 각 페이지의 평균 페이지 로드 시간을 구할 수 있습니다.
 
 ## 버전 내역
 
