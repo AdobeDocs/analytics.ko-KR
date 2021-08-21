@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 특정 동작이 발생하는 시간을 측정합니다.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '718'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Analysis Workspace는 형식이 이 플러그인과 약간 다르게 지정된 �
 >
 >이 플러그인의 버전 4.0 이상은 이전 버전과 상당히 다릅니다. 따라서 이 플러그인을 &quot;처음부터&quot;로 새로 구현하는 것이 좋습니다. 버전 4.0 이전의 플러그인을 참조하는 코드는 이 플러그인의 현재 버전과 호환되지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -37,9 +37,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getTimeParting 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## 플러그인 사용
 
-`getTimeParting` 메서드에서는 다음 인수를 사용합니다.
+`getTimeParting` 함수는 다음 인수를 사용합니다.
 
 **`t`**  (선택 사항이지만 권장됨, 문자열): 방문자의 현지 시간을 변환하여 구할 시간대의 이름입니다. 기본값은 UTC/GMT 시간으로 설정됩니다. 유효한 값에 대한 전체 목록이 필요하면 위키백과의 [TZ 데이터베이스 시간대 목록](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)을 참조하십시오.
 
@@ -74,7 +74,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * `"America/Denver"` - 산지 표준시
 * `"America/Los_Angeles"` - 태평양 표준시
 
-이 메서드를 호출하면 파이프 (`|`)로 구분된 다음 내용을 포함하는 문자열이 반환됩니다.
+이 함수를 호출하면 파이프(`|`)로 구분된 다음 내용을 포함하는 문자열이 반환됩니다.
 
 * 올해
 * 이번 달
@@ -82,55 +82,35 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * 요일
 * 현재 시간 (오전/오후)
 
-## 호출 예
-
-### 특정 시간대의 예
-
-클라이언트가 프랑스 파리에 있는 경우 다음 샘플 코드를 사용하십시오.
+## 예
 
 ```js
-s.eVarX = getTimeParting("Europe/Paris");
-```
+// Use the following code if the visitor resides in Paris, France
+s.eVar8 = getTimeParting("Europe/Paris");
 
-클라이언트가 캘리포니아주 산호세에 있는 경우:
+// Use the following code if the visitor resides in San Jose, California
+s.eVar17 = getTimeParting("America/Los_Angeles");
 
-```js
-s.eVarX = getTimeParting("America/Los_Angeles");
-```
+// Use the following code if the visitor resides in Ghana.
+// Note that Ghana is in GMT time, the default time zone that the plug-in uses with no argument
+s.eVar22 = getTimeParting();
 
-고객이 아프리카 국가인 가나에 있는 경우:
-
-```js
-s.eVarX = getTimeParting();
-```
-
-가나는 UTC/GMT 시간대 내에 있습니다. 이 예는 UTC/GMT에 플러그인 인수가 필요하지 않음을 보여 줍니다.
-
-### Internet Explorer 브라우저 소재 확인
-
-Internet Explorer 방문자로부터 시간 분할 데이터를 제외하려면 다음 샘플을 사용하십시오. IE 브라우저에서 반환되는 값은 방문자의 현지 시간으로만 표시됩니다.
-
-```js
-if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+// Internet Explorer only returns the visitor's local time. Use this conditional statement to accommodate IE visitors
+if(!document.documentMode) s.eVar39 = getTimeParting("America/New_York");
 else s.eVarX = "Internet Explorer Visitors";
-```
 
-### 호출 결과
-
-콜로라도의 덴버 출신 방문자가 2020년 8월 31일 오전 9:15에 사이트를 방문하는 시나리오를 고려하십시오.
-
-```js
-s.eVar10 = getTimeParting("Europe/Athens");
+// Given a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+s.eVar10 = getTimeParting("Europe/Athens");
 
-s.eVar11 = getTimeParting("America/Nome");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+s.eVar11 = getTimeParting("America/Nome");
 
-s.eVar12 = getTimeParting("Asia/Calcutta");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+s.eVar12 = getTimeParting("Asia/Calcutta");
 
-s.eVar13 = getTimeParting("Australia/Sydney");
 // Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## 버전 내역
