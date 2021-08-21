@@ -2,10 +2,10 @@
 title: apl (appendToList)
 description: 여러 값을 지원하는 변수에 값을 추가합니다.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 
 구분된 값으로 이루어진 문자열을 포함하는 기존 변수에 새 값을 추가하려면 이 플러그인을 사용하는 것이 좋습니다. 구분된 값이 포함된 변수용 문자열을 연결하려는 경우에는 이 플러그인이 필요하지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -37,9 +37,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: APL 초기화 (목록에 추가)
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## 플러그인 사용
 
-`apl` 메서드에서는 다음 인수를 사용합니다.
+`apl` 함수는 다음 인수를 사용합니다.
 
 * **`lv`**  (필수, 문자열): 구분 기호로 구분된 항목 목록을 포함하여 새 값을 추가할 변수입니다.
 * **`vta`**  (필수, 문자열): `lv` 인수 값에 추가할 새 값들을 쉼표로 구분한 목록입니다.
@@ -71,231 +71,59 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 * **`d2`**  (선택 사항, 문자열): 출력 구분 기호입니다. 설정하지 않으면 기본값이 `d1`과 동일한 값으로 설정됩니다.
 * **`cc`**  (선택 사항, 부울): 대/소문자 검사를 사용하는지 여부를 나타내는 플래그입니다. `true`면 중복 검사는 대/소문자를 구분합니다. `false`거나 설정되지 않으면 중복 검사는 대/소문자를 구분하지 않습니다. 기본값은 `false`입니다.
 
-`apl` 메서드는 `lv` 인수의 값과 `vta` 인수에 있는 중복되지 않은 값을 반환합니다.
+`apl` 함수는 `lv` 인수의 값과 `vta` 인수에 있는 중복되지 않은 값을 반환합니다.
 
-## 호출 예
-
-### 예 #1
-
-...
+## 예
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-...이고, 다음 코드가 실행되면...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-...s.events의 최종 값은 다음과 같습니다.
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### 예 #2
-
-...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-...이고, 다음 코드가 실행되면...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-...s.events의 최종 값은 여전히 다음과 같습니다.
-
-```js
-s.events = "event22,event23";
-```
-
-이 예에서 s.events은 이미 &quot;event23&quot;을 포함했으므로 apl 호출을 수행해도 s.events에 변화가 생기지 않았습니다.
-
-### 예 #3
-
-...
-
-```js
-s.events = ""; //blank value
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-...s.events의 최종 값은 다음과 같습니다.
-
-```js
-s.events = "event23";
-```
-
-### 예 #4
-
-...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-...이고, 다음 코드가 실행되면...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-...s.prop4의 최종 값은 여전히 다음과 같습니다.
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-...하지만 s.eVar5의 최종 값은 다음과 같습니다.
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-플러그인은 값을 반환한다는 점만 기억하십시오. lv 인수를 통해 전달된 변수를 반드시 &quot;재설정&quot;하지는 않습니다.
-
-### 예 #5
-
-...
-
-```js
-s.prop4 = "hello|people";
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-...s.prop4의 최종 값은 다음과 같습니다.
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-lv 인수의 값에 있는 내용과 d1/d2 인수에 있는 내용 간에 구분 기호는 반드시 일관되게 유지하십시오.
-
-### 예 #6
-
-...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-...이고, 다음 코드가 실행되면...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-...s.events의 최종 값은 다음과 같습니다.
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-이 예는 실용적이지 않지만 대/소문자를 구분하는 플래그를 사용할 때 주의할 필요가 있음을 보여 줍니다.
-
-### 예 #7
-
-...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-...이고, 다음 코드가 실행되면...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-...s.events의 최종 값은 다음과 같습니다.
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-event23이 s.events에 이미 있으므로 플러그인은 이 값을 s.events에 추가하지 않습니다. 그러나 event24와 event25는 모두 이전에 s.events에 포함되지 않았으므로 s.events에 추가합니다.
-
-### 예 #8
-
-...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-...이고, 다음 코드가 실행되면...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-...s.linkTrackVars의 최종 값은 다음과 같습니다.
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-이 apl 호출의 끝에 있는 마지막 세 개의 인수 (즉, &quot;,&quot;, &quot;,&quot;, false)는 필요하지 않지만, 기본 인수 값과 일치하므로 설정해도 &quot;아무런 해가&quot; 되지 않습니다.
-
-### 예 #9
-
-...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.apl(s.events, "event23");
-```
-
-...s.events의 최종 값은 여전히 다음과 같습니다.
-
-```js
-s.events = "event22,event24";
-```
-
-반환 값을 변수에 지정하지 않고 플러그인을 실행해도 실제로 lv 인수를 통해 전달된 변수가 &quot;재설정&quot;되지는 않습니다.
-
-### 예 #10
-
-...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-...s.list2의 최종 값은 다음과 같습니다.
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-두 구분 기호 인수가 다르므로 전달된 값은 첫 번째 구분 기호 인수 (“|”)로 구분된 다음, 두 번째 구분 기호 인수 (“-“)에 의해 함께 결합됩니다.
 
 ## 버전 내역
 
@@ -323,7 +151,7 @@ s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 
 ### 2.5 (2016년 2월 18일)
 
-* 이제 비교 처리를 위해 `inList` 메서드를 사용합니다.
+* 이제 비교 처리를 위해 `inList` 함수를 사용합니다
 
 ### 2.0 (2016년 1월 26일)
 
