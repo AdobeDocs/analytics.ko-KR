@@ -2,10 +2,10 @@
 title: addProductEvent
 description: products 및 events 변수에 사용자 지정 이벤트를 추가합니다.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 94%
+source-wordcount: '518'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 `addProductEvent` 플러그인은 숫자 또는 통화 이벤트를 [`products`](../page-vars/products.md) 변수에 추가합니다. 제품 문자열 형식에 대한 걱정 없이 숫자 또는 통화 이벤트를 `products` 변수에 추가하려면 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 `products` 변수에서 숫자 또는 통화 이벤트를 사용하지 않는 경우 필요하지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: addProductEvent 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,84 +57,51 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## 플러그인 사용
 
-`addProductEvent` 메서드에서는 다음 인수를 사용합니다.
+`addProductEvent` 함수는 다음 인수를 사용합니다.
 
 * **`en`**  (필수, 문자열): `products` 변수의 마지막 항목에 추가할 이벤트입니다. `products` 변수가 비어 있으면 이벤트 (및 그 값)가 첨부된 &quot;빈&quot; 제품 항목이 만들어집니다.
-* **`ev`**  (필수, 문자열): `en` 인수의 숫자 또는 통화 이벤트에 지정된 값입니다.  설정하지 않으면 기본값이 `1`로 설정됩니다.
+* **`ev`**  (필수, 문자열): `en` 인수의 숫자 또는 통화 이벤트에 지정된 값입니다.  설정하지 않으면 기본값이 `1`로 설정됩니다. 문자열 따옴표로 인코딩되지 않은 숫자도 유효합니다.
 * **`ap`**  (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 `true` (또는 `1`)이면 모든 제품 항목에 이벤트가 추가됩니다. 설정하지 않으면 기본값이 `false`로 설정됩니다.
 
 `addProductEvent`는 아무 것도 반환하지 않습니다. 대신 이벤트와 그 값을 `products` 변수에 추가합니다. 또한 이 플러그인은 [`events`](../page-vars/events/events-overview.md) 변수에서 필수이므로 이 변수에 이벤트를 자동으로 추가합니다.
 
 ## 쿠키
 
-addProductEvent 플러그인은 쿠키를 만들거나 사용하지 않습니다.
+`addProductEvent` 함수는 쿠키를 만들거나 사용하지 않습니다.
 
-## 호출 예
-
-### 예 #1
-
-다음 코드는 `s.products` 변수를 `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`로 설정합니다.
+## 예
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase";
-s.addProductEvent("event35", "25");
-```
+// Sets the products variable to ";product1;3;300,;product2;2;122,;product3;1;25;event35=25".
+// Also sets the events variable to "purchase,event35".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+s.events = "purchase";
+addProductEvent("event35", "25");
 
-위의 코드에서도 `s.events` 변수를 `"purchase,event35"`로 설정합니다.
+// Sets the products variable to ";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+addProductEvent("event35", 25, true);
 
-### 예 #2
-
-다음 코드는 `s.products` 변수를 `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`로 설정합니다.
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvent("event35", 25, 1);
-```
-
-`addProductEvent` 호출의 세 번째 인수가 `true` (또는 `1`)이면 각 제품 항목에는 호출에 지정된 이벤트가 해당 값에 추가됩니다.
-
-### 예 #3
-
-다음 코드는 `s.products` 변수를 `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`로 설정합니다.
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
+// Also sets the s.events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
 s.events="purchase,event2";
-s.addProductEvent("event33", "12");
-s.addProductEvent("event34", "10");
-s.addProductEvent("event35", "15");
-```
+addProductEvent("event33", "12");
+addProductEvent("event34", "10");
+addProductEvent("event35", "15");
 
-위의 코드에서도 `s.events` 변수를 `"purchase,event2,event33,event34,event35"`로 설정합니다.
-
-### 예 #4
-
-다음 코드는 `s.products` 변수를 `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`로 설정합니다.
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15".
+// Also sets the events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1);
-s.addProductEvent("event35", "15", 1);
+addProductEvent("event33", "12", 1);
+addProductEvent("event34", 10, 1);
+addProductEvent("event35", "15", 1);
+
+// If the products variable isn't already set, sets it to ";;;;event35=25".
+// Also appends event35 to the events variable.
+addProductEvent("event35", "25");
 ```
-
-위의 코드에서도 `s.events` 변수를 `"purchase,event2,event33,event34,event35"`으로 설정합니다.
-
->[!NOTE]
->
->호출의 두 번째 인수는 정수 **또는** 정수/숫자를 나타내는 문자열일 수 있습니다
-
-### 예 #5
-
-`s.products`이 아직 설정되지 않은 경우 다음 코드는 이를 `";;;;event35=25"`로 설정합니다.
-
-```js
-s.addProductEvent("event35", "25");
-```
-
-위 코드는 `"event35"`를 `s.events`**또는**&#x200B;의 끝에 추가하며 `s.events`이 아직 설정되지 않은 경우 위의 코드는 `s.events`를 `"event35"`로 설정합니다.
 
 ## 버전 내역
 
