@@ -2,10 +2,10 @@
 title: getGeoCoordinates
 description: 방문자의 geoLocation을 추적합니다.
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '483'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 `getGeoCoordinates` 플러그인을 사용하면 방문자 디바이스의 위도와 경도를 캡처할 수 있습니다. Analytics 변수에서 지리적 위치 데이터를 캡처하려면 이 플러그인을 사용하는 것이 좋습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getGeoCoordinates 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## 플러그인 사용
 
-`getGeoCoordinates` 메서드는 인수를 사용하지 않으며 다음 값 중 하나를 반환합니다.
+`getGeoCoordinates` 함수에서는 인수를 사용하지 않습니다. 다음 값 중 하나를 반환합니다.
 
 * `"geo coordinates not available"`: 플러그인이 실행되는 시점에 사용할 수 있는 지리적 위치 데이터가 없는 디바이스의 경우. 이 값은 방문의 첫 번째 히트에서 일반적입니다. 특히 방문자가 위치 추적에 대해 먼저 동의해야 할 때 사용됩니다.
 * `"error retrieving geo coordinates"`: 디바이스의 위치를 검색하려고 할 때 플러그인에 오류가 발생하는 경우.
@@ -69,38 +69,29 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 이 플러그인은 필요한 경우 `"s_ggc"`라는 쿠키를 사용하여 히트 간 좌표를 저장합니다.
 
-## 호출 예
-
-### 예 #1
-
-다음 코드...
+## 예
 
 ```js
-s.eVar1 = s.getGeoCoordinates();
-```
+// Sets eVar1 to one of the above return values depending on the visitor's device status.
+s.eVar1 = getGeoCoordinates();
 
-...은 (는) 방문자의 디바이스 상태에 따라 eVar1을 위의 반환 값 중 하나와 동일하게 설정합니다.
-
-### 예 #2
-
-다음 코드는 위도와 경도를 다른 코드/애플리케이션에서 사용할 수 있도록 finalLatitude와 finalLongitude라는 자체 변수에 추출합니다.
-
-```js
-var coordinates = s.getGeoCoordinates();
+// Extracts latitude and longitude into their own variables called finalLatitude and finalLongitude for use in other code/applications.
+var coordinates = getGeoCoordinates();
 if(coordinates.indexOf("latitude") > -1)
 {
   var finalLatitude = Number(coordinates.split("|")[0].trim().split("=")[1]),
   finalLongitude = Number(coordinates.split("|")[1].trim().split("=")[1]);
 }
-```
 
-여기에서 방문자가 특정 위치 (예: 자유의 여신상)에 있는지 여부를 확인할 수 있습니다.
-
-```js
-if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
+// From there, you can determine whether a visitor is at, for example, the Statue of Liberty:
+if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongitude >= -74.0446 && finalLongitude <= -74.0444)
+{
   var visitorAtStatueOfLiberty = true;
+}
 else
+{
   var visitorAtStatueOfLiberty = false;
+}
 ```
 
 ## 버전 내역
