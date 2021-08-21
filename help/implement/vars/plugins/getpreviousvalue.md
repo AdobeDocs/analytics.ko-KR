@@ -2,10 +2,10 @@
 title: getPreviousValue
 description: 변수에 전달된 마지막 값을 가져옵니다.
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 95%
+source-wordcount: '664'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 `getPreviousValue` 플러그인을 사용하면 변수를 이전 히트에 설정된 값으로 설정할 수 있습니다. 현재 히트에서 원하는 값이 구현에 모두 포함된 경우에는 이 플러그인이 필요하지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getPreviousValue 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -56,80 +56,58 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## 플러그인 사용
 
-`getPreviousValue` 메서드에서는 다음 인수를 사용합니다.
+`getPreviousValue` 함수는 다음 인수를 사용합니다.
 
 * **`v`**  (문자열, 필수): 다음 이미지 요청에 전달할 값이 있는 변수입니다. 사용되는 일반적인 변수는 이전 페이지 값을 검색하는 `s.pageName`입니다.
 * **`c`**  (문자열, 선택 사항): 값을 저장하는 쿠키의 이름입니다. 이 인수를 설정하지 않으면 기본값이 `"s_gpv"`로 지정됩니다.
 
-이 메서드를 호출하면 쿠키에 포함된 문자열 값이 반환됩니다. 그러면 플러그인이 쿠키 만료를 재설정하고 여기에 `v` 인수의 변수 값을 지정합니다. 쿠키는 30분 동안 활동이 없으면 만료됩니다.
+이 함수를 호출하면 쿠키에 포함된 문자열 값이 반환됩니다. 그러면 플러그인이 쿠키 만료를 재설정하고 여기에 `v` 인수의 변수 값을 지정합니다. 쿠키는 30분 동안 활동이 없으면 만료됩니다.
 
-## 호출 예
-
-### 예 #1
-
-다음 코드...
+## 예
 
 ```js
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
-```
+// 1. Sets prop7 to the cookie value contained in gpv_Page
+// 2. Resets the gpv_Page cookie value to the page variable
+// 3. If the page variable is not set, reset the gpv_Page cookie expiration
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-* 먼저 s.prop7을 이전 이미지 요청의 s.pageName에 전달된 값과 동일하게 설정합니다 (즉, &quot;gpv_Page&quot; 쿠키에 저장된 값).
-* 그러면 코드가 &quot;gpv_Page&quot; 쿠키를 재설정하여 s.pageName의 현재 값과 같게 만듭니다.
-* 이 코드가 실행될 때 s.pageName이 설정되어 있지 않으면 코드가 쿠키의 현재 값에 대한 만료를 재설정합니다.
+// Sets prop7 to the cookie value contained in gpv_Page, but only if event1 is in the events variable.
+if(inList(s.events,"event1")) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-### 예 #2
+// Sets prop7 to the cookie value contained in gpv_Page, but only if the page variable is currently set on the page
+if(s.pageName) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-다음 코드는 s.prop7을 s.pageName에 전달된 마지막 값과 동일하게 설정하지만, 호출이 발생할 때 inList 플러그인을 통해 결정된 대로 event1도 s.events 내에 포함된 경우에 한합니다.
-
-```js
-if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### 예 #3
-
-다음 코드는 s.prop7을 s.pageName에 전달된 마지막 값과 동일하게 설정하지만 s.pageName이 현재 해당 페이지에서 동시에 설정된 경우에 한합니다.
-
-```js
-if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### 예 #4
-
-다음 코드는 s.eVar10을 이전 이미지 요청의 s.eVar1에 전달된 값과 동일하게 설정합니다. 이전 eVar1 값은 &quot;s_gpv&quot; 쿠키에 포함되었을 것입니다. 그러면 코드는 &quot;s_gpv&quot; 쿠키를 s.eVar1의 현재 값과 동일하게 설정합니다.
-
-```js
-s.eVar10 = s.getPreviousValue(s.eVar1)
+// Sets eVar10 equal to the cookie value contained in s_gpv, then sets the s_gpv cookie to the current value of eVar1.
+s.eVar10 = getPreviousValue(s.eVar1);
 ```
 
 ## 가능성 없는 일
 
-v 인수와 연결된 변수가 새 값으로 설정되고 getPreviousValue 플러그인이 실행되지만 Analytics 서버 호출이 동시에 전송되지 않으면 새 v 인수 값은 다음에 플러그인이 실행될 때에도 여전히 &quot;이전 값&quot;으로 간주됩니다.
+`v` 인수와 연결된 변수가 새 값으로 설정되고 `getPreviousValue` 플러그인이 실행되지만 Analytics 서버 호출이 동시에 전송되지 않으면, 새 `v` 인수 값은 다음에 플러그인이 실행될 때에도 여전히 &quot;이전 값&quot;으로 간주됩니다.
 예를 들어 다음 코드가 방문의 첫 페이지에서 실행된다고 가정해 보십시오.
 
 ```js
-s.pageName="home"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Home";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-이 코드는 pageName 인수가 &quot;home&quot;이고 p7 (prop7) 인수가 설정되지 않은 경우 서버 호출을 생성합니다. 그러나 s.getPreviousValue를 호출하면 호출에 지정된 쿠키 (즉, &quot;gpv_Page&quot; 쿠키)에 s.pageName의 값 (즉, &quot;home&quot;)이 저장됩니다.
-이제, 그 직후에 같은 페이지에서 다음 코드가 어떤 이유로든 실행된다고 가정하십시오.
+이 코드는 `pageName`이 &quot;Home&quot;이고 prop7이 설정되지 않은 경우 서버 호출을 생성합니다.  그러나 `getPreviousValue` 호출은 `gpv_Page` 쿠키에 `pageName` 값을 저장합니다. 그 직후에 같은 페이지에서 다음 코드가 실행된다고 가정하십시오.
 
 ```js
-s.pageName="happy value"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "New value";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-이 코드 블록에서는 s.t () 함수가 실행되지 않으므로 다른 이미지 요청은 만들어지지 않습니다. 그러나, 이 번에 s.getPreviousValue () 함수 코드가 실행되면 s.prop7이 s.pageName의 이전 값 (즉, &quot;home&quot;)과 동일하게 설정되고 s.pageName의 새 값 (즉, &quot;happy value&quot;)은 &quot;gpv_Page&quot; 쿠키에 저장됩니다.
-방문자가 다른 페이지로 이동하고 이 페이지에서 다음 코드가 실행된다고 가정하십시오.
+이 코드 블록에서는 `t()` 함수가 실행되지 않으므로 다른 이미지 요청은 전송되지 않습니다.  그러나 이 번에 `getPreviousValue` 함수 코드가 실행되면 `prop7`이 `pageName`(&quot;Home&quot;)의 이전 값으로 설정된 다음 `pageName`(&quot;New value&quot;)의 새 값을 `gpv_Page` 쿠키에 저장합니다. 다음으로 방문자가 다른 페이지로 이동하고 이 페이지에서 다음 코드가 실행된다고 가정하십시오.
 
 ```js
-s.pageName="page 2"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Page 2";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-s.t () 호출 함수가 실행되면 s.pageName=&quot;page 2&quot;이고 s.prop7이 &quot;happy value&quot;인 이미지 요청이 만들어집니다. 이때 &quot;happy value&quot;는 getPreviousValue에 대한 마지막 호출이 수행되었을 때 s.pageName의 값이었습니다. s.pageName에 전달된 첫 번째 값이 &quot;home&quot;이지만 &quot;home&quot;이라는 s.prop7 값은 어떠한 실제 이미지 요청에도 포함되지 않았습니다.
+`t()` 함수가 실행되면 `pageName`이 &quot;Page 2&quot;이고 `prop7`가 &quot;New value&quot;인 이미지 요청이 만들어집니다. 이때 `getPreviousValue`에 대한 마지막 호출이 수행되었을 때 `pageName`의 값이었습니다. `pageName`에 전달된 첫 번째 값이 &quot;Home&quot;이지만 `"Home"` 값이 이미지 요청에 포함되지 않았습니다.`prop7`
 
 ## 버전 내역
 
