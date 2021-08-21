@@ -2,10 +2,10 @@
 title: inList
 description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확인합니다.
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 `inList` 플러그인을 사용하면 구분된 문자열 또는 JavaScript 배열 개체 내에 값이 이미 있는지 확인할 수 있습니다. 몇 가지 다른 플러그인은 `inList` 플러그인에 따라 다르게 작동합니다. 이 플러그인은 부분 문자열과 일치하지 않는 JavaScript 메서드 `indexOf()`에 비해 구별되는 이점을 제공합니다. 예를 들어 이 플러그인을 사용하여 `"event2"`를 확인한 경우 이 플러그인은 `"event25"`를 포함하는 문자열과 일치하지 않습니다. 구분 기호로 구분된 문자열 또는 배열의 값을 확인하지 않아도 되거나 자신만의 `indexOf()` 논리를 사용하려는 경우에는 이 플러그인이 필요하지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: InList 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## 플러그인 사용
 
-`inList` 메서드에서는 다음 인수를 사용합니다.
+`inList` 함수는 입력에 따라 부울을 반환합니다. 여기에서는 다음 인수를 사용합니다.
 
 * **`lv`**  (필수, 문자열 또는 배열): 검색할 값의 구분된 목록 또는 JavaScript 배열 개체
 * **`vtc`**  (필수, 문자열): 검색할 값
 * **`d`**  (선택 사항, 문자열): `lv` 인수에서 개별 값을 구분하는 데 사용되는 구분 기호입니다. 설정하지 않으면 기본값이 쉼표 (`,`)로 설정됩니다.
-* **`cc`**  (선택 사항, 부울): `true`로 설정하면 대/소문자 검사를 수행합니다. `false`로 설정하거나 생략하면 대/소문자를 구분하지 않는 검사가 수행됩니다. 기본값은 `false`입니다.
+* **`cc`** (선택 사항, 부울): 또는 `true` 로  `1`설정하면 대/소문자를 구분하는 검사가 수행됩니다. `false`로 설정하거나 생략하면 대/소문자를 구분하지 않는 검사가 수행됩니다. 기본값은 `false`입니다.
 
-이 메서드를 호출하면 일치 항목을 찾은 경우 `true`를 반환하고, 일치 항목을 찾지 못한 경우 `false`를 반환됩니다.
+이 함수를 호출하면 일치 항목을 찾은 경우 `true` 을 반환하고, 일치 항목을 찾지 못한 경우 `false` 를 반환합니다.
 
-## 호출 예
-
-### 예 #1
-
-...
+## 예
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-...이고, 다음 코드가 실행되면...
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-...조건문 if 문은 true입니다.
-
-### 예 #2
-
-...
-
-```js
-s.events="event22,event24";
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-...inList 호출이 event2와 s.events의 구분된 값 중 하나를 정확히 일치시키지 않았으므로 조건문 if 문은 false가 됩니다.
-
-### 예 #3
-
-...
-
-```js
-s.events="event22,event24";
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-...inList 호출이 event23과 s.events의 구분된 값 중 하나를 정확히 일치시키지 않았으므로 조건문 if 문은 true가 됩니다 (inList 변수 호출 시작 시 &quot;NOT&quot; 연산자 주의).
-
-### 예 #4
-
-...
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-...이고, 다음 코드가 실행되면...
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-...조건문 if 문은 false입니다. 이 예는 실용적이지 않지만 대/소문자를 구분하는 플래그를 사용할 때 주의할 필요가 있음을 보여 줍니다.
-
-### 예 #5
-
-...
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-...조건문 if 문은 false입니다. 호출에 전달된 d 인수의 값 (즉, &quot;|&quot;)은 s.linkTrackVars의 개별 값이 파이프 문자로 구분된다고 가정하지만 실제로 값들은 쉼표로 구분됩니다. 이 경우 플러그인은 s.linkTrackVars의 전체 값 (즉, &quot;events,eVar1&quot;) 및 찾을 값 (즉, &quot;eVar1&quot;)을 일치시키려 합니다.
 
 ## 버전 내역
 
