@@ -2,10 +2,10 @@
 title: getAndPersistValue
 description: 언제든지 나중에 검색할 수 있는 값을 저장합니다.
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 90%
+source-wordcount: '583'
+ht-degree: 92%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 90%
 >
 >이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
-`getAndPersistValue` 플러그인을 사용하면 방문 중에 나중에 검색할 수 있는 쿠키에 값을 저장할 수 있습니다. 이 플러그인은 Adobe Experience Platform에서 태그를 사용하여 [!UICONTROL 저장 유지 시간] 기능과 유사한 역할을 합니다. 변수가 설정된 후 Analytics 변수를 후속 히트에서 동일한 값으로 자동으로 유지하려면 이 플러그인을 사용하는 것이 좋습니다. Adobe Experience Platform의 [!UICONTROL 저장 유지 시간] 기능이 충분한 경우 이 플러그인은 필요하지 않습니다. 변수를 후속 히트에서 동일한 값으로 설정하여 유지할 필요가 없는 경우에는 이 플러그인을 사용할 필요가 없습니다. eVar 변수는 Adobe에 의해 서버측에서 지속되므로 이 변수의 기본적인 지속성에서는 이 플러그인을 사용할 필요가 없습니다.
+`getAndPersistValue` 플러그인을 사용하면 방문 중에 나중에 검색할 수 있는 쿠키에 값을 저장할 수 있습니다. 이 플러그인은 Adobe Experience Platform의 태그를 사용하는 [!UICONTROL 저장 유지 시간] 기능과 유사한 역할을 합니다. 변수가 설정된 후 Analytics 변수를 후속 히트에서 동일한 값으로 자동으로 유지하려면 이 플러그인을 사용하는 것이 좋습니다. 데이터 수집 UI의 [!UICONTROL 저장 유지 시간] 기능이 충분한 경우 이 플러그인은 필요하지 않습니다. 변수를 후속 히트에서 동일한 값으로 설정하여 유지할 필요가 없는 경우에도 이 플러그인이 필요하지 않습니다. eVar는 Adobe에 의해 서버측에서 지속되므로 eVar의 기본 지속성에서는 이 플러그인을 사용할 필요가 없습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getAndPersistValue 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 플러그인 사용
 
-`getAndPersist` 메서드에서는 다음 인수를 사용합니다.
+`getAndPersist` 함수는 다음 인수를 사용합니다.
 
 * **`vtp`**  (필수): 페이지에서 페이지로 유지할 값입니다.
 * **`cn`**  (선택 사항): 값을 저장할 쿠키의 이름입니다. 이 인수를 설정하지 않으면 쿠키의 이름이 `"s_gapv"`로 지정됩니다.
@@ -67,64 +67,27 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 예
 
-### 예 #1
-
-다음 코드는 eVar21을 &quot;hello&quot;라는 값과 동일하게 설정합니다. 그러면 이 코드는 28일 후에 만료되고 eVar21의 값과 같은 ev21gapv 쿠키를 설정합니다 (즉, &quot;hello&quot;). 그러면 코드는 eVar21을 ev21gapv 쿠키의 값과 동일하게  (재)설정합니다.
-
 ```js
-s.eVar21 = "hello";
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "raccoon", and sets the ev21gapv cookie to "raccoon" (which expires in 28 days).
+s.eVar21 = "raccoon";
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-### 예 #2
+// Checks the "ev21gapv" cookie for a value and assigns it to eVar21. It does not set a cookie value or reset an existing cookie's expiration since the value is not set on the page.
+// If there is a cookie, assigns eVar21 to that value. Otherwise, eVar21 is blank.
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-eVar21이 현재 페이지에 아직 설정되지 않았지만 지난 28일 내에 이전 페이지에서 &quot;hello&quot;로 설정되었다고 가정하십시오. 다음 코드는 eVar21만을 ev21gapv 쿠키의 값 (즉, &quot;hello&quot;)과 동일하게 설정합니다. eVar21이 함수가 호출되기 전에 현재 페이지에서 설정되지 않았으므로 이 코드를 실행해도 ev21gapv 쿠키가 재설정되지는 않습니다.
+// Checks the "ev21gapv" cookie for a value and assigns it to prop35. It does not set a cookie value or reset an existing cookie's expiration since eVar21 is not set on the page.
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "panda", and sets the ev21gapv cookie to "panda" (which expires in 14 days). It then sets prop35 to the value contained in the ev21gapv cookie.
+// Ultimately both eVar21 and prop35 contain the value "panda".
+s.eVar21 = "panda";
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",14);
 
-### 예 #3
-
-eVar21이 현재 페이지에 아직 설정되지 않았지만 지난 28일 내에 이전 페이지에서 &quot;hello&quot;로 설정되었다고 가정하십시오. 다음 코드는 prop35만을 ev21gapv 쿠키의 값 (즉, &quot;hello&quot;)과 동일하게 설정합니다.  eVar21은 설정하지 않습니다.
-
-```js
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 예 #4
-
-다음 코드는 eVar21을 &quot;howdy&quot;라는 값과 동일하게 설정합니다.  그러면 이 코드는 28일 후에 만료되고 eVar21의 값과 같은 ev21gapv 쿠키를 설정 (또는 재설정)합니다 (즉, &quot;howdy&quot;). 그런 다음 이 코드는 prop35를 ev21gapv 쿠키의 값 (즉, &quot;howdy&quot;)과 동일하게 설정합니다.
-
-```js
-s.eVar21 = "howdy";
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 예 #5
-
-s.eVar21이 지난 28일 내에 어떤 페이지에서도 설정되지 않았다고 가정하십시오. 다음 코드는 ev21gapv 쿠키가 마지막으로 설정되고 28일 후 만료되었으므로 s.eVar21을 nothing과 동일하게 설정합니다.
-
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 예 #6
-
-다음 코드는 eVar30을 &quot;shopping&quot;과 동일하게 설정합니다. 그런 다음, 브라우저 세션이 끝날 때 만료되는 s_gapv 쿠키를 s.eVar30의 값과 동일하게 설정합니다 (즉, &quot;shopping&quot;). 그런 다음 s.eVar30을 s_gapv 쿠키의 값과 동일하게 설정합니다 (즉, getAndPersistValue 호출은 s_gapv 쿠키의 값을 반환하며, 이 경우 그 값은 &quot;shopping&quot;).
-
-```js
+// Sets eVar30 to "shopping", and sets the s_gapv cookie to "shopping" (which expires at the end of the browser session).
 s.eVar30 = "shopping";
-s.eVar30 = s.getAndPersistValue(s.eVar30);
+s.eVar30 = getAndPersistValue(s.eVar30);
 ```
-
-s.eVar30이 세션 중에 표시되는 추가 페이지에 명시적 값으로 설정되어 있지 않지만 다음 코드를 통해 설정되는 경우 (doPlugins에서)...
-
-```js
-s.eVar30 = s.getAndPersistValue(s.eVar30);
-```
-
-...s.eVar30은 &quot;shopping&quot; (즉, s_gapv 쿠키의 지속적인 값)으로 설정됩니다.
 
 ## 버전 내역
 
