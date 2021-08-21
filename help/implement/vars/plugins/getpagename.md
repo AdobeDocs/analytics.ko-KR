@@ -2,10 +2,10 @@
 title: getPageName
 description: 현재 웹 사이트 경로에서 읽기 쉬운 pageName을 만듭니다.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 `getPageName` 플러그인을 사용하면 현재 URL의 읽기 쉽고 친숙한 형식의 버전을 만들 수 있습니다. 보고 시 쉽게 설정하고 이해할 수 있는 [`pageName`](../page-vars/pagename.md) 값을 원하는 경우 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 데이터 계층 사용과 같이 `pageName` 변수에 대한 이름 지정 구조를 이미 가지고 있는 경우에는 불필요하고, `pageName` 변수를 설정하는 다른 해결 방법이 없을 때 사용하는 것이 가장 좋습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getPageName 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,145 +57,43 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## 플러그인 사용
 
-`getPageName` 메서드에서는 다음 인수를 사용합니다.
+`getPageName` 함수는 다음 인수를 사용합니다.
 
 * **`si`**  (선택 사항, 문자열): 사이트의 ID를 나타내는 문자열 시작 부분에 삽입되는 ID입니다. 이 값은 숫자 ID나 친숙한 이름일 수 있습니다. 설정하지 않으면 기본값이 현재 도메인으로 설정됩니다.
 * **`qv`**  (선택 사항, 문자열): 쿼리 문자열 매개 변수의 쉼표로 구분된 목록으로서, URL에 있는 경우에는 문자열에 추가됩니다.
 * **`hv`**  (선택 사항, 문자열): URL 해시에 있는 매개 변수의 쉼표로 구분된 목록으로서, URL에 있는 경우에는 문자열에 추가됩니다.
 * **`de`**  (선택 사항, 문자열): 문자열의 개별 부분을 분할하는 구분 기호입니다. 기본값은 파이프 (`|`)입니다.
 
-이 메서드는 URL의 친숙한 형식 버전을 포함하는 문자열을 반환합니다. 이 문자열은 일반적으로 `pageName` 변수에 지정되지만 다른 변수에서도 사용할 수 있습니다.
+이 함수는 URL의 친숙한 형식 버전을 포함하는 문자열을 반환합니다. 이 문자열은 일반적으로 `pageName` 변수에 지정되지만 다른 변수에서도 사용할 수 있습니다.
 
-## 호출 예
-
-### 예 #1
-
-현재 URL이...
+## 예
 
 ```js
-https://mail.google.com/mail/u/0/#inbox
-```
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "mail.example.com|mail|u|0".
+s.pageName = getPageName();
 
-...이고, 다음 코드가 실행되면...
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "example|mail|u|0".
+s.pageName = getPageName("example");
 
-```js
-s.pageName = getPageName()
-```
+// Given the URL https://www.example.com/, sets the page variable to "www.example.com|home".
+// When the code runs on a URL that does not contain a path, it always adds the value of "home" to the end of the return value.
+s.pageName = getPageName();
 
-...s.pageName의 최종 값은 다음과 같습니다.
+// Given the URL https://www.example.com/, sets the page variable to "example|home".
+s.pageName = getPageName("example","","","|");
 
-```js
-s.pageName = "mail.google.com|mail|u|0";
-```
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "www.example.com|en|booking|room-booking.html".
+s.pageName = getPageName();
 
-### 예 #2
-
-현재 URL이...
-
-```js
-https://mail.google.com/mail/u/0/#inbox
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.pageName = getPageName("gmail")
-```
-
-...s.pageName의 최종 값은 다음과 같습니다.
-
-```js
-s.pageName = "gmail|mail|u|0";
-```
-
-### 예 #3
-
-현재 URL이...
-
-```js
-https://www.google.com/
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.pageName = getPageName()
-```
-
-...s.pageName의 최종 값은 다음과 같습니다.
-
-```js
-s.pageName = "www.google.com|home"
-```
-
-**참고**: 경로를 포함하지 않는 URL에서 코드가 실행되면 반환 값의 끝에 항상 &quot;home&quot;이라는 값을 추가합니다.
-
-### 예 #4
-
-현재 URL이...
-
-```js
-https://www.google.com/
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.pageName = getPageName("google","","","|")
-```
-
-...s.pageName의 최종 값은 다음과 같습니다.
-
-```js
-s.pageName = "google|home"
-```
-
-### 예 #5
-
-현재 URL이...
-
-```js
-https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
-```
-
-...이고, 다음 코드가 실행되면...
-
-```js
-s.pageName = getPageName()
-```
-
-...s.pageName의 최종 값은 다음과 같습니다.
-
-```js
-s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
-```
-
-그러나 다음 코드가 대신 실행되면...
-
-```js
-s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
-```
-
-...s.pageName의 최종 값은 다음과 같습니다.
-
-```js
-s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "example: en: booking: room-booking.html: cid=1235: arrive=05-26: numGuests=2"
+s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 ```
 
 ## 이전 버전에서 업그레이드
 
-getPageName 플러그인의 버전 4.0 이상은 실행할 Adobe Analytics의 AppMeasurement 개체 (즉, &quot;s&quot; 개체)의 존재여부에 따라 달라지지 않습니다. 이 버전으로 업그레이드하려는 경우 반드시 호출에서 &quot;s&quot; 개체의 인스턴스를 제거하여 플러그인을 호출하는 코드를 변경하십시오.
-예를 들어, 다음 내용을
-
-```js
-s.pageName = s.getPageName();
-```
-
-다음과 같이 변경하십시오.
-
-```js
-s.pageName = getPageName();
-```
+`getPageName` 플러그인의 버전 4.0+는 Adobe Analytics의 AppMeasurement 개체(즉, `s` 개체)가 존재하는지 여부에 따라 달라지지 않습니다. 이 버전으로 업그레이드하는 경우 호출에서 `s` 개체의 인스턴스를 제거하여 플러그인을 호출하는 코드를 변경합니다. 예를 들어 `s.getPageName();`을 `getPageName();`(으)로 변경합니다.
 
 ## 버전 내역
 
