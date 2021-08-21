@@ -2,10 +2,10 @@
 title: getValOnce
 description: Analytics 변수가 한 행에서 동일한 값으로 두 번 설정되지 않도록 합니다.
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 94%
+source-wordcount: '577'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 `getValOnce` 플러그인을 사용하면 변수가 동일한 값에 두 번 이상 설정되지 않습니다. 방문자가 페이지를 새로 고치거나 지정된 페이지를 여러 번 방문하는 경우 발생 수를 중복 제거하려면 이 플러그인을 사용하는 것이 좋습니다. Analysis Workspace에서 &#39;발생 수&#39; 지표가 걱정되지 않는 경우에는 이 플러그인은 필요하지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: getValOnce 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -59,36 +59,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## 플러그인 사용
 
-`getValOnce` 메서드에서는 다음 인수를 사용합니다.
+`getValOnce` 함수는 다음 인수를 사용합니다.
 
 * **`vtc`**  (필수, 문자열): 변수가 이전에 동일한 값으로 설정되었는지 확인하는 변수입니다.
 * **`cn`**  (선택 사항, 문자열): 확인할 값이 들어 있는 쿠키의 이름입니다. 기본값은 `"s_gvo"`입니다.
 * **`et`**  (선택 사항, 정수): 쿠키의 만료 기간 (`ep` 인수에 따라 일 또는 분 단위)입니다. 기본값은 `0`이고, 이 값은 브라우저 세션 종료 시 만료됩니다.
 * **`ep`**  (선택 사항, 문자열): `et` 인수도 설정되는 경우에만 이 인수를 설정하십시오. `et` 인수가 일 대신 분 단위로 만료되도록 하려면 이 인수를 `"m"`으로 설정하십시오. 기본값은 `"d"`이고, 이 값은 `et` 인수를 일 단위로 설정합니다.
 
-`vtc` 인수와 쿠키 값이 일치하는 경우 이 메서드는 빈 문자열을 반환합니다. `vtc` 인수와 쿠키 값이 일치하지 않으면 이 메서드는 `vtc` 인수를 문자열로 반환합니다.
+`vtc` 인수와 쿠키 값이 일치하는 경우 이 함수는 빈 문자열을 반환합니다. `vtc` 인수와 쿠키 값이 일치하지 않으면 이 함수는 `vtc` 인수를 문자열로 반환합니다.
 
-## 호출 예
-
-### 예 #1
-
-다음 30일 동안 동일한 값이 s.campaign에 두 번 이상 연달아 전달되지 않도록 하려면 이 호출을 사용하십시오.
+## 예
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-위의 호출에서 플러그인은 먼저 s_campaign 쿠키에 이미 포함된 값을 현재 s.campaign 변수에서 나오는 값과 비교합니다. 일치하는 항목이 없으면 플러그인은 s_campaign 쿠키를 s.campaign에서 나오는 새 값과 동일하게 설정한 후 새 값을 반환합니다. 이 비교는 다음 30일 동안 있을 수행됩니다.
-
-### 예 #2
-
-세션 전체에서 동일한 값이 설정되지 않도록 하려면 이 호출을 사용하십시오.
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-이 코드는 사용자 세션 전체에서 동일한 값이 연달아 두 번 이상 s.eVar2로 전달되지 않도록 합니다. 또한 만료 시간이 0으로 설정되므로 이 코드는 ep 인수의 &quot;m&quot; 값도 무시합니다 (호출 종료 시). 또한 이 코드는 s_ev2 쿠키에 비교 값을 저장합니다.
 
 ## 버전 내역
 
