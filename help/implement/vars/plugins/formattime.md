@@ -2,10 +2,10 @@
 title: formatTime
 description: 초 수를 그에 해당하는 분, 시간 등으로 변환합니다.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 `formatTime` 플러그인을 사용하면 초 수를 전체 형식의 원하는 벤치마크 값으로 반올림하여 표시할 수 있습니다. 초 단위의 시간 값을 캡처하여 전체 형식 (예: 분, 일 또는 주)으로 변환하려는 경우 이 플러그인을 사용하는 것이 좋습니다. 초 기반 값을 시간이 반올림된 형식으로 변환하는 것을 원치 않으면 이 플러그인은 불필요합니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 플러그인 설치
+## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
    * 확장: 일반적인 Analytics 플러그인
    * 작업 유형: formatTime 초기화
-1. 변경 사항을 저장하고 규칙에 게시합니다.
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## 플러그인 사용
 
-`formatTime` 메서드에서는 다음 인수를 사용합니다.
+`formatTime` 함수는 다음 인수를 사용합니다.
 
 * **`ns`**  (필수, 정수): 변환하거나 서식을 지정할 초 수
 * **`tf`**  (선택 사항, 문자열): 초를 반환하는 형식 유형. 기본값은 초입니다.
@@ -67,7 +67,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
    * 초 단위 시간을 원하는 경우 `"s"`로 설정합니다 (기본적으로 가장 가까운 5초 벤치마크로 반올림됨).
 * **`bml`**  (선택 사항, 숫자): 반올림 벤치마크의 길이입니다. 기본값은 `tf` 인수에 나열된 벤치마크로 지정됩니다.
 
-이 메서드는 `tf` 인수에 지정하는 단위를 사용하여 형식이 지정된 초 수를 반환합니다. `tf` 인수가 설정되지 않으면:
+이 함수는 `tf` 인수에 지정하는 단위를 사용하여 형식이 지정된 초 수를 반환합니다. `tf` 인수가 설정되지 않으면:
 
 * 1분 미만의 시간은 가장 가까운 5초 벤치마크로 반올림됩니다.
 * 1분과 1시간 사이의 모든 시간은 가장 가까운 1/2분 벤치마크로 반올림됩니다.
@@ -76,82 +76,31 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## 예
 
-### 예 #1
-
-다음 코드...
-
 ```js
-s.eVar1 = s.formatTime(38242);
+// Sets eVar1 to "10.5 hours".
+// 38242 seconds equals 10 hours, 37 minutes, and 22 seconds. Since the tf argument is not set, the value returned is the number of seconds converted to the nearest quarter-hour benchmark.
+s.eVar1 = formatTime(38242);
+
+// Sets eVar4 to "10.75 hours".
+// 38250 seconds equals 10 hours, 37 minutes, and 30 seconds. This value rounds up to the nearest quarter hour.
+s.eVar4 = formatTime(38250);
+
+// Sets eVar9 to "637.5 minutes".
+s.eVar9 = formatTime(38242, "m");
+
+// Sets eVar14 to "640 minutes".
+// The tf argument forces the returned value to minutes, while the bml argument forces the value to the nearest 20-minute increment.
+s.eVar14 = formatTime(38242, "m", 20);
+
+// Sets eVar2 to "126 seconds", the closest 2-second benchmark to 125 seconds.
+s.eVar2 = formatTime(125, "s", 2);
+
+// Sets eVar7 to "3 minutes", the closest 3-minute benchmark to 125 seconds.
+s.eVar7 = formatTime(125, "m", 3);
+
+// Sets eVar55 to "2.4 minutes, the closest 2/5-minute benchmark to 145 seconds.
+s.eVar55 = formatTime(145, "m", .4);
 ```
-
-...은 (는) s.eVar1을 &quot;10.5시간&quot;과 같게 설정합니다.
-
-38242초로 전달된 이 인수는 10시간 37분 22초와 같습니다. 이 호출에서 tf 인수가 설정되지 않고 전달된 초 수가 1시간에서 하루 사이이므로 플러그인은 가장 가까운 1/4시간 벤치마크로 변환된 초 수를 반환합니다.
-
-### 예 #2
-
-다음 코드...
-
-```js
-s.eVar1 = s.formatTime(38250);
-```
-
-...은 (는) s.eVar1을 &quot;10.75시간&quot;과 같게 설정합니다.
-38250초로 전달된 이 인수는 10시간 37분 30초와 같습니다. 이 경우 전달된 초 수를 가장 가까운 1/4시간 벤치마크로 반올림하면 최종 값은 10.75시간으로 설정됩니다.
-
-### 예 #3
-
-다음 코드...
-
-```js
-s.eVar1 = s.formatTime(38242, "m");
-```
-
-...은 (는) s.eVar1을 &quot;637.5분&quot;과 같게 설정합니다.
-
-이 경우, &quot;m&quot; 인수는 플러그인이 초 수를 가장 가까운 1/2분 벤치마크로 변환하도록 합니다.
-
-### 예 #4
-
-다음 코드...
-
-```js
-s.eVar1 = s.formatTime(38242, "m", 20);
-```
-
-...은 (는) s.eVar1을 &quot;640분&quot;과 같게 설정합니다.
-
-tf 인수 값 (&quot;m&quot;)은 플러그인이 초 수를 분으로 변환하도록 하지만 bml 인수 값 (20)은 플러그인이 분 변환을 가장 가까운 20분 벤치마크로 반올림하도록 합니다.
-
-### 예 #5
-
-다음 코드...
-
-```js
-s.eVar1 = s.formatTime(125, "s", 2);
-```
-
-...은 (는) s.eVar1을 &quot;126초&quot;와 같게 설정하며, 이것은 125초와 가장 가까운 2초 벤치마크입니다.
-
-### 예 #6
-
-다음 코드...
-
-```js
-s.eVar1 = s.formatTime(125, "m", 3);
-```
-
-...은 (는) s.eVar1을 &quot;3분&quot;과 같게 설정하며, 이것은 125초와 가장 가까운 3분 벤치마크입니다.
-
-### 예 #7
-
-다음 코드...
-
-```js
-s.eVar1 = s.formatTime(145, "m", .4);
-```
-
-...은 (는) s.eVar1을 &quot;2.4분&quot;과 같게 설정하며, 이것은 145초와 가장 가까운 2/5분 벤치마크 (예: .4 = 2/5)입니다.
 
 ## 버전 내역
 
