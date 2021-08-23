@@ -6,9 +6,9 @@ title: 데이터 열 참조
 feature: Reports & Analytics 기본 사항
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3422'
 ht-degree: 99%
 
 ---
@@ -199,8 +199,8 @@ ht-degree: 99%
 | `state` | 상태 변수입니다. | varchar (50) |
 | `stats_server` | 사용하지 않습니다. 히트를 처리한 Adobe 내부 서버입니다. | char (30) |
 | `t_time_info` | 방문자의 로컬 시간입니다. 포맷: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar (100) |
-| `tnt` | Adobe Target 통합에서 사용됩니다. | 텍스트 |
-| `tnt_action` | Adobe Target 통합에서 사용됩니다. | 텍스트 |
+| `tnt` | Adobe Target 통합에서 사용됩니다. 현재 자격을 가진 모든 테스트를 나타냅니다. 포맷: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | 텍스트 |
+| `tnt_action` | Adobe Target 통합에서 사용됩니다. 히트가 자격을 갖는 모든 테스트를 나타냅니다. | 텍스트 |
 | `tnt_post_vista` | 더 이상 사용되지 않습니다. 대신 `post_tnt`를 사용하십시오. | 텍스트 |
 | `transactionid` | 데이터 소스를 통해 나중에 다양한 데이터 포인트를 업로드할 수 있는 고유 식별자입니다. [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수를 사용하여 수집됩니다. | 텍스트 |
 | `truncated_hit` | 이미지 요청이 잘렸음을 나타내는 플래그입니다. 부분 히트가 수신되었음을 나타냅니다. <br>Y: 히트가 잘림, 일부 히트 수신 <br>N: 히트가 잘리지 않음, 전체 히트 수신 | char (1) |
@@ -274,7 +274,7 @@ ht-degree: 99%
 | `visit_referrer` | 방문의 첫 번째 레퍼러입니다. | varchar (255) |
 | `visit_search_engine` | 방문의 첫 번째 검색 엔진에 대한 숫자 ID입니다. `search_engines.tsv` 조회를 사용합니다. | smallint 부호 없음 |
 | `visit_start_page_url` | 방문의 첫 번째 URL입니다. | varchar (255) |
-| `visit_start_pagename` | 방문의 첫 번째 히트에 있는 페이지 이름 값입니다. | varchar (100) |
+| `visit_start_pagename` | 방문의 첫 번째 히트 내 페이지 이름 값입니다. | varchar (100) |
 | `visit_start_time_gmt` | 방문의 첫 번째 히트 타임스탬프 (Unix 시간)입니다. | int |
 | `weekly_visitor` | 히트가 새 주별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | `yearly_visitor` | 히트가 새 연별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
