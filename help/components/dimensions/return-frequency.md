@@ -2,11 +2,10 @@
 title: 재방문 주기
 description: 현재 방문과 이전 방문 사이의 버킷된 시간입니다.
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: d49a1eac29b949af04e6cefece9f1433fddf19cc
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
