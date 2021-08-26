@@ -5,9 +5,9 @@ title: DFA 통합
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2600'
 ht-degree: 99%
 
 ---
@@ -23,7 +23,7 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
 이 구성 페이지는 자세한 정보에 대한 유용한 링크와 함께 통합 개요를 제공합니다. 이 통합과 관련된 Adobe와 DoubleClick 요금이 있습니다. 두 조직의 영업 담당자에게 연락하여 요금 구성을 확인합니다.
 
 1. [!DNL Adobe Analytics]에 로그인합니다.
-1. **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 커넥터]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL Data connectors]**&#x200B;를 클릭합니다.
 
    ![](assets/data_connectors.png)
 
@@ -58,12 +58,12 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
    <td colname="col3"> 이 통합에서 사용하는 DFA API 사용자 이름입니다. API 로그인을 위해 사용자를 활성화하려면 DFA 인터페이스에서 API 속성을 선택합니다. API 로그인을 활성화하면 사용자 암호를 제공하는 암호 필드가 표시됩니다. 인증할 마법사에 사용자 이름과 함께 이 암호를 입력합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 2 </td> 
+   <td colname="col1"> 2개 </td> 
    <td colname="col2"> 암호 </td> 
    <td colname="col3"> DFA API 암호입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 2 </td> 
+   <td colname="col1"> 2개 </td> 
    <td colname="col2"> 광고주 ID </td> 
    <td colname="col3"> <p>DFA 광고주 ID 또는 상위 Floodlight 구성 ID입니다. Data Connectors는 이 ID를 사용하여 추적할 DFA 광고주를 식별합니다(통합 버전 1.5). 이 광고주 ID는 통합 버전 2.0에서 사용되지 않습니다. 상위 Floodlight 구성 ID를 조회하고 사용합니다. 화면의 지침 참조 </p> </td> 
   </tr> 
@@ -88,12 +88,12 @@ DFA Data Connectors 통합을 단계별로 안내합니다.
    <td colname="col3"> <p>DFA 뷰스루 데이터를 받는 Analytics eVar입니다. 뷰스루 변수를 통해 뷰스루가 사이트의 전환율에 어떻게 영향을 주는지 알 수 있습니다. </p> <p>Data Connectors는 DFA 광고 변수에 추가할 때와 같은 동일한 DFA 관련 분류를 이 eVar에 추가합니다(위 참조). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 5 </td> 
+   <td colname="col1"> 5개 </td> 
    <td colname="col2"> 마지막으로 본 이후의 시간(뷰스루 시간 버킷 변수) </td> 
    <td colname="col3"> 데이터를 마지막으로 본 이후의 DFA 시간을 받는 Analytics eVar입니다. 마지막으로 본 이후의 시간은 마지막 광고 뷰스루 이후 경과된 시간을 나타냅니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 5 </td> 
+   <td colname="col1"> 5개 </td> 
    <td colname="col2"> 뷰스루 </td> 
    <td colname="col3"> DFA 뷰스루 지표 데이터를 받는 사용자 지정 이벤트입니다. 뷰스루 변수와 함께 뷰스루 이벤트를 사용하여 직접 클릭스루에 영향을 주진 않았지만 이후 시간에 사이트에 트래픽을 유도하는 역할을 했을 수 있는 캠페인을 확인할 수 있습니다. <p>Data Connectors는 선택한 사용자 지정 이벤트 이름을 “뷰스루”로 변경합니다. </p> </td> 
   </tr> 
@@ -176,7 +176,7 @@ var dfaConfig = {
    tEvar:             "eVar17", 
    errorEvar:         "eVar59", 
    timeoutEvent:      "event76", 
-   requestURL:         "http://fls.doubleclick.net/ 
+   requestURL:         "https://fls.doubleclick.net/ 
 json?spot=[SPOTID]&src=[CSID]&var=[VAR]&host=integrate.112.2o7.net%2 
 Fdfa_echo%3Fvar%3D[VAR]%26AQE%3D1%26A2S%3D1&ord=[RAND]", 
  

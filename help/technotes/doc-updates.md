@@ -3,9 +3,9 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 63%
 
 ---
@@ -30,8 +30,8 @@ ht-degree: 63%
 | 2021년 8월 5일 | [템플릿](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [브라우저 가져오기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) 및 [브라우저 내보내기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)에서 새 분류 아키텍처에 대해 활성화된 보고서 세트에 사용할 수 없는 옵션을 나타내도록 분류 설명서를 업데이트했습니다. |
 | 2021년 8월 2일 | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)의 리브랜딩을 반영하도록 여러 페이지가 업데이트되었습니다. |
 | **2021년 7월** |  |
-| 2021년 7월 23일 | [머천다이징 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)에 대한 새로운 심층적인 토론 |
-| 2021년 7월 15일 | 새 [Adobe Analytics 랜딩 페이지](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ko-KR)에 새 설명서를 추가했습니다 |
+| 2021년 7월 23일 | [머천다이징 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ko-KR)에 대한 새로운 심층적인 토론 |
+| 2021년 7월 15일 | 새 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)에 새 설명서를 추가했습니다 |
 | **2021년 6월** |  |
 | 2021년 6월 15일 | 업데이트됨 [마케팅 채널 우수 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 2021년 6월 3일 | [데이터 피드 구현](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) 및 [여기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)를 더 잘 설명하도록 문서를 업데이트했습니다. |
@@ -114,7 +114,7 @@ ht-degree: 63%
 | **2019년** |  |
 | 2020년 12월 19일 | 기본 [FTP 데이터 저장소 제한](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en)을 10GB로 변경했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
-| 2019년 11월 25일 | [&#39;IP 로그인 제한 적용&#39; 기간 종료](/help/admin/company/login-restrictions-eol.md)에 대한 새로운 항목 |
+| 2019년 11월 25일 | &#39;IP 로그인 제한 적용&#39; 기간 종료에 대한 새로운 항목. |
 | 2019년 11월 21일 | [고객 움직임 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
 | 2019년 11월 21일 | LiveStream에서 가용성을 나타내도록 [Audience Analytics 워크플로우 FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en)가 업데이트되었습니다. |
 | 2019년 10월 25일 | [Adobe Analytics 주요 개념](/help/technotes/terms.md) 페이지가 업데이트되었습니다. |

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 99%
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
    + [게시 위젯](admin/publishing-widgets-admin.md)
    + [환경 설정 관리자](admin/preferences-manager.md)
    + [개인정보 보호 설정](admin/privacy-settings.md)
-   + [개인 정보 보고](admin/privacy-reporting.md)
+   + [개인정보 보호 보고](admin/privacy-reporting.md)
    + 처리 규칙 {#processing-rules}
       + [처리 규칙 개요](admin/c-processing-rules/processing-rules.md)
       + 처리 규칙 구성 {#processing-rules-configuration}
@@ -125,7 +125,6 @@ ht-degree: 99%
    + [공동 브랜딩](company/co-branding-admin.md)
    + [보고서 세트 숨기기](company/c-hide-report-suites.md)
    + [보안 관리자](company/security-manager.md)
-   + [&#39;IP 로그인 제한 적용&#39; 기간 종료](company/login-restrictions-eol.md)
 + 보고서 세트 관리 {#manage-report-suites}
    + [보고서 세트 관리자](c-manage-report-suites/report-suites-admin.md)
    + [롤업 및 글로벌 보고서 세트](c-manage-report-suites/rollup-report-suite.md)

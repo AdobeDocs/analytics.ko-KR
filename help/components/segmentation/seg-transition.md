@@ -1,13 +1,13 @@
 ---
 description: 세분화에 대해 자주 묻는 질문.
 title: FAQ
-feature: 세그먼테이션
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '2071'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '2080'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * [순차적인 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
 * 페이지 보기 컨테이너는 단지 페이지 보기가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 히트 컨테이너로 이름이 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다. 이 컨테이너가 작동하는 방식은 변경되지 않았으며 이름만 바뀌었습니다.
 
-자세한 내용은 디지털 마케팅 블로그의 [Adobe Analytics에서의 세그먼테이션 개선](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) 게시물을 참조하십시오.
+자세한 내용은 Adobe 블로그의 [Adobe Analytics에서의 세그먼테이션 개선](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) 게시물을 참조하십시오.
 
 ## 세그먼테이션 도구 액세스 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 
 다음 작업을 수행하여 세그먼트 빌더에 액세스할 수 있습니다.
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
 
-* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![](assets/add_button.png)
+* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![추가 단추](assets/add_button.png)
 
    또는
 
@@ -53,13 +53,13 @@ ht-degree: 100%
 
 * 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
 
 * 인터페이스의 어디에서든지 슬래시 키 &#39;/&#39;를 누르고 세그먼트 관리자를 검색합니다.
 
 **이전 세그먼트 드롭다운은 어디로 이동했습니까?**
 
-Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 &quot;범용&quot; 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 왼쪽 탐색 영역에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭하십시오.
+Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 &quot;범용&quot; 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 왼쪽 탐색 영역에서 세그먼트 아이콘 ![을 클릭하십시오.세그먼트 아이콘](assets/segment_icon.png)
 
 그러면 세그먼트 레일이 표시됩니다.
 
@@ -67,7 +67,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 보고서 세트 드롭다운이 각 보고서 또는 대시보드의 오른쪽 상단에 있는 날짜 선택기 옆으로 이동되었습니다.
 
-![](assets/report_suite_selector.png)
+![보고서 세트 선택기](assets/report_suite_selector.png)
 
 ## 권한 {#section_648DFA3A882146C485A84ED014EEC707}
 

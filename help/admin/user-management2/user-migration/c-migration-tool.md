@@ -2,9 +2,9 @@
 description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이그레이션에 대해 알아야 할 사항.
 title: Admin Console로 Analytics 사용자 마이그레이션
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3119'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,7 @@ Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이�
 
 Analytics 마이그레이션과 관련이 없는 Admin Console 주제에 대한 일반적인 도움말은 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/administering/user-guide.html)를 참조하십시오.
 
-마이그레이션 후 [Admin Console]에서 [Experience Cloud 사용자 및 제품](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)을 관리할 수 있습니다.
+마이그레이션 후 [Admin Console]에서 [Experience Cloud 사용자 및 제품](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)을 관리할 수 있습니다.
 
 ## Analytics 사용자 ID 마이그레이션이란? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -38,7 +38,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 ID 및 권한 관리 </p> </td> 
-   <td colname="col2"> <p>Analytics 관리자는 <a href="http://adminconsole.adobe.com/enterprise/">Admin Console</a> (http://adminconsole.adobe.com/enterprise/) 에서 배타적으로 사용자 및 권한을 관리할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>Analytics 관리자는 <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a>에서만 사용자 및 권한을 관리할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>제품 및 핵심 서비스 관리 </p> </td> 
@@ -142,7 +142,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
  </tbody> 
 </table>
 
-## 마이그레이션 중 알아 두어야 할 사항(FAQ)  {#section-d394524aa6d046d79025bbd7499792bc}
+## 마이그레이션 중 알아 두어야 할 사항(FAQ) {#section-d394524aa6d046d79025bbd7499792bc}
 
 마이그레이션 프로세스 및 현재 사용자 관리에 미치는 영향에 대한 중요 정보
 
@@ -231,7 +231,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
  </tbody> 
 </table>
 
-## 마이그레이션 후 알아 두어야 할 사항(FAQ)  {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## 마이그레이션 후 알아 두어야 할 사항(FAQ) {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -315,13 +315,13 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 **본문:** Adobe Analytics 사용자 여러분 안녕하세요!
 
-당사는 모든 Adobe Analytics 계정을[!DNL https://my.omniture.com/login/] 에서 Adobe Experience Cloud([experiencecloud.adobe.com](http://experiencecloud.adobe.com/))로 마이그레이션하는 작업을 시작할 예정입니다. 이 마이그레이션으로 Adobe Analytics 계정은 Adobe Experience Cloud를 통해 Analytics에 액세스할 수 있도록 업그레이드됩니다. Analytics에 액세스하는 방법은 변경되지만 보고서 세트 및 도구에 대한 기존 권한은 모두 유지됩니다.
+당사는 모든 Adobe Analytics 계정을[!DNL https://my.omniture.com/login/] 에서 Adobe Experience Cloud([experiencecloud.adobe.com](https://experiencecloud.adobe.com/))로 마이그레이션하는 작업을 시작할 예정입니다. 이 마이그레이션으로 Adobe Analytics 계정은 Adobe Experience Cloud를 통해 Analytics에 액세스할 수 있도록 업그레이드됩니다. Analytics에 액세스하는 방법은 변경되지만 보고서 세트 및 도구에 대한 기존 권한은 모두 유지됩니다.
 
 **다음 단계:** 사용자 마이그레이션 시작 시기: **날짜를 삽입합니다**. 주소가 Analytics 계정 아래에 나열된 이메일 ID로 지정되어 있고 새 로그인을 사용하는 환영 메시지를 기다려 주십시오. 이메일 주소에 연결된 [Adobe ID](https://helpx.adobe.com/kr/x-productkb/global/adobe-id-account-change.html)를 설정하지 않은 경우 계정을 설정하라는 메시지가 표시됩니다.
 
 **유용한 자료:**
 
-[로그인 및 프로필 설정 관리](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html).
+[로그인 및 프로필 설정 관리](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html).
 
 질문이나 문제가 있으면 Analytics 관리자에게 문의하십시오.
 

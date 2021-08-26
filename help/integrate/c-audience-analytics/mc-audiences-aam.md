@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '460'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ AAM 세그먼트가 동일한 히트 기준에 삽입되므로 AAM에서 방문�
 * Audience Manager와 Adobe Analytics의 고객입니다.
 * Audience Manager 관리자입니다.
 * Identity Service v1.5 이상을 사용하고 있습니다.
-* AAM 및 Adobe Analytics 보고서 세트는 [동일한 Experience Cloud 조직에 매핑](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=ko-KR)됩니다.
+* AAM 및 Adobe Analytics 보고서 세트는 동일한 Experience Cloud 조직에 매핑됩니다.
 * [서버측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md)을 사용하여 [Audience Management 모듈](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ko-KR) (DIL 코드 없음) - AppMeasurement 1.5 이상을 구현했습니다.
 
 이러한 사전 요구 사항은 [Audience Analytics 워크플로](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)에 설명되어 있습니다.

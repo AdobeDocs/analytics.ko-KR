@@ -2,10 +2,10 @@
 title: 크로스 디바이스 분석
 description: 디바이스 데이터를 함께 결합함으로써 데이터를 디바이스 중심에서 사람 중심으로 변경합니다.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ CDA를 사용하여 다음과 같은 질문에 답변할 수 있습니다.
 
 Adobe는 파트너십과 투명성 측면에서 Microsoft Azure를 크로스 디바이스 분석과 연계하여 사용하고 있다는 점을 고객에게 알리고자 합니다. Adobe는 Azure를 사용하여 디바이스 그래프 데이터를 저장하고 크로스 디바이스 결합을 수행합니다. 이와 같이 Adobe Analytics 데이터는 Adobe의 데이터 처리 센터와 Microsoft Azure에 있는 Adobe의 프로비저닝된 인스턴스 간에 서로 전달됩니다.
 
-크로스 디바이스 분석의 기능에 대해 자세히 알려면 [여정 IQ: Cross-크로스 디바이스 분석 스파크 페이지](http://adobe.ly/aacda)를 참조하십시오.
+크로스 디바이스 분석의 기능에 대해 자세히 알려면 [여정 IQ: Cross-크로스 디바이스 분석 스파크 페이지](https://adobe.ly/aacda)를 참조하십시오.
 
 ## 전제 조건
 

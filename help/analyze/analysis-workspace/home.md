@@ -1,12 +1,12 @@
 ---
 title: Analysis Workspace란 무엇이며 어떻게 사용할 수 있습니까?
 description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 도구입니다. 여러 다른 기능들이 있지만 특히, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터에 생명을 불어넣고, 데이터 세트를 큐레이팅하고, 프로젝트를 공유 및 예약할 수 있습니다.
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '557'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Analysis Workspace는 신속하게 분석을 빌드하고 인사이트를 공유
 
 ## Adobe Analytics에 로그인합니다 {#login}
 
-Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](http://experience.adobe.com/analytics)로 이동하여 Adobe Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
+Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Adobe Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
 
 ![](assets/login-analytics.png)
 
@@ -63,5 +63,5 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ## 추가 리소스 {#resources}
 
-* Adobe는 수백 개의 [분석 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko-KR)을 제공합니다.
+* Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko-KR)을 제공합니다.
 * 새로운 기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.

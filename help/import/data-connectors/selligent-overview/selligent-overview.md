@@ -1,21 +1,20 @@
 ---
-description: Adobe Analytics에서 지능적인 데이터 커넥터를 사용합니다.
+description: Adobe Analytics에서 Selligent Data Connector를 사용하십시오.
 title: Adobe Analytics용 Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 97%
 
 ---
 
-
 # Adobe Analytics용 Selligent Data Connector{#selligent-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Adobe는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용 중단할 예정입니다. [추가 정보...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe에서는 2021년 8월 1일에 Adobe 데이터 커넥터 기술을 사용하지 않을 예정입니다. [자세히 알아보기...](/help/import/data-connectors/data-connectors-eol.md)
 
 이 통합에는 다음과 같은 주요 이점이 포함됩니다.
 
@@ -23,7 +22,7 @@ ht-degree: 97%
 * 매출 및 사이트 성공에 대한 전환과 기여로 이메일 캠페인을 최적화합니다.
 * 동적 마케팅 세그먼트를 기반으로 주요 방문자 및 시장 세그먼트를 리마케팅합니다.
 
-## 동적 마케팅 세그먼트{#section-a2216f3339304636bd5417249bd635a4}
+## 동적 마케팅 세그먼트 {#section-a2216f3339304636bd5417249bd635a4}
 
 이메일 통합은 동적 마케팅 세그먼트를 지원하여 비즈니스의 동력을 제공합니다. 이 통합은 다음과 같은 마케팅 세그먼트를 즉시 제공합니다.
 
@@ -131,7 +130,7 @@ ht-degree: 97%
 
    URL은 Selligent Marketing 솔루션에 로그온하는 데 사용되는 URL에서 파생될 수 있습니다. url의 &quot;/simweb/login.aspx&quot; 부분을 &quot;/automation/omniture.asmx&quot;로 바꿉니다.
 
-   예: `http://<client-specific install url>/automation/omniture.asmx`
+   예: `https://<client-specific install url>/automation/omniture.asmx`
 
 * **쿼리 문자열 매개 변수**: 메시지 ID 및 수신자 ID(방문자 ID)용 랜딩 페이지 URL에 추가됩니다. 메시지 ID와 수신자 ID에 대해 각각 항상 MID 및 RID입니다.
 

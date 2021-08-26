@@ -2,7 +2,7 @@
 title: 전체 처리 데이터 소스 수명 종료
 description: 대량 데이터 삽입 API와 전체 처리 데이터 소스 간의 비교 실행 및 비교가 종료되는 이유입니다.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 31%
@@ -13,7 +13,7 @@ ht-degree: 31%
 
 몇 년 동안 전체 처리 데이터 소스를 사용하면 히트 수준 데이터를 Adobe Analytics에 제출할 수 있습니다. 이 데이터는 JavaScript 라이브러리 및 모바일 앱 SDK를 통해 수집된 데이터와 동일한 방식으로 처리되었습니다. 2020년에 Adobe은 전체 처리 데이터 소스와 동일한 기능을 수행하지만 추가 기능이 있는 [대량 데이터 삽입 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 발표했습니다. 이 항목에서는 대량 데이터 삽입 API에서 제공하는 추가 기능에 대한 세부 사항을 제공하고 파일 형식의 차이점을 간략하게 설명합니다.
 
-2021년 3월 25일부터 Adobe은 새 전체 처리 데이터 소스 연결이 생성되지 않게 합니다. 기존 연결은 서비스가 2021년 7월 31일에 완전히 종료될 때까지 계속 지원됩니다. 표준 설명서 외에 Adobe에서는 대량 데이터 삽입 API](http://adobe.ly/aabdia)를 통해 데이터를 제출하는 데 필요한 [단계의 개요를 제공하고 있습니다.
+2021년 3월 25일부터 Adobe은 새 전체 처리 데이터 소스 연결이 생성되지 않게 합니다. 기존 연결은 서비스가 2021년 7월 31일에 완전히 종료될 때까지 계속 지원됩니다. 표준 설명서 외에 Adobe에서는 대량 데이터 삽입 API](https://adobe.ly/aabdia)를 통해 데이터를 제출하는 데 필요한 [단계의 개요를 제공하고 있습니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
@@ -53,9 +53,9 @@ BDIA(Bulk Data Insertion API) 는 전체 처리에서 지원되는 모든 사용
 | customerID.[customerIDType].authState | 지원되지 않음 | 방문자의 인증된 상태입니다. 지원되는 값은 0, 1, 2, UNKNOWN, AUTHENTICATED, LOGGED_OUT 또는 &quot;(대/소문자 구분 안 함)입니다. 두 개의 연속된 작은 따옴표(&quot;)가 쿼리 문자열에서 값을 생략하여 히트가 만들어지면 0으로 해석합니다. 지원되는 authState 숫자 값은 다음을 나타냅니다. 0 = UNKNOWN, 1 = AUTHENTICATED, 2 = LOGGED_OUT. customerIDType은 모든 영숫자 문자열일 수 있지만 대/소문자를 구분해야 합니다. |
 | customerID.[customerIDType].id | 지원되지 않음 | 사용할 고객 ID입니다. customerIDType은 모든 영숫자 문자열일 수 있지만 대/소문자를 구분해야 합니다. |
 | customerID.[customerIDType].isMCSeed | 지원되지 않음 | Marketing Cloud 방문자 ID의 시드인지 여부. 지원되는 값은 0, 1, TRUE, FALSE, &quot;(대/소문자 구분 안 함)입니다. 0, FALSE 또는 연속된 작은 따옴표(&quot;)를 사용하면 쿼리 문자열에서 값이 생략됩니다. customerIDType은 모든 영숫자 문자열일 수 있지만 대/소문자를 구분해야 합니다. |
-| eVarN | eVarN, 즉`<eVar2>`..`<eVar>` | 전환 eVar 이름. 최대 75개의 eVar를 가질 수 있습니다( eVar1 - eVar75 ) eVar 이름(eVar12) 또는 친숙한 이름(광고 캠페인 3)을 지정할 수 있습니다. |
-| events | events | [s.events 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars). 예:scAdd,event1,event7 |
-| hierN | hierN, 즉`<hier2>`..`</hier2>` | 계층 이름. 최대 5개의 계층을 가질 수 있습니다( hier1 - hier5 ). 기본 계층 이름 `hier2` 또는 친숙한 이름(Yankees)을 지정할 수 있습니다. |
+| eVarN | eVarN, 즉 `<eVar2>`..`<eVar>` | 전환 eVar 이름. 최대 75개의 eVar를 가질 수 있습니다( eVar1 - eVar75 ) eVar 이름(eVar12) 또는 친숙한 이름(광고 캠페인 3)을 지정할 수 있습니다. |
+| events | events | [s.events 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars). 예: scAdd,event1,event7 |
+| hierN | hierN, 즉 `<hier2>`..`</hier2>` | 계층 이름. 최대 5개의 계층을 가질 수 있습니다( hier1 - hier5 ). 기본 계층 이름 `hier2` 또는 친숙한 이름(Yankees)을 지정할 수 있습니다. |
 | homePage | homePage | Y 또는 N -- 현재 페이지가 방문자의 홈 페이지인지 여부. |
 | ipaddress | 지원되지 않음 | 방문자의 IP 주소입니다. |
 | javaEnabled | javaEnabled | Y 또는 N -- 방문자의 Java 활성화 여부. |
@@ -79,8 +79,8 @@ BDIA(Bulk Data Insertion API) 는 전체 처리에서 지원되는 모든 사용
 | pageType | pageType | 페이지 유형(예: &quot;오류 페이지&quot;). |
 | pageUrl | pageUrl | 페이지 URL(예: https://www.example.com/index.html). |
 | plugins | plugins | 세미콜론으로 분리되는 브라우저 플러그인 이름 목록. |
-| products | products | 페이지의 모든 제품 목록. 쉼표로 제품을 구분합니다. 예:스포츠;볼;1;5.95,장난감;위쪽;1:1.99. |
-| prop1 - prop75 | propN, 즉`<prop2>`..`</prop2>` | 속성# 문자열(예: Sports Section). |
+| products | products | 페이지의 모든 제품 목록. 쉼표로 제품을 구분합니다. 예: 스포츠;볼;1;5.95,장난감; 위쪽;1:1.99. |
+| prop1 - prop75 | propN, 즉 `<prop2>`..`</prop2>` | 속성# 문자열(예: Sports Section). |
 | propN | propN | 속성에 대한 속성 값. |
 | purchaseID | purchaseID | 구매 ID 번호. |
 | referrer | referrer | 페이지 레퍼러의 URL. |

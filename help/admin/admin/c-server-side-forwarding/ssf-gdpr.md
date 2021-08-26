@@ -3,7 +3,7 @@ description: EU 쿠키 준수 규정에서 촉발된 서버 측 전달에 대한
 title: GDPR/ePrivacy 준수 및 서버 측 전달
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # GDPR/ePrivacy 준수 및 서버 측 전달
 
-이 섹션에서는 2017년 9월 30일에 시행된 [EU 쿠키 준수 규정](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)에서 촉발된 서버 측 전달에 대한 개선 사항을 설명합니다.
+이 섹션에서는 2017년 9월 30일에 시행된 [EU 쿠키 준수 규정](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+쿠키+및+유사+기술)에서 촉발된 서버 측 전달에 대한 개선 사항을 설명합니다.
 
 서버 측 전달은 Adobe Analytics의 데이터를 Audience Manager와 같은 다른 [!DNL Experience Cloud Solutions]과 실시간으로 공유하는 데 사용됩니다. 이 기능이 활성화되어 있을 때 서버 측 전달을 사용하면 Analytics에서 데이터를 다른 Experience Cloud 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션으로 데이터를 Analytics에 푸시할 수 있습니다.
 

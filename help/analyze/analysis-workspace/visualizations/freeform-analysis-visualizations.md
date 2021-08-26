@@ -2,12 +2,12 @@
 description: 시각화를 사용하여 데이터를 시각적으로 표현합니다.
 keywords: Analysis Workspace
 title: 시각화 개요
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1090'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1071'
 ht-degree: 100%
 
 ---
@@ -77,8 +77,6 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 1. 새 레이블 텍스트를 입력합니다.
 1. **[!UICONTROL Enter]**&#x200B;를 눌러 저장합니다.
-
-다음은 이 항목의 [비디오에 대한 링크](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=ko-KR)입니다.
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 

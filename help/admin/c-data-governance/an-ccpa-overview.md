@@ -3,9 +3,9 @@ description: 이 문서에서는 데이터 주체의 CCPA 액세스 및 삭제 �
 title: Adobe Analytics 및 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '637'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,6 @@ ACP (Adobe Cloud Platform)는 사용자 브랜드의 데이터 거버넌스 인�
 
 * [GDPR 용어](/help/admin/c-data-governance/gdpr-terminology.md)를 숙지합니다.
 * Experience Cloud 조직에 로그인 회사를 연결하지 않은 경우 연결합니다. Adobe 고객 지원 센터에 문의하여 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko-KR)을 참조하십시오.
-* 데이터 거버넌스에 대해 설정하려는 모든 Adobe Analytics 보고서 세트를 [Experience Cloud 조직](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=ko-KR)에 매핑합니다.
 * CCPA 삭제 및 액세스 요청을 적용할 수 있도록 각 보고서 세트에 대한 데이터 보존 정책을 설정합니다.
 
    데이터 보존 기간을 Adobe Analytics에 설정하지 않은 경우 Adobe Analytics에서 Privacy Service API에 대한 요청 처리, 즉 최종 사용자로부터 받은 액세스 또는 삭제 요청 처리를 지원할 수 없습니다. 데이터 보존 기간을 설정하려면 Customer Success Manager에 문의하십시오.

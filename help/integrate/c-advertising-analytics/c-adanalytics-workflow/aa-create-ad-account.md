@@ -2,10 +2,10 @@
 title: Advertising Analytics에서 광고 계정을 설정하는 방법
 description: 새 광고 계정을 만들고 여러 계정을 여러 보고서 세트에 매핑할 수 있습니다.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -64,24 +64,24 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
 
    >[!IMPORTANT]
    >
-   >[Experience Cloud 조직](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=ko-KR)에 매핑된 보고서 세트만 선택할 수 있습니다. 해당 보고서 세트가 표시되지 않으면 [Advertising Analytics 문제 해결](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)을 참조하십시오.
+   >Experience Cloud 조직에 매핑된 보고서 세트만 선택할 수 있습니다. 해당 보고서 세트가 표시되지 않으면 [Advertising Analytics 문제 해결](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)을 참조하십시오.
 
    **[!UICONTROL 매핑 설정]**&#x200B;에 대해 다음 지침을 따르십시오.
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> 설정 </th> 
-      <th colname="col2" class="entry"> 설명 </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>보고서 세트 매핑 </p> </td> 
-      <td colname="col2"> <p>보고서 세트 매핑은 이 검색 엔진 계정에 연결되는 보고서 세트를 결정합니다. 즉, 검색 엔진 데이터가 전송되는 보고서 세트를 결정합니다. </p> <p>해당 보고서 세트가 표시되지 않으면 이 도구를 사용하여 <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=ko-KR"  >Experience Cloud 조직에 보고서 세트를 매핑</a>할 수 있습니다. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> 설정 </th> 
+   <th colname="col2" class="entry"> 설명 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>보고서 세트 매핑 </p> </td> 
+   <td colname="col2"> <p>보고서 세트 매핑은 이 검색 엔진 계정에 연결되는 보고서 세트를 결정합니다. 즉, 검색 엔진 데이터가 전송되는 보고서 세트를 결정합니다. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 저장하면 면책조항에 경고 목록이 표시됩니다. 이 계약을 읽고 이해했는지 확인하는 메시지가 표시됩니다. 확인란을 클릭한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

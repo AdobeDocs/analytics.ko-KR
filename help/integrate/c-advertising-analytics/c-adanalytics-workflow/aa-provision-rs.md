@@ -3,9 +3,9 @@ description: Advertising Analytics에서 사용할 Experience Cloud 매핑 보�
 title: Advertising Analytics용 보고서 세트 활성화
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '281'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 100%
 
 Analytics에서 Advertising Analytics 검색 데이터를 보려면 Advertising Analytics 보고용 각 Experience Cloud 매핑 보고서 세트를 구성해야 합니다.
 
-1. [보고서 세트를 조직에 매핑합니다](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=ko-KR).
 1. **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동합니다.
 
 1. Experience Cloud 조직에 매핑된 보고서 세트를 선택합니다.
