@@ -2,11 +2,10 @@
 title: 재생 작동 방식
 description: 크로스 디바이스 분석의 "재생" 개념 이해
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +47,10 @@ ht-degree: 100%
 * **필드 기반 결합을 사용하는 경우,** 인식된 디바이스의 인증되지 않은 히트는 해당 시점부터 라이브로 결합됩니다.
 
    속성은 식별 사용자 지정 변수가 디바이스에 연결되자 마자 작동합니다. 위의 예에서 히트 1과 3을 제외한 모든 히트는 라이브로 결합됩니다 (모두 `Bob` 식별자를 사용). 속성은 재생 결합이 끝난 후 히트 1 및 3에서 작동합니다.
+
+>[!NOTE]
+>
+>12시간보다 오래된 타임스탬프가 지정된 히트는 라이브 플로우에서 결합되지 않습니다. 하지만 이러한 히트는 재생 전환 확인 기간에 속하는 한 재생 결합에 포함됩니다.
 
 ### 재생 결합
 
