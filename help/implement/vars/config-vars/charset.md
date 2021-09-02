@@ -3,9 +3,9 @@ title: charSet
 description: charSet 변수는 Adobe가 이미지 요청을 구문 분석하는 데 사용하는 인코딩을 결정합니다.
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ charSet 변수는 Adobe에서 수신 데이터를 Analytics의 저장 및 보고
 
 보고서에 잘못된 값 ([글자 깨짐](https://en.wikipedia.org/wiki/Mojibake))이 표시되는 경우에만 이 변수를 설정하십시오. 사이트가 서로 다른 페이지에서 다른 인코딩을 사용하는 경우 이 변수를 페이지별로 설정할 수 있습니다.
 
-## Adobe Experience Platform의 문자 집합
+## Adobe Experience Platform의 문자 세트
 
-문자 집합은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 일반] 아코디언 아래의 필드입니다.
+문자 세트는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 일반] 아코디언 아래의 필드입니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
 1. [!UICONTROL 일반] 아코디언을 확장합니다. 그러면 [!UICONTROL 문자 집합] 필드가 표시됩니다.
 
 사전 설정된 문자 집합이나 사용자 지정 문자 집합을 사용할 수 있습니다. 보고서에 잘못된 값이 표시되지 않는 한 `UTF-8`에서 값을 변경하지 마십시오.
