@@ -3,9 +3,9 @@ title: 주/도
 description: Reports and Analytics에서 '방문자 주 보고서'를 채웁니다.
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 90%
 
 이전 버전의 Adobe Analytics에서는 방문자가 소매 사이트에서 배송 정보를 입력할 때 `state` 변수가 사용되었습니다. 이 변수는 기능적으로 prop과 동일하지만 Analysis Workspace에서 사용할 수는 없습니다.
 
-## Adobe Experience Platform에서 태그를 사용한 상태
+## Adobe Experience Platform의 태그를 사용하는 주
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 주를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 주를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
