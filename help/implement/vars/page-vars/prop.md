@@ -3,9 +3,9 @@ title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 [솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
-## Adobe Experience Platform에서 태그를 사용한 Prop
+## Adobe Experience Platform의 태그를 사용하는 Prop
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 prop을 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
@@ -48,11 +48,11 @@ s.prop1 = "Example custom value";
 
 ### 목록 Prop 구성
 
-보고서 세트 설정에서 목록 prop을 활성화합니다. 관리자 가이드의 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md)를 참조하십시오. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
+보고서 세트 설정에서 목록 prop을 활성화합니다. 관리자 안내서의 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md)를 참조하십시오. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
 
 >[!TIP]
 >
->구현에 사용되는 일반적인 구분 기호는 쉼표 (`,`), 콜론 (`:`), 세미콜론 (`;`) 또는 파이프 (`|`)입니다. 구현에 가장 적합한 구분 기호를 사용할 수 있습니다.
+>구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 구분 기호를 사용할 수 있습니다.
 
 ### 목록 Prop 설정
 
