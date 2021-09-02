@@ -3,9 +3,9 @@ title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 96%
 
 이벤트를 구현하려면 먼저 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md) 아래에서 이벤트를 만들고 구성해야 합니다. 링크 추적 히트에서 사용자 지정 이벤트를 사용할 계획이라면, [`linkTrackVars`](../../config-vars/linktrackvars.md)와 [`linkTrackEvents`](../../config-vars/linktrackevents.md)가 올바로 설정되었는지 확인하십시오.
 
-## Adobe Experience Platform에서 태그를 사용하는 이벤트
+## Adobe Experience Platform의 태그를 사용하는 이벤트
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 이벤트를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이벤트를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
@@ -30,8 +30,8 @@ Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 이�
 
 * 드롭다운을 사용하면 포함할 이벤트를 선택할 수 있습니다.
 * 직렬화를 위한 선택적 텍스트 필드. 자세한 내용은 [이벤트 직렬화](event-serialization.md)를 참조하십시오.
-* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어, 드롭다운 아래에서 `event1`을 선택하고 이 필드에 `10`을 포함하면 보고에서 `event1`이 10만큼 증가합니다.
-* 다른 이벤트를 추가하는 단추. 히트에 포함할 수 있는 이벤트 수에는 적절한 제한이 없습니다.
+* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어 드롭다운 아래에서 `event1`을 선택하고 이 필드에 `10`을 포함하면 보고에서 `event1`이 10만큼 증가합니다.
+* 다른 이벤트를 추가하는 버튼. 히트에 포함할 수 있는 이벤트 수에는 적절한 제한이 없습니다.
 
 ## AppMeasurement 및 사용자 지정 코드 편집기의 s.events
 
