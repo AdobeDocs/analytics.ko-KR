@@ -3,17 +3,17 @@ title: eVar (머천다이징)
 description: 제품 차원에 연결된 사용자 지정 변수입니다.
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # eVar (머천다이징)
 
-*이 도움말 페이지에서는 머천다이징 eVar가 차원으로 작동하는 방식을 설명합니다. 머천다이징 eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서에서 [eVar](/help/implement/vars/page-vars/evar.md) 를 참조하십시오.*
+*이 도움말 페이지에서는 머천다이징 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)을 참조하십시오.*
 
-머천다이징 eVar 작동 방식에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)을 참조하십시오.
+머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ko-KR)을 참조하십시오.
 
 일반적으로 외부 캠페인 또는 외부 검색 용어의 성공을 측정할 때는 하나의 값이 성공 이벤트 발생 요인으로 인정되기를 원할 것입니다. 예를 들어 고객이 이메일 캠페인의 링크를 클릭하여 웹 사이트를 방문하면 그에 따라 이루어진 모든 구매가 해당 캠페인 덕분인 것으로 됩니다.
 
@@ -25,11 +25,11 @@ ht-degree: 90%
 
 ![코트 예](assets/merch-example-coat.png)
 
-방문자가 이 구매를 완료하면, 고글 구매가 반영된 `"winter coat"`에 대한 내부 검색이 이루어집니다 (eVar가 &#39;가장 최근 항목&#39;의 기본 할당을 사용한다고 가정). 이는 `"winter coat"`에는 좋지만 마케팅 의사 결정에는 적합하지 않습니다.
+방문자가 이 구매를 완료하면, 고글 구매가 반영된 `"winter coat"`에 대한 내부 검색이 이루어집니다(eVar가 &#39;가장 최근 항목&#39;의 기본 할당을 사용한다고 가정). 이는 `"winter coat"`에는 좋지만 마케팅 의사 결정에는 적합하지 않습니다.
 
-| 내부 검색어 | 수입  |
+| 내부 검색어 | 수입 |
 |---|---|
-| 겨울 코트 | $157 |
+| 겨울 코트 | 157달러 |
 
 ## 머천다이징 변수로 이 문제를 해결하는 방법
 
@@ -37,9 +37,9 @@ ht-degree: 90%
 
 이전 예에서 eVar에 대해 머천다이징이 활성화되었다면 `"goggles"`라는 검색어가 스키용 고글에 연결되고 `"winter coat"`라는 검색어가 다운 재킷에 연결됩니다. 머천다이징 eVar는 제품 수준에서 매출을 할당하므로 각 용어가 그것과 연결된 제품 수익 금액에 대한 요인으로 인정됩니다.
 
-| 내부 검색어 | 수입  |
+| 내부 검색어 | 수입 |
 |---|---|
-| 겨울 코트 | $119 |
+| 겨울 코트 | 119달러 |
 | 고글 | $38 |
 
 구현 지침이 필요하면 [머천다이징 eVar](/help/implement/vars/page-vars/evar-merchandising.md)를 참조하십시오.
