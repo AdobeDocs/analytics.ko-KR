@@ -3,9 +3,9 @@ title: linkInternalFilters
 description: linkInternalFilters 변수를 사용하여 자동 종료 링크 추적을 돕습니다.
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Activity Map은 이 변수를 사용하여 사이트 내부 링크를 판별하�
 >
 >`linkInternalFilters`와 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)는 별개의 목적을 수행하는 별개의 기능입니다. `linkInternalFilters` 변수는 특히 종료 링크 추적에 작동합니다. 내부 URL 필터는 참조 도메인같은 트래픽 소스 차원에 도움이 되는 관리 설정입니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 아웃바운드 링크 - 추적 안 함
+## 아웃바운드 링크 - Adobe Experience Platform의 태그를 사용하는 추적 안 함
 
-추적 안 함 필드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 쉼표로 구분된 필터 목록 (일반적으로 도메인)입니다.
+추적 안 함 필드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 쉼표로 구분된 필터 목록(일반적으로 도메인)입니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
 4. [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 [!UICONTROL 아웃바운드 링크 - 추적 안 함] 필드가 표시됩니다.
 
 이 필드에는 종료 링크로 추적하지 않을 필터를 배치하십시오. 여러 도메인은 공백 없이 쉼표로 구분합니다.
