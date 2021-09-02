@@ -3,9 +3,9 @@ title: Util.cookieRead
 description: 쿠키에 사용할 값을 가져옵니다.
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 쿠키는 동일한 도메인에 있는 페이지 간에 정보를 저장하고 검색할 수 있습니다. 쿠키에서 값을 검색하려면 `Util.cookieRead()` 메서드를 사용하십시오.
 
-## Adobe Experience Platform에서 태그를 사용하여 쿠키 읽기
+## Adobe Experience Platform의 태그를 사용하는 쿠키 읽기
 
 데이터 요소의 값을 설정하여 쿠키를 읽을 수 있습니다.
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 
 쿠키 값은 데이터 요소에 저장됩니다. 그러면 규칙의 데이터 요소를 참조하여 Analytics 변수를 할당할 수 있습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.Util.cookieRead ()
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.Util.cookieRead()
 
 원하는 쿠키 값을 읽으려면 `s.Util.cookieRead()` 메서드를 호출하십시오. 이 메서드의 유일한 인수는 문자열로서, 필수입니다. 이 메서드는 쿠키 값을 포함하는 문자열을 반환합니다. 쿠키가 존재하지 않으면 빈 문자열이 반환됩니다.
 
