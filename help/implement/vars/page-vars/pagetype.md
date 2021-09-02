@@ -3,9 +3,9 @@ title: pageType
 description: 현재 페이지가 404 오류인지 판단합니다.
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 83%
 >
 >오류가 아닌 페이지에서 이 변수를 설정하지 마십시오.
 
-## Adobe Experience Platform에서 태그를 사용한 페이지 유형
+## Adobe Experience Platform의 태그를 사용하는 페이지 유형
 
-데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 사용자 지정 코드 편집기의 s.pageType
 
