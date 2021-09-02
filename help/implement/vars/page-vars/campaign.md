@@ -3,9 +3,9 @@ title: campaign
 description: '''추적 코드'' 차원을 채웁니다.'
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 89%
 
 이 변수는 &#39;추적 코드&#39; 차원을 채웁니다.
 
-## Adobe Experience Platform에서 태그를 사용한 캠페인
+## Adobe Experience Platform의 태그를 사용하는 캠페인
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 캠페인을 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 캠페인을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
