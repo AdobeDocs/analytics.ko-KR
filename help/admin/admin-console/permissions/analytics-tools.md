@@ -3,9 +3,9 @@ title: Analytics 도구에 대한 제품 프로필 권한
 description: Analytics 도구 권한 항목을 사용하여 Adobe Analytics 내의 기능에 액세스 권한을 부여합니다.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | [!UICONTROL Excel 라이선스 사용자] | 사용되지 않습니다. |
 | [!UICONTROL Activity Map] | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
 | [!UICONTROL 현재 데이터] | Reports &amp; Analytics 보고서에서 현재 데이터를 보는 옵션을 활성화합니다. |
-| [!UICONTROL Ad Hoc Analysis 라이선스 사용자] | Ad Hoc Analysis 서비스가 중단되었습니다. [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오. |
+| [!UICONTROL 애드혹 분석 라이선스 사용자] | Ad Hoc Analysis 서비스가 중단되었습니다. [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)를 참조하십시오. |
 | [!UICONTROL 모바일 앱 관리] | 사용되지 않습니다. |
 | [!UICONTROL 웹 서비스 액세스] | 서드파티 사이트에서의 인증 및 API 호출 전송을 포함하여 API를 사용할 수 있는 권한을 부여합니다. |
 | [!UICONTROL Report Builder] | 도구 > Report Builder 아래의 다운로드 버튼을 활성화하고 사용자가 Microsoft Excel 내에서 인증할 수 있도록 합니다. |
@@ -37,10 +37,10 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | [!UICONTROL Reports &amp; Analytics 액세스] | Reports &amp; Analytics에 액세스할 권한을 부여합니다. Adobe Analytics를 사용하려면 사용자가 이 그룹 또는 Analysis Workspace 액세스 그룹 (기본 설정)에 속해야 합니다. |
 | [!UICONTROL Analysis Workspace: 템플릿으로 저장] | Analysis Workspace 내의 프로젝트 > 템플릿으로 저장에 대한 액세스 권한을 부여합니다. |
 | [!UICONTROL Labs 액세스] | 사용자에게 Labs 및 Labs 내 프로토타입에 대한 액세스 권한을 부여합니다. |
-| [!UICONTROL 계산된 지표 생성] | 모든 Analytics 기능에 대해 계산된 지표를 만들 수 있는 기능을 부여합니다. |
-| [!UICONTROL 세그먼트 생성] | 모든 Analytics 기능에 대해 세그먼트를 만들고 공유할 수 있는 기능을 부여합니다. |
+| [!UICONTROL 계산된 지표 만들기] | 모든 Analytics 기능에 대해 계산된 지표를 만들 수 있는 기능을 부여합니다. |
+| [!UICONTROL 세그먼트 만들기] | 모든 Analytics 기능에 대해 세그먼트를 만들고 공유할 수 있는 기능을 부여합니다. |
 | [!UICONTROL Advertising Analytics 관리] | 사용되지 않습니다. |
-| [!UICONTROL 세그먼트 게시] | 세그먼트를 만들거나 편집할 때 세그먼트를 Experience Cloud 대상으로 만들 수 있는 기능을 부여합니다. |
-| [!UICONTROL 통합 (생성)] | 관리자 > 모든 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 데이터 커넥터를 만들 수 있도록 합니다. |
-| [!UICONTROL 통합 (업데이트)] | 관리자 > 모든 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 기존의 커넥터 구성을 수정할 수 있도록 합니다. |
-| [!UICONTROL 통합 (삭제)] | 관리자 > 모든 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 데이터 커넥터를 삭제할 수 있도록 합니다. |
+| [!UICONTROL 세그먼트 퍼블리싱] | 세그먼트를 만들거나 편집할 때 세그먼트를 Experience Cloud 대상으로 만들 수 있는 기능을 부여합니다. |
+| [!UICONTROL 통합(만들기)] | 관리자 > 모든 관리자 > 데이터 커넥터에 대한 액세스 권한을 부여하고 사용자가 데이터 커넥터를 만들 수 있도록 합니다. |
+| [!UICONTROL 통합(업데이트)] | 관리자 > 모든 관리자 > 데이터 커넥터에 대한 액세스 권한을 부여하고 사용자가 기존의 커넥터 구성을 수정할 수 있도록 합니다. |
+| [!UICONTROL 통합(삭제)] | 관리자 > 모든 관리자 > 데이터 커넥터에 대한 액세스 권한을 부여하고 사용자가 데이터 커넥터를 삭제할 수 있도록 합니다. |
