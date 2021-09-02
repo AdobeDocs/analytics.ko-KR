@@ -3,9 +3,9 @@ title: 브라우저 유형
 description: 브라우저를 만든 조직입니다.
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
