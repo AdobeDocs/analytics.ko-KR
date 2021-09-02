@@ -3,9 +3,9 @@ title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 방법
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 자세한 내용은 [보트 규칙 개요](/help/admin/admin/bot-removal/bot-rules.md)를 참조하십시오.
 
-## [!UICONTROL websiteBot] 플러그인을 사용해 보트를 식별합니다
+## [!UICONTROL websiteBot] 플러그인을 사용하여 보트를 식별합니다
 
 [!UICONTROL websiteBot] 플러그인을 통해 데스크탑 방문자가 보트인지를 동적으로 식별할 수 있습니다. 이 데이터를 사용하면 모든 유형의 보고에서 정확성을 더 높일 수 있으므로 올바른 사이트 트래픽을 더 정확하게 측정할 수 있습니다.
 
@@ -41,7 +41,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ### 1단계: 방문자의 Experience Cloud ID를 새로 선언된 ID에 전달
 
-시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)에 있는 [태그를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
+시작하려면 [사람 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)에서 새로 선언된 ID를 만듭니다. 방문자의 Experience Cloud ID를 새로 선언된 ID로 전달합니다. [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)를 사용하면 이 작업을 빠르고 신속하게 할 수 있습니다. 선언된 ID에 &quot;ECID&quot;라는 이름을 사용하겠습니다.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-이 데이터 요소가 설정되면 [이 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구에 전달합니다.
+이 데이터 요소가 설정되고 나면 [이 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구로 전달합니다.
 
 ### 2단계: 세그먼테이션을 사용하여 보트 식별
 
