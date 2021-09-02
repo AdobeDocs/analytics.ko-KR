@@ -3,9 +3,9 @@ title: eVar
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 각 eVar를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
-## Adobe Experience Platform에서 태그를 사용하는 eVar
+## Adobe Experience Platform의 태그를 사용하는 eVar
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 eVar를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 eVar을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
