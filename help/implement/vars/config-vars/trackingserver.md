@@ -3,9 +3,9 @@ title: trackingServer
 description: 이미지 요청이 전송되는 위치를 파악합니다.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe는 방문자가 생성한 이미지 요청을 수신하여 사이트의 �
 >
 >이 값을 변경하면 AppMeasurement가 다른 위치에서 쿠키를 찾습니다. 방문자 쿠키가 새 위치에 설정되면 보고에서 고유 방문자 수가 일시적으로 급증할 수 있습니다.
 
-## Adobe Experience Platform에서 태그를 사용한 추적 서버
+## Adobe Experience Platform의 태그를 사용하는 추적 서버
 
 추적 서버는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 일반] 아코디언 아래의 필드입니다.
 
