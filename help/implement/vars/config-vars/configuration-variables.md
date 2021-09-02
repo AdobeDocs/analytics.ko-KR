@@ -3,9 +3,9 @@ title: 구성 변수
 description: 구성 변수를 사용하여 데이터를 수집하는 방법을 결정합니다.
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 68%
 
 `AppMeasurement.js`를 사용하는 JavaScript 구현에서 구성 변수는 일반적으로 JS 파일의 맨 위에 설정됩니다.
 
-Adobe Experience Platform 태그를 사용하는 구현에서 구성 변수는 일반적으로 Adobe Analytics 확장을 구성하여 찾습니다.
+Adobe Experience Platform 태그를 사용하는 구현에서 구성 변수는 일반적으로 Adobe Analytics 확장을 구성함으로써 발견됩니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 편집할 속성을 클릭합니다.
