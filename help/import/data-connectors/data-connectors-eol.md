@@ -3,9 +3,9 @@ description: Analytics Data Connectors의 사용이 종료되는 시점과 이�
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 10년 이상 Adobe Analytics는 고객의 요구 사항을 충족하는 최상의 웹 및 마케팅 분석 솔루션을 제공하고자 노력해 왔습니다. 기술 및 비즈니스 요구 사항이 발전함에 따라 Adobe는 지속적으로 최고 표준을 충족하기 위해 노력하고 있습니다.  안타깝게도 이 통합을 제공하는 API는 이러한 표준을 더 이상 충족하지 않으며 최신 Adobe Analytics 기술 인프라에서는 지원되지 않습니다.
 
-**2021년** 8월 19일부터 Adobe은 Data Connectors 통합을 중단합니다. 수명 종료는 모든 기술 제품에서 라이프사이클의 일부이며 Adobe는 고객과 파트너에게 최대한 원활한 전환을 제공하는 것을 목표로 하고 있습니다. 이러한 통합은 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
+**2021년 8월 19일부터** Adobe는 데이터 커넥터 통합을 중단합니다. 수명 종료는 모든 기술 제품에서 라이프사이클의 일부이며 Adobe는 고객과 파트너에게 최대한 원활한 전환을 제공하는 것을 목표로 하고 있습니다. 이러한 통합은 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
@@ -31,7 +31,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 
 ## Data Connector 파트너 상태
 
-*최신 업데이트: 2021년 8월 2일 (Hootsuite)*
+*마지막 업데이트: 2021년 8월 2일(Hootsuite)*
 
 | 파트너 | 상태 |
 | --- | --- |
