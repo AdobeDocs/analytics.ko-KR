@@ -3,9 +3,9 @@ title: websiteBot
 description: 마우스 움직임을 사용하여 동적으로 보트를 식별합니다.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 91%
 
 사용자 에이전트가 데스크탑에 있고 마우스 움직임이 감지되지 않으면 플러그인은
 
-* Adobe Experience Platform에서 태그를 사용하여 직접 호출 규칙 호출을 하거나
-* 방문자가 보트가 아님을 나타내도록 링크 추적 호출을 만듭니다.
+* Adobe Experience Platform의 태그를 사용하여 직접 호출 규칙 호출을 수행하거나
+* 방문자가 봇이 아님을 나타내기 위해 링크 추적 호출을 수행할 수 있습니다.
 
 ## 사전 요구 사항
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 * **eVar 설정 구성**: 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 eVar를 설정합니다. 만료를 **절대** 또는 **방문**&#x200B;으로 설정하고 할당을 **“원래 값(처음)”**&#x200B;으로 설정합니다. 이 eVar는 [!UICONTROL 직접 호출] 규칙 또는 `s.tl` 호출이 실행되는 두 상황 모두에서 설정되어야 합니다.
 * **사용자 에이전트를 별도의 변수로 수집**: 사용자 에이전트 문자열을 별도의 변수로 수집하여 이 플러그인의 효과를 모니터링합니다. 이 데이터를 수집하려면 모든 히트에서 eVar를 `navigator.UserAgent`로 설정합니다.
 
-##  사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
 1. 새 `websiteBot` 규칙을 추가합니다.
 1. 다음 사용자 지정 코드를 사용하여 **마우스 움직임 리스너** 이벤트를 `websiteBot` 규칙에 추가합니다.
@@ -115,5 +115,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11(2021년 6월 3일)
 
 * AppMeasurement 플러그인 코드가 업데이트되었습니다.
-* 확장된 지침으로 사용자 지정 코드 편집기 섹션이 업데이트되었습니다.
-* “플러그인 사용” 섹션이 업데이트되었습니다.
+* 사용자 지정 코드 편집기 섹션이 업데이트되어 확장된 지침이 포함되었습니다.
+* &quot;플러그인 사용&quot; 섹션이 업데이트되었습니다.
