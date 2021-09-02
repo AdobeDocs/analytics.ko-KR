@@ -3,9 +3,9 @@ title: 구현 FAQ
 description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ID 서비스는 Experience Cloud에 있는 다른 솔루션 간에 공유할 수
 
 ## Adobe의 서비스 중단이 성능에 영향을 줄 수 있습니까?
 
-아니요. JavaScript 파일은 Adobe 서버에서 호스팅되지 않으므로 Adobe 중단은 AppMeasurement 라이브러리에 영향을 주지 않습니다. Adobe Experience Platform에서 태그를 사용하는 경우, JavaScript 파일은 Akamai에 의해 호스트되거나, 조직이 결정한 서버 위치에서 호스트됩니다.
+아니요. JavaScript 파일은 Adobe 서버에서 호스팅되지 않으므로 Adobe 중단은 AppMeasurement 라이브러리에 영향을 주지 않습니다. Adobe Experience Platform의 태그를 사용하는 경우, JavaScript 파일은 Akamai에 의해 호스팅되거나 조직이 결정한 서버 위치에서 호스팅됩니다.
 
 ## 데이터를 브라우저에서 Adobe 서비스로 보내면 성능이 저하될 수 있습니까?
 
@@ -33,7 +33,7 @@ AppMeasurement는 HTML 페이지 내에 이미지 개체를 만들며, 그렇게
 
 조직이 계약 만료 때문에 또는 서버 호출 수를 줄이기 위해 구현을 제거하려는 경우가 있습니다.
 
-* **Adobe Experience Platform에서 태그를 사용하는 구현**: 확장 프로그램 탭에서 Adobe Analytics 확장 프로그램을   비활성화하거나 제거한 다음 게시합니다.
+* **Adobe Experience Platform의 태그를 사용한 구현**: [!UICONTROL 확장] 탭에서 Adobe Analytics 확장 기능을 비활성화하거나 제거한 다음 게시합니다.
 * **이전 AppMeasurement 구현**: `s_code.js` 파일의 전체 콘텐츠를 다음 코드 줄로 바꿉니다.
 
 ```js
@@ -53,7 +53,7 @@ var s = new Object();
 
 아니요. `Math.random()`을 사용하는 숫자는 민감한 데이터를 마스킹, 전송 또는 수신하는 데 사용되지 않습니다. Adobe 데이터 수집 서버로 전송되는 데이터는 기본 HTTPS 연결의 보안에 의존합니다. <!-- AN-173590 -->
 
-AppMeasurement는 세 가지 주요 영역에서 `Math.random()` 을 사용합니다.
+AppMeasurement는 세 가지 주요 영역에서 `Math.random()`을 사용합니다.
 
 * **샘플링**: 구현에 따라 일부 정보는 사이트 방문자의 일부에 대해서만 수집될 수 있습니다. `Math.random()`은 특정 방문자가 데이터를 보내야 하는지 여부를 결정하는 데 사용됩니다. 대부분의 구현은 샘플링을 사용하지 않습니다.
 * **대체 방문자 ID**: 쿠키에서 방문자 ID를 검색할 수 없는 경우 무작위 방문자 ID가 생성됩니다. AppMeasurement의 이 부분에서는 `Math.random()`에 대한 두 번의 호출을 사용합니다.
