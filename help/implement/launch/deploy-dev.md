@@ -1,11 +1,11 @@
 ---
 title: 개발 환경에 Adobe Analytics 배포
-description: 태그를 사용하여 개발 환경에 Adobe Analytics을 배포하는 방법을 알아봅니다.
+description: 태그를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 59%
 태그 속성을 만들고 구성했으면 사이트에 라이브러리를 배포하고 코드를 구현할 준비가 된 것입니다.
 
 >[!NOTE]
->Adobe Experience Platform Launch은 Experience Platform에서 데이터 수집 기술 세트로 브랜딩되었습니다. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. 용어 변경 내용을 통합 참조하려면 다음 [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)을 참조하십시오.
+>Adobe Experience Platform Launch는 Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. 용어 변경에 대한 통합 참고자료는 다음 [문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ko-KR)를 참조하십시오.
 
-## 사전 요구 사항
+## 전제 조건
 
-[Adobe Analytics ](create-analytics-property.md)에 대한 태그 속성을 만들고 구성합니다. 도구에 액세스하고 Analytics 구현을 위한 공간을 만듭니다.
+[Adobe Analytics에 대한 태그 속성 만들기 및 구성](create-analytics-property.md): 도구에 액세스하고 Analytics 구현을 위한 공간을 만듭니다.
 
 ## 어댑터 및 환경 만들기
 
-태그는 코드를 배포할 때 여러 조직의 워크플로우를 포함합니다. 다음 단계에 따라 Analytics 구현에 필요한 최소 구성 요소를 만듭니다. 태그 관리자는 조직 내에서 Adobe 솔루션을 배포하기 위해 올바른 워크플로우를 설정할 수 있습니다.
+태그는 코드를 배포할 때 여러 조직의 워크플로를 포함합니다. 아래 단계에 따라 Analytics 구현에 필요한 최소 구성 요소를 만듭니다. 태그 관리자는 조직 내에서 Adobe 솔루션을 배포하기 위해 올바른 워크플로를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 사이트에서 구현할 태그 속성을 클릭합니다.
@@ -45,7 +45,7 @@ ht-degree: 59%
 6. 저장을 클릭합니다.
 7. 게시 워크플로 화면으로 돌아가서 새 라이브러리 옆에 있는 드롭다운을 클릭하고 개발용 빌드를 클릭합니다. 잠시 후에 라이브러리에 있는 노란색 점이 성공적으로 빌드되었음을 나타내는 녹색으로 바뀝니다.
 8. 환경 탭으로 이동한 다음 개발 환경을 클릭합니다.
-9. 태그 설치 아래에서 코드 블록을 복사하여 조직의 웹 사이트 소유자에게 제공합니다.
+9. &#39;태그 설치&#39; 아래에서 코드 블록을 복사하여 조직의 웹 사이트 소유자에게 제공합니다.
 
 ## 웹 사이트의 개발 환경에 태그 설치
 
@@ -74,8 +74,8 @@ ht-degree: 59%
 
 ## 문서 및 추가 리소스
 
-- [빠른 시작 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): 태그 구현의 기본 워크플로우를 알아봅니다
-- [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en): 게시 및 환경에 대해 자세히 알아보기
+- [빠른 시작 안내서](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR): 태그 구현의 기본 작업 과정을 알아봅니다.
+- [퍼블리싱 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko-KR): 퍼블리싱 및 환경에 대해 자세히 알아봅니다.
 
 ## 다음 단계
 
