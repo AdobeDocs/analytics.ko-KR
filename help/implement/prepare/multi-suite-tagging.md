@@ -3,9 +3,9 @@ description: 다중 세트 태그 지정을 구현하여 여러 보고서 세트
 title: 다중 세트 태그 지정 구현
 exl-id: null
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 다중 세트 태그 지정을 구현하려면 글로벌 보고서 세트에 대한 RSID(보고서 세트 ID)와 웹 페이지 및 앱의 추적 코드에 해당 하위 보고서 세트에 대한 RSID를 포함해야 합니다.
 
-* Adobe Experience Platform 태그 구현의 경우 [[!DNL Analytics] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)에 대한 각 보고서 세트를 지정합니다.
+* Adobe Experience Platform 태그 구현의 경우 [[!DNL Analytics] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR)에 대한 각 보고서 세트를 지정합니다.
 
 * 레거시 JavaScript 및 모바일 SDK 구현의 경우 공백 없이 쉼표로 RSID를 구분하십시오(`rsid1,rsid2,rsid3` 등).
 
