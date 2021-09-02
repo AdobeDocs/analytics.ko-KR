@@ -3,9 +3,9 @@ title: Adobe Analytics의 글로벌 보고서 세트
 description: 글로벌 보고서 세트 사용에 대한 장점과 요구 사항을 이해합니다.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 93%
    >
    >주어진 사용자 지정 변수가 도메인 간에 유사하게 사용되는지 확인하십시오. 동일한 eVar 또는 이벤트를 여러 사이트 간에 서로 다른 목적으로 사용하지 마십시오.
 1. 각 도메인에 데이터 수집을 간소화하는 데이터 레이어가 있는지 확인합니다. 데이터 레이어 없이도 여전히 데이터를 수집할 수는 있지만 특히 사이트의 재디자인 시에는 구현의 안정성과 수명이 줄어듭니다.
-1. Adobe Experience Platform의 태그를 사용하여 Analytics를 구현합니다. 서로 다른 사이트는 서로 다른 데이터 요소를 필요로 할 수 있습니다. 각 도메인에 대한 규칙을 사용하여 각 데이터 요소가 올바로 채워졌는지 확인한 다음, 해당 데이터 요소를 각각의 해당 eVar 및 이벤트에 지정하십시오. [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
+1. Adobe Experience Platform의 태그를 사용하여 Analytics를 구현합니다. 서로 다른 사이트는 서로 다른 데이터 요소를 필요로 할 수 있습니다. 각 도메인에 대한 규칙을 사용하여 각 데이터 요소가 올바로 채워졌는지 확인한 다음, 해당 데이터 요소를 각각의 해당 eVar 및 이벤트에 지정하십시오. [태그 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR)를 참조하십시오.
 1. [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 포함하고 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ko-KR) 함수를 사용합니다. 이 함수는 사용자가 한 도메인에서 다른 도메인으로 클릭하여 이동할 때 방문자 데이터를 병합합니다.
 
 ## 글로벌 보고서 세트로 기존 구현 수정
@@ -50,7 +50,7 @@ ht-degree: 93%
 
 1. 기존 보고서 세트 중 하나를 사용할지, 새 보고서 세트로 새로 시작할지를 결정합니다. 구현에서 기존 변수의 사용을 변경하려는 경우에는 새 보고서 세트로 시작하는 것이 좋습니다.
 2. 글로벌 보고서 세트로 전환할 날짜를 결정합니다. 가장 좋은 전환 시기는 중요한 두 보고 기간 사이 또는 사이트에 주요 변경 사항이 있을 때입니다. 예로는 회계 분기 또는 연도 시작, 사이트 새로 고침 중 또는 새 태그 관리 시스템으로 변경할 때가 있습니다.
-3. 위의 절차를 따릅니다(보고서 세트를 만들고, 솔루션 디자인 문서에서 보고 요구 사항을 수집하고, 각 사이트에 데이터 레이어를 설정). Adobe Experience Platform에서 태그를 구현할 때 웹 사이트의 개발 버전을 사용하여 구현의 유효성을 검사하십시오.
+3. 위의 절차를 따릅니다(보고서 세트를 만들고, 솔루션 디자인 문서에서 보고 요구 사항을 수집하고, 각 사이트에 데이터 레이어를 설정). Adobe Experience Platform의 태그를 구현할 때에는 웹 사이트의 개발 버전을 사용하여 구현의 유효성을 검사하십시오.
 4. 개발 버전에서 구현이 작동하는 것을 확인했으면 전환 날짜에 태그 구현을 라이브로 푸시합니다.
 
 ## 관련 페이지
