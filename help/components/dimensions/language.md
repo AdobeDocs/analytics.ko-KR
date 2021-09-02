@@ -3,15 +3,15 @@ title: 언어
 description: 브라우저의 기본 언어 설정입니다.
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 언어
 
-언어 차원은 방문자가 콘텐츠를 볼 때 선호하는 상위 언어들을 보여줍니다. 이 차원은 현지화 작업에 도움이 되도록 방문자가 가장 자주 사용하는 선호 언어를 알려는 경우 중요합니다.
+언어 차원은 방문자가 콘텐츠를 볼 때 선호하는 상위 언어들을 보여 줍니다. 이 차원은 현지화 작업에 도움이 되도록 방문자가 가장 자주 사용하는 선호 언어를 알려는 경우 중요합니다.
 
 >[!NOTE]
 >
