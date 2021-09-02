@@ -1,22 +1,22 @@
 ---
-title: 태그 데이터 요소를 Analytics 변수에 매핑
+title: Analytics 변수에 태그 데이터 요소 매핑
 description: Analysis Workspace에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# 태그 데이터 요소를 Analytics 변수에 매핑
+# Analytics 변수에 태그 데이터 요소 매핑
 
-태그 데이터 요소의 저장소가 있으면 Analytics 차원에 할당할 수 있습니다.
+태그 데이터 저장소가 있으면 이를 Analytics 차원에 할당할 수 있습니다.
 
 >[!NOTE]
->Adobe Experience Platform Launch은 Experience Platform에서 데이터 수집 기술 세트로 브랜딩되었습니다. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. 용어 변경 내용을 통합 참조하려면 다음 [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)을 참조하십시오.
+>Adobe Experience Platform Launch는 Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. 용어 변경에 대한 통합 참고자료는 다음 [문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ko-KR)를 참조하십시오.
 
-## 사전 요구 사항
+## 전제 조건
 
 [데이터 레이어 개체를 데이터 요소에 매핑](layer-to-elements.md): 태그 데이터 요소를 이해하고 여러 가지 기능을 사용할 수 있어야 합니다.
 
@@ -24,7 +24,7 @@ ht-degree: 64%
 
 ## Analytics 변수에 데이터 요소 할당
 
-이러한 단계를 수행한 후 태그 라이브러리를 게시하면 Analysis Workspace에서 사용자 지정 차원을 사용할 수 있습니다. Analytics 변수를 전역 또는 개별 규칙으로 설정할 수 있습니다.
+이러한 단계를 수행한 후 태그 라이브러리를 퍼블리싱하면 Analysis Workspace에서 사용자 지정 차원을 사용할 수 있습니다. Analytics 변수를 전역 또는 개별 규칙으로 설정할 수 있습니다.
 
 ### 전역 변수 설정
 
@@ -37,7 +37,7 @@ ht-degree: 64%
 
 ### 규칙의 변수 설정
 
-규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. Adobe Experience Platform 태그 설명서에서 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)을 참조하십시오.
+규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. Adobe Experience Platform 태그 설명서 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko-KR)을 참조하십시오.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
