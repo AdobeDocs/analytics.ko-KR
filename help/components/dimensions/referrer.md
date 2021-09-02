@@ -3,9 +3,9 @@ title: 레퍼러
 description: 방문자가 사이트를 클릭스루하기 전에 있었던 URL입니다.
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 >
 >이 차원을 사용하려면 보고서 세트의 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 URL이 포함되거나 외부 URL이 표시되지 않을 수 있습니다.
 
-동일한 보고서가 Analysis Workspace와 Data Warehouse 간에 다른 결과를 보여줄 수 있습니다. Analysis Workspace는 내부 URL 필터와 일치하는 값을 제외하고 각 개별 페이지에 대한 레퍼러를 보고합니다. Data Warehouse는 방문의 첫 번째 레퍼러만 보고하고 내부 URL 필터는 무시합니다.
+동일한 보고서가 Analysis Workspace와 Data Warehouse 간에 다른 결과를 보여 줄 수 있습니다. Analysis Workspace는 내부 URL 필터와 일치하는 값을 제외하고 각 개별 페이지에 대한 레퍼러를 보고합니다. Data Warehouse는 방문의 첫 번째 레퍼러만 보고하고 내부 URL 필터는 무시합니다.
 
 ## 이 차원을 데이터로 채우기
 
