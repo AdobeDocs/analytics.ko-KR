@@ -5,9 +5,9 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 # Analytics 구현 안내서 {#implementation}
 
 + [Adobe Analytics 구현](home.md)
-+ [AppMeasurement 릴리스 노트](appmeasurement-updates.md)
++ [AppMeasurement 릴리스 정보](appmeasurement-updates.md)
 + Analytics 변수, 함수 및 메서드 {#vars}
    + [개요](vars/overview.md)
    + 구성 변수 {#config-vars}
@@ -149,13 +149,13 @@ ht-degree: 91%
       + [방문 예](js/xdevice-visid/visit-example.md)
       + [기존 크로스 디바이스 FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 문제 해결](js/troubleshooting.md)
-+ Adobe Experience Platform {#launch}에서 태그를 사용하여 Analytics 구현
++ Adobe Experience Platform의 태그를 사용하여 Analytics 구현 {#launch}
    + [태그 개요](launch/overview.md)
    + [Adobe Analytics 태그 속성 만들기](launch/create-analytics-property.md)
    + [개발 환경에 배포](launch/deploy-dev.md)
    + [유효성 검사 및 프로덕션에 게시](launch/validate-publish-prod.md)
    + [데이터 레이어 개체를 데이터 요소에 매핑](launch/layer-to-elements.md)
-   + [태그 데이터 요소를 Analytics 변수에 매핑](launch/elements-to-variable.md)
+   + [Analytics 변수에 태그 데이터 요소 매핑](launch/elements-to-variable.md)
 + 다른 플랫폼에서 Analytics 구현 {#other}
    + [하드코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
    + [DTM을 사용하여 Analytics 구현](other/dtm-implementation-overview.md)
