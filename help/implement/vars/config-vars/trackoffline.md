@@ -3,15 +3,15 @@ title: trackOffline
 description: 오프라인 추적을 활성화하거나 비활성화하여 AppMeasurement가 데이터를 수집하는 방식을 변경합니다.
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # trackOffline
 
-오프라인 추적은 Adobe Analytics에서 데이터를 수집할 때 선택할 수 있는 방법입니다. 방문자가 인터넷 연결이 끊겼지만 사이트를 계속 탐색하는 경우 장치가 인터넷에 다시 연결되기 전까지 히트는 오프라인 큐에 저장됩니다. 오프라인 추적은 대개 모바일 애플리케이션에 사용됩니다.
+오프라인 추적은 Adobe Analytics에서 데이터를 수집할 때 선택할 수 있는 방법입니다. 방문자가 인터넷 연결이 끊겼지만 사이트를 계속 탐색하는 경우 디바이스가 인터넷에 다시 연결되기 전까지 히트는 오프라인 큐에 저장됩니다. 오프라인 추적은 대개 모바일 애플리케이션에 사용됩니다.
 
 `trackOffline` 변수는 구현에서 오프라인 추적을 사용할지 여부를 결정합니다.
 
@@ -22,14 +22,14 @@ ht-degree: 91%
 활성화하면 AppMeasurement가 다음 프로세스를 사용하여 데이터를 Adobe에 전송합니다.
 
 * 이미지 요청을 컴파일할 때 타임스탬프 쿼리 문자열 매개 변수가 포함됩니다.
-* 장치가 Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 장치에 로컬로 저장됩니다.
+* 디바이스가 Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 디바이스에 로컬로 저장됩니다.
 * 이후 각 히트 동안 AppMeasurement는 이미지 요청을 Adobe에 전송하려고 시도합니다.
-   * Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 장치의 큐에 추가됩니다.
-   * Adobe 데이터 수집 서버에 도달할 수 있는 경우에는 장치가 오프라인일 때 히트와 히트 큐가 전송됩니다.
+   * Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 디바이스의 큐에 추가됩니다.
+   * Adobe 데이터 수집 서버에 도달할 수 있는 경우에는 디바이스가 오프라인일 때 히트와 히트 큐가 전송됩니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 오프라인 추적
+## Adobe Experience Platform의 태그를 사용하는 오프라인 추적
 
-데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 사용자 지정 코드 편집기의 s.trackOffline
 
