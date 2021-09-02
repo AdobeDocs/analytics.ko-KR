@@ -3,9 +3,9 @@ title: channel
 description: '''사이트 섹션'' 차원을 채웁니다.'
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 87%
 
 `channel` 변수는 일반적으로 지정된 페이지가 있는 사이트의 섹션을 저장합니다. 이 변수는 사이트에서 가장 인기 있는 그룹을 파악하는 데 유용합니다. 이 변수는 &#39;사이트 섹션&#39; 차원을 채웁니다.
 
-## Adobe Experience Platform에서 태그를 사용한 채널
+## Adobe Experience Platform의 태그를 사용하는 채널
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 채널을 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 채널을 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
