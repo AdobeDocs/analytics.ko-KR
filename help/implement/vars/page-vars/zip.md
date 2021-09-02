@@ -3,9 +3,9 @@ title: zip
 description: 보고서 세트 설정이 허용하는 경우 '우편번호' 차원을 수동으로 채웁니다.
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. 이 변수는 [!UICONTROL geo zip]  (지리적 우편번호) 이 항상 사용되는 경우에는 사용할 수 없습니다. 자세한 내용은 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
+>보고서 세트 설정의 [!UICONTROL Zip 옵션]이 원하는 값으로 설정되어 있는지 확인하십시오. 이 변수는 [!UICONTROL geo zip] (지리적 우편번호) 이 항상 사용되는 경우에는 사용할 수 없습니다. 자세한 내용은 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
 
-## Adobe Experience Platform에서 태그를 사용하여 Zip
+## Adobe Experience Platform의 태그를 사용하는 우편번호
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 우편번호를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 우편번호를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
