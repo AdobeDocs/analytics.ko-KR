@@ -3,9 +3,9 @@ title: writeSecureCookies
 description: AppMeasurement가 Secure 속성을 사용하여 쿠키를 설정할 수 있도록 허용합니다.
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 90%
 
 `writeSecureCookies`는 AppMeasurement JavaScript에서 설정한 쿠키에만 적용됩니다(`s_fid`, `s_cc` 및 `s_sq`). `https` 응답(`s_vi` 및 `s_ecid`)에서 설정한 쿠키는 Adobe 고객 지원 센터에 문의하여 “보호”로 설정할 수 있습니다.
 
-[여기](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html)에서 Analytics 쿠키에 대해 자세히 알아보십시오.
+[여기](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=ko-KR)에서 Analytics 쿠키에 대해 자세히 알아보십시오.
 
 >[!IMPORTANT]
 >
 >`writeSecureCookies` 변수를 활성화하면 사이트의 모든 콘텐츠가 HTTPS에서 안전하게 제공되는지 확인하십시오. 이 변수가 활성화되어 있고 페이지에 안전하지 않은 콘텐츠가 있는 경우 AppMeasurement가 작동하지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용하여 보안 쿠키 작성
+## Adobe Experience Platform의 태그를 사용하는 보안 쿠키 작성
 
 [!UICONTROL 보안 쿠키 작성]은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 확인란입니다.
 
