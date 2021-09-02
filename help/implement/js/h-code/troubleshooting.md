@@ -3,9 +3,9 @@ title: H 코드 구현 문제 해결
 description: 이전 JavaScript 구현과 관련된 몇 가지 일반적인 문제를 알아봅니다.
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->H 코드 구현은 `<body>` 태그에서 코드를 참조해야 하지만, 다른 구현(예: Adobe Experience Platform에서 태그 사용)에서는 `<head>` 태그에서 코드를 참조해야 합니다.
+>H 코드 구현은 `<body>` 태그에서 코드가 참조되어야 하지만 다른 구현(Adobe Experience Platform에서 태그를 사용하는 경우 등)에서는 `<head>` 태그에서 코드가 참조되어야 합니다.
 
 Analytics 코드는 보이지 않는 1x1 픽셀 이미지를 생성합니다. 이전에는 일반적인 구현 방법이 `<head>` 태그에서 `s_code.js` 참조를 배치하는 것이었습니다. 여기에 코드를 삽입하면 이미지가 어떤 식으로든 페이지 레이아웃에 영향을 주지 않았습니다. 또한 코드가 더 일찍 실행되어, 부분적 페이지 로드에 대해 더 효과적으로 페이지 보기를 카운트할 수 있습니다.
 
@@ -27,4 +27,4 @@ Analytics 코드는 형식이 잘 지켜진 HTML 페이지의`<body>` 태그 내
 
 >[!TIP]
 >
->Adobe Analytics를 Adobe Target과 통합하려면, JavaScript 포함 파일을 페이지 하단에 삽입해야 합니다.
+>Adobe Analytics를 Adobe Target과 통합하려면 JavaScript 포함 파일을 페이지 하단에 삽입해야 합니다.
