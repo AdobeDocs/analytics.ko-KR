@@ -3,9 +3,9 @@ title: account
 description: 계정 변수를 사용하여 보낸 데이터를 받을 보고서 세트를 결정합니다.
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,5 +17,5 @@ ht-degree: 80%
 
 이전 버전의 Adobe Analytics에서 `account` 변수는 보낸 데이터를 받을 보고서 세트를 결정했습니다. 데이터를 Adobe Analytics에 전송하려면 보고서 세트 ID가 필요합니다.
 
-* Adobe Experience Platform에서 태그를 사용하는 경우 보고서 세트는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 라이브러리 관리] 아코디언 아래에 있습니다.
+* Adobe Experience Platform의 태그를 사용하는 경우 보고서 세트는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 라이브러리 관리] 아코디언 아래에 있습니다.
 * [`s_gi()`](../functions/s-gi.md) 함수를 사용하여 Analytics 추적 개체를 인스턴스화하는 경우 보고서 세트 ID가 함수에서 필수 인수로서 이미 존재합니다.
