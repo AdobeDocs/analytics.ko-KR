@@ -3,9 +3,9 @@ title: Java 활성화
 description: 브라우저에서 Java가 활성화되어 있는지 여부를 결정합니다.
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
