@@ -3,9 +3,9 @@ title: 레퍼러
 description: 히트에 대해 자동으로 수집된 레퍼러를 무시합니다.
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 91%
 
 `referrer` 변수는 보고서에서 자동으로 수집된 레퍼러를 무시합니다. 이 변수는 리디렉션하거나 방문자를 일시적으로 결제 프로세서에 전달하는 동안 등 레퍼러가 손실될 수 있는 상황에서 유용하며, &#39;레퍼러&#39; 및 &#39;참조 도메인&#39; 차원을 채우는 데에도 도움이 됩니다.
 
-## Adobe Experience Platform에서 태그를 사용하는 레퍼러
+## Adobe Experience Platform의 태그를 사용하는 레퍼러
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 레퍼러를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 레퍼러를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
