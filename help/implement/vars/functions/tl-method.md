@@ -3,9 +3,9 @@ title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 92%
 
 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 또는 [`trackExternalLinks`](../config-vars/trackexternallinks.md)가 활성화되면 AppMeasurement가 다운로드 링크 및 종료 링크 추적 데이터를 보내는 `tl()` 메서드를 자동으로 호출합니다. 조직에서 추적할 링크와 그 동작을 보다 세밀하게 제어하는 것을 선호하는 경우 `tl()` 메서드를 수동으로 호출할 수 있습니다. 사용자 지정 링크는 수동으로만 추적할 수 있습니다.
 
-## Adobe Experience Platform에서 태그를 사용한 링크 추적 호출
+## Adobe Experience Platform의 태그를 사용하는 링크 추적
 
-데이터 수집 UI에는 링크 추적 호출을 설정하는 전용 위치가 있습니다.
+데이터 수집 UI에는 링크 추적 호출을 설정하는 전용 공간이 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 1. [!UICONTROL 작업] 아래에서 &#39;+&#39; 아이콘을 클릭합니다.
 1. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 비콘 보내기로 설정합니다.
-1. `s.tl()` 라디오 단추를 클릭합니다.
+1. `s.tl()` 라디오 버튼을 클릭합니다.
 
-데이터 수집 UI에서는 선택적 인수를 설정할 수 없습니다.
+데이터 수집 UI에서 어떠한 선택 사항 인수도 설정할 수 없습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.tl () 메서드
+## AppMeasurement 및 사용자 지정 코드 편집기의 s.tl() 메서드
 
 추적 호출을 Adobe에 보내려면 `s.tl()` 메서드를 호출하십시오.
 
@@ -55,7 +55,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### 링크 유형  (필수)
+### 링크 유형 (필수)
 
 링크 유형 인수는 링크 추적 호출 유형을 결정하는 단일 문자 문자열로서, 3개의 유효한 값이 있습니다.
 
@@ -132,7 +132,7 @@ function trackClickInteraction(name){
 
 `trackDownloadLinks` 또는 `trackExternalLinks`가 활성화되어 있으면 올바른 필터가 일치하는 경우 AppMeasurement가 자동으로 링크 추적 호출을 생성합니다. 이러한 링크 클릭에 대해 수동으로도 `s.tl()`을 호출하는 경우 중복 데이터를 Adobe에 보낼 수 있습니다. 중복 데이터는 보고서 수치들을 부풀려서 정확성을 떨어뜨립니다.
 
-예를 들어, 다음 함수는 동일한 링크 클릭에 대해 두 개의 링크 추적 호출 (수동 및 자동 다운로드 링크)을 보냅니다.
+예를 들어 다음 함수는 동일한 링크 클릭에 대해 두 개의 링크 추적 호출 (수동 및 자동 다운로드 링크)을 보냅니다.
 
 ```JavaScript
 function trackDownload(obj) {
