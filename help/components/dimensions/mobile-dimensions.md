@@ -3,9 +3,9 @@ title: 모바일 차원
 description: 디바이스의 IP 주소를 기반으로 하는 차원입니다.
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 ## 데이터로 이 차원 채우기
 
 이 차원은 Adobe 내부 조회 규칙을 참조합니다. [!UICONTROL 이동통신사] 조회는 NetAcuity (디지털 요소 제품)에서 얻은 데이터를 사용하여 IP 주소로 결정됩니다.
-AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 모든 모바일 차원이 즉시 작동합니다.
+AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform이 태그 등을 통해) 모든 모바일 차원이 즉시 작동합니다.
 
 ## 모바일 차원 설명
 
@@ -27,7 +27,7 @@ AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform�
 >레이블이 `"None"`이라고 지정된 차원 항목은 모바일이 아닌 디바이스입니다. 모바일 디바이스만 포함하는 보고서가 필요하면 &#39;모바일 디바이스&#39; 차원을 Workspace 캔버스의 세그먼트 영역으로 드래그하십시오.
 
 * **모바일 오디오 지원**: 디바이스가 재생할 수 있는 파일 형식을 결정합니다. 값의 예로는 `"MP3"`, `"AAC"` 및 `"MIDI Monophonic"`이 있습니다. 이 차원의 값은 함께 사용할 수 있습니다. 단일 히트가 여러 차원 항목에 기여할 수 있습니다.
-* **이동통신사**: 이 차원에 대한 값은 Analytics가 캡처한 IP 주소를 기반으로 타사 (디지털 요소) 데이터를 조회하여 채워집니다. 값의 예로는 `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` 및 `"Verizon"`이 있습니다.
+* **이동통신사**: 이 차원에 대한 값은 Analytics가 캡처한 IP 주소를 기반으로 서드파티 (디지털 요소) 데이터를 조회하여 채워집니다. 값의 예로는 `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` 및 `"Verizon"`이 있습니다.
 * **모바일 색상 깊이**: 모바일 디바이스의 비트 단위 색상 깊이입니다.
 * **모바일 쿠키 지원**: 모바일 디바이스가 쿠키를 지원하는지 여부를 결정합니다. 이 보고서는 브라우저가 쿠키를 수락하는지 여부는 기술하지 않습니다. 차원 항목은 `"Supported"`, `"Not supported"` 및 `"Unknown"`을 포함합니다.
 * **모바일 디바이스**: 방문자가 사용하는 모바일 디바이스입니다.
