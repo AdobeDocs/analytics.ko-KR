@@ -3,9 +3,9 @@ title: pageUrl
 description: 사이트에서 자동으로 수집된 페이지 URL을 무시합니다.
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ AppMeasurement는 각 히트에서 페이지 URL을 자동으로 수집합니다
 >
 >이 변수는 Analysis Workspace에서 사용할 수 있는 차원이 아닙니다. 이 변수는 Data Warehouse 및 데이터 피드에서만 사용할 수 있습니다. 또한 Adobe 데이터 수집 서버는 모든 [링크 추적](/help/implement/vars/functions/tl-method.md) 이미지 요청에서 이 차원을 제거합니다. 페이지 URL을 Analysis Workspace에서 차원으로 사용하거나 링크 추적 히트에 이 차원을 사용하려는 경우 모든 히트에서 `pageURL` 변수를 [eVar](evar.md)에 전달하는 것이 좋습니다.
 
-## Adobe Experience Platform에서 태그를 사용한 페이지 URL
+## Adobe Experience Platform의 태그를 사용하는 페이지 URL
 
-데이터 수집 UI는 페이지 URL을 자동으로 채웁니다. 하지만 Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 페이지 URL 무시를 설정할 수 있습니다.
+데이터 수집 UI는 자동으로 페이지 URL을 입력합니다. 하지만 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 페이지 URL 재정의를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
