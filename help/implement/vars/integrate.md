@@ -3,9 +3,9 @@ title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe 파트너와 협력하는 조직은 이러한 단계를 사용하여 모�
 
 ### 모듈 통합 코드 얻기
 
-모듈 코드를 얻으려면 사용자에게 제품 관리자 액세스 권한이 있거나 코드 관리자에 액세스할 수 있는 제품 프로필에 속해 있어야 합니다. 모듈 코드를 얻는 방법은 Adobe Experience Platform의 태그를 포함하여 모든 구현 방법에 대해 동일합니다.
+모듈 코드를 얻으려면 사용자에게 제품 관리자 액세스 권한이 있거나 코드 관리자에 액세스할 수 있는 제품 프로필에 속해 있어야 합니다. 모듈 코드를 얻는 방법은 Adobe Experience Platform의 태그를 비롯한 모든 구현 방법에 대해 동일합니다.
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
