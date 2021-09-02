@@ -4,9 +4,9 @@ title: 보고서 처리 시간
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Analytics 데이터 처리 중 데이터는 데이터 수집 파이프라인을 
 * **앱 실행 시마다 새 방문 시작:** 방문 시간 제한 외에도 비활성 창에 관계없이 Mobile SDK에서 앱 실행 이벤트가 기록될 때마다 방문이 시작되도록 할 수 있습니다. 이 설정은 eVar의 방문 만료 논리뿐 아니라 방문 지표 및 방문 세그먼트 컨테이너에도 영향을 줍니다.
 * **이벤트로 새 방문 시작:** 세션 시간이 초과되었는지 여부에 관계없이 이벤트가 발생하면 새 세션이 시작됩니다. 새로 생성된 세션에는 세션을 시작한 이벤트가 포함됩니다. 또한 여러 이벤트를 사용하여 세션을 시작할 수 있으며, 새 세션은 데이터에서 이러한 이벤트가 관찰되면 시작됩니다. 이 설정은 방문 카운트, 방문 세그먼테이션 컨테이너 및 eVar의 방문 만료 논리에 영향을 줍니다.
 
-보고서 처리 시간이 기존 Analytics 보고에서 사용 가능한 모든 지표 및 차원을 지원하는 것은 아닙니다. 보고서 처리 시간을 활용하는 가상 보고서 세트는 Analysis Workspace에서만 액세스할 수 있으며 [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, 데이터 피드 또는 보고 API에서는 액세스할 수 없습니다.
+보고서 처리 시간이 기존 Analytics 보고에서 사용 가능한 모든 지표 및 차원을 지원하는 것은 아닙니다. 보고 처리 시간을 사용하는 가상 보고서 세트는 Analysis Workspace에서만 액세스 가능하며 [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, 데이터 피드 또는 보고 API에서 액세스할 수 없습니다.
 
 또한 보고서 처리 시간은 보고 날짜 범위 (이하 &quot;날짜 범위&quot;) 내에 발생하는 데이터만 처리합니다. 이것은 보고 날짜 범위 이전의 방문자에 대해 &quot;만료 기간 제한 없음&quot;으로 설정된 eVar 값은 보고 날짜 범위까지 지속되지 않으며 보고서에 나타나지 않음을 의미합니다. 이는 또한 고객 충성도 측정이 보고 날짜 범위 이전의 전체 기록이 아닌, 보고 날짜 범위에 있는 데이터에만 기반함을 의미합니다.
 
