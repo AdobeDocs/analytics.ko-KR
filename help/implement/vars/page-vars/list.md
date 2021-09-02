@@ -3,9 +3,9 @@ title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 지정 변수입니다.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 93%
 
 구현에서 목록 변수를 사용하기 전에 보고서 세트 설정에서 각 목록 변수를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/list-var-admin.md)를 참조하십시오.
 
-## Adobe Experience Platform에서 태그를 사용하여 변수 나열
+## Adobe Experience Platform의 태그를 사용하는 목록 변수
 
-데이터 수집 UI에 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 사용자 지정 코드 편집기의 s.list1 - s.list3
 
@@ -38,7 +38,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->동일한 히트에서 중복 값을 설정하면 Adobe에서는 해당 값의 모든 인스턴스를 중복 제거합니다. 예를 들어, `s.list1 = "Example,Example";`을 설정하면 보고서에서는 하나의 인스턴스가 계산됩니다.
+>동일한 히트에서 중복 값을 설정하면 Adobe에서는 해당 값의 모든 인스턴스를 중복 제거합니다. 예를 들어 `s.list1 = "Example,Example";`을 설정하면 보고서에서는 하나의 인스턴스가 계산됩니다.
 
 ## 목록 prop과 목록 변수 비교
 
