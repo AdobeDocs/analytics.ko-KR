@@ -3,9 +3,9 @@ title: linkTrackVars
 description: 링크 추적 이미지 요청에 포함할 변수를 지정합니다.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 77%
 
 이 변수는 페이지 보기 호출 ([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
 
-## Adobe Experience Platform에서 태그를 사용한 링크 추적 호출의 변수
+## Adobe Experience Platform의 태그를 사용하는 링크 추적 호출 내 변수
 
-Adobe Experience Platform은 인터페이스에 설정된 변수를 기반으로 백엔드에서 이 변수를 자동으로 채우며, 따라서 Adobe Experience Platform에서 태그를 사용하여 구현에서 항상 설정됩니다.
+Adobe Experience Platform은 인터페이스에 설정된 변수에 근거해 백엔드에서 이 변수를 자동으로 입력하므로 Adobe Experience Platform의 태그를 사용하는 구현에서 항상 설정됩니다.
 
 >[!IMPORTANT]
 >
->사용자 지정 코드 편집기를 사용하여 변수를 설정하는 경우 사용자 지정 코드도 사용하여 `linkTrackVars`에 변수를 포함해야 합니다.
+>사용자 지정 코드 편집기를 사용하여 변수를 설정하는 경우, 사용자 지정 코드를 사용하여 `linkTrackVars`에 변수를 포함시켜야 합니다.
 
 ## AppMeasurement 및 사용자 지정 코드 편집기의 s.linkTrackVars
 
 `s.linkTrackVars` 변수는 링크 추적 이미지 요청 (`tl()` 메서드)에 포함할 쉼표로 구분된 변수 목록이 포함된 문자열입니다. 링크 추적 히트에 차원을 포함하려면 다음 두 기준을 모두 충족해야 합니다.
 
-* 원하는 변수 값을 설정합니다.  (예: `s.eVar1 = "Example value";`)
-* `linkTrackVars` 변수에서 원하는 변수를 설정합니다.  (예: `s.linkTrackVars = "eVar1";`)
+* 원하는 변수 값을 설정합니다. (예: `s.eVar1 = "Example value";`)
+* `linkTrackVars` 변수에서 원하는 변수를 설정합니다. (예: `s.linkTrackVars = "eVar1";`)
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
@@ -41,7 +41,7 @@ s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 
 >[!TIP]
 >
->이 변수에서 변수를 지정할 때 Analytics 개체 식별자 (`s.`)를 사용하지 마십시오. 예를 들어, `s.linkTrackVars = "eVar1";`은 올바르지만 `s.linkTrackVars = "s.eVar1";`은 틀립니다.
+>이 변수에서 변수를 지정할 때 Analytics 개체 식별자 (`s.`)를 사용하지 마십시오. 예를 들어 `s.linkTrackVars = "eVar1";`은 올바르지만 `s.linkTrackVars = "s.eVar1";`은 틀립니다.
 
 ## 예
 
