@@ -3,9 +3,9 @@ title: cookieLifetime
 description: AppMeasurement가 만드는 쿠키의 만료를 무시합니다.
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ AppMeasurement에서 설정하는 쿠키는 일반적으로 만료 기한이 2�
 
 >[!NOTE]
 >
->이 변수는 고유 방문자 수 및 기여도 분석에 영향을 줍니다. 따라서 이 변수를 설정할 때에는 주의하십시오.
+>이 변수는 고유 방문자 수 및 기여도 분석에 영향을 줍니다. 이 변수를 설정할 때에는 주의하십시오.
 
-## Adobe Experience Platform에서 태그를 사용한 쿠키 라이프타임
+## Adobe Experience Platform의 태그를 사용하는 쿠키 수명
 
-쿠키 라이프타임은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 드롭다운입니다.
+쿠키 수명은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 드롭다운입니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
 1. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 쿠키 라이프타임] 드롭다운이 표시됩니다.
 
 이 드롭다운에는 다음 값이 포함되어 있습니다.
