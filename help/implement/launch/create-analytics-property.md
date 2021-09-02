@@ -1,26 +1,26 @@
 ---
-title: 태그에서 Analytics 속성 만들기
-description: 태그를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
+title: 태그에 Analytics 속성 만들기
+description: 태그를 사용하여 데이터 수집 방법을 사용자 지정할 공간을 만듭니다.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 태그 속성 만들기
 
-Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포함)에서 Experience Cloud 솔루션을 통합할 수 있습니다. 이 페이지에서는 태그 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
+Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experience Cloud 솔루션(Analytics 포함)을 통합할 수 있습니다. 이 페이지에서는 태그 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
 
 >[!NOTE]
->Adobe Experience Platform Launch은 Experience Platform에서 데이터 수집 기술 세트로 브랜딩되었습니다. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. 용어 변경 내용을 통합 참조하려면 다음 [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)을 참조하십시오.
+>Adobe Experience Platform Launch는 Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. 용어 변경에 대한 통합 참고자료는 다음 [문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ko-KR)를 참조하십시오.
 
-## 사전 요구 사항
+## 전제 조건
 
 [보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기.
 
-## 태그 속성을 만들고 중요한 확장을 설치합니다
+## 태그 속성 만들기 및 중요한 확장 설치
 
 속성은 태그를 관리하는 데 사용하는 중요한 컨테이너입니다. 확장을 사용하면 제품별 태그를 설치하고 구성할 수 있습니다.
 
@@ -83,9 +83,9 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트(Analytics 포�
 
 ## 문서 및 추가 리소스
 
-* [Adobe Analytics 확장 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): 태그의 Adobe Analytics 확장과 관련된 전체 문서입니다.
-* [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en) 시작: 보다 심층적인 시작 안내서를 포함하여 태그에 대한 전체 문서입니다
-* [Adobe Experience Platform Launch 채널](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): 비디오를 통해 태그를 사용하는 방법 알아보기
+* [Adobe Analytics 확장 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR): 태그의 Adobe Analytics 확장에 대한 모든 내용이 들어 있는 문서입니다.
+* [태그 시작하기](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=ko-KR): 더 심층적인 시작 안내서를 포함하여 태그에 대한 모든 내용이 들어 있는 문서입니다.
+* [Adobe Experience Platform Launch 채널](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): 비디오를 통해 태그를 사용하는 방법을 알아봅니다.
 
 ## 다음 단계
 
