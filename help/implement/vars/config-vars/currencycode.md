@@ -3,9 +3,9 @@ title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 상거래를 사용하는 사이트의 경우 매출 및 통화는 Analytics의 중요한 부분입니다. 많은 사이트, 특히 여러 국가를 아우르는 사이트는 다양한 통화를 사용합니다. 매출 기여도 분석이 올바른 통화로 표시되게 하려면 `currencyCode` 변수를 사용하십시오.
 
-`currencyCode`가 정의되지 않으면 [`products`](../page-vars/products.md) 변수로 정의된 통화 값과 통화 이벤트가 보고서 세트의 통화와 동일한 것처럼 처리됩니다. 보고서 세트의 통화를 확인하려면 관리자 가이드에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
+`currencyCode`가 정의되지 않으면 [`products`](../page-vars/products.md) 변수로 정의된 통화 값과 통화 이벤트가 보고서 세트의 통화와 동일한 것처럼 처리됩니다. 보고서 세트의 통화를 확인하려면 관리자 안내서에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
 
 `currencyCode`가 정의되어 있고 보고서 세트의 통화와 일치하는 경우 통화 전환이 적용되지 않습니다.
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 이 변수는 히트 간에 지속되지 않습니다. 이 변수가 매출 또는 통화 이벤트를 포함하는 모든 페이지에서 정의되었는지 확인하십시오.
 
-## Adobe Experience Platform에서 태그를 사용한 통화 코드
+## Adobe Experience Platform의 태그를 사용하는 통화 코드
 
 통화 코드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 일반] 아코디언 아래의 필드입니다.
 
