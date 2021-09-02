@@ -3,9 +3,9 @@ title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 이벤트 ID를 사용할 때 중복 제거는 다음 수준에서 수행됩니다.
 
-* 각 변수는 중복 제거에 자체 테이블을 사용합니다. 예를 들어, `event1:ABC` 및 `event2:ABC`는 둘 다 보고에서 계산됩니다.
+* 각 변수는 중복 제거에 자체 테이블을 사용합니다. 예를 들어 `event1:ABC` 및 `event2:ABC`는 둘 다 보고에서 계산됩니다.
 * 중복 제거는 모든 방문자에 대해 전체적으로 수행됩니다. 방문자 A가 `event1:ABC`를 전송한 후 방문자 B도 `event1:ABC`를 전송하는 경우 Adobe에서는 방문자 B의 두 번째 인스턴스를 무시합니다.
 * 중복 제거는 만료되지 않습니다. 방문자가 `event1:ABC`를 전송하고 2년 후 다시 와서 `event1:ABC`를 전송하는 경우 Adobe에서는 두 번째 인스턴스를 무시합니다.
 
@@ -31,9 +31,9 @@ ht-degree: 93%
 >
 >[`purchase`](event-purchase.md) 이벤트를 중복 제거하려면 [`purchaseID`](../purchaseid.md) 변수를 대신 사용하십시오.
 
-## Adobe Experience Platform에서 태그를 사용한 이벤트 ID 사용
+## Adobe Experience Platform의 태그를 사용하는 이벤트 ID 사용
 
-Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙의 작업으로 이벤트 ID 필드를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함된 작업으로서 이벤트 ID 필드를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
