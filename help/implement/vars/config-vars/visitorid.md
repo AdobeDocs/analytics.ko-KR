@@ -3,9 +3,9 @@ title: visitorID
 description: 사용자 지정 방문자 ID를 사용합니다.
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ Adobe에서는 여러 메서드를 사용하여 사이트의 방문자를 식별
 >
 >이 변수는 사용하지 않는 것이 좋습니다. 대신 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하십시오.
 
-## Adobe Experience Platform에서 태그를 사용하는 방문자 ID
+## Adobe Experience Platform의 태그를 사용하는 방문자 ID
 
 [!UICONTROL 방문자 ID]는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 필드입니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 단추를 클릭합니다.
+3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
 4. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 방문자 ID] 필드가 표시됩니다.
 
 이 필드를 사용자 지정 방문자 ID가 포함된 데이터 요소에 할당하십시오. 이 필드를 정적 값으로 설정하지는 마십시오.
