@@ -3,9 +3,9 @@ title: 데이터 레이어 개체를 데이터 요소에 매핑
 description: 데이터 레이어에서 읽을 태그를 구성합니다.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 조직이 사이트에서 데이터 레이어를 설정하고 구현하면 태그 내의 데이터 요소에 데이터 레이어 개체를 매핑할 수 있습니다.
 
 >[!NOTE]
->Adobe Experience Platform Launch은 Experience Platform에서 데이터 수집 기술 세트로 브랜딩되었습니다. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. 용어 변경 내용을 통합 참조하려면 다음 [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)을 참조하십시오.
+>Adobe Experience Platform Launch는 Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. 용어 변경에 대한 통합 참고자료는 다음 [문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ko-KR)를 참조하십시오.
 
 ## 사전 요구 사항
 
@@ -22,7 +22,7 @@ ht-degree: 57%
 
 ## 태그를 사용하여 데이터 요소 만들기
 
-[데이터 ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 요소는 데이터 수집 UI에서 도구에서 사용할 수 있는 구성 요소입니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
+[데이터 요소](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ko-KR)는 데이터 수집 UI의 구성 요소로서 도구 전반에서 사용할 수 있습니다. 데이터 요소를 사용하여 Adobe Analytics 확장 프로그램에서 변수 값을 할당할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
