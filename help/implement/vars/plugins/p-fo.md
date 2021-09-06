@@ -59,7 +59,7 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 `p_fo` 함수는 다음 인수를 사용합니다.
 
-* **on**  (필수, 문자열): 개체가 페이지에 아직 없을 경우 플러그인이 생성하는 JavaScript 개체의 이름입니다.
+* **on** (필수, 문자열): 개체가 페이지에 아직 없을 경우 플러그인이 생성하는 JavaScript 개체의 이름입니다.
 
 개체가 아직 없으면 이 함수는 `true`을 반환하고 개체를 만듭니다. 개체가 이미 있으면 이 함수는 `false`을 반환합니다.
 
@@ -67,9 +67,9 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ### 예 #1
 
-다음 코드는 페이지 내에 &quot;myobject&quot; 개체가 있는지 확인합니다. myobject 개체가 없으면 코드는 &quot;myobject&quot; 개체를 만들고 true 값을 반환합니다. 따라서 조건문 (즉, Console.log (&#39;hello&#39;);) 내의 코드가 실행됩니다.
+다음 코드는 페이지 내에 &quot;myobject&quot; 개체가 있는지 확인합니다.  myobject 개체가 없으면 코드는 &quot;myobject&quot; 개체를 만들고 true 값을 반환합니다.  따라서 조건문 (즉, Console.log (&#39;hello&#39;);) 내의 코드가 실행됩니다.
 
-반면에 p_fo 호출이 발생할 때 &quot;myobject&quot; 개체가 이미 있으면 p_fo 함수는 false 값을 반환하며, 따라서 조건문은 false로 간주됩니다. 이 경우 조건문 내의 코드는 실행되지 않습니다.
+반면에 p_fo 호출이 발생할 때 &quot;myobject&quot; 개체가 이미 있으면 p_fo 함수는 false 값을 반환하며, 따라서 조건문은 false로 간주됩니다.  이 경우 조건문 내의 코드는 실행되지 않습니다.
 
 ```js
 if(p_fo("myobject"))

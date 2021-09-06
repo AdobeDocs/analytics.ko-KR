@@ -59,10 +59,10 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 `pt` 함수는 다음 인수를 사용합니다.
 
-* **`l`**  (필수, 문자열): 인수에 `cf` 포함된 함수가 실행할 수 있는 변수의 목록입니다.
-* **`de`**  (선택 사항, 문자열): `l` 인수의 변수 목록을 구분하는 구분 기호입니다. 기본값은 쉼표 (`,`)입니다.
-* **`cf`**  (필수, 문자열): `l` 인수에 포함된 각 변수에 대해 호출할 AppMeasurement 개체에 포함된 콜백 함수의 이름입니다.
-* **`fa`**  (선택 사항, 문자열): `cf` 인수의 함수가 실행될 때 이 함수가 추가적인 인수를 호출하는 경우 해당 인수를 여기에 포함하십시오. 기본값은 `undefined`입니다.
+* **`l`** (필수, 문자열): 인수에 `cf` 포함된 함수가 실행할 수 있는 변수의 목록입니다.
+* **`de`** (선택 사항, 문자열): `l` 인수의 변수 목록을 구분하는 구분 기호입니다. 기본값은 쉼표(`,`)입니다.
+* **`cf`** (필수, 문자열): `l` 인수에 포함된 각 변수에 대해 호출할 AppMeasurement 개체에 포함된 콜백 함수의 이름입니다.
+* **`fa`** (선택 사항, 문자열): `cf` 인수의 함수가 실행될 때 이 함수가 추가적인 인수를 호출하는 경우 해당 인수를 여기에 포함하십시오. 기본값은 `undefined`입니다.
 
 이 함수를 호출하면 `cf` 인수에서 콜백 함수가 값을 반환하는 경우 값이 반환됩니다.
 
@@ -70,7 +70,7 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ### 예 #1
 
-다음 코드는 getQueryParam 플러그인의 일부입니다. 이 코드는 URL의 쿼리 문자열 (fullQueryString)에 들어 있는 각 키-값 쌍에 대해 getParameterValue 도우미 함수를 실행합니다. 각 키-값 쌍을 추출하려면 fullQueryString을 앰퍼샌드 &quot;&amp;&quot; 문자로 구분하여 분리해야 합니다. parameterKey는 플러그인이 쿼리 문자열에서 특별히 추출하려고 하는 쿼리 문자열 매개 변수를 참조합니다.
+다음 코드는 getQueryParam 플러그인의 일부입니다.  이 코드는 URL의 쿼리 문자열(fullQueryString)에 들어 있는 각 키-값 쌍에 대해 getParameterValue 도우미 함수를 실행합니다.  각 키-값 쌍을 추출하려면 fullQueryString을 앰퍼샌드 &quot;&amp;&quot; 문자로 구분하여 분리해야 합니다. parameterKey는 플러그인이 쿼리 문자열에서 특별히 추출하려고 하는 쿼리 문자열 매개 변수를 참조합니다.
 
 ```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)

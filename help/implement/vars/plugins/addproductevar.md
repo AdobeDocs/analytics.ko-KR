@@ -63,9 +63,9 @@ function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"
 
 `addProductEvar` 플러그인에서는 다음 인수를 사용합니다.
 
-* **`en`**  (필수, 문자열): 현재 products 변수에 포함된 마지막 항목에 추가할 eVar입니다. products 변수가 비어 있으면 플러그인이 항목의 끝에 eVar 값이 첨부된 &quot;빈&quot; 제품 항목을 만듭니다.
-* **`ev`**  (필수, 문자열): eVar에 지정된 값입니다.
-* **`ap`**  (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 true (또는 1)이면 **모든** 제품 항목에 eVar가 추가됩니다. 기본값은 false (또는 0)로 설정되며, 그럴 경우 products 변수에 포함된 **마지막** 항목에만 eVar가 추가됩니다.
+* **`en`** (필수, 문자열): 현재 products 변수에 포함된 마지막 항목에 추가할 eVar입니다. products 변수가 비어 있으면 플러그인이 항목의 끝에 eVar 값이 첨부된 &quot;빈&quot; 제품 항목을 만듭니다.
+* **`ev`** (필수, 문자열): eVar에 지정된 값입니다.
+* **`ap`** (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 true (또는 1)이면 **모든** 제품 항목에 eVar가 추가됩니다.  기본값은 false (또는 0)로 설정되며, 그럴 경우 products 변수에 포함된 **마지막** 항목에만 eVar가 추가됩니다.
 
 `addProductEvar` 플러그인은 아무 것도 반환하지 않습니다. 대신 `en` 및 `ev` 인수에 지정된 eVar (및 eVar 값)가 `products` 변수에 추가됩니다.
 

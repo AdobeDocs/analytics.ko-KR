@@ -64,7 +64,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 getPageLoadTime 플러그인은 다음과 같이 두 개의 자사 쿠키를 만듭니다.
 
-* `s_plt`: 이전 페이지가 로드되는 데 걸린 시간 (초)입니다. 브라우저 세션이 끝날 때 만료됩니다.
+* `s_plt`: 이전 페이지가 로드되는 데 걸린 시간(초)입니다. 브라우저 세션이 끝날 때 만료됩니다.
 * `s_pltp`: 이전 Adobe Analytics 이미지 요청에 기록된 `s.pageName` 변수의 값입니다. 브라우저 세션이 끝날 때 만료됩니다.
 
 ## 예

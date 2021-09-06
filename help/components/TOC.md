@@ -7,12 +7,12 @@ user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 
 source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
-# [!DNL Analytics] Components 안내서 {#components}
+# [!DNL Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
 + 차원 {#dimensions}
@@ -33,9 +33,9 @@ ht-degree: 97%
    + [국가](dimensions/countries.md)
    + [사용자 지정 링크](dimensions/custom-link.md)
    + [고객 충성도](dimensions/customer-loyalty.md)
-   + [날짜 (월 기준)](dimensions/day-of-month.md)
+   + [날짜(월 기준)](dimensions/day-of-month.md)
    + [요일](dimensions/day-of-week.md)
-   + [일 (한 해 기준)](dimensions/day-of-year.md)
+   + [일(한 해 기준)](dimensions/day-of-year.md)
    + [일](dimensions/day.md)
    + [첫 구매까지 소요된 일 수](dimensions/days-before-first-purchase.md)
    + [마지막 구매 이후 일 수](dimensions/days-since-last-purchase.md)
@@ -51,7 +51,7 @@ ht-degree: 97%
    + [첫 번째 터치 채널 세부 사항](dimensions/first-touch-detail.md)
    + [히트 깊이](dimensions/hit-depth.md)
    + [히트 유형](dimensions/hit-type.md)
-   + [시간 (일 기준)](dimensions/hour-of-day.md)
+   + [시간(일 기준)](dimensions/hour-of-day.md)
    + [시간](dimensions/hour.md)
    + [확인된 상태](dimensions/identified-state.md)
    + [Java 활성화](dimensions/java-enabled.md)
@@ -59,11 +59,11 @@ ht-degree: 97%
    + [마지막 터치 채널](dimensions/last-touch-channel.md)
    + [마지막 터치 채널 세부 사항](dimensions/last-touch-detail.md)
    + [마케팅 채널](dimensions/marketing-channel.md)
-   + [마케팅 채널 세부 정보](dimensions/marketing-detail.md)
+   + [마케팅 채널 세부 사항](dimensions/marketing-detail.md)
    + [분](dimensions/minute.md)
    + [모바일 차원](dimensions/mobile-dimensions.md)
    + [모니터 해상도](dimensions/monitor-resolution.md)
-   + [월 (연 기준)](dimensions/month-of-year.md)
+   + [월(연 기준)](dimensions/month-of-year.md)
    + [월](dimensions/month.md)
    + [운영 체제 유형](dimensions/operating-system-types.md)
    + [운영 체제](dimensions/operating-systems.md)
@@ -100,11 +100,11 @@ ht-degree: 97%
    + [평일/주말](dimensions/weekday-weekend.md)
    + [년](dimensions/year.md)
    + [우편 번호](dimensions/zip-code.md)
-+ 메트릭 {#metrics}
++ 지표 {#metrics}
    + [지표 개요](metrics/overview.md)
    + [반복 인스턴스 계산](metrics/count-repeat-instances.md)
    + [평균 페이지 깊이](metrics/average-page-depth.md)
-   + [방문당 평균 페이지 보기 수](metrics/average-page-views-per-visit.md)
+   + [방문당 평균 페이지 조회수](metrics/average-page-views-per-visit.md)
    + [평균 세션 길이](metrics/average-session-length.md)
    + [사이트의 평균 시간](metrics/average-time-on-site.md)
    + [바운스 비율](metrics/bounce-rate.md)
@@ -125,37 +125,37 @@ ht-degree: 97%
    + [방문당 주문 수](metrics/orders-per-visit.md)
    + [주문](metrics/orders.md)
    + [페이지 이벤트](metrics/page-events.md)
-   + [페이지 보기 수](metrics/page-views.md)
+   + [페이지 조회수](metrics/page-views.md)
    + [페이지를 찾을 수 없음](metrics/pages-not-found.md)
    + [사람](metrics/people.md)
    + [제품 보기](metrics/product-views.md)
    + [다시 로드](metrics/reloads.md)
-   + [수입](metrics/revenue.md)
+   + [매출](metrics/revenue.md)
    + [검색 결과](metrics/searches.md)
    + [단일 액세스](metrics/single-access.md)
    + [단일 페이지 방문 횟수](metrics/single-page-visits.md)
    + [방문당 체류 시간](metrics/time-spent-per-visit.md)
    + [방문자당 체류 시간](metrics/time-spent-per-visitor.md)
    + [체류 시간 개요](metrics/time-spent.md)
-   + [총 체류 시간 (초)](metrics/total-seconds-spent.md)
+   + [총 체류 시간(초)](metrics/total-seconds-spent.md)
    + [고유 디바이스](metrics/unique-devices.md)
    + [고유 방문자 수](metrics/unique-visitors.md)
    + [판매량](metrics/units.md)
    + [Experience Cloud ID를 가진 방문자](metrics/visitors-with-ecid.md)
    + [방문 횟수](metrics/visits.md)
 + 세분화 {#segmentation}
-   + [Analytics 세그먼테이션](segmentation/seg-home.md)
+   + [Analytics 세분화](segmentation/seg-home.md)
    + [세그먼트 및 컨테이너 정보](segmentation/seg-overview.md)
-   + [Analysis Workspace의 세그먼테이션 기능](segmentation/segmentation-in-analysis-workspace.md)
-   + 세그먼테이션 워크플로 {#segmentation-workflow}
-      + [세그먼테이션 워크플로 개요](segmentation/segmentation-workflow/seg-workflow.md)
+   + [Analysis Workspace의 세분화 기능](segmentation/segmentation-in-analysis-workspace.md)
+   + 세분화 작업 과정 {#segmentation-workflow}
+      + [세분화 작업 과정 개요](segmentation/segmentation-workflow/seg-workflow.md)
       + [계획 세그먼트](segmentation/segmentation-workflow/seg-plan.md)
       + [세그먼트 작성](segmentation/segmentation-workflow/seg-build.md)
       + [순차적 세그먼트 작성](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [세그먼트 태깅](segmentation/segmentation-workflow/seg-tag.md)
+      + [세그먼트에 태그 지정](segmentation/segmentation-workflow/seg-tag.md)
       + [세그먼트 승인](segmentation/segmentation-workflow/seg-approve.md)
       + [세그먼트 공유](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Experience Cloud에 세그먼트 게시](segmentation/segmentation-workflow/seg-publish.md)
+      + [Experience Cloud에 세그먼트 퍼블리싱](segmentation/segmentation-workflow/seg-publish.md)
       + [세그먼트 선택 및 적용](segmentation/segmentation-workflow/t-seg-apply.md)
       + [세그먼트 필터링](segmentation/segmentation-workflow/t-seg-filter.md)
       + [세그먼트를 즐겨찾기로 표시](segmentation/segmentation-workflow/t-seg-favorite.md)
@@ -163,26 +163,26 @@ ht-degree: 97%
       + [세그먼트 관리](segmentation/segmentation-workflow/seg-manage.md)
    + 세그먼트 참조 {#segment-reference}
       + [세그먼트의 비교 연산자](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse 세그먼트 기능](segmentation/seg-reference/seg-compatibility.md)
+      + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
-   + [자주 묻는 질문](segmentation/seg-transition.md)
+   + [FAQ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
-   + [계산 및 고급 계산 (파생) 지표](c-calcmetrics/cm-overview.md)
+   + [계산 및 고급 계산된(파생된) 지표](c-calcmetrics/cm-overview.md)
    + [방법 비디오](c-calcmetrics/cm-videos.md)
-   + 계산된 지표 워크플로 {#calcmetric-workflow}
-      + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+   + 계산된 지표 작업 과정 {#calcmetric-workflow}
+      + [계산된 지표 작업 과정](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [지표 유형 및 기여도 분석](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [간단한 &quot;방문자 수당 페이지 보기 수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [세그먼트화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
+      + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [간단한 &quot;방문자 수당 페이지 조회수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [세분화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [필터 및 가중치가 적용된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [지원 지표 주문](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [함수 사용](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [기여도 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [참여도 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [계산된 지표에 태그 지정](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [계산된 지표 승인](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [계산된 지표 공유](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
@@ -196,24 +196,24 @@ ht-degree: 97%
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
    + [가상 보고서 세트 - 구성 요소 큐레이션](vrs/vrs-components.md)
-   + [Mobile Services의 VRS 지원](vrs/vrs-mobile-services.md)
+   + [모바일 서비스의 VRS 지원](vrs/vrs-mobile-services.md)
    + [컨텍스트 인식 세션](vrs/vrs-mobile-visit-processing.md)
    + [보고서 처리 시간](vrs/vrs-report-time-processing.md)
    + [A4T 고려 사항](vrs/vrs-a4t.md)
    + [VRS FAQ](vrs/vrs-faq.md)
-   + [VRS 및 글로벌/다중 세트 태깅 고려 사항](vrs/vrs-considerations.md)
-   + VRS 워크플로 {#vrs-workflow}
-      + [가상 보고서 세트 워크플로](vrs/c-workflow-vrs/vrs-workflow.md)
+   + [VRS 및 글로벌/다중 세트 태그 지정 고려 사항](vrs/vrs-considerations.md)
+   + VRS 작업 과정 {#vrs-workflow}
+      + [가상 보고서 세트 작업 과정](vrs/c-workflow-vrs/vrs-workflow.md)
       + [가상 보고서 세트 만들기](vrs/c-workflow-vrs/vrs-create.md)
       + [가상 보고서 세트 관리](vrs/c-workflow-vrs/vrs-manage.md)
       + [가상 보고서 세트 정보 보기](vrs/c-workflow-vrs/vrs-view.md)
 + 크로스 디바이스 분석 {#cda}
    + [크로스 디바이스 분석 개요](cda/overview.md)
    + [필드 기반 결합](cda/field-based-stitching.md)
-   + [Device Graph](cda/device-graph.md)
+   + [디바이스 그래프](cda/device-graph.md)
    + [크로스 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
-   + [CDA 작업 공간 템플릿](cda/workspace-template.md)
+   + [CDA Workspace 템플릿](cda/workspace-template.md)
    + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
@@ -238,7 +238,7 @@ ht-degree: 97%
       + [처리 시간](classifications/importer/processing-time.md)
       + [문제 해결](classifications/importer/troubleshooting.md)
    + 분류 규칙 빌더 {#classifications-rulebuilder}
-      + [분류 규칙 빌더 워크플로](classifications/crb/classification-rule-builder.md)
+      + [분류 규칙 빌더 작업 과정](classifications/crb/classification-rule-builder.md)
       + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
       + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
       + [분류 규칙 - 정의](classifications/crb/classification-rule-definitions.md)

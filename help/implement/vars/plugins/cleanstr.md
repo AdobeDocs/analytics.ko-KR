@@ -59,7 +59,7 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 `cleanStr` 함수는 다음 인수를 사용합니다.
 
-* **`str`**  (필수, 문자열): HTML 인코딩, 추가 공백, 탭 또는 기타 불필요한 문자를 정리할 값입니다.
+* **`str`** (필수, 문자열): HTML 인코딩, 추가 공백, 탭 또는 기타 불필요한 문자를 정리할 값입니다.
 
 이 함수는 모든 불필요한 문자가 제거된 `str` 인수의 값을 반환합니다.
 

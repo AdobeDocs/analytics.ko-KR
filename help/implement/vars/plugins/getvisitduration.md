@@ -62,7 +62,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
-* `"[x] minutes"`  (여기서 `[x]`는 방문자가 사이트에 도착한 이후 경과된 분 수입니다.)
+* `"[x] minutes"` (여기서 `[x]`는 방문자가 사이트에 도착한 이후 경과된 분 수입니다.)
 
 이 플러그인은 `"s_dur"`이라는 자사 쿠키를 만듭니다. 이 값은 방문자가 사이트에 도착한 이후 경과된 밀리초 수입니다. 쿠키는 30분 동안 활동이 없으면 만료됩니다.
 

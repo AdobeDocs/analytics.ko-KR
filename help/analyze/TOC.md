@@ -89,7 +89,7 @@ ht-degree: 99%
          + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [세그먼트 비교 사용 사례](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [세그먼트 비교에 사용되는 통계 테스트](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 프로젝트 조정, 공유 및 예약 {#curate-share}
+   + 프로젝트 구성, 공유 및 예약 {#curate-share}
       + [공유 메뉴](analysis-workspace/curate-share/send-schedule-files.md)
       + [프로젝트 구성](analysis-workspace/curate-share/curate.md)
       + [프로젝트 공유](analysis-workspace/curate-share/share-projects.md)
@@ -171,7 +171,7 @@ ht-degree: 99%
             + [사용자 지정된 표현식을 사용한 날짜 범위의 예](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
             + [고려 사항](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [셀의 날짜](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
-         + [세부기간](report-builder/data-requests/configuring-report-dates/granularity.md)
+         + [세부 기간](report-builder/data-requests/configuring-report-dates/granularity.md)
          + [사용자 지정 달력](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [양방향 컨트롤](report-builder/data-requests/interactive-controls.md)
    + 레이아웃 - 요청 마법사 2단계 {#layout}

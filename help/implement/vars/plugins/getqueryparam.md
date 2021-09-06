@@ -57,9 +57,9 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 `getQueryParam` 함수는 다음 인수를 사용합니다.
 
-* **`qsp`**  (필수): URL 내에서 찾을 쿼리 문자열 매개 변수의 쉼표로 구분된 목록입니다. 대/소문자를 구분하지 않습니다.
-* **`de`**  (선택 사항): 여러 쿼리 문자열 매개 변수가 일치하는 경우 사용할 구분 기호입니다. 기본값은 빈 문자열입니다.
-* **`url`**  (선택 사항): 쿼리 문자열 매개 변수 값을 추출할 사용자 지정 URL, 문자열 또는 변수입니다. 기본값은 `window.location`입니다.
+* **`qsp`** (필수): URL 내에서 찾을 쿼리 문자열 매개 변수의 쉼표로 구분된 목록입니다. 대/소문자를 구분하지 않습니다.
+* **`de`** (선택 사항): 여러 쿼리 문자열 매개 변수가 일치하는 경우 사용할 구분 기호입니다. 기본값은 빈 문자열입니다.
+* **`url`** (선택 사항): 쿼리 문자열 매개 변수 값을 추출할 사용자 지정 URL, 문자열 또는 변수입니다. 기본값은 `window.location`입니다.
 
 이 함수를 호출하면 위의 인수 및 URL에 따라 값이 반환됩니다.
 
@@ -139,7 +139,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 2.5 (2016년 1월 8일)
 
-* H-코드 및 AppMeasurement 모두와 호환합니다 (AppMeasurement에는 `s.pt` 필요).
+* H-코드 및 AppMeasurement 모두와 호환합니다(AppMeasurement에는 `s.pt` 필요).
 
 ### 2.4
 

@@ -59,8 +59,8 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 `manageVars` 함수는 다음 인수를 사용합니다.
 
-* **`cb`**  (필수, 문자열): 플러그인이 Analytics 변수를 조작하는 데 사용하는 콜백 함수의 이름입니다. `cleanStr`과 같은 Adobe 기능이나 사용자 지정 기능을 사용할 수 있습니다.
-* **`l`**  (선택 사항, 문자열): 조작하려는 Analytics 변수의 쉼표로 구분된 목록입니다. 설정하지 않으면 기본값은 다음을 포함한 모든 Adobe Analytics 변수로 설정됩니다.
+* **`cb`** (필수, 문자열): 플러그인이 Analytics 변수를 조작하는 데 사용하는 콜백 함수의 이름입니다. `cleanStr`과 같은 Adobe 기능이나 사용자 지정 기능을 사용할 수 있습니다.
+* **`l`** (선택 사항, 문자열): 조작하려는 Analytics 변수의 쉼표로 구분된 목록입니다. 설정하지 않으면 기본값은 다음을 포함한 모든 Adobe Analytics 변수로 설정됩니다.
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -77,7 +77,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
    * 모든 계층 변수
    * 모든 목록 변수
    * 모든 컨텍스트 데이터 변수
-* **`Il`**  (선택 사항, 부울): `l` 인수에 선언된 변수 목록을 포함하지 않고 *제외*&#x200B;하려면 `false`로 설정하십시오. 기본값은 `true`입니다.
+* **`Il`** (선택 사항, 부울): `l` 인수에 선언된 변수 목록을 포함하지 않고 *제외*&#x200B;하려면 `false`로 설정하십시오. 기본값은 `true`입니다.
 
 이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 원하는 콜백 함수를 기반으로 Analytics 변수의 값을 변경합니다.
 
@@ -91,7 +91,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 manageVars("lowerCaseVars");
 ```
 
-...은 (는) 위에서 설명한 모든 변수의 값을 소문자로 변경합니다.  일부 이벤트 (예: scAdd, scCheckout 등)는 대/소문자를 구분하며 소문자를 사용하지 않아야 하므로 위 코드에 대한 유일한 예외는 events 변수입니다.
+...은 위에서 설명한 모든 변수의 값을 소문자로 변경합니다.  일부 이벤트 (예: scAdd, scCheckout 등)는 대/소문자를 구분하며 소문자를 사용하지 않아야 하므로 위 코드에 대한 유일한 예외는 events 변수입니다.
 
 ### 예 #2
 
@@ -101,7 +101,7 @@ manageVars("lowerCaseVars");
 manageVars("lowerCaseVars", "events", false);
 ```
 
-...은 (는) 기본적으로 events 변수가 소문자화되지 않으므로 첫 번째 예와 동일한 결과를 생성합니다.
+...은 기본적으로 events 변수가 소문자화되지 않으므로 첫 번째 예와 동일한 결과를 생성합니다.
 
 ### 예 #3
 
@@ -111,7 +111,7 @@ manageVars("lowerCaseVars", "events", false);
 manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
-...은 (는) eVar1, eVar2, eVar3 및 list2의 값만 변경합니다 (예: 소문자).
+...은 eVar1, eVar2, eVar3 및 list2의 값만 변경합니다(예: 소문자).
 
 ### 예 #4
 
@@ -121,7 +121,7 @@ manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...은 (는) eVar1, eVar2, eVar3 및 list2를 제외하고 위에 설명된 모든 변수의 값을 변경합니다 (예: 소문자).
+...은 eVar1, eVar2, eVar3 및 list2를 제외하고 위에 설명된 모든 변수의 값을 변경합니다(예: 소문자).
 
 ### 예 #5
 
@@ -131,11 +131,11 @@ manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 manageVars("cleanStr");
 ```
 
-...은 (는) events 변수를 포함하여 위에 설명된 모든 변수의 값을 변경합니다. 특히 cleanStr 콜백 함수는 각 변수의 값에 대해 다음을 수행합니다.
+...은 events 변수를 포함하여 위에 설명된 모든 변수의 값을 변경합니다.  특히 cleanStr 콜백 함수는 각 변수의 값에 대해 다음을 수행합니다.
 
 * HTML 인코딩 제거
 * 값의 시작과 끝에 있는 공백 제거
-* 왼쪽/오른쪽 작은 따옴표 (예: ’)를 곧은 작은따옴표 (&#39;)로 바꾸기
+* 왼쪽/오른쪽 작은 따옴표(예: ’)를 곧은 작은따옴표(&#39;)로 바꾸기
 * 탭 문자, 줄바꿈 문자 및 캐리지 리턴 문자를 공백으로 바꾸기
 * 모든 이중 (또는 삼중 등) 공백을 단일 공백으로 바꾸기
 
