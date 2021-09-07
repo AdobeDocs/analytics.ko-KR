@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
+source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 98%
+source-wordcount: '2201'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,12 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 [코드 관리자](/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 수 있습니다.
+
+## 버전 2.22.2
+
+릴리스 날짜: **2021년 9월 7일**
+
+* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`이 항상 포함됩니다. 다음은 [동의 변수 전체 목록입니다](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
 
 ## 버전 2.22.1
 
