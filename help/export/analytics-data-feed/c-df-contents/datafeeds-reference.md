@@ -6,10 +6,10 @@ title: 데이터 열 참조
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
+source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
-source-wordcount: '3419'
-ht-degree: 99%
+source-wordcount: '3420'
+ht-degree: 98%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 99%
 | `page_event_var2` | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. | varchar (100) |
 | `page_event_var3` | 더 이상 사용되지 않습니다. 포함된 설문 조사 및 미디어 모듈 데이터입니다. 이전 버전의 Adobe Analytics에서 이전 비디오 보고서를 채웠습니다. | 텍스트 |
 | `page_type` | 404 페이지에만 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원을 채우는 데 사용됩니다. 이 변수는 비어 있거나 `ErrorPage` 값을 포함해야 합니다. | char (20) |
-| `page_url` | 히트의 URL입니다. 변형 이후(post_page_url) 값은 링크 추적 이미지 요청에서 제거됩니다. | varchar (255) |
+| `page_url` | 히트의 URL입니다. `post_page_url`은 링크 추적 이미지 요청에 대해 제거되고 varchar(255)의 데이터 유형을 사용합니다. | 텍스트 |
 | `pagename` | [페이지](/help/components/dimensions/page.md) 차원을 채우는 데 사용됩니다. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
 | `paid_search` | 히트가 유료 검색 발견과 일치하는 경우 설정되는 플래그입니다. | tinyint 부호 없음 |
 | `partner_plugins` | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (255) |
