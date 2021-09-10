@@ -3,10 +3,10 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1158'
-ht-degree: 100%
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대한 권장 사용 사례를 제공합니다. 도구는 나열된 순서대로 고려해야 합니다. 특정 도구가 필요를 충족하지 못하면 다음 도구로 이동하여 고려하십시오.
 
 Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)에서 확인하십시오.
+
+다음은 다양한 Adobe Analytics 도구를 비교하는 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
 
 ## Adobe Analytics 보고 사용자 인터페이스 {#user-interfaces}
 
