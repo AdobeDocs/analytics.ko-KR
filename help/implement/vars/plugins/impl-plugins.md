@@ -3,7 +3,7 @@ title: 플러그인 개요
 description: 사이트에 코드를 붙여넣어 새로운 기능을 도입할 수 있습니다.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
