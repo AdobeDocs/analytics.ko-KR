@@ -2,13 +2,13 @@
 description: Workspace 프로젝트에서 맵 시각화를 사용합니다.
 title: 맵
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,9 @@ Analysis Workspace의 맵 시각화
 | 스타일: 맵 스타일 | 기본, 도로, 더 밝게, 밝게, 어둡게, 위성 중에서 선택할 수 있습니다. |
 | 클러스터 반경 | 지정된 픽셀 수 내에 있는 데이터 포인트를 그룹화합니다. 기본값은 50입니다. |
 | 사용자 지정 최대 값 | 맵의 최대 값에 대한 임계값을 변경할 수 있도록 해 줍니다. 이 값을 조정하면 설정된 사용자 지정 최대 값에 비례하여 버블/히트맵 값 (색상 및 크기)의 크기가 조정됩니다. |
+
+## 시간 분할 Heatmap 구축
+
+다음은 이 항목의 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)

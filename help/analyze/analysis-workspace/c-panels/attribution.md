@@ -1,12 +1,12 @@
 ---
 title: 속성 패널
 description: Analysis Workspace에서 속성 패널을 사용하고 해석하는 방법
-feature: 속성
+feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '442'
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 100%
 # 속성 패널
 
 [!UICONTROL 속성] 패널은 다양한 속성 모델을 비교하는 분석을 쉽게 구축할 수 있는 방법입니다. 속성 모델을 사용하고 비교할 수 있는 전용 작업 공간을 제공하는 [속성 IQ](../attribution/overview.md)의 기능입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## 속성 패널 만들기
 

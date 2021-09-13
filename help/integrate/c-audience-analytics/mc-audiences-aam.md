@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics 개요
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -16,6 +16,8 @@ ht-degree: 100%
 AAM(Adobe Audience Manager)은 퍼스트 파티, 세컨드 파티/파트너 및 서드파티 데이터 통합에서 고유한 대상 프로필을 구축할 수 있도록 지원하는 강력한 데이터 관리 플랫폼입니다. 광고주의 경우 이러한 대상 프로필은 디지털 채널에서 사용할 가장 중요한 세그먼트를 정의할 수 있도록 지원합니다.
 
 Audience Analytics이 적절히 통합되면 인구 통계학 정보 (예: 성별 또는 수입 수준), 사이코그래프 정보 (예: 관심사 및 취미), CRM 데이터 및 광고 노출 데이터 등의 AAM 대상 데이터를 Analytics 워크플로에 통합할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
 ## 주요 이점 {#section_94816D17283349E0BA28521BE55BB868}
 
