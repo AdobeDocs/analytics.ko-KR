@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 98%
 
 ---
 
@@ -100,3 +100,9 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 어떤 시각화를 선택할지 확실하지 않은 경우 테이블 행에서 **[!UICONTROL 시각화 만들기]** 아이콘을 클릭합니다(마우스 오버 시 사용 가능). 시각화를 추가하는 가장 빠른 방법입니다. 이 아이콘을 클릭하면 기존 학습을 토대로 사용자 데이터에 가장 적합한 시각화가 추측됩니다. 예를 들어 1개의 행을 선택한 경우 추세선 그래프가 생성됩니다. 3개의 세그먼트 행을 선택한 경우 벤 다이어그램이 생성됩니다.
 
 ![](assets/quick-viz.png)
+
+## 시각화에서 배율 축 변경
+
+다음은 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)

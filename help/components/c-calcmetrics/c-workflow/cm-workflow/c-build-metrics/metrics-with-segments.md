@@ -3,11 +3,10 @@ description: '개별 지표에 대한 세그먼트화는 동일한 보고서 내
 title: 세그먼트화된 지표
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +41,10 @@ ht-degree: 100%
 1. Analysis Workspace에서 **[!UICONTROL Page]** 차원을 자유 형식 테이블로 드래그하고 서로 옆에 있는 계산된 두 개의 지표를 위쪽으로 끕니다.
 
    ![](assets/workspace-pages.png)
+
+다음은 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 ## 총 지표의 백분율 {#percent-total}
 
