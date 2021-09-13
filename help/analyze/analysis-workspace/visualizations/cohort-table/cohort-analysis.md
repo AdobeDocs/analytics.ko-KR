@@ -4,10 +4,10 @@ description: 코호트 분석을 통해 잠재고객에 대한 데이터를 더 
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 98%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,10 @@ ht-degree: 98%
 [!UICONTROL 이탈 ]집단은 유지 테이블의 역버전이며 시간 경과에 따라 집단에 대한 반환 기준을 충족하지 않은 방문자를 표시합니다. 최대 3개의 지표와 10개의 세그먼트를 포함할 수 있습니다.
 
 ![](assets/churn-report.png)
+
+다음은 이탈 분석에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
 ### [!UICONTROL 순환 계산]
 

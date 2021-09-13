@@ -2,13 +2,13 @@
 description: 다음은 가상 보고서 세트 만들기를 시작하기 전에 주의해야 할 몇 가지 사항입니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 100%
 [!UICONTROL Visit Definition] 탭에서 이러한 설정을 정의한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
 ![](assets/visit-definition.png)
+
+다음은 가상 보고서 세트에서 방문 정의를 조정하는 방법에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | 요소 | 설명 |
 | --- |--- |

@@ -3,13 +3,13 @@ description: 터치 포인트에서 세그먼트를 만들고, 세그먼트를 �
 keywords: 폴아웃 및 세그먼테이션;폴아웃 분석의 세그먼트;폴아웃의 세그먼트 비교
 title: 폴아웃 분석에서 세그먼트 적용
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 100%
 ## 폴아웃에서 세그먼트 비교 {#section_E0B761A69B1545908B52E05379277B56}
 
 폴아웃 시각화에서는 세그먼트를 무제한으로 비교할 수 있습니다.
+
+다음은 폴아웃의 세그먼트 비교에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. 왼쪽의 [!UICONTROL 세그먼트] 레일에서 비교할 세그먼트를 선택합니다. 이 예에서는 미국 사용자와 비미국 사용자, 이렇게 2개의 세그먼트를 선택했습니다.
 1. 이 세그먼트들을 맨 위의 세그먼트 놓기 영역에 드래그합니다.

@@ -2,14 +2,18 @@
 description: Advertising Analytics 워크플로의 개요입니다.
 title: 워크플로 개요
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 68%
+source-wordcount: '137'
+ht-degree: 64%
 
 ---
 
 # 워크플로 개요
+
+다음은 Advertising Analytics 구성에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
 
 1. [보고서 세트당 Advertising Analytics 보고 활성화](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Experience Cloud 지원 보고서 세트에[!UICONTROL Advertising Analytics] 보고를 사용합니다.
 2. [Advertising Analytics 계정 설정](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Analytics 관리 도구에서 설정합니다.

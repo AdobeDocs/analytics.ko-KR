@@ -4,10 +4,10 @@ title: 일반 계정 설정
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: d509de3ff49d996f821803f0a93c3184db4af1d3
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 81%
+source-wordcount: '811'
+ht-degree: 80%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 81%
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 일반 계정 설정]**
 
 이러한 설정에는 이름 및 시간대와 같은 기본 보고서 세트 기능의 편집 옵션도 포함되어 있습니다.
+
+다음은 일반 계정 설정 구성에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
 
 | 옵션 | 설명 |
 |--- |--- |

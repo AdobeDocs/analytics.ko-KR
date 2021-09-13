@@ -3,16 +3,20 @@ description: 가상 보고서 세트는 Analysis Workspace에 구성 요소를 �
 title: 가상 보고서 세트 구성 요소 큐레이션
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 98%
 
 ---
 
 # 가상 보고서 세트 구성 요소 큐레이션
 
 가상 보고서 세트는 Analysis Workspace에 구성 요소를 포함하거나 제외하도록 큐레이션할 수 있습니다.
+
+다음은 구성 요소 큐레이션에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
 
 >[!NOTE]
 >
