@@ -2,7 +2,7 @@
 title: 크로스 디바이스 분석 설정
 description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 91%
@@ -52,6 +52,6 @@ CDA는 Adobe 엔지니어링 팀을 통해 크로스 디바이스 보고서 세�
 
 * 가상 보고서 세트 이름 옆에 새 디바이스 간 아이콘이 나타납니다. 이 아이콘은 디바이스 간 가상 보고서 세트에만 사용할 수 있습니다.
 * [확인된 상태](../dimensions/identified-state.md)라는 새 차원을 사용할 수 있습니다.
-* 레이블이 [People](../metrics/people.md), [고유 장치](../metrics/unique-devices.md), 식별된 사람, 식별되지 않은 사람 및 Experience Cloud ID가 있는 사람을 사용할 수 있습니다.
+* 레이블이 [People](../metrics/people.md), [고유 장치](../metrics/unique-devices.md), [식별된 사람](../metrics/identified-people.md), [식별되지 않은 사람](../metrics/unidentified-people.md) 및 [Experience Cloud ID가 있는 사람](../metrics/people-with-exp-cloud-id.md)을 사용할 수 있습니다.
 * [고유 방문자 수](../metrics/unique-visitors.md) 지표는 &#39;사람&#39; 및 &#39;고유 디바이스&#39;로 대체되므로 사용할 수 없습니다.
 * 세그먼트를 작성할 때 &#39;방문자&#39; 세그먼트 컨테이너는 &#39;사람&#39; 컨테이너로 대체됩니다.

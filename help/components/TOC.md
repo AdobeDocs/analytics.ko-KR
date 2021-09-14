@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 98%
    + [사용자 지정 이벤트](metrics/custom-events.md)
    + [항목](metrics/entries.md)
    + [종료](metrics/exits.md)
+   + [식별된 사람](metrics/identified-people.md)
    + [인스턴스](metrics/instances.md)
    + [모바일 보기 개수](metrics/mobile-views.md)
    + [새 참여 횟수](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
    + [페이지 이벤트](metrics/page-events.md)
    + [페이지 조회수](metrics/page-views.md)
    + [페이지를 찾을 수 없음](metrics/pages-not-found.md)
+   + [사람 Experience Cloud ID 사용](metrics/people-with-exp-cloud-id.md)
    + [사람](metrics/people.md)
    + [제품 보기](metrics/product-views.md)
    + [다시 로드](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 98%
    + [방문자당 체류 시간](metrics/time-spent-per-visitor.md)
    + [체류 시간 개요](metrics/time-spent.md)
    + [총 체류 시간(초)](metrics/total-seconds-spent.md)
+   + [식별되지 않은 사용자](metrics/unidentified-people.md)
    + [고유 디바이스](metrics/unique-devices.md)
    + [고유 방문자 수](metrics/unique-visitors.md)
    + [판매량](metrics/units.md)
