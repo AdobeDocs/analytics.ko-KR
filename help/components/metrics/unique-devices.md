@@ -2,18 +2,35 @@
 title: 고유 디바이스
 description: 고유 장치의 수입니다.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '78'
-ht-degree: 100%
+source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 6%
 
 ---
 
 # 고유 디바이스
 
-“고유 장치” 지표는 연결 후 장치의 수를 계산하는 [디바이스 간 분석](../cda/overview.md) 지표입니다.
+고유 장치 지표는 고유한 식별되지 않은 장치 및 고유 가상 장치의 수를 계산하는 [교차 장치 분석](../cda/overview.md) 지표입니다. 식별되지 않은 장치는 익명 히트를 생성하는 장치입니다. 고유한 가상 장치는 장치별로 식별되는 개별 사용자입니다.
 
 ## 이 지표의 계산 방법
 
-모든 [사용자](people.md)에 대해 1인당 장치 수를 계산합니다. 이 지표는 일반적으로 CDA가 아닌 보고서 세트의 [고유 방문자](unique-visitors.md)와 거의 일치합니다. 공유 장치가 여러 사람에게 매핑될 때 차이가 발생할 수 있습니다. 이 시나리오에서는 한 명의 고유 방문자를 계산하지만 여러 개의 고유 장치가 계산됩니다.
+각 장치에 대해 연결되어 있는 모든 개별 사용자를 합합니다(장치에 연결되지 않은 히트가 포함된 경우 익명 포함).
+
+이 지표는 CDA가 아닌 보고서 세트의 [고유 방문자 수](unique-visitors.md)와 같지 않습니다. 예를 들어, 장치는 3개의 다른 계정에 의해 공유됩니다. 3개의 계정이 모두 보고 창에서 사이트를 방문하는 경우 결과 보고서에는 CDA에 3개의 고유 장치가 표시됩니다. CDA 외부의 동일한 데이터에는 1명의 고유 방문자가 표시됩니다.
+
+## 예
+
+1. Bob이 광고를 통해 전화로 사용자 사이트에 도착하지만 로그인되지 않았습니다.
+1. Bob이 구입하려고 하지만 이미 로그인되어 있어서 가족 컴퓨터에서 구입하기를 선호합니다. 가정용 컴퓨터에서 그는 물건을 구입한다.
+1. 다음 날, 그는 그의 전화로 그의 주문을 확인하고 그곳에서 인증을 받습니다.
+1. Bob의 부인 Alice가 가족 컴퓨터에서 Bob의 계정에 로그인하는 동안 사이트를 탐색합니다.
+1. Bob의 동생 Charles도 가족 컴퓨터에서 자신의 계정에 로그인하는 동안 여러분의 사이트를 탐색합니다.
+
+![고유 장치 수](/help/components/metrics/assets/Unique_Devices_Count.png)
+
+[재생](/help/components/cda/replay.md) 전에 CDA 가상 보고서 세트에서 이 데이터를 보면 다음이 표시됩니다.
+
+* **5개의 고유 장치**: 인증되지 않은 Bob의 경우 1 + Bob의 경우 2 + Alice의 경우 1 + Charles의 경우 1
+* **4 [명](people.md)**: 식별되지  [않은 사람](unidentified-people.md)  이상 3명  [식별된 사람](identified-people.md).
+

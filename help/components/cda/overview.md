@@ -2,10 +2,10 @@
 title: 크로스 디바이스 분석
 description: 디바이스 데이터를 함께 결합함으로써 데이터를 디바이스 중심에서 사람 중심으로 변경합니다.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 95%
+source-wordcount: '808'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,8 @@ ht-degree: 95%
 
 크로스 디바이스 분석은 Analytics를 디바이스 중심 보기에서 사람 중심 보기로 변환하는 기능입니다. 그 결과 분석가는 브라우저, 디바이스 또는 앱을 넘나드는 사용자 행동을 이해할 수 있습니다. Adobe에서는 디바이스 데이터를 함께 연결하는 두 가지 매우 중요한 워크플로를 지원합니다.
 
-* [**필드 기반 결합**](field-based-stitching.md): 가상 보고서 세트에서 크로스 디바이스 결합의 기반으로 Analytics 변수를 선택할 수 있습니다. 결정론적 일치를 사용하여 디바이스를 함께 연결합니다. 가장 결정론적 일치 사용 사례가 필요하면 필드 기반 결합을 사용하는 것이 좋습니다.
+* [**필드 기반 결합**](field-based-stitching.md): 결정론적 일치만 사용하여 장치를 함께 연결하므로 권장 결합 선택 사항입니다.
+가상 보고서 세트에서 교차 장치 결합의 기반으로 Analytics 변수를 선택할 수 있습니다.
 * [**Device Graph**](device-graph.md): CDA는 Device Graph와의 의사 소통을 통해 디바이스를 함께 결합합니다. 공동 작업 그래프는 결정론적 일치와 확률론적 일치를 모두 사용합니다.
 
 >[!NOTE]
@@ -56,3 +57,5 @@ CDA를 사용하려면 다음 조건을 모두 충족해야 합니다. [필드 �
 * CDA는 현재 Adobe Analytics [데이터 복구 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) 와 호환되지 않습니다.
 * 가상 보고서 세트의 내역 데이터는 Adobe 인식 및 결합 디바이스를 기반으로 변경됩니다. 소스 보고서 세트의 데이터는 변경되지 않습니다.
 * 결합된 데이터는 지연 시간이 8~12시간을 따릅니다.
+* 주어진 장치에 대한 매핑 기록 데이터는 최대 1년 동안 저장됩니다.
+* 장치가 1년 내에 매우 많은 수의 매핑 기록 항목에 도달하면 매핑 기록이 잘립니다. 정확한 제한은 사용된 결합 옵션에 따라 다릅니다.
