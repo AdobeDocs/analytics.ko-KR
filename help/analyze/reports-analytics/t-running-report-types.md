@@ -2,12 +2,12 @@
 description: 다른 보고서 유형을 실행하는 단계.
 title: 다른 보고서 유형 실행
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ Analysis Workspace에서 [흐름 시각화](https://experienceleague.adobe.com/d
 
 실시간 보고에서는 개요 보고서와 세부 사항 보고서, 이렇게 두 개의 기본 보고서를 제공합니다. 이 보고서들은 각각 많은 reportlet으로 구성됩니다.
 
-실시간 보고서 구성에 대한 자세한 내용은 [Analytics 참조 안내서](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration)를 참조하십시오.
+자세한 내용은 [실시간 보고 개요](/help/components/c-real-time-reporting/realtime.md)를 참조하십시오.
 
 1. **[!UICONTROL 개요]** 보고서 및 그 구성 요소를 살펴 봅니다.  ![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Analysis Workspace에서 [흐름 시각화](https://experienceleague.adobe.com/d
    </tr> 
    </table>
 
-1. 기본 Reportlet에 있는 목록 항목을 클릭하여 목록 항목의 **[!UICONTROL 세부 사항]** 보기를 실행합니다.  ![](assets/rtr_detail_report.png)
+2. 기본 Reportlet에 있는 목록 항목을 클릭하여 목록 항목의 **[!UICONTROL 세부 사항]** 보기를 실행합니다.  ![](assets/rtr_detail_report.png)
 
    | **항목 트렌드 Reportlet** | 지난 N분 동안 개요 보고서에서 선택한 항목의 꺾은 선형을 보여 줍니다. N은 시간 범위 선택기를 통해 구성할 수 있습니다. |
    |---|---|
