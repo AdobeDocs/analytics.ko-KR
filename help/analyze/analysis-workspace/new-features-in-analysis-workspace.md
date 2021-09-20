@@ -2,12 +2,12 @@
 description: Analysis Workspace의 새로운 기능입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace의 새로운 기능
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '8288'
+source-wordcount: '8286'
 ht-degree: 99%
 
 ---
@@ -359,7 +359,7 @@ ht-degree: 99%
    <td colname="col2"> <p>인터페이스의 오른쪽 하단에 짧은 비디오와 함께 표시되는 오늘의 팁을 제공합니다. 이러한 팁은 Analysis Workspace의 다양하고 훌륭한 기능을 숙지하기 위한 것입니다. <span class="uicontrol">도움말</span> &gt; <span class="uicontrol">팁</span>을 통해 언제든지 이러한 팁을 무시하거나 액세스할지 선택할 수 있습니다. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 세그먼트 템플릿 </a> 및 <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 계산된 지표 템플릿 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 세그먼트 템플릿 </a> 및 <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 계산된 지표 템플릿 </a></b> </p> </td> 
    <td colname="col2"> <p>이제 왼쪽 레일은 세그먼트 템플릿 및 계산된 지표 템플릿을 표시합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ ht-degree: 99%
    <td colname="col2"> <p>데이터 소스의 차원이 시간 차원인 경우 시간 세부기간 사이를 쉽게 전환할 수 있습니다. 시각화 설정의 드롭다운에서 세부기간을 전환할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 세그먼트 드롭 영역의 전체 크기 및 이벤트 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 세그먼트 드롭 영역의 전체 크기 및 이벤트 </a> </p> </td> 
    <td colname="col2"> <p>이전에는 차원 항목, 날짜 범위 또는 세그먼트만 세그먼트 드롭 영역으로 끌어 놓을 수 있었습니다. 이제 전체 차원 또는 이벤트를 세그먼트 드롭 영역으로 끌어 놓을 수 있습니다. 두 경우 모두 Analysis Workspace에서 "존재하는" 히트 세그먼트를 만듭니다. </p> <p>예: "eVar1이 있는 위치 히트" 또는 "event1이 있는 위치 히트". </p> <p>참고: 계산된 지표를 세그먼트 영역으로 끌어 놓을 수 없습니다. 세그먼트를 작성할 수 있는 차원/지표만 세그먼트 영역에 적합합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ ht-degree: 99%
    <td colname="col2"> <p>CSV 형식으로 폴아웃 시각화에 대한 지원이 추가되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >날짜 범위 (세그먼트에서)</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  >날짜 범위 (세그먼트에서)</a> </p> </td> 
    <td colname="col2"> <p>세그먼트의 놓을 지점 (예: 패널 세그먼트의 놓을 지점, 폴아웃 시각화 세그먼트의 놓을 지점 등)에 날짜 범위를 끌어다 놓을 수 있습니다. 날짜 범위는 자동으로 세그먼트로 변환됩니다. 날짜 범위를 사용자 정의하거나 사용자 정의하지 않을 수 있지만, 시간/일/주/월/분기/년과 같은 세부 기간을 지정할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -1029,7 +1029,7 @@ ht-degree: 99%
    <td colname="col2"> 
     <ul id="ul_2585F74DC7754C819017F280E16BF06F"> 
      <li id="li_412446013E7F42DBB1BF50F9E2C4D92F"> 
-      <!--AN-124610: -->프로젝트 수준 설정으로서 "반복 인스턴스 계산"을 추가했습니다(<span class="uicontrol">프로젝트</span> &gt; <span class="uicontrol">프로젝트 정보 및 설정 </span>). 이 설정은 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. </li> 
+      <!--AN-124610: -->프로젝트 수준 설정으로서 "반복 인스턴스 계산"을 추가했습니다(<span class="uicontrol">프로젝트</span> &gt; <span class="uicontrol">프로젝트 정보 및 설정 </span>). 이 설정은 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다. 동일한 변수에 대해 순차적인 여러 개의 값을 가지고 있으면 변수에 대해 하나 또는 여러 개의 인스턴스로 계산할 수 있습니다. </li> 
      <li id="li_480E1B307C62418CBC2F50ADE32B9EE9">달력에서 "취소" 및 "실행" 옆에 "모든 패널에 적용"이라는 새 버튼을 추가했습니다. "실행"을 "적용"으로 변경했습니다. 새 버튼을 클릭하면 현재 패널에 대한 선택된 날짜 범위를 변경할 뿐만 아니라 프로젝트 내의 모든 다른 패널에 대한 선택된 날짜 범위도 변경하게 됩니다. </li> 
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->다음과 같은 작업을 하는 기능인 태그, 즐겨찾기, 승인, <b>공유 (새로운 기능!)"작업" 버튼을 왼쪽 내비게이션 레일에 추가했습니다.</b>, <b>삭제 (새로운 기능!)</b>과 같은 작업을 포함하는 왼쪽 탐색 레일에 "작업" 버튼을 추가했습니다. </li> 
@@ -1058,7 +1058,7 @@ ht-degree: 99%
 * 이제 등급 테이블의 [트렌드 선택](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (선 차트)가 연결됩니다.
 * [&quot;시각화 만들기&quot; 아이콘](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 이 아이콘을 클릭하면 다음 작업 시 지능적인 추측이 제공됩니다(막대 차트, 벤...).
 * 확장된 [수동 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) 기능
-* [세그먼트 추가](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) 드롭 영역
+* [세그먼트 추가](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) 드롭 영역
 * 부분적인 업데이트:
 
    * 패널에 있는 모든 시각화와 프로젝트에 있는 모든 패널을 삭제하는 기능 (이전에는 하나 이상의 시각화 또는 1개의 패널을 유지해야 했습니다.)

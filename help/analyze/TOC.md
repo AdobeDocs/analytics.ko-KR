@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '989'
 ht-degree: 99%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 99%
          + [차원 분류](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [차원 시간 분할](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [지표](analysis-workspace/components/apply-create-metrics.md)
-      + [세그먼트](analysis-workspace/components/t-freeform-project-segment.md)
+      + 세그먼트 {#segments}
+         + [세그먼트 만들기](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [빠른 세그먼트](analysis-workspace/components/segments/quick-segments.md)
       + 달력 및 날짜 범위 {#calendar-date-ranges}
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 지정 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
@@ -123,7 +125,7 @@ ht-degree: 99%
          + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
    + Workspace FAQ {#workspace-faq}
-      + [FAQ](analysis-workspace/workspace-faq/faq.md)
+      + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 성능 최적화](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [오류 메시지](analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace 제한 사항](analysis-workspace/workspace-faq/aw-limitations.md)

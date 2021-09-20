@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace 프로젝트 만들기
 feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -118,7 +118,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 세그먼트(파란색) </td> 
-   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 세그먼트 </a> 를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>패널 수준에서만 드래그할 수 있지만, 데이터 테이블에서 인라인 세그먼트를 만들 수 있습니다. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>자세한 내용은 <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 세그먼트 </a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 날짜 범위 및 세부 기간 (자주색) </td> 
@@ -194,7 +194,7 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 선택 항목에서 세그먼트 만들기</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 선택 항목에서 세그먼트 만들기</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
