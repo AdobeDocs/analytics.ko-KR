@@ -3,10 +3,10 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -42,8 +42,22 @@ ht-degree: 0%
    ![](assets/quick-seg2.png)
 
 1. **[!UICONTROL 적용]** 을 클릭하여 이 세그먼트를 패널에 적용합니다.
-세그먼트가 맨 위에 나타납니다. 왼쪽의 구성 요소 수준 세그먼트에 대한 파란색 막대와 대조적으로 회색 막대가 표시됩니다.
+세그먼트가 맨 위에 나타납니다. 왼쪽의 구성 요소 수준 세그먼트에 대한 파란색 막대와 대조적으로 회색 사이드바를 확인합니다.
 
    ![](assets/quick-seg3.png)
 
-1. 빠른 세그먼트에서
+## 빠른 세그먼트 공개하기
+
+다음 단계를 수행하여 이러한 세그먼트를 공개(전역)로 지정하도록 선택할 수 있습니다.
+
+1. 빠른 세그먼트 위로 마우스를 가져간 후 &quot;i&quot; 아이콘을 클릭합니다.
+1. **[!UICONTROL 빌더 열기]**를 클릭합니다.
+이렇게 하면 세그먼트 빌더에서 세그먼트가 열립니다.
+   >[!NOTE]
+   >세그먼트 빌더에서 세그먼트를 적용하거나 저장하면 빠른 세그먼트 빌더에서 더 이상 편집할 수 없습니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. 세그먼트 빌더에서 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+1. Workspace로 돌아가서 세그먼트가 구성 요소 라이브러리의 일부임을 알리는 파란색 사이드바를 이제 가지고 있는 방식을 확인합니다.
+
+   ![](assets/quick-seg4.png)
+

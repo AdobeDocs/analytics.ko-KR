@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+source-git-commit: 366e595d38124a767e2c0d0e4ce4bd8cf9683707
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '991'
 ht-degree: 99%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 99%
       + 세그먼트 {#segments}
          + [세그먼트 만들기](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [빠른 세그먼트](analysis-workspace/components/segments/quick-segments.md)
+         + [임시 세그먼트](analysis-workspace/components/segments/ad-hoc-segments.md)
       + 달력 및 날짜 범위 {#calendar-date-ranges}
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 지정 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
