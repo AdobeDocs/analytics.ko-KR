@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 75%
+source-wordcount: '496'
+ht-degree: 76%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 75%
 
 세그먼트가 얼마나 복잡해야 하는지, 이 프로젝트에만 적용되어야 하는지에 따라 다른 유형의 세그먼트를 만들 수 있습니다. 다음은 세그먼트 유형의 요약입니다.
 
-| 세그먼트 유형 | 어디에서 만들었습니까? | 적용 가능한 위치? | 여러 컨테이너? | UI 색상 |
-| --- | --- | --- | --- |
-| 구성 요소 목록 세그먼트 | [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md) | 모든 프로젝트에 왼쪽 레일에서 | 예 | 파란색 |
-| 빠른 세그먼트 | [빠른 세그먼트 빌더](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 프로젝트 수준만 | 아니요 | 회색? |
-| 애드혹 세그먼트: | 아래를 참조하십시오 | 프로젝트 수준만 | 아니요 | ? |
-| - Ad hoc Workspace 프로젝트 세그먼트 | 세그먼트로 끌어다 놓기 ? 새 프로젝트에서 |  |  |  |
-| - 계산된 지표 기반 세그먼트 | 계산된 지표 빌더 |  |  |  |
-| - VRS 기반 세그먼트 | 가상 보고서 세트 빌더 |  |  |  |
-| - 세그먼트 빌더 &quot;적용&quot; &quot; | 세그먼트 빌더 |  |  |  |
+| 세그먼트 유형 | 어디에서 만들었습니까? | 적용 가능한 위치? | 여러 컨테이너? |
+| --- | --- | --- | 
+| 구성 요소 목록 세그먼트 | [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md) | 모든 프로젝트(왼쪽 레일) | 예 | 파란색 |
+| 빠른 세그먼트 | [빠른 세그먼트 빌더](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 프로젝트 수준만 | 아니요 |
+| 애드혹 세그먼트: | 아래를 참조하십시오 | 프로젝트 수준만 | 아니요 |
+| - Ad hoc Workspace 프로젝트 세그먼트 | 세그먼트로 끌어다 놓기 ? 새 프로젝트에서 |  |  |
+| - 계산된 지표 기반 세그먼트 | 계산된 지표 빌더 |  |  |
+| - VRS 기반 세그먼트 | 가상 보고서 세트 빌더 |  |  |
+| - 세그먼트 빌더 &quot;적용&quot; &quot; | 세그먼트 빌더 |  |  |
 
 Adobe Analytics의 세그멘테이션에 대해 자세히 알아보려면 [여기](/help/components/segmentation/seg-overview.md)로 이동하십시오.
 

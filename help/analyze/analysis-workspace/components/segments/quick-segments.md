@@ -3,9 +3,9 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,11 @@ ht-degree: 0%
 
    다음은 차원과 지표를 결합하는 세그먼트의 예입니다.
 
+   ![](assets/quick-seg2.png)
+
+1. **[!UICONTROL 적용]** 을 클릭하여 이 세그먼트를 패널에 적용합니다.
+세그먼트가 맨 위에 나타납니다. 왼쪽의 구성 요소 수준 세그먼트에 대한 파란색 막대와 대조적으로 회색 막대가 표시됩니다.
+
+   ![](assets/quick-seg3.png)
+
+1. 빠른 세그먼트에서
