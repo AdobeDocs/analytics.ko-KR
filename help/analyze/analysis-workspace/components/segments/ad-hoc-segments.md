@@ -3,10 +3,10 @@ description: Analysis Workspace에서 임시 세그먼트를 사용합니다.
 title: 임시 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 45%
 
    패널에서는 이 세그먼트가 자동으로 적용되며 결과를 즉시 볼 수 있습니다.
 
-1. 종료
+1. 패널에 최대 3개의 임시 세그먼트를 추가합니다.
+1. 이 세그먼트를 저장하기로 결정한 경우 &quot;임시 세그먼트 공개하기&quot; 섹션을 참조하십시오.
 
 다음 사항에 주의하십시오.
 
@@ -46,3 +47,4 @@ ht-degree: 45%
 1. 표시되는 정보 패널에서 **[!UICONTROL 공개하기를 클릭합니다]**.
 
    ![](assets/segment-info.png)
+
