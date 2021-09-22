@@ -3,9 +3,9 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 빠른 세그먼트
 
-프로젝트 내에서 빠른 세그먼트를 만들어 전체 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)의 복잡성을 방지할 수 있습니다. 빠른 세그먼트가 수행할 수 있는 작업과 완전한 구성 요소 수준 세그먼트를 비교하려면 [여기](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)로 이동하십시오.
+프로젝트 내에서 빠른 세그먼트를 만들어 전체 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)의 복잡성을 방지할 수 있습니다. 빠른 세그먼트가 수행할 수 있는 작업과 완전한 구성 요소 목록 세그먼트를 비교하려면 [여기](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)로 이동하십시오.
 
 >[!IMPORTANT]
 > 빠른 세그먼트는 현재 제한된 테스트 중이며 아직 일반적으로 사용할 수 없습니다.
@@ -56,7 +56,7 @@ ht-degree: 0%
 다음 절차에 따라 빠른 세그먼트를 저장하도록 선택할 수 있습니다.
 
 >[!IMPORTANT]
->세그먼트를 저장하면 일반 세그먼트 빌더에서만 빠른 세그먼트 빌더에서 더 이상 편집할 수 없습니다.
+>세그먼트를 저장하거나 적용하면 일반 세그먼트 빌더에서만 빠른 세그먼트 빌더에서 더 이상 편집할 수 없습니다.
 
 1. 빠른 세그먼트 위로 마우스를 가져간 후 정보(&quot;i&quot;) 아이콘을 선택합니다.
 1. **[!UICONTROL 세그먼트 저장]** 을 선택합니다.
@@ -65,13 +65,11 @@ ht-degree: 0%
 
 1. 이름을 그대로 두거나 세그먼트 이름을 변경합니다.
 
-1. Workspace로 돌아가서 세그먼트가 구성 요소 라이브러리의 일부임을 알리는 파란색 사이드바를 이제 가지고 있는 방식을 확인합니다.
+   Workspace 로 돌아가서 세그먼트에 이제 파란색 사이드바가 있는지 확인합니다. 이는 빠른 세그먼트 빌더에서 더 이상 편집하거나 열 수 없음을 나타냅니다. 이렇게 저장하면 구성 요소 목록의 일부가 됩니다.
 
    ![](assets/quick-seg4.png)
 
-## 모든 프로젝트에서 세그먼트를 사용할 수 있도록 설정
-
-세그먼트를 저장한 후 세그먼트 구성 요소 목록에 추가하고 모든 프로젝트에서 사용할 수 있도록 선택할 수 있습니다.
+세그먼트를 적용한 후 세그먼트 구성 요소 목록에 추가하고 모든 프로젝트에서 사용할 수 있도록 선택할 수 있습니다.
 
 1. 저장된 세그먼트 위로 마우스를 가져간 다음 연필 아이콘을 선택합니다.
 
@@ -81,13 +79,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL 이 세그먼트를 모든 프로젝트에서 사용할 수 있도록 설정 옆의 확인란을 선택하고 구성 요소 목록에 추가합니다.]**
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. 이제 세그먼트가 모든 프로젝트의 세그먼트 구성 요소 목록에 나타납니다.
-1. [세그먼트를 공유](/help/components/segmentation/segmentation-workflow/t-seg-share.md)할 수도 있습니다.
+1. 이제 세그먼트가 모든 프로젝트의 세그먼트 구성 요소 목록에 표시됩니다.
+1. 또한 [세그먼트를](/help/components/segmentation/segmentation-workflow/t-seg-share.md)조직의 다른 사람과 공유할 수도 있습니다.
 
-## 빠른 세그먼트를 임시 세그먼트로 전환
+## 프로젝트 전용 세그먼트란?
 
-1. 저장된 세그먼트 위로 마우스를 가져간 다음 연필 아이콘을 선택합니다.
-
-1. 세그먼트 빌더 맨 위에서 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
-
-임시 세그먼트에 대한 자세한 내용을 보려면 [여기](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)로 이동하십시오
+프로젝트 전용 세그먼트는 빠른 세그먼트나 임시 Workspace 프로젝트 세그먼트입니다. 세그먼트 빌더에서 이러한 필드를 편집/열면 프로젝트 전용 상자가 표시됩니다. 이들이 빌더에서 빠른 세그먼트를 적용하지만 사용 가능한 만들기 상자를 선택하지 않으면 여전히 프로젝트 전용 세그먼트이지만 더 이상 QS 빌더에서 열 수 없습니다. 확인란을 선택하고 저장을 선택하면 이제 구성 요소 목록 세그먼트가 됩니다.
