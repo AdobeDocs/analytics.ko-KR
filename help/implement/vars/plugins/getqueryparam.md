@@ -3,9 +3,9 @@ title: getQueryParam
 description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## 플러그인 사용
 
-`getQueryParam` 함수는 다음 인수를 사용합니다.
+`getQueryParam` 함수에서는 다음 인수를 사용합니다.
 
 * **`qsp`** (필수): URL 내에서 찾을 쿼리 문자열 매개 변수의 쉼표로 구분된 목록입니다. 대/소문자를 구분하지 않습니다.
 * **`de`** (선택 사항): 여러 쿼리 문자열 매개 변수가 일치하는 경우 사용할 구분 기호입니다. 기본값은 빈 문자열입니다.
@@ -65,7 +65,7 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 * 일치하는 쿼리 문자열 매개 변수를 찾을 수 없으면 이 함수는 빈 문자열을 반환합니다.
 * 일치하는 쿼리 문자열 매개 변수를 찾으면 이 함수는 쿼리 문자열 매개 변수 값을 반환합니다.
-* 일치하는 쿼리 문자열 매개 변수를 찾았지만 값이 비어 있으면 이 함수는 `true`을 반환합니다.
+* 일치하는 쿼리 문자열 매개 변수를 찾았지만 값이 비어 있으면 이 함수는 `true`를 반환합니다.
 * 일치하는 쿼리 문자열 매개 변수를 여러 개 찾으면 이 함수는 `de` 인수의 문자열로 각 매개 변수 값이 구분된 문자열을 반환합니다.
 
 ## 예
