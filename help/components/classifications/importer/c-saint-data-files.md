@@ -2,12 +2,12 @@
 description: 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
 subtopic: Classifications
 title: 분류 데이터 파일
-feature: 관리 도구
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1783'
+ht-degree: 100%
 
 ---
 
@@ -180,9 +180,9 @@ ht-degree: 99%
 날짜 범위를 기반으로 한 캠페인 분류
 
 >[!IMPORTANT]
->이 옵션은 새 분류 아키텍처에 대해 활성화된 보고서 세트에는 사용할 수 없습니다.
+>새 분류 아키텍처에 대해 활성화된 보고서 세트에는 이 옵션을 사용할 수 없습니다.
 
-1. [!DNL Analytics]에 로그인하고 관리자 > 분류로 이동합니다.
+1. [!DNL Analytics]에 로그인하고 관리 > 분류로 이동합니다.
 1. **[!UICONTROL 브라우저 내보내기]** 탭을 클릭하고, 날짜 활성화 분류에 대한 설정이 올바른지 확인한 다음, 파일 내보내기를 클릭합니다.
 1. Microsoft Excel이나 익숙한 다른 스프레드시트 편집기에서 이 파일을 엽니다.
 1. 열 중에
@@ -205,5 +205,5 @@ ht-degree: 99%
 
 ## 분류 문제 해결
 
-* [일반적인 업로드 문제](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
+* [일반적인 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
 
