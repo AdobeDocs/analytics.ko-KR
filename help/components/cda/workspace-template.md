@@ -3,9 +3,9 @@ title: CDA 작업 공간 템플릿
 description: Analysis Workspace 내의 CDA 템플릿에 있는 각 필드에 대해 설명합니다.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe는 중요한 교차 장치 성능 데이터를 볼 수 있는 템플릿을
 1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com)으로 이동한 다음 AdobeID 자격 증명을 사용하여 로그인합니다.
 1. 맨 위에 있는 9격자 아이콘을 클릭한 다음 Analytics를 클릭합니다.
 1. 맨 위에 있는 [!UICONTROL 작업 공간]을 클릭한 다음, [!UICONTROL 새 프로젝트 만들기]를 클릭합니다.
-1. 교차 장치 분석 템플릿을 찾은 다음 [!UICONTROL 만들기]를 클릭합니다.
+1. “크로스 디바이스 분석” 템플릿을 찾은 다음 [!UICONTROL 만들기]를 클릭합니다.
 1. 메시지가 표시되면 보고서 세트를 CDA를 지원하는 보고서 세트로 변경합니다.
 
 여러 패널이 포함된 Analysis Workspace 프로젝트가 만들어집니다. 맨 위에는 콘텐츠와 소개 표가 표시되어 보고서에 대한 컨텍스트와 개별 보고서에 대한 탐색을 허용할 수 있습니다. 목차 내의 링크를 클릭하거나 패널의 아코디언을 확장하여 그러한 보고서를 봅니다.
