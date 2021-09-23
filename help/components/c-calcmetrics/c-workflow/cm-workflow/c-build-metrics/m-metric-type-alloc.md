@@ -4,9 +4,9 @@ title: 지표 유형 및 기여도 분석
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 >
 >[기여도 분석 IQ](/help/analyze/analysis-workspace/attribution/overview.md)의 계산된 지표에 나타나는 할당 모델 평가 방식이 변경되었습니다. 이 변경의 일부로, 기본이 아닌 할당 모델을 사용하는 계산된 지표는 개선된 새로운 기여도 분석 모델로 마이그레이션되었습니다.
 >
->* 기본이 아닌 기여도 분석 모델 및 전환 확인 기간 창의 전체 목록에 대해서는 [기여도 분석 모델 및 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md)을 참조하십시오.
+>* 기본이 아닌 속성 모델 및 지원되는 전환 확인 기간의 전체 목록에 대해서는 [속성 모델 및 전환 확인 기간](/help/analyze/analysis-workspace/attribution/models.md)을 참조하십시오.
 >* &quot;마케팅 채널 마지막 터치&quot; 및 &quot;마케팅 채널 첫 번째 터치&quot; 할당 모델은 새 &quot;마지막 터치&quot; 및 &quot;첫 번째 터치&quot; 기여도 분석 모델로 마이그레이션됩니다. 참고: &quot;마케팅 채널&quot;은 더 이상 사용되지 않으며, 계산된 지표에 나타나는 두 개의 할당 모델만 사용됩니다.
 >* 또한 선형 할당이 계산되는 방법을 수정할 예정입니다. 고객이 &quot;선형&quot; 할당 모델에 계산된 지표를 사용하는 경우 수정된 새로운 기여도 분석 모델을 반영하도록 보고서가 약간 변경될 수 있습니다. 계산된 지표에 대한 이러한 변경 사항은 Analysis Workspace, Reports &amp; Analytics, Reporting API 및 Report Builder에 반영됩니다. 자세한 내용은 아래의 **선형 할당 작동 방식 (2018년 7월 19일 현재)**&#x200B;을 참조하십시오.
 
@@ -43,9 +43,9 @@ ht-degree: 97%
 |  | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 | 히트 6 | 히트 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 데이터가 전송됨 | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
-| 마지막 터치 eVar | PROMO A | PROMO A | PROMO A | 프로모 B | 프로모 B | PROMO C | 10달러 |
-| 첫 번째 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | 10달러 |
-| 예제 prop | PROMO A | - | PROMO A | 프로모 B | - | PROMO C | 10달러 |
+| 마지막 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| 첫 번째 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| 예제 prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 
 이 예에서, 값 A, B, C는 히트 7에서 $10를 구매하기 전에 히트 1, 3, 4, 6에 있는 변수로 전송되었습니다. 두 번째 행에서 그러한 값은 마지막 터치 방문을 기준으로 하여 히트에서 유지됩니다. 세 번째 행은 첫 번째 터치 방문 지속성을 보여 줍니다. 마지막으로, 마지막 행은 지속성이 없는 prop에 대해 데이터가 기록되는 방식을 보여 줍니다.
 
@@ -64,10 +64,10 @@ ht-degree: 97%
 
 | 값 | 현재 마지막 터치 eVar | 현재 첫 번째 터치 eVar | 현재 Prop |
 |---|---|---|---|
-| PROMO A | $5.00 | $10.00 | 5달러 |
-| 프로모 B | $3.33 | $0 | $2.50 |
-| PROMO C | $1.67 | $0 | 2.50달러 |
-| 합계 | 10달러 | 10달러 | 10달러 |
+| PROMO A | $5.00 | $10.00 | $5.00 |
+| PROMO B | $3.33 | $0 | $2.50 |
+| PROMO C | $1.67 | $0 | $2.50 |
+| 합계 | $10.00 | $10.00 | $10.00 |
 
 **현재 선형 할당이 작동하는 방식에 대한 요약**
 
@@ -75,7 +75,7 @@ ht-degree: 97%
 
 | 값 | 새로운 마지막 터치 eVar | 새로운 첫 번째 터치 eVar | 새 Prop |
 |---|---|---|---|
-| PROMO A | 5달러 | 5달러 | 5달러 |
-| 프로모 B | 2.50달러 | 2.50달러 | 2.50달러 |
-| PROMO C | 2.50달러 | 2.50달러 | 2.50달러 |
-| 합계 | 10달러 | 10달러 | 10달러 |
+| PROMO A | $5.00 | $5.00 | $5.00 |
+| PROMO B | $2.50 | $2.50 | $2.50 |
+| PROMO C | $2.50 | $2.50 | $2.50 |
+| 합계 | $10.00 | $10.00 | $10.00 |
