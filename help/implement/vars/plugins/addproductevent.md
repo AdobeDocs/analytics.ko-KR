@@ -3,9 +3,9 @@ title: addProductEvent
 description: products 및 events 변수에 사용자 지정 이벤트를 추가합니다.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,17 +57,17 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## 플러그인 사용
 
-`addProductEvent` 함수는 다음 인수를 사용합니다.
+`addProductEvent` 함수에서는 다음 인수를 사용합니다.
 
 * **`en`** (필수, 문자열): `products` 변수의 마지막 항목에 추가할 이벤트입니다. `products` 변수가 비어 있으면 이벤트 (및 그 값)가 첨부된 &quot;빈&quot; 제품 항목이 만들어집니다.
-* **`ev`** (필수, 문자열): `en` 인수의 숫자 또는 통화 이벤트에 지정된 값입니다.  설정하지 않으면 기본값이 `1`로 설정됩니다. 문자열 따옴표로 인코딩되지 않은 숫자도 유효합니다.
+* **`ev`** (필수, 문자열): `en` 인수의 숫자 또는 통화 이벤트에 지정된 값입니다.  설정하지 않으면 기본값이 `1`로 설정됩니다. 문자열 따옴표에 포함되지 않은 숫자도 유효합니다.
 * **`ap`** (선택 사항, 부울): products 변수에 현재 둘 이상의 제품 항목이 포함되어 있는 경우, 값이 `true` (또는 `1`)이면 모든 제품 항목에 이벤트가 추가됩니다.  설정하지 않으면 기본값이 `false`로 설정됩니다.
 
 `addProductEvent`는 아무 것도 반환하지 않습니다. 대신 이벤트와 그 값을 `products` 변수에 추가합니다. 또한 이 플러그인은 [`events`](../page-vars/events/events-overview.md) 변수에서 필수이므로 이 변수에 이벤트를 자동으로 추가합니다.
 
 ## 쿠키
 
-`addProductEvent` 함수는 쿠키를 만들거나 사용하지 않습니다.
+`addProductEvent` 기능은 쿠키를 만들거나 사용하지 않습니다.
 
 ## 예
 
