@@ -3,9 +3,9 @@ title: getNewRepeat
 description: 신규 방문자와 재방문자의 활동을 추적합니다.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## 플러그인 사용
 
-`getNewRepeat` 함수는 다음 인수를 사용합니다.
+`getNewRepeat` 함수에서는 다음 인수를 사용합니다.
 
 * **`d`** (정수, 선택 사항): 방문자를 다시 `"New"`로 재설정하기 위해 방문 간 필요한 최소 일 수입니다. 이 인수를 설정하지 않으면 기본값은 30일로 지정됩니다.
 
-이 함수는 플러그인으로 설정된 쿠키가 없거나 만료된 경우 `"New"` 값을 반환합니다. 플러그인에 의해 설정된 쿠키가 존재하고 현재 히트 이후의 시간과 쿠키에 설정된 시간이 30분을 넘는 경우 값 `"Repeat"`을 반환합니다. 이 함수는 전체 방문에 대해 동일한 값을 반환합니다.
+이 함수는 플러그인으로 설정된 쿠키가 없거나 만료된 경우 값 `"New"`을 반환합니다. 플러그인에 의해 설정된 쿠키가 존재하고 현재 히트 이후의 시간과 쿠키에 설정된 시간이 30분을 넘는 경우 값 `"Repeat"`을 반환합니다. 이 함수는 전체 방문에 대해 동일한 값을 반환합니다.
 
 이 플러그인은 `[LENGTH]`가 `d` 인수와 동일한 경우 `"s_nr[LENGTH]"`라는 쿠키를 사용합니다. 쿠키에는 현재 시간을 나타내는 Unix 타임스탬프와 방문자의 현재 상태 (`"New"` 또는 `"Repeat"`)가 포함되어 있습니다.
 
