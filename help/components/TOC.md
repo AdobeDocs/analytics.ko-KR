@@ -7,7 +7,7 @@ user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 

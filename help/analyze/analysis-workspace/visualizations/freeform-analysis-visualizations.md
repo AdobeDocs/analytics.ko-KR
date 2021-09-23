@@ -16,7 +16,7 @@ ht-degree: 98%
 
 작업 영역에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해 주는 다양한 시각화를 제공합니다. Adobe Analytics를 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
-Workspace의 왼쪽 상단 아이콘, [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR), 또는 워크플로의 마우스 오른쪽 버튼 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
+Workspace의 왼쪽 상단 아이콘, [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html), 또는 워크플로의 마우스 오른쪽 버튼 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
 
 ![](assets/viz-rail.png)
 
