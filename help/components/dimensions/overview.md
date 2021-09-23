@@ -3,9 +3,9 @@ title: 차원 개요
 description: 문자열 값을 포함하는 변수입니다.
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
