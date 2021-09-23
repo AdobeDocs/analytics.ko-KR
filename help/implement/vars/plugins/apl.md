@@ -3,9 +3,9 @@ title: apl (appendToList)
 description: 여러 값을 지원하는 변수에 값을 추가합니다.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## 플러그인 사용
 
-`apl` 함수는 다음 인수를 사용합니다.
+`apl` 함수에서는 다음 인수를 사용합니다.
 
 * **`lv`** (필수, 문자열): 구분 기호로 구분된 항목 목록을 포함하여 새 값을 추가할 변수입니다.
 * **`vta`** (필수, 문자열): `lv` 인수 값에 추가할 새 값들을 쉼표로 구분한 목록입니다.
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5 (2016년 2월 18일)
 
-* 이제 비교 처리를 위해 `inList` 함수를 사용합니다
+* 이제 비교 처리를 위해 `inList` 함수를 사용합니다.
 
 ### 2.0 (2016년 1월 26일)
 
