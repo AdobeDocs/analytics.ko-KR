@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: 페이지를 로드하는 데 걸리는 시간을 추적합니다.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## 플러그인 사용
 
-`getPageLoadTime` 함수에서는 인수를 사용하지 않습니다. 이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 다음 변수를 설정합니다.
+`getPageLoadTime` 함수는 인수를 사용하지 않습니다. 이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 다음 변수를 설정합니다.
 
 * `s._pltPreviousPage`: 로드 시간을 이전 페이지에 상호 연관시킬 수 있도록 이전 페이지를 설정합니다.
 * `s._pltLoadTime`: 이전 페이지가 로드되는 데 걸린 시간 (초)을 설정합니다.
