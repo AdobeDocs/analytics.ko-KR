@@ -3,9 +3,9 @@ title: getAndPersistValue
 description: 언제든지 나중에 검색할 수 있는 값을 저장합니다.
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 >
 >이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
-`getAndPersistValue` 플러그인을 사용하면 방문 중에 나중에 검색할 수 있는 쿠키에 값을 저장할 수 있습니다. 이 플러그인은 Adobe Experience Platform의 태그를 사용하는 [!UICONTROL 저장 유지 시간] 기능과 유사한 역할을 합니다. 변수가 설정된 후 Analytics 변수를 후속 히트에서 동일한 값으로 자동으로 유지하려면 이 플러그인을 사용하는 것이 좋습니다. 데이터 수집 UI의 [!UICONTROL 저장 유지 시간] 기능이 충분한 경우 이 플러그인은 필요하지 않습니다. 변수를 후속 히트에서 동일한 값으로 설정하여 유지할 필요가 없는 경우에도 이 플러그인이 필요하지 않습니다. eVar는 Adobe에 의해 서버측에서 지속되므로 eVar의 기본 지속성에서는 이 플러그인을 사용할 필요가 없습니다.
+`getAndPersistValue` 플러그인을 사용하면 방문 중에 나중에 검색할 수 있는 쿠키에 값을 저장할 수 있습니다. 이 플러그인은 Adobe Experience Platform의 태그를 사용하는 [!UICONTROL 저장 유지 시간] 기능과 유사한 역할을 합니다. 변수가 설정된 후 Analytics 변수를 후속 히트에서 동일한 값으로 자동으로 유지하려면 이 플러그인을 사용하는 것이 좋습니다. 데이터 수집 UI에서 [!UICONTROL 저장 유지 시간] 기능이 충분하다면 이 플러그인은 필요하지 않습니다. 변수를 후속 히트에서 동일한 값으로 설정하여 유지할 필요가 없는 경우에도 이 플러그인이 필요하지 않습니다. eVar는 Adobe에 의해 서버측에서 지속되어 기본적으로 지속성이 탑재되므로 이 플러그인을 사용할 필요가 없습니다.
 
 ## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
 
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 플러그인 사용
 
-`getAndPersist` 함수는 다음 인수를 사용합니다.
+`getAndPersist` 함수에서는 다음 인수를 사용합니다.
 
 * **`vtp`** (필수): 페이지에서 페이지로 유지할 값입니다.
 * **`cn`** (선택 사항): 값을 저장할 쿠키의 이름입니다. 이 인수를 설정하지 않으면 쿠키의 이름이 `"s_gapv"`로 지정됩니다.
