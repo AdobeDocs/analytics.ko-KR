@@ -2,13 +2,13 @@
 description: FTP를 통해 데이터 파일을 업로드하는 방법.
 subtopic: Classifications
 title: FTP 가져오기
-feature: 관리 도구
+feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '716'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe는 FIN 파일과 연관된 업로드한 데이터 파일을 정기적으�
 
 FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. >
 
-Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=ko-KR)를 참조하십시오.
+Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)를 참조하십시오.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
