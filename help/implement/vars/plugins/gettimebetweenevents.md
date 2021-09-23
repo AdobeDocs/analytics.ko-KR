@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: 두 이벤트 사이의 시간을 측정합니다.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## 플러그인 사용
 
-`getTimeBetweenEvents` 함수는 다음 인수를 사용합니다.
+`getTimeBetweenEvents` 함수에서는 다음 인수를 사용합니다.
 
 * **`ste`** (필수, 문자열): 타이머 시작 이벤트. 타이머를 시작할 Analytics 이벤트들을 쉼표로 구분한 문자열입니다.
 * **`rt`** (필수, 부울): 타이머 다시 시작 옵션. `events` 변수에 타이머 시작 이벤트가 포함될 때마다 타이머를 다시 시작하려는 경우 `true`로 설정하십시오. 타이머 시작 이벤트가 표시될 때 타이머가 다시 시작되지 않도록 하려면 `false`로 설정하십시오.
