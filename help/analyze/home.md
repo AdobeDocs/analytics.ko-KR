@@ -1,12 +1,12 @@
 ---
 title: Analytics 툴 안내서
 description: Analysis Workspace, Adobe Analytics 대시보드, Activity Map, Report Builder, Reporting API 및 Reports & Analytics에 대한 제품 설명서 및 자체 도움말.
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
-source-wordcount: '235'
+workflow-type: ht
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
