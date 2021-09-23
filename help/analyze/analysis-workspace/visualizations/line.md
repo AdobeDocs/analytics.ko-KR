@@ -2,23 +2,23 @@
 description: 라인 시각화를 사용하여 트렌드 (시간 기반) 데이터 세트를 나타냅니다.
 title: 라인
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
 # 라인
 
-[!UICONTROL 라인] 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. [!UICONTROL 라인] 차트는 시간이 차원으로 사용되는 경우에만 사용할 수 있습니다.
+[!UICONTROL 라인] 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. [!UICONTROL 라인] 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다.
 
 ![라인 시각화](assets/line-viz.png)
 
-[!UICONTROL 선] 시각화의 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하여 [**시각화 설정**](freeform-analysis-visualizations.md)&#x200B;에 액세스합니다. 설정은 다음과 같이 분류됩니다.
+[!UICONTROL 라인] 시각화 오른쪽 상단에 있는 톱니바퀴 아이콘을 클릭하여 사용 가능한 [**시각화 설정**](freeform-analysis-visualizations.md)&#x200B;에 액세스합니다. 설정은 다음과 같이 분류됩니다.
 
 * **일반**: 시각화 유형 간에 공통적인 설정
 * **축**: 라인 시각화의 x축 또는 y축에 영향을 주는 설정
@@ -40,7 +40,7 @@ ht-degree: 88%
 
 **[!UICONTROL 시각화 설정]** > **[!UICONTROL 오버레이]** > **[!UICONTROL 추세선 표시]**,에서 회귀 또는 이동 평균 추세선을 라인 시리즈에 추가하도록 선택할 수 있습니다. 트렌드 라인은 데이터의 명확한 패턴을 표현하는 데 도움이 됩니다.
 
-다음은 선 시각화에 트렌드 라인을 추가하는 방법에 대한 비디오입니다.
+다음은 라인 시각화에 추세선을 추가하는 방법에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
