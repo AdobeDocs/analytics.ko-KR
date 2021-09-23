@@ -3,9 +3,9 @@ title: Adobe Analytics에서 사용하는 IP 및 도메인
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 �
 
 ## 데이터 수집 및 FTP IP 주소 블록
 
-조직에서 특정 IP 주소 범위를 허용하려면 다음 테이블을 사용할 수 있습니다. 이 섹션의 모든 범위는 위 표에 포함되어 있습니다. Data Warehouse 및 데이터 피드에 대한 FTP 연결은 런던, 오레곤 및 싱가포르 위치에서만 발생합니다.
+조직에서 특정 IP 주소 범위를 허용하려면 다음 테이블을 사용할 수 있습니다. 이 섹션의 모든 범위는 위 표에 포함되어 있습니다. Data Warehouse 및 데이터 피드에 대한 FTP 연결은 런던, 오리건 및 싱가포르 지역에서만 시작됩니다.
 
 | 위치 | IP 범위 (CIDR 표기법) |
 | --- | --- |
