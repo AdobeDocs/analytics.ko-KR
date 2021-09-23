@@ -3,9 +3,9 @@ title: p_fo (첫 번째 페이지만)
 description: 특정 루틴이 페이지당 한 번만 실행되도록 합니다.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## 플러그인 사용
 
-`p_fo` 함수는 다음 인수를 사용합니다.
+`p_fo` 함수에서는 다음 인수를 사용합니다.
 
 * **on** (필수, 문자열): 개체가 페이지에 아직 없을 경우 플러그인이 생성하는 JavaScript 개체의 이름입니다.
 
-개체가 아직 없으면 이 함수는 `true`을 반환하고 개체를 만듭니다. 개체가 이미 있으면 이 함수는 `false`을 반환합니다.
+개체가 아직 없으면 이 함수는 `true`를 반환하고 개체를 만듭니다. 개체가 이미 있으면 이 함수는 `false`를 반환합니다.
 
 ## 호출 예
 
