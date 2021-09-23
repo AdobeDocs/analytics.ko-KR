@@ -3,7 +3,7 @@ title: Analytics 통합
 description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방법을 살펴보십시오.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Audience Manager, Advertising Cloud 또는 Target과 같은 기타 Adobe Experie
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
