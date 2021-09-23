@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 97%
 
 다음 작업을 수행하여 세그먼트 빌더에 액세스할 수 있습니다.
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
 
-* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![추가 단추](assets/add_button.png)
+* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![추가 버튼](assets/add_button.png)
 
    또는
 
@@ -53,7 +53,7 @@ ht-degree: 97%
 
 * 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
 
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
+* 기존 보고서를 표시하고 왼쪽 탐색에서 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
 
 * 인터페이스의 어디에서든지 슬래시 키 &#39;/&#39;를 누르고 세그먼트 관리자를 검색합니다.
 
