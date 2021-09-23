@@ -3,9 +3,9 @@ title: getTimeParting
 description: 특정 동작이 발생하는 시간을 측정합니다.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## 플러그인 사용
 
-`getTimeParting` 함수는 다음 인수를 사용합니다.
+`getTimeParting` 함수에서는 다음 인수를 사용합니다.
 
 **`t`** (선택 사항이지만 권장됨, 문자열): 방문자의 현지 시간을 변환하여 구할 시간대의 이름입니다.  기본값은 UTC/GMT 시간으로 설정됩니다. 유효한 값에 대한 전체 목록이 필요하면 위키백과의 [TZ 데이터베이스 시간대 목록](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)을 참조하십시오.
 
@@ -74,7 +74,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * `"America/Denver"` - 산지 표준시
 * `"America/Los_Angeles"` - 태평양 표준시
 
-이 함수를 호출하면 파이프(`|`)로 구분된 다음 내용을 포함하는 문자열이 반환됩니다.
+이 함수를 호출하면 파이프 (`|`)로 구분된 다음 내용을 포함하는 문자열이 반환됩니다.
 
 * 올해
 * 이번 달
