@@ -3,9 +3,9 @@ title: cleanStr
 description: 문자열에서 모든 불필요한 문자를 제거하거나 바꿉니다.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## 플러그인 사용
 
-`cleanStr` 함수는 다음 인수를 사용합니다.
+`cleanStr` 함수에서는 다음 인수를 사용합니다.
 
 * **`str`** (필수, 문자열): HTML 인코딩, 추가 공백, 탭 또는 기타 불필요한 문자를 정리할 값입니다.
 
