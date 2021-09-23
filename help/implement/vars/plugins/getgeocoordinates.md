@@ -3,9 +3,9 @@ title: getGeoCoordinates
 description: 방문자의 geoLocation을 추적합니다.
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## 플러그인 사용
 
-`getGeoCoordinates` 함수에서는 인수를 사용하지 않습니다. 다음 값 중 하나를 반환합니다.
+`getGeoCoordinates` 함수는 인수를 사용하지 않습니다. 다음 값 중 하나를 반환합니다.
 
 * `"geo coordinates not available"`: 플러그인이 실행되는 시점에 사용할 수 있는 지리적 위치 데이터가 없는 디바이스의 경우. 이 값은 방문의 첫 번째 히트에서 일반적입니다. 특히 방문자가 위치 추적에 대해 먼저 동의해야 할 때 사용됩니다.
 * `"error retrieving geo coordinates"`: 디바이스의 위치를 검색하려고 할 때 플러그인에 오류가 발생하는 경우.
