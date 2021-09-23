@@ -3,9 +3,9 @@ title: 숫자 세트
 description: 다른 JavaScript 변수에서 사용할 숫자를 생성하고 조작합니다.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -67,16 +67,16 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## 플러그인 사용
 
-`zeroPad` 함수는 다음 인수를 사용합니다.
+`zeroPad` 함수에서는 다음 인수를 사용합니다.
 
-* **num** (필수, 정수): 패딩할 숫자입니다. 이 함수는 소수 자릿수가 포함된 경우 이 인수의 값을 잘라냅니다.
+* **num** (필수, 정수): 패딩할 숫자입니다. 이 함수는 이 인수에 소수 자릿수가 포함된 경우 그 값을 잘라냅니다.
 * **nod** (필수, 정수): 최종 반환 값의 자릿수. 패딩할 숫자의 자릿수가 패딩할 자릿수보다 적으면 플러그인은 `num` 인수의 시작 부분에 0을 추가합니다.
 
-`randomNumber` 함수는 다음 인수를 사용합니다.
+`randomNumber` 함수에서는 다음 인수를 사용합니다.
 
 * **nod** (선택 사항, 정수): 생성하려는 난수의 자릿수입니다. 최대값은 17자리이고 기본값은 10자리입니다.
 
-`twoDecimals` 함수는 다음 인수를 사용합니다.
+`twoDecimals` 함수에서는 다음 인수를 사용합니다.
 
 * **val** (필수, 숫자): 가장 가까운 100분의 1로 반올림하려는 숫자(문자열 또는 숫자 개체 중 하나로 표시됨)입니다.
 
