@@ -3,9 +3,9 @@ title: getResponsiveLayout
 description: 현재 보고 있는 웹 사이트의 레이아웃을 파악합니다.
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## 플러그인 사용
 
-`getResponsiveLayout` 함수는 다음 인수를 사용합니다.
+`getResponsiveLayout` 함수에서는 다음 인수를 사용합니다.
 
 * **`ppw`** (필수, 정수): 페이지가 휴대폰 세로 레이아웃에서 휴대폰 가로 기반 레이아웃으로 전환하기 전에 브라우저 창으로 사용할 수 있는 최대 픽셀 너비
 * **`plw`** (필수, 정수): 페이지가 휴대폰 가로 레이아웃에서 태블릿 기반 레이아웃으로 전환하기 전에 브라우저 창으로 사용할 수 있는 최대 픽셀 너비
 * **`tw`** (필수, 정수): 페이지가 태블릿 레이아웃에서 데스크탑 기반 레이아웃으로 전환하기 전에 브라우저 창으로 사용할 수 있는 최대 픽셀 너비
 
-이 함수를 호출하면 콜론(`:`)으로 구분된 두 부분을 포함하는 문자열이 반환됩니다. 문자열의 첫 부분에는 브라우저의 너비와 위의 인수에 따라 다음 값 중 하나가 포함됩니다.
+이 함수를 호출하면 콜론(`:`)으로 구분된 두 부분이 포함된 문자열이 반환됩니다. 문자열의 첫 번째 부분에는 브라우저의 너비와 위의 인수에 따라 다음 값 중 하나가 포함됩니다.
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
