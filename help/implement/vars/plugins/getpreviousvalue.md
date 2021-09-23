@@ -3,9 +3,9 @@ title: getPreviousValue
 description: 변수에 전달된 마지막 값을 가져옵니다.
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## 플러그인 사용
 
-`getPreviousValue` 함수는 다음 인수를 사용합니다.
+`getPreviousValue` 함수에서는 다음 인수를 사용합니다.
 
 * **`v`** (문자열, 필수): 다음 이미지 요청에 전달할 값이 있는 변수입니다. 사용되는 일반적인 변수는 이전 페이지 값을 검색하는 `s.pageName`입니다.
 * **`c`** (문자열, 선택 사항): 값을 저장하는 쿠키의 이름입니다.  이 인수를 설정하지 않으면 기본값이 `"s_gpv"`로 지정됩니다.
@@ -83,7 +83,7 @@ s.eVar10 = getPreviousValue(s.eVar1);
 
 ## 가능성 없는 일
 
-`v` 인수와 연결된 변수가 새 값으로 설정되고 `getPreviousValue` 플러그인이 실행되지만 Analytics 서버 호출이 동시에 전송되지 않으면, 새 `v` 인수 값은 다음에 플러그인이 실행될 때에도 여전히 &quot;이전 값&quot;으로 간주됩니다.
+`v` 인수와 연결된 변수가 새 값으로 설정되고 `getPreviousValue` 플러그인이 실행되지만 Analytics 서버 호출이 동시에 전송되지 않으면 새 `v` 인수 값은 다음에 플러그인이 실행될 때에도 여전히 “이전 값”으로 간주됩니다.
 예를 들어 다음 코드가 방문의 첫 페이지에서 실행된다고 가정해 보십시오.
 
 ```js
@@ -92,14 +92,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-이 코드는 `pageName`이 &quot;Home&quot;이고 prop7이 설정되지 않은 경우 서버 호출을 생성합니다.  그러나 `getPreviousValue` 호출은 `gpv_Page` 쿠키에 `pageName` 값을 저장합니다. 그 직후에 같은 페이지에서 다음 코드가 실행된다고 가정하십시오.
+이 코드는 `pageName`이 “Home”이고 prop7이 설정되지 않은 서버 호출을 생성합니다.  단, `getPreviousValue`를 호출하여 `pageName` 값을 `gpv_Page` 쿠키에 저장합니다. 그 직후에 같은 페이지에서 다음 코드가 실행된다고 가정해 보십시오.
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-이 코드 블록에서는 `t()` 함수가 실행되지 않으므로 다른 이미지 요청은 전송되지 않습니다.  그러나 이 번에 `getPreviousValue` 함수 코드가 실행되면 `prop7`이 `pageName`(&quot;Home&quot;)의 이전 값으로 설정된 다음 `pageName`(&quot;New value&quot;)의 새 값을 `gpv_Page` 쿠키에 저장합니다. 다음으로 방문자가 다른 페이지로 이동하고 이 페이지에서 다음 코드가 실행된다고 가정하십시오.
+이 코드 블록에서는 `t()` 함수가 실행되지 않으므로 다른 이미지 요청은 전송되지 않습니다.  그러나, 이번에 `getPreviousValue` 함수 코드가 실행될 때 `prop7`은 `pageName`(“Home”)의 이전 값과 동일하게 설정된 다음 `gpv_Page` 쿠키에 `pageName`의 새 값(“New value”)을 저장합니다. 다음으로 방문자가 다른 페이지로 이동하고 이 페이지에서 다음 코드가 실행된다고 가정해 보십시오.
 
 ```js
 s.pageName = "Page 2";
@@ -107,7 +107,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-`t()` 함수가 실행되면 `pageName`이 &quot;Page 2&quot;이고 `prop7`가 &quot;New value&quot;인 이미지 요청이 만들어집니다. 이때 `getPreviousValue`에 대한 마지막 호출이 수행되었을 때 `pageName`의 값이었습니다. `pageName`에 전달된 첫 번째 값이 &quot;Home&quot;이지만 `"Home"` 값이 이미지 요청에 포함되지 않았습니다.`prop7`
+`t()` 호출 함수가 실행되면 `pageName`이 “Page 2”이고 `prop7`이 “New value”인 이미지 요청을 생성합니다. 이는 `getPreviousValue`에 대한 마지막 호출이 수행되었을 때 `pageName`의 값이었습니다. `pageName`에 전달된 첫 번째 값이 &quot;Home&quot;이지만 `"Home"`이라는 `prop7` 값은 어떠한 실제 이미지 요청에도 포함되지 않았습니다.
 
 ## 버전 내역
 
