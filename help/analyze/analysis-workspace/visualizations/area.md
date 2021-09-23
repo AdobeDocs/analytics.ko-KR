@@ -2,13 +2,13 @@
 description: 이 Workspace는 선 그래프 모양이며 선 아래에 색칠된 영역이 있습니다.
 title: 영역 및 스택 영역
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -30,6 +30,6 @@ ht-degree: 93%
 
 ![](assets/areastacked100.png)
 
-다음은 &quot;100% 누적 시각화&quot;에 대한 비디오입니다.
+다음은 “100% 누적 시각화”에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
