@@ -3,9 +3,9 @@ title: formatTime
 description: 초 수를 그에 해당하는 분, 시간 등으로 변환합니다.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## 플러그인 사용
 
-`formatTime` 함수는 다음 인수를 사용합니다.
+`formatTime` 함수에서는 다음 인수를 사용합니다.
 
 * **`ns`** (필수, 정수): 변환하거나 서식을 지정할 초 수
 * **`tf`** (선택 사항, 문자열): 초를 반환하는 형식 유형. 기본값은 초입니다.
