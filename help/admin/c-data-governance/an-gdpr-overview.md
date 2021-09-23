@@ -4,9 +4,9 @@ title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,6 +56,6 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
 
 ## AdobePrivacyJS: GDPR 요청에 대한 클라이언트측 ID 확인
 
-다음은 이 항목에 대한 비디오 개요입니다.
+다음은 이 주제에 대한 비디오 개요입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
