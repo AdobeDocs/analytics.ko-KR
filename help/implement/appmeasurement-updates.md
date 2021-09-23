@@ -4,9 +4,9 @@ description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입�
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2201'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 
 릴리스 날짜: **2021년 9월 7일**
 
-* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`이 항상 포함됩니다. 다음은 [동의 변수 전체 목록입니다](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* 이 업데이트로 인해 링크를 추적할 때 `opt.dmp` 및 `opt.sell`가 항상 포함됩니다. 다음은 [동의 변수의 전체 목록](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)입니다.
 
 ## 버전 2.22.1
 
 릴리스 날짜: **2021년 8월 17일**
 
-* 옵트아웃을 사용하는 고객은 링크를 추적할 때 서버 측 전달 옵트아웃 매개 변수가 적용되지 않는 것을 봤을 수 있습니다. 이 릴리스의 수정 사항으로 인해 링크를 추적할 때 옵트아웃 플래그가 있는 경우 전송됩니다.
+* 옵트아웃을 사용하는 고객은 링크를 추적할 때 서버측 전달 옵트아웃 매개 변수가 적용되지 않는 것을 보았을 수 있습니다. 이 릴리스의 수정 사항으로 인해 링크를 추적할 때 옵트아웃 플래그가 존재하는 경우 전송됩니다.
 
 ## 버전 2.22.0
 
@@ -437,7 +437,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 날짜: **2013년 11월 14일**
 
 * [하트비트 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)에 대한 지원을 추가했습니다.
-* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
+* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
 
 ## 버전 1.1.1
 
