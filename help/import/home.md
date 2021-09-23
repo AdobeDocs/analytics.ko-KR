@@ -3,7 +3,7 @@ title: Analytics 가져오기 안내서
 description: 이 안내서에서는 데이터 소스, 데이터 삽입 API 및 데이터 커넥터를 사용하여 Analytics로 데이터를 가져오는 방법을 설명합니다.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 * **[Data Sources](c-data-sources/datasrc-home.md)**: 지정된 Adobe FTP 사이트에 파일을 업로드합니다. Adobe는 보고서 세트에서 파일을 검색하고 데이터를 포함합니다.
 * **[데이터 삽입 API](c-data-insertion-api/c-data-insertion-api.md)**: API를 통해 데이터를 Adobe의 데이터 수집으로 직접 전송합니다.
-* **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: 지원되는 타사 사용자와 협력하여 데이터를 Adobe Analytics로 가져와 보고서 세트를 보강합니다.
+* **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: 지원되는 서드파티를 통해 데이터를 Adobe Analytics로 가져와 보고서 세트를 보강합니다.
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
