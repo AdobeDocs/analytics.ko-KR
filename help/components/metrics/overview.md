@@ -3,9 +3,9 @@ title: 지표 개요
 description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니다.
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 ## 지표 설명 추가
 
-다음은 Adobe Analytics에서 지표(및 차원) 설명을 추가하는 방법을 설명하는 비디오입니다.
+다음은 Adobe Analytics에서 메트릭(및 차원) 설명을 추가하는 방법을 설명하는 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
