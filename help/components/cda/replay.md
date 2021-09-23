@@ -3,9 +3,9 @@ title: 재생 작동 방식
 description: 크로스 디바이스 분석의 "재생" 개념 이해
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->12시간보다 오래된 타임스탬프가 지정된 히트는 라이브 플로우에서 결합되지 않습니다. 하지만 이러한 히트는 재생 전환 확인 기간에 속하는 한 재생 결합에 포함됩니다.
+>12시간 이상 경과된 타임스탬프 히트는 라이브 플로우에서 결합되지 않습니다. 그러나 이러한 히트는 재생 전환 확인 기간이 있는 한 재생 결합에 포함됩니다.
 
 ### 재생 결합
 
