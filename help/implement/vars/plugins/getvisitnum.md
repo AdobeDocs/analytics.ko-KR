@@ -3,9 +3,9 @@ title: getVisitNum
 description: 방문자의 현재 방문 횟수를 추적합니다.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## 플러그인 사용
 
-`getVisitNum` 함수는 다음 인수를 사용합니다.
+`getVisitNum` 함수에서는 다음 인수를 사용합니다.
 
 * **`rp`** (선택 사항, 정수 또는 문자열): 방문 횟수 카운터가 재설정되기 전 일 수입니다.  설정하지 않으면 기본값이 `365`로 설정됩니다.
    * 이 인수가 `"w"`이면 카운터는 그 주가 끝날 때 (이번 주 토요일 오후 11시 59분) 재설정됩니다.
