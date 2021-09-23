@@ -3,9 +3,9 @@ title: getPageName
 description: 현재 웹 사이트 경로에서 읽기 쉬운 pageName을 만듭니다.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## 플러그인 사용
 
-`getPageName` 함수는 다음 인수를 사용합니다.
+`getPageName` 함수에서는 다음 인수를 사용합니다.
 
 * **`si`** (선택 사항, 문자열): 사이트의 ID를 나타내는 문자열 시작 부분에 삽입되는 ID입니다. 이 값은 숫자 ID나 친숙한 이름일 수 있습니다. 설정하지 않으면 기본값이 현재 도메인으로 설정됩니다.
 * **`qv`** (선택 사항, 문자열): 쿼리 문자열 매개 변수의 쉼표로 구분된 목록으로서, URL에 있는 경우에는 문자열에 추가됩니다.
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## 이전 버전에서 업그레이드
 
-`getPageName` 플러그인의 버전 4.0+는 Adobe Analytics의 AppMeasurement 개체(즉, `s` 개체)가 존재하는지 여부에 따라 달라지지 않습니다. 이 버전으로 업그레이드하는 경우 호출에서 `s` 개체의 인스턴스를 제거하여 플러그인을 호출하는 코드를 변경합니다. 예를 들어 `s.getPageName();`을 `getPageName();`(으)로 변경합니다.
+`getPageName` 플러그인의 버전 4.0 이상은 실행할 Adobe Analytics의 AppMeasurement 개체(즉, `s` 개체)의 존재여부에 따라 달라지지 않습니다. 이 버전으로 업그레이드하려는 경우 반드시 호출에서 `s` 개체의 인스턴스를 제거하여 플러그인을 호출하는 코드를 변경하십시오. 예를 들어 `s.getPageName();`을 `getPageName();`으로 변경합니다.
 
 ## 버전 내역
 
