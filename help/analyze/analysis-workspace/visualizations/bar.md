@@ -2,13 +2,13 @@
 description: Workspace 프로젝트에서 막대 시각화를 사용합니다.
 title: 막대 및 스택 막대
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
@@ -32,6 +32,6 @@ ht-degree: 92%
 
 ![](assets/stacked_100_percent.png)
 
-다음은 &quot;100% 누적 시각화&quot;에 대한 비디오입니다.
+다음은 “100% 누적 시각화”에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
