@@ -3,9 +3,9 @@ title: getValOnce
 description: Analytics 변수가 한 행에서 동일한 값으로 두 번 설정되지 않도록 합니다.
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## 플러그인 사용
 
-`getValOnce` 함수는 다음 인수를 사용합니다.
+`getValOnce` 함수에서는 다음 인수를 사용합니다.
 
 * **`vtc`** (필수, 문자열): 변수가 이전에 동일한 값으로 설정되었는지 확인하는 변수입니다.
 * **`cn`** (선택 사항, 문자열): 확인할 값이 들어 있는 쿠키의 이름입니다. 기본값은 `"s_gvo"`입니다.
