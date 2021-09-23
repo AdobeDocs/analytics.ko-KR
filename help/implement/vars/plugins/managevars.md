@@ -3,9 +3,9 @@ title: manageVars
 description: 한 번에 두 개 이상의 Analytics 변수 값을 변경합니다.
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## 플러그인 사용
 
-`manageVars` 함수는 다음 인수를 사용합니다.
+`manageVars` 함수에서는 다음 인수를 사용합니다.
 
 * **`cb`** (필수, 문자열): 플러그인이 Analytics 변수를 조작하는 데 사용하는 콜백 함수의 이름입니다. `cleanStr`과 같은 Adobe 기능이나 사용자 지정 기능을 사용할 수 있습니다.
 * **`l`** (선택 사항, 문자열): 조작하려는 Analytics 변수의 쉼표로 구분된 목록입니다. 설정하지 않으면 기본값은 다음을 포함한 모든 Adobe Analytics 변수로 설정됩니다.
