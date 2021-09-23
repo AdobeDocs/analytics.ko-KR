@@ -2,12 +2,12 @@
 description: 마케팅 채널 관리자에서 마케팅 채널을 추가하거나 활성화합니다. 마케팅 채널이 없는 보고서 세트의 경우, 자동 설정을 사용하여 해당 규칙과 함께 여러 채널을 만들 수 있습니다. 사전 정의된 채널을 사용자 요구에 맞게 편집하거나 자체 채널을 만들 수 있습니다(최대 25개).
 subtopic: Marketing channels
 title: 마케팅 채널 관리
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '747'
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 98%
 
 보고서에 채널 및 채널 데이터를 표시하려면 먼저 데이터를 처리하는 기초 규칙과 채널을 만들어야 합니다. 또한 [방문자 참여 기간](/help/components/c-marketing-channels/visitor-engagement.md)이 지속되는 기간을 지정할 수도 있습니다.
 
-Adobe는 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 중에 사전 정의된 여러 채널을 제공하는데 이 채널은 사용자의 요구 사항에 맞게 편집할 수 있습니다. 또한 이 설정을 수정하고 [마케팅 채널 처리 규칙](/help/components/c-marketing-channels/c-rules.md) 내에서 사용자 지정 규칙을 정의할 수 있습니다.
+Adobe는 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 중에 사전 정의된 여러 채널을 제공하는데 이 채널은 사용자의 요구 사항에 맞게 편집할 수 있습니다. 또한 이 설정을 수정하고 [마케팅 채널 처리 규칙](/help/components/c-marketing-channels/c-rules.md) 내에서 맞춤형 규칙을 정의할 수 있습니다.
 
 >[!NOTE]
 >
