@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: 작업을 완료하는 데 걸린 시간을 측정합니다.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## 플러그인 사용
 
-`getTimeToComplete` 함수는 다음 인수를 사용합니다.
+`getTimeToComplete` 함수에서는 다음 인수를 사용합니다.
 
 * **`sos`** (선택 사항, 문자열): 타이머를 시작하려면 `"start"`으로 설정합니다. 타이머를 중지하려면 `"stop"`으로 설정합니다. 기본값은 `"start"`입니다.
 * **`cn`** (선택 사항, 문자열): 시작 시간을 저장할 쿠키의 이름입니다. 기본값은 `"s_gttc"`입니다.
