@@ -4,9 +4,9 @@ title: 보고서 세트 사용량 보기
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->보고서 세트가 Experience Cloud 조직에 연결되어 있지 않으면 해당 사용량 데이터가 이 대시보드에 반영되지 않습니다. 또한 청구 ID는 Experience Cloud Orgs에 연결될 수 있습니다. 조직과 청구 ID 간의 관계가 항상 1:1인 것은 아닙니다.
+>보고서 세트가 Experience Cloud 조직에 연결되어 있지 않으면 해당 사용 데이터가 이 대시보드에 반영되지 않습니다. 또한 청구 ID는 Experience Cloud Orgs에 연결될 수 있습니다. 조직과 청구 ID 간의 관계가 항상 1:1인 것은 아닙니다.
 
 보고서 세트 사용량 대시보드
 
