@@ -3,9 +3,9 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
+source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -107,4 +107,4 @@ ht-degree: 1%
 
 ## 프로젝트 전용 세그먼트란?
 
-프로젝트 전용 세그먼트는 빠른 세그먼트나 임시 Workspace 프로젝트 세그먼트입니다. 세그먼트 빌더에서 이러한 필드를 편집/열면 프로젝트 전용 상자가 표시됩니다. 빌더에서 빠른 세그먼트를 적용하지만 사용 가능한 만들기 상자를 선택하지 않으면 여전히 프로젝트 전용 세그먼트이지만 더 이상 빠른 세그먼트 빌더에서 열 수 없습니다. 확인란을 선택하고 저장을 선택하면 이제 구성 요소 목록 세그먼트가 됩니다.
+프로젝트 전용 세그먼트는 빠른 세그먼트나 임시 Workspace 프로젝트 세그먼트입니다. [!UICONTROL 세그먼트 빌더]에서 이러한 필드를 편집/열면 프로젝트 전용 상자가 표시됩니다. 빌더에서 빠른 세그먼트를 적용하지만 사용 가능한 만들기 상자를 선택하지 않으면 여전히 프로젝트 전용 세그먼트이지만 더 이상 [!UICONTROL 빠른 세그먼트 빌더]에서 열 수 없습니다. 확인란을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭하면 이제 구성 요소 목록 세그먼트가 됩니다.
