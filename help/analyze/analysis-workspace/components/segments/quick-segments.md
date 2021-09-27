@@ -3,7 +3,7 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 ## 빠른 세그먼트 저장
 
-빠른 세그먼트를 빠른 세그먼트 빌더 나 세그먼트 빌더에서 저장하도록 선택할 수 있습니다.
+빠른 세그먼트를 [!UICONTROL 빠른 세그먼트 빌더] 또는 [!UICONTROL 세그먼트 빌더]에서 저장하도록 선택할 수 있습니다.
 
 >[!IMPORTANT]
 >세그먼트를 저장하거나 적용하면 일반 세그먼트 빌더에서만 빠른 세그먼트 빌더에서 더 이상 편집할 수 없습니다.
