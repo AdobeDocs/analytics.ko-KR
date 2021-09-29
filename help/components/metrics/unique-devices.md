@@ -2,10 +2,10 @@
 title: 고유 디바이스
 description: 고유 장치의 수입니다.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 6%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,7 @@ ht-degree: 6%
 
 ![고유 장치 수](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-[재생](/help/components/cda/replay.md) 전에 CDA 가상 보고서 세트에서 이 데이터를 보면 다음이 표시됩니다.
+[재생](/help/components/cda/replay.md) 전에 CDA 가상 보고서 세트에서 이 데이터를 보면 인증되지 않은 히트가 잠재적으로 결합될 수 있습니다.
 
 * **5개의 고유 장치**: 인증되지 않은 Bob의 경우 1 + Bob의 경우 2 + Alice의 경우 1 + Charles의 경우 1
 * **4 [명](people.md)**: 식별되지  [않은 사람](unidentified-people.md)  이상 3명  [식별된 사람](identified-people.md).
-

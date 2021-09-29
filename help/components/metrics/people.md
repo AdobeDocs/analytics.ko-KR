@@ -2,10 +2,10 @@
 title: 사람
 description: 일반적으로 여러 장치를 사용하는 고유한 개인의 수입니다.
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 7f9442d6be7930b9e040539dc683c62953aba342
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 53%
+source-wordcount: '161'
+ht-degree: 49%
 
 ---
 
@@ -17,4 +17,4 @@ ht-degree: 53%
 
 [교차 장치 분석](../cda/overview.md) 가상 보고서 세트 내에서 &#39;사람&#39; 지표는 통계 파생이 아닙니다. 대신, 보고서에서 식별된 개인의 합과 한 사람에 속한다고 식별되지 않는 장치의 수가 합입니다.
 
-방문자가 방문 중간에 식별되면 [재생](/help/components/cda/replay.md)이 실행될 때까지 해당 방문자는 2명으로 카운트될 수 있습니다(식별되지 않은 사람 1명 및 식별된 사람 1명). 자세한 내용은 [고유 장치](unique-devices.md)를 참조하십시오.
+방문자가 방문 중간에 식별되면 해당 방문자는 2명(식별되지 않은 사람 1명 및 식별된 사람 1명)으로 계산될 수 있습니다. [](/help/components/cda/replay.md) 재플레이어에서는 보고 기간, 재생 빈도 및 성공률에 따라 이 두 번 카운트를 조정합니다. 자세한 내용은 [고유 장치](unique-devices.md)를 참조하십시오.

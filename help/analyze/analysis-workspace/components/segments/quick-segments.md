@@ -3,9 +3,9 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
+source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 프로젝트 내에서 빠른 세그먼트를 만들어 전체 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)의 복잡성을 방지할 수 있습니다. 빠른 세그먼트
 
-* 특정 프로젝트에만 적용(변경할 수 있음).
-* 최대 3개의 규칙 허용
+* 프로젝트가 만들어진 프로젝트에만 적용합니다(이 설정을 변경할 수 있습니다.).
+* 최대 3개의 규칙을 허용합니다.
 * 중첩된 컨테이너 또는 순차적 규칙을 수용하지 마십시오.
-* 여러 보고서 세트가 있는 패널에서 작업
+* 여러 보고서 세트가 있는 프로젝트에서 작업하십시오.
 
 빠른 세그먼트가 수행할 수 있는 작업과 완전한 구성 요소 목록 세그먼트를 비교하려면 [여기](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)로 이동하십시오.
 

@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
+source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 42%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 42%
 | 구성 요소 목록 세그먼트 | + 를 클릭하면 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)로 이동합니다. | 모든 작업 공간 프로젝트 | 순차적 세그먼트 를 참조하십시오 |
 | 빠른 세그먼트 | [빠른 세그먼트 빌더](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 프로젝트에만 사용할 수 있지만, 저장하고 세그먼트 목록에 추가할 수 있습니다. | 하나 이상의 규칙을 추가/편집할 수 있는 유연성 |
 | 임시 세그먼트: |  |  |  |
-| - 애드혹 작업 공간 프로젝트 세그먼트 | [프로젝트의 세그먼트 드롭 영역으로 끌어다 놓습니다](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 프로젝트에만 사용할 수 있지만, 저장하고 세그먼트 목록에 추가할 수 있습니다. | 단일 규칙 세그먼트의 경우(제한 없음) |
+| - 애드혹 작업 공간 프로젝트 세그먼트 | [프로젝트의 세그먼트 드롭 영역으로 끌어다 놓습니다](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 프로젝트에만 사용할 수 있지만, 저장하고 세그먼트 목록에 추가할 수 있습니다. | 단일 규칙 세그먼트의 경우 |
 | - 계산된 지표 기반 세그먼트 | [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 개별 계산된 지표로 | 지표 정의 내에 세그먼트/초 적용 |
 | - VRS 기반 세그먼트 | [가상 보고서 세트 빌더](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 개별 가상 보고서 세트로 | VRS 정의 내에 세그먼트/초 적용 |
 

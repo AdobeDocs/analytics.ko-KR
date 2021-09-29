@@ -2,11 +2,10 @@
 title: 우편 번호
 description: 방문자의 우편 번호입니다.
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 차원 항목에는 방문자의 우편 번호가 포함됩니다.
 
-## Adobe Analytics에서 보고할 수 있는 국가의 우편 번호는 무엇입니까?
+## 지원되는 우편 번호 국가
 
 * 올란드 제도
 * 알바니아
