@@ -3,9 +3,9 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 전제 조건
 
-빠른 세그먼트를 만들려면 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)에서 [!UICONTROL 세그먼트 생성] 권한이 필요합니다.
+누구나 [!UICONTROL 빠른 세그먼트]를 만들 수 있습니다. 그러나 빠른 세그먼트를 저장하거나 [!UICONTROL 세그먼트 빌더]에서 열려면 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)에서[!UICONTROL 세그먼트 생성] 권한이 필요합니다.
 
 ## 빠른 세그먼트 만들기
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 세그먼트가 맨 위에 나타납니다. 왼쪽의 세그먼트 라이브러리에 있는 구성 요소 수준 세그먼트에 대한 파란색 사이드바와 대조적으로 파란색 사이드바를 확인합니다.
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## 빠른 세그먼트 편집
 
@@ -73,24 +73,15 @@ ht-degree: 1%
 ### 빠른 세그먼트 빌더에 저장
 
 1. 빠른 세그먼트를 적용했으면 빠른 세그먼트를 마우스로 가리킨 다음 정보(&quot;i&quot;) 아이콘을 선택합니다.
+
+   ![](assets/quick-seg6.png)
+
 1. **[!UICONTROL 모든 프로젝트에서 사용할 수 있도록 설정 을 클릭하고 구성 요소 목록에 추가합니다]**.
 1. (선택 사항) 세그먼트 이름을 변경합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 세그먼트의 측면 막대가 스트라이핑된 파란색에서 파란색으로 어떻게 변경되는지 확인합니다. 이제 왼쪽 레일의 구성 요소 목록에 표시됩니다.
 
-### 세그먼트 빌더에 저장
-
-1. 빠른 세그먼트 위로 마우스를 가져간 후 정보(&quot;i&quot;) 아이콘을 선택합니다.
-1. **[!UICONTROL 세그먼트 저장]** 을 선택합니다.
-
-   ![](assets/save-quick-seg.png)
-
-1. 이름을 그대로 두거나 세그먼트 이름을 변경합니다.
-
-   Workspace 로 돌아가서 세그먼트에 이제 파란색 사이드바가 있는지 확인합니다. 이는 빠른 세그먼트 빌더에서 더 이상 편집하거나 열 수 없음을 나타냅니다. 이렇게 저장하면 구성 요소 목록의 일부가 됩니다.
-
-   ![](assets/quick-seg4.png)
 
 세그먼트를 적용한 후 세그먼트 구성 요소 목록에 추가하고 모든 프로젝트에서 사용할 수 있도록 선택할 수 있습니다.
 

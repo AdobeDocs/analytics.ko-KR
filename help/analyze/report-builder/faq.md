@@ -4,10 +4,10 @@ description: Report Builder에 대해 자주 묻는 질문.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,6 @@ Excel의 [`TODAY()` 함수](https://support.microsoft.com/ko-kr/office/today-fun
 
 Report Builder의 통합 문서 지원 한도는 다음과 같습니다.
 
-* **1000개의 요청**: 통합 문서는 단일 통합 문서에 최대 1000개의 데이터 요청을 포함할 수 있습니다. 1000개가 넘는 요청이 필요한 보고서 또는 프로젝트가 있는 경우 이를 여러 통합 문서로 분리하는 것이 좋습니다.
+* **1000개의 요청**: 단일 통합 문서에는 최대 1000개의 데이터 요청이 포함될 수 있습니다. 1000개가 넘는 요청이 필요한 보고서 또는 프로젝트가 있는 경우 이를 여러 통합 문서로 분리하는 것이 좋습니다.
 * **회사당 시간당 요청 2만 개**: Report Builder는 Analytics Reporting API를 사용하여 데이터를 검색합니다. 각 개별 요청은 생성되거나 새로 고쳐질 때마다 API 호출을 사용합니다. 조직에서 지정된 시간에 API 호출이 20,000개 이상 누적되는 경우 데이터를 다시 검색하려면 다음 시간까지 기다려야 합니다.
-* **4시간 처리 시간**: 4시간이 이상 처리 후 예약된 보고서 시간 제한. 통합 문서에 대규모 데이터 세트를 사용하는 복잡한 요청이 많이 포함된 경우 예약된 보고서가 실패할 수 있습니다.
+* **4시간 처리 시간**: 예약된 보고서가 4시간 이상 처리 후 시간 초과됩니다. 통합 문서에 대규모 데이터 세트를 사용하는 복잡한 요청이 많이 포함된 경우 예약된 보고서가 실패할 수 있습니다.
