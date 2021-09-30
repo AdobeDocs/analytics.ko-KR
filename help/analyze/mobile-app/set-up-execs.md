@@ -3,10 +3,10 @@ description: Analytics 대시보드 스코어카드를 만드는 방법
 title: 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 경우에 따라 경영진 사용자는 앱에 액세스하고 앱을 사용하기 위해 추가 지원이 필요할 수 있습니다. 이 섹션에서는 그러한 지원을 제공하는 데 도움이 되는 정보를 제공합니다.
 
-## 경영진 사용자의 시스템 사전 요구 사항
+## 앱 사용자에게 Adobe Analytics 액세스 권한 부여
+
+1. [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md)에서 새 사용자를 설정합니다.
+
+1. 스코어카드를 공유하려면 앱 사용자에게 세그먼트, 지표 및 차원은 물론 스코어카드가 기반으로 하는 보고서 세트, Analysis Workspace과 같은 스코어카드 구성 요소에 액세스할 수 있는 권한을 부여해야 합니다.
+
+## 앱 사용자의 시스템 사전 요구 사항
 
 경영진 사용자가 앱에서 스코어카드에 액세스할 수 있도록 하려면 다음을 확인합니다.
 
 * 해당 디바이스의 최소 모바일 OS 요구 사항은 iOS 버전 10 이상 또는 Android 버전 4.4 (KitKat) 이상입니다.
-* 경영진 사용자에게 Adobe Analytics에 대한 유효한 로그인 권한이 있습니다.
-* 경영진 사용자에 대한 모바일 스코어카드를 올바르게 생성하고 이러한 스코어카드를 해당 사용자와 공유합니다
-* Analysis Workspace 및 스코어카드가 기반으로 하는 보고서 세트에 액세스할 수 있습니다.
-* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **[!UICONTROL 포함된 구성 요소 공유]** 옵션을 선택할 수 있습니다.
+* 경영진 사용자에게 Adobe Analytics에 대한 유효한 로그인 권한이 있습니다..
+* 경영진 사용자에 대한 모바일 스코어카드를 올바르게 생성하고 이러한 스코어카드를 해당 사용자와 공유합니다.
+* 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 **[!UICONTROL 포함된 구성 요소 공유]**&#x200B;에 공유할 때 옵션을 선택할 수 있습니다.
 
 ## 경영진 사용자가 앱을 다운로드하여 설치할 수 있도록 지원
 
