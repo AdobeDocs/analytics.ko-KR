@@ -3,10 +3,10 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 1%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -61,16 +61,13 @@ ht-degree: 1%
 ## 빠른 세그먼트 편집
 
 1. 빠른 세그먼트 위로 마우스를 가져간 다음 연필 아이콘을 선택합니다.
-1. 세그먼트 정의 또는 세그먼트 이름을 편집합니다.
+1. 세그먼트 정의 및/또는 세그먼트 이름을 편집합니다.
+1. [!UICONTROL 적용]을 클릭합니다.
 
 ## 빠른 세그먼트 저장
 
-빠른 세그먼트를 [!UICONTROL 빠른 세그먼트 빌더] 또는 [!UICONTROL 세그먼트 빌더]에서 저장하도록 선택할 수 있습니다.
-
 >[!IMPORTANT]
 >세그먼트를 저장하거나 적용하면 일반 세그먼트 빌더에서만 빠른 세그먼트 빌더에서 더 이상 편집할 수 없습니다.
-
-### 빠른 세그먼트 빌더에 저장
 
 1. 빠른 세그먼트를 적용했으면 빠른 세그먼트를 마우스로 가리킨 다음 정보(&quot;i&quot;) 아이콘을 선택합니다.
 
@@ -81,20 +78,6 @@ ht-degree: 1%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 세그먼트의 측면 막대가 스트라이핑된 파란색에서 파란색으로 어떻게 변경되는지 확인합니다. 이제 왼쪽 레일의 구성 요소 목록에 표시됩니다.
-
-
-세그먼트를 적용한 후 세그먼트 구성 요소 목록에 추가하고 모든 프로젝트에서 사용할 수 있도록 선택할 수 있습니다.
-
-1. 저장된 세그먼트 위로 마우스를 가져간 다음 연필 아이콘을 선택합니다.
-
-1. 세그먼트 빌더 상단에서 이 대화 상자를 확인합니다.
-
-   ![](assets/project-only.png)
-
-1. **[!UICONTROL 이 세그먼트를 모든 프로젝트에서 사용할 수 있도록 설정 옆의 확인란을 선택하고 구성 요소 목록에 추가합니다.]**
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. 이제 세그먼트가 모든 프로젝트의 세그먼트 구성 요소 목록에 표시됩니다.
-1. 또한 [세그먼트를](/help/components/segmentation/segmentation-workflow/t-seg-share.md)조직의 다른 사람과 공유할 수도 있습니다.
 
 ## 프로젝트 전용 세그먼트란?
 
