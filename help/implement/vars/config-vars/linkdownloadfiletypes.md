@@ -3,7 +3,7 @@ title: linkDownloadFileTypes
 description: 다운로드 링크로 자동 추적되는 파일 확장자를 결정합니다.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -23,6 +23,7 @@ ht-degree: 100%
 >* 리디렉션 후 트리거되는 다운로드
 >* 마우스 오른쪽 버튼을 클릭하고 다른 이름으로 대상 저장... 선택
 >* JavaScript를 사용하는 링크 (예: `javascript:openLink()` )
+
 >
 >이러한 다운로드 유형의 경우 [`tl()`](../functions/tl-method.md) 메서드를 수동으로 호출할 수 있습니다.
 
