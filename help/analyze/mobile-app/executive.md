@@ -1,13 +1,13 @@
 ---
 description: 대시보드 스코어카드 사용 지침
 title: Adobe Analytics 대시보드 경영진 안내서
-feature: Analytics 대시보드
+feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+workflow-type: tm+mt
+source-wordcount: '1287'
+ht-degree: 98%
 
 ---
 
@@ -15,12 +15,9 @@ ht-degree: 100%
 
 다음 정보는 경영진 사용자에게 Adobe Analytics 대시보드를 사용하고 보기 위한 모범 사례에 대한 정보를 제공합니다. 이 정보를 보여 주는 비디오를 보려면 [Adobe Analytics 대시보드 인앱 경험](https://youtu.be/QXqQ_PkArbA)을 참조하십시오.
 
-
 ## 소개
 
 Adobe Analytics 대시보드는 Adobe Analytics를 통해 언제 어디서나 통찰력을 제공합니다.  이 앱을 사용하는 사용자는 모바일에서 직관적인 스코어카드에 액세스할 수 있습니다. 스코어카드는 더 자세한 분류 및 트렌드 보고서용으로 탭할 수 있는 타일식 레이아웃에 표시되는 주요 지표 및 기타 구성 요소의 컬렉션입니다. 대시보드는 iOS 및 Android 운영 체제에서 모두 지원됩니다.
-
-## 이 안내서에 대한 자세한 내용
 
 이 안내서는 경영진 사용자가 Analytics 대시보드에서 스코어카드를 읽고 해석할 수 있도록 돕기 위한 것입니다. 이 앱을 사용하면 보유한 모바일 디바이스에서 중요한 요약 데이터의 광범위한 렌더링을 빠르고 쉽게 볼 수 있습니다.
 
