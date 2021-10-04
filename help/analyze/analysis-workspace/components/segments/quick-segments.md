@@ -3,9 +3,9 @@ description: Analysis Workspace에서 빠른 세그먼트 사용
 title: 빠른 세그먼트
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 빠른 세그먼트가 수행할 수 있는 작업과 완전한 구성 요소 목록 세그먼트를 비교하려면 [여기](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)로 이동하십시오.
 
 >[!IMPORTANT]
-> 빠른 세그먼트는 현재 제한된 테스트 중이며 아직 일반적으로 사용할 수 없습니다.
+> 빠른 세그먼트는 현재 제한된 테스트 중이며 2021년 10월 21일에 GA됩니다.
 
 ## 전제 조건
 
