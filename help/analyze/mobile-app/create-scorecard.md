@@ -3,9 +3,9 @@ description: Adobe Analytics 대시보드 스코어카드를 만드는 방법
 title: 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1195'
 ht-degree: 60%
 
 ---
@@ -104,7 +104,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 ### 시각화 적용
 
-이제 Analytics 대시보드는 차원 항목에 대한 통찰력을 제공하는 네 가지 시각화를 제공합니다. 타일 속성의 [!UICONTROL 차트 유형]을 변경하여 다른 시각화를 적용합니다.
+Analytics 대시보드는 차원 항목 및 지표에 대한 통찰력을 제공하는 네 가지 시각화를 제공합니다. 타일 속성의 [!UICONTROL 차트 유형]을 변경하여 다른 시각화로 변경합니다.
 
 ![타일 속성](assets/properties.png)
 
@@ -117,6 +117,8 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 **라인 시각화**
 
 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간을 차원으로 사용하는 경우에만 사용할 수 있습니다.
+
+
 
 **[!UICONTROL 가로 ] 막대 시각화**
 
