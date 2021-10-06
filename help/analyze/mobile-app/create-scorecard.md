@@ -3,9 +3,9 @@ description: Adobe Analytics 대시보드 스코어카드를 만드는 방법
 title: 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 54%
 
 ---
@@ -112,32 +112,32 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 통찰력을 제공
 
 ![시각화](assets/vizs.png)
 
-**[!UICONTROL 요약 번호]**
+### [!UICONTROL 요약 번호]
 
 프로젝트에서 중요한 큰 숫자를 강조 표시하려면 요약 번호 시각화를 사용하십시오.
 
-![요약 번호](assets/sparkline.png)
+![요약 번호](assets/summary-number.png)
 
-** Donutvisualization**
+### [!UICONTROL 도넛]
 
 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 세그먼트로 표시합니다. 합계의 백분율을 비교할 때, 도넛 그래프를 사용하십시오. 예를 들어 총 고유 방문자 수에 기여한 광고 플랫폼을 확인하려고 합니다.
 
 ![도넛 시각화](assets/donut-viz.png)
 
-**라인 시각화**
+### [!UICONTROL 라인]
 
 라인 시각화는 일정 기간 동안 값이 어떻게 변하는지를 보여주기 위해 라인을 사용하여 지표를 나타냅니다. 라인 차트는 시간에 따른 차원을 표시하지만 시각화와 함께 작동합니다. 이 예에서 제품 카테고리 차원을 시각화하고 있습니다.
 
 ![라인 시각화](assets/line.png)
 
 
-**[!UICONTROL 가로 ] 막대 시각화**
+### [!UICONTROL 가로 막대형]
 
 이 시각화는 하나 이상의 지표에서 다양한 값을 나타내는 가로 막대를 보여 줍니다. 예를 들어 상위 제품이 무엇인지 쉽게 보려면 선호하는 시각화에 [!UICONTROL 가로 막대]를 사용하십시오.
 
 ![가로 막대형](assets/horizontal.png)
 
-**지정되지   않은 차원 항목 제거**
+### [!UICONTROL 지정되지 않음] 차원 항목 제거
 
 데이터에서 [!UICONTROL 지정되지 않음] 차원 항목을 제거하려면 다음을 수행하십시오.
 
