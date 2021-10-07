@@ -1,19 +1,19 @@
 ---
 description: Adobe Analytics 대시보드 스코어카드를 만드는 방법
-title: 스코어카드 만들기
+title: 모바일 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 54%
+source-wordcount: '1349'
+ht-degree: 53%
 
 ---
 
 
-# 스코어카드 만들기
+# 모바일 스코어카드 만들기
 
-다음 정보는 Adobe Analytics 큐레이터에게 경영진 사용자의 대시보드를 구성 및 제공하는 방법에 대해 설명합니다. 시작하려면 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
+다음 정보는 Adobe Analytics 데이터 조정자에게 경영진 사용자를 위한 모바일 스코어카드를 구성하고 제공하는 방법에 대해 설명합니다. 시작하려면 Adobe Analytics 대시보드 스코어카드 빌더 비디오를 볼 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 그러면 새 날짜 범위 구성 요소를 만들고 저장할 수 있는 날짜 범위 작성기로 이동합니다.
 
 ## 시각화 적용
+
+모바일 스코어카드에 대한 시각화에 대한 비디오를 봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Analytics 대시보드는 차원 항목 및 지표에 대한 통찰력을 제공하는 네 가지 시각화를 제공합니다. 타일의 [!UICONTROL 속성]에 대한 [!UICONTROL 차트 유형]을 변경하여 다른 시각화로 변경합니다. 오른쪽 타일을 선택한 다음 차트 유형을 변경하십시오.
 

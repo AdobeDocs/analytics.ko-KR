@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 98%
+source-wordcount: '1006'
+ht-degree: 97%
 
 ---
 
@@ -312,8 +312,8 @@ ht-degree: 98%
 + Adobe Analytics 대시보드 {#mobapp}
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)
    + [큐레이터 소개](mobile-app/curator.md)
-   + [스코어카드 만들기](mobile-app/create-scorecard.md)
-   + [스코어카드를 사용하도록 경영진 설정](mobile-app/set-up-execs.md)
+   + [모바일 스코어카드 만들기](mobile-app/create-scorecard.md)
+   + [대시보드를 사용하도록 경영진 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + [보고 API](reporting-api.md)
 + [Labs](labs.md)
