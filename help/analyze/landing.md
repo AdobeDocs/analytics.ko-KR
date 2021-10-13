@@ -3,9 +3,9 @@ description: 랜딩 페이지는 Analysis Workspace와 Reports & Analytics를 Wo
 title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
 
 1. 원하는 필드를 모두 모달에 추가하고 저장합니다.
 
-   보고서가 회사 보고서 목록에 추가되며 회사의 보고서에서 사용할 수 있습니다.
+   보고서가 회사 보고서 목록에 추가되며 로그인 회사에서 사용할 수 있습니다.
 
 더 많은 학습 옵션:
 
