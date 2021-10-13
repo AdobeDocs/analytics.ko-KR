@@ -3,10 +3,10 @@ description: 랜딩 페이지는 Analysis Workspace와 Reports & Analytics를 Wo
 title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
-source-wordcount: '2982'
-ht-degree: 100%
+source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+workflow-type: tm+mt
+source-wordcount: '3235'
+ht-degree: 92%
 
 ---
 
@@ -80,7 +80,7 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 [!UICONTROL 보고서] 탭은 다음과 같은 세 가지 보고서 세트를 통합합니다.
 
 * 이전에 [!UICONTROL Workspace] > [!UICONTROL 프로젝트] > [!UICONTROL 새로 만들기] 아래에 있던 미리 빌드된 [!UICONTROL Workspace] 템플릿. Adobe는 이 컨텍스트에서 “템플릿”이라는 단어를 더 이상 사용하지 않습니다.
-* 미리 작성된 대부분의 보고서 이전 Adobe Analytics [!UICONTROL 보고서] 상단 메뉴 아래에 있는 대부분의 미리 빌드된 보고서. 이러한 보고서들은 이제 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)에 표시됩니다.
+* 미리 작성된 대부분의 보고서 이전 Adobe Analytics [!UICONTROL 보고서] 상단 메뉴 아래에 있는 대부분의 미리 빌드된 보고서. 이러한 보고서들은 이제 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en)에 표시됩니다.
 * 회사에서 사용자를 위해 빌드한 모든 보고서.
 
 >[!IMPORTANT]
@@ -91,6 +91,8 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 
 앞서 언급한 바와 같이, 이전에 Reports &amp; Analytics에 그룹화되었던 가장 일반적으로 사용되는 보고서만 여기에서 사용할 수 있습니다. 거의 사용되지 않거나 더 이상 관련이 없는 소수의 보고서는 이전되지 않았습니다. 자세한 내용은 아래 FAQ를 참조하십시오.
 
+### 메뉴 및 하위 메뉴
+
 다음은 메뉴와 해당 하위 메뉴입니다. 특정 보고서를 찾을 수 없는 경우 “페이지에서 검색”을 수행하여 찾습니다.
 
 | 메뉴 항목 | 이 메뉴 항목 아래의 보고서 |
@@ -98,9 +100,36 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | **[!UICONTROL 가장 빈도가 높음]** | <ul><li>교육 튜토리얼(기존 Workspace 템플릿)</li><li>페이지(내 상위 페이지는 무엇입니까?)</li><li>페이지 조회수(얼마나 많은 페이지 조회수를 생성하고 있습니까?)</li><li>방문수(얼마나 많은 방문을 받고 있습니까?)</li><li>방문자수(얼마나 많은 방문자를 얻고 있습니까?)</li><li>주요 지표(내 가장 중요한 지표의 성과는 어떻습니까?)</li><li>사이트 섹션(내 사이트의 어느 섹션에서 가장 많은 페이지 조회수가 생성되었습니까?)</li><li>다음 페이지(내 방문자가 다음으로 방문하는 페이지는 무엇입니까?)</li><li>이전 페이지(내 방문자가 이전에 방문한 페이지는 무엇입니까?)</li><li>캠페인(내 주요 지표를 유도하는 캠페인은 무엇입니까?)</li><li>제품(내 주요 지표를 유도하는 제품은 무엇입니까?)</li><li>마지막 터치 채널(성과가 가장 좋은 마지막 터치 채널은 무엇입니까?)</li><li>마지막 터치 채널 세부 정보(다른 채널보다 뛰어난 성과를 보이는 특정 마지막 터치 채널은 무엇입니까?)</li><li>매출(내 매출의 성과는 어떻습니까?)</li><li>주문(내 주문의 성과는 어떻습니까?)</li><li>개수(얼마나 많은 개수를 판매하고 있습니까?)</li></ul> |
 | **[!UICONTROL 참여]** | <ul><li>주요 지표(내 가장 중요한 지표의 성과는 어떻습니까?)</li><li>페이지 조회수(얼마나 많은 페이지 조회수를 생성하고 있습니까?)</li><li>페이지(내 상위 페이지는 무엇입니까?)</li><li>방문수(얼마나 많은 방문을 받고 있습니까?)</li><li>방문자수(얼마나 많은 방문자를 얻고 있습니까?)</li><li>방문당 체류 시간(내 사용자는 방문당 얼마나 많은 시간을 소비합니까?)</li><li>이벤트 이전 시간(내 사용자는 성공 이벤트 전에 얼마나 많은 시간을 소비합니까?)</li><li>사이트 섹션(내 사이트의 어느 섹션에서 가장 많은 페이지 조회수가 생성되었습니까?)</li><li>웹 콘텐츠 사용량(어떤 콘텐츠가 가장 많이 소비되고 사용자의 관심을 끌고 있습니까?)</li><li>미디어 콘텐츠 사용량(어떤 콘텐츠가 가장 많이 소비되고 사용자의 관심을 끌고 있습니까?)</li><li>다음 및 이전 페이지 흐름(내 방문자가 선택한/선택했던 다음/이전 경로는 무엇입니까?)</li><li>폴아웃(내 디지털 속성 전체에서 어디에 폴아웃이 보입니까?)</li><li>디바이스 간 분석(Analysis Workspace에서 디바이스 간 분석 사용)</li><li>웹 유지(충성도가 높은 사용자는 누구이며 그들이 무슨 작업을 수행합니까?)</li><li>미디어 오디오 사용량(오디오 사용량의 트렌드 및 주요 지표는 무엇입니까?)</li><li>미디어 최신성, 빈도, 충성도(충성도 높은 독자는 누구입니까?)</li><li>페이지 분석 > 다시 로드(어떤 페이지가 가장 많은 다시 로드를 발생시킵니까?)</li><li>페이지 분석 > 방문당 체류 시간(내 사용자가 내 페이지에서 보내는 시간은 얼마입니까?)</li><li>시작 및 종료 > 시작 페이지(상위 시작 페이지는 무엇입니까?)</li><li>시작 및 종료 > 원래 시작 페이지(내 방문자가 원래 어떤 페이지에서 입장했습니까?)</li><li>시작 및 종료 >단일 페이지 방문(단일 페이지 방문이 가장 많이 발생한 페이지는 무엇입니까?)</li><li>시작 및 종료 > 종료 페이지(상위 종료 페이지는 무엇입니까?)</li></ul> |
 | **[!UICONTROL 전환]** | <ul><li>제품 > 제품(내 주요 지표를 유도하는 제품은 무엇입니까?)</li><li>제품 > 제품 성과(성과가 가장 좋은 제품은 무엇입니까?)</li><li>제품 > 범주(내 제품 범주 중 가장 성과가 좋은 것은 무엇입니까?)</li><li>장바구니 > 장바구니(몇 명의 사용자가 장바구니에 제품을 추가했습니까?)</li><li>장바구니 > 장바구니 보기(내 방문자가 장바구니를 본 횟수는 몇 번입니까?)</li><li>장바구니 > 장바구니 추가(사용자가 얼마나 자주 장바구니에 제품을 추가합니까?)</li><li>장바구니 > 장바구니 제거(사용자가 얼마나 자주 장바구니에 제품을 제거합니까?)</li><li>구매 > 매출(내 매출의 성과는 어떻습니까?)</li><li>구매 > 주문(내 주문의 성과는 어떻습니까?)</li><li>구매 > 개수(얼마나 많은 개수를 판매하고 있습니까?)</li><li>[Magento: 마케팅 및 상거래](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#commerce)</li></ul> |
-| **[!UICONTROL 대상]** | <ul><li>사람 지표(얼마나 많은 사람들이 내 브랜드와 상호작용하고 있습니까?)</li><li>방문자 프로필 > 위치 개요(사용자들 사이에서 가장 많은 사용량을 유도하는 위치는 어디입니까?)</li><li>방문자 프로필 > 지리적 세분화 > 지리적 카운티, 지리적 미국 주, 지리적 지역, 지리적 도시, 지리적 미국 DMA(내 사용자는 어느 지역에서 방문합니까?)</li><li>방문자 프로필 > 언어(내 사용자가 선호하는 언어는 무엇입니까?)</li><li>방문자 프로필 > 시간대(내 사용자가 방문하는 시간대는 무엇입니까?)</li><li>방문자 프로필 > 도메인(내 방문자가 내 사이트에 액세스하는 데 사용하는 ISP는 무엇입니까?)</li><li>방문자 프로필 > 최상위 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 기술 개요(사람들이 내 사이트에 액세스하는 데 사용하는 기술은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 브라우저, 브라우저 유형, 브라우저 너비, 브라우저 높이(사람들이 내 사이트에 액세스하는 데 어떤 회사의 브라우저, 브라우저 버전, 너비 및 높이를 사용하고 있습니까?)</li><li>방문자 프로필 > 기술 > 운영 체제, 운영 체제 유형(내 방문자는 어떤 OS와 버전을 사용합니까?)</li><li>방문자 프로필 > 기술 > 이동통신사(내 방문자가 내 사이트에 액세스하는 데 사용하는 이동통신사는 무엇입니까?)</li><li>방문자 유지 > 재방문 주기(내 사용자의 현재 방문과 이전 방문 사이에 시간이 얼마나 걸립니까?)</li><li>방문자 유지 > 재방문 횟수(내 방문 중 재방문 사용자가 몇 명입니까?)</li><li>방문자 유지 > 방문 횟수(내 주요 지표의 대부분을 차지하는 방문 횟수 버킷은 무엇입니까?)</li><li>방문자 유지 > 판매 주기 > 고객 충성도(내 사용자는 어떤 충성도 세그먼트에 속합니까?)</li><li>방문자 유지 > 판매 주기 > 첫 구매까지 소요된 일 수(내 사용자의 첫 방문과 첫 구매 사이에 며칠이 지났습니까?)</li><li>방문자 유지 > 판매 주기 > 마지막 구매 이후 일 수(내 사용자의 현재 방문과 마지막 구매 사이에 며칠이 지났습니까?) ).</li><li>방문자 유지 > 모바일 > 디바이스 및 디바이스 유형(내 사용자가 사용하는 디바이스와 디바이스 유형은 무엇입니까?)</li><li>방문자 유지 > 모바일 > 제조업체(내 방문자가 사용하는 모바일 디바이스 제조업체는 무엇입니까?)</li><li>방문자 유지 > 모바일 > 화면 크기, 화면 높이, 화면 너비(내 방문자의 모바일 화면 크기/높이/너비는 무엇입니까?)</li><li>방문자 유지 > 모바일 > [모바일 앱 사용 현황](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 여정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 지표](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 메시지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 성과](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 보존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li></ul> |
-| **[!UICONTROL 획득]** | <ul><li>마케팅 채널 > 첫 번째 터치 채널, 첫 번째 터치 채널 세부 정보(성과가 가장 좋은 첫 번째 터치 채널과 특정 첫 번째 터치 채널은 무엇입니까?)</li><li>마케팅 채널 > 마지막 터치 채널, 마지막 터치 채널 세부 정보(성과가 가장 좋은 마지막 터치 채널과 특정 마지막 터치 채널은 무엇입니까?)</li><li>캠페인 > 캠페인(내 주요 지표를 유도하는 캠페인은 무엇입니까?)</li><li>캠페인 > 캠페인 성과(가장 많은 매출을 창출하는 캠페인은 무엇입니까?)</li><li>캠페인 > 추적 코드(어떤 캠페인 추적 코드가 가장 성과가 좋습니까?)</li><li>[웹 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#web)</li><li>[모바일 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>[Advertising Analytics 유료 검색](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#advertising)</li><li>검색 키워드 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 키워드가 주요 지표를 가장 잘 유도합니까?)</li><li>검색 엔진 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 엔진 주요 지표를 가장 잘 유도합니까?)</li><li>전체 검색 페이지 순위(내 사용자는 어떤 검색 페이지에서 방문합니까?)</li><li>참조 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>원래 참조 도메인(내 사이트를 방문하기 전에 첫 번째 도메인 사용자는 무슨 도메인에 있었습니까?)</li><li>레퍼러(사용자가 내 사이트를 클릭하기 전에 어떤 URL을 사용했습니까?)</li><li>레퍼러 유형(내 추천 URL은 어떤 범주에 속합니까?)</li></ul> |
-| **[!UICONTROL 회사 보고서]** | 회사가 사용자의 사용을 위해 만든 보고서입니다. |
+| **[!UICONTROL 대상]** | <ul><li>사람 지표(얼마나 많은 사람들이 내 브랜드와 상호작용하고 있습니까?)</li><li>방문자 프로필 > 위치 개요(사용자들 사이에서 가장 많은 사용량을 유도하는 위치는 어디입니까?)</li><li>방문자 프로필 > 지리적 세분화 > 지리적 카운티, 지리적 미국 주, 지리적 지역, 지리적 도시, 지리적 미국 DMA(내 사용자는 어느 지역에서 방문합니까?)</li><li>방문자 프로필 > 언어(내 사용자가 선호하는 언어는 무엇입니까?)</li><li>방문자 프로필 > 시간대(내 사용자가 방문하는 시간대는 무엇입니까?)</li><li>방문자 프로필 > 도메인(내 방문자가 내 사이트에 액세스하는 데 사용하는 ISP는 무엇입니까?)</li><li>방문자 프로필 > 최상위 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 기술 개요(사람들이 내 사이트에 액세스하는 데 사용하는 기술은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 브라우저, 브라우저 유형, 브라우저 너비, 브라우저 높이(사람들이 내 사이트에 액세스하는 데 어떤 회사의 브라우저, 브라우저 버전, 너비 및 높이를 사용하고 있습니까?)</li><li>방문자 프로필 > 기술 > 운영 체제, 운영 체제 유형(내 방문자는 어떤 OS와 버전을 사용합니까?)</li><li>방문자 프로필 > 기술 > 이동통신사(내 방문자가 내 사이트에 액세스하는 데 사용하는 이동통신사는 무엇입니까?)</li><li>방문자 유지 > 재방문 주기(내 사용자의 현재 방문과 이전 방문 사이에 시간이 얼마나 걸립니까?)</li><li>방문자 유지 > 재방문 횟수(내 방문 중 재방문 사용자가 몇 명입니까?)</li><li>방문자 유지 > 방문 횟수(내 주요 지표의 대부분을 차지하는 방문 횟수 버킷은 무엇입니까?)</li><li>방문자 유지 > 판매 주기 > 고객 충성도(내 사용자는 어떤 충성도 세그먼트에 속합니까?)</li><li>방문자 유지 > 판매 주기 > 첫 구매까지 소요된 일 수(내 사용자의 첫 방문과 첫 구매 사이에 며칠이 지났습니까?)</li><li>방문자 유지 > 판매 주기 > 마지막 구매 이후 일 수(내 사용자의 현재 방문과 마지막 구매 사이에 며칠이 지났습니까?) ).</li><li>방문자 유지 > 모바일 > 디바이스 및 디바이스 유형(내 사용자가 사용하는 디바이스와 디바이스 유형은 무엇입니까?)</li><li>방문자 유지 > 모바일 > 제조업체(내 방문자가 사용하는 모바일 디바이스 제조업체는 무엇입니까?)</li><li>방문자 유지 > 모바일 > 화면 크기, 화면 높이, 화면 너비(내 방문자의 모바일 화면 크기/높이/너비는 무엇입니까?)</li><li>방문자 유지 > 모바일 > [모바일 앱 사용 현황](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 여정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 지표](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 메시지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 성과](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 보존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li></ul> |
+| **[!UICONTROL 획득]** | <ul><li>마케팅 채널 > 첫 번째 터치 채널, 첫 번째 터치 채널 세부 정보(성과가 가장 좋은 첫 번째 터치 채널과 특정 첫 번째 터치 채널은 무엇입니까?)</li><li>마케팅 채널 > 마지막 터치 채널, 마지막 터치 채널 세부 정보(성과가 가장 좋은 마지막 터치 채널과 특정 마지막 터치 채널은 무엇입니까?)</li><li>캠페인 > 캠페인(내 주요 지표를 유도하는 캠페인은 무엇입니까?)</li><li>캠페인 > 캠페인 성과(가장 많은 매출을 창출하는 캠페인은 무엇입니까?)</li><li>캠페인 > 추적 코드(어떤 캠페인 추적 코드가 가장 성과가 좋습니까?)</li><li>[웹 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#web)</li><li>[모바일 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics 유료 검색](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#advertising)</li><li>검색 키워드 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 키워드가 주요 지표를 가장 잘 유도합니까?)</li><li>검색 엔진 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 엔진 주요 지표를 가장 잘 유도합니까?)</li><li>전체 검색 페이지 순위(내 사용자는 어떤 검색 페이지에서 방문합니까?)</li><li>참조 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>원래 참조 도메인(내 사이트를 방문하기 전에 첫 번째 도메인 사용자는 무슨 도메인에 있었습니까?)</li><li>레퍼러(사용자가 내 사이트를 클릭하기 전에 어떤 URL을 사용했습니까?)</li><li>레퍼러 유형(내 추천 URL은 어떤 범주에 속합니까?)</li></ul> |
+| **[!UICONTROL 회사 보고서]** | 회사가 사용자의 사용을 위해 만든 보고서입니다. 아래의 &quot;회사 보고서 만들기&quot;를 참조하십시오. |
+
+### 템플릿 위치(이제 보고서라고 함)
+
+| 보고서(템플릿) 이름 | 보고서 위치 |
+| --- | --- |
+| 교육 튜토리얼 | 가장 자주 사용하는 > 교육 자습서 |
+| 웹 컨텐츠 사용량 | 참여 > 웹 컨텐츠 사용량 |
+| 미디어 컨텐츠 사용량 | 참여 > 미디어 컨텐츠 사용량 |
+| 교차 장치 분석 | 참여 > 교차 장치 분석 |
+| 웹 유지 | 참여 > 웹 유지 |
+| 미디어 오디오 소비 | 참여 > 미디어 오디오 소비 |
+| 최근 미디어, 빈도, 충성도 | 참여 > 미디어 최신성, 빈도, 충성도 |
+| ITP 영향 | 참여 > ITP 영향 |
+| 제품 성능 | 전환 > 제품 > 제품 성능 |
+| Magento: 마케팅 및 상거래 | 전환 > Magento: 마케팅 및 상거래 |
+| 사용자 메트릭 | 대상 > 사람 지표 |
+| 위치 개요 | 대상 > 방문자 프로필 > 위치 개요 |
+| 기술 개요 | 대상 > 방문자 프로필 > 기술 > 기술 개요 |
+| 모바일 앱 사용 현황 | 대상 > 모바일 > 모바일 앱 사용 |
+| 모바일 앱 여정 | 대상 > 모바일 > 모바일 앱 여정 |
+| 모바일 앱 지표 | 대상 > 모바일 > 모바일 앱 메시지 |
+| 모바일 앱 성능 | 대상 > 모바일 > 모바일 앱 성능 |
+| 모바일 앱 유지 | 대상 > 모바일 > 모바일 앱 유지 |
+| 캠페인 성과 | 획득 > 캠페인 > 캠페인 성과 |
+| 모바일 획득 | 획득 > 모바일 획득 |
+| 웹 획득 | 획득 > 웹 획득 |
+| Advertising Analytics: 유료 검색 | 획득 > Advertising Analytics: 유료 검색 |
 
 ### 보고서 탭 사용
 
@@ -119,6 +148,21 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
    * 하나 이상의 세그먼트를 상단의 세그먼트 드롭 영역으로 드래그할 수 있습니다. 예를 들어 [!UICONTROL 모바일 고객]을 드래그하여 결과가 변경되는지 확인합니다.
    * 오른쪽 상단의 달력으로 이동하여 날짜 범위를 변경할 수 있습니다.
    * 차원 분류를 추가하고, 다른 지표를 드래그하고, 일반적으로 원하는 방식으로 보고서를 사용자 지정할 수 있습니다.
+
+### (사용자 지정) 회사 보고서 만들기
+
+사용자 지정 보고서는 회사 보고서라고 하며 회사 보고서 메뉴에 있습니다(아래 참조). 이전에 만든 모든 항목 및 새 항목이 여기에 나열됩니다.
+
+새 회사 보고서를 만들려면,
+
+1. 원하는 상태로 작업 공간을 작성합니다.
+1. [!UICONTROL Project] 메뉴를 열고 **[!UICONTROL 회사 보고서로 저장...]**&#x200B;을 클릭합니다.
+
+   ![회사 보고서](assets/company-report.png)
+
+1. 원하는 필드를 모두 모달에 추가하고 저장합니다.
+
+   보고서가 회사 보고서 목록에 추가되며 회사의 보고서에서 사용할 수 있습니다.
 
 더 많은 학습 옵션:
 
