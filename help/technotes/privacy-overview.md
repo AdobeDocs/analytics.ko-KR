@@ -5,9 +5,9 @@ title: 개인정보 보호 개요
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,11 +63,11 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
  <tbody> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
-   <td colname="col2"> 고객은 특히 분석에 필요하지 않은 개인식별정보 (PII)를 Adobe에 전달하지 않는 것이 좋습니다. </td> 
+   <td colname="col2"> 고객은 특히 분석에 필요하지 않은 개인식별정보(PII)를 Adobe에 전달하지 않는 것이 좋습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
-   <td colname="col2"> 사용자는 프로파일링 시 관련 통지 및 선택권을 제공받아야 합니다. 이는 캐나다, 오스트레일리아, 유럽 연합 (일부 국가의 경우 옵트인)과 중남미 및 아시아 태평양의 많은 국가에서 법으로 의무화하고 있습니다. </td> 
+   <td colname="col2"> 사용자는 프로파일링 시 관련 통지 및 선택권을 제공받아야 합니다. 이는 캐나다, 오스트레일리아, 유럽 연합(일부 국가의 경우 옵트인)과 중남미 및 아시아 태평양의 많은 국가에서 법으로 의무화하고 있습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
@@ -75,11 +75,11 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
-   <td colname="col2"> 자사 분석은 온라인 행동 광고 ("AdChoices")에 대한 자율 규제 프로그램의 범위에 포함되지 않습니다. </td> 
+   <td colname="col2"> 자사 분석은 온라인 행동 광고("AdChoices")에 대한 자율 규제 프로그램의 범위에 포함되지 않습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
-   <td colname="col2"> 디바이스 간 데이터는 고객이 제공한 식별자 (해시된 사용자 이름 등)에 연결되어 있지 않은 한 병합되면 안 됩니다. </td> 
+   <td colname="col2"> 디바이스 간 데이터는 고객이 제공한 식별자(해시된 사용자 이름 등)에 연결되어 있지 않은 한 병합되면 안 됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
@@ -91,7 +91,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 유럽 </td> 
-   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨 (x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값 (x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음을 참조하십시오 </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">관리자 </a> 가이드의 일반 계정 설정 .</p> </td>
+   <td colname="col2"> Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨 (x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값 (x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. <p>이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. </p> <p> 관리자 안내서의 <a href="/help/admin/admin/general-acct-settings-admin.md">일반 계정 설정</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> 글로벌 </td> 
@@ -103,7 +103,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 독일 </td> 
-   <td colname="col2"> <p>고객에게 적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, 고객은 Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들은 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. </p> <p>Adobe는 Analytics에 대해 바이에른 데이터 보호 기구 (Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA)가 검토하고 승인한 데이터 처리 계약 (Vertrag fuer Auftragsdatenverarbeitung – ADV)을 마련했습니다. ADV는 독일어와 영어로 이용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>고객에게 적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, 고객은 Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들은 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. </p> <p>Adobe는 Analytics에 대해 바이에른 데이터 보호 기구(Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA)가 검토하고 승인한 데이터 처리 계약(Vertrag fuer Auftragsdatenverarbeitung – ADV)을 마련했습니다. ADV는 독일어와 영어로 이용할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>멀티채널 분석, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
