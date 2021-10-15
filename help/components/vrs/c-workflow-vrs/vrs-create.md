@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 97%
 | 보고서 시간 처리 활성화 | 보고서 시간 처리를 사용하여 기본 방문 시간 초과 길이를 변경합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. [추가 정보](/help/components/vrs/vrs-report-time-processing.md) |
 | 방문 시간 초과 | 새로운 방문이 자동으로 시작되기 전에 고유 방문자가 보유해야 하는 비활성의 양을 정의합니다. 방문 횟수 지표, 방문 세그먼트 컨테이너 및 방문 시 만료되는 eVar에 영향을 미칩니다. |
 | 이벤트로 새 방문 시작 | 세션의 시간이 초과되었는지 여부와 상관없이 지정된 이벤트가 발생하는 경우 새 세션을 시작합니다. |
-| **모바일 앱 방문 설정** | Adobe의 Mobile SDK에서 수집한 모바일 앱 조회 수에 대해 방문 횟수가 정의되는 방식을 수정합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. |
-| 배경 조회 수로 인해 새로운 방문이 시작되지 않도록 차단 | 배경 조회 수로 인해 새로운 방문이 시작되지 않고 방문 횟수 및 고유 방문자 지표가 부풀려지지 않도록 차단합니다. |
+| **모바일 앱 방문 설정** | Adobe의 Mobile SDK에서 수집한 모바일 앱 조회수에 대해 방문 횟수가 정의되는 방식을 수정합니다. 이러한 설정은 비파괴적이며 Analysis Workspace에만 적용됩니다. |
+| 배경 조회수로 인해 새로운 방문이 시작되지 않도록 차단 | 배경 조회수로 인해 새로운 방문이 시작되지 않고 방문 횟수 및 고유 방문자 지표가 부풀려지지 않도록 차단합니다. |
 | 앱 실행 시마다 새 방문 시작 | 앱 실행이 발생하면 새 세션을 시작합니다. [추가 정보](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## 구성 요소를 포함하고 이름을 변경합니다
@@ -63,7 +63,7 @@ ht-degree: 97%
 ![](assets/components.png)
 
 1. [!UICONTROL 구성 요소] 탭에서 이 가상 리포트 세트에 대한 구성 요소를 Analysis Workspace에서 포함, 제외 및 이름을 변경하기 위해 큐레이션을 적용할 체크박스를 선택하십시오.
-VRS 큐레이션에 대한 자세한 정보는 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ko#virtual-report-suites)을 참조하십시오.
+VRS 큐레이션에 대한 자세한 정보는 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ko-KR?lang=ko#virtual-report-suites)을 참조하십시오.
 
 1. VRS에 포함할 구성 요소(차원, 지표, 세그먼트 또는 날짜 범위)를 [!UICONTROL 포함 구성 요소] 섹션으로 끌어다 놓습니다.
 
