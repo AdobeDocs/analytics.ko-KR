@@ -4,9 +4,9 @@ title: 가상 보고서 세트 구성 요소 큐레이션
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->구성 요소 관리자 및 비관리자가 선별된 Workspace 프로젝트 및 선별된 가상 보고서 세트 (VRS)에서 볼 수 있도록 변경되었습니다. 이전에는 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. [업데이트된 조정 환경](/help/analyze/analysis-workspace/curate-share/curate.md)에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
+>구성 요소 관리자 및 비관리자가 선별된 Workspace 프로젝트 및 선별된 가상 보고서 세트(VRS)에서 볼 수 있도록 변경되었습니다. 이전에는 **[!UICONTROL 모든 구성 요소 표시]**&#x200B;를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. [업데이트된 조정 환경](/help/analyze/analysis-workspace/curate-share/curate.md)에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.
 
 구성 요소 큐레이션을 사용하려면 다음을 수행하십시오.
 
@@ -51,7 +51,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >조정된 구성 요소 (세그먼트, 계산된 지표, 날짜 범위)를 더 이상 *공유*&#x200B;하지 않아도 됩니다. 이러한 구성 요소가 공유되지 않아도 가상 보고서 세트에 대해 조정된 경우 항상 Analysis Workspace에 표시됩니다.
+   >조정된 구성 요소(세그먼트, 계산된 지표, 날짜 범위)를 더 이상 *공유*&#x200B;하지 않아도 됩니다. 이러한 구성 요소가 공유되지 않아도 가상 보고서 세트에 대해 조정된 경우 항상 Analysis Workspace에 표시됩니다.
 
 1. 또한 **[!UICONTROL 모두 추가]**&#x200B;를 클릭하여 구성 요소를 필터링하거나 검색하고 필터링된 전체 선택을 포함된 열에 추가할 수 있습니다.
 
