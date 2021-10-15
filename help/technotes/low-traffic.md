@@ -5,9 +5,9 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ Adobe는 보고서에 고유 값이 많으면 그중 가장 중요한 값이 보
    * 리포트에 값이 이미 표시되는 경우 평소와 같이 해당 값에 추가합니다.
    * 리포트에 값이 아직 표시되지 않는 경우 [!UICONTROL 낮은 트래픽] 라인 항목에 표시될 것입니다. [!UICONTROL 낮은 트래픽] 라인 항목에 포함된 값이 짧은 시간 내에 상당히 여러 번 표시되면 고유의 라인 항목으로 인식되기 시작합니다. 상당히 여러 번 항목을 확인해야 하는데, 이는 해당 보고서 세트에 대한 데이터를 처리하는 서버 및 데몬 수와 같은 많은 종속성을 가집니다.
 
-왜 Adobe는 항목을 [!UICONTROL 낮은 트래픽] 라인 항목에서 고유의 라인 항목으로 이동시킵니까? 예를 들어, 그렇게 이동하면 인기 있는 새 페이지나 (고유값을 초과한 후) 월말에 추가된 새 항목을 인식하여 많은 조회 수를 얻을 수 있습니다. 이러한 이동은 매일 또는 매월 일정 수의 히트/뷰를 얻는 모든 항목을 갖기 위한 것은 아닙니다.
+왜 Adobe는 항목을 [!UICONTROL 낮은 트래픽] 라인 항목에서 고유의 라인 항목으로 이동시킵니까? 예를 들어, 그렇게 이동하면 인기 있는 새 페이지나 (고유값을 초과한 후) 월말에 추가된 새 항목을 인식하여 많은 조회수를 얻을 수 있습니다. 이러한 이동은 매일 또는 매월 일정 수의 히트/뷰를 얻는 모든 항목을 갖기 위한 것은 아닙니다.
 
 >[!NOTE]
->페이지 조회 수에는 [!UICONTROL pagename]/[!UICONTROL page_url]에 대한 값만 포함되지 않습니다. 페이지 조회 테이블에는 [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] 및 클릭 컨텍스트(이전 Clickmap 데이터)와 같은 여러 열/필드가 포함되어 있습니다.
+>페이지 조회 카운트에는 [!UICONTROL pagename]/[!UICONTROL page_url]에 대한 값만 포함되지 않습니다. 페이지 조회 테이블에는[!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url]과 같은 열/필드와 클릭 시 표시되는 컨텍스트(이전 ClickMap 데이터)가 포함되어 있습니다.
 
 ## 고유한 임계값 제한 변경
 
