@@ -3,15 +3,15 @@ title: 장바구니
 description: 방문자가 장바구니에 첫 번째 제품을 추가한 히트의 수입니다.
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 장바구니
 
-장바구니 수 지표는 방문자가 장바구니에 첫 번째 제품을 추가한 히트의 수를 보여줍니다.
+‘장바구니’ 지표에 방문자가 장바구니에 첫 번째 제품을 추가한 히트의 수가 표시됩니다.
 
 ## 이 지표의 계산 방법
 
