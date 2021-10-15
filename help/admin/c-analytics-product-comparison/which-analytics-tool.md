@@ -4,9 +4,9 @@ title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1168'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)에서 확인하십시오.
 
-다음은 다양한 Adobe Analytics 도구를 비교하는 비디오입니다.
+다음은 Adobe Analytics 도구를 비교하는 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
 
@@ -89,7 +89,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 **[Report Builder](/help/analyze/report-builder/home.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * Workspace의 사용자 정의 레이아웃 옵션이 제한적인 경우 (Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
-* 사용자 입력 또는 오프라인 데이터 소스 (노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
+* 사용자 입력 또는 오프라인 데이터 소스(노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
 * 서로 다른 측정기준의 보고서의 데이터 병합 (예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
 * 서로 다른 보고서 세트의 데이터를 합치거나 나란히 같은 테이블에 표시하여 병합합니다.
 * 예약을 통한 자동화가 필요한 경우 (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
@@ -114,7 +114,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * **실시간**: 실제 상황보다 조금 지연된 상태로 몇 가지 지표 및 측정기준을 보려는 경우. 30초 이내에 사용할 수 있는 제한적이고 부분적으로 처리된 요약 데이터입니다. 가장 인기 있는 승자 및 패자의 고유한 알고리즘을 포함합니다. Report Builder를 통해 사용할 수 있습니다.
 * **[!UICONTROL 라이브 스트리밍]**: 몇 초 간 수집한 데이터 내에서 부분적으로 처리된 히트 수준의 Analytics 데이터 스트림을 원하는 경우. 30초 이내에 사용할 수 있는 부분적으로 처리된 데이터입니다. Analytics Premium에서만 사용할 수 있습니다. 일반적으로 엔지니어링 서비스 계약을 통해 데이터를 시각화할 수 있는 방법이 필요합니다.
 
-## 맞춤 솔루션 {#custom-solutions}
+## 사용자 지정 솔루션 {#custom-solutions}
 
 다음의 경우 엔지니어링 서비스가 필요합니다.
 
