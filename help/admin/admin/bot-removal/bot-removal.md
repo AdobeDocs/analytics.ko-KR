@@ -3,9 +3,9 @@ title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 방법
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +49,11 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-이 데이터 요소가 설정되고 나면 [이 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구로 전달합니다.
+이 데이터 요소가 설정되고 나면 [이 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구로 전달합니다.
 
 ### 2단계: 세그먼테이션을 사용하여 보트 식별
 
-이제 방문자의 ECID가 선언된 ID에 전달되었으므로 [Analysis Workspace의 세그먼테이션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html)을 사용하여 보트처럼 행동하는 방문자를 식별할 수 있습니다. 보트는 단일 액세스 방문, 비정상적인 사용자 에이전트, 알 수 없는 디바이스/브라우저 정보, 레퍼러 없음, 새 방문자 수, 비정상적인 랜딩 페이지 같은 그들의 행동으로 정의됩니다. Workspace 드릴다운 및 세그먼테이션의 기능을 사용하여 IAB 필터링 및 보고서 세트 보트 규칙을 회피하는 보트를 식별합니다. 다음은 사용할 수 있는 세그먼트의 스크린샷의 예입니다.
+이제 방문자의 ECID가 선언된 ID에 전달되었으므로 [Analysis Workspace의 세그먼테이션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=ko-KR)을 사용하여 보트처럼 행동하는 방문자를 식별할 수 있습니다. 보트는 단일 액세스 방문, 비정상적인 사용자 에이전트, 알 수 없는 디바이스/브라우저 정보, 레퍼러 없음, 새 방문자 수, 비정상적인 랜딩 페이지 같은 그들의 행동으로 정의됩니다. Workspace 드릴다운 및 세그먼테이션의 기능을 사용하여 IAB 필터링 및 보고서 세트 보트 규칙을 회피하는 보트를 식별합니다. 다음은 사용할 수 있는 세그먼트의 스크린샷의 예입니다.
 
 ![](assets/bot-filter-seg1.png)
 
@@ -92,4 +92,4 @@ Data Warehouse 보고서가 도착하면 내역 데이터에서 필터링해야 
 
 ### 7단계: 2~4단계를 정기적으로 반복 수행
 
-정기적으로 예약된 분석을 수행하기 전에, 적어도 월별 미리 알림을 설정하여 새 보트를 식별하고 필터링합니다.
+정기적으로 예약된 분석을 수행하기 전에 적어도 월별 미리 알림을 설정하여 새 보트를 식별하고 필터링합니다.
