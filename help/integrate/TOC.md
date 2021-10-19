@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud, Target 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
       + [광고 계정 관리](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 문제 해결](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [FAQ](c-advertising-analytics/aa-faq.md)
++ [Advertising Cloud용 Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
 + [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)
 + [Analytics의 Adobe Campaign 보고](adobe-campaign.md)
 + [Analytics 데이터와 Campaign Classic 통합](analytics-to-campaign-classic.md)

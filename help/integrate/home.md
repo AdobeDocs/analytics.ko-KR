@@ -2,10 +2,10 @@
 title: Analytics 통합
 description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방법을 살펴보십시오.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +19,7 @@ Audience Manager, Advertising Cloud 또는 Target과 같은 기타 Adobe Experie
 
 * **Audience Analytics:** Adobe Audience Manager를 Adobe Analytics와 통합합니다.
 * **Advertising Analytics:** 유료 검색 데이터를 Adobe Analytics 데이터와 나란히 볼 수 있습니다.
+* **Advertising Cloud용 Analytics:** Adobe Analytics과 Adobe Advertising Cloud을 통합하여 각 제품의 기능을 확장 및 향상시킵니다
 * **Analytics for Target:** A4T는 Adobe Analytics와 Adobe Target을 통합합니다.
 * **Adobe Campaign 보고:** Adobe Analytics를 Adobe Campaign과 통합합니다.
 * **AEM Assets 보고:** Adobe Experience Manager에서 제공되는 에셋에 대한 노출 횟수 및 클릭 수를 수집할 수 있습니다.
