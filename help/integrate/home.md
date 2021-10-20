@@ -2,10 +2,10 @@
 title: Analytics 통합
 description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방법을 살펴보십시오.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
+source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 89%
+source-wordcount: '188'
+ht-degree: 84%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 89%
 
 ![배너](../../assets/doc_banner_integrate.png)
 
-이 안내서는 여러 Experience Cloud 솔루션의 통합에 중점을 두고 있습니다. Analytics data connectors를 찾으려면 가져오기 사용 안내서의 [Data connectors](/help/import/data-connectors/getting-started-data-connectors.md) 페이지를 참조하십시오.
+이 안내서는 여러 Adobe Experience Cloud 솔루션의 통합에 중점을 두고 있습니다. Analytics data connectors를 찾으려면 가져오기 사용 안내서의 [Data connectors](/help/import/data-connectors/getting-started-data-connectors.md) 페이지를 참조하십시오.
 
 Audience Manager, Advertising Cloud 또는 Target과 같은 기타 Adobe Experience Cloud 솔루션과의 통합을 구성합니다. 이러한 서비스에는 다음이 포함됩니다.
 
