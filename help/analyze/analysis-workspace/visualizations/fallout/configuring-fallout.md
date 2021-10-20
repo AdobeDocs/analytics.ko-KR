@@ -2,13 +2,13 @@
 description: 터치포인트를 지정하여 차원이 여러 개인 폴아웃 시퀀스를 만드십시오.
 title: 폴아웃 시각화 구성
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>최종 경로 </p> <p>(기본값) </p> </td> 
-   <td colname="col2"> <p>결국 경로에 있는 다음 페이지에 도달하지만, 다음 히트에서 도달할 필요는 없는 방문자가 카운트됩니다. </p> </td> 
+   <td colname="col2"> <p>방문자(또는 방문)는 결국 경로에서 다음 터치 포인트에 도달하면 카운트됩니다. 터치포인트 사이에 디테우가 허용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음 히트 </p> </td> 
-   <td colname="col2"> <p>다로 다음 히트에서 경로에 있는 다음 페이지에 도달하는 방문자가 카운트됩니다. </p> </td> 
+   <td colname="col2"> <p>방문자(또는 방문)는 경로에서 다음 터치 포인트에 즉시 도착할 때 카운트됩니다. 다음 히트에는 모든 히트 유형(페이지 보기 또는 링크)이 포함됩니다. 터치포인트 간에는 디테일이 허용되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
