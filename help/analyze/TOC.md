@@ -7,7 +7,7 @@ user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 An
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 97%
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [미디어 재생 시간 패널](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [미디어 재생 소요 시간 패널](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
       + 세그먼트 비교 패널 {#segment-comparison}
          + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

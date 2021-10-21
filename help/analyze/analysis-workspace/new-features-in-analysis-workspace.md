@@ -43,7 +43,7 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 | --- | --- |
-| 선 시각화: [평균 트렌드 라인 이동 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ko-KR) | **[!UICONTROL 이동 평균]**&#x200B;이 [!UICONTROL 선] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트 (**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
+| 선 시각화: [평균 트렌드 라인 이동 옵션](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ko-KR) | **[!UICONTROL 이동 평균]**&#x200B;이 [!UICONTROL 선] 시각화 트렌드 라인 설정에 추가되었습니다. 롤링 평균이라고도 하는 이동 평균은 특정 수의 데이터 포인트(**[!UICONTROL 기간]** 선택에 의해 결정됨)를 사용하고 평균을 계산하여 선의 한 지점으로 사용합니다. |
 | [성능 도움말 페이지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ko-KR) | Analysis Workspace 성능 도움말 페이지에는 프로젝트 성능에 영향을 주는 다양한 요인과 최적화를 위한 팁의 링크가 표시됩니다. |
 
 ## 2020년 9월
@@ -76,7 +76,7 @@ ht-degree: 100%
 | 속성 IQ: 사용자 지정 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko-KR#lookback-windows) |
 | 공유 Workspace 프로젝트에 대한 프로젝트 역할 | 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
 | 보기 전용 Workspace 프로젝트 | Workspace 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ko-KR) |
-| Workspace 프로젝트 공동 편집 기능 | “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Workspace 프로젝트 공동 편집 기능 | “편집 가능“ 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로를 선택하는 더 원활한 방법을 제공합니다. |
 | 빠른 인사이트 패널 (2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Workspace의 Analytics for Target 패널 (2020년 6월 25일) | Analytics for Target (A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -185,7 +185,7 @@ ht-degree: 100%
 
 | 기능 | 설명 |
 |--- |--- |
-| [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블 (포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원 (시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
+| [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
 | [속성 IQ에서 여러 값 변수 지원](attribution/overview.md) | Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
 | 성능 향상 | 분류 속도 개선으로 분류가 많은 프로젝트가 더 빠르게 로드됩니다. |
@@ -296,9 +296,9 @@ ht-degree: 100%
    <td colname="col1"> <p><b> 왼쪽 레일 개선 사항 </b> </p> </td> 
    <td colname="col2"> <p>왼쪽 레일을 보다 직관적이고 사용하기 쉽게 하는 개선 사항: </p> 
     <ul id="ul_087BEDF4338946DA857CD82CB69F98C2"> 
-     <li id="li_C751AACAC60442DC93118F0819F8EEA7"> 구성 요소 (지표, 세그먼트, 날짜)에 대한 함수 생성을 헤더에 맞게 만들었습니다. </li> 
+     <li id="li_C751AACAC60442DC93118F0819F8EEA7"> 구성 요소(지표, 세그먼트, 날짜)에 대한 함수 생성을 헤더에 맞게 만들었습니다. </li> 
      <li id="li_DE2EB184A02D4CE58C23F518DB85EFDD"> 5개 이상의 옵션이 있음을 명확히 하기 위해 각 섹션 목록의 맨 아래에 "+ 모두 보기"를 추가했습니다. </li> 
-     <li id="li_5208F3C6026647B09F4A85131B175175">구성 요소를 선택할 때 아이콘으로 작업 (태그, 즐겨찾기 등)을 표시했습니다. </li> 
+     <li id="li_5208F3C6026647B09F4A85131B175175">구성 요소를 선택할 때 아이콘으로 작업(태그, 즐겨찾기 등)을 표시했습니다. </li> 
      <li id="li_11E601488A844515928231E09889BC54">사용자 인터페이스를 미적으로 개선했습니다. </li> 
     </ul> </td> 
   </tr> 
@@ -327,7 +327,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 동적 차원 열 </a> </b> </p> </td> 
-   <td colname="col2"> <p>이전에는 열에서 차원을 삭제할 때 시간이 아닌 차원에 대한 상위 5개 값 (시간 차원의 경우 15개)을 표시하고 이러한 값을 정적 (즉, 선택된 5개 값은 변경되지 않음)으로 유지합니다. </p> <p>이제 기본적으로 정적 값 대신 정적 값으로 변경하는 옵션과 함께 동적 값을 표시합니다. 기타 참고 사항: </p> 
+   <td colname="col2"> <p>이전에는 열에서 차원을 삭제할 때 시간이 아닌 차원에 대한 상위 5개 값(시간 차원의 경우 15개)을 표시하고 이러한 값을 정적(즉, 선택된 5개 값은 변경되지 않음)으로 유지합니다. </p> <p>이제 기본적으로 정적 값 대신 정적 값으로 변경하는 옵션과 함께 동적 값을 표시합니다. 기타 참고 사항: </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">동적 차원에서 (i) 기호를 클릭하면 순위 (상위 1/5) 및 차원 유형이 표시됩니다. </li> 
      <li id="li_588F6199E38D47869AC855A4C2A4D1B7">데이터가 업데이트되면 현재 5/15 차원 항목을 업데이트하도록 동적 차원 열이 업데이트됩니다. </li> 
@@ -437,7 +437,7 @@ ht-degree: 100%
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 사용자 지정 템플릿 </a> </p> </td> 
    <td colname="col2"> <p>최근 릴리스된 사용자 지정 템플릿의 경우 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
-     <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">편집 템플릿 모드를 템플릿을 프로젝트의 시작점으로 사용하는 것과 구분하는 데 도움이 되도록 프로젝트 맨 위 (제목 근처)에 템플릿 아이콘을 추가했습니다. </li> 
+     <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">편집 템플릿 모드를 템플릿을 프로젝트의 시작점으로 사용하는 것과 구분하는 데 도움이 되도록 프로젝트 맨 위(제목 근처)에 템플릿 아이콘을 추가했습니다. </li> 
      <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">[Analysis Workspace에서 프로젝트 생성/구성] 권한이 부여된 경우 관리자가 아닌 사용자가 Workspace 프로젝트 템플릿을 생성 (다른 이름으로 저장)하고 편집할 수 있도록 허용합니다. ( <span class="ignoretag"> <span class="uicontrol"> 관리 </span>  &gt; <span class="uicontrol"> 모든 관리 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>  &gt; <span class="uicontrol"> 그룹 </span>  &gt; <span class="uicontrol"> 모든 리포트 액세스 편집 </span>  &gt; <span class="uicontrol"> Analytics 도구 사용자 지정 </span>  &gt; <span class="uicontrol"> Analysis Workspace에서 프로젝트 생성/구성 </span> </span>). </li> 
     </ul> </td> 
   </tr> 
@@ -520,7 +520,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 패널 및 프로젝트에서 <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  >시각화/패널 복사 및 붙여넣기</a> </p> </td> 
-   <td colname="col2"> <p>이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 ("삽입") 수 있습니다. </p> <p>이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 "문서 블록" (사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이제 시각화 또는 패널을 마우스 오른쪽 버튼으로 클릭하고 복사한 다음 복사한 요소를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣을 ("삽입") 수 있습니다. </p> <p>이 기능을 사용하면 다른 프로젝트에 복사할 수 있는 "문서 블록"(사전 정의된 시각화/패널)을 작성하여 비즈니스와 관련된 데이터로 빠르게 시작할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >"메시지" 및 "위치"에 대한 새 모바일 템플릿</a> </p> </td> 
@@ -598,19 +598,19 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 맵 시각화 </a> </p> </td> 
-   <td colname="col2"> <p>새로운 맵 시각화를 사용하면 위치 컨텍스트 내에서 고객 상호 작용을 쉽게 볼 수 있습니다. 매크로 (전역) 보기에서 마이크로 (도시) 보기에 이르기까지 시각화에서 다양한 계층 구조 수준을 쉽게 확대 및 축소하여 지역의 사용자 클러스터를 볼 수 있습니다. </p> <p>IP 주소 (비모바일 데이터 세트)를 통해 위치 데이터를 시각화하거나 위도 및 경도 데이터 (Mobile SDK를 사용하는 고객)를 Analysis Workspace에서 실제로 사용할 수 있습니다.amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>새로운 맵 시각화를 사용하면 위치 컨텍스트 내에서 고객 상호 작용을 쉽게 볼 수 있습니다. 매크로 (전역) 보기에서 마이크로 (도시) 보기에 이르기까지 시각화에서 다양한 계층 구조 수준을 쉽게 확대 및 축소하여 지역의 사용자 클러스터를 볼 수 있습니다. </p> <p>IP 주소(비모바일 데이터 세트)를 통해 위치 데이터를 시각화하거나 위도 및 경도 데이터 (Mobile SDK를 사용하는 고객)를 Analysis Workspace에서 실제로 사용할 수 있습니다.&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 트렌드 시각화를 위한 세부기간 선택기 </a> </p> </td> 
-   <td colname="col2"> <p>데이터 소스의 차원이 시간 차원인 경우 시간 세부기간 사이를 쉽게 전환할 수 있습니다. 시각화 설정의 드롭다운에서 세부기간을 전환할 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 트렌드 시각화를 위한 세부 기간 선택기 </a> </p> </td> 
+   <td colname="col2"> <p>데이터 소스의 차원이 시간 차원인 경우 시간 세부 기간 사이를 쉽게 전환할 수 있습니다. 시각화 설정의 드롭다운에서 세부 기간을 전환할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 세그먼트 드롭 영역의 전체 크기 및 이벤트 </a> </p> </td> 
-   <td colname="col2"> <p>이전에는 차원 항목, 날짜 범위 또는 세그먼트만 세그먼트 드롭 영역으로 끌어 놓을 수 있었습니다. 이제 전체 차원 또는 이벤트를 세그먼트 드롭 영역으로 끌어 놓을 수 있습니다. 두 경우 모두 Analysis Workspace에서 "존재하는" 히트 세그먼트를 만듭니다. </p> <p>예: "eVar1이 있는 위치 히트" 또는 "event1이 있는 위치 히트". </p> <p>참고: 계산된 지표를 세그먼트 영역으로 끌어 놓을 수 없습니다. 세그먼트를 작성할 수 있는 차원/지표만 세그먼트 영역에 적합합니다. </p> </td> 
+   <td colname="col2"> <p>이전에는 차원 항목, 날짜 범위 또는 세그먼트만 세그먼트 드롭 영역으로 끌어 놓을 수 있었습니다. 이제 전체 차원 또는 이벤트를 세그먼트 드롭 영역으로 끌어 놓을 수 있습니다. 두 경우 모두 Analysis Workspace에서 "존재하는" 히트 세그먼트를 만듭니다. </p> <p>예: "Hit where eVar1 exists" 또는 "Hit where event1 exists". </p> <p>참고: 계산된 지표를 세그먼트 영역으로 끌어 놓을 수 없습니다. 세그먼트를 작성할 수 있는 차원/지표만 세그먼트 영역에 적합합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 데이터 소스 설정에 나열된 연결된 시각화 </a> </p> </td> 
-   <td colname="col2"> <p>자유 형식 또는 집단 테이블에 시각화가 연결된 경우 왼쪽 상단 점 (데이터 소스 설정)에 연결된 시각화가 나열됩니다. 마우스를 이동하면 연결된 시각화가 강조 표시되고, 클릭하면 해당 시각화로 이동합니다. </p> <p>또한 데이터 테이블을 표시하거나 숨길 수 있는 "데이터 테이블 표시/숨기기" 확인란이 있습니다. </p> </td> 
+   <td colname="col2"> <p>자유 형식 또는 집단 테이블에 시각화가 연결된 경우 왼쪽 상단 점(데이터 소스 설정)에 연결된 시각화가 나열됩니다. 마우스를 이동하면 연결된 시각화가 강조 표시되고, 클릭하면 해당 시각화로 이동합니다. </p> <p>또한 데이터 테이블을 표시하거나 숨길 수 있는 "데이터 테이블 표시/숨기기" 확인란이 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 왼쪽 레일 이벤트 이름에 추가된 이벤트 번호 </a> </p> </td> 
@@ -735,7 +735,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md"  > 지능형 경고: 추가 신뢰 구간 </a> </p> </td> 
-   <td colname="col2"> <p>예외 항목 탐지 기반 경보의 경우 두 가지 새로운 신뢰 수준 (99.75% 및 99.9%)이 추가되었습니다. 일부 세부기간 선택에 대한 기본값도 변경되었습니다. </p> 
+   <td colname="col2"> <p>예외 항목 탐지 기반 경보의 경우 두 가지 새로운 신뢰 수준 (99.75% 및 99.9%)이 추가되었습니다. 일부 세부 기간 선택에 대한 기본값도 변경되었습니다. </p> 
     <ul id="ul_EB1F07A4D2204D57B2DDD9838CE4F5D9"> 
      <li id="li_542AAACE703F4EBFBD91F11F5ABC2929">시간별: 현재 99.75% </li> 
      <li id="li_D01E4598FB33473FAAC5D60441FD081B"> 일별: 현재 99% </li> 
@@ -758,7 +758,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/text.md"  > 리치 텍스트 편집기 </a></b> </p> </td> 
-   <td colname="col2"> <p>텍스트 상자 시각화 및 패널 / 시각화 설명 내의 글꼴 설정 (굵기, 기울임체 등)과 하이퍼링크를 변경할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>텍스트 상자 시각화 및 패널 / 시각화 설명 내의 글꼴 설정(굵기, 기울임체 등)과 하이퍼링크를 변경할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > 인트라 링크 (빠른 시각화 링크) </a></b> </p> </td> 
@@ -766,11 +766,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE"  > 범례 레이블 편집 </a></b> </p> </td> 
-   <td colname="col2"> <p>시각화 범례 (폴아웃, 영역, 스택 영역, 막대, 스택 막대, 도넛, 막대 그래프, 가로 막대, 스택 가로 막대, 라인, 분산형 및 벤)에서 시리즈 이름을 바꾸게 하여 시각 자료를 더욱 잘 소비하게 해 줍니다. </p> <p>트리맵, 글 머리 기호, 요약 변경 또는 숫자, 텍스트, 자유 형식, 막대 그래프, 집단 또는 플로우 시각화에는 범례 편집이 적용되지 <b>않습니다</b>. </p> </td> 
+   <td colname="col2"> <p>시각화 범례(폴아웃, 영역, 스택 영역, 막대, 스택 막대, 도넛, 막대 그래프, 가로 막대, 스택 가로 막대, 라인, 분산형 및 벤)에서 시리즈 이름을 바꾸게 하여 시각 자료를 더욱 잘 소비하게 해 줍니다. </p> <p>트리맵, 글 머리 기호, 요약 변경 또는 숫자, 텍스트, 자유 형식, 막대 그래프, 집단 또는 플로우 시각화에는 범례 편집이 적용되지 <b>않습니다</b>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 데이터 소스 관리에 대한 업데이트 </a></b> </p> </td> 
-   <td colname="col2"> <p>데이터 소스 (시각화를 가능하게 함)를 관리하는 방법을 재개발했습니다. 데이터 소스를 테이블에 잠그면 더 이상 별도의 숨겨진 테이블이 없습니다. </p> <p>대신 해당 보기를 이것으로 만든 테이블에 계속 연결하게 됩니다. 이렇게 하면 세부기간을 변경한 후 다음 프로젝트로드 시 이전 세부기간으로 되돌리는 실시간 연결 테이블의 버그도 해결됩니다. </p> </td> 
+   <td colname="col2"> <p>데이터 소스(시각화를 가능하게 함)를 관리하는 방법을 재개발했습니다. 데이터 소스를 테이블에 잠그면 더 이상 별도의 숨겨진 테이블이 없습니다. </p> <p>대신 해당 보기를 이것으로 만든 테이블에 계속 연결하게 됩니다. 이렇게 하면 세부 기간을 변경한 후 다음 프로젝트로드 시 이전 세부 기간으로 되돌리는 실시간 연결 테이블의 버그도 해결됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 특정 예외 항목을 강조 표시하는 기능 </a></b> </p> </td> 
@@ -806,7 +806,7 @@ ht-degree: 100%
      <li id="li_C8093834980B43A094FA9E2A7906E135">무제한 세그먼트 비교 가능 </li> 
      <li id="li_45D709C9B04F4E6A9BD94FD03E0C80FA">터치포인트 그룹의 이름을 지정하고 더욱 쉽게 관리하는 기능이 추가되었습니다(추가, 제거, 이동 등). </li> 
      <li id="li_BC609CDFD9AA4EB081987922DB318040">마우스 오른쪽 버튼으로 클릭 &gt; <span class="uicontrol">트렌드 터치포인트 %</span>: 전체 폴아웃 비율 트렌드가 표시됩니다. </li> 
-     <li id="li_C72BB725368644DDA3FCE479A918CDB3">마우스 오른쪽 버튼으로 클릭 &gt; <span class="uicontrol">트렌드 전체 터치포인트 %</span>: 동일한 차트에 폴아웃 (<span class="wintitle">모든 방문</span>이 포함된 경우 이 방문 제외)의 모든 터치포인트 비율 트렌드가 표시됩니다. </li> 
+     <li id="li_C72BB725368644DDA3FCE479A918CDB3">마우스 오른쪽 버튼으로 클릭 &gt; <span class="uicontrol">트렌드 전체 터치포인트 %</span>: 동일한 차트에 폴아웃(<span class="wintitle">모든 방문</span>이 포함된 경우 이 방문 제외)의 모든 터치포인트 비율 트렌드가 표시됩니다. </li> 
      <li id="li_40D0A8B481B04F21BEC0A4E421C77865">개별 터치포인트를 경로 내의 다음 히트로 (결과적으로 실행되는 것과 대조적으로) 제한하는 기능 </li> 
     </ul> </td> 
   </tr> 
@@ -822,7 +822,7 @@ ht-degree: 100%
    <td colname="col2"> Reports &amp; Analytics 캘린더와 다음 사항이 일치하도록 캘린더가 변경되었습니다. 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">처음 클릭하면 날짜 범위 선택이 시작됩니다. 그런 다음 날짜 범위의 끝을 선택하는 두 번째 클릭까지 범위를 양쪽 방향으로 강조 표시합니다. 첫 번째 날짜를 클릭한 채로 Shift 키를 누르면 (또는 마우스 오른쪽 버튼을 클릭하면) 이 날짜가 범위에 추가됩니다. </li> 
-     <li id="li_C3BEC56ABCED482C82A41EA0550B3077">다양한 롤링 날짜 부분에 대한 전환 확인 기간이 확장 (예: 최장 2년 전까지 추적 가능)되었습니다. </li> 
+     <li id="li_C3BEC56ABCED482C82A41EA0550B3077">다양한 롤링 날짜 부분에 대한 전환 확인 기간이 확장(예: 최장 2년 전까지 추적 가능)되었습니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -936,7 +936,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  >날짜 범위 (세그먼트에서)</a> </p> </td> 
-   <td colname="col2"> <p>세그먼트의 놓을 지점 (예: 패널 세그먼트의 놓을 지점, 폴아웃 시각화 세그먼트의 놓을 지점 등)에 날짜 범위를 끌어다 놓을 수 있습니다. 날짜 범위는 자동으로 세그먼트로 변환됩니다. 날짜 범위를 사용자 정의하거나 사용자 정의하지 않을 수 있지만, 시간/일/주/월/분기/년과 같은 세부 기간을 지정할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>세그먼트의 놓을 지점(예: 패널 세그먼트의 놓을 지점, 폴아웃 시각화 세그먼트의 놓을 지점 등)에 날짜 범위를 끌어다 놓을 수 있습니다. 날짜 범위는 자동으로 세그먼트로 변환됩니다. 날짜 범위를 사용자 정의하거나 사용자 정의하지 않을 수 있지만, 시간/일/주/월/분기/년과 같은 세부 기간을 지정할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 테이블의 각 열에 기간 추가 </a> </p> </td> 
@@ -1034,7 +1034,7 @@ ht-degree: 100%
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->다음과 같은 작업을 하는 기능인 태그, 즐겨찾기, 승인, <b>공유 (새로운 기능!)"작업" 버튼을 왼쪽 내비게이션 레일에 추가했습니다.</b>, <b>삭제 (새로운 기능!)</b>과 같은 작업을 포함하는 왼쪽 탐색 레일에 "작업" 버튼을 추가했습니다. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">태그, 즐겨찾기, 승인된 항목 및 구성 요소에 대해 필터링할 수 있도록 해 주는 검색 막대에 필터를 추가했습니다. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">세그먼트, 지표, 날짜 범위를 미리 볼 수 있도록 해 주는 미리보기 아이콘을 수동 행 (측정 기준 항목을 나열하는 다이내믹 행이 아님)에 추가했습니다. </li>  
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">세그먼트, 지표, 날짜 범위를 미리 볼 수 있도록 해 주는 미리보기 아이콘을 수동 행(측정 기준 항목을 나열하는 다이내믹 행이 아님)에 추가했습니다. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->시각화를 위해 컨텍스트 메뉴에서 <span class="uicontrol">시작</span>이라는 마우스 오른쪽 버튼으로 클릭하여 표시되는 선택 사항을 추가했습니다(플로우, 벤, 히스토그램에 대해 작동하게 됨). 이 선택 사항을 사용하면 현재 시각화에 대한 구성이 삭제되고, 다시 구성할 수 있는 새 패널이 열립니다. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">새로운 시각화 설정 "범례 표시"를 사용하면 요약 번호/요약 변경 사항 시각화에 대한 필터 세부 사항을 숨길 수 있습니다. </li> 
@@ -1113,7 +1113,7 @@ ht-degree: 100%
 
 ![](assets/undo.png)
 
-실행 취소를 위해 표준 Windows와 Mac [키보드 단축키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (ctrl 또는 cmd + z)를 사용할 수도 있습니다.
+실행 취소를 위해 표준 Windows와 Mac [키보드 단축키](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)(ctrl 또는 cmd + z)를 사용할 수도 있습니다.
 
 *`Undo`*&#x200B;는 테이블에서 분류를 실행 취소할 때 특히 유용합니다.
 
@@ -1144,11 +1144,11 @@ ht-degree: 100%
 
 **글머리 기호 그래프**
 
-중요한 값이 다른 성능 범위 (목표)에 대해 비교되거나 측정되는 방식을 볼 수 있습니다.
+중요한 값이 다른 성능 범위(목표)에 대해 비교되거나 측정되는 방식을 볼 수 있습니다.
 
 ![](assets/bullet-image.png)
 
-글머리 기호 그래프는 단일 기본 측정을 수행하고 (예: 올해 초부터 현재까지 매출), 해당 측정값을 하나 이상의 다른 측정값과 비교하여 의미를 보완하고 (예: 목표 매출과 비교), 성과의 품질 범위 (예: 높음, 중간, 낮음) 컨텍스트에서 표시합니다. [!UICONTROL 시각화 설정]에서 목표 범위를 지정할 수 있습니다.
+글머리 기호 그래프는 단일 기본 측정을 수행하고(예: 올해 초부터 현재까지 매출), 해당 측정값을 하나 이상의 다른 측정값과 비교하여 의미를 보완하고(예: 목표 매출과 비교), 성과의 품질 범위(예: 높음, 중간, 낮음) 컨텍스트에서 표시합니다. [!UICONTROL 시각화 설정]에서 목표 범위를 지정할 수 있습니다.
 
 **산포도**
 
