@@ -5,10 +5,10 @@ uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 100%
+source-wordcount: '992'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->텍스트(href 아님)에 개인 식별 정보(PII)를 포함할 수 있는 모든 링크는 [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)를 사용하거나 [s.ActivityMap.linkExclusions 또는 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)로 ActivityMap 링크 컬렉션을 제외하여 명시적으로 구현해야 합니다. Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](/help/analyze/activity-map/lnk-tracking-overview.md)에서 확인하십시오.
+>텍스트(href 아님)에 개인 식별 정보(PII)를 포함할 수 있는 모든 링크는 [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ko-KR)를 사용하거나 [s.ActivityMap.linkExclusions 또는 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars)로 ActivityMap 링크 컬렉션을 제외하여 명시적으로 구현해야 합니다. Activity Map이 PII 데이터를 수집하는 방법에 대한 자세한 내용은 [여기](/help/analyze/activity-map/lnk-tracking-overview.md)에서 확인하십시오.
 
 Activity Map은 다음 두 ID를 기반으로 링크를 추적합니다.
 
@@ -117,102 +117,105 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 다음 변수들은 참조용으로만 제공됩니다. Activity Map은 설치 즉시 적절하게 구성되지만, 다음 변수들을 사용하여 구현을 사용자 지정할 수 있습니다.
 
-<table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 변수 이름 </th> 
-   <th colname="col2" class="entry"> 예 </th> 
-   <th colname="col3" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
-   <td colname="col2"> 기본값을 "id" 매개 변수로 지정합니다. 이 변수를 다른 매개 변수로 설정할 수 있습니다. </td> 
-   <td colname="col3"> s.linkObject의 일부 상위(parent, parent.parent, ...) 요소, 즉 <b>클릭한 요소</b>의 영역 ID로 사용할 태그 속성을 식별하는 문자열입니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.link </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;linkId;</code><br/>
-    <code>&nbsp;&nbsp;if&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A')&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title');</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;return&nbsp;linkId;</code><br/>
-    <code>}</code> </td>
-   <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭한 링크</b>를 나타내는 문자열 값을 반환해야 하는 함수. <br/>
-      <br/>
-     반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.region </td> 
-   <td colname="col2"> 
-        <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;regionId,&nbsp;className;</code><br/>
-    <code>&nbsp;&nbsp;while&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement&nbsp;=&nbsp;clickedElement.parentNode))&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(regionId)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;regionId.toLowerCase();</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>}</code> </td> 
-   <td colname="col3"> 클릭한 HTMLElement를 받고, <b>클릭했을 때 링크가 있었던 영역</b>을 나타내는 문자열 값을 반환해야 하는 함수. <br/>
-      <br/>
-     반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.linkExclusions </td> 
-   <td colname="col2"> 
-     <code>//&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class</code><br/>
-    <code>&lt;style&gt;</code><br/>
-    <code>.linkExcluded&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;display:&nbsp;block;</code><br/>
-    <code>&nbsp;&nbsp;height:&nbsp;1px;</code><br/>
-    <code>&nbsp;&nbsp;left:&nbsp;-9999px;</code><br/>
-    <code>&nbsp;&nbsp;overflow:&nbsp;hidden;</code><br/>
-    <code>&nbsp;&nbsp;position:&nbsp;absolute;</code><br/>
-    <code>&nbsp;&nbsp;width:&nbsp;1px;</code><br/>
-    <code>}</code><br/>
-    <code>&lt;/style&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> 링크 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.regionExclusions </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap</code><br/>
-    <code>&lt;div&nbsp;id="links-included"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;div&nbsp;id="links-excluded"&gt;&nbsp;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> 영역 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다. </td>
-  </tr>
- </tbody>
-</table>
+### `s.ActivityMap.regionIDAttribute`
+
+의 일부 상위 요소(parent, parent.parent, ...) 요소에서 지역 ID로 사용할 태그 속성을 식별하는 문자열입니다 `s.linkObject`예, **클릭한 요소**.
+
+**예**
+
+기본값을 &quot;id&quot; 매개 변수로 지정합니다. 이 변수를 다른 매개 변수로 설정할 수 있습니다.
+
+### `s.ActivityMap.link`
+
+클릭한 항목을 수신하는 함수 `HTMLElement` 및 는 클릭한 링크를 나타내는 문자열 값을 반환해야 합니다. 반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다.
+
+**예**
+
+```
+// only ever use "title" attributes from A tags
+function(clickedElement) {
+  var linkId;
+  if (clickedElement && clickedElement.tagName.toUpperCase() === 'A') {
+    linkId = clickedElement.getAttribute('title');
+  }
+  return linkId;
+}
+```
+
+### `s.ActivityMap.region`
+
+클릭한 HTMLElement를 받고, **클릭했을 때 링크가 있었던 영역을 나타내는 문자열 값을 반환해야 하는 함수.** 반환 값이 false일 경우(null, 정의되지 않음, 빈 문자열, 0), 링크가 추적되지 않습니다.
+
+**예**
+
+```
+// only ever use lowercase version of tag name concatenated with first className as the region
+function(clickedElement) {
+  var regionId, className;
+  while (clickedElement && (clickedElement = clickedElement.parentNode)) {
+    regionId = clickedElement.tagName;
+    if (regionId) {
+      return regionId.toLowerCase();
+    }
+  }
+}
+```
+
+### `s.ActivityMap.linkExclusions`
+
+링크 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다.
+
+**예**
+
+```
+// Exclude links tagged with a special linkExcluded CSS class
+<style>
+.linkExcluded {
+  display: block;
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+</style>
+<a href="next-page.html">
+  Link is tracked because link does not have hidden text matching the filter. 
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link1</span>
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link2</span>
+</a>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2';
+</script>
+```
+
+### `s.ActivityMap.regionExclusions`
+
+영역 텍스트에서 검색할 문자열의 쉼표 구분 목록을 받는 문자열입니다. 검색되면, 링크는 Activity Map에 의해 추적되지 않도록 제외됩니다. 설정되지 않은 경우에는 Activity Map에 의한 링크 추적을 중지하기 위한 시도가 수행되지 않습니다.
+
+**예**
+
+```
+// Exclude regions on the page from its links being trackable by ActivityMap
+<div id="links-included">
+  <a href="next-page.html">
+    Link is tracked because s.ActivityMap.regionExclusions is set but does not match the filter.
+  </a>
+</div>
+<div id="links-excluded"> 
+  <a href="next-page.html">
+    Link not tracked because s.ActivityMap.regionExclusions is set and this link matches the filter.
+  </a>
+</div>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.regionExclusions = 'links-excluded';
+</script>
+```
