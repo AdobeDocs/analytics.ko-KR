@@ -5,10 +5,10 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Activity Map에서는 페이지 활동의 보조 보고 기능을 제공하기 �
 
 ![](assets/standard_mode.png)
 
-이 모드에서는 &quot;기여도&quot;가 활성화되어 있지 않은 상거래 지표가 선형적으로 할당됩니다. 예를 들어, 사용자가 홈 페이지의 &quot;IPod mini&quot; 링크를 클릭하고 3페이지를 더 이동하고, 4번째 페이지에서 200달러에 iPod mini를 구입하는 경우, iPod mini 링크는 기여도 매출 200달러와 매출 50달러(200달러/4)(선형적으로 할당된 매출)를 받게 됩니다.
+이 모드에서는 &quot;기여도&quot;가 활성화되어 있지 않은 상거래 지표가 선형적으로 할당됩니다. 예를 들어, 사용자가 홈 페이지의 &quot;IPod mini&quot; 링크를 클릭하고 3페이지를 더 이동하고, 4페이지에서 사용자는 200달러에 IPod 미니 를 구매합니다. iPod mini 링크는 기여도 매출 200달러와 매출 50달러(200달러/4)(선형적으로 할당된 매출)를 받게 됩니다.
 
 Q: 페이지의 별도 지역에 링크 이름이 동일한 링크가 있다면 어떻게 합니까? 페이지에서 링크 이름이 동일하지만 지역이 다르므로 두 링크는 따로따로 크레딧을 받습니까?
 
