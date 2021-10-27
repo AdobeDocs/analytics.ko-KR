@@ -3,9 +3,9 @@ title: Adobe Analytics에 대한 기술 설명서 업데이트
 description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2957'
 ht-degree: 99%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 99%
 | 날짜 | 설명 |
 | --- | --- |
 | **2021년 10월** |  |
-| 2021년 10월 7일 | 모바일 스코어카드에 대한 [시각화에 대한 새 설명서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
+| 2021년 10월 21일 | 에 대한 새 설명서 [빠른 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) Analysis Workspace |
+| 2021년 10월 21일 | 에 대한 새 설명서 [미디어 재생 시간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html?lang=ko-KR) Analysis Workspace 패널. |
+| 2021년 10월 7일 | 에 대한 새 설명서 [모바일 스코어카드에 대한 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **2021년 8월** |  |
 | 2021년 8월 18일 | 수정된 최상위 구조 및 단일 [랜딩 페이지](https://experienceleague.adobe.com/docs/analytics.html)로 통합 |
 | 2021년 8월 18일 | [A4T 및 가상 보고서 세트](/help/components/vrs/vrs-a4t.md)에 대한 새 주제 |
@@ -145,6 +147,6 @@ ht-degree: 99%
 | 2019년 3월 14일 | [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
 | 2019년 2월 7일 | [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)의 &quot;IP 주소의 마지막 옥텟을 0으로 바꾸기&quot; 및 &quot;IP 난독 처리&quot; 설정에 대한 부분 업데이트입니다. |
 | 2019년 2월 1일 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
-| 2019년 1월 17일 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블 (포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원 (시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
+| 2019년 1월 17일 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 집단 분석의 주요 개선 사항을 통해 다음을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | 2019년 1월 17일 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
 | 2019년 1월 17일 | [속성 IQ에서 여러 값 변수 지원](/help/analyze/analysis-workspace/attribution/overview.md). Analytics의 일부 차원에는 listVars, 제품 변수, 목록 속성 또는 머천다이징 eVars 등의 단일 히트에 대한 여러 값이 포함되어 있을 수 있습니다. Analysis Workspace를 사용하면 속성 IQ를 히트 레벨의 모든 유형의 변수에 적용할 수 있습니다. |
