@@ -1,13 +1,13 @@
 ---
-title: Analysis Workspace에서의 사용자 환경 설정 방법
-description: 사용자를 위한 일반 프로젝트 환경을 설정할 수 있습니다.
-feature: Workspace 기본 사항
+title: Analysis Workspace에서 사용자 환경 설정을 설정하는 방법
+description: 사용자에 대한 일반 및 프로젝트 환경 설정과 어두운 테마 환경 설정을 설정할 수 있습니다.
+feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 79%
 
 ---
 
@@ -41,3 +41,13 @@ ht-degree: 100%
 |  | [패널 유형](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=) | <ul><li>자유형 (기본값)</li><li>빈</li><li>빠른 인사이트</li></ul> |
 |  | 번호 형식 | <ul><li>1,000.00 (기본값)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 구분 기호 문자 | <ul><li>쉼표 (기본값)</li><li>세미콜론</li><li>콜론</li><li>파이프</li><li>기간</li><li>공백</li><li>탭</li></ul> |
+
+## [!UICONTROL 어두운 테마]
+
+Adobe Analytics 사용자 인터페이스에 어두운 배경을 사용하려는 경우 다음과 같이 전환할 수 있습니다 [!UICONTROL 어두운 테마].
+
+1. 오른쪽 상단에 있는 Experience Cloud 사용자 아이콘을 클릭합니다.
+
+   ![어두운 테마](assets/dark-theme.png)
+
+1. 이동 **[!UICONTROL 어두운 테마]** 오른쪽으로 전환합니다.
