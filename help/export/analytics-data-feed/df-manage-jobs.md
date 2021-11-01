@@ -2,11 +2,10 @@
 title: 데이터 피드 작업 관리
 description: 데이터 피드에서 개별 작업을 관리하는 방법을 알아봅니다.
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '495'
-ht-degree: 100%
+source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +60,7 @@ ht-degree: 100%
    * 데이터 대기 중: 작업이 작동 중이고 보고 기간 동안의 데이터가 수집되고 있습니다.
    * 처리 중: 작업에서 데이터 파일을 만들어 보낼 준비를 하고 있습니다.
    * 완료됨: 작업이 아무런 문제 없이 완료되었습니다.
-   * 실패: 작업이 완료되지 않았습니다. 실패의 원인을 파악하는 데 도움이 필요하면 [작업 문제 해결](jobs-troubleshooting.md)을 참조하십시오.
+   * 실패: 작업이 완료되지 않았습니다. 자세한 내용은 [데이터 피드 문제 해결](troubleshooting.md) 실패의 원인을 파악하는 데 도움이 됩니다.
    * 내보내기 대기 중: 보고 기간 동안의 데이터가 아직 완전히 처리되지 않았습니다.
    * 데이터 없음: 요청한 보고 기간 동안 보고서 세트에 데이터가 없습니다.
 * **완료 시간**: 작업이 완료된 시간입니다. 날짜 및 시간은 보고서 세트의 시간대에서 GMT 오프셋을 사용하여 표시됩니다.
