@@ -1,17 +1,20 @@
 ---
 description: Reports & Analytics을 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법에 대해 이해합니다.
 title: Reports and Analytics 시작하기
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
 # Reports &amp; Analytics 시작하기
+
+>[!NOTE]
+>이 제품은 북미나 그 제품이 실제로 판매되는 다른 지역에서 판매할 수 있는 권한이 있으며 다른 국가나 지역에서 판매하기 위한 요구 사항을 충족하지 못할 수도 있습니다.
 
 Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
 
@@ -31,15 +34,10 @@ Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그�
 
 Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 및 시스템 요구 사항.
 
-* 브라우저:
+>[!NOTE]
+>Adobe는 2018년 11월 13일에 Adobe Analytics 내에서 Internet Explorer 11에 대한 지원을 종료했습니다. 가능한 빨리 Microsoft Edge 또는 다른 지원되는 브라우저로 전환하십시오.
 
-   * 권장: 최신 버전의 Firefox, Chrome, Safari 또는 Edge.
-   * 최신 버전의 Microsoft Internet Explorer 11
-
-      >[!NOTE]
-      >
-      >Adobe는 2018년 11월 13일에 Adobe Analytics 내에서 Internet Explorer 11에 대한 지원을 종료했습니다. 가능한 빨리 Microsoft Edge 또는 다른 지원되는 브라우저로 전환하십시오.
-
+* 기본 설정 브라우저: Firefox, Chrome, Safari 또는 Edge의 최신 버전입니다.
 * 쿠키와 JavaScript가 활성화되어 있어야 합니다.
 * 16비트 색상 깊이 (이상)의 1024x768 모니터 해상도
 
