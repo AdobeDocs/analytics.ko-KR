@@ -2,17 +2,20 @@
 title: 데이터 피드 UI
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다.
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 
 # 데이터 피드 관리
 
 데이터 피드 관리자는 조직의 데이터 피드를 생성, 편집 및 삭제할 수 있도록 해줍니다. 데이터 피드 관리자에 액세스할 수 있는 권한이 있으면 표시되는 모든 보고서 세트에 대한 데이터 피드를 관리할 수 있습니다.
+
+다음은 데이터 피드 관리 UI에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
 다음 절차에 따라 데이터 피드 관리에 액세스하십시오.
 

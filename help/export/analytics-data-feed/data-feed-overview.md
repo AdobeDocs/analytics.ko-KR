@@ -4,10 +4,10 @@ keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Analytics 데이터 피드 개요
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 98%
 
 ---
 
@@ -67,4 +67,8 @@ ht-degree: 100%
 
 데이터 피드 인터페이스를 탐색하는 비디오:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html?lang=ko-KR)
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+
+데이터 피드 ID를 찾는 방법에 대한 비디오:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)

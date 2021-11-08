@@ -3,13 +3,13 @@ description: Analysis Workspace에서 차원 및 차원 항목을 분류합니�
 keywords: Analysis Workspace
 title: 차원 분류
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 88%
 
 ---
 
@@ -30,12 +30,22 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
    >
    >테이블에 표시되는 분류의 수는 200개로 제한됩니다. 이 제한은 분류 내보내기에 대해서는 증가합니다.
 
-[Analysis Workspace에서 프로젝트에 차원 및 지표 추가](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=en)  (11:39)
-
-[자유 형식 테이블에서 차원 작업](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html?lang=ko-KR)  (15:35)
-
 ## 분류에 속성 모델 적용
 
 테이블 내의 모든 분류에는 모든 속성 모델이 적용될 수 있습니다. 이 속성 모델은 상위 열과 동일하거나 다를 수 있습니다. 예를 들어, 마케팅 채널 차원에서 선형 주문을 분석하고 채널 내 특정 추적 코드에 U자형 주문을 적용할 수 있습니다. 분류에 적용되는 속성 모델을 편집하려면 다음과 같이 분류 모델 위로 마우스를 이동하고&#x200B;**[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
 ![분류 설정](assets/breakdown_settings.png)
+
+## 비디오
+
+Analysis Workspace에서 프로젝트에 차원 및 지표 추가:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+
+자유 형식 테이블에서 차원 작업:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+
+다음은 위치별 차원 분류에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)

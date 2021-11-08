@@ -5,9 +5,9 @@ title: 타임스탬프 옵션 사용
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # 타임스탬프 옵션 사용
 
 타임스탬프 옵션 설정 사용에 대한 이점 및 제한 사항에 대해 알아봅니다.
+
+다음은 주제에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 타임스탬프 옵션은 모든 새 보고서 세트에 대한 기본 설정입니다.
 
@@ -34,7 +38,6 @@ ht-degree: 100%
 
 * **타임스탬프 데이터**. 클라이언트측 타임스탬프 데이터는 클라이언트측 타임스탬프 변수 (웹 페이지의 JavaScript)를 사용하거나 모바일 앱에서 Mobile SDK 호출 ([!DNL offlineEnabled=true])을 사용하여 디바이스 데이터로 직접 전송됩니다.
 * **비타임스탬프 데이터**. Adobe에서는 데이터가 수집 서버를 히트하면 보고서 세트에서 타임스탬프가 지정되지 않은 데이터에 대해 타임스탬프를 설정합니다.
-
 
 보고서 세트에는 다음 타임스탬프 설정 중 하나가 있을 수 있습니다.
 

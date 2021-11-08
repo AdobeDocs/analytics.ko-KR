@@ -2,19 +2,23 @@
 description: Workspace 프로젝트에서 폴아웃 시각화를 사용합니다.
 title: 폴아웃 개요
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
 # 폴아웃 개요
 
 폴아웃 시각화 요소에서 더 많은 폴아웃 보고서 작성 옵션을 제공합니다. 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다.
+
+다음은 폴아웃 시각화에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
 폴아웃 시각화 요소를 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -33,8 +37,6 @@ ht-degree: 100%
 * 사이트의 특정 프로세스를 통한 전환율 (예: 구매 또는 등록 프로세스)
 * 일반적이고 폭 넓은 범위의 트래픽 플로우: 홈 페이지를 방문자 중에서 몇 명이 검색을 수행했으며, 결국 몇 명이 특정 항목을 찾았는가를 표시합니다.
 * 사이트에 있는 이벤트 간의 상관 관계. 상관 관계는 개인정보 보호정책을 본 방문자 중 제품을 구매한 비율을 보여 줍니다.
-
-[폴아웃 시각화 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ko-KR)  (4:15)
 
 ## 플로우 및 폴아웃을 위한 기초로서의 세그먼테이션 {#section_654F37A398C24DDDB1552A543EE29AA9}
 

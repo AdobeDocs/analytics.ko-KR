@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 96%
 
 ---
 
@@ -24,21 +24,17 @@ Activity Map은 시각적 오버레이를 사용하여 링크 활동의 등급�
 
 Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식별하는 다양한 보기를 설정하고, 마케팅 이니셔티브를 수치화하고 대상의 필요 사항과 행동에 따라 대응할 수 있습니다.
 
-다음은 Activity Map에 대한 비디오 개요입니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**관리자용 시작하기**
+## 관리자용 시작하기
 
 * [Activity Map 활성화](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [샘플 구현 코드](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**사용자용 시작하기**
+## 사용자용 시작하기
 
 * [Activity Map 브라우저 플러그인 설치](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map 실행](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Activity Map 기능**
+## Activity Map 기능
 
 * [강력한 링크 추적](lnk-tracking-overview.md)
 * [표준 모드와 라이브 모드 비교](activitymap-standard-live.md)
@@ -57,3 +53,13 @@ Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식�
 * [Activity Map 사용자 인터페이스](activitymap-user-interface.md)
 * [Analytics에서의 Activity Map 보고](activitymap-reporting-analytics.md)
 * [브라우저 확장 문제 해결](troubleshooting-browser-extensions.md)
+
+## 비디오
+
+Activity Map 개요:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+Activity Map 활성화, 비활성화 및 사용자 지정:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

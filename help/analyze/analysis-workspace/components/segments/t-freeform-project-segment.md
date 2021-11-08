@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -26,9 +26,15 @@ ht-degree: 91%
 | - 계산된 지표 기반 세그먼트 | [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ko-KR) | 계산된 개별 지표에 | 지표 정의 내 세그먼트 적용 |
 | - VRS 기반 세그먼트 | [가상 보고서 세트 빌더](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko-KR) | 개별 가상 보고서 세트에 | VRS 정의 내 세그먼트 적용 |
 
-다음은 Analysis Workspace에서의 세그먼트 사용에 대한 비디오입니다.
+## 비디오
+
+Analysis Workspace에서 세그먼트 사용:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+세그먼트 찾기 및 만들기:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## 세그먼트 만들기 {#section_693CFADA668B4542B982446C2B4CF0F5}
 

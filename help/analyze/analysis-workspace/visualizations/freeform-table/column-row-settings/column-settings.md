@@ -2,13 +2,13 @@
 description: 열 설정을 사용하면 열 서식을 구성할 수 있으며, 열 서식 일부는 조건부일 수 있습니다.
 title: 열 설정
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: 자유 형식 테이블
+feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -69,3 +69,9 @@ Analysis Workspace은 거의 모든 지표에 대한 [속성](/help/analyze/anal
 >
 >* [데이터 소스 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
+
+## 다이내믹 열
+
+다음은 Analysis Workspace에서 동적 열을 사용하는 방법에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
