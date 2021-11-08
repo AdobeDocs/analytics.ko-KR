@@ -3,11 +3,10 @@ description: 가상 보고서 세트의 컨텍스트 인식 세션은 Adobe Anal
 title: 컨텍스트 인식 세션
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1556'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1563'
+ht-degree: 99%
 
 ---
 
@@ -16,6 +15,10 @@ ht-degree: 100%
 가상 보고서 세트의 컨텍스트 인식 세션은 Adobe Analytics에서 모든 장치의 방문 횟수를 계산하는 방식을 변경합니다. 이 문서에서는 모바일 방문 정의 방법에 대한 배경 히트 수 및 앱 실행 이벤트 (모바일 SDK로 설정된 두 가지 모두)의 처리 의미에 대해서도 설명합니다.
 
 기본 데이터를 변경하지 않고 원하는 방식으로 방문을 정의하여 방문자가 디지털 환경과 상호 작용하는 방식과 일치시킬 수 있습니다.
+
+다음은 컨텍스트 인식 세션에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 ## 고객 관점 URL 매개 변수
 

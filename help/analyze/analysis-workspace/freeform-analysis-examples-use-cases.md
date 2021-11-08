@@ -2,13 +2,12 @@
 description: 데이터 테이블과 세그먼트를 사용하는 방법의 예이며 Analysis Workspace에 대한 사용 사례 아이디어입니다.
 keywords: Analysis Workspace
 title: Analysis Workspace 사용 사례
-feature: Reports & Analytics 기본 사항
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -62,3 +61,8 @@ ht-degree: 100%
 
    이제 [공유](/help/analyze/analysis-workspace/curate-share/curate.md)해 보십시오.
 
+## Analysis Workspace의 크로스셀 분석
+
+다음은 이 항목의 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)

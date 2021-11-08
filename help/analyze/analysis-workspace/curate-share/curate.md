@@ -2,13 +2,13 @@
 description: 조정 기능을 사용하여 프로젝트를 공유하기 전에 구성 요소를 제한할 수 있습니다.
 keywords: Analysis Workspace 큐레이션
 title: 프로젝트 구성
-feature: 선별 및 공유
+feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 
 >[!NOTE]
 > 제품 프로필은 사용자가 볼 수 있는 구성 요소를 관리하는 기본 메커니즘으로, Adobe Experience Cloud Admin Console을 통해 관리됩니다. 큐레이션은 보조 필터입니다.
+
+다음은 프로젝트 조정 및 공유에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
 ## 프로젝트 조정 적용
 
@@ -67,4 +71,4 @@ ht-degree: 100%
 |---|---|---|---|
 | 조정된 VRS | 조정되지 않은 모든 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 구성 요소 |
 | 조정된 프로젝트 | 조정되지 않은 모든 프로젝트 구성 요소 | 조정되지 않은 모든 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 프로젝트 구성 요소 |
-| 조정된 VRS에서 조정된 프로젝트 |  **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 VRS 구성 요소]** 아래에 표시된 모든 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 모든 조정되지 않은 모든 구성 요소와 조정되지 않은 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 및 프로젝트 구성 요소 |
+| 조정된 VRS에서 조정된 프로젝트 | All non-curated components, shown under **[!UICONTROL 조정되지 않은 프로젝트 구성 요소]** 및 **[!UICONTROL 조정되지 않은 VRS 구성 요소]** 아래에 표시된 모든 조정되지 않은 모든 구성 요소 | 이 역할이 소유하거나 이 역할과 공유된 모든 조정되지 않은 모든 구성 요소와 조정되지 않은 프로젝트 구성 요소 | 이 역할이 소유하거나 함께 공유한 조정되지 않은 VRS 및 프로젝트 구성 요소 |

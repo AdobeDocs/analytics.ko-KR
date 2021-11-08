@@ -2,13 +2,13 @@
 description: 표준 또는 맞춤형 템플릿을 기반으로 Workspace 프로젝트를 만듭니다.
 title: 템플릿
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 100%
+source-wordcount: '1399'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 100%
    >[!NOTE]
    >
    >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. (태그와 설명을 편집하려면 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동하십시오.)
+
+다음은 사용자 지정 템플릿 만들기 및 관리에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
 ### 사용자 지정 템플릿에서 수행할 수 있는 작업
 
