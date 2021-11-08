@@ -1,18 +1,22 @@
 ---
-description: 새로운 지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
+description: 지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
 title: 지능형 경고
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 88%
 
 ---
 
 # 지능형 경고
 
-새로운 지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
+지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
+
+다음은 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
 
 ## 개요 {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
@@ -20,14 +24,14 @@ ht-degree: 100%
 >
 >지능형 경고는 Adobe [!DNL Analytics] Prime 및 Adobe [!DNL Analytics] Ultimate 고객만 사용할 수 있습니다.
 
-새로운 경고 빌더와 경고 관리자는 Adobe [!DNL Analytics]에 있는 기존의 경고 기능을 대체합니다. 지능형 경고를 사용하면 다음 작업을 수행할 수 있습니다.
+지능형 경고를 사용하면 다음 작업을 수행할 수 있습니다.
 
 * 예외 항목을 기반으로 한 경고를 만듭니다(90%, 95%, 99%, 99.75%, 및 99.9% 임계값, % 변경률, 초과/미만).
 * 경고가 트리거되는 빈도를 미리 봅니다.
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 생성합니다.
 
-새 경고 시스템의 구성 요소에는 경고 빌더, 경고 관리자, 경고 미리보기 및 경고 작성에 대한 더 나은 컨텍스트 내 액세스 기능 포함됩니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능은 [더 이상 사용할 수 없습니다](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ko-KR).
+경고 시스템의 구성 요소는 다음과 같습니다. 경고 빌더, 경고 관리자, 경고 미리 보기 및 경고 생성에 대한 더 나은 컨텍스트 내 액세스 권한을 제공합니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능 [더 이상 사용할 수 없음](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ko-KR).
 
 경고 빌더를 여는 방법에는 네 가지가 있습니다.
 

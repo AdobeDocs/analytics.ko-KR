@@ -4,10 +4,10 @@ title: Experience Cloud에 세그먼트 게시
 feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '1300'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '1306'
+ht-degree: 99%
 
 ---
 
@@ -17,10 +17,13 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 또한 게시 가능한 Adobe Analytics의 최대 세그먼트 수를 20개에서 75개로 늘렸습니다. [!UICONTROL Analytics > 구성 요소 > 세그먼트]에서 게시된 세그먼트를 볼 수 있습니다.
 
+자세한 내용은 이 비디오 를 참조하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+
 >[!NOTE]
 >
 >Adobe Campaign (Classic 및 Standard)은 8시간 지연 외에 24시간 추가적인 지연을 발생시킨다는 점에서 다르게 동작합니다.
-
 
 ## 사전 요구 사항
 

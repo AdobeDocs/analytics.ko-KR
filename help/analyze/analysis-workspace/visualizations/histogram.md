@@ -2,19 +2,23 @@
 description: 히스토그램은 Analysis Workspace의 새로운 시각화 유형입니다.
 title: 히스토그램
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '370'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 97%
 
 ---
 
 # 히스토그램
 
 히스토그램은 막대 그래프와 유사하지만 숫자들을 범위로 그룹화합니다(버킷). Analytics는 숫자를 범위로 &quot;버킷하는 것&quot;을 자동화하지만, [고급 설정](#section_09D774C584864D4CA6B5672DC2927477)에서 설정을 변경할 수 있습니다.
+
+다음은 히스토그램 사용 방법에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
 
 ## 히스토그램 작성 {#section_74647707CC984A1CB6D3097F43A30B45}
 

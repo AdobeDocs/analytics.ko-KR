@@ -2,10 +2,10 @@
 title: Analytics 내보내기 안내서
 description: 이 안내서에서는 데이터 피드 및 Data Warehouse를 사용하여 Adobe Analytics에서 데이터를 가져오는 방법에 대해 설명합니다.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 * **데이터 피드:** 원시 데이터의 시간별 또는 일별 내보내기를 받습니다. 모든 행은 개별 조회이며 모든 열은 변수입니다. 데이터 피드는 일반적으로 FTP 사이트로 전송됩니다.
 * **Data Warehouse:** 요청 마법사를 사용하여 스프레드시트의 데이터 출력을 검색합니다. Data Warehouse에서는 다른 처리 아키텍처를 사용하여 임의 개수의 행과 임의 개수의 고유한 값을 허용합니다.
+
+다음은 Adobe Analytics에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 주요 Analytics 내보내기 문서
 

@@ -2,10 +2,10 @@
 title: Analytics 관리 안내서
 description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정 등 Adobe Analytics 관리자를 위한 관리 도움말.
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '328'
+ht-degree: 97%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 100%
 ![배너](/assets/doc_banner_admin.png)
 
 이 도움말은 Adobe Analytics의 관리자를 위한 것입니다. Admin Console의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정에 대한 도움말이 포함되어 있습니다.
+
+다음은 Adobe Analytics에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니다.
 

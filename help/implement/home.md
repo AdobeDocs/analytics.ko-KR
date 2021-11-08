@@ -2,16 +2,20 @@
 title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '365'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 97%
 
 ---
 
 # Adobe Analytics 구현
 
 ![배너](../../assets/doc_banner_implement.png)
+
+다음은 Adobe Analytics에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Adobe의 데이터를 데이터 수집 서버에 전송하려면 사이트 또는 앱에 코드가 있어야 합니다. 다음 절차는 일반적인 구현의 작동 방식을 나타냅니다.
 

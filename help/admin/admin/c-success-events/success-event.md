@@ -2,19 +2,23 @@
 description: 성공 이벤트는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
 keywords: 이벤트를 사용할 것을 권장합니다
 title: 성공 이벤트 개요
-feature: 관리 도구
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 96%
 
 ---
 
 # 성공 이벤트 개요
 
-성공 이벤트는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
+성공 이벤트(전환 이벤트 또는 사용자 지정 이벤트라고도 함)는 추적할 수 있는 작업입니다. 성공 이벤트가 무엇인지 결정합니다. 예를 들어 방문자가 품목을 구매하면 구매 이벤트를 성공 이벤트로 간주할 수 있습니다.
+
+다음은 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
 보고서 세트 설정의 성공 이벤트 페이지에 액세스합니다.
 

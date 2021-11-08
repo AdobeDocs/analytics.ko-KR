@@ -2,16 +2,20 @@
 title: Analytics 기술 노트
 description: 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '96'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 92%
 
 ---
 
 # Analytics 기술 노트
 
 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
+
+다음은 Adobe Analytics에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 주요 기술 참고 문서
 
