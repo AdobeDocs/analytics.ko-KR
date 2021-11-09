@@ -2,10 +2,10 @@
 title: 분류 개요
 description: 차원 항목 그룹을 사용자 지정합니다.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 한 번 분류하면, 키 변수를 사용하여 생성할 수 있는 모든 보고서를 연관된 특성을 사용하여 생성할 수 있습니다. 예를 들어 제품 이름, 색상, 크기, 설명 및 SKU와 같은 추가 제품 특성을 사용하여 [!UICONTROL 제품 ID]를 분류할 수 있습니다. 추가 특성을 사용하여 Reports &amp; Analytics 데이터를 늘리면 보다 심도 있고 복잡한 보고 기회를 제공할 수 있습니다.
 
 분류를 만든 후 Adobe Analytics 전체에서 새로운 데이터 특성을 활용할 수 있습니다.
+
+다음은 Adobe Analytics 분류에 대한 개요 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 ## 추적 코드 예제
 

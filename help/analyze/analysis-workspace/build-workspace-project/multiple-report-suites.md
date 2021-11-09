@@ -1,13 +1,13 @@
 ---
 title: 여러 보고서 세트
 description: 여러 보고서 세트를 사용하여 작업 영역에서 프로젝트를 만드는 방법 및 이유 알아보기
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 * 다른 두 지역의 데이터를 비교하고, 해당 데이터가 서로 다른 보고서 세트에 있습니다. 테이블 및 시각화를 작성하여 데이터를 나란히 비교할 수 있습니다.
 
 * 다른 조직에 보고할 지표 및 시각화 대시보드를 작성합니다. 이제 여러 보고서 세트의 데이터를 동일한 프로젝트로 가져올 수 있습니다.
+
+다음은 주제에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
 ## 모든 패널에 보고서 세트 적용
 
@@ -35,7 +39,7 @@ ht-degree: 100%
 >활성 패널과 동일한 보고서 세트에 있는 모든 패널로 끌어다 놓을 수 있습니다. 동일한 보고서 세트의 비활성 패널로 끌어오면 패널이 활성화됩니다.
 
 | 작업 | 활성 패널 | 비활성 패널 |
-|---|---|---|
+| --- | --- | --- |
 | 보고서 세트 변경 | 예 | 아니요 |
 | 구성 요소 끌어서 놓기 | 예 | 예. 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |
 | 시각화 끌어서 놓기 | 예 | 예. 활성 패널과 동일한 보고서 세트에 있는 모든 패널에 대해 해당됩니다. |

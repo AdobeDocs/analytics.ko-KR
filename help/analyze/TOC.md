@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 98%
@@ -60,7 +60,7 @@ ht-degree: 98%
       + 폴아웃 {#fallout}
          + [폴아웃 개요](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [폴아웃 시각화 구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [차원 간 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [다차원 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [폴아웃 분석에서 세그먼트 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 흐름 {#flow}
          + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)

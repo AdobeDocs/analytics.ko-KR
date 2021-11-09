@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ Analysis Workspace의 맵 시각화
 * PDF 내보내기를 지원합니다.
 * 그래픽 디스플레이를 위해 WebGL을 활용합니다. 그래픽 드라이버가 WebGL 렌더링을 지원하지 않으면 드라이버를 업데이트해야 할 수 있습니다.
 
+다음은 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## 맵 시각화 작성 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. 시각화 목록에서 **[!UICONTROL 맵]**&#x200B;을 자유 형식 패널로 드래그합니다.
@@ -33,18 +37,10 @@ Analysis Workspace의 맵 시각화
 1. 지표 (계산된 지표 포함) 목록에서 지표를 드래그해옵니다.
 1. 그리는 데 사용할 데이터 소스를 지정합니다. (이 대화 상자는 모바일 앱 데이터용으로 위치 추적이 활성화된 경우에만 표시됩니다.)
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>모바일 위도/경도</b> </p> </td> 
-   <td colname="col2"> <p>이 옵션은 모바일 앱 데이터를 나타냅니다. </p> <p><span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">관리</span> &gt; <span class="uicontrol">보고서 세트</span> &gt; <span class="uicontrol">&lt;보고서 세트 선택&gt;</span> &gt; <span class="uicontrol">설정 편집</span> &gt; <span class="uicontrol">모바일 관리</span> &gt; <span class="uicontrol">위치 추적 활성화</span></span>에서 보고서 세트에 대해 이 옵션을 활성화한 경우에만 이 옵션이 표시됩니다. </p> <p>기본 설정입니다 (위치 추적이 활성화된 경우). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>지역 차원</b> </p> </td> 
-   <td colname="col2"> <p>이 옵션은 방문자의 IP 주소를 기반으로 방문자 위치에 대한 지리 특성 데이터를 나타냅니다. 이 데이터는 국가, 지역 및 도시로 변환됩니다. DMA나 우편 번호 수준으로는 이동하지 않습니다. </p> <p>거의 모든 보고서 세트에 이 차원이 활성화되어 있습니다. 활성화되어 있지 않은 경우 Adobe 고객 지원부에 문의하여 지역 보고서를 활성화하십시오. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 설정 | 설명 |
+| --- | --- |
+| [!UICONTROL 모바일 위도/경도] | 이 옵션은 모바일 앱 데이터를 나타냅니다. 이 옵션은 에서 보고서 세트에 대해 활성화한 경우에만 표시됩니다 [!UICONTROL Analytics] > [!UICONTROL 관리] > [!UICONTROL 보고서 세트] > (보고서 세트 선택) > [!UICONTROL 설정 편집] >  [!UICONTROL 모바일 관리] > [!UICONTROL 위치 추적 활성화]. 기본 설정입니다 (위치 추적이 활성화된 경우). |
+| [!UICONTROL 지역 차원] | 이 옵션은 방문자의 IP 주소를 기반으로 방문자 위치에 대한 지리 특성 데이터를 나타냅니다. 이 데이터는 다음으로 변환됩니다 [!UICONTROL 국가], [!UICONTROL 지역], 및 [!UICONTROL 구/군/시]. DMA나 우편 번호 수준으로는 이동하지 않습니다. 거의 모든 보고서 세트에 이 차원이 활성화되어 있습니다. 활성화되어 있지 않은 경우 Adobe 고객 지원부에 문의하여 지역 보고서를 활성화하십시오. |
 
 1. **[!UICONTROL 작성을 클릭합니다]**.
 
