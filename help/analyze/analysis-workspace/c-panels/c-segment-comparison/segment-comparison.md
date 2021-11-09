@@ -2,19 +2,23 @@
 title: 세그먼트 비교 패널 개요
 description: Analysis Workspace에서 세그먼트 IQ의 일부인 세그먼트 비교 패널을 사용하는 방법을 알아봅니다.
 keywords: Analysis Workspace;세그먼트 IQ
-feature: 패널
+feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 세그먼트 비교 패널 개요
 
 세그먼트 비교 패널은 세그먼트들 (개수 제한 없음) 간의 통계적으로 가장 중요한 차이를 알아내는 [세그먼트 IQ](../../segment-iq.md)의 도구 부분입니다. 이 기능은 액세스 권한이 있는 모든 차원 및 지표에 대한 자동화된 분석을 반복합니다. 또한 회사 KPI를 구동하는 대상 세그먼트의 주요 특성을 자동으로 파악하고 세그먼트들이 얼마나 많이 겹치는지도 확인할 수 있도록 합니다.
+
+다음은 세그먼트 비교에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
 ## 세그먼트 비교 패널 만들기
 

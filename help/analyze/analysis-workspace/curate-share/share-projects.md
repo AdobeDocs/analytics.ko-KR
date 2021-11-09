@@ -2,19 +2,23 @@
 description: 작업 영역의 프로젝트 공유 및 프로젝트 역할
 keywords: Analysis Workspace 공유
 title: 프로젝트 공유
-feature: 선별 및 공유
+feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1096'
-ht-degree: 100%
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 프로젝트 공유
 
 공유를 하면 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있습니다. 적용한 모든 [조정](curate.md) 기능은 수신자이 프로젝트를 열 때 반영됩니다.
+
+다음은 프로젝트 공유에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 ## 프로젝트 역할 {#Roles}
 
@@ -60,14 +64,14 @@ ht-degree: 100%
 
 ## 수신자 그룹에 공유 {#Groups}
 
-모든 사용자는 수신자의 집합인 그룹에 프로젝트를 공유할 수 있습니다. Adobe Analytics에서 그룹은 [Adobe Experience Cloud 관리 콘솔](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)에서 제품 프로필로 정의됩니다.
+모든 사용자는 수신자의 집합인 그룹에 프로젝트를 공유할 수 있습니다. Adobe Analytics에서 그룹은 [Adobe Experience Cloud 관리 콘솔](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)에서 제품 프로필로 정의됩니다.
 
 * 관리자는 &quot;모두&quot;를 비롯한 모든 그룹과 공유할 수 있습니다.
 * 관리자가 아닌 사용자는 &quot;모두&quot;를 제외하고 자신이 구성원으로 있는 그룹과 공유할 수 있습니다.
 
 ## 프로젝트 링크 공유 {#Links}
 
-**[!UICONTROL 공유] > [!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다. Workspace 프로젝트에 연결된 공유 가능한 링크를 만드는 방법에 대해 [자세히 알아보십시오](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ko-KR).
+**[!UICONTROL 공유] > [!UICONTROL 프로젝트 가져오기]**&#x200B;에서 프로젝트 링크를 가져올 수 있습니다. 클릭하면 수신자는 로그인한 후 프로젝트에 참여해야 합니다. 수신자가 역할에 배치되지 않은 경우 기본 역할을 받게 됩니다. 관리자는 **[!UICONTROL 편집 가능]**&#x200B;하고 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]**&#x200B;합니다. Workspace 프로젝트에 연결된 공유 가능한 링크를 만드는 방법에 대해 [자세히 알아보십시오](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html).
 
 ## 프로젝트 관리자에서 프로젝트 공유 {#Manager}
 
@@ -88,7 +92,7 @@ ht-degree: 100%
 ## FAQ {#FAQs}
 
 | 질문 | 답변 |
-|---|---|
+| --- | --- |
 | 두 명의 편집자가 동시에 프로젝트를 저장하면 어떻게 됩니까? | 변경 사항은 병합되지 않고 마지막으로 저장한 프로젝트 버전이 유지됩니다. Analysis Workspace는 현재 실시간 공동 작업을 지원하지 않습니다. |
 | 관리자는 어떤 프로젝트 경험을 보게 됩니까? | **[!UICONTROL 복제 가능]** 또는 역할 **[!UICONTROL 볼 수 있음]**&#x200B;에 배치된 관리자는 프로젝트를 열 때 제한된 경험을 받게 됩니다. 원하는 경우 관리자는 **[!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]**&#x200B;를 통해 언제든지 **[!UICONTROL 편집 가능]**&#x200B;한 역할을 늘릴 수 있습니다. |
 | 수신자가 하나의 역할에서 개인 또는 그룹의 구성원으로서의 다른 역할에 배치되면 어떻게 됩니까? | 수신자가 여러 역할에 배치되면 항상 더 높은 경험을 받게 됩니다. 예를 들어, 수신자에게 개인으로서 **[!UICONTROL 편집 가능]** 역할 및 그룹의 구성원으로 **[!UICONTROL 볼 수 있음]** 역할이 주어지면, 해당 사용자에게는 프로젝트 **[!UICONTROL 편집 가능]** 환경이 제공됩니다. |

@@ -4,10 +4,10 @@ description: 코호트 분석을 통해 잠재고객에 대한 데이터를 더 
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 447f03c240580462b92b04254ca682cef69b6ffc
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,14 +27,13 @@ ht-degree: 100%
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
 
-[코호트 분석 비디오 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ko-KR)  (4:36)
+Analysis Workspace의 집단 테이블 비디오:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL 집단 분석]
->
->세그먼트화할 수 없는 지표 (계산된 지표 포함), 정수가 아닌 지표 (매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만
->[!UICONTROL 집단 분석], 한 번에 1씩만 증분할 수 있습니다.
+>[!UICONTROL 집단 분석] 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 또는 발생 횟수 등)를 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만 [!UICONTROL 집단 분석], 한 번에 >1씩만 증분할 수 있습니다.
 
 ## 집단 분석 기능
 

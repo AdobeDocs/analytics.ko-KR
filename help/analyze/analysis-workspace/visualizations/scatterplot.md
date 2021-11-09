@@ -1,13 +1,13 @@
 ---
 title: 산포도
 description: 최대 3개의 지표 간 관계를 보여주는 시각화입니다.
-feature: 시각화
+feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,3 +22,7 @@ ht-degree: 100%
 * 자유 형식 테이블의 모든 후속 열은 산포도 시각화에 의해 무시됩니다.
 
 ![산포도](assets/scatter.png)
+
+다음은 산포도 시각화에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
