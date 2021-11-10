@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1414'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,10 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
 * **교육 튜토리얼 - 내부 검색 분석**: 내부 검색 튜토리얼은 방문자가 웹 사이트 또는 앱에서 찾고 있는 항목을 지원하고 이해합니다. 이러한 유형의 데이터를 분석하면 콘텐츠 최적화의 기회를 포착할 수 있습니다.
 
 * **교육 튜토리얼 - 마케팅 분석**: 이 튜토리얼은 어떤 맞춤형 차원과 지표가 중요한가를 포함하여 경영진을 위한 마케팅 분석을 구성하는 방법을 보여 줍니다.
+
+다음은 비디오입니다 [!UICONTROL 교육 자습서] 템플릿:
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### 광고
 

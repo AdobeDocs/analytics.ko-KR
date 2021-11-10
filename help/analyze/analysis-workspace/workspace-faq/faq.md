@@ -1,13 +1,13 @@
 ---
 description: Workspace FAQ
 title: FAQ 및 Analysis Workspace 문제 해결
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 100%
 | Data Warehouse에 Analysis Workspace을 사용할 수 있습니까? | Analysis Workspace은 벌크 데이터 내보내기에 권장되지 않습니다. 대시보드와 유사한 분석 프로젝트를 만드는 시각화 작업 영역입니다. |
 | Analysis Workspace의 성능을 최적화하려면 어떻게 해야 합니까? | [성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)를 참조하십시오. |
 
+## 데이터는 Analysis Workspace 프로젝트에 어떻게 전달됩니까?
+
+다음 비디오를 시청하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
 ## 문제 해결
 
 **지표를 드래그하면 &#39;잘못된 데이터&#39;라고 표시됩니다.**
@@ -38,3 +44,4 @@ ht-degree: 100%
 * 보고서에서 세그먼트를 적용했다면 세그먼트 기준이 데이터와 일치하지 않을 수 있습니다. 세그먼트를 제거하거나 세그먼트 정의를 조정해 보십시오.
 * 오른쪽 상단의 날짜 범위를 확인하고 예상한 값으로 설정되어 있는지 확인하십시오.
 * 웹 사이트로 이동하고 [디버거](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)를 사용하여 데이터가 수집되고 있는지 확인하십시오.
+

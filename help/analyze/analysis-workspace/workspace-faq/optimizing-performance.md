@@ -2,13 +2,13 @@
 description: 작업 영역 성능 및 적용할 수 있는 최적화에 영향을 주는 요소
 title: Analysis Workspace 성능 요소 및 최적화
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '2012'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2024'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ ht-degree: 100%
 | 보고서 세트 크기 | 보고서 세트에 수집된 데이터의 양입니다. | - | Adobe Analytics의 전반적인 환경을 개선하기 위해 수행할 수 있는 구현 개선 사항이 있는지 확인하려면 구현 팀이나 Adobe 전문가와 상의하십시오. |
 | 동시 쿼리 | 조직에서 Adobe에 동시에 요청하는 쿼리 수입니다. 각 조직은 최소 5개의 동시 쿼리를 받을 수 있습니다. | 보고서에 시간이 오래 걸리는 경우는 일반적으로 다른 보고서와 함께 큐에 있기 때문입니다. 즉, 조직에서 특정 보고서 세트에 대해 너무 많은 동시 요청을 실행하려고 하는 것입니다. 쿼리는 API 요청, 보고 UI (Analysis Workspace, Reports &amp; Analytics, Report Builder 등), 예약된 프로젝트, 예약된 보고서, 예약된 알림, 보고를 요청하는 동시 사용자로부터 비롯될 수 있습니다. | 보고서 세트에 대한 요청과 일정을 하루 전체에 더 고르게 분산시킵니다. 또한 가능하면 사용량이 적은 시간으로 요청을 이동합니다. 월요일 아침, 화요일 아침 그리고 매월 1일이 가장 많이 보고되는 시간입니다. |
 | 데이터 센터 용량 | 귀하와 다른 고객이 Adobe 데이터 센터 내에서 공유하는 보고 용량입니다. | 용량은 조직 및 데이터 센터 내의 다른 조직에서 수행한 동시 쿼리 수의 영향을 받습니다. | 귀하의 조직은 정해진 용량을 받을 자격이 있으며 시스템이 경부하 상태인 경우 Adobe는 귀하에게 부여된 허용량 이상으로 더 많은 용량을 귀하에게 이동시킵니다. |
+
+## Analysis Workspace의 생산성 향상을 위한 팁
+
+다음은 주제에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)

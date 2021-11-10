@@ -2,19 +2,23 @@
 description: 시간 분할은 수집한 히트의 타임스탬프를 가져와서 "시간" 또는 "요일"과 같은 더 의미 있는 차원으로 나눕니다.
 title: 차원 시간 분할
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 97%
 
 ---
 
 # 차원 시간 분할
 
 시간 분할은 수집한 히트의 타임스탬프를 가져와서 &quot;시간&quot; 또는 &quot;요일&quot;과 같은 더 의미 있는 차원으로 나눕니다.
+
+다음은 시간 분할 차원에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 시간 분할 차원은 보고서 세트 또는 가상 보고서 세트의 시간대를 기반으로 합니다. 이러한 차원은 Analysis Workspace에서 사용할 수 있으며, 다음 질문에 대한 답변을 제공하는 데 도움을 줄 수 있습니다.
 
@@ -30,7 +34,7 @@ ht-degree: 100%
 Analysis Workspace의 시간 분할 차원에는 다음 항목이 포함됩니다.
 
 | 차원 | 예제 값 |
-|--- |--- |
+| --- | --- |
 | 시간 | 0-23 |
 | 오전/오후 | 오전, 오후 |
 | 요일 | 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일 |
