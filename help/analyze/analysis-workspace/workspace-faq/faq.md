@@ -4,10 +4,10 @@ title: FAQ 및 Analysis Workspace 문제 해결
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '546'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 97%
 다음 비디오를 시청하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+## 작업 공간 사용을 추적하려면 어떻게 해야 합니까?
+
+Analysis Workspace에 대한 사용 로그 추적에 대해 이 비디오를 시청하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
 
 ## 문제 해결
 

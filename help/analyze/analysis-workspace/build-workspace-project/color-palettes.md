@@ -1,13 +1,13 @@
 ---
 description: Analysis Workspace에서 시각화 색상 팔레트를 사용하는 방법
 title: 시각화 색상 팔레트란 무엇이며 어떻게 작동합니까?
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 * 상위 2개 팔레트의 아래에 있는 3~5번째 색상 팔레트는 색상 조화에 최적화되었습니다.
 
 ## 색상 팔레트 변경:
+
+다음은 사용자 정의 색상 팔레트를 사용하는 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. **[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 프로젝트 색상 팔레트]** 드롭다운에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.

@@ -2,19 +2,23 @@
 description: 달력에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 title: 달력 및 날짜 범위 개요
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # 달력 및 날짜 범위 개요
 
 달력에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
+
+다음은 Analysis Workspace에서 날짜 범위 및 달력을 사용하는 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
 달력 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용되는 옵션이 있습니다. Workspace에서 날짜 범위를 클릭하면 인터페이스에 현재 달력 월과 이전 달력 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 달력을 조정할 수 있습니다.
 

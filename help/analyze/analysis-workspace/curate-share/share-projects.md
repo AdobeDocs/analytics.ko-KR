@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 99%
+source-wordcount: '1121'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 99%
 | 편집 가능 | 수신자는 프로젝트 및 기능에 대한 변경 내용을 공동 소유자로서 **[!UICONTROL 저장]**&#x200B;할 수 있습니다. 이 역할은 프로젝트를 다른 동료와 공동 관리하려는 경우 유용합니다. 여기에는 공유 프로젝트에 대한 수신자 목록 편집, 삭제 및 수정 등이 포함됩니다. <br>참고: Analysis Workspace는 현재 라이브 공동 작업을 지원하지 않으므로 주어진 시간에 한 명의 사용자만 프로젝트를 편집하는 것이 좋습니다. 프로젝트를 동시에 저장하는 경우 마지막 버전이 유지됩니다. |
 | 복제 가능 | 수신자는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;하고 왼쪽 레일에 액세스할 수 있습니다. 이 역할에서는 프로젝트 상호 작용이 제한되지 않습니다. 이 역할은 조직의 데이터 및 Analysis Workspace 사용 방법을 이해하지만 프로젝트를 변경하지 않으려는 사용자에게 프로젝트를 공유하려는 경우에 유용합니다. |
 | 보기 가능 | 수신자는 다른 이름으로 저장을 할 수 없고 왼쪽 레일에 액세스할 수 없습니다. 상호 작용이 제한됩니다. 이 역할은 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Adobe Analytics에 익숙하지 않은 사용자에게 프로젝트를 공유하려는 경우에 유용합니다. 그러나 안전한 환경에서 데이터와 인사이트를 소비해야 합니다.<br>프로젝트 경험 볼 수 있음[에 대해 자세히 알아보십시오](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
+
+다음은 Analysis Workspace의 보기 전용 프로젝트에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 >[!IMPORTANT]
 > 2020년 6월 18일 이전에 추가된 프로젝트 수신자는 프로젝트 역할로 마이그레이션되었습니다. 관리자 사용자가 역할 **[!UICONTROL 편집 가능]** 및 관리자가 아닌 사용자가 **[!UICONTROL 복제 가능]** 역할로 마이그레이션되었습니다. 이러한 역할은 이전에 경험했던 것과 동일한 프로젝트 경험을 제공합니다. 또한 모든 그룹 (&quot;모두&quot; 포함)이 **[!UICONTROL 복제 가능]** 역할로 마이그레이션되었습니다.

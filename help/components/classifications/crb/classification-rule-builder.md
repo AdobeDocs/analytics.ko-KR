@@ -2,19 +2,23 @@
 description: 코드 변경을 추적할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
 subtopic: Classifications
 title: 분류 규칙 빌더 워크플로
-feature: 관리 도구
+feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 98%
 
 ---
 
 # 분류 규칙 빌더 워크플로
 
 코드 변경을 추적할 때마다 분류를 유지 관리하고 업로드하는 대신 규칙 기반의 자동 분류를 만들어 여러 보고서 세트에 적용할 수 있습니다. 규칙은 분류 관련 트래픽 볼륨에 따라 빈번하게 처리됩니다.
+
+다음은 분류 규칙 빌더에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
 
 ## 시작하기 전 중요 유의 사항
 
@@ -40,7 +44,7 @@ ht-degree: 100%
 | 3단계: 보고서 세트 및 변수를 구성합니다. | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 규칙 세트를 보고서 세트 및 변수에 적용합니다. |
 | 4단계: [세트에 분류 규칙을 추가합니다](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL 분류 규칙 빌더] > &lt;규칙 세트> | 조건을 분류에 일치시킨 다음 규칙에 적용할 작업을 지정합니다.  [규칙 처리 방법](/help/components/classifications/crb/classification-quickstart-rules.md)의 정보를 숙지하십시오. |
 | 5단계: [분류 규칙 세트를 테스트합니다](/help/components/classifications/crb/classification-quickstart-rules.md). | [!DNL Testing Page] | 초안 모드에서 규칙을 편집하여 유효성 확인을 위한 규칙을 테스트하려고 합니다. 초안 모드에서는 규칙을 실행할 수 없습니다.<br>이 단계는 [정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md)을 사용할 때 중요합니다. |
-| 6단계: [유효한 규칙을 활성화합니다](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 규칙이 유효하면 규칙 세트를 활성화합니다.  필요하면 기존의 키를 덮어쓸 수 있습니다.  [규칙 처리 방법](/help/components/classifications/crb/classification-quickstart-rules.md). |
+| 6단계: [유효한 규칙을 활성화합니다](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 규칙이 유효하면 규칙 세트를 활성화합니다.  필요하면 기존의 키를 덮어쓸 수 있습니다. See [규칙 처리 방법](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | 7단계(선택 사항): [원치 않는 규칙을 삭제합니다](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 세트에서 원하지 않는 규칙을 삭제합니다.<br>참고: 규칙을 삭제해도 업로드된 분류 데이터는 삭제되지 않습니다.  분류된 데이터를 삭제해야 할 경우 [분류 데이터 삭제](/help/components/classifications/importer/t-delete-classification-data.md)를 참조하십시오. |
 
 >[!NOTE]

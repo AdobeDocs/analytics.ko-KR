@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 사용 사례
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -66,3 +66,15 @@ ht-degree: 97%
 다음은 이 항목의 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## 기본 마케팅 속성에 교차 탭 분석 사용
+
+Adobe Analytics를 통해 기여도 분석 방법을 한 차원 끌어올릴 수 있는 방법은 여러 가지가 있습니다. 이 비디오에서는 작업 영역에서 교차 탭 분석을 사용하여 마케팅 채널 보고서에서 보다 세부적인 통찰력을 도출하는 방법을 강조표시합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## Analysis Workspace에서 기여도 지표 사용
+
+이 비디오에서는 계산된 지표를 사용하여 기여도 지표를 가져오는 방법을 보여줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

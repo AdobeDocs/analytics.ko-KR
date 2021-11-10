@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1428'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,12 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ![](assets/left-rail.png)
 
+## 마우스 오른쪽 버튼 클릭 메뉴
+
+다음은 Analysis Workspace에서 마우스 오른쪽 단추 클릭 메뉴를 사용하는 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## 프로젝트 캔버스 {#canvas}
 
 프로젝트 캔버스에서는 패널, 테이블, 시각화, 구성 요소를 결합하여 분석을 작성합니다. 프로젝트에는 여러 패널이 포함될 수 있으며 각 패널에는 여러 테이블과 시각화가 포함될 수 있습니다
@@ -101,7 +107,9 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ## 프로젝트 관리자 {#manager}
 
-Analysis Workspace 프로젝트는 **Analytics > 구성 요소 > 프로젝트**&#x200B;에서 관리할 수 있습니다. 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다. 관리자 > Analytics 사용자 및 에셋 > 에셋 전송에서 프로젝트 소유권을 새 사용자에게 이전할 수 있습니다.
+Analysis Workspace 프로젝트는 **[!UICONTROL Analytics] > [!UICONTROL 구성 요소] >  [!UICONTROL 프로젝트]**. 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다.
+
+프로젝트 소유권은 [!UICONTROL 관리] > [!UICONTROL Analytics 사용자 및 자산] > [!UICONTROL 자산 전송].
 
 프로젝트 관리자에서 추가, 태그, 공유, 복제/복사 등을 할 수 있습니다. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 프로젝트를 검색합니다. 태그, 소유자, 프로젝트 유형 등을 기준으로 필터링할 수 있습니다.
 

@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 98%
+source-wordcount: '1423'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,10 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
 
 ### 미디어
 
-* **오디오 소비**: 가장 많이 소비되고 사용자가 참여하는 콘텐츠 식별
+* **오디오 소비**: 가장 많이 소비되고 사용자가 참여하는 콘텐츠 식별 다음은 오디오 소비 템플릿에 대한 비디오입니다.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
+
 * **최신성 - 빈도 - 충성도**: 충성스런 독자 식별
 
 ### 모바일
