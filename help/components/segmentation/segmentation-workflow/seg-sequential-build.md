@@ -1,14 +1,13 @@
 ---
 description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 사용하여 작성됩니다. THEN은 하나의 세그먼트 기준이 발생하고 그 뒤에 다른 하나의 세그먼트 기준이 있음을 의미합니다. 기본적으로 순차적 세그먼트는 일치하는 모든 데이터를 식별하고 "모든 사용자 포함" 필터를 표시합니다. 순차적 세그먼트는 추가적으로 "시퀀스 이전에만" 및 "시퀀스 이후에만" 옵션을 사용하여 일치하는 항목의 하위 집합으로 필터링될 수 있습니다.
 title: 순차적 세그먼트 작성
-feature: 세그먼테이션
+feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '3858'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3864'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +18,10 @@ ht-degree: 100%
 ![](assets/before-after-sequence.png)
 
 또한 [After와 Within 연산자](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 사용하여 순차적 세그먼트를 특정한 길이의 시간, 세부기간, 체크포인트 사이의 카운트로 제한할 수도 있습니다.
+
+다음은 순차적 세그먼테이션에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
 ## 모든 사용자 포함 {#section_75ADDD5D41F04800A09E592BB2940B35}
 

@@ -1,13 +1,13 @@
 ---
 description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 title: 세그먼트의 비교 연산자
-feature: 세그먼테이션
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
-workflow-type: ht
-source-wordcount: '1086'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -63,3 +63,7 @@ ht-degree: 100%
 | 보다 작음 | 고유 카운트가 입력한 값보다 작은 차원 항목을 반환합니다. |
 | 다음보다 크거나 같음 | 고유 카운트가 입력한 값보다 크거나 같은 차원 항목을 반환합니다. |
 | 다음보다 작거나 같음 | 고유 카운트가 입력한 값보다 작거나 같은 차원 항목을 반환합니다. |
+
+다음은 개별 차원 수에 대한 세그멘테이션에 대한 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)

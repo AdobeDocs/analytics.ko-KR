@@ -1,13 +1,13 @@
 ---
 description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 방문자 하위 집합을 식별할 수 있습니다. 세그먼트는 특정 요구에 대해 작성한 다음 확인, 편집 및 다른 팀 구성원과 공유하거나 다른 Adobe 제품 및 Analytics 기능에서 사용할 수 있는 정리된 대상 인사이트로 디자인됩니다.
 title: 세그먼트 및 컨테이너 정보
-feature: 세그먼테이션
+feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '3698'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3705'
+ht-degree: 99%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 100%
 세그먼트 빌더에 사용된 컨테이너 아키텍처는 **[!UICONTROL 방문자]**&#x200B;를 가장 바깥쪽 컨테이너로 정의하고 여러 방문 및 페이지 보기에서 해당 방문자 고유의 중요 데이터를 포함합니다. 중첩된 **[!UICONTROL 방문]** 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, 중첩된 **[!UICONTROL 히트]** 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 각 컨테이너를 사용하여 방문자 내역에서 방문별로 분류된 상호 작용을 보고하거나 개별 히트를 분류할 수 있습니다.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
+
+다음은 세그먼트 컨테이너에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
 **방문자 컨테이너**
 
