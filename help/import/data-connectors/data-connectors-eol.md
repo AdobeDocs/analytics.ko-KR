@@ -2,10 +2,10 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: ht
+source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
-이 기능은 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. 이제 [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud)에서 Adobe 솔루션의 현재 통합을 찾을 수 있습니다.
+이 기능은 더 이상 실행 불가능하거나 지원되지 않는 레거시 기술을 기반으로 합니다. 이제 [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)에서 Adobe 솔루션의 현재 통합을 찾을 수 있습니다.
 
 ## 이 기능을 제거하면 어떤 영향이 있습니까?
 
