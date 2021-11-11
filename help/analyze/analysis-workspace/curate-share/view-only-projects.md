@@ -2,13 +2,13 @@
 description: 작업 영역에서 보기 전용 프로젝트
 keywords: 보기 전용 프로젝트
 title: 보기 전용 프로젝트
-feature: 선별 및 공유
+feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 [프로젝트 공유 워크플로](/help/analyze/analysis-workspace/curate-share/share-projects.md)를 통해 받는 사람에게 프로젝트를 &quot;보기 전용&quot;으로 공유할 수 있습니다. 볼 수 있음 역할에 배치된 수신자에게는 보다 제한된 프로젝트 경험이 제공됩니다. 일반적으로 조직의 데이터 구조, Analysis Workspace 또는 Adobe Analytics에 익숙하지 않지만 안전한 환경에서 데이터와 통찰력을 소비하려는 사용자에게 프로젝트를 공유하는 경우 이러한 작업이 필요할 수 있습니다.
 
 ![](assets/view-only-project.png)
+
+다음은 보기 전용 프로젝트에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 ## 비활성화된 상호 작용
 

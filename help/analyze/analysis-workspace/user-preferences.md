@@ -4,10 +4,10 @@ description: 사용자에 대한 일반 및 프로젝트 환경 설정과 어두
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 79%
+source-wordcount: '277'
+ht-degree: 77%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 79%
 [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자 수준에서 Analysis Workspace의 설정 및 관련 구성 요소를 관리할 수 있습니다. 사용자 환경 설정은 모든 *새* 프로젝트 또는 패널에 적용됩니다.
 
 ![사용자 환경 설정](assets/user-preferences.png)
+
+다음은 사용자 환경 설정에 대한 짧은 비디오입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## 일반 환경 설정
 
