@@ -3,10 +3,10 @@ description: 서버 측 전달 호출의 구성 변수, HTTP 헤더 및 데이�
 title: 서버 측 전달 데이터 및 코드 참조
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
+source-git-commit: 4bfe2005e48a0ed6aabdc66f58980ca687e174c6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 94%
+source-wordcount: '510'
+ht-degree: 93%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 94%
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| d_rs | (기존/추적 서버 기반 서버 측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트로 설정합니다. |
-| d_dst_filter | (보고서 세트 기반 서버 측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트 ID로 설정합니다. |
-| d_dst | Analytics에 대한 요청에서 대상에 대한 컨텐츠가 클라이언트로 다시 전송될 것으로 예상하는 경우 d_dst=1<br>로 설정합니다. |
-| d_mid | Analytics에 전달된 Experience Cloud ID입니다. |
+| `d_rs` | (기존/추적 서버 기반 서버 측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트로 설정합니다. |
+| `d_dst_filter` | (보고서 세트 기반 서버 측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트 ID로 설정합니다. |
+| `d_dst` | Analytics에 대한 요청에서 대상에 대한 컨텐츠가 클라이언트로 다시 전송될 것으로 예상하는 경우 `d_dst=1`로 설정합니다.<br> |
+| `d_mid` | Analytics에 전달된 Experience Cloud ID입니다. |
 
 ## HTTP 헤더 {#section_0549705E76004F9585224AEF872066C0}
 
@@ -43,38 +43,38 @@ ht-degree: 94%
 `c_` 접두사가 있는 매개 변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)을 참조하십시오.
 
 | 신호 | 설명 |
-|--- |--- |
-| c_browserWidth 및 c_browserHeight | 브라우저 창 너비와 높이. |
-| c_campaign | s.campaign에 의해 설정됩니다. |
-| c_channel | s.channel에 의해 설정됩니다. |
-| c_clientDateTime | dd/mm/yyy hh 형식의 타임스탬프:mm:ss W TZ .    TZ는 분 단위이며 Date.getTimezoneOffset 메소드의 반환과 일치합니다. |
-| c_colorDepth | 16비트 또는 32비트 색상으로 지정됩니다. |
-| c_connectionType | 연결 유형을 지정합니다. 옵션은 다음과 같습니다.<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | 예:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>신호: c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | 쿠키를 사용할 수 있는지 여부를 지정합니다. 옵션은 다음과 같습니다. yes, no, unknown |
-| c_currencyCode | 거래에 사용된 통화 유형입니다. |
-| c_evar# | 사용자 지정 eVar |
-| c_events | s.events에 의해 설정됩니다. |
-| c_hier# | 사용자 지정 계층 변수입니다. |
-| c_javaEnabled | Java를 사용할 수 있는지 여부를 지정합니다. 옵션은 다음과 같습니다. yes, no, unknown |
-| c_javaScriptVersion | 브라우저가 지원하는 JavaScript 파일 버전입니다. |
-| c_latitude | 숫자 위도입니다. |
-| c_linkClick | 옵션: custom, download exit |
-| c_linkCustomName | 링크에 제공된 사용자 지정 이름입니다(있을 경우). |
-| c_linkDownloadURL | 다운로드 링크의 URL입니다. |
-| c_linkExitURL | 종료 링크 URL입니다. |
-| c_list# | 사용자 지정 목록 변수입니다. |
-| c_longitude | 숫자 경도입니다. |
-| c_mediaPlayerType | 미디어 스트림 추적 요청용입니다. 옵션은 다음과 같습니다.  other, primetime |
-| c_pageName | 페이지 이름(설정된 경우)입니다. |
-| c_pageURL | 브라우저의 주소 표시줄에 있는 페이지의 주소입니다. |
-| c_products | 제품 문자열(s.products에 의해 설정됨)입니다. |
-| c_prop | 사용자 지정 Prop입니다. |
-| c_purchaseID | 구매에 대한 고유 ID입니다. |
-| c_referrer | 현재 페이지의 앞 페이지입니다. |
-| c_screenResolution | 화면 너비와 높이(픽셀 단위)입니다. |
-| c_server | 웹 서버 이름(s.server에 의해 설정됨)입니다. |
-| c_state | 지역(s.state에 의해 설정됨)입니다. |
-| c_timezone | 시간 오프셋(시간 단위)입니다. |
-| c_transactionID | 거래의 고유 ID입니다. |
-| c_zip | 우편 번호(s.zip에 의해 설정됨)입니다. |
+| --- |--- |
+| `c_browserWidth`  및 `c_browserHeight` | 브라우저 창 너비와 높이. |
+| `c_campaign` | 설정 기준 `s.campaign`. |
+| `c_channel` | 설정 기준 `s.channel`. |
+| `c_clientDateTime` | 형식이 `dd/mm/yyy hh:mm:ss  W TZ` . `TZ`는 분 단위이며 `Date.getTimezoneOffset` 메소드의 반환과 일치합니다. |
+| `c_colorDepth` | 16비트 또는 32비트 색상으로 지정됩니다. |
+| `c_connectionType` | 연결 유형을 지정합니다. 옵션은 다음과 같습니다.<ul><li>modem</li><li>lan</li></ul> |
+| `c_contextData.*` | 예:<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>신호: `c_contextData.category=news`</li></ul> |
+| `c_cookiesEnabled` | 쿠키를 사용할 수 있는지 여부를 지정합니다. 옵션은 다음과 같습니다. yes, no, unknown |
+| `c_currencyCode` | 거래에 사용된 통화 유형입니다. |
+| `c_evar#` | 사용자 지정 eVar |
+| `c_events` | 설정 기준 `s.events`. |
+| `c_hier#` | 사용자 지정 계층 변수입니다. |
+| `c_javaEnabled` | Java를 사용할 수 있는지 여부를 지정합니다. 옵션은 다음과 같습니다. yes, no, unknown |
+| `c_javaScriptVersion` | 브라우저가 지원하는 JavaScript 파일 버전입니다. |
+| `c_latitude` | 숫자 위도입니다. |
+| `c_linkClick` | 옵션: custom, download exit |
+| `c_linkCustomName` | 링크에 제공된 사용자 지정 이름입니다(있을 경우). |
+| `c_linkDownloadURL` | 다운로드 링크의 URL입니다. |
+| `c_linkExitURL` | 종료 링크 URL입니다. |
+| `c_list#` | 사용자 지정 목록 변수입니다. |
+| `c_longitude` | 숫자 경도입니다. |
+| `c_mediaPlayerType` | 미디어 스트림 추적 요청용입니다. 옵션은 다음과 같습니다.  other, primetime |
+| `c_pageName` | 페이지 이름(설정된 경우)입니다. |
+| `c_pageURL` | 브라우저의 주소 표시줄에 있는 페이지의 주소입니다. |
+| `c_products` | 제품 문자열(`s.products`에 의해 설정됨)입니다. |
+| `c_prop` | 사용자 지정 Prop입니다. |
+| `c_purchaseID` | 구매에 대한 고유 ID입니다. |
+| `c_referrer` | 현재 페이지의 앞 페이지입니다. |
+| `c_screenResolution` | 화면 너비와 높이(픽셀 단위)입니다. |
+| `c_server` | 웹 서버 이름(`s.server`에 의해 설정됨)입니다. |
+| `c_state` | 지역(설정 기준) `s.state`). |
+| `c_timezone` | 시간 오프셋(시간 단위)입니다. |
+| `c_transactionID` | 거래의 고유 ID입니다. |
+| `c_zip` | 우편 번호(설정: `s.zip`). |
