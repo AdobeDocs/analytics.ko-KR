@@ -4,10 +4,10 @@ description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '430'
+ht-degree: 97%
 
 ---
 
@@ -48,6 +48,6 @@ Adobe Analytics는 다음을 통해 속성을 강화합니다.
 
 ## 비디오
 
-다음은 Analysis Workspace에서 세그먼트와 함께 다양한 Attribution IQ 모델을 사용하는 방법에 대한 비디오입니다.
+다음은 자유 형식 테이블의 Attribution IQ에 대한 비디오입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)

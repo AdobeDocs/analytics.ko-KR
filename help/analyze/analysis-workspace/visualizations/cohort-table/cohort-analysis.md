@@ -4,10 +4,10 @@ description: 코호트 분석을 통해 잠재고객에 대한 데이터를 더 
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 447f03c240580462b92b04254ca682cef69b6ffc
+source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Analysis Workspace의 집단 테이블 비디오:
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >
