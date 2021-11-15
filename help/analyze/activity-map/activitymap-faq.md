@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Activity Map은 몇 초마다 웹 페이지를 스캔하면서 페이지에 대�
 
 * Activity Map는 알려진 링크의 가시성이 변경되었는지 확인합니다. 가시성이 바뀐 것이 발견되면, Links On Page 표의 해당 링크에 대한 상태 열이 [!UICONTROL 표시됨] 또는 [!UICONTROL 숨겨짐]으로 업데이트됩니다.
 
-* 사용자 상호 작용에서 새로운 콘텐츠를 만들면, AppMeasurement에서 찾은 링크 요소가 [!UICONTROL Links On Page] 표에 추가됩니다. Activity Map은 이 새로운 링크를 포함하는 새로운 데이터 요청을 전송합니다. 데이터 요청이 UI로 처리되는 경우에는 새로운 링크가 [!UICONTROL Links On Page] 표에 표시되어야 합니다.
+* 사용자 상호 작용에서 새로운 콘텐츠를 만들면 AppMeasurement에서 찾은 링크 요소가 [!UICONTROL Links On Page] 표에 추가됩니다. Activity Map은 이 새로운 링크를 포함하는 새로운 데이터 요청을 전송합니다. 데이터 요청이 UI로 처리되는 경우에는 새로운 링크가 [!UICONTROL Links On Page] 표에 표시되어야 합니다.
 
 
 ## Activity Map에서 “보기”에 대한 데이터를 제공합니까?
@@ -86,13 +86,13 @@ Activity Map 컨텍스트 데이터 변수는 데이터 피드에서 사용할 �
 
 ## Activity Map을 비활성화하려면 어떻게 해야 합니까?
 
-다음 세 가지 옵션이 있습니다.
+세 가지 옵션이 있습니다.
 
-* 삭제 `AppMeasurement_Module_ActivityMap` 함수 위에 있어야 합니다
-* 예를 들어 빈 본문을 사용하여 위의 함수를 다시 작성하는 사용자 지정 코드를 추가합니다.
+* JS 파일에서 `AppMeasurement_Module_ActivityMap` 함수 삭제
+* 위의 함수를 빈 본문으로 재작성하는 사용자 지정 코드 추가, 예:
 
    ```
    function AppMeasurement_Module_ActivityMap() {}
    ```
 
-* 를 설정하여 AppMeasurement 구성 `s.trackClickMap` 및 `s.trackInlineStats` to `false`
+* `s.trackClickMap` 및 `s.trackInlineStats`를 `false`로 설정하여 AppMeasurement 구성
