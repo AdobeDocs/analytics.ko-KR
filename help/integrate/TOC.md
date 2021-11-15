@@ -5,9 +5,9 @@ user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud, Target 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
 source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,10 +37,10 @@ ht-degree: 81%
       + [광고 계정 관리](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 문제 해결](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [FAQ](c-advertising-analytics/aa-faq.md)
-+ [Adobe Analytics for Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
++ [Advertising Cloud용 Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=ko-KR)
 + [Target용 Adobe Analytics - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko-KR)
-+ [Adobe Analytics에서 Adobe Campaign 보고](adobe-campaign.md)
-+ [Adobe Campaign Classic과 Adobe Analytics 데이터 통합](analytics-to-campaign-classic.md)
++ [Adobe Analytics의 Adobe Campaign 보고](adobe-campaign.md)
++ [Adobe Analytics 데이터를 Adobe Campaign Classic과 통합](analytics-to-campaign-classic.md)
 + [AEM Assets 보고](aem-assets-reporting.md)
 + [Activity Map 보고](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
