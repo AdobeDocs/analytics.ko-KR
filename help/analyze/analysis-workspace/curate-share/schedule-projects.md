@@ -3,10 +3,10 @@ description: 예약된 Analysis Workspace 프로젝트를 관리합니다
 keywords: Analysis Workspace
 title: 예약된 프로젝트 관리자
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 92%
 예약된 프로젝트 관리자는 특정 사용자가 만든 항목을 보여줍니다. 응용 프로그램에서 사용자 계정이 비활성화된 경우 모든 예약된 배달이 중지됩니다.
 
 ![](assets/scheduled-projects.png)
+
+## 프로젝트 관리자 작업 예약
+
+에서 [!UICONTROL 예약된 프로젝트] UI를 사용하여 다음을 수행할 수 있습니다.
 
 * 예약된 프로젝트를 편집합니다.
 * 프로젝트의 예약 ID(주로 디버그 목적으로 사용됨)를 봅니다.

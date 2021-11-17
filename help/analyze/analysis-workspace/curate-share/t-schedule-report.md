@@ -2,13 +2,13 @@
 description: 이메일을 통해 Analysis Workspace 프로젝트를 보내거나 전달할 일정을 예약합니다.
 keywords: Analysis Workspace
 title: 프로젝트 예약
-feature: 선별 및 공유
+feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,22 @@ Workspace **공유 메뉴**&#x200B;에서 이메일을 통해 선택한 수신�
 
 예약된 프로젝트 관리자에서 반복되는 프로젝트 일정을 편집하고 삭제할 수 있습니다. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 예약을 검색하십시오. 태그, 승인된 일정, 소유자 등으로 필터링할 수 있습니다.
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| 필드 | 설명 |
+| --- | --- |
+| 즐겨찾기 | 별 아이콘을 선택하면 이 예약이 즐겨찾기로 설정됩니다. |
+| 예약 ID | 이 ID는 주로 디버깅을 위해 사용됩니다. |
+| 제목 및 설명 | 이 프로젝트의 제목 및 설명입니다. |
+| 소유자 | 프로젝트를 만들고 소유한 사람. |
+| 태그 | (선택 사항) 태깅은 프로젝트를 구성하는 좋은 방법입니다. 모든 사용자는 태그를 만들어 프로젝트에 하나 이상의 태그를 적용할 수 있습니다. 그렇지만 본인이 소유하거나 본인과 공유된 프로젝트에 대한 태그만 볼 수 있습니다. |
+| 전달 대상 | 이 예약된 프로젝트의 받는 사람. |
+| 만료 날짜 | 기본 만료 날짜는 작성 날짜로부터 1년입니다. |
+| 빈도 | 이 일정 프로젝트를 수신자에게 보내는 빈도를 지정합니다. |
+| 실행 시간 | 예약된 프로젝트를 보내는 시간(일 기준) |
+| 쿼리 수 | 이 프로젝트에 대한 쿼리 수입니다. |
+
+## 일반적인 작업
 
 다음은 예약된 프로젝트 관리자의 일반적인 작업입니다.
 
