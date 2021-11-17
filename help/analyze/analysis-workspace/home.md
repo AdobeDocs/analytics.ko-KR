@@ -4,10 +4,10 @@ description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 94%
 
 ---
 
@@ -70,4 +70,4 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 ## 추가 리소스 {#resources}
 
 * Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko-KR)을 제공합니다.
-* 새로운 기능 관련 업데이트에 대해서는 [Analysis Workspace의 새로운 기능](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)을 참조하십시오.
+* 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) 새 기능에 대한 업데이트입니다.
