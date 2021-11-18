@@ -2,7 +2,7 @@
 description: Analytics Data Connectors의 사용이 종료되는 시점과 이유에 대해 알아봅니다.
 title: Analytics Data Connectors 사용 종료 예고
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 99%
@@ -11,9 +11,9 @@ ht-degree: 99%
 
 # Adobe Data Connectors 사용 종료
 
-10년 이상 Adobe Analytics는 고객의 요구 사항을 충족하는 최상의 웹 및 마케팅 분석 솔루션을 제공하고자 노력해 왔습니다. 기술 및 비즈니스 요구 사항이 발전함에 따라 Adobe는 지속적으로 최고 표준을 충족하기 위해 노력하고 있습니다.  안타깝게도 이 통합을 제공하는 API는 이러한 표준을 더 이상 충족하지 않으며 최신 Adobe Analytics 기술 인프라에서는 지원되지 않습니다.
-
 **2021년 8월 19일부터** Adobe는 Data Connectors 통합을 중단했습니다. 수명 종료는 모든 기술 제품에서 라이프사이클의 일부이며 Adobe는 고객과 파트너에게 최대한 원활한 전환을 제공하는 것을 목표로 하고 있습니다. 이러한 통합은 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
+
+10년 이상 Adobe Analytics는 고객의 요구 사항을 충족하는 최상의 웹 및 마케팅 분석 솔루션을 제공하고자 노력해 왔습니다. 기술 및 비즈니스 요구 사항이 발전함에 따라 Adobe는 지속적으로 최고 표준을 충족하기 위해 노력하고 있습니다.  안타깝게도 이 통합을 제공하는 API는 이러한 표준을 더 이상 충족하지 않으며 최신 Adobe Analytics 기술 인프라에서는 지원되지 않습니다.
 
 ## 이 기능을 종료하는 이유는 무엇입니까?
 
@@ -62,7 +62,7 @@ Data Connector 고객이고 사용하는 통합을 마이그레이션해야 한�
 | Demandbase CA | 사용 중단 |
 | Demandbase v3 | 사용 중단 |
 | DialogTech | 최신 API로 마이그레이션 |
-| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 사용 중단 |
+| [DoubleClick for Advertisers (DFA)] | 사용 중단 |
 | DREAM | 사용 중단 |
 | DREAMmail 1.0, DREAMmail 2.0 | 사용 중단 |
 | Dynamic Signal (Nital Vora) | 최신 API로 마이그레이션 |
