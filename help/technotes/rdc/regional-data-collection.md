@@ -2,10 +2,10 @@
 title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 78%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -25,9 +25,11 @@ Adobe Experience Cloud는 RDC (지역 데이터 수집)를 사용하므로 최�
 |---------------------|-------------------|
 | 기본값 | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니, 중국* |
 
-참고: Analytics 이미지 요청이 `adobedc`, `2o7.net` 또는 `omtrdc.net` 엔드포인트로 전송되는 경우 서드파티 데이터 수집이 제공됩니다. 요청 URL에 종단점이 표시되면 이를 확인할 수 있습니다.
-
 *중국 RDC에는 중국 추가 기능 패키지가 필요합니다. 위의 “중요” 참고 사항을 참조하십시오.
+
+>[!NOTE]
+>
+>Analytics 이미지 요청이 로 전송되는 경우 `adobedc`, `2o7.net` 또는 `omtrdc.net` 엔드포인트, 타사 데이터 수집이 있습니다. 요청 URL에 종단점이 표시되면 이를 확인할 수 있습니다.
 
 ## 자사 HTTPS 데이터 수집
 
@@ -43,7 +45,8 @@ Adobe Experience Cloud는 RDC (지역 데이터 수집)를 사용하므로 최�
 *중국 전용 및 글로벌 + 중국 RDC 유형에는 중국 추가 기능 패키지가 필요합니다. 위의 “중요” 참고 사항을 참조하십시오. 글로벌+중국은 중국 밖에서 보내는 데이터를 중국 바깥의 가장 가까운 RDC로 라우팅하는 동안 중국 내에서 발생한 데이터를 우리의 중국 RDC로 라우팅할 것이다.
 
 >[!NOTE]
->Experience Edge Global 및 Global + China는 최종 사용자에게 최상의 성능을 제공합니다. 대체 RDC 유형을 사용하려면 Adobe 고객 지원 센터에 문의하십시오.
+>
+>Experience Edge Global은 최종 사용자에게 최고의 성능을 제공합니다.  대체 RDC 유형을 사용하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 ## RDC의 이점
 
