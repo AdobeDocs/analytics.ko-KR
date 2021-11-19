@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 98%
+source-wordcount: '1011'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,10 @@ ht-degree: 98%
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
       + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [미디어 재생 소요 시간 패널](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + 미디어 재생 소요 시간 {#media-playback-timespent}
+         + [개요](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [입력 및 출력 설정](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [FAQ](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
       + 세그먼트 비교 패널 {#segment-comparison}
          + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -311,9 +314,9 @@ ht-degree: 98%
    + [문제 해결](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 대시보드 {#mobapp}
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)
-   + [큐레이터 소개](mobile-app/curator.md)
+   + [큐레이터 인트로](mobile-app/curator.md)
    + [모바일 스코어카드 만들기](mobile-app/create-scorecard.md)
-   + [대시보드를 사용하도록 경영진 설정](mobile-app/set-up-execs.md)
+   + [경영진이 대시보드를 사용할 수 있도록 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
 + [보고 API](reporting-api.md)
 + [Labs](labs.md)
