@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등에 대해 알아보십시오.
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '723'
+source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -149,29 +149,12 @@ ht-degree: 100%
    + [보고서 세트 그룹 만들기](c-manage-report-suites/t-create-rs-group.md)
 + 사용자 및 제품 관리(이전) {#user-product-management}
    + [사용자 및 제품 관리](user-management2/user-management.md)
-   + [보고서 세트에 사용자 그룹 할당](user-management2/t-group-access-report-suite.md)
-   + 사용자 관리 {#user-management}
-      + [사용자 관리 개요](user-management2/c-user-management/users.md)
-      + [사용자 계정 추가](user-management2/c-user-management/t-add-user-account.md)
-      + [사용자 및 그룹 권한 변경 사항](user-management2/c-user-management/permissions-changes.md)
-      + [사용자 계정 항목 양도](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [그룹에 사용자 추가](user-management2/c-user-management/t-add-user-to-group.md)
-      + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
-         + [Admin Console로 Analytics 사용자 마이그레이션](user-management2/user-migration/c-migration-tool.md)
-         + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/t-migrate-users.md)
-         + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/migrate-enterprise.md)
-         + [기존 로그인 비활성화](user-management2/user-migration/t-disable-legacy-login.md)
-         + [마이그레이션의 영향을 받는 API](user-management2/user-migration/developer.md)
-   + 사용자 그룹 {#user-groups}
-      + [사용자 그룹 추가](user-management2/c-user-groups/t-user-group.md)
-      + [사용자 그룹 설정](user-management2/c-user-groups/groups.md)
-   + 보고서 액세스 사용자 지정 {#customize-report-access}
-      + [보고서 액세스 사용자 지정 - 개요](user-management2/c-customize-report-access/groups-customize-report-access.md)
-      + [Analytics 도구 권한 사용자 지정](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [보고서 세트 도구 권한 사용자 지정](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [지표 권한 사용자 지정](user-management2/c-customize-report-access/groups-metrics.md)
-      + [차원 권한 사용자 지정](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [이메일 사용자](user-management2/t-email-users.md)
+   + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
+      + [Admin Console로 Analytics 사용자 마이그레이션](user-management2/user-migration/c-migration-tool.md)
+      + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/t-migrate-users.md)
+      + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/migrate-enterprise.md)
+      + [기존 로그인 비활성화](user-management2/user-migration/t-disable-legacy-login.md)
+      + [마이그레이션의 영향을 받는 API](user-management2/user-migration/developer.md)
 + 데이터 거버넌스 {#data-governance}
    + [Adobe Analytics 및 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)

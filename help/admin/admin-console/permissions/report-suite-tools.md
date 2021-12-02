@@ -1,17 +1,17 @@
 ---
-title: 보고서 세트 도구에 대한 제품 프로필 권한
+title: Adobe Admin Console의 보고서 세트 도구에 대한 제품 프로필 권한
 description: 보고서 세트 도구에서 각 권한 항목을 파악합니다.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
 # 보고서 세트 도구에 대한 제품 프로필 권한
 
-보고서 세트 도구 아래 있는 각 권한 항목을 이해하려면 이 페이지를 사용합니다.
+Adobe Admin Console의 보고서 세트 도구 아래에 있는 각 권한 항목을 이해하려면 이 페이지를 사용합니다.
 
 | 보고서 세트 도구 권한 항목 | 설명 |
 |------|------|
