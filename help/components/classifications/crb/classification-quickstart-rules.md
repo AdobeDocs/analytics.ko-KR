@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 분류 규칙
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 97%
@@ -257,7 +257,7 @@ c:d:yoyo
 | `\W` | 모든 비단어 문자 |
 | `\b` | 모든 단어 경계 |
 | `(...)` | 둘러싸인 모든 항목 캡처 |
-| `(a|b)` | a 또는 b |
+| `(a\b)` | a 또는 b |
 | `a?` | 0 또는 1개 |
 | `a*` | 0개 이상 |
 | `a+` | 1개 이상 |
