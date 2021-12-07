@@ -5,7 +5,7 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 69%
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 69%
 
 ![고유 디바이스 카운트](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-이전에 CDA 가상 보고서 세트에서 이 데이터 보기 [재생](/help/components/cda/replay.md) 잠재적으로 결합되지 않은 히트는 다음을 표시합니다.
+[재생](/help/components/cda/replay.md)이 잠재적으로 인증되지 않은 히트를 결합하기 전에 CDA 가상 보고서 세트에서 이 데이트를 조회하는 경우 다음이 표시됩니다.
 
 * **고유 디바이스 5개**: 인증되지 않은 Bob용 디바이스 1개 + Bob용 디바이스 2개 + Alice용 디바이스 1개 + Charles용 디바이스 1개
 * **[사용자](people.md)** 4명: [미확인된 사용자](unidentified-people.md) 1명 + [확인된 사용자](identified-people.md) 3명.

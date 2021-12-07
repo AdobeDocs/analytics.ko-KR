@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Analysis Workspace에서 다음과 같이 서로 다른 유형의 세그먼트�
 
 * [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [임시 세그먼트](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
-* 세그먼트 빌더에서 만들고 세그먼트 라이브러리에 끝나는 일반 구성 요소 목록 세그먼트(아래 참조)
+* 세그먼트 빌더에서 만들고 세그먼트 라이브러리에서 끝나는 일반 구성 요소 목록 세그먼트(아래 참조)
 
 ### 구성 요소 목록 세그먼트 만들기 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
@@ -56,7 +56,7 @@ Analysis Workspace에서 다음과 같이 서로 다른 유형의 세그먼트�
 
 ![](assets/segment_icons.png)
 
-이러한 유형의 세그먼트를 만들려면 2개의 옵션이 필요합니다. 둘 다 당신을 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md) Adobe Analytics에서 추가 지침을 찾을 수 있습니다.
+이러한 유형의 세그먼트를 만들려면 2개의 옵션이 필요합니다. 두 옵션을 사용하면 Adobe Analytics의 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)로 이동하여 추가 지침을 확인할 수 있습니다.
 
 * 왼쪽 레일에서 [!UICONTROL 세그먼트] 옆의 더하기(+) 기호를 클릭합니다.
 
