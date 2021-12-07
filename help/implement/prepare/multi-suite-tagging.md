@@ -2,7 +2,7 @@
 description: 다중 세트 태그 지정을 구현하여 여러 보고서 세트에 이미지 요청을 보내는 방법에 대해 알아봅니다.
 title: 다중 세트 태그 지정 구현
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
