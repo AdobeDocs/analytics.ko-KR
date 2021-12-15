@@ -4,17 +4,14 @@ title: Reports and Analytics 시작하기
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 94%
 
 ---
 
 # Reports &amp; Analytics 시작하기
-
->[!NOTE]
->이 제품은 북미나 그 제품이 실제로 판매되는 다른 지역에서 판매할 수 있는 권한이 있으며 다른 국가나 지역에서 판매하기 위한 요구 사항을 충족하지 못할 수도 있습니다.
 
 Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
 
@@ -102,3 +99,6 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 1. 페이지 바닥글의 **[!UICONTROL 언어]** 메뉴에서 활성 언어를 클릭한 다음 기본 언어를 선택합니다.
 
 Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다.  (**[!UICONTROL 도움말]** > **[!UICONTROL 도움말 홈]**)
+
+>[!NOTE]
+>이 제품은 북미나 그 제품이 실제로 판매되는 다른 지역에서 판매할 수 있는 권한이 있습니다. 다른 국가 또는 지역에서 판매하기 위한 현지 요구 사항을 충족하지 못할 수도 있습니다.
