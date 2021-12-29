@@ -3,9 +3,9 @@ title: 머천다이징 eVar 및 제품 검색 방법
 description: 머천다이징 eVar 이면의 개념과 데이터를 처리하고 할당하는 방법에 대해 자세히 알아보십시오.
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL 카테고리] 는 더 이상 제품 카테고리 성능을 추적하기 위한 실행 가능한 옵션으로 권장되지 않습니다.  단순히 존재만 하는 이 기능 때문에 대부분의 제품 변수 구현에서 단일 세미콜론이 변수 값의 productID 부분보다 우선합니다.
+* [!UICONTROL 카테고리]는 더 이상 사용되지 않는 기능이며, 제품 카테고리 성능을 추적하기 위한 실행 가능한 옵션으로 더 이상 권장되지 않습니다. 단순히 존재만 하는 이 기능 때문에 대부분의 제품 변수 구현에서 단일 세미콜론이 변수 값의 productID 부분보다 우선합니다.
 * [!UICONTROL 수량] 및 [!UICONTROL 매출]은 제품 구매를 추적할 때 유용합니다.
 * [!UICONTROL 이벤트]는 매출로 계산되지 않는 사용자 지정 증분 또는 통화 이벤트 값(예: 배송, 할인 등)을 기록하는 데 유용합니다.
 
