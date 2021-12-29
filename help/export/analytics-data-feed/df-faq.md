@@ -4,9 +4,9 @@ keywords: 데이터 피드, 작업, 이전 열, 이후 열, 대소문자 구분
 title: 데이터 피드 FAQ
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ FTP 전송이 실패하는 경우 (로그인 거부, 연결 유실, 할당량 �
 
 전송이 실패하면 성공할 때까지 작업을 다시 실행할 수 있습니다.
 
-FTP 사이트에 데이터 피드를 표시하는 데 문제가 있는 경우 [데이터 피드 문제 해결](troubleshooting.md).
+FTP 사이트에 데이터 피드를 표시하는 데 문제가 있는 경우 [데이터 피드 문제 해결](troubleshooting.md)을 참조하십시오.
 
 ## 작업을 어떻게 다시 전송합니까? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
