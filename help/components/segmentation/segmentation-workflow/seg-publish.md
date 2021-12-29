@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1306'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 또한 게시 가능한 Adobe Analytics의 최대 세그먼트 수를 20개에서 75개로 늘렸습니다. [!UICONTROL Analytics > 구성 요소 > 세그먼트]에서 게시된 세그먼트를 볼 수 있습니다.
 
-자세한 내용은 이 비디오 를 참조하십시오.
+자세한 내용은 다음 비디오에서 확인할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
 
@@ -27,7 +27,7 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 
 ## 사전 요구 사항
 
-* 이 세그먼트를 저장할 보고서 세트를 [Experience Cloud에 사용](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)할 수 있도록 합니다. 그렇게 하지 않으면 Experience Cloud에 게시할 수 없습니다.
+* 이 세그먼트를 저장할 보고서 세트를 [Experience Cloud에 사용](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ko-KR)할 수 있도록 합니다. 그렇게 하지 않으면 Experience Cloud에 게시할 수 없습니다.
 * 조직이 Experience Cloud ID를 사용하고 있는지 확인합니다.
 * 세그먼트를 게시하려면 먼저 관리자가 [Admin Console의](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR) 제품 프로필에 [!UICONTROL 세그먼트 게시] 권한을 할당하고 사용자를 제품 프로필에 추가해야 합니다.
 
