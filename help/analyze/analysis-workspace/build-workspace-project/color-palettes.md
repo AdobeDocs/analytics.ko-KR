@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 
 ## 색상 팔레트 변경:
 
-다음은 사용자 정의 색상 팔레트를 사용하는 비디오입니다.
+다음은 맞춤 색상 팔레트 사용에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
@@ -38,4 +38,4 @@ ht-degree: 95%
    ![](assets/custom_palette.png)
 
 1. 보유한 팔레트를 지정하려면 미리 설정된 선택 사항 아래에서 **[!UICONTROL 사용자 지정 팔레트]**&#x200B;를 선택하십시오.
-1. 사용하려는 색상에 대해 최대 16개의 쉼표로 구분된 16진수 값 (예: #00a4e4)을 지정합니다. 예를 들어 4개의 값만 사용하려는 경우, 이러한 색상은 더 많은 색상을 보유한 시각화에서 자동으로 반복됩니다.
+1. 사용하려는 색상에 대해 최대 16개의 쉼표로 구분된 16진수 값(예: #00a4e4)을 지정합니다. 예를 들어 4개의 값만 사용하려는 경우, 이러한 색상은 더 많은 색상을 보유한 시각화에서 자동으로 반복됩니다.
