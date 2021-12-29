@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 이 앱에서 화면/페이지와 동작 간 상호 작용을 탐색하기 위해, 탐색하려는 내용에 따라 페이지 차원을 여러 위치에 드래그할 수 있습니다.
 
-* 놓기 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 나타나면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다. 
+* 놓기 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 나타나면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
 
    ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
