@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 시각화를 결합하여 분석을 작성하고 조직의 모든 사람과 공유할 수 있습니다. 첫 번째 프로젝트를 시작하기 전에 프로젝트에 액세스, 탐색 및 관리하는 방법에 대해 살펴보십시오.
 
-다음은 Workspace 프로젝트를 빌드하는 방법에 대한 비디오입니다.
+다음은 Workspace 프로젝트 빌드 방법에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
@@ -40,7 +40,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 | 유형 | Workspace 프로젝트인지 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ko-KR)인지 여부를 나타냅니다. |
 | [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) | 프로젝트에 대한 역할(소유자, 편집, 복제, 보기)을 나타냅니다. |
 | 태그 | 프로젝트에 적용된 태그. |
-| 마지막 수정 날짜 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
+| 마지막 수정일 | 프로젝트가 마지막으로 수정된 날짜와 시간. |
 | 내가 즐겨 찾는 프로젝트 | 프로젝트를 즐겨찾기로 표시하려면 프로젝트를 열고 이름 옆에 있는 별표를 클릭합니다. 다음에 Workspace를 열 때 이 목록에 표시됩니다. |
 | 자주 조회하는 프로젝트 | 쉽게 액세스할 수 있도록 자주 여는 모든 프로젝트를 나열합니다. |
 
@@ -72,7 +72,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 |---|---|
 | 프로젝트 이름 | 프로젝트에 지정된 이름. 이름을 더블 클릭하여 편집할 수 있습니다. |
 | 작성자 | 프로젝트 소유자 이름 |
-| 마지막 수정 날짜 | 프로젝트의 마지막 수정 날짜. |
+| 마지막 수정일 | 프로젝트의 마지막 수정 날짜. |
 | 태그 | 더 쉬운 분류를 위해 프로젝트에 적용된 모든 태그를 나열합니다. |
 | 설명 | 설명은 프로젝트의 목적을 명확히 하는 데 유용합니다. 설명을 더블 클릭하여 편집할 수 있습니다. |
 | 프로젝트에서 반복 인스턴스 계산 | 보고서에서 반복 인스턴스가 카운트되는지 여부를 지정합니다. 예를 들어 이 설정(활성화된 경우)은 동일한 페이지에 대한 여러 개의 연속 페이지 조회수를 여러 페이지 조회수로 처리합니다. 이 설정을 끄면 단일 페이지 조회수로 계산됩니다(단일 페이지 방문과 같은 특정 지표에만 영향을 줌). **참고**: 이 설정은 플로우 또는 폴아웃 시각화에 적용되지 않습니다. |
@@ -81,7 +81,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ## 왼쪽 레일 {#left-rail}
 
-프로젝트 내에서 [패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR), 테이블, [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR), [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html)는 왼쪽 레일에서 액세스됩니다. 이는 프로젝트 구성 요소입니다.
+프로젝트 내에서 [패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR), 테이블, [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR), [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR)는 왼쪽 레일에서 액세스됩니다. 이는 프로젝트 구성 요소입니다.
 
 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)에서도 시각화 및 패널에 액세스할 수 있습니다.
 
@@ -91,7 +91,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ## 마우스 오른쪽 버튼 클릭 메뉴
 
-다음은 Analysis Workspace에서 마우스 오른쪽 단추 클릭 메뉴를 사용하는 비디오입니다.
+다음은 Analysis Workspace에서 마우스 오른쪽 클릭 메뉴 사용에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
 
@@ -101,15 +101,15 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. 활성 패널 주위에 파란색 테두리가 있으며 왼쪽 레일에서 어떤 구성 요소를 사용할 수 있는지가 결정됩니다.
 
-프로젝트를 위해 선택한 시작 지점에 따라 캔버스에 [자유형 테이블](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko-KR) 또는 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)이 표시됩니다. 분석을 시작하는 가장 빠른 방법은 하나 이상의 구성 요소를 선택하여 프로젝트 캔버스로 끌어서 놓는 것입니다. 데이터 테이블이 자동으로 렌더링됩니다. 테이블 작성하기 위한 다양한 옵션에 대해 [자세히 알아보거나](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) [교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR?#training-tutorial)을 활용하여 첫 번째 프로젝트 작성에 대한 자세한 지침을 확인하십시오.
+프로젝트를 위해 선택한 시작 지점에 따라 캔버스에 [자유형 테이블](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko-KR) 또는 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)이 표시됩니다. 분석을 시작하는 가장 빠른 방법은 하나 이상의 구성 요소를 선택하여 프로젝트 캔버스로 끌어서 놓는 것입니다. 데이터 테이블이 자동으로 렌더링됩니다. 테이블 작성하기 위한 다양한 옵션에 대해 [자세히 알아보거나](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko-KR) [교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR?#training-tutorial)을 활용하여 첫 번째 프로젝트 작성에 대한 자세한 지침을 확인하십시오.
 
 ![](assets/canvas.png)
 
 ## 프로젝트 관리자 {#manager}
 
-Analysis Workspace 프로젝트는 **[!UICONTROL Analytics] > [!UICONTROL 구성 요소] >  [!UICONTROL 프로젝트]**. 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다.
+Analysis Workspace 프로젝트는 **[!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 프로젝트]**&#x200B;에서 관리할 수 있습니다. 프로젝트 관리자는 특정 사용자가 만든 항목을 보여 줍니다.
 
-프로젝트 소유권은 [!UICONTROL 관리] > [!UICONTROL Analytics 사용자 및 자산] > [!UICONTROL 자산 전송].
+[!UICONTROL 관리자] > [!UICONTROL Analytics 사용자 및 에셋] > [!UICONTROL 에셋 전송]에서 프로젝트 소유권을 새 사용자에게 이전할 수 있습니다.
 
 프로젝트 관리자에서 추가, 태그, 공유, 복제/복사 등을 할 수 있습니다. 검색 창에서 또는 왼쪽 레일의 필터 옵션을 사용하여 프로젝트를 검색합니다. 태그, 소유자, 프로젝트 유형 등을 기준으로 필터링할 수 있습니다.
 
@@ -119,9 +119,9 @@ Analysis Workspace 프로젝트는 **[!UICONTROL Analytics] > [!UICONTROL 구성
 
 | 작업 | 설명 |
 |---|---|
-| 추가 | 새 프로젝트를 처음부터 만들거나 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)에서 시작할 수 있습니다. |
+| 추가 | 새 프로젝트를 처음부터 만들거나 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR)에서 시작할 수 있습니다. |
 | 태그 또는 승인 | “태그” 또는 “승인”을 선택하여 프로젝트를 구성하고 쉽게 검색할 수 있도록 만듭니다. |
-| [공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있게 합니다. |
+| [공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) | 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있게 합니다. |
 | 삭제 | 프로젝트를 삭제합니다. |
 | 이름 변경 | 프로젝트의 이름을 편집합니다. |
 | 복사 | 프로젝트의 복사본을 만듭니다. 그러면 새 프로젝트와 프로젝트 ID가 생성됩니다. 원본 프로젝트에 연결된 공유 또는 예약은 복사되지 않습니다. |
