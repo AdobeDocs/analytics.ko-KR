@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 94%
 | Data Warehouse에 Analysis Workspace을 사용할 수 있습니까? | Analysis Workspace은 벌크 데이터 내보내기에 권장되지 않습니다. 대시보드와 유사한 분석 프로젝트를 만드는 시각화 작업 영역입니다. |
 | Analysis Workspace의 성능을 최적화하려면 어떻게 해야 합니까? | [성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)를 참조하십시오. |
 
-## 데이터는 Analysis Workspace 프로젝트에 어떻게 전달됩니까?
+## 데이터를 Analysis Workspace 프로젝트에 포함시키는 방법
 
-다음 비디오를 시청하십시오.
+비디오 시청:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
 
-## 작업 공간 사용을 추적하려면 어떻게 해야 합니까?
+## Workspace 사용을 추적하는 방법
 
-Analysis Workspace에 대한 사용 로그 추적에 대해 이 비디오를 시청하십시오.
+Analysis Workspace 사용 로그 추적에 대한 다음 비디오를 시청하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
 
