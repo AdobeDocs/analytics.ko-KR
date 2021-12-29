@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ![](assets/build-panels.png)
 
-### Analysis Workspace의 프로젝트 관리
+### Analysis Workspace에서 프로젝트 관리
 
 다음은 프로젝트 관리에 대한 비디오 개요입니다.
 
@@ -70,4 +70,4 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 ## 추가 리소스 {#resources}
 
 * Adobe는 수백 개의 [Analytics 비디오 교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ko-KR)을 제공합니다.
-* 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) 새 기능에 대한 업데이트입니다.
+* 새 기능을 위한 업데이트에 대해서는 [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR#analytics)를 참조하십시오.
