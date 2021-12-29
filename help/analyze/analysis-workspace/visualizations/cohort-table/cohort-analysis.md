@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 90%
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
 
-Analysis Workspace의 집단 테이블 비디오:
+Analysis Workspace의 집단 테이블에 대한 비디오
 
 >[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL 집단 분석] 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표(매출액 또는 발생 횟수 등)를 지원하지 않습니다. 세그먼트에서 사용할 수 있는 지표만 [!UICONTROL 집단 분석], 한 번에 >1씩만 증분할 수 있습니다.
+>[!UICONTROL 집단 분석]은 세그먼트화할 수 없는 지표(계산된 지표 포함), 정수가 아닌 지표 (매출액 등) 또는 발생을 지원하지 않습니다. 세그먼트에 사용할 수 있는 지표만이 [!UICONTROL 집단 분석]에 사용될 수 있으며 한번에 1 이상으로 증분될 수 있습니다.
 
 ## 집단 분석 기능
 
