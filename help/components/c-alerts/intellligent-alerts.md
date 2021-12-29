@@ -1,18 +1,18 @@
 ---
-description: 지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
+description: 지능형 경고 시스템은 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능을 경고 시스템과 통합합니다.
 title: 지능형 경고
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 지능형 경고
 
-지능형 경고 시스템에서는 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능이 경고 시스템과 통합됩니다.
+지능형 경고 시스템은 경고를 더욱 세밀하게 제어할 수 있으며 예외 항목 탐지 기능을 경고 시스템과 통합합니다.
 
 다음은 비디오 개요입니다.
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 * 자동 생성된 Analysis Workspace 프로젝트에 대한 링크가 있는 이메일 또는 SMS로 경고를 보냅니다.
 * 하나의 경고에서 여러 지표를 캡처하는 &quot;누적된&quot; 경고를 생성합니다.
 
-경고 시스템의 구성 요소는 다음과 같습니다. 경고 빌더, 경고 관리자, 경고 미리 보기 및 경고 생성에 대한 더 나은 컨텍스트 내 액세스 권한을 제공합니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능 [더 이상 사용할 수 없음](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ko-KR).
+경고 시스템의 구성 요소에는 경고 빌더, 경고 관리자, 경고 미리보기 및 경고 작성에 대한 더 나은 컨텍스트 내 액세스 기능이 포함됩니다. 이전 경고 시스템 사용자 인터페이스는 더 이상 사용할 수 없지만, 경고는 마이그레이션됩니다. 일부 이전 경고 기능은 [더 이상 사용할 수 없습니다](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ko-KR).
 
 경고 빌더를 여는 방법에는 네 가지가 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 88%
 
 ## FAQ: 경보가 계산되고 트리거되는 방식 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-% 임계값은 표준 편차입니다. 예를 들어, 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준 (norm)에서 얼마나 떨어져 있는지 (표준 편차 수) 계산합니다. 낮은 임계값 (예: 90%)을 설정하면 높은 임계값 (99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
+% 임계값은 표준 편차입니다. 예를 들어 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준 (norm)에서 얼마나 떨어져 있는지 (표준 편차 수) 계산합니다. 낮은 임계값(예: 90%)을 설정하면 높은 임계값(99%)을 설정하는 경우보다 많은 예외 항목이 생깁니다. 99.75% 및 99.99% 임계값은 많은 예외 항목을 트리거되지 않도록 시간 단위용으로 특별히 도입되었습니다.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
