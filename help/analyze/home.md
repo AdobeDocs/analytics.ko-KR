@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 * **[!UICONTROL Activity Map]:** 가장 많이 클릭한 요소를 보여 주는 오버레이를 사이트에 표시하는 브라우저 플러그인입니다.
 * **[!UICONTROL Report Builder]:** Analytics 데이터를 검색하고 통합 문서에 직접 배치할 수 있는 Excel 추가 기능입니다.
 * **[!UICONTROL Reporting API]:** 보고서 쿼리를 Adobe 서버에 직접 만들고, 자체 고객 보고 도구에서 사용할 응답을 얻을 수 있습니다.
-* **[!UICONTROL Reports &amp; Analytics]:** 수십 개의 사전 작성된 보고서가 있는 도구입니다. 대부분의 보고에 필요한 Analysis Workspace를 사용하는 것이 좋습니다.
+* **[!UICONTROL Reports &amp; Analytics]:** 수십 개의 사전 작성된 보고서가 있는 도구입니다. 대부분의 보고에 Analysis Workspace를 사용하는 것이 좋습니다.
 
 다음은 Adobe Analytics에 대한 비디오 개요입니다.
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## 주요 Analytics 리소스
 
