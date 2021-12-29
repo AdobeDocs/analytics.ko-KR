@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 88%
    >
    >기본적으로 조직의 모든 사용자가 프로젝트 템플릿을 볼 수 있습니다. 태그를 적용하여 템플릿을 구성할 수도 있습니다. (태그와 설명을 편집하려면 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동하십시오.)
 
-다음은 사용자 지정 템플릿 만들기 및 관리에 대한 비디오입니다.
+다음은 사용자 지정 템플릿 만들기 및 관리하기에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### 사용자 지정 템플릿 관리 {#manage-custom-template}
+### 사용자 지정 템플릿 관리하기 {#manage-custom-template}
 
 | 작업 | 설명 |
 |--- |--- |
@@ -64,9 +64,9 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
 
 ### 교육
 
-이 표준 템플릿은 작업 공간에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다.
+이 표준 템플릿은 Workspace에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 이 템플릿은 새 프로젝트 모달에서 표준 템플릿으로 사용할 수 있으며 목록에 다른 프로젝트가 없는 신규 사용자에게 현재 표시되는 샘플 프로젝트를 대체합니다.
 
-다음은 비디오입니다 [!UICONTROL 교육 자습서] 템플릿:
+다음은 [!UICONTROL 교육 튜토리얼] 템플릿에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -74,23 +74,23 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
 
 >[!IMPORTANT]
 >
->광고 템플릿은 보고서 세트가 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>광고 템플릿은 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=ko-KR)에 대해 보고서 세트가 활성화되어 있을 경우에만 사용할 수 있습니다.
 
 * **유료 검색 엔진**: 이 템플릿은 광고 트렌드, 광고 플랫폼, 키워드, 계정, 캠페인 등을 분류합니다.
 
 ### 상거래
 
-* **Magento: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 속성으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 다음은 의 비디오 자습서입니다 [Magento: 마케팅 및 상거래 템플릿](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=ko-KR).
+* **Magento: 마케팅 및 상거래**: 이 템플릿은 마케팅 채널 속성으로 전자 상거래 전환을 분류하고 검색 키워드, 랜딩 페이지, 지리적 위치 등을 통해 통찰력을 제공합니다. 다음은 [Magento: 마케팅 및 커머스 템플릿](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=ko-KR)에 대한 비디오 튜토리얼입니다.
 
 ### 데이터 수집
 
-* **ITP 영향**: Apple의 ITP가 데이터에 미치는 영향 및 그에 따라 보고를 조정하는 방법을 이해합니다.
+* **ITP 영향**: Apple의 ITP가 사용자 데이터에 어떤 영향을 주는지 그리고 보고를 어떻게 적절하게 조정할 수 있는지를 이해할 수 있습니다.
 
 ### 미디어
 
-* **컨텐츠 사용량**: 충성스런 독자
-* **최신성 - 빈도 - 충성도**: 가장 많이 소비되고 사용자가 참여하는 컨텐츠 식별
-* **스트리밍 미디어 사용**: 모든 디지털 장치에서 미디어 사용 트렌드와 상위 지표를 제공합니다. 다음은 스트리밍 미디어 사용 템플릿에 대한 비디오입니다.
+* **콘텐츠 소비**: 충성스런 독자 식별
+* **최신성 - 빈도 - 충성도**: 가장 많이 소비되고 사용자가 참여하는 콘텐츠 식별
+* **스트리밍 미디어 소비**: 모든 디지털 기기에서 미디어 사용에 대한 경향과 최상위 지표를 제공합니다. 다음은 스트리밍 미디어 소비 템플릿에 대한 비디오입니다.
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
@@ -117,7 +117,7 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
 ### 웹
 
 * **고객 확보:** 내 웹 사이트를 방문하는 상위 트래픽 파생자
-* **AEM 사이트 성능 개요:** Adobe Experience Manager 사이트의 수행 방식
+* **AEM 사이트 성과 개요**: Adobe Experience Manager 사이트의 성과는 어떠한가.
 * **콘텐츠 사용량:** 내 사이트에서 사람들이 방문하는 상위 위치
 * **유지:** 내 사이트에 충성스런 사용자가 되는 사용자 유형
 * **기술:** 사람들이 내 사이트에 액세스하는 데 사용하는 기술
@@ -138,11 +138,11 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
 * 사람 지표를 사용하는 세그먼트 스택 사용 방법을 알아봅니다.
 * 사용 중인 환경에서 Experience Cloud ID를 사용하는 것이 어떻게 사람 지표의 효과를 개선하는지 알아봅니다.
 
-### 여정 IQ: 교차 디바이스 분석 템플릿
+### Journey IQ: Cross-Device Analytics 템플릿
 
 <!--This content is mirrored in the CDA doc.-->
 
-이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en))에 액세스할 수 있는 고객에게만 제공됩니다.
+이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko-KR))에 액세스할 수 있는 고객에게만 제공됩니다.
 
 * **Co-op 그래프의 구성원을 위한 특수 참고 사항**: co-op 그래프가 지원되는 지역에서 방문자가 포함된 보고서 세트의 일부 및 지원되지 않는 지역을 표시합니다.
 * **사용자 식별**: 크로스 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
@@ -154,5 +154,5 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
    * **보고 세부기간**: 일별 압축은 일반적으로 월별 또는 연별 압축보다 작습니다. 개인이 여러 디바이스를 사용할 가능성은 범위가 한 달일 때보다 하루일 때 더 작아집니다. 세그먼트화, 필터링 또는 분류 차원 사용 시에도 압축률이 더 낮아질 수 있습니다.
 * **사람 기반 세그먼트**: 디바이스별 데이터를 볼 수 있는 세그먼트 드롭다운이 포함되어 있습니다. 이 패널에서는 디바이스 유형을 포함하거나 제외하는 것이 보고서에 어떤 영향을 미치는지 세그먼트로 실험해 볼 것을 권장합니다.
 * **크로스 디바이스 움직임 분석**: 디바이스 유형에 따라 플로우 및 폴아웃 보고서를 제공합니다.
-* **크로스 디바이스 속성**: 움직임 IQ와 속성 IQ의 기능을 결합합니다.
+* **크로스 디바이스 속성**: 움직임 IQ와 Attribution IQ의 기능을 결합합니다.
 * **기타 팁과 트릭**: CDA를 최대한 활용할 수 있는 유용한 항목입니다.
