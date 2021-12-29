@@ -6,21 +6,21 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# 요약 번호 및 요약 변경 사항
+# [!UICONTROL 요약 번호] 및 [!UICONTROL 요약 변경]
 
-다음은 이러한 두 가지 시각화에 대한 비디오입니다.
+다음은 이들 두 시각화에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
-## [!UICONTROL 요약 번호 시각화] {#summary-number}
+## [!UICONTROL 요약 번호] 시각화 {#summary-number}
 
-를 사용하십시오 [!UICONTROL 요약 번호] 시각화를 사용하여 프로젝트에서 중요한 큰 숫자를 강조 표시합니다. 이 시각화는 다음과 같은 방식으로 동작합니다.
+프로젝트에서 중요한 큰 숫자를 강조 표시하려면 [!UICONTROL 요약 번호] 시각화를 사용하십시오. 이 시각화는 다음과 같은 방식으로 동작합니다.
 
 * 셀을 선택하지 않은 경우 열의 합계를 선택합니다.
 * 단일 셀을 선택하면 해당 셀의 요약이 표시됩니다.
@@ -36,9 +36,9 @@ ht-degree: 84%
 | [!UICONTROL 값 생략] | 값들을 축약하고 소수점 이하 최대 3자리를 표시하도록 선택합니다. |
 | [!UICONTROL 다음을 기준으로 값 요약] | 선택한 데이터의 최대, 최소, 평균, 중간값 또는 합계를 표시하도록 선택합니다. |
 
-## [!UICONTROL 요약 변경 시각화] {#summary-change}
+## [!UICONTROL 요약 변경] 시각화 {#summary-change}
 
-를 사용하십시오 [!UICONTROL 요약 변경] 두 숫자 간의 델타(변경)를 보여주는 시각화. 녹색 및 빨간색 색상 [!UICONTROL 요약 변경] 는 [사용자 지정 이벤트 극성](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ko-KR) 또는 계산된 지표의 [증가 트렌드를 다음으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR) 선택 사항입니다.
+[!UICONTROL 요약 변경] 시각화를 사용하여 두 숫자 간의 델타(변화량)를 표시합니다. [!UICONTROL 요약 변경]의 녹색 및 빨간색 색상은 [사용자 지정 이벤트 극성](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ko-KR) 또는 계산된 지표의 [증가 트렌드를 다른 방식으로 표시](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ko-KR) 옵션을 통해 제어할 수 있습니다.
 
 이 시각화는 다음과 같은 방식으로 동작합니다.
 
