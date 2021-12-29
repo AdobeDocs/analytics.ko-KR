@@ -5,9 +5,9 @@ title: 계산 및 고급 계산 (파생) 지표
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 다음과 같은 작업을 수행할 수 있습니다.
 
 * [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], [!UICONTROL Contribution Analysis]에서 지표를 만들 수 있습니다.
-* 구현을 변경하지 않고도 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다. 다음은 구현이 없는 지표에 대한 비디오입니다.
+* 구현을 변경하지 않고도 보고서 실행 시 파생된 세그먼트화된 지표를 만들 수 있습니다. 이러한 지표는 세그먼트를 기반으로 하므로 기록에서 볼 수 있습니다. 다음은 구현 불가 메트릭에 대한 비디오입니다.
 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
-*  (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 이번이 첫 번째 세션인 사람의 수로, &quot;새 방문자 수&quot;에 대한 지표를 만들 수 있습니다. 다음은 이 항목의 비디오입니다.
+* (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 첫 번째 세션에 참여한 사람의 수로, &quot;새 방문자 수&quot;에 대한 지표를 만들 수 있습니다. 다음은 해당 주제에 대한 비디오입니다.
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
@@ -103,7 +103,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
   </tr> 
   <tr> 
    <td colname="col1"> 지표 선택기 레일 </td> 
-   <td colname="col2"> <p>Reports &amp; Analytics에서 <span class="uicontrol">지표 표시</span><span class="uicontrol"> 팝업을 대체합니다</span>. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해줍니다.   <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >정렬</a> 순서 (옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Reports &amp; Analytics에서 <span class="uicontrol">지표 표시</span><span class="uicontrol"> 팝업을 대체합니다</span>. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해 줍니다. 또한 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >정렬</a> 순서(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 계산된 지표에 대한 API</a> </td> 
