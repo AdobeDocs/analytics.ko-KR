@@ -3,9 +3,9 @@ title: Analytics Components 안내서
 description: Adobe Analytics가 제공하는 다양한 구성 요소에 대해 살펴보십시오.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Analytics 구성 요소를 사용하면 데이터 분석을 세부적으로 조�
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## 주요 Analytics 리소스
 
