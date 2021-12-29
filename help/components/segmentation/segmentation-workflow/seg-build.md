@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2046'
+ht-degree: 100%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 0%
 1. **[!UICONTROL 설명]**: 세그먼트에 대한 설명을 입력합니다.
 1. **[!UICONTROL 태그]**: 기존 태그 목록에서 선택하거나 새 태그를 만들어 작성하고 있는 [세그먼트에 태깅](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
 1. **[!UICONTROL 정의]**: [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 및 구성, 규칙 추가, 컨테이너 중첩 및 시퀀스 지정을 수행하는 곳입니다.
-1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/segmentation/seg-overview.md)  ([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
+1. **[!UICONTROL 표시]**: (위쪽 컨테이너 선택기) 최상위 [컨테이너](/help/components/segmentation/seg-overview.md)([!UICONTROL 방문자], [!UICONTROL 방문], [!UICONTROL 히트])를 선택할 수 있습니다. 기본 최상위 수준 컨테이너는 히트 컨테이너입니다.
 1. **[!UICONTROL 옵션]**: (톱니바퀴) 아이콘
 
-   * **[!UICONTROL + 컨테이너 추가]**: 세그먼트 정의에 새 컨테이너 (최상위 컨테이너 아래)를 추가할 수 있습니다.
+   * **[!UICONTROL + 컨테이너 추가]**: 세그먼트 정의에 새 컨테이너(최상위 컨테이너 아래)를 추가할 수 있습니다.
    * **[!UICONTROL 제외]**: 하나 이상의 차원, 세그먼트 또는 지표를 제외하는 식으로 세그먼트를 정의합니다.
 
 1. **[!UICONTROL 차원]**: 구성 요소는 차원 목록 (주황색 사이드바)에서 드래그하여 놓습니다.
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 반복]**  (기본값): 차원의 인스턴스와 지속적인 값을 포함합니다.
    * **[!UICONTROL 인스턴스]**: 차원의 인스턴스를 포함합니다.
-   * **[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스 (비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.
+   * **[!UICONTROL 비반복 인스턴스]**: 차원에 대한 고유한 인스턴스(비반복)를 포함합니다. 반복 인스턴스가 제외될 때 플로우에 적용되는 모델입니다.
 
    ![](assets/attribution-models.jpg)
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 ![](assets/date-ranges.png)
 
-다음은 세그먼트에서 롤링 날짜 범위를 사용하는 비디오입니다.
+다음은 세그먼트에서 롤링 기간 사용하기에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
