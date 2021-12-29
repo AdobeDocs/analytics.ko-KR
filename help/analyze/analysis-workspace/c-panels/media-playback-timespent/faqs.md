@@ -1,18 +1,18 @@
 ---
-title: 미디어 재생 체류 시간 FAQ
-description: 미디어 재생 체류 시간 FAQ는 무엇입니까?
+title: 미디어 재생 소요 시간 FAQ
+description: 미디어 재생 소요 시간 FAQ에는 무엇이 있습니까?
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 
-# 미디어 재생 체류 시간 FAQ
+# 미디어 재생 소요 시간 FAQ
 
 
 | 질문 | 답변 |
