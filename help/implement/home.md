@@ -3,9 +3,9 @@ title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 가이드](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## 주요 Analytics 리소스
 
