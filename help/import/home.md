@@ -4,8 +4,8 @@ description: 이 안내서에서는 데이터 소스, 데이터 삽입 API 및 �
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

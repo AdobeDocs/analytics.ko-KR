@@ -8,7 +8,7 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Analysis Workspace에서 세그먼트 사용:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-세그먼트의 롤링 날짜 범위:
+세그먼트의 롤링 기간:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 

@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 �
 >[!NOTE]
 >Adobe는 2018년 11월 13일에 Adobe Analytics 내에서 Internet Explorer 11에 대한 지원을 종료했습니다. 가능한 빨리 Microsoft Edge 또는 다른 지원되는 브라우저로 전환하십시오.
 
-* 기본 설정 브라우저: Firefox, Chrome, Safari 또는 Edge의 최신 버전입니다.
+* 권장 브라우저: 최신 버전의 Firefox, Chrome, Safari 또는 Edge.
 * 쿠키와 JavaScript가 활성화되어 있어야 합니다.
 * 16비트 색상 깊이 (이상)의 1024x768 모니터 해상도
 
@@ -80,7 +80,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 연락처 정보를 보고 편집하고, 암호를 지정하고, 웹 서비스 정보를 볼 수 있습니다. 또한 이 컴퓨터를 데이터 수집에서 제외할 수 있습니다.
 
-오른쪽 상단에 있는 계정 아이콘 ![](assets/account.png)을 클릭한 다음, 로그인 이름 옆에 있는 **[!UICONTROL 계정 설정]** (바퀴)을 클릭합니다.
+오른쪽 상단에 있는 계정 아이콘 ![](assets/account.png)을 클릭한 다음, 로그인 이름 옆에 있는 **[!UICONTROL 계정 설정]**(바퀴)을 클릭합니다.
 
 모든 사용자는 [!UICONTROL 계정 정보] 페이지에 대한 액세스 권한을 가지고 있습니다. 다음 정보는 보거나 편집할 수 있습니다.
 
@@ -98,7 +98,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 1. Analytics에 로그인하고 **[!UICONTROL 보고서]** 탭을 선택합니다.
 1. 페이지 바닥글의 **[!UICONTROL 언어]** 메뉴에서 활성 언어를 클릭한 다음 기본 언어를 선택합니다.
 
-Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다.  (**[!UICONTROL 도움말]** > **[!UICONTROL 도움말 홈]**)
+Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다. (**[!UICONTROL 도움말]** > **[!UICONTROL 도움말 홈]**)
 
 >[!NOTE]
 >이 제품은 북미나 그 제품이 실제로 판매되는 다른 지역에서 판매할 수 있는 권한이 있습니다. 다른 국가 또는 지역에서 판매하기 위한 현지 요구 사항을 충족하지 못할 수도 있습니다.
