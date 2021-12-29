@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3705'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 99%
 
 순차적 세그먼트는 다음 히트 값에 기반을 둘 수 있습니다.
 
-* 페이지 히트 시퀀스 (단일 방문 내 페이지 보기, 별도 방문 간 페이지 보기, 페이지 보기를 제외한 방문)를 기반으로 하는 방문자
-* 페이지 보기 간 및 페이지 보기 후 시간 (시간 제한 후, 히트 사이, 이벤트 후)을 기준으로 하는 방문자
+* 페이지 히트 시퀀스(단일 방문 내 페이지 보기, 별도 방문 간 페이지 보기, 페이지 보기를 제외한 방문)를 기반으로 하는 방문자
+* 페이지 보기 간 및 페이지 보기 후 시간(시간 제한 후, 히트 사이, 이벤트 후)을 기준으로 하는 방문자
 
 ![](assets/sequential_segmentation_containers_view.png)
 
@@ -149,7 +149,7 @@ Country = United States + Order = True
 
 ## 순차적 세그먼트의 컨테이너 {#section_324AF503F51A4A62806151FE440F3B2E}
 
-순차적 세그먼테이션은 계층적으로 중첩된 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트]  (페이지 보기 또는 기타 차원 포함)를 포함하는 동일한 기본 컨테이너를 사용합니다.
+순차적 세그먼테이션은 계층적으로 중첩된 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트](페이지 보기 또는 기타 차원 포함)를 포함하는 동일한 기본 컨테이너를 사용합니다.
 
 ![](assets/nesting_container.png)
 
@@ -299,4 +299,4 @@ Country = United States + Order = True
 요약하면 다음과 같습니다.
 
 * 방문 컨테이너는 적어도 한 페이지가 조건을 충족하는 방문에서 본 모든 페이지를 반환합니다. 따라서 특정 페이지를 첫째 날, 방문 1에서만 열람했다고 해도 전체 방문에서 열람한 모든 페이지가 데이터에 포함됩니다.
-* 세그먼트화하는 조건이 eVar 또는 다른 유형의 지속형 변수와 관련된 경우에는 유의하시기 바랍니다. 예를 들어 조건 &quot;where campaign contains email&quot;을 사용할 수 있으며 7일 이후에는 만료됩니다. 따라서 이 캠페인이 첫 번째 방문에서 설정된 경우 7일 더 지속됩니다. 이 캠페인이 첫 번째 방문에서만 설정되었더라도 각 방문이 포함됩니다. 다른 방문도 포함됩니다(보고서의 날짜 범위에 포함되는 경우). 지속되는 값을 포함하지 않으려면 이벤트 &quot;instance of&quot; 또는 동급의 Prop 변수 (사용 가능한 경우)를 사용합니다.
+* 세그먼트화하는 조건이 eVar 또는 다른 유형의 지속형 변수와 관련된 경우에는 유의하시기 바랍니다. 예를 들어 조건 &quot;where campaign contains email&quot;을 사용할 수 있으며 7일 이후에는 만료됩니다. 따라서 이 캠페인이 첫 번째 방문에서 설정된 경우 7일 더 지속됩니다. 이 캠페인이 첫 번째 방문에서만 설정되었더라도 각 방문이 포함됩니다. 다른 방문도 포함됩니다(보고서의 날짜 범위에 포함되는 경우). 지속되는 값을 포함하지 않으려면 이벤트 &quot;instance of&quot; 또는 동급의 Prop 변수(사용 가능한 경우)를 사용합니다.
