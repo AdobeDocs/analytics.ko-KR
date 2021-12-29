@@ -5,9 +5,9 @@ title: Analytics 데이터 피드 개요
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
    * 이름: &quot;데이터 피드 테스트&quot;와 같이 원하는 이름을 지정합니다.
    * 보고서 세트: 원하는 보고서 세트를 선택합니다.
    * 완료 시 이메일 보내기: 이메일을 입력합니다.
-   * 피드 간격: 원하는 간격 (시간별 또는 일별)을 선택합니다.
+   * 피드 간격: 원하는 간격(시간별 또는 일별)을 선택합니다.
    * 프로세싱 지연: [!UICONTROL 지연 없음]으로 둘 수 있습니다.
    * 시작 및 종료 날짜: 이전 며칠 중에서 시작 날짜를 선택하고 오늘을 종료 날짜로 선택합니다.
 6. [!UICONTROL 대상] 필드를 채웁니다.
@@ -69,6 +69,6 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-데이터 피드 ID를 찾는 방법에 대한 비디오:
+데이터 피드 ID 찾는 방법에 대한 비디오
 
 >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
