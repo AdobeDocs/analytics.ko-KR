@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 시간 분할은 수집한 히트의 타임스탬프를 가져와서 &quot;시간&quot; 또는 &quot;요일&quot;과 같은 더 의미 있는 차원으로 나눕니다.
 
-다음은 시간 분할 차원에 대한 비디오입니다.
+다음은 시간 분할 차원에 대한 비디오 개요입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
