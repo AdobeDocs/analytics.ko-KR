@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 * 다른 조직에 보고할 지표 및 시각화 대시보드를 작성합니다. 이제 여러 보고서 세트의 데이터를 동일한 프로젝트로 가져올 수 있습니다.
 
-다음은 주제에 대한 비디오입니다.
+다음은 해당 주제에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
@@ -50,7 +50,7 @@ ht-degree: 98%
 
 1. Analysis Workspace에서 2개 이상의 패널을 사용하여 새 프로젝트를 만듭니다.
 
-1. 구성 요소 (지표, 차원, 세그먼트, 날짜 범위)를 패널로 끌어서 놓습니다. 패널에 데이터와 보고서 세트에만 적용되는 시각화가 있는지 확인합니다.
+1. 구성 요소(지표, 차원, 세그먼트, 날짜 범위)를 패널로 끌어서 놓습니다. 패널에 데이터와 보고서 세트에만 적용되는 시각화가 있는지 확인합니다.
 
 
    >[!NOTE]
