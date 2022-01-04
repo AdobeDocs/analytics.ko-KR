@@ -29,7 +29,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 최종
 
 >[!NOTE]
 >
->Analytics 이미지 요청이 `adobedc`, `2o7.net` 또는 `omtrdc.net` 엔드포인트로 전송되는 경우 서드파티 데이터 수집이 제공됩니다. 요청 URL에 종단점이 표시되면 이를 확인할 수 있습니다.
+>Analytics 이미지 요청이 `adobedc`, `2o7.net` 또는 `omtrdc.net` 엔드포인트로 전송되는 경우 서드파티 데이터 수집이 제공됩니다. 요청 URL에 끝점이 표시되면 이를 확인할 수 있습니다.
 
 ## 퍼스트 파티 데이터 수집
 

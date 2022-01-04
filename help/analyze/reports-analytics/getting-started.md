@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 Adobe Experience Cloud에서 설명서 및 홈 페이지에 액세스할 수 있습니다. (**[!UICONTROL 도움말]** > **[!UICONTROL 도움말 홈]**)
 
 >[!NOTE]
->이 제품은 북미나 그 제품이 실제로 판매되는 다른 지역에서 판매할 수 있는 권한이 있습니다. 다른 국가 또는 지역에서 판매하기 위한 현지 요구 사항을 충족하지 못할 수도 있습니다.
+>이 제품은 북미 및 제품이 실제로 판매되는 기타 지역에서 판매 승인을 받았습니다. 그 외의 다른 국가 및 지역에서는 해당 요건을 충족하지 못할 수 있습니다.
