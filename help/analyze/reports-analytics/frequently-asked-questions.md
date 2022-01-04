@@ -5,16 +5,19 @@ title: FAQ
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
 # FAQ
 
 Reports &amp; Analytics에 대한 대부분의 FAQ 중 일부에 대한 답변 및 문제 해결 제안 사항을 제공합니다. 구현에 대한 FAQ에 대해서는 구현 안내서의 [FAQ](/help/implement/faq.md)를 참조하십시오.
+
+>[!IMPORTANT]
+>유효 **2023년 12월 31일**, Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단하려고 합니다. 이 시점에서 Reports &amp; Analytics와 모든 보고서 및 일정이 중단됩니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. 이 알림은 수명 종료 프로세스에 대해 설명합니다.
 
 **내 계정이 잠겼습니다. 어떻게 잠금을 해제합니까?**
 

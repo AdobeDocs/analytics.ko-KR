@@ -4,16 +4,19 @@ title: Reports and Analytics 시작하기
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 100%
+source-wordcount: '790'
+ht-degree: 88%
 
 ---
 
 # Reports &amp; Analytics 시작하기
 
 Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그인 및 설정 작업과 계정 정보에 액세스하는 방법을 이해합니다.
+
+>[!IMPORTANT]
+>유효 **2023년 12월 31일**, Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단하려고 합니다. 이 시점에서 Reports &amp; Analytics와 모든 보고서 및 일정이 중단됩니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. 이 알림은 수명 종료 프로세스에 대해 설명합니다.
 
 보고 기능을 통해 모바일, 비디오 및 소셜 네트워킹과 같이 계속 변화하는 채널을 물론 종래의 웹 기반 채널들에 대해서도 통찰력을 가질 수 있습니다. 보고서의 몇 가지 예는 다음과 같습니다.
 
@@ -30,9 +33,6 @@ Reports &amp; Analytics를 사용하려면 먼저 이러한 기본적인 로그�
 ## 브라우저 및 시스템 요구 사항
 
 Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 및 시스템 요구 사항.
-
->[!NOTE]
->Adobe는 2018년 11월 13일에 Adobe Analytics 내에서 Internet Explorer 11에 대한 지원을 종료했습니다. 가능한 빨리 Microsoft Edge 또는 다른 지원되는 브라우저로 전환하십시오.
 
 * 권장 브라우저: 최신 버전의 Firefox, Chrome, Safari 또는 Edge.
 * 쿠키와 JavaScript가 활성화되어 있어야 합니다.

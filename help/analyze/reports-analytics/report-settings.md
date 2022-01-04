@@ -4,10 +4,10 @@ title: 보고서 표시 설정 및 탐색
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 99%
+source-wordcount: '1557'
+ht-degree: 94%
 
 ---
 
@@ -15,9 +15,12 @@ ht-degree: 99%
 
 모든 보고서가 표시되는 방식과 기본 메뉴 옵션을 간소화된 메뉴에서 해당 위치에 매핑하는 정보를 정의하는 설정입니다.
 
+>[!IMPORTANT]
+>유효 **2023년 12월 31일**, Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단하려고 합니다. 이 시점에서 Reports &amp; Analytics와 모든 보고서 및 일정이 중단됩니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. 이 알림은 수명 종료 프로세스에 대해 설명합니다.
+
 ## 보고서 표시 설정 및 탐색 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL 구성 요소]**  >  **[!UICONTROL 모든 구성 요소]**  >  **[!UICONTROL 보고서 설정]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 보고서 설정]**
 
 | 요소 | 설명 |
 |--- |--- |

@@ -1,13 +1,13 @@
 ---
 title: 보고서
 description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지표입니다.
-feature: 보고서 & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,9 @@ Reports &amp; Analytics의 각 보고서는 전용 차원 및 기본 지표를 �
 >[!NOTE]
 >
 >보고서 메뉴는 조직의 관리자가 사용자 정의한 내용에 따라 다르게 표시될 수 있습니다. 관리 사용 안내서에서 [메뉴 최적화](/help/admin/admin/customize-menus.md)를 참조하십시오.
+
+>[!IMPORTANT]
+>유효 **2023년 12월 31일**, Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단하려고 합니다. 이 시점에서 Reports &amp; Analytics와 모든 보고서 및 일정이 중단됩니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. 이 알림은 수명 종료 프로세스에 대해 설명합니다.
 
 ## 사이트 지표
 

@@ -2,19 +2,22 @@
 description: Reports & Analytics의 보고서 메뉴에 대한 개요.
 title: 보고서 메뉴
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
 # 보고서 메뉴{#reports-menu}
 
 Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
+
+>[!IMPORTANT]
+>유효 **2023년 12월 31일**, Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단하려고 합니다. 이 시점에서 Reports &amp; Analytics와 모든 보고서 및 일정이 중단됩니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. 이 알림은 수명 종료 프로세스에 대해 설명합니다.
 
 보고서 메뉴에서 제공하는 사항:
 
@@ -31,7 +34,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-개별 보고서에 대한 자세한 내용은 [Dimension](/help/components/dimensions/overview.md)을 참조하십시오.
+개별 보고서에 대한 자세한 내용은 [Dimension](/help/components/dimensions/overview.md).
 
 ## 보고서 검색 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
