@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
-workflow-type: ht
-source-wordcount: '2218'
-ht-degree: 100%
+source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+workflow-type: tm+mt
+source-wordcount: '2235'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,12 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 [코드 관리자](/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 수 있습니다.
+
+## 버전 2.22.4
+
+릴리스 날짜: **2022년 1월 11일**
+
+* href 문자열 대신 href 개체로 개체를 올바르게 무시하도록 s.tl() 문제를 수정했습니다.
 
 ## 버전 2.22.3
 
@@ -443,7 +449,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 날짜: **2013년 11월 14일**
 
 * [하트비트 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)에 대한 지원을 추가했습니다.
-* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
+* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
 
 ## 버전 1.1.1
 
