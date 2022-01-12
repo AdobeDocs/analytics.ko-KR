@@ -5,9 +5,9 @@ uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1557'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 모든 보고서가 표시되는 방식과 기본 메뉴 옵션을 간소화된 메뉴에서 해당 위치에 매핑하는 정보를 정의하는 설정입니다.
 
 >[!IMPORTANT]
->유효 **2023년 12월 31일**, Adobe은 Reports &amp; Analytics와 함께 제공되는 보고서 및 기능을 중단하려고 합니다. 이 시점에서 Reports &amp; Analytics와 모든 보고서 및 일정이 중단됩니다. Reports &amp; Analytics를 제공하는 보고서, 시각화 및 기본 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace 릴리스 이후 Reports &amp; Analytics 기능 및 기능이 Analysis Workspace으로 이동되었으며 워크플로우 패리티의 임계값에 도달했습니다. 이 알림은 수명 종료 프로세스에 대해 설명합니다.
+>**2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. 해당 시점에 Reports &amp; Analytics 및 모든 관련 보고서와 일정이 작동 중단될 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
 
 ## 보고서 표시 설정 및 탐색 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
