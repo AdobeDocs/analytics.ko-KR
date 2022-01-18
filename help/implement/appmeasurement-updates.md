@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 99%
+source-wordcount: '2267'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 
 릴리스 날짜: **2022년 1월 11일**
 
-* href 문자열 대신 href 개체로 개체를 올바르게 무시하도록 s.tl() 문제를 수정했습니다.
+* 링크 추적 호출 `s.tl()` 이제 가 전달된 개체가 포함되어 있는지 확인합니다 `href` 유형 속성 `string`. 이 아닐 경우 `string`를 클릭하면 우아하게 무시됩니다 `href` 특성이 있는지 확인합니다. 이 문제는 전달 시 발생할 수 있습니다 `svg` 개체를 링크 추적 호출에 추가합니다.
 
 ## 버전 2.22.3
 
