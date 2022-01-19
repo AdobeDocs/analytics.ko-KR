@@ -3,10 +3,10 @@ description: 데이터 소스는 표준 서버 호출로서 데이터를 처리�
 title: 전체 처리
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->고객은 전체 처리 데이터 소스 대신 [BDIA(Bulk Data Insertion API)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용하는 것이 좋습니다. Adobe는 2021년 7월 31일 전체 프로세싱 데이터 소스에 대한 사용을 중단할 예정입니다. [추가 정보](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe은 다음을 사용할 것을 권장합니다. [대량 데이터 삽입 API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 전체 처리 데이터 소스 대신 Adobe은 2022년 1월 31일에 전체 처리 데이터 소스를 더 이상 사용하지 않습니다. [자세히 알아보기](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
@@ -68,7 +68,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p><a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
+   <td colname="col3"> <p><a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ko-KR"  >s.events</a> 변수와 동일한 구문을 사용하여 형식이 지정된 이벤트 문자열. </p> <p>예: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
