@@ -6,10 +6,10 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 63%
 
 ---
 
@@ -35,6 +35,14 @@ Analysis Workspace에서 차원 및 차원 항목을 분류합니다.
 테이블 내의 모든 분류에는 모든 속성 모델이 적용될 수 있습니다. 이 속성 모델은 상위 열과 동일하거나 다를 수 있습니다. 예를 들어 마케팅 채널 차원에서 선형 주문을 분석하고 채널 내 특정 추적 코드에 U자형 주문을 적용할 수 있습니다. 분류에 적용되는 속성 모델을 편집하려면 다음과 같이 분류 모델 위로 마우스를 이동하고&#x200B;**[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
 ![분류 설정](assets/breakdown_settings.png)
+
+이것은 속성 모델을 분류에 적용하거나 편집할 때 예상되는 동작입니다.
+
+* 다른 기여가 없을 때 속성을 적용하면 속성이 전체 열 트리에 적용됩니다.
+
+* 속성이 적용된 후 분류를 추가하는 경우 해당 차원에 기본값이 있는 경우 추가된 주어진 분류에 대해 기본값이 사용됩니다. 그렇지 않으면 상위 열의 분류를 사용합니다. 일부 차원에는 기본 할당이 있습니다.  예, [!UICONTROL 시간] 차원 및 [!UICONTROL 레퍼러] 사용 [!UICONTROL 동일한 터치]. 다음 [!UICONTROL 제품] 차원 사용 [!UICONTROL 마지막 터치]. 다른 차원에는 기본값이 없으며, 상위 열 할당이 사용됩니다.
+
+* 열 트리에 이미 기여가 있는 경우 속성을 변경하면 편집 중인 속성에만 영향을 줍니다.
 
 ## 비디오
 
