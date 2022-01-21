@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 
 릴리스 날짜: **2022년 1월 18일**
 
-* 링크 추적 호출 `s.tl()` 이제 가 전달된 개체가 포함되어 있는지 확인합니다 `href` 유형 속성 `string`. 이 아닐 경우 `string`를 클릭하면 우아하게 무시됩니다 `href` 특성이 있는지 확인합니다. 이 문제는 전달 시 발생할 수 있습니다 `svg` 개체를 링크 추적 호출에 추가합니다.
+* 링크 추적 호출 `s.tl()`은(는) 이제 전달된 오브젝트에 유형 `string`의 `href` 속성이 포함되어 있는지 확인합니다. `string`이(가) 아닌 경우 실패하는 대신 `href` 속성을 정상적으로 무시합니다. 이는 `svg` 오브젝트를 링크 추적 호출에 전달할 때 발생할 수 있습니다.
 
 ## 버전 2.22.3
 
