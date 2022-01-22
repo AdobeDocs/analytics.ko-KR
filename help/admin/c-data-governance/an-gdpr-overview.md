@@ -3,9 +3,9 @@ description: 이 문서에서는 데이터 주체의 GDPR 액세스 및 삭제 �
 title: Adobe Analytics 및 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
+workflow-type: tm+mt
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
@@ -54,8 +54,3 @@ GDPR 준비 단계 및 Adobe Experience Cloud GDPR API와 통합하는 방법에
 
 * 사용 권한을 확인합니다. Adobe Analytics의 데이터 거버넌스 관리 인터페이스를 사용하려면 Adobe Analytics 관리자여야 합니다.
 
-## AdobePrivacyJS: GDPR 요청에 대한 클라이언트측 ID 확인
-
-다음은 이 주제에 대한 비디오 개요입니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
