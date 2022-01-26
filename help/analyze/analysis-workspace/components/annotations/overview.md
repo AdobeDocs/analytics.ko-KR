@@ -1,35 +1,38 @@
 ---
 title: 주석 개요
-description: How to use annotations in Workspace.
+description: Workspace에서 주석을 사용하는 방법
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '138'
+ht-degree: 3%
 
 ---
 
 # 주석 개요
 
-Annotations enable you to effectively communicate data nuances and insights about your data to your organization. [!DNL Reports & Analytics]
+>[!NOTE]
+>
+>이 기능은 현재 제한된 테스트 중입니다.
+
+주석을 사용하면 조직에 컨텍스트 데이터 미묘한 뉘앙스와 통찰력을 효과적으로 전달할 수 있습니다. 주석 을 사용하면 달력 이벤트를 특정 차원/지표에 연결할 수 있습니다. 이벤트를 그래픽으로 표시하고 캠페인 또는 기타 이벤트가 사이트 트래픽, 매출액 또는 기타 지표에 영향을 주는지 여부를 확인할 수 있습니다. 이전에 라고 함 [!UICONTROL 달력 이벤트] in [!DNL Reports & Analytics], 데이터 문제, 공휴일, 캠페인 시작 등에 대해 날짜에 주석을 달 수 있습니다.
 
 ## 가시성
 
-Annotations are visible in a variety of ways:
+주석은 다양한 방법으로 볼 수 있습니다.
 
-* Insert line viz image>
+* 라인 비디오 삽입 이미지>
 
-* Insert freeform table
+* 자유 형식 테이블 삽입
 
-* Insert PDF
+* PDF 삽입
 
+## 주석 켜기 또는 끄기
 
-## Turn annotations on or off
+주석은 몇 가지 위치에서 활성화하거나 해제할 수 있습니다.
 
-Annotations can be turned on or off in a few places:
+* 시각화 수준: 시각화 설정 > 주석 표시
 
-* Visualization level: Visualization settings > Show annotations
+* 프로젝트 수준: 프로젝트 정보 및 설정 > 주석 표시
 
-* Project level: Project info &amp; settings > Show annotations
-
-* User level: Components > User preferences > Data > Show annotations
+* 사용자 수준: 구성 요소 > 사용자 환경 설정 > 데이터 > 주석 표시
