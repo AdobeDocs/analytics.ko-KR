@@ -4,9 +4,9 @@ title: 전체 처리
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe은 다음을 사용할 것을 권장합니다. [대량 데이터 삽입 API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 전체 처리 데이터 소스 대신 Adobe은 2022년 1월 31일에 전체 처리 데이터 소스를 더 이상 사용하지 않습니다. [자세히 알아보기](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe는 전체 처리 데이터 소스 대신 [Bulk Data Insertion API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)를 사용할 것을 권장합니다. Adobe는 2022년 1월 31일에 전체 처리 데이터 소스에 대한 사용을 중단합니다. [자세히 알아보기](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 데이터 소스는 표준 서버 호출로서 데이터를 처리할 때 다음 변수를 지원합니다(범용 > 전체 처리).
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 전체 처리 데이터 소스 데이터는 분리된 방문자 프로필을 사용하여 처리되므로, 업로드한 데이터의 방문자 ID가 JavaScript나 다른 AppMeasurement 라이브러리를 사용하여 수집한 데이터와 일치하더라도 방문자 프로필들은 eVar 할당 측면에서 연결되어 있지 않습니다.
 
-예를 들어, 방문자 ID가 `"user@example.com"`인 사용자가 캠페인 변수에 저장된 &quot;봄맞이 세일&quot;이라는 마케팅 캠페인에서 사이트를 방문하고 나중에 여러분이 동일한 방문자 ID를 사용하여 거래를 업로드하는 경우, &quot;봄맞이 세일&quot; 캠페인은 전체 처리 데이터 소스를 사용하여 업로드한 어떤 매출이나 성공 이벤트에 대해서도 크레딧을 받지 않습니다.
+예를 들어 방문자 ID가 `"user@example.com"`인 사용자가 캠페인 변수에 저장된 &quot;봄맞이 세일&quot;이라는 마케팅 캠페인에서 사이트를 방문하고 나중에 여러분이 동일한 방문자 ID를 사용하여 거래를 업로드하는 경우, &quot;봄맞이 세일&quot; 캠페인은 전체 처리 데이터 소스를 사용하여 업로드한 어떤 매출이나 성공 이벤트에 대해서도 크레딧을 받지 않습니다.
 
 ## 항목 참조 {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -116,7 +116,7 @@ ht-degree: 92%
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>제품 목록(예: <code> "Sports;Ball;1;5.95"</code>). 행당 최대 4096바이트 값을 보유할 수 있습니다.</p> </td> 
+   <td colname="col3"> <p>제품 목록 (예: <code> "Sports;Ball;1;5.95"</code>) 행당 최대 4096바이트의 값을 저장할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -171,7 +171,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다.  </p> <p>전체 목록은 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>웹 사이트에 지원되는 문자 집합. 예를 들어 UTF-8, ISO-8859-1 등입니다. </p> <p>전체 목록은 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=ko-KR#concept_E65B9A8F75C3482C87D0D455805F89BD"  >멀티바이트 문자 집합</a>(국제) 백서를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -203,7 +203,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>방문자의 연결 유형( <span class="term"> LAN </span> 또는 <span class="term"> 모뎀 </span>). </p> </td> 
+   <td colname="col2"> <p>방문자의 연결 유형(<span class="term"> LAN </span> 또는 <span class="term"> 모뎀 </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
@@ -211,7 +211,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>웹 사이트에서 사용되는 기본 통화 코드.  </p> <p>예를 들어 USD=미국 달러, EUR = 유로, JPY = 일본 엔화 등입니다. </p> </td> 
+   <td colname="col2"> <p>웹 사이트에서 사용되는 기본 통화 코드. </p> <p>예를 들어 USD=미국 달러, EUR = 유로, JPY = 일본 엔화 등입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>homePage </p> </td> 
