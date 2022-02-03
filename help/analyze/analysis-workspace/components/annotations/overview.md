@@ -3,10 +3,10 @@ title: 주석 개요
 description: Workspace에서 주석을 사용하는 방법
 role: User, Admin
 solution: Analytics
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -36,26 +36,6 @@ ht-degree: 4%
 
 그러나 관리자는 [!UICONTROL 주석 생성] 를 통해 사용자에게 사용 권한(Analytics 도구) [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
 
-## 주석 보기
-
-다음과 같은 다양한 방법으로 주석을 볼 수 있습니다. 에서 [!UICONTROL 라인] 시각화(트렌드 데이터이므로)에 [!UICONTROL 자유 형식] 표, [!UICONTROL 막대] 차트 또는 내보낸 .pdf 파일로 내보낼 수 있습니다.
-
-### 라인 시각화
-
-팔로우하려면
-
-### 자유 형식 테이블
-
-팔로우하려면
-
-### 바 차트
-
-팔로우하려면
-
-### PDF 파일
-
-팔로우하려면
-
 ## 주석 켜기 또는 끄기
 
 주석은 다음과 같은 여러 수준에서 활성화하거나 해제할 수 있습니다.
@@ -66,3 +46,6 @@ ht-degree: 4%
 
 * 사용자 수준에서: [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] > [!UICONTROL 데이터] > [!UICONTROL 주석 표시]
 
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)
