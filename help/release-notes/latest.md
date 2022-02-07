@@ -1,15 +1,19 @@
 ---
 title: 현재 Adobe Analytics 릴리스 노트 보기
 description: 최신 Analytics 릴리스 노트
-source-git-commit: f8c2d98e49ead838781b175aa9f22712d6802a9d
+source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
 
 
 # 최신 Adobe Analytics 릴리스 노트
+
+**2022년 1월**
+
+[Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트에 대해 알아봅니다. Experience League에서 최신 자가 진단 설명서 튜토리얼 및 과정을 살펴보십시오.
 
 ## Adobe Analytics의 새로운 기능 {#aa-features}
 
