@@ -1,24 +1,24 @@
 ---
 title: 주석 관리
-description: Workspace에서 주석을 관리하는 방법
+description: 작업 영역에서 주석을 관리하는 방법
 role: User, Admin
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
+source-git-commit: 4706c815dfb34938716fa674865b9cb1ef6cd604
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 18%
+ht-degree: 33%
 
 ---
-
 
 # 주석 관리
 
 >[!NOTE]
 >
->이 기능은 현재 제한된 테스트 중입니다.
+>이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
 
-다음 [!UICONTROL 구성 요소] > [!UICONTROL 주석] manager에서는 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 다양한 주석 관리 방법을 제공합니다.
+[!UICONTROL 구성] 요소 > [!UICONTROL 주석] 관리자는 공유, 필터링, 태그 지정, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 주석을 관리하는 다양한 방법을 제공합니다.
 
-다음 [!UICONTROL 주석] manager는 모든 프로젝트에 범위가 지정되고 사용자와 공유된 모든 주석을 표시합니다.
+[!UICONTROL 주석] 관리자는 모든 프로젝트에 범위가 지정되고 사용자가 보유하는 공유된 모든 주석을 표시합니다.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 18%
 | [!UICONTROL 제목 및 설명] | 주석 빌더에 제공됩니다. 제목 및 설명을 편집하려면 제목 링크를 클릭합니다. 이렇게 하면 주석 빌더로 돌아갑니다. |
 | [!UICONTROL 보고서 세트] | 이 주석이 적용되는 보고서 세트입니다. |
 | [!UICONTROL 소유자] | 주석을 소유한 사람을 나타냅니다. 관리자가 아닌 경우 사용자가 소유하거나 사용자와 공유된 주석만 표시할 수 있습니다. |
-| [!UICONTROL 적용된 날짜 범위] | 이 주석이 적용되는 날짜 또는 날짜 범위입니다. |
+| [!UICONTROL 적용 날짜 범위] | 이 주석이 적용되는 날짜 또는 날짜 범위입니다. |
 | [!UICONTROL 다음 사용자와 공유] | 주석을 공유한 개인 또는 그룹의 수를 나열합니다. 자세한 내용을 보려면 를 클릭합니다. |
 | [!UICONTROL 수정한 날짜] | 주석을 마지막으로 수정한 날짜 및 시간을 표시합니다. |
 
