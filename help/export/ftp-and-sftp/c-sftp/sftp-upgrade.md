@@ -2,10 +2,10 @@
 title: SFTP 서비스 업그레이드 - FAQ
 description: 2022년 5월에 예정된 SFTP 서비스 업그레이드에 대해 자주 묻는 질문
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: d78f711e8beeb7a194c642103472417c7bc897d4
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 49cfd64583826f7c44ba1acaa6d0c7812d30f821
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 100%
 ## 현재 조직에서 사용 중인 알고리즘, 연결 유형 및 프로토콜을 확인하려면 어떻게 해야 합니까?
 
 사용 중인 FTP/SFTP 소프트웨어는 Adobe Analytics와 데이터를 교환하기 위해 구성한 연결에서 어떤 특정 설정이 사용되고 있는지 표시해야 합니다. 이 소프트웨어에는 연결에 사용할 수 있는 다양한 옵션에 대한 설명서도 포함되어야 합니다. 이 업데이트 이후에 지원되는 옵션은 업계에서 널리 지원되고 수용됩니다.
+
+제거될 연결 옵션은 일반적으로 사용되지 않는 것으로 간주되며 현재 소프트웨어에서는 사용되지 않습니다. 지난 3년 내에 FTP/SFTP 소프트웨어를 업그레이드한 경우 이미 호환 연결이 되어 있을 수 있습니다.
 
 ## 데이터 수집에 SFTP를 사용하는 Adobe Analytics 기능은 무엇입니까?
 
