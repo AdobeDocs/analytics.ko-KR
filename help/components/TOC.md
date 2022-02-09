@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 99%
 
 ---
 
 
-# [!DNL Analytics] 구성 요소 안내서 {#components}
+# [!DNL Adobe Analytics] 구성 요소 안내서 {#components}
 
 + [Analytics Components 안내서](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 차원 {#dimensions}
    + [차원 개요](dimensions/overview.md)
    + [차원 호환성](dimensions/compatibility.md)

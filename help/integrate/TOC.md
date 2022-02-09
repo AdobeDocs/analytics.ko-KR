@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 통합 안내서
 breadcrumb-title: 통합 안내서
 user-guide-description: Audience Manager, Advertising Cloud, Target 등 다른 Adobe Experience Cloud 솔루션과의 통합을 구성합니다.
-source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 94%
 
 ---
 
 
-# Analytics 통합 안내서 {#integration}
+# Adobe Analytics 통합 안내서 {#integration}
 
 + [Analytics 통합](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Audience Analytics {#audience-analytics}
    + [Audience Analytics 개요](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 워크플로 {#audience-analytics-workflow}

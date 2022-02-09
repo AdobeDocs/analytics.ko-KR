@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
 
-# Analytics 내보내기 안내서 {#export}
+# Adobe Analytics 내보내기 안내서 {#export}
 
 + [Analytics 내보내기 안내서](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics 데이터 피드 {#analytics-data-feed}
    + [데이터 피드 개요](analytics-data-feed/data-feed-overview.md)
    + [데이터 피드 만들기 또는 편집](analytics-data-feed/create-feed.md)

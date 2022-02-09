@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 가져오기 안내서
 breadcrumb-title: 가져오기 안내서
 user-guide-description: '데이터를 일괄 방식 또는 실시간으로 외부 소스에서 Analytics로 가져옵니다. '
-source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 92%
 
 ---
 
 
-# Analytics 가져오기 안내서 {#import}
+# Adobe Analytics 가져오기 안내서 {#import}
 
 + [Analytics 가져오기 안내서](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 데이터 소스 {#data-sources}
    + [데이터 소스 개요](c-data-sources/datasrc-home.md)
    + [데이터 소스 작동 방식](c-data-sources/datasrc-how-data-sources-works.md)

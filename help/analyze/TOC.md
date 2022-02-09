@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '1030'
+ht-degree: 98%
 
 ---
 
 
-# Analytics 툴 안내서 {#analyze}
+# Adobe Analytics 도구 안내서 {#analyze}
 
 + [Analytics 툴 안내서](home.md)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [랜딩 페이지](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
@@ -31,7 +32,7 @@ ht-degree: 99%
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
       + 주석 {#annotations}
          + [주석 개요](analysis-workspace/components/annotations/overview.md)
-         + [주석 만들기](analysis-workspace/components/annotations/create-annotations.md)
+         + [주석 생성](analysis-workspace/components/annotations/create-annotations.md)
          + [주석 관리](analysis-workspace/components/annotations/manage-annotations.md)
          + [주석 보기](analysis-workspace/components/annotations/view-annotations.md)
       + 차원 {#dimensions}
