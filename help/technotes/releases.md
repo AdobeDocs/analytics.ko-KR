@@ -1,17 +1,17 @@
 ---
-description: Adobe Analytics의 새로운 연속 기능 릴리스 전략에 대해 설명합니다.
+description: Adobe Analytics의 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Adobe Analytics 기능 릴리스
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 92%
 
 ---
 
 # Adobe Analytics 기능 릴리스
 
-지금까지 Adobe Analytics 기능 릴리스는 고정된 월별 일정을 따랐습니다. 2020년 4월부터 Adobe Analytics는 기능 배포에 대한 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델로 전환했습니다.
+Adobe Analytics 릴리스는 기능 배포에 대한 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델에서 작동합니다.
 
 ## 출시 전략
 
