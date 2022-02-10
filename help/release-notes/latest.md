@@ -2,28 +2,28 @@
 title: 현재 Adobe Analytics 릴리스 노트 보기
 description: 최신 Analytics 릴리스 노트
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '649'
+ht-degree: 61%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 노트
+# 현재 Adobe Analytics 릴리스 노트(2022년 2월)
 
 >[!IMPORTANT]
 >
 >이러한 릴리스 노트에는 변경될 수 있는 릴리스 전 정보가 포함되어 있습니다.
 
-**2022년 2월 16일**
+**마지막 업데이트**: 2022년 2월 10일
 
 [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트에 대해 알아봅니다. Experience League에서 최신 자가 진단 설명서 튜토리얼 및 과정을 살펴보십시오.
 
 ## Adobe Analytics의 새로운 기능 {#aa-features}
 
-| 기능 | 설명 | 목표 날짜 |
+| 기능 | 설명 | [목표 날짜](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko-KR) |
 | ----------- | ---------- | ------- |
-| 이번 달에는 새로운 기능 없음 | 해당 없음 | [일반 가용성](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=ko-KR) 확인 |
+| 모바일 스코어카드 프로젝트 미리 보기 모드 | 스코어카드 빌더에서 바로 모바일 스코어카드가 Analytics 대시보드 앱에서 표시되는 방식에 대한 미리 보기를 실행합니다. 미리 보기 모드에서는 사용자가 앱에서 하던 것과 동일한 방식으로 필터 및 차트와 상호 작용할 수 있으므로, 스코어카드를 저장하고 공유하기 전에 경험을 미리 볼 수 있습니다. 미리 보기 모드에서 장치 선택기를 사용하여 스코어카드가 다른 장치에서 어떻게 표시되는지 확인할 수도 있습니다. | 2022년 2월 16일 |
 
 {style=&quot;table-layout:auto&quot;}
 
