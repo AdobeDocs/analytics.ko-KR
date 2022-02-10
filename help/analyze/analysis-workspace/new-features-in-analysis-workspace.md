@@ -5,7 +5,7 @@ title: Analysis Workspace의 새로운 기능
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
+source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
 workflow-type: tm+mt
 source-wordcount: '8286'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Analysis Workspace의 새로운 기능
 
 >[!IMPORTANT]
->추가 Analysis Workspace 업데이트가 [Adobe Analytics 설명서 업데이트](/help/technotes/doc-updates.md) 페이지에 추가되었습니다.
+>추가 Analysis Workspace 업데이트가 [Adobe Analytics 설명서 업데이트](/help/release-notes/doc-updates.md) 페이지에 추가되었습니다.
 
 주요 제품에 대한 업데이트는 [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
