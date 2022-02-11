@@ -3,10 +3,10 @@ description: Adobe Analytics 데이터 거버넌스 FAQ
 title: FAQ
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics에서는 고객 (데이터 제어자)이 확인한 최종 사용자 (데이터 주체)의 액세스 및 삭제 요청을 어떻게 지원합니까?</b> </p> </td> 
-   <td colname="col2"> <p>데이터 개인 정보 보호가 발효되면 Adobe Analytics에서는 보다 자동화된 절차를 사용할 수 있도록 데이터 제어자가 Experience Cloud 데이터 개인 정보 보호 API에 제출한 확인된 요청 처리를 지원합니다. Adobe의 데이터 개인 정보 보호 API는 Adobe Experience Cloud 솔루션에 저장된 고객의 데이터에 대해 개별적인 권한 요청 (예: 액세스 및 삭제 요청)을 처리하는 데 도움을 주도록 설계되었습니다. 이 API는 귀사가 데이터 주체로부터 받는 데이터 액세스 및 삭제 요청 수에 따라 유연하게 확장됩니다. 또한 고객이 데이터 개인 정보 보호 API를 사용하여 데이터 액세스 및 삭제 요청이 어떻게 이행되는지에 대한 상태를 확인할 수 있습니다. </p> <p>자세한 내용은 <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html">데이터 개인 정보 보호 API 설명서</a>를 참조하십시오.  </p> </td> 
+   <td colname="col2"> <p>데이터 개인 정보 보호가 발효되면 Adobe Analytics에서는 보다 자동화된 절차를 사용할 수 있도록 데이터 제어자가 Experience Cloud 데이터 개인 정보 보호 API에 제출한 확인된 요청 처리를 지원합니다. Adobe의 데이터 개인 정보 보호 API는 Adobe Experience Cloud 솔루션에 저장된 고객의 데이터에 대해 개별적인 권한 요청 (예: 액세스 및 삭제 요청)을 처리하는 데 도움을 주도록 설계되었습니다. 이 API는 귀사가 데이터 주체로부터 받는 데이터 액세스 및 삭제 요청 수에 따라 유연하게 확장됩니다. 또한 Privacy Service API를 사용하여 고객이 데이터 액세스 및 삭제 요청이 어떻게 이행되는지에 대한 상태를 확인할 수 있습니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Privacy Service API 설명서. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>최종 사용자의 데이터 개인 정보 보호 요청 수신, 수락 및 이행을 담당하는 사람은 누구입니까?</b> </p> </td> 
