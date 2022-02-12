@@ -1,11 +1,11 @@
 ---
-title: 현재 Adobe Analytics 릴리스 노트 보기
-description: 최신 Analytics 릴리스 노트
+title: 최신 Analytics 릴리스 노트
+description: 현재 Adobe Analytics 릴리스 노트를 표시합니다.
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 58%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 59%
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
 | 모바일 스코어카드 프로젝트 미리 보기 모드 | 스코어카드 빌더에서 바로 모바일 스코어카드가 Analytics 대시보드 앱에서 표시되는 방식에 대한 미리 보기를 실행합니다. 미리 보기 모드에서는 사용자가 앱에서 하던 것과 동일한 방식으로 필터 및 차트와 상호 작용할 수 있으므로, 스코어카드를 저장하고 공유하기 전에 경험을 미리 볼 수 있습니다. 미리 보기 모드에서 장치 선택기를 사용하여 스코어카드가 다른 장치에서 어떻게 표시되는지 확인할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 2022년 2월 16일 |
+| API 프로젝트 끝점 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 2022년 2월 1일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ ht-degree: 59%
 * 느린 보고 시간 문제가 해결되었습니다. (AN-280055)
 * 분류 가 모든 차원 항목을 분류하지 않는 문제가 수정되었습니다. (AN-280031)
 
-
 ### Adobe Analytics의 추가 수정 사항
 
 AN-268093, AN-273820, AN-274435, AN-274904, AN-275947, AN-276160, AN-276258, AN-276705, AN-277051, AN-275356, AN-277957AN, AN-AN, AN 278693 AN-AN, 278882 AN-, AN-279046, AN, AN-279000, AN, AN-AN, AN-AN, AN, AN-AN AN, AN-AN, AN, AN, AN-EN, AN, AN-AN, AND-AND-AND, AND-AND, AND-AND, AND, AND-AND, AND, AND-AND-AND-AND-AND, AN, AN, AN-AN-AN-AN-AN-NBSP, AN-NBSP, AN-NBSP, AN-NBSP, AN-NBSP, NBSPA, NBSPA, NBSPA, NBSPAA, NBSPA, NBSPAAA, AAAAAAAAA, TVENTNBSPA, AAAAAAAAAAAAAAAAAAAAAAAAAA
-
 
 ## [!DNL Analytics] 관리자에 대한 중요 공지
 
@@ -55,4 +54,3 @@ AppMeasurement 릴리스(버전 2.22.4)에 대한 최신 업데이트는 [JavaSc
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics] 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
