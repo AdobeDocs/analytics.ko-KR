@@ -2,19 +2,19 @@
 title: 주석 보기
 description: Workspace에서 주석을 보는 방법
 role: User, Admin
-source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
+source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 10%
 
 ---
-
 
 # 주석 보기
 
 >[!NOTE]
 >
->이 기능은 현재 제한된 테스트 중입니다.
+>이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
 
 주석은 단일 날짜 또는 날짜 범위에 포함되는지 여부에 따라 약간 다르게 매니페스트됩니다.
 
@@ -34,3 +34,9 @@ ht-degree: 5%
 .pdf 파일의 아이콘을 마우스로 가리키면 안 되므로 이 파일(내보내기 후)에서는 패널 하단에 설명을 제공합니다. 다음은 한 예입니다.
 
 ![](assets/ann-pdf.png)
+
+## 날짜를 기반으로 하지 않는 주석 보기
+
+경우에 따라 주석이 날짜에 연결되지 않고 특정 차원에 연결되어 있습니다. 이 경우 오른쪽 아래 모서리에 있는 요약 주석에만 표시됩니다. 다음은 한 예입니다.
+
+![](assets/non-date.png)
