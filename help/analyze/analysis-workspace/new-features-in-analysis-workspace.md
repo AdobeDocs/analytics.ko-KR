@@ -5,10 +5,10 @@ title: Analysis Workspace의 새로운 기능
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8286'
-ht-degree: 100%
+source-wordcount: '8276'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>기여도 분석: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko-KR"  >토큰 알림 </a> </p> </td> 
-   <td colname="col2"> <p>이제는 회사에 기여도 분석 토큰 수가 제한되어 있는 경우 토큰을 사용하면 Analysis Workspace UI에 알림이 표시됩니다. 이를 통해 남은 토큰 수를 알 수 있습니다.&amp;nbsp; </p> <p>(관리자 사용자: 그룹 권한을 편집하여 이러한 토큰을 사용할 수 있는 사용자를 제한할 수 있습니다. 이 권한을 "예외 항목 탐지 및 기여도 분석"이라고 합니다(<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> 관리자 </span> &gt; <span class="uicontrol"> 모든 관리자 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>&gt; <span class="uicontrol"> 그룹 편집 </span> &gt; <span class="uicontrol"> 모든 리포트 액세스 편집 </span> &gt; <span class="uicontrol"> 보고서 세트 도구 사용자 지정 </span> &gt; <span class="uicontrol"> 도구 및 보고서 </span>. )  </p> </td> 
+   <td colname="col2"> <p>이제는 회사에 기여도 분석 토큰 수가 제한되어 있는 경우 토큰을 사용하면 Analysis Workspace UI에 알림이 표시됩니다. 이를 통해 남은 토큰 수를 알 수 있습니다. </p> <p>(관리자 사용자: 그룹 권한을 편집하여 이러한 토큰을 사용할 수 있는 사용자를 제한할 수 있습니다. 이 권한을 "예외 항목 탐지 및 기여도 분석"이라고 합니다(<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> 관리자 </span> &gt; <span class="uicontrol"> 모든 관리자 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>&gt; <span class="uicontrol"> 그룹 편집 </span> &gt; <span class="uicontrol"> 모든 리포트 액세스 편집 </span> &gt; <span class="uicontrol"> 보고서 세트 도구 사용자 지정 </span> &gt; <span class="uicontrol"> 도구 및 보고서 </span>. ) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>멀티바이트 문자가 있는 CSV 파일 </p> </td> 
@@ -598,7 +598,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 맵 시각화 </a> </p> </td> 
-   <td colname="col2"> <p>새로운 맵 시각화를 사용하면 위치 컨텍스트 내에서 고객 상호 작용을 쉽게 볼 수 있습니다. 매크로 (전역) 보기에서 마이크로 (도시) 보기에 이르기까지 시각화에서 다양한 계층 구조 수준을 쉽게 확대 및 축소하여 지역의 사용자 클러스터를 볼 수 있습니다. </p> <p>IP 주소(비모바일 데이터 세트)를 통해 위치 데이터를 시각화하거나 위도 및 경도 데이터 (Mobile SDK를 사용하는 고객)를 Analysis Workspace에서 실제로 사용할 수 있습니다.&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>새로운 맵 시각화를 사용하면 위치 컨텍스트 내에서 고객 상호 작용을 쉽게 볼 수 있습니다. 매크로 (전역) 보기에서 마이크로 (도시) 보기에 이르기까지 시각화에서 다양한 계층 구조 수준을 쉽게 확대 및 축소하여 지역의 사용자 클러스터를 볼 수 있습니다. </p> <p>IP 주소(비모바일 데이터 세트)를 통해 위치 데이터를 시각화하거나 위도 및 경도 데이터(Mobile SDK를 사용하는 고객)를 Analysis Workspace에서 실제로 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 트렌드 시각화를 위한 세부 기간 선택기 </a> </p> </td> 
