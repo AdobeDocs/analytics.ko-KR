@@ -3,13 +3,11 @@ description: 데이터 피드에서 사용된 특수 문자에 대한 정보입�
 keywords: 데이터 피드, 작업, 특수 문자, hit_data, 여러 값이 있는 변수, events_list, products_list, mvvars
 subtopic: data feeds
 title: 데이터 피드의 특수 문자
-feature: Reports & Analytics 기본 사항
-uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
+feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '344'
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '341'
 ht-degree: 100%
 
 ---

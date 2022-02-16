@@ -2,9 +2,10 @@
 title: 보고 우수 사례 및 문제 해결
 description: 보고서를 생성할 때 모범 사례 및 문제 해결 팁입니다.
 keywords: 우수 사례;실패;시간 초과;문제 해결;느림
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 97%

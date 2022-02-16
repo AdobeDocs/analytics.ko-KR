@@ -1,14 +1,14 @@
 ---
 title: Data Warehouse 요청 배달 시간 문제 해결
 description: 배달 시간을 늘일 수 있는 잠재적인 Data Warehouse 요청 문제를 파악합니다.
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
+feature: Data Warehouse
+exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
 ---
-
 
 # Data Warehouse 요청 배달 시간 문제 해결
 

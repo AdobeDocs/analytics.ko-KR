@@ -3,12 +3,11 @@ description: 이 섹션은 데이터 피드 배달에서 발견되는 파일을 
 keywords: 데이터 피드, 작업, 콘텐츠, 매니페스트, 파일, 조회, 히트 데이터, 배달 콘텐츠
 subtopic: data feeds
 title: 데이터 피드 콘텐츠 - 개요
-feature: Reports & Analytics 기본 사항
-uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
+feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
-workflow-type: ht
-source-wordcount: '746'
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '743'
 ht-degree: 100%
 
 ---

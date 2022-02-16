@@ -2,11 +2,10 @@
 description: Data Warehouse를 사용하면 특정 질문에 따라 원시 데이터의 고급 데이터 관계를 표시하는 보고서를 요청할 수 있습니다.
 keywords: ftp, sftp
 title: Data Warehouse 게재된 보고서
-uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
+feature: FTP Export
 exl-id: d49217a4-33ab-49f8-9207-c5d31e8f798d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 

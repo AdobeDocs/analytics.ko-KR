@@ -2,10 +2,10 @@
 description: 대시보드는 reportlet이라고 부르는 썸네일 보고서의 콜렉션입니다. 대시보드는 검색 방법, 방문자 프로파일 등과 같은 사이트의 특정 측면에 대한 전체 개요를 설명하는 관련 reportlet이 들어 있을 때 가장 유용합니다.
 subtopic: Dashboards
 title: 대시보드 및 Reportlet
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 98%
@@ -42,11 +42,11 @@ ht-degree: 98%
 
 사용자가 만든 대시보드 이외에 사용자 각각에 대해 다음과 같은 미리 패키지한 대시보드가 포함됩니다.
 
-**[!UICONTROL 구성 요소]  >  [!UICONTROL 모든 구성 요소]  >  [!UICONTROL 대시보드]  >  [!UICONTROL 공유 대시보드]  >  [!UICONTROL 로컬 사이트]**
+**[!UICONTROL 구성 요소] > [!UICONTROL 모든 구성 요소] > [!UICONTROL 대시보드] > [!UICONTROL 공유 대시보드] > [!UICONTROL 로컬 사이트]**
 
 사용자 지정 가능한 이 대시보드에서는 reportlet을 제공된 템플릿에 적용하는 방법을 제공합니다.
 
-**[!UICONTROL 구성 요소]  >  [!UICONTROL 모든 구성 요소]  >  [!UICONTROL 대시보드]  >  [!UICONTROL 공유 대시보드]  >  [!UICONTROL 사이트 작업 대시보드]**
+**[!UICONTROL 구성 요소] > [!UICONTROL 모든 구성 요소] > [!UICONTROL 대시보드] > [!UICONTROL 공유 대시보드] > [!UICONTROL 사이트 작업 대시보드]**
 
 이 대시보드는 웹 사이트 작업과 관련된 주요 지표의 개요를 제공합니다. 이 대시보드의 보고서에는 다음이 포함되어 있습니다.
 
@@ -187,7 +187,7 @@ t_dashboard_edit.xml
 
 **대시보드 및 Reportlet 데이터를 편집하려면**
 
-1. **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]** > *대시보드 이름*&#x200B;을 클릭하여 대시보드를 엽니다.
+1. 클릭 **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]** > *대시보드 이름* 대시보드를 엽니다.
 1. **[!UICONTROL 레이아웃]**&#x200B;을 클릭합니다.
 
 | 종료 | 방법 |
@@ -215,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]**  >  **[!UICONTROL 관리자]**  >  **[!UICONTROL 모든 관리자]**  >  **[!UICONTROL 회사 설정]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]**.
 1. [!UICONTROL 회사 설정] 페이지에서 **[!UICONTROL Adobe Experience Cloud 공동 브랜딩]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 공동 브랜딩 사용]**&#x200B;을 클릭합니다.
 1. 이동하여 이미지를 업로드한 후 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

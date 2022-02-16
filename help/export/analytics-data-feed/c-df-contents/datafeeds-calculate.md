@@ -2,13 +2,11 @@
 description: 데이터 피드를 사용한 일반 지표 계산 방법을 설명합니다.
 keywords: 데이터 피드, 작업, 지표, 이전 열, 이후 열, 보트 수, 날짜 필터링, 이벤트 문자열, 일반, 공식
 title: 지표 계산
-feature: Reports & Analytics 기본 사항
-uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
+feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '460'
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '457'
 ht-degree: 100%
 
 ---

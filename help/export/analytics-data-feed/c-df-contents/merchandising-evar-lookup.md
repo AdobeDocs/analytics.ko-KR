@@ -1,8 +1,10 @@
 ---
 title: post_product_list에서 머천다이징 eVar 인스턴스 조회
 description: 데이터 피드의 post_product_list 열에서 각 조회 값에 대한 머천다이징 eVar 인스턴스를 검색합니다.
-source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: ht
+feature: Data Feeds
+exl-id: d4b7d53b-21da-42d1-b54a-4602920bb6d4
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 100%
 

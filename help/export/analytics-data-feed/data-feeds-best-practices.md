@@ -2,9 +2,9 @@
 description: 다음은 데이터 피드 처리 및 배달에 대한 몇 가지 모범 사례입니다.
 keywords: 데이터 피드, 모범 사례, 트래픽 스파이크, 시간별, ftp
 title: 모범 사례 및 일반 정보
-uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
+feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%

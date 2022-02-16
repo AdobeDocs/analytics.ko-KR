@@ -1,14 +1,14 @@
 ---
 title: Data Warehouse의 구성 요소 지원
 description: Data Warehouse에서 사용할 수 있는 추가 차원 및 지표와 지원되지 않는 항목을 알아봅니다.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+feature: Data Warehouse
+exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
-
 
 # Data Warehouse의 구성 요소 지원
 
@@ -42,9 +42,9 @@ Data Warehouse의 고유한 처리 아키텍처를 통해 일반적으로 Adobe 
 
 * 다음을 포함한 일부 시간 기반 차원:
    * 오전/오후
-   * 날짜
+   * 날짜(월 기준)
    * 요일
-   * 일
+   * 일(한 해 기준)
    * 시간
    * 분
    * 월
