@@ -2,12 +2,12 @@
 description: Analysis Workspace에서 사용할 수 있는 키보드 상호 작용, 단축키 및 마우스로 수행할 수 있는 동작입니다.
 keywords: Analysis Workspace
 title: 핫키 (단축키)
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
 workflow-type: ht
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 100%
 | --- | --- |
 | 왼쪽 레일 검색 | Ctrl+/ |
 | 경고 만들기 | Ctrl+Shift+A |
+| 주석 생성 | ctrl + shift + o |
 | 계산된 지표 만들기 | Ctrl+Shift+C |
 | 날짜 범위 만들기 | Ctrl+Shift+D |
 | 세그먼트 만들기 | Ctrl+Shift+E |
