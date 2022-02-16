@@ -2,9 +2,9 @@
 title: Analytics 도구에 대한 제품 프로필 권한
 description: Analytics 도구 권한 항목을 사용하여 Adobe Analytics 내의 기능에 액세스 권한을 부여합니다.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
 workflow-type: ht
-source-wordcount: '494'
+source-wordcount: '456'
 ht-degree: 100%
 
 ---
@@ -41,6 +41,6 @@ Analytics 도구 권한 항목은 Adobe Analytics 내의 기능에 대한 액세
 | [!UICONTROL 세그먼트 만들기] | 모든 Analytics 기능에 대해 세그먼트를 만들고 공유할 수 있는 기능을 부여합니다. |
 | [!UICONTROL Advertising Analytics 관리] | 사용되지 않습니다. |
 | [!UICONTROL 세그먼트 퍼블리싱] | 세그먼트를 만들거나 편집할 때 세그먼트를 Experience Cloud 대상으로 만들 수 있는 기능을 부여합니다. |
-| [!UICONTROL 통합(만들기)] | 관리자 > 모든 관리자 > 데이터 커넥터에 대한 액세스 권한을 부여하고 사용자가 데이터 커넥터를 만들 수 있도록 합니다. |
-| [!UICONTROL 통합(업데이트)] | 관리자 > 모든 관리자 > 데이터 커넥터에 대한 액세스 권한을 부여하고 사용자가 기존의 커넥터 구성을 수정할 수 있도록 합니다. |
-| [!UICONTROL 통합(삭제)] | 관리자 > 모든 관리자 > 데이터 커넥터에 대한 액세스 권한을 부여하고 사용자가 데이터 커넥터를 삭제할 수 있도록 합니다. |
+| [!UICONTROL 통합(만들기)] | 사용되지 않습니다. Data Connectors 서비스가 중단되었습니다. |
+| [!UICONTROL 통합(업데이트)] | 사용되지 않습니다. |
+| [!UICONTROL 통합(삭제)] | 사용되지 않습니다. |
