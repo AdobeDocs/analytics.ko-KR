@@ -1,13 +1,12 @@
 ---
 description: Power BI에서 Report Builder을 사용할 때의 일반적인 문제
 title: Power BI 통합 문제 해결
-uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 51%
 
 ---
@@ -38,8 +37,8 @@ Report Builder 요청을 Power BI에 게시한 후 시각화가 손상될 수 �
 
 ## 조직 리소스에 액세스하려면 Report Builder 권한을 부여해야 합니다. 이 액세스 권한은 관리자만 부여할 수 있습니다. 관리자에게 권한을 요청하십시오.
 
-Microsoft 관리자가 다음에 있는 &quot;사용자가 응용 프로그램을 등록할 수 있음&quot; 설정을 검토하도록 합니다. **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 사용자 설정에서 옵션]**&#x200B;을 허용합니다. 이 옵션이 아니오로 설정되어 있으면 해당 관리자가 이러한 유형의 애플리케이션을 등록할 수 있습니다.
+Microsoft 관리자가 다음에 있는 &quot;사용자가 애플리케이션을 등록할 수 있음&quot; 설정을 검토하도록 합니다. **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 사용자 설정에서 옵션을 사용할 수 있습니다.]**. 이 옵션이 아니오로 설정되어 있으면 해당 관리자가 이러한 유형의 애플리케이션을 등록할 수 있습니다.
 
-사용자는 다음 [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)를 사용하여 액세스 권한을 부여할 수 있습니다.
+사용자는 다음을 사용하여 액세스 권한을 부여할 수 있습니다 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-관리자는 다음 [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)를 사용하여 모든 사용자에 대해 액세스 권한을 부여했습니다.
+관리자는 다음을 사용하여 각 관리자에 대한 액세스 권한을 부여했습니다 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).

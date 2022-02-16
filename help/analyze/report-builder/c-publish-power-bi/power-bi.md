@@ -1,13 +1,12 @@
 ---
 description: Report Builder를 Microsoft Power BI와 함께 사용합니다.
 title: Power BI에 게시 - 개요
-uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1028'
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---
@@ -49,7 +48,7 @@ Report Builder의 보고서 생성 기능을 Power BI의 시각화 기능과 결
 
 **Power BI에서 Report Builder 통합 문서 데이터 보기**
 
-1. Power BI의 [!UICONTROL 통합 문서] 메뉴에서 통합 문서를 더블 클릭합니다.
+1. Power BI의 [!UICONTROL 통합 문서] 메뉴에서 통합 문서를 두 번 클릭합니다.
 
    ![](assets/workbooks-power-bi.png)
 

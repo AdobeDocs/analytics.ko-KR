@@ -1,13 +1,12 @@
 ---
 description: 프로젝트에서 사용하기 전에 차원의 상위 값을 봅니다.
 title: 차원 미리 보기
-uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Workspace 기본 사항
+feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '194'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '192'
 ht-degree: 100%
 
 ---

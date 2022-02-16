@@ -1,11 +1,11 @@
 ---
 title: 코호트 분석이란 무엇이며 어떻게 작동합니까?
 description: 코호트 분석을 통해 잠재고객에 대한 데이터를 더 깊이 파고들고 관련 집단으로 나눕니다. Analysis Workspace의 집단 분석에 대한 자세한 내용.
-feature: Visualizations
+feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Analysis Workspace의 집단 테이블에 대한 비디오
 
 ![](assets/cohort-latency.png)
 
-### [!UICONTROL 사용자 지정 차원 집단]
+### [!UICONTROL 사용자 정의 차원 집단]
 
 기본값인 시간 기반 집단이 아닌 선택된 차원에 따라 집단을 생성합니다. [!UICONTROL 마케팅·채널],·[!UICONTROL 캠페인],·[!UICONTROL 제품],·[!UICONTROL 페이지],·[!UICONTROL 영역]·또는·Adobe·Analytics의·다른·차원과·같은·차원을·사용하여·차원의·다양한·값을·기준으로·유지·변경·방법을·보여·줍니다.￼
 

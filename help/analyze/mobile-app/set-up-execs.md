@@ -1,15 +1,15 @@
 ---
-description: Analytics 대시보드 스코어카드를 만드는 방법
-title: 스코어카드 만들기
+description: 경영진 사용자는 앱에 액세스하고 앱을 사용하기 위해 추가 지원이 필요할 수 있습니다. 이 섹션에서는 그러한 지원을 제공하는 데 도움이 되는 정보를 제공합니다.
+title: 앱을 사용하여 경영진 준비
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
-
 
 # 앱을 사용하여 경영진 준비
 
@@ -30,17 +30,17 @@ ht-degree: 100%
 * 모바일 스코어카드를 올바르게 생성했으며 이 스코어카드를 경영진 사용자와 공유했습니다.
 * 스코어카드에 포함된 구성 요소에 액세스할 수 있습니다. 스코어카드를 공유할 때 **[!UICONTROL 임베드된 구성 요소 공유]** 옵션을 선택할 수 있습니다.
 
-## 경영진이 앱을 다운로드하여 설치하도록 지원합니다.
+## 경영진이 앱을 다운로드하여 설치하도록 지원
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ![앱 시작 화면](assets/welcome.png)
 
-## 경영진이 스코어카드에 액세스할 수 있도록 지원합니다.
+## 경영진이 스코어카드에 액세스할 수 있도록 지원
 
 1. 경영진 사용자가 앱에 로그인하도록 합니다.
 

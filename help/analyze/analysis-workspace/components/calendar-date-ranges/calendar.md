@@ -1,12 +1,11 @@
 ---
 description: 달력에서 날짜와 날짜 범위를 지정하거나 사전 설정을 선택할 수 있습니다.
 title: 달력 및 날짜 범위 개요
-uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Workspace Basics
+feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 100%
 

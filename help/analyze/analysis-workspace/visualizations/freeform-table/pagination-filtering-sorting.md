@@ -1,13 +1,12 @@
 ---
 description: 페이지 매김, 필터링 및 정렬에 대한 비디오.
 title: 테이블 페이지 매김, 필터링 및 정렬
-uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-feature: 자유 형식 테이블
+feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '69'
 ht-degree: 100%
 
 ---

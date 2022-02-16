@@ -1,15 +1,15 @@
 ---
 description: Analysis Workspace에서 빠른 세그먼트를 사용합니다.
 title: 빠른 세그먼트
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
-source-git-commit: 533c58f3bcc3974dafab1d6b7dd3e239ad80831b
-workflow-type: ht
+exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 100%
 
 ---
-
 
 # 빠른 세그먼트
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 | 이름 | 세그먼트의 기본 이름은 세그먼트에 있는 규칙 이름의 조합입니다. 세그먼트 이름을 바꿀 수 있습니다. |
 | 포함/제외 | 세그먼트 정의에 구성 요소를 포함 또는 제외할 수 있지만 둘 다 할 수는 없습니다. |
 | 히트/방문/방문자 컨테이너 | 빠른 세그먼트에는 하나의 [세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=ko-KR#section_AF2A28BE92474DB386AE85743C71B2D6)만이 포함되어 세그먼트에 차원/지표/날짜 범위를 포함하거나 세그먼트에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
-| 구성 요소(차원/지표/날짜 범위) | 구성 요소 차원 및/또는 지표 및/또는 날짜 범위 및 값을 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 세그먼트] 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 끌어서 놓습니다.</li></ul> |
+| 구성 요소(차원/지표/날짜 범위) | 구성 요소 차원 및/또는 지표 및/또는 날짜 범위 및 값을 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 세그먼트] 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 드래그 앤 드롭합니다.</li></ul> |
 | 연산자 | 드롭다운 메뉴를 사용하여 표준 연산자 및 [!UICONTROL 고유 개수] 연산자를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=ko-KR) |
 | 더하기(+) 기호 | 다른 규칙 추가 |
 | AND/OR 한정자 | 규칙에 “AND” 또는 “OR” 한정자를 추가할 수 있지만 단일 세그먼트 정의에서는 “AND”와 “OR”를 혼합할 수 없습니다. |

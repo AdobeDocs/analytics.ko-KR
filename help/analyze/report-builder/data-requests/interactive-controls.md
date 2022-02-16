@@ -1,13 +1,12 @@
 ---
 description: 양방향 컨트롤을 사용하여 워크시트에서 직접 하나 이상의 요청에 대한 세그먼트 및 날짜 범위를 편집할 수 있습니다. 이를 통해 Report Builder 요청을 업데이트할 때 보다 유연하게 작업할 수 있습니다.
 title: 양방향 컨트롤
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,6 @@ ht-degree: 100%
 >* Windows에서 Microsoft Excel을 실행하고 있지만, Report Builder 버전이 더 낮거나, Report Builder가 설치되어 있지 않으면 양방향 컨트롤에서 해당 값을 변경할 수 있지만 연결된 요청이 새로 고침되지 않고 요청의 연결된 매개 변수도 업데이트되지 않습니다.
 >* Mac에서 Excel을 실행하고 있는 경우 제어의 값을 변경하면 다음 메시지가 표시됩니다. &quot;매크로 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’를 찾을 수 없습니다.&quot;
 >
-
 
 
 >[!IMPORTANT]

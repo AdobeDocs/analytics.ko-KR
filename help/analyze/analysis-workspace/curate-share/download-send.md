@@ -1,13 +1,12 @@
 ---
 description: Analysis Workspace에서 데이터를 복사하거나 PDF 및 CSV 형식으로 다운로드할 수 있습니다.
 title: PDF 또는 CSV 파일 다운로드
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: 선별 및 공유
+feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '986'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '983'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 100%
 * 프로젝트 다운로드를 요청할 때 프로젝트를 저장하거나 저장 취소할 수 있습니다. 그러나 저장된 프로젝트만 [예약](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=ko-KR)할 수 있습니다.
 * 브라우저에서 다운로드한 PDF는 PDF 형식으로 렌더링하기 전에 프로젝트가 Adobe 서버에서 다시 실행되기 때문에 내보내는 데 몇 분 정도 걸릴 수 있습니다. 브라우저에서 PDF를 다운로드할 때까지 프로젝트를 종료하지 않는 것이 좋습니다. 하지만 기다리는 동안 프로젝트를 계속 변경할 수 있습니다. 5분 이상 소요되는 경우 PDF를 렌더링하는 대신에 이메일로 보내라는 메시지가 표시됩니다.
 * PDF 다운로드는 페이지 매김이 적용되지 않은 단일 페이지로 렌더링됩니다.
-* 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 지정 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정 (오른쪽 상단의 버튼)되도록 변경해야 합니다.
+* 프로젝트가 PDF로 렌더링되면 페이지에 있는 내용이 렌더링됩니다. 프로젝트에 사용자 정의 크기의 시각화 및 패널이 있는 경우, 잘린 콘텐츠가 생기지 않게 시각화 및 패널의 크기가 자동으로 지정 (오른쪽 상단의 버튼)되도록 변경해야 합니다.
 
 ## 클립보드에 데이터 복사 (핫키: Ctrl + C) {#copy-data}
 

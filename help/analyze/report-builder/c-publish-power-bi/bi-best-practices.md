@@ -1,18 +1,17 @@
 ---
 description: Power BI 우수 사례.
-title: 모범 사례
-uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
+title: 우수 사례
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 97%
 
 ---
 
-# 모범 사례
+# 우수 사례
 
 ## Power BI 시각화에서 참조 유지 {#section_7ED14FE64D974681A57EB91EF1B47CB6}
 
