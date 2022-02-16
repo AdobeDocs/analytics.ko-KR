@@ -1,13 +1,12 @@
 ---
 description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
-feature: 관리 도구
-uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
+feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 97%
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -56,6 +55,6 @@ Reports &amp; Analytics 내에서 실시간 보고서를 설정하는 절차에�
 
 1. **[!UICONTROL 저장]**&#x200B;이나 **[!UICONTROL 보고서 저장 및 보기]**&#x200B;를 클릭합니다.
 
-   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html)을 참조하십시오.
+   이 초기 보고서 설정 후 데이터 스트리밍이 시작되는 데에는 최대 20까지 소요될 수 있습니다. 그때부터는 데이터를 즉시 사용할 수 있습니다. 실시간 보고서 보기에 대한 자세한 내용은 [실시간 보고서 실행](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=ko-KR)을 참조하십시오.
 
 1. 기본적으로 실시간 보고서에 대한 액세스 권한은 모든 사용자에게 있습니다.

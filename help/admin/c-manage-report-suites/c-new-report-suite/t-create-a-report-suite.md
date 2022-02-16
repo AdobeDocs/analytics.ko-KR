@@ -1,18 +1,18 @@
 ---
 description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이너를 만듭니다
 title: 보고서 세트 만들기
-feature: 관리 도구
+feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '374'
 ht-degree: 66%
 
 ---
 
 # 보고서 세트 만들기
 
-보고서 세트는 Adobe Analytics가 보고서를 가져오는 데 사용하는 데이터의 사일로입니다. 조직에는 여러 개의 보고서 세트가 있을 수 있으며, 각 보고서 세트에는 서로 다른 데이터 세트가 포함되어 있습니다. 이전에는 개별 보고서 세트가 중요했지만 단일 보고서 세트가 더 유용해졌습니다. [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) 및 보고서 처리 시간을 도입하면 관리자가 고유한 데이터 하위 세트를 만들 수 있으므로, 전역 및 사이트별 데이터를 모두 유연하게 얻을 수 있습니다.
+보고서 세트는 Adobe Analytics가 보고서를 가져오는 데 사용하는 데이터의 사일로입니다. 조직에는 여러 개의 보고서 세트가 있을 수 있으며, 각 보고서 세트에는 서로 다른 데이터 세트가 포함되어 있습니다. 이전에는 개별 보고서 세트가 중요했지만 단일 보고서 세트가 더 유용해졌습니다. 의 소개 [가상 보고서 세트](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) 및 보고서 처리 시간을 사용하면 관리자가 고유한 데이터 하위 세트를 만들 수 있으므로, 전역 및 사이트별 데이터를 모두 유연하게 얻을 수 있습니다.
 
 이 문서는 시스템 수준 관리자 또는 Adobe Analytics 관리자가 데이터 수집을 준비할 수 있도록 설계되었습니다.
 
@@ -43,8 +43,8 @@ ht-degree: 66%
 
 **Adobe Analytics에 로그인하면 &#39;Adobe Analytics에 오신 것을 환영합니다.&#39; 팝업과 드롭다운이 표시되지 않습니다.**
 
-my.omniture.com을 통해서가 아니라 [Experience Cloud](https://experience.adobe.com)을 통해 로그인했는지 확인합니다. my.omniture.com을 통해 로그인한 사용자는 보고서 세트 설정 마법사를 사용할 수 없습니다.
+를 통해 로그인했는지 확인합니다. [Experience Cloud](https://experience.adobe.com)및 my.omniture.com을 통해서가 아닙니다. my.omniture.com을 통해 로그인한 사용자는 보고서 세트 설정 마법사를 사용할 수 없습니다.
 
 ## 다음 단계
 
-[Adobe Analytics 태그 속성을 만듭니다  ](/help/implement/launch/create-analytics-property.md). Analytics 구현을 관리할 영역 만들기
+[Adobe Analytics 태그 속성 만들기 ](/help/implement/launch/create-analytics-property.md): Analytics 구현을 관리할 영역 만들기

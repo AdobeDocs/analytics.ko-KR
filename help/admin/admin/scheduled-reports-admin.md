@@ -1,10 +1,10 @@
 ---
 description: 관리자 수준 사용자가 조직 전체에서 예약된 보고서를 보고 관리할 수 있습니다.
 title: 예약된 보고서 큐
-topic-fix: Reports
+feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 관리자 수준 사용자가 조직 전체에서 예약된 보고서를 보고 관리할 수 있습니다.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL 구성 요소]**   **** >  **[!UICONTROL 모든 구성 요소>예약된 보고서]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 예약된 보고서]**
 
 예약된 보고서 관리자에는 다음과 같은 관리 수준 기능이 있습니다.
 

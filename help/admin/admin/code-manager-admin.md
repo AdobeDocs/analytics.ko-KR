@@ -1,13 +1,12 @@
 ---
 description: 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
 title: 코드 관리자
-feature: 관리 도구
-uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
+feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 91%
+source-wordcount: '137'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 91%
 
 코드 관리자에서는 웹 및 모바일 플랫폼에 대한 데이터 수집 코드를 다운로드할 수 있습니다.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL 관리자]**  >  **[!UICONTROL 모든 관리자]**  >  **[!UICONTROL 코드 관리자]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 코드 관리자]**.
 
 라이브러리를 다운로드한 후에는 데이터를 올바른 추적 서버 및 보고서 세트에 보내는 코드를 구성해야 합니다. 추가 구현 리소스는 [구현](/help/implement/home.md) 사용 안내서에서 확인할 수 있습니다.
 

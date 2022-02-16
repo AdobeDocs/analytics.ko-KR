@@ -1,11 +1,10 @@
 ---
 description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -41,15 +40,15 @@ ht-degree: 100%
 + [게시 목록](publishing-list.md)
 + [게시 위젯](publishing-widgets-admin.md)
 + [기본 설정 관리자](preferences-manager.md)
-+ [개인 정보 보호 설정](privacy-settings.md)
++ [개인 정보 설정](privacy-settings.md)
 + [처리 규칙 개요](c-processing-rules/processing-rules.md)
 + [실시간 보고서 개요](realtime/realtime.md)
 + [예약된 보고서 큐](scheduled-reports-admin.md)
-+ [서버 측 전달 개요](c-server-side-forwarding/ssf.md)
++ [서버측 전달 개요](c-server-side-forwarding/ssf.md)
 + [간소화된 보고서 메뉴](t-simplified-menu.md)
 + [소셜 관리](social-management.md)
 + [성공 이벤트 개요](c-success-events/success-event.md)
 + [타임스탬프 선택 사항](timestamp-optional.md)
-+ [트래픽 변수 (prop) 개요](c-traffic-variables/traffic-var.md)
++ [트래픽 변수(prop) 개요](c-traffic-variables/traffic-var.md)
 + [고유 방문자 변수 지정](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [비디오 관리](video-management.md)

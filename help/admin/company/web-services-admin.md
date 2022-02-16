@@ -1,11 +1,10 @@
 ---
 description: 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
 title: 웹 서비스
-feature: Admin Tools
-uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
+feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: ht
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
 

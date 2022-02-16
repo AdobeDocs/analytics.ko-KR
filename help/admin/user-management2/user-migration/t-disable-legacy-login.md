@@ -1,12 +1,14 @@
 ---
 description: Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 알아봅니다.
 title: 기존 로그인 비활성화
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+feature: Admin Tools
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
-
 
 # 기존 로그인 비활성화{#disable-legacy-logins}
 
@@ -26,4 +28,3 @@ Analytics 사용자의 기존 로그인을 비활성화하는 방법에 대해 �
    기존 로그인을 비활성화하는 것은 사용자가 기존의 [!DNL my.omniture.com] 사용자 이름 및 암호를 계속 사용할 수 있음을 나타냅니다.
 
    아직 마이그레이션되지 않은 사용자의 기존 로그인은 비활성화할 수 없습니다. 비활성화하면 사용자가 Experience Cloud ID를 사용하여 Analytics에 로그인 및 액세스해야 합니다.
-

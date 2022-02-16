@@ -2,8 +2,9 @@
 title: Adobe Admin Console의 보고서 세트 도구에 대한 제품 프로필 권한
 description: 보고서 세트 도구에서 각 권한 항목을 파악합니다.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 

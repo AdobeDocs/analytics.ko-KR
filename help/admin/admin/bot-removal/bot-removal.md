@@ -1,9 +1,10 @@
 ---
 title: Adobe Analytics에서 보트 제거
 description: Adobe Analytics에서 보트를 제거하는 방법
+feature: Admin Tools
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
@@ -49,7 +50,7 @@ Adobe Analytics에는 보고에서 보트 트래픽을 제거하는 여러 가�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-이 데이터 요소가 설정되고 나면 [이 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko-KR)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구로 전달합니다.
+이 데이터 요소가 설정되고 나면 [이 지침](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)에 따라 Adobe Experience Platform의 태그를 사용하여 선언된 ID를 ECID 도구로 전달합니다.
 
 ### 2단계: 세그먼테이션을 사용하여 보트 식별
 

@@ -2,13 +2,11 @@
 description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
 subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
-feature: Admin Tools
-uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 86%
 
 ---
@@ -80,7 +78,7 @@ ht-degree: 86%
 <table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 특성 </th> 
+   <th colname="col1" class="entry"> 속성 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -91,11 +89,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 이름 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 링크 추적 호출은 처리 규칙에 도달하기 전에 <code>pageName</code> 변수를 제거합니다. 처리 규칙을 사용하여 페이지 이름 값을 다시 삽입하면 이 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. 페이지 이름을 수정하기 전에 페이지 이름이 이미 설정되어 있는지 확인하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 링크 추적 호출은 <code>pageName</code> 변수를 처리 규칙에 도달하기 전에 변수로 식별하십시오. 처리 규칙을 사용하여 페이지 이름 값을 다시 삽입하는 경우 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. Adobe은 수정하기 전에 페이지 이름이 이미 설정되어 있는지 확인하는 것을 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 또는 <code> s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL <p>참고: 링크 추적 호출은 처리 규칙에 도달하기 전에 <code>pageURL</code> 변수를 제거합니다. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하면 이 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. 페이지 URL을 수정하기 전에 페이지 URL이 이미 설정되어 있는지 확인하는 것이 좋습니다. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> 또는 <code> s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL <p>참고: 링크 추적 호출은 <code>pageURL</code> 변수를 처리 규칙에 도달하기 전에 변수로 식별하십시오. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하는 경우 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. 페이지 URL을 수정하기 전에 페이지 URL이 이미 설정되어 있는지 확인하는 것이 좋습니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿼리 문자열 매개 변수 </p> </td> 
@@ -131,7 +129,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>참조 루트 도메인(읽기 전용) </p> </td> 
-   <td colname="col2"> <p>레퍼러 호스트 이름의 마지막 두 섹션입니다. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>레퍼러 호스트 이름의 마지막 두 섹션입니다. https://en.main.example.<span class="syntax codeph"> co-uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>참조 쿼리 문자열(읽기 전용) </p> </td> 
@@ -176,7 +174,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>목록 변수 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구매 ID </p> </td> 
@@ -211,7 +209,7 @@ ht-degree: 86%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>이벤트 1-1000 </p> <p>(SiteCatalyst 15 고객이면 이벤트 1-100) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구매, scView, scAdd 및 기타 장바구니 이벤트 </p> </td> 

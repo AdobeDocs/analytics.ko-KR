@@ -1,13 +1,12 @@
 ---
 description: 기존 보고서 세트에서 설정을 복사한 경우 시스템 메시지는 새 보고서 세트에 복사되지 않은 설정을 식별합니다.
 title: 소스 보고서 세트에서 복사되지 않은 설정
-feature: 관리 도구
-uuid: 5176c561-a278-43e4-837f-a17759985d52
+feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 91%
+source-wordcount: '203'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 91%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>분류 데이터(분류 구조가 복사됨) </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=ko-KR"> 분류 가져오기 도구(업로드) 설명서</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>거래 ID 기록 활성화 </p> </td> 

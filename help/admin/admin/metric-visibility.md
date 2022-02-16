@@ -1,12 +1,14 @@
 ---
 description: 표준(내장) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
 title: 지표 가시성
-uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: Admin Tools
+exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
-
 
 # 지표 가시성
 
@@ -63,4 +65,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
  </tbody> 
 </table>
-

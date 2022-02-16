@@ -1,9 +1,9 @@
 ---
 description: EU 쿠키 준수 규정에서 촉발된 서버 측 전달에 대한 개선 사항을 설명합니다.
 title: GDPR/ePrivacy 준수 및 서버 측 전달
-uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # GDPR/ePrivacy 준수 및 서버 측 전달
 
-이 섹션에서는 2017년 9월 30일에 시행된 [EU 쿠키 준수 규정](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+쿠키+및+유사+기술)에서 촉발된 서버 측 전달에 대한 개선 사항을 설명합니다.
+이 섹션에서는 [EU 쿠키 준수 규정](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+쿠키+및+유사+기술)2017년 9월 30일부터 시행되었습니다.
 
 서버 측 전달은 Adobe Analytics의 데이터를 Audience Manager와 같은 다른 [!DNL Experience Cloud Solutions]과 실시간으로 공유하는 데 사용됩니다. 이 기능이 활성화되어 있을 때 서버 측 전달을 사용하면 Analytics에서 데이터를 다른 Experience Cloud 솔루션에 푸시하고 데이터 수집 프로세스 중에 해당 솔루션으로 데이터를 Analytics에 푸시할 수 있습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 | 구현 방법 | 단계 |
 |--- |--- |
-| Adobe Experience Platform의 태그 | Adobe Analytics 확장이 설치되어 있다고 가정할 경우 규칙의 작업 구성 내에서 다음 컨텍스트 데이터 변수 정의를 사용자 지정 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고:  contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
+| Adobe Experience Platform의 태그 | Adobe Analytics 확장이 설치되어 있다고 가정할 경우 규칙의 작업 구성 내에서 다음 컨텍스트 데이터 변수 정의를 사용자 지정 코드 편집기에 추가합니다. <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 `contextdata` 변수를 *0*&#x200B;으로 설정합니다. |
 | AppMeasurement | 컨텍스트 데이터 변수 정의를 AppMeasurement.js 파일에 추가합니다.  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>참고: contextdata 변수를 정의하고, 고객이 대상 마케팅에 동의하지 않은 경우 1로 설정합니다. 대상 마케팅에 동의한 고객에 대해서는 contextdata 변수를 0으로 설정합니다. |
 
 ## 보고(선택 사항) {#section_6AD4028EC11C4DABA2A34469DDC99E89}

@@ -1,13 +1,15 @@
 ---
 description: 서버 측 전달이 제대로 활성화되었는지 확인하려면 Analytics 추적 요청에서 HTTP 응답을 검사해야 합니다. 이 작업은 브라우저의 개발자 도구를 사용하거나 Charles Web Debugger와 같은 프록시 도구를 사용하여 수행할 수 있습니다. 다음 지시 사항은 서버 측 전달이 제대로 작동하도록 하기 위해 어떤 표시가 있어야 하는지를 보여줍니다.
-solution: Audience Manager
+solution: Analytics
 title: 서버 측 전달 구현 확인 방법
-uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 21db4572-da3c-43aa-a774-86a089656695
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
-
 
 # 서버 측 전달 구현 확인 방법
 

@@ -1,11 +1,10 @@
 ---
 description: Adobe Analytics에서 현재 서버 호출 사용을 보는 방법.
 title: 현재 서버 호출 사용량 보기
-uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
+feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 

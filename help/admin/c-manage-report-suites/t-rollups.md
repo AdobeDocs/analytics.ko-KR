@@ -1,13 +1,11 @@
 ---
 description: 롤업 보고서 세트의 생성 방법을 설명하는 단계입니다.
 title: 롤업 보고서 세트 만들기
-feature: Admin Tools
-uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
+feature: Report Suite Settings
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 76%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 은 롤업 보고서를 지원하는 유일한 도구이며 Adobe은 더 이상 롤업 사용을 권장하지 않습니다. 대체 항목을 보려면 &quot;[보고서 세트 접근 방식](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot;을 참조하십시오.
+>[!DNL Reports & Analytics] 는 롤업 보고서를 지원하는 유일한 도구이며 더 이상 롤업 사용을 권장하지 않습니다. 참조:[보고서 세트 접근 방식](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot;을 가리키도록 업데이트하는 것이 좋습니다.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. [!UICONTROL 보고서 세트 그룹]에서 **[!UICONTROL 롤업]** 제목 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.

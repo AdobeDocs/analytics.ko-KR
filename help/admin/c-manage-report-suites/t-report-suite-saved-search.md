@@ -1,13 +1,11 @@
 ---
 description: 보고서 세트 검색의 구성원을 결정하는 기준 세트를 정의하는 방법을 설명하는 단계입니다.
 title: 보고서 세트 검색 저장
-feature: Admin Tools
-uuid: dd83eed6-1374-429c-9fc3-709055698a44
+feature: Report Suite Settings
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,12 @@
 ---
 description: 일반 웹 사이트에 대한 여러 가지 일반 변수 및 성공 이벤트를 구성합니다.
 title: 기본 템플릿
-feature: Admin Tools
+feature: Report Suite Settings
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
@@ -18,16 +17,16 @@ ht-degree: 100%
 
 | 전환 변수 | 유형 | 하위 관계 | 할당 | 만료 | `s_code` 변수 |
 |---|---|---|---|---|---|
-| 내부 캠페인 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar1` |
-| 내부 검색어 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar2` |
-| 상거래 변수 3 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar3` |
-| 상거래 변수 4 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar4` |
+| 내부 캠페인 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar1` |
+| 내부 검색어 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar2` |
+| 상거래 변수 3 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar3` |
+| 상거래 변수 4 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar4` |
 
 | 성공 이벤트 | 유형 | `s_code` 변수 |
 |---|---|---|
 | 등록 | 카운터(하위 관계 없음) | `event1` |
 | 이메일 등록 | 카운터(하위 관계 없음) | `event2` |
-| 가입 | 카운터(하위 관계 없음) | `event3` |
+| 구독 | 카운터(하위 관계 없음) | `event3` |
 | 페이지 보기 수 | 카운터(하위 관계 없음) | `event4` |
 | 광고 노출 횟수 | 카운터(하위 관계 없음) | `event5` |
 | 광고 클릭 수 | 카운터(하위 관계 없음) | `event6` |

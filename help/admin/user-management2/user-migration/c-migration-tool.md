@@ -1,14 +1,14 @@
 ---
 description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이그레이션에 대해 알아야 할 사항.
 title: Admin Console로 Analytics 사용자 마이그레이션
-uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+feature: Admin Tools
+exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '3119'
 ht-degree: 97%
 
 ---
-
 
 # Admin Console로 Analytics 사용자 마이그레이션{#analytics-user-migration-to-the-admin-console}
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud에서 Admin Console로의 Analytics 사용자 ID 마이�
 
 Analytics 마이그레이션과 관련이 없는 Admin Console 주제에 대한 일반적인 도움말은 [Admin Console 사용 안내서](https://helpx.adobe.com/kr/enterprise/administering/user-guide.html)를 참조하십시오.
 
-마이그레이션 후 [Admin Console]에서 [Experience Cloud 사용자 및 제품](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko-KR)을 관리할 수 있습니다.
+마이그레이션 후 [Admin Console]에서 [Experience Cloud 사용자 및 제품](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)을 관리할 수 있습니다.
 
 ## Analytics 사용자 ID 마이그레이션이란? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -38,7 +38,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 ID 및 권한 관리 </p> </td> 
-   <td colname="col2"> <p>Analytics 관리자는 <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a>에서만 사용자 및 권한을 관리할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>Analytics 관리자는 <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>제품 및 핵심 서비스 관리 </p> </td> 
@@ -309,7 +309,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
 
 이 마이그레이션 계획을 현재 사용자에게 사전에 알리고 싶을 수 있습니다. 현재 Analytics 사용자를 모두 보내도록 사용자 지정할 수 있는 템플릿은 다음과 같습니다.
 
-모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html)로 이동합니다.
+모든 사용자에게 이메일을 보내려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 사용자 관리]** > [이메일 사용자](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html).
 
 **제목:** 예고 - Adobe Analytics 및 Adobe Experience Cloud에 로그인하는 새로운 방법
 

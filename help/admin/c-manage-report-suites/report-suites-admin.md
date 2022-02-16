@@ -1,13 +1,11 @@
 ---
-description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 세트에 대한 전체적이고 독립적인 보고를 정의합니다. 일반적으로 보고서 세트는 하나의 웹 사이트지만 합계를 얻기 위해 여러 사이트의 번호를 결합한 글로벌 세그먼트가 될 수 있습니다. Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나를 선택합니다(보고서 세트를 결합한 롤업을 사용하는 경우 제외). 또한 보고서 세트는 사이트 일부에 대한 보고서를 실행하려는 경우 웹 사이트보다 작아질 수 있습니다. Analytics 솔루션은 이러한 데이터 저장소에 대해 집계 및 보고합니다. 관리 보고서 세트 관리자를 사용하면 보고서 세트에서의 데이터 처리 방법을 제어하는 규칙을 정의할 수 있습니다.
+description: 보고서 세트는 선택한 웹 사이트, 웹 사이트 집합 또는 웹 페이지의 하위 세트에 대한 전체적이고 독립적인 보고를 정의합니다.
 title: 보고서 세트 관리자
-feature: Admin Tools
-uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
+feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: 목록 변수
 description: 보고에 사용할 목록 변수를 만들고 구성합니다.
+feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
 

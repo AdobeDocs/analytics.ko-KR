@@ -2,9 +2,9 @@
 title: Adobe Analytics의 제품 프로필
 description: 제품 관리자가 조직 내부에서 사용자에게 할당할 수 있는 권한 사전 설정으로 제품 프로필을 활용할 수 있는 방법에 대해 알아봅니다.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 

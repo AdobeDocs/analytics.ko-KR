@@ -2,13 +2,11 @@
 description: 분류 계층 페이지를 사용하여 이름이 같은 계층 보고서를 만들기 위해 사용할 수 있는 분류 계층을 정의할 수 있습니다.
 subtopic: Classifications
 title: 분류 계층
-feature: 관리 도구
-uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
+feature: Admin Tools
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---

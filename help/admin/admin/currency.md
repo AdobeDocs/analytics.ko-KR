@@ -2,12 +2,10 @@
 description: Experience Cloud에 사용된 통화 코드입니다.
 title: 통화 코드
 feature: Admin Tools
-uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -177,14 +175,14 @@ Experience Cloud에 사용된 통화 코드입니다.
 | VUV | 바누아투 바투 |
 | WST | 사모아 탈라 |
 | XAF | 중앙 아프리카 CFA 프랑 |
-| XAG | 은(온스) |
-| XAU | 금(온스) |
+| XAG | 은 (온스) |
+| XAU | 금 (온스) |
 | XCD | 동캐리비안 달러 |
 | XDR | 국제 통화 기금의 특별 인출권 |
 | XOF | Communaut順inanci貥 Africaine Francs BCEAO |
-| XPD | 팔라듐(온) |
+| XPD | 팔라듐 (온) |
 | XPF | Comptoirs Fran硩s du Pacifique Francs |
-| XPT | 백금(온스) |
+| XPT | 백금 (온스) |
 | YER | 예멘 리알 |
 | ZAR | 남아프리카 랜드 |
 | ZMK | 잠비아 콰차 |

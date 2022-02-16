@@ -1,13 +1,11 @@
 ---
 description: 전자 상거래 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 상거래
-feature: Admin Tools
-uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+feature: Report Suite Settings
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 100%
 
 ---
@@ -18,11 +16,11 @@ ht-degree: 100%
 
 | 전환 변수 | 유형 | 하위 관계 | 할당 | 만료 | `s_code` 변수 |
 |---|---|---|---|---|---|
-| 내부 판촉 행사 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar1` |
-| 내부 검색어 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar2` |
-| 머천다이징 카테고리 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar3` |
-| 상거래 변수 4 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar4` |
-| 상거래 변수 5 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar5` |
+| 내부 판촉 행사 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar1` |
+| 내부 검색어 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar2` |
+| 머천다이징 카테고리 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar3` |
+| 상거래 변수 4 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar4` |
+| 상거래 변수 5 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar5` |
 
 | 성공 이벤트 | 유형 | `s_code` 변수 |
 |---|---|---|

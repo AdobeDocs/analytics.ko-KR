@@ -1,21 +1,20 @@
 ---
 description: Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
 title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션
-uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+feature: Admin Tools
+exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
 
-
 # Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
 Analytics 사용자 계정을 Admin Console에 Enterprise ID 또는 Federated ID로 마이그레이션하는 방법입니다.
 
-## 전제 조건 {#prereqs}
+## 사전 요구 사항 {#prereqs}
 
 Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
 
@@ -128,7 +127,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>도메인이 <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 사전 요구 사항</a>에 설정된 도메인과 일치합니다. </p> </td> 
+   <td colname="col2"> <p>Ensure that domains in <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 사전 요구 사항</a>에 설정된 도메인과 일치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 
@@ -137,7 +136,7 @@ Admin Console에서 사용자를 관리하기 위한 전제 조건입니다.
  </tbody> 
 </table>
 
-[!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/kr/enterprise/using/users.html)을 참조하십시오.
+[!DNL .csv] 파일의 필드에 대한 자세한 내용은 [CSV 파일 형식](https://helpx.adobe.com/enterprise/using/users.html)을 참조하십시오.
 
 >[!NOTE]
 >

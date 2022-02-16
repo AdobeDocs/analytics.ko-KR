@@ -1,13 +1,11 @@
 ---
 description: 뉴스 포털과 같은 컨텐츠를 집계하는 웹 사이트에 대한 일반 설정을 정의합니다.
 title: 누적 포털
-feature: Admin Tools
-uuid: d227c209-4d88-4eff-b126-994b2a179c51
+feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 100%
 
 ---
@@ -18,9 +16,9 @@ ht-degree: 100%
 
 | 전환 변수 | 유형 | 하위 관계 | 할당 | 만료 | `s_code` 변수 |
 |---|---|---|---|---|---|
-| 내부 캠페인 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar1` |
-| 내부 검색어 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar2` |
-| 참조 카테고리 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar3` |
+| 내부 캠페인 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar1` |
+| 내부 검색어 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar2` |
+| 참조 카테고리 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar3` |
 
 | 성공 이벤트 | 유형 | `s_code` 변수 |
 |---|---|---|

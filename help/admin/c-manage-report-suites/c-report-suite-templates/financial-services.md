@@ -1,13 +1,11 @@
 ---
 description: 온라인 서비스에 대한 액세스를 제공하는 은행 및 기타 기관에 대한 일반 설정을 정의합니다.
 title: 금융 서비스
-feature: Admin Tools
-uuid: a321b409-24a4-4d9f-9aac-65761261e991
+feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
@@ -18,9 +16,9 @@ ht-degree: 100%
 
 | 전환 변수(eVar) | 유형 | 하위 관계 | 할당 | 만료 | `s_code` 변수 |
 |---|---|---|---|---|---|
-| 내부 판촉 행사 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar1` |
-| 내부 검색어 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar2` |
-| 셀프 서비스 이벤트 유형 | 문자열 | 기본 | 최근(마지막) | 방문 | `evar3` |
+| 내부 판촉 행사 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar1` |
+| 내부 검색어 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar2` |
+| 셀프 서비스 이벤트 유형 | 문자열 | 기본 | 최근 (마지막) | 방문 | `evar3` |
 
 이 보고서 세트 템플릿으로는 성공 이벤트가 구성되지 않습니다.
 

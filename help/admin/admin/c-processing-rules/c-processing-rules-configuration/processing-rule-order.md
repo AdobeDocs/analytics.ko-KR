@@ -2,13 +2,12 @@
 description: '처리 규칙을 효과적으로 사용하려면 데이터 수집 중에 언제 처리 규칙이 적용되는지 이해하는 것이 중요합니다. '
 subtopic: Processing rules
 title: 처리 순서
-feature: 관리 도구
-uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
+feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 90%
+source-wordcount: '501'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 90%
 | VISTA가 추가한 데이터 | 처리 규칙은 VISTA 이전에 적용됩니다. |
 | 방문 페이지 번호 | 일반적인 규칙으로, 처리 규칙은 현재 히트에만 포함된 데이터를 인식합니다. 방문 페이지 번호는 처리 규칙이 적용된 후 컴파일됩니다. |
 | 클린 URL이 설정되지 않은 경우 페이지 이름으로 추가됩니다. | 처리 규칙 및 VISTA가 적용된 후, 설정된 페이지 이름이 없는 경우 클린 URL이 페이지 이름으로 추가됩니다. 이는 처리 규칙이 적용된 후 발생하므로 페이지 이름이 비어 있는지 확인하기 위해 조건을 추가하는 것이 좋습니다.  사이트 컨텐트 > 페이지 보고서를 실행하고 페이지 이름에 대한 https:// 값이 표시되면 페이지 이름이 비어 있는 해당 URL이 사용 중일 수 있습니다.  빈 페이지 이름을 테스트하거나, 페이지 이름 또는 페이지 URL이 특정 값을 포함하고 있는지 확인하는 테스트를 위해 조건을 설정할 수 있습니다. 그런 다음 필요에 따라 페이지 이름을 설정할 수 있습니다. |
-| 마케팅 채널 처리 규칙 | 처리 규칙을 사용하여 [마케팅 채널 처리 규칙](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html)으로 처리할 데이터를 준비할 수 있습니다. |
+| 마케팅 채널 처리 규칙 | 처리 규칙을 사용하여 [마케팅 채널 처리 규칙](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=ko-KR)으로 처리할 데이터를 준비할 수 있습니다. |
 | GEO 조회 | 여기에는 방문자 주 및 방문자 ZIP/우편 번호 값이 포함됩니다. |
 | eVar 지속성 | 이전 히트에 포함된 evar는 규칙 처리 중에 각 히트에 지속되지 않습니다. 처리되는 현재 히트에서 설정된 eVar만 사용할 수 있습니다. |
 
