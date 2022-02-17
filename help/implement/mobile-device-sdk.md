@@ -1,9 +1,10 @@
 ---
 title: 모바일 디바이스용 Analytics 구현
 description: 사용할 모바일 AppMeasurement 라이브러리를 결정합니다.
+feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: timestamp
 description: 히트의 타임스탬프를 수동으로 설정합니다.
+feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 

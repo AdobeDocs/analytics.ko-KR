@@ -1,9 +1,10 @@
 ---
 title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
+feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 9ec16e61560dd31f5240c7dd169ae8720761fbc5
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 

@@ -2,11 +2,9 @@
 description: 방문자 프로필이 동일한 방문자 ID 변수와 연결된 후 병합되면, 내역 데이터 세트에서 속성이 변경되지 않습니다.
 keywords: Analytics 구현
 title: 속성 및 지속성
-topic-fix: Developer and implementation
-uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 100%

@@ -1,10 +1,10 @@
 ---
 title: 상위 5개의 KPI 정의
 description: 핵심 성과 지표와 관련 지표 및 차원이 비즈니스 요구 사항과 면밀하게 일치하는지 확인하십시오.
+feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 100%
 

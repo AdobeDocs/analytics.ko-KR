@@ -1,9 +1,10 @@
 ---
 title: H 코드 구현 문제 해결
 description: 이전 JavaScript 구현과 관련된 몇 가지 일반적인 문제를 알아봅니다.
+feature: Implementation Basics
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
 

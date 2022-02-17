@@ -1,10 +1,10 @@
 ---
 title: 해시 충돌
 description: 해시 충돌의 정의와 해시 충돌이 어떻게 발현될 수 있는지에 대해 설명합니다.
+feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -60,19 +60,19 @@ eVar62=&quot;값 500&quot;인 방문을 찾는 세그먼트를 만들 경우, An
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 값 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
+   <td colname="col2"> <p> 111년 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> 값 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
+   <td colname="col2"> <p> <b> 123년</b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 값 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
+   <td colname="col2"> <p> 222년 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> 값 500</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
+   <td colname="col2"> <p> <b> 123년</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>

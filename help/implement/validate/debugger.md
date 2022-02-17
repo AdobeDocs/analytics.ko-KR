@@ -1,9 +1,10 @@
 ---
 title: 기존 Adobe Experience Cloud Debugger
 description: 기존 Adobe Experience Cloud Debugger를 설치합니다. 이 디버거는 Analytics, Target, Advertising Cloud, Identity Service, 데이터 수집 태그를 검사합니다.
+feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -35,7 +36,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-[chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR)을 굳이 사용하지 않으면 기존 디버거 북마클릿을 대신 사용할 수 있습니다.
+[chrome 확장 프로그램](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)을 굳이 사용하지 않으면 기존 디버거 북마클릿을 대신 사용할 수 있습니다.
 
 1. 오른쪽 상단에 있는 세 점을 클릭한 다음 책갈피 > 책갈피 관리자로 이동합니다. `Ctrl` + `Shift` + `O` (Windows) 또는 `Cmd` + `Shift` + `O` (Mac)을 누를 수도 있습니다.
 2. 책갈피 관리자의 오른쪽 상단에서 세 점을 클릭한 다음 &#39;새 책갈피 추가&#39;를 클릭합니다.

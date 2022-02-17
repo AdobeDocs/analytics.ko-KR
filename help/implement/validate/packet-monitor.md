@@ -2,9 +2,10 @@
 title: 패킷 분석기
 description: 패킷 분석기를 사용하여 구현에서 Adobe 데이터 수집 서버로 보낸 데이터를 볼 수 있습니다.
 keywords: 패킷 스니퍼, http 상태, 200, 302, charles
+feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
 

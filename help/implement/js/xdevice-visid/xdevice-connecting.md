@@ -3,12 +3,10 @@ description: 크로스 디바이스 방문자 식별은 여러 디바이스의 �
 keywords: Analytics 구현
 subtopic: Visitors
 title: 여러 디바이스에서 사용자 연결
-topic-fix: Developer and implementation
-uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: XDM 데이터를 Analytics에 수동으로 매핑
 description: Experience Platform의 XDM 데이터를 Adobe Analytics에 수동으로 매핑합니다.
+feature: AEP Edge
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -46,7 +47,7 @@ Analytics에서 사용하기 위해 XDM 데이터는 점 표기법을 사용하�
 
 ## 처리 규칙
 
-에지 네트워크에서 수집한 모든 데이터는 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=ko-KR)을 통해 액세스할 수 있습니다. Analytics에서는 처리 규칙을 사용하여 컨텍스트 데이터를 Analytics 변수에 통합할 수 있습니다.
+에지 네트워크에서 수집한 모든 데이터는 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)을 통해 액세스할 수 있습니다. Analytics에서는 처리 규칙을 사용하여 컨텍스트 데이터를 Analytics 변수에 통합할 수 있습니다.
 
 예를 들어 다음 규칙에서 Analytics는 **내부 검색어 (eVar2)**&#x200B;를 **a.x_atag.search.term (컨텍스트 데이터)**&#x200B;과 연결된 데이터로 채우도록 설정됩니다.
 
@@ -82,4 +83,4 @@ alloy("event",{
 });
 ```
 
-AEP 웹 SDK를 사용한 이벤트 추적에 대한 자세한 내용은 [이벤트 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ko-KR)을 참조하십시오.
+AEP 웹 SDK를 사용한 이벤트 추적에 대한 자세한 내용은 [이벤트 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html)을 참조하십시오.

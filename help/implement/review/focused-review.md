@@ -1,10 +1,10 @@
 ---
 title: 집중 검토 (각 웹 사이트 릴리스 이후)
 description: 다음 단계에 따라 구현 오류를 방지하고 KPI를 관리하십시오.
+feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 

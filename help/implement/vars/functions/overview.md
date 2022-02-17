@@ -1,10 +1,10 @@
 ---
 title: 함수 및 메서드
 description: Adobe가 구현에서 제공하는 함수와 메서드를 사용할 수 있는 방법을 알아봅니다.
+feature: Variables
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 

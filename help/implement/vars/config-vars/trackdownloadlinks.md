@@ -1,9 +1,10 @@
 ---
 title: trackDownloadLinks
 description: 다운로드 링크에 대한 자동 링크 추적을 활성화하거나 비활성화합니다.
+feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 

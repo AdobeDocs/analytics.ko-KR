@@ -1,9 +1,10 @@
 ---
 title: writeSecureCookies
 description: AppMeasurement가 Secure 속성을 사용하여 쿠키를 설정할 수 있도록 허용합니다.
+feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -27,7 +28,7 @@ ht-degree: 100%
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
+3.  [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
 4. [!UICONTROL 쿠키] 아코디언을 확장하면 [!UICONTROL 보안 쿠키 작성] 확인란이 표시됩니다.
 
 ## AppMeasurement 및 사용자 지정 코드 편집기의 s.writeSecureCookies

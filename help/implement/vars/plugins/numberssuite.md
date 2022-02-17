@@ -1,9 +1,10 @@
 ---
 title: 숫자 세트
 description: 다른 JavaScript 변수에서 사용할 숫자를 생성하고 조작합니다.
+feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 100%
 
