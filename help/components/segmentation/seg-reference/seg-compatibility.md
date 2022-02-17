@@ -1,13 +1,11 @@
 ---
 description: 세그먼트 빌더에서 만든 모든 세그먼트가 Data Warehouse와 호환되는 것은 아닙니다. 이 표에는 지원되는 기능이 표시되어 있습니다.
 title: Data Warehouse 세그먼트 기능
-feature: 세그먼테이션
-uuid: 370258c5-8614-4434-871c-41753ed77f5c
+feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '343'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -64,9 +62,9 @@ ht-degree: 100%
     <ul> 
      <li>모든 검색 페이지 등급 </li> 
      <li>오전/오후 </li> 
-     <li>날짜 </li> 
+     <li>날짜(월 기준) </li> 
      <li>요일 </li> 
-     <li>일 </li> 
+     <li>일(한 해 기준) </li> 
      <li>비즈니스 단위 입력 </li> 
      <li>입력 (입력으로 시작하는 모든 차원, 시작 페이지 제외) </li> 
      <li>종료 (종료로 시작하는 모든 차원, 종료 링크 및 종료 페이지 제외) </li> 

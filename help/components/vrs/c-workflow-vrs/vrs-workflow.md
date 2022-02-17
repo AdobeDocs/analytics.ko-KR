@@ -2,12 +2,11 @@
 description: 가상 보고서 세트 구현을 계획하는 데 필요한 단계에 대한 개요입니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 워크플로
-feature: Reports & Analytics 기본 사항
-uuid: 7039029d-f776-4491-a8d7-f1425894eb85
+feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
-workflow-type: ht
-source-wordcount: '207'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---

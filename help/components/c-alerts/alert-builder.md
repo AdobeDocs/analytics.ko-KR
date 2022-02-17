@@ -1,11 +1,10 @@
 ---
 description: Analysis Workspace에서 경고를 사용합니다.
 title: 경고 빌더
-uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
+feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -19,10 +18,10 @@ ht-degree: 100%
 
 다음 네 가지 방법 중 하나로 경고 빌더에 액세스합니다.
 
-* Analysis Workspace에서 다음의 바로 가기 사용:
+* Analysis Workspace에서 다음의 단축키 사용:
 
    `ctrl (or cmd) + shift + a`
-* **[!UICONTROL 작업 공간]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**&#x200B;로 이동.
+* **[!UICONTROL Workspace]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**&#x200B;로 이동.
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 버튼으로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**.
 * [!UICONTROL Reports &amp; Analytics] 보고서에서 **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동합니다.
 
@@ -34,13 +33,13 @@ ht-degree: 100%
 
 경고 이름을 지정합니다. 경고 이름에는 보고서 또는 지표 임계값 이름이 포함될 수 있습니다.
 
-**시간 세부기간**
+**시간 세부 기간**
 
 지표를 확인할 시기 (시간별, 일별, 주별 또는 월별)를 지정합니다.
 
 >[!NOTE]
 >
->사용자 지정 달력을 사용하는 보고서 세트에 대해, Adobe에서는 경고 빌더에서 월별 세부기간을 지원하지 않습니다.
+>사용자 지정 달력을 사용하는 보고서 세트에 대해, Adobe에서는 경고 빌더에서 월별 세부 기간을 지원하지 않습니다.
 
 **수신자**
 
@@ -88,9 +87,9 @@ ht-degree: 100%
 
 ## 경고 미리 보기 {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-대화형 경고 미리 보기에서는 경고가 과거의 경험을 기반으로 얼마나 자주 표시되는지를 근사적으로 보여 줍니다.
+대화형 경고 미리보기에서는 경고가 과거의 경험을 기반으로 얼마나 자주 표시되는지를 근사적으로 보여 줍니다.
 
-예를 들어, 시간 세부기간을 매일로 설정하는 경우, 미리 보기에서는 경고가 지난 30 또는 31일 동안 특정 지표 x 배수에 대해 트리거됨을 알 수 있습니다.
+예를 들어, 시간 세부 기간을 매일로 설정하는 경우, 미리보기에서는 경고가 지난 30 또는 31일 동안 특정 지표 x 배수에 대해 트리거됨을 알 수 있습니다.
 
 너무 많은 경고가 트리거될 것 같으면 [경고 관리자](/help/components/c-alerts/alert-manager.md)에서 임계값을 조정할 수 있습니다.
 

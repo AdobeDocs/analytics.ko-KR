@@ -2,10 +2,10 @@
 title: 시작 차원
 description: 시작 차원 및 그 사용을 나열합니다.
 keywords: 시작 페이지, 시작 사이트 섹션, 시작 서버, 시작 고객 인사이트
+feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 

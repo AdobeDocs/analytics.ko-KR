@@ -1,10 +1,10 @@
 ---
 title: 콘텐츠 속도
 description: 콘텐츠 속도는 콘텐츠가 다운스트림 콘텐츠에 미치는 영향을 측정합니다.
+feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 100%
 

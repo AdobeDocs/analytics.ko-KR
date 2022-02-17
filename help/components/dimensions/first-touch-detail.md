@@ -1,10 +1,10 @@
 ---
 title: 첫 번째 터치 채널 세부 사항
 description: 방문자의 참여 만료 내 첫 번째 마케팅 채널에 대한 세부 사항입니다.
+feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 

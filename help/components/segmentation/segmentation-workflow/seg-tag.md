@@ -1,13 +1,11 @@
 ---
 description: 세그먼트 관리자에서 세그먼트에 태깅하여 세그먼트를 구성할 수 있습니다.
 title: 세그먼트 태깅
-feature: 세그먼테이션
-uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
+feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '185'
 ht-degree: 100%
 
 ---
@@ -20,7 +18,7 @@ ht-degree: 100%
 
 * **팀 이름**&#x200B;을 기반으로 하는 태그 (예: 소셜 마케팅, 모바일 마케팅)
 * **프로젝트** 태그 (분석 태그) (예: 시작 페이지 분석)
-* **카테고리** 태그: 남성용, 지역
+* **범주** 태그: 남성용, 지역
 * **워크플로 태그: 승인용, 처리됨 (특정 비즈니스 단위)**
 
 1. 세그먼트 관리자에서 태깅할 세그먼트 옆의 확인란을 선택합니다. 세그먼트 관리 도구 모음이 표시됩니다.

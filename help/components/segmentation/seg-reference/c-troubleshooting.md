@@ -1,11 +1,10 @@
 ---
 description: 세그먼트와 관련된 문제를 해결 및 수정합니다.
 title: 세그먼테이션 문제 해결
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -13,14 +12,14 @@ ht-degree: 100%
 
 # 세그먼테이션 문제 해결
 
-## 오류: &quot;이 세그먼트에 호환하지 않는 요소&quot; {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## 오류: &quot;이 세그먼트에 호환하지 않는 요소&quot; {#incompatible}
 
 이 오류는 세그먼트에 Data Warehouse와 호환하지 않는 요소가 들어 있는 Data Warehouse 폴더에 세그먼트를 저장하려 할 때 발생합니다. 이 오류를 해결하려면 다음 중 하나를 수행하십시오.
 
 * 다른 폴더에 세그먼트 저장
 * 세그먼트에서 호환하지 않는 부분 제거 또는 변경
 
-## 왜 세그먼트가 데이터를 전혀 반환하지 않습니까? {#section_999749CBBE984142AEA49A6E68E6730A}
+## 왜 세그먼트가 데이터를 전혀 반환하지 않습니까? {#no-data}
 
 가능한 원인:
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 * 보고서가 세그먼테이션을 지원하지 않습니다.
 * 세그먼테이션 기준과 일치하는 데이터가 없습니다.
 
-## 왜 내가 세그먼트 관리자에서 만든 세그먼트가 표시되지 않습니까? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## 왜 내가 세그먼트 관리자에서 만든 세그먼트가 표시되지 않습니까? {#invisible}
 
 가능한 원인:
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 * 세그먼트가 저장되지 않았습니다.
 * IP 주소가 사용자 측에서 차단되어 있을 수 있습니다.
 
-## 세그먼트 적용 후 표시된 페이지 데이터가 왜 잘못되어 보입니까? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## 세그먼트 적용 후 표시된 페이지 데이터가 왜 잘못되어 보입니까? {#page-data}
 
 가능한 원인:
 

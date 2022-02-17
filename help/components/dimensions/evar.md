@@ -1,9 +1,10 @@
 ---
 title: eVar
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
+feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)에서 만료와 할당을 사용자 지정할 수 있습니다.
+eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다]. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 지정할 수 있습니다].
 
 사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 

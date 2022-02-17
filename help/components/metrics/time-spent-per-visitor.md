@@ -1,10 +1,10 @@
 ---
 title: 방문자당 체류 시간 (초)
 description: 방문자당 체류 시간 (초) 지표는 방문자가 방문자의 전체 라이프타임 동안 주어진 차원 항목과 상호 작용하는 평균 시간을 보여 줍니다.
+feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 

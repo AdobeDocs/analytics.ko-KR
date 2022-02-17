@@ -1,13 +1,11 @@
 ---
 description: 세그먼트를 즐겨찾기로 표시하는 것은 쉽게 사용할 수 있게 구성하는 또 다른 방법입니다.
 title: 세그먼트를 즐겨찾기로 표시
-feature: 세그먼테이션
-uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
+feature: Segmentation
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '75'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '74'
 ht-degree: 100%
 
 ---

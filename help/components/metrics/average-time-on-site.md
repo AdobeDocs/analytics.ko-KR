@@ -1,12 +1,12 @@
 ---
 title: 사이트의 평균 시간
 description: 히트 사이에 주어진 차원 항목이 존재했던 평균 시간입니다.
+feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

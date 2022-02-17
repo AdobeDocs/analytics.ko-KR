@@ -1,9 +1,10 @@
 ---
 description: 마케팅 채널 보고서를 실행하고, 보고서에 대한 제한적인 관리자 권한 및 사용자 그룹 권한을 부여하는 방법에 대해 설명합니다.
 title: 마케팅 채널 권한
+feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 

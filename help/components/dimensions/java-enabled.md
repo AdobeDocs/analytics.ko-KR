@@ -1,9 +1,10 @@
 ---
 title: Java 활성화
 description: 브라우저에서 Java가 활성화되어 있는지 여부를 결정합니다.
+feature: Dimensions
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 

@@ -2,13 +2,11 @@
 description: Adobe Analytics를 사용하여 강력한 집중 대상 세그먼트를 작성하고 관리하고 공유하고 Analytics 기능, Adobe Experience Cloud, Adobe Target 및 기타 통합 Adobe 제품을 통해 보고서에 적용할 수 있습니다.
 keywords: 세그먼테이션;세그먼트
 title: Analytics 세그먼테이션
-feature: 세그먼테이션
-uuid: 845c1743-1264-4090-bccc-78830477f52e
+feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---

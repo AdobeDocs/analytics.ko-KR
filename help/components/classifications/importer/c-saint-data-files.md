@@ -1,16 +1,14 @@
 ---
 description: 가져오기를 사용하여 분석 보고에 대한 분류 데이터를 파일로 일괄 업로드할 수 있습니다. 가져오기를 통해 데이터를 제대로 업로드하려면 특정 파일 형식이 필요합니다.
-subtopic: Classifications
 title: 분류 데이터 파일
-feature: Admin Tools
-uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
+feature: Classifications
+exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 100%
 
 ---
-
 
 # 분류 데이터 파일
 
@@ -205,5 +203,4 @@ ht-degree: 100%
 
 ## 분류 문제 해결
 
-* [일반적인 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
-
+* [일반적인 업로드 문제](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.

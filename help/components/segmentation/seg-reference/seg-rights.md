@@ -1,13 +1,11 @@
 ---
 description: 이제 관리자 수준 사용자가 사용할 수 있는 세그먼트 기능과 관리자가 아닌 사용자가 사용할 수 있는 세그먼트 기능이 크게 다릅니다.
 title: 역할별 세그먼트 권한
-feature: 세그먼테이션
-uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
+feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '134'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '133'
 ht-degree: 100%
 
 ---

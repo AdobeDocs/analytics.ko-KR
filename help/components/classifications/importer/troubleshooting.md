@@ -1,10 +1,10 @@
 ---
 title: 분류 임포터 문제 해결
 description: 분류 임포터 사용 시 발생하는 일반적인 업로드 문제
+feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 

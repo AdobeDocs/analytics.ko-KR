@@ -1,9 +1,10 @@
 ---
 title: 마케팅 채널의 처리 규칙
 description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방문자 히트가 충족하는지 여부를 결정합니다. 규칙을 통해 사이트에서 방문자가 만드는 모든 히트가 처리됩니다. 규칙이 채널에 대한 기준을 충족하지 않는 경우 또는 규칙이 올바르게 구성되지 않은 경우, 시스템이 히트를 [식별된 채널 없음]에 할당합니다.
+feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '2163'
 ht-degree: 100%
 
@@ -127,7 +128,7 @@ ht-degree: 100%
 
 자연어 검색은 비용을 지불하지 않고 검색 엔진이 사이트 등급을 지정하는 웹 검색을 통해 방문자가 웹 사이트를 찾을 때 발생합니다.
 
-Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=ko-KR)를 참조하십시오.
+Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 마케팅 채널 규칙의 경우, 자연어 검색 설정은 다음과 같습니다.
 

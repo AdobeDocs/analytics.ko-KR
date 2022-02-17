@@ -1,11 +1,10 @@
 ---
 description: 계산된 지표 관리자에서 세그먼트에 태깅하여 세그먼트를 정리할 수 있습니다.
 title: 계산된 지표에 태그 지정
-uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
+feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 * **팀 이름**&#x200B;을 기반으로 하는 태그 (예: 소셜 마케팅, 모바일 마케팅)
 * **프로젝트** 태그 (분석 태그) (예: 시작 페이지 분석)
-* **카테고리** 태그: 남성용, 지역
+* **범주** 태그: 남성용, 지역
 * **워크플로 태그: 승인용, 처리됨 (특정 비즈니스 단위)**
 
 1. 계산된 지표 관리자에서 태깅할 지표 옆의 확인란을 선택합니다. 관리 도구 모음이 표시됩니다. 

@@ -1,9 +1,10 @@
 ---
 description: A4T 및 Adobe Analytics 가상 보고서 세트를 사용할 때 특별한 고려 사항
 title: Target(A4T)용 가상 보고서 세트 및 분석
+feature: VRS
 exl-id: b81e5100-f512-4219-a8ab-5d7f6219d206
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 

@@ -1,10 +1,10 @@
 ---
 title: 페이지를 찾을 수 없음
 description: 사이트에서 오류를 반환하는 URL입니다.
+feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 

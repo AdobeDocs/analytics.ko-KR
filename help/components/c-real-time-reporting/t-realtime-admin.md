@@ -1,12 +1,11 @@
 ---
 description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
-feature: 관리 도구
-uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
+feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '300'
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
+source-wordcount: '298'
 ht-degree: 100%
 
 ---

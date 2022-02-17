@@ -1,10 +1,10 @@
 ---
 title: Analytics 차원 호환성
 description: Analytics 차원 및 보고서에 대한 참조.
+feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -110,10 +110,10 @@ ht-degree: 100%
 | 브라우저 높이 - 전체기간 | `browserheightbucketed` |
 | 브라우저 너비 - 전체기간 | `browserwidthbucketed` |
 | 일 | `daterangeday` |
-| 날짜 | `timepartdayofmonth` |
+| 날짜(월 기준) | `timepartdayofmonth` |
 | 요일 | `dayofweek` |
 | 요일 | `timepartdayofweek` |
-| 일 | `timepartdayofyear` |
+| 일(한 해 기준) | `timepartdayofyear` |
 | 마지막 방문 이후의 일 수 | `dayssincelastvisit` |
 | 시작 사용자 지정 인사이트 | `entryprops` |
 | 시작 목록 변수 | `entrylistvariables` |

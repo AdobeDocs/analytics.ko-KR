@@ -1,9 +1,10 @@
 ---
 title: 미국 주
 description: 방문자의 미국 주입니다.
+feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 Adobe 내부의 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 IP 주소를 기반으로 합니다. Adobe는 IP 주소와 국가 간에 조회를 유지 관리하기 위해 [Digital Element](https://www.digitalelement.com/)와 파트너 관계를 맺고 있습니다. 이 차원은 모든 구현에 대해 즉시 작동합니다. 
+이 차원은 Adobe 내부의 조회 규칙을 참조합니다. 조회 값은 히트와 함께 전송된 IP 주소를 기반으로 합니다. Adobe는 IP 주소와 국가 간에 조회를 유지 관리하기 위해 [Digital Element](https://www.digitalelement.com/)와 파트너 관계를 맺고 있습니다. 이 차원은 모든 구현에 대해 즉시 작동합니다.
 
 ## 차원 항목
 
@@ -25,7 +26,7 @@ ht-degree: 100%
 
 ## 보고된 위치와 실제 위치 간의 차이
 
-이 차원은 IP 주소를 기반으로 하므로 일부 시나리오는 보고된 위치와 실제 위치 간의 차이를 보여줄 수 있습니다.
+이 차원은 IP 주소를 기반으로 하므로 일부 시나리오는 보고된 위치와 실제 위치 간의 차이를 보여 줄 수 있습니다.
 
 * **기업 프록시를 나타내는 IP 주소**: 이러한 방문자는 사용자가 원격으로 근무하는 경우 실제로 다른 위치에 있을 수 있는데 사용자의 기업 네트워크에서 트래픽이 오는 것처럼 보일 수 있습니다.
 * **모바일 IP 주소**: 모바일 IP 타깃팅은 위치와 네트워크에 따라 다양한 수준에서 작동합니다. 이동통신업체 중에는 중앙 또는 지역 거점 (point of presence)을 통해 IP 트래픽을 역수송하는 곳도 많습니다.

@@ -1,9 +1,10 @@
 ---
 title: 장바구니
 description: 방문자가 장바구니에 첫 번째 제품을 추가한 히트의 수입니다.
+feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
 

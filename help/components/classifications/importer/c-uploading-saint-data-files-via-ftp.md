@@ -1,12 +1,10 @@
 ---
 description: FTP를 통해 데이터 파일을 업로드하는 방법.
-subtopic: Classifications
 title: FTP 가져오기
-feature: Admin Tools
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -20,7 +18,7 @@ FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계�
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 
-**[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**
+**[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**.
 
 다음 권장 한계를 고려해야 합니다.
 

@@ -1,10 +1,10 @@
 ---
 description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단한 계산된 지표나 복잡한 고급 계산된 지표를 빌드하고 저장할 수 있습니다.
 title: 지표 작성
-uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
+feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ ht-degree: 100%
      <li id="li_90F2312927A6499CA1CE04F8FFC912CF">표준 지표 ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
      <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">계산된 지표 ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
      <li id="li_8735E76637ED4C3F983731A66E04C93E">지표 템플릿 (<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - 목록의 맨 아래. </li> 
-    </ul> <p>마우스로 지표를 가리키면 그 오른쪽에 정보 아이콘이 표시됩니다.<img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" /> 이 아이콘을 클릭하면 다음 정보가 표시됩니다. </p> 
+    </ul> <p>마우스로 지표를 가리키면 그 오른쪽에 정보 아이콘이 표시됩니다: <img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. 이 아이콘을 클릭하면 다음 정보가 표시됩니다. </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">계산되는 방식에 대한 공식. </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">지표의 미리보기 트렌드. </li> 

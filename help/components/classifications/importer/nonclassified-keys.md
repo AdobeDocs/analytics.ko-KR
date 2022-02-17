@@ -1,13 +1,11 @@
 ---
 description: 분류되지 않는 키는 분류 보고서에 None으로 레이블이 지정된 단일 라인 항목으로 모두 그룹화됩니다. 이렇게 하면 None을 좀 더 설명적인 이름으로 바꾸는 데 유용할 수 있습니다.
-subtopic: Classifications
 title: 분류되지 않는 키
-feature: 관리 도구
-uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
+feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: f52baf97efe20b209f51108995a0620b6c19bec0
-workflow-type: ht
-source-wordcount: '256'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---

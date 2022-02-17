@@ -1,10 +1,10 @@
 ---
 title: '페이지 조회수 지표 설명 | Adobe Analytics '
 description: Adobe Analytics에서 페이지 조회수 지표가 어떻게 작동하는지 알아보고 페이지 조회수와 방문수의 차이를 파악하십시오.
+feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 

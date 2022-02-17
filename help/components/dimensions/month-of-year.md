@@ -1,10 +1,10 @@
 ---
 title: 월 (연 기준)
 description: 연도에 상관없이 그 해의 숫자 월입니다.
+feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 

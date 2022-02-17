@@ -1,9 +1,10 @@
 ---
 title: 평균 세션 길이 (모바일)
 description: 모바일 디바이스의 평균 세션 길이입니다.
+feature: Metrics
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: 참조 도메인
 description: 방문자가 사이트를 클릭스루하기 전에 있었던 중요한 도메인입니다.
+feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 

@@ -1,13 +1,14 @@
 ---
 title: Adobe Analytics 마케팅 채널 구현을 위한 모범 사례
 description: 업데이트된 Attribution IQ 및 Customer Journey Analytics와 함께 마케팅 채널을 사용하기 위한 모범 사례
-source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
-workflow-type: ht
+feature: Marketing Channels
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # Attribution IQ와 마케팅 채널 - 모범 사례
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 ## 모범 사례 #1: 통제된 분석을 위해 Attribution IQ 활용
 
-기존 마케팅 채널 속성 대신 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ko#analysis-workspace)를 사용하여 마케팅 채널 분석을 미세 조정하는 것이 좋습니다. Attribution IQ를 사용한 분석에 대한 일관성과 강력한 통제력을 보장하기 위해 다른 모범 사례에 따르십시오.
+기존 마케팅 채널 속성 대신 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)를 사용하여 마케팅 채널 분석을 미세 조정하는 것이 좋습니다. Attribution IQ를 사용한 분석에 대한 일관성과 강력한 통제력을 보장하기 위해 다른 모범 사례에 따르십시오.
 
 ![](assets/attribution.png)
 

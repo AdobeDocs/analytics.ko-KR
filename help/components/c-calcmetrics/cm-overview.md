@@ -2,10 +2,10 @@
 description: 계산 및 고급 계산 (또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다.
 keywords: 계산된 지표;파생 지표;고급 계산된 지표
 title: 계산 및 고급 계산 (파생) 지표
-uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
      <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">상세한 지표 설명을 제공할 수 있습니다(수행하는 작업, 사용할 곳, 사용하지 말아야 곳을 보여줌). </li> 
      <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">정의를 새 지표에 복사할 수 있습니다. </li> 
      <li id="li_8C21F55015D44910904202D2BF74221C">인라인 지표 미리보기를 제공할 수 있습니다. </li> 
-     <li id="li_3704F66C321C477F9D4F52E068C231BD">주어진 사용자 지정 이벤트 (지표)가 상승한다면 이것이 좋은 것인지 나쁜 것인지를 가리키는 지표 극성을 설정할 수 있습니다. </li> 
+     <li id="li_3704F66C321C477F9D4F52E068C231BD">주어진 사용자 정의 이벤트 (지표)가 상승한다면 이것이 좋은 것인지 나쁜 것인지를 가리키는 지표 극성을 설정할 수 있습니다. </li> 
      <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">지표에 태그를 지정할 수 있습니다. </li> 
     </ul> </td> 
   </tr> 

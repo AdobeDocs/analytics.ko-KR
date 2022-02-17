@@ -1,10 +1,10 @@
 ---
 description: '알아보기 '
 title: 지표 유형 및 기여도 분석
-uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -43,9 +43,9 @@ ht-degree: 100%
 |  | 히트 1 | 히트 2 | 히트 3 | 히트 4 | 히트 5 | 히트 6 | 히트 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 데이터가 전송됨 | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
-| 마지막 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
-| 첫 번째 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
-| 예제 prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| 마지막 터치 eVar | PROMO A | PROMO A | PROMO A | 프로모 B | 프로모 B | PROMO C | 10달러 |
+| 첫 번째 터치 eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | 10달러 |
+| 예제 prop | PROMO A | - | PROMO A | 프로모 B | - | PROMO C | 10달러 |
 
 이 예에서, 값 A, B, C는 히트 7에서 $10를 구매하기 전에 히트 1, 3, 4, 6에 있는 변수로 전송되었습니다. 두 번째 행에서 그러한 값은 마지막 터치 방문을 기준으로 하여 히트에서 유지됩니다. 세 번째 행은 첫 번째 터치 방문 지속성을 보여 줍니다. 마지막으로, 마지막 행은 지속성이 없는 prop에 대해 데이터가 기록되는 방식을 보여 줍니다.
 
@@ -64,10 +64,10 @@ ht-degree: 100%
 
 | 값 | 현재 마지막 터치 eVar | 현재 첫 번째 터치 eVar | 현재 Prop |
 |---|---|---|---|
-| PROMO A | $5.00 | $10.00 | $5.00 |
-| PROMO B | $3.33 | $0 | $2.50 |
-| PROMO C | $1.67 | $0 | $2.50 |
-| 합계 | $10.00 | $10.00 | $10.00 |
+| PROMO A | $5.00 | $10.00 | 5달러 |
+| 프로모 B | $3.33 | $0 | $2.50 |
+| PROMO C | $1.67 | $0 | 2.50달러 |
+| 합계 | 10달러 | 10달러 | 10달러 |
 
 **현재 선형 할당이 작동하는 방식에 대한 요약**
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 | 값 | 새로운 마지막 터치 eVar | 새로운 첫 번째 터치 eVar | 새 Prop |
 |---|---|---|---|
-| PROMO A | $5.00 | $5.00 | $5.00 |
-| PROMO B | $2.50 | $2.50 | $2.50 |
-| PROMO C | $2.50 | $2.50 | $2.50 |
-| 합계 | $10.00 | $10.00 | $10.00 |
+| PROMO A | 5달러 | 5달러 | 5달러 |
+| 프로모 B | 2.50달러 | 2.50달러 | 2.50달러 |
+| PROMO C | 2.50달러 | 2.50달러 | 2.50달러 |
+| 합계 | 10달러 | 10달러 | 10달러 |

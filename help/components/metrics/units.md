@@ -1,10 +1,10 @@
 ---
 title: 판매량
 description: 모든 주문 내에서 구매된 제품의 총 수입니다.
+feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

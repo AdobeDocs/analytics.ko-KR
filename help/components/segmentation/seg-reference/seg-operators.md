@@ -2,10 +2,9 @@
 description: 세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다.
 title: 세그먼트의 비교 연산자
 feature: Segmentation
-uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 100%
 

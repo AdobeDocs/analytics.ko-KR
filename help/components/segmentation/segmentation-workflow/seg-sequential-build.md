@@ -2,10 +2,9 @@
 description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 사용하여 작성됩니다. THEN은 하나의 세그먼트 기준이 발생하고 그 뒤에 다른 하나의 세그먼트 기준이 있음을 의미합니다. 기본적으로 순차적 세그먼트는 일치하는 모든 데이터를 식별하고 "모든 사용자 포함" 필터를 표시합니다. 순차적 세그먼트는 추가적으로 "시퀀스 이전에만" 및 "시퀀스 이후에만" 옵션을 사용하여 일치하는 항목의 하위 집합으로 필터링될 수 있습니다.
 title: 순차적 세그먼트 작성
 feature: Segmentation
-uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 

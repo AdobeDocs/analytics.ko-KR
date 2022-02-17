@@ -2,11 +2,10 @@
 description: 다음은 가상 보고서 세트 만들기를 시작하기 전에 주의해야 할 몇 가지 사항입니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
-feature: Reports & Analytics Basics
-uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
+feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 100%
 

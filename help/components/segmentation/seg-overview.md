@@ -2,10 +2,9 @@
 description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작용에 따라 방문자 하위 집합을 식별할 수 있습니다. 세그먼트는 특정 요구에 대해 작성한 다음 확인, 편집 및 다른 팀 구성원과 공유하거나 다른 Adobe 제품 및 Analytics 기능에서 사용할 수 있는 정리된 대상 인사이트로 디자인됩니다.
 title: 세그먼트 및 컨테이너 정보
 feature: Segmentation
-uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 100%
 
@@ -149,7 +148,7 @@ Country = United States + Order = True
 
 ## 순차적 세그먼트의 컨테이너 {#section_324AF503F51A4A62806151FE440F3B2E}
 
-순차적 세그먼테이션은 계층적으로 중첩된 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트] (페이지 보기 또는 기타 차원 포함)를 포함하는 동일한 기본 컨테이너를 사용합니다.
+순차적 세그먼테이션은 계층적으로 중첩된 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트](페이지 보기 또는 기타 차원 포함)를 포함하는 동일한 기본 컨테이너를 사용합니다.
 
 ![](assets/nesting_container.png)
 

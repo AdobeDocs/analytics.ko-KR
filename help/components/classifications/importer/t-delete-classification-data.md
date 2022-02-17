@@ -1,14 +1,11 @@
 ---
 description: 분류 데이터를 삭제하거나 제거하는 방법을 설명하는 단계입니다.
-subtopic: Classifications
 title: 분류 데이터 삭제
-feature: 관리 도구
-uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
+feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
@@ -48,7 +45,7 @@ ht-degree: 100%
 | 재고 SKU (eVar8) | 재고 이름 | 재고 범주 |
 | --- | --- | --- |
 | 857467 | V넥 스웨터 | 여성복 |
-| 948.203 | 발찌 | 보석 |
+| 948203 | 발찌 | 보석 |
 | 174391 | 흰색 코듀로이 바지 | `~deletekey~` |
 
 재고 범주 분류 아래에서 `~deletekey~`를 사용하면 키 값 `174391`에 대한 모든 분류 데이터가 삭제됩니다. 이렇게 되면 행이 분류되지 않은 것처럼 됩니다.

@@ -1,10 +1,10 @@
 ---
 title: 마케팅 채널
 description: 방문자의 참여 만료 내 가장 최근 마케팅 채널입니다.
+feature: Dimensions
 exl-id: c833a801-b7c6-498c-8094-1a5ad6c22fe4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 

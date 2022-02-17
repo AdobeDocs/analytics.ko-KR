@@ -1,9 +1,10 @@
 ---
 title: 차원 개요
 description: 문자열 값을 포함하는 변수입니다.
+feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 

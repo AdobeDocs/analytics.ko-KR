@@ -2,11 +2,10 @@
 description: 가상 보고서 세트 관리자를 사용하여 관리자가 가상 보고서 세트를 편집, 추가, 태그 지정, 삭제, 이름 변경, 승인, 복사, 내보내기 및 필터링할 수 있습니다. 관리자가 아닌 사용자에게는 표시되지 않습니다.
 keywords: 가상 보고서 세트
 title: 가상 보고서 세트 관리
-feature: Reports & Analytics Basics
-uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
+feature: VRS
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 

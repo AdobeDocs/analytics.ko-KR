@@ -1,10 +1,10 @@
 ---
 title: 분류 임포터 처리 시간
 description: Adobe가 분류 파일을 처리하는 데 걸리는 시간 및 처리 시간을 최소화하는 방법을 이해합니다.
+feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 

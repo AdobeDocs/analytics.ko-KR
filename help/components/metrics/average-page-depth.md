@@ -1,10 +1,10 @@
 ---
 title: 평균 페이지 깊이
 description: 차원이 존재하는 곳에 들어가는 평균 페이지 수입니다.
+feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 

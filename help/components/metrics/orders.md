@@ -1,10 +1,10 @@
 ---
 title: 주문
 description: 구매한 횟수입니다.
+feature: Metrics
 exl-id: b05abb6d-983f-43fe-80ad-a0ddf90de466
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 100%
 

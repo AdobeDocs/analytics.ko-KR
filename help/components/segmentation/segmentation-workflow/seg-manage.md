@@ -1,12 +1,11 @@
 ---
 description: 세그먼트 관리자는 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 다양한 세그먼트 처리 작업을 제공합니다.
 title: 세그먼트 관리
-feature: 세그먼테이션
-uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
+feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '426'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '425'
 ht-degree: 100%
 
 ---

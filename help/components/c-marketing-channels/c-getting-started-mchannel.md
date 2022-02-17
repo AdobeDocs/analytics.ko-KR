@@ -1,14 +1,14 @@
 ---
 title: 마케팅 채널 시작
 description: 마케팅 채널 워크플로, 자동 설정 및 템플릿 보고서 세트 설정을 여러 보고서 세트에 적용하는 방법에 대해 알아봅니다.
-translation-type: ht
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+feature: Marketing Channels
+exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
-
 
 # 마케팅 채널 시작
 
@@ -96,4 +96,3 @@ ht-degree: 100%
    1. 템플릿 보고서 세트와 하나 이상의 대상 보고서 세트를 선택합니다.
    1. **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 처리 규칙]**&#x200B;을 클릭합니다.
    1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이 단계에서 저장 버튼이 비활성화되어 있으면 규칙 중 하나를 확장하여 활성화하십시오.
-
