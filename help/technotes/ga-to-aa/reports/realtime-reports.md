@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics의 실시간 보고서
 description: Google Analytics에 익숙한 사용자에 초점을 맞춰 Adobe Analytics에서 실시간 보고서를 가져오는 방법을 알아봅니다.
+feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 

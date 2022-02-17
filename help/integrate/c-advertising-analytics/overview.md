@@ -1,9 +1,10 @@
 ---
 description: 필요한 권한, 사용 가능한 차원 및 지표를 포함하여 이 상세한 안내서에서 Advertising Analytics로 할 수 있는 모든 작업을 알아보십시오.
 title: Advertising Analytics 안내서
+feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
 
@@ -17,7 +18,7 @@ Advertising Analytics를 사용하여 Adobe Analytics 내에서 Google 및 Bing 
 >
 >Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 병합되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다.
 
-이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다.  [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
+이러한 검색 엔진의 데이터를 Adobe Analytics에 함께 가져온 후 Analysis Workspace의 기능을 사용하여 동일한 데이터를 분석할 수 있습니다. 새로 [Workspace의 유료 검색 실적](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 템플릿을 통해 이 분석을 쉽게 수행할 수 있습니다.
 
 ![](assets/aa_aw.png)
 

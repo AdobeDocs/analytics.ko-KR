@@ -2,10 +2,10 @@
 description: Adobe Analytics에서 수집하는 데이터와 기타 개인정보 보호 고려 사항 개요.
 keywords: 개인정보 보호
 title: 개인정보 보호 개요
-uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -134,7 +134,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col4"> <p>멀티채널 분석, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 

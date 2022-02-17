@@ -1,10 +1,10 @@
 ---
 description: 다중 통화 지원이 작동하도록 대상 통화 코드를 정의하는 방법을 설명합니다.
 title: 다중 통화 지원
-uuid: null
+feature: Analytics Basics
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
 

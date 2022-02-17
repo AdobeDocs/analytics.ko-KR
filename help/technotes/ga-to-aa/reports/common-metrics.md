@@ -1,10 +1,10 @@
 ---
 title: 다른 플랫폼 전환 안내서에서 자주 사용되는 지표
 description: Google Analytics 사용자에게 더 익숙한 용어를 사용하여 여러 일반 보고서의 지표 데이터를 가져오는 방법을 이해합니다.
+feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 

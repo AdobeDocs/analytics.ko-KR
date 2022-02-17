@@ -1,13 +1,14 @@
 ---
 title: 브라우저 쿠키 제안의 영향을 경감하기 위한 옵션
 description: 브라우저 쿠키 제안의 영향을 경감하여 Adobe Analytics에 대한 데이터 수집을 개선하는 방법을 알아보십시오.
-source-git-commit: 6c354a343648162ce2951c52a70a688970e1304d
-workflow-type: ht
+feature: Data Configuration and Collection
+exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
 ---
-
 
 # 브라우저 쿠키 제안의 영향을 경감하기 위한 옵션
 
@@ -37,5 +38,4 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics 및 브라우저 쿠키](cookies.md)>
-
+>[Adobe Analytics 및 브라우저 쿠키](cookies.md)

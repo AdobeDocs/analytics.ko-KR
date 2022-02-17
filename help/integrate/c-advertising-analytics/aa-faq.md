@@ -1,11 +1,10 @@
 ---
 description: Advertising Analytics에 대해 자주 묻는 질문입니다.
 title: FAQ
-uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
+feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 100%
 
@@ -124,7 +123,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: <b>디스플레이</b> 또는 <b>소셜</b>과 같은 다른 광고 채널을 포함할 계획이 있습니까? </p> </td> 
-   <td colname="col2"> <p>A: 아니요, 현재는 이러한 다른 채널에 대한 계획이 없습니다. </p> </td> 
+   <td colname="col2"> <p>A: 아니요. 현재는 이러한 다른 채널에 대한 계획이 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

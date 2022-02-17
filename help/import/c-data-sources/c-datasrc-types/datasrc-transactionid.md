@@ -1,8 +1,9 @@
 ---
 title: 거래 ID 데이터 소스
 description: 거래 ID 데이터 소스를 사용하는 일반적인 워크플로우에 대해 알아봅니다.
+feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 45%
@@ -21,11 +22,11 @@ ht-degree: 45%
 
 ## 예
 
-거래 ID 1256이 있는 온라인 히트가 전달되어 `evar1=blue`, `evar2=water` 및 `event1`가 설정된 경우, 거래 ID 1256에 대한 거래 데이터가 `evar1=blue`, `evar2=water`와 함께 저장됩니다. 트랜잭션 정보의 일부로 저장된 이벤트 값은 없습니다.
+거래 ID 1256인 온라인 히트가 이 히트에 전달되면 해당 히트가 전달됩니다 `evar1=blue`, `evar2=water` 및 `event1` 가 설정된 경우 거래 ID 1256에 대한 거래 데이터가 `evar1=blue`, `evar2=water`. 트랜잭션 정보의 일부로 저장된 이벤트 값은 없습니다.
 
-이제 데이터 소스 트랜잭션 히트가 트랜잭션 ID 1256 및 `evar1=yellow`, `evar3=mountain` 및 `event2` 세트가 있는 시스템을 통해 전달된다고 가정해 보겠습니다. 시스템은 저장된 트랜잭션 데이터를 찾고 데이터 소스 트랜잭션 히트 세트 `evar2=water` (원래 히트에서 설정된 것이기 때문에)에서 이 데이터를 찾습니다. 데이터 소스 트랜잭션 히트에 이미 `evar1`(노란색)에 대한 값이 있었으므로 `evar1=blue` (원래 히트에 있었던 것처럼)이 설정되지 않습니다.  따라서 데이터 소스 트랜잭션 히트가 발생하면 `evar1=yellow`, `evar2=water`(원래 온라인 히트에서) 및 `evar3=mountain`가 발생합니다. 이러한 3개 eVar 값에는 데이터 소스 트랜잭션 히트의 이벤트인 `event2` 세트가 있습니다.
+이제 데이터 소스 트랜잭션 히트가 트랜잭션 ID 1256과 함께 시스템을 통해 전달된다고 가정해 보겠습니다 `evar1=yellow`, `evar3=mountain` 및 `event2` 설정합니다. 시스템은 저장된 트랜잭션 데이터와 데이터 소스 트랜잭션 히트 세트에서 찾습니다 `evar2=water` (원래 히트에서 설정된 대로) 설정되지 않음 `evar1=blue` (원래 히트에 있었을 때) `evar1` (노란색)가 이미 데이터 소스 트랜잭션 히트에 설정되어 있습니다.  따라서 데이터 소스 트랜잭션 히트는 `evar1=yellow`, `evar2=water` (원본 온라인 히트에서) 및 `evar3=mountain`. 이러한 3개의 eVar 값은 `event2` 설정 - 데이터 소스 트랜잭션 히트의 이벤트입니다.
 
-데이터 소스 트랜잭션 히트가 처리될 때 데이터 소스 트랜잭션 히트의 값이 `event1` 설정됩니다.
+데이터 소스 트랜잭션 히트에서 가져올 값이 없습니다. `event1` 데이터 소스 트랜잭션 히트가 처리될 때 설정합니다.
 
 ## 거래 ID 데이터 소스의 전체 워크플로우
 

@@ -2,10 +2,10 @@
 description: 'Analytics 전체에서 AAM 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다. '
 solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
-uuid: 203925fb-f070-441c-813a-43099cb9b2b9
+feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해
 
 ![](assets/flow-aamaudiences.png)
 
-대상을 [폴아웃 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)에서도 사용할 수 있습니다.
+대상을 [폴아웃 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)에서도 사용할 수 있습니다.
 
 ## Analysis Workspace에서 벤 시각화 {#section_E78AB764FB5047148B51DC1526B0DF89}
 

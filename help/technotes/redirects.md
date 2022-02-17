@@ -1,15 +1,13 @@
 ---
 description: 리디렉션은 사용자 상호 작용 없이 브라우저를 새 위치로 지정합니다. 리디렉션은 웹 브라우저 (클라이언트측 리디렉션) 또는 웹 서버 (서버측 리디렉션)에서 실행됩니다.
 keywords: Analytics 구현
-subtopic: Redirects
 title: 리디렉션 및 별칭
-topic-fix: Developer and implementation
-uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +108,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-브라우저는 URL을 참조하여 스크립트를 작성하므로, 원래 레퍼러 정보를 전달할 리디렉션 (예: 웹 서버, 서버측 코드, 클라이언트측 코드)을 처리하는 메커니즘을 구성해야 합니다. 또한 별칭 링크 URL을 기록할 경우에도 이를 최종 랜딩 페이지로 전달해야 합니다. 현재 URL을 대체하려면 *`s_pageURL`* 변수를 사용하십시오.
+브라우저는 URL을 참조하여 스크립트를 작성하므로, 원래 레퍼러 정보를 전달할 리디렉션 (예: 웹 서버, 서버측 코드, 클라이언트측 코드)을 처리하는 메커니즘을 구성해야 합니다. 또한 별칭 링크 URL을 기록할 경우에도 이를 최종 랜딩 페이지로 전달해야 합니다. 를 사용하십시오 *`s_pageURL`* 변수를 사용하십시오.
 
 리디렉션을 구현하는 방법으로는 여러 가지가 있으므로, 웹 운영 그룹 또는 온라인 광고 파트너와 함께 확인해서 웹 사이트에서 리디렉션을 실행하는 특정 메커니즘을 식별해야 합니다.
 

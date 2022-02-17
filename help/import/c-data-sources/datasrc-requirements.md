@@ -3,12 +3,12 @@ description: 데이터 소스를 사용하기 전에 보고서 세트에 대한 
 subtopic: Data sources
 title: 요구 사항 및 업로드 제한
 topic-fix: Developer and implementation
-uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=ko-KR"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Byte Order Mark(EF BB BF)를 포함한 UTF-8 </td> 

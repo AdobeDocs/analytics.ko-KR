@@ -1,10 +1,10 @@
 ---
 title: Analysis Workspace에서 기본 보고서 만들기
 description: Google Analytics 등 타사 도구에 익숙한 사용자에 초점을 맞춘 방식으로 Analysis Workspace에서 기본 보고서를 만드는 방법을 알아봅니다.
+feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Analysis Workspace는 미리 작성된 보고서라기보다는 캔버스와 더
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
 1. 맨 위 탐색 막대에서 작업 공간을 클릭합니다.
-1. 새 프로젝트 만들기 단추를 클릭합니다.
+1. 새 프로젝트 만들기 버튼을 클릭합니다.
 1. 양식 팝업에서 &#39;빈 프로젝트&#39;가 선택되어 있는지 확인한 다음 만들기를 클릭합니다.
 1. 왼쪽에 차원, 지표, 세그먼트 및 날짜 범위 목록이 표시됩니다. 페이지 차원 (주황색으로 표시됨)을 찾아 &#39;여기에 차원 놓기&#39;라는 캔버스에 끌어서 놓습니다.
 1. 이달의 최고 페이지를 보여주는 보고서를 볼 수 있습니다. Analysis Workspace가 자동으로 보고서를 [발생 횟수](/help/components/metrics/occurrences.md) 지표로 채웁니다.

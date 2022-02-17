@@ -3,9 +3,9 @@ description: 데이터 소스는 오프라인으로 발생하는 이벤트를 �
 subtopic: Data sources
 title: 거래 및 고객 통합
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 79%
@@ -38,7 +38,7 @@ ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정
 
  -->
 
-거래 ID 기록이 활성화되어 있는지 확인하려면 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**&#x200B;로 이동합니다.
+거래 ID 기록이 활성화되어 있는지 확인하려면 다음 위치로 이동합니다. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ ClientCare가 없으면 UI에서 거래 ID를 사용/사용 안 함으로 설정
 
 고객이 온라인에서 오프라인으로 이동할 때 익명인 경우가 많습니다.
 
-거래 ID 이벤트는 방문 기여도 지표(마케팅 보고서에 표시된 것)에 포함되지 않습니다. 이것은 거래 ID 데이터가 방문과 연결되지 않지만(오프라인 이벤트는 대개 온라인 이벤트에 속하지 않으므로) 방문자와 연결되어 있기 때문입니다.
+거래 ID 이벤트는 방문 기여도 지표(마케팅 보고서에 표시됨)에 포함되지 않습니다. 이것은 트랜잭션 ID 데이터가 방문과 연결되어 있지 않기 때문입니다(오프라인 이벤트는 일반적으로 온라인 이벤트의 일부가 아님). 하지만 방문자와 연결되어 있기 때문입니다.
 
-[거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)를 참조하십시오.
+자세한 내용은 [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

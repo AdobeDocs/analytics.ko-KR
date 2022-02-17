@@ -3,9 +3,9 @@ description: 보고서 세트의 데이터 소스를 생성하고 관리하며 �
 subtopic: Data sources
 title: 데이터 소스 관리자
 topic-fix: Developer and implementation
-uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 98%
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL 관리]**   **** >  **[!UICONTROL 모든 관리]**>데이터 소스.
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**.
 
 ## 만들기 탭 {#section_74603FDA3D8842E49F1A51624A06DE20}
 

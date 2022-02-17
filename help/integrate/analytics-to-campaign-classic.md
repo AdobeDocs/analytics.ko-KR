@@ -1,8 +1,9 @@
 ---
 description: Adobe Analytics를 Adobe Campaign과 통합할 때 구현 전문가들이 따라야 하는 참조 아키텍처, 지침, 구성 단계 및 테스트에 대한 정보입니다.
 title: Analytics를 Adobe Campaign과 통합하는 방법
+feature: Campaign Integration
 exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
-source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 57%

@@ -1,10 +1,10 @@
 ---
 description: Analytics와 Audience Manager는 모두 세그먼트를 사용합니다. 그러나 Analytics 세그먼트는 Audience Manager 세그먼트와 정확히 일치하지 않습니다. 이러한 차이는 부분적으로 Analytics와 Audience Manager 보고서에서 나타나는 불일치에 기인합니다. 결과적으로 이러한 두 가지 솔루션에서 세그먼트로 작업을 시작할 때 이러한 차이점을 이해하는 것이 중요하고 유용합니다.
 title: Analytics 및 Audience Manager의 세그먼트 이해
-uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
+feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
 

@@ -2,12 +2,12 @@
 description: Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입니다.
 solution: Experience Cloud
 title: FAQ
-uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: 내 Analytics 보고서에 "대상 제한에 도달했습니다."가 표시되는 이유는 무엇입니까? (참고: 이 값은 또한 데이터 웨어하우스에서 Audience ID = -1 및 "::max_audiences_exceeded::"로 표시됩니다.)</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: 내 Analytics 보고서에 "대상 제한에 도달했습니다."가 표시되는 이유는 무엇입니까? (참고: 대상 ID = -1 및 "::max_audiences_exceeded::"(Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>기본적으로 AAM에 대한 Audience Analytics 통합은 방문자가 대상인 모든 세그먼트를 히트별로 Analytics에 보냅니다. 방문자가 한 번의 히트에서 150개 이상의 AAM 세그먼트에 속하면 <b>가장 최근에 자격을 갖춘 150개의 세그먼트</b>가 Analytics로 전송되고 나머지 목록은 잘립니다. </p> <p>세그먼트 목록이 잘렸음을 나타내는 추가 플래그가 Analytics에 전송되고, 대상 이름 차원에 "대상 제한에 도달했습니다."로 표시되고 대상 ID 차원에 "-1"로 표시됩니다. </p> <p>방문자가 특정 히트에서 150개 이상의 세그먼트에 대해 자격을 얻는 것은 거의 불가능하지만, 가끔 발생할 수 있습니다. 보고서에 "대상 제한에 도달했습니다."가 표시되면 다음 두 가지 옵션을 사용할 수 있습니다. </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>옵션 1</b>: 통합을 기본 상태로 계속 작업하면서 특정 방문자에 대해 가장 최근에 자격을 얻은 150개의 세그먼트를 전송합니다. </li> 

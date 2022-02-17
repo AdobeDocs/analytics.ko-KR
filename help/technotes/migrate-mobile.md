@@ -1,10 +1,10 @@
 ---
 description: 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션하는 방법에 대해 알아봅니다.
 title: 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션
+feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 

@@ -1,9 +1,9 @@
 ---
 title: 계정 및 보고서 세트
 description: 회사 및 보고서 세트에 로그인하여 Adobe Analytics에서 데이터 사일로를 체계적으로 관리하는 방법에 대해 알아봅니다.
+feature: Third-party Integration
 exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%

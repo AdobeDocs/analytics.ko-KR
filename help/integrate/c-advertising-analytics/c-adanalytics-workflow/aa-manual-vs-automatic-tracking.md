@@ -1,9 +1,10 @@
 ---
 description: 추적은 Adobe Analytics 구현에 따라 검색 엔진 데이터를 추적하는 방법을 결정합니다. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
 title: 추적 수동 모드 및 자동 모드
+feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 

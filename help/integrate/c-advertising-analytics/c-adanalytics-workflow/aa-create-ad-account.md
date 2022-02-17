@@ -3,10 +3,10 @@ title: Advertising Analytics에서 광고 계정을 설정하는 방법
 description: 새 광고 계정을 만들고 여러 계정을 여러 보고서 세트에 매핑할 수 있습니다.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 93%
+source-wordcount: '819'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 관리자는 새로운 광고 계정을 만들고 여러 계정�
    | --- | --- |
    | 유형 | Google AdWords 및 Microsoft Bing 광고의 2가지 옵션이 있습니다.  참고: Yahoo Gemini는 2019년 3월 31일에 Microsoft Bing에 합병되었습니다. 따라서 Yahoo Gemini 광고 계정 옵션은 더 이상 사용할 수 없습니다. |
    | 계정 이름 | 이 계정 이름을 사용자에게 맞는 이름으로 설정하도록 선택할 수 있습니다. UI에 표시되는 계정의 친숙한 이름입니다. |
-   | OAuth 토큰 | **참고:** OAuth는 액세스 위임에 대한 개방형 표준으로, 일반적으로 웹 사이트 또는 응용 프로그램에 다른 웹 사이트에 있는 해당 정보에 액세스할 권한을 부여하는 방법으로 사용되지만 암호를 제공하지 않습니다. 사용자는 타사 URL(efrontier.com)로 라우팅됩니다. Adobe는 efrontier를 사용하여 세 개의 검색 엔진 모두에 대한 OAuth 인증 프로세스를 진행합니다. Internet Explorer 11(또는 이전 버전)을 사용하는 경우 세 개의 검색 엔진에 대한 Oauth 토큰을 성공적으로 검색할 수 없습니다. 대신 다른 웹 브라우저를 사용하십시오.<p>**[!UICONTROL 검색 토큰]**&#x200B;을 클릭하면 OAuth2 인증 프로세스가 실행됩니다. 즉, 사용자의 자격 증명을 사용하여 /Google/Bing 검색 계정에 로그인하라는 메시지가 표시됩니다. 선택한 검색 엔진에 따라 프로세스가 약간 다릅니다. <ul><li>Google Adwords: Google 계정 ID를 제공합니다</li><li>Microsoft Bing: Bing 계정 ID 및 Bing 고객 ID를 제공합니다.</li></ul>이러한 ID에 대한 자세한 내용은 [계정 ID 찾기](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)를 참조하십시오. 성공적으로 로그인하면 **[!UICONTROL OAuth 토큰]** 필드 표시 **[!UICONTROL 검색됨]**. |
+   | OAuth 토큰 | **참고:** OAuth는 액세스 위임에 대한 개방형 표준으로, 일반적으로 웹 사이트 또는 응용 프로그램에 다른 웹 사이트에 있는 해당 정보에 액세스할 권한을 부여하는 방법으로 사용되지만 암호를 제공하지 않습니다. 사용자는 타사 URL(efrontier.com)로 라우팅됩니다. Adobe는 efrontier를 사용하여 세 개의 검색 엔진 모두에 대한 OAuth 인증 프로세스를 진행합니다. Internet Explorer 11(또는 이전 버전)을 사용하는 경우 세 개의 검색 엔진에 대한 Oauth 토큰을 성공적으로 검색할 수 없습니다. 대신 다른 웹 브라우저를 사용하십시오.<p>**[!UICONTROL 검색 토큰]**&#x200B;을 클릭하면 OAuth2 인증 프로세스가 실행됩니다. 자격 증명을 사용하여 Google/Bing 검색 계정에 로그인하라는 메시지가 표시됩니다. 선택한 검색 엔진에 따라 프로세스가 약간 다릅니다. <ul><li>Google Adwords: Google 계정 ID를 제공합니다</li><li>Microsoft Bing: Bing 계정 ID 및 Bing 고객 ID를 제공합니다.</li></ul>이러한 ID에 대한 자세한 내용은 [계정 ID 찾기](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)를 참조하십시오. 성공적으로 로그인하면 **[!UICONTROL OAuth 토큰]** 필드 표시 **[!UICONTROL 검색됨]**. |
 
 1. **[!UICONTROL 추적]** 섹션에서 Adobe Analytics 구현으로 검색 엔진 데이터를 추적하는 방법에 대한 정보를 제공합니다. 이 단계는 검색 엔진 데이터를 사용하여 Adobe Analytics 데이터를 적절하게 늘리는 데 필요한 단계입니다.
 다음 지침에 따라 **[!UICONTROL 추적 설정]**&#x200B;을 입력합니다.

@@ -3,12 +3,12 @@ description: 데이터 소스 사용을 준비할 수 있는 절차
 subtopic: Data sources
 title: Data Sources 사용 준비
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 데이터 소스 데이터에 대한 적절한 지표-이벤트 매핑을 결정했으면 해당 연결 데이터 소스 지표에 적절한 설명 이름으로 이벤트 이름을 변경하십시오.
 
-관리 도구 도움말의 [성공 이벤트](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
+관리 도구 도움말의 [성공 이벤트](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ko-KR)를 참조하십시오.
 
 >[!NOTE]
 >
