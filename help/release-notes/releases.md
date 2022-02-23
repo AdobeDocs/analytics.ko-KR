@@ -1,9 +1,10 @@
 ---
 description: Adobe Analytics의 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Adobe Analytics 기능 릴리스
+feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 

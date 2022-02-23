@@ -1,10 +1,10 @@
 ---
 description: '제출하는 ID가 Analytics에서 데이터 주체와 연결할 수 있는 모든 히트 데이터를 항상 포함하는 것은 아닙니다. Analytics에서는 연결된 데이터를 데이터 개인정보 보호 요청에 포함하도록 확장된 ID 세트를 만들 수 있습니다. 제출한 각 데이터 개인정보 보호 요청에 대해 선택적 매개 변수와 함께 이 옵션을 요청하여 JSON 요청에 추가할 수 있습니다. '
 title: ID 확장
-uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
+feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 100%
 

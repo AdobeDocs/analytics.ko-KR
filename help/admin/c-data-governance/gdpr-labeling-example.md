@@ -1,10 +1,10 @@
 ---
 description: 히트 데이터, 액세스 요청, 삭제 요청에 대한 데이터에 레이블을 지정하는 방법에 대한 예를 보여 줍니다.
 title: 레이블 지정의 예
-uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | **변수 이름** <br> **(네임스페이스)** | **MyProp1** <br> **(사용자)** | **방문자 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 히트 데이터 | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
+|  | 메리 | 88 | B | N | Y |
+|  | 메리 | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
+|  | 존 | 88 | E | N | U |
+|  | 존 | 44 | F | Q | V |
+|  | 존 | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
 ## 샘플 액세스 요청
@@ -75,7 +75,7 @@ ht-degree: 100%
     <td>user=Mary</td>
     <td>false</td>
     <td>사람</td>
-    <td>Mary</td>
+    <td>메리</td>
     <td>77, 88, 99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
@@ -85,8 +85,8 @@ ht-degree: 100%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>사람</td>
-    <td>Mary</td>
-    <td>77, 88, 99</td>
+    <td>메리</td>
+    <td>77,88,99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -103,8 +103,8 @@ ht-degree: 100%
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>사람</td>
-    <td>Mary</td>
-    <td>77, 88, 99</td>
+    <td>메리</td>
+    <td>77,88,99</td>
     <td>A, B, C</td>
     <td>M, N, O</td>
     <td>X, Y, Z</td>
@@ -132,7 +132,7 @@ ht-degree: 100%
     <td>true</td>
     <td>디바이스</td>
     <td>없음</td>
-    <td>55, 77</td>
+    <td>55,77</td>
     <td>없음</td>
     <td>M, P, R</td>
     <td>W, X</td>
@@ -157,56 +157,56 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>메리</td>
     <td>42</td>
     <td>A</td>
     <td>개인정보 보호-7398</td>
     <td>개인정보 보호-9152</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>메리</td>
     <td>88</td>
     <td>B</td>
     <td>N</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>메리</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
     <td>Z</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>42</td>
     <td>D</td>
     <td>개인정보 보호-1866</td>
     <td>개인정보 보호-8216</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>앨리스</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -251,35 +251,35 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
     <td>Z</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>77</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>앨리스</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -324,35 +324,35 @@ expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미
     <td>개인정보 보호-4395</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>09</td>
     <td>D</td>
     <td>개인정보 보호-8454</td>
     <td>개인정보 보호-8216</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>16</td>
     <td>E</td>
     <td>개인정보 보호-2911</td>
     <td>개인정보 보호-2930</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>존</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>앨리스</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>

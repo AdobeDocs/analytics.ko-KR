@@ -1,10 +1,10 @@
 ---
 description: 이 문서에서는 데이터 주체의 CCPA 액세스 및 삭제 권한을 지원하기 위해 Adobe Analytics에서 수행해야 하는 작업에 대해 설명합니다.
 title: Adobe Analytics 및 CCPA
-uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 

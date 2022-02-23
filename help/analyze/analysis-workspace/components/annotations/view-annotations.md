@@ -1,12 +1,13 @@
 ---
 title: 주석 보기
-description: Workspace에서 주석을 보는 방법
+description: 작업 영역에서 주석을 보는 방법.
 role: User, Admin
+feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 10%
+ht-degree: 78%
 
 ---
 
@@ -16,22 +17,22 @@ ht-degree: 10%
 >
 >이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
 
-주석은 단일 날짜 또는 날짜 범위에 포함되는지 여부에 따라 약간 다르게 매니페스트됩니다.
+주석은 하루 또는 날짜 범위에 따라 다소 다르게 나타납니다.
 
-## 라인 차트 또는 테이블에서 주석 보기
+## 라인 차트 또는 표에서 주석 보기
 
 | 날짜 | 모양 |
 | --- | --- |
 | **하루** | ![](assets/single-day.png) |
-| **날짜 범위** | 아이콘이 변경되고 마우스로 가리키면 날짜 범위가 나타납니다.<p>![](assets/multi-day.png)<p>테이블에서 날짜 범위의 모든 날짜에 아이콘이 표시됩니다.<p>![](assets/multi-day-table.png)<p>다음을 참조하십시오. 주석에 연결된 주석이 두 개 이상 있는 날에는 아이콘이 회색 색상이 됩니다. |
+| **날짜 범위** | 아이콘이 바뀌고 그 위로 마우스를 가져다 대면 날짜 범위가 나타납니다.<p>![](assets/multi-day.png)<p>표에서 날짜 범위의 모든 날짜에 아이콘이 나타납니다.<p>![](assets/multi-day-table.png)<p>다음 사항에 유의하십시오. 두 개 이상의 주석이 연결된 날에는 아이콘이 회색으로 표시됩니다. |
 
-## 요약 차트에 주석 보기
+## 요약 차트에서 주석 보기
 
 ![](assets/ann-summary.png)
 
 ## .pdf 파일에서 주석 보기
 
-.pdf 파일의 아이콘을 마우스로 가리키면 안 되므로 이 파일(내보내기 후)에서는 패널 하단에 설명을 제공합니다. 다음은 한 예입니다.
+.pdf 파일의 아이콘 위에 마우스를 놓을 수 없으므로 이 파일(내보낸 후)은 패널 하단에 설명 참고 사항을 제공합니다. 다음은 한 예입니다.
 
 ![](assets/ann-pdf.png)
 

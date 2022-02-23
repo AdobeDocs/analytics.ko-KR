@@ -1,10 +1,10 @@
 ---
 description: Analytics 데이터에 캡처된 ID를 이해하고 데이터 개인정보 보호 요청에 사용할 ID를 결정합니다.
 title: 레이블 지정 우수 사례
-uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
+feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 100%
 

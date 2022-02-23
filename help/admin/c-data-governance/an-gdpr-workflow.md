@@ -1,10 +1,10 @@
 ---
 description: 데이터 주체의 데이터 개인정보 보호 액세스 및 삭제 권한을 지원하기 위해 Adobe Analytics 구현을 활성화하는 절차에 대해 설명합니다.
 title: 개인정보 보호 작업 과정
-uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
+feature: Privacy
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 

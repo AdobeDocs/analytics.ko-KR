@@ -1,10 +1,10 @@
 ---
 description: Adobe Analytics에서 데이터 액세스 및 요청 삭제 방법
 title: 액세스 및 삭제 요청 제출
-uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Adobe의 [데이터 개인정보 보호 UI 포털](https://www.adobe.io/apis/exp
 
 >[!NOTE]
 >
->데이터 개인정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자(사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
+>데이터 개인정보 보호 API는 단일 요청으로 여러 사용자에 대한 배치 제출을 지원합니다. 현재는 단일 요청 JSON 파일에 1000명의 개별 사용자 (사용자당 여러 개의 ID가 있을 수 있음)로 지원이 제한됩니다.
 
 ## 샘플 JSON 요청 {#sample-json-request}
 

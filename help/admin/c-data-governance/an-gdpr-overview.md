@@ -1,10 +1,10 @@
 ---
 description: 이 문서에서는 데이터 주체의 GDPR 액세스 및 삭제 권한을 지원하기 위해 Adobe Analytics에서 수행해야 하는 작업에 대해 설명합니다.
 title: Adobe Analytics 및 GDPR
-uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 100%
 

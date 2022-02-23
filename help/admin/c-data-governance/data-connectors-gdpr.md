@@ -1,34 +1,37 @@
 ---
 description: 이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors (이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
 title: 데이터 개인 정보 보호 및 Data Connectors (Genesis)
-uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '436'
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
 
 # 데이터 개인 정보 보호 및 Data Connectors (Genesis)
 
-이 페이지에는 데이터 주체의 직접 또는 간접적으로 식별 가능한 데이터가 포함되어 있을 수 있는 Data Connectors (이전에 Genesis라고 함)의 모든 파트너 변수가 나열되어 있습니다.
+>[!NOTE]
+>
+>**2021년 8월 19일부터** Adobe는 Data Connectors 통합을 중단했습니다. 수명 종료는 모든 기술 제품에서 라이프사이클의 일부이며 Adobe는 고객과 파트너에게 최대한 원활한 전환을 제공하는 것을 목표로 하고 있습니다. 이러한 통합은 Adobe Exchange를 통해 사용할 수 있으며 계속 활용할 수 있습니다.
 
-이 정보를 사용하면 데이터 개인 정보 보호 요청을 받을 때 커넥터를 통해 가져온 직접 또는 간접적으로 식별 가능한 데이터를 식별할 수 있습니다.
+<!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 
-아래의 커넥터 통합을 사용하는 경우, 통합에서 직접 또는 간접적으로 식별 가능한 데이터를 포함할 수 있는 파트너 변수/분류를 간단히 확인할 수 있습니다.
+This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a Data Privacy request.
+
+If you are using an integration of any of the below connectors, you can simply check which partner variables/classifications in your integration may potentially contain directly identifiable data or indirectly identifiable data.
 
 >[!NOTE]
 >
->이 정보는 [레이블이 지정](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)되어야 하는 변수를 식별하는 데 도움이 되지만, [데이터 개인 정보 보호 준비](/help/admin/c-data-governance/an-gdpr-overview.md) (예: 분류 업데이트)를 위해 적절한 레이블을 적용하거나 기타 작업을 수행하는 것은 데이터 제어자인 귀하의 책임입니다.
+>This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 커넥터 이름 </th> 
-   <th colname="col2" class="entry"> 변수 </th> 
-   <th colname="col4" class="entry"> 유형 </th> 
+   <th colname="col1" class="entry"> Connector Name </th> 
+   <th colname="col2" class="entry"> Variables </th> 
+   <th colname="col4" class="entry"> Type </th> 
   </tr>
  </thead>
  <tbody> 
@@ -199,4 +202,4 @@ ht-degree: 100%
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
