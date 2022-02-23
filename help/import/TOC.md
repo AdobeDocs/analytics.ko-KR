@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 가져오기 안내서
 breadcrumb-title: 가져오기 안내서
 user-guide-description: '데이터를 일괄 방식 또는 실시간으로 외부 소스에서 Analytics로 가져옵니다. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '140'
 ht-degree: 92%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 92%
    + [거래 및 고객 통합](c-data-sources/datasrc-integrating-offline-data.md)
    + [거래 ID 및 방문자 프로필](c-data-sources/datasrc-tid-visitor-profile.md)
    + [데이터 소스 FAQ](c-data-sources/datasrc-faq.md)
++ [대량 데이터 삽입 API](bulk-data-insertion-api/bulk-data-insert.md)
 + [데이터 삽입 API](c-data-insertion-api/c-data-insertion-api.md)
 + 데이터 커넥터 {#dataconnectors}
    + [Analytics 데이터 커넥터 수명 종료](data-connectors/data-connectors-eol.md)
