@@ -4,7 +4,7 @@ description: 방문자 모니터의 해상도(픽셀 단위)입니다.
 feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
