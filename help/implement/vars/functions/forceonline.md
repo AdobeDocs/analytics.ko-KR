@@ -4,7 +4,7 @@ description: AppMeasurement의 온라인 상태를 수동으로 설정합니다.
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
 ht-degree: 100%
 
