@@ -5,7 +5,7 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 클립보드에 데이터 복사 (핫키: Ctrl + C) {#copy-data}
 
-마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 클립보드에 복사]**&#x200B;를 사용하면 Workspace에서 데이터를 빠르게 복사하여 다른 곳에 붙여넣을 수 있습니다.
+마우스 오른쪽 버튼 클릭 옵션 **[!UICONTROL 클립보드에 복사]**&#x200B;를 사용하면 작업 영역에서 데이터를 빠르게 복사하여 다른 곳에 붙여넣을 수 있습니다.
 
 * 표시된 테이블을 복사하려면 테이블 헤더를 마우스 오른쪽 버튼으로 클릭하고 **클립보드에 데이터 복사**&#x200B;를 선택합니다.
 * 데이터의 일부를 복사하려면 테이블에서 선택한 다음 > **클립보드에 데이터 복사**&#x200B;를 마우스 오른쪽 버튼으로 클릭합니다.
@@ -88,4 +88,4 @@ ht-degree: 100%
 | --- | --- |
 | 다운로드한 PDF가 한 페이지인 이유는 무엇입니까? | 현재 Workspace는 다운로드한 PDF에 페이지를 매기지 않습니다. |
 | “CSV로 항목 다운로드” 옵션을 사용하여 50,000개 이상의 항목을 내보낼 수 있습니까? | 각 다운로드에는 최대 50,000개의 차원 항목이 포함될 수 있지만 표의 정렬을 변경하여 롱테일 항목을 검색하거나 필터를 적용하여 더 많은 특정 항목을 다운로드할 수 있습니다. |
-| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어, 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR) |
+| **[!UICONTROL 시각화 복사]**&#x200B;의 기능은 무엇입니까? | **[!UICONTROL 시각화 복사]**&#x200B;는 내보내기 옵션이 아닙니다. Workspace의 한 위치에서 다른 위치로 시각화 또는 패널을 복사할 수 있습니다. 예를 들어 동일한 프로젝트의 한 패널에서 다른 패널로 또는 한 프로젝트에서 다른 프로젝트로 복사할 수 있습니다. [인트라 링크 비디오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR) |
