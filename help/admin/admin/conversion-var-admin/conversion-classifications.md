@@ -4,7 +4,7 @@ title: 전환 분류
 feature: Admin Tools
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
 ht-degree: 100%
 
