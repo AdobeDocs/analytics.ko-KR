@@ -4,7 +4,7 @@ description: 방문자가 체크아웃 프로세스를 시작한 히트의 수�
 feature: Metrics
 exl-id: 747f2244-efc6-473f-bc0c-a5898cc8a717
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
 ht-degree: 100%
 
