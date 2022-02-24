@@ -6,7 +6,7 @@ feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -40,11 +40,11 @@ Analysis Workspace에서 사용자 정의 날짜 범위를 만든 후 시간 구
 
 날짜 범위 빌더에서는 다른 날짜 범위와 함께 [구성 요소] 패널에 표시되는 사용자 정의 날짜 범위를 만들 수 있습니다.
 
-예를 들어, 1주일 전에 끝나는 7일 순환 기간을 지정하는 날짜 범위를 만들 수 있습니다.
+예를 들어 1주일 전에 끝나는 7일 순환 기간을 지정하는 날짜 범위를 만들 수 있습니다.
 
 ![](assets/create_date_range.png)
 
-Use *`rolling daily`*.
+ *`rolling daily`*.
 
 * 시작 설정은 *`current day minus 14 days`*.
 
