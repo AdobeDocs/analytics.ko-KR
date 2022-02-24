@@ -4,7 +4,7 @@ description: 동적 변수를 식별하는 문자열을 사용자 지정할 수 
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
 ht-degree: 100%
 
