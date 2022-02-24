@@ -4,7 +4,7 @@ title: 분류 규칙 - 정의
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 | 일치 그룹 | 캠페인 ID에서 위치를 분류할 수 있도록 정규 표현식이 캠페인 ID 문자에 대응하는 방식을 표시합니다. |
 | 일치 결과 | 정규 표현식과 일치하는 문자열의 각 부분을 표시합니다. |
 
-자세한 내용은 [분류 규칙의 정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md).
+ [분류 규칙의 정규 표현식](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## 테스트 페이지 {#section_EC926F97901C4E65901413F9683AA70A}
 
