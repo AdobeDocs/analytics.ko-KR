@@ -4,7 +4,7 @@ description: 방문자의 첫 방문과 첫 번째 구매 사이의 일 수입�
 feature: Dimensions
 exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
