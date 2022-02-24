@@ -4,7 +4,7 @@ title: 분류 규칙
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Rule Builder는 *분류 규칙* 목록인 *분류 규칙 세트*&#x200B;를 설�
 |---|---|---|---|
 | 다음으로 시작 | em: | Channel | 이메일 |
 | 종료 문자 | 판매 | 유형 | 판매 |
-| 다음 포함 | 2013 | 년 | 2013년 |
+| 다음 포함 | 2013 | 년 | 2013 |
 
 ## 규칙 처리 방법 {#how-rules-are-processed}
 
@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-   You can overwrite classifications when [&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+   You can overwrite classifications when [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -292,7 +292,7 @@ rule_priority.xml
 | 규칙 번호 | 규칙 유형 | 일치 | 분류 설정 | 종료 |
 |---|---|---|---|---|
 | 1 | 다음 포함 | Cowboys | 구/군/시 | Dallas |
-| 2개 | 다음 포함 | Broncos | 구/군/시 | Denver |
+| 2 | 다음 포함 | Broncos | 구/군/시 | Denver |
 
 사용자는 *`Cowboys vs. Broncos`*. 규칙 빌더가 규칙 일치에서 충돌을 발견할 경우 두 번째 규칙(Denver)에 대한 분류가 이 검색에 적용됩니다.
 
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >다음 조건이 충족될 떄에&#x200B;*만* 보고서 세트가 이 페이지에 표시됩니다.
    >
    >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
-   >
-   >   이 사전 요구 사항에 대한 자세한 내용은 [분류 규칙 세트](/help/components/classifications/crb/classification-rule-set.md)의 *변수*&#x200B;를 참조하십시오.
+      >
+      >   이 사전 요구 사항에 대한 자세한 내용은 [분류 규칙 세트](/help/components/classifications/crb/classification-rule-set.md)의 *변수*&#x200B;를 참조하십시오.
    >
    >* 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/classifications/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
 
