@@ -3,10 +3,10 @@ description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스�
 title: 네임스페이스
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * &quot;type&quot; 필드: 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값이 들어 있습니다.
 * &quot;value&quot; 필드: Analytics가 각 보고서 세트의 연관된 네임스페이스 변수에서 검색해야 하는 ID가 들어 있습니다.
 
-자세한 내용은 [Experience Cloud 개인 정보 보호 API 설명서](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)를 참조하십시오.
+자세한 내용은 [Experience Cloud 개인 정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)를 참조하십시오.
 
 ## 쿠키 ID
 
@@ -74,7 +74,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID (AAID)로 알려져 �
 
 이러한 쿠키 ID의 값 부분 형식이 해당 ID에 대해 설명된 형식을 따르지 않는 경우, 데이터 개인 정보 보호 요청은 실패하고 &quot;값이 올바르게 형식화되지 않음&quot; 오류가 발생합니다.
 
-가장 일반적으로는 이러한 JSON ID에 관련 키/값 쌍을 모두 자동으로 제공하는 새 [개인 정보 JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm)를 사용하여 이러한 쿠키 ID를 수집합니다.
+가장 일반적으로는 이러한 JSON ID에 관련 키/값 쌍을 모두 자동으로 제공하는 새 [개인 정보 JavaScript](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 사용하여 이러한 쿠키 ID를 수집합니다.
 
 이 JavaScript 코드는 위에 나열된 키/값 쌍 (네임스페이스, 유형, 값) 외에도 다른 키/값 쌍으로 JSON을 채우지만, 위에 나열된 필드가 Analytics 개인 정보 보호 처리에 가장 중요하며 일부 다른 방식으로 ID를 수집하는 경우 제공해야 하는 유일한 필드입니다.
 
