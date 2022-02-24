@@ -4,7 +4,7 @@ description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
 ht-degree: 100%
 
