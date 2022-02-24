@@ -4,7 +4,7 @@ description: 링크 추적 데이터를 쿠키 대신 세션 저장소에 저장
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
 ht-degree: 100%
 
