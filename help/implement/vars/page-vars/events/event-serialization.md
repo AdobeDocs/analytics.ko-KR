@@ -4,7 +4,7 @@ description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
