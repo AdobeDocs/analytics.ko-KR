@@ -4,7 +4,7 @@ description: 문자로 구분된 문자열에서 특정 값을 제거합니다.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
 ht-degree: 100%
 
