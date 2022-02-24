@@ -4,7 +4,7 @@ description: 글로벌 보고서 세트 사용에 대한 장점과 요구 사항
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
 ht-degree: 100%
 
