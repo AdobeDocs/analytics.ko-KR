@@ -4,7 +4,7 @@ description: 구성 변수를 사용하여 데이터를 수집하는 방법을 �
 feature: Variables
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
 ht-degree: 100%
 
