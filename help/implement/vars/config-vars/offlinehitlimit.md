@@ -4,7 +4,7 @@ description: 오프라인 추적을 위해 큐에 추가할 최대 히트 수를
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
 ht-degree: 100%
 
