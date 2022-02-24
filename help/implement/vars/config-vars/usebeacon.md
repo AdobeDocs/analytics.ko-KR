@@ -4,7 +4,7 @@ description: useBeacon을 사용하면 AppMeasurement에서 브라우저 sendBea
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
