@@ -4,7 +4,7 @@ description: 다운로드 링크로 자동 추적되는 파일 확장자를 결�
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
