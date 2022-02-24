@@ -4,7 +4,7 @@ description: URL의 쿼리 문자열 매개 변수의 값을 추출합니다.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
