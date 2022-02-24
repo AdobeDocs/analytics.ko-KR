@@ -4,7 +4,7 @@ description: 모바일 특성에 대한 조회 파일입니다.
 feature: Data Feeds
 exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
 ht-degree: 100%
 
