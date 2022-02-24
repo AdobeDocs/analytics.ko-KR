@@ -4,7 +4,7 @@ description: 문자열 값을 포함하는 변수입니다.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 
