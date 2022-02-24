@@ -4,7 +4,7 @@ description: 페이지를 로드하는 데 걸리는 시간을 추적합니다.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
