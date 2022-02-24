@@ -4,7 +4,7 @@ description: 히트의 지정 시장권 (DMA)입니다.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
