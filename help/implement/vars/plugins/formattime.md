@@ -4,7 +4,7 @@ description: 초 수를 그에 해당하는 분, 시간 등으로 변환합니�
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
 ht-degree: 100%
 
