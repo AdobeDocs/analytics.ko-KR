@@ -3,10 +3,10 @@ title: 태그에 Analytics 속성 만들기
 description: 태그를 사용하여 데이터 수집 방법을 사용자 지정할 공간을 만듭니다.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 새로 만든 태그 속성을 클릭하여 해당 설정을 입력합니다.
 1. **[!UICONTROL 확장]** 탭을 클릭한 다음 **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
-1. ID 서비스를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
+1. &#39;Experience Cloud ID 서비스&#39;를 찾은 다음 **[!UICONTROL 설치]**.
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 확장 카탈로그로 돌아가 Adobe Analytics를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 
