@@ -4,7 +4,7 @@ description: 쿠키 도메인을 결정하던 폐기된 변수입니다.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
 ht-degree: 100%
 
