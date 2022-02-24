@@ -4,7 +4,7 @@ description: 인스턴스 개체에서 다음 값을 지웁니다. 이 함수는
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 
