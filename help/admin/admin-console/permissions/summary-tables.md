@@ -4,7 +4,7 @@ description: Admin Console의 사용 가능한 Adobe Analytics Permissions을 �
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 ## Analytics 도구
 
-| Analytics 도구 | 관리 | 액세스 제어 | 보고 전용 기능 | 사용하지 않음 | 설명 |
+| Analytics 도구 | 관리 | Access Controls | 보고 전용 기능 | 사용하지 않음 | 설명 |
 | --- | --- | --- | --- | --- | --- |
 | 코드 관리자 | x |  |  |  | 기존 용도로 계속 사용할 수 있습니다. 관리자 > 모든 관리자 > 코드 관리자에 대한 액세스 권한을 부여합니다. 대부분의 경우 데이터 수집 UI에 포함된 라이브러리를 대신 사용합니다. |
 | 코드 관리자 - 웹 서비스 | x |  |  |  | 1.4 API를 통해 코드 관리자에 대한 액세스 권한을 부여합니다. |
