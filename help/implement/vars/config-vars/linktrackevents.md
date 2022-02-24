@@ -4,7 +4,7 @@ description: 링크 추적 이미지 요청에 포함할 이벤트를 결정합�
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
