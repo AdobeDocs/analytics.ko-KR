@@ -4,7 +4,7 @@ title: 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이�
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
 ht-degree: 100%
 
