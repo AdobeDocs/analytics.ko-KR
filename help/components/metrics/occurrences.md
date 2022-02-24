@@ -4,7 +4,7 @@ description: 변수가 설정되었거나 지속된 히트의 수입니다.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
