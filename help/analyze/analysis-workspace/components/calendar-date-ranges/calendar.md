@@ -5,7 +5,7 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
 ht-degree: 100%
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
-달력 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용할 수 있는 옵션도 있습니다. Workspace에서 날짜 범위를 클릭하면 인터페이스에 현재 달력 월과 이전 달력 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 달력을 조정할 수 있습니다.
+달력 선택 사항은 패널 수준에서 적용되지만, 모든 패널에 적용할 수 있는 옵션도 있습니다. 작업 영역에서 날짜 범위를 클릭하면 인터페이스에 현재 달력 월과 이전 달력 월이 표시됩니다. 각 상단 모서리에서 오른쪽 및 왼쪽 화살표를 클릭하여 이러한 두 개의 달력을 조정할 수 있습니다.
 
 ![달력](assets/aw_calendar.png)
 
 달력에서 처음 클릭하면 날짜 범위 선택이 시작됩니다. 두 번째 클릭을 수행하면 날짜 범위 선택이 완료되고 강조 표시됩니다. `Shift` 키를 누르고 있거나 마우스 오른쪽 버튼 클릭을 사용하면 현재 선택한 범위에 추가됩니다.
 
-사용자는 날짜(및 시간 차원)를 작업 공간 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
+사용자는 날짜(및 시간 차원)를 작업 영역 프로젝트에 드래그하여 놓을 수도 있습니다. 특정, 날, 주, 달, 연도 또는 연속 날짜를 지정할 수 있습니다.
 
 [Analysis Workspace에서 날짜 범위 및 달력 사용](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=ko-KR) (4:07)
 
