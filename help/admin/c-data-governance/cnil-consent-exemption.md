@@ -4,7 +4,7 @@ title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입�
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
 ht-degree: 100%
 
