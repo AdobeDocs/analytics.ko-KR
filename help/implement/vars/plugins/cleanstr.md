@@ -4,7 +4,7 @@ description: 문자열에서 모든 불필요한 문자를 제거하거나 바�
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
 ht-degree: 100%
 
