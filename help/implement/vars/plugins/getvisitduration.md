@@ -4,7 +4,7 @@ description: 지금까지 방문자가 사이트에서 보낸 시간을 추적�
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
