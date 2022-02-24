@@ -4,7 +4,7 @@ description: 방문에서 차원 항목이 변경되지 않은 횟수입니다.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
 ht-degree: 100%
 
