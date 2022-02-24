@@ -4,7 +4,7 @@ description: 일반적으로 여러 디바이스를 사용하는 고유한 개�
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
 ht-degree: 100%
 
