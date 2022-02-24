@@ -4,7 +4,7 @@ description: 보고에 사용할 목록 변수를 만들고 구성합니다.
 feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
 ht-degree: 100%
 
