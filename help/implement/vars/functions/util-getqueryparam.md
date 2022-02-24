@@ -4,7 +4,7 @@ description: 쿼리 문자열 매개 변수의 값을 반환합니다.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
 ht-degree: 100%
 
