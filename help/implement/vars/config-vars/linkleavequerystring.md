@@ -4,7 +4,7 @@ description: 링크 추적 차원에 쿼리 문자열을 유지할 수 있습니
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
