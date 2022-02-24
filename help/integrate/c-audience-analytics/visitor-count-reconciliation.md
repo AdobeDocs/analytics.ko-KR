@@ -4,7 +4,7 @@ title: 방문자 수 차이
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Analytics 및 Adobe Audience Manager에는 유사한 정의가 있지만, 
    <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 멤버였던 디바이스(Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: 실시간 세그먼트 채우기</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko-KR"  > AAM: 실시간 세그먼트 채우기</a> </p> </td> 
    <td colname="col3"> <p>전환 확인 기간 동안 세그먼트 멤버였으며, 속성을 방문한 디바이스(Experience Cloud ID)의 개수입니다. </p> </td> 
   </tr> 
   <tr> 
