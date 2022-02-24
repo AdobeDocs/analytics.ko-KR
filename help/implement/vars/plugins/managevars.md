@@ -4,7 +4,7 @@ description: 한 번에 두 개 이상의 Analytics 변수 값을 변경합니�
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
 ht-degree: 100%
 
