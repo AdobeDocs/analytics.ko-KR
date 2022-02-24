@@ -5,7 +5,7 @@ title: Analytics에서 대상 데이터 사용
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해
 
 ![](assets/flow-aamaudiences.png)
 
-대상을 [폴아웃 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)에서도 사용할 수 있습니다.
+대상을 [폴아웃 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)에서도 사용할 수 있습니다.
 
 ## Analysis Workspace에서 벤 시각화 {#section_E78AB764FB5047148B51DC1526B0DF89}
 
