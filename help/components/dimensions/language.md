@@ -4,7 +4,7 @@ description: 브라우저의 기본 언어 설정입니다.
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
 ht-degree: 100%
 
