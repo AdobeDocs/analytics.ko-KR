@@ -5,7 +5,7 @@ title: 가상 보고서 세트 관리
 feature: VRS
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
