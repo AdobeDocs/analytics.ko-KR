@@ -4,7 +4,7 @@ description: AJAX를 사용하여 Adobe Analytics를 구현하는 방법을 알�
 feature: Implementation Basics
 exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
