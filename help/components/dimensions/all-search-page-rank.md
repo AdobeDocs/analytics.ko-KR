@@ -4,7 +4,7 @@ description: 방문자가 사이트에 도달하기 위해 클릭한 검색 엔�
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
