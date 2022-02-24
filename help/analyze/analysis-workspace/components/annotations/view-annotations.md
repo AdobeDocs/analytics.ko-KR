@@ -4,10 +4,10 @@ description: 작업 영역에서 주석을 보는 방법.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 78%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 | 날짜 | 모양 |
 | --- | --- |
 | **하루** | ![](assets/single-day.png) |
-| **날짜 범위** | 아이콘이 바뀌고 그 위로 마우스를 가져다 대면 날짜 범위가 나타납니다.<p>![](assets/multi-day.png)<p>표에서 날짜 범위의 모든 날짜에 아이콘이 나타납니다.<p>![](assets/multi-day-table.png)<p>다음 사항에 유의하십시오. 두 개 이상의 주석이 연결된 날에는 아이콘이 회색으로 표시됩니다. |
+| **날짜 범위** | 아이콘이 바뀌고 그 위로 마우스를 가져다 대면 날짜 범위가 나타납니다.<p>![](assets/multi-day.png)<p>표에서 날짜 범위의 모든 날짜에 아이콘이 나타납니다.<p>![](assets/multi-day-table.png)<p>다음을 참조하십시오. 주석에 연결된 주석이 두 개 이상 있는 날에는 아이콘이 회색 색상으로 표시됩니다. |
 
 ## 요약 차트에서 주석 보기
 
