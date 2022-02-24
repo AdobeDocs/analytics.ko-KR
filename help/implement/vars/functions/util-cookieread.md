@@ -4,7 +4,7 @@ description: 쿠키에 사용할 값을 가져옵니다.
 feature: Variables
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
