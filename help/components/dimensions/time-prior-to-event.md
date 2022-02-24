@@ -4,7 +4,7 @@ description: 방문의 첫 번째 히트와 지표 사이의 시간입니다.
 feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
