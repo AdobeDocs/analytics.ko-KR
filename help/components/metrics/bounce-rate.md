@@ -4,7 +4,7 @@ description: 여러 항목에 대해 정확히 하나의 히트가 있는 방문
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '77'
 ht-degree: 100%
 
