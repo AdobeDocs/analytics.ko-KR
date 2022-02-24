@@ -4,7 +4,7 @@ description: 계정 변수를 사용하여 보낸 데이터를 받을 보고서 
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
 ht-degree: 100%
 
