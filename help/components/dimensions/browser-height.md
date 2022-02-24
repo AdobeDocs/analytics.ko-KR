@@ -4,7 +4,7 @@ description: 브라우저 창의 높이(픽셀 단위)입니다.
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
 ht-degree: 100%
 
