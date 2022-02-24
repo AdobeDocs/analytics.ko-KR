@@ -4,7 +4,7 @@ title: Target(A4T)용 가상 보고서 세트 및 분석
 feature: VRS
 exl-id: b81e5100-f512-4219-a8ab-5d7f6219d206
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
