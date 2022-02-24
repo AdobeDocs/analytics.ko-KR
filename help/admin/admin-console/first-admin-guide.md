@@ -4,7 +4,7 @@ description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
 ht-degree: 100%
 
