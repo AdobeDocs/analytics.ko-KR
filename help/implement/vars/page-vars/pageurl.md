@@ -4,7 +4,7 @@ description: 사이트에서 자동으로 수집된 페이지 URL을 무시합�
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
 
