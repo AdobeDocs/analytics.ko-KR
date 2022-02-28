@@ -3,10 +3,10 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
-user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다. FTP와 SFTP를 사용하여 컴퓨터와 서버 간에 파일을 전송하는 방법에 대해 알아봅니다.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '303'
 ht-degree: 96%
 
 ---

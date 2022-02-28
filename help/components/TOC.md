@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
-user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트 및 경고와 같은 구성 요소를 사용하여 데이터를 구성하는 데 도움이 됩니다.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 경고, 마케팅 채널, 분류와 같은 구성 요소를 사용하여 데이터를 관리하고 교차 장치 분석에 대해 학습하는 데 도움이 됩니다.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 99%
+source-wordcount: '674'
+ht-degree: 95%
 
 ---
 
