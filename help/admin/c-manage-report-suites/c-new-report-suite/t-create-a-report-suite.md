@@ -3,10 +3,10 @@ description: Adobe Analytics에서 데이터 수집을 위한 기본 컨테이�
 title: 보고서 세트 만들기
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 66%
+source-wordcount: '318'
+ht-degree: 59%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 66%
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 새로 만들기]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
-1. 보고서 세트의 설정을 복사하려면 템플릿 목록에서 미리 정의된 템플릿이나 [템플릿](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)으로 사용할 기존 보고서 세트를 선택합니다.
+1. 사전 정의된 템플릿이나 로 사용할 기존 보고서 세트를 선택합니다. [템플릿](../c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
    >
    >설정만 복사할 수 있고 데이터는 복사할 수 없습니다. 고객 지원에서 설정을 복사하는 경우 관련된 위험에 대해 고객 지원에서 제공하는 면책조항에 대한 서면 확인서를 제공해야 합니다. 자세한 내용은 [소스 보고서 세트에서 복사되지 않은 설정](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)을 참조하십시오.
 
-1. [새 보고서 세트](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)에 설명된 필드를 채웁니다.
+1. [새 보고서 세트](../c-new-report-suite/new-report-suite.md)에 설명된 필드를 채웁니다.
 1. **[!UICONTROL 보고서 세트 만들기]**&#x200B;를 클릭합니다.
 
 보고서 세트 ID의 최대 길이는 40바이트입니다. 보고서 세트의 친숙한 이름은 최대 255바이트입니다.
@@ -41,10 +41,6 @@ ht-degree: 66%
 
 이는 계정에 Analytics에 대한 올바른 권한이 부여되지 않았음을 의미합니다. 조직의 시스템 수준 관리자와 함께 Adobe Analytics에 액세스할 수 있는 충분한 권한이 있는 프로필에 속해 있는지 확인합니다.
 
-**Adobe Analytics에 로그인하면 &#39;Adobe Analytics에 오신 것을 환영합니다.&#39; 팝업과 드롭다운이 표시되지 않습니다.**
-
-를 통해 로그인했는지 확인합니다. [Experience Cloud](https://experience.adobe.com)및 my.omniture.com을 통해서가 아닙니다. my.omniture.com을 통해 로그인한 사용자는 보고서 세트 설정 마법사를 사용할 수 없습니다.
-
 ## 다음 단계
 
-[Adobe Analytics 태그 속성 만들기 ](/help/implement/launch/create-analytics-property.md): Analytics 구현을 관리할 영역 만들기
+[Adobe Analytics 태그 속성 만들기](/help/implement/launch/create-analytics-property.md): Analytics 구현을 관리할 영역을 만듭니다.

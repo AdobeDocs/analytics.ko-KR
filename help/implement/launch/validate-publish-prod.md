@@ -3,10 +3,10 @@ title: 개발 구현 유효성 검사 및 프로덕션에 퍼블리싱
 description: Adobe Experience Platform 태그를 사용하여 Adobe Analytics를 프로덕션 환경에 배포하는 방법에 대해 알아봅니다.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 81%
 
 ---
 
@@ -14,23 +14,18 @@ ht-degree: 100%
 
 태그 라이브러리를 프로덕션에 푸시하고 나면 조직에서 Adobe Analytics를 사용하여 기본 보고서를 가져올 수 있습니다.
 
->[!NOTE]
->Adobe Experience Platform Launch는 Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. 용어 변경에 대한 통합 참고자료는 다음 [문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)를 참조하십시오.
-
 ## 전제 조건
 
 [개발 환경에 Adobe Analytics 배포](deploy-dev.md): 이 페이지를 따라 진행하려면 개발 환경에 Analytics 구현을 게시해야 합니다.
 
 ## Experience Cloud 디버거를 사용하여 개발 구현 확인
 
-Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 Chrome 플러그인입니다.
+Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 확장입니다.
 
-1. [Chrome 웹 브라우저](https://www.google.com/chrome/)를 열고 Chrome 웹 사이트에서 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)로 이동하여 확장을 설치합니다.
+1. 다음 중 하나에 대한 확장 설치 [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 [Firefox](https://addons.mozilla.org/ko-KR/firefox/addon/adobe-experience-platform-dbg/).
 2. 태그 작업을 수행한 개발 웹 사이트로 이동합니다.
-3. Chrome의 오른쪽 위에 있는 Adobe Experience Cloud Debugger 아이콘을 클릭합니다.
-4. 모든 사항이 올바르게 구현되면 Adobe Analytics 내 콘텐츠, 태그, Adobe Experience Cloud 방문자 ID 서비스가 표시됩니다.
-
-![디버거][assets/debugger.png]
+3. 브라우저에서 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
+4. 모든 것이 제대로 구현된 경우 Adobe Analytics, 태그 및 Adobe Experience Cloud 방문자 ID 서비스 내에 콘텐츠가 표시됩니다.
 
 ## 스테이징/프로덕션에 개발 구현 배포
 
@@ -45,7 +40,7 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 1. 다시 한 번 라이브러리에서 드롭다운을 클릭한 뒤 **[!UICONTROL 승인하여 퍼블리싱하기]**&#x200B;를 선택합니다.
 1. 이번엔 [!UICONTROL 승인됨] 열에서 한 번 더 라이브러리의 드롭다운을 클릭하고 **[!UICONTROL 작성 및 프로덕션에 퍼블리싱하기]**&#x200B;를 선택합니다.
 1. 환경 탭으로 이동한 다음 **[!UICONTROL 프로덕션 환경]**&#x200B;을 클릭합니다.
-1. 프로덕션 머리글 + 바닥글 코드를 복사하여 웹 사이트 소유자에게 제공합니다. 사이트의 프로덕션 환경에서 이 코드를 구현하도록 요청합니다.
+1. 프로덕션 설치 코드를 복사하여 웹 사이트 소유자에게 제공합니다. 사이트의 프로덕션 환경에서 이 코드를 구현하도록 요청합니다.
 
 ## 프로덕션 구현 확인
 
@@ -63,7 +58,7 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 * 콘솔에 JavaScript 오류가 없습니다. 조직의 웹 사이트 소유자와 함께 모든 JS 오류가 해결되었는지 확인합니다.
 * 헤더 코드가 올바르게 구현됨: 헤더 코드가 `<head>` 태그 내에 있고 파일이 있는지 확인합니다.
 * AppMeasurement 라이브러리가 있음: JS 소스로 직접 이동하여 JS 파일에 코드가 포함되어 있는지 확인합니다. 코드가 포함되어 있지 않으면 각 환경이 만들어졌는지, 라이브러리가 각각의 환경에 게시되었는지 확인합니다.
-* 플러그인 방해: 일부 Chrome 플러그인으로 인해 이미지 요청이 실행되지 않을 수도 있습니다. Adobe 서버로 데이터가 전송되지 않도록 하는 플러그인을 비활성화합니다.
+* 확장 간섭: 광고 차단기와 같은 일부 확장은 이미지 요청이 실행되지 않도록 할 수 있습니다. Adobe으로 데이터가 전송되지 않도록 하는 확장을 비활성화합니다.
 
 ## 다음 단계
 
