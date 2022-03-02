@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 77a83fdb8d805f8a3ca6128a9a0d3628833eb863
+source-git-commit: e07f51764c6eeaccb56ce44df4a102e43fd44384
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2022년 2월)
 
-**마지막 업데이트 날짜**: 2022년 2월 25일
+**마지막 업데이트**: 2022년 3월 2일
 
 [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트에 대해 알아봅니다. Experience League에서 최신 자가 진단 설명서 튜토리얼 및 과정을 살펴보십시오.
 
@@ -39,11 +39,11 @@ AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN-
 
 ## [!DNL Analytics] 관리자에 대한 중요 공지
 
-**업데이트 날짜: 2022년 1월 25일**
+**업데이트 날짜: 2022년 3월 2일**
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| Analytics에서 Experience Edge를 통해 수집된 A4T 데이터를 처리하는 방법 변경 | 2022년 2월 25일 | 설정 **2022년 3월 8일**, Adobe에서는 Experience Edge를 통해 Adobe Analytics으로 전송된 일부 Target 관련 데이터를 처리하는 방법을 변경합니다. Analytics 및 Target에서 Adobe Experience Platform Web SDK를 사용할 때 일부 개인화 이벤트가에서 계산되었습니다. [!DNL Adobe Analytics] 로서의 [!UICONTROL 페이지 보기 수]. 이로 인해 페이지 보기 카운트와 추가 서버 호출이 부풀려졌습니다. 이러한 변경 사항으로 Analytics 콘텐츠가 없는 개인화 호출은 무시됩니다. A4T 데이터를 사용하는 개인화 호출은 A4T 데이터를 기록하지만 과금 가능한 서버 호출로 기록되지 않으며 페이지 보기 수 또는 링크 이벤트 지표에 영향을 주지 않습니다. |
+| Analytics에서 Experience Edge를 통해 수집된 A4T 데이터를 처리하는 방법 변경 | 2022년 2월 25일 | 설정 **2022년 3월 7일**, Adobe에서는 Experience Edge를 통해 Adobe Analytics으로 전송된 일부 Target 관련 데이터를 처리하는 방법을 변경합니다. Analytics 및 Target에서 Adobe Experience Platform Web SDK를 사용할 때 일부 개인화 이벤트가에서 계산되었습니다. [!DNL Adobe Analytics] 로서의 [!UICONTROL 페이지 보기 수]. 이로 인해 페이지 보기 카운트와 추가 서버 호출이 부풀려졌습니다. 이러한 변경 사항으로 Analytics 콘텐츠가 없는 개인화 호출은 무시됩니다. A4T 데이터를 사용하는 개인화 호출은 A4T 데이터를 기록하지만 과금 가능한 서버 호출로 기록되지 않으며 페이지 보기 수 또는 링크 이벤트 지표에 영향을 주지 않습니다. |
 | 이전에 예약된 Report Builder 작업 일시 중지 | 2022년 2월 24일 | **2022년 4월 15일 시행**, Adobe은 2년 이상 전에 만들어진 예약된 모든 Report Builder 작업을 일시 중지하려고 합니다. 특히, 이 일시 중지는 2020년 1월 31일 이전에 만들어진 모든 작업에 적용됩니다. 작업, 통합 문서 또는 데이터는 삭제되지 않습니다. 그러나 2년 이상으로 식별된 작업은 일시 중지되며 추가 예약된 작업은 전송되지 않습니다. [자세히 알아보기](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | 기존 Analytics OAuth/JWT 통합에 대한 허용 목록 EOL 확장 기능 만료 | 2022년 1월 14일 | **2022년 5월 25일**&#x200B;에 [Analytics 1.3 API, 1.4 SOAP API 및 레거시 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 허용 목록 확장 기능이 만료될 예정입니다. 이는 레거시 [!DNL Adobe Analytics] OAuth/JWT 자격 증명 추가 시간을 사용하여 클라이언트 통합을 [Adobe IMS 자격 증명](https://developer.adobe.com/console)으로 마이그레이션할 수 있도록 고객에게 제공되었던 기능입니다. 해당 만료는 필요한 IMS 마이그레이션을 완료하지 않은 [!DNL Adobe Analytics Livestream] 및 [!DNL Adobe Campaign] 고객에 영향을 주지만 이에 국한되지는 않습니다. 현재 허용 목록 확장 기능을 통해 기존 [!DNL Analytics] OAuth/JWT 자격 증명을 사용 중인 고객 및 2022년 5월 25일까지 IMS 자격 증명으로 마이그레이션을 완료하지 않은 고객은 Adobe 서비스에 액세스할 수 없게 됩니다. 라이브스트림 고객은 클라이언트 애플리케이션을 IMS 자격 증명으로 마이그레이션하는 방법에 대한 이 [지침](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)을 참조할 수 있습니다. [!DNL Campaign] 고객은 Adobe 계정 팀에 최신 버전의 [!DNL Campaign]으로의 업그레이드에 대해 문의할 수 있습니다. |
 | [!DNL Reports & Analytics]에 대한 EOL | 2022년 1월 4일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다. |
