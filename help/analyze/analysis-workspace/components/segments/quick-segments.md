@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '798'
-ht-degree: 100%
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 77%
 
 ---
 
@@ -15,15 +15,11 @@ ht-degree: 100%
 
 프로젝트에서 빠른 세그먼트를 만들어 복잡한 전체 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)를 우회할 수 있습니다. 빠른 세그먼트
 
-* 빠른 세그먼트가 생성된 프로젝트에만 적용합니다(변경 가능).
+* 적용 대상 [프로젝트 전용 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * 최대 3개의 규칙 허용.
 * 중첩 컨테이너이나 순차적 규칙을 수용하지 않습니다.
-* 여러 보고서 세트가 있는 프로젝트에서 작업합니다.
 
 빠른 세그먼트로 수행할 수 있는 작업과 완전한 구성 요소 목록 세그먼트로 수행할 수 있는 작업을 비교하려면 [여기](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)를 참조하십시오.
-
->[!IMPORTANT]
-> 빠른 세그먼트는 현재 제한적으로 테스트 중이며 2021년 10월 21일에 일반적으로 사용할 수 있습니다.
 
 ## 사전 요구 사항
 
@@ -81,14 +77,16 @@ ht-degree: 100%
 1. (선택 사항) 세그먼트 이름을 바꿉니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-세그먼트의 사이드바가 파란색 줄무늬에서 파란색으로 어떻게 바뀌는지 확인합니다. 이제 왼쪽 레일의 구성 요소 목록에 표시됩니다.
+세그먼트의 사이드바가 파란색 줄무늬에서 파란색으로 어떻게 바뀌는지 확인합니다. 이제 왼쪽 레일 구성 요소 목록에도 표시됩니다.
 
 ## 프로젝트 전용 세그먼트는 무엇입니까?
 
-프로젝트 전용 세그먼트는 빠른 세그먼트 또는 임시 작업 영역 프로젝트 세그먼트 중 하나입니다. [!UICONTROL 세그먼트 빌더]에서 해당 세그먼트를 편집하거나 여는 경우 프로젝트 전용 상자가 표시됩니다. 빌더에서 빠른 세그먼트를 적용하지만 사용할 수 있도록 설정 상자를 선택하지 않는 경우 계속 프로젝트 전용 세그먼트이지만 [!UICONTROL 빠른 세그먼트 빌더]에서는 더 이상 열 수 없습니다.
+프로젝트 전용 세그먼트는 세그먼트가 만들어진 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며 다른 사용자에게 공유할 수 없습니다. 왼쪽 레일에서 세그먼트를 만들고 저장하지 않고 데이터를 빠르게 탐색하기 위한 것입니다. 프로젝트 전용 세그먼트는 빠른 세그먼트나 [애드혹 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+
+프로젝트 전용 세그먼트가 [!UICONTROL 세그먼트 빌더]에 프로젝트 전용 알림이 표시됩니다. &quot;이 세그먼트를 사용할 수 있도록 설정..&quot;을 선택하지 않으면 을(를) 클릭합니다. **[!UICONTROL 적용]**&#x200B;로 지정하는 경우 세그먼트는 프로젝트 전용 세그먼트로 유지됩니다. 참고: 세그먼트 빌더에서 빠른 세그먼트를 적용하는 경우에는 더 이상 [!UICONTROL 빠른 세그먼트 빌더].
 
 ![프로젝트 전용이 선택되지 않음](assets/project-only-unchecked.png)
 
-확인란을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭하면 이제 구성 요소 목록의 세그먼트가 됩니다.
+&quot;이 세그먼트를 사용할 수 있도록 설정..&quot;을 선택하는 경우 을(를) 클릭합니다. **[!UICONTROL 저장]**&#x200B;를 입력하면 왼쪽 레일 구성 요소 목록에서 세그먼트를 사용할 수 있게 되어 다른 프로젝트에서 사용할 수 있습니다. 세그먼트 관리자의 다른 사용자와 공유할 수도 있습니다.
 
 ![프로젝트 전용이 선택됨](assets/project-only-checked.png)
