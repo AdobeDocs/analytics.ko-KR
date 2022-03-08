@@ -2,27 +2,48 @@
 description: 랜딩 페이지는 Analysis Workspace와 Reports & Analytics를 Workspace umbrella 하의 단일 인터페이스와 액세스 포인트에 통합하는 방법을 설명합니다.
 title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
+feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
-workflow-type: ht
-source-wordcount: '3236'
-ht-degree: 100%
+source-git-commit: ec11508218082b62fffa7541662a1e12ae5245d9
+workflow-type: tm+mt
+source-wordcount: '3582'
+ht-degree: 84%
 
 ---
 
 # Adobe Analytics의 랜딩 페이지
 
-Adobe Analytics의 랜딩 페이지는 Analysis Workspace와 Reports &amp; Analytics를 Workspace umbrella 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴 및 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다.
+Adobe Analytics용 랜딩 페이지는 두 페이지를 모두 가져옵니다 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics] 단일 인터페이스 및 액세스 포인트에서 [!DNL Workspace] 우산 여기에는 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴 및 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다.
 
 >[!IMPORTANT]
 >
->2021년 7월 21일부터 이 랜딩 페이지의 오픈 베타가 시작됩니다. 시작점으로 선택할 수 있습니다. 원하는 경우 Workspace인지 보고서인지 여부와 관계없이 기존 랜딩 페이지를 사용할 수 있습니다. Beta 프로그램에 옵트인하기로 결정한 경우 페이지에 액세스하고 화면 상단의 **[!UICONTROL 피드백 제공]**&#x200B;을 클릭하여 피드백 및 발생 가능한 버그를 기록합니다. 언제든지 Beta 프로그램에서 옵트아웃했다가 다시 옵트인할 수 있습니다. Beta 사용자 인터페이스에서 수행된 모든 작업은 기존/현재 Workspace 경험으로 이어집니다.
+>이 랜딩 페이지는 현재 Open Beta에 있습니다. 시작점으로 선택할 수 있습니다. 필요한 경우 기존 랜딩 페이지를 사용할 수 있습니다. [!UICONTROL 작업 공간] 또는 [!UICONTROL 보고서]. Beta 프로그램에 옵트인하기로 결정한 경우 페이지에 액세스하고 화면 상단의 **[!UICONTROL 피드백 제공]**&#x200B;을 클릭하여 피드백 및 발생 가능한 버그를 기록합니다. 언제든지 Beta 프로그램에서 옵트아웃했다가 다시 옵트인할 수 있습니다. 베타 사용자 인터페이스에서 수행한 모든 작업은 기존/현재 로 전달됩니다 [!UICONTROL 작업 공간] 경험으로 제어됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
+## 새로운 랜딩 페이지 기능
+
+>[!NOTE]
+>
+>이러한 추가 및 변경 사항은 현재 [제한된 테스트](/help/release-notes/releases.md).
+
+| 기능 | 설명 | 스크린샷 |
+| --- | --- | --- |
+| 확장 [!UICONTROL 프로젝트] 전체 화면으로 테이블 | 표를 확장하려면 햄버거 메뉴 아이콘을 클릭하면 됩니다. 이 작업을 수행하면 왼쪽 레일 탭이 축소됩니다. | ![테이블 확장](assets/landing-collapse.png) |
+| 열 너비 사용자 지정 | 이전에는 열 너비가 수정되었습니다. 이제 열 구분 기호를 드래그하여 조정할 수 있습니다. |  |
+| 고정된 항목 재정렬 | 고정된 항목을 위아래로 이동하려면 고정된 항목 옆에 있는 줄임표를 클릭하고 를 선택합니다 **[!UICONTROL 위로 이동]** 또는 **[!UICONTROL 아래로 이동]**. | ![고정된 항목 이동](assets/move-up-down.png) |
+| 새 표 열 | 을(를) 클릭합니다. [!UICONTROL 테이블 사용자 지정] 아이콘 을 클릭하여 제품에서 사용할 수 있습니다. 새 테이블 열에는 다음이 포함됩니다. <ul><li>**[!UICONTROL 예약됨]**: 을 로 설정합니다. [!UICONTROL 설정] 프로젝트를 예약한 시점 또는 [!UICONTROL 해제] 그렇지 않을 때. 클릭 [!UICONTROL 설정] 링크를 통해 예약된 프로젝트에 대한 정보를 볼 수 있습니다. 다음을 수행할 수도 있습니다 [프로젝트 일정 편집](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 프로젝트 소유자인 경우</li><li>**[!UICONTROL 프로젝트 ID]**: 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다.</li><li>**[!UICONTROL 가장 긴 날짜 범위]**: 날짜 범위가 길어질수록 프로젝트 복잡성이 증가하며 처리 및 로드 시간이 늘어날 수 있습니다. </li><li>**[!UICONTROL 쿼리 수]**: 프로젝트 쿼리 수가 많을수록 프로젝트 복잡성이 증가하고 처리 및 로드 시간이 늘어날 수 있습니다.</li></ul> | ![새 열](assets/new-columns.png) |
+| 보고서를 한 번 클릭하여 엽니다 | 이전에는 두 번 클릭해야 했습니다. |  |
+| 에 대한 새 링크 **[!UICONTROL Reports &amp; Analytics]** 보고서 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL Audience]** > **[!UICONTROL 보트]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL Audience]** > **[!UICONTROL 보트 페이지]**<li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**</li></ul> | ![새 링크](assets/report-links.png) |
+| 새로운 기본 제공 보고서 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 추천]** > **[!UICONTROL 다음 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 추천]** > **[!UICONTROL 이전 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 페이지 분석]** > **[!UICONTROL 페이지 요약]**</li></ul>이러한 보고서는 [!UICONTROL 작업 공간] 형식을 지정하고 구성 및 빌드가 필요합니다. 출력은 고급 지표, 트렌드 데이터로 구성된 패널로 구성됩니다. [!UICONTROL 흐름] 시각화 등 이러한 보고서를 수정하고 차원, 차원 항목 등을 변경할 수 있습니다. 이러한 보고서는 Workspace 패널 아래의 패널로 사용할 수도 있습니다. | ![다음 페이지](assets/next-page.png) |
+| **[!UICONTROL 새로 만들기]** 모달이 다시 옴 | 를 클릭하면 **[!UICONTROL 새로 만들기]** 작업 공간에서 다음 중 한 번 [!UICONTROL 빈 프로젝트] 그리고 [!UICONTROL 빈 모바일 스코어카드]. 회사에서 만든 템플릿 중에서 선택할 수도 있습니다. | ![새로 만들기](assets/create-new.png) |
+| CJA에서도 사용 가능 | 수정된 양식으로 이 랜딩 페이지를 CJA에서도 사용할 수 있습니다. |  |
+
+{style=&quot;table-layout:auto&quot;}
+
 ## 랜딩 페이지 액세스 {#access-landing}
 
-Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTROL 새 랜딩 페이지 - Beta] 토글 버튼을 활성화합니다. 토글 버튼에 대한 액세스는 회사별이 아니라 조직당 사용자별로 다릅니다.
+Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTROL 새 랜딩 페이지 - Beta] 토글 버튼을 활성화합니다. 전환 단추에 대한 액세스는 회사별로 다르며 조직별로 다릅니다.
 
 ![랜딩](assets/landing.png)
 
@@ -36,8 +57,8 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 ### 용어
 
 * **[!UICONTROL 프로젝트]**&#x200B;는 사용자가 빌드했거나 다른 사용자가 빌드하여 해당 사용자와 공유한 것입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
-* **[!UICONTROL 보고서]**&#x200B;는 Reports &amp; Analytics의 보고서 및 Workspace의 템플릿과 같이 Adobe에서 미리 빌드한 모든 것을 의미합니다. [!UICONTROL 보고서]는 회사에서 사용자를 위해 빌드한 보고서 템플릿을 의미하기도 합니다.
-* **[!UICONTROL 템플릿]**&#x200B;은 더 이상 Adobe의 미리 빌드된 Workspace 프로젝트에 대한 용어로 사용되지 않습니다. 이제 [!UICONTROL 보고서] 아래에 있습니다.
+* **[!UICONTROL 보고서]**&#x200B;는 Reports &amp; Analytics의 보고서 및 Workspace의 템플릿과 같이 Adobe에서 미리 빌드한 모든 것을 의미합니다.
+* **[!UICONTROL 템플릿]**&#x200B;은 더 이상 Adobe의 미리 빌드된 Workspace 프로젝트에 대한 용어로 사용되지 않습니다. 이제 [!UICONTROL 보고서] 아래에 있습니다. 용어 [!UICONTROL 템플릿] 는 여전히 회사에서 만든 템플릿에 사용됩니다.
 
 ## [!UICONTROL 프로젝트] 탭 탐색 {#navigate-projects}
 
@@ -52,27 +73,27 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | UI 요소 | 정의 |
 | --- | --- |
 | ... 자세히 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analyze/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
-| 프로젝트 만들기 | 드롭다운 메뉴를 사용하여 [!UICONTROL Workspace 프로젝트] 또는 [!UICONTROL 모바일 프로젝트]를 만들 수 있습니다. |
-| 간단히/자세히 표시 | 배너 표시 안 함과 표시 간 전환: ![상단 배너](assets/top-banner.png) |
-| 빈 프로젝트 | 사용자가 채울 빈 [Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 만듭니다. |
-| 빈 모바일 스코어카드 | 사용자가 채울 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko-KR)를 만듭니다. |
-| 교육 튜토리얼 열기 | 단계별 방식으로 프로젝트를 빌드하도록 새 사용자를 안내하는 Workspace 교육 튜토리얼을 엽니다. |
-| 공개 릴리스 정보 | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
+| [!UICONTROL 프로젝트 만들기] | 드롭다운 메뉴를 사용하여 [!UICONTROL Workspace 프로젝트] 또는 [!UICONTROL 모바일 프로젝트]를 만들 수 있습니다. |
+| [!UICONTROL 간단히/자세히 표시] | 배너를 표시하지 않고 표시하거나 숨깁니다. ![위쪽 배너](assets/top-banner.png) |
+| [!UICONTROL 빈 프로젝트] | 사용자가 채울 빈 [Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 만듭니다. |
+| [!UICONTROL 빈 모바일 스코어카드] | 사용자가 채울 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko-KR)를 만듭니다. |
+| [!UICONTROL 교육 튜토리얼 열기] | 단계별 방식으로 프로젝트를 빌드하도록 새 사용자를 안내하는 Workspace 교육 튜토리얼을 엽니다. |
+| [!UICONTROL 공개 릴리스 정보] | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
 | 필터 아이콘 | 태그, 보고서 세트, 소유자, 유형 및 기타 필터(내 소유, 나와 공유, 즐겨찾기, 승인됨)를 필터링할 수 있습니다. |
 | 검색창 | 이제 검색에 테이블의 모든 열이 포함됩니다. |
 | 선택 상자 | 하나 이상의 프로젝트 옆에 있는 이 상자를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있습니다. |
-| 즐겨찾기 | 프로젝트를 즐겨찾기에 추가하면 별표가 표시되고 필터링할 수 있는 즐겨찾기로 태그가 지정됩니다. |
-| 이름 | 프로젝트의 이름입니다 |
+| [!UICONTROL 즐겨찾기] | 프로젝트를 즐겨찾기에 추가하면 별표가 표시되고 필터링할 수 있는 즐겨찾기로 태그가 지정됩니다. |
+| [!UICONTROL 이름] | 프로젝트의 이름입니다 |
 | 고정 아이콘 | 항목을 고정할 수 있으며 *항상* 목록의 맨 위에 나타납니다. |
 | 정보(i) 아이콘 | 정보 아이콘을 클릭하면 이 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)할 수 있는지도 나타냅니다. |
 | 줄임표(...) | 프로젝트 옆에 있는 줄임표를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있다는 점을 참고하십시오. |
-| 유형 | 이 유형이 Workspace 프로젝트인지 또는 모바일 스코어카드인지를 나타냅니다. |
-| 태그 | 보고서에 태그를 지정하여 보고서를 그룹으로 구성할 수 있습니다. |
-| 프로젝트 역할 | 프로젝트 역할은 사용자가 프로젝트 소유자인지 여부와 프로젝트 편집 또는 복제 권한이 있는지 여부를 나타냅니다. |
-| 보고서 세트 | 패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 보고서 세트에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 여러 보고서 세트를 사용할 수 있습니다. 보고서 세트 목록은 관련성을 기준으로 정렬됩니다. Adobe는 현재 사용자가 보고서 세트를 얼마나 최근에 얼마나 자주 사용했는지, 그리고 조직 내에서 보고서 세트를 얼마나 자주 사용했는지에 따라 관련성을 정의합니다. |
-| 소유자 | 프로젝트를 만든 사용자입니다. |
-| 마지막으로 연 날짜 | 사용자가 이 프로젝트를 마지막으로 열었을 때입니다. |
-| 열 선택기 | 열을 선택하거나 선택 해제하여 프로젝트 목록에서 열을 추가하거나 제거하는 작업을 수행할 수 있습니다. |
+| [!UICONTROL 유형] | 이 유형이 Workspace 프로젝트인지 또는 모바일 스코어카드인지를 나타냅니다. |
+| [!UICONTROL 태그] | 보고서에 태그를 지정하여 보고서를 그룹으로 구성할 수 있습니다. |
+| [!UICONTROL 프로젝트 역할] | 프로젝트 역할은 사용자가 프로젝트 소유자인지 여부와 프로젝트 편집 또는 복제 권한이 있는지 여부를 나타냅니다. |
+| [!UICONTROL 보고서 세트] | 패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 보고서 세트에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 여러 보고서 세트를 사용할 수 있습니다. 보고서 세트 목록은 관련성을 기준으로 정렬됩니다. Adobe는 현재 사용자가 보고서 세트를 얼마나 최근에 얼마나 자주 사용했는지, 그리고 조직 내에서 보고서 세트를 얼마나 자주 사용했는지에 따라 관련성을 정의합니다. |
+| [!UICONTROL 소유자] | 프로젝트를 만든 사용자입니다. |
+| [!UICONTROL 마지막으로 연 날짜] | 사용자가 이 프로젝트를 마지막으로 열었을 때입니다. |
+| 테이블 사용자 지정 아이콘 | (오른쪽 상단) 프로젝트 목록에서 열을 추가하거나 제거하려면 열을 선택하거나 선택 취소하여 추가할 수 있습니다. |
 | &lt;(뒤로 버튼) | Workspace 프로젝트 또는 보고서의 이 버튼을 누르면 가장 최근의 랜딩 페이지 구성으로 돌아갑니다. 랜딩 페이지를 떠났을 때의 페이지 구성이 다시 돌아올 때 유지됩니다. |
 
 ## [!UICONTROL 보고서] 탭 탐색 {#navigate-reports}
@@ -80,7 +101,7 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 [!UICONTROL 보고서] 탭은 다음과 같은 세 가지 보고서 세트를 통합합니다.
 
 * 이전에 [!UICONTROL Workspace] > [!UICONTROL 프로젝트] > [!UICONTROL 새로 만들기] 아래에 있던 미리 빌드된 [!UICONTROL Workspace] 템플릿. Adobe는 이 컨텍스트에서 “템플릿”이라는 단어를 더 이상 사용하지 않습니다.
-* 미리 작성된 대부분의 보고서 이전 Adobe Analytics [!UICONTROL 보고서] 상단 메뉴 아래에 있는 대부분의 미리 빌드된 보고서. 이러한 보고서들은 이제 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)에 표시됩니다.
+* 미리 작성된 대부분의 보고서 이전 Adobe Analytics [!UICONTROL 보고서] 상단 메뉴 아래에 있는 대부분의 미리 빌드된 보고서. 이러한 보고서들은 이제 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en)에 표시됩니다.
 * 회사에서 사용자를 위해 빌드한 모든 보고서.
 
 >[!IMPORTANT]
@@ -100,8 +121,8 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | **[!UICONTROL 가장 빈도가 높음]** | <ul><li>교육 튜토리얼(기존 Workspace 템플릿)</li><li>페이지(내 상위 페이지는 무엇입니까?)</li><li>페이지 조회수(얼마나 많은 페이지 조회수를 생성하고 있습니까?)</li><li>방문수(얼마나 많은 방문을 받고 있습니까?)</li><li>방문자수(얼마나 많은 방문자를 얻고 있습니까?)</li><li>주요 지표(내 가장 중요한 지표의 성과는 어떻습니까?)</li><li>사이트 섹션(내 사이트의 어느 섹션에서 가장 많은 페이지 조회수가 생성되었습니까?)</li><li>다음 페이지(내 방문자가 다음으로 방문하는 페이지는 무엇입니까?)</li><li>이전 페이지(내 방문자가 이전에 방문한 페이지는 무엇입니까?)</li><li>캠페인(내 주요 지표를 유도하는 캠페인은 무엇입니까?)</li><li>제품(내 주요 지표를 유도하는 제품은 무엇입니까?)</li><li>마지막 터치 채널(성과가 가장 좋은 마지막 터치 채널은 무엇입니까?)</li><li>마지막 터치 채널 세부 정보(다른 채널보다 뛰어난 성과를 보이는 특정 마지막 터치 채널은 무엇입니까?)</li><li>매출(내 매출의 성과는 어떻습니까?)</li><li>주문(내 주문의 성과는 어떻습니까?)</li><li>개수(얼마나 많은 개수를 판매하고 있습니까?)</li></ul> |
 | **[!UICONTROL 참여]** | <ul><li>주요 지표(내 가장 중요한 지표의 성과는 어떻습니까?)</li><li>페이지 조회수(얼마나 많은 페이지 조회수를 생성하고 있습니까?)</li><li>페이지(내 상위 페이지는 무엇입니까?)</li><li>방문수(얼마나 많은 방문을 받고 있습니까?)</li><li>방문자수(얼마나 많은 방문자를 얻고 있습니까?)</li><li>방문당 체류 시간(내 사용자는 방문당 얼마나 많은 시간을 소비합니까?)</li><li>이벤트 이전 시간(내 사용자는 성공 이벤트 전에 얼마나 많은 시간을 소비합니까?)</li><li>사이트 섹션(내 사이트의 어느 섹션에서 가장 많은 페이지 조회수가 생성되었습니까?)</li><li>웹 콘텐츠 사용량(어떤 콘텐츠가 가장 많이 소비되고 사용자의 관심을 끌고 있습니까?)</li><li>미디어 콘텐츠 사용량(어떤 콘텐츠가 가장 많이 소비되고 사용자의 관심을 끌고 있습니까?)</li><li>다음 및 이전 페이지 흐름(내 방문자가 선택한/선택했던 다음/이전 경로는 무엇입니까?)</li><li>폴아웃(내 디지털 속성 전체에서 어디에 폴아웃이 보입니까?)</li><li>디바이스 간 분석(Analysis Workspace에서 디바이스 간 분석 사용)</li><li>웹 유지(충성도가 높은 사용자는 누구이며 그들이 무슨 작업을 수행합니까?)</li><li>미디어 오디오 사용량(오디오 사용량의 트렌드 및 주요 지표는 무엇입니까?)</li><li>미디어 최신성, 빈도, 충성도(충성도 높은 독자는 누구입니까?)</li><li>페이지 분석 > 다시 로드(어떤 페이지가 가장 많은 다시 로드를 발생시킵니까?)</li><li>페이지 분석 > 방문당 체류 시간(내 사용자가 내 페이지에서 보내는 시간은 얼마입니까?)</li><li>시작 및 종료 > 시작 페이지(상위 시작 페이지는 무엇입니까?)</li><li>시작 및 종료 > 원래 시작 페이지(내 방문자가 원래 어떤 페이지에서 입장했습니까?)</li><li>시작 및 종료 >단일 페이지 방문(단일 페이지 방문이 가장 많이 발생한 페이지는 무엇입니까?)</li><li>시작 및 종료 > 종료 페이지(상위 종료 페이지는 무엇입니까?)</li></ul> |
 | **[!UICONTROL 전환]** | <ul><li>제품 > 제품(내 주요 지표를 유도하는 제품은 무엇입니까?)</li><li>제품 > 제품 성과(성과가 가장 좋은 제품은 무엇입니까?)</li><li>제품 > 범주(내 제품 범주 중 가장 성과가 좋은 것은 무엇입니까?)</li><li>장바구니 > 장바구니(몇 명의 사용자가 장바구니에 제품을 추가했습니까?)</li><li>장바구니 > 장바구니 보기(내 방문자가 장바구니를 본 횟수는 몇 번입니까?)</li><li>장바구니 > 장바구니 추가(사용자가 얼마나 자주 장바구니에 제품을 추가합니까?)</li><li>장바구니 > 장바구니 제거(사용자가 얼마나 자주 장바구니에 제품을 제거합니까?)</li><li>구매 > 매출(내 매출의 성과는 어떻습니까?)</li><li>구매 > 주문(내 주문의 성과는 어떻습니까?)</li><li>구매 > 개수(얼마나 많은 개수를 판매하고 있습니까?)</li><li>[Magento: 마케팅 및 상거래](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#commerce)</li></ul> |
-| **[!UICONTROL 대상]** | <ul><li>사람 지표(얼마나 많은 사람들이 내 브랜드와 상호작용하고 있습니까?)</li><li>방문자 프로필 > 위치 개요(사용자들 사이에서 가장 많은 사용량을 유도하는 위치는 어디입니까?)</li><li>방문자 프로필 > 지리적 세분화 > 지리적 카운티, 지리적 미국 주, 지리적 지역, 지리적 도시, 지리적 미국 DMA(내 사용자는 어느 지역에서 방문합니까?)</li><li>방문자 프로필 > 언어(내 사용자가 선호하는 언어는 무엇입니까?)</li><li>방문자 프로필 > 시간대(내 사용자가 방문하는 시간대는 무엇입니까?)</li><li>방문자 프로필 > 도메인(내 방문자가 내 사이트에 액세스하는 데 사용하는 ISP는 무엇입니까?)</li><li>방문자 프로필 > 최상위 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 기술 개요(사람들이 내 사이트에 액세스하는 데 사용하는 기술은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 브라우저, 브라우저 유형, 브라우저 너비, 브라우저 높이(사람들이 내 사이트에 액세스하는 데 어떤 회사의 브라우저, 브라우저 버전, 너비 및 높이를 사용하고 있습니까?)</li><li>방문자 프로필 > 기술 > 운영 체제, 운영 체제 유형(내 방문자는 어떤 OS와 버전을 사용합니까?)</li><li>방문자 프로필 > 기술 > 이동통신사(내 방문자가 내 사이트에 액세스하는 데 사용하는 이동통신사는 무엇입니까?)</li><li>방문자 유지 > 재방문 주기(내 사용자의 현재 방문과 이전 방문 사이에 시간이 얼마나 걸립니까?)</li><li>방문자 유지 > 재방문 횟수(내 방문 중 재방문 사용자가 몇 명입니까?)</li><li>방문자 유지 > 방문 횟수(내 주요 지표의 대부분을 차지하는 방문 횟수 버킷은 무엇입니까?)</li><li>방문자 유지 > 판매 주기 > 고객 충성도(내 사용자는 어떤 충성도 세그먼트에 속합니까?)</li><li>방문자 유지 > 판매 주기 > 첫 구매까지 소요된 일 수(내 사용자의 첫 방문과 첫 구매 사이에 며칠이 지났습니까?)</li><li>방문자 유지 > 판매 주기 > 마지막 구매 이후 일 수(내 사용자의 현재 방문과 마지막 구매 사이에 며칠이 지났습니까?) ).</li><li>방문자 유지 > 모바일 > 디바이스 및 디바이스 유형(내 사용자가 사용하는 디바이스와 디바이스 유형은 무엇입니까?)</li><li>방문자 유지 > 모바일 > 제조업체(내 방문자가 사용하는 모바일 디바이스 제조업체는 무엇입니까?)</li><li>방문자 유지 > 모바일 > 화면 크기, 화면 높이, 화면 너비(내 방문자의 모바일 화면 크기/높이/너비는 무엇입니까?)</li><li>방문자 유지 > 모바일 > [모바일 앱 사용 현황](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 여정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 지표](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 메시지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 성과](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 보존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li></ul> |
-| **[!UICONTROL 획득]** | <ul><li>마케팅 채널 > 첫 번째 터치 채널, 첫 번째 터치 채널 세부 정보(성과가 가장 좋은 첫 번째 터치 채널과 특정 첫 번째 터치 채널은 무엇입니까?)</li><li>마케팅 채널 > 마지막 터치 채널, 마지막 터치 채널 세부 정보(성과가 가장 좋은 마지막 터치 채널과 특정 마지막 터치 채널은 무엇입니까?)</li><li>캠페인 > 캠페인(내 주요 지표를 유도하는 캠페인은 무엇입니까?)</li><li>캠페인 > 캠페인 성과(가장 많은 매출을 창출하는 캠페인은 무엇입니까?)</li><li>캠페인 > 추적 코드(어떤 캠페인 추적 코드가 가장 성과가 좋습니까?)</li><li>[웹 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#web)</li><li>[모바일 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>[Advertising Analytics 유료 검색](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#advertising)</li><li>검색 키워드 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 키워드가 주요 지표를 가장 잘 유도합니까?)</li><li>검색 엔진 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 엔진 주요 지표를 가장 잘 유도합니까?)</li><li>전체 검색 페이지 순위(내 사용자는 어떤 검색 페이지에서 방문합니까?)</li><li>참조 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>원래 참조 도메인(내 사이트를 방문하기 전에 첫 번째 도메인 사용자는 무슨 도메인에 있었습니까?)</li><li>레퍼러(사용자가 내 사이트를 클릭하기 전에 어떤 URL을 사용했습니까?)</li><li>레퍼러 유형(내 추천 URL은 어떤 범주에 속합니까?)</li></ul> |
+| **[!UICONTROL 대상]** | <ul><li>사람 지표(얼마나 많은 사람들이 내 브랜드와 상호작용하고 있습니까?)</li><li>방문자 프로필 > 위치 개요(사용자들 사이에서 가장 많은 사용량을 유도하는 위치는 어디입니까?)</li><li>방문자 프로필 > 지리적 세분화 > 지리적 카운티, 지리적 미국 주, 지리적 지역, 지리적 도시, 지리적 미국 DMA(내 사용자는 어느 지역에서 방문합니까?)</li><li>방문자 프로필 > 언어(내 사용자가 선호하는 언어는 무엇입니까?)</li><li>방문자 프로필 > 시간대(내 사용자가 방문하는 시간대는 무엇입니까?)</li><li>방문자 프로필 > 도메인(내 방문자가 내 사이트에 액세스하는 데 사용하는 ISP는 무엇입니까?)</li><li>방문자 프로필 > 최상위 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 기술 개요(사람들이 내 사이트에 액세스하는 데 사용하는 기술은 무엇입니까?)</li><li>방문자 프로필 > 기술 > 브라우저, 브라우저 유형, 브라우저 너비, 브라우저 높이(사람들이 내 사이트에 액세스하는 데 어떤 회사의 브라우저, 브라우저 버전, 너비 및 높이를 사용하고 있습니까?)</li><li>방문자 프로필 > 기술 > 운영 체제, 운영 체제 유형(내 방문자는 어떤 OS와 버전을 사용합니까?)</li><li>방문자 프로필 > 기술 > 이동통신사(내 방문자가 내 사이트에 액세스하는 데 사용하는 이동통신사는 무엇입니까?)</li><li>방문자 유지 > 재방문 주기(내 사용자의 현재 방문과 이전 방문 사이에 시간이 얼마나 걸립니까?)</li><li>방문자 유지 > 재방문 횟수(내 방문 중 재방문 사용자가 몇 명입니까?)</li><li>방문자 유지 > 방문 횟수(내 주요 지표의 대부분을 차지하는 방문 횟수 버킷은 무엇입니까?)</li><li>방문자 유지 > 판매 주기 > 고객 충성도(내 사용자는 어떤 충성도 세그먼트에 속합니까?)</li><li>방문자 유지 > 판매 주기 > 첫 구매까지 소요된 일 수(내 사용자의 첫 방문과 첫 구매 사이에 며칠이 지났습니까?)</li><li>방문자 유지 > 판매 주기 > 마지막 구매 이후 일 수(내 사용자의 현재 방문과 마지막 구매 사이에 며칠이 지났습니까?) ).</li><li>방문자 유지 > 모바일 > 디바이스 및 디바이스 유형(내 사용자가 사용하는 디바이스와 디바이스 유형은 무엇입니까?)</li><li>방문자 유지 > 모바일 > 제조업체(내 방문자가 사용하는 모바일 디바이스 제조업체는 무엇입니까?)</li><li>방문자 유지 > 모바일 > 화면 크기, 화면 높이, 화면 너비(내 방문자의 모바일 화면 크기/높이/너비는 무엇입니까?)</li><li>방문자 유지 > 모바일 > [모바일 앱 사용 현황](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 여정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 지표](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 메시지](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 성과](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>방문자 유지 > 모바일 > [모바일 앱 보존](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li></ul> |
+| **[!UICONTROL 획득]** | <ul><li>마케팅 채널 > 첫 번째 터치 채널, 첫 번째 터치 채널 세부 정보(성과가 가장 좋은 첫 번째 터치 채널과 특정 첫 번째 터치 채널은 무엇입니까?)</li><li>마케팅 채널 > 마지막 터치 채널, 마지막 터치 채널 세부 정보(성과가 가장 좋은 마지막 터치 채널과 특정 마지막 터치 채널은 무엇입니까?)</li><li>캠페인 > 캠페인(내 주요 지표를 유도하는 캠페인은 무엇입니까?)</li><li>캠페인 > 캠페인 성과(가장 많은 매출을 창출하는 캠페인은 무엇입니까?)</li><li>캠페인 > 추적 코드(어떤 캠페인 추적 코드가 가장 성과가 좋습니까?)</li><li>[웹 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#web)</li><li>[모바일 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics 유료 검색](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#advertising)</li><li>검색 키워드 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 키워드가 주요 지표를 가장 잘 유도합니까?)</li><li>검색 엔진 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 엔진 주요 지표를 가장 잘 유도합니까?)</li><li>전체 검색 페이지 순위(내 사용자는 어떤 검색 페이지에서 방문합니까?)</li><li>참조 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>원래 참조 도메인(내 사이트를 방문하기 전에 첫 번째 도메인 사용자는 무슨 도메인에 있었습니까?)</li><li>레퍼러(사용자가 내 사이트를 클릭하기 전에 어떤 URL을 사용했습니까?)</li><li>레퍼러 유형(내 추천 URL은 어떤 범주에 속합니까?)</li></ul> |
 | **[!UICONTROL 회사 보고서]** | 회사가 사용자의 사용을 위해 만든 보고서입니다. 아래의 “회사 보고서 만들기”를 참조하십시오. |
 
 ### 템플릿 위치(이제 보고서라고 함)
@@ -183,10 +204,10 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
 
 | 질문 | 답변 |
 | --- | --- |
-| Workspace에서 자주 보는 템플릿은 어디에 있습니까? | 이러한 템플릿들은 [!UICONTROL 보고서] 탭 아래에 그룹화되어 있습니다. |
+| 여기에서 볼 때 사용하는 템플릿은 어디에 있습니까 [!UICONTROL 작업 공간]? | 이러한 템플릿들은 [!UICONTROL 보고서] 탭 아래에 그룹화되어 있습니다. |
 | Beta에서 옵트아웃할 수 있습니까? | 언제든지 Beta에서 옵트아웃할 수 있습니다. |
-| Beta 프로그램 UI에서 수행하는 작업이 프로덕션 Workspace 경험으로 이어집니까? | 예, Beta에서 수행된 모든 작업은 이전/현재 Workspace 경험으로 이어집니다. |
-| 현재 Reports &amp; Analytics 즐겨찾기가 이월됩니까? | 아니요. 이월되지 않습니다. 단, 모든 Workspace 프로젝트 즐겨찾기는 이월됩니다. |
+| 베타 프로그램 UI에서 수행하는 작업이 프로덕션에 전달됩니까 [!UICONTROL 작업 공간] 경험? | 예, 베타에서 수행한 모든 작업은 이전/최신 정보로 전달됩니다 [!UICONTROL 작업 공간] 경험으로 제어됩니다. |
+| 현재 상태입니까 [!DNL Reports & Analytics] 즐겨찾기로? | 아니요. 이월되지 않습니다. 하지만, [!UICONTROL 작업 공간] 프로젝트 즐겨찾기가 이월됩니다. |
 | 고정할 수 있는 최대 프로젝트 수가 있습니까? | 아니요. 고정할 수 있는 프로젝트 수에는 제한이 없습니다. |
-| 관리자가 사용자를 위해 이 랜딩 페이지를 지정할 수 있습니까? | 아니요. 관리자는 사용자를 대신하여 랜딩 페이지를 지정할 수 없습니다. 개별 사용자가 직접 토글을 켜야 합니다. |
-| 현재 Reports &amp; Analytics에 나타나는 모든 보고서를 계속 사용할 수 있습니까? | 아니요. 다음 보고서는 전반적인 사용 데이터를 기반으로 폐지되었습니다. <ul><li>모든 사용자 지정 eVar/props/이벤트/분류<li>내 권장 보고서</li><li>시간별/일별/주별/월별/분기별/연간 고유 방문자</li><li>일별/주별/월별/분기별/연간 고유 고객</li><li>작업 이름 깊이</li><li>작업 이름 요약</li><li>대시보드 추가</li><li>연령</li><li>오디오 지원</li><li>과금 정보</li><li>페이지 클릭 수</li><li>색상 심도</li><li>쿠키 지원</li><li>쿠키</li><li>연결 유형</li><li>크리에이티브 요소</li><li>신용카드 유형</li><li>크로스셀</li><li>사용자 지정 이벤트 유입 경로</li><li>사용자 지정 링크</li><li>고객 ID</li><li>요일</li><li>시작 작업 이름</li><li>종료 작업 이름</li><li>종료 링크</li><li>폴아웃</li><li>파일 다운로드</li><li>스토어에서 찾기</li><li>전체 경로</li><li>성별</li><li>히트 유형 VISTA 규칙</li><li>이미지 지원</li><li>Java</li><li>JavaScript</li><li>JavaScript 버전</li><li>책갈피 관리</li><li>대시보드 관리</li><li>모니터 색상 심도</li><li>모니터 해상도</li><li>뉴스레터 신청</li><li>다음 작업 이름</li><li>다음 작업 이름 흐름</li><li>Null 검색</li><li>운영 체제</li><li>주문 검토</li><li>오늘의 페이지</li><li>페이지를 찾을 수 없음</li><li>경로 탐색</li><li>경로 길이</li><li>이전 작업 이름</li><li>이전 작업 이름 흐름</li><li>제품 활동</li><li>제품 비용</li><li>제품 부서</li><li>제품 재고 범주</li><li>제품 이름</li><li>제품 평가</li><li>제품 시즌</li><li>제품 공유</li><li>제품 확대/축소</li><li>다시 로드</li><li>검색 결과</li><li>서버</li><li>단일 페이지 방문 횟수</li><li>배송 정보</li><li>사이트 계층</li><li>소셜 언급</li><li>하루 중 시간</li><li>작업 이름에 소요된 시간</li><li>비디오 지원</li><li>방문자 통계</li></ul> |
+| 관리자가 사용자에 대해 이 랜딩 페이지를 지정할 수 있습니까? | 아니요, 관리자는 사용자를 대신하여 랜딩 페이지를 지정할 수 없습니다. 개별 사용자가 직접 토글을 켜야 합니다. |
+| 현재 존재하는 모든 보고서입니까? [!DNL Reports & Analytics] 아직 가능한가요? | 아니요. 다음 보고서는 전반적인 사용 데이터를 기반으로 폐지되었습니다. <ul><li>모든 사용자 지정 eVar/props/이벤트/분류<li>내 권장 보고서</li><li>시간별/일별/주별/월별/분기별/연간 고유 방문자</li><li>일별/주별/월별/분기별/연간 고유 고객</li><li>작업 이름 깊이</li><li>작업 이름 요약</li><li>대시보드 추가</li><li>연령</li><li>오디오 지원</li><li>과금 정보</li><li>페이지 클릭 수</li><li>색상 심도</li><li>쿠키 지원</li><li>쿠키</li><li>연결 유형</li><li>크리에이티브 요소</li><li>신용카드 유형</li><li>크로스셀</li><li>사용자 지정 이벤트 유입 경로</li><li>사용자 지정 링크</li><li>고객 ID</li><li>요일</li><li>시작 작업 이름</li><li>종료 작업 이름</li><li>종료 링크</li><li>폴아웃</li><li>파일 다운로드</li><li>스토어에서 찾기</li><li>전체 경로</li><li>성별</li><li>히트 유형 VISTA 규칙</li><li>이미지 지원</li><li>Java</li><li>JavaScript</li><li>JavaScript 버전</li><li>책갈피 관리</li><li>대시보드 관리</li><li>모니터 색상 심도</li><li>모니터 해상도</li><li>뉴스레터 신청</li><li>다음 작업 이름</li><li>다음 작업 이름 흐름</li><li>Null 검색</li><li>운영 체제</li><li>주문 검토</li><li>오늘의 페이지</li><li>페이지를 찾을 수 없음</li><li>경로 탐색</li><li>경로 길이</li><li>이전 작업 이름</li><li>이전 작업 이름 흐름</li><li>제품 활동</li><li>제품 비용</li><li>제품 부서</li><li>제품 재고 범주</li><li>제품 이름</li><li>제품 평가</li><li>제품 시즌</li><li>제품 공유</li><li>제품 확대/축소</li><li>다시 로드</li><li>검색 결과</li><li>서버</li><li>단일 페이지 방문 횟수</li><li>배송 정보</li><li>사이트 계층</li><li>소셜 언급</li><li>하루 중 시간</li><li>작업 이름에 소요된 시간</li><li>비디오 지원</li><li>방문자 통계</li></ul> |

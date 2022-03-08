@@ -2,9 +2,9 @@
 title: 크로스 디바이스 분석 FAQ
 description: 크로스 디바이스 분석에 대한 FAQ
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
-workflow-type: ht
-source-wordcount: '1949'
+source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+workflow-type: tm+mt
+source-wordcount: '1941'
 ht-degree: 100%
 
 ---
@@ -122,7 +122,7 @@ CDA는 식별자 변수 차원 항목을 보고에 최적화되기 전에 가져
 
 ## 소스 보고서 세트와 CDA 가상 보고서 세트의 총 히트 수가 다른 이유는 무엇입니까?
 
-CDA는 여러 종속 구성 요소가 있는 복잡한 병렬 처리 파이프라인을 사용합니다. 원본 보고서 세트와 CDA 가상 보고서 세트의 총 히트 수에 대해 약 1%의 데이터 불일치가 예상됩니다. 크로스 디바이스 기능에 미치는 영향은 최소화합니다.
+CDA는 여러 종속 구성 요소가 있는 복잡한 병렬 처리 파이프라인을 사용합니다. 원본 보고서 세트와 CDA 가상 보고서 세트의 총 히트 수에 대해 약 1%의 데이터 불일치가 예상됩니다.
 
 ## ‘확인된 사용자’ 지표가 부풀려진 이유는 무엇입니까?
 
