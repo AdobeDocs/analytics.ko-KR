@@ -1,9 +1,11 @@
 ---
 description: 보고서 처리 시간은 데이터를 비파괴적이고 소급적인 방식으로 처리할 수 있는 가상 보고서 세트 설정입니다.
 title: 보고서 처리 시간
+role: Admin
+solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 96%
