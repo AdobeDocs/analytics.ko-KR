@@ -3,10 +3,10 @@ description: 디바이스 또는 브라우저에서 필수적이지 않은 쿠�
 title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입니까
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
+workflow-type: tm+mt
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 
 다음과 같은 추가 고려 사항이 적용됩니다.
 
+* Adobe Analytics은 미국, 영국 및 싱가포르에서 데이터 처리 센터를 운영하고 있으며 모든 고객이 데이터를 지역적으로 수집, 처리 및 저장할 수 있도록 유연성을 제공합니다. Adobe Analytics의 초기 설정을 구성할 때 고객이 원하는 데이터 처리 센터 위치를 선택합니다. 고객의 데이터는 궁극적으로 핵심 Analytics 제품에 대해 선택한 지역 내에 저장됩니다.
 * 세분화를 위해, 가상 보고서 세트를 위해 또는 별도의 끝점으로 라우팅하기 위해 옵트인 데이터를 옵트아웃 데이터와 분리하려면 Analytics 변수에서 옵트인 상태를 수집하는 것이 좋습니다.
 * 사전 동의 없이 사이트 또는 앱 외부에서 측정하지 않습니다. 예를 들어 오프사이트 캠페인, 이메일 캠페인 또는 iFrame이 금지됩니다.
 * 사용자 동의 없이는 개인 정보 변수의 수집이 허용되지 않습니다. [사용자 동의에 따라 Experience Cloud 활동 제어](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ko%22%20\l%20%22implementation#implementation)
