@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '1750'
-ht-degree: 100%
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+workflow-type: tm+mt
+source-wordcount: '1714'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 보고서 예약, 다운로드 및 배포에 대한 정보입니다.
 
 >[!IMPORTANT]
->**2023년 12월 31일**&#x200B;부로 Adobe는 Reports &amp; Analytics 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. 해당 시점에 Reports &amp; Analytics 및 모든 관련 보고서와 일정이 작동 중단될 예정입니다. Reports &amp; Analytics가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 Reports &amp; Analytics 기능은 Analysis Workspace 내에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 Reports &amp; Analytics 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. 이 공지 사항은 서비스 종료 프로세스에 대해 설명합니다.
+>2022년 4월 15일부터 Adobe은 생성 날짜가 2년 이상인 모든 예약된 보고서(2020년 1월 31일 이전에 생성된 작업)를 일시 중지하려고 합니다. 보고서나 데이터는 삭제되지 않습니다. 2년 이상으로 식별된 보고서만 일시 중지되며 추가 예약된 보고서가 전송되지 않습니다. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예약 및 배포 도구를 사용하여 어느 파일이 자동으로 전송되었는지 보고 배달을 수정하거나 종료할 수 있습니다.
 

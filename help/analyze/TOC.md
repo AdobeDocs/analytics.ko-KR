@@ -3,16 +3,16 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
-user-guide-description: How-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 96%
+source-wordcount: '1039'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Analytics 도구 안내서 {#analyze}
+# Adobe Analytics 툴 안내서 {#analyze}
 
 + [Analytics 툴 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
@@ -92,7 +92,7 @@ ht-degree: 96%
       + [속성 패널](analysis-workspace/c-panels/attribution.md)
       + [빈 패널](analysis-workspace/c-panels/blank-panel.md)
       + [자유 형식 패널](analysis-workspace/c-panels/freeform-panel.md)
-      + [미디어 대상 평균 시간 패널](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [미디어 분당 평균 시청 시간 패널](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [미디어 동시 뷰어 패널](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + 미디어 재생 소요 시간 {#media-playback-timespent}
          + [개요](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
@@ -298,6 +298,7 @@ ht-degree: 96%
       + [iOS용 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [보고서 표시 설정 및 탐색](reports-analytics/report-settings.md)
    + [보고서 예약 및 배포](reports-analytics/scheduling.md)
+   + [예약된 보고서에 대한 수명 종료 알림](reports-analytics/scheduled-reports-eol.md)
    + [보고서 유형](reports-analytics/reports.md)
    + [다른 보고서 유형 실행](reports-analytics/t-running-report-types.md)
    + 보고서 사용자 지정 {#customize-reports}
