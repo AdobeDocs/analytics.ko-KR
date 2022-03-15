@@ -4,9 +4,9 @@ title: 영구 트래픽 증가 지정
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 영구 트래픽 증가를 지정하기 전에 [트래픽 증가에 대한 필수 리드 타임](/help/admin/c-traffic-management/traffic-lead-time.md)에 대한 정보를 읽어 보십시오.
 
-1. 을 클릭하여 보고서 세트 관리자를 엽니다. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 보고서 세트]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭하여 보고서 세트 관리자를 엽니다.
 1. 보고서 세트 선택.
 1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽 관리]** > **[!UICONTROL 영구 트래픽]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 새로운 예상 일별 페이지 보기 개수]** 필드에서 새로운 트래픽 수준에 대한 총 예상 일별 페이지 보기 수를 지정합니다.
