@@ -4,7 +4,7 @@ title: 서버측 전달 데이터 및 코드 참조
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## 고객 정의 신호 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-`c_` 접두사가 있는 매개 변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)을 참조하십시오.
+`c_` 접두사가 있는 매개 변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)을 참조하십시오.
 
 | 신호 | 설명 |
 | --- |--- |
@@ -55,23 +55,23 @@ ht-degree: 100%
 | `c_contextData.*` | 예:<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>신호: `c_contextData.category=news`</li></ul> |
 | `c_cookiesEnabled` | 쿠키를 사용할 수 있는지 여부를 지정합니다. 옵션은 다음과 같습니다. yes, no, unknown |
 | `c_currencyCode` | 거래에 사용된 통화 유형입니다. |
-| `c_evar#` | 사용자 지정 eVar |
+| `c_evar#` | 사용자 정의 eVar |
 | `c_events` | `s.events`로 설정. |
-| `c_hier#` | 사용자 지정 계층 변수입니다. |
+| `c_hier#` | 사용자 정의 계층 변수입니다. |
 | `c_javaEnabled` | Java를 사용할 수 있는지 여부를 지정합니다. 옵션은 다음과 같습니다. yes, no, unknown |
 | `c_javaScriptVersion` | 브라우저가 지원하는 JavaScript 버전입니다. |
 | `c_latitude` | 숫자 위도입니다. |
 | `c_linkClick` | 옵션 포함 사항: 사용자 정의, 다운로드 종료 |
-| `c_linkCustomName` | 링크에 제공된 사용자 지정 이름입니다(있을 경우). |
+| `c_linkCustomName` | 링크에 제공된 사용자 정의 이름입니다(있을 경우). |
 | `c_linkDownloadURL` | 다운로드 링크의 URL입니다. |
 | `c_linkExitURL` | 종료 링크 URL입니다. |
-| `c_list#` | 사용자 지정 목록 변수입니다. |
+| `c_list#` | 사용자 정의 목록 변수입니다. |
 | `c_longitude` | 숫자 경도입니다. |
 | `c_mediaPlayerType` | 미디어 스트림 추적 요청용입니다. 옵션은 다음과 같습니다.  other, primetime |
 | `c_pageName` | 페이지 이름(설정된 경우)입니다. |
 | `c_pageURL` | 브라우저의 주소 표시줄에 있는 페이지의 주소입니다. |
 | `c_products` | 제품 문자열(`s.products`에 의해 설정됨)입니다. |
-| `c_prop` | 사용자 지정 Prop입니다. |
+| `c_prop` | 사용자 정의 Prop입니다. |
 | `c_purchaseID` | 구매에 대한 고유 ID입니다. |
 | `c_referrer` | 현재 페이지의 앞 페이지입니다. |
 | `c_screenResolution` | 화면 너비와 높이(픽셀 단위)입니다. |
@@ -79,4 +79,4 @@ ht-degree: 100%
 | `c_state` | 지역(`s.state`에 의해 설정됨)입니다. |
 | `c_timezone` | 시간 오프셋(시간 단위)입니다. |
 | `c_transactionID` | 거래의 고유 ID입니다. |
-| `c_zip` | 우편 번호(`s.zip`에 의해 설정됨)입니다. |
+| `c_zip` | 우편번호(`s.zip`에 의해 설정됨)입니다. |
