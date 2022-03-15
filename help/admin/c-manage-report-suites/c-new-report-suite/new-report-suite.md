@@ -5,9 +5,9 @@ feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->[가상 보고서 세트 설명서](/help/components/vrs/c-workflow-vrs/vrs-create.md)는 가상 보고서 세트를 생성하는 방법을 보여줍니다.
+>[가상 보고서 세트 설명서](/help/components/vrs/c-workflow-vrs/vrs-create.md)는 가상 보고서 세트를 생성하는 방법을 보여 줍니다.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -47,11 +47,11 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 기본 페이지</span> </td> 
-   <td colname="col2"> <p>(선택 사항) <span class="wintitle">기본 페이지</span> 값이 발생하는 URL에서 해당 값을 제거합니다. <span class="wintitle">가장 방문 빈도가 높은 페이지</span> 보고서가 페이지 이름이 아닌 URL을 포함하는 경우 이 설정은 동일한 웹 페이지에 대한 여러 URL을 방지합니다. </p> <p>예: URL<span class="filepath"> https://example.com</span> 및 <span class="filepath"> https://example.com/index.html</span> 일반적으로 동일한 페이지입니다. 필요 없는 파일 이름을 제거하여 이러한 URL을 모두 <span class="filepath"> https://example.com</span> 참조하십시오. </p> <p>이 값을 설정하지 않으면 Analytics는 URL에서 파일 이름 <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> 및<span class="filepath"> home.asp</span>를 자동으로 제거합니다. </p> <p>파일 이름 제거를 비활성화하려면 URL에서 발생하지 않는 기본 페이지 값을 지정합니다.  </p> </td> 
+   <td colname="col2"> <p>(선택 사항) <span class="wintitle">기본 페이지</span> 값이 발생하는 URL에서 해당 값을 제거합니다. <span class="wintitle">가장 방문 빈도가 높은 페이지</span> 보고서가 페이지 이름이 아닌 URL을 포함하는 경우 이 설정은 동일한 웹 페이지에 대한 여러 URL을 방지합니다. </p> <p>예를 들어 URL<span class="filepath"> https://example.com</span> 및 <span class="filepath"> https://example.com/index.html</span>은 일반적으로 동일한 페이지입니다. 불필요한 파일 이름을 제거하여 보고서에서 이러한 URL을 모두 <span class="filepath"> https://example.com</span>으로 표시되도록 할 수 있습니다. </p> <p>이 값을 설정하지 않으면 Analytics는 URL에서 파일 이름 <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> 및<span class="filepath"> home.asp</span>를 자동으로 제거합니다. </p> <p>파일 이름 제거를 비활성화하려면 URL에서 발생하지 않는 기본 페이지 값을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live 날짜 </p> </td> 
-   <td colname="col2">이 보고서 세트가 활성화될 것으로 예상하는 날짜를 Adobe에 알려줍니다. 배포 일정이 변경되면 <a href="/help/admin/c-traffic-management/traffic-management.md">트래픽 관리</a>에서 <span class="wintitle">영구적인 예상 트래픽 도구</span>를 사용하여 업데이트된 예상 트래픽을 제공합니다. </td> 
+   <td colname="col2">이 보고서 세트가 활성화될 것으로 예상하는 날짜를 Adobe에 알려 줍니다. 배포 일정이 변경되면 <a href="/help/admin/c-traffic-management/traffic-management.md">트래픽 관리</a>에서 <span class="wintitle">영구적인 예상 트래픽 도구</span>를 사용하여 업데이트된 예상 트래픽을 제공합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 예상 일별 페이지 보기 수</span> </td> 
@@ -63,7 +63,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 멀티바이트 문자 지원 비활성화 </span> </td> 
-   <td colname="col2"> <p>보고서 세트에 대한 멀티바이트 문자 지원을 비활성화합니다. 멀티바이트 문자 지원을 비활성화하면 시스템에서는 데이터를 ISO-8859-1 형식으로 간주합니다. 웹 페이지는 <span class="varname"> charSet</span> JavaScript 변수에 해당 문자 집합을 지정해야 합니다. </p> <p>멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신할 때, 시스템에서는 웹 페이지의 문자 집합 데이터를 UTF-8 문자 집합으로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다. </p> <p>기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 계정 관리자 또는 고객 지원 센터에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>보고서 세트에 대한 멀티바이트 문자 지원을 비활성화합니다. 멀티바이트 문자 지원을 비활성화하면 시스템에서는 데이터를 ISO-8859-1 형식으로 간주합니다. 웹 페이지는 <span class="varname"> charSet</span> JavaScript 변수에 해당 문자 집합을 지정해야 합니다. </p> <p>멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신 시 시스템에서는 웹 페이지의 문자 집합 데이터를 UTF-8 문자 집합으로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다. </p> <p>기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 계정 관리자 또는 고객 지원 센터에 문의하십시오. </p> </td> 
   </tr>  
  </tbody> 
 </table>
