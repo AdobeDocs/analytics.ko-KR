@@ -5,7 +5,7 @@ feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * 장바구니 추가
 * 장바구니 제거
 * 인스턴스
-* 사용자 지정 이벤트 1-100 (보고서 세트에 활성화되어 있을 경우)
+* 사용자 정의 이벤트 1-100 (보고서 세트에 활성화되어 있을 경우)
 
 ## 지원되는 차원 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 * 서버
 * 사이트 섹션
 * 추적 코드
-* 사용자 지정 링크
+* 사용자 정의 링크
 * 파일 다운로드
 * 종료 링크
-* 사용자 지정 인사이트 변수 (prop) 1-75 (보고서 세트에 활성화되어 있을 경우)
+* 사용자 정의 인사이트 변수 (prop) 1-75 (보고서 세트에 활성화되어 있을 경우)
