@@ -1,19 +1,19 @@
 ---
-description: 처리 규칙은 데이터 수집을 간소화하고 데이터가 보고 기능으로 전송될 때 컨텐츠를 관리합니다.
+description: 처리 규칙은 데이터 수집을 간소화하고 데이터가 보고 기능으로 전송될 때 콘텐츠를 관리합니다.
 subtopic: Processing rules
 title: 처리 규칙 개요
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # 처리 규칙 개요
 
-처리 규칙은 데이터 수집을 간소화하고 데이터가 보고 기능으로 전송될 때 컨텐츠를 관리합니다. 처리 규칙은 다음에 대한 인터페이스를 제공하여 IT 그룹 및 웹 개발자와의 상호 작용을 단순화하는 데 도움이 됩니다.
+처리 규칙은 데이터 수집을 간소화하고 데이터가 보고 기능으로 전송될 때 콘텐츠를 관리합니다. 처리 규칙은 다음에 대한 인터페이스를 제공하여 IT 그룹 및 웹 개발자와의 상호 작용을 단순화하는 데 도움이 됩니다.
 
 * 제품 개요 페이지의 이벤트 설정
 * 쿼리 문자열 매개 변수로 캠페인 채우기
@@ -26,13 +26,13 @@ ht-degree: 68%
 
 ## 처리 규칙 권한 {#section_8A4846688050453784DAE4D89355169A}
 
-관리자는 처리 규칙을 사용할 수 있는 권한이 있습니다 **기본적으로**. 관리자는 관리 도구 인터페이스를 통해 관리자가 아닌 사용자에게 이러한 권한을 부여할 수도 있습니다. 자세한 내용은 []
+관리자는 **기본적으로** 처리 규칙을 사용할 수 있는 권한이 있습니다. 관리자는 관리 도구 인터페이스를 통해 관리자가 아닌 사용자에게 이러한 권한을 부여할 수도 있습니다. 자세한 내용은 다음을 참조하십시오. []
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->처리 규칙은 Analytics 데이터에 영구적으로 영향을 주므로, Adobe은 처리 규칙 관리자가 Adobe Analytics에서 인증 교육을 받고, 보고서 세트용 데이터의 모든 소스(표준 웹 사이트, 모바일 사이트, 모바일 앱, 데이터 삽입 API 등)를 잘 알고 있어야 합니다. 다양한 플랫폼에서 입력한 컨텍스트 데이터 변수 및 표준 변수에 대한 지식은 데이터를 실수로 삭제하거나 변경하는 일이 없도록 하는 데 도움이 됩니다.
+>처리 규칙은 Analytics 데이터에 영구적으로 영향을 주므로, 처리 규칙 관리자는 Adobe Analytics에서 인증 교육을 받고, 보고서 세트용 데이터의 모든 소스(표준 웹 사이트, 모바일 사이트, 모바일 앱, 데이터 삽입 API 등)를 잘 알고 있어야 합니다. 다양한 플랫폼에서 입력한 컨텍스트 데이터 변수 및 표준 변수에 대한 지식은 데이터를 실수로 삭제하거나 변경하는 일이 없도록 하는 데 도움이 됩니다.
 
 ## 컨텍스트 데이터를 사용하여 데이터 수집 단순화 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -44,13 +44,13 @@ s.contextData['section'] = "Books";
 s.contextData['genre'] = "Youth";
 ```
 
-코드에서 설정되면 값을 변수에 할당하는 처리 규칙을 설정할 수 있습니다. 예:
+코드에 설정되면 처리 규칙을 설정하여 변수에 값을 할당할 수 있습니다. 예:
 
-1. 맵 `author` to `eVar2`
-2. 맵 `section` to `prop1` 및 `eVar3`
-3. If `author` 및 `section` 존재, 설정 `event5`
+1. `author`를 `eVar2`에 매핑
+2. `section`을 `prop1` 및 `eVar3`에 매핑
+3. `author` 및 `section`이 있는 경우 `event5` 설정
 
-자세한 내용은 [contextData](/help/implement/vars/page-vars/contextdata.md) 를 참조하십시오.
+자세한 정보는 구현 사용 안내서에서 [contextData](/help/implement/vars/page-vars/contextdata.md)를 참조하십시오.
 
 ## 처리 규칙을 사용하여 데이터 히트 및 이벤트 트리거 변환 {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -58,6 +58,6 @@ s.contextData['genre'] = "Youth";
 
 ## 보고에 컨텍스트 데이터 변수 사용 {#section_BD098BC503024A0B8703596628071134}
 
-컨텍스트 데이터 변수가 구현 내에 정의된 경우 해당 변수를 eVar과 같은 변수에 복사해야 보고에 사용할 수 있습니다.
+컨텍스트 데이터 변수가 구현 내에 정의된 경우 해당 변수를 eVar와 같은 변수에 복사해야 보고에 사용할 수 있습니다.
 
-자세한 내용은 [컨텍스트 데이터 변수를 eVar에 복사](processing-rules-examples/processing-rules-copy-context-data.md) 및 [컨텍스트 데이터 변수를 사용하여 이벤트 설정](processing-rules-examples/processing-rules-copy-context-data-event.md) 추가 정보.
+자세한 내용은 [eVar에 컨텍스트 데이터 변수를 복사](processing-rules-examples/processing-rules-copy-context-data.md) 및 [컨텍스트 데이터 변수를 사용하여 이벤트 설정](processing-rules-examples/processing-rules-copy-context-data-event.md)을 참조하십시오.
