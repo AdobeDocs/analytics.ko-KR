@@ -5,15 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 시각화 색상 팔레트
 
-다른 색상 팔레트에서 선택하거나 기업의 브랜드 색상을 일치시킬 수 있는 사용자가 보유한 팔레트를 지정하여 작업 영역에서 사용되는 시각화 색상 팔레트를 변경할 수 있습니다. 이 기능은 Workspace의 대부분의 시각화에 영향을 주지만 효과가 있습니다 **not** 영향 [!UICONTROL 요약 변경], 조건부 서식 [!UICONTROL 자유 형식] 표 및 [!UICONTROL 맵] 시각화.
+다른 색상 팔레트에서 선택하거나 기업의 브랜드 색상을 일치시킬 수 있는 사용자가 보유한 팔레트를 지정하여 작업 영역에서 사용되는 시각화 색상 팔레트를 변경할 수 있습니다. 이 기능은 작업 영역의 대부분의 시각화에 영향을 주지만 [!UICONTROL 요약 변경 사항], [!UICONTROL 자유 형식] 테이블의 조건부 서식 설정, [!UICONTROL 맵] 시각화에는 영향을 미치지 **않습니다**.
 
 >[!NOTE]
 >
@@ -26,13 +26,13 @@ ht-degree: 83%
 * 5개의 사전 설정된 색상 팔레트 중에서 선택할 수 있습니다. 기본 팔레트 및 아래 팔레트는 최적의 대비를 이루도록 최적화되었으므로 둘 다 색맹 사용자가 쉽게 이용할 수 있습니다.
 * 상위 2개 팔레트의 아래에 있는 3~5번째 색상 팔레트는 색상 조화에 최적화되었습니다.
 
-## 변경 [!UICONTROL 색상 팔레트]:
+## [!UICONTROL 색상 팔레트] 변경:
 
-다음은 사용자 지정 사용 비디오입니다 [!UICONTROL 색상 팔레트]:
+다음은 맞춤 [!UICONTROL 색상 팔레트] 사용에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
-1. **[!UICONTROL 작업 공간]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL 작업 영역]** > **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 프로젝트 색상 팔레트]** 드롭다운에서 5개의 사전 설정된 색상 구성표 중 하나를 선택할 수 있습니다.
 
    ![](assets/custom_palette.png)
