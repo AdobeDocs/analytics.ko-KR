@@ -4,7 +4,7 @@ title: FAQ
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 기존 세그먼트는 계속해서 이전과 동일하게 작동합니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. [더 보기...](/help/components/segmentation/seg-transition.md)
 
-대부분의 이전에 미리 정의된 세트 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 세그먼트 템플릿은 공통 대상을 갖는 사용자 지정 세그먼트를 빠르게 작성하는 데 사용됩니다. 세그먼트 템플릿을 보고서에 직접 적용할 수는 없지만 사용자 지정 세그먼트로 쉽게 저장할 수 있습니다.
+대부분의 이전에 미리 정의된 세트 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 세그먼트 템플릿은 공통 대상을 갖는 사용자 정의 세그먼트를 빠르게 작성하는 데 사용됩니다. 세그먼트 템플릿을 보고서에 직접 적용할 수는 없지만 사용자 정의 세그먼트로 쉽게 저장할 수 있습니다.
 
 세그먼트 템플릿은 세그먼트 빌더에서 특수 아이콘으로 표시됩니다.
 
@@ -306,8 +306,8 @@ seg_definition.xml
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 우편 번호 </td> 
-   <td colname="col2"> ZIP/우편 번호 </td> 
+   <td colname="col1"> 우편번호 </td> 
+   <td colname="col2"> ZIP/우편번호 </td> 
    <td colname="col3"> - </td> 
   </tr> 
  </tbody> 
@@ -327,13 +327,13 @@ seg_definition.xml
 | 모바일 이미지 지원 | 모바일 정보 서비스 | 레퍼러 유형 |
 | 모바일 색상 깊이 | 모바일 디바이스 유형 | 검색 엔진 |
 | 모바일 오디오 지원 | 브라우저 유형 | state |
-| 모바일 비디오 지원 | browser | 지역 - 국가 |
+| 모바일 비디오 지원 | 브라우저 | 지역 - 국가 |
 | 모바일 DRM | 연결 유형 | 지역 - 지역 |
 | 모바일 네트 프로토콜 | 이동통신사 | 지역 - 도시 |
 | 모바일 OS | cookie | 지역 DMA |
 | 모바일 Java VM | 고객 충성도 | 영구적 쿠키 |
 | 모바일 책갈피 길이 | Java 활성화 | 유료 검색 |
-| 모바일 URL 길이 | language |  |
+| 모바일 URL 길이 | 언어 |  |
 
 ## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
