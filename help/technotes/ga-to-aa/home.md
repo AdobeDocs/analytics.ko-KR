@@ -1,16 +1,16 @@
 ---
-title: 타사 분석 플랫폼에서 Adobe Analytics로 전환
+title: 서드파티 분석 플랫폼에서 Adobe Analytics로 전환
 description: Google Analytics 같은 다른 플랫폼에 익숙한 사용자에 초점을 맞춰, 보고서를 얻기 위한 주요 개념을 알아봅니다.
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
 ---
 
-# 타사 분석 플랫폼에서 Adobe Analytics로 전환
+# 서드파티 분석 플랫폼에서 Adobe Analytics로 전환
 
 이 안내서에서는 Adobe 도구와 많이 사용되는 다른 도구의 주요 유사성 및 차이점을 중심으로, Adobe Analytics의 핵심 개념과 워크플로를 학습하는 데 도움이 되는 일반적인 보고서 유형을 제공합니다. 이 안내서는 기본 디지털 분석 개념에 익숙하지만 Adobe Analytics를 처음 사용하는 분석가를 위해 마련되었습니다. 이 안내서에서는 조직에서 Adobe 데이터 수집 서버로 데이터를 전송하는 구현을 현재 운영 중이라고 가정합니다. 조직에서 아직 Adobe Analytics 구현을 설정하지 않은 경우 [Adobe Analytics 첫 번째 관리 안내서](/help/admin/admin-console/first-admin-guide.md)로 시작하십시오.
 
@@ -18,8 +18,8 @@ Google Analytics와 Adobe Analytics는 모두 웹 사이트 성능에 대한 중
 
 Adobe Analytics에는 Adobe Experience Cloud에 로그인한 후 기본 보고서를 가져오는 두 가지 기본 방법이 있습니다.
 
-* **Reports &amp; Analytics**&#x200B;는 기본 보고서를 가져오는 이전 방법입니다. 왼쪽 메뉴에 미리 작성된 보고서 목록이 표시되어 사용자가 원하는 보고서를 탐색하고 데이터를 가져올 수 있습니다. 세그먼트와 지표는 추가 사용자 지정을 제공할 수 있습니다. Google Analytics 보고서를 사용한 적이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
-* **Analysis Workspace**&#x200B;는 현재 대부분의 보고서를 가져오는 데 권장되는 방법입니다. 왼쪽 메뉴를 사용하여 사용자는 구성 요소를 끌어 놓아 자신의 보고서를 작성할 수 있습니다. 이렇게 하면 훨씬 자유롭게 정확한 보고 요구 사항을 충족할 수 있습니다. Google Analytics 대시보드 및 사용자 지정 보고서를 만든 경험이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
+* **Reports &amp; Analytics**&#x200B;는 기본 보고서를 가져오는 이전 방법입니다. 왼쪽 메뉴에 미리 작성된 보고서 목록이 표시되어 사용자가 원하는 보고서를 탐색하고 데이터를 가져올 수 있습니다. 세그먼트와 지표는 추가 사용자 정의를 제공할 수 있습니다. Google Analytics 보고서를 사용한 적이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
+* **Analysis Workspace**&#x200B;는 현재 대부분의 보고서를 가져오는 데 권장되는 방법입니다. 왼쪽 메뉴를 사용하여 사용자는 구성 요소를 끌어 놓아 자신의 보고서를 작성할 수 있습니다. 이렇게 하면 훨씬 자유롭게 정확한 보고 요구 사항을 충족할 수 있습니다. Google Analytics 대시보드 및 사용자 정의 보고서를 만든 경험이 있는 사용자는 이 레이아웃이 익숙할 수 있습니다.
 
 대부분의 보고서는 [!UICONTROL Reports &amp; Analytics]와 [!UICONTROL Analysis Workspace] 모두에서 만들 수 있습니다. 그러나 일부 보고서는 한 플랫폼 또는 다른 플랫폼을 사용해서만 가져올 수 있습니다. 특정 기능을 [!UICONTROL Reports &amp; Analytics]에서만 사용할 수 있는 경우가 아니라면 대부분의 경우 [!UICONTROL Analysis Workspace]를 사용하는 것이 좋습니다.
 
