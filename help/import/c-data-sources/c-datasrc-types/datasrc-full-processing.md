@@ -5,7 +5,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -176,11 +176,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
-   <td colname="col2"> <p>방문자 클릭 맵에 대한 개체 식별자(oid) </p> </td> 
+   <td colname="col2"> <p>방문자 클릭 맵에 대한 오브젝트 식별자(oid) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickActionType </p> </td> 
-   <td colname="col2"> <p>방문자 클릭 맵에 대한 개체 식별자 유형(oidt) </p> </td> 
+   <td colname="col2"> <p>방문자 클릭 맵에 대한 오브젝트 식별자 유형(oidt) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickContext </p> </td> 
@@ -196,11 +196,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickTag </p> </td> 
-   <td colname="col2"> <p>방문자 클릭 맵에 대한 개체 태그 이름(ot) </p> </td> 
+   <td colname="col2"> <p>방문자 클릭 맵에 대한 오브젝트 태그 이름(ot) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>colorDepth </p> </td> 
-   <td colname="col2"> <p>모니터 색상 깊이, 비트 단위(예: 24). </p> </td> 
+   <td colname="col2"> <p>모니터 색상 깊이, 비트 단위(예: 24) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
