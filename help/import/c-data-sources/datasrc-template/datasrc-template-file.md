@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 데이터 소스 템플릿에 대한 정보는 특정 외부 데이터 소스 집합을 데이터 소스로 전송하는 데 적합한 데이터 프레임워크를 제공합니다.
 
-이 마법사에서 생성한 템플릿 파일은 가져오기를 시작하는 데 활용할 수 있습니다. 이 템플릿에서 정의한 열에 제한되지 않습니다. 선택한 데이터 처리 유형에 대해 지표나 정의가 지원된다면 필요에 따라 열을 추가할 수 있습니다. 
+이 마법사에서 생성한 템플릿 파일은 가져오기를 시작하는 데 활용할 수 있습니다. 이 템플릿에서 정의한 열에 제한되지 않습니다. 선택한 데이터 처리 유형에 대해 지표나 정의가 지원된다면 필요에 따라 열을 추가할 수 있습니다.
 
 다음 섹션에서 각 유형에 대해 지원되는 지표와 차원을 볼 수 있습니다.
 
@@ -31,6 +31,6 @@ ht-degree: 100%
 
 템플릿이 생성되면 템플릿을 다운로드하고 템플릿에 데이터를 입력한 다음 데이터를 데이터 소스 FTP 사이트로 업로드할 수 있습니다. 데이터 소스 서버가 처리를 완료하면 가져온 데이터를 마케팅 보고서에서 사용할 수 있습니다.
 
-Data Source 템플릿은 모든 텍스트 편집기로 열 수 있는 [!DNL .txt] 파일입니다. 하지만 Microsoft Excel이나 다른 스프레드시트 응용 프로그램을 사용하여 템플릿 작업을 하는 것이 더 쉽습니다. 템플릿 내용은 [!UICONTROL 데이터 소스 활성화 마법사]에서 선택한 사항에 따라 달라집니다.
+Data Source 템플릿은 모든 텍스트 편집기로 열 수 있는 [!DNL .txt] 파일입니다. 하지만 Microsoft Excel이나 다른 스프레드시트 애플리케이션을 사용하여 템플릿 작업을 하는 것이 더 쉽습니다. 템플릿 내용은 [!UICONTROL 데이터 소스 활성화 마법사]에서 선택한 사항에 따라 달라집니다.
 
-See [가져오기 파일 참조](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md).
+ [가져오기 파일 참조](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md).
