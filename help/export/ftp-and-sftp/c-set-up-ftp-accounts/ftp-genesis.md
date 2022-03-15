@@ -5,9 +5,9 @@ title: Data Connectors
 feature: FTP Export
 exl-id: 69225b84-b292-4b16-a5c2-b618c6cd3191
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Adobe은 2021년에 Adobe 데이터 커넥터 기술을 사용 중지했습니다. [자세히 알아보기...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe는 2021년에 Adobe Data Connector 기술의 사용을 중단했습니다. [자세히 알아보기...](/help/import/data-connectors/data-connectors-eol.md)
 
 [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)를 사용하여 Adobe 파트너와 통합할 때 Adobe는 재마케팅 또는 기타 데이터를 사용자나 파트너가 다운로드할 수 있는 FTP 계정에 푸시할 수 있습니다.
 
