@@ -4,9 +4,9 @@ title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
    * 거래 ID: 온라인 종단점을 오프라인 데이터에 연결하고 가져온 데이터를 온라인으로 캡처한 방문자 스냅숏에 완전히 연관시키는 데이터 업로드 (예: 온라인으로 주문하고 오프라인으로 반환)
    * 전체 처리: Adobe 서버에서 수집한 히트처럼 처리되었으며 타임스탬프가 있는 데이터 소스입니다. 즉, 데이터가 방문자 움직임에 직접 삽입됩니다.
 
-**[Adobe Exchange 통합](https://www.adobeexchange.com/experiencecloud.html)** 는 다음 경우에 사용해야 합니다.
+**[Adobe Exchange 통합](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;은 다음의 경우에 사용되어야 합니다.
 
-* 지원되는 Adobe Analytics 연결을 구축한 서드파티 공급자와 일하는 경우. 통합 앱은 일반적으로 요약 수준 데이터를 반복적으로 Adobe Analytics에 영구적으로 자동으로 통합합니다.
+* 지원되는 Adobe Analytics 연결을 구축한 서드파티 공급자와 일하는 경우. 통합 앱은 일반적으로 요약 수준 데이터를 Adobe Analytics에 영구적으로, 자동으로 그리고 반복적으로 통합합니다.
 
 **[데이터 삽입 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**&#x200B;는 다음 경우에 사용합니다.
 
@@ -88,7 +88,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 
 **[Report Builder](/help/analyze/report-builder/home.md)**&#x200B;는 다음 경우에 사용합니다.
 
-* Workspace의 사용자 정의 레이아웃 옵션이 제한적인 경우 (Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
+* 작업 영역의 사용자 정의 레이아웃 옵션이 제한적인 경우 (Excel의 제한 이내에서 Report Builder로 모든 작업 가능).
 * 사용자 입력 또는 오프라인 데이터 소스(노출 수, 비용)를 Adobe 데이터에 느슨하게 연결합니다. 영구적인 데이터 연결 솔루션은 데이터 소스입니다(Analytics로 데이터 가져오기 참조).
 * 서로 다른 측정기준의 보고서의 데이터 병합 (예: 프로모션 노출 수 보고서와 프로모션 클릭에서 전환 보고서 결합).
 * 서로 다른 보고서 세트의 데이터를 합치거나 나란히 같은 테이블에 표시하여 병합합니다.
@@ -114,7 +114,7 @@ Adobe Analytics 제품 비교에 대해 자세히 알아보려면 [여기](/help
 * **실시간**: 실제 상황보다 조금 지연된 상태로 몇 가지 지표 및 측정기준을 보려는 경우. 30초 이내에 사용할 수 있는 제한적이고 부분적으로 처리된 요약 데이터입니다. 가장 인기 있는 승자 및 패자의 고유한 알고리즘을 포함합니다. Report Builder를 통해 사용할 수 있습니다.
 * **[!UICONTROL 라이브 스트리밍]**: 몇 초 간 수집한 데이터 내에서 부분적으로 처리된 히트 수준의 Analytics 데이터 스트림을 원하는 경우. 30초 이내에 사용할 수 있는 부분적으로 처리된 데이터입니다. Analytics Premium에서만 사용할 수 있습니다. 일반적으로 엔지니어링 서비스 계약을 통해 데이터를 시각화할 수 있는 방법이 필요합니다.
 
-## 사용자 지정 솔루션 {#custom-solutions}
+## 사용자 정의 솔루션 {#custom-solutions}
 
 다음의 경우 엔지니어링 서비스가 필요합니다.
 
