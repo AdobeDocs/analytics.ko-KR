@@ -4,7 +4,7 @@ description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고�
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
 ht-degree: 100%
 
@@ -41,5 +41,5 @@ ht-degree: 100%
 [!UICONTROL 마케팅 채널]에 대한 분류를 만듭니다.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
-1. [!UICONTROL 보고서 세트 관리자]에서, **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 분류]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 보고서 세트 관리자]에서 **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 분류]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 분류 아래에서 분류 추가]**&#x200B;를 클릭합니다(또는 기존 분류를 편집합니다).
