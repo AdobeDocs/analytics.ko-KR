@@ -4,7 +4,7 @@ title: 통화 코드
 feature: Admin Tools
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Experience Cloud에 사용된 통화 코드입니다.
 | SCR | 세이셸 루페 |
 | SDD | 수단 디나르 |
 | SEK | 스웨덴 크로노 |
-| SGD | 싱가폴 달러 |
+| SGD | 싱가포르 달러 |
 | SHP | 세인트헬레나 파운드 |
 | SIT | 슬로베니아 톨라르 |
 | SKK | 슬로바키아 로루니 |
