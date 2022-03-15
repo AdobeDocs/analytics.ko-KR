@@ -5,9 +5,9 @@ feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Analysis Workspace의 새로운 경고 빌더와 경고 관리자는 Reports &am
 | 메서드 | 세부 사항 |
 | --- | --- |
 | 경고 빌더로 직접 이동 | **[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]** |
-| Workspace에서 키보드 단축키 사용 | `Ctrl + Shift + A` (Windows) 또는 `Cmd + Shift + A` (Mac) |
-| 하나 이상의 자유 형식 테이블 라인 항목을 선택합니다. | 마우스 오른쪽 단추를 클릭하고 을 선택합니다 **[!UICONTROL 선택 항목으로 경고 만들기]**. 이렇게 하면 [!UICONTROL 경고 빌더] 및 은 테이블에서 적용된 적절한 지표와 필터를 미리 채웁니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. ![선택 항목으로 경고 만들기](assets/create-alert-from-selection.png) |
-| Reports &amp; Analytics 보고서 내에서 | 이동  **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]** . 이렇게 하면 경고 빌더가 열리고 보고서에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. ![경고 추가](assets/add-alert.png) |
+| 작업 영역에서 키보드 단축키 사용 | `Ctrl + Shift + A` (Windows) 또는 `Cmd + Shift + A` (Mac) |
+| 하나 이상의 자유 형식 테이블 라인 항목 선택 | 마우스 오른쪽 버튼을 클릭하고 **[!UICONTROL 선택 항목으로 경고 만들기]**&#x200B;를 선택합니다. 이렇게 하면 [!UICONTROL 경고 빌더]가 열리고 테이블에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. ![선택 항목으로 경고 만들기](assets/create-alert-from-selection.png) |
+| Reports &amp; Analytics 보고서 내에서 | **[!UICONTROL 기타]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동합니다. 이렇게 하면 경고 빌더가 열리고 보고서에서 적용된 적절한 지표와 필터가 미리 채워집니다. 그런 다음 필요할 경우 경고를 편집할 수 있습니다. ![경고 추가](assets/add-alert.png) |
 
-퍼센트 임계값은 표준 편차입니다. 예를 들어, 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준 (norm)에서 얼마나 떨어져 있는지 (표준 편차 수) 계산합니다. 낮은 임계값 (예: 90%)을 설정하면 높은 임계값 (99.75%)을 설정하는 경우보다 많은 예외 항목이 생깁니다.
+퍼센트 임계값은 표준 편차입니다. 예를 들어 95% = 2 표준 편차와 99% = 3 표준 편차가 있습니다. 선택한 시간 단위에 따라 [다양한 모델](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)을 사용하여 각 데이터 포인트가 기준 (norm)에서 얼마나 떨어져 있는지 (표준 편차 수) 계산합니다. 낮은 임계값 (예: 90%)을 설정하면 높은 임계값 (99.75%)을 설정하는 경우보다 많은 예외 항목이 생깁니다.
 
 >[!IMPORTANT]
 >
