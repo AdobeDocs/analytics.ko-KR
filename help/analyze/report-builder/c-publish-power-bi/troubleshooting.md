@@ -1,19 +1,19 @@
 ---
-description: Power BI에서 Report Builder을 사용할 때의 일반적인 문제
+description: Report Builder를 Power BI와 함께 사용할 때의 일반적인 문제입니다.
 title: Power BI 통합 문제 해결
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # Power BI 통합 문제 해결
 
-Power BI에서 Report Builder을 사용할 때 발생하는 일반적인 문제를 연구하고 해결합니다.
+Report Builder를 Power BI와 함께 사용할 때의 일반적인 문제를 조사하고 해결합니다.
 
 ## Power BI 게시 실패
 
@@ -35,10 +35,10 @@ Report Builder 요청을 Power BI에 게시한 후 시각화가 손상될 수 �
 * 지표나 차원 변경과 같은 요청을 Report Builder에서 편집한 다음, Power BI에 다시 게시했습니다. 요청을 편집하면 시각화가 손상될 수 있습니다.
 * 시각화에 사용된 요청을 삭제했습니다.
 
-## 조직 리소스에 액세스하려면 Report Builder 권한을 부여해야 합니다. 이 액세스 권한은 관리자만 부여할 수 있습니다. 관리자에게 권한을 요청하십시오.
+## Report Builder는 조직 리소스에 액세스할 수 있는 권한이 있어야 합니다. 이 액세스 권한은 관리자만 부여할 수 있습니다. 관리자에게 권한 부여를 요청하십시오.
 
-Microsoft 관리자가 다음에 있는 &quot;사용자가 애플리케이션을 등록할 수 있음&quot; 설정을 검토하도록 합니다. **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 사용자 설정에서 옵션을 사용할 수 있습니다.]**. 이 옵션이 아니오로 설정되어 있으면 해당 관리자가 이러한 유형의 애플리케이션을 등록할 수 있습니다.
+Microsoft 관리자가 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 사용자 설정 허용 옵션]**&#x200B;에 있는 &quot;사용자가 애플리케이션을 등록할 수 있음&quot; 설정을 검토하도록 합니다. 이 옵션이 아니요로 설정된 경우 해당 관리자는 이러한 유형의 애플리케이션을 등록할 수 있습니다.
 
-사용자는 다음을 사용하여 액세스 권한을 부여할 수 있습니다 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+사용자는 다음 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)를 사용하여 액세스 권한을 부여할 수 있습니다.
 
-관리자는 다음을 사용하여 각 관리자에 대한 액세스 권한을 부여했습니다 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+관리자는 다음 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)를 사용하여 모든 사용자에게 액세스 권한을 부여했습니다.
