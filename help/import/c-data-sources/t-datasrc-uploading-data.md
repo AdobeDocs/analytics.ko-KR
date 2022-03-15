@@ -5,9 +5,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 87%
    [!DNL .fin] 파일의 이름은 파일 확장자를 제외하고 Data Sources 파일과 완전히 같아야 합니다. [!DNL .fin] 파일을 업로드할 때까지 해당 Data Sources 파일이 처리 대기열에 추가되지 않습니다.
 
    데이터 소스 파일이 업로드를 마치기 전까지는 파일을 업로드하지 마십시오. 그렇지 않으면, 데이터 소스가 불완전한 파일을 처리할 수 있습니다.
-1. .fin 파일이 업로드되면 데이터 소스 FTP 사이트에서 로그아웃하는 것이 중요합니다. 이유는 Analytics에서 로그아웃 이벤트를 트리거로 사용하여 파일이 처리할 준비가 되었음을 나타냅니다.
+1. .fin 파일을 업로드한 후에는 데이터 소스 FTP 사이트에서 로그아웃하는 것이 중요합니다. 그 이유는 Analytics가 로그아웃 이벤트를 트리거로 사용하여 파일을 처리할 준비가 되었음을 나타내기 때문입니다.
 1. 데이터 소스 파일이 처리되는 동안 나타나는 메시지를 확인하십시오.
 
    데이터 소스 관리자는 파일 처리 중에 발생하는 모든 오류를 표시합니다.
