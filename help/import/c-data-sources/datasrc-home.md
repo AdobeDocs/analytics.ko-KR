@@ -1,12 +1,12 @@
 ---
 description: Adobe Analytics 데이터 소스를 사용하면 추가적인 온라인 또는 오프라인 데이터를 수동으로 가져와서 보고에 사용할 수 있습니다.
-title: Data Sources는 무엇이며 이러한 기능이 나에게 어떤 이점을 제공합니까?
+title: 데이터 소스란 무엇이며 어떤 이점이 있습니까?
 feature: Data Sources
 exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,4 +36,4 @@ Adobe Analytics 데이터 소스를 사용하면 추가적인 온라인 또는 �
 >
 >거래 ID 데이터 소스에서 오프라인 데이터를 온라인 이벤트에 연결하려면 고객 지원에서 거래 ID 기록을 사용해야 합니다. 자세한 내용은 [거래 ID 기록](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)을 참조하십시오.
 
-가져오기 후 대부분의 Data Sources 데이터는 Adobe Experience Cloud 전체에서 사용할 수 있습니다.
+가져온 데이터 소스의 데이터 대부분은 Adobe Experience Cloud 전체에서 사용할 수 있습니다.
