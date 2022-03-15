@@ -4,7 +4,7 @@ description: 브라우저 내보내기를 사용하면 분류 데이터를 탭�
 feature: Classifications
 exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 브라우저 내보내기를 사용하면 분류 데이터를 탭으로 구분된 파일로 내보낼 수 있습니다.
 
-[!UICONTROL 관리] > [!UICONTROL 분류 가져오기]
+[!UICONTROL 관리자] > [!UICONTROL 분류 가져오기]
 
 데이터 세트 파일은 탭으로 구분된 데이터 파일(.tab 파일 확장명)이며 대부분의 스프레드시트 애플리케이션에서 지원합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 브라우저를 사용하여 분류 데이터 내보내기
 
-1. [!UICONTROL 관리] > [!UICONTROL 분류 가져오기]를 클릭합니다.
+1. [!UICONTROL 관리자] > [!UICONTROL 분류 가져오기]를 클릭합니다.
 1. [!UICONTROL 브라우저 내보내기] 탭을 클릭합니다.
 1. 데이터 세트 세부 사항을 지정합니다.
 1. [!UICONTROL 파일 내보내기]를 클릭합니다.
