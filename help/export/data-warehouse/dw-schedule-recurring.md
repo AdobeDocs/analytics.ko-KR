@@ -1,12 +1,12 @@
 ---
-description: Data Warehouse의 요청을 반복 기준으로 실행하도록 예약합니다.
+description: Data Warehouse의 요청이 반복적으로 실행되도록 예약합니다.
 title: 반복 요청 예약
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
