@@ -1,12 +1,12 @@
 ---
 description: 계산된 지표 권한은 관리자 수준 사용자와 관리자가 아닌 사용자 간에 다릅니다.
-title: 계산된 지표  역할 기반 권한
+title: 계산된 지표 역할 기반 권한
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 90%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>관리자 수준 사용자</b> </td> 
-   <td colname="col02"> 관리자는 계산된 지표를 만들 수 있을 뿐만 아니라 Admin Console에서 제품 프로필을 만들어 사용자 권한을 제한하여 계산된 지표를 만들 수도 있습니다. </td> 
+   <td colname="col02"> 관리자는 계산된 지표를 만들 수 있을 뿐만 아니라 Admin Console에서 제품 프로필을 만들어 계산된 지표를 만드는 사용자권한을 제한할 수도 있습니다. </td> 
    <td colname="col2"> 전체 회사, 사용자 그룹 및 개별 사용자와 공유할 수 있습니다. </td> 
    <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: 자신의 계산된 지표 및 다른 사용자의 계산된 지표를 보거나 편집하거나 삭제할 수 있습니다. <p> <span class="keyword"> Report Builder </span>: 자신의 계산된 지표 및 공유된 계산된 지표를 보거나 편집하거나 삭제할 수 있습니다. </p> </td> 
    <td colname="col4"> 계산된 지표를 표준으로 승인할 수 있습니다. </td> 
