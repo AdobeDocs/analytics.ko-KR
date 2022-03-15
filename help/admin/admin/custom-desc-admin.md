@@ -1,18 +1,18 @@
 ---
-description: eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
-title: 사용자 지정 보고서 설명
+description: eVar, prop, 분류 및 이벤트에 대한 사용자 정의 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
+title: 사용자 정의 보고서 설명
 feature: Admin Tools
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
 ---
 
-# 사용자 지정 보고서 설명
+# 사용자 정의 보고서 설명
 
-eVar, prop, 분류 및 이벤트에 대한 사용자 지정 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
+eVar, prop, 분류 및 이벤트에 대한 사용자 정의 보고서 설명을 입력할 수 있습니다. 설명은 모든 최종 사용자에게 표시됩니다.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL *변수&#x200B;*]**
 
