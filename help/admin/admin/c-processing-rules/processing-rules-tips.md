@@ -5,7 +5,7 @@ title: 처리 규칙 팁과 트릭
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ prop1이 &quot;news&quot;를 포함하는 경우처럼 검색을 기반으로 �
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-처리 순서를 고려하는 것 또한 중요합니다. 다음 예제에서는 페이지 이름이 없을 경우 이전 페이지 이름 사용자 지정 eVar가 URL로 설정된다고 표시됩니다. 그러나 URL은 처리 규칙이 적용된 후 페이지 이름에 배치되므로, 이 경우 페이지 이름이 페이지에 설정되지 않으면 비어 있습니다.
+처리 순서를 고려하는 것 또한 중요합니다. 다음 예제에서는 페이지 이름이 없을 경우 이전 페이지 이름 사용자 정의 eVar가 URL로 설정된다고 표시됩니다. 그러나 URL은 처리 규칙이 적용된 후 페이지 이름에 배치되므로, 이 경우 페이지 이름이 페이지에 설정되지 않으면 비어 있습니다.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
