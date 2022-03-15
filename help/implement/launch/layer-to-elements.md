@@ -4,8 +4,8 @@ description: 데이터 레이어에서 읽을 태그를 구성합니다.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: tm+mt
-source-wordcount: '305'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
