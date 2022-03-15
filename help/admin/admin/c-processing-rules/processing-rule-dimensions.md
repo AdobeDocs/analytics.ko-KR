@@ -1,21 +1,21 @@
 ---
-description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
+description: 처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 차원입니다.
 subtopic: Processing rules
 title: 처리 규칙에 사용 가능한 차원
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 처리 규칙에 사용 가능한 차원
 
-처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 측정기준입니다.
+처리 규칙을 사용하여 읽고 쓸 수 있는(별다른 명시가 없는 경우) 차원입니다.
 
-## 사용자 지정 값 및 컨텍스트 데이터 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## 사용자 정의 값 및 컨텍스트 데이터 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -26,8 +26,8 @@ ht-degree: 86%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>사용자 지정 값 </p> </td> 
-   <td colname="col2"> <p>처리 규칙 동작 시 직접 입력된 사용자 지정 텍스트 또는 값. 이러한 값은 후속 조건 및 규칙에서 사용할 수 있습니다. </p> </td> 
+   <td colname="col1"> <p>사용자 정의 값 </p> </td> 
+   <td colname="col2"> <p>처리 규칙 동작 시 직접 입력된 사용자 정의 텍스트 또는 값. 이러한 값은 후속 조건 및 규칙에서 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>연결된 값 </p> </td> 
@@ -39,7 +39,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>컨텍스트 데이터 변수 </p> </td> 
-   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다.  </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고 변수로 복사되어야 보고서에 표시됩니다. 컨텍스트 데이터 변수가 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> eVar에 컨텍스트 데이터 변수 복사 </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> 컨텍스트 데이터 변수</a> </p> </td> 
+   <td colname="col2"> <p>히트와 함께 전송된 명명된 변수입니다. </p> <p>참고: 컨텍스트 데이터 변수에 포함된 모든 데이터는 보고 변수로 복사되어야 보고서에 표시됩니다. 컨텍스트 데이터 변수가 ClickStream 데이터 피드 등의 모든 보고 인터페이스에서 볼 수 있는 것은 아닙니다. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> eVar에 컨텍스트 데이터 변수 복사 </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 컨텍스트 데이터 변수를 사용하여 이벤트 설정 </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> 컨텍스트 데이터 변수</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,11 +89,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 이름 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 링크 추적 호출은 <code>pageName</code> 변수를 처리 규칙에 도달하기 전에 변수로 식별하십시오. 처리 규칙을 사용하여 페이지 이름 값을 다시 삽입하는 경우 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. Adobe은 수정하기 전에 페이지 이름이 이미 설정되어 있는지 확인하는 것을 권장합니다. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>참고: 링크 추적 호출은 처리 규칙에 도달하기 전에 <code>pageName</code> 변수를 제거합니다. 처리 규칙을 사용하여 페이지 이름 값을 다시 삽입하는 경우 히트는 링크 추적 호출이 아닌 페이지 조회수로 간주됩니다. Adobe는 페이지 이름을 수정하기 전에 페이지 이름이 이미 설정되어 있는지 확인하는 것을 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 또는 <code> s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL <p>참고: 링크 추적 호출은 <code>pageURL</code> 변수를 처리 규칙에 도달하기 전에 변수로 식별하십시오. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하는 경우 히트는 링크 추적 호출 대신 페이지 보기로 간주됩니다. 페이지 URL을 수정하기 전에 페이지 URL이 이미 설정되어 있는지 확인하는 것이 좋습니다. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> 또는 <code> s.pageURL</code>이 지정되지 않은 경우 현재 페이지 URL <p>참고: 링크 추적 호출은 처리 규칙에 도달하기 전에 <code>pageURL</code> 변수를 제거합니다. 처리 규칙을 사용하여 페이지 URL 값을 다시 삽입하는 경우 히트는 링크 추적 호출이 아닌 페이지 조회수로 간주됩니다. Adobe는 페이지 URL을 수정하기 전에 페이지 URL이 이미 설정되어 있는지 확인할 것을 권장합니다 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>쿼리 문자열 매개 변수 </p> </td> 
@@ -129,7 +129,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>참조 루트 도메인(읽기 전용) </p> </td> 
-   <td colname="col2"> <p>레퍼러 호스트 이름의 마지막 두 섹션입니다. https://en.main.example.<span class="syntax codeph"> co-uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>레퍼러 호스트 이름의 마지막 두 섹션입니다. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>참조 쿼리 문자열(읽기 전용) </p> </td> 
@@ -145,7 +145,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>AppMeasurement 코드 버전(읽기 전용) </p> </td> 
-   <td colname="col2"> <p>요청을 작성하기 위해 사용된 appMeasurement 라이브러리의 버전. 이미지 비콘을 사용할 때 이것을 처리 규칙을 사용하여 읽힌 사용자 지정 값으로 채울 수 있습니다. 이 값은 URL의 다음 위치에 나타납니다. </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
+   <td colname="col2"> <p>요청을 작성하기 위해 사용된 appMeasurement 라이브러리의 버전. 이미지 비콘을 사용할 때 이것을 처리 규칙을 사용하여 읽힌 사용자 정의 값으로 채울 수 있습니다. 이 값은 URL의 다음 위치에 나타납니다. </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -189,7 +189,7 @@ ht-degree: 86%
    <td colname="col2"> <p> <code> s.state</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>방문자 Zip/우편 번호 </p> </td> 
+   <td colname="col1"> <p>방문자 Zip/우편번호 </p> </td> 
    <td colname="col2"> <p> <code> s.zip</code> </p> </td> 
   </tr> 
  </tbody> 
@@ -208,7 +208,7 @@ ht-degree: 86%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>이벤트 1-1000 </p> <p>(SiteCatalyst 15 고객이면 이벤트 1-100) </p> </td> 
+   <td colname="col1"> <p>Event 1-1000 </p> <p>(SiteCatalyst 15 고객이면 이벤트 1-100) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
