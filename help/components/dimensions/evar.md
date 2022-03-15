@@ -1,10 +1,10 @@
 ---
 title: eVar
-description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
+description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 eVar가 차원으로 작동하는 방식을 설명합니다. eVar 구현 방법에 대한 자세한 내용은 구현 사용 안내서의 [eVar](/help/implement/vars/page-vars/evar.md)를 참조하십시오.*
 
-eVar는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다]. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 지정할 수 있습니다].
+eVar는 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)[!UICONTROL 가 있는 경우 조직 고유의 차원은 대부분 eVar로 끝납니다]. 기본적으로 eVar는 설정된 히트를 넘어서까지 지속됩니다. 보고서 세트 설정의 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)[!UICONTROL 에서 만료와 할당을 사용자 정의할 수 있습니다].
 
 사용 가능한 eVar의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 250개의 eVar를 사용할 수 있습니다.
 
@@ -28,7 +28,7 @@ JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일
 
 ## 차원 항목
 
-eVar는 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오.
+eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오.
 
 ## eVar 작동 방식
 
@@ -91,7 +91,7 @@ Analysis Workspace에서 다음 논리를 사용하여 이 보고서를 가져�
 대부분의 경우 다음과 같이 지원되는 eVar를 사용하는 것이 좋습니다.
 
 * eVar는 보고서에서 255바이트로 제한됩니다. Prop은 100바이트로 제한됩니다.
-* 기본적으로 prop은 prop이 설정된 히트 이후에 지속되지 않습니다. eVar에는 사용자 지정 만료가 있으므로, eVar가 후속 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 하지만 [보고서 시간 처리](/help/components/vrs/vrs-report-time-processing.md)를 사용하는 경우 속성과 eVar 모두 사용자 지정 속성 모델을 사용할 수 있습니다.
+* 기본적으로 prop은 prop이 설정된 히트 이후에 지속되지 않습니다. eVar에는 사용자 정의 만료가 있으므로, eVar가 후속 이벤트에 대한 크레딧을 더 이상 받지 않는 시기를 결정할 수 있습니다. 하지만 [보고서 시간 처리](/help/components/vrs/vrs-report-time-processing.md)를 사용하는 경우 속성과 eVar 모두 사용자 정의 속성 모델을 사용할 수 있습니다.
 * Adobe는 최대 250개의 eVar를 지원하며 prop은 75개만 지원합니다.
 
 prop과 eVar 간의 비교 내용을 더 알려면 [prop](prop.md)을 참조하십시오.
