@@ -4,7 +4,7 @@ title: FAQ
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: 어떻게 <b>데이터가 수집되어 Analytics에 전달됩니까</b>? </p> </td> 
-   <td colname="col2"> <p>A: Advertising Analytics는 일련의 사용자 지정 API를 사용하여 Adobe Advertising Cloud를 통해 검색 엔진의 데이터를 Analytics에 전달합니다. </p> </td> 
+   <td colname="col2"> <p>A: Advertising Analytics는 일련의 사용자 정의 API를 사용하여 Adobe Advertising Cloud를 통해 검색 엔진의 데이터를 Analytics에 전달합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q: 이 통합으로 얻게 되는 <b>검색 데이터</b>는 무엇입니까? </p> </td> 
