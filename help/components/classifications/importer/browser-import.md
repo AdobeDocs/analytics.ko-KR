@@ -4,7 +4,7 @@ title: 브라우저 가져오기
 feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 브라우저를 사용하여 분류 데이터를 가져올 (다운로드) 수 있습니다. 이 방법은 분류 데이터 업로드를 단일 보고서 세트로 제한합니다
 
-**[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**
+**[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**
 
 ## 분류 브라우저 가져오기 - 필드 설명 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 브라우저를 통한 분류 가져오기 {#task_D7D51CB6FB35437AB68599B1B23FEAC1}
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 브라우저 가져오기]** 필드를 구성합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭합니다.
