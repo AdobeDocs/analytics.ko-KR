@@ -5,7 +5,7 @@ feature: Report Suite Settings
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 | 광고 노출 횟수 | 카운터(하위 관계 없음) | `event5` |
 | 광고 클릭 수 | 카운터(하위 관계 없음) | `event6` |
 
-| 사용자 지정 인사이트 변수 | `s_code` 변수 |
+| 사용자 정의 인사이트 변수 | `s_code` 변수 |
 |---|---|
 | 트래픽 속성 1-5 | `prop1, prop2, prop3, prop4, prop5` |
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 | 표준 상거래 이벤트 | 유형 | `s_code` 변수 |
 |---|---|---|
-| 매출  | 카운터 | `purchase` |
+| 매출 | 카운터 | `purchase` |
 | 주문 | 카운터 | `purchase` |
 | 판매량 | 카운터 | `purchase` |
 | 장바구니 | 카운터 | `scOpen` |
