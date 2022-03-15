@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -34,14 +34,14 @@ ht-degree: 100%
    ![](assets/filter_option.png)
 
 1. **[!UICONTROL &#39;사이트 섹션 경로&#39; 경로 패턴 정의]** 대화 상자에서 다음을 지정할 수 있습니다.
-   1. 첫 번째 보고서의 시작 등급 
-   1. 이 보고서에 표시하려는 항목 수 
+   1. 첫 번째 보고서의 시작 등급
+   1. 이 보고서에 표시하려는 항목 수
 1. **[!UICONTROL 편집]**&#x200B;을 클릭하여 경로 패턴을 정의합니다.
-1. 사용자 지정 패턴을 원하는 경우 왼쪽 목록의 **[!UICONTROL 패턴 개체]**&#x200B;를 오른쪽의 **[!UICONTROL Pattern Builder 캔버스]**&#x200B;로 드래그하여 놓습니다.
+1. 사용자 정의 패턴을 원하는 경우 왼쪽 목록의 **[!UICONTROL 패턴 오브젝트]**&#x200B;를 오른쪽의 **[!UICONTROL Pattern Builder 캔버스]**&#x200B;로 드래그하여 놓습니다.
 
    ![](assets/custom_pattern.png)
 
-1. **[!UICONTROL 패턴 선택]** 드롭다운 목록에서 미리 정의한 패턴을 선택하고 수정할 수 있습니다. 사용 가능한 패턴은 다음과 같습니다. 
+1. **[!UICONTROL 패턴 선택]** 드롭다운 목록에서 미리 정의한 패턴을 선택하고 수정할 수 있습니다. 사용 가능한 패턴은 다음과 같습니다.
 
    ![](assets/select_a_pattern.png)
 
