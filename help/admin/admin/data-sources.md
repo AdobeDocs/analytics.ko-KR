@@ -4,7 +4,7 @@ title: 데이터 소스
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -22,4 +22,4 @@ ht-degree: 100%
 
 보고서 세트에서 데이터 소스가 활성화되어 있으면 FTP 위치가 제공되어 보고 기능에 통합할 파일을 업로드할 수 있습니다. 업로드가 완료되면 Adobe 서버에서 데이터를 자동으로 처리하여 보고서 세트에 통합합니다.
 
-[데이터 소스 도움말](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=ko-KR)을 참조하십시오.
+[데이터 소스 도움말](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html)을 참조하십시오.
