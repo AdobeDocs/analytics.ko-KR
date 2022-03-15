@@ -4,7 +4,7 @@ title: FTP 가져오기
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계�
 
 FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계입니다.
 
-**[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**.
+**[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**.
 
 다음 권장 한계를 고려해야 합니다.
 
@@ -41,11 +41,11 @@ FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. �
 
 ## FTP를 통해 분류 가져오기 {#task_132C36830B69418B8C929E39838EF01D}
 
- FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
+FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
 1. 사용하려는 FTP 계정 옆의 **[!UICONTROL 보기]**&#x200B;를 클릭합니다.
 1. FTP 액세스 정보 (호스트, 로그인, 암호)를 사용하여 선택하려는 FTP 클라이언트를 사용하는 FTP 서버에 액세스합니다.
@@ -62,7 +62,7 @@ FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. >
 
 Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)를 참조하십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]** 탭에서 **[!UICONTROL 새로 추가]**&#x200B;를 클릭합니다.
 1. FTP 계정 세부 사항을 지정합니다.
