@@ -4,7 +4,7 @@ description: Analytics 차원 및 보고서에 대한 참조.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->사용자 지정 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에 따라 다릅니다.
+>사용자 정의 변수 이름, 분류 및 방문자 속성은 이 목록에서 생략됩니다. 이러한 차원 항목은 개별 보고서 세트에 따라 다릅니다.
 
 >[!NOTE]
 >
->Analytics 도구에서 유사한 차원에 대해 다른 용어를 사용하는 공통 부분이 있습니다. 예를 들어, Reports &amp; Analytics는 `browserwidth`를 사용하는 반면 Analysis Workspace에서는 `browserwidthbucketed`를 사용합니다.
+>Analytics 도구에서 유사한 차원에 대해 다른 용어를 사용하는 공통 부분이 있습니다. 예를 들어 Reports &amp; Analytics는 `browserwidth`를 사용하는 반면 Analysis Workspace에서는 `browserwidthbucketed`를 사용합니다.
 
 ## Reports &amp; Analytics와 Analysis Workspace에서 모두 지원되는 차원
 
@@ -37,9 +37,9 @@ ht-degree: 100%
 | 쿠키 지원 | `cookie` |
 | 국가 | `geocountry` |
 | 고객 충성도 | `customerloyalty` |
-| 사용자 지정 전환 변수 | `evar1`, `evar2` 등 |
-| 사용자 지정 인사이트 변수 | `prop1`, `prop2` 등 |
-| 사용자 지정 링크 | `customlink` |
+| 사용자 정의 전환 변수 | `evar1`, `evar2` 등 |
+| 사용자 정의 인사이트 변수 | `prop1`, `prop2` 등 |
+| 사용자 정의 링크 | `customlink` |
 | 첫 구매까지 소요된 일 수 | `daysbeforefirstpurchase` |
 | 마지막 구매 이후 일 수 | `dayssincelastpurchase` |
 | 도메인 | `filtereddomain` |
@@ -59,8 +59,8 @@ ht-degree: 100%
 | 모바일 통신사 | `mobilecarrier` |
 | 모바일 색상 깊이 | `mobilecolordepth` |
 | 모바일 쿠키 지원 | `mobilecookiesupport` |
-| 모바일 장치 | `mobiledevicename` |
-| 모바일 장치 유형 | `mobiledevicetype` |
+| 모바일 디바이스 | `mobiledevicename` |
+| 모바일 디바이스 유형 | `mobiledevicetype` |
 | 모바일 최대 이메일 길이 | `mobileemaillength` |
 | 모바일 이미지 지원 | `mobileimagesupport` |
 | 모바일 제조업체 | `mobilemanufacturer` |
@@ -100,7 +100,7 @@ ht-degree: 100%
 | 방문당 체류 시간 - 그룹화됨 | `timespent` |
 | 방문 깊이 | `pathlength` |
 | 방문 횟수 | `visitnumber` |
-| 우편 번호 | `zip` |
+| 우편번호 | `zip` |
 
 ## Analysis Workspace에서만 지원되는 차원
 
@@ -115,11 +115,11 @@ ht-degree: 100%
 | 요일 | `timepartdayofweek` |
 | 일(한 해 기준) | `timepartdayofyear` |
 | 마지막 방문 이후의 일 수 | `dayssincelastvisit` |
-| 시작 사용자 지정 인사이트 | `entryprops` |
+| 시작 사용자 정의 인사이트 | `entryprops` |
 | 시작 목록 변수 | `entrylistvariables` |
 | 시작 서버 | `entryserver` |
 | 시작 사이트 섹션 | `entrysitesections` |
-| 종료 사용자 지정 인사이트 | `exitprops` |
+| 종료 사용자 정의 인사이트 | `exitprops` |
 | 종료 목록 변수 | `exitlistvariables` |
 | 종료 페이지 | `exitpage` |
 | 종료 서버 | `exitserver` |
@@ -131,7 +131,7 @@ ht-degree: 100%
 | 마케팅 채널 세부 정보 | `marketingchanneldetail` |
 | 분 | `daterangeminute` |
 | 모바일 최대 책갈피 길이 | `mobilebookmarklength` |
-| 모바일 장치 번호 | `mobiledevicenumber` |
+| 모바일 디바이스 번호 | `mobiledevicenumber` |
 | 모바일 DRM | `mobiledrm` |
 | 모바일 정보 서비스 | `mobileinformationservices` |
 | 모바일 Java VM | `mobilejavavm` |
@@ -269,7 +269,7 @@ ht-degree: 100%
 | 운영 체제 (SDK) | `mobileosenvironment` |
 | 마지막 업그레이드 이후 일 수 | `mobiledayssincelastupgrade` |
 | 마지막 업그레이드 이후 출시 | `mobilelaunchessincelastupgrade` |
-| 장치 이름 (SDK) | `mobiledevice` |
+| 디바이스 이름 (SDK) | `mobiledevice` |
 | 운영 체제 버전 (SDK) | `mobileosversion` |
 | 비콘 Major | `mobilebeaconmajor` |
 | 비콘 Minor | `mobilebeaconminor` |
