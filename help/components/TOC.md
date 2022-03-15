@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
-user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 경고, 마케팅 채널, 분류와 같은 구성 요소를 사용하여 데이터를 관리하고 교차 장치 분석에 대해 학습하는 데 도움이 됩니다.
+user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 경고, 마케팅 채널, 분류 및 크로스 디바이스 분석에 대한 학습과 같은 구성 요소를 사용하여 데이터를 관리하는 데 도움이 됩니다.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 95%
    + [캠페인](dimensions/campaigns.md)
    + [카테고리](dimensions/category.md)
    + [도시](dimensions/cities.md)
-   + [색상 심도](dimensions/color-depth.md)
+   + [색상 깊이](dimensions/color-depth.md)
    + [연결 유형](dimensions/connection-type.md)
    + [쿠키 지원](dimensions/cookie-support.md)
    + [국가](dimensions/countries.md)
-   + [사용자 지정 링크](dimensions/custom-link.md)
+   + [사용자 정의 링크](dimensions/custom-link.md)
    + [고객 충성도](dimensions/customer-loyalty.md)
    + [날짜(월 기준)](dimensions/day-of-month.md)
    + [요일](dimensions/day-of-week.md)
@@ -100,7 +100,7 @@ ht-degree: 95%
    + [주](dimensions/week.md)
    + [평일/주말](dimensions/weekday-weekend.md)
    + [년](dimensions/year.md)
-   + [우편 번호](dimensions/zip-code.md)
+   + [우편번호](dimensions/zip-code.md)
 + 지표 {#metrics}
    + [지표 개요](metrics/overview.md)
    + [반복 인스턴스 계산](metrics/count-repeat-instances.md)
@@ -116,7 +116,7 @@ ht-degree: 95%
    + [장바구니](metrics/carts.md)
    + [체크아웃](metrics/checkouts.md)
    + [콘텐츠 속도](metrics/content-velocity.md)
-   + [사용자 지정 이벤트](metrics/custom-events.md)
+   + [사용자 정의 이벤트](metrics/custom-events.md)
    + [항목](metrics/entries.md)
    + [종료](metrics/exits.md)
    + [확인된 사용자](metrics/identified-people.md)
@@ -217,7 +217,7 @@ ht-degree: 95%
    + [디바이스 그래프](cda/device-graph.md)
    + [크로스 디바이스 분석 설정](cda/setup.md)
    + [재생 작동 방식](cda/replay.md)
-   + [CDA Workspace 템플릿](cda/workspace-template.md)
+   + [CDA 작업 영역 템플릿](cda/workspace-template.md)
    + [VRS를 특정 날짜로 제한](cda/limit-vrs-date.md)
    + [크로스 디바이스 분석 FAQ](cda/faq.md)
 + 경고 {#alerts}
