@@ -1,12 +1,12 @@
 ---
-description: Adobe이 데이터 소스를 처리하는 데 걸리는 시간에 대한 정보입니다.
+description: Adobe가 데이터 소스를 처리하는 데 걸리는 시간에 대한 정보입니다.
 title: Data Sources 처리 시간
 feature: Data Sources
 exl-id: 2445775b-e079-45f0-afcc-b373c63350e8
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
