@@ -1,13 +1,13 @@
 ---
-description: Report Builder 및 Microsoft Power BI 사용 시 제한 사항.
+description: Report Builder 및 Microsoft Power BI를 사용할 때의 제한 사항입니다.
 title: 제한 사항 및 사양
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
-> 이 제한 사항은 &quot;Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션에만 적용됩니다.
+>이 제한 사항은 &quot;Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션에만 적용됩니다.
 
 * 통합 문서당 최대 100개의 Report Builder 요청을 Power BI에 내보낼 수 있습니다.
 * 예약 프로세스에서는 101번째 요청에 도달하면 요청 내보내기가 중단됩니다.
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
-> 이 사양은 &quot;모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시&quot; 옵션과 &quot;통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시&quot; 옵션에 적용됩니다.
+>이 사양은 “모든 Report Builder 요청을 Power BI 데이터 세트 표로 게시” 옵션과 “통합 문서에서 형식이 지정된 표를 모두 Power BI 데이터 세트 표로 게시” 옵션에 적용됩니다.
 
 Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할 수 있습니다.
 
@@ -36,8 +36,8 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
    **다음은 시각화가 어떻게 손상되는지에 대한 예입니다.**
 
    1. Report Builder에서 페이지 차원과 페이지 보기 횟수 지표를 사용하여 요청이 하나인 통합 문서를 만듭니다.
-   2. 이 요청을 Power BI에 게시하도록 예약합니다.
-   3. Power BI에서, 페이지 및 페이지 보기 횟수에 대한 시각화를 생성합니다.
+   2. Power BI에 게시하도록 이 요청을 예약합니다.
+   3. Power BI에서 페이지 및 페이지 보기 횟수에 대한 시각화를 생성합니다.
    4. 이제 요청에서 페이지 보기 횟수를 제거하여 통합 문서를 편집합니다.
    5. 업데이트된 통합 문서의 일정을 편집하고 요청을 Power BI에 다시 게시합니다.
    6. 새 통합 문서가 Power BI에 전송되면
@@ -50,7 +50,7 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
 
    1. Report Builder에서 페이지 차원과 페이지 보기 횟수 지표를 사용하여 요청이 하나인 통합 문서를 만듭니다.
    2. Power BI에 게시하도록 이 요청을 예약합니다.
-   3. Power BI에서, 페이지 및 페이지 보기 횟수에 대한 시각화를 생성합니다.
+   3. Power BI에서 페이지 및 페이지 보기 횟수에 대한 시각화를 생성합니다.
    4. 이제 페이지 및 페이지 보기 횟수를 유지하면서도 방문 지표를 추가하여 Report Builder에서 통합 문서를 편집합니다.
    5. 업데이트된 통합 문서의 일정을 편집하고 요청을 Power BI에 다시 게시합니다.
    6. 새 통합 문서가 Power BI에 전송되면
@@ -68,6 +68,6 @@ Report Builder 요청을 Power BI에 게시 후 편집하면 문제가 발생할
 
 주의 사항
 
-* 레이블은 행 및 열 주소용의 틀릴 수 있는 문자와 숫자의 조합일 수 없습니다. 예를 들어, A100은 워크시트에 있는 셀 주소이므로 레이블이 될 수 없습니다.
-* 다음 문자는 올바른 레이블 문자가 아닙니다. `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;, 및 `'~', ' '` . 밑줄로 바뀝니다.
+* 레이블은 행 및 열 주소용의 틀릴 수 있는 문자와 숫자의 조합일 수 없습니다. 예를 들어 A100은 워크시트에 있는 셀 주소이므로 레이블이 될 수 없습니다.
+* `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;, `'~', ' '` 문자는 유효한 레이블 문자가 아닙니다. 이 문자들은 밑줄 문자로 대체됩니다.
 * 유효하지 않은 이름을 입력하면 자동으로 생성된 이름을 제시하는 경고 메시지가 표시됩니다. **[!UICONTROL 예]**&#x200B;를 클릭하면, 이 이름이 사용됩니다. **[!UICONTROL 아니요]**&#x200B;를 클릭하면, 고급 마법사 UI를 통해 새 이름을 입력할 수 있습니다.
