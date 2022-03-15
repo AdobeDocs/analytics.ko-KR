@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 보고서 세트의 데이터 소스를 생성하고 관리하며 사용 현황을 볼 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**.
 
 ## 만들기 탭 {#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -56,7 +56,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>FTP 정보 </p> </td> 
-   <td colname="col2"> <p>해당 데이터 소스에 대한 FTP 정보를 표시합니다. 이 정보를 사용하여 데이터 소스 템플릿에 액세스하고 데이터 소스 데이터를 전송합니다.  </p> </td> 
+   <td colname="col2"> <p>해당 데이터 소스에 대한 FTP 정보를 표시합니다. 이 정보를 사용하여 데이터 소스 템플릿에 액세스하고 데이터 소스 데이터를 전송합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>파일 이름 </p> </td> 
@@ -78,4 +78,4 @@ ht-degree: 98%
 
 ## 파일 로그 탭 {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
-파일 로그에는 데이터 소스 이름, 데이터 소스 유형, 파일 이름, 수신한 날짜 또는 상태별로 정보를 검색할 수 있는 검색 기능이 포함됩니다. 
+파일 로그에는 데이터 소스 이름, 데이터 소스 유형, 파일 이름, 수신한 날짜 또는 상태별로 정보를 검색할 수 있는 검색 기능이 포함됩니다.
