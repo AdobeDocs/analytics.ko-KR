@@ -4,7 +4,7 @@ description: 서비스 종료의 이유와 Bulk Data Insertion API 및 전체 �
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -61,19 +61,19 @@ Bulk Data Insertion API(BDIA)에는 전체 처리에서 지원하는 모든 사�
 | ipaddress | 지원되지 않음 | 방문자의 IP 주소입니다. |
 | javaEnabled | javaEnabled | Y 또는 N -- 방문자의 Java 활성화 여부. |
 | javaScriptVersion | javaScriptVersion | JavaScript 버전(예: 1.3). |
-| language | 지원되지 않음 | 브라우저에서 지원되는 언어입니다. (예: `en-us`) |
+| 언어 | 지원되지 않음 | 브라우저에서 지원되는 언어입니다. (예: `en-us`) |
 | linkName | linkName | 링크 이름. |
 | linkType | linkType | 링크 유형. 지원되는 값은 다음과 같습니다. `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | 링크의 HREF. |
 | listn 예: list2 | 지원되지 않음 | 변수로 전달된 후 보고를 위해 개별 라인 항목으로 보고되는 구분 기호로 구분된 값의 목록입니다. |
 | marketingCloudVisitorID | 지원되지 않음 | Marketing Cloud ID. [방문자 식별](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR#id-service-api) 및 Marketing Cloud 방문자 ID 서비스 보기 |
 | 지원되지 않음 | charSet | 웹 사이트에서 지원되는 문자 세트입니다. 예를 들어 UTF-8, ISO-8859-1 등입니다. |
-| 지원되지 않음 | clickAction | 방문자 클릭 맵에 대한 개체 식별자(oid) |
-| 지원되지 않음 | clickActionType | 방문자 클릭 맵에 대한 개체 식별자 유형(oidt) |
+| 지원되지 않음 | clickAction | 방문자 클릭 맵에 대한 오브젝트 식별자(oid) |
+| 지원되지 않음 | clickActionType | 방문자 클릭 맵에 대한 오브젝트 식별자 유형(oidt) |
 | 지원되지 않음 | clickContext | 방문자 클릭 맵에 대한 페이지 식별자(pid) |
 | 지원되지 않음 | clickContextType | 방문자 클릭 맵에 대한 페이지 식별자 유형(pidt) |
 | 지원되지 않음 | clickSourceID | 방문자 클릭 맵에 대한 소스 색인(oi) |
-| 지원되지 않음 | clickTag | 방문자 클릭 맵에 대한 개체 태그 이름(ot) |
+| 지원되지 않음 | clickTag | 방문자 클릭 맵에 대한 오브젝트 태그 이름(ot) |
 | 지원되지 않음 | scXmlVer | 마케팅 보고서 XML 요청 버전 번호(예: 1.0). |
 | 지원되지 않음 | timezone | 방문자의 시간대와 GMT의 시차, 시간 단위(예: -8). |
 | pageName | pageName | 페이지 이름 |
