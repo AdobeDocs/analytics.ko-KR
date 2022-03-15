@@ -4,15 +4,15 @@ description: 고유 방문자 ID의 수입니다.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 고유 방문자 수
 
-고유 방문자 수 지표는 차원 항목에 대한 방문자 ID의 수를 보여줍니다. 차원 항목의 인기도에 대한 높은 수준의 개요를 제공하므로 트래픽을 결정할 때 사용되는 가장 일반적인 지표 중 하나입니다. 예를 들어 방문자는 한 달 동안 매일 사이트를 방문할 수 있지만 여전히 하나의 고유 방문자로 계산됩니다.
+“고유 방문자 수” 지표는 차원 항목에 대한 방문자 ID의 수를 보여 줍니다. 차원 항목의 인기도에 대한 높은 수준의 개요를 제공하므로 트래픽을 결정할 때 사용되는 가장 일반적인 지표 중 하나입니다. 예를 들어 방문자는 한 달 동안 매일 사이트를 방문할 수 있지만 여전히 하나의 고유 방문자로 계산됩니다.
 
 [디바이스 간 분석](../cda/overview.md)을 사용하는 경우 지표는 [고유 디바이스](unique-devices.md) 지표로 대체됩니다.
 
@@ -30,8 +30,8 @@ Analysis Workspace는 보고서의 세부기간을 기준으로 고유 방문자
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 변수가 설정되어 있습니다. |
 | 2 | `aid` | 방문자에게 기존 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR) 쿠키가 있습니다. 방문자 ID 서비스를 구현하지 않은 상태에서 또는 구현하기 전에 구현을 설정하십시오. |
-| 3 | `mid` | 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키가 있습니다. [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 구현을 설정하십시오. |
-| 4 | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) 쿠키가 있습니다. 또는 어떤 이유에서든 `aid`와 `mid`를 설정할 수 없을 경우입니다. |
+| 3 | `mid` | 방문자에게 기존 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR) 쿠키가 있습니다. [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하여 구현을 설정하십시오. |
+| 4 | `fid` | 방문자에게 기존 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR) 쿠키가 있습니다. 또는 어떤 이유에서든 `aid`와 `mid`를 설정할 수 없을 경우입니다. |
 | 5 | IP 주소, 사용자 에이전트, 게이트웨이 IP 주소 | 방문자의 브라우저가 쿠키를 허용하지 않는 경우 고유 방문자를 식별하는 마지막 방법입니다. |
 
 >[!NOTE]
