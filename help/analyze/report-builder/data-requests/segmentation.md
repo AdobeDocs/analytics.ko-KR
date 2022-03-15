@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 >세그먼트를 추가하거나 편집할 수 있게 Report Builder 세그먼트 인터페이스는 Microsoft Internet Explorer 창에서 Analytics 세그먼트 빌더를 시작합니다. Report Builder 세션은 활성 상태를 유지합니다. Internet Explorer 이외의 브라우저는 이 작업에 지원되지 않습니다.
 
 1. 요청 마법사 1단계의 세그먼트 패널에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR)를 참조하십시오.
+1. Internet Explorer 창이 표시되면서 Analytics 세그먼트 빌더 인터페이스가 열립니다. 세그먼트 빌드 방법에 대한 자세한 내용은 [분석 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)를 참조하십시오.
 1. 세그먼트를 정의하고 저장한 후에 요청 마법사로 돌아갑니다.
 1. 새로 고침 아이콘을 클릭하여 세그먼트 목록을 새로 고칩니다.
 
@@ -39,7 +39,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 세그먼트로 전환하려는 특정 보고서 차원 조합이 있을 수 있습니다. Report Builder 인터페이스에서 이러한 세그먼트를 만들 수 있습니다. 예를 들어 페이지 요청 출력에서 몇 개의 페이지를 선택하고 이러한 값을 기준으로 세그먼트를 만듭니다.
 
 1. 세그먼트로 전환할 보고서 출력 항목을 선택합니다.
-1. 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL 컨텍스트 내 세그먼트 만들기]**&#x200B;를 선택하고 적절한 컨테이너(히트 컨테이너, 방문 컨테이너, 방문자 컨테이너)를 지정합니다.
+1. 마우스 오른쪽 버튼을 클릭하여 **[!UICONTROL 컨텍스트 내 세그먼트 만들기]**&#x200B;를 선택하고 적절한 컨테이너(히트 컨테이너, 방문 컨테이너, 방문자 컨테이너)를 지정합니다.
 
    ![](assets/seg_in_context.png)
 
@@ -52,7 +52,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 ## 세그먼트 검색 및 적용 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Reports &amp; Analytics, Report Builder 또는 데이터 웨어하우스에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭합니다.
+Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭합니다.
 
 지정된 요청에 하나 또는 여러 개의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
