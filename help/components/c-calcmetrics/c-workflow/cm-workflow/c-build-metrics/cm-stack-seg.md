@@ -1,10 +1,10 @@
 ---
-description: 계산된 지표 빌더 내에서 세그먼트를 스택하고 바꾸는 방법을 보여줍니다.
+description: 계산된 지표 빌더 내에서 세그먼트를 스택하고 바꾸는 방법을 보여 줍니다.
 title: 세그먼트 스택 및 바꾸기
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 세그먼트 스택 및 바꾸기
 
-계산된 지표 빌더 내에서 세그먼트를 스택하고 바꾸는 방법을 보여줍니다.
+계산된 지표 빌더 내에서 세그먼트를 스택하고 바꾸는 방법을 보여 줍니다.
 
 ## 세그먼트 스택 {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
