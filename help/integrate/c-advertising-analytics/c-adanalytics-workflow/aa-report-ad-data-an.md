@@ -4,7 +4,7 @@ title: Adobe Analytics의 광고 데이터에 대한 보고서
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Analysis Workspace 템플릿과 Reports &amp; Analytics 및 Report Builder의 �
 
 ## Analysis Workspace: 검색 엔진 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-이 템플릿을 사용하면 이 검색 엔진 통합을 구현하는 모든 사용자가 Analytics 내에서 방대한 검색 엔진 데이터에 액세스할 수 있습니다. **[!UICONTROL 작업 공간]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 광고]** > **[!UICONTROL 검색 엔진]**&#x200B;을 통해 액세스할 수 있습니다.
+이 템플릿을 사용하면 이 검색 엔진 통합을 구현하는 모든 사용자가 Analytics 내에서 방대한 검색 엔진 데이터에 액세스할 수 있습니다. **[!UICONTROL 작업 영역]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 광고]** > **[!UICONTROL 검색 엔진]**&#x200B;을 통해 액세스할 수 있습니다.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Analysis Workspace 템플릿과 Reports &amp; Analytics 및 Report Builder의 �
 | 계정 합계 | 연관된 지표로 분류된 최상위 계정의 자유 형식 테이블. |
 | 캠페인 | 캠페인 비용의 막대 차트. |
 | 캠페인 총계 | 연관된 지표로 분류된 최상위 캠페인의 자유 형식 테이블. |
-| 그룹  | 비용의 트리 맵. |
+| 그룹 | 비용의 트리 맵. |
 | 그룹 총계 | 연관된 지표로 분류된 최상위 광고 그룹의 자유 형식 테이블. |
 | 광고 | 노출 횟수, 클릭 수 및 비용의 가로 막대 차트. |
 | 광고 총계 | 연관된 지표로 분류된 최상위 광고의 자유 형식 테이블. |
