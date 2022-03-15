@@ -4,12 +4,12 @@ title: Analytics를 Adobe Campaign과 통합하는 방법
 feature: Campaign Integration
 exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '63'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics를 Campaign Classic과 통합
 
-자세한 내용은 [Adobe Analytics 커넥터 프로비저닝](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html?lang=en) Adobe Analytics 데이터를 Campaign Classic에 통합하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
+Adobe Analytics 데이터를 Campaign Classic에 통합하는 방법에 대한 자세한 내용은 [Adobe Analytics 커넥터 프로비저닝](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html?lang=en)을 참조하십시오.
