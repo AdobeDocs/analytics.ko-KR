@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
 ht-degree: 100%
 
@@ -24,12 +24,12 @@ Report Builder에서 게시한 자산을 Power BI Desktop에 가져오는 방법
 
 Microsoft는 Power BI Desktop의 2017년 4월 업데이트에서 Power BI 서비스의 데이터 세트에 연결하는 기능을 발표했습니다. 이 기능을 사용하면 이미 클라우드에 게시한 기존의 데이터 세트에서 새 보고서를 생성할 수 있고, 팀에서 공동 작업을 더 잘 수행하고 중복되는 노력을 줄일 수 있습니다.
 
-1. Power BI Desktop에서 **[!UICONTROL 파일]** > **[!UICONTROL 옵션 및 설정]** > **[!UICONTROL 옵션]** > **[!UICONTROL 기능 미리 보기]**&#x200B;로 이동합니다.
+1. Power BI Desktop에서 **[!UICONTROL 파일]** > **[!UICONTROL 옵션 및 설정]** > **[!UICONTROL 옵션]** > **[!UICONTROL 기능 미리보기]**&#x200B;로 이동합니다.
 1. **[!UICONTROL Power BI 서비스 라이브 연결]**&#x200B;을 활성화하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다. ![](assets/bi-preview-features.png)
 
 1. Power BI Desktop을 시작합니다.
-1. 데스크톱을 시작한 후 **[!UICONTROL 홈]** > **[!UICONTROL 데이터 가져오기]** > **[!UICONTROL 더 보기]**&#x200B;로 이동합니다.
+1. 데스크탑을 시작한 후 **[!UICONTROL 홈]** > **[!UICONTROL 데이터 가져오기]** > **[!UICONTROL 더 보기]**&#x200B;로 이동합니다.
 1. **[!UICONTROL Power BI 서비스]**&#x200B;를 검색하여 선택합니다.
-1. **[!UICONTROL Microsoft Power BI 서비스]** > **[!UICONTROL 내 작업 공간]** 아래에서 이전에 Report Builder에서 게시한 데이터 세트를 선택합니다.
+1. **[!UICONTROL Microsoft Power BI 서비스]** > **[!UICONTROL 내 작업 영역]** 아래에서 이전에 Report Builder에서 게시한 데이터 세트를 선택합니다.
 
 자세한 내용은 이 [Microsoft 블로그 게시물](https://powerbi.microsoft.com/ko-kr/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)을 참조하십시오.
