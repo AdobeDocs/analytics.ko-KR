@@ -6,13 +6,13 @@ feature: API
 role: Developer
 exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
 source-git-commit: 44b869a269fdf3a52d8ef132787a66a8284cf6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Analytics 보고 API
+# Analytics Reporting API
 
 Adobe Analytics API에 대한 설명서는 [Adobe I/O](https://developer.adobe.com/analytics-apis/docs/2.0/)에 있습니다.
 
