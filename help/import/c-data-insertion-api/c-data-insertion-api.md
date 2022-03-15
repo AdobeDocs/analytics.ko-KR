@@ -1,12 +1,12 @@
 ---
-description: 데이터 삽입 API 설명서에 연결합니다.
+description: 데이터 삽입 API 설명서에 대한 링크입니다.
 title: 데이터 삽입 API
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
 source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 

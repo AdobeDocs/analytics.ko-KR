@@ -46,7 +46,7 @@ ht-degree: 99%
          + [임시 세그먼트](analysis-workspace/components/segments/ad-hoc-segments.md)
       + 달력 및 날짜 범위 {#calendar-date-ranges}
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [사용자 지정 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
@@ -178,15 +178,15 @@ ht-degree: 99%
          + [요청 마법사 정의 - 순환 날짜](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
          + [실시간 보고서](report-builder/data-requests/configuring-report-dates/real-time.md)
          + [실시간 요청 구성](report-builder/data-requests/configuring-report-dates/t-real-time.md)
-         + 사용자 지정된 날짜 표현식 {#customized-date-expressions}
-            + [사용자 지정된 날짜 표현식 - 개요](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
+         + 사용자 정의된 날짜 표현식 {#customized-date-expressions}
+            + [사용자 정의된 날짜 표현식 - 개요](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [날짜 약자](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [개별 시작 또는 종료 날짜](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
-            + [사용자 지정된 표현식을 사용한 날짜 범위의 예](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
+            + [사용자 정의된 표현식을 사용한 날짜 범위의 예](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
             + [고려 사항](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [셀의 날짜](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
          + [세부 기간](report-builder/data-requests/configuring-report-dates/granularity.md)
-         + [사용자 지정 달력](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+         + [사용자 정의 달력](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [양방향 컨트롤](report-builder/data-requests/interactive-controls.md)
    + 레이아웃 - 요청 마법사 2단계 {#layout}
       + [레이아웃 개요](report-builder/layout/layout.md)
@@ -206,7 +206,7 @@ ht-degree: 99%
       + [출력 매핑 삭제](report-builder/layout/delete-output-mapping.md)
       + [요청 이름 지정](report-builder/layout/name-a-request.md)
       + [텍스트를 셀에 앞에 추가 및 뒤에 추가](report-builder/layout/prepend-and-postpend-text-to-cells.md)
-      + [사용자 지정 레이아웃 구성](report-builder/layout/configure-the-custom-layout.md)
+      + [사용자 정의 레이아웃 구성](report-builder/layout/configure-the-custom-layout.md)
       + [지표 및 차원을 셀에 매핑](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [마이크로차트 만들기](report-builder/layout/t-create-a-microchart.md)
       + 차원 필터링 {#filter-dimenson}
@@ -278,7 +278,7 @@ ht-degree: 99%
    + [전체 지표 세트](activity-map/activitymap-complete-metrics.md)
    + [실시간(라이브) 페이지 분석](activity-map/activitymap-realtime.md)
    + [고객 세그멘테이션](activity-map/activitymap-multiple-segments.md)
-   + [사용자 지정 가능 오버레이](activity-map/activitymap-gainerslosers.md)
+   + [사용자 정의 가능 오버레이](activity-map/activitymap-gainerslosers.md)
    + [오버레이 세부정보](activity-map/activitymap-overlay-details.md)
    + [CSV 파일로 내보내기](activity-map/activitymap-csv.md)
    + [지원되는 시스템 및 요구 사항](activity-map/activitymap-sysreqs.md)
@@ -301,8 +301,8 @@ ht-degree: 99%
    + [예약된 보고서에 대한 수명 종료 알림](reports-analytics/scheduled-reports-eol.md)
    + [보고서 유형](reports-analytics/reports.md)
    + [다른 보고서 유형 실행](reports-analytics/t-running-report-types.md)
-   + 보고서 사용자 지정 {#customize-reports}
-      + [보고서 사용자 지정 개요](reports-analytics/reports-customize/customizing-reports-overview.md)
+   + 보고서 사용자 정의 {#customize-reports}
+      + [보고서 사용자 정의 개요](reports-analytics/reports-customize/customizing-reports-overview.md)
       + [보고서 그래프 변경](reports-analytics/reports-customize/t-reports-graphs.md)
       + [분류](reports-analytics/reports-customize/breakdowns.md)
       + [하위 관계](reports-analytics/reports-customize/subrelations.md)

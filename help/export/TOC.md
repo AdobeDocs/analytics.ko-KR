@@ -7,7 +7,7 @@ user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

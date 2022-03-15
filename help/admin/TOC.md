@@ -3,16 +3,16 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
-user-guide-description: Experience Cloud Admin Console에서 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
+user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics Admin Guide {#admin}
+# Adobe Analytics 관리 안내서 {#admin}
 
 + [Analytics 관리 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
@@ -30,15 +30,15 @@ ht-degree: 95%
       + [보트 제외 방법](admin/bot-removal/bot-exclusion-methods.md)
    + [코드 관리자](admin/code-manager-admin.md)
    + 전환 변수 {#conversion-variables}
-      + [전환 변수(eVar)](admin/conversion-var-admin/conversion-var-admin.md)
+      + [전환 변수 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [전환 변수 편집](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [전환 분류](admin/conversion-var-admin/conversion-classifications.md)
       + [분류 계층](admin/conversion-var-admin/classification-hierarchies.md)
       + [목록 변수](admin/conversion-var-admin/list-var-admin.md)
       + [머천다이징 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [통화 코드](admin/currency.md)
-   + [사용자 지정 보고서 설명](admin/custom-desc-admin.md)
-   + [사용자 지정 달력](admin/custom-calendar.md)
+   + [사용자 정의 보고서 설명](admin/custom-desc-admin.md)
+   + [사용자 정의 달력](admin/custom-calendar.md)
    + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
@@ -47,7 +47,7 @@ ht-degree: 95%
    + [내부 URL 필터](admin/internal-url-filter-admin.md)
    + [로그](admin/logs.md)
    + [마케팅 채널](admin/marketing-channels-admin.md)
-   + [메뉴 사용자 지정](admin/customize-menus.md)
+   + [메뉴 사용자 정의](admin/customize-menus.md)
    + [지표 가시성](admin/metric-visibility.md)
    + [앱 관리](admin/mobile-management.md)
    + 유료 검색 감지 {#paid-search-detection}
@@ -108,7 +108,7 @@ ht-degree: 95%
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
-+ Analytics Adobe Admin Console의 {#admin-console}
++ Adobe Admin Console의 Analytics {#admin-console}
    + [Adobe Admin Console의 Analytics](admin-console/home.md)
    + 권한 {#permissions}
       + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)

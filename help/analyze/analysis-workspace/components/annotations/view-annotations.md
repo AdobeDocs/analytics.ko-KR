@@ -7,7 +7,7 @@ exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 50%
+ht-degree: 67%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 50%
 
 ![](assets/ann-pdf.png)
 
-## 날짜를 기반으로 하지 않는 주석 보기
+## 날짜 기반이 아닌 주석 보기
 
-경우에 따라 주석이 날짜에 연결되지 않고 특정 차원에 연결되어 있습니다. 이 경우 오른쪽 아래 모서리에 있는 요약 주석에만 표시됩니다. 다음은 한 예입니다.
+때로는 주석이 날짜와 연결되지 않고 특정 차원에 연결됩니다. 이 경우 오른쪽 하단에 있는 요약 주석에만 나타납니다. 다음은 한 예입니다.
 
 ![](assets/non-date.png)

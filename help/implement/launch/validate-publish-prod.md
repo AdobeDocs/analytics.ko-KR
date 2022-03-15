@@ -14,7 +14,7 @@ ht-degree: 81%
 
 태그 라이브러리를 프로덕션에 푸시하고 나면 조직에서 Adobe Analytics를 사용하여 기본 보고서를 가져올 수 있습니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 [개발 환경에 Adobe Analytics 배포](deploy-dev.md): 이 페이지를 따라 진행하려면 개발 환경에 Analytics 구현을 게시해야 합니다.
 
@@ -64,5 +64,5 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 
 이제 기본 구현이 설정되었으므로 다음 경로 중에서 어떤 것에 대해 자세히 알아볼 것 인지에는 조직 내 역할이 영향을 줄 수 있습니다.
 
-* [솔루션 디자인 문서 만들기](../prepare/solution-design.md): 사용자 지정 변수를 사용할 방법을 계획한 다음 구현에 포함시킵니다.
+* [솔루션 디자인 문서 만들기](../prepare/solution-design.md): 사용자 정의 변수를 사용할 방법을 계획한 다음 구현에 포함시킵니다.
 * [Analysis Workspace 사용하기](/help/analyze/analysis-workspace/home.md): 도구의 주요 기능을 사용하여 Adobe Analytics를 바로 사용하여 보십시오.
