@@ -4,7 +4,7 @@ description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * 이러한 규칙으로 수집한 데이터는 100% 영구적이며 데이터를 수집한 후에 수정한 규칙은 되돌릴 수 없습니다. 데이터가 잘못된 채널에서 수집되는 일을 막을 수 있도록 [!UICONTROL 마케팅 채널 처리 규칙]을 저장하기 전에 모든 상황을 검토하고 고려하는 것이 좋습니다.
 * 보고서는 한 번에 최대 25개의 채널을 처리할 수 있습니다.
 * 규칙은 VISTA가 설정한 변수에 액세스할 수 있지만 VISTA가 삭제한 데이터에는 액세스할 수 없습니다.
-* 두 개의 마케팅 채널이 동일 이벤트 (예: 구매 횟수 또는 클릭 수)에 대한 크레디트를 받지 않습니다. 이 방법에서, 마케팅 채널은 eVar와 다릅니다(두 개의 eVar가 동일 이벤트에 대한 크레디트를 받을 수 있는 경우).
+* 두 개의 마케팅 채널이 동일 이벤트 (예: 구매 횟수 또는 클릭 수)에 대한 크레디트를 받지 않습니다. 이 방법에서 마케팅 채널은 eVar와 다릅니다(두 개의 eVar가 동일 이벤트에 대한 크레디트를 받을 수 있는 경우).
 * 규칙에 대한 틈새 범위가 있는 경우 [식별된 채널 없음](/help/components/c-marketing-channels/c-faq.md)이 표시될 수 있습니다.
 
 ## 사전 요구 사항
@@ -49,7 +49,7 @@ ht-degree: 100%
 
    ![단계 결과](assets/marketing_channel_rules.png)
 
-4. 새 규칙을 추가하려면&#x200B;**[!UICONTROL 새 규칙 세트 추가]** 메뉴에서 선택합니다. 채널을 선택하면 규칙 템플릿이 제공되고 사용자 지정을 선택하면 빈 슬레이트에서 시작합니다. 두 옵션 모두 필요에 따라 규칙 세트를 수정할 수 있습니다.
+4. 새 규칙을 추가하려면&#x200B;**[!UICONTROL 새 규칙 세트 추가]** 메뉴에서 선택합니다. 채널을 선택하면 규칙 템플릿이 제공되고 사용자 정의를 선택하면 빈 슬레이트에서 시작합니다. 두 옵션 모두 필요에 따라 규칙 세트를 수정할 수 있습니다.
 
    ![단계 결과](assets/example_email.png)
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 
 자연어 검색은 비용을 지불하지 않고 검색 엔진이 사이트 등급을 지정하는 웹 검색을 통해 방문자가 웹 사이트를 찾을 때 발생합니다.
 
-Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
+Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=ko-KR)를 참조하십시오.
 
 마케팅 채널 규칙의 경우, 자연어 검색 설정은 다음과 같습니다.
 
@@ -148,7 +148,7 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 ### 제휴 {#afilliates}
 
-이 규칙은 지정된 참조 도메인에서 온 방문자를 식별합니다. 규칙에서, 추적할 방문자의 제휴의 도메인을 다음과 같이 나열합니다.
+이 규칙은 지정된 참조 도메인에서 온 방문자를 식별합니다. 규칙에서 추적할 방문자의 제휴의 도메인을 다음과 같이 나열합니다.
 
 ![](assets/example_affiliates.png)
 
