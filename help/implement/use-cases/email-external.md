@@ -4,7 +4,7 @@ description: Adobe Analytics를 사용하여 이메일 콘텐츠를 추적합니
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
    JavaScript 파일 [!DNL s_code.js]에서 코드를 바꾸면, 이메일을 통해 얼마나 많은 사용자, 그리고 어떤 사용자가 클릭스루를 수행하고 그 후의 성공 이벤트에 참여했는지 알 수 있습니다. JavaScript 라이브러리를 업데이트하는 두 가지 단계가 있습니다.
 
-   1. [!UICONTROL getQueryParam]을 호출하여 [!DNL s_code.js]를 사용자 지정합니다.
+   1. [!UICONTROL getQueryParam]을 호출하여 [!DNL s_code.js]를 사용자 정의합니다.
 
       [!DNL s_code.js] 파일은 각 웹 페이지가 액세스할 수 있는 웹 서버에 이 파일을 보관해야 합니다. 이 파일 내에 있는 *`doPlugins`* 함수는 이메일 링크에서 쿼리 문자열 매개 변수를 캡처할 수 있도록 변경해야 합니다. 예:
 
@@ -73,7 +73,7 @@ ht-degree: 100%
       s.doPlugins=s_doPlugins 
       ```
 
-      변수에 복사해야 하는 각 쿼리 문자열 매개 변수에는 하나의 [!UICONTROL getQueryParam] 호출이 있어야 합니다. 위의 예에서, 쿼리 문자열 매개 변수 [!UICONTROL sc_cid]는 *`campaign`*.
+      변수에 복사해야 하는 각 쿼리 문자열 매개 변수에는 하나의 [!UICONTROL getQueryParam] 호출이 있어야 합니다. 위의 예에서 쿼리 문자열 매개 변수 [!UICONTROL sc_cid]는 *`campaign`*.
 
       클릭스루를 캡처하는 데는 [!UICONTROL getQueryParam]에 대한 첫 번째 호출만 필요합니다. 이 함수를 구현하고 자신의 JavaScript 파일 버전에 [!DNL Customer Care]getQueryParam[!UICONTROL  플러그인이 들어 있는지 확인하려면 Adobe ]에 문의하십시오.
 
@@ -92,13 +92,13 @@ ht-degree: 100%
 
    이메일 캠페인에 의한 경로 지정 분석은 다른 캠페인에 의한 경로 지정과 유사하게 수행할 수 있습니다. 다음 단계들에 설명된 것처럼, 변수를 사용하여 캠페인별 경로 지정을 표시할 수 있습니다.
 
-   1. [!DNL Customer Care]사용자 지정 인사이트[!UICONTROL  변수 (prop)에 대한 경로 지정을 사용하는 방법에 대한 자세한 내용은 Adobe ]에 문의하십시오.
+   1. [!DNL Customer Care]사용자 정의 인사이트[!UICONTROL  변수 (prop)에 대한 경로 지정을 사용하는 방법에 대한 자세한 내용은 Adobe ]에 문의하십시오.
 
-   1. 모든 페이지에서, 페이지 이름을 지정된 [!DNL s.prop]로 복사하십시오.
-   1. 이메일 랜딩 페이지에서, 이메일 캠페인의 이름을 prop에 추가합니다. 결과는 아래와 같이 표시됩니다.
+   1. 모든 페이지에서 페이지 이름을 지정된 [!DNL s.prop]로 복사하십시오.
+   1. 이메일 랜딩 페이지에서 이메일 캠페인의 이름을 prop에 추가합니다. 결과는 아래와 같이 표시됩니다.
 
       ```js
       s.prop1="Home Page : 123456"
       ```
 
-      경로 지정 기능이 [!UICONTROL 사용자 지정 인사이트] 변수에 대해 활성화되면, [!UICONTROL 경로] 보고서 ([!UICONTROL 다음 페이지 흐름]이나 [!UICONTROL 폴아웃] 등)를 사용하여 랜딩 페이지에서 방문자 이동을 볼 수 있습니다.
+      경로 지정 기능이 [!UICONTROL 사용자 정의 인사이트] 변수에 대해 활성화되면, [!UICONTROL 경로] 보고서 ([!UICONTROL 다음 페이지 흐름]이나 [!UICONTROL 폴아웃] 등)를 사용하여 랜딩 페이지에서 방문자 이동을 볼 수 있습니다.
