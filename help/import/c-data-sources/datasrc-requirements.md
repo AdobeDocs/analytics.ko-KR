@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 ## 크기 제한 {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
-* 각 FTP 계정은 모든 파일에 대해 총 50MB의 데이터로 제한됩니다. 크기가 50MB를 초과하는 경우 처리가 일시 중지되며 총 크기가 50MB 아래로 떨어져야 다시 시작됩니다. 
+* 각 FTP 계정은 모든 파일에 대해 총 50MB의 데이터로 제한됩니다. 크기가 50MB를 초과하는 경우 처리가 일시 중지되며 총 크기가 50MB 아래로 떨어져야 다시 시작됩니다.
 
 ## 날짜 {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
@@ -59,11 +59,11 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다.  </p> <p>도움말에서 <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=ko-KR"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지원됨. 데이터 소스에서 사용하는 보고서 세트에 멀티바이트 문자 지원이 활성화되어 있어야 합니다. </p> <p>도움말에서 <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >새 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Byte Order Mark(EF BB BF)를 포함한 UTF-8 </td> 
-   <td colname="col2"> <p>지원됨. 많은 Windows 응용 프로그램에서 이 형식으로 저장하고 있지만 표준은 아닙니다.  </p> <p>예를 들어 WordPad에서 "UTF-8" 선택 시 이 형식으로 저장됩니다. </p> </td> 
+   <td colname="col2"> <p>지원됨. 많은 Windows 애플리케이션에서 이 형식으로 저장하고 있지만 표준은 아닙니다. </p> <p>예를 들어 WordPad에서 "UTF-8" 선택 시 이 형식으로 저장됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1(Latin-1 또는 Windows-1252) </td> 
@@ -94,7 +94,7 @@ UTF-8 또는 ISO-8859-1 파일을 전송할 때 보고서 세트가 이를 지�
 * 웹 로그 데이터를 보기에 가장 유용한 보고서는 페이지 보기 횟수와 같은 트래픽 보고서입니다.
 * 페이지 이름은 쿼리 문자열을 포함한 전체 URL로 표시됩니다.
 * 각 파일 요청은 스타일 시트와 이미지 파일을 포함한 별도의 페이지 보기로 표시됩니다.
-* URL에 정보를 첨부하면 파일이 별도 페이지로 기록되지 않을 수 있습니다. 예를 들어 Adobe은 다음 URL을 두 개의 개별 페이지로 기록합니다.
+* URL에 정보를 첨부하면 파일이 별도 페이지로 기록되지 않을 수 있습니다. 예를 들어 Adobe는 다음 URL을 두 개의 개별 페이지로 기록합니다.
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
