@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 사용자 특성은 VisAttr이라는 새로운 유형의 요소에 저장되며 이것은 차원이나 지표로 구성할 수 있습니다.
 
-사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko-KR)을 참조하십시오.
+사용자 특성을 업로드하는 방법에 대한 자세한 내용은 [Experience Cloud 도움말](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
 * VisAttr을 지표로 구성하는 경우 &quot;차원&quot;과 지표 모두로 노출됩니다.
 
