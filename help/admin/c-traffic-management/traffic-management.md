@@ -4,9 +4,9 @@ title: 트래픽 관리
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 86%
 
 [!UICONTROL 트래픽 관리]에 액세스하려면
 
-1. 클릭 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 선택한 다음 보고서 세트를 선택합니다.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭한 다음 보고서 세트를 선택합니다.
 
 1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 트래픽 관리]** > *`<selection>`*&#x200B;을 클릭합니다.
