@@ -4,7 +4,7 @@ description: 마케팅 채널 워크플로, 자동 설정 및 템플릿 보고�
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
-마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 지정할 수 있습니다.
+마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 정의할 수 있습니다.
 
 마케팅 채널은 표준 변환 지표의 구성 요소인 첫 번째 및 마지막 접촉 지표를 중심으로 진행됩니다.
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->마케팅 채널이 이전에 구성된 적이 없다면 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md)이 표시됩니다. 이 설정에서는 사용자 지정이 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
+>마케팅 채널이 이전에 구성된 적이 없다면 [자동 설정](/help/components/c-marketing-channels/c-getting-started-mchannel.md)이 표시됩니다. 이 설정에서는 사용자 정의가 가능한 사전 구성된 채널 몇 가지를 제공합니다. Adobe에서는 이러한 규칙을 템플릿으로 사용할 것을 권장합니다. 그러나 이미 확고한 채널 정의가 있는 경우에는 자동 설정을 건너뛸 수 있습니다.
 
 ![](assets/step3_icon.png)[!UICONTROL  마케팅 채널 처리 규칙] 페이지에서 각 채널의 규칙을 구성하거나 세분화합니다.
 
