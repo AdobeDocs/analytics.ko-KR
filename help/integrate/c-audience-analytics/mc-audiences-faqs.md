@@ -1,13 +1,13 @@
 ---
 description: Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입니다.
 solution: Experience Cloud
-title: FAQ
+title: Audience Analytics FAQ
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 99%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
 description: 가장 자주 묻는 일부 Analytics 질문에 대한 답변 및 문제 해결 제안 사항을 제공합니다.
 keywords: Analytics 문제 해결
-title: FAQ
+title: Reports & Analytics에 대한 FAQ
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '843'
+ht-degree: 99%
 
 ---
 

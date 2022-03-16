@@ -1,14 +1,14 @@
 ---
 description: 달력 이벤트를 추가하고, 공유 이벤트를 관리하는 절차입니다.
-title: 달력 이벤트
+title: 달력 이벤트 추가 및 관리
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: 달력
+feature: Calendar
 role: User, Admin
 exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 98%
 
 ---
 

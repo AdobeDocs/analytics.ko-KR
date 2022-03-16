@@ -1,12 +1,12 @@
 ---
 description: 데이터 소스 기능을 사용하면 오프라인 소스의 데이터를 Analytics로 가져올 수 있습니다. 가져온 데이터는 기본적으로 수집된 데이터와 비슷하게 처리 및 취급됩니다.
-title: 데이터 소스
+title: 데이터 소스 관리자용
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 98%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 description: 실시간 보고서에서 지원하는 지표와 차원을 나열합니다. 분류를 정의했을 경우 분류도 지원됩니다.
-title: 지원되는 실시간 지표 및 차원
+title: 지원되는 실시간 지표 및 차원 개요
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

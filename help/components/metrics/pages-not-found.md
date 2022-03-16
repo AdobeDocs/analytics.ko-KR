@@ -1,12 +1,12 @@
 ---
-title: 페이지를 찾을 수 없음
+title: 페이지를 찾을 수 없음(지표)
 description: 오류가 포함된 히트의 수입니다.
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 96%
 
 ---
 

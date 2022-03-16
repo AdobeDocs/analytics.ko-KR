@@ -1,12 +1,12 @@
 ---
 description: 달력 이벤트를 추가하고, 공유 이벤트를 관리하는 절차입니다.
-title: 달력 이벤트
-feature: Reports & Analytics 기본 사항
+title: 달력 이벤트 개요
+feature: Reports & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '341'
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '339'
 ht-degree: 100%
 
 ---

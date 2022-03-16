@@ -1,13 +1,13 @@
 ---
 description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경고를 받습니다.
-title: 경고 빌더
+title: 경고 빌더(Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 * Analysis Workspace에서 다음의 단축키 사용:
 
    `ctrl (or cmd) + shift + a`
-* **[!UICONTROL Workspace]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**&#x200B;로 이동.
+* **[!UICONTROL 작업 영역]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 경고]**&#x200B;로 이동.
 * 하나 이상의 자유 형식 테이블 라인 항목을 선택하고, 마우스 오른쪽 버튼으로 클릭한 다음, **[!UICONTROL 선택 항목으로 경고 만들기 선택]**.
 * Reports &amp; Analytics 보고서에서, **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;로 이동.
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->사용자 지정 달력을 사용하는 보고서 세트에 대해, Adobe에서는 경고 빌더에서 월별 세부 기간을 지원하지 않습니다.
+>사용자 정의 달력을 사용하는 보고서 세트에 대해, Adobe에서는 경고 빌더에서 월별 세부 기간을 지원하지 않습니다.
 
 **수신자**
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 *... 다음 필터 사용*
 
-* 세그먼트 또는 차원을 드래그하여 놓아 필터를 추가합니다. 예를 들어, &quot;모바일 디바이스만&quot; 세그먼트를 추가한다는 것은 모바일 디바이스에 대해서만 규칙이 트리거됨을 의미합니다.
+* 세그먼트 또는 차원을 드래그하여 놓아 필터를 추가합니다. 예를 들어 &quot;모바일 디바이스만&quot; 세그먼트를 추가한다는 것은 모바일 디바이스에 대해서만 규칙이 트리거됨을 의미합니다.
 * 추가 필터를 적용하려면 AND 구문을 사용합니다.
 
 **규칙 추가**
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 대화형 경고 미리보기에서는 경고가 과거의 경험을 기반으로 얼마나 자주 표시되는지를 근사적으로 보여 줍니다.
 
-예를 들어, 시간 세부 기간을 매일로 설정하는 경우, 미리보기에서는 경고가 지난 30 또는 31일 동안 특정 지표 x 배수에 대해 트리거됨을 알 수 있습니다.
+예를 들어 시간 세부 기간을 매일로 설정하는 경우, 미리보기에서는 경고가 지난 30 또는 31일 동안 특정 지표 x 배수에 대해 트리거됨을 알 수 있습니다.
 
 너무 많은 경고가 트리거될 것 같으면 [경고 관리자](/help/components/c-alerts/alert-manager.md)에서 임계값을 조정할 수 있습니다.
 

@@ -1,12 +1,12 @@
 ---
-title: 단일 페이지 방문 횟수
+title: 단일 페이지 방문 횟수(지표)
 description: 방문에서 '페이지' 차원 항목이 변경되지 않은 횟수입니다.
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '190'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 97%
 
 ---
 
