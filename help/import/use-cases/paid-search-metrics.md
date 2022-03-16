@@ -35,7 +35,7 @@ ht-degree: 100%
 
    ![성공 이벤트](assets/success-events.png)
 
-1. 사용자 정의 성공 이벤트에서 **[!UICONTROL 새로 추가]**&#x200B;를 사용하여 [!UICONTROL 클릭수](카운터), [!UICONTROL 노출수](카운터) 및 [!UICONTROL 총 비용](통화)의 3가지 사용자 정의 성공 이벤트를 만듭니다.
+1. 사용자 정의 성공 이벤트에서 **[!UICONTROL 새로 추가]**&#x200B;를 사용하여 [!UICONTROL 클릭수] (카운터), [!UICONTROL 노출수] (카운터) 및 [!UICONTROL 총 비용] (통화)의 3가지 사용자 정의 성공 이벤트를 만듭니다.
 
    ![새로운 성공 이벤트](assets/new-success-events.png)
 
