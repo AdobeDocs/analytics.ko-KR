@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 77%
+source-wordcount: '878'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 77%
 1. (선택 사항) 세그먼트 이름을 바꿉니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-세그먼트의 사이드바가 파란색 줄무늬에서 파란색으로 어떻게 바뀌는지 확인합니다. 이제 왼쪽 레일 구성 요소 목록에도 표시됩니다.
+세그먼트의 측면 막대가 스트라이핑된 파란색에서 연한 파란색으로 어떻게 변경되는지 확인합니다. 이제 왼쪽 레일 구성 요소 목록에도 표시됩니다.
 
 ## 프로젝트 전용 세그먼트는 무엇입니까?
 
