@@ -3,14 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9892291d5386c3faaec0da06084a1ce7695a78a
+source-git-commit: 99572e3ed2b519b5479a31680a48c17e2aed4fd9
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '888'
 ht-degree: 52%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 노트(2022년 3월)
+
+**최근 업데이트: 2022년 3월 21일**
 
 >[!IMPORTANT]
 >
@@ -24,7 +26,7 @@ ht-degree: 52%
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
 | Workspace의 주석 | Workspace의 주석을 사용하면 조직에 컨텍스트 데이터 미묘한 뉘앙스와 통찰력을 효과적으로 전달할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022년 3월 23일 |
-| Adobe Analytics 랜딩 페이지 업데이트 | 유용성을 향상시키고 탐색을 쉽게 하는 공동 작업 공간/Reports &amp; Analytics 랜딩 페이지에 대한 업데이트입니다. [자세히 알아보기](/help/analyze/landing.md) | TBD |
+| Adobe Analytics 랜딩 페이지 업데이트 | 유용성을 향상시키고 탐색을 쉽게 하는 공동 작업 공간/Reports &amp; Analytics 랜딩 페이지에 대한 업데이트입니다. [자세히 알아보기](/help/analyze/landing.md) | 2022년 4월 1일 |
 
 {style=&quot;table-layout:auto&quot;}
 
