@@ -4,20 +4,20 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: ec11508218082b62fffa7541662a1e12ae5245d9
+source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 84%
+source-wordcount: '3610'
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics의 랜딩 페이지
 
-Adobe Analytics용 랜딩 페이지는 두 페이지를 모두 가져옵니다 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics] 단일 인터페이스 및 액세스 포인트에서 [!DNL Workspace] 우산 여기에는 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴 및 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다.
+Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics]를 [!DNL Workspace] 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴, 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다.
 
 >[!IMPORTANT]
 >
->이 랜딩 페이지는 현재 Open Beta에 있습니다. 시작점으로 선택할 수 있습니다. 필요한 경우 기존 랜딩 페이지를 사용할 수 있습니다. [!UICONTROL 작업 공간] 또는 [!UICONTROL 보고서]. Beta 프로그램에 옵트인하기로 결정한 경우 페이지에 액세스하고 화면 상단의 **[!UICONTROL 피드백 제공]**&#x200B;을 클릭하여 피드백 및 발생 가능한 버그를 기록합니다. 언제든지 Beta 프로그램에서 옵트아웃했다가 다시 옵트인할 수 있습니다. 베타 사용자 인터페이스에서 수행한 모든 작업은 기존/현재 로 전달됩니다 [!UICONTROL 작업 공간] 경험으로 제어됩니다.
+>이 랜딩 페이지는 현재 Open Beta에 있으며, 시작점으로 선택할 수 있습니다. 원하는 경우 [!UICONTROL 작업 영역]인지 [!UICONTROL 보고서]인지 여부와 관계없이 기존 랜딩 페이지를 사용할 수 있습니다. Beta 프로그램에 옵트인하기로 결정한 경우 페이지에 액세스하고 화면 상단의 **[!UICONTROL 피드백 제공]**&#x200B;을 클릭하여 피드백 및 발생 가능한 버그를 기록합니다. 언제든지 Beta 프로그램에서 옵트아웃했다가 다시 옵트인할 수 있습니다. Beta 사용자 인터페이스에서 수행된 모든 작업은 기존/현재 [!UICONTROL 작업 영역] 경험으로 이어집니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -25,25 +25,25 @@ Adobe Analytics용 랜딩 페이지는 두 페이지를 모두 가져옵니다 [
 
 >[!NOTE]
 >
->이러한 추가 및 변경 사항은 현재 [제한된 테스트](/help/release-notes/releases.md).
+>이러한 추가 및 변경 내용은 현재 [제한적인 테스트가 실시되고 있습니다](/help/release-notes/releases.md).
 
 | 기능 | 설명 | 스크린샷 |
 | --- | --- | --- |
-| 확장 [!UICONTROL 프로젝트] 전체 화면으로 테이블 | 표를 확장하려면 햄버거 메뉴 아이콘을 클릭하면 됩니다. 이 작업을 수행하면 왼쪽 레일 탭이 축소됩니다. | ![테이블 확장](assets/landing-collapse.png) |
-| 열 너비 사용자 지정 | 이전에는 열 너비가 수정되었습니다. 이제 열 구분 기호를 드래그하여 조정할 수 있습니다. |  |
-| 고정된 항목 재정렬 | 고정된 항목을 위아래로 이동하려면 고정된 항목 옆에 있는 줄임표를 클릭하고 를 선택합니다 **[!UICONTROL 위로 이동]** 또는 **[!UICONTROL 아래로 이동]**. | ![고정된 항목 이동](assets/move-up-down.png) |
-| 새 표 열 | 을(를) 클릭합니다. [!UICONTROL 테이블 사용자 지정] 아이콘 을 클릭하여 제품에서 사용할 수 있습니다. 새 테이블 열에는 다음이 포함됩니다. <ul><li>**[!UICONTROL 예약됨]**: 을 로 설정합니다. [!UICONTROL 설정] 프로젝트를 예약한 시점 또는 [!UICONTROL 해제] 그렇지 않을 때. 클릭 [!UICONTROL 설정] 링크를 통해 예약된 프로젝트에 대한 정보를 볼 수 있습니다. 다음을 수행할 수도 있습니다 [프로젝트 일정 편집](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 프로젝트 소유자인 경우</li><li>**[!UICONTROL 프로젝트 ID]**: 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다.</li><li>**[!UICONTROL 가장 긴 날짜 범위]**: 날짜 범위가 길어질수록 프로젝트 복잡성이 증가하며 처리 및 로드 시간이 늘어날 수 있습니다. </li><li>**[!UICONTROL 쿼리 수]**: 프로젝트 쿼리 수가 많을수록 프로젝트 복잡성이 증가하고 처리 및 로드 시간이 늘어날 수 있습니다.</li></ul> | ![새 열](assets/new-columns.png) |
-| 보고서를 한 번 클릭하여 엽니다 | 이전에는 두 번 클릭해야 했습니다. |  |
-| 에 대한 새 링크 **[!UICONTROL Reports &amp; Analytics]** 보고서 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL Audience]** > **[!UICONTROL 보트]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL Audience]** > **[!UICONTROL 보트 페이지]**<li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**</li></ul> | ![새 링크](assets/report-links.png) |
-| 새로운 기본 제공 보고서 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 추천]** > **[!UICONTROL 다음 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 추천]** > **[!UICONTROL 이전 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 페이지 분석]** > **[!UICONTROL 페이지 요약]**</li></ul>이러한 보고서는 [!UICONTROL 작업 공간] 형식을 지정하고 구성 및 빌드가 필요합니다. 출력은 고급 지표, 트렌드 데이터로 구성된 패널로 구성됩니다. [!UICONTROL 흐름] 시각화 등 이러한 보고서를 수정하고 차원, 차원 항목 등을 변경할 수 있습니다. 이러한 보고서는 Workspace 패널 아래의 패널로 사용할 수도 있습니다. | ![다음 페이지](assets/next-page.png) |
-| **[!UICONTROL 새로 만들기]** 모달이 다시 옴 | 를 클릭하면 **[!UICONTROL 새로 만들기]** 작업 공간에서 다음 중 한 번 [!UICONTROL 빈 프로젝트] 그리고 [!UICONTROL 빈 모바일 스코어카드]. 회사에서 만든 템플릿 중에서 선택할 수도 있습니다. | ![새로 만들기](assets/create-new.png) |
-| CJA에서도 사용 가능 | 수정된 양식으로 이 랜딩 페이지를 CJA에서도 사용할 수 있습니다. |  |
+| [!UICONTROL 프로젝트] 표를 전체 화면으로 확장 | 표를 확장하려면 햄버거 메뉴 아이콘을 클릭합니다. 이 작업을 수행하면 왼쪽 레일 탭이 축소됩니다. | ![표 확장](assets/landing-collapse.png) |
+| 열 너비 사용자 정의 | 이전에는 열 너비가 고정되어 있었습니다. 이제 열 구분 기호를 드래그하여 열 너비를 조정할 수 있습니다. |  |
+| 고정 항목 순서 바꾸기 | 고정 항목을 위아래로 이동하려면 고정 항목 옆에 있는 생략 부호를 클릭한 다음 **[!UICONTROL 위로 이동]** 또는 **[!UICONTROL 아래로 이동]**&#x200B;을 선택합니다. | ![고정 항목 이동](assets/move-up-down.png) |
+| 새 테이블 열 | 표 오른쪽 상단의 [!UICONTROL 표 사용자 정의] 아이콘을 클릭합니다. 새 테이블 열에는 다음이 포함됩니다. <ul><li>**[!UICONTROL 예약됨]**: 프로젝트가 예약되어 있을 때에는 [!UICONTROL 켜짐]으로, 그렇지 않을 때에는 [!UICONTROL 꺼짐]으로 설정되어 있습니다. [!UICONTROL 켜짐]을 클릭하면 예약된 프로젝트에 대한 정보를 확인할 수 있습니다. 프로젝트 소유자는 [프로젝트 일정을 편집](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)할 수도 있습니다.</li><li>**[!UICONTROL 프로젝트 ID]**: 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다.</li><li>**[!UICONTROL 가장 긴 날짜 범위]**: 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. </li><li>**[!UICONTROL 쿼리 수]**: 프로젝트가 로드될 때 Analytics에 대한 총 요청 수입니다. 프로젝트 쿼리 수가 많을수록 프로젝트 복잡성이 증가하고 처리 및 로드 시간이 늘어날 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. </li></ul> | ![새 열](assets/new-columns.png) |
+| 한 번 클릭하여 보고서 열기 | 이전에는 더블 클릭해야 했습니다. |  |
+| **[!UICONTROL Reports &amp; Analytics]** 보고서로의 새 링크 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 대상]** > **[!UICONTROL 봇]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 대상]** > **[!UICONTROL 봇 페이지]**<li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**</li></ul> | ![새 링크](assets/report-links.png) |
+| 새로운 기본 제공 보고서 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 자주 사용하는 항목]** > **[!UICONTROL 다음 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 자주 사용하는 항목]** > **[!UICONTROL 이전 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 페이지 분석]** > **[!UICONTROL 페이지 요약]**</li></ul>이들 보고서는 [!UICONTROL 작업 영역] 형식이며 구성 및 빌드가 필요합니다. 출력은 높은 수준의 지표, 트렌드 데이터, [!UICONTROL 플로우] 시각화 등으로 구성되어 있습니다. 이들 보고서를 수정하고 자원, 차원 항목 등을 변경할 수 있습니다. 이들 보고서는 [작업 영역] 패널 하의 패널로도 사용할 수 있습니다. | ![다음 페이지](assets/next-page.png) |
+| **[!UICONTROL 새로 만들기]** 모달 | 작업 영역에서 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭하면 다시 [!UICONTROL 빈 프로젝트]와 [!UICONTROL 빈 모바일 스코어카드] 중에서 선택할 수 있게 됩니다. 귀사에서 제작한 템플릿 중에서 선택할 수도 있습니다. | ![새로 만들기](assets/create-new.png) |
+| CJA에서 사용 | 이 랜딩 페이지를 CJA에서도 수정된 형식으로 사용할 수 있습니다. |  |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 랜딩 페이지 액세스 {#access-landing}
 
-Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTROL 새 랜딩 페이지 - Beta] 토글 버튼을 활성화합니다. 전환 단추에 대한 액세스는 회사별로 다르며 조직별로 다릅니다.
+Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTROL 새 랜딩 페이지 - Beta] 토글 버튼을 활성화합니다. 토글 버튼에 대한 액세스는 회사별이 아니라 조직당 사용자별로 다릅니다.
 
 ![랜딩](assets/landing.png)
 
@@ -57,8 +57,8 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 ### 용어
 
 * **[!UICONTROL 프로젝트]**&#x200B;는 사용자가 빌드했거나 다른 사용자가 빌드하여 해당 사용자와 공유한 것입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
-* **[!UICONTROL 보고서]**&#x200B;는 Reports &amp; Analytics의 보고서 및 Workspace의 템플릿과 같이 Adobe에서 미리 빌드한 모든 것을 의미합니다.
-* **[!UICONTROL 템플릿]**&#x200B;은 더 이상 Adobe의 미리 빌드된 Workspace 프로젝트에 대한 용어로 사용되지 않습니다. 이제 [!UICONTROL 보고서] 아래에 있습니다. 용어 [!UICONTROL 템플릿] 는 여전히 회사에서 만든 템플릿에 사용됩니다.
+* **[!UICONTROL 보고서]**&#x200B;는 Reports &amp; Analytics의 보고서 및 작업 영역의 템플릿과 같이 Adobe에서 미리 빌드한 모든 것을 의미합니다.
+* **[!UICONTROL 템플릿]**&#x200B;은 더 이상 Adobe의 사전 제작된 작업 영역 프로젝트에 대한 용어로 사용되지 않습니다. 이제 [!UICONTROL 보고서] 아래에 있습니다. [!UICONTROL 템플릿]이라는 용어는 귀사에서 제작한 템플릿에 계속 사용할 수 있습니다.
 
 ## [!UICONTROL 프로젝트] 탭 탐색 {#navigate-projects}
 
@@ -73,12 +73,12 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | UI 요소 | 정의 |
 | --- | --- |
 | ... 자세히 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analyze/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
-| [!UICONTROL 프로젝트 만들기] | 드롭다운 메뉴를 사용하여 [!UICONTROL Workspace 프로젝트] 또는 [!UICONTROL 모바일 프로젝트]를 만들 수 있습니다. |
-| [!UICONTROL 간단히/자세히 표시] | 배너를 표시하지 않고 표시하거나 숨깁니다. ![위쪽 배너](assets/top-banner.png) |
-| [!UICONTROL 빈 프로젝트] | 사용자가 채울 빈 [Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 만듭니다. |
+| [!UICONTROL 프로젝트 제작] | 드롭다운 메뉴를 사용하여 [!UICONTROL 작업 영역 프로젝트] 또는 [!UICONTROL 모바일 프로젝트]를 제작할 수 있습니다. |
+| [!UICONTROL 간단히/자세히 표시] | 배너 표시 안 함과 표시 간 전환: ![상단 배너](assets/top-banner.png) |
+| [!UICONTROL 빈 프로젝트] | 사용자가 채울 빈 [작업 영역 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 제작합니다. |
 | [!UICONTROL 빈 모바일 스코어카드] | 사용자가 채울 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko-KR)를 만듭니다. |
-| [!UICONTROL 교육 튜토리얼 열기] | 단계별 방식으로 프로젝트를 빌드하도록 새 사용자를 안내하는 Workspace 교육 튜토리얼을 엽니다. |
-| [!UICONTROL 공개 릴리스 정보] | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
+| [!UICONTROL 교육 튜토리얼 열기] | 단계별 방식으로 프로젝트를 빌드하도록 새 사용자를 안내하는 작업 영역 교육 튜토리얼을 엽니다. |
+| [!UICONTROL 릴리스 정보 열기] | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
 | 필터 아이콘 | 태그, 보고서 세트, 소유자, 유형 및 기타 필터(내 소유, 나와 공유, 즐겨찾기, 승인됨)를 필터링할 수 있습니다. |
 | 검색창 | 이제 검색에 테이블의 모든 열이 포함됩니다. |
 | 선택 상자 | 하나 이상의 프로젝트 옆에 있는 이 상자를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있습니다. |
@@ -87,13 +87,13 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | 고정 아이콘 | 항목을 고정할 수 있으며 *항상* 목록의 맨 위에 나타납니다. |
 | 정보(i) 아이콘 | 정보 아이콘을 클릭하면 이 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)할 수 있는지도 나타냅니다. |
 | 줄임표(...) | 프로젝트 옆에 있는 줄임표를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있다는 점을 참고하십시오. |
-| [!UICONTROL 유형] | 이 유형이 Workspace 프로젝트인지 또는 모바일 스코어카드인지를 나타냅니다. |
+| [!UICONTROL 유형] | 이 유형이 작업 영역 프로젝트인지 또는 모바일 스코어카드인지를 나타냅니다. |
 | [!UICONTROL 태그] | 보고서에 태그를 지정하여 보고서를 그룹으로 구성할 수 있습니다. |
 | [!UICONTROL 프로젝트 역할] | 프로젝트 역할은 사용자가 프로젝트 소유자인지 여부와 프로젝트 편집 또는 복제 권한이 있는지 여부를 나타냅니다. |
 | [!UICONTROL 보고서 세트] | 패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 보고서 세트에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 여러 보고서 세트를 사용할 수 있습니다. 보고서 세트 목록은 관련성을 기준으로 정렬됩니다. Adobe는 현재 사용자가 보고서 세트를 얼마나 최근에 얼마나 자주 사용했는지, 그리고 조직 내에서 보고서 세트를 얼마나 자주 사용했는지에 따라 관련성을 정의합니다. |
-| [!UICONTROL 소유자] | 프로젝트를 만든 사용자입니다. |
-| [!UICONTROL 마지막으로 연 날짜] | 사용자가 이 프로젝트를 마지막으로 열었을 때입니다. |
-| 테이블 사용자 지정 아이콘 | (오른쪽 상단) 프로젝트 목록에서 열을 추가하거나 제거하려면 열을 선택하거나 선택 취소하여 추가할 수 있습니다. |
+| [!UICONTROL 소유자] | 프로젝트를 제작한 사용자입니다. |
+| [!UICONTROL 마지막으로 연 날짜] | 사용자가 이 프로젝트를 마지막으로 연 날짜입니다. |
+| 표 사용자 정의 아이콘 | (오른쪽 상단) 열을 선택 또는 선택 해제하여 프로젝트 목록에서 열을 추가하거나 제거할 수 있습니다. |
 | &lt;(뒤로 버튼) | Workspace 프로젝트 또는 보고서의 이 버튼을 누르면 가장 최근의 랜딩 페이지 구성으로 돌아갑니다. 랜딩 페이지를 떠났을 때의 페이지 구성이 다시 돌아올 때 유지됩니다. |
 
 ## [!UICONTROL 보고서] 탭 탐색 {#navigate-reports}
@@ -204,10 +204,10 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
 
 | 질문 | 답변 |
 | --- | --- |
-| 여기에서 볼 때 사용하는 템플릿은 어디에 있습니까 [!UICONTROL 작업 공간]? | 이러한 템플릿들은 [!UICONTROL 보고서] 탭 아래에 그룹화되어 있습니다. |
+| [!UICONTROL 작업 영역]에서 자주 보는 템플릿은 어디에 있습니까? | 이러한 템플릿들은 [!UICONTROL 보고서] 탭 아래에 그룹화되어 있습니다. |
 | Beta에서 옵트아웃할 수 있습니까? | 언제든지 Beta에서 옵트아웃할 수 있습니다. |
-| 베타 프로그램 UI에서 수행하는 작업이 프로덕션에 전달됩니까 [!UICONTROL 작업 공간] 경험? | 예, 베타에서 수행한 모든 작업은 이전/최신 정보로 전달됩니다 [!UICONTROL 작업 공간] 경험으로 제어됩니다. |
-| 현재 상태입니까 [!DNL Reports & Analytics] 즐겨찾기로? | 아니요. 이월되지 않습니다. 하지만, [!UICONTROL 작업 공간] 프로젝트 즐겨찾기가 이월됩니다. |
+| Beta 프로그램 UI에서 수행하는 작업이 프로덕션 [!UICONTROL 작업 영역] 경험으로 이어집니까? | 예. Beta에서 수행된 모든 작업은 이전/현재 [!UICONTROL 작업 영역] 경험으로 이어집니다. |
+| 현재 [!DNL Reports & Analytics] 즐겨찾기가 이월됩니까? | 아니요. 이월되지 않습니다. 단, 모든 [!UICONTROL 작업 영역] 프로젝트 즐겨찾기는 이월됩니다. |
 | 고정할 수 있는 최대 프로젝트 수가 있습니까? | 아니요. 고정할 수 있는 프로젝트 수에는 제한이 없습니다. |
-| 관리자가 사용자에 대해 이 랜딩 페이지를 지정할 수 있습니까? | 아니요, 관리자는 사용자를 대신하여 랜딩 페이지를 지정할 수 없습니다. 개별 사용자가 직접 토글을 켜야 합니다. |
-| 현재 존재하는 모든 보고서입니까? [!DNL Reports & Analytics] 아직 가능한가요? | 아니요. 다음 보고서는 전반적인 사용 데이터를 기반으로 폐지되었습니다. <ul><li>모든 사용자 지정 eVar/props/이벤트/분류<li>내 권장 보고서</li><li>시간별/일별/주별/월별/분기별/연간 고유 방문자</li><li>일별/주별/월별/분기별/연간 고유 고객</li><li>작업 이름 깊이</li><li>작업 이름 요약</li><li>대시보드 추가</li><li>연령</li><li>오디오 지원</li><li>과금 정보</li><li>페이지 클릭 수</li><li>색상 심도</li><li>쿠키 지원</li><li>쿠키</li><li>연결 유형</li><li>크리에이티브 요소</li><li>신용카드 유형</li><li>크로스셀</li><li>사용자 지정 이벤트 유입 경로</li><li>사용자 지정 링크</li><li>고객 ID</li><li>요일</li><li>시작 작업 이름</li><li>종료 작업 이름</li><li>종료 링크</li><li>폴아웃</li><li>파일 다운로드</li><li>스토어에서 찾기</li><li>전체 경로</li><li>성별</li><li>히트 유형 VISTA 규칙</li><li>이미지 지원</li><li>Java</li><li>JavaScript</li><li>JavaScript 버전</li><li>책갈피 관리</li><li>대시보드 관리</li><li>모니터 색상 심도</li><li>모니터 해상도</li><li>뉴스레터 신청</li><li>다음 작업 이름</li><li>다음 작업 이름 흐름</li><li>Null 검색</li><li>운영 체제</li><li>주문 검토</li><li>오늘의 페이지</li><li>페이지를 찾을 수 없음</li><li>경로 탐색</li><li>경로 길이</li><li>이전 작업 이름</li><li>이전 작업 이름 흐름</li><li>제품 활동</li><li>제품 비용</li><li>제품 부서</li><li>제품 재고 범주</li><li>제품 이름</li><li>제품 평가</li><li>제품 시즌</li><li>제품 공유</li><li>제품 확대/축소</li><li>다시 로드</li><li>검색 결과</li><li>서버</li><li>단일 페이지 방문 횟수</li><li>배송 정보</li><li>사이트 계층</li><li>소셜 언급</li><li>하루 중 시간</li><li>작업 이름에 소요된 시간</li><li>비디오 지원</li><li>방문자 통계</li></ul> |
+| 관리자가 사용자를 위해 이 랜딩 페이지를 지정할 수 있습니까? | 아니요. 관리자는 사용자를 대신하여 랜딩 페이지를 지정할 수 없습니다. 개별 사용자가 직접 토글을 켜야 합니다. |
+| 현재 [!DNL Reports & Analytics]에 있는 모든 보고서를 계속 사용할 수 있습니까? | 아니요. 다음 보고서는 전반적인 사용 데이터를 기반으로 폐지되었습니다. <ul><li>모든 사용자 지정 eVar/props/이벤트/분류<li>내 권장 보고서</li><li>시간별/일별/주별/월별/분기별/연간 고유 방문자</li><li>일별/주별/월별/분기별/연간 고유 고객</li><li>작업 이름 깊이</li><li>작업 이름 요약</li><li>대시보드 추가</li><li>연령</li><li>오디오 지원</li><li>과금 정보</li><li>페이지 클릭 수</li><li>색상 심도</li><li>쿠키 지원</li><li>쿠키</li><li>연결 유형</li><li>크리에이티브 요소</li><li>신용카드 유형</li><li>크로스셀</li><li>사용자 지정 이벤트 유입 경로</li><li>사용자 지정 링크</li><li>고객 ID</li><li>요일</li><li>시작 작업 이름</li><li>종료 작업 이름</li><li>종료 링크</li><li>폴아웃</li><li>파일 다운로드</li><li>스토어에서 찾기</li><li>전체 경로</li><li>성별</li><li>히트 유형 VISTA 규칙</li><li>이미지 지원</li><li>Java</li><li>JavaScript</li><li>JavaScript 버전</li><li>책갈피 관리</li><li>대시보드 관리</li><li>모니터 색상 심도</li><li>모니터 해상도</li><li>뉴스레터 신청</li><li>다음 작업 이름</li><li>다음 작업 이름 흐름</li><li>Null 검색</li><li>운영 체제</li><li>주문 검토</li><li>오늘의 페이지</li><li>페이지를 찾을 수 없음</li><li>경로 탐색</li><li>경로 길이</li><li>이전 작업 이름</li><li>이전 작업 이름 흐름</li><li>제품 활동</li><li>제품 비용</li><li>제품 부서</li><li>제품 재고 범주</li><li>제품 이름</li><li>제품 평가</li><li>제품 시즌</li><li>제품 공유</li><li>제품 확대/축소</li><li>다시 로드</li><li>검색 결과</li><li>서버</li><li>단일 페이지 방문 횟수</li><li>배송 정보</li><li>사이트 계층</li><li>소셜 언급</li><li>하루 중 시간</li><li>작업 이름에 소요된 시간</li><li>비디오 지원</li><li>방문자 통계</li></ul> |
