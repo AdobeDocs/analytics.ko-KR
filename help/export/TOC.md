@@ -5,7 +5,7 @@ user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터의 시간별 또는 일별 내보내기를 수신합니다. Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색할 수 있습니다. FTP와 SFTP를 사용하여 컴퓨터와 서버 간에 파일을 전송하는 방법에 대해 알아봅니다.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 내보내기 안내서 {#export}
 
 + [Analytics 내보내기 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 + Analytics 데이터 피드 {#analytics-data-feed}
    + [데이터 피드 개요](analytics-data-feed/data-feed-overview.md)
    + [데이터 피드 만들기 또는 편집](analytics-data-feed/create-feed.md)
