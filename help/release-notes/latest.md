@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 8d133c7a3a0532138e18920c635ed1a5889e77f4
+source-git-commit: f3b62096b481bda29946ccb091771157dce41d9d
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 79%
+source-wordcount: '1009'
+ht-degree: 78%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 79%
 
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
-| 작업 영역의 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022년 3월 23일 |
+| 작업 영역의 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/annotations/overview.md) | 점진적 롤아웃 시작: 2022년 3월 23일 |
 | Adobe Analytics 랜딩 페이지 업데이트 | 유용성과 탐색 편의성을 향상하는 공동 작업 공간/Reports &amp; Analytics 랜딩 페이지에 대한 업데이트입니다. [자세히 알아보기](/help/analyze/landing.md) | 2022년 4월 1일 |
 | [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 공간 패널 | 다음 [!UICONTROL 다음 또는 이전 항목] 패널에서는 선택한 차원 항목을 따르거나 앞에 오는 항목을 탐색할 수 있습니다. 예를 들어 특정 제품 페이지, 마케팅 채널 또는 장치 유형에 대한 다음 페이지 또는 이전 페이지를 보려면 이 코드를 사용하십시오. 이 패널은 차원을 볼 수 있고 통찰력을 얻기 위해 새 구현이 필요하지 않으므로 이전 다음/이전 보고 차원을 벗어납니다. | 2022년 4월 1일 |
 | [!UICONTROL 페이지 요약] 작업 공간 패널 | 다음 [!UICONTROL 페이지 요약] 패널은 선택한 페이지에 대한 심층적인 분석 기능을 제공합니다. 기존 Reports &amp; Analytics와 동일한 세부 정보를 제공합니다 [!UICONTROL 페이지 요약] 보고서 이외에 더 많은 것이 있습니다. | 2022년 4월 1일 |
