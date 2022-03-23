@@ -7,7 +7,7 @@ user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 An
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 # Adobe Analytics 툴 안내서 {#analyze}
 
 + [Analytics 툴 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 + [랜딩 페이지](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 개요](analysis-workspace/home.md)
@@ -298,7 +298,7 @@ ht-degree: 99%
       + [iOS용 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [보고서 표시 설정 및 탐색](reports-analytics/report-settings.md)
    + [보고서 예약 및 배포](reports-analytics/scheduling.md)
-   + [예약된 보고서에 대한 수명 종료 알림](reports-analytics/scheduled-reports-eol.md)
+   + [예약된 보고서에 대한 서비스 종료](reports-analytics/scheduled-reports-eol.md)
    + [보고서 유형](reports-analytics/reports.md)
    + [다른 보고서 유형 실행](reports-analytics/t-running-report-types.md)
    + 보고서 사용자 정의 {#customize-reports}

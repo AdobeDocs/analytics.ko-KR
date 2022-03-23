@@ -6,7 +6,7 @@ exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,4 +44,4 @@ Adobe는 모든 Analytics 로그인 기업을 [!DNL my.omniture.com]에서 Adobe
 * [일반 사용자 관리 정보](https://helpx.adobe.com/kr/enterprise/help/users.html)
 * [adobe.io를 통한 사용자 관리 API](https://developer.adobe.com/UMAPI/)
 * [사용자 관리 API 포럼](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
-* [Experience Cloud로 Analytics 사용자 액세스 및 관리 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+* [Experience Cloud로 Analytics 사용자 액세스 및 관리 마이그레이션](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ko-KR)

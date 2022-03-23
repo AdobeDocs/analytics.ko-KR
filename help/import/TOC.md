@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 가져오기 안내서 {#import}
 
 + [Analytics 가져오기 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 + 데이터 소스 {#data-sources}
    + [데이터 소스 개요](c-data-sources/datasrc-home.md)
    + [데이터 소스 작동 방식](c-data-sources/datasrc-how-data-sources-works.md)

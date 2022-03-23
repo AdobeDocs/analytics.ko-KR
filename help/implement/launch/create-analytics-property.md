@@ -6,7 +6,7 @@ exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experience Cloud 솔루션(Analytics 포함)을 통합할 수 있습니다. 이 페이지에서는 태그 관리자가 기본 Adobe Analytics 구현을 올바르게 구성하는 방법을 간략하게 설명합니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 [보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기.
 
@@ -27,11 +27,11 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 새로 만든 태그 속성을 클릭하여 해당 설정을 입력합니다.
 1. **[!UICONTROL 확장]** 탭을 클릭한 다음 **[!UICONTROL 카탈로그]**&#x200B;를 클릭합니다.
-1. &#39;Experience Cloud ID 서비스&#39;를 찾은 다음 **[!UICONTROL 설치]**.
+1. “Experience Cloud ID 서비스”를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 확장 카탈로그로 돌아가 Adobe Analytics를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 
-자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR) 를 참조하십시오.
+자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
 
 ## Adobe Analytics용 데이터 요소 만들기
 
@@ -49,9 +49,9 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 
       >[!NOTE]
       >
-      >이 값은 시작하는 데 도움이 되는 예로서 사용됩니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
+      >이 값은 시작하는 데 도움이 되는 예제입니다. 조직에서 페이지 이름에 데이터 계층 값과 같은 값을 정의한 경우 해당 값을 여기에 입력할 수 있습니다.
    * 텍스트 정리 선택
-   * 스토리지 기간: 없음
+   * 저장소 유지 시간: 없음
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## Adobe Analytics에 대한 규칙 만들기
@@ -60,7 +60,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 
 1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 사이트에서 구현할 태그 속성을 클릭합니다.
-1. 을(를) 클릭합니다. **[!UICONTROL 규칙]** 탭을 클릭한 다음 **[!UICONTROL 규칙 추가]**. 이름을 지정합니다 `Global Rule`.
+1. **[!UICONTROL 규칙]** 탭을 클릭한 다음 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다. 이름을 `Global Rule`로 지정합니다.
 1. 이벤트 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭하고 다음 설정을 입력합니다.
    * 확장: 핵심
    * 이벤트 유형: 라이브러리가 로드됨 (페이지 상단)
