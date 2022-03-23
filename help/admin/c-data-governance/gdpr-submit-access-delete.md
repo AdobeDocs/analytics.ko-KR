@@ -4,9 +4,9 @@ title: 액세스 및 삭제 요청 제출
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 ## 요청 제출 {#submit-requests}
 
-Adobe를 통해 데이터 개인 정보 보호 액세스를 제출하고 요청을 삭제할 수 있습니다 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) 또는 [Privacy Service API.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
+Adobe의 [개인정보 보호 서비스 UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko-KR) 또는 [개인정보 보호 서비스 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko-KR)를 통해 데이터 개인정보 보호 액세스를 제출하고 요청을 삭제할 수 있습니다.
 
 >[!NOTE]
 >
