@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e35e437a61b925625f6dc7fa2344406c5a66e5fe
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
+>이 기능의 점진적 롤아웃은 2022년 3월 23일에 시작됩니다. 일반 공급: 2022년 4월 11일.
 
 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. 캘린더 이벤트를 특정 차원/지표에 연결할 수 있습니다. 알려진 데이터 문제, 공휴일, 캠페인 시작 등으로 날짜 또는 날짜 범위에 주석을 달 수 있습니다. 그런 다음 이벤트를 그래픽으로 표시하고 캠페인이나 다른 이벤트가 사이트 트래픽, 매출 또는 기타 지표에 영향을 미치는지 여부를 확인할 수 있습니다.
 

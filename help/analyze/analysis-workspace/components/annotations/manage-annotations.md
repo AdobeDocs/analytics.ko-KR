@@ -4,10 +4,10 @@ description: 작업 영역에서 주석을 관리하는 방법
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
-workflow-type: ht
-source-wordcount: '684'
-ht-degree: 100%
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 기능은 현재 제한적인 테스트가 실시되고 있습니다.
+>이 기능의 점진적 롤아웃은 2022년 3월 23일에 시작됩니다. 일반 공급: 2022년 4월 11일.
 
 [!UICONTROL 구성] 요소 > [!UICONTROL 주석] 관리자는 공유, 필터링, 태그 지정, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 주석을 관리하는 다양한 방법을 제공합니다.
 
