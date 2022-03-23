@@ -4,9 +4,9 @@ description: Adobe Experience Platform 태그를 사용하여 Adobe Analytics를
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 81%
 
 ## Experience Cloud 디버거를 사용하여 개발 구현 확인
 
-Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 확장입니다.
+Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그를 표시하는 확장 프로그램입니다.
 
-1. 다음 중 하나에 대한 확장 설치 [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 [Firefox](https://addons.mozilla.org/ko-KR/firefox/addon/adobe-experience-platform-dbg/).
-2. 태그 작업을 수행한 개발 웹 사이트로 이동합니다.
-3. 브라우저에서 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
-4. 모든 것이 제대로 구현된 경우 Adobe Analytics, 태그 및 Adobe Experience Cloud 방문자 ID 서비스 내에 콘텐츠가 표시됩니다.
+1. [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 또는 [Firefox](https://addons.mozilla.org/ko-KR/firefox/addon/adobe-experience-platform-dbg/)용 확장 프로그램을 설치합니다.
+2. 태그를 구현한 개발 웹 사이트로 이동합니다.
+3. 브라우저에 있는 Adobe Experience Cloud 디버거 아이콘을 클릭합니다.
+4. 모든 항목이 올바르게 구현되면 Adobe Analytics 내 콘텐츠, 태그 및 Adobe Experience Cloud 방문자 ID 서비스가 표시됩니다.
 
 ## 스테이징/프로덕션에 개발 구현 배포
 
@@ -58,7 +58,7 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 * 콘솔에 JavaScript 오류가 없습니다. 조직의 웹 사이트 소유자와 함께 모든 JS 오류가 해결되었는지 확인합니다.
 * 헤더 코드가 올바르게 구현됨: 헤더 코드가 `<head>` 태그 내에 있고 파일이 있는지 확인합니다.
 * AppMeasurement 라이브러리가 있음: JS 소스로 직접 이동하여 JS 파일에 코드가 포함되어 있는지 확인합니다. 코드가 포함되어 있지 않으면 각 환경이 만들어졌는지, 라이브러리가 각각의 환경에 게시되었는지 확인합니다.
-* 확장 간섭: 광고 차단기와 같은 일부 확장은 이미지 요청이 실행되지 않도록 할 수 있습니다. Adobe으로 데이터가 전송되지 않도록 하는 확장을 비활성화합니다.
+* 확장 프로그램 방해: 광고 차단기와 같은 일부 확장 프로그램으로 인해 이미지 요청이 실행되지 않을 수 있습니다. Adobe로 데이터가 전송되지 않도록 하는 확장 프로그램을 비활성화합니다.
 
 ## 다음 단계
 
