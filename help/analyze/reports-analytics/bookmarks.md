@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ t_bookmarks_creating.xml
 
 1. 보고서를 실행한 다음 **[!UICONTROL 책갈피]**&#x200B;를 클릭합니다.
 
-   | 이름 | 이 책갈피에 대해 알기 쉬운 이름으로 지정합니다. |
+   | 이름 | 이 책갈피에 대해 사용자가 알기 쉬운 이름으로 지정합니다. |
    |---|---|
    | 추가 | 책갈피를 저장할 폴더를 지정합니다. |
    | 공개하기 | 이 책갈피를 보고서 세트에 액세스하는 사용자에게 공개합니다. |
@@ -37,7 +37,7 @@ t_bookmarks_creating.xml
 
 ## 책갈피 관리 {#task_1EE793CB52EA467787817BBD98DEF150}
 
-보고서 책갈피를 만든 후에 [!UICONTROL 책갈피 관리자]에서 해당 책갈피를 관리할 수 있습니다. 중앙에서 책갈피와 폴더를 편집, 삭제 및 구성할 수 있습니다. 
+보고서 책갈피를 만든 후에 [!UICONTROL 책갈피 관리자]에서 해당 책갈피를 관리할 수 있습니다. 한 곳에서 책갈피와 폴더를 편집, 삭제 및 구성할 수 있습니다.
 
 <!-- 
 
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 책갈피]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 책갈피]**
 
 **내 책갈피**
 
@@ -59,7 +59,7 @@ t_bookmarks_managing.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_create_folder.png" id="image_EA7729575ABA4CA3A3399594941B3441"> </img> </p> </td> 
-   <td colname="col2"> <p> 책갈피 폴더를 만듭니다. 이 옵션을 클릭하기 전에 책갈피를 선택합니다. 하위 폴더는 만들 수 없습니다. </p> </td> 
+   <td colname="col2"> <p> 책갈피 폴더를 만듭니다. 이 옵션을 클릭하기 전에 책갈피를 선택하십시오. 하위 폴더는 만들 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_delete_folder.png" id="image_AFB6A02475664785BA90485EA289749A"> </img> </p> </td> 
@@ -79,7 +79,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_schedule.png" id="image_B7B23C1C67F04DF096149DCDF8C0FE5F"> </img> </p> </td> 
-   <td colname="col2"> <p> 이 책갈피가 배달 예약되어 있다고 알려줍니다. 이 옵션을 클릭하여 <span class="wintitle">고급 배달 옵션</span>을 사용하여 일정을 구성합니다. </p> </td> 
+   <td colname="col2"> <p> 이 책갈피가 배달 예약되어 있다고 알려 줍니다. 이 옵션을 클릭하여 <span class="wintitle">고급 배달 옵션</span>을 사용하여 일정을 구성합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
