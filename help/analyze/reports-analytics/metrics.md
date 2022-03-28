@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 지표는 보고서의 기반으로, 데이터 관계를 보고 이해하는 데 도움이 되며 웹 사이트에 대한 다양한 데이터 세트를 동시에 비교할 수 있도록 지원합니다. 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
 
-지표와 관련 데이터는 보고서 열에 표시됩니다. 트래픽 지표는 방문자의 볼륨에 대한 데이터를 보여줍니다. 전환 지표는 구매, 다운로드 또는 기타 사용자가 웹 사이트에서 취하려고 하는 모든 동작과 같은 성공 이벤트에 대한 데이터를 보여줍니다. 
+지표와 관련 데이터는 보고서 열에 표시됩니다. 트래픽 지표는 방문자의 볼륨에 대한 데이터를 보여 줍니다. 전환 지표는 구매, 다운로드 또는 기타 사용자가 웹 사이트에서 취하려고 하는 모든 동작과 같은 성공 이벤트에 대한 데이터를 보여 줍니다.
 
 [계산된 지표](/help/components/c-calcmetrics/cm-overview.md)는 지표를 결합하여 만들어집니다.
 
