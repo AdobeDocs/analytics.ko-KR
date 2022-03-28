@@ -1,12 +1,12 @@
 ---
-title: eVar(머천다이징) 변수
+title: eVar (머천다이징) 변수
 description: 개별 제품에 연결된 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
