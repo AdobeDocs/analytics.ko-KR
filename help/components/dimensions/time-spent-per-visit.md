@@ -1,12 +1,12 @@
 ---
-title: 방문당 체류 시간(차원)
+title: 방문당 체류 시간 (차원)
 description: 방문이 걸린 총 시간입니다.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 >
 >체류 시간은 시간을 측정하기 위해 방문에서 적어도 두 개의 히트를 필요로 합니다. 하나의 히트로 구성된 방문은 이 차원에 나타나지 않습니다.
 
-이 차원은 방문을 기반으로 합니다. 이것은 값이 방문 내의 모든 히트에 적용되며 변경되지 않음을 의미합니다. 이 차원을 히트 기반 차원인 [페이지에서 보낸 시간](time-spent-on-page.md)과 비교해 보십시오.
+이 차원은 방문을 기반으로 합니다. 이는 값이 방문 내의 모든 히트에 적용되며 변경되지 않음을 의미합니다. 이 차원을 히트 기반 차원인 [페이지에서 보낸 시간](time-spent-on-page.md)과 비교해 보십시오.
 
 이 차원은 [사이트에서 보낸 평균 시간](../metrics/average-time-on-site.md) 및 [방문당 체류 시간](../metrics/time-spent-per-visit.md) 지표와 관련이 있습니다.
 
