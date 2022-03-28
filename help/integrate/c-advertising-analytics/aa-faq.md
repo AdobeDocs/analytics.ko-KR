@@ -1,12 +1,12 @@
 ---
 description: Advertising Analytics에 대해 자주 묻는 질문입니다.
-title: 광고 분석에 대한 FAQ
+title: Advertising Analytics에 대해 자주 묻는 질문
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1414'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 99%
    <td colname="col2"> <p>A: 광고 플랫폼 분류는 다음 값을 캡처합니다. "Google Adwords" 및 "Bing Ads". </p> <p>일반적인 우수 사례에는 캠페인 이름의 일부로 국가 코드가 포함됩니다. 그 이후에 필터링하거나 분류할 수 있습니다 (예: 모든 캠페인이 countrycode_로 시작하는 경우 캠페인 (AMO ID)이 'UK_'로 시작하는 세그먼트를 생성하여 영국에 대한 데이터만 제공). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Q: 지표 'AMO 비용'은 검색 엔진에서 보고한 대로 각 키워드/광고에 대해 지불되는 비용입니다. 이것은 순비용 또는 총비용입니까? </p> </td> 
+   <td colname="col1"> <p>Q: 지표 'AMO 비용'은 검색 엔진에서 보고한 대로 각 키워드/광고에 대해 지불되는 비용입니다. 이는 순비용 또는 총비용입니까? </p> </td> 
    <td colname="col2"> <p>A: 'AMO 비용'은 검색 엔진에 대해서만 지불되는 비용입니다. 에이전시 또는 검색 최적화/관리 플랫폼 수수료는 포함되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
