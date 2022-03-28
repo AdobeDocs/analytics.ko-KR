@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0eb88df05909be28877ac266655f7959cc086044
+source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 86%
+source-wordcount: '1115'
+ht-degree: 77%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2022년 3월)
 
-**최근 업데이트: 2022년 3월 23일**
+**최근 업데이트: 2022년 3월 28일**
 
 * 2022년 2월 릴리스 정보는 [여기](/help/release-notes/2022.md)를 참조하십시오.
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트에 대해 알아봅니다. Experience League에서 최신 자가 진단 설명서 튜토리얼 및 과정을 살펴보십시오.
@@ -47,6 +47,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
+| 특정 고객에 대해 지원되는 브라우저 암호화 방법으로 업데이트 | 2022년 28월 3일 | Adobe은 자사 데이터 수집에서 보안을 위해 다양한 고객 요구 사항을 충족하는 두 가지 암호화 보안 수준을 제공합니다. 설정 **2022년 6월 23일** 보안 수준이 &quot;높음&quot;으로 설정된 고객의 경우 cpher라고 하는 특정 HTTPS 암호화 알고리즘에 대한 지원을 제거합니다. 즉, 일부 이전 운영 체제는 최신 암호화 방법을 지원하지 않으므로 데이터를 Analytics로 더 이상 전송할 수 없습니다. 기본 &quot;표준&quot; 암호화 보안 설정을 사용하는 고객은 영향을 받지 않습니다. 현재 &quot;높음&quot; 설정을 사용하는 모든 고객은 이미 직접 연락을 취했습니다. 이 변경의 영향을 받는 세부 암호 목록을 찾을 수 있습니다 [여기](/help/technotes/rdc/encryption-algos.md). |
 | 이전 예약된 보고서 일시 중지 | 2022년 3월 11일 | **2022년 4월 15일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 예정된 보고서(2020년 1월 31일 전에 생성된 작업)를 일시 중지합니다. 보고서나 데이터는 삭제되지 않습니다. 중지 대상은 생성일이 2년 이상 지난 보고서로 식별되는 보고서만 해당하며, 예약된 보고서는 추가적으로 전송되지 않습니다. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | 2022 ISO 지역 업데이트 | 2021년 3월 11일 | Adobe는 **2022년 6월 10일**&#x200B;에 2022 ISO 지역 업데이트를 수행합니다. 이 릴리스 이후에 소규모 업데이트가 있을 것으로 예상됩니다. |
 | Analytics가 Experience Edge를 통해 수집된 A4T 데이터를 처리하는 방법 변경 | 2022년 2월 25일 | **2022년 3월 7일**&#x200B;부터 Experience Edge를 통해 Adobe Analytics에 전송되는 일부 Target 관련 데이터를 처리하는 방법이 변경되었습니다. Analytics 및 Target과 함께 Adobe Experience Platform Web SDK를 사용할 때, [!DNL Adobe Analytics]에서 일부 개인화 이벤트는 [!UICONTROL 페이지 조회수]로 계산되었습니다. 이렇게 하면 페이지 조회수가 부풀려지고 추가적인 서버 호출이 발생합니다. 이 변경을 통해 Analytics 콘텐츠가 없는 개인화 호출은 무시됩니다. A4T 데이터를 포함하는 개인화 호출은 A4T 데이터를 기록하지만 과금 가능한 서버 호출로 기록되지는 않으며, 이는 페이지 조회수 또는 링크 이벤트 지표에 영향을 주지 않습니다. |

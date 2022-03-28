@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
-source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 100%
 + 지역 데이터 수집 {#rdc}
    + [지역 데이터 수집 도움말](rdc/regional-data-collection.md)
    + [SSL 공인 라이선스](rdc/ssl-cert-licensing.md)
+   + [지원되는 HTTPS 암호화 알고리즘](rdc/encryption-algos.md)
 + [보안 리소스](security.md)
 + [사용된 용어(글로서리)](terms.md)
 + [타임스탬프 선택 사항](timestamps-optional.md)
