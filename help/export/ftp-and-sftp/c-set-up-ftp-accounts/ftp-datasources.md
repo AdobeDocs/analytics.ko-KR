@@ -5,7 +5,7 @@ title: 데이터 소스 개요
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 데이터 소스를 만들고 관리할 수 있습니다.
 
-Data Sources 인스턴스가 생성되면 도구에서는 Data Sources 파일 업로드에 사용할 수 있는 FTP 위치를 제공합니다. 업로드되면 Data Sources는 자동으로 이를 찾아서 처리합니다. 파일이 처리되면, Analytics 보고에 데이터를 사용할 수 있게 됩니다.
+Data Sources 인스턴스가 생성되면 도구에서는 Data Sources 파일 업로드에 사용할 수 있는 FTP 위치를 제공합니다. 업로드되면 Data Sources는 자동으로 이를 찾아서 처리합니다. 파일이 처리되면 Analytics 보고에 데이터를 사용할 수 있게 됩니다.
 
 Data Sources 관리자의 [!UICONTROL 만들기] 탭을 사용하여 선택한 보고서 세트에 대한 새 Data Sources 인스턴스를 구성할 수 있습니다. [!UICONTROL Data Sources 마법사]에서 안내하는 Data Sources 템플릿 생성 프로세스에 따라 데이터를 업로드할 FTP 위치를 만듭니다.
 
