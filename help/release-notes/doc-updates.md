@@ -4,10 +4,10 @@ description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 97%
+source-wordcount: '3169'
+ht-degree: 95%
 
 ---
 
@@ -24,13 +24,16 @@ ht-degree: 97%
 | 날짜 | 설명 |
 | --- | --- |
 | **2022년 3월** |  |
+| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | [지원되는 HTTPS 암호화 알고리즘](/help/technotes/rdc/encryption-algos.md) 암호 보안 수준이 &quot;높음&quot;으로 설정된 고객의 경우 |
 | Workspace의 주석에 대한 새로운 설명서 | [작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다.](/help/analyze/analysis-workspace/components/annotations/overview.md) |
 | Adobe Analytics 랜딩 페이지 업데이트 | [업데이트](/help/analyze/landing.md) 편리한 탐색 기능을 제공하는 공동 작업 공간/Reports &amp; Analytics 랜딩 페이지로 이동합니다. |
 | [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 공간 패널 | 이 패널에서는 선택한 차원 항목을 따르거나 앞에 오는 항목을 탐색할 수 있습니다. |
 | [!UICONTROL 페이지 요약] 작업 공간 패널 | 이 패널에서는 선택한 페이지에 대한 심층적인 분석 기능을 제공합니다. |
-| **2022년 2월** |  |
+| 오래된 예약된 보고서 일시 중지에 대한 새 주제입니다 | 유효 **2022년 4월 15일**, Adobe은 [만든 날짜가 2년 이상인 예약된 모든 보고서 일시 중지](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **2022년 2월** |
 | 모바일 스코어카드 프로젝트 미리보기 모드 | 다음 [미리 보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) 스코어카드를 저장하고 공유하기 전에 경험을 미리 볼 수 있습니다. |
 | API 프로젝트 끝점 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| 이전 예약된 Report Builder 작업 일시 중지에 대한 주제가 업데이트되었습니다 | **2022년 4월 15일**[부터 Adobe는 2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지합니다](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **2021년 10월** |  |
 | 2021년 10월 21일 | Analysis Workspace의 [빠른 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR)에 대한 새로운 설명서 |
 | 2021년 10월 21일 | Analysis Workspace의 [미디어 재생 소요 시간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ko-KR) 패널에 대한 새로운 설명서. |

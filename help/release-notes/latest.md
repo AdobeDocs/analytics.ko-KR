@@ -3,9 +3,9 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1102'
 ht-degree: 77%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 77%
 * [A4T 작업 영역] 패널 관련 문제가 해결되었습니다. (AN-281594; AN-282418)
 * 일부 사용자가 Adobe Analytics에 액세스할 수 없는 문제가 해결되었습니다. (AN-282776)
 * 새로 생성된 일부 보고서 세트가 데이터를 수집하지 못하는 문제가 해결되었습니다. (AN-283114, AN-283311)
-* 운영 체제 차원 사용 시 Win11을 감지하지 못하는 문제가 해결되었습니다. (AN-275569, AN-275727; AN-280335)
 * 데이터 피드 이메일이 제대로 전송되지 않는 문제가 해결되었습니다. (AN-280255; AN-282051)
 
 
