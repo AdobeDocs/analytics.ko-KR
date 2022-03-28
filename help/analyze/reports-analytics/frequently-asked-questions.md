@@ -1,14 +1,14 @@
 ---
 description: 가장 자주 묻는 일부 Analytics 질문에 대한 답변 및 문제 해결 제안 사항을 제공합니다.
 keywords: Analytics 문제 해결
-title: Reports & Analytics에 대한 FAQ
+title: Reports & Analytics에 대해 자주 묻는 질문
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ Adobe Analytics의 거의 모든 변수에는 문자 제한이 있습니다. 페
 
 **보고에서 중요한 지연이 발생하는 이유는 무엇입니까?**
 
-보통 전환 및 다른 처리량이 많은 데이터는 30-90분 내에 사용할 수 있는 반면, 실시간 보고에서는 일부 트래픽 지표를 수 분 내에 사용할 수 있습니다. 강력한 Experience Cloud 플랫폼을 사용해도 보고가 지연되는 경우가 있습니다. 이러한 지연을 지연이라고 합니다. 자세한 내용은 Technotes 사용 안내서의 [지연](/help/technotes/latency.md)을 참조하십시오.
+보통 전환 및 다른 처리량이 많은 데이터는 30-90분 내에 사용할 수 있는 반면 실시간 보고에서는 일부 트래픽 지표를 수 분 내에 사용할 수 있습니다. 강력한 Experience Cloud 플랫폼을 사용해도 보고가 지연되는 경우가 있습니다. 이러한 지연을 지연이라고 합니다. 자세한 내용은 Technotes 사용 안내서의 [지연](/help/technotes/latency.md)을 참조하십시오.
 
-**iPhone에서 장치 버전을 볼 수 없는 이유는 무엇입니까?**
+**iPhone에서 디바이스 버전을 볼 수 없는 이유는 무엇입니까?**
 
-Apple 장치는 장치 버전이 아니라 사용자 에이전트 문자열에 있는 펌웨어 버전을 보고합니다. Adobe Analytics에서 사용할 수 있는 정보를 사용하여 iPhone 장치 버전을 확인하는 것은 어렵습니다. 자세한 내용은 Analytics KB의 [iPhone 장치 버전 비교](https://helpx.adobe.com/kr/analytics/kb/comparing-iphone-device-versions.html)를 참조하십시오.
+Apple 디바이스는 디바이스 버전이 아니라 사용자 에이전트 문자열에 있는 펌웨어 버전을 보고합니다. Adobe Analytics에서 사용할 수 있는 정보를 사용하여 iPhone 디바이스 버전을 확인하는 것은 어렵습니다. 자세한 내용은 Analytics KB의 [iPhone 디바이스 버전 비교](https://helpx.adobe.com/kr/analytics/kb/comparing-iphone-device-versions.html)를 참조하십시오.
 
 **값을 합할 때 보고서 하단의 합계가 일치하지 않는 이유는 무엇입니까?**
 
