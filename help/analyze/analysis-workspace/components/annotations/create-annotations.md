@@ -7,7 +7,7 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
    | 요소 | 설명 |
    | --- | --- |
-   | [!UICONTROL 프로젝트 전용 주석] | 기본적으로 주석은 현재 프로젝트에 적용됩니다. 이 상자를 선택하면 자신이 소유한 모든 프로젝트에 주석을 사용할 수 있도록 만들 수 있습니다.<p> ![](assets/project-only.png) |
+   | [!UICONTROL 프로젝트 전용 주석] | 기본적으로 주석은 현재 프로젝트에 적용됩니다. 이 상자를 선택하면 보유한 모든 프로젝트에 주석을 사용할 수 있습니다.<p> ![](assets/project-only.png) |
    | [!UICONTROL 제목] | 주석의 이름을 지정합니다(예: “기념일”). |
    | [!UICONTROL 설명] | (선택 사항) 주석에 대한 설명을 제공합니다(예: “미국 공휴일”). |
    | [!UICONTROL 태그] | (선택 사항) 태그를 생성하거나 적용하여 주석을 구성합니다. |

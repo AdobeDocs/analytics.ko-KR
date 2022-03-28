@@ -1,12 +1,12 @@
 ---
 description: Adobe Analytics 데이터 거버넌스 FAQ
-title: 데이터 거버넌스에 대한 FAQ
+title: 데이터 거버넌스에 대해 자주 묻는 질문
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

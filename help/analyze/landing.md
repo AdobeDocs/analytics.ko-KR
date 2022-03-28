@@ -7,7 +7,7 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
 workflow-type: tm+mt
 source-wordcount: '3610'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 | [!UICONTROL 프로젝트] 표를 전체 화면으로 확장 | 표를 확장하려면 햄버거 메뉴 아이콘을 클릭합니다. 이 작업을 수행하면 왼쪽 레일 탭이 축소됩니다. | ![표 확장](assets/landing-collapse.png) |
 | 열 너비 사용자 정의 | 이전에는 열 너비가 고정되어 있었습니다. 이제 열 구분 기호를 드래그하여 열 너비를 조정할 수 있습니다. |  |
 | 고정 항목 순서 바꾸기 | 고정 항목을 위아래로 이동하려면 고정 항목 옆에 있는 생략 부호를 클릭한 다음 **[!UICONTROL 위로 이동]** 또는 **[!UICONTROL 아래로 이동]**&#x200B;을 선택합니다. | ![고정 항목 이동](assets/move-up-down.png) |
-| 새 테이블 열 | 표 오른쪽 상단의 [!UICONTROL 표 사용자 정의] 아이콘을 클릭합니다. 새 테이블 열에는 다음이 포함됩니다. <ul><li>**[!UICONTROL 예약됨]**: 프로젝트가 예약되어 있을 때에는 [!UICONTROL 켜짐]으로, 그렇지 않을 때에는 [!UICONTROL 꺼짐]으로 설정되어 있습니다. [!UICONTROL 켜짐]을 클릭하면 예약된 프로젝트에 대한 정보를 확인할 수 있습니다. 프로젝트 소유자는 [프로젝트 일정을 편집](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)할 수도 있습니다.</li><li>**[!UICONTROL 프로젝트 ID]**: 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다.</li><li>**[!UICONTROL 가장 긴 날짜 범위]**: 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. </li><li>**[!UICONTROL 쿼리 수]**: 프로젝트가 로드될 때 Analytics에 대한 총 요청 수입니다. 프로젝트 쿼리 수가 많을수록 프로젝트 복잡성이 증가하고 처리 및 로드 시간이 늘어날 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. </li></ul> | ![새 열](assets/new-columns.png) |
+| 새 테이블 열 | 표 오른쪽 상단의 [!UICONTROL 표 사용자 정의] 아이콘을 클릭합니다. 새 테이블 열에는 다음이 포함됩니다. <ul><li>**[!UICONTROL 예약됨]**: 프로젝트가 예약되어 있을 때에는 [!UICONTROL 켜짐]으로, 그렇지 않을 때에는 [!UICONTROL 꺼짐]으로 설정되어 있습니다. [!UICONTROL 켜짐]을 클릭하면 예약된 프로젝트에 대한 정보를 확인할 수 있습니다. 프로젝트 소유자는 [프로젝트 일정을 편집](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)할 수도 있습니다.</li><li>**[!UICONTROL 프로젝트 ID]**: 프로젝트 ID는 프로젝트 디버깅에 사용할 수 있습니다.</li><li>**[!UICONTROL 가장 긴 날짜 범위]**: 가장 긴 날짜 범위는 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. </li><li>**[!UICONTROL 쿼리 개수]**: 프로젝트가 로드될 때 Analytics에 대해 수행된 총 요청 개수입니다. 프로젝트 쿼리 수가 많으면 프로젝트 복잡성을 증가시키며 이로 인해 처리 및 로드 시간이 길어질 수 있습니다. 이 데이터는 프로젝트가 로드되거나 예약된 프로젝트가 전송된 후에만 사용할 수 있습니다. </li></ul> | ![새 열](assets/new-columns.png) |
 | 한 번 클릭하여 보고서 열기 | 이전에는 더블 클릭해야 했습니다. |  |
 | **[!UICONTROL Reports &amp; Analytics]** 보고서로의 새 링크 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 대상]** > **[!UICONTROL 봇]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 대상]** > **[!UICONTROL 봇 페이지]**<li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**</li></ul> | ![새 링크](assets/report-links.png) |
 | 새로운 기본 제공 보고서 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 자주 사용하는 항목]** > **[!UICONTROL 다음 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 자주 사용하는 항목]** > **[!UICONTROL 이전 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 페이지 분석]** > **[!UICONTROL 페이지 요약]**</li></ul>이들 보고서는 [!UICONTROL 작업 영역] 형식이며 구성 및 빌드가 필요합니다. 출력은 높은 수준의 지표, 트렌드 데이터, [!UICONTROL 플로우] 시각화 등으로 구성되어 있습니다. 이들 보고서를 수정하고 자원, 차원 항목 등을 변경할 수 있습니다. 이들 보고서는 [작업 영역] 패널 하의 패널로도 사용할 수 있습니다. | ![다음 페이지](assets/next-page.png) |
@@ -86,7 +86,7 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | [!UICONTROL 이름] | 프로젝트의 이름입니다 |
 | 고정 아이콘 | 항목을 고정할 수 있으며 *항상* 목록의 맨 위에 나타납니다. |
 | 정보(i) 아이콘 | 정보 아이콘을 클릭하면 이 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)할 수 있는지도 나타냅니다. |
-| 줄임표(...) | 프로젝트 옆에 있는 줄임표를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있다는 점을 참고하십시오. |
+| 생략 부호 (...) | 프로젝트 옆에 있는 생략 부호를 클릭하면 수행할 수 있는 프로젝트 관리 작업(삭제, 태그 지정, 고정, 승인, 공유, 이름 바꾸기, 복사, CSV로 내보내기)이 표시됩니다. 이러한 모든 작업을 수행할 권한이 없을 수도 있다는 점을 참고하십시오. |
 | [!UICONTROL 유형] | 이 유형이 작업 영역 프로젝트인지 또는 모바일 스코어카드인지를 나타냅니다. |
 | [!UICONTROL 태그] | 보고서에 태그를 지정하여 보고서를 그룹으로 구성할 수 있습니다. |
 | [!UICONTROL 프로젝트 역할] | 프로젝트 역할은 사용자가 프로젝트 소유자인지 여부와 프로젝트 편집 또는 복제 권한이 있는지 여부를 나타냅니다. |
