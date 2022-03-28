@@ -4,9 +4,9 @@ title: 경고 관리자 개요
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 * 경고 승인
 * 경고 복사
 * 경고 활성화/비활성화
-* 경고 만료 날짜 **갱신**. 하나 이상의 경고를 선택한 경우 **[!UICONTROL 갱신]**&#x200B;을 클릭하여 갱신할 수 있습니다. 이렇게 하면 원래 만료 날짜와 상관 없이 **[!UICONTROL 갱신]**&#x200B;을 클릭한 날로부터 1년으로 만료 날짜가 연장됩니다.
+* 경고 만료 날짜 **갱신**. 하나 이상의 경고를 선택한 경우 **[!UICONTROL 갱신]**&#x200B;을 클릭하여 갱신할 수 있습니다. 이렇게 하면 원래 만료 날짜와 상관없이 **[!UICONTROL 갱신]**&#x200B;을 클릭한 날로부터 1년으로 만료 날짜가 연장됩니다.
 * 경고를 .CSV 파일로 내보내기
 * 경고 제목을 더블 클릭하여 경고 편집
 * 경고 검색
