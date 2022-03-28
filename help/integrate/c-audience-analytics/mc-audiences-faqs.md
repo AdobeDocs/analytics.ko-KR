@@ -1,13 +1,13 @@
 ---
 description: Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입니다.
 solution: Experience Cloud
-title: Audience Analytics FAQ
+title: Audience Analytics에 대해 자주 묻는 질문
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
 <table id="table_22037CCB516C4231BF5820004FBB351A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Q: 내 Analytics 데이터에 PII (개인식별정보)가 있는지 어떻게 알 수 있습니까? 알 수 있다면, 어떻게 해야 합니까?</b> </td> 
+   <td colname="col1"> <b>Q: 내 Analytics 데이터에 PII (개인식별정보)가 있는지 어떻게 알 수 있습니까? 알 수 있다면 어떻게 해야 합니까?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">prop 또는 eVar에 이메일/주소/등이 있는 경우 수집 중에 데이터 해싱을 고려하십시오. </li> 
