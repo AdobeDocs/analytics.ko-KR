@@ -1,12 +1,12 @@
 ---
-title: 단일 페이지 방문 횟수(차원)
+title: 단일 페이지 방문 횟수 (차원)
 description: 방문이 하나의 페이지로 이루어졌음을 나타내는 플래그입니다.
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
