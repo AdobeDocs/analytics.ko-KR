@@ -1,13 +1,13 @@
 ---
 description: 프로젝트 구성 요소가 특정 임계값에 도달하면 경고를 받습니다.
-title: 경고 빌더(Analysis Workspace)
+title: 경고 빌더 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
