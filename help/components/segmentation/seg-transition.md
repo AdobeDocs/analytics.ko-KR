@@ -1,12 +1,12 @@
 ---
-description: 세분화에 대해 자주 묻는 질문.
-title: 세그멘테이션에 대한 FAQ
+description: 세분화에 대해 자주 묻는 질문
+title: 세분화에 대해 자주 묻는 질문
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
