@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
+source-git-commit: c2c4eb5557aeaeba537c7ad38c0c70ab448f5cf5
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 77%
+source-wordcount: '1104'
+ht-degree: 76%
 
 ---
 
@@ -48,7 +48,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 | ----------- | ---------- | ---------- |
 | 특정 고객에 대해 지원되는 브라우저 암호화 방법으로 업데이트 | 2022년 28월 3일 | Adobe은 자사 데이터 수집에서 보안을 위해 다양한 고객 요구 사항을 충족하는 두 가지 암호화 보안 수준을 제공합니다. 설정 **2022년 6월 23일** 보안 수준이 &quot;높음&quot;으로 설정된 고객의 경우 cpher라고 하는 특정 HTTPS 암호화 알고리즘에 대한 지원을 제거합니다. 즉, 일부 이전 운영 체제는 최신 암호화 방법을 지원하지 않으므로 데이터를 Analytics로 더 이상 전송할 수 없습니다. 기본 &quot;표준&quot; 암호화 보안 설정을 사용하는 고객은 영향을 받지 않습니다. 현재 &quot;높음&quot; 설정을 사용하는 모든 고객은 이미 직접 연락을 취했습니다. 이 변경의 영향을 받는 세부 암호 목록을 찾을 수 있습니다 [여기](/help/technotes/rdc/encryption-algos.md). |
 | 이전 예약된 보고서 일시 중지 | 2022년 3월 11일 | **2022년 4월 15일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 예정된 보고서(2020년 1월 31일 전에 생성된 작업)를 일시 중지합니다. 보고서나 데이터는 삭제되지 않습니다. 중지 대상은 생성일이 2년 이상 지난 보고서로 식별되는 보고서만 해당하며, 예약된 보고서는 추가적으로 전송되지 않습니다. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| 2022 ISO 지역 업데이트 | 2021년 3월 11일 | Adobe는 **2022년 6월 10일**&#x200B;에 2022 ISO 지역 업데이트를 수행합니다. 이 릴리스 이후에 소규모 업데이트가 있을 것으로 예상됩니다. |
+| 2022 ISO 지역 업데이트 | 2021년 3월 11일 | Adobe는 **2022년 6월 10일**&#x200B;에 2022 ISO 지역 업데이트를 수행합니다. 이 릴리스 이후 지역 정보 업데이트가 약간 표시됩니다. |
 | Analytics가 Experience Edge를 통해 수집된 A4T 데이터를 처리하는 방법 변경 | 2022년 2월 25일 | **2022년 3월 7일**&#x200B;부터 Experience Edge를 통해 Adobe Analytics에 전송되는 일부 Target 관련 데이터를 처리하는 방법이 변경되었습니다. Analytics 및 Target과 함께 Adobe Experience Platform Web SDK를 사용할 때, [!DNL Adobe Analytics]에서 일부 개인화 이벤트는 [!UICONTROL 페이지 조회수]로 계산되었습니다. 이렇게 하면 페이지 조회수가 부풀려지고 추가적인 서버 호출이 발생합니다. 이 변경을 통해 Analytics 콘텐츠가 없는 개인화 호출은 무시됩니다. A4T 데이터를 포함하는 개인화 호출은 A4T 데이터를 기록하지만 과금 가능한 서버 호출로 기록되지는 않으며, 이는 페이지 조회수 또는 링크 이벤트 지표에 영향을 주지 않습니다. |
 | 이전 예약된 Report Builder 작업 일시 중지 | 2022년 2월 24일 | **2022년 4월 15일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지합니다. 특히 2020년 1월 31일 전에 생성된 모든 작업이 일시 중지 대상에 해당합니다. 작업, 통합 문서나 데이터는 삭제되지 않습니다. 하지만 생성일이 2년 이상 지난 작업으로 식별되는 작업은 중지되며, 예약된 작업은 추가적으로 전송되지 않습니다. [자세히 알아보기](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | 기존 Analytics OAuth/JWT 통합에 대한 허용 목록 EOL 확장 기능 만료 | 2022년 1월 14일 | **2022년 5월 25일**&#x200B;에 [Analytics 1.3 API, 1.4 SOAP API 및 레거시 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 허용 목록 확장 기능이 만료될 예정입니다. 이는 레거시 [!DNL Adobe Analytics] OAuth/JWT 자격 증명 추가 시간을 사용하여 클라이언트 통합을 [Adobe IMS 자격 증명](https://developer.adobe.com/console)으로 마이그레이션할 수 있도록 고객에게 제공되었던 기능입니다. 해당 만료는 필요한 IMS 마이그레이션을 완료하지 않은 [!DNL Adobe Analytics Livestream] 및 [!DNL Adobe Campaign] 고객에 영향을 주지만 이에 국한되지는 않습니다. 현재 허용 목록 확장 기능을 통해 기존 [!DNL Analytics] OAuth/JWT 자격 증명을 사용 중인 고객 및 2022년 5월 25일까지 IMS 자격 증명으로 마이그레이션을 완료하지 않은 고객은 Adobe 서비스에 액세스할 수 없게 됩니다. 라이브스트림 고객은 클라이언트 애플리케이션을 IMS 자격 증명으로 마이그레이션하는 방법에 대한 이 [지침](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)을 참조할 수 있습니다. [!DNL Campaign] 고객은 Adobe 계정 팀에 최신 버전의 [!DNL Campaign]으로의 업그레이드에 대해 문의할 수 있습니다. |
