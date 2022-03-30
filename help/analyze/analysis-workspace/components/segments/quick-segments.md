@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
+source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 100%
+source-wordcount: '886'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 * 중첩 컨테이너이나 순차적 규칙을 수용하지 않습니다.
 
 빠른 세그먼트로 수행할 수 있는 작업과 완전한 구성 요소 목록 세그먼트로 수행할 수 있는 작업을 비교하려면 [여기](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)로 이동하십시오.
+
+다음은 빠른 세그먼트에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## 사전 요구 사항
 
