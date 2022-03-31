@@ -6,13 +6,13 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: c2c4eb5557aeaeba537c7ad38c0c70ab448f5cf5
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 76%
+ht-degree: 88%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2022년 3월)
 
-**최근 업데이트: 2022년 3월 28일**
+**마지막 업데이트: 2022년 3월 28일**
 
 * 2022년 2월 릴리스 정보는 [여기](/help/release-notes/2022.md)를 참조하십시오.
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트에 대해 알아봅니다. Experience League에서 최신 자가 진단 설명서 튜토리얼 및 과정을 살펴보십시오.
@@ -21,10 +21,10 @@ ht-degree: 76%
 
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
-| 작업 영역의 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/annotations/overview.md) | 점진적 롤아웃은 2022년 3월 23일에 시작됩니다. 일반 공급: 2022년 4월 11일 |
-| Adobe Analytics 랜딩 페이지 업데이트 | 유용성과 탐색 편의성을 향상하는 공동 작업 공간/Reports &amp; Analytics 랜딩 페이지에 대한 업데이트입니다. [자세히 알아보기](/help/analyze/landing.md) | 2022년 4월 1일 |
-| [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 공간 패널 | 다음 [!UICONTROL 다음 또는 이전 항목] 패널에서는 선택한 차원 항목을 따르거나 앞에 오는 항목을 탐색할 수 있습니다. 예를 들어 특정 제품 페이지, 마케팅 채널 또는 장치 유형에 대한 다음 페이지 또는 이전 페이지를 보려면 이 코드를 사용하십시오. 이 패널은 차원을 볼 수 있고 통찰력을 얻기 위해 새 구현이 필요하지 않으므로 이전 다음/이전 보고 차원을 벗어납니다. | 2022년 4월 1일 |
-| [!UICONTROL 페이지 요약] 작업 공간 패널 | 다음 [!UICONTROL 페이지 요약] 패널은 선택한 페이지에 대한 심층적인 분석 기능을 제공합니다. 기존 Reports &amp; Analytics와 동일한 세부 정보를 제공합니다 [!UICONTROL 페이지 요약] 보고서 이외에 더 많은 것이 있습니다. | 2022년 4월 1일 |
+| 작업 영역의 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022년 3월 23일부터 점진적 롤아웃이 시작됩니다. 일반 가용성: 2022년 4월 11일 |
+| Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 업데이트로 유용성이 향상되고 탐색이 간편해졌습니다. [자세히 알아보기](/help/analyze/landing.md) | 2022년 4월 1일 |
+| [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | [!UICONTROL 다음 또는 이전 항목] 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. 예를 들어 특정 제품 페이지, 마케팅 채널 또는 디바이스 유형에 대해 다음 또는 이전 페이지를 살펴보려면 이 패널을 사용하십시오. 이 패널은 기존의 다음/이전 보고 수준을 넘어 모든 차원을 볼 수 있도록 해 주며 통찰력을 얻기 위한 새로운 구현이 필요하지 않습니다. | 2022년 4월 1일 |
+| [!UICONTROL 페이지 요약] 작업 영역 패널 | [!UICONTROL 페이지 요약] 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. 이 패널은 기존 Reports &amp; Analytics [!UICONTROL 페이지 요약] 보고서에서 확인할 수 있었던 모든 세부 정보와 더불어 훨씬 더 많은 정보를 제공합니다. | 2022년 4월 1일 |
 
 {style=&quot;table-layout:auto&quot;}
 
