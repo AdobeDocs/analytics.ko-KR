@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->이 기능의 점진적 롤아웃은 2022년 3월 23일에 시작됩니다. 일반 공급: 2022년 4월 11일.
+>2022년 3월 23일부터 이 기능의 점진적 롤아웃이 시작됩니다. 일반 가용성: 2022년 4월 11일.
 
 [!UICONTROL 구성] 요소 > [!UICONTROL 주석] 관리자는 공유, 필터링, 태그 지정, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 주석을 관리하는 다양한 방법을 제공합니다.
 
