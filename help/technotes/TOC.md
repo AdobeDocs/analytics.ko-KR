@@ -5,9 +5,9 @@ user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
 source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
