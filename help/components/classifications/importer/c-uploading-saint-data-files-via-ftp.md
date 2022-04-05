@@ -3,10 +3,10 @@ description: FTP를 통해 데이터 파일을 업로드하는 방법.
 title: FTP 가져오기
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. �
 
 ## FTP를 통해 분류 가져오기 {#task_132C36830B69418B8C929E39838EF01D}
 
-FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
+ FTP 계정을 사용하여 Adobe Analytics로 분류를 가져오는 방법을 설명하는 단계입니다.
 
 FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
@@ -55,6 +55,8 @@ FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/
    FIN 파일은 데이터 파일과 같은 이름을 가지는 비어 있는 파일이며 파일 확장명은 [!DNL .fin]입니다. 예를 들어 데이터 파일이 [!DNL classdata1.tab]인 경우 FIN 파일 이름은 [!DNL classdata1.fin]입니다.
 
 Adobe는 FIN 파일과 연관된 업로드한 데이터 파일을 정기적으로 검색합니다. Adobe는 검색한 파일을 FTP 계정 구성에 지정된 보고서 세트와 데이터 세트로 내보냅니다.
+
+Adobe Analytics이 FTP 폴더에 업로드된 읽기 및 처리 파일을 가지고 있으면 파일이 자동으로 삭제됩니다.
 
 ## FTP 계정 만들기를 참조하십시오. {#task_C019268E6C934C7C95F4326F42A22CCF}
 
