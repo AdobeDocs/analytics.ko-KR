@@ -4,9 +4,9 @@ description: 차원 항목에 대한 방문당 체류 시간입니다.
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
