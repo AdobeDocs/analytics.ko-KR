@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 14881de9527796430f13199a6fc5d06452a94a60
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 88%
+source-wordcount: '1138'
+ht-degree: 89%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2022년 3월)
 
-**마지막 업데이트: 2022년 4월 6일**
+**마지막 업데이트: 2022년 3월 31일**
 
 * 2022년 2월 릴리스 정보는 [여기](/help/release-notes/2022.md)를 참조하십시오.
 * Customer Journey Analytics 릴리스 노트의 경우 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR)
@@ -21,14 +21,12 @@ ht-degree: 88%
 
 ## Adobe Analytics의 새로운 기능 {#aa-features}
 
-**마지막 업데이트: 2022년 4월 6일**
-
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
 | 작업 영역의 주석 | 작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022년 3월 23일부터 점진적 롤아웃이 시작됩니다. 일반 가용성: 2022년 4월 11일 |
 | Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 업데이트로 유용성이 향상되고 탐색이 간편해졌습니다. [자세히 알아보기](/help/analyze/landing.md) | 2022년 4월 1일 |
-| [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | [!UICONTROL 다음 또는 이전 항목] 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. 예를 들어 특정 제품 페이지, 마케팅 채널 또는 디바이스 유형에 대해 다음 또는 이전 페이지를 살펴보려면 이 패널을 사용하십시오. 이 패널은 기존의 다음/이전 보고 수준을 넘어 모든 차원을 볼 수 있도록 해 주며 통찰력을 얻기 위한 새로운 구현이 필요하지 않습니다. | 2022년 4월 20일 |
-| [!UICONTROL 페이지 요약] 작업 영역 패널 | [!UICONTROL 페이지 요약] 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. 이 패널은 기존 Reports &amp; Analytics [!UICONTROL 페이지 요약] 보고서에서 확인할 수 있었던 모든 세부 정보와 더불어 훨씬 더 많은 정보를 제공합니다. | 2022년 4월 20일 |
+| [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | [!UICONTROL 다음 또는 이전 항목] 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. 예를 들어 특정 제품 페이지, 마케팅 채널 또는 디바이스 유형에 대해 다음 또는 이전 페이지를 살펴보려면 이 패널을 사용하십시오. 이 패널은 기존의 다음/이전 보고 수준을 넘어 모든 차원을 볼 수 있도록 해 주며 통찰력을 얻기 위한 새로운 구현이 필요하지 않습니다. | 2022년 4월 1일 |
+| [!UICONTROL 페이지 요약] 작업 영역 패널 | [!UICONTROL 페이지 요약] 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. 이 패널은 기존 Reports &amp; Analytics [!UICONTROL 페이지 요약] 보고서에서 확인할 수 있었던 모든 세부 정보와 더불어 훨씬 더 많은 정보를 제공합니다. | 2022년 4월 1일 |
 
 {style=&quot;table-layout:auto&quot;}
 
