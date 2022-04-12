@@ -4,8 +4,8 @@ description: Adobe는 생성일이 2년 이상인 모든 예약된 보고서를 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: a08865a94b7d9bf602e8de8c7f8d2af2fb80ff0e
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 예약된 보고서에 대한 서비스 종료
 
-2022년 4월 15일부터 Adobe는 2년 이상 전에 생성된 모든 예약된 예정된 보고서(2020년 1월 31일 전에 생성된 모든 작업)를 일시 중지합니다. 보고서나 데이터는 삭제되지 않습니다. 중지 대상은 생성일이 2년 이상 지난 보고서로 식별되는 보고서만 해당하며, 예약된 보고서는 추가적으로 전송되지 않습니다.
+2022년 4월 21일부터 Adobe는 2년 이상 전에 생성된 모든 예약된 예정된 보고서(2020년 1월 31일 전에 생성된 모든 작업)를 일시 중지합니다. 보고서나 데이터는 삭제되지 않습니다. 중지 대상은 생성일이 2년 이상 지난 보고서로 식별되는 보고서만 해당하며, 예약된 보고서는 추가적으로 전송되지 않습니다.
 
 전송해야 하는 모든 예약된 보고서는 Analytics에 로그인하고 [!UICONTROL 예약된 보고서] 관리자를 열어 다시 활성화할 수 있습니다. [!UICONTROL 편집] 아이콘을 클릭한 다음 새 예약 시간 및 만료일을 설정하십시오. 더 짧은 만료일을 선택하지 않는 한 다시 활성화한 보고서의 기본 만료일은 9개월입니다.
 

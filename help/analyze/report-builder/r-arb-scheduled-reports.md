@@ -4,8 +4,8 @@ title: 예약된 작업 관리자
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 이전 예약된 작업 일시 중지
 
-**2022년 4월 15일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지합니다. 특히 **2020년 1월 31일 전에 생성된 모든 작업**&#x200B;이 일시 중지 대상에 해당합니다. 작업, 통합 문서나 데이터는 삭제되지 않습니다. 2년 이상이 지난 작업은 중지되며, 예약된 작업은 추가적으로 전송되지 않습니다.
+**2022년 4월 21일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지합니다. 특히 **2020년 1월 31일 전에 생성된 모든 작업**&#x200B;이 일시 중지 대상에 해당합니다. 작업, 통합 문서나 데이터는 삭제되지 않습니다. 2년 이상이 지난 작업은 중지되며, 예약된 작업은 추가적으로 전송되지 않습니다.
 
 전송을 재개하고자 하는 작업은 다시 활성화할 수 있습니다. Report Builder에 로그인한 다음 [!UICONTROL 예약된 작업 관리자]를 실행합니다. 전송을 재개하려는 예약된 작업에 대해 **[!UICONTROL 재활성화]**&#x200B;를 클릭합니다. 더 짧은 만료일을 선택하지 않는 한 다시 활성화한 작업의 기본 만료일은 18개월입니다.
 
