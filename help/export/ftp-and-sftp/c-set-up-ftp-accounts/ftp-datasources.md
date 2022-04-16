@@ -4,14 +4,14 @@ keywords: ftp, sftp
 title: 데이터 소스 개요
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '451'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 99%
 
 ---
 
-# 데이터 소스
+# FTP 기반 Data Sources
 
 Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 데이터 소스를 만들고 관리할 수 있습니다.
 

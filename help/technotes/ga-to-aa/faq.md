@@ -1,16 +1,16 @@
 ---
-title: Adobe Analytics로 마이그레이션할 때 자주 묻는 질문
+title: Adobe Analytics으로 마이그레이션하기 위한 FAQ
 description: 서드파티 플랫폼에서 Adobe로 이동할 때 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '408'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
-# FAQ
+# Adobe Analytics으로 마이그레이션하기 위한 FAQ
 
 **서드파티 플랫폼에서 Adobe Analytics로 이전 데이터를 마이그레이션하려면 어떻게 해야 합니까?**
 

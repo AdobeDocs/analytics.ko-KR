@@ -2,10 +2,10 @@
 title: 크로스 디바이스 분석 FAQ
 description: 크로스 디바이스 분석에 대한 FAQ
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
-workflow-type: ht
-source-wordcount: '1941'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '1937'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ CDA는 식별자 변수 차원 항목을 보고에 최적화되기 전에 가져
 
 ## CDA에 대해 얼마나 많은 귀사의 보고서 세트가 활성화될 수 있습니까?
 
-여러 보고서 세트가 활성화될 수 있지만, 한번에 여러 보고서 세트를 요청하면 각 보고서 세트가 추가되어 전체 프로비저닝 시간이 늘어날 수 있습니다. CDA는 보고서 세트를 병합하지 않습니다. CDA에서 활성화된 각 보고서 세트는 기본적으로 크로스 디바이스이어야 합니다(데스크탑 웹, 모바일 웹 등 여러 서피스의 데이터가 포함).
+2022년 5월 1일부터 CDA의 새로운 구현은 고객당 최대 3개의 RSID(보고서 세트 ID)로 제한됩니다. CDA는 보고서 세트를 병합하지 않습니다. CDA에서 활성화된 각 보고서 세트는 기본적으로 크로스 디바이스이어야 합니다(데스크탑 웹, 모바일 웹 등 여러 서피스의 데이터가 포함)..
 
 ## Experience Cloud org(IMS org로도 알려짐)에 다른 지역의 여러 회사들이 있다면 각 회사를 위해 CDA를 활성화할 수 있습니까?
 
