@@ -3,13 +3,13 @@ description: 페이지 요약 패널에는 선택한 페이지에 대한 요약 
 title: 페이지 요약 패널
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # 페이지 요약 패널
 
@@ -26,12 +26,12 @@ ht-degree: 9%
 
 ## 패널 입력 {#Input}
 
-을 구성할 수 있습니다 [!UICONTROL 다음 또는 이전 항목] 다음 입력 설정을 사용하는 패널:
+을 구성할 수 있습니다 [!UICONTROL 페이지 요약] 다음 입력 설정을 사용한 패널:
 
 | 설정 | 설명 |
 | --- | --- |
 | 세그먼트(또는 기타 구성 요소) 드롭 영역 | 세그먼트 또는 기타 구성 요소를 끌어다 놓아 패널 결과를 추가로 필터링할 수 있습니다. |
-| 페이지 차원 항목 | 드롭다운 목록에서 탐색할 주요 통계가 있는 차원 항목을 선택합니다. |
+| 페이지 차원 항목 | 드롭다운 목록에서 탐색할 주요 통계가 있는 페이지 차원 항목을 선택합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ ht-degree: 9%
 | [!UICONTROL 플로우] | 선택한 페이지를 초점으로 사용하는 흐름 다이어그램. 데이터를에서 처럼 추가로 드릴다운할 수 있습니다 [흐름 다이어그램](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![페이지 요약 패널](assets/page-sum1.png)
+
+![지표 및 흐름](assets/page-sum2.png)
