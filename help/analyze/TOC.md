@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1047'
+ht-degree: 99%
 
 ---
 
@@ -98,6 +98,8 @@ ht-degree: 100%
          + [개요](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [입력 및 출력 설정](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [FAQ](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [다음 또는 이전 항목 패널](analysis-workspace/c-panels/next-previous.md)
+      + [페이지 요약 패널](analysis-workspace/c-panels/page-summary.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
       + 세그먼트 비교 패널 {#segment-comparison}
          + [세그먼트 비교 개요](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

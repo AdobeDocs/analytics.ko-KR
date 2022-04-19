@@ -4,8 +4,8 @@ title: A4T(Analytics for Target) 패널
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: ht
+source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 100%
 
@@ -41,7 +41,6 @@ Analytics for Target 패널은 Adobe Target 활동 및 경험의 성과를 더 �
 
 ![렌더링됨](assets/a4t-rendered.png)
 
-
 각 자유 형식 테이블에는 다음 지표 열이 표시됩니다.
 
 | 지표 | 설명 |
@@ -64,8 +63,8 @@ Analysis Workspace의 모든 패널과 마찬가지로 Adobe Target 활동을 �
 | A4T에서 지원되는 활동 유형은 무엇입니까? | 지원되는 활동 유형에 대해 [자세히](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html?lang=ko-KR) 알아보십시오. |
 | 상승도 및 신뢰도 계산에서 계산된 지표가 지원됩니까? | 아니요. 상승도 및 신뢰도에서 계산된 지표가 지원되지 않는 이유에 대해 [자세히](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=ko-KR) 알아보십시오. 하지만 계산된 지표는 이러한 지표 외부의 A4T 보고에서 사용할 수 있습니다. |
 | Target과 Analytics 간에 고유 방문자가 다른 이유는 무엇입니까? | 제품 간 고유 방문자 차이에 대해 [자세히](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ko-KR) 알아보십시오. |
-| 내 분석에서 특정 Target 활동에 대해 히트 세그먼트를 적용하면 반환된 관련 없는 경험이 표시되는 이유가 무엇입니까? | A4T 차원은 목록 변수입니다. 이는 한 번에 많은 활동 (및 경험)을 포함할 수 있음을 의미합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ko-KR) |
-| 신뢰도 지표는 예외적인 주문을 고려합니까? 또는 여러 오퍼에 대해 Bonferroni 수정을 적용합니까? | 아니요. Analytics이 신뢰도를 계산하는 방법에 대해 [자세히](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=ko-KR) 알아보십시오. |
+| 내 분석에서 특정 Target 활동에 대해 히트 세그먼트를 적용하면 반환된 관련 없는 경험이 표시되는 이유가 무엇입니까? | A4T 차원은 목록 변수입니다. 이는 한 번에 많은 활동 (및 경험)을 포함할 수 있음을 의미합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 신뢰도 지표는 예외적인 주문을 고려합니까? 또는 여러 오퍼에 대해 Bonferroni 수정을 적용합니까? | 아니요. Analytics이 신뢰도를 계산하는 방법에 대해 [자세히](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 알아보십시오. |
 | 상승도와 신뢰도 지표를 다른 차원이나 분류와 함께 사용할 수 있습니까? | 상승도와 신뢰도는 계산할 제어 및 변형을 필요로 하므로 타겟 경험 차원에 대해 &quot;잠긴 지표&quot;입니다. 따라서 분류하거나 다른 차원과 사용할 수 없습니다. |
 | 상승도와 신뢰도는 언제 다시 계산됩니까? | 패널을 실행 (또는 재실행)하거나, 패널 날짜 범위가 변경되거나, 세그먼트가 패널이나 테이블에 적용될 때마다 상승도와 신뢰도가 다시 계산됩니다. 자유형 테이블에 세그먼트 필터를 적용할 때 모든 열에 적용해야 합니다. 그렇지 않으면 상승도 및 신뢰도가 올바르게 업데이트되지 않습니다. 현재 열 수준 세그먼트는 지원되지 않습니다. |
 
