@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
+source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 68%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2022년 4월)
 
-**마지막 업데이트**: 2022년 4월 19일
+**마지막 업데이트**: 2022년 4월 20일
 
 * 2022년 3월 릴리스 정보는 [여기](/help/release-notes/2022.md)를 참조하십시오.
 
