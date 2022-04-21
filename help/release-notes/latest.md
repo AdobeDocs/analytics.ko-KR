@@ -6,19 +6,19 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 53%
+ht-degree: 68%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 노트(2022년 4월)
+# 최신 Adobe Analytics 릴리스 정보 (2022년 4월)
 
 **마지막 업데이트**: 2022년 4월 19일
 
-* 2022년 3월 릴리스 노트에 대해 다음을 수행하십시오. [여기](/help/release-notes/2022.md).
+* 2022년 3월 릴리스 정보는 [여기](/help/release-notes/2022.md)를 참조하십시오.
 
-* Customer Journey Analytics 릴리스 노트의 경우 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR).
+* Customer Journey Analytics 릴리스 정보는 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=kr)를 참조하십시오.
 
-* Media Analytics 릴리스 노트의 경우 [여기](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=en).
+* Media Analytics 릴리스 정보는 [여기](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=kr)를 참조하십시오.
 
 * [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트에 대해 알아봅니다. Experience League에서 최신 자가 진단 설명서 튜토리얼 및 과정을 살펴보십시오.
 
@@ -33,9 +33,9 @@ ht-degree: 53%
 
 ## Adobe Analytics의 수정 사항
 
-* 데이터 피드 UI에서 만들 때 데이터 피드를 저장한 후 시작 및 종료 날짜가 자동으로 변경되는 데이터 피드의 문제를 수정했습니다. 날짜는 1일까지 갱신되고 있었다. (AN-281262)
+* 데이터 피드 UI에서 생성할 때 데이터 피드를 저장한 후 시작 및 종료 날짜가 자동으로 변경되는 데이터 피드 문제를 수정했습니다. 날짜가 저절로 1일씩 업데이트되었습니다. (AN-281262)
 
-* 이메일 링크를 통해 예약된 프로젝트를 갱신할 수 없는 문제가 수정되었습니다. (AN-283622)
+* 이메일 링크를 통해 예약된 프로젝트를 업데이트할 수 없는 문제가 해결되었습니다. (AN-283622)
 
 ### Adobe Analytics의 추가 수정 사항
 
@@ -45,14 +45,14 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
-| **CDA(Cross-Device Analytics) 권한** | 2022년 4월 13일 | 유효 **2022년 5월 1일**, 새로운 구현 [CDA](/help/components/cda/overview.md) 는 고객당 최대 3개의 보고서 세트 ID(RSID)로 제한됩니다. |
-| **Adobe Analytics에서 Experience Edge를 통해 수집된 A4T 데이터를 처리하는 방식 변경** | 2022년 3월 31일 | 2022년 3월 7일부터 Analytics에서 A4T(Target Analytics for Target) 보고를 위한 Target 콘텐츠가 포함된 Experience Edge에서 오는 일부 호출을 처리하는 방식이 변경되었습니다. 3월 7일부터 A4T 보고 컨텐츠가 있는 모든 히트가 수정되므로 페이지 보기 또는 링크 이벤트로 처리되지 않습니다. 시작 **2022년 3월 31일**&#x200B;를 채울 때는 표준 페이지 보기 및 클릭 이벤트가 수정되지 않도록 논리가 더 선택적입니다. 앞으로는 A4T 콘텐츠만 있는 개인화 전용 호출만 수정됩니다. |
+| **크로스 디바이스 분석(CDA) 권한** | 2022년 4월 13일 | 유효 **2022년 5월 1일**, 새로운 구현 [CDA](/help/components/cda/overview.md) 는 고객당 최대 3개의 보고서 세트 ID(RSID)로 제한됩니다. |
+| **Adobe Analytics가 Experience Edge를 통해 수집된 A4T 데이터를 처리하는 방법 변경** | 2022년 3월 31일 | 2022년 3월 7일부터 Analytics에서 A4T(Target Analytics for Target) 보고를 위한 Target 콘텐츠가 포함된 Experience Edge에서 오는 일부 호출을 처리하는 방식이 변경되었습니다. 3월 7일부터 A4T 보고 컨텐츠가 있는 모든 히트가 수정되므로 페이지 보기 또는 링크 이벤트로 처리되지 않습니다. 시작 **2022년 3월 31일**&#x200B;를 채울 때는 표준 페이지 보기 및 클릭 이벤트가 수정되지 않도록 논리가 더 선택적입니다. 앞으로는 A4T 콘텐츠만 있는 개인화 전용 호출만 수정됩니다. |
 | **특정 고객에 대해 지원되는 브라우저 암호화 방법에 대한 업데이트** | 2022년 3월 28일 | Adobe는 자사 데이터 수집에서의 보안에 대한 다양한 고객 요구 사항에 부합하는 두 가지의 암호 보안 수준을 제공합니다. 설정 **2022년 6월 23일** 보안 수준이 &quot;높음&quot;으로 설정된 고객의 경우 암호라고 하는 특정 HTTPS 암호화 알고리즘에 대한 지원이 제거됩니다. 이 작업은 일부 이전 운영 체제가 최신 암호화 방법을 지원하지 않으므로 더 이상 데이터를 Analytics로 전송할 수 없음을 의미합니다. 기본 &quot;표준&quot; 암호화 보안 설정을 사용하는 고객은 영향을 받지 않습니다. 현재 “높음” 설정을 사용 중인 모든 고객에게는 이미 해당 공지가 직접 전송되었습니다. 이 변경의 영향을 받는 암호 목록은 여기에서 확인할 수 있습니다. |
-| **이전 예약된 보고서 일시 중지** | 2022년 4월 12일 | **2022년 4월 20일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 예정된 보고서(2020년 1월 31일 전에 생성된 작업)를 일시 중지합니다. 보고서나 데이터는 삭제되지 않습니다. 2년 이상으로 식별된 보고서만 일시 중지되며 추가 예약된 보고서가 전송되지 않습니다. 자세히 알아보기 |
+| **이전 예약된 보고서 일시 중지** | 2022년 4월 12일 | **2022년 4월 20일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 예정된 보고서(2020년 1월 31일 전에 생성된 작업)를 일시 중지할 예정입니다. 보고서나 데이터는 삭제되지 않습니다. 2년 이상으로 식별된 보고서만 일시 중지되며 추가 예약된 보고서가 전송되지 않습니다. 자세히 알아보기 |
 | **2022 ISO 지역 업데이트** | 2021년 3월 11일 | Adobe은 다음 사항에 대한 2022 ISO 지역 업데이트를 수행할 계획입니다 **2022년 6월 10일**. 이 릴리스 이후에 부분적인 지역 정보 업데이트가 있을 것으로 예상됩니다. |
-| **이전 예약된 Report Builder 작업 일시 중지** | 2022년 4월 12일 | 유효 **2022년 4월 20일**, Adobe은 2년 이상 전에 만들어진 예약된 모든 Report Builder 작업을 일시 중지하려고 합니다. 특히 2020년 1월 31일 전에 생성된 모든 작업이 일시 중지 대상에 해당합니다. 작업, 통합 문서 또는 데이터는 삭제되지 않습니다. 그러나 2년 이상으로 식별된 작업은 일시 중지되며 추가 예약된 작업은 전송되지 않습니다. 자세히 알아보기 |
+| **이전 예약된 Report Builder 작업 일시 중지** | 2022년 4월 12일 | **2022년 4월 20일**&#x200B;부터 Adobe는 2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지할 예정입니다. 특히 2020년 1월 31일 전에 생성된 모든 작업이 일시 중지 대상에 해당합니다. 작업, 통합 문서 또는 데이터는 삭제되지 않습니다. 그러나 2년 이상으로 식별된 작업은 일시 중지되며 추가 예약된 작업은 전송되지 않습니다. 자세히 알아보기 |
 | **기존 Analytics OAuth/JWT 통합에 대한 허용 목록 EOL 확장 기능 만료** | 2022년 1월 14일 | 설정 **2022년 5월 25일**, [Analytics 1.3 API, 1.4 SOAP API 및 Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 허용 목록에 추가하다 확장이 만료됩니다. 이는 레거시 [!DNL Adobe Analytics] OAuth/JWT 자격 증명 추가 시간을 사용하여 클라이언트 통합을 [Adobe IMS 자격 증명](https://developer.adobe.com/console)으로 마이그레이션할 수 있도록 고객에게 제공되었던 기능입니다. 해당 만료는 필요한 IMS 마이그레이션을 완료하지 않은 [!DNL Adobe Analytics Livestream] 및 [!DNL Adobe Campaign] 고객에 영향을 주지만 이에 국한되지는 않습니다. 현재 이전 버전을 사용 중인 고객 [!DNL Analytics] 확장을 통한 OAuth/JWT 자격 허용 목록에 추가하다 증명이며, 2022년 5월 25일까지 IMS 자격 증명으로의 마이그레이션을 완료하지 않은 사람은 Adobe 서비스에 대한 액세스 권한을 상실합니다. 라이브스트림 고객은 클라이언트 애플리케이션을 IMS 자격 증명으로 마이그레이션하는 방법에 대한 이 [지침](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)을 참조할 수 있습니다. [!DNL Campaign] 고객은 Adobe 계정 팀에 최신 버전의 [!DNL Campaign]으로의 업그레이드에 대해 문의할 수 있습니다. |
-| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2022년 1월 4일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다. |
+| **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2022년 1월 4일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=kr)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다. |
 
 {style=&quot;table-layout:auto&quot;}
 

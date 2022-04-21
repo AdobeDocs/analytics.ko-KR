@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
 source-wordcount: '3212'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -28,18 +28,18 @@ ht-degree: 95%
 | 새 항목 [!UICONTROL 페이지 요약] 패널 | [페이지 요약 패널](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | 새 항목 [!UICONTROL 다음/이전 항목] 패널 | [다음/이전 차원 항목 패널](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022년 3월** |  |
-| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | [지원되는 HTTPS 암호화 알고리즘](/help/technotes/rdc/encryption-algos.md) 암호 보안 수준이 &quot;높음&quot;으로 설정된 고객의 경우 |
-| Workspace의 주석에 대한 새로운 설명서 | [작업 영역의 주석을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다.](/help/analyze/analysis-workspace/components/annotations/overview.md) |
-| Adobe Analytics 랜딩 페이지 업데이트 | [작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 업데이트로 유용성이 향상되고 탐색이 간편해졌습니다.](/help/analyze/landing.md) |
-| [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | 이 패널에서는 선택한 차원 항목을 따르거나 앞에 오는 항목을 탐색할 수 있습니다. |
-| [!UICONTROL 페이지 요약] 작업 영역 패널 | 이 패널에서는 선택한 페이지에 대한 심층적인 분석 기능을 제공합니다. |
-| 오래된 예약된 보고서 일시 중지에 대한 새 주제입니다 | 유효 **2022년 4월 15일**, Adobe은 [만든 날짜가 2년 이상인 예약된 모든 보고서 일시 중지](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | 암호 보안 수준이 “높음”으로 설정되어 있는 고객에 대해 [HTTPS 암호화 알고리즘이 지원](/help/technotes/rdc/encryption-algos.md)됩니다. |
+| 작업 영역의 주석에 대한 새로운 설명서 | [작업 영역의 주석](/help/analyze/analysis-workspace/components/annotations/overview.md)을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. |
+| Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 [업데이트](/help/analyze/landing.md)로 유용성이 향상되고 탐색이 간편해졌습니다. |
+| [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | 이 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. |
+| [!UICONTROL 페이지 요약] 작업 영역 패널 | 이 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. |
+| 이전 예약된 보고서 일시 중지에 대한 새로운 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 보고서를 일시 중지할 예정입니다](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **2022년 2월** |
-| 모바일 스코어카드 프로젝트 미리보기 모드 | 다음 [미리 보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) 스코어카드를 저장하고 공유하기 전에 경험을 미리 볼 수 있습니다. |
+| 모바일 스코어카드 프로젝트 미리보기 모드 | [미리보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=kr#preview)에서는 스코어카드를 저장하고 공유하기 전에 환경을 미리 확인할 수 있습니다. |
 | API 프로젝트 끝점 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| 이전 예약된 Report Builder 작업 일시 중지에 대한 주제가 업데이트되었습니다 | **2022년 4월 15일**[부터 Adobe는 2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지합니다](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| 이전 예약된 Report Builder 작업 일시 중지에 대한 업데이트된 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지할 예정입니다](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **2021년 10월** |  |
-| 2021년 10월 21일 | Analysis Workspace의 [빠른 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans)에 대한 새로운 설명서 |
+| 2021년 10월 21일 | Analysis Workspace의 [빠른 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=kr)에 대한 새로운 설명서 |
 | 2021년 10월 21일 | Analysis Workspace의 [미디어 재생 소요 시간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ko-KR) 패널에 대한 새로운 설명서. |
 | 2021년 10월 7일 | [모바일 스코어카드용 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ko-KR#apply-visualizations)에 대한 새로운 설명서 |
 | **2021년 8월** |  |
@@ -104,7 +104,7 @@ ht-degree: 95%
 | **2020년 5월** |  |
 | 2020년 5월 31일 | [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)에 대한 새로운 설명서 |
 | 2020년 5월 21일 | [Adobe Analytics 대시보드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ko)에 대한 새로운 설명서 |
-| 2020년 5월 21일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace의 [접근성 향상](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html)에 대한 새로운 설명서입니다. |
+| 2020년 5월 21일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace의 [접근성 향상](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=kr)에 대한 새로운 설명서입니다. |
 | **2020년 4월** |  |
 | 2020년 4월 28일 | [콘텐츠 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
 | 2020년 4월 16일 | 빈 상태에서 [!UICONTROL 자유 형식 테이블]을 자동으로 작성하는 방법에 대한 설명서입니다. 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 [!UICONTROL 자유 형식 테이블]에 함께 끌어 놓을 때 혼합 구성 요소 유형 (예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
@@ -135,7 +135,7 @@ ht-degree: 95%
 | 2020년 12월 19일 | 기본 [FTP 데이터 스토리지 한도](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=ko-KR)를 10GB로 변경했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | IP 로그인 제한 적용의 기간 종료에 대한 새로운 주제입니다. |
-| 2019년 11월 21일 | [고객 움직임 분석](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)을 위한 새로운 설명서 세트 |
+| 2019년 11월 21일 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)용 새로운 설명서 세트 |
 | 2019년 11월 21일 | 라이브스트림에서의 가용성을 나타내기 위해 [Audience Analytics 워크플로 FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ko-KR)를 업데이트했습니다. |
 | 2019년 10월 25일 | [Adobe Analytics 주요 개념](/help/technotes/terms.md) 페이지가 업데이트되었습니다. |
 | 2019년 10월 10일 | 자유 형식 테이블 업데이트: 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ko-KR)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko-KR)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
