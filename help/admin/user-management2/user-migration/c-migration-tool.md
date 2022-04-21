@@ -3,10 +3,10 @@ description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용�
 title: Admin Console로 Analytics 사용자 마이그레이션
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '3115'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '3114'
+ht-degree: 99%
 
 ---
 
@@ -120,15 +120,15 @@ Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">귀하가 Admin Console에서 Analytics 제품 관리자인지 확인하십시오. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">마이그레이션이 시작되면 로그인 환경이 변경될 것임을 사용자에게 알리십시오. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">현재 사용자 및 사용 권한을 감사하고 정리 활동을 수행하십시오. </li> 
-    </ul> <p>마이그레이션을 더 신속히 처리하려면 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>의 고객 성공 관리자에게 문의하여 더 빠른 시작일 요청을 제출하십시오. </p> </td> 
+    </ul> <p>마이그레이션을 더 신속히 처리하려면 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>의 고객 성공 관리자에게 문의하여 더 빠른 시작일 요청을 제출하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 저는 Admin Console에 대한 액세스 권한이 없는 Analytics 관리자입니다. Admin Console에 대한 액세스 권한을 받는 데 누가 도와줄 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>조직의 Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>조직의 Admin Console에 대한 액세스 권한이 있는 모든 시스템 또는 제품 관리자가 액세스 권한을 줄 수 있습니다. 조직 내 콘솔 관리자 권한을 가진 사람을 모르는 경우 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>마이그레이션 시작 날짜를 연기할 수 있습니까? </p> </td> 
-   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p><p>시작 날짜의 현재 Analytics 사용자 및 권한 관리에 대한 변경 사항 설명은 아래를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>예. <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 고객 지원</a>에 문의하십시오. </p><p>시작 날짜의 현재 Analytics 사용자 및 권한 관리에 대한 변경 사항 설명은 아래를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이제 내 회사가 Admin Console로 마이그레이션 중입니다. 마이그레이션 시작 날짜 전에는 새 사용자 및 권한 그룹을 어디에서 만듭니까? </p> </td> 
@@ -280,7 +280,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 관리 API <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">Adobe 지원 ID 유형</a> </p> </td> 
-   <td colname="col2"> <p> Admin Console로 마이그레이션하는 관리자는 Admin Console의 사용자 계정에 프로그래밍 방식으로 액세스하기 위해 Adobe I/O에서 제공되는 <a href="https://developer.adobe.com/UMAPI/">사용자 관리 API</a>를 구성해야 합니다. </p> <p>마이그레이션할 수 있도록 설정되면 Analytics 권한 API 사용이 중지됩니다. </p> </td> 
+   <td colname="col2"> <p> Admin Console으로 마이그레이션하는 관리자는 다음을 구성해야 합니다<a href="https://developer.adobe.com/UMAPI/"> 사용자 관리 API</a> Admin Console의 사용자 계정에 프로그래밍 방식으로 액세스하기 위해 Adobe Developer에서 제공됩니다. </p> <p>마이그레이션할 수 있도록 설정되면 Analytics 권한 API 사용이 중지됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>웹 서비스 자격 증명 </p> </td> 
@@ -288,7 +288,7 @@ Admin Console 사용의 이점은 다음과 같습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>단일 사인온 </p> </td> 
-   <td colname="col2"> <p> 마이그레이션을 완료하면 Analytics 단일 사인온(SSO) 구성이 제거됩니다. 마이그레이션 중에는 활성 상태로 유지됩니다. Analytics 단일 사인온을 사용하는 고객은 <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">Adobe Federated ID</a>로 업그레이드해야 합니다. </p> <p>Analytics에서는 먼저 Adobe ID로서 사용자를 마이그레이션하여 Experience Cloud 계정을 쉽게 만든 다음 해당 계정을 Federated 단일 사인온 사용자로 변환할 것을 권장합니다. </p> </td> 
+   <td colname="col2"> <p> 마이그레이션을 완료하면 Analytics 단일 사인온(SSO) 구성이 제거됩니다. 마이그레이션 중에는 활성 상태로 유지됩니다. Analytics 단일 사인온을 사용하는 고객은 <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a>로 업그레이드해야 합니다. </p> <p>Analytics에서는 먼저 Adobe ID로서 사용자를 마이그레이션하여 Experience Cloud 계정을 쉽게 만든 다음 해당 계정을 Federated 단일 사인온 사용자로 변환할 것을 권장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>권한 그룹 다운로드 </p> </td> 
