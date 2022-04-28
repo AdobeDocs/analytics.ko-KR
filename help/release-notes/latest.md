@@ -3,24 +3,25 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
+source-git-commit: c29515da8c74ad3332aa9797db9de505af7fe3aa
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 68%
+source-wordcount: '1070'
+ht-degree: 60%
 
 ---
 
 # 최신 Adobe Analytics 릴리스 정보 (2022년 4월)
 
-**마지막 업데이트**: 2022년 4월 20일
+**마지막 업데이트**: 2022년 4월 28일
 
-* 2022년 3월 릴리스 정보는 [여기](/help/release-notes/2022.md)를 참조하십시오.
+## 관련 리소스
 
-* Customer Journey Analytics 릴리스 정보는 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=kr)를 참조하십시오.
+* [2022년 이전 릴리스 노트](/help/release-notes/2022.md)
+* [년 Customer Journey Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [Media Analytics 릴리스 노트](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* 에 대한 최신 릴리스 업데이트 [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
-* Media Analytics 릴리스 정보는 [여기](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=kr)를 참조하십시오.
-
-* [Adobe Experience Cloud 제품](https://business.adobe.com/products/adobe-experience-cloud-products.html)의 최신 릴리스 업데이트에 대해 알아봅니다. Experience League에서 최신 자가 진단 설명서 튜토리얼 및 과정을 살펴보십시오.
+## Adobe Analytics의 새로운 기능
 
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
@@ -34,12 +35,12 @@ ht-degree: 68%
 ## Adobe Analytics의 수정 사항
 
 * 데이터 피드 UI에서 생성할 때 데이터 피드를 저장한 후 시작 및 종료 날짜가 자동으로 변경되는 데이터 피드 문제를 수정했습니다. 날짜가 저절로 1일씩 업데이트되었습니다. (AN-281262)
-
 * 이메일 링크를 통해 예약된 프로젝트를 업데이트할 수 없는 문제가 해결되었습니다. (AN-283622)
+* Apple Safari 및 Microsoft Edge의 최근 릴리스가 Adobe의 브라우저 유형 조회 테이블에서 올바르게 식별되지 않는 문제를 수정했습니다. 와 비슷함 [브라우저 버전이 업데이트되었습니다](/help/components/dimensions/browser.md)를 업데이트하면 브라우저 유형 조회 테이블에 대한 업데이트만 앞으로 진행되는 데이터를 수정합니다. 브라우저 버전에 대한 조회 테이블은 4월 20일에 업데이트되었으며, 브라우저 유형에 대한 조회 테이블은 4월 28일에 업데이트되었습니다. (AN-284872) AN-285753; (AN-286257)
 
 ### Adobe Analytics의 추가 수정 사항
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761;
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
 
 ## Adobe Analytics 관리자에 대한 중요 공지
 
@@ -61,4 +62,4 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 AppMeasurement 릴리스(버전 2.22.4)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko-KR)를 참조하십시오.
 
 >[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
+>[[!DNL Customer Journey Analytics] 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko-KR)
