@@ -4,10 +4,10 @@ description: Adobe는 생성일이 2년 이상인 모든 예약된 보고서를 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: d3309815de29264c743f30a236c99a55fc731413
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 100%
 
 이 조치의 목적은 이전에 발표된 Reports &amp; Analytics의 서비스 종료를 대비하여 예약된 보고서를 효율적으로 관리하고 유지하는 것입니다. 이는 새로운 거버넌스 정책이 될 것입니다.
 
+* 2022년 4월 15일 이후에는 새로 예약된 보고서를 만들 수 없습니다.
 * 2022년 4월 15일부터 모든 예약된 보고서에 최대 9개월의 만료일이 적용됩니다.
 * 9개월 이후 만료된 작업은 2023년 12월 31일까지 일시 중지되며 필요에 따라 다시 활성화할 수 있습니다.
 * 2023년 12월 31일부터 Reports &amp; Analytics의 서비스가 중단됩니다.
