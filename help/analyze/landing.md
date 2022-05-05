@@ -4,28 +4,20 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 100%
+source-wordcount: '3564'
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics의 랜딩 페이지
 
-Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics]를 [!DNL Workspace] 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴, 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다.
-
->[!IMPORTANT]
->
->이 랜딩 페이지는 현재 Open Beta에 있으며, 시작점으로 선택할 수 있습니다. 원하는 경우 [!UICONTROL 작업 영역]인지 [!UICONTROL 보고서]인지 여부와 관계없이 기존 랜딩 페이지를 사용할 수 있습니다. Beta 프로그램에 옵트인하기로 결정한 경우 페이지에 액세스하고 화면 상단의 **[!UICONTROL 피드백 제공]**&#x200B;을 클릭하여 피드백 및 발생 가능한 버그를 기록합니다. 언제든지 Beta 프로그램에서 옵트아웃했다가 다시 옵트인할 수 있습니다. Beta 사용자 인터페이스에서 수행된 모든 작업은 기존/현재 [!UICONTROL 작업 영역] 경험으로 이어집니다.
+Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics]를 [!DNL Workspace] 하의 단일 인터페이스와 액세스 포인트에 통합합니다. 여기에는 프로젝트 관리자 홈 페이지, 업데이트된 보고서 메뉴, 현대화된 보고서 및 보다 효과적으로 시작하는 데 도움이 되는 학습 섹션도 포함되어 있습니다. 다음은 비디오 개요입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## 새로운 랜딩 페이지 기능
-
->[!NOTE]
->
->이러한 추가 및 변경 내용은 현재 [제한적인 테스트가 실시되고 있습니다](/help/release-notes/releases.md).
+## 새로운 랜딩 페이지 기능 {#new-features}
 
 | 기능 | 설명 | 스크린샷 |
 | --- | --- | --- |
@@ -47,7 +39,7 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 
 ![랜딩](assets/landing.png)
 
-## 메뉴 구조
+## 위쪽 메뉴 구조 {#top-menu}
 
 ![상단 메뉴](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 
 앞서 언급한 바와 같이, 이전에 Reports &amp; Analytics에 그룹화되었던 가장 일반적으로 사용되는 보고서만 여기에서 사용할 수 있습니다. 거의 사용되지 않거나 더 이상 관련이 없는 소수의 보고서는 이전되지 않았습니다. 자세한 내용은 아래 FAQ를 참조하십시오.
 
-### 메뉴 및 하위 메뉴
+### 메뉴 및 하위 메뉴 {#menus}
 
 다음은 메뉴와 해당 하위 메뉴입니다. 특정 보고서를 찾을 수 없는 경우 “페이지에서 검색”을 수행하여 찾습니다.
 
@@ -125,7 +117,7 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | **[!UICONTROL 획득]** | <ul><li>마케팅 채널 > 첫 번째 터치 채널, 첫 번째 터치 채널 세부 정보(성과가 가장 좋은 첫 번째 터치 채널과 특정 첫 번째 터치 채널은 무엇입니까?)</li><li>마케팅 채널 > 마지막 터치 채널, 마지막 터치 채널 세부 정보(성과가 가장 좋은 마지막 터치 채널과 특정 마지막 터치 채널은 무엇입니까?)</li><li>캠페인 > 캠페인(내 주요 지표를 유도하는 캠페인은 무엇입니까?)</li><li>캠페인 > 캠페인 성과(가장 많은 매출을 창출하는 캠페인은 무엇입니까?)</li><li>캠페인 > 추적 코드(어떤 캠페인 추적 코드가 가장 성과가 좋습니까?)</li><li>[웹 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#web)</li><li>[모바일 고객 확보](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics 유료 검색](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#advertising)</li><li>검색 키워드 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 키워드가 주요 지표를 가장 잘 유도합니까?)</li><li>검색 엔진 - 모두, 유료, 자연어(어떤 검색 키워드와 유료/자연어 검색 엔진 주요 지표를 가장 잘 유도합니까?)</li><li>전체 검색 페이지 순위(내 사용자는 어떤 검색 페이지에서 방문합니까?)</li><li>참조 도메인(내 사이트로 트래픽을 유도하는 도메인은 무엇입니까?)</li><li>원래 참조 도메인(내 사이트를 방문하기 전에 첫 번째 도메인 사용자는 무슨 도메인에 있었습니까?)</li><li>레퍼러(사용자가 내 사이트를 클릭하기 전에 어떤 URL을 사용했습니까?)</li><li>레퍼러 유형(내 추천 URL은 어떤 범주에 속합니까?)</li></ul> |
 | **[!UICONTROL 회사 보고서]** | 회사가 사용자의 사용을 위해 만든 보고서입니다. 아래의 “회사 보고서 만들기”를 참조하십시오. |
 
-### 템플릿 위치(이제 보고서라고 함)
+### 템플릿 위치(이제 보고서라고 함) {#templates}
 
 | 보고서(템플릿) 이름 | 보고서 위치 |
 | --- | --- |
@@ -152,7 +144,7 @@ Adobe Experience Cloud와 Analytics에 로그인 후 왼쪽 하단의 [!UICONTRO
 | 웹 고객 확보 | 고객 확보 > 웹 고객 확보 |
 | Advertising Analytics 유료 검색 | 고객 확보 > Advertising Analytics: 유료 검색 |
 
-### 보고서 탭 사용
+### 보고서 탭 사용 {#use-reports}
 
 Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 현재 Workspace에 표시되는 보고서를 사용하는 방법에 대한 간단한 소개가 있습니다. 보고서는 기존 템플릿처럼 작동합니다. 보고서를 변경하면 다른 보고서를 탐색하거나 다른 보고서로 이동할 때 변경 사항을 저장/취소하라는 메시지가 표시됩니다. 그리고 변경 사항을 저장하려는 경우 보고서를 새 프로젝트로 저장합니다.
 
@@ -170,7 +162,7 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
    * 오른쪽 상단의 달력으로 이동하여 날짜 범위를 변경할 수 있습니다.
    * 차원 분류를 추가하고, 다른 지표를 드래그하고, 일반적으로 원하는 방식으로 보고서를 사용자 지정할 수 있습니다.
 
-### (사용자 지정) 회사 보고서 만들기
+### (사용자 지정) 회사 보고서 만들기 {#company-report}
 
 사용자 지정 보고서는 회사 보고서라고 하며 회사 보고서 메뉴에 있습니다(아래 참조). 이전에 만든 항목과 새로운 항목이 여기에 나열됩니다.
 
@@ -199,6 +191,22 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
 * [!UICONTROL Workspace 기본 사항] 둘러보기는 Workspace로 바로 이동하여 Workspace 레이아웃과 가장 일반적인 작업을 찾거나 수행할 위치를 안내합니다. 이 둘러보기는 패널 헤더의 도구 설명 팝업을 통해 Workspace에서 바로 다시 실행할 수도 있습니다.
 * 비디오/투어를 클릭하면 **[!UICONTROL 조회함]** 태그가 추가됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. 태그를 클릭할 수 있고 아직 콘텐츠를 완료하지 않은 경우에는 태그가 사라집니다.
 * 비디오 모달의 **[!UICONTROL 자세히 알아보기]** 버튼을 누르면 방금 시청한 비디오와 관련된 추가 도움말 콘텐츠가 포함된 Adobe Experience League 설명서 페이지로 이동합니다.  **[!UICONTROL 많은 비디오 보기]**&#x200B;는 전체 Analysis Workspace YouTube 재생 목록으로 이동합니다.
+
+## 랜딩 페이지 설정 {#set-landing}
+
+사용자는 기본 랜딩 페이지를 설정할 수 있습니다.
+
+1. Analytics > 로 이동합니다. [!UICONTROL 구성 요소] > [!UICONTROL 기본 설정] > [!UICONTROL 일반].
+1. 원하는 랜딩 페이지를 확인합니다.
+
+   ![랜딩 페이지 설정](assets/landing-pref.png)
+
+## 보고서 탭 숨기기 {#hide-reports}
+
+관리자는 조직 내의 모든 사용자에 대한 보고서 탭을 숨길 수 있습니다.
+
+1. 이동 [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 기본 설정] > [!UICONTROL 회사].
+1. 확인 **[!UICONTROL 보고서 탭 숨기기]**.
 
 ## 랜딩 페이지 FAQ {#landing-faq}
 
