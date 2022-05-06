@@ -4,16 +4,16 @@ description: Adobe는 생성일이 2년 이상인 모든 예약된 보고서를 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
+source-git-commit: 3a307eefec4f9e6559c5109819ef55b200852b3b
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '353'
 ht-degree: 70%
 
 ---
 
 # 예약된 보고서에 대한 서비스 종료
 
-**** No reports or data were deleted. Only reports identified as older than two years were paused, and no additional scheduled reports can be sent.
+유효 **2022년 4월 21일**, Adobe은 생성 날짜가 2년 이상인 예약된 모든 보고서를 일시 중지했습니다(2020년 1월 31일 이전에 생성된 모든 작업). 보고서나 데이터가 삭제되지 않았습니다. 2년 이상으로 식별된 보고서만 일시 중지되었으며 예약된 보고서를 더 이상 전송할 수 없습니다.
 
 전송해야 하는 모든 예약된 보고서는 Analytics에 로그인하고 [!UICONTROL 예약된 보고서] 관리자를 열어 다시 활성화할 수 있습니다. [!UICONTROL 편집] 아이콘을 클릭한 다음 새 예약 시간 및 만료일을 설정하십시오. 더 짧은 만료일을 선택하지 않는 한 다시 활성화한 보고서의 기본 만료일은 9개월입니다.
 
@@ -27,10 +27,10 @@ ht-degree: 70%
 
 이 조치의 목적은 이전에 발표된 Reports &amp; Analytics의 서비스 종료를 대비하여 예약된 보고서를 효율적으로 관리하고 유지하는 것입니다. 이는 새로운 거버넌스 정책이 될 것입니다.
 
-* No new scheduled reports can be created after April 21, 2022.
-* After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months.
-* After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023.
+* 2022년 4월 21일 이후에는 새로 예약된 보고서를 만들 수 없습니다.
+* 2022년 4월 21일 이후 모든 예약된 보고서의 최대 만료 날짜는 9개월입니다.
+* 9개월 후 만료된 작업은 일시 중지되며, 필요한 경우 2023년 12월 31일까지 다시 활성화할 수 있습니다.
 * 2023년 12월 31일부터 Reports &amp; Analytics의 서비스가 중단됩니다.
-* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
+* 2022년 4월 21일부터 더 이상 새 데이터 추출을 설정할 수 없습니다. 기존 항목은 계속 실행되지만 새 항목은 예약할 수 없습니다.
 
 추가 질문 또는 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오.
