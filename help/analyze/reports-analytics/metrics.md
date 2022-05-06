@@ -1,13 +1,13 @@
 ---
 description: 지표는 보고서의 기반으로, 데이터 관계를 보고 이해하는 데 도움이 되며 웹 사이트에 대한 다양한 데이터 세트를 동시에 비교할 수 있도록 지원합니다. 지표는 보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 판매량, 주문 수, 매출액 등과 같은 방문자 활동에 대한 수량 정보입니다.
-title: 지표 개요
+title: Reports & Analytics 지표 개요
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: f0d2508b64b835a030258c7437c10b7c8654b5ed
+source-git-commit: 87d1fb0c856fa28e14861b01980f6f4c1080eacb
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 98%
+source-wordcount: '329'
+ht-degree: 97%
 
 ---
 
