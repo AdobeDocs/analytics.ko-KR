@@ -1,16 +1,16 @@
 ---
 description: 웹 페이지 트래픽을 표시하며 실시간으로 페이지 조회수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
-title: Adobe Analytics의 실시간 보고서
+title: 실시간 보고서
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: f0d2508b64b835a030258c7437c10b7c8654b5ed
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
-# Adobe Analytics의 실시간 보고서
+# 실시간 보고서
 
 웹 페이지 트래픽을 표시하며 실시간으로 페이지 조회수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 
