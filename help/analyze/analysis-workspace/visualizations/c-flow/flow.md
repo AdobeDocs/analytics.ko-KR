@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 차원 간 플로우 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 플로우는 홈 페이지에서 &#39;남성&#39; 페이지로 이동한 다음, &#39;신발&#39; 부문으로 이동할 수 있습니다.
+[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우 플로우는 홈 페이지에서 Mens 페이지로 이동한 다음 Shoes 부로 이동할 수 있습니다.
 
 각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 놓기 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
 

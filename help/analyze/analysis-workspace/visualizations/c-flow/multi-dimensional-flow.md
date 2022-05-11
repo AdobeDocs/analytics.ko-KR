@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # 차원 간 흐름
 
-차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다.
-
-다음은 Analysis Workspace의 텍스트 줄바꿈 및 다차원 흐름에 대한 비디오입니다.
+차원 간 흐름을 이용하면 다양한 차원에 걸친 사용자 경로를 검사할 수 있습니다. 다음은 Analysis Workspace의 텍스트 줄바꿈 및 다차원 흐름에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ ht-degree: 100%
 
 앱 사용 사례와 웹 사용 사례, 이렇게 두 가지 사용 사례를 살펴보겠습니다.
 
-## 사용 사례 1: 앱 {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 사용 사례 1: 앱 {#app}
 
 맨 위의 반환되는 항목이 [!UICONTROL ItemAdded]인 [!UICONTROL 동작 이름] 차원이 흐름에 추가되었습니다.
 
@@ -34,7 +32,7 @@ ht-degree: 100%
 
 이 앱에서 화면/페이지와 동작 간 상호 작용을 탐색하기 위해, 탐색하려는 내용에 따라 페이지 차원을 여러 위치에 드래그할 수 있습니다.
 
-* 놓기 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 나타나면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
+* 놓기 영역 (테두리가 검은색으로 표시된 직사각형 영역 내부가 표시되면 그 내부)의 한 쪽 끝으로 드래그하여 끝에 있는 상위 결과를 **대체**&#x200B;합니다.
 
    ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
@@ -56,7 +54,7 @@ ht-degree: 100%
 
 이렇게 되면 분석 중인 앱에 대해 깊이 있게 이해하고 변경이 가능해집니다.
 
-## 사용 사례 2: 웹 {#section_8D55983FA0C84926995270052AE01CD8}
+## 사용 사례 2: 웹 {#web}
 
 이 사용 사례에서는 대부분의 항목을 웹 사이트로 연결하는 캠페인을 분석할 수 있는 방법을 보여 줍니다.
 
