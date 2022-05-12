@@ -3,24 +3,24 @@ title: Adobe Analytics에서 사용하는 IP 및 도메인
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 86%
 
 ---
 
 # Adobe Analytics에서 사용하는 IP 및 도메인
 
-일부 방화벽 구성은 Adobe 데이터 수집 서버나 데이터에 액세스하는 서버에서 오는 IP 주소를 차단합니다. 이 범위 목록을 사용하여 액세스를 허용하고 조직 내에서 데이터를 전송할 수 있도록 조직의 방화벽 설정을 변경할 수 있습니다.
+일부 방화벽 구성은 Adobe 데이터 수집 서버나 데이터에 액세스하는 서버에서 오는 IP 주소를 차단합니다. 이 범위 목록을 사용하여 액세스를 허용하고 조직 내에서 데이터를 전송할 수 있도록 조직의 방화벽 설정을 변경할 수 있습니다. 이 페이지에는 Adobe이 사용하는 인바운드 시스템(예: 데이터 수집)과 아웃바운드 시스템(예: 데이터 피드)이 모두 포함됩니다.
 
 >[!IMPORTANT]
 >
->Adobe는 이 문서를 최신 상태로 유지하기 위해 최선을 다하고 있지만 IP 범위 목록이 유지된다고 보장하지는 못합니다. 비즈니스의 성장 및 확대와 같은 변화가 있을 수 있으며, 인터넷 레지스트리에서 Adobe의 IP 주소 공간을 변경해야 하거나, 인터넷 서비스 공급자가 제대로 작동하지 않을 수 있습니다.
+>Adobe은 이 문서를 최신 상태로 유지하기 위해 최선을 다하고 있지만 IP 범위 목록이 유지된다고 보장하지는 못합니다. 비즈니스의 성장 및 확대와 같은 변화가 있을 수 있으며, 인터넷 레지스트리에서 Adobe의 IP 주소 공간을 변경해야 하거나, 인터넷 서비스 공급자가 제대로 작동하지 않을 수 있습니다.
 
 ## 종속 기술 도메인 허용
 
-Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 개선합니다. Adobe Analytics를 사용하는 최적의 환경을 구축하려면 다음 도메인을 방화벽의 허용 목록에 추가하는 것이 좋습니다.
+Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 개선합니다. Adobe은 Adobe Analytics을 사용하는 최적의 환경을 위해 조직의 방화벽을 통해 이러한 도메인을 허용하는 것이 좋습니다.
 
 | 기술 | 도메인 |
 | --- | --- |
