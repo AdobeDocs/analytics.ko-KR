@@ -3,10 +3,10 @@ title: 데이터 수집 쿼리 매개 변수
 description: 이미지 요청에 사용된 모든 쿼리 문자열 매개 변수를 나열합니다.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | `p` | 없음 | 더 이상 사용되지 않습니다. 브라우저에서 사용되는 플러그인 목록. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | [페이지](/help/components/dimensions/page.md) 차원에 사용됩니다. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원에 사용됩니다. |
-| `pccr` | 없음 | 새 방문자에 대해서만 설정되고 항상 `true`로 설정됩니다. 무한 리디렉션을 방지하는 데 도움이 됩니다. |
+| `pccr` | 없음 | 새 방문자에 대해서만 설정되고 항상 `true`로 설정됩니다. 방문자가 쿠키를 거부하는 경우 무한 리디렉션을 방지하는 데 도움이 됩니다. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 사용자 지정 링크의 유형을 결정합니다. [사용자 지정 링크](/help/components/dimensions/custom-link.md), [다운로드 링크](/help/components/dimensions/download-link.md) 및 [종료 링크](/help/components/dimensions/exit-link.md)에 필요합니다. |
 | `pev1` | 없음 | 사용자 지정 링크가 발생한 URL. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | 사용자 지정 링크의 친숙한 이름. |
@@ -77,7 +77,8 @@ ht-degree: 100%
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [추적 코드 차원.](/help/components/dimensions/tracking-code.md) |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) 또는 사용자 지정 전환 차원입니다. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 방문자 ID 변수. |
-| `vmk` | `vmk` | 더 이상 사용되지 않습니다. 구현을 서드파티 쿠키에서 자사 쿠키로 마이그레이션하는 데 도움을 준 방문자 마이그레이션 키입니다. |
+| `vidn` | 없음 | 새 방문자에 대해 AppMeasurement에서 설정합니다. 방문자 쿠키에 저장된 ID 값을 포함합니다. |
+| `vmk` | `vmk` | 더 이상 사용되지 않습니다. 구현을 타사 쿠키에서 자사 쿠키로 마이그레이션하는 데 도움을 준 방문자 마이그레이션 키입니다. |
 | `vvp` | `variableProvider` | Data Connectors에서 사용됩니다. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | 온라인 및 오프라인 데이터를 함께 연결하기 위해 Data Sources와 함께 사용됩니다. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | [우편 번호](/help/components/dimensions/zip-code.md) 차원에서 사용됩니다. |
