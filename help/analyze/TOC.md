@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
       + 흐름 {#flow}
          + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [새로운 흐름 시각화(베타)](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [새로운 플로우 시각화 (Beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [흐름 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
@@ -99,7 +99,7 @@ ht-degree: 99%
          + [개요](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [입력 및 출력 설정](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [FAQ](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [다음 항목 패널 또는 이전 항목 패널](analysis-workspace/c-panels/next-previous.md)
+      + [다음 또는 이전 항목 패널](analysis-workspace/c-panels/next-previous.md)
       + [페이지 요약 패널](analysis-workspace/c-panels/page-summary.md)
       + [빠른 인사이트 패널](analysis-workspace/c-panels/quickinsight.md)
       + 세그먼트 비교 패널 {#segment-comparison}
