@@ -3,16 +3,20 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 95%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보 (2022년 4월)
+# 현재 Adobe Analytics 릴리스 노트(2022년 5월)
 
-**마지막 업데이트**: 2022년 5월 9일
+**마지막 업데이트**: 2022년 5월 11일
+
+>[!NOTE]
+>
+>이 페이지에는 출시 전 정보가 포함되어 있으며 변경될 수 있습니다.
 
 ## 관련 리소스
 
@@ -25,24 +29,23 @@ ht-degree: 100%
 
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
-| Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 업데이트로 유용성이 향상되고 탐색이 간편해졌습니다. [자세히 알아보기](/help/analyze/landing.md) | 2022년 4월 20일 |
-| [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | [!UICONTROL 다음 또는 이전 항목] 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. 예를 들어 특정 제품 페이지, 마케팅 채널 또는 디바이스 유형에 대해 다음 또는 이전 페이지를 살펴보려면 이 패널을 사용하십시오. 이 패널은 기존의 다음/이전 보고 수준을 넘어 모든 차원을 볼 수 있도록 해 주며 통찰력을 얻기 위한 새로운 구현이 필요하지 않습니다. [자세히 알아보기](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 2022년 4월 20일 |
-| [!UICONTROL 페이지 요약] 작업 영역 패널 | [!UICONTROL 페이지 요약] 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. 이 패널은 기존 Reports &amp; Analytics [!UICONTROL 페이지 요약] 보고서에서 확인할 수 있었던 모든 세부 정보와 더불어 훨씬 더 많은 정보를 제공합니다. [자세히 알아보기](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 2022년 4월 20일 |
-| 2.0 API 호출에 대한 `x-proxy-global-company-id` 헤더 요구 사항 제거 | 이 정보는 끝점 URL의 일부이므로 Adobe Analytics 2.0 API에는 더 이상 `x-proxy-global-company-id` 헤더가 필요하지 않습니다. 이 헤더를 계속 포함할 수 있지만 누락된 경우 더 이상 오류가 발생하지 않습니다. | 2022년 4월 20일 |
+| 이번 달에는 새로운 기능 없음 | 해당 사항 없음 | 해당 사항 없음 |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Adobe Analytics의 수정 사항
+### Adobe Analytics의 수정 사항
 
-* 데이터 피드 UI에서 생성할 때 데이터 피드를 저장한 후 시작 및 종료 날짜가 자동으로 변경되는 데이터 피드 문제를 수정했습니다. 날짜가 저절로 1일씩 업데이트되었습니다. (AN-281262)
-* 이메일 링크를 통해 예약된 프로젝트를 업데이트할 수 없는 문제가 해결되었습니다. (AN-283622)
-* Adobe 브라우저 유형 조회 테이블에서 Apple Safari 및 Microsoft Edge의 최신 릴리스가 제대로 식별되지 않는 문제를 해결했습니다. [브라우저 버전이 업데이트](/help/components/dimensions/browser.md)되는 경우와 마찬가지로 브라우저 유형 조회 테이블에 대한 업데이트는 향후 데이터만 수정합니다. 브라우저 버전의 조회 테이블은 4월 20일에 업데이트되었으며 브라우저 유형의 조회 테이블은 4월 28일에 업데이트되었습니다. (AN-284872; AN-285753; AN-286257)
+(여러 고객에 대한 수정 사항)
+
+해당 사항 없음
 
 ### Adobe Analytics의 추가 수정 사항
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
+(개별 고객에 대한 수정 사항)
 
-## Adobe Analytics 관리자에 대한 중요 공지
+AN-274429; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-285253; AN-285432; AN-285535; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
+
+### Adobe Analytics 관리자에 대한 중요 공지
 
 | 공지 | 추가 또는 업데이트 날짜 | 설명 |
 | ----------- | ---------- | ---------- |
@@ -58,9 +61,7 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 {style=&quot;table-layout:auto&quot;}
 
-## AppMeasurement {#appm}
+### AppMeasurement
 
 AppMeasurement 릴리스(버전 2.22.4)에 대한 최신 업데이트는 [JavaScript용 AppMeasurement 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ko)를 참조하십시오.
 
->[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] 릴리스 정보](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ko)
