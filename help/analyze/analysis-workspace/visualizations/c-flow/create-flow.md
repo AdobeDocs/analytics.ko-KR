@@ -4,9 +4,9 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '808'
 ht-degree: 40%
 
 ---
@@ -45,6 +45,10 @@ ht-degree: 40%
 
    ![경로 지정 차원](assets/pathing-dim.png)
 
+   >[!IMPORTANT]
+   >
+   >계산된 지표는  **[!UICONTROL 다음으로 시작]** 또는 **[!UICONTROL 다음으로 끝남]** 영역을 삭제합니다.
+
 1. (선택 사항) **[!UICONTROL 고급 설정 표시]** 고급 설정을 구성하려면:
 
    ![고급 설정](assets/adv-settings.png)
@@ -53,7 +57,7 @@ ht-degree: 40%
    | --- | --- |
    | **[!UICONTROL 반복 인스턴스 포함]** | 플로우 시각화는 차원의 인스턴스를 기반으로 합니다. 이 설정은 반복된 인스턴스 (예: 페이지 다시 로드)를 포함하거나 제외하는 옵션을 제공합니다. 하지만 listVars, listProp, s.product, 머천다이징 eVar 등과 같이 여러 값을 갖는 차원을 포함하는 플로우 시각화에서는 반복을 제거할 수 없습니다. 기본값 = 선택 해제. |
    | **[!UICONTROL 줄 바꿈 레이블]** | 대개 흐름 요소의 레이블은 화면 공간을 절약하기 위해 잘리지만 이 상자를 선택하여 전체 레이블을 표시할 수 있습니다. 기본값 = 선택 해제. |
-   | **[!UICONTROL 첫 번째/마지막 항목으로 제한]** | 차원/항목/지표의 첫 번째/마지막 발생으로 시작/종료되는 경로로 경로를 제한합니다. |
+   | **[!UICONTROL 처음/마지막 발생으로 제한]** | 차원/항목/지표의 첫 번째/마지막 발생으로 시작/종료되는 경로로 경로를 제한합니다. |
    | **[!UICONTROL 열 수]** | 흐름 다이어그램에서 원하는 열 수를 결정합니다. |
    | **[!UICONTROL 열당 확장된 항목]** | 각 열에 몇 개의 항목을 넣을 수 있습니까? |
    | **[!UICONTROL 흐름 컨테이너]** | <ul><li>방문</li><li>방문자</li></ul> 방문과 방문자 간을 전환하여 방문자 이동 경로를 분석할 수 있도록 합니다. 이 설정은 방문들에 대해 방문자 수준에서 방문자 참여를 이해하거나 분석을 단일 방문으로 제한하는 데 도움이 됩니다. |
