@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
-workflow-type: ht
-source-wordcount: '886'
-ht-degree: 100%
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ## 프로젝트 전용 세그먼트는 무엇입니까?
 
-프로젝트 전용 세그먼트는 해당 세그먼트가 작성된 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다. 프로젝트 전용 세그먼트는 왼쪽 레일에서 세그먼트를 작성하고 저장하지 않고도 데이터를 빠르게 탐색하기 위해 고안되었습니다. [빠른 세그먼트] 또는 [임시 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=ko-KR)를 통해 패널 드롭 영역에서 프로젝트 전용 세그먼트를 작성할 수 있습니다.
+프로젝트 전용 세그먼트는 해당 세그먼트가 작성된 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다. 프로젝트 전용 세그먼트는 왼쪽 레일에서 세그먼트를 작성하고 저장하지 않고도 데이터를 빠르게 탐색하기 위해 고안되었습니다. 프로젝트 전용 세그먼트는 빠른 세그먼트나 [임시 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=ko-KR).
 
 프로젝트 전용 세그먼트가 [!UICONTROL 세그먼트 빌더]에서 열려 있는 경우 프로젝트 전용 알림이 표시됩니다. “이 세그먼트의 사용 허용..”을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 클릭하면 세그먼트는 프로젝트 전용 세그먼트로 유지됩니다. 참고: 세그먼트 빌더에서 [빠른 세그먼트]를 적용하면 [!UICONTROL 빠른 세그먼트 빌더]에서 더 이상 열 수 없습니다.
 

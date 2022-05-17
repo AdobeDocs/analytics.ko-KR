@@ -1,25 +1,25 @@
 ---
 description: Analysis Workspace에서 임시 세그먼트를 사용합니다.
-title: 임시 세그먼트
+title: 애드혹 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 77%
 
 ---
 
 # 임시 프로젝트 세그먼트
 
-임시 프로젝트 세그먼트를 사용하면 구성 요소를 드래그하여 패널 드롭 영역에 바로 놓아 세그먼트를 작성할 수 있습니다. 작성된 세그먼트는 현재 프로젝트에만 적용되는 [프로젝트 수준의 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR?#what-are-project-only-segments%3F)가 됩니다.
+Ad Hoc 프로젝트 세그먼트를 사용하면 구성 요소를 패널 드롭 영역으로 바로 드래그하여 놓아 세그먼트를 만들 수 있습니다. 작성된 세그먼트는 현재 프로젝트에만 적용되는 [프로젝트 수준의 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR?#what-are-project-only-segments%3F)가 됩니다.
 
-다음은 임시 프로젝트 세그먼트 작성에 대한 비디오입니다.
+다음은 임시 프로젝트 세그먼트 만들기에 대한 비디오입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. 구성 요소 유형(차원, 차원 항목, 이벤트, 지표, 세그먼트, 세그먼트 템플릿, 날짜 범위)을 패널 상단의 세그먼트 드롭 영역으로 드래그합니다. 구성 요소 유형은 호환 가능한 경우 자동으로 임시 세그먼트 또는 [빠른 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR)로 변환됩니다.
+1. 구성 요소 유형(차원, 차원 항목, 이벤트, 지표, 세그먼트, 세그먼트 템플릿, 날짜 범위)을 패널 상단의 세그먼트 드롭 영역으로 드래그합니다. 구성 요소 유형은 자동으로 임시 세그먼트로 변환되거나, [빠른 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR) 호환되는 경우
 다음은 Twitter 참조 도메인을 위한 세그먼트를 만드는 방법의 예입니다.
 
    ![](assets/ad-hoc1.png)
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 임시 세그먼트 저장 {#ad-hoc-save}
 
-임시 세그먼트를 저장하여 다른 프로젝트에서 사용할 수 있습니다.
+임시 세그먼트는 저장하여 다른 프로젝트에서 사용할 수 있도록 만들 수 있습니다.
 
 1. 드롭 영역의 세그먼트에 마우스를 가져다 대고 “i” 아이콘을 클릭합니다.
 1. 연필 모양의 편집 아이콘을 클릭하여 세그먼트 빌더로 이동합니다.

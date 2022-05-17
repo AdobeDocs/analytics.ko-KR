@@ -4,10 +4,10 @@ title: 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 5e9894e3b7ea3e6c36e45b3683c08a1c767df8f0
-workflow-type: ht
-source-wordcount: '534'
-ht-degree: 100%
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 | --- | --- | --- | --- |
 | 구성 요소 목록 세그먼트 | +를 클릭하면 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)로 이동합니다. | 모든 작업 영역 프로젝트 | 복잡한 세그먼트의 경우는 순차적 세그먼트 |
 | 빠른 세그먼트 | [빠른 세그먼트 빌더](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [프로젝트 전용](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR?#what-are-project-only-segments%3F)이며 세그먼트 목록에 추가할 수 있습니다. | 자유롭게 하나 이상의 규칙을 추가 또는 편집 |
-| 임시 세그먼트: |  |  |  |
-| - 임시 작업 영역 프로젝트 세그먼트 | [프로젝트의 세그먼트 드롭 영역으로 드래그 앤 드롭](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [프로젝트 전용](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR?#what-are-project-only-segments%3F)이며 세그먼트 목록에 추가할 수 있습니다. | 단일 규칙 세그먼트의 경우 |
+| 애드혹 세그먼트: |  |  |  |
+| - Ad hoc Workspace 프로젝트 세그먼트 | [프로젝트의 세그먼트 드롭 영역으로 드래그 앤 드롭](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [프로젝트 전용](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)이며 세그먼트 목록에 추가할 수 있습니다. | 단일 규칙 세그먼트의 경우 |
 | - 계산된 지표 기반 세그먼트 | [계산된 지표 빌더](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ko-KR) | 계산된 개별 지표에 | 지표 정의 내 세그먼트 적용 |
 | - VRS 기반 세그먼트 | [가상 보고서 세트 빌더](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko-KR) | 개별 가상 보고서 세트에 | VRS 정의 내 세그먼트 적용 |
 
@@ -44,7 +44,7 @@ Analysis Workspace에서 세그먼트 사용:
 Analysis Workspace에서 다음과 같이 서로 다른 유형의 세그먼트를 만들 수 있습니다.
 
 * [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [임시 세그먼트](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
+* [애드혹 세그먼트](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * 세그먼트 빌더에서 만들고 세그먼트 라이브러리에서 끝나는 일반 구성 요소 목록 세그먼트(아래 참조)
 
 ### 구성 요소 목록 세그먼트 만들기 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
