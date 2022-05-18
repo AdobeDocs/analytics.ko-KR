@@ -4,9 +4,9 @@ description: 작업 영역에서 주석을 생성하는 방법
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '590'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 100%
 | **[!UICONTROL 선] 그래프의 한 지점을 마우스 오른쪽 버튼으로 클릭합니다.** | [!UICONTROL 주석 빌더]가 열립니다. 기본적으로 이 방법으로 생성된 주석은 생성된 프로젝트에서만 표시됩니다. 그러나 모든 프로젝트에서 사용할 수 있도록 설정할 수 있습니다. 또한 날짜 및 지표 등이 이미 채워져 있습니다.<p>![](assets/annotate-line.png) |
 | **작업 영역에서 [!UICONTROL 구성 요소] > [!UICONTROL 주석 만들기]로 이동합니다.** | [!UICONTROL 주석 빌더]가 열립니다. |
 | **이 핫키를 사용하여** 주석 빌더를 엽니다. (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | 핫키를 사용하여 주석을 만들면 미리 선택된 범위(지표 또는 차원) 없이 현재 날짜에 대한 하루 주석을 만들 수 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 1. [!UICONTROL 주석 빌더] 요소를 입력합니다.
 
