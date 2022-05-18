@@ -4,18 +4,14 @@ description: 작업 영역에서 주석을 생성하는 방법
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
 
 # 주석 생성
-
->[!NOTE]
->
->이 기능의 점진적 롤아웃은 2022년 3월 23일에 시작됩니다. 일반 공급: 2022년 4월 11일.
 
 1. 여러 가지 방법으로 시작하여 주석을 만들 수 있습니다.
 

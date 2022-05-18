@@ -4,18 +4,14 @@ description: 작업 영역에서 주석을 보는 방법.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
 
 # 주석 보기
-
->[!NOTE]
->
->이 기능의 점진적 롤아웃은 2022년 3월 23일에 시작됩니다. 일반 공급: 2022년 4월 11일.
 
 주석은 하루 또는 날짜 범위에 따라 다소 다르게 나타납니다.
 
