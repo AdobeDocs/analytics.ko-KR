@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
+source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 94%
+source-wordcount: '897'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
-| 이번 달에는 새로운 기능 없음 | 해당 사항 없음 | 해당 사항 없음 |
+| Experience Edge를 통해 라이프사이클 차원 및 지표 채우기 | 이제 많은 라이프사이클 이벤트가 XDM 필드에 자동으로 매핑됩니다. 자동으로 매핑되지 않는 이벤트는 자유 형식 키/값 쌍을 통해 Adobe에 보낼 수 있습니다. [추가 정보 - 곧 제공] | 2022년 5월 27일 |
 
 {style=&quot;table-layout:auto&quot;}
 
