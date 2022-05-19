@@ -5,9 +5,9 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1052'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
