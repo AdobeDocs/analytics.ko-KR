@@ -4,9 +4,9 @@ description: Analysis Workspace, Adobe Analytics 대시보드, Activity Map, Rep
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
-source-wordcount: '241'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -38,11 +38,11 @@ ht-degree: 100%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -3,9 +3,9 @@ title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '373'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '374'
 ht-degree: 100%
 
 ---
@@ -46,11 +46,11 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

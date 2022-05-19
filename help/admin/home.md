@@ -3,9 +3,9 @@ title: Analytics 관리 안내서
 description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정 등 Adobe Analytics 관리자를 위한 관리 도움말.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
-source-wordcount: '328'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니�
 
 ## 주요 Analytics 리소스
 
-* [고객 지원 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
+* [고객 지원 문의](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics 포럼](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 리소스](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
