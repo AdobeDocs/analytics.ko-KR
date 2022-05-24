@@ -3,7 +3,7 @@ title: Analytics 내보내기 안내서
 description: 이 안내서에서는 데이터 피드 및 Data Warehouse를 사용하여 Adobe Analytics에서 데이터를 가져오는 방법에 대해 설명합니다.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
