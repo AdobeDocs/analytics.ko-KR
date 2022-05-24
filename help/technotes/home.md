@@ -3,7 +3,7 @@ title: Analytics 기술 노트
 description: 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 기타 Analytics 리소스
 
