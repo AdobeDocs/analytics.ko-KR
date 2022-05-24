@@ -4,7 +4,7 @@ description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics�
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
