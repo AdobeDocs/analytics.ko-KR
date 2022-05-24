@@ -3,7 +3,7 @@ title: Analytics 통합
 description: 다른 위치의 데이터를 Adobe Analytics에 통합하는 방법을 살펴보십시오.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
