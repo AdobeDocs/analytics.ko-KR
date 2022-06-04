@@ -1,16 +1,16 @@
 ---
-title: Adobe Experience Platform의 태그를 사용한 구현
+title: Adobe Experience Platform에서 태그를 사용하여 Adobe Analytics 구현
 description: 태그를 사용하는 Adobe Analytics 구현 방법 알아보기
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: ht
-source-wordcount: '308'
-ht-degree: 100%
+source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform의 태그를 사용한 구현
+# Adobe Experience Platform에서 태그를 사용하여 Adobe Analytics 구현
 
 Adobe Analytics의 서비스 제공 기간 동안 Adobe는 데이터 수집을 위해 사이트에서 코드를 구현하는 여러 가지 방법을 제공했습니다. Adobe의 현재 권장 방법은 Adobe Experience Platform의 태그를 사용하는 것입니다.
 

@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,22 @@ ht-degree: 100%
    + [구현 모달](prepare/implementation-modal.md)
    + [솔루션 디자인 문서 만들기](prepare/solution-design.md)
    + [기존 Adobe Analytics 구현 관리](prepare/existing-implementation.md)
++ Experience Platform Edge를 사용하여 Analytics 구현 {#aep-edge}
+   + [Experience Edge 개요](aep-edge/overview.md)
+   + [변수 매핑](aep-edge/variable-mapping.md)
+   + 웹 SDK {#web-sdk}
+      + [Web SDK 개요](aep-edge/web-sdk/overview.md)
+   + Mobile SDK {#mobile-sdk}
+      + [모바일 SDK 개요](aep-edge/mobile-sdk/overview.md)
+   + Edge API {#edge-api}
+      + [Edge API 개요](aep-edge/edge-api/overview.md)
++ Adobe Experience Platform의 태그를 사용하여 Analytics 구현 {#launch}
+   + [태그 개요](launch/overview.md)
+   + [Adobe Analytics 태그 속성 만들기](launch/create-analytics-property.md)
+   + [개발 환경에 배포](launch/deploy-dev.md)
+   + [유효성 검사 및 프로덕션에 게시](launch/validate-publish-prod.md)
+   + [데이터 레이어 오브젝트를 데이터 요소에 매핑](launch/layer-to-elements.md)
+   + [Analytics 변수에 태그 데이터 요소 매핑](launch/elements-to-variable.md)
 + JavaScript를 사용하여 Analytics 구현 {#js}
    + [JavaScript 개요](js/overview.md)
    + [구현 옵트아웃 링크](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 100%
       + [방문 예](js/xdevice-visid/visit-example.md)
       + [기존 크로스 디바이스 FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 문제 해결](js/troubleshooting.md)
-+ Adobe Experience Platform의 태그를 사용하여 Analytics 구현 {#launch}
-   + [태그 개요](launch/overview.md)
-   + [Adobe Analytics 태그 속성 만들기](launch/create-analytics-property.md)
-   + [개발 환경에 배포](launch/deploy-dev.md)
-   + [유효성 검사 및 프로덕션에 게시](launch/validate-publish-prod.md)
-   + [데이터 레이어 오브젝트를 데이터 요소에 매핑](launch/layer-to-elements.md)
-   + [Analytics 변수에 태그 데이터 요소 매핑](launch/elements-to-variable.md)
 + 다른 플랫폼에서 Analytics 구현 {#other}
    + [하드코딩된 이미지 요청을 사용하여 Analytics 구현](other/hardcoded.md)
    + [DTM을 사용하여 Analytics 구현](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 100%
    + [집중 검토 (각 웹 사이트 릴리스 이후)](review/focused-review.md)
    + [전체 검토(6개월마다)](review/full-review.md)
    + [상위 5개의 KPI 정의](review/define-kpis.md)
-+ Analytics에서 XDM 데이터 사용 {#aep-edge}
-   + [AEP Web SDK 사용](aep-edge/xdmoverview.md)
-   + [XDM 데이터를 Analytics에 수동으로 매핑](aep-edge/xdm-manual.md)

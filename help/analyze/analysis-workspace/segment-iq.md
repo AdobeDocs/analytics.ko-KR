@@ -2,12 +2,11 @@
 title: 세그먼트 IQ 개요
 description: Adobe Analytics 세그먼트 IQ가 무엇인지, 그리고 이것이 조직에 어떻게 유용할 수 있는지 알아봅니다.
 keywords: Analysis Workspace;세그먼트 IQ
-feature: AI 도구
 role: User, Admin
 exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '159'
+source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+workflow-type: tm+mt
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -22,5 +21,5 @@ ht-degree: 100%
 
 세그먼트 IQ는 다음 기능으로 구성됩니다.
 
-* [세그먼트 비교 패널:](c-panels/c-segment-comparison/segment-comparison.md) 세그먼트 IQ의 핵심 기능. 두 세그먼트를 패널에 드래그하고 통계적으로 중요한 차이점과 두 대상 간의 겹침을 보여주는 포괄적인 보고서를 보십시오.
+* [세그먼트 비교 패널:](c-panels/c-segment-comparison/segment-comparison.md) 세그먼트 IQ의 핵심 기능. 두 세그먼트를 패널에 드래그하고 통계적으로 중요한 차이점과 두 대상 간의 겹침을 보여 주는 포괄적인 보고서를 살펴보십시오.
 * [폴아웃의 세그먼트 비교:](visualizations/fallout/compare-segments-fallout.md) 폴아웃 시각화의 컨텍스트에서 서로 다른 대상이 어떻게 서로 비교되는지 확인하십시오.
