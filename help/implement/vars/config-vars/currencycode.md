@@ -3,8 +3,8 @@ title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 `currencyCode`가 정의되어 있고 보고서 세트의 통화와 다른 경우에는 Adobe가 현재 날짜의 환율을 기준으로 통화 변환을 적용합니다. Adobe는 [XE](https://xe.com)와 협력하여 매일 통화를 변환합니다. 데이터 수집 서버에 저장된 모든 값은 궁극적으로 보고서 세트의 통화로 저장됩니다.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >`currencyCode`에 잘못된 값이 포함되어 있으면 전체 히트가 삭제되어 데이터 손실이 발생합니다. 구현에서 이 변수를 사용하는 경우 이 변수가 올바르게 정의되어 있는지 확인하십시오.
 

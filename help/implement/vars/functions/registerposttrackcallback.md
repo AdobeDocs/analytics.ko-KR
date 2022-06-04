@@ -3,8 +3,8 @@ title: registerPostTrackCallback
 description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `registerPostTrackCallback` 변수를 사용하면 히트가 성공적으로 Adobe에 전송된 직후 조직에서 JavaScript 함수를 후크할 수 있습니다. 추적 호출이 실패하면 이 함수는 실행되지 않습니다. 이 변수를 사용하여 AppMeasurement에서 수집한 데이터를 파트너 또는 사내 인프라에 보내거나 단일 페이지 애플리케이션에서 변수 값을 정리할 수 있습니다.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >[`t()`](t-method.md) 변수 내에서 [`tl()`](tl-method.md) 또는 `registerPostTrackCallback` 같은 추적 호출을 호출하지 마십시오. 이 변수에서 추적 함수를 사용하면 이미지 요청의 무한 루프가 발생합니다.
 

@@ -3,8 +3,8 @@ title: trackOffline
 description: 오프라인 추적을 활성화하거나 비활성화하여 AppMeasurement가 데이터를 수집하는 방식을 변경합니다.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 `trackOffline` 변수는 구현에서 오프라인 추적을 사용할지 여부를 결정합니다.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >이 변수를 활성화하기 전에 타임스탬프가 지정된 히트를 허용하도록 보고서 세트를 구성해야 합니다. 보고서 세트가 타임스탬프가 지정된 히트를 허용하지 않는데 이 변수가 활성화되면 데이터가 손실되어 복구할 수 없습니다.
 

@@ -3,8 +3,8 @@ title: forceOffline
 description: AppMeasurement의 온라인 상태를 수동으로 설정합니다.
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `forceOffline()` 메서드를 사용하면 자동으로 감지된 AppMeasurement 상태를 무시할 수 있습니다.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >[`trackOffline`](../config-vars/trackoffline.md)이 활성화되어 있을 때에만 이 함수를 사용하십시오. 오프라인 추적의 외부에서 이 함수를 사용하면 데이터가 손실될 수 있습니다.
 

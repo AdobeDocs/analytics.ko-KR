@@ -3,8 +3,8 @@ description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >동일한 브라우저에서 관리자 탭을 여러 개 열지 마십시오. 그럴 경우 잘못된 보고서 세트에 실수로 설정을 저장할 수 있습니다. 예를 들어 규칙 세트를 비교하고 새 보고서 세트에 복사해야 할 경우, 새 브라우저를 열거나 스크린샷을 캡처하여 규칙 세트를 비교하는 것이 좋습니다.
 

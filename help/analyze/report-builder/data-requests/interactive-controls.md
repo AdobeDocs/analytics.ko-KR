@@ -4,8 +4,8 @@ title: 양방향 컨트롤
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >제어의 이름은 함부로 변경하지 마십시오. (이 이름을 보려면 제어에 초점을 둡니다. 그러면 왼쪽 위의 Excel 표 바로 위에 제어 이름이 나타납니다.)
 

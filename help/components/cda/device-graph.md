@@ -2,8 +2,8 @@
 title: Device Graph
 description: Device Graph를 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe는 ID 서비스의 일부로서 두 가지 유형의 Device Graph를 제�
 
 Device Graph 방법을 사용하여 크로스 디바이스 분석을 구현하려는 경우 다음 조건을 충족해야 합니다. 조직 내 팀 및 Adobe 계정 관리자와 함께 다음 사항을 모두 충족하도록 하십시오.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >모든 사전 요구 사항을 충족하지 못하면 크로스 디바이스 분석을 사용할 수 없거나 데이터 결합이 제대로 되지 않을 수 있습니다.
 

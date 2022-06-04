@@ -3,10 +3,10 @@ title: 머천다이징 eVar 및 제품 검색 방법
 description: 머천다이징 eVar 이면의 개념과 데이터를 처리하고 할당하는 방법에 대해 자세히 알아보십시오.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
-source-wordcount: '5319'
-ht-degree: 100%
+source-git-commit: 3d9b64bd28210732c7506dbf667c5d4d50e7fb07
+workflow-type: tm+mt
+source-wordcount: '5291'
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 다음은 머천다이징 eVar와 함께 사용할 수 있는 다양한 설정입니다. 다음의 스크린샷은 보고서 세트 관리자에서 찍은 것입니다. [!UICONTROL Analytics] > [!UICONTROL 관리] > [!UICONTROL 보고서 세트] > [!UICONTROL 설정 편집] > [!UICONTROL 전환] > [!UICONTROL 전환 변수] > [!UICONTROL 새로 추가] > [!UICONTROL 머천다이징 활성화]로 이동하여 액세스합니다.
 
-![](assets/merch-evars1.png)
+![Merch eVar](assets/merch-evars1.png)
 
 해당 설정에 대한 자세한 내용은 표 아래의 섹션을 참조하십시오.
 
@@ -86,9 +86,9 @@ ht-degree: 100%
 
 **[!UICONTROL 제품 구문]**&#x200B;을 사용하면 eVar가 Adobe Analytics 제품 변수 내에서만 설정됩니다. Analytics 제품 변수는 제품당 6개의 각기 다른 부분으로 나뉘어져 있습니다.
 
-`s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
+`s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL 카테고리]는 더 이상 사용되지 않는 기능이며, 제품 카테고리 성능을 추적하기 위한 실행 가능한 옵션으로 더 이상 권장되지 않습니다. 단순히 존재만 하는 이 기능 때문에 대부분의 제품 변수 구현에서 단일 세미콜론이 변수 값의 productID 부분보다 우선합니다.
+* [!UICONTROL 카테고리] 및 [!UICONTROL 이름] 해당 제품을 식별합니다.
 * [!UICONTROL 수량] 및 [!UICONTROL 매출]은 제품 구매를 추적할 때 유용합니다.
 * [!UICONTROL 이벤트]는 매출로 계산되지 않는 사용자 지정 증분 또는 통화 이벤트 값(예: 배송, 할인 등)을 기록하는 데 유용합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 이 설정의 역할을 이해하면 eVar 할당과 머천다이징 eVar 바인딩 간의 차이를 이해할 수 있습니다. 머천다이징 eVar의 경우 &quot;머천다이징 eVar 바인딩&quot;이 이 &quot;할당&quot; 설정에 더 적합한 이름입니다.
 
-**표준 eVar 할당 설정**
+#### 표준 eVar 할당 설정
 
 이미지 요청에서 표준 구문을 사용하는 모든 eVar가 수집될 때마다 Adobe Analytics 처리 서버는 `post_evar` 열이라고 하는 다른 데이터베이스 열에 데이터를 삽입합니다. eVar는 대부분의 경우 현재 히트 이후 어느 시점에서 만료되는데 이러한 eVar가 지속되어야 하기 때문에 서버는 모든 후속 이미지 요청에서 이 `post_evar` 열을 설정합니다. 이는 해당 eVar에 전달된 마지막 값과 동일하게 설정됩니다. 표준 eVar의 경우, 성공 이벤트가 발생하면 Adobe Analytics에서는 일반 eVar 열 대신 `post_evar` 열을 사용하여 이 이벤트에 대한 크레딧을 받아야 하는 eVar 값을 결정합니다.
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 표준 eVar의 할당 설정이 &quot;가장 최근(마지막)&quot;과 같은 경우 방문자에서 수집된 가장 최근 eVar 값이 모든 후속 이미지 요청에 대해 `post_evar` 열에 채워집니다. &quot;가장 최근(마지막)&quot; 할당은 이미지 요청에서 해당 eVar가 새 값으로 설정될 때마다 `post_evar` 값이 변경됨을 의미합니다. &quot;원래 값(첫 번째)&quot; 할당은 해당 eVar가 향후 이미지 요청에서 다른 값으로 설정될 수 있어도 `post_evar` 열이 히트 간에 변경되지 않음을 의미합니다.
 
-**머천다이징 eVar 할당(바인딩) 설정**
+#### 머천다이징 eVar 할당(바인딩) 설정
 
 앞에서 언급했듯이 전환 변수 구문이 있는 모든 머천다이징 eVar에는 &quot;가장 최근(마지막)&quot; 할당만 있습니다. 따라서 머천다이징 eVar에 대한 할당 설정은 방문자가 사이트를 계속 사용할 때 post_evar 열에 어떤 값이 삽입되는지를 판별하지 않습니다. 오히려 이 설정은 제품에 바인딩되는 eVar 값과 이러한 제품이 그 바인딩된 eVar 값에 성공 이벤트를 다시 할당하는 방법을 결정합니다.
 
@@ -174,12 +174,11 @@ eVar 유형 설정은 eVar에 삽입되는 데이터 유형을 결정합니다. 
 
 예:
 
-```
+```js
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
 이 변수 설정은 제품 ID 12345의 바인딩을 eVar1 값 &quot;내부 키워드 검색&quot;에서 eVar1 값 &quot;내부 캠페인&quot;으로 변경합니다. 또한 eVar가 &quot;가장 최근(마지막)&quot;의 제품 구문 및 할당(바인딩) 설정을 사용하도록 구성된 경우에 이러한 리바인딩 변경이 발생합니다. 그와 달리 할당(바인딩) 설정이 &quot;원래 값(첫 번째)&quot;으로 설정되었다면, eVar1을 제품 ID 12345와 함께 &quot;내부 캠페인&quot;과 동일하게 설정할 시에 제품 ID 12345가 eVar1 값 &quot;내부 캠페인&quot;에 리바인딩되지 않습니다. 그 대신 바인딩은 원래 바인딩된 값인 &quot;내부 키워드 검색&quot;에 대한 바인딩으로 유지됩니다.
-
 
 ### 제품 구문 사용의 어려움
 
@@ -191,7 +190,7 @@ s.products=";12345;;;;eVar1=internal campaign";
 
 이 예에서 제품 변수의 구문은 길지만 표시된 각 eVar 값을 &quot;sandal123&quot;이라는 제품 ID에 바인딩합니다. 그때부터 &quot;sandal123&quot; 제품과 동시에 캡처되는 모든 성공 이벤트(예: 장바구니 추가, 구매)는 이 제품에 마지막으로 바인딩된 eVar 값에 대해 크레딧이 부여됩니다.  이 코드 샘플은 위의 eVar가 &quot;sandal123&quot; 제품에 바인딩된 후에 &quot;sandal123&quot; 제품의 1개 구매(가격 79.95달러)가 발생하는 경우를 보여 줍니다.
 
-```
+```js
 s.products=";sandal123;1;79.95";
 s.events="purchase";
 ```
@@ -210,7 +209,7 @@ s.events="purchase";
 
 이외에도 방문자는 검색 방법 페이지를 보는 동안 개별 제품 세부 사항 페이지로 이동하는 링크를 클릭하거나 개별 제품을 검색 방법 페이지에서 바로 장바구니에 추가할 수 있습니다. &quot;샌들&quot; 검색 키워드 예시를 사용하자면, 방문자가 &quot;sandal123&quot; 제품을 키워드 검색 결과 페이지에서 바로 장바구니에 추가하는 경우에 장바구니 추가를 캡처하기 위한 코드(장바구니에 추가 버튼의 onClick 이벤트 등)는 장바구니 추가가 발생할 때 동적으로 생성되거나 페이지 코드 또는 태그 관리 시스템을 통해 직접 &quot;하드 코딩&quot;되어야 합니다.  둘 중 어느 방식이든 간에 이러한 경우에서 실행될 코드는 다음과 같습니다.
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
 s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
@@ -236,9 +235,9 @@ s.tl(true,"o","Cart Add")
 
 예를 들어 많은 의류 제품에는 크기, 색상, 스타일 및 기타 모든 속성을 지정하는 &quot;하위 SKU&quot;가 있습니다. 이러한 속성은 하나의 하위 제품을 동일한 상위 제품에 속하는 다른 제품과 구분합니다. 미디엄 크기의 파란색 티셔츠와 라지 크기의 빨간색 티셔츠를 구매하는 경우를 예시로 들어 보겠습니다. 두 셔츠 모두 &quot;tshirt123&quot;이라는 상위 제품 ID를 가지며 `eVar10`이 하위 SKU를 캡처하도록 구성되어 있다고 가정할 때, 구매 확인 페이지에 설정되는 변수는 다음과 같이 설정됩니다.
 
-```
-s.events='purchase';
-s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red"
+```js
+s.events="purchase";
+s.products=";tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red";
 ```
 
 이 경우 `eVar10`(childSKU) 값인 &quot;tshirt123-m-blue&quot;와 &quot;tshirt123-l-red&quot; 모두가 제품 ID &quot;tshirt123&quot;의 각 해당 인스턴스의 구매에 대해 크레딧을 받습니다.
@@ -247,17 +246,17 @@ s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tsh
 
 가장 최근 (마지막)&quot;의 할당(바인딩) 설정을 사용하면 추가적인 문제에 직면할 수 있습니다. 많은 웹 탐색 경험에서 방문자는 이미 본 적이 있거나 장바구니에 추가한 제품을 &quot;재발견&quot;합니다. 이러한 일은 일반적으로 후속 방문을 통해 또는 구매 완료를 결정하기 직전에 발생합니다. 한 방문자가 사이트를 방문하는 동안 &quot;샌들&quot;이라는 키워드 검색으로 &quot;sandal123&quot; 제품을 발견한다고 가정해 봅시다. 방문자는 키워드 검색 결과 페이지에서 제품을 바로 장바구니에 추가합니다. 장바구니 추가를 캡처하는 코드는 다음과 같이 설정됩니다.
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
-s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross
+s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross";
 ```
 
 따라서 이 이미지 요청에 표시되는 각 eVar 값은 &quot;sandal123&quot; 제품에 바인딩됩니다.
 
 이제 방문자가 이 방문 중에 제품을 구매하지 않고 3일 후 사이트를 재방문하며 이때 장바구니에 &quot;sandals123&quot; 제품이 여전히 남아 있다고 가정해 봅시다. 방문자는 구매하기 전에 제품에 대해 자세히 알고 싶어합니다. 하지만 방문자는 키워드 검색을 사용하여 제품을 발견하지 않고 사이트를 탐색합니다. 그리고 방문자는 제품을 &quot;다시 찾기&quot; 바로 전에 &quot;여성 > 신발 > 샌드보드&quot; 머천다이징 찾아보기 섹션에 도달합니다. 방문자가 &quot;sandal123&quot; 제품에 대한 제품 세부 사항 페이지를 &quot;재발견&quot;하게 될 때, 변수는 다음과 같이 설정됩니다(페이지 로드 시).
 
-```
+```js
 s.events="prodView";
 s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-internal campaign|eVar2=non-search|eVar5=non-cross-sell";
 ```
@@ -279,14 +278,14 @@ s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-
 AppMeasurement/AEP 웹 SDK 파일에 포함된 추가 로직은 동시에 설정해야 하는 나머지 변수들(머천다이징 eVar/차원)을 채울 수 있습니다.\
 예를 들어 새 방문자가 &quot;샌들&quot;에 대해 키워드 검색을 수행하고 검색 결과 페이지에서 25개의 결과가 반환되는 경우 실행될 코드(페이지 코드 또는 데이터 레이어 캡처를 통해)는 다음과 같습니다.
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 ```
 
 그런 다음 AppMeasurement/Analytics SDK 파일 내의 로직이 이 코드 조각을 다음으로 자동 변환할 수 있습니다.
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 s.eVar2="sandals";
@@ -324,7 +323,7 @@ s.eVar5="non-cross sell";
 
 바인딩 이벤트가 제품 변수와 동일한 서버 호출에 포함된 경우, 이후 열의 머천다이징 eVar(전환 변수 구문 사용) 값이 제품 변수에 바인딩됩니다. 앞의 예를 기반으로, 하나의 서버 호출에 다음과 같은 머천다이징 eVar 값이 포함되어 있다고 가정해 봅시다.
 
-```
+```js
 s.eVar2="sandals";
 s.eVar1="internal keyword search";
 s.eVar3="non-internal campaign";
@@ -334,7 +333,7 @@ s.eVar5="non-cross sell";
 
 앞에서 설명한 대로 위의 eVar는 각자의 해당 post_evar 열을 통해 현재 히트 이후에도 지속됩니다. 따라서 Adobe 서버가 위의 eVar을 다음과 같이 변환합니다.
 
-```
+```js
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
 post_eVar3="non-internal campaign";
@@ -348,15 +347,15 @@ post_eVar5="non-cross sell";
 
 향후 히트에서 다음의 변수가 설정된다고 가정해 봅시다.
 
-```
+```js
 s.products=";sandals123"
 s.events="prodView";
 ```
 
 post_evar 열에서 Adobe 처리 서버는 이 히트를 다음과 같이 봅니다.
 
-```
-s.products=";sandals123"
+```js
+s.products=";sandals123";
 s.events="prodView";
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
@@ -369,9 +368,9 @@ eVar1, eVar2, eVar3, eVar4 및 eVar5가 `prodView`를 바인딩 이벤트로 사
 
 바인딩이 이루어지면 post_products 열의 값에서 볼 수 있는 매우 흥미로운 결과가 생성됩니다. 바인딩은 다음과 같이 위의 코드를 변환하고 몇 개의 이후 열을 설정합니다.
 
-```
-post_events="prodView"
-post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
+```js
+post_events="prodView";
+post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
 ```
 
 post_products 열에 포함된 값이 익숙하실 수도 있습니다. 이 문서에서 위로 스크롤하여 이 post_products 값과 s.products 값을 비교해 보십시오.  post_products 열은 제품 변수 구문을 사용하여 설정된다는 점을 알 수 있습니다.
@@ -390,6 +389,6 @@ Analytics 서버 호출에서 표준 eVar을 전송하면 post_evar 열의 값�
 
 요약하면 머천다이징 eVar에 대한 기본 인스턴스 지표는 추가 구성 없이는 유용하지 않습니다. 다행히도, Adobe은 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ko-KR)를 발표했습니다. 이를 사용해, Adobe Analytics에서 수집하는 모든 사용자 지정 지표에 대해 여러 속성 모델을 적용할 수 있습니다. 이러한 속성 모델을 적용하는 지표는 post_evar 열에 포함된 값이나 특정 제품에 바인딩된 값을 사용하지 않습니다. 대신 이 지표들은 이미지 요청 자체를 통해 전달되는 값(또는 Adobe Analytics 처리 규칙을 통해 캡처되는 값)만 사용합니다. Attribution IQ의 기능을 이용해, 전환 변수 구문을 사용하는 모든 머천다이징 eVar에 대해 정확하게 인스턴스 지표를 가져올 수 있습니다.
 
-![](assets/attribution-select.png)
+![속성 선택](assets/attribution-select.png)
 
 머천다이징 eVar에 대한 인스턴스 지표를 보고서에 추가할 때 적절한 Attribution IQ 모델은 &quot;마지막 터치&quot; 모델입니다. 이 경우에는 모델에 대한 전환 확인 기간 설정이 중요하지 않습니다. &quot;강제&quot; 마지막 터치 속성 모델은 요청을 통해 전달되는 각 개별 값에 항상 인스턴스 크레딧을 제공하기 때문입니다. 이는 eVar의 실제 속성/바인딩 설정이 &quot;가장 최근(마지막)&quot;과 &quot;원래 값(첫 번째)&quot;으로 설정되는지의 여부와 관계없이 적용됩니다.

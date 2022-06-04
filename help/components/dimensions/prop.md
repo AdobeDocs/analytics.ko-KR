@@ -3,8 +3,8 @@ title: Prop
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각
 
 prop 대/소문자를 구분하도록 지정할 수 있습니다. 어떤 prop에 대해서든 대소문자 구분을 활성화한 후 비활성화할 수도 있습니다. 대/소문자 구분을 전환하려면 보고서 세트 ID와 원하는 변수를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >대/소문자 구분을 전환하면 차원 항목을 클리프할 수 있고, 세그먼트에 예기치 않은 결과가 발생하며, 필터에 문제가 발생합니다. 이 설정은 한 달 또는 1년의 시작과 같이 주요한 두 기간 간에 전환하는 것이 좋습니다.
 

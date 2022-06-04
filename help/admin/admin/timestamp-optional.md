@@ -4,10 +4,9 @@ title: 타임스탬프 선택 사항
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 100%
 * 타임스탬프가 지정된 데이터를 모바일 앱에서 전역 보고서 세트로 보낼 수 있습니다.
 * 새 보고서 세트를 만들지 않고도 오프라인 추적을 사용하도록 앱을 업그레이드할 수 있습니다.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >타임스탬프 옵션을 사용 중이면 이미 타임스탬프가 지정된 데이터에 대해 [s.visitorID](/help/implement/vars/config-vars/visitorid.md)를 설정하지 마십시오. 설정하는 경우 데이터 순서가 잘못되고 시간 계산(체류 시간 값 등), 속성(eVar 지속성), 방문 횟수/방문 카운트 및 경로 지정 보고서에 부정적인 영향을 줄 수 있습니다.
 

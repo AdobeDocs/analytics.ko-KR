@@ -3,8 +3,8 @@ title: eVar (머천다이징) 변수
 description: 개별 제품에 연결된 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar (머천다이징)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
 
-머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ko-KR)을 참조하십시오.
+머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ko)을 참조하십시오.
 
 ## 보고서 세트 설정에서 eVar 설정
 
 구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 eVar를 원하는 구문으로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >머천다이징 eVar를 올바로 구성하지 않으면 이 변수에 대해 예기치 않은 값이나 데이터 손실이 발생합니다. 이 변수를 구현에 맞게 올바로 구성했는지 확인하십시오.
 

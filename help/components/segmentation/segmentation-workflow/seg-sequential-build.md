@@ -3,8 +3,8 @@ description: 순차적 세그먼트는 AND 또는 OR 대신 THEN 연산자를 �
 title: 순차적 세그먼트 작성
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -399,7 +399,7 @@ After 2 weeks로 설정되었을 때 페이지 A 히트가 2019년 6월 1일 00:
 * [!UICONTROL Within]을 사용하면 연도, 월, 일, 시간 및 분별로 추적하여 방문을 일치할 수 있습니다.
 * [!UICONTROL Within]은 세밀한 세부기간을 정의할 수 있는 유일한 수준인 [!UICONTROL 히트] 컨테이너에서만 적용됩니다.
 
->[!IMPORTANT]
+>[!TIP]
 >
 >&quot;within&quot; 절, THEN 문 사이에 &quot;1개 이내의 검색 키워드 인스턴스&quot;, &quot;1개 이내의 eVar 47 인스턴스&quot; 등을 추가할 수 있습니다. 이 경우 차원의 한 개 인스턴스 이내로 세그먼트를 제한합니다.
 

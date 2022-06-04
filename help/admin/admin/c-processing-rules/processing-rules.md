@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 처리 규칙 개요
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,7 @@ ht-degree: 100%
 
 관리자는 **기본적으로** 처리 규칙을 사용할 수 있는 권한이 있습니다. 관리자는 관리 도구 인터페이스를 통해 관리자가 아닌 사용자에게 이러한 권한을 부여할 수도 있습니다. 자세한 내용은 다음을 참조하십시오. []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->처리 규칙은 Analytics 데이터에 영구적으로 영향을 주므로, 처리 규칙 관리자는 Adobe Analytics에서 인증 교육을 받고, 보고서 세트용 데이터의 모든 소스(표준 웹 사이트, 모바일 사이트, 모바일 앱, 데이터 삽입 API 등)를 잘 알고 있어야 합니다. 다양한 플랫폼에서 입력한 컨텍스트 데이터 변수 및 표준 변수에 대한 지식은 데이터를 실수로 삭제하거나 변경하는 일이 없도록 하는 데 도움이 됩니다.
+![처리 규칙](assets/processing-rules.png)
 
 ## 컨텍스트 데이터를 사용하여 데이터 수집 단순화 {#section_09EEA03612D24C15839631AA9E9668D8}
 

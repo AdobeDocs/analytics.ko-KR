@@ -3,8 +3,8 @@ title: writeSecureCookies
 description: AppMeasurement가 Secure 속성을 사용하여 쿠키를 설정할 수 있도록 허용합니다.
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [여기](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=ko-KR)에서 Analytics 쿠키에 대해 자세히 알아보십시오.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >`writeSecureCookies` 변수를 활성화하면 사이트의 모든 콘텐츠가 HTTPS에서 안전하게 제공되는지 확인하십시오. 이 변수가 활성화되어 있고 페이지에 안전하지 않은 콘텐츠가 있는 경우 AppMeasurement가 작동하지 않습니다.
 

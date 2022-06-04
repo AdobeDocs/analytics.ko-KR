@@ -2,8 +2,8 @@
 title: 필드 기반 결합
 description: 필드 기반 결합을 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 필드 기반 결합을 사용하여 크로스 디바이스 분석을 구현하려면 다음 조건을 충족해야 합니다. 조직 내 팀 및 Adobe 계정 관리자와 함께 다음 사항을 모두 충족하도록 하십시오.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >모든 사전 요구 사항을 충족하지 못하면 크로스 디바이스 분석을 사용할 수 없거나 데이터 결합이 제대로 되지 않을 수 있습니다.
 
