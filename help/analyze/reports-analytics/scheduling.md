@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
-workflow-type: ht
-source-wordcount: '1717'
-ht-degree: 100%
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+workflow-type: tm+mt
+source-wordcount: '1772'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 보고서 예약, 다운로드 및 배포에 대한 정보입니다.
 
 >[!IMPORTANT]
->2022년 4월 15일부터 Adobe는 2년 이상 전에 생성된 모든 예약된 예정된 보고서(2020년 1월 31일 전에 생성된 모든 작업)를 일시 중지합니다. 보고서나 데이터는 삭제되지 않습니다. 중지 대상은 생성일이 2년 이상 지난 보고서로 식별되는 보고서만 해당하며, 예약된 보고서는 추가적으로 전송되지 않습니다. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>2022년 4월 21일, Adobe에서는 이전에 Reports &amp; Analytics의 수명 종료를 준비하기 위해 예약된 보고서에 특정 기능을 더 이상 사용하지 않는다고 발표했습니다. 이러한 기능에는 새 보고서 및 새 데이터 추출을 예약하는 기능이 포함되었습니다. 확장을 찾고 Reports &amp; Analytics에서 쉽게 전환하기 위한 고객 요청에 대한 응답으로, Adobe는 2023년 1월 31일까지 이러한 기능에 대한 액세스를 연장하기로 결정했습니다. 보고서 및 데이터 추출 모두에 대한 만료 기간은 9개월로 제한됩니다. 일정을 다시 활성화하지 않으면 이 기간이 끝날 때 보고서 및 데이터 추출 게재가 일시 중지됩니다. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Adobe Analytics 애플리케이션에서 보고서 배달을 예약할 때 예약 및 배포 도구를 사용하여 어느 파일이 자동으로 전송되었는지 보고 배달을 수정하거나 종료할 수 있습니다.
 
