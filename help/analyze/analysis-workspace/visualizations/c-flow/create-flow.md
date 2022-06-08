@@ -4,7 +4,7 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 40%
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->이 새 버전의 [!UICONTROL 흐름] 시각화는 현재 비공개 베타에 있습니다. 을(를) 참조하십시오. [이 페이지](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) 추가 정보.
+>이 새 버전의 [!UICONTROL 흐름] 시각화가 현재 제한된 테스트 중입니다. 을(를) 참조하십시오. [이 페이지](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) 추가 정보.
 
 업데이트된 흐름 시각화를 사용하면 웹 사이트 또는 앱에서 특정 전환 이벤트로 연결되거나 연결되는 여정을 이해할 수 있습니다. 차원(및 차원 항목)이나 지표 사이의 경로를 추적합니다. 플로우에서는 관심이 있는 경로의 시작 또는 끝을 구성하거나 차원 또는 차원 항목을 통해 이동하는 모든 경로를 분석할 수 있습니다.
 
