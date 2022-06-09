@@ -5,9 +5,9 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # Adobe Analytics 구현 안내서 {#implementation}
 
 + [Adobe Analytics 구현](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 + [AppMeasurement 릴리스 정보](appmeasurement-updates.md)
 + Analytics 변수, 함수 및 메서드 {#vars}
    + [개요](vars/overview.md)
@@ -134,10 +134,10 @@ ht-degree: 95%
 + Experience Platform Edge를 사용하여 Analytics 구현 {#aep-edge}
    + [Experience Edge 개요](aep-edge/overview.md)
    + [변수 매핑](aep-edge/variable-mapping.md)
-   + 웹 SDK {#web-sdk}
+   + Web SDK {#web-sdk}
       + [Web SDK 개요](aep-edge/web-sdk/overview.md)
-   + Mobile SDK {#mobile-sdk}
-      + [모바일 SDK 개요](aep-edge/mobile-sdk/overview.md)
+   + Mobile SDK{#mobile-sdk}
+      + [Mobile SDK 개요](aep-edge/mobile-sdk/overview.md)
    + Edge API {#edge-api}
       + [Edge API 개요](aep-edge/edge-api/overview.md)
 + Adobe Experience Platform의 태그를 사용하여 Analytics 구현 {#launch}
@@ -180,11 +180,11 @@ ht-degree: 95%
    + [외부 이메일 추적](use-cases/email-external.md)
 + 구현 유효성 검사 {#validate}
    + [기존 Adobe Experience Cloud Debugger](validate/debugger.md)
-   + [데이터 수집 쿼리 매개 변수](validate/query-parameters.md)
+   + [데이터 수집 쿼리 매개변수](validate/query-parameters.md)
    + [패킷 모니터](validate/packet-monitor.md)
    + [해시 충돌](validate/hash-collisions.md)
 + [FAQ](faq.md)
 + 구현 검토 {#review}
    + [집중 검토 (각 웹 사이트 릴리스 이후)](review/focused-review.md)
-   + [전체 검토(6개월마다)](review/full-review.md)
+   + [전체 검토 (6개월마다)](review/full-review.md)
    + [상위 5개의 KPI 정의](review/define-kpis.md)
