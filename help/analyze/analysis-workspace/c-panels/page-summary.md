@@ -4,7 +4,7 @@ title: 페이지 요약 패널
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
@@ -47,13 +47,13 @@ ht-degree: 9%
 | [!UICONTROL 페이지 보기 수] - 4주 전 | 지난 달 동안 이 페이지에 대한 페이지 보기 수입니다. |
 | [!UICONTROL 페이지 보기 수] - 52주 이전 | 지난 1년 동안의 이 페이지에 대한 페이지 보기 수입니다. |
 | [!UICONTROL 트렌드] | 이번 달, 4주 전 및 52주 전의 트렌드 페이지 보기 차트. |
-| [!UICONTROL 모든 페이지 조회수의 백분율] | 이 페이지로 이동한 모든 페이지 보기 수의 비율에 대한 요약 번호입니다. |
+| [!UICONTROL 모든 페이지 보기 수의 비율] | 이 페이지로 이동한 모든 페이지 보기 수의 비율에 대한 요약 번호입니다. |
 | [!UICONTROL 페이지에서 보낸 시간] | 이 페이지에서 보낸 시간을 나열하는 가로 막대 차트입니다. |
 | [!UICONTROL 단일 페이지 방문 횟수] | 유일한 방문 페이지였던 페이지 보기 수를 나열하는 요약 번호입니다. |
 | [!UICONTROL 다시 로드] | 다음 [!UICONTROL 다시 로드] 지표는 다시 로드 중 차원 항목이 있었던 횟수를 보여줍니다. 방문자가 브라우저를 새로 고치는 것이 다시 로드를 트리거하는 가장 일반적인 방법입니다. |
 | [!UICONTROL 항목] | 다음 [!UICONTROL 항목] 지표는 주어진 차원 항목이 방문에서 첫 번째 값으로 캡처된 횟수를 보여줍니다. |
 | [!UICONTROL 종료] | 다음 [!UICONTROL 종료] 지표는 주어진 차원 항목이 방문에서 마지막 값으로 캡처된 횟수를 보여줍니다. |
-| [!UICONTROL 플로우] | 선택한 페이지를 초점으로 사용하는 흐름 다이어그램. 데이터를에서 처럼 추가로 드릴다운할 수 있습니다 [흐름 다이어그램](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL 플로우] | 선택한 페이지를 초점으로 사용하는 흐름 다이어그램. 데이터를에서 처럼 추가로 드릴다운할 수 있습니다 [흐름 다이어그램](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 

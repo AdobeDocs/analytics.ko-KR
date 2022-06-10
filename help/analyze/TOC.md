@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
-workflow-type: ht
-source-wordcount: '1052'
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -69,11 +69,10 @@ ht-degree: 100%
          + [다차원 폴아웃](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [폴아웃 분석에서 세그먼트 적용](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 흐름 {#flow}
-         + [흐름 개요](analysis-workspace/visualizations/c-flow/flow.md)
-         + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [새로운 플로우 시각화 (Beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
-         + [흐름 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
-         + [차원 간 흐름](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+         + [플로우 개요](analysis-workspace/visualizations/c-flow/flow.md)
+         + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [플로우 설정](analysis-workspace/visualizations/c-flow/flow-settings.md)
+         + [차원 간 플로우](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [히스토그램](analysis-workspace/visualizations/histogram.md)
       + [맵](analysis-workspace/visualizations/map-visualization.md)
       + [벤](analysis-workspace/visualizations/venn.md)
