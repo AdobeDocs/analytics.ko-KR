@@ -3,10 +3,10 @@ title: transactionID
 description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 92%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 100%
 
 기본적으로 Adobe는 최대 90일 동안 모든 거래 ID 값 (연결 및 연결 해제된 값)을 기억합니다. 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 이 한계를 늘리십시오.
 
-## Adobe Experience Platform의 태그를 사용하는 트랜잭션 ID
+## Adobe Analytics 확장을 사용하는 거래 ID
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 트랜잭션 ID를 설정할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-2. 원하는 속성을 클릭합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
@@ -35,7 +35,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 트�
 
 거래 ID를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.transactionID
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.transactionID
 
 `s.transactionID` 변수는 거래의 고유 식별자를 포함하는 문자열입니다. 유효한 값에는 최대 100바이트 길이의 영숫자 문자가 포함됩니다. 기본값은 빈 문자열입니다.
 

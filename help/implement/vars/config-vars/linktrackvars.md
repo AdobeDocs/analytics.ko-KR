@@ -3,10 +3,10 @@ title: linkTrackVars
 description: 링크 추적 이미지 요청에 포함할 변수를 지정합니다.
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 61%
 
 ---
 
@@ -16,15 +16,19 @@ ht-degree: 100%
 
 이 변수는 페이지 보기 호출 ([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
 
-## Adobe Experience Platform의 태그를 사용하는 링크 추적 호출 내 변수
+## 웹 SDK를 사용하여 XDM 이벤트에 포함할 변수를 결정합니다
 
-Adobe Experience Platform은 인터페이스에 설정된 변수에 근거해 백엔드에서 이 변수를 자동으로 입력하므로 Adobe Experience Platform의 태그를 사용하는 구현에서 항상 설정됩니다.
+웹 SDK는 링크 추적 호출에 대한 특정 필드를 제외하지 않습니다. 그러나 를 사용할 수 있습니다 `onBeforeEventSend` Adobe으로 데이터를 보내기 전에 원하는 필드를 지우거나 설정하려면 콜백하십시오. 자세한 내용은 [이벤트 전역 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 를 참조하십시오.
+
+## Adobe Analytics 확장을 사용한 링크 추적 호출의 변수
+
+이 변수는 인터페이스에 설정된 변수를 기반으로 백엔드에서 자동으로 채워지므로 Adobe Analytics 확장을 사용하여 구현에서 항상 설정됩니다.
 
 >[!IMPORTANT]
 >
->사용자 지정 코드 편집기를 사용하여 변수를 설정하는 경우, 사용자 지정 코드를 사용하여 `linkTrackVars`에 변수를 포함시켜야 합니다.
+>사용자 지정 코드 편집기를 사용하여 변수를 설정하는 경우 변수를 `linkTrackVars` 사용자 지정 코드도 사용합니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.linkTrackVars
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.linkTrackVars
 
 `s.linkTrackVars` 변수는 링크 추적 이미지 요청 (`tl()` 메서드)에 포함할 쉼표로 구분된 변수 목록이 포함된 문자열입니다. 링크 추적 히트에 차원을 포함하려면 다음 두 기준을 모두 충족해야 합니다.
 

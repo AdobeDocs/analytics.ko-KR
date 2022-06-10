@@ -3,10 +3,10 @@ title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,8 @@ JavaScript 코드가 이미지 요청을 Adobe 데이터 수집 서버에 전송
 
 Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 웹 사이트, 모바일 앱 또는 기타 애플리케이션 내에 코드가 있어야 합니다. 플랫폼과 조직의 요구 사항에 따라 이 코드를 구현하는 방법에는 몇 가지가 있습니다.
 
-* **태그 Adobe Experience Platform**: Adobe Analytics 구현을 위한 표준화된 권장 방법입니다. 각 페이지에 로더 태그를 배치하고 데이터 수집 UI를 사용하여 각 변수가 정의되는 방식을 결정합니다.
+* **웹 SDK**: Adobe Analytics 구현을 위한 표준화된 권장 방법입니다. Adobe Experience Platform 데이터 수집에 웹 SDK 확장을 설치하고, 각 페이지에서 로더 태그를 사용하고, 조직에서 편리하게 사용할 수 있는 형식으로 데이터를 Adobe Experience Platform Edge에 전송할 수 있습니다. Experience Edge는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
+* **Adobe Analytics 확장**: Adobe Experience Platform 데이터 수집에 Adobe Analytics 확장을 설치합니다. 각 페이지에 로더 태그를 배치하고 Analytics 확장을 사용하여 각 변수가 정의된 방식을 결정합니다.
 * **기존 JavaScript**: Adobe Analytics를 구현하는 과거의 수동 방법입니다. 구현에서 사용되는 변수 및 설정을 간략하게 설명합니다. 이는 사용자 지정 코드가 있는 규칙을 사용하는 구현에 유용할 수 있습니다.
 * **Mobile SDK**: 모바일 앱 내에서 데이터를 Adobe에 쉽게 전송할 수 있는 전용 라이브러리입니다.
 

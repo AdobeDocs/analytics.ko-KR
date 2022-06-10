@@ -3,10 +3,10 @@ title: 개발 구현 유효성 검사 및 프로덕션에 퍼블리싱
 description: Adobe Experience Platform 태그를 사용하여 Adobe Analytics를 프로덕션 환경에 배포하는 방법에 대해 알아봅니다.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
-workflow-type: ht
-source-wordcount: '630'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 
 데이터가 표시되는지 확인했으면 구현을 사이트의 라이브 버전에 푸시할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
 1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 퍼블리싱]** 탭을 클릭하고 개발 열에서 라이브러리를 찾습니다.
 1. 라이브러리에서 드롭다운을 클릭한 뒤 **[!UICONTROL 제출하여 승인 받기]**&#x200B;를 선택합니다. 모달 창에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.

@@ -3,10 +3,10 @@ title: useLinkTrackSessionStorage
 description: 링크 추적 데이터를 쿠키 대신 세션 저장소에 저장합니다.
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 81%
 
 ---
 
@@ -25,11 +25,15 @@ ht-degree: 100%
 
 AppMeasurement는 Adobe에 히트를 보낸 후 세션 저장소 링크 추적 데이터를 제거합니다. 또한 브라우저 탭이 닫히면 자동으로 만료됩니다.
 
-## Adobe Experience Platform의 태그를 사용하는 링크 추적 세션 저장소 사용
+## Web SDK를 사용하여 링크 추적 세션 저장소 사용
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+웹 SDK는 이 기능을 지원하지 않습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.useLinkTrackSessionStorage
+## Adobe Analytics 확장을 사용하여 링크 추적 세션 저장소 사용
+
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.useLinkTrackSessionStorage
 
 `s.useLinkTrackSessionStorage` 변수는 AppMeasurement가 `s_sq` 쿠키 대신 링크 추적 데이터에 세션 저장소를 사용하는지 여부를 결정하는 부울입니다. 기본값은 `false`입니다. AppMeasurement가 라인 추적 및 Activity Map에 `true` 쿠키 대신 세션 저장을 사용하도록 하려면 이 변수를 `s_sq`에 설정합니다.
 

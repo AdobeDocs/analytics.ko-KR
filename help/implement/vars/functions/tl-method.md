@@ -3,10 +3,10 @@ title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 80%
 
 ---
 
@@ -16,20 +16,38 @@ ht-degree: 100%
 
 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 또는 [`trackExternalLinks`](../config-vars/trackexternallinks.md)가 활성화되면 AppMeasurement가 다운로드 링크 및 종료 링크 추적 데이터를 보내는 `tl()` 메서드를 자동으로 호출합니다. 조직에서 추적할 링크와 그 동작을 보다 세밀하게 제어하는 것을 선호하는 경우 `tl()` 메서드를 수동으로 호출할 수 있습니다. 사용자 지정 링크는 수동으로만 추적할 수 있습니다.
 
-## Adobe Experience Platform의 태그를 사용하는 링크 추적
+## 웹 SDK를 사용한 링크 추적
 
-데이터 수집 UI에는 링크 추적 호출을 설정하는 전용 공간이 있습니다.
+웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구별하지 않습니다. 둘 다 `sendEvent` 명령. Adobe Analytics에서 주어진 이벤트를 링크 추적 호출로 계산하도록 하려면 XDM 데이터에 가 포함되어 있는지 확인합니다. `web.webInteraction.name`, `web.webInteraction.URL`, 및 `web.webInteraction.type`.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 규칙] 탭으로 이동한 다음, 원하는 규칙을 클릭하거나 규칙을 만듭니다.
-1. [!UICONTROL 작업] 아래에서 &#39;+&#39; 아이콘을 클릭합니다.
-1. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 비콘 보내기로 설정합니다.
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Adobe Analytics 확장을 사용한 링크 추적
+
+Adobe Analytics 확장에는 링크 추적 호출을 설정하는 전용 위치가 있습니다.
+
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. 원하는 태그 속성을 클릭합니다.
+1. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
+1. 아래 [!UICONTROL 작업]를 클릭하고, 원하는 작업을 클릭하거나 **&#39;+&#39;** 아이콘을 클릭하여 작업을 추가합니다.
+1. 설정 [!UICONTROL 확장] 드롭다운 **[!UICONTROL Adobe Analytics]**, 및 [!UICONTROL 작업 유형] to **[!UICONTROL 비콘 보내기]**.
 1. `s.tl()` 라디오 버튼을 클릭합니다.
 
-데이터 수집 UI에서 어떠한 선택 사항 인수도 설정할 수 없습니다.
+Analytics 확장에서 선택적 인수를 설정할 수 없습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.tl() 메서드
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.tl() 메서드
 
 추적 호출을 Adobe에 보내려면 `s.tl()` 메서드를 호출하십시오.
 

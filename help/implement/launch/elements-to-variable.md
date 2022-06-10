@@ -3,10 +3,10 @@ title: Analytics 변수에 태그 데이터 요소 매핑
 description: Analysis Workspace에서 차원으로 사용할 수 있도록 데이터 요소를 Analytics 변수에 할당합니다.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 전역 변수는 데이터 요소가 있는 모든 페이지에서 변수 값을 설정하려는 경우에 이상적입니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 확장 탭]을 클릭한 다음 Adobe Analytics 확장 프로그램 아래에서 [!UICONTROL 구성]을 클릭합니다.
 1. [!UICONTROL 전역 변수] 아코디언을 클릭하면 전역 변수를 할당하는 인터페이스가 표시됩니다.
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 규칙에 설정된 변수는 모든 페이지에서 변수를 설정하지 않으려는 경우에 이상적입니다. 규칙에서 기준을 정의합니다. Adobe Experience Platform 태그 설명서 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko-KR)을 참조하십시오.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 규칙] 탭을 클릭하고 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 1. [!UICONTROL 작업] 아래의 [!UICONTROL 추가] 버튼을 클릭합니다.

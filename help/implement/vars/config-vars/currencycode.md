@@ -3,10 +3,10 @@ title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 93%
 
 ---
 
@@ -26,13 +26,17 @@ ht-degree: 100%
 
 이 변수는 히트 간에 지속되지 않습니다. 이 변수가 매출 또는 통화 이벤트를 포함하는 모든 페이지에서 정의되었는지 확인하십시오.
 
-## Adobe Experience Platform의 태그를 사용하는 통화 코드
+## 웹 SDK를 사용한 통화 코드
+
+통화 코드는 다음과 같습니다 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `commerce.order.currencyCode`.
+
+## Adobe Analytics 확장을 사용한 통화 코드
 
 통화 코드는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 일반] 아코디언 아래의 필드입니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. 원하는 태그 속성을 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 1. [!UICONTROL 일반] 아코디언을 확장합니다. 그러면 [!UICONTROL 통화 코드] 필드가 표시됩니다.
 
 사전 설정된 통화 코드나 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
@@ -47,7 +51,7 @@ ht-degree: 100%
 
 사전 설정된 통화 코드나 사용자 지정 통화 코드를 사용할 수 있습니다. 사용자 지정 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.currencyCode
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.currencyCode
 
 `s.currencyCode` 변수는 페이지의 통화를 나타내는 3자로 된 대문자 코드를 포함하는 문자열입니다.
 

@@ -3,10 +3,10 @@ title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
 
@@ -22,12 +22,16 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 [솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
-## Adobe Experience Platform의 태그를 사용하는 Prop
+## 웹 SDK를 사용하는 Prop
+
+Prop은 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+
+## Adobe Analytics 확장을 사용하는 Prop
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop을 설정할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-2. 원하는 속성을 클릭합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
@@ -35,7 +39,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop�
 
 prop을 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.prop1 - s.prop75
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.prop1 - s.prop75
 
 각 prop 변수는 조직에 관련된 사용자 지정 값을 포함하는 문자열입니다. 최대 길이는 100바이트이고, 100바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 

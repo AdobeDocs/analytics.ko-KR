@@ -3,10 +3,10 @@ title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 98%
+source-wordcount: '571'
+ht-degree: 77%
 
 ---
 
@@ -18,18 +18,29 @@ ht-degree: 98%
 >
 >히트에서 이 변수가 [`events`](events/events-overview.md) 변수 없이 설정되면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에 대해 적합한 이벤트를 설정해야 합니다.
 
-## Adobe Experience Platform의 태그를 사용하는 제품
+## 웹 SDK를 사용하는 제품
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. 그러나 도움이 되는 여러 서드파티 확장이 존재합니다.
+제품은 다음과 같습니다 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드에서 다음을 수행합니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-2. 원하는 속성을 클릭합니다.
+* 카테고리가 `productListItems[].name`.
+* 제품이 `productListItems[]._id`.
+* 수량이 매핑된 경우 `productListItems[].quantity`.
+* 가격이 `productListItems[].priceTotal`.
+* 머천다이징 eVar가에 매핑됩니다 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, 제품에 연결할 eVar에 따라 다릅니다.
+* 머천다이징 이벤트가에 매핑됨 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, 제품에 연결할 이벤트에 따라 다릅니다.
+
+## Adobe Analytics 확장을 사용하는 제품
+
+Adobe Experience Platform 데이터 수집에는 이 변수를 설정할 전용 필드가 없습니다. 그러나 도움이 되는 타사 확장은 여러 개 있습니다.
+
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그]를 클릭하여 사용 가능한 모든 확장을 확인합니다.
 4. product라는 용어를 검색하면 이 변수를 설정하는 데 도움이 되는 사용 가능한 몇 가지 확장이 표시됩니다.
 
 이 확장 중 하나를 사용하거나 아래의 AppMeasurement 구문에 따라 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.products
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.products
 
 `s.products` 변수는 제품당 여러 개의 구분된 필드를 포함하는 문자열입니다. 각 필드는 문자열에서 세미콜론 (`;`)으로 구분하십시오.
 

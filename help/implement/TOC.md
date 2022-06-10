@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
-source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 100%
       + [Mobile SDK 개요](aep-edge/mobile-sdk/overview.md)
    + Edge API {#edge-api}
       + [Edge API 개요](aep-edge/edge-api/overview.md)
-+ Adobe Experience Platform의 태그를 사용하여 Analytics 구현 {#launch}
++ Adobe Analytics 확장을 사용하여 Analytics 구현 {#launch}
    + [태그 개요](launch/overview.md)
    + [Adobe Analytics 태그 속성 만들기](launch/create-analytics-property.md)
    + [개발 환경에 배포](launch/deploy-dev.md)

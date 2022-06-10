@@ -3,10 +3,10 @@ title: purchaseID
 description: 고유 구매 식별자를 기반으로 히트를 중복 제거합니다.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,15 @@ Adobe가 히트를 중복 구매로 인식하면 모든 전환 데이터 (예: e
 
 구매 ID는 모든 방문자에게 적용되며 만료되지 않습니다. 한 방문자가 주어진 구매 ID를 설정한 다음, 다른 방문자가 1년 후 동일한 구매 ID를 설정하면 두 번째 구매는 중복 제거됩니다.
 
-## Adobe Experience Platform의 태그를 사용하는 구매 ID
+## 웹 SDK를 사용한 구매 ID
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+구매 ID: [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `commerce.order.purchaseID`.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.purchaseID
+## Adobe Analytics 확장을 사용한 구매 ID
+
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.purchaseID
 
 `s.purchaseID` 변수는 구매에 대한 고유 식별자를 포함하는 문자열입니다. 이 변수는 구매 이벤트와 동일한 히트에 대해 설정됩니다. 이 변수를 채우려면 영숫자만 사용하십시오.
 

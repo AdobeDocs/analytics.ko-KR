@@ -3,10 +3,10 @@ title: s_gi ()
 description: AppMeasurement 인스턴스를 생성하고 추적합니다.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 68%
 
 ---
 
@@ -14,18 +14,43 @@ ht-degree: 100%
 
 `s_gi()` 함수는 보고서 세트 ID로 AppMeasurement 인스턴스를 인스턴스화하거나 찾습니다. AppMeasurement는 생성된 모든 인스턴스를 추적하고 `s_gi()`는 보고서 세트에 대한 기존 인스턴스가 존재하면 이를 반환합니다. 인스턴스가 존재하지 않는 경우에는 새로운 인스턴스가 생성됩니다.
 
-## Adobe Experience Platform의 태그를 사용하는 s_gi()
+## 웹 SDK 확장을 사용하여 추적 개체를 인스턴스화합니다
+
+웹 SDK 확장은 추적 개체를 인스턴스화하고 관리합니다. 그러나 확장 설정에서 추적 개체 이름을 사용자 지정할 수 있습니다.
+
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. 원하는 태그 속성을 클릭합니다.
+1. 로 이동합니다. [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 단추를 클릭합니다.
+1. 변경 [!UICONTROL 이름] 필드를 원하는 값으로 설정합니다. 기본값은 `alloy`입니다.
+
+## 웹 SDK를 수동으로 구현하는 추적 개체를 인스턴스화합니다
+
+다음 코드는 웹 SDK를 로드하고 추적 개체를 인스턴스화합니다. 문자열을 변경하여 추적 개체 이름을 사용자 지정할 수 있습니다 `"alloy"` 인라인 스크립트의 끝에서 원하는 값으로 되돌립니다.
+
+```js
+<script>
+  !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+  []).push(o),n[o]=function(){var u=arguments;return new Promise(
+  function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+  (window,["alloy"]);
+</script>
+<script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
+```
+
+자세한 내용은 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko-KR?lang=ko-KR) 를 참조하십시오.
+
+## Adobe Analytics 확장을 사용하여 추적 개체를 인스턴스화합니다
 
 Analytics 확장은 추적 개체를 인스턴스화하고 관리합니다. 그러나 Adobe Analytics 확장을 구성할 때 [!UICONTROL 라이브러리 관리] 아코디언에서 전역 추적 개체를 설정할 수도 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-2. 원하는 속성을 클릭합니다.
-3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
-4. [!UICONTROL 라이브러리 관리] 아코디언을 확장하고 [!UICONTROL 라이브러리 자동 관리]를 제외한 임의의 라디오 버튼을 선택합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. 원하는 태그 속성을 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
+1. [!UICONTROL 라이브러리 관리] 아코디언을 확장하고 [!UICONTROL 라이브러리 자동 관리]를 제외한 임의의 라디오 버튼을 선택합니다.
 
 전역 변수 텍스트 필드를 사용하면 사용자 지정 추적 개체를 설정할 수 있습니다. 기본값은 `s`입니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s_gi()
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s_gi()
 
 추적 개체를 인스턴스화하려면 `s_gi()` 함수를 호출하십시오. 이 함수의 유일한 인수에는 쉼표로 구분된 보고서 세트 ID 문자열이 들어 있습니다. 보고서 세트 ID 인수는 필수입니다.
 

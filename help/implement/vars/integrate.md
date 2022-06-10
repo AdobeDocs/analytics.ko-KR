@@ -3,10 +3,10 @@ title: 모듈 통합
 description: Adobe 파트너는 모듈 통합을 통해 데이터 수집 활동을 조직과 통합할 수 있습니다.
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 96%
 
 ---
 
@@ -41,9 +41,9 @@ Adobe 파트너와 협력하는 조직은 이러한 단계를 사용하여 모�
 
 ### 구현에 모듈 통합 배치
 
-사이트에 모듈 통합을 구현하려면 Adobe Experience Platform의 데이터 수집 UI에 액세스해야 합니다. 기존 JavaScript 구현을 사용하는 경우 조직의 웹 사이트 소스 코드에 액세스해야 합니다.
+사이트에 모듈 통합을 구현하려면 Adobe Experience Platform 데이터 수집에 액세스해야 합니다. 기존 JavaScript 구현을 사용하는 경우 조직의 웹 사이트 소스 코드에 액세스해야 합니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
 1. 편집할 태그 속성을 클릭합니다.
 1. 확장 탭을 클릭한 다음 Adobe Analytics 아래의 구성을 클릭합니다.
 1. 먼저 &#39;사용자 지정 코드를 사용하여 추적기 구성&#39; 아코디언을 열고 &#39;&lt;/> 편집기 열기&#39;를 클릭합니다.

@@ -3,10 +3,10 @@ title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 74%
 
 ---
 
@@ -32,12 +32,18 @@ ht-degree: 100%
 >
 >[`purchase`](event-purchase.md) 이벤트를 중복 제거하려면 [`purchaseID`](../purchaseid.md) 변수를 대신 사용하십시오.
 
-## Adobe Experience Platform의 태그를 사용하는 이벤트 ID 사용
+## 웹 SDK를 사용하여 이벤트 ID 사용
+
+이벤트 정리 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 원하는 이벤트 XDM 필드의 `id`. 전체 XDM 경로는 serialize할 이벤트에 따라 다릅니다.
+
+예를 들어 장바구니 추가 지표를 직렬화하려면 `commerce.productListAdds.id` 원하는 일련화 값으로 연결되는 XDM 필드. 사용자 지정 이벤트 20을 직렬화하려면 `_experience.analytics.event1to100.event20` 원하는 일련화 값으로 연결되는 XDM 필드.
+
+## Adobe Analytics 확장을 사용하여 이벤트 ID 사용
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함된 작업으로서 이벤트 ID 필드를 설정할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-2. 원하는 속성을 클릭합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
@@ -45,7 +51,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함�
 
 유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘라냅니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기에서 이벤트 ID 사용
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기에서 이벤트 ID 사용
 
 이벤트 직렬화는 `s.events` 변수의 일부입니다. 문자열에서 콜론을 사용하여 각 이벤트에 ID를 할당합니다.
 

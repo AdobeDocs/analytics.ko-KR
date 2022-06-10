@@ -3,10 +3,10 @@ title: cookieDomain
 description: cookieDomain 변수는 쿠키를 설정할 도메인을 결정하는 데 도움이 됩니다.
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 74%
 
 ---
 
@@ -25,11 +25,15 @@ ht-degree: 100%
 
 적은 수의 구현만 `cookieDomain` 변수를 사용할 수 있으며, 그러한 때에도 [`cookieDomainPeriods`](cookiedomainperiods.md)같은 대체 변수를 대신 사용할 수 있습니다.
 
-## Adobe Experience Platform의 태그를 사용하는 쿠키 도메인
+## 웹 SDK를 사용한 쿠키 도메인
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+웹 SDK는 이 변수 없이 올바른 쿠키 저장소 도메인을 결정할 수 있습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.cookieDomain
+## Adobe Analytics 확장을 사용하는 쿠키 도메인
+
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.cookieDomain
 
 `cookieDomain` 변수는 문자열이며, 쿠키를 저장할 도메인으로 설정됩니다.
 

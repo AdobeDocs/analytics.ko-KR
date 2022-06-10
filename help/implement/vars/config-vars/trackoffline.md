@@ -3,10 +3,10 @@ title: trackOffline
 description: 오프라인 추적을 활성화하거나 비활성화하여 AppMeasurement가 데이터를 수집하는 방식을 변경합니다.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 83%
 
 ---
 
@@ -28,11 +28,15 @@ ht-degree: 100%
    * Adobe 데이터 수집 서버에 연결할 수 없는 경우 히트는 디바이스의 큐에 추가됩니다.
    * Adobe 데이터 수집 서버에 도달할 수 있는 경우에는 디바이스가 오프라인일 때 히트와 히트 큐가 전송됩니다.
 
-## Adobe Experience Platform의 태그를 사용하는 오프라인 추적
+## 웹 SDK를 사용한 오프라인 추적
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+웹 SDK는 오프라인 추적을 지원하지 않습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.trackOffline
+## Adobe Analytics 확장을 사용한 오프라인 추적
+
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.trackOffline
 
 `s.trackOffline` 변수는 오프라인 추적을 활성화하거나 비활성화하는 부울입니다. 기본값은 `false`입니다. 오프라인 수집을 활성화하려면 이 값을 `true`로 설정하십시오.
 

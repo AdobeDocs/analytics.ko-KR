@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 처리 순서
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: 790c3a02fbdf896cba0933dcd7a2b2efd5a19f15
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 49%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 49%
 |--- |--- |
 | [다이내믹 변수](/help/implement/vars/page-vars/dynamic-variables.md) | HTTP 헤더 또는 다른 변수에서 정보를 가져와서 동적으로 채우는 변수입니다. |
 | [AppMeasurement](/help/implement/home.md) | AppMeasurement 라이브러리에서 사용되는 함수 및 플러그인은 브라우저 또는 클라이언트 애플리케이션에서 실행됩니다. |
-| [태그 구현](/help/implement/launch/overview.md) | 데이터 수집 UI에 정의된 규칙입니다. |
+| [태그 구현](/help/implement/launch/overview.md) | Adobe Experience Platform 데이터 수집 내의 Adobe Analytics 확장에 정의된 규칙입니다. |
 | [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html) | 웹 SDK를 통해 수집된 데이터는 Adobe Experience Edge로 전송되고 원하는 보고서 세트로 전달됩니다. |
 | [보트 규칙](/help/admin/admin/bot-removal/bot-rules.md) | 알려진 스파이더 및 보트에서 생성한 트래픽을 제거할 수 있습니다. |
 

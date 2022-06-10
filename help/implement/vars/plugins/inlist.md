@@ -3,10 +3,10 @@ title: inList
 description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확인합니다.
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '557'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 93%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 `inList` 플러그인을 사용하면 구분된 문자열 또는 JavaScript 배열 개체 내에 값이 이미 있는지 확인할 수 있습니다. 몇 가지 다른 플러그인은 `inList` 플러그인에 따라 다르게 작동합니다. 이 플러그인은 부분 문자열과 일치하지 않는 JavaScript 메서드 `indexOf()`에 비해 구별되는 이점을 제공합니다. 예를 들어 이 플러그인을 사용하여 `"event2"`를 확인한 경우 이 플러그인은 `"event25"`를 포함하는 문자열과 일치하지 않습니다. 구분 기호로 구분된 문자열 또는 배열의 값을 확인하지 않아도 되거나 자신만의 `indexOf()` 논리를 사용하려는 경우에는 이 플러그인이 필요하지 않습니다.
 
-## Adobe Experience Platform의 태그를 사용하여 플러그인 설치
+## Web SDK 또는 Adobe Analytics 확장을 사용하여 플러그인 설치
 
 Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-1. 원하는 속성을 클릭합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
 1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
 1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
@@ -38,9 +38,9 @@ Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있�
 
 플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
 1. 원하는 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 [!UICONTROL 구성] 버튼을 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
 1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
 1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.

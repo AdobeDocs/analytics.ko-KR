@@ -3,10 +3,10 @@ title: websiteBot
 description: 마우스 움직임을 사용하여 동적으로 보트를 식별합니다.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 사용자 에이전트가 데스크탑에 있고 마우스 움직임이 감지되지 않으면 플러그인은
 
-* Adobe Experience Platform의 태그를 사용하여 직접 호출 규칙 호출을 수행하거나
+* 웹 SDK 또는 Adobe Analytics 확장을 사용하여 직접 호출 규칙 호출을 하거나 또는
 * 방문자가 봇이 아님을 나타내기 위해 링크 추적 호출을 수행할 수 있습니다.
 
 ## 사전 요구 사항

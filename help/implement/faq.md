@@ -3,10 +3,10 @@ title: 구현 FAQ
 description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '502'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement는 HTML 페이지 내에 이미지 개체를 만들며, 그렇게
 
 조직이 계약 만료 때문에 또는 서버 호출 수를 줄이기 위해 구현을 제거하려는 경우가 있습니다.
 
-* **Adobe Experience Platform의 태그를 사용한 구현**: [!UICONTROL 확장] 탭에서 Adobe Analytics 확장 기능을 비활성화하거나 제거한 다음 게시합니다.
+* **Adobe Experience Platform 데이터 수집을 사용한 구현**: 적용 가능한 Adobe Analytics, Web SDK 또는 Mobile SDK 확장 기능을 [!UICONTROL 확장] 탭을 클릭한 다음 게시합니다.
 * **이전 AppMeasurement 구현**: `s_code.js` 파일의 전체 콘텐츠를 다음 코드 줄로 바꿉니다.
 
 ```js

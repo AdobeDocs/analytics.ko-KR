@@ -3,10 +3,10 @@ title: offlineThrottleDelay
 description: 디바이스가 다시 온라인으로 돌아올 때의 히트 빈도를 설정합니다.
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 81%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 디바이스가 다시 온라인으로 돌아오면 디바이스에 저장된 모든 히트는 Adobe 데이터 수집 서버로 전송됩니다. 큐에 있는 히트 수가 많으면 이전 디바이스의 성능에 영향을 줄 수 있습니다. 큐에 있는 히트가 Adobe에 전송되는 빈도를 설정하려면 `offlineThrottleDelay` 변수를 사용하십시오.
 
-## Adobe Experience Platform의 태그를 사용하는 오프라인 스로틀 지연
+## Adobe Analytics 확장을 사용한 오프라인 스로틀 지연
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.offlineThrottleDelay
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.offlineThrottleDelay
 
 `s.offlineThrottleDelay` 변수는 전송 큐에 있는 히트와 히트 사이에 AppMeasurement가 대기하는 시간 (밀리초)을 나타내는 정수입니다. 기본값은 `0`입니다. 이것은 큐에 있는 모든 히트가 한 번에 전송됨을 의미합니다. `trackOffline`이 `false`경우 이 변수는 아무 작업도 하지 않습니다.
 

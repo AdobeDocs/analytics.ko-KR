@@ -3,10 +3,10 @@ title: pageType
 description: 현재 페이지가 404 오류인지 판단합니다.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 77%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 >
 >오류가 아닌 페이지에서 이 변수를 설정하지 마십시오.
 
-## Adobe Experience Platform의 태그를 사용하는 페이지 유형
+## Adobe Analytics 확장을 사용한 페이지 유형
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.pageType
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.pageType
 
 `s.pageType` 변수는 값 `errorPage`가 유일하게 유효한 값인 문자열입니다. 이 변수는 404 페이지처럼 사이트의 어떤 오류 페이지에서든 이 값으로 설정하십시오.
 

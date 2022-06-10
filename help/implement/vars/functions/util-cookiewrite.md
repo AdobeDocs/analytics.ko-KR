@@ -3,10 +3,10 @@ title: Util.cookieWrite
 description: 쿠키 값을 씁니다.
 feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 쿠키는 동일한 도메인에 있는 페이지 간에 정보를 저장하고 검색할 수 있습니다. 값을 쿠키에 설정하려면 `Util.cookieWrite()` 메서드를 사용하십시오. [`Util.cookieRead()`](util-cookieread.md) 메서드를 사용하면 `Util.cookieWrite()`을 사용하여 설정한 값을 검색할 수 있습니다.
 
-## Adobe Experience Platform의 태그를 사용하는 쿠키 설정
+## Adobe Analytics 확장 및 웹 SDK 확장을 사용하여 쿠키 설정
 
-데이터 수집 UI는 인터페이스에서 쿠키를 설정하는 기능을 제공하지 않습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Experience Platform 데이터 수집에서는 인터페이스에서 쿠키를 설정하는 기능을 제공하지 않습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.Util.cookieWrite()
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.Util.cookieWrite()
 
 쿠키를 원하는 값으로 설정하려면 `s.Util.cookieWrite()` 메서드를 호출하십시오.
 

@@ -3,10 +3,10 @@ title: 개발 환경에 Adobe Analytics 배포
 description: 태그를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 태그는 코드를 배포할 때 여러 조직의 워크플로를 포함합니다. 아래 단계에 따라 Analytics 구현에 필요한 최소 구성 요소를 만듭니다. 태그 관리자는 조직 내에서 Adobe 솔루션을 배포하기 위해 올바른 워크플로를 설정할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
 2. 사이트에서 구현할 태그 속성을 클릭합니다.
 3. **[!UICONTROL 호스트]**&#x200B;를 클릭한 후 **[!UICONTROL 호스트 추가]**&#x200B;를 클릭합니다.
 4. 이름을 `"Adobe managed"`로 지정하고 유형 드롭다운에서 **[!UICONTROL Managed by Adobe]**&#x200B;를 선택합니다. [저장]을 클릭합니다.
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 지금까지 모든 변경 및 구성 작업을 수행했지만 실제로 어떤 코드도 게시되지 않았습니다. 일련의 변경 사항으로 대략적으로 번역된 라이브러리를 만들면 사이트에서 사용할 코드를 게시할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
 2. 사이트에서 구현할 태그 속성을 클릭합니다.
 3. **[!UICONTROL 플로우 게시]** 탭을 클릭한 다음 **[!UICONTROL 라이브러리 추가]**&#x200B;를 클릭합니다. 이 페이지에 대한 자세한 내용은 태그 설명서의 [게시 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko-KR)를 참조하십시오.
 4. 라이브러리 이름을 `'Initial changes'`로 지정하고 개발 환경을 선택합니다.

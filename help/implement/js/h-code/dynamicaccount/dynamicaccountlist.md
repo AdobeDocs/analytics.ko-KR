@@ -3,10 +3,10 @@ title: dynamicAccountList
 description: 구현에서 보고서 세트를 결정하는 방법에 대한 논리를 설정합니다.
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 94%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->동적 계정은 이전 JavaScript 구현(H 코드)을 사용해야만 지원됩니다. 이러한 변수는 현재 AppMeasurement 라이브러리 또는 데이터 수집 UI에서 지원되지 않습니다.
+>동적 계정은 이전 JavaScript 구현(H 코드)을 사용해야만 지원됩니다. 이러한 변수는 현재 AppMeasurement 라이브러리 또는 Adobe Experience Platform 데이터 수집에서 지원되지 않습니다.
 
 `s.dynamicAccountList` 변수는 `s_account`의 값을 동적으로 결정합니다. `dynamicAccountSelection`을 `true`로 설정하면 `dynamicAccountMatch` 변수가 `dynamicAccountList`와 비교됩니다. 일치하는 항목이 있으면 일치하는 보고서 세트 ID가 사용됩니다.
 

@@ -4,10 +4,10 @@ description: 보고를 개선하기 위해 Adobe에 보내는 데이터에 포�
 keywords: appmeasurement, 변수, vars, 구성, 페이지, 구현
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니�
 
 ## 변수 및 구현 방법
 
-Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합니다. 각 페이지에는 Adobe Experience Platform의 태그 및 JavaScript용 AppMeasurement를 사용하여 변수를 구현하는 방법에 대한 섹션이 있습니다.
+Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합니다. 각 페이지에는 웹 SDK를 사용하여 변수를 구현하고, Adobe Analytics 확장을 사용하고, JavaScript용 AppMeasurement를 사용하는 방법에 대한 섹션이 있습니다.
 
 다음은 Adobe Analytics에서의 변수 구성에 대한 비디오입니다.
 

@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Adobe에 히트를 보낸 후 콜백 함수를 만듭니다.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,29 @@ ht-degree: 100%
 >
 >[`registerPreTrackCallback`](registerpretrackcallback.md)과 `registerPostTrackCallback` 사이에 실행된 함수의 타이밍과 순서는 보장되지 않습니다. 이 두 함수 간에 종속성이 생기지 않도록 하십시오.
 
-## Adobe Experience Platform의 태그를 사용하는 추적 후 콜백 등록
+## Web SDK 확장을 사용하는 사후 추적 콜백
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+곧 출시됩니다!
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.registerPostTrackCallback
+## 웹 SDK를 수동으로 구현하는 사후 추적 콜백
+
+데이터가 성공적으로 Adobe으로 전송된 후 이벤트를 전송하여 함수를 등록할 때 JavaScript 약속을 사용할 수 있습니다.
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+자세한 내용은 [이벤트의 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 를 참조하십시오.
+
+## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
+
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.registerPostTrackCallback
 
 `s.registerPostTrackCallback`은 함수를 유일한 인수로 사용하는 함수입니다. 중첩 함수는 이미지 요청이 성공적으로 전송된 직후에 실행됩니다.
 

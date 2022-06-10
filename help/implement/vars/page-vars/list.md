@@ -3,10 +3,10 @@ title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
@@ -24,11 +24,15 @@ ht-degree: 100%
 
 구현에서 목록 변수를 사용하기 전에 보고서 세트 설정에서 각 목록 변수를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/list-var-admin.md)를 참조하십시오.
 
-## Adobe Experience Platform의 태그를 사용하는 목록 변수
+## 웹 SDK를 사용하여 변수 나열
 
-데이터 수집 UI에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+목록 변수는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.lists.list1` to `_experience.analytics.customDimensions.lists.list3`.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.list1 - s.list3
+## Adobe Analytics 확장을 사용하여 변수 나열
+
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.list1 - s.list3
 
 각 목록 변수는 조직에 관련된 사용자 지정 값을 포함하는 문자열입니다. 이 변수에는 최대 바이트 수 제한이 없습니다. 그러나 각 개별 값은 최대 255바이트입니다. 사용하는 구분 기호는 보고서 세트 설정에서 변수를 설정할 때 결정됩니다. 공백은 여러 항목을 구분할 때 사용하지 마십시오.
 

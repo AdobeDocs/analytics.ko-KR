@@ -3,10 +3,10 @@ title: campaign
 description: '''추적 코드'' 차원을 채웁니다.'
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '195'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 77%
 
 ---
 
@@ -16,12 +16,16 @@ ht-degree: 100%
 
 이 변수는 &#39;추적 코드&#39; 차원을 채웁니다.
 
-## Adobe Experience Platform의 태그를 사용하는 캠페인
+## 웹 SDK를 사용한 캠페인
+
+캠페인: [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `marketing.trackingCode`.
+
+## Adobe Analytics 확장을 사용한 캠페인
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 캠페인을 설정할 수 있습니다.
 
-1. AdobeID 자격 증명을 사용하여 [데이터 수집 UI](https://experience.adobe.com/data-collection)에 로그인합니다.
-2. 원하는 속성을 클릭합니다.
+1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
@@ -29,7 +33,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 캠�
 
 캠페인을 값 또는 쿼리 문자열 매개 변수로 설정할 수 있습니다.
 
-## AppMeasurement 및 사용자 지정 코드 편집기의 s.campaign
+## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.campaign
 
 `s.campaign` 변수는 일반적으로 마케팅 활동에 사용되는 추적 코드를 포함하는 문자열입니다. 최대 길이는 255바이트이고, 255바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 
