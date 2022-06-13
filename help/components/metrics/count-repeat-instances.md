@@ -3,8 +3,8 @@ title: 반복 인스턴스 계산
 description: 보고서에서 반복 인스턴스가 계산되는지 여부를 지정합니다.
 feature: Metrics
 exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
@@ -18,4 +18,4 @@ Reports &amp; Analytics에서는 이 설정을 구성할 수 없습니다. 기�
 작업 영역에서는 **[!UICONTROL 프로젝트]** > **[!UICONTROL 프로젝트 정보 및 설정]** 아래에서 [반복 인스턴스를 포함/제외](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)하도록 선택할 수 있습니다. 기본값으로는 포함되어 있습니다.
 
 >[!NOTE]
->이 설정은 [!UICONTROL 플로우] 또는 [!UICONTROL 폴아웃] 시각화에 적용되지 않습니다. 작업 영역에서 [!UICONTROL 플로우]는 자체적으로 반복을 제거하는 [설정](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)이 있습니다. Reports &amp; Analytics에서 플로우 보고서에는 기본값으로 반복 인스턴스가 항상 제거되어 있습니다.
+>이 설정은 [!UICONTROL 플로우] 또는 [!UICONTROL 폴아웃] 시각화에 적용되지 않습니다. 작업 영역에서 [!UICONTROL 플로우]는 자체적으로 반복을 제거하는 [설정](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)이 있습니다. Reports &amp; Analytics에서 플로우 보고서에는 기본값으로 반복 인스턴스가 항상 제거되어 있습니다.
