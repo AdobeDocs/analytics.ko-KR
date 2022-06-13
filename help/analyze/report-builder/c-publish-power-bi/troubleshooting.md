@@ -4,10 +4,10 @@ title: Power BI 통합 문제 해결
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '370'
-ht-degree: 100%
+source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 66%
 
 ---
 
@@ -42,3 +42,26 @@ Microsoft 관리자가 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ac
 사용자는 다음 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)를 사용하여 액세스 권한을 부여할 수 있습니다.
 
 관리자는 다음 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)를 사용하여 모든 사용자에게 액세스 권한을 부여했습니다.
+
+## API 제한에 도달
+
+Power BI의 보고는 Analytics 보고 API에서 작동하므로 API 임계값 제한이 적용됩니다. Analytics 2.0 API의 경우 스로틀 제한은 보고서 세트 또는 회사에 관계없이 사용자당 120개의 호출로 설정됩니다. 스로틀 한도를 초과하면 서버는 다음 메시지 콘텐츠와 함께 사용자에게 HTTP 429 상태를 반환합니다.
+
+```
+too many requests
+{"error_code":"429050","message":"Too many requests"}
+```
+
+Adobe은 다음을 수행하는 것을 권장합니다. *준수* 다음 지침:
+
+* 큰 단일 요청 대신 여러 개의 작은 요청을 만듭니다.
+* 데이터를 한 번 요청하고 캐시합니다.
+* 30분 간격 보다 빠르게 새 데이터를 폴링하지 마십시오.
+* 전체 데이터 세트를 요청하는 대신 내역 데이터를 가져와 정기적으로 증가시킵니다.
+
+Adobe은 다음을 수행하는 것을 권장합니다. *피치* 다음 중 하나를 수행합니다.
+
+* 단일 요청으로 가능한 많은 데이터 요청
+* 일별 세부기간으로 1년의 데이터를 매일 요청하여 12개월 기간을 롤링할 수 있습니다. Adobe은 대신 새 날짜의 데이터를 요청하고 이전 날짜의 기존 데이터와 병합하는 것을 권장합니다.
+* 웹 페이지가 로드될 때마다 API 요청을 수행하여 사이트 성능 위젯으로 웹 페이지를 구동합니다
+* 1.4에서 마이그레이션
