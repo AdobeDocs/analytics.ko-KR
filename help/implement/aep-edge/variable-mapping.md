@@ -2,7 +2,7 @@
 title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 96%
@@ -114,7 +114,7 @@ ht-degree: 96%
 | `productListItems[].quantity` | [단위](../../components/metrics/units.md) 지표를 확인하는 데 도움이 됩니다. |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 구현 변수. |
 | `web.webInteraction.name` | `web.webInteraction.type`의 값에 따라 [사용자 지정 링크](../../components/dimensions/custom-link.md), [다운로드 링크](../../components/dimensions/download-link.md) 또는 [종료 링크](../../components/dimensions/exit-link.md) 차원. |
-| `web.webInteraction.type` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `lnk_o`(사용자 지정 링크), `lnk_d`(다운로드 링크) 및 `lnk_e`(종료 링크)가 포함됩니다. |
+| `web.webInteraction.type` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `other`(사용자 지정 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다. |
 | `web.webPageDetails.URL` | [페이지 URL](../../components/dimensions/page-url.md) 차원. |
 | `web.webPageDetails.errorPage` | &#39;페이지를 찾을 수 없음&#39; [차원](../../components/dimensions/pages-not-found.md) 및 [지표](../../components/metrics/pages-not-found.md)를 결정하는 데 도움이 되는 플래그. |
 | `web.webPageDetails.name` | [페이지](../../components/dimensions/page.md) 차원. |

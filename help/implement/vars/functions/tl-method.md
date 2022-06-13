@@ -3,10 +3,10 @@ title: tl
 description: Adobe에 링크 추적 호출을 보냅니다.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 80%
 
 ## 웹 SDK를 사용한 링크 추적
 
-웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구별하지 않습니다. 둘 다 `sendEvent` 명령. Adobe Analytics에서 주어진 이벤트를 링크 추적 호출로 계산하도록 하려면 XDM 데이터에 가 포함되어 있는지 확인합니다. `web.webInteraction.name`, `web.webInteraction.URL`, 및 `web.webInteraction.type`.
+웹 SDK는 페이지 보기 호출과 링크 추적 호출을 구별하지 않습니다. 둘 다 `sendEvent` 명령. Adobe Analytics에서 주어진 XDM 이벤트를 링크 추적 호출로 계산하도록 하려면 XDM 데이터가 포함되거나 매핑되어 있는지 확인합니다 `web.webInteraction.name`, `web.webInteraction.URL`, 및 `web.webInteraction.type`.
+
+* 링크 이름은 다음에 매핑됩니다. `web.webInteraction.name`.
+* 링크 URL이 `web.webInteraction.URL`.
+* 링크 유형은 `web.webInteraction.type`. 유효한 값에는 `other`(사용자 지정 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다.
 
 ```js
 alloy("sendEvent", {
