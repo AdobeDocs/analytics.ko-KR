@@ -4,10 +4,10 @@ title: Power BI 통합 문제 해결
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 66%
+source-wordcount: '408'
+ht-degree: 90%
 
 ---
 
@@ -45,23 +45,4 @@ Microsoft 관리자가 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ac
 
 ## API 제한에 도달
 
-Power BI의 보고는 Analytics 보고 API에서 작동하므로 API 임계값 제한이 적용됩니다. Analytics 2.0 API의 경우 스로틀 제한은 보고서 세트 또는 회사에 관계없이 사용자당 120개의 호출로 설정됩니다. 스로틀 한도를 초과하면 서버는 다음 메시지 콘텐츠와 함께 사용자에게 HTTP 429 상태를 반환합니다.
-
-```
-too many requests
-{"error_code":"429050","message":"Too many requests"}
-```
-
-Adobe은 다음을 수행하는 것을 권장합니다. *준수* 다음 지침:
-
-* 큰 단일 요청 대신 여러 개의 작은 요청을 만듭니다.
-* 데이터를 한 번 요청하고 캐시합니다.
-* 30분 간격 보다 빠르게 새 데이터를 폴링하지 마십시오.
-* 전체 데이터 세트를 요청하는 대신 내역 데이터를 가져와 정기적으로 증가시킵니다.
-
-Adobe은 다음을 수행하는 것을 권장합니다. *피치* 다음 중 하나를 수행합니다.
-
-* 단일 요청으로 가능한 많은 데이터 요청
-* 일별 세부기간으로 1년의 데이터를 매일 요청하여 12개월 기간을 롤링할 수 있습니다. Adobe은 대신 새 날짜의 데이터를 요청하고 이전 날짜의 기존 데이터와 병합하는 것을 권장합니다.
-* 웹 페이지가 로드될 때마다 API 요청을 수행하여 사이트 성능 위젯으로 웹 페이지를 구동합니다
-* 1.4에서 마이그레이션
+Power BI의 보고는 Analytics 보고 API에서 작동하므로 API 임계값 제한이 적용됩니다. 자세한 내용은 [API 호출의 비율 제한은 얼마입니까?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
