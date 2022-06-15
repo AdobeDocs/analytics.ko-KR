@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 경고, 마케팅 채널, 분류 및 크로스 디바이스 분석에 대한 학습과 같은 구성 요소를 사용하여 데이터를 관리하는 데 도움이 됩니다.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -227,6 +227,18 @@ ht-degree: 100%
    + [지능형 경고 - 활용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/c-classifications.md)
+   + 분류 세트 {#sets}
+      + [분류 세트 개요](classifications/sets/overview.md)
+      + [분류 세트 관리자](classifications/sets/set-manager.md)
+      + [분류 세트 작업 관리자](classifications/sets/job-manager.md)
+      + [분류 세트 만들기](classifications/sets/create.md)
+      + [분류 세트 설정](classifications/sets/settings.md)
+   + 분류 규칙 빌더 {#classifications-rulebuilder}
+      + [분류 규칙 빌더 작업 과정](classifications/crb/classification-rule-builder.md)
+      + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
+      + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
+      + [분류 규칙 - 정의](classifications/crb/classification-rule-definitions.md)
+      + [하위 분류 및 규칙 빌더](classifications/crb/sub-classification-rule-builder.md)
    + 분류 임포터 {#classifications-importer}
       + [분류 가져오기 도구 - 개요](classifications/importer/c-working-with-saint.md)
       + [분류 데이터 파일](classifications/importer/c-saint-data-files.md)
@@ -241,12 +253,6 @@ ht-degree: 100%
       + [FTP 내보내기](classifications/importer/ftp-export.md)
       + [처리 시간](classifications/importer/processing-time.md)
       + [문제 해결](classifications/importer/troubleshooting.md)
-   + 분류 규칙 빌더 {#classifications-rulebuilder}
-      + [분류 규칙 빌더 작업 과정](classifications/crb/classification-rule-builder.md)
-      + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
-      + [분류 규칙](classifications/crb/classification-quickstart-rules.md)
-      + [분류 규칙 - 정의](classifications/crb/classification-rule-definitions.md)
-      + [하위 분류 및 규칙 빌더](classifications/crb/sub-classification-rule-builder.md)
    + [하위 분류](classifications/c-sub-classifications.md)
    + [분류 FAQ](classifications/faq.md)
 + [달력 이벤트](t-calendar-event.md)
