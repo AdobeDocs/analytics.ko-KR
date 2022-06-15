@@ -3,7 +3,7 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 29f152bf1724c566da69598f35929ee3b502b7f9
+source-git-commit: 95f05bbf620c140f3e17a070d95b21b62db58bcc
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 70%
@@ -33,7 +33,7 @@ ht-degree: 70%
 | **모바일 스코어카드에서 주석 공유** | Workspace에서 생성된 주석을 모바일 스코어카드에 표시할 수 있습니다. 이를 통해 Mobile Scorecard 프로젝트에서 바로 조직 및 캠페인에 대한 통찰력과 컨텍스트 데이터 뉘앙스를 공유할 수 있으며 Analytics 대시보드 모바일 앱에서 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022년 6월 15일 |
 | **Edge Collection에서 머천다이징 변수의 제품 구문 버전 지원** | 이제 관련 XDM 필드를 설정하여 제품 구문과 동등한 기능을 사용하여 머천다이징 변수를 설정할 수 있습니다. 머천다이징 변수의 제품 구문에 대한 자세한 내용을 살펴보십시오 [여기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ko). 제품 구문에 대한 매핑 을 참조하십시오 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 2022년 6월 15일 |
 | **Experience Edge를 통해 라이프사이클 차원 및 지표 채우기** | Experience Edge를 통해 전송되는 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 설명서를 참조하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022년 5월 27일 |
-| **Analytics 처리 규칙에서 사용할 수 있는 모바일 서비스 처리 규칙** | Adobe Mobile Services 수명 종료 날짜는 2022년 12월 31일입니다. Adobe Mobile Services에서 만들거나 생성한 기존 처리 규칙은 자동으로 Adobe Analytics 처리 규칙으로 마이그레이션되어 편집하고 관리할 수 있습니다. 관리할 수 있지만, 제품이 종료될 때까지 Mobile Services에서 더 이상 편집할 수 없습니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022년 6월 15일 |
+| **Analytics 처리 규칙에서 사용할 수 있는 모바일 서비스 처리 규칙** | Adobe Mobile Services 수명 종료 날짜는 2022년 12월 31일입니다. Adobe Mobile Services에서 만들거나 생성한 기존 처리 규칙은 자동으로 Adobe Analytics 처리 규칙으로 마이그레이션되어 편집하고 관리할 수 있습니다. 볼 수 있지만 제품이 종료될 때까지 Mobile Services에서 더 이상 편집할 수 없습니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022년 6월 15일 |
 | **새로운 분류 경험 - 1단계** | 새로운 분류 세트 사용자 경험의 단계적 릴리스는 고객이 소유한 분류 데이터에 대한 가시성을 크게 향상시킵니다. [일반 공급](/help/release-notes/releases.md) 이 지역은 2023년 초와 비슷한 것으로 추정된다. | 제한된 테스트 시작: 2022년 6월 15일 |
 
 {style=&quot;table-layout:auto&quot;}
