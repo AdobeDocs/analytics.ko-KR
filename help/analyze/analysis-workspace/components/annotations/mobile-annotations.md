@@ -5,9 +5,9 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 0e7a9aa92c8c5b61fffae96d42bd1b258920e99d
+source-git-commit: 43dc28d7c6b4560fd1b8397ce10cc8fbf8f5ca91
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '366'
 ht-degree: 2%
 
 ---
@@ -23,23 +23,23 @@ Workspace에서 생성된 주석을 모바일 스코어카드에 표시할 수 �
 
 주석 만들기에 대한 내용은 [주석 만들기](create-annotations.md). 주석은 모바일 스코어카드에서 기본적으로 꺼져 있으며, 모바일 스코어카드에서 표시하려는 각 스코어카드에 대해 활성화되어 있어야 합니다.
 
-1. 주석 켜기. 주석을 켜려면 [주석 켜기 또는 끄기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en#turn-annotations-on-or-off).
+1. 주석 켜기. 주석을 켜려면 [주석 켜기 또는 끄기](overview.md#on-off).
 
 1. 주석을 만들어 모든 프로젝트에 공유했는지 확인합니다. 작업 공간에서 주석을 작성하려면 다음을 참조하십시오 [주석 만들기](create-annotations.md).
 
 1. 선택 **주석 표시** 모바일 스코어카드에 주석을 표시할 수 있습니다.
 
-<img src="assets/show-annotations.png"  width="75%">
+   <img src="assets/show-annotations.png"  width="80%">
 
 1. 주석 표시를 선택했는지 확인하고 다음 위치로 이동하십시오. **프로젝트** > **프로젝트 정보 및 설정**.
 
-<img src="assets/project-info-settings.png" width="40%">
+   <img src="assets/project-info-settings.png" width="25%">
 
 ## 모바일 스코어카드에서 주석 보기
 
 주석이 활성화되면 스코어카드 빌더에 주석 아이콘이 표시됩니다. 주석은 세부 보기에서 차트 및 테이블에만 나타납니다. 스코어카드의 기본 타일 보기에는 주석이 표시되지 않습니다.
 
-<img src="assets/view-annotations.png"  width="75%">
+<img src="assets/view-annotations.png"  width="80%">
 
 주석 아이콘이 표시되면 빌더 캔버스에서 완전히 보거나 주석을 사용할 수 없습니다. 미리 보기 모드를 사용하여 앱에 표시되는 주석을 보고 상호 작용할 수 있습니다. ![](assets/preview-icon.png)
 
@@ -49,6 +49,6 @@ Workspace에서 생성된 주석을 모바일 스코어카드에 표시할 수 �
 
 | 날짜 | 모양 |
 | --- | --- |
-| **하루** | <img src="assets/single-day-mobile-annotations.png"  width="30%"><br></br> |
-| **날짜 범위** | <img src="assets/date-range.png"  width="30%"> |
-| **겹치는 주석** | <img src="assets/overlapping-annotations.png"  width="30%"><br></br>Analytics 대시보드 앱에서 주석 세부 사항을 보려면 주석 아이콘을 탭합니다. <br></br>차트에서 주석을 볼 때 왼쪽과 오른쪽으로 밀어서 차트에 있는 모든 주석을 탐색할 수 있습니다. 테이블에서 주석을 볼 때는 왼쪽 및 오른쪽으로 밀어서 테이블에서 해당 행 항목과 연결된 모든 주석을 탐색합니다. <br></br><img src="assets/swipe-multiple-annotations.png"  width="30%"> <br></br>시간 기반이 없는 차트에서 *x축*&#x200B;도넛 또는 가로 막대형 차트와 같이, 오른쪽 하단에 있는 아이콘을 탭하여 차트에 적용되는 주석을 볼 수 있습니다.<br></br> <img src="assets/charts-without-timebase.png"  width="30%"> |
+| **하루** | <img src="assets/single-day-mobile-annotations.png"  width="50%"><br></br> |
+| **날짜 범위** | <img src="assets/date-range.png"  width="50%"> |
+| **겹치는 주석** | <img src="assets/overlapping-annotations.png"  width="50%"><br></br>Analytics 대시보드 앱에서 주석 세부 사항을 보려면 주석 아이콘을 탭합니다. <br></br>차트에서 주석을 볼 때 왼쪽과 오른쪽으로 밀어서 차트에 있는 모든 주석을 탐색할 수 있습니다. 테이블에서 주석을 볼 때는 왼쪽 및 오른쪽으로 밀어서 테이블에서 해당 행 항목과 연결된 모든 주석을 탐색합니다. <br></br><img src="assets/swipe-multiple-annotations.png"  width="50%"> <br></br>시간 기반이 없는 차트에서 *x축*&#x200B;도넛 또는 가로 막대형 차트와 같이, 오른쪽 하단에 있는 아이콘을 탭하여 차트에 적용되는 주석을 볼 수 있습니다.<br></br> <img src="assets/charts-without-timebase.png"  width="50%"> |
