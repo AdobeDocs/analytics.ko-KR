@@ -4,9 +4,9 @@ title: Analysis Workspace 성능 요소 및 최적화
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '2024'
+source-git-commit: 568000a7da84301f8a7c5a48a68a146e4af5f105
+workflow-type: tm+mt
+source-wordcount: '1956'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,6 @@ ht-degree: 100%
 | 시각화 복잡성 (세그먼트, 지표, 필터) | 프로젝트에 기본적으로 추가된 시각화 유형 (예: 폴아웃 및 자유 형식 테이블)은 프로젝트 성능에 크게 영향을 주지 않습니다. 영향을 주는 것은 처리 시간에 추가되는 시각화의 복잡성입니다. | 시각화에 복잡성을 추가하는 요소는 다음과 같습니다.<ul><li>요청한 데이터 범위</li><li>적용된 세그먼트 수 (예: 자유 형식 테이블의 행으로 사용된 세그먼트 수)</li><li>복잡한 세그먼트 사용</li><li>[자유 형식 테이블의 정적 항목 행 또는 열](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=ko-KR)</li><li>자유 형식 테이블의 행에 적용된 필터</li><li>포함된 지표 수, 특히 세그먼트를 사용하는 계산된 지표 수</li></ul> | 프로젝트가 원하는 대로 빠르게 로드되지 않은 경우, 가능하면 일부 세그먼트를 eVar 및 필터로 바꿔 보십시오.<br><br>비즈니스에 중요한 데이터 포인트에 대해 세그먼트와 계산된 지표를 계속해서 사용하는 경우, 이러한 데이터 포인트를 직접 캡처하도록 구현을 개선해 보십시오. Adobe Experience Platform 및 Adobe의 처리 규칙에 태그를 사용하면 구현을 빠르게 변경하고 쉽게 수행할 수 있습니다. |
 | 보고서 세트 크기 | 보고서 세트에 수집된 데이터의 양입니다. | - | Adobe Analytics의 전반적인 환경을 개선하기 위해 수행할 수 있는 구현 개선 사항이 있는지 확인하려면 구현 팀이나 Adobe 전문가와 상의하십시오. |
 | 동시 쿼리 | 조직에서 Adobe에 동시에 요청하는 쿼리 수입니다. 각 조직은 최소 5개의 동시 쿼리를 받을 수 있습니다. | 보고서에 시간이 오래 걸리는 경우는 일반적으로 다른 보고서와 함께 큐에 있기 때문입니다. 즉, 조직에서 특정 보고서 세트에 대해 너무 많은 동시 요청을 실행하려고 하는 것입니다. 쿼리는 API 요청, 보고 UI (Analysis Workspace, Reports &amp; Analytics, Report Builder 등), 예약된 프로젝트, 예약된 보고서, 예약된 알림, 보고를 요청하는 동시 사용자로부터 비롯될 수 있습니다. | 보고서 세트에 대한 요청과 일정을 하루 전체에 더 고르게 분산시킵니다. 또한 가능하면 사용량이 적은 시간으로 요청을 이동합니다. 월요일 아침, 화요일 아침 그리고 매월 1일이 가장 많이 보고되는 시간입니다. |
-| 데이터 센터 용량 | 귀하와 다른 고객이 Adobe 데이터 센터 내에서 공유하는 보고 용량입니다. | 용량은 조직 및 데이터 센터 내의 다른 조직에서 수행한 동시 쿼리 수의 영향을 받습니다. | 귀하의 조직은 정해진 용량을 받을 자격이 있으며 시스템이 경부하 상태인 경우 Adobe는 귀하에게 부여된 허용량 이상으로 더 많은 용량을 귀하에게 이동시킵니다. |
 
 ## Analysis Workspace의 생산성 향상을 위한 팁
 
