@@ -3,20 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 95f05bbf620c140f3e17a070d95b21b62db58bcc
+source-git-commit: 4df57547229c9dd0f70066dd1e9ca64947eabf13
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 70%
+source-wordcount: '1073'
+ht-degree: 69%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 노트(2022년 6월)
 
->[!NOTE]
->
->이 페이지에는 프리릴리스 정보가 포함되어 있으며 향후 변경될 수 있습니다.
-
-**최종 업데이트**: 2022년 6월 15일
+**최종 업데이트**: 2022년 6월 16일
 
 ## 관련 리소스
 
@@ -29,7 +25,7 @@ ht-degree: 70%
 
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
-| **새 흐름 시각화 UI** | 플로우 시각화에 추가 기능을 제공하여 보다 강력하고 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 2022년 6월 15일 |
+| **새 흐름 시각화 UI** | 플로우 시각화에 추가 기능을 제공하여 보다 강력하고 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 롤아웃은 2022년 6월 15일에 시작됩니다. GA: 2022년 6월 27일 또는 28일 |
 | **모바일 스코어카드에서 주석 공유** | Workspace에서 생성된 주석을 모바일 스코어카드에 표시할 수 있습니다. 이를 통해 Mobile Scorecard 프로젝트에서 바로 조직 및 캠페인에 대한 통찰력과 컨텍스트 데이터 뉘앙스를 공유할 수 있으며 Analytics 대시보드 모바일 앱에서 볼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022년 6월 15일 |
 | **Edge Collection에서 머천다이징 변수의 제품 구문 버전 지원** | 이제 관련 XDM 필드를 설정하여 제품 구문과 동등한 기능을 사용하여 머천다이징 변수를 설정할 수 있습니다. 머천다이징 변수의 제품 구문에 대한 자세한 내용을 살펴보십시오 [여기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ko). 제품 구문에 대한 매핑 을 참조하십시오 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 2022년 6월 15일 |
 | **Experience Edge를 통해 라이프사이클 차원 및 지표 채우기** | Experience Edge를 통해 전송되는 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 설명서를 참조하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022년 5월 27일 |
