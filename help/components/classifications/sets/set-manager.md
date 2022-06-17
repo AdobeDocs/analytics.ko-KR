@@ -1,13 +1,13 @@
 ---
 title: 분류 세트 관리자
 description: Adobe Analytics에서 분류 세트를 관리합니다.
-source-git-commit: fae00c7ba48d9595628f68e63fd16e37a6a4c84a
+exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # 분류 세트 관리자
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 추가]**: [만들기](create.md) 분류 세트.
 * **[!UICONTROL 제목별로 검색]**: 이름별로 분류 세트를 검색합니다.
-* **[!UICONTROL 추가 로드]**: 분류 세트 관리자는 기본적으로 최대 1000개의 분류 세트를 표시합니다. 1,000개 이상의 분류 세트를 로드하려면 이 단추를 클릭하십시오.
+* **[!UICONTROL 추가 로드]**: 분류 세트 관리자는 처음에 최대 1000개의 분류 세트를 표시합니다. 1,000개 이상의 분류 세트를 로드하려면 이 단추를 클릭하십시오.
 * **열 표시/숨기기**: 열 이외의 열에 대한 가시성을 전환합니다. [!UICONTROL 분류 세트].
 
 원하는 분류 세트 옆에 있는 확인란을 클릭하여 하나 이상의 분류 세트를 선택합니다. 분류 세트를 선택하면 다음 옵션이 표시됩니다.

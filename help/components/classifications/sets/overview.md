@@ -1,13 +1,13 @@
 ---
 title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리합니다.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # 분류 세트 개요
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 기능은 현재 제한된 릴리스에 있습니다. 이 기능에 액세스하려면 Adobe 고객 지원 센터 또는 계정 관리자에게 문의하여 프로비저닝을 위해 분류 세트 팀에 요청을 전달하십시오.
+>이 기능은 현재 제한된 릴리스에 있습니다. 이 기능에 액세스하려면 Adobe 고객 지원 센터 또는 계정 관리자에게 문의하여 프로비저닝을 위해 분류 팀에 요청을 전달할 수 있습니다.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]**
 
