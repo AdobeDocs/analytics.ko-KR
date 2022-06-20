@@ -4,10 +4,10 @@ title: Power BI 통합 문제 해결
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
+source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 89%
 
 ---
 
@@ -45,4 +45,4 @@ Microsoft 관리자가 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ac
 
 ## API 제한에 도달
 
-Power BI의 보고는 Analytics 보고 API에서 작동하므로 API 임계값 제한이 적용됩니다. 자세한 내용은 [API 호출의 비율 제한은 얼마입니까?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+Power BI의 보고는 Analytics 보고 API에서 작동하므로 API 임계값 제한이 적용됩니다. 자세한 내용은 [웹 서비스 오류 코드](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
