@@ -2,9 +2,9 @@
 title: 분류 세트 관리자
 description: Adobe Analytics에서 분류 세트를 관리합니다.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 0%
 * **[!UICONTROL 구독]**: 구독 수 또는 이 분류 세트가 적용되는 보고서 세트 수입니다.
 * **[!UICONTROL 소유자]**: 분류 세트의 소유자입니다.
 * **[!UICONTROL 분류]**: 분류 세트에 포함된 분류 차원의 수입니다.
-* **[!UICONTROL 자동화된]**: 분류 세트가 FTP 사이트에서 데이터를 자동으로 가져오도록 구성되어 있는지 여부를 나타냅니다.
 * **[!UICONTROL 마지막 수정 날짜]**: 분류 세트를 마지막으로 수정한 날짜 및 시간입니다.
-* **[!UICONTROL FTP 호스트 + 경로]**: 자동화된 경우 분류 세트가 데이터를 가져오는 FTP 위치입니다.
 
 ## 선택 사항 만들기 또는 편집
 

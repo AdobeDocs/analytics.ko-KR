@@ -2,10 +2,10 @@
 title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: f92ad30f2a27f70b8478d55ab71f223cd1c82b24
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 96%
+source-wordcount: '1367'
+ht-degree: 99%
 
 ---
 
@@ -60,13 +60,13 @@ ht-degree: 96%
 | `environment.operatingSystem` | 모바일 차원 [운영 체제](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | 모바일 차원 [운영 체제 버전](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.type` | 이벤트가 [웨어러블](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html?lang=ko-KR) 디바이스에서 발생했는지 여부를 나타냅니다. 유효한 값에는 `Application`(앱에서 이벤트가 발생), `Extension`(웨어러블 앱에서 이벤트가 발생) 또는 `Widget`(모바일 위젯에서 이벤트가 발생)이 포함됩니다. |
-| `_experience.analytics.customDimensions.eVars.eVar1` -<br/>`_experience.analytics.customDimensions.eVars.eVar250` | 각 [eVar](../../components/dimensions/evar.md) 차원. |
-| `_experience.analytics.customDimensions.listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.listProps.prop75.delimiter` | 주어진 항목에 사용되는 구분 기호입니다 [목록 Prop](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.listProps.prop75.values` | 각각 를 포함하는 문자열 배열 [목록 Prop](../vars/page-vars/prop.md#list-props) 값. |
-| `_experience.analytics.customDimensions.lists.list1.list` -<br/>`_experience.analytics.customDimensions.lists.list3.list` | 각 [목록 변수](../vars/page-vars/list.md). |
-| `_experience.analytics.customDimensions.props.prop1` -<br/>`_experience.analytics.customDimensions.props.prop75` | 각 [Prop](../../components/dimensions/prop.md) 차원. |
-| `_experience.analytics.event1to100.event1.id` -<br/>`_experience.analytics.event901to1000.event1000.value` | 적용 [이벤트 일련화](../vars/page-vars/events/event-serialization.md) 각각 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 지표. |
-| `_experience.analytics.event1to100.event1.value` -<br/>`_experience.analytics.event901to1000.event1000.value` | 각 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 원하는 금액별 지표입니다. |
+| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 해당 [eVar](../../components/dimensions/evar.md) 차원을 설정합니다. |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 주어진 [목록 Prop](../vars/page-vars/prop.md#list-props)에 사용되는 구분 기호입니다. |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 해당 [목록 Prop](../vars/page-vars/prop.md#list-props) 값을 포함하는 문자열 배열입니다. |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | 해당[목록 변수](../vars/page-vars/list.md)를 설정합니다. |
+| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](../../components/dimensions/prop.md) 차원을 설정합니다. |
+| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. |
+| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud ID 서비스 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR). |
 | `marketing.trackingCode` | [추적 코드](../../components/dimensions/tracking-code.md) 차원을 설정합니다. |
 | `media.mediaTimed.completes.value` | Media Analytics 지표 [콘텐츠 완료](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#content-complete). |
@@ -108,6 +108,8 @@ ht-degree: 96%
 | `placeContext.geo.longitude` | 모바일 차원 경도. |
 | `placeContext.geo.postalCode` | [우편번호](../../components/dimensions/zip-code.md) 차원. |
 | `placeContext.geo.stateProvince` | [미국 주](../../components/dimensions/us-states.md) 차원. |
+| `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 적용 [제품 구문](../vars/page-vars/products.md) 머천다이징에서 eVar로. |
+| `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 적용 [제품 구문](../vars/page-vars/products.md) 이벤트 머천다이징. |
 | `productListItems[].lineItemId` | [범주](../../components/dimensions/category.md) 차원. |
 | `productListItems[].name` | [제품](../../components/dimensions/product.md) 차원. |
 | `productListItems[].priceTotal` | [매출](../../components/metrics/revenue.md) 지표를 확인하는 데 도움이 됩니다. |
