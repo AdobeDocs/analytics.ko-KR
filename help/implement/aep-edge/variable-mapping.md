@@ -2,10 +2,10 @@
 title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f92ad30f2a27f70b8478d55ab71f223cd1c82b24
+source-git-commit: 66724724788c406fff3abf30c711090accd2d632
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 99%
+source-wordcount: '1248'
+ht-degree: 93%
 
 ---
 
@@ -17,35 +17,27 @@ ht-degree: 99%
 | --- | --- |
 | `application.id` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions). |
 | `application.isClose` | 모바일 지표 [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics)을 정의하는 데 도움이 됩니다. |
-| `application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. |
+| `application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. 은(는) [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) 지표. |
 | `application.isInstall` | 모바일 지표 [설치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | 모바일 지표 [런치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.name` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)를 설정하는 데 도움이 됩니다. |
-| `application.launches.value` | 모바일 지표 [런치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isUpgrade` | 모바일 지표 [업그레이드](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.version` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)를 설정하는 데 도움이 됩니다. |
-| `application.sessionLength` | 모바일 지표 [총 세션 길이](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.sessionLength` | 모바일 지표 [이전 세션 길이](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `commerce.checkouts.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [체크아웃](../../components/metrics/checkouts.md) 지표에 적용합니다. |
 | `commerce.checkouts.value` | 원하는 수량만큼 [체크아웃](../../components/metrics/checkouts.md) 지표를 증가시킵니다. |
 | `commerce.order.currencyCode` | [currencyCode](../vars/config-vars/currencycode.md) 구성 변수를 설정합니다. |
 | `commerce.order.purchaseID` | [purchaseID](../vars/page-vars/purchaseid.md) 페이지 변수를 설정합니다. |
-| `commerce.productListAdds.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [장바구니 추가](../../components/metrics/cart-additions.md) 지표에 적용합니다. |
-| `commerce.productListAdds.value` | 원하는 수량만큼 [장바구니 추가](../../components/metrics/cart-additions.md) 지표를 증가시킵니다. |
-| `commerce.productListOpens.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [장바구니](../../components/metrics/carts.md) 지표에 적용합니다. |
-| `commerce.productListOpens.value` | 원하는 수량만큼 [장바구니](../../components/metrics/carts.md) 지표를 증가시킵니다. |
-| `commerce.productListRemovals.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [장바구니 제거](../../components/metrics/cart-removals.md) 지표에 적용합니다. |
-| `commerce.productListRemovals.value` | 원하는 수량만큼 [장바구니 제거](../../components/metrics/cart-removals.md) 지표를 증가시킵니다. |
-| `commerce.productListViews.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [장바구니 보기](../../components/metrics/cart-views.md) 지표에 적용합니다. |
-| `commerce.productListViews.value` | 원하는 수량만큼 [장바구니 보기](../../components/metrics/cart-views.md) 지표를 증가시킵니다. |
-| `commerce.productViews.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [제품 보기](../../components/metrics/product-views.md) 지표에 적용합니다. |
-| `commerce.productViews.value` | 원하는 수량만큼 [제품 보기](../../components/metrics/product-views.md) 지표를 증가시킵니다. |
-| `commerce.purchases.value` | 원하는 수량만큼 [주문](../../components/metrics/orders.md) 지표를 증가시킵니다. |
-| `device.manufacturer` | 모바일 디바이스 제조업체. |
+| `commerce.productListAdds.value` | 를 증가시킵니다 [장바구니 추가](../../components/metrics/cart-additions.md) 지표. |
+| `commerce.productListOpens.value` | 를 증가시킵니다 [장바구니](../../components/metrics/carts.md) 지표. |
+| `commerce.productListRemovals.value` | 를 증가시킵니다 [장바구니 제거 수](../../components/metrics/cart-removals.md) 지표. |
+| `commerce.productListViews.value` | 를 증가시킵니다 [장바구니 보기 수](../../components/metrics/cart-views.md) 지표. |
+| `commerce.productViews.value` | 를 증가시킵니다 [제품 보기](../../components/metrics/product-views.md) 지표. |
+| `commerce.purchases.value` | 를 증가시킵니다 [주문](../../components/metrics/orders.md) 지표. |
 | `device.model` | 모바일 차원 [디바이스 이름](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `device.modelNumber` | 모바일 디바이스 모델 번호. |
 | `device.colorDepth` | [색상 깊이](../../components/dimensions/color-depth.md) 차원을 설정하는 데 도움이 됩니다. |
-| `device.screenHeight` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. XDM 필드 `device.screenWidth`도 설정해야 합니다. |
-| `device.screenWidth` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. XDM 필드 `device.screenHeight`도 설정해야 합니다. |
+| `device.screenHeight` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. |
+| `device.screenWidth` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. |
 | `device.type` | 모바일 디바이스 유형. |
 | `environment.browserDetails.acceptLanguage` | [언어](../../components/dimensions/language.md) 차원을 설정하는 데 도움이 됩니다. |
 | `environment.browserDetails.cookiesEnabled` | [쿠키 지원](../../components/dimensions/cookie-support.md) 차원을 설정합니다. 유효한 값에는 `Y`(브라우저에서 쿠키를 수락) 및 `N`(브라우저에서 쿠키를 거부)이 포함됩니다. |
@@ -57,9 +49,7 @@ ht-degree: 99%
 | `environment.connectionType` | [연결 유형](../../components/dimensions/connection-type.md) 차원을 설정하는 데 도움이 됩니다. |
 | `environment.ipV4` | 대체 [고유한 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `X-Forwarded-For` HTTP 헤더를 사용하여 채워집니다. |
 | `environment.language` | 모바일 차원 로케일. |
-| `environment.operatingSystem` | 모바일 차원 [운영 체제](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | 모바일 차원 [운영 체제 버전](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.type` | 이벤트가 [웨어러블](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html?lang=ko-KR) 디바이스에서 발생했는지 여부를 나타냅니다. 유효한 값에는 `Application`(앱에서 이벤트가 발생), `Extension`(웨어러블 앱에서 이벤트가 발생) 또는 `Widget`(모바일 위젯에서 이벤트가 발생)이 포함됩니다. |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 해당 [eVar](../../components/dimensions/evar.md) 차원을 설정합니다. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 주어진 [목록 Prop](../vars/page-vars/prop.md#list-props)에 사용되는 구분 기호입니다. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 해당 [목록 Prop](../vars/page-vars/prop.md#list-props) 값을 포함하는 문자열 배열입니다. |
@@ -110,10 +100,10 @@ ht-degree: 99%
 | `placeContext.geo.stateProvince` | [미국 주](../../components/dimensions/us-states.md) 차원. |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 적용 [제품 구문](../vars/page-vars/products.md) 머천다이징에서 eVar로. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 적용 [제품 구문](../vars/page-vars/products.md) 이벤트 머천다이징. |
-| `productListItems[].lineItemId` | [범주](../../components/dimensions/category.md) 차원. |
-| `productListItems[].name` | [제품](../../components/dimensions/product.md) 차원. |
-| `productListItems[].priceTotal` | [매출](../../components/metrics/revenue.md) 지표를 확인하는 데 도움이 됩니다. |
-| `productListItems[].quantity` | [단위](../../components/metrics/units.md) 지표를 확인하는 데 도움이 됩니다. |
+| `productListItems[].lineItemId` | [범주](../../components/dimensions/category.md) 차원. 다음을 참조하십시오. [products](../vars/page-vars/products.md) 페이지 변수를 채우는 방법을 설명합니다. |
+| `productListItems[].name` | [제품](../../components/dimensions/product.md) 차원. 다음을 참조하십시오. [products](../vars/page-vars/products.md) 페이지 변수를 채우는 방법을 설명합니다. |
+| `productListItems[].priceTotal` | [매출](../../components/metrics/revenue.md) 지표를 확인하는 데 도움이 됩니다. 다음을 참조하십시오. [products](../vars/page-vars/products.md) 페이지 변수를 채우는 방법을 설명합니다. |
+| `productListItems[].quantity` | [단위](../../components/metrics/units.md) 지표를 확인하는 데 도움이 됩니다. 다음을 참조하십시오. [products](../vars/page-vars/products.md) 페이지 변수를 채우는 방법을 설명합니다. |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 구현 변수. |
 | `web.webInteraction.name` | `web.webInteraction.type`의 값에 따라 [사용자 지정 링크](../../components/dimensions/custom-link.md), [다운로드 링크](../../components/dimensions/download-link.md) 또는 [종료 링크](../../components/dimensions/exit-link.md) 차원. |
 | `web.webInteraction.type` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `other`(사용자 지정 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다. |
@@ -127,6 +117,12 @@ ht-degree: 99%
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
+<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
+<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
+<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
+<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
+<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## Analytics 변수에 다른 XDM 필드 매핑
 
