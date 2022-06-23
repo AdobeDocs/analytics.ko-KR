@@ -4,9 +4,9 @@ description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ ID 서비스는 Experience Cloud에 있는 다른 솔루션 간에 공유할 수
 
 ## 데이터를 브라우저에서 Adobe 서비스로 보내면 성능이 저하될 수 있습니까?
 
-AppMeasurement는 HTML 페이지 내에 이미지 개체를 만들며, 그렇게 되면 브라우저가 Adobe 데이터 수집 서버의 이미지 개체를 요청합니다. 데이터 수집 서버가 느려지거나 응답을 하지 않으면, 이미지가 반환되거나, 시간 초과가 발생할 때까지 해당 요청을 처리하는 스레드가 지연됩니다. 브라우저는 여러 스레드로 이미지를 처리하고, Adobe 중단이 페이지 로드 시간에 미치는 영향은 매우 작으므로, 다른 스레드가 계속 작동하는 동안 한 스레드를 연결 중입니다.
+AppMeasurement는 HTML 페이지 내에 이미지 개체를 만들며, 그렇게 되면 브라우저가 Adobe 데이터 수집 서버의 이미지 개체를 요청합니다. 데이터 수집 서버가 느려지거나 응답을 하지 않으면 이미지가 반환되거나, 시간 초과가 발생할 때까지 해당 요청을 처리하는 스레드가 지연됩니다. 브라우저는 여러 스레드로 이미지를 처리하고, Adobe 중단이 페이지 로드 시간에 미치는 영향은 매우 작으므로, 다른 스레드가 계속 작동하는 동안 한 스레드를 연결 중입니다.
 
 ## Analytics 구현을 무효화하거나 제거하려면 어떻게 합니까?
 
 조직이 계약 만료 때문에 또는 서버 호출 수를 줄이기 위해 구현을 제거하려는 경우가 있습니다.
 
-* **Adobe Experience Platform 데이터 수집을 사용한 구현**: 적용 가능한 Adobe Analytics, Web SDK 또는 Mobile SDK 확장 기능을 [!UICONTROL 확장] 탭을 클릭한 다음 게시합니다.
+* **Adobe Experience Platform 데이터 수집을 사용한 구현**: [!UICONTROL 확장] 해당 Adobe Analytics, Web SDK 또는 Mobile SDK 확장을 비활성화하거나 제거한 다음 게시합니다.
 * **이전 AppMeasurement 구현**: `s_code.js` 파일의 전체 콘텐츠를 다음 코드 줄로 바꿉니다.
 
 ```js
