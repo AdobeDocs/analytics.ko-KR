@@ -55,8 +55,8 @@ ht-degree: 93%
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 해당 [목록 Prop](../vars/page-vars/prop.md#list-props) 값을 포함하는 문자열 배열입니다. |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | 해당[목록 변수](../vars/page-vars/list.md)를 설정합니다. |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](../../components/dimensions/prop.md) 차원을 설정합니다. |
-| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. |
-| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 지정 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. |
+| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. |
+| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud ID 서비스 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR). |
 | `marketing.trackingCode` | [추적 코드](../../components/dimensions/tracking-code.md) 차원을 설정합니다. |
 | `media.mediaTimed.completes.value` | Media Analytics 지표 [콘텐츠 완료](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#content-complete). |
@@ -105,8 +105,8 @@ ht-degree: 93%
 | `productListItems[].priceTotal` | [매출](../../components/metrics/revenue.md) 지표를 확인하는 데 도움이 됩니다. 다음을 참조하십시오. [products](../vars/page-vars/products.md) 페이지 변수를 채우는 방법을 설명합니다. |
 | `productListItems[].quantity` | [단위](../../components/metrics/units.md) 지표를 확인하는 데 도움이 됩니다. 다음을 참조하십시오. [products](../vars/page-vars/products.md) 페이지 변수를 채우는 방법을 설명합니다. |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 구현 변수. |
-| `web.webInteraction.name` | `web.webInteraction.type`의 값에 따라 [사용자 지정 링크](../../components/dimensions/custom-link.md), [다운로드 링크](../../components/dimensions/download-link.md) 또는 [종료 링크](../../components/dimensions/exit-link.md) 차원. |
-| `web.webInteraction.type` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `other`(사용자 지정 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다. |
+| `web.webInteraction.name` | `web.webInteraction.type`의 값에 따라 [사용자 정의 링크](../../components/dimensions/custom-link.md), [다운로드 링크](../../components/dimensions/download-link.md) 또는 [종료 링크](../../components/dimensions/exit-link.md) 차원. |
+| `web.webInteraction.type` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다. |
 | `web.webPageDetails.URL` | [페이지 URL](../../components/dimensions/page-url.md) 차원. |
 | `web.webPageDetails.errorPage` | &#39;페이지를 찾을 수 없음&#39; [차원](../../components/dimensions/pages-not-found.md) 및 [지표](../../components/metrics/pages-not-found.md)를 결정하는 데 도움이 되는 플래그. |
 | `web.webPageDetails.name` | [페이지](../../components/dimensions/page.md) 차원. |
