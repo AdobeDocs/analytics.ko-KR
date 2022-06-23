@@ -3,9 +3,9 @@ title: Adobe Experience Platform Edge를 사용하여 Adobe Analytics 구현
 description: Adobe Analytics에서 Experience Platform의 XDM 데이터 사용 개요
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -15,6 +15,6 @@ Adobe Experience Platform Edge를 사용하면 여러 제품을 대상으로 한
 
 Adobe는 Experience Edge로 데이터를 전송하는 세 가지 주요 방법을 제공합니다.
 
-* **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Adobe Experience Platform 데이터 수집의 웹 SDK 확장을 사용하여 데이터를 Edge에 보냅니다.
-* **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Adobe Experience Platform 데이터 수집의 Mobile SDK 확장을 사용하여 데이터를 Edge에 보냅니다.
+* **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Adobe Experience Platform 데이터 수집 UI에서 Web SDK 확장을 사용하여 데이터를 Edge로 전송합니다.
+* **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Adobe Experience Platform 데이터 수집 UI에서 Mobile SDK 확장을 사용하여 데이터를 Edge로 전송합니다.
 * **[Edge Network Server API](edge-api/overview.md)**: API를 사용하여 데이터를 Edge로 직접 전송합니다.
