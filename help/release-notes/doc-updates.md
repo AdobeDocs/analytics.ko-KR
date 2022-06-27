@@ -4,10 +4,10 @@ description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
+source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
-source-wordcount: '3372'
-ht-degree: 96%
+source-wordcount: '3420'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ ht-degree: 96%
 | 날짜 | 설명 |
 | --- | --- |
 | **2022년 6월** |  |
+| Experience Platform Edge 설명서 | 를 통해 Adobe Analytics 구현에 대한 새로운 문서 [웹 SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en), 및 [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
 | 업데이트된 플로우 시각화 설명서 | 기준 [새 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
 | 모바일 스코어카드에서 주석 공유에 대한 설명서 | 표시할 수 있습니다 [작업 공간에서 만든 주석(모바일 스코어카드)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
-| Edge Collection을 사용한 머천다이징 변수의 제품 구문 버전에 대한 설명서 | 이제 관련 XDM 필드를 설정하여 제품 구문과 동등한 기능을 사용하여 머천다이징 변수를 설정할 수 있습니다. 머천다이징 변수의 제품 구문에 대한 자세한 내용을 살펴보십시오 [여기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ko). 제품 구문에 대한 매핑 을 참조하십시오 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| Edge Collection을 사용한 머천다이징 변수의 제품 구문 버전에 대한 설명서 | 이제 관련 XDM 필드를 설정하여 제품 구문과 동일한 기능을 사용한 머천다이징 변수를 설정할 수 있습니다. 머천다이징 변수의 제품 구문에 대한 자세한 내용을 [여기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)에서 확인하십시오. 제품 구문에 대한 매핑은 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge)를 참조하십시오. |
 | **2022년 5월** |  |
 | Experience Edge를 통해 라이프사이클 차원 및 지표 채우기 | Experience Edge를 통해 전송되는 모바일 라이프사이클 데이터가 이제 Analytics 보고에 표시됩니다. 기존 모바일 라이프사이클 보고에 매핑되는 XDM 필드에 대한 자세한 내용은 설명서를 참조하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **2022년 4월** |  |
@@ -54,7 +55,7 @@ ht-degree: 96%
 | 2021년 8월 18일 | [속성 모범 사례](/help/analyze/analysis-workspace/attribution/best-practices.md)에 대한 새 주제 |
 | 2021년 8월 5일 | [반복 인스턴스 계산](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=ko)에 대한 새 주제 |
 | 2021년 8월 5일 | [템플릿](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=ko), [브라우저 가져오기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ko) 및 [브라우저 내보내기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=ko)에 대한 분류 설명서를 업데이트하여 새 분류 아키텍처에 대해 활성화된 보고서 세트에 사용할 수 없는 옵션을 나타냅니다. |
-| 2021년 8월 2일 | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ko)의 브랜드 변경을 반영하도록 여러 페이지 업데이트 |
+| 2021년 8월 2일 | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)의 브랜드 변경을 반영하도록 여러 페이지 업데이트 |
 | **2021년 7월** |  |
 | 2021년 7월 23일 | [머천다이징 eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)에 대한 새로운 심층 토론 |
 | 2021년 7월 15일 | 새 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md)에 새 설명서 추가 |
