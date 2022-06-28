@@ -3,10 +3,10 @@ title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
+source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 78%
+source-wordcount: '600'
+ht-degree: 74%
 
 ---
 
@@ -28,6 +28,11 @@ ht-degree: 78%
 * 가격이 `productListItems[].priceTotal`.
 * 머천다이징 eVar가에 매핑됩니다 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, 제품에 연결할 eVar에 따라 다릅니다.
 * 머천다이징 이벤트가에 매핑됨 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, 제품에 연결할 이벤트에 따라 다릅니다.
+
+>[!NOTE]
+>
+>`lineItemId` 표준 Analytics 이벤트 스키마의 일부가 아니므로 사용자 지정 필드로 추가해야 합니다. 앞으로는 전용 &#39;카테고리&#39; 필드를 추가할 예정입니다.
+
 
 ## Adobe Analytics 확장을 사용하는 제품
 
