@@ -3,10 +3,10 @@ title: Adobe Analytics으로 마이그레이션하기 위한 FAQ
 description: 서드파티 플랫폼에서 Adobe로 이동할 때 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 조직에서 이전 데이터를 Adobe에 포팅하려는 의지가 확고한 경우에는 조직의 계정 관리자에게 문의하십시오. 구현 컨설턴트는 조직과 협력하여 Google Analytics 데이터 내보내기를 Adobe 데이터 수집 서버에서 수집할 수 있는 데이터 소스로 변환할 수 있습니다.
 
-이전 데이터를 새 플랫폼으로 이전하는 것은 복잡한 과정이며 조직에 너무 많은 비용 부담을 주기 때문에 Adobe에서는 권장하지 않습니다. 방문자 정보는 플랫폼마다 서로 다른 쿠키에 저장되고 서로 다른 형식으로 저장되므로 방문자 ID를 Adobe로 원활하게 옮길 수도 없습니다.
+이전 데이터를 이전하려면 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR) 모든 옴니채널 데이터 소스를 가져올 수 있습니다.
 
 **이전에는 많은 보고서에서 세그먼테이션 드롭다운을 사용했습니다. [!UICONTROL Analysis Workspace]에서 이를 다시 만들 수 있습니까?**
 
