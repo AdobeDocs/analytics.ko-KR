@@ -3,7 +3,7 @@ title: 분류 세트 작업 관리자
 description: 분류 세트에서 생성된 현재 및 완료된 분류 작업을 봅니다.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
 ht-degree: 100%
 
