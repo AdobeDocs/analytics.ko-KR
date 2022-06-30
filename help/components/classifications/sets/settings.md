@@ -3,7 +3,7 @@ title: 분류 세트 설정
 description: 분류 세트를 만들거나 편집합니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 이 구독에 대해 현재 구성된 분류 차원을 봅니다. 다음 버튼을 사용할 수 있습니다.
 
-* **[!UICONTROL 업로드]**: 하나 이상의 분류 차원에 대한 분류 데이터를 수동으로 업로드합니다. JSON, CSV, TSV 및 TAB 파일이 지원됩니다. 유효한 파일을 업로드하면 분류할 데이터의 테이블 미리 보기가 표시됩니다.
+* **[!UICONTROL 업로드]**: 하나 이상의 분류 차원에 대한 분류 데이터를 수동으로 업로드합니다. JSON, CSV, TSV 및 TAB 파일이 지원됩니다. 유효한 파일을 업로드하면 분류할 데이터의 테이블 미리보기가 표시됩니다.
    * **[!UICONTROL 파일 인코딩]**: 이 드롭다운을 사용하여 올바른 파일 인코딩을 선택합니다. 유효한 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다.
    * **[!UICONTROL 목록 구분 기호]**: 올바른 목록 구분 기호를 선택합니다. 다운로드한 파일 또는 템플릿 파일을 사용하는 경우, [!UICONTROL 목록 구분 기호]가 파일을 다운로드할 때의 [!UICONTROL 목록 구분 기호]와 일치하는지 확인하십시오.
    * **[!UICONTROL 적용]**: 업로드한 분류 데이터를 분류 세트에 저장합니다.
