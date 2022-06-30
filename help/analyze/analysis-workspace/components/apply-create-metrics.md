@@ -4,36 +4,42 @@ title: Analysis Workspace의 지표
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 23%
 
 ---
 
 # 지표
 
-Analysis Workspace에서 지표를 사용하는 두 가지 방법이 있습니다.
+지표를 사용하면 Analysis Workspace의 데이터 포인트를 수량화할 수 있습니다. 이 프로젝트들은 시각화에서 열로 일반적으로 사용되고 차원에 연결됩니다.
 
-* [!UICONTROL 구성 요소] 메뉴에서 다음 테이블로 표준 지표, 계산된 지표 또는 계산된 지표 템플릿을 드래그할 수 있습니다.
+Adobe은 Analysis Workspace에서 사용할 몇 가지 유형의 지표를 제공합니다.
 
-   ![](assets/metrics_icons.png)
+* **표준 지표**: 프로젝트에서 사용하는 대부분의 지표는 표준 지표입니다. 해당 예는 다음과 같습니다 [페이지 보기 수](/help/components/metrics/page-views.md), [매출](/help/components/metrics/revenue.md), 또는 [사용자 지정 이벤트](/help/components/metrics/custom-events.md). 자세한 내용은 [지표 개요](/help/components/metrics/overview.md) 자세한 내용은 구성 요소 사용 안내서에서 를 참조하십시오.
 
-   >[!NOTE]
-   >
-   >이 방법은 간단해 보이지만 지표 사용은 매우 강력합니다. 적절한 지표를 테이블의 지표 섹션으로 드래그하여 보고서에 지표를 추가할 수 있습니다. 지표를 기준으로 차원을 분류하여 테이블 보기를 미세하게 제어할 수도 있습니다. 또한 지표를 차원으로 삽입하고 차원을 지표로 삽입하여 기간 보고서를 만들 수도 있습니다. 다양한 구성 요소로 여러 가지 시도를 하여 가능한 작업을 확인해 보십시오. 가능성은 무한합니다.
+   ![표준 지표](assets/standard-metric.png)
 
-* 또는 **[!UICONTROL 구성 요소]** > **[!UICONTROL 새 지표]**&#x200B;를 클릭할 수 있습니다. 이 경우 기존 지표에서 사용자 지정 지표를 작성할 수 있는 [계산된 지표 빌더](/help/components/c-calcmetrics/cm-overview.md)로 이동합니다.
+* **계산된 지표**: 표준 지표, 정적 숫자 또는 알고리즘 함수를 기반으로 하는 사용자 정의 지표. 사용자 정의 계산된 지표는 사용 가능한 구성 요소 목록에 계산기 아이콘을 표시합니다. 자세한 내용은 [계산된 지표 개요](/help/components/c-calcmetrics/cm-overview.md) 자세한 내용은 구성 요소 사용 안내서에서 를 참조하십시오.
 
-다음은 자유 양식 표에서 메트릭 작업하기에 대한 비디오입니다.
+   ![계산된 지표](assets/calculated-metric.png)
+
+* **계산된 지표 템플릿**: 계산된 지표와 유사하게 동작하는 Adobe 정의 지표. 작업 공간 프로젝트에서 그대로 사용하거나 복사본을 저장하여 해당 논리를 사용자 지정할 수 있습니다. 계산된 지표 템플릿은 사용 가능한 구성 요소 목록에 Adobe 아이콘을 표시합니다.
+
+   ![계산된 지표 템플릿](assets/calculated-metric-template.png)
+
+지표는 Analysis Workspace 내에서 사용할 수 있습니다. 지표를 빈 자유 형식 테이블로 끌어다 놓아 프로젝트의 날짜 기간 동안의 해당 지표 트렌드를 확인합니다. 차원이 있을 때 지표를 드래그하여 각 차원 항목과 비교하여 해당 지표를 확인할 수도 있습니다. 기존 지표 헤더 위로 지표를 드래그하면 지표가 대체되고, 헤더 옆에 지표를 드래그하면 두 지표를 나란히 볼 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
 ## 계산된 지표
 
-계산된 지표를 더 빠르고 쉽게 생성할 수 있도록 **[!UICONTROL 선택 항목으로 지표 만들기]**&#x200B;가 자유 형식 테이블의 열 마우스 오른쪽 버튼 클릭 메뉴에 추가되었습니다. 이 선택 사항은 머리글 열 셀을 하나 이상 선택하면 표시됩니다.
+계산된 지표를 사용하면 간단한 연산자 또는 통계 함수를 사용하여 지표가 어떻게 서로 관련되는지를 쉽게 볼 수 있습니다. 다음 몇 가지 방법으로 계산된 지표를 만들 수 있습니다.
 
-![](assets/calc_metrics.png)
+* 왼쪽의 구성 요소 목록 아래에 있는 지표 헤더 옆에 있는 더하기 아이콘을 클릭합니다.
+* 다음으로 이동 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]** > **[!UICONTROL 추가]**.
+* 열 헤더를 마우스 오른쪽 단추로 클릭 > **[!UICONTROL 선택 항목에서 지표 만들기]** 머리글 열 셀을 하나 이상 선택한 경우 이 옵션은 계산된 지표 규칙 빌더를 사용하지 않아도 자동으로 계산된 지표를 만듭니다.
 
 [계산된 지표: 구현 불가 지표](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ko-KR)  (3:42)
 
