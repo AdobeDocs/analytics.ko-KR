@@ -3,7 +3,7 @@ title: 분류 세트 설정
 description: 분류 세트를 만들거나 편집합니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 100%
 
