@@ -3,14 +3,16 @@ title: 옵트아웃 이유 추적
 description: 개인 정보 설정을 활성화하면 제외할 데이터를 미리 봅니다.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-source-git-commit: 4c896fe930b52e440f8b91725fa6451faaa76fc8
+source-git-commit: b7209b914695423099266f5c507eaa34c2b98bc5
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 7%
+source-wordcount: '262'
+ht-degree: 9%
 
 ---
 
 # 옵트아웃 이유 추적
+
+*이 페이지는 특정 보고서 세트 설정을 활성화하면 영향을 받을 수 있는 차원을 참조합니다. 와 관련이 없습니다 [Adobe Experience Cloud ID 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR).*
 
 옵트아웃 이유 추적 차원은 개인 정보 설정을 활성화한 경우 제외되는 데이터에 대한 미리 보기 역할을 합니다. 이 차원은 주로 활성화한 경우 구현이 부정적인 영향을 받는지 확인하는 데 사용됩니다 [개인 정보 설정](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) 보고서 세트 설정에서 을 선택합니다.
 
