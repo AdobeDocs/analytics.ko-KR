@@ -4,10 +4,10 @@ description: 개별 제품에 연결된 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
+source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 75%
+source-wordcount: '523'
+ht-degree: 73%
 
 ---
 
@@ -80,7 +80,7 @@ XDM 구조:
 Analytics에 전달된 결과 &#39;제품&#39; 매개 변수:
 
 ```js
-pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
 ```
 
 ## 전환 변수 구문을 사용한 구현
@@ -107,6 +107,8 @@ s.products = ";Canary";
 
 Analytics 필드에 매핑된 XDM 필드를 사용하여 동일한 정보를 지정할 수 있습니다. XDM에서 Analytics 매개 변수로의 모든 매핑 목록을 볼 수 있습니다 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). 위의 예를 보여주는 XDM 미러링은 다음과 같습니다.
 
+동일하거나 이전 이벤트 호출에서 eVar을 설정합니다.
+
 ```js
                   "_experience": {
                       "analytics": {
@@ -116,7 +118,12 @@ Analytics 필드에 매핑된 XDM 필드를 사용하여 동일한 정보를 지
                               }
                           }
                       }
-                  },
+                  }
+```
+
+제품 문자열에 대한 바인딩 이벤트 및 값을 설정합니다.
+
+```js
                   "commerce": {
                       "productViews" : {
                           "value" : 1
