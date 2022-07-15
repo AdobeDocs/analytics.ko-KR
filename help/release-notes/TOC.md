@@ -5,7 +5,7 @@ user-guide-title: Analytics 릴리스 정보
 breadcrumb-title: 릴리스 정보
 user-guide-description: 새로운 기능 및 버그 수정 설명 목록입니다.
 source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 100%
 

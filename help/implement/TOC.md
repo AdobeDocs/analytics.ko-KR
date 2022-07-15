@@ -5,7 +5,7 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: '수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다. '
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
