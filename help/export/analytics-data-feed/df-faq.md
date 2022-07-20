@@ -4,10 +4,10 @@ keywords: 데이터 피드, 작업, 이전 열, 이후 열, 대소문자 구분
 title: 데이터 피드 FAQ
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 98%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ Amazon S3에 대한 일반적인 사용 사례는 AWS (Amazon 웹 서비스) 계
 
 >[!NOTE]
 >
->[!DNL Analytics]는 버킷 소유자에게 새 개체에 대한 모든 권한을 부여해야 하는 정책이 있는지 또는 버킷 소유자가 데이터를 작성하는 사용자와 다른 계정에 있는지 여부를 확인하지 않습니다. 대신 [!DNL Analytics]는 피드를 업로드할 때마다 버킷 소유자를 BucketOwnerFullControl ACL에 자동으로 추가합니다.
+>Adobe Analytics은 버킷에 새 개체를 전체 제어할 수 있도록 버킷 소유자에게 필요한 정책이 있는지, 또는 버킷 소유자가 데이터를 작성하는 사용자와 다른 계정에 있더라도 버킷에 대한 권한을 부여해야 하는지 여부를 확인하지 않습니다. 대신 Analytics는 버킷 소유자를 `BucketOwnerFullControl` 각 피드 업로드가 있는 ACL입니다.
+

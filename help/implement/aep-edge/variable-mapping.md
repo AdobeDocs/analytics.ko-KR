@@ -2,10 +2,10 @@
 title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 100%
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -15,14 +15,13 @@ ht-degree: 100%
 
 | XDM 필드 패스 | Analytics 차원 및 설명 |
 | --- | --- |
-| `application.id` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions). |
 | `application.isClose` | 모바일 지표 [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics)을 정의하는 데 도움이 됩니다. |
 | `application.isInstall` | 모바일 지표 [첫 실행](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
 | `application.isLaunch` | 모바일 지표 [첫 실행](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
 | `application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) 지표를 설정하는 데 도움이 됩니다. |
 | `application.isInstall` | 모바일 지표 [설치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | 모바일 지표 [런치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.name` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)를 설정하는 데 도움이 됩니다. |
+| `application.name` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions)를 설정하는 데 도움이 됩니다. |
 | `application.isUpgrade` | 모바일 지표 [업그레이드](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.version` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)를 설정하는 데 도움이 됩니다. |
 | `application.sessionLength` | 모바일 지표 [이전 세션 길이](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -128,7 +127,7 @@ ht-degree: 100%
 
 ## Analytics 변수에 다른 XDM 필드 매핑
 
-Adobe Analytics에 추가할 차원 또는 지표가 있는 경우 [컨텍스트 데이터 변수](../vars/page-vars/contextdata.md)를 통해 추가할 수 있습니다. 모든 XDM 필드 요소는 접두사 `a.x`를 사용하여 컨텍스트 데이터로 Adobe Analytics에 전송됩니다. 그런 다음 [처리 규칙](../../admin/admin/c-processing-rules/processing-rules.md)을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다. 예를 들어 다음 이벤트를 전송하는 경우:
+Adobe Analytics에 추가할 차원 또는 지표가 있는 경우 [컨텍스트 데이터 변수](../vars/page-vars/contextdata.md)를 통해 추가할 수 있습니다. 자동으로 매핑되지 않는 모든 XDM 필드 요소는 접두사 a.x가 있는 컨텍스트 데이터로 Adobe Analytics에 전송됩니다. 그런 다음 을 사용하여 이 컨텍스트 데이터 변수를 원하는 Analytics 변수에 매핑할 수 있습니다 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=ko-KR). 예를 들어 다음 이벤트를 전송하는 경우:
 
 ```js
 alloy("event",{
