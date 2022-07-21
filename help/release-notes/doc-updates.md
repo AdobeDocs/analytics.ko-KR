@@ -4,10 +4,10 @@ description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
+source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 100%
+source-wordcount: '3448'
+ht-degree: 99%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
 | 날짜 | 설명 |
 | --- | --- |
 | **2022년 6월** |  |
+| Edge Collection용 XDM의 머천다이징 변수 | 에 대한 설명서 [Edge Collection용 XDM의 머천다이징 변수 지원](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
 | Experience Platform Edge 설명서 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en) 및 [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en)를 통한 Adobe Analytics 구현에 대한 새로운 문서 |
 | 업데이트된 흐름 시각화 설명서 | [새 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=kr)를 기반으로 함 |
 | 모바일 스코어카드에서 주석 공유에 대한 설명서 | [모바일 스코어카드에서 작업 영역에 생성된 주석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html)을 표시할 수 있습니다. |
