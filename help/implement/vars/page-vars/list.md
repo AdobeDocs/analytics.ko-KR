@@ -3,10 +3,10 @@ title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 85%
+source-wordcount: '368'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 85%
 ## 보고서 세트 설정에서 목록 변수 설정
 
 구현에서 목록 변수를 사용하기 전에 보고서 세트 설정에서 각 목록 변수를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/list-var-admin.md)를 참조하십시오.
-
-## 웹 SDK를 사용하여 변수 나열
-
-목록 변수는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.lists.list1` to `_experience.analytics.customDimensions.lists.list3`.
 
 ## Adobe Analytics 확장을 사용하여 변수 나열
 

@@ -3,9 +3,9 @@ title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '788'
 ht-degree: 84%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 84%
 * 사용자 지정 이벤트 1-100이 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * 사용자 지정 이벤트 101-200이 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
 * 이 패턴은 100개 이벤트마다 반복됩니다. `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* `eventx.value` 값을 지정하는 데 사용됩니다.
+* `eventx.id` 직렬화에 대한 id를 지정하는 데 사용됩니다.
 * 주문은 `commerce.purchases.value`.
 * 단위는 모두 합계에 매핑됩니다 `productListItems[].quantity` 필드.
 * 매출이 모두 합계에 매핑됩니다 `productListItems[].priceTotal` 필드.
