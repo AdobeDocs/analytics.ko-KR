@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: 작업을 완료하는 데 걸린 시간을 측정합니다.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 93%
+source-wordcount: '465'
+ht-degree: 97%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 93%
 
 `getTimeToComplete` 플러그인은 사용자가 사이트에서 프로세스를 완료하는 데 걸리는 시간을 추적합니다. 시계는 `start` 작업이 호출될 때 시작되고 `stop` 작업이 호출될 때 종료됩니다. 사이트에서 완료하는 데 시간이 걸리는 워크플로가 있고 방문자가 완료하는 데 걸리는 시간을 알고 싶은 경우 이 플러그인을 사용하는 것이 좋습니다. 세부 기간이 단 1초로만 줄어들기 때문에 사이트의 워크플로가 소요되는 시간이 짧은 경우 (3초 미만) 이 플러그인을 사용할 필요가 없습니다.
 
-## Web SDK 또는 Adobe Analytics 확장을 사용하여 플러그인 설치
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
-1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
-1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
-1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
-   * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
-1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
-   * 확장: 일반적인 Analytics 플러그인
-   * 작업 유형: getTimeToComplete 초기화
-1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getTimeToComplete
+1. Save and publish the changes to the rule.-->
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 

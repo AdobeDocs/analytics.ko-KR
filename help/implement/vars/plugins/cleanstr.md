@@ -3,9 +3,9 @@ title: cleanStr
 description: 문자열에서 모든 불필요한 문자를 제거하거나 바꿉니다.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '356'
 ht-degree: 79%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 79%
 
 `cleanStr` 플러그인은 HTML 태그 문자, 추가 공백, 탭, 줄바꿈/캐리지 리턴 등 문자열에서 불필요한 모든 문자를 제거하거나 대체합니다. 또한 왼쪽/오른쪽 작은 따옴표 (`‘` 및 `’`)를 곧은 작은 따옴표 (`'`)로 바꿉니다. Adobe은 변수 값에서 불필요한 문자를 제거하려 하는데 Adobe Experience Platform 데이터 컬렉션의 &#39;텍스트 정리&#39; 기능이 구현 요구 사항을 충족하지 않는 경우 이 플러그인을 사용하는 것이 좋습니다. 수집된 데이터에 불필요한 문자가 포함되어 있지 않거나 Adobe Experience Platform 데이터 컬렉션의 &#39;텍스트 정리&#39; 기능으로 충분한 경우 이 플러그인은 필요하지 않습니다.
 
-## Web SDK 또는 Adobe Analytics 확장을 사용하여 플러그인 설치
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
-1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
-1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
-1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
-   * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
-1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
-   * 확장: 일반적인 Analytics 플러그인
-   * 작업 유형: CleanStr 초기화
-1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize cleanStr
+1. Save and publish the changes to the rule.-->
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 

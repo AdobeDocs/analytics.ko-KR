@@ -3,10 +3,10 @@ title: 플러그인 개요
 description: 사이트에 코드를 붙여넣어 새로운 기능을 도입할 수 있습니다.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 95%
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 95%
 
 Adobe에서는 특정 플러그인을 설치하는 몇 가지 방법을 제공합니다.
 
-1. 웹 SDK 또는 Adobe Analytics 확장을 사용하여 &#39;일반 Analytics 플러그인&#39; 확장 사용
-2. 사용자 지정 코드 편집기를 사용하여 플러그인 코드 붙여넣기
-3. 플러그인 코드를 `AppMeasurement.js` 파일에 붙여넣기
+<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
+1. 사용자 지정 코드 편집기를 사용하여 플러그인 코드 붙여넣기
+1. 플러그인 코드를 `AppMeasurement.js` 파일에 붙여넣기
 
 각 조직에는 서로 다른 구현 요구 사항이 있으므로 구현에 이러한 요구 사항을 포함할 방법을 결정할 수 있습니다. 사이트에 코드를 포함할 때에는 다음 기준을 충족하는지 확인하십시오.
 

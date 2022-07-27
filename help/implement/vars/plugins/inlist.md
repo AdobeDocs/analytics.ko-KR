@@ -3,10 +3,10 @@ title: inList
 description: 값이 다른 문자로 구분된 값에 포함되어 있는지 확인합니다.
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 97%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 93%
 
 `inList` 플러그인을 사용하면 구분된 문자열 또는 JavaScript 배열 개체 내에 값이 이미 있는지 확인할 수 있습니다. 몇 가지 다른 플러그인은 `inList` 플러그인에 따라 다르게 작동합니다. 이 플러그인은 부분 문자열과 일치하지 않는 JavaScript 메서드 `indexOf()`에 비해 구별되는 이점을 제공합니다. 예를 들어 이 플러그인을 사용하여 `"event2"`를 확인한 경우 이 플러그인은 `"event25"`를 포함하는 문자열과 일치하지 않습니다. 구분 기호로 구분된 문자열 또는 배열의 값을 확인하지 않아도 되거나 자신만의 `indexOf()` 논리를 사용하려는 경우에는 이 플러그인이 필요하지 않습니다.
 
-## Web SDK 또는 Adobe Analytics 확장을 사용하여 플러그인 설치
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
-1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
-1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
-1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
-   * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
-1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
-   * 확장: 일반적인 Analytics 플러그인
-   * 작업 유형: InList 초기화
-1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize inList
+1. Save and publish the changes to the rule.-->
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 

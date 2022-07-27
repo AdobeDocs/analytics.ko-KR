@@ -3,10 +3,10 @@ title: getPageName
 description: 현재 웹 사이트 경로에서 읽기 쉬운 pageName을 만듭니다.
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '490'
+ht-degree: 97%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 94%
 
 `getPageName` 플러그인을 사용하면 현재 URL의 읽기 쉽고 친숙한 형식의 버전을 만들 수 있습니다. 보고 시 쉽게 설정하고 이해할 수 있는 [`pageName`](../page-vars/pagename.md) 값을 원하는 경우 이 플러그인을 사용하는 것이 좋습니다. 이 플러그인은 데이터 계층 사용과 같이 `pageName` 변수에 대한 이름 지정 구조를 이미 가지고 있는 경우에는 불필요하고, `pageName` 변수를 설정하는 다른 해결 방법이 없을 때 사용하는 것이 가장 좋습니다.
 
-## Web SDK 또는 Adobe Analytics 확장을 사용하여 플러그인 설치
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe는 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장 기능을 제공합니다.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
-1. 원하는 태그 속성을 클릭합니다.
-1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
-1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
-1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
-   * 조건: 없음
-   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
-1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
-   * 확장: 일반적인 Analytics 플러그인
-   * 작업 유형: getPageName 초기화
-1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageName
+1. Save and publish the changes to the rule.-->
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
