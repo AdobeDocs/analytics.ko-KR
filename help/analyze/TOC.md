@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analytics용 최고의 분석 및 시각화 도구인 Analysis Workspace에 대한 사용 방법 지침과 Adobe Analytics Dashboards, Report Builder, Activity Map과 같은 도구를 제공합니다.
-source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
+source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -73,20 +73,21 @@ ht-degree: 100%
          + [플로우 개요](analysis-workspace/visualizations/c-flow/flow.md)
          + [플로우 시각화 구성](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [차원 간 플로우](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [히스토그램](analysis-workspace/visualizations/histogram.md)
-      + [주요 지표 요약](analysis-workspace/visualizations/key-metric.md)
-      + [맵](analysis-workspace/visualizations/map-visualization.md)
-      + [벤](analysis-workspace/visualizations/venn.md)
       + [영역 및 스택 영역](analysis-workspace/visualizations/area.md)
       + [막대 및 스택 막대](analysis-workspace/visualizations/bar.md)
       + [글머리 기호 그래프](analysis-workspace/visualizations/bullet-graph.md)
+      + [콤보 차트](analysis-workspace/visualizations/combo-charts.md)
       + [도넛](analysis-workspace/visualizations/donut.md)
+      + [히스토그램](analysis-workspace/visualizations/histogram.md)
       + [가로 막대 및 스택 가로 막대](analysis-workspace/visualizations/horizontal-bar.md)
-      + [라인](analysis-workspace/visualizations/line.md)
+      + [주요 지표 요약](analysis-workspace/visualizations/key-metric.md)
+      + [선](analysis-workspace/visualizations/line.md)
+      + [맵](analysis-workspace/visualizations/map-visualization.md)
       + [산포도](analysis-workspace/visualizations/scatterplot.md)
       + [요약 번호 및 요약 변경 사항](analysis-workspace/visualizations/summary-number-change.md)
       + [텍스트](analysis-workspace/visualizations/text.md)
       + [트리 맵](analysis-workspace/visualizations/treemap.md)
+      + [벤](analysis-workspace/visualizations/venn.md)
    + 패널 {#panels}
       + [패널 개요](analysis-workspace/c-panels/panels.md)
       + [A4T (Analytics for Target) 패널](analysis-workspace/c-panels/a4t-panel.md)
