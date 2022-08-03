@@ -1,14 +1,13 @@
 ---
 description: 중요한 값이 다른 성능 범위 (목표)에 대해 비교되거나 측정되는 방식을 확인할 수 있도록 해 줍니다.
 title: 글머리 기호 그래프
-uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
