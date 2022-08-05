@@ -3,13 +3,13 @@ description: 지난 달, 지난 해 등에 대한 비교 작성과 같은 Analys
 title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 34%
 
 ---
-
 
 # 콤보 차트
 
@@ -47,8 +47,8 @@ ht-degree: 34%
    | 선 비교 유형 | 정의 |
    | --- | --- |
    | **[!UICONTROL 시간 비교]** | 가장 일반적인 비교 유형 - 이 기간을 4주 전에 비교하는 예를 들어, 선택한 경우 [!UICONTROL 시간 비교]을(를) 선택한 경우 비교할 기간을 기준으로 보조 선택을 합니다.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL 추가 지표]** | 예를 들어 다음과 같은 방법으로 비교할 수 있습니다 [!UICONTROL 매출] 다른 지표에 추가<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL 함수로 플러그인 호출]** | 다음과 같은 기능을 도입할 수 있습니다 [!UICONTROL 평균] 를 비교로 볼 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL 보조 지표]** | 예를 들어 다음과 같은 방법으로 비교할 수 있습니다 [!UICONTROL 매출] 다른 지표에 추가<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ ht-degree: 34%
 | **[!UICONTROL y축 0에 연결]** | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
 
 {style=&quot;table-layout:auto&quot;}
-
-
