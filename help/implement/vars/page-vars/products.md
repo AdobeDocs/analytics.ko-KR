@@ -3,9 +3,9 @@ title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 74%
 
 ---
@@ -31,8 +31,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->`lineItemId` 표준 Analytics 이벤트 스키마의 일부가 아니므로 사용자 지정 필드로 추가해야 합니다. 앞으로는 전용 &#39;카테고리&#39; 필드를 추가할 예정입니다.
-
+>`lineItemId` 아직 표준 Analytics 이벤트 스키마의 일부가 아니므로 사용자 지정 필드로 추가해야 합니다. Adobe은 향후 전용 &#39;카테고리&#39; 필드를 추가할 계획입니다.
 
 ## Adobe Analytics 확장을 사용하는 제품
 

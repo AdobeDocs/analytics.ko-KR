@@ -4,10 +4,10 @@ description: 개별 제품에 연결된 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 73%
+source-wordcount: '510'
+ht-degree: 76%
 
 ---
 
@@ -42,46 +42,45 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 `eVar1`에 대한 값이 제품에 지정됩니다. 이 제품과 관련된 이후의 모든 성공 이벤트는 eVar 값에 반영됩니다.
 
-### Edge Collection에 XDM 사용
+### 웹 SDK를 사용하는 제품 구문
 
-제품 변수의 각 필드는 해당 XDM 필드로 채워집니다. XDM에서 Analytics 매개 변수로의 모든 매핑 목록을 볼 수 있습니다 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). 다음은 productListItems XDM 필드를 결합하여 제품 변수를 만드는 방법을 보여 주는 예입니다.
+제품 구문 머천다이징 변수는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 다른 XDM 필드 아래에 있습니다.
 
-XDM 구조:
+* 제품 구문 머천다이징 eVar는 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* 제품 구문 머천다이징 이벤트는 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [이벤트 정리](events/event-serialization.md) XDM 필드는 `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+다음 예는 단일 [product](products.md) 여러 머천다이징 eVar 및 이벤트 사용:
 
 ```js
-              "productListItems": [
-                    {
-                        "name": "Bahama Shirt",
-                        "priceTotal": "12.99",
-                        "quantity": 3,
-                        "_experience": {
-                            "analytics": {
-                                "customDimensions" : {
-                                    "eVars" : {
-                                        "eVar10" : "green",
-                                        "eVar33" : "large"
-                                    }
-                                },
-                                "event1to100" : {
-                                    "event4" : {
-                                        "value" : 1
-                                    },
-                                    "event10" : {
-                                        "value" : 2,
-                                        "id" : "abcd"
-                                    }
-                                }
-                            }
-                        }
+"productListItems": [
+    {
+        "name": "Bahama Shirt",
+        "priceTotal": "12.99",
+        "quantity": 3,
+        "_experience": {
+            "analytics": {
+                "customDimensions" : {
+                    "eVars" : {
+                        "eVar10" : "green",
+                        "eVar33" : "large"
                     }
-                ]
+                },
+                "event1to100" : {
+                    "event4" : {
+                        "value" : 1
+                    },
+                    "event10" : {
+                        "value" : 2,
+                        "id" : "abcd"
+                    }
+                }
+            }
+        }
+    }
+]
 ```
 
-Analytics에 전달된 결과 &#39;제품&#39; 매개 변수:
-
-```js
-pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
-```
+위의 예제 객체는 다음과 같이 Adobe Analytics에 전송됩니다 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
 ## 전환 변수 구문을 사용한 구현
 
@@ -103,35 +102,35 @@ s.products = ";Canary";
 * eVar 만료 (&#39;다음 시기 이후에 만료&#39; 설정에 따름)
 * 머천다이징 eVar가 새로운 값으로 덮어쓰기됨.
 
-### Edge Collection에 XDM 사용
+### 웹 SDK를 사용하는 전환 변수 구문
 
-Analytics 필드에 매핑된 XDM 필드를 사용하여 동일한 정보를 지정할 수 있습니다. XDM에서 Analytics 매개 변수로의 모든 매핑 목록을 볼 수 있습니다 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). 위의 예를 보여주는 XDM 미러링은 다음과 같습니다.
+웹 SDK를 사용하는 전환 변수 구문은 다른 구현 시 유사하게 작동합니다 [eVar](evar.md) 및 [events](events/events-overview.md). 위의 예를 보여주는 XDM 미러링은 다음과 같습니다.
 
 동일하거나 이전 이벤트 호출에서 eVar을 설정합니다.
 
 ```js
-                  "_experience": {
-                      "analytics": {
-                          "customDimensions": {
-                              "eVars": {
-                                  "eVar1" : "Aviary"
-                              }
-                          }
-                      }
-                  }
+"_experience": {
+    "analytics": {
+        "customDimensions": {
+            "eVars": {
+                "eVar1" : "Aviary"
+            }
+        }
+    }
+}
 ```
 
 제품 문자열에 대한 바인딩 이벤트 및 값을 설정합니다.
 
 ```js
-                  "commerce": {
-                      "productViews" : {
-                          "value" : 1
-                      }
-                  },
-                  "productListItems": [
-                      {
-                          "name": "Canary"
-                      }
-                  ]
+"commerce": {
+    "productViews" : {
+        "value" : 1
+    }
+},
+"productListItems": [
+    {
+        "name": "Canary"
+    }
+]
 ```
