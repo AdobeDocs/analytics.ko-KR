@@ -3,10 +3,10 @@ title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 74%
+source-wordcount: '611'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 74%
 제품은 다음과 같습니다 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드에서 다음을 수행합니다.
 
 * 카테고리가 `productListItems[].lineItemId`.
-* 제품이 `productListItems[].name`.
+* 제품이 `productListItems[].SKU` 또는 `productListItems[].name`. 두 XDM 필드가 모두 있으면 `productListItems[].SKU` 이 사용됩니다.
 * 수량이 매핑된 경우 `productListItems[].quantity`.
 * 가격이 `productListItems[].priceTotal`.
 * 머천다이징 eVar가에 매핑됩니다 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, 제품에 연결할 eVar에 따라 다릅니다.
