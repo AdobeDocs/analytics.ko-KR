@@ -3,20 +3,16 @@ title: 데이터 계층 만들기
 description: Analytics 구현에서 데이터 계층이 무엇이고 Adobe Analytics에서 이 데이터 계층을 사용하여 변수를 매핑하는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 92%
+source-wordcount: '514'
+ht-degree: 63%
 
 ---
 
 # 데이터 계층 만들기
 
-데이터 계층은 구현에 사용된 모든 변수 값을 포함하는 사이트의 JavaScript 개체의 프레임워크로서, 구현을 보다 세밀하게 제어하고 쉽게 유지 관리할 수 있습니다.
-
-다음은 데이터 계층 사용에 대한 비디오입니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+데이터 계층은 Analytics 구현에 사용된 변수 값을 포함하는 사이트의 JavaScript 개체의 프레임워크입니다. 이 기능을 사용하면 Analytics 변수에 값을 할당할 때 보다 세밀하게 제어할 수 있고 보다 쉽게 유지 관리할 수 있습니다.
 
 ## 전제 조건
 
@@ -31,145 +27,18 @@ ht-degree: 92%
    >[!NOTE]
    >
    >다음의 Adobe 권장 데이터 계층 사양은 선택 사항입니다. 이미 데이터 계층이 있거나 Adobe의 사양을 따르지 않기로 선택하는 경우, 따로 따라야 할 사양을 조직이 충족하도록 해야 합니다.
-1. **브라우저 콘솔을 사용하여 데이터 계층의 유효성 검사**: 데이터 계층이 만들어지면 브라우저의 개발자 콘솔을 사용하여 데이터 계층이 작동하는지 확인할 수 있습니다. `F12` 키를 사용하면 대부분의 브라우저에서 개발자 콘솔을 열 수 있습니다. 변수 값의 예는 `digitalData.page.pageInfo.pageID`입니다.
-1. **Adobe Experience Platform 데이터 수집을 사용하여 데이터 계층 개체를 데이터 요소에 매핑**: Adobe Experience Platform 데이터 수집에서 데이터 요소를 만들고 데이터 계층에 요약된 JavaScript 속성에 매핑합니다.
-1. **Adobe Analytics 태그 확장을 사용하여 데이터 요소를 Analytics 변수에 매핑**: 솔루션 디자인 문서에 따라 각 데이터 요소를 적합한 Analytics 변수에 할당합니다.
+1. **브라우저 콘솔을 사용하여 데이터 계층의 유효성 검사**: 데이터 계층이 만들어지면 브라우저의 개발자 콘솔을 사용하여 데이터 계층이 작동하는지 확인할 수 있습니다. `F12` 키를 사용하면 대부분의 브라우저에서 개발자 콘솔을 열 수 있습니다. 변수 값의 예는 `adobeDataLayer.page.title`입니다.
+1. **Adobe Experience Platform 데이터 수집을 사용하여 데이터 계층 개체를 데이터 요소에 매핑**: 이 단계는 조직의 구현 방법에 따라 다릅니다.
+   * **웹 SDK를 사용하는 경우**: 원하는 데이터 레이어 개체를 Adobe Experience Platform Edge의 원하는 XDM 필드에 매핑합니다. 자세한 내용은 [Analytics 변수 매핑](../aep-edge/variable-mapping.md) 원하는 데이터 레이어 매핑을 확인하려면 다음을 수행하십시오.
+   * **Analytics 확장을 사용하는 경우**: Adobe Experience Platform 데이터 컬렉션의 태그에서 데이터 요소를 만들고 원하는 데이터 레이어 개체에 지정합니다. 그런 다음 Analytics 확장 내에서 각 데이터 요소를 적절한 Analytics 변수에 지정합니다.
 
 ## 사양
 
-[고객 경험 디지털 데이터 커뮤니티 그룹](https://www.w3.org/community/custexpdata/)에 의해 요약된 [고객 경험 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf)을 따르는 것이 좋습니다. 데이터 계층 요소가 Adobe Analytics와 상호 작용하는 방법을 이해하려면 다음 섹션을 사용하십시오.
+Adobe은 [Adobe 클라이언트 데이터 레이어](https://github.com/adobe/adobe-client-data-layer/wiki) 를 사용하도록 설정되지 않았습니다.
 
-사용할 권장 데이터 계층 개체는 `digitalData`입니다. 다음 예에서는 값 예와 함께 다소 포괄적인 데이터 계층 JSON 개체를 나열합니다.
+조직은 다음과 같은 다른 데이터 계층 사양을 자유롭게 사용할 수 있습니다. [Customer Experience 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf)또는 완전히 다른 사용자 지정 데이터 계층 입니다. 조직의 요구 사항을 충족하는 일관된 데이터 계층에 정렬하는 것이 가장 중요합니다.
 
-```js
-digitalData = {
-    pageInstanceID: "Example page - production",
-    page: {
-        pageInfo: {
-            pageID: "5093",
-            pageName: "Example page",
-            destinationURL: "https://example.com/index.html",
-            referringURL: "https://example.com/referrer.html",
-            sysEnv: "desktop",
-            variant: "2",
-            version: "1.14",
-            breadCrumbs: ["Home","Example group","Example page"],
-            author: "J Smith",
-            issueDate: "Example date",
-            effectiveDate: "Example date",
-            expiryData: "Example date",
-            language: "en-US",
-            geoRegion: "US",
-            industryCodes: "Example industry codes",
-            publisher: "Example publisher"
-        },
-        category: {
-            primaryCategory: "Example page category",
-            subCategory: "Sub-category example"
-        },
-        attributes: {
-            country: "US",
-            language: "en-US"
-        }
-    },
-    product: [{
-        productInfo: {
-            productID: "4859",
-            productName: "Example product",
-            description: "Example description",
-            productURL: "https://example.com/product.html",
-            productImage: "https://example.com/product_image.png",
-            productThumbnail: "https://example.com/product_thumbnail.png",
-            manufacturer: "Example manufacturer",
-            quantity: 1,
-            size: "Product size"
-        },
-        category: {
-            primaryCategory: "Example product category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    cart: {
-        cartID: "934856",
-        price: {
-            basePrice: 200.00,
-            voucherCode: "EXAMPLEVOUCHER1",
-            voucherDiscount: 0.50,
-            currency: "USD",
-            taxRate: 0.20,
-            shipping: 5.00,
-            shippingMethod: "UPS",
-            priceWithTax: 120,
-            cartTotal: 125
-        }
-    },
-    transaction: {
-        transactionID: "694025",
-        profile: {
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com"
-            },
-            address: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            },
-            shippingAddress: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            }
-        }
-    },
-    event: [{
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    component: [{
-        componentInfo: {
-            componentID: "4921",
-            componentName: "Example component"
-        },
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    user: [{
-        segment: "Premium membership",
-        profile: [{
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com",
-                language: "en-US",
-                returningStatus: "New"
-            },
-            social: {
-                facebook: "examplefacebookid",
-                twitter: "exampletwitterhandle"
-            }
-        }]
-    }],
-    privacy: {
-        accessCategories: [{
-            categoryName: "Default",
-            domains: "adobedtm.com"
-        }]
-    },
-    version: "1.0"
-}
-```
+
 
 각 개체 및 하위 개체에 대해 자세히 알려면 [고객 경험 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf) 보고서를 사용하십시오. 일부 사이트에서는 모든 개체를 사용하지 않습니다. 예를 들어 뉴스 사이트를 호스팅하는 경우 `digitalData.product` 개체 배열을 사용하지 않을 가능성이 높습니다.
 
