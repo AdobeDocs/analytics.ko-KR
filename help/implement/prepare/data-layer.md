@@ -3,10 +3,10 @@ title: 데이터 계층 만들기
 description: Analytics 구현에서 데이터 계층이 무엇이고 Adobe Analytics에서 이 데이터 계층을 사용하여 변수를 매핑하는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ ht-degree: 63%
 
 Adobe은 [Adobe 클라이언트 데이터 레이어](https://github.com/adobe/adobe-client-data-layer/wiki) 를 사용하도록 설정되지 않았습니다.
 
-조직은 다음과 같은 다른 데이터 계층 사양을 자유롭게 사용할 수 있습니다. [Customer Experience 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf)또는 완전히 다른 사용자 지정 데이터 계층 입니다. 조직의 요구 사항을 충족하는 일관된 데이터 계층에 정렬하는 것이 가장 중요합니다.
-
-
-
-각 개체 및 하위 개체에 대해 자세히 알려면 [고객 경험 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf) 보고서를 사용하십시오. 일부 사이트에서는 모든 개체를 사용하지 않습니다. 예를 들어 뉴스 사이트를 호스팅하는 경우 `digitalData.product` 개체 배열을 사용하지 않을 가능성이 높습니다.
+조직은 다음과 같은 다른 데이터 계층 사양을 자유롭게 사용할 수 있습니다. [Customer Experience 디지털 데이터 계층](https://www.w3.org/2013/12/ceddl-201312.pdf)또는 완전히 다른 사용자 지정 사양을 사용해야 합니다. 조직의 요구 사항을 충족하는 일관된 데이터 계층에 정렬하는 것이 가장 중요합니다.
 
 데이터 계층은 확장 가능합니다. 조직만의 고유한 요구 사항이 있다면 해당 요구 사항에 맞게 데이터 계층에 개체를 포함할 수 있습니다.
 
