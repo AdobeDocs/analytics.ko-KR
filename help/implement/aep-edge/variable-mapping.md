@@ -3,9 +3,9 @@ title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1381'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 97%
 | XDM 필드 패스 | Analytics 차원 및 설명 |
 | --- | --- |
 | `application.isClose` | 모바일 지표 [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics)을 정의하는 데 도움이 됩니다. |
-| `application.isInstall` | 모바일 지표 [첫 실행](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
-| `application.isLaunch` | 모바일 지표 [첫 실행](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
-| `application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) 지표를 설정하는 데 도움이 됩니다. |
-| `application.isInstall` | 모바일 지표 [설치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | 모바일 지표 [런치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isInstall` | 모바일 지표 [첫 실행](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
+| `application.isLaunch` | 모바일 지표 [첫 실행](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
+| `application.closeType` | 닫기 이벤트가 충돌인지 여부를 결정합니다. 유효한 값은 `close`(라이프사이클 세션이 종료되고 이전 세션에 대해 일시 중지 이벤트가 수신됨) 및 `unknown`(라이프사이클 세션이 일시 중지 이벤트 없이 종료됨)입니다. [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics) 지표를 설정하는 데 도움이 됩니다. |
+| `application.isInstall` | 모바일 지표 [설치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics). |
+| `application.isLaunch` | 모바일 지표 [런치](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics). |
 | `application.name` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions)를 설정하는 데 도움이 됩니다. |
-| `application.isUpgrade` | 모바일 지표 [업그레이드](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.version` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)를 설정하는 데 도움이 됩니다. |
-| `application.sessionLength` | 모바일 지표 [이전 세션 길이](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isUpgrade` | 모바일 지표 [업그레이드](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics). |
+| `application.version` | 모바일 차원 [앱 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions)를 설정하는 데 도움이 됩니다. |
+| `application.sessionLength` | 모바일 지표 [이전 세션 길이](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics). |
 | `commerce.checkouts.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [체크아웃](../../components/metrics/checkouts.md) 지표에 적용합니다. |
 | `commerce.checkouts.value` | 원하는 수량만큼 [체크아웃](../../components/metrics/checkouts.md) 지표를 증가시킵니다. |
 | `commerce.order.currencyCode` | [currencyCode](../vars/config-vars/currencycode.md) 구성 변수를 설정합니다. |
@@ -40,7 +40,7 @@ ht-degree: 97%
 | `commerce.productViews.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 [제품 보기](../../components/metrics/product-views.md) 지표에 적용합니다. |
 | `commerce.productViews.value` | [제품 보기](../../components/metrics/product-views.md) 지표를 증가시킵니다. |
 | `commerce.purchases.value` | [주문](../../components/metrics/orders.md) 지표를 증가시킵니다. |
-| `device.model` | 모바일 차원 [디바이스 이름](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `device.model` | 모바일 차원 [디바이스 이름](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions). |
 | `device.colorDepth` | [색상 깊이](../../components/dimensions/color-depth.md) 차원을 설정하는 데 도움이 됩니다. |
 | `device.screenHeight` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. |
 | `device.screenWidth` | [모니터 해상도](../../components/dimensions/monitor-resolution.md) 차원을 설정하는 데 도움이 됩니다. |
@@ -51,16 +51,16 @@ ht-degree: 97%
 | `environment.browserDetails.userAgent` | 대체 [고유한 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `User-Agent` HTTP 요청 헤더를 사용하여 채워집니다. 보고서에서 이 필드를 사용하려는 경우 이 필드를 eVar에 매핑할 수 있습니다. |
 | `environment.browserDetails.viewportHeight` | [브라우저 높이](../../components/dimensions/browser-height.md) 차원을 설정합니다. |
 | `environment.browserDetails.viewportWidth` | [브라우저 너비](../../components/dimensions/browser-width.md) 차원을 설정합니다. |
-| `environment.carrier` | 모바일 차원 [통신사 이름](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.carrier` | 모바일 차원 [통신사 이름](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions). |
 | `environment.connectionType` | [연결 유형](../../components/dimensions/connection-type.md) 차원을 설정하는 데 도움이 됩니다. |
 | `environment.ipV4` | 대체 [고유한 방문자](../../components/metrics/unique-visitors.md) 식별 방법으로 사용됩니다 일반적으로 `X-Forwarded-For` HTTP 헤더를 사용하여 채워집니다. |
 | `environment.language` | 모바일 차원 로케일. |
-| `environment.operatingSystem` | 모바일 차원 [운영 체제](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.operatingSystemVersion` | [운영 체제 버전](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) 차원을 설정하는 데 도움이 됩니다. |
+| `environment.operatingSystem` | 모바일 차원 [운영 체제](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions). |
+| `environment.operatingSystemVersion` | [운영 체제 버전](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#dimensions) 차원을 설정하는 데 도움이 됩니다. |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 해당 [eVar](../../components/dimensions/evar.md) 차원을 설정합니다. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 주어진 [목록 Prop](../vars/page-vars/prop.md#list-props)에 사용되는 구분 기호입니다. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 해당 [목록 Prop](../vars/page-vars/prop.md#list-props) 값을 포함하는 문자열 배열입니다. |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 모두 연결 `value` 각 `list[]` 해당 [목록 변수](../vars/page-vars/list.md) 쉼표 구분 기호 사용. |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 쉼표 구분 기호를 사용하여 각 `list[]` 배열의 모든 `value` 문자열을 해당 [목록 변수](../vars/page-vars/list.md)에 연결합니다. |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](../../components/dimensions/prop.md) 차원을 설정합니다. |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. |
@@ -108,10 +108,10 @@ ht-degree: 97%
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | [제품 구문](../vars/page-vars/products.md) 머천다이징을 eVar에 적용합니다. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | [제품 구문](../vars/page-vars/products.md) 머천다이징을 이벤트에 적용합니다. |
 | `productListItems[].lineItemId` | [범주](../../components/dimensions/category.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. |
-| `productListItems[].name` | [제품](../../components/dimensions/product.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. If `productListItems[].SKU` 및 `productListItems[].name` 둘 다 데이터를 포함하며, 값은 `productListItems[].SKU` 이 사용됩니다. |
+| `productListItems[].name` | [제품](../../components/dimensions/product.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. `productListItems[].SKU` 및 `productListItems[].name`에 모두 데이터가 포함되어 있으면 `productListItems[].SKU`의 값이 사용됩니다. |
 | `productListItems[].priceTotal` | [매출](../../components/metrics/revenue.md) 지표를 확인하는 데 도움이 됩니다. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. |
 | `productListItems[].quantity` | [단위](../../components/metrics/units.md) 지표를 확인하는 데 도움이 됩니다. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. |
-| `productListItems[].SKU` | [제품](../../components/dimensions/product.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. If `productListItems[].SKU` 및 `productListItems[].name` 둘 다 데이터를 포함하며, 값은 `productListItems[].SKU` 이 사용됩니다. |
+| `productListItems[].SKU` | [제품](../../components/dimensions/product.md) 차원. [제품](../vars/page-vars/products.md) 페이지 변수도 참조하십시오. `productListItems[].SKU` 및 `productListItems[].name`에 모두 데이터가 포함되어 있으면 `productListItems[].SKU`의 값이 사용됩니다. |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 구현 변수. |
 | `web.webInteraction.name` | `web.webInteraction.type`의 값에 따라 [사용자 정의 링크](../../components/dimensions/custom-link.md), [다운로드 링크](../../components/dimensions/download-link.md) 또는 [종료 링크](../../components/dimensions/exit-link.md) 차원. |
 | `web.webInteraction.type` | 클릭한 링크의 유형을 결정합니다. 유효한 값에는 `other`(사용자 정의 링크), `download`(다운로드 링크) 및 `exit`(종료 링크)가 포함됩니다. |
