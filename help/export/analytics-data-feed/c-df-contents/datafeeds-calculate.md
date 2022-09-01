@@ -4,7 +4,7 @@ keywords: 데이터 피드, 작업, 지표, 이전 열, 이후 열, 보트 수, 
 title: 지표 계산
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->일반적으로 Adobe Analytics에서 제외된 히트는 데이터 피드에 포함됩니다. 원시 데이터의 쿼리에서 제외된 히트를 제거하려면 `exclude_hit > 0`을 사용합니다. 데이터 소스 데이터도 데이터 피드에 포함됩니다. 데이터 소스를 제외하려면 `hit_source = 5,7,8,9`가 있는 행을 모두 제외합니다.
+>일반적으로 Adobe Analytics에서 제외된 히트는 데이터 피드에 포함됩니다. 원시 데이터의 쿼리에서 제외된 히트를 제거하려면 `exclude_hit = 0`을 사용합니다. 데이터 소스 데이터도 데이터 피드에 포함됩니다. 데이터 소스를 제외하려면 `hit_source = 5,7,8,9`가 있는 행을 모두 제외합니다.
 
 ## 페이지 보기 횟수
 
