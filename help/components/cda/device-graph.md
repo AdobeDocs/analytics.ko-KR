@@ -2,23 +2,16 @@
 title: Device Graph
 description: Device Graph를 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 92%
 
 ---
 
 # Device Graph
 
-크로스 디바이스 분석에서는 데이터를 서로 결합하는 두 가지 서로 다른 방법을 제공합니다. 이 방법에서는 Adobe Experience Platform ID 서비스 공동 작업 그래프나 개인 그래프를 사용하여 데이터를 하나로 결합합니다. CDA는 Device Graph와 정기적으로 통신하여 디바이스들을 함께 연결합니다.
-
-## 공동 작업 그래프와 개인 그래프 간의 차이점
-
-Adobe는 ID 서비스의 일부로서 두 가지 유형의 Device Graph를 제공합니다.
-
-* **공동 작업 그래프**: 모든 고객이 기여하고 참조할 수 있는 해시된 디바이스 ID의 저장소입니다. 이 유형의 디바이스 그래프는 공동 작업을 하므로 일반적으로 개인 그래프보다 더 많은 디바이스와 일치합니다.
-* **개인 그래프**: 조직만 참조하는 해시된 디바이스 ID의 저장소입니다.
+교차 장치 분석에서는 개인 그래프를 사용하여 데이터를 함께 결합할 수 있습니다. 개인 그래프는 조직에 고유한 해시된 장치 ID의 저장소입니다. CDA는 Device Graph와 정기적으로 통신하여 디바이스들을 함께 연결합니다.
 
 ## Device Graph별 사전 요구 사항
 

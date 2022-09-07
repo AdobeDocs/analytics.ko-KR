@@ -2,9 +2,9 @@
 title: 크로스 디바이스 분석
 description: 디바이스 데이터를 함께 결합함으로써 데이터를 디바이스 중심에서 사람 중심으로 변경합니다.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 100%
 
 * [**필드 기반 결합**](field-based-stitching.md): 결정론적 일치만을 사용하여 디바이스를 함께 연결하므로 결합 옵션이 권장됩니다.
 가상 보고서 세트에서 크로스 디바이스 결합의 기반으로 Analytics 변수를 선택할 수 있습니다.
-* [**Device Graph**](device-graph.md): CDA는 Device Graph와의 의사 소통을 통해 디바이스를 함께 결합합니다. 공동 작업 그래프는 결정론적 일치와 확률론적 일치를 모두 사용합니다.
-
->[!NOTE]
->
->[Device Co-op 서비스 종료](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=ko-KR)에 대해 자세히 알아보십시오.
+* [**Device Graph**](device-graph.md): CDA는 Device Graph와의 의사 소통을 통해 디바이스를 함께 결합합니다.
 
 CDA를 사용하여 다음과 같은 질문에 답변할 수 있습니다.
 

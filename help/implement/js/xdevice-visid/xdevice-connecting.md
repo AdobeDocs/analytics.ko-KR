@@ -5,10 +5,10 @@ subtopic: Visitors
 title: 여러 디바이스에서 사용자 연결
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 95%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 100%
 자체 사용자 지정 방문자 ID를 사용하면 방문자 식별 방식을 더 자유롭게 제어할 수 있지만 그에 따른 제한 사항이 있습니다.
 
 * **방문자 중복 제거는 소급적용되지 않습니다**: 방문자가 처음으로 사이트에 액세스한 후 인증하면 두 명의 고유 방문자가 계산됩니다. 일반 Analytics ID에 대한 고유 방문자 수 중 하나는 자동으로 생성되며, 다른 고유 방문자 수는 로그인할 때 사용자 지정 방문자 ID에 대해 계산됩니다. 방문자가 새 디바이스를 사용하거나 쿠키를 지울 때마다 이러한 고유 방문자 중복이 존재합니다.
-* **Experience Cloud ID 서비스에 대한 비호환성**: 크로스 디바이스 방문자 식별이 도입된 이후 Adobe는 여러 디바이스에서 방문자를 추적하는 보다 강력하고 안정적인 방법을 발표했습니다. 이러한 새로운 식별 방법은 사용자 지정 방문자 ID 무시와 함께 사용할 수 없습니다. ID 서비스, CDA (Cross-Device Analytics) 또는 Device Co-op를 사용할 계획이라면 `visitorID` 변수를 사용하지 않는 것이 좋습니다.
+* **Experience Cloud ID 서비스에 대한 비호환성**: 크로스 디바이스 방문자 식별이 도입된 이후 Adobe는 여러 디바이스에서 방문자를 추적하는 보다 강력하고 안정적인 방법을 발표했습니다. 이러한 새로운 식별 방법은 사용자 지정 방문자 ID 무시와 함께 사용할 수 없습니다. ID 서비스 또는 CDA(Cross-Device Analytics)를 사용할 계획이라면 Adobe에서 `visitorID` 변수를 채우는 방법을 설명합니다.
