@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 97%
+source-wordcount: '909'
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 ## 빠른 세그먼트 저장
 
 >[!IMPORTANT]
->세그먼트를 저장하거나 적용하면 빠른 세그먼트 빌더에서는 더 이상 편집할 수 없고 정규 세그먼트 빌더에서만 편집할 수 있습니다.
+>세그먼트를 저장하거나 적용하면 빠른 세그먼트 빌더에서는 더 이상 편집할 수 없고 정규 세그먼트 빌더에서만 편집할 수 있습니다. Adobe Analytics 제품 관리자 및 빠른 세그먼트의 작성자만 기존 빠른 세그먼트에 변경 사항을 저장할 수 있습니다.
 
 1. 빠른 세그먼트를 적용하고 나서 커서를 올려놓은 다음 정보 아이콘(“i“)을 선택합니다.
 
