@@ -2,10 +2,10 @@
 title: 크로스 디바이스 분석 설정
 description: CDA를 사용하도록 가상 보고서 세트를 구성합니다.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '533'
-ht-degree: 100%
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ CDA는 Adobe 엔지니어링 팀을 통해 크로스 디바이스 보고서 세�
 
 * Adobe Experience Cloud 조직 ID (@AdobeOrg로 끝나는 영숫자 문자열)
 * CDA를 활성화할 크로스 디바이스 보고서 세트에 대한 보고서 세트 ID
-* 사용할 CDA의 방법 (필드 기반 스티칭, Adobe 개인 그래프 또는 Adobe 공동 작업 그래프)
+* 사용할 CDA 방법(필드 기반 결합 또는 Adobe 장치 그래프)
 * 필드 기반 스티칭을 사용하려면 prop 또는 eVar에 사용자 ID가 포함되어야 합니다.
 * 재생 빈도 및 전환 길이에 대한 사용자 기본 설정입니다. 옵션으로 7일 전환 확인 기간이 있는 일주일에 한 번 재생 또는 1일 전환 확인 기간이 있는 매일 재생이 있습니다.
 기본값은 7일 전환 확인 기간을 갖는 주간 재생입니다. 이 경우 지난 주 내의 데이터는 변경될 수 있습니다(점진적으로 결합 및 업데이트됨에 따라).
