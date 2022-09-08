@@ -3,10 +3,10 @@ title: transactionID
 description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 함께 연결합니다.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 92%
+source-wordcount: '426'
+ht-degree: 89%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 92%
 히트에서 `transactionID`를 설정하면 Adobe는 해당 시점에서 설정하거나 지속되는 모든 Analytics 변수의 &quot;스냅샷&quot;을 만듭니다. 일치하는 거래 ID로 Data Sources를 통해 업로드된 데이터는 해당 변수 값에 영구적으로 연결됩니다.
 
 기본적으로 Adobe는 최대 90일 동안 모든 거래 ID 값 (연결 및 연결 해제된 값)을 기억합니다. 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 이 한계를 늘리십시오.
+
+## 웹 SDK를 사용한 거래 ID
+
+거래 ID는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `commerce.order.transactionID`.
 
 ## Adobe Analytics 확장을 사용하는 거래 ID
 
