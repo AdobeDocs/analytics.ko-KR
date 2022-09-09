@@ -3,16 +3,16 @@ title: SFTP 서비스 업그레이드 - FAQ
 description: 예정된 SFTP 서비스 업그레이드에 대한 FAQ입니다.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: e65f7f96a31cde9fa25373168bb681dfcbe2c076
+source-git-commit: 4edae431cf4bca1c3e7d7c1017bbc4a89b0e1d7f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '440'
+ht-degree: 89%
 
 ---
 
 # SFTP 서비스 업그레이드 - FAQ
 
-설정 **2022년 9월 x 일**, Adobe Analytics은 보안 파일 전송 프로토콜을 업그레이드합니다 [SFTP] 파일 전송을 위한 향상된 보안을 제공하기 위한 서비스입니다. 이 변경 사항으로 일부 SFTP 클라이언트 구성은 더 이상 지원되지 않습니다. 이 기능은 SFTP를 사용하여 Adobe Analytics으로 전송하거나에서 검색한 데이터만 영향을 줍니다. FTP 프로토콜은 영향을 받지 않습니다. 서비스 중단을 방지하려면 SFTP 클라이언트(코드, 도구, 서비스)가 아래에 설명된 변경 사항을 준수하는지 확인하십시오.
+2022년 9월 중순에 Adobe Analytics은 Secure File Transfer Protocol을 업그레이드합니다 [SFTP] 파일 전송을 위한 향상된 보안을 제공하기 위한 서비스입니다. 이 변경 사항으로 일부 SFTP 클라이언트 구성은 더 이상 지원되지 않습니다. 이 기능은 SFTP를 사용하여 Adobe Analytics으로 전송하거나에서 검색한 데이터만 영향을 줍니다. FTP 프로토콜은 영향을 받지 않습니다. 서비스 중단을 방지하려면 SFTP 클라이언트(코드, 도구, 서비스)가 아래에 설명된 변경 사항을 준수하는지 확인하십시오.
 
 ## 현재 조직에서 사용 중인 알고리즘, 연결 유형 및 프로토콜을 확인하려면 어떻게 해야 합니까?
 
