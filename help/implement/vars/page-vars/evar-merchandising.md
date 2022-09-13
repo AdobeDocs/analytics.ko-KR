@@ -4,10 +4,10 @@ description: 개별 제품에 연결된 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 76%
+source-wordcount: '541'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +48,10 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 * 제품 구문 머천다이징 eVar는 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * 제품 구문 머천다이징 이벤트는 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [이벤트 정리](events/event-serialization.md) XDM 필드는 `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>에서 이벤트를 설정할 때 `productListItems`를 채울 필요는 없습니다. 두 위치 모두에서 설정되는 경우 이벤트 문자열의 값이 우선합니다.
 
 다음 예는 단일 [product](products.md) 여러 머천다이징 eVar 및 이벤트 사용:
 
