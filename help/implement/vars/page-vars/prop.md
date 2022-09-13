@@ -3,10 +3,10 @@ title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 89%
+source-wordcount: '603'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 
 ## 웹 SDK를 사용하는 Prop
 
-Prop은 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+Prop은 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. 목록 prop은 별도의 필드 세트에 지정됩니다.
 
 ## Adobe Analytics 확장을 사용하는 Prop
 
@@ -53,13 +53,17 @@ s.prop1 = "Example custom value";
 
 ### 목록 Prop 구성
 
-보고서 세트 설정에서 목록 prop을 활성화합니다. 관리자 안내서의 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md)를 참조하십시오. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
+에서 목록 prop을 활성화합니다 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md) 보고서 세트 설정에서 을 선택합니다. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
 
 >[!TIP]
 >
->구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 구분 기호를 사용할 수 있습니다.
+>구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 확장되지 않은 ASCII 구분 기호를 사용할 수 있습니다.
 
-### 목록 Prop 설정
+### 웹 SDK를 사용하여 목록 prop 설정
+
+원하는 구분 기호가 있는 보고서 세트 설정에서 목록 prop을 구성하면 목록 prop이 아래의 Adobe Analytics에 대해 매핑됩니다 `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. 웹 SDK는 보고서 세트 설정 아래에 나열된 올바른 구분 기호를 자동으로 사용합니다. XDM 필드에서 구분 기호를 설정하는 경우(예: `_experience.analytics.customDimensions.props.prop1.delimiter`)를 설정하는 경우, 보고서 세트 설정에서 자동으로 검색되는 구분 기호를 대체하며, 목록 prop 문자열의 잘못된 구문 분석을 초래할 수 있습니다.
+
+### Adobe Analytics 확장 및 AppMeasurement를 사용하여 목록 prop 설정
 
 원하는 구분 기호가 있는 보고서 세트 설정에서 목록 prop을 구성하면 구분 기호를 사용하는 것 외에는 구현에 차이가 없습니다.
 
