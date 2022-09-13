@@ -3,10 +3,10 @@ title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 59%
+source-wordcount: '477'
+ht-degree: 67%
 
 ---
 
@@ -24,13 +24,9 @@ ht-degree: 59%
 
 구현에서 목록 변수를 사용하기 전에 보고서 세트 설정에서 각 목록 변수를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/list-var-admin.md)를 참조하십시오. 이 단계는 모든 구현 방법에 적용됩니다.
 
->[!NOTE]
->
->웹 SDK에서 매핑된 필드를 사용하여 구현된 목록 변수는 쉼표(&#39;)의 기본 구분 기호를 사용합니다`,`&#39;).
-
 ## 웹 SDK를 사용하여 변수 나열
 
-목록 변수는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. 각 배열 요소에는 `"value"` 각 문자열을 포함하는 객체입니다. 예를 들어 다음 XDM 개체는 `list1` 변수를 `"Example value 1,Example value 2,Example value 3"`.
+목록 변수는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. 각 배열 요소에는 `"value"` 각 문자열을 포함하는 객체입니다. 구분 기호를 제공할 필요가 없습니다. 에 지정된 값을 사용하여 자동으로 포함됩니다. [보고서 세트 설정](/help/admin/admin/conversion-var-admin/list-var-admin.md). 예를 들어, 쉼표(&#39;`,`&#39;)는 목록 변수 1의 구분 기호로 구성되며, 다음 XDM 개체는 `list1` 변수를 `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -61,23 +57,6 @@ ht-degree: 59%
 >[!NOTE]
 >
 >Adobe XDM 스키마에는 다음이 포함되어 있습니다 `key` 개체 외에 `value` 각 `list[]` 배열입니다. Adobe은 이러한 `key` 개체를 Adobe Analytics에 보낼 때 사용됩니다.
-
-조직에서 쉼표(&#39;)와 다른 구분 기호가 필요한 경우`,`&#39;) 원하는 구분 기호를 포함한 전체 목록 문자열을 사용자 지정 XDM 필드에 전달할 수 있습니다. 에서 원하는 구분 기호를 수락하도록 목록 변수가 구성되어 있는지 확인합니다. [보고서 세트 설정](/help/admin/admin/conversion-var-admin/list-var-admin.md).
-
-```json
-"xdm": {
-    "custom_object": {
-        "custom_path": {
-            "custom_listvar": "Example value 1|Example value 2|Example value 3"
-        }
-    }
-}
-```
-
-그 다음 중 하나를 수행할 수 있습니다.
-
-* 사용자 지정 XDM 필드를 Adobe Experience Edge에서 원하는 목록 변수에 매핑합니다. 또는
-* 원하는 목록 변수를 컨텍스트 데이터 변수로 덮어쓰는 처리 규칙을 만듭니다. 자세한 내용은 [다른 XDM 필드를 Analytics 변수에 매핑](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
 
 ## Adobe Analytics 확장을 사용하여 변수 나열
 
