@@ -3,10 +3,10 @@ title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
+source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 84%
+source-wordcount: '809'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 * 사용자 지정 이벤트 1-100이 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * 사용자 지정 이벤트 101-200이 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* 이 패턴은 100개 이벤트마다 반복됩니다. `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` 값을 지정하는 데 사용됩니다. `eventx.id` 직렬화에 대한 id를 지정하는 데 사용됩니다.
+* 이 패턴은 100개 이벤트마다 반복됩니다. `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` 증가시킬 양을 지정하는 데 사용됩니다. `eventx.id` 에 사용됨 [직렬화](event-serialization.md).
 * 주문은 `commerce.purchases.value`.
 * 단위는 모두 합계에 매핑됩니다 `productListItems[].quantity` 필드.
 * 매출이 모두 합계에 매핑됩니다 `productListItems[].priceTotal` 필드.
@@ -32,6 +32,10 @@ ht-degree: 84%
 * 장바구니 제거가 `commerce.productListRemovals.value`.
 * 장바구니 보기가 `commerce.productListViews.value`.
 * 체크아웃은 `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>이벤트가 `productListItems` (예: `productListItems._experience.analytics.event1.value`)이고 해당 이벤트가 아직 이 필드에 없는 경우, 해당 이벤트가 자동으로 이 필드에 추가됩니다.
 
 ## Adobe Analytics 확장을 사용하는 이벤트
 
@@ -49,7 +53,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 * 드롭다운을 사용하면 포함할 이벤트를 선택할 수 있습니다.
 * 직렬화를 위한 선택적 텍스트 필드. 자세한 내용은 [이벤트 직렬화](event-serialization.md)를 참조하십시오.
 * 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어 드롭다운 아래에서 `event1`을 선택하고 이 필드에 `10`을 포함하면 보고에서 `event1`이 10만큼 증가합니다.
-* 다른 이벤트를 추가하는 버튼. 히트에 포함할 수 있는 이벤트 수에는 적절한 제한이 없습니다.
+* 다른 이벤트를 추가하는 버튼. 이성의 단일 규칙에 원하는 만큼 이벤트를 추가할 수 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.events
 
