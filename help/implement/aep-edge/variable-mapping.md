@@ -2,10 +2,10 @@
 title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
+source-git-commit: 47a5f891f2769a97936a3809c3615374b0045bd4
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 99%
+source-wordcount: '1441'
+ht-degree: 95%
 
 ---
 
@@ -59,9 +59,9 @@ ht-degree: 99%
 | `environment.operatingSystem` | 모바일 차원 [운영 체제](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | [운영 체제 버전](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) 차원을 설정하는 데 도움이 됩니다. |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 해당 [eVar](../../components/dimensions/evar.md) 차원을 설정합니다. |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 주어진 [목록 Prop](../vars/page-vars/prop.md#list-props)에 사용되는 구분 기호입니다. |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 목록 속성 구분 기호 무시. 구분 기호가 다음에서 자동으로 검색되므로 이 필드를 사용하지 않는 것이 좋습니다. [트래픽 변수 관리자](/help/admin/admin/c-traffic-variables/traffic-var.md) 보고서 세트 설정에서 을 선택합니다. 이 필드를 사용하면 사용된 구분 기호와 Analytics에서 기대하는 구분 기호 간에 불일치를 만들 수 있습니다. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 해당 [목록 Prop](../vars/page-vars/prop.md#list-props) 값을 포함하는 문자열 배열입니다. |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 쉼표 구분 기호를 사용하여 각 `list[]` 배열의 모든 `value` 문자열을 해당 [목록 변수](../vars/page-vars/list.md)에 연결합니다. |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | `value`각 배열의 모든 문자열`list[]`을 해당 [목록 변수](../vars/page-vars/list.md)에 연결합니다. 구분 기호는 [보고서 세트 설정](/help/admin/admin/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](../../components/dimensions/prop.md) 차원을 설정합니다. |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. |
