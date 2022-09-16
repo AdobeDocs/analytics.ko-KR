@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료입니다.
-source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 100%
 + [모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션](migrate-mobile.md)
 + [다중 통화 지원](multicurrency.md)
 + [개인정보 보호 개요](privacy-overview.md)
++ [처리 순서](processing-order.md)
 + [점진적 웹 앱](pwa.md)
 + [리디렉션 및 별칭](redirects.md)
 + 지역 데이터 수집 {#rdc}

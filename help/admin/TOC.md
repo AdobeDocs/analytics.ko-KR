@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 100%
       + [처리 규칙 개요](admin/c-processing-rules/processing-rules.md)
       + 처리 규칙 구성 {#processing-rules-configuration}
          + [처리 규칙 작동 방식](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [처리 순서](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [처리 규칙 만들기](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [활성 처리 규칙 보기](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [처리 규칙 내역 보기](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
