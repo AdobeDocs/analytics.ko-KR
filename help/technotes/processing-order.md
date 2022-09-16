@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics의 데이터 처리 순서
 description: Adobe Analytics에서 데이터를 처리하는 구성 요소 및 서비스의 순서를 알아봅니다.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 Adobe 에서는 데이터가 보고에 표시되기 전에 데이터를 변경하거나 조작하는 다양한 방법을 제공합니다. 이 페이지에는 다양한 Adobe Analytics 기능이 데이터를 처리하는 순서가 표시됩니다. 이 목록을 사용하여 데이터 불일치를 해결하거나 데이터 조정이 필요할 때 사용할 최상의 기능을 결정할 수 있습니다.
 
+![처리 순서](assets/processing-order.png)
+
 ## Adobe으로 전송되기 전의 데이터
 
 데이터가 Adobe으로 전송되기 전에 일반적으로 다음 방법 중 하나를 사용하여 클라이언트측에 컴파일됩니다.
 
 * **AppMeasurement**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일입니다. 데이터는 Adobe Analytics으로 직접 전송됩니다.
 * **Adobe Experience Platform Web SDK**: 사이트에서 호스팅되고 각 페이지에서 참조되는 JavaScript 파일입니다. 데이터가 Adobe Experience Edge로 전송됩니다.
-* **Adobe Experience Cloud 데이터 컬렉션의 태그**: 데이터 수집 UI 내에서 생성된 규칙을 포함하는 각 페이지의 JavaScript 참조. Adobe Analytics 확장은 AppMeasurement를 보다 쉽게 구현하는 방법을 제공합니다. 웹 SDK 확장은 웹 SDK를 쉽게 구현하는 방법을 제공합니다.
+* **Adobe Experience Cloud 데이터 컬렉션의 태그**: 데이터 수집 UI 내에서 생성된 규칙을 포함하는 각 페이지에서 참조되는 JavaScript 파일입니다. Adobe Analytics 확장은 AppMeasurement를 보다 쉽게 구현하는 방법을 제공합니다. 웹 SDK 확장은 웹 SDK를 쉽게 구현하는 방법을 제공합니다.
 
 데이터를 Adobe Experience Edge로 전송하는 경우 데이터를 Adobe Analytics(기타 많은 Adobe Experience Cloud 솔루션)에 전달하도록 구성할 수 있습니다. 구현 방법과 관계없이 궁극적으로 원하는 변수를 사용하는 이미지 요청이 Adobe 데이터 수집 서버로 전송됩니다.
 
