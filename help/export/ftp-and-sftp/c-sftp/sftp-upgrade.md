@@ -3,10 +3,10 @@ title: SFTP 서비스 업그레이드 - FAQ
 description: 예정된 SFTP 서비스 업그레이드에 대한 FAQ입니다.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: d16d97673c33203afa60599da733425b04f84660
+source-git-commit: 70ede981a0f6f7aebbbdf4dbcbf9e5187a3df495
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 89%
+source-wordcount: '449'
+ht-degree: 87%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 89%
 다음 기능은 SFTP를 사용하여 Adobe Analytics에 데이터를 업로드하는 옵션을 제공합니다.
 
 * [분류](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ko-KR)
+
+* [사용자 특성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=en)
 
 * [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=ko-KR)
 
