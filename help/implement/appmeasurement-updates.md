@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '2267'
-ht-degree: 100%
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+workflow-type: tm+mt
+source-wordcount: '2325'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,13 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 [코드 관리자](/help/admin/admin/code-manager-admin.md)에서 최신 버전의 AppMeasurement를 다운로드할 수 있습니다.
+
+## 버전 2.23.0
+
+릴리스 날짜: **TBD**
+
+* AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 장치 정보를 제공하는 데 사용하는 높은 엔트로피 사용자-에이전트 클라이언트 힌트의 컬렉션을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 &quot;collectHighEntropyUserAgentHints&quot; 플래그를 사용할 수 있습니다. 엔트로피 힌트 컬렉션은 기본적으로 꺼져 있습니다. 여기에서 사용자 에이전트 클라이언트 힌트에 대해 자세히 알아보십시오 [팔로우할 링크].
+
 
 ## 버전 2.22.4
 
@@ -449,7 +456,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 날짜: **2013년 11월 14일**
 
 * [하트비트 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)에 대한 지원을 추가했습니다.
-* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
+* [방문자 ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 지원하기 위해 `VisitorAPI.js`가 추가되었습니다.
 
 ## 버전 1.1.1
 
