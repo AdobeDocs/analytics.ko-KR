@@ -1,9 +1,9 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: 'collectHighEntropyUserAgentHints 변수를 사용하여 Adobe이 Chromium 브라우저(예: Google Chrome 및 Microsoft Edge)에서 높은 엔트로피 힌트를 요청할지 여부를 결정합니다.'
-source-git-commit: 9c386dd26e31b8b2dc2b4a52ae502f9505ec467d
+source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '217'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Adobe Analytics은 높은 엔트로피 클라이언트 힌트를 사용하여 �
 
 높은 엔트로피 클라이언트 힌트는 웹 SDK의 컨텍스트 카테고리의 일부입니다. 자세한 내용은 [Platform Web SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) 자세한 내용
 
-## Adobe Analytics 확장을 사용하여 높은 엔트로피 힌트를 수집합니다
+## Adobe Analytics 확장을 사용하여 높은 엔트로피 힌트 수집
 
 **[!UICONTROL 높은 엔트로피 사용자 에이전트 힌트 수집]** Adobe Analytics 확장을 구성할 때 일반 아코디언 아래의 확인란입니다.
 
