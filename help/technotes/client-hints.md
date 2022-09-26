@@ -1,10 +1,10 @@
 ---
 title: 클라이언트 힌트
 description: 알아보기 클라이언트 힌트가 장치 정보의 소스로 사용자 에이전트를 점진적으로 교체하는 방법.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 55%
+source-wordcount: '855'
+ht-degree: 52%
 
 ---
 
@@ -86,9 +86,15 @@ Adobe은 클라이언트 힌트와 사용자-에이전트를 모두 사용하여
 
 +++
 
++++**안전하지 않은 연결에 대해 클라이언트 힌트가 지원됩니까?
+
+아니요. 클라이언트 힌트는 HTTPS와 같은 보안 HTTP 연결을 통해서만 수집할 수 있습니다.
+
++++
+
 +++**Adobe Source Connector를 통해 AEP 및 CJA로 전송된 데이터에서 클라이언트 힌트를 사용할 수 있습니까?**
 
-2023년 상반기에 Adobe Source Connector를 통해 데이터에 클라이언트 힌트를 포함할 계획입니다.
+Adobe은 2023년 상반기에 Adobe 소스 커넥터를 통해 데이터에 클라이언트 힌트를 포함할 계획입니다.
 
 +++
 
