@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 36abc6f887074a7f79e223277c21223ab1493afa
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
-# 최신 Adobe Analytics 릴리스 정보(2022년 9월)
+# 최신 Adobe Analytics 릴리스 정보 (2022년 9월)
 
 **마지막 업데이트**: 2022년 9월 22일
 
@@ -28,7 +28,7 @@ Adobe Analytics 릴리스는 [연속 제공 모델](releases.md) 기능 배포�
 | 기능 | 설명 | [목표 날짜](releases.md) |
 | ----------- | ---------- | ------- |
 | 작업 영역의 콤보 차트 시각화 | 콤보 차트를 사용하면 작업 영역 내에서 서로 다른 지표를 더욱 쉽고 직관적으로 비교할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html) | 2022년 9월 14일 |
-| AppMeasurement 버전 2.23.0 | AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 장치 정보를 제공하는 데 사용하는 높은 엔트로피 사용자-에이전트 클라이언트 힌트의 컬렉션을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 &quot;collectHighEntropyUserAgentHints&quot; 플래그를 사용할 수 있습니다. 엔트로피 힌트 컬렉션은 기본적으로 꺼져 있습니다. [자세히 알아보기](/help/technotes/client-hints.md) | 2022년 9월 23일 |
+| AppMeasurement 버전 2.23.0 | AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 디바이스 정보를 제공하는 데 사용하는 높은 엔트로피 사용자 에이전트 클라이언트 힌트 수집을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 “collectHighEntropyUserAgentHints” 플래그를 사용할 수 있습니다. 높은 엔트로피 힌트 수집은 기본적으로 꺼져 있습니다. [자세히 알아보기](/help/technotes/client-hints.md) | 2022년 9월 23일 |
 
 {style=&quot;table-layout:auto&quot;}
 
