@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 8ac0c2ccd23aac4916f43c0f046be769e6b13d0b
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 **마지막 업데이트**: 2022년 9월 26일
 
-Adobe Analytics 릴리스는 [연속 제공 모델](releases.md) 기능 배포에 대한 확장 가능한 단계별 접근 방식 제공 따라서 이러한 릴리스 노트는 한 달에 여러 번 업데이트됩니다. 정기적으로 확인해 주세요
+Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이러한 릴리스 정보를 정기적으로 확인하십시오.
 
 ## 관련 리소스
 
@@ -50,8 +50,8 @@ AN-288519; AN-289300; AN-297387; AN-297465; AN-297520; AN-297641; AN-298134; AN-
 | **Analytics가 Experience Edge를 통해 수집된 A4T 데이터를 처리하는 방법 변경** | 2022년 9월 14일 | 2022년 3월에 Analytics는 A4T 데이터가 포함된 Experience Edge에서 발생하는 일부 호출을 처리하는 방법을 변경했습니다. A4T 보고 콘텐츠가 포함된 히트는 페이지 조회수(`t()`) 또는 링크 추적(`tl()`) 이벤트로 처리되지 않도록 수정됩니다. 이 논리는 이제 `propositionDisplay` 이벤트가 의도한 대로 수정되지 않은 경우를 포함하도록 업데이트되었습니다. |
 | **Web SDK의 목록 변수 및 목록 Prop에 대한 자동 구분 기호** | 2022년 9월 14일 | 이제 XDM에서 구분 기호 재정의가 지정되지 않는 한, 목록 변수 및 목록 Prop은 보고서 세트 설정에 지정된 구분 기호를 사용합니다. 자세한 내용은 [목록](/help/implement/vars/page-vars/list.md) 변수를 참조하십시오. |
 | **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. 질문이 있는 경우 고객 지원 센터 담당자에게 문의하여 Data Workbench에 대한 대체 솔루션을 확인하십시오. |
-| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2022년 8월 19일 | 시작 **2022년 10월 26일**, Adobe은 Google Chrome 및 Microsoft Edge와 같이 Chromium 브라우저에서 발생하는 히트에 대한 특정 장치 정보를 도출할 때 사용자-에이전트 외에 클라이언트 힌트를 사용하기 시작합니다. 클라이언트 힌트를 통해 전달된 데이터를 대신하여 사용자-에이전트 문자열에서 제공된 정보를 점진적으로 줄이려는 Google의 계획에 대한 응답입니다. 클라이언트 힌트에 대한 자세한 내용은 [여기](https://web.dev/user-agent-client-hints/)에서 확인하십시오.<p> 10월까지 AppMeasurement 및 Web SDK 수집 라이브러리는 모두 클라이언트 힌트 수집 및 높은 엔트로피 클라이언트 힌트 수집 여부를 구성합니다. 이 변경의 일부로, Adobe은 User-Agent와 관련된 모든 장치 조회에 Device Atlas를 사용합니다. 현재 Device Atlas는 모바일 조회에만 사용됩니다. 이러한 업데이트는 이전에 사용자 에이전트(특히 브라우저, 브라우저 유형, 운영 체제, 운영 체제 유형 및 모바일 장치)에서 파생된 장치 정보를 약간 변경할 수 있습니다. [자세히 알아보기](/help/technotes/client-hints.md) |
-| **Reports &amp; Analytics에서 예약된 보고서 일시 중지** | 2022년 6월 8일 | 2022년 4월 21일에 Adobe는 이전에 발표된 Reports &amp; Analytics의 서비스 종료에 대비하여 예약된 보고서와 관련된 몇 가지 기능의 사용 중단을 발표했습니다. 이들 기능에는 새 보고서와 새 데이터 추출을 예약하는 기능이 포함되었습니다.<p>확장을 원하는 고객의 요청에 따라 Reports &amp; Analytics에서 쉽게 전환할 수 있도록 Adobe는 이러한 기능에 대한 액세스를 **2023년 1월 31일**&#x200B;까지 연장하기로 결정했습니다. 보고서와 데이터 추출의 만료 기간은 계속 9개월로 제한됩니다. 보고서 및 데이터 추출 전달은 일정이 다시 활성화되지 않는 한 이 기간이 끝나면 일시 중지됩니다.<p>반복해서 말씀드리지만, 이들 기능은 2023년 1월 31일에 사용이 중단됩니다. 해당 날짜 이전에 예약된 보고를 Adobe Analytics에서 사용할 수 있는 다른 메커니즘 중 하나로 마이그레이션해야 합니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2022년 8월 19일 | 시작 **2022년 10월 26일**, Adobe은 Google Chrome 및 Microsoft Edge와 같이 Chromium 브라우저에서 발생하는 히트에 대한 특정 장치 정보를 도출할 때 사용자-에이전트 외에 클라이언트 힌트를 사용하기 시작합니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. 클라이언트 힌트에 대한 자세한 내용은 [여기](https://web.dev/user-agent-client-hints/)에서 확인하십시오.<p> AppMeasurement 및 Web SDK 수집 라이브러리는 모두 클라이언트 힌트 수집 및 높은 엔트로피 클라이언트 힌트 수집 여부 구성을 10월까지 지원합니다. 이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. 현재 Device Atlas는 모바일 조회에만 사용됩니다. 이러한 업데이트로 인해 사용자 에이전트(특히 브라우저, 브라우저 유형, 운영 체제, 운영 체제 유형 및 모바일 디바이스)에서 파생된 디바이스 정보가 약간 변경될 수 있습니다. [자세히 알아보기](/help/technotes/client-hints.md) |
+| **Reports &amp; Analytics에서 예약된 보고서 일시 중지** | 2022년 6월 8일 | 2022년 4월 21일에 Adobe는 이전에 발표된 Reports &amp; Analytics의 서비스 종료에 대비하여 예약된 보고서와 관련된 몇 가지 기능의 사용 중단을 발표했습니다. 이들 기능에는 새 보고서와 새 데이터 추출을 예약하는 기능이 포함되었습니다.<p>확장을 원하는 고객의 요청에 따라 Reports &amp; Analytics에서 쉽게 전환할 수 있도록 Adobe는 이러한 기능에 대한 액세스를 **2023년 1월 31일**&#x200B;까지 연장하기로 결정했습니다. 보고서와 데이터 추출의 만료 기간은 계속 9개월로 제한됩니다. 보고서 및 데이터 추출 전달은 일정이 다시 활성화되지 않는 한 이 기간이 끝나면 일시 중지됩니다.<p>반복해서 말씀드리지만 이들 기능은 2023년 1월 31일에 사용이 중단됩니다. 해당 날짜 이전에 예약된 보고를 Adobe Analytics에서 사용할 수 있는 다른 메커니즘 중 하나로 마이그레이션해야 합니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **Report Builder에서 예약된 작업 일시 중지** | 2022년 6월 8일 | 2022년 4월 21일에 Adobe는 최적의 성능과 제공을 위한 노력의 일환으로 Report Builder의 예약된 작업에 대한 변경 사항이 배포되었습니다. 이러한 변경 사항에는 예약된 배달이 “x회 발생 후 종료”되도록 하는 기능의 제거가 포함되었습니다. 대안을 탐색하고 구현하기 위해 더 많은 시간을 요구하는 여러 고객 요청에 따라 Adobe는 **2023년 1월 31일**&#x200B;까지 제한된 방식으로 이 옵션을 복원하기로 결정했습니다.<p>계속해서 시간별 Report Builder 작업을 예약하고 최대 99회 발생 후 종료되도록 할 수 있습니다. 롤백은 시간별 작업에만 적용됩니다. “x회 발생 후 종료”는 다른 모든 제공 간격(일별, 주별, 월별 및 연간)에 대해 계속 사용할 수 없습니다. 이 옵션은 2023년 1월 31일에 사용이 중단됩니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2022년 1월 4일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다. |
 
