@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3467'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 97%
 | 날짜 | 설명 |
 | --- | --- |
 | **2022년 9월** |  |
-| 콤보 차트 | 의 새 항목 [콤보 차트](/help/analyze/analysis-workspace/visualizations/combo-charts.md) 시각화. |
-| 업데이트된 플러그인 | 의 업데이트된 버전 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 구현 플러그인. |
-| 새 구성 변수 | 에 대한 설명서 [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
-| 높은 엔트로피 클라이언트 힌트 | Adobe 사용 방법에 대한 새로운 항목 [클라이언트 힌트](/help/technotes/client-hints.md) 장치 정보를 결정하기 위한 사용자-에이전트 외에 |
+| 콤보 차트 | [콤보 차트](/help/analyze/analysis-workspace/visualizations/combo-charts.md) 시각화에 대한 새로운 주제. |
+| 업데이트된 플러그인 | 업데이트된 [getValOnce](/help/implement/vars/plugins/getvalonce.md) 구현 플러그인 버전. |
+| 새 구성 변수 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)에 대한 설명서 |
+| 높은 엔트로피 클라이언트 힌트 | Adobe가 사용자 에이전트와 더불어 [클라이언트 힌트](/help/technotes/client-hints.md)를 사용하여 디바이스 정보를 확인하는 방법에 대한 새로운 주제. |
 | 처리 순서 | [처리 순서](/help/technotes/processing-order.md)에 대한 단일 도움말 항목을 제공하기 위해 다양한 도움말 페이지가 집계되었습니다. |
 | **2022월 8월** |  |
 | Edge Collection용 XDM에서의 목록 변수 지원 | Experience Edge/Web SDK를 통해 데이터를 수집하는 고객이 XDM을 사용하여 목록 변수 콘텐츠를 지정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ko-KR#list-variables-using-the-web-sdk) | 2022년 8월 18일 |
@@ -44,14 +44,14 @@ ht-degree: 97%
 | [!UICONTROL 페이지 요약] 패널의 새 주제 | [페이지 요약 패널](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | [!UICONTROL 다음/이전 항목] 패널의 새 주제 | [다음/이전 차원 항목 패널](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022년 3월** |  |
-| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | [지원되는 HTTPS 암호화 알고리즘](/help/technotes/rdc/encryption-algos.md) 암호 보안 수준이 &quot;높음&quot;으로 설정된 고객의 경우 |
+| 지원되는 HTTPS 암호화 알고리즘에 대한 새로운 항목 | 암호 보안 수준이 “높음”으로 설정되어 있는 고객에 대해 [HTTPS 암호화 알고리즘이 지원](/help/technotes/rdc/encryption-algos.md)됩니다. |
 | 작업 영역의 주석에 대한 새로운 설명서 | [작업 영역의 주석](/help/analyze/analysis-workspace/components/annotations/overview.md)을 사용하면 상황별 데이터 뉘앙스와 통찰력을 조직에 효과적으로 전달할 수 있습니다. |
 | Adobe Analytics 랜딩 페이지 업데이트 | 작업 영역과 Reports &amp; Analytics의 공동 랜딩 페이지 [업데이트](/help/analyze/landing.md)로 유용성이 향상되고 탐색이 간편해졌습니다. |
 | [!UICONTROL 다음 항목] 또는 [!UICONTROL 이전 항목] 작업 영역 패널 | 이 패널을 통해 선택한 차원 항목의 다음 또는 이전 항목을 탐색할 수 있습니다. |
 | [!UICONTROL 페이지 요약] 작업 영역 패널 | 이 패널은 선택한 페이지에 대한 심도 있는 분석을 제공합니다. |
 | 이전 예약된 보고서 일시 중지에 대한 새로운 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 보고서를 일시 중지할 예정입니다](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **2022년 2월** |
-| 모바일 스코어카드 프로젝트 미리보기 모드 | [미리보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=kr#preview)에서는 스코어카드를 저장하고 공유하기 전에 환경을 미리 확인할 수 있습니다. |
+| 모바일 스코어카드 프로젝트 미리보기 모드 | [미리보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ko#preview)에서는 스코어카드를 저장하고 공유하기 전에 환경을 미리 확인할 수 있습니다. |
 | API 프로젝트 끝점 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 이전 예약된 Report Builder 작업 일시 중지에 대한 업데이트된 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지할 예정입니다](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **2021년 10월** |  |
@@ -72,11 +72,11 @@ ht-degree: 97%
 | 2021년 6월 15일 | 업데이트된 [마케팅 채널 모범 사례](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ko) |
 | 2021년 6월 3일 | [데이터 피드 구현](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ko) 및 [여기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=ko#BucketOwnerFullControl)에서 확인할 수 있는 내용을 더 잘 설명하도록 설명서를 업데이트했습니다. |
 | 2021년 5월 25일 | [보고의 eVar 대소문자 구분](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko)에 대한 설명서를 업데이트했습니다. |
-| 2021년 5월 13일 | [Data Warehouse API 요청](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)에 대한 업데이트입니다. 이제 &quot;시간&quot;을 지원합니다. |
+| 2021년 5월 13일 | [Data Warehouse API 요청](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)에 대한 업데이트입니다. 이제 “시간”을 지원합니다. |
 | **2021년 3월** |  |
 | 2021년 3월, 4월 | Adobe Analytics 대시보드의 [경영진 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=ko) 및 [큐레이터 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko) 업데이트 |
 | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지의 새 설명서. 이를 통해 사용자에 대한 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정] 은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>작업 영역 프로젝트: 도움말 > 활성화 팁</li><li>작업 영역 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
-| 2021년 3월 25일 | [!UICONTROL 막대 그래프 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 메트릭 막대 그래프를 지원합니다. 낮은 카디널리티 메트릭의 경우 시각화는 이전과 동일하게 작동합니다. |
+| 2021년 3월 25일 | [!UICONTROL 막대 그래프 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프를 지원합니다. 낮은 카디널리티 지표의 경우 시각화는 이전과 동일하게 작동합니다. |
 | 2021년 3월 25일 | [데이터 복구 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 업데이트(URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
 | 2021년 3월 25일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
 | **2021년 2월** |  |
@@ -100,7 +100,7 @@ ht-degree: 97%
 | 2020년 10월 23일 | Adobe Analytics 대시보드 설명서에 개선 사항이 추가되었습니다. 작업 영역의 모바일 스코어카드에서 스코어카드의 스타일이 앱과 일치합니다. |
 | **2020년 9월** |  |
 | 2020년 9월 17일 | [단일 차원에 맞는 5만개의 항목 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko#download-items): 이제 세그먼트와 필터가 적용된 자유 형식 테이블의 단일 차원에 대한 50,000개의 항목을 다운로드할 수 있습니다. 이렇게 하면 Analysis Workspace 외부에 있는 400개 이상의 데이터 행에 액세스할 수 있습니다. |
-| 2020년 9월 17일 | [선 시각화 개선 사항](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
+| 2020년 9월 17일 | [선 시각화 개선 사항](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ko): <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
 | 2020년 9월 17일 | 작업 영역의 새 날짜 범위: 5개의 새 날짜 범위를 추가했으므로 오늘의 일부 일 데이터를 포함하지 않는 다음 날짜 범위 중에서 선택할 수 있습니다. 지난 7일, 지난 14일, 지난 30일, 지난 60일, 지난 90일 |
 | 2020년 9월 17일 | 작업 영역의 [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=ko)에 대한 새로운 설명서 |
 | **2020월 8월** |  |
@@ -114,9 +114,9 @@ ht-degree: 97%
 | 2020년 6월 18일 | [Attribution IQ에 대한 새로운 설명서: 알고리즘 속성](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko) |
 | 2020년 6월 18일 | [Attribution IQ에 대한 새로운 설명서: 맞춤형 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko#lookback-windows) |
 | 2020년 6월 18일 | 공유 Workspace 프로젝트의 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
-| 2020년 6월 18일 | [“보기 전용” Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ko)에 대한 새로운 설명서입니다. 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. |
-| 2020년 6월 18일 | 공유 Workspace 프로젝트의 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
-| 2020년 6월 18일 | [공동 편집 Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)에 대한 새로운 설명서입니다. 편집 가능 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. |
+| 2020년 6월 18일 | [“보기 전용” Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ko)에 대한 새로운 설명서입니다. 프로젝트는 “조회 가능”으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. |
+| 2020년 6월 18일 | 공유 Workspace 프로젝트의 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko)에 대한 새로운 설명서입니다. 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). |
+| 2020년 6월 18일 | [공동 편집 Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko)에 대한 새로운 설명서입니다. “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. |
 | **2020년 5월** |  |
 | 2020년 5월 31일 | [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)에 대한 새로운 설명서 |
 | 2020년 5월 21일 | [Adobe Analytics 대시보드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ko)에 대한 새로운 설명서 |
@@ -151,11 +151,11 @@ ht-degree: 97%
 | 2020년 12월 19일 | 기본 [FTP 데이터 스토리지 한도](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=ko)를 10GB로 변경했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | IP 로그인 제한 적용의 기간 종료에 대한 새로운 주제입니다. |
-| 2019년 11월 21일 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)용 새로운 설명서 세트 |
+| 2019년 11월 21일 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko)용 새로운 설명서 세트 |
 | 2019년 11월 21일 | 라이브스트림에서의 가용성을 나타내기 위해 [Audience Analytics 워크플로 FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ko)를 업데이트했습니다. |
 | 2019년 10월 25일 | [Adobe Analytics 주요 개념](/help/technotes/terms.md) 페이지가 업데이트되었습니다. |
 | 2019년 10월 10일 | 자유 형식 테이블 업데이트: 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ko)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
-| 2019년 10월 10일 | Workspace에서 &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
+| 2019년 10월 10일 | 작업 영역에서 “지정되지 않음(없음)”을 쉽게 제거하는 기능이 보고서 필터의 옵션으로 추가되었습니다. |
 | 2019년 10월 10일 | 작업 영역에서 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)가 더 이상 사용되지 않습니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 | 2019년 10월 1일 | [작업 영역 합계](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko#cja-workspace)에 대한 새 문서입니다. |
 | 2019년 9월 28일 | [JavaScript 구현용 구성 변수](/help/implement/vars/config-vars/configuration-variables.md)에 대한 새로운 문서 |
