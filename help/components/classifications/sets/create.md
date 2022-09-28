@@ -3,9 +3,9 @@ title: 분류 세트 만들기
 description: 분류 세트를 만들 때 사용할 수 있는 필드 및 설명입니다.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 source-git-commit: 759e2b1d2b4fa99cfbb699be18e736600bf358ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->이 기능은 보고서 세트를 새 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터 또는 계정 관리자에게 문의하십시오.
+>이 기능은 보고서 세트를 새로운 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터나 귀사의 계정 관리자에게 문의해 주십시오.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 설정]** > **[!UICONTROL 추가]**
 
