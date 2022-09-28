@@ -3,9 +3,9 @@ title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: faa1c730e051000032b4c442b43f17bd9c4d76d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->보고서 세트를 새 분류 아키텍처로 마이그레이션한 모든 고객이 분류 세트를 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터 또는 계정 관리자에게 문의하십시오.
+>분류 세트는 보고서 세트를 새로운 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터나 귀사의 계정 관리자에게 문의해 주십시오.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]**
 
