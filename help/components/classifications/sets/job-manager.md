@@ -3,9 +3,9 @@ title: 분류 세트 작업 관리자
 description: 분류 세트에서 생성된 현재 및 완료된 분류 작업을 봅니다.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 source-git-commit: cc01d492dbbf99fc6a2736c4c50d889933d6f4ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->이 기능은 보고서 세트를 새 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터 또는 계정 관리자에게 문의하십시오.
+>이 기능은 보고서 세트를 새로운 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터나 귀사의 계정 관리자에게 문의해 주십시오.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 작업]**
 
