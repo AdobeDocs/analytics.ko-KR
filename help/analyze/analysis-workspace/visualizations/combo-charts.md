@@ -4,10 +4,10 @@ title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 97%
 
 ---
 
@@ -23,12 +23,13 @@ ht-degree: 100%
 
 * 시간대의 함수(예: [!UICONTROL 누적 평균])에 대해 지표를 분석합니다.
 
-수행할 수 있는 작업
+다음 사항에 주의하십시오.
 
-* 단일 [!UICONTROL 콤보 차트]에 여러 비교를 추가합니다.
+* 한 번에 여러 비교를 추가할 수 있습니다 [!UICONTROL 콤보 차트].
 * 하나 이상의 비교를 추가하는 경우 [!UICONTROL 시간 비교]와 같이 동일한 유형이어야 합니다.
 * 최대 5개의 비교를 추가할 수 있습니다.
 * 지표에 최대 3개의 필터(세그먼트)를 적용할 수 있습니다.
+* 계산된 지표는 콤보 차트에서 지원되지 않습니다.
 
 ## 콤보 차트 빌드
 
