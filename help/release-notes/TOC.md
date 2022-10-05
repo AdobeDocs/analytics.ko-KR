@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 릴리스 정보
 breadcrumb-title: 릴리스 정보
-user-guide-description: 새로운 기능 및 버그 수정 설명 목록입니다.
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: ht
+user-guide-description: Adobe Analytics의 새로운 기능 및 수정 사항에 대해 알아봅니다.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 

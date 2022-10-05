@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
-user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 경고, 마케팅 채널, 분류 및 크로스 디바이스 분석에 대한 학습과 같은 구성 요소를 사용하여 데이터를 관리하는 데 도움이 됩니다.
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 교차 디바이스 분석에 대해 알아봅니다.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 98%
+source-wordcount: '689'
+ht-degree: 96%
 
 ---
 

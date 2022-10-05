@@ -4,11 +4,10 @@ title: 게시 목록
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 49%
 
 ---
 
@@ -17,6 +16,24 @@ ht-degree: 100%
 게시 목록을 사용하면 별도의 예약 보고서를 여러 개 작성하지 않고도 조직의 다른 그룹에 적합한 다양한 보고서를 간단하게 보낼 수 있습니다. 게시 목록은 위치별 보고서 세트가 있고 각 해당 부서에 특정 대시보드의 사본을 제공하려는 경우에 유용합니다. 또는 단일 보고서 세트로 작업하는 경우 게시 목록을 사용하여 이메일 주소를 일일이 입력하지 않고도 여러 사람에게 데이터를 보낼 수 있습니다.
 
 보고서를 예약할 때 여러 게시 목록을 지정할 수 있습니다.
+
+## 게시 목록 수명 종료
+
+아시다시피 Adobe은 2023년 12월 31일에 Reports and Analytics(R&amp;A)와 Site Catalyst 포인트 제품을 사용하지 않습니다. [여러분은 삶의 종식과 이곳에서 그것을 어떻게 준비할 수 있는지에 대해 더 배울 수 있습니다](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+
+R&amp;A의 기능 중 현재 사용 수명이 종료될 예정인 기능은 게시 목록입니다. 달력 이벤트 및 페이지 요약 보고서와 같은 일부 기능에는 Analysis Workspace의 패리티 버전이 있습니다. 그러나 게시 목록은 다음 중 하나가 아니며 R&amp;A가 수명이 종료될 때 더 이상 사용되지 않습니다. **Analysis Workspace 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 게시 목록에 액세스할 수 없습니다.**
+
+게시 목록을 사용하는 현재 보고서 배포 워크플로우의 중단을 완화하려면 다음 대체 방법을 고려해 보십시오.
+
+* 게시 목록을 사용하여 동일한 버전의 보고서를 여러 사용자에게 배포하는 경우(보고서 세트 무시를 적용하지 않고):
+
+   Analysis Workspace에서 보고서를 프로젝트로 다시 작성하면 메일 클라이언트나 작업 공간의 예약된 프로젝트 기능을 위해 만든 연락처 그룹 또는 배포 목록 조합을 사용하여 프로젝트의 반복 게재를 전송하거나 예약할 수 있습니다. 게시 목록과 마찬가지로 프로젝트의 PDF/CSV 버전이 그룹/목록에 포함된 모든 이메일 ID로 전송됩니다. 자세한 내용은 [여기에 예약된 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+
+* 게시 목록 을 사용하여 보고서나 대시보드의 여러 버전을 여러 사용자에게 배포하는 경우 보고서 세트 무시 기능을 통해:
+
+   Analysis Workspace은 보고서 세트 무시를 지원하지 않습니다. 또한 프로젝트를 공유하거나 예약할 때 보고서 세트를 잠그는 기능을 지원하지 않습니다. 워크플로우를 복제하려면 각 버전에 다른 보고서 세트가 적용된 동일한 프로젝트의 여러 버전을 만든 다음 위에 설명된 예약된 프로젝트 기능을 사용해야 할 수 있습니다.
+
+추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오.
 
 ## 게시 목록 관리자 설명 {#section_099DF8AC5691495F9B22C71266DD6004}
 

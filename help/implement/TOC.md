@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
-user-guide-description: 수집할 데이터를 사용자 정의하여 Adobe Analytics에서 더 많은 데이터를 얻을 수 있습니다.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+user-guide-description: Adobe Analytics 구현 방법을 알아봅니다. 수집할 데이터를 사용자 정의하여 Analytics 데이터를 최대한 활용할 수 있습니다.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 95%
 
 ---
 
