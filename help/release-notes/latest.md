@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 51fe791a0a0ea45aab3b19f9639d8cc1a10ec114
 workflow-type: tm+mt
 source-wordcount: '1562'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2022년 10월 14일 | 원래 2022년 10월 26일에 계획된 장치 조회에서 클라이언트 힌트의 사용이 연기되었습니다. **2023년 1월**. <p> <p>2022년 10월부터 웹 SDK 또는 AppMeasurement JavaScript 라이브러리로 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 1월까지는 장치 조회에 통합되지 않습니다. 이 날짜에, Adobe은 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 장치 정보를 도출할 때 사용자-에이전트 외에도 클라이언트 힌트를 사용하기 시작합니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
+| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2022년 10월 14일 | 원래 2022년 10월 26일로 계획되었던 디바이스 조회에서의 클라이언트 힌트 사용이 **2023년 1월**&#x200B;로 연기되었습니다. <p> <p>2022년 10월부터 Web SDK 또는 AppMeasurement JavaScript 라이브러리를 사용하여 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 1월까지 디바이스 조회에 통합되지 않을 예정입니다. 해당 일자에 Adobe는 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 디바이스 정보를 가져올 때 사용자 에이전트와 함께 클라이언트 힌트를 사용할 예정입니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 | **기본 랜딩 페이지** | 2022년 9월 29일 | 올해 초에 도입된 [새 랜딩 페이지](/help/analyze/landing.md)는 **2023년 1월**&#x200B;에 모든 사용자의 기본 환경이 됩니다. 현재 페이지는 더 이상 사용되지 않으며 모든 사용자는 새 환경을 사용해야 합니다. |
 | **[!UICONTROL 예외 항목 탐지] 자동 실행 조건** | 2022년 9월 29일 | 오늘, [!UICONTROL 예외 항목 탐지]가 시계열 자유 형식 테이블의 모든 열에서 자동 실행됩니다. 데이터를 분석에 사용할 수 있고 프로젝트를 더 빠르게 로드할 수 있도록 Adobe는 예외 항목 탐지 자동 실행 방식을 변경할 것입니다. **2022년 10월 26일**&#x200B;부터 [!UICONTROL 예외 항목 탐지]는 테이블의 첫 번째 지표 열에서만 자동 실행됩니다. 필요한 경우 다른 열에서 예외 항목 탐지를 실행하도록 열 설정을 구성할 수 있습니다. |
 | **새로운 NetAcuity 통신사 데이터베이스로 업데이트** | 2022년 9월 26일 | 원래 2022년 10월 5일로 계획되었던 이 업데이트는 **2023년 1월**&#x200B;로 연기되었습니다. Adobe Analytics Data Warehouse 및 Analytics 데이터 피드의 `carrier` 필드에 저장된 통신사 관련 정보가 변경될 예정입니다. 지금까지 해당 열의 데이터 형식은 `<domain>:<ISP>`였습니다. Adobe는 Adobe Analytics 보고 도구(Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, 라이브스트림 등)에서 보고 목적으로 이들 `<domain>:<ISP>` 값을 통신사 이름으로 매핑하기 위한 내부 조회 테이블을 유지 관리했습니다. 조회 파일(`carrier.tsv`)에는 데이터 피드가 제공되어 동일한 매핑을 사용할 수 있습니다.<p>이 업데이트는 NetAcuity의 보다 정확한 통신사 데이터베이스를 사용하여 통신사 매핑을 향상시킵니다. 데이터 피드의 통신사 열에 있는 데이터 형식은 향후 변경될 예정입니다. `<domain>:<ISP>` 대신 통신사 이름이 포함됩니다. Adobe는 계속해서 조회 테이블을 사용하여 가능한 한 과거 보고서와의 연속성을 유지할 것입니다. Adobe에서 조회를 적용하는 보고 도구 (Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, 라이브스트림 등) 보다 정확한 매핑의 이점을 얻을 수 있습니다. 일부 매핑(특히 국제 도메인 및 ISP의 경우)은 Adobe가 새 데이터베이스를 채택할 때 다른 매핑보다 더 많이 변경될 수 있습니다. 데이터 피드 통신사 조회 파일(`carrier.tsv`)은 이전 매핑을 유지하고 새 매핑을 추가합니다.<p>Analytics Source Connector는 현재 통신사 필드를 매핑하지 않으므로 현재 Experience Platform, CJA 등에서 통신사 보고를 사용할 수 없습니다. 따라서 새 통신사 데이터베이스를 사용하더라도 Analytics Source Connector에서 제공한 데이터를 기반으로 하는 Experience Platform의 어떤 것에도 영향을 미치지 않습니다. |
@@ -54,9 +54,9 @@ AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-
 
 {style=&quot;table-layout:auto&quot;}
 
-## 수명 종료 알림
+## 서비스 종료 알림
 
-| EOL 제품 또는 기능 | 추가되거나 업데이트된 날짜 | 설명 |
+| EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
 | **[!UICONTROL 게시 목록] 기능의 EOL** | 2022년 9월 29일 | Reports &amp; Analytics EOL의 일환으로 게시 목록은 **2023년 12월**&#x200B;에 사용 수명이 종료됩니다. Analysis Workspace 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 게시 목록에 액세스할 수 없습니다. [자세히 알아보기](/help/admin/admin/publishing-list.md) |
 | **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. Data Workbench에 대한 대체 솔루션을 알고 싶거나 질문이 있는 경우 고객 지원 센터 담당자에게 문의하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
