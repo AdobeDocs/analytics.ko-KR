@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
+      + 작업 공간의 폴더 {#workspace-folders}
+         + [Workspace의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [프로젝트 추가](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [프로젝트 제거](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [새 프로젝트 저장](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [템플릿](analysis-workspace/build-workspace-project/starter-projects.md)
       + [여러 보고서 세트](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [핫키 (단축키)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)

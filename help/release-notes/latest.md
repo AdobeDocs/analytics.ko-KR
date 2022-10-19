@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 51fe791a0a0ea45aab3b19f9639d8cc1a10ec114
+source-git-commit: 10b0f4f99d382cbf04b63f2dc518f0d6595d689e
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 100%
+source-wordcount: '1603'
+ht-degree: 97%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2022년 10월)
 
-**마지막 업데이트**: 2022년 10월 14일
+**마지막 업데이트**: 2022년 10월 19일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -27,7 +27,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 기능 | 설명 | [목표 일자](releases.md) |
 | ----------- | ---------- | ------- |
-| **[!UICONTROL 주요 지표 요약]** 시각화 | [!UICONTROL 주요 지표 요약] 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ko) | 2022년 10월 5일부터 단계적으로 롤아웃 |
+| **작업 공간 프로젝트의 폴더** | Workspace 프로젝트의 폴더는 사용자가 보다 나은 검색 및 액세스를 위해 폴더를 사용하여 프로젝트를 구성하고 분류하는 데 도움이 됩니다. 공유 회사 폴더를 사용하면 관리자가 모든 Workspace 사용자와 컨텐츠를 쉽게 만들고 공유할 수 있습니다 [추가 정보](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 2022년 10월 19일 |  | **[!UICONTROL 주요 지표 요약]** 시각화 | [!UICONTROL 주요 지표 요약] 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ko) | 2022년 10월 5일부터 단계적으로 롤아웃 |
 | 새로운 **[!UICONTROL 분류 설정]** 사용자 경험 | 새 사용자 경험은 분류 및 규칙을 관리하고 고객 소유 분류 데이터의 가시성을 향상시키는 단일 인터페이스를 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ko) | 2022년 10월 5일 |
 | 모바일 앱: **사용자 정의 상세 보기** | 사용자 정의 상세 보기를 사용하면 대상자가 가장 중요한 것에 집중할 수 있도록 함으로써 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다. 각 스코어카드 타일과 관련된 상세 보기의 레이아웃을 변경하고 텍스트를 추가하여 최종 사용자가 데이터에서 볼 수 있는 내용을 더 잘 설명할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ko) | 2022년 10월 5일 |
 | **대소문자를 구분하지 않는 다중 값 변수** | 대소문자를 구분하지 않는 다중 값 변수의 경우, 데이터 피드의 `mvvar1` - `mvvar3`에 저장된 값은 더 이상 자동으로 소문자로 변환되지 않습니다. 대신 데이터 피드(및 Analytics Source Connector를 통해 Adobe Experience Platform 및 CJA로 전달된 데이터)는 페이지에서 전달된 원래의 사례를 반영하게 됩니다. | 2022년 10월 24일 |
