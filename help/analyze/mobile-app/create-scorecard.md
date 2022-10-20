@@ -4,10 +4,10 @@ title: 모바일 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1750'
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,11 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ## 세부 슬라이드 사용자 정의 {#customize-detail-slide}
 
-사용자 정의 세부 슬라이드를 사용하면 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다. 각 세부 슬라이드의 레이아웃을 수정하고 텍스트를 추가하여 최종 사용자가 데이터에서 볼 수 있는 내용을 더 잘 설명할 수 있습니다. 드롭다운 메뉴를 사용하여 차트 유형을 변경할 수도 있습니다.
+사용자 정의 세부 슬라이드를 사용하면 대상자와 공유하는 정보에 대해 훨씬 더 정확하게 지정할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+각 세부 슬라이드의 레이아웃을 수정하고 텍스트를 추가하여 최종 사용자가 데이터에서 볼 수 있는 내용을 더 잘 설명할 수 있습니다. 드롭다운 메뉴를 사용하여 차트 유형을 변경할 수도 있습니다.
 
 ![세부 슬라이드 사용자 정의](assets/custom-detail-slide.png)
 
