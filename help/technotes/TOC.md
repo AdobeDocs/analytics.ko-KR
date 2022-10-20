@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
-user-guide-description: 특정 Analytics 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
+user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
