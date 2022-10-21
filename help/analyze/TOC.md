@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace, Analytics 대시보드, Report Build
 source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 98%
    + 프로젝트 {#build-workspace-project}
       + [프로젝트 개요](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
-      + 작업 공간의 폴더 {#workspace-folders}
+      + Workspace의 폴더 {#workspace-folders}
          + [Workspace의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 만들기 및 하위 폴더](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [프로젝트 추가](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [새 프로젝트 저장](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -298,8 +298,8 @@ ht-degree: 98%
    + [Analytics에서의 Activity Map 보고](activity-map/activitymap-reporting-analytics.md)
    + [브라우저 확장 문제 해결](activity-map/troubleshooting-browser-extensions.md)
    + [데이터 수집 문제 해결](activity-map/troubleshoot-data-collection.md)
-+ Reports and Analytics {#reports-analytics}
-   + [Reports and Analytics 시작하기](reports-analytics/getting-started.md)
++ Reports &amp; Analytics {#reports-analytics}
+   + [Reports &amp; Analytics 시작하기](reports-analytics/getting-started.md)
    + 보고 인터페이스 개요 {#reporting-interface}
       + [데이터 수집 정보](reports-analytics/overview/overview-data-collection.md)
       + [보고서 메뉴](reports-analytics/overview/reports-menu.md)
@@ -328,7 +328,7 @@ ht-degree: 98%
    + [타겟](reports-analytics/targets.md)
    + [경고](reports-analytics/alerts.md)
    + [달력 이벤트](reports-analytics/t-calendar-event.md)
-   + [FAQ](reports-analytics/frequently-asked-questions.md)
+   + [자주 묻는 질문](reports-analytics/frequently-asked-questions.md)
    + [문제 해결](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 대시보드 {#mobapp}
    + [Adobe Analytics 대시보드 - 개요](mobile-app/home.md)

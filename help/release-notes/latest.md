@@ -4,9 +4,9 @@ description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
