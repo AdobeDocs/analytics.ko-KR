@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 폴더 만들기
 feature: Workspace Basics
 source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또�
 
 >[!NOTE]
 >
->이 기능은 현재 베타에 있습니다. 일부 화면은 변경될 수 있습니다.
+>이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
 
 ## 새 폴더 만들기
 
