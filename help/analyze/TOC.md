@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace, Analytics 대시보드, Report Build
 source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace의 폴더 {#workspace-folders}
          + [Workspace의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 만들기 및 하위 폴더](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [프로젝트 추가](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [새 프로젝트 저장](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
