@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [실시간 보고서 개요](admin/realtime/realtime.md)
       + [실시간 보고서 구성](admin/realtime/t-realtime-admin.md)
       + [지원되는 실시간 지표 및 차원](admin/realtime/realtime-metrics.md)
+   + [활동 관리자 보고](admin/reporting-activity.md)
    + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
    + 서버측 전달 {#server-side-forwarding}
       + [서버측 전달 개요](admin/c-server-side-forwarding/ssf.md)
