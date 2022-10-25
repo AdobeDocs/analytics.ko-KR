@@ -3,10 +3,12 @@ description: Workspace에서 폴더를 추가하는 방법 알아보기
 keywords: Analysis Workspace
 title: Workspace에서 폴더 추가
 feature: Workspace Basics
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+hide: true
+hidefromtoc: true
+source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 100%
 
 1. **다음으로 이동**&#x200B;을 선택합니다. 폴더 선택 대화 상자가 표시됩니다.
 
-1. 드롭다운 목록에서 폴더 이름을 선택합니다.
+1. 드롭다운 메뉴에서 폴더 이름을 선택합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
