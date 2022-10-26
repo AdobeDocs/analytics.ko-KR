@@ -5,7 +5,7 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
 source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
       + [머천다이징 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [통화 코드](admin/currency.md)
    + [사용자 정의 보고서 설명](admin/custom-desc-admin.md)
-   + [사용자 정의 달력](admin/custom-calendar.md)
+   + [사용자 정의 캘린더](admin/custom-calendar.md)
    + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
@@ -70,12 +70,12 @@ ht-degree: 100%
       + [처리 규칙에 사용 가능한 차원](admin/c-processing-rules/processing-rule-dimensions.md)
       + 처리 규칙 예 {#processing-rules-examples}
          + [처리 규칙 예](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [쿼리 문자열 매개 변수에서 캠페인 ID 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+         + [쿼리 문자열 매개변수에서 캠페인 ID 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [제품 개요 페이지에서 제품 보기 이벤트 설정](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [범주와 페이지 이름을 연결하여 하위 범주 추가](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [eVar 값을 prop에 복사하여 경로 결정](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [보고서에서 값 정리](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [쿼리 문자열 매개 변수를 사용하여 내부 검색어 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+         + [쿼리 문자열 매개변수를 사용하여 내부 검색어 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
          + [eVar에 컨텍스트 데이터 변수 복사](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
          + [컨텍스트 데이터 변수를 사용하여 이벤트 설정](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [히트에서 이벤트 제거](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
@@ -121,7 +121,7 @@ ht-degree: 100%
    + [기능 액세스 수준](company/feature-access-levels.md)
    + [웹 서비스](company/web-services-admin.md)
    + [Report Builder 보고서](company/report-builder-reports-admin.md)
-   + [Single Sign-On](company/single-signon-admin.md)
+   + [SSO(Single Sign-On)](company/single-signon-admin.md)
    + [보류 중인 작업](company/pending-actions-admin.md)
    + [공동 브랜딩](company/co-branding-admin.md)
    + [보고서 세트 숨기기](company/c-hide-report-suites.md)
@@ -148,7 +148,7 @@ ht-degree: 100%
       + [새 보고서 세트 - 설정](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [소스 보고서 세트에서 복사되지 않은 설정](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [보고서 세트 그룹 만들기](c-manage-report-suites/t-create-rs-group.md)
-+ 사용자 및 제품 관리(이전) {#user-product-management}
++ 사용자 및 제품 관리 (레거시) {#user-product-management}
    + [사용자 및 제품 관리](user-management2/user-management.md)
    + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
       + [Admin Console로 Analytics 사용자 마이그레이션](user-management2/user-migration/c-migration-tool.md)
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [레이블 지정 모범 사례](c-data-governance/gdpr-analytics-ids.md)
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
-   + [데이터 개인정보 보호 및 데이터 커넥터 (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [데이터 개인정보 보호 및 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [데이터 개인정보 보호 용어](c-data-governance/gdpr-terminology.md)
    + [개인정보 보호 보고 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
