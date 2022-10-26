@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 100%
+source-wordcount: '3537'
+ht-degree: 96%
 
 ---
 
@@ -38,11 +38,13 @@ ht-degree: 100%
 | `c_color` | 색 팔레트의 비트 깊이입니다. [색상 심도](/help/components/dimensions/color-depth.md) 차원 계산의 일부로 사용됩니다. AppMeasurement는 JavaScript 함수 `screen.colorDepth()`를 사용합니다. | char (20) |
 | `campaign` | [추적 코드](/help/components/dimensions/tracking-code.md) 차원에 사용되는 변수입니다. | varchar (255) |
 | `carrier` | Adobe Advertising Cloud 통합 변수입니다. 이동통신사를 지정합니다. `carrier` 조회 테이블을 참조합니다. | varchar (100) |
+| `ch_hdr` | HTTP 요청 헤더를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
+| `ch_js` | 사용자 에이전트 클라이언트 힌트 JavaScript API를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | `channel` | [사이트 섹션](/help/components/dimensions/site-section.md) 차원에 사용되는 변수입니다. | varchar (100) |
 | `click_action` | 더 이상 사용되지 않습니다. 이전 Clickmap 도구에서 클릭한 링크된 주소입니다. | varchar (100) |
 | `click_action_type` | 더 이상 사용되지 않습니다. 이전 Clickmap 도구의 링크 유형입니다.<br>0: HREF URL<br>1: 사용자 지정 ID<br>2: JavaScript onClick 이벤트<br>3: 양식 요소 | tinyint 부호 없음 |
 | `click_context` | 더 이상 사용되지 않습니다. 링크 클릭이 발생한 페이지 이름입니다. 이전 Clickmap 도구의 일부입니다. | varchar (255) |
-| `click_context_type` | 더 이상 사용되지 않습니다. click_context에 설정된 페이지 이름이 있는지 또는 기본값이 페이지 URL로 설정되어 있는지 여부를 나타냅니다.<br>0: 페이지 URL<br>1: 페이지 이름 | tinyint 부호 없음 |
+| `click_context_type` | 더 이상 사용되지 않습니다. 다음 경우에 `click_context` 페이지 이름 또는 페이지 URL의 기본값이 있었습니다.<br>0: 페이지 URL<br>1: 페이지 이름 | tinyint 부호 없음 |
 | `click_sourceid` | 더 이상 사용되지 않습니다. 클릭한 링크의 페이지에 있는 위치의 숫자 ID입니다. 이전 Clickmap 도구의 일부입니다. | int 부호 없음 |
 | `click_tag` | 더 이상 사용되지 않습니다. 클릭한 HTML 요소의 유형입니다. | char (10) |
 | `clickmaplink` | Activity Map 링크 | varchar (255) |
@@ -88,8 +90,9 @@ ht-degree: 100%
 | `hitid_low` | 히트를 식별하기 위해 `hitid_high`와 함께 사용됩니다. | bigint 부호 없음 |
 | `homepage` | 더 이상 사용되지 않습니다. 현재 URL이 브라우저의 홈 페이지인지 여부를 나타냅니다. | char (1) |
 | `hourly_visitor` | 히트가 새 시간별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
-| `ip` | 이미지 요청의 HTTP 헤더를 기반으로 한 IP 주소입니다. | char (20) |
+| `ip` | 이미지 요청의 HTTP 헤더를 기반으로 한 IPv4 주소입니다. 함께 사용할 수 없음 `ipv6`; 이 열에 난독화되지 않은 IP 주소가 포함되어 있는 경우, `ipv6` 이 비어 있습니다. | char (20) |
 | `ip2` | 사용되지 않습니다. IP 주소를 기반으로 하는 VISTA 규칙을 포함하는 보고서 세트용 백엔드 참조 변수입니다. | char (20) |
+| `ipv6` | 가능한 경우 압축된 IPv6 주소입니다. IP 주소가 `2001:cDBa:0000:0000:0000:0000:3257:0052`, 데이터 피드는 다음을 포함합니다 `2001:cdba::3257:52`. 함께 사용할 수 없음 `ip`; 이 열에 난독화되지 않은 IP 주소가 포함되어 있는 경우, `ip` 이 비어 있습니다. | varchar (40) |
 | `j_jscript` | 브라우저가 지원하는 JavaScript 버전입니다. | char (5) |
 | `java_enabled` | Java가 사용되는지를 나타내는 플래그입니다. <br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 없음 | char (1) |
 | `javascript` | `j_jscript`를 기반으로 하는 JavaScript 버전의 조회 ID입니다. 조회 테이블을 사용합니다. | tinyint 부호 없음 |
@@ -145,7 +148,8 @@ ht-degree: 100%
 | `mobilerelaunchcampaigntrackingcode` | 컨텍스트 데이터 변수 `a.launch.campaign.trackingcode`에서 수집됩니다. 실행 캠페인에 대한 추적 코드로 획득에 사용됩니다. | varchar (255) |
 | `mobileresolution` | 모바일 디바이스의 해상도입니다. `[Width] x [Height]` 픽셀 단위. | varchar (255) |
 | `monthly_visitor` | 방문자가 현재 월에 고유한지를 나타내는 플래그입니다. | tinyint 부호 없음 |
-| `mvvar1` - `mvvar3` | 목록 변수 값입니다. 구현에 따라 구분된 사용자 지정 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
+| `mvvar1` - `mvvar3` | 현재 히트에 설정되어 있거나 이전 히트에서 지속된 변수 값을 나열합니다. 구현에 따라 구분된 사용자 지정 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
+| `mvvar1_instances` - `mvvar3_instances` | 현재 히트에서 설정된 목록 변수 값입니다. `post_mvvar1_instances` - `post_mvvar3_instances`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
 | `namespace` | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (50) |
 | `new_visit` | 현재 히트가 새 방문인지를 판별하는 플래그입니다. 30분 동안 방문 활동이 없으면 Adobe 서버에 의해 설정됩니다. | tinyint 부호 없음 |
 | `os` | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. `os` 조회를 사용합니다. | int 부호 없음 |
