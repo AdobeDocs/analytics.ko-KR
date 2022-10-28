@@ -5,14 +5,16 @@ keywords: 우수 사례;실패;시간 초과;문제 해결;느림
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
 ---
 
 # 보고 우수 사례 및 문제 해결
+
+{{ra-eol}}
 
 *이 도움말 페이지는 Reports &amp; Analytics 우수 사례를 참조합니다. Analysis Workspace의 경우 [Analysis Workspace 성능 최적화](../analysis-workspace/workspace-faq/optimizing-performance.md)를 참조하십시오. Data Warehouse의 경우 [Data Warehouse 우수 사례](/help/export/data-warehouse/data-warehouse-bp.md)를 참조하십시오.*
 

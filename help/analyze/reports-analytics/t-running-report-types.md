@@ -5,7 +5,7 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 97%
@@ -13,6 +13,8 @@ ht-degree: 97%
 ---
 
 # 다른 보고서 유형 실행
+
+{{ra-eol}}
 
 다른 보고서 유형을 실행하는 단계.
 
@@ -41,7 +43,7 @@ ht-degree: 97%
 
 [!UICONTROL 폴아웃 보고서]는 순서가 미리 정해진 페이지들의 방문자 수를 보여줍니다. 이는 또한 각 단계 간 전환 및 폴아웃 비율을 보여주기도 합니다.
 
-Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR) 패널을 확인하십시오!
+Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 패널을 확인하십시오!
 
 1. [!UICONTROL Adobe Analytics]에서 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 폴아웃]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 폴아웃 보고서] 페이지에서 **[!UICONTROL 폴아웃 보고서 빌더 시작]**&#x200B;을 클릭합니다. 
@@ -57,7 +59,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.c
 
 페이지 흐름 보고서는 방문자가 페이지를 액세스하여 사이트를 탐색하는 순서를 보여줍니다. 이 보고서는 응답하는 데 도움이 됩니다.
 
-Analysis Workspace에서 [흐름 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)을 확인하십시오!
+다음을 확인하십시오 [플로우 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Analysis Workspace에서
 
 예를 들어 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 다음 페이지 흐름]**&#x200B;을 클릭합니다.
 
@@ -69,7 +71,7 @@ Analysis Workspace에서 [흐름 시각화](https://experienceleague.adobe.com/d
 
 ## 예외 항목 탐지 보고서 실행 {#task_4808C96327354D789C075823F5C3A049}
 
-[예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko-KR)만 Analysis Workspace에서 실행할 수 있습니다.
+실행할 수 있습니다 [예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko-KR) Analysis Workspace에서만 사용할 수 있습니다.
 
 ## 실시간 보고서 실행 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -79,7 +81,7 @@ Analysis Workspace에서 [흐름 시각화](https://experienceleague.adobe.com/d
 
 실시간 보고에서는 개요 보고서와 세부 사항 보고서, 이렇게 두 개의 기본 보고서를 제공합니다. 이 보고서들은 각각 많은 reportlet으로 구성됩니다.
 
-자세한 내용은 [실시간 보고 개요](/help/components/c-real-time-reporting/realtime.md)를 참조하십시오.
+자세한 내용은 [실시간 보고 개요](/help/components/c-real-time-reporting/realtime.md) 추가 정보.
 
 1. **[!UICONTROL 개요]** 보고서 및 그 구성 요소를 살펴 봅니다.  ![](assets/rtr_overview_report.png)
 

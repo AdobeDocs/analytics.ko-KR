@@ -3,17 +3,19 @@ description: Reports & Analytics 메뉴의 현재 데이터 포함 옵션을 사
 subtopic: Current Data
 title: 현재 데이터
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '566'
 ht-degree: 97%
 
 ---
 
 # 현재 데이터
+
+{{ra-eol}}
 
 Reports &amp; Analytics 메뉴의 현재 데이터 포함 옵션을 사용하면 일반적으로 데이터가 모두 처리되고 완료되기 전에 최신 Analytics 데이터를 볼 수 있습니다. 현재 데이터에는 대부분의 지표가 몇 분 이내에 표시되어, 신속한 의사 결정에 필요한 실용적인 데이터를 제공합니다.
 
@@ -25,7 +27,7 @@ Reports &amp; Analytics 메뉴의 현재 데이터 포함 옵션을 사용하면
 
 * 완전히 처리된 데이터를 사용하는 Analysis Workspace를 사용합니다.
 * 현재 데이터 보고서 설정에서 &#39;아니요&#39;를 클릭하여 완전히 처리된 데이터만 사용합니다.
-* 관리 콘솔의 제품 프로필에서 &#39;현재 데이터&#39; 권한 항목을 제거하여 관리자가 아닌 사용자에게 이 옵션이 표시되지 않도록 합니다. 자세한 내용은 관리자 가이드의 [Analytics 도구에 대한 제품 프로필 권한](/help/admin/admin-console/permissions/analytics-tools.md)을 참조하십시오.
+* 관리 콘솔의 제품 프로필에서 &#39;현재 데이터&#39; 권한 항목을 제거하여 관리자가 아닌 사용자에게 이 옵션이 표시되지 않도록 합니다. 자세한 내용은 [Analytics 도구에 대한 제품 프로필 권한](/help/admin/admin-console/permissions/analytics-tools.md) 자세한 내용은 관리자 사용 안내서에서 를 참조하십시오.
 
 데이터 가용성 우선 순위 지정으로 인해 현재 데이터는 세그먼트, 분류, 분석, 경로 지정 및 일부 지표와 함께 사용할 수 없습니다. 이러한 기능 중 하나를 사용하면 보고서에서 현재 데이터가 &#39;아니요&#39;로 강제 설정되고 현재 데이터를 사용할 수 없는 이유를 설명하는 노란색 알림이 표시됩니다.
 

@@ -3,17 +3,19 @@ description: Reports & Analytics에서 경고를 사용합니다.
 subtopic: Alerts
 title: 경고
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: 경고
+feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '837'
 ht-degree: 96%
 
 ---
 
 # 경고
+
+{{ra-eol}}
 
 ## 경고 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 

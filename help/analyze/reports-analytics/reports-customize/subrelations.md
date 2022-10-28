@@ -2,17 +2,19 @@
 description: 전체 하위 관계는 모든 전환 보고서에서 활성화되므로 다른 eVar로 eVar를 분류할 수 있습니다. 보고서 테이블의 분류 기준 메뉴는 표준 분석 보고 메뉴에 일치시켜 선택 사항을 일관되게 유지합니다.
 title: 하위 관계
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
 
 # 하위 관계
+
+{{ra-eol}}
 
 전체 하위 관계는 모든 전환 보고서에서 활성화되므로 다른 eVar로 eVar를 분류할 수 있습니다. 보고서 테이블의 분류 기준 메뉴는 표준 분석 보고 메뉴에 일치시켜 선택 사항을 일관되게 유지합니다.
 

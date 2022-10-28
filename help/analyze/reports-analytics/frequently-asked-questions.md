@@ -5,14 +5,16 @@ title: Reports & Analytics에 대해 자주 묻는 질문
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
 
 ---
 
 # FAQ
+
+{{ra-eol}}
 
 Reports &amp; Analytics에 대한 대부분의 FAQ 중 일부에 대한 답변 및 문제 해결 제안 사항을 제공합니다. 구현에 대한 FAQ에 대해서는 구현 안내서의 [FAQ](/help/implement/faq.md)를 참조하십시오.
 

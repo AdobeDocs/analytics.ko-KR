@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1059'
 ht-degree: 100%
 
 ---
@@ -305,7 +305,6 @@ ht-degree: 100%
       + [보고서 메뉴](reports-analytics/overview/reports-menu.md)
       + [보고서 기능](reports-analytics/overview/report-overview.md)
       + [공통 용어](reports-analytics/overview/overview-common-terms.md)
-      + [iOS용 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [보고서 표시 설정 및 탐색](reports-analytics/report-settings.md)
    + [보고서 예약 및 배포](reports-analytics/scheduling.md)
    + [예약된 보고서에 대한 서비스 종료](reports-analytics/scheduled-reports-eol.md)

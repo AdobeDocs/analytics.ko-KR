@@ -4,14 +4,16 @@ description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
 ---
 
 # 보고서
+
+{{ra-eol}}
 
 Reports &amp; Analytics의 각 보고서는 전용 차원 및 기본 지표를 사용합니다. 각 보고서에서 지표를 변경하고 원할 경우 분류를 추가할 수 있습니다. 다음 목록은 각 보고서에서 사용되는 차원을 제공합니다.
 

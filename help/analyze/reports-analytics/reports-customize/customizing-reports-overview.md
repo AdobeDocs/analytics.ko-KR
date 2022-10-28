@@ -2,17 +2,19 @@
 description: 보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
 title: 보고서 사용자 지정 개요
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 99%
+source-wordcount: '921'
+ht-degree: 100%
 
 ---
 
 # 보고서 사용자 지정 개요
+
+{{ra-eol}}
 
 보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
 
@@ -86,7 +88,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
-> 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ko-KR)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
+> 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
 
 Reports &amp; Analytics에서 등급 보고서 간 날짜 비교:
 

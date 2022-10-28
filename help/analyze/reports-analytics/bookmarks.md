@@ -6,14 +6,16 @@ uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
 ---
 
 # 북마크 관리자
+
+{{ra-eol}}
 
 책갈피를 이용하여 가장 많이 사용하는 보고서에 액세스할 수 있습니다. 사용자가 만드는 책갈피는 Experience Cloud에 추가되고 Data Connectors와 같은 통합 기능에서 사용할 수 있습니다.
 
@@ -63,7 +65,7 @@ t_bookmarks_managing.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_delete_folder.png" id="image_AFB6A02475664785BA90485EA289749A"> </img> </p> </td> 
-   <td colname="col2"> <p> 책갈피 폴더를 삭제합니다. 이 옵션을 클릭하기 전에 책갈피를 선택합니다. </p> </td> 
+   <td colname="col2"> <p> 책갈피 폴더를 삭제합니다. 이 옵션을 클릭하기 전에 책갈피를 선택하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><img placement="inline"  src="assets/bookmark_sort.png" id="image_8B4BE31182004357890B6532CCE5B2C2"> </img> </p> </td> 

@@ -2,17 +2,19 @@
 description: Reports & Analytics에서 일반적으로 사용되는 마케팅 분석 용어에 대한 소개입니다.
 title: 공통 용어
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Reports & Analytics 기본 사항
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '722'
 ht-degree: 93%
 
 ---
 
 # 공통 용어
+
+{{ra-eol}}
 
 일반적으로 사용되는 Adobe Analytics 용어에 대한 소개입니다.
 
