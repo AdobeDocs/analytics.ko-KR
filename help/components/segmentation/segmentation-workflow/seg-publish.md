@@ -3,10 +3,10 @@ description: 대상 라이브러리, Target 및 Audience Manager에서 마케팅
 title: Experience Cloud에 세그먼트 게시
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1306'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1324'
+ht-degree: 96%
 
 ---
 
@@ -55,12 +55,12 @@ Adobe Analytics 세그먼트를 Experience Cloud에 게시하면 세그먼트를
 1. 세그먼트용 제목과 설명을 입력합니다. 이렇게 하지 않으면 저장할 수 없습니다.
 1. **[!UICONTROL 이 세그먼트를 Experience Cloud에 게시 (*보고서 세트*용)]**&#x200B;을 선택합니다.
 
-![](assets/publish-ec.png)
+![게시 Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Adobe Analytics 숫자를 Audience Manager 숫자와 비교할 때 총 &quot;고유 방문자 수&quot; 세그먼트 미리보기 대신 Analytics의 세그먼트 미리보기를 볼 경우 &quot;Experience Cloud ID를 가진 방문자&quot;를 사용하도록 하십시오.
+>Adobe Analytics 숫자를 Audience Manager 번호와 비교할 때 총 &quot;고유 방문자 수&quot; 세그먼트 미리 보기 대신 Analytics의 세그먼트 미리 보기를 볼 때 &quot;Experience Cloud ID를 가진 방문자&quot;를 사용하도록 하십시오.
 >
->![](assets/seg-vis-ecid.png)
+>![ECID를 가진 방문자 세그먼트](assets/seg-vis-ecid.png)
 
 | 요소 | 설명 |
 |---|---|
@@ -83,7 +83,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 1. [!UICONTROL Analytics > 구성 요소 > 세그먼트]로 이동합니다.
 1. 새로운 [!UICONTROL 게시됨] 열을 보십시오. 예/아니요는 세그먼트가 Experience Cloud에 게시되었는지 여부를 나타냅니다.
 
-![](assets/publish-status.png)
+![게시 상태](assets/publish-status.png)
 
 ## [!DNL Audience Manager] UUID 검색
 
@@ -94,15 +94,15 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 
 다음 스크린샷은 브라우저에서 AAM UUID를 검색하고 이를 Audience Manager 방문자 프로필 뷰어에서 사용하여 트레이트 및 세그먼트 멤버십을 확인하는 방법을 보여 줍니다.
 
-**방법 1: Adobe Experience Cloud Debugger 사용**
+### 방법 1: Adobe Experience Cloud Debugger 사용
 
 1. Chrome 웹 스토어에서 [Adobe Experience Cloud 디버거](/help/implement/validate/debugger.md)를 다운로드하여 설치합니다.
 1. 페이지를 로드할 때 디버거를 실행합니다.
 1. Audience Manager 섹션으로 스크롤하여 현재 브라우저 페이지에 설정된 AAM UUID를 찾습니다(아래 예에서 `50814298273775797762943354787774730612`).
 
-![](assets/debugger.jpg)
+![디버거](assets/debugger.jpg)
 
-**방법 2: Chrome 개발자 도구 사용 (또는 기타 브라우저 개발자 도구)**
+### 방법 2: Chrome 개발자 도구 사용 (또는 기타 브라우저 개발자 도구)
 
 1. 페이지를 로드하기 전에 Chrome 개발자 도구를 실행합니다.
 1. 페이지를 로드하고 애플리케이션 > 쿠키를 선택합니다. AAM UUID는 서드파티 Demdex 쿠키 (아래 예에서 [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR))에서 설정해야 합니다. 필드 demdex는 브라우저에 설정된 AAM UUID입니다(아래 예에서 `50814298273775797762943354787774730612`).
@@ -113,7 +113,7 @@ Experience Cloud에 게시된 세그먼트를 삭제하려면 먼저 게시를 �
 
 [!UICONTROL 방문자 프로필 뷰어]가 로드되면 기본적으로 브라우저의 AAM UUID가 사용됩니다. 다른 사용자에 대한 트레이트 인식을 확인하는 경우 UUID 필드에 UUID를 입력하고 [!UICONTROL 새로 고침]을 클릭합니다. 자세한 내용은 [방문자 프로필 뷰어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ko-KR)를 참조하십시오.
 
-![](assets/aam-vpv.png)
+![Audience Manager 프로필 뷰어](assets/aam-vpv.png)
 
 ## [!DNL Audience Manager]에서 세그먼트 트레이트 보기
 
@@ -121,12 +121,12 @@ AAM에서, Analytics가 Experience Cloud와 세그먼트를 공유할 때 주어
 
 1. [!DNL Audience Manager]에서 [!UICONTROL 대상 데이터 > 트레이트 > 분석 트레이트]로 이동합니다. Experience Cloud 조직에 매핑되어 있는 각 Analytics 보고서 세트에 대한 폴더가 표시됩니다. 이러한 폴더 (트레이트, 세그먼트 및 Data Sources용)는 프로필 및 대상/사람 핵심 서비스가 시작되거나 이 서비스에 대한 사용 권한이 제공되면 생성됩니다.
 1. [!DNL Audience Manager]와 공유하려고 했던 세그먼트를 이전에 만든 보고서 세트의 폴더를 선택합니다. 만든 세그먼트/대상이 표시됩니다. 세그먼트를 공유할 때에는 [!DNL Audience Manager]에 다음의 두 가지 상황이 발생합니다.
-* 우선 데이터가 없는 트레이트가 만들어집니다. 세그먼트가 [!DNL Analytics]에 게시되고 약 8시간 후 ECID 목록이 사용할 수 있도록 준비되고 [!DNL Audience Manager] 및 다른 Experience Cloud 솔루션과 공유됩니다.
+   * 우선 데이터가 없는 트레이트가 만들어집니다. 세그먼트가 [!DNL Analytics]에 게시되고 약 8시간 후 ECID 목록이 사용할 수 있도록 준비되고 [!DNL Audience Manager] 및 다른 Experience Cloud 솔루션과 공유됩니다.
 
-![](assets/aam-traits.png)
+      ![Audience Manager 트레이트](assets/aam-traits.png)
 
-* 트레이트가 하나인 세그먼트가 만들어집니다. 이 세그먼트는 세그먼트가 게시된 보고서 세트와 연결된 데이터 소스를 사용합니다.
-* 이제 트레이트 만료가 16일로 설정됩니다(이전에는 2일).
+   * 트레이트가 하나인 세그먼트가 만들어집니다. 이 세그먼트는 세그먼트가 게시된 보고서 세트와 연결된 데이터 소스를 사용합니다.
+   * 이제 트레이트 만료가 16일로 설정됩니다(이전에는 2일).
 
 ## [!DNL Adobe Target]에서 세그먼트 보기
 

@@ -3,10 +3,10 @@ description: 가져오기를 사용하여 분석 보고에 대한 분류 데이�
 title: 분류 데이터 파일
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 업로드한 파일은 BOM 문자 인코딩 없이 UTF-8을 사용해야 합니다.
 * v2.1 파일 형식이 지정되고 셀이 적절히 [이스케이프](/help/components/classifications/importer/t-classifications-escape-data.md) 처리된 경우, 탭, 새 줄 및 인용 부호와 같은 특수 문자를 셀 내에 임베드할 수 있습니다. 특수 문자에는 다음이 포함됩니다.
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ ht-degree: 100%
    * v2.0에서는 인용 부호를 무시하고, 지정된 키 및 값의 모든 부분이라고 가정합니다. 예를 들어, 이 값을 &quot;This is &quot;&quot;some value&quot;&quot;&quot;라고 생각해 보십시오. v2.0은 이를 &quot;This is &quot;&quot;some value&quot;&quot;&quot;라고 문자 그대로 해석합니다.
    * v2.1에서는 분류에게 인용 부호가 Excel 파일에 사용된 파일 형식의 일부라고 가정하도록 합니다. 따라서 v2.1은 위의 예에 다음과 같이 형식을 지정합니다. This is &quot;some value&quot;
    * 파일에 v2.1이 지정되어 있지만, 실제로 원하는 것은 v2.0이면 문제가 발생할 수 있습니다. 즉, 인용 부호가 Excel 형식에서 잘못된 방법으로 사용되는 경우 문제가 발생할 수 있습니다. 예를 들어, 다음 값이 있는 경우: &quot;VP NO REPS&quot; S/l Dress w/ Overlay v2.1에서, 이는 잘못된 형식(값을 여는 따옴표와 닫는 따옴표로 둘러싸야 하며, 실제 값의 일부인 따옴표는 따옴표로 에스케이프 처리를 해야 함)이며, 이 이후에는 분류가 작동하지 않습니다.
-   * 따라서, 반드시 업로드하는 파일에서 헤더(셀 C1)를 변경하여 파일 형식을 v2.0으로 변경하거나, 파일 전체에서 Excel 인용 부호 사용을 제대로 구현하십시오.
+   * 다음 중 하나를 수행해야 합니다. 업로드하는 파일의 헤더(셀 C1)를 변경하여 파일 형식을 v2.0으로 변경하거나, 파일 전체에서 Excel 따옴표를 올바르게 구현합니다.
 
 * 데이터 파일의 첫 번째(설명 아님) 행은 열 제목을 포함하여 해당 열의 분류 데이터를 식별하는데 사용됩니다. 가져오기 기능을 사용하려면 열 제목이 특정 형식이어야 합니다. 자세한 내용은 [열 제목 형식](/help/components/classifications/importer/c-saint-data-files.md)을 참조하십시오.
 * 데이터 파일에서 헤더 행 바로 뒤에 오는 것은 데이터 행입니다. 각 데이터 행은 각 열 제목에 대해 하나의 데이터 필드를 포함해야 합니다.
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 **예:** 캠페인 A 비용이 10,000달러인 경우, [!UICONTROL Campaigns^~Cost] 열에는 값 10000이 포함되며 [!UICONTROL Campaigns^~Cost~per] 열에는 [!UICONTROL FIXED]가 포함됩니다. 캠페인 A의 비용을 보고서에 표시할 때 보고서의 날짜 범위 동안 10,000달러가 캠페인 A의 고정 비용으로 표시됩니다.
 
-**예:** 캠페인 B 비용이 클릭당 2달러인 경우 [!UICONTROL Campaigns^~Cost] 열에는 2가 포함되며 **[!UICONTROL Campaigns^~Cost~per]** 열에는 [!UICONTROL CLICK]이 포함됩니다. 캠페인 B의 비용을 보고서에 표시할 때 Adobe는 보고서의 날짜 범위에 대해 (2 * [클릭 횟수])로 바로 계산합니다. 이렇게 하면 캠페인 B가 수행한 클릭 횟수를 기반으로 한 총 비용 계산이 제공됩니다.
+**예:** 캠페인 B 비용이 클릭당 2달러인 경우 [!UICONTROL Campaigns^~Cost] 열에는 2가 포함되며 **[!UICONTROL Campaigns^~Cost~per]** 열에는 [!UICONTROL CLICK]이 포함됩니다. 캠페인 B의 비용을 보고서에 표시할 때 Adobe은 (2)를 계산합니다 &#42; [클릭 수])을 클릭하여 보고서를 만들 수 있습니다. 이렇게 하면 캠페인 B가 수행한 클릭 횟수를 기반으로 한 총 비용 계산이 제공됩니다.
 
 ### 날짜
 
@@ -203,4 +203,4 @@ ht-degree: 100%
 
 ## 분류 문제 해결
 
-* [일반적인 업로드 문제](https://helpx.adobe.com/kr/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.
+* [일반적인 업로드 문제](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): 잘못된 파일 형식 및 파일 콘텐츠로 인해 발생하는 문제를 설명하는 기술 자료 문서입니다.

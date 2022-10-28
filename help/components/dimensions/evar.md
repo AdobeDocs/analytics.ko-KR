@@ -1,12 +1,12 @@
 ---
-title: 차원에 대한 eVar
-description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
+title: eVar(차원)
+description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일
 
 ## 차원 항목
 
-eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오.
+eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. 에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 설계 문서](/help/implement/prepare/solution-design.md).
 
 ## eVar 작동 방식
 

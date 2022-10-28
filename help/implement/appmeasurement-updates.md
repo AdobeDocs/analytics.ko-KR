@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '2321'
-ht-degree: 100%
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -275,7 +275,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 >[!IMPORTANT]
 >
->[!DNL Experience Cloud] ID 서비스 버전 1.6.0을 사용하려면 [!DNL JavaScript]용 [!DNL AppMeasurement] 버전 1.6.3 이상이 *필요합니다*. Experience Cloud ID 서비스 버전 1.6.0으로 업그레이드하려면 코드 [!DNL AppMeasurement] 버전 1.6.3 이상을 사용하는지 확인하십시오.
+>[!DNL Experience Cloud] ID 서비스 버전 1.6.0을 사용하려면 [!DNL JavaScript]용 [!DNL AppMeasurement] 버전 1.6.3 이상이 *필요합니다*. Experience Cloud ID 서비스 버전 1.6.0으로 업그레이드하려면 AppMeasurement 1.6.3 이상을 사용하는지 확인하십시오.
 
 ## 버전 1.6.2
 

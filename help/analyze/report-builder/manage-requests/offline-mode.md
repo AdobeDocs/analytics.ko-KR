@@ -5,10 +5,10 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 1. Report Builder 메뉴에서 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다.
 
-   ![](assets/offline_mode.png)
+   ![오프라인 모드](assets/offline_mode.png)
 
 1. **[!UICONTROL 요청 생성 및 편집을 위한 오프라인 모드를 켭니다.]** 옆의 확인란을 선택합니다.
 1. **[!UICONTROL 지표 데이터를 다음으로 표시]** 필드에 요청에서 반환하려는 자리 표시자 데이터를 입력합니다. 예를 들어 &quot;1&quot;을 입력합니다.
@@ -30,7 +30,7 @@ ht-degree: 100%
 1. 이제 요청 마법사를 사용하여 오프라인 모드에서 요청을 만들고 실행합니다.
 1. 자리 표시자로 &quot;1&quot;을 지정하면 요청이 다음과 같이 표시됩니다.
 
-   ![](assets/offline_mode_example.png)
+   ![오프라인 모드 예](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >

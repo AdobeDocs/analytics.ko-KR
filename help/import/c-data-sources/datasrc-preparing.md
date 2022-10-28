@@ -5,10 +5,10 @@ title: Data Sources 사용 준비
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 데이터 소스에 사용할 데이터 차원을 정의한 후에는 차원 데이터를 변수에 매핑하여 마케팅 보고서에 통합하십시오. 표준 보고서(예: 제품, 추적 코드, 검색 키워드)나 전환 트래픽 변수(eVar)를 사용합니다.
 
-eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. 데이터 소스에서 데이터 차원을 수신할 eVar를 선택한 후에는 적절하게 이름을 지정하십시오.
+eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. 데이터 소스에서 데이터 차원을 받을 eVar을 선택한 후에는 이름을 적절하게 지정해야 합니다.
 
 Analytics 도움말의 [성공 이벤트](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
 

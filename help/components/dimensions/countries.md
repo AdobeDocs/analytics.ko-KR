@@ -3,16 +3,16 @@ title: 국가
 description: 히트가 발생한 국가입니다.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 89%
 
 ---
 
 # 국가
 
-국가 차원은 히트가 시작된 국가를 보고합니다. 이 차원은 사이트를 방문할 때 방문자가 발생하는 가장 방문 빈도가 높은 국가가 어디인지 결정하는 데 유용합니다. 이 데이터를 사용하면 이러한 국가에서의 마케팅 활동에 주력하거나 기본 언어가 다른 국가에서 사이트 경험이 최적인지 확인할 수 있습니다.
+국가 차원은 히트가 시작된 국가를 보고합니다. 이 차원은 사이트를 방문할 때 방문자가 발생하는 가장 방문 빈도가 높은 국가가 어디인지 결정하는 데 유용합니다. 이 데이터를 사용하여 이러한 국가에서의 마케팅 활동에 주력하거나 기본 언어가 다른 국가에서 사이트 경험이 최적인지 확인할 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 

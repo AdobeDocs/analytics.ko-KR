@@ -4,10 +4,10 @@ title: 플로우 시각화 구성
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 89%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
    * 드롭다운 메뉴를 사용하여 지표 또는 차원을 선택합니다.
    * 차원 또는 지표 목록에서 항목을 드래그합니다.
-   * 검색을 사용하여 원하는 지표 또는 차원을 찾습니다.
+   * 검색 을 사용하여 찾고 있는 차원 또는 지표를 찾습니다.
 
    예를 들어 체크아웃 이벤트로 이어지는 모든 항목을 추적한다고 가정합시다. 체크아웃 관련 차원 또는 지표(예: [!UICONTROL 주문 있음])를 **[!UICONTROL 다음으로 끝남]** 놓기 영역으로 끌 수 있습니다.
 

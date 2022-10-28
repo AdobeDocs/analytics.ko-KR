@@ -3,10 +3,10 @@ title: Analytics for Digital Assistants 구현
 description: Amazon Alexa 또는 Google Home과 같은 Digital Assistant에 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '1264'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1265'
+ht-degree: 98%
 
 ---
 

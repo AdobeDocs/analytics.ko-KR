@@ -3,10 +3,10 @@ title: 데이터 피드 만들기 또는 편집
 description: 데이터 피드를 만들거나 편집하는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 데이터 피드를 만들면 Adobe에서 원시 데이터 파일을 보낼 위치와 각 파일에 포함할 내용을 알 수 있습니다. 이 페이지에는 데이터 피드를 만들 때 사용자 지정할 수 있는 개별 설정이 나열됩니다.
 
-데이터 피드에 대한 기본 지식이 있으면 이 페이지를 읽는 데 도움이 됩니다. [데이터 피드 개요](data-feed-overview.md)를 참조하여 데이터 피드를 만들기 위한 요구 사항을 충족하는지 확인하십시오.
+데이터 피드에 대한 기본 지식이 있으면 이 페이지를 읽는 데 도움이 됩니다. 자세한 내용은 [데이터 피드 개요](data-feed-overview.md) 데이터 피드를 만들기 위한 요구 사항을 충족하는지 확인합니다.
 
 ## 피드 정보 필드
 

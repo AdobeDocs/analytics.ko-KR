@@ -3,10 +3,10 @@ title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 67%
+source-wordcount: '478'
+ht-degree: 63%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 67%
 
 목록 변수는 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 이 변수는 동일한 히트에서 여러 값을 포함할 수 있다는 점을 제외하면 eVar와 유사하게 작동합니다. 목록 변수에는 문자 제한이 없습니다.
 
-[솔루션 디자인 문서](../../prepare/solution-design.md)에 각 목록 변수의 사용 방법과 해당 논리를 반드시 기록하십시오.
+각 목록 변수의 사용 방법과 해당 논리를 [솔루션 설계 문서](../../prepare/solution-design.md).
 
 >[!NOTE]
 >

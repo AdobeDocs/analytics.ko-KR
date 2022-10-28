@@ -1,18 +1,18 @@
 ---
-description: 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 레이블 및 해당 정의를 숙지하십시오.
+description: 보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다.
 title: 보고서 세트 데이터에 레이블 지정
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
 # 보고서 세트 데이터에 레이블 지정
 
-보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 레이블 및 해당 정의를 숙지하십시오.
+보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 레이블과 그 정의를 먼저 숙지하십시오.
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 **예**: 데이터 제어자는 해당 데이터 개인정보 보호 요청을 처리하기 위해 데이터 주체의 이메일 주소와 쿠키 ID를 수집하도록 계획합니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다. 이메일 주소 및 쿠키 ID에 대한 레이블을 작성하려면 Analytics에서 Adobe Cloud Platform의 DULE (Data Usage Labeling &amp; Enforcement) 프레임워크를 사용해야 합니다.
 
-1. Analytics에서 **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]** > **[!UICONTROL (보고서 세트 선택)]**&#x200B;으로 이동합니다.![](assets/privacy_rs_settings.png)
+1. Analytics에서 **[!UICONTROL 관리]** > **[!UICONTROL 데이터 거버넌스]** > **[!UICONTROL (보고서 세트 선택)]**&#x200B;으로 이동합니다.![개인정보 보호 설정](assets/privacy_rs_settings.png)
 
 1. 레이블을 지정할 변수 그룹을 선택합니다.
 
-   ![](assets/variables.png)
+   ![변수](assets/variables.png)
 
    * **표준 차원** (Adobe Analytics의 기본 차원)
    * **표준 지표** (Adobe Analytics의 기본 지표)
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 1. (선택 사항) 각 변수 옆에 있는 정보 (i) 아이콘을 클릭하면 최근 90일 동안의 가장 일반적인 값을 더 잘 파악할 수 있습니다. (이 기능은 Analytics UI에서 사용할 수 없으므로 데이터 처리 차원에 사용할 수 없습니다.)
 
-   ![](assets/info.png)
+   ![정보](assets/info.png)
 
 1. 확인란을 클릭하여 하나 이상의 변수를 선택한 다음 오른쪽에 있는 **[!UICONTROL 편집]** 아이콘을 선택하여 하나 이상의 변수를 편집합니다.
 
-   ![](assets/edit.png)
+   ![편집](assets/edit.png)
 
 1. **ID 데이터** 레이블 대화 상자가 자동으로 열립니다. 이러한 레이블은 자체적으로 사용하거나 다른 데이터와 함께 사용하여 개인을 식별하거나 개인과 직접 연락할 수 있는 데이터를 분류합니다. 이러한 옵션에 대한 자세한 내용은 [ID 데이터 레이블 (DULE)](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)을 참조하십시오.
 
@@ -51,15 +51,15 @@ ht-degree: 100%
    >
    >DULE (Data Usage Labeling &amp; Enforcement) 프레임워크는 Adobe Experience Cloud에서 데이터에 대한 메타데이터를 캡처, 통신 및 사용하는 동일한 방법을 솔루션/서비스/플랫폼에 제공하도록 설계되었습니다. 메타데이터를 통해 데이터 제어자는 개인정보에 해당하는 데이터, 중요 데이터, 데이터와 연관된 계약 제한 사항을 나타낼 수 있습니다.
 
-   ![](assets/identity_labels.png)
+   ![ID 레이블](assets/identity_labels.png)
 
 1. **중요 데이터** 섹션을 열고 지리적 위치 데이터를 분류하는 중요 데이터 레이블을 설정합니다. 이러한 옵션에 대한 자세한 내용은 [중요 데이터 레이블 (DULE)](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)을 참조하십시오.
 
-   ![](assets/sensitive_data.png)
+   ![비활성 데이터](assets/sensitive_data.png)
 
 1. 데이터 개인정보 보호 데이터 섹션을 열어 **데이터 거버넌스** 레이블을 설정합니다. 이 섹션을 사용하여 데이터 개인정보 보호 액세스 및 삭제 요청에 대해 각 변수를 처리하는 방법을 Adobe에 지시하고, 이러한 요청에 대한 데이터 주체 ID를 찾기 위해 스캔해야 하는 변수를 정의합니다. 이러한 옵션에 대한 자세한 내용은 [데이터 거버넌스 레이블 (데이터 개인정보 보호)](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)을 참조하십시오.
 
-   ![](assets/privacy_labels.png)
+   ![개인 정보 레이블](assets/privacy_labels.png)
 
 1. 모든 레이블 지정을 완료한 후 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 1. 이 그룹에서 변수 중 일부 또는 전체를 선택합니다.
 1. 데이터 거버넌스 대화 상자의 오른쪽 맨 위에 있는 **[!UICONTROL 보고서 세트에 레이블 복사]**&#x200B;를 클릭합니다.
 
-   ![](assets/apply_as_template.png)
+   ![템플릿으로 적용](assets/apply_as_template.png)
 
 1. **[!UICONTROL 모두 선택]**&#x200B;을 선택하여 선택된 변수의 레이블을 모든 보고서 세트에 복사하거나 레이블을 복사할 개별 보고서 세트를 선택합니다.
 

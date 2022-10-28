@@ -3,10 +3,10 @@ title: Prop
 description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일
 
 ## 차원 항목
 
-prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 prop에 대한 차원 항목을 결정합니다. [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)에 각 prop의 목적과 일반적인 차원 항목을 반드시 기록하십시오.
+prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 prop에 대한 차원 항목을 결정합니다. 에 각 prop의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 설계 문서](/help/implement/prepare/solution-design.md).
 
 ## 대/소문자 구분
 

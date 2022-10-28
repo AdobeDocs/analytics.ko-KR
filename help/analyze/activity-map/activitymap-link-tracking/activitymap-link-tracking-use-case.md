@@ -5,10 +5,10 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 61%
+source-wordcount: '363'
+ht-degree: 57%
 
 ---
 
@@ -57,13 +57,13 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
    <td colname="col3">
      <br/>
      <br/>
-    권장 사항 패널<br/>
+    추천 패널<br/>
      <br/>
      <br/>
-    권장 사항 패널<br/>
+    추천 패널<br/>
      <br/>
      <br/>
-    권장 사항 패널<br/>
+    추천 패널<br/>
      <br/>
      <br/>
    </td>
@@ -75,11 +75,12 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 ## s_objectID를 사용하여 링크 ID 사용자 지정 {#section_01B0D463397B4837B2D46F087A6E5937}
 
-페이지의 링크 또는 링크 위치에 대해 고유한 개체 ID `s_objectID`를 작성함으로써 Activity Map 추적을 개선하거나 Activity Map을 사용하여 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다.  변수에 대해 자세히 알려면 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)를 클릭하십시오.`s_objectID`
+고유 개체 ID를 만들면 `s_objectID`를 입력하면 페이지의 링크 또는 링크 위치에 대해 Activity Map 추적을 개선하거나 Activity Map을 사용하여 링크 URL보다는 링크 유형 또는 위치에 대해 보고할 수 있습니다.  변수에 대해 자세히 알려면 [여기](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)를 클릭하십시오.`s_objectID`
 
 >[!IMPORTANT]
 >
->Activity Map에서 `s_objectID`을 사용할 때는 후행 세미콜론(`;`)이 필요합니다.
+>후행 세미콜론(`;`) 를 사용해야 합니다 `s_objectID` Activity Map에서 확인하십시오.
+
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -119,13 +120,13 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
    <td colname="col3">
      <br/>
      <br/>
-    권장 사항 패널<br/>
+    추천 패널<br/>
      <br/>
      <br/>
-    권장 사항 패널<br/>
+    추천 패널<br/>
      <br/>
      <br/>
-    권장 사항 패널<br/>
+    추천 패널<br/>
      <br/>
      <br/>
    </td>
@@ -135,13 +136,13 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 
 ## 영역 사용자 지정 {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-각 &quot;Buy&quot; 링크에 고유한 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 `"id"` 매개 변수를 추가하십시오.
+각 &quot;Buy&quot; 링크에 고유한 영역이 정의되어 있도록 하여 영역을 사용자 지정할 수 있습니다. 이렇게 하려면 을(를) 추가합니다 `"id"` 매개 변수를 각 &quot;Buy&quot; 앵커 태그의 상위 항목 중 하나에 추가합니다.
 
 >[!NOTE]
->영역 식별자로 `"id"` 매개 변수만 사용하도록 엄격히 제한되어 있지는 않습니다. JavaScript 변수 `"s.ActivityMap.regionIDAttribute"`를 사용하여 자신의 식별자를 설정할 수도 있습니다.
 >
->
-><table id="table_250DB52A869C466B942517BABA1C287B">
+>귀하는 `"id"` 매개 변수를 영역 식별자로 사용합니다. JavaScript 변수를 사용하여 자체 식별자를 설정할 수도 있습니다 `"s.ActivityMap.regionIDAttribute"`.
+
+<table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
   <tr>
    <th colname="col02" class="entry"> 코드 샘플 </th>
@@ -180,13 +181,13 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
    <td colname="col3">
      <br/>
      <br/>
-    영역<br/>
+    지역<br/>
      <br/>
      <br/>
-    region b<br/>
+    지역 b<br/>
      <br/>
      <br/>
-    region c<br/>
+    지역 c<br/>
      <br/>
      <br/>
    </td>
@@ -197,11 +198,12 @@ s_objectID 변경을 사용하여 링크 ID를 사용자 지정하고, 영역을
 ## AppMeasurement ActivityMap 모듈 파일 사용자 지정 {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
-수정한 코드를 테스트하여 제대로 작동하는지 확인하십시오. Adobe는 수정된 코드가 어떻게 동작하는지에 대해 책임이 없습니다.
+>
+>수정한 코드를 테스트하여 제대로 작동하는지 확인하십시오. Adobe는 수정된 코드가 어떻게 동작하는지에 대해 책임이 없습니다.
 
 다음은 AppMeasurement.js 파일에 포함(수정된 형식으로)할 수 있는 **일반** 링크/영역 함수에 대한 두 가지 예입니다.
 
-```
+```js
 s.ActivityMap.link = function(ele, linkName) {
   if (linkName) {
     return linkName;
@@ -214,9 +216,9 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-`linkName`이 `s.tl()` 호출 중에 전달됩니다.
+다음 `linkName` 에 대한 호출 동안 전달됩니다. `s.tl()`.
 
-```
+```js
 s.ActivityMap.region = function(ele) {
   var className,
   classNames = {
