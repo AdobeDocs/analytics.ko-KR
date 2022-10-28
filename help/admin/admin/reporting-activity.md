@@ -3,9 +3,9 @@ description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안
 title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 36%
 
 ---
@@ -45,6 +45,8 @@ Reporting Activity Manager 개요 페이지를 열면 활성화된 기본 보고
 | **[!UICONTROL 가상 보고서 세트]** | 이 기본 보고서 세트로 제공하는 모든 가상 보고서 세트를 표시합니다. 가상 보고서 세트는 적용된 필터링 및 세분화의 추가적인 수준으로 인해 보고 요청을 더욱 복잡하게 합니다. 가상 보고서 세트에서 오는 모든 요청은 결합되고 기본 보고서 세트로 내려옵니다.<p>예를 들어 5개의 VRS에서 10개의 요청이 있는 경우 기본 수준 보고서 세트에 50개의 요청이 있습니다. 이러한 방식으로 매우 빠르게 용량에 도달할 수 있습니다. |
 | **[!UICONTROL 사용 용량]** | 실시간으로 보고서 세트의 보고 용량이 얼마나 사용되고 있는지를 백분율로 표시합니다. |
 | **[!UICONTROL 상태]** | 네 가지 가능한 상태 표시기는 다음과 같습니다. <ul><li>**빨간색 - [!UICONTROL 용량]**: 보고서 세트는 보고 용량 측면에서 제한을 받습니다. (95% - 100%) </li><li>**노란색 - [!UICONTROL 거의 용량]**: 이 보고서 세트는 최대 용량에 도달할 위기에 있습니다. (90% - 94%)</li><li>**녹색 - [!UICONTROL 좋아요]**: 보고 용량은 충분합니다. (0% - 90%)</li><li>**회색 - [!UICONTROL 상태 보류 중]**: ?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### 기타 보고 활동 작업
 
