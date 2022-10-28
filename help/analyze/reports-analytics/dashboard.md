@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
-See [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.
+ [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.
 
 ## 대시보드 만들기 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
