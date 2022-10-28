@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 95%
+source-wordcount: '1426'
+ht-degree: 94%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 노트(2022년 10월/11월)
 
-**마지막 업데이트**: 2022년 10월 25일
+**마지막 업데이트**: 2022년 10월 28일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 제공 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -21,7 +21,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL 주요 지표 요약]** 시각화 | [!UICONTROL 주요 지표 요약] 시각화를 통해 단일 기간 내에서 중요한 지표의 추세를 확인할 수 있습니다. 또한 두 기간에 걸쳐 지표의 성능을 비교할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ko) | 2022년 10월 5일 | 2023년 10월 19일 |
-| **대소문자를 구분하지 않는 다중 값 변수** | 대소문자를 구분하지 않는 다중 값 변수의 경우, 데이터 피드의 `mvvar1` - `mvvar3`에 저장된 값은 더 이상 자동으로 소문자로 변환되지 않습니다. 대신 데이터 피드(및 Analytics Source Connector를 통해 Adobe Experience Platform 및 CJA로 전달된 데이터)는 페이지에서 전달된 원래의 사례를 반영하게 됩니다. | 해당 사항 없음 | 2022년 10월 24일 |
+| **대소문자를 구분하지 않는 다중 값 변수** | 대/소문자를 구분하지 않는 다중 값 변수의 경우 다음 변수에 저장된 값 `mvvar1 - mvvar3` 및 `post_mvvar1 - post_mvvar3` 에서 데이터 피드는 더 이상 자동으로 소문자화되지 않습니다. 대신 데이터 피드(및 Analytics Source Connector를 통해 Adobe Experience Platform 및 CJA로 전달된 데이터)는 페이지에서 전달된 원래의 사례를 반영하게 됩니다. | 해당 사항 없음 | 2022년 10월 24일 |
 
 {style=&quot;table-layout:auto&quot;}
 
