@@ -3,9 +3,9 @@ description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안
 title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '928'
 ht-degree: 33%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 ## 권한
 
-보고 활동을 관리하려면 Analytics 시스템 관리자 권한이 필요합니다. 제품 관리자 액세스 권한이 충분하지 않습니다.
+보고 활동을 관리하려면 Analytics 제품 관리자 권한이 필요합니다.
 
 ## 보고서 대기열 보기
 
@@ -118,7 +118,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 요청을 취소하려면
 
-1. 하나 이상의 왼쪽에 있는 상자를 선택합니다 **[!UICONTROL 쿼리 ID]** 테이블에서 **[!UICONTROL 요청 취소]** 아래에 있습니다.
+1. 하나 이상의 왼쪽에 있는 상자를 선택합니다 **[!UICONTROL 쿼리 ID]** 테이블에서 **[!UICONTROL 요청 취소]** 아래에 있습니다. (세부 사항을 보고 요청을 일괄적으로 취소할 수도 있습니다. [!UICONTROL 사용자], [!UICONTROL 프로젝트], 또는 [!UICONTROL 애플리케이션])
 1. 에서 **[!UICONTROL x 쿼리 취소]** 표시되는 창에서 필요한 경우 취소 메시지를 수정할 수 있습니다.
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
@@ -127,7 +127,6 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 예를 들어 Workspace의 애플리케이션 사용자는 프로젝트에 다음 알림이 표시됩니다.
 
 ![취소 사용자 알림](assets/cancel-user-facing.png)
-
 
 ## FAQ
 

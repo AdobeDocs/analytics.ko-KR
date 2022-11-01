@@ -4,10 +4,10 @@ keywords: 개인정보 보호
 title: 개인정보 보호 개요
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
 | 운영 체제 | 예 |
 | ISP/연결 속도 | 예 |
 | 디스플레이 설정 (화면 크기 및 해상도) | 예 |
-| IP 주소 (위치를 어림잡는 데 사용) | 예* |
+| IP 주소 (위치를 어림잡는 데 사용) | 예&#42; |
 | 소비자가 고객 사이트에서 양식에 제공하는 정보 | 예 |
 | 소비자가 소셜 사이트에서 양식에 제공하는 정보 | **아니요** |
 | 소비자가 광고를 클릭했는지 여부 | 예 |
@@ -49,7 +49,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
 | 광고 캠페인 성공률 | 예 |
 | 제품 정보 (색상, 가격, 스타일, 사진 등) | 예 |
 
-*Adobe 고객이 IP를 제거하도록 선택하지 않는 경우.
+&#42;Adobe 고객이 IP를 제거하도록 선택하지 않는 경우.
 
 ## 기타 개인정보 보호 고려 사항 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 독일 </td> 
-   <td colname="col2"> <p>고객에게 적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, 고객은 Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들은 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. </p> <p>Adobe는 Analytics에 대해 바이에른 데이터 보호 기구(Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA)가 검토하고 승인한 데이터 처리 계약(Vertrag fuer Auftragsdatenverarbeitung – ADV)을 마련했습니다. ADV는 독일어와 영어로 이용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>Adobe과 함께 Adobe Analytics에 대한 데이터 처리 계약이 아직 없는 경우 Adobe 계정 관리자 또는 고객 성공 관리자에게 문의하여 Adobe 법무부와 협력하여 DPA를 받으십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col4"> <p>멀티채널 분석, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
