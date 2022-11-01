@@ -3,10 +3,10 @@ description: 보고 활동 관리자를 사용하여 최대 보고 시간 동안
 title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
+source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 37%
+ht-degree: 33%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 37%
 >
 >이 기능은 현재 Beta 테스트가 실시되고 있습니다.
 
-보고 활동 관리자를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다. 관리자는 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다.
+다음 [!UICONTROL 보고 Activity Manager] 조직의 각 보고서 세트에 대한 보고 용량을 볼 수 있습니다. 관리자는 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다.
 
 조직이 보고 요청 용량 한도에 도달하고 보고 성능이 저하되는 경우, 이제 Adobe 고객 관리 센터 또는 엔지니어링의 개입 없이 보고 관련 문제를 자가 진단할 수 있습니다. 하나의 인터페이스 내에서 보고 대기열을 손쉽게 관리하고 즉각적인 조치를 취해 사용자 경험을 개선할 수 있습니다. 이 도구는:
 
 * 보고서 세트에 걸쳐 현재 보고 용량에 대해 실시간으로 알려줍니다.
-* 대기열에 있거나 진행 중인지 여부에 관계없이 현재 보고 요청에 대해 상세한 보고서 쿼리 정보를 제공합니다.
+* 큐에 있거나 진행 중인 현재 보고 요청에 대한 자세한 보고서 쿼리 정보를 제공합니다.
 * 용량을 확보하기 위해 일부 보고 요청의 우선 순위를 지정하고 다른 보고 요청을 취소하여 보고 대기열을 최적화하도록 해 줍니다. 즉, 이 보고가 지금 필요한지, 아니면 더 긴급한 보고를 위해 취소해야 하는지 등의 질문을 실시간으로 제기할 수 있습니다.
 
 ## 보고 활동 관리자 액세스
@@ -35,7 +35,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 ## 보고서 대기열 보기
 
-Reporting Activity Manager 개요 페이지를 열면 활성화된 기본 보고서 세트 목록이 표시됩니다.
+를 열 때 [!UICONTROL 보고 활동] Manager 개요 페이지에는 활성화된 기본 보고서 세트 목록이 표시됩니다.
 
 ![보고서 대기열](assets/reporting-activity1.png)
 
@@ -104,7 +104,7 @@ Reporting Activity Manager 개요 페이지를 열면 활성화된 기본 보고
 | [!UICONTROL 실행 시간] | 쿼리가 실행된 시간입니다. |
 | [!UICONTROL 대기 시간] | 쿼리가 처리되기 전에 기다린 시간입니다. 일반적으로 용량이 충분하면 &quot;0&quot;에 있습니다. |
 | [!UICONTROL 시작 시간] | 쿼리 처리가 시작된 시기(관리자의 현지 시간). |
-| [!UICONTROL 애플리케이션] | Reporting Activity Manager에서 지원하는 응용 프로그램은 다음과 같습니다. <ul><li>Analysis Workspace UI</li><li>작업 공간 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상 등</li><li>1.4 또는 2.0 API의 API 호출</li><li>지능형 경고</li></ul> |
+| [!UICONTROL 애플리케이션] | 에서 지원하는 응용 프로그램 [!UICONTROL 보고 Activity Manager] 입니다. <ul><li>Analysis Workspace UI</li><li>작업 공간 예약된 프로젝트</li><li>Report Builder</li><li>빌더 UI: 세그먼트, 계산된 지표, 주석, 대상 등</li><li>1.4 또는 2.0 API의 API 호출</li><li>지능형 경고</li></ul> |
 | [!UICONTROL 사용자] | 쿼리를 시작한 사용자입니다. |
 | [!UICONTROL 프로젝트] | 저장된 작업 공간 프로젝트 이름, API 보고서 ID 등 (메타데이터는 다양한 애플리케이션에 따라 다를 수 있습니다.) |
 | [!UICONTROL 월 경계] | 요청이 교차하는 월별 경계의 수입니다. 이로 인해 요청의 복잡성이 추가됩니다. |
