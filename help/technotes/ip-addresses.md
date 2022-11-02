@@ -3,10 +3,10 @@ title: Adobe Analytics에서 사용하는 IP 및 도메인
 description: 조직 방화벽이 Adobe에서 생성하는 IP 주소를 차단하는 경우 이 목록을 사용하여 방화벽 설정을 업데이트하십시오.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 7f55b7d0fae6031088cd31d9605a9b47aa5fce9f
+source-git-commit: 0a66bc86ee68259fdb5835bf7bccd9b5e9455990
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 79%
+source-wordcount: '400'
+ht-degree: 73%
 
 ---
 
@@ -33,9 +33,9 @@ Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 �
 | Microsoft Azure Blob 저장소 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## 모든 Adobe Analytics 데이터 수집 IP 주소 블록
+## 모든 Adobe Analytics IP 주소 블록
 
-다음 표는 Adobe Analytics에 대한 모든 표준 데이터 수집 서버 및 지역 데이터 수집 서버를 다룹니다. 개별 AWS 호스트는 포함되지 않습니다.
+다음 표에는 Adobe Analytics에 사용되는 모든 Adobe 소유 IP 주소가 나와 있습니다. 공용 클라우드에서 호스팅되는 모든 서비스를 포함하지 않습니다.
 
 | IP 블록 (CIDR 표기법) |
 | --- |
@@ -43,6 +43,7 @@ Adobe Analytics는 다음 호스트를 사용하여 성능과 제품 경험을 �
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
+| `185.34.188.0/22` |
 
 ## 데이터 수집 및 FTP IP 주소 블록
 
