@@ -3,9 +3,9 @@ description: 가상 보고서 세트는 Adobe Analytics 데이터를 세그먼�
 title: 가상 보고서 세트 개요
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '807'
 ht-degree: 95%
 
 ---
@@ -59,6 +59,8 @@ ht-degree: 95%
 | DL 보고서, 책갈피, 대시보드, 타겟, 경고, 세그먼트, 계산된 지표 만들기 지원... | 예 | 예 |
 | 권한 그룹에 개별적으로 추가할 수 있음 | 예 | 예 |
 | 관리 기능을 사용하여 이 보고서 세트의 개별 설정을 수정할 수 있음 (관리 > 보고서 세트) | 아니요 (설정은 상위에서 상속됨) | 예 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 가상 보고서 세트와 다중 세트 태깅 결합 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
