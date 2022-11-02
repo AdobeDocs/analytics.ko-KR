@@ -6,8 +6,8 @@ feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '401'
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Activity Map 브라우저 플러그인은
 1. Chrome의 주소 표시줄로 돌아가서 `chrome://extensions`를 입력합니다.
 1. 개발자 모드 상자를 선택합니다.
 1. 압축을 푼 확장 기능 로드를 클릭하고 팝업에서 압축을 해제한 폴더를 선택합니다.
-1. 도구 모음에 Adobe Analytics 아이콘 ![](assets/an_icon.png){width=&quot;70px&quot;}이 추가된 것이 보이면 다운로드가 제대로 된 것입니다. 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
+1. 도구 모음에 Adobe Analytics 아이콘 ![](assets/an_icon.png){width="70px"}이 추가된 것이 보이면 다운로드가 제대로 된 것입니다. 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
 
 ## Firefox에 Activity Map 플러그인 설치 {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -45,7 +45,7 @@ Activity Map 브라우저 플러그인은
 1. **[!UICONTROL Activity Map 플러그인 설치]**&#x200B;를 클릭합니다.
 1. 다음 메시지가 나타나면 **[!UICONTROL 허용]**&#x200B;을 클릭합니다.![](assets/firefox_install2.png)
 1. **[!UICONTROL 지금 설치]**&#x200B;를 클릭합니다.
-1. 오른쪽 상단에 있는 **[!UICONTROL 메뉴 열기]** 아이콘을 클릭하고 **[!UICONTROL 추가 기능]**&#x200B;을 선택합니다. ![](assets/firefox_install3.png){width=&quot;250px&quot;}
+1. 오른쪽 상단에 있는 **[!UICONTROL 메뉴 열기]** 아이콘을 클릭하고 **[!UICONTROL 추가 기능]**&#x200B;을 선택합니다. ![](assets/firefox_install3.png){width="250px"}
 1. Activity Map이 Firefox 추가 기능 중 하나로 나열되어 있어야 합니다.
 1. 도구 모음에 Adobe Analytics 아이콘 ![](assets/an_icon.png)이 추가된 것이 보이면 다운로드가 제대로 된 것입니다. 이제 페이지에서 [Activity Map을 시작](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)할 수 있습니다.
 

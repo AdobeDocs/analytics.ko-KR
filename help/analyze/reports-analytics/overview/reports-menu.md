@@ -6,8 +6,8 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '855'
+workflow-type: tm+mt
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
 
 보고서는 계층적 열 보기를 사용하여 표시됩니다. 화살표 키를 사용하여 메뉴를 빨리 표시하고 찾으려면 **[!UICONTROL 모든 보고서 보기]**&#x200B;를 클릭하거나 슬래시 키(/)를 누른 다음 아래쪽 화살표 키를 누릅니다. Esc 키를 눌러 현재 보고서를 변경하지 않고 메뉴를 닫거나, Enter 키를 눌러 선택한 보고서를 로드합니다.
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 개별 보고서에 대한 자세한 내용은 [차원](/help/components/dimensions/overview.md)을 참조하십시오.
 

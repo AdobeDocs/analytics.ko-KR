@@ -6,8 +6,8 @@ feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '403'
+workflow-type: tm+mt
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Activity Map 모듈은 AppMeasurement.js 파일의 일부입니다(파일의 맨
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. 이 보고서를 **[!UICONTROL 지역별 Activity Map 링크]**&#x200B;로 분류하여 해당 페이지에 대한 링크/지역을 봅니다.  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
+1. 이 보고서를 **[!UICONTROL 지역별 Activity Map 링크]**&#x200B;로 분류하여 해당 페이지에 대한 링크/지역을 봅니다.  ![](assets/am_breakdown.png){width="400px"}
 
 ## 2단계. Activity Map 보고서 활성화 {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
