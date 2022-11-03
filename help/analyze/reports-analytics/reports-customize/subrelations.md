@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 하위 관계 작동 방식 {#section_5BD862BB74FE411B96B59204520E4631}
 
-하위 관계가 작동 방식을 보여줄 수 있도록 하려면, 다음 예를 고려해 보십시오.
+하위 관계가 작동 방식을 보여 줄 수 있도록 하려면 다음 예를 고려해 보십시오.
 
 1. 사용자가 Campaign_A를 통해 사이트를 방문하며 홈 페이지에 도달합니다.
 1. 사용자가 &#39;cats&#39;를 검색하고, 검색 결과가 표시됩니다. eVar1이 내부 검색어 추적을 유지합니다.
