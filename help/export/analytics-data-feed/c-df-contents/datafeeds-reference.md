@@ -6,9 +6,9 @@ title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 5c178ebb86ffc932ecd90f427bd0a5e90fada1cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3526'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 96%
 | **`ch_js`** | 사용자 에이전트 클라이언트 힌트 JavaScript API를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`channel`** | [사이트 섹션](/help/components/dimensions/site-section.md) 차원에 사용되는 변수입니다. | varchar (100) |
 | **`click_action`** | 더 이상 사용되지 않습니다. 이전 Clickmap 도구에서 클릭한 링크된 주소입니다. | varchar (100) |
-| **`click_action_type`** | 더 이상 사용되지 않습니다. 이전 Clickmap 도구의 링크 유형입니다.<br>0: HREF URL<br>1: 사용자 지정 ID<br>2: JavaScript onClick 이벤트<br>3: 양식 요소 | tinyint 부호 없음 |
+| **`click_action_type`** | 더 이상 사용되지 않습니다. 이전 Clickmap 도구의 링크 유형입니다.<br>0: HREF URL<br>1: 사용자 정의 ID<br>2: JavaScript onClick 이벤트<br>3: 양식 요소 | tinyint 부호 없음 |
 | **`click_context`** | 더 이상 사용되지 않습니다. 링크 클릭이 발생한 페이지 이름입니다. 이전 Clickmap 도구의 일부입니다. | varchar (255) |
-| **`click_context_type`** | 더 이상 사용되지 않습니다. 다음 경우에 `click_context` 페이지 이름 또는 페이지 URL의 기본값이 있었습니다.<br>0: 페이지 URL<br>1: 페이지 이름 | tinyint 부호 없음 |
+| **`click_context_type`** | 더 이상 사용되지 않습니다. `click_context`에 설정된 페이지 이름이 있는지 또는 기본값이 페이지 URL로 설정되어 있는지 여부를 나타냅니다.<br>0: 페이지 URL<br>1: 페이지 이름 | tinyint 부호 없음 |
 | **`click_sourceid`** | 더 이상 사용되지 않습니다. 클릭한 링크의 페이지에 있는 위치의 숫자 ID입니다. 이전 Clickmap 도구의 일부입니다. | int 부호 없음 |
 | **`click_tag`** | 더 이상 사용되지 않습니다. 클릭한 HTML 요소의 유형입니다. | char (10) |
 | **`clickmaplink`** | Activity Map 링크 | varchar (255) |
@@ -61,7 +61,7 @@ ht-degree: 96%
 | **`curr_rate`** | 거래가 발생했을 때 환율입니다. Adobe에서는 현재 날짜의 환율을 결정하기 위해 XE와 파트너 관계를 맺습니다. | decimal (24,12) |
 | **`currency`** | 거래 중에 사용된 통화 코드입니다. | char (8) |
 | **`cust_hit_time_gmt`** | 타임스탬프가 활성화된 보고서 세트 전용입니다. Unix 시간을 기반으로 한, 히트와 함께 전송된 타임스탬프입니다. | int |
-| **`cust_visid`** | 사용자 지정 방문자 ID가 설정되면 이 열에 채워집니다. | varchar (255) |
+| **`cust_visid`** | 사용자 정의 방문자 ID가 설정되면 이 열에 채워집니다. | varchar (255) |
 | **`daily_visitor`** | 히트가 새 일일 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`date_time`** | 보고서 세트의 시간대를 기반으로 한 읽을 수 있는 형식으로 된 히트 시간입니다. | datetime |
 | **`domain`** | [도메인](/help/components/dimensions/domain.md) 차원에 사용되는 변수입니다. 방문자의 인터넷 액세스 포인트를 기반으로 합니다. | varchar (100) |
@@ -69,8 +69,8 @@ ht-degree: 96%
 | **`duplicate_purchase`** | 중복이라는 이유로 이 히트에 대한 구매 이벤트가 무시됨을 나타내는 플래그입니다. | tinyint 부호 없음 |
 | **`duplicated_from`** | 히트 복사 VISTA 규칙을 포함하는 보고서 세트에서만 사용됩니다. 히트가 복사된 보고서 세트를 나타냅니다. | varchar (40) |
 | **`ef_id`** | `ef_id` Adobe Advertising Cloud 통합에 사용됩니다. | varchar (255) |
-| **`evar1 - evar250`** | 사용자 지정 변수 1-250입니다. [eVar](/help/components/dimensions/evar.md) 차원에 사용됩니다. 각 조직은 eVar을 다르게 사용합니다. 조직이 각 eVar을 채우는 방법에 대한 자세한 정보는 조직별 솔루션 설계 문서를 참조하십시오. | varchar (255) |
-| **`event_list`** | 히트로 트리거된 이벤트를 나타내는 숫자 ID들을 쉼표로 구분한 목록입니다. 기본 이벤트와 사용자 지정 이벤트 1-1000을 모두 포함합니다. `event.tsv` 조회를 사용합니다. | 텍스트 |
+| **`evar1 - evar250`** | 사용자 정의 변수 1-250입니다. [eVar](/help/components/dimensions/evar.md) 차원에 사용됩니다. 각 조직은 eVar을 다르게 사용합니다. 조직이 각 eVar을 채우는 방법에 대한 자세한 정보는 조직별 솔루션 설계 문서를 참조하십시오. | varchar (255) |
+| **`event_list`** | 히트로 트리거된 이벤트를 나타내는 숫자 ID들을 쉼표로 구분한 목록입니다. 기본 이벤트와 사용자 정의 이벤트 1-1000을 모두 포함합니다. `event.tsv` 조회를 사용합니다. | text |
 | **`exclude_hit`** | 히트가 보고에서 제외됨을 나타내는 플래그입니다. `visit_num` 열은 제외된 히트에 대해 증가하지 않습니다.<br>1: 사용되지 않음. 스크랩된 기능 일부입니다.<br>2: 사용되지 않음. 스크랩된 기능 일부입니다.<br>3: 더 이상 사용되지 않음. 사용자 에이전트 제외<br>4: IP 주소에 따라 제외<br>5: 중요한 히트 정보가 없음. 예를 들어 `page_url`, `pagename`, `page_event` 또는 `event_list`<br>6: JavaScript가 현재 히트를 제대로 처리하지 않음<br>7: VISTA 규칙에서와 같이 계정별 제외<br>8: 사용되지 않음. 대체 계정별 제외.<br>9: 사용되지 않음. 스크랩된 기능 일부입니다.<br>10: 잘못된 통화 코드<br>11: 타임스탬프 전용 보고서 세트에서 히트에 타임스탬프가 없거나 히트에 타임스탬프가 아닌 보고서 세트의 타임스탬프가 포함됨<br>12: 사용되지 않음. 스크랩된 기능 일부입니다.<br>13: 사용되지 않음. 스크랩된 기능 일부입니다.<br>14: Analytics 히트와 일치하지 않는 Target 히트<br>15: 현재 사용되지 않음.<br>16: Analytics 히트와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
 | **`first_hit_page_url`** | 방문자의 첫 번째 URL입니다. | varchar (255) |
 | **`first_hit_pagename`** | [원래 시작 페이지](/help/components/dimensions/entry-dimensions.md) 차원에 사용되는 변수입니다. 방문자의 원래 시작 페이지 이름입니다. | varchar (100) |
@@ -90,9 +90,9 @@ ht-degree: 96%
 | **`hitid_low`** | 히트를 식별하기 위해 `hitid_high`와 함께 사용됩니다. | bigint 부호 없음 |
 | **`homepage`** | 더 이상 사용되지 않습니다. 현재 URL이 브라우저의 홈 페이지인지 여부를 나타냅니다. | char (1) |
 | **`hourly_visitor`** | 히트가 새 시간별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
-| **`ip`** | 이미지 요청의 HTTP 헤더를 기반으로 한 IPv4 주소입니다. 함께 사용할 수 없음 `ipv6`; 이 열에 난독화되지 않은 IP 주소가 포함되어 있는 경우, `ipv6` 이 비어 있습니다. | char (20) |
+| **`ip`** | 이미지 요청의 HTTP 헤더를 기반으로 한 IPv4 주소입니다. `ipv6`과 상호 배타적입니다. 이 열에 난독화되지 않은 IP 주소가 포함된 경우 `ipv6`은 비어 있습니다. | char (20) |
 | **`ip2`** | 사용되지 않습니다. IP 주소를 기반으로 하는 VISTA 규칙을 포함하는 보고서 세트용 백엔드 참조 변수입니다. | char (20) |
-| **`ipv6`** | 가능한 경우 압축된 IPv6 주소입니다. 함께 사용할 수 없음 `ip`; 이 열에 난독화되지 않은 IP 주소가 포함되어 있는 경우, `ip` 이 비어 있습니다. | varchar (40) |
+| **`ipv6`** | 압축된 IPv6 주소입니다(사용 가능한 경우). `ip`과 상호 배타적입니다. 이 열에 난독화되지 않은 IP 주소가 포함된 경우 `ip`은 비어 있습니다. | varchar(40) |
 | **`j_jscript`** | 브라우저가 지원하는 JavaScript 버전입니다. | char (5) |
 | **`java_enabled`** | Java가 사용되는지를 나타내는 플래그입니다. <br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 없음 | char (1) |
 | **`javascript`** | `j_jscript`를 기반으로 하는 JavaScript 버전의 조회 ID입니다. 조회 테이블을 사용합니다. | tinyint 부호 없음 |
@@ -103,7 +103,7 @@ ht-degree: 96%
 | **`latlon1`** | 위치 (10km까지) | varchar (255) |
 | **`latlon23`** | 위치 (100m까지) | varchar (255) |
 | **`latlon45`** | 위치 (1m까지) | varchar (255) |
-| **`mc_audiences`** | 방문자가 속한 Audience Manager 세그먼트 ID 목록입니다. `post_mc_audiences`열은 구분 기호를 `--**--`로 변경합니다. | 텍스트 |
+| **`mc_audiences`** | 방문자가 속한 Audience Manager 세그먼트 ID 목록입니다. `post_mc_audiences`열은 구분 기호를 `--**--`로 변경합니다. | text |
 | **`mcvisid`** | Experience Cloud 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자입니다. | varchar (255) |
 | **`mobile_id`** | 사용자가 모바일 디바이스를 사용하는 경우 디바이스의 숫자 ID입니다. | int |
 | **`mobileaction`** | 모바일 작업입니다. Mobile Services에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 경로를 지정하는 자동 작업을 허용합니다. | varchar (100) |
@@ -148,18 +148,18 @@ ht-degree: 96%
 | **`mobilerelaunchcampaigntrackingcode`** | 컨텍스트 데이터 변수 `a.launch.campaign.trackingcode`에서 수집됩니다. 실행 캠페인에 대한 추적 코드로 획득에 사용됩니다. | varchar (255) |
 | **`mobileresolution`** | 모바일 디바이스의 해상도입니다. `[Width] x [Height]` 픽셀 단위. | varchar (255) |
 | **`monthly_visitor`** | 방문자가 현재 월에 고유한지를 나타내는 플래그입니다. | tinyint 부호 없음 |
-| **`mvvar1`** - `mvvar3` | 현재 히트에 설정되어 있거나 이전 히트에서 지속된 변수 값을 나열합니다. 구현에 따라 구분된 사용자 지정 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
-| **`mvvar1_instances`** - `mvvar3_instances` | 현재 히트에서 설정된 목록 변수 값입니다. `post_mvvar1_instances` - `post_mvvar3_instances`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
+| **`mvvar1`** - `mvvar3` | 현재 히트 또는 이전 히트에서 지속된 변수 값을 나열합니다. 구현에 따라 구분된 사용자 정의 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | text |
+| **`mvvar1_instances`** - `mvvar3_instances` | 현재 히트에 설정된 목록 변수 값입니다. `post_mvvar1_instances` - `post_mvvar3_instances`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | text |
 | **`namespace`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (50) |
 | **`new_visit`** | 현재 히트가 새 방문인지를 판별하는 플래그입니다. 30분 동안 방문 활동이 없으면 Adobe 서버에 의해 설정됩니다. | tinyint 부호 없음 |
 | **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. `os` 조회를 사용합니다. | int 부호 없음 |
-| **`p_plugins`** | 더 이상 사용되지 않습니다. 브라우저에 사용할 수 있는 플러그인 목록. JavaScript 함수 `navigator.plugins()`를 사용합니다. | 텍스트 |
-| **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 지정 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
-| **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 지정 링크의 URL입니다. | 텍스트 |
-| **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 지정 이름(지정된 경우)입니다. | varchar (100) |
-| **`page_event_var3`** | 더 이상 사용되지 않습니다. 포함된 설문 조사 및 미디어 모듈 데이터입니다. 이전 버전의 Adobe Analytics에서 이전 비디오 보고서를 채웠습니다. | 텍스트 |
+| **`p_plugins`** | 더 이상 사용되지 않습니다. 브라우저에 사용할 수 있는 플러그인 목록. JavaScript 함수 `navigator.plugins()`를 사용합니다. | text |
+| **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
+| **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다. | text |
+| **`page_event_var2`** | 링크 추적 이미지 요청에서만 사용됩니다. 링크의 사용자 정의 이름(지정된 경우)입니다. | varchar (100) |
+| **`page_event_var3`** | 더 이상 사용되지 않습니다. 포함된 설문 조사 및 미디어 모듈 데이터입니다. 이전 버전의 Adobe Analytics에서 이전 비디오 보고서를 채웠습니다. | text |
 | **`page_type`** | 404 페이지에만 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원을 채우는 데 사용됩니다. 이 변수는 비어 있거나 `ErrorPage` 값을 포함해야 합니다. | char (20) |
-| **`page_url`** | 히트의 URL입니다. `post_page_url`은 링크 추적 이미지 요청에서 제거되고 varchar(255)의 데이터 유형을 사용합니다. | 텍스트 |
+| **`page_url`** | 히트의 URL입니다. `post_page_url`은 링크 추적 이미지 요청에서 제거되고 varchar(255)의 데이터 유형을 사용합니다. | text |
 | **`pagename`** | [페이지](/help/components/dimensions/page.md) 차원을 채우는 데 사용됩니다. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
 | **`paid_search`** | 히트가 유료 검색 발견과 일치하는 경우 설정되는 플래그입니다. | tinyint 부호 없음 |
 | **`partner_plugins`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (255) |
@@ -169,9 +169,9 @@ ht-degree: 96%
 | **`pointofinterestdistance`** | Mobile Services 관심 영역 중앙까지의 거리 | varchar (255) |
 | **`post_`** 열 | 보고서에서 최종적으로 사용되는 값을 포함합니다. 각 이후 열은 서버측 논리, 처리 규칙 및 VISTA 규칙 다음에 채워집니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. | 각각의 이후가 아닌 열을 참조하십시오. |
 | **`prev_page`** | 사용되지 않습니다. 이전 페이지의 Adobe 소유 식별자입니다. | int 부호 없음 |
-| **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md) 변수를 통해 전달될 때의 제품 목록입니다. 제품은 쉼표로 구분되고, 개별 제품 속성은 세미콜론으로 구분됩니다. | 텍스트 |
-| **`product_merchandising`** | 사용되지 않습니다. 대신 `product_list`를 사용하십시오. | 텍스트 |
-| **`prop1`** - `prop75` | 사용자 지정 트래픽 변수 1 - 75. [Prop](/help/components/dimensions/prop.md) 차원에 사용됩니다. | varchar (100) |
+| **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md) 변수를 통해 전달될 때의 제품 목록입니다. 제품은 쉼표로 구분되고, 개별 제품 속성은 세미콜론으로 구분됩니다. | text |
+| **`product_merchandising`** | 사용되지 않습니다. 대신 `product_list`를 사용하십시오. | text |
+| **`prop1`** - `prop75` | 사용자 정의 트래픽 변수 1 - 75. [Prop](/help/components/dimensions/prop.md) 차원에 사용됩니다. | varchar (100) |
 | **`purchaseid`** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 변수를 사용하여 설정되는 구매의 고유 식별자입니다. `duplicate_purchase` 열에서 사용됩니다. | char (20) |
 | **`quarterly_visitor`** | 히트가 새 분기별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`ref_domain`** | 레퍼러 열을 기반으로 합니다. 히트의 참조 도메인입니다. [참조 도메인](/help/components/dimensions/referring-domain.md) 차원에 사용됩니다. | varchar (100) |
@@ -202,15 +202,15 @@ ht-degree: 96%
 | **`state`** | 상태 변수입니다. | varchar (50) |
 | **`stats_server`** | 사용하지 않습니다. 히트를 처리한 Adobe 내부 서버입니다. | char (30) |
 | **`t_time_info`** | 방문자의 로컬 시간입니다. 포맷: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar (100) |
-| **`tnt`** | Adobe Target 통합에서 사용됩니다. 현재 자격이 있는 모든 테스트를 나타냅니다. 포맷: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`입니다. | 텍스트 |
-| **`tnt_action`** | Adobe Target 통합에서 사용됩니다. 히트 자격이 있는 모든 테스트를 나타냅니다. | 텍스트 |
-| **`tnt_post_vista`** | 더 이상 사용되지 않습니다. 대신 `post_tnt`를 사용하십시오. | 텍스트 |
-| **`transactionid`** | 데이터 소스를 통해 나중에 다양한 데이터 포인트를 업로드할 수 있는 고유 식별자입니다. [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수를 사용하여 수집됩니다. | 텍스트 |
+| **`tnt`** | Adobe Target 통합에서 사용됩니다. 현재 자격이 있는 모든 테스트를 나타냅니다. 포맷: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`입니다. | text |
+| **`tnt_action`** | Adobe Target 통합에서 사용됩니다. 히트 자격이 있는 모든 테스트를 나타냅니다. | text |
+| **`tnt_post_vista`** | 더 이상 사용되지 않습니다. 대신 `post_tnt`를 사용하십시오. | text |
+| **`transactionid`** | 데이터 소스를 통해 나중에 다양한 데이터 포인트를 업로드할 수 있는 고유 식별자입니다. [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 변수를 사용하여 수집됩니다. | text |
 | **`truncated_hit`** | 이미지 요청이 잘렸음을 나타내는 플래그입니다. 부분 히트가 수신되었음을 나타냅니다. <br>Y: 히트가 잘림, 일부 히트 수신 <br>N: 히트가 잘리지 않음, 전체 히트 수신 | char (1) |
 | **`ua_color`** | 더 이상 사용되지 않습니다. 이전에는 색상 깊이에 대한 대체 항목으로 사용되었습니다. | char (20) |
 | **`ua_os`** | 더 이상 사용되지 않습니다. 이전에는 운영 체제에 대한 대체 항목으로 사용되었습니다. | char (80) |
 | **`ua_pixels`** | 더 이상 사용되지 않습니다. 이전에는 브라우저 높이와 너비에 대한 대체 항목으로 사용되었습니다. | char (20) |
-| **`user_agent`** | 이미지 요청의 HTTP 헤더에서 전송된 사용자 에이전트 문자열입니다. | 텍스트 |
+| **`user_agent`** | 이미지 요청의 HTTP 헤더에서 전송된 사용자 에이전트 문자열입니다. | text |
 | **`user_hash`** | 사용하지 않습니다. 보고서 세트 ID의 해시. 대신 `username`를 사용하십시오. | int 부호 없음 |
 | **`user_server`** | [서버](/help/components/dimensions/server.md) 차원에 사용됩니다. | varchar (100) |
 | **`userid`** | 사용하지 않습니다. 보고서 세트 ID의 숫자 ID입니다. 대신 `username`를 사용하십시오. | int 부호 없음 |
@@ -243,7 +243,7 @@ ht-degree: 96%
 | **`videodaypart`** | 비디오 방송 시간대 | varchar (255) |
 | **`videoepisode`** | 비디오 에피소드 | varchar (255) |
 | **`videofeedtype`** | 비디오 피드 유형 | varchar (255) |
-| **`videogenre`** | 비디오 장르 | 텍스트 |
+| **`videogenre`** | 비디오 장르 | text |
 | **`videolength`** | 비디오 길이 | varchar (255) |
 | **`videomvpd`** | 비디오 MVPD | varchar (255) |
 | **`videoname`** | 비디오 이름 | varchar (255) |
@@ -256,8 +256,8 @@ ht-degree: 96%
 | **`videoqoebuffertimeevar`** | 비디오 품질 버퍼 시간 | varchar (255) |
 | **`videoqoedroppedframecountevar`** | 비디오 품질 드롭된 프레임 카운트 | varchar (255) |
 | **`videoqoeerrorcountevar`** | 비디오 품질 오류 카운트 | varchar (255) |
-| **`videoqoeextneralerrors`** | 비디오 품질 외부 오류 | 텍스트 |
-| **`videoqoeplayersdkerrors`** | 비디오 품질 SDK 오류 | 텍스트 |
+| **`videoqoeextneralerrors`** | 비디오 품질 외부 오류 | text |
+| **`videoqoeplayersdkerrors`** | 비디오 품질 SDK 오류 | text |
 | **`videoqoetimetostartevar`** | 비디오 품질 시작할 시간 | varchar (255) |
 | **`videoseason`** | 비디오 시즌 | varchar (255) |
 | **`videosegment`** | 비디오 세그먼트 | varchar (255) |
@@ -268,7 +268,7 @@ ht-degree: 96%
 | **`visid_low`** | 방문자를 고유하게 식별하기 위해 `visid_high`와 함께 사용됩니다. | bigint 부호 없음 |
 | **`visid_new`** | 히트에 새로 생성된 방문자 ID가 있는지 여부를 식별하는 플래그입니다. | char (1) |
 | **`visid_timestamp`** | 방문자 ID가 새로 생성된 경우 방문자 ID가 생성된 시간의 타임스탬프(Unix 시간)를 제공합니다. | int |
-| **`visid_type`** | 외부용이 아닙니다. Adobe가 최적화 처리를 위해 내부적으로 사용합니다. 방문자를 식별하는 데 사용된 방법을 나타내는 숫자 ID입니다.<br>0: 사용자 지정 방문자 ID 또는 알 수 없음/적용할 수 없음<br>1: IP 및 사용자 에이전트 폴백 <br>2: HTTP 모바일 가입자 헤더 <br>3: 존 쿠키 값 (`s_vi`) <br>4: 대체 쿠키 값 (`s_fid`) <br>5: ID 서비스 | tinyint 부호 없음 |
+| **`visid_type`** | 외부용이 아닙니다. Adobe가 최적화 처리를 위해 내부적으로 사용합니다. 방문자를 식별하는 데 사용된 방법을 나타내는 숫자 ID입니다.<br>0: 사용자 정의 방문자 ID 또는 알 수 없음/적용할 수 없음<br>1: IP 및 사용자 에이전트 폴백 <br>2: HTTP 모바일 가입자 헤더 <br>3: 존 쿠키 값 (`s_vi`) <br>4: 대체 쿠키 값 (`s_fid`) <br>5: ID 서비스 | tinyint 부호 없음 |
 | **`visit_keywords`** | [검색 키워드](/help/components/dimensions/search-keyword.md) 차원에 사용되는 변수입니다. 이 열은 Adobe에서 사용하는 백엔드 로직을 수용하기 위해 비표준 문자 제한인 varchar(244)를 사용합니다. | varchar (244) |
 | **`visit_num`** | [방문 번호](/help/components/dimensions/visit-number.md) 차원에 사용되는 변수입니다. 1에서 시작하여 새 방문이 방문자별로 시작될 때마다 증가합니다. | int 부호 없음 |
 | **`visit_page_num`** | [히트 깊이](/help/components/dimensions/hit-depth.md) 차원에 사용되는 변수입니다. 사용자가 생성하는 각 히트에 대해 1씩 증가합니다. 각 방문을 재설정합니다. | int 부호 없음 |
