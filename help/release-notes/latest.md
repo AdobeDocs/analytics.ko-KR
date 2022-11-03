@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
 source-wordcount: '1426'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 노트(2022년 10월/11월)
+# 현재 Adobe Analytics 릴리스 정보 (2022년 10월/11월)
 
 **마지막 업데이트**: 2022년 10월 28일
 
@@ -27,13 +27,13 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 ## Adobe Analytics의 수정 사항
 
-* 최신 MacOS 버전을 &quot;Macintosh&quot;로 잘못 지정한 문제가 해결되었습니다. 이번 수정 작업을 통해 OS 차원은 MacOS 11부터 “MacOS” 버전 번호를 사용하기 시작합니다. (AN-301834)
-* Report Builder의 &quot;고정 날짜&quot; 날짜 범위 문제를 해결했습니다. (AN-303684)
-* 데이터 피드 UI가 로드되지 않는 문제를 수정했습니다. (AN-303803, AN-303784)
+* 최신 MacOS 버전의 이름이 “Macintosh”로 잘못 지정되던 문제가 해결되었습니다. 이번 수정 작업을 통해 OS 차원은 MacOS 11부터 “MacOS” 버전 번호를 사용하기 시작합니다. (AN-301834)
+* Report Builder의 “고정 날짜” 날짜 범위 문제가 해결되었습니다. (AN-303684)
+* 데이터 피드 UI가 로드되지 않는 문제가 해결되었습니다. (AN-303803, AN-303784)
 
 ### 기타 수정 사항
 
--295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036; AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
+AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036; AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
 
 ## Adobe Analytics 관리자에 대한 중요 공지
 
@@ -54,7 +54,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
 | **[!UICONTROL 게시 목록] 기능의 EOL** | 2022년 9월 29일 | Reports &amp; Analytics EOL의 일환으로 게시 목록은 **2023년 12월**&#x200B;에 사용 수명이 종료됩니다. Analysis Workspace 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 게시 목록에 액세스할 수 없습니다. [자세히 알아보기](/help/admin/admin/publishing-list.md) |
-| **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. 자세한 내용은 [Data Workbench 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) 자세한 내용 질문이 있는 경우 조직의 Adobe 계정 관리자에게 문의하십시오. |
+| **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
 | **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2022년 1월 4일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다. |
 
 {style=&quot;table-layout:auto&quot;}
