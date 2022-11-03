@@ -1,9 +1,9 @@
 ---
 title: 동의 관리 옵트아웃
 description: 방문자가 옵트아웃한 개인 정보 설정을 확인합니다.
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
+source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 5%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 5%
 
 Dimension 항목에는 다음 세 가지 값이 포함됩니다.
 
-* **`SSF`**: 방문자가 옵트아웃했습니다. [서버 측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md). 이 차원 항목은 컨텍스트 데이터 변수가 있을 때 표시됩니다 `cm.ssf` 다음과 같음 `1`. 자세한 내용은 [데이터 개인 정보 보호 개요](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) 를 참조하십시오.
-* **`DMP`**: 방문자가 데이터 관리 플랫폼에 대한 공유를 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수가 있을 때 표시됩니다 `opt.dmp` 다음과 같음 `N`. 히트가 Adobe Audience Manager에 전달되지 않습니다.
+* **`SSF`**: 방문자가 옵트아웃했습니다. [서버 측 전달](/help/admin/admin/c-server-side-forwarding/ssf.md). 이 차원 항목은 컨텍스트 데이터 변수가 있을 때 표시됩니다 `cm.ssf` 다음과 같음 `1`. 자세한 내용은 [데이터 개인 정보 보호 개요](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) 를 참조하십시오. 히트가 Adobe Audience Manager에 전달되지 않습니다.
+* **`DMP`**: 방문자가 데이터 관리 플랫폼에 대한 공유를 옵트아웃했습니다. 이 차원 항목은 컨텍스트 데이터 변수가 있을 때 표시됩니다 `opt.dmp` 다음과 같음 `N`. 과 유사함 `SSF`: 히트가 Adobe Audience Manager에 전달되지 않습니다.
 * **`SELL`**: 방문자가 제3자에게 데이터 공유 또는 판매를 옵트아웃했습니다. 이 차원은 컨텍스트 데이터 변수 `opt.sell` 다음과 같음 `N`.
