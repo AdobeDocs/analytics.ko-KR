@@ -1,26 +1,26 @@
 ---
-description: 보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
-title: 보고서 사용자 지정 개요
+description: 보고서 실행 후 해당 보고서를 사용자 정의하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
+title: 보고서 사용자 정의 개요
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
 ---
 
-# 보고서 사용자 지정 개요
+# 보고서 사용자 정의 개요
 
 {{ra-eol}}
 
-보고서 실행 후, 보고서를 사용자 지정하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
+보고서 실행 후 해당 보고서를 사용자 정의하여 필요에 따라 데이터를 보고 분석할 수 있습니다. 보고서 데이터를 필터링하고, 데이터가 그래픽으로 표시되는 방식을 변경하고 날짜 세부기간을 변경하는 등의 작업을 할 수 있습니다.
 
-## 사용자 지정 보고서 만들기 {#task_BA6EACA3039C40AEA5605E1D8C76E646}
+## 사용자 정의 보고서 만들기 {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
-모든 사용자가 볼 수 있는 새 사용자 지정 보고서로 보고서의 현재 구성을 저장하는 방법을 설명하는 단계입니다.
+모든 사용자가 볼 수 있는 새 사용자 정의 보고서로 보고서의 현재 구성을 저장하는 방법을 설명하는 단계입니다.
 
 <!-- 
 
@@ -28,19 +28,19 @@ t_reports_custom.xml
 
  -->
 
-사용자 지정 보고서는 관리자만 만들 수 있습니다. 사용자 지정 보고서를 만들면 기준 보고서 옆에 있는 주 보고 메뉴에 해당 보고서가 추가됩니다.
+사용자 정의 보고서는 관리자만 만들 수 있습니다. 사용자 정의 보고서를 만들면 기준 보고서 옆에 있는 주 보고 메뉴에 해당 보고서가 추가됩니다.
 
-**사용자 지정 보고서를 만들려면**
+**사용자 정의 보고서를 만들려면**
 
 1. 보고서를 실행하고 필요에 따라 구성합니다.
-1. **[!UICONTROL 자세히]** > **[!UICONTROL 사용자 지정 보고서 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 자세히]** > **[!UICONTROL 사용자 정의 보고서 만들기]**&#x200B;를 클릭합니다.
 1. 보고서 이름을 지정한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    기존 보고서 이름과 동일하지 않도록 확인합니다.
 
 >[!MORELIKETHIS]
 >
->* [메뉴 사용자 지정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
+>* [메뉴 사용자 정의](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 날짜 또는 날짜 범위 선택 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -88,7 +88,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
-> 대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 지정 공식을 사용하여 둘 사이의 차이를 분석합니다.
+>대시보드의 주요 지표에 대한 날짜 비교를 수행하려면 별도의 두 요청을 사용하여 데이터를 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)로 가져오면 됩니다. 그런 다음 Excel에서 사용자 정의 공식을 사용하여 둘 사이의 차이를 분석합니다.
 
 Reports &amp; Analytics에서 등급 보고서 간 날짜 비교:
 
@@ -142,7 +142,7 @@ t_reports_select_page.xml
 
  -->
 
-1. [!UICONTROL 페이지 보기 횟수 보고서] (**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 페이지 보기]**)와 같은 보고서를 생성합니다. 
+1. [!UICONTROL 페이지 조회수 보고서] (**[!UICONTROL 보고서]** > **[!UICONTROL 사이트 지표]** > **[!UICONTROL 페이지 보기]**)와 같은 보고서를 생성합니다.
 1. **[!UICONTROL 선택한 페이지]** 링크를 클릭합니다.
 1. [!UICONTROL 페이지 선택]에서 표시할 페이지를 선택합니다.
 1. 페이지를 찾습니다.
@@ -167,19 +167,19 @@ t_reports_compare_suites.xml
 * 제품
 * 방문자 유지
 * 방문자 프로필
-* 사용자 지정 전환
-* 사용자 지정 트래픽
+* 사용자 정의 전환
+* 사용자 정의 트래픽
 * Target
 * 설문 조사
 
 **보고서 세트를 비교하려면**
 
-1. 보고서를 비교할 수 있도록 해주는 보고서를 생성합니다.
+1. 보고서를 비교할 수 있도록 해 주는 보고서를 생성합니다.
 1. **[!UICONTROL 사이트에 비교]** 링크를 클릭합니다.
 1. 보고서 세트를 찾습니다.
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-## 보고서 세부기간 지정 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
+## 보고서 세부 기간 지정 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
 시간대별, 일일, 주간, 월간, 분기별 또는 연간 기준으로 보고서 총계를 보는 방법을 설명하는 단계입니다.
 
@@ -193,7 +193,7 @@ t_reports_granularity.xml
 
 **보고서 세부기간을 지정하려면**
 
-1. **[!UICONTROL 사이트 컨텐츠]** > **[!UICONTROL 페이지]**&#x200B;와 같은 트렌드 보고서를 생성합니다.
+1. **[!UICONTROL 사이트 콘텐츠]** > **[!UICONTROL 페이지]**&#x200B;와 같은 트렌드 보고서를 생성합니다.
 1. **[!UICONTROL 보기 방법]** 링크를 클릭한 다음 세부기간을 클릭합니다.
 
 ## 요일 보고서 실행 {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
@@ -211,7 +211,7 @@ t_reports_day_of_week.xml
 1. 지정된 날짜 범위에서 추세 보고서를 실행합니다.
 1. **[!UICONTROL 요일]** 링크를 클릭한 다음 요일을 클릭합니다.
 
-## &#39;작업 공간에서 시도&#39; 버튼 {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## “Workspace에서 시도” 버튼 {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 보고서 상단의 **[!UICONTROL 작업 공간에서 시도]** 버튼을 클릭하면 Analysis Workspace에서 동일한 보고서가 로드됩니다.
 
@@ -221,8 +221,8 @@ try_in_workspace.xml
 
  -->
 
-Reports &amp; Analytics의 대부분의 보고서에는 이후의 사용자 지정을 위해 Analysis Workspace에서 현재 보기를 재현할 수 있는 &quot;작업 공간에서 시도&quot; 버튼이 포함되어 있습니다.
+Reports &amp; Analytics의 대부분의 보고서에는 이후의 사용자 정의를 위해 Analysis Workspace에서 현재 보기를 재현할 수 있는 &quot;작업 공간에서 시도&quot; 버튼이 포함되어 있습니다.
 
 현재 이 버튼은 사용자가 Analysis Workspace에 대한 모든 권한을 보유하는 경우에만 사용할 수 있습니다.
 
-보고서를 사용자 지정할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR) 가이드를 참조하십시오.
+보고서를 사용자 정의할 수 있는 모든 방법에 대한 자세한 내용은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 안내서를 참조하십시오.
