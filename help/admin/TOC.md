@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
-workflow-type: ht
-source-wordcount: '674'
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+workflow-type: tm+mt
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
@@ -172,7 +172,6 @@ ht-degree: 100%
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
    + [데이터 개인정보 보호 및 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [데이터 개인정보 보호 용어](c-data-governance/gdpr-terminology.md)
-   + [개인정보 보호 보고 변수](c-data-governance/consent-variables.md)
 + 서버 호출 사용량 {#server-call-usage}
    + [서버 호출 사용량 개요](c-server-call-usage/overage-overview.md)
    + [현재 서버 호출 사용량 보기](c-server-call-usage/server-call-usage-dashboard.md)
