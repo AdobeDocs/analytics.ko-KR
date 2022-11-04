@@ -4,10 +4,11 @@ description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+mini-toc-levels: 3
+source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
 workflow-type: tm+mt
-source-wordcount: '3545'
-ht-degree: 100%
+source-wordcount: '3550'
+ht-degree: 99%
 
 ---
 
@@ -15,15 +16,18 @@ ht-degree: 100%
 
 2019년 1월 이후 Adobe Analytics 설명서 세트에 대한 콘텐츠 업데이트입니다.
 
-* [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko)를 참조하십시오.
-* 새로운 Adobe Analytics 기능, 관리자 공지 및 버그 수정에 대한 포괄적인 목록이 필요한 경우에는 최신 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)를 참조하십시오.
-* 오디오 및 비디오용 Adobe Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko)을 참조하십시오.
+* [!UICONTROL Customer Journey Analytics]에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko-KR)를 참조하십시오.
+* Analytics에 대한 자세한 내용은 [Analytics에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko).
 
 ## 주요 설명서 업데이트에 대한 세부 정보
+
+### 2022 {#22}
 
 | 기능 | 설명 |
 | --- | --- |
 | **2022년 10월** |  |
+| Data Workbench | [사용 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| 클라이언트 힌트 | 새로 만들기 [개요 및 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | 주요 지표 요약 | [주요 지표 요약](/help/analyze/analysis-workspace/visualizations/key-metric.md) 시각화에 대한 새로운 주제. |
 | 분류 설정 | 새 사용자 [분류 설정](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ko) 경험은 분류 및 규칙을 관리하고 고객 소유 분류 데이터의 가시성을 향상시키는 단일 인터페이스를 제공합니다. |
 | 모바일 앱: 사용자 정의 상세 보기 | [사용자 정의 상세 보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ko)에 대한 새로운 주제. |
@@ -59,6 +63,11 @@ ht-degree: 100%
 | 모바일 스코어카드 프로젝트 미리보기 모드 | [미리보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ko#preview)에서는 스코어카드를 저장하고 공유하기 전에 환경을 미리 확인할 수 있습니다. |
 | API 프로젝트 끝점 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 이전 예약된 Report Builder 작업 일시 중지에 대한 업데이트된 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지할 예정입니다](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+
+### 2021 {#21}
+
+| 기능 | 설명 |
+| --- | --- |
 | **2021년 10월** |  |
 | 2021년 10월 21일 | Analysis Workspace의 [빠른 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko)에 대한 새로운 설명서 |
 | 2021년 10월 21일 | Analysis Workspace의 [미디어 재생 소요 시간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ko) 패널에 대한 새로운 설명서. |
@@ -90,6 +99,11 @@ ht-degree: 100%
 | 2021년 1월 14일 | Analytics 대시보드 설명서에 언어 선택 옵션이 추가되었습니다. |
 | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가하는 방법에 대한 설명서가 추가되었습니다. |
 | 2021년 1월 14일 | 작업 영역 시각화를 위한 통합 소스 및 설정 관리자: [!UICONTROL 데이터 소스] 관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다 |
+
+### 2020 {#20}
+
+| 기능 | 설명 |
+| --- | --- |
 | **2020년 12월** |  |
 | 2020년 12월 7일 | “adobedc.net” 끝점을 포함하거나 대체하도록 모든 관련 페이지를 수정했습니다. |
 | 2020년 12월 8일 | 작업 영역의 [새 프로젝트 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ko) 페이지에 대한 업데이트입니다. |
@@ -152,7 +166,11 @@ ht-degree: 100%
 | 2020년 1월 16일 | [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 작업 영역에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
 | 2020년 1월 13일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=ko) 페이지를 수정했습니다. |
-| **2019** |  |
+
+### 2019 {#19}
+
+| 기능 | 설명 |
+| --- | --- |
 | 2020년 12월 19일 | 기본 [FTP 데이터 스토리지 한도](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=ko)를 10GB로 변경했습니다. |
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | IP 로그인 제한 적용의 기간 종료에 대한 새로운 주제입니다. |
