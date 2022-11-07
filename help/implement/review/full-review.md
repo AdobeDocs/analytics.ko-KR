@@ -4,15 +4,15 @@ description: 6개월마다 구현을 검토하여 비즈니스 요구 사항과 
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 전체 검토 (2년마다 구현 검토)
 
-6개월마다 구현을 검토해야 하는 이유는 무엇입니까? 비즈니스 요구 사항에 맞게 구현하고 있는지 확인해야 하기 때문입니다. 이해 관계자의 신뢰도를 손상시킬 수 있는 주요 데이터 문제로 확대되기 전에 규모가 작은 데이터 품질 문제를 해결하려는 경우도 있습니다. 6개월마다 수행하는 전체 검토 외에도 각 웹 사이트 릴리스 이후 [집중 검토](/help/implement/review/focused-review.md)도 수행해야 합니다.
+6개월마다 구현을 검토해야 하는 이유는 무엇입니까? 비즈니스 요구 사항에 맞게 구현하고 있는지 확인해야 하기 때문입니다. 관련자들의 신뢰도를 손상시킬 수 있는 주요 데이터 문제로 확대되기 전에 규모가 작은 데이터 품질 문제를 해결하려는 경우도 있습니다. 6개월마다 수행하는 전체 검토 외에도 각 웹 사이트 릴리스 이후 [집중 검토](/help/implement/review/focused-review.md)도 수행해야 합니다.
 
 ## 1. 구현이 비즈니스 요구 사항에 부합하는지 확인합니다
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## 2. 지표 및 변수가 계속 제대로 작동하는지 확인합니다
 
-비즈니스에 중요한 순서대로 모든 지표와 변수를 간단히 검토하여 데이터가 올바르게 수집되는지 확인합니다. 가장 중요한 지표 및 변수 ([상위 5개의 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=ko-kr#review)와 연관된 지표 및 변수)로 시작합니다. 다음을 수행하십시오.
+비즈니스에 중요한 순서대로 모든 지표와 변수를 간단히 검토하여 데이터가 올바르게 수집되는지 확인합니다. 가장 중요한 지표 및 변수 ([상위 5개의 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=ko-kr#review)와 연관된 지표 및 변수)로 시작합니다. 다음 작업을 수행하십시오.
 
 * 대시보드를 만들어 지표와 변수의 월별 트렌드 보기를 보거나 각 요소에 대한 [지능형 경고](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)를 설정하여 예상한 데이터를 얻고 데이터가 정확한지 확인할 수 있습니다. 불일치가 발견되면 데이터 레이어, 태그 관리자 규칙 및 처리 규칙을 검토하여 그 이유를 확인하십시오.
 * 지표 및 변수의 광범위한 트렌드를 모니터링하려면 [Analytics 상태 대시보드](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)를 다시 실행하십시오.
