@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Activity Map 기능의 설정, 구성 및 사용과 관련하여 자주 묻는 �
 Adobe Analytics Standard, Premium 및 Ultimate 계약을 맺은 조직은 Activity Map에 액세스할 수 있습니다.
 +++
 
-+++Activity Map은 단일 페이지 애플리케이션(SPA)을 어떻게 지원합니까?
++++Activity Map은 어떻게 단일 페이지 애플리케이션(SPA)을 지원합니까?
 Activity Map은 몇 초마다 웹 페이지를 스캔하면서 페이지에 대한 변경 사항을 찾습니다. ActivityMap은 새로 페이지를 로드할 필요없이 페이지에 대한 새로운 콘텐츠를 확인하지만, 새로운 콘텐츠는 항상 페이지를 로드할 때 첫 번째로 확인되는 pageName의 내용입니다.
 
-* Activity Map는 알려진 링크의 가시성이 변경되었는지 확인합니다. 가시성이 바뀐 것이 발견되면, Links On Page 표의 해당 링크에 대한 상태 열이 [!UICONTROL 표시됨] 또는 [!UICONTROL 숨겨짐]으로 업데이트됩니다.
+* Activity Map는 알려진 링크의 가시성이 변경되었는지 확인합니다. 가시성이 바뀐 것이 발견되면 Links On Page 표의 해당 링크에 대한 상태 열이 [!UICONTROL 표시됨] 또는 [!UICONTROL 숨겨짐]으로 업데이트됩니다.
 
 * 사용자 상호 작용에서 새로운 콘텐츠를 만들면 AppMeasurement에서 찾은 링크 요소가 [!UICONTROL Links On Page] 표에 추가됩니다. Activity Map은 이 새로운 링크를 포함하는 새로운 데이터 요청을 전송합니다. 데이터 요청이 UI로 처리되는 경우에는 새로운 링크가 [!UICONTROL Links On Page] 표에 표시되어야 합니다.
 +++
 
-+++Activity Map이 &quot;보기&quot;에 데이터를 제공합니까?
++++Activity Map에서 “보기”에 대한 데이터를 제공합니까?
 아니요. Adobe는 열람한 링크를 추적하지 않습니다.
 +++
 
@@ -72,7 +72,7 @@ Activity Map은 2초마다 다음과 같은 웹 페이지 상태의 변경 사�
 +++
 
 +++데이터 피드를 통해 Activity Map 컨텍스트 데이터 변수를 내보낼 수 있습니까?
-예. 다음 [데이터 열](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) Activity Map이 사용하는 `clickmaplink`, `clickmaplinkbyregion`, `clickmappage`, 및 `clickmapregion`.
+예. Activity Map에서 사용하는 [데이터 열](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)은 `clickmaplink`, `clickmaplinkbyregion`, `clickmappage` 및 `clickmapregion`입니다.
 +++
 
 +++세그먼트는 라이브 모드에서 작동합니까?
@@ -87,7 +87,7 @@ Activity Map은 2초마다 다음과 같은 웹 페이지 상태의 변경 사�
 세 가지 옵션이 있습니다.
 
 * JS 파일에서 `AppMeasurement_Module_ActivityMap` 함수 삭제
-* 위의 함수를 빈 본문으로 재작성하는 사용자 지정 코드 추가, 예:
+* 위의 함수를 빈 본문으로 재작성하는 사용자 정의 코드 추가, 예:
 
    ```js
    function AppMeasurement_Module_ActivityMap() {}
