@@ -5,9 +5,9 @@ title: 개인정보 보호 개요
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 Adobe는 Adobe 제품 또는 서비스에 의한 브라우징 정보 수집을 옵트아웃하는 기능에 관해 찾기 쉽고 읽기 쉬운 정보를 웹 사이트 방문자에게 제공할 것을 권장합니다.
 
-방문자는 Adobe [개인정보 보호 센터](https://www.adobe.com/kr/privacy.html)에서 Adobe가 수집하는 정보를 일반적으로 사용하는 방법에 대해 자세히 알아볼 수 있습니다. 조직에서 Adobe의 서비스 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. 귀하는 자체 개인정보 보호정책 작성, 개인정보 보호정책 준수, Adobe와의 서비스 계약 준수, 모든 적용 가능한 법규 준수에 대한 책임을 집니다.
+방문자는 Adobe [개인정보 보호 센터](https://www.adobe.com/kr/privacy.html)에서 Adobe가 수집하는 정보를 일반적으로 사용하는 방법에 대해 자세히 알아볼 수 있습니다. 조직에서 Adobe의 서비스 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. 귀하는 자체 개인정보 처리방침 작성, 개인정보 처리방침 준수, Adobe와의 서비스 계약 준수, 모든 적용 가능한 법규 준수에 대한 책임을 집니다.
 
 ## 데이터 수집 분류 {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -103,7 +103,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
   </tr> 
   <tr> 
    <td colname="col1"> 독일 </td> 
-   <td colname="col2"> <p>Adobe과 함께 Adobe Analytics에 대한 데이터 처리 계약이 아직 없는 경우 Adobe 계정 관리자 또는 고객 성공 관리자에게 문의하여 Adobe 법무부와 협력하여 DPA를 받으십시오. </p> </td> 
+   <td colname="col2"> <p>적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들이 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>멀티채널 분석, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
