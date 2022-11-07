@@ -4,15 +4,15 @@ title: 보고서 세트 데이터에 레이블 지정
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 보고서 세트 데이터에 레이블 지정
 
-보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 레이블과 그 정의를 먼저 숙지하십시오.
+보고서 세트 데이터에 레이블을 지정하는 것은 지정된 보고서 세트의 각 변수에 ID, 감도 및 데이터 거버넌스 레이블을 지정하는 것을 의미합니다. 먼저 레이블 및 해당 정의를 숙지하십시오.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 97%
    * **전환 차원** (비머천다이징 eVar)
    * **사용자 정의 트래픽 차원** (props)
    * **솔루션 차원 및 이벤트** (모바일, 비디오, 활동 맵 등과 같은 솔루션과 관련된 차원/이벤트 및 Adobe Campaign, Adobe Experience Manager, Advertising Cloud 등과 같은 솔루션과의 통합)
-   * **데이터 처리 차원** (Adobe Analytics UI를 통해 보고에 직접 표시되지는 않지만 데이터 피드 및/또는 데이터 웨어하우스 요청을 통해 사용할 수 있는 변수)
+   * **데이터 처리 차원** (Adobe Analytics UI를 통해 보고에 직접 표시되지는 않지만 데이터 피드 및/또는 Data Warehouse 요청을 통해 사용할 수 있는 변수)
 
 1. (선택 사항) 각 변수 옆에 있는 정보 (i) 아이콘을 클릭하면 최근 90일 동안의 가장 일반적인 값을 더 잘 파악할 수 있습니다. (이 기능은 Analytics UI에서 사용할 수 없으므로 데이터 처리 차원에 사용할 수 없습니다.)
 
@@ -55,11 +55,11 @@ ht-degree: 97%
 
 1. **중요 데이터** 섹션을 열고 지리적 위치 데이터를 분류하는 중요 데이터 레이블을 설정합니다. 이러한 옵션에 대한 자세한 내용은 [중요 데이터 레이블 (DULE)](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)을 참조하십시오.
 
-   ![비활성 데이터](assets/sensitive_data.png)
+   ![중요 데이터](assets/sensitive_data.png)
 
 1. 데이터 개인정보 보호 데이터 섹션을 열어 **데이터 거버넌스** 레이블을 설정합니다. 이 섹션을 사용하여 데이터 개인정보 보호 액세스 및 삭제 요청에 대해 각 변수를 처리하는 방법을 Adobe에 지시하고, 이러한 요청에 대한 데이터 주체 ID를 찾기 위해 스캔해야 하는 변수를 정의합니다. 이러한 옵션에 대한 자세한 내용은 [데이터 거버넌스 레이블 (데이터 개인정보 보호)](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)을 참조하십시오.
 
-   ![개인 정보 레이블](assets/privacy_labels.png)
+   ![개인정보 보호 레이블](assets/privacy_labels.png)
 
 1. 모든 레이블 지정을 완료한 후 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
