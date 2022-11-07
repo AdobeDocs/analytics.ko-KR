@@ -1,18 +1,18 @@
 ---
 title: 상위 5개의 KPI 정의
-description: 주요 성과 지표 및 관련 지표와 차원이 비즈니스 요구 사항에 근접하도록 하십시오.
+description: 주요 성과 지표와 관련 지표 및 차원이 비즈니스 요구 사항과 면밀하게 일치하는지 확인하십시오.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 상위 5개의 KPI 정의
 
-모든 것을 측정해 볼 수는 없겠지만 비즈니스에 가장 중요한 것을 우선적으로 측정한다면 Adobe Analytics 구현이 가장 성공적일 것입니다. 비즈니스 리더와 협력하여 비즈니스에 가장 영향을 미치는 핵심 성과 지표 (KPI)를 정의하십시오. 그런 다음 해당 KPI를 지원하는 지표와 변수에 집중하십시오.
+모든 것을 측정해 볼 수는 없겠지만 비즈니스에 가장 중요한 것을 우선적으로 측정한다면 Adobe Analytics 구현이 가장 성공적일 것입니다. 비즈니스 리더와 협력하여 비즈니스에 가장 영향을 미치는 주요 성과 지표(KPI)를 정의하십시오. 그런 다음 해당 KPI를 지원하는 지표와 변수에 집중하십시오.
 
 ## 1.비즈니스 목표 파악하기
 
