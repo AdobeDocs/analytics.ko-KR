@@ -5,8 +5,8 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
 source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
-workflow-type: tm+mt
-source-wordcount: '671'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
