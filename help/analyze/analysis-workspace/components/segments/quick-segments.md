@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 95%
+source-wordcount: '899'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 프로젝트에서 빠른 세그먼트를 만들어 복잡한 전체 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-build.md)를 우회할 수 있습니다. 빠른 세그먼트
 
-* [프로젝트 전용 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ko-KR#what-are-project-only-segments%3F)로 적용합니다.
+* [프로젝트 전용 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F)로 적용합니다.
 * 최대 3개의 규칙 허용.
 * 중첩 컨테이너이나 순차적 규칙을 수용하지 않습니다.
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ## 사전 요구 사항
 
-누구나 [!UICONTROL 빠른 세그먼트]를 만들 수 있습니다. 단, 빠른 세그먼트를 저장하거나 [!UICONTROL 세그먼트 빌더]에서 열려면 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=ko-KR#analytics-tools)에서의 [!UICONTROL 세그먼트 생성] 권한이 필요합니다.
+누구나 [!UICONTROL 빠른 세그먼트]를 만들 수 있습니다. 단, 빠른 세그먼트를 저장하거나 [!UICONTROL 세그먼트 빌더]에서 열려면 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools)에서의 [!UICONTROL 세그먼트 생성] 권한이 필요합니다.
 
 ## 빠른 세그먼트 만들기
 
@@ -43,9 +43,9 @@ ht-degree: 95%
 | --- | --- |
 | 이름 | 세그먼트의 기본 이름은 세그먼트에 있는 규칙 이름의 조합입니다. 세그먼트 이름을 바꿀 수 있습니다. |
 | 포함/제외 | 세그먼트 정의에 구성 요소를 포함 또는 제외할 수 있지만 둘 다 할 수는 없습니다. |
-| 히트/방문/방문자 컨테이너 | 빠른 세그먼트에는 하나의 [세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=ko-KR#section_AF2A28BE92474DB386AE85743C71B2D6)만이 포함되어 세그먼트에 차원/지표/날짜 범위를 포함하거나 세그먼트에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
+| 히트/방문/방문자 컨테이너 | 빠른 세그먼트에는 하나의 [세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)만이 포함되어 세그먼트에 차원/지표/날짜 범위를 포함하거나 세그먼트에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
 | 구성 요소(차원/지표/날짜 범위) | 구성 요소 차원 및/또는 지표 및/또는 날짜 범위 및 값을 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 세그먼트] 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 드래그 앤 드롭합니다.</li></ul> |
-| 연산자 | 드롭다운 메뉴를 사용하여 표준 연산자 및 [!UICONTROL 고유 개수] 연산자를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=ko-KR) |
+| 연산자 | 드롭다운 메뉴를 사용하여 표준 연산자 및 [!UICONTROL 고유 개수] 연산자를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | 더하기(+) 기호 | 다른 규칙 추가 |
 | AND/OR 한정자 | 규칙에 “AND” 또는 “OR” 한정자를 추가할 수 있지만 단일 세그먼트 정의에서는 “AND”와 “OR”를 혼합할 수 없습니다. |
 | 적용 | 이 세그먼트를 패널에 적용합니다. 세그먼트에 데이터가 포함되지 않은 경우 계속 진행하라는 메시지가 표시됩니다. |
@@ -85,7 +85,7 @@ ht-degree: 95%
 
 ## 프로젝트 전용 세그먼트는 무엇입니까?
 
-프로젝트 전용 세그먼트는 해당 세그먼트가 작성된 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다. 프로젝트 전용 세그먼트는 왼쪽 레일에서 세그먼트를 작성하고 저장하지 않고도 데이터를 빠르게 탐색하기 위해 고안되었습니다. 프로젝트 전용 세그먼트는 빠른 세그먼트나 [임시 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=ko-KR).
+프로젝트 전용 세그먼트는 해당 세그먼트가 작성된 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다. 프로젝트 전용 세그먼트는 왼쪽 레일에서 세그먼트를 작성하고 저장하지 않고도 데이터를 빠르게 탐색하기 위해 고안되었습니다. 프로젝트 전용 세그먼트는 빠른 세그먼트나 [임시 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
 
 프로젝트 전용 세그먼트가 [!UICONTROL 세그먼트 빌더]에서 열려 있는 경우 프로젝트 전용 알림이 표시됩니다. “이 세그먼트의 사용 허용..”을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 클릭하면 세그먼트는 프로젝트 전용 세그먼트로 유지됩니다. 참고: 세그먼트 빌더에서 [빠른 세그먼트]를 적용하면 [!UICONTROL 빠른 세그먼트 빌더]에서 더 이상 열 수 없습니다.
 

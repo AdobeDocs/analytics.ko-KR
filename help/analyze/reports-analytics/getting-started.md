@@ -4,10 +4,10 @@ title: Reports and Analytics 시작하기
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '790'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 | 정보 종류 | 정의 |
 | --- | --- |
 | 연락처 | 자신의 계정에 대해 다음 개인 정보를 지정하십시오.<ul><li>이름 (필수)</li><li>성 (필수)</li><li>직함</li><li>이메일 주소 (필수)</li><li>전화번호</li></ul> |
-| 로그인 | 계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. [Reports &amp; Analytics 계정 암호를 재설정하는 방법](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=ko-KR)을 참조하십시오. |
+| 로그인 | 계정 사용자 이름이 표시되면 계정 암호를 바꿀 수 있습니다. [Reports &amp; Analytics 계정 암호를 재설정하는 방법](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html)을 참조하십시오. |
 | 웹 서비스 | 이 계정과 연결된 웹 서비스 사용자 이름과 공유 암호가 표시됩니다. 웹 서비스 API를 통해 Experience Cloud에 액세스할 때 이러한 자격 증명을 사용합니다. 자세한 내용은 Developer Connection을 참조하십시오. **참고:** 이 정보는 계정이 웹 서비스 사용자로 인증되는 경우에만 표시됩니다. |
 | 이 컴퓨터 제외 | 쿠키를 현재 컴퓨터에 적용하여 데이터 수집에서 제외합니다. 이 기능은 도메인에서 페이지 보기나 방문자 수에 영향을 주는 온라인 활동을 원하지 않는 경우 유용합니다. **참고:** 이 기능을 사용하려면 브라우저에 쿠키 기능이 활성화되어 있어야 합니다. 컴퓨터에서 쿠키를 삭제하는 경우 제외 쿠키를 재설정해야 합니다. |
 

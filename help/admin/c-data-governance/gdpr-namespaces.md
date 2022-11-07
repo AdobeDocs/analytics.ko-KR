@@ -3,10 +3,10 @@ description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스�
 title: 네임스페이스
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '890'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * &quot;type&quot; 필드: 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값이 들어 있습니다.
 * &quot;value&quot; 필드: Analytics가 각 보고서 세트의 연관된 네임스페이스 변수에서 검색해야 하는 ID가 들어 있습니다.
 
-자세한 내용은 [Experience Cloud 개인정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko-KR)를 참조하십시오.
+자세한 내용은 [Experience Cloud 개인정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오.
 
 ## 쿠키 ID
 

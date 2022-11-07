@@ -3,10 +3,10 @@ title: 집중 검토 (각 웹 사이트 릴리스 이후)
 description: 다음 단계에 따라 구현 오류를 방지하고 KPI를 관리하십시오.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '513'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 최근 지표나 변수를 추가하거나 변경한 경우 BRD (Business Requirements Document) 및 SDR (Solution Design Reference)을 업데이트해야 합니다.
 
-구현 설명서가 없는 경우 변수 목록을 내보내고 [이 템플릿](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ko-KR#implementation)을 사용하여 BRD 또는 SDR을 만듭니다.
+구현 설명서가 없는 경우 변수 목록을 내보내고 [이 템플릿](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)을 사용하여 BRD 또는 SDR을 만듭니다.
 
 ## 5. 데이터 품질에서 발견되는 차이를 즉시 해결합니다.
 

@@ -4,10 +4,10 @@ title: 게시 목록
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 49%
+source-wordcount: '661'
+ht-degree: 52%
 
 ---
 
@@ -27,7 +27,7 @@ R&amp;A의 기능 중 현재 사용 수명이 종료될 예정인 기능은 게�
 
 * 게시 목록을 사용하여 동일한 버전의 보고서를 여러 사용자에게 배포하는 경우(보고서 세트 무시를 적용하지 않고):
 
-   Analysis Workspace에서 보고서를 프로젝트로 다시 작성하면 메일 클라이언트나 작업 공간의 예약된 프로젝트 기능을 위해 만든 연락처 그룹 또는 배포 목록 조합을 사용하여 프로젝트의 반복 게재를 전송하거나 예약할 수 있습니다. 게시 목록과 마찬가지로 프로젝트의 PDF/CSV 버전이 그룹/목록에 포함된 모든 이메일 ID로 전송됩니다. 자세한 내용은 [여기에 예약된 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+   Analysis Workspace에서 보고서를 프로젝트로 다시 작성하면 메일 클라이언트나 작업 공간의 예약된 프로젝트 기능을 위해 만든 연락처 그룹 또는 배포 목록 조합을 사용하여 프로젝트의 반복 게재를 전송하거나 예약할 수 있습니다. 게시 목록과 마찬가지로 프로젝트의 PDF/CSV 버전이 그룹/목록에 포함된 모든 이메일 ID로 전송됩니다. 자세한 내용은 [여기에 예약된 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
 
 * 게시 목록 을 사용하여 보고서나 대시보드의 여러 버전을 여러 사용자에게 배포하는 경우 보고서 세트 무시 기능을 통해:
 

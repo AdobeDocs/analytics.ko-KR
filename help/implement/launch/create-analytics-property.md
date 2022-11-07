@@ -3,10 +3,10 @@ title: 태그에 Analytics 속성 만들기
 description: 태그를 사용하여 데이터 수집 방법을 사용자 지정할 공간을 만듭니다.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 93%
+source-wordcount: '514'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 
 속성은 태그를 관리하는 데 사용하는 중요한 컨테이너입니다. 확장을 사용하면 제품별 태그를 설치하고 구성할 수 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. **[!UICONTROL 새 속성]**&#x200B;을 클릭합니다.
 1. 속성 이름을 웹 사이트의 제목 등으로 지정하고 Analytics를 구현할 도메인을 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 새로 만든 태그 속성을 클릭하여 해당 설정을 입력합니다.
@@ -37,7 +37,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 
 데이터 요소는 변수 값을 수집하기 위한 사이트의 특정 부분에 대한 참조입니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 데이터 요소]** 탭을 클릭한 다음 **[!UICONTROL 데이터 요소 추가]**&#x200B;를 클릭합니다.
 1. 데이터 요소에 다음 설정을 지정합니다.
@@ -58,7 +58,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 
 규칙은 데이터 요소를 Analytics 변수 값에 매핑하고, 이러한 값을 언제 Adobe의 서버로 전송해야 하는지를 결정합니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 규칙]** 탭을 클릭한 다음 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다. 이름을 `Global Rule`로 지정합니다.
 1. 이벤트 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭하고 다음 설정을 입력합니다.

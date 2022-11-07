@@ -3,10 +3,10 @@ title: Adobe Experience Platform에서 태그를 사용하여 Adobe Analytics �
 description: 태그를 사용하는 Adobe Analytics 구현 방법 알아보기
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '308'
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,6 @@ Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함
 
 태그는 높은 자유도로 사용자 지정할 수 있습니다. 구현에 적합한 데이터를 포함하여 Adobe Analytics를 최대한 활용할 수 있는 방법에 대해 자세히 알아봅니다.
 
-* [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR#): 인터페이스의 작동 방식과 이요 가능한 확장 유형에 대해 알아봅니다.
+* [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): 인터페이스의 작동 방식과 이요 가능한 확장 유형에 대해 알아봅니다.
 * [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR): Analytics 확장을 사용하여 데이터를 Adobe Analytics에 보냅니다.
 * [구현 변수](../vars/overview.md): 데이터 수집 서버에 전송할 변수를 결정합니다.

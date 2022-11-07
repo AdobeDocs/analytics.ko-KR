@@ -5,10 +5,10 @@ title: 프로젝트 개요
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1426'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 | 요소 | 설명 |
 |---|---|
-| [새 프로젝트 만들기](/help/analyze/analysis-workspace/home.md) | 이 링크를 클릭하여 새 프로젝트를 처음부터 시작하거나 자동으로 생성된 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR#analysis-workspace)에서 시작합니다. |
+| [새 프로젝트 만들기](/help/analyze/analysis-workspace/home.md) | 이 링크를 클릭하여 새 프로젝트를 처음부터 시작하거나 자동으로 생성된 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace)에서 시작합니다. |
 | 프로젝트 관리 | 이 링크를 클릭하면 모든 프로젝트를 나열해 보여 주고, 태그 지정, 공유, 삭제, 이름 변경, 승인, 복사 및 프로젝트를 CSV로 내보내기를 할 수 있는 프로젝트 구성 요소 관리자 (**[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 프로젝트]**)로 이동합니다. |
 | 랜딩 페이지로 설정 | 이 페이지를 Workspace 랜딩 페이지로 바꿉니다. |
 | [튜토리얼 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ko-KR) | Analysis Workspace 비디오 튜토리얼로 이동합니다. |
@@ -51,7 +51,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 | 메뉴 항목 | 설명 |
 |---|---|
-| 프로젝트 | 새로 만들기, 열기, 저장, 다른 이름으로 저장, [템플릿으로 저장](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR) 등 프로젝트 관리를 위한 일반적인 작업이 포함됩니다. 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터 및 정의를 검색할 수도 있습니다. [CSV 및 PDF 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR) 옵션을 사용하면 Workspace에서 데이터를 내보낼 수 있습니다. [프로젝트 정보 및 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ko-KR?#info-settings)은 프로젝트 관리를 위한 다양한 옵션을 제공합니다. |
+| 프로젝트 | 새로 만들기, 열기, 저장, 다른 이름으로 저장, [템플릿으로 저장](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) 등 프로젝트 관리를 위한 일반적인 작업이 포함됩니다. 프로젝트 새로 고침을 클릭하여 전체 프로젝트를 새로 고쳐 최신 데이터 및 정의를 검색할 수도 있습니다. [CSV 및 PDF 다운로드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ko-KR) 옵션을 사용하면 Workspace에서 데이터를 내보낼 수 있습니다. [프로젝트 정보 및 설정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ko-KR?#info-settings)은 프로젝트 관리를 위한 다양한 옵션을 제공합니다. |
 | 편집 | 마지막 작업을 실행 취소하거나 다시 실행합니다. 모두 지우기는 프로젝트를 빈 시작 지점으로 재설정합니다. |
 | 삽입 | 이 메뉴에서 새 패널 또는 시각화를 삽입합니다. 왼쪽 레일에서 새 패널과 시각화를 삽입할 수도 있습니다. |
 | [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR) | 프로젝트에서 새 세그먼트, 계산된 지표, 날짜 범위 또는 경고 구성 요소를 만듭니다. 왼쪽 레일에서 새 구성 요소를 만들 수도 있습니다. 구성 요소 정의가 최근에 변경된 경우 구성 요소 새로 고침이 최신 정의를 검색합니다. |
@@ -80,7 +80,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 ## 왼쪽 레일 {#left-rail}
 
-프로젝트 내에서 [패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR), 테이블, [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR), [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR)는 왼쪽 레일에서 액세스됩니다. 이는 프로젝트 구성 요소입니다.
+프로젝트 내에서 [패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR), 테이블, [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR), [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html)는 왼쪽 레일에서 액세스됩니다. 이는 프로젝트 구성 요소입니다.
 
 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)에서도 시각화 및 패널에 액세스할 수 있습니다.
 
@@ -100,7 +100,7 @@ Workspace 프로젝트를 사용하면 데이터 구성 요소, 테이블 및 �
 
 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다. 활성 패널 주위에 파란색 테두리가 있으며 왼쪽 레일에서 어떤 구성 요소를 사용할 수 있는지가 결정됩니다.
 
-프로젝트를 위해 선택한 시작 지점에 따라 캔버스에 [자유형 테이블](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko-KR) 또는 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)이 표시됩니다. 분석을 시작하는 가장 빠른 방법은 하나 이상의 구성 요소를 선택하여 프로젝트 캔버스로 끌어서 놓는 것입니다. 데이터 테이블이 자동으로 렌더링됩니다. 테이블 작성하기 위한 다양한 옵션에 대해 [자세히 알아보거나](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko-KR) [교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR?#training-tutorial)을 활용하여 첫 번째 프로젝트 작성에 대한 자세한 지침을 확인하십시오.
+프로젝트를 위해 선택한 시작 지점에 따라 캔버스에 [자유형 테이블](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ko-KR) 또는 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)이 표시됩니다. 분석을 시작하는 가장 빠른 방법은 하나 이상의 구성 요소를 선택하여 프로젝트 캔버스로 끌어서 놓는 것입니다. 데이터 테이블이 자동으로 렌더링됩니다. 테이블 작성하기 위한 다양한 옵션에 대해 [자세히 알아보거나](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) [교육 튜토리얼](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR?#training-tutorial)을 활용하여 첫 번째 프로젝트 작성에 대한 자세한 지침을 확인하십시오.
 
 ![](assets/canvas.png)
 
@@ -118,9 +118,9 @@ Analysis Workspace 프로젝트는 **[!UICONTROL Analytics] > [!UICONTROL 구성
 
 | 작업 | 설명 |
 |---|---|
-| 추가 | 새 프로젝트를 처음부터 만들거나 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR)에서 시작할 수 있습니다. |
+| 추가 | 새 프로젝트를 처음부터 만들거나 [템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)에서 시작할 수 있습니다. |
 | 태그 또는 승인 | “태그” 또는 “승인”을 선택하여 프로젝트를 구성하고 쉽게 검색할 수 있도록 만듭니다. |
-| [공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) | 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있게 합니다. |
+| [공유](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 프로젝트를 조직의 다른 Analysis Workspace 사용자가 사용할 수 있게 합니다. |
 | 삭제 | 프로젝트를 삭제합니다. |
 | 이름 변경 | 프로젝트의 이름을 편집합니다. |
 | 복사 | 프로젝트의 복사본을 만듭니다. 그러면 새 프로젝트와 프로젝트 ID가 생성됩니다. 원본 프로젝트에 연결된 공유 또는 예약은 복사되지 않습니다. |

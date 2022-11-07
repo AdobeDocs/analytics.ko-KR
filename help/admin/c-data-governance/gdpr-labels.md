@@ -3,10 +3,10 @@ description: Adobe Analytics 변수에 대한 데이터 개인정보 레이블�
 title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '3913'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '3909'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
   <tr> 
    <td colname="col1"> <p>없음 </p> </td> 
    <td colname="col2"> <p>이 변수는 데이터 개인정보 보호 요청에 사용될 ID를 포함하지 않습니다. </p> </td> 
-   <td colname="col3"> <p>이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. </p> </td> 
+   <td colname="col3"> <p>이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 | 레이블 | 정의 | 기타 요구 사항 |
 | --- | --- | --- |
-| 없음 | 이 변수는 데이터 개인정보 보호 요청에 사용될 ID를 포함하지 않습니다. | 이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. |
+| 없음 | 이 변수는 데이터 개인정보 보호 요청에 사용될 ID를 포함하지 않습니다. | 이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. |
 | ID-DEVICE | 이 필드에는 데이터 개인정보 보호 요청에 대해 디바이스를 식별하는 데 사용할 수 있는 ID가 포함되어 있지만 공유 디바이스의 서로 다른 사용자를 구별할 수 없습니다.  ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | I1 또는 I2 레이블도 필요함.<ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li><li>분류에 대해 설정할 수 없음</li></ul> |
 | ID-PERSON | 이 필드에는 데이터 개인정보 보호 요청에 대해 인증된 사용자 (특정 사용자)를 식별하는 데 사용할 수 있는 ID가 포함됩니다.  ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | I1 또는 I2 레이블도 필요함.<ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li><li>분류에 대해 설정할 수 없음</li></ul> |
 

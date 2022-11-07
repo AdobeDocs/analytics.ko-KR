@@ -5,9 +5,9 @@ title: 방문자 마이그레이션
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '440'
 ht-degree: 97%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>구성 변경 후 6시간 이상</b>: Analytics JavaScript 코드에서 <code> s.trackingServer</code> 및 <code> s.trackingServerSecure</code> 변수를 업데이트하여 새 데이터 수집 서버를 사용합니다. </p> </td> 
-   <td colname="col3"> <p>이 변경 사항을 적용한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ko-KR"> Experience Cloud debugger</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
+   <td colname="col3"> <p>이 변경 사항을 적용한 후 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html"> Experience Cloud debugger</a>를 사용하여 Analytics 이미지 요청이 업데이트된 데이터 수집 서버로 이동하는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics 코드를 업데이트한 직후</b>: 이전 데이터 수집 도메인으로의 리디렉션이 발생하는지를 확인하는 테스트를 사이트에 대해 수행합니다. </p> </td> 

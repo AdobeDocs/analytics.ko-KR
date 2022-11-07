@@ -3,9 +3,9 @@ title: 속성 모범 사례
 description: 속성 모델 결정과 관련된 모범 사례에는 어떤 것들이 있습니까?
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!NOTE]
 >이 분석은 속성 모델을 선택하기 전에 먼저 수행되어야 합니다.
 
-이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en)(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
+이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR)(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
 
 * 얼마나 많은 고객이 전환하기 전에 다른 마케팅 채널을 터치하고 있습니까?
 * 이러한 행동의 비율/분포를 보다 쉽게 이해할 수 있습니다.
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 **예 2**
 
-“우리 업계(예: 여행 산업)에서는 고객이 제품을 구입하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이다.”라는 가설을 설정할 수 있습니다. 그런 다음 [전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows)을 90일로 변경할 수 있습니다.
+“우리 업계(예: 여행 산업)에서는 고객이 제품을 구입하기 전에 많은 조사를 하기 때문에 속성 기간이 30일이 아니라 60일 또는 90일이다.”라는 가설을 설정할 수 있습니다. 그런 다음 [전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)을 90일로 변경할 수 있습니다.
 
 ## 3단계: 알고리즘 속성 사용
 
@@ -55,4 +55,4 @@ ht-degree: 100%
 
 * Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR) 사용을 고려해 보십시오.

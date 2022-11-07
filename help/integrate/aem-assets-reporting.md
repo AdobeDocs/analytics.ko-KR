@@ -3,10 +3,10 @@ description: Analytics에서 AEM Assets 보고를 활성화하는 관리 단계�
 title: Adobe Analytics에서 AEM Assets에 대해 보고하는 방법
 feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 93%
 
 ---
 
@@ -22,4 +22,4 @@ Analytics에서 AEM Asset Insights에서 제공된 [!UICONTROL 에셋]에 대한
 * Analysis Workspace의 에셋 변수에 에셋 ID, 에셋 소스 및 클릭한 에셋 ID와 같은 새 차원을 추가합니다.
 * 에셋 이벤트 (에셋 클릭 및 에셋 노출)에 새 차원 추가
 
-데이터를 채우려면 [AEM Asset 인사이트 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=ko-KR)에서 전체 구현 지침을 참조하십시오.
+데이터를 채우려면 [AEM Asset 인사이트 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html)에서 전체 구현 지침을 참조하십시오.

@@ -3,10 +3,10 @@ title: 계산된 지표 합계
 description: Analytics 도구에서 계산된 지표 합계가 어떻게 다른지 알아봅니다.
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 97%
 
 ---
 
@@ -41,4 +41,4 @@ Analysis Workspace에서 데이터를 볼 때 대부분의 경우 계산된 지�
 * 자유 형식 테이블에 [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)을 사용하고 **[!UICONTROL 현재 행의 합계로 표시]** 옵션 (기본값)을 선택한 경우
 * [도넛 시각화](/help/analyze/analysis-workspace/visualizations/donut.md)에서 숫자가 최대 100%까지 추가되도록 하는 경우
 
-Analysis Workspace의 합계에 대한 자세한 내용은 [Workspace 합계](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko#static-row-total)를 참조하십시오.
+Analysis Workspace의 합계에 대한 자세한 내용은 [Workspace 합계](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total)를 참조하십시오.

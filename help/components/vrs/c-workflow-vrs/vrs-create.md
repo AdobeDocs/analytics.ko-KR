@@ -4,10 +4,10 @@ keywords: 가상 보고서 세트
 title: 가상 보고서 세트 만들기
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 ![](assets/components.png)
 
 1. [!UICONTROL 구성 요소] 탭에서 이 가상 리포트 세트에 대한 구성 요소를 Analysis Workspace에서 포함, 제외 및 이름을 변경하기 위해 큐레이션을 적용할 체크박스를 선택하십시오.
-VRS 큐레이션에 대한 자세한 정보는 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ko-KR?lang=ko#virtual-report-suites)을 참조하십시오.
+VRS 큐레이션에 대한 자세한 정보는 [가상 보고서 세트 구성 요소 큐레이션](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)을 참조하십시오.
 
 1. VRS에 포함할 구성 요소(차원, 지표, 세그먼트 또는 날짜 범위)를 [!UICONTROL 포함 구성 요소] 섹션으로 끌어다 놓습니다.
 

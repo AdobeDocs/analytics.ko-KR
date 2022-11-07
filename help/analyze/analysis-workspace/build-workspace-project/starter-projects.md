@@ -4,9 +4,9 @@ title: 템플릿
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1311'
 ht-degree: 100%
 
 ---
@@ -137,7 +137,7 @@ Workspace를 처음 열면 왼쪽 레일에서 템플릿을 사용할 수 있습
 
 <!--This content is mirrored in the CDA doc.-->
 
-이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ko-KR))에 액세스할 수 있는 고객에게만 제공됩니다.
+이 템플릿을 사용하면 중요한 디바이스 간 성능 데이터를 볼 수 있습니다. CDA ([Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html))에 액세스할 수 있는 고객에게만 제공됩니다.
 
 * **사용자 식별**: 크로스 디바이스 분석을 기반으로 한 메서드를 사용하여 사이트 방문자가 식별되는 빈도를 표시합니다.
 * **대상 크기 측정**: &#39;사람&#39; 대비 &#39;고유 디바이스&#39;의 비교를 보여 줍니다. 이 두 숫자의 비율을 &#39;크로스 디바이스 압축&#39;이라고 하며, 이 패널에 표시되는 계산된 지표입니다. 이 압축 지표는 다양한 요인에 따라 다릅니다.

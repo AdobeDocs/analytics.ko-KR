@@ -2,10 +2,10 @@
 title: Device Graph
 description: Device Graph를 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 69%
+source-wordcount: '321'
+ht-degree: 68%
 
 ---
 
@@ -22,8 +22,8 @@ Device Graph 방법을 사용하여 크로스 디바이스 분석을 구현하�
 >모든 사전 요구 사항을 충족하지 못하면 크로스 디바이스 분석을 사용할 수 없거나 데이터 결합이 제대로 되지 않을 수 있습니다.
 
 * [개요 페이지](overview.md)에 나열되어 있는 모든 사전 요구 사항.
-* 조직은 [Adobe Experience Platform Identity 서비스 개인 그래프](https://business.adobe.com/products/experience-platform/identity-service.html). 다음을 참조하십시오. [홈 페이지](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko) 을 참조하십시오.
-* 구현에서 최신 버전의 ECID(Experience Cloud ID 서비스)를 사용해야 합니다. 자세한 내용은 [홈 페이지](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR) 를 참조하십시오. 를 사용하는 대부분의 구현 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) Adobe Experience Platform에서 이미 ID 서비스를 배포했을 수 있습니다.
+* 조직은 [Adobe Experience Platform Identity 서비스 개인 그래프](https://business.adobe.com/products/experience-platform/identity-service.html). 다음을 참조하십시오. [홈 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko) 을 참조하십시오.
+* 구현에서 최신 버전의 ECID(Experience Cloud ID 서비스)를 사용해야 합니다. 자세한 내용은 [홈 페이지](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR) 를 참조하십시오. 를 사용하는 대부분의 구현 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) Adobe Experience Platform에서 이미 ID 서비스를 배포했을 수 있습니다.
 * 구현은 사용자가 로그인하거나 이메일을 여는 경우와 같이 개인을 식별할 수 있을 때마다 이 `setCustomerIDs` 함수 (또는 그에 상응하는 SDK 항목)를 호출해야 합니다. 이 요구 사항은 모바일 앱 (사용하는 경우)을 비롯한 모든 플랫폼에 적용됩니다. 자세한 내용은 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ko-KR) 를 참조하십시오.
 
 ## Device Graph에 해당하는 제한 사항

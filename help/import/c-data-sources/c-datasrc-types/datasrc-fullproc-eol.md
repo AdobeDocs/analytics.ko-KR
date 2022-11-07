@@ -3,10 +3,10 @@ title: 전체 처리 데이터 소스의 서비스 종료
 description: 서비스 종료의 이유와 Bulk Data Insertion API 및 전체 처리 데이터 소스 간 비교
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1225'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ Bulk Data Insertion API(BDIA)에는 전체 처리에서 지원하는 모든 사�
 | customerID[customerIDType].id | 지원되지 않음 | 사용할 고객 ID입니다. customerIDType은 모든 영숫자 문자열이 될 수 있지만 대/소문자를 구분해야 합니다. |
 | customerID[customerIDType].isMCSeed | 지원되지 않음 | Marketing Cloud 방문자 ID의 시드인지 여부입니다. 지원되는 값은 0, 1, TRUE, FALSE, &#39;&#39;(대소문자 구분 안 함)입니다. 0, FALSE 또는 두 개의 연속적인 작은따옴표(&#39;&#39;)를 사용하면 쿼리 문자열에서 값이 생략됩니다. customerIDType은 모든 영숫자 문자열이 될 수 있지만 대/소문자를 구분해야 합니다. |
 | eVarN | eVarN, i.e. `<eVar2>`...`<eVar>` | 전환 eVar 이름. 최대 75개의 eVar를 가질 수 있습니다( eVar1 - eVar75) eVar 이름(eVar12) 또는 친숙한 이름(Ad Campaign 3)을 지정할 수 있습니다. |
-| events | events | s.events 변수와 동일한 구문을 사용하여 형식이 지정된 [이벤트 문자열](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ko-KR#vars)입니다. 예: scAdd,event1,event7 |
+| events | events | s.events 변수와 동일한 구문을 사용하여 형식이 지정된 [이벤트 문자열](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars)입니다. 예: scAdd,event1,event7 |
 | hierN | hierN, i.e. `<hier2>`…`</hier2>` | 계층 이름. 최대 5개의 계층을 가질 수 있습니다( hier1 - hier5). 기본 계층 이름`hier2` 또는 친숙한 이름(Yankees)을 지정할 수 있습니다. |
 | homePage | homePage | Y 또는 N -- 현재 페이지가 방문자의 홈 페이지인지 여부. |
 | ipaddress | 지원되지 않음 | 방문자의 IP 주소입니다. |
@@ -66,7 +66,7 @@ Bulk Data Insertion API(BDIA)에는 전체 처리에서 지원하는 모든 사�
 | linkType | linkType | 링크 유형. 지원되는 값은 다음과 같습니다. `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | 링크의 HREF. |
 | listn 예: list2 | 지원되지 않음 | 변수로 전달된 후 보고를 위해 개별 라인 항목으로 보고되는 구분 기호로 구분된 값의 목록입니다. |
-| marketingCloudVisitorID | 지원되지 않음 | Marketing Cloud ID. [방문자 식별](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR#id-service-api) 및 Marketing Cloud 방문자 ID 서비스 보기 |
+| marketingCloudVisitorID | 지원되지 않음 | Marketing Cloud ID. [방문자 식별](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) 및 Marketing Cloud 방문자 ID 서비스 보기 |
 | 지원되지 않음 | charSet | 웹 사이트에서 지원되는 문자 세트입니다. 예를 들어 UTF-8, ISO-8859-1 등입니다. |
 | 지원되지 않음 | clickAction | 방문자 클릭 맵에 대한 오브젝트 식별자(oid) |
 | 지원되지 않음 | clickActionType | 방문자 클릭 맵에 대한 오브젝트 식별자 유형(oidt) |
@@ -91,7 +91,7 @@ Bulk Data Insertion API(BDIA)에는 전체 처리에서 지원하는 모든 사�
 | state | state | 전환 상태 문자열. |
 | timestamp | 날짜 | YYYY-MM-DDThh:mm:ss±UTC_offset의 ISO 8601 날짜 형식(예: 2021-09-01T12:00:00-07:00) 또는 Unix 시간 형식(1970년 1월 1일 이후 경과된 초 수)을 사용합니다. |
 | trackingServer | 지원되지 않음 | 열 머리글을 통해서만 제공할 수 있습니다. |
-| transactionID | 지원되지 않음 | 보고 목적으로 다중 채널 사용자 활동을 연결하는 데 사용되는 공통된 값입니다. 자세한 내용은 [데이터 소스 사용 안내서](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=ko-KR#data-sources)를 참조하십시오. |
+| transactionID | 지원되지 않음 | 보고 목적으로 다중 채널 사용자 활동을 연결하는 데 사용되는 공통된 값입니다. 자세한 내용은 [데이터 소스 사용 안내서](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources)를 참조하십시오. |
 | userAgent | 지원되지 않음 | 사용자 에이전트 문자열 |
-| visitorID | visitorID | 방문자의 Analytics ID입니다. [방문자 식별](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)을 참조하십시오. |
+| visitorID | visitorID | 방문자의 Analytics ID입니다. [방문자 식별](https://experienceleague.adobe.com/docs/id-service/using/home.html)을 참조하십시오. |
 | zip | zip | 전환 우편번호. |

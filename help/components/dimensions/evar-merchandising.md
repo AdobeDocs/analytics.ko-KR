@@ -3,10 +3,10 @@ title: eVar(머천다이징 차원)
 description: 제품 차원에 연결된 사용자 지정 변수입니다.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 95%
+source-wordcount: '445'
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 *이 도움말 페이지에서는 머천다이징 eVar가 차원으로 작동하는 방식을 설명합니다. 머천다이징 eVar 구현 방법에 대한 자세한 내용은 [eVar(머천다이징 변수)](/help/implement/vars/page-vars/evar-merchandising.md) 구현 사용 안내서에서 를 참조하십시오.*
 
-머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=kr)을 참조하십시오.
+머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)을 참조하십시오.
 
 일반적으로 외부 캠페인 또는 외부 검색 용어의 성공을 측정할 때는 하나의 값이 성공 이벤트 발생 요인으로 인정되기를 원할 것입니다. 예를 들어 고객이 이메일 캠페인의 링크를 클릭하여 웹 사이트를 방문하면 그에 따라 이루어진 모든 구매가 해당 캠페인 덕분인 것으로 됩니다.
 

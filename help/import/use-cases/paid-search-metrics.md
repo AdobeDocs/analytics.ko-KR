@@ -2,10 +2,10 @@
 title: 유료 검색 지표 가져오기
 description: '데이터 소스를 사용하여 유료 검색 지표(예: Google AdWords, MSN, Yahoo 등)를 추적하도록 Adobe Analytics를 구성하는 단계.'
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
-workflow-type: ht
-source-wordcount: '1212'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ f. 추적 코드, 노출수, 클릭수 및 비용을 제외한 모든 열을 삭
 
 계산된 지표를 추가하면 클릭당 과금 결정을 내릴 때 도움이 됩니다.
 
-예를 들어 다음 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics)를 추가할 수 있습니다.
+예를 들어 다음 [계산된 지표](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)를 추가할 수 있습니다.
 
 | 이름 | 공식 | 지표 유형 | 설명 |
 | --- | --- | --- | --- |
