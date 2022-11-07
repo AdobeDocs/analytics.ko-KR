@@ -1,25 +1,25 @@
 ---
 title: eVar(머천다이징 변수)
-description: 개별 제품에 연결된 사용자 지정 변수입니다.
+description: 개별 제품에 연결된 사용자 정의 변수입니다.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # eVar (머천다이징)
 
-*이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 [eVar(머천다이징 차원)](/help/components/dimensions/evar-merchandising.md) 구성 요소 사용 안내서에서 를 참조하십시오.*
+*이 도움말 페이지에서는 머천다이징 eVar를 구현하는 방법에 대해 설명합니다. 머천다이징 eVar가 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [eVar(머천다이징 차원)](/help/components/dimensions/evar-merchandising.md)를 참조하십시오.*
 
 머천다이징 eVars의 작동 원리에 대한 자세한 내용은 [머천다이징 eVar 및 제품 검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=kr)을 참조하십시오.
 
 ## 보고서 세트 설정에서 eVar 설정
 
-구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 eVar을 원하는 구문으로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+구현에서 eVar를 사용하기 전에 보고서 세트 설정에서 eVar를 원하는 구문으로 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 
 >[!WARNING]
 >
@@ -42,18 +42,18 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 `eVar1`에 대한 값이 제품에 지정됩니다. 이 제품과 관련된 이후의 모든 성공 이벤트는 eVar 값에 반영됩니다.
 
-### 웹 SDK를 사용하는 제품 구문
+### 웹 SDK를 사용한 제품 구문
 
-제품 구문 머천다이징 변수는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 다른 XDM 필드 아래에 있습니다.
+제품 구문 머천다이징 변수는 여러 다른 XDM 필드 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
 
-* 제품 구문 머천다이징 eVar는 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* 제품 구문 머천다이징 이벤트는 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [이벤트 정리](events/event-serialization.md) XDM 필드는 `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* 제품 구문 머천다이징 eVar는 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 아래에서 `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`에 매핑됩니다.
+* 제품 구문 머천다이징 이벤트는 `productListItems[]._experience.analytics.event1to100.event1.value` 아래에서 `productListItems[]._experience.analytics.event901to1000.event1000.value`에 매핑됩니다. [이벤트 일련화](events/event-serialization.md) XDM 필드는 `productListItems[]._experience.analytics.event1to100.event1.id` 아래에서 `productListItems[]._experience.analytics.event901to1000.event1000.id`에 매핑됩니다.
 
 >[!NOTE]
 >
->에서 이벤트를 설정할 때 `productListItems`를 채울 필요는 없습니다. 두 위치 모두에서 설정되는 경우 이벤트 문자열의 값이 우선합니다.
+>`productListItems` 아래에서 이벤트를 설정할 때 이벤트 문자열에서 설정할 필요가 없습니다. 두 위치에 모두 설정된 경우 이벤트 문자열의 값이 우선합니다.
 
-다음 예는 단일 [product](products.md) 여러 머천다이징 eVar 및 이벤트 사용:
+다음 예는 여러 상품화 eVar 및 이벤트를 사용하는 단일 [제품](products.md)을 보여 줍니다.
 
 ```js
 "productListItems": [
@@ -84,7 +84,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 ]
 ```
 
-위의 예제 객체는 다음과 같이 Adobe Analytics에 전송됩니다 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+위의 예 오브젝트는 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`로 Adobe Analytics에 전송됩니다.
 
 ## 전환 변수 구문을 사용한 구현
 
@@ -106,11 +106,11 @@ s.products = ";Canary";
 * eVar 만료 (&#39;다음 시기 이후에 만료&#39; 설정에 따름)
 * 머천다이징 eVar가 새로운 값으로 덮어쓰기됨.
 
-### 웹 SDK를 사용하는 전환 변수 구문
+### 웹 SDK를 사용한 전환 변수 구문
 
-웹 SDK를 사용하는 전환 변수 구문은 다른 구현 시 유사하게 작동합니다 [eVar](evar.md) 및 [events](events/events-overview.md). 위의 예를 보여주는 XDM 미러링은 다음과 같습니다.
+Web SDK를 사용하는 전환 변수 구문은 다른 [eVar](evar.md) 및 [이벤트](events/events-overview.md) 구현과 유사하게 작동합니다. 위의 예를 미러링하는 XDM은 다음과 같습니다.
 
-동일하거나 이전 이벤트 호출에서 eVar을 설정합니다.
+동일한 이벤트 호출 또는 이전 이벤트 호출에서 eVar를 설정합니다.
 
 ```js
 "_experience": {
