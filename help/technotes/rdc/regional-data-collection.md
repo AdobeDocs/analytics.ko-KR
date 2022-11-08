@@ -3,7 +3,7 @@ title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 1016e802f80855aebe0046f48556733652379d33
+source-git-commit: 60c2422ef32a4fadbb975006c111d12878a98f53
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 90%
@@ -54,7 +54,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 최종
 | 이점 | 설명 |
 | --- | --- |
 | 성능 | RDC를 사용하면 방문자가 가장 가까운 DCC에 연결됩니다. 이렇게 가장 빠른 응답 시간을 제공하면 추적이 더 정확해지고 로딩 시간이 더 빨라집니다. |
-| 중복 | DCC와 DPC 간의 통신이 중단되는 경우 Adobe의 RDC 인프라에서 데이터를 로컬에 저장했다가 통신이 복원되면 DPC로 전달합니다. |
+| 중복 | DCC와 DPC 간의 통신이 중단되면 Adobe의 RDC 인프라에서 데이터를 로컬에 저장했다가 통신이 복원될 때 DPC로 전달합니다. |
 
 ## RDC 작동 방식
 
