@@ -1,10 +1,10 @@
 ---
 description: 보고서에 고유 값이 많은 경우 Adobe는 낮은 트래픽 차원 항목을 사용하여 보고서 성능을 개선합니다.
 title: Adobe Analytics의 낮은 트래픽 값
-feature: Data Configuration and Collection
+feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: ddd1473ccfe27dbcb28c0c51992628c9bf03cb5c
-workflow-type: ht
+source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
+workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 100%
 
