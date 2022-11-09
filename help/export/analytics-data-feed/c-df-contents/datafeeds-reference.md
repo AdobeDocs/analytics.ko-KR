@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
-workflow-type: ht
-source-wordcount: '3599'
-ht-degree: 100%
+source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+workflow-type: tm+mt
+source-wordcount: '3621'
+ht-degree: 99%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 100%
 | **`cust_hit_time_gmt`** | 타임스탬프가 활성화된 보고서 세트 전용입니다. Unix 시간을 기반으로 한, 히트와 함께 전송된 타임스탬프입니다. | int |
 | **`cust_visid`** | 사용자 정의 방문자 ID가 설정되면 이 열에 채워집니다. | varchar (255) |
 | **`daily_visitor`** | 히트가 새 일일 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
-| **`dataprivacyconsentoptin`** | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`|`)로 구분됩니다. 유효한 값은 `DMP`, `SELL`입니다. | varchar (100) |
-| **`dataprivacyconsentoptout`** | [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`|`)로 구분됩니다. 유효한 값은 `SSF`, `DMP`, `SELL`입니다. | varchar (100) |
+| **`dataprivacyconsentoptin`** | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `DMP`, `SELL`입니다. | varchar (100) |
+| **`dataprivacyconsentoptout`** | [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `SSF`, `DMP`, `SELL`입니다. | varchar (100) |
 | **`date_time`** | 보고서 세트의 시간대를 기반으로 한 읽을 수 있는 형식으로 된 히트 시간입니다. | datetime |
 | **`domain`** | [도메인](/help/components/dimensions/domain.md) 차원에 사용되는 변수입니다. 방문자의 인터넷 액세스 포인트를 기반으로 합니다. | varchar (100) |
 | **`duplicate_events`** | 중복으로 카운트된 각 이벤트를 나열합니다. | varchar (255) |
@@ -163,6 +163,7 @@ ht-degree: 100%
 | **`page_type`** | 404 페이지에만 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원을 채우는 데 사용됩니다. 이 변수는 비어 있거나 `ErrorPage` 값을 포함해야 합니다. | char (20) |
 | **`page_url`** | 히트의 URL입니다. `post_page_url`은 링크 추적 이미지 요청에서 제거되고 varchar(255)의 데이터 유형을 사용합니다. | 텍스트 |
 | **`pagename`** | [페이지](/help/components/dimensions/page.md) 차원을 채우는 데 사용됩니다. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
+| **`pagename_no_url`** | 과 유사함 `pagename`으로 폴백되지 않는다는 점을 제외하면 `page_url`. 전용 `post` 열을 사용할 수 있습니다. | varchar (100) |
 | **`paid_search`** | 히트가 유료 검색 발견과 일치하는 경우 설정되는 플래그입니다. | tinyint 부호 없음 |
 | **`partner_plugins`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (255) |
 | **`persistent_cookie`** | [영구적 쿠키 지원](/help/components/dimensions/persistent-cookie-support.md) 차원에 사용되는 변수입니다. 방문자가 각 히트 후 삭제되지 않은 쿠키를 지원하는지 여부를 나타냅니다. | char (1) |
@@ -201,9 +202,10 @@ ht-degree: 100%
 | **`socialownedpropertyid`** | 더 이상 사용되지 않습니다. 소셜이 소유한 속성 ID | varchar (255) |
 | **`socialownedpropertyname`** | 더 이상 사용되지 않습니다. 소셜이 소유한 속성 이름 | varchar (255) |
 | **`socialownedpropertypropertyvsapp`** | 더 이상 사용되지 않습니다. 소셜이 소유한 속성 이름 대 앱 | varchar (255) |
+| **`sourceid`** | . | int 부호 없음 |
 | **`state`** | 상태 변수입니다. | varchar (50) |
 | **`stats_server`** | 사용하지 않습니다. 히트를 처리한 Adobe 내부 서버입니다. | char (30) |
-| **`survey`** | 더 이상 사용되지 않습니다. Adobe Survey 변수 | 텍스트 |
+| **`survey`** | 더 이상 사용되지 않습니다. Adobe Survey 변수 전용 `post` 열을 사용할 수 있습니다. | 텍스트 |
 | **`survey_instances`** | 더 이상 사용되지 않습니다. Adobe Survey 인스턴스 변수 | 텍스트 |
 | **`t_time_info`** | 방문자의 로컬 시간입니다. 포맷: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar (100) |
 | **`tnt`** | Adobe Target 통합에서 사용됩니다. 현재 자격이 있는 모든 테스트를 나타냅니다. 포맷: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`입니다. | 텍스트 |
