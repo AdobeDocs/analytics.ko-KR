@@ -3,10 +3,10 @@ title: Adobe Analytics에서 체류 시간을 계산하는 방법
 description: 체류 시간 차원 및 지표가 집계된 페이지입니다.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: de08ad32d36219ccd7da5470e5821de565bed18b
+source-git-commit: 283b8e23c95b46d091b41ed97ca9bc683e7a33ee
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 94%
+source-wordcount: '1673'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,7 @@ Adobe Analytics 제품 전체에서 다양한 [!UICONTROL &#39;체류 시간&#39
 | [!UICONTROL 총 체류 시간 (초)] | 방문자가 특정 차원 항목과 상호 작용하는 총 시간을 나타냅니다. 모든 후속 히트에서의 값 및 지속성 인스턴스를 포함합니다. Prop의 경우, 체류 시간은 후속 링크 이벤트에서도 계산됩니다. | Analysis Workspace, Reports &amp; Analytics, Report Builder (‘총 체류 시간’이라고 함), Data Warehouse |
 | [!UICONTROL 방문당 체류 시간]  (초) | 대략 *총 체류 시간(초) / (방문-바운스)*<br>&#x200B;방문자가 각 방문 동안 특정 차원 항목과 상호 작용하는 평균 시간을 나타냅니다. **참고**: 이 함수의 분모는 내부 지표이므로 이 지표를 독립적으로 계산할 수 없습니다. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL 방문자당 체류 시간]  (초) | 대략 *총 체류 시간(초) / 고유 방문자*<br>&#x200B;방문자가 방문자의 라이프타임(해당 쿠키 길이) 동안 특정 차원 항목과 상호 작용하는 평균 시간을 나타냅니다. **참고**: 이 함수의 분모는 내부 지표이므로 이 지표를 독립적으로 계산할 수 없습니다. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL 체류 시간/사용자(상태)] | 대략 *총 모바일 앱 체류 시간(초)/고유한 모바일 앱 방문자 수*<br>&#x200B;방문자의 라이프타임(해당 쿠키 길이) 동안 모바일 앱 방문자가 특정 차원 항목과 상호 작용하는 평균 시간을 나타냅니다. **참고**: 이 함수의 분모는 내부 지표이므로 이 지표를 독립적으로 계산할 수 없습니다. | Analysis Workspace |
 | [!UICONTROL 사이트에서 보낸 평균 시간]  (초) | 방문자가 특정 차원 항목과 상호 작용하는 총 시간 (차원 항목 시퀀스당)을 나타냅니다. 이름으로 예상되듯이 &quot;사이트&quot; 평균으로 제한되지 않습니다. 시퀀스에 대한 자세한 내용은 &quot;체류 시간 계산 방법 섹션&quot;을 참조하십시오.<br>**참고**: 이 지표는 계산에 사용된 분모의 차이로 인해 차원 항목 수준에서 &#39;방문당 체류 시간&#39;과 다를 수 있습니다. | Analysis Workspace, Reports &amp; Analytics (분 단위로 표시됨), Report Builder (분 단위로 표시됨) |
 | [!UICONTROL 사이트의 평균 시간] | 이는 시간(hh:mm:ss)으로 포맷된 경우를 제외하고 *사이트에서 보낸 평균 시간(초)*&#x200B;과 동일한 지표입니다. | Analysis Workspace |
 | [!UICONTROL 페이지에서 보낸 평균 시간] | 더 이상 사용되지 않는 지표.<br> 대신, 차원 항목에 대한 평균 시간이 필요한 경우 &#39;사이트에서 보낸 평균 시간&#39;을 사용하는 것이 좋습니다. | Report Builder (요청에 차원이 있을 때) |
