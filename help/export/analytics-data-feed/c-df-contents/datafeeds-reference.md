@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
-source-wordcount: '3621'
+source-wordcount: '3638'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 99%
 | 열 이름 | 열 설명 | 데이터 유형 |
 | --- | --- | --- |
 | **`accept_language`** | 이미지 요청의 Accept-Language HTTP 헤더에 표시된 대로 모든 수락된 언어를 나열합니다. | char (20) |
+| **`adload`** | 미디어 광고 로드 | varchar (255) |
 | **`aemassetid`** | Adobe Experience Manager 에셋 세트의 에셋 ID(GUID)에 해당하는 다중 값 변수입니다. 노출 이벤트를 증가시킵니다. | 텍스트 |
 | **`aemassetsource`** | 에셋 이벤트의 소스를 식별합니다. Adobe Experience Manager에서 사용됩니다. | varchar (255) |
 | **`aemclickedassetid`** | Adobe Experience Manager 에셋의 에셋 ID입니다. 클릭 이벤트를 증가시킵니다. | varchar (255) |
@@ -143,6 +144,8 @@ ht-degree: 99%
 | **`mobileplaceaccuracy`** | 컨텍스트 데이터 변수 `a.loc.acc`에서 수집됩니다. 수집 시 GPS의 정확도를 미터 단위로 나타냅니다. | varchar (255) |
 | **`mobileplacecategory`** | 컨텍스트 데이터 변수 `a.loc.category`에서 수집됩니다. 특정 위치의 범주를 설명합니다. | varchar (255) |
 | **`mobileplaceid`** | 컨텍스트 데이터 변수 `a.loc.id`에서 수집됩니다. 지정된 관심 영역에 대한 식별자입니다. | varchar (255) |
+| **`mobilepushoptin`** | Mobile Services 푸시 옵트인 | varchar (255) |
+| **`mobilepushpayloadid`** | Mobile Services 푸시 페이로드 ID | varchar (255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services 실행 콘텐츠 | varchar (255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services 실행 미디어 | varchar (255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services 실행 소스 | varchar (255) |
@@ -202,7 +205,7 @@ ht-degree: 99%
 | **`socialownedpropertyid`** | 더 이상 사용되지 않습니다. 소셜이 소유한 속성 ID | varchar (255) |
 | **`socialownedpropertyname`** | 더 이상 사용되지 않습니다. 소셜이 소유한 속성 이름 | varchar (255) |
 | **`socialownedpropertypropertyvsapp`** | 더 이상 사용되지 않습니다. 소셜이 소유한 속성 이름 대 앱 | varchar (255) |
-| **`sourceid`** | . | int 부호 없음 |
+| **`sourceid`** | 소스 ID | int 부호 없음 |
 | **`state`** | 상태 변수입니다. | varchar (50) |
 | **`stats_server`** | 사용하지 않습니다. 히트를 처리한 Adobe 내부 서버입니다. | char (30) |
 | **`survey`** | 더 이상 사용되지 않습니다. Adobe Survey 변수 전용 `post` 열을 사용할 수 있습니다. | 텍스트 |
@@ -294,6 +297,7 @@ ht-degree: 99%
 
 다음 열 목록은 사용되지 않으며 데이터를 포함하지 않습니다.
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
