@@ -4,9 +4,9 @@ description: 다음 단계에 따라 구현 오류를 방지하고 KPI를 관리
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
