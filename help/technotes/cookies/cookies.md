@@ -4,9 +4,9 @@ description: 추적 방지 조치가 Adobe Analytics에서 설정한 서드파�
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1981'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 #### 영향을 받는 Adobe 서드파티 쿠키는 무엇입니까?
 
-방문자 ID 서비스는 &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)&quot; 쿠키를 사용하여 다양한 고객 도메인의 방문자에 대한 영구 식별자를 제공합니다. 기존 Analytics ID 서비스인 &quot;s_vi&quot; 쿠키는 사용자 지정 CNAME 수집 도메인을 사용하지 않는 구현을 위한 서드파티 쿠키로 설정됩니다.
+방문자 ID 서비스는 &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)&quot; 쿠키를 사용하여 다양한 고객 도메인의 방문자에 대한 영구 식별자를 제공합니다. 기존 Analytics ID 서비스인 &quot;s_vi&quot; 쿠키는 사용자 정의 CNAME 수집 도메인을 사용하지 않는 구현을 위한 서드파티 쿠키로 설정됩니다.
 
 서드파티 쿠키가 차단된 브라우저에서는 도메인 간 추적을 사용할 수 없습니다.
 
@@ -51,9 +51,9 @@ ITP 정책은 자주 발전하고 있습니다. 최신 정책은 Apple의 [Webki
 
 Adobe가 설정한 모든 자사 쿠키 및 관련 JavaScript 라이브러리는 ITP 정책의 영향을 받습니다.
 
-* Adobe Experience Cloud 방문자 ID(ECID) 서비스 라이브러리가 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)
+* Adobe Experience Cloud 방문자 ID(ECID) 서비스 라이브러리가 설정한 [&quot;AMCV&quot; 쿠키](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)
 * Analytics 레거시 [&quot;s_vi&quot; 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR), CNAME를 사용하는 자사 데이터 콜렉션으로 구성된 경우
-* Analytics 레거시 [&quot;s_fid&quot; 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), &quot;s_vi&quot;를 설정할 수 없는 경우에 사용되는 폴백 쿠키
+* Analytics 레거시 [&quot;s_fid&quot; 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ko-KR), &quot;s_vi&quot;를 설정할 수 없는 경우에 사용되는 폴백 쿠키
 
 #### ITP는 Analytics의 Safari에 어떤 영향이 있습니까?
 
@@ -74,7 +74,7 @@ ITP 제한의 영향은 사용자의 동작에 따라 크게 달라집니다. IT
 
 서드파티 쿠키는 사용자가 방문하는 웹 사이트에서 생성되지 않습니다.
 
-브라우저는 현재 모든 서드파티 쿠키를 동일하게 취급하고 저장하지만, 서드파티 쿠키는 다른 방식으로 작동할 수 있습니다. 고객의 Analytics 서드파티 쿠키를 구현하면 브라우저는 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR) ID를 서드파티 쿠키로 저장하지만, 고객은 Adobe에 대해서만 호출을 하고 알 수 없거나 의심스러운 서드파티 도메인에 대해서는 호출을 하지 않습니다. 이 쿠키는 도메인 간에 영구 식별자를 제공하며 보안(HTTPS) 콘텐츠를 허용합니다. 자세한 내용은 [쿠키 및 Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)를 참조하십시오.
+브라우저는 현재 모든 서드파티 쿠키를 동일하게 취급하고 저장하지만, 서드파티 쿠키는 다른 방식으로 작동할 수 있습니다. 고객의 Analytics 서드파티 쿠키를 구현하면 브라우저는 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR) ID를 서드파티 쿠키로 저장하지만, 고객은 Adobe에 대해서만 호출을 하고 알 수 없거나 의심스러운 서드파티 도메인에 대해서는 호출을 하지 않습니다. 이 쿠키는 도메인 간에 영구 식별자를 제공하며 보안(HTTPS) 콘텐츠를 허용합니다. 자세한 내용은 [쿠키 및 Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko-KR)를 참조하십시오.
 
 서드파티 쿠키는 Analytics이 구현되는 범위 내에서 도메인 간 추적 및 대상 변경 광고를 포함한 사용 사례에 사용됩니다. 서드파티 쿠키를 사용하면 자신이 소유하는 다른 도메인을 방문하거나 자신이 소유하지 않는 사이트에 광고를 표시하는 방문자를 식별할 수 있습니다.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
