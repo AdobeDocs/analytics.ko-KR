@@ -1,18 +1,18 @@
 ---
 title: SFTP 서비스 업그레이드 - FAQ
-description: 예정된 SFTP 서비스 업그레이드에 대한 FAQ입니다.
+description: 예정된 SFTP 서비스 업그레이드에 대해 자주 묻는 질문입니다.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # SFTP 서비스 업그레이드 - FAQ
 
-2022년 9월 20일에 Adobe Analytics은 보안 파일 전송 프로토콜을 업그레이드합니다 [SFTP] 파일 전송을 위한 향상된 보안을 제공하기 위한 서비스입니다. 이 변경 사항으로 일부 SFTP 클라이언트 구성은 더 이상 지원되지 않습니다. 이 기능은 SFTP를 사용하여 Adobe Analytics으로 전송하거나에서 검색한 데이터만 영향을 줍니다. FTP 프로토콜은 영향을 받지 않습니다. 서비스 중단을 방지하려면 SFTP 클라이언트(코드, 도구, 서비스)가 아래에 설명된 변경 사항을 준수하는지 확인하십시오.
+2022년 9월 20일, Adobe Analytics는 파일 전송 보안을 개선하기 위해 Secure File Transfer Protocol [SFTP] 서비스를 업그레이드할 예정입니다. 이 변경 사항으로 일부 SFTP 클라이언트 구성은 더 이상 지원되지 않습니다. 이는 SFTP를 사용하여 Adobe Analytics로 전송되거나 Adobe Analytics에서 검색된 데이터에만 영향을 미칩니다. FTP 프로토콜은 영향을 받지 않습니다. 서비스 중단을 방지하려면 SFTP 클라이언트(코드, 도구, 서비스)가 아래에 설명된 변경 사항을 준수하는지 확인하십시오.
 
 ## 현재 조직에서 사용 중인 알고리즘, 연결 유형 및 프로토콜을 확인하려면 어떻게 해야 합니까?
 
@@ -24,9 +24,9 @@ ht-degree: 88%
 
 다음 기능은 SFTP를 사용하여 Adobe Analytics에 데이터를 업로드하는 옵션을 제공합니다.
 
-* [분류](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ko-KR)
+* [분류](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)
 
-* [사용자 특성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
+* [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
 * [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=ko-KR)
 
