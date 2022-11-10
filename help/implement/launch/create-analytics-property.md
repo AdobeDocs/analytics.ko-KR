@@ -1,10 +1,10 @@
 ---
 title: 태그에 Analytics 속성 만들기
-description: 태그를 사용하여 데이터 수집 방법을 사용자 지정할 공간을 만듭니다.
+description: 태그를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 1. Experience Cloud 조직 ID를 비롯한 모든 설정은 이미 작성되어 있어야 합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 확장 카탈로그로 돌아가 Adobe Analytics를 찾은 다음 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 
-자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko-KR)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
+자세한 내용은 [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)에 대한 모든 내용이 들어 있는 문서를 참조하십시오.
 
 ## Adobe Analytics용 데이터 요소 만들기
 
@@ -70,7 +70,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
    * 확장: Adobe Analytics
    * 작업 유형: 변수 설정
    * 페이지 이름: 컨테이너 아이콘을 클릭하고 `Page Name` 데이터 요소를 선택합니다.
-   * 캠페인: 값이 `cid`인 쿼리 매개 변수
+   * 캠페인: 값이 `cid`인 쿼리 매개변수
 1. **[!UICONTROL 변경사항 유지]**&#x200B;를 클릭합니다.
 1. 다른 작업을 추가할 작업 옆에 있는 더하기 기호를 클릭하고 다음 설정을 입력합니다.
    * 확장: Adobe Analytics
