@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '899'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 91%
 ## 빠른 세그먼트 저장
 
 >[!IMPORTANT]
->세그먼트를 저장하거나 적용하면 빠른 세그먼트 빌더에서는 더 이상 편집할 수 없고 정규 세그먼트 빌더에서만 편집할 수 있습니다. Adobe Analytics 제품 관리자 및 빠른 세그먼트의 작성자만 기존 빠른 세그먼트에 변경 사항을 저장할 수 있습니다.
+>세그먼트를 저장하거나 적용하면 빠른 세그먼트 빌더에서는 더 이상 편집할 수 없고 정규 세그먼트 빌더에서만 편집할 수 있습니다. Adobe Analytics 제품 관리자와 빠른 세그먼트 작성자만 기존 빠른 세그먼트에 적용한 변경 사항을 저장할 수 있습니다.
 
 1. 빠른 세그먼트를 적용하고 나서 커서를 올려놓은 다음 정보 아이콘(“i“)을 선택합니다.
 
@@ -85,7 +85,7 @@ ht-degree: 91%
 
 ## 프로젝트 전용 세그먼트는 무엇입니까?
 
-프로젝트 전용 세그먼트는 해당 세그먼트가 작성된 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다. 프로젝트 전용 세그먼트는 왼쪽 레일에서 세그먼트를 작성하고 저장하지 않고도 데이터를 빠르게 탐색하기 위해 고안되었습니다. 프로젝트 전용 세그먼트는 빠른 세그먼트나 [임시 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
+프로젝트 전용 세그먼트는 해당 세그먼트가 작성된 현재 프로젝트에만 적용되는 세그먼트입니다. 다른 프로젝트에서 사용할 수 없으며, 다른 사용자와 공유할 수 없습니다. 프로젝트 전용 세그먼트는 왼쪽 레일에서 세그먼트를 작성하고 저장하지 않고도 데이터를 빠르게 탐색하기 위해 고안되었습니다. [빠른 세그먼트] 또는 [애드혹 세그먼트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html)를 통해 패널 드롭 영역에서 프로젝트 전용 세그먼트를 작성할 수 있습니다.
 
 프로젝트 전용 세그먼트가 [!UICONTROL 세그먼트 빌더]에서 열려 있는 경우 프로젝트 전용 알림이 표시됩니다. “이 세그먼트의 사용 허용..”을 선택하지 않고 **[!UICONTROL 적용]**&#x200B;을 클릭하면 세그먼트는 프로젝트 전용 세그먼트로 유지됩니다. 참고: 세그먼트 빌더에서 [빠른 세그먼트]를 적용하면 [!UICONTROL 빠른 세그먼트 빌더]에서 더 이상 열 수 없습니다.
 
