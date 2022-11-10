@@ -4,7 +4,7 @@ description: 속성 모델 결정과 관련된 모범 사례에는 어떤 것들
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!NOTE]
 >이 분석은 속성 모델을 선택하기 전에 먼저 수행되어야 합니다.
 
-이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ko-KR)(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
+이 단계는 먼저 고객 행동을 이해하고 전환 지표를 정의하는 절차로 구성됩니다. 전환 지표를 기반으로 [데이터 피드](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html)(원시 데이터용) 또는 Analysis Workspace와 같은 도구를 통해
 
 * 얼마나 많은 고객이 전환하기 전에 다른 마케팅 채널을 터치하고 있습니까?
 * 이러한 행동의 비율/분포를 보다 쉽게 이해할 수 있습니다.
@@ -55,4 +55,4 @@ ht-degree: 100%
 
 * Analysis Workspace에 의존하지 않고 데이터 과학자의 서비스를 사용해야 할 수도 있습니다.
 * Adobe 데이터 피드에서와 같이 원시 데이터를 사용할 수 있습니다.
-* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR) 사용을 고려해 보십시오.
+* 예를 들어 노출 데이터를 고려하려는 경우 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) 사용을 고려해 보십시오.
