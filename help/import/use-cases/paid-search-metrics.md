@@ -3,15 +3,15 @@ title: 유료 검색 지표 가져오기
 description: '데이터 소스를 사용하여 유료 검색 지표(예: Google AdWords, MSN, Yahoo 등)를 추적하도록 Adobe Analytics를 구성하는 단계.'
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # [!UICONTROL 데이터 소스]를 사용하여 [!UICONTROL 유료 검색] 지표 가져오기
 
-많은 마케팅 조직에서 신규 고객에게 도달하고 기존 고객을 유지하는 가장 유용하고 믿을 수 있는 방법 중 하나가 유료 검색입니다. Adobe Analytics의 [!UICONTROL 데이터 소스] 기능을 사용하면 Google AdWords와 같은 디지털 광고 플랫폼에서 고급 유료 검색 데이터를 쉽게 가져올 수 있습니다. 현장 행동 및 고객 속성 데이터와 더불어, 마케팅 데이터의 나머지 부분과 통합하여 조직의 유료 검색 활동에 대한 더 나은 통찰력을 얻을 수 있습니다.
+많은 마케팅 조직에서 신규 고객에게 도달하고 기존 고객을 유지하는 가장 유용하고 믿을 수 있는 방법 중 하나가 유료 검색입니다. Adobe Analytics의 [!UICONTROL 데이터 소스] 기능을 사용하면 Google AdWords와 같은 디지털 광고 플랫폼에서 고급 유료 검색 데이터를 쉽게 가져올 수 있습니다. 현장 행동 및 고객 속성 데이터와 더불어 마케팅 데이터의 나머지 부분과 통합하여 조직의 유료 검색 활동에 대한 더 나은 통찰력을 얻을 수 있습니다.
 
 이 단계에서는 키워드 데이터와 노출수, 클릭수, 클릭당 비용 등의 지표를 가져오도록 AdWords와의 통합을 구성하는 방법을 보여 줍니다.
 
