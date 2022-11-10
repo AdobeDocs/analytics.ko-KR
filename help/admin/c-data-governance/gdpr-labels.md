@@ -4,9 +4,9 @@ title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3909'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 Adobe Analytics는 그 민감도 및 계약 제한 사항에 따라 데이터를 레이블링하는 도구를 제공합니다. 레이블은 중요하며 다음과 같은 작업에 유용합니다. (1) 데이터 주제를 식별, (2) 액세스 요청의 일부로서 반환할 데이터를 판별, (3) 삭제 요청의 일부로서 삭제해야 하는 데이터 필드 식별
 
-어떤 변수/필드에 어떤 레이블을 적용해야 하는지 파악하려면, 먼저 Analytics 데이터에서 캡처 중인 [ID를 파악하고](/help/admin/c-data-governance/gdpr-analytics-ids.md) 데이터 개인정보 보호 요청에 사용할 ID를 결정해야 합니다.
+어떤 변수/필드에 어떤 레이블을 적용해야 하는지 파악하려면 먼저 Analytics 데이터에서 캡처 중인 [ID를 파악하고](/help/admin/c-data-governance/gdpr-analytics-ids.md) 데이터 개인정보 보호 요청에 사용할 ID를 결정해야 합니다.
 
 Adobe Analytics 데이터 개인정보 보호 구현은 ID 데이터, 중요 데이터 및 데이터 거버넌스에 대해 다음 레이블을 지원합니다.
 
@@ -234,7 +234,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 1. **[!UICONTROL Enter]** 키를 눌러 이 네임스페이스를 추가합니다. 현재는 적용 버튼만 활성화됩니다.
 1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-네임스페이스로 지정하는 문자열은 데이터 개인정보 보호 API를 통해 요청을 &quot;네임스페이스&quot; 매개 변수 값으로 제출할 때 사용해야 하는 것과 동일한 문자열입니다. 그러면 이 요청은 Adobe Analytics가 이 네임스페이스를 공유하는 모든 보고서 세트의 모든 변수에서 요청으로 지정한 ID를 검색하도록 합니다.
+네임스페이스로 지정하는 문자열은 데이터 개인정보 보호 API를 통해 요청을 &quot;네임스페이스&quot; 매개변수 값으로 제출할 때 사용해야 하는 것과 동일한 문자열입니다. 그러면 이 요청은 Adobe Analytics가 이 네임스페이스를 공유하는 모든 보고서 세트의 모든 변수에서 요청으로 지정한 ID를 검색하도록 합니다.
 
 ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID-PERSON 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. 예를 들어 eVar1에 이메일 주소를 포함할 수 있고 eVar2에 로그인 사용자 이름을 포함할 수 있지만 사용자 이름만 사용하여 요청을 제출하는 경우 eVar1을 I1, ACC-PERSON, DEL-PERSON으로 레이블 지정할 수 있지만, eVar2는 &quot;user name&quot; 네임스페이스와 함께 I2, ACC-PERSON, DEL-PERSON, ID-PERSON으로 레이블 지정할 수 있습니다. 다음과 같은 사용자 섹션 JSON 블록과 함께 요청을 제출할 수 있습니다.
 
@@ -337,7 +337,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
    <td colname="col1"> <p>솔루션 차원 및 이벤트 </p> </td> 
    <td colname="col2"> <p>Activity Map 링크, </p> <p>Activity Map 페이지 </p> </td> 
    <td colname="col3"> <p>없음/I1/I2 </p> <p>없음/DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>변수에는 직접 또는 간접적으로 식별 가능한 데이터가 포함될 수 있는 URL 매개 변수가 포함될 수 있습니다. 구현에서 이러한 변수에 있는 직접 또는 간접적으로 식별 가능한 데이터를 수집하지 않는 경우 ID 또는 삭제 레이블이 필요하지 않습니다. </p> <p>삭제하면 URL 매개 변수가 지워지지만, 기본 URL은 그대로 유지됩니다. </p> </td> 
+   <td colname="col4"> <p>변수에는 직접 또는 간접적으로 식별 가능한 데이터가 포함될 수 있는 URL 매개변수가 포함될 수 있습니다. 구현에서 이러한 변수에 있는 직접 또는 간접적으로 식별 가능한 데이터를 수집하지 않는 경우 ID 또는 삭제 레이블이 필요하지 않습니다. </p> <p>삭제하면 URL 매개변수가 지워지지만, 기본 URL은 그대로 유지됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>데이터 처리 차원 </p> </td> 
@@ -358,7 +358,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
   <tr> 
    <td colname="col2"> <p>ClickMap 작업 (기존) </p> <p>ClickMap 컨텍스트 (기존) </p> <p>페이지, </p> <p>페이지 URL, </p> <p>원래 시작 페이지 URL, </p> <p>레퍼러, </p> <p>시작 페이지 URL 방문 </p> </td> 
    <td colname="col3"> <p>없음/I1/I2 </p> <p>없음/DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>변수에는 직접 또는 간접적으로 식별 가능한 데이터가 포함될 수 있는 URL 매개 변수가 포함될 수 있습니다. 구현에서 이러한 변수에 있는 직접 또는 간접적으로 식별 가능한 데이터를 수집하지 않는 경우 ID 또는 삭제 레이블이 필요하지 않습니다. </p> <p>삭제하면 URL 매개 변수가 지워지지만, 기본 URL은 그대로 유지됩니다. </p> </td> 
+   <td colname="col4"> <p>변수에는 직접 또는 간접적으로 식별 가능한 데이터가 포함될 수 있는 URL 매개변수가 포함될 수 있습니다. 구현에서 이러한 변수에 있는 직접 또는 간접적으로 식별 가능한 데이터를 수집하지 않는 경우 ID 또는 삭제 레이블이 필요하지 않습니다. </p> <p>삭제하면 URL 매개변수가 지워지지만, 기본 URL은 그대로 유지됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -395,7 +395,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
   </tr> 
   <tr> 
    <td colname="col1"> <p>• ClickMap 작업 (기존) </p> <p>• ClickMap 컨텍스트 (기존) </p> <p>• 페이지 </p> <p>• 페이지 URL </p> <p>• 원래 시작 페이지 URL </p> <p>• 레퍼러 </p> <p>• 시작 페이지 URL 방문 </p> </td> 
-   <td colname="col2"> <p>URL 매개 변수는 삭제/제거됩니다. 값이 URL과 유사하지 않으면 값은 지워집니다 (빈 문자열로 설정됨). </p> </td> 
+   <td colname="col2"> <p>URL 매개변수는 삭제/제거됩니다. 값이 URL과 유사하지 않으면 값은 지워집니다 (빈 문자열로 설정됨). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>• 위도 </p> <p>• 경도 </p> </td> 
