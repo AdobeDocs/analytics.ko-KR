@@ -1,13 +1,13 @@
 ---
 title: 클라이언트 힌트
-description: 알아보기 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법.
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # 클라이언트 힌트 개요 및 FAQ
 
@@ -144,4 +144,3 @@ Adobe Experience Platform의 [스키마 설명서](https://github.com/adobe/xdm/
 예. 클라이언트 힌트는 AAM으로 전달되는 데이터에 포함됩니다. AAM은 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [AAM으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
 +++
-
