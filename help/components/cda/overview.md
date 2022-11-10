@@ -3,9 +3,9 @@ title: 크로스 디바이스 분석
 description: 디바이스 데이터를 함께 결합함으로써 데이터를 디바이스 중심에서 사람 중심으로 변경합니다.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
