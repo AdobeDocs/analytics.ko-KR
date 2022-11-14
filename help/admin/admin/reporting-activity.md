@@ -4,10 +4,10 @@ title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 98%
+source-wordcount: '962'
+ht-degree: 92%
 
 ---
 
@@ -120,7 +120,10 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 요청을 취소하려면
 
-1. 표에서 하나 이상의 **[!UICONTROL 쿼리 ID]** 왼쪽에 있는 확인란을 선택하고 하단의 **[!UICONTROL 요청 취소]**&#x200B;를 클릭합니다. ([!UICONTROL 사용자], [!UICONTROL 프로젝트] 또는[!UICONTROL 애플리케이션]별로 세부 정보를 확인하여 요청을 일괄 취소할 수도 있습니다.)
+1. 표에서 하나 이상의 **[!UICONTROL 쿼리 ID]** 왼쪽에 있는 확인란을 선택하고 하단의 **[!UICONTROL 요청 취소]**&#x200B;를 클릭합니다.
+
+   세부 사항을 보고 요청을 일괄적으로 취소할 수도 있습니다 [!UICONTROL 사용자], [!UICONTROL 프로젝트], 또는 [!UICONTROL 애플리케이션]. 활동이 새로 고쳐질 때 대기 중이 아니거나 취소 시 실행 중인 프로젝트, 사용자 또는 애플리케이션에 대한 후속 요청이 계속 나타날 수 있습니다.
+
 1. 표시되는 **[!UICONTROL x 쿼리 취소]** 창에서 필요한 경우 취소 메시지를 수정할 수 있습니다.
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
