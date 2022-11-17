@@ -3,10 +3,10 @@ description: Adobe에서는 새 계정 설정, 트래픽 스파이크 및 트래
 title: 트래픽 증가에 대한 필수 리드 타임
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 78%
 
 ---
 
@@ -24,36 +24,30 @@ Adobe에서는 새 계정 설정, 트래픽 스파이크 및 트래픽 증가에
 
 ## 하드웨어 할당 리드 타임
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> 일별 예상 트래픽(히트) </th>
-   <th colname="col2" class="entry"> <p>필요한 리드 타임(1월~10월) </p> </th>
-   <th colname="col3" class="entry"> <p>필요한 리드 타임(11월~12월) </p> </th>
+   <th colname="col1" class="entry"> 트래픽 변경 유형 </th>
+   <th colname="col2" class="entry"> 필요한 리드 타임 </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> 최대 1,000,000 </td>
-   <td colname="col2"> 리드 타임 불필요 </td>
-   <td colname="col3"> 리드 타임 불필요 </td>
+   <td colname="col1"> 새 계정 설정 </td>
+   <td colname="col2"> <ul><li>3영업일</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
-   <td colname="col2"> 업무일 기준 2일 </td>
-   <td colname="col3" morerows="3"> 11월~12월을 목표로 하는 모든 트래픽 증가는 9월 1일까지 제출해야 합니다. 그렇게 해야 휴일 트래픽을 수용하는 데 필요할 경우 용량을 구입할 시간이 생깁니다. </td>
+   <td colname="col1"> 지난 30일에 비해 일일 평균 교통량이 최고 25%의 트래픽 스파이크나 갑작스러운 영구 트래픽 증가</td>
+   <td colname="col2"> <ul><li>100M 히트/일 : 알림 필요 없음</li><li>100M 히트/날이 속하는 보고서 세트: 영업일 기준</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
-   <td colname="col2"> 1주일 </td>
+   <td colname="col1"> 지난 30일에 비해 일일 평균 교통량이 25% 이상 증가한 트래픽 스파이크나 갑작스러운 영구 트래픽 증가</td>
+   <td colname="col2"> <ul><li>영업일 기준</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
-   <td colname="col2"> 2주일 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>25,000,000 이상 </p> </td>
-   <td colname="col2"> 1개월 이상 </td>
+   <td colname="col1"> 휴일 이벤트 10월 - 12월 </td>
+   <td colname="col2"> <ul><li>1개월</li></ul> </td>
   </tr>
  </tbody>
 </table>
