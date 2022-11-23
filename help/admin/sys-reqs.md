@@ -3,16 +3,16 @@ title: Adobe Analytics 시스템 요구 사항
 description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입니다.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 92%
+source-wordcount: '118'
+ht-degree: 76%
 
 ---
 
 # Adobe Analytics 시스템 요구 사항
 
-Adobe Analytics에서 다양한 제품 솔루션을 사용하기 위한 시스템 요구 사항을 나열합니다.
+대부분의 Adobe Analytics 솔루션은 브라우저에서 실행됩니다. 다음 섹션에서는 브라우저 및 클라이언트 솔루션에 대한 시스템 요구 사항을 제공합니다.
 
 ## 브라우저 기반 솔루션을 위한 시스템 요구 사항
 
