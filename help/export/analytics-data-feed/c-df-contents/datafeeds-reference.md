@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
-ht-degree: 99%
+source-wordcount: '3641'
+ht-degree: 98%
 
 ---
 
@@ -125,13 +125,13 @@ ht-degree: 99%
 | **`mobilecampaignterm`** | 이 획득으로 추적할 유료 키워드 또는 기타 조건입니다. 모바일 앱 획득을 통해 채워집니다. | varchar (255) |
 | **`mobiledayofweek`** | 앱을 시작한 요일의 수입니다. | varchar (255) |
 | **`mobiledayssincefirstuse`** | 앱을 처음 실행한 이후 경과일 수입니다. | varchar (255) |
-| **`mobiledayssincelastupgrade`** | 컨텍스트 데이터 변수 a.DaysSinceLastUpgrade에서 수집됩니다. 이전 세션 이후 경과된 일 수입니다. | varchar (255) |
+| **`mobiledayssincelastupgrade`** | 폐기됨 - 컨텍스트 데이터 변수 a.DaysSinceLastUpgrade에서 수집됩니다. 이전 세션 이후 경과된 일 수입니다. | varchar (255) |
 | **`mobiledayssincelastuse`** | 앱을 마지막으로 실행한 이후 경과일 수입니다. | varchar (255) |
 | **`mobiledeeplinkid`** | 컨텍스트 데이터 변수 `a.deeplink.id`에서 수집됩니다. 모바일 획득 링크의 식별자로 획득 보고서에 사용됩니다. | varchar (255) |
 | **`mobiledevice`** | 모바일 디바이스 이름입니다. iOS에서는 쉼표로 구분된 2자리 문자열로 저장됩니다. 첫 번째 숫자는 디바이스 생성을 나타내고 두 번째 숫자는 디바이스 제품군을 나타냅니다. | varchar (255) |
 | **`mobilehourofday`** | 앱을 시작한 날의 시간을 정의합니다. 24시간 숫자 형식을 따릅니다. | varchar (255) |
 | **`mobileinstalldate`** | 모바일 설치 날짜입니다. 사용자가 모바일 앱을 처음으로 여는 날짜를 제공합니다. | varchar (255) |
-| **`mobilelaunchessincelastupgrade`** | 컨텍스트 데이터 변수 a.LaunchesSinceUpgrade에서 수집됩니다. 마지막 업그레이드 이후 시작 횟수를 보고합니다. | varchar (255) |
+| **`mobilelaunchessincelastupgrade`** | 폐기됨 - 컨텍스트 데이터 변수 a.LaunchesSinceUpgrade에서 수집됩니다. 마지막 업그레이드 이후 시작 횟수를 보고합니다. | varchar (255) |
 | **`mobilelaunchnumber`** | 모바일 앱을 시작할 때마다 1씩 증가합니다. | varchar (255) |
 | **`mobileltv`** | 더 이상 사용되지 않습니다. trackLifetimeValue 메서드로 채워집니다. | varchar (255) |
 | **`mobilemessagebuttonname`** | 컨텍스트 데이터 변수 `a.message.button.id`에서 수집됩니다. 메시지를 닫은 버튼을 식별하는 인앱 메시지에 사용됩니다. | varchar (100) |
@@ -139,7 +139,7 @@ ht-degree: 99%
 | **`mobilemessageonline`** | 인앱 메시지 온라인 | varchar (255) |
 | **`mobilemessagepushoptin`** | 컨텍스트 데이터 변수 `a.push.optin`에서 수집됩니다. 사용자가 푸시 메시지를 사용할 때 &quot;true&quot;로 설정됩니다. 그러지 않는 경우에는 값이 &quot;false&quot;입니다. | varchar (255) |
 | **`mobilemessagepushpayloadid`** | 컨텍스트 데이터 변수 `a.push.payloadid`에서 수집됩니다. 푸시 메시지에 페이로드 식별자로 사용됩니다. | varchar (255) |
-| **`mobileosenvironment`** | 컨텍스트 데이터 변수 `a.OSEnvironment`에서 수집됩니다. Android 또는 iOS와 같은 OS 환경을 명시합니다. | varchar (255) |
+| **`mobileosenvironment`** | 폐기됨 - 컨텍스트 데이터 변수에서 수집됨 `a.OSEnvironment`. Android 또는 iOS와 같은 OS 환경을 명시합니다. | varchar (255) |
 | **`mobileosversion`** | Mobile Services 운영 체제 버전 | varchar (255) |
 | **`mobileplaceaccuracy`** | 컨텍스트 데이터 변수 `a.loc.acc`에서 수집됩니다. 수집 시 GPS의 정확도를 미터 단위로 나타냅니다. | varchar (255) |
 | **`mobileplacecategory`** | 컨텍스트 데이터 변수 `a.loc.category`에서 수집됩니다. 특정 위치의 범주를 설명합니다. | varchar (255) |
