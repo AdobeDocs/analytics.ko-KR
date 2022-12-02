@@ -3,10 +3,10 @@ title: Adobe Analytics의 제품 프로필
 description: 제품 관리자가 조직 내부에서 사용자에게 할당할 수 있는 권한 사전 설정으로 제품 프로필을 활용할 수 있는 방법에 대해 알아봅니다.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 95%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 제품 프로필은 제품 관리자가 조직 내의 사용자에게 할당할 수 있는 권한 사전 설정입니다. 제품 프로필을 만들고 해당 제품 프로필에 Experience Cloud 사용자를 할당하면 해당 사용자는 제품 프로필에 포함된 권한 항목을 상속받습니다.
 
-제품 프로필에 대한 일반 정보는 Enterprise 사용 안내서의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products-and-profiles.html)를 참조하십시오.
+자세한 내용은 [엔터프라이즈 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 제품 프로필에 대한 일반 정보는 Enterprise 사용 안내서에서 를 참조하십시오.
 
 ## 제품 프로필 관리자
 
