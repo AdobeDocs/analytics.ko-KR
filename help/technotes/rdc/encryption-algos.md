@@ -3,10 +3,10 @@ title: 지원되는 HTTPS 암호화 알고리즘
 description: 2022년 6월 23일부터 암호 보안 수준이 “높음”으로 설정되어 있는 고객에 대해 SHA1 또는 CBC를 활용하는 TLS 1.2 암호에 대한 지원이 중단될 예정입니다.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: a1ae98d6907960135c1dfa03ed10738eac8bec0d
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe는 자사 데이터 수집에서의 보안에 대한 다양한 고객 요�
 * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 * TLS_RSA_WITH_AES_128_CBC_SHA
 * TLS_RSA_WITH_AES_256_CBC_SHA
+* TLS_RSA_WITH_AES_128_GCM_SHA256
+* TLS_RSA_WITH_AES_256_GCM_SHA384
 
 다음은 현재 암호화 표준에 대한 지원 부족으로 인해 이 변경의 영향을 받게 되는 클라이언트 목록입니다.
 
