@@ -4,10 +4,10 @@ description: 성공 이벤트의 속성 크레딧을 여러 차원 항목으로 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -64,3 +64,6 @@ Attribution IQ 모델의 병렬 비교 추가
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
+## Attribution IQ을 지원하지 않는 Adobe Analytics 도구
+
+Report Builder과 같이 Analytics 2.0 API를 지원하지 않는 도구는 Attribution IQ을 지원하지 않습니다.
