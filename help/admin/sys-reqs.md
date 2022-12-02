@@ -3,20 +3,20 @@ title: Adobe Analytics 시스템 요구 사항
 description: Adobe Analytics를 사용하기 위한 시스템 요구 사항입니다.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
+source-git-commit: 1ff50284015588888f9118f7640b4057232457d2
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 76%
+source-wordcount: '125'
+ht-degree: 63%
 
 ---
 
 # Adobe Analytics 시스템 요구 사항
 
-대부분의 Adobe Analytics 솔루션은 브라우저에서 실행됩니다. 다음 섹션에서는 브라우저 및 클라이언트 솔루션에 대한 시스템 요구 사항을 제공합니다.
+대부분의 Adobe Analytics 솔루션은 브라우저에서 실행됩니다. 이 문서의 정보는 브라우저 및 클라이언트 솔루션에 대한 시스템 요구 사항을 제공합니다.
 
 ## 브라우저 기반 솔루션을 위한 시스템 요구 사항
 
-Analysis Workspace를 포함한 대부분의 Adobe Analytics 솔루션은 브라우저 기반입니다. 따라서 Adobe Analytics를 사용하기 위한 가장 중요한 요구 사항은 최신 웹 브라우저입니다. Adobe는 다음 브라우저의 최신 안정적인 버전을 지원합니다.
+Analysis Workspace를 포함한 대부분의 Adobe Analytics 솔루션은 브라우저 기반입니다. 따라서 Adobe Analytics를 사용하기 위한 가장 중요한 요구 사항은 최신 웹 브라우저입니다. Adobe은 다음 브라우저의 최신 안정적인 버전을 지원합니다.
 
 * Microsoft Edge
 * Google Chrome
@@ -31,5 +31,5 @@ Analysis Workspace를 포함한 대부분의 Adobe Analytics 솔루션은 브라
 
 해당 솔루션의 시스템 요구 사항에 대해서는 솔루션 연결 페이지를 참조하십시오.
 
-* [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=ko-KR)
+* [Report Builder 시스템 요구 사항](/help/analyze/report-builder/setup/system-requirements.md)
+* [Data Workbench 시스템 요구 사항](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=ko-KR)
