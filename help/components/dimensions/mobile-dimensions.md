@@ -3,10 +3,10 @@ title: 모바일 차원
 description: 디바이스의 IP 주소를 기반으로 하는 차원입니다.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform�
 * **이동통신사**: 이 차원에 대한 값은 Analytics가 캡처한 IP 주소를 기반으로 서드파티 (디지털 요소) 데이터를 조회하여 채워집니다. 값의 예로는 `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` 및 `"Verizon"`이 있습니다.
 * **모바일 색상 깊이**: 모바일 디바이스의 비트 단위 색상 깊이입니다.
 * **모바일 쿠키 지원**: 모바일 디바이스가 쿠키를 지원하는지 여부를 결정합니다. 이 보고서는 브라우저가 쿠키를 수락하는지 여부는 기술하지 않습니다. 차원 항목은 `"Supported"`, `"Not supported"` 및 `"Unknown"`을 포함합니다.
-* **모바일 디바이스**: 방문자가 사용하는 모바일 디바이스입니다.
+* **모바일 디바이스**: 방문자가 사용하는 모바일 디바이스입니다. **참고**: 디지털 요소는 업데이트를 주기적으로 게시하여 새로운/업데이트된 장치를 인식합니다.
 * **모바일 디바이스 번호**: 모바일 디바이스가 해당 번호를 전송하는지 여부를 결정합니다. 차원 항목은 `"Supported"`, `"Not supported"` 및 `"Unknown"`을 포함합니다.
 * **모바일 디바이스 유형**: 모바일 디바이스의 유형입니다. 값의 예로는 `"Mobile phone"`, `"Tablet"`, `"Media player"` 및 `"Gaming console"`이 있습니다.
 * **모바일 DRM**: 모바일 디바이스가 지원하는 DRM 유형입니다. 값의 예로는 `"DRM OMA forward"`, `"DRM OMA combined delivery"` 및 `"DRM OMA separate delivery"`이 있습니다.
