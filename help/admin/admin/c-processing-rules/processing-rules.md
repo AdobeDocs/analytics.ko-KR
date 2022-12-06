@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 처리 규칙 개요
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ s.contextData['genre'] = "Youth";
 컨텍스트 데이터 변수가 구현 내에 정의된 경우 해당 변수를 eVar와 같은 변수에 복사해야 보고에 사용할 수 있습니다.
 
 자세한 내용은 [eVar에 컨텍스트 데이터 변수를 복사](processing-rules-examples/processing-rules-copy-context-data.md) 및 [컨텍스트 데이터 변수를 사용하여 이벤트 설정](processing-rules-examples/processing-rules-copy-context-data-event.md)을 참조하십시오.
+
+## 알려진 제한 사항
+
+**처리 규칙에서 캐럿(^)을 사용합니다.** 처리 규칙에 캐럿을 구분 기호로 사용하거나 다른 용도로 사용하려면 각 단일 캐럿을 2캐럿으로 표시해야 합니다. 예를 들어, 단일 캐럿을 ^^, 이중 캐럿을 ^^^^ 등으로 나타냅니다.
