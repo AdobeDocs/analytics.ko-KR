@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 927e7e374919d89798c69c1959c54426b4e51a3e
+source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 98%
+source-wordcount: '678'
+ht-degree: 97%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 98%
 
 + [Analytics 관리 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
-+ Analytics 관리 개요 {#admin-overview}
-   + [어떤 Adobe Analytics 도구를 사용해야 합니까?](c-analytics-product-comparison/which-analytics-tool.md)
-   + [Analytics 제품 비교 및 요구 사항](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [시스템 요구 사항](sys-reqs.md)
++ Analytics 관리 시작 {#admin-overview}
+   + [어떤 Adobe Analytics 도구를 사용해야 합니까?](admin/get-started/which-analytics-tool.md)
+   + [Analytics 제품 비교 및 요구 사항](admin/get-started/analytics-product-comparison.md)
+   + [시스템 요구 사항](admin/get-started/sys-reqs.md)
 + 관리 도구 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
