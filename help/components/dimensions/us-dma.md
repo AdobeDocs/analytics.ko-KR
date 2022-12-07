@@ -3,10 +3,10 @@ title: US DMA
 description: 히트의 지정 시장권 (DMA)입니다.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 97%
+source-wordcount: '307'
+ht-degree: 85%
 
 ---
 
@@ -30,3 +30,4 @@ US DMA 차원은 방문자의 지정된 시장권 (DMA)을 보고합니다. 이 
 * **모바일 IP 주소**: 모바일 IP 타깃팅은 위치와 네트워크에 따라 다양한 수준에서 작동합니다. 이동통신업체 중에는 중앙 또는 지역 거점 (point of presence)을 통해 IP 트래픽을 역수송하는 곳도 많습니다.
 * **위성 ISP 사용자**: 이러한 사용자는 보통 업링크 위치에서 오는 것처럼 표시되므로 구체적인 위치를 식별하기가 어렵습니다.
 * **군대 및 정부 IP**: 세계 각지를 다니며 현재 배치되어 있는 기지나 사무실 대신 홈 위치를 통해 시작하는 사람을 나타냅니다.
+* **개인 정보 보호 이유로 IP 주소를 가리지 않는 프록시**: Apple의 개인 중계기와 같은 서비스는 중간 또는 프록시를 통해 임의로 데이터를 전송하여 실제 IP 주소를 숨깁니다. 그런 다음 이 프록시는 Adobe으로 전달하기 전에 다른 IP 주소를 대체합니다.
