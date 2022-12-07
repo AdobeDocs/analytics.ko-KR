@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 97%
@@ -20,6 +20,16 @@ ht-degree: 97%
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](admin/get-started/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](admin/get-started/analytics-product-comparison.md)
    + [시스템 요구 사항](admin/get-started/sys-reqs.md)
+   + 회사 설정 {#company-settings}
+      + [회사 설정 개요](admin/get-started/company/c-company-settings.md)
+      + [기능 액세스 수준](admin/get-started/company/feature-access-levels.md)
+      + [웹 서비스](admin/get-started/company/web-services-admin.md)
+      + [Report Builder 보고서](admin/get-started/company/report-builder-reports-admin.md)
+      + [SSO(Single Sign-On)](admin/get-started/company/single-signon-admin.md)
+      + [보류 중인 작업](admin/get-started/company/pending-actions-admin.md)
+      + [공동 브랜딩](admin/get-started/company/co-branding-admin.md)
+      + [보고서 세트 숨기기](admin/get-started/company/c-hide-report-suites.md)
+      + [보안 관리자](admin/get-started/company/security-manager.md)
 + 관리 도구 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 97%
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
    + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
-+ 회사 설정 {#company-settings}
-   + [회사 설정 개요](company/c-company-settings.md)
-   + [기능 액세스 수준](company/feature-access-levels.md)
-   + [웹 서비스](company/web-services-admin.md)
-   + [Report Builder 보고서](company/report-builder-reports-admin.md)
-   + [SSO(Single Sign-On)](company/single-signon-admin.md)
-   + [보류 중인 작업](company/pending-actions-admin.md)
-   + [공동 브랜딩](company/co-branding-admin.md)
-   + [보고서 세트 숨기기](company/c-hide-report-suites.md)
-   + [보안 관리자](company/security-manager.md)
 + 보고서 세트 관리 {#manage-report-suites}
    + [보고서 세트 관리자](c-manage-report-suites/report-suites-admin.md)
    + [롤업 및 글로벌 보고서 세트](c-manage-report-suites/rollup-report-suite.md)
