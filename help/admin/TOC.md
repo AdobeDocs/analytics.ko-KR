@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
+source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +30,15 @@ ht-degree: 97%
       + [공동 브랜딩](admin/get-started/company/co-branding-admin.md)
       + [보고서 세트 숨기기](admin/get-started/company/c-hide-report-suites.md)
       + [보안 관리자](admin/get-started/company/security-manager.md)
++ Adobe 관리 콘솔의 사용자 권한 {#admin-console}
+   + [Adobe Admin Console의 Analytics](admin-console/home.md)
+   + 권한 {#permissions}
+      + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)
+      + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
+      + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
+      + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
+   + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
+   + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
 + 관리 도구 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
@@ -118,15 +127,6 @@ ht-degree: 97%
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
-+ Adobe Admin Console의 Analytics {#admin-console}
-   + [Adobe Admin Console의 Analytics](admin-console/home.md)
-   + 권한 {#permissions}
-      + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)
-      + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
-      + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
-      + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
-   + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
 + 보고서 세트 관리 {#manage-report-suites}
    + [보고서 세트 관리자](c-manage-report-suites/report-suites-admin.md)
    + [롤업 및 글로벌 보고서 세트](c-manage-report-suites/rollup-report-suite.md)
