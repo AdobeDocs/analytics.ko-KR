@@ -4,10 +4,10 @@ title: 빠른 세그먼트
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '899'
-ht-degree: 100%
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 92%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 | --- | --- |
 | 이름 | 세그먼트의 기본 이름은 세그먼트에 있는 규칙 이름의 조합입니다. 세그먼트 이름을 바꿀 수 있습니다. |
 | 포함/제외 | 세그먼트 정의에 구성 요소를 포함 또는 제외할 수 있지만 둘 다 할 수는 없습니다. |
-| 히트/방문/방문자 컨테이너 | 빠른 세그먼트에는 하나의 [세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)만이 포함되어 세그먼트에 차원/지표/날짜 범위를 포함하거나 세그먼트에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분석하는 규칙을 설정할 수 있고, [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
+| 히트/방문/방문자 컨테이너 | 빠른 세그먼트에는 하나의 [세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)만이 포함되어 세그먼트에 차원/지표/날짜 범위를 포함하거나 세그먼트에서 제외할 수 있습니다. [!UICONTROL 방문자]에는 여러 방문 및 페이지 조회수에서 방문자와 관련된 데이터가 포함됩니다. A [!UICONTROL 방문] 컨테이너를 사용하여 방문에 따라 방문자의 데이터를 분류하는 규칙 및 [!UICONTROL 히트] 컨테이너를 사용하여 개별 페이지 보기에 따라 방문자 정보를 분류할 수 있습니다. 기본 컨테이너는 [!UICONTROL 히트]입니다. |
 | 구성 요소(차원/지표/날짜 범위) | 구성 요소 차원 및/또는 지표 및/또는 날짜 범위 및 값을 추가하여 최대 3개의 규칙을 정의합니다. 적합한 구성 요소를 검색하는 3가지 방법이 있습니다.<ul><li>입력을 시작하면 [!UICONTROL 빠른 세그먼트] 빌더가 적절한 구성 요소를 자동으로 검색합니다.</li><li>드롭다운 목록을 사용하여 구성 요소를 검색합니다.</li><li>왼쪽 레일에서 구성 요소를 드래그 앤 드롭합니다.</li></ul> |
 | 연산자 | 드롭다운 메뉴를 사용하여 표준 연산자 및 [!UICONTROL 고유 개수] 연산자를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | 더하기(+) 기호 | 다른 규칙 추가 |
@@ -94,3 +94,10 @@ ht-degree: 100%
 “이 세그먼트의 사용 허용..”을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭하면 왼쪽 레일 구성 요소 목록에서 세그먼트를 다른 프로젝트에 사용할 수 있게 됩니다. 세그먼트 관리자의 다른 사용자와 공유할 수도 있습니다.
 
 ![프로젝트 전용이 선택됨](assets/project-only-checked.png)
+
+## 알려진 문제
+
+1. 2개의 항목으로 빠른 세그먼트 만들기 및 **[!UICONTROL 저장]** 테스트1로 설정됩니다.
+1. 클릭 **[!UICONTROL 다른 이름으로 저장]** 이 빠른 세그먼트를 Test2로 저장합니다.
+1. Test2 빠른 세그먼트를 편집하고 다시 Test2로 저장합니다.
+Test1 빠른 세그먼트는 Test2로 수정됩니다.
