@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
+source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '679'
+ht-degree: 96%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 0%
 + [Analytics 관리 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 + Analytics 관리 시작 {#admin-overview}
-   + [어떤 Adobe Analytics 도구를 사용해야 합니까?](admin/get-started/which-analytics-tool.md)
-   + [Analytics 제품 비교 및 요구 사항](admin/get-started/analytics-product-comparison.md)
-   + [시스템 요구 사항](admin/get-started/sys-reqs.md)
+   + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
+   + [Analytics 제품 비교 및 요구 사항](get-started/analytics-product-comparison.md)
+   + [시스템 요구 사항](get-started/sys-reqs.md)
    + 회사 설정 {#company-settings}
-      + [회사 설정 개요](admin/get-started/company/c-company-settings.md)
-      + [기능 액세스 수준](admin/get-started/company/feature-access-levels.md)
-      + [웹 서비스](admin/get-started/company/web-services-admin.md)
-      + [Report Builder 보고서](admin/get-started/company/report-builder-reports-admin.md)
-      + [SSO(Single Sign-On)](admin/get-started/company/single-signon-admin.md)
-      + [보류 중인 작업](admin/get-started/company/pending-actions-admin.md)
-      + [공동 브랜딩](admin/get-started/company/co-branding-admin.md)
-      + [보고서 세트 숨기기](admin/get-started/company/c-hide-report-suites.md)
-      + [보안 관리자](admin/get-started/company/security-manager.md)
+      + [회사 설정 개요](get-started/company/c-company-settings.md)
+      + [기능 액세스 수준](get-started/company/feature-access-levels.md)
+      + [웹 서비스](get-started/company/web-services-admin.md)
+      + [Report Builder 보고서](get-started/company/report-builder-reports-admin.md)
+      + [SSO(Single Sign-On)](get-started/company/single-signon-admin.md)
+      + [보류 중인 작업](get-started/company/pending-actions-admin.md)
+      + [공동 브랜딩](get-started/company/co-branding-admin.md)
+      + [보고서 세트 숨기기](get-started/company/c-hide-report-suites.md)
+      + [보안 관리자](get-started/company/security-manager.md)
 + Adobe 관리 콘솔의 사용자 권한 {#admin-console}
    + [Adobe Admin Console의 Analytics](admin-console/home.md)
    + 권한 {#permissions}
