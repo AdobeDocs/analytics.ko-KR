@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '673'
 ht-degree: 96%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 96%
       + [보안 관리자](get-started/company/security-manager.md)
 + Adobe 관리 콘솔의 사용자 권한 {#admin-console}
    + [Adobe Admin Console의 Analytics](admin-console/home.md)
+   + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
+   + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
    + 권한 {#permissions}
       + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
-   + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
 + 관리 도구 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
@@ -72,8 +72,6 @@ ht-degree: 96%
    + 유료 검색 감지 {#paid-search-detection}
       + [유료 검색 감지 개요](admin/paid-search-detection/paid-search-detection.md)
       + [유료 검색 감지 구성](admin/paid-search-detection/t-paid-search-detection.md)
-   + [게시 목록](admin/publishing-list.md)
-   + [게시 위젯](admin/publishing-widgets-admin.md)
    + [환경 설정 관리자](admin/preferences-manager.md)
    + [개인정보 보호 설정](admin/privacy-settings.md)
    + [개인정보 보호 보고](admin/privacy-reporting.md)
@@ -113,7 +111,6 @@ ht-degree: 96%
       + [서버측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
       + [서버측 전달 FAQ](admin/c-server-side-forwarding/ssf-faq.md)
    + [간소화된 보고서 메뉴](admin/t-simplified-menu.md)
-   + [소셜 관리](admin/social-management.md)
    + 성공 이벤트 {#success-events}
       + [성공 이벤트 개요](admin/c-success-events/success-event.md)
       + [성공 이벤트 구성](admin/c-success-events/t-success-events.md)

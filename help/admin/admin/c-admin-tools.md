@@ -3,9 +3,9 @@ description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 100%
 + [지표 가시성](metric-visibility.md)
 + [모바일 관리](mobile-management.md)
 + [유료 검색 감지 개요](paid-search-detection/paid-search-detection.md)
-+ [게시 목록](publishing-list.md)
-+ [게시 위젯](publishing-widgets-admin.md)
 + [환경 설정 관리자](preferences-manager.md)
 + [개인정보 보호 설정](privacy-settings.md)
 + [처리 규칙 개요](c-processing-rules/processing-rules.md)
@@ -46,7 +44,6 @@ ht-degree: 100%
 + [예약된 보고서 큐](scheduled-reports-admin.md)
 + [서버측 전달 개요](c-server-side-forwarding/ssf.md)
 + [간소화된 보고서 메뉴](t-simplified-menu.md)
-+ [소셜 관리](social-management.md)
 + [성공 이벤트 개요](c-success-events/success-event.md)
 + [타임스탬프 선택 사항](timestamp-optional.md)
 + [트래픽 변수(prop) 개요](c-traffic-variables/traffic-var.md)

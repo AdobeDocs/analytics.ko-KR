@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1059'
+source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
+workflow-type: tm+mt
+source-wordcount: '1055'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 100%
          + [보고서 세트 선택 Excel에 있는 기존의 요청에서](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel을 사용하여 보고서 세트 ID 찾기](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [세그먼트 관리](report-builder/data-requests/segmentation.md)
-      + [게시 목록 무시 허용](report-builder/data-requests/allow-publishing-list-overrides.md)
       + 보고서 유형 {#report-types}
          + [보고서 유형 개요](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Report Builder의 경로 및 경로 폴아웃 보고서](report-builder/data-requests/c-report-types/report-path-fallout.md)

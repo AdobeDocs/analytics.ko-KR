@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '994'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->통합 문서를 예약하려면 Excel 2007이나 호환 팩이 설치되어 있어야 합니다. Report Builder 라이센스당 최대 10개의 예약된 통합 문서를 보유할 수 있습니다. 그렇지만 다른 라이센스에서 공제하여 이 수를 늘릴 수 있습니다. 이렇게 하려면 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL Report Builder 보고서]**&#x200B;로 이동합니다. 예약했지만(또는 통합 문서 라이브러리에 업로드했지만) 28개월 동안 수정(업데이트, 대체)한 적이 없는 통합 문서는 삭제됩니다.
+>통합 문서를 예약하려면 Excel 2007이나 호환 팩이 설치되어 있어야 합니다. Report Builder 라이센스당 최대 10개의 예약된 통합 문서를 보유할 수 있습니다. 그렇지만 다른 라이센스에서 공제하여 이 수를 늘릴 수 있습니다. 이렇게 하려면 로 이동하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL Report Builder 보고서]**. 예약했지만(또는 통합 문서 라이브러리에 업로드했지만) 28개월 동안 수정(업데이트, 대체)한 적이 없는 통합 문서는 삭제됩니다.
 
 >[!NOTE]
 >
@@ -73,7 +73,6 @@ ht-degree: 98%
 | **파일 옵션 탭** |  |
 | 파일 형식 | 전달 형식을 Excel 2007(.xlsx) 또는 2003 (.xls), .pdf, .csv, .mht, .txt 및 .xml 중에서 선택할 수 있습니다. |
 | 파일 대상 | 이메일 또는 FTP를 지정합니다. 페이지의 선택 사항은 선택 내용에 따라 달라집니다. FTP의 경우 호스트를 외부에서 사용할 수 있도록 해야 합니다. |
-| 게시 목록 | 예약된 통합 문서를 여러 게시 목록에 전송하면 통합 문서는 각 목록에 대해 한 번씩 실행됩니다. 변수 보고서 세트는 게시 목록에 지정된 보고서 세트로 대체됩니다. |
 | 파일 내용 언어 | 첨부 설명에 사용할 언어를 지정합니다. 한국어, 중국어(간체 또는 번체), 독일어, 프랑스어, 일본어, 브라질 포르투갈어 또는 스페인어를 선택할 수 있습니다. |
 | **게시 옵션 탭** |  |
 | Power BI에 게시 | <ul><li>Power BI에 통합 문서 게시</li><li>모든 Report Builder 요청을 Power BI 데이터 세트로 게시</li><li>형식이 지정된 표를 모두 Power BI 데이터 세트로 게시</li></ul> |

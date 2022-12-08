@@ -3,9 +3,9 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1164'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,6 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
 * 대상을 설정하려는 경우
 * 보트 보고를 보려는 경우
 * Video Daypart 및 Viewer Drop-off의 고유한 비디오 시각화에 액세스하려는 경우
-* 예약된 보고에서 게시 목록을 활용하려는 경우
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR)**&#x200B;는 다음 경우에 사용합니다.
 
