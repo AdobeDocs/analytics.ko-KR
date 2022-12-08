@@ -3,8 +3,8 @@ title: 우편 번호
 description: 방문자의 우편 번호입니다.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 * `zip` 변수를 사용하여 바로 우편 번호를 설정합니다. 또는
 * 지리 특성 데이터에서 가져오도록 구성합니다.
 
-[!UICONTROL 일반 계정 설정] 아래의 [Zip 옵션](/help/admin/admin/general-acct-settings-admin.md)은 이 차원을 채울 방법을 제어합니다.
+[!UICONTROL 일반 계정 설정] 아래의 [Zip 옵션](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)은 이 차원을 채울 방법을 제어합니다.
 
 >[!IMPORTANT]
 >

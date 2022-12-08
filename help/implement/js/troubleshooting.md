@@ -3,7 +3,7 @@ title: JavaScript 구현 문제 해결
 description: JavaScript 구현 문제 해결을 위한 일반적인 문제 및 우수 사례에 대해 알아봅니다.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 97%
@@ -33,7 +33,7 @@ Adobe에 전송되는 대부분의 변수는 문자열입니다. JavaScript에�
 
 ### 둥근 따옴표 사용 방지
 
-일부 프로그램은 중립 따옴표 (`"..."`와 `'...'`)를 둥근 따옴표 (`“...”`와 `‘...’`)로 자동으로 변환합니다. 문서 편집기 (예: Microsoft Word)를 사용하거나 이메일을 통해 코드 조각을 전송하지 마십시오. JavaScript에서는 둥근 따옴표를 사용할 수 없습니다.
+일부 프로그램은 중립 따옴표 (`"..."`와 `'...'`)를 둥근 따옴표 (`"..."`와 `'...'`)로 자동으로 변환합니다. 문서 편집기 (예: Microsoft Word)를 사용하거나 이메일을 통해 코드 조각을 전송하지 마십시오. JavaScript에서는 둥근 따옴표를 사용할 수 없습니다.
 
 ## Analytics 개체 참조
 
@@ -87,7 +87,7 @@ s.pageName = "        Home Page";
 많은 변수를 긴 값으로 채우는 구현의 경우 때로 이미지 요청이 잘릴 수 있습니다. Internet Explorer와 같은 일부 이전 브라우저는 이미지 요청 URL에 2083자 제한을 적용합니다. 조직에서 매우 긴 이미지 요청이 발생하는 경우 다음을 시도해 보십시오.
 
 * **Experience Cloud ID 서비스 사용**: AppMeasurement 라이브러리 1.4.1 이상은 요청이 너무 긴 경우 HTTP POST를 사용하여 이미지 요청을 자동으로 전송합니다. 이 방법을 사용하여 전송된 데이터는 길이에 관계없이 잘리지 않습니다. 자세한 내용은 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 참조하십시오.
-* **처리 규칙 사용**: [처리 규칙](/help/admin/admin/c-processing-rules/processing-rules.md)은 한 변수의 값을 다른 변수에 값을 복사할 수 있습니다. 이 방법을 사용하면 여러 변수에서 동일한 값을 설정하지 않아도 됩니다. 예를 들어,
+* **처리 규칙 사용**: [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)은 한 변수의 값을 다른 변수에 값을 복사할 수 있습니다. 이 방법을 사용하면 여러 변수에서 동일한 값을 설정하지 않아도 됩니다. 예를 들어,
 
    항상 다음 작업을 실행하십시오.<br>
 prop1의 값을 eVar1로 덮어쓰기<br>

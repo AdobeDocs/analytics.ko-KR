@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '680'
 ht-degree: 95%
 
 ---
@@ -42,28 +42,6 @@ ht-degree: 95%
 + Analytics 관리 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
-   + 보고서 세트 관리자 {#manage-report-suites}
-      + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
-      + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [롤업 보고서 세트 만들기](admin/c-manage-report-suites/t-rollups.md)
-      + [보고서 세트 그룹 만들기](admin/c-manage-report-suites/t-create-rs-group.md)
-      + [보고서 세트 검색 저장](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [개별 보고서 세트 설정](admin/c-manage-report-suites/individual-rs-settings.md)
-      + [보고서 세트 설정 다운로드](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 새 보고서 세트 {#new-report-suite}
-         + [보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [새 보고서 세트 - 설정](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [소스 보고서 세트에서 복사되지 않은 설정](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + 보고서 세트 템플릿 {#report-suite-templates}
-         + [보고서 세트 템플릿 개요](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [애그리게이터 포털](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [상거래](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [콘텐츠 및 미디어](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [기본 템플릿](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [금융 서비스](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [구직 포털](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [리드 생성](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [지원 미디어](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 보트 제거 {#bot-removal}
       + [보트 제거](admin/bot-removal/bot-removal.md)
       + [보트 규칙 개요](admin/bot-removal/bot-rules.md)
@@ -79,52 +57,76 @@ ht-degree: 95%
       + [머천다이징 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [통화 코드](admin/currency.md)
    + [사용자 정의 보고서 설명](admin/custom-desc-admin.md)
-   + [사용자 정의 캘린더](admin/custom-calendar.md)
    + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [검색 방법](admin/finding-methods.md)
-   + [일반 계정 설정](admin/general-acct-settings-admin.md)
-   + [내부 URL 필터](admin/internal-url-filter-admin.md)
    + [로그](admin/logs.md)
    + [마케팅 채널](admin/marketing-channels-admin.md)
-   + [메뉴 사용자 정의](admin/customize-menus.md)
    + [지표 가시성](admin/metric-visibility.md)
    + [앱 관리](admin/mobile-management.md)
-   + 유료 검색 감지 {#paid-search-detection}
-      + [유료 검색 감지 개요](admin/paid-search-detection/paid-search-detection.md)
-      + [유료 검색 감지 구성](admin/paid-search-detection/t-paid-search-detection.md)
    + [환경 설정 관리자](admin/preferences-manager.md)
    + [개인정보 보호 설정](admin/privacy-settings.md)
    + [개인정보 보호 보고](admin/privacy-reporting.md)
-   + 처리 규칙 {#processing-rules}
-      + [처리 규칙 개요](admin/c-processing-rules/processing-rules.md)
-      + 처리 규칙 구성 {#processing-rules-configuration}
-         + [처리 규칙 작동 방식](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [처리 규칙 만들기](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-         + [활성 처리 규칙 보기](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-         + [처리 규칙 내역 보기](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-         + [처리 규칙 복원](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-         + [다른 보고서 세트에 처리 규칙 복사](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-      + [처리 규칙에 사용 가능한 차원](admin/c-processing-rules/processing-rule-dimensions.md)
-      + 처리 규칙 예 {#processing-rules-examples}
-         + [처리 규칙 예](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [쿼리 문자열 매개변수에서 캠페인 ID 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [제품 개요 페이지에서 제품 보기 이벤트 설정](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-         + [범주와 페이지 이름을 연결하여 하위 범주 추가](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-         + [eVar 값을 prop에 복사하여 경로 결정](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
-         + [보고서에서 값 정리](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [쿼리 문자열 매개변수를 사용하여 내부 검색어 채우기](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-         + [eVar에 컨텍스트 데이터 변수 복사](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-         + [컨텍스트 데이터 변수를 사용하여 이벤트 설정](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [히트에서 이벤트 제거](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-      + [처리 규칙 팁과 트릭](admin/c-processing-rules/processing-rules-tips.md)
    + 실시간 보고서 {#real-time-reports}
       + [실시간 보고서 개요](admin/realtime/realtime.md)
       + [실시간 보고서 구성](admin/realtime/t-realtime-admin.md)
       + [지원되는 실시간 지표 및 차원](admin/realtime/realtime-metrics.md)
    + [활동 관리자 보고](admin/reporting-activity.md)
    + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
+   + 보고서 세트 관리자 {#manage-report-suites}
+      + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
+      + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [보고서 세트 검색 저장](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [개별 보고서 세트 설정](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [보고서 세트 설정 다운로드](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 새 보고서 세트 {#c-new-report-suite}
+         + [보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [롤업 보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [보고서 세트 그룹 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [새 보고서 세트 - 설정](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [소스 보고서 세트에서 복사되지 않은 설정](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 보고서 세트 템플릿 {#report-suite-templates}
+         + [보고서 세트 템플릿 개요](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [애그리게이터 포털](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [상거래](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [콘텐츠 및 미디어](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [기본 템플릿](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [금융 서비스](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [구직 포털](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [리드 생성](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [지원 미디어](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
+      + 보고서 세트의 설정 편집 {#edit-report-suite}
+         + 일반 {#report-suite-general}
+            + [일반 계정 설정](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
+            + [내부 URL 필터](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + 유료 검색 감지 {#paid-search-detection}
+               + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
+               + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
+            + [메뉴 사용자 정의](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [사용자 정의 캘린더](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + 처리 규칙 {#c-processing-rules}
+               + [처리 규칙 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
+               + 처리 규칙 구성 {#c-processing-rules-configuration}
+                  + [처리 규칙 작동 방식](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
+                  + [처리 규칙 만들기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
+                  + [활성 처리 규칙 보기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
+                  + [처리 규칙 내역 보기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
+                  + [처리 규칙 복원](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
+                  + [다른 보고서 세트에 처리 규칙 복사](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+                  + [처리 규칙에 사용 가능한 차원](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
+               + 처리 규칙 예 {#processing-rules-examples}
+                  + [처리 규칙 예](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
+                  + [쿼리 문자열 매개변수에서 캠페인 ID 채우기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+                  + [제품 개요 페이지에서 제품 보기 이벤트 설정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+                  + [범주와 페이지 이름을 연결하여 하위 범주 추가](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+                  + [eVar 값을 prop에 복사하여 경로 결정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
+                  + [보고서에서 값 정리](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
+                  + [쿼리 문자열 매개변수를 사용하여 내부 검색어 채우기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+                  + [eVar에 컨텍스트 데이터 변수 복사](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+                  + [컨텍스트 데이터 변수를 사용하여 이벤트 설정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
+                  + [히트에서 이벤트 제거](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+               + [처리 규칙 팁과 트릭](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
    + 서버측 전달 {#server-side-forwarding}
       + [서버측 전달 개요](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)

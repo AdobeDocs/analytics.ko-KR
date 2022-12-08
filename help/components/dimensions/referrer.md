@@ -3,8 +3,8 @@ title: 레퍼러
 description: 방문자가 사이트를 클릭스루하기 전에 있었던 URL입니다.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->이 차원을 사용하려면 보고서 세트의 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 URL이 포함되거나 외부 URL이 표시되지 않을 수 있습니다.
+>이 차원을 사용하려면 보고서 세트의 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 URL이 포함되거나 외부 URL이 표시되지 않을 수 있습니다.
 
 동일한 보고서가 Analysis Workspace와 Data Warehouse 간에 다른 결과를 보여 줄 수 있습니다. Analysis Workspace는 내부 URL 필터와 일치하는 값을 제외하고 각 개별 페이지에 대한 레퍼러를 보고합니다. Data Warehouse는 방문의 첫 번째 레퍼러만 보고하고 내부 URL 필터는 무시합니다.
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 이 차원에서는 Analytics 인터페이스에서의 구성과 이미지 요청의 데이터가 필요합니다.
 
 * 구현 내에서 이 차원은 이미지 요청의 [`r` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `document.referrer`를 사용하여 이 데이터를 수집합니다. [`referrer`](/help/implement/vars/page-vars/referrer.md) 변수 재정의를 사용하여 변수를 수동으로 설정할 수 있습니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 이미지 요청에 `r` 쿼리 문자열 매개 변수를 포함해야 합니다.
-* Analytics 인터페이스 내에서는 보고서 세트의 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 URL이 포함되거나 외부 URL이 표시되지 않을 수 있습니다.
+* Analytics 인터페이스 내에서는 보고서 세트의 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 URL이 포함되거나 외부 URL이 표시되지 않을 수 있습니다.
 
 ## 차원 항목
 

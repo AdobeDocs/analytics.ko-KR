@@ -3,7 +3,7 @@ description: 보고서 세트 유형에 대한 설명과 글로벌 보고서 세
 title: 보고서 세트 접근 방식
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 >
 >[!DNL Reports & Analytics]은 롤업 보고서를 지원하는 유일한 도구이며 Adobe는 더 이상 롤업 사용을 권장하지 않습니다. 대신 다중 세트 태그 지정 또는 가상 보고서 세트가 있는 글로벌 보고서 세트를 사용하는 것이 좋습니다.
 
-롤업 보고서는 중복 제거나 세그먼트 또는 데이터 분류 없이 여러 보고서 세트의 데이터를 간단히 집계한 것입니다. 롤업에는 코드 구현이 필요하지 않습니다. 롤업 보고서를 사용하려면 [하위 보고서 세트를 구현](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)한 다음 [!UICONTROL 관리 도구]를 사용하여 [롤업 보고서로 결합](/help/admin/admin/c-manage-report-suites/t-rollups.md)합니다.
+롤업 보고서는 중복 제거나 세그먼트 또는 데이터 분류 없이 여러 보고서 세트의 데이터를 간단히 집계한 것입니다. 롤업에는 코드 구현이 필요하지 않습니다. 롤업 보고서를 사용하려면 [하위 보고서 세트를 구현](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)한 다음 [!UICONTROL 관리 도구]를 사용하여 [롤업 보고서로 결합](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)합니다.
 
 롤업 보고서는 무료입니다. 하위 보고서 세트는 자체 서버 호출을 발생시키지만 롤업은 추가 호출을 발생시키지 않습니다. 롤업은 레거시 기능이며 많은 제한 사항이 있습니다.
 

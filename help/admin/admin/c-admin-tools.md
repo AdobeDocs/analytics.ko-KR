@@ -3,7 +3,7 @@ description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -24,22 +24,22 @@ ht-degree: 100%
 + [전환 변수 (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [통화 코드](currency.md)
 + [사용자 정의 보고서 설명](custom-desc-admin.md)
-+ [사용자 정의 달력](custom-calendar.md)
++ [사용자 정의 달력](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [데이터 소스](data-sources.md)
 + [기본 지표](default-metrics.md)
 + [IP 주소로 제외](exclude-ip.md)
 + [검색 방법](finding-methods.md)
-+ [일반 계정 설정](general-acct-settings-admin.md)
-+ [내부 URL 필터](internal-url-filter-admin.md)
++ [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
++ [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [로그](logs.md)
 + [마케팅 채널](marketing-channels-admin.md)
-+ [메뉴 사용자 정의](customize-menus.md)
++ [메뉴 사용자 정의](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [지표 가시성](metric-visibility.md)
 + [모바일 관리](mobile-management.md)
-+ [유료 검색 감지 개요](paid-search-detection/paid-search-detection.md)
++ [유료 검색 감지 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
 + [환경 설정 관리자](preferences-manager.md)
 + [개인정보 보호 설정](privacy-settings.md)
-+ [처리 규칙 개요](c-processing-rules/processing-rules.md)
++ [처리 규칙 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
 + [실시간 보고서 개요](realtime/realtime.md)
 + [예약된 보고서 큐](scheduled-reports-admin.md)
 + [서버측 전달 개요](c-server-side-forwarding/ssf.md)

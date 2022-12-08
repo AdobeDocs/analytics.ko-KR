@@ -3,8 +3,8 @@ title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 통화 전환은 각 히트에 대해 다음 논리를 사용합니다. 이 단계는 [`products`](../page-vars/products.md) 변수로 설정된 매출 값과 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md)에서 &#39;통화&#39;로 나열된 모든 이벤트에 적용됩니다.
 
-* `currencyCode`가 정의되지 않은 경우 Adobe는 모든 통화 값이 보고서 세트의 통화라고 가정합니다. 보고서 세트의 통화를 확인하려면 보고서 세트 설정에서 [일반 계정 설정](/help/admin/admin/general-acct-settings-admin.md)을 참조하십시오.
+* `currencyCode`가 정의되지 않은 경우 Adobe는 모든 통화 값이 보고서 세트의 통화라고 가정합니다. 보고서 세트의 통화를 확인하려면 보고서 세트 설정에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
 * `currencyCode`가 정의되어 있고 보고서 세트의 통화와 일치하는 경우 통화 전환이 적용되지 않습니다.
 * `currencyCode`가 정의되어 있고 보고서 세트의 통화와 다른 경우에는 Adobe가 현재 날짜의 환율을 기준으로 통화 변환을 적용합니다. Adobe는 [XE](https://xe.com)와 협력하여 매일 통화를 변환합니다. 보고서 세트에 저장된 모든 값은 보고서 세트의 통화로 있습니다.
 * `currencyCode`가 잘못된 값으로 설정되어 있으면 **전체 히트가 삭제되어 데이터 손실이 발생합니다.** 이 변수가 사용될 때마다 올바르게 정의되었는지 확인하십시오.

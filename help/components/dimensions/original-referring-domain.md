@@ -3,8 +3,8 @@ title: 최초 참조 도메인
 description: 방문자가 사이트를 클릭스루하기 전에 있었던 첫 번째 참조 도메인입니다.
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->이 차원을 사용하려면 보고서 세트의 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 도메인이 포함되거나 외부 도메인이 표시되지 않을 수 있습니다.
+>이 차원을 사용하려면 보고서 세트의 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 도메인이 포함되거나 외부 도메인이 표시되지 않을 수 있습니다.
 
 ## 이 차원을 데이터로 채우기
 
 이 차원을 사용하려면 Analytics 인터페이스와 구현 모두에서 구성해야 합니다.
 
 * 구현 내에서 이 차원은 이미지 요청의 [`r` 쿼리 문자열](/help/implement/validate/query-parameters.md)에서 데이터를 검색합니다. AppMeasurement는 브라우저에서 JavaScript 변수 `document.referrer`를 사용하여 이 데이터를 수집합니다. AppMeasurement 라이브러리를 사용하는 경우(Adobe Experience Platform의 태그 등을 통해) 이 차원은 즉시 작동합니다. AppMeasurement 외부의 데이터 수집 방법을 사용하는 경우 (API 등을 통해)에는 이미지 요청에 `r` 쿼리 문자열 매개 변수를 포함해야 합니다.
-* Analytics 인터페이스 내에서는 보고서 세트의 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 도메인이 포함되거나 외부 도메인이 표시되지 않을 수 있습니다.
+* Analytics 인터페이스 내에서는 보고서 세트의 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)를 구성해야 합니다. 내부 URL 필터를 구성하지 않으면 내부 도메인이 포함되거나 외부 도메인이 표시되지 않을 수 있습니다.
 
 Adobe에서는 방문자 라이프타임 동안 최초 참조 도메인을 유지합니다. 방문자가 언제든지 나가서 다른 도메인의 링크를 클릭하는 경우 새 값이 기록되지 않습니다. 새 값을 보려면 [참조 도메인](referring-domain.md)을 참조하십시오.
 

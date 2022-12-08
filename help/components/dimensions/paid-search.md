@@ -3,8 +3,8 @@ title: 유료 검색
 description: 유료 검색과 자연어 검색 지표를 구분합니다.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원이 제대로 작동하기 위한 유일한 요구 사항은 보고서 세트 설정에 [유료 검색 감지](/help/admin/admin/paid-search-detection/paid-search-detection.md)가 올바로 구성되어 있는 것입니다. 유료 검색 감지가 올바로 구성되어 있고 보고서 세트에 데이터가 있다면 이 차원은 항상 작동합니다.
+이 차원이 제대로 작동하기 위한 유일한 요구 사항은 보고서 세트 설정에 [유료 검색 감지](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)가 올바로 구성되어 있는 것입니다. 유료 검색 감지가 올바로 구성되어 있고 보고서 세트에 데이터가 있다면 이 차원은 항상 작동합니다.
 
 ## 차원 항목
 

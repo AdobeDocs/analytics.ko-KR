@@ -3,8 +3,8 @@ title: Adobe Analytics의 고객 확보 보고서
 description: Analysis Workspace를 사용하여 고객 확보 기반 보고서를 만드는 방법을 알아봅니다.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ Advertising Analytics 기능을 사용하려면 데이터를 반환하도록 구
 
 ## 캠페인 - 유료 키워드
 
-유료 키워드 보고서는 방문자가 검색 엔진에서 유료 검색 링크를 클릭한 후 각 키워드가 수행되는 방식을 보여 줍니다. **검색 키워드 - 유료** 차원은 Analysis Workspace에서 사용할 수 있지만 데이터를 수집하려면 유료 검색 감지를 1회 설정해야 합니다. 설정 세부 사항은 관리 사용 안내서의 [유료 검색 감지](/help/admin/admin/paid-search-detection/paid-search-detection.md)를 참조하십시오.
+유료 키워드 보고서는 방문자가 검색 엔진에서 유료 검색 링크를 클릭한 후 각 키워드가 수행되는 방식을 보여 줍니다. **검색 키워드 - 유료** 차원은 Analysis Workspace에서 사용할 수 있지만 데이터를 수집하려면 유료 검색 감지를 1회 설정해야 합니다. 설정 세부 사항은 관리 사용 안내서의 [유료 검색 감지](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)를 참조하십시오.
 
 1. 구성 요소 메뉴에서 **검색 키워드 - 유료** 차원을 찾아 &#39;여기에 차원 놓기&#39;라는 큰 자유 형식 테이블 영역으로 끌어서 놓습니다.
 2. 원하는 지표를 자동으로 생성된 **발생 횟수** 지표와 함께 작업 영역으로 끌어서 놓습니다. 각 지표를 얻는 방법에 대한 자세한 내용은 [지표 변환 안내서](common-metrics.md)를 참조하십시오.

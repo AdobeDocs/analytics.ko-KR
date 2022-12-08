@@ -3,8 +3,8 @@ title: 모든 검색 페이지 등급
 description: 방문자가 사이트에 도달하기 위해 클릭한 검색 엔진의 페이지를 결정합니다.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원이 작동하려면 보고서 세트에 [내부 URL 필터](/help/admin/admin/internal-url-filter-admin.md)가 올바로 설정되어 있어야 합니다. AppMeasurement는 구현 코드를 변경하지 않고 자동으로 이 차원을 채웁니다.
+이 차원이 작동하려면 보고서 세트에 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)가 올바로 설정되어 있어야 합니다. AppMeasurement는 구현 코드를 변경하지 않고 자동으로 이 차원을 채웁니다.
 
 ## 차원 항목
 
