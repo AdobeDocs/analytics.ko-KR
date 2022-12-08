@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -39,9 +39,31 @@ ht-degree: 96%
       + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
-+ 관리 도구 {#admin-tools}
++ Analytics 관리 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
+   + 보고서 세트 관리자 {#manage-report-suites}
+      + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
+      + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [롤업 보고서 세트 만들기](admin/c-manage-report-suites/t-rollups.md)
+      + [보고서 세트 그룹 만들기](admin/c-manage-report-suites/t-create-rs-group.md)
+      + [보고서 세트 검색 저장](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [개별 보고서 세트 설정](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [보고서 세트 설정 다운로드](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 새 보고서 세트 {#new-report-suite}
+         + [보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [새 보고서 세트 - 설정](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [소스 보고서 세트에서 복사되지 않은 설정](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 보고서 세트 템플릿 {#report-suite-templates}
+         + [보고서 세트 템플릿 개요](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [애그리게이터 포털](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [상거래](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [콘텐츠 및 미디어](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [기본 템플릿](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [금융 서비스](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [구직 포털](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [리드 생성](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [지원 미디어](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 보트 제거 {#bot-removal}
       + [보트 제거](admin/bot-removal/bot-removal.md)
       + [보트 규칙 개요](admin/bot-removal/bot-rules.md)
@@ -124,28 +146,6 @@ ht-degree: 96%
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
-+ 보고서 세트 관리 {#manage-report-suites}
-   + [보고서 세트 관리자](c-manage-report-suites/report-suites-admin.md)
-   + [롤업 및 글로벌 보고서 세트](c-manage-report-suites/rollup-report-suite.md)
-   + [롤업 보고서 세트 만들기](c-manage-report-suites/t-rollups.md)
-   + 보고서 세트 템플릿 {#report-suite-templates}
-      + [보고서 세트 템플릿 개요](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [애그리게이터 포털](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [상거래](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [콘텐츠 및 미디어](c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [기본 템플릿](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [금융 서비스](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [구직 포털](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [리드 생성](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [지원 미디어](c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + [보고서 세트 검색 저장](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [개별 보고서 세트 설정](c-manage-report-suites/individual-rs-settings.md)
-   + [보고서 세트 설정 다운로드](c-manage-report-suites/t-download-rs-settings.md)
-   + 새 보고서 세트 {#new-report-suite}
-      + [보고서 세트 만들기](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [새 보고서 세트 - 설정](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [소스 보고서 세트에서 복사되지 않은 설정](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-   + [보고서 세트 그룹 만들기](c-manage-report-suites/t-create-rs-group.md)
 + 사용자 및 제품 관리 (레거시) {#user-product-management}
    + [사용자 및 제품 관리](user-management2/user-management.md)
    + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}

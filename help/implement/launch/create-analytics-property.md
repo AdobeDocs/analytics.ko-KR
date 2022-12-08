@@ -3,8 +3,8 @@ title: 태그에 Analytics 속성 만들기
 description: 태그를 사용하여 데이터 수집 방법을 사용자 정의할 공간을 만듭니다.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Adobe Experience Platform의 태그를 사용하면 웹 사이트에서 Experien
 
 ## 사전 요구 사항
 
-[보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기.
+[보고서 세트 만들기](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): 수집할 Analytics 데이터에 대한 사일로 만들기.
 
 ## 태그 속성 만들기 및 중요한 확장 설치
 

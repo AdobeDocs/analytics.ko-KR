@@ -2,7 +2,8 @@
 title: Adobe Analytics의 관리자 역할
 description: Adobe Analytics 시작, 일반 역할 유형, UI에 로그인하는 방법을 알아봅니다.
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 58%
@@ -69,7 +70,7 @@ Experience Platform의 데이터 수집에 대한 제품 관리자 액세스 권
 
 ## 다음 단계
 
-[보고서 세트 만들기](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
+[보고서 세트 만들기](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Analytics 관리자가 도구에 로그인하고 데이터 수집을 위한 보고서 세트를 만들 수 있습니다.
 
 [Analytics 태그 속성 만들기](/help/implement/launch/create-analytics-property.md): 데이터 수집 관리자가 도구에 로그인하여 사이트에 구현할 속성을 만들 수 있습니다.
 

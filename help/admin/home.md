@@ -3,8 +3,8 @@ title: Analytics 관리 안내서
 description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변수, 분류 및 데이터 수집 설정 등 Adobe Analytics 관리자를 위한 관리 도움말.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니�
 ## 주요 문서
 
 * [Analytics 첫 번째 관리 시작 안내서](admin-console/first-admin-guide.md): 조직이 Adobe Analytics를 처음 사용하는 경우 이 안내서에 따라 Adobe Analytics의 진가를 누려보십시오.
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Analytics에서 가장 일반적으로 액세스하는 관리 도구 Report Suite Manager에는 변수 관리 분류 관리, 시간대 등에 대한 설정이 포함되어 있습니다.
+* [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): Analytics에서 가장 일반적으로 액세스하는 관리 도구 Report Suite Manager에는 변수 관리 분류 관리, 시간대 등에 대한 설정이 포함되어 있습니다.
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
+[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 

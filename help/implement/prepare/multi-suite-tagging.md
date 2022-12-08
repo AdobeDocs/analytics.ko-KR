@@ -3,8 +3,8 @@ description: 다중 세트 태그 지정을 구현하여 여러 보고서 세트
 title: 다중 세트 태그 지정 구현
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 다중 세트 태그 지정 구현
 
-[다중 세트 태그 지정](/help/admin/c-manage-report-suites/rollup-report-suite.md)을 사용하면 글로벌 보고서 세트뿐만 아니라 개별 하위 보고서 세트에도 이미지 요청을 보낼 수 있으므로 회사 글로벌 보고서 세트 데이터의 하위 집합을 다른 최종 사용자에게 제공할 수 있습니다.
+[다중 세트 태그 지정](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md)을 사용하면 글로벌 보고서 세트뿐만 아니라 개별 하위 보고서 세트에도 이미지 요청을 보낼 수 있으므로 회사 글로벌 보고서 세트 데이터의 하위 집합을 다른 최종 사용자에게 제공할 수 있습니다.
 
 다중 세트 태그 지정을 구현하려면 글로벌 보고서 세트에 대한 RSID(보고서 세트 ID)와 웹 페이지 및 앱의 추적 코드에 해당 하위 보고서 세트에 대한 RSID를 포함해야 합니다.
 
