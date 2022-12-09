@@ -3,10 +3,10 @@ title: 이벤트 직렬화
 description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 ## 이벤트 직렬화 설정
 
-먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 안내서의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md)를 참조하십시오.
+먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 안내서의 [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)를 참조하십시오.
 
 이벤트 ID를 사용할 때 중복 제거는 다음 수준에서 수행됩니다.
 
@@ -42,7 +42,7 @@ ht-degree: 74%
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함된 작업으로서 이벤트 ID 필드를 설정할 수 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.

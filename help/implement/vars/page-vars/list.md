@@ -3,8 +3,8 @@ title: 목록에 있는 참조 페이지를 나타냅니다
 description: 동일한 히트에 여러 값이 있는 사용자 정의 변수입니다.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 ## 보고서 세트 설정에서 목록 변수 설정
 
-구현에서 목록 변수를 사용하기 전에 보고서 세트 설정에서 각 목록 변수를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/list-var-admin.md)를 참조하십시오. 이 단계는 모든 구현 방법에 적용됩니다.
+구현에서 목록 변수를 사용하기 전에 보고서 세트 설정에서 각 목록 변수를 구성해야 합니다. 관리 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)를 참조하십시오. 이 단계는 모든 구현 방법에 적용됩니다.
 
 ## 웹 SDK를 사용한 목록 변수
 
-목록 변수는 XDM 필드 `_experience.analytics.customDimensions.lists.list1.list[]` 아래에서 `_experience.analytics.customDimensions.lists.list3.list[]`에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html). 각 배열 요소에는 각 문자열을 포함하는 `"value"` 오브젝트가 포함됩니다. 구분 기호를 제공할 필요가 없습니다. [보고서 세트 설정](/help/admin/admin/conversion-var-admin/list-var-admin.md)에 지정된 값을 사용하여 구분 기호가 자동으로 포함됩니다. 예를 들어 쉼표(&#39;`,`&#39;)가 목록 변수 1의 구분 기호로 구성된 경우 다음 XDM 개체가 `"Example value 1,Example value 2,Example value 3"`으로 `list1` 변수를 채웁니다.
+목록 변수는 XDM 필드 `_experience.analytics.customDimensions.lists.list1.list[]` 아래에서 `_experience.analytics.customDimensions.lists.list3.list[]`에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html). 각 배열 요소에는 각 문자열을 포함하는 `"value"` 오브젝트가 포함됩니다. 구분 기호를 제공할 필요가 없습니다. [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에 지정된 값을 사용하여 구분 기호가 자동으로 포함됩니다. 예를 들어 쉼표(&#39;`,`&#39;)가 목록 변수 1의 구분 기호로 구성된 경우 다음 XDM 개체가 `"Example value 1,Example value 2,Example value 3"`으로 `list1` 변수를 채웁니다.
 
 ```json
 "xdm": {
@@ -64,7 +64,7 @@ Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니�
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.list1 - s.list3
 
-각 목록 변수는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 이 변수에는 최대 바이트 수 제한이 없습니다. 그러나 각 개별 값은 최대 255바이트입니다. 사용하는 구분 기호는 [보고서 세트 설정](/help/admin/admin/conversion-var-admin/list-var-admin.md)에서 변수를 설정할 때 결정됩니다. 공백은 여러 항목을 구분할 때 사용하지 마십시오.
+각 목록 변수는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 이 변수에는 최대 바이트 수 제한이 없습니다. 그러나 각 개별 값은 최대 255바이트입니다. 사용하는 구분 기호는 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에서 변수를 설정할 때 결정됩니다. 공백은 여러 항목을 구분할 때 사용하지 마십시오.
 
 ```js
 // A list variable configured with a comma as a delimiter

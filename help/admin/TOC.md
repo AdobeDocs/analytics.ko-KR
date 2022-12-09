@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -48,18 +48,10 @@ ht-degree: 95%
       + [일반 보트 서명](admin/bot-removal/bot-signatures.md)
       + [보트 제외 방법](admin/bot-removal/bot-exclusion-methods.md)
    + [코드 관리자](admin/code-manager-admin.md)
-   + 전환 변수 {#conversion-variables}
-      + [전환 변수 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
-      + [전환 변수 편집](admin/conversion-var-admin/t-conversion-variables-admin.md)
-      + [전환 분류](admin/conversion-var-admin/conversion-classifications.md)
-      + [분류 계층](admin/conversion-var-admin/classification-hierarchies.md)
-      + [목록 변수](admin/conversion-var-admin/list-var-admin.md)
-      + [머천다이징 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [통화 코드](admin/currency.md)
    + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
-   + [검색 방법](admin/finding-methods.md)
    + [로그](admin/logs.md)
    + [마케팅 채널](admin/marketing-channels-admin.md)
    + [지표 가시성](admin/metric-visibility.md)
@@ -131,6 +123,21 @@ ht-degree: 95%
             + [트래픽 변수 보고서 활성화](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [트래픽 분류](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [사용자 정의 보고서 설명](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+         + 전환 변수 {#conversion-variables}
+            + [전환 변수 (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [전환 변수 편집](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
+            + [전환 분류](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+            + [분류 계층](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [목록 변수](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [머천다이징 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+            + [검색 방법](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + 고유 방문자 변수 {#unique-visitor-variable}
+               + [고유 방문자 변수 지정](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+               + [사용 사례 - 방문자 ID 추출](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+            + 성공 이벤트 {#success-events}
+               + [성공 이벤트 개요](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
+               + [성공 이벤트 구성](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
+               + [이벤트 유형 변경 정보](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
    + 서버측 전달 {#server-side-forwarding}
       + [서버측 전달 개요](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -139,14 +146,7 @@ ht-degree: 95%
       + [서버측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
       + [서버측 전달 FAQ](admin/c-server-side-forwarding/ssf-faq.md)
    + [간소화된 보고서 메뉴](admin/t-simplified-menu.md)
-   + 성공 이벤트 {#success-events}
-      + [성공 이벤트 개요](admin/c-success-events/success-event.md)
-      + [성공 이벤트 구성](admin/c-success-events/t-success-events.md)
-      + [이벤트 유형 변경 정보](admin/c-success-events/event-type.md)
    + [타임스탬프 선택 사항](admin/timestamp-optional.md)
-   + 고유 방문자 변수 {#unique-visitor-variable}
-      + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [비디오 관리](admin/video-management.md)
 + 사용자 및 제품 관리 (레거시) {#user-product-management}
    + [사용자 및 제품 관리](user-management2/user-management.md)

@@ -3,7 +3,7 @@ title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 상거래를 사용하는 사이트의 경우 매출 및 통화는 Analytics의 중요한 부분입니다. 많은 사이트, 특히 여러 국가를 아우르는 사이트는 다양한 통화를 사용합니다. 매출 기여도 분석이 올바른 통화로 표시되게 하려면 `currencyCode` 변수를 사용하십시오.
 
-통화 전환은 각 히트에 대해 다음 논리를 사용합니다. 이 단계는 [`products`](../page-vars/products.md) 변수로 설정된 매출 값과 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-success-events/success-event.md)에서 &#39;통화&#39;로 나열된 모든 이벤트에 적용됩니다.
+통화 전환은 각 히트에 대해 다음 논리를 사용합니다. 이 단계는 [`products`](../page-vars/products.md) 변수로 설정된 매출 값과 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)에서 &#39;통화&#39;로 나열된 모든 이벤트에 적용됩니다.
 
 * `currencyCode`가 정의되지 않은 경우 Adobe는 모든 통화 값이 보고서 세트의 통화라고 가정합니다. 보고서 세트의 통화를 확인하려면 보고서 세트 설정에서 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)을 참조하십시오.
 * `currencyCode`가 정의되어 있고 보고서 세트의 통화와 일치하는 경우 통화 전환이 적용되지 않습니다.

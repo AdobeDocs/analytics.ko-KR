@@ -3,7 +3,7 @@ description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -21,14 +21,14 @@ ht-degree: 100%
 + [과금](billing-admin.md)
 + [보트 규칙 개요](bot-removal/bot-rules.md)
 + [코드 관리자](code-manager-admin.md)
-+ [전환 변수 (eVar)](conversion-var-admin/conversion-var-admin.md)
++ [전환 변수 (eVar)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
 + [통화 코드](currency.md)
 + [사용자 정의 보고서 설명](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
 + [사용자 정의 달력](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [데이터 소스](data-sources.md)
 + [기본 지표](default-metrics.md)
 + [IP 주소로 제외](exclude-ip.md)
-+ [검색 방법](finding-methods.md)
++ [검색 방법](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
 + [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 + [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [로그](logs.md)
@@ -44,8 +44,8 @@ ht-degree: 100%
 + [예약된 보고서 큐](scheduled-reports-admin.md)
 + [서버측 전달 개요](c-server-side-forwarding/ssf.md)
 + [간소화된 보고서 메뉴](t-simplified-menu.md)
-+ [성공 이벤트 개요](c-success-events/success-event.md)
++ [성공 이벤트 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
 + [타임스탬프 선택 사항](timestamp-optional.md)
 + [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-+ [고유 방문자 변수 지정](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [고유 방문자 변수 지정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [비디오 관리](video-management.md)

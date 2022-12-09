@@ -2,7 +2,7 @@
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 * **관리 콘솔:** 다음을 의미할 수 있습니다.
    * Adobe Analytics의 보고서 세트 설정을 관리하는 기존 관리 도구. 이전 버전의 Adobe Analytics에서는 사용자 권한도 여기에서 관리했습니다. 관리 사용 안내서에서 [관리 도구](/help/admin/admin/c-admin-tools.md)를 참조하십시오.
    * 제품 액세스가 프로비저닝되고 사용자 권한이 관리되는 Adobe Admin Console. 관리 사용 안내서에서 [Admin Console](/help/admin/admin-console/home.md)을 참조하십시오.
-* **할당:** 전환 변수가 방문 중에 두 개 이상의 값을 발견하는 경우 변수의 할당 설정에 따라 보존되는 값이 결정됩니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+* **할당:** 전환 변수가 방문 중에 두 개 이상의 값을 발견하는 경우 변수의 할당 설정에 따라 보존되는 값이 결정됩니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 * **Analysis Workspace:** 강력한 사용자 지정 분석 프로젝트를 구축하고 통찰력을 보여 주기 위한 브라우저 솔루션입니다. Reports and Analytics보다 더 많은 보고서 유연성을 제공합니다.
 * **예외 항목:** 데이터에서 예기치 않은 트렌드를 자동으로 찾기 위해 통계적 모델링 방법을 사용하여 탐지합니다. 이 모델은 지표를 분석하고 값의 하한, 상한 및 예상치 않은 범위를 파악합니다. 분석 사용 안내서에서 [예외 항목 탐지](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)를 참조하십시오.
 * **AppMeasurement:** 데이터를 수집하여 Adobe로 전송하는 데 사용되는 코드 라이브러리. 구현 사용 안내서의 [홈 페이지](/help/implement/home.md)를 참조하십시오.
@@ -55,7 +55,7 @@ ht-degree: 100%
 * **eVar:** 전환 변수를 참조하십시오.
 * **이벤트:** 성공 이벤트를 참조하십시오.
 * **ExcelClient:** 더 이상 사용하지 않는 용어입니다. Report Builder의 이전 이름입니다.
-* **만료:** 전환 변수 컨텍스트에서 값이 백엔드에서 지속되는 기간입니다. 이 지속성을 사용하면 이벤트를 이벤트의 히트 전에 변수 값과 연결할 수 있습니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
+* **만료:** 전환 변수 컨텍스트에서 값이 백엔드에서 지속되는 기간입니다. 이 지속성을 사용하면 이벤트를 이벤트의 히트 전에 변수 값과 연결할 수 있습니다. 관리 사용 안내서에서 [전환 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)를 참조하십시오.
 * **플로우:** 사용자가 사이트에서 어떤 경로를 사용했는지를 보여 주는 Analysis Workspace의 시각화 유형입니다. 분석 사용 안내서에서 [플로우 시각화](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)를 참조하십시오.
 * **Genesis:** 더 이상 사용하지 않는 용어입니다. Data Connectors의 이전 이름입니다.
 * **전역 보고서 세트:** 여러 사이트에서 히트를 수집하는 보고서 세트에 지정된 비공식적인 용어입니다.

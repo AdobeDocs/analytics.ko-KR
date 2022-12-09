@@ -3,8 +3,8 @@ title: 사용자 지정 이벤트
 description: 사용자 지정 이벤트가 존재하는 히트의 수입니다.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 이 지표의 계산 방법
 
-사용자 지정 이벤트는 유형에 따라 다르게 계산됩니다. 보고서 세트 설정의 [성공 이벤트](../../admin/admin/c-success-events/success-event.md) 아래에서 이벤트 유형을 확인할 수 있습니다.
+사용자 지정 이벤트는 유형에 따라 다르게 계산됩니다. 보고서 세트 설정의 [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) 아래에서 이벤트 유형을 확인할 수 있습니다.
 
 * **카운터 이벤트**: 기본 이벤트 설정입니다. 대부분의 이벤트는 카운터 이벤트입니다. [`events`](/help/implement/vars/page-vars/events/events-overview.md) 변수에 일치하는 사용자 지정 이벤트 `event1` - `event1000`이 존재하는 히트의 수를 계산합니다.
 * **숫자 이벤트**: `events` 변수의 이벤트에 지정된 숫자 값을 합계합니다.

@@ -3,8 +3,8 @@ description: 표준(내장) 지표, 사용자 정의 이벤트, 내장 이벤트
 title: 지표 가시성
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 표준(내장) 지표, 사용자 정의 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]****[!UICONTROL > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 변환]** > **[!UICONTROL 성공 이벤트]**. [자세히...](/help/admin/admin/c-success-events/t-success-events.md)
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]****[!UICONTROL > 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 변환]** > **[!UICONTROL 성공 이벤트]**. [자세히...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. [가시성] 열을 **[!UICONTROL 항상 표시]**, **[!UICONTROL 빌더]** 또는 **[!UICONTROL 항상 숨김]**&#x200B;으로 설정합니다.
 
 이 설정은 해당 지표의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. 이것은 설정이 사용자 인터페이스에서 지표의 가시성에 영향을 주는 방식입니다.

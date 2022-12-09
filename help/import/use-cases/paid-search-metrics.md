@@ -2,10 +2,10 @@
 title: 유료 검색 지표 가져오기
 description: '데이터 소스를 사용하여 유료 검색 지표(예: Google AdWords, MSN, Yahoo 등)를 추적하도록 Adobe Analytics를 구성하는 단계.'
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 1. **[!UICONTROL 다음]**&#x200B;을 클릭하고 데이터 소스의 이름을 지정합니다. 이 이름은 데이터 소스 관리자에 나타납니다.
 1. 서비스 계약에 동의하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. 세 가지 표준 지표([!UICONTROL 노출수], [!UICONTROL 클릭수] 및 [!UICONTROL 총 비용])를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
-1. 이제 이 새로운 데이터 소스를 [성공 이벤트 구성](/help/admin/admin/c-success-events/t-success-events.md)에서 생성한 사용자 정의 이벤트에 “매핑”하십시오.
+1. 이제 이 새 데이터 소스를 에서 만든 사용자 지정 이벤트에 매핑 [성공 이벤트 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
    ![매핑](assets/data-source-mapping.png)
 
