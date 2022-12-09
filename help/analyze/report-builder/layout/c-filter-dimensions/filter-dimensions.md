@@ -5,9 +5,9 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 **[!UICONTROL 가장 자주 사용하는 필터]** > **[!UICONTROL 필터 정의]** 패널의 필터에 대한 정보입니다.
 
-![](assets/define_filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 다음 표에는 필터에 대한 예제와 정보가 나와 있습니다.
 
@@ -64,7 +64,7 @@ ht-degree: 98%
    <td colname="col1"> <p>다음 구문 포함 안 함 </p> </td> 
    <td colname="col02"> <p>해당 구문을 포함하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Excludes <span class="term"> abc</span>, <span class="term"> abc def</span> 및 <span class="term"> def</span>와 일치 </p> </td> 
+   <td colname="col3"> <p>제외 <span class="term"> abc</span>, <span class="term"> abc def</span> 및 <span class="term"> def</span>와 일치 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>같음 </p> </td> 
@@ -88,7 +88,7 @@ ht-degree: 98%
    <td colname="col1"> <p>다음으로 끝남 </p> </td> 
    <td colname="col02"> <p>특정 값으로 끝나는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p><span class="term"> wxyz</span>와 일치하지만 <span class="term"> wxyz0</span>은 일치하지 않습니다. </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> wxyz</span> 하지만 <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>고급(특수 문자)  </p> </td> 

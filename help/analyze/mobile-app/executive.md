@@ -4,8 +4,8 @@ title: Adobe Analytics 대시보드 경영진 안내서
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
 
@@ -34,13 +34,13 @@ ht-degree: 100%
 
 **iOS를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [iOS 링크](https://apple.co/2zXq0aN)
 
 **Android를 사용하는 경영진 사용자:**
 
-다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트에 따라 앱을 다운로드하여 설치하고 엽니다.
+다음 링크 (**[!UICONTROL 도구]** > **[!UICONTROL Analytics 대시보드 (모바일 앱)]** 아래의 Analytics에서도 사용 가능)를 클릭하고 프롬프트의 안내에 따라 앱을 다운로드하여 설치하고 엽니다.
 
 [Android 링크](https://bit.ly/2LM38Oo)
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## 대시보드 사용
 
-대시보드를 사용하려면 다음을 수행하십시오.
+대시보드를 사용하려면 다음 작업을 수행하십시오.
 
 1. 앱에 로그인합니다. 대시보드를 실행하면 로그인 화면이 나타납니다. 기존 Adobe Analytics 자격 증명을 사용하여 나타나는 메시지를 따릅니다. Adobe는 Adobe 와 Enterprise/Federated ID를 모두 지원합니다.
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 1. 스코어카드에 세그먼트 필터를 적용하려면 필터 드롭다운을 누르고 조정이 구성한 세그먼트를 선택합니다. 앱의 [필터](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ko-KR)는 Analytics Workspace에서 작동하는 것과 동일한 방식으로 작동합니다.
 
-   ![세그먼트 필터](assets/segment_filter.png)
+   ![세그먼트 필터](/help/admin/admin/assets/filter.png)
 
 1. 스코어카드 업데이트를 가져옵니다. 스코어카드에 관심이 있을 수 있는 모든 지표 또는 분류가 포함되어 있지 않은 경우 Analytics 팀에 연락하여 스코어카드가 업데이트되도록 하십시오. 업데이트되었으면 화면에서 카드를 풀다운하여 새로 고친 다음 최근에 추가한 데이터를 로드할 수 있습니다.
 

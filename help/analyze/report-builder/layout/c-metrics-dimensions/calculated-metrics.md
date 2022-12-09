@@ -4,8 +4,8 @@ title: 계산된 지표
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Report Builder 5.2는 Adobe Analytics Unified Calculated Metrics를 지원합니
 
 ## 계산된 지표 필터링 {#section_376E986D3E684999A7CDB08E53854159}
 
-아이콘을 클릭하여 계산된 지표를 **필터링**&#x200B;합니다.![](assets/segment_filter.png)
+아이콘을 클릭하여 계산된 지표를 **필터링**&#x200B;합니다.![](/help/admin/admin/assets/filter.png)
 
 . 고급 필터 대화 상자는 표준 지표와 계산된 지표로 채워집니다.
 

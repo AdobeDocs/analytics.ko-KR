@@ -5,9 +5,9 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 91%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 1. 요청을 만들거나 편집하고 [!UICONTROL 요청 마법사: 2단계]로 진행합니다.
 
-   ![단계 결과](assets/dimension_filter.png)
+   ![단계 결과](/help/admin/admin/assets/filter.png)
 
 1. [!UICONTROL 요청 마법사: 2단계]에서, 그리드에서 차원 옆에 있는 링크를 클릭한 다음 **[!UICONTROL 필터]**&#x200B;를 선택합니다.
 
@@ -36,6 +36,6 @@ ht-degree: 91%
    * **목록에서:** 데이터를 추가할 수 있는 목록에서 데이터를 선택할 수 있도록 해줍니다.
 1. **[!UICONTROL 목록에서]**&#x200B;를 사용하는 경우 사용할 수 있는 나열된 항목들을 선택하거나 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL 추가]**&#x200B;목록에서 선택] 양식은 처음 10,000개 항목으로 제한되며 현재 요청 날짜 범위에 사용할 수 있는 차원 항목 목록을 표시합니다. [!UICONTROL  이 항목들에서 검색하거나 **[!UICONTROL 자세히 ...]**&#x200B;를 클릭하여, [!UICONTROL 검색 양식]을 표시하고 더욱 상세한 차원 검색 기준을 만들 수 있습니다.
+   를 클릭하면 **[!UICONTROL 추가]**, [!UICONTROL 목록에서 선택] 양식에 현재 요청 날짜 범위에 대해 사용 가능한 차원 항목 목록이 표시되며, 이 목록은 처음 10,000개 항목으로 제한됩니다. 이 항목들에서 검색하거나 **[!UICONTROL 자세히 ...]**&#x200B;를 클릭하여, [!UICONTROL 검색 양식]을 표시하고 더욱 상세한 차원 검색 기준을 만들 수 있습니다.
 1. [!UICONTROL 목록에서 선택]에서, **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 페이지 선택] 양식에서 원하는 경우 특정 필터를 저장한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

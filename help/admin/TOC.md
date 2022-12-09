@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -56,7 +56,6 @@ ht-degree: 95%
       + [목록 변수](admin/conversion-var-admin/list-var-admin.md)
       + [머천다이징 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [통화 코드](admin/currency.md)
-   + [사용자 정의 보고서 설명](admin/custom-desc-admin.md)
    + [데이터 소스](admin/data-sources.md)
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
@@ -127,6 +126,11 @@ ht-degree: 95%
                   + [컨텍스트 데이터 변수를 사용하여 이벤트 설정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [히트에서 이벤트 제거](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [처리 규칙 팁과 트릭](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+         + 트래픽 변수 {#traffic-variables}
+            + [트래픽 변수(prop) 개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [트래픽 변수 보고서 활성화](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+            + [트래픽 분류](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+            + [사용자 정의 보고서 설명](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
    + 서버측 전달 {#server-side-forwarding}
       + [서버측 전달 개요](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -140,10 +144,6 @@ ht-degree: 95%
       + [성공 이벤트 구성](admin/c-success-events/t-success-events.md)
       + [이벤트 유형 변경 정보](admin/c-success-events/event-type.md)
    + [타임스탬프 선택 사항](admin/timestamp-optional.md)
-   + 트래픽 변수 {#traffic-variables}
-      + [트래픽 변수(prop) 개요](admin/c-traffic-variables/traffic-var.md)
-      + [트래픽 변수 보고서 활성화](admin/c-traffic-variables/t-traffic-variable.md)
-      + [트래픽 분류](admin/c-traffic-variables/traffic-classifications.md)
    + 고유 방문자 변수 {#unique-visitor-variable}
       + [고유 방문자 변수 지정](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [사용 사례 - 방문자 ID 추출](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)

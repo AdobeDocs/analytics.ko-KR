@@ -5,9 +5,9 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ AND/OR 검색 표현식과 함께 부울 로직을 사용하여 구성하는 등
 
 1. 요청을 만들거나 편집하고 [!UICONTROL 요청 마법사: 2단계]로 진행합니다.
 
-   ![단계 정보](assets/dimension_filter.png)
+   ![단계 정보](/help/admin/admin/assets/filter.png)
 
 1. [!UICONTROL 요청 마법사: 2단계]에서, 그리드에서 차원 옆에 있는 링크를 클릭한 다음 **[!UICONTROL 필터]**&#x200B;를 선택합니다.
 1.  [!UICONTROL 페이지 선택] 양식에서 **[!UICONTROL 가장 자주 사용]**&#x200B;을 활성화한 후 다음 선택 사항을 구성합니다.

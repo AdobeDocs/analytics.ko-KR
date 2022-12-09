@@ -3,7 +3,7 @@ description: 분류는 값을 그룹으로 분류하고 그룹 수준으로 보�
 title: 전환 분류
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 전환 분류]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 분류 유형 선택]** 드롭다운 목록에서 분류를 추가하려는 변수를 선택합니다.
 
-   ![단계 정보](../assets/sub_class_create.png)
+   ![단계 정보](/help/admin/admin/assets/sub_class_create.png)
 
 1. **[!UICONTROL 분류 편집]** 아이콘으로 마우스를 가져간 다음 **[!UICONTROL 분류 추가]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 유형 선택]** 필드에서 변수에 추가하려는 분류 유형을 선택합니다.

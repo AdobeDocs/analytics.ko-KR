@@ -4,7 +4,7 @@ title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 92%
@@ -33,13 +33,13 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 보고 활동을 관리하려면 Adobe Admin Console의 Analytics 제품 관리자 권한이 필요합니다.
 
-![권한](assets/rep-mgr-permission.png)
+![권한](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## 보고서 대기열 보기
 
 [!UICONTROL 보고 활동] 관리자 개요 페이지를 열면 활성화된 기본 보고서 세트 목록이 표시됩니다.
 
-![보고서 대기열](assets/reporting-activity1.png)
+![보고서 대기열](/help/admin/admin/assets/reporting-activity1.png)
 
 | UI 요소 | 설명 |
 | --- | --- |
@@ -62,7 +62,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 세부 정보를 보려는 보고서 세트의 제목 링크를 클릭합니다.
 
-![보고서 세트](assets/indiv-report-ste.png)
+![보고서 세트](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### 선 그래프
 
@@ -72,17 +72,17 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 * y축은 쿼리의 평균 대기 시간을 초 단위로 표시합니다.
 * 선 차트 위로 마우스를 가져가면 특정 시점 및 해당 시점의 평균 대기 시간을 볼 수 있습니다.
 
-   ![세부 정보](assets/detail.png)
+   ![세부 정보](/help/admin/admin/assets/detail.png)
 
 ### 필터링
 
 애플리케이션(아래 표의 목록 참조), 사용자 및 프로젝트별로 표를 필터링할 수 있습니다.
 
-![필터링](assets/filter.png)
+![필터링](/help/admin/admin/assets/filter.png)
 
 ### 요약 번호
 
-![필터링](assets/summary_numbers.png)
+![필터링](/help/admin/admin/assets/summary_numbers.png)
 
 요약 번호에는 다음 정보가 표시됩니다.
 
@@ -127,11 +127,11 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 1. 표시되는 **[!UICONTROL x 쿼리 취소]** 창에서 필요한 경우 취소 메시지를 수정할 수 있습니다.
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 예를 들어 Workspace의 애플리케이션 사용자는 프로젝트에 다음 알림이 표시되는 것을 볼 수 있습니다.
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## FAQ
 

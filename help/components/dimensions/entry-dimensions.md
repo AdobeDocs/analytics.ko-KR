@@ -4,8 +4,8 @@ description: 시작 차원 및 그 사용을 나열합니다.
 keywords: 시작 페이지, 시작 사이트 섹션, 시작 서버, 시작 고객 인사이트
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 시작이 차원으로 작동하는 방식을 설명합니다. 시작이 지표로 작동하는 방식에 대한 자세한 내용은 [시작](../metrics/entries.md) 지표를 참조하십시오.*
 
-시작 차원은 방문에 기반합니다. 첫 번째 차원 항목을 기록하고 해당 방문의 전체 기간 동안 유지합니다. 시작 차원은 보고서 세트 설정의 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md) 아래에서 경로 지정이 활성화된 모든 변수에 사용할 수 있습니다.
+시작 차원은 방문에 기반합니다. 첫 번째 차원 항목을 기록하고 해당 방문의 전체 기간 동안 유지합니다. 시작 차원은 보고서 세트 설정의 [트래픽 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 아래에서 경로 지정이 활성화된 모든 변수에 사용할 수 있습니다.
 
 ## 데이터로 시작 차원 채우기
 

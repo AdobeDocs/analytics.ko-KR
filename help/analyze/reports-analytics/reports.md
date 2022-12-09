@@ -4,7 +4,7 @@ description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -115,7 +115,7 @@ Reports &amp; Analytics의 각 보고서는 전용 차원 및 기본 지표를 �
 
 >[!NOTE]
 >
->이 폴더에는 다른 보고서가 표시될 수 있습니다. 보고서 세트 설정에서 [경로 지정을 활성화](../../admin/admin/c-traffic-variables/traffic-var.md)한 prop과 같은 다른 차원입니다.
+>이 폴더에는 다른 보고서가 표시될 수 있습니다. 보고서 세트 설정에서 [경로 지정을 활성화](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)한 prop과 같은 다른 차원입니다.
 
 ## 트래픽 소스
 

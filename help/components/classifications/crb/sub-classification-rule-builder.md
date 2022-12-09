@@ -3,8 +3,8 @@ description: 분류 규칙 빌더를 하위 분류와 결합할 수 없습니다
 title: 하위 분류 및 규칙 빌더
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    예:
 
-   ![단계 정보](assets/sub_class_create.png)
+   ![단계 정보](/help/admin/admin/assets/sub_class_create.png)
 
 1. [분류 규칙 빌더](/help/components/classifications/crb/classification-rule-builder.md)에서 원래 추적 코드로부터 하위 분류 키를 분류합니다.
 
@@ -67,8 +67,8 @@ ht-degree: 100%
 
    | 키 | Channel | 브로드 캠페인 코드 | 브로드 캠페인 코드&amp;Hat;캠페인 유형 | 브로드 캠페인 코드&amp;Hat;캠페인 책임자 | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | 브랜드 | Suzanne |  |
-   | * |  | 222 | 브랜드 | Frank |  |
+   | &#42; |  | 111 | 브랜드 | Suzanne |  |
+   | &#42; |  | 222 | 브랜드 | Frank |  |
 
 1. 조회 테이블을 유지 관리하려면 작은 파일(위에 표시)을 업로드합니다.
 

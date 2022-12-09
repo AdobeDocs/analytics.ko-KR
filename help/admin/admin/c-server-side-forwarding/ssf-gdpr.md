@@ -3,8 +3,8 @@ description: EU 쿠키 규정 준수에 의해 촉발된 서버측 전달 개선
 title: GDPR/ePrivacy 준수 및 서버측 전달
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Analytics를 사용하여 동의한 트래픽 수와 그 결과 서버측�
 이러한 유형의 보고를 구성하려면 처리 규칙을 통해 사용자 정의 트래픽 변수(prop)에 새 컨텍스트 변수를 매핑합니다. 이렇게 하려면 다음을 수행하십시오.
 
 1. 위에 표시된 대로 &quot;cm.ssf&quot; 변수를 구현합니다.
-1. [prop를 활성화합니다.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [prop를 활성화합니다.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. 처리 규칙을 사용하여 컨텍스트 변수를 prop에 매핑합니다.
 
    1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;로 이동한 후 보고서 세트를 선택합니다.

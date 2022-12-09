@@ -4,7 +4,7 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 95%
@@ -64,7 +64,7 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 패널 필터링을 시작하려면 왼쪽 레일에서 패널 드롭 영역으로 세그먼트를 끌어서 놓습니다.
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### 애드혹 세그먼트 필터
 
@@ -72,7 +72,7 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 임시 세그먼트는 프로젝트의 로컬이며, 공개하지 않으면 왼쪽 레일에 나타나지 않습니다.
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### 드롭다운 필터 {#dropdown-filter}
 

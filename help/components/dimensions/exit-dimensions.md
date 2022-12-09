@@ -4,8 +4,8 @@ description: 종료 차원 및 그 사용을 나열합니다.
 keywords: 종료 페이지, 종료 사이트 섹션, 종료 서버, 종료 고객 인사이트
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *이 도움말 페이지에서는 종료가 차원으로 작동하는 방식을 설명합니다. 종료가 지표로 작동하는 방식에 대한 자세한 내용은 [종료](../metrics/exits.md) 지표를 참조하십시오.*
 
-종료 차원은 마지막 차원 항목을 기록하고 이 값을 해당 방문의 모든 히트에 소급하여 적용합니다. 종료 차원은 보고서 세트 설정의 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md) 아래에서 경로 지정이 활성화된 모든 변수에 사용할 수 있습니다.
+종료 차원은 마지막 차원 항목을 기록하고 이 값을 해당 방문의 모든 히트에 소급하여 적용합니다. 종료 차원은 보고서 세트 설정의 [트래픽 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 아래에서 경로 지정이 활성화된 모든 변수에 사용할 수 있습니다.
 
 ## 데이터로 종료 차원 채우기
 

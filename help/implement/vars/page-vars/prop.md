@@ -3,10 +3,10 @@ title: prop
 description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -30,7 +30,7 @@ Prop은 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/anal
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop을 설정할 수 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 ### 목록 Prop 구성
 
-에서 목록 prop을 활성화합니다 [트래픽 변수](/help/admin/admin/c-traffic-variables/traffic-var.md) 보고서 세트 설정에서 을 선택합니다. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
+에서 목록 prop을 활성화합니다 [트래픽 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보고서 세트 설정에서 을 선택합니다. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
 
 >[!TIP]
 >

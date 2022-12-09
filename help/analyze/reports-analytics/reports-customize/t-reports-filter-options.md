@@ -5,8 +5,8 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 단순 필터 {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
-![](assets/filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 단순 필터는 대부분의 보고서에 표시되며 특정 라인 항목을 신속히 찾는 데 사용됩니다. 단순 필터에서는 특수 문자를 사용하지 않으므로 `-, ", ', +` 및 기타 특수 문자는 보고서에서 리터럴 값에 일치합니다. 공백을 사용하여 여러 용어가 들어 있는 라인 항목을 찾을 수 있습니다.
 

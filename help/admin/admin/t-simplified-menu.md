@@ -4,10 +4,9 @@ title: 간소화된 보고서 메뉴
 feature: Admin Tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 exl-id: fa383f68-9858-4d85-972a-a375b24da61a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -18,7 +17,7 @@ Reports and Analytics에서 간소화된 보고서 메뉴를 구현하는 단계
 
 간소화된 Adobe Reports &amp; Analytics 메뉴에서는 안에 구조가 변경된 폴더와 관련하여 간소화된 대체 메뉴를 적용하도록 선택할 수 있습니다. 간소화된 메뉴에는 기본적으로 다음 옵션이 표시됩니다.
 
-![](assets/simplified-menu.png)
+![](/help/admin/admin/assets/simplified-menu.png)
 
 >[!NOTE]
 >
@@ -29,6 +28,6 @@ Reports and Analytics에서 간소화된 보고서 메뉴를 구현하는 단계
 1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 메뉴 사용자 지정]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 간소화 복원]**&#x200B;을 클릭하여 간소화된 메뉴 구조를 구현합니다.
 
-   ![](assets/restore-simplified.png)
+   ![](/help/admin/admin/assets/restore-simplified.png)
 
 1. 사용자 지정하지 않은 기본 메뉴로 돌아가려면 **[!UICONTROL 기본값 복원]**&#x200B;을 클릭합니다. 
