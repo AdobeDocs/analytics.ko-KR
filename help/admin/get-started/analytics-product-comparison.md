@@ -3,7 +3,7 @@ description: Analysis Workspace, Reports & Analytics, Report Builder, Data Wareh
 title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ ht-degree: 94%
 | **데이터 세부기간** | 집계됨 | 집계됨 | 집계됨 | 집계됨 | 히트 | 히트 | 집계됨 |
 | **Experience Cloud ID (ECID) 사용 가능** | 아니요 | 아니요 | 아니요 | 예 | 예 | 예 | 아니요 |
 | **타임스탬프 사용 가능** | 아니요 | 아니요 | 아니요 | 아니요 | 예 | 예 | 아니요 |
-| **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 [실시간 보고서](/help/components/c-real-time-reporting/realtime.md) 사용 | 완전히 처리됨, 별도의 [실시간 보고서](/help/components/c-real-time-reporting/realtime.md) 사용 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
-| **관리 보트 필터 데이터 포함** <br> [자세히 알아보기](/help/admin/admin/bot-removal/bot-removal.md) | 아니요 | 예 - 별도의 보트 보고서 | 예 - 별도의 보트 보고서 | 아니요 | 아니요 | 아니요 | 아니요 |
+| **처리 수준** | 완전히 처리됨 | 완전히 처리됨, 별도의 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) 사용 | 완전히 처리됨, 별도의 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) 사용 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 | 완전히 처리됨 |
+| **관리 보트 필터 데이터 포함** <br> [자세히 알아보기](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | 아니요 | 예 - 별도의 보트 보고서 | 예 - 별도의 보트 보고서 | 아니요 | 아니요 | 아니요 | 아니요 |
 | **낮은 트래픽 (고유 수가 초과되었습니다) 표시** <br> [자세히 알아보기](/help/technotes/low-traffic.md) | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
 | **표시 행 제한 (페이지 매김 전)** | 400 | 200 | 50000 | 제한 없음 | 제한 없음 | 제한 없음 | 50000 |
 | **여러 보고서 세트** | [예](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 예. 제한 사항 있음 | 예 | 아니요 | 예 | 아니요 | 예 |

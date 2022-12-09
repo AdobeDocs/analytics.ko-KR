@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 처리 규칙 작동 방식
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 저장 후 즉시 보고서 세트에 적용됩니다. </p> </td> 
-   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="/help/admin/admin/realtime/t-realtime-admin.md"> 실시간 보고서</a>를 구성하는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p>처리 규칙의 변경 사항은 저장 후 수분 내에 보고서 세트에 표시되어야 합니다. 처리 규칙을 테스트할 때에는 처리 규칙의 결과를 빨리 볼 수 있도록 테스트 보고서 세트에서 <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> 실시간 보고서</a>를 구성하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>처리 규칙은 컨텍스트 데이터 변수에 액세스할 수 있는 유일한 방법입니다. </p> </td> 

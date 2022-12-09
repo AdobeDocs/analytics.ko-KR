@@ -4,7 +4,7 @@ keywords: 데이터 누락, 느림
 title: 데이터 가용성 및 지연
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Adobe Experience Cloud의 일부 기능은 표준 처리 시간 외에 기본적
    * 제품 변수에서 값 20개 초과
    * 이벤트 직렬화
 
-* IAB 보트 필터링 활성화: [보트 필터링](/help/admin/admin/bot-removal/bot-removal.md)은 보고서 세트에 보트나 크롤러가 많이 등장하는 경우 지연을 줄이는 데 효과적입니다. IAB 보트 목록은 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab)에서 업데이트 및 유지 관리되므로 이 목록을 사용하는 것이 좋습니다. 사용자가 보트 규칙을 사용자 지정하여 IAB의 규칙을 보완할 수도 있습니다.
+* IAB 보트 필터링 활성화: [보트 필터링](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)은 보고서 세트에 보트나 크롤러가 많이 등장하는 경우 지연을 줄이는 데 효과적입니다. IAB 보트 목록은 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab)에서 업데이트 및 유지 관리되므로 이 목록을 사용하는 것이 좋습니다. 사용자가 보트 규칙을 사용자 지정하여 IAB의 규칙을 보완할 수도 있습니다.
 
 ## 지연 대응
 

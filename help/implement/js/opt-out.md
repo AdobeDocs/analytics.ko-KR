@@ -3,10 +3,10 @@ title: 옵트아웃 링크
 description: 사이트 방문자를 위한 구현 옵트아웃 링크를 만드는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 97%
 >
 >특히 GDPR 관련 조직의 경우 옵트인 서비스를 사용하는 것이 좋습니다. Experience Cloud ID 서비스 사용 안내서의 [옵트인 서비스 개요](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko-KR)를 참조하십시오.
 
-웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe에서는 웹 사이트 방문자가 정보 수집을 옵트아웃할 수 있는 기능을 제공합니다. 모든 구현 유형이 수용됩니다. 조직은 자체 개인정보 보호정책과 서명한 약관 준수 유지에 대한 책임을 져야 합니다.
+웹 사이트의 일부 방문자는 데이터 세트에 자신의 검색 정보가 포함되지 않기를 바랍니다. Adobe에서는 웹 사이트 방문자가 정보 수집을 옵트아웃할 수 있는 기능을 제공합니다. 모든 구현 유형이 수용됩니다. 조직은 자체 개인정보 처리방침과 서명한 약관 준수 유지에 대한 책임을 져야 합니다.
 
 방문자가 옵트아웃 URL에 도달하면 옵트아웃 쿠키를 설치하라는 메시지가 표시됩니다. 사용자가 추적되지 않도록 선택하고 옵트아웃 쿠키가 설정된 경우 JavaScript 파일이 계속해서 Adobe 서버에 데이터를 보냅니다. 하지만 이 데이터는 처리되거나 보고서에 포함되지 않습니다.
 
 >[!TIP]
 >
->또한 Adobe에서는 보고서 세트별로 개인정보 설정을 제공합니다. 관리자 안내서의 [개인정보 설정](../../admin/admin/privacy-settings.md)을 참조하십시오.
+>또한 Adobe에서는 보고서 세트별로 개인정보 설정을 제공합니다. 관리자 안내서의 [개인정보 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)을 참조하십시오.
 
 ## 옵트아웃 URL
 
 조직에 대한 옵트아웃 페이지는 구현의 [`trackingServer`](../vars/config-vars/trackingserver.md) 변수 값에 따라 다릅니다.
 
 * Analytics 확장에서:
-   1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+   1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
    1. 원하는 태그 속성을 클릭합니다.
    1. [!UICONTROL 확장] 탭을 클릭한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
    1. [!UICONTROL 일반] 아코디언을 클릭하고 [!UICONTROL 추적 서버] 값을 확인합니다.

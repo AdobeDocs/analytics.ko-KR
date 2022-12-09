@@ -4,8 +4,8 @@ title: Activity Map이란 무엇인가?
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -40,9 +40,9 @@ Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식�
 * [링크 보고서](activitymap-links-report.md)
 * [페이지 상세정보](activitymap-page-flow.md)
 * [전체 지표 세트](activitymap-complete-metrics.md)
-* [실시간(라이브) 페이지 분석](activitymap-realtime.md)
+* [실시간(라이브) 페이지 분석](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [고객 세그멘테이션](activitymap-multiple-segments.md)
-* [사용자 지정 가능 오버레이](activitymap-gainerslosers.md)
+* [사용자 정의 가능 오버레이](activitymap-gainerslosers.md)
 * [오버레이 세부정보](activitymap-overlay-details.md)
 * [CSV 파일로 내보내기](activitymap-csv.md)
 * [지원되는 시스템 및 요구 사항](activitymap-sysreqs.md)

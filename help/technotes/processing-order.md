@@ -2,7 +2,7 @@
 title: Adobe Analytics의 데이터 처리 순서
 description: Adobe Analytics에서 데이터를 처리하는 구성 요소 순서 및 서비스에 대해 알아봅니다.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Adobe Experience Edge로 데이터를 전송하는 경우 Adobe Analytics(및 �
 
 1. **조회 테이블**: Adobe 내부 조회 테이블에 의존하는 차원(예: [브라우저](/help/components/dimensions/browser.md) 차원)은 해당 값과 일치합니다.
 2. [**동적 변수**](/help/implement/vars/page-vars/dynamic-variables.md): 이미지 요청의 어느 부분에서든 동적 변수가 표시되면 값이 복사되어 향후 독립적인 값으로 처리됩니다.
-3. [**보트 규칙**](/help/admin/admin/bot-removal/bot-rules.md): 표준 또는 사용자 정의 보트 필터링을 적용하여 해당 데이터를 보고에서 제외합니다.
+3. [**보트 규칙**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): 표준 또는 사용자 정의 보트 필터링을 적용하여 해당 데이터를 보고에서 제외합니다.
 4. [**처리 규칙**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): 조직에서 데이터에 적용하는 사용자 정의 규칙. [컨텍스트 데이터 변수](/help/implement/vars/page-vars/contextdata.md)를 해당 변수에 매핑하는 기능을 포함합니다.
 5. **VISTA 규칙**: Adobe 컨설턴트가 데이터에 적용하는 유연한 사용자 정의 규칙. VISTA 규칙은 조직의 필요에 따라 처리 규칙 이전 또는 이후에 실행될 수 있습니다. 대부분의 VISTA 규칙은 일반적으로 처리 규칙 이후에 실행되지만 각 조직은 다르게 설정됩니다. 기존 VISTA 규칙에 대한 자세한 내용은 Adobe 계정 관리자에게 문의하십시오.
 6. [**마케팅 채널 처리 규칙**](/help/components/c-marketing-channels/c-rules.md): [처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)을 사용하여 마케팅 채널 처리 규칙에 사용할 데이터를 준비할 수 있습니다.

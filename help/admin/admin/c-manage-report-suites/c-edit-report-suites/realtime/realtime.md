@@ -1,23 +1,26 @@
 ---
 description: 웹 페이지 트래픽을 표시하며 실시간으로 페이지 조회수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
-title: 실시간 보고 개요
-topic-fix: Reports
+title: 실시간 보고서
 feature: Real-time
-exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
-# 실시간 보고 개요
+# 실시간 보고서
 
-실시간 보고는 웹 페이지 트래픽을 표시하며 실시간으로 페이지 보기 수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
+웹 페이지 트래픽을 표시하며 실시간으로 페이지 조회수의 등급을 지정합니다. 비즈니스 상의 결정에 기준으로 사용할 유용한 데이터를 제공합니다.
 
 >[!NOTE]
 >
 >실시간 보고서는 추가적인 구현이나 태깅을 필요로 하지 않으며, 기존 Adobe Analytics 구현을 활용합니다. 실시간 보고서를 구성하려면 [실시간 보고서 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+
+다음은 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL 사이트 지표]** > **[!UICONTROL 실시간]**
 
@@ -43,13 +46,13 @@ ht-degree: 100%
 
 * 예를 들면 지난 주의 값을 작년 값 (및 오늘 합계)과 비교합니다.
 
-지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](/help/components/c-real-time-reporting/t-realtime-admin.md)을 참조하십시오.
+지속성 개념이 없으므로 eVar (전환 지표)는 지원되지 않는다는 것을 잊지 마십시오. 전환 지표를 선택할 수 있을 때 전환 지표는 측정기준과 동일한 페이지에서 설정되어 있을 경우에만 작동합니다. 자세한 내용은 [실시간 보고서 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)을 참조하십시오.
 
 실시간 보고서를 설정하고 보는 것은 관리자와 &quot;모든 보고서 액세스&quot; 및 &quot;고급 보고&quot; 권한 그룹의 사용자에게로 제한됩니다. 하지만, 실시간 보고서는 권한을 준수합니다. 예를 들어 사용자가 매출액을 볼 수 있는 권한을 가지고 있지 않은 경우 매출 데이터가 포함된 실시간 보고서를 볼 수 없습니다.
 
 ## A4T 구성 결과로 데이터 지연 {#section_806CE36354FC4C539A0DED9266A5C704}
 
-Adobe [!DNL Target]에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~-10분 동안 지연이 추가로 발생할 수 있습니다. 추가적인 지연 시간으로 인해 Analytics 및 [!DNL Target]의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
+Adobe Target에서 A4T 통합이 활성화되면 Adobe Analytics에서 5~10분 동안 지연이 추가로 발생할 수 있습니다. 추가적인 지연 시간으로 인해 Analytics 및 Target의 데이터가 동일한 히트 수로 저장되므로 테스트를 페이지 및 사이트 섹션 단위로 분류할 수 있습니다.
 
 추가적인 지연 시간은 라이브 스트림 및 실시간 보고를 비롯하여 모든 Adobe Analytics 서비스 및 도구에서 반영되며 다음과 같은 시나리오에서 적용됩니다.
 

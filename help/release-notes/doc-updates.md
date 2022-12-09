@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 100%
@@ -190,7 +190,7 @@ ht-degree: 100%
 | 2019년 9월 12일 | [계산된 지표 합계](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) 문서를 업데이트합니다. |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱 (PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
-| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | 작업 영역에서 Adobe는 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 활용 사례를 포용합니다. |
+| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | 작업 영역에서 Adobe는 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 활용 사례를 포용합니다. |
 | 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
 | 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
 | 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |

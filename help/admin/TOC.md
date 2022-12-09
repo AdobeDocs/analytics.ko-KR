@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -39,14 +39,17 @@ ht-degree: 95%
       + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
+   + 사용자 및 제품 관리 (레거시) {#user-product-management}
+      + [사용자 및 제품 관리](admin-console/user-management2/user-management.md)
+      + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
+         + [Admin Console로 Analytics 사용자 마이그레이션](admin-console/user-management2/user-migration/c-migration-tool.md)
+         + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](admin-console/user-management2/user-migration/t-migrate-users.md)
+         + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](admin-console/user-management2/user-migration/migrate-enterprise.md)
+         + [기존 로그인 비활성화](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+         + [마이그레이션의 영향을 받는 API](admin-console/user-management2/user-migration/developer.md)
 + Analytics 관리 {#admin-tools}
    + [관리 도구](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
-   + 보트 제거 {#bot-removal}
-      + [보트 제거](admin/bot-removal/bot-removal.md)
-      + [보트 규칙 개요](admin/bot-removal/bot-rules.md)
-      + [일반 보트 서명](admin/bot-removal/bot-signatures.md)
-      + [보트 제외 방법](admin/bot-removal/bot-exclusion-methods.md)
    + [코드 관리자](admin/code-manager-admin.md)
    + [통화 코드](admin/currency.md)
    + [데이터 소스](admin/data-sources.md)
@@ -54,21 +57,14 @@ ht-degree: 95%
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
    + [지표 가시성](admin/metric-visibility.md)
-   + [앱 관리](admin/mobile-management.md)
    + [환경 설정 관리자](admin/preferences-manager.md)
-   + [개인정보 보호 설정](admin/privacy-settings.md)
    + [개인정보 보호 보고](admin/privacy-reporting.md)
-   + 실시간 보고서 {#real-time-reports}
-      + [실시간 보고서 개요](admin/realtime/realtime.md)
-      + [실시간 보고서 구성](admin/realtime/t-realtime-admin.md)
-      + [지원되는 실시간 지표 및 차원](admin/realtime/realtime-metrics.md)
    + [활동 관리자 보고](admin/reporting-activity.md)
    + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
    + 보고서 세트 관리자 {#manage-report-suites}
       + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
       + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
       + [보고서 세트 검색 저장](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [개별 보고서 세트 설정](admin/c-manage-report-suites/individual-rs-settings.md)
       + [보고서 세트 설정 다운로드](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 새 보고서 세트 {#c-new-report-suite}
          + [보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -117,6 +113,20 @@ ht-degree: 95%
                   + [컨텍스트 데이터 변수를 사용하여 이벤트 설정](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [히트에서 이벤트 제거](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [처리 규칙 팁과 트릭](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + 보트 제거 {#bot-removal}
+               + [보트 제거](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [보트 규칙 개요](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [일반 보트 서명](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
+               + [보트 제외 방법](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
+            + [개인정보 보호 설정](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [타임스탬프 선택 사항](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + 서버측 전달 {#server-side-forwarding}
+               + [서버측 전달 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [서버측 전달 요구 사항](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [서버측 전달 데이터 및 코드 참조](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [서버측 전달 구현 확인 방법](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [서버측 전달 FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 트래픽 변수 {#traffic-variables}
             + [트래픽 변수(prop) 개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [트래픽 변수 보고서 활성화](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -144,24 +154,20 @@ ht-degree: 95%
             + [지난 서버 호출 예측 및 트래픽 스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [영구 트래픽 증가 지정](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [트래픽 증가에 대한 필수 리드 타임](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-   + 서버측 전달 {#server-side-forwarding}
-      + [서버측 전달 개요](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [서버측 전달 요구 사항](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [서버측 전달 데이터 및 코드 참조](admin/c-server-side-forwarding/ssf-reference.md)
-      + [서버측 전달 구현 확인 방법](admin/c-server-side-forwarding/ssf-verify.md)
-      + [서버측 전달 FAQ](admin/c-server-side-forwarding/ssf-faq.md)
+         + [개별 보고서 세트 설정](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + 실시간 보고서 {#real-time-reports}
+            + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [실시간 보고서 구성](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [지원되는 실시간 지표 및 차원](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + [간소화된 보고서 메뉴](admin/t-simplified-menu.md)
-   + [타임스탬프 선택 사항](admin/timestamp-optional.md)
    + [비디오 관리](admin/video-management.md)
-+ 사용자 및 제품 관리 (레거시) {#user-product-management}
-   + [사용자 및 제품 관리](user-management2/user-management.md)
-   + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
-      + [Admin Console로 Analytics 사용자 마이그레이션](user-management2/user-migration/c-migration-tool.md)
-      + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/t-migrate-users.md)
-      + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](user-management2/user-migration/migrate-enterprise.md)
-      + [기존 로그인 비활성화](user-management2/user-migration/t-disable-legacy-login.md)
-      + [마이그레이션의 영향을 받는 API](user-management2/user-migration/developer.md)
+   + 서버 호출 사용량 {#server-call-usage}
+      + [서버 호출 사용량 개요](admin/c-server-call-usage/overage-overview.md)
+      + [현재 서버 호출 사용량 보기](admin/c-server-call-usage/server-call-usage-dashboard.md)
+      + [보고서 세트 사용량 보기](admin/c-server-call-usage/report-suite-usage.md)
+      + [서버 호출 사용량 경고](admin/c-server-call-usage/scu-alerts.md)
+      + [서버 호출 사용량 FAQ](admin/c-server-call-usage/overage-faq.md)
 + 데이터 거버넌스 {#data-governance}
    + [Adobe Analytics 및 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
    + [데이터 개인정보 보호 및 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [데이터 개인정보 보호 용어](c-data-governance/gdpr-terminology.md)
-+ 서버 호출 사용량 {#server-call-usage}
-   + [서버 호출 사용량 개요](c-server-call-usage/overage-overview.md)
-   + [현재 서버 호출 사용량 보기](c-server-call-usage/server-call-usage-dashboard.md)
-   + [보고서 세트 사용량 보기](c-server-call-usage/report-suite-usage.md)
-   + [서버 호출 사용량 경고](c-server-call-usage/scu-alerts.md)
-   + [서버 호출 사용량 FAQ](c-server-call-usage/overage-faq.md)
 + [관리 API](c-admin-api/c-admin-api.md)

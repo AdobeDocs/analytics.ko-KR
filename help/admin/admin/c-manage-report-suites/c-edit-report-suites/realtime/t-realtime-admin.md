@@ -2,7 +2,7 @@
 description: 실시간 보고서를 설정하는 관리 단계입니다.
 title: 실시간 보고서 구성
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 실시간 보고서를 설정하는 관리 단계입니다.
 
-[!UICONTROL Reports &amp; Analytics] 내에서 실시간 보고서를 설정하는 절차에는 보고서 세트를 선택하는 것과 이 보고서 세트에 대해 최대 3개의 보고서를 구성하는 일로 이루어집니다.
+Reports &amp; Analytics 내에서 실시간 보고서를 설정하는 절차에는 보고서 세트를 선택하는 것과 이 보고서 세트에 대해 최대 3개의 보고서를 구성하는 일로 이루어집니다.
 
 1. 실시간 보고서를 활성화할 보고서 세트를 선택합니다.
 
@@ -33,13 +33,13 @@ ht-degree: 100%
 1. **[!UICONTROL 실시간 활성화]** 설정을 켭니다.
 1. 최대 3개의 보고서 (보고서당 지표 한 개와 차원 또는 분류 세 개가 있음)에 대한 실시간 데이터 수집을 설정합니다.
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    지원되는 실시간 지표 및 차원에 대한 자세한 내용은 [지원되는 지표 및 차원](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)을 참조하십시오.
 
    분류를 생성한 경우, 분류가 정의된 차원 아래에 분류가 들여 써진 채로 표시됩니다.
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

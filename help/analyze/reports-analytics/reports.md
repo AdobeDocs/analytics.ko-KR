@@ -4,7 +4,7 @@ description: Reports & Analytics이 각 보고서에 사용하는 차원 및 지
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -56,9 +56,9 @@ Reports &amp; Analytics의 각 보고서는 전용 차원 및 기본 지표를 �
    * 체크아웃: 시간 경과에 따라 지표 [체크아웃](/help/components/metrics/checkouts.md) 트렌드를 표시합니다.
 * 사용자 지정 이벤트: 구현과 관련된 사용자 지정 [이벤트](/help/components/metrics/custom-events.md)에 대한 모든 보고서를 포함합니다.
 * 보트: 보트 관련 보고서를 표시합니다.
-   * 보트: 사이트가 가장 자주 사용되는 보트를 표시합니다. 관리 사용 안내서에서 [보트 규칙](../../admin/admin/bot-removal/bot-rules.md)을 참조하십시오.
+   * 보트: 사이트가 가장 자주 사용되는 보트를 표시합니다. 관리 사용 안내서에서 [보트 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)을 참조하십시오.
    * 보트 페이지: 보트가 가장 많이 히트한 페이지를 표시합니다.
-* 실시간: 데이터 수집 후 몇 초 내에 특정 차원과 지표를 표시합니다. 자세한 내용은 [실시간 보고서](/help/components/c-real-time-reporting/realtime.md)를 참조하십시오.
+* 실시간: 데이터 수집 후 몇 초 내에 특정 차원과 지표를 표시합니다. 자세한 내용은 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)를 참조하십시오.
 
 ## 사이트 컨텐츠
 

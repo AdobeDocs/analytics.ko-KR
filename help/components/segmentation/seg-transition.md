@@ -3,8 +3,8 @@ description: 세분화에 대해 자주 묻는 질문
 title: 세분화에 대해 자주 묻는 질문
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍
 
 보고서 세트 드롭다운이 각 보고서 또는 대시보드의 오른쪽 상단에 있는 날짜 선택기 옆으로 이동되었습니다.
 
-![보고서 세트 선택기](assets/report_suite_selector.png)
+![보고서 세트 선택기](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## 권한 {#section_648DFA3A882146C485A84ED014EEC707}
 

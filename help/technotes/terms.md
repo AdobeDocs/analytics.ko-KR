@@ -2,7 +2,7 @@
 title: Adobe Analytics에 사용되는 용어
 description: 사용되는 일반 용어를 정의한 Adobe Analytics 용어집입니다.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -87,7 +87,7 @@ ht-degree: 100%
    * 히트가 속한 마케팅 채널을 파악하는 규칙 세트인 마케팅 채널 처리 규칙. 관리 사용 안내서에서 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)을 참조하십시오.
 * **속성:** 트래픽 변수를 참조하십시오.
 * **등급 보고서:** 일반적으로 지표를 사용하여 차원을 따르는 보고서 형식입니다. 이 유형의 보고서에서는 사이트에서 가장 많이 본 페이지와 같은 상위 항목을 볼 수 있습니다. 트렌드 보고서도 참조하십시오.
-* **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/admin/realtime/realtime.md)를 참조하십시오.
+* **실시간:** 지연이 거의 없는 상태로 구성된 변수를 수집하는 즉시 표시합니다. 관리 사용 안내서에서 [실시간 보고서](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)를 참조하십시오.
 * **Report Builder:** Adobe Analytics 데이터에서 맞춤화된 요청을 작성할 수 있는 Microsoft Excel 추가 기능입니다.
 * **보고서 세트:** 데이터를 보내는 중요한 컨테이너입니다. Adobe Analytics의 모든 보고서는 보고서 세트를 참조합니다.
 * **Reports &amp; Analytics:** 이전에 SiteCatalyst로 불렸습니다. 보고 및 분석을 위한 브라우저 솔루션. Analytics 패키지의 초급자 도구입니다.
