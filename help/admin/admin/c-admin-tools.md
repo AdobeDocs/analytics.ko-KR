@@ -3,7 +3,7 @@ description: Adobe Analytics의 관리 도구 색인입니다.
 title: 관리 도구
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 + [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 + [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [로그](logs.md)
-+ [마케팅 채널](marketing-channels-admin.md)
++ [마케팅 채널](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
 + [메뉴 사용자 정의](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [지표 가시성](metric-visibility.md)
 + [모바일 관리](mobile-management.md)

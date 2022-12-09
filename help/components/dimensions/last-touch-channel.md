@@ -3,8 +3,8 @@ title: 마지막 터치 채널
 description: 방문자의 참여 만료 내 가장 최근 마케팅 채널입니다.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 [마케팅 채널 관리자](/help/admin/admin/marketing-channels-admin.md)에서 정의한 채널 이름을 직접 참조합니다.
+이 차원은 [마케팅 채널 관리자](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)에서 정의한 채널 이름을 직접 참조합니다.
 
 Adobe 데이터 수집 서버로 전송된 모든 히트는 보고서 세트의 마케팅 채널 처리 규칙을 통해 실행됩니다. 해당 마케팅 채널이 히트와 연결되는 일치를 찾을 때까지 각 규칙을 숫자 순서로 반복합니다. 마지막 터치 채널은 방문자 참여 기간 (기본적으로 30일)보다 오랫동안 방문자가 사이트를 방문하지 않을 때까지 방문자와 함께 유지됩니다.
 

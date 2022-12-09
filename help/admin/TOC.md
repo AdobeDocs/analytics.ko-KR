@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -53,7 +53,6 @@ ht-degree: 95%
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
-   + [마케팅 채널](admin/marketing-channels-admin.md)
    + [지표 가시성](admin/metric-visibility.md)
    + [앱 관리](admin/mobile-management.md)
    + [환경 설정 관리자](admin/preferences-manager.md)
@@ -138,6 +137,13 @@ ht-degree: 95%
                + [성공 이벤트 개요](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [성공 이벤트 구성](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [이벤트 유형 변경 정보](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+         + [마케팅 채널](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + 트래픽 관리 {#traffic-management}
+            + [트래픽 관리](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [트래픽 스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [지난 서버 호출 예측 및 트래픽 스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+            + [영구 트래픽 증가 지정](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [트래픽 증가에 대한 필수 리드 타임](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
    + 서버측 전달 {#server-side-forwarding}
       + [서버측 전달 개요](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [보고서 세트 사용량 보기](c-server-call-usage/report-suite-usage.md)
    + [서버 호출 사용량 경고](c-server-call-usage/scu-alerts.md)
    + [서버 호출 사용량 FAQ](c-server-call-usage/overage-faq.md)
-+ 트래픽 관리 {#traffic-management}
-   + [트래픽 관리](c-traffic-management/traffic-management.md)
-   + [트래픽 스파이크 예약](c-traffic-management/t-traffic-schedule-spike.md)
-   + [지난 서버 호출 예측 및 트래픽 스파이크 예약](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-   + [영구 트래픽 증가 지정](c-traffic-management/t-traffic-permanent.md)
-   + [트래픽 증가에 대한 필수 리드 타임](c-traffic-management/traffic-lead-time.md)
 + [관리 API](c-admin-api/c-admin-api.md)

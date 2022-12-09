@@ -4,8 +4,8 @@ keywords: 데이터 누락, 느림
 title: 데이터 가용성 및 지연
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Adobe Experience Cloud의 일부 기능은 표준 처리 시간 외에 기본적
 
 지연을 방지하고 지연이 발생했을 때 복구 시간을 줄이기 위한 전략이 몇 가지 있습니다.
 
-* **예상되는 트래픽 스파이크에 대해 Adobe에 알림:** 사이트의 모든 트래픽 스파이크를 예상할 수는 없지만 트래픽이 크게 증가할 것으로 예상되는 경우가 있을 수 있습니다. 예를 들면 특히 성공적인 휴일 기간 또는 대규모 캠페인 푸시 직후 등이 포함됩니다. 그런 경우 Adobe에서 제공하는 방법을 통해 조직에서 예상되는 트래픽 증가에 대해 알리면 보고서 세트에 추가 처리 리소스를 할당할 수 있습니다. Adobe에 트래픽 증가를 알리는 방법에 대한 자세한 내용은 관리 사용 안내서의 [트래픽 스파이크 예약](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)을 참조하십시오.
+* **예상되는 트래픽 스파이크에 대해 Adobe에 알림:** 사이트의 모든 트래픽 스파이크를 예상할 수는 없지만 트래픽이 크게 증가할 것으로 예상되는 경우가 있을 수 있습니다. 예를 들면 특히 성공적인 휴일 기간 또는 대규모 캠페인 푸시 직후 등이 포함됩니다. 그런 경우 Adobe에서 제공하는 방법을 통해 조직에서 예상되는 트래픽 증가에 대해 알리면 보고서 세트에 추가 처리 리소스를 할당할 수 있습니다. Adobe에 트래픽 증가를 알리는 방법에 대한 자세한 내용은 관리 사용 안내서의 [트래픽 스파이크 예약](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)을 참조하십시오.
 * **새 기능을 활성화할 때 처리 부담 고려:** 일부 기능은 다른 기능에 비해 처리 부담이 큽니다. 보고서 세트에서 활성화된 기능이 많을수록 지연에서 복구하기도 어렵습니다. 보고서 세트에서 기능을 활성화할 때에는 처리할 데이터를 늘리는 다음 기능에 주의하십시오.
 
    * 동일한 페이지에서 20개 이상의 이벤트 구현

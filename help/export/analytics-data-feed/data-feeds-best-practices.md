@@ -4,8 +4,8 @@ keywords: 데이터 피드, 모범 사례, 트래픽 스파이크, 시간별, ft
 title: 모범 사례 및 일반 정보
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 다음은 데이터 피드 처리 및 배달에 대한 몇 가지 모범 사례입니다.
 
-* 미리 예상되는 모든 트래픽 스파이크를 전달했는지 확인합니다. 지연은 데이터 피드의 처리 시간에 직접적으로 영향을 줍니다. 관리자 사용 안내서의 [트래픽 스파이크 예약](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)을 참조하십시오.
+* 미리 예상되는 모든 트래픽 스파이크를 전달했는지 확인합니다. 지연은 데이터 피드의 처리 시간에 직접적으로 영향을 줍니다. 관리자 사용 안내서의 [트래픽 스파이크 예약](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)을 참조하십시오.
 
 * 데이터 피드는 Adobe와의 계약에 명시적으로 명시되어 있지 않는 한 서비스 수준 계약서를 포함하지 않습니다. 피드는 일반적으로 보고 기간이 지난 후 몇 시간 내에 전달되지만 가끔 최대 12시간 이상 걸릴 수 있습니다.
 
