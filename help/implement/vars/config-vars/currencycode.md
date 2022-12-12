@@ -3,10 +3,10 @@ title: currencyCode 변수는 무엇이며 어떻게 사용할 수 있습니까?
 description: 전자 상거래 사이트의 경우 페이지에서 취급하는 통화를 설정합니다.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 통화 코드는 Adobe Analytics 확장의 컨텍스트 데이터 변수를 통해 Adobe Experience Platform Mobile SDK에 전달됩니다.
 
 1. `trackState` 또는 `trackAction` 동안 컨텍스트 데이터 변수에 통화 코드를 설정합니다.
-1. 보고서 세트에 대한 Adobe Analytics Admin Console에서 처리 규칙을 만듭니다. 통화 코드 변수를 덮어쓰는 규칙을 설정합니다.
+1. 보고서 세트에 대한 Adobe Analytics 관리 도구에서 처리 규칙을 만듭니다. 통화 코드 변수를 덮어쓰는 규칙을 설정합니다.
 1. 통화 코드를 `trackState` 또는 `trackAction` 호출에서 `products` 변수에 전달합니다.
 
 사전 설정된 통화 코드나 사용자 정의 통화 코드를 사용할 수 있습니다. 사용자 정의 통화 코드를 사용하는 경우 코드가 유효한지 확인하십시오.

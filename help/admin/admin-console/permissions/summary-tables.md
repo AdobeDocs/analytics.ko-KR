@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics Permissions - 요약 표
-description: Admin Console의 사용 가능한 Adobe Analytics Permissions을 요약하는 표입니다.
+description: Adobe Admin Console에서 사용 가능한 Adobe Analytics 권한을 요약하는 표입니다.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 96%
 
 ---
 
 # Adobe Analytics Permissions - 요약 표
 
-다음의 요약 표를 사용하여 논리 그룹별로 Admin Console의 Adobe Analytics Permissions을 식별하십시오.
+다음 요약 테이블을 사용하여 논리 그룹별로 Adobe Admin Console에서 Adobe Analytics 권한을 식별합니다.
 
 ## 보고서 세트 도구
 

@@ -4,9 +4,9 @@ solution: Analytics
 title: 서버 측 전달 구현 확인 방법
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '256'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!CAUTION]
 >
->응답에 키 값 쌍 `"status":"SUCCESS"` 또는 2 x 2 이미지가 있는 경우 서버 측 전달이 제대로 구성되지 *않은* 것입니다. ID 서비스가 제대로 배포되었는지, App Measurement 모듈을 배포했는지, 해당 보고서 세트가 올바른 조직 ID에 매핑되었는지, Analytics Admin Console에서 서버 측 전달이 활성화되었는지 확인하십시오.
+>응답에 키 값 쌍 `"status":"SUCCESS"` 또는 2 x 2 이미지가 있는 경우 서버 측 전달이 제대로 구성되지 *않은* 것입니다. ID 서비스가 제대로 배포되었는지, App Measurement 모듈을 배포했는지, 해당 보고서 세트가 올바른 조직 ID에 매핑되었는지, Analytics 관리 도구에서 서버 측 전달이 활성화되었는지 확인하십시오.
 
 >[!MORELIKETHIS]
 >
