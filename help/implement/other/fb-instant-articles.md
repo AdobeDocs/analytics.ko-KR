@@ -4,7 +4,7 @@ description: Facebook 인스턴트 아티클 페이지에서 Adobe Analytics를 
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -92,4 +92,4 @@ Facebook 인스턴트 아티클 콘텐츠를 만들 때 분석 HTML 콘텐츠를
 
 ## Facebook 인스턴트 아티클 및 개인 정보
 
-분석 HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인 정보 보호 정책을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 또한 유틸리티 페이지가 Facebook 인스턴트 아티클 데이터를 Experience Cloud의 나머지 데이터와 통합할 수 있도록 Adobe Experience Cloud ID 서비스를 지원합니다.
+분석 HTML 페이지가 웹 서버에 호스팅되는 한, Adobe에서는 모든 Facebook 인스턴트 아티클에서 기존의 개인정보 처리방침을 지원합니다. 사용자가 기본 사이트의 추적을 옵트 아웃하는 경우 모든 Facebook 인스턴트 아티클의 추적 또한 옵트 아웃됩니다. 또한 유틸리티 페이지가 Facebook 인스턴트 아티클 데이터를 Experience Cloud의 나머지 데이터와 통합할 수 있도록 Adobe Experience Cloud ID 서비스를 지원합니다.
