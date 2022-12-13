@@ -3,10 +3,10 @@ description: Adobe Analytics 변수에 대한 데이터 개인정보 레이블�
 title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '3909'
-ht-degree: 100%
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+workflow-type: tm+mt
+source-wordcount: '3672'
+ht-degree: 98%
 
 ---
 
@@ -32,58 +32,23 @@ Adobe Analytics 데이터 개인정보 보호 구현은 ID 데이터, 중요 데
 
 ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 범주화하는 데 사용됩니다.
 
-<table id="table_6B5368D714424E52835D5DFE189BD080"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 레이블 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-   <th colname="col3" class="entry"> 기타 요구 사항 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>I1 </p> </td> 
-   <td colname="col2"> <p><b> 직접 식별 가능</b>: 이름 또는 이메일 주소처럼 개인을 식별할 수 있거나 개인과 직접 연락할 수 있는 데이터입니다. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_4E2AD59D119E40D28B869D0BB63B9FD9"> 
-     <li id="li_AC3E99B57E3A4AE2A12BE219680AFC58">이벤트에 대해 설정할 수 없음 </li> 
-     <li id="li_BB66992863C8402F8D58656293F31E71">머천다이징 eVars에 대해 설정할 수 없음 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>I2 </p> </td> 
-   <td colname="col2"> <p><b>간접 식별 가능</b>: 다른 데이터와의 조합에 사용하여 개인 또는 디바이스를 식별하거나 개인 또는 디바이스와 직접 연결할 수 있는 데이터입니다. </p> <p>개인을 자체적으로 식별할 수는 없지만, 다른 정보 (소유하고 있거나 소유하고 있지 않은 정보)와 결합하여 누군가를 식별할 수 있습니다. 예를 들어 고객 충성도 번호 또는 회사의 CRM 시스템에서 사용되며 각 고객에 대해 고유한 ID가 있습니다. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_A0EF0F3DC5804D4FBE228946D697ABEB"> 
-     <li id="li_A592EA6DA82C4D8C80E03F02ADF4E20E">이벤트에 대해 설정할 수 없음 </li> 
-     <li id="li_46CE7B1E84884CDAB356A6DF89397849">머천다이징 eVars에 대해 설정할 수 없음 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 레이블 | 정의 | 기타 요구 사항 |
+| --- | --- | --- |
+| I1 |  직접 식별 가능: 이름 또는 이메일 주소처럼 개인을 식별할 수 있거나 개인과 직접 연락할 수 있는 데이터입니다. | <ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li></ul> |
+| I2 | 간접 식별 가능: 다른 데이터와의 조합에 사용하여 개인 또는 디바이스를 식별하거나 개인 또는 디바이스와 직접 연결할 수 있는 데이터입니다.  개인을 자체적으로 식별할 수는 없지만, 다른 정보 (소유하고 있거나 소유하고 있지 않은 정보)와 결합하여 누군가를 식별할 수 있습니다. 예를 들어 고객 충성도 번호 또는 회사의 CRM 시스템에서 사용되며 각 고객에 대해 고유한 ID가 있습니다. | <ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 중요 데이터 레이블 (DULE) {#sensitive-data-labels}
 
 중요 데이터 &quot;S&quot; 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가 민감한 데이터 레이블은 다른 유형의 민감한 정보를 식별하기 위해 나중에 도입됩니다.
 
-<table id="table_A778A508620545CCB37830E5CF1C75B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 레이블 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>S1 </p> </td> 
-   <td colname="col2"> <p> 디바이스의 정확한 위치를 판별하는 데 사용할 수 있는 위도 및 경도와 관련된 정확한 지리적 위치 데이터입니다 (100m 이내). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>S2 </p> </td> 
-   <td colname="col2"> <p> 광범위하게 정의된 가상 울타리 영역을 판단하는 데 사용할 수 있는 지리적 위치 데이터입니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 레이블 | 정의 |
+| --- | --- |
+| S1 | 디바이스의 정확한 위치를 판별하는 데 사용할 수 있는 위도 및 경도와 관련된 정확한 지리적 위치 데이터입니다 (100m 이내). |
+| S2 | 광범위하게 정의된 가상 울타리 영역을 판단하는 데 사용할 수 있는 지리적 위치 데이터입니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 데이터 거버넌스 레이블 (데이터 개인정보 보호) {#data-governance-labels}
 
@@ -91,124 +56,38 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 ### 데이터 개인정보 보호 액세스 레이블
 
-<table id="table_663EFF43A454498386F7F3E60875E0F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 레이블 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-   <th colname="col3" class="entry"> 기타 요구 사항 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>없음 </p> </td> 
-   <td colname="col2"> <p>이 변수에 데이터 개인정보 보호 액세스 요청의 일부로 데이터 주체에게 반환되는 데이터에 포함해야 하는 데이터가 포함되지 않은 경우 이 옵션을 선택합니다. </p> </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>이 필드의 값은 <u>모든</u> 데이터 개인정보 보호 액세스 요청에 포함해야 합니다. </p> <p>이 히트가 여러 개인이 공유한 디바이스에서 발생한 경우, 이 레이블을 적용하면 사용자가 데이터 컨트롤러로서 공유된 디바이스에 액세스한 개별 사용자와 이 필드의 데이터를 공유하는 것을 허용한다는 것을 나타냅니다. </p> </td> 
-   <td colname="col3"> <p>모든 데이터 개인정보 보호 요청에 대해 이 레이블이 있는 필드가 반환됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> 이 필드의 값은 ID-PERSON 필드의 값과 일치하는 데이터 개인정보 보호 요청 ID에 의해 결정된 대로 데이터 주체에서 히트가 결정된다고 합리적으로 추정되는 경우 데이터 개인정보 보호 액세스 요청용으로만 포함되어야 합니다. </p> </td> 
-   <td colname="col3"> <p>이 보고서 세트 내의 일부 변수에 ID-PERSON 레이블이 설정되어 있어야 하며 해당 ID를 사용하여 요청을 제출해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 레이블 | 정의 | 기타 요구 사항 |
+| --- | --- | --- |
+| 없음 | 이 변수에 데이터 개인정보 보호 액세스 요청의 일부로 데이터 주체에게 반환되는 데이터에 포함해야 하는 데이터가 포함되지 않은 경우 이 옵션을 선택합니다. |  |
+| ACC-ALL | 이 필드의 값은 모든 데이터 개인정보 보호 액세스 요청에 포함해야 합니다. 이 히트가 여러 개인이 공유한 디바이스에서 발생한 경우, 이 레이블을 적용하면 사용자가 데이터 컨트롤러로서 공유된 디바이스에 액세스한 개별 사용자와 이 필드의 데이터를 공유하는 것을 허용한다는 것을 나타냅니다. | 모든 데이터 개인정보 보호 요청에 대해 이 레이블이 있는 필드가 반환됩니다. |
+| ACC-PERSON | 이 필드의 값은 ID-PERSON 필드의 값과 일치하는 데이터 개인정보 보호 요청 ID에 의해 결정된 대로 데이터 주체에서 히트가 결정된다고 합리적으로 추정되는 경우 데이터 개인정보 보호 액세스 요청용으로만 포함되어야 합니다. | 이 보고서 세트 내의 일부 변수에 ID-PERSON 레이블이 설정되어 있어야 하며 해당 ID를 사용하여 요청을 제출해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 다른 레이블을 수신하는 변수는 거의 없는 반면 액세스 레이블은 많은 변수에 적용될 것입니다. 하지만 수집한 데이터 중 어느 데이터를 데이터 주체와 공유해야 하는지는 법률 팀과 논의하여 결정해야 합니다.
 
 ### 데이터 개인정보 보호 삭제 레이블
 
-<table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 레이블 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-   <th colname="col3" class="entry"> 기타 요구 사항 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>이러한 삭제 레이블은 다른 레이블과 달리 함께 사용할 수 있습니다. 둘 중 하나 또는 둘 다 선택하거나 아무것도 선택하지 않을 수 있습니다. 없음 레이블은 삭제 옵션 중 하나를 선택하지 않음으로써 간단하게 없음이 표시되므로 별도로 필요하지 않습니다. </p> </td> 
-   <td colname="col3"> <p>삭제 레이블은 히트를 데이터 주체 (즉, 데이터 주체를 식별할 수 있는 주체)와 연결할 수 있는 값이 포함된 필드에만 필요합니다. </p> <p> 기타 개인 정보(즐겨찾기, 탐색/구입 내역, 건강 상태 등)는 데이터 주체와의 연결이 끊어지므로 삭제할 필요가 없습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>데이터 개인정보 보호 삭제 요청의 경우, 이 필드의 값은 지정된 ID-DEVICE가 히트에 있는 요청에 대해서만 익명 처리되어야 합니다. </p> <p>삭제되지 않는 다른 히트에서 동일한 값이 발생하는 경우 그러한 다른 인스턴스는 변경되지 않습니다. 이 경우 이 필드에서 고유 카운트를 계산하는 보고서의 카운트가 변경됩니다. 공유된 디바이스에서는 이렇게 하면 데이터 주체 외에 다른 개인에 대한 식별자가 제거될 수 있습니다. </p> <p>이 필드에 ID-DEVICE 레이블이 있고 이 필드의 값이 데이터 개인정보 보호 요청에 대한 ID로 사용된 경우에는 카운트가 변경되지 않습니다. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
-     <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">I1 또는 I2 또는 S1 레이블도 필요함 </li> 
-     <li id="li_6DDFC0571457489CBA9D76F547247F20">이벤트에 대해 설정할 수 없음 </li> 
-     <li id="li_E79C6DFC6C58478EAA1504E3820D512C">머천다이징 eVars에 대해 설정할 수 없음 </li> 
-     <li id="li_B78E273212E447D49D0707E174B66DEC">분류에 대해 설정할 수 없음 </li> 
-     <li id="li_F0F52D0DE7454557A6A97063C1FBC372">ID-DEVICE를 사용하여 요청을 제출하거나 expandIDs를 true로 설정해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>데이터 개인정보 보호 삭제 요청의 경우, 이 필드의 값은 지정된 ID-PERSON이 히트에 있는 요청에 대해서만 익명 처리되어야 합니다. </p> <p>삭제되지 않는 다른 히트에서 동일한 값이 발생하는 경우 그러한 다른 값은 변경되지 않습니다. 이 경우 이 필드에서 고유 카운트를 계산하는 보고서의 카운트가 변경됩니다. 이 필드에 ID-PERSON 레이블이 있고 이 필드의 값이 데이터 개인정보 보호 요청에 대한 ID로 사용된 경우에는 카운트가 변경되지 않습니다. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
-     <li id="li_6C1A64FF68AF428A827D8C6C33E22970">I1 또는 I2 또는 S1 레이블도 필요함 </li> 
-     <li id="li_8053533FFE874EE795C8B6043A4F73B3">이벤트에 대해 설정할 수 없음 </li> 
-     <li id="li_D6700CF4D03E44DDA83C4DDBB5B70CC3">머천다이징 eVars에 대해 설정할 수 없음 </li> 
-     <li id="li_B6C2B15484B344889DBF29B62E2EA8FD">분류에 대해 설정할 수 없음 </li> 
-     <li id="li_3BBD0C27D9644C2B9618457A0BFC15EF">이 보고서 세트 내의 일부 변수에 ID-PERSON 레이블이 설정되어 있어야 하며 해당 ID를 사용하여 요청을 제출해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+이러한 삭제 레이블은 다른 레이블과 달리 함께 사용할 수 있습니다. 둘 중 하나 또는 둘 다 선택하거나 아무것도 선택하지 않을 수 있습니다. 별도의 [!UICONTROL 없음] 레이블은 필요하지 않습니다. [!UICONTROL 없음] 은 삭제 옵션 중 하나를 선택하지 않고 단순히 표시됩니다.
+
+삭제 레이블은 히트를 데이터 주체 (즉, 데이터 주체를 식별할 수 있는 주체)와 연결할 수 있는 값이 포함된 필드에만 필요합니다. 기타 개인 정보(즐겨찾기, 탐색/구입 내역, 건강 상태 등)는 데이터 주체와의 연결이 끊어지므로 삭제할 필요가 없습니다.
+
+| 레이블 | 정의 | 기타 요구 사항 |
+| --- | --- | --- |
+| DEL-DEVICE | 데이터 개인정보 보호 삭제 요청의 경우, 이 필드의 값은 지정된 ID-DEVICE가 히트에 있는 요청에 대해서만 익명 처리되어야 합니다.  삭제되지 않는 다른 히트에서 동일한 값이 발생하는 경우 그러한 다른 인스턴스는 변경되지 않습니다. 이 경우 이 필드에서 고유 카운트를 계산하는 보고서의 카운트가 변경됩니다. 공유된 디바이스에서는 이렇게 하면 데이터 주체 외에 다른 개인에 대한 식별자가 제거될 수 있습니다.  이 필드에 ID-DEVICE 레이블이 있고 이 필드의 값이 데이터 개인정보 보호 요청에 대한 ID로 사용된 경우에는 카운트가 변경되지 않습니다. | <ul><li>I1 또는 I2 또는 S1 레이블도 필요함</li><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li></li><li>분류에 대해 설정할 수 없음</li><li>ID-DEVICE를 사용하여 요청을 제출하거나 expandIDs를 true로 설정해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다.</li></ul> |
+| DEL-PERSON | 데이터 개인정보 보호 삭제 요청의 경우, 이 필드의 값은 지정된 ID-PERSON이 히트에 있는 요청에 대해서만 익명 처리되어야 합니다.  삭제되지 않는 다른 히트에서 동일한 값이 발생하는 경우 그러한 다른 값은 변경되지 않습니다. 이 경우 이 필드에서 고유 카운트를 계산하는 보고서의 카운트가 변경됩니다. 이 필드에 ID-PERSON 레이블이 있고 이 필드의 값이 데이터 개인정보 보호 요청에 대한 ID로 사용된 경우에는 카운트가 변경되지 않습니다. | <ul><li>I1 또는 I2 또는 S1 레이블도 필요함</li><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li></li><li>분류에 대해 설정할 수 없음</li><li>이 보고서 세트 내의 일부 변수에 설정된 ID-PERSON 레이블을 사용하여 요청을 제출하고 해당 ID를 사용하여 요청을 제출해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### 데이터 개인정보 보호 ID 레이블
-
-<table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 레이블 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-   <th colname="col3" class="entry"> 기타 요구 사항 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>없음 </p> </td> 
-   <td colname="col2"> <p>이 변수는 데이터 개인정보 보호 요청에 사용될 ID를 포함하지 않습니다. </p> </td> 
-   <td colname="col3"> <p>이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>이 필드에는 데이터 개인정보 보호 요청에 대해 디바이스를 식별하는 데 사용할 수 있는 ID가 포함되어 있지만 공유 디바이스의 서로 다른 사용자를 구별할 수 없습니다. </p> <p>ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
-     <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">I1 또는 I2 레이블도 필요함 </li> 
-     <li id="li_20BCFF07B2BF468C8E0D477C10B2EF9F">이벤트에 대해 설정할 수 없음 </li> 
-     <li id="li_0BD73EEF4184475D8E97878CF8DBEB90">머천다이징 eVars에 대해 설정할 수 없음 </li> 
-     <li id="li_129851035C4A4BF0922296B4C3BEE39B">분류에 대해 설정할 수 없음 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>이 필드에는 데이터 개인정보 보호 요청에 대해 인증된 사용자 (특정 사용자)를 식별하는 데 사용할 수 있는 ID가 포함됩니다. </p> <p>ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
-     <li id="li_2E781AE8D7A046A7996C7300CA854B86">I1 또는 I2 레이블도 필요함 </li> 
-     <li id="li_EB4C6430C218405DAAE81DEE010DCAA2">이벤트에 대해 설정할 수 없음 </li> 
-     <li id="li_05AA67B45974474F9DA520E8B877BA11">머천다이징 eVars에 대해 설정할 수 없음 </li> 
-     <li id="li_8A6BF4B40ED249289EAD46FE1C755FB0">분류에 대해 설정할 수 없음 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 | 레이블 | 정의 | 기타 요구 사항 |
 | --- | --- | --- |
 | 없음 | 이 변수는 데이터 개인정보 보호 요청에 사용될 ID를 포함하지 않습니다. | 이 필드에 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 또는 UI를 통해 액세스 또는 삭제 요청을 제출할 때 사용할 ID가 포함된 경우에만 이러한 다른 레이블 중 하나를 설정해야 합니다. |
 | ID-DEVICE | 이 필드에는 데이터 개인정보 보호 요청에 대해 디바이스를 식별하는 데 사용할 수 있는 ID가 포함되어 있지만 공유 디바이스의 서로 다른 사용자를 구별할 수 없습니다.  ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | I1 또는 I2 레이블도 필요함.<ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li><li>분류에 대해 설정할 수 없음</li></ul> |
-| ID-PERSON | 이 필드에는 데이터 개인정보 보호 요청에 대해 인증된 사용자 (특정 사용자)를 식별하는 데 사용할 수 있는 ID가 포함됩니다.  ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | I1 또는 I2 레이블도 필요함.<ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li><li>분류에 대해 설정할 수 없음</li></ul> |
+| ID-PERSON | 이 필드에는 데이터 개인정보 보호 요청에 대해 인증된 사용자 (특정 사용자)를 식별하는 데 사용할 수 있는 ID가 포함됩니다.  ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | <ul><li>I1 또는 I2 레이블도 필요함.</li><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVars에 대해 설정할 수 없음</li><li>분류에 대해 설정할 수 없음</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스 제공 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
@@ -254,53 +133,18 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 >
 >네임스페이스 &quot;visitorId&quot;와 &quot;customVisitorId&quot;는 Analytics 이전 추적 쿠키와 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 정의 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
 
-## 변수 유형 및 변수 유형이 지원하는 데이터 개인정보 보호/DULE 레이블 {#section_CE7C3EDE1344466A98BC45E394B40762}
+## 변수 유형 및 변수 유형이 지원하는 데이터 개인정보 보호/DULE 레이블 {#variable-types}
 
 데이터 개인정보 보호/DULE 레이블은 Analytics 변수의 네 가지 광범위한 클래스에 영향을 줍니다. 모든 변수가 모든 레이블을 지원하는 것은 아닙니다. 다음 표는 레이블을 지원하는 변수와 지원하지 않는 변수를 보여 줍니다.
 
-<table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 변수 유형 </th> 
-   <th colname="col2" class="entry"> 지원되는 레이블 </th> 
-   <th colname="col3" class="entry"> 지원되지 않는 레이블 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_0615B545A5AD43F2A6F25698A47AAD3E"> 
-     <li id="li_A4B3E8E241B149C99F2A71B21227AD72">사용자 정의 성공 이벤트 </li> 
-     <li id="li_8AEF688AE9B8426C82D199E4B195330D">머천다이징 eVars </li> 
-     <li id="li_DFFCA65DCC6146AEB6D47476B4D4CC3B">다중 값 변수 (mvVars) </li> 
-     <li id="li_3192D08B12C249D1AAA8AAEEDE2FD7D7">계층 변수 </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>S1/S2 </p> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>분류 </p> </td> 
-   <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_1C2FD4D606664965A88F10818E1C11A9"> 
-     <li id="li_590975F5C7304317B22C80B20718E914">트래픽 변수 (Prop) </li> 
-     <li id="li_6E614B7036994434BFDA71A4424529A0">상거래 변수 (비머천다이징 eVar) </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>모든 레이블 </p> </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>대부분의 다른 변수 </p> <p><i> (예외 사항은 아래 표 참조)</i> </p> </td> 
-   <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 변수 유형 | 지원되는 레이블 | 지원되지 않는 레이블 |
+|--- |--- |--- |
+| <ul><li>사용자 정의 성공 이벤트</li><li>머천다이징 eVars</li><li>다중 값 변수 (mvVars)</li><li>계층 변수</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| 분류 | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (비머천다이징 eVar)</li></ul> | 모든 레이블 | - |
+| 대부분의 다른 변수  (*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON).</li></ul> |
 
-## ACC-ALL/ACC-PERSON 이외의 레이블을 지정할 수 있는 변수/수정됨 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## ACC-ALL/ACC-PERSON 이외의 레이블을 지정/수정할 수 있는 변수 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -378,7 +222,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>• 트래픽 변수 (Prop) </p> <p>• 상거래 변수 (eVar) </p> </td> 
+   <td colname="col1"> <p>* 트래픽 변수 (Prop) </p> <p>* 상거래 변수 (eVar) </p> </td> 
    <td colname="col2"> <p>기존 값은 "데이터 개인정보 보호-356396D55C4F9C7AB3FBB2F2FA223482" 형식의 새 값으로 대체됩니다. 여기서 "개인정보 보호-" 접두사 다음의 32자리 16진수 값은 암호학적으로 강력한 128비트 의사 난수입니다. 기본적으로 임의의 문자열로 대체되기 때문에 이 새 값에서 원래 값을 결정할 방법이 없으며 원래 값을 판별하는 새 값을 도출하는 방법이 없습니다. </p> <p>지정된 변수의 경우, 대체되는 값과 동일한 값이 동일한 데이터 개인정보 보호 요청의 일부로 삭제되는 다른 히트 내에 있으면 해당 값의 모든 인스턴스가 동일한 새 값으로 대체됩니다. </p> <p>값의 일부 인스턴스가 하나의 삭제 요청으로 대체되고 이후 요청이 원래 값의 다른 (새) 인스턴스를 삭제하는 경우 새 대체 값은 원래 대체 값과 달라집니다. </p> </td> 
   </tr> 
   <tr> 
@@ -390,15 +234,15 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
    <td colname="col2"> <p>값은 128비트 정수이며 암호화적으로 강력한 128비트 의사 난수 값으로 대체됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• MCID </p> <p>• 사용자 정의 방문자 ID </p> <p>• IP 주소 </p> <p>• IP 주소 2 </p> </td> 
+   <td colname="col1"> <p>* MCID </p> <p>* 사용자 정의 방문자 ID </p> <p>* IP 주소 </p> <p>* IP 주소 2 </p> </td> 
    <td colname="col2"> <p>값이 지워졌습니다 (변수 유형에 따라 빈 문자열 또는 0으로 설정). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• ClickMap 작업 (기존) </p> <p>• ClickMap 컨텍스트 (기존) </p> <p>• 페이지 </p> <p>• 페이지 URL </p> <p>• 원래 시작 페이지 URL </p> <p>• 레퍼러 </p> <p>• 시작 페이지 URL 방문 </p> </td> 
+   <td colname="col1"> <p>* ClickMap 작업 (기존) </p> <p>* ClickMap 컨텍스트 (기존) </p> <p>* 페이지 </p> <p>* 페이지 URL </p> <p>* 원래 시작 페이지 URL </p> <p>* 레퍼러 </p> <p>* 시작 페이지 URL 방문 </p> </td> 
    <td colname="col2"> <p>URL 매개변수는 삭제/제거됩니다. 값이 URL과 유사하지 않으면 값은 지워집니다 (빈 문자열로 설정됨). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• 위도 </p> <p>• 경도 </p> </td> 
+   <td colname="col1"> <p>* 위도 </p> <p>* 경도 </p> </td> 
    <td colname="col2"> <p>정밀도는 1km 정도로 감소합니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +295,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
  </tbody> 
 </table>
 
-## 액세스 요청에 대한 날짜 필드 {#section_6678FB4FF42B481C9B78E64F61782397}
+## 액세스 요청에 대한 날짜 필드 {#access-requests}
 
 타임스탬프를 포함하는 다음과 같은 5개의 표준 변수가 있습니다.
 

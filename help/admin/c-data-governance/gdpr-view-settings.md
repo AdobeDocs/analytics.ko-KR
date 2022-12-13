@@ -3,9 +3,9 @@ description: 관리 도구의 데이터 거버넌스 대화 상자는 데이터 
 title: 보고서 세트의 데이터 거버넌스 설정 보기/관리
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+workflow-type: tm+mt
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -33,3 +33,5 @@ ht-degree: 100%
 | **[!UICONTROL 그룹]** | 그룹화 기능은 현재 구현되지 않습니다. |
 | 왼쪽 사이드바 | 깔때기 아이콘을 클릭하여 사이드바를 열거나 닫습니다. [!UICONTROL 조직 매핑] 섹션에는 설명된 각 범주에 속하는 보고서 세트 수가 표시됩니다. [!UICONTROL 데이터 보존 정책] 섹션에는 조직에 대해 현재 적용된 고유한 각 데이터 보존 정책과 해당 보존 정책에 지정된 보고서 세트 수가 표시됩니다. |
 | **[!UICONTROL CSV로 내보내기]** | 하나 이상의 보고서 세트 옆 확인란에 표시를 하면 CSV로 내보내기 옵션이 표시됩니다. 이 옵션을 사용하면 선택한 모든 보고서 세트의 모든 변수에 대한 현재 레이블 정의가 모두 들어 있는 CSV 파일을 다운로드할 수 있습니다. 해당 법률 팀에서 레이블 지정 선택 사항을 검토하는 것이 좋으며, 이 옵션을 사용하면 이러한 검토가 용이해집니다. 데이터 거버넌스 UI에 로그인하는 동안 검토를 수행할 필요 없이 .CSV 파일을 공유할 수 있습니다. |
+
+{style=&quot;table-layout:auto&quot;}
