@@ -3,10 +3,10 @@ description: Adobe Analytics 변수에 대한 데이터 개인정보 레이블�
 title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
 workflow-type: tm+mt
-source-wordcount: '3672'
-ht-degree: 98%
+source-wordcount: '3685'
+ht-degree: 96%
 
 ---
 
@@ -144,6 +144,8 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (비머천다이징 eVar)</li></ul> | 모든 레이블 | - |
 | 대부분의 다른 변수  (*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON).</li></ul> |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## ACC-ALL/ACC-PERSON 이외의 레이블을 지정/수정할 수 있는 변수 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
@@ -213,122 +215,47 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 
 다음 표는 다양한 변수가 &quot;삭제&quot;되는 방법을 설명합니다. 이는 완전한 목록이 아닙니다.
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 변수 </th> 
-   <th colname="col2" class="entry"> 삭제 방법 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* 트래픽 변수 (Prop) </p> <p>* 상거래 변수 (eVar) </p> </td> 
-   <td colname="col2"> <p>기존 값은 "데이터 개인정보 보호-356396D55C4F9C7AB3FBB2F2FA223482" 형식의 새 값으로 대체됩니다. 여기서 "개인정보 보호-" 접두사 다음의 32자리 16진수 값은 암호학적으로 강력한 128비트 의사 난수입니다. 기본적으로 임의의 문자열로 대체되기 때문에 이 새 값에서 원래 값을 결정할 방법이 없으며 원래 값을 판별하는 새 값을 도출하는 방법이 없습니다. </p> <p>지정된 변수의 경우, 대체되는 값과 동일한 값이 동일한 데이터 개인정보 보호 요청의 일부로 삭제되는 다른 히트 내에 있으면 해당 값의 모든 인스턴스가 동일한 새 값으로 대체됩니다. </p> <p>값의 일부 인스턴스가 하나의 삭제 요청으로 대체되고 이후 요청이 원래 값의 다른 (새) 인스턴스를 삭제하는 경우 새 대체 값은 원래 대체 값과 달라집니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>구매 ID </p> </td> 
-   <td colname="col2"> <p>기존 값은 "G-7588FCD8642718EC50" 형식의 새 값으로 대체됩니다. 여기서 "G-" 접두사 다음의 18자리 16진수는 암호학적으로 강력한 128비트 의사 난수의 처음 18자리입니다. 트래픽 및 상거래 변수의 삭제에 적용되는 모든 주석도 여기에 적용됩니다. </p> <p>구매 ID는 트랜잭션 ID로, 누군가가 구매 확인 페이지를 새로 고침하는 경우와 같이 구매가 두 번 결제되지 않도록 하는 것이 주 목적입니다. ID 자체는 구매가 기록된 자신의 DB 행에 구매를 연결할 수 있습니다. 대부분의 경우 이 ID를 삭제할 필요가 없으므로 기본적으로 삭제되지 않습니다. 사용자 고유의 데이터에 대한 데이터 개인정보 보호 삭제 요청 후에도 구매를 다시 사용자에게 연결할 수 있는 경우 이 방문자의 Analytics 데이터를 구매자에게 다시 연결할 수 없도록 이 필드를 삭제해야 할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>방문자 ID </p> </td> 
-   <td colname="col2"> <p>값은 128비트 정수이며 암호화적으로 강력한 128비트 의사 난수 값으로 대체됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* 사용자 정의 방문자 ID </p> <p>* IP 주소 </p> <p>* IP 주소 2 </p> </td> 
-   <td colname="col2"> <p>값이 지워졌습니다 (변수 유형에 따라 빈 문자열 또는 0으로 설정). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* ClickMap 작업 (기존) </p> <p>* ClickMap 컨텍스트 (기존) </p> <p>* 페이지 </p> <p>* 페이지 URL </p> <p>* 원래 시작 페이지 URL </p> <p>* 레퍼러 </p> <p>* 시작 페이지 URL 방문 </p> </td> 
-   <td colname="col2"> <p>URL 매개변수는 삭제/제거됩니다. 값이 URL과 유사하지 않으면 값은 지워집니다 (빈 문자열로 설정됨). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* 위도 </p> <p>* 경도 </p> </td> 
-   <td colname="col2"> <p>정밀도는 1km 정도로 감소합니다. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 변수 | 삭제 방법 |
+| --- | --- |
+| <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (eVar)</li></ul> | 기존 값은 &quot;데이터 개인정보 보호-356396D55C4F9C7AB3FBB2F2FA223482&quot; 형식의 새 값으로 대체됩니다. 여기서 &quot;개인정보 보호-&quot; 접두사 다음의 32자리 16진수 값은 암호학적으로 강력한 128비트 의사 난수입니다.<p>기본적으로 임의의 문자열로 대체되기 때문에 이 새 값에서 원래 값을 결정할 방법이 없으며 원래 값을 판별하는 새 값을 도출하는 방법이 없습니다.  지정된 변수의 경우, 대체되는 값과 동일한 값이 동일한 데이터 개인정보 보호 요청의 일부로 삭제되는 다른 히트 내에 있으면 해당 값의 모든 인스턴스가 동일한 새 값으로 대체됩니다.<p>값의 일부 인스턴스가 하나의 삭제 요청으로 대체되고 이후 요청이 원래 값의 다른 (새) 인스턴스를 삭제하는 경우 새 대체 값은 원래 대체 값과 달라집니다. |
+| 구매 ID | 기존 값은 &quot;G-7588FCD8642718EC50&quot; 형식의 새 값으로 대체됩니다. 여기서 &quot;G-&quot; 접두사 다음의 18자리 16진수는 암호학적으로 강력한 128비트 의사 난수의 처음 18자리입니다. 트래픽 및 상거래 변수의 삭제에 적용되는 모든 주석도 여기에 적용됩니다.<p>구매 ID는 트랜잭션 ID로, 누군가가 구매 확인 페이지를 새로 고침하는 경우와 같이 구매가 두 번 결제되지 않도록 하는 것이 주 목적입니다. ID 자체는 구매가 기록된 자신의 DB 행에 구매를 연결할 수 있습니다. 대부분의 경우 이 ID를 삭제할 필요가 없으므로 기본적으로 삭제되지 않습니다.<p>사용자 고유의 데이터에 대한 데이터 개인정보 보호 삭제 요청 후에도 구매를 다시 사용자에게 연결할 수 있는 경우 이 방문자의 Analytics 데이터를 구매자에게 다시 연결할 수 없도록 이 필드를 삭제해야 할 수 있습니다. |
+| 방문자 ID | 값은 128비트 정수이며 암호화적으로 강력한 128비트 의사 난수 값으로 대체됩니다. |
+| <ul><li>MCID</li><li>사용자 정의 방문자 ID</li><li>IP 주소</li><li>IP 주소 2 | 값이 지워졌습니다 (변수 유형에 따라 빈 문자열 또는 0으로 설정). |
+| <ul><li>ClickMap 작업 (기존)</li><li>ClickMap 컨텍스트 (기존)</li><li>페이지</li><li>페이지 URL</li><li>원래 시작 페이지 URL</li><li>레퍼러</li><li>시작 페이지 URL 방문</li></ul> | URL 매개변수는 삭제/제거됩니다. 값이 URL과 유사하지 않으면 값은 지워집니다 (빈 문자열로 설정됨). |
+| <ul><li>위도</li><li>경도</li></ul> | 정밀도는 1km 정도로 감소합니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 예상 삭제 레이블을 지원하지 않는 변수 {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 이 섹션은 삭제를 지원하지 않는 Analytics 변수에 대한 정보를 명확하게 확인하기 위한 것입니다. 간혹 변수에 포함된 데이터 유형을 이해하지 못하고 변수 이름을 기반으로 잘못된 가정을 하는 비 Analytics 사용자 (예: 법률 팀)가 이러한 변수를 삭제하는 경우가 있습니다. 다음은 이러한 변수 중 일부 목록이며 삭제가 필요하지 않은 이유 또는 특정 삭제 레이블이 필요하지 않은 이유입니다.
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 변수 </th> 
-   <th colname="col2" class="entry"> 댓글 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>새 방문자 ID </p> </td> 
-   <td colname="col2"> <p>새 방문자 ID는 지정된 방문객 ID가 처음 표시될 때 true인 부울입니다. 방문자 ID가 익명 처리되면 삭제할 필요가 없습니다. 익명 처리 후에는 이 익명 ID를 처음 표시된 순간과 일치하게 됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>우편번호 </p> <p>지역 우편번호 </p> </td> 
-   <td colname="col2"> <p>우편번호는 미국에서 시작되는 히트에 대해서만 설정됩니다. EU에서 발생한 히트에 대해서는 설정되지 않습니다. 설정된 경우에도 데이터 주체를 다시 식별하기 어려운 광범위한 지리적 영역만 제공합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>지역 위도 </p> <p>지역 경도 </p> </td> 
-   <td colname="col2"> <p>이는 IP 주소에서 파생된 대략적인 위치를 제공합니다. 정확성은 일반적으로 실제 위치의 수십 킬로미터 내에 있는 우편번호 정확성과 비슷합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>사용자 에이전트 </p> </td> 
-   <td colname="col2"> <p>사용자 에이전트는 사용된 브라우저의 버전을 식별합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>사용자 ID </p> </td> 
-   <td colname="col2"> <p> 데이터를 포함하는 Analytics 보고서 세트를 (숫자로) 지정합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>보고서 세트 ID </p> </td> 
-   <td colname="col2"> <p> 데이터를 포함하는 Analytics 보고서 세트의 이름을 지정합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>방문자 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 여기에는 DEL-DEVICE 레이블이 있지만 DEL-PERSON 레이블을 추가할 수 없습니다. 각 요청에 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID 확장</a>을 지정하는 경우 ID-PERSON을 사용하는 모든 삭제 요청에 대해 이러한 ID가 자동으로 삭제됩니다. </p> <p>ID 확장을 사용하지 않고 이러한 쿠키 ID가 Prop 또는 eVar에 일치하는 ID가 포함된 히트에 익명으로 표시되도록 하려면 실제로 사람을 식별하는 경우에도 Prop 또는 eVar에 ID-DEVICE 레이블을 지정하여 이 라벨링 제한을 해결할 수 있습니다 (모든 DEL-PERSON 레이블도 DEL-DEVICE 레이블로 변경해야 함). 이 경우, 방문자 ID 또는 ECID의 일부 인스턴스만 익명으로 처리되고 있으므로 고유 방문자 카운트가 기록 보고에서 변경됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud ID는 수정할 수 없는 DEL-DEVICE 레이블이 있는 솔루션 변수입니다. 방문자 ID 및 MCID와 마찬가지로 쿠키에서 채워집니다. 다른 ID가 삭제될 때마다 히트에서 삭제해야 합니다. 자세한 내용은 해당 변수에 대한 설명을 참조하십시오. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 변수 | 댓글 |
+| --- | --- |
+| 새 방문자 ID | 새 방문자 ID는 지정된 방문객 ID가 처음 표시될 때 true인 부울입니다. 방문자 ID가 익명 처리되면 삭제할 필요가 없습니다. 익명 처리 후에는 이 익명 ID를 처음 표시된 순간과 일치하게 됩니다. |
+| 우편번호<p>지역 우편번호 | 우편번호는 미국에서 시작되는 히트에 대해서만 설정됩니다. EU에서 발생한 히트에 대해서는 설정되지 않습니다. 설정된 경우에도 데이터 주체를 다시 식별하기 어려운 광범위한 지리적 영역만 제공합니다. |
+| 지역 위도<p>지역 경도 | 이는 IP 주소에서 파생된 대략적인 위치를 제공합니다. 정확성은 일반적으로 실제 위치의 수십 킬로미터 내에 있는 우편번호 정확성과 비슷합니다. |
+| 사용자 에이전트 | 사용자 에이전트는 사용된 브라우저의 버전을 식별합니다. |
+| 사용자 ID | 데이터를 포함하는 Analytics 보고서 세트를 (숫자로) 지정합니다. |
+| 보고서 세트 ID | 데이터를 포함하는 Analytics 보고서 세트의 이름을 지정합니다. |
+| 방문자 ID<p>MCID / ECID | 이러한 ID에는 DEL-DEVICE 레이블이 있지만 DEL-PERSON 레이블을 추가할 수 없습니다. 지정한 경우 [!UICONTROL ID 확장] 각 요청을 사용하면 ID-PERSON을 사용하는 모든 삭제 요청에 대해 이러한 ID가 자동으로 삭제됩니다.<p>ID 확장을 사용하지 않고 이러한 쿠키 ID가 Prop 또는 eVar에 일치하는 ID가 포함된 히트에 익명으로 표시되도록 하려면 실제로 사람을 식별하는 경우에도 Prop 또는 eVar에 ID-DEVICE 레이블을 지정하여 이 라벨링 제한을 해결할 수 있습니다 (모든 DEL-PERSON 레이블도 DEL-DEVICE 레이블로 변경해야 함). 이 경우, 방문자 ID 또는 ECID의 일부 인스턴스만 익명으로 처리되고 있으므로 고유 방문자 카운트가 기록 보고에서 변경됩니다. |
+| AMO ID | Adobe Advertising Cloud ID는 수정할 수 없는 솔루션 변수입니다 [!UICONTROL DEL-DEVICE] 레이블. 방문자 ID 및 MCID와 마찬가지로 쿠키에서 채워집니다. 다른 ID가 삭제될 때마다 히트에서 삭제해야 합니다. 자세한 내용은 해당 변수에 대한 설명을 참조하십시오. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 액세스 요청에 대한 날짜 필드 {#access-requests}
 
 타임스탬프를 포함하는 다음과 같은 5개의 표준 변수가 있습니다.
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 타임스탬프 </th> 
-   <th colname="col2" class="entry"> 정의 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Hit Time UTC </p> </td> 
-   <td colname="col2"> <p>Adobe Analytics가 히트를 받는 시간입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Custom Hit Time UTC </p> </td> 
-   <td colname="col2"> <p>일부 모바일 애플리케이션 및 기타 구현에서 발생한 히트가 수신된 시간보다 이전일 수 있습니다. 예를 들어 히트가 수신되었을 때 네트워크 연결을 사용할 수 없는 경우에는 애플리케이션이 히트를 보유하고 연결을 사용할 수 있게 되면 해당 히트를 보낼 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Date Time </p> </td> 
-   <td colname="col2"> <p>Custom Hit Time UTC와 동일한 값이지만 GMT가 아닌 보고서 제품군의 시간대에 있습니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First Hit Time GMT </p> </td> 
-   <td colname="col2"> <p>첫 번째 히트의 Custom Hit Time UTC 값은 이 히트의 방문자 ID 값에 대해 수신된 첫 번째 히트입니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visit Start Time UTC </p> </td> 
-   <td colname="col2"> <p>첫 번째 히트의 Custom Hit Time UTC 값은 이 방문자 ID의 현재 방문에 대해 수신된 첫 번째 히트입니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 타임스탬프 | 정의 |
+| --- | --- |
+| Hit Time UTC | Adobe Analytics가 히트를 받는 시간입니다. |
+| Custom Hit Time UTC | 일부 모바일 애플리케이션 및 기타 구현에서 발생한 히트가 수신된 시간보다 이전일 수 있습니다. 예를 들어 히트가 수신되었을 때 네트워크 연결을 사용할 수 없는 경우에는 애플리케이션이 히트를 보유하고 연결을 사용할 수 있게 되면 해당 히트를 보낼 수 있습니다. |
+| Date Time | Custom Hit Time UTC와 동일한 값이지만 GMT가 아닌 보고서 제품군의 시간대에 있습니다. |
+| First Hit Time GMT | 첫 번째 히트의 Custom Hit Time UTC 값은 이 히트의 방문자 ID 값에 대해 수신된 첫 번째 히트입니다. |
+| Visit Start Time UTC | 첫 번째 히트의 Custom Hit Time UTC 값은 이 방문자 ID의 현재 방문에 대해 수신된 첫 번째 히트입니다. |
+
+{style=&quot;table-layout:auto&quot;}
 
 데이터 개인정보 보호 액세스 요청에 대해 반환되는 파일을 생성하는 코드는 처음 세 개의 타임스탬프 변수 중 하나 이상이 액세스 요청에 포함되어야 합니다 (요청 유형에 적용되는 ACC 레이블 있음). 이러한 항목이 포함되지 않은 경우 Custom Hit Time UTC는 ACC-ALL 레이블이 있는 것처럼 처리됩니다.
 
