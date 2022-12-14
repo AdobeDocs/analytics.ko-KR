@@ -1,12 +1,12 @@
 ---
 description: Adobe Analysis Workspace 및 관련 구성 요소의 알려진 제한 사항 목록
 title: Analysis Workspace의 알려진 제한 사항
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: ht
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * 날짜 범위 또는 지표를 테이블의 행으로 사용하는 경우 날짜 비교 열을 추가할 수 없습니다.
 * 세그먼트가 테이블의 행으로 사용되는 경우 선택 내용에서 지표 생성이 비활성화됩니다. 또한 선택 내용에서 지표 생성은 날짜 정렬 열에는 적용하지 않아야 합니다.
-* 분류 행에 대한 조건부 서식은 사용자 지정 범위를 사용할 수 없습니다.
+* 분류 행에 대한 조건부 서식은 사용자 정의 범위를 사용할 수 없습니다.
 * 행 값을 합하여 합계 계산 설정이 적용될 때 (일반적으로 정적 행 항목과 함께 사용) 테이블 합계 행에는 트렌드를 표시할 수 없습니다.
 * [!UICONTROL 기여도 분석]은 [!UICONTROL 일별] 세부기간에서&#x200B;_만_ 실행할 수 있습니다. [!UICONTROL 시간별], [!UICONTROL 주별] 등 데이터에 대해서는 실행할 수 없습니다.
 
@@ -56,6 +56,6 @@ ht-degree: 100%
 
 * [!UICONTROL 보고서 설정] 페이지의 일부 설정은 적용되지 않습니다. Analysis Workspace는 맨 아래에 있는 [!UICONTROL 언어/통화/인코딩] 설정인 [!UICONTROL 천 단위 구분 문자], [!UICONTROL 예약된 보고서 인코딩] 및 [!UICONTROL CSV 구분 문자]만 사용합니다.
 
-## 속성 IQ
+## Attribution IQ
 
-* 지표의 하위 세트는 [!UICONTROL 속성 IQ]에서 지원되지 않습니다. 전체 목록이 필요하면 [속성 IQ FAQ](../attribution/faq.md)를 참조하십시오.
+* 지표의 하위 세트는 [!UICONTROL Attribution IQ]에서 지원되지 않습니다. 전체 목록이 필요하면 [Attribution IQ FAQ](../attribution/faq.md)를 참조하십시오.
