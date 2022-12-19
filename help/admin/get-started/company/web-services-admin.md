@@ -4,9 +4,9 @@ title: 웹 서비스
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 93%
 
 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)에서 Web Services API에 액세스할 필요가 있는 사용자를 포함하는 권한을 업데이트할 수 있습니다.
 
-## WSDL: 웹 서비스 개발자용 웹 서비스 API WSDL을 다운로드합니다
+## WSDL: 웹 서비스 개발자용 웹 서비스 API WSDL 다운로드
 
-방문 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/): 웹 서비스 API와 관련된 설명서, 샘플 코드 및 포럼을 제공합니다. 웹 서비스 API 개요를 클릭하여 자세한 내용을 확인하시오.
+웹 서비스 API와 관련된 설명서, 샘플 코드 및 포럼을 제공하는 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/)를 방문하십시오. 웹 서비스 API 개요를 클릭하여 자세한 내용을 확인하시오.
 
 ## 필터링 옵션
 
