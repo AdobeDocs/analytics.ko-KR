@@ -5,9 +5,9 @@ user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 + [Analytics 관리 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
-+ Analytics 관리 시작 {#admin-overview}
++ Analytics 관리 시작하기 {#admin-overview}
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](get-started/analytics-product-comparison.md)
    + [시스템 요구 사항](get-started/sys-reqs.md)
@@ -30,7 +30,7 @@ ht-degree: 95%
       + [공동 브랜딩](get-started/company/co-branding-admin.md)
       + [보고서 세트 숨기기](get-started/company/c-hide-report-suites.md)
       + [보안 관리자](get-started/company/security-manager.md)
-+ Adobe 관리 콘솔의 사용자 권한 {#admin-console}
++ Adobe Admin Console의 사용자 권한 {#admin-console}
    + [Adobe Admin Console의 Analytics](admin-console/home.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
    + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
@@ -60,7 +60,7 @@ ht-degree: 95%
    + [환경 설정 관리자](admin/preferences-manager.md)
    + [개인정보 보호 보고](admin/privacy-reporting.md)
    + [활동 관리자 보고](admin/reporting-activity.md)
-   + [예약된 보고서 큐](admin/scheduled-reports-admin.md)
+   + [예약된 보고서 대기열](admin/scheduled-reports-admin.md)
    + 보고서 세트 관리자 {#manage-report-suites}
       + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
       + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -177,7 +177,7 @@ ht-degree: 95%
    + [보고서 세트의 데이터 거버넌스 설정 보기/관리](c-data-governance/gdpr-view-settings.md)
    + [보고서 세트 데이터에 레이블 지정](c-data-governance/gdpr-setup-reportsuite.md)
    + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics 변수의 데이터 개인정보 레이블](c-data-governance/gdpr-labels.md)
+   + [Analytics 변수의 데이터 개인정보 보호 레이블](c-data-governance/gdpr-labels.md)
    + [네임스페이스](c-data-governance/gdpr-namespaces.md)
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [레이블 지정 모범 사례](c-data-governance/gdpr-analytics-ids.md)
