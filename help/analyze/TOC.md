@@ -5,7 +5,7 @@ user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
 source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ ht-degree: 100%
       + 집단 테이블 {#cohort-table}
          + [집단 분석이란?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [집단 분석 보고서 구성](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [집단 분석 활용 사례](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [집단 분석 사용 사례](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 폴아웃 {#fallout}
          + [폴아웃 개요](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [폴아웃 시각화 구성](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -144,7 +144,7 @@ ht-degree: 100%
          + [지능형 경고 개요](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [경고 빌더](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [경고 관리자](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [지능형 경고 - 활용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+         + [지능형 경고 - 사용 사례](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [사용자 환경 설정](analysis-workspace/user-preferences.md)
    + 작업 영역 FAQ {#workspace-faq}
       + [자주 묻는 질문](analysis-workspace/workspace-faq/faq.md)
@@ -273,7 +273,7 @@ ht-degree: 100%
          + [Activity Map 구현](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 사용자용 시작하기 {#get-started-users}
          + [Activity Map 브라우저 플러그인 설치](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Activity Map 시작](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+         + [Activity Map 실행](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [강력한 링크 추적](activity-map/lnk-tracking-overview.md)
    + 링크 추적 {#link-tracking}
       + [링크 추적 방식](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
