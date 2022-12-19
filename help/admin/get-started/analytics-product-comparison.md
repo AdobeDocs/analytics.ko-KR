@@ -4,9 +4,9 @@ title: Analytics 제품 비교 및 요구 사항
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 이 페이지에는 Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, 데이터 피드 및 Analytics API 2.0 등 다양한 Adobe Analytics 제품의 비교가 포함되어 있습니다.
 
-사용할 Adobe Analytics 제품에 대한 자세한 내용은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/get-started/which-analytics-tool.md).
+사용할 Adobe Analytics 제품에 대한 자세한 내용은 [어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/admin/get-started/which-analytics-tool.md)를 참조하십시오.
 
 | 제품 이름 및 도움말 링크 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ko-KR) | [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
