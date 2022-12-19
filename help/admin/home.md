@@ -4,9 +4,9 @@ description: Admin Console의 사용자 및 제품 관리, 보고서 세트, 변
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니다.
 
 * Adobe Admin Console: 이 영역을 사용하여 Experience Cloud 도구를 프로비저닝하고 사용자 권한을 관리할 수 있습니다. [adminconsole.adobe.com](https://adminconsole.adobe.com)에 있습니다.
-* Analytics 관리 도구: 보고서 세트 및 변수 관리에 이 영역을 사용합니다. Adobe Analytics의 상단 헤더에 있는 [!UICONTROL 관리]를 클릭하여 액세스할 수 있습니다.
+* Analytics 관리 도구: 보고서 세트와 변수 관리에 이 영역을 사용합니다. Adobe Analytics의 상단 헤더에 있는 [!UICONTROL 관리]를 클릭하여 액세스할 수 있습니다.
 
 이 안내서에서는 다음 주제를 다룹니다.
 
@@ -39,7 +39,7 @@ Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니�
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용자 안내서](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 주요 Analytics 리소스
 
