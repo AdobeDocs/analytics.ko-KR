@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: be32a2278ac3686d814b25d8a4a857b9f0ddc771
+source-git-commit: 4ab8df2efb8b3175f93f325e9d88feb9457a566a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 97%
+source-wordcount: '1461'
+ht-degree: 90%
 
 ---
 
@@ -39,8 +39,8 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **개선된 IP-to-geolocation 매핑** | 2023년 1월 4일 | 당사의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. 원래 2022년 10월에 계획되었던 Adobe Analytics은 **2023년 1월 11일**. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p>모든 Adobe Analytics 도구 (Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, 라이브스트림 등) 새롭게 개선된 매핑을 자동으로 활용합니다. 데이터 피드의 데이터 형식은 변경되지 않습니다. Analytics Source Connector를 통해 제공되는 CJA 데이터도 자동으로 새 매핑을 활용합니다. |
-| **새로운 NetAcuity 통신사 데이터베이스로 업데이트** | 2023년 1월 4일 | 원래 2022년 10월 5일에 계획된 이 업데이트는 다음에 수행됩니다 **2023년 1월 11일**. Adobe Analytics Data Warehouse 및 Analytics 데이터 피드의 `carrier` 필드에 저장된 통신사 관련 정보가 변경될 예정입니다. 지금까지 해당 열의 데이터 형식은 `<domain>:<ISP>`였습니다. Adobe는 Adobe Analytics 보고 도구(Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, 라이브스트림 등)에서 보고 목적으로 이들 `<domain>:<ISP>` 값을 통신사 이름으로 매핑하기 위한 내부 조회 테이블을 유지 관리했습니다. 조회 파일(`carrier.tsv`)에는 데이터 피드가 제공되어 동일한 매핑을 사용할 수 있습니다.<p>이 업데이트는 NetAcuity의 보다 정확한 통신사 데이터베이스를 사용하여 통신사 매핑을 향상시킵니다. 데이터 피드의 통신사 열에 있는 데이터 형식은 향후 변경될 예정입니다. `<domain>:<ISP>` 대신 통신사 이름이 포함됩니다. Adobe는 계속해서 조회 테이블을 사용하여 가능한 한 과거 보고서와의 연속성을 유지할 것입니다. Adobe에서 조회를 적용하는 보고 도구 (Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, 라이브스트림 등) 보다 정확한 매핑의 이점을 얻을 수 있습니다. 일부 매핑(특히 국제 도메인 및 ISP의 경우)은 Adobe가 새 데이터베이스를 채택할 때 다른 매핑보다 더 많이 변경될 수 있습니다. 데이터 피드 통신사 조회 파일(`carrier.tsv`)은 이전 매핑을 유지하고 새 매핑을 추가합니다.<p>Analytics Source Connector는 현재 통신사 필드를 매핑하지 않으므로 현재 Experience Platform, CJA 등에서 통신사 보고를 사용할 수 없습니다. 따라서 새 통신사 데이터베이스를 사용하더라도 Analytics Source Connector에서 제공한 데이터를 기반으로 하는 Experience Platform의 어떤 것에도 영향을 미치지 않습니다. |
+| **개선된 IP-to-geolocation 매핑** | 2023년 1월 4일 | 당사의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. 원래 2022년 10월에 계획되었던 Adobe Analytics은 **2023년 1월 11일**. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p>모든 Adobe Analytics 도구(Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, LiveStream, Analytics 데이터 피드 등)는 새로운 매핑 기능을 자동으로 활용합니다. 데이터 피드의 데이터 형식은 변경되지 않습니다. Analytics 소스 커넥터를 통해 제공된 CJA 데이터는 자동으로 새로운 매핑을 활용합니다. |
+| **새로운 NetAcuity 통신사 데이터베이스로 업데이트** | 2023년 1월 4일 | 원래 2022년 10월 5일에 계획된 이 업데이트는 다음에 수행됩니다 **2023년 1월 11일**. Adobe Analytics Data Warehouse 및 Analytics 데이터 피드의 `carrier` 필드에 저장된 통신사 관련 정보가 변경될 예정입니다. 지금까지 해당 열의 데이터 형식은 `<domain>:<ISP>`였습니다. Adobe은 이러한 테이블을 매핑하기 위해 내부 조회 테이블을 유지 관리했습니다 `<domain>:<ISP>` Adobe Analytics 보고 도구(Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, LiveStream 등)에서 보고를 위해 통신사 이름에 값을 포함하는 경우도 있습니다. 조회 파일(`carrier.tsv`)에는 데이터 피드가 제공되어 동일한 매핑을 사용할 수 있습니다.<p>이 업데이트는 NetAcuity의 보다 정확한 통신사 데이터베이스를 사용하여 통신사 매핑을 향상시킵니다. 데이터 피드의 통신사 열에 있는 데이터 형식은 향후 변경될 예정입니다. `<domain>:<ISP>` 대신 통신사 이름이 포함됩니다. Adobe는 계속해서 조회 테이블을 사용하여 가능한 한 과거 보고서와의 연속성을 유지할 것입니다. Adobe에서 조회를 적용하는 보고 도구 (Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, 라이브스트림 등) 보다 정확한 매핑의 이점을 얻을 수 있습니다. 일부 매핑(특히 국제 도메인 및 ISP의 경우)은 Adobe가 새 데이터베이스를 채택할 때 다른 매핑보다 더 많이 변경될 수 있습니다. 데이터 피드 통신사 조회 파일(`carrier.tsv`)은 이전 매핑을 유지하고 새 매핑을 추가합니다.<p>Analytics 소스 커넥터는 현재 통신사 필드를 매핑하지 않으므로 현재 Experience Platform, CJA 등에서 통신사 보고를 사용할 수 없습니다. 따라서 새 통신사 데이터베이스를 사용하더라도 Analytics Source Connector에서 제공한 데이터를 기반으로 하는 Experience Platform의 어떤 것에도 영향을 미치지 않습니다. |
 | **트래픽 급증 알림에 대한 업데이트된 지침** | 2022년 11월 18일 | 이전 지침은 철저하게 조회수를 기반으로 했습니다. [새 지침](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=ko)은 보고서 세트 크기와 증가율의 조합을 기반으로 합니다. |
 | **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2022년 10월 14일 | 원래 2022년 10월 26일로 계획되었던 디바이스 조회에서의 클라이언트 힌트 사용이 **2023년 1월**&#x200B;로 연기되었습니다. <p> <p>2022년 10월부터 Web SDK 또는 AppMeasurement JavaScript 라이브러리를 사용하여 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 1월까지 디바이스 조회에 통합되지 않을 예정입니다. 해당 일자에 Adobe는 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 디바이스 정보를 가져올 때 사용자 에이전트와 함께 클라이언트 힌트를 사용할 예정입니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 | **기본 랜딩 페이지** | 2022년 9월 29일 | 올해 초에 도입된 [새 랜딩 페이지](/help/analyze/landing.md)는 **2023년 1월**&#x200B;에 모든 사용자의 기본 환경이 됩니다. 현재 페이지는 더 이상 사용되지 않으며 모든 사용자는 새 환경을 사용해야 합니다. |
