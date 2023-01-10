@@ -4,20 +4,20 @@ subtopic: Users and groups
 title: 사용자 및 제품 관리
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 4ed166bb05d8dfb32706008ad23c13f61908d1e9
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 74%
+source-wordcount: '278'
+ht-degree: 69%
 
 ---
 
-# 사용자 및 제품 관리
+# 사용자 및 제품 관리 (레거시)
 
 Adobe Admin Console에서 Analytics 사용자, 그룹 및 제품을 관리합니다.
 
 >[!IMPORTANT]
 >
->사용자 및 제품 관리 기능은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe는 사용자를 마이그레이션할 때가 되면 통지합니다.
+>사용자 및 제품 관리 기능은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)로 이동되었습니다. Adobe Analytics 사용자의 사용자 권한 관리를 시작하려면 다음을 참조하십시오 [Adobe Admin Console의 Analytics][/help/admin/admin-console/home.md].
 
 ## Adobe Admin Console 관리자를 위한 도움말 리소스 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
