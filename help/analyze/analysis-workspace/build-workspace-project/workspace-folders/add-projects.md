@@ -3,25 +3,19 @@ description: Workspace에서 폴더를 추가하는 방법 알아보기
 keywords: Analysis Workspace
 title: Workspace에서 폴더 추가
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '224'
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # 폴더에 프로젝트 추가
 
 테이블 보기의 폴더 또는 폴더 내에서 프로젝트를 추가할 수 있습니다.
 
->[!NOTE]
->
->이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
-
-## 테이블 보기에서
+## 테이블 보기에서 {#table-view}
 
 홈 페이지의 테이블 보기에서 폴더에 프로젝트를 추가합니다.
 
@@ -47,7 +41,7 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## 폴더 내에서
+## 폴더 내에서 {#inside-folder}
 
 줄임표 링크를 사용하여 폴더 내에서 프로젝트를 추가할 수도 있습니다.
 

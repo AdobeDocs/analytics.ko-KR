@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
       + Workspace의 폴더 {#workspace-folders}
          + [Workspace의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 삭제](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [프로젝트 추가](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [새 프로젝트 저장](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)

@@ -3,23 +3,17 @@ description: Workspace의 폴더에 프로젝트 저장에 대해 알아보기
 keywords: Analysis Workspace
 title: 폴더에 프로젝트 저장
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '80'
+exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+workflow-type: tm+mt
+source-wordcount: '70'
 ht-degree: 100%
 
 ---
 
-
 # 폴더에 새 프로젝트 저장
 
 새 프로젝트를 특정 폴더에 저장하려면 프로젝트 저장 대화 상자에서 폴더 이름을 선택합니다.
-
->[!NOTE]
->
->이 기능은 현재 Beta 버전입니다. 일부 화면은 변경될 수 있습니다.
 
 1. Workspace에서 새 프로젝트를 만듭니다.
 
