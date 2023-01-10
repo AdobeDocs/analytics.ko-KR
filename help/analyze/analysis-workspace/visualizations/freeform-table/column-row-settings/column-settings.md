@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 87%
 
 ## 열 설정
 
-Analysis Workspace에서 열을 편집할 때 다음 열 설정을 사용할 수 있습니다.
+에 설명된 대로 Analysis Workspace의 개별 테이블에 대한 다음 열 설정을 업데이트할 수 있습니다 [열 설정 편집](#edit-uicontrol-column-settings).
+
+Analysis Workspace에서 만드는 모든 새 프로젝트에 대해 이러한 동일한 설정 중 일부를 다음에 설명된 대로 관리할 수도 있습니다 [사용자 환경 설정](/help/analyze/analysis-workspace/user-preferences.md)
 
 | 요소 | 설명 |
 | --- | --- |

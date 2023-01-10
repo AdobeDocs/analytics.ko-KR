@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [도넛](/help/analyze/analysis-workspace/visualizations/donut.md) | 파이 차트와 유사하게 이 시각화는 데이터를 전체의 일부 또는 세그먼트로 표시합니다. |
 | [폴아웃](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 폴아웃 보고서는 방문자가 페이지의 사전 정의된 순서를 떠나고 (폴아웃) 계속 따라가는 (폴스루) 위치를 보여 줍니다. 최종 또는 정확한 시퀀스로 설정할 수 있습니다. |
 | [플로우](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 웹 사이트와 앱을 통해 정확한 고객 경로를 보여 줍니다. |
-| [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. Workspace에서의 데이터 분석을 위한 기초입니다. |
+| [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
 | [막대 그래프](/help/analyze/analysis-workspace/visualizations/histogram.md) | 막대 그래프는 지표 볼륨을 기반으로 방문자, 방문 또는 히트를 버킷으로 버킷화합니다. |
 | [가로 막대형](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
 | [라인](/help/analyze/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
@@ -43,9 +43,25 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md) | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) | 원을 사용하여 최대 3개 세그먼트의 지표 겹침을 나타냅니다. |
 
-## 설정 {#settings}
+## 시각화 설정 사용자 지정
 
-각 시각화에는 관리할 수 있는 자체 설정이 있습니다. [!UICONTROL 시각화 설정]에 액세스하려면 [!UICONTROL 시각화 설정] 톱니 바퀴 아이콘을 클릭합니다.
+개별 시각화 또는 사용자가 만드는 모든 시각화에 대한 시각화 설정을 사용자 지정할 수 있습니다.
+
+### 단일 시각화에 대한 시각화 설정 사용자 지정
+
+에 액세스하려면 [!UICONTROL 시각화 설정] 개별 시각화의 경우:
+
+1. Analysis Workspace에서 설정을 사용자 지정할 시각화 위로 마우스를 가져갑니다.
+
+1. 톱니바퀴 아이콘을 클릭합니다.
+
+   각 유형의 시각화에는 사용자 지정할 수 있는 고유한 설정이 있습니다. 사용 가능한 설정에 대한 자세한 내용은 [설정](#settings).
+
+### 사용자가 만드는 모든 시각화에 대한 시각화 설정 사용자 지정
+
+사용자가 만드는 모든 시각화에 대한 설정을 사용자 지정할 수 있습니다. 자세한 내용은 [사용자 환경 설정](/help/analyze/analysis-workspace/user-preferences.md).
+
+## 설정 {#settings}
 
 ![](assets/settings.png)
 
@@ -68,7 +84,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
 또한 시각적 개체를 보다 쉽게 사용할 수 있도록 범례 레이블의 이름을 바꿀 수 있습니다. 참고: 트리맵, 글머리 기호, 요약 변경 사항 또는 숫자, 텍스트, 자유 형식, 막대 그래프, 집단 또는 플로우 시각화에는 범례 편집이 적용되지 **않습니다**.
 
-범례 레이블을 편집하려면 다음을 수행하십시오.
+범례 레이블을 편집하려면 다음 작업을 수행하십시오.
 
 1. 범례 레이블 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 1. **[!UICONTROL 레이블 편집을 클릭합니다]**.
