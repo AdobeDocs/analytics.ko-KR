@@ -4,7 +4,7 @@ title: 프로젝트 저장
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 598271d12257df2f78128e44ea04f04db8fde811
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 39%
@@ -31,8 +31,6 @@ Analysis Workspace에서 프로젝트를 수동으로 저장할 때 다양한 �
    | **[!UICONTROL 메모와 함께 저장]** | 프로제트를 저장하기 전에 프로젝트의 변경 내용에 대한 메모를 추가합니다. 메모는 프로젝트 버전과 함께 저장되고 [!UICONTROL 프로젝트] > [!UICONTROL 이전 버전 열기]에서 모든 편집자들이 사용할 수 있습니다. |
    | **[!UICONTROL 다른 이름으로 저장]** | 프로젝트의 복제본을 만듭니다. 원본 프로젝트는 영향을 받지 않습니다. |
    | **[!UICONTROL 템플릿으로 저장]** | 프로젝트를 **[!UICONTROL 프로젝트 > 새로 만들기]** 아래에서 조직에서 사용할 수 있게 되는 [사용자 지정 템플릿](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR)으로 저장합니다. |
-
-   ![](assets/save-project.png)
 
 ## 자동 저장 {#Autosave}
 
