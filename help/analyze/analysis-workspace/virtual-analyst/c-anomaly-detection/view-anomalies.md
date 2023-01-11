@@ -4,10 +4,10 @@ title: Analysis Workspace에서 예외 항목 보기
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 16%
+source-wordcount: '469'
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 16%
 
 1. 열 헤더에서 열 설정 아이콘을 선택한 다음, [!UICONTROL **예외 항목**] 옵션 목록에서 옵션이 선택됩니다. 자세한 내용은 [열 설정](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. 예외 항목은 다음과 같이 표에 표시됩니다.
+1. 업데이트된 테이블을 보려면 설정 메뉴에서 를 클릭하십시오.
 
    ![](assets/anomaly_detected.png)
+
+1. 예외 항목은 다음과 같이 표에 표시됩니다.
 
    A **짙은 회색 삼각형** 는 데이터 예외 항목이 탐지되는 각 행의 오른쪽 위 모서리에 나타납니다.
 
