@@ -4,10 +4,10 @@ title: Analysis Workspace에서 예외 항목 보기
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 15%
+source-wordcount: '467'
+ht-degree: 16%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
    다음 **점선** 는 정확한 예상 값입니다.
 
-1. 예외 항목에 대한 다음 정보를 보려면 흰색 점을 클릭하십시오.
+1. 예외 항목(흰색 점)을 클릭하여 다음 정보를 확인합니다.
 
    * 예외 항목이 발생한 날짜
 
