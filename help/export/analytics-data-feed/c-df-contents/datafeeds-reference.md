@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 98%
 
 ---
@@ -234,7 +234,7 @@ ht-degree: 98%
 | **`video`** | 비디오 콘텐츠 | varchar (255) |
 | **`videoad`** | 비디오 광고 이름 | varchar (255) |
 | **`videoadinpod`** | Pod 위치의 비디오 광고 | varchar (255) |
-| **`videoadlength`** | 비디오 광고 길이 | varchar (255) |
+| **`videoadlength`** | 비디오 광고 길이 | 정수 |
 | **`videoadload`** | 비디오 광고 로드 | varchar (255) |
 | **`videoadname`** | 비디오 광고 이름 | varchar (255) |
 | **`videoadplayername`** | 비디오 광고 플레이어 이름 | varchar (255) |
@@ -254,12 +254,13 @@ ht-degree: 98%
 | **`videoepisode`** | 비디오 에피소드 | varchar (255) |
 | **`videofeedtype`** | 비디오 피드 유형 | varchar (255) |
 | **`videogenre`** | 비디오 장르 | 텍스트 |
-| **`videolength`** | 비디오 길이 | varchar (255) |
+| **`videolength`** | 비디오 길이 | 정수 |
 | **`videomvpd`** | 비디오 MVPD | varchar (255) |
 | **`videoname`** | 비디오 이름 | varchar (255) |
 | **`videonetwork`** | 비디오 네트워크 | varchar (255) |
 | **`videopath`** | 비디오 경로 | varchar (100) |
 | **`videoplayername`** | 비디오 플레이어 이름 | varchar (255) |
+| **`videotime`** | 비디오 시간 | 정수 |
 | **`videoqoebitrateaverageevar`** | 비디오 품질 평균 비트 전송률 | varchar (255) |
 | **`videoqoebitratechangecountevar`** | 비디오 품질 변경 카운트 | varchar (255) |
 | **`videoqoebuffercountevar`** | 비디오 품질 버퍼 카운트 | varchar (255) |
