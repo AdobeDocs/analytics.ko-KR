@@ -3,10 +3,10 @@ description: Adobe Analytics 변수에 대한 데이터 개인정보 레이블�
 title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3685'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 데이터 개인정보 보호 구현은 ID 데이터, 중요 데
 >
 >DULE (Data Usage Labeling &amp; Enforcement) 프레임워크는 Adobe Experience Cloud에서 데이터에 대한 메타데이터를 캡처, 통신 및 사용하는 동일한 방법을 모든 Adobe 솔루션/서비스/플랫폼에 제공하도록 설계되었습니다. 메타데이터를 통해 데이터 제어자는 개인정보에 해당하는 데이터, 중요 데이터, 데이터와 연관된 계약 제한 사항을 나타낼 수 있습니다. 이 초기 릴리스에서 Analytics는 데이터 개인정보 보호와 관련된 DULE 레이블만 노출합니다. 다른 Adobe 제품은 DULE 레이블에 대한 지원을 구현하므로 이후 릴리스에서는 제품 간에 공유되는 데이터가 법적으로 허용된 방식으로만 사용되도록 하는 계약 레이블과 추가 중요 데이터 레이블이 도입될 것입니다.
 
-## ID 데이터 레이블 (DULE) {#identity-data-labels}
+## ID 데이터 레이블(DULE) {#identity-data-labels}
 
 ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 범주화하는 데 사용됩니다.
 
@@ -39,7 +39,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 중요 데이터 레이블 (DULE) {#sensitive-data-labels}
+## 중요 데이터 레이블(DULE) {#sensitive-data-labels}
 
 중요 데이터 &quot;S&quot; 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가 민감한 데이터 레이블은 다른 유형의 민감한 정보를 식별하기 위해 나중에 도입됩니다.
 
@@ -50,7 +50,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 데이터 거버넌스 레이블 (데이터 개인정보 보호) {#data-governance-labels}
+## 데이터 거버넌스 레이블(데이터 개인 정보 보호) {#data-governance-labels}
 
 데이터 거버넌스 레이블은 규정 및 기업 정책을 준수하도록 개인정보 보호 관련 고려 사항 및 계약 조건을 반영하여 데이터를 분류하는 기능을 제공합니다.
 
@@ -89,7 +89,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스 제공 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공합니다 {#provide-namespace}
 
 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공하라는 메시지가 표시됩니다. 이전에 정의된 네임스페이스를 사용하거나 새 네임스페이스를 정의할 수 있습니다.
 
@@ -142,11 +142,11 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | <ul><li>사용자 정의 성공 이벤트</li><li>머천다이징 eVars</li><li>다중 값 변수 (mvVars)</li><li>계층 변수</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | 분류 | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (비머천다이징 eVar)</li></ul> | 모든 레이블 | - |
-| 대부분의 다른 변수  (*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON).</li></ul> |
+| 대부분의 다른 변수  (*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
-## ACC-ALL/ACC-PERSON 이외의 레이블을 지정/수정할 수 있는 변수 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## ACC-ALL/ACC-PERSON 이외의 레이블을 지정/수정할 수 있는 변수 {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -209,7 +209,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
  </tbody> 
 </table>
 
-## 삭제 처리 {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 삭제 처리 {#deletion}
 
 데이터 개인정보 보호 삭제 요청에 대한 Adobe Analytics 지원은 보고에 미치는 영향을 최소화하도록 설계되었습니다. 대부분의 경우 보고서에 표시된 지표는 변경되지 않아야 합니다. 데이터 개인정보 보호 삭제 전에 실행된 기록 보고서는 삭제가 수행된 후 실행된 동일한 보고서와 일치합니다. 이 작업은 보고된 값이 일관되게 유지될 수 있도록 식별할 수 없는 데이터를 그대로 두면서 데이터 주체에서 삭제된 데이터를 완전히 분리하여 수행됩니다.
 
@@ -226,7 +226,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 
 {style=&quot;table-layout:auto&quot;}
 
-## 예상 삭제 레이블을 지원하지 않는 변수 {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## 예상 삭제 레이블을 지원하지 않는 변수 {#no-delete-support}
 
 이 섹션은 삭제를 지원하지 않는 Analytics 변수에 대한 정보를 명확하게 확인하기 위한 것입니다. 간혹 변수에 포함된 데이터 유형을 이해하지 못하고 변수 이름을 기반으로 잘못된 가정을 하는 비 Analytics 사용자 (예: 법률 팀)가 이러한 변수를 삭제하는 경우가 있습니다. 다음은 이러한 변수 중 일부 목록이며 삭제가 필요하지 않은 이유 또는 특정 삭제 레이블이 필요하지 않은 이유입니다.
 
