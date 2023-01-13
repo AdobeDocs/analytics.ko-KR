@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics의 관리 도구 색인입니다.
-title: 관리 도구
+title: 관리자 도구
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 6eadb0b23628b0db59d9cbc6f632bf9cfb3f388c
+source-git-commit: 42dba33eb77ac875fea801e8f62fa74ed564671f
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 14%
+source-wordcount: '257'
+ht-degree: 13%
 
 ---
 
-# 관리 도구
+# 관리 도구 개요
 
 ## 관리 도구 이해
 

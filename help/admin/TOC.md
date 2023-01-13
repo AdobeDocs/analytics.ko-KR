@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 4ed166bb05d8dfb32706008ad23c13f61908d1e9
+source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 99%
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 99%
          + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [기존 로그인 비활성화](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [마이그레이션의 영향을 받는 API](admin-console/user-management2/user-migration/developer.md)
-+ Analytics 관리 {#admin-tools}
-   + [관리 도구](admin/c-admin-tools.md)
++ Analytics 관리 도구 {#admin-tools}
+   + [관리 도구 개요](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
    + [코드 관리자](admin/code-manager-admin.md)
    + [통화 코드](admin/currency.md)
