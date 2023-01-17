@@ -3,10 +3,10 @@ description: 기여도 분석은 Adobe Analytics에서 관찰된 예외 항목�
 title: 기여도 분석에 사용된 통계 기법
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 0%
 
    ![](assets/cramers-v.png)
 
-1. 각 차원 항목에 대해서는 PR (Pearson&#39;s Residual)을 사용하여 예외 항목 지표와 각 차원 항목 간의 연관성을 측정할 수 있습니다. PR은 표준 정규 분포를 따르며, 이 분포에서 알고리즘은 편차가 비교할 수 없이 작더라도 임의의 두 변수에 대한 PR을 비교할 수 있습니다. 실제로, 이 오류는 알려져 있지 않으며, 한정된 샘플 수정을 사용하여 평가됩니다. 
+1. 각 차원 항목에 대해 PR(Pearson&#39;s Residual)을 사용하여 예외 항목 지표와 각 차원 항목 간의 연관성을 측정할 수 있습니다. PR은 표준 정규 분포를 따르며, 이 분포에서 알고리즘은 편차가 비교할 수 없이 작더라도 임의의 두 변수에 대한 PR을 비교할 수 있습니다. 실제로, 이 오류는 알려져 있지 않으며, 한정된 샘플 수정을 사용하여 평가됩니다. 
 
    이전 예의 표 1에서, 국가 i 및 기간 2에 대한 한정된 샘플 수정이 있는 PR은 다음 식으로 주어집니다.
 
    ![](assets/persons-residual.png)
 
-   여기에서,
+   여기,
 
    ![](assets/pr-example.png)
 
