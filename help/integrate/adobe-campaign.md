@@ -3,9 +3,9 @@ description: Adobe Analytics에서 Adobe Campaign 보고를 활성화하는 방�
 title: Adobe Campaign 보고를 Adobe Analytics에 통합하려면 어떻게 합니까?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '478'
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+workflow-type: tm+mt
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics와 Adobe Campaign을 통합하면
 * Adobe Analytics 매개 변수를 사용하는 수식 추적 기능이 향상됩니다.
 * **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]** > **[!UICONTROL Adobe Campaign]** 아래에 새 보고서가 추가됩니다.
 * 5개의 새로운 Adobe Campaign 분류가 추가됩니다.
-* 10개의 새로운 Adobe Campaign 지표가 추가됩니다.
+* 9개의 새로운 Adobe Campaign 지표가 추가됩니다.
 * 6개의 새로운 Adobe Campaign 차원이 추가됩니다.
 * 데이터가 15분마다 Analytics에 동기화됩니다.
 
@@ -60,7 +60,6 @@ Adobe Analytics 보고서 세트의 Campaign에서 다음 **지표**&#x200B;를 
 * Adobe Campaign 전송 수
 * Adobe Campaign 발행 수
 * Adobe Campaign 클릭 수
-* Adobe Campaign 처리 수
 * Adobe Campaign 게재 수
 * Adobe Campaign 고유 발행 수
 * Adobe Campaign 고유 클릭 수
