@@ -3,8 +3,8 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -23,7 +23,6 @@ JavaScript용 [!DNL AppMeasurement]에 대한 누적 릴리스 정보입니다.
 릴리스 일자: **2022년 9월 23일**
 
 * AppMeasurement는 이제 Chromium 브라우저(Google Chrome 및 Microsoft Edge)가 디바이스 정보를 제공하는 데 사용하는 높은 엔트로피 사용자 에이전트 클라이언트 힌트 수집을 지원합니다. 태그를 통해 클라이언트 힌트를 구성하거나 “collectHighEntropyUserAgentHints” 플래그를 사용할 수 있습니다. 높은 엔트로피 힌트 수집은 기본적으로 꺼져 있습니다. 사용자 에이전트 [클라이언트 힌트](/help/technotes/client-hints.md)에 대해 자세히 알아보십시오.
-
 
 ## 버전 2.22.4
 
