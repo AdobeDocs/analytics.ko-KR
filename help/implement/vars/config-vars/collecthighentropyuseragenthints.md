@@ -2,16 +2,16 @@
 title: collectHighEntropyUserAgentHints
 description: 'collectHighEntropyUserAgentHints 변수를 사용하여 Adobe가 Chromium 브라우저(예: Google Chrome 및 Microsoft Edge)에서 높은 엔트로피 힌트를 요청할지 여부를 결정합니다.'
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
-workflow-type: ht
+source-git-commit: 61d5006a20f13ab5aec9e1b63f4197e9a9c98429
+workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # collectHighEntropyUserAgentHints
 
-높은 엔트로피 클라이언트 힌트는 Adobe Analytics에서 디바이스 및 브라우저 식별을 개선하는 데 사용됩니다. 이 옵션은 AppMeasurment.js 버전 2.23.0부터 사용할 수 있습니다. [Google의 블로그](https://web.dev/user-agent-client-hints/)와 [이 개요 및 FAQ](/help/technotes/client-hints.md)에서 클라이언트 힌트에 대해 자세히 알아보십시오.
+높은 엔트로피 클라이언트 힌트는 Adobe Analytics에서 디바이스 및 브라우저 식별을 개선하는 데 사용됩니다. 이 옵션은 AppMeasurement.js 버전 2.23.0부터 사용할 수 있습니다. [Google의 블로그](https://web.dev/user-agent-client-hints/)와 [이 개요 및 FAQ](/help/technotes/client-hints.md)에서 클라이언트 힌트에 대해 자세히 알아보십시오.
 
 ## Web SDK를 사용하여 높은 엔트로피 힌트 수집
 
@@ -35,6 +35,6 @@ ht-degree: 100%
 
 TRUE로 설정하면 모든 높은 엔트로피 힌트가 브라우저에서 요청됩니다.
 
-`s.collectHighEntropyUserAgentHints = TRUE`
+`s.collectHighEntropyUserAgentHints = true`
 
-`s.collectHighEntropyUserAgentHints = FALSE`
+`s.collectHighEntropyUserAgentHints = false`
