@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ae44be2166334f2a2f785f877f6919cf295dc663
+source-git-commit: 5e6341663eecaa7ebc99155a9eec085a8b7acf1c
 workflow-type: tm+mt
-source-wordcount: '3527'
+source-wordcount: '3550'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,9 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 1월** |  |
-| 폴더 | 전용 페이지 [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) |
+| 폴더 | 전용 페이지 [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analyze/analysis-workspace/user-preferences.md). |
+| 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
 
 ### 2022 {#22}
 
