@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ae44be2166334f2a2f785f877f6919cf295dc663
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 100%
+source-wordcount: '3527'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 * Adobe Media Analytics에 대한 자세한 내용은 [Analytics 에서 오디오 및 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
 
 ## 주요 설명서 업데이트에 대한 세부 정보
+
+### 2023 {#23}
+
+| 기능 | 설명 |
+| --- | --- |
+| **2023년 1월** |  |
+| 폴더 | 전용 페이지 [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) |
 
 ### 2022 {#22}
 
