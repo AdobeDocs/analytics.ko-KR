@@ -4,10 +4,10 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 79%
+source-wordcount: '3947'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 새 랜딩 페이지가 릴리스되면 구성 요소 관리자 아래에 나열된 대로 프로젝트 관리자가 더 이상 사용되지 않습니다. 새 랜딩 페이지는 이전 프로젝트 관리자 페이지의 모든 기능 등을 처리합니다.
 
-프로젝트 관리자 페이지의 일반적인 사용 사례는 모든 프로젝트를 보는 것이었습니다. 필터 레일을 사용하여 새 랜딩 페이지에서 모든 프로젝트를 보려면 을 선택합니다 **기타 필터** 그런 다음 **모두 표시**.
+프로젝트 관리자 페이지의 일반적인 사용 사례는 모든 프로젝트를 보는 것이었습니다.
 
-![기타 필터](assets/other-filters.png)
+필터 레일을 사용하여 새 랜딩 페이지에서 모든 프로젝트를 보려면 을 선택합니다 **기타 필터** 그런 다음 **모두 표시**.
+
+![모든 프로젝트 표시](assets/show-all-fIlter.png)
 
 &quot;폴더 및 프로젝트&quot; 보기에 있는 경우, 모달이 &quot;모든 프로젝트&quot; 보기로 전환할지 여부를 묻는 팝업되어, 폴더 외부에서 모든 프로젝트를 쉽게 볼 수 있게 됩니다.   선택 **&quot;모든 프로젝트&quot; 보기로 전환** 액세스 권한이 있는 모든 프로젝트를 보다 잘 보려면 .
 
 ![모든 프로젝트로 전환](assets/switch-all-projects-view.png)
+
+관리자의 다른 사용 사례는 보고서를 삭제, 이름 변경, 태그 지정 또는 승인하기 위해 회사 보고서를 관리하는 것입니다. 보고서 관리에 대한 자세한 내용은 [회사 보고서 관리](#manage-company-reports).
 
 ## [!UICONTROL 보고서] 탭 탐색 {#navigate-reports}
 
@@ -188,6 +192,36 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
 * 신규 사용자를 위해서는 새 프로젝트를 구축하는 과정을 안내하는 [교육 튜토리얼](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) 비디오를 권장합니다.
 * [전체 Analysis Workspace 설명서](/help/analyze/analysis-workspace/home.md)에 대한 링크입니다.
 * 전체 [Analysis Workspace용 YouTube 재생 목록](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)입니다.
+
+### 회사 보고서 관리 {#manage-company-reports}
+
+관리자는 프로젝트 목록을 필터링하여 회사 보고서를 표시하고 관리할 수 있습니다. 고정된 항목 뒤에 ![보고서 아이콘](assets/report-icon.png) 보고서 아이콘 을 참조하십시오. 이 보기에서 하나 이상의 보고서를 삭제, 이름 변경, 태그 지정 또는 승인할 수 있습니다.
+
+회사 보고서를 표시하고 관리하려면
+
+1. 필터 레일에서 를 선택합니다. **기타 필터** 그런 다음 **회사 보고서**.
+회사 보고서 목록이 표시됩니다. 고정된 경우가 아니라면 모든 일반 프로젝트가 표시되지 않습니다.
+
+   ![회사 보고서 필터 표시](assets/company-reports-filter.png)
+
+   회사 보고서가 표시되면 관리자는 보고서를 삭제, 이름 변경, 태그 추가 또는 승인할 수 있습니다.
+
+1. 보고서 목록에서 단일 보고서를 선택하거나 여러 보고서를 선택합니다.
+
+1. 을(를) 클릭합니다. **...** 보고서 옆에 있는 정렬 아이콘을 사용하여 사용 가능한 옵션(삭제, 이름 변경, 태그 및 승인)을 볼 수 있습니다.
+
+   ![회사 보고서 작업](assets/company-reports-actions.png)
+
+1. 옵션(삭제, 이름 변경, 태그 및 승인)을 선택합니다.
+
+1. 작업이 완료되면 일반 보기로 돌아가려면 필터 레일에서 회사 보고서 옵션의 선택을 다시 취소하십시오.
+
+### 회사 보고서 삭제
+
+관리자는 회사 보고서 목록 옵션(위에 설명됨)을 사용하여 보고서를 삭제하거나 프로젝트 만들기 모달에서 보고서를 삭제할 수 있습니다.
+
+![기타 필터](assets/delete-fr-create-project-modal.png)
+
 
 ## 학습 탭 탐색 {#navigate-learning}
 
