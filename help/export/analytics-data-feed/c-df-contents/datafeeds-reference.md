@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
+source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3641'
 ht-degree: 98%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 98%
 | **`browser_width`** | 브라우저 창의 폭 (픽셀). | smallint 부호 없음 |
 | **`c_color`** | 색 팔레트의 비트 깊이입니다. [색상 심도](/help/components/dimensions/color-depth.md) 차원 계산의 일부로 사용됩니다. AppMeasurement는 JavaScript 함수 `screen.colorDepth()`를 사용합니다. | char (20) |
 | **`campaign`** | [추적 코드](/help/components/dimensions/tracking-code.md) 차원에 사용되는 변수입니다. | varchar (255) |
-| **`carrier`** | Adobe Advertising Cloud 통합 변수입니다. 이동통신사를 지정합니다. `carrier` 조회 테이블을 참조합니다. | varchar (100) |
+| **`carrier`** | Adobe Advertising 통합 변수입니다. 이동통신사를 지정합니다. `carrier` 조회 테이블을 참조합니다. | varchar (100) |
 | **`ch_hdr`** | HTTP 요청 헤더를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`ch_js`** | 사용자 에이전트 클라이언트 힌트 JavaScript API를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`channel`** | [사이트 섹션](/help/components/dimensions/site-section.md) 차원에 사용되는 변수입니다. | varchar (100) |
@@ -70,8 +70,8 @@ ht-degree: 98%
 | **`domain`** | [도메인](/help/components/dimensions/domain.md) 차원에 사용되는 변수입니다. 방문자의 인터넷 액세스 포인트를 기반으로 합니다. | varchar (100) |
 | **`duplicate_events`** | 중복으로 카운트된 각 이벤트를 나열합니다. | varchar (255) |
 | **`duplicate_purchase`** | 중복이라는 이유로 이 히트에 대한 구매 이벤트가 무시됨을 나타내는 플래그입니다. | tinyint 부호 없음 |
-| **`duplicated_from`** | 히트 복사 VISTA 규칙을 포함하는 보고서 세트에서만 사용됩니다. 히트가 복사된 보고서 세트를 나타냅니다. | varchar (40) |
-| **`ef_id`** | `ef_id` Adobe Advertising Cloud 통합에 사용됩니다. | varchar (255) |
+| **`duplicated_from`** | 히트 복사 VISTA 규칙을 포함하는 보고서 세트에서만 사용됩니다. 히트가 복사된 보고서 세트를 나타냅니다. | varchar(40) |
+| **`ef_id`** | `ef_id` Adobe Advertising 통합에 사용됩니다. | varchar (255) |
 | **`evar1 - evar250`** | 사용자 정의 변수 1-250입니다. [eVar](/help/components/dimensions/evar.md) 차원에 사용됩니다. 각 조직은 eVar를 다르게 사용합니다. 조직이 각 eVar를 채우는 방법에 대한 자세한 정보는 조직별 솔루션 설계 문서를 참조하십시오. | varchar (255) |
 | **`event_list`** | 히트로 트리거된 이벤트를 나타내는 숫자 ID들을 쉼표로 구분한 목록입니다. 기본 이벤트와 사용자 정의 이벤트 1-1000을 모두 포함합니다. `event.tsv` 조회를 사용합니다. | 텍스트 |
 | **`exclude_hit`** | 히트가 보고에서 제외됨을 나타내는 플래그입니다. `visit_num` 열은 제외된 히트에 대해 증가하지 않습니다.<br>1: 사용되지 않음. 스크랩된 기능 일부입니다.<br>2: 사용되지 않음. 스크랩된 기능 일부입니다.<br>3: 더 이상 사용되지 않습니다. 사용자 에이전트 제외<br>4: IP 주소에 따라 제외<br>5: 중요한 히트 정보가 없음. 예를 들어 `page_url`, `pagename`, `page_event` 또는 `event_list`<br>6: JavaScript가 현재 히트를 제대로 처리하지 않음<br>7: VISTA 규칙에서와 같이 계정별 제외<br>8: 사용되지 않음. 대체 계정별 제외.<br>9: 사용되지 않음. 스크랩된 기능 일부입니다.<br>10: 잘못된 통화 코드<br>11: 타임스탬프 전용 보고서 세트에서 히트에 타임스탬프가 없거나 히트에 타임스탬프가 아닌 보고서 세트의 타임스탬프가 포함됨<br>12: 사용되지 않음. 스크랩된 기능 일부입니다.<br>13: 사용되지 않음. 스크랩된 기능 일부입니다.<br>14: Analytics 히트와 일치하지 않는 Target 히트<br>15: 현재 사용되지 않음.<br>16: Analytics 히트와 일치하지 않는 Advertising Cloud 히트 | tinyint 부호 없음 |
@@ -184,7 +184,7 @@ ht-degree: 98%
 | **`ref_type`** | 히트에 대한 참조 유형을 나타내는 숫자 ID입니다. [레퍼러 유형](/help/components/dimensions/referrer-type.md) 차원에 사용됩니다. <br>1: 사이트 내부<br>2: 기타 웹 사이트 <br>3: 검색 엔진 <br>4: 하드 드라이브 <br>5: USENET <br>6: 입력/책갈피 표시 (레퍼러 없음) <br>7: 이메일 <br>8: JavaScript 없음 <br>9: 소셜 네트워크 | tinyint 부호 없음 |
 | **`referrer`** | 이전 페이지의 페이지 URL입니다. [레퍼러](/help/components/dimensions/referrer.md) 차원에 사용됩니다. `referrer`에서 varchar(255)의 데이터 유형을 사용하는 동안 `post_referrer`에서는 varchar (244)의 데이터 유형을 사용합니다. | varchar (255) |
 | **`resolution`** | 모니터의 해상도를 나타내는 숫자 ID입니다. [모니터 해상도](/help/components/dimensions/monitor-resolution.md) 차원에 사용됩니다. `resolution.tsv` 조회 테이블을 사용합니다. | smallint 부호 없음 |
-| **`s_kwcid`** | Adobe Advertising Cloud 통합에 사용되는 키워드 ID입니다. | varchar (255) |
+| **`s_kwcid`** | Adobe Advertising 통합에 사용되는 키워드 ID입니다. | varchar (255) |
 | **`s_resolution`** | Raw 화면 해상도 값입니다. JavaScript 함수 `screen.width x screen.height`를 사용하여 수집됩니다. | char (20) |
 | **`search_engine`** | 방문자에게 사이트를 참조하도록 하는 검색 엔진을 나타내는 숫자 ID입니다. `search_engines.tsv` 조회를 사용합니다. | smallint 부호 없음 |
 | **`search_page_num`** | [모든 검색 페이지 등급](/help/components/dimensions/all-search-page-rank.md) 차원에 사용됩니다. 사용자가 사이트에 클릭 스루하기 전에 사이트가 표시된 검색 결과 페이지를 나타냅니다. | smallint 부호 없음 |
