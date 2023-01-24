@@ -1,8 +1,8 @@
 ---
 source-git-commit: d42b7ef770a51f0379e358367a5b64202970fd60
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # 스니펫
