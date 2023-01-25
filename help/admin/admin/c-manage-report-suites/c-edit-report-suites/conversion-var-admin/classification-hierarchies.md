@@ -5,8 +5,8 @@ title: 분류 계층
 feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
-source-wordcount: '297'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
