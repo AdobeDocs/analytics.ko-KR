@@ -4,8 +4,8 @@ description: 봇의 공통 식별자를 인식합니다.
 feature: Bot Removal
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '521'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
