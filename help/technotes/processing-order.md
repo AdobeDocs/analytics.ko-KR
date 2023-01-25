@@ -3,8 +3,8 @@ title: Adobe Analytics의 데이터 처리 순서
 description: Adobe Analytics에서 데이터를 처리하는 구성 요소 순서 및 서비스에 대해 알아봅니다.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '588'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
