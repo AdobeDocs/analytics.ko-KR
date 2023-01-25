@@ -5,8 +5,8 @@ title: Workspace에서 폴더 추가
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
-workflow-type: tm+mt
-source-wordcount: '214'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
