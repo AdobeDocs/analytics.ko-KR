@@ -4,8 +4,8 @@ description: 봇을 제외하는 다양한 방법을 비교할 수 있습니다.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 feature: Bot Removal
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '325'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
