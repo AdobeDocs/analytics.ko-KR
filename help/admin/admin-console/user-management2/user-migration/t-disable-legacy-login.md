@@ -4,8 +4,8 @@ title: 기존 로그인 비활성화
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '185'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
