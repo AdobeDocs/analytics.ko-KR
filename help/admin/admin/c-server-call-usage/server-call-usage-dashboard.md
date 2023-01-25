@@ -4,8 +4,8 @@ title: 현재 서버 호출 사용량 보기
 feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: tm+mt
-source-wordcount: '288'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
