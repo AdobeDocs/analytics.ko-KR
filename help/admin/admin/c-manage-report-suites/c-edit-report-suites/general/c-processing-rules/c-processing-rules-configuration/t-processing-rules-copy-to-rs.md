@@ -5,8 +5,8 @@ title: 다른 보고서 세트에 처리 규칙 복사
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
-source-wordcount: '116'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
