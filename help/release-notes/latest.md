@@ -3,7 +3,7 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a3683ec1697932201593d21b7f5b8f0e304f364e
+source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 58%
@@ -36,7 +36,7 @@ AN-282634; AN-289684; AN-299597; AN-299630; AN-300128; AN-301633; AN-301683; AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 1월 25일 | 장치 조회에서 클라이언트 힌트 사용이 시작됩니다 **2023년 2월 15일**. <p> <p>2022년 10월부터 웹 SDK 또는 AppMeasurement JavaScript 라이브러리로 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 2월까지는 장치 조회에 통합되지 않습니다. 이때 Adobe은 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 장치 정보를 도출할 때 사용자-에이전트 외에 클라이언트 힌트를 사용하기 시작합니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
+| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 1월 25일 | 장치 조회에서 클라이언트 힌트 사용이 시작됩니다 **2023년 2월 16일**. <p> <p>2022년 10월부터 웹 SDK 또는 AppMeasurement JavaScript 라이브러리로 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 2월까지는 장치 조회에 통합되지 않습니다. 이때 Adobe은 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 장치 정보를 도출할 때 사용자-에이전트 외에 클라이언트 힌트를 사용하기 시작합니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 | **Reports &amp; Analytics에서 예약된 보고서 일시 중지** | 2023년 1월 6일 | 이는 Adobe이 다음에서 이러한 기능을 사용하지 않을 것임을 상기시키는 것입니다 **2023년 1월 31일**. 보고서와 데이터 추출의 만료 기간은 계속 9개월로 제한됩니다. 보고서 및 데이터 추출 게재는 일정이 다시 활성화되지 않는 한 이 기간이 끝나면 일시 중지됩니다.<p>반복해서 말씀드리지만 이들 기능은 2023년 1월 31일에 사용이 중단됩니다. 해당 날짜 이전에 예약된 보고를 Adobe Analytics에서 사용할 수 있는 다른 메커니즘 중 하나로 마이그레이션해야 합니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **Report Builder에서 예약된 작업 일시 중지** | 2023년 1월 6일 | 설정 **2023년 1월 31일**, Adobe은 성능 및 게재 최적화 노력의 일환으로 Report Builder의 예약된 작업에 대한 변경 사항을 롤아웃합니다. 이러한 변경 사항에는 예약된 게재를 &quot;x 회 후 종료&quot;하는 기능을 제거하는 작업이 포함됩니다.<p>계속해서 시간별 Report Builder 작업을 예약하고 최대 99회 발생 후 종료되도록 할 수 있습니다. 롤백은 시간별 작업에만 적용됩니다. “x회 발생 후 종료”는 다른 모든 게재 간격(일별, 주별, 월별 및 연간)에 대해 계속 사용할 수 없습니다. 이 옵션은 2023년 1월 31일에 사용이 중단됩니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **개선된 IP-to-geolocation 매핑** | 2023년 1월 4일 | 당사의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. 원래 2022년 10월에 계획되었던 Adobe Analytics은 **2023년 1월 11일**. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p>모든 Adobe Analytics 도구(Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, LiveStream, Analytics 데이터 피드 등)는 새로운 매핑 기능을 자동으로 활용합니다. 데이터 피드의 데이터 형식은 변경되지 않습니다. Analytics 소스 커넥터를 통해 제공된 CJA 데이터는 자동으로 새로운 매핑을 활용합니다. |
