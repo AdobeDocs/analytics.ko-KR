@@ -3,8 +3,8 @@ title: Adobe Analytics의 VISTA 규칙
 description: VISTA 규칙 및 해당 기능에 대해 자세히 알아보십시오.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '266'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
