@@ -2,7 +2,7 @@
 title: 클라이언트 힌트
 description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
+source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 77%
@@ -45,7 +45,7 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 
 +++**클라이언트 힌트 수집을 활성화하려면 어떻게 해야 합니까?**
 
-낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 및 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html)에 대한 방향을 참조하십시오.
+낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. 다음 사항에 대한 지침 참조 [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 및 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 두 라이브러리 모두에서 높은 엔트로피 힌트 수집은 **기본적으로 비활성화**&#x200B;되어 있습니다.
 

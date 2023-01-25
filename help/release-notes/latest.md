@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
+source-git-commit: a3683ec1697932201593d21b7f5b8f0e304f364e
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 59%
+ht-degree: 58%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 노트
 
-**마지막 업데이트**: 2023년 1월 12일
+**마지막 업데이트**: 2023년 1월 25일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -36,12 +36,12 @@ AN-282634; AN-289684; AN-299597; AN-299630; AN-300128; AN-301633; AN-301683; AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
+| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 1월 25일 | 장치 조회에서 클라이언트 힌트 사용이 시작됩니다 **2023년 2월 15일**. <p> <p>2022년 10월부터 웹 SDK 또는 AppMeasurement JavaScript 라이브러리로 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 2월까지는 장치 조회에 통합되지 않습니다. 이때 Adobe은 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 장치 정보를 도출할 때 사용자-에이전트 외에 클라이언트 힌트를 사용하기 시작합니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 | **Reports &amp; Analytics에서 예약된 보고서 일시 중지** | 2023년 1월 6일 | 이는 Adobe이 다음에서 이러한 기능을 사용하지 않을 것임을 상기시키는 것입니다 **2023년 1월 31일**. 보고서와 데이터 추출의 만료 기간은 계속 9개월로 제한됩니다. 보고서 및 데이터 추출 게재는 일정이 다시 활성화되지 않는 한 이 기간이 끝나면 일시 중지됩니다.<p>반복해서 말씀드리지만 이들 기능은 2023년 1월 31일에 사용이 중단됩니다. 해당 날짜 이전에 예약된 보고를 Adobe Analytics에서 사용할 수 있는 다른 메커니즘 중 하나로 마이그레이션해야 합니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **Report Builder에서 예약된 작업 일시 중지** | 2023년 1월 6일 | 설정 **2023년 1월 31일**, Adobe은 성능 및 게재 최적화 노력의 일환으로 Report Builder의 예약된 작업에 대한 변경 사항을 롤아웃합니다. 이러한 변경 사항에는 예약된 게재를 &quot;x 회 후 종료&quot;하는 기능을 제거하는 작업이 포함됩니다.<p>계속해서 시간별 Report Builder 작업을 예약하고 최대 99회 발생 후 종료되도록 할 수 있습니다. 롤백은 시간별 작업에만 적용됩니다. “x회 발생 후 종료”는 다른 모든 게재 간격(일별, 주별, 월별 및 연간)에 대해 계속 사용할 수 없습니다. 이 옵션은 2023년 1월 31일에 사용이 중단됩니다. 추가 질문이 있거나 지원이 필요한 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **개선된 IP-to-geolocation 매핑** | 2023년 1월 4일 | 당사의 IP 조회 공급업체인 Digital Element는 IP-to-geolocation 매핑을 위해 새롭게 개선된 데이터 세트(NetAcuity Pulse)로 업그레이드하고 있습니다. 원래 2022년 10월에 계획되었던 Adobe Analytics은 **2023년 1월 11일**. 새 데이터베이스는 이전 버전보다 더 정확합니다. 새 데이터베이스가 채택되면 일부 IP-to-geo 매핑이 변경 및 개선됩니다.<p>모든 Adobe Analytics 도구(Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, LiveStream, Analytics 데이터 피드 등)는 새로운 매핑 기능을 자동으로 활용합니다. 데이터 피드의 데이터 형식은 변경되지 않습니다. Analytics 소스 커넥터를 통해 제공된 CJA 데이터는 자동으로 새로운 매핑을 활용합니다. |
 | **새로운 NetAcuity 통신사 데이터베이스로 업데이트** | 2023년 1월 4일 | 원래 2022년 10월 5일에 계획된 이 업데이트는 다음에 수행됩니다 **2023년 1월 11일**. Adobe Analytics Data Warehouse 및 Analytics 데이터 피드의 `carrier` 필드에 저장된 통신사 관련 정보가 변경될 예정입니다. 지금까지 해당 열의 데이터 형식은 `<domain>:<ISP>`였습니다. Adobe은 이러한 테이블을 매핑하기 위해 내부 조회 테이블을 유지 관리했습니다 `<domain>:<ISP>` Adobe Analytics 보고 도구(Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, LiveStream 등)에서 보고를 위해 통신사 이름에 값을 포함하는 경우도 있습니다. 조회 파일(`carrier.tsv`)에는 데이터 피드가 제공되어 동일한 매핑을 사용할 수 있습니다.<p>이 업데이트는 NetAcuity의 보다 정확한 통신사 데이터베이스를 사용하여 통신사 매핑을 향상시킵니다. 데이터 피드의 통신사 열에 있는 데이터 형식은 향후 변경될 예정입니다. `<domain>:<ISP>` 대신 통신사 이름이 포함됩니다. Adobe는 계속해서 조회 테이블을 사용하여 가능한 한 과거 보고서와의 연속성을 유지할 것입니다. Adobe에서 조회를 적용하는 보고 도구 (Analysis Workspace, Reports &amp; Analytics, 보고 API, Data Warehouse, 라이브스트림 등) 보다 정확한 매핑의 이점을 얻을 수 있습니다. 일부 매핑(특히 국제 도메인 및 ISP의 경우)은 Adobe가 새 데이터베이스를 채택할 때 다른 매핑보다 더 많이 변경될 수 있습니다. 데이터 피드 통신사 조회 파일(`carrier.tsv`)은 이전 매핑을 유지하고 새 매핑을 추가합니다.<p>Analytics 소스 커넥터는 현재 통신사 필드를 매핑하지 않으므로 현재 Experience Platform, CJA 등에서 통신사 보고를 사용할 수 없습니다. 따라서 새 통신사 데이터베이스를 사용하더라도 Analytics Source Connector에서 제공한 데이터를 기반으로 하는 Experience Platform의 어떤 것에도 영향을 미치지 않습니다. |
 | **트래픽 급증 알림에 대한 업데이트된 지침** | 2022년 11월 18일 | 이전 지침은 철저하게 조회수를 기반으로 했습니다. [새 지침](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=ko)은 보고서 세트 크기와 증가율의 조합을 기반으로 합니다. |
-| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 1월 6일 | 장치 조회에서 클라이언트 힌트 사용이 시작됩니다 **2023년 1월 25일**. <p> <p>2022년 10월부터 웹 SDK 또는 AppMeasurement JavaScript 라이브러리로 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 1월까지 디바이스 조회에 통합되지 않을 예정입니다. 이때 Adobe은 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 장치 정보를 도출할 때 사용자-에이전트 외에 클라이언트 힌트를 사용하기 시작합니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
