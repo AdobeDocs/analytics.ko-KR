@@ -4,8 +4,8 @@ title: 보고서 세트 설정 다운로드
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
-source-wordcount: '71'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
