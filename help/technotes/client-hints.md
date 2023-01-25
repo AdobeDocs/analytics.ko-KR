@@ -2,10 +2,10 @@
 title: 클라이언트 힌트
 description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
+source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 88%
+source-wordcount: '1230'
+ht-degree: 77%
 
 ---
 
@@ -21,11 +21,11 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 
 >[!NOTE]
 >
->클라이언트 힌트는 2023년 1월 25일부터 Analytics 장치 조회 프로세스에 통합됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 1월 중순까지는 디바이스 조회에 사용되지 않습니다. 이는 중요한 연말 기간 동안 보고가 중단될 수 있는 가능성을 피하기 위한 조치입니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 동결될 예정이지만 점진적인 롤아웃과 대부분의 사용자 에이전트가 올바른 OS 버전으로 동결될 예정이기 때문에 Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
+>클라이언트 힌트는 2023년 2월 15일부터 Analytics 장치 조회 프로세스에 통합됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 컬렉션을 지원하지만 2월 중순까지 장치 조회에는 사용되지 않습니다. 아래에 명시된 대로 운영 체제 버전은 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 이미 동결된 OS 버전을 제공한다는 사실 때문에 동결되었습니다(자세한 내용 [여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko))이면 이것은 &lt;Chrome 방문자의 3%에 영향을 미칠 것으로 예상됩니다.
 
 >[!NOTE]
 >
->2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 “중단”할 예정입니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
+>2022년 10월부터 Chromium 브라우저의 새 버전에서 사용자 에이전트 문자열에 표시되는 운영 체제 버전을 &#39;동결&#39;하기 시작했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
 
 >[!NOTE]
 >
@@ -48,6 +48,8 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 및 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html)에 대한 방향을 참조하십시오.
 
 두 라이브러리 모두에서 높은 엔트로피 힌트 수집은 **기본적으로 비활성화**&#x200B;되어 있습니다.
+
+API를 통해 제출된 데이터의 경우(예: 를 통해) [데이터 삽입 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [대량 데이터 삽입 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), 힌트는 페이로드에 명시적으로 포함해야 합니다. 자세한 내용은 각 설명서를 참조하십시오.
 
 +++
 
@@ -72,6 +74,8 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 | Sec-CH-UA-Full-Version-List | 버전이 포함된 브랜드 목록 | 높음 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-Model | 디바이스 모델 | 높음 | “픽셀 3” |
 | Sec-CH-UA-Platform-Version | 운영 체제/플랫폼 버전 | 높음 | “10” |
+
+높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 매개 변수를 통해 전달됩니다
 
 +++
 
