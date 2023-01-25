@@ -3,9 +3,9 @@ title: 운영 체제
 description: 방문자의 운영 체제입니다.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 26de81f090cebb45473a04a2edbe281f1c8591a4
+source-git-commit: 17c441f8855b8ca0604076763817de8d4d3b8efb
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 34%
 
 ---
@@ -28,16 +28,16 @@ ht-degree: 34%
 
 ### Apple 운영 체제에 대한 이름 지정 규칙 변경:
 
-버전 11부터 Mac OS 대신 OS X 를 사용하여 Apple 운영 체제를 참조합니다.
+버전 11부터 OS X 대신 MacOS 를 사용하여 Apple 운영 체제를 참조할 예정입니다.
 
 예:
 
-* macOS 버전 10.15.7(UA 문자열의 표현10.15.7 버전 위에 대한 아래 참고 참조)
-* OS X 버전 11.0.0
+* &quot;OS X 10.15&quot;(UA 문자열의 표현 10.15.7에 대한 아래 참고 참조)
+* &quot;MacOS 11.0.0
 
 ### 버전 10.15.7 이후 사용자 에이전트에서 Mac OS 버전이 잘못되었습니다 
 
-2023년 1월 현재 모든 브라우저의 사용자 에이전트는 최신 버전의 Mac OS 버전을 10.15.7으로 표시합니다. 이 작업은 UA에 버전 11을 포함함으로써 일부 웹 사이트에 문제를 일으켰기 때문에 수행되었습니다. Apple은 UA에 잘못된 OS 버전을 포함하면 몇 가지 개인 정보 보호 이점이 있습니다.
+Apple 컴퓨터의 사용자 에이전트는 최신 버전인 경우에도 OS 버전 10.15.7으로 표시됩니다. 이 작업은 UA에 버전 11을 포함함으로써 일부 웹 사이트에 문제를 일으켰기 때문에 수행되었습니다. 이것은 다음 경우에 적용됩니다 *모든 브라우저* 및 는 Chromium 브라우저에서 사용자 에이전트의 &#39;동결&#39;과 관련이 없습니다.
 
 클라이언트 힌트에 플랫폼 버전 힌트에 올바른 버전이 포함되어 있습니다(&quot;Sec-CH-UA-Platform-Version&quot;). 이것은 높은 엔트로피 힌트이므로 Adobe이 자동으로 수집하지 않습니다. 자세한 내용은 [Adobe Analytics 힌트 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 높은 엔트로피 힌트를 수집하는 방법에 대한 자세한 정보.
 
