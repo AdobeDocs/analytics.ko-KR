@@ -4,8 +4,8 @@ title: 지난 서버 호출 예측 및 트래픽 스파이크 예약
 feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
 source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: tm+mt
-source-wordcount: '212'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
