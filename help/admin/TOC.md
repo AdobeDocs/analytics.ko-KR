@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 97%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 97%
       + [서버 호출 사용량 경고](admin/c-server-call-usage/scu-alerts.md)
       + [서버 호출 사용량 FAQ](admin/c-server-call-usage/overage-faq.md)
 + 데이터 거버넌스 {#data-governance}
-   + [Adobe Analytics 및 GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics 및 CCPA](c-data-governance/an-ccpa-overview.md)
-   + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
-   + [자주 묻는 질문](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics 데이터 개인정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
-   + [Analytics 구성 요소의 데이터 개인 정보 레이블](c-data-governance/gdpr-labels.md)
-   + [보고서 세트 데이터에 레이블 지정](c-data-governance/gdpr-setup-reportsuite.md)
-   + [보고서 세트의 개인 정보 레이블 보기/관리](c-data-governance/gdpr-view-settings.md)
-   + [레이블 지정 모범 사례](c-data-governance/gdpr-analytics-ids.md)
-   + [레이블 지정 예](c-data-governance/gdpr-labeling-example.md)
+   + [FAQ](c-data-governance/gdpr-faq.md)
+   + 데이터 레이블 지정 {#data-labels}
+      + [Analytics 구성 요소의 데이터 개인 정보 레이블](c-data-governance/data-labeling/gdpr-labels.md)
+      + [보고서 세트 데이터에 레이블 지정](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [보고서 세트의 개인 정보 레이블 보기/관리](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [레이블 지정 모범 사례](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [레이블 지정 예](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [네임스페이스](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
-   + [네임스페이스](c-data-governance/gdpr-namespaces.md)
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
-   + [데이터 개인정보 보호 및 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [데이터 개인정보 보호 용어](c-data-governance/gdpr-terminology.md)
+   + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
 + [관리 API](c-admin-api/c-admin-api.md)

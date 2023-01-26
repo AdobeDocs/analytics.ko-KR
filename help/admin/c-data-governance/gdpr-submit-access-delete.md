@@ -3,8 +3,8 @@ description: Adobe Analytics에서 데이터 액세스 및 요청 삭제 방법
 title: 액세스 및 삭제 요청 제출
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Adobe의 [개인정보 보호 서비스 UI](https://experienceleague.adobe.com/d
 주의 사항
 
 * companyContexts 섹션의 &quot;5D7236525AA6D9580A495C6C@AdobeOrg&quot; 값은 Experience Cloud 조직의 값으로 업데이트해야 합니다.
-* type 및 namespace 필드는 [네임스페이스](/help/admin/c-data-governance/gdpr-namespaces.md) 섹션에 더 자세하게 설명되어 있습니다.
+* type 및 namespace 필드는 [네임스페이스](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md) 섹션에 더 자세하게 설명되어 있습니다.
 * description 필드는 무시됩니다.
 * key 필드에는 원하는 값이 포함될 수 있습니다. 데이터 개인정보 보호 요청 추적에 사용하는 내부 ID가 있는 경우 여기에 해당 값을 지정하여 Adobe 시스템의 요청을 사용자 시스템의 요청에 보다 쉽게 일치시킬 수 있습니다.
 
