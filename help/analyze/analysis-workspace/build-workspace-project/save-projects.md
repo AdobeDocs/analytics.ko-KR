@@ -4,10 +4,10 @@ title: 프로젝트 저장
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '727'
+ht-degree: 38%
 
 ---
 
@@ -85,10 +85,6 @@ Analysis Workspace의 모든 프로젝트는 2분마다 로컬 시스템에 자�
 저장되지 않은 **새** 프로젝트의 경우 저장하지 않은 변경 사항은 복구할 수 없습니다.
 
 ## 이전 버전 열기 {#previous-version}
-
->[!NOTE]
->
->이전 버전의 프로젝트 릴리스는 현재 제한된 상태입니다.
 
 이전 버전의 프로젝트를 열려면
 
