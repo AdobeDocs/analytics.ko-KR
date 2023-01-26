@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
+source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 97%
@@ -20,16 +20,6 @@ ht-degree: 97%
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](get-started/analytics-product-comparison.md)
    + [시스템 요구 사항](get-started/sys-reqs.md)
-   + 회사 설정 {#company-settings}
-      + [회사 설정 개요](get-started/company/c-company-settings.md)
-      + [기능 액세스 수준](get-started/company/feature-access-levels.md)
-      + [웹 서비스](get-started/company/web-services-admin.md)
-      + [Report Builder 보고서](get-started/company/report-builder-reports-admin.md)
-      + [SSO(Single Sign-On)](get-started/company/single-signon-admin.md)
-      + [보류 중인 작업](get-started/company/pending-actions-admin.md)
-      + [공동 브랜딩](get-started/company/co-branding-admin.md)
-      + [보고서 세트 숨기기](get-started/company/c-hide-report-suites.md)
-      + [보안 관리자](get-started/company/security-manager.md)
 + Adobe Admin Console의 사용자 권한 {#admin-console}
    + [Adobe Admin Console의 Analytics](admin-console/home.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
@@ -160,6 +150,16 @@ ht-degree: 97%
             + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [실시간 보고서 구성](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [지원되는 실시간 지표 및 차원](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+   + 회사 설정 {#company-settings}
+      + [회사 설정 개요](admin/company/c-company-settings.md)
+      + [기능 액세스 수준](admin/company/feature-access-levels.md)
+      + [웹 서비스](admin/company/web-services-admin.md)
+      + [Report Builder 보고서](admin/company/report-builder-reports-admin.md)
+      + [SSO(Single Sign-On)](admin/company/single-signon-admin.md)
+      + [보류 중인 작업](admin/company/pending-actions-admin.md)
+      + [공동 브랜딩](admin/company/co-branding-admin.md)
+      + [보고서 세트 숨기기](admin/company/c-hide-report-suites.md)
+      + [보안 관리자](admin/company/security-manager.md)
    + [간소화된 보고서 메뉴](admin/t-simplified-menu.md)
    + [비디오 관리](admin/video-management.md)
    + 서버 호출 사용량 {#server-call-usage}

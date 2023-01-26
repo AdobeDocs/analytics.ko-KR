@@ -3,9 +3,9 @@ description: Adobe Analytics의 연속 기능 릴리스 전략에 대해 설명�
 title: Adobe Analytics 기능 릴리스
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+workflow-type: tm+mt
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -41,4 +41,4 @@ Adobe Analytics 릴리스는 기능 배포에 대한 확장 가능한 단계별 
 | 질문 | 답변 |
 | --- | --- |
 | 기능에 대한 조기 액세스를 요청할 수 있습니까? | 아니요. 조기 액세스는 허용되지 않습니다.<br>초기 Analytics 개념을 테스트하려는 경우 [Adobe Analytics Labs](/help/analyze/labs.md)를 사용하여 업계를 선도하는 혁신적인 기술에 대한 피드백을 제공할 것을 권장합니다. |
-| 이 릴리스 전략은 기능 액세스에 영향을 줍니까? | 아니요. 기능이 GA에 도달하면 Analytics 패키지에 포함된 경우 이 기능에 액세스할 수 있습니다.<br>Analytics 패키지에 대한 세부 사항은 [기능 액세스 수준](/help/admin/get-started/company/feature-access-levels.md)에서 확인할 수 있습니다. |
+| 이 릴리스 전략은 기능 액세스에 영향을 줍니까? | 아니요. 기능이 GA에 도달하면 Analytics 패키지에 포함된 경우 이 기능에 액세스할 수 있습니다.<br>Analytics 패키지에 대한 세부 사항은 [기능 액세스 수준](/help/admin/admin/company/feature-access-levels.md)에서 확인할 수 있습니다. |
