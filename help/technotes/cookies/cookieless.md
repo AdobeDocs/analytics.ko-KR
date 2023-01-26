@@ -3,10 +3,10 @@ title: 브라우저 쿠키 제안의 영향을 경감하기 위한 옵션
 description: 브라우저 쿠키 제안의 영향을 경감하여 Adobe Analytics에 대한 데이터 수집을 개선하는 방법을 알아보십시오.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 서버측 수집에서는 유연성을 제공하여 자신의 쿠키 설정을 위한 브라우저 메커니즘에 의존하기 보다는 식별자를 제공합니다.
 
-[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 &quot;[어느 Adobe Analytics 도구를 사용해야 하는가](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=ko)&quot;를 참조하십시오.
+[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 &quot;[어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## 웹 SDK를 사용하는 자사 장치 ID(FPID)
 

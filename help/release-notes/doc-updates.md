@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '3556'
+source-wordcount: '3549'
 ht-degree: 99%
 
 ---
@@ -178,7 +178,7 @@ ht-degree: 99%
 | 2020년 1월 24일 | 작업 영역의 [백분율](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) 페이지에 대한 업데이트입니다. |
 | 2020년 1월 16일 | [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 작업 영역에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
-| 2020년 1월 13일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html) 페이지를 수정했습니다. |
+| 2020년 1월 13일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md) 페이지를 수정했습니다. |
 
 ### 2019 {#19}
 
