@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 2ee9007bdb3e359c9d5babe81c6f64bd7d7b6e8e
+source-git-commit: 6aecf51563bfe112ac51248f45167db83fe54fd7
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 96%
@@ -75,7 +75,7 @@ ht-degree: 96%
             + 유료 검색 감지 {#paid-search-detection}
                + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [메뉴 사용자 정의](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [메뉴 사용자 지정](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + [사용자 정의 캘린더](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 처리 규칙 {#c-processing-rules}
                + [처리 규칙 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
