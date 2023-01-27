@@ -3,16 +3,16 @@ description: 히트 데이터, 액세스 요청, 삭제 요청에 대한 데이�
 title: 레이블 지정의 예
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 레이블 지정의 예
 
-## 샘플 히트 데이터
+## 샘플 히트 데이터 {#hit}
 
 다음 히트 데이터가 있다고 가정합니다.
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## 샘플 액세스 요청
+## 샘플 액세스 요청 {#access}
 
 액세스 요청을 제출하면 요약 파일에 아래 표에 표시된 값이 포함됩니다. 요청은 디바이스 파일만 반환하거나 개인 파일만 반환할 수 있습니다 (즉, 각각에 대해 하나). 개인 ID가 사용되고 expandIds가 true인 경우에만 두 개의 요약 파일이 반환됩니다.
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 expandIDs에 대한 설정은 쿠키 ID를 사용할 때 출력에 영향을 미치지 않습니다.
 
-## 샘플 삭제 요청
+## 샘플 삭제 요청 {#delete}
 
 삭제 요청에 표의 첫 번째 행에 있는 API 값을 사용하면 히트 표가 다음과 같이 업데이트됩니다.
 

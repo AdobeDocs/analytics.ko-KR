@@ -3,7 +3,7 @@ description: 데이터 거버넌스에 대한 개인 정보 보호 레이블 지
 title: 데이터 거버넌스에 대한 개인 정보 레이블 보기/관리
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ ht-degree: 44%
    >
    >항상 대상 보고서 세트를 검사하여 레이블이 올바르게 복사되었는지 확인해야 합니다. 이는 ID 또는 DEL 레이블이 있는 변수에 특히 중요합니다.
 
-## .csv 파일로 내보내기
+## .csv 파일로 내보내기 {#export-csv}
 
 선택한 보고서 세트의 모든 변수에 대한 현재 레이블 정의가 모두 포함된 CSV 파일을 다운로드할 수 있습니다. 법무팀에서는 레이블 지정 옵션을 검토하고 이 옵션을 통해 이 검토를 쉽게 수행할 것을 권장합니다. 데이터 거버넌스 UI에 로그인하는 동안 검토를 수행할 필요 없이 .CSV 파일을 공유할 수 있습니다.
 
@@ -85,6 +85,6 @@ ht-degree: 44%
 
 1. 모든 데이터 거버넌스 설정을 내보낼 보고서 세트를 한 개 이상 선택합니다.
 
-## 개인 정보 레이블 편집
+## 개인 정보 레이블 편집 {#edit}
 
 을(를) 참조하십시오. [보고서 세트 개인 정보 레이블 지정 또는 편집](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

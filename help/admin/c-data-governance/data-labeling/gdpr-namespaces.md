@@ -3,10 +3,10 @@ description: 검색할 수 있도록 하려는 각 ID에는 네임스페이스�
 title: 네임스페이스
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID (AAID)로 알려져 �
 
 또한 `"namespaceId": 10`을 `"namespace": "AAID"` 대신 또는 추가로 사용할 수 있으며, 일부 다른 Adobe 제품에서 해당 양식을 사용할 수도 있습니다.
 
-## Legacy Analytics Tracking Cookie: 사용되지 않는 형식
+## 기존 Analytics 추적 쿠키: 사용되지 않는 양식
 
 ```
 {
@@ -90,7 +90,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID (AAID)로 알려져 �
 
 네임스페이스도 사용자 정의 방문자 ID에 대해 사전 정의되어 있습니다.
 
-## 사용자 정의 변수의 ID
+## 사용자 지정 변수의 ID
 
 ```
 {
