@@ -3,9 +3,9 @@ description: 데이터 거버넌스에 대한 개인 정보 보호 레이블 지
 title: 데이터 거버넌스에 대한 개인 정보 레이블 보기/관리
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 44%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 44%
 
 ## 보고서 세트에 개인 정보 레이블 복사  {#copy-to-rs}
 
-동일한 DULE/데이터 개인 정보 보호 설정을 둘 이상의 보고서 세트에 적용하려면 다음 단계를 수행합니다.
+동일한 데이터 개인 정보 보호 설정을 둘 이상의 보고서 세트에 적용하려면 다음 단계를 수행합니다.
 
 1. 복사할 변수를 선택합니다. 한 번에 하나의 변수에 대한 레이블만 복사할 수 있습니다.
 1. 클릭 **[!UICONTROL 보고서 세트에 복사]** ( 데이터 거버넌스 대화 상자 하단에 있습니다.)
