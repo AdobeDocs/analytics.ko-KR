@@ -3,10 +3,10 @@ description: 보고서 세트 데이터에 레이블을 지정하는 것은 지�
 title: 보고서 세트 데이터에 레이블 지정
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 50%
+source-wordcount: '539'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 ## 보고서 세트 개인 정보 레이블 지정 또는 편집 {#assign-edit}
 
-**예**: 데이터 제어자는 해당 데이터 개인정보 보호 요청을 처리하기 위해 데이터 주체의 이메일 주소와 쿠키 ID를 수집하도록 계획합니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다. 이메일 주소 및 쿠키 ID에 대한 레이블을 만들려면 Analytics에서 Adobe Experience Cloud 플랫폼의 DULE(Data Usage Labeling &amp; Enforcement) 프레임워크를 사용해야 합니다.
+**예**: 데이터 제어자는 해당 데이터 개인정보 보호 요청을 처리하기 위해 데이터 주체의 이메일 주소와 쿠키 ID를 수집하도록 계획합니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다.
 
 1. Adobe Analytics에서 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 구성 및 수집]** > **[!UICONTROL 데이터 거버넌스]**.
 
@@ -48,10 +48,6 @@ ht-degree: 50%
    이 화면에는 현재 적용된 레이블이 표시되며 추가 레이블을 적용할 수 있습니다. 구성 요소에 따라 모든 레이블을 적용하거나 수정할 수 없을 수 있습니다.
 
    ![적용된 레이블](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >DULE (Data Usage Labeling &amp; Enforcement) 프레임워크는 Adobe Experience Cloud에서 데이터에 대한 메타데이터를 캡처, 통신 및 사용하는 동일한 방법을 솔루션/서비스/플랫폼에 제공하도록 설계되었습니다. 메타데이터를 통해 데이터 제어자는 개인정보에 해당하는 데이터, 중요 데이터, 데이터와 연관된 계약 제한 사항을 나타낼 수 있습니다.
 
 1. 모든 레이블 지정을 완료한 후 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
