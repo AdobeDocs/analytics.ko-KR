@@ -3,9 +3,9 @@ description: 제출하는 ID가 Analytics에서 데이터 주체와 연결할 �
 title: ID 확장
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '1355'
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+workflow-type: tm+mt
+source-wordcount: '1338'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 "expandIds": true
 ```
 
-요청에 이 옵션을 포함시키는 방법에 대한 예는 [샘플 JSON 요청](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)을 참조하십시오. 자세한 내용은 [개인정보 보호 서비스 API 문서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오.
+자세한 내용은 [개인정보 보호 서비스 API 문서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오.
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
