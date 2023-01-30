@@ -2,10 +2,10 @@
 title: 클라이언트 힌트
 description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 77%
+source-wordcount: '1248'
+ht-degree: 76%
 
 ---
 
@@ -63,7 +63,7 @@ API를 통해 제출된 데이터의 경우(예: 를 통해) [데이터 삽입 A
 
 아래 표에서 2022년 10월 시점의 클라이언트 힌트를 확인할 수 있습니다.
 
-| 힌트 | 설명 | 높은 엔트로피 또는 낮은 엔트로피 | 예 |
+| 힌트* | 설명 | 높은 엔트로피 또는 낮은 엔트로피 | 예 |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | 브라우저 및 주요 버전 | 낮음 | “Google Chrome 84” |
 | Sec-CH-UA-Mobile | 모바일 디바이스 (참 또는 거짓) | 낮음 | TRUE |
@@ -75,7 +75,11 @@ API를 통해 제출된 데이터의 경우(예: 를 통해) [데이터 삽입 A
 | Sec-CH-UA-Model | 디바이스 모델 | 높음 | “픽셀 3” |
 | Sec-CH-UA-Platform-Version | 운영 체제/플랫폼 버전 | 높음 | “10” |
 
-높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 매개 변수를 통해 전달됩니다
+
+* 낮은 엔트로피 힌트는 헤더를 통해 수집됩니다. 높은 엔트로피 힌트는 JavaScript를 통해 수집되고 쿼리 문자열 매개 변수로 전달됩니다.
+
+* 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 매개 변수를 통해 전달됩니다
+
 
 +++
 
