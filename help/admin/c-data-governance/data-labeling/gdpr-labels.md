@@ -3,9 +3,9 @@ description: Adobe Analytics 변수에 대한 데이터 개인정보 레이블�
 title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ Adobe Analytics는 그 민감도 및 계약 제한 사항에 따라 데이터를
 
 Adobe Analytics 데이터 개인정보 보호 구현은 ID 데이터, 중요 데이터 및 데이터 거버넌스에 대해 다음 레이블을 지원합니다.
 
-## DULE 레이블 {#dule-labels}
-
->[!NOTE]
->
->DULE (Data Usage Labeling &amp; Enforcement) 프레임워크는 Adobe Experience Cloud에서 데이터에 대한 메타데이터를 캡처, 통신 및 사용하는 동일한 방법을 모든 Adobe 솔루션/서비스/플랫폼에 제공하도록 설계되었습니다. 메타데이터를 통해 데이터 제어자는 개인정보에 해당하는 데이터, 중요 데이터, 데이터와 연관된 계약 제한 사항을 나타낼 수 있습니다. 이 초기 릴리스에서 Analytics는 데이터 개인정보 보호와 관련된 DULE 레이블만 노출합니다. 다른 Adobe 제품은 DULE 레이블에 대한 지원을 구현하므로 이후 릴리스에서는 제품 간에 공유되는 데이터가 법적으로 허용된 방식으로만 사용되도록 하는 계약 레이블과 추가 중요 데이터 레이블이 도입될 것입니다.
-
-## ID 데이터 레이블(DULE) {#identity-data-labels}
+## ID 데이터 레이블 {#identity-data-labels}
 
 ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 범주화하는 데 사용됩니다.
 
@@ -39,7 +33,7 @@ ID 데이터의 &quot;I&quot; 레이블은 특정 개인을 식별하거나 특�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 중요 데이터 레이블(DULE) {#sensitive-data-labels}
+## 중요 데이터 레이블 {#sensitive-data-labels}
 
 중요 데이터 &quot;S&quot; 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가 민감한 데이터 레이블은 다른 유형의 민감한 정보를 식별하기 위해 나중에 도입됩니다.
 
@@ -133,9 +127,9 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 >
 >네임스페이스 &quot;visitorId&quot;와 &quot;customVisitorId&quot;는 Analytics 이전 추적 쿠키와 Analytics 고객 방문자 ID를 식별하기 위해 예약되어 있습니다. 사용자 정의 트래픽 또는 전환 변수에 이러한 네임스페이스를 사용하지 마십시오.
 
-## 변수 유형 및 변수 유형이 지원하는 데이터 개인 정보 보호/DULE 레이블 {#variable-types}
+## 변수 유형 및 변수 유형이 지원하는 데이터 개인 정보 보호 레이블 {#variable-types}
 
-데이터 개인정보 보호/DULE 레이블은 Analytics 변수의 네 가지 광범위한 클래스에 영향을 줍니다. 모든 변수가 모든 레이블을 지원하는 것은 아닙니다. 다음 표는 레이블을 지원하는 변수와 지원하지 않는 변수를 보여 줍니다.
+데이터 개인 정보 보호 레이블은 Analytics 변수의 네 가지 광범위한 클래스에 영향을 줍니다. 모든 변수가 모든 레이블을 지원하는 것은 아닙니다. 다음 표는 레이블을 지원하는 변수와 지원하지 않는 변수를 보여 줍니다.
 
 | 변수 유형 | 지원되는 레이블 | 지원되지 않는 레이블 |
 |--- |--- |--- |
