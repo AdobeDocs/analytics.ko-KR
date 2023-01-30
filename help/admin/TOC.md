@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 6aecf51563bfe112ac51248f45167db83fe54fd7
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '639'
 ht-degree: 96%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 96%
       + [서버 호출 사용량 FAQ](admin/c-server-call-usage/overage-faq.md)
 + 데이터 거버넌스 {#data-governance}
    + [Adobe Analytics 데이터 개인정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
-   + [FAQ](c-data-governance/gdpr-faq.md)
+   + [자주 묻는 질문](c-data-governance/gdpr-faq.md)
    + 데이터 레이블 지정 {#data-labels}
       + [Analytics 구성 요소의 데이터 개인 정보 레이블](c-data-governance/data-labeling/gdpr-labels.md)
       + [보고서 세트 데이터에 레이블 지정](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
@@ -174,7 +174,6 @@ ht-degree: 96%
       + [레이블 지정 모범 사례](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [레이블 지정 예](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [네임스페이스](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
 + [관리 API](c-admin-api/c-admin-api.md)
