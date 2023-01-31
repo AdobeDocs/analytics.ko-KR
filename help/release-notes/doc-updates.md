@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 3e023a3cbf4eb8c1ec337a791f816458786835f5
 workflow-type: tm+mt
-source-wordcount: '3549'
-ht-degree: 99%
+source-wordcount: '3578'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 1월** |  |
+| 테이블 필터링 및 정렬 | 에서 컨텐트(절차 추가 및 사용 가능한 옵션 설명 포함)가 업데이트되었습니다. [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서. 이 문서의 이름을 &quot;테이블 페이지 매김, 필터링 및 정렬&quot;에서 변경했습니다. |
 | 폴더 | 전용 페이지 [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analyze/analysis-workspace/user-preferences.md). |
 | 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
