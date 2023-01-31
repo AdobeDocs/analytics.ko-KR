@@ -2,10 +2,10 @@
 title: 클라이언트 힌트
 description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 76%
+source-wordcount: '1232'
+ht-degree: 75%
 
 ---
 
@@ -63,23 +63,20 @@ API를 통해 제출된 데이터의 경우(예: 를 통해) [데이터 삽입 A
 
 아래 표에서 2022년 10월 시점의 클라이언트 힌트를 확인할 수 있습니다.
 
-| 힌트* | 설명 | 높은 엔트로피 또는 낮은 엔트로피 | 예 |
+| 힌트 | 설명 | 높은 엔트로피 또는 낮은 엔트로피 | 예 |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | 브라우저 및 주요 버전 | 낮음 | “Google Chrome 84” |
-| Sec-CH-UA-Mobile | 모바일 디바이스 (참 또는 거짓) | 낮음 | TRUE |
-| Sec-CH-UA-Platform | 운영 체제/플랫폼 | 낮음 | “Android” |
-| Sec-CH-UA-Arch | 사이트의 아키텍처 | 높음 | “arm” |
-| Sec-CH-UA-Bitness | Architecture Bitness | 높음 | “64” |
-| Sec-CH-UA-Full-Version | 브라우저의 전체 버전 | 높음 | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | 버전이 포함된 브랜드 목록 | 높음 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | 디바이스 모델 | 높음 | “픽셀 3” |
-| Sec-CH-UA-Platform-Version | 운영 체제/플랫폼 버전 | 높음 | “10” |
+| Sec-CH-UA | 브라우저 및 주요 버전 | 낮음 | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | 모바일 디바이스 (참 또는 거짓) | 낮음 | `true` |
+| Sec-CH-UA-Platform | 운영 체제/플랫폼 | 낮음 | `"Android"` |
+| Sec-CH-UA-Arch | 사이트의 아키텍처 | 높음 | `"arm"` |
+| Sec-CH-UA-Bitness | Architecture Bitness | 높음 | `"64"` |
+| Sec-CH-UA-Full-Version | 브라우저의 전체 버전 | 높음 | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | 버전이 포함된 브랜드 목록 | 높음 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | 디바이스 모델 | 높음 | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | 운영 체제/플랫폼 버전 | 높음 | `"10"` |
 
-
-* 낮은 엔트로피 힌트는 헤더를 통해 수집됩니다. 높은 엔트로피 힌트는 JavaScript를 통해 수집되고 쿼리 문자열 매개 변수로 전달됩니다.
-
-* 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 매개 변수를 통해 전달됩니다
-
+* 낮은 엔트로피 힌트는 요청 헤더를 통해 수집됩니다.
+* 높은 엔트로피 힌트는 JavaScript를 통해 수집되고 쿼리 문자열 매개 변수 값을 통해 전달됩니다. 쿼리 문자열 매개 변수는 `h.` 를 이미지 요청에 접두사로 추가합니다.
 
 +++
 

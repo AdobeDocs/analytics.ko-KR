@@ -3,10 +3,10 @@ title: 데이터 수집 쿼리 매개 변수
 description: 이미지 요청에 사용된 모든 쿼리 문자열 매개 변수를 나열합니다.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 94%
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 255바이트보다 긴 URL은 분할됩니다. 처음 255바이트는 `g` 매개 변수에 나타나고 나머지 모든 바이트는 `-g` 매개 변수에 나타납니다. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` 쿼리 문자열의 축약. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` 쿼리 문자열의 축약. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | 를 나타내는 여러 변수의 접두사 [클라이언트 힌트](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 계층 차원입니다. |
 | `hp` | 없음 | 더 이상 사용되지 않습니다. 이전 버전의 Adobe Analytics에서 현재 URL이 브라우저의 홈 페이지인지 확인했습니다. |
 | `j` | 없음 | 브라우저에 설치된 JavaScript 버전. |

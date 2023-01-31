@@ -2,10 +2,10 @@
 title: collectHighEntropyUserAgentHints
 description: 'collectHighEntropyUserAgentHints 변수를 사용하여 Adobe가 Chromium 브라우저(예: Google Chrome 및 Microsoft Edge)에서 높은 엔트로피 힌트를 요청할지 여부를 결정합니다.'
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 61d5006a20f13ab5aec9e1b63f4197e9a9c98429
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 95%
+ht-degree: 82%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 95%
 
 ## AppMeasurement의 collectHighEntropyUserAgentHints
 
-`s.collectHighEntropyUserAgentHints` 변수는 AppMeasurement가 Chromium 브라우저(예: Google Chrome 및 Microsoft Edge)에서 높은 엔트로피 힌트를 요청하는지 여부를 결정합니다. 이들 힌트는 Adobe Analytics에서 디바이스 및 브라우저 식별을 개선하는 데 사용됩니다.
+다음 `s.collectHighEntropyUserAgentHints` 변수는 AppMeasurement가 Chromium 브라우저(예: Google Chrome 또는 Microsoft Edge)에서 높은 엔트로피 힌트를 요청하는지 여부를 결정합니다. 이들 힌트는 Adobe Analytics에서 디바이스 및 브라우저 식별을 개선하는 데 사용됩니다.
 
-TRUE로 설정하면 모든 높은 엔트로피 힌트가 브라우저에서 요청됩니다.
+로 설정된 경우 `true`를 입력하면 브라우저에서 모든 높은 엔트로피 힌트가 요청됩니다.
 
-`s.collectHighEntropyUserAgentHints = true`
-
-`s.collectHighEntropyUserAgentHints = false`
+```js
+s.collectHighEntropyUserAgentHints = true;
+```
