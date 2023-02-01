@@ -2,7 +2,7 @@
 title: JavaScript용 AppMeasurement를 사용하여 Adobe Analytics 구현
 description: 태그 관리 시스템 없이 JavaScript를 사용하여 Adobe Analytics를 구현하는 방법을 알아봅니다.
 feature: Implementation Basics
-source-git-commit: 93e16a538d6dc05c9cbf0703664aa5320f45b731
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 45%
@@ -20,7 +20,7 @@ AppMeasurement for JavaScript는 지금까지 Adobe Analytics를 구현하는 �
 <table>
 
 <tr>
-<th style="width:5%"></th><th><b>작업</b></th><th><b>추가 정보</b></th>
+<th style="width:5%"></th><th style="width:75%"><b>작업</b></th><th style="width:20%"><b>추가 정보</b></th>
 </tr>
 
 <tr>

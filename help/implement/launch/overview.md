@@ -2,10 +2,10 @@
 title: Analytics 확장을 사용하여 Adobe Analytics 구현
 description: 태그 및 Analytics 확장을 사용하여 Adobe Analytics을 구현하는 방법을 알아봅니다.
 feature: Launch Implementation
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 48%
+source-wordcount: '364'
+ht-degree: 57%
 
 ---
 
@@ -19,9 +19,54 @@ Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함
 
 구현 작업의 개요:
 
+
+
 ![Analytics 확장 워크플로우를 사용한 Adobe Analytics](../assets/analytics-extension-annotated.png)
 
-|<div style="width:20px"></div>| 작업 | 추가 정보 | |-| —|—| | 1 | 다음을 확인하십시오. **보고서 세트 정의**. | [보고서 세트 관리자](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **데이터 레이어 만들기** 를 사용하여 웹 사이트에서 데이터 추적을 관리할 수 있습니다. | [데이터 레이어 만들기](../prepare/data-layer.md) | | 3 | **태그 속성 만들기**. 속성은 태그 관리 데이터를 참조하는 데 사용되는 매우 중요한 컨테이너입니다.| [Adobe Analytics 태그 속성 만들기](../launch/create-analytics-property.md) | | 4 | **Analytics 확장 설치** 를 입력합니다. Adobe Analytics으로 데이터를 보내도록 Analytics 확장을 구성합니다. | [Adobe Analytics 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **개발 환경에 배포**. 태그 개발을 반복적으로 수행할 수 있는 환경을 마련합니다. | [개발 환경에 Analytics 구현 배포](./deploy-dev.md) | | 6 | **유효성 검사 및 프로덕션에 게시**. 웹 사이트에 태그 속성을 추가합니다. 그런 다음 데이터 요소, 규칙 등을 사용하여 구현을 사용자 지정합니다.| [개발 구현 유효성 검사 및 프로덕션에 게시](./validate-publish-prod.md) |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>작업</b></th><th style="width:35%"><b>추가 정보</b></th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td>다음을 확인하십시오 <b>보고서 세트 정의</b>.</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">보고서 세트 관리자</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>데이터 레이어 만들기</b>를 사용하여 웹 사이트에서 데이터 추적을 관리할 수 있습니다.</td>
+<td>
+<a href="../prepare/data-layer.md">데이터 계층 만들기</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b><b>태그 속성 만들기</b>. 속성은 태그 관리 데이터를 참조하는 데 사용되는 매우 중요한 컨테이너입니다.</td>
+<td><a ref="../launch/create-analytics-property.md">Adobe Analytics 태그 속성 만들기</a></td>
+</tr>
+
+<tr>
+<td>4</td><td><b>Analytics 확장 설치</b> 를 입력합니다. Adobe Analytics으로 데이터를 보내도록 Analytics 확장을 구성합니다.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Adobe Analytics 확장 개요</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>개발 환경에 배포</b>. 태그 개발을 반복적으로 수행할 수 있는 환경을 마련합니다.</td>
+<td><a href="./deploy-dev.md">개발 환경에 Analytics 구현 배포</td>
+</tr>
+
+<tr>
+<td>6</td> 
+<td><b>유효성 검사 및 프로덕션에 게시</b>. 웹 사이트에 태그 속성을 추가합니다. 그런 다음 데이터 요소, 규칙 등을 사용하여 구현을 사용자 지정합니다.</td>
+<td><a href="./validate-publish-prod.md">개발 구현 유효성 검사 및 프로덕션에 퍼블리싱</a></td>
+</tr>
+
+</table>
 
 ## 추가 리소스
 
