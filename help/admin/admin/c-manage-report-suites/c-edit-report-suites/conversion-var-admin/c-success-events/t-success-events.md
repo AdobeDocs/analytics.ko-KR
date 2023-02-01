@@ -3,10 +3,10 @@ description: 성공 이벤트를 구성하는 방법을 설명하는 단계입�
 title: 성공 이벤트 구성
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,15 @@ ht-degree: 100%
 1. **[!UICONTROL 극성]** 열에서 이 지표에 대한 증가 트렌드가 좋은 것인지 아니면 나쁜 것인지를 지정합니다.
 1. **[!UICONTROL 가시성]** 열에서 표준(내장된) 지표, 사용자 지정 이벤트, 내장 이벤트를 메뉴, 지표 선택기, 계산된 지표 빌더, 세그먼트 빌더에서 숨길 수 있습니다.
 
-   이 설정은 해당 지표 또는 이벤트의 데이터 수집에는 영향을 주지 않습니다. 사용자 인터페이스에서의 가시성에만 영향을 줍니다. [자세히...](/help/admin/admin/metric-visibility.md)
+   이 설정은 해당 지표 또는 이벤트에 대한 데이터 수집에는 영향을 주지 않습니다. 다음과 같이 사용자 인터페이스의 가시성에만 영향을 줍니다.
+
+
+   | 설정 | 표시되는 위치 | 표시되지 않는 위치 |
+   |---------|----------|---------|
+   | [!UICONTROL **어디에서나 볼 수 있습니다.**] | <ul><li>Reports &amp; Analytics(메뉴 및 지표 선택기)</li><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | 해당 없음 |
+   | [!UICONTROL **빌더**] | <ul><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> | <ul><li>Reports &amp; Analytics(메뉴 및 지표 선택기)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **어디에나 숨겨져 있습니다.**] | 해당 없음 | <ul><li>Reports &amp; Analytics(메뉴 및 지표 선택기)</li><li>Analysis Workspace</li><li>세그먼트 빌더</li><li>계산된 지표 빌더에서 계산된 지표를 작성합니다.</li></ul> |
+
 1. 설명을 제공합니다.
 1. 이벤트를 항상 기록할 것인지 여부를 확인합니다.
 1. 기여도 지표를 활성화 또는 비활성화합니다.
