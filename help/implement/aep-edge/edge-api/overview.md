@@ -1,13 +1,12 @@
 ---
 title: Adobe Experience Platform Edge API를 사용하여 Adobe Analytics 구현
 description: Adobe Experience Platform Edge API를 사용하여 데이터를 Adobe Analytics로 전송합니다.
-source-git-commit: 6979736e1849d25af2141e0ab76a143605a90620
-workflow-type: ht
+source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Experience Platform Edge API를 사용하여 Adobe Analytics 구현
 
