@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 3e023a3cbf4eb8c1ec337a791f816458786835f5
+source-git-commit: 526c7b0739ac9a4c1424bbb3cdfb320369725de6
 workflow-type: tm+mt
-source-wordcount: '3578'
+source-wordcount: '3592'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 98%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 2월** |  |
+| 구현 | 다음 방법에 대한 콘텐츠가 업데이트되었습니다. [웹 및 모바일용 Adobe Analytics 구현](../implement/home.md). |
 | **2023년 1월** |  |
 | 테이블 필터링 및 정렬 | 에서 컨텐트(절차 추가 및 사용 가능한 옵션 설명 포함)가 업데이트되었습니다. [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서. 이 문서의 이름을 &quot;테이블 페이지 매김, 필터링 및 정렬&quot;에서 변경했습니다. |
 | 폴더 | 전용 페이지 [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
