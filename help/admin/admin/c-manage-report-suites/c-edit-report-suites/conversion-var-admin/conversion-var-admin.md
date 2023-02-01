@@ -4,16 +4,19 @@ keywords: eVar
 title: 전환 변수 (eVar)
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '1582'
-ht-degree: 100%
+source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
+workflow-type: tm+mt
+source-wordcount: '1672'
+ht-degree: 99%
 
 ---
 
 # 전환 변수 (eVar)
 
 사용자 지정 인사이트 전환 변수 (또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 지정 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. eVar는 방문 기준이며 쿠키와 유사한 기능을 수행할 수 있습니다. eVar 변수로 전달된 값은 사전 결정된 기간 동안 사용자를 따릅니다.
+
+
+## 전환 변수(eVar) 개요
 
 다음은 비디오 개요입니다.
 
@@ -33,9 +36,9 @@ eVar는 다음과 같은 원인과 결과를 측정하는 데 가장 적절하�
 >
 >단일 값만 이미지 요청 시 eVar에 저장할 수 있습니다. eVar 값에 여러 값을 사용하려는 경우에는 [목록 변수 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ko-KR)를 구현하는 것이 좋습니다.
 
-## 전환 변수 - 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+### 전환 변수 - 설명 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-[전환 변수를 편집](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)할 때 사용되는 필드에 대한 설명입니다.
+[전환 변수를 편집](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)할 때 사용되는 필드에 대한 설명입니다.
 
 | 요소 | 설명 |
 | --- | --- |
@@ -68,3 +71,18 @@ eVar는 대소문자를 구분하지 않습니다. 보고에 사용되는 대문
 ### 카운터
 
 eVar는 대부분 문자열 값을 보관하는 데 사용되지만, 카운터로 작동하도록 구성할 수도 있습니다. eVar는 이벤트 전에 사용자가 취하는 동작의 수를 세려고 할 때 카운터로 유용합니다. 예를 들어 구매 전에 eVar를 사용하여 내부 검색 횟수를 캡처할 수 있습니다. 방문자가 검색할 때마다, eVar에는 &#39;+1&#39;의 값이 포함되어 있어야 합니다. 방문자가 구매 전에 검색을 네 번 수행하면 각각 총 횟수는 1.00, 2.00, 3.00 및 4.00이 됩니다. 하지만 구매 이벤트에 대해서는 4.00만 크레딧을 받습니다(주문 및 매출 지표). eVar 카운터의 값으로는 양수만 허용됩니다.
+
+## 전환 변수 추가 또는 편집
+
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
+1. 보고서 세트 선택.
+1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 변환]** > **[!UICONTROL 변환 변수]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 변환 변수] 페이지에서 수정할 변환 변수 옆에 있는 **[!UICONTROL 확장]** 아이콘 [+]를 클릭합니다.
+
+   또는
+
+   보고서 세트에 사용하지 않은 eVar를 추가하려면 **[!UICONTROL 새로 추가]**&#x200B;를 클릭합니다.
+1. 수정할 전환 변수 필드를 선택합니다.
+
+   [전환 변수 - 설명](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)을 참조하십시오. 일부 필드에는 직접 입력할 수 있습니다. 다른 필드의 경우 드롭다운 목록에서 지원되는 값을 선택할 수 있습니다.
+1. **[!UICONTROL 저장을 클릭합니다]**.
