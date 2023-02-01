@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 96%
 + [Analytics 관리 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 + Adobe 관리 콘솔 {#admin-console}
-   + [Adobe Admin Console의 Analytics](admin-console/home.md)
+   + [개요](admin-console/home.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
    + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
-   + 권한 {#permissions}
+   + Analytics 도구 권한 요약 {#permissions}
       + [Admin Console의 Analytics 권한](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
    + 사용자 및 제품 관리 (레거시) {#user-product-management}
-      + [사용자 및 제품 관리 (기존)](admin-console/user-management2/user-management.md)
+      + [사용자 및 제품 관리(레거시)](admin-console/user-management2/user-management.md)
       + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
          + [Admin Console로 Analytics 사용자 마이그레이션](admin-console/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](admin-console/user-management2/user-migration/t-migrate-users.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [공동 브랜딩](admin/company/co-branding-admin.md)
       + [보고서 세트 숨기기](admin/company/c-hide-report-suites.md)
       + [보안 관리자](admin/company/security-manager.md)
-   + [간소화된 보고서 메뉴](admin/t-simplified-menu.md)
    + [비디오 관리](admin/video-management.md)
    + 서버 호출 사용량 {#server-call-usage}
       + [서버 호출 사용량 개요](admin/c-server-call-usage/overage-overview.md)
@@ -168,9 +167,9 @@ ht-degree: 96%
    + [Adobe Analytics 데이터 개인정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
    + [자주 묻는 질문](c-data-governance/gdpr-faq.md)
    + 데이터 레이블 지정 {#data-labels}
-      + [Analytics 구성 요소의 데이터 개인 정보 레이블](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Analytics 구성 요소의 데이터 개인정보 보호 레이블](c-data-governance/data-labeling/gdpr-labels.md)
       + [보고서 세트 데이터에 레이블 지정](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [보고서 세트의 개인 정보 레이블 보기/관리](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [보고서 세트의 개인정보 보호 레이블 보기/관리](c-data-governance/data-labeling/gdpr-view-settings.md)
       + [레이블 지정 모범 사례](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [레이블 지정 예](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [네임스페이스](c-data-governance/data-labeling/gdpr-namespaces.md)
