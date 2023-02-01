@@ -2,7 +2,7 @@
 title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
-source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
+source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 40%
@@ -65,7 +65,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 >[!TIP]
 >
->현재 상황에 따라 선택할 구현에 대한 조언 및 모범 사례는 Adobe에 문의하십시오. >
+>현재 상황에 따라 선택할 구현에 대한 조언 및 모범 사례는 Adobe에 문의하십시오.
 
 ## 모바일 앱 구현 방법
 
