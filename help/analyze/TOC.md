@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 99%
+source-wordcount: '1101'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
       + [프로젝트 저장](analysis-workspace/build-workspace-project/save-projects.md)
       + 작업 영역의 폴더 {#workspace-folders}
          + [작업 영역의 폴더 정보](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [폴더 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [폴더 만들기 및 하위 폴더 만들기](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [폴더 삭제](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [프로젝트 추가](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [프로젝트 제거](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
@@ -41,6 +41,7 @@ ht-degree: 99%
       + [보기 밀도](analysis-workspace/build-workspace-project/view-density.md)
    + 구성 요소 {#components}
       + [구성 요소 개요](analysis-workspace/components/analysis-workspace-components.md)
+      + [구성 요소 설명 추가](analysis-workspace/components/add-component-descriptions.md)
       + 주석 {#annotations}
          + [주석 개요](analysis-workspace/components/annotations/overview.md)
          + [주석 생성](analysis-workspace/components/annotations/create-annotations.md)
@@ -60,6 +61,11 @@ ht-degree: 99%
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + 데이터 사전 {#data-dictionary}
+         + [데이터 사전 개요](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [데이터 사전에서 구성 요소 정보 보기](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [데이터 사전에서 구성 요소 항목 편집](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [데이터 사전 상태 모니터링](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -339,5 +345,5 @@ ht-degree: 99%
    + [모바일 스코어카드 만들기](mobile-app/create-scorecard.md)
    + [경영진이 대시보드를 사용할 수 있도록 설정](mobile-app/set-up-execs.md)
    + [경영진 빠른 시작 안내서](mobile-app/executive.md)
-+ [보고 API](reporting-api.md)
++ [Reporting API](reporting-api.md)
 + [Labs](labs.md)

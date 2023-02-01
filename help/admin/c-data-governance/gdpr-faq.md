@@ -3,7 +3,7 @@ description: Adobe Analytics 데이터 거버넌스 FAQ
 title: 데이터 거버넌스에 대해 자주 묻는 질문
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 87%
@@ -119,7 +119,6 @@ Adobe Analytics에서는 고객이 데이터 보존 정책을 설정하여 데�
 계정 관리자에게 문의(CSM)하여 PII 또는 데이터 문제를 없애는 데 필요한 노력을 더 자세히 검토하고 제공하도록 Engineering Architect(엔지니어링 설계) 컨설팅팀과 상의하십시오.
 
 +++
-
 
 추가 데이터 개인정보 보호 리소스:
 

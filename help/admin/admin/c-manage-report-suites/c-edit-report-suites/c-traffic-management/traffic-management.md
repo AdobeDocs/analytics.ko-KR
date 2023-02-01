@@ -3,14 +3,14 @@ description: 트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변�
 title: 트래픽 관리
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
-# 트래픽 관리
+# 트래픽 관리 개요
 
 트래픽 관리 페이지에서 예상되는 트래픽 볼륨 변경을 지정할 수 있습니다. 이러한 설정을 통해 Adobe는 적절한 리소스를 할당하여 적시에 트래픽을 추적하고 처리할 수 있습니다.
 

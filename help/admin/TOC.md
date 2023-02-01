@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
+source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
@@ -133,11 +133,9 @@ ht-degree: 98%
             + [머천다이징 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [마케팅 채널](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + 트래픽 관리 {#traffic-management}
-            + [트래픽 관리](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [트래픽 스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [지난 서버 호출 예측 및 트래픽 스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-            + [영구 트래픽 증가 지정](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-            + [트래픽 증가에 대한 필수 리드 타임](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+            + [개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [영구 트래픽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [개별 보고서 세트 설정](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + 실시간 보고서 {#real-time-reports}
@@ -171,6 +169,7 @@ ht-degree: 98%
       + [레이블 지정 모범 사례](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [레이블 지정 예](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [네임스페이스](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [액세스 및 삭제 요청 제출](c-data-governance/gdpr-submit-access-delete.md)
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
 + [관리 API](c-admin-api/c-admin-api.md)

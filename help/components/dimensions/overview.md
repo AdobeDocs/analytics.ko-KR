@@ -3,10 +3,10 @@ title: 차원 개요
 description: 문자열 값을 포함하는 변수입니다.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '127'
-ht-degree: 100%
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 63%
 
 ---
 
@@ -26,6 +26,4 @@ ht-degree: 100%
 
 ## 차원 설명 추가
 
-다음은 Adobe Analytics에서 차원(및 지표) 설명을 추가하는 방법을 설명하는 비디오입니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내에서 직접 차원 및 기타 구성 요소에 대한 설명을 추가할 수 있습니다. 차원에 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

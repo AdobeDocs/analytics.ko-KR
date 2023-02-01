@@ -3,18 +3,20 @@ description: 영구 트래픽 섹션에서 예상되는 트래픽 수준을 변�
 title: 영구 트래픽 증가 지정
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 78%
 
 ---
 
 # 영구 트래픽 증가 지정
 
-영구 트래픽 섹션에서 예상되는 트래픽 수준을 변경하면 Adobe에서 리소스를 재지정하여 새 트래픽 수준을 처리할 수 있습니다.
+예상되는 트래픽 수준을 변경하여 Adobe이 리소스를 재할당하여 새 트래픽 수준을 처리할 수 있습니다. (또는 다음을 수행할 수 있습니다 [트래픽 스파이크 예약](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) 자원을 일시적으로 재할당하려면)
 
-영구 트래픽 증가를 지정하기 전에 [트래픽 증가에 대한 필수 리드 타임](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)에 대한 정보를 읽어 보십시오.
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## 영구 트래픽 증가 지정
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭하여 보고서 세트 관리자를 엽니다.
 1. 보고서 세트 선택.

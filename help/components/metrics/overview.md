@@ -3,10 +3,10 @@ title: 지표 개요
 description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니다.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 82%
 
 ---
 
@@ -29,6 +29,4 @@ ht-degree: 100%
 
 ## 지표 설명 추가
 
-다음은 Adobe Analytics에서 메트릭(및 차원) 설명을 추가하는 방법을 설명하는 비디오입니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내에서 직접 지표 및 기타 구성 요소에 대한 설명을 추가할 수 있습니다. 지표에 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

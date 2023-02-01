@@ -1,13 +1,13 @@
 ---
-description: 'Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다. '
+description: Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있는 차원, 지표, 세그먼트 및 날짜 범위로 구성됩니다.
 title: 구성 요소 개요
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 356df9e96e3b15ccb74e641e04d6a6fc26e6db62
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -53,9 +53,12 @@ Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있�
 
 [**날짜 범위**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=ko-KR)는 분석을 수행하는 기간입니다. 왼쪽 구성 요소 레일 (보라색 섹션)에서 찾을 수 있으며 일반적으로 각 패널의 달력에 적용됩니다.
 
+패널 달력에 상대적인 날짜 범위 구성 요소를 만들 수 있습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+
 날짜 범위의 예로는 2019년 7월, [!UICONTROL 지난 4주] 및 [!UICONTROL 이번 달]이 있습니다. 날짜 범위는 Adobe에서 제공하거나 [패널 달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR)에 적용하거나 [날짜 범위 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko-KR)를 사용하여 생성합니다.
 
 ![](assets/date-ranges.png)
+
 
 ## 구성 요소 작업 {#actions}
 
