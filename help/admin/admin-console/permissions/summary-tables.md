@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics Permissions - 요약 표
-description: Adobe Admin Console에서 사용 가능한 Adobe Analytics 권한을 요약하는 표입니다.
+description: Adobe Admin Console의 사용 가능한 Adobe Analytics Permissions을 요약하는 표입니다.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 96%
+source-wordcount: '1280'
+ht-degree: 99%
 
 ---
 
-# Adobe Analytics Permissions - 요약 표
+# Admin Console의 Analytics 권한
 
-다음 요약 테이블을 사용하여 논리 그룹별로 Adobe Admin Console에서 Adobe Analytics 권한을 식별합니다.
+다음의 요약 표를 사용하여 논리 그룹별로 Adobe Admin Console의 Adobe Analytics Permissions을 식별하십시오.
 
 ## 보고서 세트 도구
 
@@ -72,9 +72,9 @@ ht-degree: 96%
 
 ## Analytics 도구
 
-| Analytics 도구 | 관리 | 액세스 제어 | 보고 전용 기능 | 사용하지 않음 | 설명 |
+| Analytics 도구 | 관리 | Access Controls | 보고 전용 기능 | 사용하지 않음 | 설명 |
 | --- | --- | --- | --- | --- | --- |
-| 코드 관리자 | x |  |  |  | 기존 용도로 계속 사용할 수 있습니다. 관리자 > 모든 관리자 > 코드 관리자에 대한 액세스 권한을 부여합니다. 대부분의 경우 Adobe Experience Platform 데이터 수집 내에서 Adobe Analytics 확장에 포함된 라이브러리를 대신 사용합니다. |
+| 코드 관리자 | x |  |  |  | 기존 용도로 계속 사용할 수 있습니다. 관리자 > 모든 관리자 > 코드 관리자에 대한 액세스 권한을 부여합니다. 대부분의 경우 Adobe Experience Platform Data Collection 내의 Adobe Analytics 확장에 포함된 라이브러리를 대신 사용합니다. |
 | 코드 관리자 - 웹 서비스 | x |  |  |  | 1.4 API를 통해 코드 관리자에 대한 액세스 권한을 부여합니다. |
 | 보고서 세트 숨기기 | x |  |  |  | 관리자 > 모든 관리자 > 회사 설정 > 보고서 세트 숨기기에 대한 액세스 권한을 부여합니다. 보고서 세트 액세스 권한에 상관없이 조직에서 보고서 세트를 숨길 수 있는 권한을 부여합니다. |
 | 통합 (생성) | x |  |  |  | 관리자 > 모든 관리자 > Data Connectors에 대한 액세스 권한을 부여하고 사용자가 데이터 커넥터를 만들 수 있도록 합니다. |
