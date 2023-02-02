@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 98%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 98%
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
-   + [개인정보 보호 보고](admin/privacy-reporting.md)
    + [활동 관리자 보고](admin/reporting-activity.md)
-   + [예약된 보고서 대기열](admin/scheduled-reports-admin.md)
    + 보고서 세트 관리자 {#manage-report-suites}
       + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
       + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -136,6 +134,7 @@ ht-degree: 98%
             + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [영구 트래픽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [개인정보 보호 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 실시간 보고서 {#real-time-reports}
             + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [실시간 보고서 구성](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
