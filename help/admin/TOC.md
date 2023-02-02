@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 98%
@@ -134,6 +134,7 @@ ht-degree: 98%
             + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [영구 트래픽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [미디어 관리](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [개인정보 보호 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 실시간 보고서 {#real-time-reports}
             + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -150,7 +151,6 @@ ht-degree: 98%
       + [환경 설정 관리자](admin/company/preferences-manager.md)
       + [보류 중인 작업](admin/company/pending-actions-admin.md)
       + [기능 액세스 수준](admin/company/feature-access-levels.md)
-   + [비디오 관리](admin/video-management.md)
    + 서버 호출 사용량 {#server-call-usage}
       + [서버 호출 사용량 개요](admin/c-server-call-usage/overage-overview.md)
       + [현재 서버 호출 사용량 보기](admin/c-server-call-usage/server-call-usage-dashboard.md)
