@@ -3,16 +3,16 @@ description: 유료 검색 감지를 구성하는 방법을 설명하는 단계�
 title: 유료 검색 감지 구성
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 93%
 
 ---
 
 # 유료 검색 감지 구성
 
-유료 검색 감지를 구성하는 방법을 설명하는 단계입니다.
+유료 검색 감지를 구성하려면:
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭하여 [!UICONTROL 보고서 세트 관리자]를 엽니다.
 1. 보고서 세트 선택.

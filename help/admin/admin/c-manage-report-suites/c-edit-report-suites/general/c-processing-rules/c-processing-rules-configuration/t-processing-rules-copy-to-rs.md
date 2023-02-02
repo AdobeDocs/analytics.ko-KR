@@ -4,16 +4,16 @@ subtopic: Processing rules
 title: 다른 보고서 세트에 처리 규칙 복사
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 83%
 
 ---
 
 # 다른 보고서 세트에 처리 규칙 복사
 
-한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하는 방법을 설명하는 절차입니다.
+한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하려면 다음을 수행합니다.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.

@@ -3,10 +3,10 @@ description: 분류되지 않는 키는 분류 보고서에 None으로 레이블
 title: 분류되지 않는 키
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-보고에 *`none`*&#x200B;으로 표시되는 비분류 키의 이름을 바꾸는 방법을 설명하는 절차입니다.
+로 표시되는 비분류 키의 이름을 변경하려면 *`none`* 보고 시:
 
 1. 가져오기를 사용하여 분류를 로컬 파일로 내보냅니다.
 1. 파일에 행을 추가하고 키 열에 `~none~`을 입력합니다.

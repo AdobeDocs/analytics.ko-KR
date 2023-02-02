@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 ## 공유 대시보드 관리
 
-공유 대시보드 관리 옵션을 사용하는 방법을 설명하는 절차입니다.
+공유 대시보드를 관리하려면 다음을 수행하십시오.
 
 1. 이동 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]**.
 1.  [!UICONTROL 공유 대시보드] 아래에서, 관리하려는 공유 대시보드(또는 기존 대시보드)를 찾고, 다음 옵션 중 하나 이상을 선택합니다.
@@ -73,7 +73,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->계속 진행하여 [Analysis Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)와 다운로드 및 예약할 기능을 사용해 보십시오.
+>계속 진행하여 [Analysis Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko)와 다운로드 및 예약할 기능을 사용해 보십시오.
 
 기존 대시보드를 복사할 때 시스템은 기존 컨텐츠 또는 새 컨텐츠를 추가할 수 있도록 편집 가능한 기존 대시보드가 열립니다. 기존 대시보드를 복사할 경우 기존 대시보드 목록에 원본이 그대로 유지됩니다.
 
@@ -92,7 +92,9 @@ ht-degree: 98%
 
 ## 대시보드 공유
 
-관리자가 여러 사용자에게 대시보드를 공유(또는 전달)할 수 있는 방법을 설명하는 단계입니다. 사용자에게 대시보드를 전달하면 해당 대시보드를 사용자의 [!UICONTROL 공유 대시보드] 메뉴에서 사용할 수 있게 됩니다.
+Analytics 관리자는 대시보드를 여러 사용자에게 공유(또는 푸시)할 수 있습니다. 사용자에게 대시보드를 전달하면 해당 대시보드를 사용자의 [!UICONTROL 공유 대시보드] 메뉴에서 사용할 수 있게 됩니다.
+
+여러 사용자와 대시보드를 공유하려면 다음을 수행하십시오.
 
 1.  [!UICONTROL  대시보드 관리자]에서 해당 대시보드를 찾은 다음 **[!UICONTROL 공유]**&#x200B;를 활성화합니다. 
 1. **[!UICONTROL 사용자에게 전달]**&#x200B;을 클릭합니다. ![](assets/push.png)
@@ -110,18 +112,3 @@ ht-degree: 98%
 1. **[!UICONTROL 자세히]** > **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
 
    자세한 내용은 [예약 및 배포](/help/analyze/reports-analytics/scheduling.md)를 참조하십시오.
-
-## 대시보드 보관
-
->[!NOTE]
->
->이 기능은 2020년 1월부터 더 이상 제공되지 않습니다.
-
-보낸 대시보드를 PDF 파일로 보관하는 방법을 설명하는 단계입니다. 시스템에서는 처음 들어오는 순서부터 보관된 보고서의 크기가 최대 한도인 4GB에 도달할 때까지 또는 2년 동안의 보관 파일을 저장합니다.
-
-1. 대시보드를 엽니다.
-1. **[!UICONTROL 자세히]** > **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
-1. [!UICONTROL 이메일로 보고서 전송] 그룹에서 **[!UICONTROL 보관]**&#x200B;을 활성화합니다.
-1. 배달 옵션을 지정한 후 **[!UICONTROL 전송]**&#x200B;을 클릭합니다.
-
-   대시보드 관리자에서 보관된 대시보드를 볼 수 있습니다. 또는, 대시보드를 열고 **[!UICONTROL 자세히]** > **[!UICONTROL 아카이브 보기]**&#x200B;를 클릭합니다.

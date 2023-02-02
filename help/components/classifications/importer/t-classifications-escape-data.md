@@ -3,16 +3,16 @@ description: 분류 파일에 있는 분류 데이터를 이스케이프 처리�
 title: 분류 데이터 이스케이프 처리
 feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 92%
 
 ---
 
 # 분류 데이터 이스케이프 처리
 
-분류 파일에 있는 분류 데이터를 이스케이프 처리하는 방법을 설명하는 절차입니다.
+분류 파일에서 분류 데이터를 이스케이프 처리하려면
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 

@@ -3,16 +3,16 @@ description: 보고서 세트 검색의 구성원을 결정하는 기준 세트�
 title: 보고서 세트 검색 저장
 feature: Report Suite Settings
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 81%
 
 ---
 
 # 보고서 세트 검색 저장
 
-보고서 세트 검색의 구성원을 결정하는 기준 세트를 정의하는 방법을 설명하는 단계입니다.
+보고서 세트 검색의 구성원을 결정하는 일련의 기준을 정의하려면
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 그룹에서 **[!UICONTROL 저장한 검색 결과]** 제목 옆에 있는 [!UICONTROL 추가]를 클릭합니다.

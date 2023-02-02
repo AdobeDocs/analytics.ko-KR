@@ -3,10 +3,10 @@ description: 분류 규칙은 분류되지 않은 용어를 정기적으로 찾�
 title: 분류 규칙
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '2020'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '2015'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 키가 이미 분류되었고 [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 선택하지 않습니다.
 
-   You can overwrite classifications when [&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
+   You can overwrite classifications when [](/help/components/classifications/crb/classification-quickstart-rules.md)규칙을 추가 및 활성화할 때, 그리고 Data Connectors 통합을 활성화할 때 분류를 덮어쓸 수 있습니다. (Data Connectors에 대한 규칙은 개발 센터에서 파트너에 의해 만들어져서 [!UICONTROL 분류 규칙 빌더]에 표시됩니다.)
 
 * [분류 덮어쓰기](/help/components/classifications/crb/classification-rule-definitions.md)를 활성화한 후에도 키를 덮어쓸 때 지정된 기간 이후 데이터에는 분류된 키가 표시되지 않았습니다.
 * 약 한 달 전에 시작된 기간 이후에는 키가 분류되지 않고 [!DNL Adobe Analytics]로 절대 전달되지 않습니다.
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-분류 규칙을 추가하거나 편집하는 방법을 설명하는 단계입니다.
-
 조건을 분류와 일치시키고 작업을 지정하여 규칙을 추가하십시오.
 
 >[!NOTE]
 >
 >이 절차에서 규칙을 하나 이상의 보고서 세트에 적용할 수 있습니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/classifications/c-sub-classifications.md)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
+
+분류 규칙을 추가하거나 편집하려면:
 
 1. [분류 규칙 세트를 만듭니다](/help/components/classifications/crb/classification-rule-set.md).
 1. 규칙 세트 페이지에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >다음 조건이 충족될 떄에&#x200B;*만* 보고서 세트가 이 페이지에 표시됩니다.
    >
    >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
-   >
-   >   이 사전 요구 사항에 대한 자세한 내용은 [분류 규칙 세트](/help/components/classifications/crb/classification-rule-set.md)의 *변수*&#x200B;를 참조하십시오.
+      >
+      >   이 사전 요구 사항에 대한 자세한 내용은 [분류 규칙 세트](/help/components/classifications/crb/classification-rule-set.md)의 *변수*&#x200B;를 참조하십시오.
    >
    >* 규칙 세트를 만들기 위해 **[!UICONTROL 규칙 세트 추가]**&#x200B;를 클릭하면 표시되는 [사용 가능한 보고서 세트](/help/components/classifications/crb/classification-rule-set.md) 페이지에서 보고서 세트를 선택했습니다.
 
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-분류 규칙 또는 규칙 세트를 테스트하는 방법을 설명하는 단계입니다. 테스트를 실행하면 세트의 모든 규칙을 확인합니다.
+분류 규칙 또는 규칙 세트를 테스트할 수 있습니다. 테스트를 실행하면 세트의 모든 규칙을 확인합니다.
+
+분류 규칙 세트를 테스트하려면
 
 1. [분류 규칙 세트를 만듭니다](/help/components/classifications/crb/classification-rule-set.md).
 1. [!UICONTROL 분류 규칙 빌더]에서 규칙 세트 이름을 클릭합니다.
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-분류 규칙을 확인하고 활성화하는 방법을 설명하는 단계입니다.
+분류 규칙을 확인하고 활성화하려면
 
 1. [분류 규칙 세트를 만든 다음](/help/components/classifications/crb/classification-rule-set.md), 이 세트에 [분류 규칙을 추가](/help/components/classifications/crb/classification-quickstart-rules.md)합니다.
 1. 규칙 편집기에서 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.

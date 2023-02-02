@@ -4,10 +4,10 @@ title: Reports and Analytics 시작하기
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 �
 
 ## Experience Cloud를 사용하여 로그인
 
-Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계입니다.
+Adobe Experience Cloud을 통해 로그인하려면:
 
 1. 인터넷에 액세스할 수 있는 컴퓨터에서 브라우저를 시작합니다.
 1. [!DNL https://login.experiencecloud.adobe.com/] 으로 이동합니다.
@@ -62,7 +62,7 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 ## 보고서 실행
 
-보고서를 생성하는 방법을 설명하는 단계입니다.
+ 보고서를 생성하려면:
 
 1. [!UICONTROL Reports &amp; Analytics]에 로그인합니다.
 
@@ -93,7 +93,9 @@ Adobe Experience Cloud를 통해 로그인하는 방법을 설명하는 단계�
 
 ## 인터페이스 언어 변경
 
-인터페이스 언어를 변경하는 방법을 설명하는 단계입니다. 선택한 언어로 Reports &amp; Analytics 인터페이스를 볼 수 있습니다.
+인터페이스 언어를 변경할 수 있습니다. 선택한 언어로 Reports &amp; Analytics 인터페이스를 볼 수 있습니다.
+
+인터페이스 언어를 변경하려면
 
 1. Analytics에 로그인하고 **[!UICONTROL 보고서]** 탭을 선택합니다.
 1. 페이지 바닥글의 **[!UICONTROL 언어]** 메뉴에서 활성 언어를 클릭한 다음 기본 언어를 선택합니다.

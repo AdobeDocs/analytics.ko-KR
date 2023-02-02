@@ -3,10 +3,10 @@ description: 분류는 값을 그룹으로 분류하고 그룹 수준으로 보�
 title: 전환 분류
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 전환 분류 추가
 
-관리자에서 전환 분류를 추가하는 방법을 설명하는 단계입니다.
+관리자에서 전환 분류를 추가하려면:
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.

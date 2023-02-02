@@ -5,16 +5,16 @@ uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 93%
+source-wordcount: '110'
+ht-degree: 95%
 
 ---
 
 # 실시간 요청 구성
 
-실시간 요청 날짜를 구성하는 방법을 설명하는 단계.
+실시간 요청 날짜를 구성하려면 다음을 수행하십시오.
 
 1. 마케팅 분석의 [관리 도구](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)에서 실시간 보고가 활성화되어 있는지 확인합니다.
 1. [!UICONTROL 요청 마법사: 1단계]에서 **[!UICONTROL 실시간 보고서]** > **[!UICONTROL `<report type>`]**&#x200B;를 클릭합니다. 

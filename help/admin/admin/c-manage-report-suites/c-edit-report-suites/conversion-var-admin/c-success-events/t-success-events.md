@@ -3,16 +3,16 @@ description: 성공 이벤트를 구성하는 방법을 설명하는 단계입�
 title: 성공 이벤트 구성
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 89%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
 # 성공 이벤트 구성
 
-성공 이벤트를 구성하는 방법을 설명하는 단계입니다.
+성공 이벤트를 구성하려면:
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.

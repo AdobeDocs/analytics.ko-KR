@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-그래프를 목표 대상자에게 가장 유용한 방식으로 사용자 정의하는 방법을 설명하는 단계입니다.
+그래프를 목표 대상에게 가장 유용한 방식으로 사용자 지정할 수 있습니다.
 
 사용 가능한 그래프 종류는 실행하는 보고서 유형에 따라 다릅니다. 예를 들어 트렌드 보고서에는 트렌드 라인 그래프를 사용하는 것이 효과적이지만, 일, 주, 월 등에 따른 트렌드를 보다 명확하게 표현할 수 있도록 트렌드 라인과 함께 세로 막대 그래프를 사용할 수도 있습니다. 또는 파이 차트를 사용하여 조회한 페이지에 대한 백분율을 표현할 수 있습니다.
 
-**보고서 그래프를 변경하려면**
+보고서 그래프를 변경하려면:
 
 1. 보고서 실행.
 1. **[!UICONTROL 그래프 구성]**&#x200B;을 클릭합니다.

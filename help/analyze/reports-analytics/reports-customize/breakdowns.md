@@ -5,9 +5,9 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Analytics 변수(eVar 또는 prop)는 다른 변수로 분류할 수 있습니�
 
 ## 분류 보고서 실행 {#task_F685624830E64C829C8BE6435A107F69}
 
-상세 분류 보고서를 실행하는 방법을 설명한 단계입니다.
+상세 분류 보고서를 실행하려면:
 
 <!-- 
 

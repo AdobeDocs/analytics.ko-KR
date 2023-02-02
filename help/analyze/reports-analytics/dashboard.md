@@ -5,10 +5,10 @@ title: 대시보드 및 Reportlet
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1827'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 98%
 
 ---
 
@@ -61,11 +61,10 @@ ht-degree: 100%
 
 [!UICONTROL 대시보드 관리자]를 사용하여 대시보드를 편집하고 관리하며 DirectAccess에 대한 대시 보드를 활성화합니다.
 
- [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.
+See [대시보드 관리](/help/analyze/reports-analytics/dashboard-manage.md)를 참조하십시오.
 
 ## 대시보드 만들기 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-대시보드를 만드는 방법을 설명하는 단계입니다.
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 보고서를 reportlet으로 대시보드에 추가하기 전에 대시보드의 레이아웃을 정의합니다.
+
+대시보드를 만들려면:
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 대시보드 관리]**&#x200B;로 이동합니다.
 1. **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭합니다.
@@ -96,13 +97,15 @@ t_dashboard_add.xml
 
 ## Reportlet 만들기 {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-reportlet을 만드는 방법을 설명하는 단계입니다. reportlet을 만들면 대시보드를 표시하는 데 사용할 수 있습니다.
+reportlet을 만들면 대시보드를 표시하는 데 사용할 수 있습니다.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+reportlet을 만들려면:
 
 1. 보고서 실행.
 1. **[!UICONTROL 대시보드]**&#x200B;를 클릭합니다.
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## 대시보드에 콘텐츠 추가 {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-다른 대시보드 및 공유 대시보드에서 콘텐츠를 추가하는 방법을 설명하는 단계입니다. 텍스트 및 이미지와 같은 사용자 정의 및 외부 소스에서 콘텐츠를 추가할 수도 있습니다.
+다른 대시보드 및 공유 대시보드에서 컨텐츠를 추가할 수 있습니다. 텍스트 및 이미지와 같은 사용자 정의 및 외부 소스에서 콘텐츠를 추가할 수도 있습니다.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+대시보드에 컨텐트를 추가하려면:
 
 1. 대시보드를 연 다음 **[!UICONTROL 레이아웃]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 콘텐츠 추가]**&#x200B;를 클릭한 다음 항목을 드래그하여 대시보드에 놓습니다.
@@ -209,7 +214,7 @@ t_dashboard_edit.xml
 
 ## 대시보드 공동 브랜딩 {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-대시보드에서 표시할 이미지를 업로드하는 방법을 설명하는 단계입니다.
+대시보드에 표시할 이미지를 업로드하려면:
 
 <!-- 
 

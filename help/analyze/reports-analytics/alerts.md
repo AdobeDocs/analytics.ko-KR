@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 96%
+source-wordcount: '841'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 ## 경고 추가 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Adobe Analytics에서 경고를 추가하는 방법을 설명하는 단계입니다.
+경고 빌더 또는 특정 보고서에서 Adobe Analytics에 경고를 추가할 수 있습니다.
 
 <!-- 
 
@@ -40,7 +40,11 @@ t_add_an_alert.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** 메뉴에서 새 경고 빌더로 이동합니다. 하지만 Reports &amp; Analytics 내에서 여전히 액세스할 수 있습니다.
+### 경고 빌더에서 경고 추가
+
+1. 선택 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** 경고 빌더를 엽니다.
+
+### 개별 보고서에서 경고 추가
 
 1. Reports &amp; Analytics에서 경고를 설정할 보고서를 엽니다.
 1. **[!UICONTROL 자세히]** > **[!UICONTROL 경고 추가]**&#x200B;를 클릭합니다.
@@ -48,7 +52,7 @@ t_add_an_alert.xml
 
 ## 기존 경고 보기 또는 편집 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-작업 컨텍스트
+<!-- add Task Context-->
 
 1. **[!UICONTROL Analytics]** >**[!UICONTROL 구성 요소]** > **[!UICONTROL 경고]**&#x200B;로 이동합니다. 이렇게 하면 새 [경고 관리자](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)로 이동합니다.
 

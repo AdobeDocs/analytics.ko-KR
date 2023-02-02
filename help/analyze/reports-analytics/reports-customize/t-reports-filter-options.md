@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Ocean Blue Jean
 
 ## 보고서별 필터 만들기 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-보고서에 대한 필터를 만드는 방법을 설명하는 단계입니다.
+보고서에 대한 필터를 만들 수 있습니다.
 
 <!-- 
 
@@ -153,7 +153,7 @@ t_reports_filter_specific.xml
 
 이러한 필터에 액세스하면 목록에 지정된 항목에 대한 보고서 지표를 볼 수 있습니다.
 
-**보고서별 필터를 만들려면**
+보고서별 필터를 만들려면:
 
 1. [!UICONTROL 구매 보고서]와 같은 보고서를 생성합니다(**[!UICONTROL 사이트 지표]** > **[!UICONTROL 구매]** > **[!UICONTROL 구매 전환 단계]**).
 1. 보고서 헤더에서 **[!UICONTROL 필터]** 링크를 클릭합니다.
@@ -162,8 +162,6 @@ t_reports_filter_specific.xml
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 ## 상관 관계 필터 추가 {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-상관 관계 필터를 추가하는 방법을 설명하는 단계입니다
 
 <!-- 
 
@@ -175,7 +173,7 @@ t_reports_correlation_filter.xml
 
 사용 가능한 상관 관계를 사용하여 상관 관계 보고서에 표시되는 데이터를 필터링할 수 있습니다. 이 예제에서는 검색 엔진 상관 관계 필터를 추가하는 방법을 보여 줍니다.
 
-**상관 관계 필터 추가**
+상관 관계 필터 추가:
 
 1. 상관 관계를 지원하는 보고서를 실행합니다. [상세 분류 보고서 실행](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)을 참조하십시오.
 1. 보고서 헤더에서 **[!UICONTROL 상관 관계 필터]** 링크를 클릭합니다.

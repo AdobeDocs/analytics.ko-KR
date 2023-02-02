@@ -4,10 +4,10 @@ subtopic: Classifications
 title: 트래픽 분류
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ t_classification_add_traffic.xml
 
  -->
 
-선택한 보고서 세트의 분류를 추가 또는 편집하는 방법을 설명하는 단계입니다.
+선택한 보고서 세트에 대한 분류를 추가 또는 편집하려면:
 
 1. 세트 헤더에서 **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.

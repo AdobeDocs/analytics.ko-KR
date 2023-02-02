@@ -5,16 +5,16 @@ uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 94%
 
 ---
 
 # 예외 항목 탐지 요청 구성
 
-Report Builder에서 예외 항목 탐지 요청을 만드는 방법을 설명하는 단계
+Report Builder에서 예외 항목 탐지 요청을 만들려면 다음을 수행하십시오.
 
 1. **[!UICONTROL 사이트 지표]** > **[!UICONTROL 트래픽]** 보고서 등과 같이 트렌드 보고서를 선택합니다.
 1. [!UICONTROL 세부기간 적용] 메뉴에서 **[!UICONTROL 일]**&#x200B;을 선택합니다.
