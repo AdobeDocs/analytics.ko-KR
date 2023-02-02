@@ -2,10 +2,10 @@
 title: 클라이언트 힌트
 description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
+source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 97%
+source-wordcount: '1247'
+ht-degree: 94%
 
 ---
 
@@ -13,27 +13,23 @@ ht-degree: 97%
 
 클라이언트 힌트는 사용자 디바이스에 대한 개별 정보입니다. Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 사용할 수 있습니다. 이들 브라우저의 경우 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체합니다. Adobe Analytics는 사용자 에이전트뿐만 아니라 클라이언트 힌트를 사용하여 디바이스 정보를 확인하도록 디바이스 조회 프로세스를 업데이트합니다.
 
+## 낮은 엔트로피 및 높은 엔트로피 클라이언트 힌트
+
 Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 힌트와 높은 엔트로피 힌트의 두 가지 범주로 나눕니다.
 
 * **낮은 엔트로피 힌트**&#x200B;에는 보다 일반적인 디바이스 정보가 포함되어 있습니다. 이들 힌트는 Chromium 브라우저에서 자동으로 제공됩니다.
 
 * **높은 엔트로피** 힌트에는 보다 자세한 정보가 포함되어 있습니다. 이들 힌트는 요청 시에만 사용할 수 있습니다. AppMeasurement 및 Web SDK는 모두 높은 엔트로피 힌트를 요청하도록 구성할 수 있습니다. 기본적으로 두 라이브러리 모두 높은 엔트로피 힌트를 요청하지 **않습니다**.
 
->[!NOTE]
->
->2023년 2월 16일부터 클라이언트 힌트가 Analytics 디바이스 조회 프로세스에 통합됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
+2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 “중단”했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
+
+2023년 2월 16일부터 클라이언트 힌트가 Analytics 디바이스 조회 프로세스에 통합됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
 
 >[!NOTE]
 >
->2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 “중단”했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
+> 2023년 1월부터 일부 버전의 Mac 및 Windows 운영 체제는 사용자 에이전트에 잘못 표시되지만 엔트로피 클라이언트 힌트로 올바르게 표시됩니다. 자세한 내용은 [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko)를 참조하십시오.
 
->[!NOTE]
->
-> 2023년 1월부터 Mac 및 Windows 운영 체제의 일부 버전이 사용자 에이전트에 잘못 표시되었지만 높은 엔트로피 클라이언트 힌트에는 올바르게 표시됩니다. 자세한 내용은 [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko)를 참조하십시오.
-
->[!NOTE]
->
->AAM은 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [AAM으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
+AAM에서는 전체 기능을 유지하려면 높은 엔트로피 힌트를 수집해야 합니다. [AAM으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
 ## FAQ
 
