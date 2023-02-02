@@ -4,14 +4,14 @@ description: 사용자를 위한 일반 및 프로젝트 환경은 물론 어두
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 5706e7196ab7e0e044bf5114655c9d9e04468c60
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 74%
+source-wordcount: '2556'
+ht-degree: 95%
 
 ---
 
-# 기본 설정
+# 환경 설정
 
 생성한 모든 새 프로젝트 또는 패널에 대해 Analysis Workspace 및 관련 구성 요소의 설정을 관리할 수 있습니다. 기존 프로젝트 및 패널은 영향을 받지 않습니다.
 
@@ -87,8 +87,8 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 자유 형식 테이�
 |  | 합계 표시 | 이 합계는 일반적으로 [!UICONTROL 총 합계]와 같거나 그 하위 집합입니다. [!UICONTROL 포함 내용 없음] 선택 사항을 포함하여 자유 형식 테이블 내에 적용된 테이블 필터를 반영합니다. |
 |  | 총계 표시 | 이 합계는 수집 된 모든 히트 수를 나타내며 “보고서 세트 합계”라고도 합니다. 세그먼트가 패널 수준에서 또는 자유 형식 테이블 내에서 적용되면 이 합계는 세그먼트 기준과 일치하는 모든 히트를 반영하도록 조정됩니다. [정적 행](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)이 있는 테이블 또는 분류에서는 총 합계가 지원되지 않습니다. |
 |  | 스파크라인 표시 | 차트 하단에 라인 차트를 표시하거나 숨깁니다. 범례가 숨겨져 있으면 더 이상 시각적으로 선을 참조하지 않습니다. |
-|  | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면, 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
-|  | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면, 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열의 너비를 크게 늘릴 수 있도록 상한을 1,000%로 옮겼습니다. |
+|  | 숫자 | 셀에 지표에 대한 숫자 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 숫자 값은 행 항목에 대한 페이지 조회수입니다. |
+|  | 비율 | 셀에 지표에 대한 퍼센트 값을 표시할지 또는 숨길지를 결정합니다. 예를 들어 지표가 페이지 조회수이면 퍼센트 값은 행 항목에 대한 페이지 조회수를 해당 열에 대한 총 페이지 조회수로 나눈 수입니다.  참고: 정확하게 말하자면 100%보다 큰 백분율을 표시할 수 있습니다. 또한 열의 너비를 크게 늘릴 수 있도록 상한을 1,000%로 옮겼습니다. |
 |  | 예외 항목 표시 <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | 이 열의 값에 대해 예외 항목 탐지가 실행되는지 여부를 결정합니다. |
 |  | 0을 값없음으로 해석 | 값이 0인 셀에 대해, 0을 표시할지 아니면 빈 셀을 표시할지를 결정합니다. 달의 각 날에 대한 데이터를 보고 일부 날은 아직 일어나지 않은 경우 유용합니다.  차후의 날짜에 대해 0을 표시하는 대신 빈 셀을 표시할 수 있습니다. 차트에 이 설정도 적용됩니다(즉, 이 설정을 선택한 경우 차트에 값이 0인 줄 또는 막대가 표시되지 않습니다). |
 |  | 배경 | 막대 그래프 및 조건부 서식을 포함하여, 셀에 모든 셀 서식을 표시할지 또는 숨길지를 결정합니다 <ul><li>막대 그래프</li> 열에 대한 합계와 상대적인 셀 값을 나타내는 수평 막대 그래프를 표시합니다. <li>조건부 서식</li>조건부 서식에 대한 자세한 내용은 [열 설정](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)의 “조건부 서식”을 참조하십시오.</ul> |
@@ -185,21 +185,12 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 
 ## 회사 환경 설정
 
->[!AVAILABILITY]
->
->이 섹션에 설명된 공개 액세스 링크 기능은 릴리스의 제한된 테스트 단계에 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
-
 조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **보고서 탭** |  |  |
 |  | 보고서 탭 숨기기 | 조직의 모든 사용자에 대한 보고서 탭을 숨깁니다. |
-| **공개 액세스 링크** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
-|  | 모든 공개 액세스 링크 비활성화 | <p>조직의 사용자가 Analysis Workspace 계정이 없는 사람과 Analysis Workspace 프로젝트를 공유할 수 없습니다. 사용자는 조직 내의 다른 Analysis Workspace 사용자만 프로젝트를 공유할 수 있습니다.</p> <p>공개 링크가 비활성화된 경우:</p> <ul><li><p>사용자가 공개 액세스 링크를 만들 수 없습니다</p><p>공유 메뉴에서 &quot;공개 링크 공유&quot; 옵션이 제거됩니다. 즉, 사용자가 다음에 설명된 대로 더 이상 조직에 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다 [모든 사람과 공개 링크 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>기존의 모든 공개 링크는 사용할 수 없습니다</p></li><p>공개 링크를 비활성화한 다음 다시 활성화하면 이전에 비활성화된 모든 링크가 자동으로 다시 활성화되지 않습니다. 이 경우 사용자는 프로젝트 공유 대화 상자에서 각 프로젝트에 대해 수동으로 다시 활성화해야 합니다.</p> |
-|  | 암호 필요 | <p>조직에서 사용자가 공용 링크를 만들 때 암호 보호를 필요로 하도록 강제 적용합니다.</p> <p>이 옵션이 활성화되면 사용자가 Analysis Workspace 프로젝트에 대한 공개 링크를 만들 때마다 공유 대화 상자에서 &quot;암호 필요&quot; 옵션이 활성화되고 사용자가 비활성화할 수 없습니다. (사용자가 조직 외부의 사용자와 프로젝트를 공유하는 방법에 대한 자세한 내용은 [모든 사람과 공개 링크 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md))</p><p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 암호 보호가 활성화되지 않은 현재 활성화된 모든 공개 링크가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화한 후 나중에 비활성화하면 이전에 비활성화된 모든 링크가 자동으로 다시 활성화되지 않습니다. 이 경우 사용자는 프로젝트 공유 대화 상자에서 수동으로 다시 활성화해야 합니다.</p></li></ul> |
-|  | SSO(Single Sign-On) 인증 요구 | <p>모든 공개 링크에 대해 SSO(Single Sign-On) 인증이 필요합니다. 이 옵션이 활성화되어 있으면 연합 ID가 있고 Experience Cloud에 로그인할 수 있는 수신자만 공유 공개 링크에 액세스할 수 있습니다.</p> <p>이 옵션이 활성화되면 사용자가 Analysis Workspace 프로젝트에 대한 링크를 만들 때마다 공유 대화 상자에서 &quot;SSO(Single Sign-On) 인증 필요&quot; 옵션이 활성화되고 사용자가 비활성화할 수 없습니다. (사용자가 조직 외부의 사용자와 프로젝트를 공유하는 방법에 대한 자세한 내용은 [모든 사람과 공개 링크 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md))</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 SSO가 활성화되지 않은 현재 활성화된 모든 공개 링크가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화한 후 나중에 비활성화하면 이전에 비활성화된 모든 링크가 자동으로 다시 활성화되지 않습니다. 이 경우 사용자는 프로젝트 공유 대화 상자에서 수동으로 다시 활성화해야 합니다.</p></li> <li><p>이 옵션은 SSO가 조직에서 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 단일 사인온 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성된 경우 콘솔에서 모든 종류의 자동 계정 만들기가 구현되었는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 생성 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직에서 HIPAA 규정을 준수해야 하는 업계에서는 이 옵션이 자동으로 활성화되므로 비활성화할 수 없습니다.</p></li></ul> |
-|  | 사용자에게 “SSO(Single Sign-On) 인증 요구” 옵션 표시 | <p>&quot;Single Sign-On 인증 필요&quot; 옵션이 비활성화되어 있으면 조직의 사용자가 공유한 프로젝트에 대해 단일 사인온 인증을 필요로 하는지 여부를 선택하도록 하려면 이 옵션을 선택할 수 있습니다. 이 경우 사용자가 Analysis Workspace 프로젝트에 대한 링크를 만들 때마다 공유 대화 상자에서 &quot;SSO(Single Sign-On) 인증 필요&quot; 옵션이 활성화됩니다. 사용자가 선택한 경우 비활성화할 수 있습니다.<!--or is this disabled by default?--> (사용자가 조직 외부의 사용자와 프로젝트를 공유하는 방법에 대한 자세한 내용은 [모든 사람과 공개 링크 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md))</p><p>&quot;Single Sign-On 인증 필요&quot; 옵션이 활성화되어 있으면 사용자에게 표시하는 이 옵션이 선택되어 선택 취소할 수 없습니다.</p><p>이 옵션을 선택할 때는 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션은 SSO가 조직에서 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 단일 사인온 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성된 경우 콘솔에서 모든 종류의 자동 계정 만들기가 구현되었는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 생성 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>이 옵션을 선택하고 사용자가 단일 사인온 인증을 요구하도록 선택한 경우, 페더레이션 ID가 있고 Experience Cloud에 로그인할 수 있는 수신자만 공유 공개 링크에 액세스할 수 있습니다.</p></li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 

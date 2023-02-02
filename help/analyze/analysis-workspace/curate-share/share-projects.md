@@ -5,31 +5,14 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 35%
+source-wordcount: '1132'
+ht-degree: 49%
 
 ---
 
 # 프로젝트 공유
-
-다음 유형의 사람과 Analysis Workspace 프로젝트를 공유할 수 있습니다.
-
-* Adobe Analytics에 액세스할 수 있는 조직의 사용자 및 그룹
-
-* Adobe Analytics에 액세스할 수 없는 조직의 사용자 및 그룹
-
-* 조직 외부의 사람
-
-임의 [큐레이션](curate.md) 공유하기 전에 적용한 사항은 수신자가 프로젝트를 열 때 반영됩니다.
-
-다음은 프로젝트 공유에 대한 비디오 개요입니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
-
-
-## 조직의 Adobe Analytics 사용자 및 그룹과 공유 {#Add}
 
 조직의 기존 Adobe Analytics 사용자 또는 그룹과 프로젝트를 공유할 수 있습니다. 이 섹션에 설명된 대로 프로젝트를 공유할 때 공유하는 사용자에게 이미 Adobe Analytics 계정이 있어야 합니다.
 
@@ -39,7 +22,7 @@ ht-degree: 35%
 
 * [프로젝트에 대한 링크 공유](#share-a-link-to-a-project)
 
-### 특정 프로젝트 역할 공유
+## 특정 프로젝트 역할 공유
 
 조직의 사용자 및 그룹과 특정 프로젝트 역할을 공유할 때는 다음 사항을 고려하십시오.
 
@@ -77,7 +60,7 @@ ht-degree: 35%
 1. **[!UICONTROL 공유]**를 클릭합니다.
 또한 **[!UICONTROL 조정 및 공유]**&#x200B;를 클릭하여 프로젝트 조정을 자동으로 적용할 수도 있습니다. 프로젝트가 이미 공유된 경우 이 버튼에는 **[!UICONTROL 업데이트]** 및 **[!UICONTROL 조정 및 업데이트]**&#x200B;가 표시됩니다. [프로젝트 조정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR)에 대한 자세한 내용을 살펴보십시오.
 
-### 프로젝트에 대한 링크 공유
+## 프로젝트에 대한 링크 공유
 
 이 섹션에 설명된 대로 링크를 공유할 때는 다음 사항을 고려하십시오.
 
@@ -95,59 +78,6 @@ ht-degree: 35%
 1. 클릭 **[!UICONTROL 링크 복사]** 다음 **[!UICONTROL URL 공유 필드]**.
 
 1. 조직의 사용자와 링크를 공유합니다. 예를 들어 이메일, 내부 웹 사이트 등에 붙여넣을 수 있습니다.
-
-## 모든 사람과 공개 링크 공유(로그인 필요 없음) {#share-public-link}
-
-{{release-limited-testing-section}}
-
-Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로젝트를 공유할 수 있습니다. 여기에는 다음이 포함될 수 있습니다.
-
-* 조직 외부의 사람
-
-* 조직 내에서 Adobe Analytics이 제공되지 않는 사람
-
->[!NOTE]
->
->에 설명된 대로 Analytics 관리자가 이 옵션을 비활성화할 수 있습니다 [기본 설정](/help/analyze/analysis-workspace/user-preferences.md). 이 섹션에 설명된 대로 공개 링크를 공유할 수 없는 경우 Analytics 관리자가 이 기능을 비활성화했습니다.
-
-Analysis Workspace 프로젝트에 대한 공개 링크를 공유하려면:
-
-1. 공유할 Analysis Workspace 프로젝트를 엽니다.
-
-1. 클릭 **[!UICONTROL 공유]** > **[!UICONTROL 공개 링크 공유]**.
-
-   저장하지 않은 변경 사항이 있으면 프로젝트를 저장하라는 메시지가 표시됩니다.
-
-   <!-- Add screen shot of new modal -->
-
-1. 를 활성화합니다 **[!UICONTROL 링크 활성]** 아직 활성화되지 않은 경우 선택합니다.
-
-1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이러한 옵션은 Analytics 관리자가 제어할 수 있음).
-
-   * **[!UICONTROL SSO(Single Sign-On) 인증 필요]:**
-
-      공유 프로젝트에 액세스할 수 있으려면 먼저 SSO를 통해 인증을 받을 수 있는 링크가 있는 사람이 요청해야 합니다. 조직 내의 사용자만 프로젝트에 액세스할 수 있도록 하려면 이 옵션을 선택합니다.
-
-      Analytics 관리자는 [기본 설정](/help/analyze/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방법에 따라 다음 시나리오가 발생할 수 있습니다.
-
-      * 이 옵션이 표시되지 않으면 조직에 대해 SSO가 활성화되지 않았거나 Analytics 관리자가 이 기능을 활성화하지 않았습니다.
-
-      * 이 옵션이 활성화되고 흐리게 표시되면 Analytics 관리자가 모든 공개 링크에 액세스하려면 SSO 인증을 필요로 합니다.
-   * **[!UICONTROL 암호 필요]:** Analysis Workspace 프로젝트에 액세스하기 전에 링크를 가진 사람이 암호를 지정해야 합니다. 프로젝트에 대한 추가 수준의 보안을 제공합니다.
-
-      이 옵션을 선택하는 경우 암호를 지정하십시오. 이 암호를 다른 사용자와 공유할 때는 프로젝트 링크와 공유해야 합니다. <!--go through this workflow and see how it works.-->
-
-      이 옵션이 활성화되고 흐리게 표시되면 Analytics 관리자가 모든 공개 링크를 암호로 보호해야 합니다. Analytics 관리자는 [기본 설정](/help/analyze/analysis-workspace/user-preferences.md).
-
-
-1. 다음 **[!UICONTROL 다른 사람과 공유(로그인 필요 없음)]** 필드에서 **링크 복사** 아이콘을 사용하여 시스템 클립보드에 링크를 복사합니다.
-
-1. 프로젝트에 액세스할 사람과 링크를 공유합니다. 예를 들어 링크를 전자 메일에 붙여넣을 수 있습니다.
-
-   링크를 공유하는 모든 사용자는 Analysis Workspace 프로젝트를 볼 수 있습니다. 암호를 사용하도록 선택한 경우 해당 링크에 액세스하려는 모든 사용자와 암호를 공유해야 합니다.
-
-1. 선택 **[!UICONTROL 닫기]** 공유 대화 상자를 닫습니다. 변경 사항이 자동으로 저장됩니다. <!-- True? -->
-
 
 ## 프로젝트 관리자에서 프로젝트 공유 {#Manager}
 

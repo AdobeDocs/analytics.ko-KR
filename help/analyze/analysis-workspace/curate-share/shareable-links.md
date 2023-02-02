@@ -5,10 +5,10 @@ title: 공유 가능한 링크 만들기
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: '298'
+ht-degree: 80%
 
 ---
 
@@ -32,14 +32,6 @@ Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대�
 [비디오 보기](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ko-KR)에서 링크를 만들고 이를 사용하여 수신자를 프로젝트의 특정 부분으로 유도하는 방법에 대해 알아봅니다.
 
 ![](assets/get-viz-link.png)
-
-## 공개 링크 가져오기
-
-{{release-limited-testing-section}}
-
-Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로젝트를 공유할 수 있습니다. 여기에는 조직 외부의 사람 또는 Adobe Analytics이 제공되지 않는 조직 내의 사람이 포함될 수 있습니다.
-
-자세한 내용은 [모든 사람과 공개 링크 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md))
 
 ## 목차에 링크 사용 {#TOC}
 

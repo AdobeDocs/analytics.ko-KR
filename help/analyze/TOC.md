@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 97%
+source-wordcount: '1078'
+ht-degree: 99%
 
 ---
 
@@ -61,11 +61,6 @@ ht-degree: 97%
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-      + 데이터 사전 {#data-dictionary}
-         + [데이터 사전 개요](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [데이터 사전에서 구성 요소 정보 보기](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [데이터 사전에서 구성 요소 항목 편집](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [데이터 사전 상태 모니터링](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -217,7 +212,7 @@ ht-degree: 97%
          + [트래픽 및 상거래 지표를 동일한 요청에 통합](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [차원 및 지표의 사용자 액세스 권한](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [지표 수정 - 필드 정의](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
-         + [사용자 특성](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
+         + [사용자 속성](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [예외 항목 탐지](report-builder/layout/anomaly-detection.md)
       + [예외 항목 탐지 요청 구성](report-builder/layout/t-anomaly.md)
       + [날짜 형식 지정](report-builder/layout/format-the-data.md)
