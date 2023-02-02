@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 98%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 98%
    + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
-   + [환경 설정 관리자](admin/preferences-manager.md)
    + [개인정보 보호 보고](admin/privacy-reporting.md)
    + [활동 관리자 보고](admin/reporting-activity.md)
    + [예약된 보고서 대기열](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 98%
             + [개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [영구 트래픽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [개별 보고서 세트 설정](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + 실시간 보고서 {#real-time-reports}
             + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 98%
             + [지원되는 실시간 지표 및 차원](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + 회사 설정 {#company-settings}
       + [회사 설정 개요](admin/company/c-company-settings.md)
-      + [기능 액세스 수준](admin/company/feature-access-levels.md)
+      + [보안 관리자](admin/company/security-manager.md)
       + [웹 서비스](admin/company/web-services-admin.md)
       + [Report Builder 보고서](admin/company/report-builder-reports-admin.md)
       + [SSO(Single Sign-On)](admin/company/single-signon-admin.md)
-      + [보류 중인 작업](admin/company/pending-actions-admin.md)
       + [공동 브랜딩](admin/company/co-branding-admin.md)
       + [보고서 세트 숨기기](admin/company/c-hide-report-suites.md)
-      + [보안 관리자](admin/company/security-manager.md)
+      + [환경 설정 관리자](admin/company/preferences-manager.md)
+      + [보류 중인 작업](admin/company/pending-actions-admin.md)
+      + [기능 액세스 수준](admin/company/feature-access-levels.md)
    + [비디오 관리](admin/video-management.md)
    + 서버 호출 사용량 {#server-call-usage}
       + [서버 호출 사용량 개요](admin/c-server-call-usage/overage-overview.md)
