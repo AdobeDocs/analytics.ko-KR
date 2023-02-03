@@ -5,9 +5,9 @@ title: 폴더에서 프로젝트 제거
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 ## 프로젝트 이동 {#move-project-in-folder}
 
-프로젝트를 한 폴더에서 만든 다른 폴더로 이동할 수 있습니다.
+만든 프로젝트를 한 폴더에서 다른 폴더로 이동할 수 있습니다.
 
 1. 프로젝트 폴더 내 프로젝트 이름 옆에 **...** 줄임표가 있습니다.
 
