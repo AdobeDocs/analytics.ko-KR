@@ -3,9 +3,9 @@ title: 유료 검색 지표 가져오기
 description: '데이터 소스를 사용하여 유료 검색 지표(예: Google AdWords, MSN, Yahoo 등)를 추적하도록 Adobe Analytics를 구성하는 단계.'
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL Adobe Analytics > 관리자 > 모든 관리 > 데이터 소스]**&#x200B;로 이동합니다.
 1. **[!UICONTROL 만들기]** 탭을 선택하여 새 데이터 소스 활성화를 시작합니다.
-1. **[!UICONTROL 카테고리 선택]**&#x200B;에서 **[!UICONTROL 광고 캠페인]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 범주 선택]**&#x200B;에서 **[!UICONTROL 광고 캠페인]**&#x200B;을 선택합니다.
 
    ![데이터 소스](assets/data-sources.png)
 
@@ -65,7 +65,7 @@ ht-degree: 98%
 1. **[!UICONTROL 다음]**&#x200B;을 클릭하고 데이터 소스의 이름을 지정합니다. 이 이름은 데이터 소스 관리자에 나타납니다.
 1. 서비스 계약에 동의하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. 세 가지 표준 지표([!UICONTROL 노출수], [!UICONTROL 클릭수] 및 [!UICONTROL 총 비용])를 선택하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
-1. 이제 이 새 데이터 소스를 에서 만든 사용자 지정 이벤트에 매핑 [성공 이벤트 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. 이제 이 새로운 데이터 소스를 [성공 이벤트 구성](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)에서 생성한 사용자 정의 이벤트에 “매핑”하십시오.
 
    ![매핑](assets/data-source-mapping.png)
 
@@ -78,7 +78,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 다운로드]**를 클릭하여 이 데이터 소스의 템플릿 파일을 다운로드합니다.
-파일 이름은 처음에 지정한 데이터 소스 유형과 일치합니다. - 이 경우 “범용 클릭당 지불 서비스 template.txt”입니다.
+파일 이름은 처음에 지정한 데이터 소스 유형과 일치합니다. - 이 경우 “범용 클릭당 과금 서비스 template.txt”입니다.
 1. 즐겨 사용하는 텍스트 편집기에서 템플릿을 엽니다.
 파일은 이미 지표와 차원 및 해당 매핑으로 채워져 있습니다.
 
@@ -121,7 +121,7 @@ f. 추적 코드, 노출수, 클릭수 및 비용을 제외한 모든 열을 삭
 
 | 이름 | 공식 | 지표 유형 | 설명 |
 | --- | --- | --- | --- |
-| 방문당 페이지 보기 횟수 | 페이지 보기 횟수/방문 수 | 숫자 | 사이트 수준에서 적용할 때 방문당 평균 페이지 수를 보여 줍니다. 가장 방문 빈도가 높은 페이지 보고서에서 적용할 때 특정 페이지가 방문당 표시되는 평균 횟수를 보여 줍니다. |
+| 방문당 페이지 조회수 | 페이지 조회수/방문 수 | 숫자 | 사이트 수준에서 적용할 때 방문당 평균 페이지 수를 보여 줍니다. 가장 방문 빈도가 높은 페이지 보고서에서 적용할 때 특정 페이지가 방문당 표시되는 평균 횟수를 보여 줍니다. |
 | 평균 주문 가격 | 매출액/주문 수 | 통화 | 주문당 평균 매출을 표시합니다. |
 | 방문당 매출액 | 매출/방문 | 통화 | 방문당 평균 매출을 보여 줍니다. |
 | 클릭스루 비율(CTR) | 클릭수/노출수 | 숫자 | 온라인 광고 또는 이메일 마케팅 캠페인의 노출수에 대한 클릭수의 비율을 측정합니다. |
