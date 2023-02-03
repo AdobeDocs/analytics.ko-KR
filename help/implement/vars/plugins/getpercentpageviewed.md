@@ -4,9 +4,9 @@ description: 방문자가 본 페이지의 비율을 검색합니다.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -34,18 +34,18 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getPercentPageViewed
 1. Save and publish the changes to the rule.-->
 
-## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 정의 코드 편집기를 사용하여 플러그인 설치
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
-1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
-1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
+1. [!UICONTROL 사용자 정의 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
+1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
 1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 댓글 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,7 +58,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 `getPercentPageViewed` 함수에서는 다음 인수를 사용합니다.
 
-* **`pid`** (선택 사항, 문자열): 현재 페이지와 같은 변수 또는 값입니다. 기본값은 Analytics AppMeasurement입니다. `pageName` 또는 AppMeasurement pageName 변수가 설정되지 않은 경우 현재 URL입니다.
+* **`pid`**(선택, 문자열): 현재 페이지와 동일한 변수 또는 값입니다. 기본값은 Analytics AppMeasurement `pageName` 변수이거나, AppMeasurement pageName 변수가 설정되지 않은 경우 현재 URL입니다.
 * **`ch`** (선택 사항, 부울): 플러그인이 초기 로드 후 페이지 크기에 대한 변경 사항을 고려하지 않게 하려면 이 인수를 `false` (또는 `0`)로 설정하십시오. 생략하면 이 인수의 기본값이 `true`로 설정됩니다. 대부분의 경우에는 이 인수를 생략하는 것이 좋습니다.
 
 이 함수를 호출하면 아무 것도 반환되지 않습니다. 대신 다음 변수를 설정합니다.
@@ -66,11 +66,11 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 * `window._ppvPreviousPage`: 본 이전 페이지의 이름입니다. 현재 페이지에 대한 최종 스크롤 측정은 새 페이지가 로드될 때까지 사용할 수 없습니다.
 * `window._ppvInitialPercentViewed`: 이전 페이지가 처음 로드되었을 때 표시된 이전 페이지의 백분율입니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `100`입니다.
 * `window._ppvHighestPercentViewed`: 방문자가 본 이전 페이지의 가장 높은 비율(높이 기준)입니다. 방문자가 이전 페이지에서 아래로 가장 멀리 스크롤한 지점입니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `100`입니다.
-* `window._ppvFinalPercentViewed`: 방문자가 현재 페이지로 이동한 시점에 표시된 이전 페이지의 백분율. 이 값은 처음 본 비율보다 크거나 같고, 가장 많이 본 페이지 비율보다 작거나 같습니다.
+* `window._ppvFinalPercentViewed`: 방문자가 현재 페이지로 이동한 시점에 표시되었던 이전 페이지의 비율입니다. 이 값은 초기 조회 비율보다 크거나 같으며 최고 페이지 조회 비율보다 작거나 같습니다.
 * `window._ppvHighestPixelsSeen`: 방문자가 이전 페이지를 스크롤할 때 본 가장 큰 총 픽셀 수.
 * `window._ppvFoldsAvailable`: 이전 페이지에서 아래로 스크롤할 수 있는 총 “페이지 접기” 수입니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `1`입니다.
 * 
-   * `window._ppvFoldsSeen`: 방문자가 이전 페이지를 스크롤할 때 도달한 가장 큰 &quot;페이지 접기&quot; 수입니다. 이 변수에는 “페이지 상단” 접기가 포함됩니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `1`입니다.
+   * `window._ppvFoldsSeen`: 방문자가 이전 페이지를 스크롤할 때 도달한 가장 큰 “페이지 접기” 수입니다. 이 변수에는 “페이지 상단” 접기가 포함됩니다. 전체 페이지가 처음 로드될 때 표시되면 이 값은 `1`입니다.
 
 보고서에서 차원 데이터를 보려면 이러한 변수 중 하나 이상을 eVar에 지정하십시오.
 
@@ -105,7 +105,7 @@ if(_ppvPreviousPage)
 
 ### 5.1(2022년 12월 8일)
 
-* 가 추가되었습니다. `_finalPercentViewed` 솔루션
+* `_finalPercentViewed` 솔루션이 추가되었습니다.
 
 ### 5.0.1 (2021년 6월 22일)
 
@@ -121,7 +121,7 @@ if(_ppvPreviousPage)
 
 ### v3.01 (2018년 8월 13일)
 
-* 페이지에 여러 AppMeasurement 개체가 있는 페이지의 문제가 해결되었습니다.
+* 페이지에 여러 AppMeasurement 오브젝트가 있는 페이지의 문제가 해결되었습니다.
 
 ### v3.0 (2018년 4월 13일)
 
