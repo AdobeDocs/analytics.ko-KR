@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 98%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 98%
    + [코드 관리자](admin/code-manager-admin.md)
    + [통화 코드](admin/currency.md)
    + [데이터 소스](admin/data-sources.md)
-   + [기본 지표](admin/default-metrics.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
    + [활동 관리자 보고](admin/reporting-activity.md)
@@ -109,12 +108,12 @@ ht-degree: 98%
                + [서버측 전달 데이터 및 코드 참조](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [서버측 전달 구현 확인 방법](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [서버측 전달 FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-         + 트래픽 변수 {#traffic-variables}
+         + 트래픽 {#traffic-variables}
             + [트래픽 변수(prop) 개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [트래픽 변수 보고서 활성화](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [트래픽 분류](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [사용자 정의 보고서 설명](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-         + 전환 변수 {#conversion-variables}
+         + 전환 {#conversion-variables}
             + [전환 변수 (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [검색 방법](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [전환 분류](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -133,10 +132,11 @@ ht-degree: 98%
             + [개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [영구 트래픽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+         + [기본 지표](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [미디어 관리](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [개인정보 보호 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + 실시간 보고서 {#real-time-reports}
+         + [개인 정보 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + 실시간 {#real-time-reports}
             + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [실시간 보고서 구성](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [지원되는 실시간 지표 및 차원](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
