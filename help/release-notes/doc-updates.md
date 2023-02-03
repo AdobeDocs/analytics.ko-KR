@@ -29,10 +29,10 @@ ht-degree: 98%
 | 구현 | 다음 방법에 대한 콘텐츠가 업데이트되었습니다. [웹 및 모바일용 Adobe Analytics 구현](../implement/home.md). |
 | **2023년 1월** |  |
 | 테이블 필터링 및 정렬 | 에서 컨텐트(절차 추가 및 사용 가능한 옵션 설명 포함)가 업데이트되었습니다. [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서. 이 문서의 이름을 &quot;테이블 페이지 매김, 필터링 및 정렬&quot;에서 변경했습니다. |
-| 폴더 | 전용 페이지 [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| 사용자 환경 설정 | 이제 많은 추가 사용자 환경 설정을 [기본 설정](/help/analyze/analysis-workspace/user-preferences.md). |
-| 프로젝트에 대한 자동 저장 | 에 자동 저장 기능을 포함하도록 컨텐츠를 업데이트했습니다 [프로젝트 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
-| 랜딩 페이지 | 새로 만들기 [랜딩 페이지 업데이트](/help/analyze/landing.md) |
+| 폴더 | [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) 전용 페이지. |
+| 사용자 환경 설정 | 이제 다양한 추가 사용자 환경 설정을 [환경 설정](/help/analyze/analysis-workspace/user-preferences.md)에서 사용할 수 있습니다. |
+| 프로젝트 자동 저장 | [프로젝트 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)에 자동 저장 기능을 포함하도록 콘텐츠를 업데이트했습니다. |
+| 랜딩 페이지 | 새로운 [랜딩 페이지 업데이트](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 | 새 구성 변수 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)에 대한 설명서 |
 | 높은 엔트로피 클라이언트 힌트 | Adobe가 사용자 에이전트와 더불어 [클라이언트 힌트](/help/technotes/client-hints.md)를 사용하여 디바이스 정보를 확인하는 방법에 대한 새로운 주제. |
 | 처리 순서 | [처리 순서](/help/technotes/processing-order.md)에 대한 단일 도움말 항목을 제공하기 위해 다양한 도움말 페이지가 집계되었습니다. |
-| **2022월 8월** |  |
+| **2022년 8월** |  |
 | Edge Collection용 XDM에서의 목록 변수 지원 | Experience Edge/Web SDK를 통해 데이터를 수집하는 고객이 XDM을 사용하여 목록 변수 콘텐츠를 지정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html#list-variables-using-the-web-sdk) | 2022년 8월 18일 |
 | 제품 문자열 변수를 설정할 때 Edge Collection용 XDM의 SKU 필드 사용 | Experience Edge/Web SDK를 통해 데이터를 수집하는 고객이 SKU 값을 사용하여 제품 변수의 제품 필드를 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html#products-using-the-web-sdk) |
 | **2022년 6월** |  |
@@ -77,7 +77,7 @@ ht-degree: 98%
 | 이전 예약된 보고서 일시 중지에 대한 새로운 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 보고서를 일시 중지할 예정입니다](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **2022년 2월** |
 | 모바일 스코어카드 프로젝트 미리보기 모드 | [미리보기 모드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview)에서는 스코어카드를 저장하고 공유하기 전에 환경을 미리 확인할 수 있습니다. |
-| API 프로젝트 끝점 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| API 프로젝트 엔드포인트 | API를 사용하여 Analysis Workspace 프로젝트를 추가, 편집 또는 삭제합니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 이전 예약된 Report Builder 작업 일시 중지에 대한 업데이트된 항목 | **2022년 4월 15일**&#x200B;부터 Adobe는 [2년 이상 전에 생성된 모든 예약된 Report Builder 작업을 일시 중지할 예정입니다](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 
 ### 2021 {#21}
@@ -121,7 +121,7 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2020년 12월** |  |
-| 2020년 12월 7일 | “adobedc.net” 끝점을 포함하거나 대체하도록 모든 관련 페이지를 수정했습니다. |
+| 2020년 12월 7일 | “adobedc.net” 엔드포인트를 포함하거나 대체하도록 모든 관련 페이지를 수정했습니다. |
 | 2020년 12월 8일 | 작업 영역의 [새 프로젝트 만들기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ko) 페이지에 대한 업데이트입니다. |
 | **2020년 11월** |  |
 | 2020년 11월 24일 | 작업 영역의 [패널 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko) 페이지에 대한 업데이트입니다. |
@@ -138,7 +138,7 @@ ht-degree: 98%
 | 2020년 9월 17일 | [선 시각화 개선 사항](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ko): <ul><li>모든 [!UICONTROL 선] 시각화의 X축 및 Y축을 표시하거나 숨길 수 있습니다. 이 기능은 [!UICONTROL 선] 시각화가 더 작으면 특히 유용합니다.</li><li>모든 선 시각화에 최소 및 최대 값 레이블을 오버레이하여 지표의 최고점과 최저점을 빠르게 강조 표시할 수 있습니다.</li><li>모든 선 시각화에 서로 다른 회귀 트렌드 라인을 오버레이하여 데이터의 트렌드를 보다 쉽게 볼 수 있습니다. 옵션에는 [!UICONTROL 선형], [!UICONTROL 로그], [!UICONTROL 지수], [!UICONTROL 기능] 및 [!UICONTROL 이차]가 포함됩니다.</li></ul> |
 | 2020년 9월 17일 | 작업 영역의 새 날짜 범위: 5개의 새 날짜 범위를 추가했으므로 오늘의 일부 일 데이터를 포함하지 않는 다음 날짜 범위 중에서 선택할 수 있습니다. 지난 7일, 지난 14일, 지난 30일, 지난 60일, 지난 90일 |
 | 2020년 9월 17일 | 작업 영역의 [미디어 동시 뷰어 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=ko)에 대한 새로운 설명서 |
-| **2020월 8월** |  |
+| **2020년 8월** |  |
 | 2020년 8월 31일 | 크로스 디바이스 분석의 [필드 기반 결합 설명서](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=ko)에 개선 사항이 추가되었습니다. |
 | **7월 2020일** |  |
 | 2020년 7월 21일 | [크로스 디바이스 분석](/help/components/cda/overview.md)의 주요 업데이트 및 개정 버전. [필드 기반 결합](/help/components/cda/field-based-stitching.md)을 추가했습니다. |
@@ -191,7 +191,7 @@ ht-degree: 98%
 | 2019년 11월 29일 | [데이터 피드 설명서](/help/export/analytics-data-feed/data-feed-overview.md) 점검 |
 | 2019년 11월 25일 | IP 로그인 제한 적용의 기간 종료에 대한 새로운 주제입니다. |
 | 2019년 11월 21일 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)용 새로운 설명서 세트 |
-| 2019년 11월 21일 | 라이브스트림에서의 가용성을 나타내기 위해 [Audience Analytics 워크플로 FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html)를 업데이트했습니다. |
+| 2019년 11월 21일 | LiveStream에서의 가용성을 나타내기 위해 [Audience Analytics 워크플로 FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html)를 업데이트했습니다. |
 | 2019년 10월 25일 | [Adobe Analytics 주요 개념](/help/technotes/terms.md) 페이지가 업데이트되었습니다. |
 | 2019년 10월 10일 | 자유 형식 테이블 업데이트: 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ko)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
 | 2019년 10월 10일 | 작업 영역에서 “지정되지 않음(없음)”을 쉽게 제거하는 기능이 보고서 필터의 옵션으로 추가되었습니다. |
@@ -203,7 +203,7 @@ ht-degree: 98%
 | 2019년 9월 12일 | [계산된 지표 합계](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) 문서를 업데이트합니다. |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱 (PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
-| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | 작업 영역에서 Adobe는 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 활용 사례를 포용합니다. |
+| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | 작업 영역에서 Adobe는 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
 | 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
 | 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
 | 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |

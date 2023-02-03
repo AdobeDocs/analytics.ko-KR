@@ -3,8 +3,8 @@ title: 동의 관리 옵트아웃
 description: 방문자가 옵트아웃한 개인 정보 설정을 확인합니다.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---

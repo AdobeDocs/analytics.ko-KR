@@ -5,8 +5,8 @@ title: 서버측 전달 요구 사항
 feature: Server-Side Forwarding
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '315'
 ht-degree: 100%
 
 ---

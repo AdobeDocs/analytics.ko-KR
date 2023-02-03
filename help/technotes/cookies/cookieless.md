@@ -6,7 +6,7 @@ exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 이 문서에서는 주요 브라우저가 쿠키에 대한 추적 방지 디바이스를 구현할 때 여러 속성과 솔루션에서 지속적인 방문자 식별을 유지하는 방법에 대해 다룹니다.
 
-Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 기록합니다. Analytics는 또한 서드파티 쿠키를 기반으로 소유 중인 다른 도메인에서 이루어지는 활동 같이 방문자의 현장 활동을 기록합니다. 타사 쿠키는 많은 브라우저에서 차단되며 Chrome의 향후 지원 제거(현재 2024년 말에 예정됨)에서는 주로 사용할 수 없습니다. 자사 쿠키가 모든 브라우저에서 허용되는 것은 아니지만, 사용할 수 있는 것은 Apple의 [ITP 추적 방지](https://webkit.org/tracking-prevention) 조치에 따라 Safari 및 다른 브라우저에 대한 만료가 제한되어 있습니다. 브라우저 쿠키에 대한 현재의 제한과 관련된 자세한 내용은 [Adobe Analytics 및 브라우저 쿠키](cookies.md)를 참조하십시오.
+Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 기록합니다. Analytics는 또한 서드파티 쿠키를 기반으로 소유 중인 다른 도메인에서 이루어지는 활동 같이 방문자의 현장 활동을 기록합니다. 서드파티 쿠키는 많은 브라우저에서 차단되며, 출시 예정인 Chrome의 지원 제거에서는 대개 사용할 수 없습니다(현재 2024년 말 예정). 자사 쿠키가 모든 브라우저에서 허용되는 것은 아니지만 사용할 수 있는 것은 Apple의 [ITP 추적 방지](https://webkit.org/tracking-prevention) 조치에 따라 Safari 및 다른 브라우저에 대한 만료가 제한되어 있습니다. 브라우저 쿠키에 대한 현재의 제한과 관련된 자세한 내용은 [Adobe Analytics 및 브라우저 쿠키](cookies.md)를 참조하십시오.
 
 이러한 브라우저 제한은 익명으로 서드파티를 추적하는 경향에서 사용자와 사용자가 신뢰하는 브랜드가 정보를 명시적으로 공유하는 경향으로 폭넓게 이동하는 것을 반영합니다. 이러한 변화를 지원하기 위해, Adobe는 자사와 관계를 통해 수집된 오래 지속되는 식별자를 포함하여 고객이 전통적인 쿠키를 보완하는 방법을 제공합니다.
 
@@ -32,9 +32,9 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 &quot;[어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
-## 웹 SDK를 사용하는 자사 장치 ID(FPID)
+## Web SDK를 사용한 자사 디바이스 ID(FPID)
 
-Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experience Cloud ID(ECID) 대신 고유한 장치 식별자를 설정 및 관리하도록 선택할 수 있습니다. 이를 자사 장치 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ko)에서 추가 정보를 확인하십시오.
+Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experience Cloud ID(ECID) 대신 자신의 디바이스 식별자를 설정하고 관리하도록 선택할 수 있습니다. 이를 자사 디바이스 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en)에서 추가 정보를 확인하십시오.
 
 ## 추가 정보
 

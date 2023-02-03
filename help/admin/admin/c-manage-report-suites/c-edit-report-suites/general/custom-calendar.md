@@ -4,8 +4,8 @@ title: 사용자 정의 달력
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '514'
 ht-degree: 100%
 
 ---

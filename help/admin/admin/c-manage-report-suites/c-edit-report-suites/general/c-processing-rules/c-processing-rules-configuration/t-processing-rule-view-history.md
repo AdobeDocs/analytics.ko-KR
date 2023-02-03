@@ -5,8 +5,8 @@ title: 처리 규칙 내역 보기
 feature: Processing Rules
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '51'
 ht-degree: 100%
 
 ---

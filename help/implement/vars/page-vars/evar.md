@@ -4,8 +4,8 @@ description: 구현에 사용할 수 있는 사용자 정의 변수입니다.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
