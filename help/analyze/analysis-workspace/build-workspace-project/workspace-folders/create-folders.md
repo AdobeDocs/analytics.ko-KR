@@ -5,9 +5,9 @@ title: 폴더 만들기
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또�
 
 1. 새 폴더의 이름을 입력합니다.
 
-1. 드롭다운 메뉴에서 태그를 선택하거나 새 태그를 추가합니다.
+1. 드롭다운 메뉴에서 태그를 선택하거나 순전히 새로운 태그를 추가합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
