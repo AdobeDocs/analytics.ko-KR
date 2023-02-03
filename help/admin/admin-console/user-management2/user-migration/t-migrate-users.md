@@ -4,9 +4,9 @@ title: Adobe ID에 대한 Analytics 사용자 계정 마이그레이션
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 93%
    </tr> 
    <tr> 
       <td colname="col1"> <p>승인 요청한 도메인 </p> </td> 
-      <td colname="col2"> <p>사용자를 Enterprise 또는 Federated ID로 마이그레이션하려면 시스템 관리자가 사용자를 마이그레이션하기 전에 Adobe Admin Console을 통해 사용 가능한 도메인을 요청해야 합니다. <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">여기</a>에서 추가 정보를 확인하십시오. </p> <p>Enterprise 또는 Federated ID에 대한 도메인을 승인 요청하지 않으려면 이 단계를 건너뛰고 사용자를 Adobe ID로 마이그레이션하십시오. <a href="https://helpx.adobe.com/enterprise/help/identity.html">여기</a>에서 ID 유형을 확인하십시오. </p> </td> 
+      <td colname="col2"> <p>사용자를 Enterprise 또는 Federated ID로 마이그레이션하려면 시스템 관리자가 사용자를 마이그레이션하기 전에 Adobe Admin Console을 통해 사용 가능한 도메인을 청구해야 합니다. <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">여기</a>에서 추가 정보를 확인하십시오. </p> <p>Enterprise 또는 Federated ID에 대한 도메인을 승인 요청하지 않으려면 이 단계를 건너뛰고 사용자를 Adobe ID로 마이그레이션하십시오. <a href="https://helpx.adobe.com/kr/enterprise/help/identity.html">여기</a>에서 ID 유형을 확인하십시오. </p> </td> 
    </tr> 
    </tbody> 
    </table>
