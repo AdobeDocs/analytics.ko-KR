@@ -1,20 +1,20 @@
 ---
-description: 행 레이블 그리드에 추가할 차원을 필터링할 수 있습니다. 필터는 요청으로 반환된 데이터의 범위를 좁히며, 피벗 또는 사용자 지정 레이아웃에서 적용할 수 있습니다. 피벗 레이아웃에서 차원 필터링을 구성할 때 셀의 항목 수를 추가로 지정할 수 있습니다.
+description: 행 레이블 그리드에 추가할 차원을 필터링할 수 있습니다. 필터는 요청으로 반환된 데이터의 범위를 좁히며, 피벗 또는 사용자 정의 레이아웃에서 적용할 수 있습니다. 피벗 레이아웃에서 차원 필터링을 구성할 때 셀의 항목 수를 추가로 지정할 수 있습니다.
 title: 차원 필터링 개요
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 차원 필터링 개요
 
-행 레이블 그리드에 추가할 차원을 필터링할 수 있습니다. 필터는 요청으로 반환된 데이터의 범위를 좁히며, 피벗 또는 사용자 지정 레이아웃에서 적용할 수 있습니다. 피벗 레이아웃에서 차원 필터링을 구성할 때 셀의 항목 수를 추가로 지정할 수 있습니다.
+행 레이블 그리드에 추가할 차원을 필터링할 수 있습니다. 필터는 요청으로 반환된 데이터의 범위를 좁히며, 피벗 또는 사용자 정의 레이아웃에서 적용할 수 있습니다. 피벗 레이아웃에서 차원 필터링을 구성할 때 셀의 항목 수를 추가로 지정할 수 있습니다.
 
 선택한 필터 양식이 Report Builder 요청에서 선택한 요소 및 지표를 기반으로 채워집니다.
 
@@ -40,31 +40,31 @@ ht-degree: 98%
    <td colname="col1"> <p>다음 검색어 포함 </p> </td> 
    <td colname="col02"> <p>모든 순서의 공백으로 구분된 모든 값을 포함합니다. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>일치 <span class="term"> a b c</span>및 <span class="term"> b a c</span> 등. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> a b c</span>및 <span class="term"> b a c</span> 등. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>검색어를 하나라도 포함 </p> </td> 
    <td colname="col02"> <p>필터 중 하나 이상(공백으로 구분)을 포함합니다. </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>일치 <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>(<span class="term"> D4</span>는 아님). </p> </td> 
+   <td colname="col3"> <p> <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>(<span class="term"> D4</span>는 아님). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구문 포함 </p> </td> 
    <td colname="col02"> <p>검색 필터를 포함하며 다른 검색어도 포함할 수 있습니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>일치 <span class="term"> abc</span> 및 <span class="term"> abc def</span>. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abc</span> 및 <span class="term"> abc def</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>검색어 포함 안 함 </p> </td> 
    <td colname="col02"> <p>입력하는 값이 포함되지 않은 경우 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>일치 <span class="term"> d e f</span>(<span class="term"> c d e f</span>는 아님). </p> </td> 
+   <td colname="col3"> <p> <span class="term"> d e f</span>(<span class="term"> c d e f</span>는 아님). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음 구문 포함 안 함 </p> </td> 
    <td colname="col02"> <p>해당 구문을 포함하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>제외 <span class="term"> abc</span>, <span class="term"> abc def</span> 및 <span class="term"> def</span>와 일치 </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abc</span>, <span class="term"> abc def</span> 및 <span class="term"> def</span>와 일치 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>같음 </p> </td> 
@@ -76,24 +76,24 @@ ht-degree: 98%
    <td colname="col1"> <p>같지 않음 </p> </td> 
    <td colname="col02"> <p>해당 항목과 정확히 일치하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>Does not match <span class="term"> a</span>. </p> <p><span class="term"> a b c</span>와 일치합니다. </p> <p><span class="term"> abc</span>와 일치합니다. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> a</span>. </p> <p><span class="term"> a b c</span>와 일치합니다. </p> <p><span class="term"> abc</span>와 일치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 시작 </p> </td> 
    <td colname="col02"> <p>특정 값으로 시작하는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>일치 <span class="term"> abcd</span>(<span class="term"> 1abc</span>는 아님) </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abcd</span>(<span class="term"> 1abc</span>는 아님) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 끝남 </p> </td> 
    <td colname="col02"> <p>특정 값으로 끝나는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>일치 <span class="term"> wxyz</span> 하지만 <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p><span class="term"> wxyz</span> 일치(<span class="term"> wxyz0</span>은 아님) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>고급(특수 문자)  </p> </td> 
+   <td colname="col1"> <p>고급 (특수 문자) </p> </td> 
    <td colname="col02"> <p>정규 표현식 문자를 사용할 수 있습니다. </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
-   <td colname="col2"> <p>"^Home*Page$" | sports </p> </td> 
+   <td colname="col2"> <p>"^Home*Page$" | 스포츠 </p> </td> 
    <td colname="col3"> <p> 이것은 <span class="term"> Home</span>으로 시작하는 필터를 정의하고 0개 이상의 문자를 찾은 다음 <span class="term">Page</span>로 끝납니다. </p> <p>또한 <span class="term"> sports</span>가 포함된 모든 페이지. </p> <p>몇 가지 일치하는 예는 다음과 같습니다. </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">HomePage </li> 
@@ -117,7 +117,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " </td> 
+   <td colname="col1"> " " </td> 
    <td colname="col2"> 같음 </td> 
    <td colname="col3"> <p>다른 따옴표와 짝이 맞지 않는 한 이스케이프되지 않습니다. 예를 들어 <span class="term"> 17" Display</span>는 구문이 아닙니다. </p> </td> 
   </tr> 
@@ -144,7 +144,7 @@ ht-degree: 98%
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> 또는 </td> 
-   <td colname="col3"> <p>Supported only in the <span class="term"> Advanced(특수 문자)</span> 필터. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> Advanced(특수 문자)</span> 필터. </p> </td> 
   </tr> 
  </tbody> 
 </table>
