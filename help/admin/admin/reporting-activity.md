@@ -5,9 +5,9 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 ## 권한
 
-보고 활동을 관리하려면 Adobe Admin Console의 Analytics 제품 관리자 권한이 필요합니다.
+보고 활동을 관리하려면 Analytics 제품 관리자 권한(Adobe Admin Console)이 필요합니다.
 
-![권한](/help/admin/admin/assets/rep-mgr-permission.png)
+![사용 권한](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## 보고서 대기열 보기
 
@@ -88,7 +88,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 | 요약 번호 | 설명 |
 | --- | --- |
-| [!UICONTROL 사용자] 참조 | 현재 이 보고서 세트에 보고 요청을 보내고 있는 사용자 수입니다. |
+| [!UICONTROL 사용자] 참조 | 현재 이 보고서 세트에 보고 요청을 보내고 있는 사용자 수. |
 | [!UICONTROL 프로젝트] | 작업 영역 프로젝트, Report Builder 통합 문서 등 |
 | [!UICONTROL 쿼리] | 현재 실행 중인 쿼리 수입니다. |
 | [!UICONTROL 평균 대기 시간] | 실행 중인 모든 쿼리의 평균 대기 시간입니다. |
@@ -122,7 +122,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 1. 표에서 하나 이상의 **[!UICONTROL 쿼리 ID]** 왼쪽에 있는 확인란을 선택하고 하단의 **[!UICONTROL 요청 취소]**&#x200B;를 클릭합니다.
 
-   세부 사항을 보고 요청을 일괄적으로 취소할 수도 있습니다 [!UICONTROL 사용자], [!UICONTROL 프로젝트], 또는 [!UICONTROL 애플리케이션]. 활동이 새로 고쳐질 때 대기 중이 아니거나 취소 시 실행 중인 프로젝트, 사용자 또는 애플리케이션에 대한 후속 요청이 계속 나타날 수 있습니다.
+   [!UICONTROL 사용자], [!UICONTROL 프로젝트] 또는[!UICONTROL 애플리케이션]별로 세부 정보를 확인하여 요청을 일괄 취소할 수도 있습니다. 취소 시 대기열에 없거나 실행 중이 아니었던 프로젝트, 사용자 또는 애플리케이션에 대한 후속 요청은 활동을 새로 고침할 때 계속 나타날 수 있습니다.
 
 1. 표시되는 **[!UICONTROL x 쿼리 취소]** 창에서 필요한 경우 취소 메시지를 수정할 수 있습니다.
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
