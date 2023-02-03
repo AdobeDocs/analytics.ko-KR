@@ -1,12 +1,12 @@
 ---
 title: prop
-description: 구현에 사용할 수 있는 사용자 지정 변수입니다.
+description: 구현에 사용할 수 있는 사용자 정의 변수입니다.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 75%
 
 *이 도움말 페이지에서는 prop 구현 방법에 대해 설명합니다. prop이 차원으로 작동하는 방법에 대한 자세한 내용은 구성 요소 사용 안내서의 [prop](/help/components/dimensions/prop.md)을 참조하십시오.*
 
-prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
+prop은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. prop이 설정된 히트 이후에는 지속되지 않습니다.
 
 >[!TIP]
 >
 >대부분의 경우 [eVar](evar.md)를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
 
-[솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
+[솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 정의 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
-## 웹 SDK를 사용하는 Prop
+## Web SDK를 사용한 prop
 
-Prop은 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. 목록 prop은 별도의 필드 세트에 지정됩니다.
+prop은 XDM 필드 `_experience.analytics.customDimensions.props.prop1` 아래에서 `_experience.analytics.customDimensions.props.prop75`에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html). 목록 prop은 별도의 필드 세트에 지정됩니다.
 
-## Adobe Analytics 확장을 사용하는 Prop
+## Adobe Analytics 확장을 사용한 prop
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop을 설정할 수 있습니다.
 
@@ -39,9 +39,9 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 prop�
 
 prop을 값 또는 데이터 요소로 설정할 수 있습니다. 다른 Analytics 변수에서 값을 복사할 수도 있습니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.prop1 - s.prop75
+## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.prop1 - s.prop75
 
-각 prop 변수는 조직에 관련된 사용자 지정 값을 포함하는 문자열입니다. 최대 길이는 100바이트이고, 100바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
+각 prop 변수는 조직에 관련된 사용자 정의 값을 포함하는 문자열입니다. 최대 길이는 100바이트이고, 100바이트보다 긴 값은 Adobe에 전송될 때 자동으로 잘립니다.
 
 ```js
 s.prop1 = "Example custom value";
@@ -53,17 +53,17 @@ s.prop1 = "Example custom value";
 
 ### 목록 Prop 구성
 
-에서 목록 prop을 활성화합니다 [트래픽 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보고서 세트 설정에서 을 선택합니다. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
+보고서 세트 설정 아래의 [트래픽 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)에서 목록 prop을 활성화합니다. 원하는 구분 기호가 올바로 구성되었는지 확인하십시오. Adobe에서는 기본 구분 기호를 제공하지 않습니다.
 
 >[!TIP]
 >
->구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 확장되지 않은 ASCII 구분 기호를 사용할 수 있습니다.
+>구현에 사용되는 일반적인 구분 기호는 쉼표(`,`), 콜론(`:`), 세미콜론(`;`) 또는 파이프(`|`)입니다. 구현에 가장 적합한 비확장 ASCII 구분 기호를 사용할 수 있습니다.
 
-### 웹 SDK를 사용하여 목록 prop 설정
+### Web SDK를 사용한 목록 prop
 
-원하는 구분 기호가 있는 보고서 세트 설정에서 목록 prop을 구성하면 목록 prop이 아래의 Adobe Analytics에 대해 매핑됩니다 `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. 웹 SDK는 보고서 세트 설정 아래에 나열된 올바른 구분 기호를 자동으로 사용합니다. XDM 필드에서 구분 기호를 설정하는 경우(예: `_experience.analytics.customDimensions.props.prop1.delimiter`)를 설정하는 경우, 보고서 세트 설정에서 자동으로 검색되는 구분 기호를 대체하며, 목록 prop 문자열의 잘못된 구문 분석을 초래할 수 있습니다.
+보고서 세트 설정에서 원하는 구분 기호로 목록 prop을 구성하면 목록 prop이 `_experience.analytics.customDimensions.listProps.prop1.values[]`에서 `_experience.analytics.customDimensions.listProps.prop75.values[]`로 Adobe Analytics에 매핑됩니다. Web SDK는 보고서 세트 설정 아래에 나열된 올바른 구분 기호를 자동으로 사용합니다. XDM 필드에 구분 기호를 설정하면(예: `_experience.analytics.customDimensions.props.prop1.delimiter`) 보고서 세트 설정에서 자동으로 검색된 구분 기호를 재정의하고 목록 prop 문자열을 잘못 구문 분석할 수 있습니다.
 
-### Adobe Analytics 확장 및 AppMeasurement를 사용하여 목록 prop 설정
+### Adobe Analytics 확장 프로그램 및 AppMeasurement를 사용하여 목록 prop 설정
 
 원하는 구분 기호가 있는 보고서 세트 설정에서 목록 prop을 구성하면 구분 기호를 사용하는 것 외에는 구현에 차이가 없습니다.
 
