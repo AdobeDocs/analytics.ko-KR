@@ -4,9 +4,9 @@ title: 보고서 세트 만들기
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
    >
    >설정만 복사할 수 있고 데이터는 복사할 수 없습니다. 고객 지원에서 설정을 복사하는 경우 관련된 위험에 대해 고객 지원에서 제공하는 면책조항에 대한 서면 확인서를 제공해야 합니다. 자세한 내용은 [소스 보고서 세트에서 복사되지 않은 설정](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)을 참조하십시오.
 
-1. 에 설명된 필드를 채웁니다. [새 보고서 세트](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
+1. [새 보고서 세트](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)에 설명된 필드를 채웁니다.
 1. **[!UICONTROL 보고서 세트 만들기]**&#x200B;를 클릭합니다.
 
 보고서 세트 ID의 최대 길이는 40바이트입니다. 보고서 세트 이름의 최대 길이는 255바이트입니다.
