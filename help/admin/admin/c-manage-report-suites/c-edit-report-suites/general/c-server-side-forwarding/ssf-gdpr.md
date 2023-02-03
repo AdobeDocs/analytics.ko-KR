@@ -4,7 +4,7 @@ title: GDPR/ePrivacy 준수 및 서버측 전달
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 이 새 컨텍스트 변수 `cm.ssf=1`이 히트에 있으면 이 히트에 플래그가 지정되고 서버측에서 AAM으로 전달되지 않습니다. 반대로 이 문자열이 히트에 표시되지 않으면 히트가 AAM에 전달됩니다.
 
-서버측 전달은 양방향입니다. 즉, 히트에 적용되어 이 히트가 AAM에 전달되면 대상 Analytics가 AAM에서 이 히트에 대한 세그먼트 정보를 수신하여 다시 Analytics으로 전송합니다. 따라서 서버측이 Analytics에서 AAM으로 전달하지 않은 히트에는 AAM의 세그먼트 ID 목록이 추가되지 않습니다. 그러므로 AAM에서 세그먼트 ID 정보를 가져오지 않은 트래픽/히트의 서브세트가 있게 됩니다.
+서버측 전달은 양방향입니다. 즉, 히트에 적용되어 이 히트가 AAM에 전달되면 대상자 Analytics가 AAM에서 이 히트에 대한 세그먼트 정보를 수신하여 다시 Analytics으로 전송합니다. 따라서 서버측이 Analytics에서 AAM으로 전달하지 않은 히트에는 AAM의 세그먼트 ID 목록이 추가되지 않습니다. 그러므로 AAM에서 세그먼트 ID 정보를 가져오지 않은 트래픽/히트의 서브세트가 있게 됩니다.
 
 ## 구현 세부 정보 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 Adobe Analytics를 사용하여 동의한 트래픽 수와 그 결과 서버측에 전달된 트래픽 수 및 동의하지 않은 트래픽 수와 그 결과 AAM에 전달되지 않은 트래픽 수를 보고할 수 있습니다.
 
-이러한 유형의 보고를 구성하려면 처리 규칙을 통해 사용자 정의 트래픽 변수(prop)에 새 컨텍스트 변수를 매핑합니다. 이렇게 하려면 다음을 수행하십시오.
+이러한 유형의 보고를 구성하려면 처리 규칙을 통해 사용자 정의 트래픽 변수(prop)에 새 컨텍스트 변수를 매핑합니다. 이렇게 하려면 다음 작업을 수행하십시오.
 
 1. 위에 표시된 대로 &quot;cm.ssf&quot; 변수를 구현합니다.
 1. [prop를 활성화합니다.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
