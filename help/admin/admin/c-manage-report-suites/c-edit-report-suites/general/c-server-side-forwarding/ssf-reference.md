@@ -4,7 +4,7 @@ title: 서버측 전달 데이터 및 코드 참조
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 ## 구성 변수 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-`d_*`라는 접두사가 있는 매개 변수는 DCS([데이터 수집 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ko-KR))에서 사용되는 특별한 시스템 수준의 키-값 쌍을 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)을 참조하십시오.
+`d_*`라는 접두사가 있는 매개변수는 DCS([데이터 수집 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ko-KR))에서 사용되는 특별한 시스템 수준의 키-값 쌍을 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)을 참조하십시오.
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |--- |--- |
 | `d_rs` | (기존/추적 서버 기반 서버측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트로 설정합니다. |
 | `d_dst_filter` | (보고서 세트 기반 서버측 전달을 사용하여 세트 가져오기) <br>히트와 함께 Analytics에 전달된 보고서 세트 ID로 설정합니다. |
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 | HTTP 헤더 | 설명 | Audience Manager가 허용한 h_key |
 | --- | --- | --- |
-| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko-KR)를 참조 하십시오. | `h_host` |
+| 호스트 | Analytics 호스트 구성 파일에 지정된 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. 이 이름은 `host name .demdex.net`으로 나타납니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)를 참조 하십시오. | `h_host` |
 | User-Agent | Analytics에 전달된 User-Agent 헤더로 설정합니다. | `h_user-agent` |
 | Accept-Language | Analytics에 전달된 `Accept-Language` 헤더로 설정합니다. | `h_accept-language` |
 | Referer | Analytics로 전달되거나 Analytics로 전달된 `Referer` 헤더에서 수집한 페이지 URL로 설정합니다. | `h_referer` |
@@ -42,14 +42,14 @@ ht-degree: 100%
 
 ## 고객 정의 신호 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-`c_` 접두사가 있는 매개 변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)을 참조하십시오.
+`c_` 접두사가 있는 매개변수는 고객 정의 변수를 식별합니다. [DCS API 호출에 대한 지원되는 속성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ko-KR)을 참조하십시오.
 
 | 신호 | 설명 |
 | --- |--- |
-| `c_browserWidth`  및 `c_browserHeight` | 브라우저 창 너비와 높이. |
+| `c_browserWidth` 및 `c_browserHeight` | 브라우저 창 너비와 높이. |
 | `c_campaign` | `s.campaign`로 설정. |
 | `c_channel` | `s.channel`로 설정. |
-| `c_clientDateTime` | 타임스탬프 형식: `dd/mm/yyy hh:mm:ss  W TZ` . `TZ`는 분 단위이며 `Date.getTimezoneOffset` 메소드의 반환과 일치합니다. |
+| `c_clientDateTime` | 타임스탬프 형식: `dd/mm/yyy hh:mm:ss  W TZ`. `TZ`는 분 단위이며 `Date.getTimezoneOffset` 메서드의 반환과 일치합니다. |
 | `c_colorDepth` | 16비트 또는 32비트 색상으로 지정됩니다. |
 | `c_connectionType` | 연결 유형을 지정합니다. 옵션은 다음과 같습니다.<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | 예:<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>신호: `c_contextData.category=news`</li></ul> |
