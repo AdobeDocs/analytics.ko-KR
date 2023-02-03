@@ -4,9 +4,9 @@ description: 작업을 완료하는 데 걸린 시간을 측정합니다.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -34,20 +34,20 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getTimeToComplete
 1. Save and publish the changes to the rule.-->
 
-## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 정의 코드 편집기를 사용하여 플러그인 설치
 
-플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+플러그인 확장 기능을 사용하지 않으려는 경우 사용자 정의 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
-1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
-1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
+1. [!UICONTROL 사용자 정의 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
+1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
 1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 댓글 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -62,8 +62,8 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 * **`sos`** (선택 사항, 문자열): 타이머를 시작하려면 `"start"`으로 설정합니다. 타이머를 중지하려면 `"stop"`으로 설정합니다. 기본값은 `"start"`입니다.
 * **`cn`** (선택 사항, 문자열): 시작 시간을 저장할 쿠키의 이름입니다. 기본값은 `"s_gttc"`입니다.
-* **`exp`** (선택 사항, 정수): 초, 시간 또는 일 수(에 따라 다름) `tp` 쿠키(및 타이머)가 만료되는 시간 분할 인수. 기본값은 30분입니다.
-* **`tp`** (선택 사항, 문자열): 쿠키(및 타이머)가 만료되는 시간 분할 문자열로서, `exp` 변합니다. 일(일)은 &quot;d&quot;로, 시간(시)은 &quot;h&quot;로, 초(초)는 &quot;s&quot;로 설정합니다. 이 값이 설정되지 않은 경우, 쿠키(및 타이머) 만료는 기본적으로 `exp` 인수가 로 설정되었습니다.
+* **`exp`**(선택 사항, 정수): 쿠키(및 타이머)가 만료되는 초, 시간 또는 일 수(`tp` 시간 분할 인수에 따라 다름)입니다. 기본값은 30분입니다.
+* **`tp`**(선택 사항, 문자열): `exp` 인수와 함께 사용되는 쿠키(및 타이머)가 만료되는 시간 분할 문자열입니다. 날짜는 “d”, 시간은 “h”, 초는 “s”로 설정합니다. 설정되지 않은 경우 쿠키(및 타이머) 만료는 `exp` 인수가 무엇으로 설정되었는지에 관계없이 기본적으로 30분으로 설정됩니다.
 
 이 함수를 호출하면 `"start"` 작업과 `"stop"` 작업 사이에 걸린 일, 시간, 분 및/또는 초가 포함된 문자열이 반환됩니다.
 
