@@ -4,9 +4,9 @@ description: 이 변수를 사용하여 온라인 및 오프라인 데이터를 
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 92%
 
 기본적으로 Adobe는 최대 90일 동안 모든 거래 ID 값 (연결 및 연결 해제된 값)을 기억합니다. 오프라인 상호 작용 프로세스가 90일 이상인 경우 고객 지원에 요청하여 이 한계를 늘리십시오.
 
-## 웹 SDK를 사용한 거래 ID
+## Web SDK를 사용한 거래 ID
 
-거래 ID는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `commerce.order.transactionID`.
+거래 ID는 XDM 필드 `commerce.order.transactionID` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
 
-## Adobe Analytics 확장을 사용하는 거래 ID
+## Adobe Analytics 확장을 사용한 거래 ID
 
-Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 트랜잭션 ID를 설정할 수 있습니다.
+Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 거래 ID를 설정할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
@@ -39,7 +39,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 트�
 
 거래 ID를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.transactionID
+## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.transactionID
 
 `s.transactionID` 변수는 거래의 고유 식별자를 포함하는 문자열입니다. 유효한 값에는 최대 100바이트 길이의 영숫자 문자가 포함됩니다. 기본값은 빈 문자열입니다.
 
