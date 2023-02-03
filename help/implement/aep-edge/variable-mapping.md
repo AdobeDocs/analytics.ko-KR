@@ -3,7 +3,7 @@ title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
 ht-degree: 100%
 
