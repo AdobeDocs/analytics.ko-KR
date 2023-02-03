@@ -6,9 +6,9 @@ title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -125,13 +125,13 @@ ht-degree: 98%
 | **`mobilecampaignterm`** | 이 획득으로 추적할 유료 키워드 또는 기타 조건입니다. 모바일 앱 획득을 통해 채워집니다. | varchar (255) |
 | **`mobiledayofweek`** | 앱을 시작한 요일의 수입니다. | varchar (255) |
 | **`mobiledayssincefirstuse`** | 앱을 처음 실행한 이후 경과일 수입니다. | varchar (255) |
-| **`mobiledayssincelastupgrade`** | 폐기됨 - 컨텍스트 데이터 변수 a.DaysSinceLastUpgrade에서 수집됩니다. 이전 세션 이후 경과된 일 수입니다. | varchar (255) |
+| **`mobiledayssincelastupgrade`** | 중단 - 컨텍스트 데이터 변수 a.DaysSinceLastUpgrade에서 수집됩니다. 이전 세션 이후 경과된 일 수입니다. | varchar (255) |
 | **`mobiledayssincelastuse`** | 앱을 마지막으로 실행한 이후 경과일 수입니다. | varchar (255) |
 | **`mobiledeeplinkid`** | 컨텍스트 데이터 변수 `a.deeplink.id`에서 수집됩니다. 모바일 획득 링크의 식별자로 획득 보고서에 사용됩니다. | varchar (255) |
 | **`mobiledevice`** | 모바일 디바이스 이름입니다. iOS에서는 쉼표로 구분된 2자리 문자열로 저장됩니다. 첫 번째 숫자는 디바이스 생성을 나타내고 두 번째 숫자는 디바이스 제품군을 나타냅니다. | varchar (255) |
 | **`mobilehourofday`** | 앱을 시작한 날의 시간을 정의합니다. 24시간 숫자 형식을 따릅니다. | varchar (255) |
 | **`mobileinstalldate`** | 모바일 설치 날짜입니다. 사용자가 모바일 앱을 처음으로 여는 날짜를 제공합니다. | varchar (255) |
-| **`mobilelaunchessincelastupgrade`** | 폐기됨 - 컨텍스트 데이터 변수 a.LaunchesSinceUpgrade에서 수집됩니다. 마지막 업그레이드 이후 시작 횟수를 보고합니다. | varchar (255) |
+| **`mobilelaunchessincelastupgrade`** | 중단 - 컨텍스트 데이터 변수 a.LaunchesSinceUpgrade에서 수집됩니다. 마지막 업그레이드 이후 시작 횟수를 보고합니다. | varchar (255) |
 | **`mobilelaunchnumber`** | 모바일 앱을 시작할 때마다 1씩 증가합니다. | varchar (255) |
 | **`mobileltv`** | 더 이상 사용되지 않습니다. trackLifetimeValue 메서드로 채워집니다. | varchar (255) |
 | **`mobilemessagebuttonname`** | 컨텍스트 데이터 변수 `a.message.button.id`에서 수집됩니다. 메시지를 닫은 버튼을 식별하는 인앱 메시지에 사용됩니다. | varchar (100) |
@@ -139,13 +139,13 @@ ht-degree: 98%
 | **`mobilemessageonline`** | 인앱 메시지 온라인 | varchar (255) |
 | **`mobilemessagepushoptin`** | 컨텍스트 데이터 변수 `a.push.optin`에서 수집됩니다. 사용자가 푸시 메시지를 사용할 때 &quot;true&quot;로 설정됩니다. 그러지 않는 경우에는 값이 &quot;false&quot;입니다. | varchar (255) |
 | **`mobilemessagepushpayloadid`** | 컨텍스트 데이터 변수 `a.push.payloadid`에서 수집됩니다. 푸시 메시지에 페이로드 식별자로 사용됩니다. | varchar (255) |
-| **`mobileosenvironment`** | 폐기됨 - 컨텍스트 데이터 변수에서 수집됨 `a.OSEnvironment`. Android 또는 iOS와 같은 OS 환경을 명시합니다. | varchar (255) |
+| **`mobileosenvironment`** | 중단 - 컨텍스트 데이터 변수 `a.OSEnvironment`에서 수집됩니다. Android 또는 iOS와 같은 OS 환경을 명시합니다. | varchar (255) |
 | **`mobileosversion`** | Mobile Services 운영 체제 버전 | varchar (255) |
 | **`mobileplaceaccuracy`** | 컨텍스트 데이터 변수 `a.loc.acc`에서 수집됩니다. 수집 시 GPS의 정확도를 미터 단위로 나타냅니다. | varchar (255) |
 | **`mobileplacecategory`** | 컨텍스트 데이터 변수 `a.loc.category`에서 수집됩니다. 특정 위치의 범주를 설명합니다. | varchar (255) |
 | **`mobileplaceid`** | 컨텍스트 데이터 변수 `a.loc.id`에서 수집됩니다. 지정된 관심 영역에 대한 식별자입니다. | varchar (255) |
-| **`mobilepushoptin`** | Mobile Services 푸시 옵트인 | varchar (255) |
-| **`mobilepushpayloadid`** | Mobile Services 푸시 페이로드 ID | varchar (255) |
+| **`mobilepushoptin`** | 모바일 서비스 푸시 옵트인 | varchar (255) |
+| **`mobilepushpayloadid`** | 모바일 서비스 푸시 페이로드 ID | varchar (255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services 실행 콘텐츠 | varchar (255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services 실행 미디어 | varchar (255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services 실행 소스 | varchar (255) |
@@ -166,7 +166,7 @@ ht-degree: 98%
 | **`page_type`** | 404 페이지에만 사용되는 [페이지를 찾을 수 없음](/help/components/dimensions/pages-not-found.md) 차원을 채우는 데 사용됩니다. 이 변수는 비어 있거나 `ErrorPage` 값을 포함해야 합니다. | char (20) |
 | **`page_url`** | 히트의 URL입니다. `post_page_url`은 링크 추적 이미지 요청에서 제거되고 varchar(255)의 데이터 유형을 사용합니다. | 텍스트 |
 | **`pagename`** | [페이지](/help/components/dimensions/page.md) 차원을 채우는 데 사용됩니다. [`pagename`](/help/implement/vars/page-vars/pagename.md) 변수가 비어 있으면 Analytics가 `page_url`을 대신 사용합니다. | varchar (100) |
-| **`pagename_no_url`** | 과 유사함 `pagename`으로 폴백되지 않는다는 점을 제외하면 `page_url`. 전용 `post` 열을 사용할 수 있습니다. | varchar (100) |
+| **`pagename_no_url`** | `pagename`과 비슷하지만 `page_url`로 대체되지 않습니다. `post` 열만 사용할 수 있습니다. | varchar (100) |
 | **`paid_search`** | 히트가 유료 검색 발견과 일치하는 경우 설정되는 플래그입니다. | tinyint 부호 없음 |
 | **`partner_plugins`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (255) |
 | **`persistent_cookie`** | [영구적 쿠키 지원](/help/components/dimensions/persistent-cookie-support.md) 차원에 사용되는 변수입니다. 방문자가 각 히트 후 삭제되지 않은 쿠키를 지원하는지 여부를 나타냅니다. | char (1) |
@@ -208,7 +208,7 @@ ht-degree: 98%
 | **`sourceid`** | 소스 ID | int 부호 없음 |
 | **`state`** | 상태 변수입니다. | varchar (50) |
 | **`stats_server`** | 사용하지 않습니다. 히트를 처리한 Adobe 내부 서버입니다. | char (30) |
-| **`survey`** | 더 이상 사용되지 않습니다. Adobe Survey 변수 전용 `post` 열을 사용할 수 있습니다. | 텍스트 |
+| **`survey`** | 더 이상 사용되지 않습니다. Adobe Survey 변수. `post` 열만 사용할 수 있습니다. | 텍스트 |
 | **`survey_instances`** | 더 이상 사용되지 않습니다. Adobe Survey 인스턴스 변수 | 텍스트 |
 | **`t_time_info`** | 방문자의 로컬 시간입니다. 포맷: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar (100) |
 | **`tnt`** | Adobe Target 통합에서 사용됩니다. 현재 자격이 있는 모든 테스트를 나타냅니다. 포맷: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`입니다. | 텍스트 |
