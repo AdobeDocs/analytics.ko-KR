@@ -4,9 +4,9 @@ description: 사이트의 지표 중복 제거에 도움이 됩니다.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 ## 이벤트 직렬화 설정
 
-먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 안내서의 [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)를 참조하십시오.
+먼저 이벤트의 [!UICONTROL 고유 이벤트 기록]을 보고서 세트 설정에서 [!UICONTROL 이벤트 ID 사용]으로 설정해야 합니다. 관리자 사용 안내서의 [성공 이벤트](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)를 참조하십시오.
 
 이벤트 ID를 사용할 때 중복 제거는 다음 수준에서 수행됩니다.
 
@@ -32,13 +32,13 @@ ht-degree: 78%
 >
 >[`purchase`](event-purchase.md) 이벤트를 중복 제거하려면 [`purchaseID`](../purchaseid.md) 변수를 대신 사용하십시오.
 
-## 웹 SDK를 사용하여 이벤트 ID 사용
+## Web SDK를 사용하여 이벤트 ID 사용
 
-이벤트 정리 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 원하는 이벤트 XDM 필드의 `id`. 전체 XDM 경로는 serialize할 이벤트에 따라 다릅니다.
+이벤트 직렬화는 원하는 이벤트 XDM 필드의 `id` 아래에 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html). 전체 XDM 경로는 직렬화하려는 이벤트에 따라 다릅니다.
 
-예를 들어 장바구니 추가 지표를 직렬화하려면 `commerce.productListAdds.id` 원하는 일련화 값으로 연결되는 XDM 필드. 사용자 지정 이벤트 20을 직렬화하려면 `_experience.analytics.event1to100.event20` 원하는 일련화 값으로 연결되는 XDM 필드.
+예를 들어 장바구니 추가 지표를 직렬화하려면 `commerce.productListAdds.id` XDM 필드를 원하는 직렬화 값으로 설정합니다. 사용자 정의 이벤트 20을 직렬화하려면 `_experience.analytics.event1to100.event20` XDM 필드를 원하는 직렬화 값으로 설정합니다.
 
-## Adobe Analytics 확장을 사용하여 이벤트 ID 사용
+## Adobe Analytics 확장을 사용한 이벤트 ID 사용
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함된 작업으로서 이벤트 ID 필드를 설정할 수 있습니다.
 
@@ -51,7 +51,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에 포함�
 
 유효한 값은 최대 20바이트 길이의 영숫자 문자입니다. 20바이트보다 긴 값을 입력하면 시스템이 처음 20바이트로 잘라냅니다.
 
-## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기에서 이벤트 ID 사용
+## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기에서 이벤트 ID 사용
 
 이벤트 직렬화는 `s.events` 변수의 일부입니다. 문자열에서 콜론을 사용하여 각 이벤트에 ID를 할당합니다.
 
