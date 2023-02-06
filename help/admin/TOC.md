@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 98%
+source-wordcount: '620'
+ht-degree: 97%
 
 ---
 
@@ -67,14 +67,14 @@ ht-degree: 98%
          + 일반 {#report-suite-general}
             + [일반 계정 설정](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [내부 URL 필터](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + [사용자 정의 달력](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 유료 검색 감지 {#paid-search-detection}
                + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [메뉴 사용자 지정](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-            + [사용자 정의 캘린더](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 처리 규칙 {#c-processing-rules}
                + [처리 규칙 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + 처리 규칙 구성 {#c-processing-rules-configuration}
+               + 처리 규칙 {#c-processing-rules-configuration}
                   + [처리 규칙 작동 방식](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
                   + [처리 규칙 만들기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
                   + [활성 처리 규칙 보기](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
@@ -109,12 +109,12 @@ ht-degree: 98%
                + [서버측 전달 구현 확인 방법](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [서버측 전달 FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 트래픽 {#traffic-variables}
-            + [트래픽 변수(prop) 개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [트래픽 변수](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [트래픽 변수 보고서 활성화](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [트래픽 분류](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [사용자 정의 보고서 설명](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + 전환 {#conversion-variables}
-            + [전환 변수 (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [전환 변수](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [검색 방법](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [전환 분류](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
             + 고유 방문자 변수 {#unique-visitor-variable}
@@ -131,7 +131,7 @@ ht-degree: 98%
             + [마케팅 채널 관리](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [마케팅 채널의 처리 규칙](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [마케팅 채널에서의 분류](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [방문자 유도 만료](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [마케팅 채널 만료](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 트래픽 관리 {#traffic-management}
             + [개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
@@ -139,6 +139,9 @@ ht-degree: 98%
          + [기본 지표](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [앱 관리](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [미디어 관리](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
+         + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [개인 정보 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 실시간 {#real-time-reports}
             + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)

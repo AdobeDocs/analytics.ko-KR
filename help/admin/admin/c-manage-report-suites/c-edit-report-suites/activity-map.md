@@ -1,16 +1,16 @@
 ---
-description: Analytics에서 Activity Map 보고를 활성화하는 관리 단계입니다.
-title: Activity Map 보고
-feature: Activity Map
-exl-id: e1d3f894-b769-4294-b550-f46869b812be
+description: Adobe Analytics에서 Activity Map 데이터를 볼 수 있습니다
+title: Adobe Analytics에서 Activity Map 데이터 보기
+feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 86%
 
 ---
 
-# Activity Map 보고
+
+# Adobe Analytics에서 Activity Map 데이터 보기
 
 Analytics에서 Activity Map 보고를 활성화하는 관리 단계입니다.
 
@@ -28,6 +28,6 @@ Analytics를 사용하여 Activity Map (이전에 ClickMap)에서 제공된 사�
    | Activity Map 링크 | 전체 웹 사이트에서 수집한 모든 링크를 나열합니다. |
    | Activity Map 링크 및 영역 | 전체 웹 사이트에서 해당 영역과 함께 수집된 모든 링크를 나열합니다. |
 
-데이터를 채우려면 [Activity Map 설명서](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ko-KR)에서 전체 구현 지침을 참조하십시오.
+데이터를 채우려면 [Activity Map 설명서](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)에서 전체 구현 지침을 참조하십시오.
 
-<!--The content in this article is duplicated with the content in the Admin guide (activity-map.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
