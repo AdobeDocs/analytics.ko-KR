@@ -3,7 +3,7 @@ title: 레퍼러 유형
 description: 방문자가 어디에서 왔는지에 따른 레퍼러 유형입니다.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 목록은 [마케팅 채널 처리 규칙](../c-marketing-channels/c-rules.md)의 기본 소셜 네트워크 목록과 다릅니다.
+>이 목록은 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)의 기본 소셜 네트워크 목록과 다릅니다.
 
 * `12seconds.tv`
 * `4travel.jp`

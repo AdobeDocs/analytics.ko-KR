@@ -3,14 +3,20 @@ description: 마케팅 채널 보고서를 실행하고, 보고서에 대한 제
 title: 마케팅 채널 권한
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
 # 마케팅 채널 권한
+
+>[!NOTE]
+>
+>Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
+>
+>Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 다음은 마케팅 채널의 다양한 측면과 함께 작업할 수 있도록 하기 위해 [관리 콘솔](https://adminconsole.adobe.com/)에서 필요한 보고서 세트 도구 권한입니다.
 

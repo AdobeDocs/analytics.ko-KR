@@ -3,7 +3,7 @@ title: 마지막 터치 채널 세부 사항
 description: 방문자의 참여 만료 내 가장 최근 마케팅 채널에 대한 세부 사항입니다.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: ab0f0c80c13b9064b40511b59d03d9d899d20df1
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 차원을 데이터로 채우기
 
-이 차원은 다른 변수의 값을 복사합니다. 사용된 변수는 각 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md) 내의 채널 값을 참조합니다. 히트가 마케팅 채널 처리 규칙과 일치하면 [마지막 터치 채널](last-touch-channel.md) 차원이 채널 이름으로 설정되고 이 차원은 규칙에 설정된 채널 값으로 설정됩니다.
+이 차원은 다른 변수의 값을 복사합니다. 사용된 변수는 각 [마케팅 채널 처리 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) 내의 채널 값을 참조합니다. 히트가 마케팅 채널 처리 규칙과 일치하면 [마지막 터치 채널](last-touch-channel.md) 차원이 채널 이름으로 설정되고 이 차원은 규칙에 설정된 채널 값으로 설정됩니다.
 
 이 차원을 특정 값으로 설정하려면 다음 단계를 수행해야 합니다.
 

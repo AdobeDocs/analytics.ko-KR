@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '619'
 ht-degree: 98%
 
 ---
@@ -127,7 +127,11 @@ ht-degree: 98%
             + [분류 계층](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [목록 변수](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [머천다이징 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
-         + [마케팅 채널](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + 마케팅 채널 {#marketing-channels}
+            + [마케팅 채널 관리](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [마케팅 채널의 처리 규칙](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [마케팅 채널에서의 분류](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [방문자 유도 만료](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 트래픽 관리 {#traffic-management}
             + [개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [스파이크 예약](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
