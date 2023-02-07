@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 99%
+source-wordcount: '1101'
+ht-degree: 97%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 99%
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + 데이터 사전 {#data-dictionary}
+         + [데이터 사전 개요](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [데이터 사전에서 구성 요소 정보 보기](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [데이터 사전에서 구성 요소 항목 편집](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [데이터 사전 상태 모니터링](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [데이터 소스 관리](analysis-workspace/visualizations/t-sync-visualization.md)
