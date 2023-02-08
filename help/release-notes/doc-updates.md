@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 526c7b0739ac9a4c1424bbb3cdfb320369725de6
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
 workflow-type: tm+mt
 source-wordcount: '3592'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 | **2023년 2월** |  |
 | 구현 | 다음 방법에 대한 콘텐츠가 업데이트되었습니다. [웹 및 모바일용 Adobe Analytics 구현](../implement/home.md). |
 | **2023년 1월** |  |
-| 테이블 필터링 및 정렬 | 에서 컨텐트(절차 추가 및 사용 가능한 옵션 설명 포함)가 업데이트되었습니다. [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서. 이 문서의 이름을 &quot;테이블 페이지 매김, 필터링 및 정렬&quot;에서 변경했습니다. |
+| 테이블 필터링 및 정렬 | [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서의 내용이 업데이트되었습니다(절차 추가 및 사용 가능한 옵션 설명 포함). 이 문서의 이름이 “테이블 페이지 매김, 필터링 및 정렬”에서 다른 이름으로 변경되었습니다. |
 | 폴더 | [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) 전용 페이지. |
 | 사용자 환경 설정 | 이제 다양한 추가 사용자 환경 설정을 [환경 설정](/help/analyze/analysis-workspace/user-preferences.md)에서 사용할 수 있습니다. |
 | 프로젝트 자동 저장 | [프로젝트 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)에 자동 저장 기능을 포함하도록 콘텐츠를 업데이트했습니다. |
@@ -40,7 +40,7 @@ ht-degree: 98%
 | --- | --- |
 | **2022년 11월** |  |
 | 동의 관리 변수 | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 및 [동의 관리 옵트아웃](/help/components/dimensions/cm-opt-out.md)에 대한 전용 페이지입니다. |
-| 다중 통화 새로 고침 | [다중 통화 지원](/help/technotes/multicurrency.md) 관련 페이지가 업데이트됩니다. |
+| 다중 통화 새로 고침 | [다중 통화 지원](/help/implement/vars/config-vars/currencycode.md) 관련 페이지가 업데이트됩니다. |
 | **2022년 10월** |  |
 | Data Workbench | [서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | 클라이언트 힌트 | 새로운 [개요 및 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html) |
