@@ -1,8 +1,8 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 25%
+source-wordcount: '604'
+ht-degree: 24%
 
 ---
 # 스니펫
@@ -38,9 +38,9 @@ ht-degree: 25%
 |---------|----------|
 | [!UICONTROL **승인됨**] | 관리자가 구성 요소를 검토하고 승인했음을 나타냅니다. 관리자는 [!UICONTROL **승인 필요**] 승인되지 않은 구성 요소에 대한 옵션. 이 옵션을 선택하면 승인됨으로 표시됩니다. |
 | [!UICONTROL **설명**] | 구성 요소의 의도된 기능을 설명합니다. (이 정보는 다음에 설명된 대로 Analytics 관리자가 추가합니다. [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)) |
-| [!UICONTROL **다음과 함께 자주 사용됨**] | 5개의 기본 구성 요소 유형에서 보고 있는 구성 요소와 함께 가장 일반적으로 사용되는 5개의 구성 요소를 표시합니다. 지표, 계산된 지표, Dimension, 세그먼트 및 날짜 범위. 이 목록은 지난 90일의 데이터를 기반으로 합니다. 보기에 액세스할 수 있는 구성 요소만 표시됩니다. |
-| [!UICONTROL **다음과 유사**] | 5개의 기본 구성 요소 유형에 대해 보고 있는 구성 요소와 유사한 레이블이 있는 최대 5개의 구성 요소를 표시합니다. 지표, 계산된 지표, Dimension, 세그먼트 및 날짜 범위. 보기에 액세스할 수 있는 구성 요소만 표시됩니다. |
-| [!UICONTROL **태그**] | 구성 요소에 적용되는 모든 태그를 표시합니다. |
+| [!UICONTROL **다음과 함께 자주 사용됨**] | 5개의 기본 구성 요소 유형에서 보고 있는 구성 요소와 함께 가장 일반적으로 사용되는 5개의 구성 요소를 표시합니다. 지표, 계산된 지표, Dimension, 세그먼트 및 날짜 범위. 이 목록은 지난 90일의 데이터를 기반으로 합니다. 보기에 액세스할 수 있는 구성 요소만 표시됩니다. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **다음과 유사**] | 5개의 기본 구성 요소 유형에 대해 보고 있는 구성 요소와 유사한 레이블이 있는 최대 5개의 구성 요소를 표시합니다. 지표, 계산된 지표, Dimension, 세그먼트 및 날짜 범위. 보기에 액세스할 수 있는 구성 요소만 표시됩니다. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **태그**] | 구성 요소에 적용되는 모든 태그를 표시합니다. 관리자 액세스 권한이 있는 사용자는 구성 요소를 편집할 때 태그를 추가할 수 있습니다. |
 | [!UICONTROL **구성 요소 유형**] | 구성 요소의 유형, Dimension, 지표, 세그먼트 또는 날짜 범위 등을 나열합니다. |
 | [!UICONTROL **작성자**] | 구성 요소를 만든 사용자의 이름을 표시합니다. |
 | [!UICONTROL **미리보기**] | Analysis Workspace에서 구성 요소가 어떻게 보이는지에 대한 미리 보기를 표시합니다. |

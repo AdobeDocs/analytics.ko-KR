@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전에�
 
    ![데이터 사전 관리 보기](assets/data-dictionary-admin.png)
 
-1. 드롭다운 메뉴에서 올바른 보고서 세트가 선택되었는지 확인합니다.
+1. 드롭다운 메뉴에서 올바른 보고서 세트가 선택되었는지 확인합니다. 기본적으로 이미 있는 보고서 세트가 표시됩니다.
 
 1. (선택 사항) 검색 필드에서 편집할 구성 요소의 이름을 입력합니다.
 

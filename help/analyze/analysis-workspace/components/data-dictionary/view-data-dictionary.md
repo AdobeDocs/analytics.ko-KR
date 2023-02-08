@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. 보려는 구성 요소가 포함된 보고서 세트가 드롭다운 메뉴에서 선택되어 있는지 확인합니다.
+1. 보려는 구성 요소가 포함된 보고서 세트가 드롭다운 메뉴에서 선택되어 있는지 확인합니다. 기본적으로 이미 있는 보고서 세트가 표시됩니다.
 
 1. (선택 사항) 검색 필드에서 보려는 구성 요소의 이름을 입력합니다.
 
