@@ -4,9 +4,9 @@ title: 분류되지 않는 키
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-로 표시되는 비분류 키의 이름을 변경하려면 *`none`* 보고 시:
+보고에 *`none`*&#x200B;으로 표시되는 비분류 키의 이름을 바꾸려면 다음 작업을 수행합니다.
 
 1. 가져오기를 사용하여 분류를 로컬 파일로 내보냅니다.
 1. 파일에 행을 추가하고 키 열에 `~none~`을 입력합니다.
