@@ -4,9 +4,9 @@ title: FTP 가져오기
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ FTP를 통해 데이터 파일을 업로드하는 방법을 설명하는 단계�
 
 ## FTP 가져오기 {#concept_2F965BE873254546A61FB755F25299FD}
 
-FTP를 통해 데이터 파일을 업로드하려면:
+FTP를 통해 데이터 파일을 업로드하려면 다음 작업을 수행합니다.
 
 1. **[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**.
 
@@ -41,11 +41,11 @@ FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. �
 
 ## FTP를 통해 분류 가져오기 {#task_132C36830B69418B8C929E39838EF01D}
 
-FTP 계정을 사용하여 분류를 Adobe Analytics으로 가져올 수 있습니다.
+FTP 계정을 사용하여 Adobe Analytics로 분류를 가져올 수 있습니다.
 
-FTP 계정 만들기에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+FTP 계정을 만드는 방법에 대한 자세한 내용은 [FTP 계정 만들기](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)를 참조하십시오.
 
-FTP를 통해 분류를 가져오려면 다음을 수행하십시오.
+FTP를 통해 분류를 가져오려면 다음 작업을 수행합니다.
 
 1. **[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
@@ -58,13 +58,13 @@ FTP를 통해 분류를 가져오려면 다음을 수행하십시오.
 
 Adobe는 FIN 파일과 연관된 업로드한 데이터 파일을 정기적으로 검색합니다. Adobe는 검색한 파일을 FTP 계정 구성에 지정된 보고서 세트와 데이터 세트로 내보냅니다.
 
-Adobe Analytics이 FTP 폴더에 업로드된 읽기 및 처리 파일을 가지고 있으면 파일이 자동으로 삭제됩니다.
+Adobe Analytics가 FTP 폴더에 업로드된 파일을 읽고 처리하면 파일이 자동으로 삭제됩니다.
 
 ## FTP 계정 만들기를 참조하십시오. {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 FTP를 통해 데이터를 업로드하기 전에 FTP 계정을 만듭니다. >
 
-Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)를 참조하십시오.
+Adobe FTP 서버에 대한 추가 내용은 [FTP 및 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=ko-KR)를 참조하십시오.
 
 1. **[!UICONTROL 관리자]** > **[!UICONTROL 분류 가져오기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 파일 가져오기]**&#x200B;를 클릭한 다음 **[!UICONTROL FTP 가져오기]**&#x200B;를 클릭합니다.
