@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: b585743c835312b579ae810a04b7849c5e4f4953
 workflow-type: tm+mt
 source-wordcount: '1789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,13 +104,13 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 ### 비교 날짜 범위 표시 {#show-comparison-dates}
 
-비교 날짜 범위를 포함하려면 **비교 날짜 포함** 설정
+비교 날짜 범위를 포함하려면 **비교 날짜 포함** 설정을 전환합니다.
 
 ![비교 날짜 포함](assets/include-comparison-dates.png)
 
-설정은 다음과 같습니다 *on* 기본적으로 제공됩니다. 비교 날짜를 보지 않으려면 옵션을 선택 취소합니다.
+이 설정은 기본적으로 *켜져 있습니다*. 비교 날짜를 보지 않으려면 옵션을 선택 취소하십시오.
 
-![비교 날짜 설정이 선택 취소됨](assets/no-comparison-dates.png)
+![선택 해제된 비교 날짜 설정](assets/no-comparison-dates.png)
 
 ## 시각화 적용 {#viz}
 
@@ -153,7 +153,7 @@ Analytics 대시보드는 차원 항목 및 지표에 대한 뛰어난 통찰력
 
 ### [!UICONTROL 지정되지 않음] 차원 항목 제거
 
-데이터에서 [!UICONTROL 지정되지 않음] 차원 항목을 제거하려면 다음을 수행하십시오.
+데이터에서 [!UICONTROL 지정되지 않음] 차원 항목을 제거하려면 다음 작업을 수행하십시오.
 
 1. 올바른 타일을 선택합니다.
 1. 오른쪽 레일의 **[!UICONTROL 드릴인]** 아래에서 제거하려는 **[!UICONTROL 지정되지 않음]** 항목이 있는 차원 항목 옆의 오른쪽 화살표를 선택합니다.

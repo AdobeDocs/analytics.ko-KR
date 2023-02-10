@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace, Analytics 대시보드, Report Build
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 + [Analytics 툴 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
-+ Adobe Analytics 시작 {#admin-overview}
++ Adobe Analytics 시작하기 {#admin-overview}
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](get-started/analytics-product-comparison.md)
    + [시스템 요구 사항](get-started/sys-reqs.md)
@@ -297,7 +297,7 @@ ht-degree: 97%
    + [페이지 상세정보](activity-map/activitymap-page-flow.md)
    + [전체 지표 세트](activity-map/activitymap-complete-metrics.md)
    + [실시간(라이브) 페이지 분석](activity-map/activitymap-realtime.md)
-   + [고객 세그멘테이션](activity-map/activitymap-multiple-segments.md)
+   + [고객 세분화](activity-map/activitymap-multiple-segments.md)
    + [사용자 정의 가능 오버레이](activity-map/activitymap-gainerslosers.md)
    + [오버레이 세부정보](activity-map/activitymap-overlay-details.md)
    + [CSV 파일로 내보내기](activity-map/activitymap-csv.md)
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [분류](reports-analytics/reports-customize/breakdowns.md)
       + [하위 관계](reports-analytics/reports-customize/subrelations.md)
       + [보고서 데이터 필터링](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [Analytics 세그멘테이션](reports-analytics/segmentation.md)
+   + [Analytics 세분화](reports-analytics/segmentation.md)
    + [북마크 관리자](reports-analytics/bookmarks.md)
    + [현재 데이터](reports-analytics/current-data.md)
    + [대시보드 및 리포트릿](reports-analytics/dashboard.md)

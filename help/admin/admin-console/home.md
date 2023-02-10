@@ -6,11 +6,11 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Adobe Admin Console 개요의 Analytics
+# Adobe Admin Console의 Analytics 개요
 
 Analytics 제품 및 사용자를 관리하려면 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을 사용하십시오. Adobe Admin Console은 [adminconsole.adobe.com](https://adminconsole.adobe.com/)에 있습니다.
 

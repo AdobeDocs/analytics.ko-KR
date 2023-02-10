@@ -6,7 +6,7 @@ exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 ## Customer Journey Analytics 및 Cross Device Analytics
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko) 및 [Cross-Device Analytics](/help/components/cda/overview.md)를 통해 사용자는 쿠키 외에 해시된 로그인과 같은 지속적인 식별자를 포함할 수 있습니다. 이렇게 하면 여러 디바이스의 고객 여정을 확인할 수 있으며, Customer Journey Analytics의 경우 온라인 및 오프라인 채널에서도 가능합니다.
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ko-KR) 및 [Cross-Device Analytics](/help/components/cda/overview.md)를 통해 사용자는 쿠키 외에 해시된 로그인과 같은 지속적인 식별자를 포함할 수 있습니다. 이렇게 하면 여러 디바이스의 고객 여정을 확인할 수 있으며, Customer Journey Analytics의 경우 온라인 및 오프라인 채널에서도 가능합니다.
 
 * **Customer Journey Analytics**&#x200B;는 Adobe Experience Platform을 기반으로 구축되었으며 공통 고객 ID를 기반으로 Analysis Workspace의 온라인 및 오프라인 데이터를 유연하게 결합할 수 있습니다. 분석에 사용할 ID를 지정하고 Analysis Workspace에서 데이터를 탐색할 수 있습니다. Analytics Select, Prime 및 Ultimate 고객은 이 추가 기능 제품을 구매할 수 있습니다.
 
@@ -30,11 +30,11 @@ Adobe Analytics는 자사 쿠키를 기반으로 방문자의 현장 활동을 �
 
 서버측 수집에서는 유연성을 제공하여 자신의 쿠키 설정을 위한 브라우저 메커니즘에 의존하기 보다는 식별자를 제공합니다.
 
-[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 &quot;[어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md).&quot;
+[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)를 사용하여 Analytics 서버측에 데이터를 제출할 수 있습니다. 새로운 서버측 구현에는 Bulk Data Insertion API를 사용하는 것이 좋습니다. 두 API를 비교하려면 “[어떤 Adobe Analytics 도구를 사용해야 합니까?](/help/analyze/get-started/which-analytics-tool.md)”를 참조하십시오.
 
 ## Web SDK를 사용한 자사 디바이스 ID(FPID)
 
-Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experience Cloud ID(ECID) 대신 자신의 디바이스 식별자를 설정하고 관리하도록 선택할 수 있습니다. 이를 자사 디바이스 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en)에서 추가 정보를 확인하십시오.
+Adobe Experience Platform Web SDK를 사용하면 Adobe에서 생성한 Experience Cloud ID(ECID) 대신 자신의 디바이스 식별자를 설정하고 관리하도록 선택할 수 있습니다. 이를 자사 디바이스 ID(FPID)라고 합니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ko-KR)에서 추가 정보를 확인하십시오.
 
 ## 추가 정보
 

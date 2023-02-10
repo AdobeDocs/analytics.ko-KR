@@ -7,13 +7,13 @@ exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 다른 보고서 세트에 처리 규칙 복사
 
-한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하려면 다음을 수행합니다.
+한 보고서 세트의 처리 규칙을 복사하고 이 규칙을 바꾸거나 다른 보고서 세트에 추가하려면 다음 작업을 수행합니다.
 
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. 보고서 세트 선택.

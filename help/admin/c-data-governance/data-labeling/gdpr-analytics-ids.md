@@ -6,7 +6,7 @@ exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: a36654fcf10712e0d12917bad832bb46f343d6fd
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 80%
 * 일부 ID는 여러 사람에 해당하며 한 사람에 대한 정보를 동일한 ID를 가진 다른 사람에게 반환하는 위험을 부담하지 않을 수 있습니다. 예를 들어 사용자 이름이 John Smith임을 확인할 수 있다 하더라도 시스템에 있는 모든 John Smith에 대한 모든 데이터를 반환하고 싶지는 않을 것입니다.
 * 또 다른 예는 Analytics 쿠키 ID와 같은 디바이스 ID입니다. ID가 휴대전화 앱에서 발생하는 경우 휴대전화 소유자가 해당 ID를 사용하는 모든 상호 작용을 사용할 수 있도록 결정할 수 있습니다. 그러나 홈 컴퓨터나 도서실 또는 인터넷 카페의 컴퓨터와 같은 공유된 디바이스에서 ID가 발생하는 경우, 해당 디바이스의 사용자를 구분할 수 없으며 다른 사용자의 데이터를 반환할 위험이 너무 크므로 이 유형의 ID를 사용하도록 허용하지 않을 수 있습니다.
 
-## Analytics에서 지원하는 ID에 대한 우수 사례 {#best-practices-an}
+## Analytics에서 지원하는 ID 우수 사례 {#best-practices-an}
 
 이 테이블을 사용하여 데이터 개인정보 보호 요청을 Analytics에 제출할 때 사용할 ID 유형을 확인합니다. 이 정보를 알고 있으면 변수에 사용해야 하는 다른 레이블을 쉽게 확인할 수 있습니다.
 
@@ -47,28 +47,28 @@ ht-degree: 80%
   <tr> 
    <td colname="col1"> <p>쿠키 ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ko-KR">  (기존) Analytics 쿠키 </a> </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ko-KR"> (기존) Analytics 쿠키 </a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> 이전에 MCID(Marketing Cloud ID)로 알려진 ECID(<a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR">ID 서비스 쿠키</a>) </li> 
     </ul> </td> 
    <td colname="col2"> <p>이러한 쿠키는 디바이스, 그중에서도 디바이스 사용자의 브라우저를 식별합니다. 공통 로그인이 사용되는 공유된 디바이스의 경우 이 ID는 디바이스의 모든 사용자에게 적용될 수 있습니다. Adobe는 사용자가 이러한 쿠키를 데이터 개인정보 보호 요청에 사용할 수 있도록 하려는 경우 해당 쿠키를 수집하기 위해 웹 사이트에 배치할 수 있는 일부 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">통합 JavaScript</a>를 만들었습니다. </p> <p>Adobe Analytics Mobile SDK 사용자도 ECID (Experience Cloud ID)가 있습니다. SDK 내에 이 ID를 읽는 API 호출이 있으므로, 데이터 개인정보 보호 요청에 대해 해당 ID를 수집하도록 앱을 향상시킬 수 있습니다. </p> <p>많은 회사에서 브라우저 쿠키 ID를 공유된 디바이스의 ID로 간주합니다. 따라서 이러한 회사에서는 해당 법률팀과 상의하여 데이터 개인 정보 보호 요청에 허용 가능한 ID로 이러한 ID를 사용하는 것을 지원하지 않도록 할 수 있습니다. 또는, 이러한 ID를 사용하는 경우 매우 제한된 양의 데이터만 반환하거나 삭제 요청에 대해서만 수락할 수 있습니다. </p> <p>이러한 쿠키에는 I2 및 DEL-DEVICE 레이블뿐만 아니라 변경할 수 없는 ID-DEVICE 레이블이 있습니다. 기본 Adobe Analytics 구성은 디바이스 유형, OS, 브라우저 등과 같은 디바이스에 대한 일반 정보와 이러한 ID를 사용할 때 웹 사이트를 방문한 시간/날짜만 반환합니다. 그러나 데이터 개인정보 보호 요청에 대해 이러한 ID를 지원하도록 선택하는 경우, 아래 설명된 대로 ACC-ALL 레이블을 추가하거나 제거하여 데이터 개인정보 보호 액세스 요청에 대해 반환하려는 정확한 필드 집합을 구성할 수 있습니다. </p> <p>보고서 세트가 로그인이 필요한 모바일 앱에 해당하는 경우 장치의 Experience Cloud ID가 특정 사용자에 해당한다고 결정할 수 있습니다. 이 경우 방문한 페이지 이름, 확인한 제품 등을 비롯하여 더 많은 필드에 ACC-ALL 레이블을 지정할 수 있습니다. </p> <p>참고: 데이터 개인정보 보호 요청에 "expandIds" 옵션을 지정하는 경우 요청에 사용자가 지정한 다른 ID 외에도 항상 쿠키 ID가 포함됩니다. 자세한 내용은 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 확장</a>을 참조하십시오. 이러한 경우 쿠키 ID만 있고 다른 ID는 없는 히트는 액세스 요청의 일부로 데이터 레이블이 지정된 ACC-ALL만 반환합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>사용자 지정 변수의 ID </p> </td> 
-   <td colname="col2"> <p>일부 고객은 ID를 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=ko-KR">사용자 지정 트래픽 변수 (props) 또는 사용자 지정 전환 변수 (eVars)</a>에 배치합니다. 가장 일반적인 것은 CRM ID이지만 이메일 주소, 사용자 로그인 이름, 고객 충성도 번호 또는 이러한 값의 해시를 포함합니다. </p> 
+   <td colname="col1"> <p>사용자 정의 변수의 ID </p> </td> 
+   <td colname="col2"> <p>일부 고객은 ID를 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=ko-KR">사용자 정의 트래픽 변수 (props) 또는 사용자 정의 전환 변수 (eVars)</a>에 배치합니다. 가장 일반적인 것은 CRM ID이지만 이메일 주소, 사용자 로그인 이름, 고객 충성도 번호 또는 이러한 값의 해시를 포함합니다. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">데이터 개인정보 보호 요청에 이러한 ID 중 하나를 사용하려면 해당 ID가 포함된 필드에 ID-PERSON 레이블을 지정해야 합니다. </li> 
-     <li id="li_94541340B054436297C5565F074413DC">덜 일반적이긴 하지만, 이러한 사용자 지정 변수 중 하나에 있는 ID만 여러 사용자가 공유할 수 있는 디바이스를 식별하는 경우에는 ID-DEVICE 레이블을 대신 사용할 수 있습니다. </li> 
+     <li id="li_94541340B054436297C5565F074413DC">덜 일반적이긴 하지만, 이러한 사용자 정의 변수 중 하나에 있는 ID만 여러 사용자가 공유할 수 있는 디바이스를 식별하는 경우에는 ID-DEVICE 레이블을 대신 사용할 수 있습니다. </li> 
      <li id="li_8115B999E8DA46CAB359BCF1F4A4DCAE">이러한 필드에는 I1 또는 I2 레이블도 필요하므로 DEL-PERSON 또는 DEL-DEVICE 레이블을 포함해야 합니다. 일반적으로 DEL 레이블의 PERSON/DEVICE 옵션은 ID 레이블의 PERSON/DEVICE 옵션과 일치합니다. </li> 
     </ul> <p> 보고서 세트에 데이터 개인 정보 보호 요청에 대한 데이터 주체를 식별하는 데 사용할 ID가 포함된 하나 또는 두 개 이상의 사용자 지정 변수가 있는 경우는 거의 없습니다. I1 또는 I2 레이블이 지정된 변수가 여러 개 있을 수 있지만, 일반적으로 이 중 한두 개에만 ID-PERSON 또는 ID-DEVICE 레이블이 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>사용자 지정 방문자 ID </p> </td> 
-   <td colname="col2"> <p>이 방법은 널리 사용되지 않지만, Analytics에서는 사용자 지정 방문자 ID를 제공할 수 있는 구현을 지원하며, 이 ID가 있으면 기존 Analytics 추적 쿠키 대신 사용됩니다. 이 필드는 I2, ID-PERSON 및 DEL-PERSON 레이블을 가집니다. </p> <p>많은 구현은 이 ID를 CRM ID에서 파생하므로 사용자가 사이트에 로그인하는 동안에만 표시됩니다. 따라서 여러 디바이스에서 동일한 사용자 지정 방문자 ID를 사용할 수 있습니다. 한 가지 기술적인 문제는 사용자가 로그인하기 전에 발생하는 추적을 사용자가 로그인한 후에 수집된 추적과 연결할 수 없다는 점입니다. 대신 사용자 지정 방문자 ID를 사용하여 디바이스를 식별하는 경우 ID-PERSON 및 DEL- PERSON 레이블을 각각 ID-DEVICE 및 DEL- DEVICE로 각각 변경해야 합니다. </p> </td> 
+   <td colname="col1"> <p>사용자 정의 방문자 ID </p> </td> 
+   <td colname="col2"> <p>이 방법은 널리 사용되지 않지만, Analytics에서는 사용자 정의 방문자 ID를 제공할 수 있는 구현을 지원하며, 이 ID가 있으면 기존 Analytics 추적 쿠키 대신 사용됩니다. 이 필드는 I2, ID-PERSON 및 DEL-PERSON 레이블을 가집니다. </p> <p>많은 구현은 이 ID를 CRM ID에서 파생하므로 사용자가 사이트에 로그인하는 동안에만 표시됩니다. 따라서 여러 디바이스에서 동일한 사용자 정의 방문자 ID를 사용할 수 있습니다. 한 가지 기술적인 문제는 사용자가 로그인하기 전에 발생하는 추적을 사용자가 로그인한 후에 수집된 추적과 연결할 수 없다는 점입니다. 대신 사용자 정의 방문자 ID를 사용하여 디바이스를 식별하는 경우 ID-PERSON 및 DEL- PERSON 레이블을 각각 ID-DEVICE 및 DEL- DEVICE로 각각 변경해야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 삭제 레이블 설정에 대한 우수 사례 {#best-practices-delete}
+## 삭제 레이블 설정 우수 사례 {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -81,14 +81,14 @@ ht-degree: 80%
 * 일반적으로 필드에 ID-DEVICE 레이블이 있는 경우 DEL-DEVICE 레이블도 지정해야 합니다.
 * 마찬가지로, 필드에 ID-PERSON 레이블이 있는 경우 DEL-PERSON 레이블도 지정해야 합니다.
 * 필드에 ID- 레이블이 없지만 익명 처리할 식별 정보가 포함된 경우, 구현에 따라 적합한 레이블 (DEVICE 또는 PERSON)이 달라집니다. 데이터 개인정보 보호 요청에 쿠키 ID만 사용하는 경우 DEL-DEVICE를 사용해야 합니다.
-* ID-PERSON 레이블이 있는 다른 필드에서 사용자 지정 ID를 사용하고 해당 ID가 발생하는 행에서만 지워지도록 하려면 DEL-PERSON을 사용합니다.
+* ID-PERSON 레이블이 있는 다른 필드에서 사용자 정의 ID를 사용하고 해당 ID가 발생하는 행에서만 지워지도록 하려면 DEL-PERSON을 사용합니다.
 * ID 확장을 사용 중이며 식별된 모든 디바이스에서 모든 히트에 대한 값을 모두 지우려면 DEL-DEVICE를 사용합니다. 이 경우 원한다면 DEL-DEVICE 레이블과 DEL-PERSON 레이블을 모두 적용할 수 있지만, ID 확장은 사용자 ID와 일치하는 모든 행이 디바이스 ID와도 일치함을 의미하므로 DEL-PERSON 레이블이 필요하지 않습니다.
 * ID 확장 사용을 지정하지 않지만 서로 다른 요청에 장치와 개인 ID를 혼합하여 사용하는 경우, DEL-DEVICE 및 DEL-PERSON 레이블을 둘 다 지정할 수 있습니다. 이 레이블은 ID 유형 중 하나를 사용할 때 삭제해야 합니다.
 * 해당 요청 (확장된 ID 포함)에 대한 ID로도 사용되지 않는 변수에 DEL-DEVICE 또는 DEL-PERSON 레이블이 지정된 경우 해당 변수의 고유 값은 지정된 (또는 확장된) ID가 발생하는 히트에 대해서만 익명으로 지정됩니다. 다른 히트에 동일한 값이 있는 경우 해당 값은 그러한 다른 위치에서 업데이트되지 않습니다. 이로 인해 카운트 (지표)가 변경될 수 있습니다.
 
-   예를 들어 eVar7에 &quot;foo&quot; 값을 포함하는 히트가 세 개 있지만, 이들 중 하나만 삭제에 대해 일치하는 다른 변수의 ID를 포함하는 경우 해당 히트의 &quot;foo&quot;는 &quot;데이터 개인정보 보호-123456789&quot;와 같은 값으로 수정되고 다른 두 히트에서는 변경되지 않습니다. eVar7에 대한 고유 값 수를 표시하는 보고서에는 이전에 수행한 것보다 한 개 더 많은 고유한 값이 표시됩니다. eVars의 최상위 값을 표시하는 보고서에는 두 개 (이전의 세 개가 아님)의 인스턴스만 있는 &quot;foo&quot;가 포함될 수 있고, 단일 인스턴스가 있는 새 값도 표시됩니다.
+   예를 들어 eVar7에 &quot;foo&quot; 값을 포함하는 히트가 세 개 있지만, 이들 중 하나만 삭제에 대해 일치하는 다른 변수의 ID를 포함하는 경우 해당 히트의 &quot;foo&quot;는 &quot;데이터 개인정보 보호-123456789&quot;와 같은 값으로 수정되고 다른 두 히트에서는 변경되지 않습니다. eVar7에 대한 고유 값 수를 표시하는 보고서에는 이전에 수행한 것보다 한 개 더 많은 고유한 값이 표시됩니다. eVars의 최상위 값을 표시하는 보고서에는 두 개 (이전의 3개가 아님)의 인스턴스만 있는 &quot;foo&quot;가 포함될 수 있고, 단일 인스턴스가 있는 새 값도 표시됩니다.
 
-## 액세스 레이블 설정에 대한 우수 사례 {#best-practices-access}
+## 액세스 레이블 설정 우수 사례 {#best-practices-access}
 
 다른 레이블이 들어 있는 필드는 거의 없지만, 일반적으로 많은 필드에 ACC 레이블이 있습니다. 적절한 액세스 레이블은 데이터 개인정보 보호 요청에 사용하는 ID에 따라 다릅니다.
 
@@ -106,11 +106,11 @@ ht-degree: 80%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID 확장이 없는 개인 ID </p> </td> 
-   <td colname="col2"> <p>ID-PERSON 레이블이 있는 사용자 지정 ID만 사용하고 ID 확장을 수행하지 않는 경우에는 ACC-PERSON 레이블을 사용해야 합니다. 하지만 기본 ACC-ALL 레이블을 변경할 필요는 없습니다. 이러한 필드는 액세스 요청에 자동으로 포함됩니다. </p> <p>각 액세스 요청에 대한 한 쌍의 파일을 가져옵니다. 한 파일에는 지정된 모든 ACC-DEVICE 및 ACC-PERSON 필드와 일치하는 각 히트에 대한 행이 포함되고, 한 파일에는 이 데이터에 대한 요약이 포함됩니다. </p> </td> 
+   <td colname="col2"> <p>ID-PERSON 레이블이 있는 사용자 정의 ID만 사용하고 ID 확장을 수행하지 않는 경우에는 ACC-PERSON 레이블을 사용해야 합니다. 하지만 기본 ACC-ALL 레이블을 변경할 필요는 없습니다. 이러한 필드는 액세스 요청에 자동으로 포함됩니다. </p> <p>각 액세스 요청에 대한 한 쌍의 파일을 가져옵니다. 한 파일에는 지정된 모든 ACC-DEVICE 및 ACC-PERSON 필드와 일치하는 각 히트에 대한 행이 포함되고, 한 파일에는 이 데이터에 대한 요약이 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>혼합 ID 및/또는 ID 확장 </p> </td> 
-   <td colname="col2"> <p>데이터 개인정보 보호 요청에 디바이스와 개인 ID를 모두 포함하거나 사용자 지정 ID (사용자 지정 방문자 ID 또는 prop이나 eVar의 ID)를 사용하는 경우 사용하는 ACC 레이블에 주의를 기울여야 합니다. 각 액세스 요청은 두 쌍의 데이터 파일을 반환합니다. 한 쌍에는 일치한 개인 ID가 포함된 히트의 데이터가 포함되고, 다른 쌍에는 개인 ID가 일치하지 않지만 장치 ID가 일치한 히트의 데이터가 포함됩니다. </p> <p>"개인 ID" 파일에는 ACC-PERSON 또는 ACC-ALL 레이블이 있는 모든 필드와 개인 ID가 일치하는 모든 히트의 데이터가 포함됩니다(모든 일치하는 히트가 포함된 하나의 파일 및 요약으로서의 다른 파일). </p> <p>"device ID" 파일 쌍에는 ACC-ALL 레이블이 있는 필드만 포함되며, 일치하는 개인 ID가 포함되지 않은 히트만 포함됩니다. 이러한 파일은 공유 장치의 다른 사용자가 생성한 데이터를 포함할 수 있으므로 ACC-ALL 레이블을 포함하는 필드 집합을 신중하게 고려해야 합니다. Analytics 내의 기본 레이블 지정은 디바이스 (디바이스 유형, OS, 브라우저 등) 및 각 히트의 날짜/시간과 관련된 일반 정보 필드에만 이 레이블을 적용합니다. </p> <p>공유된 디바이스의 다른 사용자가 생성했을 수 있는 데이터를 공유하지 않도록 Adobe에서 디바이스 및 개인 파일 세트를 모두 수신한 다음 해당 사용자의 파일만 공유하도록 선택할 수 있습니다. 또는 한 세트 또는 두 세트의 데이터를 데이터 주체에 대해 알고 있는 다른 정보와 결합하여 고유한 형식으로 반환할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>데이터 개인정보 보호 요청에 디바이스와 개인 ID를 모두 포함하거나 사용자 정의 ID (사용자 정의 방문자 ID 또는 prop이나 eVar의 ID)를 사용하는 경우 사용하는 ACC 레이블에 주의를 기울여야 합니다. 각 액세스 요청은 두 쌍의 데이터 파일을 반환합니다. 한 쌍에는 일치한 개인 ID가 포함된 히트의 데이터가 포함되고, 다른 쌍에는 개인 ID가 일치하지 않지만 장치 ID가 일치한 히트의 데이터가 포함됩니다. </p> <p>"개인 ID" 파일에는 ACC-PERSON 또는 ACC-ALL 레이블이 있는 모든 필드와 개인 ID가 일치하는 모든 히트의 데이터가 포함됩니다(모든 일치하는 히트가 포함된 하나의 파일 및 요약으로서의 다른 파일). </p> <p>"device ID" 파일 쌍에는 ACC-ALL 레이블이 있는 필드만 포함되며, 일치하는 개인 ID가 포함되지 않은 히트만 포함됩니다. 이러한 파일은 공유 장치의 다른 사용자가 생성한 데이터를 포함할 수 있으므로 ACC-ALL 레이블을 포함하는 필드 집합을 신중하게 고려해야 합니다. Analytics 내의 기본 레이블 지정은 디바이스 (디바이스 유형, OS, 브라우저 등) 및 각 히트의 날짜/시간과 관련된 일반 정보 필드에만 이 레이블을 적용합니다. </p> <p>공유된 디바이스의 다른 사용자가 생성했을 수 있는 데이터를 공유하지 않도록 Adobe에서 디바이스 및 개인 파일 세트를 모두 수신한 다음 해당 사용자의 파일만 공유하도록 선택할 수 있습니다. 또는 한 세트 또는 두 세트의 데이터를 데이터 주체에 대해 알고 있는 다른 정보와 결합하여 고유한 형식으로 반환할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,7 +5,7 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 
 2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 “중단”했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
 
-2023년 2월 16일부터 클라이언트 힌트가 Analytics 디바이스 조회 프로세스에 통합됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
+2023년 2월 16일부터 클라이언트 힌트가 Analytics 디바이스 조회 프로세스에 통합됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
 
 >[!NOTE]
 >
-> 2023년 1월부터 일부 버전의 Mac 및 Windows 운영 체제는 사용자 에이전트에 잘못 표시되지만 엔트로피 클라이언트 힌트로 올바르게 표시됩니다. 자세한 내용은 [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko)를 참조하십시오.
+> 2023년 1월부터 Mac 및 Windows 운영 체제의 일부 버전이 사용자 에이전트에 잘못 표시되지만 높은 엔트로피 클라이언트 힌트에는 올바르게 표시됩니다. 자세한 내용은 [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR)를 참조하십시오.
 
-AAM에서는 전체 기능을 유지하려면 높은 엔트로피 힌트를 수집해야 합니다. [AAM으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
+AAM은 완전한 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [AAM으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
-## FAQ
+## 자주 묻는 질문
 
 +++**클라이언트 힌트에 대한 자세한 내용은 어디에서 살펴볼 수 있습니까?**
 
@@ -41,11 +41,11 @@ AAM에서는 전체 기능을 유지하려면 높은 엔트로피 힌트를 수�
 
 +++**클라이언트 힌트 수집을 활성화하려면 어떻게 해야 합니까?**
 
-낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 및 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html)에 대한 방향을 참조하십시오.
+낮은 엔트로피 힌트는 브라우저에서 자동으로 제공되며 디바이스 가져오기 및 브라우저 정보 프로세스용으로 수집됩니다. Web SDK(2.12.0부터 시작) 및 AppMeasurement(2.23.0부터 시작)의 최신 버전은 해당 태그 확장을 통해 또는 구성 옵션을 통해 직접 높은 엔트로피 힌트를 수집하도록 구성할 수 있습니다. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko-KR#enabling-high-entropy-client-hints) 및 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=ko-KR)에 대한 방향을 참조하십시오.
 
 두 라이브러리 모두에서 높은 엔트로피 힌트 수집은 **기본적으로 비활성화**&#x200B;되어 있습니다.
 
-[데이터 삽입 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [대량 데이터 삽입 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en)와 같이 API를 통해 제출된 데이터의 경우 힌트가 페이로드에 명시적으로 포함되어야 합니다. 자세한 내용은 각각의 설명서를 참조하십시오.
+[데이터 삽입 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 또는 [대량 데이터 삽입 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=ko-KR)와 같이 API를 통해 제출된 데이터의 경우 힌트가 페이로드에 명시적으로 포함되어야 합니다. 자세한 내용은 각각의 설명서를 참조하십시오.
 
 +++
 
@@ -71,8 +71,8 @@ AAM에서는 전체 기능을 유지하려면 높은 엔트로피 힌트를 수�
 | Sec-CH-UA-Model | 디바이스 모델 | 높음 | `"Pixel 3"` |
 | Sec-CH-UA-Platform-Version | 운영 체제/플랫폼 버전 | 높음 | `"10"` |
 
-* 낮은 엔트로피 힌트는 요청 헤더를 통해 수집됩니다.
-* 높은 엔트로피 힌트는 JavaScript를 통해 수집되고 쿼리 문자열 매개 변수 값을 통해 전달됩니다. 쿼리 문자열 매개 변수는 `h.` 를 이미지 요청에 접두사로 추가합니다.
+* 낮은 엔트로피 힌트는 HTTP 요청 헤더를 통해 수집됩니다.
+* 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 문자열 매개변수 값을 통해 전달됩니다. 쿼리 문자열 매개변수는 이미지 요청에서 `h.`을 접두사로 사용합니다.
 
 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 매개변수를 통해 전달됩니다.
 
@@ -88,11 +88,11 @@ AAM에서는 전체 기능을 유지하려면 높은 엔트로피 힌트를 수�
 
 이 필드는 사용자 에이전트에서 직접 파생되지만 사용자 에이전트는 디바이스 세부 정보에 따라 다른 디바이스 관련 필드의 값을 파생하는 데 도움이 될 수 있습니다.
 
-* [브라우저](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
-* [브라우저 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
-* [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [운영 체제 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
-* [모바일 디바이스 및 모바일 디바이스 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [브라우저](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=ko-KR)
+* [브라우저 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=ko-KR)
+* [운영 체제](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR)
+* [운영 체제 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=ko-KR)
+* [모바일 디바이스 및 모바일 디바이스 유형](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=ko-KR)
 
 +++
 
@@ -106,7 +106,7 @@ AAM에서는 전체 기능을 유지하려면 높은 엔트로피 힌트를 수�
 
 보고의 디바이스 정보는 사용자 에이전트에서 파생됩니다. 사용 가능한 경우 사용자 에이전트와 클라이언트 힌트를 모두 사용하도록 프로세스를 업데이트했습니다.
 
-대체 ID([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en))는 사용자 에이전트 및 IP 주소에서 파생됩니다. 이 ID는 쿠키를 설정할 수 없는 경우에만 사용되므로 널리 사용되지 않습니다.
+대체 ID([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=ko-KR))는 사용자 에이전트 및 IP 주소에서 파생됩니다. 이 ID는 쿠키를 설정할 수 없는 경우에만 사용되므로 널리 사용되지 않습니다.
 
 +++
 
@@ -156,6 +156,6 @@ Adobe Experience Platform의 [스키마 설명서](https://github.com/adobe/xdm/
 
 +++**AAM 서버측 전달이 클라이언트 힌트를 지원합니까?**
 
-예. 클라이언트 힌트는 AAM으로 전달되는 데이터에 포함됩니다. AAM은 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [AAM으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
+예. 클라이언트 힌트는 AAM으로 전달되는 데이터에 포함됩니다. AAM은 전체 기능을 유지하기 위해 높은 엔트로피 힌트를 수집해야 합니다. [AAM으로 서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko-KR)을 사용하는 경우 높은 엔트로피 힌트 수집을 활성화할 수 있습니다.
 
 +++

@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 * &quot;type&quot; 필드: 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값이 들어 있습니다.
 * &quot;value&quot; 필드: Analytics가 각 보고서 세트의 연관된 네임스페이스 변수에서 검색해야 하는 ID가 들어 있습니다.
 
-자세한 내용은 [Experience Cloud 개인정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오.
+자세한 내용은 [Experience Cloud 개인정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko-KR)를 참조하십시오.
 
 ## 쿠키 ID
 
@@ -52,7 +52,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID (AAID)로 알려져 �
 
 이 값은 2개의 16자리 16진수 또는 2개의 19자리 십진수로 지정해야 합니다. 숫자는 대시, 밑줄 또는 콜론으로 구분해야 합니다. 숫자에 충분한 자리가 없는 경우 앞에 0을 추가해야 합니다.
 
-## Identity Service 쿠키
+## ID Service 쿠키
 
 ```
 {
@@ -90,7 +90,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID (AAID)로 알려져 �
 
 네임스페이스도 사용자 정의 방문자 ID에 대해 사전 정의되어 있습니다.
 
-## 사용자 지정 변수의 ID
+## 사용자 정의 변수의 ID
 
 ```
 {

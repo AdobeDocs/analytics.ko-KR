@@ -5,7 +5,7 @@ exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 ## Web SDK를 사용하여 높은 엔트로피 힌트 수집
 
-높은 엔트로피 클라이언트 힌트는 Web SDK에 있는 컨텍스트 범주의 일부입니다. 자세한 내용은 [Platform Web SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)을 참조하십시오.
+높은 엔트로피 클라이언트 힌트는 Web SDK에 있는 컨텍스트 범주의 일부입니다. 자세한 내용은 [Platform Web SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR)을 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 높은 엔트로피 힌트 수집
 
@@ -31,9 +31,9 @@ ht-degree: 86%
 
 ## AppMeasurement의 collectHighEntropyUserAgentHints
 
-다음 `s.collectHighEntropyUserAgentHints` 변수는 AppMeasurement가 Chromium 브라우저(예: Google Chrome 또는 Microsoft Edge)에서 높은 엔트로피 힌트를 요청하는지 여부를 결정합니다. 이들 힌트는 Adobe Analytics에서 디바이스 및 브라우저 식별을 개선하는 데 사용됩니다.
+`s.collectHighEntropyUserAgentHints` 변수는 AppMeasurement가 Chromium 브라우저(예: Google Chrome 또는 Microsoft Edge)에서 높은 엔트로피 힌트를 요청하는지 여부를 결정합니다. 이들 힌트는 Adobe Analytics에서 디바이스 및 브라우저 식별을 개선하는 데 사용됩니다.
 
-로 설정된 경우 `true`를 입력하면 브라우저에서 모든 높은 엔트로피 힌트가 요청됩니다.
+`true`로 설정하면 모든 높은 엔트로피 힌트가 브라우저에서 요청됩니다.
 
 ```js
 s.collectHighEntropyUserAgentHints = true;

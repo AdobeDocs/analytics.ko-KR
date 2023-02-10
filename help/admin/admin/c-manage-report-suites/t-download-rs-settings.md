@@ -6,13 +6,13 @@ exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 보고서 세트 설정 다운로드
 
-선택한 보고서 세트의 모든 설정이 포함된 Excel 스프레드시트를 생성하려면 다음을 수행합니다.
+선택된 보고서 세트에 대한 모든 설정이 포함되어 있는 Excel 스프레드시트를 생성하려면 다음 작업을 수행합니다.
 
 1. **[!UICONTROL 관리]****[!UICONTROL >]**&#x200B;보고서 세트를 클릭합니다.
 1. [!UICONTROL 보고서 세트] 테이블에서 보고서 세트를 선택합니다.
