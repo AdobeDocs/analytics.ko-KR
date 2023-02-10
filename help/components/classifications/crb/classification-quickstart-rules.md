@@ -4,9 +4,9 @@ title: 분류 규칙
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2015'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -310,7 +310,7 @@ t_classification_rule.xml
 >
 >이 절차에서 규칙을 하나 이상의 보고서 세트에 적용할 수 있습니다. 규칙 세트의 규칙 수는 제한은 없지만 500~1000개 사이가 좋습니다. 규칙이 100개를 초과하는 경우 [하위 분류](/help/components/classifications/c-sub-classifications.md)를 사용하여 규칙 세트를 단순화하는 것을 고려하십시오.
 
-분류 규칙을 추가하거나 편집하려면:
+분류 규칙을 추가 또는 편집하려면 다음 작업을 수행합니다.
 
 1. [분류 규칙 세트를 만듭니다](/help/components/classifications/crb/classification-rule-set.md).
 1. 규칙 세트 페이지에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
@@ -323,7 +323,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >다음 조건이 충족될 떄에&#x200B;*만* 보고서 세트가 이 페이지에 표시됩니다.
+   >다음 조건을 충족하는 *경우에만* 보고서 세트가 이 페이지에 표시됩니다.
    >
    >* [!UICONTROL 관리자 도구]에 있는 해당 변수에 대해 하나 이상의 분류가 보고서 세트에 정의되어 있습니다.
       >
@@ -365,7 +365,7 @@ t_classifications_test_rule.xml
 
 분류 규칙 또는 규칙 세트를 테스트할 수 있습니다. 테스트를 실행하면 세트의 모든 규칙을 확인합니다.
 
-분류 규칙 세트를 테스트하려면
+분류 규칙 세트를 테스트하려면 다음 작업을 수행합니다.
 
 1. [분류 규칙 세트를 만듭니다](/help/components/classifications/crb/classification-rule-set.md).
 1. [!UICONTROL 분류 규칙 빌더]에서 규칙 세트 이름을 클릭합니다.
@@ -397,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-분류 규칙을 확인하고 활성화하려면
+분류 규칙의 유효성을 검사하고 활성화하려면 다음 작업을 수행합니다.
 
 1. [분류 규칙 세트를 만든 다음](/help/components/classifications/crb/classification-rule-set.md), 이 세트에 [분류 규칙을 추가](/help/components/classifications/crb/classification-quickstart-rules.md)합니다.
 1. 규칙 편집기에서 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
