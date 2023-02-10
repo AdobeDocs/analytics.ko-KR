@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Workspace에서 폴더 추가
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 66%
 
 ---
 
 # 폴더에 프로젝트 추가
 
 테이블 보기의 폴더 또는 폴더 내에서 프로젝트를 추가할 수 있습니다.
+
+>[!NOTE]
+>
+>Analytics 관리자만 회사 폴더에 프로젝트를 추가하거나 새 프로젝트를 만들어 회사 폴더에 저장할 수 있습니다
 
 ## 테이블 보기에서 {#table-view}
 
@@ -23,13 +27,15 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. **다음으로 이동**&#x200B;을 선택합니다. 폴더 선택 대화 상자가 표시됩니다.
+1. **다음으로 이동**&#x200B;을 선택합니다. 
 
-1. 드롭다운 메뉴에서 폴더 이름을 선택합니다.
+   폴더 선택 대화 상자가 표시됩니다.
+
+1. 드롭다운 메뉴에서 선택한 프로젝트를 이동할 폴더를 선택합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. **추가**&#x200B;를 클릭합니다.
+1. 선택 **이동**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -49,25 +55,19 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. 오른쪽 위의 **...** 줄임표 아이콘을 클릭합니다.
+1. 을(를) 선택합니다 **...** 오른쪽 상단에 있는 생략 부호 아이콘.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   드롭다운 메뉴에 프로젝트를 폴더에 추가하는 옵션이 표시됩니다. 추가 옵션을 사용하면 폴더 이름을 바꾸거나, 폴더를 이동 또는 삭제하고 폴더 권한을 관리할 수 있습니다.
 
 1. **프로젝트 추가**&#x200B;를 선택하고 드롭다운 목록에서 추가할 프로젝트를 선택합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   폴더에 여러 개의 프로젝트를 추가할 수 있습니다.
+
+1. (선택 사항) 드롭다운 목록에서 추가 프로젝트를 선택하여 여러 프로젝트를 추가합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. **추가**&#x200B;를 클릭하여 폴더에 프로젝트를 추가합니다.
+1. 선택 **추가** 를 클릭하여 폴더에 프로젝트를 추가합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
-
->[!NOTE]
->
->관리자만 회사 폴더에 프로젝트를 추가하거나 새 프로젝트를 생성하고 회사 폴더에 저장할 수 있습니다.
