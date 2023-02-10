@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 + [Analytics 관리 안내서](home.md)
 + [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
-+ Adobe 관리 콘솔 {#admin-console}
++ Adobe Admin Console {#admin-console}
    + [개요](admin-console/home.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
    + [Adobe Analytics의 관리자 역할](admin-console/admin-roles-in-analytics.md)
@@ -25,14 +25,6 @@ ht-degree: 97%
       + [Adobe Analytics의 제품 프로필](admin-console/permissions/product-profile.md)
       + [보고서 세트 도구에 대한 제품 프로필 권한](admin-console/permissions/report-suite-tools.md)
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
-   + 사용자 및 제품 관리 (레거시) {#user-product-management}
-      + [사용자 및 제품 관리(레거시)](admin-console/user-management2/user-management.md)
-      + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
-         + [Admin Console로 Analytics 사용자 마이그레이션](admin-console/user-management2/user-migration/c-migration-tool.md)
-         + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](admin-console/user-management2/user-migration/t-migrate-users.md)
-         + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](admin-console/user-management2/user-migration/migrate-enterprise.md)
-         + [기존 로그인 비활성화](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-         + [마이그레이션의 영향을 받는 API](admin-console/user-management2/user-migration/developer.md)
 + Analytics 관리 도구 {#admin-tools}
    + [관리 도구 개요](admin/c-admin-tools.md)
    + [과금](admin/billing-admin.md)
@@ -40,28 +32,8 @@ ht-degree: 97%
    + [데이터 소스](admin/data-sources.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
    + [로그](admin/logs.md)
-   + [활동 관리자 보고](admin/reporting-activity.md)
+   + [보고 활동 관리자](admin/reporting-activity.md)
    + 보고서 세트 관리자 {#manage-report-suites}
-      + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
-      + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [보고서 세트 검색 저장](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [보고서 세트 설정 다운로드](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 새 보고서 세트 {#c-new-report-suite}
-         + [보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [롤업 보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [보고서 세트 그룹 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
-         + [새 보고서 세트 - 설정](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [소스 보고서 세트에서 복사되지 않은 설정](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + 보고서 세트 템플릿 {#report-suite-templates}
-         + [보고서 세트 템플릿 개요](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [애그리게이터 포털](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [상거래](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [콘텐츠 및 미디어](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [기본 템플릿](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [금융 서비스](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [구직 포털](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [리드 생성](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [지원 미디어](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
       + 보고서 세트의 설정 편집 {#edit-report-suite}
          + 일반 {#report-suite-general}
             + [일반 계정 설정](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -141,11 +113,31 @@ ht-degree: 97%
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
-         + [개인 정보 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + [개인정보 보호 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 실시간 {#real-time-reports}
             + [실시간 보고서 개요](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [실시간 보고서 구성](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [지원되는 실시간 지표 및 차원](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+      + [보고서 세트 관리](admin/c-manage-report-suites/report-suites-admin.md)
+      + [롤업 및 글로벌 보고서 세트](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [보고서 세트 검색 저장](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [보고서 세트 설정 다운로드](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 새 보고서 세트 {#c-new-report-suite}
+         + [보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [롤업 보고서 세트 만들기](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [보고서 세트 그룹 만들기](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [새 보고서 세트 - 설정](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [소스 보고서 세트에서 복사되지 않은 설정](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 보고서 세트 템플릿 {#report-suite-templates}
+         + [보고서 세트 템플릿 개요](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [애그리게이터 포털](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [상거래](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [콘텐츠 및 미디어](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [기본 템플릿](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [금융 서비스](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [구직 포털](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [리드 생성](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [지원 미디어](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 회사 설정 {#company-settings}
       + [회사 설정 개요](admin/company/c-company-settings.md)
       + [보안 관리자](admin/company/security-manager.md)
@@ -163,6 +155,14 @@ ht-degree: 97%
       + [보고서 세트 사용량 보기](admin/c-server-call-usage/report-suite-usage.md)
       + [서버 호출 사용량 경고](admin/c-server-call-usage/scu-alerts.md)
       + [서버 호출 사용량 FAQ](admin/c-server-call-usage/overage-faq.md)
+   + 사용자 및 제품 관리(기존) {#user-product-management}
+      + [사용자 및 제품 관리(기존)](admin/user-management2/user-management.md)
+      + Adobe Admin Console로 사용자 마이그레이션 {#migrate-users}
+         + [Admin Console로 Analytics 사용자 마이그레이션](admin/user-management2/user-migration/c-migration-tool.md)
+         + [Adobe ID에 대한 Analytics 사용자 계정 마이그레이션](admin/user-management2/user-migration/t-migrate-users.md)
+         + [Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이그레이션](admin/user-management2/user-migration/migrate-enterprise.md)
+         + [기존 로그인 비활성화](admin/user-management2/user-migration/t-disable-legacy-login.md)
+         + [마이그레이션의 영향을 받는 API](admin/user-management2/user-migration/developer.md)
 + 데이터 거버넌스 {#data-governance}
    + [Adobe Analytics 데이터 개인정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
    + [자주 묻는 질문](c-data-governance/gdpr-faq.md)
@@ -176,3 +176,4 @@ ht-degree: 97%
    + [ID 확장](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
 + [관리 API](c-admin-api/c-admin-api.md)
+
