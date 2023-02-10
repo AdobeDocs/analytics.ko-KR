@@ -3,9 +3,9 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e9e99a463ab8c8afbd786520d9529b68717bc690
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1053'
 ht-degree: 51%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **분류 세트 아키텍처로 자동 마이그레이션** | 2023년 2월 8일 | 다음 몇 개월 동안 Adobe은 모든 조직의 모든 분류를 최신 분류 아키텍처로 마이그레이션하려고 합니다. 마지막으로 마이그레이션한 고객은 2023년 5월에 발생할 것으로 예상됩니다. 고객 조치가 필요하지 않으며, 다운타임이 예상되지 않습니다. 이 새로운 아키텍처에는 다음과 같은 많은 이점이 있습니다.<ul><li>처리 시간이 크게 단축되었습니다(72시간 → 24시간).</li><li>사용 기능 [분류 세트](/help/components/classifications/sets/overview.md) UI</li><li>을 통해 향후에 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션 [분류 데이터를 위한 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>조직의 워크플로우에 영향을 줄 수 있는 다음 변경 사항을 확인합니다.<ul><li>브라우저 가져오기를 사용할 때 &#39;[!UICONTROL 충돌 시 덮어쓰기]&#39;은(는) 항상 활성화되어 있습니다.</li><li>브라우저 가져오기를 사용하는 경우 가져오기 바로 후에 내보내는 옵션이 더 이상 지원되지 않습니다.</li><li>Analytics 2.0 API `GetDimensions` 이제 종단점은 숫자 식별자 대신 분류에 대한 문자열 식별자를 반환합니다. 숫자 식별자는 계속 사용할 수 있지만 Adobe은 가능한 경우 새 문자열 식별자를 사용하는 것이 좋습니다. 숫자 식별자는 `?expansion=hidden` 쿼리 문자열 매개 변수가 포함된 랜딩 페이지 URL이 있는지 확인합니다.</li></ul>조직에 대해 더 구체적인 마이그레이션 일정을 정하거나 이 마이그레이션에 대한 질문/문제가 있는 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/components/classifications/sets/overview.md) |
+| **분류 세트 아키텍처로 자동 마이그레이션** | 2023년 2월 8일 | 다음 몇 개월 동안 Adobe은 모든 조직의 모든 분류를 최신 분류 아키텍처로 마이그레이션하려고 합니다. 마지막으로 마이그레이션한 고객은 2023년 5월에 발생할 것으로 예상됩니다. 고객 조치가 필요하지 않으며, 다운타임이 예상되지 않습니다. 이 새로운 아키텍처에는 다음과 같은 많은 이점이 있습니다.<ul><li>처리 시간이 크게 단축되었습니다(72시간 → 24시간).</li><li>사용 기능 [분류 세트](/help/components/classifications/sets/overview.md) UI</li><li>을 통해 향후에 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션 [분류 데이터를 위한 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>조직의 워크플로우에 영향을 줄 수 있는 다음 변경 사항을 확인합니다.<ul><li>브라우저 또는 FTP 가져오기를 사용할 때 &#39;[!UICONTROL 충돌 시 덮어쓰기]&#39;은(는) 항상 활성화되어 있습니다.</li><li>브라우저 또는 FTP 가져오기를 사용하는 경우 가져오기 바로 후에 내보내는 옵션이 더 이상 지원되지 않습니다.</li><li>Analytics 2.0 API `GetDimensions` 이제 종단점은 숫자 식별자 대신 분류에 대한 문자열 식별자를 반환합니다. 숫자 식별자는 계속 사용할 수 있지만 Adobe은 가능한 경우 새 문자열 식별자를 사용하는 것이 좋습니다. 숫자 식별자는 `?expansion=hidden` 쿼리 문자열 매개 변수가 포함된 랜딩 페이지 URL이 있는지 확인합니다.</li></ul>조직에 대해 더 구체적인 마이그레이션 일정을 정하거나 이 마이그레이션에 대한 질문/문제가 있는 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/components/classifications/sets/overview.md) |
 | **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 1월 25일 | 디바이스 조회에서 클라이언트 힌트는 **2023년 2월 16일**&#x200B;부터 사용할 수 있습니다. <p> <p>2022년 10월부터 Web SDK 또는 AppMeasurement JavaScript 라이브러리를 사용하여 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 2월까지 디바이스 조회에 통합되지 않을 예정입니다. 해당 시기에 Adobe는 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 디바이스 정보를 가져올 때 사용자 에이전트와 함께 클라이언트 힌트를 사용할 예정입니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
