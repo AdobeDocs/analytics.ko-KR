@@ -4,10 +4,10 @@ title: 모바일 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: b585743c835312b579ae810a04b7849c5e4f4953
+source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 100%
+source-wordcount: '1792'
+ht-degree: 98%
 
 ---
 
@@ -102,9 +102,9 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 그러면 새 날짜 범위 구성 요소를 만들고 저장할 수 있는 날짜 범위 빌더로 이동합니다.
 
-### 비교 날짜 범위 표시 {#show-comparison-dates}
+### 비교 날짜 범위 표시/숨기기 {#show-comparison-dates}
 
-비교 날짜 범위를 포함하려면 **비교 날짜 포함** 설정을 전환합니다.
+비교 날짜 범위를 표시하거나 숨기려면 **비교 날짜 포함** 설정
 
 ![비교 날짜 포함](assets/include-comparison-dates.png)
 
