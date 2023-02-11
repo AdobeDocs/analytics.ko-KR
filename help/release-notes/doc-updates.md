@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
+source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
-source-wordcount: '3639'
-ht-degree: 98%
+source-wordcount: '3679'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 98%
 | 구현 | [웹 및 모바일용 Adobe Analytics를 구현](../implement/home.md)하는 방법에 대한 내용이 업데이트되었습니다. |
 | 작업 공간 달력 및 날짜 범위 | 상대적 날짜 범위, 공식 계산 업데이트 및 달력 UI 변경 사항을 설명하는 컨텐츠가 업데이트되었습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | 모바일 스코어카드 | 비교 날짜 범위를 표시하고 숨기는 방법을 설명하는 새 설명서 섹션 . 자세한 내용은 [비교 날짜 범위 표시](/help/analyze/mobile-app/create-scorecard.md) 참조하십시오. |
+| 1.4 API | 다음 [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 전체 재작성을 받았으며 이제 Adobe Developer에 게시됩니다. |
+| 구현 유형 간 추적 | 사용 사례를 업데이트했습니다 [다양한 구현 유형 추적](../implement/use-cases/cross-type-implementation.md) Experience Cloud ID 서비스를 수용합니다. |
 | **2023년 1월** |  |
 | 테이블 필터링 및 정렬 | [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 문서의 내용이 업데이트되었습니다(절차 추가 및 사용 가능한 옵션 설명 포함). 이 문서의 이름이 “테이블 페이지 매김, 필터링 및 정렬”에서 다른 이름으로 변경되었습니다. |
 | 폴더 | [폴더 관리](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) 전용 페이지. |
