@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
+source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 51%
+source-wordcount: '1112'
+ht-degree: 62%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2023년 2월)
 
-**마지막 업데이트 날짜**: 2023년 2월 9일
+**마지막 업데이트 날짜**: 2023년 2월 13일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -22,8 +22,8 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | ----------- | ---------- | ------- | ---- |
 | **데이터 개인 정보 보호 레이블에 대한 사용자 인터페이스가 업데이트되었습니다** | 업데이트된 인터페이스를 사용하면 보고서 세트 구성 요소에 대한 데이터 개인 정보 레이블 생성, 관리 및 편집 프로세스를 간소화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) | 해당 사항 없음 | 2023년 2월 8일 |
 | **모바일 스코어카드에서 비교 날짜 범위 숨기기** | 모바일 스코어카드를 사용하여 **[!UICONTROL 비교 날짜 포함]** 비교 날짜를 보거나 숨기도록 설정합니다. | 해당 사항 없음 | 2023년 2월 8일 |
-| **Workspace의 달력 업데이트** | <ul><li>앵커 패널 날짜: 패널 달력에 상대적인 날짜 범위 구성 요소를 만들 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>달력 스타일 업데이트: UI의 달력 스타일이 업그레이드되어 보다 일관되고 사용하기 쉬운 워크플로우를 제시했습니다.</li><li>달력 공식 업데이트: 상대적 날짜를 사용하는 경우 모든 달력 공식은 패널 날짜 범위의 시작을 반영합니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
-| **Adobe Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터에서 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko). 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 풍부함을 줄이는 데 도움이 되므로 프로필 권한 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필로 전송된 데이터에만 적용됩니다. [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko). **필터링은 Customer Journey Analytics과 같은 애플리케이션에서 사용하기 위해 Data Lake로 전송되는 데이터에 영향을 주지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 해당 사항 없음 | 2023년 2월 22일 |
+| **Workspace의 캘린더 업데이트** | <ul><li>앵커 패널 날짜: 패널 캘린더를 기준으로 날짜 범위 구성 요소를 만들 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>캘린더 스타일 업데이트: UI 전체의 캘린더 스타일이 업그레이드되어 보다 일관되고 사용하기 쉬운 워크플로를 제공합니다.</li><li>캘린더 수식 업데이트: 상대 날짜를 사용하는 경우 모든 캘린더 수식이 패널 날짜 범위의 시작을 반영합니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
+| **Adobe Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 풍부함을 줄이는 데 도움이 되므로 프로필 권한 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR#filtering-for-profile) | 해당 사항 없음 | 2023년 2월 22일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -44,6 +44,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
+| **일본어 기능 전화 추적 서비스 EOL** | 2023년 2월 13일 | 일본 고객에게만 해당됩니다. 2023년 5월 말에 일본어 기능 전화 추적 서비스(mod_ktrack)가 중단됩니다. 불편을 끼쳐 드려 죄송합니다만 Apache 서버에 설치된 모듈을 제거하거나 사용하지 않도록 설정해 주십시오. 에서 27페이지 및 28페이지를 참조하십시오. [이 문서](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) 참조하십시오. |
 | **일부 Reports &amp; Analytics 및 Report Builder 예약 기능 EOL** | 2023년 2월 9일 | 다음 예약 기능은 2023년 1월 31일에 종료되었습니다.<ul><li>Report Builder의 시간별 작업에 대한 &quot;x회 후 종료&quot; 옵션</li><li>Reports and Analytics에서 새 보고서를 예약하고 데이터 추출을 다운로드하는 기능</li></ul><p>**참고**: 원래 2022년 4월에 이러한 기능을 종료했지만 변경 사항을 롤백했습니다. 또한 이러한 기능이 일시적으로 복원되고 2023년 1월 31일에 다시 종료된다는 알림을 보냈습니다. |
 | **[!UICONTROL 게시 목록] 기능의 EOL** | 2022년 9월 29일 | Reports &amp; Analytics EOL의 일환으로 게시 목록은 **2023년 12월**&#x200B;에 사용 수명이 종료됩니다. Analysis Workspace 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 게시 목록에 액세스할 수 없습니다. |
 | **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ko-KR)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
