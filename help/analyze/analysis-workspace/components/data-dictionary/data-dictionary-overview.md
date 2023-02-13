@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Analysis Workspace의 데이터 사전은 사용자와 관리자 모두가 Analytics 환경에서 구성 요소를 추적하고 더 잘 이해할 수 있도록 해줍니다.
 
-시스템 관리자는 데이터 사전에서 각 구성 요소에 대한 이 정보를 조정하고 사용자가 사용할 수 있도록 만들 책임이 있습니다.
+Analytics 관리자는 사용자가 사용할 수 있도록 데이터 사전에서 각 구성 요소에 대한 정보를 조정할 책임이 있습니다.
 
 ## 사용자를 위한 이점
 
@@ -33,6 +33,8 @@ Analysis Workspace의 데이터 사전은 사용자와 관리자 모두가 Analy
 * 보고 있는 구성 요소와 유사한 구성 요소
 
 * 시스템 관리자가 구성 요소를 승인하는지 여부
+
+데이터 사전에 액세스하는 방법과 데이터 사전에 포함된 정보에 대한 자세한 내용은 [데이터 사전에서 구성 요소 정보 보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## 관리자를 위한 이점
 
@@ -67,7 +69,13 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 * 메뉴에서 [!UICONTROL **도움말**] > [!UICONTROL **데이터 사전**].
 
-   <!--add screenshot-->
+데이터 사전에서 사용할 수 있는 다양한 옵션에 대한 자세한 내용은 [데이터 사전에서 구성 요소 정보 보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## 데이터 사전 업데이트 및 조정
+
+Analytics 관리자는 다음에 설명된 대로 조직에서 건강한 데이터 사전을 유지 관리할 책임이 있습니다. [데이터 사전 상태 모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+이 프로세스의 일부로 Analytics 관리자는 다음에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다. [데이터 사전에서 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## 데이터 사전 이동, 최소화 또는 닫기
 
