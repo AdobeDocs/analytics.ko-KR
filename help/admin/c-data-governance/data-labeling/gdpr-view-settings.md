@@ -3,10 +3,10 @@ description: 데이터 거버넌스를 위한 개인정보 보호 레이블 지�
 title: 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보기/관리
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
+source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 84%
+source-wordcount: '867'
+ht-degree: 77%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 84%
 | 설정 | 설명 |
 | --- | --- |
 | **[!UICONTROL 구성 요소 이름]** | 이 열에는 이 보고서 세트의 일부인 모든 구성 요소(차원, 지표)가 나열됩니다. |
-| **[!UICONTROL 신원]** | ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 범주화하는 데 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=ko-KR#identity-data-labels) |
-| **[!UICONTROL 민감도]** | 중요 데이터 “S” 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가적인 중요 데이터 레이블은 다른 유형의 중요 정보를 식별하기 위해 나중에 도입됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=ko-KR#sensitive-data-labels) |
-| **[!UICONTROL GDPR 액세스]** | 데이터 거버넌스 레이블은 규정 및 기업 정책을 준수하도록 개인정보 보호 관련 고려 사항 및 계약 조건을 반영하여 데이터를 분류하는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=ko-KR#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 삭제]** | 삭제 레이블은 히트가 데이터 주체와 연관될 수 있도록 하는 값(즉, 데이터 주체를 식별할 수 있는 값)이 포함된 필드에만 필요합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=ko-KR#data-privacy-delete-labels) |
-| **[!UICONTROL 네임스페이스]** | 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공하라는 메시지가 표시됩니다. 이전에 정의된 네임스페이스를 사용하거나 새 네임스페이스를 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=ko-KR#section_F0A47AF8DA384A26BD56032D0ABFD2D7) |
+| **[!UICONTROL 신원]** | ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 범주화하는 데 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
+| **[!UICONTROL 민감도]** | 중요 데이터 “S” 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가적인 중요 데이터 레이블은 다른 유형의 중요 정보를 식별하기 위해 나중에 도입됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
+| **[!UICONTROL GDPR 액세스]** | 데이터 거버넌스 레이블은 규정 및 기업 정책을 준수하도록 개인정보 보호 관련 고려 사항 및 계약 조건을 반영하여 데이터를 분류하는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
+| **[!UICONTROL GDPR 삭제]** | 삭제 레이블은 히트가 데이터 주체와 연관될 수 있도록 하는 값(즉, 데이터 주체를 식별할 수 있는 값)이 포함된 필드에만 필요합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL 네임스페이스]** | 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공하라는 메시지가 표시됩니다. 이전에 정의된 네임스페이스를 사용하거나 새 네임스페이스를 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
 | **[!UICONTROL 범주]** | 표준 구성 요소, 전환 변수 등 구성 요소의 유형을 의미합니다. |
 
 {style=&quot;table-layout:auto&quot;}

@@ -3,10 +3,10 @@ title: 데이터 보존 정책
 description: 데이터 보존 정책은 Adobe가 데이터를 저장하는 기간을 결정합니다.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 98%
+source-wordcount: '611'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 
 
 ## 현재 데이터 보존 정책 보기/관리
 
-[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 Experience Cloud 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다. [추가 정보](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html)
+[!UICONTROL 관리자] 도구의 데이터 거버넌스 대화 상자에서는 데이터 거버넌스용으로 구성된 보고서 세트에 대한 개요를 제공합니다. 또한 Experience Cloud 조직에 매핑되었는지 여부와 이 보고서 세트에 대한 데이터 보존 정책이 있는지 여부도 표시됩니다. [추가 정보](/help/admin/c-data-governance/an-gdpr-workflow.md)
 
 ## FAQ
 
