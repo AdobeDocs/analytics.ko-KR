@@ -3,7 +3,7 @@ description: 디바이스 또는 브라우저에서 필수적이지 않은 쿠�
 title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입니까
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 75%
@@ -46,3 +46,4 @@ ht-degree: 75%
 
 
 자세한 내용은 [CNIL 쿠키 면제](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) 웹 사이트를 참조하십시오.
+

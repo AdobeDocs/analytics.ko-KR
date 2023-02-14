@@ -3,7 +3,7 @@ description: 데이터 거버넌스를 위한 개인정보 보호 레이블 지�
 title: 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보기/관리
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 77%
@@ -17,15 +17,15 @@ ht-degree: 77%
 ## 개인정보 보호 레이블 보기 {#view-privacy}
 
 1. Adobe Experience Cloud에 로그인합니다.
-1. **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 구성 및 수집]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;로 이동합니다.
+2. **[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 구성 및 수집]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;로 이동합니다.
 
    >[!NOTE]
    >
    >이 메뉴 항목이 표시되지 않으면 [Admin Console의 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에 이 기능에 대한 사용 권한을 추가해야 합니다.
 
-1. 오른쪽 상단에서 보거나 관리할 개인정보 보호 레이블이 있는 보고서 세트를 선택합니다.
+3. 오른쪽 상단에서 보거나 관리할 개인정보 보호 레이블이 있는 보고서 세트를 선택합니다.
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | 설정 | 설명 |
 | --- | --- |
