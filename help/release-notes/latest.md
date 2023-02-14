@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
+source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 62%
+source-wordcount: '1053'
+ht-degree: 66%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2023년 2월)
 
-**마지막 업데이트 날짜**: 2023년 2월 13일
+**마지막 업데이트 날짜**: 2023년 2월 9일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -44,7 +44,6 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
-| **일본어 기능 전화 추적 서비스 EOL** | 2023년 2월 13일 | 일본 고객에게만 해당됩니다. 2023년 5월 말에 일본어 기능 전화 추적 서비스(mod_ktrack)가 중단됩니다. 불편을 끼쳐 드려 죄송합니다만 Apache 서버에 설치된 모듈을 제거하거나 사용하지 않도록 설정해 주십시오. 에서 27페이지 및 28페이지를 참조하십시오. [이 문서](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) 참조하십시오. |
 | **일부 Reports &amp; Analytics 및 Report Builder 예약 기능 EOL** | 2023년 2월 9일 | 다음 예약 기능은 2023년 1월 31일에 종료되었습니다.<ul><li>Report Builder의 시간별 작업에 대한 &quot;x회 후 종료&quot; 옵션</li><li>Reports and Analytics에서 새 보고서를 예약하고 데이터 추출을 다운로드하는 기능</li></ul><p>**참고**: 원래 2022년 4월에 이러한 기능을 종료했지만 변경 사항을 롤백했습니다. 또한 이러한 기능이 일시적으로 복원되고 2023년 1월 31일에 다시 종료된다는 알림을 보냈습니다. |
 | **[!UICONTROL 게시 목록] 기능의 EOL** | 2022년 9월 29일 | Reports &amp; Analytics EOL의 일환으로 게시 목록은 **2023년 12월**&#x200B;에 사용 수명이 종료됩니다. Analysis Workspace 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 게시 목록에 액세스할 수 없습니다. |
 | **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ko-KR)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
