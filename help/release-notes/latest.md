@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
+source-git-commit: 98890c72a375b61bcecb79f2d32b3f29ee5782bd
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 66%
+source-wordcount: '1079'
+ht-degree: 64%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2023년 2월)
 
-**마지막 업데이트 날짜**: 2023년 2월 9일
+**마지막 업데이트 날짜**: 2023년 2월 15일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -23,7 +23,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | **데이터 개인 정보 보호 레이블에 대한 사용자 인터페이스가 업데이트되었습니다** | 업데이트된 인터페이스를 사용하면 보고서 세트 구성 요소에 대한 데이터 개인 정보 레이블 생성, 관리 및 편집 프로세스를 간소화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) | 해당 사항 없음 | 2023년 2월 8일 |
 | **모바일 스코어카드에서 비교 날짜 범위 숨기기** | 모바일 스코어카드를 사용하여 **[!UICONTROL 비교 날짜 포함]** 비교 날짜를 보거나 숨기도록 설정합니다. | 해당 사항 없음 | 2023년 2월 8일 |
 | **Workspace의 캘린더 업데이트** | <ul><li>앵커 패널 날짜: 패널 캘린더를 기준으로 날짜 범위 구성 요소를 만들 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>캘린더 스타일 업데이트: UI 전체의 캘린더 스타일이 업그레이드되어 보다 일관되고 사용하기 쉬운 워크플로를 제공합니다.</li><li>캘린더 수식 업데이트: 상대 날짜를 사용하는 경우 모든 캘린더 수식이 패널 날짜 범위의 시작을 반영합니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
-| **Adobe Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 풍부함을 줄이는 데 도움이 되므로 프로필 권한 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR#filtering-for-profile) | 해당 사항 없음 | 2023년 2월 22일 |
+| **Adobe Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 풍부함을 줄이는 데 도움이 되므로 프로필 권한 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 해당 사항 없음 | 2023년 2월 22일 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,6 +35,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
+| **Analytics 소스 커넥터 가용성** | 2023년 2월 15일 | 2023년 2월 28일에 Analytics 소스 커넥터를 캐나다의 새로운 Adobe Experience Platform 데이터 센터에서 사용할 수 있습니다. |
 | **분류 세트 아키텍처로 자동 마이그레이션** | 2023년 2월 8일 | 다음 몇 개월 동안 Adobe은 모든 조직의 모든 분류를 최신 분류 아키텍처로 마이그레이션하려고 합니다. 마지막으로 마이그레이션한 고객은 2023년 5월에 발생할 것으로 예상됩니다. 고객 조치가 필요하지 않으며, 다운타임이 예상되지 않습니다. 이 새로운 아키텍처에는 다음과 같은 많은 이점이 있습니다.<ul><li>처리 시간이 크게 단축되었습니다(72시간 → 24시간).</li><li>사용 기능 [분류 세트](/help/components/classifications/sets/overview.md) UI</li><li>을 통해 향후에 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션 [분류 데이터를 위한 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>조직의 워크플로우에 영향을 줄 수 있는 다음 변경 사항을 확인합니다.<ul><li>브라우저 또는 FTP 가져오기를 사용할 때 &#39;[!UICONTROL 충돌 시 덮어쓰기]&#39;은(는) 항상 활성화되어 있습니다.</li><li>브라우저 또는 FTP 가져오기를 사용하는 경우 가져오기 바로 후에 내보내는 옵션이 더 이상 지원되지 않습니다.</li><li>Analytics 2.0 API `GetDimensions` 이제 종단점은 숫자 식별자 대신 분류에 대한 문자열 식별자를 반환합니다. 숫자 식별자는 계속 사용할 수 있지만 Adobe은 가능한 경우 새 문자열 식별자를 사용하는 것이 좋습니다. 숫자 식별자는 `?expansion=hidden` 쿼리 문자열 매개 변수가 포함된 랜딩 페이지 URL이 있는지 확인합니다.</li></ul>조직에 대해 더 구체적인 마이그레이션 일정을 정하거나 이 마이그레이션에 대한 질문/문제가 있는 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/components/classifications/sets/overview.md) |
 | **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 1월 25일 | 디바이스 조회에서 클라이언트 힌트는 **2023년 2월 16일**&#x200B;부터 사용할 수 있습니다. <p> <p>2022년 10월부터 Web SDK 또는 AppMeasurement JavaScript 라이브러리를 사용하여 클라이언트 힌트를 수집할 수 있습니다. 그러나 클라이언트 힌트는 2023년 2월까지 디바이스 조회에 통합되지 않을 예정입니다. 해당 시기에 Adobe는 Google Chrome 및 Microsoft Edge와 같은 Chromium 브라우저에서 발생하는 히트에 대한 특정 디바이스 정보를 가져올 때 사용자 에이전트와 함께 클라이언트 힌트를 사용할 예정입니다. 이는 클라이언트 힌트를 통해 전달되는 데이터 대신 사용자 에이전트 문자열에서 제공되는 정보를 점차적으로 줄이려는 Google의 계획에 따른 것입니다. <p> <p>이 변경 내용의 일부로 Adobe는 사용자 에이전트와 관련된 모든 디바이스 조회에 Device Atlas를 사용하게 됩니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 
