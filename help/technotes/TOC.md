@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
-source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '243'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,18 @@ ht-degree: 100%
    + [브라우저 쿠키 제안의 영향을 경감하기 위한 옵션](cookies/cookieless.md)
 + [데이터 보존](data-retention.md)
 + [데이터 제외](exclude-data.md)
++ 데이터 거버넌스 {#data-governance}
+   + [Adobe Analytics 데이터 개인정보 보호 워크플로](c-data-governance/an-gdpr-workflow.md)
+   + [자주 묻는 질문](c-data-governance/gdpr-faq.md)
+   + 데이터 레이블 지정 {#data-labels}
+      + [Analytics 구성 요소의 데이터 개인정보 보호 레이블](c-data-governance/data-labeling/gdpr-labels.md)
+      + [보고서 세트 데이터에 레이블 지정](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [보고서 세트의 개인정보 보호 레이블 보기/관리](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [레이블 지정 모범 사례](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [레이블 지정 예](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [네임스페이스](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [ID 확장](c-data-governance/gdpr-id-expansion.md)
+   + [CNIL 동의 면제](c-data-governance/cnil-consent-exemption.md)
 + [Adobe Analytics에서 사용하는 IP 및 도메인](ip-addresses.md)
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)

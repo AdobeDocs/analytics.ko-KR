@@ -2,8 +2,8 @@
 title: Adobe Analytics의 데이터 처리 순서
 description: Adobe Analytics에서 데이터를 처리하는 구성 요소 순서 및 서비스에 대해 알아봅니다.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ Adobe Experience Edge로 데이터를 전송하는 경우 Adobe Analytics(및 �
 Adobe Analytics의 데이터는 대부분 영구적이지만 선택적으로 데이터를 조정하거나 삭제할 수 있는 몇 가지 기능이 있습니다.
 
 * [**데이터 복구 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): 특정 열을 편집하거나 원하는 데이터 행을 삭제합니다.
-* [**데이터 거버넌스**](/help/admin/c-data-governance/an-gdpr-workflow.md): 데이터를 영구적으로 삭제할 수 있도록 개인정보 보호 요청을 수용합니다.
+* [**데이터 거버넌스**](/help/technotes/c-data-governance/an-gdpr-workflow.md): 데이터를 영구적으로 삭제할 수 있도록 개인정보 보호 요청을 수용합니다.
 * [**분류**](/help/components/classifications/c-classifications.md): 다양한 방식으로 데이터를 구성할 수 있는 규칙이나 업로드된 데이터를 기반으로 차원을 만듭니다. 기본 보고서 세트 데이터는 변경되지 않으므로 분류 데이터를 자유롭게 편집하거나 덮어쓸 수 있습니다.
 * [**가상 보고서 세트**](/help/components/vrs/vrs-about.md): 방문 시간 초과를 변경하거나 [크로스 디바이스 분석](/help/components/cda/overview.md)을 허용할 수 있는 대체 보고서 세트 보기를 만듭니다.
