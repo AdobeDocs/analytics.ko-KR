@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 99%
+source-wordcount: '572'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
             + [일반 계정 설정](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [내부 URL 필터](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [사용자 정의 달력](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + 유료 검색 감지 {#paid-search-detection}
+            + 유료 검색 탐지 {#paid-search-detection}
                + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [메뉴 사용자 지정](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
@@ -71,7 +71,7 @@ ht-degree: 99%
                + [일반 보트 서명](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [보트 제외 방법](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [개인정보 보호 설정](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [타임스탬프 선택 사항](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + [타임스탬프 구성](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + 서버측 전달 {#server-side-forwarding}
                + [서버측 전달 개요](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [GDPR/ePrivacy 준수 및 서버측 전달](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
@@ -99,9 +99,9 @@ ht-degree: 99%
             + [목록 변수](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [머천다이징 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + 마케팅 채널 {#marketing-channels}
-            + [마케팅 채널 관리](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-            + [마케팅 채널의 처리 규칙](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [마케팅 채널에서의 분류](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [마케팅 채널 관리자](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [마케팅 채널 처리 규칙](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [마케팅 채널 분류](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [마케팅 채널 만료](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 트래픽 관리 {#traffic-management}
             + [개요](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
