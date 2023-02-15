@@ -3,9 +3,9 @@ description: 디바이스 또는 브라우저에서 필수적이지 않은 쿠�
 title: 사용자 동의 및 쿠키에 대한 CNIL 가이드라인은 무엇입니까
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
+source-git-commit: 0d3cdf77089ee5e80daa511c29217c911e2eb955
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '754'
 ht-degree: 75%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 75%
 * 제한적 범위. 쿠키의 범위는 단일 사이트 또는 애플리케이션으로 제한되어야 합니다. [브라우저 쿠키](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#third-party-cookie-limitations)
 * 익명화. IP 주소의 마지막 옥텟을 익명화합니다. [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 * 보고에서 방문자 ID를 숨깁니다.  방문자 ID는 기본적으로 Adobe Workspace 및 Adobe Reports &amp; Analytics에 표시되지 않습니다.  방문자 ID는 데이터 피드 및 Data Warehouse에서 제공됩니다.  데이터 피드 및 Data Warehouse에 대한 액세스는 [Admin Console의 액세스 권한](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)에 의해 제한될 수 있습니다. 및 [데이터 피드 열 참조](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html#columns%2C-descriptions%2C-and-data-types)
-* 지리적 위치 매개변수. 지리적 위치는 우편번호 수준보다 정확할 수 없습니다. [우편번호 옵션](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=ko-KR) 및 [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html&quot;\l&quot;admin-tools)
+* 지리적 위치 매개변수. 지리적 위치는 우편번호 수준보다 정확할 수 없습니다. [우편번호 옵션](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=ko-KR) 및 [일반 계정 설정](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
 * 옵트인 옵션 설정.  옵트인 서비스를 사용하면 방문자 프로토콜을 설정하여 사이트를 방문할 때 사용자의 장치 또는 브라우저에서 쿠키를 설정할 수 있는지 확인할 수 있습니다. [옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
 * 데이터 공유 방지.  Adobe Audience Manager에 대한 데이터 공유를 금지하려면 `opt.dmp` [개인정보 보고 변수](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)에 대해 컨텍스트 변수를 사용하여 히트가 공유되지 않도록 차단합니다.
 * 액세스 및 삭제 기능. 액세스 및 삭제 요청을 위해 Privacy Service를 활용하십시오. [Analytics &amp; Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html)
