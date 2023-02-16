@@ -4,10 +4,10 @@ title: 미디어 관리
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 6ddbf0821951e71d7323343104720fe60551dacb
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
@@ -17,4 +17,14 @@ Analytics에서 미디어를 활성화하여 측정 및 보고에 사용할 특�
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 미디어 관리]**&#x200B;로 이동합니다.
 
-자세한 정보는 [스트리밍 미디어용 Adobe Analytics 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)를 참조하십시오.
+보고서 세트를 편집할 때 다음 미디어 관리 옵션을 사용할 수 있습니다.
+
+* [!UICONTROL **미디어 보고**]
+
+   스트리밍 미디어별 보고서는 미디어 보고 페이지에서 사용할 수 있습니다. 미디어 보고에 대한 자세한 내용은 [미디어 보고서 지원](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+
+* [!UICONTROL **미디어 분류**]
+
+   스트리밍 미디어별 분류는 미디어 분류 페이지에서 사용할 수 있습니다. 분류에 대한 자세한 내용은 [전환 분류](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+
+스트리밍 미디어 분석에 대한 일반 정보는 [Adobe Analytics for Streaming Media 안내서](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR).
