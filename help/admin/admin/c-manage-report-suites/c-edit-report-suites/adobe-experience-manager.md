@@ -1,11 +1,11 @@
 ---
-description: Adobe Analytics에서 Adobe Experience Manager 데이터를 볼 수 있습니다
+description: Adobe Analytics에서 Adobe Experience Manager 데이터를 볼 수 있습니다.
 title: Adobe Analytics에서 Adobe Experience Manager 데이터 보기
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
