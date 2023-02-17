@@ -1,14 +1,14 @@
 ---
-description: 관리자는 데이터 사전 상태를 모니터링할 책임이 있습니다. 여기에는 구성 요소가 데이터를 수집 중인지, 승인되었는지, 설명이 들어 있는지, 그리고 중복되지 않았는지 등이 포함됩니다.
+description: 관리자는 데이터 사전 상태를 모니터링해야 합니다. 여기에는 구성 요소가 데이터를 수집하고 있는지, 승인되었는지, 설명이 포함되어 있는지, 중복이 없는지 여부가 포함됩니다.
 title: 데이터 사전 상태 모니터링
 feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
 source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -16,42 +16,42 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Analytics 관리자는 건강한 데이터 사전을 유지 관리할 책임이 있습니다.
+Analytics 관리자는 데이터 사전을 정상적으로 유지 관리해야 합니다.
 
-## 건강정보 사전의 특성
+## 정상적인 데이터 사전의 특징
 
-건강한 데이터 사전은 모든 구성 요소 중 하나입니다.
+정상적인 데이터 사전의 모든 구성 요소는 다음과 같습니다.
 
-* 사용 중이며 데이터를 수집하고 있습니다.
+* 사용 중이며 데이터 수집 중임
 
-* 유용한 설명을 포함하여 사용자가 설명을 가장 잘 사용하는 방법을 알 수 있습니다
+* 사용자가 가장 잘 사용하는 방법을 알 수 있도록 유용한 설명 포함
 
-* 불필요한 중복이 없습니다.
+* 불필요한 중복이 없음
 
-* 관리자가 승인
+* 관리자의 승인을 받음
 
-## 데이터 사전의 상태를 확인합니다
+## 데이터 사전의 상태 확인
 
-데이터 사전에서 상태 문제를 식별하려면
+데이터 사전의 상태 문제를 식별하는 방법:
 
 1. Analysis Workspace 프로젝트를 엽니다.
 
-1. Analysis Workspace 왼쪽의 데이터 사전 아이콘을 선택합니다. (데이터 사전에 액세스하는 다른 방법은 [데이터 사전 개요](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md))
+1. Analysis Workspace의 왼쪽에서 데이터 사전 아이콘을 선택합니다. (데이터 사전에 액세스하는 다른 방법은 [데이터 사전 개요](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)의 “데이터 사전 액세스”에 설명되어 있음)
 
    데이터 사전 창이 표시됩니다.
 
-   ![데이터 사전 관리 보기](assets/data-dictionary-admin.png)
+   ![데이터 사전 관리자 보기](assets/data-dictionary-admin.png)
 
-1. 드롭다운 메뉴에서 올바른 보고서 세트가 선택되었는지 확인합니다.
+1. 드롭다운 메뉴에서 올바른 보고서 세트가 선택되었는지 확인하십시오.
 
-1. 설정 [!UICONTROL **사전 상태**] 탭, 선택 [!UICONTROL **보기**] 다음 옵션 옆에 있습니다.
+1. [!UICONTROL **사전 상태**] 탭에서 다음 옵션 옆에 있는 [!UICONTROL **보기**]&#x200B;를 선택합니다.
 
-   * [!UICONTROL **구성 요소에 설명이 없습니다.**]
+   * [!UICONTROL **구성 요소에 대한 설명 누락**]
 
-   * [!UICONTROL **구성 요소가 중복 항목을 가지고 있습니다**]
+   * [!UICONTROL **구성 요소에 중복이 있음**]
 
-   * [!UICONTROL **구성 요소가 연결된 데이터가 없습니다.**]
+   * [!UICONTROL **구성 요소에 연결된 데이터 없음**]
 
-   선택한 내용에 따라 적절한 필터가 데이터 사전에 적용되며 관련 구성 요소만 표시됩니다.
+   선택 항목에 따라 데이터 사전에 적절한 필터가 적용되고 관련 구성 요소만 표시됩니다.
 
-1. 데이터 사전의 상태를 개선하려면 구성 요소를 편집합니다. 데이터 사전에서 구성 요소를 편집하는 방법에 대한 자세한 내용은 [데이터 사전에서 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+1. 구성 요소를 편집하여 데이터 사전의 상태를 개선합니다. 데이터 사전에서 구성 요소를 편집하는 방법에 대한 자세한 내용은 [데이터 사전의 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)을 참조하십시오.
