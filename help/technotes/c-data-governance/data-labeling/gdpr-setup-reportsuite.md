@@ -4,9 +4,9 @@ title: 보고서 세트 데이터에 레이블 지정
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ## 보고서 세트 개인정보 보호 레이블 지정 또는 편집 {#assign-edit}
 
-**예**: 귀하는 데이터 제어자로서 데이터 주체의 이메일 주소와 쿠키 ID를 수집하여 데이터 개인 정보 보호 요청을 처리할 계획입니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다.
+**예**: 데이터 제어자는 해당 데이터 개인정보 보호 요청을 처리하기 위해 데이터 주체의 이메일 주소와 쿠키 ID를 수집하도록 계획합니다. 이러한 쿠키 ID는 Adobe Analytics의 보고서 세트에 저장됩니다.
 
 1. Adobe Analytics에서 **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 구성 및 수집]** > **[!UICONTROL 데이터 거버넌스]**&#x200B;로 이동합니다.
 
