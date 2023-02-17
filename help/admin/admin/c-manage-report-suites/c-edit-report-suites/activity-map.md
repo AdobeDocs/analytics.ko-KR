@@ -1,11 +1,11 @@
 ---
-description: Adobe Analytics에서 Activity Map 데이터를 볼 수 있습니다
+description: Adobe Analytics에서 Activity Map 데이터를 볼 수 있습니다.
 title: Adobe Analytics에서 Activity Map 데이터 보기
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Analytics에서 Activity Map 보고를 활성화하는 관리 단계입니다.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **`<select report suite>`** > **[!UICONTROL 설정 편집]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 보고]**
 
-Analytics를 사용하여 Activity Map (이전에 ClickMap)에서 제공된 사용자 활동을 수집할 수 있습니다. 이러한 통합을 통해 다음을 수행할 수 있습니다.
+Analytics를 사용하여 Activity Map (이전에 ClickMap)에서 제공된 사용자 활동을 수집할 수 있습니다. 이러한 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * Analytics에서 보고를 활성화합니다.
 * **[!UICONTROL 모든 보고서 보기]** > **[!UICONTROL Activity Map]**&#x200B;에서 새 보고서를 추가합니다.
