@@ -4,9 +4,9 @@ title: 네임스페이스
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: e26e04e965554f0e9e7f06f0129175f1d24a3f23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 94%
 
 검색할 수 있도록 하려는 각 ID에는 네임스페이스가 지정됩니다. 이 네임스페이스는 모든 보고서 세트에서 해당 ID가 사용되는 변수에 있는 각 ID를 식별하는 사용자 정의 문자열입니다.
 
-네임스페이스 문자열은 ID를 데이터 개인정보 보호 요청의 일부로 제공할 때 검색할 필드를 식별하는 데 사용됩니다. 데이터 개인 정보 보호 요청이 제출되면 이 요청에는 요청에 사용할 데이터 주체 ID를 지정하는 JSON 섹션이 포함됩니다. 여러 ID는 데이터 주체에 대한 단일 요청의 일부로 포함할 수 있습니다. JSON에는 다음이 포함됩니다.
+네임스페이스 문자열은 ID를 데이터 개인정보 보호 요청의 일부로 제공할 때 검색할 필드를 식별하는 데 사용됩니다. 데이터 개인정보 보호 요청이 제출되면 이 요청에는 요청에 사용할 데이터 주체 ID를 지정하는 JSON 섹션이 포함됩니다. 여러 개의 ID가 데이터 주체에 대한 단일 요청의 일부로 포함될 수 있습니다. JSON에는 다음이 포함됩니다.
 
 * &quot;namespace&quot; 필드: 네임스페이스 문자열이 들어 있습니다.
 * &quot;type&quot; 필드: 대부분의 Adobe Analytics 요청에 대해 &quot;analytics&quot; 값이 들어 있습니다.
 * &quot;value&quot; 필드: Analytics가 각 보고서 세트의 연관된 네임스페이스 변수에서 검색해야 하는 ID가 들어 있습니다.
 
-자세한 내용은 [Experience Cloud 개인정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko-KR)를 참조하십시오.
+자세한 내용은 [Experience Cloud 개인정보 보호 API 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)를 참조하십시오.
 
 ## 쿠키 ID
 
@@ -38,7 +38,7 @@ Legacy Analytics Tracking Cookie 또한 Adobe Analytics ID (AAID)로 알려져 �
 
 또한 `"namespaceId": 10`을 `"namespace": "AAID"` 대신 또는 추가로 사용할 수 있으며, 일부 다른 Adobe 제품에서 해당 양식을 사용할 수도 있습니다.
 
-## 기존 Analytics 추적 쿠키: 사용되지 않는 형식
+## Legacy Analytics 추적 쿠키: 더 이상 사용되지 않는 형식
 
 ```
 {
