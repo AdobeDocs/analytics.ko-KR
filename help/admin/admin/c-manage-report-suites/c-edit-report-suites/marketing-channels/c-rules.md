@@ -4,9 +4,9 @@ description: 마케팅 채널 처리 규칙은 채널에 할당된 기준을 방
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2187'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> 마케팅 채널에 대한 일반적인 정보는 [마케팅 채널 시작](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> 마케팅 채널에 대한 일반 정보는 [마케팅 채널 시작하기](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오.
 >
 > Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 처리 규칙]**.
+**[!UICONTROL 분석]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 처리 규칙]**.
 
 마케팅 채널 처리 규칙은 방문자가 사이트에서 수행하는 모든 히트를 처리하여 방문자 히트가 채널에 할당된 기준을 충족하는지 여부를 결정합니다. 규칙은 사용자가 지정하는 순서대로 처리되며, 규칙이 충족되면 시스템이 나머지 규칙의 처리를 중지합니다.
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 
 **[!UICONTROL 채널 값 설정]** 은 해당 채널에 사용할 수 있는 마케팅 채널 세부 정보 차원을 정의합니다. 이를 통해 마케팅 채널 차원을 분류하고 채널에 대한 보다 자세한 정보를 볼 수 있습니다.
 
-채널 자체를 정의하는 데 사용되는 것과 동일한 기준으로 채널 값을 설정하는 것이 좋습니다. 예를 들어 쿼리 문자열 매개 변수를 사용하여 채널을 정의하는 경우 쿼리 문자열 매개 변수를 채널 값으로 설정합니다.
+채널 자체를 정의하는 데 사용되는 것과 동일한 기준으로 채널 값을 설정하는 것이 좋습니다. 예를 들어 쿼리 문자열 매개변수를 사용하여 채널을 정의하는 경우 쿼리 문자열 매개변수를 채널 값으로 설정합니다.
 
 ### 규칙 기준
 
@@ -75,7 +75,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->정의하는 모든 텍스트 필드 (예: 쿼리 문자열 매개 변수 또는 일치시킬 값 목록)는 **대소문자를 구분하지 않는** 값으로 평가됩니다. 예를 들어 쿼리 문자열 매개 변수 cmp = abc123인 규칙이 있는 경우 “cmp” 및 “abc123”의 모든 버전이 규칙과 일치합니다. 이러한 값의 여러 대/소문자 버전을 나열할 필요가 없습니다.
+>정의하는 모든 텍스트 필드 (예: 쿼리 문자열 매개변수 또는 일치시킬 값 목록)는 **대소문자를 구분하지 않는** 값으로 평가됩니다. 예를 들어 쿼리 문자열 매개변수 cmp = abc123인 규칙이 있는 경우 “cmp” 및 “abc123”의 모든 버전이 규칙과 일치합니다. 이러한 값의 여러 대/소문자 버전을 나열할 필요가 없습니다.
 
 | 용어 | 정의 |
 |--- |--- |
@@ -84,7 +84,7 @@ ht-degree: 98%
 | AMO ID | Advertising Cloud 및 Advertising Analytics 통합에서 사용하는 기본 추적 코드. 이러한 통합 중 하나가 활성화되면 추적 코드 접두사를 사용하여 Advertising Cloud에 대한 채널을 식별할 수 있습니다. AMO ID는 검색의 경우 &quot;AL&quot;, 표시의 경우 &quot;AC&quot;, 소셜의 경우 &quot;AO&quot;로 시작합니다. AMO ID를 마케팅 채널에서 사용하면 클릭/비용/노출 지표가 적절한 채널에 귀속될 수 있습니다. (구성하지 않으면 이러한 지표는 직접 또는 없음으로 표시됩니다.) |
 | AMO ED ID | Advertising Cloud에서 사용하는 보조 추적 코드. 이 추적 코드의 주된 목적은 데이터를 다시 Ad Cloud로 전송하는 키의 역할을 하는 것입니다. 또한 두 개의 분리된 마케팅 채널로 보려는 경우 디스플레이 클릭스루와 디스플레이 뷰스루를 식별하는 데 사용할 수도 있습니다. 이 작업은 디스플레이 클릭스루의 경우 &quot;:d&quot;로 끝나고 디스플레이 뷰스루의 경우 &quot;:i&quot;로 끝나는 &quot;AMO EF ID&quot;에 대한 마케팅 채널 논리를 설정하여 수행할 수 있습니다. 디스플레이를 두 개의 채널로 분할하지 않으려면 AMO ID 차원을 대신 사용하십시오. |
 | 전환 변수 | 이 보고서 세트에 대해 활성화된 eVar들로 구성되며 이러한 변수가 페이지의 Adobe 코드를 통해 설정된 경우에만 적용됩니다.  구현 안내서를 참조하십시오. |
-| 존재 | 다음을 포함하여 여러 가지 선택 사항이 있습니다.<ul><li>**존재하지 않음**: 히트 속성이 요청에 존재하지 않음을 나타냅니다. 예를 들어 참조 도메인에서 사용자가 URL을 입력하거나 책갈피를 클릭할 경우, 참조 도메인 속성이 존재하지 않습니다.</li><li>**비어 있음**: eVar 또는 쿼리 문자열 매개 변수 같은 히트 속성이 존재하지만 히트 속성과 연관된 값은 없다는 것을 나타냅니다.</li><li>**포함하지 않음**: 가령 추천 도메인이 특정 값을 포함하지 않음을 지정할 수 있습니다(다음을 선택할 경우와 반대: &quot;다음 포함&quot;.)</li></ul> |
+| 존재 | 다음을 포함하여 여러 가지 선택 사항이 있습니다.<ul><li>**존재하지 않음**: 히트 속성이 요청에 존재하지 않음을 나타냅니다. 예를 들어 참조 도메인에서 사용자가 URL을 입력하거나 책갈피를 클릭할 경우, 참조 도메인 속성이 존재하지 않습니다.</li><li>**비어 있음**: eVar 또는 쿼리 문자열 매개변수 같은 히트 속성이 존재하지만 히트 속성과 연관된 값은 없다는 것을 나타냅니다.</li><li>**포함하지 않음**: 가령 참조 도메인이 특정 값을 포함하지 않음을 지정할 수 있습니다(다음을 선택할 경우와 반대: &quot;다음 포함&quot;.)</li></ul> |
 | 다음으로 채널 식별 | 마케팅 채널 관리자 페이지에 추가한 마케팅 채널과 규칙을 연관시킵니다.  마케팅 채널 추가를 참조하십시오. |
 | 유료 검색 발견 규칙 일치 | Adobe가 발견한 유료 검색. 유료 검색은 검색 엔진이 해당 기업 사이트를 나열하는 대가로 비용을 지불하는 검색 유형입니다. 유료 검색은 보통 검색 결과의 상단 또는 오른쪽에 나타납니다. |
 | 자연어 검색 발견 규칙 일치 | Adobe 보고에 의해 발견된 무료 검색 |
@@ -98,10 +98,10 @@ ht-degree: 98%
 | 페이지 루트 도메인 (TLD+1) | 방문자가 들어오는 페이지의 루트 도메인 (예: example.co.uk). |
 | 페이지 URL | 사이트에서 웹 페이지의 URL |
 | 참조 도메인 | 방문자가 사용자 사이트를 방문하기 전에 있었던 도메인 (예: `abcsite.com` 대 `xyzsite.com`에서 온 레퍼러). |
-| 쿼리 문자열 매개 변수 | 사이트의 페이지 URL이 `https://example.com/?page=12345&cat=1`과 같은 모습이라면 “page”와 “cat”은 모두 검색어 문자열 매개 변수입니다. (`https://en.wikipedia.org/wiki/Query_string` 참조)  규칙 세트당 하나의 쿼리 문자열 매개 변수만 지정할 수 있습니다. 쿼리 문자열 매개 변수를 더 추가하려면 연산자로 `ANY`를 사용한 다음, 새 쿼리 문자열 매개 변수를 규칙에 추가하십시오. 쿼리 문자열 매개 변수는 대소문자를 구분하지 않습니다. 예를 들어 “cat”와 “CAT”는 동일한 방식으로 평가됩니다. |
+| 쿼리 문자열 매개변수 | 사이트의 페이지 URL이 `https://example.com/?page=12345&cat=1`과 같은 모습이라면 “page”와 “cat”은 모두 검색어 문자열 매개변수입니다. (`https://en.wikipedia.org/wiki/Query_string` 참조)  규칙 세트당 하나의 쿼리 문자열 매개변수만 지정할 수 있습니다. 쿼리 문자열 매개변수를 더 추가하려면 연산자로 `ANY`를 사용한 다음, 새 쿼리 문자열 매개변수를 규칙에 추가하십시오. 쿼리 문자열 매개변수는 대소문자를 구분하지 않습니다. 예를 들어 “cat”와 “CAT”는 동일한 방식으로 평가됩니다. |
 | 레퍼러 | 방문자가 사이트에 오기 전에 있었던 웹 페이지 위치 (전체 URL). 레퍼러는 정의된 도메인 외부에 존재합니다. |
 | 참조 도메인 및 경로 | 참조 도메인과 URL 경로의 연결. 예: `www.example.com/products/id/12345` 또는 `ad.example.com/foo` |
-| 참조 매개 변수 | 레퍼러 URL의 쿼리 문자열 매개 변수. 예를 들어 방문자가 `example.com/?page=12345&cat=1`에서 온 경우 page 및 cat가 참조 매개 변수입니다. |
+| 참조 매개변수 | 레퍼러 URL의 쿼리 문자열 매개변수. 예를 들어 방문자가 `example.com/?page=12345&cat=1`에서 온 경우 page 및 cat가 참조 매개변수입니다. |
 | 참조 루트 도메인 | 레퍼러의 루트 도메인. 레퍼러는 정의된 도메인 외부에 존재합니다. |
 | 검색 엔진 | Google이나 Yahoo! 같이 방문자를 사용자 사이트로 연결시킨 검색 엔진. |
 | 검색 키워드 | 검색 엔진을 사용하여 검색을 수행하는 데 사용되는 단어 |
@@ -116,23 +116,23 @@ ht-degree: 98%
 
 ### 유료 검색 {#paid-search}
 
-유료 검색은 검색 결과에 배치하기 위해 검색 엔진에 비용을 지불하는 단어 또는 구문입니다. 이 채널은 일반적으로 쿼리 문자열 매개 변수 (디스플레이 채널 예 참조) 또는 유료 검색 감지 규칙을 기반으로 정의됩니다. 이 결정은 기록하려는 마케팅 채널 세부 정보에 따라 다릅니다.
+유료 검색은 검색 결과에 배치하기 위해 검색 엔진에 비용을 지불하는 단어 또는 구문입니다. 이 채널은 일반적으로 쿼리 문자열 매개변수 (디스플레이 채널 예 참조) 또는 유료 검색 감지 규칙을 기반으로 정의됩니다. 이 결정은 기록하려는 마케팅 채널 세부 정보에 따라 다릅니다.
 
 #### 유료 검색 감지
 
-마케팅 채널은 유료 검색 감지 규칙에 맞추기 위해 [!UICONTROL 유료 검색 감지] 페이지에 구성된 설정을 사용합니다. ( **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 유료 검색 감지]**). 대상 URL은 해당 검색 엔진에 대한 기존 유료 검색 감지 규칙을 일치시킵니다.
+마케팅 채널은 유료 검색 감지 규칙에 맞추기 위해 [!UICONTROL 유료 검색 감지] 페이지에 구성된 설정을 사용합니다. (**[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 유료 검색 감지]**). 대상 URL은 해당 검색 엔진에 대한 기존 유료 검색 감지 규칙을 일치시킵니다.
 
 마케팅 채널 규칙의 경우, [!UICONTROL 유료 검색] 설정은 다음과 같습니다.
 
 ![](assets/example_paid_search.png)
 
-자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=ko-KR)를 참조하십시오.
+자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 ### 자연어 검색 {#natural-search}
 
 자연어 검색은 비용을 지불하지 않고 검색 엔진이 사이트 등급을 지정하는 웹 검색을 통해 방문자가 웹 사이트를 찾을 때 발생합니다.
 
-Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=ko-KR)를 참조하십시오.
+Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 감지가 설정되면 검색 레퍼러가 유료 검색 레퍼러가 아닌 경우 시스템에서 자연어 검색 레퍼러로 인식합니다. 자세한 내용은 관리자의 [유료 검색 감지](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)를 참조하십시오.
 
 마케팅 채널 규칙의 경우, 자연어 검색 설정은 다음과 같습니다.
 
@@ -140,13 +140,13 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 ### 표시 {#display}
 
-이 규칙은 배너 광고로부터 온 방문자를 식별합니다. 대상 URL의 쿼리 문자열 매개 변수 (이 경우 *`Ad_01`*. 쿼리 문자열 매개 변수 및 검색되는 값은 대소문자를 구분하지 않는 값으로 평가됩니다.
+이 규칙은 배너 광고로부터 온 방문자를 식별합니다. 대상 URL의 쿼리 문자열 매개변수 (이 경우 *`Ad_01`*. 쿼리 문자열 매개변수 및 검색되는 값은 대소문자를 구분하지 않는 값으로 평가됩니다.
 
 ![](assets/example_display.png)
 
 ### 이메일 {#email}
 
-이 규칙은 이메일 캠페인으로부터 온 방문자를 식별합니다. 대상 URL의 쿼리 문자열 매개 변수 (이 경우 *`eml`*)로 식별됩니다.
+이 규칙은 이메일 캠페인으로부터 온 방문자를 식별합니다. 대상 URL의 쿼리 문자열 매개변수 (이 경우 *`eml`*)로 식별됩니다.
 
 ![](assets/example_email.png)
 
@@ -174,7 +174,7 @@ Analytics에는 자연어 검색 감지 기능이 없습니다. 유료 검색 �
 
 ![](assets/int-channel1.png)
 
-이 채널이 발생하는 이유에 대한 자세한 내용은 [내부 (세션 새로 고침) 이유](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=ko-KR#internal)를 참조하십시오.
+이 채널이 발생하는 이유에 대한 자세한 내용은 [내부 (세션 새로 고침) 이유](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)를 참조하십시오.
 
 ### 직접 {#direct}
 
