@@ -5,9 +5,9 @@ title: 마케팅 채널 만료
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 93%
 
 >[!NOTE]
 >
-> 마케팅 채널에 대한 일반적인 정보는 [마케팅 채널 시작](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> 마케팅 채널에 대한 일반 정보는 [마케팅 채널 시작하기](/help/components/c-marketing-channels/c-getting-started-mchannel.md)를 참조하십시오.
 >
 > Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 만료]**.
+**[!UICONTROL 분석]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 만료]**.
 
 마케팅 채널에 대한 만료 또는 방문자 참여 기간을 지정하는 방법을 알아봅니다.
 
