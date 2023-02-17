@@ -4,9 +4,9 @@ title: Adobe Analytics 기능 릴리스
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 확장 가능한 단계별 
 
 * **GA (일반 배포)**: 권한이 있는 Experience Cloud 조직의 100%가 이 기능을 사용할 수 있으며 기능 릴리스가 완료되었습니다.
 
-각 기능 릴리스 시 롤아웃 시작에서 GA로 타임라인은 달라질 수 있습니다. 롤아웃 시작 2개월 이내에 기능이 GA 상태가 되도록 릴리스를 짧게 유지하는 것이 목표입니다.
+각 기능 릴리스에 따라 롤아웃 시작에서 GA로의 타임라인은 달라질 수 있습니다. 릴리스 시작 2개월 이내에 기능이 GA 상태가 되도록 릴리스를 짧게 유지하는 것이 목표입니다.
 
 ## 기능 플래그
 
