@@ -4,9 +4,9 @@ title: Enterprise 및 Federated ID에 대한 Analytics 사용자 계정 마이�
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>도메인 </p> </td> 
-   <td colname="col2"> <p>Ensure that domains in <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 사전 요구 사항</a>에 설정된 도메인과 일치합니다. </p> </td> 
+   <td colname="col2"> <p>도메인 확인 <span class="term"> 도메인</span> 및 <span class="term"> 이메일</span> 열이 사전 요구 사항</a>에 설정된 도메인과 일치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>국가 코드 </p> </td> 
@@ -143,7 +143,7 @@ Adobe Admin Console에서 사용자를 관리하기 위한 전제 조건입니�
 >[!UICONTROL 제품 구성] 및 [!UICONTROL 관리자 역할]과 같은 다른 열은 비어 있을 수 있습니다.
 
 1. Adobe Admin Console의 사용자 탭에서 **[!UICONTROL CSV로 사용자 추가]**&#x200B;를 클릭하여 템플릿 파일을 업로드합니다(3단계에서 설명).
-1. 에 설명된 대로 Analytics에서 마이그레이션 도구를 실행합니다. [Analytics 사용자 계정 마이그레이션](/help/admin/admin/user-management2/user-migration/t-migrate-users.md).
+1. [Analytics 사용자 계정 마이그레이션](/help/admin/admin/user-management2/user-migration/t-migrate-users.md)에 설명된 대로 Analytics에서 마이그레이션 도구를 실행합니다.
 1. **[!UICONTROL 마이그레이션]** > **[!UICONTROL Enterprise ID로 마이그레이션]**&#x200B;을 클릭합니다.
 
    ![단계 정보](/help/admin/admin/user-management2/user-migration/assets/migrate-as-enterprise.png)
