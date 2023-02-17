@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
 workflow-type: tm+mt
 source-wordcount: '1792'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Analytics 스코어카드는 아래에 표시된 대로 타일 레이아�
 
 ![새 스코어카드4](assets/new_score_card4.png)
 
-원하는 날짜 범위를 아직 만들지 않은 경우 달력 아이콘을 클릭하여 새 날짜 범위를 만들 수 있습니다.
+원하는 날짜 범위를 아직 만들지 않은 경우 캘린더 아이콘을 클릭하여 새 날짜 범위를 만들 수 있습니다.
 
 ![새 스코어카드5](assets/new_score_card5.png)
 

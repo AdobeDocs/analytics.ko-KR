@@ -44,7 +44,7 @@ ht-degree: 73%
 | [!UICONTROL **다음과 함께 자주 사용됨**] | <p>보고 있는 구성 요소와 함께 가장 일반적으로 사용되는 구성 요소를 표시합니다.</p><p>5개의 기본 구성 요소 유형에 대해 최대 5개의 구성 요소가 표시됩니다. 지표, 계산된 지표, Dimension, 세그먼트 및 날짜 범위.</p><p>이 목록은 지난 90일 동안의 데이터를 기반으로 합니다. 볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **다음과 유사**] | <p>보고 있는 구성 요소와 유사한 레이블이 있는 구성 요소를 표시합니다.</p><p>5개의 기본 구성 요소 유형에 대해 최대 5개의 구성 요소가 표시됩니다. 지표, 계산된 지표, Dimension, 세그먼트 및 날짜 범위.</p><p>볼 수 있는 액세스 권한이 있는 구성 요소만 표시됩니다.</p><p>보고서 세트의 중복 구성 요소가 여기에 표시됩니다. Analytics 관리자는 [데이터 사전 상태 모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **태그**] | 구성 요소에 적용된 모든 태그가 표시됩니다. 관리자 액세스 권한이 있는 사용자는 구성 요소를 편집할 때 태그를 추가할 수 있습니다. |
-| [!UICONTROL **구성 요소 유형**] | 차원, 메트릭, 세그먼트 또는 날짜 범위 등 구성 요소의 유형을 나열합니다. |
+| [!UICONTROL **구성 요소 유형**] | 차원, 지표, 세그먼트 또는 날짜 범위 등 구성 요소의 유형을 나열합니다. |
 | [!UICONTROL **작성자**] | 구성 요소를 생성한 사용자 이름을 표시합니다. |
 | [!UICONTROL **미리보기**] | Analysis Workspace에서 구성 요소가 어떻게 보이는지 미리보기를 표시합니다. |
 | [!UICONTROL **마지막 수정일**] | 구성 요소가 마지막으로 수정된 날짜를 표시합니다. 이 섹션은 세그먼트, 계산된 지표 및 날짜 범위를 볼 때 표시됩니다. <!--for CJA, it is displayed for all components--> |

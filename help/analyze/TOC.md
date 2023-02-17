@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace, Analytics 대시보드, Report Build
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 # Adobe Analytics 툴 안내서 {#analyze}
 
 + [Analytics 툴 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Analytics 시작하기 {#admin-overview}
    + [어떤 Adobe Analytics 도구를 사용해야 합니까?](get-started/which-analytics-tool.md)
    + [Analytics 제품 비교 및 요구 사항](get-started/analytics-product-comparison.md)
@@ -63,8 +63,8 @@ ht-degree: 98%
          + [날짜 비교](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + 데이터 사전 {#data-dictionary}
          + [데이터 사전 개요](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [데이터 사전에서 구성 요소 정보 보기](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [데이터 사전에서 구성 요소 항목 편집](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [데이터 사전의 구성 요소 정보 보기](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [데이터 사전의 구성 요소 항목 편집](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [데이터 사전 상태 모니터링](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 시각화 {#visualizations}
       + [시각화 개요](analysis-workspace/visualizations/freeform-analysis-visualizations.md)

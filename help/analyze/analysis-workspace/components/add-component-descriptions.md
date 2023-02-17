@@ -6,13 +6,13 @@ role: Admin
 source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # 구성 요소 설명 추가
 
-Analytics 관리자는 구성 요소(Dimension, 지표, 세그먼트 및 날짜 범위)에 대한 설명을 추가할 수 있습니다<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Analytics 관리자는 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)에 대한 설명을 추가할 수 있습니다<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
 조직의 사용자는 Analysis Workspace에서 프로젝트를 구축하거나 보고서를 볼 때 설명을 볼 수 있습니다. 설명을 추가하면 사용자가 다양한 구성 요소를 가장 잘 사용하는 방법에 대해 알아보는 데 도움이 됩니다.
 
