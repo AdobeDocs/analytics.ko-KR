@@ -3,10 +3,10 @@ title: campaign
 description: '''추적 코드'' 차원을 채웁니다.'
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 77%
+source-wordcount: '244'
+ht-degree: 75%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 
 `campaign` 변수는 사이트에서 추적 코드를 수집하는 데 사용됩니다. 이전 버전의 Adobe Analytics에는 대부분의 차원에 대한 분류로 사용할 수 있는 특별 처리 방법이 있었습니다. 현재 버전의 Adobe Analytics에서는 이 변수가 eVar와 동일하게 작동합니다.
 
-이 변수는 &#39;추적 코드&#39; 차원을 채웁니다.
+이 변수는 [추적 코드](/help/components/dimensions/tracking-code.md) 차원. 이 변수는 일반적으로 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 유틸리티 메서드. 그러나 조직은 이 변수를 설정하는 방법을 정확히 결정합니다.
 
 ## 웹 SDK를 사용한 캠페인
 
@@ -24,7 +24,7 @@ ht-degree: 77%
 
 Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 캠페인을 설정할 수 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
