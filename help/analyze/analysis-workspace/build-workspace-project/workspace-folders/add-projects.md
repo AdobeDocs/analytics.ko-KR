@@ -5,9 +5,9 @@ title: Workspace에서 폴더 추가
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->Analytics 관리자만 회사 폴더에 프로젝트를 추가하거나 새 프로젝트를 만들어 회사 폴더에 저장할 수 있습니다
+>Analytics 관리자만 회사 폴더에 프로젝트를 추가하거나 새로운 프로젝트를 생성하고 회사 폴더에 저장할 수 있습니다.
 
 ## 테이블 보기에서 {#table-view}
 
@@ -27,7 +27,7 @@ ht-degree: 66%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. **다음으로 이동**&#x200B;을 선택합니다. 
+1. **다음으로 이동**&#x200B;을 선택합니다.
 
    폴더 선택 대화 상자가 표시됩니다.
 
@@ -35,7 +35,7 @@ ht-degree: 66%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. 선택 **이동**.
+1. **이동**&#x200B;을 선택합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -55,7 +55,7 @@ ht-degree: 66%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. 을(를) 선택합니다 **...** 오른쪽 상단에 있는 생략 부호 아이콘.
+1. 오른쪽 상단의 줄임표 아이콘(**...**)을 선택합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
@@ -64,10 +64,10 @@ ht-degree: 66%
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
 
-1. (선택 사항) 드롭다운 목록에서 추가 프로젝트를 선택하여 여러 프로젝트를 추가합니다.
+1. (선택 사항) 여러 프로젝트를 추가하려면 드롭다운 목록에서 추가 프로젝트를 선택합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. 선택 **추가** 를 클릭하여 폴더에 프로젝트를 추가합니다.
+1. **추가**&#x200B;를 선택하여 폴더에 프로젝트를 추가합니다.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
