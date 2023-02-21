@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다.
 
-Analytics 관리자는 사용자가 사용할 수 있도록 데이터 사전에서 각 구성 요소에 대한 정보를 조정할 책임이 있습니다.
+Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를 구성하고 사용자가 사용할 수 있도록 해야 합니다.
 
 ## 사용자를 위한 이점
 
@@ -34,7 +34,7 @@ Analytics 관리자는 사용자가 사용할 수 있도록 데이터 사전에�
 
 * 시스템 관리자가 구성 요소를 승인했는지 여부
 
-데이터 사전에 액세스하는 방법과 데이터 사전에 포함된 정보에 대한 자세한 내용은 [데이터 사전에서 구성 요소 정보 보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+데이터 사전에 액세스하는 방법과 여기에 포함된 정보에 대한 자세한 내용은 [데이터 사전의 구성 요소 정보 보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)를 참조하십시오.
 
 ## 관리자를 위한 이점
 
@@ -69,13 +69,13 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 * 메뉴: [!UICONTROL **도움말**] > [!UICONTROL **데이터 사전**].
 
-데이터 사전에서 사용할 수 있는 다양한 옵션에 대한 자세한 내용은 [데이터 사전에서 구성 요소 정보 보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+데이터 사전에서 사용할 수 있는 다양한 옵션에 대한 자세한 내용은 [데이터 사전의 구성 요소 정보 보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)를 참조하십시오.
 
-## 데이터 사전 업데이트 및 조정
+## 데이터 사전 업데이트 및 구성
 
-Analytics 관리자는 다음에 설명된 대로 조직에서 건강한 데이터 사전을 유지 관리할 책임이 있습니다. [데이터 사전 상태 모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+Analytics 관리자는 [데이터 사전 상태 모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)에 설명된 대로 조직의 정상적인 데이터 사전의 유지 관리를 담당합니다.
 
-이 프로세스의 일부로 Analytics 관리자는 다음에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다. [데이터 사전에서 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+이 프로세스의 일부로 Analytics 관리자는 [데이터 사전의 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)에 설명된 대로 데이터 사전의 각 구성 요소에 대한 정보를 편집할 수 있습니다.
 
 ## 데이터 사전 이동, 최소화 또는 닫기
 
@@ -89,7 +89,7 @@ Analytics 관리자는 다음에 설명된 대로 조직에서 건강한 데이�
 
 * 최소화
 
-   최소화하면 데이터 사전은 Analysis Workspace의 오른쪽 하단 모서리에 파란색 탭으로 나타납니다.
+   최소화하면 데이터 사전은 Analysis Workspace의 오른쪽 하단에 파란색 탭으로 표시됩니다.
 
    파란색 탭을 선택하면 가장 최근에 본 구성 요소에 대한 데이터 사전이 열립니다.
 

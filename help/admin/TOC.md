@@ -7,7 +7,7 @@ user-guide-description: Experience Cloud Admin Console에서의 사용자 및 �
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 # Adobe Analytics 관리 안내서 {#admin}
 
 + [Analytics 관리 안내서](home.md)
-+ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 릴리스 정보](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ko-KR)
 + Adobe Admin Console {#admin-console}
    + [개요](admin-console/home.md)
    + [Adobe Analytics 첫 번째 관리 안내서](admin-console/first-admin-guide.md)
@@ -39,7 +39,7 @@ ht-degree: 96%
             + [일반 계정 설정](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [내부 URL 필터](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [사용자 정의 달력](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + 유료 검색 탐지 {#paid-search-detection}
+            + 유료 검색 감지 {#paid-search-detection}
                + [유료 검색 감지 개요](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [유료 검색 감지 구성](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [메뉴 사용자 지정](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
@@ -115,7 +115,7 @@ ht-degree: 96%
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [개인정보 보호 보고](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Document Cloud 관리 {#doc-cloud-mgt}
-            + [Adobe Analytics으로 Document Cloud 구성](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Adobe Analytics로 Document Cloud 구성](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
             + [Document Cloud 보고 구성](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics 구성](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + 실시간 {#real-time-reports}
