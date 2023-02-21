@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9c716438e4802d7dcdeab3302295e651cb5df30e
+source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | **데이터 개인정보 보호 레이블에 대한 업데이트된 사용자 인터페이스** | 인터페이스를 업데이트하면 보고서 세트 구성 요소에 대한 데이터 개인정보 보호 레이블을 생성, 관리 및 편집하는 프로세스를 간소화합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=ko-KR) | 해당 사항 없음 | 2023년 2월 8일 |
 | **모바일 스코어카드에서 비교 날짜 범위 숨기기** | 모바일 스코어카드를 사용하면 **[!UICONTROL 비교 날짜 포함]** 설정을 전환하여 비교 날짜를 보거나 숨길 수 있습니다. | 해당 사항 없음 | 2023년 2월 8일 |
 | **Workspace의 캘린더 업데이트** | <ul><li>앵커 패널 날짜: 패널 캘린더를 기준으로 날짜 범위 구성 요소를 만들 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>캘린더 스타일 업데이트: UI 전체의 캘린더 스타일이 업그레이드되어 보다 일관되고 사용하기 쉬운 워크플로를 제공합니다.</li><li>캘린더 수식 업데이트: 상대 날짜를 사용하는 경우 모든 캘린더 수식이 패널 날짜 범위의 시작을 반영합니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
+| **패널 날짜 범위 업데이트** | Workspace에 다음과 같은 개선 사항이 추가되었습니다.<ul><li>2월 릴리스부터 구성 요소 및 데이터 미리 보기는 최근 90일이 아니라 패널 날짜 범위를 기반으로 합니다. </li><li>왼쪽 레일에 나열된 모든 구성 요소는 패널 날짜 범위를 기반으로 사용할 수 있습니다.</li><li>세그먼트 및 계산된 지표 빌더의 모든 날짜 미리 보기는 패널 날짜 범위를 기반으로 합니다(연결된 패널이 없는 구성 요소 관리자에서 액세스하지 않으면 지난 90일을 기반으로 합니다).</li><li>모든 데이터 미리 보기에는 패널 날짜 범위에 따라 데이터 또는 구성 요소가 표시됩니다.</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
 | **Adobe Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko-KR)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 내용을 줄이는 데 도움이 되므로 프로필 자격 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko-KR#filtering-for-profile) | 해당 사항 없음 | 2023년 2월 22일 |
 
 {style=&quot;table-layout:auto&quot;}
