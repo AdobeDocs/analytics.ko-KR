@@ -4,9 +4,9 @@ title: 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 77%
 | 설정 | 설명 |
 | --- | --- |
 | **[!UICONTROL 구성 요소 이름]** | 이 열에는 이 보고서 세트의 일부인 모든 구성 요소(차원, 지표)가 나열됩니다. |
-| **[!UICONTROL 신원]** | ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 범주화하는 데 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
-| **[!UICONTROL 민감도]** | 중요 데이터 “S” 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가적인 중요 데이터 레이블은 다른 유형의 중요 정보를 식별하기 위해 나중에 도입됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
-| **[!UICONTROL GDPR 액세스]** | 데이터 거버넌스 레이블은 규정 및 기업 정책을 준수하도록 개인정보 보호 관련 고려 사항 및 계약 조건을 반영하여 데이터를 분류하는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 삭제]** | 삭제 레이블은 히트가 데이터 주체와 연관될 수 있도록 하는 값(즉, 데이터 주체를 식별할 수 있는 값)이 포함된 필드에만 필요합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
-| **[!UICONTROL 네임스페이스]** | 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공하라는 메시지가 표시됩니다. 이전에 정의된 네임스페이스를 사용하거나 새 네임스페이스를 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
+| **[!UICONTROL 신원]** | ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개인에게 연락할 수 있는 데이터를 범주화하는 데 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=ko-KR#data-privacy-identity-labels) |
+| **[!UICONTROL 민감도]** | 중요 데이터 “S” 레이블은 지리 데이터와 같은 중요 데이터를 범주화하는 데 사용됩니다. 추가적인 중요 데이터 레이블은 다른 유형의 중요 정보를 식별하기 위해 나중에 도입됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=ko-KR#sensitive-data-labels) |
+| **[!UICONTROL GDPR 액세스]** | 데이터 거버넌스 레이블은 규정 및 기업 정책을 준수하도록 개인정보 보호 관련 고려 사항 및 계약 조건을 반영하여 데이터를 분류하는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=ko-KR#data-privacy-access-labels) |
+| **[!UICONTROL GDPR 삭제]** | 삭제 레이블은 히트를 데이터 주체(즉, 데이터 주체를 식별할 수 있는 주체)와 연결할 수 있는 값이 포함된 필드에만 필요합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=ko-KR#data-privacy-delete-labels) |
+| **[!UICONTROL 네임스페이스]** | 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스를 제공하라는 메시지가 표시됩니다. 이전에 정의된 네임스페이스를 사용하거나 새 네임스페이스를 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=ko-KR#provide-namespace) |
 | **[!UICONTROL 범주]** | 표준 구성 요소, 전환 변수 등 구성 요소의 유형을 의미합니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -54,11 +54,11 @@ ht-degree: 77%
 
    >[!IMPORTANT]
    >
-   >선택하는 모든 보고서 세트는 Experience Cloud 조직에 매핑되어야 합니다.
+   >선택한 모든 보고서 세트를 반드시 Experience Cloud 조직에 매핑해야 합니다.
 
    변수 또는 변수 세트에 대한 레이블을 다른 보고서 세트에 복사하면 복사본이 대상 보고서 세트의 해당 위치에 있는 변수로 이동합니다. 표준 구성 요소, 목록 변수, 성공 이벤트의 경우 레이블이 대상 보고서 세트에서 **동일한 이름**&#x200B;을 가진 변수에 복사됩니다.
 
-   하지만 전환 변수(eVar) 및 트래픽 Dimension(props)의 경우 복사본이 과 함께 변수에 이동합니다 **동일한 숫자** 를 반환합니다. 예를 들어 eVar12는 모든 대상 보고서 세트의 eVar12에 복사됩니다. 이러한 변수의 이름은 복사본 대상을 판별할 때 무시됩니다. 해당 변수가 대상 보고서 세트에서 활성화되지 않은 경우 해당 변수에 대한 복사가 실패합니다.
+   그러나 전환 변수(eVars) 및 트래픽 차원(prop)의 경우 대상 보고서 세트에서 **숫자가 같은** 변수에 복사됩니다. 예를 들어 eVar12는 모든 대상 보고서 세트의 eVar12에 복사됩니다. 이러한 변수의 이름은 복사본 대상을 판별할 때 무시됩니다. 해당 변수가 대상 보고서 세트에서 활성화되지 않은 경우 해당 변수에 대한 복사가 실패합니다.
 
    변수에 대해 정의된 분류 레이블을 복사할 때 대상 보고서 세트에서 복사하는 분류와 동일한 이름을 가진 해당 변수의 분류에 레이블이 복사됩니다. 그렇지 않으면 해당 분류 레이블에 대한 복사가 실패합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 77%
 
 ## .csv 파일로 내보내기 {#export-csv}
 
-선택한 보고서 세트의 모든 변수에 대한 모든 현재 레이블 정의가 포함된 CSV 파일을 다운로드할 수 있습니다. 법무팀에서는 레이블 지정 옵션을 검토하고 이 옵션을 통해 이 검토를 쉽게 수행할 것을 권장합니다. 데이터 거버넌스 UI에 로그인하는 동안 검토를 수행할 필요 없이 .CSV 파일을 공유할 수 있습니다.
+선택한 보고서 세트의 모든 변수에 대해 현재 레이블 정의가 포함된 CSV 파일을 다운로드할 수 있습니다. 귀하의 법무팀이 레이블 지정 선택 사항을 검토할 것을 권장하며 이 옵션을 사용하면 이러한 검토가 용이해집니다. 데이터 거버넌스 UI에 로그인하는 동안 검토를 수행할 필요 없이 .CSV 파일을 공유할 수 있습니다.
 
 1. 오른쪽 상단의 **[!UICONTROL CSV 내보내기]**&#x200B;를 클릭하면 이 대화 상자가 표시됩니다.
 
