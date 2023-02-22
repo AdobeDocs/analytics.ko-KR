@@ -3,10 +3,10 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 88%
+source-wordcount: '1173'
+ht-degree: 87%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 ## Adobe 제공 세그먼트
 
-화면 왼쪽에 있는 구성 요소 레일은 사용자와 회사가 만든 세그먼트와 즉시 제공된 Adobe 세그먼트를 표시합니다. 를 클릭하면 **[!UICONTROL 모두 표시]**&#x200B;이러한 세그먼트는 일반적으로 목록 하단에 표시되며 오른쪽의 Adobe 로고로 식별됩니다.
+화면 왼쪽에 있는 구성 요소 레일은 사용자와 회사가 만든 세그먼트와 즉시 제공된 Adobe 세그먼트를 표시합니다. 를 클릭하면 **[!UICONTROL 모두 표시]**&#x200B;이러한 세그먼트는 일반적으로 목록 하단에 표시되며 오른쪽의 Adobe 로고로 식별됩니다. Adobe 제공 세그먼트의 일부 목록입니다.
 
 ![Adobe 세그먼트](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 순차적 세그먼트는 [!UICONTROL THEN] 연산자를 사용하여 사용자 작업을 기준으로 데이터 세트를 필터링합니다.
 
-## 방법 비디오 {#segment-video}
+## 세그멘테이션 방법 비디오 {#segment-video}
 
 이 비디오는 세그먼트 컨테이너가 정의와 사용 방법에 대한 간략한 개요를 제공합니다. [Adobe Analytics의 세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=ko-KR)
 
