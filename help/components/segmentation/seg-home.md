@@ -4,10 +4,10 @@ keywords: 세그먼테이션;세그먼트
 title: Analytics 세그먼테이션
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -21,6 +21,6 @@ Analytics 세그먼테이션은 세그먼트를 만들고, 사전 테스트를 �
 
 데이터 과학자와 마케팅 분석자는 필요에 적합한 분석을 위해 세그먼트를 사용, 확장 및 세분화한 다음 세그먼트를 저장하여 다른 사용자가 확장하고 세분화하고 라이브러리에 새 세그먼트로 저장하도록 할 수 있습니다. 작동이 시작되면 정리된 대상 인사이트를 [통합 세그먼트 워크플로](/help/components/segmentation/segmentation-workflow/seg-workflow.md)로 디자인 및 관리하는 주기가 진행됩니다.
 
-**시작하기**
+## 시작하기
 
-[세그먼테이션 설정 워크플로](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 또는 [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-build.md)으로 시작하거나 [세그먼트 정보](/help/components/segmentation/seg-overview.md)에서 빠른 개요를 참조하십시오.
+자세한 내용은 [세그먼트 정보](/help/components/segmentation/seg-overview.md) 를 참조하십시오. 그런 다음 로 이동합니다. [세그먼테이션 워크플로우 설정](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 또는 [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-build.md).

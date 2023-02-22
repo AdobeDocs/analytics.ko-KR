@@ -3,10 +3,10 @@ description: 기존 세그먼트 관리에 대한 FAQ입니다.
 title: 기존 세그먼트에 대한 FAQ
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -153,8 +153,9 @@ ht-degree: 92%
 
 다음 차원은 열거형 목록으로 변경되었습니다.
 
+| Dimension 이름 | Dimension 이름 | Dimension 이름 |
+| --- | --- | --- |
 | 모바일 제조업체 | 모바일 이메일 길이 | 색상 깊이 |
-|---|---|---|
 | 모바일 화면 크기 | 모바일 디바이스 번호 | 모니터 해상도 |
 | 모바일 화면 높이 | 모바일 Push To Talk | 플러그인을 사용하는 것이 좋습니다 |
 | 모바일 쿠키 지원 | 모바일 메일 데코레이션 | 운영 체제 |
@@ -171,7 +172,7 @@ ht-degree: 92%
 
 ## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#integer-based-dims}
 
-알려진 값 세트를 갖는 정수 기반 차원 (예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여 줍니다.
+알려진 값 세트를 갖는 정수 기반 차원 (예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면에서는 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 이러한 차원을 세그먼트화하는 방법을 보여줍니다.
 
 ![](assets/seg_browser_dimension.png)
 
