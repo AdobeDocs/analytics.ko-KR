@@ -33,7 +33,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 | --- | --- |
 | 기본값 | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니, 중국* |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *중국 RDC에는 중국 추가 기능 패키지가 필요합니다. 아래의 [중국 성능 최적화](#china-performance-optimization)를 참조하십시오.
 
@@ -52,7 +52,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 | 아시아 태평양만 | 뭄바이, 싱가포르, 도쿄, 시드니 |
 | 중국만 해당* | 베이징 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *중국 전용 및 글로벌 + 중국 RDC 유형은 중국 추가 기능 패키지가 필요합니다. 글로벌 + 중국은 중국 내에서 생성된 데이터를 Adobe의 중국 RDC로 라우팅하고 중국 외부에서 생성된 데이터는 중국 외부의 가장 가까운 RDC로 라우팅합니다. 아래의 [중국 성능 최적화](#china-performance-optimization)를 참조하십시오.
 
@@ -61,5 +61,5 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 중국 RDC(중국 성능 최적화) 추가 기능 패키지는 Adobe Analytics에 대한 유료 추가 기능입니다. 중국 본토에서 Adobe의 성능 최적화를 통해 중국에 거주하는 고객은 전 세계의 다른 위치가 아닌 중국 내 Adobe 데이터 수집 서비스로 직접 데이터를 보낼 수 있습니다. 이러한 최적화를 통해 중국 외부에 있는 위치로 데이터를 전송하는 것보다 페이지 로드 시간과 데이터 정확성이 향상됩니다. 데이터는 궁극적으로 중국 외부의 Adobe 데이터 처리 센터(DPC) 중 하나로 전송됩니다. 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
 
 >!![NOTE]
-중국 RDC 추가 기능 패키지는 [Web SDK](/help/implement/aep-edge/overview.md)에 대해 지원되지 않습니다.
+>중국 RDC 추가 기능 패키지는 [Web SDK](/help/implement/aep-edge/overview.md)에 대해 지원되지 않습니다.
 
