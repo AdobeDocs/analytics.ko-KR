@@ -1,108 +1,30 @@
 ---
-description: 세분화에 대해 자주 묻는 질문
-title: 세분화에 대해 자주 묻는 질문
+description: 기존 세그먼트 관리에 대한 FAQ입니다.
+title: 기존 세그먼트에 대한 FAQ
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 94%
 
 ---
 
-# FAQ
+# 기존 세그먼트에 대한 FAQ
 
-세그먼테이션 기능, 액세스, 권한, 우수 사례 및 이전 세그먼트 관리에 대해 자주 묻는 질문에 대한 답변.
+기존 세그먼트(2014년 이전에 생성된 세그먼트)를 관리하는 우수 사례에 대해 자주 묻는 질문에 대한 답변.
 
-## 기능 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
+## 우수 사례 {#best-practices}
 
-* Analysis Workspace의 세그먼테이션:
-
-   * [세그먼트를 비교](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=ko-KR)할 수 있습니다.
-   * 비교에서 [세그먼트를 차원으로](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR) 사용합니다.
-   * [폴아웃 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=ko-KR)에서 세그먼트를 사용합니다.
-
-* [여러 세그먼트를 보고서 또는 프로젝트에 적용](/help/components/segmentation/segmentation-workflow/seg-workflow.md)할 수 있습니다.
-* 세그먼트는 모든 보고서 세트에 범용입니다.
-* [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-workflow.md)는 세그먼트 생성을 단순화합니다.
-* [세그먼트 관리자](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 사용하면 세그먼트 공유, 태그 지정, 확인 및 승인 기능을 포함하는 [워크플로](/help/components/segmentation/segmentation-workflow/seg-workflow.md)를 설정할 수 있습니다.
-* [세그먼트를 태그 지정](/help/components/segmentation/segmentation-workflow/seg-workflow.md)하여 나중에 폴더를 사용하지 않고도 구성 및 검색이 가능합니다.
-* [순차적인 세그먼트](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 만들 수 있습니다.
-* 페이지 보기 컨테이너는 단지 페이지 보기가 아닌 모든 유형의 데이터를 포함한다는 사실을 나타내기 위해 히트 컨테이너로 이름이 변경되었습니다. 예를 들어 모바일 SDK에서 발생한 링크 추적 호출 및 trackAction 호출은 히트 컨테이너에 의해 모두 포함 및 제외됩니다. 이 컨테이너가 작동하는 방식은 변경되지 않았으며 이름만 바뀌었습니다.
-
-자세한 내용은 Adobe 블로그의 [Adobe Analytics에서의 세그먼테이션 개선](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) 게시물을 참조하십시오.
-
-## 세그먼테이션 도구 액세스 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
-
-**세그먼트 빌더로 이동하는 방법**
-
-다음 작업을 수행하여 세그먼트 빌더에 액세스할 수 있습니다.
-
-* 기존 보고서를 표시하고 왼쪽 탐색에서 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 표시되는 세그먼트 레일에서 **[!UICONTROL 추가]**&#x200B;를 클릭하거나,
-
-* 세그먼트 관리자 위쪽에 있는 **[!UICONTROL + 추가]**&#x200B;를 클릭합니다.  ![추가 버튼](assets/add_button.png)
-
-   또는
-
-* 세그먼트 관리자에서 기존 세그먼트 제목을 클릭하여 세그먼트 빌더에서 세그먼트를 편집합니다.
-
-**세그먼트 관리자로 이동하는 방법**
-
-세그먼트 빌더 액세스 방법:
-
-* 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]**&#x200B;로 이동합니다. 그런 다음 **[!UICONTROL 세그먼트]**&#x200B;를 클릭하거나,
-
-* 기존 보고서를 표시하고 왼쪽 탐색에서 ![세그먼트 아이콘](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리]**&#x200B;를 클릭하거나,
-
-* 인터페이스의 어디에서든지 슬래시 키 &#39;/&#39;를 누르고 세그먼트 관리자를 검색합니다.
-
-**이전 세그먼트 드롭다운은 어디로 이동했습니까?**
-
-Reports &amp; Analytics의 세그먼트 드롭다운은 기능이 훨씬 더 풍부한 [세그먼트 빌더](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 인터페이스 기능으로 바뀌었습니다. 이 인터페이스를 사용하여 여러 보고서 세트 및 Adobe Analytics 솔루션에서 유용한 &quot;범용&quot; 세그먼트를 만들 수 있습니다. 기존 세그먼트 목록을 보려면 왼쪽 탐색 영역에서 세그먼트 아이콘 ![을 클릭하십시오.세그먼트 아이콘](assets/segment_icon.png)
-
-그러면 세그먼트 레일이 표시됩니다.
-
-**이전 보고서 세트 드롭다운은 어디로 이동했습니까?**
-
-보고서 세트 드롭다운이 각 보고서 또는 대시보드의 오른쪽 상단에 있는 날짜 선택기 옆으로 이동되었습니다.
-
-![보고서 세트 선택기](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
-
-## 권한 {#section_648DFA3A882146C485A84ED014EEC707}
-
-**세그먼트를 사용하고 만들고 관리하는 데 필요한 권한**
-
-기본적으로 모든 사용자는 개인용 세그먼트를 만들고 편집할 수 있습니다. 하지만 관리자는 [세그먼트를 만들 수 있는 권한](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ko-KR)을 가져야 하는 사용자를 결정하고, 이러한 사용자를 특정 그룹에 지정할 수 있습니다. 이러한 세그먼트는 다른 Analytics 사용자와 직접 공유할 수 있습니다.
-
-관리자는 세그먼트를 편집하고, 그룹 및 조직의 모든 사람과 세그먼트를 공유할 수 있습니다. [자세히...](/help/components/segmentation/seg-reference/seg-rights.md)
-
-**회사의 세그먼트를 볼 수 있습니까?**
-
-예. 관리자는 [!DNL Analysis Workspace] 및 [!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
-
-Ad Hoc Analysis 및 Report Builder는 사용자가 소유한 세그먼트와 사용자와 공유된 세그먼트를 표시합니다.
-
-**세그먼트 관리자에서 모든 Analytics 세그먼트를 관리할 수 있습니까?**
-
-예. 모든 세그먼트는 세그먼트 관리자에서 관리할 수 있습니다. 세그먼트 관리자는 소유자 (세그먼트를 만든 사용자), 공유 사용자 및 관리 사용자가 볼 수 있는 세그먼트를 표시합니다. 세그먼트 선택기는 사용자가 소유하고 사용자와 공유된 세그먼트를 표시합니다.
-
-관리자는 Analysis Workspace 및[!DNL Reports & Analytics] 사용자 인터페이스 내에서 모든 세그먼트를 볼 수 있습니다.
-
-Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 공유한 세그먼트만 표시합니다.
-
-**이 세그먼트를 삭제할 수 없는 이유**
-
-세그먼트가 [Experience Cloud로 게시된 경우](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 삭제하거나 편집할 수 없습니다. 그렇지만 복사한 후 복사한 버전을 편집할 수 있습니다.
-
-## 우수 사례 {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
-
-**이름은 같지만 정의는 다른 중복 세그먼트가 있는 경우 어떻게 해야 합니까?**
++++ **이름은 같지만 정의는 다른 중복 세그먼트가 있는 경우 어떻게 해야 합니까?**
 세그먼트가 여러 보고서 세트에서 작동되므로 이름이 같은 여러 세그먼트를 찾을 수 있습니다. 다음이 권장됩니다.
 
 * 이름이 같지만 정의가 다른 세그먼트의 이름을 변경합니다. 또는
 * 더 이상 필요하지 않은 세그먼트를 삭제합니다.
 
-**권장되는 세그먼트 정리 방법은 무엇입니까?**
++++
+
++++ **권장되는 세그먼트 정리 방법은 무엇입니까?**
 
 * 모든 세그먼트에 레거시 태그를 태깅합니다.
 * 보유한 세그먼트를 검토합니다.
@@ -110,9 +32,11 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 * 표준 세그먼트를 승인합니다.
 * 세그먼트를 [모범 사례에 따라 태깅합니다](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-## 이전 세그먼트 관리 {#section_76CF47142D1A4FB6A0718AD9073049FE}
++++
 
-**기존 세그먼트에 발생한 결과**
+## 이전 세그먼트 관리 {#legacy}
+
++++ **기존 세그먼트에 발생한 결과**
 
 기존 세그먼트는 계속해서 이전과 동일하게 작동합니다. 이러한 세그먼트가 적용된 모든 보고서는 계속 제대로 작동합니다. [더 보기...](/help/components/segmentation/seg-transition.md)
 
@@ -122,7 +46,9 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 ![](assets/seg_templates.png)
 
-**세그먼트가 적용된 예약된 보고서에 발생한 결과**
++++
+
++++ **세그먼트가 적용된 예약된 보고서에 발생한 결과**
 
 예약된 보고서는 정의한 세그먼트에서 계속 잘 실행됩니다.
 
@@ -134,13 +60,17 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 기본 제품 보고서 세트의 세그먼트를 참조하는 책갈피가 있습니다. 그런 후 해당 세그먼트가 중복되어 있으므로 삭제합니다. 책갈피는 계속 실행되며 삭제된 세그먼트의 정의를 참조합니다. 기본 개발 세그먼트에 대한 세그먼트 정의를 Catalina Island 및 Tijuana Mexico를 포함하도록 변경해도 해당 책갈피에 적용된 세그먼트는 변경되지 않습니다. 또한 이전 정의를 사용합니다. 이 문제를 해결하려면 새 정의를 참조하도록 책갈피를 업데이트합니다. 책갈피, 대시보드 또는 예약된 보고서가 삭제된 세그먼트를 사용하는지 확실하지 않은 경우 책갈피에 나머지 세그먼트가 사용되고 있는지를 좀 더 명확히 알 수 있도록 나머지 세그먼트의 이름을 변경할 수 있습니다.
 
-**Data Warehouse 세그먼트에 나타나는 결과**
++++
+
++++ **Data Warehouse 세그먼트에 발생한 결과**
 
 모든 기존 Data Warehouse 세그먼트는 여전히 Data Warehouse에서 작동합니다. 대부분의 Data Warehouse 세그먼트는 Analysis Workspace 및 Reports &amp; Analytics와 같은 다른 구성 요소에서도 작동합니다.
 
 세그먼트 빌더/관리자에서 새 Data Warehouse 세그먼트를 만들거나 편집할 수 있습니다. 세그먼트 빌더의 제품 호환성 메커니즘은 세그먼트가 Data Warehouse와 호환되는지의 여부를 자동으로 확인합니다.
 
-**사전 구성된 세그먼트에 나타나는 결과**
++++
+
+**사전 구성된 세그먼트에 발생한 결과**
 
 * **단일 페이지 방문 횟수**
 * **모바일 기기로부터 찾아온 방문**
@@ -150,7 +80,9 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 이러한 세그먼트는 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
 
-**Experience Cloud (Suite) 세그먼트에 나타나는 결과:**
++++
+
++++ **Experience Cloud(세트) 세그먼트에 발생한 결과:**
 
 * 비구매자
 * 구매자
@@ -160,11 +92,13 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 * 이전 방문 횟수가 5회 이상인 방문*
 * Facebook에서 찾아온 방문*
 
-이러한 세그먼트 (별표 *로 표시된 세그먼트 제외)는 대부분 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션됩니다. 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다.
+이러한 세그먼트(별표 *로 표시된 세그먼트 제외)는 대부분 세그먼트 템플릿으로 사용되어 세그먼트 빌더로 마이그레이션되었습니다. 또한 몇 개의 새 세그먼트 템플릿이 추가되었습니다.
 
-이러한 세그먼트가 적용된 기존의 보고서는 계속 제대로 작동합니다.
+이러한 세그먼트가 적용된 기존 보고서는 계속 제대로 작동합니다.
 
-**관리자 세그먼트 (&quot;전역&quot; 세그먼트라고도 함)에 나타나는 결과**
++++
+
++++ **관리자 세그먼트 (&quot;전역&quot; 세그먼트라고도 함)에 나타나는 결과**
 
 **관리자** 세그먼트는 새 세그먼트 인터페이스로 마이그레이션되고 모든 사람과 공유되는 세그먼트로 표시됩니다.
 
@@ -172,15 +106,11 @@ Report Builder는 사용자가 작성한 세그먼트나 특별히 사용자와 
 
 관리자가 이러한 전역 세그먼트를 만들고 관리하는 Admin Console의 세그먼트 관리 인터페이스는 더 이상 사용 가능하지 않습니다. 관리자는 이제 새 세그먼트 빌더를 사용하여 세그먼트를 만들고 해당 그룹이나 개인 또는 모든 사람과 공유하는 것이 좋습니다.
 
-<!-- 
-
-seg_definition.xml
-
- -->
-
 이 문서에 설명된 대로 변경된 논리를 사용하는 기존 세그먼트는 다시 저장하려면 먼저 업데이트해야 하지만 계속 제대로 작동합니다. 예를 들어 US States에 &#39;New York&#39;이 포함된 기존 세그먼트가 있는 경우 다음 번에 세그먼트를 편집할 때 동일 조건으로 열거형 유형을 사용하려면 업데이트가 필요하지만 계속 제대로 작동합니다.
 
-**마이그레이션 팁**
++++
+
+### 마이그레이션 팁
 
 다음 팁은 일반 차원을 마이그레이션하는 데 도움이 됩니다.
 
@@ -192,128 +122,37 @@ seg_definition.xml
 * [포함 변경 사항](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
 * [보다 작음 및 보다 큼 변경 사항](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
-## 새 차원 및 이름이 변경된 차원 {#section_73CF121B64A24DEF8E6499F3167BF742}
+## 새 차원 및 이름이 변경된 차원 {#renamed}
 
 다음 표에는 세그먼트 빌더에서 이름이 변경된 차원 목록이 포함되어 있습니다.
 
-<table id="table_1A8C1940FD0446FA8414C6A7DE66E44C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 새로운 차원 이름 </th> 
-   <th colname="col2" class="entry"> 이전 이름 </th> 
-   <th colname="col3" class="entry"> 참고 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 운영 체제 유형 </td> 
-   <td colname="col2"> 신규 </td> 
-   <td colname="col3"> 2015년 봄에 추가되었습니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 브라우저 너비 - 전체기간 </td> 
-   <td colname="col2"> 브라우저 너비 </td> 
-   <td colname="col3"> 이 차원은 모든 인터페이스와 호환되며 특정 정수 값 대신 열거된 범위 목록으로 분할됩니다. 특정 값을 세그먼트화해야 하는 경우 Data Warehouse 세그먼트에서 이 차원의 세분화 버전을 사용합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 브라우저 높이 - 전체기간 </td> 
-   <td colname="col2"> 브라우저 높이 </td> 
-   <td colname="col3"> 이 차원은 모든 인터페이스와 호환되며 특정 정수 값 대신 열거된 범위 목록으로 분할됩니다. 특정 값을 세그먼트화해야 하는 경우 Data Warehouse 세그먼트에서 이 차원의 세분화 버전을 사용합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 브라우저 너비 - Granular </td> 
-   <td colname="col2"> 브라우저 너비 </td> 
-   <td colname="col3"> <p>이 차원은 이름이 변경되었으며 현재 Data Warehouse와만 호환됩니다. 모든 인터페이스와 호환되는 세그먼트를 정의할 때는 열거형 유형 브라우저 너비 - Bucketed를 사용하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 브라우저 높이 - Granular </td> 
-   <td colname="col2"> 브라우저 높이 </td> 
-   <td colname="col3"> <p>이 차원은 이름이 변경되었으며 현재 Data Warehouse와만 호환됩니다. 모든 인터페이스와 호환되는 세그먼트를 정의할 때는 열거형 유형 브라우저 높이 - Bucketed를 사용하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 쿠키 지원 </td> 
-   <td colname="col2"> 쿠키 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 색상 깊이 </td> 
-   <td colname="col2"> 모니터 색상 깊이 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> - </td> 
-   <td colname="col2"> "앱 - *" </td> 
-   <td colname="col3"> "App -" 접두사는 많은 차원 유형에서 제거되었습니다. 모바일 앱 데이터는 일반적으로 웹 데이터를 포함하지 않는 보고서 세트에서 캡처되므로 이러한 접두사가 필요하지 않았습니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 원래 시작 페이지 </td> 
-   <td colname="col2"> 원래 시작 페이지 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Java 활성화 </td> 
-   <td colname="col2"> Java </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 최대 브라우저 URL 길이 </td> 
-   <td colname="col2"> 모바일 브라우저 URL 길이 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 메일 데코레이션 </td> 
-   <td colname="col2"> 모바일 데코레이션 메일 지원 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 디바이스 </td> 
-   <td colname="col2"> 모바일 디바이스 이름 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 최대 책갈피 길이 </td> 
-   <td colname="col2"> 모바일 최대 북마크 URL 길이 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 최대 이메일 길이 </td> 
-   <td colname="col2"> 모바일 최대 메일 URL 길이 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 운영 체제 (더 이상 사용되지 않음) </td> 
-   <td colname="col2"> 모바일 OS </td> 
-   <td colname="col3"> 대신 운영 체제 차원을 사용하고 모바일 디바이스 세그먼트의 방문을 적용합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 모바일 Push To Talk </td> 
-   <td colname="col2"> 모바일 PTT </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 설문 조사 보기 수 </td> 
-   <td colname="col2"> 총 설문 조사 보기 수 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 설문 조사 응답 수 </td> 
-   <td colname="col2"> 총 설문 조사 응답 수 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 방문 깊이 </td> 
-   <td colname="col2"> 경로 길이 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 우편번호 </td> 
-   <td colname="col2"> ZIP/우편번호 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
- </tbody> 
-</table>
+| 새로운 차원 이름 | 이전 이름 | 참고 |
+|--- |--- |--- |
+| 운영 체제 유형 | 신규 | 2015년 봄에 추가되었습니다. |
+| 브라우저 너비 - 전체기간 | 브라우저 너비 | 이 차원은 모든 인터페이스와 호환되며 특정 정수 값 대신 열거된 범위 목록으로 분할됩니다. 특정 값을 세그먼트화해야 하는 경우 Data Warehouse 세그먼트에서 이 차원의 세분화 버전을 사용합니다. |
+| 브라우저 높이 - 전체기간 | 브라우저 높이 | 이 차원은 모든 인터페이스와 호환되며 특정 정수 값 대신 열거된 범위 목록으로 분할됩니다. 특정 값을 세그먼트화해야 하는 경우 Data Warehouse 세그먼트에서 이 차원의 세분화 버전을 사용합니다. |
+| 브라우저 너비 - Granular | 브라우저 너비 | 이 차원은 이름이 변경되었으며 현재 Data Warehouse와만 호환됩니다. 모든 인터페이스와 호환되는 세그먼트를 정의할 때는 열거형 유형 브라우저 너비 - Bucketed를 사용하십시오. |
+| 브라우저 높이 - Granular | 브라우저 높이 | 이 차원은 이름이 변경되었으며 현재 Data Warehouse와만 호환됩니다. 모든 인터페이스와 호환되는 세그먼트를 정의할 때는 열거형 유형 브라우저 높이 - Bucketed를 사용하십시오. |
+| 쿠키 지원 | 쿠키 | - |
+| 색상 깊이 | 모니터 색상 깊이 | - |
+| - | &quot;앱 - *&quot; | &quot;App -&quot; 접두사는 많은 차원 유형에서 제거되었습니다. 모바일 앱 데이터는 일반적으로 웹 데이터를 포함하지 않는 보고서 세트에서 캡처되므로 이러한 접두사가 필요하지 않았습니다. |
+| 원래 시작 페이지 | 원래 시작 페이지 | - |
+| Java 활성화 | Java | - |
+| 모바일 최대 브라우저 URL 길이 | 모바일 브라우저 URL 길이 | - |
+| 모바일 메일 데코레이션 | 모바일 데코레이션 메일 지원 | - |
+| 모바일 디바이스 | 모바일 디바이스 이름 | - |
+| 모바일 최대 책갈피 길이 | 모바일 최대 북마크 URL 길이 | - |
+| 모바일 최대 이메일 길이 | 모바일 최대 메일 URL 길이 | - |
+| 모바일 운영 체제 (더 이상 사용되지 않음) | 모바일 OS | 대신 운영 체제 차원을 사용하고 모바일 디바이스 세그먼트의 방문을 적용합니다. |
+| 모바일 Push To Talk | 모바일 PTT | - |
+| 설문 조사 보기 수 | 총 설문 조사 보기 수 | - |
+| 설문 조사 응답 수 | 총 설문 조사 응답 수 | - |
+| 방문 깊이 | 경로 길이 | - |
+| 우편번호 | ZIP/우편번호 | - |
 
-## 알려진 값이 있는 문자열 기반 차원에 대한 변경 사항 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+{style=&quot;table-layout:auto&quot;}
+
+## 알려진 값이 있는 문자열 기반 차원에 대한 변경 사항 {#string-based-dims}
 
 알려진 값 세트가 있는 문자열 기반 차원이 열거형 유형으로 변경되었습니다. 이러한 차원을 사용하여 세그먼트를 만들 경우 목록은 알려진 모든 값으로 미리 채워지며 같음 연산자만 지원됩니다. 따라서 덜 제한적인 일치를 사용할 때도 의도치 않은 값을 선택하지 않고 원하는 정확한 값을 빠르게 세그먼트화할 수 있습니다.
 
@@ -335,7 +174,7 @@ seg_definition.xml
 | 모바일 책갈피 길이 | Java 활성화 | 유료 검색 |
 | 모바일 URL 길이 | 언어 |  |
 
-## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#integer-based-dims}
 
 알려진 값 세트를 갖는 정수 기반 차원 (예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여 줍니다.
 

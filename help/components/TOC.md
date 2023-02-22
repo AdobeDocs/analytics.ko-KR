@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '687'
+ht-degree: 96%
 
 ---
 
@@ -152,7 +152,8 @@ ht-degree: 97%
    + [방문 횟수](metrics/visits.md)
 + 세분화 {#segmentation}
    + [Analytics 세분화](segmentation/seg-home.md)
-   + [세그먼트 및 컨테이너 정보](segmentation/seg-overview.md)
+   + [세그먼트 정보](segmentation/seg-overview.md)
+   + [세그먼트 컨테이너 정보](segmentation/seg-containers.md)
    + [Analysis Workspace의 세분화 기능](segmentation/segmentation-in-analysis-workspace.md)
    + 세분화 작업 과정 {#segmentation-workflow}
       + [세분화 작업 과정 개요](segmentation/segmentation-workflow/seg-workflow.md)
@@ -173,7 +174,7 @@ ht-degree: 97%
       + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
-   + [FAQ](segmentation/seg-transition.md)
+   + [기존 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산된(파생된) 지표](c-calcmetrics/cm-overview.md)
