@@ -4,9 +4,9 @@ description: '''추적 코드'' 차원을 채웁니다.'
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 75%
 
 `campaign` 변수는 사이트에서 추적 코드를 수집하는 데 사용됩니다. 이전 버전의 Adobe Analytics에는 대부분의 차원에 대한 분류로 사용할 수 있는 특별 처리 방법이 있었습니다. 현재 버전의 Adobe Analytics에서는 이 변수가 eVar와 동일하게 작동합니다.
 
-이 변수는 [추적 코드](/help/components/dimensions/tracking-code.md) 차원. 이 변수는 일반적으로 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 유틸리티 메서드. 그러나 조직은 이 변수를 설정하는 방법을 정확히 결정합니다.
+이 변수는 [추적 코드](/help/components/dimensions/tracking-code.md) 차원을 채웁니다. 일반적으로 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 유틸리티 메서드를 사용하여 쿼리 문자열에서 값을 가져옵니다. 그러나 이 변수의 설정 방법을 정확히 결정하는 것은 조직입니다.
 
-## 웹 SDK를 사용한 캠페인
+## Web SDK를 사용한 캠페인
 
-캠페인: [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `marketing.trackingCode`.
+캠페인은 XDM 필드 `marketing.trackingCode` 아래에서 [Adobe Analytics에 대해 매핑됩니다](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html).
 
 ## Adobe Analytics 확장을 사용한 캠페인
 
