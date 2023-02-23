@@ -5,9 +5,9 @@ user-guide-title: Analytics 구현 안내서
 breadcrumb-title: 구현 안내서
 user-guide-description: Adobe Analytics 구현 방법을 배우십시오. 수집할 데이터를 사용자 정의하여 Analytics 데이터에서 더 많은 것을 얻을 수 있습니다.
 source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 99%
 + 구현 사용 사례 {#use-cases}
    + [iFrame에서 AppMeasurement 사용](use-cases/iframe.md)
    + [다양한 구현 유형 추적](use-cases/cross-type-implementation.md)
-   + [캠페인 추적 워크플로우](use-cases/campaign-tracking.md)
+   + [캠페인 추적 워크플로](use-cases/campaign-tracking.md)
 + 구현 유효성 검사 {#validate}
    + [기존 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [데이터 수집 쿼리 매개변수](validate/query-parameters.md)
