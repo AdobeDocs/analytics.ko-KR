@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: ht
-source-wordcount: '3641'
-ht-degree: 100%
+source-git-commit: 2af8c2ee2ad8f445390a0b732630af1e1304d9a5
+workflow-type: tm+mt
+source-wordcount: '3629'
+ht-degree: 94%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 100%
 | **`ch_hdr`** | HTTP 요청 헤더를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`ch_js`** | 사용자 에이전트 클라이언트 힌트 JavaScript API를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`channel`** | [사이트 섹션](/help/components/dimensions/site-section.md) 차원에 사용되는 변수입니다. | varchar (100) |
-| **`click_action`** | 더 이상 사용되지 않습니다. 이전 Clickmap 도구에서 클릭한 링크된 주소입니다. | varchar (100) |
-| **`click_action_type`** | 더 이상 사용되지 않습니다. 이전 Clickmap 도구의 링크 유형입니다.<br>0: HREF URL<br>1: 사용자 정의 ID<br>2: JavaScript onClick 이벤트<br>3: 양식 요소 | tinyint 부호 없음 |
-| **`click_context`** | 더 이상 사용되지 않습니다. 링크 클릭이 발생한 페이지 이름입니다. 이전 Clickmap 도구의 일부입니다. | varchar (255) |
+| **`click_action`** | 더 이상 사용되지 않습니다. 기존 ClickMap 도구에서 클릭한 연결된 주소의 주소입니다. | varchar (100) |
+| **`click_action_type`** | 더 이상 사용되지 않습니다. 기존 ClickMap 도구의 링크 유형입니다.<br>0: HREF URL<br>1: 사용자 정의 ID<br>2: JavaScript onClick 이벤트<br>3: 양식 요소 | tinyint 부호 없음 |
+| **`click_context`** | 더 이상 사용되지 않습니다. 링크 클릭이 발생한 페이지 이름입니다. 기존 ClickMap 도구의 일부입니다. | varchar (255) |
 | **`click_context_type`** | 더 이상 사용되지 않습니다. `click_context`에 설정된 페이지 이름이 있는지 또는 기본값이 페이지 URL로 설정되어 있는지 여부를 나타냅니다.<br>0: 페이지 URL<br>1: 페이지 이름 | tinyint 부호 없음 |
-| **`click_sourceid`** | 더 이상 사용되지 않습니다. 클릭한 링크의 페이지에 있는 위치의 숫자 ID입니다. 이전 Clickmap 도구의 일부입니다. | int 부호 없음 |
+| **`click_sourceid`** | 더 이상 사용되지 않습니다. 클릭한 링크의 페이지에 있는 위치의 숫자 ID입니다. 기존 ClickMap 도구의 일부입니다. | int 부호 없음 |
 | **`click_tag`** | 더 이상 사용되지 않습니다. 클릭한 HTML 요소의 유형입니다. | char (10) |
 | **`clickmaplink`** | Activity Map 링크 | varchar (255) |
 | **`clickmaplinkbyregion`** | 지역별 Activity Map 링크 | varchar (255) |
@@ -61,7 +61,7 @@ ht-degree: 100%
 | **`curr_factor`** | 통화 소수점 이하 자리 수를 결정하며 통화 전환에 사용됩니다. 예를 들어 USD는 소수점 이하 두 자리를 사용하므로 이 열 값은 2입니다. | tinyint |
 | **`curr_rate`** | 거래가 발생했을 때 환율입니다. Adobe에서는 현재 날짜의 환율을 결정하기 위해 XE와 파트너 관계를 맺습니다. | decimal (24,12) |
 | **`currency`** | 거래 중에 사용된 통화 코드입니다. | char (8) |
-| **`cust_hit_time_gmt`** | 타임스탬프가 활성화된 보고서 세트 전용입니다. Unix 시간을 기반으로 한, 히트와 함께 전송된 타임스탬프입니다. | int |
+| **`cust_hit_time_gmt`** | 타임스탬프가 활성화된 보고서 세트 전용입니다. UNIX® 시간을 기준으로 히트와 함께 전송된 타임스탬프. | int |
 | **`cust_visid`** | 사용자 정의 방문자 ID가 설정되면 이 열에 채워집니다. | varchar (255) |
 | **`daily_visitor`** | 히트가 새 일일 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`dataprivacyconsentoptin`** | [동의 관리 옵트인](/help/components/dimensions/cm-opt-in.md) 차원에서 사용되는 변수입니다. 히트 당 여러 값이 있을 수 있으며 파이프(`\|`)로 구분됩니다. 유효한 값은 `DMP`, `SELL`입니다. | varchar (100) |
@@ -80,17 +80,17 @@ ht-degree: 100%
 | **`first_hit_ref_domain`** | [원래 참조 도메인](/help/components/dimensions/original-referring-domain.md) 차원에 사용되는 변수입니다. `first_hit_referrer`를 기반으로 합니다. 방문자의 첫 번째 참조 도메인입니다. | varchar (100) |
 | **`first_hit_ref_type`** | 방문자의 최초 레퍼러 유형을 나타내는 숫자 ID입니다. `referrer_type.tsv` 조회를 사용합니다. | tinyint 부호 없음 |
 | **`first_hit_referrer`** | 방문자의 첫 번째 참조 URL입니다. | varchar (255) |
-| **`first_hit_time_gmt`** | Unix 시간에서 방문자의 첫 번째 히트 타임스탬프입니다. | int |
+| **`first_hit_time_gmt`** | UNIX® 시간에 방문자의 첫 번째 히트 타임스탬프입니다. | int |
 | **`geo_city`** | IP를 기반으로 한, 히트가 발생한 시/군/구의 이름입니다. [도시](/help/components/dimensions/cities.md) 차원에 사용됩니다. | char (32) |
 | **`geo_country`** | IP를 기반으로 한, 히트가 발생한 국가의 약어입니다. [국가](/help/components/dimensions/countries.md) 차원에 사용됩니다. | char (4) |
 | **`geo_dma`** | IP를 기반으로 한, 히트가 발생한 인구 통계학적 영역의 숫자 ID입니다. [US DMA](/help/components/dimensions/us-dma.md) 차원에 사용됩니다. | int 부호 없음 |
 | **`geo_region`** | IP를 기반으로 한, 히트가 발생한 시/도 또는 지역의 이름입니다. [지역](/help/components/dimensions/regions.md) 차원에 사용됩니다. | char (32) |
-| **`geo_zip`** | IP를 기반으로 한, 히트가 발생한 지역의 우편 번호입니다. [우편 번호](/help/components/dimensions/zip-code.md) 차원을 채우는 데 도움이 됩니다. 참조: `zip`. | varchar (16) |
+| **`geo_zip`** | IP를 기반으로 하며 히트가 발생한 우편 번호입니다. [우편 번호](/help/components/dimensions/zip-code.md) 차원을 채우는 데 도움이 됩니다. 참조: `zip`. | varchar (16) |
 | **`hier1 - hier5`** | 계층 변수에서 사용됩니다. 구분된 값 목록을 포함합니다. 구분 기호는 보고서 세트 설정에서 선택합니다. | varchar (255) |
 | **`hit_source`** | 히트가 발생한 소스를 나타냅니다. 히트 소스 1, 2 및 6이 청구됩니다. <br>1: 타임스탬프가 없는 표준 이미지 요청 <br>2: 타임스탬프가 있는 표준 이미지 요청 <br>3: 타임스탬프가 있는 라이브 데이터 소스 업로드 <br>4: 사용되지 않음 <br>5: 일반 데이터 소스 업로드 <br>6: 데이터 소스 업로드 전체 처리 <br>7: TransactionID 데이터 소스 업로드 <br>8: 더 이상 사용되지 않음, Adobe Advertising Cloud 데이터 소스의 이전 버전 <br>9: 더 이상 사용되지 않음, Adobe Social 요약 지표 <br>10: Audience Manager 서버측 전달이 사용됨 | tinyint 부호 없음 |
-| **`hit_time_gmt`** | 히트 Adobe 데이터 수집 서버의 타임스탬프가 Unix 시간을 기준으로 히트를 받았습니다. | int |
-| **`hitid_high`** | 히트를 식별하기 위해 `hitid_low`와 함께 사용됩니다. | bigint 부호 없음 |
-| **`hitid_low`** | 히트를 식별하기 위해 `hitid_high`와 함께 사용됩니다. | bigint 부호 없음 |
+| **`hit_time_gmt`** | 히트 Adobe 데이터 수집 서버의 타임스탬프가 UNIX® 시간을 기준으로 히트를 받았습니다. | int |
+| **`hitid_high`** | 에 사용됨 `hitid_low` 히트를 식별하기 위해 | bigint 부호 없음 |
+| **`hitid_low`** | 에 사용됨 `hitid_high` 히트를 식별하기 위해 | bigint 부호 없음 |
 | **`homepage`** | 더 이상 사용되지 않습니다. 현재 URL이 브라우저의 홈 페이지인지 여부를 나타냅니다. | char (1) |
 | **`hourly_visitor`** | 히트가 새 시간별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`ip`** | 이미지 요청의 HTTP 헤더를 기반으로 한 IPv4 주소입니다. `ipv6`과 상호 배타적입니다. 이 열에 난독화되지 않은 IP 주소가 포함된 경우 `ipv6`은 비어 있습니다. | char (20) |
@@ -100,9 +100,9 @@ ht-degree: 100%
 | **`java_enabled`** | Java가 사용되는지를 나타내는 플래그입니다. <br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 없음 | char (1) |
 | **`javascript`** | `j_jscript`를 기반으로 하는 JavaScript 버전의 조회 ID입니다. 조회 테이블을 사용합니다. | tinyint 부호 없음 |
 | **`language`** | 언어의 숫자 ID입니다. `languages.tsv` 조회 테이블을 사용합니다. | smallint 부호 없음 |
-| **`last_hit_time_gmt`** | 이전 히트의 타임스탬프(Unix 시간)입니다. [마지막 방문 이후의 일수](/help/components/dimensions/days-since-last-visit.md) 차원을 계산하는 데 사용됩니다. | int |
+| **`last_hit_time_gmt`** | 이전 히트의 타임스탬프(UNIX® 시간)입니다. [마지막 방문 이후의 일수](/help/components/dimensions/days-since-last-visit.md) 차원을 계산하는 데 사용됩니다. | int |
 | **`last_purchase_num`** | [고객 충성도](/help/components/dimensions/customer-loyalty.md) 차원에 사용되는 변수입니다. 방문자가 수행한 이전 구매 횟수입니다. <br>0: 이전 구매 없음 (고객이 아님) <br>1: 1회 이전 구매 (신규 고객) <br>2: 2회 이전 구매 (재방문 고객) <br>3: 3회 이상 이전 구매 (단골 고객) | int 부호 없음 |
-| **`last_purchase_time_gmt`** | [마지막 구매 이후 일수](/help/components/dimensions/days-since-last-purchase.md) 차원을 계산하는 데 사용됩니다. 마지막으로 수행한 구매의 타임스탬프(Unix 시간)입니다. 이전에 구입한 적이 없는 최초 구매 및 방문자의 경우 이 값은 `0`입니다. | int |
+| **`last_purchase_time_gmt`** | [마지막 구매 이후 일수](/help/components/dimensions/days-since-last-purchase.md) 차원을 계산하는 데 사용됩니다. 마지막으로 구매한 타임스탬프(UNIX® 시간)입니다. 이전에 구입한 적이 없는 최초 구매 및 방문자의 경우 이 값은 `0`입니다. | int |
 | **`latlon1`** | 위치 (10km까지) | varchar (255) |
 | **`latlon23`** | 위치 (100m까지) | varchar (255) |
 | **`latlon45`** | 위치 (1m까지) | varchar (255) |
@@ -129,8 +129,8 @@ ht-degree: 100%
 | **`mobiledayssincelastuse`** | 앱을 마지막으로 실행한 이후 경과일 수입니다. | varchar (255) |
 | **`mobiledeeplinkid`** | 컨텍스트 데이터 변수 `a.deeplink.id`에서 수집됩니다. 모바일 획득 링크의 식별자로 획득 보고서에 사용됩니다. | varchar (255) |
 | **`mobiledevice`** | 모바일 디바이스 이름입니다. iOS에서는 쉼표로 구분된 2자리 문자열로 저장됩니다. 첫 번째 숫자는 디바이스 생성을 나타내고 두 번째 숫자는 디바이스 제품군을 나타냅니다. | varchar (255) |
-| **`mobilehourofday`** | 앱을 시작한 날의 시간을 정의합니다. 24시간 숫자 형식을 따릅니다. | varchar (255) |
-| **`mobileinstalldate`** | 모바일 설치 날짜입니다. 사용자가 모바일 앱을 처음으로 여는 날짜를 제공합니다. | varchar (255) |
+| **`mobilehourofday`** | 앱을 시작한 시간을 정의합니다. 24시간 숫자 형식을 따릅니다. | varchar (255) |
+| **`mobileinstalldate`** | 모바일 설치 날짜입니다. 사용자가 모바일 앱을 처음 여는 날짜를 제공합니다. | varchar (255) |
 | **`mobilelaunchessincelastupgrade`** | 중단 - 컨텍스트 데이터 변수 a.LaunchesSinceUpgrade에서 수집됩니다. 마지막 업그레이드 이후 시작 횟수를 보고합니다. | varchar (255) |
 | **`mobilelaunchnumber`** | 모바일 앱을 시작할 때마다 1씩 증가합니다. | varchar (255) |
 | **`mobileltv`** | 더 이상 사용되지 않습니다. trackLifetimeValue 메서드로 채워집니다. | varchar (255) |
@@ -145,7 +145,7 @@ ht-degree: 100%
 | **`mobileplacecategory`** | 컨텍스트 데이터 변수 `a.loc.category`에서 수집됩니다. 특정 위치의 범주를 설명합니다. | varchar (255) |
 | **`mobileplaceid`** | 컨텍스트 데이터 변수 `a.loc.id`에서 수집됩니다. 지정된 관심 영역에 대한 식별자입니다. | varchar (255) |
 | **`mobilepushoptin`** | 모바일 서비스 푸시 옵트인 | varchar (255) |
-| **`mobilepushpayloadid`** | 모바일 서비스 푸시 페이로드 ID | varchar (255) |
+| **`mobilepushpayloadid`** | Mobile Services 푸시 페이로드 ID | varchar (255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services 실행 콘텐츠 | varchar (255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services 실행 미디어 | varchar (255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services 실행 소스 | varchar (255) |
@@ -153,8 +153,8 @@ ht-degree: 100%
 | **`mobilerelaunchcampaigntrackingcode`** | 컨텍스트 데이터 변수 `a.launch.campaign.trackingcode`에서 수집됩니다. 실행 캠페인에 대한 추적 코드로 획득에 사용됩니다. | varchar (255) |
 | **`mobileresolution`** | 모바일 디바이스의 해상도입니다. `[Width] x [Height]` 픽셀 단위. | varchar (255) |
 | **`monthly_visitor`** | 방문자가 현재 월에 고유한지를 나타내는 플래그입니다. | tinyint 부호 없음 |
-| **`mvvar1`** - `mvvar3` | 현재 히트 또는 이전 히트에서 지속된 변수 값을 나열합니다. 구현에 따라 구분된 사용자 정의 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
-| **`mvvar1_instances`** - `mvvar3_instances` | 현재 히트에 설정된 목록 변수 값입니다. `post_mvvar1_instances` - `post_mvvar3_instances`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
+| **`mvvar1`** - `mvvar3` | 목록 변수 값입니다. 구현에 따라 구분된 사용자 지정 값 목록을 포함합니다. `post_mvvar1` - `post_mvvar3`열은 원래 구분 기호를 `--**--`으로 바꿉니다. | 텍스트 |
+| **`mvvar1_instances`** - `mvvar3_instances` | 현재 히트에 설정된 목록 변수 값입니다. 원래 구분 기호를 `--**--`. 다음 항목이 없음 `post` 열. | 텍스트 |
 | **`namespace`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (50) |
 | **`new_visit`** | 현재 히트가 새 방문인지를 판별하는 플래그입니다. 30분 동안 방문 활동이 없으면 Adobe 서버에 의해 설정됩니다. | tinyint 부호 없음 |
 | **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. `os` 조회를 사용합니다. | int 부호 없음 |
@@ -187,7 +187,7 @@ ht-degree: 100%
 | **`s_kwcid`** | Adobe Advertising 통합에 사용되는 키워드 ID입니다. | varchar (255) |
 | **`s_resolution`** | Raw 화면 해상도 값입니다. JavaScript 함수 `screen.width x screen.height`를 사용하여 수집됩니다. | char (20) |
 | **`search_engine`** | 방문자에게 사이트를 참조하도록 하는 검색 엔진을 나타내는 숫자 ID입니다. `search_engines.tsv` 조회를 사용합니다. | smallint 부호 없음 |
-| **`search_page_num`** | [모든 검색 페이지 등급](/help/components/dimensions/all-search-page-rank.md) 차원에 사용됩니다. 사용자가 사이트에 클릭 스루하기 전에 사이트가 표시된 검색 결과 페이지를 나타냅니다. | smallint 부호 없음 |
+| **`search_page_num`** | [모든 검색 페이지 등급](/help/components/dimensions/all-search-page-rank.md) 차원에 사용됩니다. 사용자가 사이트를 클릭스루하기 전에 사이트가 나타난 검색 결과 페이지를 나타냅니다. | smallint 부호 없음 |
 | **`secondary_hit`** | 보조 히트를 추적하는 플래그입니다. 일반적으로 히트 수를 복사하는 다중 세트 태그 지정 및 VISTA 규칙에서 시작됩니다. | tinyint 부호 없음 |
 | **`service`** | 사용되지 않습니다. 대신 `page_event`를 사용하십시오. | char (2) |
 | **`socialaccountandappids`** | 더 이상 사용되지 않습니다. 소셜 계정 및 앱 ID | varchar (255) |
@@ -275,10 +275,10 @@ ht-degree: 100%
 | **`videoshow`** | 비디오 표시 | varchar (255) |
 | **`videoshowtype`** | 비디오 표시 유형 | varchar (255) |
 | **`videostreamtype`** | 비디오 스트림 유형 | varchar (255) |
-| **`visid_high`** | 방문자를 고유하게 식별하기 위해 `visid_low`와 함께 사용됩니다. | bigint 부호 없음 |
-| **`visid_low`** | 방문자를 고유하게 식별하기 위해 `visid_high`와 함께 사용됩니다. | bigint 부호 없음 |
+| **`visid_high`** | 에 사용됨 `visid_low` 방문자를 고유하게 식별하기 위해 입니다. | bigint 부호 없음 |
+| **`visid_low`** | 에 사용됨 `visid_high` 방문자를 고유하게 식별하기 위해 입니다. | bigint 부호 없음 |
 | **`visid_new`** | 히트에 새로 생성된 방문자 ID가 있는지 여부를 식별하는 플래그입니다. | char (1) |
-| **`visid_timestamp`** | 방문자 ID가 새로 생성된 경우 방문자 ID가 생성된 시간의 타임스탬프(Unix 시간)를 제공합니다. | int |
+| **`visid_timestamp`** | 방문자 ID가 새로 생성된 경우 방문자 ID가 생성된 시간의 타임스탬프(UNIX® 시간)를 제공합니다. | int |
 | **`visid_type`** | 외부용이 아닙니다. Adobe가 최적화 처리를 위해 내부적으로 사용합니다. 방문자를 식별하는 데 사용된 방법을 나타내는 숫자 ID입니다.<br>`0`: 사용자 정의 방문자 ID 또는 알 수 없음/적용할 수 없음<br>`1`: IP 및 사용자 에이전트 폴백 <br>`2`: HTTP 모바일 구독자 헤더 <br>`3`: 기존 쿠키 값(`s_vi`) <br>`4`: 대체 쿠키 값(`s_fid`) <br>`5`: ID 서비스 | tinyint 부호 없음 |
 | **`visit_keywords`** | [검색 키워드](/help/components/dimensions/search-keyword.md) 차원에 사용되는 변수입니다. 이 열은 Adobe에서 사용하는 백엔드 로직을 수용하기 위해 비표준 문자 제한인 varchar(244)를 사용합니다. | varchar (244) |
 | **`visit_num`** | [방문 번호](/help/components/dimensions/visit-number.md) 차원에 사용되는 변수입니다. 1에서 시작하여 새 방문이 방문자별로 시작될 때마다 증가합니다. | int 부호 없음 |
@@ -289,7 +289,7 @@ ht-degree: 100%
 | **`visit_search_engine`** | 방문의 첫 번째 검색 엔진에 대한 숫자 ID입니다. `search_engines.tsv` 조회를 사용합니다. | smallint 부호 없음 |
 | **`visit_start_page_url`** | 방문의 첫 번째 URL입니다. | varchar (255) |
 | **`visit_start_pagename`** | 방문의 첫 번째 히트 내 페이지 이름 값입니다. | varchar (100) |
-| **`visit_start_time_gmt`** | 방문의 첫 번째 히트 타임스탬프(Unix 시간)입니다. | int |
+| **`visit_start_time_gmt`** | 방문의 첫 번째 히트 타임스탬프(UNIX® 시간)입니다. | int |
 | **`weekly_visitor`** | 히트가 새 주별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`yearly_visitor`** | 히트가 새 연별 방문자인지 판별하는 플래그입니다. | tinyint 부호 없음 |
 | **`zip`** | [우편 번호](/help/components/dimensions/zip-code.md) 차원을 채우는 데 도움이 됩니다. 참조: `geo_zip`. | varchar (50) |
