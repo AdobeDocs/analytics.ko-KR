@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 source-git-commit: 36dcedc730e956ea5a7c3a0e3470719a41a8f8e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 94%
 
    {{dd-component-information}}
 
-1. (선택 사항) 데이터 사전의 구성 요소를 Analysis Workspace으로 드래그합니다.
+1. (선택 사항) 데이터 사전에서 Analysis Workspace로 구성 요소를 드래그합니다.
