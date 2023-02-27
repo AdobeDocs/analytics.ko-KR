@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -153,6 +153,18 @@ ht-degree: 100%
       + [환경 설정 관리자](admin/company/preferences-manager.md)
       + [보류 중인 작업](admin/company/pending-actions-admin.md)
       + [기능 액세스 수준](admin/company/feature-access-levels.md)
+   + 데이터 거버넌스 프라이버시 라벨링 {#data-governance}
+      + [Adobe Analytics 데이터 개인정보 보호 워크플로](admin/c-data-governance/an-gdpr-workflow.md)
+      + [자주 묻는 질문](admin/c-data-governance/gdpr-faq.md)
+      + 데이터 레이블 지정 {#data-labels}
+         + [Analytics 구성 요소의 데이터 개인정보 보호 레이블](admin/c-data-governance/data-labeling/gdpr-labels.md)
+         + [보고서 세트 데이터에 레이블 지정](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+         + [보고서 세트의 개인정보 보호 레이블 보기/관리](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [레이블 지정 모범 사례](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
+         + [레이블 지정 예](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
+         + [네임스페이스](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
+      + [ID 확장](admin/c-data-governance/gdpr-id-expansion.md)
+      + [CNIL 동의 면제](admin/c-data-governance/cnil-consent-exemption.md)
    + 서버 호출 사용량 {#server-call-usage}
       + [서버 호출 사용량 개요](admin/c-server-call-usage/overage-overview.md)
       + [현재 서버 호출 사용량 보기](admin/c-server-call-usage/server-call-usage-dashboard.md)
