@@ -4,10 +4,10 @@ keywords: 개인정보 보호
 title: 개인정보 보호 개요
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
 | 유럽 | Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨 (x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값 (x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. 이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. 관리자 안내서의 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 글로벌 | 고객은 JavaScript 측정 코드의 쿠키 라이프타임 변수를 &quot;none&quot;, &quot;session&quot; 또는 다른 지정된 초단위 측정값으로 설정할 수 있습니다. |
 | 유럽 | Adobe는 이제 Adobe Analytics (구 SiteCatalyst) 릴리스 버전 14.9와 15.4에 대해 Adobe ClientCare가 활성화할 수 있는 새로운 “계획적 개인정보 보호” 설정을 개발했습니다. 이 새로운 설정을 활성화할 경우 IP 주소의 마지막 옥텟 (마지막 부분)은 이 IP 주소가 Adobe에 의해 수집되면 즉시 값 0으로 대체됩니다. 이러한 익명화는 선택 사항인 IP 주소의 지역 조회와 ISP 조회를 포함하여, IP 주소의 모든 처리 이전에 수행됩니다. |
-| 독일 | 적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들이 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. |
+| 독일 | Adobe과 Adobe Analytics에 대한 데이터 처리 계약이 이미 있다면 Adobe 계정 팀에 연락해야 하며, 계정 팀은 Adobe 법무팀과 협력하여 DPA를 적소에 배치합니다. |
 
 ## EMEA 데이터 센터 위치 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
@@ -73,4 +73,4 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
 
 | Adobe 이름 | 주소 | 시설 유형 (운영자) | 지원되는 솔루션 구성 요소 | 인증 |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility(Gyron) | 멀티채널 분석, 디지털 분석 | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU 영국 | Colocation Facility(Gyron) | 멀티채널 분석, 디지털 분석 | SSAE 16 |
