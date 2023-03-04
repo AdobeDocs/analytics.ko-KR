@@ -5,10 +5,10 @@ title: 파일 가져오기 참조
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 93%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 * 데이터 소스 파일의 처리 속도를 높이려면 이벤트(지표) 데이터를 날짜별 단일 행으로 집계하는 것이 좋습니다.
 
    예를 들어 데이터 소스 파일이 광고 노출 데이터를 이벤트 6에 매핑하는 경우 특정일에 발생한 각 광고 노출에 대해 별도의 데이터 행 항목을 만드는 대신 각 날짜에 대해 총 광고 노출 수를 포함하는 단일 데이터 행을 만드십시오.
-* 보고서 세트 생성 날짜 이전의 데이터를 업로드해야 하는 경우 계정 관리자에게 문의하여 보고서를 실행할 수 있는 가장 오래된 날짜를 변경하십시오.
+* 보고서 세트의 생성 날짜 이전 날짜의 데이터를 업로드해야 하는 경우 Adobe 계정 팀에 문의하여 보고서를 실행할 수 있는 가장 오래된 날짜를 변경합니다.
 
 **.FIN 파일**
 

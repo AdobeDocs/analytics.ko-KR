@@ -2,10 +2,10 @@
 title: 분류 세트 관리자
 description: Adobe Analytics에서 분류 세트를 관리합니다.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: b75594e21cc499bf3367577df90d6a4f4705f09c
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 92%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 기능은 보고서 세트를 새로운 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터나 귀사의 계정 관리자에게 문의해 주십시오.
+>이 기능은 분류 세트 아키텍처의 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터 또는 Adobe 계정 팀에 문의하십시오.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 설정]**
 
-분류 세트는 **구독**(이 분류 세트가 적용되는 보고서 세트)과 **분류 이름**(분류 데이터를 포함하는 추가 차원)으로 구성됩니다.
+분류 세트는 **구독** (이 분류 세트가 적용되는 보고서 세트)과 **분류 이름** (분류 데이터를 포함하는 추가 차원)으로 구성됩니다.
 
 ## 분류 세트 필터링
 

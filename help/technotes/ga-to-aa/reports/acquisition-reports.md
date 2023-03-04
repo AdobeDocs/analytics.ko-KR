@@ -3,10 +3,10 @@ title: Adobe Analytics의 고객 확보 보고서
 description: Analysis Workspace를 사용하여 고객 확보 기반 보고서를 만드는 방법을 알아봅니다.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -141,4 +141,4 @@ Advertising Analytics 기능을 사용하려면 데이터를 반환하도록 구
 
 ## 비용 분석
 
-이 보고서는 유료 마케팅 채널의 방문, 비용 및 매출 실적 데이터를 보여 줍니다. Adobe는 인사이트를 제공하는 Adobe Advertising Cloud라는 전용 제품을 제공합니다. 조직에서 이 제품을 사용하는 데 관심이 있는 경우 조직의 계정 관리자에게 문의하십시오.
+이 보고서는 유료 마케팅 채널의 방문, 비용 및 매출 실적 데이터를 보여 줍니다. Adobe는 인사이트를 제공하는 Adobe Advertising Cloud라는 전용 제품을 제공합니다. 조직에서 이 제품을 사용하는 데 관심이 있는 경우 Adobe 계정 팀에 문의하십시오.

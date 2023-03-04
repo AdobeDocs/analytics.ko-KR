@@ -3,10 +3,10 @@ title: Adobe Analytics로 마이그레이션할 때 자주 묻는 질문
 description: 서드파티 플랫폼에서 Adobe로 이동할 때 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 모든 Analytics 플랫폼에는 데이터를 수집, 처리 및 저장하는 다양한 방법이 있습니다. 이전 데이터를 마이그레이션하지 않고 Adobe Analytics 내에서 데이터를 수집하고 사용하기 시작하려면 명확한 전환 날짜를 설정하는 것이 좋습니다. 자주 사용되는 전환 날짜는 회계 연도의 시작 날짜, 해당 연도의 시작 날짜 또는 달력의 시작 날짜입니다. 사용자가 이전 데이터를 보려는 경우 서드파티 플랫폼에 로그인하여 구체적인 이전 보고 내용을 볼 수 있습니다.
 
-조직에서 이전 데이터를 Adobe에 포팅하려는 의지가 확고한 경우에는 조직의 계정 관리자에게 문의하십시오. 구현 컨설턴트는 조직과 협력하여 Google Analytics 데이터 내보내기를 Adobe 데이터 수집 서버에서 수집할 수 있는 데이터 소스로 변환할 수 있습니다.
+조직에서 내역 데이터를 Adobe에 포팅하려는 의지가 확고한 경우 Adobe 계정 팀에 문의하십시오. 구현 컨설턴트는 조직과 협력하여 Google Analytics 데이터 내보내기를 Adobe 데이터 수집 서버에서 수집할 수 있는 데이터 소스로 변환할 수 있습니다.
 
 과거 데이터를 이동하려면 모든 옴니채널 데이터 소스를 사용할 수 있는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)를 사용하는 것을 권장합니다.
 

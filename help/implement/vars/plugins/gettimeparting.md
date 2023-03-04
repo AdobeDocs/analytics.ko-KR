@@ -3,18 +3,16 @@ title: getTimeParting
 description: 특정 동작이 발생하는 시간을 측정합니다.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 98%
+source-wordcount: '556'
+ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: getTimeParting
 
->[!IMPORTANT]
->
->이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+{{plug-in}}
 
 `getTimeParting` 플러그인을 사용하면 사이트에서 측정 가능한 활동이 발생하는 시간을 세부적으로 캡처할 수 있습니다. 이 플러그인은 주어진 날짜 범위에서 반복 가능한 시간 분할로 지표를 분류하려 할 때 유용합니다. 예를 들어 모든 일요일과 모든 목요일 등 두 가지 서로 다른 요일 간의 전환율을 비교할 수 있습니다. 또한 아침이나 저녁과 같은 하루 동안의 시간 부분을 비교할 수도 있습니다.
 
@@ -40,20 +38,20 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getTimeParting
 1. Save and publish the changes to the rule.-->
 
-## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
+## 사용자 정의 코드 편집기를 사용하여 플러그인 설치
 
-플러그인 확장 기능을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+플러그인 확장 기능을 사용하지 않으려는 경우 사용자 정의 코드 편집기를 사용할 수 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 확장 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
-1. [!UICONTROL 사용자 지정 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
-1. 사용자 지정 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
+1. [!UICONTROL 사용자 정의 코드를 사용하여 추적 구성] 아코디언을 확장합니다. 그러면 [!UICONTROL 편집기 열기] 버튼이 표시됩니다.
+1. 사용자 정의 코드 편집기를 열고 아래에 제공된 플러그인 코드를 편집 창에 붙여넣습니다.
 1. 변경 사항을 저장하고 Analytics 확장에 게시합니다.
 
 ## AppMeasurement를 사용하여 플러그인 설치
 
-Analytics 추적 개체가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 주석 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
+Analytics 추적 오브젝트가 인스턴스화 ([`s_gi`](../functions/s-gi.md) 사용)된 후 AppMeasurement 파일의 아무 곳에나 다음 코드를 복사하여 붙여넣으십시오. 구현에서 코드의 댓글 및 버전 번호를 보존하면 Adobe에서 잠재적인 문제를 해결하는 데 도움이 됩니다.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

@@ -2,10 +2,10 @@
 title: 분류 세트 개요
 description: 분류 세트를 사용하여 분류 데이터를 관리합니다.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->분류 세트는 보고서 세트를 새로운 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터나 귀사의 계정 관리자에게 문의해 주십시오.
+>이 기능은 분류 세트 아키텍처의 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터 또는 Adobe 계정 팀에 문의하십시오.
 
 분류 세트와 함께 출시된 백엔드 아키텍처에는 몇 가지 주목할 만한 개선 사항이 포함되어 있습니다.
 

@@ -3,10 +3,10 @@ title: 마케팅 채널 시작
 description: 마케팅 채널 워크플로, 자동 설정 및 템플릿 보고서 세트 설정을 여러 보고서 세트에 적용하는 방법에 대해 알아봅니다.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 97%
+source-wordcount: '811'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 >
 >Attribution IQ 및 Customer Journey Analytics에 대한 마케팅 채널의 효과를 극대화하기 위해 [수정된 모범 사례](/help/components/c-marketing-channels/mchannel-best-practices.md)를 게시했습니다.
 >
->Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics 관리자는 [마케팅 채널 관리](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)에 설명된 대로 조직의 마케팅 채널을 관리할 수 있습니다.
 
 마케팅 채널은 일반적으로 사이트에 방문자가 도착하는 방식에 대한 통찰력을 제공하는 데 사용됩니다. 추적할 채널과 추적 방법에 따라 마케팅 채널 처리 규칙을 사용자 정의할 수 있습니다.
 
@@ -87,7 +87,6 @@ ht-degree: 97%
 >
 >규칙 세트를 적용하려면 먼저 템플릿으로부터 채널을 적용하십시오. 이 절차를 수행할 때 채널은 모든 보고서 세트에 대해 동일해야 합니다.
 
-1. 선택된 보고서 세트에 대해 마케팅 채널 보고서가 활성화되어 있어야 합니다. 계정 관리자가 이 단계를 수행합니다.
 1. **[!UICONTROL Analytics]** > **[!UICONTROL 관리]** > **[!UICONTROL 보고서 세트]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 보고서 세트 관리자]** 페이지에서 템플릿 보고서 세트와 하나 이상의 대상 보고서 세트를 선택합니다.
 1. **[!UICONTROL 편집 설정]** > **[!UICONTROL 마케팅 채널]** > **[!UICONTROL 마케팅 채널 관리자]**&#x200B;를 클릭합니다.

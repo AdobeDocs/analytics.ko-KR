@@ -3,10 +3,10 @@ description: 보고서에 고유 값이 많은 경우 Adobe는 낮은 트래픽 
 title: Adobe Analytics의 낮은 트래픽 값
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe는 보고서에 고유 값이 많으면 그중 가장 중요한 값이 보
 
 ## 고유한 임계값 제한 변경
 
-임계값 제한은 기본적으로 50만 개 및 100만 개의 고유 값입니다. 이러한 제한은 변수에 따라 변경될 수 있습니다. 이 변경을 요청하려면 Adobe 고객 지원 센터 또는 귀사의 계정 관리자에게 문의하십시오. 변경을 요청할 때 다음을 포함합니다.
+임계값 제한은 기본적으로 50만 개 및 100만 개의 고유 값입니다. 이러한 제한은 변수에 따라 변경될 수 있습니다. 이 변경을 요청하려면 Adobe 고객 지원 센터 또는 Adobe 계정 팀에 문의하십시오. 변경을 요청할 때 다음을 포함합니다.
 
 * 보고서 세트 ID
 * 임계값을 늘리려는 변수
