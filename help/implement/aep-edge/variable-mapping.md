@@ -2,16 +2,16 @@
 title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
+source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 100%
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 
 # Adobe Experience Edge의 Analytics 변수 매핑
 
-다음 표에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다.
+다음 표에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 다음 위치에 포함됩니다. **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹입니다.
 
 | XDM 필드 패스 | Analytics 차원 및 설명 |
 | --- | --- |
