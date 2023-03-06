@@ -1,8 +1,8 @@
 ---
 source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 96%
+source-wordcount: '816'
+ht-degree: 98%
 
 ---
 # 스니펫
@@ -28,11 +28,11 @@ ht-degree: 96%
    | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **설명 누락**] | 설명 필드에 아직 설명이 없는 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
-   | [!UICONTROL **중복 항목 표시**] | 선택한 보고서 세트의 다른 구성 요소와 동일한 레이블 또는 설명이 있는 구성 요소만 표시합니다. 여기에는 Adobe에서 제공한 구성 요소뿐만 아니라 사용자가 만드는 구성 요소도 포함됩니다. 레이블 또는 설명이 정확히 일치하는 항목만 중복 항목으로 표시할 수 있습니다. 이 옵션은 관리자만 사용할 수 있습니다. |
+   | [!UICONTROL **중복 항목 표시**] | 선택한 보고서 세트의 다른 구성 요소와 동일한 레이블 또는 설명이 있는 구성 요소만 표시합니다. 여기에는 사용자가 만든 구성 요소와 Adobe에서 제공하는 구성 요소가 포함됩니다. 레이블 또는 설명이 정확히 일치하는 항목만 중복 항목으로 표시할 수 있습니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **최근 데이터 없음**] | 지난 90일 동안 데이터를 수집하지 않은 구성 요소만 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **Adobe 제작**] <!-- I don't see this option--> | Adobe에서 제작한 구성 요소만 표시합니다. 조직의 관리자 또는 다른 사용자가 만든 구성 요소는 표시되지 않습니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## 데이터 사전 구성 요소 정보 {#dd-component-information}
 
@@ -49,7 +49,7 @@ ht-degree: 96%
 | [!UICONTROL **미리보기**] | Analysis Workspace에서 구성 요소가 어떻게 보이는지 미리보기를 표시합니다. |
 | [!UICONTROL **마지막 수정일**] | 구성 요소가 마지막으로 수정된 날짜를 표시합니다. 이 섹션은 세그먼트, 계산된 지표 및 날짜 범위를 볼 때 표시됩니다. <!--for CJA, it is displayed for all components--> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 릴리스 단계 제한된 테스트 {#release-limited-testing}
 
