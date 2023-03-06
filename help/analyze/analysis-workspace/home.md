@@ -4,10 +4,10 @@ description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '553'
+ht-degree: 70%
 
 ---
 
@@ -21,23 +21,27 @@ Analysis Workspace는 신속하게 분석을 빌드하고 인사이트를 공유
 
 ## Adobe Analytics에 로그인합니다 {#login}
 
-Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Adobe Analytics에 로그인합니다. 이전에 특정 프로젝트를 선택하지 않은 경우 Analysis Workspace 프로젝트 목록 홈 페이지가 표시됩니다.
+Analysis Workspace를 사용하려면 [experience.adobe.com/analytics](https://experience.adobe.com/analytics)로 이동하여 Adobe Analytics에 로그인합니다. 특정 프로젝트가 이전에 선택되지 않은 경우 프로젝트 페이지로 이동합니다.
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## 교육 튜토리얼 사용 {#training-tutorial}
 
-로그인하고 나면 먼저 Workspace에서 첫 번째 분석을 빌드하는 일반적인 용어 및 단계를 안내하는 Analysis Workspace 교육 튜토리얼을 방문해야 합니다. 튜토리얼을 시작하려면 **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭한 다음 새 프로젝트 모달 내에서 **교육 튜토리얼**&#x200B;을 선택합니다.
+로그인하고 나면 먼저 Analysis Workspace 교육 튜토리얼 템플릿을 방문할 수 있습니다. Workspace에 첫 번째 분석을 작성하는 일반적인 용어 및 단계를 안내합니다. 자습서를 시작하려면 다음을 수행하십시오.
+
+1. 다음을 클릭합니다. **[!UICONTROL 학습]** 왼쪽의 탭입니다.
+1. 클릭 **[!UICONTROL 튜토리얼 열기]**.
 
 ![](assets/training-tutorial.png)
 
 ## 새 프로젝트 만들기 {#new-project}
 
-튜토리얼이 완료되면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. **새로운 프로젝트 모달**&#x200B;은 분석을 시작하기 위한 다양한 옵션을 제공합니다. 분석을 브라우저에서 공유할 계획인지 Adobe Analytics 대시보드 모바일 앱에서 공유할 계획인지에 따라 빈 프로젝트에서 시작하거나 [빈 모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko-KR)에서 시작하도록 선택할 수 있습니다.
+자습서를 완료하면 첫 번째 프로젝트 빌드를 시작할 수 있습니다. 다음에서 [!UICONTROL 프로젝트] 탭에서 시작하도록 선택할 수 있습니다.
 
-![](assets/create-new-project.png)
+* [!UICONTROL 빈 프로젝트] 브라우저에서 분석을 공유할 계획인 경우 또는
+* [[!UICONTROL 빈 모바일 스코어카드]](/help/analyze/mobile-app/curator.md), Customer Journey Analytics 대시보드 모바일 앱에서 분석을 공유할 계획이라면 다음을 참조하십시오.
 
-또한 Adobe에서 제공하는 표준 템플릿 또는 조직에서 만든 사용자 정의 템플릿인 미리 빌드된 **템플릿**&#x200B;에서 분석을 시작할 수 있습니다. 분석 또는 염두에 둔 사용 사례에 따라 사용 가능한 템플릿에는 여러 가지가 있습니다. 사용 가능한 다양한 템플릿 옵션에 대해 [자세히 알아보십시오](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ko-KR).
+또한 Adobe에서 제공하는 표준 템플릿 또는 조직에서 만든 사용자 정의 템플릿인 미리 빌드된 **템플릿**&#x200B;에서 분석을 시작할 수 있습니다. 분석 또는 염두에 둔 사용 사례에 따라 사용할 수 있는 템플릿에는 여러 가지가 있습니다. 이제 아래에서 찾을 수 있습니다. [!UICONTROL 보고서] 왼쪽 레일의 탭입니다.
 
 ## 분석 빌드 {#analysis}
 
@@ -51,7 +55,7 @@ Analysis Workspace 프로젝트에서 **패널, 표, 시각화 및 구성 요소
 
 ### 시각화
 
-**시각화**&#x200B;막대 차트 또는 라인 차트와 같은 를 사용하여 데이터를 시각적으로 생동감 있게 가져올 수 있습니다. 맨 왼쪽 레일에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR)의 전체 목록을 확인합니다.
+**시각화**&#x200B;막대형 차트 또는 선형 차트와 같은 을 사용하여 데이터를 시각적으로 생동감 있게 표현할 수 있습니다. 맨 왼쪽 레일에서 가운데 **[!UICONTROL 시각화]** 아이콘을 선택하여 [시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ko-KR)의 전체 목록을 확인합니다.
 
 ![](assets/build-visualizations.png)
 
