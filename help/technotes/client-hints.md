@@ -2,10 +2,10 @@
 title: 클라이언트 힌트
 description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Google은 사용자 에이전트 클라이언트 힌트를 낮은 엔트로피 �
 
 2022년 10월부터 Chromium 브라우저의 새 버전은 사용자 에이전트 문자열에 표시된 운영 체제 버전을 “중단”했습니다. 운영 체제 버전은 높은 엔트로피 힌트이므로 보고에서 운영 체제 버전의 정확도를 유지하려면 이러한 높은 엔트로피 힌트를 수집하도록 수집 라이브러리를 구성해야 합니다. 시간이 지남에 따라 사용자 에이전트의 다른 디바이스 정보가 동결되어 디바이스 보고의 정확도를 유지하기 위한 클라이언트 힌트가 필요합니다.
 
-클라이언트 힌트는 2023년 2월 27일부터 2023년 3월 2일까지 Analytics 장치 조회 프로세스에 통합되어 있습니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
+2023년 2월 27일부터 클라이언트 힌트가 Analytics 디바이스 조회 프로세스에 통합되고 2023년 3월 2일에 완료됩니다. AppMeasurement와 Web SDK 모두 현재 힌트 데이터 수집을 지원하지만 2월 중순까지는 디바이스 조회에 사용되지 않습니다. 아래 언급된 바와 같이 운영 체제 버전이 10월부터 중단되었지만 점진적인 롤아웃과 많은 사용자 에이전트가 중단된 OS 버전을 이미 제공했기 때문에([여기](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ko-KR) 참조) Chrome 방문자의 3% 미만에게만 영향을 미칠 것으로 예상됩니다.
 
 >[!NOTE]
 >
@@ -53,6 +53,8 @@ AAM은 완전한 기능을 유지하기 위해 높은 엔트로피 힌트를 수
 
 지금은 가능하지 않습니다. 높은 엔트로피 힌트를 모두 수집하거나 수집하지 않도록 할 수 있습니다.
 
+브라우저 주요 버전이 낮은 엔트로피 힌트로 캡처되므로 fullVersionList는 현재 수집되지 않습니다.
+
 +++
 
 +++**다양한 클라이언트 힌트 값은 무엇입니까?**
@@ -64,15 +66,14 @@ AAM은 완전한 기능을 유지하기 위해 높은 엔트로피 힌트를 수
 | Sec-CH-UA | 브라우저 및 주요 버전 | 낮음 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | 모바일 디바이스 (참 또는 거짓) | 낮음 | `true` |
 | Sec-CH-UA-Platform | 운영 체제/플랫폼 | 낮음 | `"Android"` |
-| Sec-CH-UA-Arch | 사이트의 아키텍처 | 높음 | `"arm"` |
-| Sec-CH-UA-Bitness | Architecture Bitness | 높음 | `"64"` |
-| Sec-CH-UA-Full-Version | 브라우저의 전체 버전 | 높음 | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | 버전이 포함된 브랜드 목록 | 높음 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | 디바이스 모델 | 높음 | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | 운영 체제/플랫폼 버전 | 높음 | `"10"` |
+| 아키텍처 | 사이트의 아키텍처 | 높음 | `"arm"` |
+| 비트니스 | 아키텍처 비트 수 | 높음 | `"64"` |
+| 전체 버전 목록 | 버전이 포함된 브랜드 목록 | 높음 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | 디바이스 모델 | 높음 | `"Pixel 3"` |
+| platformVersion | 운영 체제/플랫폼 버전 | 높음 | `"10"` |
 
 * 낮은 엔트로피 힌트는 HTTP 요청 헤더를 통해 수집됩니다.
-* 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 문자열 매개변수 값을 통해 전달됩니다. 쿼리 문자열 매개변수는 이미지 요청에서 `h.`을 접두사로 사용합니다.
+* 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 문자열 매개변수 값을 통해 전달됩니다. 쿼리 문자열 매개변수는 이미지 요청에서 `h.`을 접두사로 사용합니다. 브라우저 주요 버전이 낮은 엔트로피 힌트로 캡처되므로 fullVersionList는 현재 수집되지 않습니다.
 
 높은 엔트로피 힌트는 JavaScript 호출을 통해 수집되고 쿼리 매개변수를 통해 전달됩니다.
 
