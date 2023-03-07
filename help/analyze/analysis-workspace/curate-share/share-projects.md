@@ -5,14 +5,37 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '1132'
-ht-degree: 100%
+source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+workflow-type: tm+mt
+source-wordcount: '1680'
+ht-degree: 66%
 
 ---
 
 # 프로젝트 공유
+
+다음 유형의 사용자와 Analysis Workspace 프로젝트를 공유할 수 있습니다.
+
+* Adobe Analytics에 액세스할 수 있는 조직의 사용자 및 그룹
+
+   편집, 복제 또는 보기 액세스 권한을 공유할 수 있습니다.
+
+* Adobe Analytics 액세스 권한이 없는 조직의 사용자 및 그룹
+
+   수신자는 보기 전용 액세스 권한을 가집니다.
+
+* 조직 외부의 사용자
+
+   수신자는 보기 전용 액세스 권한을 가집니다.
+
+임의 [큐레이션](curate.md) 수신자가 프로젝트를 열 때 공유하기 전에 적용합니다.
+
+다음은 프로젝트 공유에 대한 비디오 개요입니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+
+## 조직의 Adobe Analytics 사용자 및 그룹과 공유 {#Add}
 
 조직의 기존 Adobe Analytics 사용자 또는 그룹과 프로젝트를 공유할 수 있습니다. 이 섹션에 설명된 대로 프로젝트를 공유할 때, 공유 받는 사용자는 Adobe Analytics 계정을 보유하고 있어야 합니다.
 
@@ -57,8 +80,11 @@ ht-degree: 100%
 
    * **수신자의 랜딩 페이지로 설정:** 이 페이지를 수신자의 랜딩 페이지로 설정합니다. 이 설정은 공유 시점에만 수행되는 일회성 작업으로, 유지되지 않습니다.
 
-1. **[!UICONTROL 공유]**를 클릭합니다.
-또한 **[!UICONTROL 조정 및 공유]**&#x200B;를 클릭하여 프로젝트 조정을 자동으로 적용할 수도 있습니다. 프로젝트가 이미 공유된 경우 이 버튼에는 **[!UICONTROL 업데이트]** 및 **[!UICONTROL 조정 및 업데이트]**&#x200B;가 표시됩니다. [프로젝트 조정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR)에 대한 자세한 내용을 살펴보십시오.
+1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다. (프로젝트가 이미 공유된 경우 [!UICONTROL **업데이트**].)
+
+   또는
+
+   클릭 **[!UICONTROL 선별 및 공유]** 프로젝트 조정을 자동으로 적용합니다. (프로젝트가 이미 공유된 경우 **[!UICONTROL 조정 및 업데이트]**.) [프로젝트 조정](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ko-KR)에 대한 자세한 내용을 살펴보십시오.
 
 ## 프로젝트에 대한 링크 공유
 
@@ -78,6 +104,63 @@ ht-degree: 100%
 1. **[!UICONTROL URL 공유 필드]** 옆에 있는 **[!UICONTROL 링크 복사]**&#x200B;를 클릭합니다.
 
 1. 조직의 사용자와 링크를 공유합니다. 예를 들어 공유된 링크를 이메일, 내부 웹 사이트 등에 붙여넣을 수 있습니다.
+
+## 모든 사람과 공개 링크 공유(로그인 필요 없음) {#share-public-link}
+
+{{release-limited-testing-section}}
+
+다음을 부여할 수 있습니다 [보기 전용 액세스](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) to Analysis Workspace projects to people to access to Adobe Analytics . 여기에는 다음이 포함될 수 있습니다.
+
+* 조직 외부의 사용자
+
+* 조직 내에서 Adobe Analytics으로 프로비저닝되지 않은 사람
+
+>[!NOTE]
+>
+>공개 링크를 공유할 때는 다음 사항을 고려하십시오.
+>
+>* Analytics 관리자가에 설명된 대로 공개 액세스 링크를 공유하는 기능은 비활성화할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md). 이 섹션에 설명된 대로 공개 링크를 공유할 수 없는 경우 Analytics 관리자가 이 기능을 비활성화했습니다.
+>
+>* 확장된 시각화가 14개를 초과하는 프로젝트는 공개 액세스 링크를 사용하여 공유할 수 없습니다.
+
+
+Analysis Workspace 프로젝트에 대한 공개 링크를 공유하려면 다음 작업을 수행하십시오.
+
+1. 공유할 Analysis Workspace 프로젝트를 엽니다.
+
+1. 클릭 **[!UICONTROL 공유]** > **[!UICONTROL 공개 링크 공유]**.
+
+   저장하지 않은 변경 사항이 있으면 프로젝트를 저장하라는 메시지가 표시됩니다.
+
+   <!-- Add screen shot of new modal -->
+
+1. 활성화 **[!UICONTROL 링크 활성]** 아직 활성화되지 않은 경우 옵션을 선택합니다.
+
+1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이러한 옵션은 Analytics 관리자가 제어할 수 있음).
+
+   * **[!UICONTROL SSO(Single Sign-On) 인증 필요]:**
+
+      공유 프로젝트에 액세스하려면 링크를 가진 사람이 SSO를 통해 인증해야 합니다. 프로젝트를 조직 내의 사용자만 액세스할 수 있도록 하려면 이 옵션을 선택합니다.
+
+      Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 지정할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
+
+      * 이 옵션이 표시되지 않으면 조직에 대해 SSO가 활성화되지 않았거나 Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
+
+      * 이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자가 모든 공개 링크에 액세스하려면 SSO 인증을 요구합니다.
+   * **[!UICONTROL 암호 필요]:** 링크를 가진 사용자가 Analysis Workspace 프로젝트에 액세스하기 전에 암호를 지정해야 합니다. 이렇게 하면 프로젝트에 추가 보안 수준이 제공됩니다.
+
+      이 옵션을 선택하는 경우 암호를 지정합니다. 이 암호를 다른 사용자와 공유할 때는 프로젝트 링크와 함께 공유해야 합니다. <!--go through this workflow and see how it works.-->
+
+      이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자는 모든 공개 링크를 암호로 보호해야 합니다. Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 지정할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md).
+
+
+1. 다음 옆에 **[!UICONTROL 누구와도 공유(로그인 필요 없음)]** 필드를 클릭하고 **링크 복사** 아이콘을 클릭하여 링크를 시스템 클립보드에 복사합니다.
+
+1. 프로젝트에 액세스할 수 있는 사람과 링크를 공유합니다. 예를 들어 이메일에 링크를 붙여넣을 수 있습니다.
+
+   링크를 공유하는 모든 사용자는 Analysis Workspace 프로젝트를 볼 수 있습니다. 암호가 필요하도록 선택한 경우 링크에 액세스하려는 모든 사용자와 암호를 공유해야 합니다.
+
+1. 선택 **[!UICONTROL 닫기]** 공유 대화 상자를 닫습니다. 변경 사항이 자동으로 저장됩니다. <!-- True? -->
 
 ## 프로젝트 관리자에서 프로젝트 공유 {#Manager}
 

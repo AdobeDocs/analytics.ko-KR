@@ -1,5 +1,5 @@
 ---
-source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
+source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 91%
@@ -68,3 +68,4 @@ ht-degree: 91%
 >[!IMPORTANT]
 >
 >이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 Adobe 계정 팀에 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+
