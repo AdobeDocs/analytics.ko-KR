@@ -5,10 +5,10 @@ title: Data Sources FAQ
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1496'
-ht-degree: 100%
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
+workflow-type: tm+mt
+source-wordcount: '1601'
+ht-degree: 94%
 
 ---
 
@@ -146,3 +146,9 @@ ht-degree: 100%
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## 내 ftp 업로드가 선택되지 않는 이유는 무엇입니까?
+
+.fin 파일을 업로드한 후에는 데이터 소스 FTP 사이트에서 로그아웃하는 것이 중요합니다. 그 이유는 Analytics가 로그아웃 이벤트를 트리거로 사용하여 파일을 처리할 준비가 되었음을 나타내기 때문입니다. 파일을 프로그래밍 방식으로 업로드하는 경우 파일을 업로드한 후 자동화된 프로세스도 FTP 사이트에서 로그아웃하는 것이 중요합니다.
+
+파일 이름이 올바른 형식을 따르는지 확인합니다. 파일 이름의 선행 또는 후행 공백으로 인해 파일을 인식할 수 없으며 Adobe 수집 프로세스에서 선택하지 않게 됩니다.
