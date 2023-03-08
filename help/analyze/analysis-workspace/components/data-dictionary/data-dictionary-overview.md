@@ -3,9 +3,7 @@ description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승�
 title: 데이터 사전 개요
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
@@ -65,7 +63,7 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 * 구성 요소의 정보 팝오버에 있는 **데이터 사전** 아이콘에서.
 
    ![정보 팝오버의 데이터 사전 아이콘](assets/data-dictionary-access-infopopover.png)
-<!--update screenshot; this was taken from a mock-->
+   <!--update screenshot; this was taken from a mock-->
 
 * 메뉴: [!UICONTROL **도움말**] > [!UICONTROL **데이터 사전**].
 
