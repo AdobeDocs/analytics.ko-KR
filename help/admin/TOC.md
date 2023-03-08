@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 관리 안내서
 breadcrumb-title: 관리 안내서
 user-guide-description: Experience Cloud Admin Console에서의 사용자 및 제품 관리, 보고서 세트 구성 등과 같은 Analytics 관리 작업에 대해 알아봅니다.
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 87d4e492afe8d614dfdba24389660829df871dd7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '628'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 0%
       + [Analytics 도구에 대한 제품 프로필 권한](admin-console/permissions/analytics-tools.md)
 + Analytics 관리 도구 {#admin-tools}
    + [관리 도구 개요](admin/c-admin-tools.md)
-   + [과금](admin/billing-admin.md)
    + [코드 관리자](admin/code-manager-admin.md)
    + [데이터 소스](admin/data-sources.md)
    + [IP 주소로 제외](admin/exclude-ip.md)
