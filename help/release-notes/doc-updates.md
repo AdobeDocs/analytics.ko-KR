@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3693'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 0%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 3월** |  |
+| 기본 계산된 지표 | 을(를) 설명하는 컨텐츠가 추가되었습니다. [Adobe에서 제공한 기본 계산된 지표](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | **2023년 2월** |  |
 | 구현 | [웹 및 모바일용 Adobe Analytics를 구현](../implement/home.md)하는 방법에 대한 내용이 업데이트되었습니다. |
 | Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)를 참조하십시오. |

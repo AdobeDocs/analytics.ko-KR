@@ -3,10 +3,10 @@ description: 관리자는 보고서 세트 중 하나를 사용하여 구성 요
 title: 구성 요소 설명 추가
 feature: Components
 role: Admin
-source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 85%
+source-wordcount: '167'
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 설명을 통해 Analysis Workspace에서 프로젝트를 구축하거나 보고서를 볼 때 다양한 구성 요소를 가장 잘 사용하는 방법을 알 수 있습니다.
 
-Analytics 관리자는 구성 요소(차원, 지표, 세그먼트 및 날짜 범위)에 대한 설명을 추가할 수 있습니다<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내에서 직접 데이터 사전을 사용하여 구성 요소(Dimension, 지표, 세그먼트 및 날짜 범위)에 대한 설명을 추가할 수 있습니다.
 
 ## 보고서 세트의 구성 요소에 설명 추가
 
@@ -22,14 +22,12 @@ Analytics 관리자는 구성 요소(차원, 지표, 세그먼트 및 날짜 범
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
-<!--
-## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
+## Analysis Workspace의 구성 요소에 설명 추가(데이터 사전 사용) {#add-descriptions}
 
 {{release-limited-testing-section}}
 
-The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
+Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다. 여기에는 Analytics 관리자가 Analysis Workspace 내에서 직접 구성 요소 설명을 추가할 수 있는 기능이 포함됩니다.
 
-For information about adding a component description in the data dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+데이터 사전에 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [데이터 사전에서 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
-For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
--->
+데이터 사전에 대한 일반적인 내용은 다음을 참조하십시오. [데이터 사전 개요](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
