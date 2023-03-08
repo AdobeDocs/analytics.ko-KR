@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 66%
+source-wordcount: '1600'
+ht-degree: 69%
 
 ---
 
@@ -136,23 +136,17 @@ Analysis Workspace 프로젝트에 대한 공개 링크를 공유하려면 다�
 
 1. 활성화 **[!UICONTROL 링크 활성]** 아직 활성화되지 않은 경우 옵션을 선택합니다.
 
-1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이러한 옵션은 Analytics 관리자가 제어할 수 있음).
+1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이 옵션은 Analytics 관리자가 제어할 수 있음).
 
-   * **[!UICONTROL SSO(Single Sign-On) 인증 필요]:**
+   * **[!UICONTROL Experience Cloud 인증 필요]:**
 
-      공유 프로젝트에 액세스하려면 링크를 가진 사람이 SSO를 통해 인증해야 합니다. 프로젝트를 조직 내의 사용자만 액세스할 수 있도록 하려면 이 옵션을 선택합니다.
+      이 옵션을 활성화하면 Federated ID를 가지고 Adobe Experience Cloud에 로그인할 수 있는 수신자만 공유 공개 링크에 액세스할 수 있습니다. 공유 프로젝트에 대한 액세스 권한을 얻으려면 해당 링크를 가진 사용자가 Adobe Experience Cloud 로그인으로 인증해야 합니다.
 
       Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 지정할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
 
-      * 이 옵션이 표시되지 않으면 조직에 대해 SSO가 활성화되지 않았거나 Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
+      * 이 옵션이 표시되지 않으면 Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
 
-      * 이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자가 모든 공개 링크에 액세스하려면 SSO 인증을 요구합니다.
-   * **[!UICONTROL 암호 필요]:** 링크를 가진 사용자가 Analysis Workspace 프로젝트에 액세스하기 전에 암호를 지정해야 합니다. 이렇게 하면 프로젝트에 추가 보안 수준이 제공됩니다.
-
-      이 옵션을 선택하는 경우 암호를 지정합니다. 이 암호를 다른 사용자와 공유할 때는 프로젝트 링크와 함께 공유해야 합니다. <!--go through this workflow and see how it works.-->
-
-      이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자는 모든 공개 링크를 암호로 보호해야 합니다. Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 지정할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * 이 옵션이 활성화되고 흐리게 표시되는 경우 Analytics 관리자가 모든 공개 링크에 액세스하려면 Experience Cloud 인증을 필요로 합니다.
 
 1. 다음 옆에 **[!UICONTROL 누구와도 공유(로그인 필요 없음)]** 필드를 클릭하고 **링크 복사** 아이콘을 클릭하여 링크를 시스템 클립보드에 복사합니다.
 
