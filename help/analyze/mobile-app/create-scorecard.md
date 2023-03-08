@@ -4,7 +4,7 @@ title: 모바일 스코어카드 만들기
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -233,7 +233,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 1. 모바일 스코어카드 프로젝트로 시작합니다.
 1. 스토리를 만들 타일을 선택합니다.
    ![데이터 스토리 만들기](assets/data-story1.png)
-   ![데이터 스토리 아이콘 만들기](assets/create-data-story.png){width="25%"}
+   ![데이터 스토리 아이콘 만들기](assets/create-data-story.png){width=".50%"}
 1. 데이터 스토리를 작성하는 슬라이드를 추가합니다. 기본적으로 첫 번째 슬라이드가 생성됩니다.
 새 슬라이드를 추가하려면 슬라이드를 마우스로 가리키거나 클릭한 다음 사용 가능한 옵션 중에서 선택합니다.
    * + 기호를 탭하여 새 슬라이드를 만듭니다.

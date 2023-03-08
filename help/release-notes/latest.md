@@ -3,9 +3,9 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
+source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1062'
 ht-degree: 58%
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전은 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고, 관리하고, 더 잘 이해할 수 있도록 도와줍니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 22일 |
-| **모바일 대시보드의 데이터 스토리** | 데이터 스토리를 사용하면 모바일 스코어카드 프로젝트의 타일에 사용자 지정 가능한 여러 세부 정보 보기를 추가할 수 있습니다. 데이터 스토리를 사용하여 주요 동인, 관련 지표 및 고객 여정의 다양한 단계를 자세히 알아보십시오. 이러한 보기를 쉽게 스와이프하여 주요 지표에 숨겨진 전체 스토리를 이해할 수 있습니다. 자세히 알아보기 (따라가기) | 해당 사항 없음 | 2023년 3월 8일 |
+| **모바일 대시보드의 데이터 스토리** | 데이터 스토리를 사용하면 모바일 스코어카드 프로젝트의 타일에 사용자 지정 가능한 여러 세부 정보 보기를 추가할 수 있습니다. 데이터 스토리를 사용하여 주요 동인, 관련 지표 및 고객 여정의 다양한 단계를 자세히 알아보십시오. 이러한 보기를 쉽게 스와이프하여 주요 지표에 숨겨진 전체 스토리를 이해할 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 해당 사항 없음 | 2023년 3월 8일 |
 | **예약된 프로젝트에 대한 만료일** | 예약 빈도에 상관없이 예약된 프로젝트에 대한 최대 만료 날짜를 최대 1년으로 설정할 수 있습니다. | 해당 사항 없음 | 2023년 3월 8일 |
 | **프로젝트에 대한 링크 공유(로그인 필요 없음)** - 비공개 Beta 액세스만 | <p>이제 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 Adobe Analytics 액세스 권한이 없는 사용자와 공유할 수 있습니다. 조직 외부 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내 사용자와 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>개인 Beta에 참여하려면 Adobe 계정 팀에 문의하십시오.</p> | 2023년 3월 15일(비공개 베타) | 2023년 4월 |
 
