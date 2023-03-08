@@ -3,10 +3,10 @@ description: 기존 보고서 세트에서 설정을 복사한 경우 시스템 
 title: 소스 보고서 세트에서 복사되지 않은 설정
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 규칙 </p> </td> 
-   <td colname="col2"> <p>엔지니어링 서비스에 문의하려면 Adobe 계정 팀에 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>고객 성공 관리자에게 문의하여 엔지니어링 서비스에 연락합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

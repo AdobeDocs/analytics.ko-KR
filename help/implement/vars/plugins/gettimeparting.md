@@ -3,16 +3,18 @@ title: getTimeParting
 description: 특정 동작이 발생하는 시간을 측정합니다.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: getTimeParting
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getTimeParting` 플러그인을 사용하면 사이트에서 측정 가능한 활동이 발생하는 시간을 세부적으로 캡처할 수 있습니다. 이 플러그인은 주어진 날짜 범위에서 반복 가능한 시간 분할로 지표를 분류하려 할 때 유용합니다. 예를 들어 모든 일요일과 모든 목요일 등 두 가지 서로 다른 요일 간의 전환율을 비교할 수 있습니다. 또한 아침이나 저녁과 같은 하루 동안의 시간 부분을 비교할 수도 있습니다.
 

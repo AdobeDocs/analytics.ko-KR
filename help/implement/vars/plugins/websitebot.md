@@ -3,16 +3,18 @@ title: websiteBot
 description: 마우스 움직임을 사용하여 동적으로 보트를 식별합니다.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: websiteBot
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `websiteBot` 플러그인을 통해 데스크탑 방문자가 보트인지를 동적으로 식별할 수 있습니다. 이 데이터를 사용하면 모든 유형의 보고에서 정확성을 더 높일 수 있으므로 올바른 사이트 트래픽을 더 정확하게 측정할 수 있습니다.
 

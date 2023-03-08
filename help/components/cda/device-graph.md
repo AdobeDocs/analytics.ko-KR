@@ -2,10 +2,10 @@
 title: Device Graph
 description: Device Graph를 사용하여 데이터 결합의 사전 요구 사항과 제한 사항을 이해합니다.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 62%
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 62%
 
 ## Device Graph별 사전 요구 사항
 
-Device Graph 방법을 사용하여 크로스 디바이스 분석을 구현하려는 경우 다음 조건을 충족해야 합니다. 조직 내의 팀 및 Adobe 계정 팀과 함께 다음 사항을 모두 충족하는지 확인합니다.
+Device Graph 방법을 사용하여 크로스 디바이스 분석을 구현하려는 경우 다음 조건을 충족해야 합니다. 조직 내 팀 및 Adobe 계정 관리자와 함께 다음 사항을 모두 충족하도록 하십시오.
 
 >[!WARNING]
 >

@@ -3,10 +3,10 @@ description: 과금 페이지에서는 각 보고서 세트에 대한 트래픽 
 title: 과금
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 91%
+source-wordcount: '503'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->과금 탭에 대한 액세스가 회사에 대해 비활성화된 경우 Adobe 계정 팀에 문의하십시오.
+>과금 탭에 대한 액세스가 회사에 대해 비활성화된 경우 계정 관리자에게 문의하십시오.
 
 [과금] 페이지의 트래픽 개요 데이터를 사용하여 보고서의 페이지 보기 데이터를 청구서의 과금 가능한 서버 호출과 상호 연관시킬 수 있습니다. [!UICONTROL 과금] 페이지에서 다음을 수행할 수 있습니다.
 

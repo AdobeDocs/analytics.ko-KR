@@ -3,16 +3,18 @@ title: getPercentPageViewed
 description: 방문자가 본 페이지의 비율을 검색합니다.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '644'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: getPercentPageViewed
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getPercentPageViewed` 플러그인은 방문자의 스크롤 활동을 측정하여 다른 페이지로 이동하기 전에 표시되는 페이지 양을 확인합니다. 페이지 높이가 작거나 스크롤 활동을 측정하지 않으려는 경우에는 이 플러그인이 필요하지 않습니다.
 

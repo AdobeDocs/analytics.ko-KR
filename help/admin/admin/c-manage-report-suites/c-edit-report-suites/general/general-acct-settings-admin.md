@@ -4,10 +4,10 @@ title: 일반 계정 설정
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '809'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 | 거래 ID 스토리지 | [거래 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) 데이터 소스를 사용할 수 있습니다. |
 | Data Warehouse 활성화 | 도구 > Data Warehouse에서 Data Warehouse UI를 활성화합니다. |
 | 우편번호 옵션 | 지역 IP 조회 생성 대신 우편번호를 지정할 수 있습니다. |
-| 멀티바이트 문자 지원 | 멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신 시 시스템에서는 웹 페이지의 문자 세트 데이터를 UTF-8 문자 세트로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다. 기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 Adobe 계정 팀이나 고객 지원 센터에 문의하십시오. |
+| 멀티바이트 문자 지원 | 멀티바이트 문자 지원은 UTF-8을 사용하여 보고서 세트의 문자를 저장합니다. 수신 시 시스템에서는 웹 페이지의 문자 세트 데이터를 UTF-8 문자 세트로 전환하므로 마케팅 보고서에서 모든 언어를 사용할 수 있습니다. 기존 보고서 세트에 대한 멀티바이트 문자 지원을 변경하려면 계정 관리자 또는 고객 지원 센터에 문의하십시오. |
 | 활성화됨 | 이 보고서 세트가 활성화되는지 여부를 지정합니다. |
 | 기본 통화 | 이 보고서 세트에 대한 기본 [통화](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)를 지정할 수 있습니다. |
 | 조직 ID | 공급된 Experience Cloud 회사와 연결된 ID입니다. 이 ID는 24자의 영숫자 문자열과 @AdobeOrg(포함 필수)로 구성됩니다. |

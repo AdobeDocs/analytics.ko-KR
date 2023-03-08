@@ -3,16 +3,18 @@ title: p_fo (첫 번째 페이지만)
 description: 특정 루틴이 페이지당 한 번만 실행되도록 합니다.
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: p_fo (첫 번째 페이지만)
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `p_fo` 플러그인은 특정 JavaScript 개체가 있는지 확인하는 유틸리티입니다. 해당 개체가 없으면 플러그인이 개체를 만들고 `true`를 반환합니다. 페이지에 JavaScript 개체가 이미 있으면 `false`를 반환합니다. 이 플러그인은 페이지에서 코드를 정확히 한 번만 실행하는 데 유용합니다. 몇 가지 다른 플러그인은 이 코드를 사용하여 작동합니다. 페이지에서 코드가 몇 번 실행되는지 걱정되지 않거나 종속 플러그인을 사용하지 않는 경우에는 이 플러그인이 필요하지 않습니다.
 

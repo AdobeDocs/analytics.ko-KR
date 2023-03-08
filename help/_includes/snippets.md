@@ -1,5 +1,5 @@
 ---
-source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
+source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 91%
@@ -62,6 +62,7 @@ ht-degree: 91%
 >[!AVAILABILITY]
 >
 >이 섹션에서 설명하는 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+
 
 ## 플러그인 면책조항 {#plug-in}
 

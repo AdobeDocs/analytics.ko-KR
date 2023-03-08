@@ -3,10 +3,10 @@ title: 분류 FAQ
 description: 분류 사용에 대한 FAQ입니다.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
    *[차원]이 `0`과 같은 경우 [차원]의 값을 사용자 지정 값 `Zero`으로 덮어씁니다.*
 
-* **VISTA 규칙 요청**: 엔지니어링 서비스 컨설턴트는 추가 비용으로 서버 측 규칙을 설정해 줍니다. VISTA 규칙을 요청하려면 Adobe 계정 팀에 문의하십시오.
+* **VISTA 규칙 요청**: 엔지니어링 서비스 컨설턴트는 추가 비용으로 서버 측 규칙을 설정해 줍니다. VISTA 규칙을 요청하려면 조직의 계정 관리자에게 문의하십시오.
 
 ## 분류 임포터를 사용하여 아직 존재하지 않는 차원 항목을 분류할 수 있습니까?
 

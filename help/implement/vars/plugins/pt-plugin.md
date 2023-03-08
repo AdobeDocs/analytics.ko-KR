@@ -3,16 +3,18 @@ title: pt
 description: 변수 목록에 대해 함수를 실행합니다.
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '502'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: pt
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `pt` 플러그인은 Analytics 변수 목록에서 함수나 메서드를 실행합니다. 예를 들어 매번 수동으로 함수를 호출하지 않고 몇 개의 변수에서 [`clearVars`](../functions/clearvars.md) 함수를 선택적으로 실행할 수 있습니다. 몇 가지 다른 플러그인은 이 코드를 사용하여 올바로 실행됩니다. 한 번에 두 개 이상의 Analytics 변수에서 특정 함수를 실행할 필요가 없거나 종속 플러그인을 사용하지 않는 경우에는 이 플러그인이 필요하지 않습니다.
 

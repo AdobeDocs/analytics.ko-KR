@@ -4,10 +4,10 @@ keywords: ftp, sftp
 title: FTP 계정 설정 - 개요
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Adobe 고객은 유지 관리 이벤트가 예약된 대로 표준 프로세스�
 * 데이터가 해당 시스템으로 성공적으로 전송되면 사용자는 Adobe에서 FTP 계정에 제공한 데이터를 제거해야 합니다.
 * FTP 계정이 더 이상 필요하지 않으므로 비활성화할 수 있는 경우 Adobe에 알립니다.
 
-Adobe FTP 호스트 이름은 `ftp.omniture.com` 또는 `ftp2.omniture.com`입니다.
+Adobe FTP 호스트 이름은 [!DNL ftp.omniture.com] 또는 [!DNL ftp2.omniture.com]입니다.
 
-이 정보는 사용자 이름 및 암호와 함께 [!UICONTROL Experience Cloud]  (분류 및 데이터 소스)에 제공해야 하거나, 요청 시 계정 설정을 담당하는 Adobe 담당자가 제공해야 합니다. 사용할 FTP 주소를 모를 경우 올바른 주소를 제공할 수 있는 Adobe 계정 팀에 문의하십시오. 또한, 분류 및 Data Sources 계정에 대해 Adobe는 FTP 파일이 처리되는 특정 시간이 없습니다. 대신 Adobe는 새 파일 프로세스에 대해 FTP 계정을 지속적으로 폴링하는 스크립트를 사용합니다. 이러한 계정에 업로드된 파일은 가능한 한 빨리 처리됩니다.
+이 정보는 사용자 이름 및 암호와 함께 [!UICONTROL Experience Cloud]  (분류 및 데이터 소스)에 제공해야 하거나, 요청 시 계정 설정을 담당하는 Adobe 담당자가 제공해야 합니다. 사용할 FTP 주소를 모를 경우 올바른 주소를 제공할 수 있는 Adobe 계정 관리자에게 문의하십시오. 또한, 분류 및 Data Sources 계정에 대해 Adobe는 FTP 파일이 처리되는 특정 시간이 없습니다. 대신 Adobe는 새 파일 프로세스에 대해 FTP 계정을 지속적으로 폴링하는 스크립트를 사용합니다. 이러한 계정에 업로드된 파일은 가능한 한 빨리 처리됩니다.

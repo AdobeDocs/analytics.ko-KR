@@ -4,10 +4,10 @@ title: Reports and Analytics 시작하기
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 95%
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Reports &amp; Analytics 인터페이스에 로그인하기 위한 브라우저 �
 
 ## Reports &amp; Analytics에 로그인
 
-인터페이스에 액세스하려면 먼저 Adobe 계정 팀이나 Adobe 고객 지원 팀과 함께 회사의 계정을 설정해야 합니다.
+인터페이스에 액세스하려면 먼저 계정 관리자나 Adobe 고객 지원 팀과 함께 회사의 계정을 설정해야 합니다.
 
 ## Experience Cloud를 사용하여 로그인
 

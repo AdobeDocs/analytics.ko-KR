@@ -3,16 +3,18 @@ title: getGeoCoordinates
 description: 방문자의 geoLocation을 추적합니다.
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: getGeoCoordinates
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getGeoCoordinates` 플러그인을 사용하면 방문자 디바이스의 위도와 경도를 캡처할 수 있습니다. Analytics 변수에서 지리적 위치 데이터를 캡처하려면 이 플러그인을 사용하는 것이 좋습니다.
 

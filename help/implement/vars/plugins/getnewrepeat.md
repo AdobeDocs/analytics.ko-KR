@@ -3,16 +3,18 @@ title: getNewRepeat
 description: 신규 방문자와 재방문자의 활동을 추적합니다.
 feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: getNewRepeat
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getNewRepeat` 플러그인을 사용하면 원하는 일 수 내에 사이트 방문자가 신규 방문자인지 재방문자인지를 파악할 수 있습니다. 사용자 지정 일 수를 사용하여 방문자를 &quot;신규&quot;로 식별하려면 이 플러그인을 사용하는 것이 좋습니다. Analysis Workspace의 신규/재방문자 차원이 조직의 요구 사항에 맞는 경우 이 플러그인은 불필요합니다.
 

@@ -3,16 +3,18 @@ title: manageVars
 description: 한 번에 두 개 이상의 Analytics 변수 값을 변경합니다.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '597'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: manageVars
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `manageVars` 플러그인을 사용하면 여러 Analytics 변수의 값을 한 번에 조작할 수 있습니다. 값을 소문자로 설정하거나 여러 변수 값에서 불필요한 문자를 동시에 제거할 수도 있습니다. 여러 변수의 값을 한 번에 정리하려면 이 플러그인을 사용하는 것이 좋습니다.
 

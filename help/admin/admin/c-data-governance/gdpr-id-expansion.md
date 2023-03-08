@@ -3,10 +3,10 @@ description: 제출하는 ID가 Analytics에서 데이터 주체와 연결할 �
 title: ID 확장
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 97%
+source-wordcount: '1348'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 | 쿠키 ID 확장 | 많은 Analytics 고객이 처음에는 (기존) [Analytics 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html?lang=ko)를 사용했지만, 이제는 [ECID(Experience Cloud ID 서비스)](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용합니다. 전환 후 처음 방문한 해당 웹 사이트 방문자의 경우 ECID만 존재합니다. 그러나 기존 쿠키만 사용할 수 있을 때 처음 방문했지만 이후에도 방문한 사용자의 경우 일부 데이터에 두 쿠키가 모두 포함되어 있습니다. 그러나 오래된 데이터에는 Analytics 쿠키만 있으며, 드문 경우 최신 데이터에는 ECID만 있을 수 있습니다.<p>Analytics (방문자 ID) 쿠키 또는 ECID를 통해 식별된 방문자에 대한 모든 데이터를 찾아야 합니다. 현재 ECID를 사용하고 이전에 Analytics 쿠키를 사용한 경우 두 가지 유형의 ID 중 하나를 사용하여 요청을 제출할 때마다 두 ID를 모두 요청에 포함하거나 `expandIds` 옵션을 지정해야 합니다. `expandIds`를 지정하면 Adobe는 사용자가 제공한 쿠키 ID에 해당하는 다른 ECID 또는 Analytics 쿠키를 확인합니다. 새로 식별된 쿠키 ID를 포함하도록 요청이 자동으로 확장됩니다. |
 | 쿠키 ID 확장에 대한 사용자 정의 ID | 전자 상거래 웹 사이트에서는 방문자가 사이트에 로그인하기 전에 사이트를 탐색하고 장바구니에 항목을 추가한 후 체크아웃 프로세스를 시작하는 일이 흔합니다. 데이터 개인정보 보호 요청에 대해 사용자를 식별하는 데 사용된 ID가 사용자가 로그인한 경우에만 사용자 정의 변수에 저장되는 경우 이 사전 로그인 활동은 ID와 연관되지 않습니다. Analytics 쿠키 ID를 사용하면 쿠키 ID가 로그인하는 동안 유지되므로 고객이 로그인 전에 수행한 탐색과 로그인 후 구매한 항목을 연결하도록 선택할 수 있습니다.<p>구현 시 사용자 정의 변수 (prop 또는 eVar) 또는 사용자 정의 방문자 ID에 로그인 ID(CRM ID, 사용자 이름, 로열티 번호, 이메일 주소 등, 또는 이러한 값 중 하나의 해시)를 저장하고 데이터 개인정보 보호 액세스 요청에 대해 이 ID를 사용한다고 가정해 봅시다. 데이터 주체는 탐색에 대한 모든 정보가 액세스 요청의 일부로 반환되지 않고, 특히 보긴 했지만 아직 구입하지 않은 항목을 승격시킨 경우 반환되지 않는다는 점에 대해 의아해할 수 있습니다. 따라서 Analytics 데이터 개인정보 보호 처리에서는 Analytics에서 사용자 정의 ID와 동일한 히트에서 발생하는 모든 쿠키 ID를 찾아서 그러한 ID를 포함하도록 요청을 확장하는 ID 확장을 지원합니다.<p>쿠키 네임스페이스 이외의 모든 네임스페이스와 함께 `expandIDs`가 지정된 경우, 요청은 지정된 ID를 포함하는 히트에 있는 모든 쿠키 ID(ECID 또는 Analytics 쿠키)를 포함하도록 확장됩니다. 위에서 설명한 대로 쿠키 ID 확장은 새로 발견된 모든 쿠키 ID에서 수행됩니다.<p>`expandIDs` 옵션이 액세스 요청에 사용되고 지정된 ID에 ID-PERSON 레이블이 있는 경우 두 개의 파일 세트가 반환됩니다. 첫 번째 세트 (개인 세트)는 지정된 ID가 발견된 히트의 데이터만 포함합니다. 두 번째 세트 (디바이스 세트)는 지정된 ID가 없는 확장된 ID의 히트에서만 데이터를 포함합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ID 확장 사용 시기
 
@@ -59,4 +59,4 @@ Adobe가 ID 확장을 수행할 때 추가적인 전체 데이터 스캔이 필�
 
 또한 데이터 개인정보 보호 삭제 요청으로 인해 히트가 삭제 (업데이트 또는 익명 처리)된 방문자의 상태 정보는 재설정된다는 사실을 알고 있어야 합니다. 따라서 다음번에 방문자가 사용자의 웹 사이트로 돌아가면 새 방문자로 간주됩니다. 방문 수, 레퍼러, 방문한 첫 번째 페이지 등의 정보와 마찬가지로 모든 eVar 속성이 다시 시작됩니다. 데이터 필드를 지우려는 경우 바람직하지 않으며, Privacy Service API가 이 사용에 대해 부적절한 이유 중 하나를 강조 표시합니다.
 
-PII를 제거하거나 데이터 문제를 해결하기 위한 노력을 더 자세히 검토하고 제공하도록 Engineering Architect(엔지니어링 설계) 컨설팅팀과 상의하려면 Adobe 계정 팀에 문의하십시오.
+계정 관리자에게 문의(CSM)하여 PII를 제거하거나 데이터 관련 문제를 해결하는 데 필요한 노력을 더 자세히 검토하고 제공하도록 Engineering Architect(엔지니어링 설계) 컨설팅팀과 상의하십시오.

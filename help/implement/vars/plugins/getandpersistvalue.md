@@ -3,16 +3,18 @@ title: getAndPersistValue
 description: 언제든지 나중에 검색할 수 있는 값을 저장합니다.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 91%
+source-wordcount: '481'
+ht-degree: 92%
 
 ---
 
 # Adobe 플러그인: getAndPersistValue
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getAndPersistValue` 플러그인을 사용하면 방문 중에 나중에 검색할 수 있는 쿠키에 값을 저장할 수 있습니다. 이는 과 유사한 역할을 합니다. [!UICONTROL 저장 기간] Adobe Experience Platform 데이터 수집 내의 Adobe Analytics 확장 기능. 변수가 설정된 후 Analytics 변수를 후속 히트에서 동일한 값으로 자동으로 유지하려면 이 플러그인을 사용하는 것이 좋습니다. 다음과 같은 경우에는 이 플러그인이 필요하지 않습니다. [!UICONTROL 저장 기간] analytics 확장 기능이면 충분합니다. 변수를 후속 히트에서 동일한 값으로 설정하여 유지할 필요가 없는 경우에도 이 플러그인이 필요하지 않습니다. eVar는 Adobe에 의해 서버측에서 지속되어 기본적으로 지속성이 탑재되므로 이 플러그인을 사용할 필요가 없습니다.
 

@@ -3,16 +3,18 @@ title: getTimeToComplete
 description: 작업을 완료하는 데 걸린 시간을 측정합니다.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: getTimeToComplete
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `getTimeToComplete` 플러그인은 사용자가 사이트에서 프로세스를 완료하는 데 걸리는 시간을 추적합니다. 시계는 `start` 작업이 호출될 때 시작되고 `stop` 작업이 호출될 때 종료됩니다. 사이트에서 완료하는 데 시간이 걸리는 워크플로가 있고 방문자가 완료하는 데 걸리는 시간을 알고 싶은 경우 이 플러그인을 사용하는 것이 좋습니다. 세부 기간이 단 1초로만 줄어들기 때문에 사이트의 워크플로가 소요되는 시간이 짧은 경우 (3초 미만) 이 플러그인을 사용할 필요가 없습니다.
 

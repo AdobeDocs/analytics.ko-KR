@@ -3,10 +3,10 @@ title: 솔루션 디자인 문서 만들기
 description: 솔루션 디자인 문서가 무엇이고 솔루션 디자인 문서를 조직에서 사용하는 방법을 알아봅니다.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 97%
+source-wordcount: '696'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 ## 추가 리소스
 
-솔루션 디자인 문서를 정의하는 것은 매우 복잡한 프로젝트입니다. 특히 이전에 솔루션 디자인 문서를 만들지 않은 조직의 경우 더욱 그러합니다. 추가 지원이 필요한 경우 Adobe는 조직이 Adobe Analytics를 사용하여 구축하고 실행할 수 있도록 전문적인 컨설팅을 제공합니다. Adobe의 전문 서비스를 등록하려면 Adobe 계정 팀에 문의하십시오. [기술 사전 구현 설문 조사](assets/technical-pre-implementation-questionnaire.pdf)를 작성할 수 있으므로 Adobe는 조직의 요구 사항에 따라 도움을 주는 방법을 정확히 알고 있습니다.
+솔루션 디자인 문서를 정의하는 것은 매우 복잡한 프로젝트입니다. 특히 이전에 솔루션 디자인 문서를 만들지 않은 조직의 경우 더욱 그러합니다. 추가 지원이 필요한 경우 Adobe는 조직이 Adobe Analytics를 사용하여 구축하고 실행할 수 있도록 전문적인 컨설팅을 제공합니다. Adobe 전문가 서비스를 등록하려면 계정 관리자에게 문의하십시오. [기술 사전 구현 설문 조사](assets/technical-pre-implementation-questionnaire.pdf)를 작성할 수 있으므로 Adobe는 조직의 요구 사항에 따라 도움을 주는 방법을 정확히 알고 있습니다.
 
 또한 솔루션 디자인 문서 작성을 지원하고 사이트에서 Adobe Analytics를 구현하는 데 전문적인 여러 Adobe 파트너가 있습니다.
 

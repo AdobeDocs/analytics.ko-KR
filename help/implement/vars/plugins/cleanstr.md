@@ -3,16 +3,18 @@ title: cleanStr
 description: 문자열에서 모든 불필요한 문자를 제거하거나 바꿉니다.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 80%
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
 # Adobe 플러그인: cleanStr
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `cleanStr` 플러그인은 HTML 태그 문자, 추가 공백, 탭, 줄바꿈/캐리지 리턴 등 문자열에서 불필요한 모든 문자를 제거하거나 대체합니다. 또한 왼쪽/오른쪽 작은 따옴표 (`‘` 및 `’`)를 곧은 작은 따옴표 (`'`)로 바꿉니다. Adobe 값에서 불필요한 문자를 제거하려 하는데 Adobe Experience Platform 데이터 수집의 &#39;텍스트 정리&#39; 기능이 구현 요구 사항을 충족하지 않는 경우 이 플러그인을 사용하는 것이 좋습니다. 수집된 데이터에 불필요한 문자가 포함되어 있지 않거나 Adobe Experience Platform 데이터 수집에서 &#39;텍스트 정리&#39; 기능으로 충분한 경우 이 플러그인은 필요하지 않습니다.
 

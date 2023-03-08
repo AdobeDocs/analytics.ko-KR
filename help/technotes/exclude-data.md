@@ -2,10 +2,10 @@
 title: Adobe Analytics에서 데이터 제외
 description: 데이터 수집 전후에 데이터를 제외하는 것과 관련한 다양한 방법에 대해 알아봅니다.
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 * **IP로 제외**: Adobe Analytics는 보고서 세트에서 IP 주소 또는 범위에 대한 데이터를 제외하는 기본 기능을 제공합니다. 관리자 사용 안내서의 [IP로 제외](/help/admin/admin/exclude-ip.md)를 참조하십시오.
 * **봇 규칙**: 봇 규칙은 알려진 봇 사용자 에이전트 문자열에서 트래픽을 가져와 Analytics 보고서에서 제외합니다. 봇 규칙을 통해 제외된 데이터는 봇 보고서에 배치됩니다. 추가 데이터를 제외하기 위해 사용자 지정 봇 규칙을 만들 수 있습니다. 관리자 사용 안내서의 [봇 규칙](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)을 참조하십시오.
-* **VISTA 규칙**: 조직의 필요에 따라 사용자의 요구 사항과 일치하는 히트는 제외된 데이터 수신 전용의 다른 보고서 세트로 전송됩니다. VISTA 규칙은 일반적으로 IP 주소에 대해 사용되지만 이에 국한되지는 않습니다. 모든 차원을 사용하여 보고서 세트에 데이터를 포함하거나 제외할 수 있습니다. VISTA 규칙에는 추가 비용이 적용됩니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+* **VISTA 규칙**: 조직의 필요에 따라 사용자의 요구 사항과 일치하는 히트는 제외된 데이터 수신 전용의 다른 보고서 세트로 전송됩니다. VISTA 규칙은 일반적으로 IP 주소에 대해 사용되지만 이에 국한되지는 않습니다. 모든 차원을 사용하여 보고서 세트에 데이터를 포함하거나 제외할 수 있습니다. VISTA 규칙에는 추가 비용이 적용됩니다. 자세한 내용은 조직의 계정 관리자에게 문의하십시오.
 * **옵트아웃 쿠키**: 귀하의 사이트에 대한 모든 방문자는 귀하의 추적 서버와 관련된 페이지를 방문하여 Adobe Analytics에서 추적되는 것을 자발적으로 거부할 수 있습니다. 구현 사용 안내서의 [옵트아웃 링크 구현](/help/implement/js/opt-out.md)을 참조하십시오.
 
 >[!TIP]

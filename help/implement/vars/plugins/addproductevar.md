@@ -3,16 +3,18 @@ title: addProductEvar
 description: products 변수에 머천다이징 eVar를 추가합니다.
 feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
 
 # Adobe 플러그인: addProductEvar
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
 
 `addProductEvar` 플러그인을 사용하면 products 변수의 기존 콘텐츠가 변경/이동/삭제될지 여부에 관계없이 제품 구문을 사용하는 Adobe Analytics 머천다이징 eVar를 products 변수에 쉽게 추가할 수 있습니다. 제품 구문 머천다이징 eVar를 [`products`](../page-vars/products.md) 변수에 쉽게 추가하려면 이 플러그인을 사용하는 것이 좋습니다. 제품 구문과 함께 머천다이징 eVar를 사용하지 않는 경우에는 `addProductEvar` 플러그인을 사용할 필요가 없습니다.
 
