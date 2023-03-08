@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
+source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '690'
+ht-degree: 95%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 0%
       + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
-   + [기존 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
+   + [이전 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산된(파생된) 지표](c-calcmetrics/cm-overview.md)
@@ -201,6 +201,7 @@ ht-degree: 0%
       + [지표 호환성](c-calcmetrics/cm-compatibility.md)
       + [계산된 지표: 역할 기반 권한](c-calcmetrics/cm-role-based-rights.md)
       + [계산된 지표 합계](c-calcmetrics/cm-totals.md)
+      + [기본 계산된 지표](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
    + [가상 보고서 세트 - 구성 요소 큐레이션](vrs/vrs-components.md)
