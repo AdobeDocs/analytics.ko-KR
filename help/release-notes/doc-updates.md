@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
 workflow-type: tm+mt
-source-wordcount: '3693'
-ht-degree: 99%
+source-wordcount: '3773'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 99%
 | --- | --- |
 | **2023년 3월** |  |
 | 기본 계산된 지표 | 을(를) 설명하는 컨텐츠가 추가되었습니다. [Adobe에서 제공한 기본 계산된 지표](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| 데이터 사전 | <p>데이터 사전에 대한 새 설명서에 다음 내용을 추가했습니다. [개요](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [편집 중](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), 및 [모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) 데이터 사전.</p><p>의 정보 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md) 가 데이터 사전 기능을 고려하도록 업데이트되었습니다.</p> |
+| 프로젝트에 대한 링크 공유(로그인 필요 없음) | <p>Analysis Workspace에 대한 액세스 권한이 없는 사용자와 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하도록 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서에는 다음이 포함됩니다 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>관리자를위한 옵션이에 추가되었습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md).</p> |
 | **2023년 2월** |  |
 | 구현 | [웹 및 모바일용 Adobe Analytics를 구현](../implement/home.md)하는 방법에 대한 내용이 업데이트되었습니다. |
 | Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)를 참조하십시오. |
