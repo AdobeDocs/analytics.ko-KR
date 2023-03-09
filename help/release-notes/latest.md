@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
+source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1058'
 ht-degree: 58%
 
 ---
 
 # 현재 Adobe Analytics 릴리스 정보 (2023년 3월)
 
-**마지막 업데이트**: 2023년 3월 7일
+**마지막 업데이트**: 2023년 3월 9일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -44,7 +44,7 @@ AN-308177, AN-308727, AN-308846, AN-309591, AN-310614, AN-311544, AN-311570, AN-
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
 | **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2023년 3월 7일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2023년 12월 31일에 예약된 보고서, 데이터 추출 및 DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능이 종료됩니다. 2023년 12월 31일 이후에는 예약된 보고서가 더 이상 전송되지 않습니다. 위치 **2023년 4월**, 2023년 12월 31일 이후에 만료되도록 예약된 모든 보고서는 자동으로 업데이트되고 2023년 12월 31일에 만료되도록 되돌려집니다. 또한 2023년 12월 31일 이후에는 더 이상 향후 보고서를 예약할 수 없습니다. |
-| **의 EOL [!UICONTROL 사람] 지표** | 2023년 2월 28일 | 의 사용 중단 시 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html), Device Co-op 관련 사용자 지표는 더 이상 관련이 없습니다. 가까운 미래(날짜 TBD)에 이 항목을 제거합니다 [!UICONTROL 사람] 지표. 이 시점에서 해당 데이터를 [!UICONTROL 고유 방문자] 지표 를 사용하십시오.<p>**참고**: [[!UICONTROL 사람] 크로스 디바이스 분석에 연결된 지표](/help/components/metrics/people.md) 은(는) 이 발표의 영향을 받지 않습니다. |
+| **의 EOL [!UICONTROL 사람] 지표** | 2023년 3월 9일 | 의 사용 중단 시 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html), Device Co-op 관련 사용자 지표는 더 이상 관련이 없습니다. 2023년 5월 8일에 [!UICONTROL 사람] 지표. 이 시점에서 해당 데이터를 [!UICONTROL 고유 방문자] 지표 를 사용하십시오.<p>**참고**: [[!UICONTROL 사람] 크로스 디바이스 분석에 연결된 지표](/help/components/metrics/people.md) 은(는) 이 발표의 영향을 받지 않습니다. |
 | **[!UICONTROL 게시 목록] 기능의 EOL** | 2022년 9월 29일 | Reports &amp; Analytics 서비스 중단의 일환으로 [!UICONTROL 게시 목록] 다음 주에 수명이 종료될 예정입니다. **2023년 12월**. 새 항목을 만들거나 기존 항목에 액세스할 수 없습니다. [!UICONTROL 게시 목록] 전송 또는 예약하기 [!UICONTROL Analysis Workspace] 프로젝트. |
 | **Data Workbench용 EOL** | 2022년 9월 14일 | Adobe는 **2023년 12월 31일**&#x200B;부로 Data Workbench의 서비스를 종료할 예정입니다. 자세한 내용은 [Data Workbench 서비스 종료 공지](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ko-KR)를 참조하십시오. 문의 사항이 있으면 조직의 Adobe 계정 관리자에게 문의하십시오. |
 | **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2022년 1월 4일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다. |
