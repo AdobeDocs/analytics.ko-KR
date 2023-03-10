@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
+source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 69%
+source-wordcount: '1584'
+ht-degree: 70%
 
 ---
 
@@ -140,9 +140,9 @@ Analysis Workspace 프로젝트에 대한 공개 링크를 공유하려면 다�
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
-      이 옵션을 활성화하면 Federated ID를 가지고 Adobe Experience Cloud에 로그인할 수 있는 수신자만 공유 공개 링크에 액세스할 수 있습니다. 공유 프로젝트에 대한 액세스 권한을 얻으려면 해당 링크를 가진 사용자가 Adobe Experience Cloud 로그인으로 인증해야 합니다.
+      이 옵션이 활성화되면 공유 중인 프로젝트를 만든 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 이 링크를 사용할 수 있습니다.
 
-      Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 지정할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
+      Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
 
       * 이 옵션이 표시되지 않으면 Analytics 관리자가 이 기능을 활성화하지 않은 것입니다.
 
