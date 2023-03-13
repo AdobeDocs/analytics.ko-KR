@@ -116,7 +116,7 @@ ht-degree: 97%
 | 2021년 3월, 4월 | Adobe Analytics 대시보드의 [경영진 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) 및 [큐레이터 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) 업데이트 |
 | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지의 새 설명서. 이를 통해 사용자에 대한 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정] 은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>작업 영역 프로젝트: 도움말 > 활성화 팁</li><li>작업 영역 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
 | 2021년 3월 25일 | [!UICONTROL 막대 그래프 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프를 지원합니다. 낮은 카디널리티 지표의 경우 시각화는 이전과 동일하게 작동합니다. |
-| 2021년 3월 25일 | [데이터 복구 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 업데이트(URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
+| 2021년 3월 25일 | [데이터 복구 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 업데이트 (URL, 쿼리 문자열, @ 기호 등에 대한 필터링) |
 | 2021년 3월 25일 | 새 [사용 로그 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 설명서 |
 | **2021년 2월** |  |
 | 2021년 2월 4일 | 구성 요소 선택: [!UICONTROL 빠른 인사이트]에 있는 드롭다운/놓기 영역 구성 요소를 [!UICONTROL 작업 영역]의 모든 드롭 영역에 추가했습니다. 이 개선 사항을 통해 호환되는 구성 요소의 드롭다운 목록에서 선택하거나 공간을 놓기 영역으로 계속 사용할 수 있습니다. |
@@ -167,7 +167,7 @@ ht-degree: 97%
 | 2020년 5월 21일 | 향상된 키보드 탐색, 색상 대비 및 화면 판독기 지원을 포함하여 Analysis Workspace의 [접근성 향상](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html)에 대한 새로운 설명서입니다. |
 | **2020년 4월** |  |
 | 2020년 4월 28일 | [콘텐츠 속도](/help/components/metrics/content-velocity.md) 지표에 대한 설명서를 추가했습니다. |
-| 2020년 4월 16일 | 빈 상태에서 [!UICONTROL 자유 형식 테이블]을 자동으로 작성하는 방법에 대한 설명서입니다. 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 [!UICONTROL 자유 형식 테이블]에 함께 끌어 놓을 때 혼합 구성 요소 유형 (예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
+| 2020년 4월 16일 | 빈 상태에서 [!UICONTROL 자유 형식 테이블]을 자동으로 작성하는 방법에 대한 설명서입니다. 이전에는 구성 요소를 빈 프로젝트 또는 빈 패널에 직접 끌어 놓을 수 없었습니다. 자유 형식 테이블을 먼저 추가해야 했습니다. 이제 구성 요소를 빈 프로젝트 또는 패널에 직접 끌어 놓을 수 있으며 자유 형식 테이블이 권장 형식으로 자동으로 작성됩니다. 또한 빈 [!UICONTROL 자유 형식 테이블]에 함께 끌어 놓을 때 혼합 구성 요소 유형(예: 차원 및 지표)이 처리되는 방식이 개선되었습니다. |
 | **2020년 3월** |  |
 | 2020년 3월 12일 | [Experience Cloud에 세그먼트 게시](/help/components/segmentation/segmentation-workflow/seg-publish.md)에 대한 업데이트를 추가했습니다. |
 | 2020년 3월 12일 | CDA 결합 지연에 대한 업데이트. |
@@ -210,7 +210,7 @@ ht-degree: 97%
 | 2019년 9월 19일 | [논리 그룹 컨테이너](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html#logic-group-containers)를 설명하기 위해 세분화 문서를 수정했습니다. |
 | 2019년 9월 12일 | [Journey IQ: 크로스 디바이스 분석](/help/components/cda/overview.md)에 대한 새로운 설명서 |
 | 2019년 9월 12일 | [계산된 지표 합계](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) 문서를 업데이트합니다. |
-| 2019년 8월 28일 | [Analytics용 점진적 웹 앱 (PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
+| 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
 | 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | 작업 영역에서 Adobe는 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
 | 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
