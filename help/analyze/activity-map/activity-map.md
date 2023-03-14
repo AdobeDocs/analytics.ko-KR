@@ -41,7 +41,7 @@ Activity Map을 사용하면 고객 활동의 가속화를 시각적으로 식�
 * [페이지 상세정보](activitymap-page-flow.md)
 * [전체 지표 세트](activitymap-complete-metrics.md)
 * [실시간(라이브) 페이지 분석](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
-* [고객 세그멘테이션](activitymap-multiple-segments.md)
+* [고객 세분화](activitymap-multiple-segments.md)
 * [사용자 정의 가능 오버레이](activitymap-gainerslosers.md)
 * [오버레이 세부정보](activitymap-overlay-details.md)
 * [CSV 파일로 내보내기](activitymap-csv.md)

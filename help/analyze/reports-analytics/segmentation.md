@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Analytics 세그멘테이션{#analytics-segmentation}
+# Analytics 세분화{#analytics-segmentation}
 
 {{ra-eol}}
 

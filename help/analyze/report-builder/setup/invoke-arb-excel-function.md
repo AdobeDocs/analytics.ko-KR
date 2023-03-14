@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '492'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 | 함수 이름 | 설명 |
 |---|---|
-| string AsyncRefreshAll() | 통합 문서에 있는 모든 Report Builder 요청을 새로 고칩니다. |
+| 문자열 AsyncRefreshAll() | 통합 문서에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | string AsyncRefreshRange(string rangeAddressInA1Format) | 지정된 셀 범위 주소에 있는 모든 Report Builder 요청을 새로 고칩니다(&quot;Sheet1!A2:A10&quot;과 같이 A1 형식으로 셀 범위를 나타내는 문자열 표현식). |
 | string AsyncRefreshRangeAltTextParam() | Ms 양식 컨트롤의 대체 텍스트를 통과하는 지정된 셀 범위에 있는 모든 Report Builder 요청을 새로 고칩니다. |
 | string AsyncRefreshActiveWorksheet() | 활성 워크시트에 있는 모든 Report Builder 요청을 새로 고칩니다. |

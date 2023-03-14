@@ -5,8 +5,8 @@ feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '285'
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 페이지에서 보낸 시간에 대해 여러 차원이 존재합니다.
 
-* **페이지 체류 시간 - 그룹**: 시간이 버킷됩니다. 차원 항목의 범위는 `"Less than 15 seconds"`부터 `"More than 30 minutes"`까지 입니다. 히트 사이의 시간은 일반적으로 30분을 넘지 않습니다. 그러나 타임스탬프가 지정된 히트나 데이터 소스를 사용하는 경우 히트 사이의 시간이 30분을 초과할 수 있습니다.
+* **페이지 체류 시간 - 그룹**: 시간이 버킷됩니다. 차원 항목의 범위는 `"Less than 15 seconds"`부터 `"More than 30 minutes"`까지 입니다. 히트 간 시간은 일반적으로 30분을 넘지 않습니다. 하지만 타임스탬프가 지정된 히트 또는 데이터 소스를 사용하는 경우 히트 간 시간은 30분을 초과할 수 있습니다.
 * **페이지 체류 시간 - 세부기간**: 각각의 초 수는 고유한 차원 항목입니다.
 
 체류 시간에 대한 일반적인 정보가 필요하면 [체류 시간 개요](../metrics/time-spent.md)를 참조하십시오.

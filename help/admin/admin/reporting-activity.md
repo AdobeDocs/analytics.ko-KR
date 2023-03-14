@@ -5,8 +5,8 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
+workflow-type: tm+mt
+source-wordcount: '950'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 | **[!UICONTROL 사용 용량]** | 실시간으로 보고서 세트의 보고 용량이 얼마나 사용되고 있는지를 백분율로 표시합니다. |
 | **[!UICONTROL 상태]** | 네 가지 가능한 상태 표시기는 다음과 같습니다. <ul><li>**빨간색 - [!UICONTROL 최대 용량]**: 보고서 세트가 보고 용량 측면에서 최대치를 초과했습니다. (100%) </li><li>**노란색 - [!UICONTROL 용량에 가까워짐]**: 이 보고서 세트가 최대 용량에 도달할 위험이 있습니다. (90% - 99%)</li><li>**녹색 - [!UICONTROL 사용 가능]**: 보고 용량이 충분합니다. (0% - 89%)</li><li>**회색 - [!UICONTROL 보류 중인 상태/활성화되지 않음]**: 보고서 용량을 사용할 수 없습니다.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 기타 보고 활동 작업
 
@@ -94,7 +94,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 | [!UICONTROL 평균 대기 시간] | 실행 중인 모든 쿼리의 평균 대기 시간입니다. |
 | [!UICONTROL 사용 용량] | 이 보고서 세트의 현재 사용 용량입니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 표
 
@@ -114,7 +114,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 | [!UICONTROL 세그먼트] | 이 요청에 적용되는 세그먼트 수입니다. 이로 인해 요청의 복잡성이 가중됩니다. |
 | [!UICONTROL 상태] | 상태 표시기: <ul><li>**실행 중**: 현재 요청을 처리 중입니다.</li><li>**보류 중**: 요청이 처리되기를 대기하고 있습니다.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 보고 요청 취소
 
@@ -139,4 +139,4 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 | --- | --- |
 | 보고 용량을 추가로 구매할 수 있습니까? | 이 기능은 가까운 시일 내에 사용할 수 있습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

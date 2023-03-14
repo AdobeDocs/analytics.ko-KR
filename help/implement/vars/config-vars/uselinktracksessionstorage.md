@@ -6,7 +6,7 @@ exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 81%
 
 AppMeasurement는 Adobe에 히트를 보낸 후 세션 저장소 링크 추적 데이터를 제거합니다. 또한 브라우저 탭이 닫히면 자동으로 만료됩니다.
 
-## Web SDK를 사용하여 링크 추적 세션 저장소 사용
+## 웹 SDK를 사용하여 링크 추적 세션 저장소 사용
 
 웹 SDK는 이 기능을 지원하지 않습니다.
 
 ## Adobe Analytics 확장을 사용하여 링크 추적 세션 저장소 사용
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.useLinkTrackSessionStorage
 

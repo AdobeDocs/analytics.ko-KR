@@ -4,7 +4,7 @@ description: 사이트에서 오류를 반환하는 URL입니다.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 100%
 

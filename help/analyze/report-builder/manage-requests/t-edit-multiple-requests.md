@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
 source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 94%
+source-wordcount: '319'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,6 @@ ht-degree: 94%
 
 ## 한 번에 여러 요청에 세그먼트 추가
 
-다음은 프로세스를 보여주는 비디오입니다.
+다음은 이러한 프로세스를 보여 주는 비디오입니다.
 
 https://video.tv.adobe.com/v/25445/?quality=12

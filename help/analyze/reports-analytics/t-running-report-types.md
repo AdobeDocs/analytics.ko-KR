@@ -59,7 +59,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.c
 
 페이지 흐름 보고서는 방문자가 페이지를 액세스하여 사이트를 탐색하는 순서를 보여줍니다. 이 보고서는 응답하는 데 도움이 됩니다.
 
-다음을 확인하십시오 [플로우 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Analysis Workspace에서
+다음을 확인하십시오. [플로우 시각화](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Analysis Workspace에서
 
 예를 들어 **[!UICONTROL 보고서]** > **[!UICONTROL 경로]** > **[!UICONTROL 페이지]** > **[!UICONTROL 다음 페이지 흐름]**&#x200B;을 클릭합니다.
 
@@ -71,7 +71,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.c
 
 ## 예외 항목 탐지 보고서 실행 {#task_4808C96327354D789C075823F5C3A049}
 
-실행할 수 있습니다 [예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko-KR) Analysis Workspace에서만 사용할 수 있습니다.
+다음을 실행할 수 있습니다. [예외 항목 탐지 및 기여도 분석](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ko-KR) Analysis Workspace에서만 사용할 수 있습니다.
 
 ## 실시간 보고서 실행 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -81,7 +81,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.c
 
 실시간 보고에서는 개요 보고서와 세부 사항 보고서, 이렇게 두 개의 기본 보고서를 제공합니다. 이 보고서들은 각각 많은 reportlet으로 구성됩니다.
 
-자세한 내용은 [실시간 보고 개요](/help/components/c-real-time-reporting/realtime.md) 추가 정보.
+다음을 참조하십시오 [실시간 보고 개요](/help/components/c-real-time-reporting/realtime.md) 추가 정보.
 
 1. **[!UICONTROL 개요]** 보고서 및 그 구성 요소를 살펴 봅니다.  ![](assets/rtr_overview_report.png)
 
@@ -92,7 +92,7 @@ Analysis Workspace에서 새 [폴아웃 분석](https://experienceleague.adobe.c
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 세트 선택</strong></td> 
-   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >실시간 보고서 구성</a>을 참조하십시오 . </td> 
+   <td class="chdesc stentry"> 이 실시간 보고서가 다루는 보고서 세트를 보여 줍니다. 보고서 세트를 변경하려면, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=ko-KR"  >실시간 보고서 구성</a>을 참조하십시오 . </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>보고서 간 전환</strong></td> 

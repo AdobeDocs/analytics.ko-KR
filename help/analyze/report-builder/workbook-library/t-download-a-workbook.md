@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -25,5 +25,4 @@ ht-degree: 100%
 >* **편집:** 편집할 통합 문서를 다운로드하여 엽니다. 편집을 위해 다운로드한 통합 문서를 업로드하려면 수동으로 해야 합니다.
 >* **삭제:** 업로드한 통합 문서를 삭제할 수 있도록 해줍니다. 삭제하려면 해당 통합 문서의 소유자라야 합니다.
 >
-
 

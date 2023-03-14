@@ -2,9 +2,8 @@
 title: VRS를 특정 날짜로 제한
 description: 연결된 데이터에만 집중하도록 VRS 날짜 범위를 제한하는 방법을 이해합니다.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

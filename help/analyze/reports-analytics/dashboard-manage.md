@@ -23,7 +23,7 @@ ht-degree: 95%
 >
 >대시보드 관리자를 사용할 때 가장 좋은 방법은 단일 사용자에 대해 300개 이하의 대시보드를 보유하는 것입니다. 또한 관리자는 아래의 모든 공유 대시보드를 로드하므로 대시보드 공유를 신중하게 해야 합니다.
 
-클릭 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]**.
+클릭 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]**.
 
 | 요소 | 설명 |
 |--- |--- |
@@ -35,9 +35,9 @@ ht-degree: 95%
 
 ## 공유 대시보드 관리
 
-공유 대시보드를 관리하려면 다음을 수행하십시오.
+공유 대시보드를 관리하려면 다음 작업을 수행하십시오.
 
-1. 이동 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]**.
+1. 다음으로 이동 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 모든 구성 요소]** > **[!UICONTROL 대시보드]**.
 1.  [!UICONTROL 공유 대시보드] 아래에서, 관리하려는 공유 대시보드(또는 기존 대시보드)를 찾고, 다음 옵션 중 하나 이상을 선택합니다.
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->계속 진행하여 [Analysis Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko)와 다운로드 및 예약할 기능을 사용해 보십시오.
+>계속 진행하여 [Analysis Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)와 다운로드 및 예약할 기능을 사용해 보십시오.
 
 기존 대시보드를 복사할 때 시스템은 기존 컨텐츠 또는 새 컨텐츠를 추가할 수 있도록 편집 가능한 기존 대시보드가 열립니다. 기존 대시보드를 복사할 경우 기존 대시보드 목록에 원본이 그대로 유지됩니다.
 
@@ -94,7 +94,7 @@ ht-degree: 95%
 
 Analytics 관리자는 대시보드를 여러 사용자에게 공유(또는 푸시)할 수 있습니다. 사용자에게 대시보드를 전달하면 해당 대시보드를 사용자의 [!UICONTROL 공유 대시보드] 메뉴에서 사용할 수 있게 됩니다.
 
-여러 사용자와 대시보드를 공유하려면 다음을 수행하십시오.
+대시보드를 여러 사용자와 공유하려면 다음 작업을 수행하십시오.
 
 1.  [!UICONTROL  대시보드 관리자]에서 해당 대시보드를 찾은 다음 **[!UICONTROL 공유]**&#x200B;를 활성화합니다. 
 1. **[!UICONTROL 사용자에게 전달]**&#x200B;을 클릭합니다. ![](assets/push.png)

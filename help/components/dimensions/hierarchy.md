@@ -2,8 +2,9 @@
 title: 계층
 description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
-workflow-type: ht
+exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 

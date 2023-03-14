@@ -42,7 +42,7 @@ t_add_an_alert.xml
 
 ### 경고 빌더에서 경고 추가
 
-1. 선택 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** 경고 빌더를 엽니다.
+1. 선택 **[!UICONTROL 분석]** > **[!UICONTROL 구성 요소]** 경고 빌더를 엽니다.
 
 ### 개별 보고서에서 경고 추가
 

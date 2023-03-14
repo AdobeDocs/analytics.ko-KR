@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,15 +20,15 @@ Report Builder를 설치하고 Excel을 실행한 후 **[!UICONTROL 추가 기�
 
 ![](assets/report_builder_toolbar.png)
 
-**로그인:** 자격   증명을 사용하여 로그인하거나 다른 사용자로 로그인할 수 있도록 Loginform을 표시합니다. 또한 로그인 후 회사 이름이 표시됩니다. See [Report Builder 로그인](/help/analyze/report-builder/setup/login.md).
+**로그인:** 다음을 표시합니다. [!UICONTROL 로그인] 자격 증명을 사용하여 로그인하거나 다른 사용자로 로그인할 수 있도록 양식을 작성합니다. 또한 로그인 후 회사 이름이 표시됩니다. See [Report Builder 로그인](/help/analyze/report-builder/setup/login.md).
 
-**만들기:** [!UICONTROL 요청 마법사]를 실행합니다. 로그인이 되어 있지 않으면 로그인하라는 메시지가 표시됩니다. 자세한 내용은 [데이터 요청](/help/analyze/report-builder/data-requests/data-requests.md).
+**만들기:** [!UICONTROL 요청 마법사]를 실행합니다. 로그인이 되어 있지 않으면 로그인하라는 메시지가 표시됩니다. See [데이터 요청](/help/analyze/report-builder/data-requests/data-requests.md).
 
-**관리:** [!UICONTROL 요청 관리자]를 실행합니다. Excel 통합 문서에 임베딩된 모든 Report Builder 데이터 요청에 대해 상태를 보고, 편집, 새로 고침, 삭제 및 관리할 수 있습니다. 이러한 기능들은 개별 요청에서 또는 한 번에 여러 요청에서 수행할 수 있습니다. 자세한 내용은 [요청 관리](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)를 참조하십시오.
+**관리:** [!UICONTROL 요청 관리자]를 실행합니다. Excel 통합 문서에 임베딩된 모든 Report Builder 데이터 요청에 대해 상태를 보고, 편집, 새로 고침, 삭제 및 관리할 수 있습니다. 이러한 기능들은 개별 요청에서 또는 한 번에 여러 요청에서 수행할 수 있습니다. See [요청 관리](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)를 참조하십시오.
 
-**새로 고침:** Excel 통합 문서에 임베딩된 모든 요청의 데이터를 새로 고칩니다. 자세한 내용은 [요청 새로 고침](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md)을 참조하십시오.
+**새로 고침:** Excel 통합 문서에 임베딩된 모든 요청의 데이터를 새로 고칩니다. See [요청 새로 고침](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md)을 참조하십시오.
 
-**형식:** 조건부 서식을 스프레드시트 셀에 설정할 수 있도록 해줍니다. 자세한 내용은 [조건부 서식 지정](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md)을 참조하십시오.
+**형식:** 조건부 서식을 스프레드시트 셀에 설정할 수 있도록 해줍니다. See [조건부 서식 지정](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md)을 참조하십시오.
 
 **예약:** 정의하는 시간 및 파일 형식에 따라 보고서를 전송하도록 예약할 수 있습니다. [보고서 요청 예약](/help/analyze/report-builder/schedule-report-requests.md)을 참조하십시오.
 

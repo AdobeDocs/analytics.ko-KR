@@ -5,7 +5,7 @@ feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '804'
 ht-degree: 95%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 95%
 | 기능 | 가상 보고서 세트 | 다중 세트 태깅 |
 |--- |--- |--- |
 | 실시간 또는 &quot;현재 데이터&quot; 보고 제공 | 아니요 | 예 |
-| 모든 Analytics 도구 (Analysis Workspace, Report Builder 등)에서 작동 | 예. **참고:** 이러한 보고서 세트를 편집 및 다음에서만 가상 보고서 세트로 식별할 수 있습니다. [!UICONTROL Analytics] > [!UICONTROL 구성 요소] > [!UICONTROL 가상 보고서 세트]. 하지만 다른 도구의 보고서 세트 드롭다운에서 선택할 수 있습니다.<p>**중요 사항**: 보고서 처리 시간 및 변수 사용자 지정을 사용하는 가상 보고서 세트는 현재 Adobe Report Builder에서 지원되지 않습니다. | 예 |
+| 모든 Analytics 도구 (Analysis Workspace, Report Builder 등)에서 작동 | 예. **참고:** 가상 보고서 세트로만 편집하고 식별할 수 있습니다. [!UICONTROL 분석] > [!UICONTROL 구성 요소] > [!UICONTROL 가상 보고서 세트]. 하지만 다른 도구의 보고서 세트 드롭다운에서 선택할 수 있습니다.<p>**중요 사항**: 보고서 처리 시간 및 변수 사용자 지정이 포함된 가상 보고서 세트는 현재 Adobe Report Builder에서 지원되지 않습니다. | 예 |
 | 데이터를 업로드할 수 있음 (분류, 데이터 피드 등을 통해) | 아니요 | 예 |
 | DL 보고서, 책갈피, 대시보드, 타겟, 경고, 세그먼트, 계산된 지표 만들기 지원... | 예 | 예 |
 | 권한 그룹에 개별적으로 추가할 수 있음 | 예 | 예 |
 | 관리 기능을 사용하여 이 보고서 세트의 개별 설정을 수정할 수 있음 (관리 > 보고서 세트) | 아니요 (설정은 상위에서 상속됨) | 예 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 가상 보고서 세트와 다중 세트 태깅 결합 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 

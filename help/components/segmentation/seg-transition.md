@@ -5,14 +5,14 @@ feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1443'
+ht-degree: 91%
 
 ---
 
 # 기존 세그먼트에 대한 FAQ
 
-기존 세그먼트(2014년 이전에 생성된 세그먼트)를 관리하는 우수 사례에 대해 자주 묻는 질문에 대한 답변.
+기존 세그먼트(2014년 이전에 생성된 세그먼트) 관리를 위한 모범 사례에 대해 자주 묻는 질문에 대한 답변입니다.
 
 ## 이전 세그먼트 관리 {#legacy}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 +++
 
-+++ **Experience Cloud(세트) 세그먼트에 발생한 결과:**
++++ **Experience Cloud (Suite) 세그먼트에 발생한 결과:**
 
 * 비구매자
 * 구매자
@@ -115,7 +115,7 @@ ht-degree: 0%
 * 지역-도시/지역/국가 – 부분 일치를 사용하지 않고 특정 도시, 지역 또는 국가를 검색하고 선택합니다.
 * 브라우저 – 브라우저 유형 차원을 사용하여 특정 유형의 모든 브라우저 (예: Google Chrome)를 가져옵니다.
 * 운영 체제 – OS 유형 차원을 사용하여 특정 유형의 모든 운영 체제 (예: Microsoft Windows)를 가져옵니다.
-* &quot;신규 및 이름이 변경된 Dimension&quot;을 참조하십시오(아래 참조).
+* &quot;새 Dimension 및 이름이 변경된 사용자&quot;(아래 참조)를 참조하십시오.
 
 ## 새 차원 및 이름이 변경된 차원 {#renamed}
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 | 방문 깊이 | 경로 길이 | - |
 | 우편번호 | ZIP/우편번호 | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 알려진 값이 있는 문자열 기반 차원에 대한 변경 사항 {#string-based-dims}
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 ## 알려진 값이 있는 정수 기반 차원에 대한 변경 사항 {#integer-based-dims}
 
-알려진 값 세트를 갖는 정수 기반 차원 (예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면에서는 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 이러한 차원을 세그먼트화하는 방법을 보여줍니다.
+알려진 값 세트를 갖는 정수 기반 차원 (예: 브라우저 너비)은 열거형 범위로 분할되었으므로 특정 범위의 세그먼트를 빠르게 정의할 수 있습니다. 이러한 열거된 목록은 차원 이름 뒤에 &quot; - Bucketed&quot;가 붙습니다. 다음 화면은 이러한 차원이 이전 및 새 세그먼트 빌더 인터페이스를 사용하여 세그먼트화되는 방식을 보여 줍니다.
 
 ![](assets/seg_browser_dimension.png)
 

@@ -6,7 +6,7 @@ exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -18,26 +18,26 @@ ht-degree: 71%
 >
 >히트에서 이 변수가 [`events`](events/events-overview.md) 변수 없이 설정되면 [제품 보기](/help/components/metrics/product-views.md) 지표가 1만큼 증가합니다. `products` 변수가 있는 각 히트에 대해 적합한 이벤트를 설정해야 합니다.
 
-## 웹 SDK를 사용하는 제품
+## 웹 SDK를 사용한 제품
 
-제품은 다음과 같습니다 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드에서 다음을 수행합니다.
+제품: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드 아래에서:
 
-* 카테고리가 `productListItems[].lineItemId`.
-* 제품이 `productListItems[].SKU` 또는 `productListItems[].name`. 두 XDM 필드가 모두 있으면 `productListItems[].SKU` 이 사용됩니다.
-* 수량이 매핑된 경우 `productListItems[].quantity`.
-* 가격이 `productListItems[].priceTotal`.
-* 머천다이징 eVar가에 매핑됩니다 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, 제품에 연결할 eVar에 따라 다릅니다.
-* 머천다이징 이벤트가에 매핑됨 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, 제품에 연결할 이벤트에 따라 다릅니다. 이러한 필드 중 하나에서 이벤트를 설정하면 자동으로 [이벤트](events/events-overview.md) Adobe Analytics에 전송된 문자열.
+* 범주가 다음에 매핑됨 `productListItems[].lineItemId`.
+* 제품이 매핑된 대상 `productListItems[].SKU` 또는 `productListItems[].name`. 두 XDM 필드가 모두 있는 경우 `productListItems[].SKU` 를 사용합니다.
+* 수량이 매핑됨 `productListItems[].quantity`.
+* 가격이 매핑됩니다. `productListItems[].priceTotal`.
+* 머천다이징 eVar는에 매핑됩니다. `productListItems._experience.analytics.customDimensions.eVars.eVar1` 끝 `productListItems._experience.analytics.customDimensions.eVars.eVar250`제품에 바인딩할 eVar에 따라 다릅니다.
+* 머천다이징 이벤트가에 매핑됩니다. `productListItems[]._experience.analytics.event1to100.event1.value` 끝 `productListItems._experience.analytics.event901to1000.event1000.value`제품에 바인딩할 이벤트에 따라 다릅니다. 이러한 필드 중 하나에서 이벤트를 설정하면 자동으로 [이벤트](events/events-overview.md) 문자열이 Adobe Analytics으로 전송되었습니다.
 
 >[!NOTE]
 >
->`lineItemId` 표준 Analytics 이벤트 스키마의 일부가 아니므로 사용자 지정 필드로 추가해야 합니다. Adobe은 향후 전용 &#39;카테고리&#39; 필드를 추가할 계획입니다.
+>`lineItemId` 아직 표준 Analytics 이벤트 스키마에 포함되어 있지 않으므로 사용자 지정 필드로 추가해야 합니다. Adobe은 향후 전용 &#39;범주&#39; 필드를 추가할 계획입니다.
 
 ## Adobe Analytics 확장을 사용하는 제품
 
-Adobe Experience Platform 데이터 수집에는 이 변수를 설정할 전용 필드가 없습니다. 그러나 도움이 되는 타사 확장은 여러 개 있습니다.
+Adobe Experience Platform 데이터 수집에는 이 변수를 설정할 전용 필드가 없습니다. 그러나 도움이 되는 타사 확장이 여러 개 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그]를 클릭하여 사용 가능한 모든 확장을 확인합니다.
 4. product라는 용어를 검색하면 이 변수를 설정하는 데 도움이 되는 사용 가능한 몇 가지 확장이 표시됩니다.
@@ -48,7 +48,7 @@ Adobe Experience Platform 데이터 수집에는 이 변수를 설정할 전용 
 
 `s.products` 변수는 제품당 여러 개의 구분된 필드를 포함하는 문자열입니다. 각 필드는 문자열에서 세미콜론 (`;`)으로 구분하십시오.
 
-* **카테고리** (선택 사항): 제품 카테고리입니다. 이 필드의 최대 길이는 100바이트입니다.
+* **범주** (선택 사항): 제품 범주. 이 필드의 최대 길이는 100바이트입니다.
 * **제품 이름** (필수): 제품의 이름입니다. 이 필드의 최대 길이는 100바이트입니다.
 * **수량** (선택 사항): 장바구니에 들어 있는 제품의 수. 이 필드는 구매 이벤트가 있는 히트에만 적용됩니다.
 * **가격** (선택 사항): 제품의 총 가격 (소수). 수량이 두 개 이상인 경우 개별 제품 가격이 아니라 합계로 가격을 설정합니다. 이 값의 통화를 [`currencyCode`](../config-vars/currencycode.md) 변수와 일치하도록 맞춥니다. 이 필드에 통화 기호를 포함하지는 마십시오. 이 필드는 구매 이벤트가 있는 히트에만 적용됩니다.

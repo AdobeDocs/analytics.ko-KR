@@ -23,4 +23,4 @@ Analytics 세그먼테이션은 세그먼트를 만들고, 사전 테스트를 �
 
 ## 시작하기
 
-자세한 내용은 [세그먼트 정보](/help/components/segmentation/seg-overview.md) 를 참조하십시오. 그런 다음 로 이동합니다. [세그먼테이션 워크플로우 설정](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 또는 [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-build.md).
+다음을 참조하십시오 [세그먼트 정보](/help/components/segmentation/seg-overview.md) 를 참조하십시오. 다음으로 이동 [세그먼테이션 워크플로우 설정](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 또는 [세그먼트 작성](/help/components/segmentation/segmentation-workflow/seg-build.md).

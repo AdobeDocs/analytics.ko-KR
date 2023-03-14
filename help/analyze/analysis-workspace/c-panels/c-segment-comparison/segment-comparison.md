@@ -6,7 +6,7 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 1. Adobe ID 자격 증명을 사용하여 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에 있는 9제곱 아이콘을 클릭한 다음 컬러 Analytics 로고를 클릭합니다.
-1. 맨 위 탐색 막대에서 작업 공간을 클릭합니다.
+1. 맨 위 탐색 막대에서 작업 영역을 클릭합니다.
 1. 새 프로젝트 만들기 버튼을 클릭합니다.
 1. 양식 팝업에서 &#39;빈 프로젝트&#39;가 선택되어 있는지 확인한 다음 만들기를 클릭합니다.
 1. 왼쪽의 패널 버튼을 클릭한 다음 자동으로 생성된 자유 형식 테이블 패널의 위나 아래에 세그먼트 비교 패널을 드래그합니다.

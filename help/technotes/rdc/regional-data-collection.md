@@ -4,8 +4,8 @@ description: 지역 데이터 수집 정보
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
-workflow-type: ht
-source-wordcount: '468'
+workflow-type: tm+mt
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 | --- | --- |
 | 기본값 | 오리건, 버지니아, 아일랜드, 파리, 뭄바이, 싱가포르, 도쿄, 시드니, 중국* |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *중국 RDC에는 중국 추가 기능 패키지가 필요합니다. 아래의 [중국 성능 최적화](#china-performance-optimization)를 참조하십시오.
 
@@ -52,7 +52,7 @@ Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문
 | 아시아 태평양만 | 뭄바이, 싱가포르, 도쿄, 시드니 |
 | 중국만 해당* | 베이징 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *중국 전용 및 글로벌 + 중국 RDC 유형은 중국 추가 기능 패키지가 필요합니다. 글로벌 + 중국은 중국 내에서 생성된 데이터를 Adobe의 중국 RDC로 라우팅하고 중국 외부에서 생성된 데이터는 중국 외부의 가장 가까운 RDC로 라우팅합니다. 아래의 [중국 성능 최적화](#china-performance-optimization)를 참조하십시오.
 

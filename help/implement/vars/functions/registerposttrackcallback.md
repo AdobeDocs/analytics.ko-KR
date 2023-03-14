@@ -6,7 +6,7 @@ exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 75%
 >
 >[`registerPreTrackCallback`](registerpretrackcallback.md)과 `registerPostTrackCallback` 사이에 실행된 함수의 타이밍과 순서는 보장되지 않습니다. 이 두 함수 간에 종속성이 생기지 않도록 하십시오.
 
-## Web SDK 확장을 사용하는 사후 추적 콜백
+## Web SDK 확장을 사용한 사후 추적 콜백
 
-곧 출시됩니다!
+준비 중!
 
 ## 웹 SDK를 수동으로 구현하는 사후 추적 콜백
 
-데이터가 성공적으로 Adobe으로 전송된 후 이벤트를 전송하여 함수를 등록할 때 JavaScript 약속을 사용할 수 있습니다.
+데이터를 Adobe에 성공적으로 보낸 후 이벤트를 전송하여 함수를 등록할 때 JavaScript Promise를 사용할 수 있습니다.
 
 ```js
 alloy("sendEvent",{
@@ -40,11 +40,11 @@ alloy("sendEvent",{
 });
 ```
 
-자세한 내용은 [이벤트의 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 를 참조하십시오.
+다음을 참조하십시오 [이벤트에서 응답 처리](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 사후 추적 콜백 등록
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.registerPostTrackCallback
 

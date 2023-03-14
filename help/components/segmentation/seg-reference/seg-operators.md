@@ -4,9 +4,9 @@ title: 세그먼트의 비교 연산자
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 세그먼트 빌더에서 선택한 연산자를 사용하여 값을 비교하고 제한할 수 있습니다. 연산자 범주로는 표준, Data Warehouse 및 고유 개수, 이렇게 세 가지가 있습니다.
 
-유일하게 지원되는 와일드카드 문자는 별표(*)입니다. *를 검색해야 하는 경우, 백슬래시로 이스케이프 처리를 하면 됩니다.
+유일하게 지원되는 와일드카드 문자는 별표입니다. &#42;. 다음을 검색해야 하는 경우 &#42;, 백슬래시로 이스케이프 처리할 수 있습니다.
 
-**예**: &quot;My cool product&quot;라는 페이지 이름이 있다고 가정해 봅시다. 세그먼트 규칙 &quot;페이지 이름 일치 My*product&quot;는 위의 페이지 이름과 일치하게 됩니다. 하지만, 규칙 &quot;페이지 이름 일치 My\\*product&quot;는 페이지 이름 &quot;My*Product&quot;와만 일치합니다.
+**예**: &quot;My cool product&quot;라는 페이지 이름이 있다고 가정해 봅시다. 세그먼트 규칙 &quot;페이지 이름이 내 와 일치함&#42;product&quot;는 위의 페이지 이름과 일치합니다. 그러나 규칙 &quot;페이지 이름은 My\\와 일치합니다.&#42;product는 페이지 이름 &quot;My&quot;와만 일치합니다.&#42;Product&quot;.
 
 ## 표준 연산자
 

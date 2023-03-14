@@ -6,7 +6,7 @@ exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -26,13 +26,13 @@ AppMeasurement는 도메인과 도메인 접미사를 확인하여 쿠키 위치
 
 ## 웹 SDK를 사용한 도메인 마침표
 
-웹 SDK는 이 변수 없이 올바른 쿠키 저장소 도메인을 결정할 수 있습니다.
+Web SDK는 이 변수 없이 올바른 쿠키 스토리지 도메인을 결정할 수 있습니다.
 
-## Adobe Analytics 확장을 사용하는 도메인 마침표
+## Adobe Analytics 확장을 사용한 도메인 마침표
 
 도메인 기간은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 필드입니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
 1. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 1. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 도메인 마침표] 필드가 표시됩니다.

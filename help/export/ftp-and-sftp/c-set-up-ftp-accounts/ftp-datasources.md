@@ -11,7 +11,7 @@ ht-degree: 99%
 
 ---
 
-# FTP 기반 Data Sources
+# FTP 기반 데이터 소스
 
 Analytics를 사용하면 FTP 파일 전송을 이용하여 오프라인 데이터나 기록 데이터를 Experience Cloud로 가져오는 FTP 기반 데이터 소스를 만들고 관리할 수 있습니다.
 

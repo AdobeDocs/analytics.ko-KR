@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 - **[!UICONTROL 작게]**: 가장 압축된 보기 버전.
 - **[!UICONTROL 무난]**: 작은 버전보다 좀 더 큰 버전.
-- **[!UICONTROL 크게]** (기본값): 작업 공간에서 사용하는 보기.
+- **[!UICONTROL 크게]** (기본값): 작업 영역에서 사용하는 보기.
 
 ![](assets/view-density.png)
 

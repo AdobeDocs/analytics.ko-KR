@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <p>지표 </p> </td> 
-   <td> <p>보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 날짜, 판매량 등과 같이 웹 사이트에서 이루어지는 활동에 대한 수량 정보입니다. </p> <p>자세한 내용은 <a href="/help/analyze/reports-analytics/metrics.md">지표</a>를 참조하십시오. </p> </td> 
+   <td> <p>보기 수, 클릭스루 횟수, 다시 로드 횟수, 평균 체류 시간, 날짜, 판매량 등과 같이 웹 사이트에서 이루어지는 활동에 대한 수량 정보입니다. </p> <p>자세한 내용은 <a href="/help/analyze/reports-analytics/metrics.md">지표</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 차원 </p> </td> 
@@ -40,7 +40,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <p> 보고서 </p> </td> 
-   <td> <p>마케팅 보고 기능의 기본 사항입니다. 수집된 모든 데이터에 대한 온라인 보고서를 실행할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/analyze/reports-analytics/reports.md"> 보고서 유형</a>을 참조하십시오. </p> </td> 
+   <td> <p>마케팅 보고 기능의 기본 사항입니다. 수집된 모든 데이터에 대한 온라인 보고서를 실행할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/analyze/reports-analytics/reports.md"> 보고서 유형</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 페이지 보기 </p> </td> 

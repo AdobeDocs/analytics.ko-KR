@@ -11,7 +11,7 @@ ht-degree: 59%
 
 ---
 
-# 2019년 Adobe Analytics 릴리스 노트(및 이전 버전)
+# 2019년(및 이전 버전)의 Adobe Analytics 릴리스 노트
 
 이러한 릴리스 노트 .pdf 파일에는 모든 Adobe Experience Cloud 솔루션에 대한 릴리스 노트가 포함되어 있습니다.
 

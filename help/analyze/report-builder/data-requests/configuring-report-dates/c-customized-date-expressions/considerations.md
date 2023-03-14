@@ -1,5 +1,5 @@
 ---
-description: '사용자 지정 표현식을 사용하여 날짜 범위를 설정할 때의 두 가지 고려 사항 '
+description: 사용자 지정 표현식을 사용하여 날짜 범위를 설정할 때의 두 가지 고려 사항
 title: 사용자 지정 날짜 고려 사항
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 다음은 요청에 대한 전체 [!UICONTROL 종료 날짜]가 11/29일 때의 차이입니다.
 
-*보낸 사람:* cw-1w
+*From:* cw-1w
 
 11월 23일 일요일에 시작하는 현재 주의 날 빼기 7일 = 11월 16일 일요일에 시작하는 지난 주의 날
 
-*받는 사람:* cw-1d
+*To:* cw-1d
 
 11월 23일 일요일에 시작하는 현재 주의 날 빼기 1일 = 11월 22일 토요일
 

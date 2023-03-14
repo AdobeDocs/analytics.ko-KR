@@ -14,7 +14,7 @@ ht-degree: 70%
 
 쿠키는 동일한 도메인에 있는 페이지 간에 정보를 저장하고 검색할 수 있습니다. 값을 쿠키에 설정하려면 `Util.cookieWrite()` 메서드를 사용하십시오. [`Util.cookieRead()`](util-cookieread.md) 메서드를 사용하면 `Util.cookieWrite()`을 사용하여 설정한 값을 검색할 수 있습니다.
 
-## Adobe Analytics 확장 및 웹 SDK 확장을 사용하여 쿠키 설정
+## Adobe Analytics 확장 및 Web SDK 확장을 사용하여 쿠키 설정
 
 Adobe Experience Platform 데이터 수집에서는 인터페이스에서 쿠키를 설정하는 기능을 제공하지 않습니다.
 

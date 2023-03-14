@@ -6,7 +6,7 @@ exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 77%
+ht-degree: 82%
 
 ---
 
@@ -26,19 +26,19 @@ Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문�
 
 ## 웹 SDK를 사용하는 동적 변수
 
-단일 XDM 필드에서 여러 Analytics 변수로 데이터를 전송하려면 데이터 스트림 매핑을 사용합니다.
+데이터스트림 매핑을 사용하여 단일 XDM 필드에서 여러 Analytics 변수로 데이터를 전송합니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
-1. 클릭 **[!UICONTROL 데이터 스트림]** 왼쪽 레일에 있습니다.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 클릭 **[!UICONTROL 데이터스트림]** 왼쪽 레일에서.
 1. 원하는 데이터 스트림을 클릭합니다.
-1. 클릭 **[!UICONTROL 매핑 편집]** 오른쪽에 있습니다.
-1. 원하는 것을 매핑합니다 [!UICONTROL 소스 필드] 원하는 대로 [!UICONTROL Target 필드]. 단일 소스 필드는 원하는 개수의 대상 필드에 매핑할 수 있습니다.
+1. 클릭 **[!UICONTROL 매핑 편집]** 오른쪽.
+1. 원하는 매핑 [!UICONTROL 소스 필드] 원하는 대로 [!UICONTROL Target 필드]. 단일 소스 필드는 원하는 수의 타겟 필드에 매핑할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용하는 동적 변수
 
 문자열을 허용하는 차원 필드에서 동적 변수를 사용할 수 있습니다. 차원 항목은 일반적으로 Analytics 확장 (전역 변수)을 구성하는 동안 또는 규칙에서 설정됩니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.

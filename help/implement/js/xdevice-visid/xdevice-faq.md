@@ -4,7 +4,7 @@ description: 크로스 디바이스 방문자 식별 FAQ
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 

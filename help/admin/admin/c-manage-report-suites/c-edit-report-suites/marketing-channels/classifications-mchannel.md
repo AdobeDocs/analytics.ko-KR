@@ -4,7 +4,7 @@ description: 값을 관련 그룹으로 분류하고 그룹 수준으로 보고�
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 

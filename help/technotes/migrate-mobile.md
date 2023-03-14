@@ -30,7 +30,7 @@ ht-degree: 93%
 
    ![컨텍스트 변수](assets/context-var.png)
 
-1. Experience Cloud에서 Adobe Analytics으로 전환하고 Mobile Services에서 보고 있던 모바일 보고서 세트에 있는지 확인하십시오.
+1. Experience Cloud에서 Adobe Analytics으로 전환하고 Mobile Services에서 보고 있었던 모바일 보고서 세트와 동일한 것에 있는지 확인합니다.
 1. **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 일반]** > **[!UICONTROL 처리 규칙]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 1. 조건을 무시하고 계속해서 모바일 서비스에 존재하는 동일한 컨텍스트 변수를 추가합니다.
@@ -59,7 +59,7 @@ ht-degree: 93%
 템플릿에 액세스하려면 다음을 수행하십시오.
 
 1. `experience.adobe.com`에 로그인하고 Analytics를 선택합니다.
-1. Mobile Services에 대해 활성화되어 있는 보고서 세트에 있는지 확인합니다.
+1. Mobile Services에 대해 활성화된 보고서 세트에 있는지 확인하십시오.
 1. **[!UICONTROL Workspace]** 탭을 클릭합니다.
 1. **[!UICONTROL 새 프로젝트 만들기]**&#x200B;를 클릭합니다.
 1. 모바일 템플릿을 선택하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.

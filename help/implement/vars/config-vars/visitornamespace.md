@@ -6,7 +6,7 @@ exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 86%
 >
 >사이트에서는 자사 쿠키를 사용하는 것이 좋습니다. 자사 쿠키는 이 변수를 사용하지 않습니다.
 
-## Adobe Analytics 확장을 사용하는 방문자 네임스페이스
+## Adobe Analytics 확장을 사용한 방문자 네임스페이스
 
 [!UICONTROL 방문자 네임스페이스]는 Adobe Analytics 확장을 구성할 때 [!UICONTROL 쿠키] 아코디언 아래의 필드입니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 4. [!UICONTROL 쿠키] 아코디언을 확장합니다. 그러면 [!UICONTROL 방문자 네임스페이스] 필드가 표시됩니다.

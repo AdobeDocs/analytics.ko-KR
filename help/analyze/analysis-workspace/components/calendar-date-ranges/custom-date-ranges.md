@@ -6,7 +6,7 @@ feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Analysis Workspace에서 사용자 정의 날짜 범위를 만든 후 시간 구
 
 ![](assets/create_date_range.png)
 
- *`rolling daily`*.
+*`rolling daily`* 사용.
 
 * 시작 설정은 *`current day minus 14 days`*.
 

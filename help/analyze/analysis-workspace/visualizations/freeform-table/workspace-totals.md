@@ -1,17 +1,17 @@
 ---
 description: 작업 영역 합계를 계산하는 방법.
 title: 작업 영역 합계
-feature: 자유 형식 테이블
+feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '510'
+workflow-type: tm+mt
+source-wordcount: '508'
 ht-degree: 100%
 
 ---
 
-# 작업 영역 합계
+# 작업 공간 합계
 
 자유 형식 테이블에서, 합계 행은 각 분류 수준에 나타나고 두 개의 합계를 표시할 수 있습니다.
 

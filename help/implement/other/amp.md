@@ -4,7 +4,7 @@ description: AMP 페이지에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Adobe는 내장된 AMP 함수를 사용하여 방문자를 식별하고 쿠키 `
 
 AMP가 고유 방문자를 식별하는 방법 때문에 AMP 페이지에는 별도의 보고서 세트를 사용하는 것이 좋습니다.
 
-이 솔루션을 사용하려면 `host` 속성에서 지정하는 추적 서버가 주 사이트의 추적 서버와 일치하여 기존의 개인정보 보호정책 제어 사항이 준수되도록 해야 한다는 것입니다. 아니면 AMP를 사용하여 페이지에 대한 개인정보 보호정책을 만드십시오.
+이 솔루션을 사용하려면 `host` 속성에서 지정하는 추적 서버가 주 사이트의 추적 서버와 일치하여 기존의 개인정보 처리방침 제어 사항이 준수되도록 해야 한다는 것입니다. 아니면, AMP를 사용하여 페이지에 대한 개인정보 처리방침을 만드십시오.
 
 ## 방법 2: &quot;adobeanalytics_nativeConfig&quot; 템플릿에서 amp-analytics 태그 사용
 

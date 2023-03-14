@@ -5,8 +5,8 @@ feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ## 웹 SDK를 사용한 타임스탬프
 
-타임스탬프가 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM 필드 아래 `xdm.timestamp`. 이 필드는 Unix 시간만 지원합니다.
+타임스탬프: [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ko-KR) XDM 필드 아래 `xdm.timestamp`. 이 필드는 Unix 시간만 지원합니다.
 
 ## Adobe Analytics 확장을 사용한 타임스탬프
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.timestamp
 

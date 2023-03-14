@@ -1,11 +1,11 @@
 ---
-description: Workspace에서 폴더 및 하위 폴더를 만드는 방법에 대해 알아보기
+description: 작업 영역에서 폴더 및 하위 폴더를 만드는 방법에 대해 알아보기
 keywords: Analysis Workspace
 title: 폴더 만들기
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 폴더 만들기
 
-Workspace 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가할 수 있습니다.
+작업 영역 랜딩 페이지의 프로젝트 및 폴더 목록에 새 폴더 또는 하위 폴더를 추가할 수 있습니다.
 
 ## 새 폴더 만들기 {#create-new-folder}
 

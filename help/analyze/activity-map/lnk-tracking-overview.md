@@ -1,5 +1,5 @@
 ---
-description: 'Activity Map은 다음과 같은 더 강력한 알고리즘으로 링크를 추적합니다. '
+description: Activity Map은 다음과 같은 더 강력한 알고리즘으로 링크를 추적합니다.
 title: 강력한 링크 추적
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 feature: Activity Map
@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 1f077234-ff88-46ce-a931-2d21d68042b0
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
@@ -31,5 +31,5 @@ Activity Map에서의 링크 추적에 대한 자세한 내용을 보려면 [여
 
 * `Mailto` 링크. mailto 링크는 이메일을 보내기 위해 컴퓨터에서 기본 메일 클라이언트를 활성화하는 HTML 링크의 유형입니다.
 * `User ID`. 사용자가 로그인한 후 웹 사이트의 머리글/바닥글에 표시될 수 있는 링크입니다.
-* 금융 기관의 경우 계정 번호가 링크로 표시될 수 있습니다. 클릭하면 링크의 텍스트가 수집됩니다.
+* 금융기관의 경우 계정 번호가 링크로 표시될 수 있습니다. 클릭하면 링크의 텍스트가 수집됩니다.
 * Healthcare 웹 사이트에는 링크로 표시된 PII 데이터가 있을 수 있습니다. 이러한 링크를 클릭하면 링크의 텍스트를 수집하므로 PII 데이터가 수집됩니다.

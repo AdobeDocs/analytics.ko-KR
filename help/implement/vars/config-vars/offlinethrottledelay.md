@@ -6,7 +6,7 @@ exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 ## Adobe Analytics 확장을 사용한 오프라인 스로틀 지연
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.offlineThrottleDelay
 

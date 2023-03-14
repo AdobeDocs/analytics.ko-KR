@@ -6,7 +6,7 @@ exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 38%
+ht-degree: 44%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 38%
 
 ## 웹 SDK를 사용하여 보고서 세트 처리
 
-웹 SDK는 원하는 Analytics 보고서 세트에 데이터를 전달하는 특정 데이터 스트림에 데이터를 보내 작동합니다. 단일 데이터 스트림은 데이터를 여러 보고서 세트에 전달할 수 있습니다. 이 섹션은 웹 SDK 확장 프로그램 및 웹 SDK를 수동으로 구현하는 방법에 모두 적용됩니다.
+Web SDK는 데이터를 특정 데이터 스트림으로 전송하여 원하는 Analytics 보고서 세트로 데이터를 전달함으로써 작동합니다. 단일 데이터 스트림은 데이터를 여러 보고서 세트로 전달할 수 있습니다. 이 섹션은 Web SDK 확장과 Web SDK 수동 구현 모두에 적용됩니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
-1. 클릭 **[!UICONTROL 데이터 스트림]** 왼쪽에 있습니다.
-1. 원하는 데이터 스트림을 클릭하거나 **[!UICONTROL 새 데이터 스트림]**.
-1. 클릭 **[!UICONTROL 서비스 추가]**&#x200B;를 선택하고 을 선택합니다. **[!UICONTROL Adobe Analytics]**.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 클릭 **[!UICONTROL 데이터스트림]** 왼쪽이요
+1. 원하는 데이터 스트림을 클릭하거나 **[!UICONTROL 새 데이터스트림]**.
+1. 클릭 **[!UICONTROL 서비스 추가]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL Adobe Analytics]**.
 1. 원하는 보고서 세트 ID를 입력합니다. 동일한 데이터를 여러 보고서 세트로 보내려면 **[!UICONTROL 보고서 세트 추가]**.
-1. 원하는 보고서 세트를 모두 입력하면 **[!UICONTROL 저장]**.
+1. 원하는 보고서 세트를 모두 입력하고 **[!UICONTROL 저장]**.
 
 ## 웹 SDK 확장을 사용하여 원하는 데이터 스트림 설정
 
-웹 SDK 확장은 각 환경에 대한 데이터 스트림 드롭다운을 제공합니다. 또는 수동으로 데이터 스트림 ID를 입력할 수 있습니다.
+Web SDK 확장은 각 환경에 대한 데이터 스트림 드롭다운을 제공합니다. 또는 데이터 스트림 ID를 수동으로 입력할 수도 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. 로 이동합니다. [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 버튼 아래 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 아래 [!UICONTROL 데이터 스트림]를 눌러 각 환경에 대한 드롭다운에서 원하는 데이터 스트림을 선택합니다.
+1. 로 이동 [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 아래에 있는 단추 [!UICONTROL Adobe Experience Platform 웹 SDK].
+1. 아래 [!UICONTROL 데이터스트림]를 클릭하고 드롭다운에서 각 환경에 대해 원하는 데이터 스트림을 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## Web SDK를 수동으로 구현하는 원하는 데이터 스트림을 설정합니다
+## 웹 SDK를 수동으로 구현하여 원하는 데이터 스트림 설정
 
-설정 `edgeConfigId` 구성 변수를 데이터 스트림 ID에 추가합니다. 데이터 스트림 ID는 Adobe Experience Platform 데이터 수집에서 데이터 스트림을 볼 때 오른쪽에 있습니다.
+설정 `edgeConfigId` 데이터 스트림 ID에 대한 구성 변수입니다. 데이터 스트림 ID는 Adobe Experience Platform 데이터 수집에서 데이터 스트림을 볼 때 오른쪽에 있습니다.
 
 ```js
 alloy("configure", {
@@ -45,7 +45,7 @@ alloy("configure", {
 });
 ```
 
-자세한 내용은 [웹 SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR?lang=ko-KR) 를 참조하십시오.
+다음을 참조하십시오 [웹 SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용하여 보고서 세트 변경
 

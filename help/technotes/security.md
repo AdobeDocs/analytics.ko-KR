@@ -2,9 +2,8 @@
 title: Adobe Analytics 보안 리소스
 description: 보안 작업 및 복구 계획과 관련한 Adobe 리소스에 대한 링크입니다.
 exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 

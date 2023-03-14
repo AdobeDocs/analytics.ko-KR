@@ -6,7 +6,7 @@ exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 66%
+ht-degree: 76%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 66%
 
 ## 구성 변수 설정
 
-웹 SDK 확장 또는 Analytics 확장을 사용하는 구현에서 구성 변수는 일반적으로 확장의 설정에 있습니다.
+Web SDK 확장 또는 Analytics 확장을 사용하는 구현에서 구성 변수는 일반적으로 확장 설정에서 찾을 수 있습니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. 을(를) 클릭합니다. [!UICONTROL 확장] 탭을 클릭한 다음 [!UICONTROL 구성] 확장 아래의 를 참조하십시오.
+1. 다음을 클릭합니다. [!UICONTROL 확장] 탭을 클릭한 다음 [!UICONTROL 구성] 확장 아래에.
 
 `AppMeasurement.js`를 사용하는 JavaScript 구현에서 구성 변수는 일반적으로 JS 파일의 맨 위에 설정됩니다.
 

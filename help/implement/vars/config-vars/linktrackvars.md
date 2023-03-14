@@ -16,9 +16,9 @@ ht-degree: 61%
 
 이 변수는 페이지 보기 호출 ([`t()`](../functions/t-method.md) 메서드)에 사용되지 않습니다.
 
-## 웹 SDK를 사용하여 XDM 이벤트에 포함할 변수를 결정합니다
+## 웹 SDK를 사용하여 XDM 이벤트에 포함할 변수 결정
 
-웹 SDK는 링크 추적 호출에 대한 특정 필드를 제외하지 않습니다. 그러나 를 사용할 수 있습니다 `onBeforeEventSend` Adobe으로 데이터를 보내기 전에 원하는 필드를 지우거나 설정하려면 콜백하십시오. 자세한 내용은 [이벤트 전역 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 를 참조하십시오.
+웹 SDK는 링크 추적 호출을 위한 특정 필드를 제외하지 않습니다. 하지만 `onBeforeEventSend` 데이터를 Adobe으로 보내기 전에 원하는 필드를 지우거나 설정하는 콜백입니다. 다음을 참조하십시오 [전체적으로 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
 
 ## Adobe Analytics 확장을 사용한 링크 추적 호출의 변수
 
@@ -26,7 +26,7 @@ ht-degree: 61%
 
 >[!IMPORTANT]
 >
->사용자 지정 코드 편집기를 사용하여 변수를 설정하는 경우 변수를 `linkTrackVars` 사용자 지정 코드도 사용합니다.
+>사용자 지정 코드 편집기를 사용하여 변수를 설정하는 경우에서 변수를 포함해야 합니다. `linkTrackVars` 사용자 지정 코드도 사용합니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.linkTrackVars
 

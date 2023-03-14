@@ -39,7 +39,7 @@ Adobe Analytics에는 현재 관리자를 위한 두 가지 영역이 있습니�
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics.html?lang=ko-KR)
 
 ## 주요 Analytics 리소스
 

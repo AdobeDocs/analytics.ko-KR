@@ -18,4 +18,4 @@ ht-degree: 92%
 
 이 지표는 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 변수에 `scView`이 존재하는 히트 수를 계산합니다.
 
-자세한 내용은 [장바구니](carts.md) 을 참조하십시오.
+다음을 참조하십시오 [장바구니](carts.md) 지표 비교에 사용됩니다.

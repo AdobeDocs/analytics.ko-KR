@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
    | **[!UICONTROL 비교 날짜 범위]** | 기본 날짜 범위를 비교하는 날짜 범위. |
    | **[!UICONTROL 세그먼트(선택 사항)]** | 이 요약에 특히 관심이 있는 세그먼트. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 

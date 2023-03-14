@@ -43,6 +43,6 @@ Microsoft 관리자가 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ac
 
 관리자는 다음 [링크](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)를 사용하여 모든 사용자에게 액세스 권한을 부여했습니다.
 
-## API 제한에 도달
+## API 제한 도달
 
-Power BI의 보고는 Analytics 보고 API에서 작동하므로 API 임계값 제한이 적용됩니다. 자세한 내용은 [웹 서비스 오류 코드](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
+Power BI의 보고는 Analytics Reporting API와 작동하므로 API 임계값 제한이 적용됩니다. 자세한 내용은 [웹 서비스 오류 코드](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).

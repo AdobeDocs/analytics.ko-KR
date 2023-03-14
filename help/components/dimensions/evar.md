@@ -28,7 +28,7 @@ JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일
 
 ## 차원 항목
 
-eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. 에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 설계 문서](/help/implement/prepare/solution-design.md).
+eVar는 구현의 사용자 정의 문자열을 포함하므로 조직에서 각 eVar에 대한 차원 항목을 결정합니다. 에 각 eVar의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md).
 
 ## eVar 작동 방식
 

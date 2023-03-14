@@ -48,7 +48,7 @@ ht-degree: 96%
 
 데이터 소스에 사용할 데이터 차원을 정의한 후에는 차원 데이터를 변수에 매핑하여 마케팅 보고서에 통합하십시오. 표준 보고서(예: 제품, 추적 코드, 검색 키워드)나 전환 트래픽 변수(eVar)를 사용합니다.
 
-eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. 데이터 소스에서 데이터 차원을 받을 eVar을 선택한 후에는 이름을 적절하게 지정해야 합니다.
+eVar 사용 시 기존의 eVar 또는 새로운 eVar를 데이터 차원으로 사용할 수 있습니다. Data Sources에서 데이터 차원을 수신할 eVar을 선택한 후에는 적절하게 이름을 지정하십시오.
 
 Analytics 도움말의 [성공 이벤트](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)를 참조하십시오.
 

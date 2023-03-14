@@ -6,7 +6,7 @@ exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 55%
 
 ## Web SDK 확장을 사용한 사전 추적 콜백
 
-웹 SDK는 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 다음 아이콘을 사용할 수 있습니다 `onBeforeEventSend` 데이터를 보내기 바로 전에 실행할 함수를 등록하려면 다음을 수행하십시오.
+Web SDK는 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 다음을 사용할 수 있습니다. `onBeforeEventSend` 데이터를 보내기 바로 전에 실행할 함수를 등록합니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
-1. 로 이동합니다. [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 버튼 아래 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 아래 [!UICONTROL 데이터 수집]를 클릭하고 **[!UICONTROL 이벤트 전송 콜백 코드 전 편집]** 버튼을 클릭합니다.
-1. 원하는 코드를 편집기에 넣습니다.
+1. 로 이동 [!UICONTROL 확장] 탭을 클릭한 다음 **[!UICONTROL 구성]** 아래에 있는 단추 [!UICONTROL Adobe Experience Platform 웹 SDK].
+1. 아래 [!UICONTROL 데이터 수집]를 클릭하고 **[!UICONTROL 이벤트 전송 전 콜백 코드 편집]** 단추를 클릭합니다.
+1. 편집기에 원하는 코드를 넣습니다.
 
 ## 웹 SDK를 수동으로 구현하는 사전 추적 콜백
 
-웹 SDK는 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 다음 아이콘을 사용할 수 있습니다 `onBeforeEventSend` 데이터를 보내기 바로 전에 실행할 함수를 등록하려면 다음과 같이 하십시오 `doPlugins`. 자세한 내용은 [이벤트 전역 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 를 참조하십시오.
+Web SDK는 데이터가 컴파일된 후 Adobe으로 전송되기 전에 함수를 후크할 수 없습니다. 그러나 다음을 사용할 수 있습니다. `onBeforeEventSend` 데이터가 전송되기 바로 전에 실행할 함수를 등록하려면 다음과 같이 하십시오. `doPlugins`. 다음을 참조하십시오 [전체적으로 이벤트 수정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 자세한 내용은 Web SDK 설명서 를 참조하십시오.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -49,7 +49,7 @@ alloy("configure", {
 
 ## Adobe Analytics 확장을 사용한 사전 추적 콜백
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.registerPreTrackCallback
 

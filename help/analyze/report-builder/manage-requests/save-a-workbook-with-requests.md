@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 사용하는 모든 파일 이름의 길이는 255자 이하여야 합니다. 또한 파일 이름에는 다음 문자를 사용할 수 없습니다.
 
-\ ? | > &lt; : / * &#39; &quot;
+\ ? | > &lt; : / &#42; &#39; &quot;
 
 마지막으로, 확장된 ASCII 문자 세트 이외에 유니코드 문자는 사용할 수 없습니다.
 

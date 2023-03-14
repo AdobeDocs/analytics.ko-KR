@@ -6,7 +6,7 @@ exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -24,9 +24,9 @@ AppMeasurement는 디바이스의 온라인 상태를 자동으로 감지합니�
 
 웹 SDK는 오프라인 추적을 지원하지 않습니다.
 
-## Adobe Analytics 확장을 사용하여 오프라인 적용
+## Adobe Analytics 확장을 사용하여 오프라인 강제
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s.forceOffline()
 

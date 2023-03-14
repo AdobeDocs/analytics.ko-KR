@@ -6,7 +6,7 @@ exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 72%
+ht-degree: 81%
 
 ---
 
@@ -22,26 +22,26 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->매출에는 수량 필드를 곱하지 않습니다. 예, `s.products="Womens;Socks;5;4.50"` $22.50를 매출에 전달하지 않습니다. $4.50를 전달합니다. 구현에서 나열된 수량에 대한 총 수입을 전달하도록 구현하십시오. (예: `s.products="Womens;Socks;5;22.50"`)
+>매출에는 수량 필드를 곱하지 않습니다. 예를 들어, `s.products="Womens;Socks;5;4.50"` 은 $22.50를 메출에 전달하지 않고 $4.50를 전달합니다. 구현에서 나열된 수량에 대한 총 수입을 전달하도록 구현하십시오. (예: `s.products="Womens;Socks;5;22.50"`)
 
 ## 웹 SDK를 사용하여 구매 이벤트 설정
 
-구매 이벤트는 [Adobe Analytics용 매핑](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드에서 다음을 수행합니다.
+구매 이벤트는 [Adobe Analytics에 대해 매핑됨](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 여러 XDM 필드 아래에서:
 
-* 주문은 `commerce.purchases.value`.
-* 단위는 모두 합계에 매핑됩니다 `productListItems[].quantity` 필드.
-* 매출이 모두 합계에 매핑됩니다 `productListItems[].priceTotal` 필드.
+* 주문은 `commerce.purchases.value`에 매핑됩니다.
+* 단위는 모든 `productListItems[].quantity` 필드의 합계에 매핑됩니다.
+* 매출은 모든 `productListItems[].priceTotal` 필드의 합계에 매핑됩니다.
 
 ## Adobe Analytics 확장을 사용하여 구매 이벤트 설정
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
 5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
 6. [!UICONTROL 이벤트] 섹션을 찾아 이벤트 드롭다운을 [!UICONTROL 구매]로 설정합니다.
 
-과 같은 기타 종속 변수 `products` 및 `purchaseID` Adobe Experience Platform 데이터 수집 내의 Analytics 확장에 전용 필드가 없습니다. 이 변수에 대한 AppMeasurement 구문 이후에 사용자 지정 코드 편집기를 사용하십시오.
+다음과 같은 기타 종속 변수 `products` 및 `purchaseID` Adobe Experience Platform 데이터 수집 내의 Analytics 확장에는 전용 필드가 없습니다. 이 변수에 대한 AppMeasurement 구문 이후에 사용자 지정 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기에서 구매 이벤트 설정
 

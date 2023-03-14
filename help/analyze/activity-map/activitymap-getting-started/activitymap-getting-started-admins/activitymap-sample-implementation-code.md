@@ -13,4 +13,4 @@ ht-degree: 57%
 
 # Activity Map 구현
 
-Activity Map은 Adobe Analytics 태그 확장의 다음 [링크 추적](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
+Activity Map은 Adobe Analytics 태그 확장 의 아래 확인란을 통해 구현할 수 있습니다. [링크 추적](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).

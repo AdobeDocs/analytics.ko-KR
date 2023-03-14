@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 319dc040-92cf-4289-9373-bc165e58c2db
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
    **지금 날짜:** 새로 고침의 기준이 될 날짜. [!UICONTROL 기준] 날짜라고도 합니다.
 
-   **이후 새로 고침 작업의 날짜를 현재 날짜로 설정:** 이 옵션을 활성화하면 Report Builder가 항상 현재 날짜를 [!UICONTROL 지금] (또는 [!UICONTROL 기준]) 날짜로 사용합니다. 도구 모음에서 [!UICONTROL 선택 사항]을 클릭하여 이 설정을 되돌릴 수 있습니다.
+   **이후 새로 고침 작업의 날짜를 현재 날짜로 설정:** 이 옵션을 활성화하면 Report Builder가 항상 현재 날짜를 [!UICONTROL 지금](또는 [!UICONTROL 기준]) 날짜로 사용합니다. 도구 모음에서 [!UICONTROL 선택 사항]을 클릭하여 이 설정을 되돌릴 수 있습니다.
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
    새로 고침이 성공하면 시스템이 [!UICONTROL 요청 관리자]에 녹색 아이콘을 사용하여 성공을 보고합니다.

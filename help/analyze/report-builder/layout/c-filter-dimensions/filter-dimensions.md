@@ -6,7 +6,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -40,31 +40,31 @@ ht-degree: 100%
    <td colname="col1"> <p>다음 검색어 포함 </p> </td> 
    <td colname="col02"> <p>모든 순서의 공백으로 구분된 모든 값을 포함합니다. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p> <span class="term"> a b c</span>및 <span class="term"> b a c</span> 등. </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> a b c</span>및 <span class="term"> b a c</span> 등. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>검색어를 하나라도 포함 </p> </td> 
    <td colname="col02"> <p>필터 중 하나 이상(공백으로 구분)을 포함합니다. </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p> <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>(<span class="term"> D4</span>는 아님). </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>(<span class="term"> D4</span>는 아님). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>구문 포함 </p> </td> 
    <td colname="col02"> <p>검색 필터를 포함하며 다른 검색어도 포함할 수 있습니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abc</span> 및 <span class="term"> abc def</span>. </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> abc</span> 및 <span class="term"> abc def</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>검색어 포함 안 함 </p> </td> 
    <td colname="col02"> <p>입력하는 값이 포함되지 않은 경우 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p> <span class="term"> d e f</span>(<span class="term"> c d e f</span>는 아님). </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> d e f</span>(<span class="term"> c d e f</span>는 아님). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음 구문 포함 안 함 </p> </td> 
    <td colname="col02"> <p>해당 구문을 포함하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abc</span>, <span class="term"> abc def</span> 및 <span class="term"> def</span>와 일치 </p> </td> 
+   <td colname="col3"> <p>제외 <span class="term"> abc</span>, <span class="term"> abc def</span> 및 <span class="term"> def</span>와 일치 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>같음 </p> </td> 
@@ -76,13 +76,13 @@ ht-degree: 100%
    <td colname="col1"> <p>같지 않음 </p> </td> 
    <td colname="col02"> <p>해당 항목과 정확히 일치하지 않는 모든 검색을 반환합니다. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p> <span class="term"> a</span>. </p> <p><span class="term"> a b c</span>와 일치합니다. </p> <p><span class="term"> abc</span>와 일치합니다. </p> </td> 
+   <td colname="col3"> <p>Does not match <span class="term"> a</span>. </p> <p><span class="term"> a b c</span>와 일치합니다. </p> <p><span class="term"> abc</span>와 일치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 시작 </p> </td> 
    <td colname="col02"> <p>특정 값으로 시작하는 결과를 반환합니다. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abcd</span>(<span class="term"> 1abc</span>는 아님) </p> </td> 
+   <td colname="col3"> <p>일치 <span class="term"> abcd</span>(<span class="term"> 1abc</span>는 아님) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다음으로 끝남 </p> </td> 
@@ -144,7 +144,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> 또는 </td> 
-   <td colname="col3"> <p> <span class="term"> Advanced(특수 문자)</span> 필터. </p> </td> 
+   <td colname="col3"> <p>Supported only in the <span class="term"> Advanced(특수 문자)</span> 필터. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,7 +3,7 @@ description: Adobe Analytics에서 Adobe Campaign 데이터를 볼 수 있습니
 title: Adobe Analytics에서 Adobe Campaign 데이터 보기
 feature: Admin Tools
 source-git-commit: d4e831398182166e0ffe78659e26d2078fa9be7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 

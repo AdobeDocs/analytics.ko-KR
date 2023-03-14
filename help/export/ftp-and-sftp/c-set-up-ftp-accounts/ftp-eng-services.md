@@ -5,7 +5,7 @@ title: FTP로 엔지니어링 서비스 참여
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 많은 Adobe 엔지니어링 서비스 참여에 데이터 교환이 포함되며, 이러한 데이터 교환에 FTP가 필요한 경우가 많습니다.
 
-이러한 참여에 [!UICONTROL DB VISTA] 및 사용자 정의 프로젝트가 포함됩니다.
+이러한 참여에 [!UICONTROL DB VISTA] 및 사용자 지정 프로젝트가 포함됩니다.
 
 FTP 제한 및 데이터 유지에 대한 자세한 내용은 [FTP 제한 및 데이터 유지](/help/export/ftp-and-sftp/ftp-limits.md)를 참조하십시오.
 

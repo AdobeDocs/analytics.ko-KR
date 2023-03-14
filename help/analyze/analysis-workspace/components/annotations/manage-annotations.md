@@ -5,8 +5,8 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
-source-wordcount: '683'
+workflow-type: tm+mt
+source-wordcount: '677'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 | [!UICONTROL 다음 사용자와 공유] | 주석을 공유한 개인 또는 그룹 수를 표시합니다. 자세한 내용을 보려면 클릭하십시오. |
 | [!UICONTROL 수정한 날짜] | 주석을 마지막으로 수정한 날짜와 시간을 표시합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 주석 편집
 
@@ -78,4 +78,4 @@ ht-degree: 100%
 | [!UICONTROL CSV로 내보내기] | 주석 정의를 .csv 파일로 내보냅니다. |
 | [!UICONTROL 필터링] (왼쪽 레일) | 태그, 보고서 세트, 소유자 및 기타 필터([내 소유], [승인됨], [즐겨찾기], [나와 공유] 및 [모두 표시])별로 필터링합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

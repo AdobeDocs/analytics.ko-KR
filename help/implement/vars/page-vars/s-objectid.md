@@ -6,7 +6,7 @@ exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 91%
 
 Activity Map 정확도가 조직에 중요한 경우에는 사이트에 있는 링크의 `onClick` 이벤트에 `s_objectID` 변수를 포함하는 것이 좋습니다. 자세한 내용은 분석 사용 안내서의 [Activity Map 링크 추적 사용 사례](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)를 참조하십시오.
 
-## Adobe Analytics 확장을 사용하는 개체 ID
+## Adobe Analytics 확장을 사용한 개체 ID
 
-Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 지정 코드 편집기를 사용하십시오.
+Adobe Analytics 확장에는 이 변수를 사용할 전용 필드가 없습니다. AppMeasurement 구문 다음에 나오는 사용자 정의 코드 편집기를 사용하십시오.
 
 ## AppMeasurement 및 Analytics 확장 사용자 지정 코드 편집기의 s_objectID
 

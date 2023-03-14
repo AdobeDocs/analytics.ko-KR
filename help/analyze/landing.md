@@ -6,7 +6,7 @@ feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
-source-wordcount: '3947'
+source-wordcount: '3944'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 | **[!UICONTROL 프로젝트 만들기]** 모달 | 작업 영역에서 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하면 다시 [!UICONTROL 빈 프로젝트]와 [!UICONTROL 빈 모바일 스코어카드] 중에서 선택할 수 있게 됩니다. 귀사에서 제작한 템플릿 중에서 선택할 수도 있습니다. | ![새로 만들기](assets/create-new.png) |
 | Customer Journey Analytics에서도 사용 가능 | 이 랜딩 페이지를 CJA에서도 수정된 형식으로 사용할 수 있습니다. |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 상단 메뉴 구조 {#top-menu}
 

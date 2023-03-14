@@ -21,7 +21,7 @@ Analytics는 분석 데이터 수집을 위한 다양한 변수를 제공합니�
 
 ## 변수 및 구현 방법
 
-Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합니다. 각 페이지에는 웹 SDK를 사용하여 변수를 구현하고, Adobe Analytics 확장을 사용하고, JavaScript용 AppMeasurement를 사용하는 방법에 대한 섹션이 있습니다.
+Adobe에서는 Adobe Analytics를 구현하는 방법을 여러 가지 제공합니다. 각 페이지에는 Web SDK, Adobe Analytics 확장 기능 및 JavaScript용 AppMeasurement를 사용하여 변수를 구현하는 방법에 대한 섹션이 있습니다.
 
 다음은 Adobe Analytics에서의 변수 구성에 대한 비디오입니다.
 

@@ -2,8 +2,8 @@
 title: 구현 방법 비교
 description: Adobe Analytics로 데이터를 전송하는 각 방법의 이점을 확인하십시오.
 source-git-commit: 2e69321404237213c6929f3fb0c330575d8a90db
-workflow-type: ht
-source-wordcount: '294'
+workflow-type: tm+mt
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
@@ -20,4 +20,4 @@ Adobe Analytics를 구현하는 각 방법을 서로 비교하는 방법을 확�
 | A4T 처리 방법 | A4T 호출은 Adobe로 전송된 히트에 포함됩니다. | A4T 호출은 Adobe로 전송된 히트에 포함됩니다. | A4T 호출은 별도의 히트로 전송됩니다. | A4T 호출은 별도의 히트로 전송됩니다. |
 | 컨텍스트 데이터 | `s.contextData` 사용. | 사용자 지정 코드 블록에서 `s.contextData` 사용 | 매핑되지 않은 모든 필드는 자동으로 `a.x.*` 컨텍스트 데이터 변수로 전송됩니다. | 매핑되지 않은 모든 필드는 자동으로 `a.x.*` 컨텍스트 데이터 변수로 전송됩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

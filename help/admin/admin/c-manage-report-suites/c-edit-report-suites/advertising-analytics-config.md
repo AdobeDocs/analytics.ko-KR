@@ -3,7 +3,7 @@ description: Adobe Analytics에서 Advertising Analytics 데이터를 볼 수 �
 title: Advertising Analytics 구성
 feature: Admin Tools
 source-git-commit: 47ba1b9f7e03628976962b648a0faf8f6c59e82c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 

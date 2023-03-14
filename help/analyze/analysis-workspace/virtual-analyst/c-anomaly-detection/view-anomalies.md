@@ -1,11 +1,11 @@
 ---
-description: 표 또는 선 차트에서 예외 항목을 볼 수 있습니다.
+description: 표 또는 라인 차트에서 예외 항목을 볼 수 있습니다.
 title: Analysis Workspace에서 예외 항목 보기
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Analysis Workspace에서 예외 항목 보기
 
-표 또는 선 차트에서 예외 항목을 볼 수 있습니다.
+표 또는 라인 차트에서 예외 항목을 볼 수 있습니다.
 
 ## 표에서 예외 항목 보기 {#section_869A87B92B574A38B017A980ED8A29C5}
 

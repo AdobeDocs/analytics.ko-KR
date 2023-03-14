@@ -4,9 +4,9 @@ keywords: 세그먼테이션;세그먼트
 title: 세그먼트 컨테이너
 feature: Segmentation
 source-git-commit: 3569cea351a61eb79e1b8f5dad76905f8054982b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3120'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -202,7 +202,7 @@ Country = United States + Order = True
 
 캠페인 eVar 또는 참조 차원과 같이 페이지 범위에 걸쳐 지속되는 차원별로 수행한 필터링은 컨테이너 수준에서 수집된 데이터에 적용되며, 보고의 정확성 측면에서 이해되어야 합니다.
 
-세그먼트 데이터는 차원의 지속성 또는 선택한 여러 페이지에 적용된 변수에 따라 다를 수 있습니다. 페이지 차원과 같은 일부 차원은 페이지 수준에서 고유 값을 제공하며 히트 컨테이너의 데이터를 기준으로 필터링됩니다. (자세한 내용은 [컨테이너 데이터 기반 보고서](/help/components/segmentation/seg-overview.md) 예제 참조). 참조 도메인 차원과 같은 기타 차원은 한 번에 방문한 여러 페이지에서 지속됩니다. 일부 차원 또는 적용된 변수 (예: Visit Duration)는 방문자의 전체 내역 내에서 그대로 유지됩니다.
+세그먼트 데이터는 차원의 지속성 또는 선택한 여러 페이지에 적용된 변수에 따라 다를 수 있습니다. 페이지 차원과 같은 일부 차원은 페이지 수준에서 고유 값을 제공하며 히트 컨테이너의 데이터를 기준으로 필터링됩니다. (다음을 참조하십시오. [컨테이너 데이터 기반 보고서](/help/components/segmentation/seg-overview.md) 예). 참조 도메인 차원과 같은 기타 차원은 한 번에 방문한 여러 페이지에서 지속됩니다. 일부 차원 또는 적용된 변수 (예: Visit Duration)는 방문자의 전체 내역 내에서 그대로 유지됩니다.
 
 ![](assets/RefDomain_aol.png)
 

@@ -21,7 +21,7 @@ ht-degree: 92%
 
 트래픽 분류 페이지에서 선택된 보고서 세트에 대한 분류를 만들 수 있습니다. 한 번 분류하면 키 데이터를 사용하여 생성할 수 있는 모든 보고서를 연관된 속성을 사용하여 생성할 수 있습니다.
 
-분류를 활성화한 후 [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md) 를 입력하여 해당 분류에 특정 값을 할당할 수 있었습니다.
+분류를 활성화한 후 다음을 사용합니다 [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md) 를 사용하여 적절한 분류에 특정 값을 할당할 수 있습니다.
 
 ## 트래픽 분류 추가 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

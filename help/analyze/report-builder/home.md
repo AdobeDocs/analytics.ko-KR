@@ -1,12 +1,12 @@
 ---
 title: Adobe Analytics용 Report Builder
 description: Report Builder를 사용하여 Adobe Analytics 데이터를 Microsoft Excel로 직접 가져옵니다. Report Builder를 설치하고 사용하여 비즈니스를 향상시키는 방법을 알아보십시오.
-feature: Workspace 기본 사항
+feature: Workspace Basics
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '135'
+workflow-type: tm+mt
+source-wordcount: '133'
 ht-degree: 100%
 
 ---

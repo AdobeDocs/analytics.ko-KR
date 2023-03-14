@@ -4,9 +4,9 @@ title: 반복 요청 예약
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 반복 요청 예약 {#topic_8C3CE0CE8A584F80946D24B377CB51BE}
 
-[일별]/[매월]/[연간] Data Warehouse 요청을 예약하려면 *사전 설정*이 올바르게 선택되었는지 확인하십시오.
+일별/월별/연도별 Data Warehouse 요청을 예약하려면 다음을 확인하십시오. &#42;사전 설정 &#42;이(가) 올바르게 선택되었습니다.
 
 1. [!UICONTROL 보고 날짜]에서 **[!UICONTROL 사전 설정]**&#x200B;을 선택합니다.
 

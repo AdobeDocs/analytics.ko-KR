@@ -3,7 +3,7 @@ description: Adobe Analytics에서 Document Cloud 데이터를 볼 수 있습니
 title: Document Cloud Analytics 구성
 feature: Admin Tools
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 

@@ -5,9 +5,9 @@ title: Audience Analytics에 대해 자주 묻는 질문
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1094'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -142,7 +142,7 @@ Audience Analytics을 구현할 때 나올 수 있는 질문에 대한 답변입
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: AAM의 “대상자”와 Analytics의 “세그먼트”의 차이점은 무엇입니까?</b> </p> </td> 
-   <td colname="col2"> <p>자세한 내용은 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Analytics 및 Audience Manager의 세그먼트 이해 </a>. </p> <p>AAM 대상자가 전송되어 Analytics에서 사용할 “차원” 구성 요소로 공유됩니다. 세그먼트 빌더에서는 세그먼트로 표시되지 않지만 세그먼트를 만들 수 있는 차원으로 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>다음을 참조하십시오 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Analytics 및 Audience Manager의 세그먼트 이해 </a>. </p> <p>AAM 대상자가 전송되어 Analytics에서 사용할 “차원” 구성 요소로 공유됩니다. 세그먼트 빌더에서는 세그먼트로 표시되지 않지만 세그먼트를 만들 수 있는 차원으로 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: 고객 속성과 AAM에서 통합된 고객 데이터의 차이점은 무엇입니까?</b> </p> </td> 

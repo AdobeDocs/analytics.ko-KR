@@ -32,7 +32,7 @@ ht-degree: 90%
 
 ## 차원 간 플로우 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우 플로우는 홈 페이지에서 Mens 페이지로 이동한 다음 Shoes 부로 이동할 수 있습니다.
+[차원 간 플로우](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)을 표시할 수 있습니다. 예를 들어 하나의 다이어그램에서 페이지와 차원을 결합할 수도 있습니다. 이 경우, 사용자의 흐름은 홈 페이지에서 남성 페이지로 이동한 다음, 신발 부문으로 이동할 수 있습니다.
 
 각 열에는 다른 차원이 표시될 수 있습니다. 차원을 드래그하여 놓기 영역에 놓아 해당 차원을 다이어그램에 추가합니다.
 

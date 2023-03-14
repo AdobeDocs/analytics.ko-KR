@@ -3,8 +3,8 @@ title: 다양한 구현 유형 추적
 description: 서로 다른 구현 유형을 사용하고 이러한 유형 간에 방문자를 원활하게 추적합니다.
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
-workflow-type: ht
-source-wordcount: '442'
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics 구현의 핵심 아키텍처는 모든 구현 유형에서 일�
 | 변수 | AppMeasurement | Analytics 확장 | Web SDK | Web SDK 확장 | 하드코딩된 이미지 요청 |
 | --- | --- | --- | --- | --- | --- |
 | 보고서 세트 ID | [`s_gi`](../vars/functions/s-gi.md) 내 문자열 인수 | [!UICONTROL 라이브러리 관리] 섹션의 [!UICONTROL 보고서 세트] ([확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=ko-KR) 시) | 서비스로 Adobe Analytics 추가([데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR) 시) | 서비스로 Adobe Analytics 추가([데이터스트림 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko-KR) 시) | URL `pathname`의 일부(`/b/ss/` 다음) |
-| 추적 서버 | [`trackingServer`](../vars/config-vars/trackingserver.md) 및 [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 | [!UICONTROL 일반] 섹션의 [!UICONTROL 추적 서버] 및 [!UICONTROL SSL 추적 서버] ([확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=ko-KR) 시) | `edgeDomain` 속성([Web SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR) 시) | [!UICONTROL Edge 도메인] ([확장 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ko-KR) 시) | 이미지 요청 URL의 `hostname` |
+| 추적 서버 | [`trackingServer`](../vars/config-vars/trackingserver.md) 및 [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 변수 | [!UICONTROL 일반] 섹션의 [!UICONTROL 추적 서버] 및 [!UICONTROL SSL 추적 서버]([확장 구성](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=ko-KR) 시) | `edgeDomain` 속성([Web SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko-KR) 시) | [!UICONTROL Edge 도메인]([확장 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ko-KR) 시) | 이미지 요청 URL의 `hostname` |
 | Experience Cloud ID 서비스 | 구현 [`VisitorAPI.js`](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=ko-KR) | [Adobe Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=ko-KR) 사용 | [Adobe Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=ko-KR) 사용 | [Adobe Experience Cloud ID 서비스 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=ko-KR) 사용 | [ID 서비스 서버에 대한 별도의 호출](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=ko-KR)을 만들어 원하는 ID 확보 |
 
 {style="table-layout:auto"}

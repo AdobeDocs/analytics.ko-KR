@@ -4,7 +4,7 @@ title: 보고서 세트 관리자
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Adobe Analytics 솔루션에 로그인하면 사용할 보고서 세트 하나�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 롤업</span> </td> 
-   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p> <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> 롤업 보고서 세트</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>롤업은 다른 여러 보고서 세트의 추적 데이터를 결합하는 단일 보고서 세트입니다. </p> <p>See <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> 롤업 보고서 세트</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 설정 편집</span> </td> 

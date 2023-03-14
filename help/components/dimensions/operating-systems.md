@@ -24,25 +24,25 @@ ht-degree: 34%
 
 ## 레이블 지정 및 정의 변경
 
-다음은 사용자 에이전트 및 Adobe Analytics 보고에서 운영 체제가 어떻게 표시되었는지에 대한 특정 문제 목록입니다.
+다음은 사용자 에이전트 및 Adobe Analytics 보고에서 운영 체제가 표시되는 방식과 관련된 특정 문제 목록입니다.
 
-### Apple 운영 체제에 대한 이름 지정 규칙 변경:
+### Apple 운영 체제에 대한 명명 규칙 변경:
 
-버전 11부터 OS X 대신 MacOS 를 사용하여 Apple 운영 체제를 참조할 예정입니다.
+버전 11부터는 OS X 대신 MacOS을 사용하여 Apple 운영 체제를 참조합니다.
 
 예:
 
-* &quot;OS X 10.15&quot;(UA 문자열의 표현 10.15.7에 대한 아래 참고 참조)
+* &quot;OS X 10.15&quot;(UA 문자열의 표현보다 버전 10.15.7에 대한 아래 참고 사항 참조)
 * &quot;MacOS 11.0.0
 
-### 버전 10.15.7 이후 사용자 에이전트에서 Mac OS 버전이 잘못되었습니다 
+### 버전 10.15.7 이후의 사용자 에이전트에서 Mac OS 버전이 올바르지 않음 
 
-Apple 컴퓨터의 사용자 에이전트는 최신 버전인 경우에도 OS 버전 10.15.7으로 표시됩니다. 이 작업은 UA에 버전 11을 포함함으로써 일부 웹 사이트에 문제를 일으켰기 때문에 수행되었습니다. 이것은 다음 경우에 적용됩니다 *모든 브라우저* 및 는 Chromium 브라우저에서 사용자 에이전트의 &#39;동결&#39;과 관련이 없습니다.
+Apple 컴퓨터의 사용자 에이전트는 최신 버전인 경우에도 OS 버전을 10.15.7로 표시합니다. 이는 UA에서 버전 11을 포함하는 것이 일부 웹 사이트에 문제를 일으켰기 때문에 수행되었습니다. 다음에 대해 true입니다. *모든 브라우저* 및 는 Chromium 브라우저에서 Google의 사용자 에이전트 &#39;중단&#39;과 관련이 없습니다.
 
-클라이언트 힌트에 플랫폼 버전 힌트에 올바른 버전이 포함되어 있습니다(&quot;Sec-CH-UA-Platform-Version&quot;). 이것은 높은 엔트로피 힌트이므로 Adobe이 자동으로 수집하지 않습니다. 자세한 내용은 [Adobe Analytics 힌트 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 높은 엔트로피 힌트를 수집하는 방법에 대한 자세한 정보.
+클라이언트 힌트에는 플랫폼 버전 힌트에 올바른 버전이 포함되어 있습니다(&quot;Sec-CH-UA-Platform-Version&quot;). 이는 높은 엔트로피 힌트이므로 Adobe에 의해 자동으로 수집되지 않습니다. 다음을 참조하십시오. [Adobe Analytics 힌트 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 높은 엔트로피 힌트를 수집하는 방법에 대한 자세한 정보입니다.
 
-### Windows 11부터 시작하는 사용자 에이전트에서 Windows 버전이 잘못되었습니다.
+### Windows 11로 시작하는 사용자 에이전트에서 Windows 버전이 올바르지 않음
 
-2023년 1월 현재 모든 브라우저의 사용자 에이전트는 Windows 11을 Windows 10으로 나타냅니다.
+2023년 1월 현재 모든 브라우저의 사용자 에이전트는 Windows 11을 Windows 10으로 표시합니다.
 
-클라이언트 힌트에 플랫폼 버전 힌트에 올바른 버전이 포함되어 있습니다(&quot;Sec-CH-UA-Platform-Version&quot;). 이것은 높은 엔트로피 힌트이므로 Adobe이 자동으로 수집하지 않습니다. 자세한 내용은 [Adobe Analytics 힌트 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 높은 엔트로피 힌트를 수집하는 방법에 대한 자세한 정보.
+클라이언트 힌트에는 플랫폼 버전 힌트에 올바른 버전이 포함되어 있습니다(&quot;Sec-CH-UA-Platform-Version&quot;). 이는 높은 엔트로피 힌트이므로 Adobe에 의해 자동으로 수집되지 않습니다. 다음을 참조하십시오. [Adobe Analytics 힌트 FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 높은 엔트로피 힌트를 수집하는 방법에 대한 자세한 정보입니다.

@@ -7,14 +7,14 @@ role: User, Admin
 exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 89%
 
 ---
 
 # 요청 마법사 정의 - 순환 날짜
 
-Report Builder에 있는 롤링 날짜에 대한 필드 정의입니다.
+Report Builder의 롤링 날짜에 대한 필드 정의입니다.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

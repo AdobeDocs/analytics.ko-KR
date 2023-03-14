@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 오늘이 2011년 11월 10일 월요일이면, 현재 날짜에서 1주일을 빼서 10월의 마지막 전체 주를 얻습니다.
 
-**예제 2**
+**예 2**
 
 연도의 시작 부분(1월)에 4달을 추가하여 5월이 되고, 월의 첫째 날에 2일을 추가하여 월의 3일이 됩니다.
 

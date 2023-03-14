@@ -1,12 +1,12 @@
 ---
 title: Prop
-description: 보고에 사용할 수 있는 사용자 지정 차원입니다.
+description: 보고에 사용할 수 있는 사용자 정의 차원입니다.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ prop은 원하는 대로 사용할 수 있는 사용자 지정 변수입니다. 
 >
 >대부분의 경우 [eVar](evar.md)를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
 
-[솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 지정 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
+[솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 정의 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
 ## 데이터로 prop 채우기
 
@@ -30,7 +30,7 @@ JavaScript 변수를 데이터 수집을 위한 이미지 요청으로 컴파일
 
 ## 차원 항목
 
-prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 prop에 대한 차원 항목을 결정합니다. 에 각 prop의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 설계 문서](/help/implement/prepare/solution-design.md).
+prop은 구현의 사용자 지정 문자열을 포함하므로 조직에서 각 prop에 대한 차원 항목을 결정합니다. 에 각 prop의 목적과 일반적인 차원 항목을 반드시 기록하십시오 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md).
 
 ## 대/소문자 구분
 

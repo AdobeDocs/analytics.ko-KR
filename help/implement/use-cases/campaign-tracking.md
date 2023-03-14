@@ -4,7 +4,7 @@ description: Adobe Analytics를 사용하여 마케팅 활동을 추적하십시
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 source-git-commit: c118d42667c4a1af55929834b87d148a5973bed9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%
 

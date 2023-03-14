@@ -6,7 +6,7 @@ exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -26,13 +26,13 @@ AppMeasurement는 기본적으로 링크 추적 URL에서 쿼리 문자열을 �
 
 ## 웹 SDK를 사용하여 링크 쿼리 문자열 처리
 
-쿼리 문자열이 XDM 필드에서 제거되지 않습니다 `web.webInteraction.URL`. 이 XDM 필드에서 쿼리 문자열을 제거하려면 다음을 사용하여 편집할 수 있습니다 `onBeforeEventSend`.
+쿼리 문자열은 XDM 필드에서 제거되지 않습니다 `web.webInteraction.URL`. 이 XDM 필드에서 쿼리 문자열을 제거하려면 다음을 사용하여 편집할 수 있습니다. `onBeforeEventSend`.
 
 ## Adobe Analytics 확장을 사용하여 URL 매개 변수 유지
 
 [!UICONTROL URL 매개 변수 보관]은 Adobe Analytics 확장을 구성할 때 [!UICONTROL 링크 추적] 아코디언 아래에 있는 확인란입니다.
 
-1. 에 로그인합니다. [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection) adobeID 자격 증명 사용.
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 확장] 탭으로 이동한 다음, Adobe Analytics 아래의 **[!UICONTROL 구성]** 버튼을 클릭합니다.
 4. [!UICONTROL 링크 추적] 아코디언을 확장합니다. 그러면 [!UICONTROL URL 매개 변수 유지] 확인란이 표시됩니다.

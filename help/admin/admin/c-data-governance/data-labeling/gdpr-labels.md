@@ -5,7 +5,7 @@ feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
-source-wordcount: '3585'
+source-wordcount: '3558'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 | I1 | 직접 식별 가능: 이름 또는 이메일 주소처럼 개인을 식별할 수 있거나 개인과 직접 연락할 수 있는 데이터입니다. | <ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li></ul> |
 | I2 | 간접 식별 가능: 다른 데이터와의 조합에 사용하여 개인 또는 디바이스를 식별하거나 개인 또는 디바이스와 직접 연결할 수 있는 데이터입니다.  개인을 자체적으로 식별할 수는 없지만 다른 정보 (소유하고 있거나 소유하고 있지 않은 정보)와 결합하여 누군가를 식별할 수 있습니다. 예를 들어 고객 충성도 번호 또는 회사의 CRM 시스템에서 사용되며 각 고객에 대해 고유한 ID가 있습니다. | <ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 중요 데이터 레이블 {#sensitive-data-labels}
 
@@ -42,7 +42,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 | S1 | 디바이스의 정확한 위치를 판별하는 데 사용할 수 있는 위도 및 경도와 관련된 정확한 지리적 위치 데이터입니다(100m 이내). |
 | S2 | 광범위하게 정의된 가상 울타리 영역을 판단하는 데 사용할 수 있는 지리적 위치 데이터입니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 데이터 거버넌스 레이블 (데이터 개인정보 보호) {#data-governance-labels}
 
@@ -56,7 +56,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 | ACC-ALL | 이 필드의 값은 모든 데이터 개인정보 보호 액세스 요청에 포함해야 합니다. 이 히트가 여러 개인이 공유한 디바이스에서 발생한 경우, 이 레이블을 적용하면 사용자가 데이터 컨트롤러로서 공유된 디바이스에 액세스한 개별 사용자와 이 필드의 데이터를 공유하는 것을 허용한다는 것을 나타냅니다. | 모든 데이터 개인정보 보호 요청에 대해 이 레이블이 있는 필드가 반환됩니다. |
 | ACC-PERSON | 이 필드의 값은 ID-PERSON 필드의 값과 일치하는 데이터 개인 정보 보호 요청 ID에 의해 결정된 대로 데이터 주체에서 히트가 결정된다고 합리적으로 추정되는 경우, 데이터 개인 정보 보호 액세스 요청용으로만 포함되어야 합니다. | 이 보고서 세트 내의 일부 변수에 ID-PERSON 레이블이 설정되어 있어야 하며 해당 ID를 사용하여 요청을 제출해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 다른 레이블을 수신하는 변수는 거의 없는 반면 액세스 레이블은 많은 변수에 적용될 것입니다. 하지만 수집한 데이터 중 어느 데이터를 데이터 주체와 공유해야 하는지는 법무팀과 논의하여 결정해야 합니다.
 
@@ -71,7 +71,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 | DEL-DEVICE | 데이터 개인정보 보호 삭제 요청의 경우, 이 필드의 값은 지정된 ID-DEVICE가 히트에 있는 요청에 대해서만 익명 처리되어야 합니다.  삭제되지 않는 다른 히트에서 동일한 값이 발생하는 경우, 그러한 다른 인스턴스는 변경되지 않습니다. 이 경우 이 필드에서 고유 카운트를 계산하는 보고서의 카운트가 변경됩니다. 공유된 디바이스에서는 이렇게 하면 데이터 주체 외에 다른 개인에 대한 식별자가 제거될 수 있습니다.  이 필드에 ID-DEVICE 레이블이 있고 이 필드의 값이 데이터 개인정보 보호 요청에 대한 ID로 사용된 경우에는 카운트가 변경되지 않습니다. | <ul><li>I1 또는 I2 또는 S1 레이블도 필요함</li><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li></li><li>분류에 대해 설정할 수 없음</li><li>ID-DEVICE를 사용하여 요청을 제출하거나 expandIDs를 true로 설정해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다.</li></ul> |
 | DEL-PERSON | 데이터 개인정보 보호 삭제 요청의 경우, 이 필드의 값은 지정된 ID-PERSON이 히트에 있는 요청에 대해서만 익명 처리되어야 합니다.  삭제되지 않는 다른 히트에서 동일한 값이 발생하는 경우, 그러한 다른 값은 변경되지 않습니다. 이 경우 이 필드에서 고유 카운트를 계산하는 보고서의 카운트가 변경됩니다. 이 필드에 ID-PERSON 레이블이 있고 이 필드의 값이 데이터 개인정보 보호 요청에 대한 ID로 사용된 경우에는 카운트가 변경되지 않습니다. | <ul><li>I1 또는 I2 또는 S1 레이블도 필요함</li><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li></li><li>분류에 대해 설정할 수 없음</li><li>이 보고서 세트 내의 일부 변수에 대해 ID-PERSON 레이블 세트를 사용하여 요청을 제출하고 해당 ID를 사용하여 요청을 제출해야 합니다. 그렇지 않으면 이 레이블이 적용되지 않습니다.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 데이터 개인정보 보호 ID 레이블
 
@@ -81,7 +81,7 @@ ID 데이터의 “I” 레이블은 특정 개인을 식별하거나 특정 개
 | ID-DEVICE | 이 필드에는 데이터 개인정보 보호 요청에 대해 디바이스를 식별하는 데 사용할 수 있는 ID가 포함되어 있지만 공유 디바이스의 서로 다른 사용자를 구별할 수 없습니다.  ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | I1 또는 I2 레이블도 필요함.<ul><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li><li>분류에 대해 설정할 수 없음</li></ul> |
 | ID-PERSON | 이 필드에는 데이터 개인정보 보호 요청에 대해 인증된 사용자 (특정 사용자)를 식별하는 데 사용할 수 있는 ID가 포함됩니다.  ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 이 레이블을 지정할 필요는 없습니다. 이 변수에 저장된 ID를 사용하여 데이터 개인정보 보호 요청을 제출하고 이 변수에서 지정된 ID를 검색하려는 경우 이 레이블을 사용합니다. | <ul><li>I1 또는 I2 레이블도 필요함.</li><li>이벤트에 대해 설정할 수 없음</li><li>머천다이징 eVar에 대해 설정할 수 없음</li><li>분류에 대해 설정할 수 없음</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 변수에 ID-DEVICE 또는 ID-PERSON으로 레이블을 지정할 때 네임스페이스 제공 {#provide-namespace}
 
@@ -138,7 +138,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | <ul><li>트래픽 변수 (Prop)</li><li>상거래 변수 (비머천다이징 eVar)</li></ul> | 모든 레이블 | - |
 | 대부분의 다른 변수  (*예외 사항은 아래 표 참조*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ACC-ALL/ACC-PERSON 이외의 레이블을 지정/수정할 수 있는 변수 {#variables}
 
@@ -218,7 +218,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | <ul><li>ClickMap 작업 (기존)</li><li>ClickMap 컨텍스트 (기존)</li><li>페이지</li><li>페이지 URL</li><li>원래 시작 페이지 URL</li><li>레퍼러</li><li>시작 페이지 URL 방문</li></ul> | URL 매개 변수는 삭제/제거됩니다. 값이 URL과 유사하지 않으면 값은 지워집니다 (빈 문자열로 설정됨). |
 | <ul><li>위도</li><li>경도</li></ul> | 정밀도는 1km 정도로 감소합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 예상 삭제 레이블을 지원하지 않는 변수 {#no-delete-support}
 
@@ -237,7 +237,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | [!UICONTROL 방문자 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 이러한 ID에는 DEL-DEVICE 레이블이 있지만 DEL-PERSON 레이블을 추가할 수 없습니다. 각 요청에 [!UICONTROL ID 확장]을 지정하는 경우 ID-PERSON을 사용하는 모든 삭제 요청에 대해 이러한 ID가 자동으로 삭제됩니다.<p>ID 확장을 사용하지 않고 이러한 쿠키 ID가 Prop 또는 eVar에 일치하는 ID가 포함된 히트에 익명으로 표시되도록 하려면 실제로 사람을 식별하는 경우에도 Prop 또는 eVar에 ID-DEVICE 레이블을 지정하여 이 라벨링 제한을 해결할 수 있습니다 (모든 DEL-PERSON 레이블도 DEL-DEVICE 레이블로 변경해야 함). 이 경우에는 방문자 ID 또는 ECID의 일부 인스턴스만 익명으로 처리되고 있으므로 고유 방문자 수가 기록 보고에서 변경됩니다. |
 | [!UICONTROL AMO ID] | Adobe Advertising Cloud ID는 수정할 수 없는 [!UICONTROL DEL-DEVICE] 레이블이 있는 솔루션 변수입니다. 방문자 ID 및 MCID와 마찬가지로 쿠키에서 채워집니다. 다른 ID가 삭제될 때마다 히트에서 삭제해야 합니다. 자세한 내용은 해당 변수에 대한 설명을 참조하십시오. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 액세스 요청에 대한 날짜 필드 {#access-requests}
 
@@ -251,7 +251,7 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
 | First Hit Time GMT | 첫 번째 히트의 Custom Hit Time UTC 값은 이 히트의 방문자 ID 값에 대해 수신된 첫 번째 히트입니다. |
 | Visit Start Time UTC | 첫 번째 히트의 Custom Hit Time UTC 값은 이 방문자 ID의 현재 방문에 대해 수신된 첫 번째 히트입니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 데이터 개인정보 보호 액세스 요청에 대해 반환되는 파일을 생성하는 코드는 처음 세 개의 타임스탬프 변수 중 하나 이상이 액세스 요청에 포함되어야 합니다 (요청 유형에 적용되는 ACC 레이블 있음). 이러한 항목이 포함되지 않은 경우 Custom Hit Time UTC는 ACC-ALL 레이블이 있는 것처럼 처리됩니다.
 

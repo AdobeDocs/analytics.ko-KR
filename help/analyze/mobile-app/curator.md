@@ -1,11 +1,11 @@
 ---
-description: '대시보드 스코어카드란 무엇이며 '
+description: 대시보드 스코어카드란 무엇이며
 title: Adobe Analytics 대시보드 큐레이터 안내서
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%
 

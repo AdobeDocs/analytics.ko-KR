@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 97%
+source-wordcount: '755'
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 97%
 
 * 시간대의 함수(예: [!UICONTROL 누적 평균])에 대해 지표를 분석합니다.
 
-다음 사항에 주의하십시오.
+다음 사항을 염두에 두십시오.
 
-* 한 번에 여러 비교를 추가할 수 있습니다 [!UICONTROL 콤보 차트].
+* 단일 [!UICONTROL 콤보 차트]에 여러 비교를 추가할 수 있습니다.
 * 하나 이상의 비교를 추가하는 경우 [!UICONTROL 시간 비교]와 같이 동일한 유형이어야 합니다.
 * 최대 5개의 비교를 추가할 수 있습니다.
 * 지표에 최대 3개의 필터(세그먼트)를 적용할 수 있습니다.
@@ -47,7 +47,7 @@ ht-degree: 97%
    | **[!UICONTROL 함수]** | [!UICONTROL 평균]과 같은 함수를 비교에 도입할 수 있습니다. 아래에서 지원되는 함수 목록을 참조하십시오.<p>![](assets/combo-functions.png) |
    | **[!UICONTROL 보조 지표]** | 예를 들어 [!UICONTROL 수익]을 다른 지표와 비교할 수 있습니다.<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. **[!UICONTROL 빌드]**&#x200B;를 클릭합니다.
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 | **[!UICONTROL 평균]** | 지표에 대한 산술 평균 또는 평균을 반환합니다. |
 | **[!UICONTROL 열 최소값]** | 지표 열에 대한 차원 요소 세트에서 가장 작은 값을 반환합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 다음은 수익 지표에 대한 누적 평균의 예입니다.
 
@@ -103,4 +103,4 @@ ht-degree: 97%
 | **[!UICONTROL Y축 표시]** | Y축을 표시하거나 숨깁니다. |
 | **[!UICONTROL Y축을 0에 고정]** | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

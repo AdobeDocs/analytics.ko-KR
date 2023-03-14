@@ -1,5 +1,5 @@
 ---
-description: '분류는 분석 보고 데이터를 관련 속성에 매핑하는 데 사용됩니다. 분류는 다양한 목적으로 사용할 수 있지만 캠페인 추적 코드(내외부 모두)와 제품 ID를 분류하는 데 가장 일반적으로 사용됩니다. '
+description: 분류는 분석 보고 데이터를 관련 속성에 매핑하는 데 사용됩니다. 분류는 다양한 목적으로 사용할 수 있지만 캠페인 추적 코드(내외부 모두)와 제품 ID를 분류하는 데 가장 일반적으로 사용됩니다.
 title: 분류
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 100%
 
 ---
