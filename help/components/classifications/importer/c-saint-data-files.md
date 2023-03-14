@@ -3,10 +3,10 @@ description: 가져오기를 사용하여 분석 보고에 대한 분류 데이�
 title: 분류 데이터 파일
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1784'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ ht-degree: 100%
 
 ### 분류 열 제목
 
-예를 들어 Reports &amp; Analytics 기능에는 [!UICONTROL 캠페인] 변수의 두 가지 분류인 [!UICONTROL 캠페인]과 [!UICONTROL 크리에이티브 요소]가 자동으로 포함됩니다. [!UICONTROL 캠페인] 분류에 데이터를 추가하려면 분류 데이터 파일의 열 제목이 [!UICONTROL 캠페인]이어야 합니다.
+예: Reports &amp; Analytics 구현에는 다음 두 가지 분류가 자동으로 포함됩니다. [!UICONTROL 캠페인] 변수: [!UICONTROL 캠페인] 및 [!UICONTROL 크리에이티브 요소]. [!UICONTROL 캠페인] 분류에 데이터를 추가하려면 분류 데이터 파일의 열 제목이 [!UICONTROL 캠페인]이어야 합니다.
 
 >[!NOTE]
 >
->[!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다.
+>[!UICONTROL 분류] 열 제목의 값은 분류 명명 규칙과 정확히 일치해야 하며, 그렇지 않은 경우 가져오기에 실패합니다. 예를 들어 관리자가 [!UICONTROL 캠페인]을 [!UICONTROL 캠페인 설정 관리자]의 [!UICONTROL 내부 캠페인 이름]으로 변경하는 경우 파일 열 제목을 일치하도록 변경해야 합니다. &quot;Key&quot;는 예약된 분류(헤더) 값입니다. &quot;키&quot;라는 새 분류는 지원되지 않습니다.
 
 또한 데이터 파일은 다음 추가 제목 규칙이 하위 분류와 기타 특수 데이터 열과 일치하도록 지원합니다.
 
