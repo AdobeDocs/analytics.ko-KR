@@ -3,9 +3,9 @@ description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승�
 title: 데이터 사전의 항목 편집
 feature: Components
 role: Admin
-source-git-commit: 8edd7b1b90e2ac3137bea734e5a0f1cb8004e743
+source-git-commit: 7e105b4cd22187411dedd663080703e6daec91f5
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 63%
 
 ---
@@ -36,10 +36,10 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
    |---------|----------|
    | ![Dimension 아이콘](assets/dimension-icon.png) | 다음을 나타냅니다 **차원**. Dimension은 Adobe에서 제공합니다. 기존 차원을 수정할 수 없으며 새 차원을 만들 수 없습니다. |
    | ![지표 아이콘](assets/default-metric-icon.png) | 다음을 나타냅니다 **표준 지표** (계산되지 않음). 표준 지표는 Adobe에서 제공하며 수정할 수 없습니다. |
-   | ![Adobe 아이콘](assets/default-calc-metric-icon.png) | 다음을 나타냅니다 **계산된 지표 템플릿**. 이는 Adobe에서 제공하며 수정할 수 없는 계산된 지표입니다. |
-   | ![계산기 아이콘](assets/calculated-metric-icon-created.png) | 다음을 나타냅니다 **계산된 지표** 이는 조직의 Analytics 관리자가 만들었습니다. <!-- Delete all the comments... Components with this icon can be modified by an Analytics administrator. New calculated metrics can be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). --> |
-   | ![세그먼트 아이콘](assets/segment-icon.png) | 다음을 나타냅니다 **세그먼트**. 이러한 세그먼트는 Adobe이 제공하거나 조직의 Analytics 관리자가 만들 수 있습니다.<!-- Segments that were created byComponents with this icon can be modified by an Analytics administrator, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md). New calculated metrics can also be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). --> |
-   | ![날짜 범위 아이콘](assets/date-range-icon.png) | 다음을 나타냅니다 **날짜 범위**. 이 날짜 범위는 Adobe이 제공하거나 조직의 Analytics 관리자가 만들 수 있습니다. <!-- Components with this icon can be modified by an Analytics administrator. New date ranges can also be created by an Analytics administrator, as described in [Create custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). --> |
+   | ![Adobe 아이콘](assets/default-calc-metric-icon.png) | 다음을 나타냅니다 **계산된 지표 템플릿** 또는 **세그먼트 템플릿**. 이러한 구성 요소는 Adobe에서 제공하므로 수정할 수 없습니다. |
+   | ![계산기 아이콘](assets/calculated-metric-icon-created.png) | 다음을 나타냅니다 **계산된 지표** 이는 조직의 Analytics 관리자가 만들었습니다. |
+   | ![세그먼트 아이콘](assets/segment-icon.png) | 다음을 나타냅니다 **세그먼트**. 이러한 세그먼트는 Adobe이 제공하거나 조직의 Analytics 관리자가 만들 수 있습니다. |
+   | ![날짜 범위 아이콘](assets/date-range-icon.png) | 다음을 나타냅니다 **날짜 범위**. 이 날짜 범위는 Adobe이 제공하거나 조직의 Analytics 관리자가 만들 수 있습니다. |
 
 {{dd-filter-criteria}}
 
