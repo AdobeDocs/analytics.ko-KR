@@ -3,16 +3,14 @@ description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승�
 title: 데이터 사전 보기
 feature: Components
 role: User, Admin
-source-git-commit: 5d83d2621ee5eee7dbbc2af3793a9e1d3de0f97b
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 62%
+source-wordcount: '280'
+ht-degree: 75%
 
 ---
 
 # 데이터 사전의 구성 요소 정보 보기
-
-{{release-limited-testing}}
 
 데이터 사전을 사용하면 구성 요소 설명, 유사한 구성 요소, 구성 요소가 자주 사용되는 다른 구성 요소 등 구성 요소에 대한 정보를 볼 수 있습니다.
 
@@ -32,16 +30,7 @@ ht-degree: 62%
 
 1. (선택 사항) 검색 필드에서 확인하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-   구성 요소 이름 옆에 구성 요소 유형을 나타내는 아이콘이 표시됩니다.
-
-   | 아이콘 | 의미 |
-   |---------|----------|
-   | ![Dimension 아이콘](assets/dimension-icon.png) | 다음을 나타냅니다 **차원**. Dimension은 Adobe에서 제공합니다. 기존 차원을 수정할 수 없으며 새 차원을 만들 수 없습니다. |
-   | ![지표 아이콘](assets/default-metric-icon.png) | 다음을 나타냅니다 **표준 지표** (계산되지 않음). 표준 지표는 Adobe에서 제공하며 수정할 수 없습니다. |
-   | ![Adobe 아이콘](assets/default-calc-metric-icon.png) | 다음을 나타냅니다 **계산된 지표 템플릿** 또는 **세그먼트 템플릿**. 이러한 구성 요소는 Adobe에서 제공하므로 수정할 수 없습니다. |
-   | ![계산기 아이콘](assets/calculated-metric-icon-created.png) | 다음을 나타냅니다 **계산된 지표** 이는 조직의 Analytics 관리자가 만들었습니다. |
-   | ![세그먼트 아이콘](assets/segment-icon.png) | 다음을 나타냅니다 **세그먼트**. 이러한 세그먼트는 Adobe이 제공하거나 조직의 Analytics 관리자가 만들 수 있습니다. |
-   | ![날짜 범위 아이콘](assets/date-range-icon.png) | 다음을 나타냅니다 **날짜 범위**. 이 날짜 범위는 Adobe이 제공하거나 조직의 Analytics 관리자가 만들 수 있습니다. |
+   구성 요소 유형은 색상과 아이콘을 모두 사용하여 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](assets/dimension-icon.png) 주황색이고, **세그먼트** ![세그먼트 아이콘](assets/segment-icon.png) 파란색, **날짜 범위** ![날짜 범위 아이콘](assets/date-range-icon.png) 보라색이고 **지표** ![지표 아이콘](assets/default-metric-icon.png) 녹색입니다. Adobe 아이콘 ![Adobe 아이콘](assets/default-calc-metric-icon.png) 계산된 지표 템플릿 또는 세그먼트 템플릿과 계산기 아이콘을 나타냅니다 ![계산기 아이콘](assets/calculated-metric-icon-created.png) 조직의 Analytics 관리자가 만든 계산된 지표를 표시합니다.
 
 {{dd-filter-criteria}}
 
