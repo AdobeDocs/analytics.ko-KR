@@ -2,7 +2,7 @@
 title: Analytics 확장을 사용하여 Adobe Analytics 구현
 description: 태그 및 Analytics 확장을 사용하는 Adobe Analytics 구현 방법 알아보기
 feature: Launch Implementation
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
