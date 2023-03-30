@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -122,6 +122,10 @@ ht-degree: 65%
 >* Analytics 관리자가 이러한 방식으로 프로젝트를 공유하는 기능을 [기본 설정](/help/analyze/analysis-workspace/user-preferences.md). 이 섹션에 설명된 대로 프로젝트를 공유할 수 없는 경우 Analytics 관리자가 이 기능을 비활성화했습니다.
 >
 >* 14개가 넘는 확장된 시각화가 있는 프로젝트는 Adobe Analytics에 액세스할 수 없는 사람과 공유할 수 없습니다.
+>
+>* 와 공유하는 사용자는 [큐레이션](curate.md).
+> 
+>* 와 공유하는 사용자는 프로젝트 날짜 범위를 변경할 수 있습니다. 기본적으로 프로젝트에 대해 설정한 날짜 범위가 표시됩니다.
 
 
 Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로젝트를 공유하려면 다음을 수행하십시오.
@@ -153,6 +157,8 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
 1. 프로젝트에 액세스할 사람과 링크를 공유합니다. 예를 들어 링크를 전자 메일에 붙여넣을 수 있습니다.
 
    링크를 공유하는 모든 사용자는 Analysis Workspace 프로젝트를 볼 수 있습니다.
+
+1. (선택 사항) **새 링크 생성** 아이콘 ![링크 생성 아이콘](assets/regenerate-link.png) 이전에 프로젝트에 대한 링크를 받은 사용자로부터 액세스 권한을 제거하기 위해 프로젝트에 액세스하려는 사용자와 공유할 수 있는 새 링크가 생성됩니다.
 
 1. 선택 **[!UICONTROL 닫기]** 공유 대화 상자를 닫습니다. 변경 사항이 자동으로 저장됩니다.
 
