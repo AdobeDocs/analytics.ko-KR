@@ -3,10 +3,10 @@ title: prop
 description: 구현에 사용할 수 있는 사용자 정의 변수입니다.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '606'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ prop은 원하는 대로 사용할 수 있는 사용자 정의 변수입니다. 
 
 >[!TIP]
 >
->대부분의 경우 [eVar](evar.md)를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe는 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
+>대부분의 경우 [eVar](evar.md)를 사용하는 것이 좋습니다. 이전 버전의 Adobe Analytics에서는 prop 및 eVar가 서로 장단점이 있었습니다. 그러나 Adobe은 이제 prop에 대한 거의 모든 사용 사례를 충족하도록 eVar를 개선했습니다.
 
 [솔루션 설계 문서](/help/implement/prepare/solution-design.md)가 있는 경우 이러한 사용자 정의 차원을 조직 고유의 값에 할당할 수 있습니다. 사용 가능한 prop의 수는 Adobe와의 계약에 따라 달라집니다. Adobe와의 계약이 지원하는 경우 최대 75개의 prop을 사용할 수 있습니다.
 
