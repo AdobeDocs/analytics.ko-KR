@@ -5,10 +5,10 @@ title: 공유 가능한 링크 만들기
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 73%
+source-wordcount: '380'
+ht-degree: 61%
 
 ---
 
@@ -18,15 +18,15 @@ Analysis Workspace는 프로젝트 또는 프로젝트의 특정 부분에 대�
 
 ## 다른 Workspace 사용자와 공유할 프로젝트 링크 가져오기 {#project-link}
 
-전체 프로젝트에 대한 링크를 공유하려면 [!UICONTROL **공유**] > [!UICONTROL **작업 공간 사용자와 공유**] > [!UICONTROL **링크별 공유**]. 링크의 수신자에게 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)이 할당되지 않은 경우 관리자는 **[!UICONTROL 편집 가능]** 기능을 받으며 관리자가 아닌 사용자는 **[!UICONTROL 복제 가능]** 경험을 받습니다.
+프로젝트에 대한 링크를 공유하려면 공유할 프로젝트로 이동한 다음, 이동 [!UICONTROL **공유**] > [!UICONTROL **작업 공간 사용자와 공유**] > [!UICONTROL **링크별 공유**]. 와 링크를 공유하는 사용자는 로그인해야 합니다.
 
-![](assets/get-project-link.png)
+링크의 수신자에게 [프로젝트 역할](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR), 관리자가 수신 **[!UICONTROL 편집 가능]** 및 비관리자가 수신 **[!UICONTROL 복제 가능]** 경험.
 
 ## 모든 사람과 공유할 읽기 전용 링크를 가져옵니다
 
 {{release-limited-testing-section}}
 
-Adobe Analytics에 액세스할 수 없는 사용자와 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다.
+Adobe Analytics에 액세스할 수 없는 사용자와 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 와 링크를 공유하는 사용자는 로그인할 필요가 없습니다.
 
 자세한 내용은 문서에서 &quot;모든 사람과 프로젝트 공유(로그인 필요 없음)&quot;를 참조하십시오 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
