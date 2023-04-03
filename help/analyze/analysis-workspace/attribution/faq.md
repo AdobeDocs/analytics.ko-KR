@@ -4,10 +4,10 @@ description: 속성과 관련하여 자주 묻는 질문에 대한 답변을 얻
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 89%
+source-wordcount: '1071'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 89%
 
 예. 대부분의 데이터 소스가 지원됩니다. 요약 수준 데이터 소스는 Analytics 방문자 식별자에 연결되지 않으므로 요약 수준 데이터 소스를 사용할 경우에는 속성을 사용할 수 없습니다.
 
-거래 ID 데이터 소스는 다른 히트처럼 처리됩니다. 기존 보고에서 일반적으로 사용하는 특수 처리를 사용하지 않습니다.
+거래 ID 데이터 소스는 다른 히트처럼 처리됩니다. 기존 보고에서 일반적으로 사용하는 특수 처리를 사용하지 않습니다. 즉, 보고서 처리 시간을 사용할 때 거래 ID 히트에 거래 ID 히트의 타임스탬프 근처에 발생하는 히트에서 eVar 값이 전파됩니다. 이 값은 원래 트랜잭션 시간 근처에 발생한 히트에서 전파되지 않습니다.
 
 ## 속성은 Advertising Analytics 통합에서 작동합니까?
 

@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 670f6044fe29b97a6dcbd77608a9f40c1aacb09a
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 67%
+source-wordcount: '1444'
+ht-degree: 73%
 
 ---
 
@@ -20,12 +20,13 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **웹 SDK를 사용한 Activity Map에 대한 부분 지원** | 웹 SDK 버전 2.15.0부터 링크 추적이 활성화되면 Activity Map 데이터에 채우기를 시작합니다. 이렇게 하면 웹 SDK 사용자가 Analytics에 구성된 웹 SDK 및 Activity Map을 사용하여 링크 추적을 활성화한 경우 Activity Map 보고를 받을 수 있습니다.<p>고객이 한 페이지에서 다음 페이지로 이동할 때 웹 SDK를 사용하여 링크 추적을 활성화하면 링크 이벤트가 전송됩니다. 그 결과, 청구 가능한 추가 히트가 Adobe으로 전송됩니다. 장기적으로 Adobe에서는 AppMeasurement의 기능을 반영하는 방식으로 웹 SDK가 Activity Map을 수집하도록 하는 방법을 사용하고 있습니다. 경우에 따라 AppMeasurement가 후속 페이지 보기 시 데이터를 개별적으로 전송하여 서버 호출 수를 줄입니다. 자세한 내용은 [링크 추적](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 추가 정보. | 해당 사항 없음 | 2023년 3월 31일 |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 29일 |
 | **Mobile Dashboards의 데이터 스토리** | 데이터 스토리를 사용하면 모바일 스코어카드 프로젝트의 타일에 여러 맞춤형 세부 정보 보기를 추가할 수 있습니다. 데이터 스토리를 사용하여 주요 동인, 관련 지표 및 고객 여정의 여러 단계에 대해 자세히 알아보십시오. 이러한 보기를 쉽게 스와이프하여 주요 지표 뒤에 있는 전체 스토리를 이해할 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 해당 사항 없음 | 2023년 3월 8일 |
 | **예약된 프로젝트의 만료 날짜** | 일정 빈도와 관계없이 예약된 프로젝트의 최대 만료 날짜를 1년까지 설정할 수 있습니다. | 해당 사항 없음 | 2023년 3월 8일 |
 | **프로젝트 링크 공유(로그인 불필요)** - Private Beta 액세스 전용 | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 조직 외부의 사람들 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람들과 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Private Beta에 참여하려면 Adobe 계정 팀에 문의하십시오.</p> | 2023년 3월 15일 (Private Beta) | 2023년 4월 |
 | **패널 날짜 범위 업데이트** | Workspace에서 다음 개선 사항이 추가되었습니다.<ul><li>2월 릴리스부터 차원 항목 및 데이터 미리 보기는 최근 90일이 아니라 패널 날짜 범위를 기반으로 합니다. </li><li>나열된 모든 차원 항목은 패널 날짜 범위 내의 데이터를 기반으로 합니다. 차원 항목에 날짜 범위 밖의 데이터가 있는 경우 목록 하단의 날짜 범위 이상의 추가 데이터를 표시할 수 있습니다.</li><li>데이터가 없는 Dimension은 왼쪽 레일에 표시할 수 있습니다. 패널 날짜 범위를 벗어나는 데이터로 차원 항목을 보려면 더 보기 옵션을 클릭합니다.</li><li>세그먼트 및 계산된 지표 빌더의 데이터 미리 보기는 연결된 패널이 없으며 최근 90일을 기반으로 하는 구성 요소 관리자에서 액세스하지 않는 한 패널 날짜 범위를 기반으로 합니다.</li><li>데이터 미리 보기에는 패널 날짜 범위에 따라 데이터 또는 구성 요소가 표시됩니다.</li></ul> | 해당 사항 없음 | 2023년 2월 8일 |
+
+{style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
@@ -35,7 +36,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
-| **이제 장치 조회 프로세스에서 모든 장치 조회에 타사를 사용합니다** | 2023년 3월 3일 | 2023년 3월 2일, 클라이언트 힌트에 대한 지원 롤아웃을 통해 모든 장치 조회에 타사를 사용하도록 장치 조회 프로세스를 업데이트했습니다. 이전에는 모바일 장치 조회에만 타사 를 사용했습니다. 해당 롤아웃의 일부로, 일부 데스크탑 운영 체제는 텍스트 &quot;모바일&quot;로 잘못 레이블이 지정되었습니다(예: &quot;OS X 10.15.7 &quot; 대신 &quot;Mobile OS X 10.15.7&quot;.<p>Adobe의 4월 릴리스 동안 이러한 이름을 수정합니다. Analytics 및 CJA 보고는 이벤트 데이터의 일부로 기록된 ID를 기반으로 운영 체제 이름을 조회하므로 소급하여 업데이트됩니다. ID에 해당하는 조회 값이 업데이트되면 내역 데이터를 포함하여 모든 보고가 수정됩니다. 데이터 피드 고객의 경우 보고 시 유사한 조회 프로세스를 사용하는 경우에는 변경 사항을 소급 적용합니다. 그러나 이벤트 데이터에 운영 체제 값을 저장하는 경우 보고 기능은 앞으로 계속 업데이트됩니다. 자세한 내용은 [운영 체제](/help/components/dimensions/operating-systems.md) 자세한 내용 |
+| **이제 장치 조회 프로세스에서 모든 장치 조회에 타사를 사용합니다** | 2023년 3월 3일 | 2023년 3월 2일, 클라이언트 힌트에 대한 지원 롤아웃을 통해 모든 장치 조회에 타사를 사용하도록 장치 조회 프로세스를 업데이트했습니다. 이전에는 모바일 장치 조회에만 타사 를 사용했습니다. 해당 롤아웃의 일부로, 일부 데스크탑 운영 체제는 텍스트 &quot;모바일&quot;로 잘못 레이블이 지정되었습니다(예: &quot;OS X 10.15.7 &quot; 대신 &quot;Mobile OS X 10.15.7&quot;.<p>Adobe의 4월 릴리스 동안 이러한 이름을 수정합니다. Analytics 및 CJA 보고는 이벤트 데이터의 일부로 기록된 ID를 기반으로 운영 체제 이름을 조회하므로 소급하여 업데이트됩니다. ID에 해당하는 조회 값이 업데이트되면 내역 데이터를 포함하여 모든 보고가 수정됩니다. 대상 [!UICONTROL 데이터 피드] 고객의 경우, 보고 시 유사한 조회 프로세스를 사용하는 경우에는 변경 사항이 소급 적용됩니다. 그러나 이벤트 데이터에 운영 체제 값을 저장하는 경우 보고 기능은 앞으로 계속 업데이트됩니다. 자세한 내용은 [운영 체제](/help/components/dimensions/operating-systems.md) 자세한 내용 |
 | **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 2월 27일 | 2023년 2월 16일로 예정되었던 클라이언트 힌트 사용은 힌트를 사용한 디바이스 조회 품질을 더 잘 보장하기 위해 연기되었습니다. 2023년 2월 27일에 Client Hints 지원을 위한 첫 번째 릴리스 단계가 진행되었습니다. 릴리스의 두 번째이자 마지막 단계는 2023년 3월 2일 목요일에 완료되었습니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 | **Analytics 소스 커넥터 가용성** | 2023년 2월 15일 | 2023년 2월 28일부터 캐나다에 있는 새로운 Adobe Experience Platform 데이터 센터에서 Analytics 소스 커넥터를 사용할 수 있습니다. |
 | **분류 세트 아키텍처로 자동 마이그레이션** | 2023년 2월 8일 | Adobe는 앞으로 몇 달 동안 전 조직의 모든 분류를 최신 분류 아키텍처로 마이그레이션할 계획입니다. 마이그레이션할 마지막 고객은 2023년 5월에 발생할 것으로 예상됩니다. 고객 조치가 필요하지 않으며 중단 시간은 예상되지 않습니다. 이러한 새로운 아키텍처에는 다음과 같은 많은 이점이 있습니다.<ul><li>처리 시간 대폭 단축 (72시간 → 24시간)</li><li>[분류 세트](/help/components/classifications/sets/overview.md) UI를 사용하는 기능</li><li>[분류 데이터용 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)를 통해 향후 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션</li></ul>조직 워크플로에 잠재적으로 영향을 줄 수 있는 다음 변경 사항에 유의하십시오.<ul><li>브라우저 또는 FTP 가져오기를 사용하는 경우, &#39;[!UICONTROL 충돌 시 덮어쓰기]&#39;가 항상 활성화됩니다.</li><li>브라우저 또는 FTP 가져오기를 사용할 때 가져오기 직후 내보내기 옵션은 더 이상 지원되지 않습니다.</li><li>Analytics 2.0 API `GetDimensions` 엔드포인트는 이제 숫자 식별자 대신 분류에 대한 문자열 식별자를 반환합니다. 숫자 식별자를 계속 사용할 수 있지만 가능한 경우 새 문자열 식별자를 사용하는 것이 좋습니다. 숫자 식별자는 `?expansion=hidden` 쿼리 문자열 매개변수를 사용하여 검색할 수 있습니다.</li></ul>조직에 대한 보다 구체적인 마이그레이션 일정을 원하거나 이 마이그레이션에 대한 질문/우려 사항이 있는 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/components/classifications/sets/overview.md) |
