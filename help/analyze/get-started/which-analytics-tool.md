@@ -3,7 +3,7 @@ description: 이 도움말 페이지에서는 각 Adobe Analytics 도구에 대�
 title: 어떤 Adobe Analytics 도구를 사용해야 합니까?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Adobe Analytics 제품 비교에 대한 자세한 내용은 [Analytics 제품 �
    * 규칙 빌더: 구분된 값과 같이 예측 가능한 형식으로 된 값의 변수를 수집할 때 사용합니다. 이 방법을 통해 규칙을 한 번 설정하면 대부분 &quot;설정해 놓고 잊어도 됩니다&quot;.
    * 브라우저 가져오기: 예측 가능한 값이 없거나 일회성 업데이트가 필요한 유한 값 목록이 있는 경우에 사용합니다. 이 방법에서는 새 값에 대한 분류를 지속적으로 모니터링해야 합니다.
 
-**[Data Sources](/help/import/c-data-sources/datasrc-home.md)**&#x200B;는 다음 경우에 사용합니다.
+**[Data Sources](/help/import/data-sources/overview.md)**&#x200B;는 다음 경우에 사용합니다.
 
 * Adobe Analytics에 영구적으로 작성하려는 오프라인 데이터가 있을 때
 * 옵션:

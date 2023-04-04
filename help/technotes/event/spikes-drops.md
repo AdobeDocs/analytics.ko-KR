@@ -2,7 +2,7 @@
 title: 데이터 증가 및 감소 문제 해결
 description: 트렌드 보고서에서 극적인 증가 또는 감소를 볼 수 있는 가능한 이유를 알아봅니다.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 ### 예상 데이터가 거의 또는 정확히 2배 증가하는 잠재적 원인
 
 * **구현 내에서 여러 이미지 요청**: 구현에 페이지당 두 개 이상의 [`t()`](/help/implement/vars/functions/t-method.md) 메서드 호출이 포함되어 있는 경우 수집된 모든 데이터가 사실상 두 배가 됩니다. 중복 항목을 포착하려면 사이트의 디버거를 사용하여 여러 이미지 요청이 있는지 확인하십시오.
-* **중복하는 데이터 소스 파일이 업로드됨**: 조직에서 [데이터 소스](/help/import/c-data-sources/datasrc-home.md)를 사용하는 경우 조직의 사용자가 동일한 파일을 Adobe Analytics에 두 번 업로드할 수 있습니다. 이 중복 업로드를 수행하면 보고서에서 해당 데이터가 효과적으로 두 배가 되어 트래픽 증가가 발생합니다.
+* **중복하는 데이터 소스 파일이 업로드됨**: 조직에서 [데이터 소스](/help/import/data-sources/overview.md)를 사용하는 경우 조직의 사용자가 동일한 파일을 Adobe Analytics에 두 번 업로드할 수 있습니다. 이 중복 업로드를 수행하면 보고서에서 해당 데이터가 효과적으로 두 배가 되어 트래픽 증가가 발생합니다.
 
 ### 트래픽 증가에 대한 기타 잠재적 원인
 

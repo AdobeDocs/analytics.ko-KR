@@ -3,10 +3,10 @@ title: 페이지 조회수
 description: 차원 항목이 Adobe Analytics에서 설정되거나 지속된 횟수입니다.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 이 지표의 계산 방법
 
-이 지표는 보고서 세트의 모든 페이지 보기 추적 호출 ([`t()`](/help/implement/vars/functions/t-method.md))을 계산합니다. 차원에는 차원 항목이 정의되거나 지속된 히트가 포함됩니다. 링크 추적 호출 ([`tl()`](/help/implement/vars/functions/tl-method.md))은 포함되지 않습니다.
+이 지표는 보고서 세트의 모든 페이지 보기 추적 호출 ([`t()`](/help/implement/vars/functions/t-method.md))을 계산합니다. 차원에는 차원 항목이 정의되거나 지속된 히트가 포함됩니다. 링크 추적 호출([`tl()`](/help/implement/vars/functions/tl-method.md)) 또는 요약의 데이터 [데이터 소스](/help/import/data-sources/overview.md).
 
 ## 유사한 지표와 비교
 
