@@ -1,5 +1,5 @@
 ---
-source-git-commit: 57772f5a2e74ec20fd7c234b996678f7e75607ea
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 71%
@@ -11,7 +11,7 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->Reports &amp; Analytics [서비스 종료 공지](https://express.adobe.com/page/6WnF8JK6IRDhf/)에 대해 자세히 알아보십시오.
+>Reports &amp; Analytics [서비스 종료 공지](https://www.adobe.com/go/analytics_rnaeol_en)에 대해 자세히 알아보십시오.
 
 ## 데이터 사전 필터 조건 {#dd-filter-criteria}
 

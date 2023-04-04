@@ -4,16 +4,16 @@ description: Adobe는 생성일이 2년 이상인 모든 예약된 보고서를 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 예약된 보고서에 대한 서비스 종료
 
-2022년 4월 21일에 이전에 발표된 [Reports &amp; Analytics의 서비스 종료](https://express.adobe.com/page/6WnF8JK6IRDhf/)에 대비하여 예약된 보고서와 관련된 몇 가지 기능의 사용 중단을 발표했습니다. 이러한 기능에는 새 보고서와 새 데이터 추출을 예약하는 기능이 포함되었습니다. 확장을 원하는 고객의 요청에 따라 Reports &amp; Analytics에서 쉽게 전환할 수 있도록 이러한 기능에 대한 액세스를 **2023년 1월 31일**&#x200B;까지 연장하기로 결정했습니다. 보고서와 데이터 추출의 만료 기간은 계속 9개월로 제한됩니다. 보고서 및 데이터 추출 전달은 일정이 다시 활성화되지 않는 한 이 기간이 끝나면 일시 중지됩니다.
+2022년 4월 21일에 이전에 발표된 [Reports &amp; Analytics의 서비스 종료](https://www.adobe.com/go/analytics_rnaeol_en)에 대비하여 예약된 보고서와 관련된 몇 가지 기능의 사용 중단을 발표했습니다. 이러한 기능에는 새 보고서와 새 데이터 추출을 예약하는 기능이 포함되었습니다. 확장을 원하는 고객의 요청에 따라 Reports &amp; Analytics에서 쉽게 전환할 수 있도록 이러한 기능에 대한 액세스를 **2023년 1월 31일**&#x200B;까지 연장하기로 결정했습니다. 보고서와 데이터 추출의 만료 기간은 계속 9개월로 제한됩니다. 보고서 및 데이터 추출 전달은 일정이 다시 활성화되지 않는 한 이 기간이 끝나면 일시 중지됩니다.
 
 이러한 기능은 2023년 1월 31일부터 더 이상 사용되지 않으며 해당 날짜 이전에 예약된 보고를 Adobe Analytics에서 사용할 수 있는 다른 메커니즘 중 하나로 마이그레이션해야 합니다.
 

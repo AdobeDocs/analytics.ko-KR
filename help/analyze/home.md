@@ -4,10 +4,10 @@ description: Analysis Workspace, Adobe Analytics 대시보드, Activity Map, Rep
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 87%
 이 안내서에서는 다음 Adobe Analytics 보고 및 분석 도구에 대한 제품 설명서 및 자체 도움말을 제공합니다.
 
 * **[!UICONTROL Analysis Workspace]:** Adobe Analytics의 주요 기능입니다. Workspace에서는 보고서 요구 사항에 맞게 구성 요소를 드래그할 수 있는 캔버스를 제공합니다.
-* **[!UICONTROL Adobe Analytics 대시보드]:** 이 모바일 앱을 사용하면 사용자 모바일 액세스를 통해 주요 지표, 보다 자세한 분류 및 트렌드 보고서가 포함된 직관적인 스코어카드를 만들 수 있습니다.
+* **[!UICONTROL Adobe Analytics 대시보드]:** 이 모바일 앱을 사용하면 사용자 모바일에서는 주요 지표, 더 자세한 분류 및 트렌드 보고서를 사용하여 직관적인 스코어카드를 만들 수 있습니다.
 * **[!UICONTROL Activity Map]:** 가장 많이 클릭한 요소를 보여 주는 오버레이를 사이트에 표시하는 브라우저 플러그인입니다.
 * **[!UICONTROL Report Builder]:** Analytics 데이터를 검색하고 통합 문서에 직접 배치할 수 있는 Excel 추가 기능입니다.
 * **[!UICONTROL Reporting API]:** 보고서 쿼리를 Adobe 서버에 직접 만들고, 자체 고객 보고 도구에서 사용할 응답을 얻을 수 있습니다.
-* **[!UICONTROL Reports &amp; Analytics]:** 수십 개의 사전 작성된 보고서가 있는 도구입니다. 대부분의 보고에 Analysis Workspace를 사용하는 것이 좋습니다. **참고:** 보고서 및 분석 기능은 다음과 같습니다. [서비스 종료](https://express.adobe.com/page/6WnF8JK6IRDhf/) 2023년 12월 31일.
+* **[!UICONTROL Reports &amp; Analytics]:** 수십 개의 사전 작성된 보고서가 있는 도구입니다. 대부분의 보고에 Analysis Workspace를 사용하는 것이 좋습니다. **참고:** Reports &amp; Analytics 는 [수명 종료](https://www.adobe.com/go/analytics_rnaeol_en) 2023년 12월 31일.
 
 다음은 Adobe Analytics에 대한 비디오 개요입니다.
 
