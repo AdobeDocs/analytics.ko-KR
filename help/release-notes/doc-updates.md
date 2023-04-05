@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
+source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3867'
 ht-degree: 95%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 95%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 3월** |  |
+| Activity Map을 위한 웹 SDK 지원 | 업데이트됨 [Adobe Analytics 구현](/help/implement/home.md) 및 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | 트래픽 변수(props) 개요 | 문서 컨텐츠를 명확하게 하고 개선하기 위해 섹션 및 단계별 절차를 추가했습니다. &quot;트래픽 변수 보고서 활성화&quot;라는 문서의 컨텐츠를 병합하고 해당 문서를 제거했습니다. 자세한 내용은 [트래픽 변수(props) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | 내부 URL 필터 | 문서 컨텐츠를 명확하게 하고 개선하기 위해 섹션 및 단계별 절차를 추가했습니다. 자세한 내용은 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | 모바일 스코어카드에서 데이터 스토리 만들기 | A [데이터 스토리](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) 는 중앙 테마 또는 지표를 기반으로 구축된 지원 데이터 포인트, 비즈니스 컨텍스트 및 관련 지표의 모음입니다. |

@@ -2,10 +2,10 @@
 title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
-source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
+source-git-commit: eae2b75d47a044b36ff9e5bbb311d1a2906faf91
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,11 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
    ![기존 JavaScript](./assets/appmeasurement-implementation.png)
 이 구현 방법은 사용자 정의 코드를 사용하는 구현에 유용하게 사용할 수 있으며 다음을 사용할 때에도 권장되는 방법입니다.
 
-   * [클릭 수준 활동 맵 데이터](../analyze/activity-map/activity-map.md)
+   * [activity map 데이터](../analyze/activity-map/activity-map.md),
+
+      >[!INFO]
+      >
+      >최신 웹 SDK를 사용하여 Activity Map이 지원됩니다. 자세한 내용은 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 추가 정보.
 
    * [스트리밍 미디어 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)
 
