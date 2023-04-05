@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 78ab323ca7f508b319c293975b430c2cb3e043de
+source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 67%
+source-wordcount: '1546'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **웹 SDK를 사용한 Activity Map에 대한 부분 지원** | 웹 SDK 버전 2.15.0부터 링크 추적이 활성화되면 Activity Map 데이터를 채우기 시작했습니다. 이렇게 하면 웹 SDK 사용자가 Analytics에 구성된 웹 SDK 및 Activity Map을 사용하여 링크 추적을 활성화한 경우 Activity Map 보고를 받을 수 있습니다.<p>고객이 한 페이지에서 다음 페이지로 이동할 때 웹 SDK를 사용하여 링크 추적을 활성화하면 링크 이벤트가 전송됩니다. 그 결과, 청구 가능한 추가 히트가 Adobe으로 전송됩니다. Adobe는 AppMeasurement가 수행하는 작업을 반영하는 방식으로 웹 SDK가 Activity Map을 수집하도록 하는 방법을 작업 중입니다. 경우에 따라 AppMeasurement가 후속 페이지 보기 시 데이터를 개별적으로 전송하여 서버 호출 수를 줄입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) | 해당 사항 없음 | 2023년 3월 31일 |
+| **웹 SDK를 사용한 Activity Map에 대한 부분 지원** | 웹 SDK 버전 2.15.0부터 링크 추적이 활성화되면 Activity Map 데이터를 채우기 시작했습니다. 이렇게 하면 웹 SDK 사용자가 Analytics에 구성된 웹 SDK 및 Activity Map을 사용하여 링크 추적을 활성화한 경우 Activity Map 보고를 받을 수 있습니다.<p>웹 SDK를 사용하여 링크 추적을 활성화하면 고객이 한 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 보냅니다. 이는 AppMeasurement 작동 방식과 다르며, 이로 인해 Adobe에 전송된 추가 청구 가능한 히트가 발생할 수 있습니다. 추가 정보 [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 및 [여기](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | 해당 사항 없음 | 2023년 3월 31일 |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | **일시적으로 사용할 수 없음** |
 | **Mobile Dashboards의 데이터 스토리** | 데이터 스토리를 사용하면 모바일 스코어카드 프로젝트의 타일에 여러 맞춤형 세부 정보 보기를 추가할 수 있습니다. 데이터 스토리를 사용하여 주요 동인, 관련 지표 및 고객 여정의 여러 단계에 대해 자세히 알아보십시오. 이러한 보기를 쉽게 스와이프하여 주요 지표 뒤에 있는 전체 스토리를 이해할 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 해당 사항 없음 | 2023년 3월 8일 |
 | **예약된 프로젝트의 만료 날짜** | 일정 빈도와 관계없이 예약된 프로젝트의 최대 만료 날짜를 1년까지 설정할 수 있습니다. | 해당 사항 없음 | 2023년 3월 8일 |
