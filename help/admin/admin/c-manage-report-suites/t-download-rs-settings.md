@@ -3,19 +3,27 @@ description: 선택된 보고서 세트에 대한 모든 설정이 들어 있는
 title: 보고서 세트 설정 다운로드
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 32%
 
 ---
 
 # 보고서 세트 설정 다운로드
 
-선택된 보고서 세트에 대한 모든 설정이 포함되어 있는 Excel 스프레드시트를 생성하려면 다음 작업을 수행합니다.
+선택한 보고서 세트에 대한 모든 설정을 포함하는 탭으로 구분된 파일을 생성하려면:
 
 1. **[!UICONTROL 관리]****[!UICONTROL >]**&#x200B;보고서 세트를 클릭합니다.
-1. [!UICONTROL 보고서 세트] 테이블에서 보고서 세트를 선택합니다.
-1. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
-   스프레드시트 파일을 직접 열거나 저장했다가 볼 수 있습니다.
+2. [!UICONTROL 보고서 세트] 테이블에서 보고서 세트를 선택합니다.
+
+3. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
+
+   보고서 세트 데이터.tab이라는 파일이 로컬 컴퓨터에 다운로드됩니다.
+
+탭으로 구분된 파일을 처리할 수 있는 텍스트 편집기에서 파일을 열 수 있습니다.
+
+>[!NOTE]
+>
+>   Excel과 같은 스프레드시트 프로그램에서 파일을 올바르게 열려면 파일을 수정하려면 먼저 파일을 수정해야 합니다. 첫 번째 행에는 Excel과 같은 프로그램에서 파일을 제대로 가져올 수 없는 첫 번째 열에 대한 값이 없습니다.
