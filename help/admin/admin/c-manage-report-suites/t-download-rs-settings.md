@@ -3,10 +3,10 @@ description: 선택된 보고서 세트에 대한 모든 설정이 들어 있는
 title: 보고서 세트 설정 다운로드
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
+source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 32%
+source-wordcount: '123'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 3. **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다.
 
-   보고서 세트 데이터.tab이라는 파일이 로컬 컴퓨터에 다운로드됩니다.
+   이름이 인 파일 `Report Suite Data.tab` 로컬 컴퓨터에 다운로드됩니다.
 
 탭으로 구분된 파일을 처리할 수 있는 텍스트 편집기에서 파일을 열 수 있습니다.
 
