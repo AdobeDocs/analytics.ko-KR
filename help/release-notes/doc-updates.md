@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
 source-wordcount: '3867'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 95%
 | --- | --- |
 | **2023년 3월** |  |
 | Activity Map을 위한 웹 SDK 지원 | 업데이트됨 [Adobe Analytics 구현](/help/implement/home.md) 및 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
-| 트래픽 변수(props) 개요 | 문서 컨텐츠를 명확하게 하고 개선하기 위해 섹션 및 단계별 절차를 추가했습니다. &quot;트래픽 변수 보고서 활성화&quot;라는 문서의 컨텐츠를 병합하고 해당 문서를 제거했습니다. 자세한 내용은 [트래픽 변수(props) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
-| 내부 URL 필터 | 문서 컨텐츠를 명확하게 하고 개선하기 위해 섹션 및 단계별 절차를 추가했습니다. 자세한 내용은 [내부 URL 필터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
-| 모바일 스코어카드에서 데이터 스토리 만들기 | A [데이터 스토리](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) 는 중앙 테마 또는 지표를 기반으로 구축된 지원 데이터 포인트, 비즈니스 컨텍스트 및 관련 지표의 모음입니다. |
+| 트래픽 변수(prop) 개요 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. &quot;트래픽 변수 보고서 사용&quot;이라는 제목의 문서의 콘텐츠를 병합하고 해당 문서를 제거했습니다. [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보기 |
+| 내부 URL 필터 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. [내부 URL 필터 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) 보기 |
+| 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |
 | 기본 계산된 지표 | [Adobe에서 제공하는 기본 계산된 지표](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)를 설명하는 내용을 추가했습니다. |
-| 데이터 사전 | <p>다음을 포함한 데이터 사전에 대한 새 설명서를 추가했습니다. [개요](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), 및 [모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) 데이터 사전.</p><p>의 정보 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md) 데이터 사전 기능을 사용하도록 가 업데이트되었습니다.</p> |
-| 프로젝트에 대한 링크 공유(로그인 필요 없음) | <p>Analysis Workspace에 액세스할 수 없는 사용자와 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하는 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서는 다음과 같습니다. [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>관리자용 옵션이에 추가되었습니다. [기본 설정](/help/analyze/analysis-workspace/user-preferences.md).</p> |
+| 데이터 사전 | <p>데이터 사전의 [개요](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [보기](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), 그리고 [모니터링](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)을 포함하여 데이터 사전을 위해 새로운 문서를 추가했습니다.</p><p>데이터 사전 기능을 설명하기 위해서 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)의 정보가 업데이트되었습니다.</p> |
+| 프로젝트 링크 공유 (로그인 불필요) | <p>Analysis Workspace에 대한 액세스 권한이 없는 사람들과 프로젝트의 읽기 전용 링크를 공유하는 방법을 설명하도록 기존 설명서를 업데이트했습니다.</p> <p>업데이트된 사용자 설명서에는 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md) 및 [공유 가능한 링크 만들기](/help/analyze/analysis-workspace/curate-share/shareable-links.md)가 포함되어 있습니다.</p> <p>관리자 옵션이 [환경 설정](/help/analyze/analysis-workspace/user-preferences.md)에 추가되었습니다.</p> |
 | **2023년 2월** |  |
 | 구현 | [웹 및 모바일용 Adobe Analytics를 구현](../implement/home.md)하는 방법에 대한 내용이 업데이트되었습니다. |
 | Workspace 캘린더 및 날짜 범위 | 관련 날짜 범위, 수식 계산 업데이트 및 캘린더 UI 변경 사항을 설명하도록 콘텐츠를 업데이트했습니다. [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)를 참조하십시오. |
@@ -190,7 +190,7 @@ ht-degree: 95%
 | 2020년 2월 4일 | [구현 사용 안내서](/help/implement/home.md)의 전체적인 재작성. |
 | 2020년 1월 22일 | 새 [자유 형식 테이블 빌더](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)에 대한 정보가 있는 업데이트된 자유 형식 테이블 페이지. |
 | **2020년 1월** |  |
-| 2020년 1월 24일 | 작업 영역의 [백분율](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) 페이지에 대한 업데이트입니다. |
+| 2020년 1월 24일 | 작업 영역의 [행 설정](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) 페이지에 대한 업데이트입니다. |
 | 2020년 1월 16일 | [자유 형식 테이블 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)에 대한 새 설명서입니다. 테이블 빌더를 활성화한 상태에서 많은 차원, 분류, 지표 및 세그먼트를 끌어다 놓아 보다 복잡한 비즈니스 질문에 대한 답변을 제공하는 표를 작성할 수 있습니다. 데이터는 즉시 업데이트되지 않습니다. 대신 **[!UICONTROL 작성]**&#x200B;을 클릭하면 업데이트되므로 구성할 테이블을 알고 있으면 시간을 절약할 수 있습니다. 또한 이 기능은 다음과 같은 기능을 제공합니다.<ul><li>**미리보기**: 실제 데이터를 렌더링하기 전에 표의 형식을 미리 볼 수 있습니다.</li><li>**유연한 행 및 분류 설정**: 모든 차원 행에 대해 행 및 분류 수준을 설정할 수 있습니다. 이전에는 작업 영역에 데이터가 반환될 때까지 변경할 수 없었던 기본값이 적용되었습니다.</li><li>**위치별 분석**: 차원 행을 _특정 항목별_ (기본값) 대신 항상 _위치별 분석_&#x200B;으로 설정할 수 있습니다.</li><li>**수동 정적 행 순서 지정**: 테이블 행이 필요한 대로 정확하게 표시되도록 정적 행을 수동으로 정렬할 수 있습니다. 이전에는 지표 열 또는 사전순으로만 정적 행을 정렬할 수 있었습니다.</li></ul> |
 | 2020년 1월 13일 | [Adobe Analytics 및 브라우저 쿠키](/help/technotes/cookies/cookies.md)를 추가했습니다. |
 | 2020년 1월 13일 | [어떤 Adobe Analytics 도구를 사용해야 합니까](/help/analyze/get-started/which-analytics-tool.md) 페이지를 수정했습니다. |
