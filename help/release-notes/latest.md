@@ -3,9 +3,9 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
+source-git-commit: 4e9b96fc29ee8c409019c292d565ea229e7c521f
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1545'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **웹 SDK를 사용한 Activity Map에 대한 부분 지원** | 웹 SDK 버전 2.15.0부터 링크 추적이 활성화되면 Activity Map 데이터를 채우기 시작했습니다. 이렇게 하면 웹 SDK 사용자가 Analytics에 구성된 웹 SDK 및 Activity Map을 사용하여 링크 추적을 활성화한 경우 Activity Map 보고를 받을 수 있습니다.<p>웹 SDK를 사용하여 링크 추적을 활성화하면 고객이 한 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 보냅니다. 이는 AppMeasurement 작동 방식과 다르며, 이로 인해 Adobe에 전송된 추가 청구 가능한 히트가 발생할 수 있습니다. 추가 정보 [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 및 [여기](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | 해당 사항 없음 | 2023년 3월 31일 |
-| **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | **일시적으로 사용할 수 없음** |
+| **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 29일 |
 | **Mobile Dashboards의 데이터 스토리** | 데이터 스토리를 사용하면 모바일 스코어카드 프로젝트의 타일에 여러 맞춤형 세부 정보 보기를 추가할 수 있습니다. 데이터 스토리를 사용하여 주요 동인, 관련 지표 및 고객 여정의 여러 단계에 대해 자세히 알아보십시오. 이러한 보기를 쉽게 스와이프하여 주요 지표 뒤에 있는 전체 스토리를 이해할 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 해당 사항 없음 | 2023년 3월 8일 |
 | **예약된 프로젝트의 만료 날짜** | 일정 빈도와 관계없이 예약된 프로젝트의 최대 만료 날짜를 1년까지 설정할 수 있습니다. | 해당 사항 없음 | 2023년 3월 8일 |
 | **프로젝트 링크 공유(로그인 불필요)** - Private Beta 액세스 전용 | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 조직 외부의 사람들 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람들과 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Private Beta에 참여하려면 Adobe 계정 팀에 문의하십시오.</p> | 2023년 4월 26일 | 2023년 6월 |
