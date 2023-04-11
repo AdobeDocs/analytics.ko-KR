@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
 source-wordcount: '3867'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 3월** |  |
-| Activity Map을 위한 웹 SDK 지원 | 업데이트됨 [Adobe Analytics 구현](/help/implement/home.md) 및 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
-| 트래픽 변수(prop) 개요 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. &quot;트래픽 변수 보고서 사용&quot;이라는 제목의 문서의 콘텐츠를 병합하고 해당 문서를 제거했습니다. [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보기 |
+| Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md) 및 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)가 업데이트되었습니다. |
+| 트래픽 변수(prop) 개요 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. “트래픽 변수 보고서 사용”이라는 제목의 문서의 콘텐츠를 병합하고 해당 문서를 제거했습니다. [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보기 |
 | 내부 URL 필터 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. [내부 URL 필터 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) 보기 |
 | 모바일 스코어카드의 데이터 스토리 만들기 | [데이터 스토리](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)는 지원 데이터 포인트, 비즈니스 컨텍스트 그리고 하나의 중심 주제 또는 지표를 중심으로 구축된 관련 지표의 모음입니다. |
 | 기본 계산된 지표 | [Adobe에서 제공하는 기본 계산된 지표](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)를 설명하는 내용을 추가했습니다. |
@@ -228,7 +228,7 @@ ht-degree: 99%
 | 2019년 4월 11일 | 작업 영역 최적화 모범 사례 개선 사항: [성능 최적화](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019년 4월 11일 | [Workspace 성능 최적화](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)에 대한 업데이트입니다. |
 | 2019년 3월 14일 | [지역 데이터 수집](/help/technotes/rdc/regional-data-collection.md)에 대한 주요 업데이트입니다. |
-| 2019년 2월 7일 | [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)의 &quot;IP 주소의 마지막 옥텟을 0으로 바꾸기&quot; 및 &quot;IP 난독 처리&quot; 설정에 대한 부분 업데이트입니다. |
+| 2019년 2월 7일 | [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)의 “IP 주소의 마지막 옥텟을 0으로 바꾸기” 및 “IP 난독 처리” 설정에 대한 부분 업데이트입니다. |
 | 2019년 2월 1일 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 구현 플러그인에 대한 주요 업데이트입니다. |
 | 2019년 1월 17일 | [집단 분석](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 집단 분석의 주요 개선 사항을 통해 다음과 같은 작업을 수행할 수 있습니다.<ul><li>세그먼트 포함 및 반환 지표를 각각 적용합니다. </li><li>유지 대신 이탈을 표시합니다.</li><li>지연 테이블(포함 이벤트 전후 경과 시간)을 표시합니다.</li><li>집단 차원(시간이 아니라 eVar를 기준으로 한 방문자 그룹화용)을 사용자 정의합니다.</li><li>순환 집단 계산을 수행합니다. 원래 집단이 아니라 이전 기간에 따라 유지 및 이탈을 계산하십시오. </li><li>포함 및 반환 필드에 여러 지표를 추가하고 세그먼트를 적용합니다. (계산된 지표는 지원되지 않습니다)</li></ul> |
 | 2019년 1월 17일 | [보기 밀도](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). 이 새 설정을 사용하면 자유 형식 테이블 및 집단 테이블에서 왼쪽 레일의 수직 안쪽 여백을 줄여 단일 화면에 더 많은 데이터를 볼 수 있습니다. 프로젝트 > 프로젝트 정보 및 설정을 통해 액세스 가능합니다. |
