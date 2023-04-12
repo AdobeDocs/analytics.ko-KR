@@ -5,16 +5,20 @@ title: 방문자 마이그레이션
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
 # 방문자 마이그레이션
 
-방문자 마이그레이션은 방문자 ID 쿠키를 하나의 도메인에서 다른 도메인으로 마이그레이션하는 프로세스입니다.
+>[!NOTE]
+>
+>Experience Cloud 방문자 ID 서비스를 이미 구현한 경우 유예 기간을 적용할 수 없으므로 활성화해서는 안 됩니다.
+
+방문자 마이그레이션은 방문자 ID 쿠키(s_vi)가 한 도메인에서 다른 도메인으로 마이그레이션되는 프로세스입니다.
 
 방문자 마이그레이션을 통해 데이터 수집 도메인을 변경할 때 방문자 식별 쿠키를 보존할 수 있습니다. 데이터 수집 도메인은 다음 이유로 변경될 수 있습니다.
 
