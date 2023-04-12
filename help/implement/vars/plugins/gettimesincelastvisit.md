@@ -3,40 +3,56 @@ title: getTimeSinceLastVisit
 description: 두 방문 사이의 경과 시간을 측정합니다.
 feature: Variables
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '591'
+ht-degree: 73%
 
 ---
 
 # Adobe 플러그인: getTimeSinceLastVisit
 
->[!IMPORTANT]
->
->이 플러그인은 Adobe Analytics를 최대한 활용할 수 있도록 Adobe Consulting에서 무료로 제공합니다. Adobe 고객 지원 팀에서는 설치 또는 문제 해결 등 이 플러그인에 대한 지원을 제공하지 않습니다. 이 플러그인에 대한 도움이 필요한 경우 조직의 계정 관리자에게 문의하십시오. 계정 관리자가 도와줄 컨설턴트와의 만남을 주선할 수 있습니다.
+{{plug-in}}
 
 `getTimeSinceLastVisit` 플러그인을 사용하면 방문자가 마지막 방문 후 사이트를 다시 방문하는 시간을 추적할 수 있습니다.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## 웹 SDK 확장을 사용하여 플러그인 설치
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe은 Web SDK에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getTimeSinceLastVisit
-1. Save and publish the changes to the rule.-->
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 클릭 **[!UICONTROL 태그]** 왼쪽에서 원하는 태그 속성을 클릭합니다.
+1. 클릭 **[!UICONTROL 확장]** 왼쪽에서 **[!UICONTROL 카탈로그]** 탭
+1. 을(를) 찾아 설치합니다 **[!UICONTROL 일반 웹 SDK 플러그인]** 확장.
+1. 클릭 **[!UICONTROL 데이터 요소]** 왼쪽에서 원하는 데이터 요소를 클릭합니다.
+1. 다음 구성으로 원하는 데이터 요소 이름을 설정합니다.
+   * 확장: 일반 웹 SDK 플러그인
+   * 데이터 요소: `getTimeSinceLastVisit`
+1. 변경 사항을 저장하고 데이터 요소에 게시합니다.
 
-## 사용자 정의 코드 편집기를 사용하여 플러그인 설치
+## 수동으로 Web SDK 구현 플러그인 설치
 
-플러그인 확장 기능을 사용하지 않으려는 경우 사용자 정의 코드 편집기를 사용할 수 있습니다.
+이 플러그인은 아직 웹 SDK의 수동 구현 내에서 사용할 수 없습니다.
+
+## Adobe Analytics 확장을 사용하여 플러그인 설치
+
+Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+
+1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
+1. 원하는 태그 속성을 클릭합니다.
+1. [!UICONTROL 확장] 탭으로 이동한 다음, [!UICONTROL 카탈로그] 버튼을 클릭합니다.
+1. [!UICONTROL 일반적인 Analytics 플러그인] 확장 기능을 설치 및 게시합니다.
+1. 아직 없다면 다음 구성으로 &quot;플러그인 초기화&quot;라는 레이블이 지정된 규칙을 만듭니다.
+   * 조건: 없음
+   * 이벤트: 핵심 - 라이브러리가 로드됨 (페이지 상단)
+1. 다음 구성으로 위의 규칙에 작업을 추가합니다.
+   * 확장: 일반적인 Analytics 플러그인
+   * 작업 유형: getTimeSinceLastVisit 초기화
+1. 변경 사항을 저장하고 규칙에 퍼블리싱합니다.
+
+## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
+
+일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.

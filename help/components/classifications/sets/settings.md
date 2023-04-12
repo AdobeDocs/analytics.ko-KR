@@ -2,9 +2,9 @@
 title: 분류 세트 설정
 description: 분류 세트를 만들거나 편집합니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '560'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # 분류 세트 설정
 
 분류 세트를 구성하거나, 데이터를 업로드하거나, 데이터를 다운로드합니다.
-
->[!NOTE]
->
->이 기능은 보고서 세트를 새로운 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터나 귀사의 계정 관리자에게 문의해 주십시오.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 설정]** > 원하는 분류 세트 이름을 클릭합니다.
 

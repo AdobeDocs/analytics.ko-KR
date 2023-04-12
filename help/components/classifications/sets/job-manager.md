@@ -2,9 +2,9 @@
 title: 분류 세트 작업 관리자
 description: 분류 세트에서 생성된 현재 및 완료된 분류 작업을 봅니다.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # 분류 세트 작업 관리자
 
 분류 세트 작업 관리자를 사용하면 분류 세트에서 생성된 현재 및 완료된 분류 작업을 볼 수 있습니다. 또한 이 인터페이스를 사용하여 특정 작업에 대한 분류 데이터 또는 템플릿을 다운로드하거나 추가 데이터를 작업에 업로드할 수도 있습니다.
-
->[!NOTE]
->
->이 기능은 보고서 세트를 새로운 분류 아키텍처로 마이그레이션한 모든 고객이 사용할 수 있습니다. 자세한 내용은 Adobe 고객 지원 센터나 귀사의 계정 관리자에게 문의해 주십시오.
 
 **[!UICONTROL 구성 요소]** > **[!UICONTROL 분류 세트]** > **[!UICONTROL 작업]**
 

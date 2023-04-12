@@ -2,10 +2,10 @@
 title: Adobe Analytics의 VISTA 규칙
 description: VISTA 규칙 및 해당 기능에 대해 자세히 알아보십시오.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 81%
 
 ---
 
@@ -25,12 +25,12 @@ VISTA 규칙의 몇 가지 일반적인 사용 사례는 다음과 같습니다.
 
 >[!IMPORTANT]
 >
->VISTA 규칙을 사용하려면 조직과 Adobe Professional Services 간의 유료 계약이 필요합니다. VISTA 규칙을 만들거나 업데이트하려면 조직의 Adobe 계정 관리자에게 문의하십시오.
+>VISTA 규칙을 사용하려면 조직과 Adobe Professional Services 간의 유료 계약이 필요합니다. VISTA 규칙을 만들거나 업데이트하려면 Adobe 계정 팀에 문의하십시오.
 
 ## VISTA 규칙 만들기
 
-VISTA 규칙을 만들려면 Adobe Professional Services와 협력해야 합니다. VISTA 규칙을 만들려면 조직의 Adobe 계정 관리자에게 문의하십시오.
+VISTA 규칙을 만들려면 Adobe Professional Services와 협력해야 합니다. VISTA 규칙을 만들려면 Adobe 계정 팀에 문의하십시오.
 
 ## 기존 VISTA 규칙 보기
 
-Adobe는 기존 VISTA 규칙을 볼 수 있는 UI를 제공하지 않습니다. 기존 VISTA 규칙 목록을 검색하려면 원하는 보고서 세트와 함께 조직의 Adobe 계정 관리자 또는 고객 지원 센터에 문의하십시오.
+Adobe는 기존 VISTA 규칙을 볼 수 있는 UI를 제공하지 않습니다. 기존 VISTA 규칙 목록을 검색하려면 원하는 보고서 세트를 사용하여 Adobe 계정 팀이나 고객 지원 센터에 문의하십시오.

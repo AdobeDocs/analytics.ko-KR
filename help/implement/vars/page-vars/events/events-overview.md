@@ -3,10 +3,10 @@ title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 
 `s.events` 변수는 히트에 포함할 이벤트에 대한 쉼표로 구분된 목록을 포함하는 문자열입니다. 이 변수에는 바이트 제한이 없으므로 잘리지 않습니다. 유효 값 항목:
 
-* `event1` - `event1000`: 원하는 대로 설정하는 사용자 정의 이벤트입니다. 조직의 [솔루션 디자인 문서](../../../prepare/solution-design.md)에서 각 이벤트를 사용하는 방법을 기록하십시오. 사용 가능한 이벤트 수는 조직의 Analytics 계약에 따라 다릅니다. 비 레거시 계약에 있는 대부분의 조직에는 사용할 수 있는 사용자 정의 이벤트 1,000개가 있습니다. 사용 가능한 사용자 정의 이벤트의 수를 모를 경우에는 조직의 계정 관리자에게 문의하십시오.
+* `event1` - `event1000`: 원하는 대로 설정하는 사용자 정의 이벤트입니다. 조직의 [솔루션 디자인 문서](../../../prepare/solution-design.md)에서 각 이벤트를 사용하는 방법을 기록하십시오. 사용 가능한 이벤트 수는 조직의 Analytics 계약에 따라 다릅니다. 비 레거시 계약에 있는 대부분의 조직에는 사용할 수 있는 사용자 정의 이벤트 1,000개가 있습니다. 사용 가능한 사용자 지정 이벤트의 수를 모를 경우에는 Adobe 계정 팀에 문의하십시오.
 * `purchase`: [&#39;주문&#39;](/help/components/metrics/orders.md) 지표를 1씩 증가시키고, `products` 변수에 설정된 값을 사용하여 [&#39;판매량&#39;](/help/components/metrics/units.md) 및 [&#39;수입&#39;](/help/components/metrics/revenue.md)을 계산합니다. 자세한 내용은 [구매 이벤트](event-purchase.md)를 참조하십시오.
 * `prodView`: [&#39;제품 보기&#39;](/help/components/metrics/product-views.md) 지표를 증가시킵니다.
 * `scOpen`: [&#39;장바구니 수&#39;](/help/components/metrics/carts.md) 지표를 증가시킵니다.

@@ -3,10 +3,10 @@ title: Data Warehouse 요청 배달 시간 문제 해결
 description: 배달 시간을 늘일 수 있는 잠재적인 Data Warehouse 요청 문제를 파악합니다.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,4 +37,4 @@ Data Warehouse 요청이 일관되게 오래 걸리는 경우, 다음을 사항�
 
 * **Analysis Workspace**: 차원 항목을 무제한으로 사용할 수는 없지만 Data Warehouse에서 제공하는 거의 모든 다른 사용 사례를 포함합니다.
 * **데이터 피드**: 매일 보고서 세트의 모든 원시 데이터를 가져와 FTP 사이트에 전송합니다. 그러면 이 데이터를 자신의 데이터베이스로 가져와서 찾고 있는 데이터를 얻기 위한 쿼리를 실행할 수 있습니다.
-* **엔지니어링 서비스의 사용자 지정 방법**: Adobe 엔지니어링 서비스에서는 추가 비용으로 조직을 위한 사용자 지정 해결 방법을 제공할 수 있습니다. 자세한 내용은 조직의 계정 관리자에게 문의하십시오.
+* **엔지니어링 서비스의 사용자 지정 방법**: Adobe 엔지니어링 서비스에서는 추가 비용으로 조직을 위한 사용자 지정 해결 방법을 제공할 수 있습니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.

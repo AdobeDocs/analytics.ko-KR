@@ -4,10 +4,10 @@ title: 앱을 사용하여 경영진 준비
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 97%
 
 ---
 
@@ -114,4 +114,4 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->2020년 10월부터 Adobe에서는 &quot;Adobe Analytics 대시보드&quot; 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 출시하고 있습니다. 이러한 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다 (현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 사용하지 않으려면 CSM에 문의하십시오.
+>2020년 10월부터 Adobe에서는 &quot;Adobe Analytics 대시보드&quot; 앱의 성능을 최적화하기 위해 일련의 향상된 기능을 출시하고 있습니다. 이러한 개선 사항은 스코어카드를 날짜로 채우는 데 사용되는 내역 Analytics 데이터를 캐시하는 데 중점을 둡니다 (현재 날짜 제외). 이 데이터는 보안 Microsoft Azure 공용 클라우드 저장소 계정에서 최대 24시간 동안 캐시됩니다. 이러한 성능 개선 기능을 사용하지 않으려면 Adobe 계정 팀에 문의하십시오.

@@ -4,10 +4,10 @@ keywords: ftp, sftp
 title: SFTP를 통해 암호 없이 Adobe에 연결
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ SFTP를 사용할 때 특정 조건에서 개인 키를 사용하여 암호 없�
 
 1. FTP 계정 만들기 (Adobe).
 
-   Adobe 담당자는 FTP 계정이 없는 경우 만들 수 있습니다. Adobe 계정 관리자 또는 Adobe 고객 지원 팀에 문의하여 계정을 만듭니다.
+   Adobe 담당자는 FTP 계정이 없는 경우 만들 수 있습니다. 계정을 만들려면 Adobe 계정 팀이나 Adobe 고객 지원 센터에 문의하십시오.
 1. 공개/개인 키 만들기 (고객).
 
    공개 및 개인 키 조합을 만듭니다. 개인 키는 컴퓨터/서버 전용 파일이며, 컴퓨터/서버에 있습니다. 공개 키 파일은 Adobe 계정으로 업로드해야 합니다. 이 방법으로 사용하는 경우 암호 인증 없이 연결할 수 있습니다. Adobe의 공개 키 파일은 컴퓨터/서버의 개인 키 파일에 일치하며 해당 방법으로 인증합니다.

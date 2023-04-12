@@ -3,10 +3,10 @@ title: Adobe Analytics의 동작 보고서
 description: Adobe Analytics에서 동작 보고서를 작성하는 방법 알아보기
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,4 +87,4 @@ Adobe는 대신 템플릿이라는 미리 만들어진 여러 작업 공간을 �
 
 ## 게시자 보고서
 
-Google이 Google Ad Manager와의 연결을 요구하는 방식과 유사한 방식으로 Adobe는 인사이트를 제공하는 Adobe Advertising Cloud라는 전용 제품을 제공합니다. 조직에서 이 제품을 사용하는 데 관심이 있는 경우 조직의 계정 관리자에게 문의하십시오.
+Google이 Google Ad Manager와의 연결을 요구하는 방식과 유사한 방식으로 Adobe는 인사이트를 제공하는 Adobe Advertising Cloud라는 전용 제품을 제공합니다. 조직에서 이 제품을 사용하는 데 관심이 있는 경우 Adobe 계정 팀에 문의하십시오.

@@ -3,10 +3,10 @@ description: Adobe Experience Cloud에서 Admin Console로의 Analytics 사용�
 title: Admin Console로 Analytics 사용자 마이그레이션
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '3162'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Adobe Admin Console 사용의 이점은 다음과 같습니다.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">귀하가 Adobe Admin Console에서 Analytics 제품 관리자인지 확인하십시오. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">마이그레이션이 시작되면 로그인 환경이 변경될 것임을 사용자에게 알리십시오. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">현재 사용자 및 사용 권한을 감사하고 정리 활동을 수행하십시오. </li> 
-    </ul> <p>마이그레이션을 더 신속히 처리하려면 <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html">Adobe 고객 지원</a>의 고객 성공 관리자에게 문의하여 더 빠른 시작일 요청을 제출하십시오. </p> </td> 
+    </ul> <p>마이그레이션을 더 신속히 처리하려면 Adobe 계정 팀에 문의하십시오. <a href="https://helpx.adobe.com/kr/marketing-cloud/contact-support.html"> 고객 지원 Adobe</a> 그리고 이전 시작 날짜에 대한 요청을 제출합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 저는 Adobe Admin Console에 대한 액세스 권한이 없는 Analytics 관리자입니다. Adobe Admin Console에 대한 액세스 권한을 받는 데 누가 도와줄 수 있습니까? </p> </td> 
