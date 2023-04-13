@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
    새 슬라이드를 추가하려면 슬라이드 위로 마우스를 가져가거나 슬라이드를 클릭한 다음 사용 가능한 옵션 중에서 선택합니다.
 
-   * 탭하기 [!UICONTROL +] 새 슬라이드를 만들려면 서명하십시오.
+   * [!UICONTROL +] 기호를 탭하여 새 슬라이드를 만듭니다.
 
    * 복제 아이콘을 탭하여 기존 슬라이드를 복제합니다.
 
@@ -249,7 +249,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
    ![데이터 스토리 만들기](assets/data-story2.png)
 
-슬라이드를 삭제하려면 휴지통 아이콘을 누릅니다.
+슬라이드를 삭제하려면 휴지통 아이콘을 탭하십시오.
 
 ### 데이터 스토리 사용자 정의 {#customize-data-story}
 
@@ -263,7 +263,7 @@ Analysis Workspace의 모바일 스코어카드 프로젝트에서 데이터 스
 
    ![데이터 스토리 만들기](assets/data-story3.png)
 
-   시각화와 같은 구성 요소를 타일에 끌어다 놓으면 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
+   시각화와 같은 구성 요소를 타일에 끌어다 놓으면 해당 구성 요소가 모든 데이터 스토리 슬라이드에 적용됩니다.
 
 1. 제목에만 변경 사항을 적용하려면 Shift 키를 누른 상태에서 변경 사항을 적용하십시오.
 
