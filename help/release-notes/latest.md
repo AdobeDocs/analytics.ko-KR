@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
+source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1568'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | **Experience Edge용 IP 난독화** | Experience Edge는 Adobe Experience Platform으로 직접 전송된 데이터에 대해 IP 난독화를 지원합니다. CJA 또는 기타 플랫폼 솔루션에서 사용할 수 있도록 데이터를 플랫폼으로 직접 전송하는 고객이 이러한 혜택을 누릴 수 있습니다. IP 난독화는 데이터 스트림 수준에서 구성됩니다. 마지막 8진수나 전체 IP 주소 제거를 지원합니다.<p>**참고**: 난독화는 Adobe Analytics에 전송된 데이터에는 적용되지 않습니다. Analytics는 계속해서 전체 IP를 가져옵니다. IP 처리는 Analytics에서 별도로 계속 수행됩니다. 미래에는 Analytics 데이터가 Edge에서 난독화되도록 할 계획입니다. | 해당 사항 없음 | 2023년 4월 26일 AEP 릴리스 |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 29일 |
 | **프로젝트 링크 공유(로그인 불필요)** - Private Beta 액세스 전용 | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 조직 외부의 사람들 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람들과 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Private Beta에 참여하려면 Adobe 계정 팀에 문의하십시오.</p> | 2023년 4월 26일 | 2023년 6월 |
+| Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 가이드 | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 해당 사항 없음 | 2023년 4월 10일 |
 
 {style="table-layout:auto"}
 
