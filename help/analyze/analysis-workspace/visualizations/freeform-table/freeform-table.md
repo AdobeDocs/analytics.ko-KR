@@ -4,9 +4,9 @@ description: 자유 형식 테이블은 Analysis Workspace에서 데이터를 �
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 69%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석을 위한 기반입니다. [구성 요소](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko-KR) 조합을 행과 열로 끌어다 놓아 분석에 사용할 사용자 정의 테이블을 만들 수 있습니다. 각 구성 요소가 삭제되면 테이블이 즉시 업데이트되므로 빠르고 더 깊이 분석할 수 있습니다.
 
-예를 들면 빈 자유 형식 테이블로 시작합니다.
+## 간단한 자유 형식 테이블 만들기
+
+빈 자유 형식 테이블로 시작합니다.
 
 ![빈 자유 형식 테이블](assets/freeform-table-1.png)
 
-만약 **[!UICONTROL **&#x200B;방문 횟수&#x200B;**]** 지표 **[!UICONTROL **&#x200B;여기에 지표(또는 기타 구성 요소)를 놓습니다&#x200B;**]**&#x200B;를 입력하면 자유 형식 테이블이 선택한 기간에 대한 일별 방문으로 자동으로 채워집니다.
+만약 **[!UICONTROL **&#x200B;방문 횟수&#x200B;**]** 지표 **[!UICONTROL **&#x200B;여기에 지표(또는 기타 구성 요소)를 놓습니다&#x200B;**]**&#x200B;를 입력하면 자유 형식 테이블이 선택한 달력 기간에 대한 일별 방문으로 자동으로 채워집니다.
 
 ![방문 자유 형식 테이블](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Analysis Workspace에서 자유 형식 테이블은 대화형 데이터 분석�
 
 ![페이지 자유 형식 테이블별 방문 수](assets/freeform-table-3.png)
 
-그런 다음, 예를 들어, **[!UICONTROL **&#x200B;카테고리:5 **]** 페이지를 드롭하여 **[!UICONTROL **&#x200B;마케팅 채널&#x200B;**]** 차원 **[!UICONTROL **&#x200B;카테고리:5 **]** 행을 클릭합니다.
+그런 다음, 예를 들어 **[!UICONTROL **&#x200B;카테고리:5 **]** 페이지를 드롭하여 **[!UICONTROL **&#x200B;마케팅 채널&#x200B;**]** 차원 **[!UICONTROL **&#x200B;카테고리:5 **]** 행을 클릭합니다.
 
 ![페이지 자유 형식 테이블별 방문 분류](assets/freeform-table-4.png)
 
