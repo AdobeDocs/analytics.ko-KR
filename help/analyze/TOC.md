@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 100%
       + 세그먼트 {#segments}
          + [세그먼트 만들기](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [빠른 세그먼트](analysis-workspace/components/segments/quick-segments.md)
-         + [애드혹 세그먼트](analysis-workspace/components/segments/ad-hoc-segments.md)
       + 달력 및 날짜 범위 {#calendar-date-ranges}
          + [달력 및 날짜 범위 개요](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [사용자 정의 날짜 범위 만들기](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

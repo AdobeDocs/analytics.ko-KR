@@ -4,10 +4,10 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 95%
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -68,11 +68,11 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 ### 애드혹 세그먼트 필터
 
-세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 임시 세그먼트를 만들 수도 있으므로 세그먼트 빌더로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 히트 수준 세그먼트로 정의됩니다. 이 정의는 세그먼트 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 세그먼트 빌더에서 편집하여 수정할 수 있습니다.
+세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 드래그하여 임시 세그먼트를 생성할 수도 있습니다. 이렇게 하면 세그먼트 빌더로 이동하는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 히트 수준 세그먼트로 정의됩니다. 이 정의는 세그먼트 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 세그먼트 빌더에서 편집하여 수정할 수 있습니다.
 
-임시 세그먼트는 프로젝트의 로컬이며 공개로 설정하지 않는 한 왼쪽 레일에 표시되지 않습니다.
+Ad Hoc 세그먼트는 빠른 세그먼트의 유형이며 프로젝트에 로컬입니다. 공개하지 않으면 왼쪽 레일에 나타나지 않습니다
 
-![](/help/admin/admin/assets/filter.png)
+자세한 내용은 [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### 드롭다운 필터 {#dropdown-filter}
 
