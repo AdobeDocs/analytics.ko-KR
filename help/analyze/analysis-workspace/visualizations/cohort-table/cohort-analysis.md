@@ -4,10 +4,10 @@ description: 코호트 분석을 통해 잠재고객에 대한 데이터를 더 
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,6 @@ ht-degree: 96%
 * 고객 라이프사이클에서 적시에 마케팅 예산 전환.
 * 체험판이나 오퍼를 종료하여 가치를 극대화할 시점 인식.
 * 가격 책정, 업그레이드 경로 등과 같은 분야에서 A/B 테스트를 하기 위한 아이디어 얻기.
-* 안내가 있는 분석 보고서 내에서 [!UICONTROL 집단 분석] 보고서 보기.
 
 [!UICONTROL 집단 분석]은 [!UICONTROL Analysis Workspace]에 대한 액세스 권한이 있는 모든 Adobe Analytics 고객에 대해 사용할 수 있습니다.
 
