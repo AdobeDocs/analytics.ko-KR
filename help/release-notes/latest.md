@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | ----------- | ---------- | ------- | ---- |
 | **Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 내용을 줄이는 데 도움이 되므로 프로필 자격 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko#filtering-for-profile) | 해당 사항 없음 | 2023년 3월 29일 |
 | **Web SDK로 Activity Map 부분 지원** | Web SDK 버전 2.15.0부터는 링크 추적이 활성화되면 Activity Map 데이터를 채우게 됩니다. 이를 통해 Web SDK 사용자는 Analytics에서 구성된 Web SDK 및 Activity Map으로 링크 추적을 활성화한 경우 Activity Map 보고서를 받을 수 있습니다.<p>Web SDK로 링크 추적을 활성화하면 현재 고객이 하나의 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 전송합니다. 이는 AppMeasurement가 작동하는 방식과 다르며 잠재적으로 Adobe로 전송되는 추가 청구 가능 히트를 초래할 수 있습니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 및 [여기](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)에서 자세히 알아보십시오. | 해당 사항 없음 | 2023년 3월 31일 |
-| **Experience Edge용 IP 난독화** | Experience Edge는 Adobe Experience Platform으로 직접 전송된 데이터에 대해 IP 난독화를 지원합니다. CJA 또는 기타 플랫폼 솔루션에서 사용할 수 있도록 데이터를 플랫폼으로 직접 전송하는 고객이 이러한 혜택을 누릴 수 있습니다. IP 난독화는 데이터 스트림 수준에서 구성됩니다. 마지막 8진수나 전체 IP 주소 제거를 지원합니다.<p>**참고**: 난독화는 Adobe Analytics에 전송된 데이터에는 적용되지 않습니다. Analytics는 계속해서 전체 IP를 가져옵니다. IP 처리는 Analytics에서 별도로 계속 수행됩니다. 미래에는 Analytics 데이터가 Edge에서 난독화되도록 할 계획입니다. | 해당 사항 없음 | 2023년 4월 26일 AEP 릴리스 |
+| **Experience Edge용 IP 난독화** | Experience Edge는 Adobe Experience Platform으로 직접 전송되는 데이터에 대해 IP 난독화를 지원합니다. 이를 통해 CJA 또는 기타 Platform 솔루션에서 사용할 데이터를 Platform으로 직접 전송하는 고객은 혜택을 얻을 수 있습니다. IP 난독화는 데이터 스트림 수준에서 구성됩니다. 마지막 옥텟 또는 전체 IP 주소를 제거할 수 있습니다.<p>**참고**: Adobe Analytics로 전송되는 데이터에는 난독화가 적용되지 않습니다. Analytics는 계속해서 전체 IP를 얻습니다. IP 처리는 Analytics에서 별도로 계속 수행됩니다. 향후 Edge에서의 Analytics 데이터 난독화를 활성화할 계획입니다. | 해당 사항 없음 | 2023년 4월 26일 AEP 릴리스 |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 29일 |
 | **프로젝트 링크 공유(로그인 불필요)** - Private Beta 액세스 전용 | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 조직 외부의 사람들 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람들과 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Private Beta에 참여하려면 Adobe 계정 팀에 문의하십시오.</p> | 2023년 4월 26일 | 2023년 6월 |
 | Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 가이드 | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 해당 사항 없음 | 2023년 4월 10일 |
@@ -31,11 +31,11 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 ## Adobe Analytics의 수정 사항
 
-* 데이터 피드의 운영 체제.tsv 조회 파일 문제를 해결했습니다.
-* Reports &amp; Analytics와 작업 공간 간에 지표 값이 다른 문제를 수정했습니다(AN-315965).
+* 데이터 피드의 Operating System.tsv 조회 파일 관련 문제가 해결되었습니다.
+* Reports &amp; Analytics와 Workspace 간에 지표 값이 다른 문제가 해결되었습니다(AN-315965).
 * 부분 분류를 가져올 수 없는 문제가 해결되었습니다. (AN-315854)
-* Analytics API 1.4 문제를 수정했습니다. (AN-316475)
-* 일부 고객이 Report Builder 및 Report &amp; Analytics를 통해 페이지 차원에 대한 분류를 받지 못하던 문제를 수정했습니다. (AN-314445)
+* Analytics API 1.4 관련 문제가 해결되었습니다. (AN-316475)
+* 일부 고객이 Report Builder 및 Report &amp; Analytics를 통해 페이지 차원에 대한 분류를 가져오지 못하는 문제가 해결되었습니다. (AN-314445)
 * 경고를 전송할 수 없는 문제가 해결되었습니다. (AN-306457)
 
 ### 기타 수정 사항
@@ -56,7 +56,7 @@ AN-288373; AN-305144; AN-309023; AN-310466; AN-311686; AN-311705; AN-312018; AN-
 
 | EOL 제품 또는 기능 | 추가 또는 업데이트 일자 | 설명 |
 | --- | --- | --- |
-| **일본 피처폰 추적 서비스 종료** | 2023년 3월 21일 | 일본 고객에게만 해당됩니다. 에서 **2023년 5월 말**&#x200B;로 설정되면 일본어 기능 전화 추적 서비스(mod_ktrack)가 중단됩니다. 불편을 드려 죄송합니다. Apache 서버에 설치된 모듈을 제거하거나 비활성화하시기 바랍니다. [이 문서](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf)의 27페이지와 28페이지를 참조하십시오. |
+| **일본 피처폰 추적 서비스 종료** | 2023년 3월 21일 | 일본 고객만 해당: **2023년 5월 말**&#x200B;에 일본 피처폰 추적 서비스(mod_ktrack)가 종료됩니다. 불편을 드려 죄송합니다. Apache 서버에 설치된 모듈을 제거하거나 비활성화하시기 바랍니다. [이 문서](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf)의 27페이지와 28페이지를 참조하십시오. |
 | **[!DNL Reports & Analytics]**&#x200B;에 대한 EOL | 2023년 3월 7일 | **2023년 12월 31일**&#x200B;부로 Adobe는 [!DNL Reports & Analytics] 및 관련 보고서와 기능에 대한 서비스를 중단할 예정입니다. [!DNL Reports & Analytics]가 제공하는 보고서, 시각화 및 기반 기술은 더 이상 Adobe의 기술 표준을 충족하지 않습니다. 대부분의 [!DNL Reports & Analytics] 기능은 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)에서 사용할 수 있습니다. 2015년 Analysis Workspace가 출시된 이후 [!DNL Reports & Analytics] 기능이 Analysis Workspace로 이전되면서 워크플로 패리티의 한계점에 도달했습니다. [이 공지 사항](https://spark.adobe.com/page/6WnF8JK6IRDhf/)은 서비스 종료 프로세스에 대해 설명합니다.<p>2023년 12월 31일에 예약된 보고서, 데이터 추출, DL 보고서를 포함하되 이에 국한되지 않는 많은 관련 Reports &amp; Analytics 기능이 종료됩니다. 2023년 12월 31일 이후에는 예약된 보고서가 더 이상 전송되지 않습니다. **2023년 4월**, 2023년 12월 31일 이후에 만료되도록 예정된 모든 보고서가 자동으로 업데이트되고 2023년 12월 31일에 만료되도록 되돌려집니다. 또한 2023년 12월 31일 이후에는 더 이상 향후 보고서를 예약할 수 없습니다. |
 | **[!UICONTROL 사용자] 지표의 EOL** | 2023년 3월 9일 | [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html) 중단으로 인해 Device Co-op과 관련된 사용자 지표는 더 이상 관련이 없습니다. 2023년 5월 8일부로 [!UICONTROL 사용자] 지표가 제거될 예정입니다. 프로젝트, 세그먼트 및 계산된 지표가 손상되지 않도록 해당 시점에 관련 데이터가 [!UICONTROL 고유 방문자] 지표로 리디렉션될 예정입니다.<p>**참고**: [Cross-Device Analytics에 연결된 사용자 지표](/help/components/metrics/people.md)는 이 공지의 영향을 받지 않습니다. |
 | **[!UICONTROL 게시 목록] 기능의 EOL** | 2022년 9월 29일 | Reports &amp; Analytics EOL의 일환으로 [!UICONTROL 게시 목록]은 **2023년 12월**&#x200B;에 사용 수명이 종료됩니다. [!UICONTROL Analysis Workspace] 프로젝트를 보내거나 예약하기 위해 새 게시 목록을 만들거나 기존 [!UICONTROL 게시 목록]에 액세스할 수 없습니다. |
