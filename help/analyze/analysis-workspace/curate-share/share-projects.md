@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 57%
+source-wordcount: '1752'
+ht-degree: 55%
 
 ---
 
@@ -138,6 +138,10 @@ Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로�
    <!-- Add screen shot of new modal -->
 
 1. 를 활성화합니다 **[!UICONTROL 링크가 활성 상태입니다.]** 아직 활성화되지 않은 경우 선택합니다.
+
+   이 옵션을 선택하면 모든 사용자와 공유할 수 있는 프로젝트에 대한 링크가 만들어집니다. 이 옵션을 비활성화하여 언제든지 프로젝트에 대한 액세스를 비활성화할 수 있습니다.
+
+   프로젝트 소유자도 이 링크의 소유자입니다. 에 설명된 대로, 프로젝트 소유권이 이전되는 경우에만 링크 소유권을 다른 사용자에게 이전할 수 있습니다. [사용자 자산 이전 또는 계정 만료 설정](/help/admin/admin/user-management2/users-assets.md) ( Analytics 관리 가이드)를 참조하십시오.
 
 1. 다음 보안 옵션을 활성화할지 여부를 선택합니다(이 옵션은 Analytics 관리자가 제어할 수 있음).
 
