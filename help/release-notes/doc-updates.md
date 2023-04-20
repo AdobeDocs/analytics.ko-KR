@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 4월** |  |
-| Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 가이드 | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| 프로젝트 세그먼트(임시 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 간소화된 설명서와 중복된 정보가 제거되었습니다. 이제 임시 세그먼트를 만드는 단계가 [빠른 세그먼트 만들기](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서 | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| 프로젝트 세그먼트 (애드혹 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 세그먼트를 만드는 단계는 이제 [빠른 세그먼트를 만드는 단계](/help/analyze/analysis-workspace/components/segments/quick-segments.md)와 결합됩니다. |
 | **2023년 3월** |  |
 | Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md) 및 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)가 업데이트되었습니다. |
 | 트래픽 변수(prop) 개요 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. “트래픽 변수 보고서 사용”이라는 제목의 문서의 콘텐츠를 병합하고 해당 문서를 제거했습니다. [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보기 |
