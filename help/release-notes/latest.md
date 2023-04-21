@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
+source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1630'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | **Web SDK로 Activity Map 부분 지원** | Web SDK 버전 2.15.0부터는 링크 추적이 활성화되면 Activity Map 데이터를 채우게 됩니다. 이를 통해 Web SDK 사용자는 Analytics에서 구성된 Web SDK 및 Activity Map으로 링크 추적을 활성화한 경우 Activity Map 보고서를 받을 수 있습니다.<p>Web SDK로 링크 추적을 활성화하면 현재 고객이 하나의 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 전송합니다. 이는 AppMeasurement가 작동하는 방식과 다르며 잠재적으로 Adobe로 전송되는 추가 청구 가능 히트를 초래할 수 있습니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 및 [여기](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)에서 자세히 알아보십시오. | 해당 사항 없음 | 2023년 3월 31일 |
 | **Experience Edge용 IP 난독화** | Experience Edge는 Adobe Experience Platform으로 직접 전송되는 데이터에 대해 IP 난독화를 지원합니다. 이를 통해 CJA 또는 기타 Platform 솔루션에서 사용할 데이터를 Platform으로 직접 전송하는 고객은 혜택을 얻을 수 있습니다. IP 난독화는 데이터 스트림 수준에서 구성됩니다. 마지막 옥텟 또는 전체 IP 주소를 제거할 수 있습니다.<p>**참고**: Adobe Analytics로 전송되는 데이터에는 난독화가 적용되지 않습니다. Analytics는 계속해서 전체 IP를 얻습니다. IP 처리는 Analytics에서 별도로 계속 수행됩니다. 향후 Edge에서의 Analytics 데이터 난독화를 활성화할 계획입니다. | 해당 사항 없음 | 2023년 4월 26일 AEP 릴리스 |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 29일 |
-| **프로젝트 링크 공유(로그인 불필요)** - Private Beta 액세스 전용 | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 조직 외부의 사람들 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람들과 프로젝트 링크를 공유할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Private Beta에 참여하려면 Adobe 계정 팀에 문의하십시오.</p> | 2023년 4월 26일 | 2023년 6월 |
+| **프로젝트 링크 공유 (로그인 불필요)** | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사람 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람과의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023년 4월 26일(비공개 베타 액세스 전용) | 2023년 6월 |
 | Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서 | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 해당 사항 없음 | 2023년 4월 10일 |
 
 {style="table-layout:auto"}
