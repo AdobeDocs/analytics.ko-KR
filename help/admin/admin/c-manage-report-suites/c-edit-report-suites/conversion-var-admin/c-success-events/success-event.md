@@ -4,9 +4,9 @@ keywords: 이벤트
 title: 성공 이벤트 개요
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 2. 맨 위에 있는 9격자 버튼을 클릭한 다음 [!UICONTROL Analytics]를 클릭합니다.
 3. [!UICONTROL 관리] > [!UICONTROL 보고서 세트]로 이동합니다
 4. 원하는 보고서 세트를 선택한 다음 [!UICONTROL 설정 편집] > [!UICONTROL 전환] > [!UICONTROL 성공 이벤트]로 이동합니다.
-5. 원하는 이벤트를 찾고 [!UICONTROL 고유 이벤트 기록] 드롭다운을 [!UICONTROL 방문당 한 번 기록] 또는 [!UICONTROL 이벤트 ID 사용]으로 수정합니다.
 
 웹 사이트 유형에 따라 다양한 성공 이벤트가 있습니다. 여기에는 다음과 같은 예가 포함됩니다.
 

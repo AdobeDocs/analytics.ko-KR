@@ -3,10 +3,10 @@ title: 개발 구현 유효성 검사 및 프로덕션에 퍼블리싱
 description: Adobe Experience Platform 태그를 사용하여 Adobe Analytics를 프로덕션 환경에 배포하는 방법에 대해 알아봅니다.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 100%
+source-wordcount: '635'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ Experience Cloud 디버거는 페이지에 있는 모든 Experience Cloud 태그
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 사이트에서 구현할 태그 속성을 클릭합니다.
 1. **[!UICONTROL 퍼블리싱]** 탭을 클릭하고 개발 열에서 라이브러리를 찾습니다.
-1. 라이브러리에서 드롭다운을 클릭한 뒤 **[!UICONTROL 제출하여 승인 받기]**&#x200B;를 선택합니다. 모달 창에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
-1. 이번엔 제출됨 열에서 한 번 더 라이브러리의 드롭다운을 클릭하고 **[!UICONTROL 작성하여 스테이징하기]**&#x200B;를 선택합니다.
+1. 라이브러리에서 드롭다운 목록을 클릭한 다음 을 선택합니다 **[!UICONTROL 승인을 위한 제출]**. 모달 창에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. 라이브러리의 드롭다운 목록을 다시 클릭하고(이제 제출됨 열에서) 을 선택합니다 **[!UICONTROL 스테이징용 빌드]**.
 1. 잠시 후에 라이브러리의 노란색 색상 표시등이 빌드가 성공했음을 나타내는 녹색으로 바뀝니다.
-1. 다시 한 번 라이브러리에서 드롭다운을 클릭한 뒤 **[!UICONTROL 승인하여 퍼블리싱하기]**&#x200B;를 선택합니다.
-1. 이번엔 [!UICONTROL 승인됨] 열에서 한 번 더 라이브러리의 드롭다운을 클릭하고 **[!UICONTROL 작성 및 프로덕션에 퍼블리싱하기]**&#x200B;를 선택합니다.
+1. 라이브러리의 드롭다운 목록을 다시 클릭하고 을 선택합니다 **[!UICONTROL 게시 승인]**.
+1. 라이브러리의 드롭다운 목록을 다시 클릭합니다(이제 [!UICONTROL 승인됨] 열), **[!UICONTROL 빌드 및 프로덕션에 게시]**.
 1. 환경 탭으로 이동한 다음 **[!UICONTROL 프로덕션 환경]**&#x200B;을 클릭합니다.
 1. 프로덕션 설치 코드를 복사하여 웹 사이트 소유자에게 제공합니다. 사이트의 프로덕션 환경에서 이 코드를 구현하도록 요청합니다.
 

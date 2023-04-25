@@ -3,10 +3,10 @@ description: 분류는 값을 그룹으로 분류하고 그룹 수준으로 보�
 title: 전환 분류
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 전환 분류를 사용하면 전환 변수를 분류할 수 있습니다. 한 번 분류하면 키 데이터를 사용하여 생성할 수 있는 어떤 보고서도 관련 데이터 속성을 사용하여 생성할 수 있습니다.
 
-분류를 활성화한 후 다음을 사용합니다. [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md) 를 사용하여 적절한 분류에 특정 값을 할당할 수 있습니다.
+분류를 활성화한 후 [분류 가져오기](/help/components/classifications/importer/c-working-with-saint.md) 를 입력하여 해당 분류에 특정 값을 할당할 수 있었습니다.
 
 >[!WARNING]
 >
@@ -48,7 +48,7 @@ ht-degree: 97%
    옵션에는 **[!UICONTROL 텍스트]** 및 **[!UICONTROL 숫자]**&#x200B;가 포함됩니다. 분류 유형에 대한 자세한 내용은 [분류에 대하여](/help/components/classifications/c-classifications.md)를 참조하십시오.
 1. **[!UICONTROL 테스트 분류]** 대화 상자에서 원하는 대로 분류를 구성합니다.
 
-1. **[!UICONTROL 드롭다운 목록]** 대화 상자에서 옵션을 추가하거나 제거합니다.
+1. 드롭다운 목록 대화 상자에서 옵션을 추가하거나 제거합니다.
 
    옵션을 추가하면 이 분류에 사용 가능한 분류 값 목록이 만들어집니다. 캠페인 변수와 함께 이 옵션을 사용하여 캠페인 관리자에서 분류에 대해 지원되는 값 목록을 사용자에게 제공할 수 있습니다. 거의 변경되지 않거나 절대 변경되지 않는 작은 수의 허용된 값이 있는 분류 차원에 대해 사용하십시오. 예를 들어 실버, 골드 및 팬티엄과 같이 다양한 수준의 고객 충성도를 대상으로 하는 다양한 캠페인을 실행할 수 있습니다. 그런 다음 드롭다운 목록을 사용하여 수락되는 값만 세 수준과 일치하는 값이 되도록 할 수 있습니다. 다른 값을 사용하는 경우는 무시됩니다.
 

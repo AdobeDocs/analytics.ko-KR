@@ -3,10 +3,10 @@ title: zip
 description: 보고서 세트 설정이 허용하는 경우 '우편번호' 차원을 수동으로 채웁니다.
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 우�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
+5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
 6. [!UICONTROL Zip] 섹션을 찾습니다.
 
 우편번호를, 데이터 요소를 포함한 어떤 문자열 값으로든 설정할 수 있습니다.

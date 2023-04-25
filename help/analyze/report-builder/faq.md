@@ -4,10 +4,10 @@ description: Report Builder에 대해 자주 묻는 질문.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Excel의 [`TODAY()` 함수](https://support.microsoft.com/ko-kr/office/today-fun
 
 예약된 보고서는 날짜 구문을 공유하지 않는 서버에서도 처리됩니다. 예를 들어 `7/1/YYYY`는 국가 또는 지역에 따라 7월 1일 또는 1월 7일을 나타낼 수 있습니다. 이 날짜에 `DATEVALUE()` 함수를 사용하면 이를 실행하는 컴퓨터에 따라 직렬 값이 달라집니다.
 
-이러한 Excel 함수를 사용하는 대신 Report Builder 요청 내에서 날짜 범위를 사용하는 것이 좋습니다. 요청 마법사의 첫 페이지에 있는 드롭다운에서 **[!UICONTROL 사전 설정된 날짜]**&#x200B;를 선택한 다음 일반적으로 사용되는 날짜에서 **[!UICONTROL 오늘]** 또는 다른 원하는 날짜 범위를 선택합니다. 이 설정은 서버가 요청을 처리할 때가 아니라 보고서 세트가 실행될 때 시간이 걸립니다.
+이러한 Excel 함수를 사용하는 대신 Report Builder 요청 내에서 날짜 범위를 사용하는 것이 좋습니다. 요청 마법사의 첫 페이지에서 을 선택합니다 **[!UICONTROL 사전 설정 날짜]** 드롭다운에서 일반적으로 사용되는 날짜 아래에서 을 선택합니다. **[!UICONTROL 오늘]** 또는 원하는 다른 날짜 범위. 이 설정은 서버가 요청을 처리할 때가 아니라 보고서 세트가 실행될 때 시간이 걸립니다.
 
 ## 통합 문서를 얼마나 크고 복잡하게 만들 수 있습니까?
 

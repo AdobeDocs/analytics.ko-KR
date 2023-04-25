@@ -3,10 +3,10 @@ title: 개발 환경에 Adobe Analytics 배포
 description: 태그를 사용하여 Adobe Analytics를 개발 환경에 배포하는 방법에 대해 알아봅니다.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 92%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 100%
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 2. 사이트에서 구현할 태그 속성을 클릭합니다.
 3. **[!UICONTROL 호스트]**&#x200B;를 클릭한 후 **[!UICONTROL 호스트 추가]**&#x200B;를 클릭합니다.
-4. 이름을 `"Adobe managed"`로 지정하고 유형 드롭다운에서 **[!UICONTROL Managed by Adobe]**&#x200B;를 선택합니다. [저장]을 클릭합니다.
+4. 이름을 지정합니다 `"Adobe managed"`, 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL Adobe에서 관리]** 유형 드롭다운 목록에서 을 선택합니다. [저장]을 클릭합니다.
 5. **[!UICONTROL 환경]**&#x200B;으로 이동한 다음 **[!UICONTROL 환경 추가]**&#x200B;를 클릭합니다.
-6. **[!UICONTROL 개발]**&#x200B;을 선택하고 이름을 `"Dev Environment"`로 지정한 다음 드롭다운에서 Adobe 관리 호스트를 선택합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+6. 선택 **[!UICONTROL 개발]**, 이름 지정 `"Dev Environment"`그런 다음 드롭다운 목록에서 Adobe 관리 호스트를 선택합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 7. 모달 창에 [웹 설치 지침]이 표시됩니다. 나중에 이 창으로 돌아오겠습니다. 이제 **[!UICONTROL 닫기]**&#x200B;를 클릭하십시오.
 8. **[!UICONTROL 환경 추가]**&#x200B;를 클릭하고 **[!UICONTROL 스테이징]**&#x200B;을 선택한 다음 이름을 `"Staging Environment"`로 지정한 후 Adobe 관리 호스트를 선택합니다. **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 설치 지침 모달 창을 닫습니다.
 9. **[!UICONTROL 환경 추가]**&#x200B;를 다시 클릭하고 **[!UICONTROL 프로덕션]**&#x200B;을 선택한 다음 이름을 `"Production Environment"`로 지정한 후 Adobe 관리 호스트를 선택합니다. **[!UICONTROL 만들기]**&#x200B;를 클릭한 다음 설치 지침 모달 창을 닫습니다.
@@ -42,7 +42,7 @@ ht-degree: 100%
 4. 라이브러리 이름을 `'Initial changes'`로 지정하고 개발 환경을 선택합니다.
 5. Adobe Analytics, ID 서비스 및 핵심을 자동으로 나열하는 **[!UICONTROL 변경된 모든 리소스 추가]**&#x200B;를 클릭합니다.
 6. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-7. 게시 워크플로 화면으로 돌아가서 새 라이브러리 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL 개발용 빌드]**&#x200B;를 클릭합니다. 잠시 후에 라이브러리에 있는 노란색 점이 성공적으로 빌드되었음을 나타내는 녹색으로 바뀝니다.
+7. 게시 워크플로우 화면으로 돌아가서 새 라이브러리 옆에 있는 드롭다운 목록을 클릭하고 **[!UICONTROL 개발을 위한 구축]**. 잠시 후에 라이브러리에 있는 노란색 점이 성공적으로 빌드되었음을 나타내는 녹색으로 바뀝니다.
 8. **[!UICONTROL 환경]**&#x200B;으로 이동한 다음 개발 환경 오른쪽의 설치 아이콘을 클릭합니다. 이렇게 하면 [웹 설치 지침] 모달 창이 다시 표시됩니다.
 9. 코드 블록을 복사하여 조직의 웹 사이트 소유자에게 제공합니다.
 

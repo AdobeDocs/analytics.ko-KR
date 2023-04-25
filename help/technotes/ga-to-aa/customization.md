@@ -3,10 +3,10 @@ title: Adobe Analytics의 보고서 사용자 지정
 description: Adobe Analytics에서 보고서를 사용자 지정하는 방법 알아보기
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Google Analytics에서 사용자 지정 보고서를 만들 때 필수 필드는
 
 1. 지표 목록 근처에 있는 **+**[!UICONTROL  아이콘을 클릭하여 계산된 지표 빌더를 엽니다].
 2. 계산된 지표에 이름을 지정하고 형식을 지정합니다.
-3. 지표 구성 요소를 정의 영역으로 끌어서 놓고 각 구성 요소 사이의 드롭다운을 사용하여 연산자를 지정합니다.
+3. 지표 구성 요소를 정의 영역으로 끌어서 놓고 각 구성 요소 사이의 드롭다운 목록을 사용하여 연산자를 지정합니다.
 4. 계산된 지표에 원하는 공식이 포함되면 저장을 클릭하여 작업 공간으로 다시 돌아갑니다.
 5. 새로 정의된 계산된 지표를 작업 공간으로 끌어서 놓습니다.
 

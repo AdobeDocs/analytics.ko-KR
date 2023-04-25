@@ -3,10 +3,10 @@ title: Adobe Analytics로 마이그레이션할 때 자주 묻는 질문
 description: 서드파티 플랫폼에서 Adobe로 이동할 때 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 74%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 95%
 
 과거 데이터를 이동하려면 모든 옴니채널 데이터 소스를 사용할 수 있는 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)를 사용하는 것을 권장합니다.
 
-**이전에는 많은 보고서에서 세그먼테이션 드롭다운을 사용했습니다. [!UICONTROL Analysis Workspace]에서 이를 다시 만들 수 있습니까?**
+**이전에는 많은 보고서에서 세그멘테이션 드롭다운 목록을 사용했습니다. [!UICONTROL Analysis Workspace]에서 이를 다시 만들 수 있습니까?**
 
-드롭다운 필터는 세그먼테이션 드롭다운을 허용하는 [!UICONTROL Analysis Workspace]의 유연하고 강력한 기능입니다. 작업 영역 프로젝트에서 다음 작업을 수행하십시오.
+드롭다운 필터는 의 유연하고 강력한 기능입니다 [!UICONTROL Analysis Workspace] 세분화 드롭다운 목록을 사용할 수 있습니다. 작업 영역 프로젝트에서 다음 작업을 수행하십시오.
 
-1. 드롭다운에 포함할 구성 요소를 ctrl+클릭 (Windows)하거나 cmd+클릭 (Mac)합니다. 세그먼트에만 국한되지 않고, 모든 구성 요소를 드롭다운 필터에 포함할 수 있습니다.
+1. 드롭다운 필터에 포함할 구성 요소를 ctrl+클릭(Windows)하거나 cmd+클릭(Mac)합니다. 세그먼트에만 국한되지 않습니다. 드롭다운 필터에 모든 구성 요소를 포함할 수 있습니다.
 2. 구성 요소 그룹을 &#39;여기에 세그먼트 놓기&#39;라는 작업 공간 영역으로 끌어 놓습니다. 이동하기 전에 Shift 키를 누릅니다.
 
-이제 이 [!UICONTROL Workspace] 프로젝트에 액세스하는 사용자는 이 드롭다운을 사용하여 세그먼트 또는 다른 구성 요소를 프로젝트에 적용할 수 있습니다. 자세한 내용은 Adobe Analytics 도구 안내서의 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md)를 참조하십시오.
+액세스 중인 사용자 [!UICONTROL 작업 공간] 이제 프로젝트에서 이 드롭다운 필터를 사용하여 세그먼트 또는 기타 구성 요소를 프로젝트에 적용할 수 있습니다. 자세한 내용은 Adobe Analytics 도구 안내서의 [패널 개요](/help/analyze/analysis-workspace/c-panels/panels.md)를 참조하십시오.
 
 **이전에는 차원 항목을 클릭해서 드릴다운을 확인했습니다. Analysis Workspace에서 이러한 간편한 워크플로를 복제하려면 어떻게 합니까?**
 

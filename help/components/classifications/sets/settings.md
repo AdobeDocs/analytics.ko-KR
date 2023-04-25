@@ -2,10 +2,10 @@
 title: 분류 세트 설정
 description: 분류 세트를 만들거나 편집합니다.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 79%
 
 ---
 
@@ -47,19 +47,19 @@ ht-degree: 100%
 * **[!UICONTROL 다운로드]**: 키 값과 해당 분류 열을 다운로드합니다.
    * **[!UICONTROL 행]**: 다운로드 파일에 포함할 최대 행 수입니다.
    * **[!UICONTROL 다음 기간 동안 받은 행 다운로드]**: 보고에 나타나는 시점을 기준으로 키 값을 필터링할 수 있는 캘린더 날짜 선택기입니다. 이 날짜 범위에서 키 값이 수집되지 않은 경우 다운로드한 파일에 키 값이 나타나지 않습니다.
-   * **[!UICONTROL 반환되는 데이터]**: 연결된 분류 데이터를 기준으로 다운로드한 파일에 포함된 키 값을 필터링할 수 있는 드롭다운입니다.
+   * **[!UICONTROL 반환된 데이터]**: 관련 분류 데이터를 기반으로 다운로드한 파일에 포함된 키 값을 필터링할 수 있는 드롭다운 목록입니다.
       * **[!UICONTROL 모든 분류된 값]**: 하나 이상의 열에 분류 데이터가 포함된 행을 포함합니다.
       * **[!UICONTROL 모든 분류되지 않은 값]**: 하나 이상의 열에 분류 데이터가 누락된 행을 포함합니다.
-   * **[!UICONTROL 파일 포맷]**: 다운로드 파일이 있는 파일 포맷을 결정하는 드롭다운입니다. 옵션에는 [!UICONTROL JSON], [!UICONTROL 쉼표로 구분된 값] 및 [!UICONTROL Excel 탭으로 구분된 값]이 포함됩니다.
-   * **[!UICONTROL 파일 인코딩]**: 파일 인코딩을 결정하는 드롭다운입니다. 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다. UTF-8이 권장됩니다.
-   * **[!UICONTROL 목록 구분 기호]**: 각 행에서 분류 열을 구분하는 목록 구분 기호를 결정하는 드롭다운입니다.
+   * **[!UICONTROL 파일 형식]**: 다운로드 파일이 있는 파일 형식을 결정하는 드롭다운 목록입니다. 옵션에는 [!UICONTROL JSON], [!UICONTROL 쉼표로 구분된 값] 및 [!UICONTROL Excel 탭으로 구분된 값]이 포함됩니다.
+   * **[!UICONTROL 파일 인코딩]**: 파일 인코딩을 결정하는 드롭다운 목록입니다. 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다. UTF-8이 권장됩니다.
+   * **[!UICONTROL 목록 구분 기호]**: 각 행의 분류 열을 구분하는 목록 구분 기호를 결정하는 드롭다운 목록입니다.
 
    ![분류 세트 다운로드](../assets/classification-set-download.png)
 
 * **[!UICONTROL 템플릿]**: 템플릿 파일을 다운로드합니다. 이 파일은 분류 데이터나 키 값을 포함하지 않는다는 점을 제외하면 [!UICONTROL 다운로드] 버튼과 유사합니다.
-   * **[!UICONTROL 파일 포맷]**: 템플릿 파일이 있는 파일 포맷을 결정하는 드롭다운입니다. 옵션에는 [!UICONTROL 쉼표로 구분된 값] 및 [!UICONTROL Excel 탭으로 구분된 값]이 포함됩니다.
-   * **[!UICONTROL 파일 인코딩]**: 파일 인코딩을 결정하는 드롭다운입니다. 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다. UTF-8이 권장됩니다.
-   * **[!UICONTROL 목록 구분 기호]**: 각 행에서 분류 열을 구분하는 목록 구분 기호를 결정하는 드롭다운입니다.
+   * **[!UICONTROL 파일 형식]**: 템플릿 파일이 있는 파일 형식을 결정하는 드롭다운 목록입니다. 옵션에는 [!UICONTROL 쉼표로 구분된 값] 및 [!UICONTROL Excel 탭으로 구분된 값]이 포함됩니다.
+   * **[!UICONTROL 파일 인코딩]**: 파일 인코딩을 결정하는 드롭다운 목록입니다. 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다. UTF-8이 권장됩니다.
+   * **[!UICONTROL 목록 구분 기호]**: 각 행의 분류 열을 구분하는 목록 구분 기호를 결정하는 드롭다운 목록입니다.
 * **[!UICONTROL 작업 내역]**: 이 분류 세트에 대한 작업만 표시하는 [작업 관리자](job-manager.md)로 이동하는 바로 가기 링크입니다.
 
    ![분류 세트 템플릿](../assets/classification-set-template.png)

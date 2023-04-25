@@ -5,10 +5,10 @@ title: Analysis Workspace의 새로운 기능
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '8277'
-ht-degree: 99%
+source-wordcount: '8267'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 99%
 | Attribution IQ: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
 | 속성 IQ: 사용자 정의 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 공유 작업 영역 프로젝트에 대한 프로젝트 역할 | 이제 작업 영역 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 보기 전용 작업 영역 프로젝트 | 작업 영역 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 보기 전용 작업 영역 프로젝트 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 작업 영역 프로젝트 공동 편집 기능 | “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
 | 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로를 선택하는 더 원활한 방법을 제공합니다. |
 | 빠른 인사이트 패널 (2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
@@ -134,7 +134,7 @@ ht-degree: 99%
 | 개선 사항 | 설명 |
 |--- |--- |
 | 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=ko-KR)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko-KR)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
-| 지정되지 않음/없음 제거 옵션 | &#39;지정되지 않음(없음)&#39;을 쉽게 제거하는 기능이 보고서 필터의 옵션으로 추가되었습니다. |
+| 지정되지 않음/없음 제거 옵션 | 지정되지 않음(없음) 을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
 | 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소 (분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 
 ## 2019월 8일
@@ -143,7 +143,7 @@ ht-degree: 99%
 
 | 개선 사항 | 설명 |
 |--- |--- |
-| 드롭다운 필터의 항목 제한을 50개에서 200개로 늘림 | 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
+| 정적 드롭다운 필터의 항목 제한을 50개에서 200개로 늘림 | 정적 드롭다운 필터에 배치할 수 있는 항목 제한이 50개에서 200개로 늘어났습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
 
 ## 2019년 7월
 
@@ -202,29 +202,10 @@ ht-degree: 99%
 
 2018년 10월 11일에 출시된 새로운 기능 및 개선 사항.
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> 기능 </th>
-   <th colname="col2" class="entry"> 설명 </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>패널 드롭다운 관리</b> </p> </td>
-   <td colname="col2"> <p>9월 MR에 도입된 패널 드롭다운의 관리에 대해 몇 가지를 변경했습니다. 이제 드롭다운을 마우스 오른쪽 버튼으로 클릭하면 다음 작업을 수행할 수 있습니다. </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">드롭다운 삭제 (이 옵션은 항상 표시됩니다.) </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">레이블 삭제 (레이블이 표시되는 경우) </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">레이블 추가 (레이블이 표시되지 않는 경우) </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>패널 및 시각화 도구 설명의 링크</b> </p> </td>
-   <td colname="col2"> <p>패널 및 시각화 도구 설명에 관련된 비디오 및 설명서에 연결된 링크를 추가했습니다. </p> </td>
-  </tr>
- </tbody>
-</table>
+| 기능 | 설명 |
+| --- | --- |
+| 패널 드롭다운 관리 | 패널 드롭다운 관리가 몇 가지 변경되었습니다. 드롭다운을 마우스 오른쪽 단추로 클릭하면 드롭다운을 삭제하거나 레이블을 삭제(레이블이 표시되는 경우) 또는 레이블을 추가할 수 있습니다(레이블이 표시되지 않는 경우). |
+| 패널 및 시각화 도구 설명의 링크 | 패널 및 시각화 도구 설명에 관련된 비디오 및 설명서에 대한 링크가 추가됩니다. |
 
 ## 2018년 9월
 

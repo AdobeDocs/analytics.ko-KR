@@ -4,10 +4,10 @@ keywords: 클릭스트림, 데이터 피드, 데이터피드, 데이터 피드
 title: Analytics 데이터 피드 개요
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    * 사용자 이름: FTP 사이트에 로그인할 사용자 이름을 입력합니다.
    * 암호 및 암호 확인: FTP 사이트에 로그인할 암호를 입력합니다.
 7. [!UICONTROL 데이터 열 정의]를 채웁니다.
-   * 드롭다운에서 최신 &#39;모든 Adobe 열&#39; 템플릿을 선택합니다.
+   * 드롭다운 목록에서 최신 &#39;모든 Adobe Columns&#39; 템플릿을 선택합니다.
    * 압축 포맷: Gzip
    * 패키징 타입: 여러 파일
    * 매니페스트: 파일 없음

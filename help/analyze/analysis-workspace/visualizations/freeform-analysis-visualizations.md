@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 100%
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | 설정 | 설명 |
 | --- | --- |
 | 시각화 유형 | 데이터를 묘사하는 데 사용되는 시각 자료 유형을 변경합니다. |
-| 세부 기간 | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 변경할 수 있습니다. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
+| 세부 기간 | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 선택하십시오. 이 변경 사항은 데이터 소스 테이블에도 적용됩니다. |
 | 백분율 | 값을 백분율로 표시합니다. |
 | 100% 누적 | 스택 영역, 막대 스택 또는 가로 막대형 스택 시각화에 대한 이 설정은 차트를 “100% 스택”시각화로 전환합니다. 예: ![스택 100%](assets/stacked_100_percent.png) |
 | 범례 표시 | 요약 번호/요약 변경 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |

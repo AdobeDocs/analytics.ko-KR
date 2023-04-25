@@ -3,10 +3,10 @@ title: events
 description: 사이트에 대한 대부분의 지표를 제어하는 events 변수를 설정합니다.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '813'
+ht-degree: 92%
 
 ---
 
@@ -45,14 +45,14 @@ Analytics 확장(전역 변수)을 구성하는 동안 또는 규칙에서 이�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
+5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
 6. [!UICONTROL 이벤트] 섹션을 찾습니다.
 
 다음과 같은 몇 가지 기능을 사용할 수 있습니다.
 
-* 드롭다운을 사용하면 포함할 이벤트를 선택할 수 있습니다.
+* 포함할 이벤트를 선택할 수 있는 드롭다운 목록
 * 직렬화를 위한 선택적 텍스트 필드. 자세한 내용은 [이벤트 직렬화](event-serialization.md)를 참조하십시오.
-* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어 드롭다운 아래에서 `event1`을 선택하고 이 필드에 `10`을 포함하면 보고에서 `event1`이 10만큼 증가합니다.
+* 이벤트 값에 대한 선택적 텍스트 필드. 통화 이벤트를 위한 통화를 포함하거나, 비통화 이벤트를 위한 정수를 포함하여 여러 번 증가시킬 수 있습니다. 예를 들어, `event1` 드롭다운 목록에서 다음을 포함한 `10` 이 필드는 `event1` 다음을 보고합니다.
 * 다른 이벤트를 추가하는 버튼. 이유 내에서 단일 규칙에 원하는 만큼 이벤트를 추가할 수 있습니다.
 
 ## AppMeasurement 및 Analytics 확장 사용자 정의 코드 편집기의 s.events

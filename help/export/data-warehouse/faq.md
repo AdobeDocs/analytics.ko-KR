@@ -3,10 +3,10 @@ title: Data Warehouse FAQ
 description: Data Warehouse에 대해 자주 묻는 질문.
 feature: Data Warehouse
 exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Data Warehouse에 대해 자주 묻는 질문.
 
-## 요청을 생성하는 동안 세부 기간 드롭다운을 사용할 때 날짜는 어떤 형식이 될 수 있습니까?
+## 요청을 만드는 동안 세부기간 드롭다운 목록을 사용할 때 날짜가 어떤 형식으로 기록될 것으로 예상할 수 있습니까?
 
 Data Warehouse 요청에 세부 기간을 적용하면 “날짜” 열이 보고서에 추가됩니다. 선택한 세부 기간에 따라 날짜 형식이 변경됩니다.
 

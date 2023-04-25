@@ -1,9 +1,10 @@
 ---
 title: 데이터 소스 시작
 description: 예제 데이터를 개발 보고서 세트에 업로드합니다.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -18,15 +19,15 @@ ht-degree: 1%
 
 1. 을 통해 Adobe Analytics에 로그인 [https://experience.adobe.com](https://experience.adobe.com).
 1. 다음으로 이동 **[!UICONTROL 관리]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 데이터 소스]**.
-1. 오른쪽 상단의 드롭다운을 사용하여 개발 보고서 세트를 선택합니다.
+1. 오른쪽 상단의 드롭다운 목록을 사용하여 개발 보고서 세트를 선택합니다.
 1. 을(를) 클릭합니다. **[!UICONTROL 만들기]** 왼쪽 위에 있는 단추입니다.
 1. 아래 [!UICONTROL 범주 선택], &quot; 을 선택합니다.[!UICONTROL 일반]&quot; 및 under [!UICONTROL 유형 선택], &quot; 을 선택합니다.[!UICONTROL 일반 데이터 소스(요약 데이터만)]&quot;.
 1. **[!UICONTROL 활성화]**&#x200B;를 클릭합니다. 팝업 창이 열리고 [!UICONTROL 데이터 소스 활성화 마법사].
    1. 1단계: 데이터 소스에 이름을 지정하고 면책조항 확인란을 클릭합니다.
    1. 2단계: 이 단계는 이전 버전의 Adobe Analytics에서 더 많이 사용되었습니다. 확인란을 클릭한 다음 옆의 텍스트 필드에 값을 입력합니다.
-   1. 3단계: 데이터 소스 템플릿 파일에 포함할 지표를 선택합니다. 드롭다운에서 &quot;이벤트 1&quot;을 선택합니다.
+   1. 3단계: 데이터 소스 템플릿 파일에 포함할 지표를 선택합니다. 드롭다운 목록에서 &quot;이벤트 1&quot;을 선택합니다.
    1. 4단계: 이 단계는 이전 버전의 Adobe Analytics에서 더 많이 사용되었습니다. 확인란을 클릭한 다음 옆의 텍스트 필드에 값을 입력합니다.
-   1. 5단계: 데이터 소스 템플릿 파일에 포함할 차원을 선택합니다. 드롭다운에서 &quot;eVar1&quot;을 선택합니다.
+   1. 5단계: 데이터 소스 템플릿 파일에 포함할 차원을 선택합니다. 드롭다운 목록에서 &quot;eVar1&quot;을 선택합니다.
    1. 6단계: 템플릿 파일에 포함된 차원과 지표를 보여주는 요약을 검토합니다.
    1. 7단계: 을(를) 클릭합니다. **[!UICONTROL 다운로드]** data sources 템플릿 파일을 다운로드하는 버튼. 또한 곧 사용되므로 FTP 사이트에 대한 로그인 자격 증명을 확인합니다.
 1. 이제 데이터 소스가 생성되었습니다. 다음 단계는 처리할 데이터를 제공하는 것입니다. 다운로드한 파일을 원하는 텍스트 편집기에서 엽니다.
@@ -34,8 +35,8 @@ ht-degree: 1%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. 여러 데이터 행에 을 입력하고 각 항목을 탭으로 구분합니다. 값을 구분하기 위해 공백이나 쉼표를 사용하지 마십시오.
@@ -45,10 +46,10 @@ ht-degree: 1%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. 파일을 저장합니다. 원할 경우 다른 파일 이름을 선택적으로 지정할 수 있습니다. 파일이 저장되면 텍스트 편집기를 닫을 수 있습니다.

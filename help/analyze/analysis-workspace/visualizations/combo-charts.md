@@ -4,10 +4,10 @@ title: 콤보 차트 시각화
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 | 설정 | 정의 |
 | --- | --- |
 | **[!UICONTROL 시각화 유형]** | 다른 시각화 유형으로 전환할 수 있습니다. |
-| **[!UICONTROL 세부 기간]** | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 변경할 수 있습니다. |
+| **[!UICONTROL 세부 기간]** | 트렌드 시각화의 경우 이 드롭다운에서 시간 단위(일, 주, 월 등)를 이 드롭다운 목록에서 선택하십시오. |
 | **[!UICONTROL 일반]** |  |
 | **[!UICONTROL 백분율]** | 값을 백분율로 표시합니다. |
 | **[!UICONTROL 범례 표시]** | 콤보 차트 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |

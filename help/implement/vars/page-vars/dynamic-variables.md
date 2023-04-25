@@ -3,10 +3,10 @@ title: 다이내믹 변수
 description: 이미지 요청 길이를 늘리지 않고 변수를 복사합니다.
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 82%
+source-wordcount: '442'
+ht-degree: 79%
 
 ---
 
@@ -26,13 +26,13 @@ Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문�
 
 ## 웹 SDK를 사용하는 동적 변수
 
-데이터스트림 매핑을 사용하여 단일 XDM 필드에서 여러 Analytics 변수로 데이터를 전송합니다.
+단일 XDM 필드에서 여러 Analytics 변수로 데이터를 전송하려면 데이터 스트림 매핑을 사용합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
-1. 클릭 **[!UICONTROL 데이터스트림]** 왼쪽 레일에서.
+1. 클릭 **[!UICONTROL 데이터 스트림]** 왼쪽 레일에 있습니다.
 1. 원하는 데이터 스트림을 클릭합니다.
-1. 클릭 **[!UICONTROL 매핑 편집]** 오른쪽.
-1. 원하는 매핑 [!UICONTROL 소스 필드] 원하는 대로 [!UICONTROL Target 필드]. 단일 소스 필드는 원하는 수의 타겟 필드에 매핑할 수 있습니다.
+1. 클릭 **[!UICONTROL 매핑 편집]** 오른쪽에 있습니다.
+1. 원하는 것을 매핑합니다 [!UICONTROL 소스 필드] 원하는 대로 [!UICONTROL Target 필드]. 단일 소스 필드는 원하는 개수의 대상 필드에 매핑할 수 있습니다.
 
 ## Adobe Analytics 확장을 사용하는 동적 변수
 
@@ -42,7 +42,7 @@ Adobe는 동적 변수 접두사를 인식하면 보고서 세트의 쿼리 문�
 2. 원하는 태그 속성을 클릭합니다.
 3. [!UICONTROL 규칙] 탭으로 이동한 다음 원하는 규칙을 클릭하거나 규칙을 만듭니다.
 4. [!UICONTROL 작업]에서 기존 [!UICONTROL Adobe Analytics - 변수 설정] 작업을 클릭하거나 &#39;+&#39; 아이콘을 클릭합니다.
-5. [!UICONTROL 확장] 드롭다운을 Adobe Analytics로 설정하고 [!UICONTROL 작업 유형]을 [!UICONTROL 변수 설정]으로 설정합니다.
+5. 설정 [!UICONTROL 확장] 드롭다운 목록을 Adobe Analytics 및 [!UICONTROL 작업 유형] to [!UICONTROL 변수 설정].
 6. 원하는 차원 항목을 찾습니다.
 
 텍스트 필드에 동적 변수 접두사를 배치하고 참조할 쿼리 문자열 매개 변수나 HTTP 헤더를 추가합니다. 기본적으로 동적 변수 접두사는 `D=`입니다.
