@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 96%
+source-wordcount: '697'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
    + [차원 호환성](dimensions/compatibility.md)
    + [모든 검색 페이지 등급](dimensions/all-search-page-rank.md)
    + [오전/오후](dimensions/am-pm.md)
+   + [보트 이름](dimensions/bot-name.md)
    + [브라우저 높이](dimensions/browser-height.md)
    + [브라우저 유형](dimensions/browser-type.md)
    + [브라우저 너비](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 96%
    + [방문당 평균 페이지 조회수](metrics/average-page-views-per-visit.md)
    + [평균 세션 길이](metrics/average-session-length.md)
    + [사이트의 평균 시간](metrics/average-time-on-site.md)
+   + [보트 발생 횟수](metrics/bot-occurrences.md)
+   + [보트 페이지 보기](metrics/bot-page-views.md)
    + [바운스 비율](metrics/bounce-rate.md)
    + [바운스 수](metrics/bounces.md)
    + [장바구니 추가](metrics/cart-additions.md)
@@ -174,7 +177,7 @@ ht-degree: 96%
       + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
-   + [이전 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
+   + [기존 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산된(파생된) 지표](c-calcmetrics/cm-overview.md)
