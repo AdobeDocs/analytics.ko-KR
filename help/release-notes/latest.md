@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **비프로덕션 샌드박스의 채우기** | 비프로덕션 샌드박스에서 Analytics 소스 커넥터 데이터 흐름을 만들 때 비프로덕션 샌드박스의 채우기 기능은 3개월로 제한됩니다. 샌드박스는 13개월 동안 보관될 것이다. | 해당 사항 없음 | 2023년 4월 26일 |
+| **비프로덕션 샌드박스용 채우기** | 비프로덕션 샌드박스에서 Analytics 소스 커넥터 데이터 흐름을 생성할 때 비프로덕션 샌드박스의 채우기는 3개월로 제한됩니다. 프로덕션 샌드박스의 경우 13개월로 유지됩니다. | 해당 사항 없음 | 2023년 4월 26일 |
 | **Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 내용을 줄이는 데 도움이 되므로 프로필 자격 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko#filtering-for-profile) | 해당 사항 없음 | 2023년 3월 29일 |
 | **Web SDK로 Activity Map 부분 지원** | Web SDK 버전 2.15.0부터는 링크 추적이 활성화되면 Activity Map 데이터를 채우게 됩니다. 이를 통해 Web SDK 사용자는 Analytics에서 구성된 Web SDK 및 Activity Map으로 링크 추적을 활성화한 경우 Activity Map 보고서를 받을 수 있습니다.<p>Web SDK로 링크 추적을 활성화하면 현재 고객이 하나의 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 전송합니다. 이는 AppMeasurement가 작동하는 방식과 다르며 잠재적으로 Adobe로 전송되는 추가 청구 가능 히트를 초래할 수 있습니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 및 [여기](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)에서 자세히 알아보십시오. | 해당 사항 없음 | 2023년 3월 31일 |
 | **Experience Edge용 IP 난독화** | Experience Edge는 Adobe Experience Platform으로 직접 전송되는 데이터에 대해 IP 난독화를 지원합니다. 이를 통해 CJA 또는 기타 Platform 솔루션에서 사용할 데이터를 Platform으로 직접 전송하는 고객은 혜택을 얻을 수 있습니다. IP 난독화는 데이터 스트림 수준에서 구성됩니다. 마지막 옥텟 또는 전체 IP 주소를 제거할 수 있습니다.<p>**참고**: Adobe Analytics로 전송되는 데이터에는 난독화가 적용되지 않습니다. Analytics는 계속해서 전체 IP를 얻습니다. IP 처리는 Analytics에서 별도로 계속 수행됩니다. 향후 Edge에서의 Analytics 데이터 난독화를 활성화할 계획입니다. | 해당 사항 없음 | 2023년 4월 26일 AEP 릴리스 |
