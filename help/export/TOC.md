@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 내보내기 안내서
 breadcrumb-title: 내보내기 안내서
 user-guide-description: 데이터 피드를 사용하여 원시 데이터를 내보내고 Data Warehouse를 사용하여 데이터의 스프레드시트 출력을 검색하는 방법에 대해 알아봅니다. FTP와 SFTP를 사용하여 파일을 전송하는 방법에 대해 알아봅니다.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [지표 계산](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [데이터 열 참조](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [페이지 이벤트 조회](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [모바일 특성 조회](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [동적 조회](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [머천다이징 eVar 조회](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [특수 문자](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [늦게 도착하는 히트](analytics-data-feed/c-df-contents/late-arriving-hits.md)
