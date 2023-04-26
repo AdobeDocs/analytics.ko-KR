@@ -4,10 +4,10 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
+source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 57%
+source-wordcount: '1202'
+ht-degree: 68%
 
 ---
 
@@ -100,21 +100,21 @@ Ad Hoc 세그먼트는 빠른 세그먼트의 유형이며 프로젝트에 로�
 
 프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko-KR).
 
-### 동적 드롭다운 필터
+<!--### Dynamic drop-down filters
 
-동적 드롭다운 필터를 사용하면 패널의 보고 범위 내의 데이터와 다른 드롭다운 필터의 값을 기반으로 사용 가능한 값을 결정할 수 있습니다. 예를 들어 [국가](/help/components/dimensions/countries.md) 차원 및 [도시](/help/components/dimensions/cities.md) 차원. 에서 국가를 선택하는 경우 [!UICONTROL 국가] 드롭다운 목록, [!UICONTROL 도시] 드롭다운 목록은 해당 국가 내의 도시만 표시하도록 동적으로 조정됩니다.
+Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
 
-동일한 개념이 모든 차원에 적용됩니다. 패널의 날짜 범위 및 선택한 필터 내에 나타나는 차원 항목만 표시됩니다. 정적 드롭다운 필터에서 선택한 Dimension 항목은 동적 드롭다운 필터의 사용 가능한 값에 영향을 줍니다. 그러나 이 역법은 사실이 아닙니다. 동적 드롭다운 필터에서 선택한 Dimension 항목은 정적 드롭다운 필터의 사용 가능한 값에 영향을 주지 않습니다.
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
 
-나중에 수집할 특정 차원 항목을 예상하는 경우 차원 항목을 수동으로 선택할 수 있습니다. 동적 드롭다운 필터를 지우면 값이 포함되지 않으므로 다른 동적 드롭다운 필터에서 더 많은 값을 포함할 수 있습니다. 선택 **[!UICONTROL 모두 지우기]** 를 클릭하여 해당 패널의 모든 드롭다운 필터에서 선택 항목을 지웁니다.
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
 
-동적 드롭다운 필터를 만드는 방법:
+To create a dynamic drop-down filter:
 
-* 단일 차원을 패널 드롭존에 끌어다 놓습니다 **계속`[Shift]`**.
-* 지표, 세그먼트 또는 날짜 범위에 동적 드롭다운 필터를 사용할 수 없습니다.
-* 드롭다운 필터를 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL 필터 삭제]** 삭제할 수 있습니다.
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
+* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
-동적 드롭다운 필터를 마우스 오른쪽 단추로 클릭하면 정적 드롭다운 필터와 동일한 옵션이 제공됩니다.
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
