@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 툴 안내서
 breadcrumb-title: 도구 안내서
 user-guide-description: Analysis Workspace, Analytics 대시보드, Report Builder 및 Activity Map을 포함한 Analytics 도구를 사용하는 방법을 알아봅니다.
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
-workflow-type: ht
-source-wordcount: '1098'
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
+workflow-type: tm+mt
+source-wordcount: '1096'
 ht-degree: 100%
 
 ---
@@ -330,7 +330,6 @@ ht-degree: 100%
    + [현재 데이터](reports-analytics/current-data.md)
    + [대시보드 및 리포트릿](reports-analytics/dashboard.md)
    + [대시보드 관리자](reports-analytics/dashboard-manage.md)
-   + [데이터 추출](reports-analytics/data-extract.md)
    + [유입 경로 보고서](reports-analytics/funnels.md)
    + [지표](reports-analytics/metrics.md)
    + [타겟](reports-analytics/targets.md)

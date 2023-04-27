@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,6 @@ ht-degree: 95%
 + 가상 보고서 세트 {#virtual-report-suites}
    + [가상 보고서 세트 개요](vrs/vrs-about.md)
    + [가상 보고서 세트 - 구성 요소 큐레이션](vrs/vrs-components.md)
-   + [모바일 서비스의 VRS 지원](vrs/vrs-mobile-services.md)
    + [컨텍스트 인식 세션](vrs/vrs-mobile-visit-processing.md)
    + [보고서 처리 시간](vrs/vrs-report-time-processing.md)
    + [A4T 고려 사항](vrs/vrs-a4t.md)
