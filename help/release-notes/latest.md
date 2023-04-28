@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
+source-git-commit: cd727113683be47793829871c64f057dc764f3ef
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 96%
+source-wordcount: '1692'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | **Experience Edge용 IP 난독화** | Experience Edge는 Adobe Experience Platform으로 직접 전송되는 데이터에 대해 IP 난독화를 지원합니다. 이를 통해 CJA 또는 기타 Platform 솔루션에서 사용할 데이터를 Platform으로 직접 전송하는 고객은 혜택을 얻을 수 있습니다. IP 난독화는 데이터 스트림 수준에서 구성됩니다. 마지막 옥텟 또는 전체 IP 주소를 제거할 수 있습니다.<p>**참고**: Adobe Analytics로 전송되는 데이터에는 난독화가 적용되지 않습니다. Analytics는 계속해서 전체 IP를 얻습니다. IP 처리는 Analytics에서 별도로 계속 수행됩니다. 향후 Edge에서의 Analytics 데이터 난독화를 활성화할 계획입니다. | 해당 사항 없음 | 2023년 4월 26일 AEP 릴리스 |
 | **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 29일 |
 | **프로젝트 링크 공유 (로그인 불필요)** | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사람 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람과의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023년 4월 26일(비공개 베타 액세스 전용) | 2023년 6월 |
-| Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서 | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 해당 사항 없음 | 2023년 4월 10일 |
+| **Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서** | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 해당 사항 없음 | 2023년 4월 10일 |
 
 {style="table-layout:auto"}
 
@@ -47,6 +47,7 @@ AN-288373; AN-305144; AN-309023; AN-310466; AN-311686; AN-311705; AN-312018; AN-
 
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
+| **알림: 런던 데이터 센터의 Adobe Analytics 데이터 피드 및 Data Warehouse 헤드에서 사용하는 새 IP** | 2023년 4월 27일 | 데이터 피드 요청 및/또는 Data Warehouse 보고서가 FTP/SFTP 서비스로 전달되는 런던 데이터 센터의 고객의 경우 액세스를 허용하려면 방화벽 구성에 다음 IP 주소 범위를 추가해야 합니다. <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **디바이스 조회 프로세스는 이제 모든 디바이스 조회에 서드파티를 사용합니다** | 2023년 3월 3일 | 2023년 3월 2일 클라이언트 힌트 지원 롤아웃의 일환으로 모든 디바이스 조회에 서드파티를 사용하도록 디바이스 조회 프로세스를 업데이트했습니다. 이전에는 모바일 디바이스 조회에만 서드파티를 사용했습니다. 상기 롤아웃에서 일부 데스크탑 운영 체제에 “모바일”이라는 텍스트가 잘못 표시되어 있습니다(예: “OS X 10.15.7” 대신 “모바일 OS X 10.15.7”).<p>Adobe의 4월 릴리스에서 이들 이름을 수정할 예정입니다. Analytics 및 CJA 보고는 이벤트 데이터의 일부로 기록된 ID를 기반으로 운영 체제 이름을 조회하므로 소급하여 업데이트됩니다. ID에 해당하는 조회 값이 업데이트되면 내역 데이터를 포함하여 모든 보고가 수정됩니다. [!UICONTROL 데이터 피드] 고객의 경우 보고 시 유사한 조회 프로세스를 사용하면 변경이 소급 적용됩니다. 그러나 이벤트 데이터에 운영 체제 값을 저장하면 전향적으로만 보고가 업데이트됩니다. 자세한 내용은 [운영 체제](/help/components/dimensions/operating-systems.md)를 참조하십시오. |
 | **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 2월 27일 | 2023년 2월 16일로 예정되었던 클라이언트 힌트 사용은 힌트를 사용한 디바이스 조회 품질을 더 잘 보장하기 위해 연기되었습니다. 2023년 2월 27일에 클라이언트 힌트 지원을 위한 첫 번째 릴리스 단계가 진행되었습니다. 릴리스의 두 번째이자 마지막 단계는 2023년 3월 2일 목요일에 완료되었습니다. [자세히 알아보기](/help/technotes/client-hints.md) |
 | **분류 세트 아키텍처로 자동 마이그레이션** | 2023년 2월 8일 | Adobe는 앞으로 몇 달 동안 전 조직의 모든 분류를 최신 분류 아키텍처로 마이그레이션할 계획입니다. 마이그레이션할 마지막 고객은 2023년 5월에 발생할 것으로 예상됩니다. 고객 조치가 필요하지 않으며 중단 시간은 예상되지 않습니다. 이러한 새로운 아키텍처에는 다음과 같은 많은 이점이 있습니다.<ul><li>처리 시간 대폭 단축 (72시간 → 24시간)</li><li>[분류 세트](/help/components/classifications/sets/overview.md) UI를 사용하는 기능</li><li>[분류 데이터용 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)를 통해 향후 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션</li></ul>조직 워크플로에 잠재적으로 영향을 줄 수 있는 다음 변경 사항에 유의하십시오.<ul><li>브라우저 또는 FTP 가져오기를 사용하는 경우, &#39;[!UICONTROL 충돌 시 덮어쓰기]&#39;가 항상 활성화됩니다.</li><li>브라우저 또는 FTP 가져오기를 사용할 때 가져오기 직후 내보내기 옵션은 더 이상 지원되지 않습니다.</li><li>Analytics 2.0 API `GetDimensions` 엔드포인트는 이제 숫자 식별자 대신 분류에 대한 문자열 식별자를 반환합니다. 숫자 식별자를 계속 사용할 수 있지만 가능한 경우 새 문자열 식별자를 사용하는 것이 좋습니다. 숫자 식별자는 `?expansion=hidden` 쿼리 문자열 매개변수를 사용하여 검색할 수 있습니다.</li></ul>조직에 대한 보다 구체적인 마이그레이션 일정을 원하거나 이 마이그레이션에 대한 질문/우려 사항이 있는 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/components/classifications/sets/overview.md) |
