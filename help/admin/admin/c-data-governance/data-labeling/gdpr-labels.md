@@ -3,10 +3,10 @@ description: Adobe Analytics 변수에 대한 데이터 개인정보 레이블�
 title: Analytics 변수의 데이터 개인정보 보호 레이블
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
 workflow-type: tm+mt
-source-wordcount: '3558'
-ht-degree: 100%
+source-wordcount: '3578'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,12 @@ ID (I1/I2 레이블의 용도)가 포함된 모든 변수에 ID-DEVICE 또는 ID
    <td colname="col2"> <p>분류를 제외한 모든 변수 </p> </td> 
    <td colname="col3"> <p>모두 </p> </td> 
    <td colname="col4"> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>트래픽 변수 </p> </td> 
+   <td colname="col2"> <p>List Props </p> </td> 
+   <td colname="col3"> <p>없음/S1/S2 </p> </td> 
+   <td colname="col4"> <p>목록 prop은 여러 값을 포함할 수 있으며 개인 정보 식별자로 허용되지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>분류 </p> </td> 
