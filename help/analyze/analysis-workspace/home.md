@@ -1,13 +1,13 @@
 ---
-title: Analysis Workspace란 무엇이며 어떻게 사용할 수 있습니까?
+title: Analysis Workspace 개요
 description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 도구입니다. 여러 다른 기능들이 있지만 특히, 패널, 테이블, 시각화 및 기타 구성 요소를 사용하여 데이터에 생명을 불어넣고, 데이터 세트를 큐레이팅하고, 프로젝트를 공유 및 예약할 수 있습니다.
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 33%
+source-wordcount: '839'
+ht-degree: 36%
 
 ---
 
@@ -64,11 +64,11 @@ Analysis Workspace의 구성 요소는 다음과 같이 구성됩니다.
 
 * 날짜 범위
 
-자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 이러한 각 구성 요소 유형에 대해 자세히 알아보십시오.
+이러한 각 구성 요소 유형에 대한 자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 이러한 각 구성 요소 유형을 시각화(예: 자유 형식 테이블)에 추가하여 비즈니스 질문에 답변할 수 있습니다.
 
-구성 요소 용어를 이해하면 구성 요소를 시각화(자유 형식 테이블 포함)로 끌어서 놓을 수 있습니다. [분석 빌드](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=ko-KR).
+구성 요소 용어를 이해하면 구성 요소를 시각화(자유 형식 테이블 포함)로 끌어서 놓을 수 있습니다. [분석 빌드](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 
@@ -90,17 +90,35 @@ Analysis Workspace에서 분석을 [프로젝트](/help/analyze/analysis-workspa
 
 에 설명된 대로 Analysis Workspace에서 프로젝트를 만들 수 있습니다. [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
+에 설명된 대로 프로젝트를 폴더 및 하위 폴더로 구성할 수 있습니다. [Analysis Workspace의 폴더](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
 ### 프로젝트 저장 및 공유
 
 Analysis Workspace에서 분석을 만들면 작업은 다음과 같습니다 [자동 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 프로젝트 작성을 완료하고 실행 가능한 통찰력을 수집하면 다른 사용자가 프로젝트를 사용할 수 있습니다. 프로젝트를 조직의 사용자 및 그룹이나 조직 외부의 사용자와 공유할 수 있습니다. 프로젝트 공유에 대한 자세한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-### Analysis Workspace에서 프로젝트 관리
+<!--
 
-다음 비디오에서는 Analysis Workspace의 프로젝트 관리에 대한 개요를 제공합니다.
+Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
+
+### Project management in Analysis Workspace
+
+The following video provides an overview of project management in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+-->
+
+## Virtual Analyst를 사용하여 예외 항목을 더 잘 이해합니다
+
+Virtual Analyst는 예측 알고리즘과 기계 학습을 사용하여 비즈니스에 영향을 주는 예외 항목에 대한 통찰력을 제공하는 Adobe Analytics의 기능 세트입니다. Virtual Analyst를 사용하면 가장 일반적이고 비용이 많이 드는 데이터 과학 워크플로를 자동화하여 데이터에서 비정상적인 행동을 유도하는 요인을 식별할 수 있습니다.
+
+Virtual Analyst는 다음 기능으로 구성됩니다.
+
+* [예외 항목 탐지:](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
+* [기여도 분석:](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) 데이터에서 예외 항목에 가장 많이 기여하는 요인을 판별하는 데 도움이 됩니다.
+* [지능형 경고:](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) 데이터의 예외 항목을 미리 식별하고 알림으로써 보다 신속하게 통찰력을 얻을 수 있습니다.
 
 ## 추가 리소스 {#resources}
 

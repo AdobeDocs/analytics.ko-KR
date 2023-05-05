@@ -3,7 +3,7 @@ description: Analysis Workspace에서 프로젝트를 만드는 기본 사항을
 title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # 프로젝트 만들기
 
-[프로젝트](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) Analysis Workspace에서 조직 내부 또는 외부의 이해 관계자와 공유할 수 있는 비즈니스 크리티컬 데이터를 표면화할 수 있습니다.
+[프로젝트](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) Analysis Workspace에서 조직 내부 또는 외부의 이해 관계자와 공유할 수 있는 비즈니스 크리티컬 분석을 볼 수 있습니다.
 
 Analysis Workspace 사용을 시작하는 방법에 대한 일반적인 내용은 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md).
 
@@ -73,7 +73,7 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 
 >[!TIP]
 >
->자유 형식 테이블은 시각화의 가장 일반적인 유형이며, 대화형 데이터 분석을 위한 기반입니다. Analysis Workspace에서 자유 형식 테이블로 작업하는 방법에 대한 자세한 내용은 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>자유 형식 테이블은 가장 일반적인 시각화 유형이며 대화형 데이터 분석을 위한 기반입니다. Analysis Workspace에서 자유 형식 테이블로 작업하는 방법에 대한 자세한 내용은 [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 시각화를 추가하려면:
 

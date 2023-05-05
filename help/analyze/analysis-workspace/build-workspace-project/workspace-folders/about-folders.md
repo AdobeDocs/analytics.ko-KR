@@ -4,14 +4,14 @@ keywords: Analysis Workspace
 title: 폴더 개요
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 00c52c345be15522cd8f2aa30ab214ec05dc6575
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Analytics의 폴더 정보
+# Analysis Workspace의 폴더
 
 Analytics의 폴더는 Adobe Analytics 랜딩 페이지에서 **작업 영역** > **프로젝트**&#x200B;를 선택하는 경우 표시되는 폴더 관리 시스템입니다.
 
