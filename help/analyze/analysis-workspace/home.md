@@ -4,9 +4,9 @@ description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '749'
 ht-degree: 33%
 
 ---
@@ -94,7 +94,7 @@ Analysis Workspace에서 분석을 [프로젝트](/help/analyze/analysis-workspa
 
 Analysis Workspace에서 분석을 만들면 작업은 다음과 같습니다 [자동 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-프로젝트 작성을 완료하고 실행 가능한 통찰력을 모으면 다른 사람이 사용할 수 있습니다. 프로젝트를 조직의 사용자 및 그룹이나 조직 외부의 사용자와 공유할 수 있습니다. 프로젝트 공유에 대한 자세한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+프로젝트 작성을 완료하고 실행 가능한 통찰력을 수집하면 다른 사용자가 프로젝트를 사용할 수 있습니다. 프로젝트를 조직의 사용자 및 그룹이나 조직 외부의 사용자와 공유할 수 있습니다. 프로젝트 공유에 대한 자세한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Analysis Workspace에서 프로젝트 관리
 
