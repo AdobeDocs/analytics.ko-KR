@@ -4,10 +4,10 @@ description: Analysis Workspace는 Adobe Analytics를 위한 최고의 분석 �
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 36%
+source-wordcount: '732'
+ht-degree: 31%
 
 ---
 
@@ -97,28 +97,6 @@ Analysis Workspace에서 분석을 [프로젝트](/help/analyze/analysis-workspa
 Analysis Workspace에서 분석을 만들면 작업은 다음과 같습니다 [자동 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 프로젝트 작성을 완료하고 실행 가능한 통찰력을 수집하면 다른 사용자가 프로젝트를 사용할 수 있습니다. 프로젝트를 조직의 사용자 및 그룹이나 조직 외부의 사용자와 공유할 수 있습니다. 프로젝트 공유에 대한 자세한 내용은 [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
-<!--
-
-Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
-
-### Project management in Analysis Workspace
-
-The following video provides an overview of project management in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
-
--->
-
-## Virtual Analyst를 사용하여 예외 항목을 더 잘 이해합니다
-
-Virtual Analyst는 예측 알고리즘과 기계 학습을 사용하여 비즈니스에 영향을 주는 예외 항목에 대한 통찰력을 제공하는 Adobe Analytics의 기능 세트입니다. Virtual Analyst를 사용하면 가장 일반적이고 비용이 많이 드는 데이터 과학 워크플로를 자동화하여 데이터에서 비정상적인 행동을 유도하는 요인을 식별할 수 있습니다.
-
-Virtual Analyst는 다음 기능으로 구성됩니다.
-
-* [예외 항목 탐지:](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 이전 데이터에 관해 주어진 지표가 변경되는 방법을 결정하는 통계적 방법을 제공합니다.
-* [기여도 분석:](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) 데이터에서 예외 항목에 가장 많이 기여하는 요인을 판별하는 데 도움이 됩니다.
-* [지능형 경고:](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) 데이터의 예외 항목을 미리 식별하고 알림으로써 보다 신속하게 통찰력을 얻을 수 있습니다.
 
 ## 추가 리소스 {#resources}
 

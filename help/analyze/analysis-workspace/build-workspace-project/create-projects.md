@@ -3,9 +3,9 @@ description: Analysis Workspace에서 프로젝트를 만드는 기본 사항을
 title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,9 @@ Analysis Workspace에서 제공되는 많은 패널은 몇 개의 사용자 입�
 
 1. 추가할 구성 요소를 검색합니다. 왼쪽 레일에 나타나면 프로젝트 내의 패널 또는 시각화로 드래그합니다.
 
-### 프로젝트를 저장하고 공유
+1. (선택 사항) 다음에 설명된 대로 프로젝트를 공유합니다. [프로젝트를 저장하고 공유](#save-and-share-the-project).
+
+## 프로젝트를 저장하고 공유
 
 Analysis Workspace에서 분석을 만들면 작업은 다음과 같습니다 [자동 저장](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 

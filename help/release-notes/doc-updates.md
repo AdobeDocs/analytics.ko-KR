@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4008'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 0%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 5월** |  |
+| Analysis Workspace 개요 | 업데이트됨 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md) 더 일반적인 개요 정보 및 관련 컨텐츠에 대한 링크를 포함하도록 업데이트되고 수정되었습니다. |
+| 프로젝트 만들기 | 다음 방법을 자세히 설명하는 새 문서를 만들었습니다. [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) Analysis Workspace. |
 | **2023년 4월** |  |
 | 사용자 자산 이전 및 계정 만료 설정 | 방법에 대한 정보가 추가되었습니다 [사용자 자산 전송 및 계정 만료 설정](/help/admin/admin/user-management2/users-assets.md). |
 | Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서 | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
