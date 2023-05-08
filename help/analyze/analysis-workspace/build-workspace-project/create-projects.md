@@ -3,9 +3,9 @@ description: Analysis Workspace에서 프로젝트를 만드는 기본 사항을
 title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '685'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반적인 내용�
 
    +++빈 프로젝트 만들기
 
-   1. 을(를) 선택합니다 [!UICONTROL **프로젝트**] 탭을 선택하고 [!UICONTROL **프로젝트 만들기**].
+   1. 설정 [!UICONTROL **작업 공간**] 탭에서 을 선택합니다 [!UICONTROL **프로젝트**] 페이지의 왼쪽에 있는 탭에서 을 선택합니다 [!UICONTROL **프로젝트 만들기**].
 
    1. 빈 프로젝트를 만드는지 빈 모바일 스코어카드를 만드는지 선택합니다
 
@@ -38,7 +38,7 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반적인 내용�
 
    +++템플릿에서 프로젝트 만들기
 
-   1. 을(를) 선택합니다 [!UICONTROL **보고서**] 탭.
+   1. 설정 [!UICONTROL **작업 공간**] 탭에서 을 선택합니다 [!UICONTROL **보고서**] 페이지의 왼쪽에 있는 탭입니다.
 
    1. 사용할 템플릿을 검색하거나 해당 템플릿으로 이동한 다음 표시될 때 선택합니다.
 
