@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 55%
+source-wordcount: '1797'
+ht-degree: 53%
 
 ---
 
@@ -125,6 +125,8 @@ ht-degree: 55%
 >* 와 공유하는 사용자는 [큐레이션](curate.md).
 > 
 >* 와 공유하는 사용자는 프로젝트 날짜 범위를 변경할 수 있습니다. 기본적으로 프로젝트에 대해 설정한 날짜 범위가 표시됩니다.
+>
+>* 많은 사용자가 동시에 주어진 링크에 액세스하려고 하면 프로젝트에 액세스할 수 없게 될 수 있습니다. 기본적으로 5분마다 1개의 링크에 액세스할 수 있는 사용자는 190명 이상입니다. 조직이 이 제한에 도달하는 경우 5분을 기다린 다음 링크에 다시 액세스해 보십시오.
 
 
 Adobe Analytics에 액세스할 수 없는 사람과 Analysis Workspace 프로젝트를 공유하려면 다음을 수행하십시오.
