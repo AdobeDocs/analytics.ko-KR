@@ -3,16 +3,16 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 556a8fefa2a5515437ab4b95fc08dde32756ef68
+source-git-commit: d1fd0aa0312b8fb6112cde22a53c58eb3be791a2
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 93%
+source-wordcount: '1239'
+ht-degree: 62%
 
 ---
 
-# 현재 Adobe Analytics 릴리스 정보 (2023년 4월)
+# 현재 Adobe Analytics 릴리스 정보 (2023년 5월)
 
-**마지막 업데이트**: 2023년 4월 21일
+**마지막 업데이트**: 2023년 5월 8일
 
 Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 [연속 게재 모델](releases.md)에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
@@ -21,27 +21,18 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **비프로덕션 샌드박스용 채우기** | 비프로덕션 샌드박스에서 Analytics 소스 커넥터 데이터 흐름을 생성할 때 비프로덕션 샌드박스의 채우기는 3개월로 제한됩니다. 프로덕션 샌드박스의 경우 13개월로 유지됩니다. | 해당 사항 없음 | 2023년 4월 26일 |
-| **Analytics 소스 커넥터 스트리밍을 위한 행/열 필터링** | 이제 Adobe Experience Platform의 Analytics 소스 커넥터를 통해 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)에 프로필을 채우는 데 사용되는 Analytics 데이터를 필터링할 수 있습니다. 행 수준 필터링은 프로필과 관련된 이벤트 수를 줄이는 데 도움이 됩니다. 열 수준 필터링은 이벤트 자체의 내용을 줄이는 데 도움이 되므로 프로필 자격 사용을 최적화할 수 있습니다. 이 필터링은 실시간 고객 프로필 및 [ID 서비스](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko)로 전송된 데이터에만 적용됩니다. **필터링은 Customer Journey Analytics와 같은 애플리케이션에서 사용하기 위해 데이터 레이크로 전송되는 데이터에 영향을 미치지 않습니다**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko#filtering-for-profile) | 해당 사항 없음 | 2023년 3월 29일 |
-| **Web SDK로 Activity Map 부분 지원** | Web SDK 버전 2.15.0부터는 링크 추적이 활성화되면 Activity Map 데이터를 채우게 됩니다. 이를 통해 Web SDK 사용자는 Analytics에서 구성된 Web SDK 및 Activity Map으로 링크 추적을 활성화한 경우 Activity Map 보고서를 받을 수 있습니다.<p>Web SDK로 링크 추적을 활성화하면 현재 고객이 하나의 페이지에서 다음 페이지로 이동할 때 링크 이벤트를 전송합니다. 이는 AppMeasurement가 작동하는 방식과 다르며 잠재적으로 Adobe로 전송되는 추가 청구 가능 히트를 초래할 수 있습니다. [여기](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 및 [여기](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)에서 자세히 알아보십시오. | 해당 사항 없음 | 2023년 3월 31일 |
-| **Experience Edge용 IP 난독화** | Experience Edge는 Adobe Experience Platform으로 직접 전송되는 데이터에 대해 IP 난독화를 지원합니다. 이를 통해 CJA 또는 기타 Platform 솔루션에서 사용할 데이터를 Platform으로 직접 전송하는 고객은 혜택을 얻을 수 있습니다. IP 난독화는 데이터 스트림 수준에서 구성됩니다. 마지막 옥텟 또는 전체 IP 주소를 제거할 수 있습니다.<p>**참고**: Adobe Analytics로 전송되는 데이터에는 난독화가 적용되지 않습니다. Analytics는 계속해서 전체 IP를 얻습니다. IP 처리는 Analytics에서 별도로 계속 수행됩니다. 향후 Edge에서의 Analytics 데이터 난독화를 활성화할 계획입니다. | 해당 사항 없음 | 2023년 4월 26일 AEP 릴리스 |
-| **Analysis Workspace의 데이터 사전** | 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소(차원, 지표)를 추적하고 관리하고 더 잘 이해할 수 있습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023년 3월 15일 | 2023년 3월 29일 |
-| **프로젝트 링크 공유 (로그인 불필요)** | <p>이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사람 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람과의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 |
-| **Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서** | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 해당 사항 없음 | 2023년 4월 10일 |
+| **프로젝트 링크 공유 (로그인 불필요)** | 이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사람 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람과의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)<p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 |
+| **Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면이 업데이트되었습니다** | 새로 업데이트된 홈 화면에서 하나의 통합 스코어카드 목록에서 모든 스코어카드를 볼 수 있습니다.  한 번의 로그인으로 두 개 이상의 조직에 액세스할 수 있는 경우 조직의 모든 스코어카드를 단일 목록에서 사용할 수 있습니다. | 해당 사항 없음 | 2023년 5월 10일 |
+| **Analysis Workspace에서 구성 요소 정렬** | 이제 왼쪽 레일이나 Analysis Workspace의 데이터 사전에서 구성 요소를 볼 때 새 정렬 옵션을 사용할 수 있습니다. 구성 요소를 권장(가장 일반적으로 사용되는 항목), 알파벳 또는 카테고리적(유형)별로 정렬할 수 있습니다.<p>이전에는 구성 요소를 검색하거나 필터링할 수만 있었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 해당 사항 없음 | 2023년 5월 10일 |
+| **자유 형식 테이블에서 동적 차원이 포함된 행 삭제** | 이제 Analysis Workspace의 자유 형식 테이블에서 x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제할 수 있습니다. 이 경우 &quot;다음과 같지 않음&quot; 필터 규칙이 자동으로 적용됩니다.<p>이전에는 동적 차원이 포함된 행을 삭제하는 유일한 방법은 필터 대화 상자에서 규칙을 수동으로 만드는 것이었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 해당 사항 없음 | 2023년 5월 10일 |
+| **패널 내에 시각화를 추가하는 새 단추** | 이제 Analysis Workspace의 각 패널 하단에 새 단추를 사용할 수 있으므로 시각화를 빠르게 추가할 수 있습니다. <p>이전에는 시각화를 패널에 추가하는 유일한 방법은 왼쪽 레일에서 시각화를 드래그하거나 기존 시각화를 복제하거나 복사하거나 빈 패널을 만드는 것이었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#quick-viz)</p> | 해당 사항 없음 | 2023년 5월 10일 |
+| **딥 링크(모바일 앱)** | 사용자가 앱의 스코어카드 프로젝트로 바로 안내하는 스코어카드에 대한 링크를 전송할 수 있습니다. 따라서 프로젝트를 보다 쉽게 공유하고 기술적인 지식이 부족한 대상으로부터의 참여를 늘릴 수 있습니다. | TBD | TBD |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics의 수정 사항
 
-* 데이터 피드의 Operating System.tsv 조회 파일 관련 문제가 해결되었습니다.
-* Reports &amp; Analytics와 Workspace 간에 지표 값이 다른 문제가 해결되었습니다(AN-315965).
-* 부분 분류를 가져올 수 없는 문제가 해결되었습니다. (AN-315854)
-* Analytics API 1.4 관련 문제가 해결되었습니다. (AN-316475)
-* 일부 고객이 Report Builder 및 Report &amp; Analytics를 통해 페이지 차원에 대한 분류를 가져오지 못하는 문제가 해결되었습니다. (AN-314445)
-* 경고를 전송할 수 없는 문제가 해결되었습니다. (AN-306457)
-
-### 기타 수정 사항
-
-AN-288373; AN-305144; AN-309023; AN-310466; AN-311686; AN-311705; AN-312018; AN-312105; AN-312116; AN-312191; AN-312502; AN-312737; AN-312854; AN-312991; AN-313253; AN-313275; AN-313278; AN-313282; AN-313365; AN-313390; AN-313547; AN-313549; AN-313818; AN-313986; AN-314080; AN-314248; AN-314251; AN-314262; AN-314300; AN-314309; AN-314448; AN-314643; AN-314564; AN-314645; AN-314705; AN-314761; AN-314831; AN-314919; AN-314948; AN-315032; AN-315115; AN-315154; AN-315158; AN-315321; AN-315375; AN-315379; AN-315392; AN-315407; AN-315427; AN-315582; AN-315591; AN-315699; AN-315700; AN-315704; AN-315705; AN-315777; AN-315923; AN-316237; AN-316243; AN-316324; AN-316415; AN-316474; AN-316493; AN-316596; AN-316864;
+AN-312098; AN-318309; AN-316675; AN-318173; AN-310359; AN-317613; AN-318836; AN-315744; AN-311772; AN-318719; AN-314074; AN-316651<!--"Verified" status-->; AN-318602; AN-315961; AN-317534; AN-318607; AN-316498; AN-316648; AN-318244; AN-317747; AN-318432; AN-318231; AN-317590; AN-318415; AN-318154; AN-316647; N-314417; AN-317614; AN-317725; AN-318114; AN-317876; AN-318052; AN-317966; AN-316477; AN-318036; AN-317931; AN-318045; AN-316246; AN-317281; AN-317879; AN-308077; AN-317708; AN-316115; AN-315963
 
 ## Adobe Analytics 관리자에 대한 중요 공지 {#admin}
 
@@ -49,8 +40,6 @@ AN-288373; AN-305144; AN-309023; AN-310466; AN-311686; AN-311705; AN-312018; AN-
 | ----------- | ---------- | ---------- |
 | **알림: 런던 데이터 센터의 Adobe Analytics 데이터 피드 및 Data Warehouse 헤드에서 사용하는 새 IP** | 2023년 4월 27일 | 데이터 피드 요청 및/또는 Data Warehouse 보고서가 FTP/SFTP 서비스로 전달되는 런던 데이터 센터의 고객의 경우 액세스를 허용하려면 방화벽 구성에 다음 IP 주소 범위를 추가해야 합니다. <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **디바이스 조회 프로세스는 이제 모든 디바이스 조회에 서드파티를 사용합니다** | 2023년 3월 3일 | 2023년 3월 2일 클라이언트 힌트 지원 롤아웃의 일환으로 모든 디바이스 조회에 서드파티를 사용하도록 디바이스 조회 프로세스를 업데이트했습니다. 이전에는 모바일 디바이스 조회에만 서드파티를 사용했습니다. 상기 롤아웃에서 일부 데스크탑 운영 체제에 “모바일”이라는 텍스트가 잘못 표시되어 있습니다(예: “OS X 10.15.7” 대신 “모바일 OS X 10.15.7”).<p>Adobe의 4월 릴리스에서 이들 이름을 수정할 예정입니다. Analytics 및 CJA 보고는 이벤트 데이터의 일부로 기록된 ID를 기반으로 운영 체제 이름을 조회하므로 소급하여 업데이트됩니다. ID에 해당하는 조회 값이 업데이트되면 내역 데이터를 포함하여 모든 보고가 수정됩니다. [!UICONTROL 데이터 피드] 고객의 경우 보고 시 유사한 조회 프로세스를 사용하면 변경이 소급 적용됩니다. 그러나 이벤트 데이터에 운영 체제 값을 저장하면 전향적으로만 보고가 업데이트됩니다. 자세한 내용은 [운영 체제](/help/components/dimensions/operating-systems.md)를 참조하십시오. |
-| **Google 클라이언트 힌트로 인한 디바이스 조회 업데이트** | 2023년 2월 27일 | 2023년 2월 16일로 예정되었던 클라이언트 힌트 사용은 힌트를 사용한 디바이스 조회 품질을 더 잘 보장하기 위해 연기되었습니다. 2023년 2월 27일에 클라이언트 힌트 지원을 위한 첫 번째 릴리스 단계가 진행되었습니다. 릴리스의 두 번째이자 마지막 단계는 2023년 3월 2일 목요일에 완료되었습니다. [자세히 알아보기](/help/technotes/client-hints.md) |
-| **분류 세트 아키텍처로 자동 마이그레이션** | 2023년 2월 8일 | Adobe는 앞으로 몇 달 동안 전 조직의 모든 분류를 최신 분류 아키텍처로 마이그레이션할 계획입니다. 마이그레이션할 마지막 고객은 2023년 5월에 발생할 것으로 예상됩니다. 고객 조치가 필요하지 않으며 중단 시간은 예상되지 않습니다. 이러한 새로운 아키텍처에는 다음과 같은 많은 이점이 있습니다.<ul><li>처리 시간 대폭 단축 (72시간 → 24시간)</li><li>[분류 세트](/help/components/classifications/sets/overview.md) UI를 사용하는 기능</li><li>[분류 데이터용 Adobe Analytics 소스 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)를 통해 향후 Adobe Experience Platform에서 분류 데이터를 사용하는 옵션</li></ul>조직 워크플로에 잠재적으로 영향을 줄 수 있는 다음 변경 사항에 유의하십시오.<ul><li>브라우저 또는 FTP 가져오기를 사용하는 경우, &#39;[!UICONTROL 충돌 시 덮어쓰기]&#39;가 항상 활성화됩니다.</li><li>브라우저 또는 FTP 가져오기를 사용할 때 가져오기 직후 내보내기 옵션은 더 이상 지원되지 않습니다.</li><li>Analytics 2.0 API `GetDimensions` 엔드포인트는 이제 숫자 식별자 대신 분류에 대한 문자열 식별자를 반환합니다. 숫자 식별자를 계속 사용할 수 있지만 가능한 경우 새 문자열 식별자를 사용하는 것이 좋습니다. 숫자 식별자는 `?expansion=hidden` 쿼리 문자열 매개변수를 사용하여 검색할 수 있습니다.</li></ul>조직에 대한 보다 구체적인 마이그레이션 일정을 원하거나 이 마이그레이션에 대한 질문/우려 사항이 있는 경우 Adobe 고객 지원 센터에 문의하십시오. [자세히 알아보기](/help/components/classifications/sets/overview.md) |
 
 {style="table-layout:auto"}
 
