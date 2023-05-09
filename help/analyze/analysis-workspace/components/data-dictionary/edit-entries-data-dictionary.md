@@ -3,10 +3,11 @@ description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승�
 title: 데이터 사전의 항목 편집
 feature: Components
 role: Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
+source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 75%
+source-wordcount: '313'
+ht-degree: 70%
 
 ---
 
@@ -31,6 +32,10 @@ Analytics 관리자는 지정된 보고서 세트에 대한 데이터 사전의 
    구성 요소 유형은 색상과 아이콘을 모두 사용하여 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](assets/dimension-icon.png) 주황색이고, **세그먼트** ![세그먼트 아이콘](assets/segment-icon.png) 파란색, **날짜 범위** ![날짜 범위 아이콘](assets/date-range-icon.png) 보라색이고 **지표** ![지표 아이콘](assets/default-metric-icon.png) 녹색입니다. Adobe 아이콘 ![Adobe 아이콘](assets/default-calc-metric-icon.png) 계산된 지표 템플릿 또는 세그먼트 템플릿과 계산기 아이콘을 나타냅니다 ![계산기 아이콘](assets/calculated-metric-icon-created.png) 조직의 Analytics 관리자가 만든 계산된 지표를 표시합니다.
 
 {{dd-filter-criteria}}
+
+1. (선택 사항) **정렬** 아이콘 ![구성 요소 정렬 아이콘](assets/component-sort-icon.png)을 선택한 다음, 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+
+   {{components-sort-options}}
 
 1. 구성 요소 목록에서 편집할 구성 요소를 선택합니다.
 

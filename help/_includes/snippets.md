@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # 스니펫
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **작성자**] | 구성 요소를 생성한 사용자 이름을 표시합니다. |
 | [!UICONTROL **미리보기**] | Analysis Workspace에서 구성 요소가 어떻게 보이는지 미리보기를 표시합니다. |
 | [!UICONTROL **마지막 수정일**] | 구성 요소가 마지막으로 수정된 날짜를 표시합니다. 이 섹션은 세그먼트, 계산된 지표 및 날짜 범위를 볼 때 표시됩니다. |
+
+{style="table-layout:auto"}
+
+## 구성 요소 정렬 옵션 {#components-sort-options}
+
+| 옵션 | 함수 |
+|---------|----------|
+| [!UICONTROL **권장**] | 목록의 맨 위에서 권장되는 구성 요소와 함께 구성 요소를 정렬합니다. 가장 자주 사용하는 구성 요소는 사용자 또는 조직의 다른 사용자가 가장 최근에 사용한 구성 요소보다 더 높게 표시됩니다. |
+| [!UICONTROL **알파벳**] | 구성 요소를 알파벳순으로 정렬합니다. |
+| [!UICONTROL **카테고리적**] | 구성 요소 유형(차원, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
 
 {style="table-layout:auto"}
 
