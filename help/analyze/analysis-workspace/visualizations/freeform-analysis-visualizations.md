@@ -5,10 +5,10 @@ title: 시각화 개요
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 99%
+source-wordcount: '1280'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,7 @@ ht-degree: 99%
 
 작업 영역에서는 막대 차트, 도넛 차트, 히스토그램, 선 차트, 맵, 산점도 등과 같은 데이터를 시각적으로 나타낼 수 있도록 해 주는 다양한 시각화를 제공합니다. Adobe Analytics를 사용하는 경우 대부분의 시각화 유형이 익숙할 것입니다. 그렇지만 Analysis Workspace에서는 시각화 설정을 비롯하여 대화형 기능이 포함된 여러 개의 고유한 새 시각화 유형을 제공합니다.
 
-Workspace의 왼쪽 상단 아이콘, [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR) 또는 워크플로의 마우스 오른쪽 버튼 클릭 메뉴를 통해 시각화에 액세스할 수 있습니다.
-
-![](assets/viz-rail.png)
+## 시각화 유형
 
 Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 
@@ -34,6 +32,7 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [자유 형식 테이블](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 자유 형식 테이블은 데이터 테이블일 뿐만 아니라 대화형 시각화이기도 합니다. 작업 영역에서의 데이터 분석을 위한 기초입니다. |
 | [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md) | 히스토그램은 지표 볼륨을 기반으로 방문자, 방문 또는 히트를 버킷으로 버킷화합니다. |
 | [가로 막대형](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 하나 이상 지표에서 다양한 값을 나타내는 가로 막대를 표시합니다. |
+| [주요 지표 요약](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 단일 기간 내에서 지표가 어떻게 트렌드를 표시하는지 표시하거나 두 개의 시간대에 걸쳐 지표 성능을 비교할 수 있습니다. |
 | [라인](/help/analyze/analysis-workspace/visualizations/line.md) | 일정 기간 동안 값이 어떻게 변하는지를 보여 주기 위해 라인을 사용하여 지표를 나타냅니다. 꺾은선형 차트는 x축을 따라 시간을 사용합니다. |
 | [맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 모든 지표(계산된 지표 포함)의 시각적 맵을 작성할 수 있도록 해 줍니다. |
 | [산포도](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 차원 항목과 최대 3개 지표 간의 관계를 표시합니다. |
@@ -42,6 +41,26 @@ Analysis Workspace에서 다음 시각화 유형을 사용할 수 있습니다.
 | [텍스트](/help/analyze/analysis-workspace/visualizations/text.md) | 사용자 정의 텍스트를 Analysis Workspace에 추가할 수 있게 합니다. 패널/시각화 설명을 활용하는 것 외에도 여러분의 분석 및 통찰력에 추가 컨텍스트를 추가하는 데 유용합니다. |
 | [트리맵](/help/analyze/analysis-workspace/visualizations/treemap.md) | 계층형 (트리 구조) 데이터를 중첩된 직사각형 세트로 표시합니다. |
 | [벤](/help/analyze/analysis-workspace/visualizations/venn.md) | 원을 사용하여 최대 3개 세그먼트의 지표 겹침을 나타냅니다. |
+
+## 패널에 시각화 추가
+
+1. 시각화를 추가할 Analysis Workspace 프로젝트를 엽니다.
+
+1. 다음 방법 중 하나를 사용하여 시각화를 추가합니다.
+
+   * 왼쪽 레일에서 를 선택합니다. **시각화** 아이콘 <!-- add icon -->을 클릭한 다음 시각화를 추가할 패널로 드래그합니다.
+
+      ![](assets/viz-rail.png)
+
+   * 시각화를 추가할 패널에서 **플러스** 아이콘을 클릭한 다음 추가할 시각화를 나타내는 아이콘을 선택합니다. 각 시각화의 아이콘 위로 마우스를 가져가면 해당 이름이 표시됩니다.
+
+      ![시각화 추가 단추](assets/visualization-add-to-panel.png)
+
+   * 추가 [빈 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ko-KR)을 선택하고 추가할 시각화를 선택합니다.
+
+      ![빈 패널](assets/blank_panel.png)
+
+   * Analysis Workspace 프로젝트에서 기존 패널을 마우스 오른쪽 단추로 클릭한 다음 을 선택합니다 [!UICONTROL **중복 시각화**] 또는 [!UICONTROL **시각화 복사**].
 
 ## 시각화 설정 맞춤화
 
