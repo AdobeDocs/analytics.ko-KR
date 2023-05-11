@@ -3,9 +3,9 @@ description: Analysis Workspace에서 프로젝트를 만드는 기본 사항을
 title: 프로젝트 만들기
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반적인 내용�
 
 다음 섹션에서는 프로젝트를 만들고 모든 Analysis Workspace 프로젝트의 주요 빌딩 블록을 추가하는 방법에 대해 설명합니다. 패널, 시각화 및 구성 요소.
 
-## 빈 프로젝트 또는 템플릿에서 프로젝트 만들기
+## 빈 프로젝트 또는 보고서에서 프로젝트를 만듭니다
 
 1. Adobe Analytics에서 [!UICONTROL **작업 공간**].
 
-1. 빈 프로젝트를 만들지 아니면 템플릿에서 프로젝트를 생성할지 선택합니다.
+1. 빈 프로젝트를 만들지 또는 보고서에서 프로젝트를 생성할지를 선택합니다.
 
    +++빈 프로젝트 만들기
 
@@ -36,15 +36,15 @@ Analysis Workspace 사용을 시작하는 방법에 대한 일반적인 내용�
 
 +++
 
-   +++템플릿에서 프로젝트 만들기
+   +++보고서에서 프로젝트 만들기
 
    1. 설정 [!UICONTROL **작업 공간**] 탭에서 을 선택합니다 [!UICONTROL **보고서**] 페이지의 왼쪽에 있는 탭입니다.
 
-   1. 사용할 템플릿을 검색하거나 해당 템플릿으로 이동한 다음 표시될 때 선택합니다.
+   1. 사용할 보고서를 검색하거나 해당 보고서로 이동한 다음, 표시될 때 선택합니다.
 
-      표준 템플릿 세트는 기본적으로 사용할 수 있습니다. 또한, 조직에서 사용자가 선택할 수 있는 사용자 지정 템플릿을 만들 수도 있습니다.
+      표준 보고서 세트는 기본적으로 사용할 수 있습니다. 또한, 조직에서 선택하도록 사용자 지정 보고서를 생성했을 수 있습니다.
 
-      자세한 내용은 [Reports &amp; Analytics 시작하기](/help/analyze/reports-analytics/getting-started.md).
+      자세한 내용은 [Adobe Analytics 랜딩 페이지](/help/analyze/landing.md).
 +++
 
 1. 그런 다음 패널, 시각화 및 구성 요소를 프로젝트에 추가해야 합니다. 먼저 다음에 설명된 대로 Analysis Workspace에서 프로젝트에 패널을 추가합니다 [프로젝트에 패널 추가](#add-panels-to-the-project). 그런 다음 패널에 시각화를 추가할 수 있습니다. 마지막으로, 패널 또는 시각화에 구성 요소를 추가할 수 있습니다.
