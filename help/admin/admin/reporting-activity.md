@@ -4,18 +4,16 @@ title: 활동 관리자 보고
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 94%
 
 ---
 
 # 활동 관리자 보고
 
->[!NOTE]
->
->이 기능은 현재 Beta 테스트가 실시되고 있습니다.
+{{release-limited-testing}}
 
 [!UICONTROL 보고 활동 관리자]를 사용하면 조직의 각 보고서 세트에 대한 보고 용량을 확인할 수 있습니다. 관리자는 보고 사용량에 대해 상세한 가시성을 제공하며 최대 보고 시간 동안 발생할 수 있는 용량 문제를 쉽게 진단하고 해결할 수 있도록 해 줍니다.
 
@@ -64,13 +62,13 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 ![보고서 세트](/help/admin/admin/assets/indiv-report-ste.png)
 
-### 선 그래프
+### 선 그래프 {#line}
 
 선 그래프는 선택한 보고서 세트에 대한 지난 2시간 동안의 보고 활동을 보여 줍니다.
 
 * x축은 지난 2시간 동안의 보고 용량 데이터를 보여 줍니다.
-* y축은 쿼리의 평균 대기 시간을 초 단위로 표시합니다.
-* 선 차트 위로 마우스를 가져가면 특정 시점 및 해당 시점의 평균 대기 시간을 볼 수 있습니다.
+* Y축은 선택한 보고서 세트에 대한 보고 사용 능력 %를 분 단위로 보여줍니다.
+* 라인 차트 위로 마우스를 가져가면 표시되는 사용 용량 비율이 해당 분에 대해 가장 높은 %가 되는 시간을 볼 수 있습니다.
 
    ![세부 정보](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 ![필터링](/help/admin/admin/assets/filter.png)
 
-### 요약 번호
+### 요약 번호 {#summary}
 
 ![필터링](/help/admin/admin/assets/summary_numbers.png)
 
@@ -96,9 +94,9 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 {style="table-layout:auto"}
 
-### 표
+### 보고서 세트 세부 사항에 대한 표 {#details}
 
-아래의 자세한 표에는 다음이 표시됩니다. 보고서 세트의 세부 정보.
+아래 세부 표에서는 보고서 세트에 대한 세부 사항을 보여줍니다.
 
 | 열 | 설명 |
 | --- | --- |
@@ -116,7 +114,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 {style="table-layout:auto"}
 
-## 보고 요청 취소
+## 보고 요청 취소 {#cancel}
 
 요청을 취소하려면
 
@@ -133,7 +131,7 @@ Adobe Analytics에서 관리자 권한으로 **[!UICONTROL 관리]** > **[!UICON
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
-## FAQ
+## FAQ {#faq}
 
 | 질문 | 답변 |
 | --- | --- |
