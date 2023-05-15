@@ -3,9 +3,10 @@ description: Analysis Workspace의 데이터 사전을 사용하면 용도, 승�
 title: 데이터 사전 개요
 feature: Components
 role: User, Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
+source-git-commit: daa5a5ccfb6642c97e0f391eba6226d365caa06c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
@@ -15,6 +16,8 @@ ht-degree: 100%
 Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다.
 
 Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를 구성하고 사용자가 사용할 수 있도록 해야 합니다.
+
+![VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
 ## 사용자를 위한 이점
 
