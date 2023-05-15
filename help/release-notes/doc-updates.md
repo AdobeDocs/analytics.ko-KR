@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
 source-wordcount: '4121'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 95%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 5월** |  |
-| Analysis Workspace 개요 | 업데이트됨 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md) 더 일반적인 개요 정보 및 관련 컨텐츠에 대한 링크를 포함하도록 업데이트되고 수정되었습니다. |
-| 프로젝트 만들기 | 다음 방법을 자세히 설명하는 새 문서를 만들었습니다. [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) Analysis Workspace. |
+| Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)가 업데이트되었습니다. |
+| 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
 | 왼쪽 레일에서 구성 요소 정렬 | 왼쪽 레일에서 구성 요소 목록을 정렬하는 방법에 대한 정보를 추가했습니다.의 &quot;구성 요소 목록 검색, 필터링 및 정렬&quot; 섹션을 참조하십시오 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제하는 방법에 대한 정보가 추가되었습니다. 의 &quot;테이블에서 특정 행 빠르게 제외&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | 패널 내에 시각화를 추가하는 단추 | Analysis Workspace의 각 패널 하단에 시각화를 빠르게 추가할 수 있는 새 버튼에 대한 정보가 추가되었습니다. 의 &quot;패널에 시각화 추가&quot; 섹션을 참조하십시오 [시각화 개요](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023년 4월** |  |
-| 사용자 자산 이전 및 계정 만료 설정 | 방법에 대한 정보가 추가되었습니다 [사용자 자산 전송 및 계정 만료 설정](/help/admin/admin/user-management2/users-assets.md). |
+| 사용자 자산 전송 및 계정 만료 설정 | [사용자 자산을 전송하고 계정 만료를 설정](/help/admin/admin/user-management2/users-assets.md)하는 방법에 대한 정보가 추가되었습니다. |
 | Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서 | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | 프로젝트 세그먼트 (애드혹 및 빠른 세그먼트) | 프로젝트 세그먼트에 대한 문서가 간소화되고 중복된 정보가 제거되었습니다. 애드혹 세그먼트를 만드는 단계는 이제 [빠른 세그먼트를 만드는 단계](/help/analyze/analysis-workspace/components/segments/quick-segments.md)와 결합됩니다. |
-| 동적 조회 | 에 대한 추가 정보 [동적 조회](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) 가 추가되었습니다. 이전에는 몇 가지 동적 조회 중 하나인 모바일 속성에 대해서만 정보가 존재했습니다. |
+| 동적 조회 | [동적 조회](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)에 대한 추가 정보가 추가되었습니다. 이전에는 여러 동적 조회 중 하나인 모바일 속성에 대한 정보만 존재했습니다. |
 | **2023년 3월** |  |
 | Activity Map에 대한 Web SDK 지원 | [Adobe Analytics 구현](/help/implement/home.md) 및 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)가 업데이트되었습니다. |
 | 트래픽 변수(prop) 개요 | 문서의 내용을 명확히 하고 개선하기 위해 섹션과 단계별 절차를 추가했습니다. “트래픽 변수 보고서 사용”이라는 제목의 문서의 콘텐츠를 병합하고 해당 문서를 제거했습니다. [트래픽 변수(prop) 개요](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 보기 |
@@ -226,7 +226,7 @@ ht-degree: 95%
 | 2019년 9월 12일 | [계산된 지표 합계](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) 문서를 업데이트합니다. |
 | 2019년 8월 28일 | [Analytics용 점진적 웹 앱(PWA)](/help/technotes/pwa.md)에 대한 새로운 문서 |
 | 2019년 8월 8일 | [계산된 지표 합계](/help/components/c-calcmetrics/cm-totals.md)에 대한 새 문서 |
-| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | Workspace에서 Adobe은 정적 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
+| 2019년 8월 8일 | [타임스탬프가 활성화된 세션 데이터](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)에 대한 설명 | 2019년 8월 8일 | 작업 영역에서 Adobe는 정적 드롭다운 필터에 배치할 수 있는 항목 제한을 50개에서 200개로 늘렸습니다. 이 개선 사항은 필터에 모든 국가 (195) 추가, 모든 미국 주 및 도 (52) 추가와 같은 다양한 사용 사례를 포용합니다. |
 | 2019년 8월 2일 | [Analytics 용어집](/help/technotes/terms.md)에 대한 주요 업데이트 |
 | 2019년 7월 22일 | 추가된 Magento: 마케팅 및 상거래 템플릿을 [Analysis Workspace 템플릿](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 문서로 이동합니다. |
 | 2019년 7월 18일 | [코호트 테이블 설정](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)이 업데이트되었습니다. |

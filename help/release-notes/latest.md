@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 890742781a59532828003f8ba660043b9f1c73a1
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 54%
+ht-degree: 87%
 
 ---
 
@@ -21,12 +21,12 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **비프로덕션 샌드박스용 채우기** | 비프로덕션 샌드박스에서 Analytics 소스 커넥터 데이터 흐름을 생성할 때 비프로덕션 샌드박스의 채우기는 3개월로 제한됩니다. 프로덕션 샌드박스의 경우 13개월로 유지됩니다. | 해당 사항 없음 | 2023년 4월 26일 |
-| **프로젝트 링크 공유 (로그인 불필요)** | 이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사람 또는 Adobe Analytics에 대해 프로비저닝되지 않은 조직 내의 사람과의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)<p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 |
-| **Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면이 업데이트되었습니다** | 새로 업데이트된 홈 화면에서 하나의 통합 스코어카드 목록에서 모든 스코어카드를 볼 수 있습니다.  한 번의 로그인으로 두 개 이상의 조직에 액세스할 수 있는 경우 조직의 모든 스코어카드를 단일 목록에서 사용할 수 있습니다. | 해당 사항 없음 | 2023년 5월 10일 |
-| **Analysis Workspace에서 구성 요소 정렬** | 이제 왼쪽 레일이나 Analysis Workspace의 데이터 사전에서 구성 요소를 볼 때 새 정렬 옵션을 사용할 수 있습니다. 구성 요소를 권장(가장 일반적으로 사용되는 항목), 알파벳 또는 카테고리적(유형)별로 정렬할 수 있습니다.<p>이전에는 구성 요소를 검색하거나 필터링할 수만 있었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 해당 사항 없음 | 2023년 5월 17일 |
-| **자유 형식 테이블에서 동적 차원이 포함된 행 삭제** | 이제 Analysis Workspace의 자유 형식 테이블에서 x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제할 수 있습니다. 이 경우 &quot;다음과 같지 않음&quot; 필터 규칙이 자동으로 적용됩니다.<p>이전에는 동적 차원이 포함된 행을 삭제하는 유일한 방법은 필터 대화 상자에서 규칙을 수동으로 만드는 것이었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 해당 사항 없음 | 2023년 5월 17일 |
-| **패널 내에 시각화를 추가하는 새 단추** | 이제 Analysis Workspace의 각 패널 하단에 새 단추를 사용할 수 있으므로 시각화를 빠르게 추가할 수 있습니다. <p>이전에는 시각화를 패널에 추가하는 유일한 방법은 왼쪽 레일에서 시각화를 드래그하거나 기존 시각화를 복제하거나 복사하거나 빈 패널을 만드는 것이었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#add-visualizations-to-a-panel)</p> | 해당 사항 없음 | 2023년 5월 17일 |
-| **딥 링크(모바일 앱)** | 사용자가 앱의 스코어카드 프로젝트로 바로 안내하는 스코어카드에 대한 링크를 전송할 수 있습니다. 따라서 프로젝트를 보다 쉽게 공유하고 기술적인 지식이 부족한 대상으로부터의 참여를 늘릴 수 있습니다. | TBD | TBD |
+| **프로젝트 링크 공유 (로그인 불필요)** | 이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사용자 또는 Adobe Analytics용으로 프로비저닝되지 않은 조직 내의 사용자와의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko#share-public-link)<p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=ko#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 |
+| **Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트** | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. 한 번의 로그인으로 두 개 이상의 조직에 액세스할 수 있는 경우, 조직의 모든 스코어카드를 단일 목록에서 사용할 수 있습니다. | 해당 사항 없음 | 2023년 5월 10일 |
+| **Analysis Workspace의 구성 요소 정렬** | 이제 왼쪽 레일 또는 Analysis Workspace의 데이터 사전에서 구성 요소를 볼 때 새로운 정렬 옵션을 사용할 수 있습니다. 권장(가장 일반적으로 사용되는 구성 요소), 알파벳순 또는 범주(유형)별로 구성 요소를 정렬할 수 있습니다.<p>이전에는 구성 요소만 검색하거나 필터링만 할 수 있었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ko)</p> | 해당 사항 없음 | 2023년 5월 17일 |
+| **자유 형식 테이블에서 동적 차원이 포함된 행 삭제** | 이제 Analysis Workspace의 자유 형식 테이블에서 x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 신속하게 삭제할 수 있습니다. 이렇게 하면 “다음과 같지 않음” 필터 규칙이 자동으로 적용됩니다.<p>이전에는 동적 차원이 포함된 행을 삭제하는 유일한 방법은 필터 대화 상자에서 수동으로 규칙을 만드는 것이었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=ko)</p> | 해당 사항 없음 | 2023년 5월 17일 |
+| **패널 내에 시각화를 추가하는 새 버튼** | 이제 Analysis Workspace의 각 패널 하단에 새로운 버튼이 추가되어 시각화를 빠르게 추가할 수 있습니다. <p>이전에는 패널에 시각화를 추가하는 유일한 방법은 왼쪽 레일에서 시각화를 드래그하거나, 기존 시각화를 복제 또는 복사하거나, 빈 패널을 만드는 것이었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#add-visualizations-to-a-panel)</p> | 해당 사항 없음 | 2023년 5월 17일 |
+| **딥 링크 (모바일 앱)** | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. 이를 통해 프로젝트를 보다 쉽게 공유하고 기술 수준이 낮은 대상자의 참여를 높일 수 있습니다. | TBD | TBD |
 
 {style="table-layout:auto"}
 
@@ -39,7 +39,7 @@ AN-312098; AN-318309; AN-316675; AN-318173; AN-310359; AN-317613; AN-318836; AN-
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
 | **AdobeIO OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | AdobeIO JWT 자격 증명을 사용하는 Adobe Analytics API 및 라이브 스트리밍 고객은 다음을 통해 AdobeIO OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다 **2025년 1월 1일**. 자세한 내용 및 일정은 아래 표에서 사용 종료 알림을 참조하십시오. |
-| **알림: 런던 데이터 센터의 Adobe Analytics 데이터 피드 및 Data Warehouse 헤드에서 사용하는 새 IP** | 2023년 4월 27일 | 데이터 피드 요청 및/또는 Data Warehouse 보고서가 FTP/SFTP 서비스로 전달되는 런던 데이터 센터의 고객의 경우 액세스를 허용하려면 방화벽 구성에 다음 IP 주소 범위를 추가해야 합니다. <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
+| **공지: 런던 데이터 센터의 Adobe Analytics 데이터 피드 및 Data Warehouse 이그레스에 사용되는 새로운 IP** | 2023년 4월 27일 | 데이터 피드 요청 및/또는 Data Warehouse 보고서가 FTP/SFTP 서비스로 전송되는 런던 데이터 센터 고객의 경우, 액세스를 허용하려면 다음 IP 주소 범위를 방화벽 구성에 추가해야 합니다. <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **디바이스 조회 프로세스는 이제 모든 디바이스 조회에 서드파티를 사용합니다** | 2023년 3월 3일 | 2023년 3월 2일 클라이언트 힌트 지원 롤아웃의 일환으로 모든 디바이스 조회에 서드파티를 사용하도록 디바이스 조회 프로세스를 업데이트했습니다. 이전에는 모바일 디바이스 조회에만 서드파티를 사용했습니다. 상기 롤아웃에서 일부 데스크탑 운영 체제에 “모바일”이라는 텍스트가 잘못 표시되어 있습니다(예: “OS X 10.15.7” 대신 “모바일 OS X 10.15.7”).<p>Adobe의 4월 릴리스에서 이들 이름을 수정할 예정입니다. Analytics 및 CJA 보고는 이벤트 데이터의 일부로 기록된 ID를 기반으로 운영 체제 이름을 조회하므로 소급하여 업데이트됩니다. ID에 해당하는 조회 값이 업데이트되면 내역 데이터를 포함하여 모든 보고가 수정됩니다. 대상 [!UICONTROL 데이터 피드] 고객의 경우, 보고 시 유사한 조회 프로세스를 사용하는 경우에는 변경 사항이 소급 적용됩니다. 그러나 이벤트 데이터에 운영 체제 값을 저장하면 전향적으로만 보고가 업데이트됩니다. 자세한 내용은 [운영 체제](/help/components/dimensions/operating-systems.md)를 참조하십시오. |
 
 {style="table-layout:auto"}
