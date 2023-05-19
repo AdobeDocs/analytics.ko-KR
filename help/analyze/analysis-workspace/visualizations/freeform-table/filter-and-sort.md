@@ -4,10 +4,10 @@ title: 테이블 필터링 및 정렬
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 77%
+source-wordcount: '825'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 >[!NOTE]
 >
->이 섹션에 설명된 대로 행을 제외하려면 [!UICONTROL **같지 않음**] 규칙이 [**[!UICONTROL 고급 필터링]**](#apply-a-simple-or-advanced-filter) 대화 상자.
+>이 섹션에 설명된 대로 행을 제외하려면 [!UICONTROL **항상 항목 제외**] 고급 필터 대화 상자에서 규칙이 자동으로 적용됩니다. ( 필터 아이콘을 선택한 다음 적용된 규칙을 볼 수 있습니다 [**[!UICONTROL 고급 표시]**](#apply-a-simple-or-advanced-filter-to-a-table))
 
 자유 형식 테이블에서 특정 행을 빠르게 제외하려면 다음을 수행하십시오.
 
@@ -54,7 +54,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
    | [!UICONTROL **검색어 또는 구**] | 필터링할 단어나 구를 지정합니다. 지정한 단어 또는 정확한 구문을 포함하는 행만 표시됩니다. |
    | [!UICONTROL **지정하지 않은 항목 포함(없음)**] | 테이블 차원에 속하지 않는 데이터를 테이블에 표시하려면 이 옵션을 선택합니다. <!--what is this?--> |
 
-1. (선택 사항) 다른 기준이나 여러 기준에 따라 필터링하려면 을 선택합니다 [!UICONTROL **고급 필터링**].
+1. (선택 사항) 다른 기준 또는 여러 기준으로 필터링하려면 [!UICONTROL **고급 설정 표시**]&#x200B;를 선택합니다.
 
    다음 고급 필터 옵션을 사용할 수 있습니다.
 
