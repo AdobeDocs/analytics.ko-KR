@@ -4,9 +4,9 @@ description: 사용자를 위한 일반 및 프로젝트 환경은 물론 어두
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
+source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 77%
 
 ---
@@ -15,19 +15,21 @@ ht-degree: 77%
 
 생성한 모든 새 프로젝트 또는 패널에 대해 Analysis Workspace 및 관련 구성 요소의 설정을 관리할 수 있습니다. 기존 프로젝트 및 패널은 영향을 받지 않습니다.
 
-기본 설정에 대한 간단한 개요를 보려면 이 비디오를 보십시오.
+이 비디오를 통해 환경 설정에 대한 간략한 개요를 살펴보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## 환경 설정 업데이트
 
-1. Adobe Analytics에서 [!UICONTROL **프로젝트**] 랜딩 페이지를 선택한 다음 [!UICONTROL **기본 설정**].
+1. Adobe Analytics에서 [!UICONTROL **프로젝트**] 랜딩 페이지를 선택한 다음 [!UICONTROL **환경 설정**].
 
    ![사용자 환경 설정](assets/user-preferences.png)
 
 1. 각 탭에서 사용 가능한 환경 설정에 대한 자세한 내용을 보려면 이 문서의 다음 섹션을 계속 진행합니다.
 
    * [일반 환경 설정](#general-preferences)
+
+   * [회사](#company-preferences)
 
    * [프로젝트 환경 설정](#project-preferences)
 
@@ -44,6 +46,24 @@ Analysis Workspace에서 만드는 모든 새 프로젝트에 대한 일반 환�
 | 랜딩 페이지 | Adobe Analytics에 액세스할 때 기본 페이지로 표시되는 페이지를 선택합니다. <ul><li>프로젝트 목록 (기본값)</li><li>빈 프로젝트</li><li>특정 프로젝트 목록에서 선택</li></ul> |
 | 팁 표시 | Analysis Workspace 오른쪽 아래 영역의 파란색 상자에 팁을 표시합니다. <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> |
 | 왼쪽 레일 그룹에 표시되는 구성 요소 | 왼쪽 레일의 구성 요소 메뉴에 표시할 각 구성 요소의 수를 선택합니다. <p>0을 선택하는 경우 작업 영역의 왼쪽 레일에서 구성 요소에 더 이상 액세스할 수 없습니다.</p><p>기본적으로 다음 각 항목에 대해 5개의 구성 요소가 표시됩니다.</p> <ul><li>차원</li><li>지표</li><li>필터</li><li>날짜 범위</li></ul> <p>Analysis Workspace의 구성 요소에 대한 자세한 내용은 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)를 참조하십시오.</p> |
+
+## 회사 환경 설정
+
+>[!AVAILABILITY]
+>
+>이 섹션에 설명된 공개 액세스 링크 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
+
+조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
+
+| 섹션 | 환경 설정 | 옵션 |
+| --- | --- | --- |
+| **보고서 탭** |  |  |
+|  | 보고서 탭 숨기기 | 조직의 모든 사용자에 대한 보고서 탭을 숨깁니다. |
+| **프로젝트 공유** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+|  | 작업 공간 사용자와의 공유만 허용 | <p>이 옵션을 활성화하면 조직의 사용자가 공유 메뉴에서 &quot;모든 사람과 공유&quot; 옵션을 볼 수 없습니다. 즉, 사용자는에 설명된 대로 조직에 Analysis Workspace 계정이 없는 사람들과 프로젝트를 공유할 수 없습니다 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>이 옵션은 의료 산업을 제외한 모든 조직(사용자가 조직 외부의 사람과 프로젝트를 공유할 수 있음을 의미)에 대해 기본적으로 비활성화되어 있습니다. </p><p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션이 활성화(Workspace 사용자와의 공유만 허용)된 후 나중에 비활성화(모든 사람과 공유 허용)된 경우 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 이전에 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**의료 산업 조직의 경우:** 이 옵션은 기본적으로 활성화되고 흐리게 표시됩니다. 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 다음을 추가해야 합니다. [!UICONTROL **누구와도 프로젝트 링크 공유**] 권한(위치: [!UICONTROL **Analytics 도구**] Adobe Admin Console )을 클릭하여 제품에서 사용할 수 있습니다. 권한이 추가되면 이 옵션을 비활성화한 다음 최종 법적 통지에 동의할 수 있습니다. Admin Console에 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html).</p></li> |
+|  | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 &quot;모든 사람과 공유&quot; 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되고 프로젝트를 공유하는 사용자는 이 옵션을 비활성화할 수 없습니다. (사용자가 누구와도 프로젝트를 공유할 수 있는 방법에 대한 자세한 내용은 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션과 공유되었지만 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화(Experience Cloud 인증 필요)한 다음 나중에 비활성화(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)하면 이전에 &quot;모든 사용자와 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 못합니다. 이 경우 프로젝트를 공유한 사용자는 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 &quot;링크가 활성화됨&quot; 옵션을 활성화해야 합니다([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**] > [!UICONTROL **링크가 활성 상태입니다.**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이 옵션은 조직에서 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화할 수 있는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성되어 있는 경우 콘솔에서 자동 계정 만들기 유형이 구현되는지 확인하십시오. 일반적으로 시스템 관리자는에 설명된 대로 이 설정을 수행합니다 [자동 계정 만들기 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직이 HIPAA 준수를 필요로 하는 산업에 속한 경우 이 옵션은 자동으로 활성화되고 비활성화될 수 없습니다.</p></li></ul> |
+
+{style="table-layout:auto"}
 
 ## 프로젝트 환경 설정
 
@@ -159,10 +179,10 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 |  | 버킷 수 | 시각화에서 데이터 범위(버킷) 수를 선택합니다. 최대 버킷 수는 50개입니다. <p>자세한 내용은 [히스토그램](/help/analyze/analysis-workspace/visualizations/histogram.md)을 참조하십시오.</p> |
 |  | 계산 방법 | 다음 선택 사항 중 하나를 선택합니다. <ul><li>히트</li><li>방문</li><li>방문자</li></ul> <p>예를 들어 페이지 조회수와 함께 사용될 때 방문자당 페이지 조회수, 방문 페이지 조회수 또는 히트당 페이지 조회수를 선택할 수 있습니다. 히트의 경우 “발생 횟수”는 자유형 테이블에서 Y축 지표로 사용됩니다.</p> |
 | **[맵](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** |  |  |
-|  | 플로팅 차원 | <ul><li>모바일 위도/경도</li><li>지리적 차원</li></ul> |
+|  | 플로팅 차원 | <ul><li>모바일 위도/경도</li><li>지역 차원</li></ul> |
 |  | 맵 유형 | <ul><li>버블</li><li>히트맵</li></ul> |
-|  | 색상 테마 | Coral, Reds, Greens, Blues, Heatmap 및 Positive/Negative 중에서 선택할 수 있습니다. |
-|  | 맵 스타일 | Basic, Street, Bright, Light, Dark 및 Satellite 중에서 선택할 수 있습니다. |
+|  | 색상 테마 | 산호, 빨강, 녹색, 파랑, 히트맵, 양수/음수 중에서 선택하십시오. |
+|  | 맵 스타일 | 기본, 거리, 밝은, 밝은, 어두운, 위성 중에서 선택하십시오. |
 | **[요약 변경](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | 값 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>백분율 변경</li><li>원시 차이</li></ul> |
 |  | 백분율 | 요약 변경 시각화 값을 백분율로 표시합니다. |
@@ -181,25 +201,7 @@ Analysis Workspace에서 만든 모든 새 프로젝트의 시각화 환경 설�
 |  | 백분율 | 분산 시각화 값을 백분율로 표시합니다. |
 |  | 범례 표시 | 분산 시각화에 대한 자세한 범례 텍스트를 숨길 수 있습니다. |
 |  | 최대 항목 수 제한 | 분산 시각화에서 X축의 항목 수를 줄입니다. 대규모 데이터 세트가 있는 경우 유용할 수 있습니다. |
-|  | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐).  |
-
-## 회사 환경 설정
-
->[!AVAILABILITY]
->
->이 섹션에 설명된 공개 액세스 링크 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용할 수 없습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
-
-조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
-
-| 섹션 | 환경 설정 | 옵션 |
-| --- | --- | --- |
-| **보고서 탭** |  |  |
-|  | 보고서 탭 숨기기 | 조직의 모든 사용자에 대한 보고서 탭을 숨깁니다. |
-| **프로젝트 공유** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
-|  | 작업 영역 사용자와의 공유만 허용 | <p>이 옵션을 활성화하면 조직의 사용자가 공유 메뉴에서 &quot;다른 사람과 공유&quot; 옵션을 볼 수 없습니다. 즉, 사용자는 다음에 설명된 대로 조직에서 Analysis Workspace 계정이 없는 사람과 프로젝트를 공유할 수 없습니다 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>이 선택 사항은 보건의료 산업을 제외한 모든 조직(사용자가 조직 외부의 사용자와 프로젝트를 공유할 수 있음)에 대해 기본적으로 비활성화됩니다. </p><p>이 옵션을 활성화하거나 비활성화할 때는 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 이전에 프로젝트에 대한 액세스 권한을 받은 사람이 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션이 활성화되어 있으면(Workspace 사용자만 공유할 수 있도록 허용) 후에 비활성화되어 있으면(누구와도 공유할 수 있도록) 이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 액세스할 수 있었던 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 받지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 모든 사람과 프로젝트를 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **다른 사람과 공유**]&#x200B;에 설명된 대로, [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li><li><p>**의료 업계의 경우** 이 옵션은 기본적으로 활성화되어 있으며 흐리게 표시됩니다. 사용자가 &quot;다른 사람과 공유&quot; 공유 옵션을 사용할 수 있도록 이 옵션을 비활성화하려면 먼저 을(를) 추가해야 합니다 [!UICONTROL **모든 사람과 프로젝트 링크 공유**] 권한(다음 위치) [!UICONTROL **Analytics 도구**])을 클릭하여 제품에서 사용할 수 있습니다. 권한이 추가되면 이 옵션을 비활성화한 다음 그에 따른 법적 고지 사항을 수락할 수 있습니다. Admin Console에서 권한을 추가하는 방법에 대한 자세한 내용은 [Admin Console에서 제품 권한 관리](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html).</p></li> |
-|  | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 &quot;다른 사람과 공유&quot; 옵션에서 프로젝트에 대한 액세스 권한을 받는 사람이 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 &quot;다른 사람과 공유&quot; 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되며 프로젝트를 공유하는 사용자가 비활성화할 수 없습니다. (사용자가 모든 사람과 프로젝트를 공유하는 방법에 대한 자세한 내용은 [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md))</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 &quot;다른 사람과 공유&quot; 공유 옵션과 공유되었으며 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션이 활성화되어 있으면(Experience Cloud 인증이 필요함) 후에 비활성화되어 있으면(링크를 가진 모든 사람이 프로젝트에 액세스할 수 있도록 허용), 이전에 &quot;다른 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 받지 않습니다. 이 경우 프로젝트를 공유한 사용자는 모든 사용자([!UICONTROL **공유**] > [!UICONTROL **다른 사람과 공유**] > [!UICONTROL **링크가 활성 상태입니다.**]&#x200B;에 설명된 대로, [모든 사람과 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이 옵션은 SSO가 조직에서 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화하는 방법에 대한 자세한 내용은 [ID 및 단일 사인온 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성된 경우 콘솔에서 모든 종류의 자동 계정 만들기가 구현되었는지 확인하십시오. 일반적으로 시스템 관리자는 [자동 계정 생성 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직에서 HIPAA 규정을 준수해야 하는 업계에서는 이 옵션이 자동으로 활성화되므로 비활성화할 수 없습니다.</p></li></ul> |
-
-{style="table-layout:auto"}
+|  | Y축을 0에 고정 | 차트에 표시된 모든 값이 0보다 매우 큰 경우, 차트 기본값에 따라 y축의 하단이 0이 아닌 값으로 지정됩니다. 이 상자를 선택하면 y축이 0이 됩니다(그리고 차트가 다시 그려짐). |
 
 ## 기본 환경 설정 복원
 
