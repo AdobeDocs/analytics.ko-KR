@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
+source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 96%
+source-wordcount: '4191'
+ht-degree: 95%
 
 ---
 
@@ -26,13 +26,14 @@ ht-degree: 96%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 5월** |  |
+| 스펙트럼 아이콘 | 설명서의 사용자 인터페이스 아이콘 스크린샷을 해당하는 경우에서 해당 아이콘에 대한 참조로 대체했습니다. [Adobe 스펙트럼 설계 시스템](https://spectrum.adobe.com/page/icons/). |
 | 개선된 IP-to-geolocation 매핑 | 에 대한 주제를 만들었습니다. [FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
-| 보고 활동 관리자 | 이 베타 설명서, 특히 [개별 보고서 세트에 대한 보고 활동 보기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| 보고 활동 관리자 | 이 베타 설명서, 특히 의 섹션 업데이트 [개별 보고서 세트에 대한 보고 활동 보기](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
-| 왼쪽 레일에서 구성 요소 정렬 | 왼쪽 레일에서 구성 요소 목록을 정렬하는 방법에 대한 정보를 추가했습니다.의 &quot;구성 요소 목록 검색, 필터링 및 정렬&quot; 섹션을 참조하십시오 [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
-| 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제하는 방법에 대한 정보가 추가되었습니다. 의 &quot;테이블에서 특정 행 빠르게 제외&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
-| 패널 내에 시각화를 추가하는 단추 | Analysis Workspace의 각 패널 하단에 시각화를 빠르게 추가할 수 있는 새 버튼에 대한 정보가 추가되었습니다. 의 &quot;패널에 시각화 추가&quot; 섹션을 참조하십시오 [시각화 개요](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| 왼쪽 레일에서 구성 요소 정렬 | 왼쪽 레일에서 구성 요소 목록 정렬에 대한 정보가 추가되었습니다.의 &quot;구성 요소 목록 검색, 필터링 및 정렬&quot; 섹션을 참조하십시오. [구성 요소 개요](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| 자유 형식 테이블에서 동적 차원이 포함된 행 삭제 | x 아이콘을 사용하여 동적 차원이 포함된 특정 행을 빠르게 삭제하는 방법에 대한 정보를 추가했습니다. 다음에서 &quot;특정 행을 테이블에서 빠르게 제외&quot; 섹션을 참조하십시오. [테이블 필터링 및 정렬](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 패널 내에 시각화를 추가하는 버튼 | Analysis Workspace의 각 패널 하단에 시각화를 빠르게 추가할 수 있는 새 버튼에 대한 정보가 추가되었습니다. 다음에서 &quot;패널에 시각화 추가&quot; 섹션을 참조하십시오. [시각화 개요](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023년 4월** |  |
 | 사용자 자산 전송 및 계정 만료 설정 | [사용자 자산을 전송하고 계정 만료를 설정](/help/admin/admin/user-management2/users-assets.md)하는 방법에 대한 정보가 추가되었습니다. |
 | Adobe Analytics 2.0 API를 위한 2개의 새로운 엔드포인트 안내서 | <ul><li>[Analytics 차원 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 지표 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
