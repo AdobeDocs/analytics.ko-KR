@@ -4,7 +4,7 @@ keywords: 계산된 지표;파생 지표;고급 계산된 지표
 title: 계산 및 고급 계산 (파생) 지표
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -103,7 +103,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
   </tr> 
   <tr> 
    <td colname="col1"> 지표 선택기 레일 </td> 
-   <td colname="col2"> <p>Reports &amp; Analytics에서 <span class="uicontrol">지표 표시</span><span class="uicontrol"> 팝업을 대체합니다</span>. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해 줍니다. 또한 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >정렬</a> 순서(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Reports &amp; Analytics에서 <span class="uicontrol">지표 표시</span><span class="uicontrol"> 팝업을 대체합니다</span>. </p> <p>지표를 검색하고 보고서에 추가/적용할 수 있도록 해 줍니다. 또한 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >정렬</a> 순서(옵션: 알파벳, 권장, 자주 사용하는 항목, 최근에 사용한 항목)를 변경할 수도 있습니다. 또한, 보고서 세트에 대해 필터링하여 특정 보고서 세트에서 만든 지표만 표시할 수 있습니다. </p> <p>지표 선택기에 액세스하려면 보고서 왼쪽에 있는 지표 아이콘 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />을 클릭합니다. 다음은 지표 선택기의 모습입니다. </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 계산된 지표에 대한 API</a> </td> 

@@ -4,10 +4,10 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
-source-wordcount: '3944'
-ht-degree: 100%
+source-wordcount: '3952'
+ht-degree: 99%
 
 ---
 
@@ -195,7 +195,7 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
 
 ### 회사 보고서 관리 {#manage-company-reports}
 
-관리자는 프로젝트 목록을 필터링하여 회사 보고서를 표시하고 관리할 수 있습니다. 고정된 항목은 고정된 상태로 유지되며, 다음으로 ![보고서 아이콘](assets/report-icon.png) 보고서 아이콘으로 식별되는 회사 보고서 목록이 표시됩니다. 이 보기에서 하나 이상의 보고서를 삭제, 이름 바꾸기, 태그 지정 또는 승인할 수 있습니다.
+관리자는 프로젝트 목록을 필터링하여 회사 보고서를 표시하고 관리할 수 있습니다. 고정된 항목은 고정된 상태로 유지되며, 다음으로 ![보고서 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) 보고서 아이콘으로 식별되는 회사 보고서 목록이 표시됩니다. 이 보기에서 하나 이상의 보고서를 삭제, 이름 바꾸기, 태그 지정 또는 승인할 수 있습니다.
 
 회사 보고서를 표시하고 관리하려면
 

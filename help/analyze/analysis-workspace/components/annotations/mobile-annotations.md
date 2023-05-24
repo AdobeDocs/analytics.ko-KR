@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 ![](assets/view-annotations.png)
 
-주석 아이콘이 표시되면 빌더 캔버스에서 주석을 완전히 보거나 상호 작용할 수 없습니다. 미리보기 모드를 사용하여 앱에 나타나는 주석을 보고 상호 작용할 수 있습니다. ![](assets/preview-icon.png)
+주석 아이콘이 표시되면 빌더 캔버스에서 주석을 완전히 보거나 상호 작용할 수 없습니다. 미리보기 모드를 사용하여 앱에 나타나는 주석을 보고 상호 작용할 수 있습니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **미리 보기**.
 
-주석 색상은 작업 영역에서 주석이 생성될 때 선택됩니다. 회색 주석은 주석이 두 개 이상 있음을 나타냅니다. ![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+주석 색상은 작업 영역에서 주석이 생성될 때 선택됩니다. 회색 주석은 주석이 두 개 이상 있음을 나타냅니다.
 
 ## 차트 주석 보기
 

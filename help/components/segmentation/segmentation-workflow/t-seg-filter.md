@@ -3,10 +3,10 @@ description: 태그, 소유자 및 기타 필터 기준 필터링 (모두, 내 �
 title: 세그먼트 필터링
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 필터링을 수행하면 세그먼트 레일의 세그먼트를 더 쉽게 검색할 수 있습니다.
 
-1. 세그먼트 관리자에서 **[!UICONTROL 필터]** 아이콘을 클릭합니다. ![](assets/filter_icon.png)
+1. 세그먼트 관리자에서 **[!UICONTROL 필터]** 아이콘을 클릭합니다. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. 다음 필터를 사용할 수 있습니다.
+2. 다음 필터를 사용할 수 있습니다.
 
    | 필터 이름 | 설명 |
    |---|---|

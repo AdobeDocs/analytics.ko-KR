@@ -5,10 +5,10 @@ uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
 role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 옵션 패널에서는 날짜 설정, 지연 설정(현재 데이터), 로그 정보를 지정하고, 업데이트를 구성할 수 있습니다.
 
-1. 추가 기능 도구 모음에서 **[!UICONTROL 선택 사항]**&#x200B;을 클릭합니다 ![](assets/options_icon.png):
+1. 추가 기능 도구 모음에서 **[!UICONTROL 옵션]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg):
 
 | 요소 | 설명 |
 |--- |--- |

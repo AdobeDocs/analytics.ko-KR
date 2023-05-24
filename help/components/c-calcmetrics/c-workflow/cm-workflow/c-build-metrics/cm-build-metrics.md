@@ -3,10 +3,10 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '972'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 계산된 지표 관리자]**&#x200B;의 상단에서 [+ 추가](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)를 클릭하거나
 
-* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가를 클릭합니다]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -67,7 +67,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 요약 </span> </td> 
-   <td colname="col3"> <p><span class="uicontrol">요약</span> 공식은 지표 정의를 변경할 때마다 업데이트됩니다. 이 공식은 마우스로 지표를 가리키고 <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 아이콘을 클릭하면 왼쪽의 지표 레일에 표시됩니다. </p> </td> 
+   <td colname="col3"> <p><span class="uicontrol">요약</span> 공식은 지표 정의를 변경할 때마다 업데이트됩니다. 이 공식은 마우스로 지표를 가리키고 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 아이콘을 클릭하면 왼쪽의 지표 레일에 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 정의 </span> </td> 
@@ -79,7 +79,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 연산자 </span> </td> 
-   <td colname="col3"> <p>나누기 ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )는 기본 연산자이고 이외에도 +, -, x 연산자가 있습니다. </p> </td> 
+   <td colname="col3"> <p>나누기 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )는 기본 연산자이고 이외에도 +, -, x 연산자가 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 미리보기 </span> </td> 

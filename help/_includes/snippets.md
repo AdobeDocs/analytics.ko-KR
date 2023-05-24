@@ -1,7 +1,7 @@
 ---
-source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1040'
 ht-degree: 94%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 ## 데이터 사전 필터 조건 {#dd-filter-criteria}
 
-1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
+1. (선택 사항) **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 필터링합니다.
 
    | 옵션 | 함수 |
    |---------|----------|
@@ -55,9 +55,9 @@ ht-degree: 94%
 
 | 옵션 | 함수 |
 |---------|----------|
-| [!UICONTROL **권장**] | 목록의 맨 위에서 권장되는 구성 요소와 함께 구성 요소를 정렬합니다. 가장 자주 사용하는 구성 요소는 사용자 또는 조직의 다른 사용자가 가장 최근에 사용한 구성 요소보다 더 높게 표시됩니다. |
+| [!UICONTROL **권장**] | 구성 요소를 목록 맨 위에 권장되는 구성 요소와 정렬합니다. 사용자나 조직의 다른 사용자가 가장 자주 그리고 가장 최근에 사용하는 구성 요소가 목록의 맨 위에 표시됩니다. |
 | [!UICONTROL **알파벳**] | 구성 요소를 알파벳순으로 정렬합니다. |
-| [!UICONTROL **카테고리적**] | 구성 요소 유형(차원, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
+| [!UICONTROL **단정적으로**] | 구성 요소 유형(차원, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
 
 {style="table-layout:auto"}
 

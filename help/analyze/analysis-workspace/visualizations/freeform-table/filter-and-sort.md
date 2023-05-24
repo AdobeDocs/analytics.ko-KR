@@ -4,10 +4,10 @@ title: 테이블 필터링 및 정렬
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 78%
+source-wordcount: '841'
+ht-degree: 76%
 
 ---
 
@@ -23,19 +23,19 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 >
 > 이 섹션에 설명된 대로 동적 차원 항목만 필터링할 수 있습니다. 정적 차원 항목은 필터링할 수 없습니다. 자세한 내용은 [자유 형식 테이블의 동적 차원 항목과 정적 차원 항목 비교](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
-### 테이블에서 특정 행 빠르게 제외
+### 테이블에서 특정 행을 빠르게 제외
 
 필터 대화 상자를 열지 않고도 테이블에서 특정 행을 빠르게 제외할 수 있습니다.
 
 >[!NOTE]
 >
->이 섹션에 설명된 대로 행을 제외하려면 [!UICONTROL **항상 항목 제외**] 고급 필터 대화 상자에서 규칙이 자동으로 적용됩니다. ( 필터 아이콘을 선택한 다음 적용된 규칙을 볼 수 있습니다 [**[!UICONTROL 고급 표시]**](#apply-a-simple-or-advanced-filter-to-a-table))
+>이 섹션에 설명된 대로 행을 제외하는 경우 [!UICONTROL **항상 항목 제외**] 고급 필터 대화 상자에서 규칙이 자동으로 적용됩니다. ( 필터 아이콘을 선택한 다음, [**[!UICONTROL 고급 표시]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
-자유 형식 테이블에서 특정 행을 빠르게 제외하려면 다음을 수행하십시오.
+자유 형식 테이블에서 특정 행을 빠르게 제외하려면 다음을 수행합니다.
 
-1. 제외할 행을 마우스로 가리킨 다음, x 아이콘을 선택합니다.
+1. 제외할 행을 마우스로 가리킨 다음 x 아이콘을 선택합니다.
 
-   Shift 키를 눌러 범위 행을 선택하거나 Command 키(Mac에서) 또는 Ctrl 키(Windows에서)를 눌러 여러 행을 선택합니다.
+   범위 행을 선택하려면 Shift 키를 누른 채 선택하거나 여러 행을 선택하려면 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 채 선택합니다.
 
 ### 표에 단순 또는 고급 필터 적용
 
@@ -51,7 +51,7 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
    | 옵션 | 함수 |
    |---------|----------|
-   | [!UICONTROL **검색어 또는 구**] | 필터링할 단어나 구를 지정합니다. 지정한 단어 또는 정확한 구문을 포함하는 행만 표시됩니다. |
+   | [!UICONTROL **단어 또는 구 검색**] | 필터링 기준으로 사용할 단어나 구를 지정합니다. 지정한 단어 또는 정확한 구문을 포함하는 행만 표시됩니다. |
    | [!UICONTROL **지정하지 않은 항목 포함(없음)**] | 테이블 차원에 속하지 않는 데이터를 테이블에 표시하려면 이 옵션을 선택합니다. <!--what is this?--> |
 
 1. (선택 사항) 다른 기준 또는 여러 기준으로 필터링하려면 [!UICONTROL **고급 설정 표시**]&#x200B;를 선택합니다.
@@ -67,19 +67,19 @@ Analysis Workspace의 필터는 가장 중요한 정보를 표시하는 데 도�
 
 1. [!UICONTROL **적용**]&#x200B;을 선택하여 데이터를 필터링합니다.
 
-   테이블에 필터가 적용되면 **필터** 아이콘(![파란색 필터 아이콘 필터링된 테이블](assets/table-filter-blue-icon.png))이 파란색으로 바뀝니다.
+   테이블에 필터가 적용되면 **필터** 아이콘(![파란색 필터 아이콘 필터링된 테이블](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))이 파란색으로 바뀝니다.
 
 ## 테이블 정렬
 
 Analysis Workspace의 지표 열을 기준으로 자유 형식 테이블의 데이터를 정렬할 수 있습니다.
 
-아래쪽 화살표 아이콘(![아래쪽 화살표 아이콘 정렬된 테이블 열](assets/table-sort-arrow-icon.png))은 데이터가 현재 정렬되는 열의 헤더에 표시됩니다.
+아래쪽 화살표 아이콘(![아래쪽 화살표 아이콘 정렬된 테이블 열](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg))은 데이터가 현재 정렬되는 열의 헤더에 표시됩니다.
 
 특정 열을 기준으로 자유 형식 테이블의 데이터를 정렬하려면 다음 작업을 수행하십시오.
 
 1. 데이터를 정렬하려는 열 제목 위로 마우스를 가져갑니다.
 
-1. 아래쪽 화살표 아이콘이 나타나면 선택합니다.
+2. 아래쪽 화살표 아이콘이 나타나면 선택합니다.
 
    ![아래쪽 화살표 아이콘 정렬된 테이블 열](assets/table-sort.png)
 

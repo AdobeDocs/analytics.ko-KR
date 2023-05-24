@@ -3,10 +3,10 @@ description: 지표를 찾는 두 가지 주요 방법, 즉 정렬과 필터링�
 title: 지표 찾기
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 정렬 {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-보고서를 열고 보고서 왼쪽에 있는 지표 아이콘 ![](assets/metrics_icon.png)을 클릭하여 지표 레일을 표시하면 지표 선택기에서 **[!UICONTROL 정렬 기준]** 드롭다운 목록에 네 개의 정렬 옵션이 표시됩니다.
+보고서를 열고 지표 아이콘을 클릭할 때  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) 지표 레일을 표시하는 보고서 왼쪽에 있는 **[!UICONTROL 정렬 기준:]** 지표 선택기의 드롭다운 목록에는 네 개의 정렬 옵션이 표시됩니다.
 
 ![](assets/cm_sort.png)
 

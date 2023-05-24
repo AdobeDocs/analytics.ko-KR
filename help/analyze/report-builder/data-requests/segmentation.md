@@ -4,10 +4,10 @@ title: 세그먼트 관리 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -86,18 +86,18 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
 세그먼트 컨트롤을 추가하면 요청 마법사로 이동할 필요 없이 통합 문서 내에서 세그먼트 간을 전환할 수 있습니다.
 
-1. 세그먼트 드롭다운 옆의 컨트롤 아이콘(![](assets/control_icon.png))을 클릭합니다.
+1. Control 아이콘 클릭 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 세그먼트 드롭다운 옆에 있습니다.
 
    ![](assets/seg_control.png)
 
-1. 세그먼트 컨트롤에 표시할 모든 세그먼트를 선택하거나 **[!UICONTROL 모두 선택]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 연결된 요청을 항목 선택에 따라 자동으로 새로 고칩니다.]** 옵션을 확인합니다.
+2. 세그먼트 컨트롤에 표시할 모든 세그먼트를 선택하거나 **[!UICONTROL 모두 선택]**&#x200B;을 선택합니다.
+3. **[!UICONTROL 연결된 요청을 항목 선택에 따라 자동으로 새로 고칩니다.]** 옵션을 확인합니다.
 
    * 이 옵션이 선택되어 있으면 이 컨트롤을 사용하는 모든 요청이 새로 고쳐집니다.
    * 이 옵션이 선택되어 있지 않으면 연결된 요청 매개 변수가 업데이트되지만 요청은 새로 고쳐지지 않습니다.
 
-1. 세그먼트 컨트롤의 왼쪽 위 셀 위치를 지정합니다.
-1. **[!UICONTROL 확인]**&#x200B;을 클릭하면 지정된 위치에 세그먼트 컨트롤이 나타납니다.
+4. 세그먼트 컨트롤의 왼쪽 위 셀 위치를 지정합니다.
+5. **[!UICONTROL 확인]**&#x200B;을 클릭하면 지정된 위치에 세그먼트 컨트롤이 나타납니다.
 
    ![](assets/seg_control2.png)
 
