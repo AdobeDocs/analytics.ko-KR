@@ -4,16 +4,16 @@ keywords: 계산된 지표;파생 지표;고급 계산된 지표
 title: 계산 및 고급 계산 (파생) 지표
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
-# 계산 및 고급 계산 (파생) 지표
+# 계산 및 고급 계산(파생) 지표
 
-계산 및 고급 계산 (또는 파생) 지표는 기존의 지표에서 만들 수 있는 사용자 지정 지표입니다.
+계산 및 고급 계산(또는 파생) 지표는 기존 지표에서 만들 수 있는 사용자 지정 지표입니다.
 
 Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 조정하는 유연한 방법을 제공합니다. 이 도구를 사용하는 마케터, 제품 관리자 및 분석가는 [!DNL Analytics] 구현을 변경하지 않아도 데이터에 대해 질문할 수 있습니다. 각 [!DNL Analytics] 패키지에서 사용할 수 있는 사용자 지정 지표는 다음과 같습니다.
 
@@ -22,9 +22,9 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 * [Adobe Analytics Prime](https://www.adobe.com/kr/data-analytics-cloud/analytics/prime.html): 계산된 + 고급 계산된 지표
 * [Adobe Analytics Ultimate](https://www.adobe.com/kr/data-analytics-cloud/analytics/ultimate.html): 계산된 + 고급 계산된 지표
 
-다음은 계산된 지표와 고급 계산 지표 기능을 비교한 것입니다.
+다음은 계산된 지표와 고급 계산된 지표 기능을 비교한 것입니다.
 
-| Builder 옵션 | 계산된 지표 | 고급 계산 (파생) 지표 |
+| Builder 옵션 | 계산된 지표 | 고급 계산(파생) 지표 |
 |---|---|---|
 | [형식 유형 (십진수, 시간, 퍼센트, 통화)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 예 | 예 |
 | [기여도 분석 변경 (기본값, 선형, 기여도 등)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 예 | 예 |
@@ -44,11 +44,11 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * 보고서 세트 간에 지표를 공유할 수 있습니다. 이것은 새로 만들어진 모든 지표가 동일한 로그인 회사에 있는 모든 보고서 세트에 적용됨을 의미합니다.
-* (고급 계산 지표만 해당) 지표의 세그먼트 예를 들어 첫 번째 세션에 참여한 사람의 수로, &quot;새 방문자 수&quot;에 대한 지표를 만들 수 있습니다. 다음은 해당 주제에 대한 비디오입니다.
+* (고급 계산된 지표만 해당) 지표의 세그먼트입니다. 예를 들어 첫 번째 세션에 참여한 사람의 수로, &quot;새 방문자 수&quot;에 대한 지표를 만들 수 있습니다. 다음은 해당 주제에 대한 비디오입니다.
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (고급 계산 지표만 해당) 통계 함수를 통합하여 데이터를 더욱 효율적으로 설명할 수 있습니다. 예를 들어 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
+* (고급 계산된 지표만 해당) 통계 함수를 통합하여 데이터를 더 잘 설명할 수 있습니다. 예를 들어 보고서에 있는 항목의 수를 계산하거나 각 항목에 대한 표준 편차의 수를 추가할 수 있습니다.
 
 ## 제한 사항 {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ Adobe의 계산된 지표 도구에서는 지표를 작성하고, 관리하고, 
 
 ## 도구 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-다음은 [!UICONTROL 계산된 지표] 도구에 대한 간략한 개요입니다.
+다음은 의 간략한 개요입니다. [!UICONTROL 계산된 지표] 도구:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

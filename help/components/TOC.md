@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -180,10 +180,10 @@ ht-degree: 92%
    + [이전 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
-   + [계산 및 고급 계산된(파생된) 지표](c-calcmetrics/cm-overview.md)
+   + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
    + [방법 비디오](c-calcmetrics/cm-videos.md)
-   + 계산된 지표 작업 과정 {#calcmetric-workflow}
-      + [계산된 지표 작업 과정](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+   + 계산된 지표 워크플로 {#calcmetric-workflow}
+      + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [&quot;방문자 수당 페이지 보기 수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)

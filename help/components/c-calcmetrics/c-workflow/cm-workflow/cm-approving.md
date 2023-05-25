@@ -3,16 +3,22 @@ description: 계산된 지표 관리자 내에서 다양한 애플리케이션 �
 title: 계산된 지표 승인
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '245'
+ht-degree: 17%
 
 ---
 
 # 계산된 지표 승인
 
-계산된 지표 관리자에서 다양한 애플리케이션 수준과 특정 부서 또는 그룹에 대한 지표 승인이 포함된 워크플로우를 설정할 수 있습니다.
+계산된 지표 관리자에서 관리자는 다양한 애플리케이션 수준과 특정 부서 또는 그룹에 대한 지표 승인이 포함된 워크플로우를 설정할 수 있습니다.
+
+>[!NOTE]
+>
+>관리자는에 설명된 대로 데이터 사전에서 계산된 지표 (및 기타 구성 요소)를 승인할 수도 있습니다. [데이터 사전에서 구성 요소 항목 편집](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>데이터 사전에서 승인된 모든 계산된 지표는 계산된 지표 관리자에 반영됩니다. 마찬가지로 계산된 지표 관리자에서 승인된 지표는 데이터 사전에 반영됩니다.
 
 계산된 지표를 승인된 것으로 표시하려면 다음을 수행합니다.
 

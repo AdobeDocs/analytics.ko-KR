@@ -3,7 +3,7 @@ description: 계산된 지표 페이지는 공유, 필터링, 태깅, 승인, �
 title: 계산된 지표 관리자
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 5%
@@ -15,6 +15,10 @@ ht-degree: 5%
 계산된 지표 페이지는 공유, 필터링, 태깅, 승인, 복사, 삭제 및 즐겨찾기로 표시 등 다양한 지표 처리 방법을 제공합니다.
 
 계산된 지표 페이지는 소유하며 사용자와 공유된 모든 세그먼트를 표시합니다. 관리자 수준의 사용자는 조직의 모든 사용자 정의 지표를 볼 수 있습니다.
+
+## 계산된 지표 관리자에 액세스
+
+1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**].
 
 ## 계산된 지표 관리자의 영역
 
@@ -37,7 +41,3 @@ ht-degree: 5%
 | 이미지에 표시되지 않음 | **수정한 날짜:** 사용자 지정 지표를 마지막으로 수정한 날짜를 나타냅니다. |
 
 {style="table-layout:auto"}
-
-## 계산된 지표 관리자에 액세스
-
-1. Adobe Analytics에서 [!UICONTROL **구성 요소**] > [!UICONTROL **계산된 지표**].
