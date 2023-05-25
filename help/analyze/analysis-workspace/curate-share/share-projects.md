@@ -5,9 +5,9 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
+source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1816'
 ht-degree: 53%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 53%
 
 * 조직 외부의 사용자
 
-* 조직 내에서 Adobe Analytics으로 프로비저닝되지 않은 사람
+* 조직 내에서 Adobe Analytics에 액세스할 수 없는 사람
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ ht-degree: 53%
 >
 >* 확장된 시각화가 50개를 초과하는 프로젝트는 Adobe Analytics 액세스 권한이 없는 사용자와 공유할 수 없습니다.
 >
->* 공유하는 사용자는 다음 기간 동안 프로젝트에 적용된 모든 필터를 볼 수 있습니다. [큐레이션](curate.md).
+>* 프로젝트를 공유하는 사용자는 다음 기간 동안 프로젝트에 적용된 모든 필터를 볼 수 있습니다 [큐레이션](curate.md).
 > 
 >* 공유하는 사용자는 프로젝트 날짜 범위를 변경할 수 있습니다. 프로젝트에 대해 설정한 날짜 범위는 기본적으로 표시됩니다.
 >
