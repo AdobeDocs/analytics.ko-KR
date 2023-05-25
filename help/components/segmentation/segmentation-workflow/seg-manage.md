@@ -3,10 +3,10 @@ description: 세그먼트 관리자는 공유, 필터링, 태깅, 승인, 복사
 title: 세그먼트 관리 (세그먼트 관리자)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 Analytics 세그먼트 관리자는 사용자가 보유하는 모든 세그먼트 및 사용자와 공유되는 모든 세그먼트를 표시합니다. 관리자 수준의 사용자는 조직의 모든 세그먼트를 볼 수 있습니다. 이 개요에서는 세그먼트 관리자의 사용자 인터페이스와 기능을 설명합니다. 세그먼트 빌더 액세스 방법은 다음과 같습니다.
 
 * 맨 위의 탐색 영역에서 **[!UICONTROL Analytics]** > **[!UICONTROL 구성 요소]** > **[!UICONTROL 세그먼트]**&#x200B;로 이동합니다.
-* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![](assets/segment_icon.png)을 클릭합니다. 그런 다음 **[!UICONTROL 관리를 클릭합니다]**.
+* 기존 보고서를 표시하고 왼쪽 탐색에서 세그먼트 아이콘 ![을 클릭합니다. ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 그런 다음 **[!UICONTROL 관리를 클릭합니다]**.
 
 ## 방법 비디오 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

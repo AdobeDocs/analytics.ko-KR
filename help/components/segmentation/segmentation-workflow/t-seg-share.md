@@ -3,10 +3,10 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 세그먼트 공유
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 92%
 
 ---
 
@@ -25,16 +25,12 @@ ht-degree: 100%
 * 관리자는 세그먼트가 팀에게 유용한 비즈니스 가치를 제공하는 경우 특정 **[!UICONTROL 그룹]**&#x200B;과 세그먼트를 공유할 수 있습니다. 이 유형의 세그먼트는 공식적으로 승인하지 마십시오.
 * 관리자 또는 개인 사용자는 다른 사용자와 세그먼트를 공유하여 세그먼트를 수정하고 유효성을 검증합니다. 유용하지 않다고 확인되면 삭제할 수 있습니다. 이 유형의 세그먼트는 공식적으로 승인하지 마십시오.
 
-1. 세그먼트 관리자에서 공유할 세그먼트 옆의 확인란을 선택합니다. 세그먼트 관리 도구 모음이 표시됩니다.
+1. 세그먼트 관리자에서 공유할 세그먼트 옆의 확인란을 선택합니다. 세그먼트 관리 도구 모음이 나타납니다.
 
-   ![](assets/segment_mgmt_toolbar.png)
-
-1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
-
-   ![](assets/sharing_segments.png)
+2. **[!UICONTROL 공유를 클릭합니다]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
    관리자는 **[!UICONTROL 모두]**&#x200B;를 선택하거나 조직의 **[!UICONTROL 그룹]** 및 **[!UICONTROL 사용자]**&#x200B;를 선택할 수 있습니다. 관리자가 아닌 사용자는 개별 사용자만 볼 수 있습니다. **[!UICONTROL 검색]** 필드를 사용하여 그룹 또는 사용자를 검색합니다. 1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
-   세그먼트 옆에 공유 아이콘이 표시됩니다.![](assets/share_icon.png)
+   세그먼트 옆에 공유 아이콘이 표시됩니다.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
-1. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 세그먼트를 필터링할 수 있습니다.
+3. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 세그먼트를 필터링할 수 있습니다.

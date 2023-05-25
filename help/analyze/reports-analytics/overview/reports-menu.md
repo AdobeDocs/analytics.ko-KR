@@ -5,7 +5,7 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -61,19 +61,19 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud 솔루션 메뉴 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud 솔루션 메뉴 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="15px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> 이 아이콘을 클릭하면 다른 Marketing Could 솔루션에 액세스할 수 있게 Experience Cloud 메뉴가 확장됩니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">보고서 메뉴 전환 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">보고서 메뉴 전환 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="15px" /> </td> 
    <td colname="col2"> 이 단추를 클릭하면 [보고서] 메뉴가 확장되거나 축소되어 보고서를 브라우저 창의 전체 너비로 볼 수 있습니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">세그먼트 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">세그먼트 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="15px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">세그먼트를 추가 또는 관리할 수 있도록 해주는 세그먼트 레일을 표시합니다. 세그먼트 레일에서는 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >세그먼트 빌더</a> 및 <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >세그먼트 관리자</a> 인터페이스에 액세스할 수도 있습니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">지표 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">지표 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> 지표 및 계산된 지표를 추가 또는 관리할 수 있도록 해주는 지표 레일을 표시합니다. </td> 
   </tr> 
   <tr> 
@@ -117,11 +117,11 @@ Reports &amp; Analytics의 보고서 메뉴에 대한 개요.
    <td colname="col2"> 인쇄, 데이터 추출, 경고 추가, 사용자 지정 보고서 생성, 그래프 복사, 이 보고서에 연결, 새 창 열기 작업 중 일부 또는 전부를 수행할 수 있도록 해줍니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">보고서 세트 선택기 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col1">보고서 세트 선택기 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg" width="15px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
    <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >기본 보고서 세트</a>나 <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >가상 보고서 세트</a>를 선택할 수 있도록 해줍니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">달력 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
+   <td colname="col1">달력 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg" width="15px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
    <td colname="col2">보고 기간을 결정할 수 있도록 <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  >달력</a>을 표시합니다. </td> 
   </tr> 
  </tbody> 

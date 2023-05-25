@@ -4,10 +4,10 @@ title: 세그먼트 관리 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '938'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Report Builder는 요청 마법사의 1단계에 세그멘테이션 패널을 �
 
 ## 세그먼트 검색 및 적용 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭합니다.
+Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모든 세그먼트가 이 세그먼트 목록에 표시됩니다. 목록을 새로 고치려면 새로 고침 아이콘을 클릭합니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 지정된 요청에 하나 또는 여러 개의 세그먼트를 적용할 수 있습니다. 여기에는 순차적 세그먼트가 포함됩니다.
 
@@ -60,7 +60,7 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
    ![](assets/seg_list.png)
 
-1. 적용할 세그먼트를 선택합니다.
+2. 적용할 세그먼트를 선택합니다.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
 ## 세그먼트 목록 새로 고침 {#section_22E4A86789444B4A998532396B476EFB}
 
-언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘(![](assets/refresh_icon.png))을 클릭하여 캐시에 저장된 세그먼트 목록을 새로 고쳐야 합니다.
+언제든지 새 세그먼트를 추가하거나 기존 세그먼트를 편집할 때는 새로 고침 아이콘을 클릭해야 합니다 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 캐시된 세그먼트 목록을 새로 고칩니다.
 
 ## 요청에 있는 세그먼트 관리 {#section_C3D63FCBE1A94369A319243313B03C93}
 

@@ -3,10 +3,10 @@ description: 사용 권한에 따라, 전체 조직, 그룹 또는 개별 사용
 title: 계산된 지표 공유
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 24%
+source-wordcount: '324'
+ht-degree: 25%
 
 ---
 
@@ -23,11 +23,13 @@ ht-degree: 24%
 
 1. 계산된 지표 관리자에서 공유할 지표 왼쪽에 있는 확인란을 선택합니다.
 
-1. **[!UICONTROL 공유]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 공유]** 아이콘을 클릭합니다. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    계산된 지표 공유 대화 상자가 표시됩니다.
 
    ![](assets/cm_share.png)
+
+1. **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 
 1. 공유할 대상 선택:
 
@@ -45,6 +47,9 @@ ht-degree: 24%
 
 1. **[!UICONTROL 공유]**&#x200B;를 선택합니다.
 
-   지표 옆에 공유 아이콘이 표시됩니다.![](assets/share_icon.png)
+   지표 옆에 공유 아이콘이 표시됩니다.  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+
+1. **[!UICONTROL 필터]** > **[!UICONTROL 기타 필터]** > **[!UICONTROL 나와 공유]**&#x200B;로 이동하여 사용자와 공유되는 지표를 필터링할 수 있습니다.
 
 1. (선택 사항) 계산된 지표 관리자에서 계산된 지표 목록을 필터링하여 사용자와 공유된 지표만 표시하려면 **필터** 아이콘, 확장 **[!UICONTROL 기타 필터]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL 나와 공유됨]**.
+
