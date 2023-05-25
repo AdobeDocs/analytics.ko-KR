@@ -4,10 +4,10 @@ title: 세그먼트 관리 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 644e2d10eac226a35705351608161fe494efe113
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 92%
+source-wordcount: '948'
+ht-degree: 91%
 
 ---
 
@@ -68,7 +68,7 @@ Reports &amp; Analytics, Report Builder 또는 Data Warehouse에서 만든 모�
 
 ## 세그먼트 필터링 {#section_376E986D3E684999A7CDB08E53854159}
 
-필터 아이콘을 클릭하여 세그먼트를 **필터링**&#x200B;합니다.![](assets/segment_filter.png)
+**필터** 필터 아이콘을 클릭하여 세그먼트를 만듭니다.  ![필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 사용 가능한 필터:
 
