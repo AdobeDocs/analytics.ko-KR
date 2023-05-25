@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -112,8 +112,8 @@ ht-degree: 95%
    + [방문당 평균 페이지 조회수](metrics/average-page-views-per-visit.md)
    + [평균 세션 길이](metrics/average-session-length.md)
    + [사이트의 평균 시간](metrics/average-time-on-site.md)
-   + [보트 발생 횟수](metrics/bot-occurrences.md)
-   + [보트 페이지 보기](metrics/bot-page-views.md)
+   + [봇 발생 횟수](metrics/bot-occurrences.md)
+   + [보트 페이지 보기 수](metrics/bot-page-views.md)
    + [바운스 비율](metrics/bounce-rate.md)
    + [바운스 수](metrics/bounces.md)
    + [장바구니 추가](metrics/cart-additions.md)
@@ -177,7 +177,7 @@ ht-degree: 95%
       + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
-   + [기존 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
+   + [이전 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산된(파생된) 지표](c-calcmetrics/cm-overview.md)
@@ -186,14 +186,14 @@ ht-degree: 95%
       + [계산된 지표 작업 과정](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [&quot;방문자 수당 페이지 보기 수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [지원 주문 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [&quot;기여도&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [간단한 &quot;방문자 수당 페이지 조회수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [세분화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [필터 및 가중치가 적용된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [지원 지표 주문](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [함수 사용](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [참여도 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [계산된 지표에 태그 지정](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [계산된 지표 승인](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [계산된 지표 공유](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)

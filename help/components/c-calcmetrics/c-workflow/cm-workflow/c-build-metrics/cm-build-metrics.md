@@ -3,29 +3,26 @@ description: 계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수�
 title: 지표 작성
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 99%
+source-wordcount: '962'
+ht-degree: 90%
 
 ---
 
 # 지표 작성
 
-계산된 지표 빌더는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 정의 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단한 계산된 지표나 복잡한 고급 계산된 지표를 빌드하고 저장할 수 있습니다.
+Adobe Analytics에서는 차원, 지표, 세그먼트 및 함수를 드래그하여 놓음으로써 컨테이너 계층 논리, 규칙 및 연산자를 기준으로 사용자 지정 지표를 만들 수 있는 캔버스를 제공합니다. 이러한 통합 개발 도구를 사용하여 간단하거나 복잡한 계산된 지표를 빌드하고 저장할 수 있습니다.
 
-다음 몇 가지 방법으로 계산된 지표 빌더에 액세스할 수 있습니다.
+다음 방법 중 하나로 계산된 지표 만들기를 시작할 수 있습니다.
 
-* Analysis Workspace에서 프로젝트를 열고 **[!UICONTROL + 신규]** > **[!UICONTROL 지표 만들기]**&#x200B;를 클릭합니다.
-* [!DNL Analytics]에서 **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**&#x200B;로 이동합니다.
-
-* **[!UICONTROL 계산된 지표 관리자]**&#x200B;의 상단에서 [+ 추가](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)를 클릭하거나
-
-* **[!UICONTROL Analytics]** > **[!UICONTROL 보고서]**&#x200B;로 이동하여 아무 보고서나 연 다음 지표 아이콘 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)을 클릭하면 지표 레일이 나타나고 여기에서 다시 **[!UICONTROL 추가를 클릭합니다]**.
+* Analysis Workspace에서 프로젝트를 연 다음 을 선택합니다 **[!UICONTROL 구성 요소]** > **[!UICONTROL 지표 만들기]**.
+* Analysis Workspace에서 프로젝트를 연 다음 **플러스** 아이콘 옆에 있는 [!UICONTROL **지표**] 섹션(왼쪽 레일)을 참조하십시오.
+* 위치 [!DNL Analytics]로 이동합니다. **[!UICONTROL 구성 요소]** > **[!UICONTROL 계산된 지표]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL + 추가]** (계산된 지표 페이지 상단).
 
 ![](assets/cm_builder_ui.png)
 
-## UI 구성 요소 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## 사용 가능한 필드 및 영역 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 

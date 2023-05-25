@@ -4,7 +4,7 @@ title: 구성 요소 개요
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 66%
@@ -103,8 +103,6 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
 
 ### 구성 요소 목록 필터링
 
-{{release-limited-testing-section}}
-
 1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 왼쪽 레일에서.
 
 2. 다음 항목 선택 **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
@@ -129,6 +127,8 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
 4. (선택 사항) 목록을 추가로 보강하기 위해에서 설명한 대로 구성 요소 목록을 정렬할 수 있습니다 [구성 요소 목록 정렬](#sort-the-component-list).
 
 ### 구성 요소 목록 정렬
+
+{{release-limited-testing-section}}
 
 1. (선택 사항) 의 설명에 따라 구성 요소 목록에 필터를 적용합니다 [구성 요소 목록 필터링](#filter-the-component-list).
 
