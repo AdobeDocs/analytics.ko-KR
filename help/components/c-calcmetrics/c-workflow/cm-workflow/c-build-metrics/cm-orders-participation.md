@@ -3,10 +3,10 @@ description: 주문을 지원하는 마케팅 채널을 보여 주는 지표를 
 title: 지원 지표 주문
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '199'
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 57%
 
 1. 에 설명된 대로 계산된 지표 만들기를 시작합니다. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. 계산된 지표 빌더에서 지표의 이름을 &quot;지원 주문&quot;으로 지정합니다.
+1. 계산된 지표 빌더에서 지표의 이름을 &quot;지원 주문&quot; 또는 이와 유사하게 지정합니다.
 
 1. 정의 캔버스에서 주문 지표를 드래그합니다. 그런 다음 **[!UICONTROL 기본이 아닌 기여도 분석 모델]** 확인란을 선택하여 설정 기어를 통해 기여도 분석 모델을 조정합니다.
 

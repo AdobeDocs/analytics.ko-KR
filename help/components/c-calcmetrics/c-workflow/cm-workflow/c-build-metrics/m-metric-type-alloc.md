@@ -3,9 +3,9 @@ description: 알아보기
 title: 지표 유형 및 속성
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 73%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 73%
    | 표준 | 이 지표들은 표준 [!DNL Analytics] 보고에서 사용된 것과 동일한 지표입니다. 공식이 하나의 표준 지표로 구성된 경우 계산되지 않은 지표에 해당하는 대응값과 동일한 데이터가 표시됩니다. 표준 지표는 각 개별 라인 항목별로 계산된 지표를 만드는 데 유용합니다. 예를 들어 [주문] / [방문 횟수]는 특정 라인 항목에 대한 주문 수를 그 항목에 대한 방문 횟수로 나눕니다. |
    | 총계 | 모든 라인 항목에서 보고 기간에 총계를 사용합니다. 공식이 단일 총계 지표로 구성된 경우 모든 라인 항목에 동일한 총 수를 표시합니다. 총계 지표는 사이트 총계 데이터와 비교하는 계산된 지표를 만드는 데 유용합니다. 예를 들어 [주문] / [총 방문 횟수]는 특정 라인 항목에 대한 방문 횟수뿐만 아니라 해당 사이트에 대한 모든 방문 횟수에 대한 주문 수의 비율을 표시합니다. |
 
-## 열 속성 모델
-
-## 선형 할당 작동 방식 (2018년 7월 19일 현재)
+## 선형 할당 작동 방식
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 은 계산된 지표의 할당 모델을 평가하는 방법입니다.
 

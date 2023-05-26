@@ -3,18 +3,16 @@ description: 간단한 "방문당 페이지 보기 수" 지표를 만드는 방�
 title: 간단한 "방문자 수당 페이지 보기 수" 지표 작성
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '234'
 ht-degree: 54%
 
 ---
 
-# 간단한 &quot;방문자 수당 페이지 보기 수&quot; 지표 작성
+# &quot;방문자 수당 페이지 보기 수&quot; 지표 작성
 
 다음 정보는 간단한 &quot;방문자 수당 페이지 보기 수&quot; 지표를 만드는 방법을 설명합니다.
-
-UI 구성 요소에 대한 자세한 설명은 을 참조하십시오. [지표 작성](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 간단한 &quot;방문자 수당 페이지 보기 수&quot; 지표를 만들려면:
 
