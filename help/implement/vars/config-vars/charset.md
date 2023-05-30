@@ -3,16 +3,16 @@ title: charSet
 description: charSet 변수는 Adobe가 이미지 요청을 구문 분석하는 데 사용하는 인코딩을 결정합니다.
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 74%
+source-wordcount: '230'
+ht-degree: 66%
 
 ---
 
 # charSet
 
-charSet 변수는 Adobe에서 수신 데이터를 Analytics의 저장 및 보고를 위해 UTF-8로 변환하는 데 사용합니다. 대부분의 사이트는 이 변수를 설정할 필요가 없습니다.
+다음 `charSet` 변수는 Analytics에서 저장 및 보고를 위해 들어오는 데이터를 UTF-8로 변환하는 데 Adobe에서 사용됩니다. 대부분의 사이트는 이 변수를 설정할 필요가 없습니다.
 
 보고서에 잘못된 값 ([글자 깨짐](https://en.wikipedia.org/wiki/Mojibake))이 표시되는 경우에만 이 변수를 설정하십시오. 사이트가 서로 다른 페이지에서 다른 인코딩을 사용하는 경우 이 변수를 페이지별로 설정할 수 있습니다.
 

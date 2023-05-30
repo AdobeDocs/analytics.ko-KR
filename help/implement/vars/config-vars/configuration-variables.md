@@ -3,10 +3,10 @@ title: 구성 변수
 description: 구성 변수를 사용하여 데이터를 수집하는 방법을 결정합니다.
 feature: Variables
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 76%
+source-wordcount: '125'
+ht-degree: 65%
 
 ---
 
@@ -26,4 +26,4 @@ Web SDK 확장 또는 Analytics 확장을 사용하는 구현에서 구성 변�
 
 >[!IMPORTANT]
 >
->추적 메서드 ([`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md))를 호출하기 전에 모든 구성 변수가 설정되었는지 확인하십시오. [`doPlugins()`](../functions/doplugins.md) 함수에서 구성 변수를 설정하지 마십시오.
+>추적 메서드( )를 호출하기 전에 모든 구성 변수가 설정되었는지 확인하십시오.[`t()`](../functions/t-method.md) 또는 [`tl()`](../functions/tl-method.md)). [`doPlugins()`](../functions/doplugins.md) 함수에서 구성 변수를 설정하지 마십시오.

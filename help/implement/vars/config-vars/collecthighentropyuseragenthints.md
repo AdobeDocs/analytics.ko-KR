@@ -2,7 +2,7 @@
 title: collectHighEntropyUserAgentHints
 description: 'collectHighEntropyUserAgentHints 변수를 사용하여 Adobe가 Chromium 브라우저(예: Google Chrome 및 Microsoft Edge)에서 높은 엔트로피 힌트를 요청할지 여부를 결정합니다.'
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
@@ -22,11 +22,8 @@ ht-degree: 100%
 **[!UICONTROL 높은 엔트로피 사용자 에이전트 힌트 수집]**&#x200B;은 Adobe Analytics 확장을 구성할 때 [일반] 아코디언 아래에 있는 확인란입니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/#/@adobepm/data-collection)에 로그인합니다.
-
 1. 원하는 [!UICONTROL 태그 속성]을 클릭합니다.
-
 1. [!UICONTROL 확장] 탭으로 이동한 다음 Adobe Analytics 아래의 [!UICONTROL 구성]을 클릭합니다.
-
 1. [!UICONTROL 일반] 아코디언을 확장하면 [!UICONTROL 높은 엔트로피 사용자 에이전트 힌트] 확인란이 표시됩니다. 기본적으로 선택되어 있지 않습니다.
 
 ## AppMeasurement의 collectHighEntropyUserAgentHints

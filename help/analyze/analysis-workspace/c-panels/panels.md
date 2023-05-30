@@ -4,16 +4,16 @@ title: 패널 개요
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 68%
+source-wordcount: '1437'
+ht-degree: 57%
 
 ---
 
 # 패널 개요
 
-[!UICONTROL 패널]은 테이블 및 시각화 컬렉션입니다. Workspace의 왼쪽 위 아이콘이나 [빈 패널](blank-panel.md). 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다.
+[!UICONTROL 패널]은 테이블 및 시각화 컬렉션입니다. Workspace의 왼쪽 상단 아이콘 또는 [빈 패널](blank-panel.md). 패널은 기간, 보고서 세트 또는 분석 사용 사례에 따라 프로젝트를 구성하려는 경우 유용합니다.
 
 ## 패널 유형
 
@@ -68,9 +68,9 @@ Analysis Workspace에서 다음 패널 유형을 사용할 수 있습니다.
 
 ### 애드혹 세그먼트 필터
 
-세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 드래그하여 임시 세그먼트를 생성할 수도 있습니다. 이렇게 하면 세그먼트 빌더로 이동하는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 히트 수준 세그먼트로 정의됩니다. 이 정의는 세그먼트 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 세그먼트 빌더에서 편집하여 수정할 수 있습니다.
+세그먼트가 아닌 구성 요소를 드롭 영역으로 직접 끌어와 임시 세그먼트를 만들 수도 있으므로 세그먼트 빌더로 이동하는 데 드는 시간과 노력을 절약할 수 있습니다. 이러한 방식으로 생성된 세그먼트는 자동으로 히트 수준 세그먼트로 정의됩니다. 이 정의는 세그먼트 옆에 있는 정보 아이콘(i)을 클릭한 다음 연필 모양의 편집 아이콘을 클릭하고 세그먼트 빌더에서 편집하여 수정할 수 있습니다.
 
-Ad Hoc 세그먼트는 빠른 세그먼트의 유형이며 프로젝트에 로컬입니다. 공개하지 않으면 왼쪽 레일에 나타나지 않습니다
+애드혹 세그먼트는 빠른 세그먼트의 한 종류이며 프로젝트에 로컬입니다. 공개하지 않으면 왼쪽 레일에 나타나지 않습니다.
 
 자세한 내용은 [빠른 세그먼트](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
@@ -82,39 +82,39 @@ Ad Hoc 세그먼트는 빠른 세그먼트의 유형이며 프로젝트에 로�
 
 ![](assets/dropdown-filter-intro.png)
 
-정적 드롭다운 필터를 만드는 방법:
+정적 드롭다운 필터를 만들려면 다음 작업을 수행하십시오.
 
-* 차원 항목을 사용하는 드롭다운 필터의 경우 왼쪽 레일에서 원하는 차원 옆에 있는 오른쪽 화살표 아이콘을 클릭합니다. 이 작업은 사용 가능한 모든 차원 항목을 표시합니다. 을 사용하여 이 목록에서 여러 차원 항목을 선택합니다 `[Shift + Click]` 또는 `[Ctrl + Click]`를 만든 다음 패널 드롭존에 놓습니다 **계속`[Shift]`**.
-* 지표, 세그먼트 또는 날짜 범위와 같은 다른 구성 요소를 사용하는 드롭다운 필터의 경우 `[Shift + Click]` 또는 `[Ctrl + Click]`. 선택 영역을 패널 드롭존에 놓습니다 **계속`[Shift]`**. 모든 구성 요소 유형은 이 컨텍스트에서 세그먼트로 처리됩니다.
-* 단일 드롭다운 필터는 단일 구성 요소 유형만 포함할 수 있습니다. 선택 항목에 여러 구성 요소 유형을 포함하는 경우 구성 요소 유형별로 별도의 드롭다운 필터가 만들어집니다. 예를 들어 선택한 항목에 지표와 차원 항목을 모두 포함하는 경우 두 개의 별도의 드롭다운 필터가 생성됩니다. 한 드롭다운 필터에 차원 항목이 포함되고, 다른 필터에는 지표가 포함됩니다.
+* 차원 항목을 사용하는 드롭다운 필터의 경우 왼쪽 레일에서 원하는 차원 옆에 있는 오른쪽 화살표 아이콘을 클릭합니다. 이 작업은 사용 가능한 모든 차원 항목을 표시합니다. 다음을 사용하여 이 목록에서 여러 차원 항목 선택 `[Shift + Click]` 또는 `[Ctrl + Click]`을 클릭한 다음 패널 드롭 영역에 드롭합니다 **잠시 중단`[Shift]`**.
+* 지표, 세그먼트 또는 날짜 범위와 같은 다른 구성 요소를 사용하는 드롭다운 필터의 경우 다음을 사용하여 여러 구성 요소를 선택합니다. `[Shift + Click]` 또는 `[Ctrl + Click]`. 선택 영역을 패널 드롭 영역에 드롭합니다. **잠시 중단`[Shift]`**. 모든 구성 요소 유형은 이 컨텍스트에서 세그먼트로 처리됩니다.
+* 단일 드롭다운 필터에는 단일 구성 요소 유형만 포함될 수 있습니다. 선택 항목에 여러 구성 요소 유형을 포함하면 구성 요소 유형별로 별도의 드롭다운 필터가 만들어집니다. 예를 들어, 선택 항목에 지표와 차원 항목을 모두 포함하는 경우 두 개의 별도 드롭다운 필터가 생성됩니다. 한 드롭다운 필터에는 차원 항목이 포함되고 다른 드롭다운 필터에는 지표가 포함됩니다.
 
-드롭다운 목록에서 옵션 중 하나를 선택하여 패널에서 데이터를 변경합니다. 패널 데이터를 필터링하지 않도록 선택할 수도 있습니다. **[!UICONTROL 필터 없음]**.
+드롭다운 목록에서 옵션 중 하나를 선택하여 패널의 데이터를 변경합니다. 을 선택하여 패널 데이터의 를 필터링하지 않도록 선택할 수도 있습니다. **[!UICONTROL 필터 없음]**.
 
 ![](assets/create-dropdown.png)
 
-드롭다운 필터를 마우스 오른쪽 단추로 클릭하면 다음 옵션이 제공됩니다.
+드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 다음 옵션이 제공됩니다.
 
-* **[!UICONTROL 레이블 추가]**: 프로젝트에 드롭다운 필터를 추가하면 레이블이 구성 요소 이름으로 자동으로 설정됩니다. 레이블을 삭제하는 경우 이 옵션을 사용하여 다시 추가할 수 있습니다.
-* **[!UICONTROL 레이블 삭제]**: 드롭다운 필터 위에 있는 텍스트를 제거합니다.
+* **[!UICONTROL 레이블 추가]**: 프로젝트에 드롭다운 필터를 추가하면 레이블이 구성 요소 이름으로 자동으로 설정됩니다. 레이블을 삭제하면 이 옵션을 사용하여 다시 추가할 수 있습니다.
+* **[!UICONTROL 레이블 삭제]**: 드롭다운 필터 위의 텍스트를 제거합니다.
 * **[!UICONTROL 드롭다운 필터 삭제]**: 패널에서 드롭다운 필터를 제거합니다.
 
 프로젝트에 드롭다운 필터를 추가하는 방법에 대해 자세히 알아보려면 [비디오를 시청하십시오](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ko-KR).
 
-<!--### Dynamic drop-down filters
+### 동적 드롭다운 필터
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+동적 드롭다운 필터를 사용하면 패널의 보고 범위 내에 있는 데이터와 다른 드롭다운 필터의 값을 기준으로 사용 가능한 값을 결정할 수 있습니다. 예를 들어 다음을 사용하여 두 개의 동적 드롭다운을 만들 수 있습니다. [국가](/help/components/dimensions/countries.md) 차원 및 [도시](/help/components/dimensions/cities.md) 차원. 다음 목록에서 국가를 선택하면 [!UICONTROL 국가] 드롭다운 목록, [!UICONTROL 도시] 드롭다운 목록은 해당 국가 내의 도시만 표시하도록 동적으로 조정됩니다.
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+이 동일한 개념은 모든 차원에 적용됩니다. 패널의 날짜 범위 내에 표시되는 차원 항목과 선택한 필터만 표시됩니다. 정적 드롭다운 필터에서 선택한 Dimension 항목은 동적 드롭다운 필터의 사용 가능한 값에 영향을 줍니다. 그러나 역산은 true가 아닙니다. 동적 드롭다운 필터에서 선택한 Dimension 항목은 정적 드롭다운 필터의 사용 가능한 값에 영향을 주지 않습니다.
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+특정 차원 항목이 나중에 수집될 것으로 예상되면 수동으로 차원 항목을 선택할 수 있습니다. 동적 드롭다운 필터가 값을 포함하지 않도록 이 필터를 지우면 다른 동적 드롭다운 필터에 더 많은 값을 포함할 수 있습니다. 선택 **[!UICONTROL 모두 재설정]** 을 눌러 해당 패널에 대한 모든 드롭다운 필터에서 선택 사항을 지웁니다.
 
-To create a dynamic drop-down filter:
+동적 드롭다운 필터를 만들려면 다음 작업을 수행하십시오.
 
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* 단일 차원을 패널 드롭 영역으로 드래그 앤 드롭 **잠시 중단`[Shift]`**.
+* 지표, 세그먼트 또는 날짜 범위에 동적 드롭다운 필터를 사용할 수 없습니다.
+* 드롭다운 필터를 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 필터 삭제]** 삭제.
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+동적 드롭다운 필터를 마우스 오른쪽 버튼으로 클릭하면 정적 드롭다운 필터와 동일한 옵션이 제공됩니다.
 
 ## 마우스 오른쪽 버튼 클릭 메뉴 {#right-click}
 
@@ -126,8 +126,8 @@ Right-clicking a dynamic drop-down filter provides the same options as static dr
 
 | 설정 | 설명 |
 | --- | --- |
-| 복사한 패널/시각화 삽입 | 복사한 패널이나 시각화를 프로젝트 내의 다른 위치에 붙여넣거나 다른 프로젝트에 붙여넣을 수 있습니다(&quot;삽입&quot;). |
-| 패널 복사 | 패널을 마우스 오른쪽 단추로 클릭하고 복사하면 프로젝트 내의 다른 위치나 다른 프로젝트에 삽입할 수 있습니다. |
+| 복사한 패널/시각화 삽입 | 복사한 패널 또는 시각화를 프로젝트 내의 다른 위치 또는 다른 프로젝트에 붙여넣기(&quot;삽입&quot;)할 수 있습니다. |
+| 패널 복사 | 패널을 마우스 오른쪽 버튼으로 클릭하고 복사하여 프로젝트 내의 다른 위치 또는 다른 프로젝트에 삽입할 수 있습니다. |
 | 모든 패널에 보고서 세트 적용 | 프로젝트의 모든 패널에 활성 패널 보고서 세트를 적용할 수 있습니다. |
 | 패널 복제 | 현재 패널의 정확한 복제본을 만들어서 수정할 수 있습니다. |
 | 모든 패널 축소/확장 | 모든 프로젝트 패널을 축소 및 확장합니다. |
