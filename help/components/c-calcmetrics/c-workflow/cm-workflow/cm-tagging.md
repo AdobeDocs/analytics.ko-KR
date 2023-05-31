@@ -3,9 +3,9 @@ description: 계산된 지표 관리자에서 세그먼트에 태깅하여 세�
 title: 계산된 지표에 태그 지정
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 19%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 19%
 >
 >가장 유용한 태그 유형은 일반적으로 다음 기준을 기반으로 하는 태그입니다.
 >
->* **팀 이름**(예: 소셜 마케팅, 모바일 마케팅)
+>* **팀 이름**(예: 소셜 마케팅 또는 모바일 마케팅)
 >* **프로젝트** (분석 태그) (예: 시작 페이지 분석)
->* **카테고리**, 예: 여성; 지역.
->* **워크플로**, 예: 승인용, 처리됨 (특정 비즈니스 단위)
+>* **카테고리**&#x200B;여성 또는 지역 등.
+>* **워크플로**(특정 비즈니스 단위)에 대해 승인 또는 조정되는 대상 과 같은
 
 
 ## 계산된 지표에 태그 적용

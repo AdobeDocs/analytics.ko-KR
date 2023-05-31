@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '4191'
+source-wordcount: '4226'
 ht-degree: 95%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 95%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 6월** |  |
+| 계산된 지표 업데이트 | 스크린샷 업데이트 및 절차 단계를 포함하여 계산된 지표와 관련된 다양한 문서가 업데이트되었습니다. 이러한 변경 사항은 설명서를 현재 Adobe Analytics 기능과 함께 인라인으로 가져오기 위해 수행되었습니다. |
 | **2023년 5월** |  |
 | 스펙트럼 아이콘 | 설명서의 사용자 인터페이스 아이콘 스크린샷을 해당하는 경우에서 해당 아이콘에 대한 참조로 대체했습니다. [Adobe 스펙트럼 설계 시스템](https://spectrum.adobe.com/page/icons/). |
 | 개선된 IP-to-geolocation 매핑 | 에 대한 주제를 만들었습니다. [FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
