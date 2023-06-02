@@ -4,10 +4,10 @@ keywords: 세그먼테이션;세그먼트
 title: 세그먼트 컨테이너
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: bbe429512e9a65c6840ff10ace50bd6df6bcb481
+source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 58%
+source-wordcount: '3488'
+ht-degree: 57%
 
 ---
 
@@ -27,36 +27,22 @@ ht-degree: 58%
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #FFFFFF; border: 0; " colspan="5">
-</tr>
-
-<tr style="border: none;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
-<td></td>
 </tr>
-
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_container_hierarchy.png)
+<!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
 다음은 세그먼트 컨테이너에 대한 비디오 개요입니다.
 
@@ -140,133 +126,109 @@ Country = United States + Order = True
 
 순차적 세그먼테이션은 계층적으로 중첩된 [!UICONTROL 방문자], [!UICONTROL 방문] 및 [!UICONTROL 히트] (페이지 보기 또는 기타 차원 포함)를 포함하는 동일한 기본 컨테이너를 사용합니다.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/nesting_container.png)
+<!--![](assets/nesting_container.png)-->
 
 [!UICONTROL 방문]은 [!UICONTROL 방문자] 컨테이너에 포함되어 있고 [!UICONTROL 히트 수]는 [!UICONTROL 방문자] 또는 [!UICONTROL 방문] 컨테이너에 포함되어 있어 [!UICONTROL 방문자]가 순차적 세그먼테이션에서 가장 높은 수준의 컨테이너를 이루게 됩니다. 잘 정렬된 순차적 세그먼트를 만들려면 반드시 이 [컨테이너 계층](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)을 유지해야 합니다.
 
 **순차적 세그먼트를 작성하려면**, 컨테이너는 중첩되고 순차적 논리는 [!UICONTROL 그런 다음] 각 컨테이너를 필요로 하는 연산자 `true` 방문자의 시퀀스를 기반으로 합니다.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_nesting_3.png)
+<!--![](assets/sequential_segmentation_nesting_3.png)-->
 
 이 컨테이너 계층에 대한 유일한 예외는 [논리 그룹 컨테이너](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)를 사용하는 경우입니다. [!UICONTROL 논리 그룹] 컨테이너를 통해 이벤트 및 차원 캡처 순서 없이 순차적 순서를 벗어나서 히트를 컨테이너 내에 중첩할 수 있습니다.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 방문자 수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> 그룹</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 히트 수</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 방문 횟수</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
+
 </table>
 
-![](assets/logic_group_hierarchy.png)
+<!--![](assets/logic_group_hierarchy.png)-->
 
 ## 컨테이너 데이터 기반 보고서 {#reports}
 
@@ -278,24 +240,19 @@ Country = United States + Order = True
 
 예를 들어 아래 표시된 방문자는 첫 번째 방문에서 특정 사이트를 방문하고, 홈 페이지를 방문했다가 3개의 추가 페이지를 방문한 다음 매출로 이어졌습니다. 별도의 방문에서 방문자는 이번에는 제품 페이지부터 들어갔다가 홈 페이지를 방문한 후 다시 제품 페이지로 이동한 다음 겨울 모자를 보고 세션을 마감했습니다. 세그먼트의 각 컨테이너에 대해 캡처된 데이터를 기반으로 보고서에 다른 값이 표시됩니다.
 
-아래의 *Pages equals Winter Coat* 세그먼트는 **페이지 보고서**&#x200B;에 적용됩니다.
+다음 `Pages equals Winter Coat` 아래의 세그먼트는 다음에 적용됩니다. **페이지 보고서**.
 
-![](assets/page_winter_coat.png)
 
-선택한 컨테이너에 따라 보고서에 다른 결과가 표시됩니다.
+보고서는 선택한 컨테이너를 기반으로 방문자의 다음 방문 횟수 및 페이지 보기 횟수에 대해 서로 다른 결과를 표시합니다.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:auto; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>방문 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>방문 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -303,19 +260,17 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울용 의류</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 코트</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>$100 구매</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>방문 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>방문 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -323,15 +278,11 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>윈터 부츠</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울용 의류</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>겨울 모자</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 
-![](assets/container_overview.png)
+<!--![](assets/container_overview.png)-->
 
 ### 히트 컨테이너에서 보고
 
@@ -341,11 +292,16 @@ Country = United States + Order = True
 |---|--:|
 | 겨울 코트 | 1 |
 
-![](assets/container_overview_PV.png)
+<!--![](assets/container_overview_PV.png)-->
 
 히트 컨테이너에서 보고하는 경우 여러 다른 컨테이너에서 보고하는 방식이 전체 보고 값에 어떤 영향을 미치는지 확인할 수 있습니다. 세그먼트 보고서를 보면 페이지 보기 수가 방문 수와 거의 비슷하다는 사실을 알 수 있습니다(약 2,000명의 방문자가 한 번의 방문에서 중복된 페이지를 열람하여 총 페이지 보기 수로 계산됨). 그리고 고유 방문자 수는 방문 횟수(약 2,000명의 고유 방문자가 2회 이상 방문함)와 거의 같습니다.
 
-![](assets/container_report_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+|---|---|--:|--:|
+|  | 페이지 보기 수:<br/>보기 수:<br/>고유 방문자 수: | **69,252** / 351,292 <br/>**67,554** / 165,175 <br/>**63,541** / 113,169 | **19%**<br/>**40%**<br/>**56%** |
+
+
+<!--![](assets/container_report_PV.png)-->
 
 >[!IMPORTANT]
 >
@@ -362,11 +318,15 @@ Country = United States + Order = True
 | 겨울 코트 | 1 |
 | 구매 | 1 |
 
-![](assets/container_overview_visit.png)
+<!--![](assets/container_overview_visit.png)-->
 
 방문 컨테이너의 세그먼트 값을 표시하면 페이지 조회수가 크게 증가했음을 알 수 있습니다. 이는 방문 컨테이너에서 보고할 경우 해당 조건을 충족하는 모든 페이지와 해당 방문에서 열람된 다른 모든 페이지가 식별됩니다(모든 페이지 보기가 각 방문 컨테이너에서 캡처됨).
 
-![](assets/container_report_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+|---|---|--:|--:|
+|  | 페이지 보기 수:<br/>보기 수:<br/>고유 방문자 수: | **226,193** / 351,292 <br/>**67,554** / 165,175 <br/>**63,541** / 113,169 | **64%**<br/>**40%**<br/>**56%** |
+
+<!--![](assets/container_report_Visit.png)-->
 
 ### 방문자 컨테이너에서 보고
 
@@ -394,11 +354,15 @@ Country = United States + Order = True
 | 윈터 부츠 | 1 |
 | 겨울 모자 | 1 |
 
-![](assets/container_overview_visitors.png)
+<!--![](assets/container_overview_visitors.png)-->
 
 방문자 컨테이너의 세그먼트를 표시하면 해당 페이지 보기 및 방문 수가 증가했음을 알 수 있습니다. 이는 방문자 수준에서 방문자가 겨울 코트 페이지를 한 번 방문한 경우 (해당 조건 충족) 해당 방문자에 대해 캡처된 다른 모든 페이지 보기 및 다른 모든 방문이 증가하기 때문입니다.
 
-![](assets/container_report_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+|---|---|--:|--:|
+|  | 페이지 보기 수:<br/>보기 수:<br/>고유 방문자 수: | **240,094** / 351,292 <br/>**83,823** / 165,175 <br/>**63,541** / 113,169 | **68%**<br/>**50%**<br/>**56%** |
+
+<!--![](assets/container_report_Visitor.png)-->
 
 요약하면 다양한 데이터 분류 시 세그먼테이션이 작동하는 방식을 이해하면 반환되는 데이터를 보다 정확하게 해석할 수 있습니다.
 
@@ -437,26 +401,22 @@ Country = United States + Order = True
 
 캠페인 차원 또는 참조 차원과 같이 페이지 범위에 걸쳐 지속되는 차원별 필터링은 eVar 수준에서 수집된 데이터에 영향을 미치며, 보고의 정확성을 위해 이해되어야 합니다.
 
-세그먼트 데이터는 차원의 지속성 또는 선택한 여러 페이지에 적용된 변수에 따라 다를 수 있습니다. 페이지 차원과 같은 일부 차원은 페이지 수준에서 고유 값을 제공하며 히트 컨테이너의 데이터를 기준으로 필터링됩니다. (다음을 참조하십시오. [컨테이너 데이터 기반 보고서](/help/components/segmentation/seg-overview.md) 예). 참조 도메인 차원과 같은 기타 차원은 한 번에 방문한 여러 페이지에서 지속됩니다. 일부 차원 또는 적용된 변수 (예: Visit Duration)는 방문자의 전체 내역 내에서 그대로 유지됩니다.
+세그먼트 데이터는 차원의 지속성 또는 선택한 여러 페이지에 적용된 변수에 따라 다를 수 있습니다. 페이지 차원과 같은 일부 차원은 페이지 수준에서 고유 값을 제공하며 히트 컨테이너의 데이터를 기준으로 필터링됩니다. (다음을 참조하십시오. [컨테이너 데이터 기반 보고서](/help/components/segmentation/seg-overview.md) 예). 참조 도메인 차원과 같은 기타 차원은 한 번에 방문한 여러 페이지에서 지속됩니다. 예: `Referring Domain equals aol.com`. 일부 차원 또는 적용된 변수 (예: Visit Duration)는 방문자의 전체 내역 내에서 그대로 유지됩니다.
 
-![](assets/RefDomain_aol.png)
+<!--![](assets/RefDomain_aol.png)-->
 
 페이지 차원과 달리, 참조 도메인 값은 이 방문의 각 페이지에 연결됩니다. 예를 들어 아래 방문자는 참조 사이트에서 홈 페이지에 도달합니다. 따라서 해당 방문 내의 모든 페이지에는 동일한 참조 도메인 값이 할당됩니다.
 
 아래의 *Referring Domain equals aol.com* 세그먼트는 **페이지 보고서**&#x200B;에 적용됩니다.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>방문 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>방문 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
 </td>
@@ -464,19 +424,17 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울용 의류</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울 코트</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>$100 구매</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>방문 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>방문 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
 </td>
@@ -484,11 +442,7 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>윈터 부츠</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>겨울용 의류</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>겨울 모자</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 <!--![](assets/container_overview_persist.png)-->
@@ -506,11 +460,15 @@ Country = United States + Order = True
 | 겨울 코트 | 1 |
 | 구매 | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 히트 컨테이너의 데이터를 표시하여 겨우 32,000명이 넘는 방문자의 33,000번이 넘는 방문에서 겨우 92,000번 이상의 페이지 보기가 확인되었습니다. 평균적으로 각 방문당 3번의 페이지 보기가 있었으며 거의 모든 방문이 고유한 방문자에 의한 것이었습니다.
 
-![](assets/container_report_persist_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+|---|---|--:|--:|
+|  | 페이지 보기 수:<br/>보기 수:<br/>고유 방문자 수: | **98,234** / 351,165 <br/>**33,203** / 165,173 <br/>**32,269** / 113,110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_PV.png)-->
 
 ### 방문 컨테이너에서 보고
 
@@ -523,11 +481,15 @@ Country = United States + Order = True
 | 겨울 코트 | 1 |
 | 구매 | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 모든 페이지는 방문을 기준으로 동일한 참조 도메인 값을 가지므로 방문 컨테이너 수준의 보고서는 페이지 보기 컨테이너의 보고서와 (거의) 동일합니다. 데이터 오류로 인해 약간의 오프셋(98,234 대 98,248)이 존재한다.
 
-![](assets/container_report_persist_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+|---|---|--:|--:|
+|  | 페이지 보기 수:<br/>보기 수:<br/>고유 방문자 수: | **98,248** / 351,165 <br/>**33,203** / 165,173 <br/>**32,269** / 113,110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visit.png)-->
 
 ### 방문자 컨테이너에서 보고
 
@@ -559,14 +521,15 @@ Country = United States + Order = True
 | 겨울 모자<br/>참조 도메인 = &#39;weather.com&#39; | 1 |
 
 
-
-
-
-![](assets/container_overview_persist_Visitor.png)
+<!--![](assets/container_overview_persist_Visitor.png)-->
 
 방문자 컨테이너에서 데이터를 볼 때는 페이지 보기가 크게 증가했다는 사실을 알 수 있습니다(98,248 ~ 112, 925). 이는 방문자의 모든 페이지 보기 수(다른 참조 도메인 값이 방문자 컨테이너 수준에 저장된 페이지 포함)가 나열되었기 때문입니다. 또한 해당 방문자의 추가 방문으로 방문이 33,203에서 43,448로 늘어났습니다.
 
-![](assets/container_report_persist_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 지표 | # | % |
+|---|---|--:|--:|
+|  | 페이지 보기 수:<br/>보기 수:<br/>고유 방문자 수: | **112,925** / 351,165 <br/>**43,448** / 165,173 <br/>**32,269** / 113,110 | **32%**<br/>**26%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visitor.png)-->
 
 ## 요약
 
