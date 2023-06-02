@@ -5,10 +5,10 @@ title: 프로젝트 공유
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 53%
+source-wordcount: '1852'
+ht-degree: 52%
 
 ---
 
@@ -129,6 +129,10 @@ ht-degree: 53%
 >* 많은 사용자가 지정된 링크에 동시에 액세스하려고 하면 프로젝트에 액세스할 수 없게 될 수 있습니다. 기본적으로 190명 이상의 사용자가 5분마다 하나의 링크에 액세스할 수 있습니다. 조직이 이 제한에 도달하면 5분 정도 기다린 후 링크에 다시 액세스해 보십시오.
 
 
+다음 비디오 데모 및 함께 제공되는 설명서에서는 모든 사용자와의 링크 공유와 관련된 옵션에 대해 설명합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 Adobe Analytics에 대한 액세스 권한이 없는 사람과 Analysis Workspace 프로젝트를 공유하려면 다음을 수행하십시오.
 
 1. 공유할 Analysis Workspace 프로젝트를 엽니다.
@@ -149,7 +153,7 @@ Adobe Analytics에 대한 액세스 권한이 없는 사람과 Analysis Workspac
 
    * **[!UICONTROL Experience Cloud 인증 필요]:**
 
-      이 옵션이 활성화되면 공유 중인 프로젝트를 만든 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 프로젝트에 액세스할 수 있습니다.
+      이 옵션이 활성화된 경우 프로젝트에 액세스할 수 있는 사용자는 공유 중인 프로젝트가 생성된 Adobe Experience Cloud 조직에 로그인할 수 있는 사용자만 됩니다. 그러나 와 공유하는 사용자는 Adobe Analytics에 액세스할 필요가 없습니다.
 
       Analytics 관리자는에 설명된 대로 회사에 대해 이 환경 설정을 구성할 수 있습니다. [환경 설정](/help/analyze/analysis-workspace/user-preferences.md). 관리자가 이 옵션을 구성한 방식에 따라 다음과 같은 시나리오가 발생할 수 있습니다.
 
