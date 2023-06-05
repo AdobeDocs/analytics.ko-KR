@@ -3,9 +3,9 @@ description: 세그먼트를 사용하여 특성 또는 웹 사이트 상호 작
 title: 세그먼트 정보
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
+source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1183'
 ht-degree: 78%
 
 ---
@@ -237,7 +237,9 @@ Analysis Workspace에는 다음과 같은 추가 기능이 포함되어 있습�
 
 ## 세분화 방법 비디오 {#segment-video}
 
-이 비디오는 세그먼트 컨테이너가 정의와 사용 방법에 대한 간략한 개요를 제공합니다. [Adobe Analytics의 세그먼트 컨테이너](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=ko-KR)
+이 비디오는 세그먼트 컨테이너가 정의와 사용 방법에 대한 간략한 개요를 제공합니다.
+
+![](https://video.tv.adobe.com/v/25401)
 
 
 ## 세그먼테이션 도구 액세스 {#access}
