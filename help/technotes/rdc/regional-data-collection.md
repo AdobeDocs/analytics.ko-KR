@@ -3,16 +3,16 @@ title: 지역 데이터 수집
 description: 지역 데이터 수집 정보
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
+source-git-commit: a4dd138f0f2198da66caa272dd62b46f24b578b2
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 90%
 
 ---
 
 # 지역 데이터 수집
 
-Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 간의 상호 작용이 방문자에게 가까운 위치에서 발생할 수 있습니다. 데이터가 데이터 수집 센터(DCC)에서 지역적으로 수집되면 보안 연결을 통해 데이터 처리 센터(DPC)로 전달됩니다. 처리가 완료되면 Adobe Experience Cloud의 제품에서 처리된 데이터를 사용할 수 있습니다. RDC 유형을 변경하려면 Adobe 고객 지원 센터에 문의하십시오.
+Adobe Experience Cloud는 RDC(지역 데이터 수집)를 사용하므로 방문자와 Adobe 간의 상호 작용이 방문자에게 가까운 위치에서 발생할 수 있습니다. DCC(데이터 수집 센터)에서 데이터가 지역적으로 수집되면 보안 연결을 통해 DPC(데이터 처리 센터)로 전달됩니다. 처리가 완료되면 Adobe Experience Cloud의 제품에서 처리된 데이터를 사용할 수 있습니다. RDC 유형을 변경하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 지역 데이터 수집 프로세스는 다음과 같은 단계를 사용합니다.
 
