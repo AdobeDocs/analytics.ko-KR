@@ -3,10 +3,10 @@ title: 기존 Adobe Analytics 구현 관리
 description: 기존 Adobe Analytics 구현을 처음 사용하는 관리자를 위한 지침입니다.
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 87%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 ![플레이북](assets/inherited-impl-playbook.png)
 
-동료 기술 소유자인 Sarah Owen이 알려 주는 팁을 확인해 보십시오. Sarah는 [Adobe Analytics 챔피언](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p)이며 기존 구현을 맡아서 관리하는 데 인계된 구현 플레이북을 활용하는 방법에 대한 아이디어를 공유합니다.
+동료 기술 소유자인 Sarah Owen이 알려 주는 팁을 확인해 보십시오. Sarah는 Adobe Analytics 챔피언이며 기존 구현을 맡아서 관리하는 데 인계된 구현 플레이북을 활용하는 방법에 대한 아이디어를 공유합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 다음도 참조하십시오.
 
-* [각 웹 사이트 출시 후 구현 검토를 위한 “중점 검토” 체크리스트](/help/implement/review/focused-review.md)
-* [6개월 단위 구현 검토를 위한 “전체 검토” 체크리스트](/help/implement/review/full-review.md)
+* [각 웹 사이트 출시 후 구현 검토를 위한 &quot;중점 검토&quot; 체크리스트](/help/implement/review/focused-review.md)
+* [6개월마다 구현 검토를 위한 &quot;전체 검토&quot; 체크리스트](/help/implement/review/full-review.md)
 * [상위 5개의 KPI 정의](/help/implement/review/define-kpis.md)
