@@ -4,10 +4,10 @@ description: 사용자를 위한 일반 및 프로젝트 환경은 물론 어두
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 79%
+source-wordcount: '3063'
+ht-degree: 80%
 
 ---
 
@@ -49,17 +49,13 @@ Analysis Workspace에서 만드는 모든 새 프로젝트에 대한 일반 환�
 
 ## 회사 환경 설정
 
->[!AVAILABILITY]
->
->이 섹션에 설명된 대로 프로젝트를 누구와도 공유하는 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 기능이 일반적으로 제공되면 이 메모는 제거됩니다. Analytics 릴리스 프로세스에 대한 자세한 내용은 [Adobe Analytics 기능 릴리스](/help/release-notes/releases.md)를 참조하십시오.
-
 조직 내의 모든 사용자 및 프로젝트에 적용되는 회사 환경 설정을 업데이트할 수 있습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 [환경 설정 업데이트](#update-preferences)를 참조하십시오.
 
 | 섹션 | 환경 설정 | 옵션 |
 | --- | --- | --- |
 | **보고서 탭** |  |  |
 |  | 보고서 탭 숨기기 | 조직의 모든 사용자에 대한 보고서 탭을 숨깁니다. |
-| **프로젝트 공유** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+| **프로젝트 공유** |  |  |
 |  | 작업 공간 사용자와의 공유만 허용 | <p>이 옵션을 활성화하면 조직의 사용자가 공유 메뉴에서 &quot;모든 사람과 공유&quot; 옵션을 볼 수 없습니다. 즉, 사용자는에 설명된 대로 조직에 Analysis Workspace 계정이 없는 사람들과 프로젝트를 공유할 수 없습니다 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>이 옵션을 활성화하거나 비활성화할 때 다음 사항을 고려하십시오.</p> <ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 더 이상 프로젝트에 액세스할 수 없습니다.</p></li><li><p>이 옵션이 활성화(Workspace 사용자와의 공유만 허용)된 후 나중에 비활성화(모든 사람과 공유 허용)된 경우 &quot;모든 사람과 공유&quot; 공유 옵션을 통해 이전에 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 않습니다. 이 경우 프로젝트를 공유한 사용자는 [!UICONTROL **링크가 활성 상태입니다.**] 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 옵션([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
 |  | Experience Cloud 인증 필요 | <p>활성화되면 Analysis Workspace의 &quot;모든 사람과 공유&quot; 옵션에서 프로젝트에 대한 액세스 권한을 부여 받은 사람은 Experience Cloud 자격 증명을 사용하여 인증해야 합니다.</p> <p>이 옵션이 활성화되면 사용자가 &quot;모든 사람과 공유&quot; 공유 옵션을 사용하여 프로젝트를 공유할 때마다 공유 대화 상자에서 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되고 프로젝트를 공유하는 사용자는 이 옵션을 비활성화할 수 없습니다. (사용자가 누구와도 프로젝트를 공유할 수 있는 방법에 대한 자세한 내용은 [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>이 옵션을 활성화할 때 다음 사항을 고려하십시오.</p><ul><li><p>이 옵션을 활성화하면 이전에 &quot;모든 사람과 공유&quot; 공유 옵션과 공유되었지만 &quot;Experience Cloud 인증 필요&quot; 옵션이 활성화되지 않은 모든 프로젝트가 비활성화됩니다.</p></li> <li><p>이 옵션을 활성화(Experience Cloud 인증 필요)한 다음 나중에 비활성화(링크가 있는 모든 사용자가 프로젝트에 액세스할 수 있도록 허용)하면 이전에 &quot;모든 사용자와 공유&quot; 공유 옵션을 통해 프로젝트에 대한 액세스 권한을 받은 사람은 프로젝트에 대한 액세스 권한을 자동으로 다시 얻지 못합니다. 이 경우 프로젝트를 공유한 사용자는 프로젝트를 모든 사람과 공유할 때 사용할 수 있는 &quot;링크가 활성화됨&quot; 옵션을 활성화해야 합니다([!UICONTROL **공유**] > [!UICONTROL **누구와도 공유**] > [!UICONTROL **링크가 활성 상태입니다.**]&#x200B;에 설명된 대로 ) [누구와도 프로젝트 공유(로그인 필요 없음)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 위치: [프로젝트 공유](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>이 옵션은 조직에서 SSO가 구현된 경우에만 사용할 수 있습니다. 시스템 관리자가 조직에 대해 SSO를 활성화할 수 있는 방법에 대한 자세한 내용은 [ID 및 SSO(Single Sign-On) 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>조직에 대해 SSO가 구성되어 있는 경우 콘솔에서 자동 계정 만들기 유형이 구현되는지 확인하십시오. 일반적으로 시스템 관리자는에 설명된 대로 이 설정을 수행합니다 [자동 계정 만들기 활성화](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>조직이 HIPAA 준수를 필요로 하는 산업에 속한 경우 이 옵션은 자동으로 활성화되고 비활성화될 수 없습니다.</p></li></ul> |
 
