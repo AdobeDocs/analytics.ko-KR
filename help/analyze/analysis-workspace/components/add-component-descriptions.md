@@ -3,7 +3,8 @@ description: 관리자는 보고서 세트 중 하나를 사용하여 구성 요
 title: 구성 요소 설명 추가
 feature: Components
 role: Admin
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 43%
@@ -23,8 +24,6 @@ Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내�
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
 ## Analysis Workspace의 구성 요소에 설명 추가(데이터 사전 사용) {#add-descriptions}
-
-{{release-limited-testing-section}}
 
 Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두가 Analytics 환경의 구성 요소를 추적하고 더 잘 이해할 수 있습니다. 여기에는 Analytics 관리자가 Analysis Workspace 내에서 직접 구성 요소 설명을 추가할 수 있는 기능이 포함됩니다.
 

@@ -3,10 +3,10 @@ title: 지표 개요
 description: 시간에 따른 차원 항목 또는 데이터의 수량을 봅니다.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-주어진 지표 도움말 페이지를 찾을 수 없다면 그것은 [사용자 정의 이벤트](custom-events.md)나 [계산된 지표](../c-calcmetrics/cm-overview.md)일 수 있습니다.
+주어진 지표에 대한 도움말 페이지를 찾을 수 없다면 다음 중 하나일 수 있습니다. [사용자 지정 이벤트](custom-events.md) 또는 [계산된 지표](../c-calcmetrics/cm-overview.md).
 
 * 지표가 사용자 정의 이벤트인 경우 조직 내의 Analytics 관리자에게 문의하거나 보고서 세트의 [솔루션 디자인 문서](/help/implement/prepare/solution-design.md)를 참조하십시오.
 * 지표가 계산된 지표인 경우 정보 아이콘을 클릭하여 공식을 확인합니다.
@@ -30,3 +30,7 @@ ht-degree: 100%
 ## 지표 설명 추가
 
 Analytics 관리자는 보고서 세트 내에서 또는 Analysis Workspace 내에서 직접 지표 및 기타 구성 요소에 대한 설명을 추가할 수 있습니다. 지표에 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)를 참조하십시오.
+
+## Analysis Workspace에서 지표 사용
+
+Analysis Workspace에서 지표를 사용하는 방법에 대한 자세한 내용은 의 &quot;Analysis Workspace에서 지표 사용&quot;을 참조하십시오. [지표](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
