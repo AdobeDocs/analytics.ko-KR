@@ -3,9 +3,9 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1d98d711c17d3c7ca487b8f5bd4e918a9a399ea7
+source-git-commit: 49c4acb38a96b5fd6a8cd25258628adc9a68074c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1426'
 ht-degree: 53%
 
 ---
@@ -20,11 +20,9 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **프로젝트 링크 공유 (로그인 불필요)** | 이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사용자 또는 Adobe Analytics용으로 프로비저닝되지 않은 조직 내의 사용자와의 공유가 포함됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko#share-public-link)<p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=ko#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 7일 |
-| **분류 세트 - 통합** | 서로 다른 보고서 세트의 분류를 통합된 데이터 세트로 결합합니다. 통합 데이터 세트는 분류 세트에서 또는 CJA에서 조회 데이터 세트로 사용할 수 있습니다. 자세히 알아보기 (곧 제공 예정) |  | 2023년 6월 7일 |
-| **분류 세트 - 규칙 빌더** | 현재 분류 세트 아키텍처에서 분류 규칙 빌더를 사용합니다. 자세히 알아보기 (곧 제공 예정) |  | 2023년 6월 7일 |
-| **분류 세트 - 자동화된 가져오기** | 이제 클라우드 스토리지 대상에서 분류 세트 데이터를 자동으로 가져올 수 있습니다. 자세히 알아보기 (곧 제공 예정) |  | 2023년 6월 7일 |
-| **새 AppMeasurement 변수** | 변수 `doubleEncodeLinkParameters` 구현이 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 에지 사례를 포함합니다. 대부분의 구현에서는 이 변수를 정의할 필요가 없습니다. 자세히 알아보기 (곧 제공 예정) |  | 2023년 6월 7일 |
+| **프로젝트 링크 공유 (로그인 불필요)** | 이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사용자 또는 Adobe Analytics용으로 프로비저닝되지 않은 조직 내의 사용자와의 공유가 포함됩니다. [자세히 알아보기](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 7일 |
+| **분류 세트를 위한 새로운 기능** | [분류 세트](/help/components/classifications/sets/overview.md) 다음과 같은 몇 가지 새로운 기능이 업데이트되었습니다.<ul><li>**통합**: 분류 세트를 하나의 통합된 분류 세트로 결합합니다. 통합 분류 세트는 다른 분류 세트처럼 또는 CJA에서 조회 데이터 세트로 사용할 수 있습니다. [자세히 알아보기](../components/classifications/sets/consolidations/manage.md)</li><li>**규칙**: 분류 세트의 규칙을 기반으로 값을 자동으로 분류합니다. [자세히 알아보기](../components/classifications/sets/manage/rules.md)</li><li>**자동 가져오기**: 클라우드 스토리지 대상에서 분류 데이터를 자동으로 가져옵니다. [자세히 알아보기](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023년 6월 7일 |
+| **새 AppMeasurement 변수** | 변수 `doubleEncodeLinkParameters` 구현이 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 에지 사례를 포함합니다. 대부분의 구현에서는 이 변수를 정의할 필요가 없습니다. [자세히 알아보기](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023년 6월 7일 |
 | **데이터 피드 내보내기를 위한 보안 대상** | 이제 데이터 피드를 다음 클라우드 스토리지 대상으로 전송할 수 있습니다.<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud 플랫폼</li></ul>이전에 사용할 수 있었던 대상(FTP, SFTP, S3 및 Azure Blob)은 더 이상 권장되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) |  | 2023년 6월 12일 |
 | **Workspace에서의 보트 보고** | 이제 Analysis Workspace에서 보트 보고를 사용할 수 있습니다. 이 기능은 다음과 같은 몇 가지 추가 기능과 함께 제공됩니다.<ul><li>새 차원: [보트 이름](/help/components/dimensions/bot-name.md)</li><li>두 개의 새 지표: [보트 페이지 보기 수](/help/components/metrics/bot-page-views.md) 및 [봇 발생 횟수](/help/components/metrics/bot-occurrences.md).</li><li>새 계산된 지표 템플릿: [보트 페이지 보기 비율](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>새 작업 영역 보고서: 보트 보고</li></ul>새 차원 및 지표에는 2023년 3월부터 다시 채워진 데이터가 포함됩니다. |  | 7,2023년 6월 |
 

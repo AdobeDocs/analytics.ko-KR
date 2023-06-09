@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Data Warehouse 세그먼트 호환성](segmentation/seg-reference/seg-compatibility.md)
       + [역할별 세그먼트 권한](segmentation/seg-reference/seg-rights.md)
       + [문제 해결](segmentation/seg-reference/c-troubleshooting.md)
-   + [이전 세그먼트 관리에 대한 FAQ ](segmentation/seg-transition.md)
+   + [이전 세그먼트 관리에 대한 FAQ](segmentation/seg-transition.md)
    + [모범 사례](segmentation/best-practices.md)
 + 계산된 지표 {#calculated-metrics}
    + [계산 및 고급 계산(파생) 지표](c-calcmetrics/cm-overview.md)
@@ -234,12 +234,18 @@ ht-degree: 90%
    + [지능형 경고 - 활용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/c-classifications.md)
-   + 분류 세트 {#sets}
+   + 분류 설정 {#sets}
       + [분류 세트 개요](classifications/sets/overview.md)
-      + [분류 세트 관리자](classifications/sets/set-manager.md)
+      + 분류 세트 관리 {#manage}
+         + [분류 세트 관리자](classifications/sets/manage/set-manager.md)
+         + [분류 세트 만들기](classifications/sets/manage/create.md)
+         + [분류 세트 설정](classifications/sets/manage/settings.md)
+         + [분류 세트 스키마](classifications/sets/manage/schema.md)
+         + [분류 세트 규칙](classifications/sets/manage/rules.md)
       + [분류 세트 작업 관리자](classifications/sets/job-manager.md)
-      + [분류 세트 만들기](classifications/sets/create.md)
-      + [분류 세트 설정](classifications/sets/settings.md)
+      + 분류 세트 통합 {#consolidations}
+         + [분류 세트 통합 관리자](classifications/sets/consolidations/manage.md)
+         + [분류 세트 통합 프로세스](classifications/sets/consolidations/process.md)
    + 분류 규칙 빌더 {#classifications-rulebuilder}
       + [분류 규칙 빌더 작업 과정](classifications/crb/classification-rule-builder.md)
       + [분류 규칙 세트](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [FTP 내보내기](classifications/importer/ftp-export.md)
       + [처리 시간](classifications/importer/processing-time.md)
       + [문제 해결](classifications/importer/troubleshooting.md)
+
    + [하위 분류](classifications/c-sub-classifications.md)
    + [분류 FAQ](classifications/faq.md)
 + [달력 이벤트](t-calendar-event.md)
