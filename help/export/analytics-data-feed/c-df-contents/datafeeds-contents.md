@@ -5,16 +5,30 @@ subtopic: data feeds
 title: 데이터 피드 콘텐츠 - 개요
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
 # 데이터 피드 콘텐츠 - 개요
 
-이 섹션은 데이터 피드 배달에서 발견되는 파일을 설명합니다.
+다음 섹션에서는 데이터 피드 배달에 있는 파일에 액세스하고 이해하는 방법에 대해 설명합니다.
+
+## 데이터 피드 콘텐츠 액세스
+
+데이터 피드의 콘텐츠에 액세스하려면 다음을 수행하십시오.
+
+1. 데이터 피드 대상 사이트에 로그인합니다.
+
+   Amazon S3 또는 Google Cloud Platform 버킷과 같이 데이터 피드를 만들 때 설정한 대상 사이트입니다.
+
+1. 로컬 시스템에 압축된 데이터 피드 파일을 다운로드합니다.
+
+1. `.tar.gz` 파일 확장자를 지원하는 프로그램을 사용하여 압축 파일의 압축을 해제합니다.
+
+1. 원하는 스프레드시트나 데이터베이스 애플리케이션에서 `hit_data.tsv` 파일을 열어 해당 날의 원시 데이터를 확인합니다. -->
 
 ## 매니페스트 파일 {#feed-manifest}
 

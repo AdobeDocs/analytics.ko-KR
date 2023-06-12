@@ -3,10 +3,10 @@ title: 데이터 피드 UI
 description: 데이터 피드 인터페이스를 탐색하는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ### 추가
 
-새 피드를 만들려면 피드 및 작업 탭 근처에서 + [!UICONTROL 추가] 버튼을 클릭하십시오. 자세한 내용은 [피드 추가](create-feed.md)를 참조하십시오.
+새 피드를 만들려면 피드 및 작업 탭 근처에서 + [!UICONTROL 추가] 버튼을 클릭하십시오. 다음을 참조하십시오 [데이터 피드 만들기](create-feed.md) 추가 정보.
 
 ### 열
 
@@ -66,8 +66,8 @@ ht-degree: 100%
 * **보고서 세트 ID**: 보고서 세트의 고유 식별자입니다.
 * **데이터 열**: 피드에 대해 활성화된 데이터 열입니다. 대부분의 경우 이 형식으로 표시할 열이 너무 많습니다.
 * **간격**: 피드가 시간별인지 또는 일별인지를 나타냅니다.
-* **대상 유형**: 피드의 대상 유형입니다. (예: FTP, Amazon S3, Azure)
-* **대상 호스트**: 파일이 배치된 위치입니다. (예: `ftp.example.com`)
+* **대상 유형**: 피드의 대상 유형입니다. 예를 들어 Amazon S3, GCP 또는 Azure가 있습니다.
+* **대상 호스트**: 파일이 배치된 위치입니다.
 * **소유자**: 피드를 만든 사용자 계정입니다.
 * **상태**: 피드의 상태입니다.
    * 활성: 피드가 작동 중입니다.
