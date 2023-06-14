@@ -4,7 +4,7 @@ description: 구현에 대한 자주 묻는 질문 및 추가 정보 링크.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -48,7 +48,6 @@ var s = new Object();
 >* Adobe 서버에서 불필요한 로드를 생성하므로 보고서 세트를 잘못된 값으로 변경하지 마십시오.
 >* 각 페이지에서 `s_code.js` 파일에 대한 모든 참조를 제거하지 않는 한 이 파일을 모두 제거하지 마십시오.
 >* `trackingServer` 변수를 Adobe에서 멀리 가리키도록 변경하지 마십시오. AppMeasurement가 여전히 404 오류를 반환하는 이미지 요청을 전송합니다.
-
 
 ## 코드 분석기를 통해 AppMeasurement를 실행했으며 AppMeasurement가 `Math.random()` 사용을 잠재적인 보안 위험으로 표시했습니다. 민감한 데이터에 `Math.random()`을 사용합니까?
 
