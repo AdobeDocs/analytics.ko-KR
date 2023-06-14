@@ -4,7 +4,7 @@ description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -376,24 +376,24 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 * 구현 시 추가적인 대시 문자 구분 기호와 함께 버전 문자열에 추가되는 최대 4개의 문자를 지정할 수 있도록 해 주는 `tagContainerMarker` 변수를 추가했습니다. 이는 Dynamic Tag Management에서 사용됩니다.
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   4개의 문자는 영숫자 및 마침표와 같이 URL 파일 경로에 허용되는 문자로 제한됩니다.
+  4개의 문자는 영숫자 및 마침표와 같이 URL 파일 경로에 허용되는 문자로 제한됩니다.
 
 * H 코드로 이중 태그가 지정된 페이지에서, 강제 링크 추적이 활성화되면 (Webkit 브라우저에서 기본값) 자동 링크 추적 (다운로드 및 종료) 시 발생할 수 있는 루프를 수정했습니다. 또한 유사한 루프를 방지하기 위해 자동 링크 추적 주위에 일반적인 보호 조치를 추가했습니다. 이 안전 조치는 *동일한* 오브젝트에 대한 보고된 클릭 수의 자동 링크 추적을 10초마다 한 번으로 제한합니다. 이 안전 조치는 자동 링크 추적에만 적용되므로, 수동 링크 추적 (s.tl) 호출은 제한되지 않습니다. 다른 오브젝트에 대한 클릭도 이 안전 조치의 영향을 받지 않으며, 추적됩니다.
 * 지연이 필요할 때 클릭한 오브젝트에 대한 처리를 수정했습니다.
 * 방문자 API에 필요한 값이 아직 없을 경우 링크 onclick 함수에서 s.t가 호출될 때 이중 페이지 보기 카운트를 초래하던 문제를 수정했습니다.
 * HTTP POST 지원.
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Analytics] 호출이 [!DNL AppMeasurement]에서 GET 메서드 ([IE의 잘린 URL](https://helpx.adobe.com/kr/analytics/kb/shortening-image-request-urls.html)을 해결하는 메서드) 대신 POST 메서드를 사용하도록 하려면 Experience Cloud에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
+  >[!IMPORTANT]
+  >
+  >[!DNL Analytics] 호출이 [!DNL AppMeasurement]에서 GET 메서드 ([IE의 잘린 URL](https://helpx.adobe.com/kr/analytics/kb/shortening-image-request-urls.html)을 해결하는 메서드) 대신 POST 메서드를 사용하도록 하려면 Experience Cloud에 대해 최신 방문자 ID 서비스 구현을 사용해야 합니다.
 
 ## 버전 1.4
 
@@ -482,11 +482,11 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 
 * 이제 해시/단편이 자동 링크 추적에서 무시됩니다. 이전에는 전체 `href`가 `.pdf`로 끝났으므로 다음 URL이 자동으로 추적되었습니다.
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   이제 해시/단편이 무시되므로 파일 이름이 일치하는 확장명으로 끝나는 경우에만 해당 링크가 추적됩니다.
+  이제 해시/단편이 무시되므로 파일 이름이 일치하는 확장명으로 끝나는 경우에만 해당 링크가 추적됩니다.
 
 ## 버전 1.0.1
 
