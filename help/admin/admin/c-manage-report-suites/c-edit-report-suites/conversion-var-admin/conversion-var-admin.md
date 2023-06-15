@@ -4,10 +4,10 @@ keywords: eVar
 title: 전환 변수 (eVar)
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 100%
+source-wordcount: '1681'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 
 사용자 정의 인사이트 전환 변수 (또는 eVar)는 사이트에서 선택된 웹 페이지의 Adobe 코드에 삽입됩니다. eVar의 기본 목적은 사용자 정의 마케팅 보고서의 전환 성공 지표를 세그먼트화하는 것입니다. eVar는 방문 기준이며 쿠키와 유사한 기능을 수행할 수 있습니다. eVar 변수로 전달된 값은 사전 결정된 기간 동안 사용자를 따릅니다.
 
+**[!UICONTROL 분석]** > **[!UICONTROL 관리자]** > **[!UICONTROL 보고서 세트]** > **[!UICONTROL 설정 편집]** > **[!UICONTROL 전환]** > **[!UICONTROL 전환 변수]**
 
 ## 전환 변수(eVars) 개요
 

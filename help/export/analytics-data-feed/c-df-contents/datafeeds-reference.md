@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 데이터 열 참조
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '3670'
+source-wordcount: '3671'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 98%
 >
 >열 대부분은 `post_`라는 접두어가 있는 유사한 열을 포함합니다. 이후 열에는 서버측 논리, 처리 규칙 및 VISTA 규칙 다음의 값이 있습니다. 대부분의 경우 이후 열을 사용하는 것이 좋습니다. 자세한 내용은 [데이터 피드 FAQ](../df-faq.md)를 참조하십시오.
 
-이 테이블의 이전 업데이트는 [GitHub에서 기록 커밋](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+이 테이블에 대한 이전 업데이트는 이 페이지의 [gitHub의 커밋 내역](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | 열 이름 | 열 설명 | 데이터 유형 |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ ht-degree: 98%
 | **`browser_width`** | 브라우저 창의 폭 (픽셀). | smallint 부호 없음 |
 | **`c_color`** | 색 팔레트의 비트 깊이입니다. [색상 심도](/help/components/dimensions/color-depth.md) 차원 계산의 일부로 사용됩니다. AppMeasurement는 JavaScript 함수 `screen.colorDepth()`를 사용합니다. | char (20) |
 | **`campaign`** | [추적 코드](/help/components/dimensions/tracking-code.md) 차원에 사용되는 변수입니다. | varchar (255) |
-| **`carrier`** | Adobe Advertising 통합 변수입니다. 이동통신사를 지정합니다. 에 대한 키 값 `carrier.tsv` [동적 조회](dynamic-lookups.md). | varchar(100) |
+| **`carrier`** | Adobe Advertising 통합 변수입니다. 이동통신사를 지정합니다. 의 키 값 `carrier.tsv` [동적 조회](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | HTTP 요청 헤더를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`ch_js`** | 사용자 에이전트 클라이언트 힌트 JavaScript API를 통해 수집된 클라이언트 힌트입니다. | 텍스트 |
 | **`channel`** | [사이트 섹션](/help/components/dimensions/site-section.md) 차원에 사용되는 변수입니다. | varchar (100) |
@@ -100,7 +100,7 @@ ht-degree: 98%
 | **`ipv6`** | 압축된 IPv6 주소입니다(사용 가능한 경우). `ip`과 상호 배타적입니다. 이 열에 난독화되지 않은 IP 주소가 포함된 경우 `ip`은 비어 있습니다. | varchar(40) |
 | **`j_jscript`** | 브라우저가 지원하는 JavaScript 버전입니다. | char (5) |
 | **`java_enabled`** | Java가 사용되는지를 나타내는 플래그입니다. <br>Y: 활성화됨<br>N: 비활성화됨<br>U: 알 수 없음 | char (1) |
-| **`javascript`** | `j_jscript`를 기반으로 하는 JavaScript 버전의 조회 ID입니다. 조회 테이블을 사용합니다. | tinyint 부호 없음 |
+| **`javascript`** | `j_jscript`를 기반으로 하는 JavaScript 버전의 조회 ID입니다. `javascript_version` 조회 테이블을 참조합니다. | tinyint 부호 없음 |
 | **`language`** | 언어의 숫자 ID입니다. `languages.tsv` 조회 테이블을 사용합니다. | smallint 부호 없음 |
 | **`last_hit_time_gmt`** | 이전 히트의 타임스탬프(UNIX® 시간)입니다. [마지막 방문 이후의 일수](/help/components/dimensions/days-since-last-visit.md) 차원을 계산하는 데 사용됩니다. | int |
 | **`last_purchase_num`** | [고객 충성도](/help/components/dimensions/customer-loyalty.md) 차원에 사용되는 변수입니다. 방문자가 수행한 이전 구매 횟수입니다. <br>0: 이전 구매 없음 (고객이 아님) <br>1: 1회 이전 구매 (신규 고객) <br>2: 2회 이전 구매 (재방문 고객) <br>3: 3회 이상 이전 구매 (단골 고객) | int 부호 없음 |
@@ -110,7 +110,7 @@ ht-degree: 98%
 | **`latlon45`** | 위치 (1m까지) | varchar (255) |
 | **`mc_audiences`** | 방문자가 속한 Audience Manager 세그먼트 ID 목록입니다. `post_mc_audiences`열은 구분 기호를 `--**--`로 변경합니다. | 텍스트 |
 | **`mcvisid`** | Experience Cloud 방문자 ID. 19자리에 채워진 두 개의 연결된 64비트 숫자로 구성된 128비트 숫자입니다. | varchar (255) |
-| **`mobile_id`** | 사용자가 모바일 디바이스를 사용하는 경우 디바이스의 숫자 ID입니다. 에 대한 키 값 `mobile_attributes.tsv` [동적 조회](dynamic-lookups.md). | int |
+| **`mobile_id`** | 사용자가 모바일 디바이스를 사용하는 경우 디바이스의 숫자 ID입니다. 의 키 값 `mobile_attributes.tsv` [동적 조회](dynamic-lookups.md). | int |
 | **`mobileaction`** | 모바일 작업입니다. Mobile Services에서 `trackAction`이 호출되면 자동으로 수집됩니다. 앱에서 경로를 지정하는 자동 작업을 허용합니다. | varchar (100) |
 | **`mobileappid`** | 모바일 앱 ID입니다. 애플리케이션 이름과 버전을 다음 형식으로 저장: `[AppName] [BundleVersion]` | varchar (255) |
 | **`mobileappperformanceappid`** | Apteligent Data Connector에서 사용됩니다. Apteligent에 사용되는 앱 ID입니다. | varchar (255) |
@@ -159,7 +159,7 @@ ht-degree: 98%
 | **`mvvar1_instances`** - `mvvar3_instances` | 현재 히트에 설정된 목록 변수 값입니다. 원래 구분 기호를 `--**--`로 바꿉니다. `post` 열이 없습니다. | 텍스트 |
 | **`namespace`** | 사용되지 않습니다. 스크랩된 기능 일부입니다. | varchar (50) |
 | **`new_visit`** | 현재 히트가 새 방문인지를 판별하는 플래그입니다. 30분 동안 방문 활동이 없으면 Adobe 서버에 의해 설정됩니다. | tinyint 부호 없음 |
-| **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. 에 대한 키 값 `operating_system.tsv` 표준 조회 및 `operating_system_type.tsv` [동적 조회](dynamic-lookups.md). | int 부호 없음 |
+| **`os`** | 방문자의 운영 체제를 나타내는 숫자 ID입니다. `user_agent` 열을 기반으로 합니다. 의 키 값 `operating_system.tsv` 표준 조회 및 `operating_system_type.tsv` [동적 조회](dynamic-lookups.md). | int 부호 없음 |
 | **`p_plugins`** | 더 이상 사용되지 않습니다. 브라우저에 사용할 수 있는 플러그인 목록. JavaScript 함수 `navigator.plugins()`를 사용합니다. | 텍스트 |
 | **`page_event`** | 이미지 요청(표준 히트, 다운로드 링크, 사용자 정의 링크, 종료 링크)에서 전송된 히트 유형입니다. [페이지 이벤트 조회](datafeeds-page-event.md)를 참조하십시오. | tinyint 부호 없음 |
 | **`page_event_var1`** | 링크 추적 이미지 요청에서만 사용됩니다. 클릭한 다운로드 링크, 종료 링크 또는 사용자 정의 링크의 URL입니다. | 텍스트 |

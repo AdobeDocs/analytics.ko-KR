@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 데이터 피드 콘텐츠 - 개요
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv]  (이 데이터 피드에 대해 사용자 정의됨)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv]  (이 데이터 피드에 대해 사용자 정의됨)
+* **`column_headers.tsv`**: 의 열 머리글을 포함하는 단일 행 `hit_data.tsv`.
+* **`browser.tsv`**: 브라우저 ID(를 `browser` 피드 열)을 참조하십시오.
+* **`browser_type.tsv`**: 브라우저 ID(를 `browser` 피드 열)을 참조하십시오.
+* **`color_depth.tsv`**: 색상 심도 ID(를 매핑합니다. `color` 피드 열)에 색상 깊이를 입력합니다.
+* **`connection_type.tsv`**: 연결 유형 ID 매핑 ( `connection_type` 피드 열)을 참조하십시오.
+* **`country.tsv`**: 국가 ID(를 `country` 피드 열)을 국가 이름에 추가합니다.
+* **`javascript_version.tsv`**: JavaScript 버전 ID( `javascript` 피드 열)을 참조하십시오.
+* **`languages.tsv`**: 언어 ID(를 매핑합니다. `language` 피드 열)을 참조하십시오.
+* **`operating_systems.tsv`**: 운영 체제 ID(를 `os` 피드 열)을 참조하십시오.
+* **`plugins.tsv`**: 플러그인 ID(및 `plugin` 피드 열)을 참조하십시오.
+* **`resolution.tsv`**: 해상도 ID(를) 매핑합니다 `resolution` 피드 열)을 모니터 해상도에 추가합니다.
+* **`referrer_type.tsv`**: 레퍼러 유형 ID(를 `ref_type` 피드 열)을 클릭하여 레퍼러 유형을 만듭니다.
+* **`search_engines.tsv`**: 검색 엔진 ID(를 매핑합니다. `search_engine` 피드 열)을 검색 엔진 이름에 추가합니다.
+* **`event.tsv`**: 각 이벤트 ID 매핑 ( `event_list` feed column)을 사용하여 이벤트 이름을 지정합니다.
 
 ## 히트 데이터 파일
 
-히트 데이터 파일은 [!DNL hit_data.tsv] 파일에 제공됩니다. 이 파일의 데이터 양은 배달 형식 (시간별 또는 일별, 단일 파일 또는 여러 파일)에 따라 결정됩니다. 이 파일은 히트 데이터만 포함합니다. 열 헤더는 조회 파일과 별도로 배달됩니다. 이 파일의 각 행은 하나의 서버 호출을 포함합니다.
+히트 데이터 파일은 `hit_data.tsv` 파일에 제공됩니다. 이 파일의 데이터 양은 배달 형식 (시간별 또는 일별, 단일 파일 또는 여러 파일)에 따라 결정됩니다. 이 파일은 히트 데이터만 포함합니다. 열 헤더는 조회 파일과 별도로 배달됩니다. 이 파일의 각 행은 하나의 서버 호출을 포함합니다.
 
 Adobe가 배달하는 파일은 사용자가 구성한 데이터 피드 유형에 따라 달라집니다. 모든 파일은 ISO-8859-1을 사용하여 인코딩됩니다.
 

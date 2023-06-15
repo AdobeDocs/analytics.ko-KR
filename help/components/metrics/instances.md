@@ -3,10 +3,10 @@ title: 인스턴스
 description: 변수가 설정된 (지속되지 않음) 히트의 수입니다.
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -17,3 +17,7 @@ ht-degree: 100%
 ## 이 지표의 계산 방법
 
 보고서 세트의 모든 히트 중에서 이미지 요청에 차원 항목을 명시적으로 설정하는 히트만 포함하십시오. [eVar](../dimensions/evar.md)와 같은 일부 차원은 이 차원이 설정된 히트 이후에 유지됩니다. [페이지 보기 수](page-views.md) 및 [발생 횟수](occurrences.md)와 같은 지표는 초기 값과 지속되는 값을 모두 계산하지만, 이 지표는 지속되는 값을 계산하지 않습니다.
+
+예를 들어 방문자가 사이트에 도달하여 내부 검색을 사용합니다. eVar 1에서 내부 검색을 추적합니다. 내부 검색을 한 번 사용한 후에는 떠나기 전에 5페이지를 더 방문합니다.
+
+Workspace에서 보고서를 보면 eVar 1 인스턴스 1개와 발생 횟수 6개가 표시됩니다. 발생 횟수는 초기 값과 지속된 값을 계산하지만, 검색 결과 페이지에서 트리거된 인스턴스는 한 개 입니다.
