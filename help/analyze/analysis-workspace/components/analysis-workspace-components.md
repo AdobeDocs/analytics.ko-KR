@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1190'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있�
 
 ## 세그먼트 {#segments}
 
-[**세그먼트**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=ko-KR)는 분석에 적용되는 대상 필터입니다. 왼쪽 구성 요소 레일 (파란색 섹션)에서 찾을 수 있으며 일반적으로 패널 상단 또는 테이블의 지표 열 위에 적용됩니다.
+[**세그먼트**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=ko-KR)는 분석에 적용되는 대상자 필터입니다. 왼쪽 구성 요소 레일 (파란색 섹션)에서 찾을 수 있으며 일반적으로 패널 상단 또는 테이블의 지표 열 위에 적용됩니다.
 
 세그먼트의 예로는 [!UICONTROL 모바일 디바이스 방문자], [!UICONTROL 이메일을 통한 방문 ] 및 [!UICONTROL 인증된 히트]가 있습니다. 세그먼트는 Adobe에서 제공하거나 [패널 드롭 영역](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR)에서 생성하거나 [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR)를 사용하여 생성합니다.
 
@@ -53,7 +53,7 @@ Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있�
 
 [**날짜 범위**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=ko-KR)는 분석을 수행하는 기간입니다. 왼쪽 구성 요소 레일 (보라색 섹션)에서 찾을 수 있으며 일반적으로 각 패널의 달력에 적용됩니다.
 
-패널 달력을 기준으로 날짜 범위 구성 요소를 만들 수 있습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+패널 캘린더를 기준으로 날짜 범위 구성 요소를 만들 수 있습니다. 자세한 내용은 [상대 패널 날짜 범위 정보](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)를 참조하십시오.
 
 날짜 범위의 예로는 2019년 7월, [!UICONTROL 지난 4주] 및 [!UICONTROL 이번 달]이 있습니다. 날짜 범위는 Adobe에서 제공하거나 [패널 달력](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ko-KR)에 적용하거나 [날짜 범위 빌더](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ko-KR)를 사용하여 생성합니다.
 
@@ -62,17 +62,17 @@ Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있�
 
 ## 구성 요소 관리 {#actions}
 
-왼쪽 레일에서 직접 구성 요소를 관리할 수 있습니다.
+왼쪽 레일에서 바로 구성 요소를 관리할 수 있습니다.
 
-1. 구성 요소를 마우스 오른쪽 단추로 클릭합니다.
+1. 구성 요소를 마우스 오른쪽 버튼으로 클릭합니다.
 
    또는
 
-   구성 요소를 선택한 다음, **작업** 구성 요소 목록 맨 위에 있는 (3점) 아이콘.
+   구성 요소를 선택한 다음 구성 요소 목록 상단의 **작업**(점 3개) 아이콘을 선택합니다.
 
    >[!TIP]
    >
-   >   Shift 키나 Command 키(Mac) 또는 Ctrl 키(Windows)를 누른 채 여러 구성 요소를 선택할 수 있습니다.
+   >   Shift 키를 누르거나 Command(Mac) 또는 Ctrl(Windows) 키를 누른 상태에서 여러 구성 요소를 선택할 수 있습니다.
 
 
    ![](assets/component-actions.png)
@@ -89,23 +89,23 @@ Analysis Workspace의 구성 요소는 프로젝트에 끌어서 놓을 수 있�
 
 ## 구성 요소 목록 검색, 필터링 및 정렬
 
-Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터링 및 정렬하여 특정 구성 요소를 빠르게 찾을 수 있습니다.
+Analysis Workspace의 왼쪽 레일에 있는 구성 요소 목록을 검색하고, 필터링하고, 정렬하여 특정 구성 요소를 빠르게 찾을 수 있습니다.
 
 ### 구성 요소 목록 검색
 
-1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 왼쪽 레일에서.
+1. 왼쪽 레일에서 **구성 요소** 아이콘(![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
 
-2. 검색 필드에서 프로젝트에 사용할 구성 요소의 이름을 입력합니다.
+2. 검색 필드에 프로젝트에서 사용하려는 구성 요소의 이름을 입력하기 시작합니다.
 
-   구성 요소의 유형은 색상 및 아이콘으로 식별할 수 있습니다. **Dimension** ![Dimension 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 주황색이고 **세그먼트** ![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 파란색, **날짜 범위** ![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 은 자주색이고, **지표** ![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 세그먼트 템플릿과 계산기 아이콘을 나타냅니다 ![계산기 아이콘](assets/calculated-metric-icon-created.png) 는 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
+   구성 요소 유형은 색상 및 아이콘으로 식별할 수 있습니다. **차원**(![차원 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg))은 주황색, **세그먼트**(![세그먼트 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg))는 파란색, **날짜 범위**(![날짜 범위 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg))는 보라색, **지표**(![지표 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))는 녹색입니다. Adobe 아이콘은 계산된 지표 템플릿 또는 세그먼트 템플릿을 나타내고 계산기 아이콘(![계산기 아이콘](assets/calculated-metric-icon-created.png))은 조직의 Analytics 관리자가 만든 계산된 지표를 나타냅니다.
 
-3. 드롭다운 목록에 나타나면 구성 요소를 선택합니다.
+3. 드롭다운 목록에 표시되는 구성 요소를 선택합니다.
 
 ### 구성 요소 목록 필터링
 
-1. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 왼쪽 레일에서.
+1. 왼쪽 레일에서 **구성 요소** 아이콘(![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
 
-2. 다음 항목 선택 **필터** 아이콘 ![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
+2. **필터** 아이콘(![데이터 사전 필터 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg))을 선택합니다.
 
    또는
 
@@ -124,16 +124,16 @@ Analysis Workspace의 왼쪽 레일에서 구성 요소 목록을 검색, 필터
    | [!UICONTROL **모두 표시**] | 모든 구성 요소를 표시합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
    | [!UICONTROL **승인되지 않음**] | 관리자가 승인함으로 표시하지 않은 구성 요소만 표시합니다. 관리자가 검토 및 승인이 필요한 구성 요소를 식별할 때 유용합니다. 이 옵션은 관리자만 사용할 수 있습니다. |
 
-4. (선택 사항) 목록을 추가로 보강하기 위해에서 설명한 대로 구성 요소 목록을 정렬할 수 있습니다 [구성 요소 목록 정렬](#sort-the-component-list).
+4. (선택 사항) 목록을 더 다듬기 위해 [구성 요소 목록 정렬](#sort-the-component-list)에 설명된 대로 구성 요소 목록을 정렬할 수 있습니다.
 
 ### 구성 요소 목록 정렬
 
 {{release-limited-testing-section}}
 
-1. (선택 사항) 의 설명에 따라 구성 요소 목록에 필터를 적용합니다 [구성 요소 목록 필터링](#filter-the-component-list).
+1. (선택 사항) [구성 요소 목록 필터링](#filter-the-component-list)에 설명된 대로 구성 요소 목록에 필터를 적용합니다.
 
-2. 다음 항목 선택 **구성 요소** 아이콘 ![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) 왼쪽 레일에서.
+2. 왼쪽 레일에서 **구성 요소** 아이콘(![구성 요소 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg))을 선택합니다.
 
-3. 다음 항목 선택 **정렬** 아이콘 ![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)를 클릭한 다음, 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
+3. **정렬** 아이콘(![구성 요소 정렬 아이콘](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg))을 선택한 후 다음 필터 옵션 중 하나를 선택하여 구성 요소 목록을 정렬합니다.
 
    {{components-sort-options}}
