@@ -4,9 +4,9 @@ description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics�
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,34 +34,35 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 **웹 사이트**&#x200B;의 경우 다음 구현 방법을 사용할 수 있습니다.
 
 * **Web SDK 확장**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **AEP Web SDK 확장**&#x200B;을 설치하고, 각 페이지에 로더 태그를 사용한 다음 조직에 편리한 형식으로 Adobe Experience Platform **Edge Network**에 데이터를 전송합니다. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
-   ![Web SDK 확장](./assets/websdk-extension-implementation.png)
+  ![Web SDK 확장](./assets/websdk-extension-implementation.png)
 자세한 내용은 [Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Analytics 구현](./aep-edge/overview.md)을 참조하십시오.
 
 * **Web SDK**: Adobe Experience Platform 데이터 수집을 사용하지 않으려면 사이트에서 Web SDK 라이브러리를 수동으로 로드할 수 있습니다. 각 페이지에서 Web SDK 라이브러리(`alloy.js`)를 참조하고 원하는 추적 호출을 조직에 편리한 형식으로 Adobe Experience Platform **Edge Network**에 전송합니다. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
-   ![Web SDK](./assets/websdk-implementation.png)
+  ![Web SDK](./assets/websdk-implementation.png)
 자세한 내용은 [Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현](./aep-edge/overview.md)을 참조하십시오.
 
 
 * **Analytics 확장**: Adobe Experience Platform 데이터 수집 **태그**&#x200B;에서 **Adobe Analytics 확장**을 설치합니다. 각 페이지에 로더 태그를 배치하고 Adobe Analytics 확장을 사용하여 각 변수가 정의되는 방식을 결정합니다. 태그의 편리함을 원하지만 Edge Network 인프라는 사용하고자 하지 않는 경우 이 구현 방법을 사용하십시오.
-   ![Adobe Analytics 확장](./assets/analytics-extension-implementation.png)
+  ![Adobe Analytics 확장](./assets/analytics-extension-implementation.png)
 자세한 내용은 [Analytics 확장을 사용하여 Adobe Analytics 구현](launch/overview.md)을 참조하십시오.
 
 * **기존 JavaScript**: Adobe Analytics를 구현하는 과거의 수동 방법입니다. 각 페이지에서 AppMeasurement 라이브러리(`AppMeasurement.js`)를 참조한 다음 구현에 사용되는 변수 및 설정을 개괄합니다.
-   ![기존 JavaScript](./assets/appmeasurement-implementation.png)
+  ![기존 JavaScript](./assets/appmeasurement-implementation.png)
 이 구현 방법은 사용자 정의 코드를 사용하는 구현에 유용하게 사용할 수 있으며 다음을 사용할 때에도 권장되는 방법입니다.
 
-   * [activity map 데이터](../analyze/activity-map/activity-map.md),
+   * [Activity Map 데이터](../analyze/activity-map/activity-map.md)
 
-      >[!INFO]
-      >
-      >최신 웹 SDK를 사용하여 Activity Map이 지원됩니다. 자세한 내용은 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 추가 정보.
+     >[!INFO]
+     >
+     >최신 Web SDK를 사용하여 Activity Map을 지원합니다. 자세한 내용은 [Activity Map 활성화](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)를 참조하십시오.
 
    * [스트리밍 미디어 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)
 
    * [라이브스트림 API 또는 라이브스트림 트리거](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)
 
    * [AMP 페이지 추적](./other/amp.md)
-   자세한 내용은 [JavaScript용 AppMeasurement로 Adobe Analytics 구현](js/overview.md)을 참조하십시오.
+
+  자세한 내용은 [JavaScript용 AppMeasurement로 Adobe Analytics 구현](js/overview.md)을 참조하십시오.
 
 다음은 구현 방법을 선택하는 데 도움이 될 수 있는 의사 결정 흐름입니다.
 
@@ -77,14 +78,14 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 **모바일 앱**&#x200B;의 경우 다음 구현 방법을 사용할 수 있습니다.
 
 * **Mobile SDK 확장**: 모바일 앱에서 Adobe Analytics를 구현하기 위한 표준화된 권장 방법입니다. 모바일 앱 내에서 데이터를 Adobe에 쉽게 전송할 수 있는 전용 라이브러리를 사용합니다. Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **Adobe Experience Platform Mobile SDK 확장**&#x200B;을 설치하고 앱에 올바른 코드를 구현하여 라이브러리를 가져오고, 확장을 등록하고, 태그 구성을 로드합니다. 이렇게 하면 조직에 편리한 형식으로 데이터가 Adobe Experience Platform **Edge Network**로 전송됩니다. Experience Edge는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
-   ![Mobile SDK 확장](./assets/mobilesdk-extension.png)
+  ![Mobile SDK 확장](./assets/mobilesdk-extension.png)
 
-   자세한 내용은 [Adobe Experience Platform Mobile SDK를 사용하여 Adobe Analytics 구현](../implement/aep-edge/mobile-sdk/overview.md)을 참조하십시오.
+  자세한 내용은 [Adobe Experience Platform Mobile SDK를 사용하여 Adobe Analytics 구현](../implement/aep-edge/mobile-sdk/overview.md)을 참조하십시오.
 
 * **Analytics 확장**: Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **Adobe Analytics 확장**을 설치하고 애플리케이션에 올바른 코드를 구현하여 라이브러리를 가져오고, 확장을 등록하고, 태그 구성을 로드합니다. Analytics 확장을 사용하여 각 변수가 정의되는 방식을 결정합니다. Adobe Experience Platform 데이터 수집의 편리함을 원하지만 Adobe의 Experience Platform Edge 네트워크 인프라는 사용하고자 하지 않는 경우 이 구현 방법을 사용하십시오.
-   ![Analytics 확장](./assets/mobilesdk-analytics-extension.png)
+  ![Analytics 확장](./assets/mobilesdk-analytics-extension.png)
 
-   자세한 내용은 [Analytics 확장을 사용하여 Adobe Analytics 구현](../implement/aep-edge/mobile-sdk/overview.md)을 참조하십시오.
+  자세한 내용은 [Analytics 확장을 사용하여 Adobe Analytics 구현](../implement/aep-edge/mobile-sdk/overview.md)을 참조하십시오.
 
 
 >[!CAUTION]
