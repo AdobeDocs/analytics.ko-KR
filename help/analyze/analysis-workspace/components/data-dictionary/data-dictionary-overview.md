@@ -5,7 +5,7 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
 ht-degree: 100%
 
@@ -49,9 +49,9 @@ Analytics 관리자는 데이터 사전의 각 구성 요소에 대한 정보를
 
 * Analysis Workspace에서 직접 구성 요소 설명을 업데이트합니다. 데이터 사전의 구성 요소 설명에 대한 모든 업데이트는 보고서 세트에 반영됩니다.
 
-   마찬가지로 보고서 세트의 구성 요소 설명에 대한 모든 업데이트는 Analysis Workspace에 반영됩니다.
+  마찬가지로 보고서 세트의 구성 요소 설명에 대한 모든 업데이트는 Analysis Workspace에 반영됩니다.
 
-   Analysis Workspace 또는 보고서 세트에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)를 참조하십시오.
+  Analysis Workspace 또는 보고서 세트에서 구성 요소 설명을 추가하는 방법에 대한 자세한 내용은 [구성 요소 설명 추가](/help/analyze/analysis-workspace/components/add-component-descriptions.md)를 참조하십시오.
 
 ## 데이터 사전 액세스
 
@@ -59,12 +59,12 @@ Analysis Workspace 내에서 다음 방법 중 하나로 데이터 사전에 액
 
 * 왼쪽 레일의 **데이터 사전** 아이콘에서.
 
-   ![왼쪽 레일의 데이터 사전 아이콘](assets/data-dictionary-access-icon.png)
+  ![왼쪽 레일의 데이터 사전 아이콘](assets/data-dictionary-access-icon.png)
 
 * 구성 요소의 정보 팝오버에 있는 **데이터 사전** 아이콘에서.
 
-   ![정보 팝오버의 데이터 사전 아이콘](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![정보 팝오버의 데이터 사전 아이콘](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * 메뉴: [!UICONTROL **도움말**] > [!UICONTROL **데이터 사전**].
 
@@ -84,12 +84,12 @@ Analytics 관리자는 [데이터 사전 상태 모니터링](/help/analyze/anal
 
 * Analysis Workspace 내의 아무 영역으로 끌어다 놓습니다.
 
-   Analysis Workspace를 닫았다가 다시 열면 데이터 사전 창은 마지막으로 이동한 위치에 남아 있습니다. <!--True?-->
+  Analysis Workspace를 닫았다가 다시 열면 데이터 사전 창은 마지막으로 이동한 위치에 남아 있습니다. <!--True?-->
 
 * 최소화
 
-   최소화하면 데이터 사전은 Analysis Workspace의 오른쪽 하단에 파란색 탭으로 표시됩니다.
+  최소화하면 데이터 사전은 Analysis Workspace의 오른쪽 하단에 파란색 탭으로 표시됩니다.
 
-   파란색 탭을 선택하면 가장 최근에 본 구성 요소에 대한 데이터 사전이 열립니다.
+  파란색 탭을 선택하면 가장 최근에 본 구성 요소에 대한 데이터 사전이 열립니다.
 
 * 닫기
