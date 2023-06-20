@@ -3,10 +3,10 @@ title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 **웹 사이트**&#x200B;의 경우 다음 구현 방법을 사용할 수 있습니다.
 
-* **Web SDK 확장**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. Adobe Experience Platform 데이터 수집 **태그**&#x200B;에 **AEP Web SDK 확장**&#x200B;을 설치하고, 각 페이지에 로더 태그를 사용한 다음 조직에 편리한 형식으로 Adobe Experience Platform **Edge Network**에 데이터를 전송합니다. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
+* **Web SDK 확장**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. 설치 **Adobe Experience Platform 웹 SDK 확장** Adobe Experience Platform 데이터 수집 **태그**: 각 페이지에서 로더 태그를 사용하고 데이터를 Adobe Experience Platform에 보냅니다. **에지 네트워크** 조직에 편리한 형식으로. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
   ![Web SDK 확장](./assets/websdk-extension-implementation.png)
 자세한 내용은 [Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Analytics 구현](./aep-edge/overview.md)을 참조하십시오.
 

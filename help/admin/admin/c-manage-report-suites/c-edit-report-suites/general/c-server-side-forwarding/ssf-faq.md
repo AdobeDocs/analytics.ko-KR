@@ -3,10 +3,10 @@ description: 서버측 전달과 관련된 기능과 문제점에 대한 FAQ.
 title: 서버측 전달 FAQ
 feature: Server-Side Forwarding
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 96%
 
 ---
 
@@ -30,10 +30,9 @@ ht-degree: 100%
 | Q: 다중 세트 태깅이 있고 내 보고서 세트 중 하나만 내 Experience Cloud 조직에 매핑되고 나머지는 매핑되지 않을 경우 어떻게 합니까? | 매핑된 보고서 세트의 Experience Cloud 조직에 대한 해당 데이터 수집 서버로 히트를 전달하지만, 매핑되지 않은 보고서 세트에는 Audience Manager에 연결된 데이터 소스가 없으므로 Audience Manager의 매핑되지 않은 보고서 세트에 대해서는 데이터가 기록되지 않습니다. |
 | Q: 여러 Experience Cloud 조직에 매핑되는 보고서 세트가 있는 경우에는 어떻게 합니까? | Analytics는 이 보고서 세트를 매핑되지 않은 것으로 간주하므로 이 보고서 세트에 대해서는 서버측 전달 기능을 활성화할 수 없습니다. 이러한 매핑 문제를 해결하려면 고객 지원 센터에 문의하십시오. |
 | Q: 보고서 세트 기반의 서버측 전달 방법이 추적 서버 기반의 서버측 전달보다 느립니까? | 아니요. 응답 시간은 동일합니다. |
-| Q: 두 Experience Cloud 조직(또는 AAM 인스턴스)이 있고 두 Experience Cloud 조직 간에 데이터를 공유하려면 어떻게 해야 합니까? 단일 Analytics 히트를 여러 Experience Cloud 조직에 서버측 전달로 수행할 수 있습니까? | 아니요. 한 Experience Cloud 조직에 수집된 데이터를 다른 Experience Cloud 조직과 공유해야 하는 경우 대상 마켓플레이스를 사용하여 Audience Manager 인스턴스 간에 적용 가능한 대상을 보내는 것이 좋습니다. |
+| Q: 두 개의 Experience Cloud 조직(또는 Adobe Audience Manager 인스턴스)이 있고 두 Experience Cloud 조직 간에 데이터를 공유하려면 어떻게 해야 합니까? 단일 Analytics 히트를 여러 Experience Cloud 조직에 서버측 전달로 수행할 수 있습니까? | 아니요. 한 Experience Cloud 조직에 수집된 데이터를 다른 Experience Cloud 조직과 공유해야 하는 경우 대상 마켓플레이스를 사용하여 Audience Manager 인스턴스 간에 적용 가능한 대상을 보내는 것이 좋습니다. |
 | Q: 서버측 전달로 인해 Audience Manager 또는 Analytics에서 추가적인 청구가 발생합니까? | Analytics에서는 추가적인 청구가 발생하지 않습니다. Audience Manager에서 전달된 히트는 다른 히트와 동일하게 처리되며 청구됩니다.  이것이 DIL과 서버측 전달을 동시에 활성화하지 않도록 하는 것이 중요한 이유입니다. 동시에 활성화하면 이중 청구와 데이터 중복이 발생할 수 있습니다. |
 
 >[!MORELIKETHIS]
 >
 >* [서버측 전달](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
-

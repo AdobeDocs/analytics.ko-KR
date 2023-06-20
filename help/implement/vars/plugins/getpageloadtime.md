@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: 페이지를 로드하는 데 걸리는 시간을 추적합니다.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 88%
+source-wordcount: '586'
+ht-degree: 86%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 88%
 
 ## Web SDK 또는 Web SDK 확장을 사용하여 플러그인 설치
 
-이 플러그인은 아직 웹 SDK 내에서 사용할 수 없습니다.
+이 플러그인은 아직 웹 SDK에서 사용할 수 없습니다.
 
 ## Adobe Analytics 확장을 사용하여 플러그인 설치
 
-Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해주는 확장을 제공합니다.
+Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인을 사용할 수 있도록 해 주는 확장을 제공합니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 태그 속성을 클릭합니다.
@@ -40,7 +40,7 @@ Adobe은 Adobe Analytics에서 가장 일반적으로 사용되는 플러그인�
 
 ## 사용자 지정 코드 편집기를 사용하여 플러그인 설치
 
-일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려는 경우 사용자 지정 코드 편집기를 사용할 수 있습니다.
+일반 Analytics 플러그인 확장 프로그램을 사용하지 않으려면 사용자 지정 코드 편집기를 사용할 수 있습니다.
 
 1. AdobeID 자격 증명을 사용하여 [Adobe Experience Platform 데이터 수집](https://experience.adobe.com/data-collection)에 로그인합니다.
 1. 원하는 속성을 클릭합니다.
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0(2022년 12월 6일)
 
-* 솔루션에 구애받지 않도록 플러그인을 완전히 재작성합니다.  예를 들어 이제 AEP Web SDK와 호환됩니다.
+* 솔루션에 구애받지 않도록 플러그인을 완전히 재작성합니다.  예를 들어 이제 Adobe Experience Platform 웹 SDK와 호환됩니다
 * AppMeasurement 오브젝트가 아닌 창 오브젝트에 `_pltPreviousPage`및 `_pltLoadTime` 변수를 생성합니다.
 * s_pltp 쿠키의 필요성 제거 - 이제 모든 항목이 s_plt 쿠키에만 저장됩니다.
 * 문제 해결에 도움이 되는 getVersion 기능이 포함됩니다.

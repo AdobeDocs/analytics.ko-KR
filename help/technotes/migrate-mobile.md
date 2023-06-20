@@ -3,10 +3,10 @@ description: 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그�
 title: 모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 93%
+source-wordcount: '690'
+ht-degree: 90%
 
 ---
 
@@ -77,4 +77,4 @@ ht-degree: 93%
 
 * 확보 링크의 경우 Adobe 파트너로 안내하여 그러한 요구를 충족시킬 수 있습니다.
 * 푸시 메시징 및 인앱 메시징은 Adobe Campaign Standard 및 Adobe Campaign Classic (푸시 전용)에서 사용할 수 있습니다. 그러나 타겟팅에 사용되는 기본 데이터 세트는 다릅니다. 메시징 데이터에 대한 마이그레이션 옵션을 결정하기 위해 Adobe 계정 팀과 협력하는 것이 좋습니다.
-* 위치 기능의 경우 모든 AEP 고객에게 무료로 제공되는 새로운 [Adobe Experience Platform 위치 서비스](https://www.adobe.com/experience-platform/location-service.html)를 채택하는 것이 좋습니다.
+* 위치 기능의 경우 새로운 기능을 채택하는 것이 좋습니다 [Adobe Experience Platform 위치 서비스](https://www.adobe.com/experience-platform/location-service.html): 모든 Adobe Experience Platform 고객에게 무료입니다.

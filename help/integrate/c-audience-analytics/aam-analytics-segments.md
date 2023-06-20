@@ -3,10 +3,10 @@ description: Analytics와 Audience Manager는 모두 세그먼트를 사용합�
 title: Analytics 및 Audience Manager의 세그먼트 이해
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 96%
 
 ---
 
@@ -35,13 +35,13 @@ Analytics 세그먼트는 보고서의 데이터를 필터링하는 메커니�
 
 * Analytics 세그먼트는 Audience Manager 세그먼트와 다른 데이터 세트에서 작동합니다. 데이터 수집 중에 Analytics는 Audience Manager에서 사용할 수 없는 데이터에 다른 여러 후 처리 단계를 적용합니다. 후 처리에는 eVar 지속성, 처리 규칙, 조회 (지리적 위치, 모바일 디바이스), VISTA 등이 포함될 수 있습니다. Audience Manager는 서버측 전달 (또는 DIL)을 통해 사전 처리된 데이터를 수신합니다.
 
-   일반 데이터 불일치는 Analytics에서 만료되지 않는 차원을 기준으로 한 세그먼트를 Audience Manager의 동일한 차원과 비교할 때 발생합니다. 예를 들면 만료되지 않는 listVars 또는 머천다이징 eVars가 해당됩니다.
+  일반 데이터 불일치는 Analytics에서 만료되지 않는 차원을 기준으로 한 세그먼트를 Audience Manager의 동일한 차원과 비교할 때 발생합니다. 예를 들면 만료되지 않는 listVars 또는 머천다이징 eVars가 해당됩니다.
 
-   예를 들어 eVar = blue이고 Analytics에 만료되지 않도록 설정된 경우 &quot;eVar = blue&quot; 기준을 사용한 Analytics의 세그먼트에는 항상 이 방문자가 포함됩니다. 반면 Audience Manager에서는 이 방문자가 설정된 기간 이후에 비슷하게 정의된 세그먼트에서 제외될 수 있습니다.
+  예를 들어 eVar = blue이고 Analytics에 만료되지 않도록 설정된 경우 &quot;eVar = blue&quot; 기준을 사용한 Analytics의 세그먼트에는 항상 이 방문자가 포함됩니다. 반면 Audience Manager에서는 이 방문자가 설정된 기간 이후에 비슷하게 정의된 세그먼트에서 제외될 수 있습니다.
 
-* Analytics 세그먼트에는 AAM 세그먼트보다 많은 기능이 있습니다. Audience Manager 세그먼트는 항상 방문자 수준에서 평가됩니다. Analytics 세그먼트는 방문자, 방문 또는 히트 수준 (또는 이들 수준의 조합)에서 정의할 수 있습니다. 또한 Analytics는 순차 세그먼테이션과 같이 Audience Manager가 지원하지 않는 고급 세그먼테이션 기능을 지원합니다.
+* Analytics 세그먼트에는 Adobe Audience Manager 세그먼트보다 더 많은 기능이 있습니다. Audience Manager 세그먼트는 항상 방문자 수준에서 평가됩니다. Analytics 세그먼트는 방문자, 방문 또는 히트 수준 (또는 이들 수준의 조합)에서 정의할 수 있습니다. 또한 Analytics는 순차 세그먼테이션과 같이 Audience Manager가 지원하지 않는 고급 세그먼테이션 기능을 지원합니다.
 * 앞에서 언급했듯이 Audience Manager 방문자는 현재 시점에서 세그먼트 기준에 적합한지 여부에 따라 세그먼트를 입력하거나 제외시킬 수 있습니다.
 
-   반대로 Analytics에서 방문자는 보고 날짜 범위에 따라 세그먼트에 포함되거나 제외됩니다. 예를 들어 한 방문자가 지난달에 구매했습니다. AAM에서 해당 방문자는 날짜 범위와 관계없이 &quot;구매자&quot; 세그먼트에 포함됩니다. Analytics에서 이번 달을 기준으로 한 보고서에는 세그먼트에 방문자를 포함하지 않습니다. 그러나 이번 달과 지난 달을 기준으로 한 보고서에는 세그먼트에 방문자가 포함됩니다.
+  반대로 Analytics에서 방문자는 보고 날짜 범위에 따라 세그먼트에 포함되거나 제외됩니다. 예를 들어 한 방문자가 지난달에 구매했습니다. Adobe Audience Manager에서 해당 방문자는 날짜 범위와 관계없이 &quot;구매자&quot; 세그먼트에 포함됩니다. Analytics에서 이번 달을 기준으로 한 보고서에는 세그먼트에 방문자를 포함하지 않습니다. 그러나 이번 달과 지난 달을 기준으로 한 보고서에는 세그먼트에 방문자가 포함됩니다.
 
 자세한 내용은 [Analytics 세그먼테이션 안내서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ko-KR)를 참조하십시오.

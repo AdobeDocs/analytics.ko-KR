@@ -3,10 +3,10 @@ title: Adobe Analytics 마케팅 채널 구현을 위한 모범 사례
 description: 업데이트된 Attribution IQ 및 Customer Journey Analytics와 함께 마케팅 채널을 사용하기 위한 모범 사례
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 93%
+source-wordcount: '630'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 마케팅 채널이 처음 도입되었을 때는 첫 번째 접점 차원과 마지막 접점 차원에서만 제공되었습니다. 현재 버전의 속성을 사용할 경우 명확한 첫 번째/마지막 접촉 차원이 더 이상 필요하지 않습니다. Adobe는 일반 &#39;마케팅 채널&#39; 및 &#39;마케팅 채널 세부 정보&#39; 차원을 제공하므로 원하는 속성 모델과 함께 사용할 수 있습니다. 이러한 일반 차원은 마지막 접점 채널 차원과 동일하게 작동하지만 다른 속성 모델과 함께 마케팅 채널을 사용할 때 혼동을 방지하기 위해 레이블이 다르게 지정됩니다.
 
-마케팅 채널 차원은 기존 Visit Definition(처리 규칙에 정의된)에 따라 다르므로 이 차원의 Visit Definition는 가상 보고서 세트를 사용하여 변경할 수 없습니다. 이러한 수정된 사례는 Attribution IQ 및 CJA를 통해 명확하고 통제된 전환 확인 기간을 사용할 수 있습니다.
+마케팅 채널 차원은 기존 Visit Definition(처리 규칙에 정의된)에 따라 다르므로 이 차원의 Visit Definition는 가상 보고서 세트를 사용하여 변경할 수 없습니다. 이러한 수정된 사례는 Attribution IQ 및 Customer Journey Analytics를 통해 명확하고 통제된 전환 확인 기간을 사용할 수 있습니다.
 
 ## 모범 사례 #1: 통제된 분석을 위해 Attribution IQ 활용
 

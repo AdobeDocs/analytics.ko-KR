@@ -3,10 +3,10 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: ht
-source-wordcount: '2319'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '2323'
+ht-degree: 99%
 
 ---
 
@@ -324,7 +324,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 일자: **2015년 9월 17일**
 
 * 방문자 API 1.5.2 포함
-* VisitorAPI.js에서 AAM DIL 6.2 - getCustomer ID를 사용하여 /event 호출로 AAM에 전달하도록 [!DNL Audience Manager] 모듈이 업데이트되었습니다. (AN-104978)
+* 업데이트됨 [!DNL Audience Manager] VisitorAPI.js에서 Adobe Audience Manager DIL 6.2 - getCustomer ID를 사용하여 /event 호출로 Adobe Audience Manager에 전달하는 모듈입니다. (AN-104978)
 
 ## 버전 1.5
 

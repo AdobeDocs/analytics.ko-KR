@@ -1,23 +1,23 @@
 ---
-description: Analytics 전체에서 AAM 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
+description: Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 "mc_audiences" 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.
 solution: Experience Cloud
 title: Analytics에서 대상 데이터 사용
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 90%
 
 ---
 
 # Analytics에서 대상 데이터 사용
 
-Analytics 전체에서 AAM 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 &quot;mc_audiences&quot; 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.:
+Analytics 전체에서 Adobe Audience Manager 대상 차원을 사용할 수 있습니다. 통합 세그먼트는 대상 ID 및 대상 이름이라는 새로운 Analytics 차원이며, Analytics에서 수집하는 다른 차원과 마찬가지로 사용할 수 있습니다. 데이터 피드에서 대상 ID는 &quot;mc_audiences&quot; 열에 저장됩니다. 이러한 차원은 현재 Data Workbench 또는 Livestream에서 사용할 수 없습니다. 대상 차원을 활용하는 방법의 몇 가지 예는 다음과 같습니다.:
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
-Analysis Workspace에서 AAM 세그먼트는 두 가지 차원으로 나타납니다.
+Analysis Workspace에서 Adobe Audience Manager 세그먼트는 두 개의 차원으로 표시됩니다.
 
 1. **[!UICONTROL 작업 영역]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL 차원]** 목록에서 **[!UICONTROL 대상 ID]** 또는 **[!UICONTROL 대상 이름]**&#x200B;을 선택합니다. 이름은 친숙한 ID 분류입니다.
@@ -43,7 +43,7 @@ Analysis Workspace에서 AAM 세그먼트는 두 가지 차원으로 나타납�
 
 ## Analysis Workspace에서의 고객 움직임 (플로우) {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM 세그먼트 데이터는 히트 기준으로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트 (예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트 (예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [플로우](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)를 사용하여 방문자가 대상 사이를 이동하는 경로를 시각화할 수 있습니다.
+Adobe Audience Manager 세그먼트 데이터는 히트 단위로 Analytics에 전달되며, 해당 시점의 방문자에 대한 대상 멤버십을 나타냅니다. 즉, 방문자는 한 세그먼트 (예: &quot;인지도&quot;)에 속할 수 있으므로 나중에 더 적절한 세그먼트 (예: &quot;고려 사항&quot;) 대상일 수 있습니다. Analysis Workspace에서 [플로우](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ko-KR)를 사용하여 방문자가 대상 사이를 이동하는 경로를 시각화할 수 있습니다.
 
 1. **[!UICONTROL 작업 영역]**&#x200B;으로 이동하여 왼쪽 레일에서 **[!UICONTROL 플로우]** 시각화를 선택합니다.
 
