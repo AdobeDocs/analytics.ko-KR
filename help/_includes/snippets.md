@@ -1,8 +1,8 @@
 ---
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # 스니펫
@@ -11,7 +11,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Reports &amp; Analytics [서비스 종료 공지](https://www.adobe.com/go/analytics_rnaeol_en)에 대해 자세히 알아보십시오.
+>Reports &amp; Analytics [서비스 종료 공지](https://www.adobe.com/go/analytics_rnaeol_kr)에 대해 자세히 알아보십시오.
 
 ## 데이터 사전 필터 조건 {#dd-filter-criteria}
 
@@ -55,9 +55,9 @@ ht-degree: 94%
 
 | 옵션 | 함수 |
 |---------|----------|
-| [!UICONTROL **권장**] | 구성 요소를 목록 맨 위에 권장되는 구성 요소와 정렬합니다. 사용자나 조직의 다른 사용자가 가장 자주 그리고 가장 최근에 사용하는 구성 요소가 목록의 맨 위에 표시됩니다. |
+| [!UICONTROL **권장**] | 목록 맨 위에 권장되는 순서로 구성 요소를 정렬합니다. 귀하 또는 귀사의 다른 사용자가 가장 자주 그리고 가장 최근에 사용한 구성 요소가 목록의 위쪽에 표시됩니다. |
 | [!UICONTROL **알파벳**] | 구성 요소를 알파벳순으로 정렬합니다. |
-| [!UICONTROL **범주화**] | 구성 요소 유형(차원, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
+| [!UICONTROL **범주**] | 구성 요소 유형(치수, 지표, 세그먼트, 날짜 범위)에 따라 구성 요소를 정렬합니다. |
 
 {style="table-layout:auto"}
 
