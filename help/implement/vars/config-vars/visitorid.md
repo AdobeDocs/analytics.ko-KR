@@ -3,10 +3,10 @@ title: visitorID
 description: 사용자 지정 방문자 ID를 사용합니다.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 91%
+source-wordcount: '263'
+ht-degree: 93%
 
 ---
 
@@ -17,10 +17,6 @@ Adobe에서는 여러 메서드를 사용하여 사이트의 방문자를 식별
 >[!IMPORTANT]
 >
 >이 변수는 사용하지 않는 것이 좋습니다. 대신 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 사용하십시오.
-
-## 웹 SDK를 사용한 방문자 ID 재정의
-
-준비 중!
 
 ## Adobe Analytics 확장을 사용한 방문자 ID
 
