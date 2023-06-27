@@ -3,9 +3,9 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09a4f0865c0297681a05da4eae98412632931626
+source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1515'
 ht-degree: 87%
 
 ---
@@ -37,7 +37,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | **패널 내에 시각화를 추가하는 새 버튼** | 이제 Analysis Workspace의 각 패널 하단에 새로운 버튼이 추가되어 시각화를 빠르게 추가할 수 있습니다. <p>이전에는 패널에 시각화를 추가하는 유일한 방법은 왼쪽 레일에서 시각화를 드래그하거나, 기존 시각화를 복제 또는 복사하거나, 빈 패널을 만드는 것이었습니다. [자세히 알아보기](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | 해당 사항 없음 | 2023년 5월 17일 |
 | **딥 링크 (모바일 앱)** | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. 이를 통해 프로젝트를 보다 쉽게 공유하고 기술 수준이 낮은 대상자의 참여를 높일 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#share-scorecards-using-a-shareable-link) | 해당 사항 없음 | 2023년 5월 17일 |
 | **동적 드롭다운 필터** | 패널의 보고 범위 내의 데이터 및 기타 드롭다운 필터의 값을 기반으로 사용 가능한 값을 결정하는 새로운 유형의 드롭다운 필터를 도입하고 있습니다. [!UICONTROL Shift] 키를 누른 상태에서 차원을 패널 드롭 영역으로 드래그하면 동적 드롭다운 필터를 사용할 수 있습니다. [!UICONTROL Shift] 키를 누른 상태에서 차원 항목 그룹을 패널 드롭 영역으로 드래그하면 정적 드롭다운 필터가 변경되지 않은 상태로 유지됩니다. [자세히 알아보기](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 2023년 6월 14일 |
-| **업데이트된 분석 학습 페이지** | 이제 Adobe Analytics 랜딩 페이지의 학습 탭에 다음과 같은 개선 사항이 포함됩니다.<ul><li>개선된 탐색 기능으로 단일 페이지에 더 많은 학습 콘텐츠를 표시하는 개선된 디자인</li><li>경험 수준(초급, 중급, 고급)에 따라 학습 콘텐츠를 맞춤 설정하는 기능</li></ul>[자세히 알아보기](/help/analyze/landing.md) |  | 2023년 6월 30일 |
+| **업데이트된 분석 학습 페이지** | 이제 Adobe Analytics 랜딩 페이지의 학습 탭에 다음과 같은 개선 사항이 포함됩니다.<ul><li>개선된 탐색 기능으로 단일 페이지에 더 많은 학습 콘텐츠를 표시하는 개선된 디자인</li><li>경험 수준(초급, 중급, 고급)에 따라 학습 콘텐츠를 맞춤 설정하는 기능</li></ul>[자세히 알아보기](/help/analyze/landing.md) | 2023년 6월 27일 | 2023년 6월 30일 |
 | **Analysis Workspace의 구성 요소 정렬** | 이제 왼쪽 레일 또는 Analysis Workspace의 데이터 사전에서 구성 요소를 볼 때 새로운 정렬 옵션을 사용할 수 있습니다. 권장(가장 일반적으로 사용되는 구성 요소), 알파벳순 또는 범주(유형)별로 구성 요소를 정렬할 수 있습니다.<p>이전에는 구성 요소만 검색하거나 필터링만 할 수 있었습니다. [자세히 알아보기](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | 해당 사항 없음 | TBD |
 
 {style="table-layout:auto"}

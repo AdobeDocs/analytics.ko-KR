@@ -4,10 +4,10 @@ title: Adobe Analytics의 랜딩 페이지
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '3954'
-ht-degree: 99%
+source-wordcount: '4037'
+ht-degree: 94%
 
 ---
 
@@ -223,13 +223,24 @@ Reports &amp; Analytics의 현재 사용자를 위해 사용하던 보고서와 
 ![기타 필터](assets/delete-fr-create-project-modal.png)
 
 
-## 학습 탭 탐색 {#navigate-learning}
+## 학습 탭 사용 {#navigate-learning}
 
-학습 페이지에는 실습형 비디오 둘러보기, 튜토리얼, 설명서 링크가 포함되어 있습니다.
+학습 페이지에는 실습형 비디오 둘러보기, 튜토리얼 및 설명서 링크가 포함되어 있습니다.
 
-* [!UICONTROL 작업 영역 기본 사항] 둘러보기는 작업 영역으로 바로 이동하여 작업 영역 레이아웃과 가장 일반적인 작업을 찾거나 수행할 위치를 안내합니다. 이 둘러보기는 패널 헤더의 도구 설명 팝업을 통해 작업 영역에서 바로 다시 실행할 수도 있습니다.
-* 비디오/투어를 클릭하면 **[!UICONTROL 조회함]** 태그가 추가됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. 태그를 클릭할 수 있고 아직 콘텐츠를 완료하지 않은 경우에는 태그가 사라집니다.
-* 비디오 모달의 **[!UICONTROL 자세히 알아보기]** 버튼을 누르면 방금 시청한 비디오와 관련된 추가 도움말 콘텐츠가 포함된 Adobe Experience League 설명서 페이지로 이동합니다.  **[!UICONTROL 많은 비디오 보기]**&#x200B;는 전체 Analysis Workspace YouTube 재생 목록으로 이동합니다.
+Adobe Analytics의 학습 페이지를 사용하여 Adobe Analytics의 초급, 중급 또는 고급 기능 및 사용 사례를 학습합니다.
+
+### 학습 페이지 액세스
+
+1. Adobe Analytics에서 [!UICONTROL **작업 영역**] > [!UICONTROL **학습**].
+
+### 학습 페이지 기능
+
+* **콘텐츠 필터링:** 왼쪽 레일의 필터 아이콘을 사용하면 경험 수준(초급, 중급 또는 고급)과 콘텐츠 유형(문서, 비디오 또는 투어 및 튜토리얼)별로 학습 콘텐츠를 필터링할 수 있습니다.
+* **진행률 추적:** 콘텐츠를 선택한 후 **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. 다음을 선택할 수 있습니다. **[!UICONTROL 조회함]** 태그하여 콘텐츠의 일부에서 제거합니다.
+* **추가 콘텐츠 보기:** 비디오를 보는 동안 **[!UICONTROL 자세히 알아보기]** 단추를 클릭하여 Experience League 시 관련 문서 컨텐츠를 봅니다. 또는 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 볼 수 있습니다.
+   * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록 보기
+   * [!UICONTROL **방문 Experience League**]: Experience League에서 Adobe Analytics 설명서의 전체 세트를 봅니다.
+* **신규 사용자를 위한 기본 사항:** 다음 [!UICONTROL 작업 영역 기본 사항] 신규 사용자에게 둘러보기를 권장합니다. 이 둘러보기는 Workspace로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 패널 헤더의 도구 설명 팝업을 통해 Workspace에서 언제든지 다시 실행할 수도 있습니다.
 
 ## 랜딩 페이지 설정 {#set-landing}
 
