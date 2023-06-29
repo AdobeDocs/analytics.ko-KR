@@ -4,9 +4,9 @@ keywords: 개인정보 보호
 title: 개인정보 보호 개요
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
 | 소비자가 구매한 항목 | 예 |
 | 장바구니에 남겨진 항목 | 예 |
 | 소셜 네트워크 정보 (사진, 사용자 ID, 연령, 성별, 위치) | **아니요** |
-| 사용자가 Adobe 서비스를 벗어나서 제공하는 개인정보 | 예 |
 | 광고 캠페인 성공률 | 예 |
 | 제품 정보 (색상, 가격, 스타일, 사진 등) | 예 |
 
@@ -73,4 +72,4 @@ Adobe Analytics에서는 다음 데이터를 수집합니다.
 
 | Adobe 이름 | 주소 | 시설 유형 (운영자) | 지원되는 솔루션 구성 요소 | 인증 |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility(Gyron) | 멀티채널 분석, 디지털 분석 | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU 영국 | Colocation Facility(Gyron) | 멀티채널 분석, 디지털 분석 | SSAE 16 |
