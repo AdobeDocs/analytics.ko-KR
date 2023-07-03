@@ -3,7 +3,8 @@ description: Workspace 프로젝트에서 기여도 분석 보고서를 실행�
 title: 기여도 분석 실행
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -20,15 +21,15 @@ ht-degree: 100%
 
 * 일별 세부기간을 사용하는 자유 형식 테이블에서 임의 행을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 선택합니다. 예외 항목을 표시하지 않는 행에서 실행할 수도 있습니다.
 
-   >[!NOTE]
-   >
-   >현재 Adobe에서는 일별 세부기간만 사용하는 기여도 분석을 지원합니다.
+  >[!NOTE]
+  >
+  >현재 Adobe에서는 일별 세부기간만 사용하는 기여도 분석을 지원합니다.
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * 라인 차트에서는, 라인 차트의 예외 항목 데이터 포인트 위로 마우스를 가져갑니다. 표시되는 **[!UICONTROL 분석]** 링크를 클릭합니다.
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
 1. (선택 사항) 라인 차트나 표에서 **[!UICONTROL 기여도 분석 실행]**&#x200B;을 클릭한 후에 [차원을 제외](#section_F6932F4BF74544B5872164E7B1E0C6FC)하여 분석 범위를 좁힐 수 있습니다(따라서 분석 속도가 빨라짐).
 
@@ -41,7 +42,7 @@ ht-degree: 100%
 
    * [생성된 세그먼트](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR) (상위 항목 클러스터) 표는 기여도 점수, 예외 항목 발생 횟수 및 이상 지표에 기여하는 전체적인 비율을 기반으로 상위 항목의 연관성을 식별합니다. 그런 다음 대상 세그먼트로서 캡처됩니다(기여도 세그먼트 1, 기여도 세그먼트 2 등). &quot;i&quot; (정보) 버튼을 클릭하면 세그먼트를 구성하는 상위 항목을 포함하여 각 자동 세그먼트의 정의가 표시됩니다.
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. 이제 기여도 분석은 Analysis Workspace의 일부이므로 다음과 같이 표의 마우스 오른쪽 버튼 클릭 메뉴에 있는 많은 기능을 사용하여 분석을 훨씬 더 의미 있게 할 수 있습니다.
 

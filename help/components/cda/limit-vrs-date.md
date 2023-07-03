@@ -2,10 +2,11 @@
 title: VRS를 특정 날짜로 제한
 description: 연결된 데이터에만 집중하도록 VRS 날짜 범위를 제한하는 방법을 이해합니다.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -23,9 +24,9 @@ VRS를 설정할 때 구성 요소에서 고정된 시작 날짜가 있는 날�
 
 ## 2단계: “exclude-exclude” 세그먼트 만들기
 
-다음으로 다른 제외 컨테이너 내의 제외 컨테이너에 날짜 범위를 넣는 히트 세그먼트를 만듭니다. 이것이 “exclude-exclude”입니다.
+다음으로 다른 제외 컨테이너 내의 제외 컨테이너에 날짜 범위를 넣는 히트 세그먼트를 만듭니다. &quot;exclude-exclude&quot;입니다.
 
-“exclude-exclude”를 하는 이유는 날짜 범위가 보고서의 날짜 범위를 재정의하기 위한 것입니다. 따라서 6월 1일 이후만 포함하면 항상 보고서 날짜 범위가 6월 1일 이후로 설정됩니다. 이로 인해 원하지 않는 결과가 발생합니다. “exclude-exclude”는 이 동작을 무시하고 가져올 수 있는 데이터를 적절한 날짜 범위로 제한합니다.
+exclude exclude를 하는 이유는 날짜 범위가 보고서의 날짜 범위를 재정의하기 위한 것입니다. 따라서 6월 1일 이후만 포함하면 항상 보고서 날짜 범위가 6월 1일 이후로 설정됩니다. 이로 인해 원하지 않는 결과가 발생합니다. &quot;exclude-exclude&quot;는 이 동작을 무시하고 가져올 수 있는 데이터를 적절한 날짜 범위로 제한합니다.
 
 ![](assets/exclude-exclude.png)
 

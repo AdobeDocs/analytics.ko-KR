@@ -2,8 +2,9 @@
 title: Analytics 기술 노트
 description: 이 안내서는 특정 분석 도구 또는 구성 요소에 속하지 않는 주제에 대한 유용한 정보를 제공합니다.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-source-git-commit: 2c451360f6e3ab62ca69a8852ec6d5627ee2691f
-workflow-type: ht
+feature: Attribution, Visualizations, Reports & Analytics Basics, Segmentation, Real-time
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

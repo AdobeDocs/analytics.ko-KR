@@ -2,7 +2,8 @@
 title: collectHighEntropyUserAgentHints
 description: 'collectHighEntropyUserAgentHints 변수를 사용하여 Adobe가 Chromium 브라우저(예: Google Chrome 및 Microsoft Edge)에서 높은 엔트로피 힌트를 요청할지 여부를 결정합니다.'
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
+feature: Variables
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%

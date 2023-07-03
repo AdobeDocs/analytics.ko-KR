@@ -2,20 +2,21 @@
 title: Adobe Experience Edge의 Analytics 변수 매핑
 description: Edge가 Analytics 변수에 자동으로 매핑하는 XDM 필드를 봅니다.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 825552f176e9082fcf2a5b6103d2a5c30dd3a583
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1506'
+ht-degree: 95%
 
 ---
 
 # Adobe Experience Edge의 Analytics 변수 매핑
 
-다음 표에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹.
+다음 표에서는 Adobe Experience Platform Edge Network를 Adobe Analytics에 자동으로 매핑하는 변수를 보여 줍니다. 이러한 XDM 필드 경로를 사용하는 경우 Adobe Analytics로 데이터를 전송하기 위해 추가 구성이 필요하지 않습니다. 이러한 필드는 다음 위치에 포함됩니다. **[!UICONTROL Adobe Analytics ExperienceEvent 템플릿]** 필드 그룹입니다.
 
-이 테이블의 이전 업데이트는 [GitHub에서 기록 커밋](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
+이 테이블에 대한 이전 업데이트는 이 페이지의 [gitHub의 커밋 내역](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
 
-| XDM 필드 경로 | Analytics 차원 및 설명 |
+| XDM 필드 패스 | Analytics 차원 및 설명 |
 | --- | --- |
 | `application.isClose` | 모바일 지표 [충돌](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics)을 정의하는 데 도움이 됩니다. |
 | `application.isInstall` | 모바일 지표 [첫 실행](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ko-KR#metrics)을 늘릴 시기를 결정하는 데 도움이 됩니다. |
@@ -66,8 +67,8 @@ ht-degree: 0%
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 해당 [목록 Prop](../vars/page-vars/prop.md#list-props) 값을 포함하는 문자열 배열입니다. |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | `value`각 배열의 모든 문자열`list[]`을 해당 [목록 변수](../vars/page-vars/list.md)에 연결합니다. 구분 기호는 [보고서 세트 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)에 설정된 값을 기준으로 자동으로 선택됩니다. |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 해당 [Prop](../../components/dimensions/prop.md) 차원을 설정합니다. |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. 각 이벤트 ID는 해당 100개 그룹 상위에 있습니다. 예를 들어 `event678`, 사용 `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. 각 이벤트는 100개 그룹 상위에 있습니다. 예를 들어 `event567` is `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | [이벤트 일련화](../vars/page-vars/events/event-serialization.md)를 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표에 적용합니다. 각 이벤트 ID는 100개의 그룹 상위 ID에 있습니다. 예를 들어 일련화 를 적용할 대상 `event678`, 사용 `_experience.analytics.event601to700.event678.id`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 원하는 수량만큼 해당 [사용자 정의 이벤트](../../components/metrics/custom-events.md) 지표를 증가시킵니다. 각 이벤트는 100개 그룹 상위에 있습니다. 예를 들어 다음 필드가 그렇습니다. `event567` 은(는) `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud ID 서비스 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR). |
 | `marketing.trackingCode` | [추적 코드](../../components/dimensions/tracking-code.md) 차원을 설정합니다. |
 | `media.mediaTimed.completes.value` | Media Analytics 지표 [콘텐츠 완료](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ko-KR#content-complete). |

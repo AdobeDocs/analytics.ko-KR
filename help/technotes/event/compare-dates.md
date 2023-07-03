@@ -2,7 +2,8 @@
 title: 이벤트의 영향을 받은 날짜를 이전 범위와 비교
 description: 이전 트렌드와 비교하여 구현 문제 또는 중단과 같은 이벤트의 영향에 대해 알아봅니다.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%

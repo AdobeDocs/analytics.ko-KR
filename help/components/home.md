@@ -2,7 +2,8 @@
 title: Analytics Components 안내서
 description: Adobe Analytics가 제공하는 다양한 구성 요소에 대해 살펴보십시오.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+feature: Components
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%

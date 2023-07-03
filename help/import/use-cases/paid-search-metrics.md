@@ -2,7 +2,8 @@
 title: 유료 검색 지표 가져오기
 description: '데이터 소스를 사용하여 유료 검색 지표(예: Google AdWords, MSN, Yahoo 등)를 추적하도록 Adobe Analytics를 구성하는 단계.'
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 100%

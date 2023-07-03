@@ -1,14 +1,16 @@
 ---
-title: doubleEncodeLinkParameter
+title: doubleEncodeLinkParameters
 description: AppMeasurement 이중 인코딩 링크 추적 변수를 활성화하거나 비활성화합니다.
-source-git-commit: d0e3b28590b24d630a192ee857a7d84c115dc8c1
+exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
+feature: Variables
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# doubleEncodeLinkParameter
+# doubleEncodeLinkParameters
 
 다음 `doubleEncodeLinkParameters` 변수는 링크 추적 변수가 한 번 인코딩되는지 여부를 결정하는 부울입니다( 로 설정된 경우). `false`) 또는 두 번(로 설정된 경우) `true`). 영향만 미칩니다. `linkName` (일부 [`tl()`](../functions/tl-method.md) 방법) 및 [`linkURL`](linkurl.md). 사용하려면 AppMeasurement 2.23.1 이상이 필요합니다. 이 변수의 기본값은 입니다 `true`.
 

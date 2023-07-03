@@ -2,7 +2,8 @@
 title: Analytics 가져오기 안내서
 description: 이 안내서에서는 데이터 소스, 데이터 삽입 API 및 데이터 커넥터를 사용하여 Analytics로 데이터를 가져오는 방법을 설명합니다.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%

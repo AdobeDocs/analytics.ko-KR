@@ -1,9 +1,9 @@
 ---
 title: 데이터 보존 정책
 description: 데이터 보존 정책은 Adobe가 데이터를 저장하는 기간을 결정합니다.
-feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Governance, Privacy
+source-git-commit: 065126757513df3503a5bbb34ceafe1b569ec51a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 91%
@@ -53,5 +53,5 @@ Adobe는 데이터 프로세서로서 고객이 개인의 액세스, 삭제 및 
 
 **Adobe는 언제 데이터를 삭제합니까?**
 
-Adobe 계정 팀에 데이터 삭제가 예정된 특정 시간을 문의하십시오. 데이터는 일반적으로 매월 롤링을 기준으로 삭제됩니다.
+데이터 삭제가 예정된 특정 시간을 Adobe 계정 팀에 문의하십시오. 데이터는 일반적으로 매월 롤링을 기준으로 삭제됩니다.
 
