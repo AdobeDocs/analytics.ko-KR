@@ -1,7 +1,9 @@
 ---
 title: 분류 세트 통합 관리자
 description: 하나 이상의 분류 세트를 단일 분류 세트로 통합합니다.
-source-git-commit: d0e3b28590b24d630a192ee857a7d84c115dc8c1
+exl-id: 032e93f6-9c11-4522-a02e-376eb4fd98bf
+feature: Classifications
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 5%

@@ -1,7 +1,9 @@
 ---
 title: 분류 세트 통합 프로세스
 description: 분류 세트를 통합하는 전체 프로세스
-source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
+exl-id: 315d45fa-2819-4778-a88e-65a7cce64148
+feature: Classifications
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%

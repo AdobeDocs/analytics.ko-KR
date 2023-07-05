@@ -2,7 +2,8 @@
 title: 클라이언트 힌트
 description: 클라이언트 힌트가 점차 디바이스 정보의 소스로 사용자 에이전트를 대체하는 방법에 대해 알아봅니다.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+feature: Data Configuration and Collection
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 87%

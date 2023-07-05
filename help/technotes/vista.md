@@ -2,7 +2,8 @@
 title: Adobe Analytics의 VISTA 규칙
 description: VISTA 규칙 및 해당 기능에 대해 자세히 알아보십시오.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Analytics Basics
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -33,4 +34,4 @@ VISTA 규칙을 만들려면 Adobe Professional Services와 협력해야 합니�
 
 ## 기존 VISTA 규칙 보기
 
-Adobe는 기존 VISTA 규칙을 볼 수 있는 UI를 제공하지 않습니다. 기존 VISTA 규칙 목록을 검색하려면 원하는 보고서 세트를 사용하여 Adobe 계정 팀이나 고객 지원 센터에 문의하십시오.
+Adobe는 기존 VISTA 규칙을 볼 수 있는 UI를 제공하지 않습니다. 기존 VISTA 규칙 목록을 검색하려면 원하는 보고서 세트와 함께 Adobe 계정 팀이나 고객 지원 센터에 문의하십시오.
