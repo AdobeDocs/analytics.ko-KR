@@ -3,10 +3,10 @@ title: 분류 세트 스키마
 description: 개별 분류 세트에 대한 스키마를 보고 편집합니다.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 46%
+source-wordcount: '525'
+ht-degree: 42%
 
 ---
 
@@ -46,7 +46,14 @@ ht-degree: 46%
 
 * **[!UICONTROL 작업 내역]**: 로 이동하는 바로 가기 링크 [작업 관리자](../job-manager.md), 이 분류 세트에 대한 작업만 표시합니다.
 * **[!UICONTROL 자동화]**: 외부 스토리지 위치에서 데이터를 자동으로 수집합니다.
-   * **[!UICONTROL 위치 계정]**: 조직에서 구성한 기존 위치 계정을 표시하는 드롭다운 목록입니다. 위치 계정을 만드는 버튼을 사용할 수 있습니다.
-   * **[!UICONTROL 위치]**: 조직에서 구성한 기존 위치를 보여 주는 드롭다운 목록입니다. 버튼을 사용하여 위치를 만들 수 있습니다.
+   * **[!UICONTROL 위치 계정]**: 조직에서 구성한 기존 위치 계정을 표시하는 드롭다운 목록입니다. 조직에서 아직 위치 계정을 구성하지 않은 경우 다음을 선택하여 구성할 수 있습니다. [!UICONTROL **새 계정 만들기**].
+
+     위치 계정 구성에 대한 자세한 내용은 [클라우드 가져오기 위치 구성](/help/components/classifications/importer/configure-import-accounts.md).
+
+   * **[!UICONTROL 위치]**: 조직에서 구성한 기존 위치를 보여 주는 드롭다운 목록입니다. 조직에서 위치를 아직 구성하지 않은 경우 다음을 선택하여 위치를 구성할 수 있습니다. [!UICONTROL **새 위치 만들기**].
+
+     위치 구성에 대한 자세한 내용은 [클라우드 가져오기 위치 구성](/help/components/classifications/importer/configure-import-accounts.md).
+
    * **[!UICONTROL 구분 기호]**: 업로드된 파일의 열 구분 기호입니다. 옵션은 다음과 같습니다 [!UICONTROL 쉼표], [!UICONTROL 세미콜론], [!UICONTROL 콜론], [!UICONTROL 세로 막대], [!UICONTROL 공간], [!UICONTROL 슬래시], [!UICONTROL 백슬래시], [!UICONTROL 대시], 또는 [!UICONTROL 밑줄].
+
    * **[!UICONTROL 인코딩]**: 파일 인코딩을 결정하는 드롭다운 목록입니다. 옵션에는 [!UICONTROL UTF-8] 및 [!UICONTROL Latin1]이 포함됩니다. UTF-8이 권장됩니다.

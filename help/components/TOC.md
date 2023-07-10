@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
-source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
+source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 86%
+source-wordcount: '717'
+ht-degree: 88%
 
 ---
 
@@ -186,9 +186,9 @@ ht-degree: 86%
       + [계산된 지표 워크플로](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [&quot;방문자 수당 페이지 보기 수&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [“방문자 수당 페이지 조회수” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [지원 주문 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [&quot;기여도&quot; 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [“참여도” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [세분화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [세그먼트 스택 및 바꾸기](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -262,6 +262,7 @@ ht-degree: 86%
       + [브라우저 및 FTP 가져오기](classifications/importer/import-file.md)
       + [브라우저 가져오기](classifications/importer/browser-import.md)
       + [브라우저 내보내기](classifications/importer/browser-export.md)
+      + [클라우드 가져오기](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP 가져오기](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP 내보내기](classifications/importer/ftp-export.md)
       + [처리 시간](classifications/importer/processing-time.md)
