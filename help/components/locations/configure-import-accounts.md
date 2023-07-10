@@ -3,7 +3,7 @@ description: 분류 데이터를 업로드할 수 있는 클라우드 가져오�
 keywords: Analysis Workspace
 title: 클라우드 가져오기 계정 구성
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 클라우드 대상에서 Adobe Analytics 분류 데이터를 가져오려면 먼저 분류 데이터를 수집할 계정 및 해당 계정 내의 위치를 추가하고 구성해야 합니다.
 
-이 프로세스는 이 문서에 설명된 대로 계정을 추가 및 구성(예: Amazon S3 Role ARN, Google Cloud Platform 등)한 다음, 해당 계정 내에서 위치(예: 계정 내 폴더)를 추가 및 구성하는 것으로 구성됩니다 [클라우드 가져오기 위치 구성][/help/components/locations/configure-import-locations.md].
+이 프로세스는 이 문서에 설명된 대로 계정을 추가 및 구성(예: Amazon S3 Role ARN, Google Cloud Platform 등)한 다음, 해당 계정 내에서 위치(예: 계정 내 폴더)를 추가 및 구성하는 것으로 구성됩니다 [클라우드 가져오기 위치 구성](/help/components/locations/configure-import-locations.md).
 
 클라우드 대상 계정에 액세스하려면 필요한 정보로 Adobe Analytics을 구성해야 합니다.
 
