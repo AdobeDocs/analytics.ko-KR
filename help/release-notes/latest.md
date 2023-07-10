@@ -3,7 +3,7 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
+source-git-commit: b0c97e4f9d3243e233999cf80f1d742a676f4023
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 85%
@@ -20,7 +20,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **분류 데이터를 수집하기 위한 클라우드 계정 저장소 위치 구성** | 이제 분류 세트 자동화에 사용되는 클라우드 계정 저장소 위치를 관리할 수 있습니다.<p>[자세히 알아보기](/help/components/classifications/importer/configure-import-accounts.md)</p> |  | 2023년 7월 10일 |
+| **분류 데이터를 수집하기 위한 클라우드 계정 저장소 위치 구성** | 이제 분류 세트 자동화에 사용되는 클라우드 계정 저장소 위치를 관리할 수 있습니다.<p>[자세히 알아보기](/help/components/locations/configure-import-accounts.md)</p> |  | 2023년 7월 10일 |
 | **데이터 복구 필터 개선 사항** | 데이터 복구에 세 가지 필터링 개선 사항이 추가되었습니다.<ul><li>한 개의 변수로 필터링하여 두 번째 변수를 수정합니다. 예를 들어 다음과 같습니다. `eVar2` &quot;@&quot;을(를) 포함한 다음 삭제 `eVar3`.</li><li>숫자 또는 숫자가 아닌 값 필터링</li><li>AND로 여러 필터를 적용합니다. 예를 들어, `eVar2="a"` 및 `eVar3="b"`</li></ul>[자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023년 6월 21일 | 2023년 7월 12일 |
 | **프로젝트 링크 공유 (로그인 불필요)** | 이제 Adobe Analytics에 액세스할 수 없는 사용자에게 Analysis Workspace 프로젝트에 대한 읽기 전용 링크를 공유할 수 있습니다. 여기에는 조직 외부의 사용자 또는 Adobe Analytics용으로 프로비저닝되지 않은 조직 내의 사용자와의 공유가 포함됩니다. [자세히 알아보기](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>이 기능은 기본적으로 활성화되어 있으며 시스템 관리자가 비활성화할 수 있습니다. [자세히 알아보기](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023년 5월 3일 | 2023년 6월 7일 |
 | **분류 세트를 위한 새로운 기능** | [분류 세트](/help/components/classifications/sets/overview.md) 다음과 같은 몇 가지 새로운 기능이 업데이트되었습니다.<ul><li>**통합**: 분류 세트를 하나의 통합된 분류 세트로 결합합니다. 통합 분류 세트는 다른 분류 세트처럼 또는 Customer Journey Analytics에서 조회 데이터 세트로 사용할 수 있습니다. [자세히 알아보기](../components/classifications/sets/consolidations/manage.md)</li><li>**규칙**: 분류 세트의 규칙을 기반으로 값을 자동으로 분류합니다. [자세히 알아보기](../components/classifications/sets/manage/rules.md)</li><li>**자동 가져오기**: 클라우드 스토리지 대상에서 분류 데이터를 자동으로 가져옵니다. [자세히 알아보기](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023년 6월 7일 |
