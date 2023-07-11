@@ -3,7 +3,7 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 47f102662e5887b3df456a3db88038cec61a6fb2
+source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 76%
@@ -20,7 +20,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 
 | 기능 | 설명 | [롤아웃 시작](releases.md) | [일반 가용성](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **분류 데이터를 수집하기 위한 클라우드 계정 저장소 위치 구성** | 이제 분류 세트 자동화에 사용되는 클라우드 계정 저장소 위치를 관리할 수 있습니다.[자세히 알아보기](/help/components/locations/configure-import-accounts.md)<p> | 해당 사항 없음 | 2023년 7월 10일 |
+| **분류 데이터를 수집하기 위한 클라우드 계정 저장소 위치 구성** | 이제 분류 세트 자동화에 사용되는 클라우드 계정 저장소 위치를 관리할 수 있습니다. [자세히 알아보기](/help/components/locations/configure-import-accounts.md)<p> | 해당 사항 없음 | 2023년 7월 10일 |
 | **데이터 복구 필터 개선 사항** | 데이터 복구에 세 가지 필터링 개선 사항이 추가되었습니다.<ul><li>한 개의 변수로 필터링하여 두 번째 변수를 수정합니다. 예를 들어 다음과 같습니다. `eVar2` &quot;@&quot;을(를) 포함한 다음 삭제 `eVar3`.</li><li>숫자 또는 숫자가 아닌 값 필터링</li><li>AND로 여러 필터를 적용합니다. 예를 들어, `eVar2="a"` 및 `eVar3="b"`</li></ul>[자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023년 6월 21일 | 2023년 7월 12일 |
 | **데이터 피드 내보내기를 위한 보안 대상** | 이제 데이터 피드를 다음 클라우드 스토리지 대상으로 보낼 수 있습니다.<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud 플랫폼</li></ul>이전에 사용할 수 있었던 대상(FTP, SFTP, S3 및 Azure Blob)은 더 이상 권장되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | 2023년 6월 12일 | 2023년 7월 15일 |
 
