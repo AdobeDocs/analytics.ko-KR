@@ -3,10 +3,10 @@ title: 모바일 디바이스용 Analytics 구현
 description: 사용할 모바일 AppMeasurement 라이브러리를 결정합니다.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+source-git-commit: 86b6b5b8fc406bab0634997b0297d44c82c636fe
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 78%
 
 ---
 
@@ -16,8 +16,9 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Mobile SDK
 
-* [SDK 저장소](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation)
-* [설명서](https://aep-sdks.gitbook.io/docs/)
+* [iOS SDK 저장소](https://github.com/adobe/aepsdk-analytics-ios)
+* [Android SDK 저장소](https://github.com/adobe/aepsdk-analytics-android)
+* [설명서](https://sdkdocs.com/)
 
 ## 버전 4 Mobile SDK
 
