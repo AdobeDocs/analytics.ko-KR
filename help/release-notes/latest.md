@@ -3,10 +3,10 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
+source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ AN-307816, AN-318111, AN-318584, AN-318828, AN-320440, AN-320568, AN-320616, AN-
 | 공지 | 추가 또는 업데이트 일자 | 설명 |
 | ----------- | ---------- | ---------- |
 | **구매 ID 및 이벤트 ID의 37개월 만료(이벤트 일련화)** | 10,2023년 7월 | 다음에 릴리스가 타깃팅된 Analytics 히트 처리 엔진의 향후 릴리스 **2023년 7월 13일**&#x200B;는 구매 ID 및 이벤트 ID(이벤트 일련화)의 37개월 만료를 적용합니다. 현재 구매 ID 및 이벤트 ID는 Adobe Analytics에서 만료되지 않습니다. 구매 ID 또는 이벤트 ID가 표시/사용되면 이후 히트는 언제라도 해당 구매 또는 이벤트가 중복으로 표시됩니다. 새로운 처리 엔진 릴리스:<ul><li>구매 ID 및 이벤트 ID는 항상 37개월 후에 만료됩니다.</li><li>구매 ID 또는 이벤트 ID를 조회한 후 37개월이 경과한 경우에는 더 이상 중복 구매 또는 이벤트로 간주되지 않습니다.</li><li> 37개월 이전의 구매 ID 또는 이벤트 ID를 “재사용”하는 경우, 더 이상 중복으로 간주되지 않습니다.</li></ul> |
-| **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 Livestream 고객은 **2025년 1월 1일**&#x200B;까지 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. 자세한 내용과 타임라인은 아래 표의 수명 종료 알림을 참조하십시오. |
+| **Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션** | 2023년 5월 11일 | Adobe I/O JWT 자격 증명을 사용하는 Adobe Analytics API 및 라이브스트림 고객은 다음 작업을 수행하여 Adobe I/O OAuth 서버 간 자격 증명으로 마이그레이션해야 합니다. **2025년 1월 1일**. 자세한 내용과 타임라인은 아래 표의 수명 종료 알림을 참조하십시오. |
 
 {style="table-layout:auto"}
 
