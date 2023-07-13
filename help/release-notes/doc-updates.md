@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
 workflow-type: tm+mt
-source-wordcount: '4489'
+source-wordcount: '4490'
 ht-degree: 97%
 
 ---
@@ -25,8 +25,9 @@ ht-degree: 97%
 
 | 기능 | 설명 |
 | --- | --- |
+| **2023년 7월** | |
+| 새로운 AppMeasurement 변수 | `decodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. [자세히 알아보기](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023년 6월** | |
-| 새로운 AppMeasurement 변수 | `doubleEncodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. [자세히 알아보기](../implement/vars/config-vars/doubleencodelinkparameters.md) |
 | 분류 세트를 위한 새로운 기능 | [분류 세트](/help/components/classifications/sets/overview.md) 다음과 같은 몇 가지 새로운 기능이 업데이트되었습니다.<ul><li>**통합**: 분류 세트를 하나의 통합된 분류 세트로 결합합니다. 통합 분류 세트는 다른 분류 세트처럼 또는 Customer Journey Analytics에서 조회 데이터 세트로 사용할 수 있습니다. [자세히 알아보기](../components/classifications/sets/consolidations/manage.md)</li><li>**규칙**: 분류 세트의 규칙을 기반으로 값을 자동으로 분류합니다. [자세히 알아보기](../components/classifications/sets/manage/rules.md)</li><li>**자동 가져오기**: 클라우드 스토리지 대상에서 분류 데이터를 자동으로 가져옵니다. [자세히 알아보기](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 계산된 지표 업데이트 | 절차 단계 및 스크린샷 업데이트를 포함하여 계산된 지표와 관련된 다양한 문서가 업데이트되었습니다. 문서가 현재 Adobe Analytics 기능에 맞도록 변경되었습니다. |
 | 데이터 피드 내보내기를 위한 보안 대상 | 이제 데이터 피드를 다음 클라우드 스토리지 대상으로 보낼 수 있습니다.<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud 플랫폼</li></ul>이전에 사용할 수 있었던 대상(FTP, SFTP, S3 및 Azure Blob)은 더 이상 권장되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) |
