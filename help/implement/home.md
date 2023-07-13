@@ -3,10 +3,10 @@ title: Adobe Analytics 구현
 description: 사이트, 속성 또는 애플리케이션에서 Adobe Analytics를 구현합니다.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 95%
+source-wordcount: '925'
+ht-degree: 85%
 
 ---
 
@@ -35,20 +35,20 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 * **Web SDK 확장**: 새 고객을 위한 Adobe Analytics 구현에 권장되는 표준화된 방법입니다. 설치 **Adobe Experience Platform 웹 SDK 확장** Adobe Experience Platform 데이터 수집 **태그**: 각 페이지에서 로더 태그를 사용하고 데이터를 Adobe Experience Platform에 보냅니다. **에지 네트워크** 조직에 편리한 형식으로. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
   ![Web SDK 확장](./assets/websdk-extension-implementation.png)
-자세한 내용은 [Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Analytics 구현](./aep-edge/overview.md)을 참조하십시오.
+다음을 참조하십시오 [Adobe Experience Platform Web SDK 확장을 사용하여 Adobe Analytics을 구현하는 방법입니다.](./aep-edge/overview.md)를 참조하십시오.
 
 * **Web SDK**: Adobe Experience Platform 데이터 수집을 사용하지 않으려면 사이트에서 Web SDK 라이브러리를 수동으로 로드할 수 있습니다. 각 페이지에서 Web SDK 라이브러리(`alloy.js`)를 참조하고 원하는 추적 호출을 조직에 편리한 형식으로 Adobe Experience Platform **Edge Network**에 전송합니다. Edge Network는 들어오는 데이터를 올바른 형식으로 Adobe Analytics에 전달합니다.
-  ![Web SDK](./assets/websdk-implementation.png)
-자세한 내용은 [Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현](./aep-edge/overview.md)을 참조하십시오.
+  ![웹 SDK](./assets/websdk-implementation.png)
+다음을 참조하십시오 [Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics을 구현하는 방법](./aep-edge/overview.md) 추가 정보.
 
 
 * **Analytics 확장**: Adobe Experience Platform 데이터 수집 **태그**&#x200B;에서 **Adobe Analytics 확장**을 설치합니다. 각 페이지에 로더 태그를 배치하고 Adobe Analytics 확장을 사용하여 각 변수가 정의되는 방식을 결정합니다. 태그의 편리함을 원하지만 Edge Network 인프라는 사용하고자 하지 않는 경우 이 구현 방법을 사용하십시오.
   ![Adobe Analytics 확장](./assets/analytics-extension-implementation.png)
-자세한 내용은 [Analytics 확장을 사용하여 Adobe Analytics 구현](launch/overview.md)을 참조하십시오.
+다음을 참조하십시오 [Analytics 확장을 사용하여 Adobe Analytics을 구현하는 방법](launch/overview.md) 추가 정보.
 
 * **기존 JavaScript**: Adobe Analytics를 구현하는 과거의 수동 방법입니다. 각 페이지에서 AppMeasurement 라이브러리(`AppMeasurement.js`)를 참조한 다음 구현에 사용되는 변수 및 설정을 개괄합니다.
-  ![기존 JavaScript](./assets/appmeasurement-implementation.png)
-이 구현 방법은 사용자 정의 코드를 사용하는 구현에 유용하게 사용할 수 있으며 다음을 사용할 때에도 권장되는 방법입니다.
+  ![이전 JavaScript를 사용하여 Adobe Analytics을 구현하는 방법](./assets/appmeasurement-implementation.png)
+이 구현 방법은 사용자 지정 코드를 사용하는 구현에 유용할 수 있으며, 다음을 사용하려는 경우에도 여전히 권장됩니다.
 
    * [Activity Map 데이터](../analyze/activity-map/activity-map.md)
 
@@ -66,7 +66,7 @@ Adobe Analytics에서 데이터 수집 서버에 데이터를 전송하려면 �
 
 다음은 구현 방법을 선택하는 데 도움이 될 수 있는 의사 결정 흐름입니다.
 
-![의사 결정 트리](./assets/decision-tree.png)
+![이 섹션에 설명된 대로 구현 방법을 선택하기 위한 의사 결정 트리입니다.](./assets/decision-tree.png)
 
 
 >[!TIP]

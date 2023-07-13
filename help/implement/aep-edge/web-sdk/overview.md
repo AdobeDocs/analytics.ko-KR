@@ -3,10 +3,10 @@ title: Adobe Experience Platform Web SDK를 사용하여 Adobe Analytics 구현
 description: Adobe Experience Platform 데이터 수집에서 Web SDK 확장 기능을 사용하여 Adobe Analytics로 데이터를 전송합니다.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Web SDK를 사용하거나 태그의 Web SDK 확장을 통해 데이터를 Exper
 
 구현 작업에 대한 개략적인 개요:
 
-![Web SDK 워크플로를 사용하여 Adobe Analytics 구현](../../assets/websdk-annotated.png)
+![이 섹션에 설명된 대로 웹 SDK 워크플로를 사용하여 Adobe Analytics을 구현하는 방법입니다.](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -86,7 +86,7 @@ Web SDK를 사용하거나 태그의 Web SDK 확장을 통해 데이터를 Exper
 
 구현 작업에 대한 개략적인 개요:
 
-![Web SDK 확장 워크플로를 사용하여 Adobe Analytics 구현](../../assets/websdk-extension-annotated.png)
+![이 섹션에 설명된 대로 Web SDK 확장 워크플로우를 사용하여 Adobe Analytics을 구현하는 방법입니다.](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 

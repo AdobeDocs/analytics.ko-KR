@@ -2,10 +2,11 @@
 title: Analytics 확장을 사용하여 Adobe Analytics 구현
 description: 태그 및 Analytics 확장을 사용하는 Adobe Analytics 구현 방법 알아보기
 feature: Launch Implementation
-source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +22,7 @@ Adobe Experience Platform의 태그는 다른 태그 지정 요구 사항과 함
 
 
 
-![Analytics 확장 워크플로를 사용하는 Adobe Analytics](../assets/analytics-extension-annotated.png)
+![이 섹션에 설명된 대로 Analytics 확장 워크플로우를 사용하여 Adobe Analytics을 구현하는 방법입니다.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
