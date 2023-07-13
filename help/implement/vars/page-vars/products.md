@@ -3,10 +3,10 @@ title: products
 description: 표시되거나 장바구니에 있는 제품에 대한 데이터를 전송합니다.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 72%
+source-wordcount: '633'
+ht-degree: 71%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Experience Platform 데이터 수집에는 이 변수를 설정할 전용 
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-이 변수는 동일한 히트에서 여러 제품을 지원합니다. 여러 제품이 포함된 장바구니 및 구매 시 유용합니다. 전체 `products` 문자열의 최대 길이는 64K입니다. 문자열에서 각 제품은 쉼표 (`,`)로 구분하십시오.
+이 변수는 동일한 히트에서 여러 제품을 지원합니다. 여러 제품이 포함된 장바구니 및 구매 시 유용합니다. 전체에 대한 최대 길이 `products` 문자열은 64k 바이트입니다. 문자열에서 각 제품은 쉼표 (`,`)로 구분하십시오.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
