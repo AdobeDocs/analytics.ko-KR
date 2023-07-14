@@ -3,7 +3,7 @@ title: 개선된 IP-to-geolocation 매핑 FAQ
 description: IP-to-geolocation 매핑을 위해 새롭고 개선된 데이터 세트(NetAcuity Pulse)와 관련된 질문에 대한 답변입니다.
 feature: Data Configuration and Collection
 exl-id: 9327c20c-1310-4451-a6e4-61dc0e46724d
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
