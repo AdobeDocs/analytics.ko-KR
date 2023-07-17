@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -72,7 +72,6 @@ ht-degree: 100%
 
    * 함께 제공되는 시각화 (이 경우 [막대 차트](/help/analyze/analysis-workspace/visualizations/bar.md)) 생성된 시각화는 표에 추가한 데이터 유형을 기반으로 합니다. 시간 기반 데이터 (예: 일/개월당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 라인] 차트로 설정됩니다. 시간 기반이 아닌 데이터 (예: [!UICONTROL 디바이스]당 [!UICONTROL 방문 수])는 기본적으로 [!UICONTROL 막대] 차트로 제공됩니다. 시각화 유형 옆의 드롭다운 화살표를 클릭하여 시각화 유형을 변경할 수 있습니다.
 
-
 1. (선택 사항) 차원 옆에 있는 > 오른쪽 화살표를 클릭하여 차원을 드릴다운하고 차원 항목을 살펴봅니다.
 
 1. 아래의 &quot;추가 팁&quot;에 설명된 대로 세부 사항을 추가해 보십시오.
@@ -85,19 +84,19 @@ ht-degree: 100%
 
 * 먼저 **[!UICONTROL 추가 팁]** 튜토리얼을 완료합니다. 도움말 (?) ([!UICONTROL 빠른 인사이트] 타일 옆) 아이콘을 통해 액세스합니다. 이 튜토리얼은 하나 이상의 차원과 지표가 있는 프로젝트를 만든 후 24시간을 보여 줍니다.
 
-   ![](assets/qibuilder4.png)
+  ![](assets/qibuilder4.png)
 
 * **분류 기준**: 차원에서 최대 3개의 분류 수준을 사용하여 필요한 데이터로 드릴다운할 수 있습니다.
 
-   ![](assets/qibuilder5.png)
+  ![](assets/qibuilder5.png)
 
 * **지표 추가**: AND 연산자를 사용하여 표에 지표를 추가하여 최대 2개의 지표를 추가할 수 있습니다.
 
-   ![](assets/qibuilder6.png)
+  ![](assets/qibuilder6.png)
 
 * **세그먼트 추가**: AND 또는 OR 연산자를 사용하여 테이블을 추가하여 최대 2개의 세그먼트를 추가할 수 있습니다. 모바일 사용자 또는 단골 방문자를 추가할 때 표에 나타나는 상황을 살펴봅니다. 이러한 정보는 지표 위에 서로 나란히 표시됩니다. 모바일 사용자 및 단골 방문자를 추가한 경우 두 세그먼트의 결과를 함께 볼 수 있으며 표에서 서로 겹쳐 표시됩니다.
 
-   ![](assets/qibuilder7.png)
+  ![](assets/qibuilder7.png)
 
 ## 알려진 제한 사항
 
