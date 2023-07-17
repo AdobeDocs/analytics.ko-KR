@@ -3,7 +3,7 @@ title: 최신 Analytics 릴리스 정보
 description: 현재 Adobe Analytics 릴리스 정보 보기.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Adobe Analytics 릴리스는 기능 배포에 대한 보다 확장 가능한 단
 | ----------- | ---------- | ------- | ---- |
 | **분류 데이터 수집을 위한 클라우드 계정 스토리지 위치 구성** | 이제 분류 세트 자동화에 사용되는 클라우드 계정 스토리지 위치를 관리할 수 있습니다. [자세히 알아보기](/help/components/locations/configure-import-accounts.md)<p> | 해당 사항 없음 | 2023년 7월 10일 |
 | **데이터 복구 필터 개선** | 세 가지 필터링 개선 사항이 데이터 복구에 추가되었습니다.<ul><li>하나의 변수로 필터링하여 두 번째 변수를 수정합니다. 예: `eVar2`에 “@” 표시가 포함된 경우 `eVar3` 삭제</li><li>숫자 또는 숫자가 아닌 값에 대한 필터</li><li>AND를 사용하여 여러 필터를 적용합니다. 예: `eVar2="a"` AND `eVar3="b"`</li></ul>[자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023년 6월 21일 | 2023년 7월 12일 |
-| **데이터 피드 내보내기를 위한 보안 대상** | 이제 데이터 피드를 다음 클라우드 스토리지 대상으로 보낼 수 있습니다.<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud 플랫폼</li></ul>이전에 사용할 수 있었던 대상(FTP, SFTP, S3 및 Azure Blob)은 더 이상 권장되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | 2023년 6월 12일 | 2023년 7월 15일 |
+| **데이터 피드 내보내기를 위한 보안 대상** | 이제 데이터 피드를 다음 클라우드 스토리지 대상으로 보낼 수 있습니다.<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud 플랫폼</li></ul>이전에 사용할 수 있었던 대상(FTP, SFTP, S3 및 Azure Blob)은 더 이상 권장되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | 2023년 6월 12일 | 2023년 7월 13일 |
 | **새로운 AppMeasurement 변수** | `decodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. 대부분의 구현에서는 이 변수를 정의하지 않아도 됩니다. [자세히 알아보기](../implement/vars/config-vars/decodelinkparameters.md) |  | 2023년 7월 17일 |
 
 {style="table-layout:auto"}

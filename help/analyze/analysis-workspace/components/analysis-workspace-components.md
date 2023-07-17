@@ -4,7 +4,7 @@ title: 구성 요소 개요
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -127,8 +127,6 @@ Analysis Workspace의 왼쪽 레일에 있는 구성 요소 목록을 검색하�
 4. (선택 사항) 목록을 더 다듬기 위해 [구성 요소 목록 정렬](#sort-the-component-list)에 설명된 대로 구성 요소 목록을 정렬할 수 있습니다.
 
 ### 구성 요소 목록 정렬
-
-{{release-limited-testing-section}}
 
 1. (선택 사항) [구성 요소 목록 필터링](#filter-the-component-list)에 설명된 대로 구성 요소 목록에 필터를 적용합니다.
 
