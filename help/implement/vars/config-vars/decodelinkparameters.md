@@ -3,7 +3,7 @@ title: decodeLinkParameter
 description: AppMeasurement 이중 인코딩 링크 추적 변수를 활성화하거나 비활성화합니다.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # decodeLinkParameter
 
-다음 `decodeLinkParameters` 변수는 링크 추적 변수가 한 번 인코딩되는지 여부를 결정하는 부울입니다( 로 설정된 경우). `true`) 또는 두 번(로 설정된 경우) `false`). 영향만 미칩니다. `linkName` (일부 [`tl()`](../functions/tl-method.md) 방법) 및 [`linkURL`](linkurl.md). 사용하려면 AppMeasurement 2.23.1 이상이 필요합니다. 이 변수의 기본값은 입니다 `false`.
+다음 `decodeLinkParameters` 변수는 링크 추적 변수가 한 번 인코딩되는지 여부를 결정하는 부울입니다( 로 설정된 경우). `true`) 또는 두 번(로 설정된 경우) `false`). 영향만 미칩니다. `linkName` (일부 [`tl()`](../functions/tl-method.md) 방법) 및 [`linkURL`](linkurl.md). 사용하려면 AppMeasurement 2.24.0 이상이 필요합니다. 이 변수의 기본값은 입니다 `false`.
 
 이전 버전의 AppMeasurement에서 링크 추적 변수는 항상 URL로 두 번 인코딩되었습니다. 일반적으로 싱글바이트 문자를 사용하는 구현에는 문제가 없지만, 이중 인코딩이 보고서에서 멀티바이트 문자에 대해 잘못 인코딩된 값을 만들었습니다. 이 변수를 로 설정 `true` 링크 추적 값을 한 번 인코딩합니다. 이는 일반적으로 원하는 동작입니다.
 
