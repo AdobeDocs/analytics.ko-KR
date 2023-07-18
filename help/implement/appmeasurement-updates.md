@@ -3,9 +3,9 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
+source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2367'
 ht-degree: 96%
 
 ---
@@ -16,15 +16,15 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-GitHub ](https://github.com/adobe/appmeasurement/releases) 에서 [ appmeasurement의 최신 버전을 다운로드 수 있습니다.
+에서 최신 버전의 AppMeasurement을 다운로드할 수 있습니다. [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## 버전 2.24.0
 
 릴리스 일자: **2023년 7월 18일**
 
-* 더블 바이트 인코딩 문자를 포함 하 링크 Url을 디코딩하는 선택적 구성 (decodeLinkParameters 기본값 false)이 추가 되었습니다.
-* 높은 엔트로피 사용자-에이전트 클라이언트 힌트 API가 잘못 된 브라우저에 대 한 추가적인 오류 처리가 추가 되었습니다.
-* 기본적으로 사용할 `x-www-form-urlencoded` POST 컨텐트 유형 헤더를 변경 했습니다.
+* 선택적 구성(`decodeLinkParameters` 기본 false)로, 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩합니다.
+* 높은 엔트로피 사용자 에이전트 클라이언트 힌트 API가 잘못된 브라우저에 대한 추가 오류 처리가 추가되었습니다.
+* 사용할 POST Content-Type 헤더를 변경했습니다. `x-www-form-urlencoded` 기본적으로.
 
 ## 버전 2.23.0
 
@@ -332,7 +332,7 @@ s_gl이 호출될 때 [!DNL AppMeasurement] 라이브러리가 올바른 계정 
 릴리스 일자: **2015년 9월 17일**
 
 * 방문자 API 1.5.2 포함
-* VisitorAPI에서 Adobe Audience Manager DIL 6.2-getCustomer Id를 사용 하 여 Adobe Audience Manager에 대 한 이벤트 호출로 전달 하도록 모듈 업데이트 되었습니다 [!DNL Audience Manager] . (AN-104978)
+* 업데이트됨 [!DNL Audience Manager] VisitorAPI.js에서 Adobe Audience Manager DIL 6.2 - getCustomer ID를 사용하여 /event 호출로 Adobe Audience Manager에 전달하는 모듈입니다. (AN-104978)
 
 ## 버전 1.5
 
