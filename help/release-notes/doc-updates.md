@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 7월** | |
+| 업데이트된 FTP 크기 제한 | 기본 [FTP 데이터 스토리지 한도](/help/export/ftp-and-sftp/ftp-limits.md)를 100GB로 변경했습니다. |
 | 새로운 AppMeasurement 변수 | `decodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. [자세히 알아보기](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023년 6월** | |
 | 분류 세트의 새로운 기능 | [분류 세트](/help/components/classifications/sets/overview.md)가 몇 가지 새로운 기능으로 업데이트되었습니다.<ul><li>**통합**: 분류 세트를 통합된 단일 분류 세트로 결합합니다. 통합 분류 세트는 다른 분류 세트처럼 또는 Customer Journey Analytics에서 조회 데이터 세트로 사용할 수 있습니다. [자세히 알아보기](../components/classifications/sets/consolidations/manage.md)</li><li>**규칙**: 분류 세트의 규칙에 따라 값을 자동으로 분류합니다. [자세히 알아보기](../components/classifications/sets/manage/rules.md)</li><li>**자동화된 가져오기**: 클라우드 스토리지 대상에서 분류 세트 데이터를 자동으로 가져옵니다. [자세히 알아보기](../components/classifications/sets/manage/schema.md)</li></ul> |
