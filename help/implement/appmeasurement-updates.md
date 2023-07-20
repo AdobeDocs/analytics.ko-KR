@@ -3,7 +3,7 @@ title: JavaScript 릴리스 정보의 AppMeasurement
 description: JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 96%
@@ -22,7 +22,7 @@ JavaScript용 AppMeasurement에 대한 누적 릴리스 정보입니다.
 
 릴리스 일자: **2023년 7월 18일**
 
-* 선택적 구성(`decodeLinkParameters` 기본 false)로, 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩합니다.
+* 선택적 구성(`decodeLinkParameters` - 기본값 = false), 더블바이트로 인코딩된 문자가 포함된 링크 URL을 디코딩합니다.
 * 높은 엔트로피 사용자 에이전트 클라이언트 힌트 API가 잘못된 브라우저에 대한 추가 오류 처리가 추가되었습니다.
 * 사용할 POST Content-Type 헤더를 변경했습니다. `x-www-form-urlencoded` 기본적으로.
 
