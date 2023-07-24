@@ -3,10 +3,10 @@ description: 웹 서비스 API를 사용하면 Analytics 인터페이스를 통�
 title: 웹 서비스
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: d2a644d1b655153e1ad509bf9065c390d9226cfc
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 85%
 
 ---
 
@@ -14,9 +14,14 @@ ht-degree: 100%
 
 웹 서비스 API를 사용하면 Analytics 인터페이스를 통해 사용 가능한 기능을 복제하고 늘릴 수 있는 마케팅 보고서 및 기타 Suite 서비스에 체계적으로 액세스할 수 있습니다.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 웹 서비스]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 관리자]** > **[!UICONTROL 모든 관리자]** > **[!UICONTROL 회사 설정]** > **[!UICONTROL 웹 서비스]** 또는 **API 액세스**
 
-## 웹 서비스 관리
+
+## Analytics 2.0 API
+
+Analytics 2.0 API에 액세스하려면 Analytics 회사의 글로벌 회사 ID가 필요합니다. 현재 로그인한 글로벌 회사 id를 찾을 수 있습니다 **굵게** 이 섹션에서 참조할 수 있습니다.
+
+## 레거시 웹 서비스 관리(더 이상 사용되지 않음)
 
 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)에서 Web Services API에 액세스할 필요가 있는 사용자를 포함하는 권한을 업데이트할 수 있습니다.
 

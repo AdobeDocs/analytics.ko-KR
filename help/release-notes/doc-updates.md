@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
+source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 99%
+source-wordcount: '4529'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 7월** | |
+| 글로벌 회사 ID | 문서화됨 [글로벌 회사 id를 찾는 방법](../admin/admin/company/web-services-admin.md) 로그인한 Analytics 회사의 경우 이 ID는 Analytics 2.0 API에 필요합니다. |
 | 업데이트된 FTP 크기 제한 | 기본 [FTP 데이터 스토리지 한도](/help/export/ftp-and-sftp/ftp-limits.md)를 100GB로 변경했습니다. |
 | 새로운 AppMeasurement 변수 | `decodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. [자세히 알아보기](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023년 6월** | |
