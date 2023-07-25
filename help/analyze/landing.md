@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 | **[!UICONTROL Reports &amp; Analytics]** 보고서로의 새 링크 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 대상자]** > **[!UICONTROL 봇]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 대상자]** > **[!UICONTROL 봇 페이지]**<li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 실시간]**</li></ul> | ![새 링크](assets/report-links.png) |
 | 새로운 기본 제공 보고서 | <ul><li>**[!UICONTROL 보고서]** > **[!UICONTROL 자주 사용하는 항목]** > **[!UICONTROL 다음 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 자주 사용하는 항목]** > **[!UICONTROL 이전 페이지]**</li><li>**[!UICONTROL 보고서]** > **[!UICONTROL 참여]** > **[!UICONTROL 페이지 분석]** > **[!UICONTROL 페이지 요약]**</li></ul>이들 보고서는 [!UICONTROL 작업 영역] 형식이며 구성 및 빌드가 필요합니다. 출력은 높은 수준의 지표, 트렌드 데이터, [!UICONTROL 플로우] 시각화 등으로 구성되어 있습니다. 이들 보고서를 수정하고 자원, 차원 항목 등을 변경할 수 있습니다. 이들 보고서는 [작업 영역] 패널 하의 패널로도 사용할 수 있습니다. | ![다음 페이지](assets/next-page.png) |
 | **[!UICONTROL 프로젝트 만들기]** 모달 | 작업 영역에서 **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭하면 다시 [!UICONTROL 빈 프로젝트]와 [!UICONTROL 빈 모바일 스코어카드] 중에서 선택할 수 있게 됩니다. 귀사에서 제작한 템플릿 중에서 선택할 수도 있습니다. | ![새로 만들기](assets/create-new.png) |
-| Customer Journey Analytics에서도 사용 가능 | 이 랜딩 페이지는 수정된 형태로 Customer Journey Analytics에서도 사용할 수 있습니다. |  |
+| Customer Journey Analytics에서도 사용 가능 | 수정된 형태의 이 랜딩 페이지는 Customer Journey Analytics에서도 사용할 수 있습니다. |  |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 * **[!UICONTROL 프로젝트]**&#x200B;는 사용자가 빌드했거나 다른 사람이 빌드하고 사용자와 공유했던 데이터 구성 요소, 테이블 및 시각화를 결합하는 사용자 정의된 디자인입니다. [!UICONTROL 프로젝트]는 빈 프로젝트 및 빈 모바일 스코어카드를 의미하기도 합니다.
 * **[!UICONTROL 보고서]**&#x200B;는 Reports &amp; Analytics의 보고서 및 작업 영역의 템플릿과 같이 Adobe에서 미리 빌드한 모든 것을 의미합니다.
-* **[!UICONTROL 템플릿]**&#x200B;은 더 이상 Adobe의 사전 제작된 작업 영역 프로젝트에 대한 용어로 사용되지 않습니다. 이제 [!UICONTROL 보고서] 아래에 있습니다. [!UICONTROL 템플릿]이라는 용어는 귀사에서 제작한 템플릿에 계속 사용할 수 있습니다.
+* **[!UICONTROL 템플릿]**&#x200B;은 더 이상 Adobe의 사전 제작된 Workspace 프로젝트에 대한 용어로 사용되지 않습니다. 이제 [!UICONTROL 보고서] 아래에 있습니다. [!UICONTROL 템플릿]이라는 용어는 귀사에서 제작한 템플릿에 계속 사용할 수 있습니다.
 
 ## [!UICONTROL 프로젝트] 탭 탐색 {#navigate-projects}
 
@@ -59,9 +59,9 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 | UI 요소 | 정의 |
 | --- | --- |
 | 환경 설정 편집 | [!UICONTROL 튜토리얼 보기] 및 [사용자 환경 설정 편집](/help/analyze/analysis-workspace/user-preferences.md)을 사용할 수 있습니다. |
-| [!UICONTROL 새로 만들기] | 작업 영역 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
+| [!UICONTROL 새로 만들기] | Workspace 프로젝트 또는 모바일 스코어카드를 만들거나 회사 템플릿을 열 수 있는 프로젝트 모달을 엽니다. |
 | [!UICONTROL 간단히 표시<br> 자세히 표시] | 배너 표시 안 함과 표시 간 전환: ![상단 배너](assets/top-banner.png) |
-| [!UICONTROL 작업 영역 프로젝트] | 사용자가 설계하고 빌드할 빈 [작업 영역 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 만듭니다. |
+| [!UICONTROL Workspace 프로젝트] | 사용자가 설계하고 빌드할 빈 [Workspace 프로젝트](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)를 만듭니다. |
 | [!UICONTROL 모바일 스코어카드] | 사용자가 설계하고 빌드할 빈 [모바일 스코어카드](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ko-KR)를 만듭니다. |
 | [!UICONTROL 교육 튜토리얼 열기] | 단계별 튜토리얼로 새로운 시작 프로젝트를 빌드하는 과정을 안내하는 작업 영역 교육 튜토리얼을 엽니다. |
 | [!UICONTROL 릴리스 정보 열기] | 최신 Adobe Experience Cloud 릴리스 정보의 Adobe Analytics 섹션을 엽니다. |
@@ -73,7 +73,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 | 고정 아이콘 | 항목을 고정하면 항상 목록의 맨 위에 나타나지만 순서대로 위 또는 아래로 이동하여 순서를 다시 조정할 수 있습니다. 줄임표 옵션 메뉴를 사용한 다음 목록에서 **위로 이동** 또는 **아래로 이동**&#x200B;을 선택합니다. |
 | 정보(i) 아이콘 | 프로젝트에 대한 유형, 프로젝트 역할, 소유자, 설명, 공유 대상과 같은 정보가 표시됩니다. 또한 누가 이 프로젝트를 [편집 또는 복제](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR)할 수 있는지도 나타냅니다. |
 | 생략 부호 (...) | 수행할 수 있는 프로젝트 관리 액션(**삭제**, **공유**, **이름 바꾸기**, **복사**, **고정 해제**, **위로 이동**, **아래로 이동**, **태그**, **승인**, **CSV로 내보내기** 및 **다음으로 이동**)이 표시됩니다. 나열된 모든 액션을 수행할 권한이 없을 수도 있습니다. |
-| [!UICONTROL 유형] | 이 유형이 작업 영역 프로젝트인지, 모바일 스코어카드인지 또는 폴더인지를 나타냅니다. |
+| [!UICONTROL 유형] | 이 유형이 Workspace 프로젝트인지, 모바일 스코어카드인지 또는 폴더인지를 나타냅니다. |
 | [!UICONTROL 태그] | 프로젝트에 태그를 지정하여 그룹으로 구성합니다. |
 | [!UICONTROL 프로젝트 역할] | 프로젝트 역할 식별: 사용자가 프로젝트 소유자인지 여부와 프로젝트 편집 또는 복제 권한이 있는지 여부. |
 | [!UICONTROL 보고서 세트] | 프로젝트와 연계된 보고서 세트를 식별합니다.<br>패널 내의 테이블 및 시각화는 패널의 오른쪽 상단에서 선택한 보고서 세트에서 데이터를 가져옵니다. 보고서 세트는 왼쪽 레일에서 사용할 수 있는 구성 요소도 결정합니다. 분석 사용 사례에 따라 프로젝트 내에서 하나 또는 여러 보고서 세트를 사용할 수 있습니다. 보고서 세트 목록은 관련성을 기준으로 정렬됩니다. Adobe는 현재 사용자가 보고서 세트를 얼마나 최근에 얼마나 자주 사용했는지, 그리고 조직 내에서 보고서 세트를 얼마나 자주 사용했는지에 따라 관련성을 정의합니다. |
@@ -81,7 +81,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 | [!UICONTROL 마지막으로 연 날짜] | 프로젝트를 마지막으로 연 날짜를 식별합니다. |
 | 표 사용자 정의 아이콘 | 테이블에서 볼 열을 선택합니다. 프로젝트 목록에서 열을 추가하거나 제거하려면 오른쪽 상단의 열 아이콘(![모두 랜딩](/help/analyze/assets/select-column.png))을 클릭한 다음 열 제목을 선택하거나 선택 취소합니다. |
 | 표시: 폴더 및 프로젝트 또는 모든 프로젝트 | 폴더 구성에 따라 폴더 및 프로젝트를 표시&#x200B;**하거나** 구성되지 않은 목록의 모든 프로젝트를 표시할 수 있도록 테이블의 보기 설정을 변경합니다. |
-| &lt; (뒤로 버튼) | 작업 영역 프로젝트 또는 보고서의 가장 최근 랜딩 페이지 구성으로 돌아갑니다. 다시 돌아올 때 랜딩 페이지를 종료했을 때의 페이지 구성이 유지됩니다. |
+| &lt; (뒤로 버튼) | Workspace 프로젝트 또는 보고서의 가장 최근 랜딩 페이지 구성으로 돌아갑니다. 다시 돌아올 때 랜딩 페이지를 종료했을 때의 페이지 구성이 유지됩니다. |
 
 ### 프로젝트 관리자 페이지 사용 중단 {#deprecate-pm-page}
 
@@ -101,16 +101,16 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 ## [!UICONTROL 보고서] 탭 탐색 {#navigate-reports}
 
-다음 [!UICONTROL 보고서] 탭에서는 다음 보고서 세트를 통합합니다.
+[!UICONTROL 보고서] 탭은 다음 보고서 세트를 통합합니다.
 
 * 이전에 [!UICONTROL Workspace] > [!UICONTROL 프로젝트] > [!UICONTROL 새로 만들기] 아래에 있던 미리 빌드된 [!UICONTROL Workspace] 템플릿. Adobe는 이 컨텍스트에서 “템플릿”이라는 단어를 더 이상 사용하지 않습니다.
 * 미리 작성된 대부분의 보고서 이전 Adobe Analytics [!UICONTROL 보고서] 상단 메뉴 아래에 있는 대부분의 미리 빌드된 보고서. 이러한 보고서들은 이제 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko-KR)에 표시됩니다.
 
 >[!NOTE]
 >
->보고서를 사용할 때는 다음 사항을 고려하십시오.
+>보고서 사용 시 다음 사항을 고려하십시오.
 >* 보고서 메뉴에서 즐겨찾기 폴더는 새 보고서를 즐겨찾기로 표시한 경우에만 표시됩니다. 기존 Reports &amp; Analytics 즐겨찾기는 이월되지 않습니다.
->* 이전에 Reports &amp; Analytics에 그룹화되었던 가장 일반적으로 사용되는 보고서만 사용할 수 있습니다. 거의 사용되지 않거나 더 이상 관련이 없는 소수의 보고서는 더 이상 사용할 수 없습니다. 다음을 참조하십시오. [랜딩 페이지 FAQ](#landing-page-faq) 자세한 내용은 아래를 참조하십시오.
+>* 이전에 Reports &amp; Analytics에 그룹화되었던 가장 일반적으로 사용되는 보고서만 사용할 수 있습니다. 거의 사용되지 않거나 더 이상 관련이 없는 소수의 보고서는 더 이상 사용할 수 없습니다. 자세한 내용은 아래의 [랜딩 페이지 FAQ](#landing-page-faq)를 참조하십시오.
 
 ![보고서 탭](assets/reports-tab2.png)
 
@@ -118,7 +118,7 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 ### 보고서 보기 {#menus}
 
 1. [!UICONTROL **보고서**] 탭으로 이동합니다.
-1. 검색 필드를 사용하여 특정 보고서를 검색합니다.
+1. 특정 보고서를 검색하려면 검색 필드를 사용합니다.
 
    또는
 
@@ -136,10 +136,10 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 ### 보고서 보기 및 저장 {#use-reports}
 
-변경 후 보고서에서 다른 곳으로 이동하면 변경 사항을 저장하거나 취소하라는 메시지가 표시됩니다. 보고서에 변경 사항을 저장하면 보고서가 새 프로젝트로 저장됩니다.
+변경 후 보고서에서 다른 곳으로 이동하면 변경 사항을 저장하거나 취소하라는 메시지가 표시됩니다. 변경 사항을 보고서에 저장하면 보고서가 새 프로젝트로 저장됩니다.
 
 1. [!UICONTROL **보고서**] 탭으로 이동합니다.
-1. 보려는 보고서를 선택합니다. 예, 다음 [!UICONTROL **추천**]&#x200B;를 선택하고 [!UICONTROL **페이지**] 보고서.
+1. 보려는 보고서를 선택합니다. 예를 들어 [!UICONTROL **추천**] 아래에서 [!UICONTROL **페이지**] 보고서를 선택합니다.
 
    ![페이지 보고서](assets/pages-report.png)
 
@@ -147,13 +147,13 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 1. 다음 중 하나를 수행합니다.
 
    * 보고서를 봅니다.
-   * 하나 이상의 세그먼트를 상단의 세그먼트 드롭 영역으로 드래그합니다. 예를 들어 세그먼트를 드래그합니다 [!UICONTROL **모바일 고객**] 결과를 확인합니다.
+   * 하나 이상의 세그먼트를 상단의 세그먼트 드롭 영역으로 드래그합니다. 예를 들어 [!UICONTROL **모바일 고객**]&#x200B;을 드래그하여 결과를 봅니다.
    * 오른쪽 상단의 달력으로 이동하여 날짜 범위를 변경합니다.
-   * 차원 분류를 추가하고, 다른 지표를 드래그하고, 일반적으로 필요에 따라 보고서를 사용자 지정합니다.
+   * 차원 분류를 추가하고, 다른 지표를 드래그하고, 일반적으로 필요에 맞게 보고서를 사용자 정의합니다.
 
-1. (선택 사항) 을 선택하여 보고서를 프로젝트로 저장합니다. [!UICONTROL **프로젝트**] > [!UICONTROL **저장**].
+1. (선택 사항) [!UICONTROL **프로젝트**] > [!UICONTROL **저장**]&#x200B;을 선택하여 보고서를 프로젝트로 저장합니다.
 
-   이렇게 하면 보고서가 새 프로젝트로 저장됩니다. 기존 보고서는 수정되지 않습니다. 보고서를 프로젝트로 저장하는 방법에 대한 자세한 내용은 의 &quot;빈 프로젝트 또는 보고서에서 프로젝트 만들기&quot;를 참조하십시오 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   이렇게 하면 보고서가 새 프로젝트로 저장됩니다. 기존 보고서는 수정되지 않습니다. 보고서를 프로젝트로 저장하는 방법에 대한 자세한 내용은 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)의 “빈 프로젝트 또는 보고서에서 프로젝트 만들기”를 참조하십시오.
 
 ### 사용자 정의 회사 보고서 만들기 {#company-report}
 
@@ -161,16 +161,16 @@ Adobe Analytics의 랜딩 페이지는 [!DNL Analysis Workspace] 및 [!DNL Repor
 
 새 회사 보고서를 만들려면 다음 작업을 수행하십시오.
 
-1. Analysis Workspace에서 프로젝트를 원하는 상태로 빌드합니다.
-1. 선택 [!UICONTROL **프로젝트**] > **[!UICONTROL 회사 보고서로 저장...]**.
+1. Analysis Workspace에서 원하는 상태로 프로젝트를 빌드합니다.
+1. [!UICONTROL **프로젝트**] > **[!UICONTROL 회사 프로젝트로 저장…]**&#x200B;을 선택합니다.
 
    ![회사 보고서](assets/company-report.png)
 
-1. 보고서 이름을 업데이트하고 설명을 추가한 다음 태그를 추가하고 을 선택합니다 [!UICONTROL **회사 보고서로 저장**].
+1. 보고서 이름을 업데이트하고, 설명을 추가하고, 태그를 추가한 다음 [!UICONTROL **회사 보고서로 저장**]&#x200B;을 선택합니다.
 
-   보고서는 프로젝트 만들기 모달의 회사 보고서 목록에 추가되며 로그인 회사의 사용자가 사용할 수 있습니다.
+   보고서가 프로젝트 만들기 모달의 회사 보고서 목록에 추가되고 로그인 회사의 사용자들이 사용할 수 있습니다.
 
-   사용자가 회사 보고서를 기반으로 프로젝트를 만드는 방법에 대한 자세한 내용은 의 &quot;빈 프로젝트 또는 보고서에서 프로젝트 만들기&quot;를 참조하십시오. [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   사용자가 회사 보고서를 기반으로 프로젝트를 만드는 방법에 대한 자세한 내용은 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)의 “빈 프로젝트 또는 보고서에서 프로젝트 만들기”를 참조하십시오.
 
 더 많은 학습 옵션:
 
@@ -244,16 +244,16 @@ Adobe Analytics의 학습 페이지를 사용하여 Adobe Analytics의 초급, �
 
 ### 학습 페이지 액세스
 
-1. Adobe Analytics에서 [!UICONTROL **작업 영역**] > [!UICONTROL **학습**].
+1. Adobe Analytics에서 [!UICONTROL **작업 영역**] > [!UICONTROL **학습**]&#x200B;을 선택합니다.
 
 ### 학습 페이지 기능
 
-* **콘텐츠 필터링:** 왼쪽 레일의 필터 아이콘을 사용하면 경험 수준(초급, 중급 또는 고급)과 콘텐츠 유형(문서, 비디오 또는 투어 및 튜토리얼)별로 학습 콘텐츠를 필터링할 수 있습니다.
-* **진행률 추적:** 콘텐츠를 선택한 후 **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. 다음을 선택할 수 있습니다. **[!UICONTROL 조회함]** 태그하여 콘텐츠의 일부에서 제거합니다.
-* **추가 콘텐츠 보기:** 비디오를 보는 동안 **[!UICONTROL 자세히 알아보기]** 단추를 클릭하여 Experience League 시 관련 문서 컨텐츠를 봅니다. 또는 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 볼 수 있습니다.
-   * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록 보기
-   * [!UICONTROL **방문 Experience League**]: Experience League에서 Adobe Analytics 설명서의 전체 세트를 봅니다.
-* **신규 사용자를 위한 기본 사항:** 다음 [!UICONTROL 작업 영역 기본 사항] 신규 사용자에게 둘러보기를 권장합니다. 이 둘러보기는 Workspace로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 패널 헤더의 도구 설명 팝업을 통해 Workspace에서 언제든지 다시 실행할 수도 있습니다.
+* **콘텐츠 필터링:** 왼쪽 레일의 필터 아이콘을 사용하여 경험 수준(초급, 중급 또는 고급)과 콘텐츠 유형(문서, 비디오 둘러보기 및 튜토리얼)에 따라 학습 콘텐츠를 필터링할 수 있습니다.
+* **진행 상황 추적:** 콘텐츠 일부를 선택하면 **[!UICONTROL 조회함]** 태그가 표시됩니다. 이 태그는 학습 콘텐츠 진행 상황을 추적하는 데 도움이 됩니다. **[!UICONTROL 조회함]** 태그를 선택하여 콘텐츠 일부에서 제거할 수 있습니다.
+* **추가 콘텐츠 보기:** 비디오를 시청하는 동안 **[!UICONTROL 자세히 알아보기]** 버튼을 선택하여 Experience League에 대한 관련 설명서 콘텐츠를 볼 수 있습니다. 아니면 학습 페이지에서 다음 옵션 중 하나를 선택하여 추가 콘텐츠를 봅니다.
+   * **[!UICONTROL YouTube 방문]:** 전체 Analysis Workspace YouTube 재생 목록을 봅니다.
+   * [!UICONTROL **Experience League 방문**]: Experience League의 전체 Adobe Analytics 설명서 세트를 봅니다.
+* **신규 사용자를 위한 기본 사항:** [!UICONTROL 작업 영역 기본 사항] 둘러보기는 신규 사용자에게 권장되는 사항입니다. 이 둘러보기는 작업 영역으로 바로 이동하여 가장 일반적인 작업을 안내합니다. 이 둘러보기는 패널 헤더의 도구 설명 팝업을 통해 작업 영역에서 다시 실행할 수도 있습니다.
 
 ## 랜딩 페이지 설정 {#set-landing}
 
