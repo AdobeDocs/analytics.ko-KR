@@ -5,9 +5,9 @@ user-guide-title: Analytics Components 안내서
 breadcrumb-title: Components 안내서
 user-guide-description: 세그먼트, 계산된 지표, 가상 보고서 세트, 마케팅 채널 및 분류와 같은 구성 요소를 사용하여 데이터를 관리합니다. 크로스 디바이스 분석에 대해 알아봅니다.
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 88%
    + [차원 호환성](dimensions/compatibility.md)
    + [모든 검색 페이지 등급](dimensions/all-search-page-rank.md)
    + [오전/오후](dimensions/am-pm.md)
-   + [보트 이름](dimensions/bot-name.md)
+   + [봇 이름](dimensions/bot-name.md)
    + [브라우저 높이](dimensions/browser-height.md)
    + [브라우저 유형](dimensions/browser-type.md)
    + [브라우저 너비](dimensions/browser-width.md)
@@ -29,7 +29,7 @@ ht-degree: 88%
    + [캠페인](dimensions/campaigns.md)
    + [카테고리](dimensions/category.md)
    + [도시](dimensions/cities.md)
-   + [색상 깊이](dimensions/color-depth.md)
+   + [색상 심도](dimensions/color-depth.md)
    + [연결 유형](dimensions/connection-type.md)
    + [동의 관리 옵트인](dimensions/cm-opt-in.md)
    + [동의 관리 옵트아웃](dimensions/cm-opt-out.md)
@@ -113,7 +113,7 @@ ht-degree: 88%
    + [평균 세션 길이](metrics/average-session-length.md)
    + [사이트의 평균 시간](metrics/average-time-on-site.md)
    + [봇 발생 횟수](metrics/bot-occurrences.md)
-   + [보트 페이지 보기 수](metrics/bot-page-views.md)
+   + [봇 페이지 보기](metrics/bot-page-views.md)
    + [바운스 비율](metrics/bounce-rate.md)
    + [바운스 수](metrics/bounces.md)
    + [장바구니 추가](metrics/cart-additions.md)
@@ -187,7 +187,7 @@ ht-degree: 88%
       + [지표 찾기](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [“방문자 수당 페이지 조회수” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [지원 주문 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [“주문 지원” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [“참여도” 지표 작성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [지표 유형 및 속성](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [세분화된 지표](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -231,7 +231,7 @@ ht-degree: 88%
    + [지능형 경고](c-alerts/intellligent-alerts.md)
    + [경고 빌더](c-alerts/alert-builder.md)
    + [경고 관리자](c-alerts/alert-manager.md)
-   + [지능형 경고 - 활용 사례](c-alerts/alerts-use-cases.md)
+   + [지능형 경고 - 사용 사례](c-alerts/alerts-use-cases.md)
 + 분류 {#classifications}
    + [분류 개요](classifications/c-classifications.md)
    + 분류 설정 {#sets}
