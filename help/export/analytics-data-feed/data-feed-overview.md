@@ -5,9 +5,9 @@ title: Analytics 데이터 피드 개요
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 69%
 
 데이터 피드를 사용하기 전에 다음 요구 사항을 모두 충족하는지 확인하십시오.
 
-* 데이터를 Adobe 데이터 수집 서버에 전송하는 작동 중인 구현. 다음을 참조하십시오 [구현의 유효성 검사 및 게시](/help/implement/launch/validate-publish-prod.md) 구현 안내서에서 참조하십시오.
+* 데이터를 Adobe 데이터 수집 서버에 전송하는 작동 중인 구현. 구현 안내서에서 [구현 유효성 검사 및 퍼블리싱](/help/implement/launch/validate-publish-prod.md)을 참조하십시오.
 * 계정이 Analytics 제품 관리자이거나 계정이 데이터 피드에 대해 액세스 권한이 있는 제품 프로필에 속합니다.
 * Amazon S3, Google Cloud Platform, Azure RBAC 또는 Azure SAS에 구성된 버킷입니다.
-* (레거시: 레거시 FTP 및 SFTP 대상 유형에만 필요) FTP 사이트 및 자격 증명(조직에서 제공한 FTP 자격 증명)을 사용할 수 있습니다.
+* (이전: 이전 FTP 및 SFTP 대상 유형에만 필요) FTP 사이트 및 자격 증명 준비(FTP 자격 증명은 조직에서 제공)
 
 ## 다음 단계
 
-다음 리소스는 데이터 피드를 얻는 기본 워크플로우를 이해하는 데 도움이 됩니다. 기본 워크플로를 이해하면 조직 내의 팀과 함께 원시 데이터를 데이터베이스에 저장하거나 인제스트할 수 있습니다.
+다음 리소스는 데이터 피드를 가져오는 기본 워크플로를 이해하는 데 도움이 됩니다. 기본 워크플로를 이해하면 조직 내의 팀과 함께 원시 데이터를 데이터베이스에 저장하거나 인제스트할 수 있습니다.
 
-* [데이터 피드 모범 사례](/help/export/analytics-data-feed/data-feeds-best-practices.md): 데이터 피드 만들기 및 관리에 대한 우수 사례입니다.
+* [데이터 피드 모범 사례](/help/export/analytics-data-feed/data-feeds-best-practices.md): 데이터 피드를 만들고 관리하기 위한 모범 사례.
 * [데이터 피드 만들기](create-feed.md): 개별 필드를 자세히 설명하는 데이터 피드 작성을 위한 기술 세부 정보
 * [데이터 피드 관리](df-manage-feeds.md): 데이터 피드 인터페이스 탐색에 대한 자세한 정보
 * [데이터 피드 콘텐츠](c-df-contents/datafeeds-contents.md): 압축 파일의 항목 이해 <!-- Is this still the output users can download from the destination? I aske Jun. -->
