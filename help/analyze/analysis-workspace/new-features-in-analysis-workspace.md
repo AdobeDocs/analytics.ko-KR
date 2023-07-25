@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 | 기능 | 목표 날짜 | 설명 |
 | --- | --- | --- |
-| [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정] 은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>작업 영역 프로젝트: 도움말 > 활성화 팁</li><li>작업 영역 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
+| [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] | 2021년 3월 25일 | [!UICONTROL 구성 요소] > [!UICONTROL 사용자 환경 설정] 페이지에서는 사용자의 [!UICONTROL Analysis Workspace] 설정 및 관련 구성 요소를 관리할 수 있습니다. [!UICONTROL 사용자 환경 설정] 은 모든 새 프로젝트 및 패널에 적용됩니다. <br>**참고:** 다음 설정들이 [!UICONTROL 사용자 환경 설정] 페이지로 이동했습니다.<ul><li>보고서 설정: 천 단위 구분 기호 (이제 _숫자 형식_&#x200B;로 바뀜)</li><li>보고서 설정: CSV 구분 기호</li><li>Workspace 프로젝트: 도움말 > 활성화 팁</li><li>Workspace 프로젝트: 빈 패널 _이 패널로 새 프로젝트 시작_ 옵션</li></ul> |
 | [!UICONTROL 막대 그래프 스마트 버킷 예측] | 2021년 3월 25일 | [!UICONTROL 막대 그래프 스마트 버킷 예측]이 데이터 스프레드에 적합한 폭과 버킷 수를 자동으로 식별하여 높은 카디널리티 지표 막대 그래프를 지원합니다. 낮은 카디널리티 지표의 경우 시각화는 이전과 동일하게 작동합니다. |
 
 ## 2021년 2월
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 | 기능 | 목표 날짜 | 설명 |
 | --- | --- | --- |
-| 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 작업 영역 프로젝트에 이미지를 추가할 수 있습니다. |
+| 이미지 URL | 2021년 1월 14일 | 공개 이미지 URL을 참조하여 Workspace 프로젝트에 이미지를 추가할 수 있습니다. |
 | 시각화를 위한 통합 소스 및 설정 관리자 | 2021년 1월 14일 | 시각화를 위해 [!UICONTROL 데이터 소스] 관리자(점) 및 설정 관리자(톱니바퀴)가 하나의 팝오버로 결합되어 동일한 위치에서 소스와 설정을 쉽게 관리할 수 있습니다 |
 
 ## 2020년 10월
@@ -74,9 +74,9 @@ ht-degree: 98%
 |--- |--- |
 | Attribution IQ: 알고리즘 속성 | Analysis Workspace의 알고리즘 속성 모델은 통계 기술을 사용하여 선택한 지표에 대한 크레딧의 최적 할당을 동적으로 결정합니다. Adobe Analytics Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ko-KR) |
 | 속성 IQ: 사용자 정의 전환 확인 창 | 이제 보고 기간 전 최대 90일로부터 터치포인트를 포함하도록 속성 IQ에서 모든 속성 모델을 구성할 수 있습니다. 이렇게 하면 일반적으로 이전 달에 발생한 상호 작용을 처리하여 보고 기간 초에 발생하는 이벤트의 속성 정확도가 높아집니다. Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete 및 Ultimate 고객이 사용할 수 있습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| 공유 작업 영역 프로젝트에 대한 프로젝트 역할 | 이제 작업 영역 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 보기 전용 작업 영역 프로젝트 | 작업 공간 프로젝트는 &quot;볼 수 있음&quot;으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 작업 영역 프로젝트 공동 편집 기능 | “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
+| 공유 Workspace 프로젝트에 대한 프로젝트 역할 | 이제 Workspace 프로젝트를 공유할 때 원하는 프로젝트 경험에 따라 수신자를 세 개의 프로젝트 역할 중 하나로 배치할 수 있습니다(편집, 복제 및 보기). [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 보기 전용 Workspace 프로젝트 | Workspace 프로젝트는 “보기 가능”으로만 사용자에게 공유할 수 있습니다. 보기 수신자가 공유 프로젝트를 열면 왼쪽 레일이 없고 상호 작용이 제한되어 더욱 제한적인 프로젝트 경험을 받습니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Workspace 프로젝트 공동 편집 기능 | “편집 가능” 역할에 추가된 수신자는 공유된 프로젝트에 대해 저장할 수 있습니다. 이 범위는 관리자와 관리자가 아닌 사용자 모두에게 적용됩니다. [자세히 알아보기...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ko-KR) |
 | 업데이트된 빈 패널 | 이제 빈 패널에는 패널과 시각화가 포함되어 있으므로 자신에게 가장 적합한 분석 워크플로를 선택하는 더 원활한 방법을 제공합니다. |
 | 빠른 인사이트 패널 (2020년 6월 25일) | Quick Insights는 Analysis Workspace의 비분석가 및 새 사용자에게 비즈니스 관련 질문에 빠르고 쉽게 답변할 수 있는 방법을 배울 수 있도록 지침을 제공합니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | 작업 영역의 Analytics for Target 패널 (2020년 6월 25일) | Analytics for Target (A4T) 패널을 사용하면 Analysis Workspace에서 자신 있게 Adobe Target 활동 및 경험을 분석할 수 있습니다. [자세히 알아보기...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -134,7 +134,7 @@ ht-degree: 98%
 | 개선 사항 | 설명 |
 |--- |--- |
 | 자유 형식 테이블 합계 업데이트 | 자유 형식 표에는 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=ko-KR)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ko-KR)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
-| 지정되지 않음/없음 제거 옵션 | 지정되지 않음(없음) 을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
+| 지정되지 않음/없음 제거 옵션 | 다음 ‘지정되지 않음(없음)’을 쉽게 제거하는 기능이 보고서 필터에 대한 옵션으로 추가되었습니다. |
 | 자주색 세부 기간 구성 요소의 사용 중단 | 자주색 세부 시간 구성 요소 (분, 시간, 일, 주, 월, 분기, 연도)는 더 이상 사용되지 않습니다. 자주색 시간 구성 요소는 항상 주황색 크기와 정확히 동일하게 작동했으므로 이 변경 사항은 경험을 단순화합니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 
 ## 2019월 8일
@@ -196,7 +196,7 @@ ht-degree: 98%
 
 | 기능 | 설명 |
 |--- |--- |
-| [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 작업 영역 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
+| [VRS 및 프로젝트 큐레이션 - 개선 사항](/help/analyze/analysis-workspace/curate-share/curate.md) | 이러한 변경 사항은 실제로 2018년 10월에 소개되었습니다. 구성 요소 관리자 및 관리자가 아닌 사용자가 조정된 Workspace 프로젝트 및 조정된 VRS(가상 보고서 세트)에서 볼 수 있게 변경되었습니다. <br> 이전에는 모든 구성 요소 표시를 클릭하면 누구나 조정되지 않은 구성 요소를 볼 수 있었습니다. 업데이트된 조정 환경에서는 표시되는 구성 요소를 보다 세밀하게 제어할 수 있습니다.</br> |
 
 ## 2018년 10월
 
@@ -204,8 +204,8 @@ ht-degree: 98%
 
 | 기능 | 설명 |
 | --- | --- |
-| 패널 드롭다운 관리 | 패널 드롭다운 관리가 몇 가지 변경되었습니다. 드롭다운을 마우스 오른쪽 단추로 클릭하면 드롭다운을 삭제하거나 레이블을 삭제(레이블이 표시되는 경우) 또는 레이블을 추가할 수 있습니다(레이블이 표시되지 않는 경우). |
-| 패널 및 시각화 도구 설명의 링크 | 패널 및 시각화 도구 설명에 관련된 비디오 및 설명서에 대한 링크가 추가됩니다. |
+| 패널 드롭다운 관리 | 패널 드롭다운 관리에서 몇 가지 사항이 변경되었습니다. 이제 드롭다운을 마우스 오른쪽 버튼으로 클릭했을 때 드롭다운을 삭제하거나, 레이블을 삭제하거나(레이블이 표시되는 경우), 레이블을 추가(레이블이 표시되지 않는 경우)할 수 있습니다. |
+| 패널 및 시각화 도구 설명의 링크 | 패널 및 시각화 도구 설명에 관련된 비디오 및 설명서에 연결된 링크가 추가되었습니다. |
 
 ## 2018년 9월
 
@@ -336,7 +336,7 @@ ht-degree: 98%
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p></b>오늘의 팁<b> </b></p> </td>
+   <td colname="col1"> <p></b>오늘의 팁<b> </p> </td>
    <td colname="col2"> <p>인터페이스의 오른쪽 하단에 짧은 비디오와 함께 표시되는 오늘의 팁을 제공합니다. 이러한 팁은 Analysis Workspace의 다양하고 훌륭한 기능을 숙지하기 위한 것입니다. <span class="uicontrol">도움말</span> &gt; <span class="uicontrol">팁</span>을 통해 언제든지 이러한 팁을 무시하거나 액세스할지 선택할 수 있습니다. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td>
   </tr>
   <tr>
@@ -419,7 +419,7 @@ ht-degree: 98%
    <td colname="col2"> <p>최근 릴리스된 사용자 정의 템플릿의 경우 </p>
     <ul id="ul_787F48253F454163B99F6DD50F199FE2">
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">편집 템플릿 모드를 템플릿을 프로젝트의 시작점으로 사용하는 것과 구분하는 데 도움이 되도록 프로젝트 맨 위(제목 근처)에 템플릿 아이콘을 추가했습니다. </li>
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">[Analysis Workspace에서 프로젝트 생성/구성] 권한이 부여된 경우 관리자가 아닌 사용자가 작업 영역 프로젝트 템플릿을 생성 (다른 이름으로 저장)하고 편집할 수 있도록 허용합니다. (<span class="ignoretag"> <span class="uicontrol"> 관리 </span>  &gt; <span class="uicontrol"> 모든 관리 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>  &gt; <span class="uicontrol"> 그룹 </span>  &gt; <span class="uicontrol"> 모든 리포트 액세스 편집 </span>  &gt; <span class="uicontrol"> Analytics 도구 사용자 정의 </span>  &gt; <span class="uicontrol"> Analysis Workspace에서 프로젝트 생성/구성 </span> </span>). </li>
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">[Analysis Workspace에서 프로젝트 생성/구성] 권한이 부여된 경우 관리자가 아닌 사용자가 Workspace 프로젝트 템플릿을 생성 (다른 이름으로 저장)하고 편집할 수 있도록 허용합니다. (<span class="ignoretag"> <span class="uicontrol"> 관리 </span>  &gt; <span class="uicontrol"> 모든 관리 </span>  &gt; <span class="uicontrol"> 사용자 관리 </span>  &gt; <span class="uicontrol"> 그룹 </span>  &gt; <span class="uicontrol"> 모든 리포트 액세스 편집 </span>  &gt; <span class="uicontrol"> Analytics 도구 사용자 정의 </span>  &gt; <span class="uicontrol"> Analysis Workspace에서 프로젝트 생성/구성 </span> </span>). </li>
     </ul> </td>
   </tr>
  </tbody>
@@ -708,7 +708,7 @@ ht-degree: 98%
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > 프로젝트 랜딩 페이지의 태그 열 </a> </p> </td>
-   <td colname="col2"> <p>작업 영역 프로젝트 목록 페이지에 <span class="wintitle">태그</span> 열을 추가했습니다. 이 열에는 각 프로젝트의 태그가 표시됩니다. </p> </td>
+   <td colname="col2"> <p>Workspace 프로젝트 목록 페이지에 <span class="wintitle">태그</span> 열을 추가했습니다. 이 열에는 각 프로젝트의 태그가 표시됩니다. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >.CSV 파일로 플로우 시각화 내보내기</a> </p> </td>
@@ -905,7 +905,7 @@ ht-degree: 98%
  <tbody>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  >프로젝트를 저장하지 않고 PDF 보내기 및 다운로드</a> </p> </td>
-   <td colname="col2"> <p>이제 프로젝트를 저장하지 않고도 작업 영역에서 PDF를 보내고 다운로드할 수 있습니다. PDF 파일 이름은 프로젝트의 현재 이름과 일치합니다. 다운로드한 PDF에 프로젝트에 저장하지 않은 변경 사항이 포함되어 있습니다. 저장하지 않은 프로젝트를 예약할 수 없습니다. (또한 저장하지 않은 CSV 파일을 보내고 다운로드할 수 있지만, 예약할 수 없습니다.) </p> </td>
+   <td colname="col2"> <p>이제 프로젝트를 저장하지 않고도 작업 영역에서 PDF를 보내고 다운로드할 수 있습니다. PDF 파일 이름은 프로젝트의 현재 이름과 일치합니다. 다운로드한 PDF에 프로젝트에 저장되지 않은 변경 사항이 포함되어 있습니다. 저장하지 않은 프로젝트를 예약할 수 없습니다. (또한 저장하지 않은 CSV 파일을 보내고 다운로드할 수 있지만, 예약할 수 없습니다.) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >프로젝트 구성 요소 자동 공유</a> </p> </td>
@@ -970,7 +970,7 @@ ht-degree: 98%
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 플로우 시각화 </a></b> </td>
    <td colname="col2"> <p>새로운 플로우 기능을 사용하면 Analysis Workspace의 새롭고 업데이트된 유연한 시각화를 통해 사이트/앱을 이동하는 고객을 봄으로써 고객이 어떻게 사이트/앱에서 이동하고 진행해 가는지를 알 수 있습니다. 플로우를 사용하면 다음 작업을 수행할 수 있습니다. </p> <p> </p>
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC">
-     <li id="li_0F7AF953EAB746DC95032FF9A533E560">에셋 간의 고객 이동 시각화 </li>
+     <li id="li_0F7AF953EAB746DC95032FF9A533E560">자산 간의 고객 이동 시각화 </li>
      <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">고객 이동 경로에 있는 시작, 종료 또는 특정 차원 항목으로부터 바로 다음 단계 분석 </li>
      <li id="li_D13AD928AC434D599D43836FB334B14D">선택한 경로에서 특정 지점을 지정하여 사용자 세그먼트를 동적으로 생성 </li>
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td>
