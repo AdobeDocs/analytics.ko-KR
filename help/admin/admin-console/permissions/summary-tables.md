@@ -3,10 +3,10 @@ title: Adobe Analytics Permissions - 요약 표
 description: Adobe Admin Console의 사용 가능한 Adobe Analytics Permissions을 요약하는 표입니다.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 | 보고서 세트 (쓰기) |  |  |  | x | 사용되지 않습니다. |
 | Site Catalyst |  |  |  | x | 사용되지 않습니다. 대신 &#39;Analysis Workspace&#39;를 사용합니다. |
 | 소셜 |  |  |  | x | 사용되지 않습니다. |
-| 텍스트 리포트릿 |  |  |  | x | 사용되지 않습니다. |
+| 텍스트 리포트릿 |  |  |   | x | 사용되지 않습니다. |
 | 트래픽 관리 |  |  |  | x | 사용되지 않습니다. |
 | 사용 요약 리포트릿 |  |  |  | x | 사용되지 않습니다. |
 | 비디오 설정 |  |  |  | x | 사용되지 않습니다. |
@@ -88,6 +88,7 @@ ht-degree: 100%
 | 지원 | x |  |  |  | 관리자 > 모든 관리자 > 회사 설정 > 지원 정보에 대한 액세스 권한을 부여합니다. |
 | 트래픽 관리 | x |  |  |  | 관리자 > 모든 관리자 > 트래픽 관리에 대한 액세스 권한을 부여합니다. |
 | 웹 서비스 | x |  |  |  | 관리자 > 모든 관리자 > 회사 설정 > 웹 서비스에 대한 액세스 권한을 부여합니다. |
+| 모든 사용자와 프로젝트 링크 공유 | x |  |  |  | Workspace 프로젝트 -> 공유 -> 모든 사용자와 공유할 수 있는 액세스 권한을 사용자에게 부여합니다. |
 | Activity Map |  | x |  |  | 도구 > Activity Map에 대한 액세스 권한을 부여합니다. 사용자가 Activity Map 확장 기능을 사용할 수 있습니다. |
 | Ad Hoc Analysis 라이선스 사용자 |  | x |  |  | Ad Hoc Analysis 서비스가 중단되었습니다. [추가 정보](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace 액세스 |  | x |  |  | Analysis Workspace에 대한 액세스 권한 부여. Adobe Analytics를 사용하려면 사용자가 이 그룹 (기본 설정) 또는 Reports &amp; Analytics 액세스 그룹에 속해야 합니다. |

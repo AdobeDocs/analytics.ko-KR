@@ -3,10 +3,10 @@ description: 데이터 거버넌스를 위한 개인정보 보호 레이블 지�
 title: 데이터 거버넌스를 위한 개인정보 보호 레이블 지정 보기/관리
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 95%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >이 메뉴 항목이 표시되지 않으면 [Admin Console의 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR)에 이 기능에 대한 사용 권한을 추가해야 합니다.
+   >이 메뉴 항목이 표시되지 않으면 [Admin Console의 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko-KR) 이 기능에 대한 사용 권한이 있거나 Admin Console 내에서 보고서 세트에 대한 액세스 권한이 제공되었습니다.
 
 3. 오른쪽 상단에서 보거나 관리할 개인정보 보호 레이블이 있는 보고서 세트를 선택합니다.
 
-![](assets/privacy_labeling.png)
+   ![](assets/privacy_labeling.png)
 
 | 설정 | 설명 |
 | --- | --- |

@@ -3,9 +3,9 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3122'
 ht-degree: 21%
 
 ---
@@ -262,7 +262,6 @@ ht-degree: 21%
          | [!UICONTROL **계정 이름**] | 계정 이름. 원하는 이름을 지정할 수 있습니다. |
          | [!UICONTROL **계정 설명**] | 계정에 대한 설명. |
          | [!UICONTROL **프로젝트 ID**] | Google Cloud 프로젝트 ID입니다. 다음을 참조하십시오. [프로젝트 ID 가져오기에 대한 Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
-         | [!UICONTROL **주체**] | 원칙은 Adobe에서 제공합니다. 피드를 받으려면 이 사용자에게 권한을 부여해야 합니다. 다음을 참조하십시오. [정책에 주도자 추가에 대한 Google Cloud 설명서](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-iam). |
 
          {style="table-layout:auto"}
 
@@ -317,6 +316,7 @@ ht-degree: 21%
 데이터 피드 데이터는 Adobe 또는 고객이 호스팅하는 FTP 위치에 전달할 수 있습니다. FTP 호스트, 사용자 이름 및 암호가 필요합니다. 폴더에 피드 파일을 배치하려면 경로 필드를 사용하십시오. 폴더는 이미 있어야 합니다. 지정된 경로가 존재하지 않을 경우 피드에서 오류가 발생합니다.
 
 사용 가능한 필드를 완성할 때 다음 정보를 사용하십시오.
+
 * [!UICONTROL **호스트**]: 원하는 FTP 대상 URL을 입력합니다. (예: `ftp://ftp.omniture.com`)
 * [!UICONTROL **경로**]: 비워 둘 수 있음
 * [!UICONTROL **사용자 이름**]: FTP 사이트에 로그인할 사용자 이름을 입력합니다.
