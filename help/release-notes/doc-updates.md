@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '4576'
+source-wordcount: '4615'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 7월** | |
+| Adobe Experience Platform Edge Network Server API | 를 구현하는 시기 및 방법에 대한 포괄적인 설명서 추가 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). 예를 들어 데스크탑 애플리케이션용 Adobe Analytics, IoT 디바이스를 구현할 때 셋톱 박스를 설정합니다. |
 | 글로벌 회사 ID | 문서화됨 [글로벌 회사 ID를 찾는 방법](../admin/admin/company/web-services-admin.md) 로그인한 Analytics 회사의 경우 이 ID는 Analytics 2.0 API에 필요합니다. |
 | 업데이트된 FTP 크기 제한 | 기본 [FTP 데이터 스토리지 한도](/help/export/ftp-and-sftp/ftp-limits.md)를 100GB로 변경했습니다. |
 | 새로운 AppMeasurement 변수 | `decodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. [자세히 알아보기](../implement/vars/config-vars/decodelinkparameters.md) |
@@ -98,7 +99,7 @@ ht-degree: 98%
 | 제품 문자열 변수를 설정할 때 Edge Collection용 XDM의 SKU 필드 사용 | Experience Edge/Web SDK를 통해 데이터를 수집하는 고객이 SKU 값을 사용하여 제품 변수의 제품 필드를 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html#products-using-the-web-sdk) |
 | **2022년 6월** |  |
 | Edge Collection용 XDM에서의 머천다이징 변수 | [Edge Collection용 XDM에서의 머천다이징 변수 지원](/help/components/dimensions/evar-merchandising.md)에 대한 문서 |
-| Experience Platform Edge 설명서 | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 및 [Edge API](/help/implement/aep-edge/edge-api/overview.md)를 통한 Adobe Analytics 구현에 대한 새로운 문서 |
+| Experience Platform Edge 설명서 | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 및 [Edge API](/help/implement/aep-edge/server-api/overview.md)를 통한 Adobe Analytics 구현에 대한 새로운 문서 |
 | 업데이트된 흐름 시각화 설명서 | [새 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)를 기반으로 함 |
 | 모바일 스코어카드에서 주석 공유에 대한 설명서 | [모바일 스코어카드에서 작업 영역에 생성된 주석](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)을 표시할 수 있습니다. |
 | **2022년 5월** | |
