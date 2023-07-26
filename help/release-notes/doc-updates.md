@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
 workflow-type: tm+mt
-source-wordcount: '4615'
-ht-degree: 98%
+source-wordcount: '4623'
+ht-degree: 99%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 7월** | |
-| Adobe Experience Platform Edge Network Server API | 를 구현하는 시기 및 방법에 대한 포괄적인 설명서 추가 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). 예를 들어 데스크탑 애플리케이션용 Adobe Analytics, IoT 디바이스를 구현할 때 셋톱 박스를 설정합니다. |
-| 글로벌 회사 ID | 문서화됨 [글로벌 회사 ID를 찾는 방법](../admin/admin/company/web-services-admin.md) 로그인한 Analytics 회사의 경우 이 ID는 Analytics 2.0 API에 필요합니다. |
-| 업데이트된 FTP 크기 제한 | 기본 [FTP 데이터 스토리지 한도](/help/export/ftp-and-sftp/ftp-limits.md)를 100GB로 변경했습니다. |
+| Adobe Experience Platform Edge Network Server API | 를 사용하여 Adobe Analytics으로 데이터 수집을 구현하는 시기 및 방법에 대한 보다 포괄적인 설명서를 추가했습니다. [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). 예를 들어 데스크탑 애플리케이션, IoT 디바이스에서 Adobe Analytics으로 데이터 수집을 구현하는 경우 셋톱 박스를 설정합니다. |
+| 글로벌 회사 ID | 로그인한 Analytics 회사의 [글로벌 회사 ID를 찾는 방법](../admin/admin/company/web-services-admin.md)이 문서화되었습니다. 이 ID는 Analytics 2.0 API에 필요합니다. |
+| 업데이트된 FTP 크기 제한 | 기본 [FTP 데이터 스토리지 한도](/help/export/ftp-and-sftp/ftp-limits.md)가 100GB로 변경되었습니다. |
 | 새로운 AppMeasurement 변수 | `decodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. [자세히 알아보기](../implement/vars/config-vars/decodelinkparameters.md) |
-| 분류 데이터를 수집하기 위한 클라우드 계정 저장소 위치 구성 | 이제 분류 세트 자동화에 사용되는 클라우드 계정 스토리지 위치를 관리할 수 있습니다. [자세히 알아보기](/help/components/locations/configure-import-accounts.md) |
-| 데이터 복구 필터 개선 | 데이터 복구에 3가지 필터링 개선 사항이 추가되었습니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
+| 분류 데이터 수집을 위한 클라우드 계정 스토리지 위치 구성 | 이제 분류 세트 자동화에 사용되는 클라우드 계정 스토리지 위치를 관리할 수 있습니다. [자세히 알아보기](/help/components/locations/configure-import-accounts.md) |
+| 데이터 복구 필터 개선 | 세 가지 필터링 개선 사항이 데이터 복구에 추가되었습니다. [자세히 알아보기](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **2023년 6월** | |
 | 분류 세트의 새로운 기능 | [분류 세트](/help/components/classifications/sets/overview.md)가 몇 가지 새로운 기능으로 업데이트되었습니다.<ul><li>**통합**: 분류 세트를 통합된 단일 분류 세트로 결합합니다. 통합된 분류 세트는 다른 분류 세트처럼 사용하거나 Customer Journey Analytics에서 조회 데이터 세트로 사용할 수 있습니다. [자세히 알아보기](../components/classifications/sets/consolidations/manage.md)</li><li>**규칙**: 분류 세트의 규칙에 따라 값을 자동으로 분류합니다. [자세히 알아보기](../components/classifications/sets/manage/rules.md)</li><li>**자동화된 가져오기**: 클라우드 스토리지 대상에서 분류 세트 데이터를 자동으로 가져옵니다. [자세히 알아보기](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 계산된 지표 업데이트 | 절차 단계 및 스크린샷 업데이트를 포함하여 계산된 지표와 관련된 다양한 문서가 업데이트되었습니다. 문서가 현재 Adobe Analytics 기능에 맞도록 변경되었습니다. |
