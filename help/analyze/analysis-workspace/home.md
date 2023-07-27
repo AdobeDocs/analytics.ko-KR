@@ -7,7 +7,7 @@ exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Analysis Workspace의 데이터 사전을 통해 사용자와 관리자 모두�
 
 ### 데이터 소스
 
-시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다. 다음은 을(를) 수행하는 방법에 대한 자세한 정보입니다 [데이터 소스 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+시각화를 동기화하면 시각화에 해당하는 데이터 테이블 또는 데이터 소스를 제어할 수 있습니다. [데이터 소스 관리](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) 방법에 대해 자세히 알아보십시오.
 
 ## Analysis Workspace 사용 시작
 
