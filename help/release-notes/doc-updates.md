@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics에 대한 기술 설명서 업데이트
-description: Adobe Analytics 설명서 세트에 대한 주요 업데이트.
+description: Adobe Analytics 설명서 세트에 대한 업데이트 내용입니다.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4623'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 기능 | 설명 |
 | --- | --- |
 | **2023년 7월** | |
-| Adobe Experience Platform Edge Network Server API | 를 사용하여 Adobe Analytics으로 데이터 수집을 구현하는 시기 및 방법에 대한 보다 포괄적인 설명서를 추가했습니다. [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). 예를 들어 데스크탑 애플리케이션, IoT 디바이스에서 Adobe Analytics을 사용하여 데이터 수집을 구현하는 경우 셋톱 박스를 설정합니다. |
+| Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md)를 사용하여 Adobe Analytics로 데이터 수집을 구현하는 시기와 방법에 대한 보다 포괄적인 설명서가 추가되었습니다. 예를 들어 데스크탑 애플리케이션, IoT 디바이스, 셋톱 박스에서 Adobe Analytics로 데이터 수집을 구현합니다. |
 | 글로벌 회사 ID | 로그인한 Analytics 회사의 [글로벌 회사 ID를 찾는 방법](../admin/admin/company/web-services-admin.md)이 문서화되었습니다. 이 ID는 Analytics 2.0 API에 필요합니다. |
 | 업데이트된 FTP 크기 제한 | 기본 [FTP 데이터 스토리지 한도](/help/export/ftp-and-sftp/ftp-limits.md)가 100GB로 변경되었습니다. |
 | 새로운 AppMeasurement 변수 | `decodeLinkParameters` 변수는 구현으로 링크 추적 변수에서 멀티바이트 문자를 인코딩하는 극단적 사례를 포함합니다. [자세히 알아보기](../implement/vars/config-vars/decodelinkparameters.md) |
