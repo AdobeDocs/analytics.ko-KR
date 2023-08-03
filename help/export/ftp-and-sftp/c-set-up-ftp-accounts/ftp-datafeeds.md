@@ -4,23 +4,22 @@ keywords: ftp, sftp
 title: 데이터 피드
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 89%
+source-wordcount: '331'
+ht-degree: 84%
 
 ---
 
 # 데이터 피드
 
+>[!NOTE]
+>
+>다음 정보는 FTP 및 SFTP 대상 유형과 관련되어 있습니다. FTP 및 SFTP는 기존 대상 유형입니다. 데이터 피드를 구성할 때는 보다 안전한 클라우드 대상 유형을 사용해야 합니다. 데이터 피드에 대한 클라우드 대상 유형 구성에 대한 자세한 내용은 [데이터 피드 만들기](/help/export/analytics-data-feed/create-feed.md).
+
 데이터 피드는 표준 및 사용자 지정 [데이터 피드](/help/export/analytics-data-feed/data-feed-overview.md)를 모두 제공하는 Adobe로부터 받은 클릭스트림 데이터의 내보내기입니다.
 
 Adobe Data Warehouse를 구매한 경우 [!UICONTROL 표준 데이터 피드]는 고유한 Analytics 데이터 피드를 설정할 수 있습니다. 이러한 데이터 피드는 FTP 계정 (Adobe에서 설정한 계정 또는 외부 FTP에서 설정한 계정)으로 보낼 수 있습니다. Adobe 엔지니어링 서비스는 임의 방법을 통해 가상으로 보낼 수 있는 사용자 지정 [!UICONTROL 데이터 피드]를 제공합니다.
-
->[!NOTE]
->
->다음 정보는 FTP 및 SFTP 대상 유형과 관련되어 있습니다. FTP 및 SFTP는 기존 대상 유형입니다. 데이터 피드를 구성할 때 보다 안전한 클라우드 대상 유형을 사용해야 합니다.
-
 
 [!UICONTROL 데이터 피드]FTP 계정은 10GB (기본값)를 허용합니다. 다른 모든 표준 FTP 계정은 기본적으로 50MB입니다. 클라이언트가 의도한 적절한 용도에 FTP 계정을 사용하는 경우 트래픽 양이 많은 일부 사용자가 이러한 계정을 빠르게 채울 수 있습니다. FTP 계정이 꽉 차면 추가 파일을 푸시할 수 없습니다. 따라서 이 FTP 계정으로 배달되는 파일 ([!UICONTROL 데이터 피드], Data Warehouse 요청 등)은 배달되지 않습니다. 받은 파일과 다운로드한 파일을 제거하여 Adobe FTP 계정을 관리하는 것이 중요한 한 가지 이유가 이 때문입니다.
 
