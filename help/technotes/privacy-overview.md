@@ -4,72 +4,42 @@ keywords: 개인정보 보호
 title: 개인정보 보호 개요
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
+source-git-commit: ee0bf5beeac3c9780eb0c8420845114f7e840aec
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 96%
+source-wordcount: '694'
+ht-degree: 12%
 
 ---
 
 # 개인정보 보호 개요
 
-Adobe는 Adobe 제품 또는 서비스에 의한 브라우징 정보 수집을 옵트아웃하는 기능에 관해 찾기 쉽고 읽기 쉬운 정보를 웹 사이트 방문자에게 제공할 것을 권장합니다.
+방문자는 Adobe [개인정보 보호 센터](https://www.adobe.com/kr/privacy.html)에서 Adobe가 수집하는 정보를 일반적으로 사용하는 방법에 대해 자세히 알아볼 수 있습니다. 조직에서 Adobe의 서비스 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. 조직은 자체 개인정보 처리방침, Adobe과의 서비스 계약 및 모든 적용 가능한 법률을 준수할 책임이 있습니다.
 
-방문자는 Adobe [개인정보 보호 센터](https://www.adobe.com/kr/privacy.html)에서 Adobe가 수집하는 정보를 일반적으로 사용하는 방법에 대해 자세히 알아볼 수 있습니다. 조직에서 Adobe의 서비스 구현 방법을 독점적으로 제어하기 때문에 Adobe 제품 및 서비스의 사용 방법은 조직의 판단에 따라 공개합니다. 귀하는 자체 개인정보 처리방침 작성, 개인정보 처리방침 준수, Adobe와의 서비스 계약 준수, 모든 적용 가능한 법규 준수에 대한 책임을 집니다.
+Adobe은 다음과 같은 중요한 개념을 준수할 것을 강력히 권장합니다.
 
-## 데이터 수집 분류 {#section_F59D958D7AE44747846993E643CD4BF2}
+* **Adobe Analytics에서 개인 식별 정보를 수집하지 마십시오.** 사용자 지정 변수를 사용하면 액세스할 수 있는 거의 모든 항목을 수집할 수 있습니다. 그러나 조직의 개인정보 처리방침 및 적용 가능한 법도 고려해야 합니다.
+* **방문자에게 옵트아웃 정보와 관련하여 찾기 쉽고 이해하기 쉬운 정보를 제공합니다.** 엄격히 필요하지 않은 모든 항목을 옵트아웃하도록 허용합니다. 대다수 유럽 연합 국가는 분석 쿠키가 필수적이라고 간주하지 않습니다.
 
-Adobe Analytics에서는 다음 데이터를 수집합니다.
+## 데이터 수집 분류
 
-| 데이터 유형 | Adobe Analytics에서 이 데이터를 수집합니까? |
-|---|---|
-| 고객 사이트 내 웹 페이지의 URL | 예 |
-| 웹 페이지 이름 | 예 |
-| 페이지 체류 시간 | 예 |
-| 하루 중 시간 | 예 |
-| 제휴하지 않은 사이트에 있는 웹 페이지의 URL | **아니요** |
-| 쿠키 ID (무작위로 생성됨) | 예 |
-| 사용자가 고객 페이지를 방문하기 전에 있었던 페이지의 URL | 예 |
-| 소비자가 고객 페이지로 연결된 링크를 클릭할 때의 검색 쿼리 | 예 |
-| 브라우저 유형 | 예 |
-| 디바이스 유형 | 예 |
-| 운영 체제 | 예 |
-| ISP/연결 속도 | 예 |
-| 디스플레이 설정 (화면 크기 및 해상도) | 예 |
-| IP 주소 (위치를 어림잡는 데 사용) | 예&#42; |
-| 소비자가 고객 사이트에서 양식에 제공하는 정보 | 예 |
-| 소비자가 소셜 사이트에서 양식에 제공하는 정보 | **아니요** |
-| 소비자가 광고를 클릭했는지 여부 | 예 |
-| 소비자가 사이트에 있는 링크, 이미지 또는 텍스트를 클릭했는지 여부 | 예 |
-| 소비자가 파일, 이미지 등을 다운로드했는지 여부 | 예 |
-| 소비자가 구매한 항목 | 예 |
-| 장바구니에 남겨진 항목 | 예 |
-| 소셜 네트워크 정보 (사진, 사용자 ID, 연령, 성별, 위치) | **아니요** |
-| 광고 캠페인 성공률 | 예 |
-| 제품 정보 (색상, 가격, 스타일, 사진 등) | 예 |
+Adobe Analytics은 다음 유형의 데이터를 자동으로 수집하거나 잠재적으로 수집할 수 있습니다.
 
-&#42;Adobe 고객이 IP를 제거하도록 선택하지 않는 경우.
+| 데이터 유형 | 세부 사항 | 이 데이터를 포함하는 예제 변수 |
+| --- | --- | --- |
+| 사이트에 있는 웹 페이지의 페이지 이름 또는 URL | 항상 수집됩니다. 모든 히트에 URL 또는 페이지 이름이 필요합니다. | [페이지](../components/dimensions/page.md), [페이지 URL](../components/dimensions/page-url.md) |
+| 시간 기반 데이터 | 항상 수집됩니다. 데이터 수집에는 타임스탬프가 필요하며 시간 기반 데이터는 타임스탬프에서 파생됩니다. | [페이지에서 보낸 시간](../components/dimensions/time-spent-on-page.md), [시간(일 기준)](../components/dimensions/hour-of-day.md), [오전/오후](../components/dimensions/am-pm.md), [평일/주말](../components/dimensions/weekday-weekend.md), [요일](../components/dimensions/day-of-week.md), [월(연 기준)](../components/dimensions/month-of-year.md) |
+| 다른 사이트의 웹 페이지 데이터 | Adobe은 웹 사이트의 소스 코드를 변경할 수 없는 제휴되지 않은 사이트에서 데이터를 수집할 수 없습니다. AppMeasurement은 방문자가 웹 사이트에 도달하면 참조 URL을 자동으로 수집합니다. 구현을 사용자 정의하여 사이트에 도착한 후 쿼리 문자열 내에서 데이터를 수집할 수 있습니다. | [레퍼러](../components/dimensions/referrer.md), [참조 도메인](../components/dimensions/referring-domain.md) |
+| 익명으로 처리된 방문자 ID | AppMeasurement은 사이트를 방문하는 각 브라우저에 대해 방문자 ID를 자동으로 생성하고 참조합니다. 이 ID는 쿠키에 저장됩니다. 특정 구현에 쿠키를 사용할 수 없는 경우, Adobe Analytics은 IP 주소 및 사용자 에이전트 문자열을 사용하여 방문자 식별을 위한 대체 방법을 사용합니다. 다음을 참조하십시오 [Adobe Analytics 및 브라우저 쿠키](cookies/cookies.md) 추가 정보. | [고유 방문자 수](../components/metrics/unique-visitors.md) |
+| 식별 가능한 방문자 ID | Adobe은 사용자 지정 방문자 ID를 자동으로 수집하지 않습니다. 그러나 구현을 사용자 지정하여 이 데이터를 수집할 수 있습니다. | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
+| 외부 검색어 | AppMeasurement은 참조 URL을 기반으로 이 데이터를 자동으로 수집하려고 합니다. 그러나 많은 최신 검색 엔진은 더 이상 이 정보를 포함하지 않습니다. | [검색 키워드](../components/dimensions/search-keyword.md) |
+| 내부 검색어 | Adobe은 내부 검색 데이터를 자동으로 수집하지 않습니다. 그러나 구현을 사용자 정의하여 이 데이터를 수집할 수 있으며 Adobe Analytics을 사용하는 조직의 일반적인 방법입니다. | [eVar](../components/dimensions/evar.md) |
+| 컴퓨터 및 브라우저 사양 | AppMeasurement은 브라우저 유형, 운영 체제 유형 및 디바이스가 데스크톱이나 모바일인 경우와 같은 낮은 엔트로피 브라우저 힌트를 자동으로 수집합니다. 브라우저의 특정 버전/빌드, 디바이스 모델 또는 운영 체제 버전과 같은 높은 엔트로피 힌트를 수집하려면 구성이 필요합니다. 다음을 참조하십시오 [클라이언트 힌트 개요](client-hints.md) 추가 정보. | [브라우저](../components/dimensions/browser.md), [운영 체제](../components/dimensions/operating-systems.md), [모바일 차원](../components/dimensions/mobile-dimensions.md), [모니터 해상도](../components/dimensions/monitor-resolution.md) |
+| 지리적 위치 정보 | Adobe은 (보고서 세트 수준에서) 각 웹 사이트 또는 앱에 대한 지리적 위치 데이터 수집을 활성화하거나 비활성화하는 기능을 제공합니다. AppMeasurement을 포함한 많은 구현 유형에서 이 데이터를 자동으로 수집합니다. | [도시](../components/dimensions/cities.md), [지역](../components/dimensions/regions.md), [국가](../components/dimensions/countries.md) |
+| IP 주소 | Adobe은 이 데이터를 저장할 때 마지막 옥텟을 가리는 기능 또는 방문자의 IP 주소를 완전히 가리는 기능을 제공합니다. EMEA 고객은 일반적으로 IP 주소를 기본적으로 완전히 숨깁니다. IP 주소는 Adobe Analytics에서 차원으로 사용할 수 없으며, 원시 데이터에만 포함됩니다([데이터 피드](../export/analytics-data-feed/data-feed-overview.md)). | 없음 |
+| 사이트에 제공된 양식 정보 | 이 데이터를 수집하려면 모든 구현 유형을 구성해야 합니다. 이 데이터를 사용자 지정 변수에 포함할 수 있습니다. | [eVar](../components/dimensions/evar.md) |
+| 사이트에 있을 때 클릭한 광고 또는 링크 | AppMeasurement을 사용하는 경우 자동으로 수집됩니다. 클릭 위치와 같은 추가 정보는 Activity Map이 활성화된 상태에서 사용할 수 있습니다. | [Activity Map](../analyze/activity-map/activity-map.md), [종료 링크](../components/dimensions/exit-link.md), [다운로드 링크](../components/dimensions/download-link.md) |
+| 사이트에서 구매한 제품 | 이 데이터를 수집하려면 모든 구현 유형을 구성해야 합니다. Adobe은 이 정보를 저장할 몇 가지 기본 변수를 제공합니다. | [제품](../components/dimensions/product.md), [주문 수](../components/metrics/orders.md), [매출](../components/metrics/revenue.md) |
 
-## 기타 개인정보 보호 고려 사항 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+{style="table-layout:auto"}
 
-| 지역/국가 | 고려 사항 |
-|--- |--- |
-| 글로벌 | 고객은 특히 분석에 필요하지 않은 개인식별정보(PII)를 Adobe에 전달하지 않는 것이 좋습니다. |
-| 글로벌 | 사용자는 프로파일링 시 관련 통지 및 선택권을 제공받아야 합니다. 이는 캐나다, 오스트레일리아, 유럽 연합(일부 국가의 경우 옵트인)과 중남미 및 아시아 태평양의 많은 국가에서 법으로 의무화하고 있습니다. |
-| 글로벌 | 퍼스트 파티 쿠키를 사용하는 경우, Analytics 옵트아웃은 고객별로 고유하며 Adobe.com의 옵트아웃을 신뢰할 수 없습니다. |
-| 글로벌 | 자사 분석은 온라인 행동 광고(&quot;AdChoices&quot;)에 대한 자율 규제 프로그램의 범위에 포함되지 않습니다. |
-| 글로벌 | 디바이스 간 데이터는 고객이 제공한 식별자(해시된 사용자 이름 등)에 연결되어 있지 않은 한 병합되면 안 됩니다. |
-| 글로벌 | 고객에게 광고 노출 정보를 PII에 결합하지 못하게 하는 제한 사항이 적용될 수 있습니다. |
-| 유럽 | 대다수 유럽 연합 국가는 분석 쿠키가 필수적이라고 간주하지 않습니다. |
-| 유럽 | Adobe는 EMEA에 보고서 세트가 설정되어 있는 모든 고객에 대해 [IP-난독화: 활성화됨 - IP 제거됨 (x.x.x.x)]을 기본적으로 활성화했습니다. 이 설정에서 IP 주소는 지역 조회 후 값 (x.x.x.x)으로 완전히 대체되며 더 이상 데이터 포인트로는 제공되지 않습니다. 이 기본 대체 방법은 고유한 특정 IP 주소로 다시 역설계할 수 없습니다. 이 IP 주소는 되돌릴 수 없게 익명으로 처리되므로 고객도 Adobe도 이 IP 주소에 액세스할 수 없습니다. 다른 IP 난독화 설정에 대한 자세한 내용은 다음 도움말 내용을 참조하십시오. 관리자 안내서의 [일반 계정 설정](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
-| 글로벌 | 고객은 JavaScript 측정 코드의 쿠키 라이프타임 변수를 &quot;none&quot;, &quot;session&quot; 또는 다른 지정된 초단위 측정값으로 설정할 수 있습니다. |
-| 유럽 | Adobe는 이제 Adobe Analytics (구 SiteCatalyst) 릴리스 버전 14.9와 15.4에 대해 Adobe ClientCare가 활성화할 수 있는 새로운 “계획적 개인정보 보호” 설정을 개발했습니다. 이 새로운 설정을 활성화할 경우 IP 주소의 마지막 옥텟 (마지막 부분)은 이 IP 주소가 Adobe에 의해 수집되면 즉시 값 0으로 대체됩니다. 이러한 익명화는 선택 사항인 IP 주소의 지역 조회와 ISP 조회를 포함하여, IP 주소의 모든 처리 이전에 수행됩니다. |
-| 독일 | 적절한 Adobe와의 Adobe Analytics용 데이터 처리 계약이 이미 있다면, Adobe 계정 관리자나 고객 성공 관리자에게 연락하고 이들이 Adobe 법무팀과 협조하여 적절한 DPA를 얻어야 합니다. |
-
-## EMEA 데이터 센터 위치 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
-
-다음 EMEA 데이터 센터는 현재 Adobe Analytics 데이터를 호스팅합니다.
-
-| Adobe 이름 | 주소 | 시설 유형 (운영자) | 지원되는 솔루션 구성 요소 | 인증 |
-|--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU 영국 | Colocation Facility(Gyron) | 멀티채널 분석, 디지털 분석 | SSAE 16 |
+아래의 탐색 메뉴를 참조하십시오. [Dimension 개요](../components/dimensions/overview.md) 및 [지표 개요](../components/metrics/overview.md) Adobe이 잠재적으로 아래의 데이터를 수집할 수 있는 추가 변수의 경우.
