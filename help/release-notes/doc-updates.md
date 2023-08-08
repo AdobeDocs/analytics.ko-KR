@@ -45,7 +45,7 @@ ht-degree: 95%
 | 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | 스펙트럼 아이콘 | 설명서의 사용자 인터페이스 아이콘 스크린샷을 [Adobe의 스펙트럼 설계 시스템](https://spectrum.adobe.com/page/icons/)의 해당 아이콘에 대한 참조로 대체하였습니다. |
-| 개선된 IP-to-geolocation 매핑 | [FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=kr)에 대한 주제를 만들었습니다. |
+| 개선된 IP-to-geolocation 매핑 | [FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=ko)에 대한 주제를 만들었습니다. |
 | 보고 활동 관리자 | 이 베타 설명서, 특히 [개별 보고서 모음에 대한 보고 활동 보기 섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)이 업데이트되었습니다. |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |
@@ -237,7 +237,7 @@ ht-degree: 95%
 | 2019년 11월 21일 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)용 새로운 설명서 세트 |
 | 2019년 11월 21일 | LiveStream에서의 가용성을 나타내기 위해 [Audience Analytics 워크플로 FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html)를 업데이트했습니다. |
 | 2019년 10월 25일 | [Adobe Analytics 주요 개념](/help/technotes/terms.md) 페이지가 업데이트되었습니다. |
-| 2019년 10월 10일 | 자유 형식 테이블 업데이트: 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세그먼테이션만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
+| 2019년 10월 10일 | 자유 형식 테이블 업데이트: 이제 **[!UICONTROL 테이블 합계]** 및 **[!UICONTROL 총합계]**&#x200B;라는 두 개의 합계가 포함됩니다. 테이블 요약 행은 적용된 [보고서 필터](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)를 처리합니다. 이전에는 세분화만 합계에 영향을 주었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>또한 **[!UICONTROL 총계 표시]** 및 **[!UICONTROL 총 합계 표시]** 옵션이 **[!UICONTROL 열 설정]**&#x200B;에 추가되었습니다.<br/>자유 양식 합계에 대한 이 변경 사항에 따라 종속 시각화는 내보내기한 CSV 및 PDF 데이터뿐만 아니라 업데이트 (예: 연결된 **[!UICONTROL 요약 번호]** 시각화)됩니다. |
 | 2019년 10월 10일 | 작업 영역에서 “지정되지 않음(없음)”을 쉽게 제거하는 기능이 보고서 필터의 옵션으로 추가되었습니다. |
 | 2019년 10월 10일 | 작업 영역에서 자주색 세부 시간 구성 요소(분, 시간, 일, 주, 월, 분기, 연도)가 더 이상 사용되지 않습니다. 이전에 자주색 시간 구성 요소 중 하나를 사용한 경우에는 **작업을 수행할 필요가 없습니다**.<br/>이 변경 사항으로 자주색 **[!UICONTROL 시간]** 섹션도 **[!UICONTROL 날짜 범위]**&#x200B;로 이름이 변경되었습니다. |
 | 2019년 10월 1일 | [작업 영역 합계](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace)에 대한 새 문서입니다. |
