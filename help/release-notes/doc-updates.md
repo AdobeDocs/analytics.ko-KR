@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4907'
+source-wordcount: '4891'
 ht-degree: 95%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 95%
 | 딥 링크(모바일 앱) 설명서 | 사용자가 앱의 스코어카드 프로젝트로 바로 연결되는 스코어카드 링크를 보낼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics 대시보드 앱(모바일 앱)에 대한 홈 화면 업데이트 설명서 | 새롭게 업데이트된 홈 화면에서는 모든 스코어카드를 하나의 통합된 스코어카드 목록에서 볼 수 있습니다. [자세히 알아보기](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | 스펙트럼 아이콘 | 설명서의 사용자 인터페이스 아이콘 스크린샷을 [Adobe의 스펙트럼 설계 시스템](https://spectrum.adobe.com/page/icons/)의 해당 아이콘에 대한 참조로 대체하였습니다. |
-| 개선된 IP-to-geolocation 매핑 | [FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=ko)에 대한 주제를 만들었습니다. |
 | 보고 활동 관리자 | 이 베타 설명서, 특히 [개별 보고서 모음에 대한 보고 활동 보기 섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)이 업데이트되었습니다. |
 | Analysis Workspace 개요 | 보다 일반적인 개요 정보와 관련 콘텐츠에 대한 링크를 포함하도록 [Analysis Workspace 개요](/help/analyze/analysis-workspace/home.md)가 업데이트되었습니다. |
 | 프로젝트 만들기 | Analysis Workspace에서 [프로젝트 만들기](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 방법을 자세히 설명하는 새 문서를 만들었습니다. |

@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 기술 노트
 breadcrumb-title: 기술 노트
 user-guide-description: 특정 분석 도구 또는 구성 요소에 속하지 않는 유용한 문서가 포함된 기술 자료를 찾아봅니다.
-source-git-commit: d53b13e6f67c8a769f5e56ba1c2582450a16c920
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 100%
 + [데이터 보존](data-retention.md)
 + [데이터 제외](exclude-data.md)
 + [Adobe Analytics에서 사용하는 IP 및 도메인](ip-addresses.md)
-+ [개선된 IP-to-geolocation 매핑](ip-geo-mapping.md)
 + [지연](latency.md)
 + [낮은 트래픽 값](low-traffic.md)
 + [모바일 서비스 처리 규칙을 Adobe Analytics로 마이그레이션](migrate-mobile.md)
