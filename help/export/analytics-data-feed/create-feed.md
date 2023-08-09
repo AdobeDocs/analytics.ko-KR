@@ -3,9 +3,9 @@ title: 데이터 피드 만들기
 description: 데이터 피드를 만드는 방법을 알아봅니다.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3174'
 ht-degree: 21%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->데이터 피드를 만들기 전에 데이터 피드에 대해 기본적으로 이해하고 모든 필요한 사전 요구 사항을 충족해야 합니다. 자세한 내용은 [데이터 피드 개요](data-feed-overview.md).
+>데이터 피드를 만들기 전에 데이터 피드에 대해 기본적으로 이해하고 모든 필요한 전제 조건을 충족하는지 확인하는 것이 중요합니다. 자세한 내용은 [데이터 피드 개요](data-feed-overview.md).
 
 ## 데이터 피드 만들기 및 구성
 
@@ -45,6 +45,15 @@ ht-degree: 21%
    | [!UICONTROL **연속 공급**] | 이 확인란을 선택하면 종료 날짜가 제거되어 피드가 무기한 실행될 수 있습니다. 한 피드가 이전 데이터 처리를 완료하면 한 피드가 지정된 시간 또는 날 동안 데이터 수집이 완료되기를 기다립니다. 현재 시간 또는 날이 끝나면 지정된 지연 후 처리가 시작됩니다. |
 
 1. 다음에서 [!UICONTROL **대상**] 섹션, [!UICONTROL **유형**] 드롭다운 메뉴에서 데이터를 전송할 대상을 선택합니다.
+
+   >[!NOTE]
+   >
+   >보고서 대상을 구성할 때는 다음 사항을 고려하십시오.
+   >
+   >* 보고서 대상에 클라우드 계정을 사용하는 것이 좋습니다. [기존 FTP 및 SFTP 계정](#legacy-destinations) 사용할 수 있지만 권장되지는 않습니다.
+   >
+   >* 클라우드 계정은 Adobe Analytics 사용자 계정과 연결되어 있습니다. 다른 사용자는 사용자가 구성한 클라우드 계정을 사용하거나 볼 수 없습니다.
+   >
 
    ![데이터 피드 대상 드롭다운 메뉴](assets/datafeed-destinations-dropdown.png)
 
